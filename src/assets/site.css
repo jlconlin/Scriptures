@@ -398,6 +398,19 @@ a.ref-internal { text-decoration-style: dotted; }
 @media (prefers-reduced-motion: reduce) { .note, .verse:target, .verse.flash { animation: none; } }
 .hint-wide { display: none; }
 
+/* “Related” mode: every note stays visible as a compact card; click one to expand it. */
+.note-teaser { display: none; }
+.note.is-card { padding: 9px 12px 10px; box-shadow: none; cursor: pointer; animation: none; margin: 4px 0 10px; }
+.note.is-card:hover { border-color: var(--k); }
+.note.is-card .note-head { margin-bottom: 3px; }
+.note.is-card .kind-chip { font-size: .7rem; padding-block: 1px; }
+.note.is-card .note-link, .note.is-card .note-close,
+.note.is-card .note-body, .note.is-card .note-sources, .note.is-card .bom-text, .note.is-card .bom-legend { display: none; }
+.note.is-card .note-title { font-size: .98rem; margin: 0 0 2px; }
+.note.is-card .note-teaser { display: block; margin: 0; font-size: .86em; line-height: 1.45; color: var(--ink-2); }
+.phr.is-linked { background: color-mix(in srgb, var(--k) 20%, transparent); }
+.marker.is-linked { outline: 2px solid var(--k); outline-offset: 1px; }
+
 /* Wide screens: notes open in the right margin beside their phrase, so the text never moves.
    site.js sets each open note's `top` and keeps them from overlapping. */
 @media (min-width: 1200px) {

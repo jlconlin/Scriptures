@@ -38,6 +38,22 @@ function highlightVerse(text, notes, warn) {
   return out + esc(text.slice(pos));
 }
 
+/** Opening of a note for the compact “related content” card: the first sentence, plus the next
+ *  when the first is very short. A period only ends a sentence when the next word isn't a number,
+ *  so references like “Isa. 53:1” don't cut it short. */
+function teaser(md) {
+  const sentence = /^.*?[.!?]["”’)]*(?=\s+[^\s\d]|$)/;
+  let rest = plain(md);
+  let x = '';
+  while (rest && x.length < 70) {
+    const s = rest.match(sentence)?.[0] ?? rest;
+    x = x ? `${x} ${s}` : s;
+    rest = rest.slice(s.length).trim();
+  }
+  if (x.length > 190) x = `${x.slice(0, 180).replace(/\s+\S*$/, '')}…`;
+  return x;
+}
+
 function noteHtml(n, sources) {
   const k = KINDS[n.kind];
   const src = (n.sources ?? []).map((s) => renderSource(s, sources)).filter(Boolean);
@@ -48,6 +64,7 @@ function noteHtml(n, sources) {
     <button type="button" class="note-close" aria-label="Close note" data-close="${n.id}">×</button>
   </div>
   <h4 class="note-title">${mdInline(n.title ?? (n.phrase ? `“${n.phrase}”` : 'A closer look'))}</h4>
+  <p class="note-teaser">${esc(teaser(n.body))}</p>
   <div class="note-body prose">${md(n.body)}</div>
   ${src.length ? `<p class="note-sources"><span>Sources:</span> ${src.join(' ')}</p>` : ''}
 </aside>`;
@@ -190,7 +207,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
         </div>
         <div class="reader-actions">
           <button type="button" class="tool" data-action="toggle-plain" aria-pressed="true" title="Show or hide the plain-words summaries">${icon('text')}<span>Summaries</span></button>
-          <button type="button" class="tool" data-action="open-all" aria-pressed="false" title="Open every note">${icon('expand')}<span>All notes</span></button>
+          <button type="button" class="tool" data-action="related" aria-pressed="false" title="Show every note as a card beside the text">${icon('panel')}<span>Related</span></button>
           <button type="button" class="tool" data-action="font" title="Text size" aria-label="Change text size"><span class="aa">Aa</span></button>
         </div>
       </div>

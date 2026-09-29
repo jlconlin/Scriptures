@@ -45,6 +45,11 @@
   const reader = $('.reader');
   if (reader) {
     const triggersFor = (id) => $$(`[data-note="${id}"]`);
+    const kindOf = (el) => [...el.classList].find((c) => c.startsWith('k-'))?.slice(2);
+    const hidden = new Set(JSON.parse(store.get('hiddenKinds') || '[]'));
+    // “Related” mode: every note stays visible as a compact card (class is-card); one at a time expands.
+    let related = false;
+    const isOpen = (n) => !n.hidden && !n.classList.contains('is-card');
 
     // Wide screens: CSS puts open notes in the right margin; here we set each one's
     // vertical position beside its phrase. The note opened last sits exactly beside its
@@ -85,7 +90,9 @@
 
     const setNote = (note, open, { scroll = false } = {}) => {
       if (!note) return;
-      note.hidden = !open;
+      const asCard = !open && related && !hidden.has(kindOf(note));
+      note.hidden = !open && !asCard;
+      note.classList.toggle('is-card', asCard);
       triggersFor(note.id).forEach((b) => b.setAttribute('aria-expanded', String(open)));
       if (open) lastOpened = note;
       else if (lastOpened === note) lastOpened = null;
@@ -99,11 +106,27 @@
       }
     };
 
+    const collapseOthers = (keep) => $$('.note', reader).forEach((n) => { if (n !== keep && isOpen(n)) setNote(n, false); });
+
+    // Hovering a note highlights the phrase it belongs to.
+    $$('.note', reader).forEach((n) => {
+      n.addEventListener('mouseenter', () => triggersFor(n.id).forEach((b) => b.classList.add('is-linked')));
+      n.addEventListener('mouseleave', () => triggersFor(n.id).forEach((b) => b.classList.remove('is-linked')));
+    });
+
     reader.addEventListener('click', (e) => {
       const trig = e.target.closest('[data-note]');
       if (trig) {
         const note = document.getElementById(trig.dataset.note);
-        setNote(note, note.hidden, { scroll: true });
+        const open = !isOpen(note);
+        if (open && related) collapseOthers(note);
+        setNote(note, open, { scroll: true });
+        return;
+      }
+      const card = e.target.closest('.note.is-card');
+      if (card && !e.target.closest('a')) {
+        collapseOthers(card);
+        setNote(card, true);
         return;
       }
       const close = e.target.closest('[data-close]');
@@ -136,7 +159,6 @@
     addEventListener('hashchange', openFromHash);
 
     // Filters by kind
-    const hidden = new Set(JSON.parse(store.get('hiddenKinds') || '[]'));
     const applyFilters = () => {
       $$('.legend .filter').forEach((b) => b.setAttribute('aria-pressed', String(!hidden.has(b.dataset.kind))));
       $$('.phr, .marker').forEach((b) => {
@@ -144,8 +166,9 @@
         const off = hidden.has(k);
         b.classList.toggle('filtered', off);
         off ? b.setAttribute('tabindex', '-1') : b.removeAttribute('tabindex');
-        if (off) setNote(document.getElementById(b.dataset.note), false);
       });
+      // Hide notes of filtered kinds; in related mode, show the others as cards again.
+      $$('.note', reader).forEach((n) => { if (!isOpen(n) || hidden.has(kindOf(n))) setNote(n, false); });
     };
     $$('.legend .filter').forEach((b) =>
       b.addEventListener('click', () => {
@@ -169,15 +192,19 @@
       store.set('showPlain', on ? '1' : '0');
     });
 
-    const allBtn = $('[data-action="open-all"]');
-    allBtn?.addEventListener('click', () => {
-      const open = allBtn.getAttribute('aria-pressed') !== 'true';
-      allBtn.setAttribute('aria-pressed', String(open));
-      $$('.note').forEach((n) => {
-        const k = [...n.classList].find((c) => c.startsWith('k-'))?.slice(2);
-        setNote(n, open && !hidden.has(k));
-      });
-      lastOpened = null; // stack every margin note downward from the top
+    const relatedBtn = $('[data-action="related"]');
+    const setRelated = (on) => {
+      related = on;
+      document.body.classList.toggle('related-on', on);
+      relatedBtn?.setAttribute('aria-pressed', String(on));
+      $$('.note', reader).forEach((n) => { if (!isOpen(n)) setNote(n, false); });
+      scheduleLayout();
+    };
+    setRelated(store.get('related') === '1');
+    relatedBtn?.addEventListener('click', () => {
+      const on = !related;
+      setRelated(on);
+      store.set('related', on ? '1' : '0');
     });
 
     const scales = ['1', '1.12', '1.25', '0.92'];
