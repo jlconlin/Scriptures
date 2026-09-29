@@ -5,8 +5,8 @@ This file tells a person or an AI assistant how to continue writing the commenta
 ## Status (2026-09-29)
 
 - Site framework, guides (content/isaiah/guides/), and About page: done.
-- Chapter commentary: **Isaiah 1–52 done.** Chapters 38 onward are written at the semi-academic standard described below.
-- Remaining: 53–66.
+- Chapter commentary: **Isaiah 1–53 done.** Chapters 38 onward are written at the semi-academic standard described below.
+- Remaining: 54–66.
 - **Plan (decided 2026-09-29):** write 53–66 one chapter at a time, all the way through, without stopping to revise. Record judgment calls and unverified claims under “Open questions for review” as you go. After 66, do a single revision pass: resolve the open questions, then deepen chapters 1–37 (see “Revision plan” below).
 - Planned feature for later: **theme pages** covering topics that span many chapters. They differ from the existing guides (`content/isaiah/guides/`), which are general introductions to reading Isaiah. Don’t build them yet; add candidates to “Theme candidates” below while writing chapters.
 - Not yet done: a README and `scripts/check-links.mjs` (referenced in package.json). The repo is at `git@github.com:jlconlin/Scriptures.git`.
@@ -23,12 +23,21 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 2: removed an unconfirmed claim that the Great Isaiah Scroll has “and increased him.” Check the scroll if this detail matters.
 
 **Isaiah 52**
+- Length: chapters 51 (about 5,800 words) and 52 (about 5,400 words, 15 notes) are denser than the chapter 50 standard. Trim both.
+- v. 7: Scripture Central KnoWhy #89 (“Why Would Noah’s Priests Quiz Abinadi on Isaiah?”, https://scripturecentral.org/knowhy/why-would-noahs-priests-quiz-abinadi-on-isaiah) argues that Zeniff’s colony saw itself as fulfilling Isa. 52:7–10, and cites a Dead Sea Scroll (11QMelchizedek) that reads the mountains as the prophets and the messenger as “the anointed one.” This could replace the note’s unsupported “the question was probably a trap.”
+- v. 15: KnoWhy #215 (“Who is the Servant Spoken of by Christ?”, https://scripturecentral.org/knowhy/who-is-the-servant-spoken-of-by-christ) gives a third reading of the servant in 3 Ne. 21:10: the Book of Mormon itself (Strathearn and Moody). Consider adding it.
 - v. 15 / 3 Ne. 21:10: the note calls the Joseph Smith identification of the marred servant widespread but an interpretation, and gives Christ as the alternative. Decide whether that framing is right. Ludlow, Nyman, and Parry are listed as sources without saying what each argues; check them.
 - v. 15 (“sprinkle” or “startle”): the note presents the grammatical objection to “sprinkle” plainly rather than defending the KJV. Decide whether the balance is right.
 - v. 14: the attribution of the “I anointed” reading of 1QIsaᵃ to William Brownlee is from memory; confirm.
 - v. 8: the claim that the English idiom “see eye to eye” comes from this verse is from memory; confirm against the OED.
 - v. 13: the summary of Bauckham’s argument linking Isa. 6:1, 52:13, and John 12 is from memory; confirm.
 - Scope: the fourth Servant Song (52:13–53:12) is split at the chapter break. Chapter 52 covers only the opening verses and leaves the servant’s identity to chapter 53. Decide whether that split works.
+
+**Isaiah 53**
+- Setting: the Hezekiah theory (Margaret Barker, reported by Scripture Central KnoWhy #648) is mentioned in a single sentence as one theory among many. Keep or cut?
+- v. 4: the argument that Alma 7:11 renders the Hebrew of 53:4 more literally than the KJV is Thomas Wayment’s, cited through KnoWhy #564. Wayment’s original article hasn’t been checked.
+- v. 9: the reading of the Great Isaiah Scroll’s *bwmtw* as “burial mound,” and, in v. 11, the list of Qumran manuscripts that read “light” (1QIsaᵃ, 1QIsaᵇ, 4QIsaᵈ), are from memory; confirm.
+- Setting: the attributions to Origen (*Against Celsus* 1.55) and Rashi are from memory; confirm.
 
 ## Theme candidates
 
@@ -43,6 +52,8 @@ Topics that run across several chapters, collected for the future theme pages. A
 - **Zion as a woman** (bereaved mother, divorced wife, captive daughter): 49:14–21, 50:1, 51:17–52:2, 54:1–8; contrast Babylon in chapter 47.
 - **Watchmen:** 21:6–12, 52:8, 56:10, 62:6.
 - **The herald of good news (*bāśar*):** 40:9, 41:27, 52:7, 61:1; Mosiah 15:13–18.
+- **Isaiah in Abinadi’s trial:** 52:7–10 and all of 53; [[Mosiah 12:20–24]], [[Mosiah 14–15]].
+- **Exchange** (he bears ours, we receive his): 53:4–6, 53:11–12; compare 61:3 (“beauty for ashes”).
 - **The Lord as comforter (*niḥam*):** 40:1, 49:13, 51:3, 51:12, 51:19, 52:9, 66:13.
 
 ## Workflow for each chapter
@@ -79,6 +90,7 @@ The site is **semi-academic**. The target reader is academically trained, for ex
 - **Don’t oversimplify.** Engage real scholarly questions directly: textual variants (Masoretic Text, Septuagint, the Great Isaiah Scroll 1QIsaᵃ, Book of Mormon readings), dating and authorship debates, Near Eastern parallels and archaeology, translation choices, and literary structure. Name the positions fairly, including non-Latter-day Saint scholarship, and explain what is at stake. Then present the Latter-day Saint reading and its basis.
 - **Explain the specialist tools.** Define technical terms the first time they appear (for example *qere/ketiv*, *Masoretic*, chiasmus, *prophetic perfect*). Transliterate Hebrew, and explain the Hebrew morphology when it matters for meaning.
 - **Document without cluttering.** Support claims with sources, in each note’s `sources` list or in a brief inline attribution (“Oswalt argues…”, “Sennacherib’s annals claim…”). Keep the prose readable. Citations should support the message, not interrupt it. Say how certain a claim is: established fact, scholarly consensus, a plausible hypothesis, or devotional application.
+- **Be selective; don’t include everything you find.** The site should not feel busy. Aim for roughly the length of chapter 50 (about 3,500 words, 8–11 notes). Where several sources or cross-references make the same point, use the best one. Where two notes overlap, merge them or cut one. Good material that doesn’t serve the chapter’s thread can be left out.
 - **Go for depth over breadth.** A few well-developed notes that make real connections, across the canon, across the Restoration scriptures, and across the book of Isaiah, are better than many shallow ones.
 - Chapters 1–37 were written somewhat closer to a general audience. See the revision plan below.
 
