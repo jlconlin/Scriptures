@@ -7,7 +7,8 @@ This file tells a person or an AI assistant how to continue writing the commenta
 - Site framework, guides (content/isaiah/guides/), and About page: done.
 - Chapter commentary: **Isaiah 1–37 done.** Isaiah 38 is started: `content/isaiah/chapters/38.yaml` has `setting` and `thread` but no `sections`, `notes`, `christ`, `liken`, `explore`, `parallels`, or `sources` yet.
 - Remaining: finish 38, then 39–66.
-- Not yet done: a GitHub Pages deploy workflow (`.github/workflows/`), a README, `scripts/check-links.mjs` (referenced in package.json), and the first push to `git@github.com:jlconlin/Scriptures.git`.
+- Not yet done: a README and `scripts/check-links.mjs` (referenced in package.json). The repo is at `git@github.com:jlconlin/Scriptures.git`.
+- Hosting: the site will be served at https://scriptures.conlin.io, but **not** by GitHub Pages. The host has not been chosen yet. `npm run build` writes a plain static site to `dist/` that can be served from any static host or web server. Configure the server to serve `404.html` for missing paths (in nginx: `error_page 404 /404.html;`), because it redirects `/Isaiah`, `/isaiah/53`, and similar paths to their canonical URLs.
 
 ## Workflow for each chapter
 
