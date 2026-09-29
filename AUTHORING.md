@@ -5,8 +5,8 @@ This file tells a person or an AI assistant how to continue writing the commenta
 ## Status (2026-09-29)
 
 - Site framework, guides (content/isaiah/guides/), and About page: done.
-- Chapter commentary: **Isaiah 1–57 done.** Chapters 38 onward are written at the semi-academic standard described below.
-- Remaining: 58–66.
+- Chapter commentary: **Isaiah 1–58 done.** Chapters 38 onward are written at the semi-academic standard described below.
+- Remaining: 59–66.
 - **Plan (decided 2026-09-29):** write 53–66 one chapter at a time, all the way through, without stopping to revise. Record judgment calls and unverified claims under “Open questions for review” as you go. After 66, do a single revision pass: resolve the open questions, then deepen chapters 1–37 (see “Revision plan” below).
 - **Theme pages** cover topics that span many chapters. Each is a Markdown file in `content/isaiah/themes/` (same format as the guides: YAML front matter with `title`, `blurb`, `icon`, `sources`, then prose) and is published at `/isaiah/themes/<file name>/`, with an index at `/isaiah/themes/` and cards on the Isaiah page. Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`). Done: **The Servant Songs**. When a chapter touches a theme that has a page, link to it instead of re-explaining the theme. Add future candidates to “Theme candidates” below.
 - Not yet done: `scripts/check-links.mjs` and `scripts/check-content.mjs` (both referenced in package.json). The repo is at `git@github.com:jlconlin/Scriptures.git`.
@@ -75,6 +75,10 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 15: the link between *dakkāʾ* (“contrite”) and *mədukkāʾ* (“bruised,” 53:5) is the site’s own observation and is presented as such.
 - v. 21: the division of 40–66 into three nine-chapter parts by the “no peace” refrains is attributed to “many readers.” It goes back at least to Delitzsch; confirm and decide whether to cite.
 
+**Isaiah 58**
+- Setting and v. 1: the Yom Kippur morning reading is given as 57:14–58:14 (the standard range, from memory); the link between the chapter and the Day of Atonement or Jubilee is presented as possible, not certain.
+- v. 6: the two explanations for Luke 4:18’s phrase from Isa. 58:6 LXX (Jesus linked the texts as He read, or Luke combined them) are both given without choosing. Decide whether that is the right balance.
+
 ## Theme candidates
 
 Topics that run across several chapters, collected for the future theme pages. Add to a line when a new chapter develops the theme; add a line for a new theme.
@@ -91,6 +95,7 @@ Topics that run across several chapters, collected for the future theme pages. A
 - **The herald of good news (*bāśar*):** 40:9, 41:27, 52:7, 61:1; Mosiah 15:13–18.
 - **Isaiah in Abinadi’s trial:** 52:7–10 and all of 53; [[Mosiah 12:20–24]], [[Mosiah 14–15]].
 - **Exchange** (he bears ours, we receive his): 53:4–6, 53:11–12; compare 61:3 (“beauty for ashes”).
+- **Jubilee and release** (Lev. 25:8–13): 58:6, 61:1–2 (“the acceptable year of the LORD”); Luke 4:18–19.
 - **The word of God** that stands and does its work: 40:6–8 and 55:10–11 frame chapters 40–55; compare D&C 1:38.
 - **The free meal:** 25:6–8, 55:1–2; Prov. 9:1–6; John 7:37; 2 Ne. 9:50–51; 2 Ne. 26:25.
 - **The Lord as comforter (*niḥam*):** 40:1, 49:13, 51:3, 51:12, 51:19, 52:9, 66:13.
