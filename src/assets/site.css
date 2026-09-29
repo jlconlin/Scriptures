@@ -440,3 +440,20 @@ a.ref-internal { text-decoration-style: dotted; }
   .note[hidden] { display: block !important; }
   body { background: #fff; }
 }
+
+/* ---------- map (Isaiah’s World) ---------- */
+.map-figure { margin: 1.5em 0; }
+.map { width: 100%; height: auto; display: block; font-family: var(--font-ui); }
+.map .m-land { fill: color-mix(in srgb, var(--k-history) 10%, var(--surface)); stroke: var(--line); }
+.map .m-sea { fill: color-mix(in srgb, var(--div-comfort) 22%, var(--surface)); }
+.map .m-lake { fill: none; stroke: color-mix(in srgb, var(--div-comfort) 45%, transparent); stroke-width: 6; stroke-linecap: round; }
+.map .m-river { fill: none; stroke: color-mix(in srgb, var(--div-comfort) 55%, transparent); stroke-width: 2.2; stroke-linecap: round; }
+.map text { fill: var(--ink-2); font-size: 12px; }
+.map .m-sea-label { font-style: italic; fill: color-mix(in srgb, var(--div-comfort) 80%, var(--ink)); font-size: 13px; }
+.map .m-empire text { font-weight: 800; letter-spacing: .12em; font-size: 13px; fill: color-mix(in srgb, var(--ink) 55%, transparent); }
+.map .m-region text { font-weight: 700; letter-spacing: .08em; font-size: 10px; fill: var(--muted); }
+.map .m-city circle { fill: var(--ink-2); }
+.map .m-home { fill: var(--accent) !important; }
+.map .m-home-label { font-weight: 800; fill: var(--accent-ink); font-size: 13px; }
+.map .m-small { font-size: 10.5px; fill: var(--muted); }
+.map-figure figcaption { font-size: .88rem; color: var(--muted); margin-top: 8px; font-family: var(--font-ui); }

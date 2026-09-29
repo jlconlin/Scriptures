@@ -51,9 +51,10 @@ const norm = (b) => b.toLowerCase().replace(/[.\s]/g, '');
 
 /** Parse "2 Ne. 25:1–8" -> {book, vol, slug, chapter, verses:[first,last]|null}. `prevBook` lets "13:4" inherit. */
 export function parseRef(text, prevBook) {
-  const m = text.trim().match(/^(.*?)\s*(\d+)(?::\s*(\d+)(?:\s*[–-]\s*(\d+))?(?:\s*,.*)?)?(?:\s*[–-]\s*(\d+))?$/);
+  const m = text.trim().match(/^(.*?)\s*(\d+)(?::\s*(\d+)(?:\s*[–-]\s*(\d+)(:\d+)?)?(?:\s*,.*)?)?(?:\s*[–-]\s*(\d+))?$/);
   if (!m) return null;
-  let [, bookText, chapter, v1, v2] = m;
+  let [, bookText, chapter, v1, v2, crossChapter] = m;
+  if (crossChapter) v2 = undefined; // e.g. 9:8–10:4 links to 9:8
   bookText = bookText.trim();
   const book = bookText || prevBook;
   if (!book) return null;

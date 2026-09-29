@@ -10,6 +10,7 @@ const url = `https://raw.githubusercontent.com/aruljohn/Bible-kjv/master/${book}
 const LDS_SPELLINGS = [
   [/Shearjashub/g, 'Shear-jashub'],
   [/Mahershalalhashbaz/g, 'Maher-shalal-hash-baz'],
+  [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 
 const res = await fetch(url);
