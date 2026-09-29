@@ -5,8 +5,8 @@ This file tells a person or an AI assistant how to continue writing the commenta
 ## Status (2026-09-29)
 
 - Site framework, guides (content/isaiah/guides/), and About page: done.
-- Chapter commentary: **Isaiah 1–53 done.** Chapters 38 onward are written at the semi-academic standard described below.
-- Remaining: 54–66.
+- Chapter commentary: **Isaiah 1–54 done.** Chapters 38 onward are written at the semi-academic standard described below.
+- Remaining: 55–66.
 - **Plan (decided 2026-09-29):** write 53–66 one chapter at a time, all the way through, without stopping to revise. Record judgment calls and unverified claims under “Open questions for review” as you go. After 66, do a single revision pass: resolve the open questions, then deepen chapters 1–37 (see “Revision plan” below).
 - **Theme pages** cover topics that span many chapters. Each is a Markdown file in `content/isaiah/themes/` (same format as the guides: YAML front matter with `title`, `blurb`, `icon`, `sources`, then prose) and is published at `/isaiah/themes/<file name>/`, with an index at `/isaiah/themes/` and cards on the Isaiah page. Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`). Done: **The Servant Songs**. When a chapter touches a theme that has a page, link to it instead of re-explaining the theme. Add future candidates to “Theme candidates” below.
 - Not yet done: a README and `scripts/check-links.mjs` (referenced in package.json). The repo is at `git@github.com:jlconlin/Scriptures.git`.
@@ -59,6 +59,11 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - Servant Song boundaries: the site cites the full passages (42:1–9, 49:1–13, 50:4–11, 52:13–53:12) so readers don’t miss the verses that answer each song; the author found a separate “core vs. extended” column not worth its space. Check older chapters and guides for other ranges (42:1–4, 42:1–7, 49:1–6, and so on) and make them consistent.
 - The chapter 53 `setting` is still about 340 words after moving the servant debate to the theme page; trim toward the 150–250 word guideline.
 
+**Isaiah 54**
+- v. 10: the reading of the chapter as the closing blessing of the Savior’s covenant with the Nephites, and the link to the upheavals of 3 Ne. 8, come from Scripture Central KnoWhy #216 and are presented as a suggestion. Keep?
+- v. 7: the claim that *šeṣep* (“a little wrath”) occurs nowhere else in the Bible, and v. 11–12: the gem identifications (sapphire as lapis lazuli, and so on), are from memory; confirm against a lexicon.
+- v. 4: the Nephite text’s repeated line (“the reproach of thy youth”) is described as possibly emphasis or a copying slip. Worth checking whether the critical text of the Book of Mormon comments on it.
+
 ## Theme candidates
 
 Topics that run across several chapters, collected for the future theme pages. Add to a line when a new chapter develops the theme; add a line for a new theme.
@@ -69,7 +74,8 @@ Topics that run across several chapters, collected for the future theme pages. A
 - **The new exodus:** 40:3–5, 43:16–21, 48:20–21, 51:9–11, 52:11–12.
 - **“High and lifted up”:** 2:12–17, 6:1, 52:13, 57:15; John 12:32–41.
 - **The cup of wrath:** 51:17–23; Jer. 25:15–29; Matt. 26:39; D&C 19:18.
-- **Zion as a woman** (bereaved mother, divorced wife, captive daughter): 49:14–21, 50:1, 51:17–52:2, 54:1–8; contrast Babylon in chapter 47.
+- **Zion as a woman** (bereaved mother, divorced wife, captive daughter, barren woman who becomes a mother): 49:14–21, 50:1, 51:17–52:2, 54:1–10; contrast Babylon in chapter 47. The Lord as husband and Redeemer (*gōʾēl*): 50:1, 54:5–8, 62:4–5.
+- **From servant to servants:** “servant” is singular 20 times in chapters 41–53 and plural 11 times from 54:17 to the end (56:6, 63:17, 65:8–15, 66:14). Could become a section of the Servant Songs page.
 - **Watchmen:** 21:6–12, 52:8, 56:10, 62:6.
 - **The herald of good news (*bāśar*):** 40:9, 41:27, 52:7, 61:1; Mosiah 15:13–18.
 - **Isaiah in Abinadi’s trial:** 52:7–10 and all of 53; [[Mosiah 12:20–24]], [[Mosiah 14–15]].
