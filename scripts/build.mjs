@@ -21,7 +21,13 @@ async function write(rel, content) {
   await writeFile(file, content);
 }
 
-const readYaml = async (p) => YAML.parse(await readFile(p, 'utf8'));
+const readYaml = async (p) => {
+  try {
+    return YAML.parse(await readFile(p, 'utf8'));
+  } catch (e) {
+    throw new Error(`${path.relative(ROOT, p)}: ${e.message}`);
+  }
+};
 
 /** Parse a markdown file with optional YAML front matter. */
 async function readMd(p) {
