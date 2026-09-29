@@ -29,11 +29,15 @@ async function chapterText(r) {
   const file = path.join(CACHE, `${volPath.replace(/\//g, '_')}_${r.chapter}.txt`);
   if (existsSync(file)) return norm(await readFile(file, 'utf8'));
   const url = `https://www.churchofjesuschrist.org/study/scriptures/${volPath}/${r.chapter}?lang=eng`;
-  const html = await (await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 (quote checker)' } })).text();
+  const res = await fetch(url, { headers: { 'User-Agent': 'Mozilla/5.0 (quote checker)' } });
+  // Fail loudly rather than caching an empty chapter, which would make every quotation look wrong.
+  if (!res.ok) throw new Error(`${url}: HTTP ${res.status}. Behind a proxy, run with NODE_USE_ENV_PROXY=1.`);
+  const html = await res.text();
   const body = [...html.matchAll(/<p[^>]*\bid="(?:p\d+|title\d+|intro\d+|study_summary\d+)"[^>]*>(.*?)<\/p>/gs)]
     .map((m) => m[1].replace(/<sup[^>]*>.*?<\/sup>/gs, ''))
     .join(' ');
   const text = norm(body);
+  if (!text) throw new Error(`${url}: no scripture text found on the page`);
   await writeFile(file, text);
   await new Promise((res) => setTimeout(res, 300));
   return text;
