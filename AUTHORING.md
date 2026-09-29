@@ -5,8 +5,8 @@ This file tells a person or an AI assistant how to continue writing the commenta
 ## Status (2026-09-29)
 
 - Site framework, guides (content/isaiah/guides/), and About page: done.
-- Chapter commentary: **Isaiah 1–65 done.** Chapters 38 onward are written at the semi-academic standard described below.
-- Remaining: 66.
+- Chapter commentary: **all 66 chapters of Isaiah done** (56–66 finished 2026-09-29). Chapters 38 onward are written at the semi-academic standard described below.
+- Next: the revision pass (see the plan below).
 - **Plan (decided 2026-09-29):** write 53–66 one chapter at a time, all the way through, without stopping to revise. Record judgment calls and unverified claims under “Open questions for review” as you go. After 66, do a single revision pass: resolve the open questions, then deepen chapters 1–37 (see “Revision plan” below).
 - **Theme pages** cover topics that span many chapters. Each is a Markdown file in `content/isaiah/themes/` (same format as the guides: YAML front matter with `title`, `blurb`, `icon`, `sources`, then prose) and is published at `/isaiah/themes/<file name>/`, with an index at `/isaiah/themes/` and cards on the Isaiah page. Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`). Done: **The Servant Songs**. When a chapter touches a theme that has a page, link to it instead of re-explaining the theme. Add future candidates to “Theme candidates” below.
 - Not yet done: `scripts/check-links.mjs` and `scripts/check-content.mjs` (both referenced in package.json). The repo is at `git@github.com:jlconlin/Scriptures.git`.
@@ -117,6 +117,13 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 11: Menî’s link to the Arabian goddess Manāt is from memory; confirm against HALOT or Blenkinsopp.
 - v. 2: mentions early Christian readings of the outstretched hands as the cross without naming a source (Justin Martyr, *First Apology* 35, is the usual one). Add a source or cut.
 
+**Isaiah 66**
+- Length: about 3,800 words with 8 notes; the plain-words paraphrase of 24 verses is long. Consider trimming.
+- v. 5: *mənaddêkem* as a word later used for synagogue expulsion is from memory; confirm.
+- v. 8: cites the JST of Rev. 12 (the woman is the church; the child is “the kingdom of our God and his Christ”) without a link, because `refs.mjs` has no JST Revelation book. Add one or keep as plain text.
+- v. 19: the hypothesis that Isa. 66:19–20 shaped Paul’s plan to reach Spain is attributed to “some scholars” without a listed source (Rainer Riesner is the usual one).
+- Setting: the frame linking chapters 1 and 66 (*pāšaʿ bî* in 1:2 and 66:24, gardens, rejected sacrifice, unquenched fire) is widely noted; no source listed.
+
 ## Theme candidates
 
 Topics that run across several chapters, collected for the future theme pages. Add to a line when a new chapter develops the theme; add a line for a new theme.
@@ -218,11 +225,3 @@ Priority order: 1, 6, 7, 9, 11, 14, 24–27, 29; then the rest. The oracles in 1
 - **Don’t let any single secondary source shape a chapter.** Scripture Central, a commentary, or a lexicon is one input among several. Start from the text and the scriptures that quote it; use a secondary source to check or deepen an idea, not to supply the chapter’s angle or a string of its notes. As a rule of thumb, no one outside source should be the main idea of more than one note in a chapter. When an idea does come from a source, cite it, put it in your own words, and don’t follow the source’s outline.
 - **Scripture Central** (scripturecentral.org, formerly Book of Mormon Central) is a recommended secondary source. It isn’t an official Church source, but it is scholarly and faithful to the doctrine. Use it for Latter-day Saint scholarship on Isaiah, such as its KnoWhy articles and its material on Isaiah in the Book of Mormon. Cite specific articles, not the site as a whole, and add each one to `content/sources.yaml` only after confirming that its URL loads the right title, as with any source. It is blocked in some cloud sandboxes; if so, add `scripturecentral.org` to the environment’s allowed domains, or leave a note under “Open questions for review” to add the citation later.
 - For graphic passages (for example 36:12), describe rather than quote.
-
-## Upcoming chapters: key connections
-
-- 38: Hezekiah’s illness; 2 Kgs 20:1–11; “Set thine house in order”; the shadow on the stairs (compare Hel. 12:15); “undertake for me” (be my surety); figs as a poultice (compare D&C 42:43).
-- 39: Merodach-baladan’s envoys; 2 Chr. 32:25–26, 31 (“God left him, to try him”); exile foretold (Dan. 1).
-- 40–48 (division “comfort”): 1 Ne. 20 = Isa. 48; Cyrus 44:28–45:7; idol satire 44:9–20.
-- 49–55 (“servant”): 1 Ne. 21; 2 Ne. 6–8; Mosiah 12, 14–15; 3 Ne. 16, 20–22; D&C 113:7–10 on 52:1–2.
-- 56–66 (“zion”): Luke 4:16–21 on 61:1–2; D&C 138:42; D&C 133:46–53 on 63:1–9 (also D&C 88:106); D&C 101:30–31 on 65:20; D&C 133:40–45 on 64:1–4.
