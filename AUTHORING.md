@@ -5,8 +5,8 @@ This file tells a person or an AI assistant how to continue writing the commenta
 ## Status (2026-09-29)
 
 - Site framework, guides (content/isaiah/guides/), and About page: done.
-- Chapter commentary: **Isaiah 1–54 done.** Chapters 38 onward are written at the semi-academic standard described below.
-- Remaining: 55–66.
+- Chapter commentary: **Isaiah 1–55 done.** Chapters 38 onward are written at the semi-academic standard described below.
+- Remaining: 56–66.
 - **Plan (decided 2026-09-29):** write 53–66 one chapter at a time, all the way through, without stopping to revise. Record judgment calls and unverified claims under “Open questions for review” as you go. After 66, do a single revision pass: resolve the open questions, then deepen chapters 1–37 (see “Revision plan” below).
 - **Theme pages** cover topics that span many chapters. Each is a Markdown file in `content/isaiah/themes/` (same format as the guides: YAML front matter with `title`, `blurb`, `icon`, `sources`, then prose) and is published at `/isaiah/themes/<file name>/`, with an index at `/isaiah/themes/` and cards on the Isaiah page. Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`). Done: **The Servant Songs**. When a chapter touches a theme that has a page, link to it instead of re-explaining the theme. Add future candidates to “Theme candidates” below.
 - Not yet done: a README and `scripts/check-links.mjs` (referenced in package.json). The repo is at `git@github.com:jlconlin/Scriptures.git`.
@@ -80,6 +80,8 @@ Topics that run across several chapters, collected for the future theme pages. A
 - **The herald of good news (*bāśar*):** 40:9, 41:27, 52:7, 61:1; Mosiah 15:13–18.
 - **Isaiah in Abinadi’s trial:** 52:7–10 and all of 53; [[Mosiah 12:20–24]], [[Mosiah 14–15]].
 - **Exchange** (he bears ours, we receive his): 53:4–6, 53:11–12; compare 61:3 (“beauty for ashes”).
+- **The word of God** that stands and does its work: 40:6–8 and 55:10–11 frame chapters 40–55; compare D&C 1:38.
+- **The free meal:** 25:6–8, 55:1–2; Prov. 9:1–6; John 7:37; 2 Ne. 9:50–51; 2 Ne. 26:25.
 - **The Lord as comforter (*niḥam*):** 40:1, 49:13, 51:3, 51:12, 51:19, 52:9, 66:13.
 
 ## Site design notes
