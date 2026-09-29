@@ -322,6 +322,19 @@ a.ref-internal { text-decoration-style: dotted; }
 .thread { margin: 28px 0; padding: 0 2px; }
 .thread .card-title { font-size: 1.45rem; }
 .thread .card-title .icon { color: var(--div); }
+/* Collapsible introduction (“Where we are”, “The thread”): click the heading to collapse or expand. */
+.intro > summary { list-style: none; cursor: pointer; border-radius: 8px; }
+.intro > summary::-webkit-details-marker { display: none; }
+.intro > summary:focus-visible { outline: 3px solid var(--focus); outline-offset: 4px; }
+.intro .card-title { margin-bottom: .6em; }
+.intro-chevron { margin-left: auto; color: var(--muted) !important; width: 1.1em !important; height: 1.1em !important; transition: transform .2s; }
+.intro:not([open]) .intro-chevron { transform: rotate(-90deg); }
+.intro-teaser { display: none; }
+.intro:not([open]) .card-title { margin-bottom: .25em; }
+.intro:not([open]) .intro-teaser { display: block; font-family: var(--font-read); color: var(--ink-2); font-size: .98rem; line-height: 1.5; }
+.intro:not([open]).setting { padding-block: 14px; }
+.intro:not([open]).thread { margin-block: 18px; }
+@media (prefers-reduced-motion: reduce) { .intro-chevron { transition: none; } }
 .thread .prose p:first-child::first-letter { font-family: var(--font-display); font-size: 3.1em; float: left; line-height: .9; padding: 4px 8px 0 0; color: var(--div); font-weight: 600; }
 
 /* reading toolbar */

@@ -55,6 +55,15 @@ function teaser(md) {
   return x;
 }
 
+/** A collapsible introductory section. Open by default; collapsed, it shows its heading and first sentence.
+ *  site.js remembers which sections a reader has collapsed. */
+function introSection({ key, cls, iconName, title, body, prose }) {
+  return `<details class="${cls} intro" data-intro="${key}" open>
+  <summary><h2 class="card-title" id="${key}-h">${icon(iconName)} ${esc(title)}${icon('chevron', 'intro-chevron')}</h2><span class="intro-teaser">${esc(teaser(body))}</span></summary>
+  <div class="${prose}">${md(body)}</div>
+</details>`;
+}
+
 function noteHtml(n, sources) {
   const k = KINDS[n.kind];
   const src = (n.sources ?? []).map((s) => renderSource(s, sources)).filter(Boolean);
@@ -198,9 +207,9 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
 
   <div class="wrap chapter-grid">
     <div class="chapter-main">
-      ${ch.setting ? `<section class="setting card" aria-labelledby="setting-h"><h2 id="setting-h" class="card-title">${icon('compass')} Where we are</h2><div class="prose">${md(ch.setting)}</div></section>` : ''}
+      ${ch.setting ? introSection({ key: 'setting', cls: 'setting card', iconName: 'compass', title: 'Where we are', body: ch.setting, prose: 'prose' }) : ''}
 
-      ${ch.thread ? `<section class="thread" aria-labelledby="thread-h"><h2 id="thread-h" class="card-title">${icon('sparkle')} The thread through the chapter</h2><div class="prose prose-lg">${md(ch.thread)}</div></section>` : ''}
+      ${ch.thread ? introSection({ key: 'thread', cls: 'thread', iconName: 'sparkle', title: 'The thread through the chapter', body: ch.thread, prose: 'prose prose-lg' }) : ''}
 
       <div class="reader-bar" role="toolbar" aria-label="Reading tools">
         <div class="legend">

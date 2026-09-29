@@ -41,6 +41,21 @@
     }
   }
 
+  // ---------- collapsible chapter introduction ----------
+  // A reader who collapses “Where we are” or “The thread” keeps it collapsed on every chapter.
+  const collapsedIntro = new Set(JSON.parse(store.get('collapsedIntro') || '[]'));
+  const intros = $$('details.intro');
+  let printing = false;
+  const applyIntro = () => intros.forEach((d) => { d.open = printing || !collapsedIntro.has(d.dataset.intro); });
+  intros.forEach((d) => d.addEventListener('toggle', () => {
+    if (printing) return; // printing opens everything without changing the reader's preference
+    d.open ? collapsedIntro.delete(d.dataset.intro) : collapsedIntro.add(d.dataset.intro);
+    store.set('collapsedIntro', JSON.stringify([...collapsedIntro]));
+  }));
+  applyIntro();
+  addEventListener('beforeprint', () => { printing = true; applyIntro(); });
+  addEventListener('afterprint', () => { printing = false; applyIntro(); });
+
   // ---------- chapter reader ----------
   const reader = $('.reader');
   if (reader) {
