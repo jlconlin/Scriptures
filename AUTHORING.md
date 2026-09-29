@@ -5,8 +5,8 @@ This file tells a person or an AI assistant how to continue writing the commenta
 ## Status (2026-09-29)
 
 - Site framework, guides (content/isaiah/guides/), and About page: done.
-- Chapter commentary: **Isaiah 1–56 done.** Chapters 38 onward are written at the semi-academic standard described below.
-- Remaining: 57–66.
+- Chapter commentary: **Isaiah 1–57 done.** Chapters 38 onward are written at the semi-academic standard described below.
+- Remaining: 58–66.
 - **Plan (decided 2026-09-29):** write 53–66 one chapter at a time, all the way through, without stopping to revise. Record judgment calls and unverified claims under “Open questions for review” as you go. After 66, do a single revision pass: resolve the open questions, then deepen chapters 1–37 (see “Revision plan” below).
 - **Theme pages** cover topics that span many chapters. Each is a Markdown file in `content/isaiah/themes/` (same format as the guides: YAML front matter with `title`, `blurb`, `icon`, `sources`, then prose) and is published at `/isaiah/themes/<file name>/`, with an index at `/isaiah/themes/` and cards on the Isaiah page. Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`). Done: **The Servant Songs**. When a chapter touches a theme that has a page, link to it instead of re-explaining the theme. Add future candidates to “Theme candidates” below.
 - Not yet done: `scripts/check-links.mjs` and `scripts/check-content.mjs` (both referenced in package.json). The repo is at `git@github.com:jlconlin/Scriptures.git`.
@@ -69,6 +69,12 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 3: the reading of 56:1–8 as a counterweight to Ezra–Nehemiah is presented as a plausible hypothesis. The *nilwâ*/Levi wordplay linking 56:3, 6 with 66:21 is from memory; confirm a commentator makes it.
 - v. 7: the claim that the temple market stood in the Court of the Gentiles is hedged (“probably”). Check whether that detail should stay.
 
+**Isaiah 57**
+- v. 1: mentions the Jewish tradition that Isaiah was killed under Manasseh and its link to Heb. 11:37, marked as tradition. Keep or cut?
+- vv. 5, 9: the *lammelek*/*lammōlek* revocalization, the reading of “unto hell” as rites for the dead, and the summary of the dating debate (older oracle vs. surviving practice) are from memory; confirm against Blenkinsopp or Paul.
+- v. 15: the link between *dakkāʾ* (“contrite”) and *mədukkāʾ* (“bruised,” 53:5) is the site’s own observation and is presented as such.
+- v. 21: the division of 40–66 into three nine-chapter parts by the “no peace” refrains is attributed to “many readers.” It goes back at least to Delitzsch; confirm and decide whether to cite.
+
 ## Theme candidates
 
 Topics that run across several chapters, collected for the future theme pages. Add to a line when a new chapter develops the theme; add a line for a new theme.
@@ -77,7 +83,7 @@ Topics that run across several chapters, collected for the future theme pages. A
 - **“Awake, awake”** (and doubled imperatives): [[Isa. 51:9]], [[Isa. 51:17]], [[Isa. 52:1–2]]; [[D&C 113:7–10]]; [[Moro. 10:31]].
 - ~~The Servant Songs~~: done (`content/isaiah/themes/servant-songs.md`). Chapters 42, 49, 50, 52, 53 and the Christ guide link to it. If Isaiah 61:1–3 gets commentary, link it to the page’s “A fifth song?” section.
 - **The new exodus:** 40:3–5, 43:16–21, 48:20–21, 51:9–11, 52:11–12.
-- **“High and lifted up”:** 2:12–17, 6:1, 52:13, 57:15; John 12:32–41.
+- **“High and lifted up”:** 2:12–17, 6:1, 52:13, 57:15 (where the high God also dwells with the “crushed,” the root of “bruised” in 53:5); John 12:32–41.
 - **The cup of wrath:** 51:17–23; Jer. 25:15–29; Matt. 26:39; D&C 19:18.
 - **Zion as a woman** (bereaved mother, divorced wife, captive daughter, barren woman who becomes a mother): 49:14–21, 50:1, 51:17–52:2, 54:1–10; contrast Babylon in chapter 47. The Lord as husband and Redeemer (*gōʾēl*): 50:1, 54:5–8, 62:4–5.
 - **From servant to servants:** “servant” is singular 20 times in chapters 41–53 and plural 11 times from 54:17 to the end (56:6, where foreigners are included; 63:17, 65:8–15, 66:14). Could become a section of the Servant Songs page.
