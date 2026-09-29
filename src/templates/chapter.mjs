@@ -2,6 +2,7 @@ import { md, mdInline, esc, plain } from '../lib/markdown.mjs';
 import { KINDS } from '../site.mjs';
 import { layout, icon } from './layout.mjs';
 import { renderSource } from './sources.mjs';
+import { compareVerse } from '../lib/bomdiff.mjs';
 
 /** Split "1-9" / "4" into [first, last]. */
 export const range = (r) => {
@@ -52,7 +53,20 @@ function noteHtml(n, sources) {
 </aside>`;
 }
 
-export function renderChapter({ book, ch, verses, sources, prev, next, warn }) {
+function bomNoteHtml(b) {
+  return `<aside class="note k-bom" id="${b.id}" hidden aria-label="Book of Mormon reading">
+  <div class="note-head">
+    <span class="kind-chip k-bom">${icon('bom')}${esc(KINDS.bom.label)}</span>
+    <a class="note-link" href="#${b.id}" title="Link to this note" aria-label="Link to this note">#</a>
+    <button type="button" class="note-close" aria-label="Close" data-close="${b.id}">×</button>
+  </div>
+  <h4 class="note-title">${mdInline(`[[${b.ref}]]`)} reads differently</h4>
+  <p class="bom-text">${b.html}</p>
+  <p class="bom-legend"><ins>added or changed in the Book of Mormon</ins> <del>in the King James Version only</del></p>
+</aside>`;
+}
+
+export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom }) {
   const n = ch.chapter;
   const division = book.divisions.find((d) => n >= d.range[0] && n <= d.range[1]);
 
@@ -66,6 +80,15 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn }) {
     if (!byVerse.has(note.v)) byVerse.set(note.v, []);
     byVerse.get(note.v).push(note);
   });
+
+  // Book of Mormon readings that differ in more than small words
+  const variants = new Map();
+  let minorVariants = 0;
+  for (const [v, b] of Object.entries(bom?.verses ?? {})) {
+    const cmp = compareVerse(verses[v - 1], b.text);
+    if (cmp.significant) variants.set(Number(v), { ...b, ...cmp, id: `b${n}-${v}` });
+    else minorVariants++;
+  }
 
   const sections = ch.sections?.length ? ch.sections : [{ range: `1-${verses.length}`, heading: '' }];
   // Check that sections cover every verse exactly once
@@ -90,9 +113,14 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn }) {
               `<button type="button" class="marker k-${x.kind}" aria-expanded="false" aria-controls="${x.id}" data-note="${x.id}" title="${esc(plain(x.title ?? KINDS[x.kind].label))}">${icon(x.kind)}<span class="sr">${esc(KINDS[x.kind].label)}</span></button>`,
           )
           .join('');
+        const variant = variants.get(v);
+        const bomMarker = variant
+          ? `<button type="button" class="marker bom-mark k-bom" aria-expanded="false" aria-controls="${variant.id}" data-note="${variant.id}" title="The Book of Mormon reads differently">BoM</button>`
+          : '';
         vs.push(`<div class="verse-block">
-  <p class="verse" id="v${v}"><a class="vnum" href="#v${v}" aria-label="Verse ${v}">${v}</a> ${text}${markers}</p>
+  <p class="verse" id="v${v}"><a class="vnum" href="#v${v}" aria-label="Verse ${v}">${v}</a> ${text}${markers}${bomMarker}</p>
   ${notes.map((x) => noteHtml(x, sources)).join('\n')}
+  ${variant ? bomNoteHtml(variant) : ''}
 </div>`);
       }
       const label = a === b ? `Verse ${a}` : `Verses ${a}–${b}`;
@@ -107,8 +135,14 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn }) {
     })
     .join('\n');
 
-  const kindsUsed = Object.keys(KINDS).filter((k) => (ch.notes ?? []).some((x) => x.kind === k));
-  const counts = Object.fromEntries(kindsUsed.map((k) => [k, ch.notes.filter((x) => x.kind === k).length]));
+  const counts = {};
+  for (const x of ch.notes ?? []) counts[x.kind] = (counts[x.kind] ?? 0) + 1;
+  if (variants.size) counts.bom = variants.size;
+  const kindsUsed = Object.keys(KINDS).filter((k) => counts[k]);
+
+  const bomSummary = bom
+    ? `<p class="bom-summary">${icon('bom')} Nephi’s text of this chapter (${mdInline(bom.passages.map((p) => `[[${p}]]`).join('; '))}) reads differently from the King James Version in <strong>${variants.size + minorVariants}</strong> verse${variants.size + minorVariants === 1 ? '' : 's'}. ${variants.size ? `The <span class="kind-chip k-bom">BoM</span> markers show the ${variants.size} where more than a small word changes.` : 'The differences are all small words.'}</p>`
+    : '';
 
   const parallels = (ch.parallels ?? [])
     .map((p) => `<li><strong>${mdInline(`[[${p.ref}]]`)}</strong>${p.note ? ` — ${mdInline(p.note)}` : ''}</li>`)
@@ -171,7 +205,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn }) {
       ${ch.explore ? `<section class="closing card card-explore" aria-labelledby="explore-h"><h2 id="explore-h" class="card-title">${icon('key')} Worth exploring next</h2><div class="prose">${md(ch.explore)}</div></section>` : ''}
 
       <div class="chapter-refs">
-        ${parallels ? `<section aria-labelledby="par-h"><h2 id="par-h">This chapter elsewhere in scripture</h2><ul class="ref-list">${parallels}</ul></section>` : ''}
+        ${parallels || bomSummary ? `<section aria-labelledby="par-h"><h2 id="par-h">This chapter elsewhere in scripture</h2>${bomSummary}${parallels ? `<ul class="ref-list">${parallels}</ul>` : ''}</section>` : ''}
         ${srcList.length ? `<section aria-labelledby="src-h"><h2 id="src-h">Sources &amp; further reading</h2><ul class="source-list">${srcList.map((s) => `<li>${s}</li>`).join('')}</ul></section>` : ''}
       </div>
 

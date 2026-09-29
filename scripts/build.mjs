@@ -38,6 +38,7 @@ export async function build({ quiet = false } = {}) {
   const sources = await readYaml(r('content/sources.yaml'));
   const book = await readYaml(r('content/isaiah/book.yaml'));
   const kjv = JSON.parse(await readFile(r('data/kjv/isaiah.json'), 'utf8'));
+  const bomParallels = JSON.parse(await readFile(r('data/bom/isaiah-parallels.json'), 'utf8')).chapters;
 
   // Chapters: every chapter gets a page; authored YAML fills in the commentary.
   const chDir = r('content/isaiah/chapters');
@@ -89,6 +90,7 @@ export async function build({ quiet = false } = {}) {
       prev: book.chapters[i - 1],
       next: book.chapters[i + 1],
       warn: (m) => warn(`Isaiah ${ch.chapter}: ${m}`),
+      bom: bomParallels[ch.chapter],
     });
     search.push({ t: 'chapter', r: `Isaiah ${ch.chapter}`, h: plain(ch.title), u: `/isaiah/${ch.chapter}/`, x: plain(`${ch.tagline ?? ''} ${ch.setting ?? ''} ${ch.thread ?? ''}`).slice(0, 1200) });
     verses.forEach((v, j) => search.push({ t: 'verse', r: `Isaiah ${ch.chapter}:${j + 1}`, u: `/isaiah/${ch.chapter}/#v${j + 1}`, x: v }));

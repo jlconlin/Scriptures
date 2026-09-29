@@ -17,5 +17,6 @@ export const KINDS = {
   symbol: { label: 'Imagery & Symbol', short: 'Imagery', blurb: 'What Isaiah’s pictures would have meant to his first hearers.' },
   christ: { label: 'Witness of Christ', short: 'Christ', blurb: 'Where the passage points to Jesus Christ and His Atonement.' },
   restoration: { label: 'Restoration Insight', short: 'Restoration', blurb: 'Light from the Book of Mormon, the Doctrine and Covenants, and modern prophets.' },
+  bom: { label: 'Book of Mormon Reading', short: 'BoM', blurb: 'Verses where Nephi’s text of Isaiah reads differently from the King James Version. Shown automatically.' },
   liken: { label: 'Liken It', short: 'Liken', blurb: 'How the passage speaks to disciples today (1 Nephi 19:23).' },
 };
