@@ -5,6 +5,7 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import YAML from 'yaml';
 import { md, plain, unknownRefs } from '../src/lib/markdown.mjs';
+import { applyCitations, stripCitations } from '../src/lib/citations.mjs';
 import { renderChapter, range } from '../src/templates/chapter.mjs';
 import { renderHome, renderBookIndex, renderGuidesIndex, renderGuide, renderPage, renderSearch, render404, COLLECTIONS } from '../src/templates/pages.mjs';
 
@@ -116,9 +117,11 @@ export async function build({ quiet = false } = {}) {
     for (const f of (await readdir(dir)).filter((f) => f.endsWith('.md')).sort()) {
       const g = await readMd(path.join(dir, f));
       g.slug = f.replace(/^\d+-/, '').replace(/\.md$/, '');
-      g.html = md(g.body);
+      const cited = applyCitations(g.body, sources, (m) => warn(`${collection.path}/${f}: ${m}`));
+      g.html = md(cited.body);
+      g.refs = cited.refs;
       pages.push(g);
-      search.push({ t: 'guide', r: searchLabel, h: g.title, u: `/isaiah/${collection.path}/${g.slug}/`, x: plain(g.body).slice(0, 3000) });
+      search.push({ t: 'guide', r: searchLabel, h: g.title, u: `/isaiah/${collection.path}/${g.slug}/`, x: plain(stripCitations(g.body)).slice(0, 3000) });
     }
     for (const g of pages) await write(`isaiah/${collection.path}/${g.slug}/index.html`, renderGuide({ book, guide: g, guides: pages, sources, collection }));
     if (pages.length) await write(`isaiah/${collection.path}/index.html`, renderGuidesIndex({ book, guides: pages, collection }));

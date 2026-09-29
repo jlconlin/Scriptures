@@ -291,6 +291,17 @@ a.ref-internal { text-decoration-style: dotted; }
 .bel-ref { font-size: .8rem; font-weight: 700; color: var(--accent-ink); }
 .source-list { padding-left: 1.2em; margin: 0; font-size: .92rem; color: var(--ink-2); }
 .source-list li { margin: .45em 0; }
+/* Numbered citations on guide and theme pages: a small superscript number linking to the source list. */
+.cite { font: 700 .66em/0 var(--font-ui); vertical-align: super; margin-left: 1px; }
+.cite a { color: var(--accent); text-decoration: none; padding: 0 1px; border-radius: 3px; }
+.cite a:hover { text-decoration: underline; }
+.cite a:focus-visible { outline: 2px solid var(--focus); }
+.cite + .cite::before { content: ","; color: var(--muted); }
+.ref-list-num { list-style: decimal; }
+.ref-list-num li { scroll-margin-top: 90px; }
+.ref-list-num li:target { background: color-mix(in srgb, var(--accent) 14%, transparent); border-radius: 6px; }
+.backrefs a { font-family: var(--font-ui); text-decoration: none; color: var(--accent); margin-left: 2px; }
+[id^="cite-"] { scroll-margin-top: 120px; }
 
 /* ---------- plain pages & guides ---------- */
 .page-hero { padding: 36px 0 20px; }

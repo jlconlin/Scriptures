@@ -22,6 +22,8 @@ export const SECTIONS = {
   explore: { title: 'Worth exploring next', icon: 'key' },
   parallels: { title: 'This chapter elsewhere in scripture' },
   sources: { title: 'Sources & further reading' },
+  cited: { title: 'Sources' },
+  further: { title: 'Further reading' },
   studied: { title: 'I’ve studied {chapter}' },
 };
 export const sectionTitle = (key, chapter = '') => SECTIONS[key].title.replace('{chapter}', chapter);
