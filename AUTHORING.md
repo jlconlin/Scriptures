@@ -13,6 +13,20 @@ This file tells a person or an AI assistant how to continue writing the commenta
 - Side task for later: **an MCP server for the content corpus**, so readers can load the commentary into their own AI conversations. Suggested plan: (1) have `build.mjs` also emit a machine-readable `corpus.json` (KJV text, sections, notes, sources for every chapter) and an `llms.txt`, which works on any static host; (2) add a small MCP server over that corpus with tools such as `get_chapter`, `get_verse_commentary`, `search_notes`, and `list_sources`. It can run locally as an npm package over stdio, or remotely as a serverless function (for example a Cloudflare Worker at mcp.scriptures.conlin.io), depending on the host chosen.
 - Hosting: the site will be served at https://scriptures.conlin.io, but **not** by GitHub Pages. The host has not been chosen yet. `npm run build` writes a plain static site to `dist/` that can be served from any static host or web server. Configure the server to serve `404.html` for missing paths (in nginx: `error_page 404 /404.html;`), because it redirects `/Isaiah`, `/isaiah/53`, and similar paths to their canonical URLs.
 
+## Working with the author
+
+- **Where changes go.** Commit chapter content, sources, and fixes directly to `main` and push. Changes to how the site *looks* (layout, widths, new interface features) go on a separate branch until the author has seen them and approved; then fast-forward `main`.
+- **Showing a change.** The site isn’t hosted yet, so show visual changes as a private claude.ai artifact: take the built page from `dist/`, change `/assets/…` paths to relative ones (and `url('/assets/fonts/…')` in the CSS to `url('fonts/…')`), disable links to other pages, and publish the page with `assets/site.css`, `assets/site.js`, and the fonts as supporting files. The author reviews in the artifact and can leave comments on specific passages.
+- **The author reads mostly on an iPad mini** (744px upright, 1133px sideways). Check layouts there as well as on a laptop and a phone.
+- **Ask for focus questions.** Before writing a chapter, it helps to ask whether the author has specific questions or interests for it; build the chapter around those.
+- **Open threads for decisions** go in “Open questions for review” below rather than being decided silently.
+
+## Research tools
+
+- **Scripture Central** has a public API that returns KnoWhy articles as JSON. For example, `https://admin.scripturecentral.org/api/knowhys?filters[body][$containsi]=Isaiah%2054&pagination[pageSize]=100&fields[0]=title&fields[1]=slug` finds every KnoWhy that mentions Isaiah 54 (also try `Nephi 22` and similar Book of Mormon parallels, and `filters[title][$containsi]=…`). Fetch one article’s full text with `filters[slug][$eq]=<slug>` (the `body` field is HTML). The public page is `https://scripturecentral.org/knowhy/<slug>`; confirm it loads with the right title before adding it to `content/sources.yaml` as `sc-knowhy-<number>`.
+- **BYU**: the Religious Studies Center (rsc.byu.edu) and ScholarsArchive (scholarsarchive.byu.edu) are reachable from the cloud environment.
+- **Scripture text** for checking quotations comes from churchofjesuschrist.org through `check-quotes.mjs` (run with `NODE_USE_ENV_PROXY=1` in the cloud).
+
 ## Open questions for review
 
 Judgment calls and unverified claims waiting for the author. Whoever writes a chapter adds its items here instead of deciding them silently; the author works through the list later. Delete an item once it is resolved.
