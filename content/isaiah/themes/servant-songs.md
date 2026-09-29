@@ -9,14 +9,14 @@ Chapters 40–55 of Isaiah speak often of the Lord’s **servant** (*ʿebed*). U
 
 ## Where the songs are
 
-Scholars agree on the core of each song but not on where each one ends, because the verses that follow each song respond to it. This site cites the core passages and mentions the longer boundaries where they matter.
+Scholars agree on where each song begins but not always on where it ends, because the verses that follow a song respond to it. The passages below include those verses, so nothing is left out.
 
-| Song | Core passage | Often extended to | Who speaks | In the Book of Mormon |
-|---|---|---|---|---|
-| [First](#song-1) | [[Isa. 42:1–4]] | 42:1–9 | The Lord, about the servant | Not quoted |
-| [Second](#song-2) | [[Isa. 49:1–6]] | 49:1–13 | The servant | [[1 Ne. 21]] |
-| [Third](#song-3) | [[Isa. 50:4–9]] | 50:4–11 | The servant | [[2 Ne. 7]] |
-| [Fourth](#song-4) | [[Isa. 52:13–53:12]] | — | The Lord, then a chorus (“we”), then the Lord | [[3 Ne. 20:43–45]]; [[Mosiah 14]] |
+| Song | Passage | Who speaks | In the Book of Mormon |
+|---|---|---|---|
+| [First](#song-1) | [[Isa. 42:1–9]] | The Lord, about the servant | Not quoted |
+| [Second](#song-2) | [[Isa. 49:1–13]] | The servant | [[1 Ne. 21]] |
+| [Third](#song-3) | [[Isa. 50:4–11]] | The servant | [[2 Ne. 7]] |
+| [Fourth](#song-4) | [[Isa. 52:13–53:12]] | The Lord, then a chorus (“we”), then the Lord | [[3 Ne. 20:43–45]]; [[Mosiah 14]] |
 
 ## How the songs build
 
@@ -24,13 +24,13 @@ Read in order, the songs tell a story. The servant’s suffering grows from song
 
 <h2 id="song-1">The first song: the gentle servant</h2>
 
-**[[Isa. 42:1–4]].** The Lord presents His chosen one: “Behold my servant, whom I uphold; mine elect, in whom my soul delighteth; I have put my spirit upon him.” His mission is to “bring forth judgment to the Gentiles,” but his manner is quiet. He won’t shout in the street, and “a bruised reed shall he not break.” He is also persistent: “He shall not fail nor be discouraged, till he have set judgment in the earth.”
+**[[Isa. 42:1–9]].** The Lord presents His chosen one: “Behold my servant, whom I uphold; mine elect, in whom my soul delighteth; I have put my spirit upon him.” His mission is to “bring forth judgment to the Gentiles,” but his manner is quiet. He won’t shout in the street, and “a bruised reed shall he not break.” He is also persistent: “He shall not fail nor be discouraged, till he have set judgment in the earth.”
 
 The contrast later in the same chapter is deliberate. There the Lord asks, “Who is blind, but my servant? or deaf, as my messenger that I sent?” ([[Isa. 42:19]]). Israel, the servant nation, has failed at its calling; the servant of the song will not. Matthew quotes the song in full as fulfilled in Jesus’s quiet ministry of healing ([[Matt. 12:15–21]]).
 
 <h2 id="song-2">The second song: a light to the Gentiles</h2>
 
-**[[Isa. 49:1–6]].** Now the servant speaks, to the whole world: “Listen, O isles, unto me.” The Lord called him before birth and hid him like a sharpened arrow in a quiver. For the first time the servant admits discouragement: “I have laboured in vain, I have spent my strength for nought” (verse 4). The Lord answers by enlarging his task. Restoring Israel is “a light thing”; he will also be “a light to the Gentiles… my salvation unto the end of the earth” (verse 6).
+**[[Isa. 49:1–13]].** Now the servant speaks, to the whole world: “Listen, O isles, unto me.” The Lord called him before birth and hid him like a sharpened arrow in a quiver. For the first time the servant admits discouragement: “I have laboured in vain, I have spent my strength for nought” (verse 4). The Lord answers by enlarging his task. Restoring Israel is “a light thing”; he will also be “a light to the Gentiles… my salvation unto the end of the earth” (verse 6).
 
 This song holds the puzzle at the center of the whole debate. The Lord calls the servant “Israel” (verse 3), yet sends him “to bring Jacob again to him” (verse 5). The servant is Israel, and has a mission to Israel.
 
@@ -38,7 +38,7 @@ Nephi’s text opens with lines not in the King James Version, addressed to “y
 
 <h2 id="song-3">The third song: the servant who listens</h2>
 
-**[[Isa. 50:4–9]].** The servant has “the tongue of the learned,” literally of a disciple, because every morning the Lord wakes his ear to listen. What he hears leads him into suffering: “I gave my back to the smiters, and my cheeks to them that plucked off the hair: I hid not my face from shame and spitting” (verse 6). He does not turn back. He sets his face like flint and trusts that the God who vindicates him is near. The word “servant” doesn’t appear in these verses, but verse 10 refers back to “the voice of his servant.” Jacob read the chapter to the Nephites ([[2 Ne. 7]]), and the Gospels describe Jesus being struck and spat upon in the same terms ([[Matt. 26:67]]).
+**[[Isa. 50:4–11]].** The servant has “the tongue of the learned,” literally of a disciple, because every morning the Lord wakes his ear to listen. What he hears leads him into suffering: “I gave my back to the smiters, and my cheeks to them that plucked off the hair: I hid not my face from shame and spitting” (verse 6). He does not turn back. He sets his face like flint and trusts that the God who vindicates him is near. The word “servant” doesn’t appear in these verses, but verse 10 refers back to “the voice of his servant.” Jacob read the chapter to the Nephites ([[2 Ne. 7]]), and the Gospels describe Jesus being struck and spat upon in the same terms ([[Matt. 26:67]]).
 
 <h2 id="song-4">The fourth song: the suffering servant</h2>
 

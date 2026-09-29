@@ -40,7 +40,7 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - Setting: the attributions to Origen (*Against Celsus* 1.55) and Rashi are from memory; confirm.
 
 **Across chapters**
-- Servant Song boundaries: the site now cites the core passages (42:1–4, 49:1–6, 50:4–9, 52:13–53:12) and the Servant Songs page explains the longer boundaries. Check older chapters and guides for other ranges (42:1–7, 49:1–7, and so on) and make them consistent.
+- Servant Song boundaries: the site cites the full passages (42:1–9, 49:1–13, 50:4–11, 52:13–53:12) so readers don’t miss the verses that answer each song; the author found a separate “core vs. extended” column not worth its space. Check older chapters and guides for other ranges (42:1–4, 42:1–7, 49:1–6, and so on) and make them consistent.
 - The chapter 53 `setting` is still about 340 words after moving the servant debate to the theme page; trim toward the 150–250 word guideline.
 
 ## Theme candidates

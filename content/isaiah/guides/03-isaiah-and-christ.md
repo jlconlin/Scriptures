@@ -44,7 +44,7 @@ Isaiah is rich in titles, and each one teaches something about who He is.
 
 ## The four Servant Songs
 
-Four poems in the second half of Isaiah describe a servant of the Lord who succeeds where Israel failed, suffers innocently, and redeems others: [[Isa. 42:1–4]], [[Isa. 49:1–6]], [[Isa. 50:4–9]], and [[Isa. 52:13–53:12]]. The New Testament and the Book of Mormon identify Him as Jesus Christ, and Abinadi quoted and explained the fourth song before King Noah’s court ([[Mosiah 14–15]]). [The Servant Songs](/isaiah/themes/servant-songs/) page traces all four songs and the question of who the servant is.
+Four poems in the second half of Isaiah describe a servant of the Lord who succeeds where Israel failed, suffers innocently, and redeems others: [[Isa. 42:1–9]], [[Isa. 49:1–13]], [[Isa. 50:4–11]], and [[Isa. 52:13–53:12]]. The New Testament and the Book of Mormon identify Him as Jesus Christ, and Abinadi quoted and explained the fourth song before King Noah’s court ([[Mosiah 14–15]]). [The Servant Songs](/isaiah/themes/servant-songs/) page traces all four songs and the question of who the servant is.
 
 ## Prophecies the New Testament says He fulfilled
 
