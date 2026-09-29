@@ -1,0 +1,23 @@
+{
+  "name": "line-upon-line",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A study companion for understanding the scriptures, beginning with Isaiah. Hosted at scriptures.conlin.io.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/dev.mjs",
+    "check": "node scripts/check-content.mjs",
+    "check:links": "node scripts/check-links.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@fontsource-variable/figtree": "^5.3.0",
+    "@fontsource-variable/fraunces": "^5.3.0",
+    "@fontsource-variable/literata": "^5.3.0",
+    "marked": "^18.0.14",
+    "yaml": "^2.9.1"
+  }
+}

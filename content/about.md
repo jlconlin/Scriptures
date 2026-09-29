@@ -1,0 +1,48 @@
+---
+title: About Line upon Line
+blurb: What this site is, how it was made, and how to use it well.
+---
+
+## Why this site exists
+
+Most of us have had the experience. We are reading Isaiah, or Revelation, or one of Paul’s long sentences. We reach a phrase like “a cottage in a vineyard” or “the stem of Jesse” or “the bill of your mother’s divorcement,” and we stop. *What does that mean?*
+
+The Church gives us wonderful study helps: footnotes, chapter headings, the Bible Dictionary, the Topical Guide, and *Come, Follow Me*. This site doesn’t replace any of them. It tries to add the kind of help you’d get if you could sit down with a patient religion teacher and ask about the particular phrase that stopped you. That teacher would know the history, the Hebrew, the poetry, and the Restoration scripture that sheds light on it.
+
+The title comes from Isaiah himself: “line upon line; here a little, and there a little” ([[Isa. 28:10]]). The Lord repeats the principle in the Book of Mormon ([[2 Ne. 28:30]]) and the Doctrine and Covenants ([[D&C 98:12]]). Understanding comes in pieces, and every piece is a gift.
+
+## What you’ll find in each chapter
+
+- **Where we are.** The historical and prophetic setting.
+- **The thread through the chapter.** The argument that ties the chapter together. Isaiah’s chapters are not random collections of images. There is almost always a logic, and seeing it changes everything.
+- **In plain words.** A short paraphrase at the start of each section. It is a reading aid, not a translation, and it never replaces the text.
+- **Notes on phrases.** Tap a highlighted phrase to open a note beneath its verse. Notes come in six colors:
+  - Word & Language
+  - History & Setting
+  - Imagery & Symbol
+  - Witness of Christ
+  - Restoration Insight
+  - Liken It
+- **Seeing Christ, Liken it, and Worth exploring next.** Each chapter ends by pointing to the Savior, asking what the chapter asks of us, and suggesting where to dig deeper.
+
+## Principles behind the commentary
+
+1. **Christ at the center.** Nephi said he delighted in Isaiah because Isaiah saw the Redeemer ([[2 Ne. 11:2–6]]). The notes try to do the same.
+2. **Scripture interprets scripture.** The Book of Mormon, the Doctrine and Covenants, and the Pearl of Great Price explain Isaiah in several places ([[2 Ne. 25]]; [[D&C 113]]; [[JS—H 1:40]]). Those readings come first.
+3. **Prophets over commentators.** When modern prophets and apostles have taught plainly about a passage, the notes follow them. Scholarly views, Latter-day Saint and otherwise, are included when they help. When faithful readers see a passage differently, the notes say so.
+4. **Honest about uncertainty.** Isaiah’s Hebrew is sometimes hard, and some prophecies have more than one fulfillment. Where the answer is “we don’t know for sure,” the notes say that too.
+5. **Every claim is sourced.** Notes link to scriptures in the Gospel Library and cite the manuals, talks, reference works, and books they draw on.
+
+## The text
+
+The scripture text is the King James Version, which is in the public domain. It matches the text in the Latter-day Saint edition of the Bible, though that edition’s footnotes, chapter headings, and study aids are not reproduced here. Each chapter links to the Gospel Library so you can read it with those helps.
+
+## A note of humility
+
+This is an independent project by a member of The Church of Jesus Christ of Latter-day Saints. It is **not** an official publication of the Church, and nothing here should be taken as the Church’s official interpretation of any passage. The commentary was drafted with the help of AI and checked against the scriptures and the teachings of latter-day prophets. Mistakes are the author’s. If you find one, please [open an issue on GitHub](https://github.com/jlconlin/Scriptures/issues).
+
+Above all, the Holy Ghost is the one who opens Isaiah. Nephi said the words of Isaiah are plain to “all those that are filled with the spirit of prophecy” ([[2 Ne. 25:4]]). Read with a prayer in your heart.
+
+## License
+
+Commentary is shared under a [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. The code is MIT-licensed. The scripture text is in the public domain.

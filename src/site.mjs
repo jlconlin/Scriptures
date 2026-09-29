@@ -1,0 +1,21 @@
+export const SITE = {
+  name: 'Line upon Line',
+  tagline: 'A companion for understanding the scriptures',
+  description:
+    'Phrase-by-phrase help for understanding the scriptures, beginning with Isaiah. Grounded in the restored gospel of Jesus Christ, with history, Hebrew, symbolism, and references.',
+  url: 'https://scriptures.conlin.io',
+  author: 'Jeremy Lloyd Conlin',
+  repo: 'https://github.com/jlconlin/Scriptures',
+  year: new Date().getFullYear(),
+  version: Date.now().toString(36),
+};
+
+// How each kind of note is labelled and colored throughout the site.
+export const KINDS = {
+  words: { label: 'Word & Language', short: 'Words', blurb: 'What a word or phrase meant in Isaiah’s Hebrew or in 1611 English.' },
+  history: { label: 'History & Setting', short: 'History', blurb: 'The people, places, and events behind the text.' },
+  symbol: { label: 'Imagery & Symbol', short: 'Imagery', blurb: 'What Isaiah’s pictures would have meant to his first hearers.' },
+  christ: { label: 'Witness of Christ', short: 'Christ', blurb: 'Where the passage points to Jesus Christ and His Atonement.' },
+  restoration: { label: 'Restoration Insight', short: 'Restoration', blurb: 'Light from the Book of Mormon, the Doctrine and Covenants, and modern prophets.' },
+  liken: { label: 'Liken It', short: 'Liken', blurb: 'How the passage speaks to disciples today (1 Nephi 19:23).' },
+};
