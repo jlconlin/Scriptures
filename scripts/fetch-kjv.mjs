@@ -6,10 +6,26 @@ import { writeFile, mkdir } from 'node:fs/promises';
 const book = process.argv[2] ?? 'Isaiah';
 const url = `https://raw.githubusercontent.com/aruljohn/Bible-kjv/master/${book}.json`;
 
-// Spellings in the Latter-day Saint edition of the KJV that differ from the source file.
+// Spellings in the Latter-day Saint edition of the KJV (checked word-for-word against the
+// Gospel Library) that differ from the source file.
 const LDS_SPELLINGS = [
   [/Shearjashub/g, 'Shear-jashub'],
   [/Mahershalalhashbaz/g, 'Maher-shalal-hash-baz'],
+  [/\bvail(s?)\b/g, 'veil$1'],
+  [/\bday time\b/g, 'daytime'],
+  [/standard-bearer/g, 'standardbearer'],
+  [/Beerelim/g, 'Beer-elim'],
+  [/Kirhareseth/g, 'Kir-hareseth'],
+  [/Kirharesh\b/g, 'Kir-haresh'],
+  [/\bintreated\b/g, 'entreated'],
+  [/\benquire\b/g, 'inquire'],
+  [/Esarhaddon/g, 'Esar-haddon'],
+  [/\bplaister\b/g, 'plaster'],
+  [/Merodachbaladan/g, 'Merodach-baladan'],
+  [/\bmorter\b/g, 'mortar'],
+  [/\brereward\b/g, 'rearward'],
+  [/\bnoon day\b/g, 'noonday'],
+  [/Hephzibah/g, 'Hephzi-bah'],
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 
