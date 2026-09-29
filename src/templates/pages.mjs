@@ -82,7 +82,7 @@ export function renderHome({ book, featured }) {
   return layout({ title: '', path: '/', body, bodyClass: 'page-home' });
 }
 
-export function renderBookIndex({ book, guides, sources }) {
+export function renderBookIndex({ book, guides, themes = [], sources }) {
   const divisions = book.divisions
     .map((d) => {
       const chs = book.chapters.filter((c) => c.chapter >= d.range[0] && c.chapter <= d.range[1]);
@@ -137,6 +137,12 @@ export function renderBookIndex({ book, guides, sources }) {
   <p class="section-sub">Isaiah gets much easier once you have a few keys. These short guides are worth reading before (or alongside) the chapters.</p>
   <div class="guide-cards">${guideCards}</div>
 </section>
+${themes.length ? `
+<section class="wrap book-section" id="themes">
+  <h2 class="section-title">Themes</h2>
+  <p class="section-sub">Ideas that run through many chapters, gathered in one place.</p>
+  <div class="guide-cards">${themes.map((t) => `<a class="guide-card" href="/${book.slug}/themes/${t.slug}/"><span class="guide-icon">${icon(t.icon ?? 'book')}</span><span class="guide-title">${esc(t.title)}</span><span class="guide-blurb">${esc(t.blurb)}</span></a>`).join('')}</div>
+</section>` : ''}
 
 <section class="wrap book-section how">
   <h2 class="section-title">How each chapter works</h2>
@@ -185,26 +191,34 @@ export function renderBookIndex({ book, guides, sources }) {
   });
 }
 
-export function renderGuidesIndex({ book, guides }) {
+// Guides and theme pages share one template; these are the words that differ.
+export const COLLECTIONS = {
+  guides: { path: 'guides', crumb: 'Guides', indexTitle: (b) => `Guides to ${b.name}`, lede: 'Short background essays that make the chapters easier to read.', all: 'All guides', next: 'Next guide' },
+  themes: { path: 'themes', crumb: 'Themes', indexTitle: (b) => `Themes in ${b.name}`, lede: 'Ideas that run through many chapters, gathered in one place.', all: 'All themes', next: 'Next theme' },
+};
+
+export function renderGuidesIndex({ book, guides, collection = COLLECTIONS.guides }) {
+  const c = collection;
   const body = `
 <header class="page-hero"><div class="wrap narrow">
   <nav class="crumbs"><a href="/${book.slug}/">${esc(book.name)}</a></nav>
-  <h1>Guides to Isaiah</h1>
-  <p class="lede">Short background essays that make the chapters easier to read.</p>
+  <h1>${esc(c.indexTitle(book))}</h1>
+  <p class="lede">${esc(c.lede)}</p>
 </div></header>
 <div class="wrap narrow"><div class="guide-cards guide-cards-stack">
-${guides.map((g) => `<a class="guide-card" href="/${book.slug}/guides/${g.slug}/"><span class="guide-icon">${icon(g.icon ?? 'book')}</span><span class="guide-title">${esc(g.title)}</span><span class="guide-blurb">${esc(g.blurb)}</span></a>`).join('')}
+${guides.map((g) => `<a class="guide-card" href="/${book.slug}/${c.path}/${g.slug}/"><span class="guide-icon">${icon(g.icon ?? 'book')}</span><span class="guide-title">${esc(g.title)}</span><span class="guide-blurb">${esc(g.blurb)}</span></a>`).join('')}
 </div></div>`;
-  return layout({ title: 'Guides to Isaiah', path: `/${book.slug}/guides/`, body, bodyClass: 'page-guides', book });
+  return layout({ title: c.indexTitle(book), path: `/${book.slug}/${c.path}/`, body, bodyClass: 'page-guides', book });
 }
 
-export function renderGuide({ book, guide, guides, sources }) {
+export function renderGuide({ book, guide, guides, sources, collection = COLLECTIONS.guides }) {
+  const c = collection;
   const idx = guides.findIndex((g) => g.slug === guide.slug);
   const next = guides[idx + 1];
   const srcs = (guide.sources ?? []).map((s) => renderSource(s, sources));
   const body = `
 <header class="page-hero"><div class="wrap narrow">
-  <nav class="crumbs"><a href="/${book.slug}/">${esc(book.name)}</a> <span>›</span> <a href="/${book.slug}/guides/">Guides</a></nav>
+  <nav class="crumbs"><a href="/${book.slug}/">${esc(book.name)}</a> <span>›</span> <a href="/${book.slug}/${c.path}/">${esc(c.crumb)}</a></nav>
   <h1>${esc(guide.title)}</h1>
   <p class="lede">${esc(guide.blurb)}</p>
 </div></header>
@@ -213,10 +227,10 @@ ${guide.html}
 ${srcs.length ? `<h2>${esc(sectionTitle('sources'))}</h2><ul class="source-list">${srcs.map((s) => `<li>${s}</li>`).join('')}</ul>` : ''}
 </article>
 <nav class="wrap narrow pager">
-  <a class="pager-prev" href="/${book.slug}/guides/">${icon('arrowL')}<span><small>Back to</small>All guides</span></a>
-  ${next ? `<a class="pager-next" href="/${book.slug}/guides/${next.slug}/"><span><small>Next guide</small>${esc(next.title)}</span>${icon('arrowR')}</a>` : `<a class="pager-next" href="/${book.slug}/1/"><span><small>Ready?</small>Begin with Isaiah 1</span>${icon('arrowR')}</a>`}
+  <a class="pager-prev" href="/${book.slug}/${c.path}/">${icon('arrowL')}<span><small>Back to</small>${esc(c.all)}</span></a>
+  ${next ? `<a class="pager-next" href="/${book.slug}/${c.path}/${next.slug}/"><span><small>${esc(c.next)}</small>${esc(next.title)}</span>${icon('arrowR')}</a>` : `<a class="pager-next" href="/${book.slug}/1/"><span><small>Ready?</small>Begin with ${esc(book.name)} 1</span>${icon('arrowR')}</a>`}
 </nav>`;
-  return layout({ title: guide.title, description: guide.blurb, path: `/${book.slug}/guides/${guide.slug}/`, body, bodyClass: 'page-guide', book });
+  return layout({ title: guide.title, description: guide.blurb, path: `/${book.slug}/${c.path}/${guide.slug}/`, body, bodyClass: 'page-guide', book });
 }
 
 export function renderPage({ title, blurb, html, path }) {

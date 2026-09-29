@@ -54,7 +54,9 @@ for (const f of files) {
   const texts = [ch.setting, ch.thread, ch.christ, ch.liken, ch.explore, ...(ch.notes ?? []).map((n) => n.body)];
   sources.push([`Isaiah ${ch.chapter}`, texts.filter(Boolean).join('\n')]);
 }
-if (!only.length) for (const f of (await readdir(guideDir)).filter((x) => x.endsWith('.md'))) sources.push([`guide ${f}`, await readFile(path.join(guideDir, f), 'utf8')]);
+if (!only.length)
+  for (const dir of [guideDir, path.join(ROOT, 'content/isaiah/themes')].filter(existsSync))
+    for (const f of (await readdir(dir)).filter((x) => x.endsWith('.md'))) sources.push([`${path.basename(dir)} ${f}`, await readFile(path.join(dir, f), 'utf8')]);
 
 const allIsaiah = norm(kjv.flat().join(' '));
 let checked = 0;

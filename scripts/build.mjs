@@ -6,7 +6,7 @@ import path from 'node:path';
 import YAML from 'yaml';
 import { md, plain, unknownRefs } from '../src/lib/markdown.mjs';
 import { renderChapter, range } from '../src/templates/chapter.mjs';
-import { renderHome, renderBookIndex, renderGuidesIndex, renderGuide, renderPage, renderSearch, render404 } from '../src/templates/pages.mjs';
+import { renderHome, renderBookIndex, renderGuidesIndex, renderGuide, renderPage, renderSearch, render404, COLLECTIONS } from '../src/templates/pages.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const OUT = path.join(ROOT, 'dist');
@@ -107,21 +107,28 @@ export async function build({ quiet = false } = {}) {
   });
   await Promise.all(chapterWrites);
 
-  // Guides
-  const guideDir = r('content/isaiah/guides');
-  const guides = [];
-  for (const f of (await readdir(guideDir)).filter((f) => f.endsWith('.md')).sort()) {
-    const g = await readMd(path.join(guideDir, f));
-    g.slug = f.replace(/^\d+-/, '').replace(/\.md$/, '');
-    g.html = md(g.body);
-    guides.push(g);
-    search.push({ t: 'guide', r: 'Guide', h: g.title, u: `/isaiah/guides/${g.slug}/`, x: plain(g.body).slice(0, 3000) });
-  }
-  for (const g of guides) await write(`isaiah/guides/${g.slug}/index.html`, renderGuide({ book, guide: g, guides, sources }));
-  await write('isaiah/guides/index.html', renderGuidesIndex({ book, guides }));
+  // Guides and theme pages: Markdown files with front matter, one page each plus an index.
+  const buildCollection = async (key, searchLabel) => {
+    const collection = COLLECTIONS[key];
+    const dir = r(`content/isaiah/${collection.path}`);
+    if (!existsSync(dir)) return [];
+    const pages = [];
+    for (const f of (await readdir(dir)).filter((f) => f.endsWith('.md')).sort()) {
+      const g = await readMd(path.join(dir, f));
+      g.slug = f.replace(/^\d+-/, '').replace(/\.md$/, '');
+      g.html = md(g.body);
+      pages.push(g);
+      search.push({ t: 'guide', r: searchLabel, h: g.title, u: `/isaiah/${collection.path}/${g.slug}/`, x: plain(g.body).slice(0, 3000) });
+    }
+    for (const g of pages) await write(`isaiah/${collection.path}/${g.slug}/index.html`, renderGuide({ book, guide: g, guides: pages, sources, collection }));
+    if (pages.length) await write(`isaiah/${collection.path}/index.html`, renderGuidesIndex({ book, guides: pages, collection }));
+    return pages;
+  };
+  const guides = await buildCollection('guides', 'Guide');
+  const themes = await buildCollection('themes', 'Theme');
 
   // Book index, home, misc
-  await write('isaiah/index.html', renderBookIndex({ book, guides, sources }));
+  await write('isaiah/index.html', renderBookIndex({ book, guides, themes, sources }));
   const allNotes = book.chapters.flatMap((ch) => (ch.notes ?? []).filter((n) => n.phrase && n.phrase.length < 60).map((n) => ({ ...n, chapter: ch.chapter })));
   const featured = [];
   const pool = [...allNotes];
@@ -134,7 +141,7 @@ export async function build({ quiet = false } = {}) {
   await write('search.json', JSON.stringify(search));
   await write(
     'sitemap.xml',
-    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${['/', '/isaiah/', '/isaiah/guides/', '/about/', ...guides.map((g) => `/isaiah/guides/${g.slug}/`), ...book.chapters.map((c) => `/isaiah/${c.chapter}/`)]
+    `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${['/', '/isaiah/', '/isaiah/guides/', '/about/', ...guides.map((g) => `/isaiah/guides/${g.slug}/`), ...(themes.length ? ['/isaiah/themes/', ...themes.map((t) => `/isaiah/themes/${t.slug}/`)] : []), ...book.chapters.map((c) => `/isaiah/${c.chapter}/`)]
       .map((u) => `<url><loc>https://scriptures.conlin.io${u}</loc></url>`)
       .join('\n')}\n</urlset>\n`,
   );

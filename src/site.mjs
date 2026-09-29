@@ -14,7 +14,7 @@ export const SITE = {
 // chapter of every book, and wherever the site describes these sections. {chapter} becomes the
 // book and chapter, such as “Isaiah 53”.
 export const SECTIONS = {
-  setting: { title: 'Where we are', icon: 'compass' },
+  setting: { title: 'Background', icon: 'compass' },
   thread: { title: 'The thread through the chapter', icon: 'sparkle' },
   plain: { title: 'In plain words' },
   christ: { title: 'Seeing Christ in {chapter}', icon: 'christ' },

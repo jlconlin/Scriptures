@@ -44,14 +44,7 @@ Isaiah is rich in titles, and each one teaches something about who He is.
 
 ## The four Servant Songs
 
-Scholars have long noticed four poems in the second half of Isaiah about a mysterious **Servant of the Lord**. In some places “the servant” is Israel as a nation ([[Isa. 41:8]]; [[Isa. 44:1]]). But in these four songs the Servant is an individual who succeeds where Israel failed, suffers innocently, and redeems others. The New Testament and the Book of Mormon identify Him as Jesus Christ.
-
-1. **[[Isa. 42:1–7]]** — *The gentle Servant.* The Spirit is upon Him; He brings justice to the nations; “a bruised reed shall he not break.” Matthew says Jesus fulfilled it ([[Matt. 12:15–21]]).
-2. **[[Isa. 49:1–7]]** — *A light to the Gentiles.* Called from the womb, hidden “in the shadow of his hand,” sent to restore Israel and to be salvation “unto the end of the earth.” Simeon echoes it over the infant Jesus ([[Luke 2:30–32]]). Nephi quotes the chapter in [[1 Ne. 21]].
-3. **[[Isa. 50:4–9]]** — *The obedient disciple.* He listens “as the learned,” and He gives His back to the smiters and His cheeks to those who pluck off the hair. Compare [[Matt. 26:67]] and [[Matt. 27:26–30]]. Jacob quotes it in [[2 Ne. 7]].
-4. **[[Isa. 52:13–53:12]]** — *The Suffering Servant.* Despised and rejected, wounded for our transgressions, led as a lamb to the slaughter, numbered with the transgressors, making intercession. Abinadi quotes the entire song and explains it ([[Mosiah 14–15]]). Philip used it to teach the Ethiopian treasurer about Jesus ([[Acts 8:26–35]]).
-
-Some Latter-day Saint readers also see prophets, and especially Joseph Smith, as a secondary fulfillment of certain servant passages, particularly [[Isa. 52:13–15]] as the Savior applies it in [[3 Ne. 20:43–45]] and [[3 Ne. 21:8–11]]. The primary Servant, though, is always Christ.
+Four poems in the second half of Isaiah describe a servant of the Lord who succeeds where Israel failed, suffers innocently, and redeems others: [[Isa. 42:1–4]], [[Isa. 49:1–6]], [[Isa. 50:4–9]], and [[Isa. 52:13–53:12]]. The New Testament and the Book of Mormon identify Him as Jesus Christ, and Abinadi quoted and explained the fourth song before King Noah’s court ([[Mosiah 14–15]]). [The Servant Songs](/isaiah/themes/servant-songs/) page traces all four songs and the question of who the servant is.
 
 ## Prophecies the New Testament says He fulfilled
 

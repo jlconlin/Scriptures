@@ -8,7 +8,7 @@ This file tells a person or an AI assistant how to continue writing the commenta
 - Chapter commentary: **Isaiah 1–53 done.** Chapters 38 onward are written at the semi-academic standard described below.
 - Remaining: 54–66.
 - **Plan (decided 2026-09-29):** write 53–66 one chapter at a time, all the way through, without stopping to revise. Record judgment calls and unverified claims under “Open questions for review” as you go. After 66, do a single revision pass: resolve the open questions, then deepen chapters 1–37 (see “Revision plan” below).
-- Planned feature for later: **theme pages** covering topics that span many chapters. They differ from the existing guides (`content/isaiah/guides/`), which are general introductions to reading Isaiah. Don’t build them yet; add candidates to “Theme candidates” below while writing chapters.
+- **Theme pages** cover topics that span many chapters. Each is a Markdown file in `content/isaiah/themes/` (same format as the guides: YAML front matter with `title`, `blurb`, `icon`, `sources`, then prose) and is published at `/isaiah/themes/<file name>/`, with an index at `/isaiah/themes/` and cards on the Isaiah page. Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`). Done: **The Servant Songs**. When a chapter touches a theme that has a page, link to it instead of re-explaining the theme. Add future candidates to “Theme candidates” below.
 - Not yet done: a README and `scripts/check-links.mjs` (referenced in package.json). The repo is at `git@github.com:jlconlin/Scriptures.git`.
 - Side task for later: **an MCP server for the content corpus**, so readers can load the commentary into their own AI conversations. Suggested plan: (1) have `build.mjs` also emit a machine-readable `corpus.json` (KJV text, sections, notes, sources for every chapter) and an `llms.txt`, which works on any static host; (2) add a small MCP server over that corpus with tools such as `get_chapter`, `get_verse_commentary`, `search_notes`, and `list_sources`. It can run locally as an npm package over stdio, or remotely as a serverless function (for example a Cloudflare Worker at mcp.scriptures.conlin.io), depending on the host chosen.
 - Hosting: the site will be served at https://scriptures.conlin.io, but **not** by GitHub Pages. The host has not been chosen yet. `npm run build` writes a plain static site to `dist/` that can be served from any static host or web server. Configure the server to serve `404.html` for missing paths (in nginx: `error_page 404 /404.html;`), because it redirects `/Isaiah`, `/isaiah/53`, and similar paths to their canonical URLs.
@@ -39,13 +39,17 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 9: the reading of the Great Isaiah Scroll’s *bwmtw* as “burial mound,” and, in v. 11, the list of Qumran manuscripts that read “light” (1QIsaᵃ, 1QIsaᵇ, 4QIsaᵈ), are from memory; confirm.
 - Setting: the attributions to Origen (*Against Celsus* 1.55) and Rashi are from memory; confirm.
 
+**Across chapters**
+- Servant Song boundaries: the site now cites the core passages (42:1–4, 49:1–6, 50:4–9, 52:13–53:12) and the Servant Songs page explains the longer boundaries. Check older chapters and guides for other ranges (42:1–7, 49:1–7, and so on) and make them consistent.
+- The chapter 53 `setting` is still about 340 words after moving the servant debate to the theme page; trim toward the 150–250 word guideline.
+
 ## Theme candidates
 
 Topics that run across several chapters, collected for the future theme pages. Add to a line when a new chapter develops the theme; add a line for a new theme.
 
 - **The arm of the Lord:** [[Isa. 40:10]], [[Isa. 51:5]], [[Isa. 51:9]], [[Isa. 52:10]], [[Isa. 53:1]]; [[3 Ne. 20:35]].
 - **“Awake, awake”** (and doubled imperatives): [[Isa. 51:9]], [[Isa. 51:17]], [[Isa. 52:1–2]]; [[D&C 113:7–10]]; [[Moro. 10:31]].
-- **The Servant Songs and the servant’s identity** (first candidate; the author asked for it): one page with a section for each of the four songs, 42:1–9, 49:1–13, 50:4–11, 52:13–53:12, and the scholarly debate over the servant’s identity, now spread across the settings of chapters 42, 49, 52, and 53. Chapters then link to it.
+- ~~The Servant Songs~~: done (`content/isaiah/themes/servant-songs.md`). Chapters 42, 49, 50, 52, 53 and the Christ guide link to it. If Isaiah 61:1–3 gets commentary, link it to the page’s “A fifth song?” section.
 - **The new exodus:** 40:3–5, 43:16–21, 48:20–21, 51:9–11, 52:11–12.
 - **“High and lifted up”:** 2:12–17, 6:1, 52:13, 57:15; John 12:32–41.
 - **The cup of wrath:** 51:17–23; Jer. 25:15–29; Matt. 26:39; D&C 19:18.
