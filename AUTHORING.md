@@ -58,7 +58,7 @@ Topics that run across several chapters, collected for the future theme pages. A
 
 ## Site design notes
 
-- **Margin notes (2026-09-29).** On screens 1200px and wider, a note opens in the right margin beside the phrase that opened it, so the text never moves and the reader keeps their place. Several open notes stack without overlapping, and a newly opened note slides up the margin if needed to stay on screen. Narrower screens keep the original behavior (the note opens beneath its verse). The layout is in `src/assets/site.css` (the `min-width: 1200px` block) and the positioning in `src/assets/site.js` (`layoutNotes`).
+- **Margin notes (2026-09-29).** On screens 1000px and wider, a note opens in the right margin beside the phrase that opened it, so the text never moves and the reader keeps their place. Several open notes stack without overlapping, and a newly opened note slides up the margin if needed to stay on screen. Narrower screens keep the original behavior (the note opens beneath its verse). The layout is in `src/assets/site.css` (the `min-width: 1000px` block; the notes column narrows with the window) and the positioning in `src/assets/site.js` (`layoutNotes`).
 
 ## Workflow for each chapter
 
