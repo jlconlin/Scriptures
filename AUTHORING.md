@@ -5,8 +5,8 @@ This file tells a person or an AI assistant how to continue writing the commenta
 ## Status (2026-09-29)
 
 - Site framework, guides (content/isaiah/guides/), and About page: done.
-- Chapter commentary: **Isaiah 1–61 done.** Chapters 38 onward are written at the semi-academic standard described below.
-- Remaining: 62–66.
+- Chapter commentary: **Isaiah 1–62 done.** Chapters 38 onward are written at the semi-academic standard described below.
+- Remaining: 63–66.
 - **Plan (decided 2026-09-29):** write 53–66 one chapter at a time, all the way through, without stopping to revise. Record judgment calls and unverified claims under “Open questions for review” as you go. After 66, do a single revision pass: resolve the open questions, then deepen chapters 1–37 (see “Revision plan” below).
 - **Theme pages** cover topics that span many chapters. Each is a Markdown file in `content/isaiah/themes/` (same format as the guides: YAML front matter with `title`, `blurb`, `icon`, `sources`, then prose) and is published at `/isaiah/themes/<file name>/`, with an index at `/isaiah/themes/` and cards on the Isaiah page. Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`). Done: **The Servant Songs**. When a chapter touches a theme that has a page, link to it instead of re-explaining the theme. Add future candidates to “Theme candidates” below.
 - Not yet done: `scripts/check-links.mjs` and `scripts/check-content.mjs` (both referenced in package.json). The repo is at `git@github.com:jlconlin/Scriptures.git`.
@@ -96,6 +96,10 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 8: the *bəʿôlâ*/*bəʿawlâ* explanation cites Tov for the general point about vowels; confirm the Septuagint reading (“robbery and injustice”).
 - v. 6: the sentence on priesthood in the Restoration is kept deliberately brief. Check the wording.
 
+**Isaiah 62**
+- v. 5: the *bānayik*/*bōnayik* (“your sons”/“your Builder”) revocalization is presented with both readings; confirm which modern translations follow it.
+- v. 4: the observation that Azubah and Hephzibah were names of queen mothers (1 Kgs. 22:42; 2 Kgs. 21:1) is the site’s own; the suggestion that the prophet deliberately used known names is hedged only lightly. Check the wording.
+
 ## Theme candidates
 
 Topics that run across several chapters, collected for the future theme pages. Add to a line when a new chapter develops the theme; add a line for a new theme.
@@ -109,7 +113,9 @@ Topics that run across several chapters, collected for the future theme pages. A
 - **Zion as a woman** (bereaved mother, divorced wife, captive daughter, barren woman who becomes a mother): 49:14–21, 50:1, 51:17–52:2, 54:1–10; contrast Babylon in chapter 47. The Lord as husband and Redeemer (*gōʾēl*): 50:1, 54:5–8, 62:4–5.
 - **From servant to servants:** “servant” is singular 20 times in chapters 41–53 and plural 11 times from 54:17 to the end (56:6, where foreigners are included; 63:17, 65:8–15, 66:14). Could become a section of the Servant Songs page.
 - **Light rising on Zion:** 9:2, 42:6, 49:6, 58:8–10, 59:9, 60:1–3, 60:19–20; Rev. 21:23; D&C 115:5.
-- **Watchmen:** 21:6–12, 52:8, 56:10, 62:6.
+- **Watchmen:** 21:6–12, 52:8, 56:10, 62:6 (the “remembrancers” who give the Lord no rest; D&C 101:81).
+- **Names given by the Lord:** 1:26, 60:14, 60:18, 62:2–4, 62:12, 65:15; Mosiah 5:7–12; Rev. 2:17.
+- **The highway:** 11:16, 35:8–10, 40:3–5, 49:11, 57:14, 62:10.
 - **The herald of good news (*bāśar*):** 40:9, 41:27, 52:7, 61:1; Mosiah 15:13–18.
 - **Isaiah in Abinadi’s trial:** 52:7–10 and all of 53; [[Mosiah 12:20–24]], [[Mosiah 14–15]].
 - **Exchange** (he bears ours, we receive his): 53:4–6, 53:11–12; compare 61:3 (“beauty for ashes”).
