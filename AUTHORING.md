@@ -5,8 +5,8 @@ This file tells a person or an AI assistant how to continue writing the commenta
 ## Status (2026-09-29)
 
 - Site framework, guides (content/isaiah/guides/), and About page: done.
-- Chapter commentary: **Isaiah 1–59 done.** Chapters 38 onward are written at the semi-academic standard described below.
-- Remaining: 60–66.
+- Chapter commentary: **Isaiah 1–60 done.** Chapters 38 onward are written at the semi-academic standard described below.
+- Remaining: 61–66.
 - **Plan (decided 2026-09-29):** write 53–66 one chapter at a time, all the way through, without stopping to revise. Record judgment calls and unverified claims under “Open questions for review” as you go. After 66, do a single revision pass: resolve the open questions, then deepen chapters 1–37 (see “Revision plan” below).
 - **Theme pages** cover topics that span many chapters. Each is a Markdown file in `content/isaiah/themes/` (same format as the guides: YAML front matter with `title`, `blurb`, `icon`, `sources`, then prose) and is published at `/isaiah/themes/<file name>/`, with an index at `/isaiah/themes/` and cards on the Isaiah page. Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`). Done: **The Servant Songs**. When a chapter touches a theme that has a page, link to it instead of re-explaining the theme. Add future candidates to “Theme candidates” below.
 - Not yet done: `scripts/check-links.mjs` and `scripts/check-content.mjs` (both referenced in package.json). The repo is at `git@github.com:jlconlin/Scriptures.git`.
@@ -84,6 +84,12 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 19: the two readings of the verse (KJV “enemy… standard” and the modern “rushing stream… wind of the LORD drives”) are presented as both possible, with the modern one fitting the context better. The author may want to weigh in, since the KJV line is much loved.
 - v. 20: the Septuagint’s “for the sake of Zion” and the explanation of Paul’s “out of Zion” are from memory; confirm.
 
+**Isaiah 60**
+- v. 5: *nāhar* as “flow” or “be radiant” (two homonymous roots) is from the lexicons as remembered; confirm against HALOT.
+- v. 6: the Epiphany reading and the derivation of the “three kings” tradition from Isa. 60:3, 6 and Ps. 72:10–11 are stated as general knowledge; confirm or soften.
+- v. 8: the Latter-day Saint reading of “fly as a cloud” as air travel is mentioned and labeled a devotional application. Keep or cut?
+- v. 21: the *nēṣer*/Nazarene link (Matt. 2:23) is labeled a plausible hypothesis.
+
 ## Theme candidates
 
 Topics that run across several chapters, collected for the future theme pages. Add to a line when a new chapter develops the theme; add a line for a new theme.
@@ -96,6 +102,7 @@ Topics that run across several chapters, collected for the future theme pages. A
 - **The cup of wrath:** 51:17–23; Jer. 25:15–29; Matt. 26:39; D&C 19:18.
 - **Zion as a woman** (bereaved mother, divorced wife, captive daughter, barren woman who becomes a mother): 49:14–21, 50:1, 51:17–52:2, 54:1–10; contrast Babylon in chapter 47. The Lord as husband and Redeemer (*gōʾēl*): 50:1, 54:5–8, 62:4–5.
 - **From servant to servants:** “servant” is singular 20 times in chapters 41–53 and plural 11 times from 54:17 to the end (56:6, where foreigners are included; 63:17, 65:8–15, 66:14). Could become a section of the Servant Songs page.
+- **Light rising on Zion:** 9:2, 42:6, 49:6, 58:8–10, 59:9, 60:1–3, 60:19–20; Rev. 21:23; D&C 115:5.
 - **Watchmen:** 21:6–12, 52:8, 56:10, 62:6.
 - **The herald of good news (*bāśar*):** 40:9, 41:27, 52:7, 61:1; Mosiah 15:13–18.
 - **Isaiah in Abinadi’s trial:** 52:7–10 and all of 53; [[Mosiah 12:20–24]], [[Mosiah 14–15]].
