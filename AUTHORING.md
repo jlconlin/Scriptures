@@ -122,7 +122,7 @@ Write scripture references as `[[2 Ne. 25:4]]`, `[[D&C 113:1–6]]`, or `[[Isa. 
 
 ## Audience
 
-The primary reader is the author, who reads mostly on an iPad mini. Write to the standard below, and favor what helps his study (his questions, readability, depth) over things that matter only for a public site (search-engine polish, first-time-visitor defaults).
+The primary reader is the author, who reads mostly on an iPad mini. Write to the standard below, and favor what helps the author’s study (their questions, readability, depth) over things that matter only for a public site (search-engine polish, first-time-visitor defaults).
 
 
 The site is **semi-academic**. The target reader is academically trained, for example someone with a PhD in a technical field. They are intellectually curious, comfortable with complexity and with competing hypotheses, and expect claims to be documented. But they are not a specialist in biblical studies, Hebrew, or ancient Near Eastern history. Write for that reader:
