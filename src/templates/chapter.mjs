@@ -194,7 +194,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
           <button type="button" class="tool" data-action="font" title="Text size" aria-label="Change text size"><span class="aa">Aa</span></button>
         </div>
       </div>
-      <p class="reader-hint">Tap any <span class="hint-phr">highlighted phrase</span> to open a note beneath its verse.</p>
+      <p class="reader-hint">Tap any <span class="hint-phr">highlighted phrase</span> to open a note <span class="hint-narrow">beneath its verse</span><span class="hint-wide">in the margin</span>.</p>
 
       <div class="reader">
         ${passageHtml}

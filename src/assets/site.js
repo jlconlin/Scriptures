@@ -45,11 +45,53 @@
   const reader = $('.reader');
   if (reader) {
     const triggersFor = (id) => $$(`[data-note="${id}"]`);
+
+    // Wide screens: CSS puts open notes in the right margin; here we set each one's
+    // vertical position beside its phrase. The note opened last sits exactly beside its
+    // phrase; the others stack above and below it without overlapping.
+    const wide = matchMedia('(min-width: 1200px)');
+    let lastOpened = null;
+    let pending = false;
+    const layoutNotes = () => {
+      pending = false;
+      const open = $$('.note', reader).filter((n) => !n.hidden);
+      if (!wide.matches) { open.forEach((n) => { n.style.top = ''; }); return; }
+      const base = reader.getBoundingClientRect().top;
+      const items = open
+        .map((n) => {
+          const anchor = triggersFor(n.id).find((b) => b.offsetParent) ?? n.closest('.verse-block');
+          return { n, want: anchor.getBoundingClientRect().top - base - 8, h: n.offsetHeight };
+        })
+        .sort((a, b) => a.want - b.want);
+      if (!items.length) return;
+      const gap = 12;
+      const a = Math.max(0, items.findIndex((x) => x.n === lastOpened));
+      items[a].top = items[a].want;
+      // Keep a newly opened note on screen: slide it up the margin rather than make the reader scroll.
+      if (items[a].n === lastOpened) {
+        const viewTop = 120 - base;
+        const viewBottom = innerHeight - 16 - base;
+        if (items[a].top + items[a].h > viewBottom) items[a].top = Math.max(viewTop, viewBottom - items[a].h);
+      }
+      for (let i = a + 1; i < items.length; i++) items[i].top = Math.max(items[i].want, items[i - 1].top + items[i - 1].h + gap);
+      for (let i = a - 1; i >= 0; i--) items[i].top = Math.min(items[i].want, items[i + 1].top - items[i].h - gap);
+      items.forEach((x) => { x.n.style.top = `${x.top}px`; });
+    };
+    const scheduleLayout = () => { if (!pending) { pending = true; requestAnimationFrame(layoutNotes); } };
+    wide.addEventListener('change', scheduleLayout);
+    addEventListener('resize', scheduleLayout);
+    if ('ResizeObserver' in window) new ResizeObserver(scheduleLayout).observe(reader);
+    document.fonts?.ready.then(scheduleLayout);
+
     const setNote = (note, open, { scroll = false } = {}) => {
       if (!note) return;
       note.hidden = !open;
       triggersFor(note.id).forEach((b) => b.setAttribute('aria-expanded', String(open)));
-      if (open && scroll) {
+      if (open) lastOpened = note;
+      else if (lastOpened === note) lastOpened = null;
+      scheduleLayout();
+      // In the margin the note opens beside the phrase, so there is nothing to scroll to.
+      if (open && scroll && !wide.matches) {
         requestAnimationFrame(() => {
           const r = note.getBoundingClientRect();
           if (r.bottom > innerHeight || r.top < 110) note.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest' });
@@ -86,7 +128,7 @@
         setNote(el, true);
         // Wait for the browser's own jump to the anchor, then show the verse above the note.
         const verse = el.closest('.verse-block')?.querySelector('.verse');
-        const go = () => setTimeout(() => verse?.scrollIntoView({ block: 'start' }), 60);
+        const go = () => setTimeout(() => { verse?.scrollIntoView({ block: 'start' }); scheduleLayout(); }, 60);
         document.readyState === 'complete' ? go() : addEventListener('load', go, { once: true });
       }
     };
@@ -135,6 +177,7 @@
         const k = [...n.classList].find((c) => c.startsWith('k-'))?.slice(2);
         setNote(n, open && !hidden.has(k));
       });
+      lastOpened = null; // stack every margin note downward from the top
     });
 
     const scales = ['1', '1.12', '1.25', '0.92'];

@@ -56,6 +56,10 @@ Topics that run across several chapters, collected for the future theme pages. A
 - **Exchange** (he bears ours, we receive his): 53:4–6, 53:11–12; compare 61:3 (“beauty for ashes”).
 - **The Lord as comforter (*niḥam*):** 40:1, 49:13, 51:3, 51:12, 51:19, 52:9, 66:13.
 
+## Site design notes
+
+- **Margin notes (2026-09-29).** On screens 1200px and wider, a note opens in the right margin beside the phrase that opened it, so the text never moves and the reader keeps their place. Several open notes stack without overlapping, and a newly opened note slides up the margin if needed to stay on screen. Narrower screens keep the original behavior (the note opens beneath its verse). The layout is in `src/assets/site.css` (the `min-width: 1200px` block) and the positioning in `src/assets/site.js` (`layoutNotes`).
+
 ## Workflow for each chapter
 
 ```sh
@@ -90,7 +94,7 @@ The site is **semi-academic**. The target reader is academically trained, for ex
 - **Don’t oversimplify.** Engage real scholarly questions directly: textual variants (Masoretic Text, Septuagint, the Great Isaiah Scroll 1QIsaᵃ, Book of Mormon readings), dating and authorship debates, Near Eastern parallels and archaeology, translation choices, and literary structure. Name the positions fairly, including non-Latter-day Saint scholarship, and explain what is at stake. Then present the Latter-day Saint reading and its basis.
 - **Explain the specialist tools.** Define technical terms the first time they appear (for example *qere/ketiv*, *Masoretic*, chiasmus, *prophetic perfect*). Transliterate Hebrew, and explain the Hebrew morphology when it matters for meaning.
 - **Document without cluttering.** Support claims with sources, in each note’s `sources` list or in a brief inline attribution (“Oswalt argues…”, “Sennacherib’s annals claim…”). Keep the prose readable. Citations should support the message, not interrupt it. Say how certain a claim is: established fact, scholarly consensus, a plausible hypothesis, or devotional application.
-- **Be selective; don’t include everything you find.** The site should not feel busy. Aim for roughly the length of chapter 50 (about 3,500 words, 8–11 notes). Where several sources or cross-references make the same point, use the best one. Where two notes overlap, merge them or cut one. Good material that doesn’t serve the chapter’s thread can be left out.
+- **Be selective; don’t include everything you find.** The site should not feel busy. Aim for roughly the length of chapter 50 (about 3,500 words, 8–11 notes). Where several sources or cross-references make the same point, use the best one. Where two notes overlap, merge them or cut one. Good material that doesn’t serve the chapter’s thread can be left out. This applies to every chapter, including the revision of 1–37 (where deepening should replace weaker notes as often as it adds new ones), and to every resource: Scripture Central, BYU, the Church’s site, and the scholarly commentaries. Finding something is not a reason to include it.
 - **Go for depth over breadth.** A few well-developed notes that make real connections, across the canon, across the Restoration scriptures, and across the book of Isaiah, are better than many shallow ones.
 - Chapters 1–37 were written somewhat closer to a general audience. See the revision plan below.
 
