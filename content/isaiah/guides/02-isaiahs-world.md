@@ -108,7 +108,7 @@ All dates are approximate. Scholars differ by a few years on many of them, espec
 
 - **Vineyards.** Hillside plots cleared of stones, terraced, walled, and guarded from a watchtower, with a winepress cut into the rock ([[Isa. 5:1–2]]). Isaiah’s audience knew exactly how much work a vineyard was.
 - **Threshing floors.** Flat, windy places where grain was beaten and tossed into the air so the chaff blew away ([[Isa. 41:15–16]]).
-- **City gates.** Where elders sat to judge cases. “Justice in the gate” was the measure of a city ([[Isa. 29:21]]).
+- **City gates.** Where elders sat to judge cases. Justice in the gate was the measure of a city ([[Isa. 29:21]]; [[Amos 5:15]]).
 - **Watchmen.** Men on walls or towers who watched for enemies or messengers ([[Isa. 21:6–12]]; [[Isa. 52:8]]; [[Isa. 62:6]]).
 - **Cisterns and pools.** Jerusalem’s water supply was a matter of life and death in a siege. Hezekiah carved a tunnel through bedrock to bring water inside the city walls ([[2 Kgs. 20:20]]), and an inscription carved by the workmen still survives.
 - **High places and groves.** Local shrines on hilltops, often with a sacred pole or tree, where Israelites mixed the worship of Jehovah with fertility gods.
