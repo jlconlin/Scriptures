@@ -1,5 +1,5 @@
 import { md, mdInline, esc, plain } from '../lib/markdown.mjs';
-import { KINDS } from '../site.mjs';
+import { KINDS, SECTIONS, sectionTitle } from '../site.mjs';
 import { layout, icon } from './layout.mjs';
 import { renderSource } from './sources.mjs';
 import { compareVerse } from '../lib/bomdiff.mjs';
@@ -57,9 +57,9 @@ function teaser(md) {
 
 /** A collapsible introductory section. Open by default; collapsed, it shows its heading and first sentence.
  *  site.js remembers which sections a reader has collapsed. */
-function introSection({ key, cls, iconName, title, body, prose }) {
+function introSection({ key, cls, body, prose }) {
   return `<details class="${cls} intro" data-intro="${key}" open>
-  <summary><h2 class="card-title" id="${key}-h">${icon(iconName)} ${esc(title)}${icon('chevron', 'intro-chevron')}</h2><span class="intro-teaser">${esc(teaser(body))}</span></summary>
+  <summary><h2 class="card-title" id="${key}-h">${icon(SECTIONS[key].icon)} ${esc(sectionTitle(key))}${icon('chevron', 'intro-chevron')}</h2><span class="intro-teaser">${esc(teaser(body))}</span></summary>
   <div class="${prose}">${md(body)}</div>
 </details>`;
 }
@@ -95,6 +95,7 @@ function bomNoteHtml(b) {
 
 export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom }) {
   const n = ch.chapter;
+  const chapterName = `${book.name} ${n}`;
   const division = book.divisions.find((d) => n >= d.range[0] && n <= d.range[1]);
 
   // Assign ids and index notes by verse
@@ -154,9 +155,9 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
       return `<section class="passage" id="s${si + 1}" aria-labelledby="s${si + 1}h">
   <header class="passage-head">
     <span class="passage-range">${label}</span>
-    <h2 id="s${si + 1}h">${mdInline(s.heading || `Isaiah ${n}`)}</h2>
+    <h2 id="s${si + 1}h">${mdInline(s.heading || `${book.name} ${n}`)}</h2>
   </header>
-  ${s.plain ? `<div class="plain"><span class="plain-label">In plain words</span>${md(s.plain)}</div>` : ''}
+  ${s.plain ? `<div class="plain"><span class="plain-label">${esc(sectionTitle('plain'))}</span>${md(s.plain)}</div>` : ''}
   <div class="verses">${vs.join('\n')}</div>
 </section>`;
     })
@@ -182,7 +183,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
   const dial = book.chapters
     .map((c) => {
       const d = book.divisions.find((d) => c.chapter >= d.range[0] && c.chapter <= d.range[1]);
-      return `<a href="/${book.slug}/${c.chapter}/" class="tick${c.chapter === n ? ' current' : ''}" style="--c:var(--div-${d.key})" title="Isaiah ${c.chapter}: ${esc(c.title)}" aria-label="Isaiah ${c.chapter}${c.chapter === n ? ' (this chapter)' : ''}" data-ch="${c.chapter}"></a>`;
+      return `<a href="/${book.slug}/${c.chapter}/" class="tick${c.chapter === n ? ' current' : ''}" style="--c:var(--div-${d.key})" title="${esc(book.name)} ${c.chapter}: ${esc(c.title)}" aria-label="${esc(book.name)} ${c.chapter}${c.chapter === n ? ' (this chapter)' : ''}" data-ch="${c.chapter}"></a>`;
     })
     .join('');
 
@@ -207,9 +208,9 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
 
   <div class="wrap chapter-grid">
     <div class="chapter-main">
-      ${ch.setting ? introSection({ key: 'setting', cls: 'setting card', iconName: 'compass', title: 'Where we are', body: ch.setting, prose: 'prose' }) : ''}
+      ${ch.setting ? introSection({ key: 'setting', cls: 'setting card', body: ch.setting, prose: 'prose' }) : ''}
 
-      ${ch.thread ? introSection({ key: 'thread', cls: 'thread', iconName: 'sparkle', title: 'The thread through the chapter', body: ch.thread, prose: 'prose prose-lg' }) : ''}
+      ${ch.thread ? introSection({ key: 'thread', cls: 'thread', body: ch.thread, prose: 'prose prose-lg' }) : ''}
 
       <div class="reader-bar" role="toolbar" aria-label="Reading tools">
         <div class="legend">
@@ -227,27 +228,27 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
         ${passageHtml}
       </div>
 
-      ${ch.christ ? `<section class="closing card card-christ" aria-labelledby="christ-h"><h2 id="christ-h" class="card-title">${icon('christ')} Seeing Christ in Isaiah ${n}</h2><div class="prose">${md(ch.christ)}</div></section>` : ''}
-      ${ch.liken ? `<section class="closing card card-liken" aria-labelledby="liken-h"><h2 id="liken-h" class="card-title">${icon('liken')} Liken it to yourself</h2><div class="prose">${md(ch.liken)}</div></section>` : ''}
-      ${ch.explore ? `<section class="closing card card-explore" aria-labelledby="explore-h"><h2 id="explore-h" class="card-title">${icon('key')} Worth exploring next</h2><div class="prose">${md(ch.explore)}</div></section>` : ''}
+      ${ch.christ ? `<section class="closing card card-christ" aria-labelledby="christ-h"><h2 id="christ-h" class="card-title">${icon(SECTIONS.christ.icon)} ${esc(sectionTitle('christ', chapterName))}</h2><div class="prose">${md(ch.christ)}</div></section>` : ''}
+      ${ch.liken ? `<section class="closing card card-liken" aria-labelledby="liken-h"><h2 id="liken-h" class="card-title">${icon(SECTIONS.liken.icon)} ${esc(sectionTitle('liken'))}</h2><div class="prose">${md(ch.liken)}</div></section>` : ''}
+      ${ch.explore ? `<section class="closing card card-explore" aria-labelledby="explore-h"><h2 id="explore-h" class="card-title">${icon(SECTIONS.explore.icon)} ${esc(sectionTitle('explore'))}</h2><div class="prose">${md(ch.explore)}</div></section>` : ''}
 
       <div class="chapter-refs">
-        ${parallels || bomSummary ? `<section aria-labelledby="par-h"><h2 id="par-h">This chapter elsewhere in scripture</h2>${bomSummary}${parallels ? `<ul class="ref-list">${parallels}</ul>` : ''}</section>` : ''}
-        ${srcList.length ? `<section aria-labelledby="src-h"><h2 id="src-h">Sources &amp; further reading</h2><ul class="source-list">${srcList.map((s) => `<li>${s}</li>`).join('')}</ul></section>` : ''}
+        ${parallels || bomSummary ? `<section aria-labelledby="par-h"><h2 id="par-h">${esc(sectionTitle('parallels'))}</h2>${bomSummary}${parallels ? `<ul class="ref-list">${parallels}</ul>` : ''}</section>` : ''}
+        ${srcList.length ? `<section aria-labelledby="src-h"><h2 id="src-h">${esc(sectionTitle('sources'))}</h2><ul class="source-list">${srcList.map((s) => `<li>${s}</li>`).join('')}</ul></section>` : ''}
       </div>
 
-      <label class="mark-read"><input type="checkbox" data-read="${book.slug}-${n}"> I’ve studied Isaiah ${n}</label>
+      <label class="mark-read"><input type="checkbox" data-read="${book.slug}-${n}"> ${esc(sectionTitle('studied', chapterName))}</label>
 
       <nav class="pager" aria-label="Chapter navigation">
-        ${prev ? `<a class="pager-prev" href="/${book.slug}/${prev.chapter}/">${icon('arrowL')}<span><small>Isaiah ${prev.chapter}</small>${esc(prev.title)}</span></a>` : '<span></span>'}
-        ${next ? `<a class="pager-next" href="/${book.slug}/${next.chapter}/"><span><small>Isaiah ${next.chapter}</small>${esc(next.title)}</span>${icon('arrowR')}</a>` : '<span></span>'}
+        ${prev ? `<a class="pager-prev" href="/${book.slug}/${prev.chapter}/">${icon('arrowL')}<span><small>${esc(book.name)} ${prev.chapter}</small>${esc(prev.title)}</span></a>` : '<span></span>'}
+        ${next ? `<a class="pager-next" href="/${book.slug}/${next.chapter}/"><span><small>${esc(book.name)} ${next.chapter}</small>${esc(next.title)}</span>${icon('arrowR')}</a>` : '<span></span>'}
       </nav>
     </div>
   </div>
 </article>`;
 
   return layout({
-    title: `Isaiah ${n}: ${plain(ch.title)}`,
+    title: `${chapterName}: ${plain(ch.title)}`,
     description: plain(ch.tagline ?? ch.thread ?? '').slice(0, 200),
     path: `/${book.slug}/${n}/`,
     body,

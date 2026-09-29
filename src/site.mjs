@@ -10,6 +10,22 @@ export const SITE = {
   version: Date.now().toString(36),
 };
 
+// Headings for the parts of every chapter page. Change a heading here and it changes on every
+// chapter of every book, and wherever the site describes these sections. {chapter} becomes the
+// book and chapter, such as “Isaiah 53”.
+export const SECTIONS = {
+  setting: { title: 'Where we are', icon: 'compass' },
+  thread: { title: 'The thread through the chapter', icon: 'sparkle' },
+  plain: { title: 'In plain words' },
+  christ: { title: 'Seeing Christ in {chapter}', icon: 'christ' },
+  liken: { title: 'Liken it to yourself', icon: 'liken' },
+  explore: { title: 'Worth exploring next', icon: 'key' },
+  parallels: { title: 'This chapter elsewhere in scripture' },
+  sources: { title: 'Sources & further reading' },
+  studied: { title: 'I’ve studied {chapter}' },
+};
+export const sectionTitle = (key, chapter = '') => SECTIONS[key].title.replace('{chapter}', chapter);
+
 // How each kind of note is labelled and colored throughout the site.
 export const KINDS = {
   words: { label: 'Word & Language', short: 'Words', blurb: 'What a word or phrase meant in Isaiah’s Hebrew or in 1611 English.' },

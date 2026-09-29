@@ -1,5 +1,5 @@
 import { md, mdInline, esc, plain } from '../lib/markdown.mjs';
-import { KINDS, SITE } from '../site.mjs';
+import { KINDS, SITE, sectionTitle } from '../site.mjs';
 import { layout, icon, logo } from './layout.mjs';
 import { renderSource } from './sources.mjs';
 
@@ -141,9 +141,9 @@ export function renderBookIndex({ book, guides, sources }) {
 <section class="wrap book-section how">
   <h2 class="section-title">How each chapter works</h2>
   <div class="how-grid">
-    <div class="how-step"><span class="how-n">1</span><h3>Get your bearings</h3><p><strong>Where we are</strong> sets the scene: who is speaking, to whom, and what was happening in the world.</p></div>
-    <div class="how-step"><span class="how-n">2</span><h3>Follow the thread</h3><p><strong>The thread through the chapter</strong> shows the argument that ties the chapter together, so it doesn’t read like a pile of unrelated images.</p></div>
-    <div class="how-step"><span class="how-n">3</span><h3>Read with help</h3><p>Every section starts <strong>in plain words</strong>. Tap a <span class="hint-phr">highlighted phrase</span> to open a note right under its verse.</p></div>
+    <div class="how-step"><span class="how-n">1</span><h3>Get your bearings</h3><p><strong>${esc(sectionTitle('setting'))}</strong> sets the scene: who is speaking, to whom, and what was happening in the world.</p></div>
+    <div class="how-step"><span class="how-n">2</span><h3>Follow the thread</h3><p><strong>${esc(sectionTitle('thread'))}</strong> shows the argument that ties the chapter together, so it doesn’t read like a pile of unrelated images.</p></div>
+    <div class="how-step"><span class="how-n">3</span><h3>Read with help</h3><p>Every section starts with <strong>${esc(sectionTitle('plain').toLowerCase())}</strong>. Tap a <span class="hint-phr">highlighted phrase</span> to open its note: in the margin on a wide screen, under the verse on a narrow one.</p></div>
     <div class="how-step"><span class="how-n">4</span><h3>Come unto Christ</h3><p>Each chapter ends by <strong>seeing Christ</strong> in the text and <strong>likening</strong> it to your own life.</p></div>
   </div>
   <ul class="kinds-legend">
@@ -210,7 +210,7 @@ export function renderGuide({ book, guide, guides, sources }) {
 </div></header>
 <article class="wrap narrow guide prose prose-lg">
 ${guide.html}
-${srcs.length ? `<h2>Sources &amp; further reading</h2><ul class="source-list">${srcs.map((s) => `<li>${s}</li>`).join('')}</ul>` : ''}
+${srcs.length ? `<h2>${esc(sectionTitle('sources'))}</h2><ul class="source-list">${srcs.map((s) => `<li>${s}</li>`).join('')}</ul>` : ''}
 </article>
 <nav class="wrap narrow pager">
   <a class="pager-prev" href="/${book.slug}/guides/">${icon('arrowL')}<span><small>Back to</small>All guides</span></a>
