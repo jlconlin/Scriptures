@@ -92,6 +92,9 @@ Topics that run across several chapters, collected for the future theme pages. A
 
 ## Workflow for each chapter
 
+**Method: read, ask, then seek.** Start by reading the chapter itself and writing down the questions it raises (what does this word mean, who is speaking, why does the Book of Mormon read differently, what happened here, where else is this quoted). Only then go to sources, to answer those questions. Every note should answer a real question a careful reader would ask; if it doesn’t, cut it. This is what keeps the site a reading companion rather than a collection of everything the sources say. When the author sends questions about a chapter, build the chapter around them.
+
+
 ```sh
 node scripts/show.mjs 38            # print the KJV text with verse numbers
 # write content/isaiah/chapters/38.yaml (copy the structure of an existing chapter)
@@ -118,6 +121,9 @@ Each note has:
 Write scripture references as `[[2 Ne. 25:4]]`, `[[D&C 113:1–6]]`, or `[[Isa. 53:5]]` (Isaiah references become internal links). Use en dashes in ranges.
 
 ## Audience
+
+The primary reader is the author, who reads mostly on an iPad mini. Write to the standard below, and favor what helps his study (his questions, readability, depth) over things that matter only for a public site (search-engine polish, first-time-visitor defaults).
+
 
 The site is **semi-academic**. The target reader is academically trained, for example someone with a PhD in a technical field. They are intellectually curious, comfortable with complexity and with competing hypotheses, and expect claims to be documented. But they are not a specialist in biblical studies, Hebrew, or ancient Near Eastern history. Write for that reader:
 
