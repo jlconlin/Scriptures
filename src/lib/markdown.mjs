@@ -12,6 +12,12 @@ marked.use({
       const ext = /^https?:/.test(href) ? ' target="_blank" rel="noopener"' : '';
       return `<a href="${href}"${t}${ext}>${text}</a>`;
     },
+    // Headings get ids so they can be linked to (e.g. /about/#how-this-site-was-made).
+    heading({ tokens, depth }) {
+      const text = this.parser.parseInline(tokens);
+      const id = text.replace(/<[^>]+>/g, '').toLowerCase().replace(/&[a-z]+;|[’']/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+      return `<h${depth} id="${id}">${text}</h${depth}>\n`;
+    },
   },
 });
 

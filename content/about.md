@@ -37,9 +37,23 @@ The title comes from Isaiah himself: “line upon line; here a little, and there
 
 The scripture text is the King James Version, which is in the public domain. It matches the text in the Latter-day Saint edition of the Bible, though that edition’s footnotes, chapter headings, and study aids are not reproduced here. Each chapter links to the Gospel Library so you can read it with those helps.
 
+## How this site was made
+
+The commentary on this site, including the chapter essays, notes, plain-words summaries, and guides, was **written with AI**. It was drafted by Claude, an AI model made by Anthropic, working under the direction of the site’s author. The site itself (its design and code) was built the same way.
+
+AI can explain a great deal, but it can also be confidently wrong. So the content was checked in several ways:
+
+- **The scripture text** is the public-domain King James Version, compared word for word against the Latter-day Saint edition in the Gospel Library.
+- **Every quotation** of scripture that is followed by a reference is automatically checked against the text of that chapter, so that quoted words actually appear where the note says they do.
+- **Every link** to the Church’s website and other sources was checked to make sure it leads to a real page with the expected title.
+- **The Book of Mormon comparisons** are generated directly from the text, not written by hand.
+- **Interpretations** follow the scriptures and the teachings of latter-day prophets and apostles. Where faithful readers differ, or where a reading is speculative, the notes try to say so.
+
+Even so, this commentary is a study aid, not an authority. Use it the way you would use a thoughtful friend’s notes: as a starting point for your own study, prayer, and pondering. If you find an error, please [open an issue on GitHub](https://github.com/jlconlin/Scriptures/issues).
+
 ## A note of humility
 
-This is an independent project by a member of The Church of Jesus Christ of Latter-day Saints. It is **not** an official publication of the Church, and nothing here should be taken as the Church’s official interpretation of any passage. The commentary was drafted with the help of AI and checked against the scriptures and the teachings of latter-day prophets. Mistakes are the author’s. If you find one, please [open an issue on GitHub](https://github.com/jlconlin/Scriptures/issues).
+This is an independent project by a member of The Church of Jesus Christ of Latter-day Saints. It is **not** an official publication of the Church, and nothing here should be taken as the Church’s official interpretation of any passage.
 
 Above all, the Holy Ghost is the one who opens Isaiah. Nephi said the words of Isaiah are plain to “all those that are filled with the spirit of prophecy” ([[2 Ne. 25:4]]). Read with a prayer in your heart.
 
