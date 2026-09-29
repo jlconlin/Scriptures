@@ -5,8 +5,8 @@ This file tells a person or an AI assistant how to continue writing the commenta
 ## Status (2026-09-29)
 
 - Site framework, guides (content/isaiah/guides/), and About page: done.
-- Chapter commentary: **Isaiah 1–55 done.** Chapters 38 onward are written at the semi-academic standard described below.
-- Remaining: 56–66.
+- Chapter commentary: **Isaiah 1–56 done.** Chapters 38 onward are written at the semi-academic standard described below.
+- Remaining: 57–66.
 - **Plan (decided 2026-09-29):** write 53–66 one chapter at a time, all the way through, without stopping to revise. Record judgment calls and unverified claims under “Open questions for review” as you go. After 66, do a single revision pass: resolve the open questions, then deepen chapters 1–37 (see “Revision plan” below).
 - **Theme pages** cover topics that span many chapters. Each is a Markdown file in `content/isaiah/themes/` (same format as the guides: YAML front matter with `title`, `blurb`, `icon`, `sources`, then prose) and is published at `/isaiah/themes/<file name>/`, with an index at `/isaiah/themes/` and cards on the Isaiah page. Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`). Done: **The Servant Songs**. When a chapter touches a theme that has a page, link to it instead of re-explaining the theme. Add future candidates to “Theme candidates” below.
 - Not yet done: `scripts/check-links.mjs` and `scripts/check-content.mjs` (both referenced in package.json). The repo is at `git@github.com:jlconlin/Scriptures.git`.
@@ -80,7 +80,7 @@ Topics that run across several chapters, collected for the future theme pages. A
 - **“High and lifted up”:** 2:12–17, 6:1, 52:13, 57:15; John 12:32–41.
 - **The cup of wrath:** 51:17–23; Jer. 25:15–29; Matt. 26:39; D&C 19:18.
 - **Zion as a woman** (bereaved mother, divorced wife, captive daughter, barren woman who becomes a mother): 49:14–21, 50:1, 51:17–52:2, 54:1–10; contrast Babylon in chapter 47. The Lord as husband and Redeemer (*gōʾēl*): 50:1, 54:5–8, 62:4–5.
-- **From servant to servants:** “servant” is singular 20 times in chapters 41–53 and plural 11 times from 54:17 to the end (56:6, 63:17, 65:8–15, 66:14). Could become a section of the Servant Songs page.
+- **From servant to servants:** “servant” is singular 20 times in chapters 41–53 and plural 11 times from 54:17 to the end (56:6, where foreigners are included; 63:17, 65:8–15, 66:14). Could become a section of the Servant Songs page.
 - **Watchmen:** 21:6–12, 52:8, 56:10, 62:6.
 - **The herald of good news (*bāśar*):** 40:9, 41:27, 52:7, 61:1; Mosiah 15:13–18.
 - **Isaiah in Abinadi’s trial:** 52:7–10 and all of 53; [[Mosiah 12:20–24]], [[Mosiah 14–15]].
@@ -170,5 +170,4 @@ Priority order: 1, 6, 7, 9, 11, 14, 24–27, 29; then the rest. The oracles in 1
 - 39: Merodach-baladan’s envoys; 2 Chr. 32:25–26, 31 (“God left him, to try him”); exile foretold (Dan. 1).
 - 40–48 (division “comfort”): 1 Ne. 20 = Isa. 48; Cyrus 44:28–45:7; idol satire 44:9–20.
 - 49–55 (“servant”): 1 Ne. 21; 2 Ne. 6–8; Mosiah 12, 14–15; 3 Ne. 16, 20–22; D&C 113:7–10 on 52:1–2.
-- 56 (started, nothing written yet). Questions from the first reading: why the turn from comfort to “keep ye judgment, and do justice” (v. 1); why the Sabbath is singled out (vv. 2, 4, 6; Ex. 31:13, Neh. 13:17–18, D&C 59:9–10); why foreigners and eunuchs felt shut out (Deut. 23:1–3) and who they were (Isa. 39:7 foretold that Hezekiah’s descendants would be eunuchs in Babylon; Dan. 1:3); “a place and a name” (*yad wāšēm*, v. 5; compare Absalom’s pillar, 2 Sam. 18:18; Rev. 2:17; D&C 130:11); the Ethiopian eunuch reading Isaiah (Acts 8:27–28) as the kind of person this chapter welcomes; “an house of prayer for all people” (v. 7; Mark 11:17; D&C 88:119); “others” still to be gathered (v. 8; John 10:16; 3 Ne. 15:21; 3 Ne. 16:1–3); the blind watchmen (vv. 10–12) as the reverse of the singing watchmen of 52:8, with the drinkers’ slogan echoing 22:13. Verse 6 has “servants” (plural), continuing the thread from 54:17. Note that 56:9 begins a unit that runs into chapter 57.
 - 56–66 (“zion”): Luke 4:16–21 on 61:1–2; D&C 138:42; D&C 133:46–53 on 63:1–9 (also D&C 88:106); D&C 101:30–31 on 65:20; D&C 133:40–45 on 64:1–4.
