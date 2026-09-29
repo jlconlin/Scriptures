@@ -58,6 +58,6 @@ Each reading explains some features of the songs and struggles with others. The 
 
 Latter-day Saints read the songs first of all as prophecies of Jesus Christ, as the Book of Mormon does. But the Restoration is also comfortable with prophecy that is fulfilled more than once, and Nephi taught his people to “liken all scriptures unto us” ([[1 Ne. 19:23]]). Read that way, the servant is a pattern. Israel was called to be God’s servant and a light to the nations. Jesus Christ fulfilled that calling perfectly, as the one faithful Israelite who bore the sins of others. And those who follow Him share in the calling, as Paul and Barnabas did when they applied the second song to themselves. The Savior Himself applied the language of the fourth song to a latter-day servant who would be “marred” and healed ([[3 Ne. 21:10]]). Latter-day Saints have usually taken that servant to be Joseph Smith; others have read it as Christ, or as the Book of Mormon itself.[@sc-knowhy-215] The text does not settle which.
 
-## A fifth song?
+<h2 id="fifth-song">A fifth song?</h2>
 
 Some scholars add [[Isa. 61:1–3]] to the list: “The Spirit of the Lord GOD is upon me; because the LORD hath anointed me to preach good tidings unto the meek.” The speaker is not called a servant, but his anointing by the Spirit echoes the first song. Jesus read this passage in the synagogue at Nazareth and announced, “This day is this scripture fulfilled in your ears” ([[Luke 4:16–21]]).

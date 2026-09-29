@@ -5,8 +5,8 @@ This file tells a person or an AI assistant how to continue writing the commenta
 ## Status (2026-09-29)
 
 - Site framework, guides (content/isaiah/guides/), and About page: done.
-- Chapter commentary: **Isaiah 1–60 done.** Chapters 38 onward are written at the semi-academic standard described below.
-- Remaining: 61–66.
+- Chapter commentary: **Isaiah 1–61 done.** Chapters 38 onward are written at the semi-academic standard described below.
+- Remaining: 62–66.
 - **Plan (decided 2026-09-29):** write 53–66 one chapter at a time, all the way through, without stopping to revise. Record judgment calls and unverified claims under “Open questions for review” as you go. After 66, do a single revision pass: resolve the open questions, then deepen chapters 1–37 (see “Revision plan” below).
 - **Theme pages** cover topics that span many chapters. Each is a Markdown file in `content/isaiah/themes/` (same format as the guides: YAML front matter with `title`, `blurb`, `icon`, `sources`, then prose) and is published at `/isaiah/themes/<file name>/`, with an index at `/isaiah/themes/` and cards on the Isaiah page. Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`). Done: **The Servant Songs**. When a chapter touches a theme that has a page, link to it instead of re-explaining the theme. Add future candidates to “Theme candidates” below.
 - Not yet done: `scripts/check-links.mjs` and `scripts/check-content.mjs` (both referenced in package.json). The repo is at `git@github.com:jlconlin/Scriptures.git`.
@@ -90,13 +90,19 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 8: the Latter-day Saint reading of “fly as a cloud” as air travel is mentioned and labeled a devotional application. Keep or cut?
 - v. 21: the *nēṣer*/Nazarene link (Matt. 2:23) is labeled a plausible hypothesis.
 
+**Isaiah 61**
+- v. 1: 11QMelchizedek is described (Jubilee law, Isa. 52:7 and 61:1–2, a heavenly deliverer) without a source in `sources.yaml`. Add a scholarly source for it or trim the sentence.
+- v. 3: the *pəʾēr*/*ʾēper* anagram, *kēhâ* in 42:3 and 61:3, and v. 10’s *yəkahēn* (“acts as a priest”) are from memory; confirm.
+- v. 8: the *bəʿôlâ*/*bəʿawlâ* explanation cites Tov for the general point about vowels; confirm the Septuagint reading (“robbery and injustice”).
+- v. 6: the sentence on priesthood in the Restoration is kept deliberately brief. Check the wording.
+
 ## Theme candidates
 
 Topics that run across several chapters, collected for the future theme pages. Add to a line when a new chapter develops the theme; add a line for a new theme.
 
 - **The arm of the Lord:** [[Isa. 40:10]], [[Isa. 51:5]], [[Isa. 51:9]], [[Isa. 52:10]], [[Isa. 53:1]], [[Isa. 59:16]], [[Isa. 63:5]]; [[3 Ne. 20:35]].
 - **“Awake, awake”** (and doubled imperatives): [[Isa. 51:9]], [[Isa. 51:17]], [[Isa. 52:1–2]]; [[D&C 113:7–10]]; [[Moro. 10:31]].
-- ~~The Servant Songs~~: done (`content/isaiah/themes/servant-songs.md`). Chapters 42, 49, 50, 52, 53 and the Christ guide link to it. If Isaiah 61:1–3 gets commentary, link it to the page’s “A fifth song?” section.
+- ~~The Servant Songs~~: done (`content/isaiah/themes/servant-songs.md`). Chapters 42, 49, 50, 52, 53 and the Christ guide link to it. Chapter 61 links to the page’s “A fifth song?” section (`#fifth-song`).
 - **The new exodus:** 40:3–5, 43:16–21, 48:20–21, 51:9–11, 52:11–12.
 - **“High and lifted up”:** 2:12–17, 6:1, 52:13, 57:15 (where the high God also dwells with the “crushed,” the root of “bruised” in 53:5); John 12:32–41.
 - **The cup of wrath:** 51:17–23; Jer. 25:15–29; Matt. 26:39; D&C 19:18.
