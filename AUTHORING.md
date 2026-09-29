@@ -5,8 +5,8 @@ This file tells a person or an AI assistant how to continue writing the commenta
 ## Status (2026-09-29)
 
 - Site framework, guides (content/isaiah/guides/), and About page: done.
-- Chapter commentary: **Isaiah 1–58 done.** Chapters 38 onward are written at the semi-academic standard described below.
-- Remaining: 59–66.
+- Chapter commentary: **Isaiah 1–59 done.** Chapters 38 onward are written at the semi-academic standard described below.
+- Remaining: 60–66.
 - **Plan (decided 2026-09-29):** write 53–66 one chapter at a time, all the way through, without stopping to revise. Record judgment calls and unverified claims under “Open questions for review” as you go. After 66, do a single revision pass: resolve the open questions, then deepen chapters 1–37 (see “Revision plan” below).
 - **Theme pages** cover topics that span many chapters. Each is a Markdown file in `content/isaiah/themes/` (same format as the guides: YAML front matter with `title`, `blurb`, `icon`, `sources`, then prose) and is published at `/isaiah/themes/<file name>/`, with an index at `/isaiah/themes/` and cards on the Isaiah page. Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`). Done: **The Servant Songs**. When a chapter touches a theme that has a page, link to it instead of re-explaining the theme. Add future candidates to “Theme candidates” below.
 - Not yet done: `scripts/check-links.mjs` and `scripts/check-content.mjs` (both referenced in package.json). The repo is at `git@github.com:jlconlin/Scriptures.git`.
@@ -79,11 +79,16 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - Setting and v. 1: the Yom Kippur morning reading is given as 57:14–58:14 (the standard range, from memory); the link between the chapter and the Day of Atonement or Jubilee is presented as possible, not certain.
 - v. 6: the two explanations for Luke 4:18’s phrase from Isa. 58:6 LXX (Jesus linked the texts as He read, or Luke combined them) are both given without choosing. Decide whether that is the right balance.
 
+**Isaiah 59**
+- Setting: the suggestion that the chapter follows the order of a public lament service (accusation, confession, salvation oracle) is presented as some interpreters’ view; confirm a source.
+- v. 19: the two readings of the verse (KJV “enemy… standard” and the modern “rushing stream… wind of the LORD drives”) are presented as both possible, with the modern one fitting the context better. The author may want to weigh in, since the KJV line is much loved.
+- v. 20: the Septuagint’s “for the sake of Zion” and the explanation of Paul’s “out of Zion” are from memory; confirm.
+
 ## Theme candidates
 
 Topics that run across several chapters, collected for the future theme pages. Add to a line when a new chapter develops the theme; add a line for a new theme.
 
-- **The arm of the Lord:** [[Isa. 40:10]], [[Isa. 51:5]], [[Isa. 51:9]], [[Isa. 52:10]], [[Isa. 53:1]]; [[3 Ne. 20:35]].
+- **The arm of the Lord:** [[Isa. 40:10]], [[Isa. 51:5]], [[Isa. 51:9]], [[Isa. 52:10]], [[Isa. 53:1]], [[Isa. 59:16]], [[Isa. 63:5]]; [[3 Ne. 20:35]].
 - **“Awake, awake”** (and doubled imperatives): [[Isa. 51:9]], [[Isa. 51:17]], [[Isa. 52:1–2]]; [[D&C 113:7–10]]; [[Moro. 10:31]].
 - ~~The Servant Songs~~: done (`content/isaiah/themes/servant-songs.md`). Chapters 42, 49, 50, 52, 53 and the Christ guide link to it. If Isaiah 61:1–3 gets commentary, link it to the page’s “A fifth song?” section.
 - **The new exodus:** 40:3–5, 43:16–21, 48:20–21, 51:9–11, 52:11–12.
@@ -95,6 +100,7 @@ Topics that run across several chapters, collected for the future theme pages. A
 - **The herald of good news (*bāśar*):** 40:9, 41:27, 52:7, 61:1; Mosiah 15:13–18.
 - **Isaiah in Abinadi’s trial:** 52:7–10 and all of 53; [[Mosiah 12:20–24]], [[Mosiah 14–15]].
 - **Exchange** (he bears ours, we receive his): 53:4–6, 53:11–12; compare 61:3 (“beauty for ashes”).
+- **The Lord’s garments and ours:** 59:6 (webs that are not garments), 59:17 (the Lord’s armor), 61:3, 61:10 (garments of salvation), 63:1–3 (red garments); Eph. 6:14–17; D&C 27:15–18.
 - **Jubilee and release** (Lev. 25:8–13): 58:6, 61:1–2 (“the acceptable year of the LORD”); Luke 4:18–19.
 - **The word of God** that stands and does its work: 40:6–8 and 55:10–11 frame chapters 40–55; compare D&C 1:38.
 - **The free meal:** 25:6–8, 55:1–2; Prov. 9:1–6; John 7:37; 2 Ne. 9:50–51; 2 Ne. 26:25.
