@@ -54,7 +54,7 @@
     // Wide screens: CSS puts open notes in the right margin; here we set each one's
     // vertical position beside its phrase. The note opened last sits exactly beside its
     // phrase; the others stack above and below it without overlapping.
-    const wide = matchMedia('(min-width: 1000px)');
+    const wide = matchMedia('(min-width: 880px)');
     let lastOpened = null;
     let pending = false;
     const layoutNotes = () => {
