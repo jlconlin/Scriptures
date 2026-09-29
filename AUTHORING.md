@@ -5,8 +5,8 @@ This file tells a person or an AI assistant how to continue writing the commenta
 ## Status (2026-09-29)
 
 - Site framework, guides (content/isaiah/guides/), and About page: done.
-- Chapter commentary: **Isaiah 1–62 done.** Chapters 38 onward are written at the semi-academic standard described below.
-- Remaining: 63–66.
+- Chapter commentary: **Isaiah 1–63 done.** Chapters 38 onward are written at the semi-academic standard described below.
+- Remaining: 64–66.
 - **Plan (decided 2026-09-29):** write 53–66 one chapter at a time, all the way through, without stopping to revise. Record judgment calls and unverified claims under “Open questions for review” as you go. After 66, do a single revision pass: resolve the open questions, then deepen chapters 1–37 (see “Revision plan” below).
 - **Theme pages** cover topics that span many chapters. Each is a Markdown file in `content/isaiah/themes/` (same format as the guides: YAML front matter with `title`, `blurb`, `icon`, `sources`, then prose) and is published at `/isaiah/themes/<file name>/`, with an index at `/isaiah/themes/` and cards on the Isaiah page. Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`). Done: **The Servant Songs**. When a chapter touches a theme that has a page, link to it instead of re-explaining the theme. Add future candidates to “Theme candidates” below.
 - Not yet done: `scripts/check-links.mjs` and `scripts/check-content.mjs` (both referenced in package.json). The repo is at `git@github.com:jlconlin/Scriptures.git`.
@@ -100,6 +100,12 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 5: the *bānayik*/*bōnayik* (“your sons”/“your Builder”) revocalization is presented with both readings; confirm which modern translations follow it.
 - v. 4: the observation that Azubah and Hephzibah were names of queen mothers (1 Kgs. 22:42; 2 Kgs. 21:1) is the site’s own; the suggestion that the prophet deliberately used known names is hedged only lightly. Check the wording.
 
+**Isaiah 63**
+- v. 3: the note reads the winepress primarily as judgment (the enemies’ blood) and presents the Gethsemane reading (Holland; D&C 19:18) as a further Latter-day Saint application resting on D&C 76:107. Decide whether the balance is right.
+- v. 9: the *qere*/*ketiv* explanation and the Septuagint rendering (“not an elder or a messenger, but he himself”) are from memory; confirm.
+- v. 17: says the JST of Exodus “consistently” makes Pharaoh harden his own heart. Check each hardening verse in the JST.
+- Setting: the comparison of 63:7–64:12 with Lamentations and Pss. 44, 74, 79 is general; no source listed.
+
 ## Theme candidates
 
 Topics that run across several chapters, collected for the future theme pages. Add to a line when a new chapter develops the theme; add a line for a new theme.
@@ -123,6 +129,7 @@ Topics that run across several chapters, collected for the future theme pages. A
 - **Jubilee and release** (Lev. 25:8–13): 58:6, 61:1–2 (“the acceptable year of the LORD”); Luke 4:18–19.
 - **The word of God** that stands and does its work: 40:6–8 and 55:10–11 frame chapters 40–55; compare D&C 1:38.
 - **The free meal:** 25:6–8, 55:1–2; Prov. 9:1–6; John 7:37; 2 Ne. 9:50–51; 2 Ne. 26:25.
+- **God as Father:** Deut. 32:6, 63:16, 64:8; Mosiah 5:7; Ether 3:14.
 - **The Lord as comforter (*niḥam*):** 40:1, 49:13, 51:3, 51:12, 51:19, 52:9, 66:13.
 
 ## Site design notes
