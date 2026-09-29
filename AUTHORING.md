@@ -44,7 +44,17 @@ The site is **semi-academic**. The target reader is academically trained, for ex
 - **Explain the specialist tools.** Define technical terms the first time they appear (for example *qere/ketiv*, *Masoretic*, chiasmus, *prophetic perfect*). Transliterate Hebrew, and explain the Hebrew morphology when it matters for meaning.
 - **Document without cluttering.** Support claims with sources, in each note’s `sources` list or in a brief inline attribution (“Oswalt argues…”, “Sennacherib’s annals claim…”). Keep the prose readable. Citations should support the message, not interrupt it. Say how certain a claim is: established fact, scholarly consensus, a plausible hypothesis, or devotional application.
 - **Go for depth over breadth.** A few well-developed notes that make real connections, across the canon, across the Restoration scriptures, and across the book of Isaiah, are better than many shallow ones.
-- Chapters 1–37 were written somewhat closer to a general audience. Deepening them to this standard is a good follow-up project.
+- Chapters 1–37 were written somewhat closer to a general audience. See the revision plan below.
+
+## Revision plan for chapters 1–37
+
+First finish 38–66 at the new standard. Then **deepen chapters 1–37 in place; don’t rewrite them.** Their threads, history, Restoration connections, and verified quotations are solid. For each chapter:
+
+- Add 2–4 deeper notes: textual variants (MT, LXX, 1QIsaᵃ, Book of Mormon readings), fairly presented scholarly debates (for example, the date of chapters 24–27, whether chapters 13–14 postdate Isaiah, near and far fulfillments of 7:14), archaeology, and literary structure.
+- Sharpen the `thread` where it is thin.
+- Make sources explicit, and mark how certain each claim is (established fact, consensus, hypothesis, or devotional application).
+
+Priority order: 1, 6, 7, 9, 11, 14, 24–27, 29; then the rest. The oracles in 15–23 are lowest priority.
 
 ## Voice and standards
 
