@@ -136,6 +136,13 @@
         triggersFor(note.id)[0]?.focus();
       }
     });
+    // Phrases are spans with role="button"; give them a button's keyboard behavior.
+    reader.addEventListener('keydown', (e) => {
+      if ((e.key === 'Enter' || e.key === ' ') && e.target.matches('.phr[role="button"]')) {
+        e.preventDefault();
+        e.target.click();
+      }
+    });
     document.addEventListener('keydown', (e) => {
       if (e.key !== 'Escape') return;
       const note = e.target.closest?.('.note');
@@ -165,7 +172,7 @@
         const k = [...b.classList].find((c) => c.startsWith('k-'))?.slice(2);
         const off = hidden.has(k);
         b.classList.toggle('filtered', off);
-        off ? b.setAttribute('tabindex', '-1') : b.removeAttribute('tabindex');
+        b.setAttribute('tabindex', off ? '-1' : '0');
       });
       // Hide notes of filtered kinds; in related mode, show the others as cards again.
       $$('.note', reader).forEach((n) => { if (!isOpen(n) || hidden.has(kindOf(n))) setNote(n, false); });

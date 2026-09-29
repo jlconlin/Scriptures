@@ -313,7 +313,7 @@ a.ref-internal { text-decoration-style: dotted; }
 .hero-meta span { display: inline-flex; gap: 6px; align-items: center; }
 .hero-meta .icon { color: var(--div); }
 
-.chapter-hero .wrap, .chapter-grid { max-width: 792px; }
+.chapter-hero .wrap, .chapter-grid { max-width: 712px; } /* 680px of text plus gutters: about 70 characters a line */
 .chapter-grid { margin-top: 18px; }
 .setting { margin-bottom: 22px; }
 .setting .card-title .icon { color: var(--div); }
@@ -369,6 +369,7 @@ a.ref-internal { text-decoration-style: dotted; }
   border-bottom: 2px solid color-mix(in srgb, var(--k) 70%, transparent);
   transition: background .15s;
   -webkit-tap-highlight-color: transparent;
+  -webkit-box-decoration-break: clone; box-decoration-break: clone; /* style each line of a wrapped phrase */
 }
 .phr:hover, .phr[aria-expanded='true'] { background: color-mix(in srgb, var(--k) 20%, transparent); }
 .phr:focus-visible { outline: 3px solid var(--focus); outline-offset: 1px; }
@@ -414,8 +415,8 @@ a.ref-internal { text-decoration-style: dotted; }
 /* Wide screens: notes open in the right margin beside their phrase, so the text never moves.
    site.js sets each open note's `top` and keeps them from overlapping. */
 @media (min-width: 1000px) {
-  /* The notes column and gap shrink with the window; the text column takes what is left, up to 760px. */
-  .page-chapter { --main-w: 760px; --margin-gap: clamp(24px, 3vw, 40px); --margin-w: clamp(260px, 24vw, 340px); }
+  /* The notes column and gap shrink with the window; the text column takes what is left, up to 680px. */
+  .page-chapter { --main-w: 680px; --margin-gap: clamp(24px, 3vw, 40px); --margin-w: clamp(260px, 24vw, 340px); }
   .chapter-hero .wrap, .chapter-grid { max-width: calc(var(--main-w) + var(--margin-gap) + var(--margin-w) + 2 * var(--gutter)); }
   .chapter-main { max-width: min(var(--main-w), 100% - var(--margin-gap) - var(--margin-w)); }
   .reader { position: relative; }

@@ -32,7 +32,8 @@ function highlightVerse(text, notes, warn) {
   let pos = 0;
   for (const { i, j, n } of spans) {
     out += esc(text.slice(pos, i));
-    out += `<button type="button" class="phr k-${n.kind}" aria-expanded="false" aria-controls="${n.id}" data-note="${n.id}">${esc(text.slice(i, j))}</button>`;
+    // A span, not a <button>: browsers never break a button across lines, so long phrases jumped to a new line.
+    out += `<span class="phr k-${n.kind}" role="button" tabindex="0" aria-expanded="false" aria-controls="${n.id}" data-note="${n.id}">${esc(text.slice(i, j))}</span>`;
     pos = j;
   }
   return out + esc(text.slice(pos));
