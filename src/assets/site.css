@@ -541,3 +541,4 @@ a.ref-internal { text-decoration-style: dotted; }
 .start-callout { display: flex; gap: 10px; align-items: center; margin-block: 24px 0; font-size: 1rem; color: var(--ink-2); }
 .start-callout .icon { color: var(--accent); flex: none; }
 .guides-themes-title { margin-top: 48px; }
+.division-map-wrap { max-width: none; margin: 0; }

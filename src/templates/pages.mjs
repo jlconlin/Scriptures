@@ -127,9 +127,9 @@ ${guides.length ? `<p class="wrap start-callout">${icon('key')}<span>New to ${es
 <section class="wrap book-section" id="chapters">
   <h2 class="section-title">The chapters</h2>
   <p class="section-sub">Isaiah falls into a handful of large movements. Knowing which one you’re in is half the battle.</p>
-  <div class="division-map" aria-hidden="true">
-    ${book.divisions.map((d) => `<a href="#${d.key}" style="--div:var(--div-${d.key});flex:${d.range[1] - d.range[0] + 1}" title="${esc(d.name)}"><span>${d.range[0]}–${d.range[1]}</span></a>`).join('')}
-  </div>
+  <div class="dial-wrap division-map-wrap"><div class="dial-label" aria-hidden="true" hidden></div><div class="division-map" aria-hidden="true">
+    ${book.divisions.map((d) => `<a href="#${d.key}" style="--div:var(--div-${d.key});--c:var(--div-${d.key});flex:${d.range[1] - d.range[0] + 1}" data-label="${esc(d.name)}" data-div="${esc(book.name)} ${d.range[0]}–${d.range[1]}"><span>${d.range[0]}–${d.range[1]}</span></a>`).join('')}
+  </div></div>
   ${divisions}
 </section>
 
