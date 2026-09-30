@@ -9,9 +9,7 @@
 //   ledger URL is on a wiki domain; no duplicate keys in sources.yaml.
 // Strict chapters (errors): every note has sources; every cited key has a ledger row;
 //   ledger rows are complete (where, claim, key, url, quote); works that cannot be read
-//   online need a quoted ledger row; if the ledger has a `questions` list, every note is
-//   named as the answer to one of its questions, and every answer names a real part of the
-//   chapter (warning if the list is missing).
+//   online need a quoted ledger row.
 // All chapters (warnings): more than MAX_NOTES notes or MAX_WORDS words, since the site is
 //   meant to be selective, not comprehensive (STANDARDS.md §3, “Selectivity”).
 //
@@ -57,9 +55,6 @@ const isWiki = (url) => {
 };
 const keyOf = (s) => String(s).split(/,\s*/)[0];
 const isKey = (k) => /^[a-z0-9-]+$/.test(k); // same rule as build.mjs: other strings are free text
-// Compare ledger `where`/`answer` strings with notes, ignoring quotes, spacing and punctuation.
-const ident = (s) => String(s ?? '').normalize('NFC').toLowerCase().replace(/[^\p{L}\p{N}]/gu, '');
-const PARTS = ['setting', 'thread', 'when', 'christ', 'explore', 'parallels', 'none'];
 const wordCount = (ch) => [ch.setting, ch.thread, ch.christ, ch.explore, ...(ch.sections ?? []).map((x) => x.plain), ...(ch.notes ?? []).map((n) => n.body)]
   .join(' ').split(/\s+/).filter(Boolean).length;
 const readYaml = async (f) => YAML.parse(await readFile(f, 'utf8'));
@@ -159,23 +154,6 @@ for (const book of books) {
     for (const k of unread)
       if (!rows.some((r) => r?.key === k && String(r.quote ?? '').trim())) err(`${label}: “${k}” is not readable online; its ledger needs a row with a quote`);
 
-    // Questions first: every note answers a question listed in the ledger.
-    const questions = ledger?.questions;
-    if (!Array.isArray(questions)) warn(`${lf}: no “questions” list (STANDARDS.md §5)`);
-    else {
-      const noteIds = new Map(notes.map((n) => [ident(`note ${num}:${n.ref} ${n.title ?? ''}`), n]));
-      const partOk = (a) => PARTS.includes(ident(a)) || /^section\d+plain$/.test(ident(a));
-      const answered = new Set();
-      questions.forEach((q, i) => {
-        const at = `${lf} question ${i + 1}`;
-        if (!String(q?.q ?? '').trim()) err(`${at}: empty “q”`);
-        const a = String(q?.answer ?? '').trim();
-        if (!a) err(`${at}: empty “answer” (use “none” for a question the chapter doesn't answer)`);
-        else if (noteIds.has(ident(a))) answered.add(ident(a));
-        else if (!partOk(a)) err(`${at}: answer “${a}” names no note or part of the chapter`);
-      });
-      for (const [id, n] of noteIds) if (!answered.has(id)) err(`${noteLabel(n)}: answers none of the ledger's questions`);
-    }
   }
 }
 

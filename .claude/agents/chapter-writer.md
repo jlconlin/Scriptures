@@ -19,8 +19,8 @@ The goal is a chapter that **needs no audit afterward**: every factual claim res
 ## 2. Read, ask, then seek
 
 1. **Read the chapter** (`node scripts/show.mjs <book> <n>` prints it, or `data/kjv/<book>.json`). Read it through more than once.
-2. **Write down the questions** a careful reader would ask: what does this word mean, who is speaking, what happened here, why does the Book of Mormon (or another scripture) read differently, where else is this quoted, where is Christ. Put the author's focus questions first. Write them into the ledger's `questions` list (format in `STANDARDS.md` §5) **before any research**; fill in each `answer` once the chapter is written. Find the chapter's thread.
-3. **Only then research**, to answer those questions. Don't go looking for material to fill notes, and don't carry over what a source happens to cover: the site is selective, not comprehensive. Every note must answer one of the listed questions (`check-content.mjs` enforces it); a note that doesn't gets cut.
+2. **Write down the questions** a careful reader would ask: what does this word mean, who is speaking, what happened here, why does the Book of Mormon (or another scripture) read differently, where else is this quoted, where is Christ. Put the author's focus questions first. Do this **before any research**. These questions decide which phrases you highlight. Find the chapter's thread.
+3. **Only then research**, to answer those questions. Don't go looking for material to fill notes, and don't carry over what a source happens to cover: the site is selective, not comprehensive. Every note must answer one of your questions; a note that doesn't gets cut.
 
 ## 3. Build the ledger while researching
 
@@ -72,8 +72,9 @@ Never claim to have read a page you didn't open in this session, and never write
 Return:
 
 1. **Files written**, with the chapter's word count and number of notes.
-2. **Proposed `sources.yaml` entries**, one line each in the file's format, with the URL and the page title you saw when you opened it.
-3. **Judgment calls** for the book's `OPEN-QUESTIONS.md` (interpretive choices, framing of debates, anything the author should decide).
-4. **Cut for lack of a source**: claims you wanted to make but couldn't source, and what you tried.
-5. **Check output**: the result of each check (pass, or the warnings left and why), and any check you couldn't run.
-6. **Fetches**: how many pages you fetched, and any site that failed.
+2. **Your questions**, as you wrote them before researching, each with the note that answers it (or “not answered”).
+3. **Proposed `sources.yaml` entries**, one line each in the file's format, with the URL and the page title you saw when you opened it.
+4. **Judgment calls** for the book's `OPEN-QUESTIONS.md` (interpretive choices, framing of debates, anything the author should decide).
+5. **Cut for lack of a source**: claims you wanted to make but couldn't source, and what you tried.
+6. **Check output**: the result of each check (pass, or the warnings left and why), and any check you couldn't run.
+7. **Fetches**: how many pages you fetched, and any site that failed.

@@ -19,10 +19,9 @@ The goal: when you finish, every factual claim in the chapter rests on a source 
 
 ## 2. Method
 
-1. **Write the questions list.** For each note, write in the ledger's `questions` (format in `STANDARDS.md` §5) the question a careful reader would ask that the note answers, with the note as its `answer`. If a note answers no real question (it is there because a source covered it), don't invent one: leave that note out of the list and report it as a judgment call. The check will flag it until the author decides.
-2. **List every factual claim** in the chapter: in `when`, `setting`, `thread`, each section's `plain` where it departs from the KJV, every note, `christ`, `explore`, and `parallels`. A factual claim is a word meaning, a textual variant, a date, a historical detail, a scholarly view, an attribution, what a prophet taught, what a tradition reads. What the chapter's own verses say, and scripture quoted with a `[[reference]]`, don't need a source.
-3. **Verify each claim** against a source you open in this session, fetched with `curl` in Bash (`STANDARDS.md` §9). If a site fails twice, stop trying it and note it for your report; don't probe other domains for a way around. A claim whose only source was unreachable is reported as such, not silently cut. Record it as you go in `content/<book>/evidence/NN.yaml` (format in `STANDARDS.md`): the exact URL and a verbatim quote of about 40 words at most.
-4. **Repair:**
+1. **List every factual claim** in the chapter: in `when`, `setting`, `thread`, each section's `plain` where it departs from the KJV, every note, `christ`, `explore`, and `parallels`. A factual claim is a word meaning, a textual variant, a date, a historical detail, a scholarly view, an attribution, what a prophet taught, what a tradition reads. What the chapter's own verses say, and scripture quoted with a `[[reference]]`, don't need a source.
+2. **Verify each claim** against a source you open in this session, fetched with `curl` in Bash (`STANDARDS.md` §9). If a site fails twice, stop trying it and note it for your report; don't probe other domains for a way around. A claim whose only source was unreachable is reported as such, not silently cut. Record it as you go in `content/<book>/evidence/NN.yaml` (format in `STANDARDS.md`): the exact URL and a verbatim quote of about 40 words at most.
+3. **Repair:**
    - If the source supports a weaker or different claim, **reword** the text to match the source.
    - If no readable source supports it, **cut** it. Cut the sentence, not the note, unless the whole note rests on it.
    - **Drop unread works from `sources`** (note and chapter level): a work you couldn't open and check, or one on the unreadable list in `STANDARDS.md`, comes out even if the claim stays on another source.
@@ -30,8 +29,8 @@ The goal: when you finish, every factual claim in the chapter rests on a source 
    - Replace any Wikipedia or wiki citation with a primary or institutional source, or cut the claim.
    - Reword running text that names modern scholars so the note's `sources` carries the attribution.
    - Cite the work, not the website (`STANDARDS.md` §4 rule 3); a note resting only on scripture cites `lds-scriptures`.
-5. **Keep the voice and the structure.** Don't restructure the chapter, reorder notes, rewrite the thread, or trim for length. The author rejected a broad trim before. Change only what the audit requires, in the chapter's own voice.
-6. **New sources.** If a claim is worth keeping and you find a readable source that isn't in `sources.yaml`, use a proposed key in the file's style and list it in your report.
+4. **Keep the voice and the structure.** Don't restructure the chapter, reorder notes, rewrite the thread, or trim for length. The author rejected a broad trim before. Change only what the audit requires, in the chapter's own voice.
+5. **New sources.** If a claim is worth keeping and you find a readable source that isn't in `sources.yaml`, use a proposed key in the file's style and list it in your report.
 
 ## 3. Run the checks
 
@@ -67,5 +66,4 @@ Return:
 6. **Judgment calls** for the book's `OPEN-QUESTIONS.md`.
 7. **Check output**: each check's result, and any check you couldn't run.
 8. **Fetches**: how many pages you fetched, and any site that failed (and which claims that left unverified).
-9. **Notes that answer no real question**, if any (left out of `questions`).
-10. A short commit-message summary in the style of the existing audit commits (“Claims now rest on …. Unread commentaries (…) are dropped. Cut: ….”).
+9. A short commit-message summary in the style of the existing audit commits (“Claims now rest on …. Unread commentaries (…) are dropped. Cut: ….”).

@@ -24,7 +24,7 @@ The goal: **content that needs no audit afterward.** Sourcing is part of writing
 - **Find each chapter's thread**: the argument that ties it together, not a list of topics. Notice structure and wordplay. Explain the history behind the text and *why* people thought as they did.
 - **Hebrew (or Greek) only when it pays off.**
 - Connect to Restoration scripture where the connection is real.
-- **Read, ask, then seek.** Every note answers a question a careful reader would actually ask. If it doesn't, cut it.
+- **Read, ask, then seek.** Read the chapter first and write down the questions a careful reader would ask; those questions decide which phrases get highlighted and what gets researched. Every note answers one of them. Don't go looking for material, and don't carry over what a source happens to cover. The questions are a working tool, not a record: they go in the writer's report, not in a file.
 - **Open each note with a sentence that says what the note is about.** The site shows that first sentence as the note's preview card, so a hook (“This is the hardest line in the chapter”) doesn't work.
 - **Keep attention on the message, not the scholar.** Don't name modern scholars in running text (“Oswalt argues…”); the note's `sources` carries the attribution. Ancient documents and ancient writers can be named when they are the evidence (“Sennacherib's annals claim…”, “Jerome connects…”).
 - **Say how certain each claim is**: established fact, scholarly consensus, a plausible hypothesis, or a devotional reading.
@@ -57,9 +57,6 @@ Required for every chapter written or audited from now on. It is the record of w
 ```yaml
 # content/<book>/evidence/NN.yaml  (NN = two-digit chapter number)
 chapter: 5
-questions:                                   # written before any research (see §3, “Read, ask, then seek”)
-  - q: 'What does “sour grapes” mean here?'
-    answer: 'note 5:4 “Title of the note”'   # the note that answers it; or a part (setting, thread, …); or none
 claims:
   - where: 'note 5:3 “Title of the note”'   # or: setting | thread | when | section 2 plain | christ | explore | parallels
     claim: 'Short statement of the factual claim'
@@ -68,7 +65,6 @@ claims:
     quote: 'Verbatim supporting text, at most about 40 words'
 ```
 
-- `questions` lists the questions a careful reader would ask of the chapter, written down **before** researching, with the author's focus questions first. Each `answer` names the note (in the same form as `where`) or the part of the chapter that answers it, or `none` for a question considered and left unanswered. **Every note must be the answer to at least one question**; a note that answers none is filler and is cut. `check-content.mjs` enforces this.
 - `where` names the part of the chapter file: `note <chapter>:<verse> “<note title>”`, `setting`, `thread`, `when`, `section <n> plain` (sections numbered from 1), `christ`, `explore`, or `parallels`.
 - One source per row. A claim supported by two sources gets two rows.
 - `url` is the exact page you read (the lexicon entry, the interlinear verse, the article), not a site's home page.
@@ -156,7 +152,7 @@ node scripts/show.mjs [book] <n>                        # print the KJV text wit
 node scripts/fix-yaml.mjs content/<book>/chapters/NN.yaml   # quote YAML values that contain ": "
 node scripts/build.mjs                                  # warns about phrases not found, overlaps, bad refs
 node scripts/check-quotes.mjs [book] <n>                # verify quoted scripture
-node scripts/check-content.mjs [book [n]]              # sources, keys, unreadable works, wikis, ledger, questions, length
+node scripts/check-content.mjs [book [n]]              # sources, keys, unreadable works, wikis, ledger, length
 npm run dev                                             # preview at http://localhost:4321
 ```
 
@@ -165,7 +161,7 @@ Fix every warning that concerns your chapter (length warnings on older chapters 
 ## 11. Review process
 
 1. **The author's questions first.** Before a chapter is written, ask the author whether they have focus questions for it, and build the chapter around them. Ask one question at a time.
-2. **A writer agent drafts** (`.claude/agents/chapter-writer.md`, on Sonnet): it reads the chapter, lists the questions a careful reader would ask (the ledger's `questions`), researches, builds the ledger, writes the chapter from the ledger, runs the checks, and reports. It doesn't edit `sources.yaml`, code, or other chapters, and doesn't commit. Existing chapters are audited the same way by `.claude/agents/chapter-auditor.md`.
+2. **A writer agent drafts** (`.claude/agents/chapter-writer.md`, on Sonnet): it reads the chapter, lists the questions a careful reader would ask, researches them, builds the ledger, writes the chapter from the ledger, runs the checks, and reports. It doesn't edit `sources.yaml`, code, or other chapters, and doesn't commit. Existing chapters are audited the same way by `.claude/agents/chapter-auditor.md`.
 3. **The orchestrating session reviews** (on Opus): adds the proposed `sources.yaml` entries after confirming each URL, spot-checks a sample of ledger rows by reopening the sources, and runs `build`, `check-quotes`, and `check-content`.
 4. **The author sees it** in the private preview artifact (see “Working with the author” in `AUTHORING.md`).
 5. **One commit per chapter**, with its ledger.
