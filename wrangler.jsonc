@@ -1,0 +1,11 @@
+// Cloudflare Workers config. Cloudflare runs `npm run build`, then `npx wrangler deploy`,
+// which serves the static site in dist/. "404-page" makes missing paths get dist/404.html,
+// whose script redirects near-miss URLs like /Isaiah or /isa/53 to their canonical pages.
+{
+  "name": "scriptures",
+  "compatibility_date": "2025-09-01",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  }
+}
