@@ -2,10 +2,11 @@
 
 This file tells a person or an AI assistant how to continue writing the commentary for this site.
 
-## Status (2026-09-29)
+## Status (2026-09-30)
 
 - Site framework, guides (content/isaiah/guides/), and About page: done.
 - Chapter commentary: **all 66 chapters of Isaiah done** (56–66 finished 2026-09-29). Chapters 38 onward are written at the semi-academic standard described below.
+- Design pass (2026-09-30): site-wide note kinds, the “Liken it” sections removed, the chapter guide moved to the About page, and the Isaiah page reordered (chapters first, guides on their own page).
 - Next: the revision pass (see the plan below). Chapters 56–66 have been audited so that every claim rests on a consulted, cited source (see “Audit of 56–66” below); 1–55 have not. Chapters 1–52 have had the Scripture Central pass that 53–66 got when they were written (see “Scripture Central pass on 1–52” below).
 - **Plan (decided 2026-09-29):** write 53–66 one chapter at a time, all the way through, without stopping to revise. Record judgment calls and unverified claims under “Open questions for review” as you go. After 66, do a single revision pass: resolve the open questions, then deepen chapters 1–37 (see “Revision plan” below).
 - **Theme pages** cover topics that span many chapters. Each is a Markdown file in `content/isaiah/themes/` (same format as the guides: YAML front matter with `title`, `blurb`, `icon`, `sources`, then prose) and is published at `/isaiah/themes/<file name>/`, with an index at `/isaiah/themes/` and cards on the Guides page (`/isaiah/guides/`). Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`). Done: **The Servant Songs**. When a chapter touches a theme that has a page, link to it instead of re-explaining the theme. Add future candidates to “Theme candidates” below.
@@ -16,7 +17,7 @@ This file tells a person or an AI assistant how to continue writing the commenta
 ## Working with the author
 
 - **Where changes go.** Commit chapter content, sources, and fixes directly to `main` and push. Changes to how the site *looks* (layout, widths, new interface features) go on a separate branch until the author has seen them and approved; then fast-forward `main`.
-- **Showing a change.** The site isn’t hosted yet, so show visual changes as a private claude.ai artifact: take the built page from `dist/`, change `/assets/…` paths to relative ones (and `url('/assets/fonts/…')` in the CSS to `url('fonts/…')`), disable links to other pages, and publish the page with `assets/site.css`, `assets/site.js`, and the fonts as supporting files. The author reviews in the artifact and can leave comments on specific passages.
+- **Showing a change.** Before a change is pushed, show it in the private claude.ai preview artifact (https://claude.ai/artifact/W1iHyLZVvWzuCeSvoDZCTS): copy the whole built site from `dist/`, make every root-absolute link, asset path, CSS `url()`, and `search.json` URL relative, and republish it to the same artifact. The author reviews there and can leave comments on specific passages. Once pushed, changes are live at https://scriptures.conlin.io.
 - **The author reads mostly on an iPad mini** (744px upright, 1133px sideways). Check layouts there as well as on a laptop and a phone.
 - **Ask for focus questions.** Before writing a chapter, it helps to ask whether the author has specific questions or interests for it; build the chapter around those.
 - **Open threads for decisions** go in “Open questions for review” below rather than being decided silently.
@@ -110,7 +111,7 @@ Topics that run across several chapters, collected for the future theme pages. A
 
 - **Margin notes (2026-09-29).** On screens 880px and wider (an iPad mini held sideways qualifies; held upright it doesn’t), a note opens in the right margin beside the phrase that opened it, so the text never moves and the reader keeps their place. Several open notes stack without overlapping, and a newly opened note slides up the margin if needed to stay on screen. Narrower screens keep the original behavior (the note opens beneath its verse). The layout is in `src/assets/site.css` (the `min-width: 880px` block; the notes column narrows with the window) and the positioning in `src/assets/site.js` (`layoutNotes`).
 - **Related switch (2026-09-29).** A toolbar switch shows every note as a compact card (kind, title, and the note’s opening sentence, generated at build time by `teaser()` in `src/templates/chapter.mjs`). Cards sit in the margin on wide screens and under the verse on narrow ones; clicking a card or phrase expands that note and collapses the others. It is off for first-time visitors, and each reader’s choice is remembered. Because the card shows each note’s first sentence, open notes with a sentence that says what the note is about, not a hook like “This is the hardest line in the chapter.”
-- **Section headings** (“Where we are”, “The thread through the chapter”, “In plain words”, and the rest) are defined once, in `SECTIONS` in `src/site.mjs`. Change one there and it changes on every chapter of every book and in the site’s own descriptions. Templates use `book.name`, never a hard-coded “Isaiah”.
+- **Section headings** (“Background”, “The thread through the chapter”, “In plain words”, and the rest) are defined once, in `SECTIONS` in `src/site.mjs`. Change one there and it changes on every chapter of every book and in the site’s own descriptions. Templates use `book.name`, never a hard-coded “Isaiah”.
 - **Reading width:** one setting, `--read-w: 540px` in `site.css`, used by chapters, guides, and the About page (about 55 characters a line in chapters). The author reads mostly on an iPad mini, so check layouts at 744px (upright) and 1133px (sideways).
 - **Highlighted phrases** are `<span role="button" tabindex="0">`, not `<button>`, so they wrap across lines like ordinary text; `site.js` gives them Enter and Space.
 
@@ -173,7 +174,7 @@ Priority order: 1, 6, 7, 9, 11, 14, 24–27, 29; then the rest. The oracles in 1
 
 ## Voice and standards
 
-- Write like a warm, knowledgeable religion teacher. Find the **thread** of each chapter instead of listing topics. Notice structure and wordplay. Explain the history behind the text, bring in Hebrew only when it pays off, and connect to Restoration scripture. Close each chapter with honest, probing application. Keep a light touch of humor where it fits.
+- Write like a warm, knowledgeable religion teacher. Find the **thread** of each chapter instead of listing topics. Notice structure and wordplay. Explain the history behind the text, bring in Hebrew only when it pays off, and connect to Restoration scripture. Close each chapter by pointing to Christ and to what’s worth exploring next; personal application belongs in *Come, Follow Me*, not here. Keep a light touch of humor where it fits.
 - Go deeper than *Come, Follow Me*. Don't make the site a companion to it.
 - Stay grounded in the scriptures and the teachings of latter-day prophets. When an interpretation is speculative, or faithful readers disagree, say so.
 - **Everything is referenced; nothing is made up.** Every factual claim (a Hebrew meaning, a textual variant, a date, a scholarly view, a historical detail) must come from a source you have actually consulted, and that source must be cited. List a work in `sources` only if you have checked that it supports what the note says; never attribute a claim to a commentary because it is the kind of thing that commentary would say. If a citation can’t be confirmed, don’t include it. If you cannot find and read a source for a claim, cut the claim. “From memory” is not a source, and an entry under “Open questions” is not a substitute for one.
