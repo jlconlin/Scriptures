@@ -137,7 +137,9 @@ Fix every warning before committing. Commit each chapter separately.
 Each note has:
 - `ref`: the verse.
 - `phrase`: an **exact** substring of that verse. Use the LDS-edition spellings in `data/kjv/isaiah.json`. Phrases in the same verse must not overlap.
-- `kind`: one of `words`, `history`, `symbol`, `christ`, `restoration`, `liken`.
+- `kind`: one of `words` (Language), `history` (Context), `symbol` (Imagery), `christ` (Witness of Christ), `scripture` (Related Scriptures), `prophets` (Latter-day Prophets), or `structure` (Literary Structure). The set is site-wide, for every book; labels live in `KINDS` in `src/site.mjs`. `bom` (BoM Comparison) is generated from `data/bom/` and never written by hand. `restoration` and `liken` are retired: they still render, but every note using them is to be re-sorted, and new notes must not use them.
+  - Use `structure` only when the structure shows something about the message, such as a chiasm whose center is the main point. Saying a passage is poetry or a chiasm is not enough.
+  - Personal application belongs in *Come, Follow Me*, not in notes.
 - `title`.
 - `body`: markdown.
 - `sources`: optional.

@@ -27,9 +27,12 @@
   --k-history: #9a5b1c;
   --k-symbol: #1d7a74;
   --k-christ: #b02f4c;
-  --k-restoration: #7a6414;
-  --k-liken: #3d7a34;
+  --k-scripture: #7a6414;
+  --k-prophets: #7b3f9e;
+  --k-structure: #3d7a34;
   --k-bom: #2d62a8;
+  --k-legacy: #6e6a64;
+  --k-liken: #3d7a34; /* chapter-end section card */
 
   /* divisions of Isaiah */
   --div-judah: #c0562b;
@@ -65,7 +68,7 @@
   :root:not([data-theme='light']) {
     --bg: #17181f; --bg-2: #1d1f28; --surface: #20222c; --ink: #ece6da; --ink-2: #cfc8bb; --muted: #9a9aa6;
     --line: #2f3140; --line-2: #3d4050; --accent: #ec8a5e; --accent-ink: #f3a47f; --accent-soft: #3a2a24; --focus: #7aa7ff;
-    --k-words: #9aa7f2; --k-history: #e0a767; --k-symbol: #6fcfc5; --k-christ: #f08aa0; --k-restoration: #d8c268; --k-liken: #98d58c; --k-bom: #8fb8f2;
+    --k-words: #9aa7f2; --k-history: #e0a767; --k-symbol: #6fcfc5; --k-christ: #f08aa0; --k-scripture: #d8c268; --k-prophets: #c9a0ec; --k-structure: #98d58c; --k-bom: #8fb8f2; --k-legacy: #a9a49c; --k-liken: #98d58c;
     --div-judah: #ec8a5e; --div-nations: #c49ad6; --div-apocalypse: #ea7d78; --div-woes: #e2b565; --div-hezekiah: #b5c47c; --div-comfort: #74c3dc; --div-servant: #f08aa0; --div-zion: #85cc9f;
     --art-sky-1: #2b2a3d; --art-sky-2: #1f2030; --art-sun: #f0c987; --art-hill-1: #3c4a33; --art-hill-2: #4d5c41; --art-pole: #c9b79e; --art-people: #d7cdb7;
     --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 8px 24px -10px rgb(0 0 0 / 60%);
@@ -75,7 +78,7 @@
 :root[data-theme='dark'] {
   --bg: #17181f; --bg-2: #1d1f28; --surface: #20222c; --ink: #ece6da; --ink-2: #cfc8bb; --muted: #9a9aa6;
   --line: #2f3140; --line-2: #3d4050; --accent: #ec8a5e; --accent-ink: #f3a47f; --accent-soft: #3a2a24; --focus: #7aa7ff;
-  --k-words: #9aa7f2; --k-history: #e0a767; --k-symbol: #6fcfc5; --k-christ: #f08aa0; --k-restoration: #d8c268; --k-liken: #98d58c; --k-bom: #8fb8f2;
+  --k-words: #9aa7f2; --k-history: #e0a767; --k-symbol: #6fcfc5; --k-christ: #f08aa0; --k-scripture: #d8c268; --k-prophets: #c9a0ec; --k-structure: #98d58c; --k-bom: #8fb8f2; --k-legacy: #a9a49c; --k-liken: #98d58c;
   --div-judah: #ec8a5e; --div-nations: #c49ad6; --div-apocalypse: #ea7d78; --div-woes: #e2b565; --div-hezekiah: #b5c47c; --div-comfort: #74c3dc; --div-servant: #f08aa0; --div-zion: #85cc9f;
   --art-sky-1: #2b2a3d; --art-sky-2: #1f2030; --art-sun: #f0c987; --art-hill-1: #3c4a33; --art-hill-2: #4d5c41; --art-pole: #c9b79e; --art-people: #d7cdb7;
   --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 8px 24px -10px rgb(0 0 0 / 60%);
@@ -187,9 +190,11 @@ a.ref-internal { text-decoration-style: dotted; }
 .k-history { --k: var(--k-history); }
 .k-symbol { --k: var(--k-symbol); }
 .k-christ { --k: var(--k-christ); }
-.k-restoration { --k: var(--k-restoration); }
-.k-liken { --k: var(--k-liken); }
+.k-scripture { --k: var(--k-scripture); }
+.k-prophets { --k: var(--k-prophets); }
+.k-structure { --k: var(--k-structure); }
 .k-bom { --k: var(--k-bom); }
+.k-restoration, .k-liken { --k: var(--k-legacy); }
 .kind-chip {
   display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px 4px 8px; border-radius: 999px;
   font: 650 .78rem/1.2 var(--font-ui); color: var(--k); background: color-mix(in srgb, var(--k) 12%, transparent);
@@ -521,7 +526,7 @@ a.ref-internal { text-decoration-style: dotted; }
 /* ---------- Book of Mormon readings ---------- */
 .bom-mark { width: auto; height: 22px; padding: 0 7px; border-radius: 6px; font: 800 .62rem/22px var(--font-ui); letter-spacing: .04em; vertical-align: 2px; }
 .bom-text { font-family: var(--font-read); font-size: 1.05em; line-height: 1.75; margin: 0; }
-.bom-text ins, .bom-legend ins { text-decoration: none; background: color-mix(in srgb, var(--k-liken) 22%, transparent); border-bottom: 2px solid var(--k-liken); border-radius: 3px; padding: 0 2px; }
+.bom-text ins, .bom-legend ins { text-decoration: none; background: color-mix(in srgb, var(--k-structure) 22%, transparent); border-bottom: 2px solid var(--k-structure); border-radius: 3px; padding: 0 2px; }
 .bom-text del, .bom-legend del { color: var(--muted); text-decoration-color: color-mix(in srgb, var(--k-christ) 70%, transparent); text-decoration-thickness: 1.5px; }
 .bom-legend { font-size: .78rem; color: var(--muted); margin: 10px 0 0; display: flex; gap: 12px; flex-wrap: wrap; }
 .bom-summary { font-size: .92rem; color: var(--ink-2); display: flex; gap: 8px; align-items: flex-start; flex-wrap: wrap; }

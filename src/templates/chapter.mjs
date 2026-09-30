@@ -81,7 +81,7 @@ function noteHtml(n, sources) {
 }
 
 function bomNoteHtml(b) {
-  return `<aside class="note k-bom" id="${b.id}" hidden aria-label="Book of Mormon reading">
+  return `<aside class="note k-bom" id="${b.id}" hidden aria-label="BoM comparison">
   <div class="note-head">
     <span class="kind-chip k-bom">${icon('bom')}${esc(KINDS.bom.label)}</span>
     <a class="note-link" href="#${b.id}" title="Link to this note" aria-label="Link to this note">#</a>

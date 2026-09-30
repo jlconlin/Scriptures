@@ -154,6 +154,7 @@ ${themes.length ? `
   </div>
   <ul class="kinds-legend">
     ${Object.entries(KINDS)
+      .filter(([, v]) => !v.legacy)
       .map(([k, v]) => `<li><span class="kind-chip k-${k}">${icon(k)}${esc(v.label)}</span> ${esc(v.blurb)}</li>`)
       .join('')}
   </ul>
