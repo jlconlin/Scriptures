@@ -6,7 +6,7 @@ This file tells a person or an AI assistant how to continue writing the commenta
 
 - Site framework, guides (content/isaiah/guides/), and About page: done.
 - Chapter commentary: **all 66 chapters of Isaiah done** (56–66 finished 2026-09-29). Chapters 38 onward are written at the semi-academic standard described below.
-- Next: the revision pass (see the plan below).
+- Next: the revision pass (see the plan below). Chapters 56–66 have been audited so that every claim rests on a consulted, cited source (see “Audit of 56–66” below); 1–55 have not.
 - **Plan (decided 2026-09-29):** write 53–66 one chapter at a time, all the way through, without stopping to revise. Record judgment calls and unverified claims under “Open questions for review” as you go. After 66, do a single revision pass: resolve the open questions, then deepen chapters 1–37 (see “Revision plan” below).
 - **Theme pages** cover topics that span many chapters. Each is a Markdown file in `content/isaiah/themes/` (same format as the guides: YAML front matter with `title`, `blurb`, `icon`, `sources`, then prose) and is published at `/isaiah/themes/<file name>/`, with an index at `/isaiah/themes/` and cards on the Isaiah page. Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`). Done: **The Servant Songs**. When a chapter touches a theme that has a page, link to it instead of re-explaining the theme. Add future candidates to “Theme candidates” below.
 - Not yet done: `scripts/check-links.mjs` and `scripts/check-content.mjs` (both referenced in package.json). The repo is at `git@github.com:jlconlin/Scriptures.git`.
@@ -64,12 +64,13 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 7: the claim that *šeṣep* (“a little wrath”) occurs nowhere else in the Bible, and v. 11–12: the gem identifications (sapphire as lapis lazuli, and so on), are from memory; confirm against a lexicon.
 - v. 4: the Nephite text’s repeated line (“the reproach of thy youth”) is described as possibly emphasis or a copying slip. Worth checking whether the critical text of the Book of Mormon comments on it.
 
-**Scripture Central pass on 56–66 (2026-09-29)**
-- Five KnoWhys now cited: #656 (Isa. 61:1), #550 (61:3), #378 (59:17), #303 (58:13), #81 (66:24). Each answers a question the note left open; the rest of the articles found for 56–66 were not used.
-- Where a KnoWhy’s idea rests on another work, that work is cited too, but only after reading it: the D&C 59 historical introduction in *The Joseph Smith Papers* and the Jewish Encyclopedia’s “Sabbath” for 58:13 (Leith’s chapter, cited by the KnoWhy, could not be consulted and was dropped). Note sources can’t carry page numbers, so relevant pages go in each entry’s `pub`.
-- The `pub` fields for these five omit dates: the API’s `publicationDate` looks like a republication date for older articles (it gives 2024 for #81). Add original dates if they matter.
-- v. 59:17: Lehi’s “armor of righteousness” (2 Ne. 1:23) as an echo of Isa. 59:17 is the KnoWhy’s suggestion, presented as “probably.”
-- v. 61:3: the link between “beauty for ashes” and the stripping of the daughters of Zion in 3:20–24 (*pəʾērîm*, *taḥat*) is the site’s own; KnoWhy #550 supplied the stripping-and-reclothing frame.
+**Audit of 56–66 (2026-09-29)**
+Every claim in chapters 56–66 was checked against a source actually consulted, and every note’s `sources` now lists only works that were read. Claims that could not be sourced were cut. Sources used: the Masoretic text and BDB (both through Sefaria), Delitzsch’s commentary (on Bible Hub), Gesenius’ grammar (Wikisource), the Septuagint (Rahlfs with Brenton), the Greek NT, the Talmud (Sefaria), the Targum (Pauli’s 1871 translation), NRSVUE and NIV, the Jewish and Catholic Encyclopedias, Britannica, Southwood (2022), Pike (BYU RSC, 2019), the Bible Dictionary and its chronology, the Joseph Smith Papers, Church History Topics, and the Scripture Central KnoWhys, talks, and hymn already listed.
+- Modern commentaries (Oswalt, Paul, Blenkinsopp, Childs, Tov, HALOT) are not freely available and were removed from 56–66. If you have them, they could restore depth in places where the older sources were thin.
+- KnoWhy `pub` fields omit dates: the API’s `publicationDate` looks like a republication date for older articles (it gives 2024 for #81). Add original dates if they matter.
+- S. Kent Brown, *The Testimony of Luke* (Scripture Central lists it as 2014) could not be read, so the AD 26–27 Jubilee claim at 61:1 was cut; 11QMelchizedek was replaced by 4Q521, which Pike discusses. Leith (*Oxford History of the Biblical World*) was likewise dropped from 58:13.
+- Judgment calls still worth your review: 63:3 reads the winepress first as judgment, then as a Latter-day Saint application to Gethsemane; 64:6 treats “filthy rags” as a defiled people’s deeds rather than the worthlessness of good works; 61:6’s one sentence on priesthood follows the wording of Official Declaration 2; the unsourced air-travel application of 60:8 was removed.
+- Chapters 40–55 (and the guides) still list modern commentaries that may not have been consulted, and the open questions above for 51–54 include claims “from memory.” The same audit should be done there.
 
 ## Theme candidates
 
