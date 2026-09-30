@@ -64,10 +64,6 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 7: the claim that *šeṣep* (“a little wrath”) occurs nowhere else in the Bible, and v. 11–12: the gem identifications (sapphire as lapis lazuli, and so on), are from memory; confirm against a lexicon.
 - v. 4: the Nephite text’s repeated line (“the reproach of thy youth”) is described as possibly emphasis or a copying slip. Worth checking whether the critical text of the Book of Mormon comments on it.
 
-**Isaiah 58**
-- Setting and v. 1: the Yom Kippur morning reading is given as 57:14–58:14 (the standard range, from memory); the link between the chapter and the Day of Atonement or Jubilee is presented as possible, not certain.
-- v. 6: the two explanations for Luke 4:18’s phrase from Isa. 58:6 LXX (Jesus linked the texts as He read, or Luke combined them) are both given without choosing. Decide whether that is the right balance.
-
 **Isaiah 59**
 - Setting: the suggestion that the chapter follows the order of a public lament service (accusation, confession, salvation oracle) is presented as some interpreters’ view; confirm a source.
 - v. 19: the two readings of the verse (KJV “enemy… standard” and the modern “rushing stream… wind of the LORD drives”) are presented as both possible, with the modern one fitting the context better. The author may want to weigh in, since the KJV line is much loved.
@@ -115,7 +111,7 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 
 **Scripture Central pass on 56–66 (2026-09-29)**
 - Five KnoWhys now cited: #656 (Isa. 61:1), #550 (61:3), #378 (59:17), #303 (58:13), #81 (66:24). Each answers a question the note left open; the rest of the articles found for 56–66 were not used.
-- Where a KnoWhy’s idea rests on another work, that work is cited too: Brown for 61:1; Leith (*Oxford History of the Biblical World*) and *Joseph Smith Papers, Documents* 2 for 58:13. Note sources can’t carry page numbers, so the relevant pages are in each entry’s `pub`.
+- Where a KnoWhy’s idea rests on another work, that work is cited too, but only after reading it: the D&C 59 historical introduction in *The Joseph Smith Papers* and the Jewish Encyclopedia’s “Sabbath” for 58:13 (Leith’s chapter, cited by the KnoWhy, could not be consulted and was dropped). Note sources can’t carry page numbers, so relevant pages go in each entry’s `pub`.
 - The `pub` fields for these five omit dates: the API’s `publicationDate` looks like a republication date for older articles (it gives 2024 for #81). Add original dates if they matter.
 - v. 59:17: Lehi’s “armor of righteousness” (2 Ne. 1:23) as an echo of Isa. 59:17 is the KnoWhy’s suggestion, presented as “probably.”
 - v. 61:3: the link between “beauty for ashes” and the stripping of the daughters of Zion in 3:20–24 (*pəʾērîm*, *taḥat*) is the site’s own; KnoWhy #550 supplied the stripping-and-reclothing frame.
