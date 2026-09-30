@@ -187,3 +187,10 @@ jsp-documents-2: { type: book, author: 'Matthew C. Godfrey, Mark Ashurst-McGee, 
 # ---------- Primary sources ----------
 origen-celsum: { type: book, author: Origen, title: 'Against Celsus (Contra Celsum)', pub: 'c. AD 248, book 1, chapter 55. Translated by Henry Chadwick. Cambridge: Cambridge University Press, 1953' }
 chilton-targum: { type: book, author: Bruce D. Chilton, title: 'The Isaiah Targum: Introduction, Translation, Apparatus and Notes', pub: 'The Aramaic Bible 11. Wilmington, DE: Michael Glazier, 1987' }
+delitzsch: { type: book, author: Franz Delitzsch, title: 'Biblical Commentary on the Prophecies of Isaiah', pub: 'Trans. James Martin. 2 vols. Edinburgh: T. & T. Clark, 1867; in Keil and Delitzsch, *Commentary on the Old Testament*', url: 'https://biblehub.com/commentaries/kad/isaiah/1.htm' }
+duhm-1902: { type: book, author: Bernhard Duhm, title: 'Das Buch Jesaia', pub: '2nd ed. Göttinger Handkommentar zum Alten Testament. Göttingen: Vandenhoeck & Ruprecht, 1902, xiii (where he names chapters 56–66 “Tritojesaia”)', url: 'https://archive.org/details/dasbuchjesaia00duhmgoog' }
+southwood-foreigner: { type: article, author: Katherine E. Southwood, title: 'The “Foreigner” and the Eunuch: The Politics of Belonging in Isaiah 56:1–8', pub: '*Biblical Interpretation* 30 (2022): 437–459', url: 'https://ora.ox.ac.uk/objects/uuid:bd7e9685-ea22-4d33-b1ad-afaeb4cd3c5a' }
+yad-vashem: { type: web, title: 'What Is Yad Vashem', pub: 'Yad Vashem, the World Holocaust Remembrance Center', url: 'https://www.yadvashem.org/about/yad-vashem.html' }
+mt-sefaria: { type: web, title: 'Miqra according to the Masorah (Hebrew text of the Bible)', pub: 'Sefaria', url: 'https://www.sefaria.org/Isaiah.1' }
+lxx-rahlfs: { type: web, title: 'The Septuagint (Rahlfs Greek text, with Brenton’s English translation)', pub: 'Elpenor Bilingual Septuagint', url: 'https://www.ellopos.net/elpenor/greek-texts/septuagint/default.asp' }
+greek-nt: { type: web, title: 'Greek New Testament (SBL edition), interlinear', pub: 'Bible Hub', url: 'https://biblehub.com/interlinear/' }

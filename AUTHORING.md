@@ -64,11 +64,6 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 7: the claim that *šeṣep* (“a little wrath”) occurs nowhere else in the Bible, and v. 11–12: the gem identifications (sapphire as lapis lazuli, and so on), are from memory; confirm against a lexicon.
 - v. 4: the Nephite text’s repeated line (“the reproach of thy youth”) is described as possibly emphasis or a copying slip. Worth checking whether the critical text of the Book of Mormon comments on it.
 
-**Isaiah 56**
-- Setting: the concentric frame of 56–66 (foreigners in 56:1–8 and 66:18–24, laments inside, 60–62 at the center) is widely noted; the sources listed (Oswalt, Blenkinsopp) were cited from memory. Confirm which of them lays it out.
-- v. 3: the reading of 56:1–8 as a counterweight to Ezra–Nehemiah is presented as a plausible hypothesis. The *nilwâ*/Levi wordplay linking 56:3, 6 with 66:21 is from memory; confirm a commentator makes it.
-- v. 7: the claim that the temple market stood in the Court of the Gentiles is hedged (“probably”). Check whether that detail should stay.
-
 **Isaiah 57**
 - v. 1: mentions the Jewish tradition that Isaiah was killed under Manasseh and its link to Heb. 11:37, marked as tradition. Keep or cut?
 - vv. 5, 9: the *lammelek*/*lammōlek* revocalization, the reading of “unto hell” as rites for the dead, and the summary of the dating debate (older oracle vs. surviving practice) are from memory; confirm against Blenkinsopp or Paul.
