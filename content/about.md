@@ -13,19 +13,7 @@ The title comes from Isaiah himself: “line upon line; here a little, and there
 
 ## What you’ll find in each chapter
 
-- **Where we are.** The historical and prophetic setting.
-- **The thread through the chapter.** The argument that ties the chapter together. Isaiah’s chapters are not random collections of images. There is almost always a logic, and seeing it changes everything.
-- **In plain words.** A short paraphrase at the start of each section. It is a reading aid, not a translation, and it never replaces the text.
-- **Notes on phrases.** Tap a highlighted phrase to open a note beneath its verse. Each note is marked by kind, with its own color:
-  - Language
-  - Context
-  - Imagery
-  - Witness of Christ
-  - Related Scriptures
-  - Latter-day Prophets
-  - Literary Structure
-- **BoM Comparison.** Where the Book of Mormon quotes a chapter, verses whose wording differs from the King James Version get a BoM marker that shows the two side by side. These are generated automatically.
-- **Seeing Christ and Worth exploring next.** Each chapter ends by pointing to the Savior and suggesting where to dig deeper.
+<!-- chapter-guide -->
 
 ## Principles behind the commentary
 

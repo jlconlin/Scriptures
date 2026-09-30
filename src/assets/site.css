@@ -254,7 +254,12 @@ a.ref-internal { text-decoration-style: dotted; }
 .guide-blurb { font-size: .9rem; color: var(--muted); }
 .how-grid { display: grid; gap: 12px; counter-reset: how; }
 @media (min-width: 700px) { .how-grid { grid-template-columns: repeat(2, 1fr); } }
-@media (min-width: 1000px) { .how-grid { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 1000px) { .how-grid:not(.how-grid-2) { grid-template-columns: repeat(4, 1fr); } }
+.chapter-guide { margin: 0 0 1.5em; }
+.chapter-guide > p { margin: 1.2em 0 .6em; }
+.chapter-guide .kinds-legend { padding-left: 0; margin-top: 0; grid-template-columns: 1fr; }
+@media (min-width: 560px) { .chapter-guide .kinds-legend li { display: grid; grid-template-columns: 11rem 1fr; gap: 12px; align-items: baseline; } .chapter-guide .kinds-legend .kind-chip { justify-self: start; } }
+.chapter-guide .how-step h3 { margin: 8px 0 4px; }
 .how-step { padding: 16px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); }
 .how-step h3 { font-size: 1.1rem; margin: 8px 0 4px; }
 .how-step p { margin: 0; font-size: .93rem; color: var(--ink-2); }

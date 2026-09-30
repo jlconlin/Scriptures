@@ -7,7 +7,7 @@ import YAML from 'yaml';
 import { md, plain, unknownRefs } from '../src/lib/markdown.mjs';
 import { applyCitations, stripCitations } from '../src/lib/citations.mjs';
 import { renderChapter, range } from '../src/templates/chapter.mjs';
-import { renderHome, renderBookIndex, renderGuidesIndex, renderGuide, renderPage, renderSearch, render404, COLLECTIONS } from '../src/templates/pages.mjs';
+import { renderHome, renderBookIndex, renderGuidesIndex, renderGuide, renderPage, renderSearch, render404, chapterGuide, COLLECTIONS } from '../src/templates/pages.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const OUT = path.join(ROOT, 'dist');
@@ -138,7 +138,7 @@ export async function build({ quiet = false } = {}) {
   while (featured.length < 3 && pool.length) featured.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
   await write('index.html', renderHome({ book, featured }));
   const about = await readMd(r('content/about.md'));
-  await write('about/index.html', renderPage({ title: about.title, blurb: about.blurb, html: md(about.body), path: '/about/' }));
+  await write('about/index.html', renderPage({ title: about.title, blurb: about.blurb, html: md(about.body).replace('<!-- chapter-guide -->', chapterGuide()), path: '/about/' }));
   await write('search/index.html', renderSearch());
   await write('404.html', render404());
   await write('search.json', JSON.stringify(search));

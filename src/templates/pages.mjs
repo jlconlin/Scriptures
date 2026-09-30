@@ -144,21 +144,6 @@ ${themes.length ? `
   <div class="guide-cards">${themes.map((t) => `<a class="guide-card" href="/${book.slug}/themes/${t.slug}/"><span class="guide-icon">${icon(t.icon ?? 'book')}</span><span class="guide-title">${esc(t.title)}</span><span class="guide-blurb">${esc(t.blurb)}</span></a>`).join('')}</div>
 </section>` : ''}
 
-<section class="wrap book-section how">
-  <h2 class="section-title">How each chapter works</h2>
-  <div class="how-grid">
-    <div class="how-step"><span class="how-n">1</span><h3>Get your bearings</h3><p><strong>${esc(sectionTitle('setting'))}</strong> sets the scene: who is speaking, to whom, and what was happening in the world.</p></div>
-    <div class="how-step"><span class="how-n">2</span><h3>Follow the thread</h3><p><strong>${esc(sectionTitle('thread'))}</strong> shows the argument that ties the chapter together, so it doesn’t read like a pile of unrelated images.</p></div>
-    <div class="how-step"><span class="how-n">3</span><h3>Read with help</h3><p>Every section starts with <strong>${esc(sectionTitle('plain').toLowerCase())}</strong>. Tap a <span class="hint-phr">highlighted phrase</span> to open its note: in the margin on a wide screen, under the verse on a narrow one.</p></div>
-    <div class="how-step"><span class="how-n">4</span><h3>Come unto Christ</h3><p>Each chapter ends by <strong>seeing Christ</strong> in the text and pointing to what’s <strong>worth exploring next</strong>.</p></div>
-  </div>
-  <ul class="kinds-legend">
-    ${Object.entries(KINDS)
-      .map(([k, v]) => `<li><span class="kind-chip k-${k}">${icon(k)}${esc(v.label)}</span> ${esc(v.blurb)}</li>`)
-      .join('')}
-  </ul>
-</section>
-
 <section class="wrap book-section" id="chapters">
   <h2 class="section-title">The chapters</h2>
   <p class="section-sub">Isaiah falls into a handful of large movements. Knowing which one you’re in is half the battle.</p>
@@ -240,6 +225,22 @@ ${refList}
   ${next ? `<a class="pager-next" href="/${book.slug}/${c.path}/${next.slug}/"><span><small>${esc(c.next)}</small>${esc(next.title)}</span>${icon('arrowR')}</a>` : `<a class="pager-next" href="/${book.slug}/1/"><span><small>Ready?</small>Begin with ${esc(book.name)} 1</span>${icon('arrowR')}</a>`}
 </nav>`;
   return layout({ title: guide.title, description: guide.blurb, path: `/${book.slug}/${c.path}/${guide.slug}/`, body, bodyClass: 'page-guide', book });
+}
+
+// What every chapter page contains, for any book. Built from SECTIONS and KINDS so it can't drift
+// from the chapter pages. The About page places it where content/about.md has <!-- chapter-guide -->.
+export function chapterGuide() {
+  const steps = [
+    ['Get your bearings', `<strong>${esc(sectionTitle('setting'))}</strong> sets the scene: who is speaking, to whom, and what was happening at the time.`],
+    ['Follow the thread', `<strong>${esc(sectionTitle('thread'))}</strong> shows the argument or story that ties the chapter together.`],
+    ['Read with help', `Every section starts with <strong>${esc(sectionTitle('plain').toLowerCase())}</strong>, a short paraphrase that is a reading aid, not a translation. Tap a <span class="hint-phr">highlighted phrase</span> to open its note: in the margin on a wide screen, under the verse on a narrow one.`],
+    ['Come unto Christ', `Each chapter ends by <strong>seeing Christ</strong> in the text and pointing to what’s <strong>${esc(sectionTitle('explore').toLowerCase())}</strong>.`],
+  ];
+  return `<div class="chapter-guide">
+  <div class="how-grid how-grid-2">${steps.map(([h, p], i) => `<div class="how-step"><span class="how-n">${i + 1}</span><h3>${h}</h3><p>${p}</p></div>`).join('')}</div>
+  <p>Each note is marked by kind, with its own color:</p>
+  <ul class="kinds-legend">${Object.entries(KINDS).map(([k, v]) => `<li><span class="kind-chip k-${k}">${icon(k)}${esc(v.label)}</span> ${esc(v.blurb)}</li>`).join('')}</ul>
+</div>`;
 }
 
 export function renderPage({ title, blurb, html, path }) {
