@@ -64,12 +64,6 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 7: the claim that *šeṣep* (“a little wrath”) occurs nowhere else in the Bible, and v. 11–12: the gem identifications (sapphire as lapis lazuli, and so on), are from memory; confirm against a lexicon.
 - v. 4: the Nephite text’s repeated line (“the reproach of thy youth”) is described as possibly emphasis or a copying slip. Worth checking whether the critical text of the Book of Mormon comments on it.
 
-**Isaiah 65**
-- Length: about 3,900 words with 10 notes (the chapter has 25 verses). Consider trimming, for example by merging the v. 5 and v. 11 notes.
-- v. 8: the suggestion that *Al-taschith* (“Destroy not”) in Pss. 57–59, 75 names this vintage song is a hypothesis; confirm a source.
-- v. 11: Menî’s link to the Arabian goddess Manāt is from memory; confirm against HALOT or Blenkinsopp.
-- v. 2: mentions early Christian readings of the outstretched hands as the cross without naming a source (Justin Martyr, *First Apology* 35, is the usual one). Add a source or cut.
-
 **Isaiah 66**
 - Length: about 3,800 words with 8 notes; the plain-words paraphrase of 24 verses is long. Consider trimming.
 - v. 5: *mənaddêkem* as a word later used for synagogue expulsion is from memory; confirm.
