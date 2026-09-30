@@ -29,6 +29,33 @@
   });
   const markDial = () => $$('.dial .tick').forEach((t) => t.classList.toggle('is-read', isRead(`isaiah-${t.dataset.ch}`)));
   markDial();
+
+  // Chapter dial: show the chapter's name and section above the dial right away on hover or focus.
+  const dialLabel = $('.dial-label');
+  if (dialLabel) {
+    const wrap = dialLabel.parentElement;
+    const show = (t) => {
+      dialLabel.innerHTML = '';
+      const strong = document.createElement('strong');
+      strong.textContent = t.dataset.label;
+      const div = document.createElement('span');
+      div.textContent = t.dataset.div;
+      dialLabel.append(strong, div);
+      dialLabel.style.setProperty('--c', t.style.getPropertyValue('--c'));
+      dialLabel.hidden = false;
+      const w = wrap.getBoundingClientRect(), r = t.getBoundingClientRect(), half = dialLabel.offsetWidth / 2;
+      const x = Math.min(Math.max(r.left + r.width / 2 - w.left, half), Math.max(half, w.width - half));
+      dialLabel.style.left = `${x}px`;
+    };
+    const hide = () => { dialLabel.hidden = true; };
+    $$('.dial .tick').forEach((t) => {
+      t.addEventListener('pointerenter', () => show(t));
+      t.addEventListener('focus', () => show(t));
+      t.addEventListener('pointerleave', hide);
+      t.addEventListener('blur', hide);
+    });
+  }
+
   const cards = $$('.chapter-card[data-ch]');
   if (cards.length) {
     let n = 0;

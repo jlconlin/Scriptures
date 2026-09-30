@@ -323,9 +323,14 @@ a.ref-internal { text-decoration-style: dotted; }
 .ch-num { font: 600 1rem var(--font-display); letter-spacing: 0; }
 .chapter-hero h1 { font-size: clamp(2rem, 7.5vw, 3.2rem); font-weight: 600; margin-bottom: .25em; max-width: 22ch; }
 .tagline { font: italic 1.12rem/1.5 var(--font-read); color: var(--ink-2); margin: 0 0 18px; max-width: 60ch; }
-.dial { display: grid; grid-template-columns: repeat(66, 1fr); gap: 2px; height: 14px; margin: 0 0 16px; max-width: 640px; }
+.dial-wrap { position: relative; max-width: 640px; margin: 0 0 16px; }
+.dial { display: grid; grid-template-columns: repeat(66, 1fr); gap: 2px; height: 14px; }
+.dial-label { position: absolute; bottom: calc(100% + 10px); left: 0; transform: translateX(-50%); white-space: nowrap; pointer-events: none; z-index: 5;
+  background: var(--surface); color: var(--ink); border: 1px solid var(--line); border-top: 3px solid var(--c, var(--line)); border-radius: 8px; padding: 4px 10px; font-size: .82rem; box-shadow: 0 4px 14px rgb(0 0 0 / .12); }
+.dial-label strong { font-weight: 700; }
+.dial-label span { display: block; font-size: .72rem; color: var(--muted); }
 .dial .tick { background: var(--c); opacity: .3; border-radius: 2px; transition: opacity .15s, transform .15s; }
-.dial .tick:hover { opacity: .8; }
+.dial .tick:hover, .dial .tick:focus-visible { opacity: 1; transform: scaleY(1.6); }
 .dial .tick.current { opacity: 1; transform: scaleY(1.6); }
 .dial .tick.is-read { opacity: .7; }
 .hero-meta { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: .88rem; color: var(--ink-2); }

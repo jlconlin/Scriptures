@@ -201,7 +201,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
   const dial = book.chapters
     .map((c) => {
       const d = book.divisions.find((d) => c.chapter >= d.range[0] && c.chapter <= d.range[1]);
-      return `<a href="/${book.slug}/${c.chapter}/" class="tick${c.chapter === n ? ' current' : ''}" style="--c:var(--div-${d.key})" title="${esc(book.name)} ${c.chapter}: ${esc(c.title)}" aria-label="${esc(book.name)} ${c.chapter}${c.chapter === n ? ' (this chapter)' : ''}" data-ch="${c.chapter}"></a>`;
+      return `<a href="/${book.slug}/${c.chapter}/" class="tick${c.chapter === n ? ' current' : ''}" style="--c:var(--div-${d.key})" aria-label="${esc(book.name)} ${c.chapter}: ${esc(plain(c.title))}${c.chapter === n ? ' (this chapter)' : ''}" data-ch="${c.chapter}" data-label="${esc(book.name)} ${c.chapter}: ${esc(plain(c.title))}" data-div="${esc(d.name)}"></a>`;
     })
     .join('');
 
@@ -215,7 +215,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
       <p class="eyebrow">${esc(book.name)} <span class="ch-num">${n}</span></p>
       <h1>${mdInline(ch.title)}</h1>
       ${ch.tagline ? `<p class="tagline">${mdInline(ch.tagline)}</p>` : ''}
-      <div class="dial" aria-label="Chapters of Isaiah">${dial}</div>
+      <div class="dial-wrap"><div class="dial-label" aria-hidden="true" hidden></div><div class="dial" aria-label="Chapters of ${esc(book.name)}">${dial}</div></div>
       <div class="hero-meta">
         ${ch.when ? `<span>${icon('history')} ${mdInline(ch.when)}</span>` : ''}
         ${ch.parallels?.some((p) => p.primary) ? `<span>${icon('restoration')} Also in ${mdInline(ch.parallels.filter((p) => p.primary).map((p) => `[[${p.ref}]]`).join(', '))}</span>` : ''}
