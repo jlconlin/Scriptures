@@ -64,12 +64,6 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 7: the claim that *šeṣep* (“a little wrath”) occurs nowhere else in the Bible, and v. 11–12: the gem identifications (sapphire as lapis lazuli, and so on), are from memory; confirm against a lexicon.
 - v. 4: the Nephite text’s repeated line (“the reproach of thy youth”) is described as possibly emphasis or a copying slip. Worth checking whether the critical text of the Book of Mormon comments on it.
 
-**Isaiah 60**
-- v. 5: *nāhar* as “flow” or “be radiant” (two homonymous roots) is from the lexicons as remembered; confirm against HALOT.
-- v. 6: the Epiphany reading and the derivation of the “three kings” tradition from Isa. 60:3, 6 and Ps. 72:10–11 are stated as general knowledge; confirm or soften.
-- v. 8: the Latter-day Saint reading of “fly as a cloud” as air travel is mentioned and labeled a devotional application. Keep or cut?
-- v. 21: the *nēṣer*/Nazarene link (Matt. 2:23) is labeled a plausible hypothesis.
-
 **Isaiah 61**
 - v. 1: 11QMelchizedek and the Jubilee around AD 26–27 are now supported through KnoWhy #656, which relies on S. Kent Brown, *The Testimony of Luke* (2015), 245, 255–256. The Jubilee date is one scholar’s calculation and is presented as uncertain. Brown is now cited directly (`brown-luke`).
 - v. 3: the *pəʾēr*/*ʾēper* anagram, *kēhâ* in 42:3 and 61:3, and v. 10’s *yəkahēn* (“acts as a priest”) are from memory; confirm.
