@@ -364,9 +364,8 @@ a.ref-internal { text-decoration-style: dotted; }
 .legend { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; flex: 1 1 auto; min-width: 0; padding: 1px 0; -webkit-overflow-scrolling: touch;
   mask-image: linear-gradient(90deg, #000 85%, transparent); -webkit-mask-image: linear-gradient(90deg, #000 85%, transparent); padding-right: 24px; }
 .legend::-webkit-scrollbar { display: none; }
-.k-plain { --k: var(--div); }
-.legend .filter, .legend .plain-filter { cursor: pointer; min-height: 34px; font-size: .8rem; }
-.legend .filter[aria-pressed='false'], .legend .plain-filter[aria-pressed='false'] { opacity: .45; background: transparent; text-decoration: line-through; }
+.legend .filter { cursor: pointer; min-height: 34px; font-size: .8rem; }
+.legend .filter[aria-pressed='false'] { opacity: .45; background: transparent; text-decoration: line-through; }
 .legend .count { opacity: .7; font-weight: 600; }
 .reader-actions { display: flex; gap: 6px; margin-left: auto; }
 .tool { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line-2); background: var(--surface); color: var(--ink-2); font: 600 .82rem var(--font-ui); cursor: pointer; }
