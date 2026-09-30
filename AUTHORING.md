@@ -38,8 +38,6 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 
 **Isaiah 52**
 - Length: chapters 51 (about 5,800 words) and 52 (about 5,400 words, 15 notes) are denser than the chapter 50 standard. Trim both.
-- v. 7: Scripture Central KnoWhy #89 (“Why Would Noah’s Priests Quiz Abinadi on Isaiah?”, https://scripturecentral.org/knowhy/why-would-noahs-priests-quiz-abinadi-on-isaiah) argues that Zeniff’s colony saw itself as fulfilling Isa. 52:7–10, and cites a Dead Sea Scroll (11QMelchizedek) that reads the mountains as the prophets and the messenger as “the anointed one.” This could replace the note’s unsupported “the question was probably a trap.”
-- v. 15: KnoWhy #215 (“Who is the Servant Spoken of by Christ?”, https://scripturecentral.org/knowhy/who-is-the-servant-spoken-of-by-christ) gives a third reading of the servant in 3 Ne. 21:10: the Book of Mormon itself (Strathearn and Moody). Consider adding it.
 - v. 15 / 3 Ne. 21:10: the note calls the Joseph Smith identification of the marred servant widespread but an interpretation, and gives Christ as the alternative. Decide whether that framing is right. Ludlow, Nyman, and Parry are listed as sources without saying what each argues; check them.
 - v. 15 (“sprinkle” or “startle”): the note presents the grammatical objection to “sprinkle” plainly rather than defending the KJV. Decide whether the balance is right.
 - v. 14: the attribution of the “I anointed” reading of 1QIsaᵃ to William Brownlee is from memory; confirm.
