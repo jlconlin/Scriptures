@@ -64,11 +64,6 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 7: the claim that *šeṣep* (“a little wrath”) occurs nowhere else in the Bible, and v. 11–12: the gem identifications (sapphire as lapis lazuli, and so on), are from memory; confirm against a lexicon.
 - v. 4: the Nephite text’s repeated line (“the reproach of thy youth”) is described as possibly emphasis or a copying slip. Worth checking whether the critical text of the Book of Mormon comments on it.
 
-**Isaiah 59**
-- Setting: the suggestion that the chapter follows the order of a public lament service (accusation, confession, salvation oracle) is presented as some interpreters’ view; confirm a source.
-- v. 19: the two readings of the verse (KJV “enemy… standard” and the modern “rushing stream… wind of the LORD drives”) are presented as both possible, with the modern one fitting the context better. The author may want to weigh in, since the KJV line is much loved.
-- v. 20: the Septuagint’s “for the sake of Zion” and the explanation of Paul’s “out of Zion” are from memory; confirm.
-
 **Isaiah 60**
 - v. 5: *nāhar* as “flow” or “be radiant” (two homonymous roots) is from the lexicons as remembered; confirm against HALOT.
 - v. 6: the Epiphany reading and the derivation of the “three kings” tradition from Isa. 60:3, 6 and Ps. 72:10–11 are stated as general knowledge; confirm or soften.
