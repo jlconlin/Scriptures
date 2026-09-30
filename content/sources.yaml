@@ -194,3 +194,9 @@ yad-vashem: { type: web, title: 'What Is Yad Vashem', pub: 'Yad Vashem, the Worl
 mt-sefaria: { type: web, title: 'Miqra according to the Masorah (Hebrew text of the Bible)', pub: 'Sefaria', url: 'https://www.sefaria.org/Isaiah.1' }
 lxx-rahlfs: { type: web, title: 'The Septuagint (Rahlfs Greek text, with Brenton’s English translation)', pub: 'Elpenor Bilingual Septuagint', url: 'https://www.ellopos.net/elpenor/greek-texts/septuagint/default.asp' }
 greek-nt: { type: web, title: 'Greek New Testament (SBL edition), interlinear', pub: 'Bible Hub', url: 'https://biblehub.com/interlinear/' }
+talmud-yevamot-49b: { type: book, title: 'Babylonian Talmud, Yevamot 49b', pub: 'The William Davidson Talmud (Koren–Steinsaltz English), Sefaria', url: 'https://www.sefaria.org/Yevamot.49b' }
+je-mezuzah: { type: entry, author: Cyrus Adler and I. M. Casanowicz, title: Mezuzah, pub: '*The Jewish Encyclopedia*. New York: Funk & Wagnalls, 1901–1906', url: 'https://www.jewishencyclopedia.com/articles/10774-mezuzah' }
+je-shekinah: { type: entry, author: Kaufmann Kohler and Ludwig Blau, title: Shekinah, pub: '*The Jewish Encyclopedia*. New York: Funk & Wagnalls, 1901–1906', url: 'https://www.jewishencyclopedia.com/articles/13537-shekinah' }
+nrsvue: { type: book, title: 'New Revised Standard Version Updated Edition', pub: 'National Council of Churches, 2021; on BibleGateway', url: 'https://www.biblegateway.com/versions/New-Revised-Standard-Version-Updated-Edition-NRSVue-Bible/' }
+niv: { type: book, title: 'New International Version', pub: 'Biblica, 2011; on BibleGateway', url: 'https://www.biblegateway.com/versions/New-International-Version-NIV-Bible/' }
+bible-chron-ot: { type: entry, title: 'Chronology of the Old Testament', pub: '*Bible Dictionary*, “Bible Chronology”', url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-chron/old-testament?lang=eng' }

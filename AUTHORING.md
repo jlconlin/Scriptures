@@ -64,12 +64,6 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 7: the claim that *šeṣep* (“a little wrath”) occurs nowhere else in the Bible, and v. 11–12: the gem identifications (sapphire as lapis lazuli, and so on), are from memory; confirm against a lexicon.
 - v. 4: the Nephite text’s repeated line (“the reproach of thy youth”) is described as possibly emphasis or a copying slip. Worth checking whether the critical text of the Book of Mormon comments on it.
 
-**Isaiah 57**
-- v. 1: mentions the Jewish tradition that Isaiah was killed under Manasseh and its link to Heb. 11:37, marked as tradition. Keep or cut?
-- vv. 5, 9: the *lammelek*/*lammōlek* revocalization, the reading of “unto hell” as rites for the dead, and the summary of the dating debate (older oracle vs. surviving practice) are from memory; confirm against Blenkinsopp or Paul.
-- v. 15: the link between *dakkāʾ* (“contrite”) and *mədukkāʾ* (“bruised,” 53:5) is the site’s own observation and is presented as such.
-- v. 21: the division of 40–66 into three nine-chapter parts by the “no peace” refrains is attributed to “many readers.” It goes back at least to Delitzsch; confirm and decide whether to cite.
-
 **Isaiah 58**
 - Setting and v. 1: the Yom Kippur morning reading is given as 57:14–58:14 (the standard range, from memory); the link between the chapter and the Day of Atonement or Jubilee is presented as possible, not certain.
 - v. 6: the two explanations for Luke 4:18’s phrase from Isa. 58:6 LXX (Jesus linked the texts as He read, or Luke combined them) are both given without choosing. Decide whether that is the right balance.
