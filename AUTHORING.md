@@ -132,12 +132,12 @@ Fix every warning before committing. Commit each chapter separately.
 
 ## Chapter file structure
 
-`chapter`, `title`, `tagline`, `when`, `setting` (historical context), `thread` (the argument that ties the chapter together), `sections` (each has `range`, `heading`, and `plain`, a plain-words paraphrase; the ranges must cover every verse exactly once), `notes`, `christ`, `liken`, `explore`, `parallels` (`ref`, `note`, and `primary: true` for Book of Mormon chapters that quote the whole chapter), and `sources` (keys from `content/sources.yaml`).
+`chapter`, `title`, `tagline`, `when`, `setting` (historical context), `thread` (the argument that ties the chapter together), `sections` (each has `range`, `heading`, and `plain`, a plain-words paraphrase; the ranges must cover every verse exactly once), `notes`, `christ`, `explore`, `parallels` (`ref`, `note`, and `primary: true` for Book of Mormon chapters that quote the whole chapter), and `sources` (keys from `content/sources.yaml`).
 
 Each note has:
 - `ref`: the verse.
 - `phrase`: an **exact** substring of that verse. Use the LDS-edition spellings in `data/kjv/isaiah.json`. Phrases in the same verse must not overlap.
-- `kind`: one of `words` (Language), `history` (Context), `symbol` (Imagery), `christ` (Witness of Christ), `scripture` (Related Scriptures), `prophets` (Latter-day Prophets), or `structure` (Literary Structure). The set is site-wide, for every book; labels live in `KINDS` in `src/site.mjs`. `bom` (BoM Comparison) is generated from `data/bom/`. A hand-written note may also use `bom` to explain why a Book of Mormon reading matters; it is shown inside that verse’s comparison panel rather than as a second marker, so its verse must have a comparison (the build warns if not). Its `phrase` is not highlighted. `restoration` and `liken` are retired: they still render, but every note using them is to be re-sorted, and new notes must not use them.
+- `kind`: one of `words` (Language), `history` (Context), `symbol` (Imagery), `christ` (Witness of Christ), `scripture` (Related Scriptures), `prophets` (Latter-day Prophets), or `structure` (Literary Structure). The set is site-wide, for every book; labels live in `KINDS` in `src/site.mjs`. `bom` (BoM Comparison) is generated from `data/bom/`. A hand-written note may also use `bom` to explain why a Book of Mormon reading matters; it is shown inside that verse’s comparison panel rather than as a second marker, so its verse must have a comparison (the build warns if not). Its `phrase` is not highlighted.
   - Use `structure` only when the structure shows something about the message, such as a chiasm whose center is the main point. Saying a passage is poetry or a chiasm is not enough.
   - Personal application belongs in *Come, Follow Me*, not in notes.
 - `title`.

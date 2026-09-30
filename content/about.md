@@ -25,7 +25,7 @@ The title comes from Isaiah himself: “line upon line; here a little, and there
   - Latter-day Prophets
   - Literary Structure
 - **BoM Comparison.** Where the Book of Mormon quotes a chapter, verses whose wording differs from the King James Version get a BoM marker that shows the two side by side. These are generated automatically.
-- **Seeing Christ, Liken it, and Worth exploring next.** Each chapter ends by pointing to the Savior, asking what the chapter asks of us, and suggesting where to dig deeper.
+- **Seeing Christ and Worth exploring next.** Each chapter ends by pointing to the Savior and suggesting where to dig deeper.
 
 ## Principles behind the commentary
 

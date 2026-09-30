@@ -51,7 +51,7 @@ const sources = [];
 for (const f of files) {
   const ch = YAML.parse(await readFile(path.join(dir, f), 'utf8'));
   if (only.length && !only.includes(ch.chapter)) continue;
-  const texts = [ch.setting, ch.thread, ch.christ, ch.liken, ch.explore, ...(ch.notes ?? []).map((n) => n.body)];
+  const texts = [ch.setting, ch.thread, ch.christ, ch.explore, ...(ch.notes ?? []).map((n) => n.body)];
   sources.push([`Isaiah ${ch.chapter}`, texts.filter(Boolean).join('\n')]);
 }
 if (!only.length)

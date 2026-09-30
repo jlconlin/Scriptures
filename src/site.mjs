@@ -18,7 +18,6 @@ export const SECTIONS = {
   thread: { title: 'The thread through the chapter', icon: 'sparkle' },
   plain: { title: 'In plain words' },
   christ: { title: 'Seeing Christ in {chapter}', icon: 'christ' },
-  liken: { title: 'Liken it to yourself', icon: 'liken' },
   explore: { title: 'Worth exploring next', icon: 'key' },
   parallels: { title: 'This chapter elsewhere in scripture' },
   sources: { title: 'Sources & further reading' },
@@ -29,8 +28,6 @@ export const SECTIONS = {
 export const sectionTitle = (key, chapter = '') => SECTIONS[key].title.replace('{chapter}', chapter);
 
 // How each kind of note is labelled and colored throughout the site. The same set serves every book.
-// `legacy` kinds are the pre-2026-09-30 set: they still render so old notes keep working, but they are
-// left out of the legend and the About page until every note using them has been re-sorted.
 export const KINDS = {
   words: { label: 'Language', short: 'Language', blurb: 'What a word or phrase meant in its original language or in 1611 English.' },
   history: { label: 'Context', short: 'Context', blurb: 'The people, places, and events behind the text.' },
@@ -40,6 +37,4 @@ export const KINDS = {
   prophets: { label: 'Latter-day Prophets', short: 'Prophets', blurb: 'What latter-day prophets and apostles have taught about the passage.' },
   structure: { label: 'Literary Structure', short: 'Structure', blurb: 'How the passage is built, where the structure points to its main message.' },
   bom: { label: 'BoM Comparison', short: 'BoM', blurb: 'Verses where the Book of Mormon’s text reads differently from the King James Version. Shown automatically.' },
-  restoration: { label: 'Restoration Insight', short: 'Restoration', blurb: 'Not yet re-sorted into Related Scriptures or Latter-day Prophets.', legacy: true },
-  liken: { label: 'Liken It', short: 'Liken', blurb: 'Not yet re-sorted into another kind.', legacy: true },
 };

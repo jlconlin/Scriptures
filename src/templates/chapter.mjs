@@ -247,7 +247,6 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
       </div>
 
       ${ch.christ ? `<section class="closing card card-christ" aria-labelledby="christ-h"><h2 id="christ-h" class="card-title">${icon(SECTIONS.christ.icon)} ${esc(sectionTitle('christ', chapterName))}</h2><div class="prose">${md(ch.christ)}</div></section>` : ''}
-      ${ch.liken ? `<section class="closing card card-liken" aria-labelledby="liken-h"><h2 id="liken-h" class="card-title">${icon(SECTIONS.liken.icon)} ${esc(sectionTitle('liken'))}</h2><div class="prose">${md(ch.liken)}</div></section>` : ''}
       ${ch.explore ? `<section class="closing card card-explore" aria-labelledby="explore-h"><h2 id="explore-h" class="card-title">${icon(SECTIONS.explore.icon)} ${esc(sectionTitle('explore'))}</h2><div class="prose">${md(ch.explore)}</div></section>` : ''}
 
       <div class="chapter-refs">

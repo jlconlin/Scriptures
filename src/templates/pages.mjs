@@ -74,7 +74,7 @@ export function renderHome({ book, featured }) {
   <div class="card">
     <h2 class="card-title">${icon('christ')} Why study this way?</h2>
     <div class="prose">
-      <p>The Savior said, “Search these things diligently; for great are the words of Isaiah” ([[3 Ne. 23:1]]). The point of the searching is to know Him. Every note here tries to do one of three things: help you understand the words, help you see Jesus Christ in them, or help you <em>liken</em> them to your own life ([[1 Ne. 19:23]]).</p>
+      <p>The Savior said, “Search these things diligently; for great are the words of Isaiah” ([[3 Ne. 23:1]]). The point of the searching is to know Him. Every note here tries to help you understand the words or see Jesus Christ in them.</p>
       <p>Commentary is not scripture. Where Latter-day Saint scholars or other students of Isaiah read a passage in different ways, the notes say so. Where prophets and apostles have taught plainly, the notes follow them. The best interpreter of Isaiah is still the Holy Ghost ([[2 Ne. 25:4]]).</p>
     </div>
   </div>
@@ -150,11 +150,10 @@ ${themes.length ? `
     <div class="how-step"><span class="how-n">1</span><h3>Get your bearings</h3><p><strong>${esc(sectionTitle('setting'))}</strong> sets the scene: who is speaking, to whom, and what was happening in the world.</p></div>
     <div class="how-step"><span class="how-n">2</span><h3>Follow the thread</h3><p><strong>${esc(sectionTitle('thread'))}</strong> shows the argument that ties the chapter together, so it doesn’t read like a pile of unrelated images.</p></div>
     <div class="how-step"><span class="how-n">3</span><h3>Read with help</h3><p>Every section starts with <strong>${esc(sectionTitle('plain').toLowerCase())}</strong>. Tap a <span class="hint-phr">highlighted phrase</span> to open its note: in the margin on a wide screen, under the verse on a narrow one.</p></div>
-    <div class="how-step"><span class="how-n">4</span><h3>Come unto Christ</h3><p>Each chapter ends by <strong>seeing Christ</strong> in the text and <strong>likening</strong> it to your own life.</p></div>
+    <div class="how-step"><span class="how-n">4</span><h3>Come unto Christ</h3><p>Each chapter ends by <strong>seeing Christ</strong> in the text and pointing to what’s <strong>worth exploring next</strong>.</p></div>
   </div>
   <ul class="kinds-legend">
     ${Object.entries(KINDS)
-      .filter(([, v]) => !v.legacy)
       .map(([k, v]) => `<li><span class="kind-chip k-${k}">${icon(k)}${esc(v.label)}</span> ${esc(v.blurb)}</li>`)
       .join('')}
   </ul>
