@@ -3,7 +3,6 @@
 Judgment calls and unverified claims waiting for the author. Whoever writes or audits a chapter adds its items here instead of deciding them silently; the author works through the list later. Delete an item once it is resolved.
 
 **Across chapters**
-- Evidence ledgers for chapters already audited (1, 40–44, 56–66): write them after the fact, or accept those audits as they are? See `AUDIT.md`.
 - Trim chapter-level `sources` lists to what the chapter actually relies on; several list commentaries that no note draws on.
 - Convert the five guides to numbered citations (`[@key]` after specific claims), as on the Servant Songs page.
 - Servant Song boundaries: the site cites the full passages (42:1–9, 49:1–13, 50:4–11, 52:13–53:12) so readers don’t miss the verses that answer each song; the author found a separate “core vs. extended” column not worth its space. Check older chapters and guides for other ranges (42:1–4, 42:1–7, 49:1–6, and so on) and make them consistent.

@@ -10,7 +10,7 @@ Audit a chapter with the `chapter-auditor` agent (`.claude/agents/chapter-audito
 
 - **Audited:** 1, 40, 41, 42, 43, 44, 56–66 (17 chapters).
 - **Not yet audited:** 2–39, 45–55 (49 chapters).
-- **No chapter has an evidence ledger yet.** All the audits so far were done before the ledger existed (`content/isaiah/evidence/` doesn't exist yet), so `check-content.mjs` can't verify them the way it verifies a chapter with a ledger. Decide whether the audited chapters get a ledger after the fact (see `OPEN-QUESTIONS.md`).
+- **The 17 audited chapters have no evidence ledger**, because they were audited before the ledger existed. The author decided (2026-09-30) not to re-audit them to create ledgers; the token cost isn't worth it for chapters already checked once. They count as done. `check-content.mjs` treats them as chapters without a ledger (not strict). If a note in one of them is later revised, give the revised claims ledger rows then.
 
 | Chapters | Audited | Ledger | Notes |
 |---|---|---|---|
