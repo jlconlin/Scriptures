@@ -23,7 +23,7 @@ This file tells a person or an AI assistant how to continue writing the commenta
 
 ## Research tools
 
-- **Scripture Central** has a public API that returns KnoWhy articles as JSON. For example, `https://admin.scripturecentral.org/api/knowhys?filters[body][$containsi]=Isaiah%2054&pagination[pageSize]=100&fields[0]=title&fields[1]=slug` finds every KnoWhy that mentions Isaiah 54 (also try `Nephi 22` and similar Book of Mormon parallels, and `filters[title][$containsi]=…`). Fetch one article’s full text with `filters[slug][$eq]=<slug>` (the `body` field is HTML). The public page is `https://scripturecentral.org/knowhy/<slug>`; confirm it loads with the right title before adding it to `content/sources.yaml` as `sc-knowhy-<number>`.
+- **Scripture Central** (on a local machine, `scripturecentral.org` may not resolve from the shell sandbox even though `admin.scripturecentral.org` does; confirm article pages in the built-in browser instead) has a public API that returns KnoWhy articles as JSON. For example, `https://admin.scripturecentral.org/api/knowhys?filters[body][$containsi]=Isaiah%2054&pagination[pageSize]=100&fields[0]=title&fields[1]=slug` finds every KnoWhy that mentions Isaiah 54 (also try `Nephi 22` and similar Book of Mormon parallels, and `filters[title][$containsi]=…`). Fetch one article’s full text with `filters[slug][$eq]=<slug>` (the `body` field is HTML). The public page is `https://scripturecentral.org/knowhy/<slug>`; confirm it loads with the right title before adding it to `content/sources.yaml` as `sc-knowhy-<number>`.
 - **BYU**: the Religious Studies Center (rsc.byu.edu) and ScholarsArchive (scholarsarchive.byu.edu) are reachable from the cloud environment.
 - **Scripture text** for checking quotations comes from churchofjesuschrist.org through `check-quotes.mjs` (run with `NODE_USE_ENV_PROXY=1` in the cloud).
 
@@ -91,7 +91,7 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 21: the *nēṣer*/Nazarene link (Matt. 2:23) is labeled a plausible hypothesis.
 
 **Isaiah 61**
-- v. 1: 11QMelchizedek is described (Jubilee law, Isa. 52:7 and 61:1–2, a heavenly deliverer) without a source in `sources.yaml`. Add a scholarly source for it or trim the sentence.
+- v. 1: 11QMelchizedek and the Jubilee around AD 26–27 are now supported through KnoWhy #656, which relies on S. Kent Brown, *The Testimony of Luke* (2015), 245, 255–256. The Jubilee date is one scholar’s calculation and is presented as uncertain. Consider citing Brown directly.
 - v. 3: the *pəʾēr*/*ʾēper* anagram, *kēhâ* in 42:3 and 61:3, and v. 10’s *yəkahēn* (“acts as a priest”) are from memory; confirm.
 - v. 8: the *bəʿôlâ*/*bəʿawlâ* explanation cites Tov for the general point about vowels; confirm the Septuagint reading (“robbery and injustice”).
 - v. 6: the sentence on priesthood in the Restoration is kept deliberately brief. Check the wording.
@@ -123,6 +123,12 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 8: cites the JST of Rev. 12 (the woman is the church; the child is “the kingdom of our God and his Christ”) without a link, because `refs.mjs` has no JST Revelation book. Add one or keep as plain text.
 - v. 19: the hypothesis that Isa. 66:19–20 shaped Paul’s plan to reach Spain is attributed to “some scholars” without a listed source (Rainer Riesner is the usual one).
 - Setting: the frame linking chapters 1 and 66 (*pāšaʿ bî* in 1:2 and 66:24, gardens, rejected sacrifice, unquenched fire) is widely noted; no source listed.
+
+**Scripture Central pass on 56–66 (2026-09-29)**
+- Five KnoWhys now cited: #656 (Isa. 61:1), #550 (61:3), #378 (59:17), #303 (58:13), #81 (66:24). Each answers a question the note left open; the rest of the articles found for 56–66 were not used.
+- The `pub` fields for these five omit dates: the API’s `publicationDate` looks like a republication date for older articles (it gives 2024 for #81). Add original dates if they matter.
+- v. 59:17: Lehi’s “armor of righteousness” (2 Ne. 1:23) as an echo of Isa. 59:17 is the KnoWhy’s suggestion, presented as “probably.”
+- v. 61:3: the link between “beauty for ashes” and the stripping of the daughters of Zion in 3:20–24 (*pəʾērîm*, *taḥat*) is the site’s own; KnoWhy #550 supplied the stripping-and-reclothing frame.
 
 ## Theme candidates
 
