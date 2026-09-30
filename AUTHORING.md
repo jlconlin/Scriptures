@@ -64,12 +64,6 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 7: the claim that *šeṣep* (“a little wrath”) occurs nowhere else in the Bible, and v. 11–12: the gem identifications (sapphire as lapis lazuli, and so on), are from memory; confirm against a lexicon.
 - v. 4: the Nephite text’s repeated line (“the reproach of thy youth”) is described as possibly emphasis or a copying slip. Worth checking whether the critical text of the Book of Mormon comments on it.
 
-**Isaiah 61**
-- v. 1: 11QMelchizedek and the Jubilee around AD 26–27 are now supported through KnoWhy #656, which relies on S. Kent Brown, *The Testimony of Luke* (2015), 245, 255–256. The Jubilee date is one scholar’s calculation and is presented as uncertain. Brown is now cited directly (`brown-luke`).
-- v. 3: the *pəʾēr*/*ʾēper* anagram, *kēhâ* in 42:3 and 61:3, and v. 10’s *yəkahēn* (“acts as a priest”) are from memory; confirm.
-- v. 8: the *bəʿôlâ*/*bəʿawlâ* explanation cites Tov for the general point about vowels; confirm the Septuagint reading (“robbery and injustice”).
-- v. 6: the sentence on priesthood in the Restoration is kept deliberately brief. Check the wording.
-
 **Isaiah 62**
 - v. 5: the *bānayik*/*bōnayik* (“your sons”/“your Builder”) revocalization is presented with both readings; confirm which modern translations follow it.
 - v. 4: the observation that Azubah and Hephzibah were names of queen mothers (1 Kgs. 22:42; 2 Kgs. 21:1) is the site’s own; the suggestion that the prophet deliberately used known names is hedged only lightly. Check the wording.
