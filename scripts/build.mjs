@@ -131,7 +131,8 @@ export async function build({ quiet = false } = {}) {
   const themes = await buildCollection('themes', 'Theme');
 
   // Book index, home, misc
-  await write('isaiah/index.html', renderBookIndex({ book, guides, themes, sources }));
+  if (guides.length && themes.length) await write('isaiah/guides/index.html', renderGuidesIndex({ book, guides, themes }));
+  await write('isaiah/index.html', renderBookIndex({ book, guides, sources }));
   const allNotes = book.chapters.flatMap((ch) => (ch.notes ?? []).filter((n) => n.phrase && n.phrase.length < 60).map((n) => ({ ...n, chapter: ch.chapter })));
   const featured = [];
   const pool = [...allNotes];
