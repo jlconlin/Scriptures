@@ -118,6 +118,8 @@ export function renderBookIndex({ book, guides, themes = [], sources }) {
     )
     .join('');
 
+  const firstGuide = guides[0];
+
   const body = `
 <section class="book-hero">
   <div class="wrap book-hero-inner">
@@ -132,17 +134,7 @@ export function renderBookIndex({ book, guides, themes = [], sources }) {
   </div>
 </section>
 
-<section class="wrap book-section">
-  <h2 class="section-title">Start here</h2>
-  <p class="section-sub">Isaiah gets much easier once you have a few keys. These short guides are worth reading before (or alongside) the chapters.</p>
-  <div class="guide-cards">${guideCards}</div>
-</section>
-${themes.length ? `
-<section class="wrap book-section" id="themes">
-  <h2 class="section-title">Themes</h2>
-  <p class="section-sub">Ideas that run through many chapters, gathered in one place.</p>
-  <div class="guide-cards">${themes.map((t) => `<a class="guide-card" href="/${book.slug}/themes/${t.slug}/"><span class="guide-icon">${icon(t.icon ?? 'book')}</span><span class="guide-title">${esc(t.title)}</span><span class="guide-blurb">${esc(t.blurb)}</span></a>`).join('')}</div>
-</section>` : ''}
+${firstGuide ? `<p class="wrap start-callout">${icon(firstGuide.icon ?? 'book')}<span>New to ${esc(book.name)}? Start with <a href="/${book.slug}/guides/${firstGuide.slug}/">${esc(firstGuide.title)}</a>.</span></p>` : ''}
 
 <section class="wrap book-section" id="chapters">
   <h2 class="section-title">The chapters</h2>
@@ -152,6 +144,18 @@ ${themes.length ? `
   </div>
   ${divisions}
 </section>
+
+<section class="wrap book-section" id="guides">
+  <h2 class="section-title">Study guides</h2>
+  <p class="section-sub">Short guides that make the chapters easier to read. Worth reading before, or alongside, the chapters.</p>
+  <div class="guide-cards">${guideCards}</div>
+</section>
+${themes.length ? `
+<section class="wrap book-section" id="themes">
+  <h2 class="section-title">Themes</h2>
+  <p class="section-sub">Ideas that run through many chapters, gathered in one place.</p>
+  <div class="guide-cards">${themes.map((t) => `<a class="guide-card" href="/${book.slug}/themes/${t.slug}/"><span class="guide-icon">${icon(t.icon ?? 'book')}</span><span class="guide-title">${esc(t.title)}</span><span class="guide-blurb">${esc(t.blurb)}</span></a>`).join('')}</div>
+</section>` : ''}
 
 <section class="wrap book-section">
   <h2 class="section-title">Beloved passages</h2>
