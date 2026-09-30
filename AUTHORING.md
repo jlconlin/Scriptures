@@ -1,19 +1,20 @@
 # Authoring guide and project status
 
-This file tells a person or an AI assistant how to continue writing the commentary for this site.
+This file holds the workflow, status, open questions, and Isaiah-specific history. **The writing and sourcing standard for every book is in [`STANDARDS.md`](STANDARDS.md)**; read it first. Each book's decisions go in `content/<book>/BRIEF.md`.
 
 ## Status (2026-09-30)
 
 - Site framework, guides (content/isaiah/guides/), and About page: done.
-- Chapter commentary: **all 66 chapters of Isaiah done** (56–66 finished 2026-09-29). Chapters 38 onward are written at the semi-academic standard described below.
+- Chapter commentary: **all 66 chapters of Isaiah done** (56–66 finished 2026-09-29). Chapters 38 onward are written at the semi-academic standard in `STANDARDS.md`.
 - Design pass (2026-09-30): site-wide note kinds, the “Liken it” sections removed, the chapter guide moved to the About page, and the Isaiah page reordered (chapters first, guides on their own page).
 - Next: the revision pass (see the plan below). Chapters 56–66 have been audited so that every claim rests on a consulted, cited source (see “Audit of 56–66” below); 1–55 have not. Chapters 1–52 have had the Scripture Central pass that 53–66 got when they were written (see “Scripture Central pass on 1–52” below).
 - **Plan (decided 2026-09-29):** write 53–66 one chapter at a time, all the way through, without stopping to revise. Record judgment calls and unverified claims under “Open questions for review” as you go. After 66, do a single revision pass: resolve the open questions, then deepen chapters 1–37 (see “Revision plan” below).
 - **Theme pages** cover topics that span many chapters. Each is a Markdown file in `content/isaiah/themes/` (same format as the guides: YAML front matter with `title`, `blurb`, `icon`, `sources`, then prose) and is published at `/isaiah/themes/<file name>/`, with an index at `/isaiah/themes/` and cards on the Guides page (`/isaiah/guides/`). Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`). Done: **The Servant Songs**. When a chapter touches a theme that has a page, link to it instead of re-explaining the theme. Add future candidates to “Theme candidates” below.
-- Not yet done: `scripts/check-links.mjs` and `scripts/check-content.mjs` (both referenced in package.json). The repo is at `git@github.com:jlconlin/Scriptures.git`.
+- `scripts/check-content.mjs` (`npm run check`) checks sourcing: unknown keys and wiki URLs everywhere; for chapters with an evidence ledger, every note sourced and every cited key backed by a quoted ledger row. It is not part of `npm run build`, so unaudited chapters can't break the Cloudflare build. Not yet done: `scripts/check-links.mjs` (referenced in package.json). The repo is at `git@github.com:jlconlin/Scriptures.git`.
 - Side task for later: **an MCP server for the content corpus**, so readers can load the commentary into their own AI conversations. Suggested plan: (1) have `build.mjs` also emit a machine-readable `corpus.json` (KJV text, sections, notes, sources for every chapter) and an `llms.txt`, which works on any static host; (2) add a small MCP server over that corpus with tools such as `get_chapter`, `get_verse_commentary`, `search_notes`, and `list_sources`. It can run locally as an npm package over stdio, or remotely as a serverless function (for example a Cloudflare Worker at mcp.scriptures.conlin.io), depending on the host chosen.
 - **Plan for new books, starting with Jeremiah (decided 2026-09-30).** Goal: write content that needs no audit afterward, by making sourcing part of writing. Steps, in order:
   1. **Shared standard and tooling.** Split this file: a site-wide `STANDARDS.md` (voice, note kinds, sourcing rules, no Wikipedia, no personal application), each book's `BRIEF.md`, and this file trimmed to workflow and status. Add a project agent, `.claude/agents/chapter-writer.md` (runs on Sonnet), that researches before writing and saves an **evidence ledger** beside each chapter (`content/<book>/evidence/NN.yaml`: claim, source key, URL, supporting quote); a claim with no ledger row doesn't go in the chapter. Write `scripts/check-content.mjs` to fail the build when a note has no sources, a key is missing from `sources.yaml`, a cited work is on the not-readable list without a ledger quote, or a source URL is Wikipedia.
+     - Done 2026-09-30: `STANDARDS.md` (with the ledger format), `.claude/agents/chapter-writer.md`, and `.claude/agents/chapter-auditor.md`; this file trimmed. `BRIEF.md` for each book comes in step 3.
   2. **Book-neutral code.** Remove the Isaiah assumptions in the build (content paths, Gospel Library URLs, KJV download, `check-quotes.mjs`, the BoM comparison data, sitemap).
   3. **Jeremiah brief, with the author.** `content/jeremiah/BRIEF.md`: divisions and intro, the author's questions, which sources for Jeremiah are actually readable online (researched, not assumed), book-wide issues to handle consistently, guide and theme candidates, Restoration connections.
   4. **Pilot, then batches.** Two chapters by chapter-writer agents; review (spot-check the ledger, run the checks, show the author in the preview); adjust the instructions; then continue in batches, one commit per chapter.
@@ -24,14 +25,9 @@ This file tells a person or an AI assistant how to continue writing the commenta
 - **Where changes go.** Commit chapter content, sources, and fixes directly to `main` and push. Changes to how the site *looks* (layout, widths, new interface features) go on a separate branch until the author has seen them and approved; then fast-forward `main`.
 - **Showing a change.** Before a change is pushed, show it in the private claude.ai preview artifact (https://claude.ai/artifact/W1iHyLZVvWzuCeSvoDZCTS): copy the whole built site from `dist/`, make every root-absolute link, asset path, CSS `url()`, and `search.json` URL relative, and republish it to the same artifact. The author reviews there and can leave comments on specific passages. Once pushed, changes are live at https://scriptures.conlin.io.
 - **The author reads mostly on an iPad mini** (744px upright, 1133px sideways). Check layouts there as well as on a laptop and a phone.
-- **Ask for focus questions.** Before writing a chapter, it helps to ask whether the author has specific questions or interests for it; build the chapter around those.
+- **Ask for focus questions**, one question at a time, before a chapter is written; build the chapter around them.
 - **Open threads for decisions** go in “Open questions for review” below rather than being decided silently.
-
-## Research tools
-
-- **Scripture Central** (on a local machine, `scripturecentral.org` may not resolve from the shell sandbox even though `admin.scripturecentral.org` does; confirm article pages in the built-in browser instead) has a public API that returns KnoWhy articles as JSON. For example, `https://admin.scripturecentral.org/api/knowhys?filters[body][$containsi]=Isaiah%2054&pagination[pageSize]=100&fields[0]=title&fields[1]=slug` finds every KnoWhy that mentions Isaiah 54 (also try `Nephi 22` and similar Book of Mormon parallels, and `filters[title][$containsi]=…`). Fetch one article’s full text with `filters[slug][$eq]=<slug>` (the `body` field is HTML). The public page is `https://scripturecentral.org/knowhy/<slug>`; confirm it loads with the right title before adding it to `content/sources.yaml` as `sc-knowhy-<number>`.
-- **BYU**: the Religious Studies Center (rsc.byu.edu) and ScholarsArchive (scholarsarchive.byu.edu) are reachable from the cloud environment.
-- **Scripture text** for checking quotations comes from churchofjesuschrist.org through `check-quotes.mjs` (run with `NODE_USE_ENV_PROXY=1` in the cloud).
+- Audience, voice, sourcing, the evidence ledger, research tools, and the review process: see `STANDARDS.md`.
 
 ## Open questions for review
 
@@ -67,6 +63,19 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 **Isaiah 54**
 - v. 7: the claim that *šeṣep* (“a little wrath”) occurs nowhere else in the Bible, and v. 11–12: the gem identifications (sapphire as lapis lazuli, and so on), are from memory; confirm against a lexicon.
 - v. 4: the Nephite text’s repeated line (“the reproach of thy youth”) is described as possibly emphasis or a copying slip. Worth checking whether the critical text of the Book of Mormon comments on it.
+
+**Audit of 1 and 40–44 (2026-09-30)** — judgment calls from the Sonnet audit agents
+- 1:7–9: now says the verses fit either the Syro-Ephraimite war or 701 BC (Delitzsch leaves it open). Commit to 701?
+- 1:5: Delitzsch reads “why should ye be stricken” as “to what end?”, not “on what part of the body?”. Worth adding?
+- 40: three Wikipedia-only claims were cut (Qumran’s use of 40:3; the scroll’s shorter v. 7; the scroll’s date and the *Messiah* order were re-sourced). Restore the first two if a real source turns up.
+- 40, `when` (“6th century BC”) and 43, 44 (“in Babylon, 6th century BC”): kept as the conventional setting; no source read gives the date.
+- 42:1: the comparison of Matt. 3:17 with Matt. 12:18 is now the chapter’s own reading of the two texts; no scholarly source.
+- 43:1: Delitzsch reads “I have redeemed thee” as looking back to Egypt; the older “prophetic perfect” explanation was cut as unsourced.
+- 43:27: “thy first father” now follows Delitzsch (Abraham), with Adam as others’ view; the old “most take it as Jacob” is gone.
+- 41, 44: the Cyrus Cylinder is quoted from Rogers’s 1912 translation; the British Museum page blocks scripts. A modern translation would be better.
+- 41, 44: Livius.org (Grayson’s Nabonidus Chronicle) and TheTorah.com (Gabbay on the *mīs pî* ritual) are cited. They are scholarly but not institutional; keep or replace?
+- 41: several points rest on Delitzsch alone (the sense of *ṣedeq* in v. 2, the “former things”, the seven trees, the Cumae oracle); the notes present them as his reading. Delitzsch is named in running text in a few places (a 19th-century source, as in chapter 40).
+- 44: the authorship debate is deliberately thin here and points to chapter 40’s setting.
 
 **Audit of 56–66 (2026-09-29)**
 Every claim in chapters 56–66 was checked against a source actually consulted, and every note’s `sources` now lists only works that were read. Claims that could not be sourced were cut. Sources used: the Masoretic text and BDB (both through Sefaria), Delitzsch’s commentary (on Bible Hub), Gesenius’ grammar (Wikisource), the Septuagint (Rahlfs with Brenton), the Greek NT, the Talmud (Sefaria), the Targum (Pauli’s 1871 translation), NRSVUE and NIV, the Jewish and Catholic Encyclopedias, Britannica, Southwood (2022), Pike (BYU RSC, 2019), the Bible Dictionary and its chronology, the Joseph Smith Papers, Church History Topics, and the Scripture Central KnoWhys, talks, and hymn already listed.
@@ -122,50 +131,7 @@ Topics that run across several chapters, collected for the future theme pages. A
 
 ## Workflow for each chapter
 
-**Method: read, ask, then seek.** Start by reading the chapter itself and writing down the questions it raises (what does this word mean, who is speaking, why does the Book of Mormon read differently, what happened here, where else is this quoted). Only then go to sources, to answer those questions. Every note should answer a real question a careful reader would ask; if it doesn’t, cut it. This is what keeps the site a reading companion rather than a collection of everything the sources say. When the author sends questions about a chapter, build the chapter around them.
-
-
-```sh
-node scripts/show.mjs 38            # print the KJV text with verse numbers
-# write content/isaiah/chapters/38.yaml (copy the structure of an existing chapter)
-node scripts/fix-yaml.mjs           # quote YAML values that contain ": "
-node scripts/build.mjs              # warns about phrases not found, overlaps, bad refs
-node scripts/check-quotes.mjs 38    # verify quoted scripture against the cited chapter
-npm run dev                         # preview at http://localhost:4321
-```
-
-Fix every warning before committing. Commit each chapter separately.
-
-## Chapter file structure
-
-`chapter`, `title`, `tagline`, `when`, `setting` (historical context), `thread` (the argument that ties the chapter together), `sections` (each has `range`, `heading`, and `plain`, a plain-words paraphrase; the ranges must cover every verse exactly once), `notes`, `christ`, `explore`, `parallels` (`ref`, `note`, and `primary: true` for Book of Mormon chapters that quote the whole chapter), and `sources` (keys from `content/sources.yaml`).
-
-Each note has:
-- `ref`: the verse.
-- `phrase`: an **exact** substring of that verse. Use the LDS-edition spellings in `data/kjv/isaiah.json`. Phrases in the same verse must not overlap.
-- `kind`: one of `words` (Language), `history` (Context), `symbol` (Imagery), `christ` (Witness of Christ), `scripture` (Related Scriptures), `prophets` (Latter-day Prophets), or `structure` (Literary Structure). The set is site-wide, for every book; labels live in `KINDS` in `src/site.mjs`. `bom` (BoM Comparison) is generated from `data/bom/`. A hand-written note may also use `bom` to explain why a Book of Mormon reading matters; it is shown inside that verse’s comparison panel rather than as a second marker, so its verse must have a comparison (the build warns if not). Its `phrase` is not highlighted.
-  - Use `structure` only when the structure shows something about the message, such as a chiasm whose center is the main point. Saying a passage is poetry or a chiasm is not enough.
-  - Personal application belongs in *Come, Follow Me*, not in notes.
-- `title`.
-- `body`: markdown.
-- `sources`: optional.
-
-Write scripture references as `[[2 Ne. 25:4]]`, `[[D&C 113:1–6]]`, or `[[Isa. 53:5]]` (Isaiah references become internal links). Use en dashes in ranges.
-
-## Audience
-
-The primary reader is the author, who reads mostly on an iPad mini. Write to the standard below, and favor what helps the author’s study (their questions, readability, depth) over things that matter only for a public site (search-engine polish, first-time-visitor defaults).
-
-
-The site is **semi-academic**. The target reader is academically trained, for example someone with a PhD in a technical field. They are intellectually curious, comfortable with complexity and with competing hypotheses, and expect claims to be documented. But they are not a specialist in biblical studies, Hebrew, or ancient Near Eastern history. Write for that reader:
-
-- **Don’t oversimplify.** Engage real scholarly questions directly: textual variants (Masoretic Text, Septuagint, the Great Isaiah Scroll 1QIsaᵃ, Book of Mormon readings), dating and authorship debates, Near Eastern parallels and archaeology, translation choices, and literary structure. Name the positions fairly, including non-Latter-day Saint scholarship, and explain what is at stake. Then present the Latter-day Saint reading and its basis.
-- **Explain the specialist tools.** Define technical terms the first time they appear (for example *qere/ketiv*, *Masoretic*, chiasmus, *prophetic perfect*). Transliterate Hebrew, and explain the Hebrew morphology when it matters for meaning.
-- **Document without cluttering, and keep attention on the message, not the scholar.** Don’t name modern scholars in running text (“Oswalt argues…”, “Duhm named…”); let the citation carry the attribution. In chapter notes, list the sources in the note’s `sources`. In guides and theme pages, put a numbered citation right after the claim: `[@key]` or `[@key, locator]` (keys from `content/sources.yaml`); it renders as a small superscript number linking to a numbered source list, and sources in the page’s `sources` that are never cited appear under “Further reading.” Ancient documents can be named when they are the evidence (“Sennacherib’s annals claim…”). Say how certain a claim is: established fact, scholarly consensus, a plausible hypothesis, or devotional application.
-- **Keep `setting` short: about 150–250 words of background** (when, to whom, where the chapter sits in the book, how the Book of Mormon uses it). Debates about a particular verse belong in that verse’s note. Recurring topics such as the Servant Songs should be explained once, on a theme page, and linked, not re-explained in each chapter.
-- **Be selective; don’t include everything you find.** The site should not feel busy. Aim for roughly the length of chapter 50 (about 3,500 words, 8–11 notes). Where several sources or cross-references make the same point, use the best one. Where two notes overlap, merge them or cut one. Good material that doesn’t serve the chapter’s thread can be left out. This applies to every chapter, including the revision of 1–37 (where deepening should replace weaker notes as often as it adds new ones), and to every resource: Scripture Central, BYU, the Church’s site, and the scholarly commentaries. Finding something is not a reason to include it.
-- **Go for depth over breadth.** A few well-developed notes that make real connections, across the canon, across the Restoration scriptures, and across the book of Isaiah, are better than many shallow ones.
-- Chapters 1–37 were written somewhat closer to a general audience. See the revision plan below.
+The method, checks, and review steps are in `STANDARDS.md` (“Checks” and “Review process”). In short: ask the author for focus questions; a `chapter-writer` agent drafts the chapter with its evidence ledger (`content/<book>/evidence/NN.yaml`); the orchestrating session spot-checks the ledger and runs `build.mjs`, `check-quotes.mjs`, and `check-content.mjs`; the author reviews in the preview artifact; one commit per chapter. Existing chapters are audited with the `chapter-auditor` agent.
 
 ## Revision plan for chapters 1–37
 
@@ -177,15 +143,4 @@ First finish 38–66 at the new standard. Then **deepen chapters 1–37 in place
 
 Priority order: 1, 6, 7, 9, 11, 14, 24–27, 29; then the rest. The oracles in 15–23 are lowest priority.
 
-## Voice and standards
-
-- Write like a warm, knowledgeable religion teacher. Find the **thread** of each chapter instead of listing topics. Notice structure and wordplay. Explain the history behind the text, bring in Hebrew only when it pays off, and connect to Restoration scripture. Close each chapter by pointing to Christ and to what’s worth exploring next; personal application belongs in *Come, Follow Me*, not here. Keep a light touch of humor where it fits.
-- Go deeper than *Come, Follow Me*. Don't make the site a companion to it.
-- Stay grounded in the scriptures and the teachings of latter-day prophets. When an interpretation is speculative, or faithful readers disagree, say so.
-- **Everything is referenced; nothing is made up.** Every factual claim (a Hebrew meaning, a textual variant, a date, a scholarly view, a historical detail) must come from a source you have actually consulted, and that source must be cited. List a work in `sources` only if you have checked that it supports what the note says; never attribute a claim to a commentary because it is the kind of thing that commentary would say. If a citation can’t be confirmed, don’t include it. If you cannot find and read a source for a claim, cut the claim. “From memory” is not a source, and an entry under “Open questions” is not a substitute for one. **Wikipedia is not a source** (the author, 2026-09-30): the site must not become a mini-Wikipedia. Use the primary source or a scholarly or institutional one (a museum’s own catalog page, the text itself, a lexicon); if only Wikipedia supports a claim, cut it.
-- **Verify everything.** Check every quotation of non-Isaiah scripture with `check-quotes.mjs`. Before describing a Book of Mormon variant, confirm it against the text; `data/bom/isaiah-parallels.json` holds the Book of Mormon verses that differ from the KJV. Add talks and books to `content/sources.yaml` only after confirming that the URL loads a page with the right title. Bible Dictionary URLs return 200 even for nonexistent entries, so check the page heading instead.
-- On your own computer, run the quote checker as plain `node scripts/check-quotes.mjs …`. In a cloud sandbox, run it as `NODE_USE_ENV_PROXY=1 node scripts/check-quotes.mjs …`. Node’s built-in `fetch` ignores the sandbox’s proxy unless that variable is set, and the Church site is then refused. The checker stops with an error if a chapter can’t be downloaded. The environment’s allowed domains must include `churchofjesuschrist.org` (they now do, along with `scripturecentral.org` and `byu.edu`).
-- **The site is a focused companion, not a database or a replacement for other resources.** It gives one clear reading of each chapter. It does not try to gather everything written about a chapter or to cite every available source. Readers who want more can go to Scripture Central, the commentaries, and the Church’s materials; when one of those is especially good on a chapter, point to it once (for example in `explore`) rather than absorbing it. List in `sources` only what the chapter actually relies on.
-- **Don’t let any single secondary source shape a chapter.** Scripture Central, a commentary, or a lexicon is one input among several. Start from the text and the scriptures that quote it; use a secondary source to check or deepen an idea, not to supply the chapter’s angle or a string of its notes. As a rule of thumb, no one outside source should be the main idea of more than one note in a chapter. When an idea does come from a source, cite it, put it in your own words, and don’t follow the source’s outline. If the idea reached you through a secondary source that got it from another work (a KnoWhy quoting a commentary, for example), cite that underlying work as well, after confirming its details.
-- **Scripture Central** (scripturecentral.org, formerly Book of Mormon Central) is a recommended secondary source. It isn’t an official Church source, but it is scholarly and faithful to the doctrine. Use it for Latter-day Saint scholarship on Isaiah, such as its KnoWhy articles and its material on Isaiah in the Book of Mormon. Cite specific articles, not the site as a whole, and add each one to `content/sources.yaml` only after confirming that its URL loads the right title, as with any source. It is blocked in some cloud sandboxes; if so, add `scripturecentral.org` to the environment’s allowed domains, or leave a note under “Open questions for review” to add the citation later.
-- For graphic passages (for example 36:12), describe rather than quote.
+Chapters 1–37 were written somewhat closer to a general audience than the standard in `STANDARDS.md`; in deepening them, stronger notes should replace weaker ones as often as they add new ones.
