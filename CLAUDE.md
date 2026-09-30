@@ -13,4 +13,4 @@ Always read `AUTHORING.md` (status, current plan, working with the author). Then
 | Changing code, styles, templates, or scripts; adding a book | `DEVELOPMENT.md` |
 | Building and previewing | `README.md` |
 
-`HISTORY.md` and `IDEAS.md` are needed only when asked about.
+Read `DECISIONS.md` before changing anything that affects the whole site. `IDEAS.md` is needed only when asked about.

@@ -4,13 +4,13 @@ Isaiah was written before the sourcing standard in `STANDARDS.md` existed, so ev
 
 Audit a chapter with the `chapter-auditor` agent (`.claude/agents/chapter-auditor.md`). When its work is committed, update the table below in the same commit, and move its judgment calls to `OPEN-QUESTIONS.md`.
 
-**When every chapter is audited, the history section at the bottom can be deleted** (see `HISTORY.md` on when history is removed).
+**When every chapter is audited, delete this file.** The evidence ledgers stay.
 
 ## Status
 
 - **Audited:** 1, 40, 41, 42, 43, 44, 56–66 (17 chapters).
 - **Not yet audited:** 2–39, 45–55 (49 chapters).
-- **No chapter has an evidence ledger yet.** All the audits so far were done before the ledger existed (`content/isaiah/evidence/` is empty), so `check-content.mjs` can't verify them the way it verifies a chapter with a ledger. Decide whether the audited chapters get a ledger after the fact (see `OPEN-QUESTIONS.md`).
+- **No chapter has an evidence ledger yet.** All the audits so far were done before the ledger existed (`content/isaiah/evidence/` doesn't exist yet), so `check-content.mjs` can't verify them the way it verifies a chapter with a ledger. Decide whether the audited chapters get a ledger after the fact (see `OPEN-QUESTIONS.md`).
 
 | Chapters | Audited | Ledger | Notes |
 |---|---|---|---|

@@ -10,7 +10,7 @@ Current work and how to work with the author. **The writing and sourcing standar
 
 ## Plan for new books, starting with Jeremiah
 
-Goal: write content that needs no audit afterward, by making sourcing part of writing. Steps 1 (standard, agents, `check-content.mjs`) and 2 (book-neutral code) are done; see `HISTORY.md`.
+Goal: write content that needs no audit afterward, by making sourcing part of writing. Steps 1 (standard, agents, `check-content.mjs`) and 2 (book-neutral code) are done.
 
 3. **Jeremiah brief, with the author.** `content/jeremiah/BRIEF.md`: divisions and intro, the author's questions, which sources for Jeremiah are actually readable online (researched, not assumed), book-wide issues to handle consistently, guide and theme candidates, Restoration connections. Then `book.yaml` and the rest of “Adding a new book” in `DEVELOPMENT.md`.
 4. **Pilot, then batches.** Two chapters by chapter-writer agents; review (spot-check the ledger, run the checks, show the author in the preview); adjust the instructions; then continue in batches, one commit per chapter.
@@ -35,4 +35,4 @@ Goal: write content that needs no audit afterward, by making sourcing part of wr
 | `content/<book>/THEME-CANDIDATES.md` | Topics for future theme pages |
 | `DEVELOPMENT.md` | Hosting, site design, how books are built, adding a book |
 | `IDEAS.md` | Ideas not yet planned |
-| `HISTORY.md` | Finished plans and past decisions |
+| `DECISIONS.md` | Decisions that frame the site |
