@@ -20,7 +20,9 @@ All 66 chapters are written. Chapters 38–66 were written at the semi-academic 
 
 - *Isaiah in the Book of Mormon* (Welch and Pike, FARMS 1998), cited as `isaiah-in-bom`, can be read chapter by chapter on the Scripture Central archive (archive.bookofmormoncentral.org).
 - Delitzsch's commentary (in Keil and Delitzsch; readable on Bible Hub at `biblehub.com/commentaries/kad/isaiah/<c>.htm`) is the fullest commentary readable online. Use it to answer a question the chapter already asks, not as a source of material; where a point rests on him alone, present it as his reading.
-- For the Qumran readings and the Septuagint, Meade (`meade-isaiah-53`, Text & Canon Institute) and Hopkin (`hopkin-abinadi-isaiah`, RSC) were readable for chapters 52–53; the Israel Museum's Digital Dead Sea Scrolls site did not load from the cloud sandbox.
+- For the Qumran readings and the Septuagint, Meade (`meade-isaiah-53`, Text & Canon Institute) and Hopkin (`hopkin-abinadi-isaiah`, RSC) were readable for chapters 52–53; the Israel Museum's Digital Dead Sea Scrolls site loads but doesn't show readings verse by verse.
+- *Isaiah in the Book of Mormon* (`isaiah-in-bom`) PDFs on the Scripture Central archive are readable, though some chapters are scanned images.
+- Not readable from the sandbox: Ludlow's and Nyman's Isaiah commentaries (archive.org 401 or not found), Nilsen (encrypted PDF), Britannica (403), the British Museum (403).
 - The standard modern commentaries (Oswalt, Blenkinsopp, Childs, Shalom Paul, Westermann, Williamson, Parry) are not readable online; see `STANDARDS.md` rule 8.
 - Book of Mormon comparison data: `data/bom/isaiah-parallels.json` (built by `scripts/fetch-bom-parallels.mjs`, which is Isaiah-specific).
 

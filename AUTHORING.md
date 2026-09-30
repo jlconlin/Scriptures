@@ -4,7 +4,7 @@ Current work and how to work with the author. **The writing and sourcing standar
 
 ## Status (2026-09-30)
 
-- **Isaiah:** all 66 chapters written. Remaining: the audit (19 of 66 done; see `content/isaiah/AUDIT.md`), the open questions (`content/isaiah/OPEN-QUESTIONS.md`), and deepening chapters 1–37 (`content/isaiah/BRIEF.md`).
+- **Isaiah:** all 66 chapters written. Remaining: the audit (23 of 66 done; see `content/isaiah/AUDIT.md`), the open questions (`content/isaiah/OPEN-QUESTIONS.md`), and deepening chapters 1–37 (`content/isaiah/BRIEF.md`).
 - **Jeremiah:** next book. `data/kjv/jeremiah.json` is fetched; its LDS-edition spellings still need checking. Next is the brief (step 3 below).
 - **Site:** framework, guides, theme pages, About page, and book-neutral code done. Code notes are in `DEVELOPMENT.md`.
 

@@ -8,8 +8,8 @@ Audit a chapter with the `chapter-auditor` agent (`.claude/agents/chapter-audito
 
 ## Status
 
-- **Audited:** 1, 40, 41, 42, 43, 44, 52, 53, 56–66 (19 chapters).
-- **Not yet audited:** 2–39, 45–51, 54, 55 (47 chapters).
+- **Audited:** 1, 40–45, 51–66 (23 chapters).
+- **Not yet audited:** 2–39, 46–50 (43 chapters).
 - **The 17 audited chapters have no evidence ledger**, because they were audited before the ledger existed. The author decided (2026-09-30) not to re-audit them to create ledgers; the token cost isn't worth it for chapters already checked once. They count as done. `check-content.mjs` treats them as chapters without a ledger (not strict). If a note in one of them is later revised, give the revised claims ledger rows then.
 
 | Chapters | Audited | Ledger | Notes |
@@ -21,10 +21,13 @@ Audit a chapter with the `chapter-auditor` agent (`.claude/agents/chapter-audito
 | 42 | 2026-09-30 | no | commit d39e3ea |
 | 43 | 2026-09-30 | no | commit 7c65c61 |
 | 44 | 2026-09-30 | no | commit 3cb8642 |
-| 45–51 | | | 51 has claims “from memory” in `OPEN-QUESTIONS.md` |
+| 45 | 2026-09-30 | yes (73 rows) | batch 1 |
+| 46–50 | | | |
+| 51 | 2026-09-30 | yes (111 rows) | batch 1 |
 | 52 | 2026-09-30 | yes (68 rows) | pilot of the `chapter-auditor` agent |
 | 53 | 2026-09-30 | yes (80 rows) | pilot of the `chapter-auditor` agent |
-| 54–55 | | | 54 has claims “from memory” in `OPEN-QUESTIONS.md` |
+| 54 | 2026-09-30 | yes (76 rows) | batch 1 |
+| 55 | 2026-09-30 | yes (52 rows) | batch 1 |
 | 56–66 | 2026-09-29 | no | one pass over all eleven (see history) |
 
 Things every remaining audit should also do (from earlier passes):

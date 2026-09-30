@@ -12,10 +12,9 @@ Judgment calls and unverified claims waiting for the author. Whoever writes or a
 - 1:7–9: now says the verses fit either the Syro-Ephraimite war or 701 BC (Delitzsch leaves it open). Commit to 701?
 - 1:5: Delitzsch reads “why should ye be stricken” as “to what end?”, not “on what part of the body?”. Worth adding?
 
-**Isaiah 5, 9, 13, 26, 45, 52** (Scripture Central pass, 2026-09-29)
+**Isaiah 5, 9, 13, 26, 52** (Scripture Central pass, 2026-09-29)
 - 5:25 now reads “his hand is stretched out still” as a threat, with the Book of Mormon’s merciful image as a different idiom (the arm “lengthened out,” “extended”), which reverses the earlier mercy reading in 5:25, 9:12, and the glossary.
 - 13:20 adds the destruction of Babylon in 689 BC as a possible near fulfillment.
-- 45:7 now presents the Zoroastrian background as a debate.
 - 26:17–18 notes that the “pangs” and the “cords” of death sound alike, though BDB treats them as two words.
 - 52:15 adds the Book of Mormon as a third reading of the marred servant.
 
@@ -30,10 +29,18 @@ Judgment calls and unverified claims waiting for the author. Whoever writes or a
 - 41: several points rest on Delitzsch alone (the sense of *ṣedeq* in v. 2, the “former things”, the seven trees, the Cumae oracle); the notes present them as his reading. Delitzsch is named in running text in a few places (a 19th-century source, as in chapter 40).
 - 44: the authorship debate is deliberately thin here and points to chapter 40’s setting.
 
-**Isaiah 51**
-- v. 19 (“these two sons”): the note says Latter-day Saint commentators often connect the two sons with the two witnesses of Rev. 11, and lists Ludlow and Nyman as sources. Check that those books actually make the connection.
-- v. 11: the note attributes to O. H. Steck the view that chapter 35 is a bridge written in the style of chapters 40–55. Stated from memory; confirm.
-- v. 2: removed an unconfirmed claim that the Great Isaiah Scroll has “and increased him.” Check the scroll if this detail matters.
+**Isaiah 45** (audit, 2026-09-30)
+- 45:7: the Zoroastrian background is now only a debate (KnoWhy #871, Delitzsch). The audit also added Delitzsch's reading (dualism rejected; “evil” as judgment, not sin), which goes a little beyond repair. Keep? Nilsen's article couldn't be read (encrypted PDF); restore the Cyrus-as-Zoroastrian points if someone can read it.
+- 45:4: Delitzsch reads “though thou hast not known me” as “before you existed”, not as Cyrus being a pagan. Add?
+- 45:22: the Spurgeon conversion story rests on a Gospel Coalition blog post that quotes Spurgeon's own account (the Banner of Truth copy returned 403). Acceptable, or find a primary copy?
+- `when`: “539/538 BC” rests on the Nabonidus Chronicle's year label (Livius); the Bible Dictionary chronology gives 538.
+- The Cyrus Cylinder is still quoted from Rogers (1912), as in 41 and 44.
+
+**Isaiah 51** (audit, 2026-09-30)
+- Length: 16 notes and about 5,100 words. Trim?
+- v. 19 (“these two sons”): the claim that Latter-day Saint commentators (Ludlow, Nyman) connect them with the two witnesses of Rev. 11 is cut; neither book could be read. The note keeps the Rev. 11 / D&C 77:15 link as an inference from shared images. Restore the attribution only if you can confirm it in the books.
+- v. 19: the Qumran reading is now “a Qumran manuscript”, per the NRSVUE footnote; naming 1QIsaᵃ and the spelling were cut.
+- v. 16: the servant/Christ sentence is the chapter's own reading, unsourced. Keep?
 
 **Isaiah 52** (audit, 2026-09-30)
 - Length: 15 notes and about 5,400 words, well over the guideline. Trim?
@@ -51,9 +58,13 @@ Judgment calls and unverified claims waiting for the author. Whoever writes or a
 - v. 4: Wayment’s argument is reported only through KnoWhy #564; his JBMS article wasn’t read.
 - v. 9: Hopkin (“high place”), Meade (“his hill” or “his tomb”) and the NRSVUE differ on the scroll’s word; the note says the sense is uncertain.
 
-**Isaiah 54**
-- v. 7: the claim that *šeṣep* (“a little wrath”) occurs nowhere else in the Bible, and v. 11–12: the gem identifications (sapphire as lapis lazuli, and so on), are from memory; confirm against a lexicon.
-- v. 4: the Nephite text’s repeated line (“the reproach of thy youth”) is described as possibly emphasis or a copying slip. Worth checking whether the critical text of the Book of Mormon comments on it.
+**Isaiah 54** (audit, 2026-09-30)
+- v. 4: the Book of Mormon's repeated line (“the reproach of thy youth”) is noted without a cause; no readable critical-text source was found. Skousen's *Analysis of Textual Variants* may address it.
+- “Cut off out of the land of the living” (53:8) now stands where the chapter said the servant “died childless”. Wording OK?
+
+**Isaiah 55** (audit, 2026-09-30)
+- v. 8: “my thoughts are not your thoughts” read as about forgiveness rests on the “for” (*kî*) linking it to v. 7, framed as “one natural reading”; Delitzsch reads the contrast more broadly. Keep, or follow Delitzsch?
+- v. 11: “the reliability of God's word” is an interpretive framing, unsourced.
 
 **Isaiah 56–66** (audit, 2026-09-29)
 - 63:3 reads the winepress first as judgment, then as a Latter-day Saint application to Gethsemane.

@@ -1,0 +1,383 @@
+# Evidence ledger for Isaiah 54. Read in this audit with curl: Church scripture pages, Delitzsch and BDB (Bible Hub lexicon pages), the Westminster Leningrad Codex (openscriptures/morphhb, all 39 books searched by lemma), KnoWhy 216 and 91 (Scripture Central API).
+chapter: 54
+claims:
+- where: when
+  claim: Isaiah 40–55 is often dated to the Babylonian exile, c. 540 BC
+  key: sc-knowhy-91
+  url: https://scripturecentral.org/knowhy/why-did-abinadi-talk-about-the-suffering-messiah
+  quote: many scholars argue that Isaiah 40–55 were actually written by a later prophet, ca. 540 BC during the Babylonian exile
+- where: when
+  claim: Christ’s quotation of the chapter to the Nephites is dated about AD 34
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/20?lang=eng
+  quote: Others of the Lord’s people will be gathered to Jerusalem. About A.D. 34.
+- where: setting
+  claim: Chapter 54 follows the Servant’s sacrifice and addresses Jerusalem as the barren woman
+  key: delitzsch
+  url: https://biblehub.com/commentaries/kad/isaiah/54.htm
+  quote: After the "Servant of God" has expiated the sin of His people by the sacrifice of Himself
+- where: setting
+  claim: Zion is earlier the bereaved mother (Isa. 49:21)
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/ot/isa/49?lang=eng
+  quote: I have lost my children, and am desolate , a captive, and removing to and fro?
+- where: setting
+  claim: Zion is earlier the divorced wife (Isa. 50:1)
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/ot/isa/50?lang=eng
+  quote: Where is the bill of your mother’s divorcement , whom I have put away?
+- where: setting
+  claim: Zion is earlier the captive daughter (Isa. 52:2)
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/ot/isa/52?lang=eng
+  quote: O captive daughter of Zion
+- where: setting
+  claim: 3 Nephi 21 is the prophecy of the gathering of Israel, which precedes 3 Nephi 22
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/21?lang=eng
+  quote: Israel will be gathered when the Book of Mormon comes forth
+- where: setting
+  claim: 3 Nephi 22:1 introduces Isaiah 54 with “And then shall that which is written come to pass”; the chapter heading calls it a quotation to compare
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/22?lang=eng
+  quote: 'And then shall that which is written come to pass: Sing, O barren'
+- where: setting
+  claim: The Nephite text differs from the KJV in small readings (3 Ne. 22:9 has “so have I sworn that I would not be wroth with thee.” and omits “nor rebuke thee”)
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/22?lang=eng
+  quote: so have I sworn that I would not be wroth with thee.
+- where: setting
+  claim: Jesus commands the Nephites to search Isaiah (3 Ne. 23:1)
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/23?lang=eng
+  quote: for great are the words of Isaiah
+- where: thread
+  claim: The servant is “cut off” yet “shall see his seed” (Isa. 53:8, 10)
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/ot/isa/53?lang=eng
+  quote: he was cut off out of the land of the living
+- where: note 54:1 “The barren woman”
+  claim: Sarah was barren (Gen. 11:30)
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11?lang=eng
+  quote: But Sarai was barren ; she had no child.
+- where: note 54:1 “The barren woman”
+  claim: Rebekah was barren until Isaac entreated the Lord (Gen. 25:21)
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/ot/gen/25?lang=eng
+  quote: Isaac entreated the Lord for his wife , because she was barren
+- where: note 54:1 “The barren woman”
+  claim: Rachel was barren (Gen. 29:31)
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/ot/gen/29?lang=eng
+  quote: but Rachel was barren
+- where: note 54:1 “The barren woman”
+  claim: Hannah had no children (1 Sam. 1:2)
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/1?lang=eng
+  quote: Peninnah had children, but Hannah had no children
+- where: note 54:1 “The barren woman”
+  claim: Zion lost her children during the captivity and exile; her future children will outnumber those of her married time
+  key: delitzsch
+  url: https://biblehub.com/commentaries/kad/isaiah/54.htm
+  quote: during her captivity and exile she had been robbed of her children
+- where: note 54:1 “The barren woman”
+  claim: The number of children she will have will be greater than those she had as a married wife
+  key: delitzsch
+  url: https://biblehub.com/commentaries/kad/isaiah/54.htm
+  quote: would be greater than the number of those which she had as a married wife
+- where: note 54:1 “The barren woman”
+  claim: Paul quotes Isa. 54:1 right after contrasting Jerusalem which now is with Jerusalem which is above (Gal. 4:25–27)
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/nt/gal/4?lang=eng
+  quote: But Jerusalem which is above is free, which is the mother of us all.
+- where: note 54:1 “The barren woman”
+  claim: Paul calls the believers children of promise (Gal. 4:28)
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/nt/gal/4?lang=eng
+  quote: Now we, brethren, as Isaac was, are the children of promise.
+- where: note 54:2 “Stakes of Zion”
+  claim: The cords are lengthened because the tent must hold many inhabitants; the stakes (plugs) are driven in because it will not be broken up again
+  key: delitzsch
+  url: https://biblehub.com/commentaries/kad/isaiah/54.htm
+  quote: she is to lengthen; and the plugs, to which the cords are fastened, she is to ram fast into the earth
+- where: note 54:2 “Stakes of Zion”
+  claim: A stake is one of the Church’s organizational units and is named from the tent image of Isa. 54:2
+  key: gs-stake
+  url: https://www.churchofjesuschrist.org/study/scriptures/gs/stake?lang=eng
+  quote: One of the organizational and administrative units of The Church of Jesus Christ of Latter-day Saints.
+- where: note 54:2 “Stakes of Zion”
+  claim: D&C 101 was given in December 1833
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/101?lang=eng
+  quote: Revelation given to Joseph Smith the Prophet, at Kirtland, Ohio, December 16 and 17, 1833.
+- where: note 54:2 “Stakes of Zion”
+  claim: D&C 82 was given in April 1832, before D&C 101
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/82?lang=eng
+  quote: Revelation given to Joseph Smith the Prophet, in Independence, Jackson County, Missouri, April 26, 1832.
+- where: note 54:2 “Stakes of Zion”
+  claim: 'D&C 101:20–21: no more room for the gathering, then other places called stakes'
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/101?lang=eng
+  quote: Until the day cometh when there is found no more room for them; and then I have other places which I will appoint unto them, and they shall be called stakes
+- where: note 54:4 “The shame of youth and widowhood”
+  claim: Shame of youth read as the Egyptian bondage; widowhood as the Babylonian captivity
+  key: delitzsch
+  url: https://biblehub.com/commentaries/kad/isaiah/54.htm
+  quote: she would forget the shame of her youth, i.e., of the Egyptian bondage
+- where: note 54:4 “The shame of youth and widowhood”
+  claim: Widowhood read as the Babylonian captivity
+  key: delitzsch
+  url: https://biblehub.com/commentaries/kad/isaiah/54.htm
+  quote: the shame of her widowhood, i.e., of the Babylonian captivity
+- where: note 54:4 “The shame of youth and widowhood”
+  claim: 'The Hebrew text of Isa. 54:4 has no repeated line (WLC, Isa 54:4, ends: and the reproach of your widowhood you will not remember any more)'
+  key: oshb-wlc
+  url: https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml
+  quote: <w lemma="c/2781" morph="HC/Ncfsc" id="23A64">וְ/חֶרְפַּ֥ת</w> <w lemma="491" n="0.0" morph="HNcfpc/Sp2fs" id="238vJ">אַלְמְנוּתַ֖יִ/ךְ</w> <w lemma="3808" morph="HTn" id="23Kxy">לֹ֥א</w> <w lemma="2142" morph="HVqi2fs" id="232J6">תִזְכְּרִי</w><seg type="x-maqqef">־</seg><w lemma="5750" n="0" morph="HD" id="235Bz">עֽוֹד</w><seg type="x-sof-pasuq">׃</seg>
+- where: note 54:4 “The shame of youth and widowhood”
+  claim: The Nephite text repeats the line “and shalt not remember the reproach of thy youth”, absent from the KJV
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/22?lang=eng
+  quote: and shalt not remember the reproach of thy youth, and shalt not remember the reproach of thy widowhood any more.
+- where: note 54:4 “The shame of youth and widowhood”
+  claim: Isa. 54:4 in the KJV has no such repetition
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/ot/isa/54?lang=eng
+  quote: and shalt not remember the reproach of thy widowhood any more.
+- where: note 54:4 “The shame of youth and widowhood”
+  claim: The law forbade afflicting widows (Ex. 22:22)
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/ot/ex/22?lang=eng
+  quote: Ye shall not afflict any widow , or fatherless child.
+- where: note 54:4 “The shame of youth and widowhood”
+  claim: The law protected the widow’s garment (Deut. 24:17)
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/ot/deut/24?lang=eng
+  quote: nor take a widow’s raiment to pledge
+- where: note 54:4 “The shame of youth and widowhood”
+  claim: Jeremiah speaks of Israel’s shame from youth (Jer. 3:24–25)
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/ot/jer/3?lang=eng
+  quote: For shame hath devoured the labour of our fathers from our youth
+- where: note 54:5 “The Maker as husband”
+  claim: 'Hosea uses the marriage image: “I will betroth thee unto me for ever” (Hos. 2:19)'
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/2?lang=eng
+  quote: And I will betroth thee unto me for ever
+- where: note 54:5 “The Maker as husband”
+  claim: 'gōʾēl: kinsman who did the kinsman’s part, redeemed from bondage, redeemed fields, and took a kinsman’s widow (Ruth 3:13)'
+  key: bdb
+  url: https://biblehub.com/hebrew/1350.htm
+  quote: act as kinsman, do the part of next of kin
+- where: note 54:5 “The Maker as husband”
+  claim: gōʾēl in taking a kinsman’s widow, Ruth 3:13
+  key: bdb
+  url: https://biblehub.com/hebrew/1350.htm
+  quote: a. in taking a kinsman's widow
+- where: note 54:5 “The Maker as husband”
+  claim: Redeemer as kinsman who marries the widow; Israel to be remarried to the Lord through covenants
+  key: sc-knowhy-216
+  url: https://scripturecentral.org/knowhy/why-did-jesus-quote-all-of-isaiah-54
+  quote: Just as a widow could get married again to her husband’s brother, called a “redeemer,” so Israel would someday be symbolically remarried to the Lord through covenants
+- where: note 54:5 “The Maker as husband”
+  claim: Isa. 54:5 gives the titles Maker, husband, LORD of hosts, Redeemer, Holy One of Israel, God of the whole earth
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/ot/isa/54?lang=eng
+  quote: For thy Maker is thine husband
+- where: note 54:7 “A small moment”
+  claim: 'šeṣep (Strong’s/lemma 8241) occurs once in the Hebrew Bible: Isa. 54:8 (search of the Westminster Leningrad Codex, all 39 books, by lemma 8241)'
+  key: oshb-wlc
+  url: https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml
+  quote: <w lemma="b/8241" morph="HR/Ncmsc" id="23qhh">בְּ/שֶׁ֣צֶף</w>
+- where: note 54:7 “A small moment”
+  claim: 'Delitzsch: ketseph is wrath as an outburst; shetseph rhymes with it'
+  key: delitzsch
+  url: https://biblehub.com/commentaries/kad/isaiah/54.htm
+  quote: shetseph, which rhymes with it
+- where: note 54:7 “A small moment”
+  claim: 'Delitzsch: shâtsaph is probably a form allied to shâtaph (overflow)'
+  key: delitzsch
+  url: https://biblehub.com/commentaries/kad/isaiah/54.htm
+  quote: In all probability, shâtsaph is a form allied to
+- where: note 54:7 “A small moment”
+  claim: 'Delitzsch: rendering is the gushing up of displeasure, the overflowing of indignation'
+  key: delitzsch
+  url: https://biblehub.com/commentaries/kad/isaiah/54.htm
+  quote: but in the gushing up of displeasure, the overflowing of indignation
+- where: note 54:7 “A small moment”
+  claim: 'Delitzsch: chesed ‘ōlâm is everlasting kindness, to which the ketseph is a vanishing moment'
+  key: delitzsch
+  url: https://biblehub.com/commentaries/kad/isaiah/54.htm
+  quote: which is chesed ‛ōlâm, everlasting kindness
+- where: note 54:7 “A small moment”
+  claim: BDB lists ḥesed as kindness, including God’s keeping of the covenants
+  key: bdb
+  url: https://biblehub.com/hebrew/2617.htm
+  quote: e. in keeping the covenants, with Abraham Micah 7:20; with Moses and Israel
+- where: note 54:7 “A small moment”
+  claim: 'D&C 121: Joseph Smith in Liberty Jail; the prisoners had been months in prison'
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121?lang=eng
+  quote: The Prophet and several companions had been months in prison.
+- where: note 54:9 “The oath to Noah and the return of Zion”
+  claim: 'Delitzsch: the exile is the judgment that will not fall on Jerusalem again (the Noah oath)'
+  key: delitzsch
+  url: https://biblehub.com/commentaries/kad/isaiah/54.htm
+  quote: no such judgment of wrath as that which has just been endured shall ever fall upon Jerusalem again
+- where: note 54:9 “The oath to Noah and the return of Zion”
+  claim: God’s oath after the Flood (Gen. 9:11)
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/ot/gen/9?lang=eng
+  quote: neither shall there any more be a flood to destroy the earth
+- where: note 54:9 “The oath to Noah and the return of Zion”
+  claim: JST Gen. 9:21 ties the bow to the covenant with Enoch and the return of Zion
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/9?lang=eng
+  quote: that I may remember the everlasting covenant, which I made unto thy father Enoch; that, when men should keep all my commandments, Zion should again come on the earth
+- where: note 54:9 “The oath to Noah and the return of Zion”
+  claim: The Nephite text of Isa. 54:9 ends “so have I sworn that I would not be wroth with thee.” without “nor rebuke thee”
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/22?lang=eng
+  quote: so have I sworn that I would not be wroth with thee.
+- where: note 54:10 “When the mountains departed”
+  claim: Mountains seemingly permanent; for the Nephites mountains had literally departed
+  key: sc-knowhy-216
+  url: https://scripturecentral.org/knowhy/why-did-jesus-quote-all-of-isaiah-54
+  quote: “Mountains” had literally “departed” and “hills” had literally been “removed” when the great destruction fell upon the Nephites
+- where: note 54:10 “When the mountains departed”
+  claim: '3 Ne. 8:10: a great mountain in the place of the city'
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/8?lang=eng
+  quote: that in the place of the city there became a great mountain
+- where: note 54:11 “A city of jewels”
+  claim: pûk is antimony, black mineral powder for darkening lids; figurative in Isa. 54:11 of dark cement setting off precious stones
+  key: bdb
+  url: https://biblehub.com/hebrew/6320.htm
+  quote: black mineral powder, for increasing brilliance of eyes by darkening edges of lids
+- where: note 54:11 “A city of jewels”
+  claim: pûk in Isa. 54:11 is figurative of dark cement setting off precious stones
+  key: bdb
+  url: https://biblehub.com/hebrew/6320.htm
+  quote: figurative Isaiah 54:11 of dark cement setting off precious stones
+- where: note 54:11 “A city of jewels”
+  claim: Jezebel used pûk (2 Kgs 9:30)
+  key: bdb
+  url: https://biblehub.com/hebrew/6320.htm
+  quote: 2 Kings 9:30
+- where: note 54:11 “A city of jewels”
+  claim: Jerome read “in stibio” as a woman painting her eyes, referring to the city’s beauty
+  key: delitzsch
+  url: https://biblehub.com/commentaries/kad/isaiah/54.htm
+  quote: in the likeness of an elegant woman, who paints her eyes with stibium; referring to the beauty of the city
+- where: note 54:11 “A city of jewels”
+  claim: sappîr is sapphire, perhaps also lapis lazuli
+  key: bdb
+  url: https://biblehub.com/hebrew/5601.htm
+  quote: sapphire, perhaps also lapis lazuli
+- where: note 54:11 “A city of jewels”
+  claim: kaḏkōḏ is a precious stone, perhaps ruby
+  key: bdb
+  url: https://biblehub.com/hebrew/3539.htm
+  quote: a precious stone, perhaps ruby
+- where: note 54:11 “A city of jewels”
+  claim: 'ʾeqdāḥ: perhaps fiery glow, sparkle; carbuncles'
+  key: bdb
+  url: https://biblehub.com/hebrew/688.htm
+  quote: perhaps fiery glow, sparkle; אַבְנֵי אֶקְדָּֽת Isaiah 54:12 i.e. carbuncles (?)
+- where: note 54:11 “A city of jewels”
+  claim: The sapphire pavement under God’s feet (Ex. 24:10)
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/ot/ex/24?lang=eng
+  quote: there was under his feet as it were a paved work of a sapphire stone
+- where: note 54:11 “A city of jewels”
+  claim: Rev. 21 and Tobit 13 are founded on Isa. 54:11–12
+  key: delitzsch
+  url: https://biblehub.com/commentaries/kad/isaiah/54.htm
+  quote: It is upon the passage before us that Tobit 13:16, 17, and Revelation 21:18-21, are founded.
+- where: note 54:11 “A city of jewels”
+  claim: Rev. 21:19 foundations garnished with precious stones; first jasper, second sapphire
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/nt/rev/21?lang=eng
+  quote: The first foundation was jasper; the second, sapphire
+- where: note 54:13 “Taught of the Lord”
+  claim: limmûd means taught, as disciples (Isa. 50:4 twice; 54:13)
+  key: bdb
+  url: https://biblehub.com/hebrew/3928.htm
+  quote: 1 taught, as disciples Isaiah 8:16; Isaiah 50:4 (twice in verse); Isaiah 54:13.
+- where: note 54:13 “Taught of the Lord”
+  claim: “Taught of the Lord” may mean “taught by the Lord,” which happened when Christ was among the Nephites (3 Ne. 17:11)
+  key: sc-knowhy-216
+  url: https://scripturecentral.org/knowhy/why-did-jesus-quote-all-of-isaiah-54
+  quote: this phrase could also mean, “taught by the Lord,” which is exactly what happened when Christ was among the Nephites (3 Nephi 17:11)
+- where: note 54:13 “Taught of the Lord”
+  claim: Christ blessed the children one by one (3 Ne. 17:21)
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/17?lang=eng
+  quote: he took their little children, one by one, and blessed them
+- where: note 54:13 “Taught of the Lord”
+  claim: Christ taught the children and loosed their tongues (3 Ne. 26:14)
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/26?lang=eng
+  quote: he did loose their tongues
+- where: note 54:17 “No weapon formed against thee”
+  claim: 'Delitzsch: the Lord created the armourer and the destroyer'
+  key: delitzsch
+  url: https://biblehub.com/commentaries/kad/isaiah/54.htm
+  quote: If Jehovah has created the armourer
+- where: note 54:17 “No weapon formed against thee”
+  claim: 'Delitzsch: Jerusalem will convict every accusing tongue (judgment/courtroom sense; hirshiy‘a as in Isa. 50:9)'
+  key: delitzsch
+  url: https://biblehub.com/commentaries/kad/isaiah/54.htm
+  quote: will convict every accusing tongue as guilty and deserving of utter condemnation
+- where: note 54:17 “No weapon formed against thee”
+  claim: 'D&C 71 (1831): Joseph and Sidney sent to answer the unfriendly feelings stirred by Ezra Booth’s letters'
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/71?lang=eng
+  quote: to allay the unfriendly feelings that had developed against the Church as a result of the publication of letters written by Ezra Booth
+- where: note 54:17 “No weapon formed against thee”
+  claim: D&C 109 is the prayer at the dedication of the Kirtland Temple
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/109?lang=eng
+  quote: Prayer offered at the dedication of the temple at Kirtland, Ohio, March 27, 1836.
+- where: note 54:17 “From servant to servants”
+  claim: 'Isa. 54:17 has the plural “servants” (Hebrew עַבְדֵי, plural construct); a scan of Isa 41–66 for the lemma 5650 (servant) finds 20 singular forms in chapters 41–53 and only plural forms from 54:17 on (11 in all: 54:17; 56:6; 63:17; 65:8, 9, 13 x3, 14, 15; 66:14)'
+  key: oshb-wlc
+  url: https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml
+  quote: <w lemma="5650" morph="HNcmpc" id="23rMj">עַבְדֵ֥י</w>
+- where: note 54:17 “From servant to servants”
+  claim: 'naḥălâ: property, possession, inheritance; in Canaan given by YHWH to Israel'
+  key: bdb
+  url: https://biblehub.com/hebrew/5159.htm
+  quote: possession, property, inheritance
+- where: note 54:17 “From servant to servants”
+  claim: 'naḥălâ: property in Canaan given by the LORD to Israel'
+  key: bdb
+  url: https://biblehub.com/hebrew/5159.htm
+  quote: '1 property: a. in Canaan given by'
+- where: note 54:17 “From servant to servants”
+  claim: BDB lists ṣĕdāqâ as, among other senses, vindication of his people
+  key: bdb
+  url: https://biblehub.com/hebrew/6666.htm
+  quote: vindication of his people Micah 7:9
+- where: note 54:17 “From servant to servants”
+  claim: 'Delitzsch: the individual idea of the church is expanded here into “the servants of Jehovah”'
+  key: delitzsch
+  url: https://biblehub.com/commentaries/kad/isaiah/54.htm
+  quote: is here expanded into "the servants of Jehovah"
+- where: note 54:17 “From servant to servants”
+  claim: 'Delitzsch: the servants partake of the salvation purchased by the one Servant'
+  key: delitzsch
+  url: https://biblehub.com/commentaries/kad/isaiah/54.htm
+  quote: it becomes a partaker of the salvation purchased by the other
+- where: christ
+  claim: The Savior recited the chapter to the Nephites after teaching of the gathering; blessed their children (3 Ne. 17:21–24)
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/17?lang=eng
+  quote: he took their little children, one by one, and blessed them
+- where: christ
+  claim: Isa. 53:8 “cut off out of the land of the living”
+  key: lds-scriptures
+  url: https://www.churchofjesuschrist.org/study/scriptures/ot/isa/53?lang=eng
+  quote: he was cut off out of the land of the living
