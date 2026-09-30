@@ -235,7 +235,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
           ${kindsUsed.map((k) => `<button type="button" class="kind-chip k-${k} filter" aria-pressed="true" data-kind="${k}" title="${esc(KINDS[k].blurb)}">${icon(k)}${esc(KINDS[k].short)} <span class="count">${counts[k]}</span></button>`).join('')}
         </div>
         <div class="reader-actions">
-          <button type="button" class="tool" data-action="toggle-plain" aria-pressed="true" title="Show or hide the plain-words summaries">${icon('text')}<span>Summaries</span></button>
+          <button type="button" class="tool" data-action="toggle-plain" aria-pressed="true" title="Show or hide the ${esc(sectionTitle('plain'))} summaries" aria-label="Show or hide the ${esc(sectionTitle('plain'))} summaries">${icon('text')}</button>
           <button type="button" class="tool" data-action="related" aria-pressed="false" title="Show every note as a card beside the text">${icon('panel')}<span>Related</span></button>
           <button type="button" class="tool" data-action="font" title="Text size" aria-label="Change text size"><span class="aa">Aa</span></button>
         </div>
