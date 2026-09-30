@@ -64,11 +64,6 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 7: the claim that *šeṣep* (“a little wrath”) occurs nowhere else in the Bible, and v. 11–12: the gem identifications (sapphire as lapis lazuli, and so on), are from memory; confirm against a lexicon.
 - v. 4: the Nephite text’s repeated line (“the reproach of thy youth”) is described as possibly emphasis or a copying slip. Worth checking whether the critical text of the Book of Mormon comments on it.
 
-**Isaiah 64**
-- v. 1: the reading of Mark’s *schizō* (Mark 1:10; 15:38) as an allusion to Isa. 64:1 is attributed to “many scholars” without a listed source.
-- v. 6: the note explains “filthy rags” as menstrual cloths and argues that the line is about a defiled people, not the worthlessness of good works. Check that the framing is right for the site.
-- v. 11: mentions the Nauvoo Temple’s burning (1848) and rededication (2002) as a Latter-day Saint parallel. Keep or cut?
-
 **Isaiah 65**
 - Length: about 3,900 words with 10 notes (the chapter has 25 verses). Consider trimming, for example by merging the v. 5 and v. 11 notes.
 - v. 8: the suggestion that *Al-taschith* (“Destroy not”) in Pss. 57–59, 75 names this vintage song is a hypothesis; confirm a source.
