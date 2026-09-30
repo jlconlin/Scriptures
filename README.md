@@ -2,7 +2,7 @@
 
 A study companion for the scriptures, beginning with the book of Isaiah. It will be published at <https://scriptures.conlin.io>.
 
-Each chapter page shows the King James text with notes on selected phrases (word meanings, history, symbols, connections to Christ and to Restoration scripture), along with the historical setting, the thread that ties the chapter together, a plain-words paraphrase, and questions for application. Guides and theme pages cover topics that span many chapters. The site is written for a thoughtful reader who is not a biblical specialist: it takes scholarship seriously and stays grounded in Latter-day Saint belief.
+Each chapter page shows the King James text with notes on selected phrases (word meanings, context, imagery, witnesses of Christ, related scriptures, latter-day prophets, literary structure, and Book of Mormon comparisons), along with the historical setting, the thread that ties the chapter together, a plain-words paraphrase, a closing look at how the chapter points to Christ, and where to explore next. Guides and theme pages cover topics that span many chapters. The site is written for a thoughtful reader who is not a biblical specialist: it takes scholarship seriously and stays grounded in Latter-day Saint belief.
 
 ## Layout
 
