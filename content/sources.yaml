@@ -230,8 +230,8 @@ southwood-foreigner: { type: article, author: Katherine E. Southwood, title: 'Th
 yad-vashem: { type: web, title: 'What Is Yad Vashem', pub: 'Yad Vashem, the World Holocaust Remembrance Center', url: 'https://www.yadvashem.org/about/yad-vashem.html' }
 mt-sefaria: { type: web, title: 'Miqra according to the Masorah (Hebrew text of the Bible)', pub: 'Sefaria', url: 'https://www.sefaria.org/Isaiah.1' }
 lxx-rahlfs: { type: web, title: 'The Septuagint (Rahlfs Greek text, with Brenton’s English translation)', pub: 'Elpenor Bilingual Septuagint', url: 'https://www.ellopos.net/elpenor/greek-texts/septuagint/default.asp' }
-greek-nt: { type: web, title: 'Greek New Testament (SBL edition), interlinear', pub: 'Bible Hub', url: 'https://biblehub.com/interlinear/' }
-biblehub-interlinear: { type: web, title: 'Hebrew–English interlinear Bible (Westminster Leningrad Codex)', pub: 'Bible Hub', url: 'https://biblehub.com/interlinear/' }
+greek-nt: { type: book, title: 'The Greek New Testament: SBL Edition', pub: 'Society of Biblical Literature and Logos Bible Software, 2010; read in the interlinear on Bible Hub', url: 'https://biblehub.com/interlinear/' }
+biblehub-interlinear: { type: book, title: 'Westminster Leningrad Codex (the Masoretic Hebrew text)', pub: 'Read in the Hebrew–English interlinear on Bible Hub', url: 'https://biblehub.com/interlinear/' }
 talmud-yevamot-49b: { type: book, title: 'Babylonian Talmud, Yevamot 49b', pub: 'The William Davidson Talmud (Koren–Steinsaltz English), Sefaria', url: 'https://www.sefaria.org/Yevamot.49b' }
 je-mezuzah: { type: entry, author: Cyrus Adler and I. M. Casanowicz, title: Mezuzah, pub: '*The Jewish Encyclopedia*. New York: Funk & Wagnalls, 1901–1906', url: 'https://www.jewishencyclopedia.com/articles/10774-mezuzah' }
 je-shekinah: { type: entry, author: Kaufmann Kohler and Ludwig Blau, title: Shekinah, pub: '*The Jewish Encyclopedia*. New York: Funk & Wagnalls, 1901–1906', url: 'https://www.jewishencyclopedia.com/articles/13537-shekinah' }

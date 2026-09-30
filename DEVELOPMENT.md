@@ -8,7 +8,7 @@ The site is served at https://scriptures.conlin.io by Cloudflare, which rebuilds
 
 ## Checks
 
-`scripts/check-content.mjs` (`npm run check`) checks sourcing: unknown keys and wiki URLs everywhere; for chapters with an evidence ledger, every note sourced and every cited key backed by a quoted ledger row. It is not part of `npm run build`, so unaudited chapters can't break the Cloudflare build. Not yet written: `scripts/check-links.mjs` (referenced by `npm run check:links` in `package.json`).
+`scripts/check-content.mjs` (`npm run check`) checks sourcing: unknown keys and wiki URLs everywhere; for chapters with an evidence ledger, every note sourced, every cited key backed by a quoted ledger row, and every note answering one of the ledger's `questions`. It also warns about chapters well past the length guideline. It is not part of `npm run build`, so unaudited chapters can't break the Cloudflare build. Not yet written: `scripts/check-links.mjs` (referenced by `npm run check:links` in `package.json`).
 
 ## Site design
 
