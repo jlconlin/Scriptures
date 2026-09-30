@@ -1,11 +1,25 @@
 // Authoring helper: quote single-line YAML values that contain ": " (which YAML would
 // otherwise read as a nested mapping). Scripture phrases often contain colons.
-// Usage: node scripts/fix-yaml.mjs [files...]   (defaults to all chapter files)
+// Usage: node scripts/fix-yaml.mjs [files...]      quote just those files
+//        node scripts/fix-yaml.mjs --book <slug>   every chapter of one book
+//        node scripts/fix-yaml.mjs --all           every chapter of every book (what `npm run build` runs)
+//        node scripts/fix-yaml.mjs                 same as --book isaiah, as before books were added
+// It only touches lines that need quoting, so running it again changes nothing.
 import { readFile, writeFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
+import { discoverBooks, DEFAULT_BOOK } from '../src/lib/books.mjs';
 
-const dir = new URL('../content/isaiah/chapters/', import.meta.url).pathname;
-const files = process.argv.length > 2 ? process.argv.slice(2) : (await readdir(dir)).filter((f) => f.endsWith('.yaml')).map((f) => path.join(dir, f));
+const args = process.argv.slice(2);
+const chapterFiles = async (book) => (await readdir(path.join(book.dir, 'chapters'))).filter((f) => f.endsWith('.yaml')).map((f) => path.join(book.dir, 'chapters', f));
+const bookAt = args.indexOf('--book');
+let files = args.filter((a, i) => !a.startsWith('--') && i !== bookAt + 1);
+if (!files.length) {
+  const books = await discoverBooks(new URL('..', import.meta.url).pathname);
+  const slug = bookAt >= 0 ? args[bookAt + 1] : DEFAULT_BOOK;
+  const chosen = args.includes('--all') ? books : books.filter((b) => b.slug === slug);
+  if (!chosen.length) throw new Error(`No book “${slug}”. Books: ${books.map((b) => b.slug).join(', ')}`);
+  files = (await Promise.all(chosen.map(chapterFiles))).flat();
+}
 
 const KEYS = /^(\s*(?:- )?(?:phrase|title|heading|tagline|when|ref|note|range)): (.*)$/;
 let changed = 0;

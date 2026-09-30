@@ -77,6 +77,8 @@ claims:
 
 ## 6. Chapter file structure
 
+Files for a book: `content/<book>/book.yaml`, `chapters/`, `guides/`, `themes/`, `evidence/`; `data/kjv/<book>.json`; optionally `data/bom/<book>-parallels.json`. “Adding a new book” in `AUTHORING.md` lists the `book.yaml` fields.
+
 `content/<book>/chapters/NN.yaml` (look at an existing chapter for the exact layout). Fields:
 
 - `chapter`, `title`, `tagline`, `when`.

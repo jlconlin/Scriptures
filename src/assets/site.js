@@ -27,7 +27,8 @@
       markDial();
     });
   });
-  const markDial = () => $$('.dial .tick').forEach((t) => t.classList.toggle('is-read', isRead(`isaiah-${t.dataset.ch}`)));
+  // Progress keys are <book slug>-<chapter> (isaiah-53), the same as data-read on chapter pages and data-ch on book-page cards.
+  const markDial = () => $$('.dial .tick').forEach((t) => t.classList.toggle('is-read', isRead(`${t.closest('[data-book]').dataset.book}-${t.dataset.ch}`)));
   markDial();
 
   // Chapter dial and section bar: show a label above the bar right away on hover or focus.

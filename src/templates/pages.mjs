@@ -1,5 +1,5 @@
 import { md, mdInline, esc, plain } from '../lib/markdown.mjs';
-import { KINDS, SITE, sectionTitle } from '../site.mjs';
+import { KINDS, SITE, LIBRARY, COMING_SOMEDAY, sectionTitle } from '../site.mjs';
 import { layout, icon, logo } from './layout.mjs';
 import { renderSource } from './sources.mjs';
 
@@ -16,13 +16,12 @@ const ensignArt = `<svg class="hero-art" viewBox="0 0 320 220" aria-hidden="true
   <g fill="var(--art-people)"><circle cx="40" cy="200" r="3"/><circle cx="54" cy="196" r="3"/><circle cx="286" cy="206" r="3"/><circle cx="272" cy="202" r="3"/><circle cx="118" cy="186" r="3"/></g>
 </svg>`;
 
-export function renderHome({ book, featured }) {
+// `books` are in site order; the first one gets the hero buttons. `featured` are notes chosen for the teasers.
+export function renderHome({ books, featured }) {
+  const first = books[0].home;
   const volumes = [
-    { name: 'Isaiah', href: '/isaiah/', status: `${book.chapters.length} chapters`, live: true, blurb: 'The prophet the Savior told us to search diligently, one phrase at a time.' },
-    { name: 'More of the Old Testament', status: 'Someday', blurb: 'Jeremiah, Ezekiel, the Psalms, and the other books that reward careful reading.' },
-    { name: 'New Testament', status: 'Someday', blurb: 'Paul’s letters and Revelation, with their Greek and their setting.' },
-    { name: 'Book of Mormon', status: 'Someday', blurb: 'Nephi, Jacob, Alma, and the Isaiah chapters of the Book of Mormon.' },
-    { name: 'Doctrine and Covenants & Pearl of Great Price', status: 'Someday', blurb: 'Revelations of the Restoration in their setting.' },
+    ...books.map((b) => ({ name: b.name, href: `/${b.slug}/`, status: `${b.chapters.length} chapters`, live: true, blurb: b.home.blurb })),
+    ...COMING_SOMEDAY.map((v) => ({ ...v, status: 'Someday' })),
   ];
   const body = `
 <section class="home-hero">
@@ -32,8 +31,8 @@ export function renderHome({ book, featured }) {
       <h1>“What does <em>that</em> mean?”</h1>
       <p class="lede">Some passages of scripture make you stop and read them three times. This site is for those passages. It goes phrase by phrase, the way a patient religion teacher might, with the history, the Hebrew, the imagery, and the witness of Jesus Christ that sits underneath them.</p>
       <div class="cta-row">
-        <a class="btn btn-primary" href="/isaiah/">Start with Isaiah</a>
-        <a class="btn" href="/isaiah/guides/how-to-read-isaiah/">How to read Isaiah</a>
+        <a class="btn btn-primary" href="/${books[0].slug}/">${esc(first.cta)}</a>
+        <a class="btn" href="/${books[0].slug}/guides/${first.guide.slug}/">${esc(first.guide.label)}</a>
       </div>
     </div>
     ${ensignArt}
@@ -42,14 +41,14 @@ export function renderHome({ book, featured }) {
 
 <section class="wrap home-section">
   <h2 class="section-title">Try a phrase</h2>
-  <p class="section-sub">A few notes from Isaiah, chosen at random each time the site is built.</p>
+  <p class="section-sub">A few notes from ${books.map((b) => b.name).join(' and ')}, chosen at random each time the site is built.</p>
   <div class="teasers">
     ${featured
       .map(
-        (f) => `<a class="teaser k-${f.kind}" href="/isaiah/${f.chapter}/#${f.id}">
+        (f) => `<a class="teaser k-${f.kind}" href="/${f.book.slug}/${f.chapter}/#${f.id}">
       <span class="kind-chip k-${f.kind}">${icon(f.kind)}${esc(KINDS[f.kind].label)}</span>
       <span class="teaser-phrase">“${esc(f.phrase)}”</span>
-      <span class="teaser-ref">Isaiah ${f.chapter}:${f.ref}</span>
+      <span class="teaser-ref">${esc(f.book.name)} ${f.chapter}:${f.ref}</span>
       <span class="teaser-text">${esc(plain(f.body).slice(0, 150))}…</span>
     </a>`,
       )
@@ -88,7 +87,7 @@ export function renderBookIndex({ book, guides, sources }) {
       const chs = book.chapters.filter((c) => c.chapter >= d.range[0] && c.chapter <= d.range[1]);
       return `<section class="division" id="${d.key}" style="--div:var(--div-${d.key})">
   <header class="division-head">
-    <span class="division-range">Isaiah ${d.range[0]}–${d.range[1]}</span>
+    <span class="division-range">${esc(book.name)} ${d.range[0]}–${d.range[1]}</span>
     <h3>${esc(d.name)}</h3>
     <p>${mdInline(d.blurb)}</p>
   </header>
@@ -112,9 +111,9 @@ export function renderBookIndex({ book, guides, sources }) {
 <section class="book-hero">
   <div class="wrap book-hero-inner">
     <div>
-      <p class="eyebrow">The Old Testament</p>
-      <h1>Isaiah</h1>
-      <blockquote class="hero-quote">“Great are the words of Isaiah.” <cite>Jesus Christ, [[3 Ne. 23:1]]</cite></blockquote>
+      <p class="eyebrow">${esc(book.eyebrow)}</p>
+      <h1>${esc(book.name)}</h1>
+      <blockquote class="hero-quote">${book.heroQuote.text} <cite>${book.heroQuote.cite}</cite></blockquote>
       <div class="prose lede">${md(book.intro)}</div>
       <div class="progress" aria-live="polite"><div class="progress-bar"><span style="width:0%"></span></div><span class="progress-label">Mark chapters as studied to track your progress.</span></div>
     </div>
@@ -126,7 +125,7 @@ ${guides.length ? `<p class="wrap start-callout">${icon('key')}<span>New to ${es
 
 <section class="wrap book-section" id="chapters">
   <h2 class="section-title">The chapters</h2>
-  <p class="section-sub">Isaiah falls into a handful of large movements. Knowing which one you’re in is half the battle.</p>
+  <p class="section-sub">${esc(book.divisionsBlurb)}</p>
   <div class="dial-wrap division-map-wrap"><div class="dial-label" aria-hidden="true" hidden></div><div class="division-map" aria-hidden="true">
     ${book.divisions.map((d) => `<a href="#${d.key}" style="--div:var(--div-${d.key});--c:var(--div-${d.key});flex:${d.range[1] - d.range[0] + 1}" data-label="${esc(d.name)}" data-div="${esc(book.name)} ${d.range[0]}–${d.range[1]}"><span>${d.range[0]}–${d.range[1]}</span></a>`).join('')}
   </div></div>
@@ -137,7 +136,7 @@ ${guides.length ? `<p class="wrap start-callout">${icon('key')}<span>New to ${es
 <section class="wrap book-section">
   <h2 class="section-title">Beloved passages</h2>
   <ul class="beloved">
-    ${book.beloved.map((b) => `<li><a href="/${book.slug}/${b.chapter}/#v${b.verse}"><span class="bel-text">“${esc(b.text)}”</span><span class="bel-ref">Isaiah ${b.chapter}:${b.verse}</span></a></li>`).join('')}
+    ${book.beloved.map((b) => `<li><a href="/${book.slug}/${b.chapter}/#v${b.verse}"><span class="bel-text">“${esc(b.text)}”</span><span class="bel-ref">${esc(book.name)} ${b.chapter}:${b.verse}</span></a></li>`).join('')}
   </ul>
 </section>
 
@@ -148,8 +147,8 @@ ${guides.length ? `<p class="wrap start-callout">${icon('key')}<span>New to ${es
 </section>`;
 
   return layout({
-    title: 'Isaiah',
-    description: 'A phrase-by-phrase companion to the book of Isaiah, grounded in the restored gospel of Jesus Christ.',
+    title: book.name,
+    description: book.description,
     path: `/${book.slug}/`,
     body,
     bodyClass: 'page-book',
@@ -262,11 +261,11 @@ export function render404() {
 <header class="page-hero"><div class="wrap narrow">
   <h1>“Where is the way?”</h1>
   <p class="lede">We couldn’t find that page. Maybe it has been “removed into a corner” ([[Isa. 30:20]]).</p>
-  <p><a class="btn btn-primary" href="/">Go home</a> <a class="btn" href="/isaiah/">Open Isaiah</a></p>
+  <p><a class="btn btn-primary" href="/">Go home</a> ${LIBRARY.map((b) => `<a class="btn" href="/${b.slug}/">Open ${esc(b.name)}</a>`).join(' ')}</p>
 </div></header>
 <script>
 // Friendly redirects: /Isaiah → /isaiah/, /isaiah/53 → /isaiah/53/, /isa/53 → /isaiah/53/
-(function(){var p=location.pathname,l=p.toLowerCase().replace(/^\\/isa(\\/|$)/,'/isaiah$1');if(!/\\/$/.test(l)&&!/\\.[a-z0-9]+$/.test(l))l+='/';if(l!==p)location.replace(l+location.search+location.hash);})();
+(function(){var p=location.pathname,l=p.toLowerCase()${LIBRARY.filter((b) => b.abbr !== b.slug).map((b) => `.replace(/^\\/${b.abbr}(\\/|$)/,'/${b.slug}$1')`).join('')};if(!/\\/$/.test(l)&&!/\\.[a-z0-9]+$/.test(l))l+='/';if(l!==p)location.replace(l+location.search+location.hash);})();
 </script>`;
   return layout({ title: 'Page not found', path: '/404.html', body: body.replace(/\[\[Isa\. 30:20\]\]/, '<a href="/isaiah/30/#v20">Isa. 30:20</a>'), bodyClass: 'page-404' });
 }

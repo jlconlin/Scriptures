@@ -4,6 +4,8 @@
 // References into books this site covers link internally; everything else links to
 // the Gospel Library on churchofjesuschrist.org.
 
+import { LIBRARY } from '../site.mjs';
+
 const CHURCH = 'https://www.churchofjesuschrist.org/study/scriptures';
 
 // display abbreviation (normalized: lowercase, no periods/spaces) -> [volume, slug]
@@ -44,8 +46,8 @@ add('pgp', [
 ]);
 add('jst', [['jst,isa|jstisa', 'jst-isa'], ['jst,gen|jstgen', 'jst-gen'], ['jst,matt|jstmatt', 'jst-matt']]);
 
-// Books with study pages on this site: slug -> site path prefix
-const INTERNAL = { isa: '/isaiah' };
+// Books with study pages on this site: the Gospel Library slug above (book.yaml `abbr`) -> site path prefix.
+const internalPath = (abbr) => { const b = LIBRARY.find((x) => x.abbr === abbr); return b && `/${b.slug}`; };
 
 const norm = (b) => b.toLowerCase().replace(/[.\s]/g, '');
 
@@ -70,7 +72,8 @@ export function parseRef(text, prevBook) {
 }
 
 export function refUrl(r) {
-  if (INTERNAL[r.slug]) return `${INTERNAL[r.slug]}/${r.chapter}/${r.verses ? `#v${r.verses[0]}` : ''}`;
+  const internal = internalPath(r.slug);
+  if (internal) return `${internal}/${r.chapter}/${r.verses ? `#v${r.verses[0]}` : ''}`;
   const path = r.vol === 'dc-testament' ? `dc-testament/${r.slug}` : `${r.vol}/${r.slug}`;
   let url = `${CHURCH}/${path}/${r.chapter}?lang=eng`;
   if (r.verses) {

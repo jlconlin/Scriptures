@@ -1,9 +1,12 @@
 // One-time import of the public-domain King James Version text.
 // Source: https://github.com/aruljohn/Bible-kjv (KJV 1769, public domain).
-// Usage: node scripts/fetch-kjv.mjs Isaiah
+// Usage: node scripts/fetch-kjv.mjs <Name> [slug]
+//   Name is the source file's name, with no spaces (Isaiah, Jeremiah, 1Samuel, SongofSolomon).
+//   slug is the output name and matches content/<slug>/; it defaults to the lowercase Name.
 import { writeFile, mkdir } from 'node:fs/promises';
 
 const book = process.argv[2] ?? 'Isaiah';
+const slug = process.argv[3] ?? book.toLowerCase();
 const url = `https://raw.githubusercontent.com/aruljohn/Bible-kjv/master/${book}.json`;
 
 // Spellings in the Latter-day Saint edition of the KJV (checked word-for-word against the
@@ -38,6 +41,6 @@ const chapters = src.chapters.map((c) =>
 );
 
 await mkdir('data/kjv', { recursive: true });
-const out = `data/kjv/${book.toLowerCase()}.json`;
+const out = `data/kjv/${slug}.json`;
 await writeFile(out, JSON.stringify({ book, source: url, chapters }, null, 1) + '\n');
 console.log(`Wrote ${out}: ${chapters.length} chapters, ${chapters.flat().length} verses`);

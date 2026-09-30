@@ -205,7 +205,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
     })
     .join('');
 
-  const churchUrl = `https://www.churchofjesuschrist.org/study/scriptures/ot/isa/${n}?lang=eng`;
+  const churchUrl = `https://www.churchofjesuschrist.org/study/scriptures/${book.gospelLibrary}/${n}?lang=eng`;
 
   const body = `
 <article class="chapter" data-book="${book.slug}" data-chapter="${n}" style="--div:var(--div-${division.key})">

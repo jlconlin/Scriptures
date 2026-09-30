@@ -1,6 +1,6 @@
 import { esc } from '../lib/markdown.mjs';
 import { linkRefs } from '../lib/refs.mjs';
-import { SITE } from '../site.mjs';
+import { SITE, LIBRARY } from '../site.mjs';
 
 export const logo = `<svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true">
   <rect x="3" y="6" width="26" height="3.2" rx="1.6" fill="currentColor" opacity=".35"/>
@@ -23,7 +23,7 @@ export function layout({ title, description = SITE.description, path, body, body
         <a href="/search/" class="nav-search" aria-label="Search">${icon('search')}<span>Search</span></a>
       </nav>`
     : `<nav class="site-nav" aria-label="Main">
-        <a href="/isaiah/">Isaiah</a>
+        ${LIBRARY.map((b) => `<a href="/${b.slug}/">${esc(b.name)}</a>`).join('\n        ')}
         <a href="/about/">About</a>
         <a href="/search/" class="nav-search" aria-label="Search">${icon('search')}<span>Search</span></a>
       </nav>`;

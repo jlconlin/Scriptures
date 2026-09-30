@@ -1,6 +1,21 @@
 name: Isaiah
 slug: isaiah
 
+# Site-level fields (see "Adding a new book" in AUTHORING.md)
+order: 1                 # position in the nav and on the home page
+abbr: isa                # Gospel Library / scripture-reference abbreviation; [[Isa. 53:4]] links here
+gospelLibrary: ot/isa    # path under churchofjesuschrist.org/study/scriptures/
+eyebrow: The Old Testament
+heroQuote:
+  text: '“Great are the words of Isaiah.”'
+  cite: 'Jesus Christ, [[3 Ne. 23:1]]'
+description: A phrase-by-phrase companion to the book of Isaiah, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Isaiah falls into a handful of large movements. Knowing which one you’re in is half the battle.
+home:
+  blurb: The prophet the Savior told us to search diligently, one phrase at a time.
+  cta: Start with Isaiah                 # hero buttons (used for the first book only)
+  guide: { label: How to read Isaiah, slug: how-to-read-isaiah }
+
 intro: |
   Isaiah is the most quoted prophet in the Book of Mormon, the New Testament, and the Doctrine and Covenants. The Savior Himself told us to search his words diligently. Isaiah is also famously hard to read. His poetry is dense, his world is 2,700 years away, and he moves between his own day, the Savior’s mortal ministry, and the last days, sometimes within a single verse.
 

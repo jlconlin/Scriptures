@@ -1,10 +1,13 @@
 // Fetch the Book of Mormon’s quotations of Isaiah from the Gospel Library and keep
 // only the verses whose wording differs from the KJV. The result powers the
 // “Book of Mormon reading” markers on chapter pages.
+// Isaiah only: the chapter map below is Isaiah's. Output: data/bom/isaiah-parallels.json. The build
+// reads data/bom/<book slug>-parallels.json when a book has one; other books need no such file.
 // Usage: node scripts/fetch-bom-parallels.mjs
 import { readFile, writeFile } from 'node:fs/promises';
 
 // Isaiah chapter -> Book of Mormon passage(s). `from`/`to` are Isaiah verses; `start` is the first BoM verse.
+const BOOK = 'isaiah';
 const MAP = [
   ...Array.from({ length: 13 }, (_, i) => ({ isa: i + 2, ref: '2-ne', ch: i + 12, label: `2 Ne. ${i + 12}` })),
   { isa: 48, ref: '1-ne', ch: 20, label: '1 Ne. 20' },
@@ -17,7 +20,7 @@ const MAP = [
   { isa: 54, ref: '3-ne', ch: 22, label: '3 Ne. 22' },
 ];
 
-const kjv = JSON.parse(await readFile(new URL('../data/kjv/isaiah.json', import.meta.url))).chapters;
+const kjv = JSON.parse(await readFile(new URL(`../data/kjv/${BOOK}.json`, import.meta.url))).chapters;
 
 const decode = (s) =>
   s
@@ -77,7 +80,7 @@ for (const m of MAP) {
 }
 
 await writeFile(
-  new URL('../data/bom/isaiah-parallels.json', import.meta.url),
+  new URL(`../data/bom/${BOOK}-parallels.json`, import.meta.url),
   JSON.stringify(
     {
       note: 'Book of Mormon verses (current edition, Gospel Library) whose wording differs from the KJV text of Isaiah. Quoted for non-commercial study.',

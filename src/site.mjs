@@ -7,8 +7,21 @@ export const SITE = {
   author: 'Jeremy Lloyd Conlin',
   repo: 'https://github.com/jlconlin/Scriptures',
   year: new Date().getFullYear(),
-  version: Date.now().toString(36),
+  // The ?v= stamp on CSS and JS. BUILD_VERSION pins it, so two builds can be compared byte for byte.
+  version: process.env.BUILD_VERSION ?? Date.now().toString(36),
 };
+
+// The books on the site, filled in by the build (book.yaml: name, slug, abbr). The header nav,
+// the 404 redirects, and internal scripture links read it.
+export const LIBRARY = [];
+
+// Volumes the home page lists as coming someday. A book with content is listed from its book.yaml instead.
+export const COMING_SOMEDAY = [
+  { name: 'More of the Old Testament', blurb: 'Jeremiah, Ezekiel, the Psalms, and the other books that reward careful reading.' },
+  { name: 'New Testament', blurb: 'Paul’s letters and Revelation, with their Greek and their setting.' },
+  { name: 'Book of Mormon', blurb: 'Nephi, Jacob, Alma, and the Isaiah chapters of the Book of Mormon.' },
+  { name: 'Doctrine and Covenants & Pearl of Great Price', blurb: 'Revelations of the Restoration in their setting.' },
+];
 
 // Headings for the parts of every chapter page. Change a heading here and it changes on every
 // chapter of every book, and wherever the site describes these sections. {chapter} becomes the
