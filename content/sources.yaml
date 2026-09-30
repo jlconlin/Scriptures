@@ -290,3 +290,9 @@ ce-rorate-coeli: { type: entry, author: Hugh Henry, title: Rorate Coeli, pub: '*
 pgp-student-manual-2018: { type: manual, title: 'Moses 7:42–69', pub: '*Pearl of Great Price Student Manual* (Church Educational System, 2018)', url: 'https://www.churchofjesuschrist.org/study/manual/the-pearl-of-great-price-student-manual-2018/the-book-of-moses/moses-7-42-69?lang=eng' }
 herodotus-histories: { type: book, author: Herodotus, title: 'The Histories', pub: 'Trans. A. D. Godley. Loeb Classical Library, 1920; Perseus Digital Library, Tufts University', url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0126:book=1' }
 pascal-pensees: { type: book, author: Blaise Pascal, title: 'Pensées', pub: 'Trans. W. F. Trotter. Project Gutenberg eBook 18269', url: 'https://www.gutenberg.org/ebooks/18269' }
+livius-babylon: { type: web, title: 'Babylon', pub: 'Livius.org', url: 'https://www.livius.org/articles/place/babylon/' }
+livius-etemenanki: { type: web, title: 'Etemenanki (the “Tower of Babel”)', pub: 'Livius.org', url: 'https://www.livius.org/articles/place/babylon/etemenanki/' }
+livius-astronomical-diaries: { type: web, title: 'Astronomical Diaries', pub: 'Livius.org', url: 'https://www.livius.org/articles/concept/astronomical-diaries/' }
+xenophon-cyropaedia: { type: book, author: Xenophon, title: 'Cyropaedia', pub: 'Trans. Walter Miller; Perseus Digital Library, Tufts University', url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0204:book=7:chapter=1' }
+skousen-12-questions: { type: web, author: Royal Skousen, title: 'Royal Skousen’s 12 Questions: The Critical Text Version', pub: 'Times & Seasons, October 2009', url: 'https://archive.timesandseasons.org/2009/10/royal-skousens-12-questions-the-critical-text-version/index.html' }
+cojs-elephantine: { type: web, title: 'The Elephantine Temple, 407 BCE', pub: 'Center for Online Judaic Studies', url: 'https://cojs.org/the_elephantine_temple-_407_bce/' }

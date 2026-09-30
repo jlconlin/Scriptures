@@ -35,6 +35,32 @@ Judgment calls and unverified claims waiting for the author. Whoever writes or a
 - `when`: “539/538 BC” rests on the Nabonidus Chronicle's year label (Livius); the Bible Dictionary chronology gives 538.
 - The Cyrus Cylinder is still quoted from Rogers (1912), as in 41 and 44.
 
+**Isaiah 46** (audit, 2026-09-30)
+- The meanings of the names Nebuchadnezzar and Nabonidus (“Nabu protect…”) were cut; no readable source. Restore if one turns up.
+- Xenophon's account of Cyrus is now called “a Greek account, not a Persian source”; the remark that it mixes history with idealized fiction was cut (unsourced).
+
+**Isaiah 47** (audit, 2026-09-30)
+- The chapter now leans on Livius.org (Babylon, Etemenanki, the Astronomical Diaries) as well as Delitzsch. Same question as for 41 and 44: is Livius acceptable, or should it be replaced?
+- `when` no longer says who the chapter was addressed to (the exiles had no source); it gives only the 539 BC fall. State the dating framing?
+- Unsourced interpretive lines remain: “grim humor” (v. 14) and “transactional relationships” (v. 15).
+
+**Isaiah 48** (audit, 2026-09-30)
+- Length: 13 notes, about 4,200 words. Trim?
+- The history of the Book of Mormon's added phrase at 48:1 (1840 edition) rests on Royal Skousen's own answers on a Times & Seasons blog page. Acceptable, or find a primary Skousen source?
+- The 1QIsaᵃ “tested” reading at v. 10 was cut; restore with a source.
+- “Former things / new things” (v. 6) now gives only Delitzsch's reading; the two-camp presentation needs a readable source.
+- v. 12: “natural to hear” Isaiah's “I am he” in John 8:24 is the note's own reading. Keep?
+
+**Isaiah 49** (audit, 2026-09-30)
+- Length: 13 notes, about 3,900 words. Trim?
+- v. 1: the claims about the Book of Mormon's preface to this chapter (no ancient manuscript has it; Latter-day Saint scholars treat it as brass-plates text) were cut. *Isaiah in the Book of Mormon* is image-only here; restore from a readable copy.
+- v. 4: an application paragraph (“missionaries, parents, ministers”) was cut under the no-application rule. Other application-style lines remain in the chapter.
+- v. 12: “Syene is modern Aswan” was cut; no acceptable source found.
+
+**Isaiah 50** (audit, 2026-09-30)
+- v. 11: the reading of “sparks” as self-made light is now labelled devotional (no source). Keep or cut?
+- The claim that the chapter's Book of Mormon differences are discussed in *Isaiah in the Book of Mormon* was dropped (unread).
+
 **Isaiah 51** (audit, 2026-09-30)
 - Length: 16 notes and about 5,100 words. Trim?
 - v. 19 (“these two sons”): the claim that Latter-day Saint commentators (Ludlow, Nyman) connect them with the two witnesses of Rev. 11 is cut; neither book could be read. The note keeps the Rev. 11 / D&C 77:15 link as an inference from shared images. Restore the attribution only if you can confirm it in the books.

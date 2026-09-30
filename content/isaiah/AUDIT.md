@@ -8,8 +8,8 @@ Audit a chapter with the `chapter-auditor` agent (`.claude/agents/chapter-audito
 
 ## Status
 
-- **Audited:** 1, 40–45, 51–66 (23 chapters).
-- **Not yet audited:** 2–39, 46–50 (43 chapters).
+- **Audited:** 1, 40–66 (28 chapters).
+- **Not yet audited:** 2–39 (38 chapters).
 - **The 17 audited chapters have no evidence ledger**, because they were audited before the ledger existed. The author decided (2026-09-30) not to re-audit them to create ledgers; the token cost isn't worth it for chapters already checked once. They count as done. `check-content.mjs` treats them as chapters without a ledger (not strict). If a note in one of them is later revised, give the revised claims ledger rows then.
 
 | Chapters | Audited | Ledger | Notes |
@@ -22,7 +22,11 @@ Audit a chapter with the `chapter-auditor` agent (`.claude/agents/chapter-audito
 | 43 | 2026-09-30 | no | commit 7c65c61 |
 | 44 | 2026-09-30 | no | commit 3cb8642 |
 | 45 | 2026-09-30 | yes (73 rows) | batch 1 |
-| 46–50 | | | |
+| 46 | 2026-09-30 | yes (66 rows) | batch 2 |
+| 47 | 2026-09-30 | yes (39 rows) | batch 2 |
+| 48 | 2026-09-30 | yes (84 rows) | batch 2 |
+| 49 | 2026-09-30 | yes (89 rows) | batch 2 |
+| 50 | 2026-09-30 | yes (66 rows) | batch 2 |
 | 51 | 2026-09-30 | yes (111 rows) | batch 1 |
 | 52 | 2026-09-30 | yes (68 rows) | pilot of the `chapter-auditor` agent |
 | 53 | 2026-09-30 | yes (80 rows) | pilot of the `chapter-auditor` agent |
