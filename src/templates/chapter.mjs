@@ -80,7 +80,9 @@ function noteHtml(n, sources) {
 </aside>`;
 }
 
-function bomNoteHtml(b) {
+function bomNoteHtml(b, sources) {
+  const x = b.explain;
+  const src = (x?.sources ?? []).map((s) => renderSource(s, sources)).filter(Boolean);
   return `<aside class="note k-bom" id="${b.id}" hidden aria-label="BoM comparison">
   <div class="note-head">
     <span class="kind-chip k-bom">${icon('bom')}${esc(KINDS.bom.label)}</span>
@@ -90,6 +92,9 @@ function bomNoteHtml(b) {
   <h4 class="note-title">${mdInline(`[[${b.ref}]]`)} reads differently</h4>
   <p class="bom-text">${b.html}</p>
   <p class="bom-legend"><ins>added or changed in the Book of Mormon</ins> <del>in the King James Version only</del></p>
+  ${x ? `<h5 class="bom-explain-title">${mdInline(x.title ?? 'Why it matters')}</h5>
+  <div class="note-body prose">${md(x.body)}</div>
+  ${src.length ? `<p class="note-sources"><span>Sources:</span> ${src.join(' ')}</p>` : ''}` : ''}
 </aside>`;
 }
 
@@ -116,6 +121,19 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
     const cmp = compareVerse(verses[v - 1], b.text);
     if (cmp.significant) variants.set(Number(v), { ...b, ...cmp, id: `b${n}-${v}` });
     else minorVariants++;
+  }
+  // A hand-written `bom` note explains its verse's comparison, so it goes inside that panel
+  // instead of getting a second marker.
+  for (const note of ch.notes ?? []) {
+    if (note.kind !== 'bom') continue;
+    const variant = variants.get(note.v);
+    if (!variant) {
+      warn(`${n}:${note.ref} has a bom note but no BoM comparison to attach it to`);
+      continue;
+    }
+    variant.explain = note;
+    note.id = variant.id;
+    byVerse.set(note.v, byVerse.get(note.v).filter((x) => x !== note));
   }
 
   const sections = ch.sections?.length ? ch.sections : [{ range: `1-${verses.length}`, heading: '' }];
@@ -148,7 +166,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
         vs.push(`<div class="verse-block">
   <p class="verse" id="v${v}"><a class="vnum" href="#v${v}" aria-label="Verse ${v}">${v}</a> ${text}${markers}${bomMarker}</p>
   ${notes.map((x) => noteHtml(x, sources)).join('\n')}
-  ${variant ? bomNoteHtml(variant) : ''}
+  ${variant ? bomNoteHtml(variant, sources) : ''}
 </div>`);
       }
       const label = a === b ? `Verse ${a}` : `Verses ${a}–${b}`;

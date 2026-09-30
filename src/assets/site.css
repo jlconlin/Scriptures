@@ -437,7 +437,7 @@ a.ref-internal { text-decoration-style: dotted; }
 .note.is-card .note-head { margin-bottom: 3px; }
 .note.is-card .kind-chip { font-size: .7rem; padding-block: 1px; }
 .note.is-card .note-link, .note.is-card .note-close,
-.note.is-card .note-body, .note.is-card .note-sources, .note.is-card .bom-text, .note.is-card .bom-legend { display: none; }
+.note.is-card .note-body, .note.is-card .note-sources, .note.is-card .bom-text, .note.is-card .bom-legend, .note.is-card .bom-explain-title { display: none; }
 .note.is-card .note-title { font-size: .98rem; margin: 0 0 2px; }
 .note.is-card .note-teaser { display: block; margin: 0; font-size: .86em; line-height: 1.45; color: var(--ink-2); }
 .phr.is-linked { background: color-mix(in srgb, var(--k) 20%, transparent); }
@@ -529,5 +529,6 @@ a.ref-internal { text-decoration-style: dotted; }
 .bom-text ins, .bom-legend ins { text-decoration: none; background: color-mix(in srgb, var(--k-structure) 22%, transparent); border-bottom: 2px solid var(--k-structure); border-radius: 3px; padding: 0 2px; }
 .bom-text del, .bom-legend del { color: var(--muted); text-decoration-color: color-mix(in srgb, var(--k-christ) 70%, transparent); text-decoration-thickness: 1.5px; }
 .bom-legend { font-size: .78rem; color: var(--muted); margin: 10px 0 0; display: flex; gap: 12px; flex-wrap: wrap; }
+.bom-explain-title { font-size: 1rem; margin: 16px 0 4px; padding-top: 12px; border-top: 1px solid var(--line); }
 .bom-summary { font-size: .92rem; color: var(--ink-2); display: flex; gap: 8px; align-items: flex-start; flex-wrap: wrap; }
 .bom-summary .icon { color: var(--k-bom); margin-top: 3px; }
