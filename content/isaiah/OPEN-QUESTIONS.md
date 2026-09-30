@@ -6,7 +6,6 @@ Judgment calls and unverified claims waiting for the author. Whoever writes or a
 - Trim chapter-level `sources` lists to what the chapter actually relies on; several list commentaries that no note draws on.
 - Convert the five guides to numbered citations (`[@key]` after specific claims), as on the Servant Songs page.
 - Servant Song boundaries: the site cites the full passages (42:1–9, 49:1–13, 50:4–11, 52:13–53:12) so readers don’t miss the verses that answer each song; the author found a separate “core vs. extended” column not worth its space. Check older chapters and guides for other ranges (42:1–4, 42:1–7, 49:1–6, and so on) and make them consistent.
-- The chapter 53 `setting` is still about 340 words after moving the servant debate to the theme page; trim toward the 150–250 word guideline.
 - KnoWhy `pub` fields omit dates: the API’s `publicationDate` looks like a republication date for older articles (it gives 2024 for #81). Add original dates if they matter.
 
 **Isaiah 1** (audit, 2026-09-30)
@@ -36,20 +35,21 @@ Judgment calls and unverified claims waiting for the author. Whoever writes or a
 - v. 11: the note attributes to O. H. Steck the view that chapter 35 is a bridge written in the style of chapters 40–55. Stated from memory; confirm.
 - v. 2: removed an unconfirmed claim that the Great Isaiah Scroll has “and increased him.” Check the scroll if this detail matters.
 
-**Isaiah 52**
-- Length: chapters 51 (about 5,800 words) and 52 (about 5,400 words, 15 notes) are denser than the chapter 50 standard. Trim both.
-- v. 15 / 3 Ne. 21:10: the note calls the Joseph Smith identification of the marred servant widespread but an interpretation, and gives Christ as the alternative. Decide whether that framing is right. Ludlow, Nyman, and Parry are listed as sources without saying what each argues; check them.
-- v. 15 (“sprinkle” or “startle”): the note presents the grammatical objection to “sprinkle” plainly rather than defending the KJV. Decide whether the balance is right.
-- v. 14: the attribution of the “I anointed” reading of 1QIsaᵃ to William Brownlee is from memory; confirm.
-- v. 8: the claim that the English idiom “see eye to eye” comes from this verse is from memory; confirm against the OED.
-- v. 13: the summary of Bauckham’s argument linking Isa. 6:1, 52:13, and John 12 is from memory; confirm.
+**Isaiah 52** (audit, 2026-09-30)
+- Length: 15 notes and about 5,400 words, well over the guideline. Trim?
 - Scope: the fourth Servant Song (52:13–53:12) is split at the chapter break. Chapter 52 covers only the opening verses and leaves the servant’s identity to chapter 53. Decide whether that split works.
+- v. 15 (“sprinkle” or “startle”): now rests on BDB, with the grammatical objection presented as one commentary’s view (Delitzsch) and the Septuagint and NRSVUE readings. Decide whether the balance is right.
+- v. 14: the 1QIsaᵃ “I anointed” reading (Brownlee) was cut; no readable source. Restore if one turns up (for example the Israel Museum’s Digital Dead Sea Scrolls, which failed from the sandbox).
+- v. 8: the modern idiom “see eye to eye” is said to “usually suggest agreement”, with no dictionary source.
+- v. 7: “Joseph Smith gave it as the name” of Nauvoo. KnoWhy #342 says he renamed the town and learned the word from his Hebrew teacher. Acceptable framing?
+- `when`: “c. 540 BC” was dropped; no source read gives it.
 
-**Isaiah 53**
-- Setting: the Hezekiah theory (Margaret Barker, reported by Scripture Central KnoWhy #648) is mentioned in a single sentence as one theory among many. Keep or cut?
-- v. 4: the argument that Alma 7:11 renders the Hebrew of 53:4 more literally than the KJV is Thomas Wayment’s, cited through KnoWhy #564. Wayment’s original article hasn’t been checked.
-- v. 9: the reading of the Great Isaiah Scroll’s *bwmtw* as “burial mound,” and, in v. 11, the list of Qumran manuscripts that read “light” (1QIsaᵃ, 1QIsaᵇ, 4QIsaᵈ), are from memory; confirm.
-- Setting: the attributions to Origen (*Against Celsus* 1.55) and Rashi are from memory; confirm.
+**Isaiah 53** (audit, 2026-09-30)
+- The `setting` is about 340 words; trim toward the 150–250 word guideline.
+- Setting: “can be read as five stanzas” has no source. Keep, source, or cut?
+- v. 1: who speaks is now an open question (the kings or those who have come to believe) rather than a “collective” and a “Christian” reading.
+- v. 4: Wayment’s argument is reported only through KnoWhy #564; his JBMS article wasn’t read.
+- v. 9: Hopkin (“high place”), Meade (“his hill” or “his tomb”) and the NRSVUE differ on the scroll’s word; the note says the sense is uncertain.
 
 **Isaiah 54**
 - v. 7: the claim that *šeṣep* (“a little wrath”) occurs nowhere else in the Bible, and v. 11–12: the gem identifications (sapphire as lapis lazuli, and so on), are from memory; confirm against a lexicon.
