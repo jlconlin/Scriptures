@@ -64,10 +64,6 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 7: the claim that *šeṣep* (“a little wrath”) occurs nowhere else in the Bible, and v. 11–12: the gem identifications (sapphire as lapis lazuli, and so on), are from memory; confirm against a lexicon.
 - v. 4: the Nephite text’s repeated line (“the reproach of thy youth”) is described as possibly emphasis or a copying slip. Worth checking whether the critical text of the Book of Mormon comments on it.
 
-**Isaiah 62**
-- v. 5: the *bānayik*/*bōnayik* (“your sons”/“your Builder”) revocalization is presented with both readings; confirm which modern translations follow it.
-- v. 4: the observation that Azubah and Hephzibah were names of queen mothers (1 Kgs. 22:42; 2 Kgs. 21:1) is the site’s own; the suggestion that the prophet deliberately used known names is hedged only lightly. Check the wording.
-
 **Isaiah 63**
 - v. 3: the note reads the winepress primarily as judgment (the enemies’ blood) and presents the Gethsemane reading (Holland; D&C 19:18) as a further Latter-day Saint application resting on D&C 76:107. Decide whether the balance is right.
 - v. 9: the *qere*/*ketiv* explanation and the Septuagint rendering (“not an elder or a messenger, but he himself”) are from memory; confirm.
