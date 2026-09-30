@@ -13,9 +13,9 @@ The goal: when you finish, every factual claim in the chapter rests on a source 
 
 1. `STANDARDS.md`, all of it, especially “Sourcing rules” and “The evidence ledger.”
 2. `content/<book>/BRIEF.md` if it exists, for which sources are readable for this book.
-3. The chapter: `content/<book>/chapters/NN.yaml`, and the verses themselves (`node scripts/show.mjs <n>` or `data/kjv/<book>.json`).
+3. The chapter: `content/<book>/chapters/NN.yaml`, and the verses themselves (`node scripts/show.mjs <book> <n>` or `data/kjv/<book>.json`).
 4. `content/sources.yaml`, for every key the chapter cites (so you know what each claims to be and where it lives).
-5. For this book's audit history, the “Open questions for review” and audit sections of `AUTHORING.md`, and recent audit commits (`git log --oneline -- content/<book>/chapters/NN.yaml`).
+5. For this book's audit history, `content/<book>/AUDIT.md` if it exists, the chapter's items in `content/<book>/OPEN-QUESTIONS.md`, and recent audit commits (`git log --oneline -- content/<book>/chapters/NN.yaml`).
 
 ## 2. Method
 
@@ -36,16 +36,16 @@ The goal: when you finish, every factual claim in the chapter rests on a source 
 ```sh
 node scripts/fix-yaml.mjs content/<book>/chapters/NN.yaml
 node scripts/build.mjs
-node scripts/check-quotes.mjs <n>
+node scripts/check-quotes.mjs <book> <n>
 node scripts/check-content.mjs        # if it exists
 ```
 
-Fix every warning that concerns your chapter. If a script only knows Isaiah, don't edit it; report which checks you couldn't run.
+Fix every warning that concerns your chapter. If a check fails for reasons outside your chapter, don't edit the script; report it.
 
 ## Limits
 
 - Write only the chapter file and its evidence ledger.
-- Don't edit `content/sources.yaml` (propose entries), other chapters, code, `STANDARDS.md`, or `AUTHORING.md`.
+- Don't edit `content/sources.yaml` (propose entries), other chapters, code, `STANDARDS.md`, `AUTHORING.md`, `AUDIT.md`, or `OPEN-QUESTIONS.md` (report judgment calls instead).
 - Don't commit or push.
 - Don't decide judgment calls silently; report them.
 
@@ -62,6 +62,6 @@ Return:
 3. **Cut**: claims removed because no readable source supported them.
 4. **Sources removed**: keys dropped from note or chapter `sources`, and why (unread, not relied on, a wiki).
 5. **Proposed `sources.yaml` entries**, one line each in the file's format, with the page title you saw.
-6. **Judgment calls** for “Open questions for review.”
+6. **Judgment calls** for the book's `OPEN-QUESTIONS.md`.
 7. **Check output**: each check's result, and any check you couldn't run.
 8. A short commit-message summary in the style of the existing audit commits (“Claims now rest on …. Unread commentaries (…) are dropped. Cut: ….”).

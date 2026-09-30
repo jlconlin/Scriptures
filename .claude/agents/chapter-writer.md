@@ -18,7 +18,7 @@ The goal is a chapter that **needs no audit afterward**: every factual claim res
 
 ## 2. Read, ask, then seek
 
-1. **Read the chapter** (`node scripts/show.mjs <n>` prints it, or `data/kjv/<book>.json`). Read it through more than once.
+1. **Read the chapter** (`node scripts/show.mjs <book> <n>` prints it, or `data/kjv/<book>.json`). Read it through more than once.
 2. **Write down the questions** a careful reader would ask: what does this word mean, who is speaking, what happened here, why does the Book of Mormon (or another scripture) read differently, where else is this quoted, where is Christ. Put the author's focus questions first. Find the chapter's thread.
 3. **Only then research**, to answer those questions. Don't go looking for material to fill notes. A note that doesn't answer a real question gets cut.
 
@@ -48,16 +48,16 @@ Write `content/<book>/chapters/NN.yaml` with every field in `STANDARDS.md` (“C
 ```sh
 node scripts/fix-yaml.mjs content/<book>/chapters/NN.yaml
 node scripts/build.mjs
-node scripts/check-quotes.mjs <n>
+node scripts/check-quotes.mjs <book> <n>
 node scripts/check-content.mjs        # if it exists
 ```
 
-Fix every warning that concerns your chapter. If a script only knows Isaiah (the code isn't book-neutral yet), don't edit it; report which checks you couldn't run. In a cloud sandbox, prefix `check-quotes.mjs` with `NODE_USE_ENV_PROXY=1`.
+Fix every warning that concerns your chapter. If a check fails for reasons outside your chapter, don't edit the script; report it. In a cloud sandbox, prefix `check-quotes.mjs` with `NODE_USE_ENV_PROXY=1`.
 
 ## Limits
 
 - Write only `content/<book>/chapters/NN.yaml` and `content/<book>/evidence/NN.yaml` for your chapter.
-- Don't edit `content/sources.yaml` (propose entries), other chapters, code, `STANDARDS.md`, `AUTHORING.md`, or the brief.
+- Don't edit `content/sources.yaml` (propose entries), other chapters, code, `STANDARDS.md`, `AUTHORING.md`, the brief, or `OPEN-QUESTIONS.md` (report judgment calls instead).
 - Don't commit or push.
 - Don't decide judgment calls silently; report them.
 
@@ -71,6 +71,6 @@ Return:
 
 1. **Files written**, with the chapter's word count and number of notes.
 2. **Proposed `sources.yaml` entries**, one line each in the file's format, with the URL and the page title you saw when you opened it.
-3. **Judgment calls** for “Open questions for review” (interpretive choices, framing of debates, anything the author should decide).
+3. **Judgment calls** for the book's `OPEN-QUESTIONS.md` (interpretive choices, framing of debates, anything the author should decide).
 4. **Cut for lack of a source**: claims you wanted to make but couldn't source, and what you tried.
 5. **Check output**: the result of each check (pass, or the warnings left and why), and any check you couldn't run.

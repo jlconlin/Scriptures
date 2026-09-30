@@ -1,0 +1,36 @@
+# Isaiah brief
+
+Book-level decisions for Isaiah. The site-wide standard is in `STANDARDS.md`; this file records what is particular to Isaiah. Isaiah was written before the standard and before briefs existed, so this brief was assembled afterward from the project notes; it is shorter than a new book's brief will be.
+
+Related files:
+- `AUDIT.md`: which chapters have been audited against the sourcing standard.
+- `OPEN-QUESTIONS.md`: judgment calls waiting for the author.
+- `THEME-CANDIDATES.md`: topics for future theme pages.
+
+## State of the book
+
+All 66 chapters are written. Chapters 38–66 were written at the semi-academic standard in `STANDARDS.md`; chapters 1–37 were written somewhat closer to a general audience. The remaining work is the audit (`AUDIT.md`), resolving `OPEN-QUESTIONS.md`, and the revision plan below.
+
+## Book-wide conventions
+
+- **Servant Songs.** Cite the full passages: 42:1–9, 49:1–13, 50:4–11, 52:13–53:12, so readers don’t miss the verses that answer each song. No separate “core vs. extended” ranges.
+- **Theme pages.** `content/isaiah/themes/`, published at `/isaiah/themes/<file name>/` with an index at `/isaiah/themes/` and cards on the Guides page (`/isaiah/guides/`). Done: **The Servant Songs**. When a chapter touches a theme that has a page, link to it instead of re-explaining the theme. Candidates are in `THEME-CANDIDATES.md`.
+
+## Sources particular to Isaiah
+
+- *Isaiah in the Book of Mormon* (Welch and Pike, FARMS 1998), cited as `isaiah-in-bom`, can be read chapter by chapter on the Scripture Central archive (archive.bookofmormoncentral.org).
+- Keil and Delitzsch on Bible Hub (`biblehub.com/commentaries/kad/isaiah/<c>.htm`) has been the main readable commentary. Where a point rests on Delitzsch alone, present it as his reading.
+- The standard modern commentaries (Oswalt, Blenkinsopp, Childs, Shalom Paul, Westermann, Williamson, Parry) are not readable online; see `STANDARDS.md` rule 6.
+- Book of Mormon comparison data: `data/bom/isaiah-parallels.json` (built by `scripts/fetch-bom-parallels.mjs`, which is Isaiah-specific).
+
+## Revision plan for chapters 1–37
+
+**Deepen chapters 1–37 in place; don’t rewrite them.** Their threads, history, Restoration connections, and verified quotations are solid. For each chapter:
+
+- Add 2–4 deeper notes: textual variants (MT, LXX, 1QIsaᵃ, Book of Mormon readings), fairly presented scholarly debates (for example, the date of chapters 24–27, whether chapters 13–14 postdate Isaiah, near and far fulfillments of 7:14), archaeology, and literary structure.
+- Sharpen the `thread` where it is thin.
+- Make sources explicit, and mark how certain each claim is (established fact, consensus, hypothesis, or devotional application).
+
+Priority order: 1, 6, 7, 9, 11, 14, 24–27, 29; then the rest. The oracles in 15–23 are lowest priority.
+
+In deepening them, stronger notes should replace weaker ones as often as they add new ones. How this plan fits with the audit (audit first, or both in one pass per chapter) is still to be decided.

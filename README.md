@@ -26,7 +26,7 @@ The output is a plain static site that any web server can host. Configure the se
 
 ## Contributing to the content
 
-[AUTHORING.md](AUTHORING.md) explains how the commentary is written and checked, and records the project’s status and open questions.
+[STANDARDS.md](STANDARDS.md) explains how the commentary is written and sourced; [AUTHORING.md](AUTHORING.md) records the project’s status and lists the other project files. [DEVELOPMENT.md](DEVELOPMENT.md) covers the code.
 
 ## License
 

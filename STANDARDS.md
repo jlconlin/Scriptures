@@ -1,6 +1,6 @@
 # Writing and sourcing standard
 
-The standard for all commentary on this site, for every book. `AUTHORING.md` holds the workflow, status, and open questions; each book's `content/<book>/BRIEF.md` holds the decisions for that book. Where they disagree, this file wins unless the author has decided otherwise in the brief.
+The standard for all commentary on this site, for every book. `AUTHORING.md` holds the status and how to work with the author; each book's `content/<book>/BRIEF.md` holds the decisions for that book, and its `OPEN-QUESTIONS.md` the judgment calls waiting for the author. Where they disagree, this file wins unless the author has decided otherwise in the brief.
 
 The goal: **content that needs no audit afterward.** Sourcing is part of writing, not a later pass.
 
@@ -46,7 +46,7 @@ The goal: **content that needs no audit afterward.** Sourcing is part of writing
 8. **No single secondary source shapes a chapter.** Start from the text and the scriptures that quote it. As a rule of thumb, no one outside source is the main idea of more than one note. When an idea comes from a source, cite it, put it in your own words, and don't follow its outline.
 9. **List in `sources` only what the chapter relies on.** A chapter-level `sources` list is the union of what its notes and prose actually cite, not a reading list.
 10. **Quotations are checked**: scripture quotations with `check-quotes.mjs`; Book of Mormon variants against the text (`data/bom/`); quotations from talks and books against the page you read.
-11. **Judgment calls go to “Open questions for review”** in `AUTHORING.md`; never decide them silently.
+11. **Judgment calls go to the book's `content/<book>/OPEN-QUESTIONS.md`**; never decide them silently.
 
 ## 5. The evidence ledger
 
@@ -77,7 +77,7 @@ claims:
 
 ## 6. Chapter file structure
 
-Files for a book: `content/<book>/book.yaml`, `chapters/`, `guides/`, `themes/`, `evidence/`; `data/kjv/<book>.json`; optionally `data/bom/<book>-parallels.json`. “Adding a new book” in `AUTHORING.md` lists the `book.yaml` fields.
+Files for a book: `content/<book>/book.yaml`, `chapters/`, `guides/`, `themes/`, `evidence/`; `data/kjv/<book>.json`; optionally `data/bom/<book>-parallels.json`. “Adding a new book” in `DEVELOPMENT.md` lists the `book.yaml` fields. Markdown files at the top of `content/<book>/` (`BRIEF.md`, `OPEN-QUESTIONS.md`, `THEME-CANDIDATES.md`) are project notes and aren't published.
 
 `content/<book>/chapters/NN.yaml` (look at an existing chapter for the exact layout). Fields:
 
@@ -139,15 +139,15 @@ What has worked from the author's Mac (2026-09-29/30). Record new findings in th
 ## 10. Checks
 
 ```sh
-node scripts/show.mjs <n>                               # print the KJV text with verse numbers
+node scripts/show.mjs [book] <n>                        # print the KJV text with verse numbers
 node scripts/fix-yaml.mjs content/<book>/chapters/NN.yaml   # quote YAML values that contain ": "
 node scripts/build.mjs                                  # warns about phrases not found, overlaps, bad refs
-node scripts/check-quotes.mjs <n>                       # verify quoted scripture
+node scripts/check-quotes.mjs [book] <n>                # verify quoted scripture
 node scripts/check-content.mjs                          # sources, keys, unreadable works, wikis, ledger
 npm run dev                                             # preview at http://localhost:4321
 ```
 
-Fix every warning. Until the scripts are made book-neutral (step 2 of the plan in `AUTHORING.md`), `show.mjs`, `fix-yaml.mjs` with no arguments, and `check-quotes.mjs` read Isaiah only; say so in your report rather than editing them.
+Fix every warning. `show.mjs` and `check-quotes.mjs` take the book as an optional first argument (default `isaiah`); give it for any other book.
 
 ## 11. Review process
 
@@ -156,4 +156,4 @@ Fix every warning. Until the scripts are made book-neutral (step 2 of the plan i
 3. **The orchestrating session reviews** (on Opus): adds the proposed `sources.yaml` entries after confirming each URL, spot-checks a sample of ledger rows by reopening the sources, and runs `build`, `check-quotes`, and `check-content`.
 4. **The author sees it** in the private preview artifact (see “Working with the author” in `AUTHORING.md`).
 5. **One commit per chapter**, with its ledger.
-6. **Judgment calls** go under “Open questions for review” in `AUTHORING.md`, never decided silently.
+6. **Judgment calls** go in the book's `OPEN-QUESTIONS.md`, never decided silently. For an Isaiah audit, also update `content/isaiah/AUDIT.md` in the same commit.
