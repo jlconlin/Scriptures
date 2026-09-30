@@ -232,7 +232,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
 
       <div class="reader-bar" role="toolbar" aria-label="Reading tools">
         <div class="legend">
-          ${sections.some((x) => x.plain) ? `<button type="button" class="kind-chip k-plain plain-filter" data-action="toggle-plain" aria-pressed="true" title="Show or hide the ${esc(sectionTitle('plain').toLowerCase())} summaries">${icon('text')}Summaries <span class="count">${sections.filter((x) => x.plain).length}</span></button>` : ''}
+          ${sections.some((x) => x.plain) ? `<button type="button" class="kind-chip k-plain plain-filter" data-action="toggle-plain" aria-pressed="true" title="Show or hide the ${esc(sectionTitle('plain'))} boxes">${icon('text')}${esc(sectionTitle('plain'))} <span class="count">${sections.filter((x) => x.plain).length}</span></button>` : ''}
           ${kindsUsed.map((k) => `<button type="button" class="kind-chip k-${k} filter" aria-pressed="true" data-kind="${k}" title="${esc(KINDS[k].blurb)}">${icon(k)}${esc(KINDS[k].short)} <span class="count">${counts[k]}</span></button>`).join('')}
         </div>
         <div class="reader-actions">
