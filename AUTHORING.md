@@ -91,7 +91,7 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 21: the *nēṣer*/Nazarene link (Matt. 2:23) is labeled a plausible hypothesis.
 
 **Isaiah 61**
-- v. 1: 11QMelchizedek and the Jubilee around AD 26–27 are now supported through KnoWhy #656, which relies on S. Kent Brown, *The Testimony of Luke* (2015), 245, 255–256. The Jubilee date is one scholar’s calculation and is presented as uncertain. Consider citing Brown directly.
+- v. 1: 11QMelchizedek and the Jubilee around AD 26–27 are now supported through KnoWhy #656, which relies on S. Kent Brown, *The Testimony of Luke* (2015), 245, 255–256. The Jubilee date is one scholar’s calculation and is presented as uncertain. Brown is now cited directly (`brown-luke`).
 - v. 3: the *pəʾēr*/*ʾēper* anagram, *kēhâ* in 42:3 and 61:3, and v. 10’s *yəkahēn* (“acts as a priest”) are from memory; confirm.
 - v. 8: the *bəʿôlâ*/*bəʿawlâ* explanation cites Tov for the general point about vowels; confirm the Septuagint reading (“robbery and injustice”).
 - v. 6: the sentence on priesthood in the Restoration is kept deliberately brief. Check the wording.
@@ -126,6 +126,7 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 
 **Scripture Central pass on 56–66 (2026-09-29)**
 - Five KnoWhys now cited: #656 (Isa. 61:1), #550 (61:3), #378 (59:17), #303 (58:13), #81 (66:24). Each answers a question the note left open; the rest of the articles found for 56–66 were not used.
+- Where a KnoWhy’s idea rests on another work, that work is cited too: Brown for 61:1; Leith (*Oxford History of the Biblical World*) and *Joseph Smith Papers, Documents* 2 for 58:13. Note sources can’t carry page numbers, so the relevant pages are in each entry’s `pub`.
 - The `pub` fields for these five omit dates: the API’s `publicationDate` looks like a republication date for older articles (it gives 2024 for #81). Add original dates if they matter.
 - v. 59:17: Lehi’s “armor of righteousness” (2 Ne. 1:23) as an echo of Isa. 59:17 is the KnoWhy’s suggestion, presented as “probably.”
 - v. 61:3: the link between “beauty for ashes” and the stripping of the daughters of Zion in 3:20–24 (*pəʾērîm*, *taḥat*) is the site’s own; KnoWhy #550 supplied the stripping-and-reclothing frame.
