@@ -2,7 +2,7 @@
 title: Names, Places & Symbols
 blurb: A quick-reference glossary of the people, places, and images that recur throughout Isaiah.
 icon: symbol
-sources: [bd-isaiah, ot-manual-e, parry-understanding, ludlow, bdb]
+sources: [bd-isaiah, ot-manual-e, parry-understanding, ludlow, bdb, gee-hand-lord]
 ---
 
 Use this page as a lookup table while you read. Most entries point to the chapter where the name or image is explained in depth. The site search is also a good way to find every place a word appears.
@@ -95,7 +95,7 @@ Use this page as a lookup table while you read. Most entries point to the chapte
 
 **Highway.** A raised road through the wilderness for the returning exiles, and the path of holiness home to God. → [Isaiah 35](/isaiah/35/), [Isaiah 40](/isaiah/40/)
 
-**Hand stretched out still.** A refrain of continuing judgment: “his hand is stretched out still.” Read in context, it also holds out mercy to all who will turn ([[2 Ne. 28:32]]; [[Jacob 6:4]]). → [Isaiah 9](/isaiah/9/)
+**Hand stretched out still.** A refrain of continuing judgment: “his hand is stretched out still.” The raised hand is a threat; the Book of Mormon pictures mercy with a different idiom, the Lord’s arm “lengthened out” and “extended” toward all who will turn ([[2 Ne. 28:32]]; [[Jacob 6:5]]). → [Isaiah 9](/isaiah/9/)
 
 **Mountain.** The temple, the place where heaven and earth meet. → [Isaiah 2](/isaiah/2/), [Isaiah 25](/isaiah/25/)
 
