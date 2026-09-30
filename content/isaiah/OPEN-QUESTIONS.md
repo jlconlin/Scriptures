@@ -32,7 +32,6 @@ Judgment calls and unverified claims waiting for the author. Whoever writes or a
 **Isaiah 45** (audit, 2026-09-30)
 - 45:7: the Zoroastrian background is now only a debate (KnoWhy #871, Delitzsch). The audit also added Delitzsch's reading (dualism rejected; “evil” as judgment, not sin), which goes a little beyond repair. Keep? Nilsen's article couldn't be read (encrypted PDF); restore the Cyrus-as-Zoroastrian points if someone can read it.
 - 45:4: Delitzsch reads “though thou hast not known me” as “before you existed”, not as Cyrus being a pagan. Add?
-- 45:22: the Spurgeon conversion story rests on a Gospel Coalition blog post that quotes Spurgeon's own account (the Banner of Truth copy returned 403). Acceptable, or find a primary copy?
 - `when`: “539/538 BC” rests on the Nabonidus Chronicle's year label (Livius); the Bible Dictionary chronology gives 538.
 - The Cyrus Cylinder is still quoted from Rogers (1912), as in 41 and 44.
 
