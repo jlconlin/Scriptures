@@ -64,13 +64,6 @@ Judgment calls and unverified claims waiting for the author. Whoever writes a ch
 - v. 7: the claim that *šeṣep* (“a little wrath”) occurs nowhere else in the Bible, and v. 11–12: the gem identifications (sapphire as lapis lazuli, and so on), are from memory; confirm against a lexicon.
 - v. 4: the Nephite text’s repeated line (“the reproach of thy youth”) is described as possibly emphasis or a copying slip. Worth checking whether the critical text of the Book of Mormon comments on it.
 
-**Isaiah 66**
-- Length: about 3,800 words with 8 notes; the plain-words paraphrase of 24 verses is long. Consider trimming.
-- v. 5: *mənaddêkem* as a word later used for synagogue expulsion is from memory; confirm.
-- v. 8: cites the JST of Rev. 12 (the woman is the church; the child is “the kingdom of our God and his Christ”) without a link, because `refs.mjs` has no JST Revelation book. Add one or keep as plain text.
-- v. 19: the hypothesis that Isa. 66:19–20 shaped Paul’s plan to reach Spain is attributed to “some scholars” without a listed source (Rainer Riesner is the usual one).
-- Setting: the frame linking chapters 1 and 66 (*pāšaʿ bî* in 1:2 and 66:24, gardens, rejected sacrifice, unquenched fire) is widely noted; no source listed.
-
 **Scripture Central pass on 56–66 (2026-09-29)**
 - Five KnoWhys now cited: #656 (Isa. 61:1), #550 (61:3), #378 (59:17), #303 (58:13), #81 (66:24). Each answers a question the note left open; the rest of the articles found for 56–66 were not used.
 - Where a KnoWhy’s idea rests on another work, that work is cited too, but only after reading it: the D&C 59 historical introduction in *The Joseph Smith Papers* and the Jewish Encyclopedia’s “Sabbath” for 58:13 (Leith’s chapter, cited by the KnoWhy, could not be consulted and was dropped). Note sources can’t carry page numbers, so relevant pages go in each entry’s `pub`.
