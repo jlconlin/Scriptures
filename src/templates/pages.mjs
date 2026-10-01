@@ -166,17 +166,17 @@ export function renderGuidesIndex({ book, guides, collection = COLLECTIONS.guide
   const c = collection;
   const t = COLLECTIONS.themes;
   const body = `
-<header class="page-hero"><div class="wrap narrow">
+<header class="page-hero"><div class="wrap guides-wide">
   <nav class="crumbs"><a href="/${book.slug}/">${esc(book.name)}</a></nav>
   <h1>${esc(c.indexTitle(book))}</h1>
   <p class="lede">${esc(c.lede)}</p>
 </div></header>
-<div class="wrap narrow"><div class="guide-cards guide-cards-stack">
+<div class="wrap guides-wide"><div class="guide-cards guide-cards-two">
 ${guides.map((g) => `<a class="guide-card" href="/${book.slug}/${c.path}/${g.slug}/"><span class="guide-icon">${icon(g.icon ?? 'book')}</span><span class="guide-title">${esc(g.title)}</span><span class="guide-blurb">${esc(g.blurb)}</span></a>`).join('')}
 </div>
 ${themes.length ? `<h2 class="section-title guides-themes-title" id="themes">Themes</h2>
 <p class="section-sub">${esc(t.lede)}</p>
-<div class="guide-cards guide-cards-stack">${themes.map((g) => `<a class="guide-card" href="/${book.slug}/${t.path}/${g.slug}/"><span class="guide-icon">${icon(g.icon ?? 'book')}</span><span class="guide-title">${esc(g.title)}</span><span class="guide-blurb">${esc(g.blurb)}</span></a>`).join('')}</div>` : ''}
+<div class="guide-cards guide-cards-two">${themes.map((g) => `<a class="guide-card" href="/${book.slug}/${t.path}/${g.slug}/"><span class="guide-icon">${icon(g.icon ?? 'book')}</span><span class="guide-title">${esc(g.title)}</span><span class="guide-blurb">${esc(g.blurb)}</span></a>`).join('')}</div>` : ''}
 </div>`;
   return layout({ title: c.indexTitle(book), path: `/${book.slug}/${c.path}/`, body, bodyClass: 'page-guides', book });
 }
