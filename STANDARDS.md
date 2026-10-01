@@ -168,4 +168,4 @@ Fix every warning that concerns your chapter (length warnings on older chapters 
 3. **The orchestrating session reviews** (on Opus): adds the proposed `sources.yaml` entries after confirming each URL, spot-checks a sample of ledger rows by reopening the sources, and runs `build`, `check-quotes`, and `check-content`.
 4. **The author sees it** in the private preview artifact (see “Working with the author” in `AUTHORING.md`).
 5. **One commit per chapter**, with its ledger.
-6. **Judgment calls** go in the book's `OPEN-QUESTIONS.md`, never decided silently. For an Isaiah audit, also update `content/isaiah/AUDIT.md` in the same commit.
+6. **Judgment calls** go in the book's `OPEN-QUESTIONS.md`, never decided silently.

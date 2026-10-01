@@ -47,7 +47,7 @@ Fix every warning that concerns your chapter, except the length warning (trimmin
 ## Limits
 
 - Write only the chapter file and its evidence ledger.
-- Don't edit `content/sources.yaml` (propose entries), other chapters, code, `STANDARDS.md`, `AUTHORING.md`, `AUDIT.md`, or `OPEN-QUESTIONS.md` (report judgment calls instead).
+- Don't edit `content/sources.yaml` (propose entries), other chapters, code, `STANDARDS.md`, `AUTHORING.md`, or `OPEN-QUESTIONS.md` (report judgment calls instead).
 - Don't commit or push.
 - Don't decide judgment calls silently; report them.
 

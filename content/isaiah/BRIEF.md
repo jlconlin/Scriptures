@@ -3,13 +3,12 @@
 Book-level decisions for Isaiah. The site-wide standard is in `STANDARDS.md`; this file records what is particular to Isaiah. Isaiah was written before the standard and before briefs existed, so this brief was assembled afterward from the project notes; it is shorter than a new book's brief will be.
 
 Related files:
-- `AUDIT.md`: which chapters have been audited against the sourcing standard.
 - `OPEN-QUESTIONS.md`: judgment calls waiting for the author.
 - `THEME-CANDIDATES.md`: topics for future theme pages.
 
 ## State of the book
 
-All 66 chapters are written. Chapters 38–66 were written at the semi-academic standard in `STANDARDS.md`; chapters 1–37 were written somewhat closer to a general audience. The remaining work is the audit (`AUDIT.md`), resolving `OPEN-QUESTIONS.md`, and the revision plan below.
+All 66 chapters are written. Chapters 38–66 were written at the semi-academic standard in `STANDARDS.md`; chapters 1–37 were written somewhat closer to a general audience. All 66 were audited against the sourcing standard (finished 2026-10-01). Seventeen were audited before evidence ledgers existed and have none: 1, 40–44, and 56–66; the author chose not to re-audit them for ledgers. If a note in one of them is revised, give the revised claims ledger rows then. The remaining work is resolving `OPEN-QUESTIONS.md` and the revision plan below.
 
 ## Book-wide conventions
 
@@ -35,4 +34,4 @@ All 66 chapters are written. Chapters 38–66 were written at the semi-academic 
 
 Priority order: 1, 6, 7, 9, 11, 14, 24–27, 29; then the rest. The oracles in 15–23 are lowest priority.
 
-In deepening them, stronger notes should replace weaker ones as often as they add new ones. How this plan fits with the audit (audit first, or both in one pass per chapter) is still to be decided.
+In deepening them, stronger notes should replace weaker ones as often as they add new ones. The audit is done, so a deepened note gets ledger rows like any new writing.

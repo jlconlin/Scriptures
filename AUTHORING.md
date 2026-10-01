@@ -2,9 +2,9 @@
 
 Current work and how to work with the author. **The writing and sourcing standard for every book is in [`STANDARDS.md`](STANDARDS.md).** `CLAUDE.md` lists which file to read for which task.
 
-## Status (2026-09-30)
+## Status (2026-10-01)
 
-- **Isaiah:** all 66 chapters written. Remaining: the audit (28 of 66 done; see `content/isaiah/AUDIT.md`), the open questions (`content/isaiah/OPEN-QUESTIONS.md`), and deepening chapters 1–37 (`content/isaiah/BRIEF.md`).
+- **Isaiah:** all 66 chapters written and audited. Remaining: the open questions (`content/isaiah/OPEN-QUESTIONS.md`) and deepening chapters 1–37 (`content/isaiah/BRIEF.md`).
 - **Jeremiah:** next book. `data/kjv/jeremiah.json` is fetched; its LDS-edition spellings still need checking. Next is the brief (step 3 below).
 - **Site:** framework, guides, theme pages, About page, and book-neutral code done. Code notes are in `DEVELOPMENT.md`.
 
@@ -31,7 +31,6 @@ Goal: write content that needs no audit afterward, by making sourcing part of wr
 | `STANDARDS.md` | Audience, voice, sourcing rules, evidence ledger, chapter structure, research tools, checks, review process |
 | `content/<book>/BRIEF.md` | Book-level decisions |
 | `content/<book>/OPEN-QUESTIONS.md` | Judgment calls waiting for the author |
-| `content/isaiah/AUDIT.md` | Which Isaiah chapters have been audited |
 | `content/<book>/THEME-CANDIDATES.md` | Topics for future theme pages |
 | `DEVELOPMENT.md` | Hosting, site design, how books are built, adding a book |
 | `IDEAS.md` | Ideas not yet planned |

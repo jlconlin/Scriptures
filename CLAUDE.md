@@ -7,7 +7,6 @@ Always read `AUTHORING.md` (status, current plan, working with the author). Then
 | Task | Read |
 |---|---|
 | Writing, auditing, or reviewing commentary | `STANDARDS.md` and `content/<book>/BRIEF.md` |
-| Auditing an Isaiah chapter | also `content/isaiah/AUDIT.md` |
 | Resolving the author's open questions | `content/<book>/OPEN-QUESTIONS.md` |
 | Writing a theme page, or a chapter that touches a theme | `content/<book>/THEME-CANDIDATES.md` |
 | Changing code, styles, templates, or scripts; adding a book | `DEVELOPMENT.md` |

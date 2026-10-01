@@ -6,11 +6,8 @@
 
 # ---------- Church reference works ----------
 bd-isaiah: { type: entry, title: Isaiah, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/isaiah?lang=eng' }
-gs-isaiah: { type: entry, title: Isaiah, pub: '*Guide to the Scriptures*', url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/isaiah?lang=eng' }
 bd-immanuel: { type: entry, title: Immanuel, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/immanuel?lang=eng' }
 bd-messiah: { type: entry, title: Messiah, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/messiah?lang=eng' }
-bd-zion: { type: entry, title: Zion, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/zion?lang=eng' }
-gs-zion: { type: entry, title: Zion, pub: '*Guide to the Scriptures*', url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/zion?lang=eng' }
 bd-lucifer: { type: entry, title: Lucifer, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/lucifer?lang=eng' }
 bd-seraphim: { type: entry, title: Seraphim, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/seraphim?lang=eng' }
 bd-cherubim: { type: entry, title: Cherubim, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/cherubim?lang=eng' }
@@ -23,19 +20,14 @@ bd-merodach-baladan: { type: entry, title: Merodach-baladan, pub: '*Bible Dictio
 bd-eliakim: { type: entry, title: Eliakim, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/eliakim?lang=eng' }
 bd-assyria: { type: entry, title: Assyria and Babylonia, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/assyria-and-babylonia?lang=eng' }
 bd-babylon: { type: entry, title: Babylon or Babel, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/babylon?lang=eng' }
-bd-nebuchadnezzar: { type: entry, title: 'Nebuchadnezzar, Nebuchadrezzar', pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/nebuchadnezzar?lang=eng' }
 bd-persia: { type: entry, title: Persia, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/persia?lang=eng' }
 bd-media: { type: entry, title: Media, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/media?lang=eng' }
 bd-elam: { type: entry, title: Elam, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/elam?lang=eng' }
 bd-egypt: { type: entry, title: Egypt, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/egypt?lang=eng' }
 bd-ethiopia: { type: entry, title: Ethiopia or Cush, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng' }
-bd-syria: { type: entry, title: Syria, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/syria?lang=eng' }
 bd-damascus: { type: entry, title: Damascus, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/damascus?lang=eng' }
 bd-samaria: { type: entry, title: Samaria, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/samaria?lang=eng' }
 bd-ephraim: { type: entry, title: Ephraim, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ephraim?lang=eng' }
-bd-israel: { type: entry, title: Israel, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/israel?lang=eng' }
-gs-israel: { type: entry, title: Israel, pub: '*Guide to the Scriptures*', url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/israel?lang=eng' }
-bd-jerusalem: { type: entry, title: Jerusalem, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jerusalem?lang=eng' }
 bd-philistines: { type: entry, title: Philistines, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/philistines?lang=eng' }
 bd-moab: { type: entry, title: Moab, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/moab?lang=eng' }
 bd-edom: { type: entry, title: Edom, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/edom?lang=eng' }
@@ -46,13 +38,7 @@ bd-sheba: { type: entry, title: Sheba, pub: '*Bible Dictionary*', url: 'https://
 bd-lebanon: { type: entry, title: Lebanon, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/lebanon?lang=eng' }
 bd-bashan: { type: entry, title: Bashan, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/bashan?lang=eng' }
 bd-sharon: { type: entry, title: Sharon, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sharon?lang=eng' }
-bd-carmel: { type: entry, title: Carmel, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/carmel?lang=eng' }
-bd-sodom: { type: entry, title: Sodom, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sodom?lang=eng' }
-bd-siloam: { type: entry, title: Siloam, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/siloam?lang=eng' }
 bd-galilee: { type: entry, title: Galilee, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/galilee?lang=eng' }
-bd-zebulun: { type: entry, title: Zebulun, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/zebulun?lang=eng' }
-bd-nimrod: { type: entry, title: Nimrod, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/nimrod?lang=eng' }
-bd-idol: { type: entry, title: Idol, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/idol?lang=eng' }
 bd-grove: { type: entry, title: Grove, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/grove?lang=eng' }
 bd-high-places: { type: entry, title: High places, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/high-places?lang=eng' }
 bd-sacrifices: { type: entry, title: Sacrifices, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sacrifices?lang=eng' }
@@ -63,28 +49,19 @@ bd-eunuch: { type: entry, title: Eunuch, pub: '*Bible Dictionary*', url: 'https:
 bd-jehovah: { type: entry, title: Jehovah, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng' }
 bd-lord-of-hosts: { type: entry, title: 'Lord of Hosts, or Lord of Sabaoth', pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/lord-of-hosts?lang=eng' }
 bd-holy-one: { type: entry, title: Holy One of Israel, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/holy-one-of-israel?lang=eng' }
-bd-christ: { type: entry, title: Christ, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/christ?lang=eng' }
 bd-christ-names: { type: entry, title: 'Christ, names of', pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/christ-names-of?lang=eng' }
-bd-atonement: { type: entry, title: Atonement, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/atonement?lang=eng' }
 bd-abraham-covenant: { type: entry, title: 'Abraham, covenant of', pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abraham-covenant-of?lang=eng' }
-bd-temple: { type: entry, title: Temple, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple?lang=eng' }
 bd-sheol: { type: entry, title: Sheol, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sheol?lang=eng' }
-bd-hell: { type: entry, title: Hell, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hell?lang=eng' }
 bd-hephzibah: { type: entry, title: Hephzibah, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hephzibah?lang=eng' }
 bd-beulah: { type: entry, title: Beulah, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/beulah?lang=eng' }
 bd-ariel: { type: entry, title: Ariel, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ariel?lang=eng' }
 bd-leviathan: { type: entry, title: Leviathan, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/leviathan?lang=eng' }
 bd-rahab: { type: entry, title: Rahab, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/rahab?lang=eng' }
 bd-chronology: { type: entry, title: Chronology, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/chronology?lang=eng' }
-bd-prophet: { type: entry, title: Prophet, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/prophet?lang=eng' }
-bd-parables: { type: entry, title: Parables, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/parables?lang=eng' }
-bd-gentile: { type: entry, title: Gentile, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/gentile?lang=eng' }
 bd-jst: { type: entry, title: Joseph Smith Translation (JST), pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/joseph-smith-translation?lang=eng' }
 gs-stake: { type: entry, title: Stake, pub: '*Guide to the Scriptures*', url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/stake?lang=eng' }
 gs-ensign: { type: entry, title: Ensign, pub: '*Guide to the Scriptures*', url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/ensign?lang=eng' }
-gs-holy-one: { type: entry, title: Holy One of Israel, pub: '*Guide to the Scriptures*', url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/holy-one-of-israel?lang=eng' }
 gs-second-coming: { type: entry, title: Second Coming of Jesus Christ, pub: '*Guide to the Scriptures*', url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/second-coming-of-jesus-christ?lang=eng' }
-gs-fast: { type: entry, title: 'Fast, Fasting', pub: '*Guide to the Scriptures*', url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/fast-fasting?lang=eng' }
 gs-millennium: { type: entry, title: Millennium, pub: '*Guide to the Scriptures*', url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/millennium?lang=eng' }
 jst-isa-29: { type: web, title: 'Joseph Smith Translation, Isaiah 29', pub: 'Gospel Library', url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-isa/29?lang=eng' }
 jst-isa-42: { type: web, title: 'Joseph Smith Translation, Isaiah 42', pub: 'Gospel Library', url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-isa/42?lang=eng' }
@@ -99,49 +76,33 @@ ot-manual-15: { type: manual, title: 'Chapter 15: Prophecies of the Dispensation
 ot-manual-16: { type: manual, title: 'Chapter 16: The God of Israel and the Nations (Isaiah 36–47)', pub: '*Old Testament Student Manual: 1 Kings–Malachi* (2003)', url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-16?lang=eng' }
 ot-manual-17: { type: manual, title: 'Chapter 17: The Gathering of Israel and the Coming of the Messiah (Isaiah 48–54)', pub: '*Old Testament Student Manual: 1 Kings–Malachi* (2003)', url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-17?lang=eng' }
 ot-manual-18: { type: manual, title: 'Chapter 18: The Last Days and the Millennium (Isaiah 55–66)', pub: '*Old Testament Student Manual: 1 Kings–Malachi* (2003)', url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-18?lang=eng' }
-cfm-prophets: { type: manual, title: 'Thoughts to Keep in Mind: Prophets and Prophecy', pub: '*Come, Follow Me—For Home and Church: Old Testament 2026*', url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/37-thoughts?lang=eng' }
 
 # ---------- Talks and articles by Church leaders ----------
 mcconkie-keys: { type: article, author: Bruce R. McConkie, title: Ten Keys to Understanding Isaiah, pub: '*Ensign*, Oct. 1973', url: 'https://www.churchofjesuschrist.org/study/ensign/1973/10/ten-keys-to-understanding-isaiah?lang=eng' }
 kimball-false-gods: { type: article, author: Spencer W. Kimball, title: The False Gods We Worship, pub: '*Ensign*, June 1976', url: 'https://www.churchofjesuschrist.org/study/ensign/1976/06/the-false-gods-we-worship?lang=eng' }
 benson-pride: { type: talk, author: Ezra Taft Benson, title: Beware of Pride, pub: 'general conference, Apr. 1989', url: 'https://www.churchofjesuschrist.org/study/general-conference/1989/04/beware-of-pride?lang=eng' }
 holland-none-with-him: { type: talk, author: Jeffrey R. Holland, title: None Were with Him, pub: 'general conference, Apr. 2009', url: 'https://www.churchofjesuschrist.org/study/general-conference/2009/04/none-were-with-him?lang=eng' }
-holland-sanctify: { type: talk, author: Jeffrey R. Holland, title: Sanctify Yourselves, pub: 'general conference, Oct. 2000', url: 'https://www.churchofjesuschrist.org/study/general-conference/2000/10/sanctify-yourselves?lang=eng' }
 holland-mother: { type: talk, author: Jeffrey R. Holland, title: Behold Thy Mother, pub: 'general conference, Oct. 2015', url: 'https://www.churchofjesuschrist.org/study/general-conference/2015/10/behold-thy-mother?lang=eng' }
 holland-atonement-2008: { type: article, author: Jeffrey R. Holland, title: The Atonement of Jesus Christ, pub: '*Ensign*, Mar. 2008', url: 'https://www.churchofjesuschrist.org/study/ensign/2008/03/the-atonement-of-jesus-christ?lang=eng' }
-holland-laborers: { type: talk, author: Jeffrey R. Holland, title: The Laborers in the Vineyard, pub: 'general conference, Apr. 2012', url: 'https://www.churchofjesuschrist.org/study/general-conference/2012/04/the-laborers-in-the-vineyard?lang=eng' }
 eyring-fast: { type: talk, author: Henry B. Eyring, title: Is Not This the Fast That I Have Chosen?, pub: 'general conference, Apr. 2015', url: 'https://www.churchofjesuschrist.org/study/general-conference/2015/04/is-not-this-the-fast-that-i-have-chosen?lang=eng' }
-wirthlin-fast: { type: talk, author: Joseph B. Wirthlin, title: The Law of the Fast, pub: 'general conference, Apr. 2001', url: 'https://www.churchofjesuschrist.org/study/general-conference/2001/04/the-law-of-the-fast?lang=eng' }
 nelson-sabbath: { type: talk, author: Russell M. Nelson, title: The Sabbath Is a Delight, pub: 'general conference, Apr. 2015', url: 'https://www.churchofjesuschrist.org/study/general-conference/2015/04/the-sabbath-is-a-delight?lang=eng' }
-packer-forgiveness: { type: talk, author: Boyd K. Packer, title: The Brilliant Morning of Forgiveness, pub: 'general conference, Oct. 1995', url: 'https://www.churchofjesuschrist.org/study/general-conference/1995/10/the-brilliant-morning-of-forgiveness?lang=eng' }
 nelson-gathering: { type: talk, author: Russell M. Nelson, title: The Gathering of Scattered Israel, pub: 'general conference, Oct. 2006', url: 'https://www.churchofjesuschrist.org/study/general-conference/2006/10/the-gathering-of-scattered-israel?lang=eng' }
 nelson-hope-israel: { type: talk, author: Russell M. Nelson and Wendy W. Nelson, title: Hope of Israel, pub: 'worldwide youth devotional, June 3, 2018', url: 'https://www.churchofjesuschrist.org/study/broadcasts/worldwide-devotional-for-young-adults/2018/06/hope-of-israel?lang=eng' }
 nelson-revelation: { type: talk, author: Russell M. Nelson, title: 'Revelation for the Church, Revelation for Our Lives', pub: 'general conference, Apr. 2018', url: 'https://www.churchofjesuschrist.org/study/general-conference/2018/04/revelation-for-the-church-revelation-for-our-lives?lang=eng' }
-nelson-let-god-prevail: { type: talk, author: Russell M. Nelson, title: Let God Prevail, pub: 'general conference, Oct. 2020', url: 'https://www.churchofjesuschrist.org/study/general-conference/2020/10/let-god-prevail?lang=eng' }
-nelson-power-of-christ: { type: talk, author: Russell M. Nelson, title: Drawing the Power of Jesus Christ into Our Lives, pub: 'general conference, Apr. 2017', url: 'https://www.churchofjesuschrist.org/study/general-conference/2017/04/drawing-the-power-of-jesus-christ-into-our-lives?lang=eng' }
-nelson-book-of-mormon: { type: talk, author: Russell M. Nelson, title: 'The Book of Mormon: What Would Your Life Be Like without It?', pub: 'general conference, Oct. 2017', url: 'https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-book-of-mormon-what-would-your-life-be-like-without-it?lang=eng' }
-oaks-strengthened: { type: talk, author: Dallin H. Oaks, title: Strengthened by the Atonement of Jesus Christ, pub: 'general conference, Oct. 2015', url: 'https://www.churchofjesuschrist.org/study/general-conference/2015/10/strengthened-by-the-atonement-of-jesus-christ?lang=eng' }
-bednar-weak-simple: { type: talk, author: David A. Bednar, title: The Weak and the Simple of the Church, pub: 'general conference, Oct. 2007', url: 'https://www.churchofjesuschrist.org/study/general-conference/2007/10/the-weak-and-the-simple-of-the-church?lang=eng' }
 
 family-proclamation: { type: article, title: 'The Family: A Proclamation to the World', pub: 'First Presidency and Quorum of the Twelve Apostles, 1995', url: 'https://www.churchofjesuschrist.org/study/scriptures/the-family-a-proclamation-to-the-world/the-family-a-proclamation-to-the-world?lang=eng' }
 richards-mountain-1971: { type: talk, author: LeGrand Richards, title: In the Mountain of the Lord’s House, pub: 'general conference, Apr. 1971', url: 'https://www.churchofjesuschrist.org/study/general-conference/1971/04/in-the-mountain-of-the-lords-house?lang=eng' }
 
 # ---------- Hymns ----------
 hymn-high-mountain: { type: hymn, title: High on the Mountain Top, pub: '*Hymns*, no. 5', url: 'https://www.churchofjesuschrist.org/study/manual/hymns/high-on-the-mountain-top?lang=eng' }
-hymn-redeemer-israel: { type: hymn, title: Redeemer of Israel, pub: '*Hymns*, no. 6', url: 'https://www.churchofjesuschrist.org/study/manual/hymns/redeemer-of-israel?lang=eng' }
 hymn-how-firm: { type: hymn, title: How Firm a Foundation, pub: '*Hymns*, no. 85', url: 'https://www.churchofjesuschrist.org/study/manual/hymns/how-firm-a-foundation?lang=eng' }
-hymn-arise-zion: { type: hymn, title: 'Arise, O Glorious Zion', pub: '*Hymns*, no. 40', url: 'https://www.churchofjesuschrist.org/study/manual/hymns/arise-o-glorious-zion?lang=eng' }
-hymn-o-ye-mountains: { type: hymn, title: O Ye Mountains High, pub: '*Hymns*, no. 34', url: 'https://www.churchofjesuschrist.org/study/manual/hymns/o-ye-mountains-high?lang=eng' }
 
 # ---------- Latter-day Saint scholarship (BYU and elsewhere) ----------
 ludlow: { type: book, author: Victor L. Ludlow, title: 'Isaiah: Prophet, Seer, and Poet', pub: 'Salt Lake City: Deseret Book, 1982' }
 parry-understanding: { type: book, author: 'Donald W. Parry, Jay A. Parry, and Tina M. Peterson', title: Understanding Isaiah, pub: 'Salt Lake City: Deseret Book, 1998' }
-parry-harmonizing: { type: book, author: Donald W. Parry, title: 'Harmonizing Isaiah: Combining Ancient Sources', pub: 'Provo, UT: FARMS, 2001' }
-parry-visualizing: { type: book, author: Donald W. Parry, title: Visualizing Isaiah, pub: 'Provo, UT: FARMS, 2001' }
 ball-winn: { type: book, author: Terry B. Ball and Nathan Winn, title: 'Making Sense of Isaiah: Insights and Modern Applications', pub: 'Salt Lake City: Deseret Book, 2009' }
 holland-cnc: { type: book, author: Jeffrey R. Holland, title: 'Christ and the New Covenant: The Messianic Message of the Book of Mormon', pub: 'Salt Lake City: Deseret Book, 1997' }
 isaiah-in-bom: { type: book, author: 'Donald W. Parry and John W. Welch, eds.', title: Isaiah in the Book of Mormon, pub: 'Provo, UT: FARMS, 1998' }
-nyman: { type: book, author: Monte S. Nyman, title: '“Great Are the Words of Isaiah”', pub: 'Salt Lake City: Bookcraft, 1980' }
 studies-scripture-4: { type: book, author: 'Kent P. Jackson, ed.', title: 'Studies in Scripture, Vol. 4: 1 Kings to Malachi', pub: 'Salt Lake City: Deseret Book, 1993' }
 richards-marvelous: { type: book, author: LeGrand Richards, title: A Marvelous Work and a Wonder, pub: 'Salt Lake City: Deseret Book, 1950' }
 richards-israel: { type: book, author: LeGrand Richards, title: 'Israel! Do You Know?', pub: 'Salt Lake City: Deseret Book, 1954' }
@@ -150,8 +111,6 @@ chadwick-temple-prophecy: { type: article, author: Jeffrey R. Chadwick, title: '
 gee-roper-liken: { type: article, author: John Gee and Matthew Roper, title: '“I Did Liken All Scriptures unto Us”: Early Nephite Understandings of Isaiah and Implications for “Others” in the Land', pub: 'In *The Fulness of the Gospel: Foundational Teachings from the Book of Mormon*, ed. Camille Fronk Olson and others (Provo, UT: Religious Studies Center; Salt Lake City: Deseret Book, 2003), 51–65', url: 'https://rsc.byu.edu/sites/default/files/pub_content/pdf/I_Did_Liken_All_Scriptures_Unto_Us.pdf' }
 gee-hand-lord: { type: article, author: John Gee, title: 'A Different Way of Seeing the Hand of the Lord', pub: '*Religious Educator* 16, no. 2 (2015): 113–126', url: 'https://rsc.byu.edu/vol-16-no-2-2015/different-way-seeing-hand-lord' }
 bowen-yasap: { type: article, author: Matthew L. Bowen, title: '“And the Meek Also Shall Increase”: The Verb yāsap in Isaiah 29 and Nephi’s Prophetic Allusions to the Name Joseph in 2 Nephi 25–30', pub: '*Interpreter: A Journal of Latter-day Saint Faith and Scholarship* 30 (2018): 5–42', url: 'https://journal.interpreterfoundation.org/and-the-meek-also-shall-increase-the-verb-yasap-in-isaiah-29-and-nephis-prophetic-allusions-to-the-name-joseph-in-2-nephi-25-30/' }
-welch-isaiah-53: { type: article, author: John W. Welch, title: 'Isaiah 53, Mosiah 14, and the Book of Mormon', pub: 'In *Isaiah in the Book of Mormon*, ed. Donald W. Parry and John W. Welch (Provo, UT: FARMS, 1998), 293–312 (on the priests’ questions, 294–298)', url: 'https://archive.bookofmormoncentral.org/content/isaiah-53-mosiah-14-and-book-mormon' }
-pike-beautiful: { type: article, author: Dana M. Pike, title: '“How Beautiful upon the Mountains”: The Imagery of Isaiah 52:7–10 and Its Occurrences in the Book of Mormon', pub: 'In *Isaiah in the Book of Mormon*, ed. Donald W. Parry and John W. Welch (Provo, UT: FARMS, 1998), 249–291 (on 11QMelchizedek, 277–279)', url: 'https://archive.bookofmormoncentral.org/content/how-beautiful-upon-mountains-imagery-isaiah-527-10-and-its-occurrences-book-mormon' }
 strathearn-moody-servant: { type: article, author: Gaye Strathearn and Jacob Moody, title: 'Christ’s Interpretation of Isaiah 52’s “My Servant” in 3 Nephi', pub: '*Journal of the Book of Mormon and Other Restoration Scripture* 18, no. 1 (2009): 4–15', url: 'https://scholarsarchive.byu.edu/jbms/vol18/iss1/11/' }
 
 # ---------- General biblical scholarship ----------
@@ -168,17 +127,9 @@ westermann: { type: book, author: Claus Westermann, title: 'Isaiah 40–66: A Co
 paul-40-66: { type: book, author: Shalom M. Paul, title: 'Isaiah 40–66: Translation and Commentary', pub: 'Eerdmans Critical Commentary. Grand Rapids: Eerdmans, 2012' }
 duhm: { type: book, author: Bernhard Duhm, title: 'Das Buch Jesaia', pub: 'Göttinger Handkommentar zum Alten Testament. Göttingen: Vandenhoeck & Ruprecht, 1892' }
 williamson-book-called: { type: book, author: H. G. M. Williamson, title: 'The Book Called Isaiah: Deutero-Isaiah’s Role in Composition and Redaction', pub: 'Oxford: Clarendon Press, 1994' }
-seitz-zion: { type: book, author: Christopher R. Seitz, title: 'Zion’s Final Destiny: The Development of the Book of Isaiah', pub: 'Minneapolis: Fortress, 1991' }
-sommer-allusion: { type: book, author: Benjamin D. Sommer, title: 'A Prophet Reads Scripture: Allusion in Isaiah 40–66', pub: 'Stanford: Stanford University Press, 1998' }
-cogan-tadmor: { type: book, author: Mordechai Cogan and Hayim Tadmor, title: 'II Kings', pub: 'Anchor Bible 11. Garden City, NY: Doubleday, 1988' }
-anet: { type: book, author: 'James B. Pritchard, ed.', title: 'Ancient Near Eastern Texts Relating to the Old Testament', pub: '3rd ed. Princeton: Princeton University Press, 1969' }
 tov-textual: { type: book, author: Emanuel Tov, title: 'Textual Criticism of the Hebrew Bible', pub: '3rd ed. Minneapolis: Fortress, 2012' }
-dss-bible: { type: book, author: 'Martin Abegg Jr., Peter Flint, and Eugene Ulrich', title: 'The Dead Sea Scrolls Bible', pub: 'San Francisco: HarperSanFrancisco, 1999' }
 halot: { type: book, author: Ludwig Koehler and Walter Baumgartner, title: 'The Hebrew and Aramaic Lexicon of the Old Testament', pub: 'Leiden: Brill, 1994–2000' }
 matthews-plainer: { type: book, author: Robert J. Matthews, title: '“A Plainer Translation”: Joseph Smith’s Translation of the Bible, a History and Commentary', pub: 'Provo, UT: Brigham Young University Press, 1975' }
-walker-dick-mis-pi: { type: book, author: Christopher Walker and Michael B. Dick, title: 'The Induction of the Cult Image in Ancient Mesopotamia: The Mesopotamian mīs pî Ritual', pub: 'State Archives of Assyria Literary Texts 1. Helsinki: Neo-Assyrian Text Corpus Project, 2001' }
-bauckham-jesus-god: { type: book, author: Richard Bauckham, title: 'Jesus and the God of Israel: God Crucified and Other Studies on the New Testament’s Christology of Divine Identity', pub: 'Grand Rapids: Eerdmans, 2008' }
-nilsen-creation: { type: article, author: Tina Dykesteen Nilsen, title: 'Creation in Collision? Isaiah 40–48 and Zoroastrianism, Babylonian Religion and Genesis 1', pub: '*Journal of Hebrew Scriptures* 13, article 8 (2013)', url: 'https://jhsonline.org/index.php/jhs/article/view/20652' }
 
 # ---------- Scripture Central (not official; faithful Latter-day Saint scholarship) ----------
 sc-knowhy-91: { type: article, author: Scripture Central, title: 'Why Did Abinadi Talk About the Suffering Messiah?', pub: 'KnoWhy #91, Apr. 24, 2017', url: 'https://scripturecentral.org/knowhy/why-did-abinadi-talk-about-the-suffering-messiah' }
@@ -191,11 +142,9 @@ sc-knowhy-378: { type: article, author: Scripture Central, title: 'What Does the
 sc-knowhy-303: { type: article, author: Scripture Central, title: 'Why Is the Sabbath Day Needed?', pub: 'KnoWhy #303', url: 'https://scripturecentral.org/knowhy/why-is-the-sabbath-day-needed' }
 sc-knowhy-81: { type: article, author: Scripture Central, title: 'Why Do the Scriptures Compare Hell to an Unquenchable Fire?', pub: 'KnoWhy #81', url: 'https://scripturecentral.org/knowhy/why-do-the-scriptures-compare-hell-to-an-unquenchable-fire' }
 sc-knowhy-179: { type: article, author: Scripture Central, title: 'Why Did Nephi Rely on Earlier Testimonies of Christ?', pub: 'KnoWhy #179', url: 'https://scripturecentral.org/knowhy/why-did-nephi-rely-on-earlier-testimonies-of-christ' }
-sc-knowhy-551: { type: article, author: Scripture Central, title: 'Why Did Nephi Say the Devil Leads Sinners by a “Flaxen Cord”?', pub: 'KnoWhy #551', url: 'https://scripturecentral.org/knowhy/why-did-nephi-say-the-devil-leads-sinners-by-a-flaxen-cord' }
 sc-knowhy-638: { type: article, author: Scripture Central, title: 'Why Did Ancient Israelites Lift Their Hands in Praise?', pub: 'KnoWhy #638', url: 'https://scripturecentral.org/knowhy/why-did-ancient-israelites-lift-their-hands-in-praise' }
 sc-knowhy-41: { type: article, author: Scripture Central, title: 'Has the Prophecy of the Lord’s House Established in the Mountains been Fulfilled?', pub: 'KnoWhy #41', url: 'https://scripturecentral.org/knowhy/has-the-prophecy-of-the-lords-house-established-in-the-mountains-been-fulfilled' }
 sc-knowhy-49: { type: article, author: Scripture Central, title: 'Why is the Lord’s Hand "Stretched Out Still"?', pub: 'KnoWhy #49', url: 'https://scripturecentral.org/knowhy/why-is-the-lords-hand-stretched-out-still' }
-sc-knowhy-726: { type: article, author: Scripture Central, title: 'How Did Zenos’s Parable of the Vineyard Reflect the Ancient Temple?', pub: 'KnoWhy #726', url: 'https://scripturecentral.org/knowhy/how-did-zenoss-parable-of-the-vineyard-reflect-the-ancient-temple' }
 sc-knowhy-645: { type: article, author: Scripture Central, title: 'Why Did Isaiah Refer to the Heavenly Hosts as “Seraphim”?', pub: 'KnoWhy #645', url: 'https://scripturecentral.org/knowhy/why-did-isaiah-refer-to-the-heavenly-hosts-as-seraphim' }
 sc-knowhy-869: { type: article, author: Scripture Central, title: 'Why was Isaiah 9 Important for Defending Jesus’s Galilean Origin?', pub: 'KnoWhy #869', url: 'https://scripturecentral.org/knowhy/why-was-isaiah-9-important-for-defending-jesus-s-galilean-origin' }
 sc-knowhy-50: { type: article, author: Scripture Central, title: 'Why Did Moroni Quote Isaiah 11 to Joseph Smith?', pub: 'KnoWhy #50', url: 'https://scripturecentral.org/knowhy/why-did-moroni-quote-isaiah-11-to-joseph-smith' }
@@ -211,7 +160,6 @@ sc-knowhy-491: { type: article, author: Scripture Central, title: 'How Are the W
 sc-knowhy-514: { type: article, author: Scripture Central, title: 'Why Did Martin Harris Consult with Scholars like Charles Anthon?', pub: 'KnoWhy #514', url: 'https://scripturecentral.org/knowhy/why-did-martin-harris-consult-with-scholars-like-charles-anthon' }
 sc-knowhy-722: { type: article, author: Scripture Central, title: 'How Does Nephi Connect the Name Joseph to Prophecies of the Latter Days?', pub: 'KnoWhy #722', url: 'https://scripturecentral.org/knowhy/how-does-nephi-connect-the-name-joseph-to-prophecies-of-the-latter-days' }
 sc-knowhy-451: { type: article, author: Scripture Central, title: 'Why Did Some in Lehi’s Time Believe that Jerusalem Could Not Be Destroyed?', pub: 'KnoWhy #451', url: 'https://scripturecentral.org/knowhy/why-did-some-in-lehis-time-believe-that-jerusalem-could-not-be-destroyed' }
-sc-knowhy-646: { type: article, author: Scripture Central, title: 'Were There “Fiery Flying Serpents” along Lehi’s Trail?', pub: 'KnoWhy #646', url: 'https://scripturecentral.org/knowhy/were-there-fiery-flying-serpents-along-lehis-trail' }
 sc-knowhy-802: { type: article, author: Scripture Central, title: 'Why Did the Saints Move to the Rocky Mountains?', pub: 'KnoWhy #802', url: 'https://scripturecentral.org/knowhy/why-did-the-saints-move-to-the-rocky-mountains' }
 sc-knowhy-754: { type: article, author: Scripture Central, title: 'Why Did Mormon Say That Many Prophets Prophesied of the Destructions in 3 Nephi?', pub: 'KnoWhy #754', url: 'https://scripturecentral.org/knowhy/why-did-mormon-say-that-many-prophets-prophesied-of-the-destructions-in-3-nephi' }
 sc-knowhy-5: { type: article, author: Scripture Central, title: 'Did Lehi Use the Poetry of the Ancient Bedouin?', pub: 'KnoWhy #5', url: 'https://scripturecentral.org/knowhy/did-lehi-know-poetry-arabian-desert' }
@@ -244,12 +192,9 @@ jst-ex-4-footnote: { type: entry, title: 'Exodus 4:21, footnote c (JST Ex. 4:21)
 luckenbill-annals: { type: book, author: Daniel David Luckenbill, title: 'The Annals of Sennacherib', pub: 'Oriental Institute Publications 2. Chicago: University of Chicago Press, 1924 (includes the Oriental Institute prism’s account of the siege of Jerusalem and the Bavian inscription on the destruction of Babylon)', url: 'https://archive.org/details/annalsofsennache00senn_0' }
 seitz-divine-council: { type: article, author: Christopher R. Seitz, title: 'The Divine Council: Temporal Transition and New Prophecy in the Book of Isaiah', pub: '*Journal of Biblical Literature* 109, no. 2 (1990): 229–247', url: 'https://doi.org/10.2307/3267015' }
 jst-lk-3: { type: entry, title: 'Joseph Smith Translation, Luke 3 (summary)', pub: 'Joseph Smith Translation Appendix, Gospel Library', url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-lk/3?lang=eng' }
-pseudo-matthew: { type: web, title: 'The Gospel of Pseudo-Matthew (chapter 14)', pub: 'New Advent, Fathers of the Church (Ante-Nicene Fathers translation)', url: 'https://www.newadvent.org/fathers/0848.htm' }
-newsroom-solemn-assembly: { type: web, title: 'What Is a Solemn Assembly?', pub: 'Newsroom, The Church of Jesus Christ of Latter-day Saints', url: 'https://newsroom.churchofjesuschrist.org/article/solemn-assembly' }
 sc-knowhy-24: { type: article, author: Scripture Central, title: 'Who is the Servant of Isaiah 49/1 Nephi 21?', pub: 'KnoWhy #24', url: 'https://scripturecentral.org/knowhy/who-is-the-servant-of-isaiah-491-nephi-21' }
 bd-let: { type: entry, title: Let, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/let?lang=eng' }
 nelson-exodus-repeated: { type: article, author: Russell M. Nelson, title: The Exodus Repeated, pub: '*Ensign*, July 1999', url: 'https://www.churchofjesuschrist.org/study/ensign/1999/07/the-exodus-repeated?lang=eng' }
-herodotus-macaulay: { type: book, author: Herodotus, title: 'The History of Herodotus', pub: 'Trans. G. C. Macaulay. London: Macmillan, 1890; vol. 1 (books 1–4) on Project Gutenberg', url: 'https://www.gutenberg.org/ebooks/2707' }
 rogers-cuneiform: { type: book, author: Robert William Rogers, title: Cuneiform Parallels to the Old Testament, pub: 'New York: Eaton & Mains, 1912; read in the 1926 Abingdon printing on the Internet Archive; the Cylinder of Cyrus, pp. 380–384; Code of Hammurabi, prologue', url: 'https://archive.org/details/cuneiformparalle00roge' }
 je-water-drawing: { type: entry, author: 'Executive Committee of the Editorial Board and Judah David Eisenstein', title: 'Water-Drawing, Feast of', pub: '*The Jewish Encyclopedia*. New York: Funk & Wagnalls, 1901–1906', url: 'https://www.jewishencyclopedia.com/articles/14794-water-drawing-feast-of' }
 gs-patriarchal-blessings: { type: entry, title: Patriarchal Blessings, pub: '*Guide to the Scriptures*', url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/patriarchal-blessings?lang=eng' }
@@ -261,7 +206,6 @@ mosiah-12-heading: { type: entry, title: 'Mosiah 12, chapter heading', pub: 'The
 tahot: { type: web, title: 'Translators Amalgamated Hebrew Old Testament (TAHOT)', pub: 'STEPBible.org / Tyndale House, Cambridge; CC BY 4.0', url: 'https://github.com/STEPBible/STEPBible-Data' }
 hopkin-abinadi-isaiah: { type: article, author: Shon D. Hopkin, title: 'Isaiah 52–53 and Mosiah 13–14: A Textual Comparison', pub: 'In *Abinadi: He Came Among Them in Disguise*. Provo, UT: Religious Studies Center, Brigham Young University, 2018', url: 'https://rsc.byu.edu/abinadi/isaiah-52-53-mosiah-13-14' }
 lds-scriptures: { type: web, title: 'The Holy Scriptures (Latter-day Saint editions), text and chapter headings', pub: 'The Church of Jesus Christ of Latter-day Saints', url: 'https://www.churchofjesuschrist.org/study/scriptures?lang=eng' }
-meade-isaiah-53: { type: article, author: John D. Meade, title: 'Recovering the Resurrection in Isaiah 53: Textual Criticism and Easter', pub: 'Text & Canon Institute, 2021', url: 'https://textandcanon.org/recovering-the-resurrection-textual-criticism-and-easter/' }
 nrsv: { type: book, title: 'New Revised Standard Version, Anglicised', pub: 'National Council of Churches, 1989/1995; on BibleGateway', url: 'https://www.biblegateway.com/versions/New-Revised-Standard-Version-Anglicised-NRSVA-Bible/' }
 esv: { type: book, title: 'English Standard Version', pub: 'Crossway, 2016; on BibleGateway', url: 'https://www.biblegateway.com/versions/English-Standard-Version-ESV-Bible/' }
 pgp-student-manual-2018: { type: manual, title: 'Moses 7:42–69', pub: '*Pearl of Great Price Student Manual* (Church Educational System, 2018)', url: 'https://www.churchofjesuschrist.org/study/manual/the-pearl-of-great-price-student-manual-2018/the-book-of-moses/moses-7-42-69?lang=eng' }
