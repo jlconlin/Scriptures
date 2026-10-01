@@ -4,10 +4,6 @@ Judgment calls waiting for the author, and work still to do. Whoever writes or a
 
 The list was worked through with the author on 2026-10-01; what was decided then is in `STANDARDS.md` and `DECISIONS.md` (no length target; unsourced devotional readings cut) and in the chapters themselves.
 
-## Waiting for the author
-
-- **21, Christ section.** The watchman read as the Savior, and “what of the night?” answered by Christ as the morning star, are the chapter's own typology: scripture supplies the images (Rev. 1:5, 22:16; Ps. 121:4), but no source makes the connection. Under the devotional rule they would be cut, which would leave the section with nothing about Christ. Cut, keep, or find a source?
-
 ## Work to do (no decision needed)
 
 - **Cut weak notes.** Under the no-length-target rule, cut notes that are mostly cross-reference chains or curiosities. Earlier passes flagged candidates in nearly every chapter (2–3, 5–14, 16–34, 37–49, 51–66; chapter 1 has nine).
