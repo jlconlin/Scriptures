@@ -125,6 +125,8 @@ Most Latter-day Saint writers read the book as Isaiah’s prophecy, for reasons 
 - The **Savior** quoted Isaiah 52 and 54 and attributed them to Isaiah ([[3 Ne. 20:11]]; [[3 Ne. 22]]; [[3 Ne. 23:1–3]]). New Testament writers likewise attribute passages from chapters 40 and 53 to Isaiah ([[Matt. 3:3]]; [[John 12:38–41]]).[@isaiah-in-bom, 424–25]
 - Latter-day Saints believe that God reveals the future to His prophets ([[Amos 3:7]]). Naming Cyrus in advance is exactly what Isaiah says the Lord does to prove He is God: “declaring the end from the beginning” ([[Isa. 46:9–10]]).[@isaiah-in-bom, 429–30]
 
+Two cautions belong with these reasons. The New Testament references are helpful but “do not settle the question of authorship,” since they name the book as a whole without dating each part of it.[@isaiah-in-bom, 425] And the Book of Mormon requires only the chapters it quotes or uses to be older than 600 BC; it is possible that some parts of Isaiah were missing from the brass plates.[@isaiah-in-bom, 432]
+
 That doesn’t mean the observations behind the scholarly theory are worthless: critical scholars may have correctly identified real differences in the text, and the question is how best to explain them.[@isaiah-in-bom, 428] Latter-day Saint readers explain them by Isaiah’s inspired view of a future he was shown.[@isaiah-in-bom, 429–30]
 
 ## Where to start
