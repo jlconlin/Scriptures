@@ -117,6 +117,11 @@ Judgment calls and unverified claims waiting for the author. Whoever writes or a
 - v. 4: Wayment’s argument is reported only through KnoWhy #564; his JBMS article wasn’t read.
 - v. 9: Hopkin (“high place”), Meade (“his hill” or “his tomb”) and the NRSVUE differ on the scroll’s word; the note says the sense is uncertain.
 
+**Isaiah 53** (*Isaiah in the Book of Mormon* restored, 2026-10-01)
+- v. 10: a paragraph on who “the LORD” is who was pleased (Latter-day Saint readers differ: the Father, Jehovah/Christ, or either; Thompson and Smith, pp. 498–501). Keep, or move to a guide or theme page?
+- Proposed, not added: a note on why Noah’s priests could read the song differently (unnamed servant, unattributed pronouns, past tense; Welch, pp. 308–310), replacing 53:2 “A root out of dry ground”.
+- Welch (p. 295) argues the Nephites saw the song beginning at 53:1, where Abinadi starts quoting; the site treats 52:13–53:12 as one song.
+
 **Isaiah 54** (audit, 2026-09-30)
 - v. 4: the Book of Mormon's repeated line (“the reproach of thy youth”) is noted without a cause; no readable critical-text source was found. Skousen's *Analysis of Textual Variants* may address it.
 - “Cut off out of the land of the living” (53:8) now stands where the chapter said the servant “died childless”. Wording OK?
