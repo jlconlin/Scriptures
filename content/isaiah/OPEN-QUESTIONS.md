@@ -18,6 +18,14 @@ Judgment calls and unverified claims waiting for the author. Whoever writes or a
   - 16: the chapter's reading (Moab offered refuge in Zion and refused through pride) now sits beside Delitzsch's (vv. 3–4 are Moab's own plea).
   - Many of 1–37 now have no `when` date (the old ranges had no source); restore any you want from a source.
   - Whole notes flagged as possibly peripheral: 2:8, 2:13, 2:20, 2:22; 3:4, 3:9, 3:15, 3:18; 4:1, 4:5; 5:10, 5:18, 5:22, 5:27; 6:1 (hem), 6:4, 6:8, 6:11; 7:2, 7:11, 7:15, 7:23; 8:3, 8:12, 8:19; 9:4, 9:5, 9:15, 9:17; 10:26, 10:28; 11:8, 11:12; 12:4; 13:2, 13:8, 13:21; 14:8, 14:11, 14:13, 14:29; 16:7, 16:12.
+- **Audits of 17–26 (2026-10-01).** Judgment calls:
+  - 18: the “land shadowing with wings” note now gives the Latter-day Saint reading (America; Student Manual, Joseph Fielding Smith, Orson Pratt, Spencer W. Kimball) and then the Cush reading. The old text wrongly said Church curriculum didn't support the first.
+  - 22:23–25 “a nail in a sure place”: two readings kept (Delitzsch: Eliakim's own fall; Student Manual: messianic).
+  - 24:22: the Student Manual's spirit-prison reading is kept beside Delitzsch's (Hades).
+  - 25:7: the veil is given as mourning or (Student Manual) unbelief.
+  - 26:19 “my dead body”: no longer presented as a prophecy of Christ's resurrection; the faithful community speaks (Delitzsch), and the Student Manual reads it as “the Lord's and our own”. Restore the prophecy reading?
+  - 26:17–18 “pangs” and “cords”: kept with both views (KnoWhy 93 links them; BDB lists two words).
+  - Whole notes flagged as possibly peripheral: 17:5, 17:8, 17:10, 17:12; 18:2; 19:5, 19:14, 19:18; 20:3, 20:4, 20:5; 21:10, 21:16; 22:10, 22:15; 23:3, 23:13; 24:1, 24:17, 24:18; 25 “Swimming in the dung pit”, “Refuge from the storm”; 26:1, 26:9 (two), 26:21.
 - **Isaiah in the Book of Mormon was dropped as “unread” from several chapters** (2, 4, 49, 50, and others in 40–55) because no PDF tool worked at the time; it is readable now. Restoring it where it supports a note would bring those chapters closer to Latter-day Saint scholarship.
 - 42:14 keeps a Liberty Jail passage that the trimming agent called a Latter-day Saint *application*; check it against the no-application rule.
 - 54:7: the trim cut the point that *šeṣep* (“a little wrath”, v. 8) occurs only once in the Bible, which the batch-1 audit had verified against the whole Hebrew Bible. Restore?
