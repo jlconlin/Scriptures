@@ -26,6 +26,12 @@ Judgment calls and unverified claims waiting for the author. Whoever writes or a
   - 26:19 “my dead body”: no longer presented as a prophecy of Christ's resurrection; the faithful community speaks (Delitzsch), and the Student Manual reads it as “the Lord's and our own”. Restore the prophecy reading?
   - 26:17–18 “pangs” and “cords”: kept with both views (KnoWhy 93 links them; BDB lists two words).
   - Whole notes flagged as possibly peripheral: 17:5, 17:8, 17:10, 17:12; 18:2; 19:5, 19:14, 19:18; 20:3, 20:4, 20:5; 21:10, 21:16; 22:10, 22:15; 23:3, 23:13; 24:1, 24:17, 24:18; 25 “Swimming in the dung pit”, “Refuge from the storm”; 26:1, 26:9 (two), 26:21.
+- **Audits of 27–31 (2026-10-01).** Judgment calls:
+  - 28:15 “covenant with death”: the Student Manual (quoting the Interpreter's Bible: Mot or Osiris) and Delitzsch (Egypt) differ; the note flags it.
+  - 29: Emma Smith's remark about Joseph's letter-writing was cut (no source read); Church History or the Joseph Smith Papers could restore it. Cloward (*Isaiah in the Book of Mormon*, pp. 209–210, 218) has more on how 2 Ne. 27 changes Isaiah 29 and on the Savior's use of 29:13 in JS–H 1:19; worth a note?
+  - 30: undated (no source for 703–701 BC). Delitzsch reads “the beasts of the south” as the hippopotamus, an emblem of Egypt; the note keeps the Negev.
+  - 31:4: the lion now has both readings (attacking Zion; defending it).
+  - Whole notes flagged as possibly peripheral: 27:3, 27:4; 28:5, 28:20, 28:21, 28:29; 29:1, 29:7, 29:16, 29:21; 30:11, 30:13, 30:29, 30:33.
 - **Isaiah in the Book of Mormon was dropped as “unread” from several chapters** (2, 4, 49, 50, and others in 40–55) because no PDF tool worked at the time; it is readable now. Restoring it where it supports a note would bring those chapters closer to Latter-day Saint scholarship.
 - 42:14 keeps a Liberty Jail passage that the trimming agent called a Latter-day Saint *application*; check it against the no-application rule.
 - 54:7: the trim cut the point that *šeṣep* (“a little wrath”, v. 8) occurs only once in the Bible, which the batch-1 audit had verified against the whole Hebrew Bible. Restore?
