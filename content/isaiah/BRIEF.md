@@ -30,7 +30,7 @@ All 66 chapters are written. Chapters 38–66 were written at the semi-academic 
 
 - Add 2–4 deeper notes: textual variants (MT, LXX, 1QIsaᵃ, Book of Mormon readings), fairly presented scholarly debates (for example, the date of chapters 24–27, whether chapters 13–14 postdate Isaiah, near and far fulfillments of 7:14), archaeology, and literary structure.
 - Sharpen the `thread` where it is thin.
-- Make sources explicit, and mark how certain each claim is (established fact, consensus, hypothesis, or devotional application).
+- Make sources explicit, and mark how certain each claim is (established fact, consensus, hypothesis, or devotional reading).
 
 Priority order: 1, 6, 7, 9, 11, 14, 24–27, 29; then the rest. The oracles in 15–23 are lowest priority.
 

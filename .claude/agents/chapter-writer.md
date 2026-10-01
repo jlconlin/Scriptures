@@ -39,7 +39,7 @@ Write `content/<book>/evidence/NN.yaml` (two-digit chapter number) in the format
 
 Write `content/<book>/chapters/NN.yaml` with every field in `STANDARDS.md` (“Chapter file structure”). Work from the ledger: every factual claim you write has a row, and every source key you cite has a row. Then re-read your chapter against the ledger and remove anything that has no row.
 
-- About 3,500 words and 8–11 notes; `setting` 150–250 words.
+- No length target, but no note that is mostly a chain of cross-references or a curiosity; `setting` 150–250 words.
 - No personal application or “liken” content. Close with `christ` and `explore`.
 - Don't name modern scholars in running text. Say how certain each claim is.
 - Open each note with a sentence that says what it is about.

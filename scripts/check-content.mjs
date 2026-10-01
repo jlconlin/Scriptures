@@ -10,8 +10,6 @@
 // Strict chapters (errors): every note has sources; every cited key has a ledger row;
 //   ledger rows are complete (where, claim, key, url, quote); works that cannot be read
 //   online need a quoted ledger row.
-// All chapters (warnings): more than MAX_NOTES notes or MAX_WORDS words, since the site is
-//   meant to be selective, not comprehensive (STANDARDS.md §3, “Selectivity”).
 //
 // Usage: node scripts/check-content.mjs [book [chapter]] [--quiet] [--root <dir>]
 // Exit code is 1 if there are errors, 0 otherwise (warnings never fail).
@@ -24,9 +22,6 @@ import YAML from 'yaml';
 // in the ledger, since nobody can check the claim against the page.
 const NOT_READABLE = ['oswalt', 'blenkinsopp', 'childs', 'paul-40-66', 'westermann', 'halot', 'parry-understanding', 'williamson-book-called', 'tov-textual', 'matthews-plainer'];
 
-// Selectivity guideline is about 3,500 words and 8–11 notes; warn well past it.
-const MAX_NOTES = 11;
-const MAX_WORDS = 4500;
 
 // Wikis are not sources (anyone can edit them); nor are popular history sites (author, 2026-10-01).
 const WIKI_HOSTS = ['livius.org', 'wikipedia.org', 'wikimedia.org', 'wikisource.org', 'wikiquote.org', 'wiktionary.org', 'wikidata.org', 'wikibooks.org', 'fandom.com', 'wikia.com', 'wikia.org'];
@@ -55,8 +50,6 @@ const isWiki = (url) => {
 };
 const keyOf = (s) => String(s).split(/,\s*/)[0];
 const isKey = (k) => /^[a-z0-9-]+$/.test(k); // same rule as build.mjs: other strings are free text
-const wordCount = (ch) => [ch.setting, ch.thread, ch.christ, ch.explore, ...(ch.sections ?? []).map((x) => x.plain), ...(ch.notes ?? []).map((n) => n.body)]
-  .join(' ').split(/\s+/).filter(Boolean).length;
 const readYaml = async (f) => YAML.parse(await readFile(f, 'utf8'));
 const ls = async (d, ext) => (existsSync(d) ? (await readdir(d)).filter((f) => f.endsWith(ext)).sort() : []);
 
@@ -109,11 +102,6 @@ for (const book of books) {
     const ch = await readYaml(path.join(bdir, 'chapters', f));
     const notes = ch.notes ?? [];
     const noteLabel = (n) => `${label} note ${n.ref ?? '?'}${n.title ? ` “${n.title}”` : ''}`;
-
-    // All chapters: selectivity.
-    const words = wordCount(ch);
-    if (notes.length > MAX_NOTES || words > MAX_WORDS)
-      warn(`${label}: ${notes.length} notes, about ${words} words (guideline: 8–11 notes, about 3,500 words)`);
 
     // Global: every key cited anywhere in the chapter exists.
     const cited = new Set();
