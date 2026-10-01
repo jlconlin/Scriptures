@@ -1,0 +1,413 @@
+# Evidence ledger for Isaiah 6 (audit, 2026-10-01)
+chapter: 6
+claims:
+  - where: 'when'
+    claim: 'Isaiah’s call dates to about 740 BC; Uzziah chronology uncertain'
+    key: bible-chron-ot
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-chron/old-testament?lang=eng'
+    quote: 'Isaiah begins to prophesy.'
+  - where: 'when'
+    claim: 'The Church’s chronology notes the uncertainty in Uzziah’s reign dates'
+    key: bible-chron-ot
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-chron/old-testament?lang=eng'
+    quote: 'There is much uncertainty about the chronology of the reigns of Uzziah, Jotham, and Pekah'
+  - where: 'setting'
+    claim: 'Uzziah reigned fifty-two years'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/26?lang=eng'
+    quote: 'he reigned fifty and two years in Jerusalem'
+  - where: 'setting'
+    claim: 'Uzziah entered the temple to burn incense in pride and was struck with leprosy'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/26?lang=eng'
+    quote: 'when he was strong, his heart was lifted up to his destruction: for he transgressed against the Lord his God, and went into the temple of the Lord to burn incense upon the altar of incense'
+  - where: 'setting'
+    claim: 'Uzziah lived in a separate house as a leper until his death'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/26?lang=eng'
+    quote: 'Uzziah the king was a leper unto the day of his death, and dwelt in a several house, being a leper'
+  - where: 'setting'
+    claim: 'John says Isaiah saw Christ’s glory (John 12:41)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/12?lang=eng'
+    quote: 'These things said Esaias, when he saw his glory, and spake of him.'
+  - where: 'thread'
+    claim: 'The Hebrew verb for “purged” (tekuppar, from kipper) means “be covered over, atoned for”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'be covered over, atoned for. 1 apart from the ritual, חטאתך תכפר Isaiah 6:7 thy sin shall be covered over'
+  - where: 'section 2 plain'
+    claim: '“Atoned for” renders tekuppar in 6:7'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'be covered over, atoned for.'
+  - where: 'section 2 plain'
+    claim: 'nidmeti in 6:5 is “ruined, undone”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1820.htm'
+    quote: 'be ruined, undone, prophet at sight of Yahweh Isaiah 6:5'
+  - where: 'section 3 plain'
+    claim: 'The Hebrew verb in 6:10 means make fat (dull, unreceptive)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8080.htm'
+    quote: 'make fat (dull, unreceptive)'
+  - where: 'section 3 plain'
+    claim: 'Trees are the terebinth and oak, which leave a root-stump'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/6.htm'
+    quote: 'like the terebinth and like the oak, of which, when they are felled, only a root-stump remains: such a root-stump is a holy seed'
+  - where: 'note 6:1 “The death of a proud king”'
+    claim: 'Uzziah is also called Azariah'
+    key: bd-uzziah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/uzziah?lang=eng'
+    quote: 'Called Azariah (2 Kgs. 14:21); king of Judah (2 Chr. 26:1)'
+  - where: 'note 6:1 “The death of a proud king”'
+    claim: 'Uzziah’s success, army and fortifications (2 Chr. 26:1–15)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/26?lang=eng'
+    quote: 'Uzziah had an host of fighting men, that went out to war by bands'
+  - where: 'note 6:1 “The death of a proud king”'
+    claim: 'Priests confronted him, leprosy broke out, he was cut off from the house of the Lord'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/26?lang=eng'
+    quote: 'he was leprous in his forehead, and they thrust him out from thence'
+  - where: 'note 6:1 “The death of a proud king”'
+    claim: 'Date of Isaiah’s vision, about 740 BC, with uncertainty'
+    key: bible-chron-ot
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-chron/old-testament?lang=eng'
+    quote: 'Isaiah begins to prophesy.'
+  - where: 'note 6:1 “Isaiah saw Jesus Christ”'
+    claim: 'John 12:41 says Esaias saw his glory and spake of him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/12?lang=eng'
+    quote: 'These things said Esaias, when he saw his glory, and spake of him.'
+  - where: 'note 6:1 “Isaiah saw Jesus Christ”'
+    claim: 'Nephi says Isaiah verily saw his Redeemer'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/11?lang=eng'
+    quote: 'for he verily saw my Redeemer, even as I have seen him'
+  - where: 'note 6:1 “Isaiah saw Jesus Christ”'
+    claim: 'Delitzsch: John says it was Jesus whose glory Isaiah saw'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/6.htm'
+    quote: 'But John, in his Gospel, is bold enough to say that it was Jesus whose glory Isaiah saw (John 12:41).'
+  - where: 'note 6:1 “A phrase Isaiah saves for God and His Servant”'
+    claim: 'Isa. 6:1 reads ram venissa (high and lifted up)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/isaiah/6-1.htm'
+    quote: 'rāmרָ֣םbeing highV‑Qal‑Prtcpl‑ms'
+  - where: 'note 6:1 “A phrase Isaiah saves for God and His Servant”'
+    claim: 'Isa. 57:15 uses the same pair, ram venissa, of the Lord'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/isaiah/57-15.htm'
+    quote: 'rāmרָ֣םthe One HighV‑Qal‑Prtcpl‑ms'
+  - where: 'note 6:1 “A phrase Isaiah saves for God and His Servant”'
+    claim: 'Isa. 2:13 uses the same roots of proud cedars'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/isaiah/2-13.htm'
+    quote: 'hā·rā·mîmהָרָמִ֖יםthose being highArt'
+  - where: 'note 6:1 “A phrase Isaiah saves for God and His Servant”'
+    claim: 'Isa. 52:13 uses the same roots (yarum venissa) of the Servant'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/isaiah/52-13.htm'
+    quote: 'yā·rūmיָר֧וּםhe will rise upV‑Qal‑Imperf‑3ms'
+  - where: 'note 6:1 “A phrase Isaiah saves for God and His Servant”'
+    claim: 'Jesus: if lifted up, will draw all men'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/12?lang=eng'
+    quote: 'And I, if I be lifted up from the earth, will draw all men unto me.'
+  - where: 'note 6:1 “The hem of His robe”'
+    claim: 'shul is the skirt of a robe; of the Lord’s train in Isa. 6:1'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7757.htm'
+    quote: 'skirt, of robe; — plural construct שׁוּלֵי Exodus 28:34+; suffix שׁוּלַיִךְ Nahum 3:5 +, שׁוּלָיו Isaiah 6:1'
+  - where: 'note 6:1 “The hem of His robe”'
+    claim: 'The robe with a train, whose flowing ends filled the hall'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/6.htm'
+    quote: 'as is proved by the robe with a train, whose flowing ends or borders'
+  - where: 'note 6:1 “The hem of His robe”'
+    claim: 'The woman touched Jesus’s garment and was healed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/mark/5?lang=eng'
+    quote: 'For she said, If I may touch but his clothes, I shall be whole.'
+  - where: 'note 6:2 “The burning ones”'
+    claim: 'Seraph from saraph, “to burn,” “burning one”'
+    key: sc-knowhy-645
+    url: 'https://admin.scripturecentral.org/api/knowhys?filters[slug][$eq]=why-did-isaiah-refer-to-the-heavenly-hosts-as-seraphim'
+    quote: 'Based on the Hebrew root saraph (‘to burn’), the term seraph may be translated ‘burning one’ or ‘bright shining one,’'
+  - where: 'note 6:2 “The burning ones”'
+    claim: 'Isaiah’s language is unique in calling the beings around the throne seraphim'
+    key: sc-knowhy-645
+    url: 'https://admin.scripturecentral.org/api/knowhys?filters[slug][$eq]=why-did-isaiah-refer-to-the-heavenly-hosts-as-seraphim'
+    quote: 'Isaiah’s language is unique, however, in identifying the angelic beings surrounding God’s throne as seraphim'
+  - where: 'note 6:2 “The burning ones”'
+    claim: 'Bible Dictionary on seraphim'
+    key: bd-seraphim
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/seraphim?lang=eng'
+    quote: 'They are attendants in Jehovah’s court, the ministers of the heavenly sanctuary'
+  - where: 'note 6:2 “The burning ones”'
+    claim: 'Seraphim is plural (Hebrew -im); BDB lists the plural form, six wings, attendant on Yahweh; probably akin to the serpent saraph'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8314.htm'
+    quote: 'plural שְׂרָפִים seraphim (probably akin to I. ׳שׂ, as beings originally mythically conceived with serpents’ bodies'
+  - where: 'note 6:2 “The burning ones”'
+    claim: 'Seraphim have six wings and attend Yahweh (Isa. 6:2, 6); saraph the serpent in Num. 21:8'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8314.htm'
+    quote: 'majestic beings with six wings, and human hands and voices, attendant upon ׳י Isaiah 6:2,6'
+  - where: 'note 6:2 “The burning ones”'
+    claim: 'Seraphim of Isa. 6:2 are the plural form seraphim in Hebrew'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/isaiah/6-2.htm'
+    quote: 'Interlinear: Above it stood the seraphims: each one had six wings'
+  - where: 'note 6:2 “The burning ones”'
+    claim: 'Wings: two cover faces (awe at divine glory), two cover feet (creature’s depth below the Holiest)'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/6.htm'
+    quote: 'covering their faces with two other wings in their awe at the divine glory'
+  - where: 'note 6:2 “The burning ones”'
+    claim: 'Feet covered in consciousness of the depth at which the creature stands'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/6.htm'
+    quote: 'in their consciousness of the depth at which the creature stands below the Holiest of all'
+  - where: 'note 6:2 “The burning ones”'
+    claim: 'The brass serpent is called a fiery serpent (saraph) Num. 21:8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/21?lang=eng'
+    quote: 'Make thee a fiery serpent, and set it upon a pole'
+  - where: 'note 6:2 “The burning ones”'
+    claim: 'Joseph Smith’s Kirtland dedicatory prayer mentions seraphs (D&C 109:79)'
+    key: sc-knowhy-645
+    url: 'https://admin.scripturecentral.org/api/knowhys?filters[slug][$eq]=why-did-isaiah-refer-to-the-heavenly-hosts-as-seraphim'
+    quote: 'that we may mingle our voices with those bright, shining seraphs around thy throne'
+  - where: 'note 6:3 “Holy, holy, holy”'
+    claim: 'Threefold repetition of holy gives emphasis'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/6.htm'
+    quote: 'the threefold repetition of the word "holy" serves to give it the greater emphasis'
+  - where: 'note 6:3 “Holy, holy, holy”'
+    claim: 'Holy means the separate One, spotless purity'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/6.htm'
+    quote: 'i.e., the separate One, beyond or above the world, true light, spotless purity, the perfect One.'
+  - where: 'note 6:3 “Holy, holy, holy”'
+    claim: 'Holy One of Israel is the echo of the seraphic sanctus, stamped on both parts of the book'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/6.htm'
+    quote: 'is the echo of this seraphic sanctus'
+  - where: 'note 6:3 “Holy, holy, holy”'
+    claim: 'Revelation 4:8 holy, holy, holy'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/4?lang=eng'
+    quote: 'Holy, holy, holy, Lord God Almighty'
+  - where: 'note 6:4 “Smoke and shaking”'
+    claim: 'God veils His glory because created beings cannot bear it'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/6.htm'
+    quote: 'But whilst He manifests His glory there, He is obliged also to veil it, because created beings are unable to bear it.'
+  - where: 'note 6:4 “Smoke and shaking”'
+    claim: 'Smoke at Sinai'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/19?lang=eng'
+    quote: 'And mount Sinai was altogether on a smoke'
+  - where: 'note 6:4 “Smoke and shaking”'
+    claim: 'Cloud filled the house at Solomon’s temple dedication'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/8?lang=eng'
+    quote: 'So that the priests could not stand to minister because of the cloud'
+  - where: 'note 6:4 “Smoke and shaking”'
+    claim: 'Rev. 15:8 temple filled with smoke from the glory of God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/15?lang=eng'
+    quote: 'the temple was filled with smoke from the glory of God'
+  - where: 'note 6:5 “I am undone”'
+    claim: 'nidmeti (Niphal of damah) means be cut off, destroyed, ruined; undone at sight of Yahweh'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1820.htm'
+    quote: 'be cut off, destroyed, ruined, of a city Isaiah 15:1'
+  - where: 'note 6:5 “I am undone”'
+    claim: 'Same entry: Isa. 6:5 “be ruined, undone, prophet at sight of Yahweh”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1820.htm'
+    quote: 'be ruined, undone, prophet at sight of Yahweh Isaiah 6:5'
+  - where: 'note 6:5 “I am undone”'
+    claim: 'Moses: man is nothing'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/1?lang=eng'
+    quote: 'Now, for this cause I know that man is nothing'
+  - where: 'note 6:5 “I am undone”'
+    claim: 'Peter: Depart from me'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/5?lang=eng'
+    quote: 'Depart from me; for I am a sinful man, O Lord.'
+  - where: 'note 6:5 “I am undone”'
+    claim: 'Nephi: O wretched man that I am'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/4?lang=eng'
+    quote: 'O wretched man that I am!'
+  - where: 'note 6:5 “Why lips?”'
+    claim: 'Isaiah calls it uncleanness of lips because he stood among choirs praising with pure lips'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/6.htm'
+    quote: 'because he found himself transported into the midst of choirs of beings who were praising the Lord with pure lips'
+  - where: 'note 6:6 “A coal from the altar”'
+    claim: 'Fire on the altar was never to go out'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/6?lang=eng'
+    quote: 'fire shall ever be burning upon the altar; it shall never go out.'
+  - where: 'note 6:6 “A coal from the altar”'
+    claim: 'Coals from off the altar before the Lord taken in a censer'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/16?lang=eng'
+    quote: 'And he shall take a censer full of burning coals of fire from off the altar before the Lord'
+  - where: 'note 6:6 “A coal from the altar”'
+    claim: 'The altar is the heavenly altar of incense; the tongs because a seraph’s hand cannot touch what belongs to God'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/6.htm'
+    quote: 'flew to the altar of incense - the heavenly original of the altar of incense in the earthly temple'
+  - where: 'note 6:6 “A coal from the altar”'
+    claim: 'Tongs: even a seraph’s hand cannot touch consecrated vessels'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/6.htm'
+    quote: 'because even a seraph''s hand cannot touch the vessels consecrated to God, or the sacrifices that belong to Him'
+  - where: 'note 6:6 “A coal from the altar”'
+    claim: 'BDB on tekuppar: covered over, by the touch of the live coal from the altar'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'by the touch of the live coal from the altar'
+  - where: 'note 6:7 ““Purged” means atoned”'
+    claim: 'tekuppar (Pual of kipper) means be covered over, atoned for'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'be covered over, atoned for.'
+  - where: 'note 6:7 ““Purged” means atoned”'
+    claim: 'Lev. 16:30 uses the same verb (yekapper) for making atonement'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/leviticus/16-30.htm'
+    quote: 'he shall make atonement'
+  - where: 'note 6:8 “The council in heaven”'
+    claim: '“For us” refers to the seraphim who formed with the Lord one deliberative council, as in 1 Kgs. 22:19–22'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/6.htm'
+    quote: 'who formed, together with the Lord, one deliberative council'
+  - where: 'note 6:8 “The council in heaven”'
+    claim: 'Premortal council: Here am I, send me; Lucifer answered the same'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/3?lang=eng'
+    quote: 'And one answered like unto the Son of Man: Here am I, send me. And another answered and said: Here am I, send me.'
+  - where: 'note 6:8 “The council in heaven”'
+    claim: 'Lucifer said give me thine honor'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/4?lang=eng'
+    quote: 'give me thine honor'
+  - where: 'note 6:8 “The council in heaven”'
+    claim: 'The Beloved Son: thy will be done'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/4?lang=eng'
+    quote: 'Father, thy will be done, and the glory be thine forever.'
+  - where: 'note 6:8 “Here am I”'
+    claim: 'Isa. 6:8 reads hinneni'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'הִנְ/נִ֥י'
+  - where: 'note 6:8 “Here am I”'
+    claim: 'Gen. 22:1 hinneni (Abraham)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/22-1.htm'
+    quote: 'Behold, I [am here]'
+  - where: 'note 6:8 “Here am I”'
+    claim: 'Ex. 3:4 hinneni (Moses)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/exodus/3-4.htm'
+    quote: 'Behold, [it is] I'
+  - where: 'note 6:8 “Here am I”'
+    claim: '1 Sam. 3:4 hinneni (Samuel)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/1_samuel/3-4.htm'
+    quote: 'he answered, Here [am] I.'
+  - where: 'note 6:8 “Here am I”'
+    claim: 'Isaiah’s anxiety to serve was no longer suppressed by the consciousness of his sinfulness'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/6.htm'
+    quote: 'Isaiah, whose anxiety to serve the Lord was no longer suppressed by the consciousness of his own sinfulness'
+  - where: 'note 6:9 “A hard commission, clarified”'
+    claim: 'The imperatives are not simply instructions to announce; “understand not” and “perceive not” show the result of the preaching'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/6.htm'
+    quote: 'The two prohibitory expressions, "understand not" and "perceive not," show what the result of the prophet''s preaching was to be'
+  - where: 'note 6:9 “A hard commission, clarified”'
+    claim: 'Prophet said to do what he announces'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/6.htm'
+    quote: 'a prophet might very well be said to perform what he announced as about to happen'
+  - where: 'note 6:9 “A hard commission, clarified”'
+    claim: 'Nephi’s reading: they understood not, they perceived not'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/16?lang=eng'
+    quote: 'Hear ye indeed, but they understood not; and see ye indeed, but they perceived not.'
+  - where: 'note 6:9 “A hard commission, clarified”'
+    claim: 'Paul quotes the passage at the end of Acts (Acts 28:25–28)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/28?lang=eng'
+    quote: 'Well spake the Holy Ghost by Esaias the prophet unto our fathers'
+  - where: 'note 6:10 “Heart, ears, eyes (and back again)”'
+    claim: 'Hiphil of shamen: make fat (dull, unreceptive); Deut. 32:15 of prosperous, arrogant Israel'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8080.htm'
+    quote: 'Deuteronomy 32:15 both of Israel (prosperous and arrogant) under figure of fat beast'
+  - where: 'note 6:10 “Heart, ears, eyes (and back again)”'
+    claim: 'Hebrew order in 6:10: heart first (lev ha-am), then ears, then eyes'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'לֵב־הָ/עָ֣ם'
+  - where: 'note 6:10 “Heart, ears, eyes (and back again)”'
+    claim: 'Hebrew order in 6:10: the verse ends with the heart (u-levavo) after eyes and ears'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'וּ/לְבָב֥/וֹ'
+  - where: 'note 6:10 “Heart, ears, eyes (and back again)”'
+    claim: 'Hebrew order: eyes, ears, heart; and turn back and be healed'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/isaiah/6-10.htm'
+    quote: 'lest they see with their eyes, and hear with their ears, and understand with their heart, and convert, and be healed'
+  - where: 'note 6:11 “How long?”'
+    claim: 'The question was forced from him by sympathy with the nation he belonged to'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/6.htm'
+    quote: 'a question forced from him by his sympathy with the nation to which he himself belonged'
+  - where: 'note 6:11 “How long?”'
+    claim: 'Joseph Smith in Liberty Jail: How long shall thy hand be stayed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121?lang=eng'
+    quote: 'How long shall thy hand be stayed'
+  - where: 'note 6:13 “Life in the stump”'
+    claim: 'The terebinth and oak sprout again from the root; matstsebet is the root-stump; the stump is the remnant, a holy seed'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/6.htm'
+    quote: 'the root-stump of the oak or terebinth, which was a symbol of Israel, was "a holy seed." The root-stump was the remnant that had survived the judgment'
+  - where: 'note 6:13 “Life in the stump”'
+    claim: 'The root-stump could shoot out and put forth branches again'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/6.htm'
+    quote: 'the root-stump could shoot out and put forth branches again'
+  - where: 'note 6:13 “Life in the stump”'
+    claim: 'Isa. 11:1 geza‘ is the stock or stem of a tree'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1503.htm'
+    quote: 'stock, stem of a tree Job 14:8 ("" שֹׁרֶשׁ); figurative ישׁי ׳ג ''stem of Jesse Isaiah 11:1'
+  - where: 'note 6:13 “Life in the stump”'
+    claim: 'Job: there is hope of a tree if cut down'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/14?lang=eng'
+    quote: 'For there is hope of a tree, if it be cut down, that it will sprout again'
+  - where: 'christ'
+    claim: 'John says Isaiah saw Christ’s glory (John 12:41), as the christ section states'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/12?lang=eng'
+    quote: 'These things said Esaias, when he saw his glory, and spake of him.'
+  - where: 'explore'
+    claim: 'Lehi’s throne vision (1 Ne. 1:8)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/1?lang=eng'
+    quote: 'sitting upon his throne, surrounded with numberless concourses of angels'
