@@ -6,7 +6,8 @@
 // one only produce warnings, so unaudited content never fails the check.
 //
 // Global (errors): every cited source key exists in content/sources.yaml; no source or
-//   ledger URL is on a wiki domain; no duplicate keys in sources.yaml.
+//   ledger URL is on a wiki domain; no duplicate keys in sources.yaml; a guide or theme
+//   page that lists sources cites them with numbered citations ([@key]).
 // Strict chapters (errors): every note has sources; every cited key has a ledger row;
 //   ledger rows are complete (where, claim, key, url, quote); works that cannot be read
 //   online need a quoted ledger row.
@@ -90,8 +91,11 @@ for (const book of books) {
         const text = await readFile(path.join(bdir, sub, f), 'utf8');
         const fm = text.match(/^---\n([\s\S]*?)\n---/);
         const where = `${book}/${sub}/${f}`;
-        if (fm) for (const s of YAML.parse(fm[1])?.sources ?? []) checkKey(where, keyOf(s));
-        for (const m of text.matchAll(CITE)) checkKey(where, m[1]);
+        const listed = fm ? YAML.parse(fm[1])?.sources ?? [] : [];
+        for (const s of listed) checkKey(where, keyOf(s));
+        const cites = [...text.matchAll(CITE)];
+        for (const m of cites) checkKey(where, m[1]);
+        if (listed.length && !cites.length) err(`${where}: lists sources but has no numbered citations ([@key] after the claims; STANDARDS.md §8)`);
       }
 
   for (const f of await ls(path.join(bdir, 'chapters'), '.yaml')) {

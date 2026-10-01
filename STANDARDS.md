@@ -125,7 +125,7 @@ Anything new (a kind, a section, a label) gets a plain, non-clever name, and goe
 
 ## 8. Guides and theme pages
 
-Markdown files in `content/<book>/guides/` and `content/<book>/themes/`, with YAML front matter (`title`, `blurb`, `icon`, `sources`) and then prose. Cite with a numbered citation right after the claim: `[@key]` or `[@key, locator]`. Sources in the page's `sources` that are never cited appear under “Further reading.” Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`). The same sourcing rules and ledger apply.
+Markdown files in `content/<book>/guides/` and `content/<book>/themes/`, with YAML front matter (`title`, `blurb`, `icon`, `sources`) and then prose. Cite with a numbered citation right after the claim: `[@key]` or `[@key, locator]`. This is required: `check-content.mjs` fails a page that lists sources but cites none. Sources in the page's `sources` that are never cited appear under “Further reading.” Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`). The same sourcing rules and ledger apply.
 
 ## 9. Research tools and access
 
