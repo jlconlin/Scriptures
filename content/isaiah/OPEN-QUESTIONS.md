@@ -6,4 +6,4 @@ The list was worked through with the author on 2026-10-01; what was decided then
 
 ## Work to do (no decision needed)
 
-- **Guides.** Convert the five guides to numbered citations (`[@key]` after specific claims), as on the Servant Songs page.
+None.
