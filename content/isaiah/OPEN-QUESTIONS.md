@@ -3,6 +3,7 @@
 Judgment calls and unverified claims waiting for the author. Whoever writes or audits a chapter adds its items here instead of deciding them silently; the author works through the list later. Delete an item once it is resolved.
 
 **Across chapters**
+- **Trimming pass (2026-10-01).** Chapters 41 and 44–50 were trimmed to the new direction (stay near Latter-day Saint theology; not a compendium): Livius, TheTorah.com, Times & Seasons and COJS material removed, and asides (Herodotus, Xenophon, Pascal, Josephus, the Vulgate and Advent chant, Babylonian ritual detail, translation-history curiosities) cut. Whole notes the agents flagged as possibly peripheral, for you to keep or cut: 41:19 (the seven trees); 44:17 (now only a retelling of vv. 14–17) and 44:27 (now a short word note); 45:2 (now thin), 45:9 and 45:11 (mostly translation comparison); 46:8 (word study on a rare verb) and 46:11 (now short); 48:6, 48:10 and 48:16 (variant detail and lists of interpreters); 49:12 and 49:24 (textual puzzles). In 48:1 the trimming agent wrote a new sentence calling the Book of Mormon's added phrase “a clarification applying Isaiah's words to covenant Israel in the latter days”, which is its own reading. In 45:7 it kept the unsourced line “There is no second power alongside the Lord.”
 - Trim chapter-level `sources` lists to what the chapter actually relies on; several list commentaries that no note draws on.
 - Convert the five guides to numbered citations (`[@key]` after specific claims), as on the Servant Songs page.
 - Servant Song boundaries: the site cites the full passages (42:1–9, 49:1–13, 50:4–11, 52:13–53:12) so readers don’t miss the verses that answer each song; the author found a separate “core vs. extended” column not worth its space. Check older chapters and guides for other ranges (42:1–4, 42:1–7, 49:1–6, and so on) and make them consistent.
@@ -25,28 +26,22 @@ Judgment calls and unverified claims waiting for the author. Whoever writes or a
 - 43:1: Delitzsch reads “I have redeemed thee” as looking back to Egypt; the older “prophetic perfect” explanation was cut as unsourced.
 - 43:27: “thy first father” now follows Delitzsch (Abraham), with Adam as others’ view; the old “most take it as Jacob” is gone.
 - 41, 44: the Cyrus Cylinder is quoted from Rogers’s 1912 translation; the British Museum page blocks scripts. A modern translation would be better.
-- 41, 44: Livius.org (Grayson’s Nabonidus Chronicle) and TheTorah.com (Gabbay on the *mīs pî* ritual) are cited. They are scholarly but not institutional; keep or replace?
 - 41: several points rest on Delitzsch alone (the sense of *ṣedeq* in v. 2, the “former things”, the seven trees, the Cumae oracle); the notes present them as his reading. Delitzsch is named in running text in a few places (a 19th-century source, as in chapter 40).
 - 44: the authorship debate is deliberately thin here and points to chapter 40’s setting.
 
 **Isaiah 45** (audit, 2026-09-30)
-- 45:7: the Zoroastrian background is now only a debate (KnoWhy #871, Delitzsch). The audit also added Delitzsch's reading (dualism rejected; “evil” as judgment, not sin), which goes a little beyond repair. Keep? Nilsen's article couldn't be read (encrypted PDF); restore the Cyrus-as-Zoroastrian points if someone can read it.
 - 45:4: Delitzsch reads “though thou hast not known me” as “before you existed”, not as Cyrus being a pagan. Add?
-- `when`: “539/538 BC” rests on the Nabonidus Chronicle's year label (Livius); the Bible Dictionary chronology gives 538.
 - The Cyrus Cylinder is still quoted from Rogers (1912), as in 41 and 44.
 
 **Isaiah 46** (audit, 2026-09-30)
 - The meanings of the names Nebuchadnezzar and Nabonidus (“Nabu protect…”) were cut; no readable source. Restore if one turns up.
-- Xenophon's account of Cyrus is now called “a Greek account, not a Persian source”; the remark that it mixes history with idealized fiction was cut (unsourced).
 
 **Isaiah 47** (audit, 2026-09-30)
-- The chapter now leans on Livius.org (Babylon, Etemenanki, the Astronomical Diaries) as well as Delitzsch. Same question as for 41 and 44: is Livius acceptable, or should it be replaced?
 - `when` no longer says who the chapter was addressed to (the exiles had no source); it gives only the 539 BC fall. State the dating framing?
 - Unsourced interpretive lines remain: “grim humor” (v. 14) and “transactional relationships” (v. 15).
 
 **Isaiah 48** (audit, 2026-09-30)
 - Length: 13 notes, about 4,200 words. Trim?
-- The history of the Book of Mormon's added phrase at 48:1 (1840 edition) rests on Royal Skousen's own answers on a Times & Seasons blog page. Acceptable, or find a primary Skousen source?
 - The 1QIsaᵃ “tested” reading at v. 10 was cut; restore with a source.
 - “Former things / new things” (v. 6) now gives only Delitzsch's reading; the two-camp presentation needs a readable source.
 - v. 12: “natural to hear” Isaiah's “I am he” in John 8:24 is the note's own reading. Keep?
