@@ -1,7 +1,7 @@
 // Scripture reference parsing and linking.
 // In content, write references as [[2 Ne. 25:4]], [[Isa. 53:4–6]], [[Matt. 1:23; Luke 4:18]],
 // or with custom display text: [[Mosiah 14|Abinadi’s reading]].
-// References into books this site covers link internally; everything else links to
+// References into chapters this site covers link internally; everything else links to
 // the Gospel Library on churchofjesuschrist.org.
 
 import { LIBRARY } from '../site.mjs';
@@ -46,8 +46,9 @@ add('pgp', [
 ]);
 add('jst', [['jst,isa|jstisa', 'jst-isa'], ['jst,gen|jstgen', 'jst-gen'], ['jst,matt|jstmatt', 'jst-matt']]);
 
-// Books with study pages on this site: the Gospel Library slug above (book.yaml `abbr`) -> site path prefix.
-const internalPath = (abbr) => { const b = LIBRARY.find((x) => x.abbr === abbr); return b && `/${b.slug}`; };
+// Chapters with study pages on this site: the Gospel Library slug above (book.yaml `abbr`) and a
+// chapter -> site path. Unwritten chapters of a book on the site still link to the Gospel Library.
+const internalPath = (abbr, chapter) => { const b = LIBRARY.find((x) => x.abbr === abbr); return b?.written.has(chapter) && `/${b.slug}/${chapter}`; };
 
 const norm = (b) => b.toLowerCase().replace(/[.\s]/g, '');
 
@@ -72,8 +73,8 @@ export function parseRef(text, prevBook) {
 }
 
 export function refUrl(r) {
-  const internal = internalPath(r.slug);
-  if (internal) return `${internal}/${r.chapter}/${r.verses ? `#v${r.verses[0]}` : ''}`;
+  const internal = internalPath(r.slug, r.chapter);
+  if (internal) return `${internal}/${r.verses ? `#v${r.verses[0]}` : ''}`;
   const path = r.vol === 'dc-testament' ? `dc-testament/${r.slug}` : `${r.vol}/${r.slug}`;
   let url = `${CHURCH}/${path}/${r.chapter}?lang=eng`;
   if (r.verses) {

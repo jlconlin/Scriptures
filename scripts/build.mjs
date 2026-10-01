@@ -15,6 +15,10 @@ const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..')
 const OUT = path.join(ROOT, 'dist');
 const r = (...p) => path.join(ROOT, ...p);
 
+// PREVIEW=1 (set by npm run dev, and for the claude.ai preview) also builds books whose
+// book.yaml says `status: preview`. The live site leaves them out entirely.
+const PREVIEW = process.env.PREVIEW === '1';
+
 const warnings = [];
 const warn = (m) => warnings.push(m);
 
@@ -77,10 +81,8 @@ export async function build({ quiet = false } = {}) {
   const rand = random();
 
   const sources = await readYaml(r('content/sources.yaml'));
-  const books = await discoverBooks(ROOT);
+  const books = (await discoverBooks(ROOT)).filter((b) => (b.status ?? 'live') === 'live' || PREVIEW);
   if (!books.length) throw new Error('No books: expected content/<slug>/book.yaml and content/<slug>/chapters/');
-  LIBRARY.length = 0;
-  LIBRARY.push(...books.map((b) => ({ name: b.name, slug: b.slug, abbr: b.abbr })));
 
   // Chapters: every chapter gets a page; authored YAML fills in the commentary.
   for (const book of books) {
@@ -99,10 +101,14 @@ export async function build({ quiet = false } = {}) {
       const ch = await readYaml(path.join(chDir, f));
       authored.set(ch.chapter, ch);
     }
+    // A chapter without a YAML file is unwritten: it gets no page, and the book page, chapter strip,
+    // and [[…]] references send readers to the Gospel Library for it.
     book.chapters = book.kjv.chapters.map((_, i) => {
       const n = i + 1;
-      return authored.get(n) ?? { chapter: n, title: book.titles?.[n] ?? `${book.name} ${n}`, draft: true };
+      return authored.get(n) ?? { chapter: n, title: book.titles?.[n], draft: true };
     });
+    book.written = book.chapters.filter((c) => !c.draft);
+    book.hasGuides = existsSync(path.join(book.dir, 'guides'));
 
     // Validate source keys
     for (const ch of book.chapters) {
@@ -113,6 +119,15 @@ export async function build({ quiet = false } = {}) {
       }
     }
   }
+
+  // Templates and reference links read LIBRARY, so it is filled before anything is rendered.
+  LIBRARY.length = 0;
+  LIBRARY.push(
+    ...books.map((b) => ({
+      name: b.name, slug: b.slug, abbr: b.abbr, eyebrow: b.eyebrow, gospelLibrary: b.gospelLibrary, hasGuides: b.hasGuides,
+      total: b.chapters.length, written: new Set(b.written.map((c) => c.chapter)),
+    })),
+  );
 
   await rm(OUT, { recursive: true, force: true });
   await mkdir(OUT, { recursive: true });
@@ -136,23 +151,23 @@ export async function build({ quiet = false } = {}) {
   for (const book of books) {
     const { slug, kjv } = book;
 
-    // Chapter pages
-    const chapterWrites = book.chapters.map((ch, i) => {
-      const verses = kjv.chapters[i];
+    // Chapter pages, for written chapters only; the pager skips unwritten ones.
+    const chapterWrites = book.written.map((ch, i) => {
+      const verses = kjv.chapters[ch.chapter - 1];
       const html = renderChapter({
         book,
         ch,
         verses,
         sources,
-        prev: book.chapters[i - 1],
-        next: book.chapters[i + 1],
+        prev: book.written[i - 1],
+        next: book.written[i + 1],
         warn: (m) => warn(`${book.name} ${ch.chapter}: ${m}`),
         bom: book.bomParallels[ch.chapter],
       });
-      search.push({ t: 'chapter', r: `${book.name} ${ch.chapter}`, h: plain(ch.title), u: `/${slug}/${ch.chapter}/`, x: plain(`${ch.tagline ?? ''} ${ch.setting ?? ''} ${ch.thread ?? ''}`).slice(0, 1200) });
-      verses.forEach((v, j) => search.push({ t: 'verse', r: `${book.name} ${ch.chapter}:${j + 1}`, u: `/${slug}/${ch.chapter}/#v${j + 1}`, x: v }));
+      search.push({ t: 'chapter', b: slug, r: `${book.name} ${ch.chapter}`, h: plain(ch.title), u: `/${slug}/${ch.chapter}/`, x: plain(`${ch.tagline ?? ''} ${ch.setting ?? ''} ${ch.thread ?? ''}`).slice(0, 1200) });
+      verses.forEach((v, j) => search.push({ t: 'verse', b: slug, r: `${book.name} ${ch.chapter}:${j + 1}`, u: `/${slug}/${ch.chapter}/#v${j + 1}`, x: v }));
       (ch.notes ?? []).forEach((n) =>
-        search.push({ t: 'note', k: n.kind, r: `${book.name} ${ch.chapter}:${n.ref}`, h: plain(n.title ?? n.phrase ?? ''), u: `/${slug}/${ch.chapter}/#${n.id}`, x: plain(n.body) }),
+        search.push({ t: 'note', b: slug, k: n.kind, r: `${book.name} ${ch.chapter}:${n.ref}`, h: plain(n.title ?? n.phrase ?? ''), u: `/${slug}/${ch.chapter}/#${n.id}`, x: plain(n.body) }),
       );
       return write(`${slug}/${ch.chapter}/index.html`, html);
     });
@@ -171,7 +186,7 @@ export async function build({ quiet = false } = {}) {
         g.html = md(cited.body);
         g.refs = cited.refs;
         pages.push(g);
-        search.push({ t: 'guide', r: searchLabel, h: g.title, u: `/${slug}/${collection.path}/${g.slug}/`, x: plain(stripCitations(g.body)).slice(0, 3000) });
+        search.push({ t: 'guide', b: slug, r: searchLabel, h: g.title, u: `/${slug}/${collection.path}/${g.slug}/`, x: plain(stripCitations(g.body)).slice(0, 3000) });
       }
       for (const g of pages) await write(`${slug}/${collection.path}/${g.slug}/index.html`, renderGuide({ book, guide: g, guides: pages, sources, collection }));
       if (pages.length) await write(`${slug}/${collection.path}/index.html`, renderGuidesIndex({ book, guides: pages, collection }));
@@ -203,7 +218,7 @@ export async function build({ quiet = false } = {}) {
     ...built.flatMap(({ book, guides, themes }) => [
       ...guides.map((g) => `/${book.slug}/guides/${g.slug}/`),
       ...(themes.length ? [`/${book.slug}/themes/`, ...themes.map((t) => `/${book.slug}/themes/${t.slug}/`)] : []),
-      ...book.chapters.map((c) => `/${book.slug}/${c.chapter}/`),
+      ...book.written.map((c) => `/${book.slug}/${c.chapter}/`),
     ]),
   ];
   await write(
@@ -218,8 +233,8 @@ export async function build({ quiet = false } = {}) {
       const notes = book.chapters.reduce((a, c) => a + (c.notes?.length ?? 0), 0);
       const drafts = book.chapters.filter((c) => c.draft).map((c) => c.chapter);
       const label = books.length > 1 ? `${book.name}: ` : '';
-      console.log(`${label}Built ${book.chapters.length} chapters, ${notes} notes, ${guides.length} guides in ${Date.now() - t0} ms → dist/`);
-      if (drafts.length) console.log(`${label}Chapters without commentary yet: ${drafts.join(', ')}`);
+      console.log(`${label}Built ${book.written.length < book.chapters.length ? `${book.written.length} of ${book.chapters.length}` : book.chapters.length} chapters, ${notes} notes, ${guides.length} guides in ${Date.now() - t0} ms → dist/`);
+      if (drafts.length) console.log(`${label}Unwritten chapters (no page; links go to the Gospel Library): ${drafts.join(', ')}`);
     }
     warnings.forEach((w) => console.warn(`  ⚠ ${w}`));
   }

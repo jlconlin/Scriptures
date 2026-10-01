@@ -17,6 +17,16 @@
     store.set('theme', root.dataset.theme);
   });
 
+  // ---------- header menu ----------
+  // A <details> element; close it on Escape or a tap outside it.
+  const menu = $('.book-menu');
+  if (menu) {
+    document.addEventListener('click', (e) => { if (menu.open && !menu.contains(e.target)) menu.open = false; });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && menu.open) { menu.open = false; menu.querySelector('summary').focus(); }
+    });
+  }
+
   // ---------- reading progress ----------
   const readKey = (id) => `read:${id}`;
   const isRead = (id) => store.get(readKey(id)) === '1';
@@ -272,6 +282,7 @@
     const status = $('.search-status');
     let index = null;
     let filter = 'all';
+    let bookFilter = 'all';
     const KIND_LABEL = { verse: 'Verse', note: 'Note', chapter: 'Chapter', guide: 'Guide' };
     const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
     const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[’‘]/g, "'");
@@ -310,6 +321,7 @@
       const scored = [];
       for (const d of idx) {
         if (filter !== 'all' && !(filter === 'chapter' ? d.t === 'chapter' || d.t === 'guide' : d.t === filter)) continue;
+        if (bookFilter !== 'all' && d.b !== bookFilter) continue;
         if (!terms.every((w) => d.n.includes(w))) continue;
         let score = d.n.includes(phrase) ? 10 : 0;
         if (d.h && norm(d.h).includes(phrase)) score += 8;
@@ -330,6 +342,13 @@
       b.addEventListener('click', () => {
         filter = b.dataset.filter;
         $$('[data-filter]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+        run();
+      }),
+    );
+    $$('[data-book-filter]').forEach((b) =>
+      b.addEventListener('click', () => {
+        bookFilter = b.dataset.bookFilter;
+        $$('[data-book-filter]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
         run();
       }),
     );

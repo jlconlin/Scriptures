@@ -1,4 +1,4 @@
-// Local preview: builds the site, serves dist/, and rebuilds when content or source changes.
+// Local preview: builds the site (with books still in preview), serves dist/, and rebuilds when content or source changes.
 // Usage: npm run dev   (then open http://localhost:4321)
 import http from 'node:http';
 import { readFile, stat } from 'node:fs/promises';
@@ -17,7 +17,7 @@ const TYPES = {
 const build = () => {
   try {
     // A fresh process picks up edits to templates as well as content.
-    execFileSync(process.execPath, [path.join(ROOT, 'scripts/build.mjs')], { stdio: 'inherit' });
+    execFileSync(process.execPath, [path.join(ROOT, 'scripts/build.mjs')], { stdio: 'inherit', env: { PREVIEW: '1', ...process.env } });
   } catch {}
 };
 build();

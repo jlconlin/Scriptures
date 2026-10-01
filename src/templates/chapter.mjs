@@ -4,6 +4,9 @@ import { layout, icon } from './layout.mjs';
 import { renderSource } from './sources.mjs';
 import { compareVerse } from '../lib/bomdiff.mjs';
 
+/** A chapter in the Gospel Library, where unwritten chapters send readers. */
+export const gospelLibraryUrl = (book, n) => `https://www.churchofjesuschrist.org/study/scriptures/${book.gospelLibrary}/${n}?lang=eng`;
+
 /** Split "1-9" / "4" into [first, last]. */
 export const range = (r) => {
   const [a, b] = String(r).split(/[–-]/).map(Number);
@@ -201,11 +204,12 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
   const dial = book.chapters
     .map((c) => {
       const d = book.divisions.find((d) => c.chapter >= d.range[0] && c.chapter <= d.range[1]);
+      if (c.draft) return `<a href="${gospelLibraryUrl(book, c.chapter)}" class="tick unwritten" target="_blank" rel="noopener" style="--c:var(--div-${d.key})" aria-label="${esc(book.name)} ${c.chapter}: commentary coming; opens the Gospel Library" data-label="${esc(book.name)} ${c.chapter}: commentary coming" data-div="Opens the Gospel Library"></a>`;
       return `<a href="/${book.slug}/${c.chapter}/" class="tick${c.chapter === n ? ' current' : ''}" style="--c:var(--div-${d.key})" aria-label="${esc(book.name)} ${c.chapter}: ${esc(plain(c.title))}${c.chapter === n ? ' (this chapter)' : ''}" data-ch="${c.chapter}" data-label="${esc(book.name)} ${c.chapter}: ${esc(plain(c.title))}" data-div="${esc(d.name)}"></a>`;
     })
     .join('');
 
-  const churchUrl = `https://www.churchofjesuschrist.org/study/scriptures/${book.gospelLibrary}/${n}?lang=eng`;
+  const churchUrl = gospelLibraryUrl(book, n);
 
   const body = `
 <article class="chapter" data-book="${book.slug}" data-chapter="${n}" style="--div:var(--div-${division.key})">
@@ -215,7 +219,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
       <p class="eyebrow">${esc(book.name)} <span class="ch-num">${n}</span></p>
       <h1>${mdInline(ch.title)}</h1>
       ${ch.tagline ? `<p class="tagline">${mdInline(ch.tagline)}</p>` : ''}
-      <div class="dial-wrap"><div class="dial-label" aria-hidden="true" hidden></div><div class="dial" aria-label="Chapters of ${esc(book.name)}">${dial}</div></div>
+      <div class="dial-wrap"><div class="dial-label" aria-hidden="true" hidden></div><div class="dial" style="--n:${book.chapters.length}" aria-label="Chapters of ${esc(book.name)}">${dial}</div></div>
       <div class="hero-meta">
         ${ch.when ? `<span>${icon('history')} ${mdInline(ch.when)}</span>` : ''}
         ${ch.parallels?.some((p) => p.primary) ? `<span>${icon('restoration')} Also in ${mdInline(ch.parallels.filter((p) => p.primary).map((p) => `[[${p.ref}]]`).join(', '))}</span>` : ''}

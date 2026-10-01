@@ -15,16 +15,11 @@ export const logo = `<svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="tru
 export function layout({ title, description = SITE.description, path, body, bodyClass = '', book, head = '' }) {
   const fullTitle = title ? `${title} · ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
   const url = SITE.url + path;
-  const nav = book
-    ? `<nav class="site-nav" aria-label="${esc(book.name)}">
-        <a href="/${book.slug}/">${esc(book.name)}</a>
-        <a href="/${book.slug}/#chapters">Chapters</a>
-        <a href="/${book.slug}/guides/">Guides</a>
-        <a href="/search/" class="nav-search" aria-label="Search">${icon('search')}<span>Search</span></a>
-      </nav>`
-    : `<nav class="site-nav" aria-label="Main">
-        ${LIBRARY.map((b) => `<a href="/${b.slug}/">${esc(b.name)}</a>`).join('\n        ')}
-        <a href="/about/">About</a>
+  const nav = `<nav class="site-nav" aria-label="Main">
+        ${bookMenu(book)}
+        ${book
+          ? `<a class="nav-wide" href="/${book.slug}/#chapters">Chapters</a>${book.hasGuides ? `\n        <a class="nav-wide" href="/${book.slug}/guides/">Guides</a>` : ''}`
+          : '<a class="nav-wide" href="/about/">About</a>'}
         <a href="/search/" class="nav-search" aria-label="Search">${icon('search')}<span>Search</span></a>
       </nav>`;
 
@@ -77,6 +72,37 @@ ${linkRefs(body)}
 <script src="/assets/site.js?v=${SITE.version}" defer></script>
 </body>
 </html>`;
+}
+
+// The header's one menu: labeled with the current book (or “Books”), it holds this book's pages and
+// every book on the site, grouped by volume (book.yaml `eyebrow`). A <details> element, so it works
+// without JavaScript; site.js closes it on Escape or a tap elsewhere.
+function bookMenu(book) {
+  const count = (b) => `${b.written.size < b.total ? `${b.written.size} of ` : ''}${b.total} chapters`;
+  const volumes = [...new Set(LIBRARY.map((b) => b.eyebrow))];
+  const here = book
+    ? `<p class="menu-head">This book</p>
+          <a href="/${book.slug}/">${esc(book.name)} overview</a>
+          <a href="/${book.slug}/#chapters">Chapters</a>
+          ${book.hasGuides ? `<a href="/${book.slug}/guides/">Guides</a>` : ''}
+          <hr>`
+    : '';
+  return `<details class="book-menu">
+        <summary>${esc(book ? book.name : 'Books')}${icon('chevron', 'menu-chevron')}</summary>
+        <div class="menu-panel">
+          ${here}
+          ${volumes
+            .map(
+              (v) => `<p class="menu-head">${esc(v)}</p>
+          ${LIBRARY.filter((b) => b.eyebrow === v)
+            .map((b) => `<a href="/${b.slug}/"${b.slug === book?.slug ? ' aria-current="true"' : ''}><span>${esc(b.name)}</span><small>${count(b)}</small></a>`)
+            .join('\n          ')}`,
+            )
+            .join('\n          ')}
+          <hr>
+          <a href="/about/">About this site</a>
+        </div>
+      </details>`;
 }
 
 const ICONS = {

@@ -2,6 +2,7 @@ import { md, mdInline, esc, plain } from '../lib/markdown.mjs';
 import { KINDS, SITE, LIBRARY, COMING_SOMEDAY, sectionTitle } from '../site.mjs';
 import { layout, icon, logo } from './layout.mjs';
 import { renderSource } from './sources.mjs';
+import { gospelLibraryUrl } from './chapter.mjs';
 
 const ensignArt = `<svg class="hero-art" viewBox="0 0 320 220" aria-hidden="true">
   <defs>
@@ -20,7 +21,10 @@ const ensignArt = `<svg class="hero-art" viewBox="0 0 320 220" aria-hidden="true
 export function renderHome({ books, featured }) {
   const first = books[0].home;
   const volumes = [
-    ...books.map((b) => ({ name: b.name, href: `/${b.slug}/`, status: `${b.chapters.length} chapters`, live: true, blurb: b.home.blurb })),
+    ...books.map((b) => ({
+      name: b.name, href: `/${b.slug}/`, live: true, blurb: b.home.blurb,
+      status: b.written.length < b.chapters.length ? `${b.written.length} of ${b.chapters.length} chapters` : `${b.chapters.length} chapters`,
+    })),
     ...COMING_SOMEDAY.map((v) => ({ ...v, status: 'Someday' })),
   ];
   const body = `
@@ -41,7 +45,7 @@ export function renderHome({ books, featured }) {
 
 <section class="wrap home-section">
   <h2 class="section-title">Try a phrase</h2>
-  <p class="section-sub">A few notes from ${books.map((b) => b.name).join(' and ')}, chosen at random each time the site is built.</p>
+  <p class="section-sub">A few notes from ${books.filter((b) => b.chapters.some((c) => c.notes?.length)).map((b) => b.name).join(' and ')}, chosen at random each time the site is built.</p>
   <div class="teasers">
     ${featured
       .map(
@@ -93,8 +97,14 @@ export function renderBookIndex({ book, guides, sources }) {
   </header>
   <ol class="chapter-cards">
     ${chs
-      .map(
-        (c) => `<li><a class="chapter-card" href="/${book.slug}/${c.chapter}/" data-ch="${book.slug}-${c.chapter}">
+      .map((c) =>
+        c.draft
+          ? `<li><a class="chapter-card unwritten" href="${gospelLibraryUrl(book, c.chapter)}" target="_blank" rel="noopener">
+      <span class="cc-num">${c.chapter}</span>
+      <span class="cc-title">${c.title ? mdInline(c.title) : 'Commentary coming'}</span>
+      <span class="cc-tag">${c.title ? 'Commentary coming. ' : ''}Read it in the Gospel Library ↗</span>
+    </a></li>`
+          : `<li><a class="chapter-card" href="/${book.slug}/${c.chapter}/" data-ch="${book.slug}-${c.chapter}">
       <span class="cc-num">${c.chapter}</span>
       <span class="cc-title">${mdInline(c.title)}</span>
       ${c.tagline ? `<span class="cc-tag">${esc(plain(c.tagline))}</span>` : ''}
@@ -251,6 +261,10 @@ export function renderSearch() {
     <button type="button" class="tool" data-filter="note" aria-pressed="false">Notes</button>
     <button type="button" class="tool" data-filter="chapter" aria-pressed="false">Chapters &amp; guides</button>
   </div>
+  ${LIBRARY.length > 1 ? `<div class="search-filters" role="group" aria-label="Books to search">
+    <button type="button" class="tool" data-book-filter="all" aria-pressed="true">All books</button>
+    ${LIBRARY.map((b) => `<button type="button" class="tool" data-book-filter="${b.slug}" aria-pressed="false">${esc(b.name)}</button>`).join('\n    ')}
+  </div>` : ''}
 </div></header>
 <div class="wrap narrow"><p class="search-status" aria-live="polite"></p><ol class="search-results"></ol></div>`;
   return layout({ title: 'Search', path: '/search/', body, bodyClass: 'page-search' });
@@ -264,8 +278,12 @@ export function render404() {
   <p><a class="btn btn-primary" href="/">Go home</a> ${LIBRARY.map((b) => `<a class="btn" href="/${b.slug}/">Open ${esc(b.name)}</a>`).join(' ')}</p>
 </div></header>
 <script>
-// Friendly redirects: /Isaiah → /isaiah/, /isaiah/53 → /isaiah/53/, /isa/53 → /isaiah/53/
-(function(){var p=location.pathname,l=p.toLowerCase()${LIBRARY.filter((b) => b.abbr !== b.slug).map((b) => `.replace(/^\\/${b.abbr}(\\/|$)/,'/${b.slug}$1')`).join('')};if(!/\\/$/.test(l)&&!/\\.[a-z0-9]+$/.test(l))l+='/';if(l!==p)location.replace(l+location.search+location.hash);})();
+// Friendly redirects: /Isaiah → /isaiah/, /isaiah/53 → /isaiah/53/, /isa/53 → /isaiah/53/.
+// An unwritten chapter (/jeremiah/5/) goes to the Gospel Library.
+(function(){var p=location.pathname,l=p.toLowerCase()${LIBRARY.filter((b) => b.abbr !== b.slug).map((b) => `.replace(/^\\/${b.abbr}(\\/|$)/,'/${b.slug}$1')`).join('')};if(!/\\/$/.test(l)&&!/\\.[a-z0-9]+$/.test(l))l+='/';
+var gl=${JSON.stringify(Object.fromEntries(LIBRARY.filter((b) => b.written.size < b.total).map((b) => [b.slug, [b.gospelLibrary, Array.from({ length: b.total }, (_, i) => i + 1).filter((n) => !b.written.has(n))]])))},m=l.match(/^\\/([a-z0-9-]+)\\/(\\d+)\\/$/),b=m&&gl[m[1]];
+if(b&&b[1].indexOf(+m[2])>=0){location.replace('https://www.churchofjesuschrist.org/study/scriptures/'+b[0]+'/'+(+m[2])+'?lang=eng');return}
+if(l!==p)location.replace(l+location.search+location.hash);})();
 </script>`;
   return layout({ title: 'Page not found', path: '/404.html', body: body.replace(/\[\[Isa\. 30:20\]\]/, '<a href="/isaiah/30/#v20">Isa. 30:20</a>'), bodyClass: 'page-404' });
 }

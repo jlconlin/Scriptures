@@ -19,8 +19,10 @@ Requires Node 20 or later.
 ```sh
 npm install
 npm run build     # writes a static site to dist/
-npm run dev       # preview at http://localhost:4321
+npm run dev       # preview at http://localhost:4321, including books still in preview
 ```
+
+`npm run build` makes the live site, which leaves out any book whose `book.yaml` says `status: preview`. `PREVIEW=1 npm run build` includes them.
 
 The output is a plain static site that any web server can host. Configure the server to serve `404.html` for missing paths.
 
