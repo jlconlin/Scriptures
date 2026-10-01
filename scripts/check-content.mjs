@@ -28,8 +28,8 @@ const NOT_READABLE = ['oswalt', 'blenkinsopp', 'childs', 'paul-40-66', 'westerma
 const MAX_NOTES = 11;
 const MAX_WORDS = 4500;
 
-// Wikis are not sources (anyone can edit them).
-const WIKI_HOSTS = ['wikipedia.org', 'wikimedia.org', 'wikisource.org', 'wikiquote.org', 'wiktionary.org', 'wikidata.org', 'wikibooks.org', 'fandom.com', 'wikia.com', 'wikia.org'];
+// Wikis are not sources (anyone can edit them); nor are popular history sites (author, 2026-10-01).
+const WIKI_HOSTS = ['livius.org', 'wikipedia.org', 'wikimedia.org', 'wikisource.org', 'wikiquote.org', 'wiktionary.org', 'wikidata.org', 'wikibooks.org', 'fandom.com', 'wikia.com', 'wikia.org'];
 
 const args = process.argv.slice(2);
 const quiet = args.includes('--quiet');
@@ -72,7 +72,7 @@ const seen = new Map();
   else seen.set(m[1], i + 1);
 });
 for (const [k, s] of Object.entries(sources))
-  if (s?.url && isWiki(s.url)) err(`sources.yaml: “${k}” has a wiki URL (${s.url}); wikis are not sources`);
+  if (s?.url && isWiki(s.url)) err(`sources.yaml: “${k}” has a wiki or popular-site URL (${s.url}); not a source`);
 
 const CITE = /\[@([a-z0-9-]+)(?:,\s*[^\]]+)?\]/g;
 const checkKey = (where, k) => { if (isKey(k) && !sources[k]) err(`${where}: unknown source key “${k}”`); };
@@ -146,7 +146,7 @@ for (const book of books) {
       if (r?.key) { ledgerKeys.add(String(r.key)); checkKey(at, String(r.key)); }
       if (r?.url) {
         if (!/^https?:\/\//.test(r.url)) err(`${at}: url must be http(s)`);
-        else if (isWiki(r.url)) err(`${at}: wiki URL (${r.url}); wikis are not sources`);
+        else if (isWiki(r.url)) err(`${at}: wiki or popular-site URL (${r.url}); not a source`);
       }
     });
     for (const n of notes) if (!(n.sources ?? []).length) err(`${noteLabel(n)}: no sources`);

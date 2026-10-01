@@ -23,14 +23,15 @@ The goal: when you finish, every factual claim in the chapter rests on a source 
 2. **Verify each claim** against a source you open in this session, fetched with `curl` in Bash (`STANDARDS.md` §9). If a site fails twice, stop trying it and note it for your report; don't probe other domains for a way around. A claim whose only source was unreachable is reported as such, not silently cut. Record it as you go in `content/<book>/evidence/NN.yaml` (format in `STANDARDS.md`): the exact URL and a verbatim quote of about 40 words at most.
 3. **Repair:**
    - If the source supports a weaker or different claim, **reword** the text to match the source.
-   - If no readable source supports it, **cut** it. Cut the sentence, not the note, unless the whole note rests on it.
+   - **First ask whether the chapter needs the claim at all** (`STANDARDS.md` §1, “Stay near Latter-day Saint theology” and “Not a compendium”). A peripheral detail (an aside from another tradition, later reception history, a classical parallel, a curiosity) is **cut, not sourced**. Don't go looking for a new outside work just to keep a side remark.
+   - If no readable source supports a claim the chapter needs, **cut** it. Cut the sentence, not the note, unless the whole note rests on it.
    - **Drop unread works from `sources`** (note and chapter level): a work you couldn't open and check, or one on the unreadable list in `STANDARDS.md`, comes out even if the claim stays on another source.
    - **Trim the chapter-level `sources`** to the keys the chapter actually cites.
    - Replace any Wikipedia or wiki citation with a primary or institutional source, or cut the claim.
    - Reword running text that names modern scholars so the note's `sources` carries the attribution.
    - Cite the work, not the website (`STANDARDS.md` §4 rule 3); a note resting only on scripture cites `lds-scriptures`.
-4. **Keep the voice and the structure.** Don't restructure the chapter, reorder notes, rewrite the thread, or trim for length. The author rejected a broad trim before. Change only what the audit requires, in the chapter's own voice.
-5. **New sources.** If a claim is worth keeping and you find a readable source that isn't in `sources.yaml`, use a proposed key in the file's style and list it in your report.
+4. **Keep the voice and the structure.** Don't restructure the chapter, reorder notes, or rewrite the thread. Cutting peripheral sentences is part of the audit; cutting a whole note is the author's call, so list any note that is peripheral as a whole in your report instead.
+5. **New sources.** If a claim the chapter needs has no source in `sources.yaml`, prefer, in order: the text itself and other scripture, the Church's materials and latter-day prophets, Latter-day Saint scholarship (BYU Religious Studies Center, Scripture Central), then a standard lexicon or commentary. Use a proposed key in the file's style and list it in your report.
 
 ## 3. Run the checks
 

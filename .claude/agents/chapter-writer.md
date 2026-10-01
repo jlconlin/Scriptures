@@ -33,6 +33,7 @@ Write `content/<book>/evidence/NN.yaml` (two-digit chapter number) in the format
 - If you can't find and read a source for a claim, the claim doesn't go in the chapter. Note it for your report.
 - Wikipedia and other wikis are never sources. Don't cite a work you haven't read (see the unreadable list in `STANDARDS.md` and the brief). Don't use unofficial copies of copyrighted works.
 - If a secondary source passes along another work's idea, read and cite the underlying work, or leave the claim out.
+- **Stay near Latter-day Saint theology and don't build a compendium** (`STANDARDS.md` §1). Prefer the text, Restoration scripture, latter-day prophets and Latter-day Saint scholarship; use outside scholarship only where it changes how the verse is understood. Don't include asides, reception history or curiosities, and don't go looking for a source to keep one.
 
 ## 4. Write the chapter from the ledger
 
