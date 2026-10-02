@@ -240,3 +240,110 @@ Reviewed and answered (author, 2026-10-02): no particular direction for Jeremiah
 - *Unanswered:* Why 'the way of life' (21:8) uses the exact wording it does, beyond the Deuteronomy footnote.
 - *Unanswered:* What exactly Zedekiah's 'wondrous works' recall: only Keil names Hezekiah. No Church source ties 21:2 to 2 Kgs 19.
 - *Unanswered:* Where the 'forest' image comes from: Keil points to Jer. 22:6 (Lebanon, Gilead), but the note does not use this.
+
+### Jeremiah 22
+
+- Jer. 22:16: the only Latter-day Prophets note rests on S. Dilworth Young (First Council of the Seventy), not an apostle. Keep it, or change its kind or cut it?
+- Jer. 22:22: the Old Testament Student Manual glosses 'pastors' as 'pastures'. The chapter follows BDB and Keil ('shepherds' = rulers) and leaves the manual's gloss out.
+- Jer. 22:4: the 'Zion theology' framing rests on KnoWhy 363. The KnoWhy says its ideas are 'largely drawn from' a Taylor Halverson conference presentation, which wasn't read. The chapter cites the KnoWhy only for its own wording.
+- Jer. 22:30 and Matt. 1:12: the chapter doesn't explain how Matthew's genealogy through Jechonias fits 'no man of his seed shall prosper.' No Church source read addresses it.
+- Jer. 22:24 (Bible Dictionary): BD 'Jehoiachin' dates him 598 B.C., and its Jehoiakim entry has errors the writer noted. The chapter gives no year for Jehoiachin.
+- *Unanswered:* Jer. 22:20: what 'Lebanon, Bashan, and the passages' are. No note. Keil (already cited) answers it: mountain peaks around the land, the 'passages' being Abarim near Nebo.
+- *Unanswered:* Jer. 22:19: how Jehoiakim's 'burial of an ass' came about. Only the manual's 'probably' is available.
+- *Unanswered:* Jer. 22:30 and Matt. 1:12: how Jesus' descent through Jechonias squares with the curse on Coniah's seed.
+- *Unanswered:* Jer. 22:28: what 'a despised broken idol' means. The Hebrew word for 'idol' here, and the image of a pot no one wants, have no note.
+
+### Jeremiah 23
+
+- Jer. 23:1: who the 'pastors' are. The Bible Dictionary says 'pastors or rulers'; the student manual says 'religious leaders'. The note says the word 'probably covers both' and that the text does not choose. That is the writer's inference; confirm or soften it.
+- Jer. 23:33–39: the reading that 'burden' was the people's mockery of Jeremiah, and that the answer keeps the figure ('disburden'), rests on Keil alone and is labeled 'one reading'. The forget/lift wordplay in verse 39 (where the Septuagint and Vulgate read 'lift') is also Keil's alone.
+- Jer. 23:5–6: the Branch is read as Christ reigning in the Millennium (McConkie, through the student manual; footnote 5d, TG Jesus Christ, Millennial Reign). The note gives no reading of the Branch as fulfilled in Christ's first coming.
+- Jer. 23:16: President Benson's 'Fourteen Fundamentals' is applied to Jeremiah's false prophets. The Church's seminary study guide quotes it for this chapter, so the link is not the writer's own, but the author may want to confirm that the talk fits here.
+- *Unanswered:* Jer. 23:11: whether 'in my house' means the temple.
+- *Unanswered:* Jer. 23:19–20: what the whirlwind is, and what 'in the latter days ye shall consider it perfectly' means.
+- *Unanswered:* Jer. 23:9: what 'all my bones shake' and 'like a drunken man' add.
+- *Unanswered:* Jer. 23:10: why the land mourns, and what 'the pleasant places of the wilderness are dried up' refers to.
+- *Unanswered:* Jer. 23:25–27: which dreams the prophets claimed (footnote 25a points to Matt. 7:22).
+
+### Jeremiah 24
+
+- 24:1–10: No conference talk or Church magazine article teaching from Jeremiah 24 was found, so the chapter has no 'prophets' note. Should one be sought, or is it acceptable without?
+- 24:8: The only answer to why Jews were in Egypt is Keil's reading (they fled during the war), labeled 'one reading'. Keep it or cut it?
+- 24:5 and 24:7: The cross-references to Ezek. 11:15–20 and Jer. 29:17 are the writer's own, not footnote links in the Church edition. They are scripture-to-scripture and seem sound, but the author may want to confirm.
+- *Unanswered:* Why the baskets were 'set before the temple of the LORD' (v. 1). No source found.
+- *Unanswered:* When and why the Jews in Egypt (v. 8) went there. Only Keil's reading is available.
+- *Unanswered:* How 'naughty' was understood in 1611. Only the Church edition's footnote 'bad or corrupted' is used.
+
+### Jeremiah 25
+
+- Jer. 25:30–38: Read as pointing to the last days (Armageddon), following the chapter heading, OT Student Manual ch. 24, Enrichment I and Joseph Fielding Smith. The note says this reading adds to the Babylonian one rather than replacing it.
+- Jer. 25:29: D&C 112:24–26 is set beside the verse because the order of judgment is the same; the revelation doesn't quote Jeremiah, and the note says so. The Brigham Young, Joseph Fielding Smith and Wilford Woodruff quotations are read through the D&C Student Manual, not from the original discourses.
+- Jer. 25:11: The seventy years are now given only in the Church's two measures: Babylon's rule (seminary guide) and 586–516 by the temple (manual ch. 29). I removed Keil's count of Babylon's dominion and his symbolic 'number of perfection' reading. The author may want the question of a symbolic seventy raised again.
+- Jer. 25:13: That 'this book' is the scroll of Jer. 36 is given as plausible, not as fact.
+- Jer. 25:28 and christ: The cup of judgment is linked to D&C 19:16–18 only through the shared image. The chapter says outright that Jer. 25 is not a prophecy of the Atonement.
+- *Unanswered:* Jer. 25:3: How the 'three and twentieth year' is counted from Josiah's thirteenth year to Jehoiakim's fourth; no source found.
+- *Unanswered:* Jer. 25:20, 23–25: Who the 'mingled people', Uz, Dedan, Tema, Buz and Zimri were; the chapter doesn't identify them.
+- *Unanswered:* Jer. 25:13–14: Why the Septuagint arranges this chapter differently (and has no verse 14); only Brenton's layout is reported.
+- *Unanswered:* Jer. 25:12: The Greek reads 'take vengeance on that nation' without naming the king of Babylon; this isn't mentioned (minor).
+
+### Jeremiah 26
+
+- Jer. 26:1: The Bible Dictionary disagrees with itself. Its 'Jehoiakim' entry says 609–598 B.C.; its 'Jeremiah' outline (and the brief) say 608–597. I used 608–597 to match the brief and chapters 7–12. The author may want one rule for when the two entries differ.
+- Jer. 26:1: Is chapter 26 the story behind the chapter 7 temple sermon? Chapter 7 (committed) says the arrest 'is probably what followed this sermon'. Chapter 26 leaves it open and gives Keil's view that Jeremiah may have warned of Shiloh more than once. The two chapters lean slightly different ways.
+- Jer. 26:18–19: Note 18 keeps Keil's reading that the elders themselves joined Hezekiah's prayer to Micah's prophecy. That is the only outside reading left in the note. The author may prefer to cut it.
+- *Unanswered:* Why prophesying against the temple was treated as a capital offense (v. 8–11). No source read answers it.
+- *Unanswered:* What and where the 'new gate' of the temple was (v. 10). The note gives only its later use in Jer. 36:10.
+- *Unanswered:* Where Hezekiah's response to Micah is recorded, if anywhere (v. 19). Only Keil addresses it.
+
+### Jeremiah 27
+
+- Jer. 27:1: the when field and note 1 give 'about 594 or 593 B.C.', computed from Jer. 28:1's 'fourth year' and the Bible Dictionary's 597 for Zedekiah's accession. No source states the year. Keep the computed year, or give only 'Zedekiah's fourth year'?
+- Jer. 27:1: the explanation that a copyist wrote Jehoiakim's name by mistake rests on Keil alone and is labeled 'one reading'; the Church manual says only that verses 3 and 12 point to Zedekiah.
+- Jer. 27:2, 27:19: older Church sources (the Old Testament Seminary Student Study Guide; a 2002 Ensign article by an Area Authority Seventy) are cited. Is that the standard the author wants for these?
+- Jer. 27:2: the seminary page is keyed ot-seminary-jer-27-28 (as in ch. 28), while the existing ch. 18 entry uses ot-seminary-guide-jer-18. Rename both new keys for consistency?
+- *Unanswered:* Whether any general conference talk uses Jer. 27; none was found, so there is no prophets note
+- *Unanswered:* Whether Babylon was in fact ruled by Nebuchadnezzar's son and grandson (27:7); the chapter gives only Keil's reading that the phrase means a long time
+
+### Jeremiah 28
+
+- Jer. 28:6: the two Church manuals read Jeremiah's 'Amen' differently. The Student Manual calls it sarcastic; the seminary teacher manual says it might be ironic or a wish that the people would repent. The note gives both and does not choose.
+- Jer. 28:15: the Joseph Smith quotation ('False prophets always arise…') is cited through the seminary teacher manual, which gives Teachings of the Prophet Joseph Smith, p. 365. Neither the writer nor I read the primary source. The author may want the Joseph Smith Papers original found and cited.
+- Jer. 28:1: the suggestion that Hananiah was possibly a priest, because Gibeon was a priests' city, is Keil's alone. It is kept as 'one reading'; the author may prefer to cut it.
+- *Unanswered:* Who Hananiah was beyond verse 1: no Church, BYU or Scripture Central source was found.
+- *Unanswered:* The calendar year of Zedekiah's fourth year (about 594/593 B.C.) is not given by any source read. The 'when' field gives only the reign, 597–586.
+- *Unanswered:* Jer. 27:1 says Jehoiakim where the story is set under Zedekiah (28:1 'the same year'), and the chapter doesn't explain this. A reader moving from chapter 27 might ask about it.
+- *Unanswered:* Whether Zedekiah himself was present, or how he responded, is not addressed beyond the manual's 'too hardened to respond'.
+
+### Jeremiah 29
+
+- Jer. 29:13: the note is labeled 'Latter-day Prophets' but its only latter-day voice is Bishop L. Todd Budge of the Presiding Bishopric, who is not an apostle, and it is mostly scripture. He closes his talk with verse 13. Should the note keep the Budge paragraph and that label, or become 'Related Scriptures'?
+- Jer. 29:5, 7, 8, 16, 21, 26, 32: Keil now appears in 7 of 16 notes. In three of them (5, 7, 8) he is cited only because the Old Testament Student Manual quotes him at length. Does that count against the brief's limit of about a third?
+- Jer. 29:9: Teachings of the Prophet Joseph Smith (and the seminary manual quoting it) adds 'they will prophesy so very near the truth' to this sentence. The 1844 Bullock report in the Joseph Smith Papers lacks it. The chapter now quotes the Papers. Is that the author's preferred text for Joseph Smith?
+- Jer. 29:10: the seventy years are left uncounted. The 2 Chr. 36:21 'as long as she lay desolate' could be read as counting from 586, and the seminary manuals date the exile from about 606 B.C. Should the chapter address the counting?
+- *Unanswered:* Who Elasah, Gemariah son of Hilkiah, Ahab son of Kolaiah, Zedekiah son of Maaseiah and Shemaiah were beyond the text. Keil says nothing more is known of them or of the embassy's aim.
+- *Unanswered:* What 'Nehelamite' means (a place, a family?). The chapter is silent on it.
+- *Unanswered:* When the letter was sent: whether before or after the events of chapter 28 (Zedekiah's fourth year), and how it relates to Lehi's call in Zedekiah's first year.
+- *Unanswered:* How exactly the seventy years are counted (see judgment calls).
+
+### Jeremiah 30
+
+- Jer. 30:2 and the setting: the date rests on the study guide's statement that Jeremiah was 'in jail at the time' chapters 30–33 came, tied to Jer. 32:1–2. That link is an inference, and it is labeled as one.
+- Jer. 30:7: no Church source defines 'the time of Jacob's trouble'. The note gives the footnote links (Joel 2:11, Mal. 4:5), the 2018 lesson's last-days heading for vv. 7–12, and Keil's reading that 'that day' is future and not the fall of Jerusalem. Keep or trim Keil's part?
+- Jer. 30:21: 'who is this that engaged his heart' is read through Keil alone: the ruler is given priestly access to God. It is labeled 'one reading', and the note leaves the question open.
+- Jer. 30:3 and 30:9: the Benson (Conference Report, Apr. 1950) and McConkie (The Promised Messiah, 193; A New Witness, 515) quotations were read only as the Church manuals quote them. The original talks and books were not opened.
+- Notes 30:11 and 30:15 both draw on D&C 101:1–9. They overlap somewhat, but each answers a different question, so I kept both.
+- *Unanswered:* What exactly is 'the time of Jacob's trouble' (v. 7)? No Church, BYU, or Scripture Central source defines it; only Keil's reading is given.
+- *Unanswered:* Who is 'this that engaged his heart' (v. 21)? Only Keil's reading is given.
+- *Unanswered:* No conference talk was found that preaches directly on vv. 17, 21, or 23.
+- *Unanswered:* The Septuagint was not consulted. It might bear on v. 21 or on the doublet in vv. 23–24.
+
+### Jeremiah 32
+
+- Jer. 32:7–8 (christ): I cut the line that tied the kinsman's 'right of redemption' to Christ as Redeemer, because no source read ties the two for this chapter. The author may want this typology restored if a Church source makes it.
+- Jer. 32:37, 40 (prophets notes): both notes rest on talks by President Nelson that don't cite Jeremiah 32. The link runs through the Church footnotes and the student manual. Keep them as 'Latter-day Prophets' notes, or change them to 'Related Scriptures'?
+- Jer. 32:39: the note doesn't explain 'one heart, and one way'. The footnote to Deut. 6:24 and 10:13 ('for our good always') could answer 'for the good of them'. That would be new material, so I didn't add it.
+- *Unanswered:* Why seventeen shekels, and was that a fair price? Not answered.
+- *Unanswered:* Why were there altars on rooftops (v. 29), beyond the 2 Kgs. 23:12 precedent? Not answered.
+- *Unanswered:* What does 'one heart, and one way' (v. 39) mean specifically? The note gives only the footnote topics and Jer. 31:33.
+- *Unanswered:* Where is Anathoth, and how far is it from Jerusalem? There is no Bible Dictionary entry, and the distance claim was cut.
+- *Unanswered:* No talk by an apostle or prophet that cites Jeremiah 32 was found (the writer's search; not re-run).
