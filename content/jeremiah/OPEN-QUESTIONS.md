@@ -347,3 +347,112 @@ Reviewed and answered (author, 2026-10-02): no particular direction for Jeremiah
 - *Unanswered:* What does 'one heart, and one way' (v. 39) mean specifically? The note gives only the footnote topics and Jer. 31:33.
 - *Unanswered:* Where is Anathoth, and how far is it from Jerusalem? There is no Bible Dictionary entry, and the distance claim was cut.
 - *Unanswered:* No talk by an apostle or prophet that cites Jeremiah 32 was found (the writer's search; not re-run).
+
+### Jeremiah 33
+
+- Jer. 33:18: the note gives two lines of Church teaching side by side: restored sacrifice by the sons of Levi (Joseph Smith, Joseph Fielding Smith, D&C 84:31, from the D&C manual on section 13) and fulfillment in Christ as king, priest and sacrifice (seminary study guide). They may be complementary rather than alternatives; the author may want to frame them as both true, or choose one.
+- Jer. 33:14–26: the Septuagint lacks these verses. The note reports that some thought the passage a later addition and others defended it, and says the Church's heading and manual treat it as Jeremiah's. It does not explain why the Greek lacks it. Should the note stay, or go further?
+- Jer. 33:16: the chapter follows the OT manual (from Adam Clarke): the name 'The Lord our righteousness' belongs to the one who calls to Jerusalem, not to the city. The Hebrew suffix on lah is 3fs in the interlinear, which Clarke says is a masculine Chaldaic form. The note says only that the Hebrew 'allows' the reading.
+- Jer. 33:7, 15: Benson (Conference Report, Apr. 1950, p. 75) and McConkie (The Promised Messiah, pp. 192–93) are quoted through Church manuals, not the originals. Is that acceptable for prophets' words quoted in a Church manual?
+- Jer. 33:2–5, 24: Keil remains the source for 4 of 17 notes (vv. 2, 3 second paragraph, 4–5, 24), each marked as one reading; no Church, BYU or Scripture Central source answered these questions.
+- *Unanswered:* Why the Septuagint lacks vv. 14–26 (Keil reports only the debate; no Church, BYU or Scripture Central source was found).
+- *Unanswered:* Verse 9 ('they shall fear and tremble for all the goodness'): why would nations tremble at Judah's prosperity? No note.
+- *Unanswered:* Verse 3: no conference talk on 'Call unto me, and I will answer thee' was found, according to the writer's two searches; not re-searched in this review.
+- *Unanswered:* Verse 12 (shepherds causing flocks to lie down): whether it echoes the shepherd imagery of Jer. 23 / Ezek. 34 is not addressed (the Church footnote cross-references Ezek. 34:14).
+
+### Jeremiah 34
+
+- Jer. 34:5: 'Die in peace' sits uneasily with Jer. 52:11 (Zedekiah blinded and imprisoned until his death). The note says the text doesn't settle it and gives Keil's sickbed-and-honorable-burial reading as one reading; no Church source addresses it. The author may want to keep or trim this.
+- Jer. 34:11: the motive for the release (the law, or the need for manpower to defend the city) comes from ot-manual-24, which is quoting Sidney B. Sperry's The Voice of Israel's Prophets, 182–83. Sperry's book was not read. The note calls it 'one scholar's reconstruction' and cites only the manual.
+- Jer. 34:5 and 34:7: two highlighted phrases are not the verse's key words as the KJV prints them. Verse 5 highlights 'thou shalt die in peace' in lowercase, and verse 7 highlights 'Lachish, and against Azekah'. Both match the text and build cleanly.
+- Jer. 34: the chapter has no parallels entry (parallels: []).
+- *Unanswered:* Jer. 34:7: what the Lachish letters say, for example the ostracon that says Azekah's signals can no longer be seen. I searched Scripture Central (KnoWhys) and BYU Religious Studies Center pages and found no Church, BYU or Scripture Central source that quotes them.
+- *Unanswered:* Jer. 34:5: how and where Zedekiah died, and whether he was buried with honor. No Church source found.
+- *Unanswered:* No general conference talk or prophet's teaching on Jeremiah 34 was found, so the chapter has no 'prophets' note.
+
+### Jeremiah 35
+
+- Jer. 35:13 – The two Church manuals describe what the Rechabites kept differently. The Old Testament Student Manual (ch. 24) says they 'observed their covenants'; the seminary student guide says they kept 'human traditions… not part of their religion'. KnoWhy #710 calls it 'loyalty to the Lord'. The note presents both manuals and points to the chapter's own word, 'commandment'. Should the author choose one reading?
+- Jer. 35:1 – No year is given. A dated estimate (599/598) appears only through Bright's Anchor Bible, which can't be read, so it was cut. Should the chapter stay undated, or should the author supply a Church-sourced date?
+- Jer. 35:7 – Should the Lehi/Rechabite note keep its paragraph on the later History of the Rechabites (Narrative of Zosimus)? It is close to reception history, but it is the only sourced answer to what became of the v.19 promise.
+- christ – The Matt. 23:37 lament is set beside the Lord's 'rising early' in Jer. 35:14–15. That pairing is the writer's own scripture parallel; no source draws it.
+- *Unanswered:* No latter-day prophet or conference talk on Jer. 35 was found (the writer's search; I did not redo it), so there is no prophets note.
+- *Unanswered:* JST footnotes for Jer. 35 in the Gospel Library were not checked, by the writer or by me.
+- *Unanswered:* What became of the v.19 promise: no Church source answers it. Only the later Jewish traditions reported in KnoWhy #710 speak to it.
+- *Unanswered:* Whether Maaseiah son of Shallum (v.4) is the father of Zephaniah the priest (Jer. 21:1; 29:25) is not addressed.
+
+### Jeremiah 36
+
+- Jer. 36:32: I cut the writer's comparison of the burned and rewritten scroll with the lost 116 pages (D&C 10; D&C 3:1), which was labeled 'a reader's observation', because no Church or BYU source draws it. If the author wants it, a source that makes the connection is needed.
+- Jer. 36:5: 'I am shut up' is given as the footnote's 'under arrest, or in confinement' and the institute manual's 'confined'. The note also says that verses 19 and 26 show he was not fully confined, which is an inference from the text. The author may want to keep or drop that inference.
+- Jer. 36:30: The seminary guide says the prophecy that 'no descendant of Jehoiakim would be king' came to pass, yet his son Jehoiachin reigned three months (2 Kgs. 24:8). The note now says it came to pass 'in that sense' (the line did not keep the throne). The author may want a fuller treatment.
+- Jer. 36:29: Benson's teaching on how people respond to a living prophet is applied to Jehoiakim. The 2026 institute manual itself pairs that statement with Jeremiah 36, so it stays, but the talk is not about Jeremiah.
+- Jer. 36:10: Who Shaphan's sons are rests on Keil's 'probably' and the matching names in 2 Kgs. 22. Whether this Achbor is Josiah's Achbor is left unstated.
+- Keys: chapter 34 uses ot-seminary-136 for Seminary Teacher Manual lesson 136. Chapter 36 no longer cites that lesson, so nothing needs merging here.
+- *Unanswered:* Why Jeremiah was 'shut up' in Jehoiakim's fourth year: no source gives a reason.
+- *Unanswered:* Who proclaimed the fast of the ninth month, and why: Keil calls it doubtful.
+- *Unanswered:* Whether Jehoiakim's 'ass's burial' was literally fulfilled: the manual says 'probably', and 2 Kgs. 24:6 says only that he 'slept with his fathers'.
+- *Unanswered:* What the 'many like words' added to the second scroll were, and how the second scroll relates to the present book of Jeremiah.
+- *Unanswered:* No general conference talk on Jeremiah 36 was found.
+
+### Jeremiah 37
+
+- 37:5: The Pharaoh is named as Hophra on Keil alone, presented as 'one reading'. No Church, BYU or Scripture Central source read in this session names him.
+- 37:5 / when: The spring-or-summer 588 B.C. date for the Egyptian advance comes only from Tolley (BYU Religious Educator). The Bible Dictionary gives no year for it.
+- 37:21: Which imprisonment Nephi meant in 1 Ne. 7:14 is left open, with three proposals: an earlier imprisonment or second-hand report/revelation (KnoWhy #463), or the cistern of 38:6 (Tolley, from the verb 'cast'). Tolley's reading makes the chronology problem worse, and the note does not say so.
+- *Unanswered:* Who Jonathan the scribe was, and why his house became a prison (Keil's 'probably' covers only the second question)
+- *Unanswered:* What 'the portion' in Benjamin was (v. 12); the Hebrew is obscure
+- *Unanswered:* Which Pharaoh it was, according to a Church or BYU source
+- *Unanswered:* Who Irijah (v. 13) was beyond his genealogy, and whether his grandfather Hananiah is the false prophet of ch. 28 (no source found)
+
+### Jeremiah 38
+
+- Jer. 38:6 / 1 Ne. 7:14: the note sets out three hypotheses without choosing between them: an earlier imprisonment under Jehoiakim or early Zedekiah (Brown and Seely), an arrest in 605 B.C. (Chadwick, known only as KnoWhy #463 reports him), or that Nephi heard of this imprisonment secondhand or knew it by revelation. Should the site lean toward one?
+- Jer. 38:22 (and the thread): the echo between "Jeremiah sunk in the mire" (v. 6) and "thy feet are sunk in the mire" (v. 22) is the writer's own observation. The text supports it (same Hebrew verb, different nouns), but no source draws out its meaning. The note is still kind `structure`; the author may prefer `words`, or a lighter version in the thread.
+- Jer. 38:26: no Church source discusses whether Jeremiah's cover answer to the princes is candid. The note says only that it repeats a real plea (37:20) and gives Keil's "perhaps" for the king's motive.
+- Jer. 38:1: the reading that Gedaliah son of Pashur is a son of the Pashur of chapter 20 is Keil's alone and is flagged as "one reading." Oddly, the Church edition's footnote on Gedaliah's father points to 21:1, and the one on Pashur son of Malchiah points to 20:1.
+- *Unanswered:* Who the thirty men were (v. 10), and why such a large number; Keil discusses the number, but the writer left it out.
+- *Unanswered:* Why rags under the armpits (vv. 11–12); Keil explains they padded the ropes, but the chapter has no note on it.
+- *Unanswered:* What or where "the third entry" was (v. 14); no source knows.
+
+### Jeremiah 39
+
+- Jer. 39:6: the Mulek note's "not in Jerusalem" suggestion is stated by KnoWhy 753 in its own voice, but its endnote attributes the idea to Chadwick, "Has the Seal of Mulek Been Found?" (JBMS), which was not read. It is cited only as the KnoWhy's suggestion, hedged as "a reading, not a record". Should the underlying article be read, or the sentence dropped?
+- Jer. 39 christ: the Bible Dictionary links Zedekiah's name ("The Lord (is) righteousness") to Jer. 23:6, and the chapter says the text itself draws no connection. Does the author want this name-contrast as the chapter's Christ section?
+- Jer. 39:16: no prophet's or apostle's teaching on Ebed-melech was found. The Ensign article by an Area Authority Seventy (Tefan) is cited under a `history` note, not a `prophets` note.
+- Jer. 39:3: the officers' names rest on Keil's reading (four men, two titles). The note marks it as "one reading" and does not report the textual-corruption theory Keil rejects.
+- *Unanswered:* v.5 "gave judgment upon him": what the sentence at Riblah involved (the writer found no source).
+- *Unanswered:* v.10: why the poor were left, beyond 2 Kgs 25:12's "vinedressers and husbandmen".
+- *Unanswered:* v.17 "the men of whom thou art afraid": who Ebed-melech feared (the princes of 38:4? the Babylonians?) is not addressed.
+- *Unanswered:* How Jer. 34:5 ("thou shalt die in peace") squares with Zedekiah's blinding and imprisonment; left to ch. 34.
+- *Unanswered:* v.3 "the middle gate": where it was. Keil has a guess; the chapter rightly leaves it out.
+
+### Jeremiah 40
+
+- Jer. 40:1, 40:14: the ot-manual-24 quotations ('taken in chains… as far as Ramah', 'The good governor was warned…') are the manual quoting Sidney B. Sperry, *Voice of Israel's Prophets*, 184–85. Sperry was not read; they are cited as the manual only, following the ch. 13 precedent. Should Sperry be read and cited?
+- Jer. 40:1 with 39:11–14: Jeremiah is released from the prison court in 39:14 yet is in chains at Ramah in 40:1. No source read reconciles the two, and the note now says only that neither chapter explains it. Does the author want a reconciliation?
+- Jer. 40:1: the note 'A heading with no word in it' rests on Keil alone (one reading). Keep it, or cut it as a question few readers would ask?
+- *Unanswered:* Who was Baalis, and why did he want Gedaliah dead? The only answer is Keil's statement that it 'cannot be determined'.
+- *Unanswered:* Where was Mizpah? The Bible Dictionary 'Mizpah or Mizpeh' entry lists three places, none of them this one (confirmed this session).
+- *Unanswered:* How did Jeremiah, released from the prison court in 39:14, end up in chains at Ramah in 40:1?
+- *Unanswered:* No general conference or other prophetic teaching on this chapter was found, so the chapter has no 'prophets' note.
+
+### Jeremiah 41
+
+- Jer. 41 christ: the chapter has no direct witness of Christ. The section now gives only the Bethlehem fact (Bible Dictionary, Micah 5:2) and Matt. 2:14–15, and says the chapter itself makes no connection. The author should decide whether a christ section built only on the place name is worth keeping, or should be shortened further.
+- Jer. 41:10: the KnoWhy #753 idea that Mulek went to Egypt, as some of Zedekiah's daughters did, comes from Sorenson and Chadwick (its footnote 5). It is cited only as the KnoWhy's own statement and labeled a plausible reconstruction. The author may want those underlying works read.
+- Jer. 41:1, 5, 17: three of the 12 notes rest partly on Keil, each labeled "one reading": Elishama as David's son, the eighty men as northern Israelites who kept worshipping, and Chimham's inn. No Church, BYU, or Scripture Central source was found for any of them.
+- Jer. 41:1 (setting/when): the "two months after the fall" figure is Keil's alone and is labeled one reading. Whether the murder happened in 586 or a later year is left open.
+- *Unanswered:* Why Baalis wanted Gedaliah dead (41:1; Jer. 40:14). The chapter says no source gives the reason.
+- *Unanswered:* Why Ishmael killed the eighty pilgrims at all (41:6–7). No source found.
+- *Unanswered:* Who Nebuzar-adan was, and where Mizpah was (41:10, 41:1). Presumably covered in chapters 39–40, but this chapter doesn't link there.
+- *Unanswered:* Whether the "great waters" are the "pool of Gibeon" of 2 Sam. 2:13. Only Keil makes the identification, so I didn't add it; adding it would have made a fourth note resting on Keil.
+
+### Jeremiah 42
+
+- Jer. 42:20: I cut Keil's reading 'at the risk of your souls', which he gives against the Church footnote's 'have deceived your souls', following the brief's rule on outside readings. The author may want the debate over the Hebrew verb (the Kethib reading) restored as a labeled minority view.
+- Jer. 42:1 / 43:2: whether Jezaniah son of Hoshaiah and Azariah son of Hoshaiah are one man. The note leaves it open, and no source I read says.
+- Jer. 42:7: the reason for the ten-day delay rests on Keil alone, given as 'one reading'. No Church source answers it.
+- *Unanswered:* Why the people say 'the LORD thy God' in vv. 2–3 and 5 but 'our God' in v. 6, and why Jeremiah says 'your God' (v. 4)
+- *Unanswered:* Why Egypt in particular looked safe in 586 B.C. (its standing toward Babylon at the time). Answered only through Deut. 17:16 and Isaiah
+- *Unanswered:* Whether any of the group in Egypt returned (Jer. 44:14, 28 is touched on but not explained)
