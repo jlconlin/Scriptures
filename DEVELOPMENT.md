@@ -8,7 +8,7 @@ The site is served at https://scriptures.conlin.io by Cloudflare, which rebuilds
 
 ## Checks
 
-`scripts/check-content.mjs` (`npm run check`) checks sourcing: unknown keys and wiki URLs everywhere; for chapters with an evidence ledger, every note sourced and every cited key backed by a quoted ledger row. It also warns about chapters well past the length guideline. It is not part of `npm run build`, so unaudited chapters can't break the Cloudflare build. `scripts/pdf-text.mjs` prints a PDF's text (pdfjs-dist; for research, since Python PDF libraries fail in the cloud sandbox). Not yet written: `scripts/check-links.mjs` (referenced by `npm run check:links` in `package.json`).
+`scripts/check-content.mjs` (`npm run check`) checks sourcing: unknown keys and wiki URLs everywhere; for chapters with an evidence ledger, every note sourced and every cited key backed by a quoted ledger row. It also warns about chapters well past the length guideline. It is not part of `npm run build`, so unaudited chapters can't break the Cloudflare build. `scripts/check-ledger.mjs` (`node scripts/check-ledger.mjs <book> [n...]`) reopens every ledger row's URL with curl and confirms the quote is on the page, comparing letters only (footnote markers, verse numbers and Strong's annotations get in the way otherwise); pages are cached in `.cache/ledger/` for a day (`--fresh` refetches). It proves quotes are real, not that they support their claims. `scripts/pdf-text.mjs` prints a PDF's text (pdfjs-dist; for research, since Python PDF libraries fail in the cloud sandbox). Not yet written: `scripts/check-links.mjs` (referenced by `npm run check:links` in `package.json`).
 
 ## Site design
 

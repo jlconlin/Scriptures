@@ -9,12 +9,15 @@ Current work and how to work with the author. **The writing and sourcing standar
 - **Jeremiah:** all 52 chapters written, checked, and live (2026-10-02). The author has not yet read them; the checkers' judgment calls and unanswered reader questions are in `content/jeremiah/OPEN-QUESTIONS.md`, theme candidates in `content/jeremiah/THEME-CANDIDATES.md`. No Jeremiah guides or theme pages yet.
 - **Site:** framework, guides, theme pages, About page, and book-neutral code done. Code notes are in `DEVELOPMENT.md`.
 
-## Plan for new books, starting with Jeremiah
+## Plan for the next book
 
-Goal: write content that needs no audit afterward, by making sourcing part of writing. Steps 1 (standard, agents, `check-content.mjs`) and 2 (book-neutral code) are done.
+Jeremiah was written with Sonnet writers and Opus checkers (one commit per chapter; `STANDARDS.md` §11). The checkers reopened nearly every ledger row, which is mechanical work a script now does (`scripts/check-ledger.mjs`). For the next book, test this arrangement on two pilot chapters and compare (author, 2026-10-02: “a good thing to test”):
 
-3. **The book's brief, with the author.** `content/<book>/BRIEF.md`: divisions and intro, the author's questions, which sources for the book are actually readable online (researched, not assumed), book-wide issues to handle consistently, guide and theme candidates, Restoration connections. Then `book.yaml` and the rest of “Adding a new book” in `DEVELOPMENT.md`. (Done for Jeremiah, without the author; see Status.)
-4. **Pilot, then batches.** Two chapters by chapter-writer agents, each checked by a chapter-reviewer agent; review (spot-check the ledger, run the checks, show the author in the preview); adjust the instructions; then continue in batches, one commit per chapter.
+1. **Opus writes** the chapter and its ledger (`chapter-writer`, with the model set to Opus).
+2. **The script checks the ledger**: `node scripts/check-ledger.mjs <book> <n>`. Every quote confirmed on its page before anyone reads the chapter.
+3. **A second Opus reviews** (`chapter-reviewer`): the chapter against the ledger and the standard, which is a shorter job once the quotes are proved.
+
+Before that: the book's brief, with the author (`content/<book>/BRIEF.md`: divisions and intro, the author's questions, which sources are actually readable online, book-wide issues, guide and theme candidates, Restoration connections); then `book.yaml` and “Adding a new book” in `DEVELOPMENT.md`. Jeremiah's brief is the model, including its section “What a chapter is for.” The Workflow script used for Jeremiah's batches (writer → reviewer pipeline, ten chapters at a time) is not in the repository; it is described in `STANDARDS.md` §11 and easy to rebuild.
 
 ## Working with the author
 
