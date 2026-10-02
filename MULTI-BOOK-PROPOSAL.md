@@ -145,3 +145,5 @@ Questions after that: the book menu's design (shown in the preview), whether to 
 - **The author likes:** the menu opening with the current book (and chapter) already selected.
 - **Adjusted after feedback:** pointing opens a column immediately; the panel stays a fixed size with three columns, so changing volume doesn't reshape it; the column whose contents change fades in; returning to a volume shows the book last chosen there.
 - **Codex's review** (for the record): it questioned whether a full scripture browser is worth it while the site has few books. It suggested listing only books with commentary, with "2 of 52"-style labels, and making chapter navigation on the page itself prominent.
+- **All five volumes are always listed** (Old Testament, New Testament, Book of Mormon, Doctrine and Covenants, Pearl of Great Price), even when only books with commentary are shown. A volume with nothing on the site yet says so and links to the Gospel Library.
+- **Guides:** each book keeps its own Guides page (no site-wide Guides page). Proposed: a Guides link in the header on pages of books that have guides. Only the Scriptures menu's label must never change.
