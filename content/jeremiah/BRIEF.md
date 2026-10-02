@@ -8,11 +8,9 @@ Related files:
 
 ## State of the book
 
-Started 2026-10-02. The author asked for all 52 chapters to be written while away, so this brief was drafted by the coordinating session. The author then confirmed the approach (2026-10-02): no particular direction or focus questions for Jeremiah; continue as with Isaiah, whose commentary the author is happy with “both in its content and its quantity.” Each writer works from the questions a careful reader would ask (`STANDARDS.md` §3, “Read, ask, then seek”), and the finished Isaiah chapters are the measure of depth and length.
+All 52 chapters were written on 2026-10-02 and the book went live the same day, with the author's approval given in advance. Each chapter was written by a `chapter-writer` agent (Sonnet), checked and repaired by a `chapter-reviewer` agent (Opus, which did not write it), and committed with its evidence ledger; the coordinating session added the `sources.yaml` entries and ran the checks. The author gave no focus questions and confirmed the approach: continue as with Isaiah, whose commentary the author is happy with “both in its content and its quantity.” Each writer worked from the questions a careful reader would ask (`STANDARDS.md` §3).
 
-The book is `status: preview` in `book.yaml`, so it appears only in the preview build until the author takes that line out.
-
-**How each chapter is made:** a `chapter-writer` agent (Sonnet) writes the chapter and its ledger; a `chapter-reviewer` agent (Opus, which did not write it) reopens the sources and repairs what fails; the coordinating session adds the `sources.yaml` entries, runs the checks, and commits one chapter at a time.
+Remaining: the author has not yet read the chapters; the judgment calls and unanswered reader questions the checkers reported are in `OPEN-QUESTIONS.md`, by chapter, and the topics that run across the book are in `THEME-CANDIDATES.md`.
 
 ## What a chapter is for
 

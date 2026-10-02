@@ -6,7 +6,7 @@ Current work and how to work with the author. **The writing and sourcing standar
 
 - **Isaiah:** all 66 chapters written and audited. Remaining: the open questions (`content/isaiah/OPEN-QUESTIONS.md`) and deepening chapters 1–37 (`content/isaiah/BRIEF.md`).
 - **Isaiah theme pages:** five chosen (`content/isaiah/THEME-CANDIDATES.md`). The arm of the Lord is live (2026-10-02), and the notes on 51:5, 52:10, 53:1 and 59:16 link to it. The other four (the new exodus and the highway, Zion and her husband, light, and the servants section of the Servant Songs page) are live too, with links from the chapter notes at their key verses; the author has not yet read these four.
-- **Jeremiah:** under way, in preview (`status: preview` in `content/jeremiah/book.yaml`). The text's spellings are checked against the Gospel Library edition. The brief (`content/jeremiah/BRIEF.md`) was drafted on 2026-10-02 by the coordinating session; the author confirmed its approach the same day (continue as with Isaiah, no focus questions). Chapters are written by `chapter-writer` (Sonnet), checked by `chapter-reviewer` (Opus), and committed one at a time.
+- **Jeremiah:** all 52 chapters written, checked, and live (2026-10-02). The author has not yet read them; the checkers' judgment calls and unanswered reader questions are in `content/jeremiah/OPEN-QUESTIONS.md`, theme candidates in `content/jeremiah/THEME-CANDIDATES.md`. No Jeremiah guides or theme pages yet.
 - **Site:** framework, guides, theme pages, About page, and book-neutral code done. Code notes are in `DEVELOPMENT.md`.
 
 ## Plan for new books, starting with Jeremiah

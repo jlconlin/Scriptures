@@ -2,7 +2,7 @@ export const SITE = {
   name: 'Line upon Line',
   tagline: 'A companion for understanding the scriptures',
   description:
-    'Phrase-by-phrase help for understanding the scriptures, beginning with Isaiah. Grounded in the restored gospel of Jesus Christ, with history, Hebrew, symbolism, and references.',
+    'Phrase-by-phrase help for understanding the scriptures, one book at a time: Isaiah and Jeremiah so far. Grounded in the restored gospel of Jesus Christ, with history, Hebrew, symbolism, and references.',
   url: 'https://scriptures.conlin.io',
   author: 'Jeremy Lloyd Conlin',
   repo: 'https://github.com/jlconlin/Scriptures',
@@ -17,7 +17,7 @@ export const LIBRARY = [];
 
 // Volumes the home page lists as coming someday. A book with content is listed from its book.yaml instead.
 export const COMING_SOMEDAY = [
-  { name: 'More of the Old Testament', blurb: 'Jeremiah, Ezekiel, the Psalms, and the other books that reward careful reading.' },
+  { name: 'More of the Old Testament', blurb: 'Ezekiel, the Psalms, and the other books that reward careful reading.' },
   { name: 'New Testament', blurb: 'Paul’s letters and Revelation, with their Greek and their setting.' },
   { name: 'Book of Mormon', blurb: 'Nephi, Jacob, Alma, and the Isaiah chapters of the Book of Mormon.' },
   { name: 'Doctrine and Covenants & Pearl of Great Price', blurb: 'Revelations of the Restoration in their setting.' },

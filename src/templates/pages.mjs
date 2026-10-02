@@ -79,7 +79,7 @@ export function renderHome({ books, featured }) {
     <h2 class="card-title">${icon('christ')} Why study this way?</h2>
     <div class="prose">
       <p>The Savior said, “Search these things diligently; for great are the words of Isaiah” ([[3 Ne. 23:1]]). The point of the searching is to know Him. Every note here tries to help you understand the words or see Jesus Christ in them.</p>
-      <p>Commentary is not scripture. Where Latter-day Saint scholars or other students of Isaiah read a passage in different ways, the notes say so. Where prophets and apostles have taught plainly, the notes follow them. The best interpreter of Isaiah is still the Holy Ghost ([[2 Ne. 25:4]]).</p>
+      <p>Commentary is not scripture. Where Latter-day Saint scholars or other students of the scriptures read a passage in different ways, the notes say so. Where prophets and apostles have taught plainly, the notes follow them. The best interpreter of scripture is still the Holy Ghost ([[2 Ne. 25:4]]).</p>
     </div>
   </div>
 </section>`;
