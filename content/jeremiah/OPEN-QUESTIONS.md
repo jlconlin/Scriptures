@@ -456,3 +456,109 @@ Reviewed and answered (author, 2026-10-02): no particular direction for Jeremiah
 - *Unanswered:* Why the people say 'the LORD thy God' in vv. 2–3 and 5 but 'our God' in v. 6, and why Jeremiah says 'your God' (v. 4)
 - *Unanswered:* Why Egypt in particular looked safe in 586 B.C. (its standing toward Babylon at the time). Answered only through Deut. 17:16 and Isaiah
 - *Unanswered:* Whether any of the group in Egypt returned (Jer. 44:14, 28 is touched on but not explained)
+
+### Jeremiah 43
+
+- 43:2: 'Azariah' as a probable error for 'Jezaniah' (42:1) rests on Keil alone, presented as one reading. The author may want it cut, or checked against the Septuagint (Brenton, chapter 49 in its numbering).
+- 43:6: the note keeps the Sorenson / KnoWhy #753 suggestion that Mulek reached Egypt with 'the king's daughters'. It is labeled a proposal; the author decides whether a speculative Mulek link belongs in this chapter or only in chapters 39 and 52.
+- 43:10–13: whether Nebuchadnezzar actually conquered Egypt is reported only from Keil (Berosus via Josephus for it; others against). No Church or BYU source was found.
+- 43:4: the Benson / Kimball note is close to the 'Points to Ponder' material in the manual's chapter 24. It describes the text rather than applying it, but the author may judge it too near application.
+- christ field: it speaks of 'the Lord' (Jer. 42:11; 1:8) and never names Jesus Christ or cites a source identifying Jehovah with Christ.
+- *Unanswered:* Which king's daughters are meant in 43:6 (Zedekiah's or another king's)? The text does not say. Sorenson assumes Zedekiah's, but no source settles it.
+- *Unanswered:* Whether and when Nebuchadnezzar invaded Egypt: there is no Church or BYU answer, only Keil.
+- *Unanswered:* What happened to Jeremiah after Egypt (his death)? No source was read; chapter 44 is the last record.
+- *Unanswered:* What the 'houses of the gods' at Tahpanhes were, and where Pharaoh's house there stood: no source beyond Keil was read.
+
+### Jeremiah 44
+
+- Jer. 44:30: no Church, BYU or Scripture Central source says how the Hophra sign was fulfilled. The note keeps Keil's reading (Apris killed by his own people after Amasis took him prisoner), labeled as one reading. The author may prefer to cut this paragraph.
+- Jer. 44:19: the 'without our men' note rests entirely on Keil (that it was the women's self-vindication, and the Num. 30 vow law). It is labeled as one reading, and the section plain now stays with the KJV. Keep it or cut it?
+- Jer. 44:16: the Kimball line ('garnish the sepulchres', Instructor, Aug. 1960) is cited only through the Old Testament Student Manual. I did not read the original Instructor article.
+- *Unanswered:* What happened to Jeremiah after this chapter? Only the Bible Dictionary's 'according to tradition… stoned him' is available, and it is given in the setting.
+- *Unanswered:* Did the Jews in Egypt actually perish as foretold (v. 27–28)? No Church source addresses it; Keil only speculates.
+- *Unanswered:* What 'rising early' means as an idiom (v. 4). The note answers it only through the 2 Chr. 36:15 parallel.
+
+### Jeremiah 45
+
+- Jer. 45:4: the Church edition's footnote on 'this whole land' says 'Hebrew text adds: for it is mine.' The Hebrew interlinear shows only the pronoun hi ('it [is]'), which Keil renders 'it is it.' The note reports the footnote as it stands and does not try to square it with the Hebrew. Should it?
+- Jer. 45:1, 3: the manual's paragraph on Baruch (605/4 B.C., his despair, 'much of the present book… must go back… to him') quotes J. A. Thompson's NICOT commentary, which can't be read online. The chapter cites the manual for it and calls the last point 'a scholar's judgment.' Is that acceptable under STANDARDS.md §4 rule 6?
+- Jer. 45: no conference talk or Church magazine article on Baruch or Jer. 45 was found (the writer's search), so there is no 'prophets' note.
+- *Unanswered:* What the 'great things' Baruch wanted were (only Keil guesses: worldly prosperity).
+- *Unanswered:* Who Neriah was, and whether Baruch's family (for example Seraiah in 51:59) matters.
+- *Unanswered:* Why the chapter was placed after chapter 44. Only Keil's 'appendix to the prophecies concerning Judah' speaks to it.
+
+### Jeremiah 46
+
+- 46:10: the text places the Lord's 'sacrifice' at Carchemish on the Euphrates, and the Old Testament Student Manual reads 'the day of the Lord' as the Second Coming. The note gives both and says which is which. The author should confirm this two-level reading.
+- 46:2: the heading speaks of the defeat at Carchemish as past, while verses 3–12 read like a vision of the battle as it happens. The note says the two 'may come from different moments' and that the text does not settle it. No source was found on this.
+- 46:17: 'but a noise' (the interlinear gloss, which the note follows) against Keil's 'ruin', which is marked as one reading. Keil is cited in 4 of the 15 notes (at verses 9, 14, 17 and 20).
+- *Unanswered:* 46:18: why Tabor and Carmel are named. Keil does answer this: Tabor overtops the surrounding mountains, Carmel looks out over the sea, and the point of the comparison is Nebuchadnezzar's power. I didn't add a note because Keil is already in 4 of the 15 notes. The writer's report was wrong to say Keil doesn't address it.
+- *Unanswered:* The date and course of Nebuchadnezzar's invasion of Egypt (verse 13): no source was found.
+- *Unanswered:* Whether any Book of Mormon passage connects to this chapter: data/bom was not checked.
+
+### Jeremiah 47
+
+- Jer. 47:1: Which Pharaoh struck Gaza, and when. The note follows Keil, presented as one reading, who prefers Hophra on the strength of 2 Kgs. 24:7 and Jer. 37:5, while saying the question is uncertain. No Church or BYU source addresses it. Should the chapter keep Keil's preference or only say it is uncertain?
+- Jer. 47:6–7: The speakers (a plea to the sword, then the prophet's answer) are not marked in the text. The division follows Keil and is labeled one reading.
+- Jer. 47 christ: There is no Christ-centered source for this chapter. The christ section rests on the Lord as judge of the nations and on Zech. 9:7 ('shall be for our God'). The author may want to decide whether that is enough.
+- *Unanswered:* Which year and which Pharaoh in verse 1. No Church, BYU or Scripture Central source answers it; only Keil does.
+- *Unanswered:* Whether and when Babylon actually destroyed Gaza and Ashkelon, which would fulfill the oracle. The writer found no acceptable source.
+- *Unanswered:* Verse 5, 'the remnant of their valley': which valley is meant gets no note.
+
+### Jeremiah 48
+
+- Jer. 48:31–36: Who says 'I will howl for Moab'? The surrounding 'saith the LORD' points to the Lord; Keil says it is the prophet, as in Isa. 15:5 and 16:9. The chapter now gives both, favoring the Lord. The thread and christ sections depend on this choice.
+- Jer. 48:3 and the parallels with Isaiah 15–16: whether Jeremiah borrows from Isaiah is given as 'one reading' (Keil says Jeremiah's verses are 'based on' or 'taken from' Isaiah's). No Church source settles which way the borrowing goes.
+- Jer. 48:40: identifying the eagle as Babylon is an inference from the footnote to Ezek. 17:3 (Keil also names Nebuchadnezzar), and the chapter labels it that way.
+- *Unanswered:* Where the many town names lie (Nebo, Dibon, Aroer, Kir-heres, Kerioth and the rest), and which of them Israel once held. Not answered from a source.
+- *Unanswered:* When the oracle was given, and how and when Babylon conquered Moab. The chapter gives no date.
+- *Unanswered:* What 'at ease' means in v11. The Church edition's footnote reads 'HEB relaxed his guard', and the chapter doesn't use it.
+- *Unanswered:* The v47 footnote 'OR turn away, remove' on 'bring again the captivity' isn't explained.
+- *Unanswered:* Fear, pit and snare (vv. 43–44), which echoes Isa. 24:17–18, has no note.
+- *Unanswered:* No latter-day prophet's teaching on this chapter was found.
+
+### Jeremiah 49
+
+- Jer. 49:1, 3: Is malkam the Ammonite king or the god Milcom? Keil says verse 1 is the king and verse 3 the god; some translations print Milcom in both. I set the verse 1 plain back to 'their king' and kept Milcom for verse 3. The author may prefer Milcom in both.
+- Jer. 49:12: 'They whose judgment was not to drink' is now read as Israel, on Keil alone, marked as one reading. No Church source read in this session identifies them.
+- Jer. 49:13: The Bozrah note (kind christ) links Jeremiah's Bozrah to Isa. 63:1 and D&C 133 through the shared place name. The note says Jeremiah himself doesn't make the connection. Keep it as a christ note, or move it to scripture?
+- Jer. 49:39: Elam's latter-day return rests only on the manual's 'it is supposed... conversion'. No prophet's teaching was found.
+- *Unanswered:* Where Ai (v. 3) was: no source places it.
+- *Unanswered:* How and when the Damascus oracle (vv. 23–27) was fulfilled: only Keil's 'cannot be proved historically'.
+- *Unanswered:* How the Kedar and Hazor oracle was fulfilled under Nebuchadnezzar (vv. 28–33).
+- *Unanswered:* Why Elam is judged at all (vv. 34–38): the note says only that the oracle gives no reason.
+- *Unanswered:* Any latter-day prophet's teaching on this chapter, especially Elam's return (v. 39) and Edom as the world.
+- *Unanswered:* What 'the swelling of Jordan' (v. 19) means.
+
+### Jeremiah 50
+
+- Jer. 50:1 — The manual says chapters 50–51 were "written and sent to Babylon in the days of Zedekiah", but the Bible Dictionary says they are "later than Jeremiah" in their present form. I cut the note's paragraph setting the two side by side and left the BD statement once, in setting. Should the chapter say more?
+- Jer. 50:44 — The only link to Cyrus is the Church edition's footnote on "shepherd" (Isa. 44:28). The note now says it is a cross-reference, not an identification. Should Cyrus be mentioned at all?
+- Jer. 50:28 — The oracle is dated to Zedekiah's fourth year, before the temple burned. The new note uses both the earlier removal of the temple vessels (Jer. 27:16) and the later burning (Jer. 52:13, 17), without saying which one the verse means.
+- *Unanswered:* Who "the mingled people" are (verse 37); the footnote points only to Jer. 25:20.
+- *Unanswered:* How the "never inhabited" prophecy was fulfilled (verses 39–40).
+- *Unanswered:* The Hebrew word behind "Redeemer" (go'el) in verse 34.
+- *Unanswered:* Whether any general conference talk teaches from Jeremiah 50.
+
+### Jeremiah 51
+
+- Jer. 51:20: the Church's chapter heading reads the 'battle axe' as Israel ('Israel is the Lord's rod to destroy all kingdoms'). Keil reads it as Babylon, repaid in verse 24. The note gives the Church's reading first and Keil's as 'another reading', and the last word goes to the heading. Should Keil's reading stay at all?
+- Jer. 51:9: no Church source says who speaks ('We would have healed Babylon'). The note gives Keil's reading (the captive nations) as one reading, then the manual's lesson ('God would have healed them…'). The manual's wording may imply God is the speaker. Which should lead?
+- Jer. 51:59–64: the Bible Dictionary says chs. 50–51 'in their present form are later than Jeremiah', while the manual says they were 'written and sent to Babylon in the days of Zedekiah'. The v64 note reports both without reconciling them.
+- Jer. 51:59 and `when`: 'about 594 B.C.' is arithmetic from the Bible Dictionary's 597–586 for Zedekiah; no source states the year.
+- Jer. 51:6, 25: Elder McConkie's words come from *The Millennial Messiah* and were read only as the Doctrines of the Gospel manual quotes them. The chapter cites the manual.
+- *Unanswered:* Who are Ararat, Minni and Ashkenaz (v. 27)? Only Keil answers it; the writer cut the note.
+- *Unanswered:* What is the 'vengeance of his temple' (v. 11)? No Church source found; I cut the unsourced link to v. 51.
+- *Unanswered:* Who or what is Sheshach (v. 41)? It is covered only inside the v1 cipher note, which rests on Keil.
+- *Unanswered:* Was Seraiah Baruch's brother (v. 59)? The note says the text doesn't say.
+
+### Jeremiah 52
+
+- Jer. 52:1: the chapter is presented as a historical appendix that may have been added by Baruch. This rests on the Bible Dictionary and the OT Student Manual chapter 24, and it is stated as the manual's 'perhaps'.
+- Jer. 52:3: the 'six features' reading of the fall is Bruce Satterfield's (Glimpses of Lehi's Jerusalem, FARMS 2004). It is cited only through KnoWhy #637, for what the KnoWhy itself says; the underlying chapter was not read (STANDARDS §4 rule 6). Should it stay?
+- Jer. 52:12, 52:28–29, 52:31: where Jeremiah and Kings differ (tenth versus seventh day, 18th versus 19th year, 25th versus 27th day), the chapter reports both and does not decide. Keil is the only source for the copying-error and different-reckoning explanations.
+- Jer. 52:22: the capital is five cubits here and three cubits in 2 Kgs. 25:17. The chapter does not mention this; it is left as it is.
+- *Unanswered:* Why Evil-merodach released Jehoiachin (52:31): the manual says only that he was 'kindly treated', and no source gives a reason.
+- *Unanswered:* Why verse 22 gives a five-cubit capital where 2 Kgs. 25:17 gives three.
+- *Unanswered:* Who Seraiah the chief priest was (52:24), and whether he is connected to Ezra (Ezra 7:1). No source was read for this.
+- *Unanswered:* No talk or other teaching by a latter-day prophet on this chapter was found.
