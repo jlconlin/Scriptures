@@ -76,7 +76,8 @@ ${linkRefs(body)}
 
 // The header's one menu: labeled with the current book (or “Books”), it holds this book's pages and
 // every book on the site, grouped by volume (book.yaml `eyebrow`). A <details> element, so it works
-// without JavaScript; site.js closes it on Escape or a tap elsewhere.
+// without JavaScript; site.js closes it on Escape or a tap elsewhere. Outside a book, About is also
+// a header link from 680px up, so the menu's About shows only on narrower screens.
 function bookMenu(book) {
   const count = (b) => `${b.written.size < b.total ? `${b.written.size} of ` : ''}${b.total} chapters`;
   const volumes = [...new Set(LIBRARY.map((b) => b.eyebrow))];
@@ -99,8 +100,8 @@ function bookMenu(book) {
             .join('\n          ')}`,
             )
             .join('\n          ')}
-          <hr>
-          <a href="/about/">About this site</a>
+          <hr${book ? '' : ' class="menu-narrow"'}>
+          <a href="/about/"${book ? '' : ' class="menu-narrow"'}>About this site</a>
         </div>
       </details>`;
 }
