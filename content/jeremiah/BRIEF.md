@@ -8,7 +8,7 @@ Related files:
 
 ## State of the book
 
-Started 2026-10-02. The author asked for all 52 chapters to be written while away, so this brief was drafted by the coordinating session without the author's review; the choices the author should confirm are in `OPEN-QUESTIONS.md` under “The brief.” The author gave no focus questions before leaving; each writer works from the questions a careful reader would ask (`STANDARDS.md` §3, “Read, ask, then seek”).
+Started 2026-10-02. The author asked for all 52 chapters to be written while away, so this brief was drafted by the coordinating session. The author then confirmed the approach (2026-10-02): no particular direction or focus questions for Jeremiah; continue as with Isaiah, whose commentary the author is happy with “both in its content and its quantity.” Each writer works from the questions a careful reader would ask (`STANDARDS.md` §3, “Read, ask, then seek”), and the finished Isaiah chapters are the measure of depth and length.
 
 The book is `status: preview` in `book.yaml`, so it appears only in the preview build until the author takes that line out.
 
