@@ -22,6 +22,13 @@ What that means in practice, from the two pilot chapters:
 
 - **The question comes first, and the note answers it.** A note exists because a reader would stop at that phrase and wonder. If no reader would ask, there is no note, however interesting the source. If a reader would ask and no source answers, say in the report that it went unanswered; don't fill the gap.
 - **Open with the answer, not a label.** Never begin a note “This note is about…” or “This note explains….” The first sentence states the note's main point in plain words (“Anathoth was a priests' town a few miles northeast of Jerusalem.”). The finished Isaiah chapters show how.
+- **Where answers come from, in this order** (author, 2026-10-02: “the vast majority of content should come from official church sources”):
+  1. **The Church's own sources** (churchofjesuschrist.org): the scriptures with their chapter headings and footnotes, the Bible Dictionary and Guide to the Scriptures, the Church's manuals, general conference talks and other teachings of prophets and apostles, the Joseph Smith Papers. Most of a chapter's notes should rest on these.
+  2. **BYU** (byu.edu): the Religious Studies Center, BYU Studies, and other BYU publications.
+  3. **Scripture Central** (KnoWhys and its other articles), which the author counts as staying close to the Church's teaching.
+  4. **Other commentary and scholarship** (Keil, other translations, the Septuagint): “appropriate, but should be used sparingly when other LDS adjacent sources are not available.” The Hebrew text and a lexicon are tools for a word's meaning and are fine for that.
+  
+  **Everything follows the Church's teaching and doctrine.** Where an outside source's reading differs from the Church's, the chapter gives the Church's reading; the outside reading is left out unless the reader's question needs it, and it is never set beside the Church's as an equal alternative.
 - **One good source per answer.** Go first to what answers the question most directly: the verse's own context, other scripture, the Hebrew text and BDB for a word, the Bible Dictionary or the Church's manual for a person, place, or doctrine. Don't stack a second and third source saying the same thing.
 - **Keil is a last resort, not a companion.** He is the only full commentary readable online, which makes it easy to follow him verse by verse; don't. Use him when the question is real and nothing closer answers it, and in no more than about a third of a chapter's notes. Don't report what earlier commentators (Jerome, the rabbis) thought unless the reader's question needs it. When a point is his alone, say once that it is “one reading” and move on; don't write “one commentator says… the same commentator notes….”
 - **Don't announce sources.** Not “The Church's manual observes that…” or “The Bible Dictionary says…”: make the statement, or work the quotation into the sentence, and let the citation carry the attribution (`STANDARDS.md` §3).
@@ -86,13 +93,13 @@ Tested from the author's Mac on 2026-10-02. `STANDARDS.md` §9 has the general r
   - #475 “When Did Lehi Leave Jerusalem?” (`when-did-lehi-leave-jerusalem`); #410 “What Parts of the Old Testament Were on the Plates of Brass?” (`what-parts-of-the-old-testament-were-on-the-plates-of-brass`)
   
   A KnoWhy is cited for what it says itself; an idea it passes along from another work needs that work read too (`STANDARDS.md` §4 rule 6).
+- BYU's Religious Studies Center (`rsc.byu.edu`) and BYU Studies (`byustudies.byu.edu`): article pages load with `curl` (confirmed 2026-10-02; an earlier failure was temporary). Their own search pages need a browser, so find articles with WebSearch (`site:rsc.byu.edu Jeremiah <topic>`), then read the article with `curl` and quote from that.
 - archive.org full texts (`…/download/<id>/<id>_djvu.txt`).
 
 **Keys for new sources,** so that two chapters proposing the same work choose the same key: `bd-<entry>` and `gs-<entry>` (the entry's name in the URL); `sc-knowhy-<number>`; `jst-<book>-<chapter>`; for a talk, `<speaker's surname>-<one or two words of the title>`; for a book or article, `<author's surname>-<one or two words>`. Check `content/sources.yaml` first: it changes as chapters are finished.
 
 **Not readable (don't cite):**
 
-- BYU's Religious Studies Center (`rsc.byu.edu`) did not resolve from the shell on 2026-10-02 (two tries). If it fails for you too, leave it; its articles on Jeremiah and Lehi can be added later.
 - BYU ScholarsArchive PDFs (abstract page only), Britannica, the British Museum (`STANDARDS.md` §9 and the Isaiah brief).
 - The modern commentaries on Jeremiah (Anchor Bible, Hermeneia, NICOT, Word Biblical Commentary, and the like) are not readable online. A view known only from memory of them is not sourced and is not in the chapter.
 
