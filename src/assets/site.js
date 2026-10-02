@@ -30,6 +30,7 @@
     const panel = $('.menu-panel', sm);
     const summary = $('summary', sm);
     const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+    const url = (p) => `${sm.dataset.root}${p}${sm.dataset.index}`; // a site path such as isaiah/53/
     const svg = (d, cls = '') => `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="${d}"/></svg>`;
     const chev = svg('m9 6 6 6-6 6', 'chev');
     const back = svg('m15 6-6 6 6 6');
@@ -50,12 +51,12 @@
     };
 
     const volSub = (v) => (v.books.length ? `${v.books.length} book${v.books.length === 1 ? '' : 's'}` : 'Not on the site yet');
-    const about = '<a class="menu-item menu-about" href="/about/"><span class="name">About this site</span></a>';
+    const about = `<a class="menu-item menu-about" href="${url('about/')}"><span class="name">About this site</span></a>`;
     const volCol = (drill) =>
       `<div class="menu-col menu-vol">${drill ? '' : '<p class="menu-head">Scriptures</p>'}${nav
         .map((v) => `<button type="button" class="menu-item vol${v.books.length ? '' : ' absent'}" data-vol="${v.slug}" style="--vc:var(--v-${v.slug})"${v.slug === state.vol && !drill ? ' aria-current="true"' : ''}><span class="dot"></span><span class="name">${esc(v.name)}<small>${volSub(v)}</small></span>${chev}</button>`)
         .join('')}${about}</div>`;
-    const volLink = (v, drill) => `<a href="/${v.slug}/" class="page-link ${drill ? 'drill-page' : 'menu-head'}">${esc(v.name)}${drill ? ' page' : ''} ${chev}</a>`;
+    const volLink = (v, drill) => `<a href="${url(`${v.slug}/`)}" class="page-link ${drill ? 'drill-page' : 'menu-head'}">${esc(v.name)}${drill ? ' page' : ''} ${chev}</a>`;
     const bookCol = (drill) => {
       const v = volOf(state.vol);
       if (!v) return '';
@@ -77,13 +78,13 @@
         const n = i + 1;
         const cur = b.slug === here.book && n === here.ch;
         return isWritten(b, n)
-          ? `<a class="cell written${cur ? ' current' : ''}" href="/${b.slug}/${n}/"${cur ? ' aria-current="page"' : ''}>${n}</a>`
+          ? `<a class="cell written${cur ? ' current' : ''}" href="${url(`${b.slug}/${n}/`)}"${cur ? ' aria-current="page"' : ''}>${n}</a>`
           : `<a class="cell unwritten" href="${b.gl}/${n}?lang=eng" target="_blank" rel="noopener" aria-label="${esc(b.name)} ${n}, in the Gospel Library">${n}</a>`;
       }).join('');
       return `<div class="menu-col menu-ch" style="--vc:var(--v-${v.slug})">
-        <div class="menu-bookhead"><h3><a href="/${b.slug}/">${esc(b.name)} ${chev}</a></h3>
+        <div class="menu-bookhead"><h3><a href="${url(`${b.slug}/`)}">${esc(b.name)} ${chev}</a></h3>
           <span class="status">${w < b.total ? `Commentary on ${w} of ${b.total} chapters` : `${b.total} chapters`}</span>
-          ${b.guides ? `<span class="links"><a href="/${b.slug}/guides/">Guides</a></span>` : ''}
+          ${b.guides ? `<span class="links"><a href="${url(`${b.slug}/guides/`)}">Guides</a></span>` : ''}
         </div>
         <div class="menu-grid">${cells}</div>
         ${w < b.total ? '<div class="menu-legend"><span><i class="lw"></i>Commentary</span><span><i class="lu"></i>Opens the Gospel Library</span></div>' : ''}
@@ -153,7 +154,7 @@
       }
       render();
     };
-    const go = (it) => { location.href = `/${it.dataset.vol ?? it.dataset.book}/`; };
+    const go = (it) => { location.href = url(`${it.dataset.vol ?? it.dataset.book}/`); };
 
     // Pointing with a mouse opens a column at once, except while the pointer is heading toward the
     // column on the right; then it waits briefly so the items it crosses don't take over.

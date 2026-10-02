@@ -95,7 +95,9 @@ function scriptureMenu(here) {
   const data = navData();
   const vol = data.find((v) => v.slug === VOLUMES.find((x) => x.key === here.vol)?.slug);
   const count = (b) => `${b.written.reduce((a, [x, y]) => a + y - x + 1, 0) < b.total ? `${b.written.reduce((a, [x, y]) => a + y - x + 1, 0)} of ` : ''}${b.total}`;
-  return `<details class="scripture-menu" data-nav="${esc(JSON.stringify(data))}" data-here="${esc(JSON.stringify({ vol: vol?.slug, book: here.book, ch: here.ch }))}">
+  // data-root and data-index let a copy of the site served from elsewhere (the claude.ai preview) rewrite
+  // the menu's links, which site.js builds as data-root + path + data-index.
+  return `<details class="scripture-menu" data-root="/" data-index="" data-nav="${esc(JSON.stringify(data))}" data-here="${esc(JSON.stringify({ vol: vol?.slug, book: here.book, ch: here.ch }))}">
         <summary>Scriptures${icon('chevron', 'menu-chevron')}</summary>
         <div class="menu-panel">
           <ul class="menu-fallback">
