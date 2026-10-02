@@ -130,3 +130,113 @@ Reviewed and answered (author, 2026-10-02): no particular direction for Jeremiah
 - *Unanswered:* Why Jeremiah's own prayer (v. 20) is heard when his prayer for Judah (v. 14) is forbidden.
 - *Unanswered:* When the chapter was given, and whether it belongs to Josiah's covenant renewal or to Jehoiakim's reign.
 - *Unanswered:* How Jeremiah's prayer for vengeance (v. 20) fits with later teaching on praying for enemies. Only a reading of the Hebrew verb from Keil is offered.
+
+### Jeremiah 12
+
+- Jer. 12:3: the manual quotes Keil as saying the Lord “reproves him for this outburst of ill-nature and impatience.” That answers whether Jeremiah's prayer for vengeance was right, but the chapter leaves it out. The author should decide whether to describe the prophet's prayer that way.
+- Jer. 12:4: the note gives two readings of “He shall not see our last end”: the Septuagint has God, and Keil's preferred reading has the prophet. No Church source settles it.
+- Jer. 12:5: the section 2 plain wording follows Keil's “thickets of the Jordan,” while the manual quotes Clarke's flood reading. The note gives both, and they agree on the point; the author may want the plain wording to follow the manual's reading.
+- Jer. 12:9: the hyena reading comes only from Thompson as quoted in the manual (his NICOT commentary itself can't be read here) and from the Septuagint's “hyaena's cave.”
+- Jer. 12:16: explore suggests comparing 3 Ne. 21:22–24, but no source connects the two passages.
+- *Unanswered:* Verse 8: why the Lord says “therefore have I hated it.” No Church source was found that addresses it.
+- *Unanswered:* Verse 3: whether Jeremiah's prayer for vengeance fits his calling. The manual's quotation of Keil answers it, but it was left out (see judgment calls).
+- *Unanswered:* Verses 7–13: whether they foretell the ruin or mourn damage already done.
+- *Unanswered:* Verses 14–17: how they relate to Jeremiah 31 or the Book of Mormon's gathering of the Gentiles.
+
+### Jeremiah 13
+
+- Jer. 13:4: the note sets Keil's reading that Jeremiah literally made the journey beside the manual's word 'parable' (Sperry) and leaves it open. The manual does not actually deny the journey. Should the chapter just give the manual's reading?
+- Jer. 13:7, 13:23: the manual's quotations of Sperry (Voice of Israel's Prophets, p. 167) and The Interpreter's Bible (5:928) are cited only as the manual. Neither work was read; this follows the ch. 6 precedent (Thompson).
+- Jer. 13:18: the queen is called 'probably the queen mother', on Keil and on the Jer. 29:2 / 2 Kgs. 24:12 pairing. Whether to tie her to Nehushta and 597 B.C. is left open.
+- Jer. 13 christ: the link from 13:11's 'cleave' to Jacob 6:5's 'cleave unto God as he cleaveth unto you' is the writer's own, by a shared English word; no footnote or source makes it. I kept it because it rests on scripture.
+- Jer. 13 setting: KnoWhy #575 footnotes its 'common method' sentence to another work (Parry), which was not read. The chapter cites only the KnoWhy's own sentence.
+- *Unanswered:* v. 17: who weeps, Jeremiah or the Lord? The writer found only Keil and left it out.
+- *Unanswered:* v. 16: what are the 'dark mountains'? Not answered.
+- *Unanswered:* v. 1: why must the girdle not be put in water? Not answered.
+- *Unanswered:* v. 27: did Lehi know Jeremiah's words? The chapter says the text does not say.
+- *Unanswered:* v. 20: who is addressed ('the flock that was given thee'), and who 'them that come from the north' are. No note.
+
+### Jeremiah 14
+
+- 14:21: 'Throne of thy glory' is read as Jerusalem or the temple, inferred only from Jer. 3:17 and 17:12. The note says it is an inference.
+- 14:8: 'Hope of Israel' is tied to Christ only through the Bible Dictionary's statement that Jehovah is the premortal Christ. No Church source reading this title directly was found.
+- 14:7: the note says the comparison with Mormon (Morm. 2:13, 'sorrowing was not unto repentance') 'has a sharp edge'. The manual makes the pairing; applying 2:13 to Judah's prayer is the writer's own point. I kept it because it rests on the scripture text.
+- 14:21: Lev. 26:44 is linked as the covenant promise that answers the curses. The Church edition does not footnote this; it rests on the shared wording 'break my covenant'.
+- Keil is the main source in 4 of 15 notes (6, 8 stranger, 13, 16), within the brief's limit of about a third.
+- *Unanswered:* Why the Lord forbids the prayer, beyond Jer. 7:16, 11:14, 15:1 and the manual.
+- *Unanswered:* Who the 'prophets' of vv13–15 were. Scripture Central KnoWhys #441 and #451 would likely answer this, but the writer could not reach the API. I did not try it.
+- *Unanswered:* Who speaks the tears of v17, the prophet or the Lord, given that the Lord says 'thou shalt say this word'.
+- *Unanswered:* What 'virgin daughter of my people' means (v17).
+
+### Jeremiah 15
+
+- Jer. 15:13–14: Keil reads these verses as addressed to the people. The Old Testament Student Manual reads v14 as including Jeremiah himself ('Even Jeremiah himself would be carried…'). The chapter now gives the manual's reading. The author may want to confirm that.
+- Jer. 15:19: the note gives Keil's reading that 'if thou return' reproaches the prophet, labeled as one reading and supported by the footnote 'OR repent'. The manual describes vv. 15–21 only as the Lord sustaining His prophet. Is the reproach reading acceptable?
+- Jer. 15:8: the manual gives two readings of 'mother of the young men' (Jerusalem, or the mothers of the young warriors) and doesn't choose. The note says the 'mother of seven' in v9 favors the second, following Keil.
+- Jer. 15 overall: Keil still carries 6 of 12 notes (vv. 2, 8, 10, 12, 15, 19), above the brief's one-third. No Church, BYU or Scripture Central source answers those questions. The alternative is to cut notes.
+- Jer. 15:4: the one sentence on Manasseh's repentance in 2 Chr. 33 is kept, because it answers the obvious question of whether Manasseh repented.
+- *Unanswered:* Jer. 15:11 'thy remnant': the KJV's sense, against the alternative Hebrew readings, has no Church source. Only Keil discusses it.
+- *Unanswered:* Jer. 15:15 'revenge me of my persecutors': whether a prophet's prayer for vengeance fits gospel teaching. No source found, and the writer cut the note.
+- *Unanswered:* Jer. 15:19 'take forth the precious from the vile': no Church source explains the image. The note gives only Keil's one reading and says the image is read in different ways.
+
+### Jeremiah 16
+
+- Jer. 16:16: should the note keep the one sentence giving Keil's reading (fishers and hunters as enemies carrying Judah captive, because of verses 17–18)? It now reads as 'one reading' and comes after the Church's missionary reading (Richards, Nelson, the seminary manual). Cut it if the Church's reading should stand alone.
+- Jer. 16:2: the marriage ban is presented as literal, with the student manual's figurative 'spiritual children' reading offered as a possibility because the manual says 'may not have been a literal one'. Does the author want the figurative reading kept?
+- Jer. 16 (Keil share): Keil is still in 5 of 13 notes (6, 7, 13, 16, 18), slightly over the brief's 'about a third'. Each answers a question no Church source addresses: the mourning customs, the cup of consolation, the irony of 'day and night', and 'double' and 'first'.
+- *Unanswered:* 16:4 'they shall be as dung upon the face of the earth': what the image means is not explained (the writer dropped it).
+- *Unanswered:* 16:15 'the land of the north': which land is meant, beyond the Topical Guide link to the ten tribes and Jer. 3:18, is not addressed.
+- *Unanswered:* 16:20 'Shall a man make gods unto himself': no note, although the verse is a sharp question a reader might stop at (the 16:19 note only touches on it).
+
+### Jeremiah 17
+
+- Jer. 17:16 ('pastor'): the manual (ot-manual-23) cites v. 16 for 'Jesus is the Good Shepherd, a Pastor to those who follow Him', while the grammar of the KJV and Keil makes Jeremiah the shepherd who follows the Lord. I wrote the note with Christ as the Shepherd Jeremiah follows and the prophet as an under-shepherd. The author may prefer another framing.
+- Jer. 17:9: the Hebrew meaning ('sore wounded by sin, corrupt or depraved') rests on Keil alone, and no Church source on this verse was found. The note ends with the promise of a new heart (Jer. 24:7; 31:33), so it does not imply total depravity. Should a Church source be sought, or the Keil wording softened?
+- Jer. 17:1: which altars are meant (the Lord's altars defiled by idolatry, or idol altars on the hills) is left open, with Keil's view given as one reading.
+- Jer. 17:15: Keil's inference that the taunt dates the discourse before the first Chaldean invasion is given as one reading, while 'when' cites only the Bible Dictionary's Jehoiakim range.
+- *Unanswered:* v. 12 'A glorious high throne... our sanctuary': who speaks and why the passage turns to prayer (only Keil covers it)
+- *Unanswered:* v. 19: which gate 'the gate of the children of the people' is
+- *Unanswered:* v. 25: the Lehi-era belief that Jerusalem could not be destroyed (KnoWhy #451, sc-knowhy-451, already in sources.yaml); the writer's Scripture Central API calls failed and I did not retry
+- *Unanswered:* Whether any general conference talk treats Jer. 17:9 or 17:7–8 (the writer searched and found none; I did not search)
+- *Unanswered:* Exact date of the chapter: none is given beyond the Bible Dictionary's 'under Jehoiakim'
+
+### Jeremiah 18
+
+- Jer. 18:18 “smite him with the tongue”: the Church's OT Student Manual (following Clarke) reads “on the tongue,” meaning punishment as a false witness, and the note now gives only that reading. Keil's slander reading, which matches the KJV wording, was cut under the brief's rule against setting an outside reading beside the Church's. Should the KJV-natural reading be mentioned at all?
+- Jer. 18:8 “I will repent”: the note uses the footnote's JST Jer. 26:13 reading (“The Lord does not repent; men repent”) as the doctrinal key for the verse. That is the writer's choice; please confirm the framing.
+- Jer. 18:21–23 (the imprecatory prayer): no Church, BYU, or Scripture Central source comments on it. The note rests on Keil plus Jer. 14:12. Should it stay?
+- Jer. 18:6 note “The potter in Isaiah, Paul, and Nephi” is close to a cross-reference chain. It was kept because it makes one point of its own (Jeremiah adds conditional response to the image). Author to confirm.
+- *Unanswered:* 18:14: what the snow of Lebanon means has no Church, BYU, or Scripture Central answer; it rests on Keil as one reading.
+- *Unanswered:* 18:21–23: how a prophet could pray for his people's destruction; no faithful source addresses it, so the note only reports the text and Keil.
+- *Unanswered:* 18:7–10: the student manual's Sperry passage just before 23-39 may be a stronger Church-side source on conditional prophecy than the scripture chain in notes 8 and 10; not pursued.
+
+### Jeremiah 19
+
+- Jer. 19:4: 'blood of innocents'. The chapter now gives the Church footnote's link to Jer. 2:34, then Keil's reading (judicial murder or persecution of the godly) as one reading. Should Keil's reading stay at all, or should the verse rest on the footnote alone?
+- Jer. 19:7: the jar/'make void' wordplay rests on BDB (the jar is named from the sound of emptying; the verb means 'empty') plus Keil calling it a play. Does the author want it in the thread, or only in the note?
+- Jer. 19:11: the note is kind 'prophets' but rests on the Old Testament Student Manual and Jer. 18, not on a prophet's or apostle's teaching. Should it be relabeled 'scripture'?
+- Jer. 19:1: the Heber C. Kimball quotation is about Jer. 18. Its use here, and the closing line 'Chapter 19 shows what comes when the clay will not yield', is the writer's link between the chapters, supported by the text of 18:4 and 19:11 but by no source tying Kimball to chapter 19.
+- *Unanswered:* Why Jeremiah returned to the temple court (19:14). The note on this was cut for lack of a non-Keil source.
+- *Unanswered:* What and where the 'east gate' (Harsith/potsherd gate) was (19:2).
+- *Unanswered:* What 'hiss' means as a gesture (19:8).
+- *Unanswered:* Whether Matthew's 'potter's field' (Matt. 27:7–10) draws on this chapter; no source was read.
+- *Unanswered:* How Pashur's reaction in ch. 20 follows from this public sign; it is left to chapter 20.
+
+### Jeremiah 20
+
+- Jer. 20:3: The Old Testament Student Manual says flatly that Pashur 'in Hebrew, means free'; Keil says the proposed etymologies of Pashur are all arbitrary. The chapter now gives the manual's gloss without a hedge. Should it say the derivation is uncertain?
+- Jer. 20:4–6: Did Pashur actually go to Babylon? Keil thinks it was 'most probably fulfilled' at Jehoiachin's capture. That reading was cut as speculative, so the chapter does not say whether the prophecy was fulfilled.
+- Jer. 20:13–14: The manual mentions that some scholars think vv. 14–18 once came before vv. 7–13. The chapter reports this as a hypothesis and reads the text in its present order. Keep the mention or drop it?
+- *Unanswered:* Was the prophecy to Pashur fulfilled, and did he die in Babylon? No Church source found; Keil's guess was cut.
+- *Unanswered:* What does the name Pashur actually mean in Hebrew? Only the manual's one-word gloss; no lexicon answer read.
+- *Unanswered:* In what year of Jehoiakim's reign did this happen? The chapter gives no date, and `when` says so.
+
+### Jeremiah 21
+
+- Jer. 21:13–14: Keil is now the main source for 2 notes (21:13 'valley/rock', 21:14 'forest') and supports 2 more (21:1, 21:2), so he appears in 4 of 10 notes, a little above the brief's 'about a third'. I found no Church or BYU source that answers what the valley, the rock, and the forest are. The Church footnote at 21:13 (2 Ne. 28:21, 21–25, on false security in Zion) could carry the 'Who shall come down against us?' boast instead, if the author wants it added.
+- Jer. 21:1: whether Pashur son of Melchiah (21:1) is the same man as Pashur son of Malchiah in 38:1, who called for Jeremiah's death, rests on the Church footnote and Keil. The note presents this as one reading.
+- Jer. 21:10: the note says the verdict 'leaves a way out', reading 21:10 beside 38:17–18. That pairing is the writer's, though the text supports it and Keil also cites 38:17–23. The author may want to confirm this framing.
+- Jer. 21:11–14: Keil reports, and rejects, a view that these verses come from an earlier reign (Jehoiakim). The chapter leaves it out.
+- *Unanswered:* Why 'the way of life' (21:8) uses the exact wording it does, beyond the Deuteronomy footnote.
+- *Unanswered:* What exactly Zedekiah's 'wondrous works' recall: only Keil names Hezekiah. No Church source ties 21:2 to 2 Kgs 19.
+- *Unanswered:* Where the 'forest' image comes from: Keil points to Jer. 22:6 (Lebanon, Gilead), but the note does not use this.
