@@ -25,16 +25,6 @@ claims:
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/1?lang=eng'
     quote: 'I am the voice of one crying in the wilderness, Make straight the way of the Lord, as said the prophet Esaias.'
-  - where: 'section “Prepare ye the way of the LORD”'
-    claim: 'Bible Dictionary: John alone was entrusted with preparing the way and baptizing the Savior'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/john-the-baptist?lang=eng'
-    quote: 'He alone was entrusted with the mission of preparing the way and baptizing the Savior of the world.'
-  - where: 'section “Not with haste”'
-    claim: 'The Hebrew word for “haste” (chippazon, with be-) in Ex. 12:11 is the same word as in Isa. 52:12; it occurs in Isaiah only there'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
-    quote: 'בְּחִפָּזוֹן (Isa. 52:12; also Exod. 12:11 and Deut. 16:3 in Exod.xml and Deut.xml)'
   - where: 'section “Not with haste”'
     claim: 'The Savior quotes Isa. 52:11–12 in 3 Ne. 20:41–42 (footnote 41a “Depart” points to Isa. 52:11)'
     key: lds-scriptures
@@ -50,3 +40,23 @@ claims:
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/133?lang=eng'
     quote: 'Ex. 14:29; Isa. 11:16 (15–16); 35:8 (8–10); 51:11 (9–11); 62:10 (10–12); 2 Ne. 21:16. TG Israel, Gathering of.'
+  - where: 'section “Like the day he came up out of Egypt”'
+    claim: 'Footnote on 2 Ne. 6:14 “second time” points to 2 Ne. 21:11 (Isa. 11:11)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/6?lang=eng'
+    quote: '2 Ne. 21:11 ; 25:17 ; 29:1 .'
+  - where: 'section “A new thing”'
+    claim: 'Footnote on Isa. 48:21 “rock” points to Ex. 17:6'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/48?lang=eng'
+    quote: 'Ex. 17:6 ; Num. 20:11 .'
+  - where: 'section “Not with haste”'
+    claim: '“Haste” in Isa. 52:12 is chippazon (lemma 2649), its only occurrence in Isaiah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: '<w lemma="b/2649" n="1.1.0" morph="HR/Ncmsa" id="23ynw">בְ/חִפָּזוֹן֙</w>'
+  - where: 'section “Not with haste”'
+    claim: '“Haste” in Ex. 12:11 is the same word, chippazon (lemma 2649)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: '<w lemma="b/2649" n="0.1" morph="HR/Ncmsa" id="02gUj">בְּ/חִפָּז֔וֹן</w>'
