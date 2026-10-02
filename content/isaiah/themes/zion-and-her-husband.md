@@ -42,6 +42,6 @@ The risen Savior quotes the whole chapter to the Nephites ([[3 Ne. 22]]).[@lds-s
 
 “Thou shalt no more be termed Forsaken; neither shall thy land any more be termed Desolate: but thou shalt be called Hephzi-bah, and thy land Beulah: for the LORD delighteth in thee, and thy land shall be married” ([[Isa. 62:4]]). “Beulah” means “Married.”[@bd-beulah] “As the bridegroom rejoiceth over the bride, so shall thy God rejoice over thee” ([[Isa. 62:5]]). “Once again Zion shall be married to the Lord.”[@ot-manual-18]
 
-The woman is named in several ways: Jerusalem and, by extension, the house of Israel;[@sc-knowhy-550] “those whom God should call in the last days” ([[D&C 113:8]]); “the Church and kingdom of God”;[@ot-manual-18] and, for Beulah, the land.[@bd-beulah]
+The woman is named in several ways: Jerusalem and, by extension, the house of Israel;[@sc-knowhy-550] “those whom God should call in the last days” ([[D&C 113:8]], on Isaiah 52:1); for the Zion of the last days, “the Church and kingdom of God”;[@ot-manual-18] and, for Beulah, the land.[@bd-beulah]
 
-The marriage is still ahead in later scripture: “the marriage of the Lamb is come, and his wife hath made herself ready” ([[Rev. 19:7]]; compare [[Isa. 54:5]]);[@lds-scriptures] “Awake and arise and go forth to meet the Bridegroom” ([[D&C 133:10]]).[@ot-manual-17]
+Later scripture carries the marriage on: “the marriage of the Lamb is come, and his wife hath made herself ready” ([[Rev. 19:7]]; compare [[Isa. 54:5]]);[@lds-scriptures] “Awake and arise and go forth to meet the Bridegroom” ([[D&C 133:10]]).[@ot-manual-17]
