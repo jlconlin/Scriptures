@@ -137,3 +137,11 @@ There are no bare KJV draft pages anywhere, in preview or live. A chapter being 
 I'd recommend (a), or (b) if you want readers on Jeremiah sooner. The preview setting is worth building either way.
 
 Questions after that: the book menu's design (shown in the preview), whether to add the chapter picker now, and the wording in §4.
+
+## Header menu: decisions so far (2026-10-01)
+
+- **The header text never changes.** The menu button always says "Scriptures", whatever book you're in. Other header items can be added later if they help.
+- **Design under review:** a "Scriptures" menu that opens to a panel of three columns: volume, book, chapter grid. Mockup: https://claude.ai/artifact/G3LvQFYx7WS5rhvBbHkEcR. The author is judging it with every book of the standard works listed. Once the design is settled, the live menu will list only books that have commentary.
+- **The author likes:** the menu opening with the current book (and chapter) already selected.
+- **Adjusted after feedback:** pointing opens a column immediately; the panel stays a fixed size with three columns, so changing volume doesn't reshape it; the column whose contents change fades in; returning to a volume shows the book last chosen there.
+- **Codex's review** (for the record): it questioned whether a full scripture browser is worth it while the site has few books. It suggested listing only books with commentary, with "2 of 52"-style labels, and making chapter navigation on the page itself prominent.
