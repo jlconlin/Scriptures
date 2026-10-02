@@ -5,7 +5,7 @@ Current work and how to work with the author. **The writing and sourcing standar
 ## Status (2026-10-02)
 
 - **Isaiah:** all 66 chapters written and audited. Remaining: the open questions (`content/isaiah/OPEN-QUESTIONS.md`) and deepening chapters 1–37 (`content/isaiah/BRIEF.md`).
-- **Isaiah theme pages:** five chosen (`content/isaiah/THEME-CANDIDATES.md`). The arm of the Lord is live (2026-10-02), and the notes on 51:5, 52:10, 53:1 and 59:16 link to it. The other four are being researched and written the same way.
+- **Isaiah theme pages:** five chosen (`content/isaiah/THEME-CANDIDATES.md`). The arm of the Lord is live (2026-10-02), and the notes on 51:5, 52:10, 53:1 and 59:16 link to it. The other four (the new exodus and the highway, Zion and her husband, light, and the servants section of the Servant Songs page) are written and reviewed, committed but not pushed, waiting for the author to read them in the preview. `OPEN-QUESTIONS.md` lists chapter notes the research found saying more than their sources.
 - **Jeremiah:** next book. `data/kjv/jeremiah.json` is fetched; its LDS-edition spellings still need checking. Next is the brief (step 3 below).
 - **Site:** framework, guides, theme pages, About page, and book-neutral code done. Code notes are in `DEVELOPMENT.md`.
 

@@ -16,7 +16,7 @@ Scripture connects three of these passages with Jesus Christ: “the Messiah wil
 | The way of the LORD | [[Isa. 40:3]] | “Prepare ye the way of the LORD, make straight in the desert a highway for our God” |
 | A new thing | [[Isa. 43:16–19]] | “Remember ye not the former things… I will even make a way in the wilderness” |
 | Out of Babylon | [[Isa. 48:20–21]] | “Go ye forth of Babylon… he caused the waters to flow out of the rock for them” |
-| Not with haste | [[Isa. 52:11–12]] | “ye shall not go out with haste… the LORD will go before you; and the God of Israel will be your rearward” |
+| Not with haste | [[Isa. 52:11–12]] | “ye shall not go out with haste… the LORD will go before you” |
 | The way of the people | [[Isa. 62:10]] | “prepare ye the way of the people; cast up, cast up the highway” |
 | Still to come | [[D&C 133:27]] | “an highway shall be cast up in the midst of the great deep” |
 
@@ -30,7 +30,7 @@ Scripture connects three of these passages with Jesus Christ: “the Messiah wil
 
 ## A new thing
 
-The LORD “which maketh a way in the sea” says, “Remember ye not the former things… Behold, I will do a new thing… I will even make a way in the wilderness” ([[Isa. 43:16–19]]). The call to go out of Babylon ends with water from the rock: “they thirsted not when he led them through the deserts: he caused the waters to flow out of the rock for them” ([[Isa. 48:20–21]]; compare [[Ex. 17:6]]).[@lds-scriptures] Paul says of the rock of the first exodus that Israel “drank of that spiritual Rock that followed them: and that Rock was Christ” ([[1 Cor. 10:4]]). And the arm of the LORD is asked whether it is not the one “that hath made the depths of the sea a way for the ransomed to pass over” ([[Isa. 51:10]]; see [The Arm of the Lord](/isaiah/themes/arm-of-the-lord/)). See [Isaiah 43](/isaiah/43/) and [Isaiah 48](/isaiah/48/).
+The new thing is “a way in the wilderness, and rivers in the desert” ([[Isa. 43:19]]). The call to go out of Babylon ends with water from the rock: “they thirsted not when he led them through the deserts: he caused the waters to flow out of the rock for them” ([[Isa. 48:20–21]]; compare [[Ex. 17:6]]).[@lds-scriptures] Paul says of the rock of the first exodus that Israel “drank of that spiritual Rock that followed them: and that Rock was Christ” ([[1 Cor. 10:4]]). And the arm of the LORD is asked whether it is not the one “that hath made the depths of the sea a way for the ransomed to pass over” ([[Isa. 51:10]]; see [The Arm of the Lord](/isaiah/themes/arm-of-the-lord/)). See [Isaiah 43](/isaiah/43/) and [Isaiah 48](/isaiah/48/).
 
 <h2 id="not-with-haste">Not with haste</h2>
 
