@@ -12,3 +12,5 @@ Reviewed and answered (author, 2026-10-02): no particular direction for Jeremiah
 
 ## Chapters
 
+- **1:5, “knew.”** The note quotes the Church's manual that *yadaʿ* “connotes a very personal, intimate relationship.” The manual takes that from a commentary that can't be read online (Thompson, NICOT); it is cited on the manual's own authority. Keep or cut?
+- **1:5, the reading without a premortal life.** The note gives the Latter-day Saint reading first and then, briefly, the reading that takes the verse as God's decree only. Keep the second, or leave it out?
