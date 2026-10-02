@@ -8,7 +8,7 @@ Reviewed and answered (author, 2026-10-02): no particular direction for Jeremiah
 
 ## Work to do (no decision needed)
 
-- **Going live.** `book.yaml` has `status: preview`. Remove that line to publish the book; the home page's “More of the Old Testament” card (`COMING_SOMEDAY` in `src/site.mjs`) still names Jeremiah and should change then.
+- **Going live.** The author approved it (2026-10-02): when all 52 chapters are written, checked, and committed, publish the book. Remove `status: preview` from `book.yaml`, and take Jeremiah out of the home page's “More of the Old Testament” card (`COMING_SOMEDAY` in `src/site.mjs`).
 
 ## Chapters
 
