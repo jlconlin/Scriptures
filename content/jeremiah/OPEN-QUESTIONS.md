@@ -14,3 +14,6 @@ Reviewed and answered (author, 2026-10-02): no particular direction for Jeremiah
 
 - **1:5, “knew.”** The note quotes the Church's manual that *yadaʿ* “connotes a very personal, intimate relationship.” The manual takes that from a commentary that can't be read online (Thompson, NICOT); it is cited on the manual's own authority. Keep or cut?
 - **1:5, the reading without a premortal life.** The note gives the Latter-day Saint reading first and then, briefly, the reading that takes the verse as God's decree only. Keep the second, or leave it out?
+- **31:36, “ordinances.”** The Church's manual reads the word as priesthood ordinances; in the verse it is “the ordinances of the moon and of the stars.” The note gives both and says the manual uses the word in a different sense from the verse. Is that the right way to handle a place where a manual's reading goes beyond the verse?
+- **31:22, “A woman shall compass a man.”** The lexicon says most take it as “shall protect”; the Church's manual quotes a different reading (Israel turning in love to the Lord, pointing to the new covenant). The note gives both without choosing.
+- **31:2.** No note says who “the people which were left of the sword” in the wilderness are; no source read answered it.
