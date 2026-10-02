@@ -147,6 +147,17 @@ for (const book of books) {
     for (const t of [ch.setting, ch.thread, ch.christ, ch.explore, ...notes.map((n) => n.body)])
       for (const m of String(t ?? '').matchAll(CITE)) { cited.add(m[1]); checkKey(label, m[1]); }
 
+    // Chapters with a ledger: the form the chapter page needs. Chapter pages don't render [@key]
+    // (a note's citation is its `sources` list), and a note's first sentence is its preview card.
+    if (existsSync(path.join(bdir, 'evidence', f))) {
+      for (const [name, t] of [['setting', ch.setting], ['thread', ch.thread], ['christ', ch.christ], ['explore', ch.explore]])
+        if (/\[@/.test(String(t ?? ''))) err(`${label} ${name}: has a [@key] citation, which chapter pages don't render; remove it (the ledger and the chapter's sources carry the citation)`);
+      for (const n of notes) {
+        if (/\[@/.test(String(n.body ?? ''))) err(`${noteLabel(n)}: has a [@key] citation, which chapter pages don't render; list the key in the note's sources instead`);
+        if (/^\s*This (note|verse note|entry)\b/i.test(String(n.body ?? ''))) err(`${noteLabel(n)}: opens with “This note…”; open with the point itself`);
+      }
+    }
+
     const ledgerFile = path.join(bdir, 'evidence', f);
     const unread = [...cited].filter((k) => NOT_READABLE.includes(k));
 

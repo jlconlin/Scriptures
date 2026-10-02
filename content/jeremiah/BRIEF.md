@@ -14,6 +14,20 @@ The book is `status: preview` in `book.yaml`, so it appears only in the preview 
 
 **How each chapter is made:** a `chapter-writer` agent (Sonnet) writes the chapter and its ledger; a `chapter-reviewer` agent (Opus, which did not write it) reopens the sources and repairs what fails; the coordinating session adds the `sources.yaml` entries, runs the checks, and commits one chapter at a time.
 
+## What a chapter is for
+
+(Author, 2026-10-02.) The site exists to answer the questions a reader would ask: “I might read a verse or a series of verses and wonder what it means or who the person is that's in it.” So: read the text first, work out what someone would ask, then find the answers, if they exist. It is “not to be a record of all the commentaries ever written,” and “not supposed to point to every possible source, but answers do need to be sourced.”
+
+What that means in practice, from the two pilot chapters:
+
+- **The question comes first, and the note answers it.** A note exists because a reader would stop at that phrase and wonder. If no reader would ask, there is no note, however interesting the source. If a reader would ask and no source answers, say in the report that it went unanswered; don't fill the gap.
+- **Open with the answer, not a label.** Never begin a note “This note is about…” or “This note explains….” The first sentence states the note's main point in plain words (“Anathoth was a priests' town a few miles northeast of Jerusalem.”). The finished Isaiah chapters show how.
+- **One good source per answer.** Go first to what answers the question most directly: the verse's own context, other scripture, the Hebrew text and BDB for a word, the Bible Dictionary or the Church's manual for a person, place, or doctrine. Don't stack a second and third source saying the same thing.
+- **Keil is a last resort, not a companion.** He is the only full commentary readable online, which makes it easy to follow him verse by verse; don't. Use him when the question is real and nothing closer answers it, and in no more than about a third of a chapter's notes. Don't report what earlier commentators (Jerome, the rabbis) thought unless the reader's question needs it. When a point is his alone, say once that it is “one reading” and move on; don't write “one commentator says… the same commentator notes….”
+- **Don't announce sources.** Not “The Church's manual observes that…” or “The Bible Dictionary says…”: make the statement, or work the quotation into the sentence, and let the citation carry the attribution (`STANDARDS.md` §3).
+- **No `[@key]` markers in a chapter file.** Chapter pages don't render them (only guides and theme pages do). A note's citation is its `sources` list; for `setting`, `thread`, `christ`, and `explore`, it is the chapter's `sources` and the ledger. `check-content.mjs` rejects a marker in a chapter.
+- **Name speakers correctly.** A quotation from the Book of Mormon is attributed to the person speaking, not the book it is in ([[Hel. 8:20]] is Nephi the son of Helaman).
+
 ## Divisions
 
 From the Bible Dictionary's outline (“Jeremiah”), which arranges the book by reign. They are in `book.yaml`:

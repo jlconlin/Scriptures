@@ -29,7 +29,10 @@ You are checking and repairing, not rewriting. Keep the writer's structure, thre
 - Every note answers a question a careful reader would ask of that phrase. A note that is a chain of cross-references, a curiosity, or reception history is cut (`STANDARDS.md` §1, §3).
 - Each note opens with a sentence that says what it is about. Each says how certain its claims are.
 - `setting` is about 150–250 words. `christ` rests on scripture or a cited source, not on the writer's own typology.
-- The book's conventions in the brief are followed.
+- The book's conventions in the brief are followed, and above all its section “What a chapter is for,” if it has one: each note answers a question a reader would ask, opens with its point (never “This note is about…”), rests on the most direct source rather than a stack of them, and doesn't lean on the one readable commentary. Where a note reports a commentator's view that the reader's question doesn't need, cut that part. Where a note announces its source (“the manual says…”, “one commentator notes…”), rewrite the sentence so the statement stands on its own and the note's `sources` carries the attribution; keep “one reading is…” only where the point really is one view among several.
+- No `[@key]` markers anywhere in the chapter file; remove any, making sure the key is in that note's `sources`.
+- Quotations are attributed to the right speaker (in the Book of Mormon, the person speaking, not the book's name).
+- **Depth.** The finished Isaiah chapters (`content/isaiah/chapters/53.yaml`, `60.yaml`) are the measure. If a reader's obvious question about a verse goes unanswered, say so in your report; you may add a note for it only if you research and source it as a writer would.
 
 ## 4. Repair
 
