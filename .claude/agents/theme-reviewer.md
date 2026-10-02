@@ -31,7 +31,7 @@ Be skeptical. The page was written by a model that writes fluently, and a weak c
 
 **3. Are the sources real?** Reopen at least a third of the ledger rows, and every row that carries a step of the arc or the connection to Christ: fetch the `url` with `curl -sL '<url>' | sed 's/<[^>]*>//g'` and confirm the `quote` is on the page and supports the `claim`. Check every scripture quotation on the page against the verse. Report each row you checked and whether it held. Check that no source is a wiki, an unreadable work, or cited for more than it says.
 
-**4. Is it well made?** Voice and audience (§2–§3): semi-academic, a teacher's voice, no scholars named in running text, terms defined, no personal application, not a compendium. Does it link to chapter pages instead of repeating them? Is anything padded, or missing that the arc needs? Are the headings plain?
+**4. Is it well made?** Voice and audience (§2–§3): semi-academic, a teacher's voice, no scholars named in running text, terms defined, no personal application, not a compendium. Is it short enough to look over quickly (well under 1,000 words, a table of the steps, a few sentences per step)? Are quotations given with their citation and not announced (“The Church's manual says…”)? Does it link to chapter pages instead of repeating them? Is anything padded, or missing that the arc needs? Are the headings plain?
 
 **5. The checks.** Run `node scripts/build.mjs` and `node scripts/check-content.mjs <book>` and report the output that concerns this page.
 

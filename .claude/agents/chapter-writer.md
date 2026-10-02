@@ -41,7 +41,7 @@ Write `content/<book>/chapters/NN.yaml` with every field in `STANDARDS.md` (“C
 
 - No length target, but no note that is mostly a chain of cross-references or a curiosity; `setting` 150–250 words.
 - No personal application or “liken” content. Close with `christ` and `explore`.
-- Don't name modern scholars in running text. Say how certain each claim is.
+- Don't name modern scholars in running text, and don't announce a source (“The Church's manual says…”): work the quotation into the sentence and let the citation carry the attribution. Say how certain each claim is.
 - Open each note with a sentence that says what it is about.
 - `phrase` must be an exact substring of the verse.
 - Chapter-level `sources` = the keys the chapter actually cites, no more.

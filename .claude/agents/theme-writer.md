@@ -29,7 +29,8 @@ The outline says what the page argues and in what order. The dossier holds the e
 - **Link, don't repeat.** Point to the chapter pages (`/<book>/<n>/`) for verse-by-verse detail and to other theme pages and guides where they cover a point.
 - **No personal application.** No “liken it” content.
 - Semi-academic reader; a warm, knowledgeable teacher's voice; plain section headings; give a section an explicit id (`<h2 id="…">`) when a chapter is likely to link to it. Define a technical term the first time it appears; transliterate Hebrew or Greek and use it only where it pays off.
-- No length target. Roughly the length of the model page is right; shorter is fine. Not a compendium: leave out what the arc doesn't need, even if the dossier has it.
+- **Short: something to look over quickly, not an essay.** Well under 1,000 words, table included. Open with two or three sentences, then a table of the steps in order (step, passage, the words), then a few sentences per step, mostly scripture and short quotations. Model: `content/isaiah/themes/arm-of-the-lord.md`. Not a compendium: leave out what the arc doesn't need, even if the dossier has it.
+- **Quote with the reference; don't announce the source.** Not “The Church's manual says, ‘…’” but the quotation worked into your sentence with its citation. Scripture's own writers and speakers can be named.
 - `sources` in the front matter lists the keys the page cites.
 
 - **Summaries are claims too.** The blurb, the opening, the transitions between sections, and the closing say only what the sections establish from their sources. Don't harmonize readings that differ, don't let word order imply an identification no source makes, and don't end a section on a line of your own.

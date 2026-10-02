@@ -27,6 +27,7 @@ The goal: **content that needs no audit afterward.** Sourcing is part of writing
 - Connect to Restoration scripture where the connection is real.
 - **Read, ask, then seek.** Read the chapter first and write down the questions a careful reader would ask; those questions decide which phrases get highlighted and what gets researched. Every note answers one of them. Don't go looking for material, and don't carry over what a source happens to cover. The questions are a working tool, not a record: they go in the writer's report, not in a file.
 - **Open each note with a sentence that says what the note is about.** The site shows that first sentence as the note's preview card, so a hook (“This is the hardest line in the chapter”) doesn't work.
+- **Quote with the reference; don't announce the source** (author, 2026-10-02). Not “The Church's *Old Testament Student Manual* says, ‘…’” but the quotation worked into the sentence, with its citation: the verses “bear strong witness that Jehovah… is the same person as Jesus Christ.”[@ot-manual-17] The citation carries the attribution. Scripture's own writers and speakers can be named (“John says…”, “Abinadi answers…”).
 - **Keep attention on the message, not the scholar.** Don't name modern scholars in running text (“Oswalt argues…”); the note's `sources` carries the attribution. Ancient documents and ancient writers can be named when they are the evidence (“Sennacherib's annals claim…”, “Jerome connects…”).
 - **Say how certain each claim is**: established fact, scholarly consensus, a plausible hypothesis, or a devotional reading. A devotional reading needs the same support as anything else (scripture, a Church source, or a scholar); an unsourced one is cut, however it is labeled.
 - For graphic passages, describe rather than quote.
@@ -133,6 +134,7 @@ Markdown files in `content/<book>/guides/` and `content/<book>/themes/`, with YA
 
 (Author, 2026-10-01.) **A theme is broader than a chapter.** Everything else on the site goes verse by verse or chapter by chapter; a theme page connects chapters in a bigger arc. It is worth writing only if it helps the reader understand **the bigger story that points to Jesus Christ**.
 
+- **Short enough to look over quickly** (author, 2026-10-02: “I didn't really want a full essay, but something I can quickly look at”). A table of the passages in order carries the arc; each step gets a few sentences, mostly scripture and short quotations. Well under 1,000 words. If a step needs more, it belongs in a chapter note that the page links to.
 - **It is an arc, not a list.** The page says what changes from the first passage to the last. If the passages only share a word or an image and nothing develops, it is not a theme page.
 - **A topic that lives in one chapter or a few neighboring verses belongs in that chapter's notes.**
 - **Few, not many.** A book gets a handful of theme pages. Each book's `THEME-CANDIDATES.md` collects topics as chapters are written; most will never become pages.
