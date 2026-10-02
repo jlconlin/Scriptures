@@ -12,7 +12,7 @@ Scripture reads three of these passages of Jesus Christ: “the Messiah will set
 | Step | Passage | The words |
 |---|---|---|
 | A second time | [[Isa. 11:11, 16]] | “an highway for the remnant of his people… like as it was to Israel in the day that he came up out of the land of Egypt” |
-| The way of holiness | [[Isa. 35:8–10]] | “an highway shall be there… The way of holiness… the redeemed shall walk there” |
+| The way of holiness | [[Isa. 35:8–10]] | “it shall be called The way of holiness” |
 | The way of the LORD | [[Isa. 40:3]] | “Prepare ye the way of the LORD, make straight in the desert a highway for our God” |
 | A new thing | [[Isa. 43:16–19]] | “Remember ye not the former things… I will even make a way in the wilderness” |
 | Out of Babylon | [[Isa. 48:20–21]] | “Go ye forth of Babylon… he caused the waters to flow out of the rock for them” |
@@ -22,7 +22,7 @@ Scripture reads three of these passages of Jesus Christ: “the Messiah will set
 
 ## Like the day he came up out of Egypt
 
-“The Lord shall set his hand again the second time to recover the remnant of his people” ([[Isa. 11:11]]); the LORD “shall utterly destroy the tongue of the Egyptian sea” ([[Isa. 11:15]]), to “facilitate the return, as in the days of Moses.”[@lds-scriptures] Then the highway, “like as it was” in the exodus ([[Isa. 11:16]]). Jacob reads the promise of Christ: “the Messiah will set himself again the second time to recover them” ([[2 Ne. 6:14]]).[@lds-scriptures] Isaiah 35 gives the road a name: “it shall be called The way of holiness; the unclean shall not pass over it… the redeemed shall walk there… the ransomed of the LORD shall return, and come to Zion” ([[Isa. 35:8–10]]). See [Isaiah 11](/isaiah/11/) and [Isaiah 35](/isaiah/35/).
+“The Lord shall set his hand again the second time to recover the remnant of his people” ([[Isa. 11:11]]); the LORD “shall utterly destroy the tongue of the Egyptian sea” ([[Isa. 11:15]]), to “facilitate the return, as in the days of Moses.”[@lds-scriptures] Then the highway, “like as it was” in the exodus ([[Isa. 11:16]]). Jacob reads the promise of the Messiah ([[2 Ne. 6:14]]).[@lds-scriptures] Isaiah 35 gives the road a name: “it shall be called The way of holiness… the redeemed shall walk there” ([[Isa. 35:8–9]]). See [Isaiah 11](/isaiah/11/) and [Isaiah 35](/isaiah/35/).
 
 <h2 id="prepare-the-way">Prepare ye the way of the LORD</h2>
 
