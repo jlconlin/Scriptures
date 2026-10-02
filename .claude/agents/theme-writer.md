@@ -32,7 +32,9 @@ The outline says what the page argues and in what order. The dossier holds the e
 - No length target. Roughly the length of the model page is right; shorter is fine. Not a compendium: leave out what the arc doesn't need, even if the dossier has it.
 - `sources` in the front matter lists the keys the page cites.
 
-If the outline asks for something the dossier can't support, don't write it and don't go looking for a source to keep it: report it.
+- **Summaries are claims too.** The blurb, the opening, the transitions between sections, and the closing say only what the sections establish from their sources. Don't harmonize readings that differ, don't let word order imply an identification no source makes, and don't end a section on a line of your own.
+
+If the outline asks for something the dossier can't support, don't write it and don't go looking for a source to keep it: report it. The outline can be wrong; a sentence in it is not a source.
 
 ## 3. Write the ledger
 

@@ -4,7 +4,7 @@ Topics that run across several chapters, collected for future theme pages (`cont
 
 What earns a theme page is in `STANDARDS.md` §8: an arc across chapters that points to Jesus Christ. Most candidates below will stay chapter notes.
 
-**Chosen for pages (2026-10-01), in order:** the arm of the Lord (in progress); the new exodus and the highway (one page); Zion as a woman, and the Lord as her husband and Redeemer; light rising on Zion; from servant to servants (a section added to the Servant Songs page). “Awake, awake” was tried as a pilot and is a chapter note, not a theme; it becomes a step in the arm of the Lord.
+**Chosen for pages (2026-10-01), in order:** the arm of the Lord (written and reviewed; waiting for the author to read it in the preview, `content/isaiah/themes/arm-of-the-lord.md`); the new exodus and the highway (one page); Zion as a woman, and the Lord as her husband and Redeemer; light rising on Zion; from servant to servants (a section added to the Servant Songs page). “Awake, awake” was tried as a pilot and is a chapter note, not a theme; it becomes a step in the arm of the Lord.
 
 This file lives outside `themes/` because the build publishes every Markdown file there as a page.
 

@@ -143,6 +143,7 @@ Markdown files in `content/<book>/guides/` and `content/<book>/themes/`, with YA
 - **The text supplies the pattern.** That a word recurs, that the speaker changes, that one passage answers another in the same words: these are observations a reader can check in the text, and the text is the source (§4 rule 5). List every occurrence, including those that don't fit, before calling something a pattern, and check a repeated English word in the original language.
 - **Scripture and the Church supply the meaning.** What a step in the arc means, and how it points to Christ, is said only as far as scripture, a Church source, or a scholar says it, and is cited. Where the sources stop, the page shows the pattern and stops too. Where faithful sources read a passage differently, say so.
 - **No readings of the site's own.** An unsourced reading is cut, however it is labeled (§3), and a page is never built on a connection only the writer has made.
+- **Summaries are claims too.** The blurb, the opening's statement of the arc, the transitions, and the closing say only what the sections establish from their sources. This is where a page most easily says more than its sources: by harmonizing readings that differ, by word order that implies an identification no source makes, or by a tidy line of the writer's own. (In the first page written this way, nearly every fix the reviewer required was a sentence of this kind.)
 
 ### How a theme page is written
 
