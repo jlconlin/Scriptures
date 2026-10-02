@@ -10,7 +10,13 @@ const CHURCH = 'https://www.churchofjesuschrist.org/study/scriptures';
 
 // display abbreviation (normalized: lowercase, no periods/spaces) -> [volume, slug]
 const BOOKS = {};
-const add = (vol, pairs) => pairs.forEach(([keys, slug]) => keys.split('|').forEach((k) => (BOOKS[k] = [vol, slug])));
+// Each volume's books in canonical order (Gospel Library slugs), for ordering books on the site.
+export const BOOK_ORDER = {};
+const add = (vol, pairs) =>
+  pairs.forEach(([keys, slug]) => {
+    (BOOK_ORDER[vol] ??= []).includes(slug) || BOOK_ORDER[vol].push(slug);
+    keys.split('|').forEach((k) => (BOOKS[k] = [vol, slug]));
+  });
 
 add('ot', [
   ['gen|genesis', 'gen'], ['ex|exod|exodus', 'ex'], ['lev|leviticus', 'lev'], ['num|numbers', 'num'],

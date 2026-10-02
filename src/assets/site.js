@@ -17,14 +17,206 @@
     store.set('theme', root.dataset.theme);
   });
 
-  // ---------- header menu ----------
-  // A <details> element; close it on Escape or a tap outside it.
-  const menu = $('.book-menu');
-  if (menu) {
-    document.addEventListener('click', (e) => { if (menu.open && !menu.contains(e.target)) menu.open = false; });
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && menu.open) { menu.open = false; menu.querySelector('summary').focus(); }
+  // ---------- Scriptures menu ----------
+  // The header's <details class="scripture-menu"> holds the five volumes and the books on the site
+  // (data-nav) and where this page is (data-here). Wide screens get three columns: volume, book,
+  // chapters. With a mouse, pointing at a volume or book opens its column and clicking goes to its
+  // page; on a touch screen the first tap opens the column and a second tap goes to the page.
+  // Narrow screens get one column at a time with a back button.
+  const sm = $('.scripture-menu');
+  if (sm) {
+    const nav = JSON.parse(sm.dataset.nav);
+    const here = JSON.parse(sm.dataset.here);
+    const panel = $('.menu-panel', sm);
+    const summary = $('summary', sm);
+    const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+    const svg = (d, cls = '') => `<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="${d}"/></svg>`;
+    const chev = svg('m9 6 6 6-6 6', 'chev');
+    const back = svg('m15 6-6 6 6 6');
+    const count = (b) => b.written.reduce((n, [x, y]) => n + y - x + 1, 0);
+    const isWritten = (b, n) => b.written.some(([x, y]) => n >= x && n <= y);
+    const volOf = (slug) => nav.find((v) => v.slug === slug);
+    const bookOf = (v, slug) => v?.books.find((b) => b.slug === slug);
+
+    const state = { vol: null, book: null, level: 'vol', picked: {} };
+    let scrollHere = false;
+    const shown = {};
+    const reset = () => {
+      state.vol = here.vol ?? nav.find((v) => v.books.length)?.slug ?? nav[0].slug;
+      state.book = here.book ?? state.picked[state.vol] ?? null;
+      if (here.book) state.picked[here.vol] = here.book;
+      state.level = here.book ? 'ch' : here.vol ? 'book' : 'vol';
+      scrollHere = true;
+    };
+
+    const volSub = (v) => (v.books.length ? `${v.books.length} book${v.books.length === 1 ? '' : 's'}` : 'Not on the site yet');
+    const about = '<a class="menu-item menu-about" href="/about/"><span class="name">About this site</span></a>';
+    const volCol = (drill) =>
+      `<div class="menu-col menu-vol">${drill ? '' : '<p class="menu-head">Scriptures</p>'}${nav
+        .map((v) => `<button type="button" class="menu-item vol${v.books.length ? '' : ' absent'}" data-vol="${v.slug}" style="--vc:var(--v-${v.slug})"${v.slug === state.vol && !drill ? ' aria-current="true"' : ''}><span class="dot"></span><span class="name">${esc(v.name)}<small>${volSub(v)}</small></span>${chev}</button>`)
+        .join('')}${about}</div>`;
+    const volLink = (v, drill) => `<a href="/${v.slug}/" class="page-link ${drill ? 'drill-page' : 'menu-head'}">${esc(v.name)}${drill ? ' page' : ''} ${chev}</a>`;
+    const bookCol = (drill) => {
+      const v = volOf(state.vol);
+      if (!v) return '';
+      if (!v.books.length)
+        return `<div class="menu-col menu-book" style="--vc:var(--v-${v.slug})">${volLink(v, drill)}<p class="menu-empty">Nothing from the ${esc(v.name)} is on the site yet.</p><a class="menu-link" href="${v.gl}" target="_blank" rel="noopener">Read it in the Gospel Library ↗</a></div>`;
+      return `<div class="menu-col menu-book" style="--vc:var(--v-${v.slug})">${volLink(v, drill)}${v.books
+        .map((b) => {
+          const w = count(b);
+          return `<button type="button" class="menu-item${b.slug === here.book ? ' here' : ''}" data-book="${b.slug}"${b.slug === state.book && !drill ? ' aria-current="true"' : ''}><span class="name">${esc(b.name)}</span><span class="sub">${w < b.total ? `${w} of ${b.total}` : b.total}</span>${chev}</button>`;
+        })
+        .join('')}</div>`;
+    };
+    const chCol = () => {
+      const v = volOf(state.vol);
+      const b = bookOf(v, state.book);
+      if (!b) return v?.books.length ? `<div class="menu-col menu-ch"><div class="menu-pick"><strong>${esc(v.name)}</strong><span>Choose a book to see its chapters.</span></div></div>` : '<div class="menu-col menu-ch"></div>';
+      const w = count(b);
+      const cells = Array.from({ length: b.total }, (_, i) => {
+        const n = i + 1;
+        const cur = b.slug === here.book && n === here.ch;
+        return isWritten(b, n)
+          ? `<a class="cell written${cur ? ' current' : ''}" href="/${b.slug}/${n}/"${cur ? ' aria-current="page"' : ''}>${n}</a>`
+          : `<a class="cell unwritten" href="${b.gl}/${n}?lang=eng" target="_blank" rel="noopener" aria-label="${esc(b.name)} ${n}, in the Gospel Library">${n}</a>`;
+      }).join('');
+      return `<div class="menu-col menu-ch" style="--vc:var(--v-${v.slug})">
+        <div class="menu-bookhead"><h3><a href="/${b.slug}/">${esc(b.name)} ${chev}</a></h3>
+          <span class="status">${w < b.total ? `Commentary on ${w} of ${b.total} chapters` : `${b.total} chapters`}</span>
+          ${b.guides ? `<span class="links"><a href="/${b.slug}/guides/">Guides</a></span>` : ''}
+        </div>
+        <div class="menu-grid">${cells}</div>
+        ${w < b.total ? '<div class="menu-legend"><span><i class="lw"></i>Commentary</span><span><i class="lu"></i>Opens the Gospel Library</span></div>' : ''}
+      </div>`;
+    };
+
+    const narrow = () => innerWidth < 640;
+    const render = () => {
+      if (!sm.open) return;
+      const saved = {};
+      $$('.menu-col', panel).forEach((c) => { saved[c.classList[1]] = c.scrollTop; });
+      const top = $('.site-header').getBoundingClientRect().bottom + 6;
+      panel.style.top = `${top}px`;
+      panel.style.maxHeight = `${innerHeight - top - 12}px`;
+      if (!narrow()) {
+        panel.className = 'menu-panel';
+        const fit = Math.min(1, (innerWidth - 18) / 722);
+        panel.style.setProperty('--w-vol', `${Math.round(212 * fit)}px`);
+        panel.style.setProperty('--w-book', `${Math.round(204 * fit)}px`);
+        panel.style.setProperty('--w-ch', `${Math.round(304 * fit)}px`);
+        panel.innerHTML = volCol(false) + bookCol(false) + chCol();
+        // Fade in only the columns whose contents changed.
+        for (const [cls, key] of Object.entries({ 'menu-book': state.vol, 'menu-ch': `${state.vol}/${state.book}` })) {
+          if (shown[cls] !== undefined && shown[cls] !== key) $(`.${cls}`, panel)?.classList.add('menu-fade');
+          shown[cls] = key;
+        }
+        // Line the panel's right edge up with the button's; pin it to the left edge if it won't fit.
+        const right = Math.max(8, innerWidth - summary.getBoundingClientRect().right);
+        panel.style.right = `${right}px`;
+        panel.style.left = '';
+        if (panel.offsetWidth + right > innerWidth - 8) { panel.style.left = '8px'; panel.style.right = 'auto'; }
+      } else {
+        panel.className = 'menu-panel drill';
+        panel.style.left = panel.style.right = '';
+        const v = volOf(state.vol);
+        let bar, body;
+        if (state.level === 'vol' || !v) {
+          bar = '<p class="menu-head">Scriptures</p>';
+          body = volCol(true);
+        } else if (state.level === 'book' || !bookOf(v, state.book)) {
+          bar = `<button type="button" class="menu-back" data-back="vol">${back}Scriptures</button><span class="menu-trail">${esc(v.name)}</span>`;
+          body = bookCol(true);
+        } else {
+          bar = `<button type="button" class="menu-back" data-back="book">${back}${esc(v.name)}</button>`;
+          body = chCol();
+        }
+        panel.innerHTML = `<div class="menu-drillbar">${bar}</div>${body}`;
+      }
+      $$('.menu-col', panel).forEach((c) => {
+        if (scrollHere) {
+          const cur = $('[aria-current="true"], .here', c);
+          if (cur) c.scrollTop = cur.offsetTop - c.clientHeight / 3;
+        } else if (saved[c.classList[1]] != null) c.scrollTop = saved[c.classList[1]];
+      });
+      scrollHere = false;
+    };
+
+    const choose = (it) => {
+      if (it.dataset.vol) {
+        if (state.vol !== it.dataset.vol) state.book = state.picked[it.dataset.vol] ?? null;
+        state.vol = it.dataset.vol;
+        state.level = 'book';
+      } else {
+        state.book = it.dataset.book;
+        state.picked[state.vol] = state.book;
+        state.level = 'ch';
+      }
+      render();
+    };
+    const go = (it) => { location.href = `/${it.dataset.vol ?? it.dataset.book}/`; };
+
+    // Pointing with a mouse opens a column at once, except while the pointer is heading toward the
+    // column on the right; then it waits briefly so the items it crosses don't take over.
+    let hoverTimer, last = null, prev = null;
+    panel.addEventListener('pointermove', (e) => { if (e.pointerType === 'mouse') { prev = last; last = { x: e.clientX, y: e.clientY }; } });
+    const headingRight = (col) => {
+      const next = col?.nextElementSibling;
+      if (!next || !prev || !last || last.x <= prev.x) return false;
+      const r = next.getBoundingClientRect();
+      const slope = (p, q) => (q.y - p.y) / (q.x - p.x);
+      const moving = slope(prev, last);
+      return moving > slope(last, { x: r.left, y: r.top }) && moving < slope(last, { x: r.left, y: r.bottom });
+    };
+    const hover = (it) => {
+      clearTimeout(hoverTimer);
+      const same = it.dataset.vol ? state.vol === it.dataset.vol : state.book === it.dataset.book;
+      if (same) return;
+      if (!headingRight(it.closest('.menu-col'))) return choose(it);
+      const at = last;
+      hoverTimer = setTimeout(() => (last === at ? choose(it) : hover(it)), 100);
+    };
+    panel.addEventListener('pointerover', (e) => {
+      if (e.pointerType !== 'mouse' || narrow()) return;
+      clearTimeout(hoverTimer);
+      const it = e.target.closest('[data-vol],[data-book]');
+      if (it) hover(it);
     });
+    panel.addEventListener('pointerleave', () => clearTimeout(hoverTimer));
+
+    // If pointing redraws the menu between button-down and button-up, the click lands on the panel,
+    // not the item; remember which item the button went down on.
+    let lastPointer = 'mouse', downItem = null;
+    panel.addEventListener('pointerdown', (e) => {
+      lastPointer = e.pointerType;
+      const it = e.target.closest('[data-vol],[data-book]');
+      downItem = it ? { dataset: { ...it.dataset } } : null;
+    });
+    panel.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') lastPointer = 'keyboard'; });
+    panel.addEventListener('click', (e) => {
+      const backBtn = e.target.closest('[data-back]');
+      if (backBtn) { state.level = backBtn.dataset.back; scrollHere = true; render(); return; }
+      const it = e.target.closest('[data-vol],[data-book]') ?? (e.target.closest('a') ? null : downItem);
+      downItem = null;
+      if (it) {
+        clearTimeout(hoverTimer);
+        const selected = it.dataset.vol ? state.vol === it.dataset.vol : state.book === it.dataset.book;
+        if (!narrow() && (lastPointer === 'mouse' || selected)) go(it);
+        else choose(it);
+        return;
+      }
+      // Any link closes the menu (Gospel Library links open in a new tab and leave this page here).
+      if (e.target.closest('a')) sm.open = false;
+    });
+
+    sm.addEventListener('toggle', () => { if (sm.open) { reset(); render(); } });
+    document.addEventListener('click', (e) => {
+      // A click inside the menu can redraw it, leaving e.target detached; that is not an outside click.
+      if (sm.open && e.target.isConnected && !sm.contains(e.target)) sm.open = false;
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && sm.open) { sm.open = false; summary.focus(); }
+    });
+    addEventListener('resize', render);
   }
 
   // ---------- reading progress ----------

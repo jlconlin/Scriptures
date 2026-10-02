@@ -1,6 +1,7 @@
 import { esc } from '../lib/markdown.mjs';
 import { linkRefs } from '../lib/refs.mjs';
 import { SITE, LIBRARY } from '../site.mjs';
+import { VOLUMES, gospelLibraryVolume } from '../lib/canon.mjs';
 
 export const logo = `<svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true">
   <rect x="3" y="6" width="26" height="3.2" rx="1.6" fill="currentColor" opacity=".35"/>
@@ -10,16 +11,17 @@ export const logo = `<svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="tru
 </svg>`;
 
 /**
- * @param {{title:string, description?:string, path:string, body:string, bodyClass?:string, book?:object, head?:string}} p
+ * `book`, `chapter`, and `volume` say where the page is, so the Scriptures menu opens there.
+ * @param {{title:string, description?:string, path:string, body:string, bodyClass?:string, book?:object, chapter?:number, volume?:string, head?:string}} p
  */
-export function layout({ title, description = SITE.description, path, body, bodyClass = '', book, head = '' }) {
+export function layout({ title, description = SITE.description, path, body, bodyClass = '', book, chapter, volume, head = '' }) {
   const fullTitle = title ? `${title} · ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
   const url = SITE.url + path;
+  const here = book ? { vol: LIBRARY.find((b) => b.slug === book.slug)?.vol, book: book.slug, ch: chapter } : volume ? { vol: volume } : {};
   const nav = `<nav class="site-nav" aria-label="Main">
-        ${bookMenu(book)}
-        ${book
-          ? `<a class="nav-wide" href="/${book.slug}/#chapters">Chapters</a>${book.hasGuides ? `\n        <a class="nav-wide" href="/${book.slug}/guides/">Guides</a>` : ''}`
-          : '<a class="nav-wide" href="/about/">About</a>'}
+        ${scriptureMenu(here)}
+        ${book?.hasGuides ? `<a href="/${book.slug}/guides/">Guides</a>` : ''}
+        <a class="nav-wide" href="/about/">About</a>
         <a href="/search/" class="nav-search" aria-label="Search">${icon('search')}<span>Search</span></a>
       </nav>`;
 
@@ -74,34 +76,36 @@ ${linkRefs(body)}
 </html>`;
 }
 
-// The header's one menu: labeled with the current book (or “Books”), it holds this book's pages and
-// every book on the site, grouped by volume (book.yaml `eyebrow`). A <details> element, so it works
-// without JavaScript; site.js closes it on Escape or a tap elsewhere. Outside a book, About is also
-// a header link from 680px up, so the menu's About shows only on narrower screens.
-function bookMenu(book) {
-  const count = (b) => `${b.written.size < b.total ? `${b.written.size} of ` : ''}${b.total} chapters`;
-  const volumes = [...new Set(LIBRARY.map((b) => b.eyebrow))];
-  const here = book
-    ? `<p class="menu-head">This book</p>
-          <a href="/${book.slug}/">${esc(book.name)} overview</a>
-          <a href="/${book.slug}/#chapters">Chapters</a>
-          ${book.hasGuides ? `<a href="/${book.slug}/guides/">Guides</a>` : ''}
-          <hr>`
-    : '';
-  return `<details class="book-menu">
-        <summary>${esc(book ? book.name : 'Books')}${icon('chevron', 'menu-chevron')}</summary>
+// The Scriptures menu: always labeled “Scriptures”. Without JavaScript it is a <details> list of the
+// five volumes and their books on the site. site.js turns it into columns (volume, book, chapters)
+// from the data in its data-nav attribute, opened where the page is (data-here).
+function navData() {
+  return VOLUMES.map((v) => ({
+    slug: v.slug,
+    name: v.name,
+    gl: gospelLibraryVolume(v),
+    books: LIBRARY.filter((b) => b.vol === v.key)
+      .sort((a, b) => a.index - b.index)
+      .map((b) => ({ slug: b.slug, name: b.name, total: b.total, written: ranges([...b.written].sort((x, y) => x - y)), gl: b.gospelLibrary, guides: b.hasGuides })),
+  }));
+}
+const ranges = (ns) => ns.reduce((r, n) => (r.length && r.at(-1)[1] === n - 1 ? (r.at(-1)[1] = n) : r.push([n, n]), r), []);
+
+function scriptureMenu(here) {
+  const data = navData();
+  const vol = data.find((v) => v.slug === VOLUMES.find((x) => x.key === here.vol)?.slug);
+  const count = (b) => `${b.written.reduce((a, [x, y]) => a + y - x + 1, 0) < b.total ? `${b.written.reduce((a, [x, y]) => a + y - x + 1, 0)} of ` : ''}${b.total}`;
+  return `<details class="scripture-menu" data-nav="${esc(JSON.stringify(data))}" data-here="${esc(JSON.stringify({ vol: vol?.slug, book: here.book, ch: here.ch }))}">
+        <summary>Scriptures${icon('chevron', 'menu-chevron')}</summary>
         <div class="menu-panel">
-          ${here}
-          ${volumes
-            .map(
-              (v) => `<p class="menu-head">${esc(v)}</p>
-          ${LIBRARY.filter((b) => b.eyebrow === v)
-            .map((b) => `<a href="/${b.slug}/"${b.slug === book?.slug ? ' aria-current="true"' : ''}><span>${esc(b.name)}</span><small>${count(b)}</small></a>`)
-            .join('\n          ')}`,
-            )
-            .join('\n          ')}
-          <hr${book ? '' : ' class="menu-narrow"'}>
-          <a href="/about/"${book ? '' : ' class="menu-narrow"'}>About this site</a>
+          <ul class="menu-fallback">
+            ${data
+              .map(
+                (v) => `<li><a href="/${v.slug}/">${esc(v.name)}</a>${v.books.length ? `<ul>${v.books.map((b) => `<li><a href="/${b.slug}/">${esc(b.name)}</a> <small>${count(b)}</small></li>`).join('')}</ul>` : ''}</li>`,
+              )
+              .join('\n            ')}
+            <li><a href="/about/">About this site</a></li>
+          </ul>
         </div>
       </details>`;
 }

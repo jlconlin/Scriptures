@@ -3,6 +3,7 @@ import { KINDS, SITE, LIBRARY, COMING_SOMEDAY, sectionTitle } from '../site.mjs'
 import { layout, icon, logo } from './layout.mjs';
 import { renderSource } from './sources.mjs';
 import { gospelLibraryUrl } from './chapter.mjs';
+import { VOLUMES, gospelLibraryVolume } from '../lib/canon.mjs';
 
 const ensignArt = `<svg class="hero-art" viewBox="0 0 320 220" aria-hidden="true">
   <defs>
@@ -85,6 +86,23 @@ export function renderHome({ books, featured }) {
   return layout({ title: '', path: '/', body, bodyClass: 'page-home' });
 }
 
+// A volume's page: its books on the site, and the Gospel Library for the rest.
+export function renderVolume({ volume, books }) {
+  const sorted = [...books].sort((a, b) => a.place.index - b.place.index);
+  const status = (b) => (b.written.length < b.chapters.length ? `${b.written.length} of ${b.chapters.length} chapters` : `${b.chapters.length} chapters`);
+  const body = `
+<header class="page-hero"><div class="wrap narrow">
+  <p class="eyebrow">The standard works</p>
+  <h1>${esc(volume.name)}</h1>
+  <p class="lede">${sorted.length ? `The books of the ${esc(volume.name)} on this site so far. The whole ${esc(volume.name)} is in the Gospel Library, with footnotes and study helps.` : `Nothing from the ${esc(volume.name)} is on this site yet. You can read it in the Gospel Library, with footnotes and study helps.`}</p>
+  <p><a class="btn" href="${gospelLibraryVolume(volume)}" target="_blank" rel="noopener">Read the ${esc(volume.name)} in the Gospel Library ↗</a></p>
+</div></header>
+${sorted.length ? `<section class="wrap narrow book-section"><div class="volumes volumes-stack">
+  ${sorted.map((b) => `<a class="volume live" href="/${b.slug}/"><span class="volume-status">${status(b)}</span><h3>${esc(b.name)}</h3><p>${esc(b.home.blurb)}</p><span class="volume-go">Open ${icon('arrowR')}</span></a>`).join('')}
+</div></section>` : ''}`;
+  return layout({ title: volume.name, description: `The books of the ${volume.name} on ${SITE.name}.`, path: `/${volume.slug}/`, body, bodyClass: 'page-volume', volume: volume.key });
+}
+
 export function renderBookIndex({ book, guides, sources }) {
   const divisions = book.divisions
     .map((d) => {
@@ -121,7 +139,7 @@ export function renderBookIndex({ book, guides, sources }) {
 <section class="book-hero">
   <div class="wrap book-hero-inner">
     <div>
-      <p class="eyebrow">${esc(book.eyebrow)}</p>
+      <p class="eyebrow"><a href="/${VOLUMES.find((v) => v.key === book.place.vol).slug}/">${esc(book.eyebrow)}</a></p>
       <h1>${esc(book.name)}</h1>
       <blockquote class="hero-quote">${book.heroQuote.text} <cite>${book.heroQuote.cite}</cite></blockquote>
       <div class="prose lede">${md(book.intro)}</div>
@@ -282,7 +300,7 @@ export function render404() {
 // An unwritten chapter (/jeremiah/5/) goes to the Gospel Library.
 (function(){var p=location.pathname,l=p.toLowerCase()${LIBRARY.filter((b) => b.abbr !== b.slug).map((b) => `.replace(/^\\/${b.abbr}(\\/|$)/,'/${b.slug}$1')`).join('')};if(!/\\/$/.test(l)&&!/\\.[a-z0-9]+$/.test(l))l+='/';
 var gl=${JSON.stringify(Object.fromEntries(LIBRARY.filter((b) => b.written.size < b.total).map((b) => [b.slug, [b.gospelLibrary, Array.from({ length: b.total }, (_, i) => i + 1).filter((n) => !b.written.has(n))]])))},m=l.match(/^\\/([a-z0-9-]+)\\/(\\d+)\\/$/),b=m&&gl[m[1]];
-if(b&&b[1].indexOf(+m[2])>=0){location.replace('https://www.churchofjesuschrist.org/study/scriptures/'+b[0]+'/'+(+m[2])+'?lang=eng');return}
+if(b&&b[1].indexOf(+m[2])>=0){location.replace(b[0]+'/'+(+m[2])+'?lang=eng');return}
 if(l!==p)location.replace(l+location.search+location.hash);})();
 </script>`;
   return layout({ title: 'Page not found', path: '/404.html', body: body.replace(/\[\[Isa\. 30:20\]\]/, '<a href="/isaiah/30/#v20">Isa. 30:20</a>'), bodyClass: 'page-404' });

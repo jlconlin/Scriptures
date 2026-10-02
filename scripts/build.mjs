@@ -8,8 +8,9 @@ import { md, plain, unknownRefs } from '../src/lib/markdown.mjs';
 import { applyCitations, stripCitations } from '../src/lib/citations.mjs';
 import { renderChapter, range } from '../src/templates/chapter.mjs';
 import { discoverBooks } from '../src/lib/books.mjs';
+import { VOLUMES, placeOf } from '../src/lib/canon.mjs';
 import { LIBRARY } from '../src/site.mjs';
-import { renderHome, renderBookIndex, renderGuidesIndex, renderGuide, renderPage, renderSearch, render404, chapterGuide, COLLECTIONS } from '../src/templates/pages.mjs';
+import { renderHome, renderVolume, renderBookIndex, renderGuidesIndex, renderGuide, renderPage, renderSearch, render404, chapterGuide, COLLECTIONS } from '../src/templates/pages.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const OUT = path.join(ROOT, 'dist');
@@ -108,6 +109,8 @@ export async function build({ quiet = false } = {}) {
       return authored.get(n) ?? { chapter: n, title: book.titles?.[n], draft: true };
     });
     book.written = book.chapters.filter((c) => !c.draft);
+    book.place = placeOf(book.abbr);
+    if (!book.place) throw new Error(`content/${book.slug}/book.yaml: abbr “${book.abbr}” is not a book of the standard works (see src/lib/refs.mjs)`);
     book.hasGuides = existsSync(path.join(book.dir, 'guides'));
 
     // Validate source keys
@@ -124,7 +127,8 @@ export async function build({ quiet = false } = {}) {
   LIBRARY.length = 0;
   LIBRARY.push(
     ...books.map((b) => ({
-      name: b.name, slug: b.slug, abbr: b.abbr, eyebrow: b.eyebrow, gospelLibrary: b.gospelLibrary, hasGuides: b.hasGuides,
+      name: b.name, slug: b.slug, abbr: b.abbr, vol: b.place.vol, index: b.place.index, hasGuides: b.hasGuides,
+      gospelLibrary: `https://www.churchofjesuschrist.org/study/scriptures/${b.gospelLibrary}`,
       total: b.chapters.length, written: new Set(b.written.map((c) => c.chapter)),
     })),
   );
@@ -206,6 +210,8 @@ export async function build({ quiet = false } = {}) {
   const pool = [...allNotes];
   while (featured.length < 3 && pool.length) featured.push(pool.splice(Math.floor(rand() * pool.length), 1)[0]);
   await write('index.html', renderHome({ books, featured }));
+  // A page for each volume, listing its books on the site.
+  for (const v of VOLUMES) await write(`${v.slug}/index.html`, renderVolume({ volume: v, books: books.filter((b) => b.place.vol === v.key) }));
   const about = await readMd(r('content/about.md'));
   await write('about/index.html', renderPage({ title: about.title, blurb: about.blurb, html: md(about.body).replace('<!-- chapter-guide -->', chapterGuide()), path: '/about/' }));
   await write('search/index.html', renderSearch());
@@ -214,6 +220,7 @@ export async function build({ quiet = false } = {}) {
   const urls = [
     '/',
     ...built.flatMap(({ book }) => [`/${book.slug}/`, `/${book.slug}/guides/`]),
+    ...VOLUMES.map((v) => `/${v.slug}/`),
     '/about/',
     ...built.flatMap(({ book, guides, themes }) => [
       ...guides.map((g) => `/${book.slug}/guides/${g.slug}/`),

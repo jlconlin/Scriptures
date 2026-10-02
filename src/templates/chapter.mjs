@@ -275,5 +275,6 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
     body,
     bodyClass: 'page-chapter',
     book,
+    chapter: n,
   });
 }
