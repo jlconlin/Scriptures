@@ -152,8 +152,11 @@ for (const book of books) {
     if (existsSync(path.join(bdir, 'evidence', f))) {
       for (const [name, t] of [['setting', ch.setting], ['thread', ch.thread], ['christ', ch.christ], ['explore', ch.explore]])
         if (/\[@/.test(String(t ?? ''))) err(`${label} ${name}: has a [@key] citation, which chapter pages don't render; remove it (the ledger and the chapter's sources carry the citation)`);
+      for (const [name, t] of [['setting', ch.setting], ['thread', ch.thread], ['christ', ch.christ], ['explore', ch.explore]])
+        if (t !== undefined && typeof t !== 'string') err(`${label} ${name}: must be Markdown text, not a YAML list or map (a list renders as one run-on paragraph)`);
       for (const n of notes) {
         if (/\[@/.test(String(n.body ?? ''))) err(`${noteLabel(n)}: has a [@key] citation, which chapter pages don't render; list the key in the note's sources instead`);
+        if (/"/.test(String(n.body ?? ''))) err(`${noteLabel(n)}: has a straight double quote; use “ ” (check-quotes.mjs only checks quotations in curly quotes)`);
         if (/^\s*This (note|verse note|entry)\b/i.test(String(n.body ?? ''))) err(`${noteLabel(n)}: opens with “This note…”; open with the point itself`);
       }
     }
