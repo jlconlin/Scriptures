@@ -5,6 +5,7 @@ Current work and how to work with the author. **The writing and sourcing standar
 ## Status (2026-10-01)
 
 - **Isaiah:** all 66 chapters written and audited. Remaining: the open questions (`content/isaiah/OPEN-QUESTIONS.md`) and deepening chapters 1–37 (`content/isaiah/BRIEF.md`).
+- **Isaiah theme pages:** five chosen (`content/isaiah/THEME-CANDIDATES.md`). The arm of the Lord is being written first, by the four steps in `STANDARDS.md` §8; the author reads it before the other four are written.
 - **Jeremiah:** next book. `data/kjv/jeremiah.json` is fetched; its LDS-edition spellings still need checking. Next is the brief (step 3 below).
 - **Site:** framework, guides, theme pages, About page, and book-neutral code done. Code notes are in `DEVELOPMENT.md`.
 
@@ -22,7 +23,7 @@ Goal: write content that needs no audit afterward, by making sourcing part of wr
 - **The author reads mostly on an iPad mini** (744px upright, 1133px sideways). Check layouts there as well as on a laptop and a phone.
 - **Ask for focus questions**, one question at a time, before a chapter is written; build the chapter around them.
 - **Judgment calls** go in the book's `content/<book>/OPEN-QUESTIONS.md` rather than being decided silently.
-- The per-chapter workflow (writer agent, ledger, checks, review, one commit per chapter) is in `STANDARDS.md` §10–11.
+- The per-chapter workflow (writer agent, ledger, checks, review, one commit per chapter) is in `STANDARDS.md` §10–11; the theme-page workflow (research, outline, writing, review) is in §8.
 
 ## Project files
 
@@ -31,7 +32,7 @@ Goal: write content that needs no audit afterward, by making sourcing part of wr
 | `STANDARDS.md` | Audience, voice, sourcing rules, evidence ledger, chapter structure, research tools, checks, review process |
 | `content/<book>/BRIEF.md` | Book-level decisions |
 | `content/<book>/OPEN-QUESTIONS.md` | Judgment calls waiting for the author |
-| `content/<book>/THEME-CANDIDATES.md` | Topics for future theme pages |
+| `content/<book>/THEME-CANDIDATES.md` | Topics for future theme pages, and which were chosen |
 | `DEVELOPMENT.md` | Hosting, site design, how books are built, adding a book |
 | `IDEAS.md` | Ideas not yet planned |
 | `DECISIONS.md` | Decisions that frame the site |

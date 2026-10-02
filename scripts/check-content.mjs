@@ -8,6 +8,8 @@
 // Global (errors): every cited source key exists in content/sources.yaml; no source or
 //   ledger URL is on a wiki domain; no duplicate keys in sources.yaml; a guide or theme
 //   page that lists sources cites them with numbered citations ([@key]).
+// Guides and themes with a ledger (content/<book>/evidence/<guides|themes>/<file>.yaml) are
+//   strict too: complete rows, and a row for every key the page cites.
 // Strict chapters (errors): every note has sources; every cited key has a ledger row;
 //   ledger rows are complete (where, claim, key, url, quote); works that cannot be read
 //   online need a quoted ledger row.
@@ -71,6 +73,25 @@ for (const [k, s] of Object.entries(sources))
 const CITE = /\[@([a-z0-9-]+)(?:,\s*[^\]]+)?\]/g;
 const checkKey = (where, k) => { if (isKey(k) && !sources[k]) err(`${where}: unknown source key “${k}”`); };
 
+// Check a ledger's rows; returns the set of source keys that have a row.
+const checkRows = (rows, lf) => {
+  const ledgerKeys = new Set();
+  rows.forEach((r, i) => {
+    const at = `${lf} row ${i + 1}${r?.where ? ` (${r.where})` : ''}`;
+    for (const field of ['where', 'claim', 'key', 'url', 'quote'])
+      if (!String(r?.[field] ?? '').trim()) err(`${at}: empty “${field}”`);
+    if (r?.key) { ledgerKeys.add(String(r.key)); checkKey(at, String(r.key)); }
+    if (r?.url) {
+      if (!/^https?:\/\//.test(r.url)) err(`${at}: url must be http(s)`);
+      else if (isWiki(r.url)) err(`${at}: wiki or popular-site URL (${r.url}); not a source`);
+    }
+  });
+  return ledgerKeys;
+};
+const needsQuote = (label, k, rows) => {
+  if (!rows.some((r) => r?.key === k && String(r.quote ?? '').trim())) err(`${label}: “${k}” is not readable online; its ledger needs a row with a quote`);
+};
+
 // ---------- books ----------
 const books = [];
 for (const d of await readdir(CONTENT, { withFileTypes: true }))
@@ -79,7 +100,7 @@ books.sort();
 if (onlyBook && !books.length) { console.error(`No book “${onlyBook}” with chapters/`); process.exit(1); }
 
 const nonStrict = []; // one line per chapter with issues
-let strictCount = 0, chapterCount = 0;
+let strictCount = 0, chapterCount = 0, strictPages = 0;
 
 for (const book of books) {
   const bdir = path.join(CONTENT, book);
@@ -96,6 +117,18 @@ for (const book of books) {
         const cites = [...text.matchAll(CITE)];
         for (const m of cites) checkKey(where, m[1]);
         if (listed.length && !cites.length) err(`${where}: lists sources but has no numbered citations ([@key] after the claims; STANDARDS.md §8)`);
+
+        // A page with a ledger is strict, like a chapter with one.
+        const lf = `${book}/evidence/${sub}/${f.replace(/\.md$/, '.yaml')}`;
+        if (!existsSync(path.join(CONTENT, lf))) continue;
+        strictPages++;
+        const ledger = await readYaml(path.join(CONTENT, lf));
+        const rows = ledger?.claims ?? [];
+        if (ledger?.page !== f.replace(/\.md$/, '')) err(`${lf}: page is ${ledger?.page}, expected ${f.replace(/\.md$/, '')}`);
+        const ledgerKeys = checkRows(rows, lf);
+        const cited = new Set(cites.map((m) => m[1]));
+        for (const k of [...cited].sort()) if (!ledgerKeys.has(k)) err(`${where}: cited “${k}” has no row in ${lf}`);
+        for (const k of cited) if (NOT_READABLE.includes(k)) needsQuote(where, k, rows);
       }
 
   for (const f of await ls(path.join(bdir, 'chapters'), '.yaml')) {
@@ -130,21 +163,10 @@ for (const book of books) {
     const rows = ledger?.claims ?? [];
     const lf = `${book}/evidence/${f}`;
     if (ledger?.chapter !== num) err(`${lf}: chapter is ${ledger?.chapter}, expected ${num}`);
-    const ledgerKeys = new Set();
-    rows.forEach((r, i) => {
-      const at = `${lf} row ${i + 1}${r?.where ? ` (${r.where})` : ''}`;
-      for (const field of ['where', 'claim', 'key', 'url', 'quote'])
-        if (!String(r?.[field] ?? '').trim()) err(`${at}: empty “${field}”`);
-      if (r?.key) { ledgerKeys.add(String(r.key)); checkKey(at, String(r.key)); }
-      if (r?.url) {
-        if (!/^https?:\/\//.test(r.url)) err(`${at}: url must be http(s)`);
-        else if (isWiki(r.url)) err(`${at}: wiki or popular-site URL (${r.url}); not a source`);
-      }
-    });
+    const ledgerKeys = checkRows(rows, lf);
     for (const n of notes) if (!(n.sources ?? []).length) err(`${noteLabel(n)}: no sources`);
     for (const k of [...cited].sort()) if (!ledgerKeys.has(k)) err(`${label}: cited “${k}” has no row in ${lf}`);
-    for (const k of unread)
-      if (!rows.some((r) => r?.key === k && String(r.quote ?? '').trim())) err(`${label}: “${k}” is not readable online; its ledger needs a row with a quote`);
+    for (const k of unread) needsQuote(label, k, rows);
 
   }
 }
@@ -157,5 +179,5 @@ if (nonStrict.length && !quiet) {
   for (const l of nonStrict) console.warn(`  ⚠ ${l}`);
 }
 
-console.log(`\n${chapterCount} chapter(s) in ${books.length} book(s); ${strictCount} strict. ${errors} error(s), ${warnings} warning(s)${quiet ? ' (hidden)' : ''}.`);
+console.log(`\n${chapterCount} chapter(s) in ${books.length} book(s); ${strictCount} strict${strictPages ? `; ${strictPages} guide or theme page(s) with a ledger` : ''}. ${errors} error(s), ${warnings} warning(s)${quiet ? ' (hidden)' : ''}.`);
 process.exit(errors ? 1 : 0);

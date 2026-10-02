@@ -125,7 +125,35 @@ Anything new (a kind, a section, a label) gets a plain, non-clever name, and goe
 
 ## 8. Guides and theme pages
 
-Markdown files in `content/<book>/guides/` and `content/<book>/themes/`, with YAML front matter (`title`, `blurb`, `icon`, `sources`) and then prose. Cite with a numbered citation right after the claim: `[@key]` or `[@key, locator]`. This is required: `check-content.mjs` fails a page that lists sources but cites none. Sources in the page's `sources` that are never cited appear under “Further reading.” Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`). The same sourcing rules and ledger apply.
+Markdown files in `content/<book>/guides/` and `content/<book>/themes/`, with YAML front matter (`title`, `blurb`, `icon`, `sources`) and then prose. Cite with a numbered citation right after the claim: `[@key]` or `[@key, locator]`. This is required: `check-content.mjs` fails a page that lists sources but cites none. Sources in the page's `sources` that are never cited appear under “Further reading.” Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`). The same sourcing rules apply.
+
+**The ledger for a guide or theme page** is `content/<book>/evidence/themes/<file name>.yaml` (or `evidence/guides/…`), in the format of §5 with `page: <file name>` in place of `chapter:`; `where` names the section heading (or `opening`). A page written from now on has one, committed with the page; `check-content.mjs` then holds it to the same rules as a chapter with a ledger.
+
+### What earns a theme page
+
+(Author, 2026-10-01.) **A theme is broader than a chapter.** Everything else on the site goes verse by verse or chapter by chapter; a theme page connects chapters in a bigger arc. It is worth writing only if it helps the reader understand **the bigger story that points to Jesus Christ**.
+
+- **It is an arc, not a list.** The page says what changes from the first passage to the last. If the passages only share a word or an image and nothing develops, it is not a theme page.
+- **A topic that lives in one chapter or a few neighboring verses belongs in that chapter's notes.**
+- **Few, not many.** A book gets a handful of theme pages. Each book's `THEME-CANDIDATES.md` collects topics as chapters are written; most will never become pages.
+- **The page links, it doesn't repeat.** Verse-level detail stays in the chapter notes; the theme page points to them. When a chapter touches a theme that has a page, the chapter links to it.
+
+### Where the meaning comes from
+
+- **The text supplies the pattern.** That a word recurs, that the speaker changes, that one passage answers another in the same words: these are observations a reader can check in the text, and the text is the source (§4 rule 5). List every occurrence, including those that don't fit, before calling something a pattern, and check a repeated English word in the original language.
+- **Scripture and the Church supply the meaning.** What a step in the arc means, and how it points to Christ, is said only as far as scripture, a Church source, or a scholar says it, and is cited. Where the sources stop, the page shows the pattern and stops too. Where faithful sources read a passage differently, say so.
+- **No readings of the site's own.** An unsourced reading is cut, however it is labeled (§3), and a page is never built on a connection only the writer has made.
+
+### How a theme page is written
+
+Four steps, with a different model for each kind of work (the agent instructions are in `.claude/agents/`):
+
+1. **Research** (`theme-researcher`, Sonnet): gathers every occurrence in the text, the scripture that quotes or explains the passages, what Church sources and faithful scholarship say, and what the site already says, into a dossier with verbatim quotes. It records what it looked for and did not find. It does not interpret.
+2. **Outline** (the orchestrating session, on the most capable model): decides from the dossier whether there is an arc at all, what its steps are, and which source carries each step. Drops whatever the dossier can't support. This is the step where a weak connection can be made to sound convincing, so it is not delegated.
+3. **Writing** (`theme-writer`, Sonnet): writes the page and its ledger from the outline and the dossier, adding nothing of its own.
+4. **Review** (`theme-reviewer`, Opus, which did not write the page): reopens a sample of the sources, tests the page against “What earns a theme page” and “Where the meaning comes from,” and returns a list of fixes, or says the theme doesn't hold up.
+
+Then the author reads it in the preview (§11). The dossier is a working file and is not kept; the ledger is.
 
 ## 9. Research tools and access
 
@@ -169,3 +197,5 @@ Fix every warning that concerns your chapter (length warnings on older chapters 
 4. **The author sees it** in the private preview artifact (see “Working with the author” in `AUTHORING.md`).
 5. **One commit per chapter**, with its ledger.
 6. **Judgment calls** go in the book's `OPEN-QUESTIONS.md`, never decided silently.
+
+A theme page goes through its own four steps first (§8, “How a theme page is written”), then steps 4–6 here, with one commit for the page and its ledger.
