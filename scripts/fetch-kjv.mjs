@@ -29,6 +29,36 @@ const LDS_SPELLINGS = [
   [/\brereward\b/g, 'rearward'],
   [/\bnoon day\b/g, 'noonday'],
   [/Hephzibah/g, 'Hephzi-bah'],
+  // Jeremiah
+  [/\bEnquire\b/g, 'Inquire'],
+  [/Bethhaccerem/g, 'Beth-haccerem'],
+  [/Magormissabib/g, 'Magor-missabib'],
+  [/\bcieled\b/g, 'ceiled'],
+  [/Kirjathjearim/g, 'Kirjath-jearim'],
+  [/Ebedmelech/g, 'Ebed-melech'],
+  [/Nergalsharezer/g, 'Nergal-sharezer'],
+  [/Samgarnebo/g, 'Samgar-nebo'],
+  [/Rabsaris/g, 'Rab-saris'],
+  [/Rabmag/g, 'Rab-mag'],
+  [/Nebuzaradan/g, 'Nebuzar-adan'],
+  [/Bethlehem/g, 'Beth-lehem'], // Old Testament spelling; check before importing a New Testament book
+  [/Bethshemesh/g, 'Beth-shemesh'],
+  [/Pharaohhophra/g, 'Pharaoh-hophra'],
+  [/Pharaohnecho/g, 'Pharaoh-necho'],
+  [/\bBethel\b/g, 'Beth-el'],
+  [/Bethdiblathaim/g, 'Beth-diblathaim'],
+  [/Bethgamul/g, 'Beth-gamul'],
+  [/Bethmeon/g, 'Beth-meon'],
+  [/Kirheres\b/g, 'Kir-heres'],
+  [/Benhadad/g, 'Ben-hadad'],
+  [/\bbasons\b/g, 'basins'],
+  [/Evilmerodach/g, 'Evil-merodach'],
+  [/commanded them to do: but they did them not/g, 'commanded them to do; but they did them not'], // Jer. 11:8
+  [/time of Jacob’s trouble, but he shall/g, 'time of Jacob’s trouble; but he shall'], // Jer. 30:7
+  [/ye shall not prosper\.$/g, 'ye shall not prosper?'], // Jer. 32:5
+  [/whom he had set at liberty at their pleasure/g, 'whom ye had set at liberty at their pleasure'], // Jer. 34:16
+  [/I will dwell at Mizpah, to serve/g, 'I will dwell at Mizpah to serve'], // Jer. 40:10
+  [/unto thee, O Baruch:$/g, 'unto thee, O Baruch;'], // Jer. 45:2
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 

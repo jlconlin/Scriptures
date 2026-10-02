@@ -55,6 +55,8 @@ node scripts/check-quotes.mjs <book> <n>
 node scripts/check-content.mjs <book> <n>
 ```
 
+If the book is still in preview (`status: preview` in its `book.yaml`), use the forms of these commands given in the brief: the plain build leaves a preview book out.
+
 Fix every warning that concerns your chapter. “Unknown source key” for a key you are proposing is expected; to test with your proposed entries, use a scratch copy of `content/` and `--root` (`STANDARDS.md` §5). If a check fails for reasons outside your chapter, don't edit the script; report it. In a cloud sandbox, prefix `check-quotes.mjs` with `NODE_USE_ENV_PROXY=1`.
 
 ## Limits
@@ -76,6 +78,7 @@ Return:
 2. **Your questions**, as you wrote them before researching, each with the note that answers it (or “not answered”).
 3. **Proposed `sources.yaml` entries**, one line each in the file's format, with the URL and the page title you saw when you opened it.
 4. **Judgment calls** for the book's `OPEN-QUESTIONS.md` (interpretive choices, framing of debates, anything the author should decide).
+   Also **theme candidates**: topics in this chapter that run across the book, one line each with the verses.
 5. **Cut for lack of a source**: claims you wanted to make but couldn't source, and what you tried.
 6. **Check output**: the result of each check (pass, or the warnings left and why), and any check you couldn't run.
 7. **Fetches**: how many pages you fetched, and any site that failed.

@@ -196,9 +196,10 @@ Fix every warning that concerns your chapter (length warnings on older chapters 
 
 1. **The author's questions first.** Before a chapter is written, ask the author whether they have focus questions for it, and build the chapter around them. Ask one question at a time.
 2. **A writer agent drafts** (`.claude/agents/chapter-writer.md`, on Sonnet): it reads the chapter, lists the questions a careful reader would ask, researches them, builds the ledger, writes the chapter from the ledger, runs the checks, and reports. It doesn't edit `sources.yaml`, code, or other chapters, and doesn't commit. Existing chapters are audited the same way by `.claude/agents/chapter-auditor.md`.
-3. **The orchestrating session reviews** (on Opus): adds the proposed `sources.yaml` entries after confirming each URL, spot-checks a sample of ledger rows by reopening the sources, and runs `build`, `check-quotes`, and `check-content`.
-4. **The author sees it** in the private preview artifact (see “Working with the author” in `AUTHORING.md`).
-5. **One commit per chapter**, with its ledger.
-6. **Judgment calls** go in the book's `OPEN-QUESTIONS.md`, never decided silently.
+3. **A reviewer agent checks** (`.claude/agents/chapter-reviewer.md`, on Opus, which did not write the chapter): it reopens the sources behind the ledger, reads the chapter against the ledger and the standard, and repairs what fails.
+4. **The orchestrating session finishes** (on the most capable model): adds the proposed `sources.yaml` entries after confirming each URL, spot-checks ledger rows itself, and runs `build`, `check-quotes`, and `check-content`.
+5. **The author sees it** in the private preview artifact (see “Working with the author” in `AUTHORING.md`).
+6. **One commit per chapter**, with its ledger.
+7. **Judgment calls** go in the book's `OPEN-QUESTIONS.md`, never decided silently.
 
-A theme page goes through its own four steps first (§8, “How a theme page is written”), then steps 4–6 here, with one commit for the page and its ledger.
+A theme page goes through its own four steps first (§8, “How a theme page is written”), then steps 5–7 here, with one commit for the page and its ledger.

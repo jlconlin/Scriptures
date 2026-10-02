@@ -6,15 +6,15 @@ Current work and how to work with the author. **The writing and sourcing standar
 
 - **Isaiah:** all 66 chapters written and audited. Remaining: the open questions (`content/isaiah/OPEN-QUESTIONS.md`) and deepening chapters 1–37 (`content/isaiah/BRIEF.md`).
 - **Isaiah theme pages:** five chosen (`content/isaiah/THEME-CANDIDATES.md`). The arm of the Lord is live (2026-10-02), and the notes on 51:5, 52:10, 53:1 and 59:16 link to it. The other four (the new exodus and the highway, Zion and her husband, light, and the servants section of the Servant Songs page) are live too, with links from the chapter notes at their key verses; the author has not yet read these four.
-- **Jeremiah:** next book. `data/kjv/jeremiah.json` is fetched; its LDS-edition spellings still need checking. Next is the brief (step 3 below).
+- **Jeremiah:** under way, in preview (`status: preview` in `content/jeremiah/book.yaml`). The text's spellings are checked against the Gospel Library edition. The brief (`content/jeremiah/BRIEF.md`) was drafted on 2026-10-02 without the author, who asked for all 52 chapters to be written while away; the choices to confirm are at the top of `content/jeremiah/OPEN-QUESTIONS.md`. Chapters are written by `chapter-writer` (Sonnet), checked by `chapter-reviewer` (Opus), and committed one at a time.
 - **Site:** framework, guides, theme pages, About page, and book-neutral code done. Code notes are in `DEVELOPMENT.md`.
 
 ## Plan for new books, starting with Jeremiah
 
 Goal: write content that needs no audit afterward, by making sourcing part of writing. Steps 1 (standard, agents, `check-content.mjs`) and 2 (book-neutral code) are done.
 
-3. **Jeremiah brief, with the author.** `content/jeremiah/BRIEF.md`: divisions and intro, the author's questions, which sources for Jeremiah are actually readable online (researched, not assumed), book-wide issues to handle consistently, guide and theme candidates, Restoration connections. Then `book.yaml` and the rest of “Adding a new book” in `DEVELOPMENT.md`.
-4. **Pilot, then batches.** Two chapters by chapter-writer agents; review (spot-check the ledger, run the checks, show the author in the preview); adjust the instructions; then continue in batches, one commit per chapter.
+3. **The book's brief, with the author.** `content/<book>/BRIEF.md`: divisions and intro, the author's questions, which sources for the book are actually readable online (researched, not assumed), book-wide issues to handle consistently, guide and theme candidates, Restoration connections. Then `book.yaml` and the rest of “Adding a new book” in `DEVELOPMENT.md`. (Done for Jeremiah, without the author; see Status.)
+4. **Pilot, then batches.** Two chapters by chapter-writer agents, each checked by a chapter-reviewer agent; review (spot-check the ledger, run the checks, show the author in the preview); adjust the instructions; then continue in batches, one commit per chapter.
 
 ## Working with the author
 

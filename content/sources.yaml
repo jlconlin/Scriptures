@@ -227,3 +227,14 @@ bd-lachish: { type: entry, title: Lachish, pub: '*Bible Dictionary*', url: 'http
 bd-nineveh: { type: entry, title: Nineveh, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/nineveh?lang=eng' }
 bd-temple-of-zerubbabel: { type: entry, title: Temple of Zerubbabel, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-zerubbabel?lang=eng' }
 bd-gate: { type: entry, title: Gate, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/gate?lang=eng' }
+
+# ---------- Jeremiah ----------
+bd-jeremiah: { type: entry, title: Jeremiah, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jeremiah?lang=eng' }
+bd-lamentations: { type: entry, title: 'Lamentations, book of', pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/lamentations-book-of?lang=eng' }
+gs-jeremiah: { type: entry, title: Jeremiah, pub: '*Guide to the Scriptures*', url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jeremiah?lang=eng' }
+ot-manual-23: { type: manual, title: 'Chapter 23: As Ye Sow, So Shall Ye Reap (Jeremiah 1–19)', pub: '*Old Testament Student Manual: 1 Kings–Malachi* (2003)', url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-23?lang=eng' }
+ot-manual-24: { type: manual, title: 'Chapter 24: The Babylonian Captivity (Jeremiah 20–22; 24–29; 32; 34–45; 52; Lamentations)', pub: '*Old Testament Student Manual: 1 Kings–Malachi* (2003)', url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-24?lang=eng' }
+ot-manual-25: { type: manual, title: 'Chapter 25: Prophecies of a Latter-day Gathering (Jeremiah 23; 30–31; 33; 46–51; Obadiah)', pub: '*Old Testament Student Manual: 1 Kings–Malachi* (2003)', url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-25?lang=eng' }
+ot-manual-kings-g: { type: manual, title: 'Enrichment G: Babylonia and the Conquest of Judah', pub: '*Old Testament Student Manual: 1 Kings–Malachi* (2003)', url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/enrichment-g?lang=eng' }
+jst-jer-26: { type: web, title: 'Joseph Smith Translation, Jeremiah 26', pub: 'Gospel Library', url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-jer/26?lang=eng' }
+keil-jeremiah: { type: book, author: Carl Friedrich Keil, title: 'Biblical Commentary on the Prophecies of Jeremiah', pub: 'Trans. David Patrick and James Kennedy. Edinburgh: T. & T. Clark, 1874–1880; in Keil and Delitzsch, *Biblical Commentary on the Old Testament*, online at Bible Hub', url: 'https://biblehub.com/commentaries/kad/jeremiah/1.htm' }

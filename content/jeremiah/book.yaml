@@ -1,0 +1,94 @@
+name: Jeremiah
+slug: jeremiah
+status: preview          # built only by `npm run dev` and `PREVIEW=1 npm run build`; remove to go live
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 2
+abbr: jer                # [[Jer. 1:5]] links here
+gospelLibrary: ot/jer
+eyebrow: The Old Testament
+heroQuote:
+  text: '“Before I formed thee in the belly I knew thee.”'
+  cite: 'The Lord to Jeremiah, [[Jer. 1:5]]'
+description: A phrase-by-phrase companion to the book of Jeremiah, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Jeremiah is not arranged in order of time. Knowing which king is on the throne, and which part of the book you’re in, is half the battle.
+home:
+  blurb: The prophet of Jerusalem’s last forty years, who preached in the city Lehi left.
+
+intro: |
+  Jeremiah was born into a priestly family in Anathoth and prophesied from the thirteenth year of King Josiah until after Jerusalem fell to Babylon, more than forty years ([[Jer. 1:1–3]]). He was in Jerusalem when Lehi was. Nephi knew that Jeremiah had been thrown into prison ([[1 Ne. 7:14]]), and the plates of brass held some of his prophecies ([[1 Ne. 5:13]]).
+
+  His book is the longest of the prophets, and it does not run in order: sermons, signs, prayers, and stories from different reigns sit side by side. This companion goes through all fifty-two chapters and tries to anticipate the questions a careful reader asks: *When is this? Who is he talking to? What does that image mean? Where is Christ in this?*
+
+# The large movements of the book, following the Bible Dictionary’s outline (“Jeremiah”).
+# Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: call
+    range: [1, 6]
+    name: The Call and the First Warnings
+    blurb: The Lord calls Jeremiah, whom He knew before he was born, and sends him to a people who have left “the fountain of living waters.” An enemy is coming from the north.
+    color: '#a8642a'
+    darkColor: '#e0a070'
+  - key: temple
+    range: [7, 20]
+    name: The Temple Sermon and the Prophet’s Burden
+    blurb: Jeremiah stands in the temple gate and says the temple will not save a people who will not repent. He acts out his message with a linen girdle, a potter’s vessel, and a broken bottle, and prays some of the most honest prayers in scripture.
+    color: '#9c4a3c'
+    darkColor: '#e58d7e'
+  - key: shepherds
+    range: [21, 29]
+    name: Kings, Shepherds, and False Prophets
+    blurb: Words to the last kings of Judah and against the prophets who promise peace. Among them is the promise of a righteous Branch from David, the seventy years, and a letter to the exiles in Babylon.
+    color: '#7a5c9e'
+    darkColor: '#bfa2dc'
+  - key: consolation
+    range: [30, 33]
+    name: The New Covenant
+    blurb: Prophecies of Israel’s restoration, given while Jerusalem was under siege. The Lord will gather Israel and Judah, and make a new covenant written in their hearts. Jeremiah buys a field to show he believes it.
+    color: '#2b8a7a'
+    darkColor: '#72cdbb'
+  - key: siege
+    range: [34, 45]
+    name: The Fall of Jerusalem
+    blurb: The story of the last years. A king burns the scroll, Jeremiah is put in the dungeon, the city falls, and the survivors carry him to Egypt.
+    color: '#5c6b7a'
+    darkColor: '#a9b8c8'
+  - key: oracles
+    range: [46, 52]
+    name: The Nations and the End
+    blurb: Prophecies against Egypt, Philistia, Moab, Ammon, Edom, and others, ending with Babylon itself. Chapter 52 closes the book with the history of Jerusalem’s fall.
+    color: '#8a7a2a'
+    darkColor: '#d3c36e'
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [1, 19], sources: [ot-manual-23] }
+  - { range: [20, 22], sources: [ot-manual-24] }
+  - { range: [23, 23], sources: [ot-manual-25] }
+  - { range: [24, 29], sources: [ot-manual-24] }
+  - { range: [30, 31], sources: [ot-manual-25] }
+  - { range: [32, 32], sources: [ot-manual-24] }
+  - { range: [33, 33], sources: [ot-manual-25] }
+  - { range: [34, 45], sources: [ot-manual-24] }
+  - { range: [46, 51], sources: [ot-manual-25] }
+  - { range: [52, 52], sources: [ot-manual-24] }
+
+beloved:
+  - { chapter: 1, verse: 5, text: 'Before I formed thee in the belly I knew thee' }
+  - { chapter: 8, verse: 22, text: 'Is there no balm in Gilead' }
+  - { chapter: 16, verse: 16, text: 'I will send for many fishers' }
+  - { chapter: 17, verse: 7, text: 'Blessed is the man that trusteth in the LORD' }
+  - { chapter: 18, verse: 6, text: 'as the clay is in the potter’s hand, so are ye in mine hand' }
+  - { chapter: 20, verse: 9, text: 'his word was in mine heart as a burning fire shut up in my bones' }
+  - { chapter: 23, verse: 5, text: 'I will raise unto David a righteous Branch' }
+  - { chapter: 29, verse: 13, text: 'ye shall seek me, and find me, when ye shall search for me with all your heart' }
+  - { chapter: 31, verse: 3, text: 'I have loved thee with an everlasting love' }
+  - { chapter: 31, verse: 33, text: 'I will put my law in their inward parts, and write it in their hearts' }
+
+coreSources:
+  - bd-jeremiah
+  - gs-jeremiah
+  - ot-manual-23
+  - ot-manual-24
+  - ot-manual-25
+  - ot-manual-kings-g

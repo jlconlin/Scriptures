@@ -13,7 +13,9 @@ import { LIBRARY } from '../src/site.mjs';
 import { renderHome, renderVolume, renderBookIndex, renderGuidesIndex, renderGuide, renderPage, renderSearch, render404, chapterGuide, COLLECTIONS } from '../src/templates/pages.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
-const OUT = path.join(ROOT, 'dist');
+// BUILD_OUT=<dir> writes the site somewhere other than dist/, so several agents can each run the
+// build as a check without overwriting one another's output.
+const OUT = process.env.BUILD_OUT ? path.resolve(process.env.BUILD_OUT) : path.join(ROOT, 'dist');
 const r = (...p) => path.join(ROOT, ...p);
 
 // PREVIEW=1 (set by npm run dev, and for the claude.ai preview) also builds books whose
