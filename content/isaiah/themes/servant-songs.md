@@ -2,7 +2,7 @@
 title: The Servant Songs
 blurb: Four poems about the Lord’s servant, how each builds on the last, and who the servant is.
 icon: christ
-sources: [duhm, westermann, childs, oswalt, blenkinsopp, paul-40-66, isaiah-in-bom, sc-knowhy-648, sc-knowhy-215, holland-cnc, origen-celsum, chilton-targum]
+sources: [oshb-wlc, delitzsch, duhm, westermann, childs, oswalt, blenkinsopp, paul-40-66, isaiah-in-bom, sc-knowhy-648, sc-knowhy-215, holland-cnc, origen-celsum, chilton-targum]
 ---
 
 Chapters 40–55 of Isaiah speak often of the Lord’s **servant** (*ʿebed*). Usually the servant is plainly the nation of Israel: “thou, Israel, art my servant, Jacob whom I have chosen” ([[Isa. 41:8]]). But four passages describe a servant who seems to be an individual, with a mission *to* Israel as well as to the nations, and who suffers for others. Since the end of the nineteenth century these passages have been called the **Servant Songs**.[@duhm] The name is modern; nothing in the text marks them off. But the songs do form a sequence, and reading them together shows something that reading them one at a time can hide.
@@ -57,6 +57,12 @@ When the Ethiopian official read the fourth song, he asked Philip, “of whom sp
 Each reading explains some features of the songs and struggles with others. The collective reading fits verse 3 of the second song (“Thou art my servant, O Israel”) but not verse 5, where the servant is sent to Israel, or the fourth song, where he is stricken “for the transgression of my people” ([[Isa. 53:8]]), is innocent, and dies and yet lives on.
 
 Latter-day Saints read the songs first of all as prophecies of Jesus Christ, as the Book of Mormon does. But the Restoration is also comfortable with prophecy that is fulfilled more than once, and Nephi taught his people to “liken all scriptures unto us” ([[1 Ne. 19:23]]). Read that way, the servant is a pattern. Israel was called to be God’s servant and a light to the nations. Jesus Christ fulfilled that calling perfectly, as the one faithful Israelite who bore the sins of others. And those who follow Him share in the calling, as Paul and Barnabas did when they applied the second song to themselves. The Savior Himself applied the language of the fourth song to a latter-day servant who would be “marred” and healed ([[3 Ne. 21:10]]). Latter-day Saints have usually taken that servant to be Joseph Smith; others have read it as Christ, or as the Book of Mormon itself.[@sc-knowhy-215] The text does not settle which.
+
+<h2 id="servants">From servant to servants</h2>
+
+After the fourth song the word changes. In chapters 41–53 “servant” (*ʿebed*) appears twenty times, always singular, the last being “my righteous servant” ([[Isa. 53:11]]). From there to the end of the book it appears eleven times, always plural, beginning with “This is the heritage of the servants of the LORD” ([[Isa. 54:17]]).[@oshb-wlc]
+
+Isaiah does not say how the two are related. The fourth song promises that the servant “shall see his seed” ([[Isa. 53:10]]), and Abinadi says who they are: all who have believed the prophets, “these are his seed, or they are the heirs of the kingdom of God” ([[Mosiah 15:11]]). One reading joins the seed and the servants: the righteousness of the servants “is the fruit of the sufferings of this one ‘Servant of Jehovah.’”[@delitzsch] Near the end of the book the two words stand in one verse: “I will bring forth a seed out of Jacob… and my servants shall dwell there” ([[Isa. 65:9]]). The note on Isaiah 54:17 on the [chapter page](/isaiah/54/) says more.
 
 <h2 id="fifth-song">A fifth song?</h2>
 
