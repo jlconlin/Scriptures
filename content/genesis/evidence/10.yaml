@@ -1,0 +1,555 @@
+chapter: 10
+claims:
+  # ---------- when ----------
+  - where: 'when'
+    claim: 'The Church’s Bible chronology lists the Flood and the tower of Babel among the early patriarchs without dates'
+    key: bd-chronology
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-chron/old-testament?lang=eng'
+    quote: 'Ministry of Noah; the Flood. Tower of Babel.'
+  - where: 'when'
+    claim: 'The chronology gives no dates for these events'
+    key: bd-chronology
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-chron/old-testament?lang=eng'
+    quote: '(Those desiring calculated dates on these events may wish to consult published chronologies.)'
+
+  # ---------- setting ----------
+  - where: 'setting'
+    claim: 'Each new section of Genesis begins “These are the generations”'
+    key: bd-genesis
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/genesis?lang=eng'
+    quote: 'The structure of the book of Genesis rests on several genealogies. Each new section begins “These are the generations,”'
+  - where: 'setting'
+    claim: 'The Bible Dictionary’s outline takes chapters 10–11 as the peopling of the earth and the diffusion of tongues, after which the line of Shem only is followed to Terah and Abram'
+    key: bd-genesis
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/genesis?lang=eng'
+    quote: 'The peopling of the whole earth by the descendants of Noah’s sons and the diffusion of tongues at the tower of Babel (11:1–9). The history of two of these is then dropped and (b) the line of Shem only pursued (11:10–32) as far as Terah and Abram'
+  - where: 'setting'
+    claim: 'The chapter is a table of the peoples Israel knew, set out as a family'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: 'they represent not a formal genealogy, but a table of the principal races and peoples known to the Israelites. They are arranged, as if they were members of families intimately related to one another.'
+  - where: 'setting'
+    claim: 'Chapter 10 gives the result; the tower of Babel in chapter 11 gives the cause of the division into peoples with their own languages'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/10.htm'
+    quote: 'The genealogy traces the origin of the tribes which were scattered over the earth; the confusion of tongues shows the cause of the division of the one human race into many different tribes with peculiar languages.'
+  - where: 'setting'
+    claim: 'Chronicles repeats the table in shortened form at the head of its genealogies'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/1?lang=eng'
+    quote: 'The sons of Japheth; Gomer, and Magog, and Madai, and Javan, and Tubal, and Meshech, and Tiras.'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'The family of Shem is listed last because the narrative of the patriarchs follows from it'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: 'Observe that the order of the sons of Noah is here reversed. Thus the family of Shem is the last to be enumerated, leading up to the Narratives of the Patriarchs (chaps. 12–50).'
+  - where: 'thread'
+    claim: 'Japheth first and Shem last follows the plan of the book of Genesis'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/10.htm'
+    quote: 'in the genealogy itself Japhet is mentioned first and Shem last, according to the plan of the book of Genesis'
+  - where: 'thread'
+    claim: 'The verb “divided” in verses 5 and 32 is the same Hebrew verb (parad); verse 25 uses palag'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וּ/מֵ/אֵ֜לֶּה נִפְרְד֧וּ[6504] הַ/גּוֹיִ֛ם'
+  - where: 'thread'
+    claim: 'Nimrod’s is the first kingdom in Genesis'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/10?lang=eng'
+    quote: 'And the beginning of his kingdom was Babel, and Erech, and Accad, and Calneh, in the land of Shinar.'
+  - where: 'thread'
+    claim: 'Nimrod was the first great monarch'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: '“He was the first great monarch.”'
+  - where: 'thread'
+    claim: 'Canaan’s border is drawn with reference to the land later promised to Abraham'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/10.htm'
+    quote: 'with evident reference to the fact that it was afterwards promised to the seed of Abraham for its inheritance'
+  - where: 'thread'
+    claim: 'Peleg’s line is taken up in chapter 11 (Shem’s line pursued to Terah and Abram)'
+    key: bd-genesis
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/genesis?lang=eng'
+    quote: 'the line of Shem only pursued (11:10–32) as far as Terah and Abram'
+  - where: 'thread'
+    claim: 'Peleg’s genealogy is left out here because it is given in chapter 11'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: 'The genealogy of Eber’s elder son, Peleg, is here omitted, evidently because the compiler is giving the descendants of Peleg in Genesis 11:18'
+  - where: 'setting'
+    claim: 'The two chapters belong together: the list traces the scattered tribes; Babel shows the cause (setting wording “it comes before the tower in the book, but the two belong together”)'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/10.htm'
+    quote: 'two events that were closely related to one another'
+
+  # ---------- note 10:1 ----------
+  - where: 'note 10:1 “Peoples drawn as a family”'
+    claim: 'Mizraim is the regular Hebrew name for Egypt'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: 'The regular Hebrew name for Egypt.'
+  - where: 'note 10:1 “Peoples drawn as a family”'
+    claim: 'The names in 10:13–14 are tribal names with the plural ending -im'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: 'The names of tribes (the plural termination -im ) in Genesis 10:13-14'
+  - where: 'note 10:1 “Peoples drawn as a family”'
+    claim: 'Javan’s sons are geographical: Greek colonies and settlements'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: 'The names here mentioned are evidently geographical. Javan’s sons are well-known Greek colonies and settlements or communities.'
+  - where: 'note 10:1 “Peoples drawn as a family”'
+    claim: 'The list is not a formal genealogy but a table of peoples known to Israel arranged as a family'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: 'they represent not a formal genealogy, but a table of the principal races and peoples known to the Israelites'
+  - where: 'note 10:1 “Peoples drawn as a family”'
+    claim: 'Some names are founders, some tribes, and sometimes it cannot be determined which'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/10.htm'
+    quote: 'whilst in several instances the founder of a tribe is named, in others we have only the tribes themselves; and in some cases we are unable to determine whether the names given denote the founder or the tribe'
+
+  # ---------- note 10:2 ----------
+  - where: 'note 10:2 “Japheth’s peoples, and Gog of Magog”'
+    claim: 'Japheth’s sons are peoples of the remote north and west'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: 'These are names of peoples who for the most part seem to have dwelt in remote northern and western regions in Asia Minor.'
+  - where: 'note 10:2 “Japheth’s peoples, and Gog of Magog”'
+    claim: 'Madai is the land of the Medes'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: 'Almost certainly “the land of the Medes.”'
+  - where: 'note 10:2 “Japheth’s peoples, and Gog of Magog”'
+    claim: 'Javan is the Hebrew name for the Greeks'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: 'This is the Hebrew name for “the Greeks.”'
+  - where: 'note 10:2 “Japheth’s peoples, and Gog of Magog”'
+    claim: 'Daniel’s “king of Grecia” is in Hebrew “king of Javan,” the same name as Gen. 10:2'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'מֶ֣לֶךְ יָוָ֑ן[3120]'
+  - where: 'note 10:2 “Japheth’s peoples, and Gog of Magog”'
+    claim: 'Javan in Gen. 10:2 is the same Hebrew name'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וְ/יָוָ֣ן[3120]'
+  - where: 'note 10:2 “Japheth’s peoples, and Gog of Magog”'
+    claim: 'Revelation’s Gog and Magog draw on Ezekiel 38–39'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: 'The allusions to Gog and Magog in Revelation 20:8 are based upon the prophetic passages in Ezekiel 38, 39.'
+
+  # ---------- note 10:5 isles ----------
+  - where: 'note 10:5 “Isles and Gentiles”'
+    claim: '’iyyim means coast, border, region'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/339.htm'
+    quote: 'coast, border, region'
+  - where: 'note 10:5 “Isles and Gentiles”'
+    claim: 'From Javan’s sons the Greek settlements spread among the islands and coastlands'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: 'From them the Greek settlements branched off in all directions among the islands and the coastlands, i.e. “the isles of the nations.”'
+  - where: 'note 10:5 “Isles and Gentiles”'
+    claim: 'goy means nation, people; the plural is used in Gen. 10:5, 20, 31, 32'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1471.htm'
+    quote: 'nation, people'
+  - where: 'note 10:5 “Isles and Gentiles”'
+    claim: 'The word rendered “Gentiles” and “nations” in verse 5 is the same Hebrew word, goyim'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'מֵ֠/אֵלֶּה נִפְרְד֞וּ[6504] אִיֵּ֤י[339] הַ/גּוֹיִם֙[1471]'
+  - where: 'note 10:5 “Isles and Gentiles”'
+    claim: 'The same word ends verse 5 and recurs in verses 20, 31, 32'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'בְּ/גוֹיֵ/הֶֽם'
+  - where: 'note 10:5 “Isles and Gentiles”'
+    claim: 'Isaiah uses ’iyyim (isles) including their inhabitants, as in Isa. 49:1'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/339.htm'
+    quote: 'so often Isa 2 including inhabitants'
+  - where: 'note 10:5 “Isles and Gentiles”'
+    claim: 'Isa. 49:1 is among the passages listed for this use'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/339.htm'
+    quote: 'Isaiah 42:12 ; Isaiah 49:1 ; Isaiah 51:5'
+  - where: 'note 10:5 “Isles and Gentiles”'
+    claim: 'Jacob read Isaiah to the Nephites before his words about the isles of the sea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/6?lang=eng'
+    quote: 'wherefore, I will read you the words of Isaiah'
+  - where: 'note 10:5 “Isles and Gentiles”'
+    claim: 'The footnote to “isles of the sea” in 2 Ne. 10:21 points to Isa. 49:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/10?lang=eng'
+    quote: 'Isa. 49:1; 1 Ne. 19:16; 21:1; 22:4.'
+
+  # ---------- note 10:5 tongues ----------
+  - where: 'note 10:5 “Languages before Babel?”'
+    claim: 'The confusion of tongues in chapter 11 shows the cause of the division described in chapter 10'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/10.htm'
+    quote: 'the confusion of tongues shows the cause of the division of the one human race into many different tribes with peculiar languages'
+  - where: 'note 10:5 “Languages before Babel?”'
+    claim: 'The Bible Dictionary takes the peopling of the earth and the diffusion of tongues together'
+    key: bd-genesis
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/genesis?lang=eng'
+    quote: 'The peopling of the whole earth by the descendants of Noah’s sons and the diffusion of tongues at the tower of Babel'
+  - where: 'note 10:5 “Languages before Babel?”'
+    claim: 'Joseph Smith’s revised manuscript of verse 5 reads “every one after the same tongues”'
+    key: jsp-ot2
+    url: 'https://www.josephsmithpapers.org/paper-summary/old-testament-revision-2/39'
+    quote: 'By these were the Isles of the Gentiles divided in their lands; every one after the same tongues, after their families in their Nations.'
+  - where: 'note 10:5 “Languages before Babel?”'
+    claim: 'Verse 20 in the manuscript reads “after the same tongue”'
+    key: jsp-ot2
+    url: 'https://www.josephsmithpapers.org/paper-summary/old-testament-revision-2/40'
+    quote: 'These were the sons of Ham, after their families, after the same tongue, in their Countries'
+  - where: 'note 10:5 “Languages before Babel?”'
+    claim: 'Verse 31 in the manuscript keeps “after their tongues”'
+    key: jsp-ot2
+    url: 'https://www.josephsmithpapers.org/paper-summary/old-testament-revision-2/40'
+    quote: 'These were the Sons of Shem, after their families, after their tongues, in their lands'
+
+  # ---------- note 10:9 Nimrod ----------
+  - where: 'note 10:9 “Nimrod, the mighty hunter”'
+    claim: 'Gen. 10:10 is the first mention of a kingdom in Genesis'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/10?lang=eng'
+    quote: 'And the beginning of his kingdom was Babel, and Erech, and Accad, and Calneh, in the land of Shinar.'
+  - where: 'note 10:9 “Nimrod, the mighty hunter”'
+    claim: '“Began to be a mighty one” may mean he was the first great monarch'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: 'The word “began” should be connected with “the beginning of his kingdom” in Genesis 10:10 . “He was the first great monarch.”'
+  - where: 'note 10:9 “Nimrod, the mighty hunter”'
+    claim: 'The name Nimrod’s etymology is unknown; Hebrews may have connected it with marad, rebel'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5248.htm'
+    quote: 'etymology and meaning wholly unknown; Thes (dubious) below מָרַד rebel (of which Hebr. may have thought'
+  - where: 'note 10:9 “Nimrod, the mighty hunter”'
+    claim: '“Before the Lord” can be an idiom of magnitude, as in Jonah 3:3'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: 'The phrase “before the Lord” is merely descriptive of magnitude'
+  - where: 'note 10:9 “Nimrod, the mighty hunter”'
+    claim: 'Jonah 3:3 “exceeding great city” is literally “a city great unto God”'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: 'Nineveh was an exceeding great city” (Heb. a city great unto God'
+  - where: 'note 10:9 “Nimrod, the mighty hunter”'
+    claim: 'Definition of a Targum'
+    key: ot-manual-gen-4-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-4-11-the-patriarchs?lang=eng'
+    quote: 'the Targum [ancient Jewish translations or paraphrases of the scriptures]'
+  - where: 'note 10:9 “Nimrod, the mighty hunter”'
+    claim: 'The Targum known as Jonathan ben Uzziel calls Nimrod a mighty rebel before the Lord'
+    key: etheridge-targums
+    url: 'https://archive.org/download/targumsonkelosa00ethegoog/targumsonkelosa00ethegoog_djvu.txt'
+    quote: 'Nimrod: he began to be mighty in sin, and to rebel before the Lord in the earth. He was a mighty rebel before the Lord'
+  - where: 'note 10:9 “Nimrod, the mighty hunter”'
+    claim: 'This Targum is the one commonly entitled the Targum of Jonathan ben Uzziel'
+    key: etheridge-targums
+    url: 'https://archive.org/download/targumsonkelosa00ethegoog/targumsonkelosa00ethegoog_djvu.txt'
+    quote: 'THE TARGUM OF PALESTINE, COMMONLY ENTITLED THE TARGUM OF JONATHAN BEN UZZIEL'
+  - where: 'note 10:9 “Nimrod, the mighty hunter”'
+    claim: 'Josephus says Nimrod incited contempt of God'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-1.html'
+    quote: 'Now it was Nimrod who excited them to such an affront and contempt of God.'
+  - where: 'note 10:9 “Nimrod, the mighty hunter”'
+    claim: 'Josephus says Nimrod turned the government into tyranny'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-1.html'
+    quote: 'He also gradually changed the government into tyranny'
+  - where: 'note 10:9 “Nimrod, the mighty hunter”'
+    claim: 'Joseph Smith’s revision reads “a mighty hunter in the land”'
+    key: jsp-ot2
+    url: 'https://www.josephsmithpapers.org/paper-summary/old-testament-revision-2/40'
+    quote: 'Mighty one in the Earth he was a mighty hunter in the land.'
+  - where: 'note 10:9 “Nimrod, the mighty hunter”'
+    claim: 'The JST clarifies “in the land” rather than “before the Lord”'
+    key: scripture-helps-gen-6-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/06-moses-6-11-moses-8?lang=eng'
+    quote: 'clarifies that Nimrod was a mighty hunter “in the land” rather than “before the Lord.”'
+  - where: 'note 10:9 “Nimrod, the mighty hunter”'
+    claim: 'Scripture Helps’ statement rests on Old Testament Revision 2, page 33 (its endnote)'
+    key: scripture-helps-gen-6-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/06-moses-6-11-moses-8?lang=eng'
+    quote: 'Old Testament Revision 2, 33'
+
+  # ---------- note 10:11 ----------
+  - where: 'note 10:11 “Babylon and Nineveh”'
+    claim: 'Babel is Babylon; Nimrod founded a great kingdom including it'
+    key: scripture-helps-gen-6-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/06-moses-6-11-moses-8?lang=eng'
+    quote: 'He was the founder of a great kingdom that included Babel (later called Babylon).'
+  - where: 'note 10:11 “Babylon and Nineveh”'
+    claim: 'A modern translation reads that he (Nimrod) went into Assyria'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%2010%3A11%3B%20Genesis%2010%3A21&version=ESV'
+    quote: 'From that land he went into Assyria and built Nineveh'
+  - where: 'note 10:11 “Babylon and Nineveh”'
+    claim: 'Another modern translation reads the same'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%2010%3A11%3B%20Genesis%2010%3A21&version=NRSVUE'
+    quote: 'From that land he went into Assyria and built Nineveh'
+  - where: 'note 10:11 “Babylon and Nineveh”'
+    claim: 'The Targum attributed to Jonathan reads verse 11 of Nimrod going forth and reigning in Athur'
+    key: etheridge-targums
+    url: 'https://archive.org/download/targumsonkelosa00ethegoog/targumsonkelosa00ethegoog_djvu.txt'
+    quote: 'From that land went forth Nimrod, and reigned in Athur, because he would not be in the counsel of a divided generation.'
+  - where: 'note 10:11 “Babylon and Nineveh”'
+    claim: 'The Bible Dictionary calls Nimrod the traditional builder of Nineveh and notes Micah 5:6'
+    key: bd-nimrod
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/nimrod?lang=eng'
+    quote: 'Son of Cush, grandson of Ham; the Babylonian hunter and traditional builder of Nineveh'
+  - where: 'note 10:11 “Babylon and Nineveh”'
+    claim: 'Nimrod is described as king of Babylonia and founder of the chief cities of Assyria'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: '(2) as king of Babylonia, and founder of the chief cities in Assyria.'
+  - where: 'note 10:11 “Babylon and Nineveh”'
+    claim: 'Nineveh was the capital of Assyria'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: 'Nineveh was the capital of Assyria in its most famous period'
+
+  # ---------- note 10:15 ----------
+  - where: 'note 10:15 “Canaan’s sons, the peoples of the promised land”'
+    claim: 'Sidon is the ancestor of the Phoenician city of that name; the list shows a patchwork of peoples and places'
+    key: pierce-ancestors
+    url: 'https://rsc.byu.edu/creation-sinai/ancestors-israel-environment-canaan-early-second-millennium-bc'
+    quote: 'The biblical table of nations in Genesis 10:15–18 NRSV suggests that a patchwork of peoples and places comprised the Canaanites, including Sidon (presumably the eponymous ancestor of the Phoenician city bearing that name)'
+  - where: 'note 10:15 “Canaan’s sons, the peoples of the promised land”'
+    claim: 'The Canaanites were not a single group'
+    key: pierce-ancestors
+    url: 'https://rsc.byu.edu/creation-sinai/ancestors-israel-environment-canaan-early-second-millennium-bc'
+    quote: 'To assume that the Canaanites were a single group of people would be incorrect'
+  - where: 'note 10:15 “Canaan’s sons, the peoples of the promised land”'
+    claim: 'Genesis 15:19–21 lists these peoples as inhabitants of the land promised to Abraham'
+    key: pierce-ancestors
+    url: 'https://rsc.byu.edu/creation-sinai/ancestors-israel-environment-canaan-early-second-millennium-bc'
+    quote: 'as the inhabitants of the land promised to the would-be patriarch Abraham'
+  - where: 'note 10:15 “Canaan’s sons, the peoples of the promised land”'
+    claim: 'The border in verse 19 is drawn with reference to the land later promised to Abraham’s seed'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/10.htm'
+    quote: 'the limits of which are given in two directions, with evident reference to the fact that it was afterwards promised to the seed of Abraham for its inheritance'
+
+  # ---------- note 10:21 Eber ----------
+  - where: 'note 10:21 “Eber and the Hebrews”'
+    claim: 'Eber is perhaps the eponym of the Hebrews; the form inferred from ‘ivri'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5677.htm'
+    quote: 'perhaps eponym of Hebrews , form inferred from עִבְרִי'
+  - where: 'note 10:21 “Eber and the Hebrews”'
+    claim: 'Josephus: the Jews were called Hebrews from Heber'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-1.html'
+    quote: 'Sala was the son of Arphaxad: and his son was Heber; from whom they originally called the Jews Hebrews.'
+  - where: 'note 10:21 “Eber and the Hebrews”'
+    claim: 'Shem is described as father of the children of Eber because that would be most honourable to Israelite readers'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: 'the father of all the children of Eber ] This is the point in the description of Shem which would seem most honourable to Israelite readers.'
+  - where: 'note 10:21 “Eber and the Hebrews”'
+    claim: 'Joktan’s sons probably represent Arabian tribes'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: 'The thirteen sons of Joktan probably represent tribes in Arabia.'
+
+  # ---------- note 10:21 elder ----------
+  - where: 'note 10:21 “Which brother was the elder?”'
+    claim: 'The Hebrew ends with haggadol after “brother of Japheth”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אֲחִ֖י יֶ֥פֶת הַ/גָּדֽוֹל'
+  - where: 'note 10:21 “Which brother was the elder?”'
+    claim: 'gadol means great, and of age, elder; BDB cites this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1419.htm'
+    quote: 'in age , elder, eldest, son Genesis 27:1 , daughter Genesis 29:16 , brother Genesis 10:21'
+  - where: 'note 10:21 “Which brother was the elder?”'
+    claim: 'ESV reads Shem as the elder brother, with the KJV reading as an alternative'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%2010%3A11%3B%20Genesis%2010%3A21&version=ESV'
+    quote: 'the elder brother of Japheth, children were born. Read full chapter Footnotes Genesis 10:21 Or the brother of Japheth the elder'
+  - where: 'note 10:21 “Which brother was the elder?”'
+    claim: 'NRSVue reads Shem as the elder brother'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%2010%3A11%3B%20Genesis%2010%3A21&version=NRSVUE'
+    quote: 'the elder brother of Japheth, children were born'
+  - where: 'note 10:21 “Which brother was the elder?”'
+    claim: 'NIV reads Japheth as the older brother'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%2010%3A11%3B%20Genesis%2010%3A21&version=NIV'
+    quote: 'Sons were also born to Shem, whose older brother was Japheth'
+  - where: 'note 10:21 “Which brother was the elder?”'
+    claim: 'Joseph Smith’s manuscript reads Shem “which was the Elder”'
+    key: jsp-ot2
+    url: 'https://www.josephsmithpapers.org/paper-summary/old-testament-revision-2/40'
+    quote: 'Unto Shem also, which was the Elder Children were born'
+  - where: 'note 10:21 “Which brother was the elder?”'
+    claim: 'Genesis always names the three sons as Shem, Ham, and Japheth (5:32; 6:10; 7:13; 9:18; 10:1)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/6?lang=eng'
+    quote: 'And Noah begat three sons, Shem, Ham, and Japheth.'
+
+  # ---------- note 10:25 Peleg ----------
+  - where: 'note 10:25 “In Peleg’s days the earth was divided”'
+    claim: 'Peleg signifies division'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-1.html'
+    quote: 'for Phaleg among the Hebrews signifies division'
+  - where: 'note 10:25 “In Peleg’s days the earth was divided”'
+    claim: 'The verb palag means split, divide; Niphal in Gen. 10:25'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6385.htm'
+    quote: 'verb split, divide'
+  - where: 'note 10:25 “In Peleg’s days the earth was divided”'
+    claim: 'The verb in Gen. 10:25 is palag'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'כִּ֤י בְ/יָמָי/ו֙ נִפְלְגָ֣ה[6385] הָ/אָ֔רֶץ'
+  - where: 'note 10:25 “In Peleg’s days the earth was divided”'
+    claim: '“The earth” may mean its inhabitants, as in Gen. 11:1; the division then is the dispersion at Babel'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: 'The reference is generally assumed to be to the division, or dispersion, of the peoples at the tower of Babel, the words being an anticipation of the story in'
+  - where: 'note 10:25 “In Peleg’s days the earth was divided”'
+    claim: '“The earth” means the inhabitants of the earth, as in Gen. 11:1'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: '“The earth” will then mean “the inhabitants of the earth,” as in Genesis 11:1'
+  - where: 'note 10:25 “In Peleg’s days the earth was divided”'
+    claim: 'Josephus: Peleg was born at the dispersion of the nations'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-1.html'
+    quote: 'He was called Phaleg because he was born at the dispersion of the nations to their several countries'
+  - where: 'note 10:25 “In Peleg’s days the earth was divided”'
+    claim: 'The Church’s Topical Guide (“Earth, Dividing of,” footnote 25b) sets Gen. 10:25 beside D&C 133:24'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/tg/earth-dividing-of?lang=eng'
+    quote: 'earth shall be like as it was … before it was divided'
+  - where: 'note 10:25 “In Peleg’s days the earth was divided”'
+    claim: 'President Joseph Fielding Smith read the verse as a breaking apart of the continents'
+    key: ot-manual-gen-4-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-4-11-the-patriarchs?lang=eng'
+    quote: 'The dividing of the earth was not an act of division by the inhabitants of the earth by tribes and peoples, but a breaking asunder of the continents'
+  - where: 'note 10:25 “In Peleg’s days the earth was divided”'
+    claim: 'The quotation is from Joseph Fielding Smith, Answers to Gospel Questions'
+    key: ot-manual-gen-4-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-4-11-the-patriarchs?lang=eng'
+    quote: '(Smith, Answers to Gospel Questions, 5:73–74.)'
+  - where: 'note 10:25 “In Peleg’s days the earth was divided”'
+    claim: 'Joseph Smith’s revision adds that Peleg was a mighty man'
+    key: jsp-ot2
+    url: 'https://www.josephsmithpapers.org/paper-summary/old-testament-revision-2/40'
+    quote: 'And Peleg was a mighty man, for in his days was the Earth divided.'
+
+  # ---------- note 10:32 ----------
+  - where: 'note 10:32 “God divides the nations”'
+    claim: 'The verb in Gen. 10:32 is parad (nifredu)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וּ/מֵ/אֵ֜לֶּה נִפְרְד֧וּ[6504] הַ/גּוֹיִ֛ם'
+  - where: 'note 10:32 “God divides the nations”'
+    claim: 'parad means divide, separate; Niphal in Gen. 10:5, 32; Hiphil in Deut. 32:8'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6504.htm'
+    quote: 'Niph`al Perfect 3plural נִפְרְדוּ Genesis 10:5 ,32'
+  - where: 'note 10:32 “God divides the nations”'
+    claim: 'BDB lists Deut. 32:8 under the same verb, divide, separate'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6504.htm'
+    quote: 'Infinitive construct suffix בְּהַפְרִידוֺ Deuteronomy 32:8'
+  - where: 'note 10:32 “God divides the nations”'
+    claim: '“Separated” in Deut. 32:8 is parad'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'בְּ/הַפְרִיד֖/וֹ[6504] בְּנֵ֣י אָדָ֑ם'
+  - where: 'note 10:32 “God divides the nations”'
+    claim: 'Read with Deut. 32:8, the nations formed from Noah’s sons and their lands are traced to God'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/32.htm'
+    quote: 'the nations were divided, i.e., separate nations were formed from the families of the sons of Noah (Genesis 10:32)'
+  - where: 'note 10:32 “God divides the nations”'
+    claim: 'The possession of the lands was traced to God'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/32.htm'
+    quote: 'the possession of the lands by the nations so formed was to be traced to God, - was the work of divine providence and government'
+  - where: 'note 10:32 “God divides the nations”'
+    claim: 'The Topical Guide “Nations” (footnotes 32a, 32c) lists Deut. 32:8 and Acts 17:26 together'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/tg/nations?lang=eng'
+    quote: 'Acts 17:26'
+
+  # ---------- section plain ----------
+  - where: 'section 1 plain'
+    claim: '“Isles” rendered “coastlands”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/339.htm'
+    quote: 'coast, border, region'
+  - where: 'section 2 plain'
+    claim: 'Mizraim is Egypt'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: 'The regular Hebrew name for Egypt.'
+  - where: 'section 2 plain'
+    claim: 'Nimrod was the first great ruler'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/10.htm'
+    quote: '“He was the first great monarch.”'
+  - where: 'section 2 plain'
+    claim: 'Verse 11 can be read as Nimrod going into Assyria'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%2010%3A11%3B%20Genesis%2010%3A21&version=ESV'
+    quote: 'From that land he went into Assyria and built Nineveh'
+  - where: 'section 4 plain'
+    claim: 'Peleg means “division”'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-1.html'
+    quote: 'for Phaleg among the Hebrews signifies division'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: '“Families” in Gen. 12:3 is the same Hebrew word as in Gen. 10:32'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'כֹּ֖ל מִשְׁפְּחֹ֥ת[4940] הָ/אֲדָמָֽה'
+  - where: 'christ'
+    claim: '“Families” in Gen. 10:32'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אֵ֣לֶּה מִשְׁפְּחֹ֧ת[4940] בְּנֵי נֹ֛חַ'
+  - where: 'christ'
+    claim: 'The genealogies prepare for the promise of blessing to all the families of the earth'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/10.htm'
+    quote: 'In this respect the genealogies prepare the way for the promise of the blessing, which was one day to spread from the chosen family to all the families of the earth'
+  - where: 'christ'
+    claim: 'Luke traces Jesus’ line back through Arphaxad to Sem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/3?lang=eng'
+    quote: 'Which was the son of Cainan, which was the son of Arphaxad, which was the son of Sem'
+
+  # ---------- explore / parallels ----------
+  - where: 'explore'
+    claim: '1 Chronicles 1 carries the line from Shem to Abraham'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/1?lang=eng'
+    quote: 'Abram; the same is Abraham.'
+  - where: 'parallels'
+    claim: '1 Chr. 1:5–23 repeats the table of nations'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/1?lang=eng'
+    quote: 'And Ophir, and Havilah, and Jobab. All these were the sons of Joktan.'
