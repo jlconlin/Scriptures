@@ -1,0 +1,886 @@
+chapter: 12
+claims:
+  # ---------- when ----------
+  - where: 'when'
+    claim: 'Abram was seventy-five when he left Haran'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/12?lang=eng'
+    quote: 'Abram was seventy and five years old when he departed out of Haran.'
+  - where: 'when'
+    claim: 'The Book of Abraham gives sixty-two'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'I, Abraham, was sixty and two years old when I departed out of Haran.'
+  - where: 'when'
+    claim: 'Abraham’s life is usually dated between about 2100 and 1750 B.C.'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'Abraham’s life is usually dated to either the Middle Bronze Age I (MB I; approximately 2100–2000 BC) or the Middle Bronze Age II (MB II; approximately 2000–1750 BC)'
+  - where: 'when'
+    claim: 'A Latter-day Saint reading of the Book of Abraham places Abraham 1 in the 1800s B.C.'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'This gives a maximal time of the Egyptian Middle Kingdom empire from about 1871 to 1788 BC.'
+  - where: 'when'
+    claim: 'A Latter-day Saint reading of the Book of Abraham places Abraham 1 in the 1800s B.C.'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'Abraham chapter 1 will have had to have taken place at this time'
+
+  # ---------- setting ----------
+  - where: 'setting'
+    claim: 'From chapter 12 to 25:18 Abraham is the chief figure, after Babel and the line of Shem'
+    key: bd-genesis
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/genesis?lang=eng'
+    quote: 'the line of Shem only pursued ( 11:10–32 ) as far as Terah and Abram, where the genealogical table breaks off; (c) Abraham is now the chief figure ( 12:1–25:18 ).'
+  - where: 'setting'
+    claim: 'Terah brought the family from Ur to Haran'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11?lang=eng'
+    quote: 'they went forth with them from Ur of the Chaldees, to go into the land of Canaan; and they came unto Haran, and dwelt there.'
+  - where: 'setting'
+    claim: 'The Book of Abraham tells the story in Abraham’s own voice, including the Lord’s words in Ur and in Haran'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'Now the Lord had said unto me: Abraham, get thee out of thy country, and from thy kindred, and from thy father’s house, unto a land that I will show thee.'
+  - where: 'setting'
+    claim: 'The Book of Abraham tells of his family’s idolatry'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'my father turned again unto his idolatry'
+  - where: 'setting'
+    claim: 'Abraham was delivered from an altar in Ur'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/1?lang=eng'
+    quote: 'And as they lifted up their hands upon me, that they might offer me up and take away my life, behold, I lifted up my voice unto the Lord my God, and the Lord hearkened and heard'
+  - where: 'setting'
+    claim: 'Genesis 12:1–3 promises the covenant; chapter 15 formally initiates it, 17 expands it, 22 confirms it'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'In Genesis 12:1–3, God promises a covenantal relationship with Abraham after he leaves Ur and travels to the land of Canaan. He formally initiates that relationship in Genesis 15'
+  - where: 'setting'
+    claim: 'Genesis 12:1–3 promises the covenant; chapter 15 formally initiates it, 17 expands it, 22 confirms it'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'In Genesis 17, he expands on a second promise provided in Genesis 12, a promise that Abraham’s royal seed would bless all nations of the earth. That promise is formally confirmed in Genesis 22.'
+  - where: 'setting'
+    claim: 'Isaiah, Hebrews and Paul return to the call (Isa. 51:2; Heb. 11:8; Gal. 3:8)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/51?lang=eng'
+    quote: 'Look unto Abraham your father, and unto Sarah that bare you: for I called him alone, and blessed him, and increased him.'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: '“I will shew thee” in verse 1 is the causative (Hiphil) of ra’ah, “see”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-1.htm'
+    quote: 'אַרְאֶֽךָּ׃ I will show you V‑Hifil‑Imperf‑1cs ¦ 2ms'
+  - where: 'thread'
+    claim: 'The Hiphil of ra’ah means to cause one to see, to show'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7200.htm'
+    quote: 'a. cause one to see something, shew'
+  - where: 'thread'
+    claim: '“Appeared” in verse 7 is the Niphal of ra’ah, used twice in the verse of God appearing'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7200.htm'
+    quote: '1 appear , especially a. of ׳ י (God): with אֶל person Genesis 12:7 (twice in verse)'
+  - where: 'thread'
+    claim: '“Appeared” in verse 7 is the Niphal of ra’ah'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-7.htm'
+    quote: 'וַיֵּרָ֤א'
+  - where: 'thread'
+    claim: 'The Egyptians “shall see” Sarai in verse 12 with the same verb'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-12.htm'
+    quote: 'יִרְא֤וּ see V‑Qal‑Imperf‑3mp'
+  - where: 'thread'
+    claim: 'The Egyptians “beheld” Sarai in verse 14 with the same verb'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-14.htm'
+    quote: 'וַיִּרְא֤וּ that saw Conj‑w ¦ V‑Qal‑ConsecImperf‑3mp'
+  - where: 'thread'
+    claim: 'Pharaoh’s princes “saw” her in verse 15 with the same verb'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-15.htm'
+    quote: 'וַיִּרְא֤וּ'
+
+  # ---------- section plain ----------
+  - where: 'section 2 plain'
+    claim: 'The “plain of Moreh” is the oak (or terebinth) of Moreh'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%2012&version=NRSVUE'
+    quote: 'Abram passed through the land to the place at Shechem, to the oak'
+  - where: 'section 2 plain'
+    claim: '“Toward the south” is toward the Negev'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-9.htm'
+    quote: 'הַנֶּֽגְבָּה׃פ toward the Negev'
+  - where: 'section 2 plain'
+    claim: 'The Negeb is the south country, the region south of Judah'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5045.htm'
+    quote: 'south-country , i.e. a. specifically the region south of Judah'
+  - where: 'section 3 plain'
+    claim: 'Verse 19 reads “and I took her to me for a wife”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-19.htm'
+    quote: 'וָאֶקַּ֥ח and I took Conj‑w ¦ V‑Qal‑ConsecImperf‑1cs'
+
+  # ---------- note 12:1 “When did the Lord call Abram?” ----------
+  - where: 'note 12:1 “When did the Lord call Abram?”'
+    claim: 'The Hebrew has the ordinary narrative form wayyomer, “and he said”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-1.htm'
+    quote: 'וַיֹּ֤אמֶר 1 And had said 1 Conj‑w ¦ V‑Qal‑ConsecImperf‑3ms'
+  - where: 'note 12:1 “When did the Lord call Abram?”'
+    claim: 'The KJV’s “had said” was probably adopted because of Stephen’s words in Acts 7:2'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/12.htm'
+    quote: 'Heb., And Jehovah said unto Abram.'
+  - where: 'note 12:1 “When did the Lord call Abram?”'
+    claim: 'The KJV’s “had said” was probably adopted because of Stephen’s words in Acts 7:2'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/12.htm'
+    quote: 'The rendering “had said” was doubtless adopted because of St. Stephen’s words'
+  - where: 'note 12:1 “When did the Lord call Abram?”'
+    claim: 'Stephen puts the call in Mesopotamia before Haran'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/7?lang=eng'
+    quote: 'The God of glory appeared unto our father Abraham, when he was in Mesopotamia, before he dwelt in Charran,'
+  - where: 'note 12:1 “When did the Lord call Abram?”'
+    claim: 'The Book of Abraham sets the words of Genesis 12:1 in Ur'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'Therefore I left the land of Ur, of the Chaldees, to go into the land of Canaan'
+  - where: 'note 12:1 “When did the Lord call Abram?”'
+    claim: 'The idolatrous priests tried to offer Abraham on an altar and the Lord delivered him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/1?lang=eng'
+    quote: 'And as they lifted up their hands upon me, that they might offer me up and take away my life, behold, I lifted up my voice unto the Lord my God'
+  - where: 'note 12:1 “When did the Lord call Abram?”'
+    claim: 'At his deliverance the Lord promised to take him from his father’s house and kinsfolk'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/1?lang=eng'
+    quote: 'and have come down to deliver thee, and to take thee away from thy father’s house, and from all thy kinsfolk, into a strange land which thou knowest not of'
+  - where: 'note 12:1 “When did the Lord call Abram?”'
+    claim: 'In Haran Abraham and Lot prayed, and the Lord appeared and told him to take Lot and leave'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'But I, Abraham, and Lot, my brother’s son, prayed unto the Lord, and the Lord appeared unto me, and said unto me: Arise, and take Lot with thee; for I have purposed to take thee away out of Haran'
+
+  # ---------- note 12:1 “What Abram left behind” ----------
+  - where: 'note 12:1 “What Abram left behind”'
+    claim: 'Abram is to leave not only where he lives but his kindred and his father’s house'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'Jehovah’s command to Abraham is to leave not only where he lives but also his “kindred” and his “father’s house.”'
+  - where: 'note 12:1 “What Abram left behind”'
+    claim: 'The Lord calls Abraham to leave old relationships and build a new covenant relationship'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'The Lord is calling Abraham to leave his old relationships and to build a new covenant relationship with the Lord'
+  - where: 'note 12:1 “What Abram left behind”'
+    claim: 'Hebrews: he went out not knowing where'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
+    quote: 'By faith Abraham, when he was called to go out into a place which he should after receive for an inheritance, obeyed; and he went out, not knowing whither he went.'
+  - where: 'note 12:1 “What Abram left behind”'
+    claim: 'Terah returned to his idolatry in Haran'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'my father turned again unto his idolatry, therefore he continued in Haran.'
+  - where: 'note 12:1 “What Abram left behind”'
+    claim: '“Get thee out” is lekh-lekha, “go, for yourself”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-1.htm'
+    quote: 'לֶךְ־ Go V‑Qal‑Imp‑ms lə·ḵā לְךָ֛ for yourself'
+  - where: 'note 12:1 “What Abram left behind”'
+    claim: 'The same two words come in Genesis 22:2'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/22-2.htm'
+    quote: 'וְלֶךְ־ and go Conj‑w ¦ V‑Qal‑Imp‑ms lə·ḵā, לְךָ֔'
+  - where: 'note 12:1 “What Abram left behind”'
+    claim: 'The first call asked him to leave his father’s house; the call in Genesis 22 asks him to offer his son'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/22.htm'
+    quote: "As he had left his country, kindred, and father's house at the call of God"
+  - where: 'note 12:1 “What Abram left behind”'
+    claim: 'The first call asked him to leave his father’s house; the call in Genesis 22 asks him to offer his son'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/22.htm'
+    quote: 'so was he in his walk with God cheerfully to offer up even his only son'
+
+  # ---------- note 12:2 “A blessing to others” ----------
+  - where: 'note 12:2 “A blessing to others”'
+    claim: 'The Lord promises Abraham blessings and the ability to bless the whole world'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'the Lord promises to Abraham to give him blessings and to give him the ability to bless the whole world'
+  - where: 'note 12:2 “A blessing to others”'
+    claim: 'At its core the covenant is centered on blessing others'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'At its core, the Abrahamic covenant is centered on its ability to bless others'
+  - where: 'note 12:2 “A blessing to others”'
+    claim: '“Make thy name great” contrasts with Babel (Gen. 11:4)'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/12.htm'
+    quote: 'make thy name great ] Contrast Genesis 11:4 .'
+  - where: 'note 12:2 “A blessing to others”'
+    claim: 'The Babel builders said “let us make us a name”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11?lang=eng'
+    quote: 'and let us make us a name, lest we be scattered abroad upon the face of the whole earth.'
+  - where: 'note 12:2 “A blessing to others”'
+    claim: 'The Book of Abraham: a blessing to his seed, who bear the ministry and Priesthood to all nations; those who receive the gospel are counted his seed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'thou shalt be a blessing unto thy seed after thee, that in their hands they shall bear this ministry and Priesthood unto all nations;'
+  - where: 'note 12:2 “A blessing to others”'
+    claim: 'The Book of Abraham: a blessing to his seed, who bear the ministry and Priesthood to all nations; those who receive the gospel are counted his seed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'for as many as receive this Gospel shall be called after thy name, and shall be accounted thy seed'
+  - where: 'note 12:2 “A blessing to others”'
+    claim: 'President Nelson: all who accept the gospel join Abraham’s lineage, by birth or adoption'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'All who accept the gospel become part of the lineage of Abraham.'
+  - where: 'note 12:2 “A blessing to others”'
+    claim: 'President Nelson: all who accept the gospel join Abraham’s lineage, by birth or adoption'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'Thus, we can become heirs to the covenant either by birth or by adoption.'
+
+  # ---------- note 12:3 “Many who bless, one who curses” ----------
+  - where: 'note 12:3 “Many who bless, one who curses”'
+    claim: '“Them that bless thee” is a plural participle'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-3.htm'
+    quote: 'מְבָ֣רְכֶ֔יךָ those blessing you V‑Piel‑Prtcpl‑mpc ¦ 2ms'
+  - where: 'note 12:3 “Many who bless, one who curses”'
+    claim: '“Him that curseth thee” is a singular participle of qalal'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-3.htm'
+    quote: 'וּמְקַלֶּלְךָ֖ and him who curses you Conj‑w ¦ V‑Piel‑Prtcpl‑msc ¦ 2ms'
+  - where: 'note 12:3 “Many who bless, one who curses”'
+    claim: 'God’s “I will curse” is ’arar'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-3.htm'
+    quote: 'אָאֹ֑ר I will curse V‑Qal‑Imperf‑1cs'
+  - where: 'note 12:3 “Many who bless, one who curses”'
+    claim: 'Qalal: root sense be slight, trifling; in the Piel, curse, properly make contemptible'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7043.htm'
+    quote: 'verb be slight, swift, trifling (probably originally be light'
+  - where: 'note 12:3 “Many who bless, one who curses”'
+    claim: 'Qalal: root sense be slight, trifling; in the Piel, curse, properly make contemptible'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7043.htm'
+    quote: 'curse (properly make contemptible ): 1 with accusative of person homin. Exodus 21:27 (E), Genesis 12:3 (J)'
+  - where: 'note 12:3 “Many who bless, one who curses”'
+    claim: '’Arar is the verb of the curses on the serpent and the ground'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/779.htm'
+    quote: 'Passive participle אָרוּר , chiefly as exclamation, "" בָּרוּךְ Genesis 3:14,17'
+  - where: 'note 12:3 “Many who bless, one who curses”'
+    claim: 'In one reading the plural of blessers and singular of the curser is significant: many will bless, only an individual here and there will curse'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/12.htm'
+    quote: 'grace expects that there will be many to bless, and that only an individual here and there will render not blessing for blessing, but curse for curse.'
+  - where: 'note 12:3 “Many who bless, one who curses”'
+    claim: 'In one reading qalal is a man’s contemptuous cursing, ’arar God’s judicial curse'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/12.htm'
+    quote: 'lit., to treat as light or little, to despise, denotes "blasphemous cursing on the part of a man;" ארר "judicial cursing on the part of God."'
+
+  # ---------- note 12:3 “The gospel preached to Abraham” ----------
+  - where: 'note 12:3 “The gospel preached to Abraham”'
+    claim: 'Paul calls the promise the gospel preached beforehand'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/gal/3?lang=eng'
+    quote: 'And the scripture, foreseeing that God would justify the heathen through faith, preached before the gospel unto Abraham, saying, In thee shall all nations be blessed.'
+  - where: 'note 12:3 “The gospel preached to Abraham”'
+    claim: 'The verb is a Niphal, nivrekhu'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-3.htm'
+    quote: 'וְנִבְרְכ֣וּ and shall be blessed Conj‑w ¦ V‑Nifal‑ConjPerf‑3cp'
+  - where: 'note 12:3 “The gospel preached to Abraham”'
+    claim: 'The lexicon gives “bless oneself” for the Niphal here'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1288.htm'
+    quote: 'Niph`al Perfect נִבְרְכוּ Genesis 12:3 ; Genesis 18:18 ; Genesis 28:14 (J) bless oneself'
+  - where: 'note 12:3 “The gospel preached to Abraham”'
+    claim: 'A modern translation gives “bless themselves” as an alternative'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%2012&version=NRSVUE'
+    quote: 'by you all the families of the earth shall bless themselves'
+  - where: 'note 12:3 “The gospel preached to Abraham”'
+    claim: 'The Septuagint reads the verb as passive'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/12.htm'
+    quote: 'and in thee shall all the tribes of the earth be blessed.'
+  - where: 'note 12:3 “The gospel preached to Abraham”'
+    claim: 'In one reading the reflexive sense breaks off the point of the promise, that the nations really receive the blessing'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/12.htm'
+    quote: 'But the Niphal נברך has only the passive signification "to be blessed." And the promise not only meant that all families of the earth would wish for the blessing which Abram possessed, but that they would really receive this blessing'
+  - where: 'note 12:3 “The gospel preached to Abraham”'
+    claim: 'In one reading the reflexive sense breaks off the point of the promise'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/12.htm'
+    quote: 'By the explanation "wish themselves blessed" the point of the promise is broken off'
+  - where: 'note 12:3 “The gospel preached to Abraham”'
+    claim: 'Peter reads it as passive'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/3?lang=eng'
+    quote: 'saying unto Abraham, And in thy seed shall all the kindreds of the earth be blessed.'
+  - where: 'note 12:3 “The gospel preached to Abraham”'
+    claim: 'Abraham 2:11 explains the blessing as priesthood, seed, and the gospel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'and in thee (that is, in thy Priesthood) and in thy seed (that is, thy Priesthood)'
+  - where: 'note 12:3 “The gospel preached to Abraham”'
+    claim: 'Abraham 2:11 explains the blessing as priesthood, seed, and the gospel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'shall all the families of the earth be blessed, even with the blessings of the Gospel, which are the blessings of salvation, even of life eternal.'
+  - where: 'note 12:3 “The gospel preached to Abraham”'
+    claim: 'Elias committed the dispensation of the gospel of Abraham in 1836'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/110?lang=eng'
+    quote: 'After this, Elias appeared, and committed the dispensation of the gospel of Abraham, saying that in us and our seed all generations after us should be blessed.'
+  - where: 'note 12:3 “The gospel preached to Abraham”'
+    claim: 'D&C 110 was received in 1836'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/110?lang=eng'
+    quote: 'Visions manifested to Joseph Smith the Prophet and Oliver Cowdery in the temple at Kirtland, Ohio, April 3, 1836.'
+  - where: 'note 12:3 “The gospel preached to Abraham”'
+    claim: 'Elias conferred the right to convey the blessings of the Abrahamic covenant'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'Thus, the Master conferred upon Joseph Smith and Oliver Cowdery priesthood authority and the right to convey the unique blessings of the Abrahamic covenant to others.'
+
+  # ---------- note 12:4 “Seventy-five or sixty-two?” ----------
+  - where: 'note 12:4 “Seventy-five or sixty-two?”'
+    claim: 'Abraham 2:14 gives sixty-two'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'So I, Abraham, departed as the Lord had said unto me, and Lot with me; and I, Abraham, was sixty and two years old when I departed out of Haran.'
+  - where: 'note 12:4 “Seventy-five or sixty-two?”'
+    claim: 'The Church’s chronology of Abraham’s life follows sixty-two and notes Genesis’s seventy-five beside it without reconciling them'
+    key: pgp-manual-abr-2-14
+    url: 'https://www.churchofjesuschrist.org/study/manual/the-pearl-of-great-price-student-manual-2018/the-book-of-abraham/abraham-2-14-25?lang=eng'
+    quote: 'Abraham and his family left the land of Haran for the land of Canaan (see Abraham 2:14 ; note that Genesis 12:4 says that he was 75 years old when they left Haran).'
+  - where: 'note 12:4 “Seventy-five or sixty-two?”'
+    claim: 'The manual gives a chronology of Abraham’s life'
+    key: pgp-manual-abr-2-14
+    url: 'https://www.churchofjesuschrist.org/study/manual/the-pearl-of-great-price-student-manual-2018/the-book-of-abraham/abraham-2-14-25?lang=eng'
+    quote: 'A Chronology of the Later Years of Abraham’s Life'
+  - where: 'note 12:4 “Seventy-five or sixty-two?”'
+    claim: 'Terah was seventy at his sons’ birth and died at 205 in Haran'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11?lang=eng'
+    quote: 'And the days of Terah were two hundred and five years: and Terah died in Haran.'
+  - where: 'note 12:4 “Seventy-five or sixty-two?”'
+    claim: 'By Genesis’s figures Terah lived sixty years after Abram left, though the natural reading is that he died first'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/12.htm'
+    quote: 'In Genesis 11:32 , Terah lived to an age of 205. If so, he lived for 60 years after Abram’s departure. We should, however, naturally infer both from this verse, and from Genesis 11:32 , that Terah died before Abram left Haran.'
+  - where: 'note 12:4 “Seventy-five or sixty-two?”'
+    claim: 'Stephen has Abram leave Haran after his father died'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/7?lang=eng'
+    quote: 'and from thence, when his father was dead, he removed him into this land'
+  - where: 'note 12:4 “Seventy-five or sixty-two?”'
+    claim: 'The Book of Abraham has Terah alive in Haran when Abraham leaves'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'and my father tarried in Haran and dwelt there, as there were many flocks in Haran; and my father turned again unto his idolatry'
+  - where: 'note 12:4 “Seventy-five or sixty-two?”'
+    claim: 'The Hebrew, Greek, and Samaritan texts disagree, so many early dates cannot be fixed'
+    key: bd-chronology
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-chron/introduction?lang=eng'
+    quote: 'the Hebrew Bible, the Septuagint or Greek translation, and the Samaritan Pentateuch do not agree together, so that many dates cannot be fixed with certainty'
+
+  # ---------- note 12:5 “The souls they had made” ----------
+  - where: 'note 12:5 “The souls they had made”'
+    claim: 'The Hebrew reads “the souls whom they had made”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-5.htm'
+    quote: 'עָשׂ֣וּ they had made V‑Qal‑Perf‑3cp'
+  - where: 'note 12:5 “The souls they had made”'
+    claim: 'The Book of Abraham reads “the souls that we had won in Haran”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'and all our substance that we had gathered, and the souls that we had won in Haran'
+  - where: 'note 12:5 “The souls they had made”'
+    claim: 'In Haran the Lord called Abraham to be a minister to bear His name'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'to make of thee a minister to bear my name in a strange land'
+  - where: 'note 12:5 “The souls they had made”'
+    claim: 'Genesis 12:5 perhaps implies the blessing of others; Jewish tradition reads it as bringing souls to the worship of Jehovah'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'it is perhaps implied in the ambiguous phrasing in Genesis 12:5, which talks about the “souls they had gotten in Haran.” Jewish tradition understands this as bringing souls to the worship of Jehovah.'
+
+  # ---------- note 12:6 “The oak of Moreh” ----------
+  - where: 'note 12:6 “The oak of Moreh”'
+    claim: 'Elon is a terebinth or other tall tree, often marking a shrine; at 12:6 “teacher’s terebinth”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/436.htm'
+    quote: 'terebinth (or other tall tree, compare below on 1 Samuel 10:3 ; Judges 4:5 ), marking shrine, & hence used in topographic designations; מוֺרֶה ׳ א ( teacher’s terebinth ) Genesis 12:6'
+  - where: 'note 12:6 “The oak of Moreh”'
+    claim: 'Modern translation reads “oak” (or terebinth)'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%2012&version=NRSVUE'
+    quote: 'Abram passed through the land to the place at Shechem, to the oak'
+  - where: 'note 12:6 “The oak of Moreh”'
+    claim: 'Moreh is probably the participle “teaching,” related to torah; perhaps a sacred tree where a priest or seer gave oracles'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/12.htm'
+    quote: 'In all probability Moreh is not a proper name, but the participle of the verb meaning to “teach” or “instruct,” whence comes also the substantive Torah, “law” or “instruction.”'
+  - where: 'note 12:6 “The oak of Moreh”'
+    claim: 'Moreh is probably the participle “teaching”; perhaps a sacred tree where a priest or seer gave oracles'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/12.htm'
+    quote: 'Probably we have here an example of one of the sacred trees under which, in primitive times, a priest, or seer, gave oracles and returned answers to devout questioners.'
+  - where: 'note 12:6 “The oak of Moreh”'
+    claim: 'This may be the tree mentioned later at Shechem (Gen. 35:4; Josh. 24:26)'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/12.htm'
+    quote: 'If so, this terebinth may have been the famous tree mentioned elsewhere in connexion with Shechem: cf. Genesis 35:4 , Joshua 24:26'
+  - where: 'note 12:6 “The oak of Moreh”'
+    claim: 'Shechem lay in the central hill country at the foot of Mount Gerizim'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/12.htm'
+    quote: 'one of the most ancient and important towns in the central hill country of Palestine, at the foot of Mt Gerizim'
+  - where: 'note 12:6 “The oak of Moreh”'
+    claim: 'Jacob buried foreign gods under the oak by Shechem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'and Jacob hid them under the oak which was by Shechem.'
+  - where: 'note 12:6 “The oak of Moreh”'
+    claim: 'Joshua set up a stone under the oak by the sanctuary'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/24?lang=eng'
+    quote: 'and took a great stone, and set it up there under an oak, that was by the sanctuary of the Lord.'
+
+  # ---------- note 12:6 “A promised land already occupied” ----------
+  - where: 'note 12:6 “A promised land already occupied”'
+    claim: 'The remark reminds the reader the land was in Canaanite possession and could not be taken by camping in it'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/12.htm'
+    quote: 'This clause reminds the reader, that the land promised to the seed of Abram was “then” in the possession of the Canaanites. It was not to be taken by merely encamping in it.'
+  - where: 'note 12:6 “A promised land already occupied”'
+    claim: 'Stephen: no inheritance, not a foot of it, yet promised to his seed while he had no child'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/7?lang=eng'
+    quote: 'And he gave him none inheritance in it, no, not so much as to set his foot on: yet he promised that he would give it to him for a possession, and to his seed after him, when as yet he had no child.'
+  - where: 'note 12:6 “A promised land already occupied”'
+    claim: 'Hebrews: he sojourned in the land of promise as in a strange country'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
+    quote: 'By faith he sojourned in the land of promise, as in a strange country'
+  - where: 'note 12:6 “A promised land already occupied”'
+    claim: 'Abraham: the land of this idolatrous nation; he sacrificed and called on the Lord devoutly'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'and I offered sacrifice there in the plains of Moreh, and called on the Lord devoutly, because we had already come into the land of this idolatrous nation.'
+  - where: 'note 12:6 “A promised land already occupied”'
+    claim: 'The land is promised for an everlasting possession, when they hearken to His voice'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'which I will give unto thy seed after thee for an everlasting possession, when they hearken to my voice.'
+
+  # ---------- note 12:7 “The LORD appeared” ----------
+  - where: 'note 12:7 “The LORD appeared”'
+    claim: '“Appeared” is the Niphal of ra’ah, used of God appearing, twice in this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7200.htm'
+    quote: '1 appear , especially a. of ׳ י (God): with אֶל person Genesis 12:7 (twice in verse)'
+  - where: 'note 12:7 “The LORD appeared”'
+    claim: '“Who appeared” is the Niphal participle'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-7.htm'
+    quote: 'הַנִּרְאֶ֥ה who had appeared Art ¦ V‑Nifal‑Prtcpl‑ms'
+  - where: 'note 12:7 “The LORD appeared”'
+    claim: 'The appearance came in answer to Abraham’s prayers'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'And the Lord appeared unto me in answer to my prayers, and said unto me: Unto thy seed will I give this land.'
+  - where: 'note 12:7 “The LORD appeared”'
+    claim: 'Abraham talked with the Lord face to face'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/3?lang=eng'
+    quote: 'I, Abraham, talked with the Lord, face to face, as one man talketh with another'
+  - where: 'note 12:7 “The LORD appeared”'
+    claim: 'The Lord named Himself to Abraham as Jehovah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'My name is Jehovah, and I know the end from the beginning; therefore my hand shall be over thee.'
+  - where: 'note 12:7 “The LORD appeared”'
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
+
+  - where: 'note 12:7 “The LORD appeared”'
+    claim: 'Jesus Christ would be born through Abraham’s lineage'
+    key: scripture-helps-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/07-genesis-12-17-abraham-1-2?lang=eng'
+    quote: 'Jesus Christ would be born through his lineage.'
+
+  # ---------- note 12:8 “Altars across the land” ----------
+  - where: 'note 12:8 “Altars across the land”'
+    claim: 'Abraham’s itinerary is marked by altars that became holy places and delineate the land for his descendants'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'Abraham’s itinerary through the land of Canaan is characterized by his building of altars, many of which become holy places or other important locations in later Israelite history.'
+  - where: 'note 12:8 “Altars across the land”'
+    claim: 'The altars define the land for his descendants and mark places of divine promise'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'define and delineate the land for his descendants.'
+  - where: 'note 12:8 “Altars across the land”'
+    claim: 'The altars define the land for his descendants and mark places of divine promise'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'These altars mark places of divine promise and interaction'
+  - where: 'note 12:8 “Altars across the land”'
+    claim: 'After Egypt Abram returned to the Beth-el altar and built another at Hebron'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/13?lang=eng'
+    quote: 'Then Abram removed his tent, and came and dwelt in the plain of Mamre, which is in Hebron, and built there an altar unto the Lord.'
+  - where: 'note 12:8 “Altars across the land”'
+    claim: 'Calling on the name of the Lord began in the days of Enos'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/4?lang=eng'
+    quote: 'then began men to call upon the name of the Lord.'
+  - where: 'note 12:8 “Altars across the land”'
+    claim: 'Beth-el means “House of God,” formerly called Luz'
+    key: bd-bethel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/bethel?lang=eng'
+    quote: 'House of God. (1) Formerly called Luz ( Gen. 28:19 )'
+  - where: 'note 12:8 “Altars across the land”'
+    claim: 'Jacob later gave the place its name'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng'
+    quote: 'And he called the name of that place Beth-el: but the name of that city was called Luz at the first.'
+  - where: 'note 12:8 “Altars across the land”'
+    claim: 'Ai means “ruins”; the text uses it only as a landmark'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'The biblical text only indicates the place as a geographic referent; it does not say that anyone actually lived there when Abraham was in the area.'
+  - where: 'note 12:8 “Altars across the land”'
+    claim: 'Ai means “ruins”'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'which means “ruins.”'
+
+  # ---------- note 12:10 “Down to Egypt” ----------
+  - where: 'note 12:10 “Down to Egypt”'
+    claim: 'Famine was common; it drove Abraham from Ur to Haran and from Canaan to Egypt'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'A challenge for anyone in this time period was the prospect of famine, which unfortunately appears to have been pretty common'
+  - where: 'note 12:10 “Down to Egypt”'
+    claim: 'Famine drove Abraham from Ur to Haran and from Canaan to Egypt'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'One in Ur forced him to move to Haran (Abraham 1:29–2:4), while another forced him to go down to Egypt (Genesis 12:10; Abraham 2:17–21).'
+  - where: 'note 12:10 “Down to Egypt”'
+    claim: '“To sojourn” is gur, to live as a sojourner'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-10.htm'
+    quote: 'לָג֣וּר to sojourn Prep‑l ¦ V‑Qal‑Inf'
+  - where: 'note 12:10 “Down to Egypt”'
+    claim: 'Gur means sojourn, tarry'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1481.htm'
+    quote: 'verb sojourn (compare Arabic turn aside tarry'
+  - where: 'note 12:10 “Down to Egypt”'
+    claim: 'Egypt was a powerful kingdom in patriarchal times'
+    key: bd-chronology
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-chron/old-testament?lang=eng'
+    quote: 'Egypt was manifestly a powerful kingdom before and during the patriarchal times'
+  - where: 'note 12:10 “Down to Egypt”'
+    claim: 'The Lord showed Abraham the heavens before he went into Egypt, that he might declare them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/3?lang=eng'
+    quote: 'And the Lord said unto me: Abraham, I show these things unto thee before ye go into Egypt, that ye may declare all these words.'
+  - where: 'note 12:10 “Down to Egypt”'
+    claim: 'Facsimile 3: Abraham on Pharaoh’s throne, reasoning on astronomy in the king’s court'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/fac-3?lang=eng'
+    quote: 'Abraham sitting upon Pharaoh’s throne, by the politeness of the king'
+  - where: 'note 12:10 “Down to Egypt”'
+    claim: 'Facsimile 3: Abraham reasoning on astronomy in the king’s court'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/fac-3?lang=eng'
+    quote: 'Abraham is reasoning upon the principles of Astronomy, in the king’s court.'
+
+  # ---------- note 12:13 “Did Abram lie?” ----------
+  - where: 'note 12:13 “Did Abram lie?”'
+    claim: 'The Lord told Abraham to have Sarai say she was his sister'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'And it came to pass when I was come near to enter into Egypt, the Lord said unto me: Behold, Sarai, thy wife, is a very fair woman to look upon;'
+  - where: 'note 12:13 “Did Abram lie?”'
+    claim: 'The Lord told Abraham to have Sarai say she was his sister'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'Let her say unto the Egyptians, she is thy sister, and thy soul shall live.'
+  - where: 'note 12:13 “Did Abram lie?”'
+    claim: 'The Church’s position: the Lord warned and instructed them; they obeyed and were spared; they could accurately call her sister'
+    key: scripture-helps-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/07-genesis-12-17-abraham-1-2?lang=eng'
+    quote: 'The book of Abraham clarifies that the Lord warned Abraham and Sarah of danger and instructed Sarah to tell the Egyptians that she was Abraham’s sister.'
+  - where: 'note 12:13 “Did Abram lie?”'
+    claim: 'The Church’s position: they obeyed and were spared; customs allowed him accurately to call her sister'
+    key: scripture-helps-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/07-genesis-12-17-abraham-1-2?lang=eng'
+    quote: 'Abraham and Sarah obeyed the Lord’s counsel and were spared from a dangerous situation. Because Abraham and Sarah both descended from Terah, customs of their time would likely have allowed for Abraham to accurately refer to Sarah as his sister.'
+  - where: 'note 12:13 “Did Abram lie?”'
+    claim: 'The chapter heading calls it a test in Pharaoh’s court'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/12?lang=eng'
+    quote: 'Abram and Sarai are tested in Pharaoh’s court.'
+  - where: 'note 12:13 “Did Abram lie?”'
+    claim: 'Sarai was Abraham’s half-sister'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/20?lang=eng'
+    quote: 'And yet indeed she is my sister; she is the daughter of my father, but not the daughter of my mother; and she became my wife.'
+  - where: 'note 12:13 “Did Abram lie?”'
+    claim: 'Hebrew, like other ancient Semitic languages, does not separate siblings from their offspring; Lot is called Abram’s brother'
+    key: strathearn-wife-sister
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/wife-sister-experience'
+    quote: 'This state is reflected in ancient Semitic languages, including biblical Hebrew, in which there is no definite linguistic separation between siblings and their offspring.'
+  - where: 'note 12:13 “Did Abram lie?”'
+    claim: 'Lot is twice called Abram’s brother'
+    key: strathearn-wife-sister
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/wife-sister-experience'
+    quote: 'twice he refers to Lot as his brother (see Genesis 14:14, 16) even though, by western standards, he is clearly Abraham’s “nephew”'
+  - where: 'note 12:13 “Did Abram lie?”'
+    claim: 'Egyptian had two words for wife: hmt only “wife”; snt principally “sister” but also “wife”; Abraham used an ambiguous term and said nothing false'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'In the Egyptian of Abraham’s day, there are two words for wife . One ( ḥmt ) means only “wife”; [79] the other ( snt ) means principally “sister” [80] but can also mean “wife.”'
+  - where: 'note 12:13 “Did Abram lie?”'
+    claim: 'Abraham used an ambiguous term and said nothing false'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'So by using an ambiguous term, Abraham was not saying something that was false.'
+  - where: 'note 12:13 “Did Abram lie?”'
+    claim: 'In Egyptian “sister” was a term of affection for a wife'
+    key: smoot-sarai
+    url: 'https://byustudies.byu.edu/article/did-abraham-lie-about-his-wife-sarai'
+    quote: 'a wife was often called the ‘sister’ ( snt ) of her husband, but not because they had the same parents: instead, the term was one of affection'
+  - where: 'note 12:13 “Did Abram lie?”'
+    claim: 'The ambiguity would have worked especially well against the Egyptians'
+    key: smoot-sarai
+    url: 'https://byustudies.byu.edu/article/did-abraham-lie-about-his-wife-sarai'
+    quote: 'Abraham could be viewed as taking advantage of an ambiguity that would have worked especially well in thwarting the murderous intentions of the Egyptians.'
+  - where: 'note 12:13 “Did Abram lie?”'
+    claim: 'Egyptian kings had the reputation of seizing any woman they wanted'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'Egyptian kings, at all time periods from the Old Kingdom through the Roman period, at least had the reputation of being able to seize and marry any woman whom they desired.'
+  - where: 'note 12:13 “Did Abram lie?”'
+    claim: 'The Genesis Apocryphon has Abram warned in a dream; it harmonizes with the Book of Abraham'
+    key: smoot-sarai
+    url: 'https://byustudies.byu.edu/article/did-abraham-lie-about-his-wife-sarai'
+    quote: 'a text from the Dead Sea Scrolls called the Genesis Apocryphon depicts Abraham being warned in a dream of the danger he faced when traveling into Egypt because of Sarai’s beauty.'
+  - where: 'note 12:13 “Did Abram lie?”'
+    claim: 'The Genesis Apocryphon harmonizes with the Book of Abraham'
+    key: smoot-sarai
+    url: 'https://byustudies.byu.edu/article/did-abraham-lie-about-his-wife-sarai'
+    quote: 'This harmonizes nicely with the account in the Book of Abraham.'
+  - where: 'note 12:13 “Did Abram lie?”'
+    claim: 'The same plan is used again in Genesis 20 and 26, involving different characters'
+    key: smoot-sarai
+    url: 'https://byustudies.byu.edu/article/did-abraham-lie-about-his-wife-sarai'
+    quote: 'This so-­called “sister/wife” motif is picked up again at Genesis 20:1–18 and Genesis 26:6–11'
+  - where: 'note 12:13 “Did Abram lie?”'
+    claim: 'Abraham says the arrangement dated from when they left his father’s house'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/20?lang=eng'
+    quote: 'when God caused me to wander from my father’s house, that I said unto her, This is thy kindness which thou shalt shew unto me; at every place whither we shall come, say of me, He is my brother.'
+
+  # ---------- note 12:15 “Taken into Pharaoh’s house” ----------
+  - where: 'note 12:15 “Taken into Pharaoh’s house”'
+    claim: 'Pharaoh is a title meaning “Great House”; Abram’s Pharaoh probably one of the Hyksos'
+    key: bd-pharaoh
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/pharaoh?lang=eng'
+    quote: 'The title given to the Egyptian kings; its meaning is “Great House.”'
+  - where: 'note 12:15 “Taken into Pharaoh’s house”'
+    claim: 'Abram’s Pharaoh probably one of the Hyksos or Shepherd kings'
+    key: bd-pharaoh
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/pharaoh?lang=eng'
+    quote: 'The Pharaoh (probably one of the Hyksos or Shepherd kings) visited by Abram ( Gen. 12:15–20 ).'
+  - where: 'note 12:15 “Taken into Pharaoh’s house”'
+    claim: 'By the time Abraham reached Egypt the Twelfth Dynasty had ended'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'By the time that Abraham arrived in Egypt, the Twelfth Dynasty, which had given him so much trouble in Ur, had gone the way of all the earth'
+  - where: 'note 12:15 “Taken into Pharaoh’s house”'
+    claim: 'On one view the Delta was then ruled by a Fourteenth Dynasty'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'others claim it was replaced by the Fourteenth Dynasty in the Nile Delta and the Thirteenth Dynasty in the Nile Valley.'
+  - where: 'note 12:15 “Taken into Pharaoh’s house”'
+    claim: 'After the Twelfth Dynasty the Delta may have been ruled by a Fourteenth Dynasty that was not native Egyptian'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'The reason this may be significant is that the Fourteenth Dynasty was not native Egyptian'
+  - where: 'note 12:15 “Taken into Pharaoh’s house”'
+    claim: 'Pharaoh says “and I took her to me for a wife”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-19.htm'
+    quote: 'וָאֶקַּ֥ח and I took Conj‑w ¦ V‑Qal‑ConsecImperf‑1cs'
+  - where: 'note 12:15 “Taken into Pharaoh’s house”'
+    claim: 'Pharaoh took her “as a wife”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-19.htm'
+    quote: 'לְאִשָּׁ֑ה as a wife Prep‑l ¦ N‑fs'
+  - where: 'note 12:15 “Taken into Pharaoh’s house”'
+    claim: 'Modern translation: “so that I took her for my wife”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%2012&version=NRSVUE'
+    quote: 'Why did you say, ‘She is my sister,’ so that I took her for my wife?'
+  - where: 'note 12:15 “Taken into Pharaoh’s house”'
+    claim: 'Pharaoh paid a bride price instead of killing Abraham'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'Rather than kill Abraham, Pharaoh pays a bride price of sheep, cattle, donkeys, cattle, and male and female servants (Genesis 12:16).'
+  - where: 'note 12:15 “Taken into Pharaoh’s house”'
+    claim: 'A bride price was paid to the family; this one much higher than typical; Pharaoh did not ask for it back'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'In this case, two striking things appear in the account: the bride price was much higher than typical, [85] and Pharaoh did not ask for the return of the bride price.'
+  - where: 'note 12:15 “Taken into Pharaoh’s house”'
+    claim: 'A bride price was typically paid to the family for the intention to marry'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'A bride price was typically paid to the family for the intention to marry'
+  - where: 'note 12:15 “Taken into Pharaoh’s house”'
+    claim: 'Camels have been called an anachronism on an argument from silence; domesticated camels appear in the Early Bronze Age'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'Camels have long been considered an anachronism in the patriarchal narratives, … though this was generally based on an argument from silence (which is a logical fallacy)'
+  - where: 'note 12:15 “Taken into Pharaoh’s house”'
+    claim: 'Domesticated camels appear in the Early Bronze Age; camels in Egypt from the First Dynasty'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'Domesticated camels appear already in the Early Bronze Age.'
+  - where: 'note 12:15 “Taken into Pharaoh’s house”'
+    claim: 'Camels in Egypt from the First Dynasty'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'Camels are attested in the Nile Delta by the First Dynasty of Egypt and were already depicted carrying loads.'
+
+  # ---------- note 12:17 “Plagues on Pharaoh” ----------
+  - where: 'note 12:17 “Plagues on Pharaoh”'
+    claim: 'Nega‘ is a stroke, especially of disease, sent as divine chastisement; used at Genesis 12:17 and Exodus 11:1'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5061.htm'
+    quote: '2 stroke , metaphor, especially of a disease, regarded as sent by a divine chastisement, Genesis 12:17 (J), Exodus 11:1 (E)'
+  - where: 'note 12:17 “Plagues on Pharaoh”'
+    claim: 'The word for plagues in verse 17'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-17.htm'
+    quote: 'נְגָעִ֥ים plagues N‑mp'
+  - where: 'note 12:17 “Plagues on Pharaoh”'
+    claim: 'Exodus 11:1 uses the word of the last plague'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/11?lang=eng'
+    quote: 'Yet will I bring one plague more upon Pharaoh, and upon Egypt'
+  - where: 'note 12:17 “Plagues on Pharaoh”'
+    claim: 'Abraham’s encounter with Pharaoh was the first of many contacts between Egypt and Abraham’s family'
+    key: strathearn-wife-sister
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/wife-sister-experience'
+    quote: 'This incident was only the first of a number of contacts between Egypt and Abraham and his descendants.'
+  - where: 'note 12:17 “Plagues on Pharaoh”'
+    claim: 'Moses later also confronted a Pharaoh, and again Jehovah showed His power'
+    key: strathearn-wife-sister
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/wife-sister-experience'
+    quote: 'parallels the events some centuries later when Abraham’s successor, Moses, also confronted an Egyptian Pharaoh. Once again, Jehovah orchestrated the events so that His power was manifested both to the Pharaoh and to the children of Israel.'
+  - where: 'note 12:17 “Plagues on Pharaoh”'
+    claim: 'Nations worshiped gods responsible for particular areas; Abraham’s God knew no geographical boundaries'
+    key: strathearn-wife-sister
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/wife-sister-experience'
+    quote: 'Throughout the ancient world, nations worshiped a pantheon of gods that were responsible for particular geographical areas.'
+  - where: 'note 12:17 “Plagues on Pharaoh”'
+    claim: 'Abraham’s God knew no geographical boundaries'
+    key: strathearn-wife-sister
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/wife-sister-experience'
+    quote: 'he worshipped a god who knew no geographical boundaries'
+  - where: 'note 12:17 “Plagues on Pharaoh”'
+    claim: 'God was announcing His jurisdiction over all the families of the earth'
+    key: strathearn-wife-sister
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/wife-sister-experience'
+    quote: 'it is clear that the God of Abraham was announcing His jurisdiction over all the families of the earth and not just over Abraham and his descendants.'
+  - where: 'note 12:17 “Plagues on Pharaoh”'
+    claim: 'The psalm: he reproved kings for their sakes'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/105?lang=eng'
+    quote: 'He suffered no man to do them wrong: yea, he reproved kings for their sakes;'
+  - where: 'note 12:17 “Plagues on Pharaoh”'
+    claim: 'In the Abimelech story Abraham prays and God heals the household'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/20?lang=eng'
+    quote: 'So Abraham prayed unto God: and God healed Abimelech, and his wife, and his maidservants; and they bare children.'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'The Lord named Himself Jehovah to Abraham'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'My name is Jehovah, and I know the end from the beginning'
+  - where: 'christ'
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
+  - where: 'christ'
+    claim: 'Fulfillment of the covenant is feasible because of the Atonement; Christ is at its center'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'The fulfillment of the Abrahamic covenant becomes feasible because of the Atonement of our Savior, the Lord Jesus Christ.'
+  - where: 'christ'
+    claim: 'Christ is at the center of the Abrahamic covenant'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'Jesus Christ is at the center of the Abrahamic covenant.'
+  - where: 'christ'
+    claim: 'Paul identifies the seed as Christ'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/gal/3?lang=eng'
+    quote: 'He saith not, And to seeds, as of many; but as of one, And to thy seed, which is Christ.'
+  - where: 'christ'
+    claim: 'Jesus said Abraham rejoiced to see His day'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/8?lang=eng'
+    quote: 'Your father Abraham rejoiced to see my day: and he saw it, and was glad.'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: 'The BYU Studies piece sets out the evidence on the wife-sister question'
+    key: smoot-sarai
+    url: 'https://byustudies.byu.edu/article/did-abraham-lie-about-his-wife-sarai'
+    quote: 'The question that naturally arises is whether Abraham was lying by saying Sarai was his sister instead of his wife'
+  - where: 'explore'
+    claim: '“The Wanderings of Abraham” describes the places Abraham visited'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'we will confine ourselves to a description of the places visited by Abraham in his various travels.'
+
+  # ---------- parallels ----------
+  - where: 'parallels'
+    claim: 'Abraham 2 tells the call, the journey, and the counsel about Sarai'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'And it came to pass that I, Abraham, told Sarai, my wife, all that the Lord had said unto me'
