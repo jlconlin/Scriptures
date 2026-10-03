@@ -25,7 +25,7 @@ add('ot', [
   ['1chr|1chronicles', '1-chr'], ['2chr|2chronicles', '2-chr'], ['ezra', 'ezra'], ['neh|nehemiah', 'neh'],
   ['esth|esther', 'esth'], ['job', 'job'], ['ps|psalm|psalms', 'ps'], ['prov|proverbs', 'prov'],
   ['eccl|ecclesiastes', 'eccl'], ['song|songofsolomon', 'song'], ['isa|isaiah', 'isa'], ['jer|jeremiah', 'jer'],
-  ['lam|lamentations', 'lam'], ['ezek|ezekiel', 'ezek'], ['dan|daniel', 'dan'], ['hosea', 'hosea'],
+  ['lam|lamentations', 'lam'], ['ezek|ezekiel', 'ezek'], ['dan|daniel', 'dan'], ['hos|hosea', 'hosea'],
   ['joel', 'joel'], ['amos', 'amos'], ['obad|obadiah', 'obad'], ['jonah', 'jonah'], ['micah', 'micah'],
   ['nahum', 'nahum'], ['hab|habakkuk', 'hab'], ['zeph|zephaniah', 'zeph'], ['hag|haggai', 'hag'],
   ['zech|zechariah', 'zech'], ['mal|malachi', 'mal'],
