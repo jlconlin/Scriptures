@@ -1,0 +1,764 @@
+chapter: 1
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The scriptures do not say how or when the earth was created'
+    key: scripture-helps-gen-1-2
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/02-genesis-1-2-moses-2-3-abraham-4-5?lang=eng'
+    quote: 'the scriptures do not provide details about how or when the earth was created.'
+  - where: setting
+    claim: 'Bible Dictionary: Moses wrote the Pentateuch, using documentary sources for Genesis besides revelation'
+    key: bd-pentateuch
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/pentateuch?lang=eng'
+    quote: 'The Pentateuch was written by Moses, although it is evident that he used several documentary sources from which he compiled the book of Genesis, besides a divine revelation to him.'
+  - where: setting
+    claim: 'Scribes and copyists left traces on the Pentateuch'
+    key: bd-pentateuch
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/pentateuch?lang=eng'
+    quote: 'It is also evident that scribes and copyists have left their traces upon the Pentateuch as we have it today'
+  - where: setting
+    claim: 'Moses 1 records visions that prepared Moses to write Genesis and is an introduction to Genesis'
+    key: bd-genesis
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/genesis?lang=eng'
+    quote: 'Of exceptional worth is Moses 1, giving an account of some visions and experiences of Moses previous to and in preparation for writing Genesis. This chapter is an introduction to Genesis'
+  - where: setting
+    claim: 'Genesis is built on genealogies, each section beginning “These are the generations”'
+    key: bd-genesis
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/genesis?lang=eng'
+    quote: 'The structure of the book of Genesis rests on several genealogies. Each new section begins “These are the generations,”'
+  - where: setting
+    claim: 'Genesis 1–3: the creation and early history of the world, all mankind as yet one family'
+    key: bd-genesis
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/genesis?lang=eng'
+    quote: 'Adam (Gen. 1–3). The creation and early history of the world; all mankind as yet one family.'
+  - where: setting
+    claim: 'The first Creation account is Genesis 1:1–2:3; the second begins at 2:4'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'The first Creation account runs from Genesis 1:1 through 2:3. The second begins at 2:4.'
+  - where: setting
+    claim: 'The book of Moses is a portion of the JST and the best available account of the early chapters'
+    key: bd-genesis
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/genesis?lang=eng'
+    quote: 'The Joseph Smith Translation especially, a portion of which is presented in the book of Moses, offers the best available account of the early chapters.'
+  - where: setting
+    claim: 'Abraham 4 is the Gods’ plan of the Creation (chapter heading)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/4?lang=eng'
+    quote: 'The Gods plan the creation of the earth and all life thereon'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'Tohu (Gen. 1:2) is the formlessness of the primeval earth; Isaiah 45:18 uses it of the Creation'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8414.htm'
+    quote: 'formlessness, of primaeval earth Genesis 1:2 (P), of land reduced to primaeval chaos Jeremiah 4:23'
+  - where: thread
+    claim: 'The verb badal, divide, occurs in Gen. 1:4, 6, 7, 14, 18 (WLC: lemma 914 in those verses only, in chapter 1)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/914.htm'
+    quote: 'divide, separate, subject God Genesis 1:4 followed by וּבֵין....בֵּין between light and darkness, compare Genesis 1:7; subject heavenly bodies Genesis 1:14; Genesis 1:18; subject firmament'
+  - where: thread
+    claim: 'Creation in two stages: first the physical environment ordered, then life'
+    key: belnap-beginning
+    url: 'https://rsc.byu.edu/creation-sinai/beginning'
+    quote: 'the formation and ordering of the basic physical environment of land, sea, and sky, is completed'
+  - where: thread
+    claim: 'Humans are the main purpose of the Creation in this narrative'
+    key: belnap-beginning
+    url: 'https://rsc.byu.edu/creation-sinai/beginning'
+    quote: 'Humans will thus constitute the main purpose behind God’s creations.'
+  - where: thread
+    claim: 'The creation of humanity is the culmination of the Creation account'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'The culmination of Creation in both Genesis 1 and 2 is the creation of humanity.'
+
+  # ---------- 1:1 In the beginning ----------
+  - where: 'note 1:1 “The beginning of this earth”'
+    claim: 'Bereshit is preposition + noun with no article (interlinear parsing)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/1-1.htm'
+    quote: 'In the beginning Prep‑b ¦ N‑fs'
+  - where: 'note 1:1 “The beginning of this earth”'
+    claim: 'BDB reads Gen. 1:1 as a time clause, “in the beginning when God created”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7225.htm'
+    quote: 'Genesis 1:1 in the beginning when god created … absolute in the beginning God created'
+  - where: 'note 1:1 “The beginning of this earth”'
+    claim: 'Bereshit lacks the article: “in a beginning”'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'In fact, the Hebrew here, bereshit, lacks the definite article and would be better translated as “in a beginning.”'
+  - where: 'note 1:1 “The beginning of this earth”'
+    claim: 'The NJPS renders Gen. 1:1–2a as a time clause'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: '“When God began to create heaven and earth—the earth being unformed and void” (Gen. 1:1–2a).'
+  - where: 'note 1:1 “The beginning of this earth”'
+    claim: 'The idea that nothing existed before is not the Latter-day Saint position nor that of Genesis'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: '“In the beginning” reflects a notion that this was where everything started, and there was nothing before. This is not the Latter-day Saint position, and it is not really the position of the book of Genesis.'
+  - where: 'note 1:1 “The beginning of this earth”'
+    claim: 'Genesis 1 presumes something already there when God begins to create'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'the original Genesis 1 presumes that there is already something there when God begins his creative activity'
+
+  # ---------- 1:1 God ----------
+  - where: 'note 1:1 “Elohim, and who created”'
+    claim: 'Elohim is plural in form; the verb bara is singular (Qal perfect 3ms)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/1-1.htm'
+    quote: 'created V‑Qal‑Perf‑3ms … God N‑mp'
+  - where: 'note 1:1 “Elohim, and who created”'
+    claim: 'BDB classes the use of Elohim for God as a plural intensive'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/430.htm'
+    quote: '2 Plural intensive. … d. God (see 3 & 4)'
+  - where: 'note 1:1 “Elohim, and who created”'
+    claim: 'Elohim is the name-title Latter-day Saints use for the Father'
+    key: father-and-son-1916
+    url: 'https://www.churchofjesuschrist.org/study/ensign/2002/04/the-father-and-the-son?lang=eng'
+    quote: 'God the Eternal Father, whom we designate by the exalted name-title “Elohim,”'
+  - where: 'note 1:1 “Elohim, and who created”'
+    claim: 'When one speaks of God it is generally the Father'
+    key: bd-god
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/god?lang=eng'
+    quote: 'When one speaks of God, it is generally the Father who is referred to; that is, Elohim.'
+  - where: 'note 1:1 “Elohim, and who created”'
+    claim: 'Gen. 1:1 says God created, but it was the Lord Jesus who was the creator'
+    key: bd-god
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/god?lang=eng'
+    quote: 'Thus the scripture says that “God created the heaven and the earth” (Gen. 1:1), but we know that it was actually the Lord (Jesus) who was the creator'
+  - where: 'note 1:1 “Elohim, and who created”'
+    claim: 'Jesus Christ created the earth under the direction of the Father'
+    key: living-christ
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/the-living-christ-the-testimony-of-the-apostles/the-living-christ-the-testimony-of-the-apostles?lang=eng'
+    quote: 'He was the Great Jehovah of the Old Testament, the Messiah of the New. Under the direction of His Father, He was the creator of the earth.'
+  - where: 'note 1:1 “Elohim, and who created”'
+    claim: 'Jesus Christ (Jehovah) was the executive of the Father in the creation'
+    key: father-and-son-1916
+    url: 'https://www.churchofjesuschrist.org/study/ensign/2002/04/the-father-and-the-son?lang=eng'
+    quote: 'That Jesus Christ, whom we also know as Jehovah, was the executive of the Father, Elohim, in the work of creation'
+  - where: 'note 1:1 “Elohim, and who created”'
+    claim: 'The KJV prints the name Jehovah as LORD in small capitals'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'In the KJV, the Jewish custom has been followed, and the name is generally denoted by Lord or God, printed in small capitals.'
+  - where: 'note 1:1 “Elohim, and who created”'
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
+  - where: 'note 1:1 “Elohim, and who created”'
+    claim: 'Gen. 2:4 is the first verse with “the Lord God”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng'
+    quote: 'These are the generations of the heavens and of the earth when they were created, in the day that the Lord God made the earth and the heavens,'
+
+  # ---------- 1:2 without form, and void ----------
+  - where: 'note 1:2 “Organized, not made from nothing”'
+    claim: 'Tohu means formlessness; used of the primeval earth and of land reduced to chaos in Jer. 4:23; Isa. 45:18'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8414.htm'
+    quote: 'formlessness, confusion, unreality, emptiness'
+  - where: 'note 1:2 “Organized, not made from nothing”'
+    claim: 'Bohu means emptiness, always with tohu; Gen. 1:2, Jer. 4:23'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/922.htm'
+    quote: 'emptiness'
+  - where: 'note 1:2 “Organized, not made from nothing”'
+    claim: 'Tohu wabohu refers to material present but unorganized, not nothing'
+    key: belnap-beginning
+    url: 'https://rsc.byu.edu/creation-sinai/beginning'
+    quote: 'tohû wābohû does not mean “nothing” or indicate an absence, but instead refers to a state in which material was present, but in an unorganized, unformed, state.'
+  - where: 'note 1:2 “Organized, not made from nothing”'
+    claim: 'The deep (tehom) is the primeval ocean in Hebrew cosmogony'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8415.htm'
+    quote: 'primaeval ocean, deep, in Hebrew cosmogony'
+  - where: 'note 1:2 “Organized, not made from nothing”'
+    claim: 'The deep reflects the common ancient Near Eastern association of the sea with unorganized material'
+    key: belnap-beginning
+    url: 'https://rsc.byu.edu/creation-sinai/beginning'
+    quote: 'reflecting the common ancient Near Eastern association of the sea or ocean with the unorganized material of this precreative state'
+  - where: 'note 1:2 “Organized, not made from nothing”'
+    claim: 'Bara: shape, fashion, create, always of divine activity'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1254.htm'
+    quote: 'shape, fashion, create, always of divine activity'
+  - where: 'note 1:2 “Organized, not made from nothing”'
+    claim: 'Bara means something like organize, not creation out of nothing'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'The word “create” is translated from the Hebrew bara, a word that means something like “organize” rather than active creation out of nothing.'
+  - where: 'note 1:2 “Organized, not made from nothing”'
+    claim: 'Joseph Smith (1844): create comes from baurau, which means to organize; God organized the world out of chaotic matter'
+    key: jsp-discourse-1844-04-07
+    url: 'https://www.josephsmithpapers.org/paper-summary/discourse-7-april-1844-as-published-in-times-and-seasons/4'
+    quote: 'The word create came from the word baurau; it does not mean so; it means to organize; the same as a man would organize a ship. Hence we infer that God had materials to organize the world out of chaos'
+  - where: 'note 1:2 “Organized, not made from nothing”'
+    claim: 'First Presidency and Twelve (1916): the Creator is an Organizer and did not bring the elements into primal existence'
+    key: father-and-son-1916
+    url: 'https://www.churchofjesuschrist.org/study/ensign/2002/04/the-father-and-the-son?lang=eng'
+    quote: 'In the sense so expressed, the Creator is an Organizer. God created the earth as an organized sphere; but He certainly did not create, in the sense of bringing into primal existence, the ultimate elements'
+  - where: 'note 1:2 “Organized, not made from nothing”'
+    claim: 'Abraham reads “empty and desolate” for “without form, and void”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/4?lang=eng'
+    quote: 'And the earth, after it was formed, was empty and desolate, because they had not formed anything but the earth'
+
+  # ---------- 1:2 Spirit ----------
+  - where: 'note 1:2 “The Spirit brooding over the waters”'
+    claim: 'Ruach means breath, wind, spirit'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7307.htm'
+    quote: 'breath, wind, spirit'
+  - where: 'note 1:2 “The Spirit brooding over the waters”'
+    claim: 'The NJPS renders “a wind from God”; spirit and wind are the same Hebrew word and hard to separate'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'In Hebrew, the word for “spirit” and the word for “wind” are the same. This makes it very difficult (if not impossible) to differentiate between the theological and the natural meaning of this word.'
+  - where: 'note 1:2 “The Spirit brooding over the waters”'
+    claim: 'NJPS wording of Gen. 1:2b'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'Genesis 1:2 (NJPS) goes on, “With darkness over the surface of the deep, and a wind from God sweeping over the water.”'
+  - where: 'note 1:2 “The Spirit brooding over the waters”'
+    claim: 'Rachaph: hover, perhaps brood; used of the eagle hovering over its young in Deut. 32:11'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7363.htm'
+    quote: 'Deuteronomy 32:11 (poem) of vulture hovering over young'
+  - where: 'note 1:2 “The Spirit brooding over the waters”'
+    claim: 'BDB on Gen. 1:2: hovering, or perhaps brooding'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7363.htm'
+    quote: 'hovering over face of waters, or perhaps (see Syriac) brooding'
+  - where: 'note 1:2 “The Spirit brooding over the waters”'
+    claim: 'The scene opens with a sense of potential, strengthened by the Spirit’s preparatory action'
+    key: belnap-beginning
+    url: 'https://rsc.byu.edu/creation-sinai/beginning'
+    quote: 'Thus, the Creation event opens with a sense of potential or expectation, a sense strengthened by what appears to be divine preparatory action'
+
+  # ---------- 1:3 And God said ----------
+  - where: 'note 1:3 “Creation by the word”'
+    claim: 'The Lord told Moses He created by the word of His power, the Only Begotten Son'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/1?lang=eng'
+    quote: 'And by the word of my power, have I created them, which is mine Only Begotten Son, who is full of grace and truth.'
+
+  # ---------- 1:3 Light ----------
+  - where: 'note 1:3 “Light before the sun”'
+    claim: 'John Taylor: God caused light before the sun appeared, for God is light'
+    key: pgp-manual-moses-2
+    url: 'https://www.churchofjesuschrist.org/study/manual/the-pearl-of-great-price-student-manual-2018/the-book-of-moses/moses-2-1-31?lang=eng'
+    quote: 'caused light to shine upon … before the sun appeared in the firmament … for God is light, and in him there is no darkness. He is the light of the sun and the power thereof by which it was made'
+  - where: 'note 1:3 “Light before the sun”'
+    claim: 'Light indicates the presence of Deity; the first light may create an environment where the divine is present'
+    key: belnap-beginning
+    url: 'https://rsc.byu.edu/creation-sinai/beginning'
+    quote: 'Throughout the ancient Near East and the Bible, the presence of light indicates the presence of Deity.'
+  - where: 'note 1:3 “Light before the sun”'
+    claim: 'The creation of light may indicate an environment in which the divine is always present'
+    key: belnap-beginning
+    url: 'https://rsc.byu.edu/creation-sinai/beginning'
+    quote: 'the creation of light can indicate direct, divine activity or the creation of an environment in which the divine may be directly and always present'
+
+  # ---------- 1:4 divided ----------
+  - where: 'note 1:4 “Creation by dividing”'
+    claim: 'Hibdil, to separate, is the theological underpinning of Genesis 1'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'Creation in Genesis 1 is fundamentally a process of dividing in order to put things into their proper places.'
+  - where: 'note 1:4 “Creation by dividing”'
+    claim: '“After their kind” continues the division even where the verb is absent'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'Even when the specific sense of hibdil is not used, division is a major feature of creation in Genesis 1'
+  - where: 'note 1:4 “Creation by dividing”'
+    claim: 'Lev. 10:10 “put difference” is hibdil; priests making distinctions engage in divine behavior'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'The verb that the KJV translates here as “put difference” is hibdil, the same verb that appears in the Creation account in Genesis 1.'
+  - where: 'note 1:4 “Creation by dividing”'
+    claim: 'Priests making distinctions are engaged in divine behavior'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'Leviticus shows that when priests are making these kinds of distinctions, they are engaged in divine behavior.'
+  - where: 'note 1:4 “Creation by dividing”'
+    claim: 'Badal is used of the Lord setting Israel apart from other peoples, Lev. 20:24, 26'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/914.htm'
+    quote: 'setting off Israel from other peoples Leviticus 20:24 (H) Numbers 16:9 (P); Leviticus 20:26'
+
+  # ---------- 1:5 day ----------
+  - where: 'note 1:5 “How long is a day?”'
+    claim: 'BDB: yom in Gen. 1 is a day as defined by evening and morning'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3117.htm'
+    quote: 'day as defined by evening and morning Genesis 1:5,8,13,19,23,31'
+  - where: 'note 1:5 “How long is a day?”'
+    claim: 'BDB: in Gen. 2:4 “in the day” means the time of, the act represented vividly as a single day'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3117.htm'
+    quote: '= the time of (forcible and pregnantly, representing the act vividly as that of a single day): (1) before infinitive'
+  - where: 'note 1:5 “How long is a day?”'
+    claim: 'BDB lists Gen. 2:4 under beyom before an infinitive'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3117.htm'
+    quote: 'בְּיוֺם Genesis 2:4,17'
+  - where: 'note 1:5 “How long is a day?”'
+    claim: 'Nelson: creation periods called days in Genesis and Moses, times in Abraham'
+    key: nelson-creation-2000
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2000/04/the-creation?lang=eng'
+    quote: 'In Genesis and Moses, those periods are called days. But in the book of Abraham, each period is referred to as a time.'
+  - where: 'note 1:5 “How long is a day?”'
+    claim: 'Nelson: each phase a period between two identifiable events'
+    key: nelson-creation-2000
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2000/04/the-creation?lang=eng'
+    quote: 'Whether termed a day, a time, or an age, each phase was a period between two identifiable events—a division of eternity.'
+  - where: 'note 1:5 “How long is a day?”'
+    claim: 'We do not know how long the Creation took'
+    key: scripture-helps-gen-1-2
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/02-genesis-1-2-moses-2-3-abraham-4-5?lang=eng'
+    quote: 'Using our measurement of time, we do not know how long it took God to create the earth.'
+  - where: 'note 1:5 “How long is a day?”'
+    claim: 'The Church has no official position on evolution (2025)'
+    key: scripture-helps-gen-1-2
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/02-genesis-1-2-moses-2-3-abraham-4-5?lang=eng'
+    quote: 'The scriptures teach that Adam was the first man. Some have wondered how to reconcile this truth with the theory of organic evolution. The Church has no official position on the theory of evolution.'
+  - where: 'note 1:5 “How long is a day?”'
+    claim: 'Organic evolution is a matter for scientific study; nothing has been revealed on it'
+    key: new-era-evolution-2016
+    url: 'https://www.churchofjesuschrist.org/study/new-era/2016/10/to-the-point/what-does-the-church-believe-about-evolution?lang=eng'
+    quote: 'Organic evolution, or changes to species’ inherited traits over time, is a matter for scientific study. Nothing has been revealed concerning evolution.'
+  - where: 'note 1:5 “How long is a day?”'
+    claim: 'What is taught: all are descendants of Adam and Eve; no spirit children of the Father on earth before them'
+    key: new-era-evolution-2016
+    url: 'https://www.churchofjesuschrist.org/study/new-era/2016/10/to-the-point/what-does-the-church-believe-about-evolution?lang=eng'
+    quote: 'We are all descendants of Adam and Eve, our first parents, who were created in God’s image. There were no spirit children of Heavenly Father on the earth before Adam and Eve were created.'
+  - where: 'note 1:5 “How long is a day?”'
+    claim: 'Scripture Helps (2025) repeats the same teaching'
+    key: scripture-helps-gen-1-2
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/02-genesis-1-2-moses-2-3-abraham-4-5?lang=eng'
+    quote: 'We are all descendants of Adam and Eve, our first parents, who were created in God’s image. There were no spirit children of Heavenly Father on the earth before Adam and Eve were created.'
+
+  # ---------- 1:6 firmament ----------
+  - where: 'note 1:6 “The firmament”'
+    claim: 'Raqia: extended surface, (solid) expanse, as if beaten out; regarded by Hebrews as solid, supporting waters'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7549.htm'
+    quote: 'extended surface, (solid) expanse (as if beaten out; compare Job 37:18)'
+  - where: 'note 1:6 “The firmament”'
+    claim: 'Septuagint stereoma, Vulgate firmamentum'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7549.htm'
+    quote: 'στερέωμα, ᵑ9 firmamentum'
+  - where: 'note 1:6 “The firmament”'
+    claim: 'BDB: the vault of heaven regarded by Hebrews as solid, supporting waters above it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7549.htm'
+    quote: 'the vault of heaven, or ''firmament,'' regarded by Hebrews as solid, and supporting ''waters'' above it'
+  - where: 'note 1:6 “The firmament”'
+    claim: 'English firmament from Latin firmamentum, from firmus'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/firmament'
+    quote: 'Latin firmamentum, from firmus, firmo.'
+  - where: 'note 1:6 “The firmament”'
+    claim: 'Church edition footnote on firmament: HEB expanse'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng'
+    quote: 'HEB expanse. Moses 2:6 (6–8); Abr. 4:6 (6–8)'
+  - where: 'note 1:6 “The firmament”'
+    claim: 'Raqia from a root meaning to beat out, as a metal plate; ancient Israel spoke of waters above because of rain'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'This word comes from a Hebrew root that means “to beat out,” as in beating out a metal plate.'
+  - where: 'note 1:6 “The firmament”'
+    claim: 'The waters above were inferred from rain'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'The ancient Israelites speak of waters above because of the clear example of falling rain.'
+  - where: 'note 1:6 “The firmament”'
+    claim: 'The word raqia reflects how Genesis pictures the sky, as a surface separating the waters'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'This is how Genesis understands the sky—a flat surface that separates the waters above from the waters below.'
+  - where: 'note 1:6 “The firmament”'
+    claim: 'Nelson: waters divided between earth’s surface and atmospheric heavens; provision for clouds and rain'
+    key: nelson-creation-2000
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2000/04/the-creation?lang=eng'
+    quote: 'In period two, the waters were divided between the surface of the earth and its atmospheric heavens. Provision was made for clouds and rain to give life to all that would later dwell upon the earth.'
+  - where: 'note 1:6 “The firmament”'
+    claim: 'The separation created a space in which the rest of the earth could be established'
+    key: belnap-beginning
+    url: 'https://rsc.byu.edu/creation-sinai/beginning'
+    quote: 'This act created a space in which the rest of the earth could be established'
+
+  # ---------- 1:14 signs and seasons ----------
+  - where: 'note 1:14 “Signs and seasons”'
+    claim: 'Moed: appointed time; in particular a sacred season, set feast'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4150.htm'
+    quote: 'appointed time, place, meeting'
+  - where: 'note 1:14 “Signs and seasons”'
+    claim: 'Moed: sacred season, set feast'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4150.htm'
+    quote: 'sacred season, RV usually set feast or appointed'
+  - where: 'note 1:14 “Signs and seasons”'
+    claim: 'In Gen. 1:14 moed most probably means the sacred seasons fixed by the moon, though many take it as the seasons of the year'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4150.htm'
+    quote: 'It is most probable that in Genesis 1:14 (P), where … the reference is to the sacred seasons as fixed by moon''s appearance … although many Lexicons & Commentaries refer these to the seasons of the year'
+  - where: 'note 1:14 “Signs and seasons”'
+    claim: 'Gen. 1:14 has le-mo‘adim'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/1-14.htm'
+    quote: 'וּלְמ֣וֹעֲדִ֔ים and for appointed times'
+  - where: 'note 1:14 “Signs and seasons”'
+    claim: 'The lights order time on earth; “signs” is unclear but points to a use for humankind'
+    key: belnap-beginning
+    url: 'https://rsc.byu.edu/creation-sinai/beginning'
+    quote: 'Complementing their function as time measures, the astronomical objects also function as “signs.” What is meant exactly is not clear, but it hints of a function useful primarily to humankind'
+
+  # ---------- 1:16 unnamed lights ----------
+  - where: 'note 1:16 “Why not the sun and moon?”'
+    claim: 'One reading: the names were omitted possibly to avoid naming heavenly bodies that were worshipped'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/1.htm'
+    quote: 'the names of “sun” and “moon” are omitted: possibly in order to avoid reference by name to heavenly bodies whose worship was a source of idolatrous superstition, from the peril of which Israel was not free.'
+
+  # ---------- 1:21 great whales ----------
+  - where: 'note 1:21 “The great sea creatures”'
+    claim: 'Tannin: serpent, dragon, sea-monster; Gen. 1:21; Ps. 74:13; Isa. 27:1; Isa. 51:9 with Rahab as mythological personification of chaos'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8577.htm'
+    quote: 'sea- (or river-) monster, Genesis 1:21 (P); figurative Job 7:12; Psalm 74:13 (i.e. Egyptains), Isaiah 27:1; Isaiah 51:9 ("" רַהַב, mythological personification of chaos)'
+  - where: 'note 1:21 “The great sea creatures”'
+    claim: 'The KJV “great whales” followed the Septuagint and Vulgate'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/1.htm'
+    quote: 'The translation of the A.V., “great whales,” was based upon the versions LXX τὰ κήτη τὰ μεγάλα, Vulg. cete grandia'
+  - where: 'note 1:21 “The great sea creatures”'
+    claim: 'Church edition footnote: HEB great sea monsters'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng'
+    quote: 'HEB great sea monsters.'
+  - where: 'note 1:21 “The great sea creatures”'
+    claim: 'In the ancient Near East creation was told as a battle with a chaos monster equated with the ocean'
+    key: sc-knowhy-400
+    url: 'https://scripturecentral.org/knowhy/why-do-we-have-three-different-accounts-of-the-creation'
+    quote: 'Throughout the ancient Near East, the Creation was described in terms of a battle between the warrior god and the chaos monster, which was often equated with the ocean.'
+  - where: 'note 1:21 “The great sea creatures”'
+    claim: 'In Genesis 1 God brings everything into existence by speaking'
+    key: sc-knowhy-400
+    url: 'https://scripturecentral.org/knowhy/why-do-we-have-three-different-accounts-of-the-creation'
+    quote: 'In Genesis 1 , God caused everything to come into existence simply by speaking'
+  - where: 'note 1:21 “The great sea creatures”'
+    claim: 'Bara in Gen. 1 occurs in verses 1, 21, 27 (objects: heaven and earth, the tanninim, mankind)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1254.htm'
+    quote: 'the תנינים Genesis 1:21 (P)'
+  - where: 'note 1:21 “The great sea creatures”'
+    claim: 'Bara in v. 21 marks a new departure when animal life is first given'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/1.htm'
+    quote: 'It signalizes a new departure of the Divine work, when the principle of animal life (nephesh) is first communicated on earth'
+
+  # ---------- 1:26 Let us ----------
+  - where: 'note 1:26 “God in council”'
+    claim: '“Let us make” is first-person plural'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/1-26.htm'
+    quote: 'Let Us make V‑Qal‑Imperf.h‑1cp'
+  - where: 'note 1:26 “God in council”'
+    claim: '“in our image” carries a first-person plural suffix'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/1-26.htm'
+    quote: 'in Our image Prep‑b ¦ N‑msc ¦ 1cp'
+  - where: 'note 1:26 “God in council”'
+    claim: 'Verse 27 returns to the singular: “in His image,” “He created”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/1-27.htm'
+    quote: 'in His image Prep‑b ¦ N‑msc ¦ 3ms'
+  - where: 'note 1:26 “God in council”'
+    claim: 'The divine council in the OT: 1 Kgs 22:19 (Micaiah), Jer. 23:18'
+    key: sc-knowhy-832
+    url: 'https://scripturecentral.org/knowhy/why-are-other-people-with-god-when-he-is-planning-the-creation'
+    quote: 'In this scene, the prophet Micaiah is reporting on what he saw when he witnessed a divine council scene of Yahweh sitting on a throne surrounded by advisors.'
+  - where: 'note 1:26 “God in council”'
+    claim: 'The plural may be explained by the ancient idea of the divine council'
+    key: sc-knowhy-832
+    url: 'https://scripturecentral.org/knowhy/why-are-other-people-with-god-when-he-is-planning-the-creation'
+    quote: 'One possible explanation for the plural in these verses may come from the ancient idea of the divine council.'
+  - where: 'note 1:26 “God in council”'
+    claim: '“Let us” appears to reflect the divine assembly led by God, not polytheism'
+    key: belnap-beginning
+    url: 'https://rsc.byu.edu/creation-sinai/beginning'
+    quote: 'Though it may be tempting to read this as an indication that Israel worshipped more than one deity, it appears to reflect their understanding of the function of the divine assembly that was led by God'
+  - where: 'note 1:26 “God in council”'
+    claim: 'Joseph Smith (1844): the head God called together the Gods in grand council to contemplate the creation'
+    key: jsp-discourse-1844-04-07
+    url: 'https://www.josephsmithpapers.org/paper-summary/discourse-7-april-1844-as-published-in-times-and-seasons/3'
+    quote: 'The head God called together the Gods, and set in grand council. The grand counsellors sat in yonder heavens, and contemplated the creation of the worlds that were created at that time.'
+  - where: 'note 1:26 “God in council”'
+    claim: 'The sermon is the discourse of 7 April 1844 as published in the Times and Seasons'
+    key: jsp-discourse-1844-04-07
+    url: 'https://www.josephsmithpapers.org/paper-summary/discourse-7-april-1844-as-published-in-times-and-seasons/3'
+    quote: 'I will make a comment on the very first sentence of the history of creation in the Bible'
+  - where: 'note 1:26 “God in council”'
+    claim: 'Michael (Adam) participated in the creation'
+    key: nelson-creation-2000
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2000/04/the-creation?lang=eng'
+    quote: 'Latter-day revelation affirms that Michael (known also as Adam; see D&C 27:11; 107:54; 128:21) participated in the process of creation as well.'
+
+  # ---------- 1:26 image ----------
+  - where: 'note 1:26 “In the image of God”'
+    claim: 'Tselem: image, something cut out; used of idols and images; of God making man in his image, and of Gen. 5:3'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6754.htm'
+    quote: 'image (something cut out'
+  - where: 'note 1:26 “In the image of God”'
+    claim: 'Tselem used of images of heathen gods'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6754.htm'
+    quote: 'especially of heathen gods'
+  - where: 'note 1:26 “In the image of God”'
+    claim: 'Demut: likeness of external appearance; of son in likeness of father Gen. 5:3; of man in likeness of God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1823.htm'
+    quote: 'likeness, similitude, of external appearance'
+  - where: 'note 1:26 “In the image of God”'
+    claim: 'Demut used of son in likeness of father (Gen. 5:3) and man in likeness of God (Gen. 1:26)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1823.htm'
+    quote: 'of son in likeness of father Genesis 5:3 (P); so also of man in likeness of God Genesis 1:26'
+  - where: 'note 1:26 “In the image of God”'
+    claim: 'Image denotes physical representation; Gen. 5:3 shows similarity in physical form; Israel understood God to look like man'
+    key: belnap-beginning
+    url: 'https://rsc.byu.edu/creation-sinai/beginning'
+    quote: 'The first term, ṣelem, or image, denotes an actual, physical representation and is used elsewhere to designate an idol.'
+  - where: 'note 1:26 “In the image of God”'
+    claim: 'Ancient Israel understood God to have at least looked like man'
+    key: belnap-beginning
+    url: 'https://rsc.byu.edu/creation-sinai/beginning'
+    quote: 'Thus, both terms indicate that ancient Israel understood God to have at least looked like man'
+  - where: 'note 1:26 “In the image of God”'
+    claim: 'Latter-day Saints read the verses as humanity’s body like God’s, close to the likely ancient conception; much debate in Judaism and Christianity'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'Latter-day Saints have traditionally read them as referring to humanity’s physical body being like God’s.'
+  - where: 'note 1:26 “In the image of God”'
+    claim: 'The Latter-day Saint reading reflects the likely ancient conception'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'Latter-day Saint readings reflect something very similar to the likely ancient conception of these verses.'
+  - where: 'note 1:26 “In the image of God”'
+    claim: 'There has been much discussion of these verses in Christianity and Judaism'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'There has been, of course, much discussion in both Christianity and Judaism about the interpretation of these verses'
+  - where: 'note 1:26 “In the image of God”'
+    claim: 'In Gen. 1, females are not derivative; both are in God’s image'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'Females are not a derivative form of males but are an independent part of Creation, and both are created in the image of God.'
+
+  # ---------- 1:28 replenish ----------
+  - where: 'note 1:28 “Replenish”'
+    claim: 'The verb in 1:28 is the same as “fill” in 1:22 (male, imperative)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4390.htm'
+    quote: 'be full, fill'
+  - where: 'note 1:28 “Replenish”'
+    claim: 'The same Hebrew form occurs in 1:22 and 1:28'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וּ/מִלְא֤וּ'
+  - where: 'note 1:28 “Replenish”'
+    claim: 'Church edition footnote: HEB fill; same word in v. 22'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng'
+    quote: 'HEB fill; see same word in v. 22.'
+  - where: 'note 1:28 “Replenish”'
+    claim: 'Webster 1828: replenish = to fill, to stock; cites Gen. 1:28'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/replenish'
+    quote: 'To fill; to stock with numbers or abundance. The magazines are replenished with corn. The springs are replenished with water. Multiply and replenish the earth. Genesis 1:28.'
+
+  # ---------- 1:28 dominion ----------
+  - where: 'note 1:28 “Subdue and have dominion”'
+    claim: 'Kabash: subdue, bring into bondage; subdue, dominate the earth Gen. 1:28'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3533.htm'
+    quote: 'subdue, bring into bondage'
+  - where: 'note 1:28 “Subdue and have dominion”'
+    claim: 'Kabash of the earth in Gen. 1:28 and of conquest'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3533.htm'
+    quote: 'subdue, dominate, the earth Genesis 1:28 (P), Zechariah 9:15 (of conquest)'
+  - where: 'note 1:28 “Subdue and have dominion”'
+    claim: 'Radah: have dominion, rule, dominate; used in Lev. 25:43 and Ezek. 34:4'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7287.htm'
+    quote: 'have dominion, rule, dominate'
+  - where: 'note 1:28 “Subdue and have dominion”'
+    claim: 'Radah occurs in Lev. 25:43 and Ezek. 34:4'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7287.htm'
+    quote: 'Leviticus 25:43,46,53; Leviticus 26:17; Ezekiel 29:15; Nehemiah 9:28; Psalm 49:15; ב of fish, etc., Genesis 1:26,28'
+  - where: 'note 1:28 “Subdue and have dominion”'
+    claim: 'Radah in Ezek. 34:4 with accusative of person'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7287.htm'
+    quote: 'with accusative of person Ezekiel 34:4'
+  - where: 'note 1:28 “Subdue and have dominion”'
+    claim: 'Radah is the verb for Solomon’s overseers in 1 Kgs. 5:16 (English numbering)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/1_kings/5-16.htm'
+    quote: 'הָרֹדִ֣ים … those ruling'
+  - where: 'note 1:28 “Subdue and have dominion”'
+    claim: 'The verbs also describe construction overseers; compassionate authority, not tyrannical domination'
+    key: belnap-beginning
+    url: 'https://rsc.byu.edu/creation-sinai/beginning'
+    quote: 'at least one reference uses the same designation to describe construction overseers, which suggests the terms did not necessarily mean tyrannical domination'
+  - where: 'note 1:28 “Subdue and have dominion”'
+    claim: 'This allows reading the verbs as compassionate authority'
+    key: belnap-beginning
+    url: 'https://rsc.byu.edu/creation-sinai/beginning'
+    quote: 'This perspective allows for these verbs to be seen through a lens of compassionate authority'
+  - where: 'note 1:28 “Subdue and have dominion”'
+    claim: 'Humanity given authority akin to the Creator’s'
+    key: belnap-beginning
+    url: 'https://rsc.byu.edu/creation-sinai/beginning'
+    quote: 'humanity is given authority akin to that of the Creator himself'
+  - where: 'note 1:28 “Subdue and have dominion”'
+    claim: 'Dominion in Genesis is not absolute or unrighteous; the earth is not here to despoil'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'The dominion described in Genesis is not an absolute or unrighteous dominion.'
+  - where: 'note 1:28 “Subdue and have dominion”'
+    claim: 'The earth is not here for humans to despoil'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'The earth is not here for humans to despoil.'
+
+  # ---------- 1:29 meat ----------
+  - where: 'note 1:29 “Meat”'
+    claim: 'Meat in older English: food in general'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/meat'
+    quote: 'Food in general; any thing eaten for nourishment, either by man or beast.'
+  - where: 'note 1:29 “Meat”'
+    claim: 'Church edition footnote: HEB food'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng'
+    quote: 'HEB food. Moses 2:29 (29–30); Abr. 4:29 (29–30).'
+
+  # ---------- 1:31 very good ----------
+  - where: 'note 1:31 “Very good”'
+    claim: '“Good” (tov) occurs in Gen. 1:4, 10, 12, 18, 21, 25, 31'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'ט֖וֹב מְאֹ֑ד'
+  - where: 'note 1:31 “Very good”'
+    claim: 'Declaring things good means they fulfill their divine purpose and function'
+    key: belnap-beginning
+    url: 'https://rsc.byu.edu/creation-sinai/beginning'
+    quote: 'the declaration that the aspects of the Creation are good represents a fundamental and crucial observation that the objects noted are fulfilling their divine purpose and function.'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'Living Christ: Jesus Christ created the earth under the Father’s direction'
+    key: living-christ
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/the-living-christ-the-testimony-of-the-apostles/the-living-christ-the-testimony-of-the-apostles?lang=eng'
+    quote: 'Under the direction of His Father, He was the creator of the earth.'
+  - where: christ
+    claim: 'Mosiah 3:8 is the angel’s words as reported by King Benjamin'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/3?lang=eng'
+    quote: 'And he shall be called Jesus Christ, the Son of God, the Father of heaven and earth, the Creator of all things from the beginning'
+
+  # ---------- explore ----------
+  - where: explore
+    claim: 'The RSC chapter treats Genesis 1–3 in its ancient Near Eastern setting for Latter-day Saints'
+    key: belnap-beginning
+    url: 'https://rsc.byu.edu/creation-sinai/beginning'
+    quote: 'Dan Belnap describes what creation meant to those of the ancient Near East and how that understanding continues to provide a template of salvation for God’s family.'
+
+  # ---------- sections (plain renderings that depart from the KJV wording) ----------
+  - where: section 2 plain
+    claim: 'Firmament rendered “expanse”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng'
+    quote: 'HEB expanse.'
+  - where: section 5 plain
+    claim: 'Great whales rendered “great sea creatures”; the waters to swarm with living creatures'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng'
+    quote: 'HEB swarm with swarms of living creatures (souls).'
+  - where: section 6 plain
+    claim: 'Replenish rendered “fill”; meat rendered “food”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng'
+    quote: 'HEB fill; see same word in v. 22.'
+
+  # ---------- added in reconciliation ----------
+  - where: setting
+    claim: 'The books of Moses make no claim about their authorship'
+    key: shannon-genesis-creation
+    url: 'https://byustudies.byu.edu/article/the-genesis-creation-account-in-its-ancient-context'
+    quote: 'they make no claims about authorship at all and are all written in the third person'
+  - where: setting
+    claim: 'The first “These are the generations” is at Gen. 2:4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng'
+    quote: 'These are the generations of the heavens and of the earth when they were created'
+  - where: thread
+    claim: 'BDB lists Isa. 45:18 (“created it not in vain”) under tohu, formlessness of the primeval earth'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8414.htm'
+    quote: 'Isaiah 45:18 בְרָאָהּ ׳לֹא ת'
+  - where: 'note 1:21 “The great sea creatures”'
+    claim: 'Verse 21 uses bara (wayyibra) with the tanninim as object; elsewhere in Gen. 1 bara occurs only in verses 1 and 27'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/יִּבְרָ֣א אֱלֹהִ֔ים אֶת־הַ/תַּנִּינִ֖ם'
+  - where: christ
+    claim: 'Benjamin’s words in Mosiah 3 were made known to him by an angel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/3?lang=eng'
+    quote: 'And the things which I shall tell you are made known unto me by an angel from God.'
+  - where: parallels
+    claim: 'Moses 2 is part of the Joseph Smith Translation'
+    key: bd-genesis
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/genesis?lang=eng'
+    quote: 'The Joseph Smith Translation especially, a portion of which is presented in the book of Moses'
+  - where: parallels
+    claim: 'Abraham 4 calls each creative period a time'
+    key: nelson-creation-2000
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2000/04/the-creation?lang=eng'
+    quote: 'But in the book of Abraham, each period is referred to as a time.'
+  - where: section 1 plain
+    claim: '“Without form, and void” rendered “unformed and empty”'
+    key: belnap-beginning
+    url: 'https://rsc.byu.edu/creation-sinai/beginning'
+    quote: 'a state in which material was present, but in an unorganized, unformed, state'
+  - where: section 1 plain
+    claim: '“Moved” rendered “hovered”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7363.htm'
+    quote: 'hovering over face of waters'
+  - where: section 4 plain
+    claim: '“Seasons” rendered “appointed times”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/1-14.htm'
+    quote: 'and for appointed times'
+  - where: section 6 plain
+    claim: '“Meat” rendered “food”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng'
+    quote: 'HEB food.'
