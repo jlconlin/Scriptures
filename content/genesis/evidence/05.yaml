@@ -1,0 +1,518 @@
+chapter: 5
+claims:
+  # ---------- when / setting ----------
+  - where: 'when'
+    claim: 'The Bible Chronology gives no years before Abraham; the ancient texts disagree on the early numbers'
+    key: bd-chronology
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-chron/introduction?lang=eng'
+    quote: 'the Hebrew Bible, the Septuagint or Greek translation, and the Samaritan Pentateuch do not agree together, so that many dates cannot be fixed with certainty'
+  - where: 'setting'
+    claim: 'Genesis is built on family records beginning “These are the generations”'
+    key: bd-genesis
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/genesis?lang=eng'
+    quote: 'The structure of the book of Genesis rests on several genealogies. Each new section begins “These are the generations,”'
+  - where: 'setting'
+    claim: 'From here the history follows Seth’s line to Noah'
+    key: bd-genesis
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/genesis?lang=eng'
+    quote: 'the history follows the fortunes of Seth, whose descendants are traced in genealogical succession as far as Noah'
+  - where: 'setting'
+    claim: 'Gen. 2:4 is the first “generations” heading'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng'
+    quote: 'These are the generations of the heavens and of the earth when they were created'
+  - where: 'setting'
+    claim: 'The chapter lists ten generations, Adam to Noah'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/5.htm'
+    quote: 'the genealogical table of Adam with the names of the first ten patriarchs'
+  - where: 'setting'
+    claim: 'The Book of Moses gives the same list (Moses 6:8–25; 8:1–12)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/6?lang=eng'
+    quote: 'And this was the book of the generations of Adam, saying: In the day that God created man, in the likeness of God made he him'
+  - where: 'setting'
+    claim: 'The Book of Moses greatly expands the few verses on Enoch (Moses 6:26–7:69)'
+    key: bd-enoch
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/enoch?lang=eng'
+    quote: 'The biblical account of Enoch is scanty. It tells us that he was translated but gives nothing of the details of his ministry.'
+  - where: 'setting'
+    claim: 'D&C 107 gives the same names as the priesthood line, with ages at ordination'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/107?lang=eng'
+    quote: 'This order was instituted in the days of Adam, and came down by lineage in the following manner'
+  - where: 'setting'
+    claim: '1 Chronicles opens with these names'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/1?lang=eng'
+    quote: 'Adam, Sheth, Enosh, Kenan, Mahalaleel, Jered, Henoch, Methuselah, Lamech, Noah, Shem, Ham, and Japheth.'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: '“And he died” ends the other entries (vv. 5, 8, 11, 14, 17, 20, 27, 31); Enoch’s entry breaks the pattern'
+    key: ludlow-enoch
+    url: 'https://rsc.byu.edu/creation-sinai/enoch-old-testament-beyond'
+    quote: 'These other descriptions (Genesis 5:5, 8, 11, 14, 17, 20, 27, 31) end with phrases like “and he died.”'
+  - where: 'thread'
+    claim: 'The other ancestors in the list face the Fall and taste death; Enoch is the exception'
+    key: ludlow-enoch
+    url: 'https://rsc.byu.edu/creation-sinai/enoch-old-testament-beyond'
+    quote: 'This interpretation is in direct opposition to how the other ancestors in the genealogical list are described as they faced the reality of the Fall and tasted death.'
+  - where: 'thread'
+    claim: 'Cain’s line in chapter 4 is given without ages'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/5.htm'
+    quote: 'In the genealogy of the Cainites no ages are given'
+  - where: 'thread'
+    claim: 'Lamech’s “toil” is the word of the curse on the ground in Gen. 3:17'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6093.htm'
+    quote: 'absolute Genesis 3:17 toil; construct עִצְּבוֺן יָדֵינוּ Genesis 5:29 (both of agriculture)'
+
+  # ---------- section plain ----------
+  - where: 'section 1 plain'
+    claim: 'Adam (adam) means man, mankind'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/120.htm'
+    quote: 'man, mankind'
+
+  # ---------- note 5:1 ----------
+  - where: 'note 5:1 “A written family record”'
+    claim: 'Sefer means a document, writing, book'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5612.htm'
+    quote: 'missive, document, writing, book'
+  - where: 'note 5:1 “A written family record”'
+    claim: 'Toledot means an account of a man and his descendants; used at 2:4, 5:1, 6:9'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8435.htm'
+    quote: 'generations, especially in Genealogies = account of a man and his descendants'
+  - where: 'note 5:1 “A written family record”'
+    claim: 'Toledot heads the accounts at 5:1 and 6:9'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8435.htm'
+    quote: 'a. account of men and their descendants Genesis 5:1; Genesis 6:9'
+  - where: 'note 5:1 “A written family record”'
+    claim: 'The Hebrew of 5:1 reads sefer toledot adam'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/5-1.htm'
+    quote: 'sê·p̄er, … the book … tō·wl·ḏōṯ … of the generations'
+  - where: 'note 5:1 “A written family record”'
+    claim: 'Moses 6 identifies the genealogy kept by the faithful as the book of the generations of Adam'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/6?lang=eng'
+    quote: 'a genealogy was kept of the children of God. And this was the book of the generations of Adam'
+
+  # ---------- note 5:3 ----------
+  - where: 'note 5:3 “In his father’s likeness”'
+    claim: 'Gen. 5:3 has bidmuto ketsalmo, likeness then image'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/5-3.htm'
+    quote: 'biḏ·mū·ṯōw … in his own likeness … kə·ṣal·mōw; … after his image'
+  - where: 'note 5:3 “In his father’s likeness”'
+    claim: 'Gen. 1:26 has betsalmenu kidmutenu, image then likeness'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/1-26.htm'
+    quote: 'bə·ṣal·mê·nū … in Our image … kiḏ·mū·ṯê·nū; … according to Our likeness'
+
+  # ---------- note 5:5 lifespans ----------
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'The scriptures do not explain the long lifespans'
+    key: scripture-helps-gen-5
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/04-genesis-5-moses-6?lang=eng'
+    quote: 'The Bible records that Adam and some of his descendants lived extremely long lives. The scriptures do not clearly explain the reason for these long lifespans.'
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'After the Flood the ages decrease over several generations'
+    key: scripture-helps-gen-5
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/04-genesis-5-moses-6?lang=eng'
+    quote: 'After the Flood account, the ages of major figures are recorded as decreasing across several generations until they approach the lifespans we recognize today.'
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'Some see 2 Ne. 2:21 as a reason'
+    key: scripture-helps-gen-5
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/04-genesis-5-moses-6?lang=eng'
+    quote: 'Some see 2 Nephi 2:21 as providing a reason for the long lifespans of the early posterity of Adam and Eve'
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'Ancient Near Eastern recordkeepers gave important figures long lifespans'
+    key: scripture-helps-gen-5
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/04-genesis-5-moses-6?lang=eng'
+    quote: 'In the ancient Near East, some recordkeepers would attribute long lifespans to important figures, apparently as a way of expressing how important they were'
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'Joseph Smith changed some ages but kept the long lifespans'
+    key: scripture-helps-gen-5
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/04-genesis-5-moses-6?lang=eng'
+    quote: 'When Joseph Smith dictated his new translation of the Bible, he changed some ages of the patriarchs but preserved their unusually long lifespans.'
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'Scripture Helps cites Jackson and Swift for the JST ages'
+    key: scripture-helps-gen-5
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/04-genesis-5-moses-6?lang=eng'
+    quote: 'See Kent P. Jackson and Charles Swift, “The Ages of the Patriarchs in the Joseph Smith Translation,”'
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'The Septuagint has Adam 230 at Seth’s birth and 700 years after'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/5.htm'
+    quote: 'And Adam lived two hundred and thirty years, and begot a son after his own form'
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'The Septuagint has Adam 230 at Seth’s birth and 700 years after'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/5.htm'
+    quote: 'And the days of Adam, which he lived after his begetting Seth, were seven hundred years'
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'The Septuagint differs from the Hebrew in seventeen places in these ages'
+    key: jackson-swift-ages
+    url: 'https://rsc.byu.edu/witness-restoration/ages-patriarchs-joseph-smith-translation'
+    quote: 'In the ages of the Patriarchs, the Septuagint differs from the current Hebrew Bible in seventeen places, but none agree with the changes made by Joseph Smith.'
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'The Samaritan Pentateuch differs again'
+    key: jackson-swift-ages
+    url: 'https://rsc.byu.edu/witness-restoration/ages-patriarchs-joseph-smith-translation'
+    quote: 'It contains much younger ages for three of the Patriarchs at the births of their sons and modifies their total years after those births.'
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'Joseph Smith dictated fourteen revisions to the ages from Adam to Methuselah'
+    key: jackson-swift-ages
+    url: 'https://rsc.byu.edu/witness-restoration/ages-patriarchs-joseph-smith-translation'
+    quote: 'the Prophet dictated to him fourteen revisions to the translation of Genesis 5 in which he changed the ages of the early Patriarchs from Adam to Methuselah'
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'The corrections came some time after the first dictation'
+    key: jackson-swift-ages
+    url: 'https://rsc.byu.edu/witness-restoration/ages-patriarchs-joseph-smith-translation'
+    quote: 'Sometime after Cowdery’s return from that mission, the Prophet dictated to him fourteen revisions'
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'Joseph Smith continued the work on OT2, the copy'
+    key: jackson-swift-ages
+    url: 'https://rsc.byu.edu/witness-restoration/ages-patriarchs-joseph-smith-translation'
+    quote: 'it was on OT2 that his scribes recorded the translation to the end of Malachi and the further refinements, additions, and corrections to the Genesis text translated earlier'
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'The translation was first printed in 1867'
+    key: jackson-swift-ages
+    url: 'https://rsc.byu.edu/witness-restoration/ages-patriarchs-joseph-smith-translation'
+    quote: 'In 1867 the Reorganized Church of Jesus Christ of Latter Day Saints published an edited version of Joseph Smith’s Bible translation in book form'
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'Every change was an addition'
+    key: jackson-swift-ages
+    url: 'https://rsc.byu.edu/witness-restoration/ages-patriarchs-joseph-smith-translation'
+    quote: 'The only constant factor among the changes is that each one is an addition, with no subtractions.'
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'Adam’s total was changed to 1000'
+    key: jackson-swift-ages
+    url: 'https://rsc.byu.edu/witness-restoration/ages-patriarchs-joseph-smith-translation'
+    quote: 'all the days that Adam lived were 930 &lt;1000&gt; years'
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'The changes were written only on OT1, never copied to OT2'
+    key: jackson-swift-ages
+    url: 'https://rsc.byu.edu/witness-restoration/ages-patriarchs-joseph-smith-translation'
+    quote: 'thus the new changes on OT1 never were copied onto OT2'
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'All but one were removed in the 1867 printing; Moses 8:1 kept'
+    key: jackson-swift-ages
+    url: 'https://rsc.byu.edu/witness-restoration/ages-patriarchs-joseph-smith-translation'
+    quote: 'Among those that were removed were all of the corrections to the ages of the Patriarchs except one. The correction now at Moses 8:1, “And all the days of Enoch were 430 years,” was retained'
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'The Book of Moses was taken from the 1867 printing'
+    key: jackson-swift-ages
+    url: 'https://rsc.byu.edu/witness-restoration/ages-patriarchs-joseph-smith-translation'
+    quote: 'Elder Orson Pratt of the Quorum of the Twelve Apostles took the text of what we now call the Book of Moses directly out of the 1867 RLDS Inspired Version'
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'Joseph Smith’s numbers are not in any ancient text'
+    key: jackson-swift-ages
+    url: 'https://rsc.byu.edu/witness-restoration/ages-patriarchs-joseph-smith-translation'
+    quote: 'Joseph Smith’s changes in the ages of the Patriarchs are not found in ancient biblical texts and versions'
+  - where: 'note 5:5 “Did they really live so long?”'
+    claim: 'Different lists of the ages circulated in antiquity'
+    key: jackson-swift-ages
+    url: 'https://rsc.byu.edu/witness-restoration/ages-patriarchs-joseph-smith-translation'
+    quote: 'The divergent numbers show, however, that different lists of the ages were in circulation in biblical times.'
+
+  # ---------- note 5:5 and he died ----------
+  - where: 'note 5:5 “In the day that thou eatest”'
+    claim: 'Adam died within one Kolob day, a thousand years; Moses 6:12 gives 930'
+    key: pgp-manual-abr-4-5
+    url: 'https://www.churchofjesuschrist.org/study/manual/the-pearl-of-great-price-student-manual-2018/the-book-of-abraham/facsimiles-2-3-abraham-4-5?lang=eng'
+    quote: 'Adam did, however, die within the period of one Kolob day (one thousand earth years, as measured after the Fall; see Abraham 3:4'
+  - where: 'note 5:5 “In the day that thou eatest”'
+    claim: 'Adam did not die within a twenty-four hour day'
+    key: pgp-manual-abr-4-5
+    url: 'https://www.churchofjesuschrist.org/study/manual/the-pearl-of-great-price-student-manual-2018/the-book-of-abraham/facsimiles-2-3-abraham-4-5?lang=eng'
+    quote: 'After Adam and Eve partook of the fruit, they did not die physically within a twenty-four hour period, as we now measure a day.'
+  - where: 'note 5:5 “In the day that thou eatest”'
+    claim: 'Edward Stevenson recorded in his autobiography that Joseph Smith taught Adam died just short of 1000 years, one day of the Lord'
+    key: jackson-swift-ages
+    url: 'https://rsc.byu.edu/witness-restoration/ages-patriarchs-joseph-smith-translation'
+    quote: 'was within 6 month of 1000 years old, which is one day with the Lord’s time thus fulfilling the Lords decree'
+  - where: 'note 5:5 “In the day that thou eatest”'
+    claim: 'Stevenson wrote it in the context of a sermon by Joseph Smith'
+    key: jackson-swift-ages
+    url: 'https://rsc.byu.edu/witness-restoration/ages-patriarchs-joseph-smith-translation'
+    quote: 'wrote the following in his autobiography in the context of a sermon by Joseph Smith about Adam and his priesthood'
+  - where: 'note 5:5 “In the day that thou eatest”'
+    claim: 'Stevenson’s account is in his autobiography and may reflect Joseph Smith’s teaching'
+    key: jackson-swift-ages
+    url: 'https://rsc.byu.edu/witness-restoration/ages-patriarchs-joseph-smith-translation'
+    quote: 'An early Latter-day Saint source may reflect Joseph Smith’s teaching on the age of Adam. Edward Stevenson (1820–97), an early Church member, pioneer, and member of the First Council of the Seventy, wrote the following in his autobiography'
+
+  # ---------- note 5:22 ----------
+  - where: 'note 5:22 “Walking with God”'
+    claim: 'The verb is the Hitpael of halak'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/5-22.htm'
+    quote: 'way·yiṯ·hal·lêḵ … And walked … V‑Hitpael‑ConsecImperf‑3ms'
+  - where: 'note 5:22 “Walking with God”'
+    claim: 'Walking with God, of Enoch and Noah, denotes intimacy and fellowship'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1980.htm'
+    quote: 'of Enoch and Noah … (denoting intimacy, fellowship: all P)'
+  - where: 'note 5:22 “Walking with God”'
+    claim: 'The LORD God “walking” in the garden is the same (Hitpael) form'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/3-8.htm'
+    quote: 'walking about … V‑Hitpael‑Prtcpl‑ms'
+  - where: 'note 5:22 “Walking with God”'
+    claim: 'Walking with God means obedience and a close relationship, possibly literal presence as in Eden'
+    key: ludlow-enoch
+    url: 'https://rsc.byu.edu/creation-sinai/enoch-old-testament-beyond'
+    quote: 'Walking with God seems to denote not only obedience but also a close relationship with God that may have included walking (literally) in God’s presence, such as what Adam and Eve did'
+  - where: 'note 5:22 “Walking with God”'
+    claim: 'The Septuagint renders “Enoch was well-pleasing to God”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/5.htm'
+    quote: 'And Enoch was well-pleasing to God, and was not found, because God translated him.'
+  - where: 'note 5:22 “Walking with God”'
+    claim: 'The Hebrew speaks of walking with God, the Septuagint of pleasing God'
+    key: ludlow-enoch
+    url: 'https://rsc.byu.edu/creation-sinai/enoch-old-testament-beyond'
+    quote: 'It is worth noting that the Hebrew text of Genesis 5:22, 24 focuses on Enoch “walking with God,” while the Septuagint emphasizes that'
+  - where: 'note 5:22 “Walking with God”'
+    claim: 'Hebrews follows the Septuagint’s “pleased God”'
+    key: ludlow-enoch
+    url: 'https://rsc.byu.edu/creation-sinai/enoch-old-testament-beyond'
+    quote: 'The author of Hebrews draws on this Septuagint description.'
+
+  # ---------- note 5:23 ----------
+  - where: 'note 5:23 “365 years, or 430?”'
+    claim: 'In D&C 107:49 the 365 years are how long Enoch walked with the Lord, added to his 65'
+    key: ludlow-enoch
+    url: 'https://rsc.byu.edu/creation-sinai/enoch-old-testament-beyond'
+    quote: 'in Doctrine and Covenants 107:49, 365 years is how long he walked with the Lord on the earth, which is then added to Enoch’s age (65) when he was given a second blessing from Adam'
+  - where: 'note 5:23 “365 years, or 430?”'
+    claim: 'The JST uses 365 for the days of Zion; Enoch was 430 at translation, as Moses 8:1'
+    key: jackson-swift-ages
+    url: 'https://rsc.byu.edu/witness-restoration/ages-patriarchs-joseph-smith-translation'
+    quote: 'Thus Enoch would have been at least 430 years old when he was translated, in agreement with the OT1 change at Moses 8:1 in the Pearl of Great Price.'
+  - where: 'note 5:23 “365 years, or 430?”'
+    claim: 'Moses 8:1 is the one surviving correction to the ages'
+    key: jackson-swift-ages
+    url: 'https://rsc.byu.edu/witness-restoration/ages-patriarchs-joseph-smith-translation'
+    quote: 'Only one of the changes to the ages of the Patriarchs is in the current Book of Moses'
+  - where: 'note 5:23 “365 years, or 430?”'
+    claim: 'Enoch was 65 when Adam blessed him (and when Methuselah was born, Gen. 5:21)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/107?lang=eng'
+    quote: 'Enoch was twenty-five years old when he was ordained under the hand of Adam; and he was sixty-five and Adam blessed him.'
+
+  # ---------- note 5:24 ----------
+  - where: 'note 5:24 “Taken without death”'
+    claim: '’enennu means “he was no more”; laqach “had taken”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/5-24.htm'
+    quote: 'wə·’ê·nen·nū … and he was no more … lā·qaḥ … had taken'
+  - where: 'note 5:24 “Taken without death”'
+    claim: 'BDB groups laqach in 5:24 with the LORD taking Elijah (2 Kgs 2:3)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3947.htm'
+    quote: 'is about to take away thy lord from over thy head … Genesis 5:24 (P)'
+  - where: 'note 5:24 “Taken without death”'
+    claim: 'Elijah is another example of God taking up (laqach) a living human'
+    key: ludlow-enoch
+    url: 'https://rsc.byu.edu/creation-sinai/enoch-old-testament-beyond'
+    quote: 'There is another Old Testament example of God taking up (laqach) another living human, Elijah, from the earth.'
+  - where: 'note 5:24 “Taken without death”'
+    claim: 'Genesis describes a living body taken to heaven (translated)'
+    key: ludlow-enoch
+    url: 'https://rsc.byu.edu/creation-sinai/enoch-old-testament-beyond'
+    quote: 'Genesis’s description of Enoch seems to be in this sense: a living body being taken up to heaven (translated) by God.'
+  - where: 'note 5:24 “Taken without death”'
+    claim: 'The Septuagint reads “God translated him”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/5.htm'
+    quote: 'and was not found, because God translated him'
+  - where: 'note 5:24 “Taken without death”'
+    claim: 'Hebrews uses the same Greek verb as the Septuagint; “that he should not see death” is not in the Septuagint'
+    key: ludlow-enoch
+    url: 'https://rsc.byu.edu/creation-sinai/enoch-old-testament-beyond'
+    quote: 'is the same term that is used in the Septuagint to describe what God did to Enoch in Genesis 5:24. The phrase “that he should not see death” is not present in the Septuagint'
+  - where: 'note 5:24 “Taken without death”'
+    claim: 'Hebrews makes explicit that Enoch left the earth without death'
+    key: ludlow-enoch
+    url: 'https://rsc.byu.edu/creation-sinai/enoch-old-testament-beyond'
+    quote: 'its presence here makes explicit the fact that God’s “taking” of Enoch meant that he left earth without death'
+  - where: 'note 5:24 “Taken without death”'
+    claim: 'Enoch’s whole city was translated'
+    key: bd-enoch
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/enoch?lang=eng'
+    quote: 'We also note that not only Enoch but also his entire city was translated.'
+
+  # ---------- note 5:25 ----------
+  - where: 'note 5:25 “Not the Lamech of chapter 4”'
+    claim: 'Lamech is seventh from Adam through Cain (Adam, Cain, Enoch, Irad, Mehujael, Methusael, Lamech)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/4?lang=eng'
+    quote: 'And unto Enoch was born Irad: and Irad begat Mehujael: and Mehujael begat Methusael: and Methusael begat Lamech.'
+  - where: 'note 5:25 “Not the Lamech of chapter 4”'
+    claim: 'Cain’s line has no ages'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/5.htm'
+    quote: 'In the genealogy of the Cainites no ages are given'
+  - where: 'note 5:25 “Not the Lamech of chapter 4”'
+    claim: 'One reading: godliness peaks in Enoch, seventh through Seth; ungodliness in Lamech, seventh through Cain'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/5.htm'
+    quote: 'In Enoch, the seventh from Adam through Seth, godliness attained its highest point; whilst ungodliness culminated in Lamech, the seventh from Adam through Cain'
+
+  # ---------- note 5:27 ----------
+  - where: 'note 5:27 “Methuselah and the Flood”'
+    claim: 'Methuselah was the longest lived of the patriarchs'
+    key: bd-methuselah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/methuselah?lang=eng'
+    quote: 'Son of Enoch and the longest lived of the patriarchs'
+  - where: 'note 5:27 “Methuselah and the Flood”'
+    claim: 'Noah was 600 at the Flood (187 + 182 + 600 = 969)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/7?lang=eng'
+    quote: 'And Noah was six hundred years old when the flood of waters was upon the earth.'
+  - where: 'note 5:27 “Methuselah and the Flood”'
+    claim: 'Methuselah died in the year of the Flood; some have thought him wicked'
+    key: ot-manual-gen-4-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-4-11-the-patriarchs?lang=eng'
+    quote: 'A careful examination of the record of the patriarchs in this section of Genesis shows that Methuselah died in the year of the Flood. Some have wondered why he was not taken on the ark with Noah and have concluded that he may have been wicked.'
+  - where: 'note 5:27 “Methuselah and the Flood”'
+    claim: 'He may have been translated once his work was done (a possibility)'
+    key: ot-manual-gen-4-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-4-11-the-patriarchs?lang=eng'
+    quote: 'Once his work was done he may have been translated too'
+  - where: 'note 5:27 “Methuselah and the Flood”'
+    claim: 'Methuselah was righteous, a prophet, and left on earth to provide Noah’s line'
+    key: bd-methuselah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/methuselah?lang=eng'
+    quote: 'he was a righteous man, a prophet, and an astronomer and was left on the earth when the city of Enoch was taken to provide a posterity through which Noah would come'
+  - where: 'note 5:27 “Methuselah and the Flood”'
+    claim: 'The Samaritan text shortens the lives so that the deaths fall before the Flood'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/5.htm'
+    quote: 'the reason for reducing the lives of Jared, Methuselah, and Lamech in the Samaritan text after the birth of their sons, was evidently to bring their deaths within the time before the flood'
+  - where: 'note 5:27 “Methuselah and the Flood”'
+    claim: 'By the Vatican Septuagint’s numbers Methuselah outlives the Flood by 14 years'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/5.htm'
+    quote: 'according to the numbers of the Vatican text, Methuselah must have lived 14 years after the flood'
+  - where: 'note 5:27 “Methuselah and the Flood”'
+    claim: 'One reading: the Alexandrian Septuagint’s age for Methuselah is explained on the same ground (to keep his death before the Flood)'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/5.htm'
+    quote: 'The age of Methuselah, as given in the Cod. Alex. of the lxx, is evidently to be accounted for on the same ground'
+  - where: 'note 5:27 “Methuselah and the Flood”'
+    claim: 'The Samaritan text reduces the years of Jared, Methuselah, and Lamech after their sons’ births'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/5.htm'
+    quote: 'the reason for reducing the lives of Jared, Methuselah, and Lamech in the Samaritan text after the birth of their sons'
+  - where: 'note 5:27 “Methuselah and the Flood”'
+    claim: 'Septuagint numbers: Methuselah 167 at Lamech’s birth, Lamech 188 at Noah’s'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/5.htm'
+    quote: 'And Mathusala lived an hundred and sixty and seven years, and begot Lamech.'
+  - where: 'note 5:27 “Methuselah and the Flood”'
+    claim: 'Septuagint numbers: Lamech 188 at Noah’s birth'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/5.htm'
+    quote: 'And Lamech lived an hundred and eighty and eight years, and begot a son.'
+
+  # ---------- note 5:29 ----------
+  - where: 'note 5:29 “Noah: rest and comfort”'
+    claim: 'The Hebrew: noach; yenachamenu, “shall give us comfort”; “and from the toil”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/5-29.htm'
+    quote: 'נֹ֖חַ … Noah … יְנַחֲמֵ֤נוּ … shall give us comfort'
+  - where: 'note 5:29 “Noah: rest and comfort”'
+    claim: 'Noah is played on with the related root nwḥ, “rest”'
+    key: bowen-two-noahs
+    url: 'https://journal.interpreterfoundation.org/this-son-shall-comfort-us-an-onomastic-tale-of-two-noahs/'
+    quote: 'interplays the form nōaḥ with forms of the related root nwḥ (to “rest”)'
+  - where: 'note 5:29 “Noah: rest and comfort”'
+    claim: 'Nacham: be sorry, console; Piel comfort'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5162.htm'
+    quote: 'be sorry, console, oneself'
+  - where: 'note 5:29 “Noah: rest and comfort”'
+    claim: 'Genesis 5:29 gives the traditional etymology of Noah'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5146.htm'
+    quote: 'Genesis 5:29 (where traditional etymology)'
+  - where: 'note 5:29 “Noah: rest and comfort”'
+    claim: 'Genesis plays on Noah with nwḥ “rest” and nḥm “comfort, regret”'
+    key: bowen-two-noahs
+    url: 'https://journal.interpreterfoundation.org/this-son-shall-comfort-us-an-onomastic-tale-of-two-noahs/'
+    quote: 'the partly homonymous and partly synonymous but distinct verbal root nḥm (to “regret” or “be sorry”; “console oneself,” or “comfort” someone)'
+  - where: 'note 5:29 “Noah: rest and comfort”'
+    claim: 'The wordplay runs through 6:6–7, 8:4, 8:21 (sweet savour)'
+    key: bowen-two-noahs
+    url: 'https://journal.interpreterfoundation.org/this-son-shall-comfort-us-an-onomastic-tale-of-two-noahs/'
+    quote: 'The wordplay then shifts from nḥm to nwḥ (“rest”), with the ark coming to “rest” (wattānaḥ, Genesis 8:4)'
+  - where: 'note 5:29 “Noah: rest and comfort”'
+    claim: 'The wordplay runs through 6:6–7, 8:4, 8:21 (sweet savour)'
+    key: bowen-two-noahs
+    url: 'https://journal.interpreterfoundation.org/this-son-shall-comfort-us-an-onomastic-tale-of-two-noahs/'
+    quote: 'of the sacrifice that appeased the Lord after the flood (Genesis 8:21)'
+  - where: 'note 5:29 “Noah: rest and comfort”'
+    claim: 'Gen. 6:6 “repented” is nacham'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5162.htm'
+    quote: 'Genesis 6:6 HEB: וַיִּנָּ֣חֶם יְהוָ֔ה'
+  - where: 'note 5:29 “Noah: rest and comfort”'
+    claim: 'The Septuagint renders “This one will cause us to cease”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/5.htm'
+    quote: 'This one will cause us to cease from our works, and from the toils of our hands'
+  - where: 'note 5:29 “Noah: rest and comfort”'
+    claim: '‘Itstsabon, “toil,” is the word of Gen. 3:17'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6093.htm'
+    quote: 'absolute Genesis 3:17 toil; construct עִצְּבוֺן יָדֵינוּ Genesis 5:29 (both of agriculture)'
+  - where: 'note 5:29 “Noah: rest and comfort”'
+    claim: 'Moses 7:48–49 plays on Noah’s name with “rest”'
+    key: bowen-two-noahs
+    url: 'https://journal.interpreterfoundation.org/this-son-shall-comfort-us-an-onomastic-tale-of-two-noahs/'
+    quote: 'The twofold repetition of “rest” with the name “Noah” (“rest”) in Moses 7:48‒49 constitutes yet another play on the meaning of the name Noah.'
+  - where: 'note 5:29 “Noah: rest and comfort”'
+    claim: 'The rest comes through Noah’s seed, but not for a very long time'
+    key: bowen-two-noahs
+    url: 'https://journal.interpreterfoundation.org/this-son-shall-comfort-us-an-onomastic-tale-of-two-noahs/'
+    quote: 'Any forthcoming “rest” for the suffering earth will come through Noah’s seed, and in particular through Messiah, his suffering descendant, but not for a very long time.'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'The rest comes through Noah’s seed, the Messiah'
+    key: bowen-two-noahs
+    url: 'https://journal.interpreterfoundation.org/this-son-shall-comfort-us-an-onomastic-tale-of-two-noahs/'
+    quote: 'Any forthcoming “rest” for the suffering earth will come through Noah’s seed, and in particular through Messiah, his suffering descendant'
+  - where: 'christ'
+    claim: 'Moses 7:53 promises the Messiah through the seed of Enoch and Noah'
+    key: bowen-two-noahs
+    url: 'https://journal.interpreterfoundation.org/this-son-shall-comfort-us-an-onomastic-tale-of-two-noahs/'
+    quote: 'The Lord then adds the promise that the Messiah — he himself — would come into the world as the “seed” of both Enoch and later Noah.'
+  - where: 'christ'
+    claim: 'Matt. 11:28 (the Lord’s rest) cited in connection with the rest and comfort tied to Noah’s name'
+    key: bowen-two-noahs
+    url: 'https://journal.interpreterfoundation.org/this-son-shall-comfort-us-an-onomastic-tale-of-two-noahs/'
+    quote: 'Cf. especially Matthew 11:28‒30: “Come unto me, all ye that labour and are heavy laden, and I will give you rest.'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: 'Ludlow’s chapter surveys Enoch in the Bible, later texts, and the Restoration'
+    key: ludlow-enoch
+    url: 'https://rsc.byu.edu/creation-sinai/enoch-old-testament-beyond'
+    quote: 'He then explores the insights provided by Joseph Smith and recorded in Joseph’s translations of the Bible and the Book of Moses.'
+
+  # ---------- parallels ----------
+  - where: 'parallels'
+    claim: 'Moses 8:1–12 continues the list from Enoch to Noah’s sons'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8?lang=eng'
+    quote: 'And Noah was four hundred and fifty years old, and begat Japheth; and forty-two years afterward he begat Shem of her who was the mother of Japheth, and when he was five hundred years old he begat Ham.'
