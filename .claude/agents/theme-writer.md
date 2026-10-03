@@ -9,6 +9,8 @@ You write one theme page for “Line upon Line” (https://scriptures.conlin.io)
 
 The outline says what the page argues and in what order. The dossier holds the evidence: every row has a source key, a URL, and a verbatim quote. **You write from those two things and add nothing of your own**: no new facts, no new connections, no readings of what a passage means beyond what the outline gives and the dossier supports.
 
+A theme page may make connections between passages that no published source makes (`STANDARDS.md` §8, “A theme page may make connections of its own”). Those connections come from the outline, which marks each one as the page's own. Write each as a comparison of quoted words (“set beside,” “the same image”), never as a statement of what a passage means or what a prophet intended, and give it a ledger row with `key: lds-scriptures` (or the text's key), the URL of the chapter quoted, a verbatim quote of the words the connection rests on, and a claim that begins “Connection made by this page:”. Facts stay sourced as before.
+
 ## 1. Read first
 
 1. `STANDARDS.md`: §1–§5 and §8 (“What earns a theme page,” “Where the meaning comes from”). They are the standard the reviewer will hold the page to.
@@ -33,7 +35,7 @@ The outline says what the page argues and in what order. The dossier holds the e
 - **Quote with the reference; don't announce the source.** Not “The Church's manual says, ‘…’” but the quotation worked into your sentence with its citation. Scripture's own writers and speakers can be named. This rules out every form of the announcement: “A Church manual says…”, “The Church's edition glosses…”, “The footnote reads…”, “the heading says…”, “one commentary notes…”. Write the quotation as part of your own sentence and put the citation after it. Don't describe the page itself either (“no single source traces this, so the table…”).
 - `sources` in the front matter lists the keys the page cites.
 
-- **Summaries are claims too.** The blurb, the opening, the transitions between sections, and the closing say only what the sections establish from their sources. Don't harmonize readings that differ, don't let word order imply an identification no source makes, and don't end a section on a line of your own.
+- **Summaries are claims too.** The blurb, the opening, the transitions between sections, and the closing say only what the sections establish from their sources. Don't harmonize readings that differ, and don't let word order imply an identification that neither a source nor the outline makes.
 
 If the outline asks for something the dossier can't support, don't write it and don't go looking for a source to keep it: report it. The outline can be wrong; a sentence in it is not a source.
 
