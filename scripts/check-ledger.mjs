@@ -54,7 +54,7 @@ async function fetchPage(url) {
   if (!fresh && existsSync(file) && Date.now() - statSync(file).mtimeMs < 86400e3) html = await readFile(file, 'utf8');
   for (let attempt = 0; html === null && attempt < 3; attempt++) {
     try {
-      const out = execFileSync('curl', ['-sL', '-m', '60', '-A', 'Mozilla/5.0', url], { maxBuffer: 64e6 }).toString();
+      const out = execFileSync('curl', ['-sgL', '-m', '60', '-A', 'Mozilla/5.0', url], { maxBuffer: 64e6 }).toString();
       if (out.length > 200) html = out;
     } catch {}
     if (html === null) await new Promise((r) => setTimeout(r, 1500 * (attempt + 1)));
