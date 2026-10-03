@@ -1,0 +1,801 @@
+chapter: 6
+claims:
+  # ---------- when / setting ----------
+  - where: 'when'
+    claim: 'Noah was five hundred at the end of chapter 5 and six hundred when the Flood came'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/7?lang=eng'
+    quote: 'And Noah was six hundred years old when the flood of waters was upon the earth.'
+  - where: 'setting'
+    claim: 'Genesis is built on sections that begin “These are the generations”; the Bible Dictionary gives chapters 4–9 to Noah'
+    key: bd-genesis
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/genesis?lang=eng'
+    quote: 'The structure of the book of Genesis rests on several genealogies. Each new section begins “These are the generations,”'
+  - where: 'setting'
+    claim: 'The Bible Dictionary’s division for Noah is Genesis 4–9'
+    key: bd-genesis
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/genesis?lang=eng'
+    quote: 'Noah ( Gen. 4–9 ). The line of Cain branching off'
+  - where: 'setting'
+    claim: 'The Book of Moses is part of the Joseph Smith Translation'
+    key: bd-genesis
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/genesis?lang=eng'
+    quote: 'The Joseph Smith Translation especially, a portion of which is presented in the book of Moses'
+  - where: 'setting'
+    claim: 'Moses 8 adds that Noah was ordained and sent to declare the gospel, and that the people sought his life'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8?lang=eng'
+    quote: 'commanded him that he should go forth and declare his Gospel unto the children of men, even as it was given unto Enoch'
+  - where: 'setting'
+    claim: 'Later scripture returns to Noah (Isaiah, Ezekiel, Matthew, Hebrews, Peter); latter-day revelation confirms the account'
+    key: bd-noah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/noah?lang=eng'
+    quote: 'The authenticity of the Genesis account of the Flood is confirmed by latter-day revelation as recorded in Moses 7:34, 42–43 ; 8:8–30'
+  - where: 'setting'
+    claim: 'Other references to Noah include Isaiah 54:9 and Ezekiel 14:14'
+    key: bd-noah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/noah?lang=eng'
+    quote: 'Other references to Noah are Isa. 54:9 ; Ezek. 14:14, 20 ; Matt. 24:37–38'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'Genesis 1:31 opens “and God saw … and behold” (vayyar Elohim … vehinneh)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/1-31.htm'
+    quote: 'way·yar וַיַּ֤רְא And saw'
+  - where: 'thread'
+    claim: 'Genesis 1:31 continues “and behold, very good”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/1-31.htm'
+    quote: 'wə·hin·nêh- וְהִנֵּה־ and behold'
+  - where: 'thread'
+    claim: 'Genesis 6:12 opens “and God saw”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-12.htm'
+    quote: 'way·yar וַיַּ֧רְא And saw'
+  - where: 'thread'
+    claim: 'Genesis 6:12 opens with the same words, “and God saw … and behold”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-12.htm'
+    quote: 'wə·hin·nêh וְהִנֵּ֣ה and behold'
+  - where: 'thread'
+    claim: '“God saw … and behold” in 6:12 reverses the verdict of 1:31'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: '“The Lord saw” is a reversal of the positive evaluation of everything God created ([Genesis] 1:31)'
+  - where: 'thread'
+    claim: 'What had been declared good in the Creation was now reversed and undone through wickedness'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'All that had been declared “good” by God in creation was now reversed and undone through wickedness.'
+  - where: 'thread'
+    claim: 'Verse 7 uses the language of Creation (man, beast, creeping things, fowls of the air)'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'Genesis 6:7 and Moses 8:26 set the stage for covenantal restoration as they employ the language of Creation ( man , beast , creeping things , and fowls of the air )'
+  - where: 'thread'
+    claim: 'The Flood is commonly read as a re-creation, paralleling the Creation'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'It is commonly accepted in biblical studies that the flood constitutes a re-creation of life, paralleling the context and language of the creation stories in Genesis.'
+  - where: 'thread'
+    claim: 'In Genesis 5:29 “comfort” is the verb nacham'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/5-29.htm'
+    quote: 'יְנַחֲמֵ֤נוּ shall give us comfort'
+  - where: 'thread'
+    claim: 'In Genesis 5:29 “toil” is ‘itstsavon (letters ‘-ts-b)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/5-29.htm'
+    quote: 'ū·mê·‘iṣ·ṣə·ḇō·wn וּמֵעִצְּב֣וֹן and from the toil'
+  - where: 'thread'
+    claim: 'In 6:6 “repented” is the same verb nacham'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-6.htm'
+    quote: 'way·yin·nā·ḥem וַיִּנָּ֣חֶם And regretted'
+  - where: 'thread'
+    claim: 'The verb “grieved” in 6:6 is the root of the “toil” of 5:29'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'is paralleled by the anguish of God (the verb ʿṣb, “it grieved him,” v. 6)'
+  - where: 'thread'
+    claim: 'In 6:6 “grieved” is from the letters ‘-ts-b'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-6.htm'
+    quote: 'way·yiṯ·‘aṣ·ṣêḇ וַיִּתְעַצֵּ֖ב and He was grieved'
+  - where: 'thread'
+    claim: 'Genesis 6:18 is the first time the word covenant (berit) appears in the Bible'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'see Genesis 6:18 for the first instance of the Hebrew word'
+
+  # ---------- section plains ----------
+  - where: 'section 2 plain'
+    claim: '“Repented” rendered “was sorry”; nacham means be sorry, rue'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5162.htm'
+    quote: 'be sorry, rue, suffer grief, repent , of one''s own doings'
+  - where: 'section 2 plain'
+    claim: '“Imagination” rendered as what the heart devised; yetser is imagination, device, purpose'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3336.htm'
+    quote: 'imagination, device, purpose'
+  - where: 'section 2 plain'
+    claim: '“Grace” rendered “favor”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2580.htm'
+    quote: 'favour, grace'
+  - where: 'section 3 plain'
+    claim: '“Perfect” rendered “of complete integrity”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8549.htm'
+    quote: 'sound, wholesome, unimpaired, innocent, having integrity'
+  - where: 'section 3 plain'
+    claim: '“Generations” rendered “family history”'
+    key: bd-genesis
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/genesis?lang=eng'
+    quote: 'there follows a genealogical list of certain portions of family history'
+  - where: 'section 4 plain'
+    claim: 'The “window” may be a roof'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6672.htm'
+    quote: 'noun feminine probably roof'
+
+  # ---------- note 6:2 ----------
+  - where: 'note 6:2 “Who were the sons of God?”'
+    claim: 'The Hebrew phrase is bene ha-Elohim'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-2.htm'
+    quote: 'hā·’ĕ·lō·hîm הָֽאֱלֹהִים֙ of God'
+  - where: 'note 6:2 “Who were the sons of God?”'
+    claim: 'In Job the phrase “sons of God” is used of angels'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/6.htm'
+    quote: 'in Job 1:6 ; Job 2:1 , and Job 38:7 , and in Daniel 3:25 , are unquestionably angels'
+  - where: 'note 6:2 “Who were the sons of God?”'
+    claim: 'Readings of the phrase include angels and the godly line of Seth'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/6.htm'
+    quote: 'being regarded as (a) the sons of princes, (b) angels, (c) the Sethites or godly men'
+  - where: 'note 6:2 “Who were the sons of God?”'
+    claim: 'The phrase cannot be settled by language alone'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/6.htm'
+    quote: 'cannot be elucidated by philological means, but must be interpreted by theology alone'
+  - where: 'note 6:2 “Who were the sons of God?”'
+    claim: 'Scripture also calls God’s people His sons (Hos. 1:10)'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/6.htm'
+    quote: 'in Deuteronomy 32:5 the Israelites are called His (God''s) sons, and in Hosea 1:10 , "sons of the living God;"'
+  - where: 'note 6:2 “Who were the sons of God?”'
+    claim: '1 Enoch retells the verses as angels lusting after women'
+    key: charles-1-enoch
+    url: 'https://archive.org/download/apocryphapseudep02charuoft/apocryphapseudep02charuoft_djvu.txt'
+    quote: 'And the angels, the children of the heaven, saw and lusted after them'
+  - where: 'note 6:2 “Who were the sons of God?”'
+    claim: 'The 1 Enoch story arises from Genesis 6:1–4'
+    key: charles-1-enoch
+    url: 'https://archive.org/download/apocryphapseudep02charuoft/apocryphapseudep02charuoft_djvu.txt'
+    quote: 'The entire myth of the angels and the daughters of men in Enoch arises from Gen. vi. 1-4'
+  - where: 'note 6:2 “Who were the sons of God?”'
+    claim: '1 Enoch was written before Christ (about 250–100 BC)'
+    key: sc-knowhy-835
+    url: 'https://scripturecentral.org/knowhy/why-does-genesis-say-that-enoch-walked-with-god-and-that-god-took-him'
+    quote: 'The oldest surviving apocryphal text about Enoch, 1 Enoch, was likely written over time between roughly 250 and 100 BC'
+  - where: 'note 6:2 “Who were the sons of God?”'
+    claim: 'Moses 8:13–15, 21: Noah and his sons were called the sons of God; the daughters of Noah’s sons married the sons of men'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8?lang=eng'
+    quote: 'And the Lord said unto Noah: The daughters of thy sons have sold themselves'
+  - where: 'note 6:2 “Who were the sons of God?”'
+    claim: 'Joseph Fielding Smith: the daughters of priesthood holders married out of the Church'
+    key: ot-manual-gen-4-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-4-11-the-patriarchs?lang=eng'
+    quote: 'the daughters of the sons of God, that is to say of those who held the priesthood, were transgressing the commandment of the Lord and were marrying out of the Church'
+
+  # ---------- note 6:3 strive ----------
+  - where: 'note 6:3 “Will not always strive”'
+    claim: 'The Hebrew verb is yadon'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-3.htm'
+    quote: 'yā·ḏō·wn יָד֨וֹן shall strive'
+  - where: 'note 6:3 “Will not always strive”'
+    claim: 'The verb is dubious and occurs only here'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1777.htm'
+    quote: 'verb dubious; only in'
+  - where: 'note 6:3 “Will not always strive”'
+    claim: 'The ancient versions read “abide in, dwell”: My spirit will not abide in man for ever'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1777.htm'
+    quote: 'abide in, dwell , — My spirit will not abide in man for ever'
+  - where: 'note 6:3 “Will not always strive”'
+    claim: 'The Septuagint reads “remain among”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/6.htm'
+    quote: 'My Spirit shall certainly not remain among these men for ever, because they are flesh'
+  - where: 'note 6:3 “Will not always strive”'
+    claim: 'Moses 8:17 keeps “strive” and adds “for he shall know that all flesh shall die”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8?lang=eng'
+    quote: 'My Spirit shall not always strive with man, for he shall know that all flesh shall die'
+
+  # ---------- note 6:3 120 years ----------
+  - where: 'note 6:3 “A hundred and twenty years to repent”'
+    claim: 'Many scholars with only Genesis read the verse as a shortened lifespan'
+    key: ot-manual-gen-4-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-4-11-the-patriarchs?lang=eng'
+    quote: 'Many scholars, who have only Genesis to study, believe that this statement prophesied the shortened life expectancy that would take place after the Flood.'
+  - where: 'note 6:3 “A hundred and twenty years to repent”'
+    claim: 'One commentary without the Book of Moses reads the 120 years as a respite, not a lifespan'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/6.htm'
+    quote: 'not that human life should in future never attain a greater age than 120 years, but that a respite of 120 years should still be granted to the human race'
+  - where: 'note 6:3 “A hundred and twenty years to repent”'
+    claim: 'The sentence was to be published by Noah as “preacher of righteousness”'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/6.htm'
+    quote: 'to be published by him as "preacher of righteousness"'
+  - where: 'note 6:3 “A hundred and twenty years to repent”'
+    claim: 'The Church’s reading: the 120 years were the time allotted for Noah to preach repentance'
+    key: scripture-helps-gen-6-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/06-moses-6-11-moses-8?lang=eng'
+    quote: 'The book of Moses clarifies that 120 years was the amount of time God allotted for Noah to preach repentance before He sent the Flood.'
+  - where: 'note 6:3 “A hundred and twenty years to repent”'
+    claim: 'Moses 8:17: if men do not repent, the floods will come'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8?lang=eng'
+    quote: 'yet his days shall be an hundred and twenty years; and if men do not repent, I will send in the floods upon them'
+
+  # ---------- note 6:4 giants ----------
+  - where: 'note 6:4 “Giants, or fallen ones?”'
+    claim: 'The Hebrew word is nephilim'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-4.htm'
+    quote: 'han·nə·p̄i·lîm הַנְּפִלִ֞ים The Nephilim'
+  - where: 'note 6:4 “Giants, or fallen ones?”'
+    claim: '“Giants” follows the Septuagint’s gigantes'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5303.htm'
+    quote: 'noun masculine plural giants , according to'
+  - where: 'note 6:4 “Giants, or fallen ones?”'
+    claim: 'The Septuagint reads “giants”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/6.htm'
+    quote: 'Now the giants were upon the earth in those days'
+  - where: 'note 6:4 “Giants, or fallen ones?”'
+    claim: 'The etymology is dubious; all conjectures very precarious'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5303.htm'
+    quote: 'etymology dubious'
+  - where: 'note 6:4 “Giants, or fallen ones?”'
+    claim: 'All proposed etymologies are very precarious'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5303.htm'
+    quote: 'all very precarious'
+  - where: 'note 6:4 “Giants, or fallen ones?”'
+    claim: 'The word looks like a form of naphal, “to fall”'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'a root meaning “to fall,” perhaps as in “fallen one”'
+  - where: 'note 6:4 “Giants, or fallen ones?”'
+    claim: 'The only other passage with the word is Numbers 13:33'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5303.htm'
+    quote: 'Numbers 13:33 (JE)'
+  - where: 'note 6:4 “Giants, or fallen ones?”'
+    claim: 'One reading: from naphal “fall upon,” men who fell upon and oppressed the people (tyrants)'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/6.htm'
+    quote: 'they were called Nephilim because they fell upon the people and oppressed them'
+  - where: 'note 6:4 “Giants, or fallen ones?”'
+    claim: 'The Church’s newest reading: nephilim can mean “fallen ones”; stature unclear; perhaps a description of their fallen spiritual state'
+    key: scripture-helps-moses-7
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/05-moses-7?lang=eng'
+    quote: 'can also mean “fallen ones.” It is not clear if these people were large in stature, and the term may simply have been a description of their fallen spiritual state.'
+  - where: 'note 6:4 “Giants, or fallen ones?”'
+    claim: 'Moses 8:18: the giants sought Noah’s life'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8?lang=eng'
+    quote: 'And in those days there were giants on the earth, and they sought Noah to take away his life'
+  - where: 'note 6:4 “Giants, or fallen ones?”'
+    claim: 'The word may refer to apostates who had fallen from the truth'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'may not have reference to tall people but rather to apostates who had fallen from the truth'
+  - where: 'note 6:4 “Giants, or fallen ones?”'
+    claim: 'Moses 8:21: “men of great renown” is the people’s boast'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8?lang=eng'
+    quote: 'And our wives bear unto us children, and the same are mighty men, which are like unto men of old, men of great renown.'
+
+  # ---------- note 6:5 ----------
+  - where: 'note 6:5 “The imagination of the heart”'
+    claim: '“Imagination” is yetser'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-5.htm'
+    quote: 'yê·ṣer יֵ֙צֶר֙ inclination'
+  - where: 'note 6:5 “The imagination of the heart”'
+    claim: 'Yetser can mean a potter’s vessel, “formed by the potter”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3336.htm'
+    quote: 'pottery , formed by the potter'
+  - where: 'note 6:5 “The imagination of the heart”'
+    claim: 'Yetser: what is framed in the mind, imagination, device, purpose'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3336.htm'
+    quote: 'of what is framed in the mind'
+  - where: 'note 6:5 “The imagination of the heart”'
+    claim: 'The same word is used in Genesis 8:21'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3336.htm'
+    quote: 'Genesis 8:21 (J)'
+  - where: 'note 6:5 “The imagination of the heart”'
+    claim: '“Continually” is literally “all the day”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-5.htm'
+    quote: 'kāl- כָּל־ all … hay·yō·wm. הַיּֽוֹם׃ the day'
+
+  # ---------- note 6:6 repented ----------
+  - where: 'note 6:6 “Can God repent?”'
+    claim: 'The verb is nacham'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-6.htm'
+    quote: 'way·yin·nā·ḥem וַיִּנָּ֣חֶם And regretted'
+  - where: 'note 6:6 “Can God repent?”'
+    claim: 'Nacham: be sorry, moved to pity, have compassion'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5162.htm'
+    quote: 'be sorry, moved to pity, have compassion , for others'
+  - where: 'note 6:6 “Can God repent?”'
+    claim: 'Nacham: be sorry, rue, suffer grief, repent of one’s own doings'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5162.htm'
+    quote: 'be sorry, rue, suffer grief, repent , of one''s own doings'
+  - where: 'note 6:6 “Can God repent?”'
+    claim: 'A different Hebrew word is used for remorse for sin'
+    key: scripture-helps-gen-6-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/06-moses-6-11-moses-8?lang=eng'
+    quote: 'A different Hebrew word is used when indicating remorse for sin and is the one more often translated as “repent” in the Old Testament.'
+  - where: 'note 6:6 “Can God repent?”'
+    claim: 'Joseph Smith, 15 October 1843: he believed the Bible as it came from the original writers; Gen. 6:6 conflicts with Num. 23:19'
+    key: jsp-history-e1
+    url: 'https://www.josephsmithpapers.org/paper-summary/history-1838-1856-volume-e-1-1-july-1843-30-april-1844/127'
+    quote: 'I believe the bible as it read when it came from the pen of the original writers'
+  - where: 'note 6:6 “Can God repent?”'
+    claim: 'Joseph Smith: it ought to read “it repented Noah that God made man”'
+    key: jsp-history-e1
+    url: 'https://www.josephsmithpapers.org/paper-summary/history-1838-1856-volume-e-1-1-july-1843-30-april-1844/127'
+    quote: 'which I do not believe; but it ought to read ‘it repented Noah that God made man’ This I believe, and then the other quotation stands fair.'
+  - where: 'note 6:6 “Can God repent?”'
+    claim: 'The discourse was given in 1843 (15 October)'
+    key: jsp-history-e1
+    url: 'https://www.josephsmithpapers.org/paper-summary/history-1838-1856-volume-e-1-1-july-1843-30-april-1844/127'
+    quote: 'October 15'
+  - where: 'note 6:6 “Can God repent?”'
+    claim: 'Moses 8:25 reads “it repented Noah”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8?lang=eng'
+    quote: 'And it repented Noah, and his heart was pained that the Lord had made man on the earth'
+  - where: 'note 6:6 “Can God repent?”'
+    claim: 'The Septuagint: God laid it to heart and pondered it deeply'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/6.htm'
+    quote: 'then God laid it to heart that he had made man upon the earth, and he pondered it deeply'
+  - where: 'note 6:6 “Can God repent?”'
+    claim: 'Genesis 6:6 and Moses 8:25 show God and Noah filled with pity'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'Genesis 6:6 and Moses 8:25 depict both God and Noah being filled with pity toward the wicked state of the people'
+  - where: 'note 6:6 “Can God repent?”'
+    claim: 'The Lord is not repenting of creating His children but is about to have compassion on them'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'The Lord is not repenting for creating his children; rather, he is about to have compassion on them'
+
+  # ---------- note 6:6 grieved ----------
+  - where: 'note 6:6 “The God who weeps”'
+    claim: 'The Hebrew of “grieved him at his heart”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-6.htm'
+    quote: 'way·yiṯ·‘aṣ·ṣêḇ וַיִּתְעַצֵּ֖ב and He was grieved'
+  - where: 'note 6:6 “The God who weeps”'
+    claim: 'BDB: “and he was vexed to his heart”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6087.htm'
+    quote: 'and he was vexed to his heart'
+  - where: 'note 6:6 “The God who weeps”'
+    claim: 'God is heartbroken over His children (reading Moses 7 with Genesis 6)'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'God is heartbroken over his children'
+  - where: 'note 6:6 “The God who weeps”'
+    claim: 'Moses 7:28: the God of heaven wept'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng'
+    quote: 'the God of heaven looked upon the residue of the people, and he wept'
+
+  # ---------- note 6:8 ----------
+  - where: 'note 6:8 “Grace in the eyes of the LORD”'
+    claim: 'Chen means favour, grace'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2580.htm'
+    quote: 'favour, grace'
+  - where: 'note 6:8 “Grace in the eyes of the LORD”'
+    claim: '“Find favour in the eyes of” is used both of men and of God (Gen. 33:8 among the human uses)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2580.htm'
+    quote: 'find favour in the eyes of'
+  - where: 'note 6:8 “Grace in the eyes of the LORD”'
+    claim: 'Noah is written נח'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-8.htm'
+    quote: 'wə·nō·aḥ וְנֹ֕חַ And Noah'
+  - where: 'note 6:8 “Grace in the eyes of the LORD”'
+    claim: 'Grace is written חן'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-8.htm'
+    quote: 'ḥên חֵ֖ן favor'
+  - where: 'note 6:8 “Grace in the eyes of the LORD”'
+    claim: 'Noah’s name and the word for favor are the same letters reversed (a wordplay)'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'The sudden mention of Noah (v. 8)—whose Heb name'
+  - where: 'note 6:8 “Grace in the eyes of the LORD”'
+    claim: 'Moses 8:27 ties Noah’s grace to his righteousness; his sons walked with God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8?lang=eng'
+    quote: 'And thus Noah found grace in the eyes of the Lord; for Noah was a just man, and perfect in his generation'
+
+  # ---------- note 6:9 ----------
+  - where: 'note 6:9 “Perfect, and walking with God”'
+    claim: 'Tamim: complete, sound'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8549.htm'
+    quote: 'adjective complete, sound'
+  - where: 'note 6:9 “Perfect, and walking with God”'
+    claim: 'Of people: sound, unimpaired, innocent, having integrity'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8549.htm'
+    quote: 'sound, wholesome, unimpaired, innocent, having integrity'
+  - where: 'note 6:9 “Perfect, and walking with God”'
+    claim: 'Tamim is usually used of sacrificial animals'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8549.htm'
+    quote: 'usually of sacrificial'
+  - where: 'note 6:9 “Perfect, and walking with God”'
+    claim: 'Genesis 6:9 and 17:1 both pair tamim with walking with/before God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8549.htm'
+    quote: 'elsewhere of man Genesis 6:9 ; Genesis 17:1 (P; both'
+  - where: 'note 6:9 “Perfect, and walking with God”'
+    claim: 'President Nelson: scripture calls Noah, Seth, and Job perfect'
+    key: nelson-perfection-pending
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1995/10/perfection-pending?lang=eng'
+    quote: 'Scriptures have described Noah, Seth, and Job as perfect men.'
+  - where: 'note 6:9 “Perfect, and walking with God”'
+    claim: 'This does not mean they never made mistakes'
+    key: nelson-perfection-pending
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1995/10/perfection-pending?lang=eng'
+    quote: 'This does not mean that these people never made mistakes or never had need of correction.'
+  - where: 'note 6:9 “Perfect, and walking with God”'
+    claim: 'Enoch was Noah’s great-grandfather'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'Noah’s great-grandfather Enoch'
+  - where: 'note 6:9 “Perfect, and walking with God”'
+    claim: 'Walking with God is said of Noah, Abraham, and Isaac in connection with covenant making'
+    key: sc-knowhy-835
+    url: 'https://scripturecentral.org/knowhy/why-does-genesis-say-that-enoch-walked-with-god-and-that-god-took-him'
+    quote: 'Noah, Abraham, and Isaac are also described as walking with God (Genesis 6:9; 17:1; 24:40; 48:15), where that phrase appears in connection with their making a covenant with God.'
+  - where: 'note 6:9 “Perfect, and walking with God”'
+    claim: 'Walking with God may refer to forming a relationship with God through covenants'
+    key: sc-knowhy-835
+    url: 'https://scripturecentral.org/knowhy/why-does-genesis-say-that-enoch-walked-with-god-and-that-god-took-him'
+    quote: 'walking with God may refer to the formal creation of a relationship with God through making and keeping sacred covenant bonds and obligations'
+  - where: 'note 6:9 “Perfect, and walking with God”'
+    claim: 'Moses 8:27: his three sons also walked with God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8?lang=eng'
+    quote: 'and he walked with God, as did also his three sons, Shem, Ham, and Japheth'
+
+  # ---------- note 6:13 ----------
+  - where: 'note 6:13 “Corrupt, corrupted, destroy”'
+    claim: 'Shachat: spoil, ruin; passive be corrupted, of the earth in 6:11–12'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7843.htm'
+    quote: 'be corrupted, corrupt , in mnorals and rel., of earth'
+  - where: 'note 6:13 “Corrupt, corrupted, destroy”'
+    claim: 'Shachat (Piel): spoil, ruin'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7843.htm'
+    quote: '1 spoil, ruin'
+  - where: 'note 6:13 “Corrupt, corrupted, destroy”'
+    claim: 'Verse 11: the earth “was corrupt,” passive'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-11.htm'
+    quote: 'wat·tiš·šā·ḥêṯ וַתִּשָּׁחֵ֥ת And was corrupt'
+  - where: 'note 6:13 “Corrupt, corrupted, destroy”'
+    claim: 'Verse 12: “it was corrupt,” passive (Niphal)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-12.htm'
+    quote: 'niš·ḥā·ṯāh; נִשְׁחָ֑תָה it was corrupt V‑Nifal‑Perf‑3fs'
+  - where: 'note 6:13 “Corrupt, corrupted, destroy”'
+    claim: 'Verse 12: all flesh “had corrupted,” active (Hiphil)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-12.htm'
+    quote: 'hiš·ḥîṯ הִשְׁחִ֧ית had corrupted V‑Hifil‑Perf‑3ms'
+  - where: 'note 6:13 “Corrupt, corrupted, destroy”'
+    claim: 'Verse 13: “I will destroy them,” mashchitam, active (Hiphil)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-13.htm'
+    quote: 'maš·ḥî·ṯām מַשְׁחִיתָ֖ם I am destroying them V‑Hifil‑Prtcpl‑msc'
+  - where: 'note 6:13 “Corrupt, corrupted, destroy”'
+    claim: 'Verse 17: “to destroy all flesh” is the same verb'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-17.htm'
+    quote: 'lə·ša·ḥêṯ לְשַׁחֵ֣ת to destroy'
+  - where: 'note 6:13 “Corrupt, corrupted, destroy”'
+    claim: 'The passive forms put the cause on the people, who brought it on themselves'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'God is distanced from the cause of the flood (meaning that it is the wickedness of the people who brought this upon themselves)'
+  - where: 'note 6:13 “Corrupt, corrupted, destroy”'
+    claim: 'The active form makes God the one reversing and cleansing the corruption'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'by using the Hiphil causative verbal form from the same root (šḥt) , God is highlighted as the cause of reversing and cleansing the corruption'
+  - where: 'note 6:13 “Corrupt, corrupted, destroy”'
+    claim: 'Chamas: violence, wrong'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2555.htm'
+    quote: 'violence, wrong'
+  - where: 'note 6:13 “Corrupt, corrupted, destroy”'
+    claim: '“Through them” is literally “from their faces”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-13.htm'
+    quote: 'mip·pə·nê·hem; מִפְּנֵיהֶ֑ם from their faces'
+  - where: 'note 6:13 “Corrupt, corrupted, destroy”'
+    claim: 'Moses 8:30 reads “from off the earth,” not “with the earth”'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'Moses 8:30 clarifies that the Lord would destroy all flesh “from off the earth” not “with the earth” (as Genesis 6:13 reads).'
+  - where: 'note 6:13 “Corrupt, corrupted, destroy”'
+    claim: 'Moses 8:30 text'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8?lang=eng'
+    quote: 'and behold I will destroy all flesh from off the earth'
+  - where: 'note 6:13 “Corrupt, corrupted, destroy”'
+    claim: 'Enoch heard the earth cry to be cleansed (Moses 7:48), read as the earth’s baptism by water'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'encompassing the baptism of the earth by water (“cleansed”), fire (“sanctify me”), and the millennial reign'
+  - where: 'note 6:13 “Corrupt, corrupted, destroy”'
+    claim: 'The Flood was the baptism of the earth and symbolized a cleansing'
+    key: gs-flood-noah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/flood-at-noahs-time?lang=eng'
+    quote: 'This was the baptism of the earth and symbolized a cleansing'
+
+  # ---------- note 6:14 ark ----------
+  - where: 'note 6:14 “An ark is a box”'
+    claim: 'The Hebrew is tevah'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-14.htm'
+    quote: 'tê·ḇaṯ תֵּבַ֣ת an ark'
+  - where: 'note 6:14 “An ark is a box”'
+    claim: 'Tevah: properly chest, box; probably an Egyptian loan-word'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8392.htm'
+    quote: 'ark (properly chest, box'
+  - where: 'note 6:14 “An ark is a box”'
+    claim: 'Tevah: probably an Egyptian loan-word'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8392.htm'
+    quote: 'probably Egyptian loan-word'
+  - where: 'note 6:14 “An ark is a box”'
+    claim: 'The only other vessel called tevah is the basket of the infant Moses'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8392.htm'
+    quote: 'vessel in which infant Moses was laid among reeds Exodus 2:3'
+  - where: 'note 6:14 “An ark is a box”'
+    claim: 'Moses’ ark was daubed with pitch (Ex. 2:3)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/2?lang=eng'
+    quote: 'she took for him an ark of bulrushes, and daubed it with slime and with pitch'
+  - where: 'note 6:14 “An ark is a box”'
+    claim: 'Dimensions: 300 cubits (about 450 feet) by 50 by 30; gopher or cypress wood'
+    key: bd-ark
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ark?lang=eng'
+    quote: 'Its dimensions were 300 cubits (about 450 feet) long, 50 cubits wide, and 30 cubits high; it was built of gopher or cypress wood'
+  - where: 'note 6:14 “An ark is a box”'
+    claim: 'Gopher appears only here and the word is dubious'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1613.htm'
+    quote: 'word dubious'
+  - where: 'note 6:14 “An ark is a box”'
+    claim: 'Gopher appears only in Genesis 6:14'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1613.htm'
+    quote: 'gopher , only in'
+  - where: 'note 6:14 “An ark is a box”'
+    claim: 'The Septuagint says “square timber”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/6.htm'
+    quote: 'Make therefore for thyself an ark of square timber'
+
+  # ---------- note 6:14 pitch ----------
+  - where: 'note 6:14 “Pitch and atonement”'
+    claim: 'Hebrew vekhapharta … bakkopher'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-14.htm'
+    quote: 'wə·ḵā·p̄ar·tā וְכָֽפַרְתָּ֥ and you shall cover'
+  - where: 'note 6:14 “Pitch and atonement”'
+    claim: 'Hebrew bakkopher, “with pitch”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-14.htm'
+    quote: 'bak·kō·p̄er. בַּכֹּֽפֶר׃ with a covering'
+  - where: 'note 6:14 “Pitch and atonement”'
+    claim: 'President Nelson: the basic Hebrew word for atonement is kaphar, “to cover” or “to forgive”'
+    key: nelson-atonement
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1996/10/the-atonement?lang=eng'
+    quote: 'In Hebrew, the basic word for atonement is kaphar, a verb that means “to cover” or “to forgive.”'
+  - where: 'note 6:14 “Pitch and atonement”'
+    claim: 'The Church’s manual calls the pitch word the root word for “atone”'
+    key: scripture-helps-gen-6-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/06-moses-6-11-moses-8?lang=eng'
+    quote: 'The Hebrew word translated as “pitch” is also the root word for “atone.”'
+  - where: 'note 6:14 “Pitch and atonement”'
+    claim: 'The likeness: the Atonement as a protective covering, like the pitch'
+    key: scripture-helps-gen-6-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/06-moses-6-11-moses-8?lang=eng'
+    quote: '“the atonement of Jesus Christ provides us with a protective covering; it shields us from the power of the adversary, just as the pitch protected the ark from the life-threatening waters.”'
+  - where: 'note 6:14 “Pitch and atonement”'
+    claim: 'BDB lists the pitch verb separately, as a denominative from the noun for pitch'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'verb denominative (from II.'
+  - where: 'note 6:14 “Pitch and atonement”'
+    claim: 'BDB: the pitch verb in Genesis 6:14'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'and thou shalt pitch it with pitch (P)'
+  - where: 'note 6:14 “Pitch and atonement”'
+    claim: 'The noun kopher “pitch,” compare Assyrian kupru'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3724.htm'
+    quote: 'noun masculine pitch (Arabic (loan-word'
+  - where: 'note 6:14 “Pitch and atonement”'
+    claim: 'Compare Assyrian kupru'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3724.htm'
+    quote: 'Assyrian kupru'
+
+  # ---------- note 6:16 window ----------
+  - where: 'note 6:16 “A window, a roof, or a light?”'
+    claim: 'The Hebrew is tsohar'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-16.htm'
+    quote: 'ṣō·har צֹ֣הַר׀ A window'
+  - where: 'note 6:16 “A window, a roof, or a light?”'
+    claim: 'Tsohar: probably roof; others take it as light, window'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6672.htm'
+    quote: 'noun feminine probably roof'
+  - where: 'note 6:16 “A window, a roof, or a light?”'
+    claim: 'Others take tsohar as “light, window”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6672.htm'
+    quote: 'light , window)'
+  - where: 'note 6:16 “A window, a roof, or a light?”'
+    claim: 'One reading: an opening for light and air reaching within a cubit of the roof'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/6.htm'
+    quote: 'a hole or opening for light and air was to be so constructed as to reach within a cubit of the edge of the roof'
+  - where: 'note 6:16 “A window, a roof, or a light?”'
+    claim: 'Tsohar is not the word for the window of Genesis 8:6; it means a space for light'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/6.htm'
+    quote: 'is not synonymous with'
+  - where: 'note 6:16 “A window, a roof, or a light?”'
+    claim: 'Tsohar signifies a space by which light could be admitted'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/6.htm'
+    quote: 'but signifies, generally, a space for light, or by which light could be admitted into the ark'
+  - where: 'note 6:16 “A window, a roof, or a light?”'
+    claim: 'In the Talmud (Sanhedrin), Rabbi Johanan says God told Noah to put diamonds and pearls in the ark to give light as at midday'
+    key: rodkinson-sanhedrin
+    url: 'https://archive.org/download/neweditionofbaby191816rodk/neweditionofbaby191816rodk_djvu.txt'
+    quote: 'Johanan: The Holy One, blessed be He, said to Noah: Put there diamonds and pearls, that they shall give you light as the middle of the day.'
+  - where: 'note 6:16 “A window, a roof, or a light?”'
+    claim: 'The passage is in Tract Sanhedrin, on Genesis 6:16'
+    key: rodkinson-sanhedrin
+    url: 'https://archive.org/download/neweditionofbaby191816rodk/neweditionofbaby191816rodk_djvu.txt'
+    quote: 'A window shalt thou make." Said R.'
+  - where: 'note 6:16 “A window, a roof, or a light?”'
+    claim: 'The similar word tsohorayim means midday, noon'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6672.htm'
+    quote: 'midday, noon'
+  - where: 'note 6:16 “A window, a roof, or a light?”'
+    claim: 'The reading “light” for tsohar rests on its likeness to tsohorayim, mid-day'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/6.htm'
+    quote: '"double-light" or mid-day'
+  - where: 'note 6:16 “A window, a roof, or a light?”'
+    claim: 'It is possible that the brother of Jared knew of the stones that lit Noah’s ark'
+    key: sc-knowhy-240
+    url: 'https://scripturecentral.org/knowhy/where-did-the-brother-of-jared-get-the-idea-of-shining-stones'
+    quote: 'it is possible that the brother of Jared knew something of the stones which illuminated Noah’s vessel when thinking of a potential source of light for the barges of his own people'
+  - where: 'note 6:16 “A window, a roof, or a light?”'
+    claim: 'Ether 6:7 compares the barges to the ark of Noah'
+    key: sc-knowhy-240
+    url: 'https://scripturecentral.org/knowhy/where-did-the-brother-of-jared-get-the-idea-of-shining-stones'
+    quote: 'the text in Ether 6:7 explicitly draws a parallel between the Jaredite vessels and Noah’s ark'
+
+  # ---------- note 6:18 ----------
+  - where: 'note 6:18 “My covenant”'
+    claim: 'Genesis 6:18 is the first instance of berit'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'As the first of the covenants explicitly discussed in the Bible (see Genesis 6:18 for the first instance of the Hebrew word'
+  - where: 'note 6:18 “My covenant”'
+    claim: 'The JST reading of 6:18 in the Gospel Library footnote'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/6?lang=eng'
+    quote: 'my covenant, even as I have sworn unto thy father, Enoch, that of thy posterity shall come all nations.'
+  - where: 'note 6:18 “My covenant”'
+    claim: 'The JST reading is JST Genesis 8:23–24'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'According to the JST for Genesis 6:18 (the first instance of the word covenant in the Old Testament), God states that'
+  - where: 'note 6:18 “My covenant”'
+    claim: 'The covenant with Noah renewed the covenant with Adam and Eve and Enoch'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'the Noahic covenant as found in the Bible was a renewal of a covenantal relationship with Adam and Eve and, later, with others, such as Enoch'
+  - where: 'note 6:18 “My covenant”'
+    claim: 'Moses 7:51: the Lord covenanted with Enoch to stay the floods'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng'
+    quote: 'and he covenanted with Enoch, and sware unto him with an oath, that he would stay the floods'
+
+  # ---------- note 6:22 ----------
+  - where: 'note 6:22 “Thus did Noah”'
+    claim: 'Hebrews 11:7 reads Noah’s building of the ark as faith'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
+    quote: 'By faith Noah, being warned of God of things not seen as yet, moved with fear, prepared an ark to the saving of his house'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'Moses 8:21 puts the words “eating and drinking, and marrying and giving in marriage” in the mouths of Noah’s hearers'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8?lang=eng'
+    quote: 'And are we not eating and drinking, and marrying and giving in marriage?'
+  - where: 'christ'
+    claim: 'Those who perished in the Flood would be taught the gospel in the spirit world and could repent'
+    key: scripture-helps-gen-6-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/06-moses-6-11-moses-8?lang=eng'
+    quote: 'There they would have the opportunity to be taught the gospel of Jesus Christ and repent of their sins.'
+  - where: 'christ'
+    claim: 'D&C 138 is President Joseph F. Smith’s vision of how the preaching to the spirits was organized'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/138?lang=eng'
+    quote: 'President Joseph F. Smith ponders upon the writings of Peter and our Lord’s visit to the spirit world'
+  - where: 'christ'
+    claim: 'Joseph Smith taught that Noah is Gabriel, next in authority to Adam'
+    key: jsp-discourse-1839-a
+    url: 'https://www.josephsmithpapers.org/paper-summary/discourse-between-circa-26-june-and-circa-4-august-1839-a-as-reported-by-unidentified-scribe/1'
+    quote: 'Then to Noah who is Gabriel he stands next … to Adam, in the preasthood'
+  - where: 'christ'
+    claim: 'Gabriel was sent to Mary; latter-day revelation identifies him as Noah'
+    key: bd-gabriel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/gabriel?lang=eng'
+    quote: 'He is identified by latter-day revelation as Noah'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: 'An RSC chapter reads the Flood story through Restoration scripture'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'Restoration scripture and prophetic commentary offer further insights into the purposes of the biblical narrative as well as the symbols used throughout that narrative.'
