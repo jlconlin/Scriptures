@@ -1,0 +1,135 @@
+name: Genesis
+slug: genesis
+status: preview          # built only by `npm run dev` and `PREVIEW=1 npm run build`; remove to go live
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 0
+abbr: gen                # [[Gen. 1:1]] links here
+gospelLibrary: ot/gen
+eyebrow: The Old Testament
+heroQuote:
+  text: '“In thee shall all families of the earth be blessed.”'
+  cite: 'The Lord to Abram, [[Gen. 12:3]]'
+description: A phrase-by-phrase companion to the book of Genesis, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Genesis is built on family lines. It follows one line at a time and narrows, from all mankind to Noah, to Abraham, to the twelve sons of Jacob.
+home:
+  blurb: The book of beginnings, from the Creation to the family of Abraham, Isaac, Jacob, and Joseph.
+
+intro: |
+  Genesis is a Greek word meaning “origin” or “beginning,” and the book is an account of beginnings: the creation of the earth, the Fall, the gospel revealed to Adam, the Flood, the tower of Babel, and the family of Abraham that became the house of Israel. Its frame is a series of family records, each opening “These are the generations.” Latter-day revelation names Moses as its author ([[Moses 1:40–41]]; [[1 Ne. 5:10–11]]).
+
+  This companion goes through all fifty chapters and tries to anticipate the questions a careful reader asks: *Who is this? Where is this? What did that word or custom mean? Where is Christ in this?* What the Gospel Library already puts beside the verse (the footnotes, the Joseph Smith Translation, the chapter heading) is not repeated here for its own sake; it comes in where it answers the question.
+
+# The large movements of the book, following the Bible Dictionary’s outline (“Genesis”), which arranges
+# the book by family line. Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: beginnings
+    range: [1, 3]
+    name: The Creation and the Fall
+    blurb: The earth is made and called very good. Adam and Eve are placed in Eden, partake of the fruit, and are sent out into the world, with a promise about the woman’s seed.
+    color: '#2b7a8a'
+    darkColor: '#74c4d4'
+  - key: noah
+    range: [4, 11]
+    name: From Adam to Noah and the Nations
+    blurb: Cain and Abel, the line of Seth down to Enoch and Noah, the Flood and the covenant of the rainbow, and the scattering at the tower of Babel. The record then follows the line of Shem to Abram.
+    color: '#5c6b9a'
+    darkColor: '#a9b6e0'
+  - key: abraham
+    range: [12, 25]
+    name: Abraham
+    blurb: The Lord calls Abram out of his country and covenants with him for a land, a posterity, and a blessing for all families of the earth. Melchizedek, Hagar and Ishmael, Sodom, the birth of Isaac, and the offering on Moriah.
+    color: '#a8642a'
+    darkColor: '#e0a070'
+  - key: jacob
+    range: [26, 36]
+    name: Isaac and Jacob
+    blurb: The covenant passes to Isaac and then to Jacob, the younger son. Jacob’s dream at Beth-el, his years with Laban, the births of his sons, and the night he is named Israel.
+    color: '#4f8a4a'
+    darkColor: '#93cf8d'
+  - key: joseph
+    range: [37, 50]
+    name: Joseph and His Brothers
+    blurb: Joseph is sold into Egypt, rises to rule it, and saves the family that sold him. The book closes with Jacob’s blessings on his sons and Joseph’s death in Egypt.
+    color: '#8a4a7a'
+    darkColor: '#d59ac6'
+
+beloved:
+  - { chapter: 1, verse: 1, text: 'In the beginning God created the heaven and the earth' }
+  - { chapter: 1, verse: 27, text: 'So God created man in his own image' }
+  - { chapter: 3, verse: 15, text: 'it shall bruise thy head, and thou shalt bruise his heel' }
+  - { chapter: 5, verse: 24, text: 'And Enoch walked with God: and he was not; for God took him' }
+  - { chapter: 9, verse: 13, text: 'I do set my bow in the cloud' }
+  - { chapter: 18, verse: 14, text: 'Is any thing too hard for the LORD?' }
+  - { chapter: 22, verse: 8, text: 'God will provide himself a lamb for a burnt offering' }
+  - { chapter: 28, verse: 15, text: 'I am with thee, and will keep thee in all places whither thou goest' }
+  - { chapter: 39, verse: 9, text: 'how then can I do this great wickedness, and sin against God?' }
+  - { chapter: 50, verse: 20, text: 'ye thought evil against me; but God meant it unto good' }
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [1, 2], sources: [ot-manual-gen-1-2] }
+  - { range: [3, 3], sources: [ot-manual-gen-3] }
+  - { range: [4, 11], sources: [ot-manual-gen-4-11] }
+  - { range: [12, 17], sources: [ot-manual-gen-12-17] }
+  - { range: [18, 23], sources: [ot-manual-gen-18-23] }
+  - { range: [24, 36], sources: [ot-manual-gen-24-36] }
+  - { range: [37, 50], sources: [ot-manual-gen-37-50] }
+
+coreSources:
+  - bd-genesis
+  - gs-genesis
+  - bd-pentateuch
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'The Creation'
+  2: 'The Garden of Eden'
+  3: 'The Fall'
+  4: 'Cain and Abel'
+  5: 'The Generations from Adam to Noah'
+  6: 'Noah Builds the Ark'
+  7: 'The Flood'
+  8: 'The Waters Abate'
+  9: 'God’s Covenant with Noah'
+  10: 'The Nations from Noah’s Sons'
+  11: 'The Tower of Babel'
+  12: 'Abram Is Called to Canaan'
+  13: 'Abram and Lot Separate'
+  14: 'Abram Rescues Lot; Melchizedek'
+  15: 'God’s Covenant with Abram'
+  16: 'Hagar and Ishmael'
+  17: 'The Covenant of Circumcision'
+  18: 'Abraham Pleads for Sodom'
+  19: 'Sodom and Gomorrah Destroyed'
+  20: 'Abraham and Abimelech'
+  21: 'Isaac Is Born; Hagar Sent Away'
+  22: 'Abraham Offers Isaac'
+  23: 'Sarah’s Death and Burial'
+  24: 'A Wife for Isaac'
+  25: 'Abraham Dies; Jacob and Esau Born'
+  26: 'Isaac and Abimelech'
+  27: 'Jacob Receives Isaac’s Blessing'
+  28: 'Jacob’s Ladder at Beth-el'
+  29: 'Jacob Marries Leah and Rachel'
+  30: 'Jacob’s Children and His Flocks'
+  31: 'Jacob Flees from Laban'
+  32: 'Jacob Wrestles at Peniel'
+  33: 'Jacob and Esau Meet'
+  34: 'Dinah and the Men of Shechem'
+  35: 'Jacob Returns to Beth-el'
+  36: 'The Generations of Esau'
+  37: 'Joseph Is Sold into Egypt'
+  38: 'Judah and Tamar'
+  39: 'Joseph in Potiphar’s House'
+  40: 'The Butler and the Baker'
+  41: 'Joseph Interprets Pharaoh’s Dreams'
+  42: 'Joseph’s Brethren Come to Egypt'
+  43: 'The Brethren Return with Benjamin'
+  44: 'The Silver Cup in Benjamin’s Sack'
+  45: 'Joseph Makes Himself Known'
+  46: 'Jacob Goes Down to Egypt'
+  47: 'Israel Settles in Goshen'
+  48: 'Jacob Blesses Ephraim and Manasseh'
+  49: 'Jacob Blesses His Twelve Sons'
+  50: 'The Deaths of Jacob and Joseph'

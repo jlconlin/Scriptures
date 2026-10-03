@@ -59,6 +59,39 @@ const LDS_SPELLINGS = [
   [/whom he had set at liberty at their pleasure/g, 'whom ye had set at liberty at their pleasure'], // Jer. 34:16
   [/I will dwell at Mizpah, to serve/g, 'I will dwell at Mizpah to serve'], // Jer. 40:10
   [/unto thee, O Baruch:$/g, 'unto thee, O Baruch;'], // Jer. 45:2
+  // Genesis
+  [/Padanaram/g, 'Padan-aram'],
+  [/Beersheba/g, 'Beer-sheba'], // Old Testament spelling
+  [/Tubalcain/g, 'Tubal-cain'],
+  [/\basswaged\b/g, 'assuaged'],
+  [/\bpluckt\b/g, 'plucked'],
+  [/Sabtechah: and the sons of Raamah/g, 'Sabtecha: and the sons of Raamah'], // Gen. 10:7
+  [/\bfirst born\b/g, 'firstborn'],
+  [/burn them thoroughly/g, 'burn them throughly'], // Gen. 11:3
+  [/Elparan/g, 'El-paran'],
+  [/Enmishpat/g, 'En-mishpat'],
+  [/Hazezontamar/g, 'Hazezon-tamar'],
+  [/Beerlahairoi/g, 'Beer-lahai-roi'],
+  [/\bLahairoi/g, 'Lahai-roi'],
+  [/I cannot do anything till/g, 'I cannot do any thing till'], // Gen. 19:22
+  [/Benammi/g, 'Ben-ammi'],
+  [/a bow shot/g, 'a bowshot'],
+  [/Jehovahjireh/g, 'Jehovah-jireh'],
+  [/Kirjatharba/g, 'Kirjath-arba'],
+  [/\bintreat\b/g, 'entreat'],
+  [/and Abidah, and Eldaah/g, 'and Abida, and Eldaah'], // Gen. 25:4
+  [/I will again feed and keep thy flock\.$/g, 'I will again feed and keep thy flock:'], // Gen. 30:31
+  [/Jegarsahadutha/g, 'Jegar-sahadutha'],
+  [/which I have cast betwixt me and thee:$/g, 'which I have cast betwixt me and thee;'], // Gen. 31:51
+  [/EleloheIsrael/g, 'El-elohe-Israel'],
+  [/Elbethel/g, 'El-beth-el'],
+  [/Allonbachuth/g, 'Allon-bachuth'],
+  [/Benoni/g, 'Ben-oni'],
+  [/Baalhanan/g, 'Baal-hanan'],
+  [/Zaphnathpaaneah/g, 'Zaphnath-paaneah'],
+  [/Potipherah/g, 'Poti-pherah'],
+  [/and Pharez, and Zarah: but Er/g, 'and Pharez, and Zerah: but Er'], // Gen. 46:12
+  [/Abelmizraim/g, 'Abel-mizraim'],
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 
