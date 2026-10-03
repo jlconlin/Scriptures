@@ -1,5 +1,5 @@
 import { md, mdInline, esc, plain } from '../lib/markdown.mjs';
-import { KINDS, SITE, LIBRARY, COMING_SOMEDAY, sectionTitle } from '../site.mjs';
+import { KINDS, SITE, LIBRARY, sectionTitle } from '../site.mjs';
 import { layout, icon, logo } from './layout.mjs';
 import { renderSource } from './sources.mjs';
 import { gospelLibraryUrl } from './chapter.mjs';
@@ -18,16 +18,16 @@ const ensignArt = `<svg class="hero-art" viewBox="0 0 320 220" aria-hidden="true
   <g fill="var(--art-people)"><circle cx="40" cy="200" r="3"/><circle cx="54" cy="196" r="3"/><circle cx="286" cy="206" r="3"/><circle cx="272" cy="202" r="3"/><circle cx="118" cy="186" r="3"/></g>
 </svg>`;
 
-// `books` are in site order; the first one gets the hero buttons. `featured` are notes chosen for the teasers.
+// `books` are every book on the site; `featured` are notes chosen for the teasers. The library section
+// is the Scriptures menu's picker, open on the page: site.js draws it from the menu's data plus the
+// blurbs in data-books. Without JavaScript it is the list of volumes and books written here.
 export function renderHome({ books, featured }) {
-  const first = books[0].home;
-  const volumes = [
-    ...books.map((b) => ({
-      name: b.name, href: `/${b.slug}/`, live: true, blurb: b.home.blurb,
-      status: b.written.length < b.chapters.length ? `${b.written.length} of ${b.chapters.length} chapters` : `${b.chapters.length} chapters`,
-    })),
-    ...COMING_SOMEDAY.map((v) => ({ ...v, status: 'Someday' })),
-  ];
+  const inVolume = (v) => books.filter((b) => b.place.vol === v.key).sort((a, b) => a.place.index - b.place.index);
+  const info = Object.fromEntries(books.map((b) => [b.slug, { blurb: b.home.blurb, themes: b.hasThemes }]));
+  const fallback = VOLUMES.map((v) => {
+    const bs = inVolume(v);
+    return `<li><a href="/${v.slug}/">${esc(v.name)}</a>${bs.length ? `<ul>${bs.map((b) => `<li><a href="/${b.slug}/">${esc(b.name)}</a>: ${esc(b.home.blurb)}</li>`).join('')}</ul>` : ' <small>Not on the site yet</small>'}</li>`;
+  }).join('\n      ');
   const body = `
 <section class="home-hero">
   <div class="wrap home-hero-inner">
@@ -36,17 +36,27 @@ export function renderHome({ books, featured }) {
       <h1>“What does <em>that</em> mean?”</h1>
       <p class="lede">Some passages of scripture make you stop and read them three times. This site is for those passages. It goes phrase by phrase, the way a patient religion teacher might, with the history, the Hebrew, the imagery, and the witness of Jesus Christ that sits underneath them.</p>
       <div class="cta-row">
-        <a class="btn btn-primary" href="/${books[0].slug}/">${esc(first.cta)}</a>
-        <a class="btn" href="/${books[0].slug}/guides/${first.guide.slug}/">${esc(first.guide.label)}</a>
+        <a class="btn btn-primary" href="#library">Choose a book</a>
+        <a class="btn" href="/about/">How this site works</a>
       </div>
     </div>
     ${ensignArt}
   </div>
 </section>
 
+<section class="wrap home-section" id="library">
+  <h2 class="section-title">The library</h2>
+  <p class="section-sub">Choose a volume, then a book, then a chapter.</p>
+  <div class="picker" data-books="${esc(JSON.stringify(info))}">
+    <ul class="picker-fallback">
+      ${fallback}
+    </ul>
+  </div>
+</section>
+
 <section class="wrap home-section">
   <h2 class="section-title">Try a phrase</h2>
-  <p class="section-sub">A few notes from ${books.filter((b) => b.chapters.some((c) => c.notes?.length)).map((b) => b.name).join(' and ')}, chosen at random each time the site is built.</p>
+  <p class="section-sub">A few notes, chosen at random each time the site is built.</p>
   <div class="teasers">
     ${featured
       .map(
@@ -61,24 +71,11 @@ export function renderHome({ books, featured }) {
   </div>
 </section>
 
-<section class="wrap home-section">
-  <h2 class="section-title">The library</h2>
-  <div class="volumes">
-    ${volumes
-      .map((v) =>
-        v.live
-          ? `<a class="volume live" href="${v.href}"><span class="volume-status">${v.status}</span><h3>${v.name}</h3><p>${v.blurb}</p><span class="volume-go">Open ${icon('arrowR')}</span></a>`
-          : `<div class="volume"><span class="volume-status">${v.status}</span><h3>${v.name}</h3><p>${v.blurb}</p></div>`,
-      )
-      .join('')}
-  </div>
-</section>
-
 <section class="wrap home-section home-why">
   <div class="card">
     <h2 class="card-title">${icon('christ')} Why study this way?</h2>
     <div class="prose">
-      <p>The Savior said, “Search these things diligently; for great are the words of Isaiah” ([[3 Ne. 23:1]]). The point of the searching is to know Him. Every note here tries to help you understand the words or see Jesus Christ in them.</p>
+      <p>The Savior said, “Search the scriptures; for in them ye think ye have eternal life: and they are they which testify of me” ([[John 5:39]]). The point of the searching is to know Him. Every note here tries to help you understand the words or see Jesus Christ in them.</p>
       <p>Commentary is not scripture. Where Latter-day Saint scholars or other students of the scriptures read a passage in different ways, the notes say so. Where prophets and apostles have taught plainly, the notes follow them. The best interpreter of scripture is still the Holy Ghost ([[2 Ne. 25:4]]).</p>
     </div>
   </div>

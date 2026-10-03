@@ -114,6 +114,7 @@ export async function build({ quiet = false } = {}) {
     book.place = placeOf(book.abbr);
     if (!book.place) throw new Error(`content/${book.slug}/book.yaml: abbr “${book.abbr}” is not a book of the standard works (see src/lib/refs.mjs)`);
     book.hasGuides = existsSync(path.join(book.dir, 'guides'));
+    book.hasThemes = existsSync(path.join(book.dir, 'themes'));
 
     // Validate source keys
     for (const ch of book.chapters) {

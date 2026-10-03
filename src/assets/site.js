@@ -218,6 +218,85 @@
       if (e.key === 'Escape' && sm.open) { sm.open = false; summary.focus(); }
     });
     addEventListener('resize', render);
+
+    // ---------- home page library ----------
+    // The same volumes, books, and chapters as the menu, open on the home page (.picker; its data-books
+    // has each book's blurb). Here a click only selects; the names at the top of each column are the
+    // links. Under 640px it is a list of volumes and books, and a book opens its chapters in place.
+    const pk = $('.picker');
+    if (pk) {
+      const info = JSON.parse(pk.dataset.books);
+      const volWith = (slug) => nav.find((v) => bookOf(v, slug));
+      const wide = () => pk.clientWidth >= 640;
+      const firstVol = nav.find((v) => v.books.length) ?? nav[0];
+      const remembered = volWith(store.get('library'));
+      const ps = remembered
+        ? { vol: remembered.slug, book: store.get('library') }
+        : { vol: firstVol.slug, book: wide() ? firstVol.books[0]?.slug ?? null : null };
+      const picked = { [ps.vol]: ps.book };
+
+      const pane = (v, b) => {
+        const w = count(b);
+        const cells = Array.from({ length: b.total }, (_, i) => {
+          const n = i + 1;
+          return isWritten(b, n)
+            ? `<a class="cell written" href="${url(`${b.slug}/${n}/`)}" aria-label="${esc(b.name)} ${n}">${n}</a>`
+            : `<a class="cell unwritten" href="${b.gl}/${n}?lang=eng" target="_blank" rel="noopener" aria-label="${esc(b.name)} ${n}, in the Gospel Library">${n}</a>`;
+        }).join('');
+        return `<div class="picker-pane" style="--vc:var(--v-${v.slug})">
+          <div class="picker-bookhead"><h3><a href="${url(`${b.slug}/`)}">${esc(b.name)} ${chev}</a></h3>
+            <p>${esc(info[b.slug]?.blurb ?? '')}</p>
+            <span class="links"><span>${w < b.total ? `Commentary on ${w} of ${b.total} chapters` : `${b.total} chapters`}</span><a href="${url(`${b.slug}/`)}">Open ${esc(b.name)}</a>${b.guides ? `<a href="${url(`${b.slug}/guides/`)}">Guides</a>` : ''}${info[b.slug]?.themes ? `<a href="${url(`${b.slug}/themes/`)}">Themes</a>` : ''}</span>
+          </div>
+          <div class="menu-grid">${cells}</div>
+          ${w < b.total ? '<div class="menu-legend"><span><i class="lw"></i>Commentary</span><span><i class="lu"></i>Opens the Gospel Library</span></div>' : ''}
+        </div>`;
+      };
+      const bookItem = (b, attr) => {
+        const w = count(b);
+        return `<button type="button" class="menu-item" data-book="${b.slug}" ${attr}><span class="name">${esc(b.name)}</span><span class="sub">${w < b.total ? `${w} of ${b.total}` : b.total}</span>${chev}</button>`;
+      };
+      const empty = (v) => `<p class="menu-empty">Nothing from the ${esc(v.name)} is on the site yet.</p><a class="menu-link" href="${v.gl}" target="_blank" rel="noopener">Read it in the Gospel Library ↗</a>`;
+
+      let drawn = null;
+      const draw = () => {
+        const focus = document.activeElement?.closest?.('.picker [data-vol], .picker [data-book]')?.dataset;
+        const v = volOf(ps.vol);
+        const b = bookOf(v, ps.book);
+        if (wide()) {
+          pk.innerHTML = `<div class="picker-cols">
+            <div class="picker-col">${nav
+              .map((x) => `<button type="button" class="menu-item${x.books.length ? '' : ' absent'}" data-vol="${x.slug}" style="--vc:var(--v-${x.slug})"${x === v ? ' aria-current="true"' : ''}><span class="dot"></span><span class="name">${esc(x.name)}<small>${volSub(x)}</small></span>${chev}</button>`)
+              .join('')}</div>
+            <div class="picker-col"><a href="${url(`${v.slug}/`)}" class="page-link menu-head">${esc(v.name)} ${chev}</a>${v.books.length ? v.books.map((x) => bookItem(x, x === b ? 'aria-current="true"' : '')).join('') : empty(v)}</div>
+            <div class="picker-col">${b ? pane(v, b) : v.books.length ? `<div class="menu-pick"><strong>${esc(v.name)}</strong><span>Choose a book to see its chapters.</span></div>` : ''}</div>
+          </div>`;
+        } else {
+          pk.innerHTML = `<div class="picker-list">${nav
+            .map((x) => `<div class="picker-vol" style="--vc:var(--v-${x.slug})"><h3><span class="dot"></span><a href="${url(`${x.slug}/`)}">${esc(x.name)}</a></h3>${x.books.length ? x.books.map((y) => bookItem(y, `aria-expanded="${y === b}"`) + (y === b ? pane(x, y) : '')).join('') : empty(x)}</div>`)
+            .join('')}</div>`;
+        }
+        drawn = wide();
+        if (focus) $(focus.vol ? `[data-vol="${focus.vol}"]` : `[data-book="${focus.book}"]`, pk)?.focus();
+      };
+      pk.addEventListener('click', (e) => {
+        const it = e.target.closest('[data-vol],[data-book]');
+        if (!it) return;
+        if (it.dataset.vol) {
+          ps.vol = it.dataset.vol;
+          ps.book = picked[ps.vol] ?? volOf(ps.vol).books[0]?.slug ?? null;
+        } else {
+          const open = !wide() && ps.book === it.dataset.book;
+          ps.vol = volWith(it.dataset.book).slug;
+          ps.book = open ? null : it.dataset.book;
+        }
+        picked[ps.vol] = ps.book;
+        if (ps.book) store.set('library', ps.book);
+        draw();
+      });
+      addEventListener('resize', () => { if (wide() !== drawn) draw(); });
+      draw();
+    }
   }
 
   // ---------- reading progress ----------
