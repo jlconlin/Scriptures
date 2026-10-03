@@ -14,6 +14,10 @@
 //   ledger rows are complete (where, claim, key, url, quote); works that cannot be read
 //   online need a quoted ledger row.
 //
+// Student Manuals (warnings only, every chapter; STANDARDS.md §1): a chapter where more than
+//   about a third of the notes cite a Student Manual, and notes that cite one with nothing
+//   from beyond the Church's own publications beside it.
+//
 // Usage: node scripts/check-content.mjs [book [chapter]] [--quiet] [--root <dir>]
 // Exit code is 1 if there are errors, 0 otherwise (warnings never fail).
 import { readFile, readdir } from 'node:fs/promises';
@@ -28,6 +32,13 @@ const NOT_READABLE = ['oswalt', 'blenkinsopp', 'childs', 'paul-40-66', 'westerma
 
 // Wikis are not sources (anyone can edit them); nor are popular history sites (author, 2026-10-01).
 const WIKI_HOSTS = ['livius.org', 'wikipedia.org', 'wikimedia.org', 'wikisource.org', 'wikiquote.org', 'wiktionary.org', 'wikidata.org', 'wikibooks.org', 'fandom.com', 'wikia.com', 'wikia.org'];
+
+// The Church's Student Manuals are a starting point, not the spine of a chapter (author,
+// 2026-10-03). A chapter should have at most about a third of its notes citing one, and a note
+// that cites one should also rest on something from beyond the Church's own publications
+// (judged by the host of the source's URL in sources.yaml).
+const CHURCH_HOSTS = ['churchofjesuschrist.org', 'josephsmithpapers.org', 'speeches.byu.edu'];
+const STUDENT_MANUAL_SHARE = 1 / 3;
 
 const args = process.argv.slice(2);
 const quiet = args.includes('--quiet');
@@ -70,6 +81,14 @@ const seen = new Map();
 for (const [k, s] of Object.entries(sources))
   if (s?.url && isWiki(s.url)) err(`sources.yaml: “${k}” has a wiki or popular-site URL (${s.url}); not a source`);
 
+const isStudentManual = (k) => /Student Manual/.test(sources[k]?.pub ?? '');
+const isChurchSource = (k) => {
+  try {
+    const host = new URL(sources[k].url).hostname.toLowerCase();
+    return CHURCH_HOSTS.some((c) => host === c || host.endsWith(`.${c}`));
+  } catch { return false; } // no URL, or free text instead of a key: counts as from beyond the Church
+};
+
 const CITE = /\[@([a-z0-9-]+)(?:,\s*[^\]]+)?\]/g;
 const checkKey = (where, k) => { if (isKey(k) && !sources[k]) err(`${where}: unknown source key “${k}”`); };
 
@@ -100,6 +119,7 @@ books.sort();
 if (onlyBook && !books.length) { console.error(`No book “${onlyBook}” with chapters/`); process.exit(1); }
 
 const nonStrict = []; // one line per chapter with issues
+const leaning = []; // one line per chapter that leans on the Student Manuals
 let strictCount = 0, chapterCount = 0, strictPages = 0;
 
 for (const book of books) {
@@ -147,6 +167,14 @@ for (const book of books) {
     for (const t of [ch.setting, ch.thread, ch.christ, ch.explore, ...notes.map((n) => n.body)])
       for (const m of String(t ?? '').matchAll(CITE)) { cited.add(m[1]); checkKey(label, m[1]); }
 
+    // Student Manual reliance (warnings only). A note's `sources` list is its citation.
+    const manualNotes = notes.filter((n) => (n.sources ?? []).some((s) => isStudentManual(keyOf(s))));
+    const manualOnly = manualNotes.filter((n) => (n.sources ?? []).every((s) => isChurchSource(keyOf(s))));
+    const leans = [];
+    if (manualNotes.length > notes.length * STUDENT_MANUAL_SHARE) leans.push(`${manualNotes.length}/${notes.length} notes cite a Student Manual`);
+    if (manualOnly.length) leans.push(`note${manualOnly.length > 1 ? 's' : ''} ${manualOnly.map((n) => n.ref ?? '?').join(', ')} ha${manualOnly.length > 1 ? 've' : 's'} nothing from beyond the Church's publications beside the manual`);
+    if (leans.length) leaning.push(`${label}: ${leans.join('; ')}`);
+
     // Chapters with a ledger: the form the chapter page needs. Chapter pages don't render [@key]
     // (a note's citation is its `sources` list), and a note's first sentence is its preview card.
     if (existsSync(path.join(bdir, 'evidence', f))) {
@@ -185,12 +213,14 @@ for (const book of books) {
   }
 }
 
-if (nonStrict.length) {
-  warnings += nonStrict.length;
-}
+warnings += nonStrict.length + leaning.length;
 if (nonStrict.length && !quiet) {
   console.log(`\nChapters without an evidence ledger (warnings only):`);
   for (const l of nonStrict) console.warn(`  ⚠ ${l}`);
+}
+if (leaning.length && !quiet) {
+  console.log(`\nChapters leaning on the Student Manuals (warnings only; STANDARDS.md §1):`);
+  for (const l of leaning) console.warn(`  ⚠ ${l}`);
 }
 
 console.log(`\n${chapterCount} chapter(s) in ${books.length} book(s); ${strictCount} strict${strictPages ? `; ${strictPages} guide or theme page(s) with a ledger` : ''}. ${errors} error(s), ${warnings} warning(s)${quiet ? ' (hidden)' : ''}.`);

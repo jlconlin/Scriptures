@@ -2,12 +2,14 @@
 
 Current work and how to work with the author. **The writing and sourcing standard for every book is in [`STANDARDS.md`](STANDARDS.md).** `CLAUDE.md` lists which file to read for which task.
 
-## Status (2026-10-02)
+## Status (2026-10-03)
 
 - **Isaiah:** all 66 chapters written and audited. Remaining: the open questions (`content/isaiah/OPEN-QUESTIONS.md`) and deepening chapters 1–37 (`content/isaiah/BRIEF.md`).
 - **Isaiah theme pages:** five chosen (`content/isaiah/THEME-CANDIDATES.md`). The arm of the Lord is live (2026-10-02), and the notes on 51:5, 52:10, 53:1 and 59:16 link to it. The other four (the new exodus and the highway, Zion and her husband, light, and the servants section of the Servant Songs page) are live too, with links from the chapter notes at their key verses; the author has not yet read these four.
 - **Jeremiah:** all 52 chapters written, checked, and live (2026-10-02). The author has not yet read them; the checkers' judgment calls and unanswered reader questions are in `content/jeremiah/OPEN-QUESTIONS.md`, theme candidates in `content/jeremiah/THEME-CANDIDATES.md`. No Jeremiah guides yet.
 - **Jeremiah theme pages:** five written, reviewed and committed (2026-10-02 and 10-03) but **not pushed**, because the author has not seen them: The Shepherds and the Branch, Scattered and Gathered, The Covenant Written in the Heart, The Cup of the Lord's Fury, To Root Out and to Plant (`content/jeremiah/themes/`). The last two use the author's rule of 2026-10-03 that a theme page may make connections of its own (`STANDARDS.md` §8). The header has no link to a book's themes when it has no guides (`OPEN-QUESTIONS.md`). `check-ledger.mjs` does not yet read `evidence/themes/`; the three ledgers were checked with a scratch copy of its comparison.
+- **Jeremiah is finished as written** (author, 2026-10-03: “we're done with Jeremiah”). No deepening pass was wanted.
+- **Student Manual limits (2026-10-03):** `STANDARDS.md` §1 now says the Student Manual is a starting point, not the spine: about a third of a chapter's notes at most, and a note that cites it should also rest on something from beyond the Church's own publications. `check-content.mjs` warns, never fails. Isaiah (13 chapters) and Jeremiah (48) draw warnings from before the rule; they are information, not a to-do list. The rule is for new writing, starting with the next book.
 - **Site:** framework, guides, theme pages, About page, and book-neutral code done. Code notes are in `DEVELOPMENT.md`.
 
 ## Plan for the next book
