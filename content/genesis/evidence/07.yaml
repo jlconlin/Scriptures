@@ -1,0 +1,535 @@
+chapter: 7
+claims:
+  # ---------- when ----------
+  - where: 'when'
+    claim: 'The Church’s Bible chronology lists the Flood among the events of the early patriarchs without a date'
+    key: bible-chron-ot
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-chron/old-testament?lang=eng'
+    quote: 'Ministry of Noah; the Flood. Tower of Babel.'
+  - where: 'when'
+    claim: 'The chronology gives no dates for these events'
+    key: bible-chron-ot
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-chron/old-testament?lang=eng'
+    quote: '(Those desiring calculated dates on these events may wish to consult published chronologies.)'
+
+  # ---------- setting ----------
+  - where: 'setting'
+    claim: 'Genesis follows Noah’s history in chapters 4–9, up to his death'
+    key: bd-genesis
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/genesis?lang=eng'
+    quote: 'Noah ( Gen. 4–9 ). The line of Cain branching off; while the history follows the fortunes of Seth, whose descendants are traced in genealogical succession as far as Noah, whose history is followed up to his death.'
+  - where: 'setting'
+    claim: 'The Book of Moses retells Genesis only as far as 6:13 (Moses 8:30 is the last verse of Moses 8 and matches Gen. 6:13)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8?lang=eng'
+    quote: 'And God said unto Noah: The end of all flesh is come before me, for the earth is filled with violence, and behold I will destroy all flesh from off the earth.'
+  - where: 'setting'
+    claim: 'Latter-day revelation confirms the Genesis account of the Flood'
+    key: bd-noah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/noah?lang=eng'
+    quote: 'The authenticity of the Genesis account of the Flood is confirmed by latter-day revelation as recorded in Moses 7:34, 42–43; 8:8–30.'
+  - where: 'setting'
+    claim: 'Enoch saw the Flood in vision (Moses 7:34, 43)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng'
+    quote: 'Wherefore Enoch saw that Noah built an ark; and that the Lord smiled upon it, and held it in his own hand'
+  - where: 'setting'
+    claim: 'Chapter 8 opens with God remembering Noah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/8?lang=eng'
+    quote: 'And God remembered Noah, and every living thing, and all the cattle that was with him in the ark'
+
+  - where: 'setting'
+    claim: 'The 120 years of Moses 8:17 were the time allotted for Noah to preach before the Flood'
+    key: scripture-helps-gen-6-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/06-moses-6-11-moses-8?lang=eng'
+    quote: 'The book of Moses clarifies that 120 years was the amount of time God allotted for Noah to preach repentance before He sent the Flood.'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'The “great deep” of 7:11 is tehom, the deep of Gen. 1:2'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/7.htm'
+    quote: 'On the “deep” (tehom), here called “great,” see note on Genesis 1:2.'
+  - where: 'thread'
+    claim: 'Verse 14 lists the animals in the categories of Gen. 1:21, 24–26'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/7.htm'
+    quote: 'Notice in this verse the comprehensive description of the animal world'
+  - where: 'thread'
+    claim: '“Breath of life” in 7:22 is drawn from Gen. 2:7'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/7.htm'
+    quote: 'The expression is evidently based upon the words in Genesis 2:7, “breathed into his nostrils the breath of life.”'
+  - where: 'thread'
+    claim: 'As the waters rise the work of creation is undone'
+    key: sc-knowhy-629
+    url: 'https://scripturecentral.org/knowhy/why-is-the-story-of-noah-and-the-ark-so-repetitive'
+    quote: 'In the first half of the chiasm, the work of creation, as stated in Genesis 1, is effectively undone as the flood waters rise.'
+  - where: 'thread'
+    claim: 'The flood story parallels the language of the creation stories'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'It is commonly accepted in biblical studies that the flood constitutes a re-creation of life, paralleling the context and language of the creation stories in Genesis.'
+  - where: 'thread'
+    claim: 'The refrain that Noah did as God commanded (6:22; 7:5)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/6?lang=eng'
+    quote: 'Thus did Noah; according to all that God commanded him, so did he.'
+  - where: 'thread'
+    claim: 'The story turns at its center, when God remembers Noah (8:1)'
+    key: sc-knowhy-629
+    url: 'https://scripturecentral.org/knowhy/why-is-the-story-of-noah-and-the-ark-so-repetitive'
+    quote: 'it neatly divides the narrative in half, at its exact center point, when God remembers Noah (Genesis 8:1).'
+
+  # ---------- note 7:1 ----------
+  - where: 'note 7:1 “Saved because he was righteous”'
+    claim: 'Noah and his three sons walked with God (Moses 8:27)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8?lang=eng'
+    quote: 'for Noah was a just man, and perfect in his generation; and he walked with God, as did also his three sons, Shem, Ham, and Japheth.'
+  - where: 'note 7:1 “Saved because he was righteous”'
+    claim: 'Mesopotamian flood stories are older than the biblical text is thought to be'
+    key: sc-knowhy-837
+    url: 'https://scripturecentral.org/knowhy/why-is-the-story-of-the-great-flood-in-genesis-similar-in-certain-ways-to-other-ancient-flood-stories'
+    quote: 'Several versions of the story have been preserved in Mesopotamian sources that are much older than when the biblical text is thought to have been written.'
+  - where: 'note 7:1 “Saved because he was righteous”'
+    claim: 'In Atrahasis the gods, annoyed at the noise, decide to destroy humankind'
+    key: sc-knowhy-837
+    url: 'https://scripturecentral.org/knowhy/why-is-the-story-of-the-great-flood-in-genesis-similar-in-certain-ways-to-other-ancient-flood-stories'
+    quote: 'Annoyed at all the noise, the gods decide to destroy all humans with a giant flood'
+  - where: 'note 7:1 “Saved because he was righteous”'
+    claim: 'Enki, sworn to secrecy, warns Atrahasis by speaking to the reed wall of his house'
+    key: sc-knowhy-837
+    url: 'https://scripturecentral.org/knowhy/why-is-the-story-of-the-great-flood-in-genesis-similar-in-certain-ways-to-other-ancient-flood-stories'
+    quote: 'But since Enki had sworn not to tell anyone about the deluge … he talks to the reed wall of Atra-Hasis’ house loud enough for Atra-Hasis to hear him'
+  - where: 'note 7:1 “Saved because he was righteous”'
+    claim: 'Gilgamesh tells the story the same way (Ea, reed wall)'
+    key: sc-knowhy-837
+    url: 'https://scripturecentral.org/knowhy/why-is-the-story-of-the-great-flood-in-genesis-similar-in-certain-ways-to-other-ancient-flood-stories'
+    quote: 'But Ea decides to reveal the plan to the flood hero, in this case named Utnapishtim, through the reed wall of his house.'
+  - where: 'note 7:1 “Saved because he was righteous”'
+    claim: 'Shared details: the ark, animals, birds sent out, sacrifice; a common tradition'
+    key: sc-knowhy-837
+    url: 'https://scripturecentral.org/knowhy/why-is-the-story-of-the-great-flood-in-genesis-similar-in-certain-ways-to-other-ancient-flood-stories'
+    quote: 'Both recount that the flood hero releases a dove and a raven … So, they clearly share a common basic tradition telling of their ancient origin.'
+  - where: 'note 7:1 “Saved because he was righteous”'
+    claim: 'In the Mesopotamian stories the flood comes from annoyance, not sin'
+    key: sc-knowhy-837
+    url: 'https://scripturecentral.org/knowhy/why-is-the-story-of-the-great-flood-in-genesis-similar-in-certain-ways-to-other-ancient-flood-stories'
+    quote: 'In Gilgamesh and Atra-Hasis, the gods cause the flood because they were simply annoyed by the humans, not because of serious human sin, as is the case in Genesis.'
+  - where: 'note 7:1 “Saved because he was righteous”'
+    claim: 'There the hero is saved by another god; in Genesis by the main God, who wishes to save'
+    key: sc-knowhy-837
+    url: 'https://scripturecentral.org/knowhy/why-is-the-story-of-the-great-flood-in-genesis-similar-in-certain-ways-to-other-ancient-flood-stories'
+    quote: 'In Genesis, the flood hero is saved by the main god himself who wishes to save and not to completely destroy humanity.'
+  - where: 'note 7:1 “Saved because he was righteous”'
+    claim: 'The biblical account differs from all others in religious value and purpose'
+    key: bd-noah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/noah?lang=eng'
+    quote: 'A Babylonian account closely resembles the record in the Bible, but the biblical account differs from all others in its religious value and the purpose of it.'
+  - where: 'note 7:1 “Saved because he was righteous”'
+    claim: 'The Bible’s account saves Noah’s family because they were righteous'
+    key: bd-noah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/noah?lang=eng'
+    quote: 'Noah and his family were saved because they were righteous (Gen. 6:9; Moses 8:27).'
+
+  - where: 'note 7:1 “Saved because he was righteous”'
+    claim: 'Shared details: instructions for the ark, animals and humans aboard, a sacrifice afterward'
+    key: sc-knowhy-837
+    url: 'https://scripturecentral.org/knowhy/why-is-the-story-of-the-great-flood-in-genesis-similar-in-certain-ways-to-other-ancient-flood-stories'
+    quote: 'both Gilgamesh and Genesis recount that a god gave the flood hero specific instructions about how to build the ark, including dimensions. … Both recount that animals and humans were taken onto the ark.'
+  - where: 'note 7:1 “Saved because he was righteous”'
+    claim: 'Shared detail: a god smells the sacrifice after the flood'
+    key: sc-knowhy-837
+    url: 'https://scripturecentral.org/knowhy/why-is-the-story-of-the-great-flood-in-genesis-similar-in-certain-ways-to-other-ancient-flood-stories'
+    quote: 'They both even recount that a god smells the sweet smell of the sacrifice offered by the flood hero after leaving the ark'
+  - where: 'note 7:1 “Saved because he was righteous”'
+    claim: 'In the Mesopotamian stories the main god seeks to destroy humanity and another god saves the hero'
+    key: sc-knowhy-837
+    url: 'https://scripturecentral.org/knowhy/why-is-the-story-of-the-great-flood-in-genesis-similar-in-certain-ways-to-other-ancient-flood-stories'
+    quote: 'the Mesopotamian stories depict the main god as seeking to obliterate all of humanity, with the flood hero and his family being saved by another god.'
+
+  # ---------- note 7:2 ----------
+  - where: 'note 7:2 “Seven pairs of the clean”'
+    claim: 'The Hebrew reads “seven seven, a man and his wife”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/7-2.htm'
+    quote: 'שִׁבְעָ֥ה seven … אִ֣ישׁ a male … וְאִשְׁתּ֑וֹ and his female'
+  - where: 'note 7:2 “Seven pairs of the clean”'
+    claim: 'A modern translation renders “seven pairs”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%207&version=NRSVUE'
+    quote: 'Take with you seven pairs of all clean animals, the male and its mate'
+  - where: 'note 7:2 “Seven pairs of the clean”'
+    claim: 'The phrase means seven pairs; “the male and his female” means each and its mate'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/7.htm'
+    quote: 'By this is meant seven pairs. “The male and his female,” i.e. “each and his mate,”'
+  - where: 'note 7:2 “Seven pairs of the clean”'
+    claim: 'One reading: seven animals, three pairs and one male for sacrifice'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/7.htm'
+    quote: 'seven of the former being ordered to be taken, - i.e., three pair and a single one, probably a male for sacrifice'
+  - where: 'note 7:2 “Seven pairs of the clean”'
+    claim: 'The extra clean animals were presumably for food and sacrifice (and domestic use)'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/7.htm'
+    quote: 'The reason why so many more clean animals than unclean are required is, presumably, because they would be wanted (a) for food, (b) for sacrifice, and (c) for domestic purposes.'
+  - where: 'note 7:2 “Seven pairs of the clean”'
+    claim: 'Noah sacrificed clean beasts and fowl after the Flood (8:20)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/8?lang=eng'
+    quote: 'And Noah builded an altar unto the Lord; and took of every clean beast, and of every clean fowl, and offered burnt offerings on the altar.'
+  - where: 'note 7:2 “Seven pairs of the clean”'
+    claim: 'The clean–unclean distinction did not begin with Moses'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/7.htm'
+    quote: 'For the distinction between clean and unclean animals did not originate with Moses, but was confirmed by him as a long established custom'
+  - where: 'note 7:2 “Seven pairs of the clean”'
+    claim: 'Adam offered sacrifice as a similitude of the Only Begotten (Moses 5:5–7)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/5?lang=eng'
+    quote: 'This thing is a similitude of the sacrifice of the Only Begotten of the Father, which is full of grace and truth.'
+
+  # ---------- note 7:11 ----------
+  - where: 'note 7:11 “The deep and the windows of heaven”'
+    claim: 'Tehom means deep, sea, abyss; here the subterranean waters'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8415.htm'
+    quote: 'deep, sea, abyss … deep, of subterranean waters'
+  - where: 'note 7:11 “The deep and the windows of heaven”'
+    claim: 'The “great deep” is the deep of Gen. 1:2'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/7.htm'
+    quote: 'On the “deep” (tehom), here called “great,” see note on Genesis 1:2.'
+  - where: 'note 7:11 “The deep and the windows of heaven”'
+    claim: 'The ancient picture: reservoirs of water beneath the earth'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/7.htm'
+    quote: 'The Israelites believed that beneath the surface of the earth were accumulated enormous reservoirs of water'
+  - where: 'note 7:11 “The deep and the windows of heaven”'
+    claim: 'The ancient picture: waters stored above the firmament'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/7.htm'
+    quote: 'Above the solid firmament (see note on Genesis 1:6) were stored the masses of water which supplied the rainfall of the earth.'
+  - where: 'note 7:11 “The deep and the windows of heaven”'
+    claim: '“Windows” are sluices in the sky through which rain pours destructively; figurative of blessing in Mal. 3:10'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/699.htm'
+    quote: 'lattice, window, sluice … through which rain pours destructively … figurative of blessing'
+
+  - where: 'note 7:11 “The deep and the windows of heaven”'
+    claim: 'The fountains are the channels from the subterranean reservoirs, torn open'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/7.htm'
+    quote: 'Here it is supposed that the channels, or, as the account calls them, “the fountains of the great deep,” were violently rent asunder'
+  - where: 'note 7:11 “The deep and the windows of heaven”'
+    claim: 'BDB compares Isa. 24:18 with the destructive sluices of Gen. 7:11'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/699.htm'
+    quote: 'through which rain pours destructively … compare Isaiah 24:18'
+  - where: 'note 7:11 “The deep and the windows of heaven”'
+    claim: 'As the waters rise, the work of creation in Genesis 1 is undone'
+    key: sc-knowhy-629
+    url: 'https://scripturecentral.org/knowhy/why-is-the-story-of-noah-and-the-ark-so-repetitive'
+    quote: 'In the first half of the chiasm, the work of creation, as stated in Genesis 1, is effectively undone as the flood waters rise.'
+
+  # ---------- note 7:13 ----------
+  - where: 'note 7:13 “Why the story tells it twice”'
+    claim: 'The entry into the ark is told twice, and the story repeats other details'
+    key: sc-knowhy-629
+    url: 'https://scripturecentral.org/knowhy/why-is-the-story-of-noah-and-the-ark-so-repetitive'
+    quote: 'Noah and his family enter the ark twice (7:7, 13), and the animals going into the ark is also repeated (7:8–9, 14–16). Periods of 7, 40, and 150 days are also variously repeated'
+  - where: 'note 7:13 “Why the story tells it twice”'
+    claim: 'Some scholars explain the repetitions as two sources woven together'
+    key: sc-knowhy-629
+    url: 'https://scripturecentral.org/knowhy/why-is-the-story-of-noah-and-the-ark-so-repetitive'
+    quote: 'These examples of repetition throughout this story are among the reasons some scholars have suggested that it was originally based on two different sources, which were woven together by a later editor.'
+  - where: 'note 7:13 “Why the story tells it twice”'
+    claim: 'In the source view, one account has seven pairs of clean animals, the other one pair of every kind'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/7.htm'
+    quote: 'According to J, Noah is to take seven pairs of every clean animal and two pairs of the unclean; according to P he is to take in with him one pair of every kind of creature living upon earth.'
+  - where: 'note 7:13 “Why the story tells it twice”'
+    claim: 'In the source view the divine names mark the sources (Elohim in one, Jehovah in the other), as in 7:16'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/7.htm'
+    quote: 'This is evidently P’s account: notice the use of Elohim … Notice the introduction of Jehovah. These words are evidently from J'
+  - where: 'note 7:13 “Why the story tells it twice”'
+    claim: 'The repetition of 7:7–9 in 13–16 is the reason for the source view'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/7.htm'
+    quote: 'The repetition of what has already been narrated in Genesis 7:7-9 can hardly fail to strike the reader'
+  - where: 'note 7:13 “Why the story tells it twice”'
+    claim: 'The site’s position: Moses used documentary sources besides revelation'
+    key: bd-pentateuch
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/pentateuch?lang=eng'
+    quote: 'The Pentateuch was written by Moses, although it is evident that he used several documentary sources from which he compiled the book of Genesis, besides a divine revelation to him.'
+  - where: 'note 7:13 “Why the story tells it twice”'
+    claim: 'Discrepancies need not disturb faith and can show details a single account would not'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'Apparent discrepancies need not throw us into testimonial panic, as they do not invalidate the underlying purposes of the stories. In fact, sometimes the discrepancies help us comprehend significant details'
+  - where: 'note 7:13 “Why the story tells it twice”'
+    claim: 'Other scholars see the repetition as artistry within one design'
+    key: sc-knowhy-629
+    url: 'https://scripturecentral.org/knowhy/why-is-the-story-of-noah-and-the-ark-so-repetitive'
+    quote: 'Other scholars argue that most of this repetition functions as part of the overall coherence and artistry of the narrative whole.'
+  - where: 'note 7:13 “Why the story tells it twice”'
+    claim: 'The chiasm’s steps (7 days, rain, the Lord shuts Noah in, 40 days, mountains covered, 150 days) mirror around 8:1'
+    key: sc-knowhy-629
+    url: 'https://scripturecentral.org/knowhy/why-is-the-story-of-noah-and-the-ark-so-repetitive'
+    quote: 'H: 7 days waiting for flood (7:10) … K: The Lord shuts Noah in (7:16) … N: Mountains covered (7:19–20) … P: God remembers Noah (8:1)'
+  - where: 'note 7:13 “Why the story tells it twice”'
+    claim: 'The chiasm divides the story at God’s remembering Noah and guides readers to its message'
+    key: sc-knowhy-629
+    url: 'https://scripturecentral.org/knowhy/why-is-the-story-of-noah-and-the-ark-so-repetitive'
+    quote: 'This extended chiasm helps guide readers toward the central message of this significant episode early in biblical history, as it neatly divides the narrative in half, at its exact center point, when God remembers Noah'
+  - where: 'note 7:13 “Why the story tells it twice”'
+    claim: 'Many scholars attribute the differences to separate accounts (P and J)'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'Bible scholarship generally speaks of multiple flood accounts in Genesis, often labeled P (Priestly) or J (Yahwistic), that preserve various details of the flood that are not always complementary.'
+  - where: 'note 7:13 “Why the story tells it twice”'
+    claim: 'Whatever center is proposed for the chiasm, God and salvation are agreed to be the focal points of the story'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'what is almost universally agreed upon is that God and salvation are the focal points of the story.'
+
+  - where: 'note 7:13 “Why the story tells it twice”'
+    claim: 'God commands Noah twice to go into the ark (6:18–22; 7:1–5)'
+    key: sc-knowhy-629
+    url: 'https://scripturecentral.org/knowhy/why-is-the-story-of-noah-and-the-ark-so-repetitive'
+    quote: 'God commands Noah to gather animals and go into the ark twice (6:18–22; 7:1–5).'
+
+  # ---------- note 7:16 ----------
+  - where: 'note 7:16 “The LORD shut him in”'
+    claim: 'The Hebrew: “and the LORD shut [it] behind him”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/7-16.htm'
+    quote: 'וַיִּסְגֹּ֥ר And shut … יְהוָ֖ה YHWH … בַּֽעֲדֽוֹ׃ behind him'
+  - where: 'note 7:16 “The LORD shut him in”'
+    claim: 'Sagar be‘ad is the idiom for shutting a door upon oneself (Isa. 26:20) or upon another (Gen. 7:16)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1157.htm'
+    quote: 'idiomatic with verbs of shutting … to shut behind or upon — whether oneself, Judges 9:51 … Isaiah 26:20 ; or another, Genesis 7:16'
+  - where: 'note 7:16 “The LORD shut him in”'
+    claim: 'Noah left the ark at God’s command (8:15–16)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/8?lang=eng'
+    quote: 'Go forth of the ark, thou, and thy wife, and thy sons, and thy sons’ wives with thee.'
+  - where: 'note 7:16 “The LORD shut him in”'
+    claim: 'The LORD in small capitals is Jehovah, the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'In the KJV, the Jewish custom has been followed, and the name is generally denoted by Lord or God, printed in small capitals. Jehovah is the premortal Jesus Christ'
+  - where: 'note 7:16 “The LORD shut him in”'
+    claim: 'Jesus compared His coming to the day Noah entered the ark'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/24?lang=eng'
+    quote: 'For as in the days that were before the flood they were eating and drinking, marrying and giving in marriage, until the day that Noe entered into the ark'
+
+  - where: 'note 7:16 “The LORD shut him in”'
+    claim: 'In 7:16 the door (unnamed) is shut upon one left inside'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5462.htm'
+    quote: 'upon one left inside Judges 3:23 , and ( דֶּלֶת omitted) Genesis 7:16'
+
+  # ---------- note 7:17 ----------
+  - where: 'note 7:17 “The waters that bore up the ark”'
+    claim: 'Peter: eight souls were saved by water'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/3?lang=eng'
+    quote: 'wherein few, that is, eight souls were saved by water.'
+  - where: 'note 7:17 “The waters that bore up the ark”'
+    claim: 'Enoch saw the Lord hold the ark in His hand, and Noah’s posterity saved with a temporal salvation'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng'
+    quote: 'And Enoch also saw Noah, and his family; that the posterity of all the sons of Noah should be saved with a temporal salvation'
+  - where: 'note 7:17 “The waters that bore up the ark”'
+    claim: 'The Lord covenanted with Enoch that Noah would be of his line (Moses 8:2)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/8?lang=eng'
+    quote: 'for he truly covenanted with Enoch that Noah should be of the fruit of his loins.'
+  - where: 'note 7:17 “The waters that bore up the ark”'
+    claim: 'The covenant was carried through the Flood rather than ending with it'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'so that the promises made to Enoch might be fulfilled and the covenant might be preserved, brought through the flood, and perpetuated by subsequent generations, rather than coming to an end with the flood.'
+
+  # ---------- note 7:19 ----------
+  - where: 'note 7:19 “The mountains covered: the earth’s baptism”'
+    claim: '“High hills” (v. 19) and “mountains” (v. 20) are the same Hebrew word'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/7-19.htm'
+    quote: 'הֶֽהָרִים֙ the mountains … הַגְּבֹהִ֔ים the high'
+  - where: 'note 7:19 “The mountains covered: the earth’s baptism”'
+    claim: '“High hills” (v. 19) and “mountains” (v. 20) are the same Hebrew word'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/7-20.htm'
+    quote: 'הֶהָרִֽים׃ the mountains'
+  - where: 'note 7:19 “The mountains covered: the earth’s baptism”'
+    claim: 'Fifteen cubits is about 22 feet'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/7.htm'
+    quote: 'P describes a depth of water of 15 cubits (= 22 feet) above the mountains.'
+  - where: 'note 7:19 “The mountains covered: the earth’s baptism”'
+    claim: 'Fifteen cubits is perhaps given because it is half the ark’s 30-cubit height'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/7.htm'
+    quote: 'Very possibly, because the height of the ark was 30 cubits (Genesis 6:15), and the ark was considered to be submerged for half its depth.'
+  - where: 'note 7:19 “The mountains covered: the earth’s baptism”'
+    claim: 'The Church’s chapter heading: water covers the whole earth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/7?lang=eng'
+    quote: 'Noah’s family and various beasts and fowl enter the ark—The Flood comes, and water covers the whole earth'
+  - where: 'note 7:19 “The mountains covered: the earth’s baptism”'
+    claim: 'President John Taylor quoted 7:19–20 and called it the earth’s immersion and baptism'
+    key: ot-manual-gen-4-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-4-11-the-patriarchs?lang=eng'
+    quote: 'It simply tells that ‘all the high hills that were under the whole heaven were covered. Fifteen cubits upwards did the waters prevail; and the mountains were covered.’ That is, the earth was immersed. It was a period of baptism.'
+  - where: 'note 7:19 “The mountains covered: the earth’s baptism”'
+    claim: 'The John Taylor quotation is from the Journal of Discourses'
+    key: ot-manual-gen-4-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-4-11-the-patriarchs?lang=eng'
+    quote: 'John Taylor, in Journal of Discourses, 26:74–75.'
+  - where: 'note 7:19 “The mountains covered: the earth’s baptism”'
+    claim: 'The earth was completely covered; this was its baptism and symbolized a cleansing'
+    key: gs-flood-noah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/flood-at-noahs-time?lang=eng'
+    quote: 'During Noah’s time the earth was completely covered with water. This was the baptism of the earth and symbolized a cleansing (1 Pet. 3:20–21).'
+  - where: 'note 7:19 “The mountains covered: the earth’s baptism”'
+    claim: 'Ether 13:2 refers to the land of America after the waters receded'
+    key: gs-flood-noah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/flood-at-noahs-time?lang=eng'
+    quote: 'After the waters had receded, the land of America became a choice land, Ether 13:2.'
+  - where: 'note 7:19 “The mountains covered: the earth’s baptism”'
+    claim: 'The earth asks to be cleansed because of the wickedness of its children (Moses 7:48)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng'
+    quote: 'Wo, wo is me, the mother of men; I am pained, I am weary, because of the wickedness of my children. When shall I rest, and be cleansed from the filthiness which is gone forth out of me?'
+  - where: 'note 7:19 “The mountains covered: the earth’s baptism”'
+    claim: 'One reading: the earth was washed free of the sins of the mortals on it'
+    key: hoskisson-flood
+    url: 'https://rsc.byu.edu/let-us-reason-together/was-noahs-flood-baptism-earth'
+    quote: 'it is possible that the earth, in like manner and in preparation for eventual celestialization, was physically washed and symbolically cleansed so that it could become free from the blood and sins of the mortals who polluted its surface.'
+  - where: 'note 7:19 “The mountains covered: the earth’s baptism”'
+    claim: 'Scripture attests the Flood, its cause and purpose, without giving the history or science behind it'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'The scriptures attest to a flood with its attendant cause and purpose, without providing the specific details of the history or science behind it.'
+
+  # ---------- note 7:21 ----------
+  - where: 'note 7:21 “What became of those who drowned”'
+    claim: 'God wept over these people (Moses 7:28)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng'
+    quote: 'And it came to pass that the God of heaven looked upon the residue of the people, and he wept'
+  - where: 'note 7:21 “What became of those who drowned”'
+    claim: 'The Lord told Enoch they would perish and be kept in a prison, and that His Chosen suffers for their sins (Moses 7:38–39)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng'
+    quote: 'But behold, these which thine eyes are upon shall perish in the floods; and behold, I will shut them up; a prison have I prepared for them.'
+  - where: 'note 7:21 “What became of those who drowned”'
+    claim: 'Enoch saw the Atonement reach those in the spirit prison'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'Enoch gets a glimpse of the redemptive power of the Atonement of Christ and how it would reach those shut up in a spirit prison.'
+  - where: 'note 7:21 “What became of those who drowned”'
+    claim: 'Christ preached to the spirits disobedient in the days of Noah (1 Pet. 3:19–20)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/3?lang=eng'
+    quote: 'By which also he went and preached unto the spirits in prison; Which sometime were disobedient, when once the longsuffering of God waited in the days of Noah'
+  - where: 'note 7:21 “What became of those who drowned”'
+    claim: 'D&C 138 is President Joseph F. Smith’s vision of October 3, 1918'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/138?lang=eng'
+    quote: 'A vision given to President Joseph F. Smith in Salt Lake City, Utah, on October 3, 1918.'
+  - where: 'note 7:21 “What became of those who drowned”'
+    claim: 'He wondered at Peter’s words about those disobedient in Noah’s day and saw messengers organized to preach to them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/138?lang=eng'
+    quote: 'But behold, from among the righteous, he organized his forces and appointed messengers, clothed with power and authority'
+  - where: 'note 7:21 “What became of those who drowned”'
+    claim: 'Rather than all being lost through the flood, all could be gained through Christ'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'Thus, rather than all being lost through the flood, all could be gained through the redemptive power of Christ and the cleansing power of the Atonement with its attendant ordinances.'
+
+  # ---------- note 7:24 ----------
+  - where: 'note 7:24 “Seven, forty, and a hundred and fifty days”'
+    claim: 'The 40 days of rain raised the waters, which stood at their height for 150 days'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/7.htm'
+    quote: 'relate to the 40 days'' rain combined with the bursting forth of the foundations beneath the earth. By these the water was eventually raised to the height given, at which it remained 150 days'
+  - where: 'note 7:24 “Seven, forty, and a hundred and fifty days”'
+    claim: 'The ark rested on the 17th day of the 7th month after the 150 days (8:3–4)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/8?lang=eng'
+    quote: 'and after the end of the hundred and fifty days the waters were abated.'
+  - where: 'note 7:24 “Seven, forty, and a hundred and fifty days”'
+    claim: 'From 17/2 to 17/7 is 150 days if months are 30 days'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/8.htm'
+    quote: 'The decrease first became perceptible when the ark rested upon the mountains of Ararat on the 17th day of the seventh month; i.e.,, reckoning 30 days to a month, exactly 150 days after the flood commenced.'
+  - where: 'note 7:24 “Seven, forty, and a hundred and fifty days”'
+    claim: 'The Flood lasted a year and ten days (to 27/2 of the 601st year)'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/8.htm'
+    quote: 'As the flood commenced on the 17th of the second month of the 600th year of Noah''s life, and ended on the 27th of the second month of the 601st year, it lasted a year and ten days'
+  - where: 'note 7:24 “Seven, forty, and a hundred and fifty days”'
+    claim: '150 days for the waters to rise and 150 to recede, then a drying period, over a year in all'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'Genesis 7:24 and 8:3 talk of it taking 150 days for the flood waters to rise and another 150 for them to recede, along with a drying period that takes even more time, over a year, to complete.'
+  - where: 'note 7:24 “Seven, forty, and a hundred and fifty days”'
+    claim: 'The seven days of waiting: a period of patience precedes God’s word being fulfilled'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/7.htm'
+    quote: 'Moreover, throughout the Genesis story, a period of probation and patience precedes the fulfilment of the Divine word.'
+  - where: 'note 7:24 “Seven, forty, and a hundred and fifty days”'
+    claim: 'Peter calls the time before the Flood the time when the longsuffering of God waited'
+    key: scripture-helps-gen-6-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/06-moses-6-11-moses-8?lang=eng'
+    quote: 'Peter referred to this period as the time when “the longsuffering of God waited.”'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'Peter’s word “figure” is antitypon'
+    key: greek-nt
+    url: 'https://biblehub.com/interlinear/1_peter/3-21.htm'
+    quote: 'antitypon … typical of'
+  - where: 'christ'
+    claim: 'Antitypon: the counterpart answering to a type, as baptism to the deluge'
+    key: thayer
+    url: 'https://biblehub.com/greek/499.htm'
+    quote: 'a thing resembling another, its counterpart … as baptism corresponds to the deluge: 1 Peter 3:21'
+  - where: 'christ'
+    claim: 'Peter connected the Flood to baptism; deliverance a new beginning, as baptism is new life in Christ'
+    key: scripture-helps-gen-6-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/06-moses-6-11-moses-8?lang=eng'
+    quote: 'Just as the deliverance of Noah’s family from the Flood represented a new beginning for the earth, so baptism by water represents being born again to a new life in Christ.'
+  - where: 'christ'
+    claim: 'Enoch, seeing the Flood, also saw the Son of Man and the Lamb slain (Moses 7:47)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng'
+    quote: 'And behold, Enoch saw the day of the coming of the Son of Man, even in the flesh; and his soul rejoiced'
+  - where: 'christ'
+    claim: 'In the same vision Enoch saw Christ come and perform the Atonement, and rejoiced'
+    key: scripture-helps-gen-6-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/06-moses-6-11-moses-8?lang=eng'
+    quote: 'Enoch then saw that Jesus Christ would come to earth and perform the Atonement, and Enoch rejoiced in the Lord’s plan of salvation for all His children.'
+
+  - where: 'christ'
+    claim: 'The Atonement of Christ reached those the Flood took, shut up in a spirit prison'
+    key: schade-rainbow
+    url: 'https://rsc.byu.edu/creation-sinai/rainbow-token-genesis'
+    quote: 'Enoch gets a glimpse of the redemptive power of the Atonement of Christ and how it would reach those shut up in a spirit prison.'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: 'The Lord’s oath after the Flood is recalled in Isaiah 54:9'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/54?lang=eng'
+    quote: 'For this is as the waters of Noah unto me'
