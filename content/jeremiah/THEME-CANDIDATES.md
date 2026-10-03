@@ -1,6 +1,19 @@
 # Jeremiah: theme candidates
 
-Topics that run across several chapters, collected for possible theme pages (`content/jeremiah/themes/`; the format and what earns a page are in `STANDARDS.md` §8). Writers report them; the coordinator adds a line, or adds a chapter to an existing line. Most will stay chapter notes. None is chosen until the author chooses.
+Topics that run across several chapters, collected for possible theme pages (`content/jeremiah/themes/`; the format and what earns a page are in `STANDARDS.md` §8). Writers report them; the coordinator adds a line, or adds a chapter to an existing line. Most will stay chapter notes.
+
+**Written (2026-10-02), at the author's request to choose a handful and write them up; the author has not yet read them:**
+
+- **The Shepherds and the Branch** (`themes/shepherds-and-the-branch.md`): the failed shepherds and kings, then the Lord gathering the flock and raising the Branch. Linked from the notes at 3:15, 23:5 and 33:15.
+- **Scattered and Gathered** (`themes/scattered-and-gathered.md`): the scattering, “one of a city, and two of a family,” the gathering greater than the Exodus, Israel and Judah together. Linked from the notes at 3:14, 16:14, 23:7 and 30:3.
+- **The Covenant Written in the Heart** (`themes/new-covenant.md`): the covenant broken, what is written on the heart, the new covenant, its mediator, and when. Linked from the notes at 11:10, 17:1 and 31:31.
+
+**Researched and not written:**
+
+- **The cup of the Lord's fury.** The order is plain in the text (Judah, the nations, Babylon last, and Babylon herself the cup in 51:7), but no Church source links Jeremiah's cup to the cup the Savior drank: the footnotes on Matt. 26:39, John 18:11, 3 Ne. 11:11 and D&C 19:18 never point to Jeremiah, and the footnotes on Jer. 25:15 point to the wrath others drink (Mosiah 3:26; D&C 29:17). One BYU article joins them (Tolley, “Christ and the Cup,” Religious Studies Center), leaning on Isaiah 51. An arc without a sourced connection to Christ is not a theme page (`STANDARDS.md` §8); it stays in the notes on chapters 25 and 51.
+- **To root out and to plant** (with the Lord “watching”). The six verbs of 1:10 do come back (all six only at 1:10 and 31:28; four at 24:6, 42:10, 45:4; 18:7–9; 12:14–17), but no source says what the sequence means, and the one link to Christ is a single *Come, Follow Me* paragraph that answers “what could be built or planted?” with the Branch (33:15) and the new covenant (31:31), which the two pages above cover. The chapter notes on 1:10, 18:8, 42:10 and 45:4 already point to one another.
+
+**Not researched:** Lehi and Jeremiah in the same city is the book's main Restoration connection, but it is a comparison of two prophets, not an arc through Jeremiah; it would suit a guide better than a theme page. The rest of the list below are images or refrains that recur without developing, or live in one or two chapters.
 
 This file lives outside `themes/` because the build publishes every Markdown file there as a page.
 
