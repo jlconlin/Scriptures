@@ -34,7 +34,7 @@ export function renderHome({ books, featured }) {
     <div>
       <p class="eyebrow">${logo} A scripture study companion</p>
       <h1>“What does <em>that</em> mean?”</h1>
-      <p class="lede">Some passages of scripture make you stop and read them three times. This site is for those passages. It goes phrase by phrase, the way a patient religion teacher might, with the history, the Hebrew, the imagery, and the witness of Jesus Christ that sits underneath them.</p>
+      <p class="lede">Some passages of scripture make you stop and read them three times. This site is for those passages. It goes phrase by phrase, the way a patient religion teacher might, with the history, the language, the imagery, and the witness of Jesus Christ that sits underneath them.</p>
       <div class="cta-row">
         <a class="btn btn-primary" href="#library">Choose a book</a>
         <a class="btn" href="/about/">How this site works</a>
