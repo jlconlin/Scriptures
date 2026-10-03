@@ -79,7 +79,7 @@ Return:
 1. **Files written**, with the chapter's word count and number of notes.
 2. **Your questions**, as you wrote them before researching, each with the note that answers it (or “not answered”).
 3. **Proposed `sources.yaml` entries**, one line each in the file's format, with the URL and the page title you saw when you opened it.
-4. **Judgment calls** for the book's `OPEN-QUESTIONS.md` (interpretive choices, framing of debates, anything the author should decide).
+4. **Judgment calls** for the book's `OPEN-QUESTIONS.md`: only choices that `STANDARDS.md` and the brief don't already decide. Following a rule is not a judgment call; don't report it as one. Most chapters have none or one.
    Also **theme candidates**: topics in this chapter that run across the book, one line each with the verses.
 5. **Cut for lack of a source**: claims you wanted to make but couldn't source, and what you tried.
 6. **Check output**: the result of each check (pass, or the warnings left and why), and any check you couldn't run.
