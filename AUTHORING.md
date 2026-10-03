@@ -17,6 +17,8 @@ Jeremiah was written with Sonnet writers and Opus checkers (one commit per chapt
 2. **The script checks the ledger**: `node scripts/check-ledger.mjs <book> <n>`. Every quote confirmed on its page before anyone reads the chapter.
 3. **A second Opus reviews** (`chapter-reviewer`): the chapter against the ledger and the standard, which is a shorter job once the quotes are proved.
 
+**Result of the test (2026-10-02, Jeremiah 19 and 45 rewritten this way and compared with the Sonnet versions):** the Opus drafts answered more of a reader's questions (chapter 19: 13 notes against 8, adding the Potsherd Gate, “estranged this place,” Baal and Molech, the hissing, and the walk from Tophet to the temple court), with the same sourcing discipline; the script found every quote on its page; and the second Opus called both “a light edit” and used 75–90k tokens against about 120k when it also had to reopen every row. Cost: the Opus writer used 125–156k tokens against Sonnet's ~115k, so a chapter now spends about 215k Opus tokens instead of 120k. The author chose depth, so this is the arrangement for the next book; the Opus versions of 19 and 45 are the ones on the site.
+
 Before that: the book's brief, with the author (`content/<book>/BRIEF.md`: divisions and intro, the author's questions, which sources are actually readable online, book-wide issues, guide and theme candidates, Restoration connections); then `book.yaml` and “Adding a new book” in `DEVELOPMENT.md`. Jeremiah's brief is the model, including its section “What a chapter is for.” The Workflow script used for Jeremiah's batches (writer → reviewer pipeline, ten chapters at a time) is not in the repository; it is described in `STANDARDS.md` §11 and easy to rebuild.
 
 ## Working with the author

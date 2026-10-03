@@ -43,7 +43,7 @@ From the Bible Dictionary's outline (“Jeremiah”), which arranges the book by
 | 7–20 | The Temple Sermon and the Prophet's Burden | Prophecies under Jehoiakim |
 | 21–29 | Kings, Shepherds, and False Prophets | Under Zedekiah: (a) 21–24, (b) 26–29; chapter 25 falls between |
 | 30–33 | The New Covenant | (c) “the latter-day restoration of Israel and the gospel covenant” |
-| 34–45 | The Fall of Jerusalem | (d) 34–38, the siege; 39–44, after the fall; 45, Baruch |
+| 34–45 | The Fall of Jerusalem | (d) 34–38, the siege; 39–44, after the fall (the outline passes over 45, the word to Baruch) |
 | 46–52 | The Nations and the End | 46–51, foreign nations; 52, historical conclusion |
 
 ## Book-wide conventions

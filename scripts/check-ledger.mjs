@@ -29,7 +29,7 @@ const only = rest.map(Number);
 // and ledger quotes may carry Strong's numbers in brackets or morpheme slashes from the WLC. Digits are
 // ignored because a quote copied across a verse break carries the verse number, which the page keeps in
 // its own element.
-const letters = (s) => String(s).replace(/&amp;/g, '&').toLowerCase().replace(/[^a-zא-תͰ-Ͽ]+/g, '');
+const letters = (s) => String(s).replace(/&(nbsp|ensp|emsp|thinsp|#160|#8201);/g, ' ').replace(/&amp;/g, '&').toLowerCase().replace(/[^a-zא-תͰ-Ͽ]+/g, '');
 const pageText = (html) =>
   letters(
     html

@@ -558,3 +558,12 @@ Reviewed and answered (author, 2026-10-02): no particular direction for Jeremiah
 - *Unanswered:* Why verse 22 gives a five-cubit capital where 2 Kgs. 25:17 gives three.
 - *Unanswered:* Who Seraiah the chief priest was (52:24), and whether he is connected to Ezra (Ezra 7:1). No source was read for this.
 - *Unanswered:* No talk or other teaching by a latter-day prophet on this chapter was found.
+
+### Jeremiah 19 and 45 (rewritten by Opus, 2026-10-02)
+
+- 19:3–4: the thread reads two phrases as echoes of what Kings says of Manasseh (the Church footnote points to [[2 Kgs. 21:12]]; Keil to 21:16). No Church source states the echo outright; [[Jer. 15:4]] would anchor it in Jeremiah itself.
+- 19 christ: the last sentence sets the jar broken in the valley of graves beside Matthew's potter's field for graves; the manual names only Jer. 18:2 and 19:1–2 as Matthew's source. Keep or cut?
+- 45:4: Keil reads “this whole land” as the whole earth (because of “all flesh” in verse 5); the plain-words section says “land.”
+- 45: the setting and the note on verse 1 both explain why a 605 B.C. chapter sits after the flight to Egypt; the author may want it said once.
+- *Unanswered:* why the KJV has “east gate” for the Potsherd Gate (19:2); whether Baal and Molech are one god or two (19:5); what “great things” Baruch sought (45:5); how latter-day prophets have used 45:5 (no talk found).
+
