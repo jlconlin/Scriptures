@@ -1,27 +1,28 @@
 # Genesis: open questions for the author
 
-Judgment calls waiting for the author (`STANDARDS.md` §4 rule 14). Chapter-level items are added as chapters are written.
+Only what truly needs the author's judgment (author, 2026-10-03: “Do not save for me what you can decide on your own”). What the coordinator, writers, and reviewers decided themselves is listed under “Decided without the author,” so it can be overturned.
 
-## Chapter 1
+## For the author
 
-From the writer and the reviewer (2026-10-03).
+- **Abraham on the altar and Isaac on the altar.** [[Abr. 1:15–16]] and [[Gen. 22:11]] share an altar, an angel, and the doubled call “Abraham, Abraham.” No source makes the connection, so it is not in chapter 22. It could be made on a theme page (`THEME-CANDIDATES.md`). Wanted?
 
-- **Who wrote Genesis (setting).** The brief has chapter 1 quote the Bible Dictionary (“The Pentateuch was written by Moses, although it is evident that he used several documentary sources…”). The newer *Scripture Helps* (2025) says in an endnote: “The Bible itself does not identify who wrote the Pentateuch. Many scholars believe that there were multiple writers, editors…,” while affirming Moses's central involvement. “Newest trumps oldest” would point to the second. The setting follows the brief for now.
-- **The firmament (1:6).** The note says the first hearers pictured a solid vault holding back waters (BDB; a BYU Studies article), and gives President Nelson's words for what the division accomplished. The reviewer removed wording that set the two side by side as equal readings. Keep the ancient picture, or give only the Church's reading?
-- **Joseph Smith's 7 April 1844 discourse (1:2, 1:26).** The chapter quotes “baurau… means to organize” and the “grand council” passage. It leaves out his reading of the first Hebrew word (“The head one of the Gods brought forth the Gods”) and, on the same page, “Baurau, signifies to bring forth.” Is the selection right?
-- **Unanswered reader questions:** why evening comes before morning; why the second day is not called good; why the Hebrew of verse 5 says “day one.” No source read answered them.
+## Decided without the author
 
-## Chapter 22
+**Chapter 1**
+- **Who wrote Genesis (setting):** under “newest trumps oldest,” the setting now gives the *Scripture Helps* (2025) wording (the Bible “does not identify who wrote the Pentateuch”; many scholars see several writers and editors; “Restoration scripture confirms Moses's central involvement”) with the Bible Dictionary's line on the sources Moses used. Its dating of the present form of Genesis to the exile is left out.
+- **The firmament (1:6):** the solid vault stays, as how the first hearers pictured the sky; President Nelson's words say what the division accomplished. Not presented as two equal readings.
+- **Joseph Smith's 7 April 1844 discourse (1:2, 1:26):** the chapter quotes “baurau… means to organize” and the “grand council” passage, and leaves out his reading of the Bible's first Hebrew word. A note is not the place to explain that reading, and no reader's question about the verse needs it.
 
-From the writer and the reviewer (2026-10-03).
+**Chapter 22**
+- **Moriah (22:2):** the note keeps both the tradition that Moriah is the temple mount (the Church's sources call it a tradition) and a BYU scholar's doubt. It is a question of place, not doctrine.
+- **The angel of the LORD (22:11):** a second reading (a messenger bearing the Lord's name), which no source applies to this chapter, was cut.
+- **Melvin J. Ballard's words in `christ`** are cited from the seminary manual that prints them; the original talk is to be read and cited when the chapter is next touched.
 
-- **Moriah (22:2).** The note gives the tradition that Moriah is the temple mount at Jerusalem (the Church's sources call it a tradition), then a BYU scholar's judgment that “it is unlikely that Moriah was at Jerusalem.” Kept. Drop the doubt, or keep it?
-- **The angel of the LORD (22:11).** The writer offered a second reading (a messenger who bears the Lord's name), built from Ex. 23:21 and the 1916 First Presidency statement. No source applies it to this chapter, so the reviewer cut it. The note now gives the one reading a source applies here (the angel is the Lord's own voice).
-- **Not checked:** whether the note on 22:18 mostly repeats the Gospel Library's footnotes (the Church's site would not load for the reviewer). The Church-site ledger rows were confirmed by the script from pages fetched earlier the same day, not reopened by the reviewer.
-- **A better source to find:** Melvin J. Ballard's words in `christ` are cited from the seminary manual; the original (“The Sacramental Covenant,” *New Era*, Jan. 1976) would be better.
-- **Unanswered reader question:** why Isaac is not mentioned on the return in verse 19.
+**Sources**
+- **Two ancient texts readable only in user uploads on archive.org** (L. W. King's *Seven Tablets of Creation*, 1902; R. Campbell Thompson's *Epic of Gilgamish*, 1928) are not cited (`STANDARDS.md` §4 rule 8). The flood story is quoted from the British Museum's 1920 booklet and Rogers (1912); the creation epic only through an article that quotes it.
+- **Cain, Ham, and Canaan:** the notes follow the Church's 2025 *Scripture Helps* and the essay “Race and the Priesthood,” and do not quote the older lines in the Bible Dictionary and Guide to the Scriptures entries “Cain” and “Ham.”
 
-## Before writing
+## Reader questions no source answered
 
-- **Two ancient texts readable only in user uploads on archive.org** (2026-10-03). L. W. King's *The Seven Tablets of Creation* (1902; the Babylonian creation epic) is in the public domain, but the only copy that loads was uploaded by a user, not scanned by a library. R. Campbell Thompson's *The Epic of Gilgamish* (1928) is likewise a user upload, and a 1928 book may still be in copyright in some countries. `STANDARDS.md` §4 rule 8 forbids unofficial copies of copyrighted works. Until the author decides, neither is cited: the flood story is quoted from the British Museum's 1920 booklet and Rogers (1912), both library scans, and the creation epic only through a BYU Studies article that quotes it.
-- **The Student Manual on the mark of Cain and the curse of Canaan.** The brief proposes that the notes on Gen. 4 and 9 follow the Church's essay “Race and the Priesthood” and repeat no older explanation, even where the Student Manual prints one. Waiting for the author's yes.
+- **1:** why evening comes before morning; why the second day is not called good; why the Hebrew of verse 5 says “day one.”
+- **22:** why Isaac is not mentioned on the return (19). Not checked: whether the note on 22:18 mostly repeats the Gospel Library's footnotes.
