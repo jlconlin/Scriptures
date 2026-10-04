@@ -1,0 +1,834 @@
+chapter: 30
+claims:
+  # ---------- when / setting ----------
+  - where: 'when'
+    claim: 'Jacob served fourteen years for his wives and six for his cattle, twenty years in all'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'I served thee fourteen years for thy two daughters, and six years for thy cattle'
+  - where: 'when'
+    claim: 'The births fall in the fourteen years of service; Joseph was born at the end of them, and Jacob then asked to leave'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/30.htm'
+    quote: 'Joseph was born at the end of the 14 years of service that had been agreed upon'
+  - where: 'setting'
+    claim: 'At Beth-el the Lord promised to be with Jacob and keep him in all places'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng'
+    quote: 'behold, I am with thee, and will keep thee in all places whither thou goest, and will bring thee again into this land'
+  - where: 'setting'
+    claim: 'Jacob served seven years for Rachel and then seven more; Rachel was loved more than Leah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/29?lang=eng'
+    quote: 'he loved also Rachel more than Leah, and served with him yet seven other years'
+  - where: 'setting'
+    claim: 'Leah bore Reuben, Simeon, Levi, and Judah while Rachel was barren'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/29?lang=eng'
+    quote: 'when the Lord saw that Leah was hated, he opened her womb: but Rachel was barren'
+  - where: 'setting'
+    claim: 'Leah’s fourth son was Judah (the end of chapter 29)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/29?lang=eng'
+    quote: 'Now will I praise the Lord: therefore she called his name Judah; and left bearing'
+  - where: 'setting'
+    claim: 'Benjamin is born later, as Rachel dies'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'as her soul was in departing, (for she died) that she called his name Ben-oni: but his father called him Benjamin'
+  - where: 'setting'
+    claim: 'Ruth is blessed to be like Rachel and Leah, who built the house of Israel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ruth/4?lang=eng'
+    quote: 'like Rachel and like Leah, which two did build the house of Israel'
+  - where: 'setting'
+    claim: 'Genesis counts the sons of Zilpah and of Bilhah among the sons of Jacob'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/46?lang=eng'
+    quote: 'These are the sons of Zilpah, whom Laban gave to Leah his daughter, and these she bare unto Jacob'
+  - where: 'setting'
+    claim: 'Genesis counts the sons of Bilhah among the sons of Jacob'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/46?lang=eng'
+    quote: 'These are the sons of Bilhah, which Laban gave unto Rachel his daughter, and she bare these unto Jacob'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'Leah’s “hire” (v. 18), Laban’s “wages” (v. 28), and Jacob’s “hire” (vv. 32, 33) are one Hebrew noun, sakar'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7939.htm'
+    quote: 'wages, of servant, Genesis 30:28 ; Genesis 30:32'
+  - where: 'thread'
+    claim: 'Leah’s “hire” in v. 18 is the suffixed form of sakar'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7939.htm'
+    quote: 'suffix שְׂכָרִי Genesis 30:18'
+  - where: 'thread'
+    claim: 'Jacob later says God took the cattle of Laban and gave them to him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'Thus God hath taken away the cattle of your father, and given them to me.'
+  - where: 'thread'
+    claim: 'Rachel’s speeches in the chapter use Elohim; Leah named her first four sons with the LORD (chapter 29) but speaks of God here'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/30.htm'
+    quote: 'It is to be noticed, that Rachel speaks of Elohim only, whereas Leah regarded her first four sons as the gift of Jehovah.'
+
+  # ---------- section plain departures ----------
+  - where: 'section 2 plain'
+    claim: 'Leah’s word at Gad’s birth, as written in the Hebrew text, is “How fortunate”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-11.htm'
+    quote: 'בְּגָד How fortunate'
+  - where: 'section 3 plain'
+    claim: 'The Hebrew of Leah’s second clause at Zebulun’s birth is “will honor me”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-20.htm'
+    quote: 'יִזְבְּלֵ֣נִי will honor me'
+  - where: 'section 5 plain'
+    claim: 'The trees are poplar, almond, and plane (luz is the almond tree)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3869.htm'
+    quote: 'almond-tree, almond-wood'
+  - where: 'section 5 plain'
+    claim: 'armon is the plane tree'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6196.htm'
+    quote: 'plane-tree (as stripped of bark)'
+  - where: 'section 5 plain'
+    claim: 'libneh is the poplar'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3839.htm'
+    quote: 'poplar (apparently = Arabic'
+
+  # ---------- note 30:1 ----------
+  - where: 'note 30:1 “What Rachel was asking for”'
+    claim: 'The verb for Rachel’s envy is qana, “be envious of”, used with ב of the person in Gen. 30:1'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7065.htm'
+    quote: 'be envious of with ב person, Genesis 30:1'
+  - where: 'note 30:1 “What Rachel was asking for”'
+    claim: 'The Hebrew of her request is “Give me sons, and if not, I will die”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-1.htm'
+    quote: 'בָנִ֔ים sons … וְאִם־ and if … אַ֖יִן not … מֵתָ֥ה will die'
+  - where: 'note 30:1 “What Rachel was asking for”'
+    claim: 'Barrenness meant the lack of the cultural and visual evidence that gave women value'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'the beautiful Rachel was fortunate to receive Jacob’s adoring love but was deprived of bearing children, the cultural and visual evidence that gave women value in her society'
+  - where: 'note 30:1 “What Rachel was asking for”'
+    claim: 'A son was the assurance of the continuation of God’s covenant with Abraham'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'a son for these matriarchs was the assurance of the continuation of God’s covenant with Abraham'
+  - where: 'note 30:1 “What Rachel was asking for”'
+    claim: 'Rachel’s plea read as a longing to fulfill her God-given covenant responsibility'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'was more than an instinctive maternal yearning. It was a profound longing to fulfill her God-given responsibility to continue the Abrahamic covenant through future generations.'
+  - where: 'note 30:1 “What Rachel was asking for”'
+    claim: 'All but one of the matriarchs faced barrenness'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'all but one of the matriarchs faced trial and refinement through a period of barrenness'
+  - where: 'note 30:1 “What Rachel was asking for”'
+    claim: 'The sisters’ struggle is often written off as petty jealousy without counting a mother’s responsibility for her children’s and her own security'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'often marginalized as petty jealousy without accounting for a mother’s responsibility to ensure a secure future both for her children and for herself'
+
+  # ---------- note 30:2 ----------
+  - where: 'note 30:2 “Am I in the place of God?”'
+    claim: 'The Hebrew of Jacob’s question is “Am I in the place of God?”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-2.htm'
+    quote: 'הֲתַ֤חַת In the place … אֱלֹהִים֙ of God'
+  - where: 'note 30:2 “Am I in the place of God?”'
+    claim: 'Jacob’s reply indicates his realization of the same truth (that only God could help her, as with Leah)'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'As he did for Leah, God would also lead Rachel to where only he could help her.'
+  - where: 'note 30:2 “Am I in the place of God?”'
+    claim: 'Jacob’s reply indicates his realization of the same truth'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'indicates his realization of the same truth (30:2)'
+  - where: 'note 30:2 “Am I in the place of God?”'
+    claim: 'Joseph’s words in Gen. 50:19 are the same Hebrew phrase, “in the place of God am I”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/50-19.htm'
+    quote: 'הֲתַ֥חַת in the place … אֱלֹהִ֖ים of God'
+  - where: 'note 30:3 “Born on Rachel’s knees”'
+    claim: 'Receiving the child on the parent’s knees meant acceptance into the family; the phrase retains the trace of a ceremony of legitimatization and adoption; compare Gen. 50:23, Job 3:12'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/30.htm'
+    quote: 'The child being received on the knees of the parent was regarded as being accepted into the family. The words retain the trace of a primitive ceremony of legitimatization and adoption.'
+  - where: 'note 30:3 “Born on Rachel’s knees”'
+    claim: 'Joseph’s great-grandchildren were brought up upon Joseph’s knees'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/50?lang=eng'
+    quote: 'the children also of Machir the son of Manasseh were brought up upon Joseph’s knees'
+  - where: 'note 30:3 “Born on Rachel’s knees”'
+    claim: 'Hebrew “and I shall be built up from her” (Nifal of banah)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-3.htm'
+    quote: 'וְאִבָּנֶ֥ה and shell be built up … מִמֶּֽנָּה from her'
+  - where: 'note 30:3 “Born on Rachel’s knees”'
+    claim: 'Lexicon: of a childless wife, by means of a concubine: “I shall be built up, i.e. become the mother of a family, from or through her” (Gen. 16:2; 30:3)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1129.htm'
+    quote: 'c. of childless wife, by means of concubine'
+  - where: 'note 30:3 “Born on Rachel’s knees”'
+    claim: 'Lexicon gloss “I shall be built up, i.e. become the mother of a family”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1129.htm'
+    quote: 'I shall be built up , i.e. become the mother of a family, from or through her'
+  - where: 'note 30:3 “Born on Rachel’s knees”'
+    claim: 'The maids were the property of Rachel and Leah, and their children were legally the wives’ children'
+    key: ot-manual-gen-24-36
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-24-36-the-covenant-line-continues-with-isaac-and-jacob?lang=eng'
+    quote: 'when the handmaids had children, the children were viewed legally as the children of Rachel and Leah'
+  - where: 'note 30:3 “Born on Rachel’s knees”'
+    claim: 'The Hebrew verb “build” describes women creating a family or nation through childbirth (Gen. 16:2; 30:3)'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'women creating an individual, family, or nation through childbirth (Genesis 16:2; 30:3)'
+  - where: 'note 30:3 “Born on Rachel’s knees”'
+    claim: 'Ruth is blessed to be like Rachel and Leah, who built the house of Israel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ruth/4?lang=eng'
+    quote: 'like Rachel and like Leah, which two did build the house of Israel'
+
+  # ---------- note 30:8 ----------
+  - where: 'note 30:8 “Wrestlings of God”'
+    claim: 'The Hebrew is “wrestlings of God I have wrestled with my sister, and indeed I have prevailed”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-8.htm'
+    quote: 'נַפְתּוּלֵ֨י With wrestlings … אֱלֹהִ֧ים׀ of God … יָכֹ֑לְתִּי I have prevailed'
+  - where: 'note 30:8 “Wrestlings of God”'
+    claim: '“Of God” may be an intensive (cf. “a mighty prince”) or “strugglings in prayer for God’s blessing”; the original meaning has probably been lost'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/30.htm'
+    quote: '“of God” being added as an intensive or superlative (cf. Genesis 23:6, “a mighty prince”); or “wrestlings,” i.e. “strugglings in prayer for God’s blessing” of children. The original meaning has probably been lost.'
+  - where: 'note 30:8 “Wrestlings of God”'
+    claim: 'The Septuagint: “God has helped me, and I contended with my sister and prevailed”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/30.htm'
+    quote: 'God has helped me, and I contended with my sister and prevailed'
+  # ---------- note 30:11 ----------
+  - where: 'note 30:11 “Gad: fortune, not a troop”'
+    claim: 'The consonants as written (ketiv) are bgd, “with fortune”; the marginal reading (qere) is ba gad'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'בגד … בָּ֣א גָ֑ד'
+  - where: 'note 30:11 “Gad: fortune, not a troop”'
+    claim: 'The Hebrew as written is rendered “How fortunate” in the interlinear'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-11.htm'
+    quote: 'בְּגָד How fortunate'
+  - where: 'note 30:11 “Gad: fortune, not a troop”'
+    claim: 'The Septuagint reads “It is happily”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/30.htm'
+    quote: 'happily: and she called his name, Gad'
+  - where: 'note 30:11 “Gad: fortune, not a troop”'
+    claim: 'Lexicon: gad here is “fortune, good fortune”, Kt bgd, Qr ba gad'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1409.htm'
+    quote: 'fortune, good fortune'
+  - where: 'note 30:11 “Gad: fortune, not a troop”'
+    claim: 'Lexicon: Gad as proper name, god of fortune, Isa. 65:11'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1409.htm'
+    quote: 'proper name, masculine god of fortune'
+  - where: 'note 30:14 “Mandrakes, and who opened the womb”'
+    claim: 'Bible Dictionary: the Hebrew name denotes “love fruit”; the fruit was supposed to ensure conception'
+    key: bd-mandrake
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/mandrake?lang=eng'
+    quote: 'The Hebrew name denotes “love fruit.” The fruit had a pleasant taste and odor and was supposed to ensure conception'
+  - where: 'note 30:14 “Mandrakes, and who opened the womb”'
+    claim: 'The etymology of dudaim is uncertain; it may share a root with dodim, “love”; the only other mention is Song 7:13'
+    key: sc-knowhy-840
+    url: 'https://scripturecentral.org/knowhy/why-does-rachel-want-leah-s-mandrakes'
+    quote: 'The etymology is uncertain, but the Hebrew word'
+  - where: 'note 30:14 “Mandrakes, and who opened the womb”'
+    claim: 'The only other place mandrakes are mentioned in the Bible is Song 7:13'
+    key: sc-knowhy-840
+    url: 'https://scripturecentral.org/knowhy/why-does-rachel-want-leah-s-mandrakes'
+    quote: 'The only other place mandrakes are mentioned in the Bible is in Song of Songs 7:13'
+  - where: 'note 30:14 “Mandrakes, and who opened the womb”'
+    claim: 'Egyptian art shows mandrakes tied to life and fertility; a king holds a mandrake while pouring water into the queen’s cupped hand'
+    key: sc-knowhy-840
+    url: 'https://scripturecentral.org/knowhy/why-does-rachel-want-leah-s-mandrakes'
+    quote: 'In one scene, a king is holding a mandrake in one hand while pouring water into the cupped hand of the queen, in a scene clearly meant to imply life and fertility.'
+  - where: 'note 30:14 “Mandrakes, and who opened the womb”'
+    claim: 'The root of the mandrake has long been thought to resemble a human baby'
+    key: sc-knowhy-840
+    url: 'https://scripturecentral.org/knowhy/why-does-rachel-want-leah-s-mandrakes'
+    quote: 'That the root of the mandrake plant has long been thought to resemble a human baby'
+  - where: 'note 30:14 “Mandrakes, and who opened the womb”'
+    claim: 'The text says God, not the mandrakes, opened Rachel’s womb'
+    key: sc-knowhy-840
+    url: 'https://scripturecentral.org/knowhy/why-does-rachel-want-leah-s-mandrakes'
+    quote: 'The text specifically states that God, not the mandrakes, opened Rachel’s womb and allowed her to have children.'
+  - where: 'note 30:14 “Mandrakes, and who opened the womb”'
+    claim: 'Leah bore three more children before Rachel bore Joseph'
+    key: sc-knowhy-840
+    url: 'https://scripturecentral.org/knowhy/why-does-rachel-want-leah-s-mandrakes'
+    quote: 'Genesis 30:18-24 reports that Leah bears Jacob three children, Issachar, Zebulun, and Dinah, before Rachel finally bears Joseph'
+  - where: 'note 30:14 “Mandrakes, and who opened the womb”'
+    claim: 'The Hebrew word dudaim, mandrakes, in v. 14'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1736.htm'
+    quote: 'mandrake (as love-producing'
+  - where: 'note 30:14 “Mandrakes, and who opened the womb”'
+    claim: 'Reuben found the mandrakes in the days of wheat harvest, in the field'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/30?lang=eng'
+    quote: 'And Reuben went in the days of wheat harvest, and found mandrakes in the field'
+  - where: 'note 30:14 “Mandrakes, and who opened the womb”'
+    claim: 'Mandrake roots resemble small human figures'
+    key: scripture-helps-gen-24-33
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/09-genesis-24-33?lang=eng'
+    quote: 'The mandrake plant has flesh-colored roots that can sometimes resemble small human figures'
+
+  # ---------- note 30:18 ----------
+  - where: 'note 30:18 “Hire, the chapter’s word for wages”'
+    claim: 'Leah’s words in v. 16 are “hiring, I have hired you” (infinitive absolute plus perfect of sakar)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-16.htm'
+    quote: 'שָׂכֹ֣ר hiring … שְׂכַרְתִּ֔יךָ I have hired you'
+  - where: 'note 30:18 “Hire, the chapter’s word for wages”'
+    claim: 'In v. 18 Leah says “God has given me my reward/hire”, sekhari'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-18.htm'
+    quote: 'נָתַ֤ן Has given me … אֱלֹהִים֙ God … שְׂכָרִ֔י my reward'
+  - where: 'note 30:18 “Hire, the chapter’s word for wages”'
+    claim: 'The same noun (wages, of a servant) is used in vv. 28, 32, 33'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7939.htm'
+    quote: '1 wages , of servant, Genesis 30:28 ; Genesis 30:32 ; Genesis 30:83'
+  - where: 'note 30:18 “Hire, the chapter’s word for wages”'
+    claim: 'Laban says “Appoint me thy wages”; God hearkened unto Leah (v. 17)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/30?lang=eng'
+    quote: 'Appoint me thy wages, and I will give it.'
+  - where: 'note 30:18 “Hire, the chapter’s word for wages”'
+    claim: 'God hearkened unto Leah and she conceived'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/30?lang=eng'
+    quote: 'And God hearkened unto Leah, and she conceived, and bare Jacob the fifth son.'
+
+  # ---------- note 30:20 ----------
+  - where: 'note 30:20 “Zebulun and the dowry”'
+    claim: 'The Hebrew of v. 20: “God has endowed me with a good endowment (zebed)”; second clause “will honor me”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-20.htm'
+    quote: 'זְבָדַ֨נִי Has endowed me … זֵ֣בֶד'
+  - where: 'note 30:20 “Zebulun and the dowry”'
+    claim: 'Lexicon: zabad = bestow upon, endow with; zebed in Gen. 30:20 = dowry'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2064.htm'
+    quote: 'bestow upon, endow with'
+  - where: 'note 30:20 “Zebulun and the dowry”'
+    claim: 'Lexicon: zebed = dowry (Aramaic, Gen. 30:20)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2064.htm'
+    quote: 'Genesis 30:20 , dowry'
+  - where: 'note 30:20 “Zebulun and the dowry”'
+    claim: 'Lexicon: zabal is probably “exalt, honour”; Gen. 30:20b “my husband will honour me”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2082.htm'
+    quote: 'probably exalt, honour'
+  - where: 'note 30:20 “Zebulun and the dowry”'
+    claim: 'Rachel and Leah say their father sold them and devoured their money'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'Are we not counted of him strangers? for he hath sold us, and hath quite devoured also our money.'
+  - where: 'note 30:20 “Zebulun and the dowry”'
+    claim: 'Laban failed to give them their dowries or bride wealth earned from the fourteen years Jacob worked'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Thus, Leah and Rachel were angry with Laban because he failed to give them their dowries or bride wealth earned from the fourteen years Jacob worked for them (31:14–16).'
+
+  # ---------- note 30:22 ----------
+  - where: 'note 30:22 “God remembered Rachel”'
+    claim: 'The Hebrew of v. 22: God remembered Rachel, listened to her, opened her womb'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-22.htm'
+    quote: 'וַיִּזְכֹּ֥ר And remembered … וַיִּשְׁמַ֤ע and listened … וַיִּפְתַּ֖ח and He opened'
+  - where: 'note 30:22 “God remembered Rachel”'
+    claim: 'When God is the subject, zakar means to remember persons with kindness, granting requests, protecting, delivering; Gen. 30:22 with 1 Sam. 1:11, 19, and Gen. 8:1; 19:29'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2142.htm'
+    quote: 'individuals, with kindness, granting requests, protecting, delivering etc., with accusative of person, Genesis 30:22'
+  - where: 'note 30:22 “God remembered Rachel”'
+    claim: 'The lexicon lists Gen. 8:1 and Gen. 19:29 with 1 Sam. 1:19 in the same sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2142.htm'
+    quote: 'also Genesis 8:1 (P), Genesis 19:29 (P)'
+  - where: 'note 30:22 “God remembered Rachel”'
+    claim: 'God remembered Noah and everything in the ark'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/8?lang=eng'
+    quote: 'And God remembered Noah, and every living thing, and all the cattle that was with him in the ark'
+  - where: 'note 30:22 “God remembered Rachel”'
+    claim: 'God remembered Abraham when He destroyed the cities of the plain'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/19?lang=eng'
+    quote: 'God remembered Abraham, and sent Lot out of the midst of the overthrow'
+  - where: 'note 30:22 “God remembered Rachel”'
+    claim: 'The Lord remembered Hannah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/1?lang=eng'
+    quote: 'and Elkanah knew Hannah his wife; and the Lord remembered her'
+  - where: 'note 30:22 “God remembered Rachel”'
+    claim: 'The same phrase, “opened her womb”, was said of Leah in 29:31 (Hebrew vayiftach et rachmah)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/יִּפְתַּ֖ח אֶת ־ רַחְמָ֑/הּ'
+
+  # ---------- note 30:24 ----------
+  - where: 'note 30:24 “Joseph: taken away, and add”'
+    claim: 'Lexicon: asaph includes “remove”, and is used of removing reproach (Gen. 30:23; Isa. 4:1)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/622.htm'
+    quote: 'Genesis 30:23 ; Isaiah 4:1 (reproach)'
+  - where: 'note 30:24 “Joseph: taken away, and add”'
+    claim: 'Hebrew of v. 24: “May YHWH add to me another son”; Joseph from yasaph (Hifil)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-24.htm'
+    quote: 'יֹסֵ֧ף May add … יְהוָ֛ה YHWH'
+  - where: 'note 30:24 “Joseph: taken away, and add”'
+    claim: 'Hebrew of v. 23: “God has taken away my reproach”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-23.htm'
+    quote: 'אָסַ֥ף Has taken away … חֶרְפָּתִֽי my reproach'
+  - where: 'note 30:24 “Joseph: taken away, and add”'
+    claim: 'Leah said “the Lord” at the births of Reuben, Simeon, and Judah (three of her first four sons)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/29?lang=eng'
+    quote: 'Surely the Lord hath looked upon my affliction … Because the Lord hath heard that I was hated … Now will I praise the Lord'
+  - where: 'note 30:24 “Joseph: taken away, and add”'
+    claim: 'The change from Elohim to Jehovah explained as Rachel looking back at earthly means, then forward in faith to the God of Jacob’s promises; the second son prayed for from His covenant faithfulness'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/30.htm'
+    quote: 'aroused belief in that God, who, as she had no doubt heard from her husband, had given Jacob such great promises'
+  - where: 'note 30:24 “Joseph: taken away, and add”'
+    claim: 'The double derivation of the name and change of divine name may be explained without a double-source hypothesis'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/30.htm'
+    quote: 'The double derivation of the name, and the exchange of Elohim for Jehovah, may be explained, without the hypothesis of a double source'
+  - where: 'note 30:24 “Joseph: taken away, and add”'
+    claim: 'Another view assigns the two explanations to two sources, E and J'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/30.htm'
+    quote: 'These two traditional interpretations of the name are taken, the one from E, the other from J narrative.'
+  - where: 'note 30:24 “Joseph: taken away, and add”'
+    claim: 'Bible Dictionary: Moses used several documentary sources in compiling Genesis'
+    key: bd-pentateuch
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/pentateuch?lang=eng'
+    quote: 'The Pentateuch was written by Moses, although it is evident that he used several documentary sources from which he compiled the book of Genesis'
+  - where: 'note 30:24 “Joseph: taken away, and add”'
+    claim: 'The prayer for another son is answered at Rachel’s death in childbirth: Benjamin'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'Fear not; thou shalt have this son also.'
+  # ---------- note 30:25 ----------
+  - where: 'note 30:25 “Why Jacob asks to leave now”'
+    claim: 'Joseph was born at the end of the fourteen years of service'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/30.htm'
+    quote: 'Joseph was born at the end of the 14 years of service that had been agreed upon'
+  - where: 'note 30:25 “Why Jacob asks to leave now”'
+    claim: 'Jacob served fourteen years for his two daughters and six for the cattle'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'Thus have I been twenty years in thy house; I served thee fourteen years for thy two daughters, and six years for thy cattle'
+  - where: 'note 30:25 “Why Jacob asks to leave now”'
+    claim: 'The Lord’s instruction to return comes only in 31:3, after Laban changes the wage agreement ten times'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'After Rachel gave birth to Joseph, her first son and Jacob’s eleventh, and after Laban changed his payment agreement with Jacob for the tenth time, the Lord directed Jacob to return to his homeland in Canaan (Genesis 31:3).'
+  - where: 'note 30:25 “Why Jacob asks to leave now”'
+    claim: 'It takes twenty years for the Lord to send instruction to return, a duration none could have foreseen'
+    key: schade-isaac-jacob
+    url: 'https://rsc.byu.edu/creation-sinai/isaac-jacob'
+    quote: 'It takes twenty years for the Lord to send instruction to Jacob that he must finally return home (Genesis 31:3), a duration of time none could have foreseen'
+  - where: 'note 30:25 “Why Jacob asks to leave now”'
+    claim: 'The Lord told Jacob to return to the land of his fathers'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'And the Lord said unto Jacob, Return unto the land of thy fathers, and to thy kindred; and I will be with thee.'
+  - where: 'note 30:25 “Why Jacob asks to leave now”'
+    claim: 'Eleven children in seven years: the births are grouped by mother, not by date'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/30.htm'
+    quote: 'the intention to arrange them according to the mothers prevails over the chronological order'
+  - where: 'note 30:25 “Why Jacob asks to leave now”'
+    claim: 'Reconstruction: Leah’s first four sons in the first four years; Rachel, having discovered her barrenness, gave her maid; eleven sons within seven years'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/30.htm'
+    quote: 'Leah’s first four births followed as rapidly as possible one after the other, so that four sons were born in the first four years of the second period of Jacob’s service.'
+  - where: 'note 30:25 “Why Jacob asks to leave now”'
+    claim: 'Jacob may easily have had eleven sons within seven years of his marriage'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/30.htm'
+    quote: 'In this way Jacob may easily have had eleven sons within seven years of his marriage.'
+
+  # ---------- note 30:27 ----------
+  - where: 'note 30:27 “Laban divined that the LORD had blessed him”'
+    claim: 'Hebrew nichashti = “I have learned by divination”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-27.htm'
+    quote: 'נִחַ֕שְׁתִּי I have learned by divination'
+  - where: 'note 30:27 “Laban divined that the LORD had blessed him”'
+    claim: 'Lexicon: nachash, Piel — 1 practise divination (Gen. 44:5, 15); 2 observe the signs or omens, Gen. 30:27'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5172.htm'
+    quote: '2 observe the signs or omens Genesis 30:27'
+  - where: 'note 30:27 “Laban divined that the LORD had blessed him”'
+    claim: 'Lexicon: 1 practise divination, Gen. 44:5'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5172.htm'
+    quote: '1 practise divination Genesis 44:5'
+  - where: 'note 30:27 “Laban divined that the LORD had blessed him”'
+    claim: 'Joseph’s steward says of the silver cup “whereby indeed he divineth”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/44?lang=eng'
+    quote: 'Is not this it in which my lord drinketh, and whereby indeed he divineth?'
+  - where: 'note 30:27 “Laban divined that the LORD had blessed him”'
+    claim: 'The Septuagint: “I would augur well, for the Lord has blessed me at thy coming in”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/30.htm'
+    quote: 'I would augur'
+  - where: 'note 30:27 “Laban divined that the LORD had blessed him”'
+    claim: 'The Septuagint has “at thy coming in”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/30.htm'
+    quote: 'for the Lord has blessed me at thy coming in'
+  - where: 'note 30:27 “Laban divined that the LORD had blessed him”'
+    claim: 'Hebrew “for your sake” (biglal) in 30:27 and in 39:5'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/39-5.htm'
+    quote: 'בִּגְלַ֣ל on account … יוֹסֵ֑ף of Joseph'
+  - where: 'note 30:27 “Laban divined that the LORD had blessed him”'
+    claim: 'Hebrew “for your sake” in 30:27'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-27.htm'
+    quote: 'בִּגְלָלֶֽךָ for your sake'
+  - where: 'note 30:27 “Laban divined that the LORD had blessed him”'
+    claim: 'The LORD blessed the Egyptian’s house for Joseph’s sake'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/39?lang=eng'
+    quote: 'the Lord blessed the Egyptian’s house for Joseph’s sake'
+  - where: 'note 30:27 “Laban divined that the LORD had blessed him”'
+    claim: 'The Hebrew uses YHWH (the LORD) on Laban’s lips'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-27.htm'
+    quote: 'וַיְבָרֲכֵ֥נִי that has blessed me … יְהוָ֖ה YHWH'
+
+  # ---------- note 30:32 ----------
+  - where: 'note 30:32 “The wages: the exceptions in the flock”'
+    claim: 'Sheep in Syria are nearly always white and goats black; Jacob asks for the sheep that were not white and the goats that were not black; Laban’s flocks would be most of the animals'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/30.htm'
+    quote: 'The sheep in Syria are nearly always white, and the goats black'
+  - where: 'note 30:32 “The wages: the exceptions in the flock”'
+    claim: 'Jacob asks for the exceptions; Laban’s flocks would be the great mass of animals'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/30.htm'
+    quote: 'Jacob asks that his wage should consist of the sheep that were not white and the goats that were not black. Laban’s flocks would be, according to this arrangement, the great mass of the animals.'
+  - where: 'note 30:32 “The wages: the exceptions in the flock”'
+    claim: 'naqod = speckled'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5348.htm'
+    quote: 'adjective speckled'
+  - where: 'note 30:32 “The wages: the exceptions in the flock”'
+    claim: 'talu’ = patch, spot; chiefly of spotted, variegated sheep and goats'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2921.htm'
+    quote: 'patch, spot'
+  - where: 'note 30:32 “The wages: the exceptions in the flock”'
+    claim: 'chum = darkened, dark brown or black, only of colour of sheep'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2345.htm'
+    quote: 'darkened, dark brown or black , only of colour of sheep'
+  - where: 'note 30:32 “The wages: the exceptions in the flock”'
+    claim: '‘aqod = striped, streaked, of Jacob’s goats and sheep (KJV “ringstraked”, vv. 35, 39, 40)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6124.htm'
+    quote: 'adjective striped, streaked ; — of Jacob’s goats and sheep'
+  - where: 'note 30:32 “The wages: the exceptions in the flock”'
+    claim: 'KJV “ringstraked” in v. 35 translates the Hebrew for “striped”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-35.htm'
+    quote: 'הָֽעֲקֻדִּ֣ים that were striped'
+  - where: 'note 30:32 “The wages: the exceptions in the flock”'
+    claim: 'tsedaqah, “righteousness as ethically right”, Gen. 30:33'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6666.htm'
+    quote: '5 righteousness , as ethically right: Genesis 30:33'
+  - where: 'note 30:32 “The wages: the exceptions in the flock”'
+    claim: '“my righteousness” means my uprightness, honesty, and straightness of dealing; “answer for me” as testify (or witness against me)'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/30.htm'
+    quote: 'i.e. my uprightness, honesty, and straightness of dealing.'
+  - where: 'note 30:32 “The wages: the exceptions in the flock”'
+    claim: 'Any solid-colored goat or dark sheep with Jacob would count as stolen; he is at liberty to be treated as thief'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/30.htm'
+    quote: 'if he shall find among them any quite black goats or white sheep, he is at liberty to regard them as having been stolen by Jacob'
+  - where: 'note 30:32 “The wages: the exceptions in the flock”'
+    claim: 'Hebrew gānūb, “was stolen”, in v. 33'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-33.htm'
+    quote: 'גָּנ֥וּב was stolen'
+  - where: 'note 30:32 “The wages: the exceptions in the flock”'
+    claim: 'Many other ways to read the Jacob–Laban passages than as trickery'
+    key: schade-isaac-jacob
+    url: 'https://rsc.byu.edu/creation-sinai/isaac-jacob'
+    quote: 'there are just too many other ways to interpret those passages to categorically label Jacob in this manner'
+  - where: 'note 30:32 “The wages: the exceptions in the flock”'
+    claim: 'One reading depicts Jacob as endurance and longsuffering rather than a trickster; God upholds a righteous sufferer'
+    key: schade-isaac-jacob
+    url: 'https://rsc.byu.edu/creation-sinai/isaac-jacob'
+    quote: 'Perhaps we should see God’s deliverance of Jacob not through the lens of sustaining a trickster but of upholding a righteous sufferer.'
+
+  # ---------- note 30:35 ----------
+  - where: 'note 30:35 “Laban acts first”'
+    claim: 'In v. 32 Jacob proposes to remove (Hifil infinitive absolute of sur) the marked animals'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-32.htm'
+    quote: 'הָסֵ֨ר remove'
+  - where: 'note 30:35 “Laban acts first”'
+    claim: 'In v. 35 Laban himself removed them (Hifil of the same verb)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-35.htm'
+    quote: 'וַיָּ֣סַר And he removed'
+  - where: 'note 30:35 “Laban acts first”'
+    claim: 'Laban gave the animals into the hand of his sons'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-35.htm'
+    quote: 'וַיִּתֵּ֖ן and gave [them] … בָּנָֽיו of his sons'
+  - where: 'note 30:35 “Laban acts first”'
+    claim: 'Laban removed the parti-colored animals that day and put them in his sons’ keeping; Jacob would begin with nothing in his favour, all sheep white and goats black'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/30.htm'
+    quote: 'Jacob will begin the new term of service with nothing in his favour. All the sheep that he will tend will be white, and all the goats black.'
+  - where: 'note 30:35 “Laban acts first”'
+    claim: 'Laban set the three days’ journey to prevent the least possibility of confusion or intermingling'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/30.htm'
+    quote: 'In order to prevent the least possibility of confusion or of intermingling, Laban separates his sons’ flocks by a great distance'
+  - where: 'note 30:35 “Laban acts first”'
+    claim: 'Jacob says Laban changed his wages ten times, but God suffered him not to hurt him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'And your father hath deceived me, and changed my wages ten times; but God suffered him not to hurt me.'
+  # ---------- note 30:37 ----------
+  - where: 'note 30:37 “The peeled rods and who gave the increase”'
+    claim: 'There was a superstition that what an animal looked at while it mated would affect its offspring'
+    key: scripture-helps-gen-24-33
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/09-genesis-24-33?lang=eng'
+    quote: 'There was a superstition that what an animal looked at while it mated would affect the appearance of its offspring.'
+  - where: 'note 30:37 “The peeled rods and who gave the increase”'
+    claim: 'The effectiveness of the technique is never questioned in the account, but later Jacob gives all the credit for the miracle to the Lord'
+    key: scripture-helps-gen-24-33
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/09-genesis-24-33?lang=eng'
+    quote: 'The effectiveness of this technique is never questioned in the account, but later Jacob gives all the credit for the miracle to the Lord.'
+  - where: 'note 30:37 “The peeled rods and who gave the increase”'
+    claim: 'Jacob’s account: if Laban said speckled shall be wages, all the cattle bare speckled; if ringstraked, all bare ringstraked'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'If he said thus, The speckled shall be thy wages; then all the cattle bare speckled: and if he said thus, The ringstraked shall be thy hire; then bare all the cattle ringstraked.'
+  - where: 'note 30:37 “The peeled rods and who gave the increase”'
+    claim: 'Jacob’s dream: the rams were already ringstraked; angel of God: I have seen all that Laban doeth unto thee'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'And the angel of God spake unto me in a dream, saying, Jacob: And I said, Here am I.'
+  - where: 'note 30:37 “The peeled rods and who gave the increase”'
+    claim: 'The angel’s words: lift up thine eyes; the rams are ringstraked, speckled, and grisled; I have seen all that Laban doeth unto thee'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'all the rams which leap upon the cattle are ringstraked, speckled, and grisled: for I have seen all that Laban doeth unto thee'
+  - where: 'note 30:37 “The peeled rods and who gave the increase”'
+    claim: 'KJV “hazel” and “chesnut” are luz (almond tree) and armon (plane tree); libneh is poplar'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3869.htm'
+    quote: 'almond-tree, almond-wood'
+  - where: 'note 30:37 “The peeled rods and who gave the increase”'
+    claim: 'armon is the plane tree, “as stripped of bark”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6196.htm'
+    quote: 'plane-tree (as stripped of bark)'
+  - where: 'note 30:37 “The peeled rods and who gave the increase”'
+    claim: 'libneh is the poplar'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3839.htm'
+    quote: 'poplar (apparently = Arabic'
+
+  # ---------- note 30:43 ----------
+  - where: 'note 30:43 “Increased: a verb from Beth-el”'
+    claim: 'The verb paratz is used in Gen. 30:43 (“burst forth”)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-43.htm'
+    quote: 'וַיִּפְרֹ֥ץ And burst forth … מְאֹ֣ד greatly'
+  - where: 'note 30:43 “Increased: a verb from Beth-el”'
+    claim: 'The verb paratz is used in Gen. 30:30 (“it burst forth into a multitude”)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/30-30.htm'
+    quote: 'וַיִּפְרֹ֣ץ and it burst forth … לָרֹ֔ב into a multitude'
+  - where: 'note 30:43 “Increased: a verb from Beth-el”'
+    claim: 'The verb paratz is used in Gen. 28:14 (“you shall break forth”)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/28-14.htm'
+    quote: 'וּפָרַצְתָּ֛ and you shall break forth'
+  - where: 'note 30:43 “Increased: a verb from Beth-el”'
+    claim: 'Lexicon: paratz, “break over [limits], increase”, Gen. 30:30; + locative Gen. 28:14; absolute Gen. 30:43'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6555.htm'
+    quote: '8 break over … limits … increase … Genesis 30:30'
+  - where: 'note 30:43 “Increased: a verb from Beth-el”'
+    claim: 'Lexicon lists Gen. 28:14 and Gen. 30:43 in the same sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6555.htm'
+    quote: '+ ה locative Genesis 28:14'
+  - where: 'note 30:43 “Increased: a verb from Beth-el”'
+    claim: 'At Beth-el: thou shalt spread abroad to the west, and to the east, and to the north, and to the south'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng'
+    quote: 'thou shalt spread abroad to the west, and to the east, and to the north, and to the south'
+  - where: 'note 30:43 “Increased: a verb from Beth-el”'
+    claim: 'Jacob tells Rachel and Leah the God of his father has been with him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'but the God of my father hath been with me'
+  - where: 'note 30:43 “Increased: a verb from Beth-el”'
+    claim: 'One reading: God tenderly promising to help bring Jacob to the covenant promises now that things have become difficult'
+    key: schade-isaac-jacob
+    url: 'https://rsc.byu.edu/creation-sinai/isaac-jacob'
+    quote: 'Perhaps God is tenderly promising Jacob to help bring him the promises of the covenant now that things have become difficult.'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'Bible Dictionary: Jehovah is the premortal Jesus Christ; the name is generally denoted LORD in the KJV'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
+  - where: 'christ'
+    claim: 'Through Judah, Leah was an ancestor of the kings of Israel and Judah from David until Jesus Christ'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Most notably, through her son Judah, Leah was an ancestor of the kings of Israel and Judah from David until Jesus Christ.'
+  - where: 'christ'
+    claim: 'Joseph’s life and mission typify the life and mission of Jesus'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'Likewise, the life and mission of Joseph typifies the life and mission of Jesus.'
+  - where: 'christ'
+    claim: 'Joseph was a deliverer: sent to preserve life; rejected by his brothers'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'Joseph, by virtue of being sold, would become their deliverer.'
+  - where: 'christ'
+    claim: 'Joseph says God sent him before his brothers to preserve life'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/45?lang=eng'
+    quote: 'for God did send me before you to preserve life'
+  - where: 'christ'
+    claim: 'The birthright was Joseph’s; Judah prevailed above his brethren and the chief ruler came of him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/5?lang=eng'
+    quote: 'For Judah prevailed above his brethren, and of him came the chief ruler; but the birthright was Joseph’s'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: 'The RSC chapter on the matriarchs follows Leah and Rachel and ends on Ruth 4:11'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Centuries after the patriarchal era, community leaders in Bethlehem would bless a new bride named Ruth, praying that she would be a woman “like Rachel and like Leah, which two did build the house of Israel” (Ruth 4:11).'
+  # ---------- additions ----------
+  - where: 'note 30:14 “Mandrakes, and who opened the womb”'
+    claim: 'Mandrakes were a popular plant common in Egyptian art'
+    key: sc-knowhy-840
+    url: 'https://scripturecentral.org/knowhy/why-does-rachel-want-leah-s-mandrakes'
+    quote: 'They were a popular plant for gardens and were common in Egyptian art.'
+  - where: 'note 30:11 “Gad: fortune, not a troop”'
+    claim: 'The KJV of Isa. 65:11 has “prepare a table for that troop”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/65?lang=eng'
+    quote: 'that prepare a table for that troop'
+  - where: 'section 1 plain'
+    claim: 'Dan: God had judged her, i.e., procured her justice (“judged in my favor”)'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/30.htm'
+    quote: 'because God had judged her, i.e., procured her justice'
+  - where: 'setting'
+    claim: 'Jacob was given Leah instead of Rachel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/29?lang=eng'
+    quote: 'in the morning, behold, it was Leah'
+  - where: 'note 30:11 “Gad: fortune, not a troop”'
+    claim: 'The KJV’s Old Testament follows the Masoretic text, the traditional Hebrew text'
+    key: bd-masoretic-text
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/masoretic-text?lang=eng'
+    quote: 'The traditional Hebrew text of the Old Testament … The Old Testament of the KJV uses the Masoretic text.'
+  - where: 'note 30:2 “Am I in the place of God?”'
+    claim: 'Joseph goes on: you thought evil against me, but God meant it for good'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/50?lang=eng'
+    quote: 'But as for you, ye thought evil against me; but God meant it unto good'
+  - where: 'note 30:11 “Gad: fortune, not a troop”'
+    claim: 'The lexicon lists Gad as a god of fortune named in Phoenician and Aramaic inscriptions'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1409.htm'
+    quote: 'named often in Phoenician & Aramaic inscriptions'
+  - where: 'note 30:11 “Gad: fortune, not a troop”'
+    claim: 'The lexicon cites Isa. 65:11 for the god Gad (with article: laGad)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1409.htm'
+    quote: 'לַגַּד Isaiah 65:11'
+  - where: 'note 30:20 “Zebulun and the dowry”'
+    claim: 'The lexicon sees one clause as explaining the name Zebulun and notes another explanation in the second'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2064.htm'
+    quote: 'apparently in explanation of name Zebulun … another explanation in v'
+  - where: 'note 30:20 “Zebulun and the dowry”'
+    claim: 'zabal: my husband will honour me'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2082.htm'
+    quote: 'my husband will honour me'
+
+  # ---------- review additions ----------
+  - where: 'note 30:2 “Am I in the place of God?”'
+    claim: 'A commentary sets Jacob’s question beside Gen. 50:19'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/30.htm'
+    quote: 'Am I in God’s stead ] See Genesis 50:19'
+  - where: 'note 30:2 “Am I in the place of God?”'
+    claim: 'The two questions differ only in the form of “I” (anokhi in 30:2, ani in 50:19)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'הֲ/תַ֥חַת אֱלֹהִ֖ים אָֽנִי'
+  - where: 'note 30:11 “Gad: fortune, not a troop”'
+    claim: 'The Septuagint (en tychē, “with fortune”) follows the written text (ketiv)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1409.htm'
+    quote: 'Kt, i.e. בְּגָד ( בָּא גָד֑ Qr), ᵐ5 ἐν τύχῃ , by or with good fortune'
+  - where: 'note 30:20 “Zebulun and the dowry”'
+    claim: 'What a dowry was: compensation for a daughter’s separation from the family property, part of establishing a new household, and her security if widowed or divorced'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'The dowry was compensation for a daughter’s separation from the family property and was a critical part of establishing a new household, including what she contributed toward an inheritance for the next generation and her security should she become widowed or divorced.'
+  - where: 'note 30:27 “Laban divined that the LORD had blessed him”'
+    claim: 'The Church’s footnote to Gen. 30:27 points to Gen. 39:5'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/30?lang=eng'
+    quote: 'Gen. 39:5 (3–5).'
+  - where: 'note 30:43 “Increased: a verb from Beth-el”'
+    claim: 'A commentary notes that “increased” in 30:30 is “broken forth” and points to Gen. 28:14'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/30.htm'
+    quote: 'increased ] Heb. broken forth . See Genesis 28:14'
