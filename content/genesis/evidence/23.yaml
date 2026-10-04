@@ -1,0 +1,531 @@
+chapter: 23
+claims:
+  # ---------- when / setting ----------
+  - where: 'when'
+    claim: 'Abraham was a hundred and Sarah ninety at the promise of Isaac, so Abraham was ten years older'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng'
+    quote: 'Shall a child be born unto him that is an hundred years old? and shall Sarah, that is ninety years old, bear?'
+  - where: 'when'
+    claim: 'Abraham was a hundred when Isaac was born, so Isaac was 37 when Sarah died at 127'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/21?lang=eng'
+    quote: 'And Abraham was an hundred years old, when his son Isaac was born unto him.'
+  - where: 'setting'
+    claim: 'Abraham was seventy-five when he left Haran for Canaan, so he had lived there more than sixty years by age 137'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/12?lang=eng'
+    quote: 'Abram was seventy and five years old when he departed out of Haran.'
+  - where: 'setting'
+    claim: 'Abraham’s last trials were the offering of Isaac and the death of Sarah'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'Abraham’s last trials were the offering of his son, Isaac, and the death of his beloved Sarah.'
+  - where: 'setting'
+    claim: 'Before Sarah’s death Abraham had been living at Beer-sheba'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/22?lang=eng'
+    quote: 'they rose up and went together to Beer-sheba; and Abraham dwelt at Beer-sheba.'
+  - where: 'setting'
+    claim: 'The cave became the family tomb: Abraham, Sarah, Isaac, Rebekah, and Leah were buried there; Jacob asked to be'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/49?lang=eng'
+    quote: 'There they buried Abraham and Sarah his wife; there they buried Isaac and Rebekah his wife; and there I buried Leah.'
+  - where: 'setting'
+    claim: 'Jacob’s sons carried him from Egypt and buried him in the cave of Machpelah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/50?lang=eng'
+    quote: 'For his sons carried him into the land of Canaan, and buried him in the cave of the field of Machpelah'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'Genesis 17:8 promises the land as an everlasting possession, la’achuzzat ‘olam, in the land where Abraham is a sojourner'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/17-8.htm'
+    quote: 'לַאֲחֻזַּ֖ת as a possession'
+  - where: 'thread'
+    claim: 'Genesis 17:8: the land in which you are a sojourner'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/17-8.htm'
+    quote: 'mə·ḡu·re·ḵā, מְגֻרֶ֗יךָ in which you are a sojourner'
+  - where: 'thread'
+    claim: 'Verse 4: ger, “a sojourner,” and ’achuzzat qever, “a possession of a burial place”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/23-4.htm'
+    quote: 'gêr- גֵּר־ A sojourner'
+  - where: 'thread'
+    claim: 'Verse 4: ’achuzzat qever, “a possession of a burial place”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/23-4.htm'
+    quote: '’ă·ḥuz·zaṯ- אֲחֻזַּת־ a possession of'
+  - where: 'thread'
+    claim: 'Hebron was the only parcel of the promised land Abraham legally owned through purchase'
+    key: pierce-ancestors
+    url: 'https://rsc.byu.edu/creation-sinai/ancestors-israel-environment-canaan-early-second-millennium-bc'
+    quote: 'as the location of the only parcel of the promised land that Abraham legally owned through purchase'
+  - where: 'thread'
+    claim: 'Verses 3 and 7: Abraham “stood up” is vayyaqom (qum)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/23-3.htm'
+    quote: 'way·yā·qām וַיָּ֙קָם֙ And rose up'
+  - where: 'thread'
+    claim: 'Verse 7: Abraham “stood up” is vayyaqom'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/23-7.htm'
+    quote: 'way·yā·qām וַיָּ֧קָם And rose up'
+  - where: 'thread'
+    claim: 'Verse 17: the field “was made sure” is the same verb, vayyaqom'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/23-17.htm'
+    quote: 'way·yā·qām וַיָּ֣קָם׀ And was established'
+  - where: 'thread'
+    claim: 'Verse 20: the field and cave “were made sure” is vayyaqom'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/23-20.htm'
+    quote: 'way·yā·qām וַיָּ֨קָם And were established'
+  - where: 'thread'
+    claim: 'BDB lists Gen. 23:3 under qum “arise” from bending over the dead'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6965.htm'
+    quote: 'from bending over ( עַל ) dead Genesis 23:3 (P)'
+  - where: 'setting'
+    claim: 'Hebrews reads the patriarchs’ life in tents as faith in a promise not received in life, desiring a better country'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
+    quote: 'But now they desire a better country, that is, an heavenly: wherefore God is not ashamed to be called their God: for he hath prepared for them a city.'
+
+  # ---------- section plain ----------
+  - where: 'section 2 plain'
+    claim: '“Current money with the merchant” rendered “at the standard merchants accepted”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5674.htm'
+    quote: 'pass along (from hand to hand), only participle שֶׁקֶל כֶּסֶף עֹבֵר לַסֹּחֵר Genesis 23:16 i.e. current money of the merchant'
+  - where: 'section 2 plain'
+    claim: '“A mighty prince” is literally “a prince of God”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/23?lang=eng'
+    quote: 'HEB a prince of God.'
+  - where: 'section 2 plain'
+    claim: '“Ephron dwelt among” is yoshev, “was sitting” among the sons of Heth'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/23-10.htm'
+    quote: 'yō·šêḇ יֹשֵׁ֖ב was sitting'
+  - where: 'section 3 plain'
+    claim: '“Made sure” means legally confirmed to Abraham'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6965.htm'
+    quote: 'be established, confirmed , of kingdom'
+
+  # ---------- note 23:1 ----------
+  - where: 'note 23:1 “Sarah, a mother of the covenant people”'
+    claim: 'In one reading Sarah is the only woman whose age is given in scripture, as mother of the promised seed'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/23.htm'
+    quote: 'Sarah is the only woman whose age is mentioned in the Scriptures, because as the mother of the promised seed she became the mother of all believers (1 Peter 3:6).'
+  - where: 'note 23:1 “Sarah, a mother of the covenant people”'
+    claim: 'Sarah means “princess”'
+    key: bd-sarah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sarah?lang=eng'
+    quote: 'Sarah means “princess.” The wife of Abraham.'
+  - where: 'note 23:1 “Sarah, a mother of the covenant people”'
+    claim: 'Sarah stood by Abraham as an example of faith; righteous women can be called daughters of Sarah'
+    key: ot-manual-gen-18-23
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-18-23-abraham-a-model-of-faith-and-righteousness?lang=eng'
+    quote: 'Yet Sarah stood by his side throughout his life, not often in the limelight, but always as a great example of womanhood, faith, and righteousness.'
+  - where: 'note 23:1 “Sarah, a mother of the covenant people”'
+    claim: 'The righteous are the seed of Abraham (D&C 84:34); righteous women can be called daughters of Sarah'
+    key: ot-manual-gen-18-23
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-18-23-abraham-a-model-of-faith-and-righteousness?lang=eng'
+    quote: 'The Doctrine and Covenants speaks of the righteous as being the seed of Abraham (see D&C 84:34), but Peter also suggested that righteous women can be called the daughters of Sarah'
+
+  # ---------- note 23:2 ----------
+  - where: 'note 23:2 “Kirjath-arba, which is Hebron”'
+    claim: 'Kirjath-arba is the older name of Hebron, probably “fourfold city” (otherwise Josh. 14:15)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7153.htm'
+    quote: 'older name of Hebron; πόλις Αρβο(κ), Καρ(ι)αθαρβοκ, etc. (probably = fourfold city (otherwise Joshua 14:15'
+  - where: 'note 23:2 “Kirjath-arba, which is Hebron”'
+    claim: 'Qiryah (construct qiryat) means “town, city”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7151.htm'
+    quote: 'noun feminine town, city'
+  - where: 'note 23:2 “Kirjath-arba, which is Hebron”'
+    claim: 'Hebron was known also as Mamre and Kirjath-arba, and became the property of Caleb'
+    key: bd-hebron
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hebron?lang=eng'
+    quote: 'known also as Mamre and Kirjath-arba'
+  - where: 'note 23:2 “Kirjath-arba, which is Hebron”'
+    claim: 'Hebron became the property of Caleb (Josh. 14:13–15)'
+    key: bd-hebron
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hebron?lang=eng'
+    quote: 'and became the property of Caleb ( Josh. 14:13–15 )'
+  - where: 'note 23:2 “Kirjath-arba, which is Hebron”'
+    claim: 'After the binding of Isaac, Abraham probably returned to Hebron (the text does not say; this source states it)'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'After the binding of Isaac, Abraham returned to Hebron (Genesis 23:2). There Sarah died (23:1–2).'
+  - where: 'note 23:2 “Kirjath-arba, which is Hebron”'
+    claim: 'The verb for mourning is saphad, lispod, “to mourn”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/23-2.htm'
+    quote: 'lis·pōḏ לִסְפֹּ֥ד to mourn'
+  - where: 'note 23:2 “Kirjath-arba, which is Hebron”'
+    claim: 'Saphad means “wail, lament”; Gen. 23:2 is listed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5594.htm'
+    quote: 'verb wail, lament'
+
+  # ---------- note 23:3 ----------
+  - where: 'note 23:3 “Who were the sons of Heth?”'
+    claim: 'Heth is “begotten” by Canaan (Gen. 10:15); the sons of Heth lived at Mamre (Hebron) and one sold Abraham the cave'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2845.htm'
+    quote: 'lived at Mamre (Hebron), and one of them sold Abraham the cave of Machpelah for a sepulchre'
+  - where: 'note 23:3 “Who were the sons of Heth?”'
+    claim: 'Heth: descendant of Ham, father of the Hittites'
+    key: bd-heth
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/heth?lang=eng'
+    quote: 'A descendant of Ham, and father of the Hittites'
+  - where: 'note 23:3 “Who were the sons of Heth?”'
+    claim: 'In the Bible “Hittites” can denote the nations north of Palestine, strong enough to contend with Egypt and Assyria'
+    key: bd-hittites
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hittites?lang=eng'
+    quote: 'in the Bible the name denotes all the Canaanite (as distinguished from the Aramean or Syrian) nations that lived north of Palestine'
+  - where: 'note 23:3 “Who were the sons of Heth?”'
+    claim: 'The Hittites contended with the kings of Egypt and Assyria'
+    key: bd-hittites
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hittites?lang=eng'
+    quote: 'they were strong enough to contend on equal terms with the kings of Egypt and Assyria'
+  - where: 'note 23:3 “Who were the sons of Heth?”'
+    claim: 'A document from Hebron shows a mix of Amorite and Hurrian names'
+    key: pierce-ancestors
+    url: 'https://rsc.byu.edu/creation-sinai/ancestors-israel-environment-canaan-early-second-millennium-bc'
+    quote: 'Personal names in an administrative document from Hebron reflect a mixture of Amorite and Hurrian names, suggesting that Abraham would have interacted with a mixed population while he dwelt near Hebron'
+  - where: 'note 23:3 “Who were the sons of Heth?”'
+    claim: 'Ephron is called ha-Chitti, “the Hittite”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/23-10.htm'
+    quote: 'ha·ḥit·tî הַחִתִּ֤י the Hittite'
+
+  # ---------- note 23:4 stranger ----------
+  - where: 'note 23:4 “Stranger and sojourner”'
+    claim: 'Ger: sojourner, temporary dweller, newcomer with no inherited rights; used of Abraham at Hebron'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1616.htm'
+    quote: 'sojourner, temporary dweller, new-comer (no inherited rights)'
+  - where: 'note 23:4 “Stranger and sojourner”'
+    claim: 'BDB cites Gen. 23:4 of Abraham at Hebron, paired with toshav'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1616.htm'
+    quote: 'of Abraham at Hebron Genesis 23:4'
+  - where: 'note 23:4 “Stranger and sojourner”'
+    claim: 'The pair of words recurs of Israel with the LORD: Lev. 25:23; 1 Chr. 29:15; Ps. 39 (Hebrew 39:13)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1616.htm'
+    quote: 'גֵּרִים with Yahweh Leviticus 25:23 (H) 1 Chronicles 29:15; Psalm 39:13'
+  - where: 'note 23:4 “Stranger and sojourner”'
+    claim: 'Ger is the word used of Abraham’s seed in Egypt in Gen. 15:13'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1616.htm'
+    quote: 'of Israel in Egypt Genesis 15:13'
+  - where: 'note 23:4 “Stranger and sojourner”'
+    claim: 'Toshav: sojourner, of a more temporary and dependent kind than the ger'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8453.htm'
+    quote: 'sojourner, apparently of a more temporaty and dependent (Leviticus 22:10; 25:6) kind than the גֵּר (with which it is often joined)'
+  - where: 'note 23:4 “Stranger and sojourner”'
+    claim: 'Verse 4: ger ve-toshav'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/23-4.htm'
+    quote: 'wə·ṯō·wō·šāḇ וְתוֹשָׁ֥ב and a settler'
+  - where: 'note 23:4 “Stranger and sojourner”'
+    claim: 'Gen. 15:13: thy seed shall be a stranger'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/15?lang=eng'
+    quote: 'Know of a surety that thy seed shall be a stranger in a land that is not theirs'
+
+  # ---------- note 23:4 possession ----------
+  - where: 'note 23:4 “A possession, and only a grave”'
+    claim: '’Achuzzah: possession, of landed property'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/272.htm'
+    quote: 'possession, P & late; of landed property'
+  - where: 'note 23:4 “A possession, and only a grave”'
+    claim: 'Gen. 17:8 has la’achuzzat ‘olam, “as an everlasting possession”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/17-8.htm'
+    quote: '‘ō·w·lām; עוֹלָ֑ם everlasting'
+  - where: 'note 23:4 “A possession, and only a grave”'
+    claim: 'Verse 20 ends with la’achuzzat qever'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/23-20.htm'
+    quote: 'לַאֲחֻזַּת־ as a possession of'
+  - where: 'note 23:4 “A possession, and only a grave”'
+    claim: 'Abraham had to bargain for a burial place; the promise was not fulfilled with Abraham'
+    key: nyman-covenant-abraham
+    url: 'https://rsc.byu.edu/pearl-great-price-revelations-god/covenant-abraham'
+    quote: 'Although this was natural for a semi-nomad chieftain, it demonstrates that the promise was not fulfilled with Abraham.'
+  - where: 'note 23:4 “A possession, and only a grave”'
+    claim: 'The Middle Bronze Age is the likely setting of Abraham’s life (the source says its sites “may indicate” the artifacts of Abraham’s household)'
+    key: pierce-ancestors
+    url: 'https://rsc.byu.edu/creation-sinai/ancestors-israel-environment-canaan-early-second-millennium-bc'
+    quote: 'provides a window into the seminomadic life of the Middle Bronze Age and may indicate the types of artifacts left behind by Abraham, Isaac, and their households'
+  - where: 'note 23:4 “A possession, and only a grave”'
+    claim: 'Middle Bronze Age families used burial caves for several generations'
+    key: pierce-ancestors
+    url: 'https://rsc.byu.edu/creation-sinai/ancestors-israel-environment-canaan-early-second-millennium-bc'
+    quote: 'In the Middle Bronze Age, the use of burial caves for an extended period of time indicates the desire of families to bury several generations of deceased family members together.'
+  - where: 'note 23:4 “A possession, and only a grave”'
+    claim: 'Continued use of the burial cave staked the family’s claim on the property'
+    key: pierce-ancestors
+    url: 'https://rsc.byu.edu/creation-sinai/ancestors-israel-environment-canaan-early-second-millennium-bc'
+    quote: 'The continued use of the burial cave would have been seen as the family’s staking a claim on the property and renewing their rights of ownership.'
+  - where: 'note 23:4 “A possession, and only a grave”'
+    claim: 'Jacob calls it “a possession of a buryingplace” (Gen. 49:30)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/49?lang=eng'
+    quote: 'which Abraham bought with the field of Ephron the Hittite for a possession of a buryingplace.'
+
+  # ---------- note 23:6 ----------
+  - where: 'note 23:6 “A prince of God”'
+    claim: 'Hebrew nesi Elohim, “a prince of God”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/23-6.htm'
+    quote: 'nə·śî נְשִׂ֨יא a prince'
+  - where: 'note 23:6 “A prince of God”'
+    claim: 'Hebrew nesi Elohim: Elohim, “of God”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/23-6.htm'
+    quote: '’ĕ·lō·hîm אֱלֹהִ֤ים of God'
+  - where: 'note 23:6 “A prince of God”'
+    claim: 'Nasi: one lifted up, chief, prince; of Abraham at 23:6 and of Ishmael’s princes'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5387.htm'
+    quote: 'one lifted up, i.e. a chief prince'
+  - where: 'note 23:6 “A prince of God”'
+    claim: 'Nasi used of Abraham (23:6) and of the heads of Ishmaelite tribes (17:20; 25:16)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5387.htm'
+    quote: 'of Abraham Genesis 23:6, and heads of Ishmaelite tribes Genesis 17:20; Genesis 25:16'
+  - where: 'note 23:6 “A prince of God”'
+    claim: '“Of God” as an intensive, comparing “mountains of God” in Ps. 36:6 (one reading)'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/23.htm'
+    quote: 'A mighty prince.—Heb., a prince of God. Comp. “wind of God” (Genesis 1:2); “wrestlings of God” (Genesis 30:8); “mountains of God” (Psalm 36:6); “cedars of God” (Psalm 80:10). So also “a sleep of Jehovah” for a deep sleep'
+  - where: 'note 23:6 “A prince of God”'
+    claim: 'The Septuagint: “a king from God”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/23.htm'
+    quote: 'thou art in the midst of us a king from God'
+
+  # ---------- note 23:11 ----------
+  - where: 'note 23:11 “A gift Abraham would not take”'
+    claim: 'Ephron’s offer of the cave free was polite rhetoric that Abraham knew to refuse'
+    key: pierce-ancestors
+    url: 'https://rsc.byu.edu/creation-sinai/ancestors-israel-environment-canaan-early-second-millennium-bc'
+    quote: 'The dialogue with Ephron the Hethite began with the polite rhetoric of offering Abraham the cave freely, which Abraham knew to refuse, and then ended with Abraham weighing out the four hundred shekels of silver to Ephron.'
+  - where: 'note 23:11 “A gift Abraham would not take”'
+    claim: 'Verse 9: bekesef male, “for full silver”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/23-9.htm'
+    quote: 'mā·lê מָלֵ֜א for full'
+  - where: 'note 23:11 “A gift Abraham would not take”'
+    claim: 'Legal documents were needed to prove ownership'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'Keeping track of land transactions, however, was very important because legal documents were needed to prove ownership, otherwise squatters could just claim land.'
+  - where: 'note 23:11 “A gift Abraham would not take”'
+    claim: '“For full silver” is the phrase rendered “the full price” in 1 Chr. 21:22'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/23.htm'
+    quote: 'For as much money as it is worth.—Heb., for full silver, rendered “the full price” in 1Chronicles 21:22.'
+  - where: 'note 23:11 “A gift Abraham would not take”'
+    claim: '1 Chr. 21:24 has the same phrase, bekesef male'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/1_chronicles/21-24.htm'
+    quote: 'bə·ḵe·sep̄ בְּכֶ֣סֶף for the price'
+  - where: 'note 23:11 “A gift Abraham would not take”'
+    claim: 'The Church’s footnote to verse 16 points to David’s purchase (1 Chr. 21:25)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/23?lang=eng'
+    quote: '1 Chr. 21:25 ; Jer. 32:9 .'
+  - where: 'note 23:11 “A gift Abraham would not take”'
+    claim: 'Ornan’s threshing floor became the temple site on Mount Moriah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/3?lang=eng'
+    quote: 'Then Solomon began to build the house of the Lord at Jerusalem in mount Moriah, where the Lord appeared unto David his father, in the place that David had prepared in the threshingfloor of Ornan the Jebusite.'
+
+  # ---------- note 23:16 ----------
+  - where: 'note 23:16 “Four hundred shekels, by weight”'
+    claim: 'No coinage until the Persian period; payments by weight; shekels of silver'
+    key: bd-money
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/money?lang=eng'
+    quote: 'The Hebrews appear to have been ignorant of coinage until the Persian period. Before that time gold and silver were used as a medium of exchange, but payments were made by weight.'
+  - where: 'note 23:16 “Four hundred shekels, by weight”'
+    claim: 'The shekel was a unit of weight'
+    key: bd-money
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/money?lang=eng'
+    quote: 'In the Maccabean period the weight of a shekel was 218 grains (15.126 grams); in earlier times it may have been lighter.'
+  - where: 'note 23:16 “Four hundred shekels, by weight”'
+    claim: 'A shekel means a shekel of silver unless stated otherwise'
+    key: bd-money
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/money?lang=eng'
+    quote: 'By a shekel we must always understand a shekel of silver, unless it is expressly stated to be of gold.'
+  - where: 'note 23:16 “Four hundred shekels, by weight”'
+    claim: '“Weighed” is shaqal; “shekels” is sheqel'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/23-16.htm'
+    quote: 'way·yiš·qōl וַיִּשְׁקֹ֤ל and weighed out'
+  - where: 'note 23:16 “Four hundred shekels, by weight”'
+    claim: '“Shekels” is sheqel'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/23-16.htm'
+    quote: 'še·qel שֶׁ֣קֶל shekels'
+  - where: 'note 23:16 “Four hundred shekels, by weight”'
+    claim: '“Current money with the merchant” is ‘over lassocher, “passing with the merchant”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/23-16.htm'
+    quote: '‘ō·ḇêr עֹבֵ֖ר passing'
+  - where: 'note 23:16 “Four hundred shekels, by weight”'
+    claim: '‘Avar here means pass along from hand to hand: current money of the merchant'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5674.htm'
+    quote: 'pass along (from hand to hand), only participle שֶׁקֶל כֶּסֶף עֹבֵר לַסֹּחֵר Genesis 23:16 i.e. current money of the merchant'
+  - where: 'note 23:16 “Four hundred shekels, by weight”'
+    claim: 'The word “money” is in italics in the KJV (added by the translators)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/23?lang=eng'
+    quote: 'four hundred shekels of silver, current money with the merchant.'
+  - where: 'note 23:16 “Four hundred shekels, by weight”'
+    claim: 'The verse refers to weighing silver by the merchant standards of the day'
+    key: pierce-ancestors
+    url: 'https://rsc.byu.edu/creation-sinai/ancestors-israel-environment-canaan-early-second-millennium-bc'
+    quote: 'the passage refers to the weighing of silver according to the merchant standards of the day'
+  - where: 'note 23:16 “Four hundred shekels, by weight”'
+    claim: 'The price seems very high; other land sales of the time were 9, 10, 11 5/6, 26, and 200 shekels'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'At four hundred shekels of silver (23:15), the price seems very high. Other plots of land purchase from the same time were for 9 shekels of silver'
+  - where: 'note 23:16 “Four hundred shekels, by weight”'
+    claim: 'Other prices: 10, 11 5/6, 26 shekels'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: '10 shekels of silver,[126] 11 5/6 shekels of silver,[127] 26 shekels of silver,[128] and 200 shekels of silver.'
+  - where: 'note 23:16 “Four hundred shekels, by weight”'
+    claim: '200 shekels was the most common price, half what Abraham paid'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'Even though 200 shekels of silver is the mode (most common price), it is still half the price that Abraham paid.'
+  - where: 'note 23:16 “Four hundred shekels, by weight”'
+    claim: 'Jeremiah weighed seventeen shekels and took witnesses'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/32?lang=eng'
+    quote: 'And I subscribed the evidence, and sealed it, and took witnesses, and weighed him the money in the balances.'
+
+  # ---------- note 23:17 ----------
+  - where: 'note 23:17 “A sale on the record”'
+    claim: 'Qum: be established, confirmed, of a purchase; be assured to; Gen. 23:17, 20'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6965.htm'
+    quote: 'of purchase Leviticus 27:19 , with ל person be assured to Leviticus 25:30 ; Genesis 23:17 ,20'
+  - where: 'note 23:17 “A sale on the record”'
+    claim: 'Boaz bought at the gate before the elders and people, who were witnesses'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ruth/4?lang=eng'
+    quote: 'And all the people that were in the gate, and the elders, said, We are witnesses.'
+  - where: 'note 23:17 “A sale on the record”'
+    claim: 'The Church’s footnote to verse 10 points to Gen. 34:20 and Ruth 4:1: the city gate as a place of public business'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/23?lang=eng'
+    quote: 'Gen. 34:20 ; Ruth 4:1 .'
+  - where: 'note 23:17 “A sale on the record”'
+    claim: 'No written deed is mentioned, but parallels from Mari and Emar suggest a witnessed tablet'
+    key: pierce-ancestors
+    url: 'https://rsc.byu.edu/creation-sinai/ancestors-israel-environment-canaan-early-second-millennium-bc'
+    quote: 'No mention is made of a written land deed, but parallels from Mari and Emar in Syria suggest that Abraham received a tablet with the details of the transaction that was witnessed by both parties.'
+  - where: 'note 23:17 “A sale on the record”'
+    claim: 'A substantial amount of narrative space is given to the land transaction'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'A substantial amount of narrative space is taken on the negotiation of a land transaction.'
+  - where: 'note 23:17 “A sale on the record”'
+    claim: 'One reading: the narrative derives from legal documents Abraham’s family preserved (an argument from the story’s length)'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'The fact that this narrative was kept argues that it is derived from legal documents that Abraham had, and his family had preserved and shows that the Genesis narrative was built from written sources that arguably derive from Abraham himself.'
+
+  # ---------- note 23:19 ----------
+  - where: 'note 23:19 “The cave of Machpelah”'
+    claim: 'Machpelah means “doubling”; who was buried there; on the hill of Hebron; site now a mosque'
+    key: bd-machpelah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/machpelah?lang=eng'
+    quote: 'Doubling. The field and cave bought by Abraham'
+  - where: 'note 23:19 “The cave of Machpelah”'
+    claim: 'The traditional site is now occupied by a mosque'
+    key: bd-machpelah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/machpelah?lang=eng'
+    quote: 'The traditional site is now occupied by a mosque.'
+  - where: 'note 23:19 “The cave of Machpelah”'
+    claim: 'The Septuagint calls it the double cave'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/23.htm'
+    quote: 'After this Abraam buried Sarrha his wife in the Double Cave of the field'
+  - where: 'note 23:19 “The cave of Machpelah”'
+    claim: 'The cave may have had two caverns for successive generations'
+    key: pierce-ancestors
+    url: 'https://rsc.byu.edu/creation-sinai/ancestors-israel-environment-canaan-early-second-millennium-bc'
+    quote: 'the cave may have originally had two caverns suited for the burial of successive family generations'
+  - where: 'note 23:19 “The cave of Machpelah”'
+    claim: 'The long use of a burial cave at Hebron corresponds to Machpelah’s use as the ancestors’ tomb'
+    key: pierce-ancestors
+    url: 'https://rsc.byu.edu/creation-sinai/ancestors-israel-environment-canaan-early-second-millennium-bc'
+    quote: 'Such extensive use corresponds well with the use of the Cave of Machpelah as a burial place for the ancestors of Israel.'
+  - where: 'note 23:19 “The cave of Machpelah”'
+    claim: 'Excavators found burial caves at Hebron, one of them used from the Middle Bronze Age to Iron Age I'
+    key: pierce-ancestors
+    url: 'https://rsc.byu.edu/creation-sinai/ancestors-israel-environment-canaan-early-second-millennium-bc'
+    quote: 'one of which evinced a continuity of use from the Middle Bronze Age to the Iron Age I'
+  - where: 'note 23:19 “The cave of Machpelah”'
+    claim: 'Isaac and Ishmael buried Abraham in the cave'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/25?lang=eng'
+    quote: 'And his sons Isaac and Ishmael buried him in the cave of Machpelah'
+  - where: 'note 23:19 “The cave of Machpelah”'
+    claim: 'Herod put up a building over the traditional site of the cave; one of the most famous in the Holy Land'
+    key: bible-photo-tombs-patriarchs
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-photos/photo-5?lang=eng'
+    quote: 'This building, one of the most famous in the Holy Land, was constructed in Hebron by King Herod over the traditional site of the cave of Machpelah, which was purchased by Abraham as a family burial site'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'D&C 45:12–13: “all holy men” who sought the city confessed they were strangers and pilgrims'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/45?lang=eng'
+    quote: 'a day which was sought for by all holy men, and they found it not because of wickedness and abominations;'
+  - where: 'christ'
+    claim: 'The footnote to D&C 45:13 reads “strangers and pilgrims” as sojourners and points to Genesis'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/45?lang=eng'
+    quote: 'IE sojourners; see Gen. 15:13 .'
+  - where: 'christ'
+    claim: 'Isaac and Jacob were also buried in the cave (Gen. 49:31; 50:13)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/49?lang=eng'
+    quote: 'there they buried Isaac and Rebekah his wife'
+  - where: 'christ'
+    claim: 'Jehovah, the LORD of the Old Testament, is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: 'The footnote to D&C 45:12 points to Moses 7:62–64'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/45?lang=eng'
+    quote: 'Heb. 11:16 ; D&C 84:100 ; Moses 7:63 (62–64) .'
+  - where: 'explore'
+    claim: 'Pierce’s chapter describes Hebron and its tombs in Abraham’s day'
+    key: pierce-ancestors
+    url: 'https://rsc.byu.edu/creation-sinai/ancestors-israel-environment-canaan-early-second-millennium-bc'
+    quote: 'Philip Hammond, an excavator of Hebron, also found burial caves on the southeastern portion of the mound'
