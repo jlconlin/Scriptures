@@ -1,0 +1,737 @@
+chapter: 15
+claims:
+  # ---------- when / setting ----------
+  - where: 'when'
+    claim: 'Abram was seventy-five when he left Haran'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/12?lang=eng'
+    quote: 'Abram was seventy and five years old when he departed out of Haran'
+  - where: 'when'
+    claim: 'Sarai gave Hagar after Abram had lived ten years in Canaan; Abram was eighty-six at Ishmael’s birth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/16?lang=eng'
+    quote: 'after Abram had dwelt ten years in the land of Canaan'
+  - where: 'setting'
+    claim: 'Genesis 15 formally initiates the covenant relationship; Genesis 17 expands it; Genesis 22 confirms it'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'He formally initiates that relationship in Genesis 15, promising Abraham that he will become a great nation in the land of Canaan that God gives him. In Genesis 17, he expands on a second promise'
+  - where: 'setting'
+    claim: 'Nehemiah 9:8 uses ne’eman (“faithful”), the same root (Strong’s 539) as “believed” in Gen. 15:6'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/nehemiah/9-8.htm'
+    quote: '539 [e] ne·’ĕ·mān נֶאֱמָ֣ן faithful V‑Nifal‑Prtcpl‑ms'
+  - where: 'setting'
+    claim: 'Nehemiah 9:8 uses karat (“cut”) for making the covenant and calls God tsaddiq, “righteous”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/nehemiah/9-8.htm'
+    quote: '6662 [e] ṣad·dîq צַדִּ֖יק righteous Adj‑ms'
+  - where: 'setting'
+    claim: '“Believed” in Gen. 15:6 is he’emin, Strong’s 539'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/15-6.htm'
+    quote: '539 [e] 6 wə·he·’ĕ·min 6 וְהֶאֱמִ֖ן 6 And he believed'
+  - where: 'setting'
+    claim: 'The JST adds verses in which Abram learns of the Resurrection and sees the Son of Man'
+    key: jst-gen-15
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/15?lang=eng'
+    quote: 'Abraham learns of the Resurrection and sees a vision of Jesus’ mortal ministry.'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'Abram’s faith shown by doing what God commanded; God reckoned it by making a covenant'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/15.htm'
+    quote: 'Consequently Jehovah reckoned Abram''s faith to him as righteousness, by making a covenant with him, by taking Abram into covenant fellowship with Himself.'
+  - where: 'thread'
+    claim: 'God alone passes between the pieces'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/15.htm'
+    quote: 'it followed, however, that God alone went through the pieces in a symbolical representation of Himself, and not Abram also'
+
+  # ---------- note 15:1 word of the LORD ----------
+  - where: 'note 15:1 “The word of the LORD came”'
+    claim: 'It is the technical expression for revelation to a prophet and occurs nowhere else in the Pentateuch; compare Gen. 20:7'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/15.htm'
+    quote: 'This is a technical expression in the O.T. for a Divine revelation to a prophet. It occurs nowhere else in the Pentateuch. It suggests the prophetic character of Abram, and should be compared with Genesis 20:7'
+  - where: 'note 15:1 “The word of the LORD came”'
+    claim: 'No earlier verse of Genesis has devar (word) followed by YHWH'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אַחַ֣ר׀ הַ/דְּבָרִ֣ים הָ/אֵ֗לֶּה הָיָ֤ה דְבַר יְהוָה֙ אֶל אַבְרָ֔ם'
+  - where: 'note 15:1 “The word of the LORD came”'
+    claim: '“In a vision” is bammachazeh'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/15-1.htm'
+    quote: 'בַּֽמַּחֲזֶ֖ה in a vision'
+  - where: 'note 15:1 “The word of the LORD came”'
+    claim: 'God calls Abraham a prophet in Gen. 20:7'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/20?lang=eng'
+    quote: 'for he is a prophet, and he shall pray for thee'
+
+  # ---------- note 15:1 shield and reward ----------
+  - where: 'note 15:1 “Shield and reward”'
+    claim: 'By the war with the eastern kings Abram had made powerful enemies'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/15.htm'
+    quote: 'By the war with the Elamite king he had also made for himself powerful enemies'
+  - where: 'note 15:1 “Shield and reward”'
+    claim: '“Shield” is magen'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/15-1.htm'
+    quote: '4043 [e] mā·ḡên מָגֵ֣ן shield'
+  - where: 'note 15:1 “Shield and reward”'
+    claim: '“Delivered” in 14:20 is miggen'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/14-20.htm'
+    quote: '4042 [e] mig·gên מִגֵּ֥ן has delivered'
+  - where: 'note 15:1 “Shield and reward”'
+    claim: 'Miggen, “deliver,” is a verb formed from magen, “shield”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4042.htm'
+    quote: 'verb only Pi`el deliver up, deliver (denominative from מָגֵן'
+  - where: 'note 15:1 “Shield and reward”'
+    claim: 'Sakar means hire, wages; reward, with Gen. 15:1 cited'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7939.htm'
+    quote: 'hire, wages'
+  - where: 'note 15:1 “Shield and reward”'
+    claim: 'Sakar means reward for work done, faithfulness, Gen. 15:1'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7939.htm'
+    quote: 'reward , for work done, faithfulness, etc., Genesis 15:1'
+  - where: 'note 15:1 “Shield and reward”'
+    claim: 'The Hebrew has “your reward” followed by harbeh, “very great”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/15-1.htm'
+    quote: 'שְׂכָרְךָ֖ your reward'
+  - where: 'note 15:1 “Shield and reward”'
+    claim: 'Harbeh is an infinitive absolute, “very great”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/15-1.htm'
+    quote: 'הַרְבֵּ֥ה is great V‑Hifil‑InfAbs'
+  - where: 'note 15:1 “Shield and reward”'
+    claim: 'The Hebrew can be read “thy exceeding great reward” (with the Latin) or “thy reward shall be exceeding great” (with the LXX)'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/15.htm'
+    quote: 'So the Lat. et merces tua magna nimis. But R.V. marg. thy reward shall be exceeding great is preferable. So the LXX.'
+  - where: 'note 15:1 “Shield and reward”'
+    claim: 'The Septuagint: “thy reward shall be very great”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/15.htm'
+    quote: 'Fear not, Abram, I shield thee, thy reward shall be very great.'
+  - where: 'note 15:1 “Shield and reward”'
+    claim: 'Abram refused the king of Sodom’s goods (14:23)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/14?lang=eng'
+    quote: 'That I will not take from a thread even to a shoelatchet'
+
+  # ---------- note 15:2 Eliezer ----------
+  - where: 'note 15:2 “An heir from the household”'
+    claim: 'Hebrew “steward” is ben-mesheq, “son of possession”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/15-2.htm'
+    quote: 'מֶ֣שֶׁק of possession'
+  - where: 'note 15:2 “An heir from the household”'
+    claim: 'Hebrew “steward” is ben-mesheq, “son of possession”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/15-2.htm'
+    quote: 'וּבֶן־ and the son'
+  - where: 'note 15:2 “An heir from the household”'
+    claim: 'The meaning of mesheq is conjectured from context'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4943.htm'
+    quote: 'acquisition, possession (?; meaning conjectured from context'
+  - where: 'note 15:2 “An heir from the household”'
+    claim: 'Mesheq possibly chosen for word-play with Dammeseq (Damascus)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4943.htm'
+    quote: 'possibly changed from משׁך (compare Job 28:18 ) for word-play with דמשׂק'
+  - where: 'note 15:2 “An heir from the household”'
+    claim: '“One born in my house” (v. 3) is ben-beti, “a son of my house,” and the verb is “is inheriting”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/15-3.htm'
+    quote: 'בֵּיתִ֖י of my house'
+  - where: 'note 15:2 “An heir from the household”'
+    claim: '“One born in my house” (v. 3) is ben-beti, “a son of my house”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/15-3.htm'
+    quote: 'בֶן־ a son'
+  - where: 'note 15:2 “An heir from the household”'
+    claim: 'Eliezer was likely a servant legally adopted as Abraham’s son'
+    key: sc-knowhy-838
+    url: 'https://scripturecentral.org/knowhy/why-did-the-lord-tell-abraham-that-neither-his-servant-nor-ishmael-would-be-his-heir'
+    quote: 'Given Abraham’s declaration that Eliezer was his heir, it is likely that he was a servant who was legally adopted as Abraham’s son.'
+  - where: 'note 15:2 “An heir from the household”'
+    claim: 'Hammurabi’s code dates to shortly after Abraham’s time and treats a childless man who adopts a son'
+    key: sc-knowhy-838
+    url: 'https://scripturecentral.org/knowhy/why-did-the-lord-tell-abraham-that-neither-his-servant-nor-ishmael-would-be-his-heir'
+    quote: 'Section 191 of the Babylonian law-code of Hammurabi, dating to shortly after Abraham’s time, provides some legal guidelines with respect to any childless man who adopts a son, but then later has natural children.'
+  - where: 'note 15:2 “An heir from the household”'
+    claim: 'Hammurabi §191: an adopted son put out after natural children are born must be given a share'
+    key: hammurabi-king
+    url: 'https://avalon.law.yale.edu/ancient/hamcode.asp'
+    quote: 'If a man, who had adopted a son and reared him, founded a household, and had children, wish to put this adopted son out, then this son shall not simply go his way.'
+  - where: 'note 15:2 “An heir from the household”'
+    claim: 'The adoptive father must give the displaced son one-third of a child’s portion'
+    key: hammurabi-king
+    url: 'https://avalon.law.yale.edu/ancient/hamcode.asp'
+    quote: 'His adoptive father shall give him of his wealth one-third of a child''s portion, and then he may go.'
+  - where: 'note 15:2 “An heir from the household”'
+    claim: 'Adopting an heir was a legitimate practice of the time'
+    key: sc-knowhy-838
+    url: 'https://scripturecentral.org/knowhy/why-did-the-lord-tell-abraham-that-neither-his-servant-nor-ishmael-would-be-his-heir'
+    quote: 'This law-code demonstrates that adopting an heir was a legitimate practice of the time'
+  - where: 'note 15:2 “An heir from the household”'
+    claim: 'Ishmael later superseded Eliezer as heir'
+    key: sc-knowhy-838
+    url: 'https://scripturecentral.org/knowhy/why-did-the-lord-tell-abraham-that-neither-his-servant-nor-ishmael-would-be-his-heir'
+    quote: 'What happened to Eliezer after Ishmael was born is not stated, but it is clear that Ishmael superseded him as heir.'
+  - where: 'note 15:2 “An heir from the household”'
+    claim: 'Sarai gives Hagar to Abram (16:1–3)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/16?lang=eng'
+    quote: 'Sarai Abram’s wife took Hagar her maid the Egyptian'
+
+  # ---------- note 15:5 stars ----------
+  - where: 'note 15:6 “What Abram saw”'
+    claim: 'JST Gen. 15:9–12 text'
+    key: jst-gen-15
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/15?lang=eng'
+    quote: 'And if thou shalt die, yet thou shalt possess it, for the day cometh, that the Son of Man shall live; but how can he live if he be not dead? he must first be quickened.'
+  - where: 'note 15:6 “What Abram saw”'
+    claim: 'JST: Abram saw the days of the Son of Man and was glad, and the Lord counted it for righteousness'
+    key: jst-gen-15
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/15?lang=eng'
+    quote: 'And it came to pass, that Abram looked forth and saw the days of the Son of Man, and was glad, and his soul found rest, and he believed in the Lord; and the Lord counted it unto him for righteousness.'
+  - where: 'note 15:6 “What Abram saw”'
+    claim: 'JST: Abram asks how the land will be an everlasting inheritance'
+    key: jst-gen-15
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/15?lang=eng'
+    quote: 'And Abram said, Lord God, how wilt thou give me this land for an everlasting inheritance?'
+  - where: 'note 15:6 “What Abram saw”'
+    claim: 'The wording of John 8:56 suggests Jesus referred to Abram’s experience in Genesis 15'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: 'The wording here suggests Jesus referred to Abram’s experience in Genesis 15 when he said to the Jews, “Your father Abraham rejoiced to see my day: and he saw it, and was glad” (John 8:56).'
+  - where: 'note 15:6 “What Abram saw”'
+    claim: 'The land promise was also an individual promise to Abram fulfilled in eternity, through Christ’s Resurrection'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: 'the promise of land to Abram was not limited to Israel inheriting Canaan after the Exodus, but was also an individual promise to Abram that would be fulfilled in eternity'
+  - where: 'note 15:6 “What Abram saw”'
+    claim: 'Helaman: Abraham saw of his coming and was filled with gladness'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/8?lang=eng'
+    quote: 'Abraham saw of his coming, and was filled with gladness and did rejoice.'
+
+  # ---------- note 15:6 counted for righteousness ----------
+  - where: 'note 15:6 “Faith counted as righteousness”'
+    claim: 'Chashav means think, account'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2803.htm'
+    quote: 'חָשַׁב verb think, account'
+  - where: 'note 15:6 “Faith counted as righteousness”'
+    claim: 'The Hebrew verb “reckoned it” has no named subject'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/15-6.htm'
+    quote: 'way·yaḥ·šə·ḇe·hā וַיַּחְשְׁבֶ֥הָ and He reckoned it Conj‑w ¦ V‑Qal‑ConsecImperf‑3ms ¦ 3fs'
+  - where: 'note 15:6 “Faith counted as righteousness”'
+    claim: 'Abram showed his faith by readiness to do what God commanded'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/15.htm'
+    quote: 'By this readiness to perform what God commanded him, Abram gave a practical proof that he believed Jehovah'
+  - where: 'note 15:6 “Faith counted as righteousness”'
+    claim: 'In the ancient covenant, faith is exclusive loyalty, citing Gen. 15:6'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'The covenant involves exclusive loyalty (faith)'
+  - where: 'note 15:6 “Faith counted as righteousness”'
+    claim: 'In the ancient covenant, faith is exclusive loyalty, citing Gen. 15:6'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'on the part of those entering into the covenant (Genesis 15:6; 17:7–8)'
+  - where: 'note 15:6 “Faith counted as righteousness”'
+    claim: 'Paul: righteousness reckoned before circumcision (Rom. 4:10)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/4?lang=eng'
+    quote: 'Not in circumcision, but in uncircumcision.'
+  - where: 'note 15:6 “Faith counted as righteousness”'
+    claim: 'James: the scripture was fulfilled when Abraham offered Isaac; faith wrought with works'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/james/2?lang=eng'
+    quote: 'Seest thou how faith wrought with his works, and by works was faith made perfect?'
+
+  # ---------- note 15:8 sign ----------
+  - where: 'note 15:8 “Asking how, after believing”'
+    claim: 'Zacharias asked “Whereby shall I know this?” and was struck dumb for unbelief'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/1?lang=eng'
+    quote: 'because thou believest not my words'
+
+  # ---------- note 15:10 cutting a covenant ----------
+  - where: 'note 15:10 “The covenant between the pieces”'
+    claim: 'The five kinds of animals are all those later acceptable as sacrifices under the law of Moses'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: 'Many have observed that the five different kinds of animals comprise all those that were later acceptable as sacrifices under the law of Moses.'
+  - where: 'note 15:10 “The covenant between the pieces”'
+    claim: 'A letter from Mari describes a covenant made by sacrificing a donkey'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'So, by their donkey-stallion (sacrifice) and their discussion, the king was bound by covenant'
+  - where: 'note 15:10 “The covenant between the pieces”'
+    claim: 'The Mari letter is a contemporary eyewitness account'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'Yasim-El provides a contemporary eyewitness account of one of these ceremonies'
+  - where: 'note 15:10 “The covenant between the pieces”'
+    claim: 'Mari is an ancient city in modern Syria'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: 'In a letter found in the ancient city of Mari in modern Syria'
+  - where: 'note 15:10 “The covenant between the pieces”'
+    claim: 'The Sefire inscription is from the eighth century BC'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: 'From the eighth century BC Sefire inscription, we have a treaty between King Barga’yah and Matti‘el'
+  - where: 'note 15:10 “The covenant between the pieces”'
+    claim: 'Gee: these ceremonies are mentioned in the context of Gen. 15'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'These agreements were accompanied by specific ceremonies or rituals, some of which are mentioned in the context of one of Abraham’s covenants with God (Genesis 15:1–21).'
+  - where: 'note 15:10 “The covenant between the pieces”'
+    claim: 'The eighth-century Sefire treaty: as this calf is cut up, so shall Matti‘el be cut up'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: '“[As] this calf is cut up, thus Matti‘el and his nobles shall be cut up.”'
+  - where: 'note 15:10 “The covenant between the pieces”'
+    claim: 'Passing between the carcasses was likely a symbol of willingness to die if the oath were broken'
+    key: scripture-helps-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/07-genesis-12-17-abraham-1-2?lang=eng'
+    quote: 'The act of passing through the carcasses was likely a symbol that the individual was willing to die if they broke the oath.'
+  - where: 'note 15:10 “The covenant between the pieces”'
+    claim: 'Jeremiah 34:18: they cut the calf in twain and passed between the parts'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/34?lang=eng'
+    quote: 'when they cut the calf in twain, and passed between the parts thereof'
+
+  # ---------- note 15:11 birds ----------
+  - where: 'note 15:11 “Birds of prey”'
+    claim: '“Fowls” is ha‘ayit, “the bird of prey”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/15-11.htm'
+    quote: 'hā·‘a·yiṭ הָעַ֖יִט and the bird of prey'
+  - where: 'note 15:11 “Birds of prey”'
+    claim: '‘Ayit means birds of prey'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5861.htm'
+    quote: 'bird(s) of prey (from scream )'
+  - where: 'note 15:11 “Birds of prey”'
+    claim: 'Abram waited, protecting the carcasses from scavenging birds'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: 'Then Abram waited on the Lord, protecting the two rows of carcasses from scavenging birds of prey'
+  - where: 'note 15:12 “A deep sleep from God”'
+    claim: '“Deep sleep” is tardemah'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/15-12.htm'
+    quote: 'wə·ṯar·dê·māh וְתַרְדֵּמָ֖ה and a deep sleep'
+  - where: 'note 15:12 “A deep sleep from God”'
+    claim: 'Tardemah is usually by supernatural agency; used of Adam (2:21) and in 1 Sam. 26:12'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8639.htm'
+    quote: 'deep sleep , usually with נָפַל + עַל person, and usually by supernatural agency'
+  - where: 'note 15:12 “A deep sleep from God”'
+    claim: 'The sleep was divinely induced to prepare Abram for revelation, the word used for Adam'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: 'It appears this was divinely induced to prepare Abram for revelation, as suggested by the use of the Hebrew word'
+  - where: 'note 15:12 “A deep sleep from God”'
+    claim: '1 Samuel 26:12: a deep sleep from the LORD'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/26?lang=eng'
+    quote: 'because a deep sleep from the Lord was fallen upon them'
+  - where: 'note 15:12 “A deep sleep from God”'
+    claim: 'Stars visible in v. 5 but sunset in v. 12; some scholars see two narratives combined'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/15.htm'
+    quote: 'Thus Genesis 15:1; Genesis 15:5 speak of Abram in sleep, at night time, when the stars are visible: in Genesis 15:12; Genesis 15:17 we read of the sun going down'
+  - where: 'note 15:12 “A deep sleep from God”'
+    claim: 'Two threads of narrative (E and J) are thought to be combined'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/15.htm'
+    quote: 'The probability is that we have here a combination of the two threads of prophetic narrative'
+  - where: 'note 15:12 “A deep sleep from God”'
+    claim: 'The Bible Dictionary: Moses used several documentary sources for Genesis'
+    key: bd-pentateuch
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/pentateuch?lang=eng'
+    quote: 'The Pentateuch was written by Moses, although it is evident that he used several documentary sources from which he compiled the book of Genesis, besides a divine revelation to him.'
+  - where: 'note 15:12 “A deep sleep from God”'
+    claim: 'Another reading takes the whole chapter as one vision ending in prophetic sleep'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/15.htm'
+    quote: 'the entire revelation culminates in a prophetic sleep, which also bears the character of a vision'
+  - where: 'note 15:12 “A deep sleep from God”'
+    claim: 'One reading: the setting sun prefigures a dark period of suffering for Abram’s posterity'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/15.htm'
+    quote: 'The setting of the sun prefigured to Abram the departure of the sun of grace, which shone upon Israel, and the commencement of a dark and dreadful period of suffering for his posterity'
+
+  # ---------- note 15:13 four hundred years ----------
+  - where: 'note 15:13 “Four hundred years, four generations”'
+    claim: 'Exodus 12:40–41: 430 years'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/12?lang=eng'
+    quote: 'Now the sojourning of the children of Israel, who dwelt in Egypt, was four hundred and thirty years.'
+  - where: 'note 15:13 “Four hundred years, four generations”'
+    claim: 'The Greek of Ex. 12:40 counts the 430 years in Egypt and Canaan'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/exodus/12.htm'
+    quote: 'And the sojourning of the children of Israel, while they sojourned in the land of Egypt and the land of Chanaan, was four hundred and thirty years.'
+  - where: 'note 15:13 “Four hundred years, four generations”'
+    claim: 'Paul counts 430 years from the covenant to the law'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/gal/3?lang=eng'
+    quote: 'the law, which was four hundred and thirty years after, cannot disannul'
+  - where: 'note 15:13 “Four hundred years, four generations”'
+    claim: 'To harmonize with 400 years, a generation must be 100 years; Ex. 6:16–20 gives Levi to Moses'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/15.htm'
+    quote: 'If the fourth generation is to be harmonized with the 400 years in Genesis 15:13, a generation must have been computed as 100 years. Isaac was born in Abram’s 100th year.'
+  - where: 'note 15:13 “Four hundred years, four generations”'
+    claim: 'Israel asked the Egyptians for silver, gold, and raiment'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/12?lang=eng'
+    quote: 'they borrowed of the Egyptians jewels of silver, and jewels of gold, and raiment'
+  - where: 'note 15:13 “Four hundred years, four generations”'
+    claim: 'Stephen quotes the prophecy and adds “serve me in this place”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/7?lang=eng'
+    quote: 'and after that shall they come forth, and serve me in this place'
+
+  # ---------- note 15:15 fathers ----------
+  - where: 'note 15:15 “Going to his fathers”'
+    claim: 'Abram’s ancestors died in Babylonia; the phrase, first used here, implies the soul lives on'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/15.htm'
+    quote: 'Abram’s ancestors had died in Babylonia, but the phrase, used here for the first time, evidently involves the thought of the immortality of the soul.'
+  - where: 'note 15:15 “Going to his fathers”'
+    claim: 'Fulfilled: Abraham died in a good old age and was gathered to his people'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/25?lang=eng'
+    quote: 'Then Abraham gave up the ghost, and died in a good old age, an old man, and full of years; and was gathered to his people.'
+  - where: 'note 15:15 “Going to his fathers”'
+    claim: 'D&C 132:29: Abraham has entered into his exaltation'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/132?lang=eng'
+    quote: 'hath entered into his exaltation and sitteth upon his throne'
+
+  # ---------- note 15:16 Amorites ----------
+  - where: 'note 15:16 “Not yet full”'
+    claim: 'Amorite is used as the common name of all the inhabitants of Canaan'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/15.htm'
+    quote: 'Amorite, the name of the most powerful tribe of the Canaanites, is used here as the common name of all the inhabitants of Canaan'
+  - where: 'note 15:16 “Not yet full”'
+    claim: 'The Amorites were northwest Semitic-speaking peoples of Abraham’s time in Palestine and Syria'
+    key: bd-amorites
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/amorites?lang=eng'
+    quote: 'The Amorites were northwest Semitic-speaking peoples who lived about the time of Abraham in the areas that encompass Palestine and Syria.'
+  - where: 'note 15:16 “Not yet full”'
+    claim: 'Nephi: the Lord esteems all flesh in one; the people of Canaan were ripe in iniquity'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/17?lang=eng'
+    quote: 'Behold, the Lord esteemeth all flesh in one; he that is righteous is favored of God. But behold, this people had rejected every word of God, and they were ripe in iniquity'
+  - where: 'note 15:16 “Not yet full”'
+    claim: 'The Canaanites were removed as an act of justice, and Israel and Judah were later punished by the same measure'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/15.htm'
+    quote: 'So, subsequently, Israel and Judah had each to bear a punishment in accordance with their sinfulness'
+  - where: 'note 15:16 “Not yet full”'
+    claim: 'Leviticus 18:28: the land will spue out Israel too'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/18?lang=eng'
+    quote: 'That the land spue not you out also, when ye defile it, as it spued out the nations that were before you.'
+
+  # ---------- note 15:17 furnace and lamp ----------
+  - where: 'note 15:17 “Fire between the pieces”'
+    claim: 'Tannur is a portable stove or fire-pot'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8574.htm'
+    quote: 'portable stove or fire-pot'
+  - where: 'note 15:17 “Fire between the pieces”'
+    claim: 'Lappid is a torch; the plural is used of the lightnings at Sinai (Ex. 20:18)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3940.htm'
+    quote: 'of lightning-flashes Exodus 20:18'
+  - where: 'note 15:17 “Fire between the pieces”'
+    claim: 'Firepot and torch in the Hebrew'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/15-17.htm'
+    quote: 'תַנּ֤וּר a firepot'
+  - where: 'note 15:17 “Fire between the pieces”'
+    claim: 'Torch in the Hebrew'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/15-17.htm'
+    quote: 'וְלַפִּ֣יד and a torch'
+  - where: 'note 15:17 “Fire between the pieces”'
+    claim: 'God’s presence passing through likely assured Abraham the Lord would fulfill His promises'
+    key: scripture-helps-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/07-genesis-12-17-abraham-1-2?lang=eng'
+    quote: 'Similarly, God’s presence passing through the animals likely assured Abraham that the Lord would fulfill His promises.'
+  - where: 'note 15:17 “Fire between the pieces”'
+    claim: 'Like the pillar of cloud and fire; the Lord in effect swore an oath on His own life'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: 'Thus the implication is that the Lord passed between the divided animals and, in effect, swore an oath that he would lose his own life if he did not give Abram and his seed the land for an inheritance.'
+  - where: 'note 15:17 “Fire between the pieces”'
+    claim: 'The furnace and lamp are analogous to the cloud and pillar of fire'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: 'Evidently, the smoking furnace and burning lamp represented God’s presence, analogous to the cloud and pillar of fire that accompanied Israel later (see Exodus 13:21–22).'
+  - where: 'note 15:17 “Fire between the pieces”'
+    claim: 'Nothing suggests Abram passed between the pieces; a gracious act by God prompted by faith'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: 'Rather, it is probably best to think of the account as a gracious act by God to confirm his promises, prompted by Abram’s great faith.'
+  - where: 'note 15:17 “Fire between the pieces”'
+    claim: 'The stronger party, God, performs the role often required of the weaker party'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'in which the stronger party, God, performs the role often required of the weaker party'
+
+  # ---------- note 15:18 cut a covenant ----------
+  - where: 'note 15:18 “The first covenant cut”'
+    claim: 'Hebrew: karat YHWH ... berit, “cut ... a covenant”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/15-18.htm'
+    quote: 'כָּרַ֧ת cut V‑Qal‑Perf‑3ms'
+  - where: 'note 15:18 “The first covenant cut”'
+    claim: 'Karat berit can be translated “to cut a covenant”'
+    key: scripture-helps-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/07-genesis-12-17-abraham-1-2?lang=eng'
+    quote: 'which can also be translated as “to cut a covenant.”'
+  - where: 'note 15:18 “The first covenant cut”'
+    claim: 'This is the first occurrence of karat berit in the Hebrew Bible'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: 'this is the first time the King James Version says Jehovah “made a covenant” with Abram, and corresponds to the first occurrence of'
+  - where: 'note 15:18 “The first covenant cut”'
+    claim: 'Noah’s covenant is “established” (heqim)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/9-9.htm'
+    quote: '6965 [e] mê·qîm מֵקִ֛ים am establishing'
+  - where: 'note 15:18 “Given already, from Egypt to the Euphrates”'
+    claim: '“I have given” is perfect (natatti)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/15-18.htm'
+    quote: '5414 [e] nā·ṯat·tî נָתַ֙תִּי֙ I have given V‑Qal‑Perf‑1cs'
+  - where: 'note 15:18 “The first covenant cut”'
+    claim: 'Karat is used ninety times for making covenants'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: 'occurs ninety times in the Hebrew Bible in reference to making covenants'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ'
+  - where: 'christ'
+    claim: 'From a Christian viewpoint God possibly implies He would be willing to be torn asunder'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'Interestingly, God himself participated in the ceremony by passing between the pieces of the sacrifice, indicating his own commitment to the covenant (from a Christian viewpoint, God is possibly implying that he himself would be willing to be “torn asunder,” suffering the effects of the broken covenant).'
+  - where: 'christ'
+    claim: 'In the JST, the Lord would give Abram the land as an everlasting inheritance after his death by virtue of Christ’s Resurrection'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: 'he would give Abram the land for an everlasting inheritance after his death by virtue of Christ’s Resurrection'
+  - where: 'christ'
+    claim: 'Gal. 3:8: the gospel preached before unto Abraham'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/gal/3?lang=eng'
+    quote: 'preached before the gospel unto Abraham'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: 'Parker’s article traces covenant cutting from Genesis 15 through Jeremiah 34 and Sinai'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: 'Two Old Testament examples give some detail about how a covenant was literally “cut.”'
+
+  # ---------- added in revision ----------
+  - where: 'note 15:5 “Counting the stars”'
+    claim: 'The stars are a visual sign of the promise of posterity'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'offering the stars in the heavens as a visual demonstration or sign of the promise of progeny (Genesis 15:5; Abraham 2:8)'
+  - where: 'note 15:6 “What Abram saw”'
+    claim: 'JST Gen. 15:9–12 is compared with Genesis 15:1–6; the added verses come before the line about belief'
+    key: jst-gen-15
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/15?lang=eng'
+    quote: 'JST, Genesis 15:9–12. Compare Genesis 15:1–6'
+  - where: 'note 15:6 “Faith counted as righteousness”'
+    claim: 'The noun tsedaqah (Strong’s 6666) first occurs at Gen. 15:6 (checked against every verse of the WLC Genesis)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'צְדָקָֽה'
+  - where: 'note 15:6 “Faith counted as righteousness”'
+    claim: 'Noah is called tsaddiq, “righteous” (KJV “just”), in Gen. 6:9'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/6-9.htm'
+    quote: 'ṣad·dîq צַדִּ֛יק righteous Adj‑ms'
+  - where: 'note 15:6 “Faith counted as righteousness”'
+    claim: '“Righteousness” in Gen. 15:6 is tsedaqah'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/15-6.htm'
+    quote: 'צְדָקָֽה'
+  - where: 'note 15:6 “Faith counted as righteousness”'
+    claim: 'Aman: confirm, support; in the Hiphil with be-, trust in, believe in, the usual construction with God, Gen. 15:6'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/539.htm'
+    quote: 'with ב of person, trust in, believe in Exodus 19:9 (J) 1 Samuel 27:12; 2Chronicles 20:20; Job 4:18; Job 15:15; Proverbs 26:25; Jeremiah 12:6; Micah 7:5; the usual construction with God Genesis 15:6'
+  - where: 'note 15:6 “Faith counted as righteousness”'
+    claim: 'The root aman means confirm, support'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/539.htm'
+    quote: 'confirm, support, believe, trust, be faithful'
+  - where: 'note 15:8 “Asking how, after believing”'
+    claim: 'Though Abram trusted the Lord completely, he wanted confirmation of the promise of land'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: 'Even though Abram trusted the Lord completely, he wanted some sort of confirmation of Jehovah’s promise to him about the land.'
+  - where: 'note 15:8 “Asking how, after believing”'
+    claim: 'Zacharias asks “Whereby shall I know this?”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/1?lang=eng'
+    quote: 'Whereby shall I know this?'
+  - where: 'note 15:10 “The covenant between the pieces”'
+    claim: 'The law directs that a bird burnt offering not be divided asunder'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/1?lang=eng'
+    quote: 'And he shall cleave it with the wings thereof, but shall not divide it asunder'
+  - where: 'note 15:10 “The covenant between the pieces”'
+    claim: 'Moroni’s people rent their garments as a covenant that the Lord should rend them if they transgressed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/46?lang=eng'
+    quote: 'the Lord should rend them even as they had rent their garments'
+  - where: 'note 15:10 “The covenant between the pieces”'
+    claim: 'Valletta reads the rent-garment covenant of Alma 46:21–22 as an ancient oath of the same kind as the cut-animal rite of Gen. 15:10, 17 and Jer. 34:18, which he discusses in the same chapter'
+    key: valletta-captain
+    url: 'https://rsc.byu.edu/book-mormon-alma-testimony-word/captain-covenant'
+    quote: 'Captain Moroni followed ancient ritual and “rent his coat'
+  - where: 'note 15:10 “The covenant between the pieces”'
+    claim: 'Valletta discusses the cut-animal rite of Gen. 15:10, 17 and Jer. 34:18 as a conditional self-curse'
+    key: valletta-captain
+    url: 'https://rsc.byu.edu/book-mormon-alma-testimony-word/captain-covenant'
+    quote: 'In the sacrifices of the covenant the animals were cut in two, and one or both parties passed between the pieces (Gen 15:10, 17).'
+  - where: 'note 15:10 “The covenant between the pieces”'
+    claim: 'The birds were not divided, as in the later sacrifices doves were offered whole (Lev. 1:17)'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/15.htm'
+    quote: 'just as in sacrifice the doves were not divided into pieces, but placed upon the fire whole (Leviticus 1:17)'
+  - where: 'note 15:10 “The covenant between the pieces”'
+    claim: 'The Yasim-El account is a letter from the Mari archives'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'Sasson, From the Mari Archives, 93–95; Heimpel, Letters to the King of Mari, 343'
+  - where: 'note 15:11 “Birds of prey”'
+    claim: 'The typological reading is built on the prophecy of vv. 13–16 and is offered as an approach, not as what the text says'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: 'This seems to be a useful approach based on the existing biblical text.'
+  - where: 'note 15:11 “Birds of prey”'
+    claim: 'One reading takes Abram’s experience as a type of his posterity’s future, based on the prophecy of vv. 13–16'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: 'In other words, Abram’s experience can be seen as a type of his posterity’s future.'
+  - where: 'note 15:11 “Birds of prey”'
+    claim: 'In this approach the animals are the house of Israel and the unclean birds of prey are oppressive foreign nations'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: 'The five different animals, comprising all the clean animals for sacrifice under the law of Moses, are seen as the whole house of Israel. Since birds of prey are seen as unclean in the law of Moses (see Leviticus 11:13–19), they represent oppressive foreign nations.'
+  - where: 'note 15:11 “Birds of prey”'
+    claim: 'In this approach the furnace and lamp are God’s presence, foreshadowing the pillar of cloud and fire'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: 'In this approach, the smoking furnace and burning lamp represent God’s presence, foreshadowing the cloud and pillar of fire during the Exodus'
+  - where: 'note 15:13 “Four hundred years, four generations”'
+    claim: 'The 400 years agree in round numbers with the 430 of Ex. 12:40'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/15.htm'
+    quote: 'The figure agrees in round numbers with the number of 430 years assigned, in Exodus 12:40, to the sojourning of Israel in Egypt.'
+  - where: 'note 15:13 “Four hundred years, four generations”'
+    claim: 'The fourth generation agrees with Ex. 6:16–20: Levi, Kohath, Amram, Moses'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/15.htm'
+    quote: 'This agrees with the genealogy in Exodus 6:16-20, where the generations are: (1) Levi, (2) Kohath, (3) Amram, (4) Moses.'
+  - where: 'note 15:17 “Fire between the pieces”'
+    claim: 'Nothing in the text suggests Abram passed between the pieces and swore an oath'
+    key: parker-cutting
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/cutting-covenants'
+    quote: 'However, there is nothing to suggest this in the text.'
+  - where: 'note 15:18 “The first covenant cut”'
+    claim: 'The ceremony introduces the phrase “to cut a covenant,” later common'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'This process introduces the phrase “to cut a covenant” that elsewhere became common in the biblical texts.'
+  - where: 'note 15:18 “The first covenant cut”'
+    claim: '“Cut off” in Gen. 17:14 is the same verb karat'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/17-14.htm'
+    quote: 'וְנִכְרְתָ֛ה and shall be cut off'
+  - where: 'note 15:18 “Given already, from Egypt to the Euphrates”'
+    claim: 'A grant of land to the inferior party is part of the covenant in Abraham’s world (15:18–21)'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: '(5) A grant of land to the inferior party is part of the covenant (15:18–21; 17:8).'
+  - where: 'note 15:18 “Given already, from Egypt to the Euphrates”'
+    claim: 'The boundaries are the ideal boundaries of Israel’s future territory'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/15.htm'
+    quote: 'The ideal boundaries of the future territory of Israel are here stated'
+  - where: 'note 15:18 “Given already, from Egypt to the Euphrates”'
+    claim: 'The Church’s edition identifies “the river of Egypt” in Gen. 15:18 as the Wadi El Arish in northern Sinai'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/15?lang=eng'
+    quote: 'the Wadi El Arish in northern Sinai'
+  - where: 'note 15:18 “Given already, from Egypt to the Euphrates”'
+    claim: 'The picture was approximately realized probably only under Solomon (1 Kgs. 4:21)'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/15.htm'
+    quote: 'It was probably only in the days of Solomon that this picture of Israelite greatness was ever approximately realized; see 1 Kings 4:21'
+  - where: 'note 15:18 “Given already, from Egypt to the Euphrates”'
+    claim: 'The Euphrates boundary was reached in the time of David'
+    key: bd-euphrates
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/euphrates?lang=eng'
+    quote: 'It was the boundary of the land promised to the seed of Abraham ( Gen. 15:18 ; Deut. 1:7 ; Josh. 1:4 ; 1 Chr. 5:9 ); this boundary was reached in the time of David'
+  - where: 'note 15:19 “Ten peoples in the land”'
+    claim: 'Only here are ten peoples listed; other lists are shorter'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/15.htm'
+    quote: 'Here only, are ten names given; usually only five or six are mentioned.'
+  - where: 'note 15:19 “Ten peoples in the land”'
+    claim: 'The Rephaim were a pre-Israelite people noted for great stature (Gen. 14:5; 15:20)'
+    key: bd-rephaim
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/rephaim?lang=eng'
+    quote: 'A pre-Israelite people in Palestine, noted for their great stature'
+  - where: 'note 15:19 “Ten peoples in the land”'
+    claim: 'The Hittites were a branch of the Canaanites'
+    key: bd-hittites
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hittites?lang=eng'
+    quote: 'They were a branch of the Canaanites'
+  - where: 'note 15:19 “Ten peoples in the land”'
+    claim: 'The Kenites were probably a Midianite tribe; Moses’ marriage into Jethro’s family helped the long friendship with Israel'
+    key: bd-kenites
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/kenites?lang=eng'
+    quote: 'Probably a Midianite tribe, descended from Abraham by his wife Keturah. Moses’ marriage with the daughter of Jethro, a prince and priest of Midian, was also a cause of the long-standing friendship between the Kenites and Israelites'
+  - where: 'note 15:19 “Ten peoples in the land”'
+    claim: 'Gen. 14:5: Chedorlaomer and the kings smote the Rephaims'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/14?lang=eng'
+    quote: 'smote the Rephaims in Ashteroth Karnaim'
