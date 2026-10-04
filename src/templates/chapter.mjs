@@ -60,10 +60,11 @@ function teaser(md) {
 
 /** A collapsible introductory section. Open by default; collapsed, it shows its heading and first sentence.
  *  site.js remembers which sections a reader has collapsed. */
-function introSection({ key, cls, body, prose }) {
-  return `<details class="${cls} intro" data-intro="${key}" open>
+function introSection({ key, cls, body, prose, preview = false }) {
+  return `<details class="${cls} intro" data-intro="${key}"${preview ? ' data-preview="true"' : ''} open>
   <summary><h2 class="card-title" id="${key}-h">${icon(SECTIONS[key].icon)} ${esc(sectionTitle(key))}${icon('chevron', 'intro-chevron')}</h2><span class="intro-teaser">${esc(teaser(body))}</span></summary>
   <div class="${prose}">${md(body)}</div>
+  ${preview ? '<button type="button" class="intro-more" data-expand-intro="setting">Continue reading background</button>' : ''}
 </details>`;
 }
 
@@ -219,26 +220,28 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
       <p class="eyebrow">${esc(book.name)} <span class="ch-num">${n}</span></p>
       <h1>${mdInline(ch.title)}</h1>
       ${ch.tagline ? `<p class="tagline">${mdInline(ch.tagline)}</p>` : ''}
-      <div class="dial-wrap"><div class="dial-label" aria-hidden="true" hidden></div><div class="dial" style="--n:${book.chapters.length}" aria-label="Chapters of ${esc(book.name)}">${dial}</div></div>
+      <div class="dial-wrap"><div class="dial-context"><span>${esc(book.name)} chapters</span><strong>Chapter ${n} of ${book.chapters.length}</strong></div><div class="dial-label" aria-hidden="true" hidden></div><div class="dial" style="--n:${book.chapters.length}" aria-label="Chapters of ${esc(book.name)}">${dial}</div></div>
       <div class="hero-meta">
         ${ch.when ? `<span>${icon('history')} ${mdInline(ch.when)}</span>` : ''}
         ${ch.parallels?.some((p) => p.primary) ? `<span>${icon('restoration')} Also in ${mdInline(ch.parallels.filter((p) => p.primary).map((p) => `[[${p.ref}]]`).join(', '))}</span>` : ''}
         <span>${icon('book')} <a href="${churchUrl}" target="_blank" rel="noopener">Read with footnotes in Gospel Library</a></span>
       </div>
+      <a class="chapter-start" href="#reading">Start reading ${icon('arrowR')}</a>
     </div>
   </header>
 
   <div class="wrap chapter-grid">
     <div class="chapter-main">
-      ${ch.setting ? introSection({ key: 'setting', cls: 'setting card', body: ch.setting, prose: 'prose' }) : ''}
+      ${ch.setting ? introSection({ key: 'setting', cls: 'setting card', body: ch.setting, prose: 'prose', preview: true }) : ''}
 
       ${ch.thread ? introSection({ key: 'thread', cls: 'thread', body: ch.thread, prose: 'prose prose-lg' }) : ''}
 
-      <div class="reader-bar" role="toolbar" aria-label="Reading tools">
+      <div class="reader-bar" id="reading" role="toolbar" aria-label="Reading tools">
         <div class="legend">
           ${kindsUsed.map((k) => `<button type="button" class="kind-chip k-${k} filter" aria-pressed="true" data-kind="${k}" title="${esc(KINDS[k].blurb)}">${icon(k)}${esc(KINDS[k].short)} <span class="count">${counts[k]}</span></button>`).join('')}
         </div>
         <div class="reader-actions">
+          <button type="button" class="tool tool-notes" data-action="notes-reset" aria-label="Hide all note kinds" title="Hide all note kinds">${icon('symbol')}</button>
           <button type="button" class="tool" data-action="toggle-plain" aria-pressed="true" title="Show or hide the ${esc(sectionTitle('plain'))} summaries" aria-label="Show or hide the ${esc(sectionTitle('plain'))} summaries">${icon('text')}</button>
           <button type="button" class="tool" data-action="related" aria-pressed="false" title="Show every note as a card beside the text">${icon('panel')}<span>Related</span></button>
           <button type="button" class="tool" data-action="font" title="Text size" aria-label="Change text size"><span class="aa">Aa</span></button>
