@@ -159,3 +159,75 @@ Topics that run across chapters, reported as chapters are written. Most will nev
 - (38) Judah's arc from seller to surety: Gen. 37:26–27; 38:17–26; 43:9; 44:32–33; and the line of Judah to Christ (Ruth 4:18–22; Matt. 1:3; Heb. 7:14; Rev. 5:5).
 - (38) Deception and recognition through garments and tokens: the coat (37:31–33), the veil and Judah's tokens (38:14–26), Joseph's garment (39:12–18).
 - (38) The younger or unexpected child coming first at a birth: Perez and Zerah (38:27–30), Jacob and Esau (25:24–26), Ephraim and Manasseh (48).
+
+## Reported by chapters 39–50 (not yet sorted)
+
+- (39) "The LORD was with…": God's presence with the patriarchs, from Abraham (21:22) through Isaac (26:3, 24, 28) and Jacob (28:15) to Joseph (39:2, 3, 21, 23) and on to 46:4.
+- (39) Blessing on outsiders through the covenant family: Laban (30:27), Potiphar's house (39:5), Pharaoh (47:7–10), set beside the promise of 12:2–3. The link to 12:2–3 was cut from this chapter for lack of a source; a theme page may make it.
+- (39) Garments in the Joseph story: the coat (37:3, 23, 31–33), Judah's pledge (38:18, 25), the garment left behind (39:12–18), Pharaoh's linen (41:42).
+- (39) Joseph as a type of Christ: temptation and false accusation (39:10, 12–18), the prison (39:20), with the Scripture Helps table for chapters 37–45.
+- (39) Judah and Joseph as two answers to the same test (38; 39:7–12; 44:18–34).
+- (40) Joseph's pits: bor at Gen. 37:20-29; 40:15; 41:14, the only uses of the word in Genesis.
+- (40) Remember and forget: Gen. 40:14, 23; 41:9 (and 41:51, Manasseh).
+- (40) Interpretations belong to God: Gen. 40:8; 41:16, 25, 38; Dan. 2:27-28.
+- (40) Dreams in the Joseph story: Gen. 37:5-11; 40:5-19; 41:1-32; 42:9.
+- (40) Joseph as a likeness of Christ (the Scripture Helps table): Gen. 40:8; 41:16 with John 8:28-29.
+- (41) Joseph as preserver and deliverer, from pit to throne (37:24; 40:15; 41:14, 41–43, 54–57; 45:5–8; 50:20).
+- (41) Credit given to God (40:8; 41:16, 25, 32, 38–39; 45:5–8; 50:20; compare Dan. 2:30).
+- (41) Forgotten and remembered (40:23; 41:9, 30, 51; 42:9).
+- (41) The Abrahamic covenant's words in Joseph's story: "as the sand of the sea" (41:49; 22:17; 32:12) and "make fruitful" (41:52; 17:6; 28:3). The grain-and-seed connection cut from the 41:49 note is the kind a theme page may make.
+- (41) The younger over the elder: Ephraim before Manasseh (41:51–52; 48:13–20).
+- (41) Bread and famine, Joseph and the Bread of Life (41:54–57; 47:13–26; John 6:35).
+- (41) Joseph of Egypt and Joseph Smith (41:55; 2 Ne. 3; JST Gen. 50).
+- (42) Recognition and non-recognition, the Hebrew root nakar: Gen. 27:23; 37:32-33; 38:25-26; 42:7-8 (the lexicon lists them together).
+- (42) Joseph as a likeness of Christ, from the Scripture Helps list: not recognized (42:8), lifesaving bread (42:35; 45:7), revealed 'the second time' (45:1-5; Acts 7:13). This fits the brief's 'Joseph as a deliverer' candidate.
+- (42) Judah's change: 37:26-27; 38:26; 43:8-9; 44:18-34, set against Reuben's offer in 42:37.
+- (42) Joseph's dreams and their fulfilment: 37:5-11; 42:6, 9; 43:26-28.
+- (42) The brothers' guilt and its reckoning: 37:23-25; 42:21-22, 28; 44:16; 50:15-17.
+- (42) Down to Egypt in famine: 12:10; 26:1-2; 42:1-5; 46:3-4.
+- (42) Rachel's sons and Jacob's fear for them: 35:16-18; 37:3; 42:4, 36-38; 44:27-31.
+- (43) Judah from selling a brother to standing surety for one: Gen. 37:26-27; 38:17-26; 43:8-9; 44:18-34; 49:8-12 (with Mosiah 15:9).
+- (43) Joseph's tests of his brothers: Gen. 42:15-25; 43:16, 33-34; 44:1-17; 45:1-3.
+- (43) The dreams fulfilled in stages: Gen. 37:5-11; 42:6, 9; 43:26-28; 44:14; 50:18.
+- (43) God named by the characters and not the narrator in Genesis 40-50: Gen. 43:14, 23, 29; 45:5-8; 46:1-2; 49:18; 50:20.
+- (43) Chapter 37 echoed in chapter 43 (peace, 37:4 and 43:23, 27; the caravan's goods, 37:25 and 43:11; eating bread, 37:25 and 43:25, 32; slavery, 37:28 and 43:18): no source draws these together, so only as a theme page's own connection.
+- (43) Mercy (rachamim) asked and shown: Gen. 43:14, 30; 1 Kgs. 3:26; Neh. 1:11; Dan. 1:9.
+- (43) Joseph's weeping: Gen. 42:24; 43:30; 45:1-2, 14-15; 46:29; 50:1, 17.
+- (44) Judah's arc: proposes the sale (37:26–27); the pledge left with Tamar and "more righteous than I" (38:17–26); surety for Benjamin (43:8–9; 44:32); substitute (44:33); blessed (49:8–12).
+- (44) Substitution, "instead of" (tachat): the ram for Isaac (22:13); Judah for Benjamin (44:33).
+- (44) The favored son and the brothers' envy: 37:3–4; 43:34; 44:20, 27.
+- (44) Joseph's tests and the brothers' repentance: 42:15–24; 43:34; 44:1–17; 45:1–15; 50:15–21.
+- (44) God finds out the guilt: 42:21, 28; 44:16; 50:15.
+- (45) Sold and sent: God's providence without making Him the author of the sin (45:4–8; 50:20; Ps. 105:16–17).
+- (45) The preserved remnant (45:7, she'erit and peletah; 1 Ne. 5:14–15; 2 Ne. 3:16; Isa. 10:20–22; Isa. 37:31–32).
+- (45) Joseph as a type of Christ and a deliverer (45:1–8; 37; 41:46; 47; Acts 7:13).
+- (45) The brothers' change and reconciliation, from 'could not speak peaceably' to 'talked with him' (37:4; 42:21–22; 44:18–34; 45:3, 15; 50:15–21).
+- (45) 'Alive': the root chayah through the Joseph story (37:35; 45:3–28; 50:20).
+- (46) Going down and bringing up: Egypt as descent and deliverance (Gen. 46:3-4; 48:21; 50:24-25; Ex. 3:8; Deut. 26:5).
+- (46) The Abrahamic promise of a great nation (Gen. 12:2; 46:3; Deut. 26:5; Ex. 1:7).
+- (46) The line of Judah to Christ (Gen. 38:29; 43:9; 44:33; 46:12; 49:8-10; Ruth 4:18-22; Matt. 1:3).
+- (46) Joseph as preserver of his father's house (Gen. 45:7; 46:1-7; 1 Ne. 5:14; Ether 13:6-7).
+- (46) The covenant family kept distinct in Egypt (Gen. 43:32; 46:31-34; 47:1-6).
+- (47) Sojourning and possession: the land promise deferred while the family holds property in Egypt (47:4, 9, 11, 27, 29–31; Gen. 17:8; 48:4; 49:30; Heb. 11:13–16).
+- (47) Joseph as one who preserves life with bread (47:12, 25; Gen. 45:7; 50:20), a candidate for the “Joseph as a deliverer” theme.
+- (47) “Be fruitful, and multiply” from Gen. 1:28 through the patriarchal promises to Ex. 1:7 (47:27; Gen. 9:1; 17:6; 28:3; 46:3; 48:4).
+- (47) The patriarchs' burial in the promised land (47:29–31; Gen. 23; 49:29–33; 50:5–13, 24–25).
+- (48) The younger chosen over the elder (25:23; 27:1–40; 48:13–20). Isaac "discerned him not" (27:23) while Jacob says "I know it" (48:19): cut from the chapter as the writer's own connection, but usable on a theme page.
+- (48) The birthright from Reuben to Joseph to Ephraim (35:22; 48:5, 20, 22; 49:3–4; 1 Chr. 5:1–2; Jer. 31:9; D&C 133:30–34).
+- (48) "Fruitful" (*parah*): the promise at Beth-el (35:11), Ephraim's name (41:52), Jacob's report of the promise (48:4), and "Joseph is a fruitful bough" (49:22). The last was not checked in the Hebrew.
+- (48) The Angel and God who appear to Jacob (28:12–19; 31:11–13; 32:24–30; 35:9–15; 48:15–16; Hosea 12:4–5).
+- (48) Joseph as deliverer (45:7; 50:20; JST Gen. 48:8–11; JST Gen. 50).
+- (48) Rachel, Ephrath and Bethlehem (35:16–20; 48:7; Micah 5:2; Matt. 2), cut from this chapter's `christ` because no source applies it to 48:7.
+- (49) The birthright divided among younger sons: Reuben's portions go to Joseph, Judah and Levi (49:3–10, 22–26; 1 Chr. 5:1–2; Gen. 48:5, 19; Num. 3:12). Fits the “younger son chosen” candidate.
+- (49) Judah and Joseph as the two leading lines, and their two records (49:8–12, 22–26; Ezek. 37:15–20; JST Gen. 50:24–31).
+- (49) “Bow down”: Isaac's blessing (27:29), Joseph's dreams (37:9–10), the brothers before Joseph (42:6), the promise to Judah (49:8).
+- (49) God as Shepherd and Stone of Israel (48:15; 49:24; D&C 50:44).
+- (49) The family grave at Machpelah as the claim on the covenant land (Gen. 23; 25:9; 35:29; 47:29–31; 49:29–32; 50:13).
+- (49) A father's last words as blessing and prophecy: Isaac (27), Jacob (48–49), Joseph (50:24–26 with the JST), Moses (Deut. 33).
+- (49) Levi's scattering turned into a calling (34:25–31; 49:5–7; Ex. 32:26–29; Num. 3:12; Deut. 33:8–10).
+- (50) God's purpose working through human wrong: Gen. 45:5–8; 50:19–20.
+- (50) Joseph as a deliverer and type of Christ: Gen. 37; 45:5–8; 50:18–21. The same Student Manual passage (8-19) is now quoted in chapters 37, 45 and 50; a theme page could carry it once.
+- (50) The oath and the promised land, from the Abrahamic covenant to Joseph's bones: Gen. 22:16–18; 26:3; 47:29–31; 50:5–6, 24–25; Ex. 13:19; Josh. 24:32; Heb. 11:22.
+- (50) 'Go down' to Egypt and 'go up' to Canaan: Gen. 46:4; 50:5–14, 24–25.
+- (50) The brothers bowing and Joseph's dreams: Gen. 37:7–10; 42:6; 43:26; 44:14; 50:18.
+- (50) Joseph's prophecy of Moses and a latter-day seer: JST Gen. 50:24–38; 2 Ne. 3:4–22; 4:2.
