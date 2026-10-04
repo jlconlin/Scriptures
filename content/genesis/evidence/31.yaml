@@ -1,0 +1,637 @@
+chapter: 31
+claims:
+  # ---------- setting / when ----------
+  - where: 'setting'
+    claim: 'Jacob came to Paddan-aram fleeing Esau, with the Lord’s promise at Beth-el to bring him again into the land'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng'
+    quote: 'and will bring thee again into this land; for I will not leave thee, until I have done that which I have spoken to thee of.'
+  - where: 'setting'
+    claim: 'Twenty years in Laban’s house: fourteen for the daughters, six for the cattle'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'Thus have I been twenty years in thy house; I served thee fourteen years for thy two daughters, and six years for thy cattle'
+  - where: 'setting'
+    claim: 'Laban’s sons resent Jacob’s wealth and Laban’s attitude has changed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'And Jacob beheld the countenance of Laban, and, behold, it was not toward him as before.'
+  - where: 'setting'
+    claim: 'Hosea’s one-verse summary of Jacob’s years in Aram'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/12?lang=eng'
+    quote: 'And Jacob fled into the country of Syria, and Israel served for a wife, and for a wife he kept sheep.'
+  - where: 'setting'
+    claim: 'Jacob later has the household put away the strange gods and hides them near Shechem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'and Jacob hid them under the oak which was by Shechem.'
+  - where: 'setting'
+    claim: 'Rachel’s theft of the teraphim is settled when Jacob has the strange gods buried near Shechem'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Rachel did not keep them but instead buried them in the ground along with other “strange gods”'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'Laban’s sons say Jacob “hath taken” (laqach) all that was their father’s'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'לָקַ֣ח יַעֲקֹ֔ב אֵ֖ת כָּל אֲשֶׁ֣ר לְאָבִ֑ינוּ'
+  - where: 'thread'
+    claim: 'The verb ganav, “steal,” occurs eight times in the chapter (19, 20, 26, 27, 30, 32, 39 twice); verse 19, Rachel steals the teraphim'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/תִּגְנֹ֣ב רָחֵ֔ל אֶת הַ/תְּרָפִ֖ים'
+  - where: 'thread'
+    claim: 'Verse 20: Jacob stole the heart of Laban'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/יִּגְנֹ֣ב יַעֲקֹ֔ב אֶת לֵ֥ב לָבָ֖ן'
+  - where: 'thread'
+    claim: 'Verses 26 and 27: Laban uses the same verb of Jacob'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/תִּגְנֹ֖ב אֶת לְבָבִ֑/י'
+  - where: 'thread'
+    claim: 'Verse 30: Laban charges Jacob with stealing his gods'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'לָ֥/מָּה גָנַ֖בְתָּ אֶת אֱלֹהָֽ/י'
+  - where: 'thread'
+    claim: 'Verse 39: stolen by day, stolen by night (two forms of the verb)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'גְּנֻֽבְתִ֣/י י֔וֹם וּ/גְנֻֽבְתִ֖/י לָֽיְלָה'
+  - where: 'thread'
+    claim: 'Jacob’s own wage terms in chapter 30 say any animal not speckled “shall be counted stolen with me”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/30?lang=eng'
+    quote: 'that shall be counted stolen with me.'
+  - where: 'thread'
+    claim: 'The participle of ganav (“stolen”) is used at Genesis 30:33'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1589.htm'
+    quote: 'גָּנוּב Genesis 30:33'
+  - where: 'thread'
+    claim: 'The lexicon lists ganav at Genesis 31:19, 30, 32 (steal with accusative of thing), the passive at 31:39, and “steal the heart” = deceive at 31:20, 26'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1589.htm'
+    quote: 'steal with accusative of thing Genesis 31:19 ,30,32'
+  - where: 'thread'
+    claim: 'God repeats the Beth-el promise “I am with thee”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng'
+    quote: 'And, behold, I am with thee, and will keep thee in all places whither thou goest'
+
+  # ---------- note 3 ----------
+  - where: 'note 31:3 “The promise of Beth-el comes due”'
+    claim: 'After Joseph’s birth Jacob asked Laban to send him away'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/30?lang=eng'
+    quote: 'Send me away, that I may go unto mine own place, and to my country.'
+  - where: 'note 31:3 “The promise of Beth-el comes due”'
+    claim: 'Laban asked him to stay (tarry)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/30?lang=eng'
+    quote: 'I pray thee, if I have found favour in thine eyes, tarry'
+  - where: 'note 31:3 “The promise of Beth-el comes due”'
+    claim: 'Twenty years for the instruction to return, after great blessings and great hardship'
+    key: schade-isaac-jacob
+    url: 'https://rsc.byu.edu/creation-sinai/isaac-jacob'
+    quote: 'It takes twenty years for the Lord to send instruction to Jacob that he must finally return home (Genesis 31:3), a duration of time none could have foreseen, and it occurs only after Jacob has experienced great blessings of family but also great hardship and maltreatment.'
+
+  # ---------- note 7 ----------
+  - where: 'note 31:7 “Ten times” is a round number'
+    claim: 'The Hebrew word for “times” (monim) occurs only in Genesis 31:7 and 41; glossed “counted number, time”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4489.htm'
+    quote: 'counted number, time ; — only'
+  - where: 'note 31:7 “Ten times” is a round number'
+    claim: 'Same entry lists the phrase “changed ten times” at Genesis 31:7, 41'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4489.htm'
+    quote: 'Genesis 31:7 ,41'
+  - where: 'note 31:7 “Ten times” is a round number'
+    claim: 'The phrase denotes frequency by a round number (Gen. 31:41, Num. 14:22, Neh. 4:12, Job 19:3)'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/31.htm'
+    quote: 'A phrase used to denote frequency, as in Genesis 31:41, Numbers 14:22, Nehemiah 4:12, Job 19:3, by a round number'
+  - where: 'note 31:7 “Ten times” is a round number'
+    claim: 'The ten changes cannot be documented, but Laban may well have kept changing the terms'
+    key: ot-manual-gen-24-36
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-24-36-the-covenant-line-continues-with-isaac-and-jacob?lang=eng'
+    quote: 'cannot be documented in the record—that is, ten times cannot be counted. But the nature of Laban makes it not unlikely that once Jacob began to prosper, Laban kept changing the terms of their agreement.'
+
+  # ---------- note 9 ----------
+  - where: 'note 31:10 “The dream of the rams”'
+    claim: 'The rods rested on a superstition about what a mating animal looks at'
+    key: scripture-helps-gen-24-33
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/09-genesis-24-33?lang=eng'
+    quote: 'There was a superstition that what an animal looked at while it mated would affect the appearance of its offspring.'
+  - where: 'note 31:9 “God snatched the flocks away”'
+    claim: 'natsal in the causative stem means “snatch away, deliver”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5337.htm'
+    quote: 'Hiph`il snatch away, deliver'
+  - where: 'note 31:9 “God snatched the flocks away”'
+    claim: 'The lexicon lists Genesis 31:9 for taking away property'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5337.htm'
+    quote: 'take away, snatch away , e.g. property Genesis 31:9'
+  - where: 'note 31:9 “God snatched the flocks away”'
+    claim: 'The same sense of the verb is used of snatching prey from the mouth of animals (1 Sam. 17:35)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5337.htm'
+    quote: 'prey from the mouth of animals 1 Samuel 17:35'
+  - where: 'note 31:9 “God snatched the flocks away”'
+    claim: 'Verse 9 uses the verb natsal (vayyatsel) of God taking the cattle'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/יַּצֵּ֧ל אֱלֹהִ֛ים אֶת מִקְנֵ֥ה אֲבִיכֶ֖ם'
+  - where: 'note 31:9 “God snatched the flocks away”'
+    claim: 'Verse 16 uses the same verb (hitsil)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אֲשֶׁ֨ר הִצִּ֤יל אֱלֹהִים֙ מֵֽאָבִ֔ינוּ'
+  - where: 'note 31:9 “God snatched the flocks away”'
+    claim: 'Laban’s sons in verse 1 use laqach; the KJV renders both verbs “taken away”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'Jacob hath taken away all that was our father’s'
+
+  # ---------- note 10 ----------
+  - where: 'note 31:10 “The dream of the rams”'
+    claim: '‘aqod = striped, streaked'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6124.htm'
+    quote: 'adjective striped, streaked'
+  - where: 'note 31:10 “The dream of the rams”'
+    claim: 'naqod = speckled'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5348.htm'
+    quote: 'adjective speckled'
+  - where: 'note 31:10 “The dream of the rams”'
+    claim: 'barod = spotted, marked (as if sprinkled with hail?), at Genesis 31:10, 12'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1261.htm'
+    quote: 'adjective spotted, marked (as if sprinkled with hail ?'
+  - where: 'note 31:10 “The dream of the rams”'
+    claim: '“Grisled” is Old English, now spelled “grizzled”, and means gray'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/31.htm'
+    quote: 'i.e. “gray” (Fr. gris). This Old English word, now generally spelt “grizzled,”'
+  - where: 'note 31:10 “The dream of the rams”'
+    claim: 'The marks speckled and spotted are named in Jacob’s wage terms (30:32) and Laban’s removal of the marked animals (30:35)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/30?lang=eng'
+    quote: 'And he removed that day the he goats that were ringstraked and spotted, and all the she goats that were speckled and spotted'
+  - where: 'note 31:10 “The dream of the rams”'
+    claim: 'Self-help and divine help do not exclude one another'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/31.htm'
+    quote: 'Moreover self-help and divine help do not exclude one another.'
+  - where: 'note 31:10 “The dream of the rams”'
+    claim: 'Jacob passes over his stratagem in silence and credits God'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/31.htm'
+    quote: 'when Jacob passes over his own stratagem in silence, and represents all that he aimed at and secured by crafty means as the fruit of God''s blessing'
+  - where: 'note 31:10 “The dream of the rams”'
+    claim: 'The difference between chapters 30 and 31 is not a contradiction pointing to different sources'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/31.htm'
+    quote: 'It is not a contradiction, however, pointing to a difference in the sources of the two chapters'
+  - where: 'note 31:10 “The dream of the rams”'
+    claim: 'The same commentary assigns the two chapters to different sources (J in ch. 30, E in ch. 31)'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/31.htm'
+    quote: 'In ch. 30 we had principally, probably, the narrative of J; in this chapter, that of E, is predominantly employed.'
+  - where: 'note 31:10 “The dream of the rams”'
+    claim: 'The Bible Dictionary: Moses used several documentary sources to compile Genesis'
+    key: bd-pentateuch
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/pentateuch?lang=eng'
+    quote: 'he used several documentary sources from which he compiled the book of Genesis'
+
+  # ---------- note 13 ----------
+  - where: 'note 31:13 “Beth-el is a promise and a vow”'
+    claim: 'At Beth-el the Lord said “I am the Lord God of Abraham thy father”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng'
+    quote: 'I am the Lord God of Abraham thy father, and the God of Isaac'
+  - where: 'note 31:13 “Beth-el is a promise and a vow”'
+    claim: 'Jacob’s vow includes giving a tenth and that the Lord shall be his God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng'
+    quote: 'and of all that thou shalt give me I will surely give the tenth unto thee.'
+  - where: 'note 31:13 “Beth-el is a promise and a vow”'
+    claim: 'A later command sends Jacob up to Beth-el, where he builds an altar'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'Arise, go up to Beth-el, and dwell there: and make there an altar unto God'
+  - where: 'note 31:13 “Beth-el is a promise and a vow”'
+    claim: 'Jacob tells his household he will build an altar to the God who answered him and was with him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'who answered me in the day of my distress, and was with me in the way which I went'
+
+  # ---------- note 14 ----------
+  - where: 'note 31:14 “Rachel and Leah’s answer”'
+    claim: 'Laban had “quite devoured” what should have been their dowry, and what the dowry was for'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'The dowry was compensation for a daughter’s separation from the family property and was a critical part of establishing a new household, including what she contributed toward an inheritance for the next generation and her security should she become widowed or divorced.'
+  - where: 'note 31:14 “Rachel and Leah’s answer”'
+    claim: 'Laban devoured the bride price instead of giving each daughter a dowry from it'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Rather than providing each with a dowry, derived at least in part from the bride price paid to the bride’s family, Laban had “quite devoured” it'
+  - where: 'note 31:14 “Rachel and Leah’s answer”'
+    claim: 'The bride wealth was earned from Jacob’s fourteen years of work'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'he failed to give them their dowries or bride wealth earned from the fourteen years Jacob worked for them'
+  - where: 'section 2 plain'
+    claim: 'Verse 15 rendered “has used up the money paid for us” (the bride-price)'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Rather than providing each with a dowry, derived at least in part from the bride price paid to the bride’s family, Laban had “quite devoured” it'
+  - where: 'section 3 plain'
+    claim: 'Verse 20 rendered “Jacob deceived Laban”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1589.htm'
+    quote: 'גנב לֵב = deceive Genesis 31:20 ,26'
+  - where: 'note 31:14 “Rachel and Leah’s answer”'
+    claim: 'Jacob counseled with Leah and Rachel before acting on the command'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'but before acting upon the command, Jacob counseled with Leah and Rachel (Genesis 31:4)'
+  - where: 'note 31:14 “Rachel and Leah’s answer”'
+    claim: 'Their finest moment in scripture'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Their finest moment in scripture occurs when their voices combine to give inspired counsel to their husband.'
+  - where: 'note 31:14 “Rachel and Leah’s answer”'
+    claim: 'The sisters overcame their rivalry'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Leah and Rachel eventually overcame their rivalry and united in their family’s best interest.'
+  - where: 'note 31:14 “Rachel and Leah’s answer”'
+    claim: 'Laban gave Leah to Jacob in Rachel’s place at the wedding'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/29?lang=eng'
+    quote: 'And it came to pass, that in the morning, behold, it was Leah'
+
+  # ---------- note 19 ----------
+  - where: 'note 31:19 “What were the images?”'
+    claim: 'The same Hebrew word is used for divination objects'
+    key: scripture-helps-gen-24-33
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/09-genesis-24-33?lang=eng'
+    quote: 'This same Hebrew word is also used in the Old Testament to refer to objects used for divination or fortune-telling.'
+  - where: 'note 31:19 “What were the images?”'
+    claim: 'Theories: stop her father’s idolatry; ransom'
+    key: scripture-helps-gen-24-33
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/09-genesis-24-33?lang=eng'
+    quote: 'many theories exist. Some theories include that Rachel was trying to stop her father’s idolatry or planned to use the objects as a ransom in case Laban captured Leah and Rachel.'
+  - where: 'note 31:19 “What were the images?”'
+    claim: 'Theory: tied to legal rights of inheritance'
+    key: scripture-helps-gen-24-33
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/09-genesis-24-33?lang=eng'
+    quote: 'Another theory is that the statues were tied to legal rights of inheritance.'
+  - where: 'note 31:19 “What were the images?”'
+    claim: 'Josephus: Jacob had taught Rachel to despise such worship; she took the images to obtain her father’s pardon if they were overtaken'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-1.html'
+    quote: 'although Jacob had taught her to despise such worship of those Gods, was this, that in case they were pursued, and taken by her father, she might have recourse to these images, in order obtain his pardon'
+  - where: 'note 31:19 “What were the images?”'
+    claim: 'Josephus: Laban stopped searching, not supposing his daughter in that condition would approach the images'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-1.html'
+    quote: 'So Laban left off searching any farther: not supposing that his daughter in such circumstances would approach to those images.'
+  - where: 'note 31:19 “What were the images?”'
+    claim: 'The lexicon: a kind of idol, object of reverence, and means of divination; etymology dubious'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8655.htm'
+    quote: 'a kind of idol, object of reverence, and means of divination'
+  - where: 'note 31:19 “What were the images?”'
+    claim: 'Etymology dubious'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8655.htm'
+    quote: 'etymology-meaning dubious'
+  - where: 'note 31:19 “What were the images?”'
+    claim: 'Portable and sometimes small at Gen. 31:19, 34; man-sized at 1 Sam. 19:13'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8655.htm'
+    quote: 'portable and sometimes small Genesis 31:19 ,34'
+  - where: 'note 31:19 “What were the images?”'
+    claim: 'The same entry: in size and shape like a man at 1 Samuel 19:13'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8655.htm'
+    quote: 'but in size and shape like a man 1 Samuel 19:13,16'
+  - where: 'note 31:19 “What were the images?”'
+    claim: 'The entry also says Laban calls them elohim (Gen. 31:30)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8655.htm'
+    quote: 'called אֱלֹהִים Genesis 31:30'
+  - where: 'note 31:19 “What were the images?”'
+    claim: 'The Nuzi texts have been used to suggest possession of household gods determined inheritance'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'the Nuzi texts may provide insight since modern scholars have considered them as a source to suggest that possession of the household gods determined inheritance or paterfamilias'
+  - where: 'note 31:19 “What were the images?”'
+    claim: 'No one explanation has been overwhelmingly accepted'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'no one of them has been overwhelmingly accepted in the absence of further evidence'
+  - where: 'note 31:19 “What were the images?”'
+    claim: 'If they were household gods Rachel did not keep them'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Rachel did not keep them but instead buried them in the ground along with other “strange gods”'
+  - where: 'note 31:19 “What were the images?”'
+    claim: 'Jacob’s household handed over their strange gods and he hid them under the oak by Shechem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'Put away the strange gods that are among you'
+  - where: 'note 31:19 “What were the images?”'
+    claim: 'Ezekiel 21:21 and Zechariah 10:2 use the word for divination (manual’s references)'
+    key: scripture-helps-gen-24-33
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/09-genesis-24-33?lang=eng'
+    quote: 'Ezekiel 21:21'
+
+  # ---------- note 20 ----------
+  - where: 'note 31:20 “Stealing Laban’s heart”'
+    claim: 'Hebrew: Jacob stole the heart of Laban the Aramaean'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/31-20.htm'
+    quote: 'the heart of Laban the Aramaean'
+  - where: 'note 31:20 “Stealing Laban’s heart”'
+    claim: 'The lexicon: “steal the heart” = deceive at Gen. 31:20, 26; “stole me” at 31:27'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1589.htm'
+    quote: 'גנב לֵב = deceive Genesis 31:20 ,26'
+  - where: 'note 31:20 “Stealing Laban’s heart”'
+    claim: 'Same entry: stole me, Genesis 31:27, id.'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1589.htm'
+    quote: 'Genesis 31:27 id.'
+  - where: 'note 31:20 “Stealing Laban’s heart”'
+    claim: 'Verse 26 uses the same verb with “my heart”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'מֶ֣ה עָשִׂ֔יתָ וַ/תִּגְנֹ֖ב אֶת לְבָבִ֑/י'
+  - where: 'note 31:20 “Stealing Laban’s heart”'
+    claim: 'Mutual deception, friendly parting'
+    key: bd-laban
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/laban?lang=eng'
+    quote: 'There was a good deal of mutual deception, each trying to outdo the other'
+  - where: 'note 31:20 “Stealing Laban’s heart”'
+    claim: 'Jacob may have feared Laban would take his family by force'
+    key: schade-isaac-jacob
+    url: 'https://rsc.byu.edu/creation-sinai/isaac-jacob'
+    quote: 'perhaps he feared Laban would take his family by force (verse 31)'
+  - where: 'note 31:20 “Stealing Laban’s heart”'
+    claim: 'Jacob’s actions may not have been the best choice'
+    key: schade-isaac-jacob
+    url: 'https://rsc.byu.edu/creation-sinai/isaac-jacob'
+    quote: 'Jacob’s actions may not have been the best choice'
+  - where: 'note 31:20 “Stealing Laban’s heart”'
+    claim: 'A righteous sufferer'
+    key: schade-isaac-jacob
+    url: 'https://rsc.byu.edu/creation-sinai/isaac-jacob'
+    quote: 'Perhaps we should see God’s deliverance of Jacob not through the lens of sustaining a trickster but of upholding a righteous sufferer.'
+  - where: 'note 31:20 “Stealing Laban’s heart”'
+    claim: 'The Lord’s command to return is in verses 3 and 13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'now arise, get thee out from this land, and return unto the land of thy kindred.'
+
+  # ---------- note 24 ----------
+  - where: 'note 31:24 “Neither good nor bad”'
+    claim: 'Hebrew: guard yourself lest you speak to Jacob from good to evil'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/31-24.htm'
+    quote: 'Guard … yourself … lest … you speak'
+  - where: 'note 31:24 “Neither good nor bad”'
+    claim: 'Same verse: from good to evil'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/31-24.htm'
+    quote: 'from good … to … evil'
+  - where: 'note 31:24 “Neither good nor bad”'
+    claim: 'Laban used the phrase himself at Gen. 24:50'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/31.htm'
+    quote: 'A phrase used by Laban himself in Genesis 24:50.'
+  - where: 'note 31:24 “Neither good nor bad”'
+    claim: 'Laban’s own words at Gen. 24:50'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/24?lang=eng'
+    quote: 'The thing proceedeth from the Lord: we cannot speak unto thee bad or good.'
+  - where: 'note 31:24 “Neither good nor bad”'
+    claim: 'The idiom means not to say anything decisive to alter what had occurred'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/31.htm'
+    quote: 'not to say anything decisive and emphatic for the purpose of altering what had already occurred'
+  - where: 'note 31:24 “Neither good nor bad”'
+    claim: 'God came to Abimelech in a dream; compare the revelation to Laban'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/31.htm'
+    quote: 'compare the revelation to Abimelech, king of Gerar, in Genesis 20:3'
+  - where: 'note 31:24 “Neither good nor bad”'
+    claim: 'God came to Abimelech in a dream by night'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/20?lang=eng'
+    quote: 'But God came to Abimelech in a dream by night'
+
+  # ---------- note 32 ----------
+  - where: 'note 31:32 “Jacob’s rash oath”'
+    claim: 'Rabbis read it as a prophecy of Rachel’s death; the simple meaning is “I yield him up to thee”'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/31.htm'
+    quote: 'The Rabbins regard this as a prophecy, fulfilled in Rachel’s premature death. Its more simple meaning is,'
+  - where: 'note 31:32 “Jacob’s rash oath”'
+    claim: 'Meaning “I yield him up to thee even to be put to death”'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/31.htm'
+    quote: 'I yield him up to thee even to be put to death.'
+  - where: 'note 31:32 “Jacob’s rash oath”'
+    claim: 'Jacob’s answer is as rash as that of Joseph’s brothers about the cup (Gen. 44:9)'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/31.htm'
+    quote: 'as rash an answer about the teraphim as Joseph’s brethren subsequently did about the stolen cup'
+  - where: 'note 31:32 “Jacob’s rash oath”'
+    claim: 'The brothers’ words and the cup in Benjamin’s sack'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/44?lang=eng'
+    quote: 'and the cup was found in Benjamin’s sack.'
+  - where: 'note 31:32 “Jacob’s rash oath”'
+    claim: 'Rachel dies in childbirth on the way to Ephrath'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'And Rachel died, and was buried in the way to Ephrath, which is Beth-lehem.'
+
+  # ---------- note 43 ----------
+  - where: 'note 31:43 “Whose daughters, whose flocks?”'
+    claim: 'Laban’s insistence indicates a coexisting, competing system of marriage'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Laban’s insistence that Jacob had no right to take away his wives and their children from their family home indicates a coexisting and competing system of marriage in that era.'
+  - where: 'note 31:43 “Whose daughters, whose flocks?”'
+    claim: 'Laban was arguably legally protected'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Arguably, Laban was legally protected in his demands to keep his daughters’ families at their maternal home.'
+
+  # ---------- note 49 ----------
+  - where: 'note 31:49 “Mizpah is a warning, not a blessing”'
+    claim: 'Mizpah means watchtower and is the heap of stones raised by Jacob and Laban'
+    key: bd-mizpah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/mizpah?lang=eng'
+    quote: 'Watchtower. (1) The heap of stones raised by Jacob and Laban'
+  - where: 'note 31:49 “Mizpah is a warning, not a blessing”'
+    claim: 'Hebrew nissater: when we are hidden one from another'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/31-49.htm'
+    quote: 'nis·sā·ṯêr נִסָּתֵ֖ר we are hidden'
+  - where: 'note 31:49 “Mizpah is a warning, not a blessing”'
+    claim: 'The popular use of Mizpah ignores the context'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/31.htm'
+    quote: 'The popular use of the word Mizpah, based on this verse, ignores the context'
+  - where: 'note 31:49 “Mizpah is a warning, not a blessing”'
+    claim: 'God is invoked because of the mutual distrust of the two parties'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/31.htm'
+    quote: 'God is here invoked, because of the mutual distrust of the two parties, to watch lest one or the other should violate the compact.'
+  - where: 'note 31:49 “Mizpah is a warning, not a blessing”'
+    claim: 'Eating together was the sign of restored friendship and trust'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/31.htm'
+    quote: 'To partake of food together was the sign of restored friendship and trust between disputing parties.'
+  - where: 'note 31:49 “Mizpah is a warning, not a blessing”'
+    claim: 'The covenant meal compares with Isaac’s covenant meal (Gen. 26:30)'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/31.htm'
+    quote: 'the eating of portions of the sacrificial victim by both the contracting parties of the covenant; cf. Genesis 26:30'
+  - where: 'note 31:49 “Mizpah is a warning, not a blessing”'
+    claim: 'Isaac and Abimelech: oath, feast, departed in peace'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/26?lang=eng'
+    quote: 'And they rose up betimes in the morning, and sware one to another: and Isaac sent them away, and they departed from him in peace.'
+
+  # ---------- note 53 (Laban’s gods) ----------
+  - where: 'note 31:53 “Laban’s gods”'
+    claim: 'The verb “judge” is plural (yishpetu)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אֱלֹהֵ֨י אַבְרָהָ֜ם וֵֽ/אלֹהֵ֤י נָחוֹר֙ יִשְׁפְּט֣וּ בֵינֵ֔ינוּ'
+  - where: 'note 31:53 “Laban’s gods”'
+    claim: 'The verb is plural'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/31.htm'
+    quote: 'The verb “judge” is in the plural.'
+  - where: 'note 31:53 “Laban’s gods”'
+    claim: 'The last words are not in the LXX and some Hebrew manuscripts and are probably a gloss; RV margin “gods”'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/31.htm'
+    quote: 'These words are not found in the LXX and some Hebrew MSS., and are probably a gloss.'
+  - where: 'note 31:53 “Laban’s gods”'
+    claim: 'RV margin reads gods'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/31.htm'
+    quote: 'R.V. marg. gods'
+  - where: 'note 31:53 “Laban’s gods”'
+    claim: 'The Septuagint lacks “the God of their father”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/31.htm'
+    quote: 'The God of Abraam and the God of Nachor judge between us; and Jacob swore by the Fear of his father Isaac.'
+  - where: 'note 31:53 “Laban’s gods”'
+    claim: 'Laban seems to have regarded Abraham’s God as different from Nahor’s'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/31.htm'
+    quote: 'it seems as if he regarded Abraham’s Elohim as different from the Elohim of Nahor'
+  - where: 'note 31:53 “Laban’s gods”'
+    claim: 'Terah and Nahor’s family served other gods'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/24?lang=eng'
+    quote: 'even Terah, the father of Abraham, and the father of Nachor: and they served other gods.'
+  - where: 'note 31:53 “Laban’s gods”'
+    claim: 'Laban: the Lord hath blessed me for thy sake'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/30?lang=eng'
+    quote: 'for I have learned by experience that the Lord hath blessed me for thy sake.'
+  - where: 'note 31:53 “Laban’s gods”'
+    claim: 'Laban not a mere idolater though he called the teraphim his gods'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/31.htm'
+    quote: 'he was not a mere idolater, though he did call the teraphim his gods'
+  - where: 'note 31:53 “Laban’s gods”'
+    claim: 'Using teraphim probably was not to worship strange gods but the true God in a corrupt manner'
+    key: bd-teraphim
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/teraphim?lang=eng'
+    quote: 'To use teraphim was probably not to worship strange gods but to worship the true God in a corrupt manner.'
+
+  # ---------- note 53 (Fear of Isaac) ----------
+  - where: 'note 31:53 “The Fear of Isaac”'
+    claim: 'pachad = dread; designation of deity at Gen. 31:42, 53'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6343.htm'
+    quote: 'as designation of deity'
+  - where: 'note 31:53 “The Fear of Isaac”'
+    claim: 'Same entry covers Genesis 31:42 (the Fear of Isaac)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6343.htm'
+    quote: 'absolute Genesis 31:42'
+  - where: 'note 31:53 “The Fear of Isaac”'
+    claim: 'pachad means dread (first sense in the lexicon entry)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6343.htm'
+    quote: '1 dread'
+  - where: 'note 31:53 “The Fear of Isaac”'
+    claim: 'The Hebrew: by the Fear of his father Isaac'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/31-53.htm'
+    quote: 'by the Fear … of his father … Isaac'
+  - where: 'note 31:53 “The Fear of Isaac”'
+    claim: 'Not that Isaac was regarded as a deity but that the God he feared was Jacob’s'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/31.htm'
+    quote: 'It clearly shews not that Isaac was regarded as a deity; but that He whom Isaac feared was the true God of Jacob.'
+  - where: 'note 31:53 “The Fear of Isaac”'
+    claim: 'Jacob swears by the one God whom Isaac worshipped, against Laban’s polytheistic oath'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/31.htm'
+    quote: 'Jacob swears by the one Being who was the sole object of Isaac’s worship.'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
+  - where: 'christ'
+    claim: 'The Lord stood above the ladder and said “I am with thee”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng'
+    quote: 'And, behold, the Lord stood above it, and said, I am the Lord God of Abraham thy father'
+  - where: 'christ'
+    claim: 'The angel is Jehovah in manifested form (one commentary)'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/31.htm'
+    quote: 'the Angel is shewn to be not a created angel, but Jehovah Himself in a manifested form'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: 'The angels of God meet Jacob at once (Gen. 32:1–2)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/32?lang=eng'
+    quote: 'And Jacob went on his way, and the angels of God met him.'
+  - where: 'explore'
+    claim: 'Olson’s chapter follows Rachel and Leah through this chapter'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Their finest moment in scripture occurs when their voices combine to give inspired counsel to their husband.'
+  - where: 'explore'
+    claim: 'Schade’s chapter reads Jacob’s years with Laban as endurance of a righteous man'
+    key: schade-isaac-jacob
+    url: 'https://rsc.byu.edu/creation-sinai/isaac-jacob'
+    quote: 'perhaps the theological perspective of endurance and trust in God are really at the heart of this message'
