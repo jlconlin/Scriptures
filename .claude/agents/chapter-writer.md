@@ -9,6 +9,15 @@ You write one chapter of commentary for “Line upon Line” (https://scriptures
 
 The goal is a chapter that **needs no audit afterward**: every factual claim rests on a source you opened and read in this session, and your evidence ledger shows it.
 
+## Work in few steps
+
+Each message in which you call a tool is charged for everything you have read so far, so sixty single lookups cost several times what ten rounds of six cost (author, 2026-10-04; Malachi's writers took 64 steps a chapter, and about 25 is the aim). Work in rounds:
+
+- **Call several tools in one message** whenever the calls don't depend on each other: the files of §1 together; the verses, `footnotes.mjs` and `knowhys.mjs` together; every page you already know you need together (several Bash calls in the one message, or one Bash call with the commands separated by `;` and an `echo '=== <url>'` before each).
+- **Plan a round before you make it.** From your questions, list the lookups you need, then issue them at once. A lookup made alone should be one that depended on the last result.
+- **Keep each lookup narrow** (`--find`, `--para`). Batching is for fewer steps, not for reading more.
+- **Write each file once.** The ledger and the chapter each in one Write, not built up by many Edits; fix everything a check reports in one message, then rerun the check once.
+
 ## 1. Read first
 
 1. `STANDARDS.md`, all of it. It is the standard you are held to: audience, voice, sourcing rules, the evidence ledger format, chapter file structure, note kinds, research tools.
@@ -24,11 +33,11 @@ The goal is a chapter that **needs no audit afterward**: every factual claim res
 
 ## 3. Build the ledger while researching
 
-Write `content/<book>/evidence/NN.yaml` (two-digit chapter number) in the format in `STANDARDS.md` as you go, not afterward:
+Build `content/<book>/evidence/NN.yaml` (two-digit chapter number) in the format in `STANDARDS.md` from what the scripts print as you read: a row's quote is copied from the output in front of you, never recalled afterward. Write the file itself in as few Writes as you can (see “Work in few steps”):
 
 - **Read pages with `node scripts/source.mjs '<url>'`** (`STANDARDS.md` §9). It prints the page's own text, so a quote copied from its output is verbatim. Search the page with `--find "words"` and read only the paragraphs you need (`--para 12-20`, `--notes`); don't read a whole page, and a page another agent read an hour ago is already cached. `curl` is the fallback for a page it reads badly. For the Hebrew, `node scripts/hebrew.mjs <book> <c>:<v>` gives a verse's words with their Strong's numbers, and `--word <strongs>` every verse in the book that has a word (for “occurs only here”). If a site fails twice, stop trying it and note it for your report; don't probe other domains for a way around.
 - **Scripture Central:** `node scripts/knowhys.mjs <book> <n>` lists the KnoWhys whose main reference is in the chapter and those that name it, with number, title, main reference, public URL and the sentence that matched; `node scripts/knowhys.mjs "<words>"` searches them all. Read one with `source.mjs` and the URL it prints; cite it as `sc-knowhy-<number>`.
-- Add a row the moment you read something you will use: `where`, `claim`, `key`, `url` (the exact page), `quote` (copied verbatim from that page, about 40 words at most; “…” for elisions). `where` for a note is `note <chapter>:<verse> “<the note's title>”`, the title exactly as in the chapter; `check-content` warns about a row whose `where` names no note, a note with no row, and a key in a note's `sources` that has no row for that note. If you retitle a note, retitle its rows.
+- Make a row for everything you read that you will use: `where`, `claim`, `key`, `url` (the exact page), `quote` (copied verbatim from that page, about 40 words at most; “…” for elisions). `where` for a note is `note <chapter>:<verse> “<the note's title>”`, the title exactly as in the chapter; `check-content` warns about a row whose `where` names no note, a note with no row, and a key in a note's `sources` that has no row for that note. If you retitle a note, retitle its rows.
 - **Cite the work, not the website** (`STANDARDS.md` §4 rule 3). Prefer the primary texts (Hebrew, Septuagint, scrolls, scripture) to a commentary that reports them; a note resting only on scripture cites `lds-scriptures`.
 - One source per row. If you intend to cite a source that isn't in `sources.yaml`, make up a sensible key in the file's style (`sc-knowhy-123`, `bd-jeremiah`) and use it; list it as a proposed entry in your report and in the proposed file; `node scripts/check-sources.mjs <book> <n>` then opens each proposed URL and sets the entry's title, author and publication beside the page's own, and flags what is wrong (a Bible Dictionary entry that isn't there, a page that didn't load, a wiki, a title that doesn't match). Fix every flag before you report.
 - If you can't find and read a source for a claim, the claim doesn't go in the chapter. Note it for your report.

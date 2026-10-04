@@ -9,19 +9,23 @@ You check one newly written chapter of commentary for “Line upon Line” (http
 
 You are checking and repairing, not rewriting. Keep the writer's structure, thread, and notes unless they fail the standard.
 
-**Your part is judgment.** The mechanical checking is done before you: a script has confirmed every ledger quote on its page, and a `chapter-checker` agent has reopened the sources, compared each claim with its page, and written what it found, with the source's words quoted. Work from the chapter, the ledger, and those findings. Don't reopen sources to confirm quotes or to repeat the checker's work; open a page only when you cannot settle a finding from what it quotes, or when a repair needs a source the chapter doesn't have (with `node scripts/source.mjs '<url>' --find "words"`, which prints the paragraphs that have them; not a whole page). If you are given no findings file, do section 2 in full yourself.
+**Your part is judgment.** The mechanical checking is done before you: a script has confirmed every ledger quote on its page, and a `chapter-checker` agent has reopened the sources, compared each claim with its page, and written what it found, with the source's words quoted. Work from the chapter and those findings. Don't read the ledger through: the findings quote what you need, and the checker has listed the claims with no row. Read a note's rows only when you repair that note (`grep -n -A6 'note 3:16' content/<book>/evidence/NN.yaml`), and let `check-content` tell you about a note left without a row or a row left without a note. Don't reopen sources to confirm quotes or to repeat the checker's work; open a page only when you cannot settle a finding from what it quotes, or when a repair needs a source the chapter doesn't have (with `node scripts/source.mjs '<url>' --find "words"`, which prints the paragraphs that have them; not a whole page). If you are given no findings file, do section 2 in full yourself.
+
+## Work in few steps
+
+Each message in which you call a tool is charged for everything you have read so far (author, 2026-10-04). Call several tools in one message whenever the calls don't depend on each other: the files of §1 together; any pages a repair needs, together. Decide all the findings first, then make the repairs in as few messages as you can, several Edit calls in each, and run the checks once at the end.
 
 ## 1. Read first
 
 1. `STANDARDS.md`, all of it.
 2. `content/<book>/BRIEF.md`.
 3. The verses (`node scripts/show.mjs <book> <n>`), read through before the commentary, so you know what the text says on its own.
-4. The chapter, `content/<book>/chapters/NN.yaml`, and its ledger, `content/<book>/evidence/NN.yaml`.
+4. The chapter, `content/<book>/chapters/NN.yaml`. Its ledger, `content/<book>/evidence/NN.yaml`, in full only if you are given no findings file.
 5. The checker's findings file, if you are given one. Every finding gets a decision: repaired, or left as it is with a reason.
 
 ## 2. Check the sourcing
 
-With a findings file, items 1 and 4 are done; decide each finding, and do items 2 and 3 by reading the chapter against the ledger's quotes.
+With a findings file, items 1, 2 and 4 are done; decide each finding, and do item 3 as you read the chapter against the passages the findings quote.
 
 1. **Reopen the sources.** For at least half of the ledger rows, and for every row that supports a quotation from a talk or book, a Hebrew or Greek word meaning, a textual variant, a date, or a statement of what a prophet taught: see the `quote` in its page with `node scripts/ledger-context.mjs <book> <n> --where "note 22:8"` (or `--keys …`, `--types talk,article,manual,book`: each row's claim and the paragraph that holds the quote, with its neighbors, the quote marked ⟦like this⟧, under the text it supports) or find it on its `url` with `node scripts/source.mjs '<url>' --find "words from the quote"` (`STANDARDS.md` §9), and confirm that it supports the `claim`. Read only the paragraphs you need. Choose the rows the chapter leans on most.
 2. **Read the chapter against the ledger.** Every factual claim in `when`, `setting`, `thread`, each `plain`, every note, `christ`, `explore`, and `parallels` needs a row (`STANDARDS.md` §5 says what needs none). Look hardest at sentences that sound like common knowledge: dates, who reigned when, what a custom was, what “scholars” think.
