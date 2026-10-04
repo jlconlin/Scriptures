@@ -21,7 +21,7 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import YAML from 'yaml';
 import { findBook } from '../src/lib/books.mjs';
-import { fetchPage, parseOrEmpty, onPage, pageText, quoteParts, letters, alnum } from '../src/lib/pages.mjs';
+import { fetchPage, parseOrEmpty, pageProblems, onPage, pageText, quoteParts, letters, alnum } from '../src/lib/pages.mjs';
 import { SCRIPT_ROOT as ROOT, pad, readProposed, mergeProposed, partsOfWhere, pageSections, whereKey, headingKey, verseOf } from '../src/lib/ledger.mjs';
 
 process.stdout.on('error', (e) => { if (e.code === 'EPIPE') process.exit(0); }); // piped into head
@@ -94,15 +94,15 @@ async function load(url) {
     const page = parseOrEmpty(got.raw, url);
     // A raw XML file (the Hebrew text) keeps its tags in a paragraph; the words are what a reader and a quote have.
     const bare = (t) => (page.kind === 'text' && /<[a-z\/]/i.test(t) ? t.replace(/^[^<>]*>/, '').replace(/<[^>]*$/, '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim() : t);
-    const units = page.paras.map((p) => ({ label: p.label ?? `¶${p.n}`, head: p.head, text: bare(p.text) }));
+    const units = page.paras.map((p) => ({ n: p.n, label: p.label ?? `¶${p.n}`, head: p.head, text: bare(p.text) }));
     for (const n of page.notes) {
-      const at = n.at?.[0], verse = at ? units.findIndex((u) => u.label === `¶${at}`) : -1;
-      units.push({ label: `footnote ${n.marker}${n.context ? ` “${n.context}”` : ''}${at ? ` (at ¶${at})` : ''}`, head: '', text: n.text + n.links.map((l) => ` ${l.text}`).join(''), above: verse });
+      const at = n.at?.[0], verse = at ? units.findIndex((u) => u.n === at && u.above === undefined) : -1;
+      units.push({ label: `footnote ${n.marker}${n.context ? ` “${n.context}”` : ''}${at ? ` (at ${verse >= 0 ? units[verse].label : `¶${at}`})` : ''}`, head: '', text: n.text + n.links.map((l) => ` ${l.text}`).join(''), above: verse });
     }
     // The text of every unit run together, as the comparison reads it, with where each begins.
     const T = { text: '', num: '' }, S = { text: [], num: [] };
     for (const u of units) { S.text.push(T.text.length); S.num.push(T.num.length); T.text += letters(u.text); T.num += alnum(u.text); }
-    out = { page, units, T, S, whole: pageText(got.raw) };
+    out = { page, units, T, S, whole: pageText(got.raw), problems: pageProblems(got.raw, page) };
   }
   pages.set(url, out);
   return out;
@@ -178,6 +178,7 @@ for (const part of parts) {
     const where = locate(p, row.quote);
     if (!where) {
       if (onPage(p.whole, row.quote)) { tally.unlocated++; console.log(`  the quote is on the page but in its markup or data, not in a paragraph source.mjs prints (use source.mjs --find): “${short(String(row.quote).trim(), 200)}”`); }
+      else if (p.problems.length) { tally.unfetched++; console.log(`  the page is not usable: ${p.problems.join("; ")} (the quote cannot be looked for): “${short(String(row.quote).trim(), 120)}”`); }
       else { tally.notFound++; notFound.push(`${part.head}: ${row.key}`); console.log(`  quote not found on the page: “${short(String(row.quote).trim(), 200)}”`); }
       continue;
     }
@@ -201,6 +202,6 @@ for (const part of parts) {
 }
 const parts2 = [`${rows.length} rows in the ledger`, `${tally.shown} shown`];
 if (tally.left) parts2.push(`${tally.left} left out by the options`);
-parts2.push(`${tally.notFound} quote(s) not found`, `${tally.unfetched} page(s) not fetched`);
+parts2.push(`${tally.notFound} quote(s) not found`, `${tally.unfetched} page(s) not fetched or not usable`);
 if (tally.unlocated) parts2.push(`${tally.unlocated} on the page but not in a paragraph`);
 console.log(`\n${parts2.join('; ')}.${notFound.length ? ` Not found: ${notFound.join('; ')}.` : ''}`);

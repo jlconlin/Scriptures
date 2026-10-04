@@ -105,3 +105,22 @@ export function partsOfWhere(where, ch) {
   }
   return { ids, missing };
 }
+
+/**
+ * For a `where` that names a note that is not in the chapter (the note was retitled after its rows were written), the closest note:
+ * `{ index, note, sameVerse, score }`, by the words of the titles and by verse; null if the `where` is not a note's.
+ */
+export function closestNote(ch, where) {
+  const m = String(where ?? '').match(/^notes?\s+(?:\d+\s*:\s*)?(\d+)(?:\s*[–-]\s*\d+)?\s*(.*)$/is);
+  if (!m) return null;
+  const verse = +m[1], words = (t) => new Set(String(t).normalize('NFKD').toLowerCase().match(/[\p{L}\p{N}]+/gu) ?? []);
+  const want = words(m[2]);
+  let best = null;
+  (ch.notes ?? []).forEach((note, index) => {
+    const have = words(note.title), same = [...want].filter((w) => have.has(w)).length, all = new Set([...want, ...have]).size || 1;
+    const [a, b] = versesOf(note.ref) ?? [0, 0], sameVerse = verse >= a && verse <= b;
+    const score = same / all + (sameVerse ? 0.5 : 0);
+    if (!best || score > best.score) best = { index, note, sameVerse, score };
+  });
+  return best;
+}

@@ -9,7 +9,10 @@
 // the section's heading and text, and each of its endnotes with every link: whether that page is readable (text found, or blocked,
 // not found, a PDF with no text layer, almost no text) and whether a ledger row of the chapter cites that URL. Whether a note says
 // more than the footnote or the section stays the checker's judgment; this gives it the overlap. A section's text is shown once.
-// Usage: node scripts/footnotes.mjs <book> <chapter> [--compare [--long]]   (book = the directory under content/, such as genesis)
+// Usage: node scripts/footnotes.mjs <book> <chapter> [--compare [--long]] [--all-notes]   (book = the directory under content/, such as genesis)
+//        By default only the Scripture Helps sections and endnotes that bear on the chapter are printed: those with a verse range in it, and
+//        (marked ◆) those with no verse range, which cover the whole of the manual chapter (one chapter of it may cover a whole book);
+//        --all-notes prints every section and endnote.
 //        --fresh refetches; --long shows a Scripture Helps section's whole text (otherwise about 1,500 characters of it)
 import { readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
@@ -23,7 +26,7 @@ import { normUrl, pad, versesOf } from '../src/lib/ledger.mjs';
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 process.stdout.on('error', (e) => { if (e.code === 'EPIPE') process.exit(0); }); // piped into head
 const argv = process.argv.slice(2);
-const fresh = argv.includes('--fresh'), compare = argv.includes('--compare'), long = argv.includes('--long');
+const fresh = argv.includes('--fresh'), compare = argv.includes('--compare'), long = argv.includes('--long'), allNotes = argv.includes('--all-notes');
 const [slug, chapterArg] = argv.filter((a) => !a.startsWith('--'));
 if (!slug || !/^\d+$/.test(chapterArg ?? '')) { console.error('Usage: node scripts/footnotes.mjs <book> <chapter> [--compare [--long]]   (book = a directory under content/, such as genesis)'); process.exit(1); }
 const chapter = +chapterArg;
@@ -102,13 +105,20 @@ if (!compare) {
   for (const { e, man } of helps) {
     console.log(`\n${man.title || e.title} (the chapter that covers ${book.name} ${chapter}): ${e.href}`);
     console.log(`${man.notes.length} endnotes; read the text with: node scripts/source.mjs "${e.href}" --find "words"`);
-    console.log('\nSections (► covers this chapter):');
-    for (const h of man.heads) if (h.level >= 2 || /\d: /.test(h.text)) console.log(`  ${labelCovers(h.text) ? '►' : ' '} ${h.from == null ? '' : `[${h.from}${h.to > h.from ? `–${h.to}` : ''}] `}${short(h.text, 120)}`);
+    // A section whose label gives a verse range covers this chapter or does not; one with none (“What is the book of Malachi?”, “Background and
+    // Context”) belongs to the whole of this chapter of the manual, which may cover a whole book or several chapters. By default only those
+    // two kinds are shown, and only the endnotes in them; --all-notes shows everything.
+    const kind = (text) => { const s = labelSpan(text); return s ? (spanCovers(s, chapter, null) ? 'chapter' : 'other') : 'whole'; };
+    const sections = man.heads.filter((h) => h.level >= 2 || /\d: /.test(h.text));
+    console.log(`\nSections (► covers ${book.name} ${chapter}; ◆ has no verse range, so it covers the whole of this Scripture Helps chapter${allNotes ? '' : '; the others are not shown, --all-notes shows them'}):`);
+    for (const h of sections) if (allNotes || kind(h.text) !== 'other') console.log(`  ${{ chapter: '►', whole: '◆', other: ' ' }[kind(h.text)]} ${h.from == null ? '' : `[${h.from}${h.to > h.from ? `–${h.to}` : ''}] `}${short(h.text, 120)}`);
     const headOf = new Map(man.paras.map((p) => [p.n, p.head]));
-    console.log('\nEndnotes:');
-    for (const n of man.notes) {
+    const bears = (n) => n.at.length === 0 || n.at.some((a) => kind(headOf.get(a) ?? '') !== 'other');
+    const shown = man.notes.filter((n) => allNotes || bears(n));
+    console.log(`\nEndnotes${allNotes ? '' : ` (${shown.length} of ${man.notes.length}: those in a section that covers ${book.name} ${chapter} or has no verse range; --all-notes for all)`}:`);
+    for (const n of shown) {
       const where = [...new Set(n.at.map((a) => headOf.get(a)).filter(Boolean))].map((h) => short(h, 50));
-      const mark = n.at.some((a) => labelCovers(headOf.get(a) ?? '')) ? '►' : ' ';
+      const mark = n.at.some((a) => kind(headOf.get(a) ?? '') === 'chapter') ? '►' : n.at.some((a) => kind(headOf.get(a) ?? '') === 'whole') || !n.at.length ? '◆' : ' ';
       console.log(`  ${mark} ${n.marker} ${n.text}${where.length ? `  [in ${where.join('; ')}]` : ''}`);
       for (const l of n.links) console.log(`        → ${l.text}  ${l.href}`);
     }

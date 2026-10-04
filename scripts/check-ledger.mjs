@@ -13,7 +13,7 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import YAML from 'yaml';
 import { discoverBooks, bookArg } from '../src/lib/books.mjs';
-import { fetchPage, pageText, onPage } from '../src/lib/pages.mjs';
+import { fetchPage, pageText, onPage, parseOrEmpty, pageProblems } from '../src/lib/pages.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 
@@ -60,10 +60,15 @@ for (const { label, file } of todo) {
     const page = await checkPage(row.url);
     if (page.error) { unfetched++; if (!quiet) console.log(`  ? ${label} ${row.where} [${row.key}]: ${page.error}: ${row.url}`); continue; }
     if (onPage(page, row.quote)) ok++;
-    else { missing++; if (!quiet) console.log(`  ✗ ${label} ${row.where} [${row.key}]: quote not on page: “${String(row.quote).slice(0, 80)}” ${row.url}`); }
+    else {
+      // A page that is blocked, not there, or empty is that, not a quote that is missing from the page.
+      const got = await fetchPage(row.url, { fresh }), bad = got.error ? [] : pageProblems(got.raw, parseOrEmpty(got.raw, row.url));
+      if (bad.length) { unfetched++; if (!quiet) console.log(`  ? ${label} ${row.where} [${row.key}]: ${bad.join("; ")}: ${row.url}`); continue; }
+      missing++; if (!quiet) console.log(`  ✗ ${label} ${row.where} [${row.key}]: quote not on page: “${String(row.quote).slice(0, 80)}” ${row.url}`);
+    }
   }
   totalOk += ok; totalMissing += missing; totalUnfetched += unfetched;
-  console.log(`${label}: ${ok} rows confirmed, ${missing} quote(s) not on page, ${unfetched} page(s) not fetched`);
+  console.log(`${label}: ${ok} rows confirmed, ${missing} quote(s) not on page, ${unfetched} page(s) not fetched or not readable`);
 }
-console.log(`\n${totalOk} confirmed, ${totalMissing} not on page, ${totalUnfetched} not fetched.`);
+console.log(`\n${totalOk} confirmed, ${totalMissing} not on page, ${totalUnfetched} not fetched or not readable.`);
 process.exit(totalMissing || totalUnfetched ? 1 : 0);

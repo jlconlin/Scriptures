@@ -12,7 +12,7 @@ const FILE = {
   '1-chr': '1Chr', '2-chr': '2Chr', ezra: 'Ezra', neh: 'Neh', esth: 'Esth', job: 'Job', ps: 'Ps', prov: 'Prov', eccl: 'Eccl', song: 'Song', isa: 'Isa', jer: 'Jer', lam: 'Lam',
   ezek: 'Ezek', dan: 'Dan', hosea: 'Hos', joel: 'Joel', amos: 'Amos', obad: 'Obad', jonah: 'Jonah', micah: 'Mic', nahum: 'Nah', hab: 'Hab', zeph: 'Zeph', hag: 'Hag', zech: 'Zech', mal: 'Mal',
 };
-export const WLC_NOTE = 'Hebrew verse numbers sometimes differ from the King James Version\'s';
+export const WLC_NOTE = 'verse numbers are the King James Version\'s, with the Hebrew\'s beside them where they differ (the Open Scriptures verse map)';
 
 /** The morphhb file name for a book's name or abbreviation (genesis, gen, 1 sam, isa) or its directory under content/; null if it is not an Old Testament book. */
 export function wlcFile(book) {
@@ -46,6 +46,56 @@ export async function loadWlc(file, { fresh = false } = {}) {
   const got = await fetchPage(url, { fresh, tries: 5, wait: 4000 });
   return got.error ? { file, url, error: got.error } : { file, url, verses: parseVerses(got.raw) };
 }
+
+// ---------- King James and Hebrew verse numbers ----------
+// The King James Version's numbering is what the site and its agents use; the Hebrew text's differs in whole chapters (Malachi 4 is Hebrew
+// 3:19–24, Joel 2:28–32 is Hebrew 3:1–5 and Joel 3 is Hebrew 4), at the ends of chapters, and in the Psalms, where a title is verse 1 or
+// 2 in the Hebrew and has no number in the King James. The table is the Open Scriptures Hebrew Bible's own (morphhb/wlc/VerseMap.xml, 1,978
+// verses of the 39 books, “based on the notes to the WLC”), from the same repository as the text.
+
+/** The verse map: `{ toKjv: Map(Hebrew id -> [{ id, partial }]), toHebrew: Map(KJV id -> [{ id, partial }]) }`, or `{ error }`. A partial verse is half of one. */
+export async function loadVerseMap({ fresh = false } = {}) {
+  const url = 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/VerseMap.xml';
+  const got = await fetchPage(url, { fresh, tries: 5, wait: 4000 });
+  if (got.error) return { url, error: got.error };
+  const toKjv = new Map(), toHebrew = new Map();
+  for (const m of got.raw.matchAll(/<verse wlc="([^"]+)" kjv="([^"]+)" type="([a-z]+)"\s*\/>/g)) {
+    const [w, k] = [m[1], m[2]].map((x) => x.replace(/!.*$/, ''));
+    const partial = m[3] === 'partial' || /!/.test(m[1] + m[2]);
+    (toKjv.get(w) ?? toKjv.set(w, []).get(w)).push({ id: k, partial });
+    (toHebrew.get(k) ?? toHebrew.set(k, []).get(k)).push({ id: w, partial });
+  }
+  return { url, toKjv, toHebrew };
+}
+
+/** The King James verses of a Hebrew verse id ('Mal.3.23' -> [{ id: 'Mal.4.5' }]; two for a verse that is split); [{ title: true }] for a psalm's title, which the King James leaves unnumbered. */
+export function hebrewToKjv(map, id) {
+  if (map.toKjv.has(id)) return map.toKjv.get(id);
+  return [map.toHebrew.has(id) ? { title: true } : { id }]; // a King James verse of the same number that something else fills means this is a title
+}
+/** The Hebrew verses (ids present in `have`, a Set) of a King James verse id: `[{ id, partial }]`, empty if the file has none. */
+export function kjvToHebrew(map, have, id) {
+  const m = map.toHebrew.get(id) ?? (have.has(id) ? [{ id }] : []);
+  return m.filter((x) => have.has(x.id));
+}
+/** The Hebrew verse that is a psalm's title, for a King James chapter whose verse 1 is the Hebrew verse 2 ('Ps.3' -> 'Ps.3.1'), or null. */
+export function titleOf(map, have, book, chapter) {
+  const t = `${book}.${chapter}.1`;
+  return have.has(t) && map.toHebrew.has(t) && !map.toKjv.has(t) ? t : null;
+}
+/** Where a King James chapter is in the Hebrew, for a plain warning: 'KJV Mal 4 is Hebrew Mal 3:19–24', or '' if the chapter is numbered alike. */
+export function chapterNote(map, book, chapter) {
+  const rows = [...map.toHebrew].filter(([k]) => k.startsWith(`${book}.${chapter}.`)).flatMap(([, v]) => v.map((x) => x.id.split('.').map(Number)));
+  if (!rows.length) return '';
+  const by = new Map();
+  for (const [, c, v] of rows) (by.get(c) ?? by.set(c, []).get(c)).push(v);
+  return `the King James chapter ${chapter} is, in the Hebrew, ${[...by].map(([c, vs]) => `${book} ${c}:${Math.min(...vs)}${Math.max(...vs) > Math.min(...vs) ? `–${Math.max(...vs)}` : ''}`).join(' and ')} (verse map)`;
+}
+/** 'Mal.4.5' -> 'Mal 4:5', with the Hebrew beside it when it differs: 'Mal 4:5 (Hebrew 3:23)'. */
+export const refText = (kjvId, hebrewIds = []) => {
+  const h = hebrewIds.filter((x) => x && x !== kjvId);
+  return `${verseName(kjvId)}${h.length ? ` (Hebrew ${h.map((x) => verseName(x).replace(/^\w+ /, '')).join(', ')})` : ''}`;
+};
 
 /** A verse id as the scripts print it: 'Gen.8.1' -> 'Gen 8:1'. */
 export const verseName = (id) => id.replace(/^(\w+)\.(\d+)\.(\d+)$/, '$1 $2:$3');

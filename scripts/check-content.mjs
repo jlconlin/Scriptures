@@ -28,8 +28,9 @@
 //   section whose ledger has no row for that key under that section (`where` “section “Heading”” or “opening”). Information, listed
 //   and not counted as a warning: the page's own connections, the ledger rows whose claim begins “Connection made by this page:”.
 // Per-note ledger coverage (STANDARDS.md §5), warnings only, each under its own heading, in a chapter with a ledger: a key in a note's
-//   `sources` that no ledger row naming that note carries; a ledger `where` that names no note or section of the chapter (note titles are
-//   compared on letters, so straight and curly quotes agree); a note with no ledger row at all (reported once, not once per key); a
+//   `sources` that no ledger row naming that note carries (not `lds-scriptures`: a note that only quotes scripture with a [[reference]] needs no row); a
+//   ledger `where` that names no note or section of the chapter, with the closest note title when a note was retitled (note titles are
+//   compared on letters, so straight and curly quotes agree); a note with no ledger row at all (reported once, not once per key, and not again when a retitled note's rows are found by their `where`); a
 //   passage of 12 or more characters in curly quotes in a note's body that no ledger row for that note quotes, that is not followed in its
 //   sentence by a [[reference]] (check-quotes.mjs checks those), and that is not a phrase of the chapter's own verses.
 // Proposed sources (STANDARDS.md §5): the entries a writer left in .cache/batch/<book>/proposed/NN.yaml are added to sources.yaml in memory,
@@ -48,7 +49,7 @@ import path from 'node:path';
 import YAML from 'yaml';
 import { parseRef } from '../src/lib/refs.mjs';
 import { letters } from '../src/lib/pages.mjs';
-import { SCRIPT_ROOT, readProposed, mergeProposed, proposedFile, isWiki, pageSections, headingKey, whereKey, partsOfWhere, verseOf } from '../src/lib/ledger.mjs';
+import { SCRIPT_ROOT, readProposed, mergeProposed, proposedFile, isWiki, pageSections, headingKey, whereKey, partsOfWhere, closestNote, verseOf } from '../src/lib/ledger.mjs';
 
 // Works known to be unreadable online. Citing one in a strict chapter needs quoted evidence
 // in the ledger, since nobody can check the claim against the page.
@@ -362,9 +363,16 @@ for (const book of books) {
     for (const r of rows) {
       const { ids, missing } = partsOfWhere(r?.where, ch);
       for (const id of ids) if (id.startsWith('note:')) byNote[+id.slice(5)].push(r);
-      for (const m of missing) unnamed.set(m, (unnamed.get(m) ?? 0) + 1);
+      for (const m of missing) (unnamed.get(m) ?? unnamed.set(m, []).get(m)).push(r);
     }
-    for (const [w, n] of unnamed) whereNoPart.push(`${lf}: “${w}” names no note or section of the chapter (${n} row${n > 1 ? 's' : ''})`);
+    // A `where` that names a note that is not there is a note retitled after its rows were written: reported once, with the closest title.
+    // Its rows are counted for that note when it has none of its own, so the note is not reported again as having no row.
+    const explained = new Set();
+    for (const [w, mine] of unnamed) {
+      const near = closestNote(ch, w), pair = near && (near.sameVerse || near.score >= 0.4) && !byNote[near.index].length && !explained.has(near.index) ? near : null;
+      if (pair) { explained.add(pair.index); byNote[pair.index].push(...mine); }
+      whereNoPart.push(`${lf}: “${w}” ${near ? 'no longer matches a note' : 'names no part of the chapter'} (${mine.length} row${mine.length > 1 ? 's' : ''})${near ? ';' : ''} ${near ? `the closest title in the chapter is “${near.note.title}” (note ${near.note.ref}${near.sameVerse ? '' : ', another verse'})${pair ? ', which has no row of its own' : ''}` : ''}`.trimEnd());
+    }
     // The chapter's own verses, to leave out a quotation of them (check-quotes.mjs checks those that carry a reference).
     const kjvFile = [ROOT, SCRIPT_ROOT].map((r) => path.join(r, 'data/kjv', `${book}.json`)).find(existsSync);
     const ownVerses = kjvFile ? letters(((JSON.parse(await readFile(kjvFile, 'utf8')).chapters ?? [])[num - 1] ?? []).join(' ')) : '';
@@ -372,7 +380,7 @@ for (const book of books) {
       const mine = byNote[i];
       if (!mine.length) { noteNoRow.push(noteLabel(n)); return; }
       for (const k of new Set((n.sources ?? []).map(keyOf).filter(isKey)))
-        if (!mine.some((r) => String(r.key) === k)) keyNoRow.push(`${noteLabel(n)}: “${k}” is in its sources, but no ledger row for ${k} names this note`);
+        if (k !== 'lds-scriptures' && !mine.some((r) => String(r.key) === k)) keyNoRow.push(`${noteLabel(n)}: “${k}” is in its sources, but no ledger row for ${k} names this note`);
       const body = String(n.body ?? ''), rowLetters = mine.map((r) => letters(r.quote)).join('|');
       for (const m of body.matchAll(/“([^”]{12,})”/g)) {
         const after = body.slice(m.index + m[0].length), cut = after.replace(/\[\[[^\]]*\]\]/g, (x) => 'R'.repeat(x.length)).search(/[.!?](?:\s|$)/);
@@ -434,8 +442,8 @@ if (leaning.length && !quiet) {
 for (const [group, list] of [
   ['Proposed sources the chapter does not cite (warnings only)', unusedProposed],
   [`Notes with no ledger row that names them (warnings only; STANDARDS.md §5): ${noteNoRow.length}`, noteNoRow],
-  [`Keys in a note's sources with no ledger row that names the note (warnings only; STANDARDS.md §5): ${keyNoRow.length}`, keyNoRow],
-  [`Ledger rows whose where names no note or section of the chapter (warnings only; STANDARDS.md §5): ${whereNoPart.length}`, whereNoPart],
+  [`Keys in a note's sources with no ledger row that names the note (warnings only; STANDARDS.md §5; lds-scriptures is left out: a note that only quotes scripture with a [[reference]] needs no row): ${keyNoRow.length}`, keyNoRow],
+  [`Ledger rows whose where no longer matches a note or section of the chapter, usually a note retitled (warnings only; STANDARDS.md §5): ${whereNoPart.length}`, whereNoPart],
   [`Passages in curly quotes in a note that no ledger row for the note quotes (warnings only; STANDARDS.md §5; a quotation followed by a [[reference]] is left to check-quotes): ${quoteNoRow.length}`, quoteNoRow],
   ['Pointers to a note that isn\'t there, in chapters without a ledger (warnings only; STANDARDS.md §3)', dangling],
   ['Sources announced in the text (warnings only; STANDARDS.md §3: quote with the reference, don\'t announce the source)', announced],

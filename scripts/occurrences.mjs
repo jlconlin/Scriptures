@@ -8,9 +8,10 @@
 //          remembereth); an irregular form (begat, spake) is a phrase of its own. --books (or the book “all”): every book in data/kjv/.
 //        node scripts/occurrences.mjs <book> --hebrew <strongs>
 //          every verse of the book where that Hebrew word occurs in the Westminster Leningrad Codex (src/lib/hebrew.mjs, the reading
-//          scripts/hebrew.mjs uses), with the King James verse of the same number beside it, so the one Hebrew word can be seen in
-//          each of its English renderings. Hebrew verse numbers sometimes differ from the King James Version's, so a verse beside
-//          the Hebrew may be the neighbor of the one that translates it.
+//          scripts/hebrew.mjs uses), with the King James verse that translates it beside it, so the one Hebrew word can be seen in
+//          each of its English renderings. Verses are numbered as the King James Version numbers them; where the Hebrew numbers a
+//          verse differently the Hebrew reference is given beside it (“Malachi 4:5 (Hebrew 3:23)”), from the Open Scriptures verse
+//          map (src/lib/hebrew.mjs), and a psalm's title is shown as “title”, since the King James gives it no number.
 //        node scripts/occurrences.mjs <book> "<word or phrase>" --site [all]
 //          what the site already says: every note, and each chapter's setting, thread, christ and explore, and each theme and guide
 //          page in content/<book>/ (content/ for every book with `--site all`) whose text has the phrase, as book, chapter, verse,
@@ -21,7 +22,7 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import YAML from 'yaml';
 import { discoverBooks } from '../src/lib/books.mjs';
-import { wlcFile, loadWlc, parseStrongs, wordHits, WLC_NOTE } from '../src/lib/hebrew.mjs';
+import { wlcFile, loadWlc, loadVerseMap, hebrewToKjv, parseStrongs, wordHits, WLC_NOTE } from '../src/lib/hebrew.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 process.stdout.on('error', (e) => { if (e.code === 'EPIPE') process.exit(0); }); // piped into head
@@ -126,13 +127,22 @@ if (hebrew !== null) {
     if (!file) { console.log(`${j.book}: no Hebrew text (not an Old Testament book).\n`); continue; }
     const wlc = await loadWlc(file, { fresh });
     if (wlc.error) { console.error(`${wlc.error}: ${wlc.url}`); process.exit(1); }
+    const map = await loadVerseMap({ fresh });
+    if (map.error) { console.error(`${map.error}: ${map.url} (the verse map)`); process.exit(1); }
     const hits = wordHits(wlc.verses, want);
     const count = hits.reduce((n, v) => n + v.words.length, 0);
     grand += count;
     console.log(`${j.book}: H${hebrew.replace(/^H/i, '')} (https://biblehub.com/hebrew/${want.n}.htm) in the Westminster Leningrad Codex (${wlc.url}): ${plural(count, 'occurrence')} in ${plural(hits.length, 'verse')}.`);
-    console.log(`${WLC_NOTE}; each Hebrew verse is shown with the King James verse of the same number.\n`);
-    const rows = hits.map((v) => { const [, c, vs] = v.id.split('.').map(Number); return { c, v: vs, hebrew: v.words.map((w) => w.text + (w.note ? ` (${w.note})` : '')).join('  '), text: j.chapters[c - 1]?.[vs - 1] }; });
-    for (const r of rows) console.log(`${j.book} ${r.c}:${r.v}  ${r.hebrew}\n    ${r.text ?? '(no such verse in the King James text: the verse numbers differ here)'}`);
+    console.log(`${WLC_NOTE}; each Hebrew verse is shown with its King James verse (a verse the Hebrew numbers differently has the Hebrew reference beside it).\n`);
+    const rows = hits.map((v) => {
+      const [, hc, hv] = v.id.split('.').map(Number), k = hebrewToKjv(map, v.id)[0];
+      const hebrewWords = v.words.map((w) => w.text + (w.note ? ` (${w.note})` : '')).join('  ');
+      // A psalm's title has no King James verse number.
+      if (k.title) return { c: hc, v: 0, label: `${j.book} ${hc} title (Hebrew ${hc}:${hv})`, hebrew: hebrewWords, text: '(the psalm\'s title: the King James prints it above the psalm, with no verse number)' };
+      const [, c, vs] = k.id.split('.').map(Number);
+      return { c, v: vs, label: `${j.book} ${c}:${vs}${k.id !== v.id ? ` (Hebrew ${hc}:${hv}${k.partial ? ', part of the verse' : ''})` : ''}`, hebrew: hebrewWords, text: j.chapters[c - 1]?.[vs - 1] };
+    });
+    for (const r of rows) console.log(`${r.label}  ${r.hebrew}\n    ${r.text ?? '(no such verse in the King James text)'}`);
     if (!rows.length) console.log('(none: a number the file does not use, or a word that carries another number)');
     console.log(`\nBy chapter (verses): ${byChapter(rows, (r) => r.c) || 'none'}`);
     console.log(`Total: ${plural(count, 'occurrence')} in ${plural(rows.length, 'verse')}.\n`);

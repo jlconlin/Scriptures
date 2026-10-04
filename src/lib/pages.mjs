@@ -159,14 +159,15 @@ const tidy = (t) => t.replace(/[ \t\r\f]+/g, ' ').replace(/ *\n */g, '\n').repla
  * navigation and footers are dropped, entities decoded, tags stripped; text is not otherwise changed. Options:
  * drop(tag, attrs) → true to drop an element and what is inside it; heading(tag, attrs) → a level for a heading that is
  * not an <h1>–<h6>, `label: true` for a line that belongs in front of the next heading; anchors: true to start a paragraph
- * at each <a name="…"> (Bible Hub's Septuagint puts one before each verse); inline: tags to treat as inline, not blocks.
+ * at each <a name="…"> (Bible Hub's Septuagint puts one before each verse); inline: tags to treat as inline, not blocks; cells: true to
+ * make each table row one paragraph, its cells separated by “ | ” (a date beside its event), not one paragraph for every cell and every <p> in it.
  */
-export function blocks(html, { drop = () => false, heading = () => 0, anchors = false, inline = [] } = {}) {
+export function blocks(html, { drop = () => false, heading = () => 0, anchors = false, inline = [], cells = false } = {}) {
   const isBlock = (t) => BLOCK.has(t) && !inline.includes(t);
   const out = [];
   let cur = '', curId = null, nextId = null, refs = [], skip = null, head = null, tables = 0;
   const flush = () => {
-    const t = tidy(cur);
+    const t = cells ? tidy(cur).replace(/(?:\s*\|)+\s*$/, '') : tidy(cur);
     if (t) out.push({ type: 'p', text: t, id: curId, refs });
     cur = ''; curId = null; nextId = null; refs = [];
   };
@@ -189,6 +190,7 @@ export function blocks(html, { drop = () => false, heading = () => 0, anchors = 
     }
     if (close) {
       if (head && tag === head.tag && --head.depth === 0) { out.push({ type: 'h', text: tidy(head.text), level: head.level, label: head.label }); head = null; }
+      else if (cells && tables > 0 && !head && tag !== 'table' && tag !== 'tr' && (tag === 'td' || tag === 'th' || isBlock(tag))) cur += tag === 'td' || tag === 'th' ? ' | ' : ' ';
       else if (tag === 'table' && !head) { if (--tables <= 0) { tables = 0; flush(); } }
       else if (isBlock(tag) && !head && !(tag === 'tr' && tables > 1)) flush();
       continue;
@@ -205,7 +207,7 @@ export function blocks(html, { drop = () => false, heading = () => 0, anchors = 
     else if (tag === 'a' && anchors && a.name && !a.href) { flush(); nextId = null; }
     else if (tag === 'td' || tag === 'th') cur += ' ';
     else if (tag === 'table') { if (tables++ === 0) flush(); }
-    else if (isBlock(tag) && !(tag === 'tr' && tables > 1)) { flush(); nextId = a.id ?? null; }
+    else if (isBlock(tag) && !(tag === 'tr' && tables > 1) && !(cells && tables > 0 && tag !== 'tr')) { flush(); nextId = a.id ?? null; }
   }
   flush();
   return out;
@@ -213,11 +215,17 @@ export function blocks(html, { drop = () => false, heading = () => 0, anchors = 
 
 // The paragraphs of a page, numbered, each knowing the heading it sits under. A page whose paragraphs all have the Church's
 // ids (id="p12") keeps those numbers: they are what a link's id=p12 means.
-function assemble(items) {
+// On a scripture chapter (`scripture`) a paragraph is numbered by its verse, from the verse-number span that parseGL left in the text as
+// \u0001N\u0002 (the Church's paragraph ids count the headnote and chapter heading too, so they run ahead of the verse numbers); a
+// paragraph with no verse number before the first verse (a headnote, the chapter heading) is numbered 0 and labelled; one after a verse, with an
+// id of its own (a verse's second paragraph), has that verse's number.
+const VERSE_MARK = /^\u0001(\d+)\u0002/;
+const PREVERSE = [[/^study_summary/, 'chapter heading'], [/^(?:study_)?intro/, 'headnote'], [/^subtitle/, 'subtitle']];
+function assemble(items, scripture = false) {
   const ps = items.filter((i) => i.type === 'p');
   const useIds = ps.length > 0 && ps.every((p) => /^p\d+$/.test(p.id ?? ''));
   const paras = [], heads = [];
-  let head = null, label = '', auto = 0;
+  let head = null, label = '', auto = 0, verse = 0;
   const open = (text, level) => { head = { text, level, from: null, to: null }; heads.push(head); };
   for (const it of items) {
     if (it.type === 'h') {
@@ -225,9 +233,15 @@ function assemble(items) {
       open((label ? `${label}: ` : '') + it.text, it.level); label = '';
     } else {
       if (label) { open(label, 3); label = ''; }
-      const n = useIds ? +it.id.slice(1) : ++auto;
-      paras.push({ n, text: it.text, head: head?.text ?? '', refs: it.refs });
-      if (head) { head.from ??= n; head.to = n; }
+      let n, plabel, text = it.text;
+      if (scripture) {
+        const m = it.text.match(VERSE_MARK);
+        if (m) verse = +m[1];
+        n = verse; plabel = verse ? `v. ${verse}` : (PREVERSE.find(([re]) => re.test(it.id ?? ''))?.[1] ?? 'text before verse 1');
+        text = text.replace(VERSE_MARK, '').replace(/\u0001\d+\u0002\s*/g, '');
+      } else n = useIds ? +it.id.slice(1) : ++auto;
+      paras.push({ n, text, head: head?.text ?? '', refs: it.refs, ...(plabel ? { label: plabel } : {}) });
+      if (head && n) { head.from ??= n; head.to = n; }
     }
   }
   return { paras, heads: heads.filter((h) => h.text) };
@@ -250,11 +264,20 @@ function parseGL(state, url) {
   const entry = stores[want]?.content?.body ? stores[want] : Object.values(stores).find((e) => e.content?.body);
   if (!entry) throw new Error('no content in the page data');
   const { meta, content } = entry;
-  const items = blocks(content.body, {
-    drop: (tag, a) => tag === 'footer' || (tag === 'sup' && hasClass(a, 'marker')) || (tag === 'span' && hasClass(a, 'verse-number', 'page-break')) || (tag === 'a' && hasClass(a, 'note-ref')) || hasClass(a, 'title-number'),
+  // A scripture chapter: its verse numbers are kept, as a marker in the text, to number the paragraphs by (see assemble).
+  const scripture = (content.body.match(/class="verse-number"/g) ?? []).length >= 2;
+  const body = scripture ? content.body.replace(/<span class="verse-number">\s*(\d+)\s*<\/span>/g, '\u0001$1\u0002') : content.body;
+  const items = blocks(body, {
+    drop: (tag, a) => tag === 'footer' || (tag === 'sup' && hasClass(a, 'marker')) || (tag === 'span' && hasClass(a, 'verse-number', 'page-break')) || (tag === 'a' && hasClass(a, 'note-ref')) || hasClass(a, 'title-number', 'card-label'), // a table cell's column label, repeated for a narrow screen
+    cells: true,
     heading: (tag, a) => (hasClass(a, 'study-summary') ? { level: 2 } : hasClass(a, 'scripture-title') ? { label: true } : 0),
   });
-  const { paras, heads } = assemble(items);
+  // A manual's contents page: a list of links in a <nav>, which blocks() leaves out; its chapters, with their addresses, are its paragraphs.
+  if (!items.some((i) => i.type === 'p') && /<nav class="manifest"/.test(content.body)) {
+    for (const m of content.body.matchAll(/<h[1-6][^>]*><p class="title">([^<]*)<\/p>|<a href="([^"]*)"[^>]*><p class="title">([^<]*)<\/p>/g))
+      items.push(m[1] !== undefined ? { type: 'h', text: tidy(decode(m[1])), level: 2 } : { type: 'p', text: `${tidy(decode(m[3]))}  ${new URL(decode(m[2]), CHURCH).href}`, id: null, refs: [] });
+  }
+  const { paras, heads } = assemble(items, scripture);
   const notes = Object.values(content.footnotes ?? {}).map((f) => ({
     id: f.id, marker: f.marker, context: f.context ?? '', text: oneLine(f.text), links: links(f.text, CHURCH),
     jst: /data-note-category="jst"/.test(f.text), at: citedIn(paras, f.id),
@@ -343,14 +366,14 @@ export function parseOrEmpty(raw, url = '') {
 export async function readPage(url, opts = {}) {
   const got = await fetchPage(url, { tries: 5, wait: 4000, ...opts }); // the Church's site drops out for a minute now and then
   if (got.error) return { url, error: got.error };
-  const page = parsePage(got.raw, url);
-  return { url, ...page, chars: page.paras.reduce((n, p) => n + p.text.length, 0), rawLength: got.raw.length };
+  const page = parseOrEmpty(got.raw, url);
+  return { url, ...page, chars: page.paras.reduce((n, p) => n + p.text.length, 0), rawLength: got.raw.length, problems: pageProblems(got.raw, page) };
 }
 
 // ---------- is it the page that was meant? ----------
 
 const BLOCKED = /just a moment|attention required|access denied|enable javascript|checking your browser|verify you are (?:a )?human|are you a robot|captcha|request blocked|403 forbidden|cf-browser-verification|challenge-platform|pardon our interruption|security check|unusual traffic/i;
-const GONE = /\b404\b|page not found|not found|no longer available|page unavailable|does not exist|can[’']t be found/i;
+const GONE = /^\W*(?:404\b|error 404|page not found|not found\b|file not found|we can[’']t find|sorry,? we (?:couldn[’']t|can[’']t) find|the page you (?:requested|are looking for)|this page (?:does not exist|can[’']t be found|is no longer available)|page unavailable)|\bpage not found\b|\b404\b.{0,20}not found|error 404/i;
 /**
  * What is wrong with a page that loaded, as a list of plain phrases (empty when nothing is): a block or challenge page,
  * a not-found page, a PDF with no text layer, a page with almost no text. `raw` is what fetchPage kept, `page` what parsePage read.
@@ -359,8 +382,8 @@ export function pageProblems(raw, page) {
   const out = [];
   const head = [page.title, page.heads?.[0]?.text, page.paras?.[0]?.text.slice(0, 300)].filter(Boolean).join(' | ');
   if (page.kind === 'pdf') { if (page.paras.every((p) => !p.text.trim())) out.push('a PDF with no text layer (a scan)'); return out; }
-  if (BLOCKED.test(head) || (raw.length < 20000 && BLOCKED.test(raw.replace(/<script[\s\S]*?<\/script>/gi, '')))) out.push('a block or challenge page');
-  if (GONE.test([page.title, page.heads?.[0]?.text].filter(Boolean).join(' | '))) out.push('looks like a not-found page');
+  if ([page.title, ...(page.heads ?? []).slice(0, 4).map((h) => h.text)].some((t) => t && GONE.test(t))) out.push('looks like a not-found page');
+  else if (BLOCKED.test(head) || (raw.length < 20000 && BLOCKED.test(raw.replace(/<script[\s\S]*?<\/script>/gi, '')))) out.push('a block or challenge page');
   if (page.paras.reduce((n, p) => n + p.text.length, 0) < 200 && !out.length) out.push('almost no text (a page that needs a browser?)');
   return out;
 }
