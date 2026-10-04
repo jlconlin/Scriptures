@@ -18,6 +18,11 @@ const ensignArt = `<svg class="hero-art" viewBox="0 0 320 220" aria-hidden="true
   <g fill="var(--art-people)"><circle cx="40" cy="200" r="3"/><circle cx="54" cy="196" r="3"/><circle cx="286" cy="206" r="3"/><circle cx="272" cy="202" r="3"/><circle cx="118" cy="186" r="3"/></g>
 </svg>`;
 
+const homeHeroArt = `<img class="hero-art home-hero-art" src="/assets/home-hero-concept.png" alt="An open book before a path winding toward light at the base of a mountain.">`;
+const isaiahBookArt = `<img class="hero-art isaiah-book-art" src="/assets/isaiah-branch-and-water.png" alt="A living branch grows from a weathered stump beside a winding stream.">`;
+const genesisBookArt = `<img class="hero-art genesis-book-art" src="/assets/genesis-covenant-landscape.png" alt="A fountain flows beneath the Tree of Life into a river dividing a verdant garden from an open, covenant-marked landscape.">`;
+const jeremiahBookArt = `<img class="hero-art jeremiah-book-art" src="/assets/jeremiah-potter-and-almond.png" alt="An almond branch bends above a hand-formed clay vessel, with Jerusalem in the distance.">`;
+
 // The home page's teaser cards. The “Show three more” button draws others in the browser from
 // notes.json, which carries teaserText for every note; site.js builds the same card, taking each
 // kind's chip from the <template class="teaser-chip"> elements under the cards.
@@ -37,17 +42,17 @@ export function renderHome({ books, featured }) {
   const body = `
 <section class="home-hero">
   <div class="wrap home-hero-inner">
-    <div>
+    <div class="home-hero-copy">
       <p class="eyebrow">${logo} A scripture study companion</p>
       <h1>“What does <em>that</em> mean?”</h1>
       <p class="lede">Some passages of scripture make you stop and read them three times. This site is for those passages. It goes phrase by phrase, the way a patient religion teacher might, with the history, the language, the imagery, and the witness of Jesus Christ that sits underneath them.</p>
-      <div class="cta-row">
-        <a class="btn btn-primary" href="#library">Choose a book</a>
-        <a class="btn" href="/about/">How this site works</a>
-      </div>
     </div>
-    ${ensignArt}
   </div>
+  <div class="wrap home-hero-visual">${homeHeroArt}</div>
+  <div class="wrap home-hero-actions"><div class="cta-row">
+    <a class="btn btn-primary" href="#library">Choose a book</a>
+    <a class="btn" href="/about/">How this site works</a>
+  </div></div>
 </section>
 
 <section class="wrap home-section" id="library">
@@ -105,6 +110,7 @@ ${sorted.length ? `<section class="wrap narrow book-section"><div class="volumes
 }
 
 export function renderBookIndex({ book, guides, sources }) {
+  const bookArt = book.slug === 'isaiah' ? isaiahBookArt : book.slug === 'genesis' ? genesisBookArt : book.slug === 'jeremiah' ? jeremiahBookArt : ensignArt;
   const divisions = book.divisions
     .map((d) => {
       const chs = book.chapters.filter((c) => c.chapter >= d.range[0] && c.chapter <= d.range[1]);
@@ -146,7 +152,7 @@ export function renderBookIndex({ book, guides, sources }) {
       <div class="prose lede">${md(book.intro)}</div>
       <div class="progress" aria-live="polite"><div class="progress-bar"><span style="width:0%"></span></div><span class="progress-label">Mark chapters as studied to track your progress.</span></div>
     </div>
-    ${ensignArt}
+    ${bookArt}
   </div>
 </section>
 

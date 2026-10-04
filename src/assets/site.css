@@ -265,6 +265,9 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 .prose .heb, .heb { font-family: 'SBL Hebrew', 'Times New Roman', serif; font-size: 1.1em; direction: rtl; unicode-bidi: isolate; }
 a.ref { white-space: nowrap; }
 a.ref-internal { text-decoration-style: dotted; }
+.guide-illustration { margin: 28px 0 32px; }
+.guide-illustration img { display: block; width: 100%; border-radius: 16px; }
+.guide-illustration figcaption { margin-top: 8px; color: var(--muted); font: italic .9rem/1.45 var(--font-read); }
 
 /* ---------- note kinds (chips + colors) ---------- */
 .k-words { --k: var(--k-words); }
@@ -285,15 +288,19 @@ a.ref-internal { text-decoration-style: dotted; }
 /* ---------- home ---------- */
 .home-hero, .book-hero { padding: 32px 0 16px; }
 .home-hero-inner, .book-hero-inner { display: grid; gap: 24px; align-items: center; }
+.home-hero-inner, .book-hero-inner { display: block; }
+.home-hero-copy { max-width: 44rem; }
 .home-hero h1 { font-size: clamp(2.3rem, 9vw, 4rem); font-weight: 600; margin-bottom: .3em; }
 .home-hero h1 em { font-style: italic; color: var(--accent); }
 .hero-art { width: 100%; max-width: 420px; height: auto; justify-self: center; border-radius: 24px; }
-.book-hero .hero-art { display: none; }
-@media (max-width: 859px) { .home-hero .hero-art { max-width: 300px; } }
-@media (min-width: 860px) { .book-hero .hero-art { display: block; } }
+.home-hero-visual { margin-top: 32px; }
+.home-hero .home-hero-art { display: block; width: 100%; max-width: none; }
+.home-hero-actions .cta-row { margin-top: 24px; }
+.book-hero .hero-art { display: block; width: 100%; max-width: none; margin-top: 32px; }
 @media (min-width: 860px) {
   .home-hero, .book-hero { padding: 64px 0 32px; }
-  .home-hero-inner, .book-hero-inner { grid-template-columns: 1.3fr 1fr; gap: 48px; }
+  .book-hero-inner { grid-template-columns: 1.3fr 1fr; gap: 48px; }
+  .home-hero-visual { margin-top: 48px; }
 }
 .home-section, .book-section { margin-top: 48px; }
 /* The library on the home page: the Scriptures menu's three columns, open on the page (site.js).
