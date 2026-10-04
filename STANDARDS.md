@@ -200,6 +200,7 @@ node scripts/build.mjs                                  # warns about phrases no
 node scripts/check-quotes.mjs [book] <n>                # verify quoted scripture
 node scripts/check-content.mjs [book [n]]              # sources, keys, unreadable works, wikis, ledger, length
 node scripts/check-ledger.mjs [book] [n...]            # reopens every ledger row's URL and confirms the quote is on the page
+node scripts/check-kjv.mjs <book>                       # compares the book's KJV text with the Gospel Library edition
 npm run dev                                             # preview at http://localhost:4321
 ```
 

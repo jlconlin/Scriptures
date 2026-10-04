@@ -29,6 +29,17 @@ const LDS_SPELLINGS = [
   [/\brereward\b/g, 'rearward'],
   [/\bnoon day\b/g, 'noonday'],
   [/Hephzibah/g, 'Hephzi-bah'],
+  // Isaiah: where the Gospel Library has “Lord” (adonai) and the source LORD, or the reverse, and two commas
+  // (found by scripts/check-kjv.mjs, which the first import of Isaiah did not have).
+  [/Therefore saith the LORD, the LORD of hosts/g, 'Therefore saith the Lord, the LORD of hosts'], // Isa. 1:24
+  [/the whole stay of water\.$/g, 'the whole stay of water,'], // Isa. 3:1
+  [/Therefore the LORD will smite with a scab/g, 'Therefore the Lord will smite with a scab'], // Isa. 3:17
+  [/I saw also the LORD sitting upon a throne/g, 'I saw also the Lord sitting upon a throne'], // Isa. 6:1
+  [/Therefore the LORD shall have no joy in their young men/g, 'Therefore the Lord shall have no joy in their young men'], // Isa. 9:17
+  [/For thus hath the LORD said unto me, (Go, set a watchman|Within a year)/g, 'For thus hath the Lord said unto me, $1'], // Isa. 21:6, 16
+  [/^O Lord, thou art my God; I will exalt thee/g, 'O LORD, thou art my God; I will exalt thee'], // Isa. 25:1
+  [/^O LORD, by these things men live/g, 'O Lord, by these things men live'], // Isa. 38:16
+  [/The Lord GOD, which gathereth the outcasts/g, 'The Lord GOD which gathereth the outcasts'], // Isa. 56:8
   // Jeremiah
   [/\bEnquire\b/g, 'Inquire'],
   [/Bethhaccerem/g, 'Beth-haccerem'],
