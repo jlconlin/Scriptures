@@ -57,3 +57,50 @@ Topics that run across chapters, reported as chapters are written. Most will nev
 - (13) Altars marking the land: Gen. 12:7–8; 13:4, 18; 22:9; 26:25; 33:20; 35:1–7.
 - (13) One everlasting covenant from Enoch and Noah to Abraham: JST Gen. 9:21–23; the JST footnote at Gen. 13:14; Gen. 17:7.
 - (13) The numberless seed (dust, stars, sand): Gen. 13:16; 15:5; 22:17; 28:14; D&C 132:30–31.
+
+## Reported by chapters 14–26 (not yet sorted)
+
+- (14) Who makes Abraham rich: 14:21–23 with JST Gen. 14:39–40 and Gen. 15:1; compare 12:16 and 13:2 (part of the Abrahamic covenant theme).
+- (14) Melchizedek and the priesthood handed down to Abraham: Gen. 14:18–20; Abr. 1:2–4; D&C 84:14; D&C 107:2–4; Alma 13.
+- (14) Abram as Lot's rescuer, then his intercessor: 14:12–16; 18:23–33; 19:29.
+- (15) The Abrahamic covenant formally made, renewed and confirmed: 15:9–21, with 12:1–3, 17:1–14 and 22:16–18.
+- (15) Land promised but never owned, an everlasting inheritance through the Resurrection: 15:7–8 and 15:18, with JST Gen. 15:9–12, 13:15, 17:8, 23, and Heb. 11:9–13.
+- (15) Faith counted as righteousness: 15:6, then 22:12–18 (Rom. 4; James 2:21–23).
+- (15) The Egyptian bondage and exodus foretold: 15:13–16, then 46:3–4 and 50:24–25.
+- (16) God sees and hears the afflicted: 16:11, 13; 21:17, 19; 29:32–33; 31:42.
+- (16) Covenant blessings beyond the chosen line: 16:10; 17:20; 21:13, 18; 25:12–16; D&C 132:34 (could fold into the Abrahamic covenant candidate).
+- (16) The later son chosen over the firstborn: Ishmael and Isaac, 16:15; 17:18–21; 21:12 (part of the existing candidate).
+- (16) Wells as places of meeting God: 16:14; 21:19; 24:62; 25:11.
+- (17) New names at covenant moments: Abram to Abraham and Sarai to Sarah (17:5, 15); Jacob to Israel, with the same 'God Almighty… be fruitful… kings' promise (32:28; 35:10–11).
+- (17) The Abrahamic covenant from chapter 12 to 50 (already a candidate): renewed in 17:1–8 with Isaac named heir (17:19–21); El Shaddai returns at 28:3, 35:11, 48:3.
+- (17) Covenant signs: the rainbow (9:12–17), circumcision (17:11), later the Sabbath (Ex. 31:13).
+- (17) The younger son chosen over the elder (already a candidate): Isaac over Ishmael (17:18–21).
+- (18) Barren women given promised sons, and 'Is any thing too hard for the LORD?': 18:10–14; 21:1–2; 25:21; 30:22 (Luke 1:37).
+- (18) Abraham as prophet and intercessor: 18:17–33; 20:7, 17; answered in 19:27–29.
+- (18) Hospitality to strangers as a test: 18:1–8; 19:1–11; 24:31–33.
+- (19) “God remembered”: Noah (Gen. 8:1), Abraham and Lot (Gen. 19:29), Rachel (Gen. 30:22), carried on in Ex. 2:24.
+- (19) The righteous brought out before the judgment, Noah and Lot together (Gen. 19:16, 22, 29; 2 Pet. 2:5–9; Luke 17:26–30).
+- (19) Moab and Ammon as Lot's heirs, through Ruth to David and Christ (Gen. 19:37–38; Deut. 2:9, 19; Ruth 4:13–17; Matt. 1:5).
+- (20) The promise endangered and kept: the mother of the promised seed is taken into a foreign house and the LORD steps in (Gen. 12:10–20; 20:1–18; 26:6–11).
+- (20) Abraham as intercessor and prophet: 18:22–33; 20:7, 17 (compare Job 42:8).
+- (20) God-fearing outsiders: Abimelech (20:4–11; 21:22–23), Melchizedek (14:18–20), Pharaoh (41:38–39). Still needs testing against the text.
+- (21) The younger son chosen over the elder: Isaac over Ishmael (21:10–13), with God's continued care for the elder (21:13, 17–20; 25:9, 16).
+- (21) God sees and God hears: Hagar's "Thou God seest me" (16:13), "God heard the voice of the lad" (21:17), "God opened her eyes" (21:19), Jehovah-jireh (22:14).
+- (21) Oaths and wells at Beer-sheba: 21:22–33; 26:17–33; 28:10; 46:1.
+- (21) The barren mother given a son by promise: Sarah (21:1–7), then Rebekah and Rachel.
+- (23) The promised land held only as a grave: Abraham, a 'stranger', holds a 'possession' that is a burial place (Gen. 17:8; 23:4, 20). Jacob's and Joseph's burial charges follow (Gen. 47:29–30; 49:29–32; 50:13, 24–25), and Hebrews reads them as faith (Heb. 11:13–16, 22). This belongs under the existing candidate 'the Abrahamic covenant from chapter 12 to chapter 50'.
+- (24) Covenant marriage and the matriarchs' choices: 24:3–8, 57–58; 26:34–35; 27:46–28:5.
+- (24) Hesed as covenant loyalty: 19:19; 20:13; 21:23; 24:12, 14, 27, 49; 32:10; 39:21; 40:14; 47:29.
+- (24) Betrothals at wells: 24:10–28; 29:1–12; Ex. 2:15–21; John 4.
+- (24) 'Go', leaving the father's house at the Lord's word: 12:1; 24:4–8, 58; 28:2; 31:3, 13.
+- (25) The younger chosen over the elder: Gen. 25:23, 31–34; Rom. 9:10–13; Mal. 1:2–3; 1 Ne. 2:22 (KnoWhy #462: Jacob, Joseph, Judah, Ephraim, David, Solomon).
+- (25) Barren mothers of the covenant line: Gen. 11:30; 25:21; 29:31.
+- (25) Side branches told first and set aside, the chosen line followed: Gen. 4–5; 10–11; 25:12–19; 36 (Bible Dictionary 'Genesis').
+- (25) Birthright and the Firstborn, pointing to Christ: Gen. 25:31–34; 27:36; 48:13–20; 1 Chr. 5:1–2; Abr. 1:3; Heb. 12:16, 23; D&C 93:21–22.
+- (25) 'Gathered to his people': Gen. 25:8, 17; 35:29; 49:33; Num. 20:24; Deut. 32:50.
+- (25) Brothers together at a father's grave: Gen. 25:9; 35:29 (fits brothers in conflict and reconciliation).
+- (25) Midian and the priesthood line to Moses: Gen. 25:2; Ex. 2:15–21; 18; D&C 84:6–13.
+- (26) "The LORD was with him," seen by outsiders: 21:22; 26:28–29; 39:2–3, 21–23 (and God's "I will be with thee" to Jacob, 28:15; 31:3).
+- (26) The covenant renewed to each generation under the title "the God of Abraham… Isaac… Jacob": 26:3–5, 24; 28:13–15; 35:11–12; 46:3; Ex. 3:6; 1 Ne. 19:10.
+- (26) Wells, oaths, and covenants in the Negev: 16:14; 21:25–33; 24:11–20; 26:15–33; 29:2–10.
+- (26) The heir kept in the land or sent out of it: 24:6–8; 26:2; 46:3–4.

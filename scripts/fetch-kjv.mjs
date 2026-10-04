@@ -92,6 +92,17 @@ const LDS_SPELLINGS = [
   [/Potipherah/g, 'Poti-pherah'],
   [/and Pharez, and Zarah: but Er/g, 'and Pharez, and Zerah: but Er'], // Gen. 46:12
   [/Abelmizraim/g, 'Abel-mizraim'],
+  // The source file prints every “Lord” in Genesis as LORD. The Gospel Library keeps LORD (small capitals)
+  // for the divine name and “Lord” for adonai; these are the verses where they differ.
+  [/And God saw that the wickedness/g, 'And GOD saw that the wickedness'], // Gen. 6:5
+  [/LORD God, what wilt thou give me/g, 'Lord GOD, what wilt thou give me'], // Gen. 15:2
+  [/LORD God, whereby shall I know/g, 'Lord GOD, whereby shall I know'], // Gen. 15:8
+  [/My LORD, if now I have found favour/g, 'My Lord, if now I have found favour'], // Gen. 18:3
+  [/to speak unto the LORD, which am but dust/g, 'to speak unto the Lord, which am but dust'], // Gen. 18:27
+  [/Oh let not the LORD be angry/g, 'Oh let not the Lord be angry'], // Gen. 18:30, 32
+  [/to speak unto the LORD: Peradventure/g, 'to speak unto the Lord: Peradventure'], // Gen. 18:31
+  [/Oh, not so, my LORD/g, 'Oh, not so, my Lord'], // Gen. 19:18
+  [/he said, LORD, wilt thou slay/g, 'he said, Lord, wilt thou slay'], // Gen. 20:4
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 
