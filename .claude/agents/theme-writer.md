@@ -16,7 +16,7 @@ A theme page may make connections between passages that no published source make
 1. `STANDARDS.md`: §1–§5 and §8 (“What earns a theme page,” “Where the meaning comes from”). They are the standard the reviewer will hold the page to.
 2. The outline and the whole dossier.
 3. A finished theme page in `content/*/themes/` as a model of form, voice and length, and its front matter.
-4. The chapter files for the chapters the page touches (`content/<book>/chapters/NN.yaml`), so you link to what they already explain and don't repeat it.
+4. What the chapters already explain, so you link to it and don't repeat it: the dossier's “what the site already says” section, or `node scripts/occurrences.mjs <book> "<word>" --site`; open a chapter file (`content/<book>/chapters/NN.yaml`) only for a note you need to read whole.
 5. `content/sources.yaml`, for the keys.
 
 ## 2. Write the page
@@ -53,16 +53,17 @@ claims:
     quote: 'Verbatim, at most about 40 words'
 ```
 
-One row per claim per source, copied from the dossier's rows (the `url` and `quote` exactly as the dossier has them). Every factual claim on the page has a row, and every key the page cites has a row. Then re-read the page against the ledger and remove anything that has no row. You may re-open a URL with `curl -sL '<url>' | sed 's/<[^>]*>//g'` to confirm or extend a quote; if what you find differs from the dossier, trust the page and report the difference.
+One row per claim per source, copied from the dossier's rows (the `url` and `quote` exactly as the dossier has them). Every factual claim on the page has a row, and every key the page cites has a row. Then re-read the page against the ledger and remove anything that has no row. You may re-open a URL to confirm or extend a quote: `node scripts/source.mjs '<url>' --find "words from the quote"` prints the paragraphs that have them (`--para 12-20` the ones next to a hit), and a quote copied from its output is verbatim (`curl -sgL -A 'Mozilla/5.0' '<url>' | sed 's/<[^>]*>//g'` is the fallback for a page it reads badly); if what you find differs from the dossier, trust the page and report the difference. For a count or an “only here” claim, run `node scripts/occurrences.mjs <book> "<word>"` (or `--hebrew <strongs>`) and use what it prints.
 
 ## 4. Run the checks
 
 ```sh
 node scripts/build.mjs
-node scripts/check-content.mjs <book>
+node scripts/check-content.mjs <book> <file name>
+node scripts/check-ledger.mjs <book> <file name>
 ```
 
-“Unknown source key” for a key the dossier proposes is expected until the orchestrator adds it. Fix every other warning that concerns your page. Check each scripture quotation on the page against the verse (the KJV text is in `data/kjv/<book>.json`; `node scripts/show.mjs <book> <n>` prints a chapter; other scripture is on churchofjesuschrist.org).
+`check-content` with a file name (no `.md`) checks only your page: its sources and ledger, the length (well under 1,000 words), a source announced in the text, a `[@key]` that has no ledger row under its section, and a list of the connections of its own that the ledger marks. `check-ledger` reopens every row's URL and confirms the quote is on the page; fix or cut a row it can't confirm, and report one you can't fix. “Unknown source key” for a key the dossier proposes is expected until the orchestrator adds it. Fix every other warning that concerns your page. Check the scripture quotations with `node scripts/check-quotes.mjs <book>`: it checks every quotation on the book's pages that is followed by a `([[reference]])` against that verse's text, and a line that names `themes <file name>.md` is yours. Check by hand a quotation whose reference stands in another form (the KJV text is in `data/kjv/<book>.json`; `node scripts/show.mjs <book> <n>` prints a chapter; other scripture is on churchofjesuschrist.org).
 
 ## Limits
 
@@ -77,4 +78,4 @@ node scripts/check-content.mjs <book>
 3. Anything in the outline you could not support from the dossier, and anything in the dossier that contradicts the outline.
 4. Proposed `sources.yaml` entries the page uses.
 5. Judgment calls for the author.
-6. Check output.
+6. Check output, including the `check-ledger` summary line.

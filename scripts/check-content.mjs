@@ -22,12 +22,16 @@
 //   that chapter, when that chapter is written (resolved with the reference table the site uses, src/lib/refs.mjs; a book not
 //   on the site is skipped). An error in a chapter that has a ledger, a warning otherwise.
 // Other rules, warnings only, each under its own heading (STANDARDS.md §3, §1): a source announced in a note, `setting`, `thread`,
-//   `christ`, or `explore` (“the manual says”, “one commentator notes”); more than a third of a chapter's notes citing a
+//   `christ`, or `explore`, or in a section of a guide or theme page (“the manual says”, “one commentator notes”); more than a third of a chapter's notes citing a
 //   commentary read on Bible Hub; a `setting` under 120 or over 280 words (the guideline is 150–250).
+// Guide and theme pages (STANDARDS.md §8), warnings only: a theme page over 1,000 words (a guide is not held to it); a `[@key]` cited in a
+//   section whose ledger has no row for that key under that section (`where` “section “Heading”” or “opening”). Information, listed
+//   and not counted as a warning: the page's own connections, the ledger rows whose claim begins “Connection made by this page:”.
 // With --repeats: passages of 12 or more words quoted in the ledgers of three or more chapters of a book, from sources
 //   other than scripture, lexicons, and dictionary entries, so the coordinator can explain one once and link it.
 //
-// Usage: node scripts/check-content.mjs [book [chapter]] [--quiet] [--repeats] [--root <dir>]
+// Usage: node scripts/check-content.mjs [book [chapter | page file name]] [--quiet] [--repeats] [--root <dir>]
+//   (a second argument that is not a number is a guide or theme page, such as cup-of-fury: only that page is checked)
 // Exit code is 1 if there are errors, 0 otherwise (warnings never fail).
 import { readFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
@@ -65,6 +69,7 @@ const ANNOUNCE_VERBS = [
 const ANNOUNCED = new RegExp(`\\b(?:${ANNOUNCERS.join('|')})\\s+(?:also |then |here |likewise )?(?:${ANNOUNCE_VERBS.join('|')})\\b`, 'gi');
 const OUTSIDE_COMMENTARY_SHARE = 1 / 3; // of a chapter's notes, citing a commentary read on Bible Hub
 const SETTING_WORDS = [120, 280]; // the guideline is 150–250
+const PAGE_WORDS = 1000; // a theme page: “well under 1,000 words” (STANDARDS.md §8)
 // What --repeats leaves out: scripture, lexicons, and dictionary entries are meant to be quoted again.
 const REFERENCE_KEY = /^(?:lds-scriptures|greek-nt|biblehub-interlinear|lxx-|nrsv|niv$|esv$|kjv|oshb|tahot|bdb|halot|strongs|webster|thayer|jst-|mt-sefaria|.*-heading$)/;
 const REPEAT_WORDS = 12, REPEAT_CHAPTERS = 3;
@@ -78,7 +83,8 @@ for (let i = 0; i < args.length; i++) {
   else if (!args[i].startsWith('--')) positional.push(args[i]);
 }
 const repeats = args.includes('--repeats');
-const [onlyBook, onlyChapter] = positional;
+const [onlyBook, onlyChapter] = positional.map((p, i) => (i === 1 ? p.replace(/\.(?:md|yaml)$/, '') : p));
+const onlyPage = onlyChapter && !/^\d+$/.test(onlyChapter) ? onlyChapter : null; // a second argument that is not a number is a guide or theme page's file name
 const CONTENT = path.join(ROOT, 'content');
 
 let errors = 0;
@@ -141,6 +147,27 @@ const needsQuote = (label, k, rows) => {
   if (!rows.some((r) => r?.key === k && String(r.quote ?? '').trim())) err(`${label}: “${k}” is not readable online; its ledger needs a row with a quote`);
 };
 
+// A guide or theme page's sections: the text before the first heading is the opening (`heading: null`); a heading is `## …` or `<h2 …>…</h2>`.
+function pageSections(body) {
+  const out = [{ heading: null, text: '' }];
+  for (const line of body.split('\n')) {
+    const h = line.match(/^#{1,3}\s+(.*?)\s*$/) ?? line.match(/^<h[1-6][^>]*>(.*?)<\/h[1-6]>/);
+    if (h) out.push({ heading: h[1].replace(/<[^>]+>/g, '').replace(/[*_`]/g, '').trim(), text: '' });
+    else out.at(-1).text += `${line}\n`;
+  }
+  return out;
+}
+// Words as a reader counts them: no citations, tags or link addresses, and none of a table's rules.
+const wordCount = (md) => md.replace(/\[@[^\]]*\]/g, ' ').replace(/<[^>]+>/g, ' ').replace(/\]\([^)]*\)/g, ' ').split(/\s+/).filter((w) => /[\p{L}\p{N}]/u.test(w)).length;
+const headingKey = (s) => String(s).normalize('NFKD').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '');
+// A ledger row's `where` as a section key: “section “The cup handed round”” -> the heading's key, “opening” -> 'opening', anything else -> null.
+const whereKey = (w) => {
+  const s = String(w ?? '');
+  if (/^\s*opening\b/i.test(s)) return 'opening';
+  const m = s.match(/^\s*section\s+(.*)$/i);
+  return m ? headingKey(m[1]) : null;
+};
+
 // ---------- books ----------
 const books = [];
 for (const d of await readdir(CONTENT, { withFileTypes: true }))
@@ -174,18 +201,22 @@ const nonStrict = []; // one line per chapter with issues
 const leaning = []; // one line per chapter that leans on the Student Manuals
 const dangling = []; // pointers to a note that isn't there, in chapters without a ledger
 const announced = []; // sources announced in the text
+const pageLength = []; // theme pages over the length they should have
+const uncitedSection = []; // a [@key] cited in a section of a guide or theme page that has no ledger row for that section
+const ownConnections = []; // theme pages' own connections (ledger rows “Connection made by this page:”): information, not a warning
 const outside = []; // chapters leaning on commentaries read on Bible Hub
 const settingLength = []; // setting outside the length it should have
 const repeatedQuotes = []; // --repeats: passages quoted in the ledgers of several chapters
-let strictCount = 0, chapterCount = 0, strictPages = 0;
+let strictCount = 0, chapterCount = 0, strictPages = 0, pageCount = 0;
 
 for (const book of books) {
   const bdir = path.join(CONTENT, book);
 
-  // Guides and themes: keys must exist (global, only when checking the whole book).
-  if (!onlyChapter)
+  // Guides and themes: keys must exist (global, only when checking the whole book or one page).
+  if (!onlyChapter || onlyPage)
     for (const sub of ['guides', 'themes'])
       for (const f of await ls(path.join(bdir, sub), '.md')) {
+        if (onlyPage && f.replace(/\.md$/, '') !== onlyPage) continue;
         const text = await readFile(path.join(bdir, sub, f), 'utf8');
         const fm = text.match(/^---\n([\s\S]*?)\n---/);
         const where = `${book}/${sub}/${f}`;
@@ -194,6 +225,15 @@ for (const book of books) {
         const cites = [...text.matchAll(CITE)];
         for (const m of cites) checkKey(where, m[1]);
         if (listed.length && !cites.length) err(`${where}: lists sources but has no numbered citations ([@key] after the claims; STANDARDS.md §8)`);
+        pageCount++;
+
+        // The page's sections: the text before the first heading is the opening (the ledger's `where` for it).
+        const sections = pageSections(text.replace(/^---\n[\s\S]*?\n---\n?/, ''));
+        // A theme page is short; a source announced in the running text is the same fault as in a chapter.
+        const words = sections.reduce((n, s) => n + wordCount(s.text), 0);
+        if (sub === 'themes' && words > PAGE_WORDS) pageLength.push(`${where}: ${words} words (STANDARDS.md §8: well under ${PAGE_WORDS}, the table included)`);
+        for (const s of sections)
+          for (const phrase of new Set([...s.text.matchAll(ANNOUNCED)].map((m) => m[0]))) announced.push(`${where} ${s.heading ? `section “${s.heading}”` : 'opening'}: “${phrase}”`);
 
         // A page with a ledger is strict, like a chapter with one.
         const lf = `${book}/evidence/${sub}/${f.replace(/\.md$/, '.yaml')}`;
@@ -206,6 +246,16 @@ for (const book of books) {
         const cited = new Set(cites.map((m) => m[1]));
         for (const k of [...cited].sort()) if (!ledgerKeys.has(k)) err(`${where}: cited “${k}” has no row in ${lf}`);
         for (const k of cited) if (NOT_READABLE.includes(k)) needsQuote(where, k, rows);
+
+        // A key cited in a section needs a row for that key under that section (`where` is “section “Heading”” or “opening”).
+        for (const s of sections) {
+          const here = new Set(rows.filter((r) => whereKey(r?.where) === (s.heading ? headingKey(s.heading) : 'opening')).map((r) => String(r.key)));
+          for (const k of new Set([...s.text.matchAll(CITE)].map((m) => m[1])))
+            if (ledgerKeys.has(k) && !here.has(k)) uncitedSection.push(`${where} ${s.heading ? `section “${s.heading}”` : 'opening'}: cites [@${k}], but ${lf} has no row for ${k} under that section`);
+        }
+        // The page's own connections (STANDARDS.md §8), listed so a reviewer sees them at once.
+        const own = rows.filter((r) => /^\s*Connection made by this page:/i.test(String(r?.claim ?? '')));
+        if (own.length) ownConnections.push(`${where}: ${own.length} connection${own.length > 1 ? 's' : ''} of its own`, ...own.map((r) => `    ${r.where}: ${String(r.claim).replace(/^\s*Connection made by this page:\s*/i, '')}`));
       }
 
   for (const f of await ls(path.join(bdir, 'chapters'), '.yaml')) {
@@ -341,7 +391,7 @@ for (const book of books) {
   }
 }
 
-warnings += nonStrict.length + leaning.length + dangling.length + announced.length + outside.length + settingLength.length + repeatedQuotes.length;
+warnings += nonStrict.length + leaning.length + dangling.length + announced.length + outside.length + settingLength.length + pageLength.length + uncitedSection.length + repeatedQuotes.length;
 if (nonStrict.length && !quiet) {
   console.log(`\nChapters without an evidence ledger (warnings only):`);
   for (const l of nonStrict) console.warn(`  ⚠ ${l}`);
@@ -356,6 +406,8 @@ for (const [group, list] of [
   ['Sources announced in the text (warnings only; STANDARDS.md §3: quote with the reference, don\'t announce the source)', announced],
   ['Chapters leaning on commentaries read on Bible Hub (warnings only; STANDARDS.md §1)', outside],
   ['Chapters whose setting is outside the length it should have (warnings only; STANDARDS.md §3)', settingLength],
+  ['Theme pages over the length they should have (warnings only; STANDARDS.md §8)', pageLength],
+  ['Citations in a section of a guide or theme page with no ledger row for that key under that section (warnings only; STANDARDS.md §8)', uncitedSection],
   ['Passages quoted in the ledgers of three or more chapters (--repeats; warnings only): explain one once and link it', repeatedQuotes],
 ])
   if (list.length && !quiet) {
@@ -363,5 +415,11 @@ for (const [group, list] of [
     for (const l of list) console.warn(`  ⚠ ${l}`);
   }
 
-console.log(`\n${chapterCount} chapter(s) in ${books.length} book(s); ${strictCount} strict${strictPages ? `; ${strictPages} guide or theme page(s) with a ledger` : ''}. ${errors} error(s), ${warnings} warning(s)${quiet ? ' (hidden)' : ''}.`);
+// Information, not a warning: the connections a theme page makes itself, so a reviewer sees at once which they are.
+if (ownConnections.length && !quiet) {
+  console.log(`\nConnections the pages make themselves (information; STANDARDS.md §8, ledger rows that begin “Connection made by this page:”):`);
+  for (const l of ownConnections) console.log(l.startsWith('    ') ? l : `  ${l}`);
+}
+
+console.log(`\n${chapterCount} chapter(s) in ${books.length} book(s); ${strictCount} strict${pageCount ? `; ${pageCount} guide or theme page(s), ${strictPages} with a ledger` : ''}${ownConnections.length ? `; ${ownConnections.filter((l) => !l.startsWith('    ')).length} page(s) with connections of their own listed` : ''}. ${errors} error(s), ${warnings} warning(s)${quiet ? ' (hidden)' : ''}.`);
 process.exit(errors ? 1 : 0);
