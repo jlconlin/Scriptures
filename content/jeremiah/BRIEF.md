@@ -10,7 +10,7 @@ Related files:
 
 All 52 chapters were written on 2026-10-02 and the book went live the same day, with the author's approval given in advance. Each chapter was written by a `chapter-writer` agent (Sonnet), checked and repaired by a `chapter-reviewer` agent (Opus, which did not write it), and committed with its evidence ledger; the coordinating session added the `sources.yaml` entries and ran the checks. The author gave no focus questions and confirmed the approach: continue as with Isaiah, whose commentary the author is happy with “both in its content and its quantity.” Each writer worked from the questions a careful reader would ask (`STANDARDS.md` §3).
 
-Remaining: the author has not yet read the chapters; the judgment calls and unanswered reader questions the checkers reported are in `OPEN-QUESTIONS.md` at the top of the repository (J1–J12), and the topics that run across the book are in `THEME-CANDIDATES.md`.
+Remaining: the author has not yet read the chapters; the judgment calls and unanswered reader questions the checkers reported were settled on 2026-10-04 (“Decided while writing,” below), except what needs the author, which is in `OPEN-QUESTIONS.md` at the top of the repository; and the topics that run across the book are in `THEME-CANDIDATES.md`.
 
 ## What a chapter is for
 
@@ -75,6 +75,21 @@ Applied across the book while it was written (2026-10-02); each follows from `ST
 8. **The `prophets` kind** is for the teaching of prophets and apostles. A note whose only latter-day voice is a Seventy or a bishop keeps the quotation under another kind (22:16, 29:13 relabelled `scripture`; 39:16 is `history`).
 9. **A `christ` section** rests on scripture or a cited source; where a chapter gives little to work with (41, 43, 47), the section is short and says the chapter itself draws no connection, rather than inventing one.
 10. **Repeated passages** are explained once and linked (6:12–15 and 8:10–12; 7:30–34 and 19:6; 23:5–6 and 33:15–16), as the brief says.
+
+## Decided while writing
+
+The checkers' judgment calls of 2026-10-02, settled by the coordinator on 2026-10-04 by the standard and this brief, at the author's word (“Settle Jeremiah's now”). Listed so the author can overturn any of them. What still waits for the author is in `OPEN-QUESTIONS.md` at the top of the repository.
+
+- **13:4, the linen girdle:** the note now gives the manual's reading (a parable whose details “should not be pressed too far”) and no longer sets Keil's literal journey beside it; an outside reading isn't set beside the Church's as an equal. Changed.
+- **16:2, the marriage ban:** the manual's figurative reading stays, as a possibility; it is the Church source's own wording. No change.
+- **23:5–6, the Branch:** left as the reign of Christ at His Second Coming, which is what the Church source says; the Church edition's link to the wise men's question ([[Matt. 2:2]]) is already in the note. No change.
+- **23:7:** the note said the promise is repeated “in nearly the same words” in 16:14–15; it now says the first verse is nearly the same and the second is worded differently. Changed.
+- **25:11, the seventy years:** counted two ways from Church sources; Keil's symbolic reading stays out. No change.
+- **25:28, the closing section of 25, and Isaiah 51:22:** these said outright that the cup the nations drink is the cup the Savior drank. A chapter makes no reading of its own (`STANDARDS.md` §4), so they now set the passages side by side as a comparison and point to the theme page, The Cup of the Lord's Fury. Changed.
+- **35:7, the Rechabites in later tradition:** one sentence stays (later Jewish tradition presumed they left Jerusalem, and whether that bears on Lehi “remains uncertain”), because it is the only sourced answer to what became of the promise in verse 19. The detail about the *History of the Rechabites* was cut as reception history. Changed.
+- **38:6, which imprisonment Nephi meant:** the note keeps three proposals without choosing; no source chooses. No change.
+- **Chapter 19, the closing section:** the jar broken in the valley of graves beside Matthew's potter's field stays. Matthew himself names Jeremiah ([[Matt. 27:7–10]]), a cited source says the quotation may draw on Jeremiah 18–19, and the last sentence is worded as a comparison. No change.
+- **45:4, “this whole land”:** the chapter already follows the KJV's “land”; Keil's “the whole earth” is not in it. No change.
 
 ## Sources for Jeremiah
 

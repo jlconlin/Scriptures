@@ -29,26 +29,14 @@ Not questions, but most of the questions below are easier after reading.
 
 ## Jeremiah
 
-Written 2026-10-02, before you said to decide what the standard decides. Several of these could be settled that way; say “settle Jeremiah's” and only what truly needs you will stay.
+- **J1. The five theme pages** (The Shepherds and the Branch; Scattered and Gathered; The Covenant Written in the Heart; The Cup of the Lord's Fury; To Root Out and to Plant). They went live before you read them. Keep, change, or drop each?
+- **J2. The new covenant page, last section.** It follows the manuals and Joseph Smith's 1833 letter: the covenant was offered by Christ, rejected then, and is offered again in the Restoration. Is that the emphasis you want, or should the page stop at Hebrews and the Last Supper?
 
-- **J1. 13:4, the linen girdle.** A literal journey to the Euphrates (Keil) is set beside the manual's “parable.” Give only the manual's reading? Recommend: yes; an outside reading isn't set beside the Church's.
-- **J2. 16:2, the marriage ban.** The note takes it literally and keeps the manual's figurative reading (“may not have been a literal one”) as a possibility. Keep it? Recommend: keep; it is the Church source's own wording.
-- **J3. 23:5–6, the Branch.** Read as Christ in the Millennium (McConkie, through the manual). Add the first coming too?
-- **J4. 25:11, the seventy years.** Counted two ways, both from Church sources. Mention the symbolic reading (Keil) at all? Recommend: leave it out.
-- **J5. 35:7, the Rechabites.** A paragraph on the later *History of the Rechabites* (KnoWhy #710) is the only sourced answer to what became of the promise in verse 19, but it is reception history. Keep or cut?
-- **J6. 38:6, which imprisonment Nephi meant** (1 Ne. 7:14). The note gives three proposals without choosing. Lean toward one?
-- **J7. Chapter 19, the closing section on Christ.** The jar broken in the valley of graves is set beside Matthew's potter's field; the manual doesn't make that link. Keep or cut?
-- **J8. 45:4, “this whole land.”** Keil reads “the whole earth”; the plain words say “land.” Which? Recommend: “land,” the KJV's word.
-- **J9. 23:7.** The note says the promise is repeated “in nearly the same words” in 16:14–15. In Hebrew 16:14 and 23:7 match except the verb, and 16:15 and 23:8 are reworded (the theme page says so). Tighten the note to match? Recommend: yes.
-- **J10. 25:28, the closing section of chapter 25, and Isaiah 51 “The cup taken away.”** These chapter notes say outright that the cup the nations drink is the cup the Savior drank. Your rule on a page's own connections covers theme pages only, and the cup page words it as a comparison, not an identity. Reword the chapter notes to match and point to the theme page, or leave them?
-- **J11. The five theme pages** (The Shepherds and the Branch; Scattered and Gathered; The Covenant Written in the Heart; The Cup of the Lord's Fury; To Root Out and to Plant). They went live before you read them. Keep, change, or drop each?
-- **J12. The new covenant page, last section.** It follows the manuals and Joseph Smith's 1833 letter: the covenant was offered by Christ, rejected then, and is offered again in the Restoration. Is that the emphasis you want, or should the page stop at Hebrews and the Last Supper?
+(Ten chapter-level items were settled on 2026-10-04; they are listed in `content/jeremiah/BRIEF.md`, “Decided while writing,” where you can overturn any of them.)
 
 ## Isaiah
 
 - **I1. Deepen chapters 1–37?** They were written before the semi-academic standard, and `content/isaiah/BRIEF.md` has a plan to deepen them in place. It has not been started. Do it, and when?
-
-(Isaiah 51's note on the cup is in J10.)
 
 ## Work waiting, no decision needed
 
