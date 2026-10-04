@@ -1,0 +1,525 @@
+chapter: 17
+claims:
+  # ---------- when / setting ----------
+  - where: 'when'
+    claim: 'Abram was eighty-six when Ishmael was born'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/16?lang=eng'
+    quote: 'And Abram was fourscore and six years old, when Hagar bare Ishmael to Abram.'
+  - where: 'when'
+    claim: 'Abraham was a hundred when Isaac was born'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/21?lang=eng'
+    quote: 'And Abraham was an hundred years old, when his son Isaac was born unto him.'
+  - where: 'setting'
+    claim: 'The covenant is promised in Gen. 12, formally initiated in Gen. 15'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'In Genesis 12:1–3, God promises a covenantal relationship with Abraham after he leaves Ur and travels to the land of Canaan. He formally initiates that relationship in Genesis 15'
+  - where: 'setting'
+    claim: 'The covenant is expanded in Gen. 17 and confirmed in Gen. 22'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'In Genesis 17, he expands on a second promise provided in Genesis 12, a promise that Abraham’s royal seed would bless all nations of the earth. That promise is formally confirmed in Genesis 22.'
+  - where: 'setting'
+    claim: 'Some scholars take the covenant chapters as separate traditions of one event'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'Some biblical scholars believe that the separate records of the Abrahamic covenant in these chapters point to different traditions of the same event'
+  - where: 'setting'
+    claim: 'Others read them as God renewing and advancing the covenant after Abraham’s tests'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'Others read the repetitive accounts as God’s efforts to reinforce, renew, and progress his covenant relationship with Abraham following important testing events in Abraham’s life.'
+  - where: 'setting'
+    claim: 'Latter-day Saints have the promises gathered into one passage, Abraham 2:6–11'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'find the promises interwoven in one text in the Pearl of Great Price: Abraham 2:6–12'
+  - where: 'setting'
+    claim: 'Stephen: he gave him the covenant of circumcision'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/7?lang=eng'
+    quote: 'And he gave him the covenant of circumcision'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'Verse 4 opens with ’ani, “as for me”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/17-4.htm'
+    quote: 'אֲנִ֕י 4 As for me'
+  - where: 'thread'
+    claim: 'Verse 9: ve’attah, “and as for you”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/17-9.htm'
+    quote: 'וְאַתָּ֖ה And as for you'
+  - where: 'thread'
+    claim: 'Verse 20 opens “And as for Ishmael”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/17-20.htm'
+    quote: 'And as for Ishmael'
+  - where: 'thread'
+    claim: 'Berit, “covenant” (lemma 1285), occurs thirteen times in the chapter (vv. 2, 4, 7 twice, 9, 10, 11, 13 twice, 14, 19 twice, 21); ‘olam (5769) in vv. 7, 8, 13, 19 (counted from the WLC morphology)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'בְרִיתִ֖/י'
+  - where: 'thread'
+    claim: '“A father of many nations have I made thee” is a perfect (past) tense verb'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/17-5.htm'
+    quote: 'נְתַתִּֽיךָ׃ I have made you V‑Qal‑Perf‑1cs'
+
+  # ---------- note 17:1 El Shaddai ----------
+  - where: 'note 17:1 “El Shaddai, God Almighty”'
+    claim: 'The Hebrew is El Shaddai'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/17-1.htm'
+    quote: 'אֵ֣ל El- N‑ms … שַׁדַּ֔י Shaddai N‑proper‑ms'
+  - where: 'note 17:1 “El Shaddai, God Almighty”'
+    claim: 'The etymology is uncertain; proposals include “(self-)sufficient” (rabbinic) and “almighty”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7706.htm'
+    quote: 'noun masculine, of deity (etymology dubious'
+  - where: 'note 17:1 “El Shaddai, God Almighty”'
+    claim: 'Rabbinic “(self-)sufficient”; “almighty”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7706.htm'
+    quote: '(self-) sufficient , no moderns. (2) = almighty'
+  - where: 'note 17:1 “El Shaddai, God Almighty”'
+    claim: 'Another proposal links it with Assyrian šadû, mountain'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7706.htm'
+    quote: 'Assyrian šadû, high, ilu šâdû a'
+  - where: 'note 17:1 “El Shaddai, God Almighty”'
+    claim: 'Another proposal links it with Assyrian šadû, mountain'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7706.htm'
+    quote: 'or šadû, mountain'
+  - where: 'note 17:1 “El Shaddai, God Almighty”'
+    claim: 'One reading: the name presents the covenant God as able to keep His promises when nature offers no prospect of it'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/17.htm'
+    quote: 'describing Jehovah, the covenant God, as possessing the power to realize His promises, even when the order of nature presented no prospect of their fulfilment'
+  - where: 'note 17:1 “El Shaddai, God Almighty”'
+    claim: 'JST Ex. 6:3 turns the line into a question (footnote in the Church’s edition)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/6?lang=eng'
+    quote: 'JST Ex. 6:3 … and unto Jacob. I am the Lord God Almighty; the Lord Jehovah . And was not my name known unto them ?'
+
+  # ---------- note 17:1 walk before me ----------
+  - where: 'note 17:1 “Walk uprightly before me”'
+    claim: 'Hebrew: hithallekh lefanai … tamim'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/17-1.htm'
+    quote: 'הִתְהַלֵּ֥ךְ walk V‑Hitpael‑Imp‑ms … לְפָנַ֖י before Me'
+  - where: 'note 17:1 “Walk uprightly before me”'
+    claim: 'Tamim: complete, sound, having integrity; used of Noah (6:9) and Abraham (17:1)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8549.htm'
+    quote: 'sound, wholesome, unimpaired, innocent, having integrity'
+  - where: 'note 17:1 “Walk uprightly before me”'
+    claim: 'Tamim used of Noah and of Abraham here'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8549.htm'
+    quote: 'elsewhere of man Genesis 6:9 ; Genesis 17:1'
+  - where: 'note 17:1 “Walk uprightly before me”'
+    claim: 'Joseph Smith’s manuscript makes it a commandment to walk uprightly'
+    key: jsp-ot1
+    url: 'https://www.josephsmithpapers.org/paper-summary/old-testament-revision-1/41'
+    quote: 'I the almighty God give unto thee a commandment that thou shalt walk uprightly before and be perfect'
+  - where: 'note 17:1 “Walk uprightly before me”'
+    claim: 'The commandment has been given to the Saints in all ages'
+    key: ot-manual-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-12-17-abraham-father-of-the-faithful?lang=eng'
+    quote: 'This commandment has been given to the Saints in all ages (see Deuteronomy 18:13 ; Matthew 5:48 ; 3 Nephi 12:48'
+  - where: 'note 17:1 “Walk uprightly before me”'
+    claim: 'In the Church’s reading, walking uprightly and being perfect is Abraham’s part of the covenant'
+    key: ot-manual-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-12-17-abraham-father-of-the-faithful?lang=eng'
+    quote: 'Abraham’s part of the covenant, which is the same as for us, is that he “walk uprightly before me, and be perfect”'
+  - where: 'note 17:1 “Walk uprightly before me”'
+    claim: 'The Lord’s part, His promises, constitute what is known as the Abrahamic covenant'
+    key: ot-manual-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-12-17-abraham-father-of-the-faithful?lang=eng'
+    quote: 'If he would do so, then the Lord’s part of the covenant, or His promises to Abraham, constitute what is known as the Abrahamic covenant.'
+
+  # ---------- note 17:5 names ----------
+  - where: 'note 17:5 “Abram becomes Abraham”'
+    claim: 'Abraham: father of a multitude; Abram: exalted father'
+    key: bd-abraham
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abraham?lang=eng'
+    quote: 'Father of a multitude. Originally called Abram, “exalted father”'
+  - where: 'note 17:5 “Abram becomes Abraham”'
+    claim: 'The verse connects Abraham with hamon by wordplay; the name is really a form of Abram'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/87.htm'
+    quote: 'connected Genesis 17:5 by word-play with הם of המון ; really = רום ֯ אברם'
+  - where: 'note 17:5 “Abram becomes Abraham”'
+    claim: 'The Hebrew is av hamon goyim'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/17-5.htm'
+    quote: 'אַב־ a father N‑msc … הֲמ֥וֹן of many N‑msc … גּוֹיִ֖ם nations'
+  - where: 'note 17:5 “Abram becomes Abraham”'
+    claim: 'The explanation is folk etymology; the giving of the name symbolizes the covenant relationship'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'Although this explanation has elements of folk etymology to it (i.e., the name Abraham does not come from ab hamon goyim ), the giving of the name symbolizes the covenant relationship between the Lord and Abraham.'
+  - where: 'note 17:5 “Abram becomes Abraham”'
+    claim: '“I have made thee” is a perfect tense'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/17-5.htm'
+    quote: 'נְתַתִּֽיךָ׃ I have made you V‑Qal‑Perf‑1cs'
+
+  # ---------- note 17:7 everlasting covenant ----------
+  - where: 'note 17:7 “The everlasting covenant”'
+    claim: '“Everlasting” is ‘olam, with berit'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/17-7.htm'
+    quote: 'עוֹלָ֑ם everlasting'
+  - where: 'note 17:7 “The everlasting covenant”'
+    claim: 'The new and everlasting covenant and the Abrahamic covenant are essentially the same'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: '(Doctrine and Covenants 132:6) and the Abrahamic covenant are essentially the same—two ways of phrasing the covenant God made with mortal men and women at different times.'
+  - where: 'note 17:7 “The everlasting covenant”'
+    claim: 'Everlasting: existed before the foundation of the world'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'The adjective everlasting denotes that this covenant existed even before the foundation of the world!'
+  - where: 'note 17:7 “The everlasting covenant”'
+    claim: 'New whenever renewed or restored; everlasting because it does not change'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'It is “new” whenever the Lord renews or restores it, and it is “everlasting” because it does not change.'
+
+  # ---------- note 17:8 land ----------
+  - where: 'note 17:8 “A possession Abraham never held”'
+    claim: 'Hebrew: “the land of your sojournings”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/17-8.htm'
+    quote: 'מְגֻרֶ֗יךָ in which you are a sojourner'
+  - where: 'note 17:8 “A possession Abraham never held”'
+    claim: 'magur: sojourning-place; ’erets megurekha at Gen. 17:8'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4033.htm'
+    quote: 'sojourning-place, dwelling-place , sojourning'
+  - where: 'note 17:8 “A possession Abraham never held”'
+    claim: 'The only land Abraham came to own was the field and cave of Machpelah, bought as a burying place'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/23?lang=eng'
+    quote: 'And the field, and the cave that is therein, were made sure unto Abraham for a possession of a buryingplace by the sons of Heth.'
+  - where: 'note 17:8 “A possession Abraham never held”'
+    claim: 'Hebrews: died not having received the promises'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
+    quote: 'These all died in faith, not having received the promises'
+  - where: 'note 17:8 “A possession Abraham never held”'
+    claim: 'President Joseph Fielding Smith: possession after the resurrection'
+    key: ot-manual-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-12-17-abraham-father-of-the-faithful?lang=eng'
+    quote: 'the time would eventually come, after the resurrection from the dead, when Abraham and his children who have been faithful in the keeping of the commandments of the Lord, should possess that land'
+  - where: 'note 17:8 “A possession Abraham never held”'
+    claim: 'The quotation is from Joseph Fielding Smith'
+    key: ot-manual-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-12-17-abraham-father-of-the-faithful?lang=eng'
+    quote: '(Smith, Doctrines of Salvation, 1:88.)'
+
+  # ---------- note 17:11 token ----------
+  - where: 'note 17:11 “Why circumcision?”'
+    claim: '’ot: sign, pledge of covenant: rainbow, circumcision, sabbath'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/226.htm'
+    quote: 'sign, pledge of convenant'
+  - where: 'note 17:11 “Why circumcision?”'
+    claim: '’ot: rainbow, circumcision, sabbath'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/226.htm'
+    quote: 'circumcision, of Abrahamic convenant Genesis 17:11 (P); the sabbath Exodus 31:13'
+  - where: 'note 17:11 “Why circumcision?”'
+    claim: 'Signs differ from oaths: repeated in later generations'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'The main difference between oaths and signs is that signs are physical acts that continue to be repeated in subsequent generations to confirm the existence of the covenant.'
+  - where: 'note 17:11 “Why circumcision?”'
+    claim: 'Circumcision was practiced outside Israel'
+    key: bd-circumcision
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/circumcision?lang=eng'
+    quote: 'Circumcision was not peculiar to Israel. It was practiced in Egypt and also by nations with whom Israel had not come in contact.'
+  - where: 'note 17:11 “Why circumcision?”'
+    claim: 'It symbolized separation or dedication to God, from the world, from sin'
+    key: bd-circumcision
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/circumcision?lang=eng'
+    quote: 'It symbolized some aspects of separation or dedication (1) to God, to whom Israel belonged; (2) from the world, the uncircumcised with whom Israel might not mix; (3) from sin'
+  - where: 'note 17:11 “Why circumcision?”'
+    claim: 'The token reminded Abraham how the fruit of his loins would bless the nations'
+    key: sc-knowhy-630
+    url: 'https://scripturecentral.org/knowhy/why-did-abraham-and-sarah-receive-new-names-and-tokens'
+    quote: 'Abraham’s token of circumcision reminded him of how the fruit of his loins would bless the nations.'
+  - where: 'note 17:11 “Why circumcision?”'
+    claim: 'One Latter-day Saint reading: it places sexual intimacy in the realm of the sacred, part of the covenant relationship'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'placing the act of sexual intimacy in the realm of the sacred, thus marking sexual intimacy as not just a physical experience but an experience that is part of the covenantal relationship with God'
+
+  # ---------- note 17:12 eight days ----------
+  - where: 'note 17:12 “Why the eighth day?”'
+    claim: 'JST Gen. 17:5–6: people had forsaken baptism, washed children, sprinkled blood'
+    key: jst-gen-17
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/17?lang=eng'
+    quote: 'And they have not observed mine anointing, and the burial, or baptism wherewith I commanded them; But have turned from the commandment, and taken unto themselves the washing of children, and the blood of sprinkling'
+  - where: 'note 17:12 “Why the eighth day?”'
+    claim: 'JST Gen. 17:7'
+    key: jst-gen-17
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/17?lang=eng'
+    quote: 'And have said that the blood of the righteous Abel was shed for sins; and have not known wherein they are accountable before me.'
+  - where: 'note 17:12 “Why the eighth day?”'
+    claim: 'JST Gen. 17:11: children not accountable until eight'
+    key: jst-gen-17
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/17?lang=eng'
+    quote: 'And I will establish a covenant of circumcision with thee, and it shall be my covenant between me and thee, and thy seed after thee, in their generations; that thou mayest know forever that children are not accountable before me until they are eight years old.'
+  - where: 'note 17:12 “Why the eighth day?”'
+    claim: 'Church’s reading: the token signified children not accountable until eight'
+    key: ot-manual-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-12-17-abraham-father-of-the-faithful?lang=eng'
+    quote: 'It signified that children were not accountable until they were eight years old.'
+  - where: 'note 17:12 “Why the eighth day?”'
+    claim: 'Born into the covenant, need not be baptized until accountable'
+    key: ot-manual-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-12-17-abraham-father-of-the-faithful?lang=eng'
+    quote: 'Thus, when a person was circumcised it signified that while he had been born into the covenant, he need not be baptized until he became accountable before the Lord.'
+  - where: 'note 17:12 “Why the eighth day?”'
+    claim: 'The Latter-day Saints first learned the age of accountability through the JST of this chapter'
+    key: sc-knowhy-800
+    url: 'https://scripturecentral.org/knowhy/how-did-the-joseph-smith-translation-serve-as-a-springboard-for-many-revelations'
+    quote: 'Another important doctrine that was first revealed to the Saints through Joseph’s translation of the Bible was the age of accountability.'
+  - where: 'note 17:12 “Why the eighth day?”'
+    claim: 'Translated in spring 1831; D&C 68:25–27 in November 1831'
+    key: sc-knowhy-800
+    url: 'https://scripturecentral.org/knowhy/how-did-the-joseph-smith-translation-serve-as-a-springboard-for-many-revelations'
+    quote: 'This portion of the Bible was translated sometime in the spring of 1831 and was undoubtedly shared with the Church when it was received. Later, in November 1831, the same doctrine would be reiterated in Doctrine and Covenants 68:25–27.'
+  - where: 'note 17:12 “Why the eighth day?”'
+    claim: 'Mormon (Moroni 8) did not give the age'
+    key: sc-knowhy-800
+    url: 'https://scripturecentral.org/knowhy/how-did-the-joseph-smith-translation-serve-as-a-springboard-for-many-revelations'
+    quote: 'which was not mentioned by Mormon in his letter found in Moroni 8'
+  - where: 'note 17:12 “Why the eighth day?”'
+    claim: 'D&C 68 is dated November 1, 1831'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/68?lang=eng'
+    quote: 'Revelation given through Joseph Smith the Prophet, at Hiram, Ohio, November 1, 1831'
+
+  # ---------- note 17:12 not of thy seed ----------
+  - where: 'note 17:12 “Not of thy seed”'
+    claim: 'The sign extended to slaves born in the house or bought'
+    key: bd-circumcision
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/circumcision?lang=eng'
+    quote: 'slaves born in the house or bought with money ( Gen. 17:13 )'
+  - where: 'note 17:12 “Not of thy seed”'
+    claim: 'Those who received it enjoyed the privileges and took the responsibilities of the covenant'
+    key: bd-circumcision
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/circumcision?lang=eng'
+    quote: 'Those who received it thenceforth enjoyed the privileges and undertook the responsibilities of the covenant.'
+  - where: 'note 17:12 “Not of thy seed”'
+    claim: 'One reading: these strangers were received into the covenant and reckoned as seed; the seed was not restricted to lineal descendants'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/17.htm'
+    quote: 'the fact, that the seed of Abraham was not to be restricted to his lineal descendants, is evident from the fact, that circumcision as the covenant sign was not confined to them'
+  - where: 'note 17:12 “Not of thy seed”'
+    claim: 'One reading: these strangers were received into the fellowship of the covenant'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/17.htm'
+    quote: 'so that these strangers were received into the fellowship of the covenant, and reckoned as part of the promised seed'
+  - where: 'note 17:12 “Not of thy seed”'
+    claim: 'Heirs by birth or by adoption'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'Thus, we can become heirs to the covenant either by birth or by adoption.'
+
+  # ---------- note 17:13 everlasting yet set aside ----------
+  - where: 'note 17:13 “Everlasting, yet no longer required”'
+    claim: 'Church position: circumcision as token no longer required after Christ’s mortal ministry'
+    key: scripture-helps-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/07-genesis-12-17-abraham-1-2?lang=eng'
+    quote: 'Circumcision as a token of the Abrahamic covenant was no longer required after Jesus Christ’s mortal ministry.'
+  - where: 'note 17:13 “Everlasting, yet no longer required”'
+    claim: 'The apostles declared circumcision not obligatory for gentile converts'
+    key: bd-circumcision
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/circumcision?lang=eng'
+    quote: 'The Church under direction of Peter and the Twelve, and acting under the guidance of the Spirit, declared that circumcision was not obligatory for gentile converts.'
+  - where: 'note 17:13 “Everlasting, yet no longer required”'
+    claim: 'The real issue was the law of Moses'
+    key: bd-circumcision
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/circumcision?lang=eng'
+    quote: 'the real issue was not circumcision only but also the larger question as to continued observance of the law of Moses by members of the Church'
+  - where: 'note 17:13 “Everlasting, yet no longer required”'
+    claim: 'Moroni 8:8 is given as the words of Christ, by the word of the Lord to Mormon'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/8?lang=eng'
+    quote: 'And the word of the Lord came to me by the power of the Holy Ghost, saying: 8 Listen to the words of Christ, your Redeemer, your Lord and your God.'
+
+  # ---------- note 17:14 cut off ----------
+  - where: 'note 17:14 “Cut off”'
+    claim: 'The verb in verse 14 is karat (niphal), “shall be cut off”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/17-14.htm'
+    quote: 'וְנִכְרְתָ֛ה and shall be cut off Conj‑w ¦ V‑Nifal‑ConjPerf‑3fs'
+  - where: 'note 17:14 “Cut off”'
+    claim: 'karat berit: cut, make a covenant, from cutting up the victim'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3772.htm'
+    quote: 'cut, or make a covenant (because of the cutting up and distribution of the flesh of the victim for eating in the sacrifice of the covenants'
+  - where: 'note 17:14 “Cut off”'
+    claim: 'The cutting of the animal enacted the fate of the covenant-breaker'
+    key: bowen-cut-off
+    url: 'https://rsc.byu.edu/vol-21-no-2-2020/cut-off-face-presence'
+    quote: 'the cutting of the animal in the covenant-making ceremony symbolically enacted what would happen to the party who failed to keep the covenant and uphold its terms'
+  - where: 'note 17:14 “Cut off”'
+    claim: 'In the passive, karat became an excommunication formula'
+    key: bowen-cut-off
+    url: 'https://rsc.byu.edu/vol-21-no-2-2020/cut-off-face-presence'
+    quote: 'Perhaps relatedly, in its passive stem, kārat came to constitute an “excommunication formula.”'
+  - where: 'note 17:14 “Cut off”'
+    claim: 'The formula recurs in the law (Gen. 17:14 listed with Exodus, Leviticus, Numbers)'
+    key: bowen-cut-off
+    url: 'https://rsc.byu.edu/vol-21-no-2-2020/cut-off-face-presence'
+    quote: 'See Genesis 17:14; Exodus 12:15, 21; 30:33, 38; 31:14; Leviticus 7:20'
+  - where: 'note 17:14 “Cut off”'
+    claim: 'BDB reads the phrase at Gen. 17:14 as cut off by death penalty, a technical phrase of the law'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3772.htm'
+    quote: 'that person shall be cut off (by death penalty)'
+
+  # ---------- note 17:16 Sarah ----------
+  - where: 'note 17:16 “Sarah’s own promise”'
+    claim: 'Sarah means princess'
+    key: bd-sarah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sarah?lang=eng'
+    quote: 'Sarah means “princess.”'
+  - where: 'note 17:16 “Sarah’s own promise”'
+    claim: 'Sarai probably another form of Sarah'
+    key: bd-sarah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sarah?lang=eng'
+    quote: 'which possibly means “contentions,” or more probably is another form of Sarah'
+  - where: 'note 17:16 “Sarah’s own promise”'
+    claim: 'Probably not a change in the root; still a new covenant identity'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'Although this change is probably not even a change in the root of the name, there is a still a symbolic element of receiving a new name as part of the new covenant identity.'
+  - where: 'note 17:16 “Sarah’s own promise”'
+    claim: 'Hebrew: “she shall become nations”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/17-16.htm'
+    quote: 'וְהָֽיְתָ֣ה and she has become Conj‑w ¦ V‑Qal‑ConjPerf‑3fs … לְגוֹיִ֔ם nations'
+  - where: 'note 17:16 “Sarah’s own promise”'
+    claim: 'The covenant is not possible without Sarah'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'The Abrahamic covenant is not possible without Sarah.'
+  - where: 'note 17:16 “Sarah’s own promise”'
+    claim: 'The blessings of Abraham are the blessings of Sarah'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'The blessings of Abraham are fundamentally the blessings of Sarah.'
+  - where: 'note 17:16 “Sarah’s own promise”'
+    claim: 'One reading: Sarah’s sign of the covenant was the son'
+    key: sc-knowhy-630
+    url: 'https://scripturecentral.org/knowhy/why-did-abraham-and-sarah-receive-new-names-and-tokens'
+    quote: 'God’s sign to Sarah of the covenant was blessing her with a miraculous son.'
+
+  # ---------- note 17:17 laughed ----------
+  - where: 'note 17:17 “Laughter or joy?”'
+    claim: 'Hebrew verb is tsachaq, laugh'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/17-17.htm'
+    quote: 'וַיִּצְחָ֑ק and he laughed'
+  - where: 'note 17:17 “Laughter or joy?”'
+    claim: 'tsachaq: laugh, used of Abraham (17:17) and Sarah (18:12–15)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6711.htm'
+    quote: 'laugh , Genesis 18:12 ,13,15 (twice in verse) (J), Genesis 17:17 (P)'
+  - where: 'note 17:17 “Laughter or joy?”'
+    claim: 'The footnote in the Church’s edition gives “rejoiced” as another sense of the Hebrew'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng'
+    quote: 'HEB (also) rejoiced.'
+  - where: 'note 17:17 “Laughter or joy?”'
+    claim: 'JST: Abraham rejoiced, and his questions become statements'
+    key: jst-gen-17
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/17?lang=eng'
+    quote: 'Then Abraham fell on his face and rejoiced, and said in his heart, There shall a child be born unto him that is an hundred years old, and Sarah that is ninety years old shall bear.'
+  - where: 'note 17:17 “Laughter or joy?”'
+    claim: 'The Targums are ancient Jewish Aramaic paraphrases'
+    key: etheridge-targums
+    url: 'https://archive.org/download/targumsonkelosa00ethegoog/targumsonkelosa00ethegoog_djvu.txt'
+    quote: 'relics of ancient Jewish literature, the Aramaic paraphrases on the Books of the Old Testa- ment'
+  - where: 'note 17:17 “Laughter or joy?”'
+    claim: 'Onkelos at 17:17: Abraham rejoiced (page headed “Targum of Onkelos”)'
+    key: etheridge-targums
+    url: 'https://archive.org/download/targumsonkelosa00ethegoog/targumsonkelosa00ethegoog_djvu.txt'
+    quote: 'And Abraham fell upon his face and rejoiced, and said in his heart, Will the son of a hundred years have a child'
+  - where: 'note 17:17 “Laughter or joy?”'
+    claim: 'Onkelos at 18:12: Sarah laughed'
+    key: etheridge-targums
+    url: 'https://archive.org/download/targumsonkelosa00ethegoog/targumsonkelosa00ethegoog_djvu.txt'
+    quote: 'And Sarah laughed within herself, saying'
+  - where: 'note 17:17 “Laughter or joy?”'
+    claim: 'Isaac means “he laughs,” a play on the laughter of 17:17, 19, 18:12, 21:6'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3327.htm'
+    quote: 'he laugheth , compare play upon name Genesis 18:12 f. (J), Genesis 21:6 (E), Genesis 17:17 ,19 (P)'
+
+  # ---------- note 17:20 Ishmael ----------
+  - where: 'note 17:20 “A prayer for Ishmael”'
+    claim: 'JST: “live uprightly before thee”'
+    key: jst-gen-17
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/17?lang=eng'
+    quote: 'And Abraham said unto God, Oh that Ishmael might live uprightly before thee!'
+  - where: 'note 17:20 “A prayer for Ishmael”'
+    claim: 'Ishmael means “God hears”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3458.htm'
+    quote: 'proper name, masculine El heareth'
+  - where: 'note 17:20 “A prayer for Ishmael”'
+    claim: 'Verse 20: shema‘tikha, “I have heard you”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/17-20.htm'
+    quote: 'שְׁמַעְתִּיךָ֒ I have heard you'
+  - where: 'note 17:20 “A prayer for Ishmael”'
+    claim: 'Twelve princes fulfilled'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/25?lang=eng'
+    quote: 'twelve princes according to their nations'
+  - where: 'note 17:20 “A prayer for Ishmael”'
+    claim: 'Abraham loved both'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'Abraham loved both Ishmael and Isaac.'
+  - where: 'note 17:20 “A prayer for Ishmael”'
+    claim: 'Covenant established through Isaac'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'At the same time, God made it clear that the everlasting covenant would be established through Isaac'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'Among the promises: Jesus Christ born through Abraham’s lineage'
+    key: scripture-helps-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/07-genesis-12-17-abraham-1-2?lang=eng'
+    quote: 'Jesus Christ would be born through his lineage.'
+  - where: 'christ'
+    claim: 'Christ at the center of the Abrahamic covenant; fulfillment through the Atonement'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'The fulfillment of the Abrahamic covenant becomes feasible because of the Atonement of our Savior, the Lord Jesus Christ. Jesus Christ is at the center of the Abrahamic covenant.'
+  - where: 'christ'
+    claim: 'Moroni 8:8 is given as the words of Christ'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/8?lang=eng'
+    quote: 'Listen to the words of Christ, your Redeemer, your Lord and your God.'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: '“The Covenant among Covenants” follows the covenants of the patriarchs to the Exodus'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'the four primary covenants covering the period of the patriarchs and matriarchs down to the Exodus'
