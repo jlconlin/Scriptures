@@ -1,0 +1,907 @@
+chapter: 35
+claims:
+  - where: 'setting'
+    claim: 'Jacob served Laban twenty years'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'Thus have I been twenty years in thy house'
+  - where: 'setting'
+    claim: 'Near Shechem Jacob bought a field and built an altar'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/33?lang=eng'
+    quote: 'And he bought a parcel of a field, where he had spread his tent'
+  - where: 'setting'
+    claim: 'Near Shechem Jacob bought a field and built an altar'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/33?lang=eng'
+    quote: 'And he erected there an altar, and called it'
+  - where: 'setting'
+    claim: 'Dinah was assaulted at Shechem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/34?lang=eng'
+    quote: 'he took her, and lay with her, and defiled her'
+  - where: 'setting'
+    claim: 'Simeon and Levi killed the men of the city, and Jacob feared destruction'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/34?lang=eng'
+    quote: 'took each man his sword, and came upon the city boldly, and slew all the males'
+  - where: 'setting'
+    claim: 'Jacob’s words after the killing'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/34?lang=eng'
+    quote: 'and I shall be destroyed, I and my house'
+  - where: 'setting'
+    claim: 'Jacob’s vow at Beth-el'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng'
+    quote: 'So that I come again to my father’s house in peace; then shall the Lord be my God'
+  - where: 'setting'
+    claim: 'Jacob recalls Luz and Rachel’s death to Joseph'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/48?lang=eng'
+    quote: 'God Almighty appeared unto me at Luz in the land of Canaan, and blessed me'
+  - where: 'setting'
+    claim: 'Jacob recalls Luz and Rachel’s death to Joseph'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/48?lang=eng'
+    quote: 'Rachel died by me in the land of Canaan in the way'
+  - where: 'setting'
+    claim: 'Jacob’s blessing of Reuben refers to the sin'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/49?lang=eng'
+    quote: 'because thou wentest up to thy father’s bed'
+  - where: 'setting'
+    claim: 'Chronicles explains Reuben’s loss of the birthright'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/5?lang=eng'
+    quote: 'forasmuch as he defiled his father’s bed, his birthright was given unto the sons of Joseph'
+  - where: 'when'
+    claim: 'The return from Padan-aram and the Shechem events precede this chapter'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/33?lang=eng'
+    quote: 'And Jacob came to Shalem, a city of Shechem'
+  - where: 'when'
+    claim: 'The killing at Shechem precedes this chapter'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/34?lang=eng'
+    quote: 'Ye have troubled me to make me to stink among the inhabitants of the land'
+  - where: 'note 35:1 “Why God sends Jacob back to Beth-el now”'
+    claim: 'Jacob’s vow at Beth-el'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng'
+    quote: 'So that I come again to my father’s house in peace; then shall the Lord be my God'
+  - where: 'note 35:1 “Why God sends Jacob back to Beth-el now”'
+    claim: 'God introduced Himself as the God of Beth-el when telling Jacob to leave Laban'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'I am the God of Beth-el, where thou anointedst the pillar, and where thou vowedst a vow unto me'
+  - where: 'note 35:1 “Why God sends Jacob back to Beth-el now”'
+    claim: 'Jacob bought a field and built an altar at Shechem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/33?lang=eng'
+    quote: 'And he bought a parcel of a field, where he had spread his tent'
+  - where: 'note 35:1 “Why God sends Jacob back to Beth-el now”'
+    claim: 'Jacob bought a field and built an altar at Shechem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/33?lang=eng'
+    quote: 'And he erected there an altar, and called it'
+  - where: 'note 35:1 “Why God sends Jacob back to Beth-el now”'
+    claim: 'Reading the delay as a lapse corrected by the command'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/35.htm'
+    quote: 'This command stirred him up to perform what had been neglected'
+  - where: 'note 35:1 “Why God sends Jacob back to Beth-el now”'
+    claim: 'Shechem had become dangerous'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/35.htm'
+    quote: 'The position of Jacob at Shechem had become dangerous'
+  - where: 'note 35:1 “Why God sends Jacob back to Beth-el now”'
+    claim: 'The attack by Simeon and Levi'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/34?lang=eng'
+    quote: 'took each man his sword, and came upon the city boldly, and slew all the males'
+  - where: 'note 35:1 “Why God sends Jacob back to Beth-el now”'
+    claim: '“Dwell there” means to stay and perform the vow'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/35.htm'
+    quote: 'it merely directs him to stay there and perform his vow'
+  - where: 'note 35:1 “Why God sends Jacob back to Beth-el now”'
+    claim: 'Jacob moves on from Beth-el in verse 16'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'And they journeyed from Beth-el'
+  - where: 'note 35:2 “Whose gods were they?”'
+    claim: 'The phrase elohe ha-nekar means foreign gods and occurs at Gen. 35:2, 4 and Josh. 24:20, 23'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5236.htm'
+    quote: 'foreign gods Genesis 35:2,4 ; Joshua 24:20 ,23'
+  - where: 'note 35:2 “Whose gods were they?”'
+    claim: 'Rachel stole her father’s household gods'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'Rachel had stolen the images that were her father’s'
+  - where: 'note 35:2 “Whose gods were they?”'
+    claim: 'Jacob did not know Rachel had taken them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'For Jacob knew not that Rachel had stolen them'
+  - where: 'note 35:2 “Whose gods were they?”'
+    claim: 'Servants gathered in Padan-aram'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/30?lang=eng'
+    quote: 'and maidservants, and menservants, and camels, and asses'
+  - where: 'note 35:2 “Whose gods were they?”'
+    claim: 'Women and children of Shechem taken captive'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/34?lang=eng'
+    quote: 'And all their wealth, and all their little ones, and their wives took they captive'
+  - where: 'note 35:2 “Whose gods were they?”'
+    claim: 'Others in the traveling group may have brought idols'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'suggesting that others in the traveling group brought similar artifacts of idolatry'
+  - where: 'note 35:2 “Washing and new clothes before meeting God”'
+    claim: 'The Hebrew of verse 2 reads “be purified and change your garments”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וְהִטַּהֲרוּ וְהַחֲלִיפוּ שִׂמְלֹתֵיכֶם'
+  - where: 'note 35:2 “Washing and new clothes before meeting God”'
+    claim: 'The Septuagint reads “purify yourselves”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/35.htm'
+    quote: 'purify yourselves, and change your clothes'
+  - where: 'note 35:2 “Washing and new clothes before meeting God”'
+    claim: 'At Sinai Moses sanctified the people and they washed their clothes'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/19?lang=eng'
+    quote: 'sanctify them to day and to morrow, and let them wash their clothes'
+  - where: 'note 35:2 “Washing and new clothes before meeting God”'
+    claim: 'At Sinai Moses sanctified the people and they washed their clothes'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/19?lang=eng'
+    quote: 'and sanctified the people; and they washed their clothes'
+  - where: 'note 35:2 “Washing and new clothes before meeting God”'
+    claim: 'A long series of such reformations, parallel to Sinai'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/35.htm'
+    quote: 'This reformation is also interesting as being the first of a long series of such acts constantly recurring in the history of Israel'
+  - where: 'note 35:2 “Washing and new clothes before meeting God”'
+    claim: 'Parallel to Sinai'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/35.htm'
+    quote: 'it is parallel to the sanctification of the people at Sinai'
+  - where: 'note 35:2 “Washing and new clothes before meeting God”'
+    claim: 'Student Manual compares Bethel to a temple'
+    key: ot-manual-gen-24-36
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-24-36-the-covenant-line-continues-with-isaac-and-jacob?lang=eng'
+    quote: 'which was the equivalent of a modern temple'
+  - where: 'note 35:2 “Washing and new clothes before meeting God”'
+    claim: 'Student Manual compares the preparation with that of modern Saints'
+    key: ot-manual-gen-24-36
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-24-36-the-covenant-line-continues-with-isaac-and-jacob?lang=eng'
+    quote: 'prepare themselves for the experience much as modern Saints prepare themselves'
+  - where: 'note 35:4 “Earrings, and the oak at Shechem”'
+    claim: 'Earrings made into the calf at Sinai'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/32?lang=eng'
+    quote: 'Break off the golden earrings, which are in the ears of your wives'
+  - where: 'note 35:4 “Earrings, and the oak at Shechem”'
+    claim: 'Earrings made into the calf at Sinai'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/32?lang=eng'
+    quote: 'after he had made it a molten calf'
+  - where: 'note 35:4 “Earrings, and the oak at Shechem”'
+    claim: 'The Septuagint adds that Jacob destroyed them'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/35.htm'
+    quote: 'and destroyed them to this day'
+  - where: 'note 35:4 “Earrings, and the oak at Shechem”'
+    claim: 'Joshua’s command at Shechem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/24?lang=eng'
+    quote: 'Now therefore put away, said he, the strange gods which are among you'
+  - where: 'note 35:4 “Earrings, and the oak at Shechem”'
+    claim: 'Joshua’s stone under an oak at Shechem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/24?lang=eng'
+    quote: 'took a great stone, and set it up there under an oak, that was by the sanctuary of the Lord'
+  - where: 'note 35:4 “Earrings, and the oak at Shechem”'
+    claim: 'Hebrew of Gen. 35:2 (“put away the gods of the foreign that are among you”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'הָסִרוּ אֶת אֱלֹהֵי הַנֵּכָר אֲשֶׁר בְּתֹכְכֶם'
+  - where: 'note 35:4 “Earrings, and the oak at Shechem”'
+    claim: 'Hebrew of Josh. 24:23 is nearly the same'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Josh.xml'
+    quote: 'הָסִירוּ אֶת אֱלֹהֵי הַנֵּכָר אֲשֶׁר בְּקִרְבְּכֶם'
+  - where: 'note 35:4 “Earrings, and the oak at Shechem”'
+    claim: 'The tree in Gen. 35:4 is spelled אלה'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'תַּחַת הָאֵלָה אֲשֶׁר עִם שְׁכֶם'
+  - where: 'note 35:4 “Earrings, and the oak at Shechem”'
+    claim: 'The tree in Josh. 24:26 is spelled אלה'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Josh.xml'
+    quote: 'תַּחַת הָאַלָּה אֲשֶׁר בְּמִקְדַּשׁ יְהוָה'
+  - where: 'note 35:4 “Earrings, and the oak at Shechem”'
+    claim: 'Joshua testified against strange gods under the same oak of Shechem'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/35.htm'
+    quote: 'Joshua, under the same “oak” of Shechem ( Joshua 24:26 ), testified against the primitive worship of strange gods'
+  - where: 'note 35:5 “A terror from God”'
+    claim: 'Hebrew chittah means terror; Gen. 35:5 “a terror of (=from) God”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2847.htm'
+    quote: 'a terror of ( = from ) God was upon the cities'
+  - where: 'note 35:5 “A terror from God”'
+    claim: 'A mysterious dread inspired by God'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/35.htm'
+    quote: 'The inhabitants were under the influence of a mysterious dread or panic, inspired by God'
+  - where: 'note 35:5 “A terror from God”'
+    claim: 'Jacob’s fear after Shechem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/34?lang=eng'
+    quote: 'they shall gather themselves together against me, and slay me'
+  - where: 'note 35:5 “A terror from God”'
+    claim: 'God’s promise at Beth-el'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng'
+    quote: 'I am with thee, and will keep thee in all places whither thou goest'
+  - where: 'note 35:5 “A terror from God”'
+    claim: 'Jacob’s words in verse 3'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'who answered me in the day of my distress, and was with me in the way which I went'
+  - where: 'note 35:7 “El-beth-el, the God of Beth-el”'
+    claim: 'Jacob named the place Beth-el in chapter 28'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng'
+    quote: 'And he called the name of that place Beth-el'
+  - where: 'note 35:7 “El-beth-el, the God of Beth-el”'
+    claim: 'God introduced Himself as ha-El Beth-El (Hebrew)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אָנֹכִי הָאֵל בֵּית אֵל'
+  - where: 'note 35:7 “El-beth-el, the God of Beth-el”'
+    claim: 'God introduced Himself as the God of Beth-el'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'I am the God of Beth-el, where thou anointedst the pillar'
+  - where: 'note 35:7 “El-beth-el, the God of Beth-el”'
+    claim: 'Jacob’s altar at Shechem named El-elohe-Israel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/33?lang=eng'
+    quote: 'And he erected there an altar, and called it'
+  - where: 'note 35:7 “El-beth-el, the God of Beth-el”'
+    claim: 'Gen. 35:7 names the altar El Beth-El (Hebrew)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַיִּקְרָא לַמָּקוֹם אֵל בֵּית אֵל'
+  - where: 'note 35:8 “Deborah, Rebekah’s nurse”'
+    claim: 'Rebekah left with “her nurse”, unnamed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/24?lang=eng'
+    quote: 'And they sent away Rebekah their sister, and her nurse'
+  - where: 'note 35:8 “Deborah, Rebekah’s nurse”'
+    claim: 'Two possibilities for how Deborah came to Jacob'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/35.htm'
+    quote: 'Deborah had either been sent by Rebekah to take care of her daughters-in-law and grandsons, or had gone of her own accord into Jacob''s household after the death of her mistress'
+  - where: 'note 35:8 “Deborah, Rebekah’s nurse”'
+    claim: 'Deborah a faithful and esteemed servant'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/35.htm'
+    quote: 'she must have been a faithful and highly esteemed servant in Jacob''s house'
+  - where: 'note 35:8 “Deborah, Rebekah’s nurse”'
+    claim: 'Allon-bachuth means mourning oak; bakut means weeping'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/439.htm'
+    quote: 'weeping . Only in'
+  - where: 'note 35:8 “Deborah, Rebekah’s nurse”'
+    claim: 'Allon-bachuth means mourning oak; bakut means weeping'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/439.htm'
+    quote: 'i.e. mourning oak'
+  - where: 'note 35:8 “Deborah, Rebekah’s nurse”'
+    claim: 'Rebekah buried at Machpelah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/49?lang=eng'
+    quote: 'there they buried Isaac and Rebekah his wife'
+  - where: 'note 35:10 “The name Israel, given a second time”'
+    claim: 'The name Israel was given at Penuel and Bethel'
+    key: bd-israel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/israel?lang=eng'
+    quote: 'This name was given to Jacob at Penuel'
+  - where: 'note 35:10 “The name Israel, given a second time”'
+    claim: 'The name Israel was given at Penuel and Bethel'
+    key: bd-israel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/israel?lang=eng'
+    quote: 'and at Bethel'
+  - where: 'note 35:10 “The name Israel, given a second time”'
+    claim: 'God confirmed the name already given'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/35.htm'
+    quote: 'God now confirmed to him the name of Israel, which He had already given him'
+  - where: 'note 35:10 “The name Israel, given a second time”'
+    claim: 'A source-critical commentary reads verses 9–15 as another account of the naming of Israel and Beth-el'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/35.htm'
+    quote: 'it presents P’s explanation of the names Israel and Bethel, both of which have already been accounted for in J and E'
+  - where: 'note 35:10 “The name Israel, given a second time”'
+    claim: 'Name given at the Jabbok'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/32?lang=eng'
+    quote: 'Thy name shall be called no more Jacob, but Israel'
+  - where: 'note 35:11 “The covenant of Abraham, in Abraham’s order”'
+    claim: 'Gen. 17:1 Hebrew “I am El Shaddai”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אֲנִי אֵל שַׁדַּי'
+  - where: 'note 35:11 “The covenant of Abraham, in Abraham’s order”'
+    claim: 'Gen. 35:11 Hebrew “I am El Shaddai”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אֲנִי אֵל שַׁדַּי'
+  - where: 'note 35:11 “The covenant of Abraham, in Abraham’s order”'
+    claim: 'KJV renders 17:1 “the Almighty God”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng'
+    quote: 'I am the Almighty God'
+  - where: 'note 35:11 “The covenant of Abraham, in Abraham’s order”'
+    claim: 'Name-change formula in Gen. 17:5 (Hebrew)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וְלֹא יִקָּרֵא עוֹד אֶת שִׁמְךָ אַבְרָם'
+  - where: 'note 35:11 “The covenant of Abraham, in Abraham’s order”'
+    claim: 'Name-change formula in Gen. 35:10 (Hebrew)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'לֹא יִקָּרֵא שִׁמְךָ … עוֹד יַעֲקֹב כִּי אִם יִשְׂרָאֵל יִהְיֶה שְׁמֶךָ'
+  - where: 'note 35:11 “The covenant of Abraham, in Abraham’s order”'
+    claim: 'Kings promise in Gen. 17:6 (Hebrew)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וּמְלָכִים מִמְּךָ יֵצֵאוּ'
+  - where: 'note 35:11 “The covenant of Abraham, in Abraham’s order”'
+    claim: 'Kings promise in Gen. 35:11 (Hebrew)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וּמְלָכִים מֵחֲלָצֶיךָ יֵצֵאוּ'
+  - where: 'note 35:11 “The covenant of Abraham, in Abraham’s order”'
+    claim: 'Gen. 17:22 “God went up from Abraham” (Hebrew)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַיַּעַל אֱלֹהִים מֵעַל אַבְרָהָם'
+  - where: 'note 35:11 “The covenant of Abraham, in Abraham’s order”'
+    claim: 'Gen. 35:13 “God went up from him” (Hebrew)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַיַּעַל מֵעָלָיו אֱלֹהִים'
+  - where: 'note 35:11 “The covenant of Abraham, in Abraham’s order”'
+    claim: 'Gen. 17: kings come out of thee; land; God went up'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng'
+    quote: 'and kings shall come out of thee'
+  - where: 'note 35:11 “The covenant of Abraham, in Abraham’s order”'
+    claim: 'Gen. 17: God went up from Abraham'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng'
+    quote: 'and God went up from Abraham'
+  - where: 'note 35:11 “The covenant of Abraham, in Abraham’s order”'
+    claim: '“God went up from him” as acknowledgment of the heir of the Abrahamic covenant'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/35.htm'
+    quote: 'It was, in fact, the acknowledgment of the patriarch as the heir of the Abrahamic covenant'
+  - where: 'note 35:11 “The covenant of Abraham, in Abraham’s order”'
+    claim: 'The Bible Dictionary: covenant renewed with Jacob (Gen. 35:9–13)'
+    key: bd-abraham-covenant
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abraham-covenant-of?lang=eng'
+    quote: 'and again with Jacob'
+  - where: 'note 35:14 “A pillar, when the law forbids pillars”'
+    claim: 'Leviticus forbids standing images and stone images to bow down to'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/26?lang=eng'
+    quote: 'neither rear you up a standing image, neither shall ye set up any image of stone in your land, to bow down unto it'
+  - where: 'note 35:14 “A pillar, when the law forbids pillars”'
+    claim: 'Deuteronomy forbids setting up an image'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/16?lang=eng'
+    quote: 'Neither shalt thou set thee up any image'
+  - where: 'note 35:14 “A pillar, when the law forbids pillars”'
+    claim: 'Gen. 35:14 uses matstsevah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַיַּצֵּב יַעֲקֹב מַצֵּבָה'
+  - where: 'note 35:14 “A pillar, when the law forbids pillars”'
+    claim: 'Lev. 26:1 uses matstsevah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'וּמַצֵּבָה לֹא תָקִימוּ'
+  - where: 'note 35:14 “A pillar, when the law forbids pillars”'
+    claim: 'Deut. 16:22 uses matstsevah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'וְלֹא תָקִים לְךָ מַצֵּבָה'
+  - where: 'note 35:14 “A pillar, when the law forbids pillars”'
+    claim: 'Pouring oil and a drink offering was natural and right'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/35.htm'
+    quote: 'was in itself natural and right'
+  - where: 'note 35:14 “A pillar, when the law forbids pillars”'
+    claim: 'Memorial pillars were later worshipped and forbidden'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/35.htm'
+    quote: 'as these memorial pillars were subsequently worshipped, they were expressly forbidden'
+  - where: 'note 35:18 “Ben-oni and Benjamin”'
+    claim: 'Ben-oni means son of my sorrow'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1126.htm'
+    quote: 'son of my sorrow'
+  - where: 'note 35:18 “Ben-oni and Benjamin”'
+    claim: 'Benjamin means son of (the) right hand'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1144.htm'
+    quote: 'son of (the) right hand'
+  - where: 'note 35:18 “Ben-oni and Benjamin”'
+    claim: 'Jacob would not keep a name of sad memories; the right hand the auspicious side'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/35.htm'
+    quote: 'the father cannot acquiesce in a name of such sad memories'
+  - where: 'note 35:18 “Ben-oni and Benjamin”'
+    claim: 'The right hand the auspicious side'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/35.htm'
+    quote: 'The right hand was regarded as the auspicious side'
+  - where: 'note 35:18 “Ben-oni and Benjamin”'
+    claim: 'Perhaps a reference to Rachel’s prayer'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/35.htm'
+    quote: 'Perhaps the reference is to Rachel’s prayer'
+  - where: 'note 35:18 “Ben-oni and Benjamin”'
+    claim: 'Rachel’s words at Joseph’s birth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/30?lang=eng'
+    quote: 'The Lord shall add to me another son'
+  - where: 'note 35:18 “Ben-oni and Benjamin”'
+    claim: '“Joseph” relates to Hebrew yasaph, “to add”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/30?lang=eng'
+    quote: 'relates both to the Hebrew root yasaph, “to add,”'
+  - where: 'note 35:19 “Rachel’s grave on the road to Beth-lehem”'
+    claim: 'Jacob’s words to Joseph about Rachel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/48?lang=eng'
+    quote: 'Rachel died by me in the land of Canaan in the way, when yet there was but a little way to come unto Ephrath'
+  - where: 'note 35:19 “Rachel’s grave on the road to Beth-lehem”'
+    claim: 'Jacob’s words to Joseph about Rachel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/48?lang=eng'
+    quote: 'and I buried her there in the way of Ephrath; the same is Beth-lehem'
+  - where: 'note 35:19 “Rachel’s grave on the road to Beth-lehem”'
+    claim: 'Bethlehem-Judah is also called Ephrath'
+    key: bd-bethlehem
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/bethlehem?lang=eng'
+    quote: 'Bethlehem-Judah, also called Ephrath'
+  - where: 'note 35:19 “Rachel’s grave on the road to Beth-lehem”'
+    claim: 'Saul to find two men by Rachel’s sepulchre at Zelzah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/10?lang=eng'
+    quote: 'two men by Rachel’s sepulchre in the border of Benjamin at Zelzah'
+  - where: 'note 35:19 “Rachel’s grave on the road to Beth-lehem”'
+    claim: 'Rachel weeping at Ramah (Jer. 31:15)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/31?lang=eng'
+    quote: 'Rahel weeping for her children'
+  - where: 'note 35:19 “Rachel’s grave on the road to Beth-lehem”'
+    claim: 'Migdal-eder is a flock-tower, a shepherd’s watch-tower near Bethlehem'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4029.htm'
+    quote: 'flock-tower'
+  - where: 'note 35:19 “Rachel’s grave on the road to Beth-lehem”'
+    claim: 'Migdal-eder is a shepherd’s watch-tower near Bethlehem'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4029.htm'
+    quote: 'shepherd''s watch-tower near Bethlehem'
+  - where: 'note 35:22 “Reuben’s sin, and why the record stops”'
+    claim: 'Jacob took Bilhah as a wife'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/30?lang=eng'
+    quote: 'And she gave him Bilhah her handmaid to wife'
+  - where: 'note 35:22 “Reuben’s sin, and why the record stops”'
+    claim: 'Bilhah is Rachel’s maid and mother of Dan and Naphtali'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'And the sons of Bilhah, Rachel’s handmaid; Dan, and Naphtali'
+  - where: 'note 35:22 “Reuben’s sin, and why the record stops”'
+    claim: 'The Septuagint adds that the thing appeared grievous'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/35.htm'
+    quote: 'and the thing appeared grievous before him'
+  - where: 'note 35:22 “Reuben’s sin, and why the record stops”'
+    claim: 'Jacob’s blessing of Reuben'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/49?lang=eng'
+    quote: 'Unstable as water, thou shalt not excel; because thou wentest up to thy father’s bed'
+  - where: 'note 35:22 “Reuben’s sin, and why the record stops”'
+    claim: 'Chronicles: birthright given to the sons of Joseph'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/5?lang=eng'
+    quote: 'forasmuch as he defiled his father’s bed, his birthright was given unto the sons of Joseph'
+  - where: 'note 35:22 “Reuben’s sin, and why the record stops”'
+    claim: 'Reuben lost his birthright because of transgression'
+    key: bd-reuben
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/reuben?lang=eng'
+    quote: 'he lost his birthright because of transgression'
+  - where: 'note 35:22 “Reuben’s sin, and why the record stops”'
+    claim: 'Simeon and Levi condemned in Jacob’s blessing'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/49?lang=eng'
+    quote: 'Simeon and Levi are brethren; instruments of cruelty are in their habitations'
+  - where: 'note 35:22 “Reuben’s sin, and why the record stops”'
+    claim: 'Judah’s blessing'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/49?lang=eng'
+    quote: 'Judah, thou art he whom thy brethren shall praise'
+  - where: 'note 35:22 “Reuben’s sin, and why the record stops”'
+    claim: 'Reuben, Simeon, and Levi passed over; blessing to Judah'
+    key: sc-knowhy-843
+    url: 'https://scripturecentral.org/knowhy/why-is-judah-blessed-with-a-scepter-until-shiloh-comes'
+    quote: 'This blessing appears to explain why Simeon and Levi, sons two and three, were not chosen as the honorary firstborn after Reuben was passed over for that privilege'
+  - where: 'note 35:22 “Reuben’s sin, and why the record stops”'
+    claim: 'Judah as honorary firstborn after three were passed over'
+    key: sc-knowhy-843
+    url: 'https://scripturecentral.org/knowhy/why-is-judah-blessed-with-a-scepter-until-shiloh-comes'
+    quote: 'Judah is described here as something of an “honorary” firstborn after Reuben, Simeon, and Levi were passed over for the reasons explained above'
+  - where: 'note 35:26 “Twelve sons, “born in Padan-aram””'
+    claim: 'The list is arranged by mother'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/35.htm'
+    quote: 'arranged according to their respective mothers'
+  - where: 'note 35:26 “Twelve sons, “born in Padan-aram””'
+    claim: 'Jacob left with a staff and returned with twelve sons'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/35.htm'
+    quote: 'Jacob had left his father''s house with no other possession than a staff, and now he returned with 12 sons'
+  - where: 'note 35:26 “Twelve sons, “born in Padan-aram””'
+    claim: 'Benjamin was not born in Padan-aram'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/35.htm'
+    quote: 'although Benjamin, the twelfth, was not born in Padan-Aram, but on the journey back'
+  - where: 'note 35:26 “Twelve sons, “born in Padan-aram””'
+    claim: 'Benjamin completed the twelve'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/35.htm'
+    quote: 'who now completed the number twelve'
+  - where: 'note 35:28 “Isaac’s death, told ahead of its time”'
+    claim: 'Isaac was sixty when Jacob was born'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/25?lang=eng'
+    quote: 'and Isaac was threescore years old when she bare them'
+  - where: 'note 35:28 “Isaac’s death, told ahead of its time”'
+    claim: 'Isaac lived 180 years'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'And the days of Isaac were an hundred and fourscore years'
+  - where: 'note 35:28 “Isaac’s death, told ahead of its time”'
+    claim: 'Jacob was 130 before Pharaoh'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/47?lang=eng'
+    quote: 'The days of the years of my pilgrimage are an hundred and thirty years'
+  - where: 'note 35:28 “Isaac’s death, told ahead of its time”'
+    claim: 'Second year of the famine'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/45?lang=eng'
+    quote: 'For these two years hath the famine been in the land'
+  - where: 'note 35:28 “Isaac’s death, told ahead of its time”'
+    claim: 'Joseph was thirty before Pharaoh'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng'
+    quote: 'Joseph was thirty years old when he stood before Pharaoh king of Egypt'
+  - where: 'note 35:28 “Isaac’s death, told ahead of its time”'
+    claim: 'Seven years of plenty ended and dearth began'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng'
+    quote: 'And the seven years of plenteousness, that was in the land of Egypt, were ended'
+  - where: 'note 35:28 “Isaac’s death, told ahead of its time”'
+    claim: 'Seven years of dearth began'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng'
+    quote: 'And the seven years of dearth began to come'
+  - where: 'note 35:28 “Isaac’s death, told ahead of its time”'
+    claim: 'Joseph was seventeen when sold'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/37?lang=eng'
+    quote: 'Joseph, being seventeen years old, was feeding the flock with his brethren'
+  - where: 'note 35:28 “Isaac’s death, told ahead of its time”'
+    claim: 'The Bible Dictionary outline: Isaac’s account runs to 35:29'
+    key: bd-genesis
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/genesis?lang=eng'
+    quote: 'The account of his life'
+  - where: 'note 35:28 “Isaac’s death, told ahead of its time”'
+    claim: 'The Bible Dictionary outline: after Isaac’s death Esau’s genealogy, then Joseph'
+    key: bd-genesis
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/genesis?lang=eng'
+    quote: 'After Isaac’s death we have (a) the genealogy of Esau'
+  - where: 'note 35:28 “Isaac’s death, told ahead of its time”'
+    claim: 'The Bible Dictionary outline: history of the patriarchs till Joseph’s death'
+    key: bd-genesis
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/genesis?lang=eng'
+    quote: 'the history of the patriarchs till the death of Joseph'
+  - where: 'note 35:28 “Isaac’s death, told ahead of its time”'
+    claim: 'The next section opens “These are the generations of Jacob”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/37?lang=eng'
+    quote: 'These are the generations of Jacob'
+  - where: 'note 35:29 “Esau and Jacob bury their father”'
+    claim: 'Esau’s plan to kill Jacob after the days of mourning'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/27?lang=eng'
+    quote: 'The days of mourning for my father are at hand; then will I slay my brother Jacob'
+  - where: 'note 35:29 “Esau and Jacob bury their father”'
+    claim: 'Esau ran to meet Jacob and embraced him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/33?lang=eng'
+    quote: 'And Esau ran to meet him, and embraced him, and fell on his neck, and kissed him: and they wept'
+  - where: 'note 35:29 “Esau and Jacob bury their father”'
+    claim: 'Isaac and Ishmael buried Abraham'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/25?lang=eng'
+    quote: 'And his sons Isaac and Ishmael buried him'
+  - where: 'note 35:29 “Esau and Jacob bury their father”'
+    claim: 'Isaac and Rebekah buried at Machpelah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/49?lang=eng'
+    quote: 'there they buried Isaac and Rebekah his wife'
+  - where: 'note 35:29 “Esau and Jacob bury their father”'
+    claim: 'Esau’s move to Seir because the land could not bear both'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/36?lang=eng'
+    quote: 'went into the country from the face of his brother Jacob'
+  - where: 'note 35:29 “Esau and Jacob bury their father”'
+    claim: 'Esau’s move to Seir because the land could not bear both'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/36?lang=eng'
+    quote: 'the land wherein they were strangers could not bear them because of their cattle'
+  - where: 'christ'
+    claim: 'Bethlehem-Judah, also called Ephrath, is Christ’s birthplace'
+    key: bd-bethlehem
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/bethlehem?lang=eng'
+    quote: 'also called Ephrath'
+  - where: 'christ'
+    claim: 'Bethlehem-Judah, also called Ephrath, is Christ’s birthplace'
+    key: bd-bethlehem
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/bethlehem?lang=eng'
+    quote: 'Christ’s birthplace'
+  - where: 'christ'
+    claim: 'Micah’s ruler from Beth-lehem Ephratah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/micah/5?lang=eng'
+    quote: 'But thou, Beth-lehem Ephratah, though thou be little among the thousands of Judah'
+  - where: 'christ'
+    claim: 'Micah’s ruler from Beth-lehem Ephratah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/micah/5?lang=eng'
+    quote: 'that is to be ruler in Israel; whose goings forth have been from of old, from everlasting'
+  - where: 'christ'
+    claim: 'Matthew applies Jeremiah’s Rachel to the children of Bethlehem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/2?lang=eng'
+    quote: 'sent forth, and slew all the children that were in Bethlehem'
+  - where: 'christ'
+    claim: 'Matthew applies Jeremiah’s Rachel to the children of Bethlehem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/2?lang=eng'
+    quote: 'Rachel weeping for her children'
+  - where: 'christ'
+    claim: 'Matthew quotes Jeremiah at the mourning at Bethlehem where Rachel’s grave was'
+    key: bd-rachel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/rachel?lang=eng'
+    quote: 'Matthew quotes the passage in his description of the mourning at Bethlehem'
+  - where: 'christ'
+    claim: 'The covenant promises include that Christ would come through the lineage'
+    key: bd-abraham-covenant
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abraham-covenant-of?lang=eng'
+    quote: 'that (1) Christ would come through his lineage'
+  - where: 'christ'
+    claim: 'Judah’s blessing mentions Shiloh'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/49?lang=eng'
+    quote: 'The sceptre shall not depart from Judah, nor a lawgiver from between his feet, until Shiloh come'
+  - where: 'christ'
+    claim: 'Shiloh read as a prophecy of the Messiah, confirmed by JST'
+    key: bd-shiloh
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/shiloh?lang=eng'
+    quote: 'has been regarded by many biblical scholars as a prophecy of the coming of Messiah'
+  - where: 'christ'
+    claim: 'Shiloh read as a prophecy of the Messiah, confirmed by JST'
+    key: bd-shiloh
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/shiloh?lang=eng'
+    quote: 'This interpretation is confirmed by JST'
+  - where: 'christ'
+    claim: 'Reuben’s fall opens the way to Judah'
+    key: sc-knowhy-843
+    url: 'https://scripturecentral.org/knowhy/why-is-judah-blessed-with-a-scepter-until-shiloh-comes'
+    quote: 'Judah is described here as something of an “honorary” firstborn after Reuben, Simeon, and Levi were passed over for the reasons explained above'
+  - where: 'note 35:22 “Reuben’s sin, and why the record stops”'
+    claim: 'The Hebrew text has a section mark after “and Israel heard it,” before the list of the sons'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'יִשְׂרָאֵל פ וַיִּהְיוּ'
+  - where: 'note 35:22 “Reuben’s sin, and why the record stops”'
+    claim: 'Jacob’s blessing curses the anger of Simeon and Levi'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/49?lang=eng'
+    quote: 'Cursed be their anger, for it was fierce'
+  - where: 'note 35:9 “The second Beth-el answers the first”'
+    claim: 'In chapter 28 Jacob set up a pillar and poured oil on it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng'
+    quote: 'and set it up for a pillar, and poured oil upon the top of it'
+  - where: 'note 35:9 “The second Beth-el answers the first”'
+    claim: 'In chapter 28 Jacob named the place Beth-el'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng'
+    quote: 'And he called the name of that place Beth-el'
+  - where: 'note 35:9 “The second Beth-el answers the first”'
+    claim: 'At the first Beth-el God promised land and descendants'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng'
+    quote: 'the land whereon thou liest, to thee will I give it, and to thy seed'
+  - where: 'note 35:9 “The second Beth-el answers the first”'
+    claim: 'At the first Beth-el God promised to be with Jacob and bring him back'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng'
+    quote: 'I am with thee, and will keep thee in all places whither thou goest, and will bring thee again into this land'
+  - where: 'note 35:9 “The second Beth-el answers the first”'
+    claim: 'At the second Beth-el Jacob sets up a pillar and pours oil'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'and he poured oil thereon'
+  - where: 'note 35:9 “The second Beth-el answers the first”'
+    claim: 'At the second Beth-el Jacob names the place Beth-el'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'And Jacob called the name of the place where God spake with him, Beth-el'
+  - where: 'note 35:9 “The second Beth-el answers the first”'
+    claim: 'At the second Beth-el God promises a nation, kings, and the land'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'a nation and a company of nations shall be of thee'
+  - where: 'note 35:9 “The second Beth-el answers the first”'
+    claim: 'Jacob says God was with him on the way'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'and was with me in the way which I went'
+  - where: 'note 35:9 “The second Beth-el answers the first”'
+    claim: 'One LDS reading pairs the two Beth-el visits; the second reiterates land and seed'
+    key: huston-jacob-cycle
+    url: 'https://interpreterfoundation.org/journal/the-integration-of-temples-and-families-a-latter-day-saint-structure-for-the-jacob-cycle'
+    quote: 'the Lord reaffirms the new name that had been given Jacob in Genesis 32:28, and He reiterates the promise of land and seed'
+  - where: 'note 35:9 “The second Beth-el answers the first”'
+    claim: 'The reading’s inference for why the second visit lacks the promise of company'
+    key: huston-jacob-cycle
+    url: 'https://interpreterfoundation.org/journal/the-integration-of-temples-and-families-a-latter-day-saint-structure-for-the-jacob-cycle'
+    quote: 'There is no attendant blessing of companionship on a forthcoming journey as there was in Genesis 28:15 because, presumably, Jacob has completed that journey and finished faithfully.'
+  - where: 'note 35:11 “The covenant of Abraham, in Abraham’s order”'
+    claim: 'Isaac’s blessing of Jacob named El Shaddai (Gen. 28:3, Hebrew)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וְאֵל שַׁדַּי יְבָרֵךְ אֹתְךָ'
+  - where: 'note 35:11 “The covenant of Abraham, in Abraham’s order”'
+    claim: 'Isaac’s blessing uses liqhal ammim (Gen. 28:3)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'לִקְהַל עַמִּים'
+  - where: 'note 35:11 “The covenant of Abraham, in Abraham’s order”'
+    claim: 'Gen. 35:11 uses uqhal goyim; same lemma qahal'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'גּוֹי וּקְהַל גּוֹיִם'
+  - where: 'note 35:11 “The covenant of Abraham, in Abraham’s order”'
+    claim: 'Isaac’s blessing in English'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng'
+    quote: 'And God Almighty bless thee, and make thee fruitful'
+  - where: 'note 35:2 “Washing and new clothes before meeting God”'
+    claim: 'They were going up to Beth-el where God had appeared'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'And let us arise, and go up to Beth-el'
+  - where: 'note 35:4 “Earrings, and the oak at Shechem”'
+    claim: 'The earrings were probably more than jewelry, possibly amulets'
+    key: ot-manual-gen-24-36
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-24-36-the-covenant-line-continues-with-isaac-and-jacob?lang=eng'
+    quote: 'The earrings probably were more than mere jewelry, possibly amulets with inscriptions to false gods'
+  - where: 'note 35:4 “Earrings, and the oak at Shechem”'
+    claim: 'The earrings were worn as amulets and charms (the work the manual cites)'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/35.htm'
+    quote: 'with the earrings which were worn as amulets and charms'
+  - where: 'note 35:4 “Earrings, and the oak at Shechem”'
+    claim: 'Earrings tied to idolatry; Aaron made the calf from earrings'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/35.htm'
+    quote: 'Hence it was from their earrings that Aaron made the golden calf'
+  - where: 'note 35:5 “A terror from God”'
+    claim: '“Did not pursue” presupposes the violence of chapter 34'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/35.htm'
+    quote: 'These words which imply that “the sons of Jacob” had by their violence given just cause of provocation, presuppose ch. 34'
+  - where: 'note 35:7 “El-beth-el, the God of Beth-el”'
+    claim: 'El Beth-el means the God of Bethel'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/410.htm'
+    quote: 'the God of Bethel , who had his seat there Genesis 35:7'
+  - where: 'note 35:7 “El-beth-el, the God of Beth-el”'
+    claim: 'Beth-el means house of God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1008.htm'
+    quote: 'Definition "house of God," a city in Ephraim'
+  - where: 'note 35:9 “The second Beth-el answers the first”'
+    claim: 'Verse 3 “was with me” looks back to the vow in Gen. 28:20'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/35.htm'
+    quote: 'was with me ] Cf. Genesis 28:20'
+  - where: 'note 35:9 “The second Beth-el answers the first”'
+    claim: 'The condition of Jacob’s vow'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng'
+    quote: 'If God will be with me, and will keep me in this way that I go'
+  - where: 'note 35:11 “The covenant of Abraham, in Abraham’s order”'
+    claim: 'El Shaddai is the name by which God made the covenant with Abraham'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/35.htm'
+    quote: 'Heb., El-shaddai, the name by which God had entered into the covenant with Abraham'
+  - where: 'note 35:11 “The covenant of Abraham, in Abraham’s order”'
+    claim: '“God went up from him” used before in Gen. 17:22'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/35.htm'
+    quote: 'This formula, used before in Genesis 17:22'
+  - where: 'note 35:11 “The covenant of Abraham, in Abraham’s order”'
+    claim: 'The company of nations is the same word as Isaac’s congregation of peoples in 28:3'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/35.htm'
+    quote: 'See Genesis 28:3 , where it is “a congregation,” or church, “of peoples.”'
+  - where: 'note 35:19 “Rachel’s grave on the road to Beth-lehem”'
+    claim: 'Bethlehem-Judah is five miles south of Jerusalem'
+    key: bd-bethlehem
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/bethlehem?lang=eng'
+    quote: 'five miles south of Jerusalem'
+  - where: 'note 35:19 “Rachel’s grave on the road to Beth-lehem”'
+    claim: '1 Sam. 10:2 is listed with Gen. 35 and 48 as passages on her grave'
+    key: bd-rachel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/rachel?lang=eng'
+    quote: 'her grave ( 35:19–20 ; 48:7 ; 1 Sam. 10:2 )'
+  - where: 'note 35:19 “Rachel’s grave on the road to Beth-lehem”'
+    claim: 'Ramah was where the exiles were assembled'
+    key: bd-rachel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/rachel?lang=eng'
+    quote: 'Ramah being the place at which the exiles were assembled before their departure for Babylon'
+  - where: 'note 35:22 “Reuben’s sin, and why the record stops”'
+    claim: 'The blessing came upon Joseph, Rachel’s firstborn'
+    key: bd-reuben
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/reuben?lang=eng'
+    quote: 'The blessing therefore came upon Joseph, the firstborn of Jacob and Rachel'
+  - where: 'note 35:26 “Twelve sons, “born in Padan-aram””'
+    claim: 'The words are to be taken generally'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/35.htm'
+    quote: 'The words are to be taken only generally, as Benjamin was born in Canaan'
+  - where: 'note 35:28 “Isaac’s death, told ahead of its time”'
+    claim: 'Jacob was 120 at Isaac’s death'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/35.htm'
+    quote: 'Jacob was one hundred and twenty years of age at his father’s death'
+  - where: 'note 35:28 “Isaac’s death, told ahead of its time”'
+    claim: 'Joseph was sold about twelve years before Isaac’s death'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/35.htm'
+    quote: 'was committed about twelve years before the death of Isaac'
+  - where: 'christ'
+    claim: 'The covenant with these promises was renewed with Jacob'
+    key: bd-abraham-covenant
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abraham-covenant-of?lang=eng'
+    quote: 'and again with Jacob'
