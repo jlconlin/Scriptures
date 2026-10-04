@@ -1,0 +1,669 @@
+chapter: 20
+claims:
+  # ---------- when ----------
+  - where: 'when'
+    claim: 'Abraham was ninety-nine when the covenant of chapter 17 was given'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng'
+    quote: 'And when Abram was ninety years old and nine, the Lord appeared to Abram'
+  - where: 'when'
+    claim: 'Sarah was ninety; Isaac promised for the set time in the next year'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng'
+    quote: 'and shall Sarah, that is ninety years old, bear?'
+  - where: 'when'
+    claim: 'Isaac promised for the set time in the next year'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng'
+    quote: 'But my covenant will I establish with Isaac, which Sarah shall bear unto thee at this set time in the next year.'
+  - where: 'when'
+    claim: 'Abraham was a hundred when Isaac was born'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/21?lang=eng'
+    quote: 'And Abraham was an hundred years old, when his son Isaac was born unto him.'
+
+  # ---------- setting ----------
+  - where: 'setting'
+    claim: 'Three wife-sister stories: Genesis 12, 20, and 26'
+    key: strathearn-wife-sister
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/wife-sister-experience'
+    quote: 'The book of Genesis contains a trilogy of incidents in which the wife/ sister motif was used by either Abraham or Isaac.'
+  - where: 'setting'
+    claim: 'Isaac in Gerar calls Rebekah his sister'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/26?lang=eng'
+    quote: 'And the men of the place asked him of his wife; and he said, She is my sister'
+  - where: 'setting'
+    claim: 'The promise repeated at Mamre: at the time appointed Sarah shall have a son'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/18?lang=eng'
+    quote: 'At the time appointed I will return unto thee, according to the time of life, and Sarah shall have a son.'
+  - where: 'setting'
+    claim: 'Isaac’s birth follows in chapter 21'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/21?lang=eng'
+    quote: 'For Sarah conceived, and bare Abraham a son in his old age, at the set time of which God had spoken to him.'
+  - where: 'setting'
+    claim: 'Abimelech returns to make a covenant with Abraham at Beer-sheba'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/21?lang=eng'
+    quote: 'Thus they made a covenant at Beer-sheba'
+  - where: 'setting'
+    claim: 'Psalm 105:14–15 comments on this passage'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'A comment on this passage is supplied by Psalm 105:14-15'
+  - where: 'setting'
+    claim: 'Psalm 105: touch not mine anointed, and do my prophets no harm'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/105?lang=eng'
+    quote: 'Saying, Touch not mine anointed, and do my prophets no harm.'
+  - where: 'setting'
+    claim: 'Psalm 105: he reproved kings for their sakes'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/105?lang=eng'
+    quote: 'He suffered no man to do them wrong: yea, he reproved kings for their sakes;'
+  - where: 'setting'
+    claim: 'The Church’s chapter heading: Sarah preserved by the Lord; Abraham prays for Abimelech'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/20?lang=eng'
+    quote: 'Abimelech desires Sarah, who is preserved by the Lord—Abraham prays for Abimelech, and the Lord blesses him and his household.'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: '“Sore afraid” in verse 8 is the verb yare’, “fear”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/20-8.htm'
+    quote: 'וַיִּֽירְא֥וּ and were afraid Conj‑w ¦ V‑Qal‑ConsecImperf‑3mp'
+  - where: 'thread'
+    claim: 'Yare’ means fear, be afraid; Genesis 20:8 listed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3372.htm'
+    quote: 'fear, be afraid (not in P): a. absolute Genesis 3:10 ; Genesis 18:15 ; Genesis 32:8 ; Genesis 43:18 ; Exodus 14:10 (J), Genesis 20:8'
+  - where: 'thread'
+    claim: 'Yir’ah, “fear,” is a noun of the root yare’; sense “fear of God, reverence, piety”'
+    key: bdb
+    url: 'https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml'
+    quote: 'יִרְאָה n.f. fear'
+  - where: 'thread'
+    claim: '“Fear of God” in verse 11 is yir’at Elohim, reverence, piety'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3374.htm'
+    quote: '3 fear of God, reverence, piety יִרְאַת אֱלֹהִים Genesis 20:11'
+  - where: 'thread'
+    claim: 'God shows He can maintain His covenant and promise against all opposition'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/20.htm'
+    quote: 'that He can maintain His covenant and secure the realization of His promise against all opposition from the sinful desires of earthly potentates'
+  - where: 'thread'
+    claim: 'The LORD visited Sarah as He had said'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/21?lang=eng'
+    quote: 'And the Lord visited Sarah as he had said, and the Lord did unto Sarah as he had spoken.'
+
+  # ---------- sections plain ----------
+  - where: 'section 1 plain'
+    claim: '“The south country” is the Negev'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/20-1.htm'
+    quote: 'הַנֶּ֔גֶב the Negev'
+  - where: 'section 1 plain'
+    claim: '“Sojourned” is gur, to live as a sojourner'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1481.htm'
+    quote: 'verb sojourn (compare Arabic turn aside tarry'
+  - where: 'section 2 plain'
+    claim: '“A righteous nation” can be read “an innocent nation”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/20?lang=eng'
+    quote: 'OR an innocent nation.'
+  - where: 'section 2 plain'
+    claim: '“She is a man’s wife” is literally “married to a husband”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/20-3.htm'
+    quote: 'בְּעֻ֥לַת is married to V‑Qal‑QalPassPrtcpl‑fsc ¦ 2472'
+  - where: 'section 3 plain'
+    claim: '“What sawest thou” means “what did you have in view”'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'i.e. “what hadst thou in view?”'
+  # ---------- note 20:1 ----------
+  - where: 'note 20:1 “Between Kadesh and Shur”'
+    claim: 'The last place Genesis puts Abraham is Mamre; “from thence” is obscure'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'the last reference to Abraham is in Genesis 18:33 , when he is at Mamre, the precise meaning of “from thence” must remain obscure.'
+  - where: 'note 20:1 “Between Kadesh and Shur”'
+    claim: 'The LORD appeared to Abraham at Mamre'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/18?lang=eng'
+    quote: 'And the Lord appeared unto him in the plains of Mamre'
+  - where: 'note 20:1 “Between Kadesh and Shur”'
+    claim: '“The south country” is the Negev'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/20-1.htm'
+    quote: 'הַנֶּ֔גֶב the Negev'
+  - where: 'note 20:1 “Between Kadesh and Shur”'
+    claim: 'Hagar’s well: in the way to Shur'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/16?lang=eng'
+    quote: 'by the fountain in the way to Shur.'
+  - where: 'note 20:1 “Between Kadesh and Shur”'
+    claim: 'Hagar’s well: between Kadesh and Bered'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/16?lang=eng'
+    quote: 'behold, it is between Kadesh and Bered.'
+  - where: 'note 20:1 “Between Kadesh and Shur”'
+    claim: 'Gerar was in southwestern Palestine near Gaza; Isaac also lived there'
+    key: bd-gerar
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/gerar?lang=eng'
+    quote: 'A place in southwestern Palestine, near Gaza ( Gen. 10:19 ). Abraham lived there for a time ( Gen. 20 ), as did Isaac ( Gen. 26 ).'
+  - where: 'note 20:1 “Between Kadesh and Shur”'
+    claim: 'A Gerar near Gaza is hardly between Kadesh and Shur; perhaps the verse passes over a journey'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'This, however, is hardly a place of sojourn “between Kadesh and Shur.” Either, therefore, there is a lacuna between the two clauses of this verse, representing a journey from the Negeb into the Philistine region'
+  - where: 'note 20:1 “Between Kadesh and Shur”'
+    claim: 'Or Abraham’s headquarters were between Kadesh and Shur, with visits to Gerar'
+    key: delitzsch-genesis
+    url: 'https://archive.org/download/newcommentaryong02deli/newcommentaryong02deli_djvu.txt'
+    quote: 'wandering occasionally from these his head- quarters to Gerar south of Gaza'
+  - where: 'note 20:1 “Between Kadesh and Shur”'
+    claim: '“Sojourned” is gur, sojourn'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1481.htm'
+    quote: 'verb sojourn (compare Arabic turn aside tarry'
+
+  # ---------- note 20:2 “Again?” ----------
+  - where: 'note 20:2 “Again?”'
+    claim: 'Joseph Smith’s first manuscript reads “said again”'
+    key: jsp-ot1
+    url: 'https://www.josephsmithpapers.org/paper-summary/old-testament-revision-1/51'
+    quote: 'and Abraham said again of Sarah his wife she is my sister'
+  - where: 'note 20:2 “Again?”'
+    claim: 'The revised manuscript also reads “said again”'
+    key: jsp-ot2
+    url: 'https://www.josephsmithpapers.org/paper-summary/old-testament-revision-2/57'
+    quote: 'Abraham said again of Sarah his wife, she is my Sister'
+  - where: 'note 20:2 “Again?”'
+    claim: 'Many scholars take the stories as two versions; the JST shows Joseph Smith considered them separate events'
+    key: strathearn-wife-sister
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/wife-sister-experience'
+    quote: 'although many scholars believe that the incidents with Pharaoh and Abimelech are two versions of the same story'
+  - where: 'note 20:2 “Again?”'
+    claim: 'The JST shows Joseph Smith considered them separate events'
+    key: strathearn-wife-sister
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/wife-sister-experience'
+    quote: 'it is clear from the Joseph Smith Translation of the Bible that the Prophet Joseph Smith considered them to be two separate events'
+  - where: 'note 20:2 “Again?”'
+    claim: 'One reading: almost incredible Abraham would repeat it; Sarah advanced in years; probably a duplicate tradition'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'It seems almost incredible that, after the event recorded in Genesis 12:13-20 , Abraham should once again have displayed the same faults of cowardice and dissimulation. Sarah also is advanced in years'
+  - where: 'note 20:2 “Again?”'
+    claim: 'Same reading: probably a duplicate of the tradition in Genesis 12'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'The narrative most probably is a duplicate of the tradition of Genesis 12:13-20 .'
+  - where: 'note 20:2 “Again?”'
+    claim: 'Another reading: repetition in 24 years not startling; details entirely different'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/20.htm'
+    quote: 'an event, the repetition of which in the space of 24 years is by no means startling, when we consider the customs of the age'
+  - where: 'note 20:2 “Again?”'
+    claim: 'Another reading: details entirely different'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/20.htm'
+    quote: 'all the more minute details are entirely different in the two cases'
+  - where: 'note 20:2 “Again?”'
+    claim: 'Pharaoh sends Abraham away: take her and go'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/12?lang=eng'
+    quote: 'now therefore behold thy wife, take her, and go thy way.'
+  - where: 'note 20:2 “Again?”'
+    claim: 'In Egypt the princes praised Sarai’s beauty to Pharaoh'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/12?lang=eng'
+    quote: 'The princes also of Pharaoh saw her, and commended her before Pharaoh'
+
+  # ---------- note 20:2 “Why take a woman of ninety?” ----------
+  - where: 'note 20:2 “Why take a woman of ninety?”'
+    claim: 'Sarah was ninety'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng'
+    quote: 'and shall Sarah, that is ninety years old, bear?'
+  - where: 'note 20:2 “Why take a woman of ninety?”'
+    claim: 'One reading: Abimelech wanted alliance as brother-in-law with a wealthy nomad prince'
+    key: delitzsch-genesis
+    url: 'https://archive.org/download/newcommentaryong02deli/newcommentaryong02deli_djvu.txt'
+    quote: 'Abimelech was not concerned for sensual enjoyment, but that he desired to ally himself as brother-in-law to Abraham the wealthy nomad prince.'
+  - where: 'note 20:2 “Why take a woman of ninety?”'
+    claim: 'Abimelech means “Father-king”; the Abimelech of Genesis 26 is possibly the same person'
+    key: bd-abimelech
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abimelech?lang=eng'
+    quote: 'Father-king. (1) King of Gerar; takes Sarah ( Gen. 20:2 )'
+  - where: 'note 20:2 “Why take a woman of ninety?”'
+    claim: 'The two Abimelechs are possibly the same person'
+    key: bd-abimelech
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abimelech?lang=eng'
+    quote: '(1) and (2) are possibly the same person'
+  - where: 'note 20:2 “Why take a woman of ninety?”'
+    claim: 'Isaac goes to Abimelech king of the Philistines in Gerar'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/26?lang=eng'
+    quote: 'And Isaac went unto Abimelech king of the Philistines unto Gerar.'
+  - where: 'note 20:2 “Why take a woman of ninety?”'
+    claim: 'Some take Abimelech as a title of Philistine kings, like Pharaoh'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/40.htm'
+    quote: 'think a title of Philistine kings, compare Pharaoh.'
+
+  # ---------- note 20:3 “A dead man” ----------
+  - where: 'note 20:3 “A dead man”'
+    claim: 'The Hebrew is hinnekha met, behold you (are) dying, a participle'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/20-3.htm'
+    quote: 'מֵת֙ you are a dead man V‑Qal‑Prtcpl‑ms'
+  - where: 'note 20:3 “A dead man”'
+    claim: 'Death is set before the king as certainly at hand'
+    key: delitzsch-genesis
+    url: 'https://archive.org/download/newcommentaryong02deli/newcommentaryong02deli_djvu.txt'
+    quote: 'Death is placed before the king as certainly at hand'
+  - where: 'note 20:3 “A dead man”'
+    claim: 'JST: thou hast taken a woman not thine own; return her or die'
+    key: jsp-ot2
+    url: 'https://www.josephsmithpapers.org/paper-summary/old-testament-revision-2/57'
+    quote: 'behold, thou hast taken a woman which is not thine own; for she is Abrahams wife. And the Lord said unto him, thou shalt return her unto Abraham, for if thou do it not thou shalt die'
+  - where: 'note 20:3 “A dead man”'
+    claim: '“Behold” is hinneka'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/20-3.htm'
+    quote: 'הִנְּךָ֥ Behold Interjection ¦ 2ms'
+
+  # ---------- note 20:4 ----------
+  - where: 'note 20:4 “Abraham’s question in a king’s mouth”'
+    claim: 'Abraham asked of Sodom: wilt thou destroy the righteous with the wicked'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/18?lang=eng'
+    quote: 'And Abraham drew near, and said, Wilt thou also destroy the righteous with the wicked?'
+  - where: 'note 20:4 “Abraham’s question in a king’s mouth”'
+    claim: 'Abraham: Shall not the Judge of all the earth do right?'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/18?lang=eng'
+    quote: 'Shall not the Judge of all the earth do right?'
+  - where: 'note 20:4 “Abraham’s question in a king’s mouth”'
+    claim: '“Righteous” is tsaddiq'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/20-4.htm'
+    quote: 'צַדִּ֖יק a righteous Adj‑ms'
+  - where: 'note 20:4 “Abraham’s question in a king’s mouth”'
+    claim: 'The lexicon puts 20:4 with Abraham’s plea for Sodom under “righteous towards God”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6662.htm'
+    quote: 'just, righteous , in conduct and character: a. towards God Genesis 7:1 ; Genesis 18:23 ,24 (twice in verse); Genesis 18:25 (twice in verse); Genesis 18:26 ,28 (J) Genesis 20:4'
+  - where: 'note 20:4 “Abraham’s question in a king’s mouth”'
+    claim: 'Abimelech appeals to the instinct of justice'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'Abimelech appeals to the instinct of justice, that God will not punish the innocent, as if they were guilty. Cf. Genesis 18:23 .'
+  - where: 'note 20:4 “Abraham’s question in a king’s mouth”'
+    claim: 'An alternative rendering is “an innocent nation”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/20?lang=eng'
+    quote: 'OR an innocent nation.'
+
+  # ---------- note 20:6 ----------
+  - where: 'note 20:6 “Kept from sin”'
+    claim: 'How God kept Abimelech from touching her is explained in verse 17'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'suffered I thee not] The explanation of this sentence is supplied in Genesis 20:17.'
+  - where: 'note 20:6 “Kept from sin”'
+    claim: 'JST: the Lord had not suffered him'
+    key: jsp-ot2
+    url: 'https://www.josephsmithpapers.org/paper-summary/old-testament-revision-2/57'
+    quote: 'not come near her; for the Lord had not suffered him.'
+  - where: 'note 20:6 “Kept from sin”'
+    claim: 'Violation of moral law is sin against God'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'The violation of moral law is sin against God.'
+  # ---------- note 20:7 ----------
+  - where: 'note 20:7 “The first prophet”'
+    claim: 'First occurrence of “prophet” (nabi) in scripture, of Abraham'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'Abraham is here given the title of “prophet,” or “ nâbî ” (the first occurrence of it in Scripture).'
+  - where: 'note 20:7 “The first prophet”'
+    claim: 'Nabi: spokesman, speaker, prophet; first listed at Genesis 20:7'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5030.htm'
+    quote: 'noun masculine spokesman, speaker, prophet — ׳ נ Genesis 20:7'
+  - where: 'note 20:7 “The first prophet”'
+    claim: 'The verb is the Hithpael of palal with be’ad'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/20-7.htm'
+    quote: 'וְיִתְפַּלֵּ֥ל and he will pray Conj‑w ¦ V‑Hitpael‑ConjImperf‑3ms'
+  - where: 'note 20:7 “The first prophet”'
+    claim: '“For thee” is be’ad'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/20-7.htm'
+    quote: 'בַּֽעַדְךָ֖ for you'
+  - where: 'note 20:7 “The first prophet”'
+    claim: 'Hitpallel with be’ad means intercede on behalf of; Genesis 20:7'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6419.htm'
+    quote: '1 specifically intercede (with ׳ י ), with בעד , on behalf of Genesis 20:7'
+  - where: 'note 20:7 “The first prophet”'
+    claim: 'Abraham standing between the Lord and Sodom is prophetic intercession'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'Abraham’s willingness to stand between the Lord and the people of Sodom is what is known as “prophetic intercession,” and Abraham is a distinctive example of this.'
+  - where: 'note 20:7 “The first prophet”'
+    claim: 'Abraham stood before the Lord over Sodom'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/18?lang=eng'
+    quote: 'but Abraham stood yet before the Lord.'
+  - where: 'note 20:7 “The first prophet”'
+    claim: 'Job shall pray for the friends'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/42?lang=eng'
+    quote: 'and my servant Job shall pray for you: for him will I accept'
+  - where: 'note 20:7 “The first prophet”'
+    claim: 'The sending of Abimelech to Abraham’s intercession recalls Job 42:8'
+    key: delitzsch-genesis
+    url: 'https://archive.org/download/newcommentaryong02deli/newcommentaryong02deli_djvu.txt'
+    quote: 'the direction of Abimelech to the intercession of the patriarch recalls Job xlii. 8.'
+  # ---------- note 20:11 ----------
+  - where: 'note 20:11 “No fear of God in this place?”'
+    claim: 'Abraham assumed a heathen people would not fear divine retribution for killing a stranger, who had no rights'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'Abraham’s defence is that he assumed a heathen people did not fear God; and, therefore, would not be afraid of any Divine retribution, if they took the life of a stranger ( gêr ). The stranger had no rights'
+  - where: 'note 20:11 “No fear of God in this place?”'
+    claim: 'The stranger would have no avenger of blood'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'The stranger had no rights; his God would not be known. He would have no “avenger of blood.”'
+  - where: 'note 20:11 “No fear of God in this place?”'
+    claim: '“Fear of God” is yir’at Elohim: fear of God, reverence, piety'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3374.htm'
+    quote: '3 fear of God, reverence, piety יִרְאַת אֱלֹהִים Genesis 20:11'
+  - where: 'note 20:11 “No fear of God in this place?”'
+    claim: '“Fear of God” is yir’at Elohim'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/20-11.htm'
+    quote: 'יִרְאַ֣ת the fear N‑fsc'
+  - where: 'note 20:11 “No fear of God in this place?”'
+    claim: 'Joseph: This do, and live; for I fear God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'This do, and live; for I fear God:'
+  - where: 'note 20:11 “No fear of God in this place?”'
+    claim: 'Ryle connects Joseph’s “for I fear God”'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'See the same idea underlying Joseph’s words, “for I fear God”( Genesis 42:18 ).'
+  - where: 'note 20:11 “No fear of God in this place?”'
+    claim: 'One reading: the God-fearing heathen monarch'
+    key: delitzsch-genesis
+    url: 'https://archive.org/download/newcommentaryong02deli/newcommentaryong02deli_djvu.txt'
+    quote: 'The God-fearing heathen monarch accepted the reproof of God'
+  # ---------- note 20:12 ----------
+  - where: 'note 20:12 “Sister and wife”'
+    claim: 'Genesis 11:29 names Milcah’s father Haran, also father of Iscah, but not Sarai’s'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11?lang=eng'
+    quote: 'the name of Abram’s wife was Sarai; and the name of Nahor’s wife, Milcah, the daughter of Haran, the father of Milcah, and the father of Iscah.'
+  - where: 'note 20:12 “Sister and wife”'
+    claim: 'Josephus makes Sarai a daughter of Haran; Abram married his niece'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-1.html'
+    quote: 'Haran left a son, Lot : as also Sarai and Milcha his daughters'
+  - where: 'note 20:12 “Sister and wife”'
+    claim: 'Josephus: these married their nieces'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-1.html'
+    quote: 'These married their Nieces. Nahor married Milcha, and Abram married Sarai.'
+  - where: 'note 20:12 “Sister and wife”'
+    claim: 'Josephus, following rabbinic tradition, identifies Sarai with Iscah'
+    key: strathearn-wife-sister
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/wife-sister-experience'
+    quote: 'in making the connection between Sarai and Iscah, Josephus is following rabbinical tradition'
+  - where: 'note 20:12 “Sister and wife”'
+    claim: 'The Church’s wording: both descended from Terah; customs allowed calling her sister'
+    key: scripture-helps-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/07-genesis-12-17-abraham-1-2?lang=eng'
+    quote: 'Because Abraham and Sarah both descended from Terah, customs of their time would likely have allowed for Abraham to accurately refer to Sarah as his sister.'
+  - where: 'note 20:12 “Sister and wife”'
+    claim: 'The law later forbade marriage with a half-sister'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/18?lang=eng'
+    quote: 'The nakedness of thy sister, the daughter of thy father, or daughter of thy mother'
+  - where: 'note 20:12 “Sister and wife”'
+    claim: 'The law later forbade marriage with a half-sister'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'though forbidden by the laws of Leviticus 18:9'
+
+  # ---------- note 20:13 ----------
+  - where: 'note 20:13 “Abraham’s explanation”'
+    claim: 'In Abraham’s record the Lord told him, near Egypt, to have Sarai say she was his sister'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'And it came to pass when I was come near to enter into Egypt, the Lord said unto me: Behold, Sarai, thy wife, is a very fair woman to look upon;'
+  - where: 'note 20:13 “Abraham’s explanation”'
+    claim: 'Let her say unto the Egyptians, she is thy sister'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'Let her say unto the Egyptians, she is thy sister, and thy soul shall live.'
+  - where: 'note 20:13 “Abraham’s explanation”'
+    claim: '“Caused me to wander” is a plural verb (hit’u)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/20-13.htm'
+    quote: 'הִתְע֣וּ caused to wander V‑Hifil‑Perf‑3cp'
+  - where: 'note 20:13 “Abraham’s explanation”'
+    claim: 'Elohim usually takes a singular verb; plural here, as when an Israelite speaks to foreigners'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'the verb “caused me to wander” is in the plural, although, as a rule in the O.T., the word “God” ( Elohim ) is treated as sing.'
+  - where: 'note 20:13 “Abraham’s explanation”'
+    claim: 'The plural is used when an Israelite speaks to heathen'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'when an Israelite speaks to heathen, or else heathen are speaking of God'
+  - where: 'note 20:13 “Abraham’s explanation”'
+    claim: 'One reading: Abraham accommodates himself to the Philistine king, saying nothing about Jehovah'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/20.htm'
+    quote: 'accommodating himself to the polytheistic standpoint of the Philistine king'
+  - where: 'note 20:13 “Abraham’s explanation”'
+    claim: 'Saying nothing about Jehovah or the purpose of his wandering'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/20.htm'
+    quote: 'saying nothing about Jehovah, and the object of his wandering as revealed by Him.'
+  - where: 'note 20:13 “Abraham’s explanation”'
+    claim: 'The Old Testament shows the complexities of Abraham and Sarah'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'The Old Testament is willing to show us the complexities of men and women like Abraham and Sarah'
+  - where: 'note 20:13 “Abraham’s explanation”'
+    claim: 'The patriarchs need not be seen as always acting perfectly, nor as grossly unrighteous'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'The reminder that we do not need to see the patriarchs and matriarchs as always acting perfectly does not mean that we should ascribe to them gross unrighteousness.'
+  - where: 'note 20:13 “Abraham’s explanation”'
+    claim: 'Modern revelation: they have entered into their exaltation'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'we know from modern revelation that they have entered into their exaltation (Doctrine and Covenants 132:37)'
+  - where: 'note 20:13 “Abraham’s explanation”'
+    claim: 'D&C 132:37: they have entered into their exaltation'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/132?lang=eng'
+    quote: 'they have entered into their exaltation, according to the promises, and sit upon thrones'
+
+  # ---------- note 20:16 ----------
+  - where: 'note 20:16 “A covering of the eyes”'
+    claim: 'JST: he shall give unto thee a covering of the eyes, a token unto all that thou mayest not be taken again'
+    key: jsp-ot2
+    url: 'https://www.josephsmithpapers.org/paper-summary/old-testament-revision-2/58'
+    quote: 'behold, he shall give unto thee a covering of the eyes, And it shall be a token unto all, that thou mayest not be taken again from Abraham'
+  - where: 'note 20:16 “A covering of the eyes”'
+    claim: 'JST keeps “thus she was reproved”'
+    key: jsp-ot2
+    url: 'https://www.josephsmithpapers.org/paper-summary/old-testament-revision-2/58'
+    quote: 'thy husband, And thus she was reproved'
+  - where: 'note 20:16 “A covering of the eyes”'
+    claim: 'First manuscript has the same reading'
+    key: jsp-ot1
+    url: 'https://www.josephsmithpapers.org/paper-summary/old-testament-revision-1/52'
+    quote: 'behold he shall give unto thee a covering of the eyes and it shall be a token unto all that thou mayest not be taken again from Abraham thy husband and thus she was reproved'
+  - where: 'note 20:16 “A covering of the eyes”'
+    claim: 'The Hebrew of the end of the verse is very doubtful'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'The text in the original is very doubtful.'
+  - where: 'note 20:16 “A covering of the eyes”'
+    claim: 'The lexicon: covering of the eyes so they cannot see the wrong, a present in compensation'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3682.htm'
+    quote: 'covering of the eyes Genesis 20:16 (so that they cannot see the wrong, figurative of a present offered in compensation for it; E).'
+  - where: 'note 20:16 “A covering of the eyes”'
+    claim: 'Compare Genesis 32:20, “appease,” literally “cover his face”'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'Cf. Genesis 32:20 , “I will appease him,” lit. “cover his face”'
+  - where: 'note 20:16 “A covering of the eyes”'
+    claim: 'Jacob: I will appease him with the present'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/32?lang=eng'
+    quote: 'I will appease him with the present that goeth before me'
+  - where: 'note 20:16 “A covering of the eyes”'
+    claim: 'Money was reckoned by weight; no stamped coins'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'Money in the patriarchal times was reckoned by weight: there were no stamped coins.'
+  - where: 'note 20:16 “A covering of the eyes”'
+    claim: 'A slave was later reckoned at thirty shekels'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/20.htm'
+    quote: 'at a later date ( Exodus 21:32 ) a slave was reckoned at 30 shekels'
+  - where: 'note 20:16 “A covering of the eyes”'
+    claim: 'Exodus 21:32: thirty shekels for a servant'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/21?lang=eng'
+    quote: 'he shall give unto their master thirty shekels of silver'
+  - where: 'note 20:16 “A covering of the eyes”'
+    claim: '“Reproved” in 1828 English: to blame, censure, chide'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/reprove'
+    quote: '1. To blame; to censure.'
+  - where: 'note 20:16 “A covering of the eyes”'
+    claim: 'The word is a Niphal of yakach'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/20-16.htm'
+    quote: 'וְנֹכָֽחַת׃ you are vindicated Conj‑w ¦ V‑Nifal‑Prtcpl‑fs'
+  - where: 'note 20:16 “A covering of the eyes”'
+    claim: 'Read another way, “thou art set right, righted, justified”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3198.htm'
+    quote: 'but Di SS read וְנֹכַחַתְּ 2feminine singular Perfect and thou art set right, righted, justified.'
+  - where: 'note 20:16 “A covering of the eyes”'
+    claim: 'A modern translation: you are completely vindicated'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%2020&version=NRSVUE'
+    quote: 'it is your exoneration before all who are with you; you are completely vindicated.'
+  - where: 'note 20:16 “A covering of the eyes”'
+    claim: '“Thy brother” echoes the word Sarah used in verse 5'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'Abimelech emphasizes the word which Sarah had used ( Genesis 20:5 ), and which freed his conscience from any blame.'
+
+  - where: 'note 20:16 “A covering of the eyes”'
+    claim: 'One reading hears “brother” as sarcastic'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: 'By the sarcastic use of the word “brother,” Abimelech implies that compensation for wrong done to her is due to Abraham as one of her family, not as her husband.'
+
+  # ---------- note 20:18 ----------
+  - where: 'note 20:18 “Wombs closed because of Sarah”'
+    claim: 'Closing and opening the womb (Gen. 16:2; 29:31; 30:22) are read together'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/20.htm'
+    quote: 'This is evident from the expression "He hath restrained me from bearing" in Genesis 16:2'
+  - where: 'note 20:18 “Wombs closed because of Sarah”'
+    claim: 'The opposite, opening the womb, in Gen. 29:31 and 30:22'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/20.htm'
+    quote: 'from the opposite phrase, "open the womb," so as to facilitate conception (Genesis 29:31, and Genesis 30:22)'
+  - where: 'note 20:18 “Wombs closed because of Sarah”'
+    claim: 'The Lord restrained Sarai from bearing'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/16?lang=eng'
+    quote: 'Behold now, the Lord hath restrained me from bearing'
+  - where: 'note 20:18 “Wombs closed because of Sarah”'
+    claim: 'The Lord opened Leah’s womb'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/29?lang=eng'
+    quote: 'he opened her womb: but Rachel was barren.'
+  - where: 'note 20:18 “Wombs closed because of Sarah”'
+    claim: 'God opened Rachel’s womb'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/30?lang=eng'
+    quote: 'And God remembered Rachel, and God hearkened to her, and opened her womb.'
+  - where: 'note 20:18 “Wombs closed because of Sarah”'
+    claim: 'Abraham and Sarah were still awaiting the son of the covenant'
+    key: strathearn-wife-sister
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/wife-sister-experience'
+    quote: 'During these accounts Abraham and Sarah were still awaiting the time when they would be given a son to carry on the covenant.'
+  - where: 'note 20:18 “Wombs closed because of Sarah”'
+    claim: 'Verse 18 has YHWH; the rest of the chapter Elohim'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/20-18.htm'
+    quote: 'יְהוָ֔ה YHWH N‑proper‑ms'
+  - where: 'note 20:18 “Wombs closed because of Sarah”'
+    claim: 'Jehovah is used here only in this narrative'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/20.htm'
+    quote: '“Jehovah” is here used for the only time in this narrative.'
+  - where: 'note 20:18 “Wombs closed because of Sarah”'
+    claim: 'One reading: Jehovah acted to protect the birth of the promised son from Sarah'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/20.htm'
+    quote: 'It was He too who had brought the disease upon Abimelech and his house, not as Elohim or Ha-Elohim, but as Jehovah, the God of salvation'
+  - where: 'note 20:18 “Wombs closed because of Sarah”'
+    claim: 'One reading: to protect the birth of the promised son from Sarah'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/20.htm'
+    quote: 'and the birth of the promised son from Sarah'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'Jehovah is the premortal Jesus Christ; LORD in small capitals'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
+  - where: 'christ'
+    claim: 'Among the promises to Abraham: Jesus Christ would be born through his lineage'
+    key: scripture-helps-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/07-genesis-12-17-abraham-1-2?lang=eng'
+    quote: 'Jesus Christ would be born through his lineage.'
+  - where: 'christ'
+    claim: 'Paul: to thy seed, which is Christ'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/gal/3?lang=eng'
+    quote: 'Now to Abraham and his seed were the promises made. He saith not, And to seeds, as of many; but as of one, And to thy seed, which is Christ.'
+  - where: 'christ'
+    claim: 'The son He had promised: Isaac, to be born of Sarah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng'
+    quote: 'But my covenant will I establish with Isaac, which Sarah shall bear unto thee at this set time in the next year.'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: 'Strathearn’s article treats the wife/sister stories'
+    key: strathearn-wife-sister
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/wife-sister-experience'
+    quote: 'Similar situations arose later when both Abraham and Isaac dwelt in the city of Gerar (see Genesis 20:1–2; 26:7–8).'
