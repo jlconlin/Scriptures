@@ -36,13 +36,13 @@ The goal: when you finish, every factual claim in the chapter rests on a source 
 ## 3. Run the checks
 
 ```sh
-node scripts/fix-yaml.mjs content/<book>/chapters/NN.yaml
-node scripts/build.mjs
-node scripts/check-quotes.mjs <book> <n>
-node scripts/check-content.mjs <book> <n>
+node scripts/check-chapter.mjs <book> <n>
+node scripts/check-sources.mjs <book> <n>     # if you propose sources
 ```
 
-Fix every warning that concerns your chapter, except the length warning (trimming is the author's call). “Unknown source key” for a key you are proposing is expected; to test with your proposed entries, use a scratch copy of `content/` and `--root` (`STANDARDS.md` §5). If a check fails for reasons outside your chapter, don't edit the script; report it. In a cloud sandbox, prefix `check-quotes.mjs` with `NODE_USE_ENV_PROXY=1`.
+`check-chapter.mjs` runs `fix-yaml`, the build (`PREVIEW=1`, into its own folder under `.cache/batch/<book>/`, so a book in preview is built), `check-quotes`, `check-content` (your proposed entries from `.cache/batch/<book>/proposed/NN.yaml` are added in memory: no scratch copy of `content/`) and `check-ledger`, prints a one-line result for each with only the lines that concern this chapter, and exits 1 if one fails. `check-sources.mjs` opens each proposed URL and sets the entry's title beside the page's.
+
+Fix every warning that concerns your chapter, except the length warning (trimming is the author's call). “Unknown source key” for a key you are proposing is expected from the plain build. If a check fails for reasons outside your chapter, don't edit the script; report it. In a cloud sandbox, set `NODE_USE_ENV_PROXY=1` before `check-chapter.mjs` (`check-quotes` needs it).
 
 ## Limits
 

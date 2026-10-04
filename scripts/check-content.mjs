@@ -27,10 +27,20 @@
 // Guide and theme pages (STANDARDS.md §8), warnings only: a theme page over 1,000 words (a guide is not held to it); a `[@key]` cited in a
 //   section whose ledger has no row for that key under that section (`where` “section “Heading”” or “opening”). Information, listed
 //   and not counted as a warning: the page's own connections, the ledger rows whose claim begins “Connection made by this page:”.
+// Per-note ledger coverage (STANDARDS.md §5), warnings only, each under its own heading, in a chapter with a ledger: a key in a note's
+//   `sources` that no ledger row naming that note carries (not `lds-scriptures`: a note that only quotes scripture with a [[reference]] needs no row); a
+//   ledger `where` that names no note or section of the chapter, with the closest note title when a note was retitled (note titles are
+//   compared on letters, so straight and curly quotes agree); a note with no ledger row at all (reported once, not once per key, and not again when a retitled note's rows are found by their `where`); a
+//   passage of 12 or more characters in curly quotes in a note's body that no ledger row for that note quotes, that is not followed in its
+//   sentence by a [[reference]] (check-quotes.mjs checks those), and that is not a phrase of the chapter's own verses.
+// Proposed sources (STANDARDS.md §5): the entries a writer left in .cache/batch/<book>/proposed/NN.yaml are added to sources.yaml in memory,
+//   and the keys that came from there are printed; automatically when one chapter is checked and its file exists, `--proposed` also for a
+//   whole book (every file), `--no-proposed` never. A proposed key that gives a URL another from sources.yaml's is an error; one the chapter
+//   does not cite is a warning. (--root still works; the proposed files are read from this repository's .cache.)
 // With --repeats: passages of 12 or more words quoted in the ledgers of three or more chapters of a book, from sources
 //   other than scripture, lexicons, and dictionary entries, so the coordinator can explain one once and link it.
 //
-// Usage: node scripts/check-content.mjs [book [chapter | page file name]] [--quiet] [--repeats] [--root <dir>]
+// Usage: node scripts/check-content.mjs [book [chapter | page file name]] [--quiet] [--repeats] [--proposed | --no-proposed] [--root <dir>]
 //   (a second argument that is not a number is a guide or theme page, such as cup-of-fury: only that page is checked)
 // Exit code is 1 if there are errors, 0 otherwise (warnings never fail).
 import { readFile, readdir } from 'node:fs/promises';
@@ -38,14 +48,13 @@ import { existsSync } from 'node:fs';
 import path from 'node:path';
 import YAML from 'yaml';
 import { parseRef } from '../src/lib/refs.mjs';
+import { letters } from '../src/lib/pages.mjs';
+import { SCRIPT_ROOT, readProposed, mergeProposed, proposedFile, isWiki, pageSections, headingKey, whereKey, partsOfWhere, closestNote, verseOf } from '../src/lib/ledger.mjs';
 
 // Works known to be unreadable online. Citing one in a strict chapter needs quoted evidence
 // in the ledger, since nobody can check the claim against the page.
 const NOT_READABLE = ['oswalt', 'blenkinsopp', 'childs', 'paul-40-66', 'westermann', 'halot', 'parry-understanding', 'williamson-book-called', 'tov-textual', 'matthews-plainer'];
 
-
-// Wikis are not sources (anyone can edit them); nor are popular history sites (author, 2026-10-01).
-const WIKI_HOSTS = ['livius.org', 'wikipedia.org', 'wikimedia.org', 'wikisource.org', 'wikiquote.org', 'wiktionary.org', 'wikidata.org', 'wikibooks.org', 'fandom.com', 'wikia.com', 'wikia.org'];
 
 // The Church's Student Manuals are a starting point, not the spine of a chapter (author,
 // 2026-10-03). A chapter should have at most about a third of its notes citing one, and a note
@@ -92,12 +101,6 @@ let warnings = 0;
 const err = (m) => { errors++; console.error(`  ✗ ${m}`); };
 const warn = (m) => { warnings++; if (!quiet) console.warn(`  ⚠ ${m}`); };
 
-const isWiki = (url) => {
-  try {
-    const host = new URL(url).hostname.toLowerCase();
-    return WIKI_HOSTS.some((w) => host === w || host.endsWith(`.${w}`));
-  } catch { return false; }
-};
 const keyOf = (s) => String(s).split(/,\s*/)[0];
 const isKey = (k) => /^[a-z0-9-]+$/.test(k); // same rule as build.mjs: other strings are free text
 const readYaml = async (f) => YAML.parse(await readFile(f, 'utf8'));
@@ -105,8 +108,23 @@ const ls = async (d, ext) => (existsSync(d) ? (await readdir(d)).filter((f) => f
 
 // ---------- sources.yaml ----------
 const sourcesFile = path.join(CONTENT, 'sources.yaml');
-const sources = await readYaml(sourcesFile);
+let sources = await readYaml(sourcesFile);
 console.log('Global checks');
+// The entries a writer proposed, added in memory: for the chapter checked (when its file exists), or every file with --proposed.
+const proposedKeys = new Map(); // key -> 'book chapter'
+if (!args.includes('--no-proposed') && onlyBook) {
+  const dir = path.dirname(proposedFile(onlyBook, 1));
+  const want = onlyChapter && !onlyPage ? [parseInt(onlyChapter, 10)] : args.includes('--proposed') && existsSync(dir) ? (await readdir(dir)).filter((f) => /^\d+\.yaml$/.test(f)).map((f) => parseInt(f, 10)) : [];
+  for (const n of want.filter((n) => existsSync(proposedFile(onlyBook, n)))) {
+    try {
+      const merged = mergeProposed(sources, await readProposed(onlyBook, n));
+      sources = merged.sources;
+      for (const k of merged.proposed) proposedKeys.set(k, `${onlyBook} ${n}`);
+      for (const k of merged.conflicts) err(`${path.relative(SCRIPT_ROOT, proposedFile(onlyBook, n))}: proposed key “${k}” is already in sources.yaml with another URL`);
+    } catch (e) { err(e.message); }
+  }
+  if (proposedKeys.size) console.log(`  Proposed sources added in memory from ${[...new Set(proposedKeys.values())].map((l) => path.relative(SCRIPT_ROOT, proposedFile(...l.split(' ')))).join(', ')} (not yet in content/sources.yaml): ${[...proposedKeys.keys()].join(', ')}`);
+}
 const seen = new Map();
 (await readFile(sourcesFile, 'utf8')).split('\n').forEach((line, i) => {
   const m = line.match(/^([A-Za-z0-9_.-]+):/);
@@ -147,26 +165,8 @@ const needsQuote = (label, k, rows) => {
   if (!rows.some((r) => r?.key === k && String(r.quote ?? '').trim())) err(`${label}: “${k}” is not readable online; its ledger needs a row with a quote`);
 };
 
-// A guide or theme page's sections: the text before the first heading is the opening (`heading: null`); a heading is `## …` or `<h2 …>…</h2>`.
-function pageSections(body) {
-  const out = [{ heading: null, text: '' }];
-  for (const line of body.split('\n')) {
-    const h = line.match(/^#{1,3}\s+(.*?)\s*$/) ?? line.match(/^<h[1-6][^>]*>(.*?)<\/h[1-6]>/);
-    if (h) out.push({ heading: h[1].replace(/<[^>]+>/g, '').replace(/[*_`]/g, '').trim(), text: '' });
-    else out.at(-1).text += `${line}\n`;
-  }
-  return out;
-}
 // Words as a reader counts them: no citations, tags or link addresses, and none of a table's rules.
 const wordCount = (md) => md.replace(/\[@[^\]]*\]/g, ' ').replace(/<[^>]+>/g, ' ').replace(/\]\([^)]*\)/g, ' ').split(/\s+/).filter((w) => /[\p{L}\p{N}]/u.test(w)).length;
-const headingKey = (s) => String(s).normalize('NFKD').toLowerCase().replace(/[^\p{L}\p{N}]+/gu, '');
-// A ledger row's `where` as a section key: “section “The cup handed round”” -> the heading's key, “opening” -> 'opening', anything else -> null.
-const whereKey = (w) => {
-  const s = String(w ?? '');
-  if (/^\s*opening\b/i.test(s)) return 'opening';
-  const m = s.match(/^\s*section\s+(.*)$/i);
-  return m ? headingKey(m[1]) : null;
-};
 
 // ---------- books ----------
 const books = [];
@@ -207,6 +207,8 @@ const ownConnections = []; // theme pages' own connections (ledger rows “Conne
 const outside = []; // chapters leaning on commentaries read on Bible Hub
 const settingLength = []; // setting outside the length it should have
 const repeatedQuotes = []; // --repeats: passages quoted in the ledgers of several chapters
+const unusedProposed = []; // proposed sources the chapter does not cite
+const keyNoRow = [], whereNoPart = [], noteNoRow = [], quoteNoRow = []; // per-note ledger coverage (chapters with a ledger)
 let strictCount = 0, chapterCount = 0, strictPages = 0, pageCount = 0;
 
 for (const book of books) {
@@ -355,6 +357,42 @@ for (const book of books) {
     for (const k of [...cited].sort()) if (!ledgerKeys.has(k)) err(`${label}: cited “${k}” has no row in ${lf}`);
     for (const k of unread) needsQuote(label, k, rows);
 
+    // ---------- per-note coverage of the ledger (warnings) ----------
+    // Which rows name each note; a `where` that names nothing in the chapter.
+    const byNote = notes.map(() => []), unnamed = new Map();
+    for (const r of rows) {
+      const { ids, missing } = partsOfWhere(r?.where, ch);
+      for (const id of ids) if (id.startsWith('note:')) byNote[+id.slice(5)].push(r);
+      for (const m of missing) (unnamed.get(m) ?? unnamed.set(m, []).get(m)).push(r);
+    }
+    // A `where` that names a note that is not there is a note retitled after its rows were written: reported once, with the closest title.
+    // Its rows are counted for that note when it has none of its own, so the note is not reported again as having no row.
+    const explained = new Set();
+    for (const [w, mine] of unnamed) {
+      const near = closestNote(ch, w), pair = near && (near.sameVerse || near.score >= 0.4) && !byNote[near.index].length && !explained.has(near.index) ? near : null;
+      if (pair) { explained.add(pair.index); byNote[pair.index].push(...mine); }
+      whereNoPart.push(`${lf}: “${w}” ${near ? 'no longer matches a note' : 'names no part of the chapter'} (${mine.length} row${mine.length > 1 ? 's' : ''})${near ? ';' : ''} ${near ? `the closest title in the chapter is “${near.note.title}” (note ${near.note.ref}${near.sameVerse ? '' : ', another verse'})${pair ? ', which has no row of its own' : ''}` : ''}`.trimEnd());
+    }
+    // The chapter's own verses, to leave out a quotation of them (check-quotes.mjs checks those that carry a reference).
+    const kjvFile = [ROOT, SCRIPT_ROOT].map((r) => path.join(r, 'data/kjv', `${book}.json`)).find(existsSync);
+    const ownVerses = kjvFile ? letters(((JSON.parse(await readFile(kjvFile, 'utf8')).chapters ?? [])[num - 1] ?? []).join(' ')) : '';
+    notes.forEach((n, i) => {
+      const mine = byNote[i];
+      if (!mine.length) { noteNoRow.push(noteLabel(n)); return; }
+      for (const k of new Set((n.sources ?? []).map(keyOf).filter(isKey)))
+        if (k !== 'lds-scriptures' && !mine.some((r) => String(r.key) === k)) keyNoRow.push(`${noteLabel(n)}: “${k}” is in its sources, but no ledger row for ${k} names this note`);
+      const body = String(n.body ?? ''), rowLetters = mine.map((r) => letters(r.quote)).join('|');
+      for (const m of body.matchAll(/“([^”]{12,})”/g)) {
+        const after = body.slice(m.index + m[0].length), cut = after.replace(/\[\[[^\]]*\]\]/g, (x) => 'R'.repeat(x.length)).search(/[.!?](?:\s|$)/);
+        if (/\[\[/.test(cut < 0 ? after : after.slice(0, cut))) continue; // a scripture quotation: check-quotes.mjs
+        const parts = m[1].split(/…|\.\.\./).map(letters).filter((p) => p.length >= 6);
+        if (parts.every((p) => ownVerses.includes(p) || rowLetters.includes(p))) continue;
+        quoteNoRow.push(`${noteLabel(n)}: “${m[1].length > 70 ? `${m[1].slice(0, 69)}…` : m[1]}” is in no ledger row for this note`);
+      }
+    });
+    // A proposed source this chapter does not cite.
+    for (const [k, l] of proposedKeys) if (l === `${book} ${num}` && !cited.has(k)) unusedProposed.push(`${label}: proposed source “${k}” is cited by nothing in the chapter; remove it from the proposed file`);
+
   }
 
   // --repeats: a passage of REPEAT_WORDS words or more quoted in the ledgers of REPEAT_CHAPTERS chapters or more of this book.
@@ -391,7 +429,7 @@ for (const book of books) {
   }
 }
 
-warnings += nonStrict.length + leaning.length + dangling.length + announced.length + outside.length + settingLength.length + pageLength.length + uncitedSection.length + repeatedQuotes.length;
+warnings += unusedProposed.length + keyNoRow.length + whereNoPart.length + noteNoRow.length + quoteNoRow.length + nonStrict.length + leaning.length + dangling.length + announced.length + outside.length + settingLength.length + pageLength.length + uncitedSection.length + repeatedQuotes.length;
 if (nonStrict.length && !quiet) {
   console.log(`\nChapters without an evidence ledger (warnings only):`);
   for (const l of nonStrict) console.warn(`  ⚠ ${l}`);
@@ -402,6 +440,11 @@ if (leaning.length && !quiet) {
 }
 
 for (const [group, list] of [
+  ['Proposed sources the chapter does not cite (warnings only)', unusedProposed],
+  [`Notes with no ledger row that names them (warnings only; STANDARDS.md §5): ${noteNoRow.length}`, noteNoRow],
+  [`Keys in a note's sources with no ledger row that names the note (warnings only; STANDARDS.md §5; lds-scriptures is left out: a note that only quotes scripture with a [[reference]] needs no row): ${keyNoRow.length}`, keyNoRow],
+  [`Ledger rows whose where no longer matches a note or section of the chapter, usually a note retitled (warnings only; STANDARDS.md §5): ${whereNoPart.length}`, whereNoPart],
+  [`Passages in curly quotes in a note that no ledger row for the note quotes (warnings only; STANDARDS.md §5; a quotation followed by a [[reference]] is left to check-quotes): ${quoteNoRow.length}`, quoteNoRow],
   ['Pointers to a note that isn\'t there, in chapters without a ledger (warnings only; STANDARDS.md §3)', dangling],
   ['Sources announced in the text (warnings only; STANDARDS.md §3: quote with the reference, don\'t announce the source)', announced],
   ['Chapters leaning on commentaries read on Bible Hub (warnings only; STANDARDS.md §1)', outside],

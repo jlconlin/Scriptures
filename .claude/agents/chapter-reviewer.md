@@ -23,7 +23,7 @@ You are checking and repairing, not rewriting. Keep the writer's structure, thre
 
 With a findings file, items 1 and 4 are done; decide each finding, and do items 2 and 3 by reading the chapter against the ledger's quotes.
 
-1. **Reopen the sources.** For at least half of the ledger rows, and for every row that supports a quotation from a talk or book, a Hebrew or Greek word meaning, a textual variant, a date, or a statement of what a prophet taught: find the `quote` on its `url` with `node scripts/source.mjs '<url>' --find "words from the quote"` (`STANDARDS.md` §9) and confirm that it is there word for word and that it supports the `claim`. Read only the paragraphs you need. Choose the rows the chapter leans on most.
+1. **Reopen the sources.** For at least half of the ledger rows, and for every row that supports a quotation from a talk or book, a Hebrew or Greek word meaning, a textual variant, a date, or a statement of what a prophet taught: see the `quote` in its page with `node scripts/ledger-context.mjs <book> <n> --where "note 22:8"` (or `--keys …`, `--types talk,article,manual,book`: each row's claim and the paragraph that holds the quote, with its neighbors, the quote marked ⟦like this⟧, under the text it supports) or find it on its `url` with `node scripts/source.mjs '<url>' --find "words from the quote"` (`STANDARDS.md` §9), and confirm that it supports the `claim`. Read only the paragraphs you need. Choose the rows the chapter leans on most.
 2. **Read the chapter against the ledger.** Every factual claim in `when`, `setting`, `thread`, each `plain`, every note, `christ`, `explore`, and `parallels` needs a row (`STANDARDS.md` §5 says what needs none). Look hardest at sentences that sound like common knowledge: dates, who reigned when, what a custom was, what “scholars” think.
 3. **Check that each claim says no more than its source.** The usual failures: a source's “may” written as fact; one commentator's reading written as the consensus; a quotation attributed to the wrong speaker or talk; a summary sentence (in `thread`, `christ`, or a note's close) that claims more than the notes established; a connection only the writer has made.
 4. **Check the rules that are easy to break:** no wiki or popular-history URL; the work is cited, not the website; a secondary source is not cited for another work's idea unless that work was read; no work on the unreadable lists; no modern scholar named in running text; no announced sources (“the manual says…”); no personal application.
@@ -51,16 +51,12 @@ With a findings file, items 1 and 4 are done; decide each finding, and do items 
 
 ## 5. Run the checks
 
-Use the commands in the brief if the book is in preview; otherwise:
-
 ```sh
-node scripts/fix-yaml.mjs content/<book>/chapters/NN.yaml
-node scripts/build.mjs
-node scripts/check-quotes.mjs <book> <n>
-node scripts/check-content.mjs <book> <n>
+node scripts/check-chapter.mjs <book> <n>
+node scripts/check-sources.mjs <book> <n>     # after you add or change an entry in the proposed file
 ```
 
-Fix every warning that concerns this chapter. “Unknown source key” for a proposed key is expected.
+`check-chapter.mjs` runs `fix-yaml`, the build (`PREVIEW=1`, into its own folder under `.cache/batch/<book>/`, so a book in preview is built), `check-quotes`, `check-content` (the proposed entries added in memory, so no scratch copy of `content/`) and `check-ledger`, prints a one-line result for each with only the lines that concern this chapter, and exits 1 if one fails. Fix every warning that concerns this chapter. “Unknown source key” for a proposed key is expected from the plain build.
 
 ## Limits
 
