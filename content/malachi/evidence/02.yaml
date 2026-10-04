@@ -1,0 +1,784 @@
+chapter: 2
+claims:
+  # ---- when ----
+  - where: 'when'
+    claim: 'The prophecy is dated about 430 B.C. in the Bible Dictionary'
+    key: bd-malachi
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/malachi?lang=eng'
+    quote: 'The prophecy of Malachi was spoken about 430 B.C.'
+  - where: 'when'
+    claim: 'The exact timing of Malachi’s ministry is uncertain (generally dated between 500 and 350 BC)'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'The exact timing of Malachi’s ministry is uncertain, but his book is generally dated between 500 and 350 BC.'
+
+  # ---- setting ----
+  - where: 'setting'
+    claim: 'The first part of the book (1:1–2:9) is addressed to the priesthood'
+    key: bd-malachi
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/malachi?lang=eng'
+    quote: 'The first part (Mal. 1:1–2:9) is addressed to the priesthood, reproving them for their neglect of service to God.'
+  - where: 'setting'
+    claim: 'The second part (2:10–4:6) is addressed to the people: marriage outside the covenant, divorces from wives within the covenant, neglect of tithe paying'
+    key: bd-malachi
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/malachi?lang=eng'
+    quote: 'The second part (2:10–4:6) is addressed to the people, speaking against marriage outside the covenant, divorces from wives within the covenant, and neglect of tithe paying'
+  - where: 'setting'
+    claim: 'Malachi may have been a contemporary of Ezra and Nehemiah'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'meaning Malachi may have been a contemporary of Ezra and Nehemiah.'
+  - where: 'setting'
+    claim: 'Ezra was told that the people, priests and Levites had not separated themselves from the people of the lands'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/9?lang=eng'
+    quote: 'The people of Israel, and the priests, and the Levites, have not separated themselves from the people of the lands'
+  - where: 'setting'
+    claim: 'Nehemiah saw Jews who had married wives of Ashdod, Ammon, and Moab'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/neh/13?lang=eng'
+    quote: 'In those days also saw I Jews that had married wives of Ashdod, of Ammon, and of Moab:'
+  - where: 'setting'
+    claim: 'Verse 15 is uncertain in the Hebrew (NIV note)'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NIV'
+    quote: 'Malachi 2:15 The meaning of the Hebrew for the first part of this verse is uncertain.'
+  - where: 'setting'
+    claim: 'Verse 3: translators differ (NIV note, alternative reading)'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=NIV'
+    quote: 'Malachi 2:3 Or will blight your grain'
+  - where: 'setting'
+    claim: 'Verse 12: the NRSVUE note says the traditional text has “arouse”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NRSVUE'
+    quote: '2.12 Q ms Compare Gk: MT arouse'
+  - where: 'setting'
+    claim: 'Verse 16: the NRSVUE has “I hate” where its note says the Hebrew has “he hates”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NRSVUE'
+    quote: '2.16 Cn: Heb he hates'
+  - where: 'setting'
+    claim: 'The Savior quoted all of Malachi 3 and 4 to the Nephites'
+    key: bd-malachi
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/malachi?lang=eng'
+    quote: 'All of Mal. 3 and 4 was quoted by the Savior to the Nephites, as recorded in 3 Ne. 24 and 25.'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'The Hebrew “covenant” (berit, H1285) occurs six times in Malachi: 2:4, 5, 8, 10, 14 and 3:1 (hebrew.mjs --word H1285); verse 14 shown'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'בָּגַ֣דְתָּה בָּ֔/הּ וְ/הִ֥יא חֲבֶרְתְּ/ךָ֖ וְ/אֵ֥שֶׁת בְּרִיתֶֽ/ךָ'
+  - where: 'thread'
+    claim: 'The verb bagad (H898) occurs five times in Malachi, all in 2:10–16 (hebrew.mjs --word H898); verse 10 shown'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'מַדּ֗וּעַ נִבְגַּד֙ אִ֣ישׁ בְּ/אָחִ֔י/ו לְ/חַלֵּ֖ל בְּרִ֥ית אֲבֹתֵֽי/נוּ'
+  - where: 'thread'
+    claim: 'The book takes the form of a dialogue between the Lord and the people'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'Malachi’s writings take a distinctive literary form: a series of exchanges in a dialogue between the Lord and the people.'
+  - where: 'thread'
+    claim: 'The question of 2:17 is answered in 3:1: the Lord replies that He will come'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/3.htm'
+    quote: 'To the question, Where is or remains the God of judgment? the Lord Himself replies that He will suddenly come to His temple'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: 'The verb the KJV renders “corrupt” in verse 3 means “rebuke”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1605.htm'
+    quote: 'גָּעַר verb rebuke'
+  - where: 'section 5 plain'
+    claim: 'Verse 15 is obscure in the Hebrew'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7605.htm'
+    quote: 'Malachi 2:15 is obscure'
+
+  # ---- note 2:2 ----
+  - where: 'note 2:2 “The blessings that are cursed”'
+    claim: 'The lexicon reads “blessings” in Mal. 2:2 as prosperity'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1293.htm'
+    quote: 'and I will curse your prosperity Malachi 2:2.'
+  - where: 'note 2:2 “The blessings that are cursed”'
+    claim: 'Some read the blessings as the priests’ revenues (tithes, portions of the sacrifices); the commentary rejects that'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/2.htm'
+    quote: 'blessings, are obviously not the revenues of the priests, tithes, atonement-money, and portions of the sacrifices'
+  - where: 'note 2:2 “The blessings that are cursed”'
+    claim: 'The other reading: the blessings the priests pronounced on the people by virtue of their office'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/2.htm'
+    quote: 'but the blessings pronounced by the priests upon the people by virtue of their office.'
+  - where: 'note 2:2 “The blessings that are cursed”'
+    claim: 'To curse them is to make them ineffective or turn them into the opposite'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/2.htm'
+    quote: 'These God will curse, i.e., He will make them ineffective, or turn them into the very opposite.'
+  - where: 'note 2:2 “The blessings that are cursed”'
+    claim: '“I have cursed them already” is a Hebrew perfect: the curse has already taken effect'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/2.htm'
+    quote: 'is a perfect, which affirms that the curse has already taken effect.'
+  - where: 'note 2:2 “The blessings that are cursed”'
+    claim: 'The NIV’s cross-reference for Malachi 2:2 is Numbers 6:23–27, the priestly blessing'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=NIV'
+    quote: 'Malachi 2:2 : Nu 6:23-27'
+  - where: 'note 2:2 “The blessings that are cursed”'
+    claim: 'The NIV cross-references the curse of Malachi 2:2 to Deuteronomy 28:20'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=NIV'
+    quote: 'Malachi 2:2 : S Dt 11:26; S 28:20'
+  - where: 'note 2:2 “The blessings that are cursed”'
+    claim: 'The Hebrew noun for “curse” (me’erah) is listed in five places: Deut. 28:20, Mal. 2:2, 3:9, Prov. 3:33, 28:27'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3994.htm'
+    quote: 'a curse Deuteronomy 28:20; Malachi 2:2; Malachi 3:9; construct מְאֵרַת Proverbs 3:33; plural מְאֵרוֺת Proverbs 28:27.'
+
+  # ---- note 2:3 ----
+  - where: 'note 2:3 “Seed or arm, and the dung of the feasts”'
+    claim: 'The verb ga‘ar means “rebuke”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1605.htm'
+    quote: 'גָּעַר verb rebuke'
+  - where: 'note 2:3 “Seed or arm, and the dung of the feasts”'
+    claim: 'The lexicon gives the reading “seed” for Mal. 2:3 (preventing the usual harvest)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1605.htm'
+    quote: 'the seed (prevent the usual harvest) Malachi 2:3'
+  - where: 'note 2:3 “Seed or arm, and the dung of the feasts”'
+    claim: 'The same lexicon entry gives “the arm, namely, of priests, that they may not extend it to bless”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1605.htm'
+    quote: 'the arm, namely, of priests, that they may not extend it to bless'
+  - where: 'note 2:3 “Seed or arm, and the dung of the feasts”'
+    claim: 'One commentary follows the Septuagint and Vulgate and adopts the pointing “arm”'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/2.htm'
+    quote: 'We must therefore follow the lxx, Aquila, Vulg., Ewald, and others, and adopt the pointing'
+  - where: 'note 2:3 “Seed or arm, and the dung of the feasts”'
+    claim: 'The priests did not farm, so a failed harvest would not be a punishment peculiar to them'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/2.htm'
+    quote: 'since the priests did not practise agriculture, it is impossible to see how rebuking the seed, i.e., causing a failure of the corps, could be a punishment peculiar to the priests.'
+  - where: 'note 2:3 “Seed or arm, and the dung of the feasts”'
+    claim: 'Rebuking the arm signifies neutralizing the priests’ official duties at the altar and sanctuary'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/2.htm'
+    quote: 'rebuking the arm, therefore, signifies the neutralizing of the official duties performed at the altar and in the sanctuary.'
+  - where: 'note 2:3 “Seed or arm, and the dung of the feasts”'
+    claim: 'The ESV has “I will rebuke your offspring”, with a note that the Hebrew has “seed”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=ESV'
+    quote: 'Behold, (F)I will rebuke your offspring, and (G)spread dung on your faces'
+  - where: 'note 2:3 “Seed or arm, and the dung of the feasts”'
+    claim: 'The ESV’s note on 2:3 reads “Hebrew seed”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=ESV'
+    quote: 'Malachi 2:3 Hebrew seed'
+  - where: 'note 2:3 “Seed or arm, and the dung of the feasts”'
+    claim: 'The NRSVUE has “I will rebuke your offspring” and, for the last clause, “I will put you out of my presence,” with a note comparing the Greek and Syriac'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=NRSVUE'
+    quote: '3 I will rebuke your offspring and spread dung on your faces, the dung of your offerings, and I will put you out of my presence.'
+  - where: 'note 2:3 “Seed or arm, and the dung of the feasts”'
+    claim: 'NRSVUE note on 2:3'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=NRSVUE'
+    quote: '2.3 Cn Compare Gk Syr: Heb and he shall bear you to it'
+  - where: 'note 2:3 “Seed or arm, and the dung of the feasts”'
+    claim: 'The NIV has “rebuke your descendants”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=NIV'
+    quote: 'Because of you I will rebuke your descendants'
+  - where: 'note 2:3 “Seed or arm, and the dung of the feasts”'
+    claim: 'The NIV offers “will blight your grain” as an alternative'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=NIV'
+    quote: 'Malachi 2:3 Or will blight your grain'
+  - where: 'note 2:3 “Seed or arm, and the dung of the feasts”'
+    claim: 'The NIV renders the feasts as “your festival sacrifices” and the last clause “you will be carried off with it”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=NIV'
+    quote: 'from your festival sacrifices, and you will be carried off with it.'
+  - where: 'note 2:3 “Seed or arm, and the dung of the feasts”'
+    claim: '“Feasts” stands for the festal sacrifices, the animals slain at the festivals'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/2.htm'
+    quote: 'feasts, is used metonymically for festal sacrifices, or the sacrificial animals slain at the festivals'
+  - where: 'note 2:3 “Seed or arm, and the dung of the feasts”'
+    claim: 'The priests’ festal sacrifices are described as being themselves dung'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/2.htm'
+    quote: 'the festal sacrifices offered by these priests are described as being themselves dung'
+  - where: 'note 2:3 “Seed or arm, and the dung of the feasts”'
+    claim: 'The image repays the contempt shown by offering blind or lame animals (chapter 1)'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/2.htm'
+    quote: 'the contempt of the Lord, which they show by offering blind or lame animals, or such as are blemished in other ways, He will repay to them by giving them up to the greatest ignominy.'
+  - where: 'note 2:3 “Seed or arm, and the dung of the feasts”'
+    claim: 'The NIV cross-references the dung of Mal. 2:3 to Leviticus 4:11'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=NIV'
+    quote: 'Malachi 2:3 : S Ex 29:14; S Lev 4:11; S Job 9:31'
+  - where: 'note 2:3 “Seed or arm, and the dung of the feasts”'
+    claim: 'The dung of a sin offering was carried out with the rest of the animal outside the camp (Lev. 4:11–12)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/4?lang=eng'
+    quote: 'Even the whole bullock shall he carry forth without the camp unto a clean place, where the ashes are poured out'
+  - where: 'note 2:3 “Seed or arm, and the dung of the feasts”'
+    claim: 'The dung of a sin offering is among the parts of the animal carried out (Lev. 4:11)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/4?lang=eng'
+    quote: 'and his inwards, and his dung,'
+  - where: 'note 2:3 “Seed or arm, and the dung of the feasts”'
+    claim: 'Mal. 1:8 condemns offering the blind, the lame and sick'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/1?lang=eng'
+    quote: 'And if ye offer the blind for sacrifice, is it not evil? and if ye offer the lame and sick, is it not evil?'
+
+  # ---- note 2:4 ----
+  - where: 'note 2:4 “The covenant with Levi”'
+    claim: 'The Levites are the descendants of Levi, the tribe assigned the work of the sanctuary'
+    key: bd-levites
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/levites?lang=eng'
+    quote: 'Descendants of Levi. The work of ministering in the sanctuary was assigned to this tribe.'
+  - where: 'note 2:4 “The covenant with Levi”'
+    claim: 'The NIV cross-references the covenant of Mal. 2:5 to Deut. 33:9'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=NIV'
+    quote: 'Malachi 2:5 : Dt 33:9; Ps 25:10; 103:18'
+  - where: 'note 2:4 “The covenant with Levi”'
+    claim: 'The NIV cross-references “life and peace” in Mal. 2:5 to Num. 25:12 (the Church’s footnote 5a does the same)'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=NIV'
+    quote: 'Malachi 2:5 : S Nu 25:12'
+  - where: 'note 2:4 “The covenant with Levi”'
+    claim: 'The NIV cross-references the instruction in the priest’s mouth (Mal. 2:6) to Deut. 33:10'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=NIV'
+    quote: 'Malachi 2:6 : S Dt 33:10'
+  - where: 'note 2:4 “The covenant with Levi”'
+    claim: 'NIV: “so that my covenant with Levi may continue”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=NIV'
+    quote: 'so that my covenant with Levi(H) may continue'
+  - where: 'note 2:4 “The covenant with Levi”'
+    claim: 'ESV: “that my covenant with Levi may stand”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=ESV'
+    quote: 'my covenant with Levi may stand'
+
+  # ---- note 2:7 ----
+  - where: 'note 2:7 “The priest as the Lord’s messenger”'
+    claim: 'The lexicon lists Mal. 2:7 for the sense “priest” of mal’ak'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4397.htm'
+    quote: 'c. priest Malachi 2:7, probably Ecclesiastes 5:5 (RV angel).'
+  - where: 'note 2:7 “The priest as the Lord’s messenger”'
+    claim: 'mal’ak (H4397) occurs three times in Malachi, in 2:7 and twice in 3:1; 2:7 shown'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'כִּ֛י מַלְאַ֥ךְ יְהוָֽה צְבָא֖וֹת הֽוּא'
+  - where: 'note 2:7 “The priest as the Lord’s messenger”'
+    claim: 'mal’ak twice in 3:1 (“my messenger” and “the messenger of the covenant”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'הִנְ/נִ֤י שֹׁלֵחַ֙ מַלְאָכִ֔/י וּ/פִנָּה דֶ֖רֶךְ לְ/פָנָ֑/י'
+  - where: 'note 2:7 “The priest as the Lord’s messenger”'
+    claim: 'The name Malachi means “my messenger” in Hebrew'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'The name Malachi means “my messenger” in Hebrew.'
+  - where: 'note 2:7 “The priest as the Lord’s messenger”'
+    claim: 'The Hebrew word for “law” in verse 6 is torah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'תּוֹרַ֤ת אֱמֶת֙ הָיְתָ֣ה בְּ/פִ֔י/הוּ'
+  - where: 'note 2:7 “The priest as the Lord’s messenger”'
+    claim: 'NRSVUE renders it “instruction” in verses 6–8'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=NRSVUE'
+    quote: 'True instruction was in his mouth, and no wrong was found on his lips.'
+  - where: 'note 2:7 “The priest as the Lord’s messenger”'
+    claim: 'NRSVUE verse 8: “by your instruction”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=NRSVUE'
+    quote: 'you have caused many to stumble by your instruction'
+  - where: 'note 2:7 “The priest as the Lord’s messenger”'
+    claim: 'ESV renders it “instruction” in verses 6–8, with a note “Or law; also verses 7, 8, 9”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=ESV'
+    quote: 'True instruction was in his mouth, and no wrong was found on his lips.'
+  - where: 'note 2:7 “The priest as the Lord’s messenger”'
+    claim: 'ESV note on verse 6'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=ESV'
+    quote: 'Malachi 2:6 Or law; also verses 7, 8, 9'
+
+  # ---- note 2:8 ----
+  - where: 'note 2:8 “From turning many away to making many stumble”'
+    claim: 'Verse 6 has “many” (rabbim) as the object of “turned [back]”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'וְ/רַבִּ֖ים הֵשִׁ֥יב מֵ/עָוֺֽן'
+  - where: 'note 2:8 “From turning many away to making many stumble”'
+    claim: 'Verse 8 has the same word “many” (rabbim) as the object of “made stumble”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'הִכְשַׁלְתֶּ֥ם רַבִּ֖ים בַּ/תּוֹרָ֑ה'
+  - where: 'note 2:8 “From turning many away to making many stumble”'
+    claim: 'The Lord reproved the priests for setting a poor example that caused many people to stumble'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'The Lord also reproved the priests for setting a poor example that caused many people to stumble.'
+  - where: 'note 2:8 “From turning many away to making many stumble”'
+    claim: 'NRSVUE: “by your instruction”; “shown partiality in your instruction”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=NRSVUE'
+    quote: 'you have caused many to stumble by your instruction'
+  - where: 'note 2:8 “From turning many away to making many stumble”'
+    claim: 'NRSVUE verse 9: shown partiality'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=NRSVUE'
+    quote: 'have shown partiality in your instruction'
+  - where: 'note 2:8 “From turning many away to making many stumble”'
+    claim: 'NIV: “by your teaching have caused many to stumble”; “shown partiality in matters of the law”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=NIV'
+    quote: 'by your teaching have caused many to stumble'
+  - where: 'note 2:8 “From turning many away to making many stumble”'
+    claim: 'NIV verse 9: shown partiality'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=NIV'
+    quote: 'have shown partiality(Z) in matters of the law'
+  - where: 'note 2:8 “From turning many away to making many stumble”'
+    claim: 'ESV: “by your instruction”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A1-9&version=ESV'
+    quote: 'You have caused many to stumble by your instruction.'
+  - where: 'note 2:8 “From turning many away to making many stumble”'
+    claim: 'Malachi may have been a contemporary of Nehemiah'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'meaning Malachi may have been a contemporary of Ezra and Nehemiah.'
+  - where: 'note 2:8 “From turning many away to making many stumble”'
+    claim: 'Nehemiah’s prayer against those who defiled the covenant of the priesthood (the Church’s footnote 8d on “covenant” points to this verse)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/neh/13?lang=eng'
+    quote: 'Remember them, O my God, because they have defiled the priesthood, and the covenant of the priesthood, and of the Levites.'
+  - where: 'note 2:8 “From turning many away to making many stumble”'
+    claim: 'A grandson of the high priest was son-in-law to Sanballat (Neh. 13:28)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/neh/13?lang=eng'
+    quote: 'And one of the sons of Joiada, the son of Eliashib the high priest, was son in law to Sanballat the Horonite: therefore I chased him from me.'
+
+  # ---- note 2:10 ----
+  - where: 'note 2:10 “One father, one God, and the covenant of the fathers”'
+    claim: 'We are all children of the same God; mistreating a brother or sister offends our Heavenly Father'
+    key: ot-manual-34
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-34?lang=eng'
+    quote: 'We are all children of the same God. When we mistreat a brother or sister, we offend our Heavenly Father as well.'
+  - where: 'note 2:10 “One father, one God, and the covenant of the fathers”'
+    claim: 'The one father is neither Adam nor Abraham but Jehovah, who calls Himself the Father of the nation in Malachi 1:6'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/2.htm'
+    quote: 'The one father, whom all have, is neither Adam, the progenitor of all men, nor Abraham, the father of the Israelitish nation, but Jehovah, who calls Himself the Father of the nation in Malachi 1:6.'
+  - where: 'note 2:10 “One father, one God, and the covenant of the fathers”'
+    claim: 'Abraham is ruled out because the Ishmaelites and Edomites also descended from him'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/2.htm'
+    quote: 'is precluded by the fact, that not only the Israelites, but also the Ishmaelites and Edomites were descended from Abraham'
+  - where: 'note 2:10 “One father, one God, and the covenant of the fathers”'
+    claim: 'Mal. 1:6: “if then I be a father, where is mine honour?”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/1?lang=eng'
+    quote: 'if then I be a father, where is mine honour?'
+  - where: 'note 2:10 “One father, one God, and the covenant of the fathers”'
+    claim: 'Every violation of the fraternal relation is an offence against God and a desecration of His covenant'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/2.htm'
+    quote: 'Consequently every violation of the fraternal relation, such as that of which the Israelite was guilty who married a heathen woman, or put away an Israelitish wife, was also an offence against God, a desecration of His covenant.'
+  - where: 'note 2:10 “One father, one God, and the covenant of the fathers”'
+    claim: 'The covenant of the fathers is the covenant the Lord made when He chose them from among the heathen (Ex. 19:5–6; 24:8)'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/2.htm'
+    quote: 'the covenant which Jehovah made with the fathers, when He chose them from among the heathen, and adopted them as His covenant nation (Exodus 19:5-6; Exodus 24:8).'
+  - where: 'note 2:10 “One father, one God, and the covenant of the fathers”'
+    claim: 'bagad is used of acting faithlessly in the marriage relation, in matters of property or right, in covenants'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/898.htm'
+    quote: 'act or deal treacherously, faithlessly, deceitfully, in the marriage relation, in matters of property or right, in covenants, in word and in General conduct.'
+  - where: 'note 2:10 “One father, one God, and the covenant of the fathers”'
+    claim: 'bagad occurs five times in Malachi, all in 2:10–16 (hebrew.mjs --word H898); verse 11 shown'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'בָּגְדָ֣ה יְהוּדָ֔ה וְ/תוֹעֵבָ֛ה נֶעֶשְׂתָ֥ה בְ/יִשְׂרָאֵ֖ל'
+  - where: 'note 2:10 “One father, one God, and the covenant of the fathers”'
+    claim: 'NRSVUE: “faithless to one another”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NRSVUE'
+    quote: 'Why then are we faithless to one another, profaning the covenant of our ancestors?'
+  - where: 'note 2:10 “One father, one God, and the covenant of the fathers”'
+    claim: 'ESV: “faithless to one another”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=ESV'
+    quote: 'Why then are we (C)faithless to one another, profaning the covenant of our fathers?'
+  - where: 'note 2:10 “One father, one God, and the covenant of the fathers”'
+    claim: 'NIV: “being unfaithful to one another”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NIV'
+    quote: 'Why do we profane the covenant(C) of our ancestors by being unfaithful(D) to one another?'
+
+  # ---- note 2:11 ----
+  - where: 'note 2:11 “The daughter of a strange god”'
+    claim: 'The lexicon lists the singular ’el nekar (Mal. 2:11) with “foreign gods”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5236.htm'
+    quote: 'foreign gods of the land; singular אֵל נֵכָר Deuteronomy 32:12; Malachi 2:11; Psalm 81:10'
+  - where: 'note 2:11 “The daughter of a strange god”'
+    claim: 'NIV: “marrying women who worship a foreign god”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NIV'
+    quote: 'women who worship a foreign god'
+  - where: 'note 2:11 “The daughter of a strange god”'
+    claim: 'The second part of the book speaks against marriage outside the covenant'
+    key: bd-malachi
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/malachi?lang=eng'
+    quote: 'speaking against marriage outside the covenant'
+  - where: 'note 2:11 “The daughter of a strange god”'
+    claim: 'The offence of verse 12 is marrying women who worship idols'
+    key: ot-manual-34
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-34?lang=eng'
+    quote: '(profaning the Lord by marrying women who worship idols)'
+  - where: 'note 2:11 “The daughter of a strange god”'
+    claim: 'Malachi may have been a contemporary of Ezra and Nehemiah'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'meaning Malachi may have been a contemporary of Ezra and Nehemiah.'
+  - where: 'note 2:11 “The daughter of a strange god”'
+    claim: 'Ezra: the priests and the Levites were among those who had not separated themselves (Ezra 9:1)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/9?lang=eng'
+    quote: 'The people of Israel, and the priests, and the Levites, have not separated themselves from the people of the lands'
+  - where: 'note 2:11 “The daughter of a strange god”'
+    claim: 'Ezra: the people had taken of the daughters of the lands for themselves and their sons (Ezra 9:2)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/9?lang=eng'
+    quote: 'For they have taken of their daughters for themselves, and for their sons'
+  - where: 'note 2:11 “The daughter of a strange god”'
+    claim: 'Nehemiah’s account of wives of Ashdod, Ammon, and Moab, and children speaking half in the speech of Ashdod'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/neh/13?lang=eng'
+    quote: 'And their children spake half in the speech of Ashdod'
+  - where: 'note 2:11 “The daughter of a strange god”'
+    claim: 'The manual reads the verse as the husband-wife figure of Jehovah and Judah'
+    key: ot-manual-34
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-34?lang=eng'
+    quote: 'This passage calls to mind again the often used figure in the Old Testament of the husband (Jehovah) and the wife (Judah/Israel).'
+  - where: 'note 2:11 “The daughter of a strange god”'
+    claim: 'Judah had formed a temporal or spiritual alliance with a nation that did not regard Jehovah'
+    key: ot-manual-34
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-34?lang=eng'
+    quote: 'But Judah had chosen another partner, “the daughter of a strange God,” meaning that Judah had formed a temporal or spiritual alliance with a nation that did not regard Jehovah as the Lord of heaven.'
+  - where: 'note 2:11 “The daughter of a strange god”'
+    claim: 'The Septuagint reads that Judah “has gone after other gods”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/malachi/2.htm'
+    quote: 'Juda has profaned the holy things of the Lord, which he delighted in, and has gone after other gods.'
+  - where: 'note 2:11 “The daughter of a strange god”'
+    claim: 'NRSVUE: “the sanctuary of the Lord, which he loves”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NRSVUE'
+    quote: 'for Judah has profaned the sanctuary of the Lord, which he loves, and has married the daughter of a foreign god'
+  - where: 'note 2:11 “The daughter of a strange god”'
+    claim: 'ESV: “the sanctuary of the Lord”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=ESV'
+    quote: 'Judah has profaned the sanctuary of the Lord, which he loves'
+  - where: 'note 2:11 “The daughter of a strange god”'
+    claim: 'NIV: “the sanctuary the Lord loves”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NIV'
+    quote: 'Judah has desecrated the sanctuary the Lord loves'
+
+  # ---- note 2:12 ----
+  - where: 'note 2:12 “The master and the scholar”'
+    claim: 'The manual reads it as the teacher of such doctrine and the one who follows it'
+    key: ot-manual-34
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-34?lang=eng'
+    quote: '“The master and the scholar” (v. 12) is he who teaches such doctrine (profaning the Lord by marrying women who worship idols) and he who follows it.'
+  - where: 'note 2:12 “The master and the scholar”'
+    claim: 'The Hebrew is ‘er we-‘oneh (verse 12 shown)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'עֵ֣ר וְ/עֹנֶ֔ה מֵ/אָהֳלֵ֖י יַֽעֲקֹ֑ב'
+  - where: 'note 2:12 “The master and the scholar”'
+    claim: 'The ESV’s note on verse 12 gives the Hebrew as “any who wakes and answers”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=ESV'
+    quote: 'Malachi 2:12 Hebrew any who wakes and answers'
+  - where: 'note 2:12 “The master and the scholar”'
+    claim: 'The lexicon proposes reading ‘ed for ‘er, comparing the Septuagint’s heos (“until”) as reflecting the consonants ‘d'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5782.htm'
+    quote: 'Participle עֵר Songs 5:2 + Malachi 2:12 (read probably עֵד We Now GASm, compare ᵐ5 ἕως = עַד)'
+  - where: 'note 2:12 “The master and the scholar”'
+    claim: '‘ed means “witness”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5707.htm'
+    quote: '2 witness, a person:'
+  - where: 'note 2:12 “The master and the scholar”'
+    claim: 'Brenton’s Septuagint reads “until he be even cast down from out of the tabernacles of Jacob”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/malachi/2.htm'
+    quote: 'until he be even cast down from out of the tabernacles of Jacob'
+  - where: 'note 2:12 “The master and the scholar”'
+    claim: 'NRSVUE: “any witness or advocate”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NRSVUE'
+    quote: 'may the Lord cut off any witness or advocate from the tents of Jacob'
+  - where: 'note 2:12 “The master and the scholar”'
+    claim: 'NRSVUE note: the traditional text (MT) has “arouse”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NRSVUE'
+    quote: '2.12 Q ms Compare Gk: MT arouse'
+  - where: 'note 2:12 “The master and the scholar”'
+    claim: 'NIV note: “anyone who gives testimony in behalf of the man who does this”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NIV'
+    quote: 'anyone who gives testimony in behalf of the man who does this'
+
+  # ---- note 2:13 ----
+  - where: 'note 2:13 “Whose tears cover the altar?”'
+    claim: 'ESV: “this second thing you do”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=ESV'
+    quote: 'And this second thing you do.'
+  - where: 'note 2:13 “Whose tears cover the altar?”'
+    claim: 'The manual says the wives would come to the temple and appeal to God at the altar'
+    key: ot-manual-34
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-34?lang=eng'
+    quote: 'The wives would come to the temple and make an appeal to God at the altar.'
+  - where: 'note 2:13 “Whose tears cover the altar?”'
+    claim: 'NRSVUE: “You cover the Lord’s altar with tears, with weeping and groaning because he no longer regards the offering”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NRSVUE'
+    quote: 'You cover the Lord’s altar with tears, with weeping and groaning because he no longer regards the offering or accepts it with favor at your hand.'
+  - where: 'note 2:13 “Whose tears cover the altar?”'
+    claim: 'Mal. 1:10: “I have no pleasure in you”, no offering accepted; Mal. 1:8 blemished offerings'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/1?lang=eng'
+    quote: 'I have no pleasure in you, saith the Lord of hosts, neither will I accept an offering at your hand.'
+
+  # ---- note 2:14 ----
+  - where: 'note 2:14 “The wife of thy covenant”'
+    claim: 'The lexicon lists Mal. 2:14 under berit in the sense “alliance of marriage”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1285.htm'
+    quote: '5 alliance of marriage Proverbs 2:17; Malachi 2:14.'
+  - where: 'note 2:14 “The wife of thy covenant”'
+    claim: 'chabereth (“companion”) is glossed “consort, i.e. wife”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2278.htm'
+    quote: 'consort, i.e. wife וְהִיא חֲבֶרְתְּךָ Malachi 2:14'
+  - where: 'note 2:14 “The wife of thy covenant”'
+    claim: 'When men and women marry, they make solemn covenants with each other and with God'
+    key: topics-divorce
+    url: 'https://www.churchofjesuschrist.org/study/manual/gospel-topics/divorce?lang=eng'
+    quote: 'When men and women marry, they make solemn covenants with each other and with God.'
+  - where: 'note 2:14 “The wife of thy covenant”'
+    claim: 'The second part of the book speaks against marriage outside the covenant and divorces from wives within the covenant'
+    key: bd-malachi
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/malachi?lang=eng'
+    quote: 'speaking against marriage outside the covenant, divorces from wives within the covenant'
+  - where: 'note 2:14 “The wife of thy covenant”'
+    claim: 'bagad in verse 14: “thou hast dealt treacherously” against the wife'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'אֲשֶׁ֤ר אַתָּה֙ בָּגַ֣דְתָּה בָּ֔/הּ'
+
+  # ---- note 2:15 ----
+  - where: 'note 2:15 “Verse 15 is uncertain in the Hebrew”'
+    claim: 'NIV note: the meaning of the Hebrew is uncertain'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NIV'
+    quote: 'Malachi 2:15 The meaning of the Hebrew for the first part of this verse is uncertain.'
+  - where: 'note 2:15 “Verse 15 is uncertain in the Hebrew”'
+    claim: 'NRSVUE note: meaning of Hebrew uncertain'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NRSVUE'
+    quote: '2.15 Meaning of Heb uncertain'
+  - where: 'note 2:15 “Verse 15 is uncertain in the Hebrew”'
+    claim: 'The lexicon calls the phrase behind “residue of the spirit” obscure'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7605.htm'
+    quote: 'Malachi 2:15 is obscure'
+  - where: 'note 2:15 “Verse 15 is uncertain in the Hebrew”'
+    claim: 'NRSVUE text of verse 15; “godly offspring”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NRSVUE'
+    quote: 'Did God not make them one, flesh with spirit in it? And what does the one desire? Godly offspring.'
+  - where: 'note 2:15 “Verse 15 is uncertain in the Hebrew”'
+    claim: 'NIV text of verse 15; “godly offspring”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NIV'
+    quote: 'Has not the one God made you?'
+  - where: 'note 2:15 “Verse 15 is uncertain in the Hebrew”'
+    claim: 'NIV text of verse 15, second part; “godly offspring”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NIV'
+    quote: 'You belong to him in body and spirit. And what does the one God seek? Godly offspring.'
+  - where: 'note 2:15 “Verse 15 is uncertain in the Hebrew”'
+    claim: 'ESV text of verse 15'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=ESV'
+    quote: 'Did he not make them one, with a portion of the Spirit in their union?'
+  - where: 'note 2:15 “Verse 15 is uncertain in the Hebrew”'
+    claim: 'ESV note giving another grammar'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=ESV'
+    quote: 'Malachi 2:15 Or And not one has done this who has a portion of the Spirit. And what was that one seeking?'
+  - where: 'note 2:15 “Verse 15 is uncertain in the Hebrew”'
+    claim: 'The Septuagint reads differently, and has “a seed” where the Hebrew has “a godly seed”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/malachi/2.htm'
+    quote: 'And did he not do well? and there was the residue of his spirit. But ye said, What does God seek but a seed?'
+
+  # ---- note 2:16 ----
+  - where: 'note 2:16 “The Lord hates putting away”'
+    claim: 'shallach means “send away”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7971.htm'
+    quote: 'b. send away, dismiss, accusative of person'
+  - where: 'note 2:16 “The Lord hates putting away”'
+    claim: 'With the accusative of a wife shallach means divorce, and it is used absolutely in Mal. 2:16'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7971.htm'
+    quote: 'specifically, with accusative of wife (= divorce) Deuteronomy 22:19,29; Deuteronomy 24:1,3; Jeremiah 3:1 +, absolute Malachi 2:16.'
+  - where: 'note 2:16 “The Lord hates putting away”'
+    claim: 'NRSVUE: “For I hate divorce, says the Lord”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NRSVUE'
+    quote: '16 For I hate divorce, says the Lord, the God of Israel'
+  - where: 'note 2:16 “The Lord hates putting away”'
+    claim: 'NRSVUE note: Heb has “he hates”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NRSVUE'
+    quote: '2.16 Cn: Heb he hates'
+  - where: 'note 2:16 “The Lord hates putting away”'
+    claim: 'The Septuagint puts the hatred in the husband'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/malachi/2.htm'
+    quote: 'But if thou shouldest hate thy wife and put her away, saith the Lord God of Israel'
+  - where: 'note 2:16 “The Lord hates putting away”'
+    claim: 'NIV text: “The man who hates and divorces his wife”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NIV'
+    quote: 'The man who hates and divorces his wife'
+  - where: 'note 2:16 “The Lord hates putting away”'
+    claim: 'NIV text: “does violence to the one he should protect”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NIV'
+    quote: 'does violence to the one he should protect'
+  - where: 'note 2:16 “The Lord hates putting away”'
+    claim: 'NIV note: the other reading is “I hate divorce”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NIV'
+    quote: 'Malachi 2:16 Or “I hate divorce,” says the Lord, the God of Israel, “because the man who divorces his wife covers his garment with violence,”'
+  - where: 'note 2:16 “The Lord hates putting away”'
+    claim: 'ESV text: “the man who does not love his wife but divorces her”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=ESV'
+    quote: 'the man who does not love his wife but divorces her'
+  - where: 'note 2:16 “The Lord hates putting away”'
+    claim: 'ESV note: its text is the probable meaning; it compares the Septuagint and Deuteronomy 24:1–4'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=ESV'
+    quote: 'Probable meaning (compare Septuagint and Deuteronomy 24:1–4)'
+  - where: 'note 2:16 “The Lord hates putting away”'
+    claim: 'ESV note: the other reading has the Lord hating divorce'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=ESV'
+    quote: 'The Lord, the God of Israel, says that he hates divorce'
+  - where: 'note 2:16 “The Lord hates putting away”'
+    claim: 'Divorce was permitted under some circumstances because of the hardness of the people’s hearts'
+    key: bd-divorce
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/divorce?lang=eng'
+    quote: 'Permitted under some circumstances because of the hardness of the people’s hearts'
+  - where: 'note 2:16 “The Lord hates putting away”'
+    claim: 'The Church’s teaching: every effort to keep the covenants made in marriage'
+    key: topics-divorce
+    url: 'https://www.churchofjesuschrist.org/study/manual/gospel-topics/divorce?lang=eng'
+    quote: 'When men and women marry, they make solemn covenants with each other and with God. Every effort should be made to keep these covenants and preserve marriage.'
+  - where: 'note 2:16 “The Lord hates putting away”'
+    claim: 'When divorce occurs, individuals have the obligation to forgive, lift, and help rather than to condemn'
+    key: topics-divorce
+    url: 'https://www.churchofjesuschrist.org/study/manual/gospel-topics/divorce?lang=eng'
+    quote: 'When divorce occurs, individuals have the obligation to forgive, lift, and help rather than to condemn.'
+
+  # ---- note 2:17 ----
+  - where: 'note 2:17 “The question that chapter 3 answers”'
+    claim: 'The question of 2:17 is answered in 3:1: the Lord replies that He will come'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/3.htm'
+    quote: 'To the question, Where is or remains the God of judgment? the Lord Himself replies that He will suddenly come to His temple'
+  - where: 'note 2:17 “The question that chapter 3 answers”'
+    claim: 'The judgment of 3:5 is threatened against those who asked for it in 2:17'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/3.htm'
+    quote: 'This judgment is threatened against those who wanted the judgment of God to come, according to Malachi 2:17.'
+  - where: 'note 2:17 “The question that chapter 3 answers”'
+    claim: 'The Lord rebuked the sons of Levi for improper sacrifices and promised to purify them'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'In the days of Malachi, the Lord rebuked the sons of Levi for offering improper sacrifices. But He also promised that He would one day purify them so that their offerings would once again be acceptable to Him.'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'The question of 2:17 is answered by the Lord’s coming in 3:1'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/3.htm'
+    quote: 'To the question, Where is or remains the God of judgment? the Lord Himself replies that He will suddenly come to His temple'
+  - where: 'christ'
+    claim: '“Messenger of the covenant” is a title of Jesus Christ; His role of delivering the Father’s covenant'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: '“Messenger of the covenant” is a title of Jesus Christ. It can refer to His role of delivering the Father’s covenant to the people of the earth and making salvation possible through His gospel and Atonement.'
+  - where: 'christ'
+    claim: 'The Hebrew word mal’ak is used in 2:7 of the priest and in 3:1 of the messenger of the covenant'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'וּ/מַלְאַ֨ךְ הַ/בְּרִ֜ית אֲשֶׁר אַתֶּ֤ם חֲפֵצִים֙'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'Deut. 33 describes Levi’s covenant and teaching role'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/33?lang=eng'
+    quote: 'They shall teach Jacob thy judgments, and Israel thy law'
+  - where: 'explore'
+    claim: 'Ezra 9 records the priests and Levites among those who had not separated themselves'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/9?lang=eng'
+    quote: 'the priests, and the Levites, have not separated themselves from the people of the lands'
+  - where: 'explore'
+    claim: 'Ezra 10 names sons of the priests among those who had taken strange wives'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/10?lang=eng'
+    quote: 'And among the sons of the priests there were found that had taken strange wives'
+  - where: 'explore'
+    claim: 'Neh. 13 records intermarriage'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/neh/13?lang=eng'
+    quote: 'In those days also saw I Jews that had married wives of Ashdod, of Ammon, and of Moab:'
+  - where: 'explore'
+    claim: 'The people’s complaint returns in Mal. 3:14 (the Church’s footnote 17b on “judgment” points there)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/3?lang=eng'
+    quote: 'Ye have said, It is vain to serve God'
