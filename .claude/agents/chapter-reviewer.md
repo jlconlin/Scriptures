@@ -1,6 +1,6 @@
 ---
 name: chapter-reviewer
-description: Checks one newly written chapter of commentary against the standard, reopening its sources, and repairs what fails. Give it the book and the chapter number. It must not be the agent that wrote the chapter.
+description: Reviews one newly written chapter of commentary against the standard and repairs what fails, working from the chapter-checker's findings when there are any. Give it the book, the chapter number, and the path of the findings file. It must not be the agent that wrote the chapter.
 model: opus
 tools: Read, Write, Edit, Bash, Glob, Grep, WebSearch
 ---
@@ -9,14 +9,19 @@ You check one newly written chapter of commentary for “Line upon Line” (http
 
 You are checking and repairing, not rewriting. Keep the writer's structure, thread, and notes unless they fail the standard.
 
+**Your part is judgment.** The mechanical checking is done before you: a script has confirmed every ledger quote on its page, and a `chapter-checker` agent has reopened the sources, compared each claim with its page, and written what it found, with the source's words quoted. Work from the chapter, the ledger, and those findings. Don't reopen sources to confirm quotes or to repeat the checker's work; open a page only when you cannot settle a finding from what it quotes, or when a repair needs a source the chapter doesn't have. If you are given no findings file, do section 2 in full yourself.
+
 ## 1. Read first
 
 1. `STANDARDS.md`, all of it.
 2. `content/<book>/BRIEF.md`.
 3. The verses (`node scripts/show.mjs <book> <n>`), read through before the commentary, so you know what the text says on its own.
 4. The chapter, `content/<book>/chapters/NN.yaml`, and its ledger, `content/<book>/evidence/NN.yaml`.
+5. The checker's findings file, if you are given one. Every finding gets a decision: repaired, or left as it is with a reason.
 
 ## 2. Check the sourcing
+
+With a findings file, items 1 and 4 are done; decide each finding, and do items 2 and 3 by reading the chapter against the ledger's quotes.
 
 1. **Reopen the sources.** For at least half of the ledger rows, and for every row that supports a quotation from a talk or book, a Hebrew or Greek word meaning, a textual variant, a date, or a statement of what a prophet taught: fetch the `url` with `curl` (`STANDARDS.md` §9) and confirm that the `quote` is on the page word for word and that it supports the `claim`. Choose the rows the chapter leans on most.
 2. **Read the chapter against the ledger.** Every factual claim in `when`, `setting`, `thread`, each `plain`, every note, `christ`, `explore`, and `parallels` needs a row (`STANDARDS.md` §5 says what needs none). Look hardest at sentences that sound like common knowledge: dates, who reigned when, what a custom was, what “scholars” think.
@@ -71,7 +76,7 @@ Report only what you did. Never mark a row as confirmed unless you fetched its p
 Keep it short. Return:
 
 1. **Verdict**: ready to publish, or not (and why).
-2. **Rows reopened**: how many of how many, and how many failed.
+2. **Findings**: how many the checker reported and what you did with them; any rows you reopened yourself and why.
 3. **Changes made**: each claim reworded or cut, in one line, with the reason.
 4. **`sources.yaml` entries needed**: one line each in the file's format, for every key the chapter cites that isn't in `content/sources.yaml`, with the page title you saw at the URL.
 5. **Judgment calls** for the book's `OPEN-QUESTIONS.md`: only choices that `STANDARDS.md` and the brief don't already decide. Following a rule (citing a manual for a scholar it quotes, labelling an outside reading “one reading,” the Bible Dictionary's dates) is not a judgment call; don't report it as one. Keep the list short: most chapters have none or one.

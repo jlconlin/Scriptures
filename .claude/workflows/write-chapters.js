@@ -1,17 +1,24 @@
 export const meta = {
   name: 'write-chapters',
-  description: 'Write and review a batch of chapters of one book: a writer, the ledger script, then a reviewer that did not write it',
-  whenToUse: 'A book has an approved BRIEF.md and the author wants chapters written. args: { book, chapters, writerModel, models }',
-  phases: [{ title: 'Write' }, { title: 'Review' }],
+  description: 'Write and review a batch of chapters of one book: a writer, a checker that reopens the sources, then a reviewer',
+  whenToUse: 'A book has an approved BRIEF.md and the author wants chapters written. args: { book, chapters, writerModel, models, focus }',
+  phases: [{ title: 'Write' }, { title: 'Check' }, { title: 'Review' }],
 }
 // args:
 //   book         the book's slug (the directory under content/), e.g. 'genesis'
 //   chapters     chapter numbers to write, e.g. [27, 28, 29]; about twelve at a time is a good batch
-//   writerModel  'sonnet' (default; the arrangement Jeremiah was written with) or 'opus'. The reviewer is always Opus.
+//   writerModel  'sonnet' (default; the arrangement Jeremiah was written with) or 'opus'.
+//   focus        optional: the author's focus questions, keyed by chapter number
+// Three agents per chapter, none of which sees another's conversation:
+//   chapter-writer (Sonnet)   researches and writes the chapter and its ledger
+//   chapter-checker (Sonnet)  the mechanical half of the review: reopens the sources, compares each claim with
+//                             its page, tests the checkable rules, and writes its findings with the sources quoted
+//   chapter-reviewer (Opus)   the judgment: decides each finding and repairs the chapter, without reopening sources
+// Opus is kept for the last step only (author, 2026-10-04: Opus need not be the one to see that pages exist).
 //   models       optional chapter numbers of finished chapters of this book to use as models, e.g. [1, 22]
 // Each agent works in the repository. Writers and reviewers leave two working files per chapter in
 // .cache/batch/<book>/ (not committed): proposed/NN.yaml, the sources.yaml entries the chapter needs, and
-// reports/NN-writer.md. Afterwards the coordinator runs scripts/merge-sources.mjs and scripts/batch-notes.mjs,
+// reports/NN-writer.md and reports/NN-check.md. Afterwards the coordinator runs scripts/merge-sources.mjs and scripts/batch-notes.mjs,
 // then the checks, and commits one chapter at a time (STANDARDS.md §11).
 const book = args.book
 const scratch = `.cache/batch/${book}`
@@ -30,11 +37,16 @@ When you finish, besides the chapter and its ledger, write two working files (cr
 1. ${scratch}/proposed/${pad(n)}.yaml : the sources.yaml entries you propose, one per line in that file's one-line format (key: { type, author, title, pub, url }), each URL opened and its heading confirmed in this session. Leave the file empty if you propose none.
 2. ${scratch}/reports/${pad(n)}-writer.md : your report: the reader questions you worked from and which went unanswered; what you decided on your own and why (one line each); anything that truly needs the author's judgment (doctrine or taste the standard and brief don't settle; expect this to be rare); theme candidates; what you cut for lack of a source; the check output.
 Run check-content against a scratch copy of content/ that has your proposed entries appended (STANDARDS.md §5), and check-ledger and check-quotes, and fix what they find. Your final message is one short paragraph: done or not, note count, word count, and anything that blocked you.`
+const checkPrompt = (n) => `Check chapter ${n} of ${book} (book: ${book}, chapter: ${n}): content/${book}/chapters/${pad(n)}.yaml with its ledger content/${book}/evidence/${pad(n)}.yaml. You did not write it.
+
+${common(n)}
+
+The writer's report is at ${scratch}/reports/${pad(n)}-writer.md and its proposed sources.yaml entries at ${scratch}/proposed/${pad(n)}.yaml; keep that proposed file accurate. Write your findings to ${scratch}/reports/${pad(n)}-check.md.`
 const reviewPrompt = (n) => `Review chapter ${n} of ${book} (book: ${book}, chapter: ${n}): content/${book}/chapters/${pad(n)}.yaml with its ledger content/${book}/evidence/${pad(n)}.yaml. You did not write it.
 
 ${common(n)}
 
-The writer's report is at ${scratch}/reports/${pad(n)}-writer.md and its proposed sources.yaml entries at ${scratch}/proposed/${pad(n)}.yaml. First run node scripts/check-ledger.mjs ${book} ${n} : every row it cannot confirm is fixed or cut before anything else. Then read the chapter against the ledger and the standard, reopening the rows that carry the most weight (every row from a talk, an article, the Joseph Smith Papers, an ancient writer, or a commentary; a sample of the lexicon rows).
+The checker's findings are at ${scratch}/reports/${pad(n)}-check.md, the writer's report at ${scratch}/reports/${pad(n)}-writer.md, and the proposed sources.yaml entries at ${scratch}/proposed/${pad(n)}.yaml. The script has confirmed the ledger's quotes and the checker has reopened the sources, so work from the chapter, the ledger and the findings: decide every finding, and open a page yourself only when a finding can't be settled from what it quotes.
 
 Test in particular: no note only repeats what the Gospel Library puts beside the verse (a footnote, the chapter heading, the JST, Scripture Helps); a note goes further or is cut. Where a note starts from Scripture Helps, the work its endnote cites was looked for and is cited if it is readable and used. The contested questions follow the brief. No reading of the chapter's own: a connection or interpretation no source applies to this verse is cut. An outside reading is never set beside the Church's as an equal. The Student Manual limits and the brief's limits on outside commentaries hold. No modern scholar is named in running text and no source is announced. Every note opens with a sentence that says what it is about and answers a question a reader would ask. Overlaps between notes, christ and explore are merged or cut.
 
@@ -43,13 +55,13 @@ const REVIEW_SCHEMA = {
   type: 'object',
   properties: {
     ready: { type: 'boolean', description: 'true if the chapter is ready for the author to read' },
-    summary: { type: 'string', description: 'Three or four sentences: what you changed and the final note and ledger-row counts' },
+    summary: { type: 'string', description: 'Three or four sentences: what you changed, how many of the checker\'s findings you acted on, and the final note and ledger-row counts' },
     checks: { type: 'string', description: 'Final one-line results of check-ledger, check-quotes, check-content (scratch root), and build' },
     authorQuestions: { type: 'array', items: { type: 'string' }, description: 'Only what truly needs the author; each a self-contained sentence or two naming the verse' },
     decided: { type: 'array', items: { type: 'string' }, description: 'Judgment calls you or the writer settled, one line each with the verse' },
     unanswered: { type: 'array', items: { type: 'string' }, description: 'Reader questions no source answered' },
     themeCandidates: { type: 'array', items: { type: 'string' } },
-    problems: { type: 'string', description: 'Anything that blocked you (a site that would not load, rows you could not reopen); empty if none' },
+    problems: { type: 'string', description: 'Anything that blocked you or the checker (a site that would not load, rows left unverified); empty if none' },
   },
   required: ['ready', 'summary', 'checks', 'authorQuestions', 'decided', 'unanswered', 'themeCandidates', 'problems'],
 }
@@ -57,8 +69,9 @@ const chapters = args.chapters
 const results = await pipeline(
   chapters,
   (n) => agent(writePrompt(n), { label: `write:${n}`, phase: 'Write', agentType: 'chapter-writer', model: args.writerModel ?? 'sonnet' }),
-  (w, n) => agent(reviewPrompt(n), { label: `review:${n}`, phase: 'Review', agentType: 'chapter-reviewer', model: 'opus', schema: REVIEW_SCHEMA })
-    .then((r) => ({ chapter: n, writer: String(w).slice(0, 600), review: r })),
+  (w, n) => agent(checkPrompt(n), { label: `check:${n}`, phase: 'Check', agentType: 'chapter-checker', model: 'sonnet' }).then((c) => ({ w, c })),
+  ({ w, c }, n) => agent(reviewPrompt(n), { label: `review:${n}`, phase: 'Review', agentType: 'chapter-reviewer', model: 'opus', schema: REVIEW_SCHEMA })
+    .then((r) => ({ chapter: n, writer: String(w).slice(0, 600), checker: String(c).slice(0, 600), review: r })),
 )
 const missing = chapters.filter((n, i) => !results[i])
 if (missing.length) log(`No result for chapters: ${missing.join(', ')}`)

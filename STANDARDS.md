@@ -212,10 +212,11 @@ Fix every warning that concerns your chapter (length warnings on older chapters 
 1. **The author's questions first.** Before a chapter is written, ask the author whether they have focus questions for it, and build the chapter around them. Ask one question at a time.
 2. **A writer agent drafts** (`.claude/agents/chapter-writer.md`, on Sonnet): it reads the chapter, lists the questions a careful reader would ask, researches them, builds the ledger, writes the chapter from the ledger, runs the checks, and reports. It doesn't edit `sources.yaml`, code, or other chapters, and doesn't commit. Existing chapters are audited the same way by `.claude/agents/chapter-auditor.md`.
 3. **The ledger is checked by script** (`node scripts/check-ledger.mjs <book> <n>`): every row's URL is reopened and the quote confirmed on the page. A row it can't confirm is fixed or cut before review.
-4. **A reviewer agent checks** (`.claude/agents/chapter-reviewer.md`, on Opus, which did not write the chapter): it reads the chapter against the ledger and the standard, reopens the rows that carry the most weight, and repairs what fails.
-5. **The orchestrating session finishes** (on the most capable model): adds the proposed `sources.yaml` entries after confirming each URL, spot-checks ledger rows itself, and runs `build`, `check-quotes`, and `check-content`.
-6. **The author sees it** in the private preview artifact (see “Working with the author” in `AUTHORING.md`).
-7. **One commit per chapter**, with its ledger.
-8. **Judgment calls** go in the book's `OPEN-QUESTIONS.md`, never decided silently.
+4. **A checker agent does the mechanical half of the review** (`.claude/agents/chapter-checker.md`, on Sonnet, which did not write the chapter): it reopens the sources, compares each claim with its page, tests the rules that can be checked by reading, compares the notes with what the Gospel Library already has beside the verse, and writes its findings with the sources quoted. It changes only what needs no judgment.
+5. **A reviewer agent decides** (`.claude/agents/chapter-reviewer.md`, on Opus): it reads the chapter against the ledger, the standard, and the checker's findings, decides each finding, and repairs what fails, without reopening the sources. (Author, 2026-10-04: Opus is for judging the text and how it reads, not for seeing that pages exist. Genesis was reviewed by Opus alone, which reopened the sources itself; that cost about as much again as writing the chapter.)
+6. **The orchestrating session finishes** (on the most capable model): adds the proposed `sources.yaml` entries after confirming each URL, spot-checks ledger rows itself, and runs `build`, `check-quotes`, and `check-content`.
+7. **The author sees it** in the private preview artifact (see “Working with the author” in `AUTHORING.md`).
+8. **One commit per chapter**, with its ledger.
+9. **Judgment calls** go in the book's `OPEN-QUESTIONS.md`, never decided silently.
 
-A theme page goes through its own four steps first (§8, “How a theme page is written”), then steps 6–8 here, with one commit for the page and its ledger.
+A theme page goes through its own four steps first (§8, “How a theme page is written”), then steps 7–9 here, with one commit for the page and its ledger.
