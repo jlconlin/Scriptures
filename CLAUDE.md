@@ -1,6 +1,6 @@
 # Line upon Line
 
-A Latter-day Saint scripture study site (https://scriptures.conlin.io): KJV text with sourced commentary, one book at a time. Isaiah and Jeremiah are live; Genesis is written and in preview, waiting for the author to read it.
+A Latter-day Saint scripture study site (https://scriptures.conlin.io): KJV text with sourced commentary, one book at a time. Genesis, Isaiah and Jeremiah are live.
 
 Always read `AUTHORING.md` (status, current plan, working with the author). Then read only what the task needs:
 

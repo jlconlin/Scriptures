@@ -12,13 +12,12 @@ Everything that waits for the author, for every book and for the site, in this o
 Not questions, but most of the questions below are easier after reading.
 
 - **Malachi:** being written (four chapters), as a test of the new arrangement; in preview only.
-- **Genesis:** all 50 chapters, in preview only. Chapters 1–26 were written by Opus and 27–50 by Sonnet (see S2).
+- **Genesis:** all 50 chapters, live since 2026-10-04. Chapters 1–26 were written by Opus and 27–50 by Sonnet (see S2).
 - **Jeremiah:** all 52 chapters and the five theme pages, live since 2026-10-02 and 03.
 - **Isaiah:** four of the five theme pages (the new exodus and the highway; Zion and her husband; light; the servants section of the Servant Songs page), live.
 
 ## The site
 
-- **S1. When does Genesis go live?** It is `status: preview` in `content/genesis/book.yaml`; removing that line and pushing makes it live.
 - **S2. Opus or Sonnet as the writer?** Genesis 1–26 are Opus-written and 27–50 Sonnet-written, under the same brief and reviewers. If the two halves read the same to you, Sonnet writes from now on (the plan in `AUTHORING.md` already assumes it). If 1–26 are clearly better, say so.
 - **S3. A header link to a book's theme pages when it has no guides.** Jeremiah has themes but no guides, so its header has no link to them; they are reached at `/jeremiah/themes/` and from chapter notes. Add the link? (A change to how the site looks.) Recommend: yes.
 - **S4. The limits on a theme page's own connections.** Your rule of 2026-10-03 is in `STANDARDS.md` §8 with three limits added to your two: the connection rests on quoted words; the facts around it stay sourced; it is worded as a comparison and marked in the ledger. Is that what you meant by “relax a little,” or too tight? The last sections of Jeremiah's cup page and root-and-plant page show it in use.
@@ -45,7 +44,7 @@ Not questions, but most of the questions below are easier after reading.
 
 ## Work waiting, no decision needed
 
-- **The preview lacks Genesis 39–50.** Publishing failed on 2026-10-04 because the artifact's host could not be reached. `node scripts/preview-site.mjs`, then republish.
+- **The preview has not been republished since Genesis 38.** Genesis is live now, so only Malachi needs it. `node scripts/preview-site.mjs`, then republish.
 - **Genesis 22, closing section:** Melvin J. Ballard's words are cited from the seminary manual that prints them; read and cite the original talk (“The Sacramental Covenant,” *New Era*, Jan. 1976).
 - **The new review arrangement is untested** (Sonnet checker, then Opus reviewer; `AUTHORING.md`). Watch the first batch of the next book.
 - **A leftover working copy** in `.claude/worktrees/` (from the “Show three more” branch, long merged) can be deleted.
