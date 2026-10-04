@@ -1,0 +1,642 @@
+chapter: 24
+claims:
+  # ---------- when / setting ----------
+  - where: 'when'
+    claim: 'Isaac was forty when he married Rebekah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/25?lang=eng'
+    quote: 'And Isaac was forty years old when he took Rebekah to wife'
+  - where: 'when'
+    claim: 'Abraham was a hundred when Isaac was born, so 140 at the marriage'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/21?lang=eng'
+    quote: 'And Abraham was an hundred years old, when his son Isaac was born unto him.'
+  - where: 'setting'
+    claim: 'Genesis 24 has sixty-seven verses (the longest chapter in Genesis; counted from the text)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/24?lang=eng'
+    quote: 'and he loved her: and Isaac was comforted after his mother’s death.'
+  - where: 'setting'
+    claim: 'Nahor’s branch of the family remained at Haran when Abraham went on into Canaan'
+    key: bd-laban
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/laban?lang=eng'
+    quote: 'His branch of the family remained at Haran when Abraham moved on into Canaan.'
+  - where: 'setting'
+    claim: 'Haran lay in northern Mesopotamia, near the source of the Euphrates'
+    key: bd-haran
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/haran?lang=eng'
+    quote: 'It was in the district near the source of the Euphrates'
+  - where: 'setting'
+    claim: 'The Church reads the chapter as the Lord preparing a way for Isaac and Rebekah to marry within the covenant'
+    key: scripture-helps-gen-24-33
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/09-genesis-24-33?lang=eng'
+    quote: 'The Lord prepared a way for Isaac and Rebekah to marry within the covenant.'
+  - where: 'setting'
+    claim: 'Rebekah later acts to ensure the birthright goes to the younger son, as God intended'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'ensuring the bestowal of the birthright on the younger child, as God intended'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'Hesed occurs eleven times in Genesis, four of them in chapter 24 (vv. 12, 14, 27, 49; counted in the WLC by lemma 2617)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'חַסְדּ֛/וֹ'
+  - where: 'thread'
+    claim: 'Verse 12 asks the LORD to do hesed, “kindness,” to Abraham'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/24-12.htm'
+    quote: 'וַעֲשֵׂה־ and do … חֶ֕סֶד kindness'
+  - where: 'thread'
+    claim: 'The sign in verse 14 is how the servant will know God has done hesed to his master'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/24-14.htm'
+    quote: 'אֵדַ֔ע I will know … עָשִׂ֥יתָ You have done … חֶ֖סֶד kindness'
+  - where: 'thread'
+    claim: '“His mercy and his truth” in verse 27 are hesed and emet'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/24-27.htm'
+    quote: 'חַסְדּ֛וֹ His kindness … וַאֲמִתּ֖וֹ and His truth'
+  - where: 'thread'
+    claim: '“Deal kindly and truly” in verse 49 is the same pair, hesed and emet'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/24-49.htm'
+    quote: 'חֶ֧סֶד kindness … וֶֽאֱמֶ֛ת and truth'
+  - where: 'thread'
+    claim: 'Hesed describes a covenant relationship of mutual loyalty'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'is a unique term describing a covenant relationship in which both parties are bound to be loyal and faithful to each other.'
+  - where: 'thread'
+    claim: '“I will go” in verse 58 is from the verb “go”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/24-58.htm'
+    quote: 'אֵלֵֽךְ׃ I will go'
+  - where: 'thread'
+    claim: 'The Lord’s command to Abram in 12:1 uses the same verb, “Go”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-1.htm'
+    quote: 'לֶךְ־ Go V‑Qal‑Imp‑ms'
+
+  # ---------- note 24:2 servant ----------
+  - where: 'note 24:2 “The unnamed servant”'
+    claim: 'The Hebrew calls him the “elder” of Abraham’s house, the one ruling over all he had'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/24-2.htm'
+    quote: 'זְקַ֣ן elder Adj‑msc … בֵּית֔וֹ of his house … הַמֹּשֵׁ֖ל the one who is ruling'
+  - where: 'note 24:2 “The unnamed servant”'
+    claim: 'He was Abraham’s upper servant, who managed all his house'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/24.htm'
+    quote: 'his upper servant, who had the management of all his house'
+  - where: 'note 24:2 “The unnamed servant”'
+    claim: 'The servant is usually identified with Eliezer, once thought of as Abraham’s heir'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/24.htm'
+    quote: 'according to general opinion, to Eliezer, whom he had previously thought of as the heir of his property'
+
+  - where: 'note 24:2 “The unnamed servant”'
+    claim: 'He is usually identified with Eliezer of Damascus'
+    key: hallen-rebekah
+    url: 'https://www.churchofjesuschrist.org/study/ensign/2002/01/rebekah?lang=eng'
+    quote: 'Abraham entrusted this matter to Eliezer, the “eldest servant of his house”'
+  - where: 'note 24:2 “The unnamed servant”'
+    claim: 'Eliezer was the one Abraham had assumed would be his heir, probably a legally adopted servant'
+    key: sc-knowhy-838
+    url: 'https://scripturecentral.org/knowhy/why-did-the-lord-tell-abraham-that-neither-his-servant-nor-ishmael-would-be-his-heir'
+    quote: 'Given Abraham’s declaration that Eliezer was his heir, it is likely that he was a servant who was legally adopted as Abraham’s son.'
+  - where: 'note 24:2 “The unnamed servant”'
+    claim: 'Abraham had named Eliezer of Damascus as the steward of his house and, childless, said one born in his house was his heir'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/15?lang=eng'
+    quote: 'and the steward of my house is this Eliezer of Damascus?'
+  - where: 'note 24:2 “The unnamed servant”'
+    claim: 'Abraham had named Eliezer of Damascus as the steward of his house and, childless, said one born in his house was his heir'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/15?lang=eng'
+    quote: 'lo, one born in my house is mine heir.'
+
+  # ---------- note 24:2 thigh ----------
+  - where: 'note 24:2 “A hand under the thigh”'
+    claim: 'The Hebrew word is yarek, “thigh”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/24-2.htm'
+    quote: 'יְרֵכִֽי׃ my thigh'
+  - where: 'note 24:2 “A hand under the thigh”'
+    claim: 'Yarek also means the loins as the seat of procreative power; descendants come out of the yarek (46:26); hand under thigh in oaths 24:2, 9; 47:29'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3409.htm'
+    quote: 'thigh = loins , as seat of procreative power'
+  - where: 'note 24:2 “A hand under the thigh”'
+    claim: 'Yarek also means the loins as the seat of procreative power; descendants come out of the yarek (46:26); hand under thigh in oaths 24:2, 9; 47:29'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3409.htm'
+    quote: 'those proceeding from the loins of any one Genesis 46:26'
+  - where: 'note 24:2 “A hand under the thigh”'
+    claim: 'Yarek also means the loins as the seat of procreative power; descendants come out of the yarek (46:26); hand under thigh in oaths 24:2, 9; 47:29'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3409.htm'
+    quote: 'place the hand under thigh , in taking oath Genesis 24:2 ,9 (J), Genesis 47:29'
+  - where: 'note 24:2 “A hand under the thigh”'
+    claim: 'The custom is mentioned only here and in 47:29; one reading links the bodily oath to the hip as the source of posterity'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/24.htm'
+    quote: 'This custom, which is only mentioned here and in Genesis 47:29 , the so-called bodily oath, was no doubt connected with the significance of the hip as the part from which the posterity issued'
+  - where: 'note 24:2 “A hand under the thigh”'
+    claim: 'Abraham had the oath taken so his wishes would be kept even if he died first'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/24.htm'
+    quote: 'Abraham made the servant take an oath in order that his wishes might be inviolably fulfilled, even if he himself should die in the interim.'
+  - where: 'note 24:2 “A hand under the thigh”'
+    claim: 'In 47:29 Jacob joins the gesture to “deal kindly and truly with me” and asks not to be buried in Egypt'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/47?lang=eng'
+    quote: 'put, I pray thee, thy hand under my thigh, and deal kindly and truly with me; bury me not, I pray thee, in Egypt'
+  - where: 'note 24:2 “A hand under the thigh”'
+    claim: 'Joseph Smith’s first manuscript reads “under my head” in verses 2 and 9'
+    key: jsp-ot1
+    url: 'https://www.josephsmithpapers.org/paper-summary/old-testament-revision-1/59'
+    quote: 'put forth I pray thee thy hand under my head'
+  - where: 'note 24:2 “A hand under the thigh”'
+    claim: 'Joseph Smith’s first manuscript reads “under my head” in verses 2 and 9'
+    key: jsp-ot1
+    url: 'https://www.josephsmithpapers.org/paper-summary/old-testament-revision-1/59'
+    quote: 'And the servent put his hand under the head of Abraham his master'
+  - where: 'note 24:2 “A hand under the thigh”'
+    claim: 'The revised manuscript reads “under my hand” (verse 2)'
+    key: jsp-ot2
+    url: 'https://www.josephsmithpapers.org/paper-summary/old-testament-revision-2/63'
+    quote: 'put forth I pray thee, thy hand under my hand'
+  - where: 'note 24:2 “A hand under the thigh”'
+    claim: 'The revised manuscript reads “under the hand of Abraham” (verse 9)'
+    key: jsp-ot2
+    url: 'https://www.josephsmithpapers.org/paper-summary/old-testament-revision-2/64'
+    quote: 'And the servent put his hand, under the hand of Abraham'
+  - where: 'note 24:2 “A hand under the thigh”'
+    claim: 'The manual reads the gesture as a token of the covenant, perhaps like shaking hands'
+    key: ot-manual-gen-24-36
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-24-36-the-covenant-line-continues-with-isaac-and-jacob?lang=eng'
+    quote: 'The gesture seems to have been a token of the covenant being made between the two men, perhaps similar to our shaking hands.'
+
+  # ---------- note 24:3 Canaanites ----------
+  - where: 'note 24:3 “Why not a Canaanite wife?”'
+    claim: 'The Canaanites worshipped idols, and a Canaanite marriage would have kept Isaac from the Lord’s covenant of marriage and its blessings'
+    key: scripture-helps-gen-24-33
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/09-genesis-24-33?lang=eng'
+    quote: 'The Canaanites of Abraham’s time worshipped idols and engaged in other practices that were contrary to the worship of Jehovah.'
+  - where: 'note 24:3 “Why not a Canaanite wife?”'
+    claim: 'The Canaanites worshipped idols, and a Canaanite marriage would have kept Isaac from the Lord’s covenant of marriage and its blessings'
+    key: scripture-helps-gen-24-33
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/09-genesis-24-33?lang=eng'
+    quote: 'Had Isaac married a Canaanite, he would not have been able to enter the Lord’s covenant of marriage and receive the Lord’s promised blessings associated with the Abrahamic covenant.'
+  - where: 'note 24:3 “Why not a Canaanite wife?”'
+    claim: 'No one in Canaan could marry Isaac in the covenant; it could be kept only through Abraham’s family in Haran'
+    key: ot-seminary-2026-gen-24
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-manual-2026/10-genesis-24-33/101-genesis-24?lang=eng'
+    quote: 'There was no one in the land of Canaan whom Isaac could marry in the covenant. The covenant could only be preserved with someone from Abraham’s family in Haran.'
+  - where: 'note 24:3 “Why not a Canaanite wife?”'
+    claim: 'Esau’s Hittite wives were a grief to Isaac and Rebekah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/26?lang=eng'
+    quote: 'Which were a grief of mind unto Isaac and to Rebekah.'
+  - where: 'note 24:3 “Why not a Canaanite wife?”'
+    claim: 'Laban later kept household gods'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'wherefore hast thou stolen my gods?'
+
+  # ---------- note 24:6 ----------
+  - where: 'note 24:6 “Isaac must not go back”'
+    claim: '“My country, and … my kindred” in verse 4 are the words of 12:1 (land, kindred)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/24-4.htm'
+    quote: 'אַרְצִ֛י my land … מוֹלַדְתִּ֖י my kindred'
+  - where: 'note 24:6 “Isaac must not go back”'
+    claim: '“My country, and … my kindred” in verse 4 are the words of 12:1 (land, kindred)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-1.htm'
+    quote: 'מֵאַרְצְךָ֥ from your land … וּמִמּֽוֹלַדְתְּךָ֖ and from your kindred'
+  - where: 'note 24:6 “Isaac must not go back”'
+    claim: '“Follow me” (v. 5) is literally “go after me”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/24-5.htm'
+    quote: 'לָלֶ֥כֶת to follow … אַחֲרַ֖י after me'
+  - where: 'note 24:6 “Isaac must not go back”'
+    claim: 'The land was promised to Abram’s seed at Sichem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/12?lang=eng'
+    quote: 'Unto thy seed will I give this land'
+
+  # ---------- note 24:10 ----------
+  - where: 'note 24:10 “The city of Nahor”'
+    claim: 'Laban, Rebekah’s brother, lived in Haran'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/27?lang=eng'
+    quote: 'flee thou to Laban my brother to Haran'
+  - where: 'note 24:10 “The city of Nahor”'
+    claim: 'Haran was Abraham’s first settlement after Ur, near the source of the Euphrates, a trading center'
+    key: bd-haran
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/haran?lang=eng'
+    quote: 'The place of Abraham’s (Abram’s) first settlement on leaving Ur of the Chaldees'
+  - where: 'note 24:10 “The city of Nahor”'
+    claim: 'Haran was Abraham’s first settlement after Ur, near the source of the Euphrates, a trading center'
+    key: bd-haran
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/haran?lang=eng'
+    quote: 'It was in the district near the source of the Euphrates and was a trading center of great importance'
+  - where: 'note 24:10 “The city of Nahor”'
+    claim: 'The journey was nearly 1,200 miles round trip'
+    key: ot-seminary-2026-gen-24
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-manual-2026/10-genesis-24-33/101-genesis-24?lang=eng'
+    quote: 'Abraham asked his servant to travel nearly 1,200 miles'
+
+  # ---------- note 24:12 hesed ----------
+  - where: 'note 24:12 “Kindness: hesed”'
+    claim: 'Hesed means goodness, kindness; of men toward men in doing favours; Gen. 24:49 “do hesed and emet”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2617.htm'
+    quote: 'goodness, kindness'
+  - where: 'note 24:12 “Kindness: hesed”'
+    claim: 'Hesed means goodness, kindness; of men toward men in doing favours; Gen. 24:49 “do hesed and emet”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2617.htm'
+    quote: 'kindness of men towards men, in doing favours and benefits'
+  - where: 'note 24:12 “Kindness: hesed”'
+    claim: 'Emet means firmness, faithfulness, truth; the pair hesed and emet describes God, “abundant in mercy and faithfulness” (Ex. 34:6), and occurs in Gen. 24:27'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/571.htm'
+    quote: 'firmness, faithfulness, truth'
+  - where: 'note 24:12 “Kindness: hesed”'
+    claim: 'Emet means firmness, faithfulness, truth; the pair hesed and emet describes God, “abundant in mercy and faithfulness” (Ex. 34:6), and occurs in Gen. 24:27'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/571.htm'
+    quote: 'abundant in mercy and faithfulness Exodus 34:6'
+  - where: 'note 24:12 “Kindness: hesed”'
+    claim: 'Hesed has no adequate English equivalent; the KJV translators often chose lovingkindness, also mercy and goodness'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'has no adequate English equivalent. Translators of the King James Version of the Bible must have struggled with how to render'
+  - where: 'note 24:12 “Kindness: hesed”'
+    claim: 'Hesed is the love and mercy God extends to those in covenant with Him'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'is a special kind of love and mercy that God feels for and extends to those who have made a covenant with Him.'
+  - where: 'note 24:12 “Kindness: hesed”'
+    claim: '“Send me good speed” is literally “cause it to happen before me today”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/24-12.htm'
+    quote: 'הַקְרֵה־ cause it to happen … לְפָנַ֖י before me … הַיּ֑וֹם today'
+  - where: 'note 24:12 “Kindness: hesed”'
+    claim: 'The Hiphil of qarah, used of the LORD, means to cause the right thing to occur (Gen. 24:12)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7136.htm'
+    quote: 'cause ( the right thing good fortune) to occur'
+
+  # ---------- note 24:14 the sign ----------
+  - where: 'note 24:14 “A sign that tested character”'
+    claim: 'The servant presented a plan for the Lord to confirm'
+    key: ot-manual-gen-24-36
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-24-36-the-covenant-line-continues-with-isaac-and-jacob?lang=eng'
+    quote: 'Instead of just asking the Lord to solve his problem, he presented a plan for the Lord to confirm.'
+  - where: 'note 24:14 “A sign that tested character”'
+    claim: 'Rebekah’s haste and work matched the qualities the servant had prayed for'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Rebekah’s energy, discipline, and work ethic matched the servant’s list of characteristics for which he sought and prayed.'
+  - where: 'note 24:14 “A sign that tested character”'
+    claim: 'The sign was connected with the custom of the country; the servant tested the circumstances rather than trusting first impressions'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/24.htm'
+    quote: 'He then fixed upon a sign connected with the custom of the country'
+  - where: 'note 24:14 “A sign that tested character”'
+    claim: 'The sign was connected with the custom of the country; the servant tested the circumstances rather than trusting first impressions'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/24.htm'
+    quote: 'The servant did not give himself blindly up to first impressions, however, but tested the circumstances.'
+
+  # ---------- note 24:20 well scene ----------
+  - where: 'note 24:20 “A bride found at a well”'
+    claim: 'The well stories of Gen. 24, Gen. 29 and Ex. 2 follow one pattern, a type-scene: a journey to another land, a woman at a well, water drawn, she runs home, betrothal'
+    key: sc-knowhy-854
+    url: 'https://scripturecentral.org/knowhy/why-does-boaz-allude-to-a-well-in-connection-with-his-meeting-ruth'
+    quote: 'those hearing them in the past would know that when a man went to another country, met a woman at a well, and obtained water from said well, that it was likely going to become a betrothal scene of some sort.'
+  - where: 'note 24:20 “A bride found at a well”'
+    claim: 'The woman would run home and a marriage would be arranged'
+    key: sc-knowhy-854
+    url: 'https://scripturecentral.org/knowhy/why-does-boaz-allude-to-a-well-in-connection-with-his-meeting-ruth'
+    quote: 'In these stories, the woman would often run home to tell her family, and arrangements would be made between the man and the family for marriage.'
+
+  - where: 'note 24:20 “A bride found at a well”'
+    claim: 'The woman would run home; the differences in each version carried deeper meaning'
+    key: sc-knowhy-854
+    url: 'https://scripturecentral.org/knowhy/why-does-boaz-allude-to-a-well-in-connection-with-his-meeting-ruth'
+    quote: 'Each version had differences, and these differences allowed the type-scene to fit each character’s historical circumstance and, perhaps more importantly, provide the audience with some deeper meaning.'
+  - where: 'note 24:20 “A bride found at a well”'
+    claim: 'A type-scene is a story modeled on a basic outline, with the specifics changed for each story'
+    key: sc-knowhy-854
+    url: 'https://scripturecentral.org/knowhy/why-does-boaz-allude-to-a-well-in-connection-with-his-meeting-ruth'
+    quote: 'certain stories are modeled after a basic outline, with the specifics being changed depending on the individual story being told'
+  - where: 'note 24:20 “A bride found at a well”'
+    claim: 'In Rebekah’s story the woman, not the man, draws the water'
+    key: sc-knowhy-854
+    url: 'https://scripturecentral.org/knowhy/why-does-boaz-allude-to-a-well-in-connection-with-his-meeting-ruth'
+    quote: 'in Isaac’s story, for example, the woman is the one who draws the water from the well, not the man'
+  - where: 'note 24:20 “A bride found at a well”'
+    claim: 'This anticipates Rebekah taking the initiative again in chapter 27'
+    key: sc-knowhy-854
+    url: 'https://scripturecentral.org/knowhy/why-does-boaz-allude-to-a-well-in-connection-with-his-meeting-ruth'
+    quote: 'This foreshadows what will happen later in the narrative when Rebekah takes the initiative'
+  - where: 'note 24:20 “A bride found at a well”'
+    claim: 'Jacob waters Laban’s flock himself at the well'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/29?lang=eng'
+    quote: 'Jacob went near, and rolled the stone from the well’s mouth, and watered the flock of Laban his mother’s brother.'
+  - where: 'note 24:20 “A bride found at a well”'
+    claim: 'Moses waters the flock of Jethro’s daughters'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/2?lang=eng'
+    quote: 'but Moses stood up and helped them, and watered their flock.'
+  - where: 'note 24:20 “A bride found at a well”'
+    claim: 'Rebekah is an agent of change in all her stories'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Rebekah becomes an agent of change in all the stories in which she appears'
+  - where: 'note 24:20 “A bride found at a well”'
+    claim: 'Abraham sent his servant rather than Isaac himself'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Abraham sent his servant to find a wife for Isaac rather than sending Isaac himself'
+
+  # ---------- note 24:29 Laban ----------
+  - where: 'note 24:29 “Laban, and the family that answers”'
+    claim: 'Jacob later served Laban twenty years, with mutual deception on both sides'
+    key: bd-laban
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/laban?lang=eng'
+    quote: 'Jacob lived with him and served him for 20 years. There was a good deal of mutual deception, each trying to outdo the other'
+  - where: 'note 24:29 “Laban, and the family that answers”'
+    claim: 'Laban hurried out as soon as he had seen the presents'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/24.htm'
+    quote: 'As soon as Laban her brother had seen the splendid presents and heard her account, he hurried out to the stranger at the well'
+  - where: 'note 24:29 “Laban, and the family that answers”'
+    claim: 'A brother sharing in the decision with the father was the usual custom'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/24.htm'
+    quote: 'That Rebekah''s brother Laban should have taken part with her father in deciding, was in accordance with the usual custom'
+
+  # ---------- note 24:34 retelling ----------
+  - where: 'note 24:34 “The story told twice”'
+    claim: 'The servant retold his story in detail and with great diplomacy'
+    key: bradshaw-genesis-24
+    url: 'https://scripturecentral.org/archive/books/book-chapter/genesis-24'
+    quote: 'The steward rehearsed his story in detail to Laban with great diplomacy.'
+  - where: 'note 24:34 “The story told twice”'
+    claim: 'In the retelling the servant adds that Isaac is sole heir'
+    key: bradshaw-genesis-24
+    url: 'https://scripturecentral.org/archive/books/book-chapter/genesis-24'
+    quote: 'subtly informs his audience that the prospective groom is the sole heir to his father’s fortune'
+  - where: 'note 24:34 “The story told twice”'
+    claim: 'The retelling leaves out Abraham’s ban on bringing Isaac back'
+    key: bradshaw-genesis-24
+    url: 'https://scripturecentral.org/archive/books/book-chapter/genesis-24'
+    quote: 'Tactfully, the narrative leaves unmentioned Abraham’s original separation from the family and the proscription on bringing Isaac to them'
+  - where: 'note 24:34 “The story told twice”'
+    claim: 'In the retelling he asks her parentage before giving the ring'
+    key: bradshaw-genesis-24
+    url: 'https://scripturecentral.org/archive/books/book-chapter/genesis-24'
+    quote: 'he placed his question about her parentage before rather than after his putting the ring in her nose'
+
+  # ---------- note 24:58 I will go ----------
+  - where: 'note 24:58 “I will go”'
+    claim: 'The family’s question uses the same verb: “Will you go”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/24-58.htm'
+    quote: 'הֲתֵלְכִ֖י Will you go'
+  - where: 'note 24:58 “I will go”'
+    claim: 'Her answer is one Hebrew word, elek, “I will go”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/24-58.htm'
+    quote: 'אֵלֵֽךְ׃ I will go'
+  - where: 'note 24:58 “I will go”'
+    claim: 'The Lord’s command to Abram was lek-leka, “go for yourself”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/12-1.htm'
+    quote: 'לֶךְ־ Go V‑Qal‑Imp‑ms lə·ḵā לְךָ֛ for yourself'
+  - where: 'note 24:58 “I will go”'
+    claim: 'Her answer recalls Abraham’s own departure in chapter 12'
+    key: bradshaw-genesis-24
+    url: 'https://scripturecentral.org/archive/books/book-chapter/genesis-24'
+    quote: 'Her unwavering response to leave her family behind at the Lord’s call is reminiscent of Abraham’s original departure'
+  - where: 'note 24:58 “I will go”'
+    claim: '“A few days, at the least ten” is literally “days or ten”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/24-55.htm'
+    quote: 'יָמִ֖ים … days N‑mp … א֣וֹ or Conj … עָשׂ֑וֹר ten'
+  - where: 'note 24:58 “I will go”'
+    claim: 'Her family honored her wishes'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'In their response, her family honored her opinion and wishes.'
+
+  # ---------- note 24:60 blessing ----------
+  - where: 'note 24:60 “The blessing on the bride”'
+    claim: '“Thousands of millions” is literally “thousands of myriads”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/24-60.htm'
+    quote: 'לְאַלְפֵ֣י of thousands … רְבָבָ֑ה of myriads'
+  - where: 'note 24:60 “The blessing on the bride”'
+    claim: 'Verse 60 says “the gate of those who hate him”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/24-60.htm'
+    quote: 'שַׁ֥עַר the gate … שֹׂנְאָֽיו׃ of those who hate him'
+  - where: 'note 24:60 “The blessing on the bride”'
+    claim: '22:17 says “your seed shall possess the gate of their enemies”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/22-17.htm'
+    quote: 'וְיִרַ֣שׁ and shall possess … זַרְעֲךָ֔ your seed … שַׁ֥עַר the gate … אֹיְבָֽיו׃ of their enemies'
+
+  # ---------- note 24:62 Lahai-roi ----------
+  - where: 'note 24:62 “Hagar’s well”'
+    claim: 'Beer-lahai-roi means “well of the living One that seeth me”; named in Hagar’s story, 16:14; also 24:62; 25:11'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/883.htm'
+    quote: 'literally well of the living One that seeth me'
+  - where: 'note 24:62 “Hagar’s well”'
+    claim: 'The “south country” is the Negev'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/24-62.htm'
+    quote: 'בְּאֶ֥רֶץ in … הַנֶּֽגֶב׃ the Negev'
+  - where: 'section 5 plain'
+    claim: 'The “south country” is the Negev'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/24-62.htm'
+    quote: 'הַנֶּֽגֶב׃ the Negev'
+
+  - where: 'note 24:62 “Hagar’s well”'
+    claim: 'The Septuagint calls it “the well of the vision”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/24.htm'
+    quote: 'And Isaac went through the wilderness to the well of the vision'
+  - where: 'note 24:62 “Hagar’s well”'
+    claim: 'Hagar named the well after the God who saw her'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/16?lang=eng'
+    quote: 'Wherefore the well was called Beer-lahai-roi'
+  - where: 'note 24:62 “Hagar’s well”'
+    claim: 'After Abraham’s death Isaac lived by the well Lahai-roi'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/25?lang=eng'
+    quote: 'and Isaac dwelt by the well Lahai-roi.'
+
+  # ---------- note 24:63 meditate ----------
+  - where: 'note 24:63 “What Isaac was doing in the field”'
+    claim: 'The Hebrew infinitive is lasuach, translated “to meditate”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/24-63.htm'
+    quote: 'לָשׂ֥וּחַ to meditate'
+  - where: 'note 24:63 “What Isaac was doing in the field”'
+    claim: 'The NRSVue has “to walk” and notes the meaning of the Hebrew is uncertain'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%2024%3A62-67&version=NRSVUE'
+    quote: 'Isaac went out in the evening to walk'
+  - where: 'note 24:63 “What Isaac was doing in the field”'
+    claim: 'The NRSVue has “to walk” and notes the meaning of the Hebrew is uncertain'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%2024%3A62-67&version=NRSVUE'
+    quote: '24.63 Meaning of Heb uncertain'
+  - where: 'note 24:63 “What Isaac was doing in the field”'
+    claim: 'BDB suggests the verse may have read a verb meaning “go or rove about”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7751.htm'
+    quote: 'go or rove about'
+  - where: 'note 24:63 “What Isaac was doing in the field”'
+    claim: 'BDB suggests the verse may have read a verb meaning “go or rove about”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7751.htm'
+    quote: 'perhaps also Genesis 24:63'
+  - where: 'note 24:63 “What Isaac was doing in the field”'
+    claim: 'The Septuagint reads “to meditate”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/24.htm'
+    quote: 'And Isaac went forth into the plain toward evening to meditate'
+  - where: 'note 24:63 “What Isaac was doing in the field”'
+    claim: 'Targum Onkelos reads “to pray”'
+    key: etheridge-targums
+    url: 'https://archive.org/download/targumsonkelosa00ethegoog/targumsonkelosa00ethegoog_djvu.txt'
+    quote: 'went forth to pray in the field, at the presence of the evening'
+
+  # ---------- note 24:65 veil ----------
+  - where: 'note 24:65 “The veil”'
+    claim: 'The Hebrew word means wrapper, shawl, or veil'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6809.htm'
+    quote: 'wrapper, shawl, or veil'
+  - where: 'note 24:65 “The veil”'
+    claim: 'Unmarried women usually went unveiled; Rebekah’s veil showed modesty and respect for her husband-to-be'
+    key: hallen-rebekah
+    url: 'https://www.churchofjesuschrist.org/study/ensign/2002/01/rebekah?lang=eng'
+    quote: 'It was common for unmarried women in Rebekah’s day to go about in public with their faces unveiled. So when Rebekah put on a veil, it was a sign of her virtue, reverence, humility, and modesty and showed respect for her future spouse.'
+  - where: 'note 24:65 “The veil”'
+    claim: 'Veils most often indicated respectability'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'veils most often indicated respectability. Rebekah donned a veil before meeting Isaac'
+  - where: 'note 24:65 “The veil”'
+    claim: 'The servant calling Isaac “my master” marks the passing of the torch from Abraham to Isaac'
+    key: bradshaw-genesis-24
+    url: 'https://scripturecentral.org/archive/books/book-chapter/genesis-24'
+    quote: 'The reference of the steward to Isaac as “my master” subtly conveys the passing of the torch from Abraham to Isaac.'
+
+  # ---------- note 24:67 ----------
+  - where: 'note 24:67 “Comforted after his mother”'
+    claim: 'The Hebrew reads “after his mother”; “death” is supplied'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/24-67.htm'
+    quote: 'אִמּֽוֹ׃פ his mother’s [death]'
+  - where: 'note 24:67 “Comforted after his mother”'
+    claim: 'Sarah died at 127'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/23?lang=eng'
+    quote: 'And Sarah was an hundred and seven and twenty years old: these were the years of the life of Sarah.'
+  - where: 'note 24:67 “Comforted after his mother”'
+    claim: 'Sarah bore Isaac at ninety, so he was 37 when she died'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng'
+    quote: 'shall Sarah, that is ninety years old, bear?'
+  - where: 'note 24:67 “Comforted after his mother”'
+    claim: 'Isaac was forty when he married'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/25?lang=eng'
+    quote: 'And Isaac was forty years old when he took Rebekah to wife'
+
+  # ---------- section plain ----------
+  - where: 'section 2 plain'
+    claim: 'The “earring” was a nose ring (Hebrew “ring on her nose,” v. 47)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/24?lang=eng'
+    quote: 'HEB ring on her nose'
+  - where: 'section 2 plain'
+    claim: 'The “earring” was a nose ring (Hebrew “ring on her nose,” v. 47)'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/24.htm'
+    quote: 'the man took a golden nose-ring of the weight of a beka, i.e., half a shekel'
+  - where: 'section 2 plain'
+    claim: '“Send me good speed” rendered “make it happen for me today”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/24-12.htm'
+    quote: 'הַקְרֵה־ cause it to happen'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'Jehovah, printed LORD, is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ'
+  - where: 'christ'
+    claim: 'Hesed (“mercy,” v. 27) is covenant love'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'In the Hebrew language, that covenantal love is called'
+  - where: 'christ'
+    claim: 'Emet (“truth,” v. 27) means faithfulness'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/571.htm'
+    quote: 'firmness, faithfulness, truth'
+  - where: 'christ'
+    claim: 'John 4 is a well type-scene turned to a new kind of covenant relationship with all people'
+    key: sc-knowhy-854
+    url: 'https://scripturecentral.org/knowhy/why-does-boaz-allude-to-a-well-in-connection-with-his-meeting-ruth'
+    quote: 'Even the New Testament has a woman-at-the-well type-scene.'
+  - where: 'christ'
+    claim: 'The Samaritan woman goes into town to testify of Him rather than be married to Him'
+    key: sc-knowhy-854
+    url: 'https://scripturecentral.org/knowhy/why-does-boaz-allude-to-a-well-in-connection-with-his-meeting-ruth'
+    quote: 'she goes into town and tells the people about what has happened, but to testify of Him, rather than be married to Him'
+
+  - where: 'christ'
+    claim: 'John 4 is a well type-scene turned to a new kind of covenant relationship with all people'
+    key: sc-knowhy-854
+    url: 'https://scripturecentral.org/knowhy/why-does-boaz-allude-to-a-well-in-connection-with-his-meeting-ruth'
+    quote: 'This scene emphasizes the new kind of covenant relationship that Jesus is going to have with all people, not just with one woman.'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: 'KnoWhy #854 sets the well stories side by side, from Genesis to Ruth and John 4'
+    key: sc-knowhy-854
+    url: 'https://scripturecentral.org/knowhy/why-does-boaz-allude-to-a-well-in-connection-with-his-meeting-ruth'
+    quote: 'In Exodus 2, Moses leaves Egypt and meets his wife at a well.'
+  - where: 'explore'
+    claim: 'The matriarchs chapter follows Rebekah through her whole story'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'receiving revelation from God for their sons, and ensuring the bestowal of the birthright on the younger child'
+  - where: 'explore'
+    claim: 'The “mercy” of Psalm 136 is hesed'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/psalms/136-1.htm'
+    quote: 'חַסְדּֽוֹ׃ … His loving devotion'
+  - where: 'explore'
+    claim: 'President Nelson’s article explains hesed'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'In the Hebrew language, that covenantal love is called'
