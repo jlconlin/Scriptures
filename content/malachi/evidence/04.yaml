@@ -1,0 +1,750 @@
+chapter: 4
+claims:
+  # ---------- when ----------
+  - where: when
+    claim: 'The Bible Dictionary dates the prophecy of Malachi to about 430 B.C.'
+    key: bd-malachi
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/malachi?lang=eng'
+    quote: 'The prophecy of Malachi was spoken about 430 B.C.'
+  - where: when
+    claim: 'The exact timing of Malachi’s ministry is uncertain'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'The exact timing of Malachi’s ministry is uncertain'
+  # ---------- setting ----------
+  - where: setting
+    claim: 'The Hebrew text of Malachi has three chapters'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: '<chapter osisID="Mal.3">'
+  - where: setting
+    claim: 'Hebrew 3:23 is the King James 4:5, the verse that names Elijah (the file’s own note gives the numbering)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: '<note>KJV:Mal.4.5</note>'
+  - where: setting
+    claim: 'Hebrew 3:19 is the King James 4:1 (and 3:24 is 4:6)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: '<note>KJV:Mal.4.1</note>'
+  - where: setting
+    claim: 'Hebrew 3:24 is the King James 4:6, the last verse'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: '<note>KJV:Mal.4.6</note>'
+  - where: setting
+    claim: 'The Bible Dictionary dates the prophecy of Malachi to about 430 B.C.'
+    key: bd-malachi
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/malachi?lang=eng'
+    quote: 'The prophecy of Malachi was spoken about 430 B.C.'
+  - where: setting
+    claim: 'The timing of Malachi’s ministry is uncertain'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'The exact timing of Malachi’s ministry is uncertain'
+  - where: setting
+    claim: 'Malachi preached to the Jews in Jerusalem after they returned from exile'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'Malachi was a prophet who preached to the Jews in Jerusalem after they returned from Babylonian exile.'
+  - where: setting
+    claim: 'Jesus commanded the Nephites to write the words the Father gave to Malachi'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/24?lang=eng'
+    quote: 'he commanded them that they should write the words which the Father had given unto Malachi'
+  - where: setting
+    claim: 'Moroni quoted chapter 4 to Joseph Smith with a little variation from the Bible'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng'
+    quote: 'he quoted also the fourth or last chapter of the same prophecy, though with a little variation from the way it reads in our Bibles'
+  - where: setting
+    claim: 'Moroni’s visit, when he quoted Malachi, was on September 21, 1823'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'When the angel Moroni appeared to the 17-year-old Joseph Smith on the evening of September 21, 1823, he quoted Malachi’s prophecy'
+  - where: setting
+    claim: 'Elijah appeared in the Kirtland Temple on April 3, 1836'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'Twelve and a half years later, on April 3, 1836, Elijah appeared to Joseph Smith and Oliver Cowdery in the newly dedicated Kirtland Temple.'
+  - where: setting
+    claim: 'Elijah said in Kirtland that the time spoken of by Malachi had fully come'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/110?lang=eng'
+    quote: 'Behold, the time has fully come, which was spoken of by the mouth of Malachi'
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The words of verse 1 for the proud and the wicked point back to the people’s complaint in 3:15'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/4.htm'
+    quote: 'point back to Malachi 3:15'
+  - where: thread
+    claim: 'Roots and branches can stand for ancestors and descendants'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'Roots and branches can refer to our ancestors and descendants.'
+  - where: thread
+    claim: 'Elder Christofferson’s statement that without sealings we would be left with neither roots nor branches'
+    key: christofferson-sealing-power
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2023/10/15christofferson?lang=eng'
+    quote: 'we would be left in eternity with neither roots nor branches—that is, neither ancestry nor posterity'
+  - where: thread
+    claim: 'Elder Christofferson joins that state (the image of 4:1) to the curse of 4:6'
+    key: christofferson-sealing-power
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2023/10/15christofferson?lang=eng'
+    quote: 'Were that to become the norm, it would be tantamount to the earth being smitten with a curse or “utterly wasted” at the Lord’s coming.'
+  - where: thread
+    claim: 'Malachi 4:2 text (“you that fear my name”) and 4:6 text'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/4?lang=eng'
+    quote: 'But unto you that fear my name shall the Sun of righteousness arise with healing in his wings'
+  # ---------- note 4:1 The day answers the people’s complaint ----------
+  - where: 'note 4:1 “The day answers the people’s complaint”'
+    claim: 'zedim, “the proud,” occurs in Malachi in 3:15 (this is the form there)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'זֵדִ֑ים'
+  - where: 'note 4:1 “The day answers the people’s complaint”'
+    claim: 'zedim occurs again in 4:1 (Hebrew 3:19)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'זֵדִ֜ים'
+  - where: 'note 4:1 “The day answers the people’s complaint”'
+    claim: 'The participle of ʿasah, plural in 3:15 (followed by rishʿah, “wickedness”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'עֹשֵׂ֣י'
+  - where: 'note 4:1 “The day answers the people’s complaint”'
+    claim: 'The participle of ʿasah, singular in 4:1 (Hebrew 3:19), followed by rishʿah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'עֹשֵׂ֤ה'
+  - where: 'note 4:1 “The day answers the people’s complaint”'
+    claim: 'Keil: the two Hebrew expressions of 4:1 point back to 3:15'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/4.htm'
+    quote: 'point back to Malachi 3:15'
+  - where: 'note 4:1 “The day answers the people’s complaint”'
+    claim: 'Keil: those the complaining people called blessed are the ones the fire consumes'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/4.htm'
+    quote: 'Those who are called blessed by the murmuring nation will be consumed by the fire, as stubble is burned up'
+  - where: 'note 4:1 “The day answers the people’s complaint”'
+    claim: 'Malachi 3:15 reads “they that work wickedness are set up”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/3?lang=eng'
+    quote: 'yea, they that work wickedness are set up'
+  - where: 'note 4:1 “The day answers the people’s complaint”'
+    claim: 'Malachi 4:2 reads “unto you that fear my name”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/4?lang=eng'
+    quote: 'But unto you that fear my name shall the Sun of righteousness arise'
+  # ---------- note 4:1 Oven and stubble ----------
+  - where: 'note 4:1 “Oven and stubble”'
+    claim: 'Keil: the day will be to the ungodly like a burning furnace'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/4.htm'
+    quote: 'The day of judgment will be to the ungodly like a burning furnace.'
+  - where: 'note 4:1 “Oven and stubble”'
+    claim: 'Keil prints the remark (which he attributes to Hengstenberg, not read) that a fire burns more fiercely in a furnace than in the open air'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/4.htm'
+    quote: 'A fire burns more fiercely in a furnace than in the open air'
+  - where: 'note 4:1 “Oven and stubble”'
+    claim: 'What stubble is, and that farmers burn it to prepare the ground'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'Stubble refers to the short, cut stalks that remain after grain has been harvested. Farmers often burn stubble to prepare the ground for future planting.'
+  - where: 'note 4:1 “Oven and stubble”'
+    claim: 'The Church reads Mal. 4:1 as the earth cleansed at the Second Coming and the wicked destroyed like stubble'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'at the time of the Savior’s Second Coming, the earth would be cleansed and the wicked would be destroyed like stubble in a fire'
+  - where: 'note 4:1 “Oven and stubble”'
+    claim: 'D&C 133 is the revelation commanding the Saints to prepare for the Second Coming, and it quotes Mal. 4:1 in verse 64'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/133?lang=eng'
+    quote: 'The Saints are commanded to prepare for the Second Coming'
+  - where: 'note 4:1 “Oven and stubble”'
+    claim: 'D&C 133:64 quotes Mal. 4:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/133?lang=eng'
+    quote: 'And also that which was written by the prophet Malachi: For, behold, the day cometh that shall burn as an oven'
+  - where: 'note 4:1 “Oven and stubble”'
+    claim: 'Moroni’s wording of verse 1 as Joseph Smith recorded it: those who come do the burning; the account does not say who they are'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng'
+    quote: 'all that do wickedly shall burn as stubble; for they that come shall burn them'
+  # ---------- note 4:1 Roots and branches ----------
+  - where: 'note 4:1 “Roots and branches”'
+    claim: 'BDB: shoresh, root, of a people under the figure of a tree, firmness, permanence'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8328.htm'
+    quote: '1 root of people under figure of tree, involving firmness, permanence'
+  - where: 'note 4:1 “Roots and branches”'
+    claim: 'BDB lists Malachi 3:19 (Hebrew numbering; King James 4:1) among the uses of the same figure of a person'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8328.htm'
+    quote: 'Isaiah 5:24; Malachi 3:19; Job 8:17'
+  - where: 'note 4:1 “Roots and branches”'
+    claim: 'Keil: the figure of root and branch is borrowed from a tree and denotes total destruction'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/4.htm'
+    quote: 'and denotes total destruction, so that nothing will be left of them'
+  - where: 'note 4:1 “Roots and branches”'
+    claim: 'The Church’s reading: roots and branches as ancestors and descendants'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'Roots and branches can refer to our ancestors and descendants. To be left without either is to be cut off from the blessing of an eternal family.'
+  - where: 'note 4:1 “Roots and branches”'
+    claim: 'Elder Christofferson on sealings and roots and branches'
+    key: christofferson-sealing-power
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2023/10/15christofferson?lang=eng'
+    quote: 'Without the sealings that create eternal families and link generations here and hereafter, we would be left in eternity with neither roots nor branches—that is, neither ancestry nor posterity.'
+  - where: 'note 4:1 “Roots and branches”'
+    claim: 'Elder Christofferson carries the image to the curse of the last verse'
+    key: christofferson-sealing-power
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2023/10/15christofferson?lang=eng'
+    quote: 'Were that to become the norm, it would be tantamount to the earth being smitten with a curse or “utterly wasted” at the Lord’s coming.'
+  - where: 'note 4:1 “Roots and branches”'
+    claim: 'Elder Cook on a tree needing roots and branches'
+    key: cook-joy-family-history
+    url: 'https://www.churchofjesuschrist.org/study/ensign/2016/02/the-joy-of-family-history-work?lang=eng'
+    quote: 'For a tree to live and grow, it needs both roots and branches. We likewise need to be connected to our roots—our parents, grandparents, and other ancestors—as well as to our branches—our children, grandchildren, and other descendants.'
+  # ---------- note 4:2 The Sun of righteousness ----------
+  - where: 'note 4:2 “The Sun of righteousness”'
+    claim: 'The winged sun disk was a symbol of divine beings in Egypt and Babylon for centuries, and was used in ancient Israel in the 8th–7th centuries BC'
+    key: sc-knowhy-653
+    url: 'https://scripturecentral.org/knowhy/why-does-malachi-refer-to-the-sun-of-righteousness'
+    quote: 'Multiple ancient civilizations, including Egypt and Babylon, employed a winged sun disk for centuries as a symbol for divine beings. Surprisingly, this symbol was also used in ancient Israel during the eighth and seventh centuries BC.'
+  - where: 'note 4:2 “The Sun of righteousness”'
+    claim: 'A royal seal of Hezekiah, king of Judah, bears the winged sun'
+    key: sc-knowhy-653
+    url: 'https://scripturecentral.org/knowhy/why-does-malachi-refer-to-the-sun-of-righteousness'
+    quote: 'Perhaps the most notable example is found on a royal seal “belonging to Hezekiah [son of] Ahaz king of Judah” that was recently discovered in Jerusalem.'
+  - where: 'note 4:2 “The Sun of righteousness”'
+    claim: 'The KnoWhy joins Isa. 30:26 to Malachi’s image: the Lord healing His people in connection with the sun'
+    key: sc-knowhy-653
+    url: 'https://scripturecentral.org/knowhy/why-does-malachi-refer-to-the-sun-of-righteousness'
+    quote: 'Another mention of the Lord healing His people in connection with the sun can be found in Isaiah 30:26'
+  - where: 'note 4:2 “The Sun of righteousness”'
+    claim: 'The image would have been familiar to Nephi from the plates of brass or his education in Jerusalem'
+    key: sc-knowhy-653
+    url: 'https://scripturecentral.org/knowhy/why-does-malachi-refer-to-the-sun-of-righteousness'
+    quote: 'This divine forecast would have been familiar to Nephi, either from Old Testament passages on the plates of brass or from his education as a young man in Jerusalem.'
+  - where: 'note 4:2 “The Sun of righteousness”'
+    claim: 'Malachi and Nephi may have drawn independently on a common earlier tradition'
+    key: sc-knowhy-653
+    url: 'https://scripturecentral.org/knowhy/why-does-malachi-refer-to-the-sun-of-righteousness'
+    quote: 'Malachi and Nephi may have been independently drawing upon a common earlier tradition when they used this symbolism in their messianic prophecies.'
+  - where: 'note 4:2 “The Sun of righteousness”'
+    claim: 'The KnoWhy joins D&C 88:6–7 to Malachi’s image: Christ is in the sun and is the light of the sun'
+    key: sc-knowhy-653
+    url: 'https://scripturecentral.org/knowhy/why-does-malachi-refer-to-the-sun-of-righteousness'
+    quote: 'As described in Doctrine and Covenants 88:6–7, Jesus Christ is the “light of truth” which “is in the sun, and the light of the sun, and the power thereof by which it was made.”'
+  - where: 'note 4:2 “The Sun of righteousness”'
+    claim: 'BDB on Malachi 3:20: the wings may be rays, or a winged sun-disc, each marked with a question mark'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8121.htm'
+    quote: 'with wings, i.e. rays ? Now GASm; or winged sun-disc [compare We] ?'
+  - where: 'note 4:2 “The Sun of righteousness”'
+    claim: 'The Hebrew word shemesh means “sun”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8121.htm'
+    quote: '1 sun, Genesis 37:9 (E; + moon, stars)'
+  - where: 'note 4:2 “The Sun of righteousness”'
+    claim: 'The word in Malachi’s verse is shemesh (Hebrew 3:20)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'שֶׁ֣מֶשׁ'
+  - where: 'note 4:2 “The Sun of righteousness”'
+    claim: 'The Book of Mormon text of the verse reads “Son of Righteousness”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/25?lang=eng'
+    quote: 'But unto you that fear my name, shall the Son of Righteousness arise with healing in his wings; and ye shall go forth and grow up as calves in the stall.'
+  - where: 'note 4:2 “The Sun of righteousness”'
+    claim: 'Nephi on the Savior’s crucifixion and rising “with healing in his wings”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/25?lang=eng'
+    quote: 'they will crucify him; and after he is laid in a sepulchre for the space of three days he shall rise from the dead, with healing in his wings'
+  - where: 'note 4:2 “The Sun of righteousness”'
+    claim: '2 Ne. 26 is about Christ’s ministry to the Nephites (chapter heading)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/26?lang=eng'
+    quote: 'Christ will minister to the Nephites'
+  - where: 'note 4:2 “The Sun of righteousness”'
+    claim: '2 Ne. 26:9 says the Son of Righteousness shall appear to them and heal them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/26?lang=eng'
+    quote: 'But the Son of Righteousness shall appear unto them; and he shall heal them'
+  - where: 'note 4:2 “The Sun of righteousness”'
+    claim: 'D&C 88:7 on Christ in the sun'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'As also he is in the sun, and the light of the sun, and the power thereof by which it was made.'
+  - where: 'note 4:2 “The Sun of righteousness”'
+    claim: 'Isa. 30:26 sevenfold light of the sun in the day the Lord heals'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/30?lang=eng'
+    quote: 'in the day that the Lord bindeth up the breach of his people, and healeth the stroke of their wound'
+  # ---------- note 4:2 Calves ----------
+  - where: 'note 4:2 “Calves let out of the stall”'
+    claim: 'BDB: the verb push means spring about; Malachi 3:20 and Jer. 50:11 are the simile of gambolling calves'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6335.htm'
+    quote: 'in both, simile of gambolling calves'
+  - where: 'note 4:2 “Calves let out of the stall”'
+    claim: 'BDB: the verb is “spring about”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6335.htm'
+    quote: 'I. [מּוּשׁ] verb apparently spring about'
+  - where: 'note 4:2 “Calves let out of the stall”'
+    claim: 'BDB: marbeq is a stall where calves were fattened; Malachi 3:20 is a simile of prosperity'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4770.htm'
+    quote: 'calves out of the stall (where they were fattened)'
+  - where: 'note 4:2 “Calves let out of the stall”'
+    claim: 'BDB on Malachi 3:20, simile of prosperity'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4770.htm'
+    quote: 'Malachi 3:20 (simile of prosperity)'
+  - where: 'note 4:2 “Calves let out of the stall”'
+    claim: 'Brenton’s Septuagint 4:2 reads “bound as young calves let loose from bonds”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/malachi/4.htm'
+    quote: 'ye shall go forth, and bound as young calves let loose from bonds'
+  # ---------- note 4:4 The book’s last instruction ----------
+  - where: 'note 4:4 “The book’s last instruction”'
+    claim: 'Keil: verse 4 is a general admonition to observe the law'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/4.htm'
+    quote: 'It is rather a perfectly general admonition to lay to heart and observe the law.'
+  - where: 'note 4:4 “The book’s last instruction”'
+    claim: 'Keil: the admonition concludes the whole book of Malachi'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/4.htm'
+    quote: 'forms the conclusion not only of the last section (Malachi 3:13-4:3), but of the whole of the book of Malachi'
+  - where: 'note 4:4 “The book’s last instruction”'
+    claim: 'Keil: Horeb is the place where the law was given'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/4.htm'
+    quote: 'also mentions Horeb as the place where the law was given'
+  - where: 'note 4:4 “The book’s last instruction”'
+    claim: 'Keil: the admonition is the counterpart of the rebuke that the people had left the Lord’s ordinances from the days of their fathers (the words of Mal. 3:7; the Bible Hub page prints the reference as “Malachi 4:4”)'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/4.htm'
+    quote: 'The whole of the admonition forms an antithesis to the rebuke'
+  - where: 'note 4:4 “The book’s last instruction”'
+    claim: 'Keil: they are to keep these ordinances in mind so that the Lord does not smite the land with the ban'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/4.htm'
+    quote: 'that from the days of their fathers they went away from the ordinances of Jehovah. These they are to be mindful to observe, that the Lord when He comes may not smite the land with the ban.'
+  - where: 'note 4:4 “The book’s last instruction”'
+    claim: 'In the Hebrew text this verse is 3:22 (the file’s note)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: '<note>KJV:Mal.4.4</note>'
+  - where: 'note 4:4 “The book’s last instruction”'
+    claim: 'Jesus quoted Mal. 4:4 to the Nephites'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/25?lang=eng'
+    quote: 'Remember ye the law of Moses, my servant, which I commanded unto him in Horeb for all Israel, with the statutes and judgments.'
+  - where: 'note 4:4 “The book’s last instruction”'
+    claim: 'Moroni quoted the last chapter of Malachi to Joseph Smith'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng'
+    quote: 'he quoted also the fourth or last chapter of the same prophecy'
+  - where: 'note 4:4 “The book’s last instruction”'
+    claim: 'The verses symbolically stood at the end of the Hebrew prophetic collection'
+    key: sc-knowhy-591
+    url: 'https://scripturecentral.org/knowhy/why-did-moroni-quote-malachi-about-elijahs-coming'
+    quote: 'Both Jesus and Moroni quoted the last words of Malachi because those verses symbolically stood at the end of the Hebrew collection of the prophetic texts at the conclusion of the Old Testament.'
+  - where: 'note 4:4 “The book’s last instruction”'
+    claim: 'The KnoWhy reads Malachi 4:4 and 4:6 as a summary of what the new covenant would do: bind generations through obedience and through hearts welded by priesthood power'
+    key: sc-knowhy-591
+    url: 'https://scripturecentral.org/knowhy/why-did-moroni-quote-malachi-about-elijahs-coming'
+    quote: 'It would bind generations together through the obedience that comes from righteously remembering God’s commandments (Malachi 4:4)'
+  - where: 'note 4:4 “The book’s last instruction”'
+    claim: 'The KnoWhy on Mal. 4:6: hearts welded into one by priesthood powers'
+    key: sc-knowhy-591
+    url: 'https://scripturecentral.org/knowhy/why-did-moroni-quote-malachi-about-elijahs-coming'
+    quote: 'knit permanently together by being welded into one heart by priesthood powers (Malachi 4:6)'
+  # ---------- note 4:5 Moroni’s wording ----------
+  - where: 'note 4:5 “Moroni’s wording, and why the Nephites received these chapters”'
+    claim: 'Moroni’s wording of verse 5 as Joseph Smith recorded it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng'
+    quote: 'Behold, I will reveal unto you the Priesthood, by the hand of Elijah the prophet, before the coming of the great and dreadful day of the Lord.'
+  - where: 'note 4:5 “Moroni’s wording, and why the Nephites received these chapters”'
+    claim: 'Moroni quoted chapter 4 with a little variation'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng'
+    quote: 'though with a little variation from the way it reads in our Bibles'
+  - where: 'note 4:5 “Moroni’s wording, and why the Nephites received these chapters”'
+    claim: 'Elijah’s words in Kirtland refer to what Malachi spoke, and say that Elijah “should be sent”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/110?lang=eng'
+    quote: 'Behold, the time has fully come, which was spoken of by the mouth of Malachi—testifying that he [Elijah] should be sent'
+  - where: 'note 4:5 “Moroni’s wording, and why the Nephites received these chapters”'
+    claim: 'Jesus commanded the words be written and expounded them; the record does not say what He taught'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/26?lang=eng'
+    quote: 'when Jesus had told these things he expounded them unto the multitude; and he did expound all things unto them, both great and small'
+  - where: 'note 4:5 “Moroni’s wording, and why the Nephites received these chapters”'
+    claim: 'Why Jesus gave the Nephites these scriptures'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/26?lang=eng'
+    quote: 'These scriptures, which ye had not with you, the Father commanded that I should give unto you; for it was wisdom in him that they should be given unto future generations'
+  - where: 'note 4:5 “Moroni’s wording, and why the Nephites received these chapters”'
+    claim: 'Moroni’s variation may rest on the Lord’s clarifications to the Nephites that are not in the Book of Mormon (an inference)'
+    key: sc-knowhy-591
+    url: 'https://scripturecentral.org/knowhy/why-did-moroni-quote-malachi-about-elijahs-coming'
+    quote: 'Moroni’s variation of Malachi’s words may well have been based directly on the clarifications and teachings of the Lord that aren’t found in the Book of Mormon.'
+  - where: 'note 4:5 “Moroni’s wording, and why the Nephites received these chapters”'
+    claim: 'The text in 3 Nephi closely follows the KJV'
+    key: sc-knowhy-591
+    url: 'https://scripturecentral.org/knowhy/why-did-moroni-quote-malachi-about-elijahs-coming'
+    quote: 'Instead, the text in 3 Nephi closely follows the KJV.'
+  # ---------- note 4:5 Why Elijah was the one sent ----------
+  - where: 'note 4:5 “Why Elijah was the one sent”'
+    claim: 'Joseph Smith on why Elijah was sent (from a discourse read at a Church conference on Oct. 5, 1840, as the manual prints it)'
+    key: ttp-joseph-smith-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/teachings-joseph-smith/chapter-26?lang=eng'
+    quote: 'Why send Elijah? Because he holds the keys of the authority to administer in all the ordinances of the Priesthood; and [unless] the authority is given, the ordinances could not be administered in righteousness.'
+  - where: 'note 4:5 “Why Elijah was the one sent”'
+    claim: 'Elijah lived in the Northern Kingdom in the ninth century BC and held the sealing keys before the Savior lived on the earth'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'Elijah was a prophet who lived in the Northern Kingdom of Israel during the ninth century BC. We know from modern-day revelation that Elijah held the sealing keys before the Savior lived on the earth.'
+  - where: 'note 4:5 “Why Elijah was the one sent”'
+    claim: 'D&C 110:13 describes Elijah as taken to heaven without tasting death'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/110?lang=eng'
+    quote: 'Elijah the prophet, who was taken to heaven without tasting death, stood before us'
+  - where: 'note 4:5 “Why Elijah was the one sent”'
+    claim: 'The Church teaches that the prophecy was fulfilled in our dispensation'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'Malachi’s prophecy that Elijah would return to the earth before the Second Coming was fulfilled in our dispensation.'
+  - where: 'note 4:5 “Why Elijah was the one sent”'
+    claim: 'Elijah appeared to Joseph Smith and Oliver Cowdery in the Kirtland Temple on April 3, 1836'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'on April 3, 1836, Elijah appeared to Joseph Smith and Oliver Cowdery in the newly dedicated Kirtland Temple'
+  - where: 'note 4:5 “Why Elijah was the one sent”'
+    claim: 'Elijah’s words conferring the keys (D&C 110:16)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/110?lang=eng'
+    quote: 'Therefore, the keys of this dispensation are committed into your hands'
+  - where: 'note 4:5 “Why Elijah was the one sent”'
+    claim: 'President Nelson: Elijah conferred the keys of the sealing power on Joseph Smith'
+    key: nelson-priesthood-keys-2024
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2024/04/57nelson?lang=eng'
+    quote: 'Elijah conferred the keys of the sealing power upon Joseph Smith.'
+  - where: 'note 4:5 “Why Elijah was the one sent”'
+    claim: 'President Nelson: the keys given in Kirtland authorized Joseph Smith and all succeeding Presidents of the Church'
+    key: nelson-priesthood-keys-2024
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2024/04/57nelson?lang=eng'
+    quote: 'These keys authorized Joseph Smith—and all succeeding Presidents of the Lord’s Church'
+  - where: 'note 4:5 “Why Elijah was the one sent”'
+    claim: 'President Nelson: what the keys authorized, including a ratifying seal and sealing families'
+    key: nelson-priesthood-keys-2024
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2024/04/57nelson?lang=eng'
+    quote: 'to place a ratifying seal on priesthood ordinances and covenants, and to seal families eternally'
+  - where: 'note 4:5 “Why Elijah was the one sent”'
+    claim: 'The Church applies President Nelson’s words on the ratifying seal and the sealing of families to the sealing power Elijah restored'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'the sealing power restored by Elijah “authorized Joseph Smith—and all succeeding Presidents of the Lord’s Church—to … place a ratifying seal on priesthood ordinances and covenants, and to seal families eternally.”'
+  # ---------- note 4:5 Elijah, Elias, John ----------
+  - where: 'note 4:5 “Elijah, Elias, and John the Baptist”'
+    claim: 'Luke 1:17 applies the language of Mal. 4:6 to John'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/1?lang=eng'
+    quote: 'And he shall go before him in the spirit and power of Elias, to turn the hearts of the fathers to the children'
+  - where: 'note 4:5 “Elijah, Elias, and John the Baptist”'
+    claim: 'Jesus on Elias in Matt. 17:11–13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/17?lang=eng'
+    quote: 'Elias truly shall first come, and restore all things. But I say unto you, That Elias is come already'
+  - where: 'note 4:5 “Elijah, Elias, and John the Baptist”'
+    claim: 'The disciples understood Jesus spoke of John the Baptist'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/17?lang=eng'
+    quote: 'Then the disciples understood that he spake unto them of John the Baptist.'
+  - where: 'note 4:5 “Elijah, Elias, and John the Baptist”'
+    claim: 'JST Matt. 17:11–14 separates two figures'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-matt/17?lang=eng'
+    quote: 'Behold, this is Elias, whom I send to prepare the way before me.'
+  - where: 'note 4:5 “Elijah, Elias, and John the Baptist”'
+    claim: 'JST Matt. 17:14: John and also another who should come and restore all things'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-matt/17?lang=eng'
+    quote: 'Then the disciples understood that he spake unto them of John the Baptist, and also of another who should come and restore all things, as it is written by the prophets.'
+  - where: 'note 4:5 “Elijah, Elias, and John the Baptist”'
+    claim: 'JST Matt. 17:11: Elias has come already'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-matt/17?lang=eng'
+    quote: 'Elias has come already, concerning whom it is written'
+  - where: 'note 4:5 “Elijah, Elias, and John the Baptist”'
+    claim: 'Elias is the New Testament (Greek) form of the name Elijah'
+    key: bd-elias
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/elias?lang=eng'
+    quote: 'It is the New Testament (Greek) form of Elijah (Hebrew)'
+  - where: 'note 4:5 “Elijah, Elias, and John the Baptist”'
+    claim: 'Two Eliases, a preparer and a restorer'
+    key: bd-elias
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/elias?lang=eng'
+    quote: 'anciently two Eliases were spoken of, one as a preparer and the other a restorer'
+  - where: 'note 4:5 “Elijah, Elias, and John the Baptist”'
+    claim: 'The Elias at the Transfiguration is the prophet Elijah'
+    key: bd-elias
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/elias?lang=eng'
+    quote: 'Elias in these instances can only be the ancient prophet Elijah whose ministry is recorded in 1 and 2 Kings.'
+  - where: 'note 4:5 “Elijah, Elias, and John the Baptist”'
+    claim: 'Elias is also a title for one who is a forerunner'
+    key: bd-elias
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/elias?lang=eng'
+    quote: 'Elias is also a title for one who is a forerunner'
+  - where: 'note 4:5 “Elijah, Elias, and John the Baptist”'
+    claim: 'John, asked whether he was Elias, said he was not (John 1:21)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/1?lang=eng'
+    quote: 'Art thou Elias? And he saith, I am not.'
+  - where: 'note 4:5 “Elijah, Elias, and John the Baptist”'
+    claim: 'The prophecy of Elijah’s return was fulfilled in our dispensation'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'Malachi’s prophecy that Elijah would return to the earth before the Second Coming was fulfilled in our dispensation.'
+  - where: 'note 4:5 “Elijah, Elias, and John the Baptist”'
+    claim: 'Elijah himself appeared in the Kirtland Temple'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/110?lang=eng'
+    quote: 'Elijah the prophet, who was taken to heaven without tasting death, stood before us'
+  # ---------- note 4:5 Great and dreadful ----------
+  - where: 'note 4:5 “What “great and dreadful” means”'
+    claim: 'Many Latter-day Saints take the phrase to mean great for the righteous and dreadful for the wicked'
+    key: pike-great-dreadful-day
+    url: 'https://byustudies.byu.edu/article/the-great-and-dreadful-day-of-the-lord-the-anatomy-of-an-expression'
+    quote: 'Many Latter-day Saints interpret the phrase'
+  - where: 'note 4:5 “What “great and dreadful” means”'
+    claim: 'The Hebrew does not support “great for the righteous, dreadful for the wicked”'
+    key: pike-great-dreadful-day
+    url: 'https://byustudies.byu.edu/article/the-great-and-dreadful-day-of-the-lord-the-anatomy-of-an-expression'
+    quote: 'interpreting the expression “the great and dreadful/terrible day of the Lord” to mean great for the righteous and dreadful for the wicked misrepresents the original meaning of this phrase'
+  - where: 'note 4:5 “What “great and dreadful” means”'
+    claim: 'nora is a Niphal participle of yare’, “to fear,” meaning fearful, to be feared or dreaded; gadol is used of many things'
+    key: pike-great-dreadful-day
+    url: 'https://byustudies.byu.edu/article/the-great-and-dreadful-day-of-the-lord-the-anatomy-of-an-expression'
+    quote: 'is a Niph‘al (conjugation) participle of the Hebrew verb yārē’, which means “to fear.” It thus has the sense of “fearful,” something “to be feared or dreaded.”'
+  - where: 'note 4:5 “What “great and dreadful” means”'
+    claim: 'gadol is used of Jehovah himself'
+    key: pike-great-dreadful-day
+    url: 'https://byustudies.byu.edu/article/the-great-and-dreadful-day-of-the-lord-the-anatomy-of-an-expression'
+    quote: 'The term gādôl is used several times in the Hebrew Bible to describe Jehovah and his accomplishments, as well as his “day.”'
+  - where: 'note 4:5 “What “great and dreadful” means”'
+    claim: 'The two ways to translate the phrase'
+    key: pike-great-dreadful-day
+    url: 'https://byustudies.byu.edu/article/the-great-and-dreadful-day-of-the-lord-the-anatomy-of-an-expression'
+    quote: 'the meaning is “the supremely powerful and dreadful day of the Lord” or “the extraordinary and fearful day of the Lord.”'
+  - where: 'note 4:5 “What “great and dreadful” means”'
+    claim: 'The second rendering: gadol as an adverb intensifying the second modifier'
+    key: pike-great-dreadful-day
+    url: 'https://byustudies.byu.edu/article/the-great-and-dreadful-day-of-the-lord-the-anatomy-of-an-expression'
+    quote: 'as in “the extraordinarily dreadful day of the Lord” or “the significantly fearful day of the Lord.” It is not possible to ascertain which of these two options was originally intended. However, neither rendition conveys a sense of joyful.'
+  - where: 'note 4:5 “What “great and dreadful” means”'
+    claim: 'Joel 2:31 has the same Hebrew wording'
+    key: pike-great-dreadful-day
+    url: 'https://byustudies.byu.edu/article/the-great-and-dreadful-day-of-the-lord-the-anatomy-of-an-expression'
+    quote: 'this expression is worded exactly the same in both Joel 2:31 and Malachi 4:5'
+  - where: 'note 4:5 “What “great and dreadful” means”'
+    claim: 'BDB lists “the name (of Yahweh)” in Malachi 3:20 (King James 4:2, “you that fear my name”) under the entry for yare’ (fear)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3372.htm'
+    quote: 'the name (of Yahweh) Deuteronomy 28:58; Isaiah 59:19; Malachi 3:20'
+  - where: 'note 4:5 “What “great and dreadful” means”'
+    claim: 'BDB lists “the great and awful day” of Malachi 3:23 (King James 4:5) under the same entry'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3372.htm'
+    quote: 'the great and awful day of Yahweh Joel 3:4; Malachi 3:23'
+  - where: 'note 4:5 “What “great and dreadful” means”'
+    claim: 'Elijah’s Kirtland announcement uses the same words'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/110?lang=eng'
+    quote: 'by this ye may know that the great and dreadful day of the Lord is near, even at the doors'
+  # ---------- note 4:6 Turn, plant, or bind ----------
+  - where: 'note 4:6 ““Turn,” “plant,” or “bind””'
+    claim: 'BDB: the causative (Hiphil) of shuv, “bring back heart,” Malachi 3:24 (Hebrew)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7725.htm'
+    quote: '2. a. bring back heart, לֵב, עַל person Malachi 3:24'
+  - where: 'note 4:6 ““Turn,” “plant,” or “bind””'
+    claim: 'BDB places the use under the Hiphil'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7725.htm'
+    quote: 'Hiph`il353 Perfect3masculine singular'
+  - where: 'note 4:6 ““Turn,” “plant,” or “bind””'
+    claim: 'The verb of “Return unto me” in 3:7 is shuv'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'שׁ֤וּבוּ'
+  - where: 'note 4:6 ““Turn,” “plant,” or “bind””'
+    claim: 'The same causative form (hesiv) in 2:6, “did turn many away from iniquity”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'הֵשִׁ֥יב'
+  - where: 'note 4:6 ““Turn,” “plant,” or “bind””'
+    claim: 'The verb in 4:6 (Hebrew 3:24) is the same causative form'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'וְ/הֵשִׁ֤יב'
+  - where: 'note 4:6 ““Turn,” “plant,” or “bind””'
+    claim: 'Joseph Smith, 21 January 1844, as recorded at the time'
+    key: jsp-discourse-1844-01-21
+    url: 'https://www.josephsmithpapers.org/paper-summary/discourse-21-january-1844/1'
+    quote: 'Now the word turn here should be translated -[bind or seal]-'
+  - where: 'note 4:6 ““Turn,” “plant,” or “bind””'
+    claim: 'The sermon is dated 21 January 1844'
+    key: jsp-discourse-1844-01-21
+    url: 'https://www.josephsmithpapers.org/paper-summary/discourse-21-january-1844/1'
+    quote: 'Discourse, 21 January 1844, Page 181'
+  - where: 'note 4:6 ““Turn,” “plant,” or “bind””'
+    claim: 'The sermon was on the coming of Elijah'
+    key: jsp-discourse-1844-01-21
+    url: 'https://www.josephsmithpapers.org/paper-summary/discourse-21-january-1844/1'
+    quote: 'he wants me to speak about the comeing of Elijah in the last days'
+  - where: 'note 4:6 ““Turn,” “plant,” or “bind””'
+    claim: 'Moroni’s wording of verse 6'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/2?lang=eng'
+    quote: 'And he shall plant in the hearts of the children the promises made to the fathers, and the hearts of the children shall turn to their fathers.'
+  - where: 'note 4:6 ““Turn,” “plant,” or “bind””'
+    claim: 'Joseph Smith on a plainer translation, after quoting the verse in the King James words (D&C 128:17–18)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/128?lang=eng'
+    quote: 'I might have rendered a plainer translation to this, but it is sufficiently plain to suit my purpose as it stands.'
+  # ---------- note 4:6 Who are the fathers ----------
+  - where: 'note 4:6 “Who are “the fathers”?”'
+    claim: 'Modern prophets have spoken of the fathers in two ways'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'Modern prophets have spoken of “the fathers” in two ways.'
+  - where: 'note 4:6 “Who are “the fathers”?”'
+    claim: 'President Joseph Fielding Smith on the fathers and the children'
+    key: ttp-joseph-fielding-smith-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/teachings-of-presidents-of-the-church-joseph-fielding-smith/chapter-17-sealing-power-and-temple-blessings?lang=eng'
+    quote: 'The fathers are our dead ancestors who died without the privilege of receiving the Gospel, but who received the promise that the time would come when that privilege would be granted them. The children are those now living who are preparing genealogical data and who are performing the vicarious ordinances in the Temples.'
+  - where: 'note 4:6 “Who are “the fathers”?”'
+    claim: 'President Nelson on the fathers including Abraham, Isaac, and Jacob'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'In ancient Israel, such reference to the fathers would have included fathers Abraham, Isaac, and Jacob.'
+  - where: 'note 4:6 “Who are “the fathers”?”'
+    claim: 'President Nelson: Moroni’s version clarifies the promise'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'Those fathers surely include Abraham, Isaac, and Jacob. (See Doctrine and Covenants 27:9–10.)'
+  - where: 'note 4:6 “Who are “the fathers”?”'
+    claim: 'D&C 27:9–10 names Elijah’s keys beside Abraham, Isaac, and Jacob as fathers'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/27?lang=eng'
+    quote: 'And also with Joseph and Jacob, and Isaac, and Abraham, your fathers, by whom the promises remain'
+  - where: 'note 4:6 “Who are “the fathers”?”'
+    claim: 'D&C 27:9 on Elijah’s keys'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/27?lang=eng'
+    quote: 'Elijah, unto whom I have committed the keys of the power of turning the hearts of the fathers to the children'
+  # ---------- note 4:6 A curse that is a ban ----------
+  - where: 'note 4:6 “A curse that is a ban”'
+    claim: 'BDB: herem in Malachi 3:24 means smite the land with a ban, utterly destroy'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2764.htm'
+    quote: 'smite the land with a ban, i.e. utterly destroy it'
+  - where: 'note 4:6 “A curse that is a ban”'
+    claim: 'BDB: herem is a thing devoted, as the Canaanite city Jericho'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2764.htm'
+    quote: 'a. of a Canaan. city, as Jericho'
+  - where: 'note 4:6 “A curse that is a ban”'
+    claim: 'The last word of the book in Hebrew is herem'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'חֵֽרֶם'
+  - where: 'note 4:6 “A curse that is a ban”'
+    claim: 'Moroni’s wording: the whole earth utterly wasted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/2?lang=eng'
+    quote: 'If it were not so, the whole earth would be utterly wasted at his coming.'
+  - where: 'note 4:6 “A curse that is a ban”'
+    claim: 'D&C 138:48 joins the curse and the earth being utterly wasted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/138?lang=eng'
+    quote: 'lest the whole earth be smitten with a curse and utterly wasted at his coming'
+  - where: 'note 4:6 “A curse that is a ban”'
+    claim: 'Joseph Smith on the welding link and baptism for the dead'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/128?lang=eng'
+    quote: 'the earth will be smitten with a curse unless there is a welding link of some kind or other between the fathers and the children, upon some subject or other'
+  - where: 'note 4:6 “A curse that is a ban”'
+    claim: 'The subject of the welding link is baptism for the dead'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/128?lang=eng'
+    quote: 'It is the baptism for the dead.'
+  - where: 'note 4:6 “A curse that is a ban”'
+    claim: 'Elder Christofferson’s phrase “neither roots nor branches”'
+    key: christofferson-sealing-power
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2023/10/15christofferson?lang=eng'
+    quote: 'we would be left in eternity with neither roots nor branches'
+  - where: 'note 4:6 “A curse that is a ban”'
+    claim: 'Elder Christofferson: that state would frustrate the purpose of the earth’s creation'
+    key: christofferson-sealing-power
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2023/10/15christofferson?lang=eng'
+    quote: 'that would frustrate the very purpose of the earth’s creation'
+  - where: 'note 4:6 “A curse that is a ban”'
+    claim: 'Elder Christofferson joins roots and branches to the earth smitten with a curse'
+    key: christofferson-sealing-power
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2023/10/15christofferson?lang=eng'
+    quote: 'Were that to become the norm, it would be tantamount to the earth being smitten with a curse or “utterly wasted” at the Lord’s coming.'
+  # ---------- christ ----------
+  - where: christ
+    claim: 'Nephi uses “healing in his wings” of the Savior’s rising from the dead'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/25?lang=eng'
+    quote: 'they will crucify him; and after he is laid in a sepulchre for the space of three days he shall rise from the dead, with healing in his wings'
+  - where: christ
+    claim: 'The Savior’s quotation reads “Son of Righteousness”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/25?lang=eng'
+    quote: 'shall the Son of Righteousness arise with healing in his wings'
+  - where: christ
+    claim: 'Jesus gave these scriptures to the Nephites because the Father commanded it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/26?lang=eng'
+    quote: 'the Father commanded that I should give unto you'
+  - where: christ
+    claim: 'Jesus told the Nephites that He gave the law that was given to Moses (3 Ne. 15:4–5)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/15?lang=eng'
+    quote: 'Behold, I am he that gave the law, and I am he who covenanted with my people Israel'
+  - where: christ
+    claim: 'The law Jesus spoke of in 3 Ne. 15 is the law given to Moses'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/15?lang=eng'
+    quote: 'the law is fulfilled that was given unto Moses'
+  - where: christ
+    claim: 'Elder Christofferson’s closing testimony is of the restored sealing power'
+    key: christofferson-sealing-power
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2023/10/15christofferson?lang=eng'
+    quote: 'I testify that the sealing power and authority restored to earth through Joseph Smith are real'
+  - where: christ
+    claim: 'Elder Christofferson on the Atonement making exalted family relationships a reality'
+    key: christofferson-sealing-power
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2023/10/15christofferson?lang=eng'
+    quote: 'the Atonement of Jesus Christ has made immortality a verity and the possibility of exalted family relationships a reality'
+  # ---------- explore ----------
+  - where: explore
+    claim: 'The BYU Studies article on “the great and dreadful day” works through the grammar and vocabulary of the phrase'
+    key: pike-great-dreadful-day
+    url: 'https://byustudies.byu.edu/article/the-great-and-dreadful-day-of-the-lord-the-anatomy-of-an-expression'
+    quote: 'Hebrew Grammatical and Lexical Considerations'
