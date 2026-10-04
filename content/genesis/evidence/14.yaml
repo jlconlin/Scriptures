@@ -1,0 +1,576 @@
+chapter: 14
+claims:
+  # ---------- when / setting ----------
+  - where: 'when'
+    claim: 'The Bible Dictionary dates Melchizedek about 2000 B.C.'
+    key: bd-melchizedek
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/melchizedek?lang=eng'
+    quote: 'A notable prophet and leader who lived about 2000 B.C.'
+  - where: 'setting'
+    claim: 'Biblical information on Melchizedek is scarce and limited to Gen. 14:18–20 and Hebrews; latter-day revelation gives much more'
+    key: bd-melchizedek
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/melchizedek?lang=eng'
+    quote: 'Unfortunately, information concerning him in the Bible is relatively scarce, being limited to Gen. 14:18–20; Heb. 5:6; 7:1–3.'
+  - where: 'setting'
+    claim: 'Latter-day revelation gives much more: JST Gen. 14:25–40, Alma 13, D&C 84:14, D&C 107:1–4'
+    key: bd-melchizedek
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/melchizedek?lang=eng'
+    quote: 'latter-day revelation gives us much more about him and his priesthood (see JST Gen. 14:17 … JST Gen. 14:25–40 … Alma 13:14–19 ; D&C 84:14 ; 107:1–4 )'
+  - where: 'setting'
+    claim: 'The JST adds about 470 words about Melchizedek at the end of Genesis 14'
+    key: jackson-promises-priesthood
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/promises-priesthood-genesis'
+    quote: 'At the end of Genesis 14 the JST adds an insertion of about 470 words that tells Melchizedek’s story.'
+  - where: 'setting'
+    claim: 'The JST appendix prints JST Gen. 14:25–40 in place of Gen. 14:18–20'
+    key: jst-gen-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/14?lang=eng'
+    quote: 'Genesis 14:25–40. Compare Genesis 14:18–20'
+  - where: 'setting'
+    claim: 'Lot had moved toward Sodom in chapter 13 and Abram to Mamre at Hebron'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/13?lang=eng'
+    quote: 'Then Abram removed his tent, and came and dwelt in the plain of Mamre, which is in Hebron, and built there an altar unto the Lord.'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'JST: the tithe came from riches God had given Abram; God blessed Abram and gave him riches'
+    key: jst-gen-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/14?lang=eng'
+    quote: 'And it came to pass, that God blessed Abram, and gave unto him riches, and honor, and lands for an everlasting possession'
+  - where: 'thread'
+    claim: 'JST: tithes of the riches which God had given him'
+    key: jst-gen-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/14?lang=eng'
+    quote: 'Wherefore, Abram paid unto him tithes of all that he had, of all the riches which he possessed, which God had given him more than that which he had need.'
+  - where: 'thread'
+    claim: 'The promise of Gen. 15:1 (shield and reward) follows closely on the events of chapter 14, as “after these things” shows; the reward is God’s rich reward of Abram'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/15.htm'
+    quote: 'a reward, i.e., richly to reward his confidence, his ready obedience, stands here, as the opening words "after these things" indicate, in close connection with the previous guidance of Abram.'
+
+  # ---------- section plain ----------
+  - where: 'section 1 plain'
+    claim: 'Slimepits are bitumen (tar) pits'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2564.htm'
+    quote: 'bitumen, asphalt (from I. חמר according to OBlau'
+  - where: 'section 1 plain'
+    claim: 'Some fell into the pits and the rest fled to the hills'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Genesis+14&version=ESV'
+    quote: 'as the kings of Sodom and Gomorrah fled, some fell into them, and the rest fled to the hill country.'
+  - where: 'section 2 plain'
+    claim: 'Abram lived by the oaks of Mamre'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/14-13.htm'
+    quote: 'בְּאֵֽלֹנֵ֜י by the Oaks Prep‑b ¦ N‑mpc'
+  - where: 'section 2 plain'
+    claim: 'Mamre and his brothers were bound by covenant (treaty) to Abram'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/14-13.htm'
+    quote: 'בְרִית־ a covenant N‑fsc'
+  - where: 'section 2 plain'
+    claim: 'Hobah “on the left hand of” Damascus means north of Damascus'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/14.htm'
+    quote: 'pursued them to Hobah, to the left (or north) of Damascus.'
+  - where: 'section 3 plain'
+    claim: 'God Most High, maker of heaven and earth'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7069.htm'
+    quote: 'of God as originating, creating , קֹנֵה שָׁמַיִם וָאָרֶץ Genesis 14:19,22'
+  - where: 'section 3 plain'
+    claim: 'Abram gave Melchizedek a tenth'
+    key: jackson-promises-priesthood
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/promises-priesthood-genesis'
+    quote: 'This passage also gives us history’s first reference to a tithe, and it identifies Abram as the giver'
+  - where: 'section 3 plain'
+    claim: 'Lifting the hand means swearing an oath'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/14.htm'
+    quote: 'i.e. I have sworn, taken an oath with a gesture, symbolizing the appeal to God.'
+
+  # ---------- note 14:1 ----------
+  - where: 'note 14:1 “Kings from the east”'
+    claim: 'Elam lay east of Babylonia'
+    key: bd-elam
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/elam?lang=eng'
+    quote: 'A mountainous country to the east of Babylonia, with the Persian Gulf on the south and southwest'
+  - where: 'note 14:1 “Kings from the east”'
+    claim: 'Chedorlaomer is a known Elamite name, Kudur-Lagamar'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'Chedorlaomer, the Elamite king, has a known Elamite name: Kudur-Lagamar.'
+  - where: 'note 14:1 “Kings from the east”'
+    claim: 'Tidal is the Hebrew form of the Hittite Tudhaliya; an early Hittite king Tudhaliya is known'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'is the Hebrew version of the Hittite Tudhaliya. A Hittite king Tudhaliya dating before the founding of the Hittite Old Kingdom is known'
+  - where: 'note 14:1 “Kings from the east”'
+    claim: 'Amud-pi-el could become Amraphel in Hebrew; Amud-pi-el, king of Qatna, was allied with Elam'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'The name of Amud-pi-el is intriguing because it could easily become Amraphel in Hebrew. [96] It is also known that Amud-pi-el, the king of Qatna, had an alliance with Elam at this time.'
+  - where: 'note 14:1 “Kings from the east”'
+    claim: 'Qatna seems too distant to be part of Shinar'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'Qatna seems somewhat distant to be considered part of Shinar.'
+  - where: 'note 14:1 “Kings from the east”'
+    claim: 'The typical political unit was a small city-state with its own king'
+    key: ot-manual-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-12-17-abraham-father-of-the-faithful?lang=eng'
+    quote: 'anciently the most typical political entity was a small city-state wherein the king presided over one major city and the surrounding area.'
+  - where: 'note 14:1 “Kings from the east”'
+    claim: 'Sodom had a king, Gomorrah a king'
+    key: ot-manual-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-12-17-abraham-father-of-the-faithful?lang=eng'
+    quote: 'Sodom had a king, Gomorrah a king, and so on.'
+  - where: 'note 14:1 “Kings from the east”'
+    claim: 'The campaign was a quick raid with hostages, not an occupation'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'The text does not describe an occupation of Sodom and Gomorrah. Instead the military campaign appears to reflect a quick raid, which was a common military tactic at the time, with the taking of hostages.'
+  - where: 'note 14:1 “Kings from the east”'
+    claim: 'The rebellion was presumably a failure to pay yearly tribute'
+    key: benson-lot
+    url: 'https://rsc.byu.edu/creation-sinai/lot'
+    quote: 'presumably because the inhabitants had failed to pay the required yearly tribute'
+
+  # ---------- note 14:3 ----------
+  - where: 'note 14:3 “Old names for later readers”'
+    claim: 'The later name Zoar is added to Bela as better known'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/14.htm'
+    quote: 'To Bela, whose king is not mentioned by name, the later name Zoar (vid., Genesis 19:22 ) is added as being better known.'
+  - where: 'note 14:3 “Old names for later readers”'
+    claim: 'One reading: the vale of Siddim became the Salt Sea when its cities were destroyed'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/14.htm'
+    quote: 'which was changed into the Salt Sea on the destruction of its cities'
+  - where: 'note 14:3 “Old names for later readers”'
+    claim: 'The Salt Sea is the Dead Sea; the position of the cities of the plain is uncertain'
+    key: bd-dead-sea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/dead-sea?lang=eng'
+    quote: 'Also known as the Salt Sea.'
+  - where: 'note 14:3 “Old names for later readers”'
+    claim: 'The position of the cities of the plain is uncertain'
+    key: bd-dead-sea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/dead-sea?lang=eng'
+    quote: 'The position of these cities is uncertain; they have been placed by some scholars at the northern end (so as to be within view of Bethel) and by others at the southern end.'
+  - where: 'note 14:3 “Old names for later readers”'
+    claim: 'The Danites renamed Laish Dan (Judg. 18:29)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/18?lang=eng'
+    quote: 'And they called the name of the city Dan, after the name of Dan their father, who was born unto Israel: howbeit the name of the city was Laish at the first.'
+  - where: 'note 14:3 “Old names for later readers”'
+    claim: 'Dan was known as the northern limit of the land, “from Dan even to Beer-sheba”'
+    key: bd-dan
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/dan?lang=eng'
+    quote: 'This town is well known as the northern limit of Palestine, which extended “from Dan even to Beer-sheba.”'
+  - where: 'note 14:3 “Old names for later readers”'
+    claim: 'The name Dan reflects later geography; such interpolations reflect the story’s transmission, not a lack of historicity'
+    key: benson-lot
+    url: 'https://rsc.byu.edu/creation-sinai/lot'
+    quote: 'Such interpolations in the Bible do not negate the historicity of the event, they simply reflect the sharing of the story over time and the superimposing of information to correspond to information of the respective present.'
+  - where: 'note 14:3 “Old names for later readers”'
+    claim: 'The ancient name for Dan was Laish; the name Dan reflects a later geographical connection'
+    key: benson-lot
+    url: 'https://rsc.byu.edu/creation-sinai/lot'
+    quote: 'The ancient name for Dan was Laish.'
+
+
+  # ---------- note 14:5 ----------
+  - where: 'note 14:5 “Peoples remembered as giants”'
+    claim: 'One reconstruction: the march went south past Damascus'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/14.htm'
+    quote: 'The march of the punitive expedition must have been across the Euphrates at Carchemish, and then southward past Damascus.'
+  - where: 'note 14:5 “Peoples remembered as giants”'
+    claim: 'The peoples struck were apparently east of the Jordan and involved in the rebellion'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/14.htm'
+    quote: 'It overthrew the Rephaim, Zuzim, Emim, and Horites who, apparently, were peoples on the east side of Jordan, involved in the rebellion.'
+  - where: 'note 14:5 “Peoples remembered as giants”'
+    claim: 'The march reached the head of the Gulf of Aqaba, then turned back against the Amalekites and the five cities'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/14.htm'
+    quote: 'The southernmost point of the march was reached at the head of the Gulf of Akabah.'
+  - where: 'note 14:5 “Peoples remembered as giants”'
+    claim: 'Ashteroth Karnaim is generally identified with Tell-Ashtara in Bashan'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/14.htm'
+    quote: 'Generally identified with Tell-‘Ashtara , in the plateau of Bashan'
+  - where: 'note 14:5 “Peoples remembered as giants”'
+    claim: 'The Rephaim were a pre-Israelite people noted for great stature; Deut. 2:11, 20 and 3:11 refer to them'
+    key: bd-rephaim
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/rephaim?lang=eng'
+    quote: 'Giants. A pre-Israelite people in Palestine, noted for their great stature ( Gen. 14:5 ; 15:20 ; Deut. 2:11, 20 ; 3:11, 13'
+  - where: 'note 14:5 “Peoples remembered as giants”'
+    claim: 'The Emims were giants east of the Jordan in Abraham’s time, later driven out by the Moabites'
+    key: bd-emims
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/emims?lang=eng'
+    quote: 'A race of giants, living east of the Jordan in the time of Abraham; afterwards driven out by Moabites ( Gen. 14:5 ; Deut. 2:10–11 ).'
+  - where: 'note 14:5 “Peoples remembered as giants”'
+    claim: 'Deuteronomy: the Emims lived in the land given to the children of Lot; Esau’s children succeeded the Horims in Seir'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/2?lang=eng'
+    quote: 'because I have given Ar unto the children of Lot for a possession. The Emims dwelt therein in times past'
+  - where: 'note 14:5 “Peoples remembered as giants”'
+    claim: 'Og of Bashan was the remnant of the giants'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/3?lang=eng'
+    quote: 'For only Og king of Bashan remained of the remnant of giants'
+
+  # ---------- note 14:10 ----------
+  - where: 'note 14:10 “Tar pits”'
+    claim: 'Chemar is bitumen, asphalt, abounding in the vale of Siddim; the same word used for the mortar of Babel (Gen. 11:3)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2564.htm'
+    quote: 'used for cement in building Babel Genesis 11:3 (J); abounding in vale of Siddim'
+  - where: 'note 14:10 “Tar pits”'
+    claim: 'Modern translations: some fell into the pits'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Genesis+14&version=ESV'
+    quote: 'bitumen pits, and as the kings of Sodom and Gomorrah fled, some fell into them'
+  - where: 'note 14:10 “Tar pits”'
+    claim: 'Modern translations: some of the men fell into the pits'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Genesis+14&version=NIV'
+    quote: 'when the kings of Sodom and Gomorrah fled, some of the men fell into them and the rest fled to the hills.'
+
+  # ---------- note 14:13 ----------
+  - where: 'note 14:13 “Abram the Hebrew”'
+    claim: '“Hebrew” is first found in Gen. 14:13; may mean one from beyond the Euphrates, or derive from Eber'
+    key: bd-hebrew
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hebrew?lang=eng'
+    quote: 'The name is first found in Gen. 14:13, where it may mean “one who had come from beyond (the Euphrates),” from ʼeber, “to cross”; or it may be derived from the Eber mentioned in Gen. 10:25.'
+  - where: 'note 14:13 “Abram the Hebrew”'
+    claim: 'The Hebrew word ‘ivri in this verse'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/14-13.htm'
+    quote: 'הָעִבְרִ֑י the Hebrew Art ¦ N‑proper‑ms'
+  - where: 'note 14:13 “Abram the Hebrew”'
+    claim: '“Hebrew” is used by foreigners or to distinguish Israel from foreigners; “from beyond” probably the Euphrates, compare Josh. 24:2–3'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5680.htm'
+    quote: 'either a. put into the mouth of foreigners (Egyptian and Philistine), or b. used to distinguish Israel from foreigners (= one from beyond, from the other side , i.e. probably (in Hebrew tradition) from beyond the Euphrates (compare Joshua 24:2 ,3E)'
+  - where: 'note 14:13 “Abram the Hebrew”'
+    claim: 'Abram is called the Hebrew in distinction from his Amorite allies, who had a defensive treaty with him'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/14.htm'
+    quote: 'Abram is so called in distinction from Mamre and his two brothers, who were Amorites, and had made a defensive treaty with him.'
+  - where: 'note 14:13 “Abram the Hebrew”'
+    claim: '“Confederate with Abram” is literally “possessors of a covenant (berit) with Abram”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/14-13.htm'
+    quote: 'בְרִית־ a covenant N‑fsc'
+  - where: 'note 14:13 “Abram the Hebrew”'
+    claim: 'Ba‘al means owner (possessor); ba‘alei berit in Gen. 14:13 means confederates'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1167.htm'
+    quote: 'I. 1 owner (often plural with suffix in singular meaning)'
+  - where: 'note 14:13 “Abram the Hebrew”'
+    claim: 'BDB gives ba‘alei berit at Gen. 14:13 as “confederates”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1167.htm'
+    quote: 'confederates Genesis 14:13'
+
+  # ---------- note 14:14 ----------
+  - where: 'note 14:14 “Abram’s household goes to war”'
+    claim: 'Chanikh, trained, occurs only here: tried and trusty men born in his house'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2593.htm'
+    quote: 'adjective trained, tried, experienced , only plural suffix חֲנִיכָיו יְלידֵי בֵיתוֺ , Genesis 14:14 i.e. his tried and trusty men, born in his house.'
+  - where: 'note 14:14 “Abram’s household goes to war”'
+    claim: 'The verb “armed” (riq) means to empty out, used of drawing a sword; at Gen. 14:14 “led forth”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7324.htm'
+    quote: '3 empty out (i.e. draw ) sword'
+  - where: 'note 14:14 “Abram’s household goes to war”'
+    claim: 'BDB lists Gen. 14:14 with the sense “led forth” (preferring a variant reading, “mustered”), so the meaning here is not certain'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7324.htm'
+    quote: 'וירק חניכיו Genesis 14:14 (R) led forth'
+  - where: 'note 14:14 “Abram’s household goes to war”'
+    claim: '“Brother” used in the wider sense of relative, of Lot and Abraham (Gen. 13:8; 14:12, 14, 16)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/251.htm'
+    quote: 'indefinite = relative; Lot, of Abraham Genesis 13:8 ; Genesis 14:12 ,14,16'
+  - where: 'note 14:14 “Abram’s household goes to war”'
+    claim: 'Hostages were held until redeemed by the family, or by a temple or palace'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'The hostages would be held until they were redeemed by the immediate family, or, if the family could not afford the hostage price, by a temple or the palace of the affected town.'
+  - where: 'note 14:14 “Abram’s household goes to war”'
+    claim: 'Lot’s capture suggests he had become associated with Sodom; the pursuit shows Lot’s value to Abraham'
+    key: benson-lot
+    url: 'https://rsc.byu.edu/creation-sinai/lot'
+    quote: 'His inclusion as part of the spoils suggests that by this time, Lot had become associated with Sodom and Gomorrah on more than a superficial level.'
+  - where: 'note 14:14 “Abram’s household goes to war”'
+    claim: 'The pursuit says much about Lot’s value to Abraham'
+    key: benson-lot
+    url: 'https://rsc.byu.edu/creation-sinai/lot'
+    quote: 'While the pursuit is often used to demonstrate the positive character traits of Abraham, it also says much about Lot’s value to Abraham.'
+
+  # ---------- note 14:18 Salem ----------
+  - where: 'note 14:18 “The king of Salem”'
+    claim: 'Salem means peace; the Amarna tablets of about 1400 B.C. call the city Uru-Salem, identified as Jerusalem'
+    key: bd-salem
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/salem?lang=eng'
+    quote: 'the Tell el-Amarna tablets of about 1400 B.C. give the name of the city as Uru-Salem (an older name than Jebus), which is easily identified as Jerusalem, the “City of Peace,” the city of Melchizedek about 2000 B.C.'
+  - where: 'note 14:18 “The king of Salem”'
+    claim: 'Melchizedek is called king of Salem (Jerusalem)'
+    key: bd-melchizedek
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/melchizedek?lang=eng'
+    quote: 'He is called the king of Salem (Jerusalem), king of peace, and “priest of the most High God.”'
+  - where: 'note 14:18 “The king of Salem”'
+    claim: 'Salem is a short form of Jerusalem, used in poetry in Ps. 76'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8004.htm'
+    quote: 'proper name, of a location abbreviated from יְרוּשָׁלַםִ'
+  - where: 'note 14:18 “The king of Salem”'
+    claim: 'The king’s dale is identified as the confluence of three valleys southeast of Jerusalem'
+    key: benson-lot
+    url: 'https://rsc.byu.edu/creation-sinai/lot'
+    quote: 'identified as the confluence of the three valleys southeast of Jerusalem (Genesis 14:17)'
+
+  # ---------- note 14:18 bread and wine ----------
+  - where: 'note 14:18 “Bread and wine”'
+    claim: 'JST Gen. 14:17 (footnote to Gen. 14:18): he brake bread and blest it, and blest the wine'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/14?lang=eng'
+    quote: 'JST Gen. 14:17 … and he brake bread and blest it; and he blest the wine, he being the priest of the most high God'
+  - where: 'note 14:18 “Bread and wine”'
+    claim: 'The giving of bread and wine was a sacramental act; bread broken, each blessed, with priesthood authority'
+    key: jackson-promises-priesthood
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/promises-priesthood-genesis'
+    quote: 'It seems clear that the giving of the bread and wine in the narrative was a sacramental act. Melchizedek broke the bread and then blessed the bread and the wine separately, and the text mentions that he had priesthood authority to do so.'
+  - where: 'note 14:18 “Bread and wine”'
+    claim: 'A foreshadowing sacramental ordinance'
+    key: sc-knowhy-643
+    url: 'https://scripturecentral.org/knowhy/how-does-the-joseph-smith-translation-teach-us-about-melchizedek'
+    quote: 'the JST explicitly states that he performed a foreshadowing sacramental ordinance'
+  - where: 'note 14:18 “Bread and wine”'
+    claim: 'A Christian event celebrating in advance the body and blood of Christ'
+    key: jackson-promises-priesthood
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/promises-priesthood-genesis'
+    quote: 'In any case, the text gives every indication that it was a Christian event that celebrated in advance the atoning body and blood of Jesus Christ.'
+  - where: 'note 14:18 “Bread and wine”'
+    claim: 'No other Old Testament reference to the sacrament; Last Supper and Book of Mormon present it as new; perhaps a singular observance'
+    key: jackson-promises-priesthood
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/promises-priesthood-genesis'
+    quote: 'Aside from this narrative, there is no reference to the sacrament in the Old Testament'
+  - where: 'note 14:18 “Bread and wine”'
+    claim: 'Perhaps a singular observance, not an earlier practice'
+    key: jackson-promises-priesthood
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/promises-priesthood-genesis'
+    quote: 'this occasion involving Abram and Melchizedek may have been a singular observance among these two extraordinarily great men and perhaps not the perpetuation of an earlier practice or the introduction of a new one.'
+  - where: 'note 14:18 “Bread and wine”'
+    claim: 'At the Last Supper Jesus seems to introduce the ordinance; no sacrament in the Book of Mormon until Jesus comes'
+    key: jackson-promises-priesthood
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/promises-priesthood-genesis'
+    quote: 'give the impression that he was introducing the ordinance then for the first time, [1] and there is no reference to the sacrament in the Book of Mormon until Jesus’s coming in person to Lehi’s descendants.'
+
+  # ---------- note 14:18 priest ----------
+  - where: 'note 14:18 “What Restoration scripture adds”'
+    claim: 'JST: as a child Melchizedek stopped the mouths of lions and quenched fire'
+    key: jst-gen-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/14?lang=eng'
+    quote: 'Now Melchizedek was a man of faith, who wrought righteousness; and when a child he feared God, and stopped the mouths of lions, and quenched the violence of fire.'
+  - where: 'note 14:18 “What Restoration scripture adds”'
+    claim: 'JST: ordained after the order of the covenant made with Enoch'
+    key: jst-gen-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/14?lang=eng'
+    quote: 'he was ordained an high priest after the order of the covenant which God made with Enoch'
+  - where: 'note 14:18 “What Restoration scripture adds”'
+    claim: 'JST: his people sought for the city of Enoch'
+    key: jst-gen-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/14?lang=eng'
+    quote: 'And his people wrought righteousness, and obtained heaven, and sought for the city of Enoch which God had before taken'
+  - where: 'note 14:18 “What Restoration scripture adds”'
+    claim: 'Melchizedek established Zion as Enoch had'
+    key: judd-melchizedek
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/melchizedek'
+    quote: 'he performed miracles, preached righteousness, and established Zion, as Enoch had done before him.'
+  - where: 'note 14:18 “What Restoration scripture adds”'
+    claim: 'The JST gives a record of a second translated community'
+    key: jackson-promises-priesthood
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/promises-priesthood-genesis'
+    quote: 'This new text thus gives us a record of a second translated community'
+  - where: 'note 14:18 “What Restoration scripture adds”'
+    claim: 'The Targum of Palestine identifies Melchizedek with Shem'
+    key: etheridge-targums
+    url: 'https://archive.org/download/targumsonkelosa00ethegoog/targumsonkelosa00ethegoog_djvu.txt'
+    quote: 'And Malka Zadika, who was Shem bar Noah, the king of Yerushalem, came forth to meet Abram'
+  - where: 'note 14:18 “What Restoration scripture adds”'
+    claim: 'Jewish tradition often thinks Melchizedek was Shem'
+    key: ot-manual-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-12-17-abraham-father-of-the-faithful?lang=eng'
+    quote: 'In ancient Jewish traditions Melchizedek is often thought to be Shem, the son of Noah.'
+  - where: 'note 14:18 “What Restoration scripture adds”'
+    claim: 'The manual reports a writer who concluded the possibility is there'
+    key: ot-manual-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-12-17-abraham-father-of-the-faithful?lang=eng'
+    quote: 'concluded that, while we cannot say for sure, the possibility is clearly there'
+  - where: 'note 14:18 “What Restoration scripture adds”'
+    claim: 'The writer: we do not know the answer'
+    key: gygi-shem-1973
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1973/11/i-have-a-question/is-it-possible-that-shem-and-melchizedek-are-the-same-person?lang=eng'
+    quote: 'The truth is, we do not know the answer.'
+  - where: 'note 14:18 “What Restoration scripture adds”'
+    claim: 'Many read D&C 84:14 as several generations between Melchizedek and Noah'
+    key: gygi-shem-1973
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1973/11/i-have-a-question/is-it-possible-that-shem-and-melchizedek-are-the-same-person?lang=eng'
+    quote: 'Many persons believe D&C 84:14 is proof that there are perhaps several generations between Melchizedek and Noah.'
+  - where: 'note 14:18 “What Restoration scripture adds”'
+    claim: 'The Targums are ancient Jewish Aramaic paraphrases of the Old Testament'
+    key: etheridge-targums
+    url: 'https://archive.org/download/targumsonkelosa00ethegoog/targumsonkelosa00ethegoog_djvu.txt'
+    quote: 'the relics of ancient Jewish literature, the Aramaic paraphrases on the Books of the Old Testa- ment have a peculiar value'
+
+  # ---------- note 14:19 ----------
+  - where: 'note 14:19 “Maker and owner of heaven and earth”'
+    claim: 'Qanah usually means get, acquire, buy; of God, originating, creating (Gen. 14:19, 22; Deut. 32:6)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7069.htm'
+    quote: 'verb get, acquire'
+  - where: 'note 14:19 “Maker and owner of heaven and earth”'
+    claim: 'Of God as originating, creating'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7069.htm'
+    quote: 'a. of God as originating, creating , קֹנֵה שָׁמַיִם וָאָרֶץ Genesis 14:19,22 ; Deuteronomy 32:6 (Israel)'
+  - where: 'note 14:19 “Maker and owner of heaven and earth”'
+    claim: 'Elsewhere qanah means buy'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7069.htm'
+    quote: '2 elsewhere buy'
+  - where: 'note 14:19 “Maker and owner of heaven and earth”'
+    claim: 'The Hebrew of 14:19 is qoneh'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/14-19.htm'
+    quote: 'קֹנֵ֖ה Possessor V‑Qal‑Prtcpl‑msc'
+  - where: 'note 14:19 “Maker and owner of heaven and earth”'
+    claim: 'The Septuagint reads “who made heaven and earth”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/14.htm'
+    quote: 'Blessed be Abram of the most high God, who made heaven and earth'
+  - where: 'note 14:19 “Maker and owner of heaven and earth”'
+    claim: 'One reading: founder and possessor'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/14.htm'
+    quote: 'קנה, founder and possessor'
+
+  # ---------- note 14:20 ----------
+  - where: 'note 14:20 “The first tithe”'
+    claim: 'The first recorded tithe is Abraham’s to Melchizedek'
+    key: bd-tithe
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/tithe?lang=eng'
+    quote: 'The first recorded instance is the payment made by Abraham to Melchizedek (Gen. 14:20; Heb. 7:4–10).'
+  - where: 'note 14:20 “The first tithe”'
+    claim: 'Hebrew: “and he gave to him a tenth of everything”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/14-20.htm'
+    quote: 'וַיִּתֶּן־ And he gave Conj‑w ¦ V‑Qal‑ConsecImperf‑3ms'
+  - where: 'note 14:20 “The first tithe”'
+    claim: 'The giver is ambiguous in the Hebrew; the JST identifies Abram'
+    key: jackson-promises-priesthood
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/promises-priesthood-genesis'
+    quote: 'it identifies Abram as the giver, which is ambiguous in the Hebrew text.'
+  - where: 'note 14:20 “The first tithe”'
+    claim: 'JST: Melchizedek the keeper of the storehouse, appointed to receive tithes for the poor'
+    key: jst-gen-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/14?lang=eng'
+    quote: 'being the high priest, and the keeper of the storehouse of God; Him whom God had appointed to receive tithes for the poor.'
+  - where: 'note 14:20 “The first tithe”'
+    claim: 'JST: Abram paid tithes of all he had, which God had given him beyond his need'
+    key: jst-gen-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/14?lang=eng'
+    quote: 'Abram paid unto him tithes of all that he had, of all the riches which he possessed, which God had given him more than that which he had need.'
+  - where: 'note 14:20 “The first tithe”'
+    claim: 'The storehouse was not for Melchizedek but for the poor'
+    key: judd-melchizedek
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/melchizedek'
+    quote: 'In the Zion society of Melchizedek, the storehouse was not to provide for him but “for the poor” (JST, Genesis 14:38).'
+
+  # ---------- note 14:22 ----------
+  - where: 'note 14:22 “El Elyon, and the LORD”'
+    claim: 'Elyon, “Most High,” is a name of God; El Elyon in Gen. 14:18–22 and Ps. 78:35'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5945.htm'
+    quote: 'noun masculine Highest, Most High (probably = foregoing); — 1 name of God'
+  - where: 'note 14:22 “El Elyon, and the LORD”'
+    claim: 'El Elyon with other divine names in Gen. 14:18–22 and Ps. 78:35'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5945.htm'
+    quote: 'with other divine names: אל עליון Genesis 14:18 ,19,20,22 (see Di) Psalm 78:35'
+  - where: 'note 14:22 “El Elyon, and the LORD”'
+    claim: 'In 14:22 Abram swears to YHWH El Elyon'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/14-22.htm'
+    quote: 'יְהוָה֙ YHWH N‑proper‑ms'
+  - where: 'note 14:22 “El Elyon, and the LORD”'
+    claim: 'Abram raised his hand (harimoti yadi)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/14-22.htm'
+    quote: 'הֲרִימֹ֨תִי I have raised V‑Hifil‑Perf‑1cs'
+  - where: 'note 14:22 “El Elyon, and the LORD”'
+    claim: 'Some believe Melchizedek worshipped a different god named El Elyon; a false conclusion from lack of sources'
+    key: judd-melchizedek
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/melchizedek'
+    quote: 'some believe that Melchizedek worshipped not Jehovah but a different god named El Elyon, or Most High God.'
+  - where: 'note 14:22 “El Elyon, and the LORD”'
+    claim: 'Such conclusions come from a lack of adequate sources'
+    key: judd-melchizedek
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/melchizedek'
+    quote: 'This and other false conclusions result from a lack of adequate sources and information.'
+  - where: 'note 14:22 “El Elyon, and the LORD”'
+    claim: 'Lifting the hand is an oath gesture'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/14.htm'
+    quote: 'i.e. I have sworn, taken an oath with a gesture, symbolizing the appeal to God. Cf. Deuteronomy 32:40'
+
+  # ---------- note 14:23 ----------
+  - where: 'note 14:23 “Why Abram took nothing”'
+    claim: 'By the rights of war the booty belonged to Abram, who renounced his claim'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/14.htm'
+    quote: 'According to the rights of war, all the booty belonged to Abram: and he magnanimously renounces his claim.'
+  - where: 'note 14:23 “Why Abram took nothing”'
+    claim: 'The exceptions: rations for his men and a share for the allies, who had joined the enterprise'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/14.htm'
+    quote: 'a claim that an equitable share in the spoil should be assigned to his three confederates'
+  - where: 'note 14:23 “Why Abram took nothing”'
+    claim: 'JST: God blessed Abram and gave him riches, per the covenant and Melchizedek’s blessing'
+    key: jst-gen-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/14?lang=eng'
+    quote: 'according to the covenant which he had made, and according to the blessing wherewith Melchizedek had blessed him.'
+  - where: 'note 14:23 “Why Abram took nothing”'
+    claim: 'Gen. 15:1’s promise of a reward stands in close connection with the events before it'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/15.htm'
+    quote: 'a reward, i.e., richly to reward his confidence, his ready obedience, stands here, as the opening words "after these things" indicate, in close connection with the previous guidance of Abram.'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'In Genesis 14 Melchizedek is seen in a priestly role pointing ahead to Christ'
+    key: sc-knowhy-643
+    url: 'https://scripturecentral.org/knowhy/how-does-the-joseph-smith-translation-teach-us-about-melchizedek'
+    quote: 'when Melchizedek is introduced in Genesis 14, he is seen in a priestly role, pointing ahead to Jesus Christ.'
+  - where: 'christ'
+    claim: 'The priestly role that points to Christ is seen above all in the bread and wine, a foreshadowing sacramental ordinance'
+    key: sc-knowhy-643
+    url: 'https://scripturecentral.org/knowhy/how-does-the-joseph-smith-translation-teach-us-about-melchizedek'
+    quote: 'the JST explicitly states that he performed a foreshadowing sacramental ordinance'
+  - where: 'christ'
+    claim: 'JST Heb. 7:3 applies “without father, without mother” to the priesthood, not to Melchizedek'
+    key: sc-knowhy-643
+    url: 'https://scripturecentral.org/knowhy/how-does-the-joseph-smith-translation-teach-us-about-melchizedek'
+    quote: 'in the JST this expression clearly refers to the priesthood held by Melchizedek, not to Melchizedek himself'
+  - where: 'christ'
+    claim: 'JST Gen. 14:28: the order of the Son of God'
+    key: jst-gen-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-gen/14?lang=eng'
+    quote: 'It being after the order of the Son of God; which order came, not by man, nor the will of man; neither by father nor mother; neither by beginning of days nor end of years; but of God'
