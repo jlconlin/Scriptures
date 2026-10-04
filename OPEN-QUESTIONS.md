@@ -45,7 +45,6 @@ Not questions, but most of the questions below are easier after reading.
 
 ## Work waiting, no decision needed
 
-- **The preview has not been republished since Genesis 38.** Genesis is live now, so only Malachi needs it. `node scripts/preview-site.mjs`, then republish.
 - **Genesis 22, closing section:** Melvin J. Ballard's words are cited from the seminary manual that prints them; read and cite the original talk (“The Sacramental Covenant,” *New Era*, Jan. 1976).
 - **The new review arrangement has been tested once,** on Malachi (`AUTHORING.md`, “Plan for the next book”): the checker finds what it should and Opus does a third of the work it did, but a chapter costs more tokens in all. Two things to try before the next book: give the reviewer less to read, and find why the writer's calls did not fall.
 - **A leftover working copy** in `.claude/worktrees/` (from the “Show three more” branch, long merged) can be deleted.
