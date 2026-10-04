@@ -1,0 +1,557 @@
+chapter: 47
+claims:
+  - where: 'when'
+    claim: 'The seven years of dearth began as Joseph had said, and ran on'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng'
+    quote: 'And the seven years of dearth began to come, according as Joseph had said'
+  - where: 'when'
+    claim: 'Two years of famine had passed and five were to come, when Joseph spoke to his brothers'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/45?lang=eng'
+    quote: 'For these two years hath the famine been in the land: and yet there are five years'
+  - where: 'setting'
+    claim: 'Chapter 46 ends with the household arriving in Goshen and Joseph’s instructions for Pharaoh'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/46?lang=eng'
+    quote: 'to direct his face unto Goshen; and they came into the land of Goshen'
+  - where: 'setting'
+    claim: 'Joseph is second only to Pharaoh'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng'
+    quote: 'only in the throne will I be greater than thou'
+  - where: 'setting'
+    claim: 'Jacob’s blessings are in chapters 48–49'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/49?lang=eng'
+    quote: 'All these are the twelve tribes of Israel: and this is it that their father spake unto them, and blessed them'
+  - where: 'setting'
+    claim: 'Jacob is buried in the cave of Machpelah in Canaan (chapter 50)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/50?lang=eng'
+    quote: 'his sons carried him into the land of Canaan, and buried him in the cave of the field of Machpelah'
+  - where: 'setting'
+    claim: 'Hebrews counts the patriarchs as strangers and pilgrims seeking a better country'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
+    quote: 'confessed that they were strangers and pilgrims on the earth'
+  - where: 'setting'
+    claim: 'Hebrews 11:21 has Jacob worshipping “leaning upon the top of his staff”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
+    quote: 'worshipped, leaning upon the top of his staff'
+  - where: 'setting'
+    claim: 'The Septuagint of Genesis 47:31 reads “leaning on the top of his staff”, the form Hebrews 11:21 has'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/47.htm'
+    quote: 'And Israel did reverence, leaning on the top of his staff.'
+  - where: 'setting'
+    claim: 'Exodus 1 picks up with Israel fruitful and a new king who knew not Joseph'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/1?lang=eng'
+    quote: 'Now there arose up a new king over Egypt, which knew not Joseph.'
+  - where: 'setting'
+    claim: 'Ether 13 calls Joseph’s bringing his father to Egypt a type'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/13?lang=eng'
+    quote: 'for which things there has been a type'
+  - where: 'thread'
+    claim: 'In Genesis 17:8 the Hebrew has both “land of thy sojournings” and “everlasting possession”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אֵ֣ת אֶ֣רֶץ מְגֻרֶ֗י/ךָ אֵ֚ת כָּל אֶ֣רֶץ כְּנַ֔עַן לַ/אֲחֻזַּ֖ת עוֹלָ֑ם'
+  - where: 'thread'
+    claim: 'Genesis 47:9 has megurai, “my sojournings”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'יְמֵי֙ שְׁנֵ֣י מְגוּרַ֔/י'
+  - where: 'thread'
+    claim: 'The brothers say they came lagur, “to sojourn” (47:4)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'לָ/ג֣וּר בָּ/אָרֶץ֮ בָּאנוּ֒'
+  - where: 'thread'
+    claim: 'Genesis 47:11 uses achuzzah, and 47:27 the verb from the same root'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אֲחֻזָּה֙ בְּ/אֶ֣רֶץ מִצְרַ֔יִם'
+  - where: 'thread'
+    claim: 'Genesis 47:27 uses the verb ye’achazu, “had possessions”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/יֵּאָחֲז֣וּ בָ֔/הּ וַ/יִּפְר֥וּ וַ/יִּרְבּ֖וּ מְאֹֽד'
+  - where: 'thread'
+    claim: 'Genesis 49:30 calls Machpelah an achuzzat qaver, a possession of a buryingplace'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אֲשֶׁר֩ קָנָ֨ה אַבְרָהָ֜ם אֶת הַ/שָּׂדֶ֗ה מֵ/אֵ֛ת עֶפְרֹ֥ן הַ/חִתִּ֖י לַ/אֲחֻזַּת קָֽבֶר'
+  - where: 'thread'
+    claim: 'The Egyptians’ hechayitanu (47:25) and Joseph’s lehachayot (45:7; 50:20) are the same verb'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2421.htm'
+    quote: 'preserve alive, let live Genesis 45:7 ; Genesis 50:20 (E), Genesis 47:25'
+  - where: 'thread'
+    claim: 'Jacob called his life a sojourning because the patriarchs had not come into possession of the promised land (one commentary’s reading)'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/47.htm'
+    quote: 'Jacob called his own life and that of his fathers a pilgrimage … because they had not come into actual possession of the promised land'
+  - where: 'section 1 plain'
+    claim: '“Men of activity” (anshei chayil) are able, capable men'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2428.htm'
+    quote: 'ability, efficiency , often involving moral worth … Genesis 47:6 (J), Exodus 18:21'
+  - where: 'note 47:6 “Goshen, the best of the land”'
+    claim: 'Joseph told his brothers to say their trade was cattle so they could dwell in Goshen'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/46?lang=eng'
+    quote: 'that ye may dwell in the land of Goshen; for every shepherd is an abomination unto the Egyptians'
+  - where: 'note 47:6 “Goshen, the best of the land”'
+    claim: 'Goshen had pasture land and lay probably in the eastern delta'
+    key: bd-goshen
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/goshen?lang=eng'
+    quote: 'It contained pasture land (Gen. 46:33–34) and lay somewhere between Palestine and the capital of Egypt (46:28–29), probably in the eastern part of the delta of the Nile.'
+  - where: 'note 47:6 “Goshen, the best of the land”'
+    claim: '“Men of activity” is anshei chayil; chayil here means ability, efficiency'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2428.htm'
+    quote: 'ability, efficiency , often involving moral worth … Genesis 47:6 (J), Exodus 18:21'
+  - where: 'note 47:6 “Goshen, the best of the land”'
+    claim: 'The Hebrew of 47:6 has anshei chayil'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אַנְשֵׁי חַ֔יִל'
+  - where: 'note 47:7 “Why Jacob blesses Pharaoh”'
+    claim: 'Another reading: more than the usual salutation; a formal benediction'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/47.htm'
+    quote: 'More must be meant by this than the usual salutation, in which each one presented to the king prayed for the prolongation of his life. Pharaoh probably bowed before Jacob as a saintly personage, and received a formal benediction.'
+  - where: 'note 47:7 “Why Jacob blesses Pharaoh”'
+    claim: 'The verb barak (Piel) also means to salute or greet, with an invocation of blessing'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1288.htm'
+    quote: 'salute, greet , with an invocation of blessing'
+  - where: 'note 47:7 “Why Jacob blesses Pharaoh”'
+    claim: 'The lexicon lists Gen 47:7 under greeting “in meeting” and 47:10 under “in departing”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1288.htm'
+    quote: 'in meeting Genesis 47:7 (P) 2 Kings 4:29 ; 2 Kings 10:15 ; 1 Samuel 13:10 . b. in departing Genesis 24:60 (J) Genesis 47:10 (P)'
+  - where: 'note 47:9 ““Pilgrimage” means sojourning”'
+    claim: 'BDB: magur is sojourning, always plural, with eretz in Gen 17:8; 28:4; 36:7; 37:1; Ex 6:4'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4033.htm'
+    quote: 'sojourning( -place), always plural ׳ אֶרֶץ מ Genesis 17:8 ; Genesis 28:4 ; Genesis 36:7 ; Genesis 37:1 ; Exodus 6:4'
+  - where: 'note 47:9 ““Pilgrimage” means sojourning”'
+    claim: 'BDB: in Genesis 47:9 magur means lifetime'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4033.htm'
+    quote: 'sojourning (plural) = life time'
+  - where: 'note 47:9 ““Pilgrimage” means sojourning”'
+    claim: 'Genesis 37:1 has the plural construct megurei'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4033.htm'
+    quote: 'plural construct מְגוּרֵי Genesis 37:1'
+  - where: 'note 47:9 ““Pilgrimage” means sojourning”'
+    claim: 'Genesis 17:8 has eretz megurekha “the land wherein thou art a stranger”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אֵ֣ת אֶ֣רֶץ מְגֻרֶ֗י/ךָ'
+  - where: 'note 47:9 ““Pilgrimage” means sojourning”'
+    claim: 'Genesis 37:1 reads “the land of his father’s sojournings”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'בְּ/אֶ֖רֶץ מְגוּרֵ֣י אָבִ֑י/ו'
+  - where: 'note 47:9 ““Pilgrimage” means sojourning”'
+    claim: 'BDB: gur, “sojourn”, as a new-comer without original rights, used at Gen 47:4 and of patriarchs in Canaan'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1481.htm'
+    quote: 'sojourn , dwell for a (definite or indefinite) time, dwell as a new-comer (compare גֵּר ) without original rights'
+  - where: 'note 47:9 ““Pilgrimage” means sojourning”'
+    claim: 'BDB lists Gen 47:4 and the patriarchs in Canaan (Gen 26:3; 35:27; Ex 6:4) under gur'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1481.htm'
+    quote: 'Genesis 47:4 (all J E); of partriarchs in Canaan Genesis 26:3 (J) Genesis 35:27 ; Exodus 6:4'
+  - where: 'note 47:9 ““Pilgrimage” means sojourning”'
+    claim: 'One reading: Jacob calls his life a sojourning because the patriarchs had not come into possession of the promised land'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/47.htm'
+    quote: 'Jacob called his own life and that of his fathers a pilgrimage … because they had not come into actual possession of the promised land'
+  - where: 'note 47:9 “What “few and evil” means”'
+    claim: 'BDB: ra‘ in Gen 47:9 means bad, unpleasant, giving pain, misery; “evil days (of trial and hardship)”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7451.htm'
+    quote: 'bad, unpleasant , giving pain, unhappiness, misery: ימים רעים evil days (of trial and hardship) Genesis 47:9'
+  - where: 'note 47:9 “What “few and evil” means”'
+    claim: 'The Student Manual: “evil” means sorrowful or full of toil and trouble'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'The word which is translated as “evil” actually means “sorrowful” or “full of toil and trouble.”'
+  - where: 'note 47:9 “What “few and evil” means”'
+    claim: 'The manual lists Jacob’s troubles'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'Remembering Jacob’s flight to Haran to escape Esau’s wrath, his years of labor for Laban, his wives and their contentions, his pilgrimage in the land of Canaan, the death of Rachel, and his years of sorrowing for the loss of Joseph'
+  - where: 'note 47:9 “What “few and evil” means”'
+    claim: 'Abraham lived 175 years'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/25?lang=eng'
+    quote: 'And these are the days of the years of Abraham’s life which he lived, an hundred threescore and fifteen years.'
+  - where: 'note 47:9 “What “few and evil” means”'
+    claim: 'Isaac lived 180 years'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'And the days of Isaac were an hundred and fourscore years.'
+  - where: 'note 47:11 “The same word as the promised land”'
+    claim: 'BDB: achuzzah, of landed property, Gen 47:11'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/272.htm'
+    quote: 'possession , P & late; of landed property Genesis 47:11'
+  - where: 'note 47:11 “The same word as the promised land”'
+    claim: 'BDB lists achuzzat qever at Gen 23:4, 9, 20; 49:30; 50:13, and ’olam at 17:8; 48:4'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/272.htm'
+    quote: 'אֲחֻזַּת קֶבֶר Genesis 23:4 ,9,20; Genesis 49:30 ; Genesis 50:13'
+  - where: 'note 47:11 “The same word as the promised land”'
+    claim: 'BDB lists achuzzat ’olam at Gen 17:8; 48:4'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/272.htm'
+    quote: 'Genesis 17:8 ; Genesis 48:4'
+  - where: 'note 47:11 “The same word as the promised land”'
+    claim: 'BDB: the Niphal of the verb at Gen 47:27 means “have possessions”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/270.htm'
+    quote: 'elsewhere have possessions Genesis 34:10 ; Genesis 47:27'
+  - where: 'note 47:11 “The same word as the promised land”'
+    claim: 'Genesis 48:4 has achuzzat ’olam in Hebrew'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אֲחֻזַּ֥ת עוֹלָֽם'
+  - where: 'note 47:11 “The same word as the promised land”'
+    claim: 'Abraham asked for a possession of a buryingplace to bury his dead (ch. 23)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/23?lang=eng'
+    quote: 'give me a possession of a buryingplace with you, that I may bury my dead out of my sight'
+  - where: 'note 47:11 “The same word as the promised land”'
+    claim: 'Abraham buried Sarah in the cave of Machpelah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/23?lang=eng'
+    quote: 'Abraham buried Sarah his wife in the cave of the field of Machpelah'
+  - where: 'note 47:11 “The same word as the promised land”'
+    claim: 'Jacob’s promise: this land for an everlasting possession'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/48?lang=eng'
+    quote: 'will give this land to thy seed after thee for an everlasting possession'
+  - where: 'note 47:11 “The land of Rameses”'
+    claim: 'Bible Dictionary: Rameses, treasure-city and district; spelled Raamses in Ex. 1:11'
+    key: bd-rameses
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/rameses?lang=eng'
+    quote: 'An Egyptian treasure-city, and also name of the district surrounding it (Gen. 47:11; Ex. 12:37; Num. 33:3, 5). Spelled Raamses (Ex. 1:11).'
+  - where: 'note 47:11 “The land of Rameses”'
+    claim: 'Genesis 47:11 has the consonants r‘mss'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'בְּ/אֶ֣רֶץ רַעְמְסֵ֑ס'
+  - where: 'note 47:11 “The land of Rameses”'
+    claim: 'Exodus 1:11 has the same consonants'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'וְ/אֶת רַעַמְסֵֽס'
+  - where: 'note 47:11 “The land of Rameses”'
+    claim: 'Israel built treasure cities Pithom and Raamses'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/1?lang=eng'
+    quote: 'And they built for Pharaoh treasure cities, Pithom and Raamses.'
+  - where: 'note 47:11 “The land of Rameses”'
+    claim: 'Ramses II founded a capital named Pi-Ramesse; the city was called Ramses'
+    key: sarna-pharaoh-knew-not-joseph
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1987/12/research-and-perspectives/who-was-the-pharaoh-who-knew-not-joseph?lang=eng'
+    quote: 'The new capital was named after himself, Pi(Per)-Ramesse, “Domain of Ramses.” The first element was often dropped, so that the city was known simply as “Ramses” (Raamses).'
+  - where: 'note 47:11 “The land of Rameses”'
+    claim: 'Ramses II built his capital in the area of Israelite settlement'
+    key: sarna-pharaoh-knew-not-joseph
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1987/12/research-and-perspectives/who-was-the-pharaoh-who-knew-not-joseph?lang=eng'
+    quote: 'In other words, Ramses II built his capital in the very area of Israelite settlement.'
+  - where: 'note 47:11 “The land of Rameses”'
+    claim: 'Ramses II moved the center of government to the eastern delta and founded a new capital there'
+    key: sarna-pharaoh-knew-not-joseph
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1987/12/research-and-perspectives/who-was-the-pharaoh-who-knew-not-joseph?lang=eng'
+    quote: 'Ramses II, successor to Sethos I, wholeheartedly shifted the center of Egyptian government to the Eastern Delta. Not long after his coronation, he announced the foundation of a new capital city'
+  - where: 'note 47:11 “The land of Rameses”'
+    claim: 'The district’s name is probably that of Rameses II'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/47.htm'
+    quote: 'The name given to it was probably that of the Pharaoh of the oppression, Rameses II.'
+  - where: 'note 47:11 “The land of Rameses”'
+    claim: 'If so, verse 11 uses a name the country came to bear later; natural for the writer, not a literary error'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/47.htm'
+    quote: 'the country being denoted by a name which it came to bear two centuries later. It is a very natural thing for the Israelite writer to do; and can hardly be regarded in the light of a literary error.'
+  - where: 'note 47:12 “Preserved in Egypt, and a type”'
+    claim: 'Ether 13:6–7: Joseph’s bringing his father down to Egypt is the type'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/13?lang=eng'
+    quote: 'as Joseph brought his father down into the land of Egypt, even so he died there'
+  - where: 'note 47:12 “Preserved in Egypt, and a type”'
+    claim: 'Ether 13:7: the Lord was merciful to the father of Joseph, that he should perish not'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/13?lang=eng'
+    quote: 'even as he was merciful unto the father of Joseph that he should perish not'
+  - where: 'note 47:12 “Preserved in Egypt, and a type”'
+    claim: 'Ether 13 is Moroni’s report of what Ether prophesied'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/13?lang=eng'
+    quote: 'And now I, Moroni, proceed to finish my record'
+  - where: 'note 47:20 “How Egypt came to belong to Pharaoh”'
+    claim: 'Joseph’s plan to take a fifth in the plenteous years'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng'
+    quote: 'take up the fifth part of the land of Egypt in the seven plenteous years'
+  - where: 'note 47:20 “How Egypt came to belong to Pharaoh”'
+    claim: 'Joseph wisely administered the affairs of Egypt, saving lives and gathering wealth for Pharaoh'
+    key: ot-seminary-lesson-39
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/genesis-continued/lesson-39-genesis-47-49?lang=eng'
+    quote: 'Joseph wisely administered the affairs of Egypt during the famine, saving the lives of the people and gathering great wealth for Pharaoh.'
+  - where: 'note 47:21 “Moved to cities, or made servants?”'
+    claim: 'The Hebrew text: he‘evir ’oto la‘arim'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'הֶעֱבִ֥יר אֹת֖/וֹ לֶ/עָרִ֑ים'
+  - where: 'note 47:21 “Moved to cities, or made servants?”'
+    claim: 'Septuagint: brought the people into bondage, for servants'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/47.htm'
+    quote: 'And he brought the people into bondage to him, for servants, from one extremity of Egypt to the other'
+  - where: 'note 47:21 “Moved to cities, or made servants?”'
+    claim: 'Church footnote: Samaritan and Septuagint: he made them slaves, or serfs'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/47?lang=eng'
+    quote: 'Samaritan and Septuagint: he made them slaves, or serfs.'
+  - where: 'note 47:21 “Moved to cities, or made servants?”'
+    claim: 'BDB lists Gen 47:21 among verses to be read he‘evid la‘avadim'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5674.htm'
+    quote: 'Genesis 47:21 read הֶעֱבִיד לַעֲבָדִים'
+  - where: 'note 47:21 “Moved to cities, or made servants?”'
+    claim: 'Joseph’s plan kept food in the cities'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng'
+    quote: 'And let them gather all the food of those good years that come, and lay up corn under the hand of Pharaoh, and let them keep food in the cities.'
+  - where: 'note 47:21 “Moved to cities, or made servants?”'
+    claim: 'One commentary: moved according to the cities in which the corn was housed'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/47.htm'
+    quote: 'he distributed the population of the whole land according to the cities in which the corn was housed'
+  - where: 'note 47:25 “Joseph’s words in the Egyptians’ mouths”'
+    claim: 'The Egyptians’ verb is hechayitanu (Hiphil of chayah)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'הֶחֱיִתָ֑/נוּ נִמְצָא חֵן֙'
+  - where: 'note 47:25 “Joseph’s words in the Egyptians’ mouths”'
+    claim: 'Joseph’s lehachayot in 45:7 and 50:20'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וּ/לְ/הַחֲי֣וֹת לָ/כֶ֔ם לִ/פְלֵיטָ֖ה גְּדֹלָֽה'
+  - where: 'note 47:25 “Joseph’s words in the Egyptians’ mouths”'
+    claim: 'Joseph’s lehachayot in 50:20'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'לְ/הַחֲיֹ֥ת עַם רָֽב'
+  - where: 'note 47:25 “Joseph’s words in the Egyptians’ mouths”'
+    claim: 'BDB: Hiphil “preserve alive, let live” at Gen 45:7; 50:20; 47:25'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2421.htm'
+    quote: 'preserve alive, let live Genesis 45:7 ; Genesis 50:20 (E), Genesis 47:25'
+  - where: 'note 47:25 “Joseph’s words in the Egyptians’ mouths”'
+    claim: 'The Student Manual draws the line to Christ and cites John 6:48–57 and 2 Ne. 9:50'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'Joseph provided bread for Israel and saved them from death, all without cost. Jesus, the Bread of Life, did the same for all men. (See Genesis 42:35; John 6:48–57; 2 Nephi 9:50.)'
+  - where: 'note 47:27 “The blessing of fruitfulness comes true in Egypt”'
+    claim: 'Genesis 47:27 has the verbs “fruitful” and “multiply” with me’od'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/יִּפְר֥וּ וַ/יִּרְבּ֖וּ מְאֹֽד'
+  - where: 'note 47:27 “The blessing of fruitfulness comes true in Egypt”'
+    claim: 'Genesis 1:28 has pəru ûrəvû'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'פְּר֥וּ וּ/רְב֛וּ וּ/מִלְא֥וּ אֶת הָ/אָ֖רֶץ'
+  - where: 'note 47:27 “The blessing of fruitfulness comes true in Egypt”'
+    claim: 'Genesis 9:1 has pəru ûrəvû'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'פְּר֥וּ וּ/רְב֖וּ וּ/מִלְא֥וּ אֶת הָ/אָֽרֶץ'
+  - where: 'note 47:27 “The blessing of fruitfulness comes true in Egypt”'
+    claim: 'Genesis 17:6 has hifreti ... bime’od me’od'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וְ/הִפְרֵתִ֤י אֹֽתְ/ךָ֙ בִּ/מְאֹ֣ד מְאֹ֔ד'
+  - where: 'note 47:27 “The blessing of fruitfulness comes true in Egypt”'
+    claim: 'Genesis 48:4 has mafrekha vehirbitekha'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'הִנְ/נִ֤י מַפְרְ/ךָ֙ וְ/הִרְבִּיתִ֔/ךָ'
+  - where: 'note 47:27 “The blessing of fruitfulness comes true in Egypt”'
+    claim: 'Genesis 28:3 has yafrekha veyarbekha'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וְ/יַפְרְ/ךָ֖ וְ/יַרְבֶּ֑/ךָ'
+  - where: 'note 47:27 “The blessing of fruitfulness comes true in Egypt”'
+    claim: 'Exodus 1:7 repeats the verbs with bime’od me’od'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'פָּר֧וּ וַֽ/יִּשְׁרְצ֛וּ וַ/יִּרְבּ֥וּ וַ/יַּֽעַצְמ֖וּ בִּ/מְאֹ֣ד מְאֹ֑ד'
+  - where: 'note 47:27 “The blessing of fruitfulness comes true in Egypt”'
+    claim: 'God told Jacob he would make a great nation “there”, in Egypt'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/46?lang=eng'
+    quote: 'fear not to go down into Egypt; for I will there make of thee a great nation'
+  - where: 'note 47:27 “The blessing of fruitfulness comes true in Egypt”'
+    claim: 'Bible Dictionary: promises include lands as an eternal inheritance; renewed with Jacob (Gen. 48:3–4)'
+    key: bd-abraham-covenant
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abraham-covenant-of?lang=eng'
+    quote: 'Abraham’s posterity would receive certain lands as an eternal inheritance'
+  - where: 'note 47:27 “The blessing of fruitfulness comes true in Egypt”'
+    claim: 'The covenant was renewed with Jacob'
+    key: bd-abraham-covenant
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abraham-covenant-of?lang=eng'
+    quote: 'It was renewed with Isaac (Gen. 26:1–4, 24) and again with Jacob (Gen. 28; 35:9–13; 48:3–4).'
+  - where: 'note 47:27 “The blessing of fruitfulness comes true in Egypt”'
+    claim: 'Exodus 1:9: the people of Israel are more and mightier'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/1?lang=eng'
+    quote: 'Behold, the people of the children of Israel are more and mightier than we'
+  - where: 'note 47:29 “An oath sworn on the thigh”'
+    claim: 'BDB: thigh = loins, seat of procreative power'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3409.htm'
+    quote: 'thigh = loins , as seat of procreative power'
+  - where: 'note 47:29 “An oath sworn on the thigh”'
+    claim: 'BDB: place the hand under thigh, in taking oath, Gen 24:2, 9; 47:29'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3409.htm'
+    quote: 'place the hand under thigh , in taking oath Genesis 24:2 ,9 (J), Genesis 47:29'
+  - where: 'note 47:29 “An oath sworn on the thigh”'
+    claim: 'Abraham’s oath concerned a wife for his son Isaac'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/24?lang=eng'
+    quote: 'that thou shalt not take a wife unto my son of the daughters of the Canaanites'
+  - where: 'note 47:29 “An oath sworn on the thigh”'
+    claim: 'BDB lists Gen 46:26 (“came out of his loins”) under the same sense of the word'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3409.htm'
+    quote: 'those proceeding from the loins of any one Genesis 46:26'
+  - where: 'note 47:30 “Why Jacob will not be buried in Egypt”'
+    claim: 'God told Jacob at Beer-sheba He would bring him up again'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/46?lang=eng'
+    quote: 'I will go down with thee into Egypt; and I will also surely bring thee up again'
+  - where: 'note 47:30 “Why Jacob will not be buried in Egypt”'
+    claim: 'Abraham’s field bought for a possession of a buryingplace'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/23?lang=eng'
+    quote: 'were made sure unto Abraham for a possession of a buryingplace by the sons of Heth'
+  - where: 'note 47:30 “Why Jacob will not be buried in Egypt”'
+    claim: 'Abraham, Sarah, Isaac, Rebekah and Leah are buried in Machpelah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/49?lang=eng'
+    quote: 'There they buried Abraham and Sarah his wife; there they buried Isaac and Rebekah his wife; and there I buried Leah.'
+  - where: 'note 47:30 “Why Jacob will not be buried in Egypt”'
+    claim: 'Joseph told Pharaoh’s house his father made him swear'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/50?lang=eng'
+    quote: 'My father made me swear, saying, Lo, I die'
+  - where: 'note 47:30 “Why Jacob will not be buried in Egypt”'
+    claim: 'Pharaoh said Go up and bury thy father as he made thee swear'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/50?lang=eng'
+    quote: 'Go up, and bury thy father, according as he made thee swear.'
+  - where: 'note 47:30 “Why Jacob will not be buried in Egypt”'
+    claim: 'Hebrews: Joseph gave commandment concerning his bones'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
+    quote: 'gave commandment concerning his bones'
+  - where: 'note 47:31 “The bed’s head, or the top of a staff”'
+    claim: 'BDB: mittah is couch, bed, including Gen 47:31'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4296.htm'
+    quote: 'couch, bed ( place of reclining'
+  - where: 'note 47:31 “The bed’s head, or the top of a staff”'
+    claim: 'BDB: matteh, staff of traveller'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4294.htm'
+    quote: 'staff of traveller Genesis 38:18'
+  - where: 'note 47:31 “The bed’s head, or the top of a staff”'
+    claim: 'The Hebrew text reads hammittah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'עַל רֹ֥אשׁ הַ/מִּטָּֽה'
+  - where: 'note 47:31 “The bed’s head, or the top of a staff”'
+    claim: 'Septuagint: Israel did reverence, leaning on the top of his staff'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/47.htm'
+    quote: 'And Israel did reverence, leaning on the top of his staff.'
+  - where: 'note 47:31 “The bed’s head, or the top of a staff”'
+    claim: 'Hebrews 11:21 has the staff picture'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
+    quote: 'By faith Jacob, when he was a dying, blessed both the sons of Joseph; and worshipped, leaning upon the top of his staff.'
+  - where: 'note 47:31 “The bed’s head, or the top of a staff”'
+    claim: 'Ellicott: the word without vowels may be bed or staff; vowel points added later'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/47.htm'
+    quote: 'The word in the Hebrew, without vowels, may mean either bed or staff, and as we have mentioned above (Genesis 22:14), the points indicating the vowels were added in later times'
+  - where: 'note 47:31 “The bed’s head, or the top of a staff”'
+    claim: 'Ellicott: the KJV rendering is the most satisfactory'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/47.htm'
+    quote: 'The rendering, however, of the Authorised Version is the most satisfactory.'
+  - where: 'note 47:31 “The bed’s head, or the top of a staff”'
+    claim: 'Keil: the Septuagint rendering arose from a false reading; Hebrews 11:21 does not prove it'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/47.htm'
+    quote: 'unquestionably this rendering arose from a false reading of המטה, and is not proved to be correct by the quotation in Hebrews 11:21'
+  - where: 'note 47:31 “The bed’s head, or the top of a staff”'
+    claim: 'The footnote in the Latter-day Saint edition glosses the phrase “at the head of the bed”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/47?lang=eng'
+    quote: 'OR at the head of the bed.'
+  - where: 'note 47:31 “The bed’s head, or the top of a staff”'
+    claim: 'David’s bowing on his bed (1 Kgs. 1:47) is compared with this verse'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/47.htm'
+    quote: 'just as David also worshipped upon his bed'
+  - where: 'christ'
+    claim: 'Joseph kept Egypt alive with bread when there was none'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng'
+    quote: 'and the dearth was in all lands; but in all the land of Egypt there was bread'
+  - where: 'christ'
+    claim: 'Joseph said God sent him to save their lives by a great deliverance'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/45?lang=eng'
+    quote: 'And God sent me before you to preserve you a posterity in the earth, and to save your lives by a great deliverance.'
+  - where: 'christ'
+    claim: 'The Student Manual draws the line to Jesus, the Bread of Life'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'Jesus, the Bread of Life, did the same for all men.'
+  - where: 'christ'
+    claim: 'Hebrews: those who confess they are strangers seek a country, a better country, an heavenly'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
+    quote: 'But now they desire a better country, that is, an heavenly'
+  - where: 'christ'
+    claim: 'The Bible Dictionary: the promises to Abraham included that Christ would come through his lineage'
+    key: bd-abraham-covenant
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abraham-covenant-of?lang=eng'
+    quote: 'Included in the divine promises to Abraham were the assurances that (1) Christ would come through his lineage'
+  - where: 'christ'
+    claim: 'The covenant was renewed with Isaac and with Jacob'
+    key: bd-abraham-covenant
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abraham-covenant-of?lang=eng'
+    quote: 'It was renewed with Isaac (Gen. 26:1–4, 24) and again with Jacob (Gen. 28; 35:9–13; 48:3–4).'
+  - where: 'explore'
+    claim: 'KnoWhy #844 sets the settlement in Goshen beside Egyptian evidence for foreigners settled together in the delta'
+    key: sc-knowhy-844
+    url: 'https://scripturecentral.org/knowhy/why-were-the-hebrews-allowed-to-settle-in-egypt'
+    quote: 'There are examples, from roughly the period when the Hebrews would have been in Egypt, of the Pharaoh settling foreigners together as a group in the delta region of Egypt'
