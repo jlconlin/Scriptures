@@ -31,6 +31,7 @@ Before that: the book's brief, with the author (`content/<book>/BRIEF.md`: divis
 - **Showing a change.** Before a change is pushed, show it in the private claude.ai preview artifact (https://claude.ai/artifact/W1iHyLZVvWzuCeSvoDZCTS): run `node scripts/preview-site.mjs`, which builds the site with books still in preview and makes every link relative, then republish `.cache/preview/dist` to the same artifact (`index.html` as the page, the files listed in `.cache/preview/files.json` beside it). The author reviews there and can leave comments on specific passages. Once pushed, changes are live at https://scriptures.conlin.io.
 - **The author reads mostly on an iPad mini** (744px upright, 1133px sideways). Check layouts there as well as on a laptop and a phone.
 - **Ask for focus questions**, one question at a time, before a chapter is written; build the chapter around them.
+- **The author's study questions become commentary** (author, 2026-10-04). When the author asks about a verse while studying, answer from sources read in the session, then add the answer to that verse's note with ledger rows: deepen the existing note rather than restructure the chapter. First done for Isaiah 53:7.
 - **Judgment calls** go in the book's `content/<book>/OPEN-QUESTIONS.md` rather than being decided silently.
 - The per-chapter workflow (writer agent, ledger, checks, review, one commit per chapter) is in `STANDARDS.md` §10–11; the theme-page workflow (research, outline, writing, review) is in §8.
 
