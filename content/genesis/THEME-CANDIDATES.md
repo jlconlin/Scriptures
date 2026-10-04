@@ -1,6 +1,25 @@
 # Genesis: theme candidates
 
-Topics that run across chapters, reported as chapters are written. Most will never become pages (`STANDARDS.md` §8, “What earns a theme page”). No Genesis theme page is written until the author chooses it. References marked “untested” were not read in the session that reported them.
+Topics that run across chapters, reported by the reviewers as the fifty chapters were written (2026-10-03 and 04). Most will never become pages (`STANDARDS.md` §8, “What earns a theme page”: an arc, not a list, that points to Jesus Christ; a handful for a book). No Genesis theme page is written until the author chooses it.
+
+## Short list
+
+Sorted by the coordinator from the reports below, by how many chapters reported a topic and whether something changes from its first passage to its last. The chapter numbers are the chapters that reported it. None has been researched as a theme; each would begin with the research step in `STANDARDS.md` §8.
+
+1. **The covenant with Abraham, from promise to oath to Joseph's bones.** Promised (12:1–3), made (15), given its sign (17), sworn (22:16–18), renewed to Isaac and Jacob in the same words (26:3–5; 28:13–15; 35:9–12), and carried out of Egypt in an oath about a grave (50:24–25). With it: the land promised but held only as a burial place (23; Heb. 11:9–16), and the one covenant from Enoch and Noah to Abraham (JST Gen. 9; 13:14; 17:7). Reported by 3, 4, 6, 8, 9, 10, 12, 13, 14, 15, 17, 23, 26, 27, 28, 35, 41, 46, 47, 49, 50.
+2. **The younger chosen over the elder, and where the birthright goes.** Abel and Seth, Isaac over Ishmael, Jacob over Esau, Perez before Zerah, Joseph and Judah over Reuben, Ephraim before Manasseh (1 Chr. 5:1–2). Reported by 4, 10, 16, 17, 21, 25, 27, 29, 34, 35, 37, 38, 41, 48, 49.
+3. **Joseph, sent ahead to preserve life.** Sold and sent (37; 45:5–8; 50:20), the pit and the prison, bread in famine, known “the second time” (Acts 7:13); *Scripture Helps* has a table of the likenesses to Christ. Reported by 37, 39, 40, 41, 42, 45, 46, 47, 48, 50.
+4. **Judah, from selling a brother to standing in his place.** 37:26–27; 38:26; 43:8–9; 44:18–34; 49:8–12, and the line to Christ (Matt. 1:3). Reported by 37, 38, 39, 42, 43, 44, 46, 49.
+5. **Brothers at odds and reconciled.** Cain and Abel; Jacob and Esau (27; 33); Joseph and his brothers (37; 45; 50). Reported by 4, 25, 27, 32, 33, 42, 44, 45. It may belong inside 3 and 4.
+6. **The God who sees, hears, and remembers.** Hagar (16:13; 21:17), Jehovah-jireh (22:14), Leah (29:32), “God remembered” Noah, Abraham, and Rachel (8:1; 19:29; 30:22), and the barren mothers given sons. Reported by 8, 11, 16, 18, 19, 21, 22, 25, 29, 30.
+
+Thinner, or better kept in the chapters' notes: “the LORD was with him” (26, 28, 30, 31, 39); garments in the stories of Jacob and Joseph (3, 27, 37, 38, 39); Beth-el and the way into God's presence (3, 28, 32, 35); the Flood as the Creation undone and renewed (6, 7, 8: three neighboring chapters, so the notes carry it); “be fruitful, and multiply” (1, 41, 47, 48).
+
+**Connections only a theme page could make** (no source makes them, so the reviewers cut them from chapters; `STANDARDS.md` §8 allows a page its own connections): Abraham on the altar and Isaac on the altar (Abr. 1:15–16; Gen. 22:11); the blessing on Laban's, Potiphar's, and Pharaoh's houses beside 12:2–3 (30:27; 39:5; 47:7–10); Isaac who “discerned him not” (27:23) beside Jacob's “I know it” (48:19); chapter 37 echoed in chapter 43; grain “as the sand of the sea” (41:49) beside the promised seed (22:17).
+
+## As the chapters reported them
+
+From the pilots (chapters 1 and 22) and the brief:
 
 - **The Abrahamic covenant, from the call to the oath and on to Joseph's death.** All nations blessed in the seed (12:3; 22:18); the oath God swears by Himself (22:16) and its later recall (24:7; 26:3; 50:24, untested). From the brief and chapter 22.
 - **“Be fruitful, and multiply.”** Given to the creatures and to Adam and Eve (1:22, 28), renewed to Noah (9:1, 7), and carried into the covenant line (17:6; 28:3; 35:11; 48:4; the later references untested). From chapter 1.
@@ -11,7 +30,7 @@ Topics that run across chapters, reported as chapters are written. Most will nev
 - **The younger son chosen over the elder; Joseph as a deliverer.** From the brief; untested.
 - **Abraham on the altar and Isaac on the altar.** [[Abr. 1:15–16]] (the angel of His presence frees Abraham; “Abraham, Abraham… my name is Jehovah”) beside [[Gen. 22:11]]. A connection no source makes, so it could only be a theme page's own (`STANDARDS.md` §8). From chapter 22.
 
-## Reported by chapters 2–13 (not yet sorted)
+## Reported by chapters 2–13
 
 - (2) Eden lost and restored, and the tree of life: Gen. 2:8–9; 3:22–24; Isa. 51:3; 1 Ne. 11:21–25; 15:22; Alma 42:2–5; Rev. 22:1–2 (may suit a Bible-wide page more than a Genesis one).
 - (2) 'Bone of my bones' as covenant kinship: Gen. 2:23; 29:14; compare 2 Sam. 5:1.
@@ -58,7 +77,7 @@ Topics that run across chapters, reported as chapters are written. Most will nev
 - (13) One everlasting covenant from Enoch and Noah to Abraham: JST Gen. 9:21–23; the JST footnote at Gen. 13:14; Gen. 17:7.
 - (13) The numberless seed (dust, stars, sand): Gen. 13:16; 15:5; 22:17; 28:14; D&C 132:30–31.
 
-## Reported by chapters 14–26 (not yet sorted)
+## Reported by chapters 14–26
 
 - (14) Who makes Abraham rich: 14:21–23 with JST Gen. 14:39–40 and Gen. 15:1; compare 12:16 and 13:2 (part of the Abrahamic covenant theme).
 - (14) Melchizedek and the priesthood handed down to Abraham: Gen. 14:18–20; Abr. 1:2–4; D&C 84:14; D&C 107:2–4; Alma 13.
@@ -105,7 +124,7 @@ Topics that run across chapters, reported as chapters are written. Most will nev
 - (26) Wells, oaths, and covenants in the Negev: 16:14; 21:25–33; 24:11–20; 26:15–33; 29:2–10.
 - (26) The heir kept in the land or sent out of it: 24:6–8; 26:2; 46:3–4.
 
-## Reported by chapters 27–38 (not yet sorted)
+## Reported by chapters 27–38
 
 - (27) The younger chosen over the elder: Gen. 25:23; 27:29, 37, 40; Edom under David (2 Sam. 8:14).
 - (27) Blessing and cursing in the Abrahamic covenant: Gen. 12:3; 27:29; 28:3–4, 14.
@@ -160,7 +179,7 @@ Topics that run across chapters, reported as chapters are written. Most will nev
 - (38) Deception and recognition through garments and tokens: the coat (37:31–33), the veil and Judah's tokens (38:14–26), Joseph's garment (39:12–18).
 - (38) The younger or unexpected child coming first at a birth: Perez and Zerah (38:27–30), Jacob and Esau (25:24–26), Ephraim and Manasseh (48).
 
-## Reported by chapters 39–50 (not yet sorted)
+## Reported by chapters 39–50
 
 - (39) "The LORD was with…": God's presence with the patriarchs, from Abraham (21:22) through Isaac (26:3, 24, 28) and Jacob (28:15) to Joseph (39:2, 3, 21, 23) and on to 46:4.
 - (39) Blessing on outsiders through the covenant family: Laban (30:27), Potiphar's house (39:5), Pharaoh (47:7–10), set beside the promise of 12:2–3. The link to 12:2–3 was cut from this chapter for lack of a source; a theme page may make it.

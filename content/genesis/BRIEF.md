@@ -2,7 +2,7 @@
 
 Book-level decisions for Genesis. The site-wide standard is in `STANDARDS.md`; this file records what is particular to Genesis. Writers and checkers read both before starting a chapter. Jeremiah's brief (`content/jeremiah/BRIEF.md`) is the model, and its section “What a chapter is for” applies here unchanged.
 
-**Status (2026-10-03):** approved in its main lines. Chapters 1 and 22 were written as pilots; the author then asked for the whole book to be written before reading any of it. Where a section says “Proposed,” that is the approach in force.
+**Status (2026-10-04):** all fifty chapters are written, reviewed, and committed; the book is in preview and the author has not yet read it. Chapters 1–26 were written by Opus writers and 27–50 by Sonnet writers, all reviewed by Opus. Where a section says “Proposed,” that is the approach the chapters followed.
 
 Related files: `CHURCH-STATEMENTS.md` (what the Church's own sources say on the contested questions, quoted), `OPEN-QUESTIONS.md` (judgment calls waiting for the author), and `THEME-CANDIDATES.md` once chapters report topics.
 

@@ -4,9 +4,19 @@ Only what truly needs the author's judgment (author, 2026-10-03: “Do not save 
 
 ## For the author
 
-- **Abraham on the altar and Isaac on the altar.** [[Abr. 1:15–16]] and [[Gen. 22:11]] share an altar, an angel, and the doubled call “Abraham, Abraham.” No source makes the connection, so it is not in chapter 22. It could be made on a theme page (`THEME-CANDIDATES.md`). Wanted?
+- **“The Angel which redeemed me” (48:16): a Witness of Christ note, or not?** The note points the Angel to Christ by a chain of scripture and Church statements: Hosea calls the one Jacob met “the Lord God of hosts” ([[Hosea 12:4–5]]); the Bible Dictionary says Jehovah is the premortal Christ; and the note says plainly that Genesis does not say more about who the Angel is. No Church source found applies this verse to Christ directly, and President Joseph Fielding Smith thought the wrestler at Peniel “more than likely… a messenger.” The other course is to make it a Context note that leaves the identification open. It stands as a Witness of Christ note for now.
+- **Which theme pages, if any.** `THEME-CANDIDATES.md` has a short list of six. One of them, Abraham on the altar beside Isaac on the altar ([[Abr. 1:15–16]]; [[Gen. 22:11]]), is a connection no source makes, so only a theme page could make it.
+- **Opus writers or Sonnet writers.** Chapters 1–26 were written by Opus and 27–50 by Sonnet, all under the same brief and reviewers. The author's reading of the two halves decides which is used from now on (`AUTHORING.md`).
+- **When Genesis goes live.** It is `status: preview` in `book.yaml`; removing that line and pushing makes it live.
 
 ## Decided without the author
+
+**Chapters 39–50** (the reviewers left these for the author; the coordinator settled them by the standard and the brief)
+- **Dates for Joseph (41, setting):** the Bible Dictionary gives no year for Joseph, so the setting gives a BYU chapter's “about 1650 BC” for the Hyksos as “one dating,” the way chapter 12 dates Abraham. Kept: a date is “about,” attributed, and given only where a reader needs it.
+- **“The land of Rameses” (47:11):** the note says that if the district was named for Ramses II, the verse uses a later name, and labels that an inference. Kept; the Bible Dictionary itself says “scribes and copyists have left their traces” on the text.
+- **“Washed his garments in wine” (49:11):** the note gives the Church footnote's cross-references ([[Isa. 63:2]]; [[D&C 133:48]]) and one Latter-day Saint article that reads the red garments as the Messiah's. Kept, since the footnote makes the link.
+- **Outside commentary in chapter 50:** eight of sixteen notes cite the Cambridge Bible and five cite Keil, on verses (the embalming, the mourning, the brothers' fear) where no Church, BYU, or Scripture Central source was found. Kept, each worded as a reading, as in Jeremiah 15 and 29; the alternative was to cut the notes.
+- **Chapter 10's pointer** to the note on Nimrod in chapter 11 was corrected (11:3, not 11:4). Every pointer from one chapter's note to another's was checked: 62, all landing on a real note.
 
 **Chapter 1**
 - **Who wrote Genesis (setting):** under “newest trumps oldest,” the setting now gives the *Scripture Helps* (2025) wording (the Bible “does not identify who wrote the Pentateuch”; many scholars see several writers and editors; “Restoration scripture confirms Moses's central involvement”) with the Bible Dictionary's line on the sources Moses used. Its dating of the present form of Genesis to the exile is left out.
