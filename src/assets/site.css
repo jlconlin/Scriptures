@@ -331,8 +331,9 @@ a.ref-internal { text-decoration-style: dotted; }
 .picker-list .picker-pane { padding: 4px 4px 12px; }
 .picker-list .picker-bookhead h3 { display: none; }
 .picker-list .menu-empty { padding-bottom: 2px; }
-.section-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 0 20px; }
-.teasers-more { margin-bottom: 20px; font: inherit; font-weight: 650; cursor: pointer; }
+.teasers-foot { margin: 12px 0 0; text-align: right; }
+.teasers-more { padding: 4px 2px; border: 0; background: none; font: inherit; font-size: .9rem; color: var(--muted); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+.teasers-more:hover { color: var(--ink); }
 .teasers-more[hidden] { display: none; }
 .teasers { display: grid; gap: 14px; }
 @media (min-width: 760px) { .teasers { grid-template-columns: repeat(3, 1fr); } }

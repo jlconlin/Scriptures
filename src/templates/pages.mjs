@@ -61,13 +61,8 @@ export function renderHome({ books, featured }) {
 </section>
 
 <section class="wrap home-section">
-  <div class="section-head">
-    <div>
-      <h2 class="section-title">Try a phrase</h2>
-      <p class="section-sub">Three notes, chosen at random.</p>
-    </div>
-    <button type="button" class="btn teasers-more" hidden>Show three more</button>
-  </div>
+  <h2 class="section-title">Try a phrase</h2>
+  <p class="section-sub">Three notes, chosen at random.</p>
   <div class="teasers" aria-live="polite">
     ${featured
       .map(
@@ -76,6 +71,7 @@ export function renderHome({ books, featured }) {
       )
       .join('\n    ')}
   </div>
+  <p class="teasers-foot"><button type="button" class="teasers-more" hidden>Show three more</button></p>
   ${Object.keys(KINDS).map((k) => `<template class="teaser-chip" data-kind="${k}">${kindChip(k)}</template>`).join('')}
 </section>
 
