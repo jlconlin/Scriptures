@@ -1,0 +1,578 @@
+chapter: 38
+claims:
+  # ---------- setting ----------
+  - where: 'setting'
+    claim: 'Genesis 37 ends with Joseph sold into Egypt'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/37?lang=eng'
+    quote: 'the Midianites sold him into Egypt unto Potiphar, an officer of Pharaoh’s, and captain of the guard.'
+  - where: 'setting'
+    claim: 'Judah was the fourth son of Jacob and Leah and “a natural leader among the sons of Jacob”'
+    key: bd-judah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/judah?lang=eng'
+    quote: 'Fourth son of Jacob and Leah'
+  - where: 'setting'
+    claim: 'Judah was “a natural leader among the sons of Jacob”'
+    key: bd-judah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/judah?lang=eng'
+    quote: 'we see that he was a natural leader among the sons of Jacob'
+  - where: 'setting'
+    claim: 'The levirate custom is set out in Deuteronomy 25:5–10 and this chapter is the earlier instance'
+    key: bd-levirate-marriage
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/levirate-marriage?lang=eng'
+    quote: 'This system of marriage is designated in Deut. 25:5–10 (see also Gen. 38:8)'
+
+  - where: 'setting'
+    claim: 'The Hebrew of Pharez is Perets (Gen. 38:29)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/יִּקְרָ֥א שְׁמ֖/וֹ פָּֽרֶץ'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'The Hebrew request in 37:32 is hakker-na (“Recognize, please”)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/37-32.htm'
+    quote: 'hak·ker- הַכֶּר־ Recognize V‑Hifil‑Imp‑ms'
+  - where: 'thread'
+    claim: 'The Hebrew request in 38:25 is the same word, hakker-na (“Recognize, please”)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/38-25.htm'
+    quote: 'hak·ker- הַכֶּר־ Recognize V‑Hifil‑Imp‑ms'
+  - where: 'thread'
+    claim: 'The Hebrew of 37:32 reads hakker na'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַֽ/יְשַׁלְּח֞וּ אֶת כְּתֹ֣נֶת הַ/פַּסִּ֗ים וַ/יָּבִ֨יאוּ֙ אֶל אֲבִי/הֶ֔ם וַ/יֹּאמְר֖וּ זֹ֣את מָצָ֑אנוּ הַכֶּר נָ֗א הַ/כְּתֹ֧נֶת בִּנְ/ךָ֛ הִ֖וא אִם לֹֽא'
+  - where: 'thread'
+    claim: 'The Hebrew of 38:25 reads hakker na'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/תֹּ֨אמֶר֙ הַכֶּר נָ֔א לְ/מִ֞י הַ/חֹתֶ֧מֶת וְ/הַ/פְּתִילִ֛ים וְ/הַ/מַּטֶּ֖ה הָ/אֵֽלֶּה'
+  - where: 'note 38:25 “The same words as chapter 37”'
+    claim: 'These are the only two places the phrase occurs in the Hebrew Bible, a sign the scenes are meant to be read together'
+    key: sc-knowhy-841
+    url: 'https://scripturecentral.org/knowhy/why-is-the-judah-and-tamar-story-in-the-middle-of-the-joseph-story'
+    quote: 'These are the only two places this phrase appears in the Hebrew Bible, which is a good indication that these scenes are meant to be read together.'
+  - where: 'thread'
+    claim: 'The Tamar story is the only story in Genesis that possibly explains Judah’s change'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'The only story included in the Genesis narrative to possibly explain Judah’s transformation is the story of Tamar.'
+  - where: 'thread'
+    claim: 'Judah’s later offer to be a pledge for Benjamin (Gen. 44) is a change from his proposal to sell Joseph'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Judah offered himself as a slave in place of Benjamin, who had replaced the seemingly dead Joseph in their father’s heart (44:18–34).'
+
+  # ---------- note 38:1 “Where this chapter fits” ----------
+  - where: 'thread'
+    claim: 'Perez’s line leads to David and to the Savior'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'they were sons of Judah who were chosen to prepare a royal lineage that began with King David and culminated with the Savior’s birth.'
+  - where: 'note 38:1 “Where this chapter fits in the Joseph story”'
+    claim: 'The account is compressed and its timing against Joseph’s sale is uncertain'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'The timing of these events vis-à-vis Joseph being sold into Egypt is uncertain, but the account is compressed'
+  - where: 'note 38:1 “Where this chapter fits in the Joseph story”'
+    claim: 'Judah’s marriage, three sons, and two marriageable sons are told in six verses'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'Judah moves, marries, and engenders three sons, two of them growing to marriageable age, all in the space of six terse verses.'
+  - where: 'note 38:1 “Where this chapter fits in the Joseph story”'
+    claim: 'One commentary fits the chapter into the 23 years between the sale and Jacob’s migration, assuming Judah was about 20 at the sale'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/38.htm'
+    quote: 'the 23 years which intervened between the taking of Joseph into Egypt and the migration of Jacob thither, furnish space enough for all the events recorded in this chapter'
+  - where: 'note 38:1 “Where this chapter fits in the Joseph story”'
+    claim: 'The reckoning has Judah move to Adullam and marry soon after the sale'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/38.htm'
+    quote: 'If we suppose that Judah, who was 20 years old when Joseph was sold, went to Adullam soon afterwards and married there'
+  - where: 'note 38:1 “Where this chapter fits in the Joseph story”'
+    claim: 'The reckoning has Judah marry his eldest son to Tamar at about fifteen'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/38.htm'
+    quote: 'And if his eldest son was born about a year and a half after the sale of Joseph, and he married him to Thamar when he was 15 years old'
+  - where: 'note 38:1 “Where this chapter fits in the Joseph story”'
+    claim: '“Went down” is literal: from Hebron or the hill country to Adullam in the lowland'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/38.htm'
+    quote: 'Judah separated from them, and went down (from Hebron, Genesis 37:14, or the mountains) to Adullam, in the lowland (Joshua 15:35)'
+  - where: 'note 38:1 “Where this chapter fits in the Joseph story”'
+    claim: 'The Hebrew in 38:1 is the verb “went down” (yarad)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/38-1.htm'
+    quote: 'way·yê·reḏ וַיֵּ֥רֶד and went down Conj‑w ¦ V‑Qal‑ConsecImperf‑3ms'
+  - where: 'note 38:1 “Where this chapter fits in the Joseph story”'
+    claim: 'The Hebrew in 39:1 is a passive form of the same verb (“had been taken down”)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/39-1.htm'
+    quote: 'hū·raḏ הוּרַ֣ד had been taken down V‑Hofal‑Perf‑3ms'
+  - where: 'note 38:1 “Where this chapter fits in the Joseph story”'
+    claim: 'Judah chose to go down to live with the Canaanites; Joseph was removed by force and trickery and “was brought down to Egypt”'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'Judah deliberately chooses to leave his brothers, and actively “went down” to dwell with the Canaanites, but Joseph was removed from his family by force and trickery'
+
+  # ---------- note 38:2 “A Canaanite wife” ----------
+  - where: 'note 38:2 “A Canaanite wife”'
+    claim: 'The manual reads the chapter as the effect of forgetting to marry in the covenant, contrasting Judah with his father, grandfather, and great-grandfather'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'Unlike his father, grandfather, and great-grandfather (Jacob, Isaac, and Abraham), Judah was not concerned about intermarriage with the Canaanites.'
+  - where: 'note 38:2 “A Canaanite wife”'
+    claim: 'The manual says the chapter shows the effects of forgetting to marry in the covenant'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'the effects of the covenant people forgetting the importance of marrying in the covenant'
+  - where: 'note 38:2 “A Canaanite wife”'
+    claim: 'The manual says the negative results of the marriage out of the covenant are clearly shown in the chapter'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'The negative results of this marriage out of the covenant are clearly shown here.'
+  - where: 'note 38:2 “A Canaanite wife”'
+    claim: 'One reading traces the sons’ wickedness to the Canaanite marriage but grants that Jacob’s sons were not unconditionally prohibited from such marriages'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/38.htm'
+    quote: 'even if the sons of Jacob were not unconditionally prohibited from marrying the daughters of Canaanites, Judah''s marriage at any rate had borne such fruit in his sons Ger and Onan, as Jehovah the covenant God was compelled to reject'
+  - where: 'note 38:8 “A brother-in-law’s duty”'
+    claim: 'The Hebrew behind “marry her” is yabbem, to do a brother-in-law’s duty; the verb occurs only here and in Deut. 25:5, 7'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2992.htm'
+    quote: 'only Pi`el do the duty of יָבָם to a brother''s widow; Perfect וְיִבְּמָהּ consecutive Deuteronomy 25:5 and shall do a brother-in-law''s office to her; Imperative יַבֵּם אֹתָהּ Genesis 38:8'
+  - where: 'note 38:8 “A brother-in-law’s duty”'
+    claim: 'The Hebrew of Gen. 38:8 has the verb yabbem (“do the duty of a brother-in-law”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'בֹּ֛א אֶל אֵ֥שֶׁת אָחִ֖י/ךָ וְ/יַבֵּ֣ם אֹתָ֑/הּ וְ/הָקֵ֥ם זֶ֖רַע לְ/אָחִֽי/ךָ'
+  - where: 'note 38:8 “A brother-in-law’s duty”'
+    claim: 'Levirate is from Latin levir, “husband’s brother”; it is the custom of a widow marrying her husband’s brother or sometimes a near heir'
+    key: bd-levirate-marriage
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/levirate-marriage?lang=eng'
+    quote: 'The custom of a widow marrying her deceased husband’s brother or sometimes a near heir.'
+  - where: 'note 38:8 “A brother-in-law’s duty”'
+    claim: 'The name comes from Latin levir, “husband’s brother”'
+    key: bd-levirate-marriage
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/levirate-marriage?lang=eng'
+    quote: 'meaning “husband’s brother,” connected with the English suffix'
+  - where: 'note 38:8 “A brother-in-law’s duty”'
+    claim: 'Levirate marriage customs would have allowed Judah himself to marry Tamar'
+    key: scripture-helps-gen-37-41
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/10-genesis-37-41?lang=eng'
+    quote: 'Levirate marriage customs would have allowed for Judah himself to marry Tamar if she could not marry any of his sons.'
+  - where: 'note 38:8 “A brother-in-law’s duty”'
+    claim: 'A Middle Assyrian law of the fourteenth century B.C. made the father-in-law responsible and let him be the levir if he had no other son over ten'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'According to a Middle Assyrian law from the fourteenth century BC, a widow’s father-in-law was obliged to arrange a levirate marriage for her if she had not borne a son.'
+  - where: 'note 38:8 “A brother-in-law’s duty”'
+    claim: 'The same law let a father-in-law with no other son over ten act as levir himself'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'if a father-in-law had no other son over the age of ten years, he himself could be the'
+  - where: 'note 38:8 “A brother-in-law’s duty”'
+    claim: 'Judah was a legal proxy for Tamar’s dead husband'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'According to these ancient laws, Judah was a legal proxy for Tamar’s deceased husband.'
+  - where: 'note 38:8 “A brother-in-law’s duty”'
+    claim: 'The law of Moses often codified preexisting cultural norms; before Moses the father-in-law bore the ultimate responsibility'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'More likely is that the law of Moses often codified preexisting cultural norms, sometimes modifying them in the process.'
+  - where: 'note 38:8 “A brother-in-law’s duty”'
+    claim: 'Pre-Mosaic responsibility fell on the father-in-law; Deuteronomy lets the brother-in-law refuse, Genesis 38 shows no refusal right'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'In pre-Mosaic times, the ultimate responsibility in assuring offspring fell to the father-in-law.'
+  - where: 'note 38:8 “A brother-in-law’s duty”'
+    claim: 'Deuteronomy gives the brother-in-law a right to refuse; Genesis 38 shows none'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'Deuteronomy specifies that this duty belongs to a brother-in-law who may refuse (in contrast to Genesis 38, where no right-of-refusal appears to exist).'
+  - where: 'note 38:8 “A brother-in-law’s duty”'
+    claim: 'This difference explains why Tamar went to Judah rather than to Shelah'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'This difference in where the ultimate responsibility fell explains why Tamar later chose to deceive Judah instead of Shelah'
+  - where: 'note 38:8 “A brother-in-law’s duty”'
+    claim: 'Hittite and Middle Assyrian laws also included levirate legislation (the custom was not Israel’s alone)'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'Middle Assyrian and Hittite laws also included levirate legislation.'
+
+  # ---------- note 38:9 “What Onan refused” ----------
+  - where: 'note 38:9 “What Onan refused”'
+    claim: 'The manual suggests Onan’s motive was inheritance and that he went through the outward show of marriage'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'It may be that Onan, who by virtue of the death of his older brother would have been next in line for the inheritance of Judah, refused to raise up seed through Tamar because the inheritance would have stayed with the elder son’s family.'
+  - where: 'note 38:9 “What Onan refused”'
+    claim: 'The manual says Onan went through the outward show of taking Tamar to wife but refused to let her have children'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'He went through the outward show of taking Tamar to wife but refused to let her have children.'
+  - where: 'note 38:9 “What Onan refused”'
+    claim: 'While Tamar was childless her husband’s property reverted to Judah and his other sons; this may have been part of Onan’s motive'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'reverted to Judah and his other sons. This may have been part of Onan’s motivation.'
+  - where: 'note 38:9 “What Onan refused”'
+    claim: 'One scholarly view holds that the point at issue is the levirate obligation, not birth control in general'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'shows that point at issue is the levirate obligation and not the general topic of birth control.'
+  - where: 'note 38:9 “What Onan refused”'
+    claim: 'The text calls Er only “wicked”; the editor apparently thought the nature of his wickedness unimportant to relate'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'The author/ editor apparently considered the nature of his wickedness unimportant to relate'
+
+  # ---------- note 38:11 “Sent home, not set free” ----------
+  - where: 'note 38:11 “Sent home, not set free”'
+    claim: 'The reason for Judah’s delay may have been fear for Shelah or blame of Tamar; his concern was for Shelah, not Tamar'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'What is clear is that Judah’s concern here was clearly for Shelah and not for Tamar.'
+  - where: 'note 38:11 “Sent home, not set free”'
+    claim: 'Judah may have feared Shelah would be wicked like his brothers, or that Tamar herself was the reason for their deaths'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'he may have feared that the environment surrounding Shelah could lead to him being as wicked as his brothers or that Tamar herself was the reason behind the brothers’ premature deaths.'
+  - where: 'note 38:11 “Sent home, not set free”'
+    claim: 'Tamar no longer belonged to her father’s family and without an heir was not yet a full member of Judah’s clan'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'by marrying, she was no longer a legitimate member of her father’s clan, and without producing an heir for Judah’s family, she was not yet a full member of Judah’s clan.'
+  - where: 'note 38:11 “Sent home, not set free”'
+    claim: 'The Middle Assyrian law says a woman is truly a widow only when husband and father-in-law are dead and she has no son'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'a woman was only truly a widow when her husband and father-in-law were both dead and she had no son.'
+
+  # ---------- note 38:14 “What a veil meant” ----------
+  - where: 'note 38:14 “What a veil meant”'
+    claim: 'Veils most often indicated respectability; Rebekah veiled before Isaac; Leah was probably veiled at her wedding'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Wearing a veil did not in and of itself signify that a woman was a prostitute.'
+  - where: 'note 38:14 “What a veil meant”'
+    claim: 'Veils most often indicated respectability; Rebekah veiled before Isaac; Leah probably veiled at her wedding'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'veils most often indicated respectability. Rebekah donned a veil before meeting Isaac (Genesis 24:65). Leah was probably veiled for her wedding to Jacob to disguise the fact that she was not Rachel (29:23–25).'
+  - where: 'note 38:14 “What a veil meant”'
+    claim: 'A Middle Assyrian law banned prostitutes from veils so they would not be mistaken for honorable women'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'harlots were expected to reveal their faces to clearly communicate who and what they were, as indicated by a Middle Assyrian law that banned prostitutes from wearing veils on penalty of punishment to prevent them from being mistaken as honorable women.'
+  - where: 'note 38:14 “What a veil meant”'
+    claim: 'The text does not call Tamar a harlot; Judah does'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'the text does not call Tamar a harlot—Judah did (Genesis 38:15).'
+  - where: 'note 38:14 “What a veil meant”'
+    claim: 'The Hebrew word for veil is tsa‘iph, the word used of Rebekah’s veil'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6809.htm'
+    quote: 'wrapper, shawl, or veil ; — absolute ׳ צ Genesis 24:65 ; Genesis 38:14 ; suffix צְעִיפָהּ Genesis 38:19'
+  - where: 'note 38:14 “What a veil meant”'
+    claim: 'Tamar veiled to conceal her identity; Judah likely took her for a harlot because of where she sat'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'Tamar veils herself not because veils were traditionally worn by harlots, but to conceal her identity from Judah.'
+  - where: 'note 38:14 “What a veil meant”'
+    claim: 'Harlots traditionally stationed themselves at crossroads or city entrances'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'Judah likely assumed she was a harlot because she was at a crossroads or city entrance, where harlots traditionally stationed themselves.'
+  - where: 'note 38:14 “What a veil meant”'
+    claim: 'The KJV’s “open place” is petach enayim, usually read as the entrance to Enaim, and can also be read “opening of the eyes”'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'most read enayim as a proper noun on the basis of verse 21 and Joshua 15:34, and then petach as either the crossroads leading to, or the opening/ entrance to the city Enaim.'
+  - where: 'note 38:14 “What a veil meant”'
+    claim: 'Petach enayim can be read literally as “opening of the eyes,” an irony: Judah sees her and does not see who she is'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'petach enayim can also be read quite literally as “opening of the eyes.” Here again is important irony. Judah will see and “know” (have intercourse with) Tamar, but he will not see and know (recognize) her.'
+  - where: 'note 38:14 “What a veil meant”'
+    claim: 'The Hebrew in 38:14 is “in the entrance of Enaim”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/38-14.htm'
+    quote: 'בְּפֶ֣תַח in the entrance … עֵינַ֔יִם of Enaim'
+  - where: 'note 38:21 “Two words for the woman who was not there”'
+    claim: 'Judah’s word in 38:15 is zonah (“a prostitute”)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/38-15.htm'
+    quote: 'לְזוֹנָ֑ה for a prostitute Prep‑l ¦ N‑fs'
+  - where: 'note 38:21 “Two words for the woman who was not there”'
+    claim: 'Hirah’s word in 38:21 is haqqedeshah (“the temple prostitute”)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/38-21.htm'
+    quote: 'haq·qə·ḏê·šāh הַקְּדֵשָׁ֛ה the temple prostitute Art ¦ Adj‑fs'
+  - where: 'note 38:21 “Two words for the woman who was not there”'
+    claim: 'Deuteronomy 23:17 (Hebrew 23:18) uses qedeshah of the woman Israel was forbidden to have; the male is qadesh'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'לֹא תִהְיֶ֥ה קְדֵשָׁ֖ה מִ/בְּנ֣וֹת יִשְׂרָאֵ֑ל וְ/לֹֽא יִהְיֶ֥ה קָדֵ֖שׁ מִ/בְּנֵ֥י יִשְׂרָאֵל'
+  - where: 'note 38:21 “Two words for the woman who was not there”'
+    claim: 'The qedeshah is a hierodule, a woman sacred to a Canaanite goddess, the “most respectable designation” for public prostitutes in Canaan'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/38.htm'
+    quote: 'lit., "the consecrated," i.e., the hierodule, a woman sacred to Astarte, a goddess of the Canaanites'
+  - where: 'note 38:21 “Two words for the woman who was not there”'
+    claim: 'The commentary calls it the most respectable designation for public prostitutes in Canaan'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/38.htm'
+    quote: 'This was no doubt regarded as the most respectable designation for public prostitutes in Canaan.'
+
+  # ---------- note 38:18 “From pledge to surety” ----------
+  - where: 'note 38:18 “From pledge to surety”'
+    claim: 'The KJV’s “bracelets” is pethilim, “cords”; the lexicon glosses it “cord (from which seal was hung)” at 38:18 and 25'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6616.htm'
+    quote: 'cord (from which seal was hung) Genesis 38:18 ,25'
+  - where: 'note 38:18 “From pledge to surety”'
+    claim: 'The Hebrew in 38:18 is pethilekha (“your cord”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'חֹתָֽמְ/ךָ֙ וּ/פְתִילֶ֔/ךָ וּ/מַטְּ/ךָ֖ אֲשֶׁ֣ר בְּ/יָדֶ֑/ךָ'
+  - where: 'note 38:18 “From pledge to surety”'
+    claim: 'The seal was a cylinder seal for legal identification, and the staff would have borne personal markings'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Speiser explains that Judah gave Tamar his “seal on the cord,” which was a cylinder seal used for legal identification, and that his staff would have also contained personalized markings.'
+  - where: 'note 38:18 “From pledge to surety”'
+    claim: 'Tamar secured items that would clearly identify Judah as the father if she conceived'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'thus securing items that would have clearly identified Judah as the father if she succeeded in conceiving.'
+  - where: 'note 38:18 “From pledge to surety”'
+    claim: 'The pledge is the Near Eastern equivalent of a wallet with identification'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'Judah is handing over the Near Eastern equivalent of a wallet with driver’s license and credit cards—identification that will later enable Tamar to establish her innocence.'
+  - where: 'note 38:18 “From pledge to surety”'
+    claim: 'Handing over the items for a promised goat shows a serious, apparently temporary, lapse of control'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'That Judah agrees to turn these items over, in spite of the potential problems, attests further to a serious (but apparently temporary) lapse of control over his physical appetite.'
+  - where: 'note 38:18 “From pledge to surety”'
+    claim: '‘erabon, “pledge,” in 38:17, 18, 20'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6162.htm'
+    quote: 'pledge ; — ׳ נָתַן ע give a pledge Genesis 38:17 ,18, ׳ לָקַח ע Genesis 38:20'
+  - where: 'note 38:18 “From pledge to surety”'
+    claim: 'The Hebrew of 38:18 has ha‘erabon (“the pledge”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/יֹּֽאמֶר מָ֣ה הָֽ/עֵרָבוֹן֮ אֲשֶׁ֣ר אֶתֶּן לָּ/ךְ'
+  - where: 'note 38:18 “From pledge to surety”'
+    claim: 'The Hebrew of 43:9 has e‘erbennu (“I will be surety for him”) from the root ‘-r-b'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אָֽנֹכִי֙ אֶֽעֶרְבֶ֔/נּוּ מִ/יָּדִ֖/י תְּבַקְשֶׁ֑/נּוּ'
+  - where: 'note 38:18 “From pledge to surety”'
+    claim: 'The Hebrew of 44:32 has ‘arab (“became surety”) from the same root'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'כִּ֤י עַבְדְּ/ךָ֙ עָרַ֣ב אֶת הַ/נַּ֔עַר מֵ/עִ֥ם אָבִ֖/י'
+  - where: 'note 38:18 “From pledge to surety”'
+    claim: 'The verb ‘arab means “go surety for the safety of,” with Gen. 43:9 and 44:32 as examples'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6148.htm'
+    quote: 'with accusative of person taken on pledge , i.e. go surety for the safety of, Genesis 43:9 (J), Genesis 44:32'
+  - where: 'note 38:18 “From pledge to surety”'
+    claim: 'The verb ‘arab (root ‘-r-b) is glossed “take on pledge, give in pledge”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6148.htm'
+    quote: 'II. עָרַב verb take on pledge, give in pledge, exchange'
+  - where: 'note 38:18 “From pledge to surety”'
+    claim: 'The manual contrasts Judah who suggested selling Joseph with Judah as surety for Benjamin'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'It is significant that Judah, who suggested that Joseph be sold (see Genesis 37:26–27), became the one who was willing to become “the surety” for Benjamin.'
+  - where: 'note 38:18 “From pledge to surety”'
+    claim: 'Judah moves from offering tokens of himself to pay a prostitute to offering himself as pledge for his family'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'Judah progresses from selfishness (offering tokens of himself as a pledge to pay a prostitute) to selflessness and redemption in the Joseph story'
+
+  # ---------- note 38:24 “By what right did Judah sentence her?” ----------
+  - where: 'note 38:24 “By what right did Judah sentence her?”'
+    claim: 'Tamar was still responsible to Judah as head of her husband’s family, and he sentenced her as head of Er’s clan'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Even though she lived with her own father, by law Tamar was still responsible to Judah, the head of her husband’s family.'
+  - where: 'note 38:24 “By what right did Judah sentence her?”'
+    claim: 'Judah sentenced Tamar as head of Er’s clan and protector of the family’s honor'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'As head of Er’s clan and protector of the family’s honor, Judah therefore sentenced Tamar to be burned.'
+  - where: 'note 38:24 “By what right did Judah sentence her?”'
+    claim: 'The later law specifies stoning except for a priest’s daughter (Lev. 21:9; Deut. 22:21); whether burning was unusual in Judah’s day is speculation'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'Scholars speculate on whether being burned was out of the ordinary at this time. The Torah later specifies stoning, unless the woman is a daughter of a priest'
+  - where: 'note 38:24 “By what right did Judah sentence her?”'
+    claim: 'Judah applies a double standard: he visited a zonah but condemns her for acting as one'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'Judah clearly applies a double standard by having visited a zonah (harlot) but condemning his daughter-in-law for having acted as one.'
+
+  # ---------- note 38:25 “The same words as chapter 37” ----------
+  - where: 'note 38:25 “The same words as chapter 37”'
+    claim: 'The two scenes use the identical Hebrew request; the lexicon lists both verses under nakar “regard, observe, especially with a view to recognition”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5234.htm'
+    quote: 'regard, observe , especially with a view to recognition, with object clause, Genesis 31:32 ; Genesis 37:32 ; Genesis 38:25'
+  - where: 'note 38:25 “The same words as chapter 37”'
+    claim: 'In 37:31 the goat is se‘ir izzim; in 38:17 it is gedi izzim (different Hebrew nouns)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַֽ/יִּשְׁחֲטוּ֙ שְׂעִ֣יר עִזִּ֔ים'
+  - where: 'note 38:25 “The same words as chapter 37”'
+    claim: 'In 38:17 the promised payment is gedi izzim'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אָנֹכִ֛י אֲשַׁלַּ֥ח גְּדִֽי עִזִּ֖ים מִן הַ/צֹּ֑אן'
+  - where: 'note 38:25 “The same words as chapter 37”'
+    claim: 'Judah being deceived in his turn may have led him to rethink his past; it is impossible to know for sure'
+    key: sc-knowhy-841
+    url: 'https://scripturecentral.org/knowhy/why-is-the-judah-and-tamar-story-in-the-middle-of-the-joseph-story'
+    quote: 'But perhaps the reader is meant to assume that when he himself is deceived during the Tamar story, it caused him to rethink his past actions.'
+  - where: 'note 38:25 “The same words as chapter 37”'
+    claim: 'The change in Judah is offered as a possible reading, and it is impossible to know for sure'
+    key: sc-knowhy-841
+    url: 'https://scripturecentral.org/knowhy/why-is-the-judah-and-tamar-story-in-the-middle-of-the-joseph-story'
+    quote: 'It is impossible to know for sure how to understand Judah’s actions in the narrative'
+  - where: 'note 38:26 “In the right, not blameless”'
+    claim: 'The verb tsadeqah means “have a just cause, be in the right,” listed with 38:26 of Tamar'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6663.htm'
+    quote: 'have a just cause, be in the right , Job 9:15,20 ; Job 13:18 ; Job 34:5 ; in complaint Job 33:12 ; with מִן person Genesis 38:26 (J; of Tamar)'
+  - where: 'note 38:26 “In the right, not blameless”'
+    claim: 'The Hebrew of 38:26 is tsadeqah mimmenni'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/יַּכֵּ֣ר יְהוּדָ֗ה וַ/יֹּ֨אמֶר֙ צָֽדְקָ֣ה מִמֶּ֔/נִּי כִּֽי עַל כֵּ֥ן לֹא נְתַתִּ֖י/הָ לְ/שֵׁלָ֣ה בְנִ֑/י'
+  - where: 'note 38:26 “In the right, not blameless”'
+    claim: 'The Church: Judah admitted his sin'
+    key: scripture-helps-gen-37-41
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/10-genesis-37-41?lang=eng'
+    quote: 'Judah admitted his sin and declared, “She hath been more righteous than I.”'
+  - where: 'note 38:26 “In the right, not blameless”'
+    claim: 'The Church: Tamar’s motives may have been good, but the deceptive means and subsequent immorality were wrong'
+    key: scripture-helps-gen-37-41
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/10-genesis-37-41?lang=eng'
+    quote: 'Although Tamar’s motives to have children with Judah, who was responsible for her, may have been good, the deceptive means and subsequent immorality were wrong.'
+  - where: 'note 38:26 “In the right, not blameless”'
+    claim: 'The text does not state that Tamar was right or wrong'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'nor does the text state she was right or wrong in what follows.'
+  - where: 'note 38:26 “In the right, not blameless”'
+    claim: 'Judah’s change of heart: greater concern for what God thought than for what his neighbors thought'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Judah experienced a change of heart to sense a greater concern for what God thought of him than for what his neighbors thought of him.'
+  - where: 'note 38:26 “In the right, not blameless”'
+    claim: 'At verse 26 Judah honestly owned up to his fault'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Judah honestly owned up to his fault and declared, “She hath been more righteous than I” (38:26).'
+  - where: 'note 38:26 “In the right, not blameless”'
+    claim: 'At 38:23 Judah’s concern was to avoid ridicule (“let her keep the things, or we shall become a laughingstock”)'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'So Judah decided to forfeit his pledge and avoid public ridicule'
+
+  # ---------- note 38:29 “Perez, the one who broke through” ----------
+  - where: 'note 38:29 “Perez, the one who broke through”'
+    claim: 'Perets means “bursting forth, breach,” and 38:29 is the example of a birth'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6556.htm'
+    quote: 'bursting forth, breach ; absolute ׳ פ Judges 21:15 +, מָּ֑רֶץ Genesis 38:29 +'
+  - where: 'note 38:29 “Perez, the one who broke through”'
+    claim: 'The BDB entry lists Gen. 38:29 under “from womb”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6556.htm'
+    quote: '1 bursting forth, out burst , of water 2 Samuel 5:20 = 1 Chronicles 14:11 ; from womb Genesis 38:29'
+  - where: 'note 38:29 “Perez, the one who broke through”'
+    claim: 'The midwife’s words: “What a breach hast thou made for thy part? Upon thee the breach”; Perez is “breaking through by pressing forward”; Zerah means exit, rising, because he sought to appear first; the scarlet thread marks the firstborn'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/38.htm'
+    quote: 'Then she (the midwife) said, What a breach hast thou made for thy part? Upon thee the breach;'
+  - where: 'note 38:29 “Perez, the one who broke through”'
+    claim: 'Perez means breaking through by pressing forward; Zerah means rising, because he sought to appear first, though Perez was the firstborn'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/38.htm'
+    quote: 'Then the other one with the scarlet thread came into the world, and was named Zerah (זרח exit, rising), because he sought to appear first, whereas in fact Perez was the first-born'
+  - where: 'note 38:29 “Perez, the one who broke through”'
+    claim: 'The scarlet thread marked the child as firstborn'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/38.htm'
+    quote: 'round which the midwife tied a scarlet thread, to mark this as the first-born.'
+  - where: 'note 38:29 “Perez, the one who broke through”'
+    claim: 'Perez is placed before Zerah in the lists of Gen. 46:12 and Num. 26:20'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/38.htm'
+    quote: 'is even placed before Zerah in the lists in Genesis 46:12; Numbers 26:20.'
+
+  # ---------- note 38:29 “Tamar and Perez in the line of Christ” ----------
+  - where: 'note 38:29 “Tamar and Perez in the line of Christ”'
+    claim: 'The Church: through Pharez, Tamar becomes an ancestor of Jesus Christ'
+    key: scripture-helps-gen-37-41
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/10-genesis-37-41?lang=eng'
+    quote: 'Through her son Pharez, Tamar would become an ancestor of Jesus Christ.'
+  - where: 'note 38:29 “Tamar and Perez in the line of Christ”'
+    claim: 'Tamar is one of four women named in Matthew’s genealogy; a plausible reason is that each had an irregular marital history and showed initiative in carrying out God’s plan, making them types of Mary'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Tamar is one of only four women named in the genealogy that introduces the reader to Mary, the mother of Jesus. The other three are Rahab, Ruth, and Bathsheba.'
+  - where: 'note 38:29 “Tamar and Perez in the line of Christ”'
+    claim: 'A plausible reason for the four women: irregular marital history and initiative in God’s plan, making them types of Mary'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'A plausible explanation for this unusual inclusion is that each of these four women combine two elements that make them types of Mary, the mother of Jesus: (1) they experienced an irregular marital history that could be misjudged as scandalous by outsiders and (2) each woman showed initiative in carrying out God’s plan'
+  - where: 'setting'
+    claim: 'Later scripture remembers Tamar through Pharez: the people of Bethlehem blessed Ruth with the house of Pharez'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Centuries after she joined with Jacob’s clan, Tamar’s descendants noted her lasting contribution to set aright Judah and his family.'
+
+  # ---------- christ / explore ----------
+  - where: 'christ'
+    claim: 'Tamar led Judah to face his own deceit'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Because Tamar led him to face his own deceit'
+  - where: 'explore'
+    claim: 'Genesis 38 contrasts Judah’s immorality with Joseph’s righteousness in refusing Potiphar’s wife (Gen. 39)'
+    key: scripture-helps-gen-37-41
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/10-genesis-37-41?lang=eng'
+    quote: 'This account provides a contrast between Judah’s immorality and Joseph’s righteousness in refusing the advances of Potiphar’s wife recorded in'
+  - where: 'explore'
+    claim: 'The levirate custom is spoken of in Matt. 22:23–33 and forms a major aspect of the story of Ruth (Ruth 4:1–12)'
+    key: bd-levirate-marriage
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/levirate-marriage?lang=eng'
+    quote: 'is spoken of in Matt. 22:23–33; it also forms a major aspect of the story of Ruth (Ruth 4:1–12).'
+  - where: 'explore'
+    claim: 'The Bible Dictionary lists Gen. 49:8–12 among the passages on Judah'
+    key: bd-judah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/judah?lang=eng'
+    quote: 'Fourth son of Jacob and Leah (Gen. 29:35; 37:26–27; 43:3, 8; 44:16; 49:8–12; Deut. 33:7).'
+  - where: 'explore'
+    claim: 'KnoWhy #841 sets out the echo between Genesis 37 and 38 (and ancient readers’ notice of it)'
+    key: sc-knowhy-841
+    url: 'https://scripturecentral.org/knowhy/why-is-the-judah-and-tamar-story-in-the-middle-of-the-joseph-story'
+    quote: 'a significant phrase binds the narratives together.'
+  - where: 'explore'
+    claim: 'Spackman’s article on the story of Judah and Tamar sets out the literary links between Genesis 37, 38, and 39'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'the presence of several literary themes common to Genesis 37 and 39 (extending further into the Joseph story in some cases) demonstrates the deliberate and skillful placement of this episode.'
