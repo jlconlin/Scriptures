@@ -18,7 +18,7 @@ The goal is a chapter that **needs no audit afterward**: every factual claim res
 
 ## 2. Read, ask, then seek
 
-1. **Read the chapter** (`node scripts/show.mjs <book> <n>` prints it, or `data/kjv/<book>.json`). Read it through more than once.
+1. **Read the chapter** (`node scripts/show.mjs <book> <n>` prints it, or `data/kjv/<book>.json`). Read it through more than once. Then see what the Gospel Library already has beside it: `node scripts/footnotes.mjs <book> <n>` prints the Church's chapter heading, the footnotes by verse (the Joseph Smith Translation readings marked), and the *Scripture Helps* chapter with its endnotes, so a note doesn't repeat them and the endnotes can point you to sources.
 2. **Write down the questions** a careful reader would ask: what does this word mean, who is speaking, what happened here, why does the Book of Mormon (or another scripture) read differently, where else is this quoted, where is Christ. Put the author's focus questions first. Do this **before any research**. These questions decide which phrases you highlight. Find the chapter's thread.
 3. **Only then research**, to answer those questions. Don't go looking for material to fill notes, and don't carry over what a source happens to cover: the site is selective, not comprehensive. Every note must answer one of your questions; a note that doesn't gets cut.
 
@@ -26,7 +26,7 @@ The goal is a chapter that **needs no audit afterward**: every factual claim res
 
 Write `content/<book>/evidence/NN.yaml` (two-digit chapter number) in the format in `STANDARDS.md` as you go, not afterward:
 
-- **Fetch pages with `curl` in Bash** (`curl -sL '<url>' | sed 's/<[^>]*>//g' | grep …`), as described in `STANDARDS.md` §9. Copy quotes from that output. If a site fails twice, stop trying it and note it for your report; don't probe other domains for a way around.
+- **Read pages with `node scripts/source.mjs '<url>'`** (`STANDARDS.md` §9). It prints the page's own text, so a quote copied from its output is verbatim. Search the page with `--find "words"` and read only the paragraphs you need (`--para 12-20`, `--notes`); don't read a whole page, and a page another agent read an hour ago is already cached. `curl` is the fallback for a page it reads badly. For the Hebrew, `node scripts/hebrew.mjs <book> <c>:<v>` gives a verse's words with their Strong's numbers, and `--word <strongs>` every verse in the book that has a word (for “occurs only here”). If a site fails twice, stop trying it and note it for your report; don't probe other domains for a way around.
 - Add a row the moment you read something you will use: `where`, `claim`, `key`, `url` (the exact page), `quote` (copied verbatim from that page, about 40 words at most; “…” for elisions).
 - **Cite the work, not the website** (`STANDARDS.md` §4 rule 3). Prefer the primary texts (Hebrew, Septuagint, scrolls, scripture) to a commentary that reports them; a note resting only on scripture cites `lds-scriptures`.
 - One source per row. If you intend to cite a source that isn't in `sources.yaml`, make up a sensible key in the file's style (`sc-knowhy-123`, `bd-jeremiah`) and use it; list it as a proposed entry in your report.
