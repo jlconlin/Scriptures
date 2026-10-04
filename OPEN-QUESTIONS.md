@@ -11,6 +11,7 @@ Everything that waits for the author, for every book and for the site, in this o
 
 Not questions, but most of the questions below are easier after reading.
 
+- **Malachi:** being written (four chapters), as a test of the new arrangement; in preview only.
 - **Genesis:** all 50 chapters, in preview only. Chapters 1–26 were written by Opus and 27–50 by Sonnet (see S2).
 - **Jeremiah:** all 52 chapters and the five theme pages, live since 2026-10-02 and 03.
 - **Isaiah:** four of the five theme pages (the new exodus and the highway; Zion and her husband; light; the servants section of the Servant Songs page), live.
@@ -33,6 +34,10 @@ Not questions, but most of the questions below are easier after reading.
 - **J2. The new covenant page, last section.** It follows the manuals and Joseph Smith's 1833 letter: the covenant was offered by Christ, rejected then, and is offered again in the Restoration. Is that the emphasis you want, or should the page stop at Hebrews and the Last Supper?
 
 (Ten chapter-level items were settled on 2026-10-04; they are listed in `content/jeremiah/BRIEF.md`, “Decided while writing,” where you can overturn any of them.)
+
+## Malachi
+
+- **M1. A Book of Mormon comparison for Malachi 3–4?** The Savior quoted both chapters to the Nephites (3 Ne. 24–25), and ten verses differ in a word or two (“Sun of righteousness” is “Son of Righteousness” in 3 Ne. 25:2). Isaiah's chapters show such differences in a panel beside the verse. For Malachi none was built, by your rule against replicating the Gospel Library; the differences come into a note only where they answer a reader's question. Add the panel, as Isaiah has it? (The differences are already listed in `content/malachi/BRIEF.md`, so it is a small job.)
 
 ## Isaiah
 
