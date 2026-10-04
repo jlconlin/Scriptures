@@ -1,0 +1,812 @@
+chapter: 43
+claims:
+  - where: 'setting'
+    claim: 'Ten of Jacob’s sons went down to Egypt on the first journey (Benjamin stayed home)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'And Joseph’s ten brethren went down to buy corn in Egypt.'
+  - where: 'setting'
+    claim: 'On the first journey the brothers bowed to Joseph before they knew him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'Joseph’s brethren came, and bowed down themselves before him with their faces to the earth.'
+  - where: 'setting'
+    claim: 'Joseph called them spies'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'Ye are spies; to see the nakedness of the land ye are come.'
+  - where: 'setting'
+    claim: 'Joseph kept Simeon bound'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'took from them Simeon, and bound him before their eyes'
+  - where: 'setting'
+    claim: 'Joseph had their money restored into their sacks'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'to restore every man’s money into his sack'
+  - where: 'setting'
+    claim: 'Jacob refused to let Benjamin go'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'My son shall not go down with you'
+  - where: 'setting'
+    claim: 'Chapter 43 and chapter 44 form one continuous story'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/43.htm'
+    quote: 'This and the following chapter form a continuous story'
+  - where: 'setting'
+    claim: 'Stephen calls the second visit the time Joseph was made known to his brethren'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/7?lang=eng'
+    quote: 'And at the second time Joseph was made known to his brethren'
+  - where: 'setting'
+    claim: 'In chapters 42–45 Joseph tested his brothers several times before revealing his identity'
+    key: scripture-helps-gen-42-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/11-genesis-42-50?lang=eng'
+    quote: 'In Genesis 42–45, Joseph tested his brothers several times before revealing his identity.'
+  - where: 'when'
+    claim: 'The seven years of famine began after the seven plentiful years'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng'
+    quote: 'the seven years of dearth began to come'
+  - where: 'when'
+    claim: 'When Joseph revealed himself the famine had lasted two years, so chapters 42–44 fall within the first two'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/45?lang=eng'
+    quote: 'For these two years hath the famine been in the land'
+  - where: 'thread'
+    claim: 'Jacob’s prayer in verse 14 asks God to give “rachamim” before the man (Hebrew)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וְ/אֵ֣ל שַׁדַּ֗י יִתֵּ֨ן לָ/כֶ֤ם רַחֲמִים֙ לִ/פְנֵ֣י הָ/אִ֔ישׁ'
+  - where: 'thread'
+    claim: 'In verse 30 the word for Joseph’s compassion is the same word (rachamav)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'כִּֽי נִכְמְר֤וּ רַחֲמָי/ו֙ אֶל אָחִ֔י/ו'
+  - where: 'thread'
+    claim: 'BDB lists both Genesis 43:14 and 43:30 under rachamim, “compassion”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7356.htm'
+    quote: 'compassion'
+  - where: 'thread'
+    claim: 'In chapter 37 the brothers could not speak peaceably (le-shalom) to Joseph'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/37?lang=eng'
+    quote: 'and could not speak peaceably unto him'
+  - where: 'thread'
+    claim: 'Hebrew of 37:4 has shalom'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וְ/לֹ֥א יָכְל֖וּ דַּבְּר֥/וֹ לְ/שָׁלֹֽם'
+  - where: 'thread'
+    claim: 'The steward says shalom to the brothers in 43:23'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/יֹּאמֶר֩ שָׁל֨וֹם לָ/כֶ֜ם אַל תִּירָ֗אוּ'
+  - where: 'thread'
+    claim: 'Joseph asks after their shalom and their father’s shalom in 43:27'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/יִּשְׁאַ֤ל לָ/הֶם֙ לְ/שָׁל֔וֹם וַ/יֹּ֗אמֶר הֲ/שָׁל֛וֹם אֲבִי/כֶ֥ם הַ/זָּקֵ֖ן'
+  - where: 'thread'
+    claim: 'In chapter 37 Judah proposed selling Joseph'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/37?lang=eng'
+    quote: 'let us sell him to the Ishmeelites'
+  - where: 'thread'
+    claim: 'God is named in verse 14 by Jacob'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/43?lang=eng'
+    quote: 'And God Almighty give you mercy before the man'
+  - where: 'thread'
+    claim: 'God is named in verse 23 by the steward'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/43?lang=eng'
+    quote: 'your God, and the God of your father, hath given you treasure in your sacks'
+  - where: 'thread'
+    claim: 'God is named in verse 29 by Joseph'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/43?lang=eng'
+    quote: 'God be gracious unto thee, my son.'
+  - where: 'thread'
+    claim: 'The brothers bow to Joseph in verses 26 and 28'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/43?lang=eng'
+    quote: 'bowed themselves to him to the earth'
+  - where: 'thread'
+    claim: 'Judah, who suggested that Joseph be sold, is the one who becomes surety for Benjamin'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'It is significant that Judah, who suggested that Joseph be sold (see Genesis 37:26–27), became the one who was willing to become “the surety” for Benjamin.'
+  - where: 'thread'
+    claim: 'When the brothers bow in 43:28 the dreams are fulfilled'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'It had taken over two decades, but the Lord’s revelations were now fulfilled.'
+  - where: 'thread'
+    claim: 'In Genesis 40–50 God is referred to almost always by the characters, not by the narrator'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/37.htm'
+    quote: 'In every other instance in which God is referred to in Genesis 40-50, it is always by the persons concerned'
+  - where: 'note 43:3 “Why Judah speaks”'
+    claim: 'Reuben offered his two sons as a pledge'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'Slay my two sons, if I bring him not to thee: deliver him into my hand, and I will bring him to thee again.'
+  - where: 'note 43:3 “Why Judah speaks”'
+    claim: 'Jacob refused Reuben'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'My son shall not go down with you; for his brother is dead'
+  - where: 'note 43:3 “Why Judah speaks”'
+    claim: 'Birth order: Reuben, Simeon, Levi, Judah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/29?lang=eng'
+    quote: 'And she conceived again, and bare a son; and said, Now this time will my husband be joined unto me, because I have born him three sons: therefore was his name called Levi. And she conceived again, and bare a son: and she said, Now will I praise the Lord: therefore she called his name Judah'
+  - where: 'note 43:3 “Why Judah speaks”'
+    claim: 'Simeon was bound in Egypt'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'took from them Simeon, and bound him before their eyes'
+  - where: 'note 43:3 “Why Judah speaks”'
+    claim: 'Simeon and Levi killed the males of Shechem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/34?lang=eng'
+    quote: 'Simeon and Levi, Dinah’s brethren, took each man his sword, and came upon the city boldly, and slew all the males.'
+  - where: 'note 43:3 “Why Judah speaks”'
+    claim: 'Jacob later cursed the anger of Simeon and Levi'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/49?lang=eng'
+    quote: 'Cursed be their anger, for it was fierce; and their wrath, for it was cruel'
+  - where: 'note 43:3 “Why Judah speaks”'
+    claim: 'Judah spoke because Reuben had been refused and Levi had forfeited his father’s confidence (one commentary’s inference)'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/43.htm'
+    quote: 'Judah undertook the consultation with his father about Benjamin''s going, because Reuben, the eldest son, had already been refused, and Levi, who followed Reuben and Simeon, had forfeited his father''s confidence through his treachery to the Shechemites'
+  - where: 'note 43:3 “Why Judah speaks”'
+    claim: 'Judah is described as a natural leader among the sons of Jacob'
+    key: bd-judah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/judah?lang=eng'
+    quote: 'he was a natural leader among the sons of Jacob'
+  - where: 'note 43:3 “Why Judah speaks”'
+    claim: 'Judah proposed selling Joseph to the Ishmeelites'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/37?lang=eng'
+    quote: 'Come, and let us sell him to the Ishmeelites, and let not our hand be upon him'
+  - where: 'note 43:7 “Did Joseph ask, or did they tell?”'
+    claim: 'In chapter 42 the brothers volunteered the information about the family'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'Thy servants are twelve brethren, the sons of one man in the land of Canaan; and, behold, the youngest is this day with our father'
+  - where: 'note 43:7 “Did Joseph ask, or did they tell?”'
+    claim: 'The questions Joseph would put and the brothers’ frank answers (Ellicott)'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/43.htm'
+    quote: 'Joseph, anxious to know about his father and brother, would certainly put numerous questions to them concerning their home and family. And they would answer them fully and frankly, little suspecting who was the questioner'
+  - where: 'note 43:7 “Did Joseph ask, or did they tell?”'
+    claim: 'The Cambridge Bible calls verse 7 independent of 42:13'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/43.htm'
+    quote: 'This verse is evidently independent of Genesis 42:13 (E), where the information was voluntarily given by the brethren in proof of their sincerity.'
+  - where: 'note 43:7 “Did Joseph ask, or did they tell?”'
+    claim: 'The Cambridge Bible puts Jacob’s silence about Simeon down to the change from E to J'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/43.htm'
+    quote: 'That Jacob seems to forget about Simeon, is due to the change from the E to the J narrative.'
+  - where: 'note 43:7 “Did Joseph ask, or did they tell?”'
+    claim: 'The Cambridge Bible takes the chapter from the J narrative, which the Compiler harmonizes with E'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/43.htm'
+    quote: 'This chapter is taken from the J narrative, which the Compiler harmonizes with E'
+  - where: 'note 43:7 “Did Joseph ask, or did they tell?”'
+    claim: 'Moses used several documentary sources for Genesis'
+    key: bd-pentateuch
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/pentateuch?lang=eng'
+    quote: 'The Pentateuch was written by Moses, although it is evident that he used several documentary sources from which he compiled the book of Genesis'
+  - where: 'note 43:7 “Did Joseph ask, or did they tell?”'
+    claim: 'The account in chapter 43 explains and supplements chapter 42’s; accused of spying, the brothers would naturally give an account of themselves'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/43.htm'
+    quote: 'But really this history must be taken as explaining and supplementing the former. Accused of being spies, they would naturally give an account of themselves'
+  - where: 'note 43:9 “Judah offers himself”'
+    claim: 'Reuben offered his sons’ lives'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'Slay my two sons, if I bring him not to thee'
+  - where: 'note 43:9 “Judah offers himself”'
+    claim: 'Hebrew of 43:9 is “and I shall have sinned against you all the days”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וְ/הִצַּגְתִּ֣י/ו לְ/פָנֶ֔י/ךָ וְ/חָטָ֥אתִֽי לְ/ךָ֖ כָּל הַ/יָּמִֽים'
+  - where: 'note 43:9 “Judah offers himself”'
+    claim: 'The Revised Version’s margin gives the literal rendering “I shall have sinned against thee for ever”'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/43.htm'
+    quote: 'R.V. marg. gives the literal rendering I shall have sinned against thee for ever'
+  - where: 'note 43:9 “Judah offers himself”'
+    claim: 'Standing in his father’s presence as one guilty of a grievous crime would be no slight matter'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/43.htm'
+    quote: 'nor would it be a slight matter to stand in his father’s presence all the rest of his life as one guilty of a grievous crime.'
+  - where: 'note 43:9 “Judah offers himself”'
+    claim: 'Jacob said “that we may live, and not die” in 42:2 (Hebrew)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'רְדוּ שָׁ֨מָּ/ה֙ וְ/שִׁבְרוּ לָ֣/נוּ מִ/שָּׁ֔ם וְ/נִחְיֶ֖ה וְ/לֹ֥א נָמֽוּת'
+  - where: 'note 43:9 “Judah offers himself”'
+    claim: 'Judah said the same Hebrew words in 43:8'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'שִׁלְחָ֥/ה הַ/נַּ֛עַר אִתִּ֖/י וְ/נָק֣וּמָה וְ/נֵלֵ֑כָה וְ/נִֽחְיֶה֙ וְ/לֹ֣א נָמ֔וּת'
+  - where: 'note 43:9 “Judah offers himself”'
+    claim: 'Lexicon: “take on pledge, give in pledge,” and, of a person, “go surety for the safety of” (43:9; 44:32)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6148.htm'
+    quote: 'take on pledge, give in pledge, exchange'
+  - where: 'note 43:9 “Judah offers himself”'
+    claim: 'Lexicon: with accusative of person, go surety for the safety of, Genesis 43:9 and 44:32'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6148.htm'
+    quote: 'taken on pledge , i.e. go surety for the safety of , Genesis 43:9 (J), Genesis 44:32'
+  - where: 'note 43:9 “Judah offers himself”'
+    claim: 'Lexicon: the verb is used of God at Isaiah 38:14 and Psalm 119:122'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6148.htm'
+    quote: 'of God Isaiah 38:14 go surety for me , Psalm 119:122'
+  - where: 'note 43:9 “Judah offers himself”'
+    claim: 'Psalm 119:122 asks God to be surety'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/119?lang=eng'
+    quote: 'Be surety for thy servant for good'
+  - where: 'note 43:9 “Judah offers himself”'
+    claim: 'Isaiah 38:14 says “undertake for me”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/38?lang=eng'
+    quote: 'O Lord, I am oppressed; undertake for me.'
+  - where: 'note 43:9 “Judah offers himself”'
+    claim: 'The noun for the pledge Judah left with Tamar is erabon (38:17)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/תֹּאמֶר אִם תִּתֵּ֥ן עֵרָב֖וֹן עַ֥ד שָׁלְחֶֽ/ךָ'
+  - where: 'note 43:9 “Judah offers himself”'
+    claim: 'Lexicon: erabon, pledge, Genesis 38:17, 18, 20'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6162.htm'
+    quote: 'give a pledge Genesis 38:17'
+  - where: 'note 43:9 “Judah offers himself”'
+    claim: 'The verb in 43:9 is built on the same three letters (’-r-b)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אָֽנֹכִי֙ אֶֽעֶרְבֶ֔/נּוּ מִ/יָּדִ֖/י תְּבַקְשֶׁ֑/נּוּ'
+  - where: 'note 43:9 “Judah offers himself”'
+    claim: 'It is significant that Judah, who suggested that Joseph be sold, became the one willing to be surety for Benjamin'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'It is significant that Judah, who suggested that Joseph be sold (see Genesis 37:26–27), became the one who was willing to become “the surety” for Benjamin.'
+  - where: 'note 43:9 “Judah offers himself”'
+    claim: 'The offer is read as evidence of the brothers’ sincere repentance'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'There does seem to be evidence of sincere repentance on the brothers’ part, and Joseph’s stratagem allowed them to demonstrate this repentance.'
+  - where: 'note 43:9 “Judah offers himself”'
+    claim: 'Judah’s change of heart is shown to be complete in Genesis 44:33'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'When the pressure was on, Judah’s change of heart was shown to be complete (see Genesis 44:33).'
+  - where: 'note 43:11 “What Jacob sends”'
+    claim: 'Jacob had said “all these things are against me”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'Joseph is not, and Simeon is not, and ye will take Benjamin away: all these things are against me.'
+  - where: 'note 43:11 “What Jacob sends”'
+    claim: 'Hebrew of the gift: balm, honey, spices, myrrh (tsori, nekot, lot)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'מְעַט צֳרִי וּ/מְעַט דְּבַ֔שׁ נְכֹ֣את וָ/לֹ֔ט'
+  - where: 'note 43:11 “What Jacob sends”'
+    claim: 'Hebrew of 37:25: nekot, tsori, lot, going down to Egypt'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'נֹֽשְׂאִ֗ים נְכֹאת֙ וּ/צְרִ֣י וָ/לֹ֔ט הוֹלְכִ֖ים לְ/הוֹרִ֥יד מִצְרָֽיְמָ/ה'
+  - where: 'note 43:11 “What Jacob sends”'
+    claim: 'The caravan came from Gilead bearing spicery, balm, and myrrh to carry down to Egypt'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/37?lang=eng'
+    quote: 'a company of Ishmeelites came from Gilead with their camels bearing spicery and balm and myrrh, going to carry it down to Egypt'
+  - where: 'note 43:11 “What Jacob sends”'
+    claim: 'The brothers sold Joseph to that caravan'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/37?lang=eng'
+    quote: 'sold Joseph to the Ishmeelites for twenty pieces of silver: and they brought Joseph into Egypt.'
+  - where: 'note 43:14 “God Almighty”'
+    claim: 'The Lord introduced Himself to Abram as the Almighty God (El Shaddai)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng'
+    quote: 'I am the Almighty God; walk before me, and be thou perfect'
+  - where: 'note 43:14 “God Almighty”'
+    claim: 'Isaac blessed Jacob with “God Almighty”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/28?lang=eng'
+    quote: 'And God Almighty bless thee, and make thee fruitful, and multiply thee'
+  - where: 'note 43:14 “God Almighty”'
+    claim: 'God told Jacob “I am God Almighty: be fruitful and multiply; a nation and a company of nations”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'I am God Almighty: be fruitful and multiply; a nation and a company of nations shall be of thee'
+  - where: 'note 43:14 “God Almighty”'
+    claim: 'Jacob tells Joseph that God Almighty appeared at Luz and blessed him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/48?lang=eng'
+    quote: 'God Almighty appeared unto me at Luz in the land of Canaan, and blessed me'
+  - where: 'note 43:14 “God Almighty”'
+    claim: 'Hebrew of 43:14: El Shaddai; “and I, as I have been bereaved, I am bereaved”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וְ/אֵ֣ל שַׁדַּ֗י יִתֵּ֨ן לָ/כֶ֤ם רַחֲמִים֙ לִ/פְנֵ֣י הָ/אִ֔ישׁ וְ/שִׁלַּ֥ח לָ/כֶ֛ם אֶת אֲחִי/כֶ֥ם אַחֵ֖ר וְ/אֶת בִּנְיָמִ֑ין וַ/אֲנִ֕י כַּ/אֲשֶׁ֥ר שָׁכֹ֖לְתִּי שָׁכָֽלְתִּי'
+  - where: 'note 43:14 “God Almighty”'
+    claim: 'Jacob’s use of El Shaddai in the blessing at the second journey and at Joseph’s sons’ adoption is deliberate, because Jehovah had manifested Himself under that name'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/37.htm'
+    quote: 'so Jacob also, both in the blessing with which he sends his sons the second time to Egypt … and at the adoption of Joseph''s sons … uses the name El Shaddai … because Jehovah had manifested Himself not only to him'
+  - where: 'note 43:14 “God Almighty”'
+    claim: 'For such set discourses these titles were more significant and impressive than the simple name Jehovah'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/37.htm'
+    quote: 'In these set discourses the titles of God here mentioned were unquestionably more significant and impressive than the simple name Jehovah.'
+  - where: 'note 43:14 “God Almighty”'
+    claim: 'After Genesis 40:1 the name Jehovah almost entirely disappears, occurring only once in Genesis 40–50 (49:18, Jacob)'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/37.htm'
+    quote: 'after … the name Jehovah almost entirely disappears, occurring only once in … where Jacob uses it'
+  - where: 'note 43:14 “God Almighty”'
+    claim: 'The steward speaks of “your God, and the God of your father” in verse 23'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/43?lang=eng'
+    quote: 'your God, and the God of your father, hath given you treasure in your sacks'
+  - where: 'note 43:14 “God Almighty”'
+    claim: 'Joseph says “God be gracious unto thee” in verse 29'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/43?lang=eng'
+    quote: 'God be gracious unto thee, my son.'
+  - where: 'note 43:14 “God Almighty”'
+    claim: 'Jehovah had manifested Himself as El Shaddai to Jacob (35:11) and to his fathers Abraham and Isaac (17:1; 28:3)'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/37.htm'
+    quote: 'because Jehovah had manifested Himself not only to him (Genesis 35:11-12), but also to his fathers Abraham and Isaac (Genesis 17:1 and Genesis 28:3) as El Shaddai'
+  - where: 'note 43:14 “God Almighty”'
+    claim: 'Jacob’s last words are resigned submission; literally “And I, if I am bereaved, I am bereaved”'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/43.htm'
+    quote: 'and with this resigned submission to the will of God, "And I, if I am bereaved, I am bereaved," i.e., if I am to lose my children, let it be so!'
+  - where: 'note 43:14 “God Almighty”'
+    claim: 'In Genesis 40–50 the narrator mentions God only twice (46:1–2); otherwise God is referred to by the persons concerned'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/37.htm'
+    quote: 'in Genesis 40-50 he only mentions God twice, and then calls Him Elohim (Genesis 46:1-2)'
+  - where: 'note 43:14 “God Almighty”'
+    claim: 'In every other instance in Genesis 40–50 God is referred to by the persons concerned'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/37.htm'
+    quote: 'In every other instance in which God is referred to in Genesis 40-50, it is always by the persons concerned'
+  - where: 'note 43:16 “What changes when Joseph sees Benjamin”'
+    claim: 'Joseph said that bringing the youngest brother would verify their words'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'But bring your youngest brother unto me; so shall your words be verified, and ye shall not die.'
+  - where: 'note 43:16 “What changes when Joseph sees Benjamin”'
+    claim: 'Joseph had spoken roughly to them at first'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'made himself strange unto them, and spake roughly unto them'
+  - where: 'note 43:16 “What changes when Joseph sees Benjamin”'
+    claim: 'At the first visit Joseph saw neither Benjamin nor his father, and the question was whether his brothers had killed them (one reading)'
+    key: gee-clothes-cups
+    url: 'https://rsc.byu.edu/creation-sinai/clothes-cups'
+    quote: 'When his brothers initially appear before him, Joseph sees neither his full brother Benjamin, nor his father. Have his brothers killed those most dear to him?'
+  - where: 'note 43:16 “What changes when Joseph sees Benjamin”'
+    claim: 'Joseph seemed to be giving his brothers opportunities to prove they had changed'
+    key: scripture-helps-gen-42-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/11-genesis-42-50?lang=eng'
+    quote: 'Joseph seemed to be giving his brothers opportunities to prove that they had changed and would not betray Benjamin as they had betrayed him.'
+  - where: 'note 43:18 “Why the invitation frightens them”'
+    claim: 'The brothers confessed guilt concerning Joseph on the first journey'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'We are verily guilty concerning our brother, in that we saw the anguish of his soul'
+  - where: 'note 43:18 “Why the invitation frightens them”'
+    claim: 'On finding the money they asked what God had done to them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'What is this that God hath done unto us?'
+  - where: 'note 43:18 “Why the invitation frightens them”'
+    claim: 'Judah later says God has found out their iniquity'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/44?lang=eng'
+    quote: 'God hath found out the iniquity of thy servants'
+  - where: 'note 43:18 “Why the invitation frightens them”'
+    claim: 'Hebrew of 43:18: to roll upon us, to fall upon us, to take us as slaves'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'לְ/הִתְגֹּלֵ֤ל עָלֵ֨י/נוּ֙ וּ/לְ/הִתְנַפֵּ֣ל עָלֵ֔י/נוּ וְ/לָ/קַ֧חַת אֹתָ֛/נוּ לַ/עֲבָדִ֖ים'
+  - where: 'note 43:18 “Why the invitation frightens them”'
+    claim: '“Seek occasion” is literally “roll himself upon us”; the brothers suspect a trap to seize them on a false charge'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/43.htm'
+    quote: 'seek occasion] Heb. roll himself upon us. Cf. Job 30:14. Joseph’s brethren suspect that this act of favour is part of a trap to put them off their guard, and then suddenly seize them on a false charge.'
+  - where: 'note 43:18 “Why the invitation frightens them”'
+    claim: 'A thief who could not make restitution might be sold as a slave (Exodus 22:3)'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/43.htm'
+    quote: 'According to the old Hebrew law, a thief who failed to make restitution might be seized and sold for a slave (Exodus 22:3).'
+  - where: 'note 43:18 “Why the invitation frightens them”'
+    claim: 'Exodus 22:3: a thief with nothing is sold for his theft'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/22?lang=eng'
+    quote: 'if he have nothing, then he shall be sold for his theft'
+  - where: 'note 43:18 “Why the invitation frightens them”'
+    claim: 'In chapter 44 the brothers themselves name slavery as the penalty'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/44?lang=eng'
+    quote: 'both let him die, and we also will be my lord’s bondmen'
+  - where: 'note 43:18 “Why the invitation frightens them”'
+    claim: 'The brothers spoke to the steward at the door of the house, before entering'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/43.htm'
+    quote: 'Before crossing the threshold they wished to explain their innocence about the money.'
+  - where: 'note 43:23 “Who put the money in the sacks?”'
+    claim: 'Joseph commanded the money restored to the sacks'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'Then Joseph commanded to fill their sacks with corn, and to restore every man’s money into his sack'
+  - where: 'note 43:23 “Who put the money in the sacks?”'
+    claim: 'The brothers first asked what God had done to them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'What is this that God hath done unto us?'
+  - where: 'note 43:23 “Who put the money in the sacks?”'
+    claim: 'Hebrew of the steward’s words: “your silver came to me”; matmon'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אֱלֹהֵ֨י/כֶ֜ם וֵֽ/אלֹהֵ֤י אֲבִי/כֶם֙ נָתַ֨ן לָ/כֶ֤ם מַטְמוֹן֙ בְּ/אַמְתְּחֹתֵי/כֶ֔ם כַּסְפְּ/כֶ֖ם בָּ֣א אֵלָ֑/י'
+  - where: 'note 43:23 “Who put the money in the sacks?”'
+    claim: '“I had your money” is literally “your money came unto me”; their payments had been made; they were innocent'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/43.htm'
+    quote: 'Lit. “your money came unto me.”'
+  - where: 'note 43:23 “Who put the money in the sacks?”'
+    claim: 'Their payments had been made; they were innocent'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/43.htm'
+    quote: 'Their payments had duly been made; he had received them. They were innocent.'
+  - where: 'note 43:23 “Who put the money in the sacks?”'
+    claim: '“Peace be to you” is a formula of encouragement and reassurance'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/43.htm'
+    quote: 'Peace be to you] A formula of encouragement and reassurance'
+  - where: 'note 43:23 “Who put the money in the sacks?”'
+    claim: 'The brothers could not speak peaceably (shalom) to Joseph'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/37?lang=eng'
+    quote: 'and could not speak peaceably unto him'
+  - where: 'note 43:23 “Who put the money in the sacks?”'
+    claim: 'Joseph had told his steward what to say'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/43.htm'
+    quote: 'Joseph had evidently instructed his steward what to say.'
+  - where: 'note 43:23 “Who put the money in the sacks?”'
+    claim: 'Lexicon: matmon, hidden treasure; Genesis 43:23, of money in sacks'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4301.htm'
+    quote: 'noun masculine hidden treasure, treasure'
+  - where: 'note 43:28 “All eleven bow”'
+    claim: 'The second dream had the sun, moon, and eleven stars making obeisance'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/37?lang=eng'
+    quote: 'the sun and the moon and the eleven stars made obeisance to me'
+  - where: 'note 43:28 “All eleven bow”'
+    claim: 'On the first journey the brothers bowed with their faces to the earth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'bowed down themselves before him with their faces to the earth'
+  - where: 'note 43:28 “All eleven bow”'
+    claim: 'Only ten brothers came; Jacob did not send Benjamin'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'But Benjamin, Joseph’s brother, Jacob sent not with his brethren'
+  - where: 'note 43:28 “All eleven bow”'
+    claim: 'Joseph remembered his dreams on the first journey'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'And Joseph remembered the dreams which he dreamed of them'
+  - where: 'note 43:28 “All eleven bow”'
+    claim: 'Jacob’s question in 37:10: to bow down ourselves to thee to the earth (Hebrew lehishtachavot lekha artsah)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'לְ/הִשְׁתַּחֲוֺ֥ת לְ/ךָ֖ אָֽרְצָ/ה'
+  - where: 'note 43:28 “All eleven bow”'
+    claim: '43:26: vayyishtachavu lo artsah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/יִּשְׁתַּחֲווּ ל֖/וֹ אָֽרְצָ/ה'
+  - where: 'note 43:28 “All eleven bow”'
+    claim: '37:9: mishtachavim (made obeisance)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וְ/אַחַ֤ד עָשָׂר֙ כּֽוֹכָבִ֔ים מִֽשְׁתַּחֲוִ֖ים לִֽ/י'
+  - where: 'note 43:28 “All eleven bow”'
+    claim: '43:28: they bowed their heads and bowed down (vayyishtachavu)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַֽ/יִּקְּד֖וּ ו/ישתחו וַ/יִּֽשְׁתַּחֲוּֽוּ'
+  - where: 'note 43:28 “All eleven bow”'
+    claim: 'The phraseology of 43:28 is the same as 37:7, 9; the revelations were fulfilled'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'The phraseology in this verse is the same as that used in Genesis 37:7, 9. It had taken over two decades, but the Lord’s revelations were now fulfilled.'
+  - where: 'note 43:30 “Jacob’s word for mercy comes back”'
+    claim: 'Jacob prays for rachamim before the man (Hebrew)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'רַחֲמִים֙ לִ/פְנֵ֣י הָ/אִ֔ישׁ'
+  - where: 'note 43:30 “Jacob’s word for mercy comes back”'
+    claim: 'Joseph’s rachamim were kindled for his brother (Hebrew)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/יְמַהֵ֣ר יוֹסֵ֗ף כִּֽי נִכְמְר֤וּ רַחֲמָי/ו֙ אֶל אָחִ֔י/ו וַ/יְבַקֵּ֖שׁ לִ/בְכּ֑וֹת'
+  - where: 'note 43:30 “Jacob’s word for mercy comes back”'
+    claim: 'Lexicon: kamar, Niphal, grow warm and tender; subject rachamim; Genesis 43:30; 1 Kings 3:26; Hosea 11:8'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3648.htm'
+    quote: 'grow warm and tender'
+  - where: 'note 43:30 “Jacob’s word for mercy comes back”'
+    claim: 'Lexicon: rachamim, many derive it from rechem, womb; originally brotherhood, brotherly feeling, of those born from same womb; or motherly feeling'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7356.htm'
+    quote: 'according to many denominative from רֶחֶם , originally brotherhood, brotherly feeling, of those born from same womb'
+  - where: 'note 43:30 “Jacob’s word for mercy comes back”'
+    claim: 'Lexicon: rachamim, “motherly feeling”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7356.htm'
+    quote: 'or motherly feeling'
+  - where: 'note 43:30 “Jacob’s word for mercy comes back”'
+    claim: 'Joseph’s brother Benjamin is “his mother’s son” (verse 29)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אֶת בִּנְיָמִ֣ין אָחִי/ו֮ בֶּן אִמּ/וֹ֒'
+  - where: 'note 43:30 “Jacob’s word for mercy comes back”'
+    claim: 'Rachel bore Benjamin and died; “thou shalt have this son also”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'Fear not; thou shalt have this son also.'
+  - where: 'note 43:30 “Jacob’s word for mercy comes back”'
+    claim: 'The true mother in Solomon’s judgment: her bowels yearned upon her son'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/3?lang=eng'
+    quote: 'for her bowels yearned upon her son'
+  - where: 'note 43:30 “Jacob’s word for mercy comes back”'
+    claim: 'Hebrew of 1 Kings 3:26: nikhmeru rachameha al benah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/1Kgs.xml'
+    quote: 'כִּֽי נִכְמְר֣וּ רַחֲמֶי/הָ֮ עַל בְּנָ/הּ'
+  - where: 'note 43:30 “Jacob’s word for mercy comes back”'
+    claim: 'Joseph washed his face and refrained himself (Hebrew vayyitappaq)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/יִּרְחַ֥ץ פָּנָ֖י/ו וַ/יֵּצֵ֑א וַ/יִּ֨תְאַפַּ֔ק'
+  - where: 'note 43:30 “Jacob’s word for mercy comes back”'
+    claim: 'In 45:1 Joseph could not refrain himself (lehitappeq)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וְ/לֹֽא יָכֹ֨ל יוֹסֵ֜ף לְ/הִתְאַפֵּ֗ק'
+  - where: 'note 43:30 “Jacob’s word for mercy comes back”'
+    claim: 'Joseph could not refrain himself (KJV 45:1)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/45?lang=eng'
+    quote: 'Then Joseph could not refrain himself before all them that stood by him'
+  - where: 'note 43:30 “Jacob’s word for mercy comes back”'
+    claim: 'Lexicon: rachamim, compassion; Genesis 43:14 listed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7356.htm'
+    quote: 'compassion'
+  - where: 'note 43:30 “Jacob’s word for mercy comes back”'
+    claim: '“His bowels did yearn” is a phrase for strong feeling; compare 1 Kings 3:26'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/43.htm'
+    quote: 'his bowels did yearn] For this phrase denoting strong feelings cf. 1 Kings 3:26'
+  - where: 'note 43:30 “Jacob’s word for mercy comes back”'
+    claim: '“His mother’s son”: Joseph and Benjamin are Rachel’s only two children'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/43.htm'
+    quote: 'Joseph and Benjamin are the only two children of Rachel, the favourite wife of Jacob.'
+  - where: 'note 43:30 “Jacob’s word for mercy comes back”'
+    claim: 'Joseph’s self-restraint lasts until 45:1'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/43.htm'
+    quote: 'Joseph’s effort of self-constraint broke down in Genesis 45:1.'
+  - where: 'note 43:32 “Three tables”'
+    claim: '“Abomination” is the technical term for what was abhorrent and a source of ceremonial pollution'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/43.htm'
+    quote: 'The technical term expressing that which was abhorrent and a source of ceremonial pollution.'
+  - where: 'note 43:32 “Three tables”'
+    claim: 'Moses calls Israel’s sacrifice “the abomination of the Egyptians”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/8?lang=eng'
+    quote: 'we shall sacrifice the abomination of the Egyptians to the Lord our God'
+  - where: 'note 43:32 “Three tables”'
+    claim: 'Every shepherd is an abomination to the Egyptians'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/46?lang=eng'
+    quote: 'for every shepherd is an abomination unto the Egyptians'
+  - where: 'note 43:32 “Three tables”'
+    claim: 'Egyptian deities were represented by cattle; Hebrews slaughtered and ate them; a terrible abomination to Egyptians'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'Several Egyptian deities were represented by cattle, especially female cattle. Since the Hebrews were herdsmen who slaughtered and ate cattle, regardless of sex, this practice would have been viewed by the Egyptians as a terrible abomination.'
+  - where: 'note 43:32 “Three tables”'
+    claim: 'Herodotus: cows are sacred to Isis'
+    key: herodotus-histories
+    url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0126%3Abook%3D2%3Achapter%3D41'
+    quote: 'All Egyptians sacrifice unblemished bulls and bull-calves; they may not sacrifice cows: these are sacred to Isis.'
+  - where: 'note 43:32 “Three tables”'
+    claim: 'Herodotus: because cows are sacred, no Egyptian will kiss a Greek, use a Greek’s knife, spit, or cauldron, or taste meat cut with a Greek knife'
+    key: herodotus-histories
+    url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0126%3Abook%3D2%3Achapter%3D41'
+    quote: 'For this reason, no Egyptian man or woman will kiss a Greek man, or use a knife, or a spit, or a cauldron belonging to a Greek, or taste the flesh of an unblemished bull that has been cut up with a Greek knife.'
+  - where: 'note 43:32 “Three tables”'
+    claim: 'Joseph did not eat with the Egyptians because of his position as Grand Vizier, not because he was a Hebrew or a priest’s son-in-law'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/43.htm'
+    quote: 'The natural reason for this is not, as some have supposed, because Joseph was a member of the family of a priest ( Genesis 41:45 ), or even because he was a Hebrew, but on account of his position as the Grand Vizier.'
+  - where: 'note 43:32 “Three tables”'
+    claim: 'Hebrew of 43:32: for him by himself, for them by themselves, for the Egyptians by themselves'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/יָּשִׂ֥ימוּ ל֛/וֹ לְ/בַדּ֖/וֹ וְ/לָ/הֶ֣ם לְ/בַדָּ֑/ם וְ/לַ/מִּצְרִ֞ים הָ/אֹכְלִ֤ים אִתּ/וֹ֙ לְ/בַדָּ֔/ם'
+  - where: 'note 43:32 “Three tables”'
+    claim: 'Hebrew of 43:32: for that is an abomination (to‘evah) to the Egyptians'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'כִּי תוֹעֵבָ֥ה הִ֖וא לְ/מִצְרָֽיִם'
+  - where: 'note 43:32 “Three tables”'
+    claim: 'The Hebrews slaughtered and ate animals, even female animals, that Egyptians held sacred; Herodotus 2.41 is the evidence (the work the Student Manual cites)'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/43.htm'
+    quote: 'The Hebrews and others, for example, slaughtered and ate animals, even female animals, which were regarded by the Egyptians as sacred; so that, according to Herod. ii. 41, no Egyptian would use the knife, or fork, or saucepan of a Greek'
+  - where: 'note 43:33 “Seated by age”'
+    claim: 'Hebrew: the men marvelled (vayyitmehu), each at his neighbor'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/יִּתְמְה֥וּ הָ/אֲנָשִׁ֖ים אִ֥ישׁ אֶל רֵעֵֽ/הוּ'
+  - where: 'note 43:33 “Seated by age”'
+    claim: 'The brothers must have supposed Joseph possessed powers of divination'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/43.htm'
+    quote: 'must have supposed that Joseph possessed powers of divination'
+  - where: 'note 43:33 “Seated by age”'
+    claim: 'The steward says the cup is the one whereby Joseph divineth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/44?lang=eng'
+    quote: 'Is not this it in which my lord drinketh, and whereby indeed he divineth?'
+  - where: 'note 43:33 “Seated by age”'
+    claim: 'Joseph says such a man as he can certainly divine'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/44?lang=eng'
+    quote: 'wot ye not that such a man as I can certainly divine?'
+  - where: 'note 43:34 “Five times as much”'
+    claim: 'Lexicon: masseth, portion carried to someone, especially from the table of a king or superior; Genesis 43:34; 2 Samuel 11:8'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4864.htm'
+    quote: 'portion (carried to some one), especially from table of king or superior'
+  - where: 'note 43:34 “Five times as much”'
+    claim: 'Uriah was followed by a mess of meat from the king'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/11?lang=eng'
+    quote: 'there followed him a mess of meat from the king'
+  - where: 'note 43:34 “Five times as much”'
+    claim: 'Hebrew: Benjamin’s portion was greater than all theirs by five hands'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/תֵּ֜רֶב מַשְׂאַ֧ת בִּנְיָמֹ֛ן מִ/מַּשְׂאֹ֥ת כֻּלָּ֖/ם חָמֵ֣שׁ יָד֑וֹת'
+  - where: 'note 43:34 “Five times as much”'
+    claim: 'Most of Joseph’s tests focused on young Benjamin, Jacob’s favored son'
+    key: scripture-helps-gen-42-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/11-genesis-42-50?lang=eng'
+    quote: 'Most of these tests focused on young Benjamin, who had become Jacob’s favored son after Joseph was sold into slavery.'
+  - where: 'note 43:34 “Five times as much”'
+    claim: 'Joseph intended to draw out whether they would envy and hate Benjamin, as they had envied Joseph his long coat'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/43.htm'
+    quote: 'to draw out his brethren to show their real feelings towards Benjamin, that he might see whether they would envy and hate him on account of this distinction, as they had formerly envied him his long coat with sleeves'
+  - where: 'note 43:34 “Five times as much”'
+    claim: 'Hebrew: they drank and were drunken (vayyishkeru) with him'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/יִּשְׁתּ֥וּ וַֽ/יִּשְׁכְּר֖וּ עִמּֽ/וֹ'
+  - where: 'note 43:34 “Five times as much”'
+    claim: 'Lexicon: shakar, of social drinking, Genesis 43:34'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7937.htm'
+    quote: 'of social drinking'
+  - where: 'note 43:34 “Five times as much”'
+    claim: '“Five times” is literally five “hands”'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/43.htm'
+    quote: 'lit., hands, grasps, as in Genesis 47:24'
+  - where: 'note 43:34 “Five times as much”'
+    claim: 'They drank largely, satisfied; not intoxicated'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/43.htm'
+    quote: '"They drank, and drank largely with him," i.e., they were perfectly satisfied with what they ate and drank; not, they were intoxicated'
+  - where: 'note 43:34 “Five times as much”'
+    claim: 'The meal banished the brothers’ fear'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/43.htm'
+    quote: 'This honourable treatment and entertainment banished all their anxiety and fear.'
+  - where: 'christ'
+    claim: 'Judah’s actions can remind us of Jesus Christ, who was Judah’s descendant'
+    key: scripture-helps-gen-42-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/11-genesis-42-50?lang=eng'
+    quote: 'Judah’s actions can remind us of Jesus Christ, who was Judah’s descendant.'
+  - where: 'christ'
+    claim: 'Judah offered to take Benjamin’s punishment; Jesus took our sins upon Himself'
+    key: scripture-helps-gen-42-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/11-genesis-42-50?lang=eng'
+    quote: 'As Judah offered to take Benjamin’s punishment so that Benjamin could return to his father, so Jesus Christ took our sins upon Himself so that we can return to our Heavenly Father.'
+  - where: 'christ'
+    claim: 'The Church’s endnote on this section points to Mosiah 15:9'
+    key: scripture-helps-gen-42-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/11-genesis-42-50?lang=eng'
+    quote: 'See Mosiah 15:9.'
+  - where: 'christ'
+    claim: 'Mosiah 15:9: the Son has the bowels of mercy, standing betwixt them and justice'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/15?lang=eng'
+    quote: 'Having ascended into heaven, having the bowels of mercy; being filled with compassion towards the children of men; standing betwixt them and justice'
+  - where: 'christ'
+    claim: 'Judah’s offer in chapter 44: let thy servant abide instead of the lad'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/44?lang=eng'
+    quote: 'let thy servant abide instead of the lad a bondman to my lord'
+  - where: 'christ'
+    claim: 'Joseph provided bread for Israel without cost; Jesus, the Bread of Life, did the same'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'Joseph provided bread for Israel and saved them from death, all without cost. Jesus, the Bread of Life, did the same for all men.'
+  - where: 'christ'
+    claim: 'Joseph restored the money into the sacks'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'to restore every man’s money into his sack'
+  - where: 'christ'
+    claim: 'Judah’s offer in chapter 44 is the one that can remind us of the Savior (the Church’s heading for the passage is Genesis 44:32–34)'
+    key: scripture-helps-gen-42-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/11-genesis-42-50?lang=eng'
+    quote: 'But many years later in Egypt, Judah offered to take Benjamin’s place as a servant or slave.'
+  - where: 'explore'
+    claim: 'Nehemiah prays for mercy in the sight of this man'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/neh/1?lang=eng'
+    quote: 'and grant him mercy in the sight of this man'
+  - where: 'explore'
+    claim: 'Hebrew of Nehemiah 1:11: rachamim lifnei ha’ish hazzeh'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Neh.xml'
+    quote: 'וּ/תְנֵ֣/הוּ לְ/רַחֲמִ֔ים לִ/פְנֵ֖י הָ/אִ֣ישׁ הַ/זֶּ֑ה'
+  - where: 'explore'
+    claim: 'Cambridge Bible compares the expression “give you mercy” to Nehemiah 1:11'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/43.htm'
+    quote: 'give you mercy] Cf. the parallel expression in Nehemiah 1:11.'
+  - where: 'explore'
+    claim: 'Daniel was brought into favour and tender love with the prince'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/1?lang=eng'
+    quote: 'Now God had brought Daniel into favour and tender love with the prince of the eunuchs.'
+  - where: 'explore'
+    claim: 'Hebrew of Daniel 1:9: chesed ulerachamim lifnei sar'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'לְ/חֶ֖סֶד וּֽ/לְ/רַחֲמִ֑ים לִ/פְנֵ֖י שַׂ֥ר הַ/סָּרִיסִֽים'
