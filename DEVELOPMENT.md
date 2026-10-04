@@ -16,7 +16,7 @@ The steps a coordinating session repeats for every batch of chapters are scripts
 
 - **`.claude/workflows/write-chapters.js`**: the Workflow script. `args`: `book`, `chapters` (about twelve at a time), `writerModel` (`sonnet` by default, or `opus`), `models` (finished chapters of the book to imitate), `focus` (the author's questions, by chapter number). Each chapter goes to a `chapter-writer`, then to a `chapter-checker` (Sonnet), which reopens the sources and writes its findings, then to a `chapter-reviewer` (Opus), which decides them and repairs the chapter (`STANDARDS.md` §11). Run it by name, or with `scriptPath`; if the usage limit or a restart stops it, run it again with `resumeFromRunId` and the same `args`, and finished agents are not repeated. The agents leave working files in `.cache/batch/<book>/` (not committed): `proposed/NN.yaml`, the `sources.yaml` entries a chapter needs, `reports/NN-writer.md`, and the checker's findings, `reports/NN-check.md`.
 - **`scripts/merge-sources.mjs <book> <chapters…> [--write]`** gathers the proposed entries and reports what has to be settled by hand: a key already used for another page, one key proposed for two pages, one page under two keys. `--write` appends the rest to `content/sources.yaml`.
-- **`scripts/batch-notes.mjs <book> <the run's journal.jsonl>`** reads the reviewers' results and appends the reader questions no source answered to the book's `OPEN-QUESTIONS.md` and the theme candidates to `THEME-CANDIDATES.md`; it prints anything a reviewer left for the author. The journal's path is in the Workflow tool's result (“Transcript dir”).
+- **`scripts/batch-notes.mjs <book> <the run's journal.jsonl>`** reads the reviewers' results and appends the reader questions no source answered to the end of the book's `BRIEF.md` (its last section) and the theme candidates to `THEME-CANDIDATES.md`; it prints anything a reviewer left for the author. The journal's path is in the Workflow tool's result (“Transcript dir”).
 - Then the checks (`check-content`, `check-quotes`, `check-ledger`, the build), and one commit per chapter with its ledger.
 - **`scripts/preview-site.mjs [out dir]`** builds the site with preview books and makes every link relative, for the claude.ai preview artifact (`AUTHORING.md`, “Showing a change”). It writes the site to `.cache/preview/dist` and the list of files to publish to `.cache/preview/files.json`.
 
@@ -42,7 +42,7 @@ The build treats every directory `content/<slug>/` that has a `book.yaml` and a 
 
 **Unwritten chapters.** A chapter with no YAML file is unwritten. It gets no page and is left out of search and the sitemap. On the book page its card is greyed out and opens the chapter in the Gospel Library; the chapter strip dims its tick and links there too; previous/next links skip it; `[[Jer. 5:1]]` links to the Gospel Library until the chapter is written (`LIBRARY` carries each book's written chapters for `src/lib/refs.mjs`); and `404.html` sends `/jeremiah/5/` to the Gospel Library. The home page card and the header menu say “N of 52 chapters” until the book is complete.
 
-Markdown files at the top of a book's directory (`BRIEF.md`, `OPEN-QUESTIONS.md`, and so on) are project notes; the build ignores them. Markdown in `guides/` and `themes/` is published.
+Markdown files at the top of a book's directory (`BRIEF.md`, `THEME-CANDIDATES.md`, and so on) are project notes; the build ignores them. Markdown in `guides/` and `themes/` is published.
 
 ### Adding a new book
 

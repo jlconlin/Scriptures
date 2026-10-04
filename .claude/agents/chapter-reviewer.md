@@ -79,6 +79,6 @@ Keep it short. Return:
 2. **Findings**: how many the checker reported and what you did with them; any rows you reopened yourself and why.
 3. **Changes made**: each claim reworded or cut, in one line, with the reason.
 4. **`sources.yaml` entries needed**: one line each in the file's format, for every key the chapter cites that isn't in `content/sources.yaml`, with the page title you saw at the URL.
-5. **Judgment calls** for the book's `OPEN-QUESTIONS.md`: only choices that `STANDARDS.md` and the brief don't already decide. Following a rule (citing a manual for a scholar it quotes, labelling an outside reading “one reading,” the Bible Dictionary's dates) is not a judgment call; don't report it as one. Keep the list short: most chapters have none or one.
+5. **Judgment calls** for `OPEN-QUESTIONS.md` (the one list at the top of the repository): only choices that `STANDARDS.md` and the brief don't already decide. Following a rule (citing a manual for a scholar it quotes, labelling an outside reading “one reading,” the Bible Dictionary's dates) is not a judgment call; don't report it as one. Keep the list short: most chapters have none or one.
 6. **Theme candidates**: topics in this chapter that run across the book, one line each with the verses.
 7. **Check output**: the result of each check.

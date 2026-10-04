@@ -3,14 +3,14 @@
 Book-level decisions for Jeremiah. The site-wide standard is in `STANDARDS.md`; this file records what is particular to Jeremiah. Writers and checkers read both before starting a chapter.
 
 Related files:
-- `OPEN-QUESTIONS.md`: judgment calls waiting for the author.
+- `OPEN-QUESTIONS.md`, at the top of the repository: what waits for the author, for every book.
 - `THEME-CANDIDATES.md`: topics that run across chapters, collected for possible theme pages.
 
 ## State of the book
 
 All 52 chapters were written on 2026-10-02 and the book went live the same day, with the author's approval given in advance. Each chapter was written by a `chapter-writer` agent (Sonnet), checked and repaired by a `chapter-reviewer` agent (Opus, which did not write it), and committed with its evidence ledger; the coordinating session added the `sources.yaml` entries and ran the checks. The author gave no focus questions and confirmed the approach: continue as with Isaiah, whose commentary the author is happy with “both in its content and its quantity.” Each writer worked from the questions a careful reader would ask (`STANDARDS.md` §3).
 
-Remaining: the author has not yet read the chapters; the judgment calls and unanswered reader questions the checkers reported are in `OPEN-QUESTIONS.md`, by chapter, and the topics that run across the book are in `THEME-CANDIDATES.md`.
+Remaining: the author has not yet read the chapters; the judgment calls and unanswered reader questions the checkers reported are in `OPEN-QUESTIONS.md` at the top of the repository (J1–J12), and the topics that run across the book are in `THEME-CANDIDATES.md`.
 
 ## What a chapter is for
 
@@ -54,7 +54,7 @@ From the Bible Dictionary's outline (“Jeremiah”), which arranges the book by
 - **Names with two spellings.** The KJV has both Nebuchadrezzar and Nebuchadnezzar; Jehoiachin is also Jeconiah and Coniah; Jehoahaz is also Shallum. A `phrase` uses the spelling in that verse (`data/kjv/jeremiah.json`); the commentary says who is meant the first time the other name appears in a chapter.
 - **Repeated passages.** Jeremiah repeats itself (for example 6:12–15 and 8:10–12; 23:5–6 and 33:15–16), and chapter 52 parallels [[2 Kgs. 24:18–25:30]]. The second chapter says briefly that the passage also stands in the first and links to it; it doesn't repeat the notes.
 - **The Septuagint.** Jeremiah's Greek text numbers the chapters differently after 25:13 (Brenton's chapter 25 on Bible Hub continues with verses marked “(32:…)”, and the prophecies against the nations follow there). When citing the Septuagint, give the Greek chapter and verse you actually read. Any statement about how and why the Greek differs (its length, its order, what the Dead Sea Scrolls show) needs a source read in the session like any other claim. Raise it only where it changes how a verse is read.
-- **“Later than Jeremiah.”** The Bible Dictionary says chapters 50–51 “in their present form are later than Jeremiah” and that chapter 52 is a historical conclusion. Chapters 50–52 report this once, plainly, citing the Bible Dictionary; they don't build on it or argue with it. (See `OPEN-QUESTIONS.md`.)
+- **“Later than Jeremiah.”** The Bible Dictionary says chapters 50–51 “in their present form are later than Jeremiah” and that chapter 52 is a historical conclusion. Chapters 50–52 report this once, plainly, citing the Bible Dictionary; they don't build on it or argue with it.
 - **Joseph Smith Translation.** The Gospel Library's JST appendix has one Jeremiah entry (26:13, `jst-jer-26`). Other JST readings are in the footnotes of the Church's edition; check the chapter's Gospel Library page for them, and cite `lds-scriptures` with a ledger row for a footnote reading.
 - **The prophet's prayers.** The passages often called Jeremiah's “confessions” (in chapters 11–12, 15, 17, 18, and 20) are treated in their own chapters. Don't use the term, or list the set, without a source read in the session.
 - **Graphic passages** (chapters 2–3, 13, 19, and others): describe rather than quote (`STANDARDS.md` §3).

@@ -3,7 +3,7 @@
 Book-level decisions for Isaiah. The site-wide standard is in `STANDARDS.md`; this file records what is particular to Isaiah. Isaiah was written before the standard and before briefs existed, so this brief was assembled afterward from the project notes; it is shorter than a new book's brief will be.
 
 Related files:
-- `OPEN-QUESTIONS.md`: judgment calls waiting for the author.
+- `OPEN-QUESTIONS.md`, at the top of the repository: what waits for the author, for every book.
 - `THEME-CANDIDATES.md`: topics for future theme pages.
 
 ## State of the book

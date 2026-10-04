@@ -7,7 +7,7 @@ Always read `AUTHORING.md` (status, current plan, working with the author). Then
 | Task | Read |
 |---|---|
 | Writing, auditing, or reviewing commentary | `STANDARDS.md` and `content/<book>/BRIEF.md` |
-| Resolving the author's open questions | `content/<book>/OPEN-QUESTIONS.md` |
+| Resolving the author's open questions, or adding one | `OPEN-QUESTIONS.md` (one file for every book and the site) |
 | Writing a theme page, or a chapter that touches a theme | `content/<book>/THEME-CANDIDATES.md` |
 | Changing code, styles, templates, or scripts; adding a book | `DEVELOPMENT.md` |
 | Building and previewing | `README.md` |

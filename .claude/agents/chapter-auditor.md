@@ -15,7 +15,7 @@ The goal: when you finish, every factual claim in the chapter rests on a source 
 2. `content/<book>/BRIEF.md` if it exists, for which sources are readable for this book.
 3. The chapter: `content/<book>/chapters/NN.yaml`, and the verses themselves (`node scripts/show.mjs <book> <n>` or `data/kjv/<book>.json`).
 4. `content/sources.yaml`, for every key the chapter cites (so you know what each claims to be and where it lives).
-5. For this book's audit history, `content/<book>/AUDIT.md` if it exists, the chapter's items in `content/<book>/OPEN-QUESTIONS.md`, and recent audit commits (`git log --oneline -- content/<book>/chapters/NN.yaml`).
+5. For this book's audit history, `content/<book>/AUDIT.md` if it exists, the chapter's items in `OPEN-QUESTIONS.md` at the top of the repository, and recent audit commits (`git log --oneline -- content/<book>/chapters/NN.yaml`).
 
 ## 2. Method
 
@@ -64,7 +64,7 @@ Return:
 3. **Cut**: claims removed because no readable source supported them.
 4. **Sources removed**: keys dropped from note or chapter `sources`, and why (unread, not relied on, a wiki).
 5. **Proposed `sources.yaml` entries**, one line each in the file's format, with the page title you saw.
-6. **Judgment calls** for the book's `OPEN-QUESTIONS.md`.
+6. **Judgment calls** for `OPEN-QUESTIONS.md` (the one list at the top of the repository).
 7. **Check output**: each check's result, and any check you couldn't run.
 8. **Fetches**: how many pages you fetched, and any site that failed (and which claims that left unverified).
 9. A short commit-message summary in the style of the existing audit commits (“Claims now rest on …. Unread commentaries (…) are dropped. Cut: ….”).

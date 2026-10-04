@@ -1,6 +1,6 @@
 # Writing and sourcing standard
 
-The standard for all commentary on this site, for every book. `AUTHORING.md` holds the status and how to work with the author; each book's `content/<book>/BRIEF.md` holds the decisions for that book, and its `OPEN-QUESTIONS.md` the judgment calls waiting for the author. Where they disagree, this file wins unless the author has decided otherwise in the brief.
+The standard for all commentary on this site, for every book. `AUTHORING.md` holds the status and how to work with the author; each book's `content/<book>/BRIEF.md` holds the decisions for that book; `OPEN-QUESTIONS.md`, at the top of the repository, holds everything waiting for the author. Where they disagree, this file wins unless the author has decided otherwise in the brief.
 
 The goal: **content that needs no audit afterward.** Sourcing is part of writing, not a later pass.
 
@@ -58,7 +58,7 @@ The goal: **content that needs no audit afterward.** Sourcing is part of writing
 11. **No single secondary source shapes a chapter.** Start from the text and the scriptures that quote it. As a rule of thumb, no one outside source is the main idea of more than one note. When an idea comes from a source, cite it, put it in your own words, and don't follow its outline. The Student Manuals have their own limits (§1).
 12. **List in `sources` only what the chapter relies on.** A chapter-level `sources` list is the union of what its notes and prose actually cite, not a reading list.
 13. **Quotations are checked**: scripture quotations with `check-quotes.mjs`; Book of Mormon variants against the text (`data/bom/`); quotations from talks and books against the page you read.
-14. **Judgment calls go to the book's `content/<book>/OPEN-QUESTIONS.md`**; never decide them silently.
+14. **Judgment calls are never decided silently.** What the standard or the book's brief settles is decided and recorded in the brief (“Decided while writing”). What needs the author goes in `OPEN-QUESTIONS.md` at the top of the repository, the one list for every book.
 
 ## 5. The evidence ledger
 
@@ -89,7 +89,7 @@ claims:
 
 ## 6. Chapter file structure
 
-Files for a book: `content/<book>/book.yaml`, `chapters/`, `guides/`, `themes/`, `evidence/`; `data/kjv/<book>.json`; optionally `data/bom/<book>-parallels.json`. “Adding a new book” in `DEVELOPMENT.md` lists the `book.yaml` fields. Markdown files at the top of `content/<book>/` (`BRIEF.md`, `OPEN-QUESTIONS.md`, `THEME-CANDIDATES.md`) are project notes and aren't published.
+Files for a book: `content/<book>/book.yaml`, `chapters/`, `guides/`, `themes/`, `evidence/`; `data/kjv/<book>.json`; optionally `data/bom/<book>-parallels.json`. “Adding a new book” in `DEVELOPMENT.md` lists the `book.yaml` fields. Markdown files at the top of `content/<book>/` (`BRIEF.md`, `THEME-CANDIDATES.md`) are project notes and aren't published.
 
 `content/<book>/chapters/NN.yaml` (look at an existing chapter for the exact layout). Fields:
 
@@ -217,6 +217,6 @@ Fix every warning that concerns your chapter (length warnings on older chapters 
 6. **The orchestrating session finishes** (on the most capable model): adds the proposed `sources.yaml` entries after confirming each URL, spot-checks ledger rows itself, and runs `build`, `check-quotes`, and `check-content`.
 7. **The author sees it** in the private preview artifact (see “Working with the author” in `AUTHORING.md`).
 8. **One commit per chapter**, with its ledger.
-9. **Judgment calls** go in the book's `OPEN-QUESTIONS.md`, never decided silently.
+9. **Judgment calls** are recorded, never decided silently (§4 rule 14): in the book's brief if the standard settles them, in `OPEN-QUESTIONS.md` if they need the author.
 
 A theme page goes through its own four steps first (§8, “How a theme page is written”), then steps 7–9 here, with one commit for the page and its ledger.

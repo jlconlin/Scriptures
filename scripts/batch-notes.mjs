@@ -1,6 +1,8 @@
 // Reads the reviewers' results from a write-chapters workflow run (.claude/workflows/write-chapters.js) and
-// files what they reported: reader questions no source answered go to the book's OPEN-QUESTIONS.md, topics that
-// run across chapters to its THEME-CANDIDATES.md. Prints what needs the author and what blocked a reviewer.
+// files what they reported: reader questions no source answered go to the end of the book's BRIEF.md (its last
+// section, “Reader questions no source answered”), topics that run across chapters to its THEME-CANDIDATES.md.
+// Prints what the reviewers left for the author, to be settled or added by hand to OPEN-QUESTIONS.md at the
+// top of the repository, and what blocked a reviewer.
 // Usage: node scripts/batch-notes.mjs <book> <the run's journal.jsonl> [--dry]
 import { readFileSync, appendFileSync } from 'node:fs';
 import path from 'node:path';
@@ -28,7 +30,9 @@ const unanswered = reviews.filter((r) => r.unanswered?.length).map((r) => `- **$
 const themes = `\n## Reported by chapters ${reviews[0].chapter}–${reviews.at(-1).chapter} (not yet sorted)\n\n` +
   reviews.flatMap((r) => (r.themeCandidates ?? []).map((t) => `- (${r.chapter}) ${tidy(t)}.\n`)).join('');
 if (!dry) {
-  appendFileSync(path.join(book.dir, 'OPEN-QUESTIONS.md'), unanswered);
+  const brief = path.join(book.dir, 'BRIEF.md');
+  const heading = '## Reader questions no source answered';
+  appendFileSync(brief, (readFileSync(brief, 'utf8').includes(heading) ? '' : `\n${heading}\n\n`) + unanswered);
   appendFileSync(path.join(book.dir, 'THEME-CANDIDATES.md'), themes);
 }
 console.log(reviews.map((r) => `${r.chapter}: ${r.ready ? 'ready' : 'NOT READY'}`).join(', '));
