@@ -9,6 +9,7 @@
     del(k) { try { localStorage.removeItem(k); } catch {} },
   };
   const root = document.documentElement;
+  root.classList.add('js');
 
   // ---------- theme ----------
   $('.theme-toggle')?.addEventListener('click', () => {
@@ -386,7 +387,9 @@
 
   // ---------- collapsible chapter introduction ----------
   // A reader who collapses “Where we are” or “The thread” keeps it collapsed on every chapter.
-  const collapsedIntro = new Set(JSON.parse(store.get('collapsedIntro') || '[]'));
+  const storedCollapsedIntro = store.get('collapsedIntro');
+  const collapsedIntro = new Set(JSON.parse(storedCollapsedIntro || '[]'));
+  if (storedCollapsedIntro === null) collapsedIntro.add('thread');
   const intros = $$('details.intro');
   let printing = false;
   const applyIntro = () => intros.forEach((d) => { d.open = printing || !collapsedIntro.has(d.dataset.intro); });
@@ -396,6 +399,10 @@
     store.set('collapsedIntro', JSON.stringify([...collapsedIntro]));
   }));
   applyIntro();
+  $$('[data-expand-intro]').forEach((button) => button.addEventListener('click', () => {
+    const intro = $(`details[data-intro="${button.dataset.expandIntro}"]`);
+    if (intro) intro.dataset.preview = 'false';
+  }));
   addEventListener('beforeprint', () => { printing = true; applyIntro(); });
   addEventListener('afterprint', () => { printing = false; applyIntro(); });
 
@@ -405,6 +412,8 @@
     const triggersFor = (id) => $$(`[data-note="${id}"]`);
     const kindOf = (el) => [...el.classList].find((c) => c.startsWith('k-'))?.slice(2);
     const hidden = new Set(JSON.parse(store.get('hiddenKinds') || '[]'));
+    const notesResetBtn = $('[data-action="notes-reset"]');
+    const kindFilters = $$('.legend .filter');
     // “Related” mode: every note stays visible as a compact card (class is-card); one at a time expands.
     let related = false;
     const isOpen = (n) => !n.hidden && !n.classList.contains('is-card');
@@ -525,7 +534,7 @@
 
     // Filters by kind
     const applyFilters = () => {
-      $$('.legend .filter').forEach((b) => b.setAttribute('aria-pressed', String(!hidden.has(b.dataset.kind))));
+      kindFilters.forEach((b) => b.setAttribute('aria-pressed', String(!hidden.has(b.dataset.kind))));
       $$('.phr, .marker').forEach((b) => {
         const k = [...b.classList].find((c) => c.startsWith('k-'))?.slice(2);
         const off = hidden.has(k);
@@ -534,15 +543,27 @@
       });
       // Hide notes of filtered kinds; in related mode, show the others as cards again.
       $$('.note', reader).forEach((n) => { if (!isOpen(n) || hidden.has(kindOf(n))) setNote(n, false); });
+      store.set('hiddenKinds', JSON.stringify([...hidden]));
+      if (notesResetBtn) {
+        const allVisible = kindFilters.every((b) => !hidden.has(b.dataset.kind));
+        const label = allVisible ? 'Hide all note kinds' : 'Show all note kinds';
+        notesResetBtn.setAttribute('aria-label', label);
+        notesResetBtn.setAttribute('title', label);
+      }
     };
-    $$('.legend .filter').forEach((b) =>
+    kindFilters.forEach((b) =>
       b.addEventListener('click', () => {
         hidden.has(b.dataset.kind) ? hidden.delete(b.dataset.kind) : hidden.add(b.dataset.kind);
-        store.set('hiddenKinds', JSON.stringify([...hidden]));
         applyFilters();
       }),
     );
     applyFilters();
+    notesResetBtn?.addEventListener('click', () => {
+      const allVisible = kindFilters.every((b) => !hidden.has(b.dataset.kind));
+      if (allVisible) kindFilters.forEach((b) => hidden.add(b.dataset.kind));
+      else hidden.clear();
+      applyFilters();
+    });
 
     // Toolbar actions
     const plainBtn = $('[data-action="toggle-plain"]');
