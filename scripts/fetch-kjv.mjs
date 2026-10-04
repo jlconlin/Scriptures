@@ -114,6 +114,9 @@ const LDS_SPELLINGS = [
   [/to speak unto the LORD: Peradventure/g, 'to speak unto the Lord: Peradventure'], // Gen. 18:31
   [/Oh, not so, my LORD/g, 'Oh, not so, my Lord'], // Gen. 19:18
   [/he said, LORD, wilt thou slay/g, 'he said, Lord, wilt thou slay'], // Gen. 20:4
+  // Malachi: where the Gospel Library has “Lord” (adonai) and the source LORD (found by scripts/check-kjv.mjs).
+  [/sacrificeth unto the LORD a corrupt thing/g, 'sacrificeth unto the Lord a corrupt thing'], // Mal. 1:14
+  [/and the LORD, whom ye seek, shall suddenly come/g, 'and the Lord, whom ye seek, shall suddenly come'], // Mal. 3:1
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 
