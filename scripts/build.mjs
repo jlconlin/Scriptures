@@ -10,7 +10,7 @@ import { renderChapter, range } from '../src/templates/chapter.mjs';
 import { discoverBooks } from '../src/lib/books.mjs';
 import { VOLUMES, placeOf } from '../src/lib/canon.mjs';
 import { LIBRARY } from '../src/site.mjs';
-import { renderHome, renderVolume, renderBookIndex, renderGuidesIndex, renderGuide, renderPage, renderSearch, render404, chapterGuide, COLLECTIONS } from '../src/templates/pages.mjs';
+import { renderHome, renderVolume, renderBookIndex, renderGuidesIndex, renderGuide, renderPage, renderSearch, render404, chapterGuide, teaserText, COLLECTIONS } from '../src/templates/pages.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 // BUILD_OUT=<dir> writes the site somewhere other than dist/, so several agents can each run the
@@ -213,6 +213,14 @@ export async function build({ quiet = false } = {}) {
   const pool = [...allNotes];
   while (featured.length < 3 && pool.length) featured.push(pool.splice(Math.floor(rand() * pool.length), 1)[0]);
   await write('index.html', renderHome({ books, featured }));
+  // Every note, with just what a teaser card needs, for the home page's “Show three more” button.
+  // c: chapter, r: verse ref, i: id, k: kind, p: phrase, x: opening text.
+  const noteList = books.map((book) => ({
+    b: book.slug,
+    n: book.name,
+    notes: book.chapters.flatMap((ch) => (ch.notes ?? []).map((n) => ({ c: ch.chapter, r: n.ref, i: n.id, k: n.kind, p: n.phrase, x: teaserText(n) }))),
+  }));
+  await write('notes.json', JSON.stringify(noteList));
   // A page for each volume, listing its books on the site.
   for (const v of VOLUMES) await write(`${v.slug}/index.html`, renderVolume({ volume: v, books: books.filter((b) => b.place.vol === v.key) }));
   const about = await readMd(r('content/about.md'));

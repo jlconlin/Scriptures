@@ -18,6 +18,12 @@ const ensignArt = `<svg class="hero-art" viewBox="0 0 320 220" aria-hidden="true
   <g fill="var(--art-people)"><circle cx="40" cy="200" r="3"/><circle cx="54" cy="196" r="3"/><circle cx="286" cy="206" r="3"/><circle cx="272" cy="202" r="3"/><circle cx="118" cy="186" r="3"/></g>
 </svg>`;
 
+// The home page's teaser cards. The “Show three more” button draws others in the browser from
+// notes.json, which carries teaserText for every note; site.js builds the same card, taking each
+// kind's chip from the <template class="teaser-chip"> elements under the cards.
+const kindChip = (kind) => `<span class="kind-chip k-${kind}">${icon(kind)}${esc(KINDS[kind].label)}</span>`;
+export const teaserText = (note) => plain(note.body).slice(0, 150);
+
 // `books` are every book on the site; `featured` are notes chosen for the teasers. The library section
 // is the Scriptures menu's picker, open on the page: site.js draws it from the menu's data plus the
 // blurbs in data-books. Without JavaScript it is the list of volumes and books written here.
@@ -55,20 +61,22 @@ export function renderHome({ books, featured }) {
 </section>
 
 <section class="wrap home-section">
-  <h2 class="section-title">Try a phrase</h2>
-  <p class="section-sub">A few notes, chosen at random each time the site is built.</p>
-  <div class="teasers">
+  <div class="section-head">
+    <div>
+      <h2 class="section-title">Try a phrase</h2>
+      <p class="section-sub">Three notes, chosen at random.</p>
+    </div>
+    <button type="button" class="btn teasers-more" hidden>Show three more</button>
+  </div>
+  <div class="teasers" aria-live="polite">
     ${featured
       .map(
-        (f) => `<a class="teaser k-${f.kind}" href="/${f.book.slug}/${f.chapter}/#${f.id}">
-      <span class="kind-chip k-${f.kind}">${icon(f.kind)}${esc(KINDS[f.kind].label)}</span>
-      <span class="teaser-phrase">“${esc(f.phrase)}”</span>
-      <span class="teaser-ref">${esc(f.book.name)} ${f.chapter}:${f.ref}</span>
-      <span class="teaser-text">${esc(plain(f.body).slice(0, 150))}…</span>
-    </a>`,
+        (f) =>
+          `<a class="teaser k-${f.kind}" href="/${f.book.slug}/${f.chapter}/#${f.id}">${kindChip(f.kind)}<span class="teaser-phrase">“${esc(f.phrase)}”</span><span class="teaser-ref">${esc(f.book.name)} ${f.chapter}:${f.ref}</span><span class="teaser-text">${esc(teaserText(f))}…</span></a>`,
       )
-      .join('')}
+      .join('\n    ')}
   </div>
+  ${Object.keys(KINDS).map((k) => `<template class="teaser-chip" data-kind="${k}">${kindChip(k)}</template>`).join('')}
 </section>
 
 <section class="wrap home-section home-why">

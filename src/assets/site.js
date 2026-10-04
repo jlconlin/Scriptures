@@ -297,6 +297,40 @@
       addEventListener('resize', () => { if (wide() !== drawn) draw(); });
       draw();
     }
+
+    // ---------- home page teasers ----------
+    // “Show three more” replaces the three note cards chosen when the site was built with three
+    // others. notes.json has every note and is fetched on the first click. The cards are the same
+    // markup as renderHome's; each kind's chip comes from a <template class="teaser-chip">.
+    const more = $('.teasers-more');
+    const teasers = $('.teasers');
+    if (more && teasers) {
+      const chips = Object.fromEntries($$('template.teaser-chip').map((t) => [t.dataset.kind, t.innerHTML]));
+      const href = (n) => `${url(`${n.b}/${n.c}/`)}#${n.i}`;
+      const card = (n) =>
+        `<a class="teaser k-${n.k}" href="${href(n)}">${chips[n.k]}<span class="teaser-phrase">“${esc(n.p)}”</span><span class="teaser-ref">${esc(n.n)} ${n.c}:${n.r}</span><span class="teaser-text">${esc(n.x)}…</span></a>`;
+      let notes = null;
+      const load = async () => {
+        const res = await fetch(`${sm.dataset.root}notes.json`);
+        if (!res.ok) throw new Error(res.status);
+        // The same choice the build makes: notes with a short phrase.
+        return (await res.json()).flatMap((b) => b.notes.filter((n) => n.p && n.p.length < 60 && chips[n.k]).map((n) => ({ ...n, b: b.b, n: b.n })));
+      };
+      more.hidden = false;
+      more.addEventListener('click', async () => {
+        try {
+          notes ??= await load();
+        } catch {
+          more.hidden = true; // the cards from the build stay
+          return;
+        }
+        const showing = $$('.teaser', teasers).map((a) => a.getAttribute('href'));
+        const pool = notes.filter((n) => !showing.includes(href(n)));
+        const picks = [];
+        while (picks.length < 3 && pool.length) picks.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
+        if (picks.length) teasers.innerHTML = picks.map(card).join('\n    ');
+      });
+    }
   }
 
   // ---------- reading progress ----------

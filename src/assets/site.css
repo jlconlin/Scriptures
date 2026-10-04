@@ -331,6 +331,9 @@ a.ref-internal { text-decoration-style: dotted; }
 .picker-list .picker-pane { padding: 4px 4px 12px; }
 .picker-list .picker-bookhead h3 { display: none; }
 .picker-list .menu-empty { padding-bottom: 2px; }
+.section-head { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 0 20px; }
+.teasers-more { margin-bottom: 20px; font: inherit; font-weight: 650; cursor: pointer; }
+.teasers-more[hidden] { display: none; }
 .teasers { display: grid; gap: 14px; }
 @media (min-width: 760px) { .teasers { grid-template-columns: repeat(3, 1fr); } }
 .teaser { display: flex; flex-direction: column; gap: 8px; padding: 18px; border-radius: var(--radius); background: var(--surface); border: 1px solid var(--line); border-top: 4px solid var(--k); text-decoration: none; color: var(--ink); box-shadow: var(--shadow); transition: transform .15s; }
