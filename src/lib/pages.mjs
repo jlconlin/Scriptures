@@ -74,12 +74,12 @@ const variants = (quote) => {
   const noBrackets = (t) => t.replace(/\[[^\]]*\]/g, ''), noMarks = (t) => t.replace(/\(\s*[A-Z]{1,2}\s*\)/g, ' ');
   return [q, noBrackets(q), noMarks(q), noMarks(noBrackets(q))];
 };
-export const onPage = (page, quote) =>
-  variants(quote).some((q) => {
+/** A quote as the comparison reads it: for each way of reading it (variants), its parts between elisions, as ['text' | 'num', letters]. */
+export const quoteParts = (quote) =>
+  variants(quote).map((q) =>
     // Letters only, unless the part is short and has digits (a cross-reference), which is compared with them kept.
-    const parts = q.split(/…|\.\.\./).map((p) => (letters(p).length >= 6 || alnum(p) === letters(p) ? [page.text, letters(p)] : [page.num, alnum(p)])).filter(([, p]) => p.length >= (/[א-ת]/.test(p) ? 2 : 3));
-    return parts.length > 0 && parts.every(([where, p]) => where.includes(p));
-  });
+    q.split(/…|\.\.\./).map((p) => (letters(p).length >= 6 || alnum(p) === letters(p) ? ['text', letters(p)] : ['num', alnum(p)])).filter(([, p]) => p.length >= (/[א-ת]/.test(p) ? 2 : 3)));
+export const onPage = (page, quote) => quoteParts(quote).some((parts) => parts.length > 0 && parts.every(([kind, p]) => page[kind].includes(p)));
 
 // ---------- fetching ----------
 
@@ -93,7 +93,7 @@ async function pdfPages(buf) {
   for (let i = 1; i <= doc.numPages; i++) out.push((await (await doc.getPage(i)).getTextContent()).items.map((t) => t.str).join(' ').replace(/\s+/g, ' ').trim());
   return out;
 }
-const curl = (url) => execFileSync('curl', ['-sgL', '-m', '120', '-A', 'Mozilla/5.0', url], { maxBuffer: 256e6 });
+export const curl = (url) => execFileSync('curl', ['-sgL', '-m', '120', '-A', 'Mozilla/5.0', url], { maxBuffer: 256e6 });
 const esc = (s) => String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;');
 // A KnoWhy: https://scripturecentral.org/knowhy/<slug> is read from the API, as a page of its own.
 async function knowhyDoc(slug) {
@@ -331,10 +331,36 @@ export function parsePage(raw, url = '') {
   return parseText(raw);
 }
 
+/** parsePage, but a page it cannot read (a Gospel Library index page with no content) comes back empty, with its <title> and `unreadable` set, and does not throw. */
+export function parseOrEmpty(raw, url = '') {
+  try { return parsePage(raw, url); } catch (err) {
+    const t = raw.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+    return { kind: 'unreadable', unreadable: err.message, title: tidy(decode((t?.[1] ?? '').replace(/<[^>]+>/g, ''))), info: '', paras: [], heads: [], notes: [] };
+  }
+}
+
 /** Fetch and read a page: the result of parsePage plus `url`, `chars` (the length of its text), and `rawLength`; or `{ url, error }`. */
 export async function readPage(url, opts = {}) {
   const got = await fetchPage(url, { tries: 5, wait: 4000, ...opts }); // the Church's site drops out for a minute now and then
   if (got.error) return { url, error: got.error };
   const page = parsePage(got.raw, url);
   return { url, ...page, chars: page.paras.reduce((n, p) => n + p.text.length, 0), rawLength: got.raw.length };
+}
+
+// ---------- is it the page that was meant? ----------
+
+const BLOCKED = /just a moment|attention required|access denied|enable javascript|checking your browser|verify you are (?:a )?human|are you a robot|captcha|request blocked|403 forbidden|cf-browser-verification|challenge-platform|pardon our interruption|security check|unusual traffic/i;
+const GONE = /\b404\b|page not found|not found|no longer available|page unavailable|does not exist|can[’']t be found/i;
+/**
+ * What is wrong with a page that loaded, as a list of plain phrases (empty when nothing is): a block or challenge page,
+ * a not-found page, a PDF with no text layer, a page with almost no text. `raw` is what fetchPage kept, `page` what parsePage read.
+ */
+export function pageProblems(raw, page) {
+  const out = [];
+  const head = [page.title, page.heads?.[0]?.text, page.paras?.[0]?.text.slice(0, 300)].filter(Boolean).join(' | ');
+  if (page.kind === 'pdf') { if (page.paras.every((p) => !p.text.trim())) out.push('a PDF with no text layer (a scan)'); return out; }
+  if (BLOCKED.test(head) || (raw.length < 20000 && BLOCKED.test(raw.replace(/<script[\s\S]*?<\/script>/gi, '')))) out.push('a block or challenge page');
+  if (GONE.test([page.title, page.heads?.[0]?.text].filter(Boolean).join(' | '))) out.push('looks like a not-found page');
+  if (page.paras.reduce((n, p) => n + p.text.length, 0) < 200 && !out.length) out.push('almost no text (a page that needs a browser?)');
+  return out;
 }
