@@ -1,0 +1,667 @@
+chapter: 1
+claims:
+  # ---------- when ----------
+  - where: 'when'
+    claim: 'The Bible Dictionary dates the prophecy to about 430 B.C.'
+    key: bd-malachi
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/malachi?lang=eng'
+    quote: 'The prophecy of Malachi was spoken about 430 B.C.'
+  - where: 'when'
+    claim: 'The Bible Chronology places the prophecy of Malachi at 432, with Nehemiah’s second mission'
+    key: bible-chron-ot
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-chron/old-testament?lang=eng'
+    quote: '432 | Nehemiah’s second mission to Jerusalem. Prophecy of Malachi.'
+  - where: 'when'
+    claim: 'Scripture Helps: timing uncertain, book generally dated 500 to 350 BC'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'The exact timing of Malachi’s ministry is uncertain, but his book is generally dated between 500 and 350 BC.'
+
+  # ---------- setting ----------
+  - where: 'setting'
+    claim: 'Malachi is the last book of the Old Testament'
+    key: gs-malachi
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/malachi?lang=eng'
+    quote: 'The book or prophecy of Malachi is the last book in the Old Testament.'
+  - where: 'setting'
+    claim: 'Malachi preached to the Jews in Jerusalem after the exile'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'Malachi was a prophet who preached to the Jews in Jerusalem after they returned from Babylonian exile.'
+  - where: 'setting'
+    claim: 'The temple had been rebuilt and its worship restored for a considerable time'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'the temple had been rebuilt and the temple-worship had been restored for a considerable time'
+  - where: 'setting'
+    claim: 'Malachi addressed the spiritual decline among the Jews'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'As the Lord’s messenger, Malachi addressed the spiritual decline among the Jews.'
+  - where: 'setting'
+    claim: 'The book’s literary form is a dialogue of exchanges between the Lord and the people'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'Malachi’s writings take a distinctive literary form: a series of exchanges in a dialogue between the Lord and the people.'
+  - where: 'setting'
+    claim: 'The first part of the book (1:1–2:9) is addressed to the priesthood'
+    key: bd-malachi
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/malachi?lang=eng'
+    quote: 'The first part (Mal. 1:1–2:9) is addressed to the priesthood, reproving them for their neglect of service to God.'
+  - where: 'setting'
+    claim: 'The Savior quoted all of Malachi 3 and 4 to the Nephites'
+    key: bd-malachi
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/malachi?lang=eng'
+    quote: 'All of Mal. 3 and 4 was quoted by the Savior to the Nephites, as recorded in 3 Ne. 24 and 25.'
+  - where: 'setting'
+    claim: 'Paul quotes Malachi 1:2–3 in Romans 9:13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/9?lang=eng'
+    quote: 'As it is written, Jacob have I loved, but Esau have I hated.'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'In verse 6 “fear” is mora’ (H4172), from the verb yare’; in verse 14 “dreadful” is nora’, a form of the same verb'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4172.htm'
+    quote: 'Word Origin: [from H3372 (יָרֵא - Fear)]'
+  - where: 'thread'
+    claim: 'Hebrew word for “fear” in 1:6 is mora’ (lemma 4172) with suffix “my”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'מוֹרָאִ֜/י'
+  - where: 'thread'
+    claim: 'In 1:14 “dreadful” is a form of yare’ (lemma 3372)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'נוֹרָ֥א'
+  - where: 'thread'
+    claim: 'The lexicon lists Malachi 1:14 under yare’, of the name of Yahweh'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3372.htm'
+    quote: 'b. of the name of Yahweh Deuteronomy 28:58; Psalm 99:3; Psalm 111:9; Malachi 1:14.'
+  - where: 'thread'
+    claim: 'In 1:5 “be magnified” is a form of gadal (lemma 1431)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'יִגְדַּ֣ל'
+  - where: 'thread'
+    claim: 'In 1:11 and 1:14 “great” is gadol (lemma 1419 a)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'גָּד֤וֹל'
+  - where: 'thread'
+    claim: 'The nations’ attitude toward the name (1:11) is set as an antithesis against the priests’ desecration of the name (1:12–13)'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'the prophet appends as an antithesis in Malachi 1:12, Malachi 1:13 a repetition of the reproof, that the priests of Israel desecrate the name of the Lord by that contempt of His name'
+  - where: 'thread'
+    claim: 'The comparison with Esau may be meant to remind the people of their responsibility as the covenant people'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'The Lord may have used this comparison not only to reassure the people of His love for them but also to remind them of their responsibility to live faithfully as His covenant people.'
+  - where: 'thread'
+    claim: 'The love God showed Israel is the motive and model for Israel’s conduct toward Him'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'The love which God has shown to Israel ought to form the motive and model for the conduct of Israel towards its God.'
+
+  # ---------- section 2 plain ----------
+  - where: 'section 2 plain'
+    claim: 'The Hebrew behind “dragons” in 1:3 is jackals'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/1?lang=eng'
+    quote: '“dragons”: HEB jackals.'
+  - where: 'section 2 plain'
+    claim: 'Edom’s “impoverished” in 1:4 is “shattered” in the Updated NRSV'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+1&version=NRSVUE'
+    quote: 'We are shattered but we will rebuild the ruins'
+
+  # ---------- note 1:1 “Burden, a load and an oracle” ----------
+  - where: 'note 1:1 “Burden, a load and an oracle”'
+    claim: 'One word massa’ means “load, burden,” including a donkey’s and a mule’s load'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4853.htm'
+    quote: 'load, burden of ass Exodus 23:5 (E), mules 2 Kings 5:17'
+  - where: 'note 1:1 “Burden, a load and an oracle”'
+    claim: 'A separately listed word massa’ (III) means a prophetic utterance or oracle'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4853.htm'
+    quote: 'III. מַשָּׂא noun masculineIsaiah 14:28 utterance, oracle'
+  - where: 'note 1:1 “Burden, a load and an oracle”'
+    claim: 'The lexicon lists Zechariah 9:1, Zechariah 12:1 and Malachi 1:1 together under that word'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4853.htm'
+    quote: 'Zechariah 9:1 (+ בארץ), Zechariah 12:1 (+ עַליִֿשְׂרָאֵל), Malachi 1:1 (+ ׳אֶליִֿשׂ)'
+  - where: 'note 1:1 “Burden, a load and an oracle”'
+    claim: 'The Updated NRSV prints “An oracle.” in 1:1'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+1&version=NRSVUE'
+    quote: '1 An oracle. The word of the Lord to Israel by Malachi.'
+
+  # ---------- note 1:1 “A name that means my messenger” ----------
+  - where: 'note 1:1 “A name that means “my messenger””'
+    claim: 'The lexicon: Malachi is “my messenger,” an Israelite prophet'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4401.htm'
+    quote: '"my messenger," an Isr. prophet'
+  - where: 'note 1:1 “A name that means “my messenger””'
+    claim: 'The name in 1:1 (lemma 4401) is spelled with the same letters as “my messenger” in 3:1 (lemma 4397 with suffix)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'מַלְאָכִֽי'
+  - where: 'note 1:1 “A name that means “my messenger””'
+    claim: 'In 3:1 “my messenger” is H4397 with the suffix “my”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'מַלְאָכִ֔/י'
+  - where: 'note 1:1 “A name that means “my messenger””'
+    claim: 'Some scholars have wondered whether Malachi is a title rather than a personal name (prominence of the messenger in 3:1)'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'Because the concept of a messenger is a prominent theme in Malachi 3:1, some scholars have wondered whether Malachi is a title rather than the personal name of the prophet'
+  - where: 'note 1:1 “A name that means “my messenger””'
+    claim: 'The Septuagint reads “by the hand of his messenger”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/malachi/1.htm'
+    quote: '1The burden of the word of the Lord to Israel by the hand of his messenger.'
+  - where: 'note 1:1 “A name that means “my messenger””'
+    claim: 'The Church’s study help that reports the question describes Malachi as a prophet'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'Malachi was a prophet who preached to the Jews in Jerusalem after they returned from Babylonian exile.'
+
+  # ---------- note 1:2 “The question the book keeps asking” ----------
+  - where: 'note 1:2 “The question the book keeps asking”'
+    claim: 'The Hebrew of “Wherein” is the prefixed form b/4100 (bammeh) in 1:2, 1:6, 1:7, 2:17, 3:7 and 3:8'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'lemma="b/4100" morph="HR/Ti"'
+  - where: 'note 1:2 “The question the book keeps asking”'
+    claim: 'The Hebrew for 1:2 “Wherein hast thou loved us?” begins with the prefixed form of “what”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'בַּ/מָּ֣ה'
+  - where: 'note 1:2 “The question the book keeps asking”'
+    claim: 'Malachi’s writings are a series of exchanges between the Lord and the people, with rhetorical questions and the people’s responses'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'These exchanges often include rhetorical questions posed by the Lord or the people, along with responses that revealed the misunderstanding of the people.'
+
+  # ---------- note 1:3 “Did the Lord hate Esau?” ----------
+  - where: 'note 1:3 “Did the Lord hate Esau?”'
+    claim: 'The word translated hate can mean “not to choose,” not contempt; that appears to be the case here'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'In the Bible, the word translated as hate can sometimes mean “not to choose” rather than being an expression of contempt. That appears to be the case in this passage.'
+  - where: 'note 1:3 “Did the Lord hate Esau?”'
+    claim: 'The Lord had made a covenant with Jacob’s line that He did not make with Esau’s'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'The Lord had made a covenant with Jacob and his descendants that He did not make with Esau and his descendants.'
+  - where: 'note 1:3 “Did the Lord hate Esau?”'
+    claim: 'The Hebrew verb in 1:3 is lemma 8130 (sane’)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'שָׂנֵ֑אתִי'
+  - where: 'note 1:3 “Did the Lord hate Esau?”'
+    claim: 'The same verb (lemma 8130) is used of Leah in Genesis 29:31'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'שְׂנוּאָ֣ה'
+  - where: 'note 1:3 “Did the Lord hate Esau?”'
+    claim: 'The same verb (lemma 8130) is used of the “hated” wife in Deuteronomy 21:15'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'וְ/הַ/שְּׂנוּאָ֑ה'
+  - where: 'note 1:3 “Did the Lord hate Esau?”'
+    claim: 'Genesis 29:30–31: Jacob loved Rachel more than Leah; Leah was hated'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/29?lang=eng'
+    quote: 'And when the Lord saw that Leah was hated, he opened her womb'
+  - where: 'note 1:3 “Did the Lord hate Esau?”'
+    claim: 'Deuteronomy 21:15–17: the hated wife’s firstborn son receives the double portion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/21?lang=eng'
+    quote: 'But he shall acknowledge the son of the hated for the firstborn, by giving him a double portion of all that he hath'
+  - where: 'note 1:3 “Did the Lord hate Esau?”'
+    claim: 'In the ancient world love and hate had to do with covenantal relationship, not emotion'
+    key: sc-knowhy-186
+    url: 'https://scripturecentral.org/knowhy/why-did-samuel-say-the-lord-hated-the-lamanites'
+    quote: 'in the ancient world the terms “love” and “hate” had less to do with emotion and more to do with a vassal’s covenantal relationship with a lord'
+  - where: 'note 1:3 “Did the Lord hate Esau?”'
+    claim: 'The article’s notes say the “love” of Malachi 1:2–3 can be understood as political alliance'
+    key: sc-knowhy-186
+    url: 'https://scripturecentral.org/knowhy/why-did-samuel-say-the-lord-hated-the-lamanites'
+    quote: 'See also Malachi 1:2–3, where the Hebrew word for “love” can be understood as referring political alliance.'
+  - where: 'note 1:3 “Did the Lord hate Esau?”'
+    claim: 'Esau is Edom'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/36?lang=eng'
+    quote: 'Now these are the generations of Esau, who is Edom.'
+  - where: 'note 1:3 “Did the Lord hate Esau?”'
+    claim: 'The Church’s footnote on “waste” in 1:3 leads to Ezekiel 25:13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/1?lang=eng'
+    quote: '“waste”: Ezek. 25:13.'
+  - where: 'note 1:3 “Did the Lord hate Esau?”'
+    claim: 'Ezekiel’s oracle gives the reason for Edom’s judgment (25:12)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/25?lang=eng'
+    quote: 'Because that Edom hath dealt against the house of Judah by taking vengeance, and hath greatly offended, and revenged himself upon them'
+  - where: 'note 1:3 “Did the Lord hate Esau?”'
+    claim: 'The oracle goes on to Edom’s desolation (25:13)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/25?lang=eng'
+    quote: 'I will also stretch out mine hand upon Edom, and will cut off man and beast from it; and I will make it desolate from Teman'
+
+  # ---------- note 1:4 “Edom’s failed rebuilding” ----------
+  - where: 'note 1:4 “Edom’s failed rebuilding”'
+    claim: 'The date and the agent of Edom’s devastation are disputed'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'It is a disputed point when this devastation took place, and from what people it proceeded.'
+  - where: 'note 1:4 “Edom’s failed rebuilding”'
+    claim: 'One inference from Jer 49:7ff with 25:9, 21 is that Edom was subjugated by Nebuchadnezzar'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'we may infer with the greatest probability from Jeremiah 49:7., as compared with Jeremiah 25:9, Jeremiah 25:21, that the Edomites were also subjugated by Nebuchadnezzar'
+  - where: 'note 1:4 “Edom’s failed rebuilding”'
+    claim: 'Jeremiah 25:9: Nebuchadnezzar is brought against all the nations round about'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/25?lang=eng'
+    quote: 'and will bring them against this land, and against the inhabitants thereof, and against all these nations round about'
+  - where: 'note 1:4 “Edom’s failed rebuilding”'
+    claim: 'Others hold the devastation was of the most recent date'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'Jahn, Hitzig, and Koehler are of opinion that it is only of the most recent date'
+  - where: 'note 1:4 “Edom’s failed rebuilding”'
+    claim: 'The Updated NRSV has Edom say “We are shattered”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+1&version=NRSVUE'
+    quote: 'We are shattered but we will rebuild the ruins'
+  - where: 'note 1:4 “Edom’s failed rebuilding”'
+    claim: 'The Septuagint reads Edom’s words as “Idumea has been overthrown”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/malachi/1.htm'
+    quote: '4Because one will say, Idumea has been overthrown, but let us return and rebuild the desolate places'
+  - where: 'note 1:4 “Edom’s failed rebuilding”'
+    claim: 'On the Babylonian reading, Jacob had recovered through the love of Jehovah while Esau’s land lay in ruins from the same blow'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'whereas Jacob had recovered, in consequence of the love of Jehovah, from the blow which had fallen upon it (through the Chaldaeans), Esau''s territory was still lying in ruins from the same blow'
+  - where: 'note 1:4 “Edom’s failed rebuilding”'
+    claim: '“Border” of wickedness is territory, land'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'territory, land of wickedness'
+  - where: 'note 1:4 “Edom’s failed rebuilding”'
+    claim: 'The name “border of wickedness”: permanent devastation read as proof of God’s wrath for Edom’s sins'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'as a practical proof that the wrath of God is resting for ever upon both people and land on account of Edom''s sins'
+  - where: 'note 1:4 “Edom’s failed rebuilding”'
+    claim: 'The Updated NRSV reads “beyond the borders of Israel”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+1&version=NRSVUE'
+    quote: 'Great is the Lord beyond the borders of Israel!'
+  - where: 'note 1:4 “Edom’s failed rebuilding”'
+    claim: 'The Septuagint reads “upon the borders of Israel”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/malachi/1.htm'
+    quote: 'The Lord has been magnified upon the borders of Israel.'
+  - where: 'note 1:4 “Edom’s failed rebuilding”'
+    claim: 'One argument: me’al does not mean “beyond” but “over, above”'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'does not mean "beyond the border of Israel" (Drus., Hitzig, Ewald, and others). מעל ל does not mean this, but simply over, above'
+  - where: 'note 1:4 “Edom’s failed rebuilding”'
+    claim: 'The Lord is great when He makes known His greatness by acts of power or grace'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'Jehovah is great, when He makes known His greatness to men, by His acts of power or grace.'
+
+  # ---------- note 1:4 “Who is speaking?” ----------
+  - where: 'note 1:4 “Who is speaking?”'
+    claim: 'In the King James, LORD in small capitals stands for the divine name'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'In the KJV, the Jewish custom has been followed, and the name is generally denoted by Lord or God, printed in small capitals.'
+  - where: 'note 1:4 “Who is speaking?”'
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
+
+  # ---------- note 1:6 “Fear in verse 6, dreadful in verse 14” ----------
+  - where: 'note 1:6 “Fear in verse 6, dreadful in verse 14”'
+    claim: 'mora’ (“fear”) comes from yare’ “to fear”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4172.htm'
+    quote: 'Word Origin: [from H3372 (יָרֵא - Fear)]'
+  - where: 'note 1:6 “Fear in verse 6, dreadful in verse 14”'
+    claim: 'The lexicon gives mora’ in Malachi 1:6 the sense “reverence”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4172.htm'
+    quote: 'where is the reverence due to me Malachi 1:6'
+  - where: 'note 1:6 “Fear in verse 6, dreadful in verse 14”'
+    claim: 'The Updated NRSV reads “respect” in 1:6'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+1&version=NRSVUE'
+    quote: 'where is the respect due me?'
+  - where: 'note 1:6 “Fear in verse 6, dreadful in verse 14”'
+    claim: 'The lexicon lists Malachi 1:14 under yare’, “of the name of Yahweh”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3372.htm'
+    quote: 'b. of the name of Yahweh Deuteronomy 28:58; Psalm 99:3; Psalm 111:9; Malachi 1:14.'
+  - where: 'note 1:6 “Fear in verse 6, dreadful in verse 14”'
+    claim: 'The Updated NRSV reads “reverenced” in 1:14'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+1&version=NRSVUE'
+    quote: 'my name is reverenced among the nations'
+  - where: 'note 1:6 “Fear in verse 6, dreadful in verse 14”'
+    claim: 'The Hebrew of “fear” in 1:6 is mora’ with suffix “my”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'מוֹרָאִ֜/י'
+  - where: 'note 1:6 “Fear in verse 6, dreadful in verse 14”'
+    claim: 'The Hebrew of “dreadful” in 1:14 is nora’ (lemma 3372)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'נוֹרָ֥א'
+
+  # ---------- note 1:7 “How can bread pollute the Lord?” ----------
+  - where: 'note 1:7 “How can bread pollute the Lord?”'
+    claim: '“Polluted” bread (mugal) and “polluted thee” (ga’alnukha) are the same verb, lemma 1351'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'lemma="1351" n="1.1" morph="HVPsmsa"'
+  - where: 'note 1:7 “How can bread pollute the Lord?”'
+    claim: '“Polluted thee” in 1:7 is lemma 1351'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'גֵֽאַלְנ֑וּ/ךָ'
+  - where: 'note 1:7 “How can bread pollute the Lord?”'
+    claim: 'The priests’ reply is explained from the idea that touching or eating the unclean defiled a person'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'is to be explained from the idea that either touching or eating anything unclean would defile a person'
+  - where: 'note 1:7 “How can bread pollute the Lord?”'
+    claim: 'Offering defiled food to God is regarded as defiling God Himself'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'In this sense they regard the offering of defiled food to God as defiling God Himself.'
+  - where: 'note 1:7 “How can bread pollute the Lord?”'
+    claim: 'The table of the Lord is the altar'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'The table of Jehovah is the altar, upon which the sacrifices (i.e., the food of God) were laid.'
+  - where: 'note 1:7 “How can bread pollute the Lord?”'
+    claim: 'The Church’s footnote on “table” at 1:12 leads to Ezekiel 41:22'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/1?lang=eng'
+    quote: '“table”: Ezek. 41:22; 44:16.'
+  - where: 'note 1:7 “How can bread pollute the Lord?”'
+    claim: 'Ezekiel 41:22 calls an altar of wood the table before the Lord'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/41?lang=eng'
+    quote: 'and he said unto me, This is the table that is before the Lord.'
+  - where: 'note 1:7 “How can bread pollute the Lord?”'
+    claim: 'The bread is not the showbread but the sacrificial flesh, called the food of God in Leviticus 21'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'does not refer to the shew-bread, for that was not offered upon the altar, but is the sacrificial flesh, which is called in Leviticus 21:6, Leviticus 21:8, Leviticus 21:17, the food (lechem) of God'
+  - where: 'note 1:7 “How can bread pollute the Lord?”'
+    claim: 'Leviticus 21:6: priests are not to profane the name of their God; they offer the bread of their God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/21?lang=eng'
+    quote: 'They shall be holy unto their God, and not profane the name of their God: for the offerings of the Lord made by fire, and the bread of their God, they do offer'
+  - where: 'note 1:7 “How can bread pollute the Lord?”'
+    claim: 'The Hebrew verb “profane” in Leviticus 21:6 is lemma 2490 c'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'יְחַלְּל֔וּ'
+  - where: 'note 1:7 “How can bread pollute the Lord?”'
+    claim: 'The Hebrew verb “profaned” in Malachi 1:12 is the same verb (lemma 2490 c)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'מְחַלְּלִ֣ים'
+  - where: 'note 1:7 “How can bread pollute the Lord?”'
+    claim: 'What the priests profane in 1:12 is the name of the Lord'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'the priests of Israel desecrate the name of the Lord by that contempt of His name'
+
+  # ---------- note 1:8 “Try it on the governor” ----------
+  - where: 'note 1:8 “Try it on the governor”'
+    claim: 'The Hebrew for “governor” in 1:8 is pechah (lemma 6346)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'לְ/פֶחָתֶ֗/ךָ'
+  - where: 'note 1:8 “Try it on the governor”'
+    claim: 'The Hebrew pechah (lemma 6346) is used of Zerubbabel, governor of Judah, in Haggai 1:1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hag.xml'
+    quote: 'פַּחַ֣ת'
+  - where: 'note 1:8 “Try it on the governor”'
+    claim: 'Haggai 1:1: Zerubbabel, governor of Judah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/1?lang=eng'
+    quote: 'unto Zerubbabel the son of Shealtiel, governor of Judah'
+  - where: 'note 1:8 “Try it on the governor”'
+    claim: 'The same word (lemma 6346) is Nehemiah’s title in Nehemiah 5:14'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Neh.xml'
+    quote: 'פֶּחָ/ם֮'
+  - where: 'note 1:8 “Try it on the governor”'
+    claim: 'Nehemiah was appointed governor in the land of Judah under Artaxerxes and did not eat the bread of the governor'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/neh/5?lang=eng'
+    quote: 'Moreover from the time that I was appointed to be their governor in the land of Judah, from the twentieth year even unto the two and thirtieth year of Artaxerxes the king'
+  - where: 'note 1:8 “Try it on the governor”'
+    claim: 'Earlier governors took bread and wine from the people (Nehemiah 5:15)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/neh/5?lang=eng'
+    quote: 'But the former governors that had been before me were chargeable unto the people, and had taken of them bread and wine'
+  - where: 'note 1:8 “Try it on the governor”'
+    claim: 'Malachi 1:8 need not presuppose a non-Israelite governor and might apply to Nehemiah; the words may relate to gifts and not the governor’s supplies'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'does not necessarily presuppose a non-Israelitish vicegerent, but might also apply to Nehemiah, since the prophet''s words may be understood as relating to free-will gifts or presents'
+  - where: 'note 1:8 “Try it on the governor”'
+    claim: 'The argument runs from the governor to God'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'If the governor would not accept worthless gifts graciously, how could they expect a gracious answer to their prayers from God when they offered such gifts to Him?'
+  - where: 'note 1:8 “Try it on the governor”'
+    claim: 'Verse 9 is a challenge whose answer is no; such intercession would be fruitless'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'but at the same time he intimates by the question, whether God would take any notice of this, that under the existing circumstances such intercession would be fruitless'
+  - where: 'note 1:8 “Try it on the governor”'
+    claim: 'Verse 9 has also been read as an earnest call to repentance; the context is against it'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'The view of Jerome, Grotius, and Hitzig, that the challenge to seek the face of God is an earnest call to repentance or to penitential prayer, is at variance with the context.'
+
+  # ---------- note 1:10 “For nought: unpaid, or in vain?” ----------
+  - where: 'note 1:10 “For nought: unpaid, or in vain?”'
+    claim: 'The Student Manual reads “for nought” as unpaid: no priest would kindle the altar fire unless paid'
+    key: ot-manual-34
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-34?lang=eng'
+    quote: 'They were selfish and worldly, and not one of them would kindle a fire on the hearth of the altar unless he were paid for it.'
+  - where: 'note 1:10 “For nought: unpaid, or in vain?”'
+    claim: 'The Hebrew of “for nought” in 1:10 is chinnam (lemma 2600)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'חִנָּ֑ם'
+  - where: 'note 1:10 “For nought: unpaid, or in vain?”'
+    claim: 'chinnam means gratis, for nothing'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2600.htm'
+    quote: 'a. gratis, gratuitously, for nothing'
+  - where: 'note 1:10 “For nought: unpaid, or in vain?”'
+    claim: 'The lexicon’s example of that sense is serving for nought in Genesis 29:15'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2600.htm'
+    quote: 'to serve for nought Genesis 29:15'
+  - where: 'note 1:10 “For nought: unpaid, or in vain?”'
+    claim: 'chinnam also means for no purpose, in vain, and the lexicon lists Malachi 1:10 there'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2600.htm'
+    quote: 'b. for no purpose, in vain Proverbs 1:17; Malachi 1:10'
+  - where: 'note 1:10 “For nought: unpaid, or in vain?”'
+    claim: 'The Updated NRSV renders 1:10 as a wish, with “in vain”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+1&version=NRSVUE'
+    quote: 'Oh, that someone among you would shut the temple doors, so that you would not kindle fire on my altar in vain!'
+  - where: 'note 1:10 “For nought: unpaid, or in vain?”'
+    claim: 'The Septuagint reads “even among you the doors shall be shut”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/malachi/1.htm'
+    quote: '10Because even among you the doors shall be shut, and one will not kindle the fire of mine altar for nothing'
+
+  # ---------- note 1:11 “Present or future?” ----------
+  - where: 'note 1:11 “Present or future?”'
+    claim: 'The first clause of 1:11 has no finite verb: gadol shemi bagoyim, with participles muqtar and muggash'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'מֻקְטָ֥ר'
+  - where: 'note 1:11 “Present or future?”'
+    claim: 'The second participle of 1:11 (“offered”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'מֻגָּ֛שׁ'
+  - where: 'note 1:11 “Present or future?”'
+    claim: 'The Church’s chapter heading reads the verse as future'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/1?lang=eng'
+    quote: 'The Lord’s name will be great among the Gentiles.'
+  - where: 'note 1:11 “Present or future?”'
+    claim: 'The Updated NRSV reads “is great”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+1&version=NRSVUE'
+    quote: 'my name is great among the nations'
+  - where: 'note 1:11 “Present or future?”'
+    claim: 'The Septuagint reads “has been glorified”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/malachi/1.htm'
+    quote: 'my name has been glorified among the Gentiles'
+  - where: 'note 1:11 “Present or future?”'
+    claim: 'Both explanations are admissible on grammatical grounds'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'Both of these explanations are admissible on grammatical grounds'
+  - where: 'note 1:11 “Present or future?”'
+    claim: 'In Malachi’s time the Lord’s name was not great from east to west, nor incense offered in every place'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'At the time of Malachi the name of Jehovah was not great from the rising to the setting of the sun, nor were incense and sacrifice offered to Him in every place'
+  - where: 'note 1:11 “Present or future?”'
+    claim: 'On that argument the verse is prophetic of the spread of the kingdom of God among all nations'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'Consequently we must understand the words prophetically as relating to that spread of the kingdom of God among all nations, with which the worship of the true God would commence "in every place."'
+  - where: 'note 1:11 “Present or future?”'
+    claim: '“In every place” contrasts with the one place, the temple at Jerusalem, in the old covenant'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'forms an antithesis to the one place, in the temple at Jerusalem, to which the worship of God was limited during the time of the old covenant'
+  - where: 'note 1:11 “Present or future?”'
+    claim: '“Pure” means according to the requirements of the law, in contrast to polluted sacrifices'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/1.htm'
+    quote: 'pure, i.e., according to the requirements of the law, in contrast to sacrifices polluted by faulty animals'
+  - where: 'note 1:11 “Present or future?”'
+    claim: 'The one Hebrew word goyim (lemma 1471 a) is “Gentiles” and “heathen” in 1:11 and “heathen” in 1:14'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'בַ/גּוֹיִֽם'
+
+  # ---------- note 1:13 “Torn, taken, or maimed?” ----------
+  - where: 'note 1:13 “Torn, taken, or maimed?”'
+    claim: 'The Hebrew participle in 1:13 is gazul (lemma 1497)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'גָּז֗וּל'
+  - where: 'note 1:13 “Torn, taken, or maimed?”'
+    claim: 'The Updated NRSV: “taken by violence”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+1&version=NRSVUE'
+    quote: 'You bring what has been taken by violence or is lame or sick'
+  - where: 'note 1:13 “Torn, taken, or maimed?”'
+    claim: 'The Septuagint reads “torn victims”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/malachi/1.htm'
+    quote: 'and ye brought in torn victims, and lame, and sick'
+  - where: 'note 1:13 “Torn, taken, or maimed?”'
+    claim: 'The verb gazal means to tear away, seize, rob'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1497.htm'
+    quote: 'verb tear away, seize, rob'
+  - where: 'note 1:13 “Torn, taken, or maimed?”'
+    claim: 'BDB: Malachi 1:13 gazul stands with lame and sick, probably an animal rescued after seizure by wild beasts, therefore mutilated'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1497.htm'
+    quote: 'probably that rescued after seizure by wild beasts, therefore mutilated'
+
+  # ---------- note 1:14 “The cheat with a male in his flock” ----------
+  - where: 'note 1:14 “The cheat with a male in his flock”'
+    claim: 'A vow or freewill offering brought as a burnt offering must be a male without blemish (Lev. 22:18–19)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/22?lang=eng'
+    quote: 'Ye shall offer at your own will a male without blemish, of the beeves, of the sheep, or of the goats.'
+  - where: 'note 1:14 “The cheat with a male in his flock”'
+    claim: 'Leviticus 22:18 speaks of vows and freewill offerings offered for a burnt offering'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/22?lang=eng'
+    quote: 'that will offer his oblation for all his vows, and for all his freewill offerings, which they will offer unto the Lord for a burnt offering'
+  - where: 'note 1:14 “The cheat with a male in his flock”'
+    claim: 'For a vow an animal lacking in its parts is not accepted (Lev. 22:23)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/22?lang=eng'
+    quote: 'that mayest thou offer for a freewill offering; but for a vow it shall not be accepted'
+  - where: 'note 1:14 “The cheat with a male in his flock”'
+    claim: 'The Hebrew nokhel means crafty, deceitful'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5230.htm'
+    quote: 'verb be crafty, deceitful, knavish'
+  - where: 'note 1:14 “The cheat with a male in his flock”'
+    claim: 'The Hebrew for “deceiver” in 1:14 is a form of nakal (lemma 5230)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'נוֹכֵ֗ל'
+  - where: 'note 1:14 “The cheat with a male in his flock”'
+    claim: 'The Updated NRSV reads “cheat”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Malachi+1&version=NRSVUE'
+    quote: 'Cursed be the cheat who has a male in the flock and vows to give it and yet sacrifices to the Lord what is blemished'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
+  - where: 'christ'
+    claim: 'Animal sacrifice symbolized the atoning sacrifice of Jesus Christ; for that reason the animals had to be perfect'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'Animal sacrifice symbolized the atoning sacrifice of Jesus Christ. Because of this, the Lord commanded that all animals offered must “be perfect to be accepted; there shall be no blemish therein.”'
+  - where: 'christ'
+    claim: 'The Church’s footnote at 1:10 (“accept”) leads to 3 Nephi 9:19–20'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/1?lang=eng'
+    quote: '“accept”: Amos 5:22 (21–22); 3 Ne. 9:19 (19–20).'
+  - where: 'christ'
+    claim: 'The Lord says to the Nephites that they shall offer up no more the shedding of blood'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/9?lang=eng'
+    quote: 'And ye shall offer up unto me no more the shedding of blood; yea, your sacrifices and your burnt offerings shall be done away'
+  - where: 'christ'
+    claim: 'The Church footnotes on “name” in 1:11 lead to Philippians 2:9 and D&C 18:23'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/1?lang=eng'
+    quote: '“name”: Isa. 59:19; Zeph. 2:11; Philip. 2:9 (5–12); D&C 18:23 (21–25); 88:104.'
