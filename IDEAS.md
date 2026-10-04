@@ -9,7 +9,7 @@ So readers can load the commentary into their own AI conversations. Suggested pl
 1. Have `build.mjs` also emit a machine-readable `corpus.json` (KJV text, sections, notes, sources for every chapter) and an `llms.txt`, which works on any static host.
 2. Add a small MCP server over that corpus with tools such as `get_chapter`, `get_verse_commentary`, `search_notes`, and `list_sources`. It can run locally as an npm package over stdio, or remotely as a serverless function (for example a Cloudflare Worker at mcp.scriptures.conlin.io), depending on the host chosen.
 
-## A random note on the home page
+## A random note on the home page (done 2026-10-03)
 
 (Author, 2026-10-03: “Might be fun to have a random quote generator to go alongside with the quotes on the main page.”) The home page's “Try a phrase” shows three notes chosen when the site is built. A button beside them could draw another at random in the browser, from the same data the search page loads. A change to how the site looks, so on a branch until the author has seen it.
 
