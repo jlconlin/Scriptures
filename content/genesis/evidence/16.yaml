@@ -1,0 +1,701 @@
+chapter: 16
+claims:
+  # ---------- when / setting ----------
+  - where: 'when'
+    claim: 'Abram was seventy-five when he left Haran; Hagar is given ten years after he came into Canaan'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/12?lang=eng'
+    quote: 'Abram was seventy and five years old when he departed out of Haran.'
+  - where: 'setting'
+    claim: 'Sarai’s offer of Hagar follows a practice known elsewhere in the region for a childless wife (Nuzi parallel)'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'the Genesis account seems to follow a practice witnessed elsewhere in the region'
+  - where: 'setting'
+    claim: 'The two Hagar stories (Gen. 16 and 21) both revolve around the near-death of Hagar and Ishmael, and parallel the offering of Isaac'
+    key: sc-knowhy-839
+    url: 'https://scripturecentral.org/knowhy/why-might-similarities-between-the-expulsion-of-hagar-and-abraham-s-near-sacrifice-of-isaac-be-meaningful-and-significant'
+    quote: 'Genesis 16:4–16 and Genesis 21:9–21 revolve around the near-death of Hagar and her son Ishmael.'
+  - where: 'setting'
+    claim: 'The second Hagar story (Gen. 21) is told much like the offering of Isaac (Gen. 22)'
+    key: sc-knowhy-839
+    url: 'https://scripturecentral.org/knowhy/why-might-similarities-between-the-expulsion-of-hagar-and-abraham-s-near-sacrifice-of-isaac-be-meaningful-and-significant'
+    quote: 'The similarities (not necessarily in the same order) between the narratives in Genesis 21 and 22 are as follows'
+  - where: 'setting'
+    claim: 'Latter-day revelation says God commanded the marriage and that Hagar’s descendants were part of the promises to Abraham'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/132?lang=eng'
+    quote: 'God commanded Abraham, and Sarah gave Hagar to Abraham to wife. And why did she do it? Because this was the law; and from Hagar sprang many people.'
+  - where: 'setting'
+    claim: 'Paul uses the story as an allegory of two covenants, one of bondage and one of freedom'
+    key: bd-hagar
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hagar?lang=eng'
+    quote: 'Paul uses the story as an allegory to show the difference between the two covenants, the one a covenant of bondage and the other one of freedom'
+  - where: 'setting'
+    claim: 'The narrative is silent for thirteen years after Ishmael’s birth'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'For thirteen years, the narrative is silent about Hagar and everyone else in Abraham’s household.'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'The sight words of verse 4 (“she saw,” “in her eyes”) mark a shift in Hagar’s perception'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'The sight words that begin and end this moment—“she saw” and “in her eyes”—reveal a shift in Hagar’s perception.'
+  - where: 'thread'
+    claim: 'Verse 6 in Hebrew: do to her “what is good in your eyes”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/16-6.htm'
+    quote: 'haṭ·ṭō·wḇ הַטּ֣וֹב what is good Art ¦ Adj‑ms … bə·‘ê·nā·yiḵ; בְּעֵינָ֑יִךְ in your eyes'
+  - where: 'thread'
+    claim: 'Verse 2: Abram “listened” (shama‘, Strong’s 8085) to the voice of Sarai'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/16-2.htm'
+    quote: 'way·yiš·ma‘ וַיִּשְׁמַ֥ע And listened'
+  - where: 'thread'
+    claim: 'Verse 11: the LORD has heard (shama‘, the same verb) her affliction'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/16-11.htm'
+    quote: 'šā·ma‘ שָׁמַ֥ע has listened V‑Qal‑Perf‑3ms … Yah·weh יְהוָ֖ה YHWH'
+  - where: 'thread'
+    claim: 'Abram and Sarai never call Hagar by name, only “my maid”'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'coupled with how Abraham and Sarah refer to her only as Sarah’s'
+  - where: 'thread'
+    claim: '‘anah (Piel) in 16:6, “humble, mishandle, afflict”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6031.htm'
+    quote: '1 humble, mishandle, afflict: individual Genesis 16:6'
+  - where: 'thread'
+    claim: 'The same verb (Hithpael) in 16:9, “humble oneself” under her hands'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6031.htm'
+    quote: '1 humble oneself (with תַּחַת יָדֶיהָ ) Genesis 16:9'
+  - where: 'thread'
+    claim: 'BDB places ‘oni, “affliction,” in the section of the root ‘anah III, “be bowed down, afflicted”'
+    key: bdb
+    url: 'https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml'
+    quote: 'vb. be bowed down, afflicted'
+  - where: 'thread'
+    claim: '‘oni: noun, “affliction,” in the same root section (p. 777)'
+    key: bdb
+    url: 'https://raw.githubusercontent.com/openscriptures/HebrewLexicon/master/BrownDriverBriggs.xml'
+    quote: 'עֳנִי n.m. affliction, poverty'
+  - where: 'thread'
+    claim: '‘oni in Gen. 16:11'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6040.htm'
+    quote: 'noun masculine affliction, poverty'
+
+  # ---------- section plains ----------
+  - where: 'section 3 plain'
+    claim: 'Second half of v. 13 can be rendered “Have I really seen him here who sees me?”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%2016&version=ESV'
+    quote: 'Hebrew Have I really seen him here who sees me?'
+  - where: 'section 3 plain'
+    claim: 'Beer-lahai-roi: well of the living One that sees me'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/883.htm'
+    quote: 'literally well of the living One that seeth me'
+  - where: 'section 2 plain'
+    claim: 'Verse 12 literally: “over against the face of all his brothers he shall dwell”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/16-12.htm'
+    quote: 'wə·‘al- וְעַל־ and over against Conj‑w ¦ Prep … pə·nê פְּנֵ֥י the face'
+
+  # ---------- note 16:1 ----------
+  - where: 'note 16:1 “Who Hagar was”'
+    claim: 'shiphchah: a maid-servant as belonging to a mistress (Gen. 16:1, 3, 6, 8)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8198.htm'
+    quote: 'literally, maid, maid-servant , as belonging to a mistress Genesis 16:1 ,3,6,8'
+  - where: 'note 16:1 “Who Hagar was”'
+    claim: 'shiphchah is used even where she is the master’s concubine (Gen. 16:2, 5)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8198.htm'
+    quote: 'even where concubine of master'
+  - where: 'note 16:1 “Who Hagar was”'
+    claim: 'How Hagar came into Sarah’s service is uncertain'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'How Hagar came to be in servitude to Sarah is uncertain.'
+  - where: 'note 16:1 “Who Hagar was”'
+    claim: 'Early rabbis conjectured she was a gift from Pharaoh (Gen. 12:16)'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'Was she, as early rabbis conjectured, a gift from the Pharaoh received during Abraham’s time in Egypt'
+  - where: 'note 16:1 “Who Hagar was”'
+    claim: 'Hagar was Sarah’s enslaved Egyptian maid'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'this includes Sarah’s decision to give her enslaved Egyptian maid Hagar to Abraham as a concubine'
+
+  # ---------- note 16:2 ----------
+  - where: 'note 16:2 “Built up through her”'
+    claim: 'Hebrew of verse 2: ’ulay ’ibbaneh mimmennah, “perhaps I shall be built up from her”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/16-2.htm'
+    quote: '’ū·lay אוּלַ֥י perhaps Adv … ’ib·bā·neh אִבָּנֶ֖ה I shall be built up V‑Nifal‑Imperf‑1cs … mim·mên·nāh; מִמֶּ֑נָּה from her'
+  - where: 'note 16:2 “Built up through her”'
+    claim: 'banah of a childless wife by means of a concubine: become the mother of a family; also Gen. 30:3'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1129.htm'
+    quote: 'of childless wife, by means of concubine אִבָּנֶה מִמֶּגָּה Genesis 16:2 ; Genesis 30:3 I shall be built up , i.e. become the mother of a family, from or through her'
+  - where: 'note 16:2 “Built up through her”'
+    claim: '“Built up” sounds like the Hebrew for children'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%2016&version=ESV'
+    quote: 'Genesis 16:2 Hebrew be built up , which sounds like the Hebrew for children'
+  - where: 'note 16:2 “Built up through her”'
+    claim: 'A second wife was known but uncommon, usually for childlessness, sickness or misconduct, with the first wife’s consent'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'but not commonly practiced. It was usually under conditions of childlessness, sickness, or misconduct, and with the consent of the first wife.'
+  - where: 'note 16:2 “Built up through her”'
+    claim: 'Here: childlessness and the instigation of the first wife'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'childlessness and not just the consent but the instigation of the first wife (Genesis 16:2)'
+  - where: 'note 16:2 “Built up through her”'
+    claim: 'The Nuzi texts, from Mesopotamia, mid-second millennium BC'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'a similar custom was followed in Mesopotamia during this period. The Nuzi texts, written by the Hurrians in the mid-second millennium BC'
+  - where: 'note 16:2 “Built up through her”'
+    claim: 'Under Nuzi law the barren wife was to choose a second wife for her husband'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'according to Nuzi law, the barren wife bore the responsibility to choose a second wife for her husband in the event of infertility'
+  - where: 'note 16:2 “Built up through her”'
+    claim: 'Sarah is first named as the mother in Gen. 17:19'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng'
+    quote: 'Sarah thy wife shall bear thee a son indeed; and thou shalt call his name Isaac'
+  - where: 'note 16:2 “Built up through her”'
+    claim: 'The promise of numberless posterity in Gen. 15:4–5 was made to Abraham and did not name Sarah'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'What did it feel like to believe that the Lord’s promise of numberless posterity made to her husband did not include her as well (Genesis 15:4–5)?'
+  - where: 'note 16:2 “Built up through her”'
+    claim: 'Abraham and Sarah waited on the Lord many years'
+    key: sc-knowhy-838
+    url: 'https://scripturecentral.org/knowhy/why-did-the-lord-tell-abraham-that-neither-his-servant-nor-ishmael-would-be-his-heir'
+    quote: 'Abraham and Sarah waited together on the Lord for many, many years.'
+  - where: 'note 16:2 “Built up through her”'
+    claim: 'Their steps fit the law codes and were also acts of faith toward the promises'
+    key: sc-knowhy-838
+    url: 'https://scripturecentral.org/knowhy/why-did-the-lord-tell-abraham-that-neither-his-servant-nor-ishmael-would-be-his-heir'
+    quote: 'This was consistent with the norms in the law codes of the day but were also acts of faith as they tried to fulfill the Lord’s promises.'
+
+  # ---------- note 16:3 ----------
+  - where: 'note 16:3 “Commanded, says latter-day revelation”'
+    claim: 'D&C 132:35: Abraham not under condemnation, for the Lord commanded it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/132?lang=eng'
+    quote: 'Was Abraham, therefore, under condemnation? Verily I say unto you, Nay; for I, the Lord, commanded it.'
+  - where: 'note 16:3 “Commanded, says latter-day revelation”'
+    claim: 'D&C 132:65: Sarah administered according to the law when the Lord commanded Abraham to take Hagar'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/132?lang=eng'
+    quote: 'who administered unto Abraham according to the law when I commanded Abraham to take Hagar to wife'
+  - where: 'note 16:3 “Commanded, says latter-day revelation”'
+    claim: 'The idea was likely not Sarah’s alone'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'The idea to give Hagar to Abraham, however, was likely not Sarah’s alone.'
+  - where: 'note 16:3 “Commanded, says latter-day revelation”'
+    claim: 'D&C 132:34, 65 indicate the Lord revealed the plan to Sarah and Abraham'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'indicating that the Lord revealed the plan to Sarah and Abraham'
+  - where: 'note 16:3 “Commanded, says latter-day revelation”'
+    claim: 'The Church reads the marriage as a commandment Abraham and Sarah obeyed'
+    key: scripture-helps-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/07-genesis-12-17-abraham-1-2?lang=eng'
+    quote: 'From latter-day revelation we understand that this was a commandment from God that Abraham and Sarah obeyed.'
+  - where: 'note 16:3 “Commanded, says latter-day revelation”'
+    claim: 'D&C 132:37: Isaac and Jacob did only what they were commanded'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/132?lang=eng'
+    quote: 'as Isaac also and Jacob did none other things than that which they were commanded'
+  - where: 'note 16:3 “Commanded, says latter-day revelation”'
+    claim: 'Monogamy is the Lord’s standing law of marriage; in biblical times He commanded some to practice plural marriage'
+    key: gte-plural-marriage-kirtland
+    url: 'https://www.churchofjesuschrist.org/study/manual/gospel-topics-essays/plural-marriage-in-kirtland-and-nauvoo?lang=eng'
+    quote: 'Latter-day Saints believe that monogamy—the marriage of one man and one woman—is the Lord’s standing law of marriage. In biblical times, the Lord commanded some of His people to practice plural marriage'
+  - where: 'note 16:3 “Commanded, says latter-day revelation”'
+    claim: 'Divine approval did not make the marriages easier'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'divine approval did not make the actual marriages any easier'
+
+  # ---------- note 16:4 ----------
+  - where: 'note 16:4 “Sarai grew small in her eyes”'
+    claim: 'qalal: be slight; of a person, trifling, of little account (Gen. 16:4, 5)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7043.htm'
+    quote: '3 trifling , i.e. of little account., of person, Genesis 16:4 ,5'
+  - where: 'note 16:4 “Sarai grew small in her eyes”'
+    claim: 'qalal, sense 1: be slight'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7043.htm'
+    quote: '1 be slight , of water, be abated'
+  - where: 'note 16:4 “Sarai grew small in her eyes”'
+    claim: 'Hebrew of verse 4: watteqal ... be‘eneha'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/16-4.htm'
+    quote: 'wat·tê·qal וַתֵּקַ֥ל and became despised'
+  - where: 'note 16:4 “Sarai grew small in her eyes”'
+    claim: 'Code of Hammurabi §146: a maid given as wife who bears children and assumes equality with the wife may not be sold but may be kept as a slave'
+    key: hammurabi-king
+    url: 'https://avalon.law.yale.edu/ancient/hamcode.asp'
+    quote: 'and then this maid assume equality with the wife: because she has borne him children her master shall not sell her for money, but he may keep her as a slave, reckoning her among the maid-servants.'
+  - where: 'note 16:4 “Sarai grew small in her eyes”'
+    claim: 'Legally the first wife took precedence over the second and had power over her'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'Legally, Sarah, as the first wife, takes precedence over the second wife and has power over her.'
+  - where: 'note 16:4 “Sarai grew small in her eyes”'
+    claim: 'Hagar’s pregnancy raised her status, and the two women’s standing in the household was in flux'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'Carrying Abraham’s child raises Hagar’s status within the household'
+  - where: 'note 16:4 “Sarai grew small in her eyes”'
+    claim: 'Sarah’s harshness may echo this custom, treating Hagar as an ordinary slave rather than as family'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'This custom may echo Sarah’s response to Hagar by … perhaps treating her like a regular enslaved servent rather than as part of the family'
+
+  # ---------- note 16:5 ----------
+  - where: 'note 16:5 “The wrong done to me”'
+    claim: 'chamas: violence, wrong; Gen. 6:11'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2555.htm'
+    quote: 'violence, wrong — absolute ׳ ח Genesis 6:11 + 44 t.'
+  - where: 'note 16:5 “The wrong done to me”'
+    claim: 'With the suffix in Gen. 16:5 and Jer. 51:35 it means “wrong done to me”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2555.htm'
+    quote: 'suffix חֲמָסִי Genesis 16:5 ; Jeremiah 51:35 (in both = wrong done to me )'
+  - where: 'note 16:5 “The wrong done to me”'
+    claim: 'Hebrew of verse 5: chamasi ‘aleka'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/16-5.htm'
+    quote: 'ḥă·mā·sî חֲמָסִ֣י My wrong … ‘ā·le·ḵā עָלֶיךָ֒ upon you'
+  - where: 'note 16:5 “The wrong done to me”'
+    claim: 'Sarah seems to feel she made a mistake, answering being despised with a rejoinder to her husband'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'Sarah seems to feel that she has made a mistake on some level since she responds to being despised with a rejoinder to her husband'
+
+  # ---------- note 16:6 ----------
+  - where: 'note 16:6 “Afflicted, as Israel would be in Egypt”'
+    claim: 'Abram’s answer reasserts Hagar’s status as bondwoman and Sarah’s role in the household'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'In turning the matter over to Sarah, Abraham reasserts Hagar’s status as a bondwoman and reinforces Sarah’s managerial role in running the household.'
+  - where: 'note 16:6 “Afflicted, as Israel would be in Egypt”'
+    claim: 'Hebrew of verse 6: watte‘anneha, “and dealt harshly with her”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/16-6.htm'
+    quote: 'wat·tə·‘an·ne·hā וַתְּעַנֶּ֣הָ And dealt harshly with her'
+  - where: 'note 16:6 “Afflicted, as Israel would be in Egypt”'
+    claim: '‘anah (Piel) of a nation in bondage: Gen. 15:13; Ex. 1:11–12'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6031.htm'
+    quote: 'a nation by war or in bondage Genesis 15:13 (J) Exodus 1:11,12'
+  - where: 'note 16:6 “Afflicted, as Israel would be in Egypt”'
+    claim: 'Hagar’s affliction is linked to what the Lord told Abraham of his descendants’ affliction (Gen. 15:13)'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Hagar’s ordeal finds a type with what the Lord prophesied to Abraham: his posterity would live in a strange land where they would be afflicted (Genesis 15:13).'
+  - where: 'note 16:6 “Afflicted, as Israel would be in Egypt”'
+    claim: 'What Sarah did is not known'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'Whether this implies Sarah treated Hagar as her maidservant—asking her to clean or fetch water—or suggests actual abuse we do not know.'
+  - where: 'note 16:6 “Afflicted, as Israel would be in Egypt”'
+    claim: 'The same word describes the Hebrews’ suffering under the Egyptians'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'notably, the same word describes the suffering of the Hebrews when they were enslaved by the Egyptians'
+  - where: 'note 16:6 “Afflicted, as Israel would be in Egypt”'
+    claim: 'The Hagar story is the flight of an Egyptian from the ancestors of the Hebrews'
+    key: sc-knowhy-839
+    url: 'https://scripturecentral.org/knowhy/why-might-similarities-between-the-expulsion-of-hagar-and-abraham-s-near-sacrifice-of-isaac-be-meaningful-and-significant'
+    quote: 'The Bible will later tell the story about the flight of the Hebrews from Egypt, but the Hagar narrative tells the story of the flight of Hagar, an Egyptian, from the ancestors of the Hebrews'
+  - where: 'note 16:6 “Afflicted, as Israel would be in Egypt”'
+    claim: 'All three acted in very human ways'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'Hagar’s taking advantage of her mistress’s infertility for self-aggrandizement, Sarah’s dealing harshly with Hagar, and Abraham’s unwillingness to intervene in the struggles between his wives are very human responses'
+  - where: 'note 16:6 “Afflicted, as Israel would be in Egypt”'
+    claim: 'Despite imperfections, all three loved the Lord and were blessed by Him'
+    key: scripture-helps-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/07-genesis-12-17-abraham-1-2?lang=eng'
+    quote: 'Despite their circumstances and imperfections, Abraham, Sarah, and Hagar loved the Lord and were greatly blessed by Him.'
+
+  # ---------- note 16:7 ----------
+  - where: 'note 16:7 “The angel of the LORD”'
+    claim: 'mal’akh means “messenger”; BDB’s first construct reference is Gen. 16:7'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4397.htm'
+    quote: 'מַלְאָךְ 214 noun masculine messenger ; — ׳ מ Exodus 23:20 48t.; construct מַלְאַךְ Genesis 16:7 69t.'
+  - where: 'note 16:7 “The angel of the LORD”'
+    claim: 'Searched by lemma (Strong’s 4397) through the WLC: the first occurrence of mal’akh in the Hebrew Bible is Gen. 16:7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'מַלְאַ֧ךְ'
+  - where: 'note 16:7 “The angel of the LORD”'
+    claim: 'Verse 13: Hagar named YHWH who spoke to her'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/16-13.htm'
+    quote: 'Yah·weh יְהוָה֙ of YHWH N‑proper‑ms … had·dō·ḇêr הַדֹּבֵ֣ר who spoke'
+  - where: 'note 16:7 “The angel of the LORD”'
+    claim: 'The angel of the Lord is generally another name for the Lord himself'
+    key: sc-knowhy-839
+    url: 'https://scripturecentral.org/knowhy/why-might-similarities-between-the-expulsion-of-hagar-and-abraham-s-near-sacrifice-of-isaac-be-meaningful-and-significant'
+    quote: 'Generally speaking, the Angel of the Lord in the Hebrew Bible is another name for the Lord himself.'
+  - where: 'note 16:7 “The angel of the LORD”'
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ'
+  - where: 'note 16:7 “The angel of the LORD”'
+    claim: 'Shur: southwest of Palestine, on the east border of Egypt'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7793.htm'
+    quote: 'proper name, of a location southwest of Palestine, on east border of Egypt'
+  - where: 'note 16:7 “The angel of the LORD”'
+    claim: 'Whether Hagar meant to return to Egypt cannot be known'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'Did she hope to traverse the wilderness and return to Egypt alone?'
+  - where: 'note 16:7 “The angel of the LORD”'
+    claim: 'We cannot know for sure'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'We cannot know for sure'
+
+  # ---------- note 16:8 ----------
+  - where: 'note 16:8 “Called by name”'
+    claim: 'The angel is the first in the story to use her name and speak with her'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'For the first time in the story, an individual—a divine individual—uses her name and engages her in a dialogue.'
+  - where: 'note 16:8 “Called by name”'
+    claim: 'The question “whither wilt thou go?” shows her future matters to God'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'she is an individual worthy of being addressed by name and whose future matters to him: “And whither wilt thou go?” (v. 8)'
+
+  # ---------- note 16:9 ----------
+  - where: 'note 16:9 “Why send her back?”'
+    claim: 'Hebrew of verse 9: wehit‘anni, Hithpael imperative, “and submit yourself”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/16-9.htm'
+    quote: 'wə·hiṯ·‘an·nî וְהִתְעַנִּ֖י and submit yourself Conj‑w ¦ V‑Hitpael‑Imp‑fs'
+  - where: 'note 16:9 “Why send her back?”'
+    claim: 'Hithpael of ‘anah in 16:9: humble oneself under her hands'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6031.htm'
+    quote: '1 humble oneself (with תַּחַת יָדֶיהָ ) Genesis 16:9'
+  - where: 'note 16:9 “Why send her back?”'
+    claim: 'Fugitive slaves were a serious matter; harboring them carried the death penalty'
+    key: gee-wanderings
+    url: 'https://rsc.byu.edu/creation-sinai/wanderings-abraham'
+    quote: 'Fugitive slaves were a serious matter; harboring them carried the death penalty.'
+  - where: 'note 16:9 “Why send her back?”'
+    claim: 'Code of Hammurabi §17: a reward for returning runaway slaves to their masters'
+    key: hammurabi-king
+    url: 'https://avalon.law.yale.edu/ancient/hamcode.asp'
+    quote: 'If any one find runaway male or female slaves in the open country and bring them to their masters, the master of the slaves shall pay him two shekels of silver.'
+  - where: 'note 16:9 “Why send her back?”'
+    claim: 'Code of Hammurabi §19: one who keeps runaway slaves in his house is put to death'
+    key: hammurabi-king
+    url: 'https://avalon.law.yale.edu/ancient/hamcode.asp'
+    quote: 'If he hold the slaves in his house, and they are caught there, he shall be put to death.'
+  - where: 'note 16:9 “Why send her back?”'
+    claim: 'Hagar likely had no legal right to leave, but the command likely had a spiritual reason too'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Most likely, Hagar as a bondwoman did not have the legal right to walk away from her mistress. But the angel’s intervention likely carried a spiritual reason for her return to Sarah as well.'
+  - where: 'note 16:9 “Why send her back?”'
+    claim: 'Because Hagar returned, Ishmael was included in the covenant, circumcised (Gen. 17:23–26)'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Because Hagar faithfully returned, Ishmael was included in the covenant, as was evidenced by him being circumcised (Genesis 17:23–26).'
+  - where: 'note 16:9 “Why send her back?”'
+    claim: 'Hagar’s decision to return let her receive her own covenantal promise'
+    key: scripture-helps-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/07-genesis-12-17-abraham-1-2?lang=eng'
+    quote: 'Hagar’s decision to return to Abraham and Sarah allowed her to receive her own covenantal promise concerning her posterity.'
+
+  # ---------- note 16:10 ----------
+  - where: 'note 16:10 “Abraham’s promise, spoken to Hagar”'
+    claim: 'Hebrew of 16:10: harbah arbeh et-zar‘ekh, “multiplying I will multiply your seed”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/16-10.htm'
+    quote: 'har·bāh הַרְבָּ֥ה Multiplying V‑Hifil‑InfAbs … ’ar·beh אַרְבֶּ֖ה I will multiply … zar·‘êḵ; זַרְעֵ֑ךְ your seed'
+  - where: 'note 16:10 “Abraham’s promise, spoken to Hagar”'
+    claim: 'The same Hebrew words to Abraham in 22:17'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/22-17.htm'
+    quote: 'wə·har·bāh וְהַרְבָּ֨ה and multiplying Conj‑w ¦ V‑Hifil‑InfAbs … ’ar·beh אַרְבֶּ֤ה I will multiply'
+  - where: 'note 16:10 “Abraham’s promise, spoken to Hagar”'
+    claim: 'The promise makes Hagar’s descendants part of the Abrahamic covenant'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'The wording of this promise makes it very clear that Hagar’s descendants are part and parcel with the promises of what we call the Abrahamic covenant'
+  - where: 'note 16:10 “Abraham’s promise, spoken to Hagar”'
+    claim: 'The promises to Abraham go beyond those through Isaac'
+    key: ot-manual-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-12-17-abraham-father-of-the-faithful?lang=eng'
+    quote: 'The angelic message to Hagar shows that the promises to Abraham go even beyond those which have come through Isaac.'
+  - where: 'note 16:10 “Abraham’s promise, spoken to Hagar”'
+    claim: 'Hagar is the only woman in the Bible promised numerous descendants in her own right'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'she becomes the only woman in the Bible to receive a divine promise of numerous descendants not through her husband but as her own prerogative'
+  - where: 'note 16:10 “Abraham’s promise, spoken to Hagar”'
+    claim: 'D&C 132:34: from Hagar sprang many people, fulfilling the promises'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/132?lang=eng'
+    quote: 'and from Hagar sprang many people. This, therefore, was fulfilling, among other things, the promises.'
+
+  # ---------- note 16:11 ----------
+  - where: 'note 16:11 “God hears”'
+    claim: 'Ishmael means “El heareth”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3458.htm'
+    quote: 'proper name, masculine El heareth'
+  - where: 'note 16:11 “God hears”'
+    claim: 'Hebrew of verse 11: shama‘ YHWH ’el-‘onyekh'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/16-11.htm'
+    quote: 'šā·ma‘ שָׁמַ֥ע has listened V‑Qal‑Perf‑3ms … Yah·weh יְהוָ֖ה YHWH N‑proper‑ms … ‘ā·nə·yêḵ. עָנְיֵֽךְ׃ your affliction'
+  - where: 'note 16:11 “God hears”'
+    claim: 'Ishmael bears the mark of the Lord’s care for his mother in his name'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'such that Ishmael bears the mark of the Lord’s care for his mother in his very name'
+  - where: 'note 16:11 “God hears”'
+    claim: 'Gen. 17:20: “and as for Ishmael, I have heard you” (shema‘tikha)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/17-20.htm'
+    quote: 'ū·lə·yiš·mā·‘êl 20 וּֽלְיִשְׁמָעֵ֘אל 20 And as for Ishmael … šə·ma‘·tî·ḵā שְׁמַעְתִּיךָ֒ I have heard you'
+  - where: 'note 16:11 “God hears”'
+    claim: 'Gen. 21:17: God heard (shama‘) the voice of the boy'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/21-17.htm'
+    quote: 'way·yiš·ma‘ 17 וַיִּשְׁמַ֣ע 17 And heard'
+  - where: 'note 16:11 “God hears”'
+    claim: 'Gen. 17:20 “I have heard thee” plays on the meaning of the name Ishmael'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/17.htm'
+    quote: '“I have heard thee” contains a reference to the meaning of the name “Ishmael” = “God hears.”'
+  - where: 'note 16:11 “God hears”'
+    claim: 'Gen. 21:17 “God heard the voice of the lad” is once more a play on the name Ishmael'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/21.htm'
+    quote: 'Once more we have a play upon the name of Ishmael with its meaning of “God heareth.”'
+
+  # ---------- note 16:12 ----------
+  - where: 'note 16:12 “A wild ass of a man”'
+    claim: 'Hebrew of verse 12: pere ’adam … ‘al-pene kol-’echaw, “over against the face of all his brothers”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/16-12.htm'
+    quote: 'pe·re פֶּ֣רֶא a wild donkey … wə·‘al- וְעַל־ and over against Conj‑w ¦ Prep … pə·nê פְּנֵ֥י the face'
+  - where: 'note 16:12 “A wild ass of a man”'
+    claim: 'pere ’adam: a wild ass of a man, Ishmael as a free nomad; wild ass in Job 39:5'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6501.htm'
+    quote: 'Job 39:5 ; Isaiah 32:14 ; Psalm 104:11 ; ׳ עַיִר פ Job 11:12 wild ass''s colt ; אָדָם ׳ פ Genesis 16:12 (J) a wild ass of a man (Ishmael as a free nomad)'
+  - where: 'note 16:12 “A wild ass of a man”'
+    claim: 'The metaphor implies one who loves freedom; perhaps a prophetic description of the nomadic life of his descendants'
+    key: ot-manual-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-12-17-abraham-father-of-the-faithful?lang=eng'
+    quote: 'which metaphor implies one who loves freedom. This metaphor could be a prophetic description of the nomadic life of the descendants of Ishmael'
+  - where: 'note 16:12 “A wild ass of a man”'
+    claim: 'Hagar is told her son will be free, not exploited or subjected by others'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'Hagar is told that her son will be a free man who cannot be exploited or subjected by others'
+  - where: 'note 16:12 “A wild ass of a man”'
+    claim: 'This was likely welcome news to Hagar'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'it was likely welcome news for Hagar; she was under the control of Abraham and Sarah, but her son would be free.'
+  - where: 'note 16:12 “A wild ass of a man”'
+    claim: '‘al pene of localities: in front of, mostly east of; Gen. 16:12 (compare 25:18), perhaps with idea of defiance'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6440.htm'
+    quote: 'of localities, in front of , mostly … = east of'
+  - where: 'note 16:12 “A wild ass of a man”'
+    claim: 'BDB on Gen. 16:12: compare 25:18; perhaps with collateral idea of defiance'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6440.htm'
+    quote: '(compare Genesis 25:18 b), perhaps (Di and others) with collateral idea of defiance'
+  - where: 'note 16:12 “A wild ass of a man”'
+    claim: 'NIV: “in hostility toward all his brothers,” margin “Or live to the east of”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%2016&version=NIV'
+    quote: 'he will live in hostility toward'
+  - where: 'note 16:12 “A wild ass of a man”'
+    claim: 'NIV margin: “Or live to the east of”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%2016&version=NIV'
+    quote: 'Genesis 16:12 Or live to the east / of'
+  - where: 'note 16:12 “A wild ass of a man”'
+    claim: 'Gen. 25:18: Ishmael’s descendants dwelt from Havilah to Shur; “he died in the presence of all his brethren”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/25?lang=eng'
+    quote: 'And they dwelt from Havilah unto Shur , that is before Egypt, as thou goest toward Assyria: and he died in the presence of all his brethren.'
+
+  # ---------- note 16:13 ----------
+  - where: 'note 16:13 “The God who sees me”'
+    claim: 'Hagar is the only person in the Old Testament to name God'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'Hagar’s extraordinary encounter at the well concludes with her becoming the only person in the Old Testament to name God'
+  - where: 'note 16:13 “The God who sees me”'
+    claim: 'Others name the place; Hagar names the Lord himself'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'While many individuals in the Bible name the place where they encounter the Lord, Hagar is the only one who names the Lord himself.'
+  - where: 'note 16:13 “The God who sees me”'
+    claim: 'El ro’i: a God of seeing (= who sees)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7210.htm'
+    quote: 'Genesis 16:13 a a God of seeing ( =who sees)'
+  - where: 'note 16:13 “The God who sees me”'
+    claim: 'Second half of v. 13 word for word'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/genesis/16-13.htm'
+    quote: 'here Adv … rā·’î·ṯî רָאִ֖יתִי I have seen V‑Qal‑Perf‑1cs … ’a·ḥă·rê אַחֲרֵ֥י after N‑mpc … rō·’î. רֹאִֽי׃ Him who sees me'
+  - where: 'note 16:13 “The God who sees me”'
+    claim: 'NRSVUE: “Have I really seen God and remained alive after seeing him?”, margin “Meaning of Heb uncertain”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%2016&version=NRSVUE'
+    quote: 'Have I really seen God and remained alive after seeing him?'
+  - where: 'note 16:13 “The God who sees me”'
+    claim: 'NRSVUE margin: meaning of the Hebrew uncertain'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%2016&version=NRSVUE'
+    quote: '16.13 Meaning of Heb uncertain'
+  - where: 'note 16:13 “The God who sees me”'
+    claim: 'NIV: “I have now seen the One who sees me”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Genesis%2016&version=NIV'
+    quote: 'I have now seen [ c ] the One who sees me.'
+  - where: 'note 16:13 “The God who sees me”'
+    claim: 'One reading: Hagar was astonished she had seen God and remained alive; compare Jacob at Peniel (Gen. 32:31 Hebrew = 32:30 KJV)'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/16.htm'
+    quote: 'Believing that a man must die if he saw God ( Exodus 20:19 ; Exodus 33:20 ), Hagar was astonished that she had seen God and remained alive'
+  - where: 'note 16:13 “The God who sees me”'
+    claim: 'Keil connects the verse with Gen. 32:31 (Peniel), where the sight of God excites fear of death'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/16.htm'
+    quote: 'the similar passages Genesis 32:31 ; Exodus 33:20 ; Judges 13:22 , where the sight of God excites a fear of death'
+  - where: 'note 16:13 “The God who sees me”'
+    claim: 'God was seen by her and saw her in her distress'
+    key: sc-knowhy-839
+    url: 'https://scripturecentral.org/knowhy/why-might-similarities-between-the-expulsion-of-hagar-and-abraham-s-near-sacrifice-of-isaac-be-meaningful-and-significant'
+    quote: 'God was clearly seen by her and He clearly also saw her in her distress and came to help her.'
+
+  # ---------- note 16:14 ----------
+  - where: 'note 16:14 “Hagar’s well, and Isaac’s”'
+    claim: 'Beer-lahai-roi: well of the living One that seeth me; Gen. 16:14; 24:62; 25:11'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/883.htm'
+    quote: 'Genesis 16:14 (where explanation, from story of Hagar) Genesis 24:62 ; Genesis 25:11'
+  - where: 'note 16:14 “Hagar’s well, and Isaac’s”'
+    claim: 'In both the Hagar and Isaac stories the protagonist sees God and names a place for seeing'
+    key: sc-knowhy-839
+    url: 'https://scripturecentral.org/knowhy/why-might-similarities-between-the-expulsion-of-hagar-and-abraham-s-near-sacrifice-of-isaac-be-meaningful-and-significant'
+    quote: 'In both narratives, the protagonist sees God and they name a place with a name that relates to “seeing.”'
+  - where: 'note 16:14 “Hagar’s well, and Isaac’s”'
+    claim: 'Kadesh: in the south of Judah (Gen. 16:14), the Kadesh of the wilderness of Zin (Num. 20:1)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6946.htm'
+    quote: 'in south of Judah Genesis 16:14 (J), Genesis 20:1 (E), in מִדְבַּר מָּארָן Numbers 13:26 (P), specifically צִן ׳ מ Numbers 20:1'
+  - where: 'note 16:14 “Hagar’s well, and Isaac’s”'
+    claim: 'Bered: a place near Kadesh'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1260.htm'
+    quote: 'proper name, of a location בָּ֑רֶד Genesis 16:14 near Kadesh'
+  - where: 'note 16:14 “Hagar’s well, and Isaac’s”'
+    claim: 'Isaac dwelt by the well Lahai-roi'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/25?lang=eng'
+    quote: 'and Isaac dwelt by the well Lahai-roi'
+
+  # ---------- note 16:15 ----------
+  - where: 'note 16:15 “Hagar’s son, Abram’s firstborn”'
+    claim: 'Children by Hagar would legally be Sarah’s, at least in theory'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'any children that Abraham had by Hagar would legally come from Sarah, at least in theory'
+  - where: 'note 16:15 “Hagar’s son, Abram’s firstborn”'
+    claim: 'In vv. 15–16 Hagar’s name appears three times and Sarah’s not at all: Ishmael is Hagar’s son'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'That Ishmael is Hagar’s son and not Sarah’s is further reaffirmed by the narrator at the closing of the story when Hagar’s name appears three times and Sarah’s not at all at the birth of Ishmael'
+  - where: 'note 16:15 “Hagar’s son, Abram’s firstborn”'
+    claim: 'Ishmael was Abraham’s firstborn and apparent heir'
+    key: sc-knowhy-838
+    url: 'https://scripturecentral.org/knowhy/why-did-the-lord-tell-abraham-that-neither-his-servant-nor-ishmael-would-be-his-heir'
+    quote: 'Hagar gives birth to Ishmael, Abraham’s firstborn and apparent heir'
+  - where: 'note 16:15 “Hagar’s son, Abram’s firstborn”'
+    claim: 'By some customs of the time the firstborn of the first wife held primogeniture even if born later'
+    key: sc-knowhy-838
+    url: 'https://scripturecentral.org/knowhy/why-did-the-lord-tell-abraham-that-neither-his-servant-nor-ishmael-would-be-his-heir'
+    quote: 'it fits within some customs of the time that the privileges of primogeniture belonged anciently and inherently to Isaac as the firstborn son of a first wife, even if Isaac was actually born after Ishmael'
+  - where: 'note 16:15 “Hagar’s son, Abram’s firstborn”'
+    claim: 'Ishmael was thirteen at his circumcision (Gen. 17:25)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/17?lang=eng'
+    quote: 'And Ishmael his son was thirteen years old, when he was circumcised in the flesh of his foreskin.'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'Jehovah is the premortal Jesus Christ, born of Mary'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
+  - where: 'christ'
+    claim: 'In its form Isaiah 7:14 recalls Gen. 16:11'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/7.htm'
+    quote: 'In its form the prophecy reminds one of Genesis 16:11 , "Behold, thou art with child, and wilt bear a son, and call his name Ishmael."'
+  - where: 'christ'
+    claim: 'Hagar is one of a handful of women in scripture given a divine annunciation of her child’s birth'
+    key: scripture-helps-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/07-genesis-12-17-abraham-1-2?lang=eng'
+    quote: 'Hagar is one of only a handful of women in scripture who received a divine annunciation of the birth of her own child'
+  - where: 'christ'
+    claim: 'Only Hagar and Mary were told what to name their sons'
+    key: scripture-helps-gen-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/07-genesis-12-17-abraham-1-2?lang=eng'
+    quote: 'Only Hagar and Mary were told what to name their sons.'
+  - where: 'christ'
+    claim: 'Abraham, Sarah and Hagar are real people in need of redemption'
+    key: shannon-abraham
+    url: 'https://rsc.byu.edu/creation-sinai/abraham-man-relationships'
+    quote: 'they are people in need of redemption'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: 'KnoWhy #839 sets the Hagar stories beside Genesis 22'
+    key: sc-knowhy-839
+    url: 'https://scripturecentral.org/knowhy/why-might-similarities-between-the-expulsion-of-hagar-and-abraham-s-near-sacrifice-of-isaac-be-meaningful-and-significant'
+    quote: 'Reading these two narratives together allows readers to see the Hagar material in a new way.'
+  - where: 'explore'
+    claim: 'Easton’s chapter is a full study of Hagar in Genesis 16 and 21'
+    key: easton-hagar
+    url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
+    quote: 'One of the most moving examples of God’s loving-kindness is found in the tale of Hagar, an enslaved Egyptian (Genesis 16; 21).'
