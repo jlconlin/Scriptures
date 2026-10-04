@@ -104,3 +104,58 @@ Topics that run across chapters, reported as chapters are written. Most will nev
 - (26) The covenant renewed to each generation under the title "the God of Abraham… Isaac… Jacob": 26:3–5, 24; 28:13–15; 35:11–12; 46:3; Ex. 3:6; 1 Ne. 19:10.
 - (26) Wells, oaths, and covenants in the Negev: 16:14; 21:25–33; 24:11–20; 26:15–33; 29:2–10.
 - (26) The heir kept in the land or sent out of it: 24:6–8; 26:2; 46:3–4.
+
+## Reported by chapters 27–38 (not yet sorted)
+
+- (27) The younger chosen over the elder: Gen. 25:23; 27:29, 37, 40; Edom under David (2 Sam. 8:14).
+- (27) Blessing and cursing in the Abrahamic covenant: Gen. 12:3; 27:29; 28:3–4, 14.
+- (27) Brothers in conflict and reconciliation: Gen. 27:41–45; 33:4.
+- (27) Clothing and covering: Gen. 3:21 (Moses 4:27); 27:15–16, 27; 37:3.
+- (27) 'Here am I' (hinneni): Gen. 22:1, 7, 11; 27:1, 18.
+- (28) The covenant renewed with Jacob, with the same *qahal* ('assembly') wording each time: Gen. 28:3–4, 13–15; 35:9–12; 48:3–4.
+- (28) Whose God: 'God of Abraham… and of Isaac' (28:13), then 'then shall the LORD be my God' (28:21), then 'the God of Beth-el' (31:13).
+- (28) The way up into God's presence: the ladder and the gate of heaven (28:12–17), then John 1:51; President Romney and Skinner read Bethel as a temple.
+- (28) Pillars and altars that mark where God appeared: 12:7–8; 28:18–22; 31:13; 35:7, 14.
+- (28) Tithing before the law: 14:20; 28:22.
+- (28) Jacob's growth from Bethel to the Jabbok (Skinner): 28:10–22; 32:22–32; 35:1–15.
+- (29) The LORD who sees the afflicted (ra'ah + 'oni): Gen. 16:11, 13; 29:31–32; 31:42; Ex. 3:7; 4:31; 1 Sam. 1:11; Luke 1:48.
+- (29) The younger and the firstborn: Gen. 25:23; 27:19; 29:26, with Leah, the elder and less loved, bearing Levi and Judah (29:31–35).
+- (29) Deceiving and being deceived in Jacob's life, and the Church's caution against reading it as retribution: Gen. 27:35; 29:25; 31:7.
+- (30) God remembers and opens the womb: Gen. 8:1; 19:29; 29:31; 30:22 (with 1 Sam. 1:19); the barren mothers, now with Rachel (30:1, 22–23).
+- (30) "Am I in the place of God?": Gen. 30:2 and 50:19, the same Hebrew question from Jacob to Rachel and from Joseph to his brothers.
+- (30) The Beth-el promise at work in Haran: paratz "break forth / increase" in Gen. 28:14, 30:30, 30:43; "I am with thee" in 28:15, 31:3, 31:5.
+- (30) Blessing "for thy sake" (biglal): Laban for Jacob (30:27), Potiphar's house for Joseph (39:5).
+- (30) Wages and hire (sakar) and who really gives the increase: Gen. 30:16–18, 28, 32–33; 31:7–9, 41.
+- (31) Beth-el's promise and vow, "I am with thee": Gen. 28:15, 20–22; 31:3, 13; 35:1–7.
+- (31) Household gods and "strange gods" put away: Gen. 31:19, 30–35, 53; 35:2–4; Josh. 24:2.
+- (31) Theft and false accusation within the family, with a death sentence pronounced on an unknown thief: Gen. 30:33; 31:19–39; 44:8–12 (both times it falls near a son of Rachel).
+- (31) Deceiver deceived, Jacob and Laban: Gen. 29:21–28; 31:7, 20, 26–27, 41.
+- (32) Seeing the face of God: Gen. 32:20, 30; 33:10; Ex. 33:11, 20 (JST); Moses 1:11; Enos 1:2, 27.
+- (32) New names at turning points: Jacob to Israel (32:27–28; 35:10), alongside Abram and Sarai (ch. 17).
+- (32) Wrestling or striving for a blessing: Gen. 32:24–29; Hosea 12:3–4; Enos 1:2; Alma 8:10.
+- (32) Estranged brothers reconciled, with kapar ('cover/atone') as the verb of reconciliation: Gen. 32:20; 33:4–11; later Joseph and his brothers (45; 50).
+- (33) Reconciliation of the elder and younger brother: 27:41; 32:3–33:16; 35:29; 50:19–21 (Maxwell links Esau's generosity to Joseph's).
+- (33) Grace (chen/chanan) as the language of both brother and God: 32:5; 33:5, 8, 10, 11, 15.
+- (33) Altars named at the end of a journey, keeping the Bethel vow: 28:20–22; 33:20; 35:7.
+- (33) Land bought in Canaan as a token of the promise: 23:16–20; 33:19; Josh. 24:32.
+- (34) Reuben, Simeon and Levi passed over and Judah made the leading son: 34:25–31; 35:22; 49:3–10 (KnoWhy #843).
+- (34) Deceit across generations, with mirmah only at 27:35 and 34:13 in Genesis (checked by lemma in the Hebrew text): 27:35; 34:13; compare 29:25.
+- (34) Circumcision as the covenant sign, and who may enter the covenant: 17:9–14; 34:14–24; Exodus 12:48.
+- (34) Marrying outside the covenant line: 24:3; 28:1; 34:9; 38:2.
+- (34) Violence without divine direction and Jacob's later verdict on it (Scripture Helps appendix): 34:25–31; 49:5–7.
+- (35) The birthright passing over the elder sons: Reuben, then Simeon and Levi, with Judah as 'honorary' firstborn and the birthright to Joseph (35:22–23; 49:3–10; 1 Chr. 5:1–2).
+- (35) The covenant of Abraham renewed with Jacob in Abraham's words and order (35:9–13 beside 17:1–8, 22; 28:3, 13–15; 48:3–4).
+- (35) Putting away foreign gods at Shechem, from Jacob to Joshua (35:2–4; Josh. 24:14–26).
+- (35) Rachel, Bethlehem, and the birth of Christ (35:16–20; 48:7; Jer. 31:15; Micah 5:2; Matt. 2:16–18).
+- (36) The brother who is set aside and still counted: Ishmael's generations given before Isaac's (Gen. 25:12–18) and Esau's before Jacob's (Gen. 36; 37:2), with Edom as a brother nation (Deut. 2:5; 23:7).
+- (36) Sojourners in the land of promise: megurim, 'land of sojournings', at Gen. 17:8; 28:4; 36:7; 37:1; Ex. 6:4, with Esau settled in Seir (36:8, 43) against Jacob's pilgrim life (37:1), and Heb. 11:9–16.
+- (36) Edom, 'Red', and the one who comes in red: Gen. 25:30; 36:33 (Bozrah); Isa. 34:6; 63:1–3; D&C 1:36; 133:46–48. Already on the Isaiah pages.
+- (37) Joseph as a deliverer sent ahead of his family: 37:13–14, 37:20, 37:28 (with Gen. 45:5–8; 50:20; Ps. 105:17).
+- (37) Joseph as a type of Christ: 37:3–4, 18, 23, 26, 28–29 (Scripture Helps table; Hoskisson; Acts 7:9–13).
+- (37) The younger son chosen over the elder, and the birthright: 37:3 and 37:21 (1 Chr. 5:1–2).
+- (37) Dreams as revelation and their fulfillment: 37:5–11 (JST Gen. 48:10; Gen. 42:6–9; 43:28).
+- (37) Judah's change: 37:26 and 37:32 (Gen. 38:25; 44:33).
+- (37) A garment as evidence: 37:3, 23, 31–33 (Gen. 38:25; 39:12; Alma 46:23–24).
+- (38) Judah's arc from seller to surety: Gen. 37:26–27; 38:17–26; 43:9; 44:32–33; and the line of Judah to Christ (Ruth 4:18–22; Matt. 1:3; Heb. 7:14; Rev. 5:5).
+- (38) Deception and recognition through garments and tokens: the coat (37:31–33), the veil and Judah's tokens (38:14–26), Joseph's garment (39:12–18).
+- (38) The younger or unexpected child coming first at a birth: Perez and Zerah (38:27–30), Jacob and Esau (25:24–26), Ephraim and Manasseh (48).
