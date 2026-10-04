@@ -13,9 +13,9 @@ So readers can load the commentary into their own AI conversations. Suggested pl
 
 (Author, 2026-10-03: “Might be fun to have a random quote generator to go alongside with the quotes on the main page.”) The home page's “Try a phrase” shows three notes chosen when the site is built. A button beside them could draw another at random in the browser, from the same data the search page loads. A change to how the site looks, so on a branch until the author has seen it.
 
-## Marking words in another language
+## Marking words in another language (dropped 2026-10-03)
 
-(Author, 2026-10-03: “Is there some way we can set apart text in a foreign language. Maybe a different color?… doesn't have to stand out a lot, but it would be fun to mark it subtly.”) Transliterated Hebrew and Greek are written in italics now, as are book titles and emphasis, so the build can't tell them apart. It needs a way to mark them in the chapter files (or a list of the transliterations in use) and a quiet style, such as a slightly different ink color. A change to how the site looks, so on a branch until the author has seen it; best done once Genesis is written, since chapters are being written now.
+The author raised setting foreign words apart with a subtle color, then decided against it the same day. Transliterated Hebrew and Greek stay in italics, as now.
 
 ## The author's own questions
 
