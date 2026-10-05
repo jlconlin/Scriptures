@@ -85,7 +85,7 @@
       return `<div class="menu-col menu-ch" style="--vc:var(--v-${v.slug})">
         <div class="menu-bookhead"><h3><a href="${url(`${b.slug}/`)}">${esc(b.name)} ${chev}</a></h3>
           <span class="status">${w < b.total ? `Commentary on ${w} of ${b.total} chapters` : `${b.total} chapters`}</span>
-          ${b.guides ? `<span class="links"><a href="${url(`${b.slug}/guides/`)}">Guides</a></span>` : ''}
+          ${b.guides || b.themes ? `<span class="links">${b.guides ? `<a href="${url(`${b.slug}/guides/`)}">Guides</a>` : ''}${b.themes ? `<a href="${url(`${b.slug}/themes/`)}">Themes</a>` : ''}</span>` : ''}
         </div>
         <div class="menu-grid">${cells}</div>
         ${w < b.total ? '<div class="menu-legend"><span><i class="lw"></i>Commentary</span><span><i class="lu"></i>Opens the Gospel Library</span></div>' : ''}

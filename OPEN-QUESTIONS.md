@@ -19,7 +19,6 @@ Not questions, but most of the questions below are easier after reading.
 ## The site
 
 - **S2. Opus or Sonnet as the writer?** Genesis 1–26 are Opus-written and 27–50 Sonnet-written, under the same brief and reviewers. If the two halves read the same to you, Sonnet writes from now on (the plan in `AUTHORING.md` already assumes it). If 1–26 are clearly better, say so.
-- **S3. A header link to a book's theme pages when it has no guides.** Jeremiah has themes but no guides, so its header has no link to them; they are reached at `/jeremiah/themes/` and from chapter notes. Add the link? (A change to how the site looks.) Recommend: yes.
 - **S4. The limits on a theme page's own connections.** Your rule of 2026-10-03 is in `STANDARDS.md` §8 with three limits added to your two: the connection rests on quoted words; the facts around it stay sourced; it is worded as a comparison and marked in the ledger. Is that what you meant by “relax a little,” or too tight? The last sections of Jeremiah's cup page and root-and-plant page show it in use.
 
 ## Genesis
