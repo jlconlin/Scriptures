@@ -11,9 +11,11 @@ prompt:
   useCase: illustration-story
   assetType: wide book-page illustration for a scripture-study website
   style: >-
-    A calm, high-fidelity digital editorial landscape with natural materials,
-    restrained tonal layering, and a warm cinematic sense of light. Mature and
-    composed: neither cartoonish nor a fine-art painting.
+    A calm, high-fidelity digital editorial illustration with natural materials,
+    restrained tonal layering, and a warm cinematic sense of light. Use clear,
+    gently faceted forms and clean shape relationships, enriched by subtle natural
+    texture and atmospheric depth. Mature and composed: neither cartoonish, a
+    fine-art painting, nor a stock photograph.
   palette: >-
     Warm clay, muted olive, parchment cream, deep indigo, and restrained gold
     light, adapted only when a book's subject requires it.
@@ -24,6 +26,7 @@ prompt:
   constraints:
     - Symbolic rather than historical reconstruction.
     - No people, faces, literal sacred figures, text, lettering, logos, UI, or decorative frames.
-    - No stock-photo look, painterly brushwork, faux parchment, 3D render, or visible AI artifacts.
+    - No stock-photo look, exaggerated photographic depth of field, lens blur, hyper-detailed material texture, painterly brushwork, faux parchment, 3D render, or visible AI artifacts.
+    - Preserve an illustrated first impression through clear silhouette, restrained faceting, and editorial composition; natural depth and subtle material texture are welcome.
     - Do not add motifs beyond the book brief.
     - Treat AI output as a candidate; it is never published until approved.
