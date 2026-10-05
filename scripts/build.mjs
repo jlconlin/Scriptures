@@ -111,6 +111,14 @@ export async function build({ quiet = false } = {}) {
       return authored.get(n) ?? { chapter: n, title: book.titles?.[n], draft: true };
     });
     book.written = book.chapters.filter((c) => !c.draft);
+    // A book with every chapter written is due its illustration (DEVELOPMENT.md, “Book illustration workflow”).
+    if (book.written.length === book.chapters.length) {
+      const v = book.visual;
+      if (!v) book.warn('every chapter is written but there is no visual.yaml: run .claude/workflows/create-book-art.js');
+      else if (v.status !== 'approved') book.warn(`visual.yaml is “${v.status ?? 'without a status'}”: the book page shows the placeholder until the author approves an image`);
+      else if (!v.asset || !v.alt) book.warn('visual.yaml is approved but lacks asset or alt, so the book page shows the placeholder');
+      else if (!existsSync(r('src', v.asset))) book.warn(`visual.yaml names ${v.asset}, which is not in src/assets/`);
+    }
     book.place = placeOf(book.abbr);
     if (!book.place) throw new Error(`content/${book.slug}/book.yaml: abbr “${book.abbr}” is not a book of the standard works (see src/lib/refs.mjs)`);
     book.hasGuides = existsSync(path.join(book.dir, 'guides'));

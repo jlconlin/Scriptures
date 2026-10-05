@@ -1,7 +1,7 @@
 export const meta = {
   name: 'write-chapters',
   description: 'Write and review a batch of chapters of one book: a writer, a checker that reopens the sources, then a reviewer',
-  whenToUse: 'A book has an approved BRIEF.md and the author wants chapters written. args: { book, chapters, writerModel, models, focus }',
+  whenToUse: 'A book has an approved BRIEF.md and the author wants chapters written. args: { book, chapters, writerModel, models, focus, lastBatch }',
   phases: [{ title: 'Write' }, { title: 'Check' }, { title: 'Review' }],
 }
 // args:
@@ -19,6 +19,9 @@ export const meta = {
 //   chapter-reviewer (Opus, or Sonnet if asked)  the judgment: decides each finding and repairs the chapter, without reopening sources
 // Opus is kept for the last step only (author, 2026-10-04: Opus need not be the one to see that pages exist).
 //   models       optional chapter numbers of finished chapters of this book to use as models, e.g. [1, 22]
+//   lastBatch    true when these chapters finish the book. If every reviewer then reports its chapter ready,
+//                the batch ends by running create-book-art (the book-art-director's visual brief, then one
+//                candidate image drawn by Codex); otherwise it says why not, and the coordinator runs create-book-art after the repairs.
 // Each agent works in the repository. Writers and reviewers leave two working files per chapter in
 // .cache/batch/<book>/ (not committed): proposed/NN.yaml, the sources.yaml entries the chapter needs, and
 // reports/NN-writer.md and reports/NN-check.md. Afterwards the coordinator runs scripts/merge-sources.mjs and scripts/batch-notes.mjs,
@@ -85,4 +88,22 @@ const results = await pipeline(
 )
 const missing = chapters.filter((n, i) => !results[i])
 if (missing.length) log(`No result for chapters: ${missing.join(', ')}`)
-return { results: results.filter(Boolean), missing }
+// The book's illustration is the last stage of writing a book (DEVELOPMENT.md, “Book illustration workflow”).
+let art = null
+let next = null
+if (args.lastBatch) {
+  const notReady = results.filter((r) => r && !r.review?.ready).map((r) => r.chapter)
+  const runArt = `run the create-book-art workflow with args { book: '${book}' }`
+  if (missing.length || notReady.length) {
+    next = `Book art not started: ${[missing.length ? `no result for ${missing.join(', ')}` : '', notReady.length ? `not ready: ${notReady.join(', ')}` : ''].filter(Boolean).join('; ')}. Once those chapters pass review, ${runArt}.`
+  } else {
+    try {
+      art = await workflow('create-book-art', { book })
+      next = art.next
+    } catch (err) {
+      next = `Book art failed to start (${err.message}): ${runArt}.`
+    }
+  }
+  log(art?.candidate ? `Book art candidate for the author: ${art.candidate}` : next)
+}
+return { results: results.filter(Boolean), missing, art, next }

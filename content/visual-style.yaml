@@ -4,7 +4,8 @@ version: 1
 # belongs in content/<book>/visual.yaml; do not copy these rules into individual briefs.
 asset:
   aspectRatio: '16:9'
-  size: '2048x1152'
+  # No pixel size: Codex's built-in image tool chooses it (1672x941 at 16:9, the size of
+  # every book image on the site; author, 2026-10-04: “Those images look just fine”).
   quality: high
 
 prompt:

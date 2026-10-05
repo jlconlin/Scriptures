@@ -1,6 +1,7 @@
 {
   "version": "0.0.1",
   "configurations": [
-    { "name": "site", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev"], "port": 4321 }
+    { "name": "site", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev"], "port": 4321 },
+    { "name": "site-4323", "runtimeExecutable": "env", "runtimeArgs": ["PORT=4323", "npm", "run", "dev"], "port": 4323 }
   ]
 }
