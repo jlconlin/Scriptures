@@ -130,7 +130,7 @@ export async function build({ quiet = false } = {}) {
   LIBRARY.length = 0;
   LIBRARY.push(
     ...books.map((b) => ({
-      name: b.name, slug: b.slug, abbr: b.abbr, vol: b.place.vol, index: b.place.index, hasGuides: b.hasGuides,
+      name: b.name, slug: b.slug, abbr: b.abbr, vol: b.place.vol, index: b.place.index, hasGuides: b.hasGuides, hasThemes: b.hasThemes,
       gospelLibrary: `https://www.churchofjesuschrist.org/study/scriptures/${b.gospelLibrary}`,
       total: b.chapters.length, written: new Set(b.written.map((c) => c.chapter)),
     })),

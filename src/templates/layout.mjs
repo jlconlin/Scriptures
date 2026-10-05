@@ -86,7 +86,7 @@ function navData() {
     gl: gospelLibraryVolume(v),
     books: LIBRARY.filter((b) => b.vol === v.key)
       .sort((a, b) => a.index - b.index)
-      .map((b) => ({ slug: b.slug, name: b.name, total: b.total, written: ranges([...b.written].sort((x, y) => x - y)), gl: b.gospelLibrary, guides: b.hasGuides })),
+      .map((b) => ({ slug: b.slug, name: b.name, total: b.total, written: ranges([...b.written].sort((x, y) => x - y)), gl: b.gospelLibrary, guides: b.hasGuides, themes: b.hasThemes })),
   }));
 }
 const ranges = (ns) => ns.reduce((r, n) => (r.length && r.at(-1)[1] === n - 1 ? (r.at(-1)[1] = n) : r.push([n, n]), r), []);
