@@ -19,9 +19,6 @@ const ensignArt = `<svg class="hero-art" viewBox="0 0 320 220" aria-hidden="true
 </svg>`;
 
 const homeHeroArt = `<img class="hero-art home-hero-art" src="/assets/home-hero-concept.png" alt="An open book before a path winding toward light at the base of a mountain.">`;
-const isaiahBookArt = `<img class="hero-art isaiah-book-art" src="/assets/isaiah-branch-and-water.png" alt="A living branch grows from a weathered stump beside a winding stream.">`;
-const genesisBookArt = `<img class="hero-art genesis-book-art" src="/assets/genesis-covenant-landscape.png" alt="A fountain flows beneath the Tree of Life into a river dividing a verdant garden from an open, covenant-marked landscape.">`;
-const jeremiahBookArt = `<img class="hero-art jeremiah-book-art" src="/assets/jeremiah-potter-and-almond.png" alt="An almond branch bends above a hand-formed clay vessel, with Jerusalem in the distance.">`;
 
 // The home page's teaser cards. The “Show three more” button draws others in the browser from
 // notes.json, which carries teaserText for every note; site.js builds the same card, taking each
@@ -110,7 +107,9 @@ ${sorted.length ? `<section class="wrap narrow book-section"><div class="volumes
 }
 
 export function renderBookIndex({ book, guides, sources }) {
-  const bookArt = book.slug === 'isaiah' ? isaiahBookArt : book.slug === 'genesis' ? genesisBookArt : book.slug === 'jeremiah' ? jeremiahBookArt : ensignArt;
+  const bookArt = book.visual?.status === 'approved' && book.visual.asset && book.visual.alt
+    ? `<img class="hero-art book-art" src="${esc(book.visual.asset)}" alt="${esc(book.visual.alt)}">`
+    : ensignArt;
   const divisions = book.divisions
     .map((d) => {
       const chs = book.chapters.filter((c) => c.chapter >= d.range[0] && c.chapter <= d.range[1]);

@@ -1,0 +1,29 @@
+version: 1
+
+# This is the visual identity for every generated book image. Book-specific meaning
+# belongs in content/<book>/visual.yaml; do not copy these rules into individual briefs.
+asset:
+  aspectRatio: '16:9'
+  size: '2048x1152'
+  quality: high
+
+prompt:
+  useCase: illustration-story
+  assetType: wide book-page illustration for a scripture-study website
+  style: >-
+    A calm, high-fidelity digital editorial landscape with natural materials,
+    restrained tonal layering, and a warm cinematic sense of light. Mature and
+    composed: neither cartoonish nor a fine-art painting.
+  palette: >-
+    Warm clay, muted olive, parchment cream, deep indigo, and restrained gold
+    light, adapted only when a book's subject requires it.
+  composition: >-
+    A 16:9 landscape with one clear symbolic focal point, breathing room around
+    it, and a quiet distant setting where helpful. The subject must remain clear
+    at full-page width and at tablet size.
+  constraints:
+    - Symbolic rather than historical reconstruction.
+    - No people, faces, literal sacred figures, text, lettering, logos, UI, or decorative frames.
+    - No stock-photo look, painterly brushwork, faux parchment, 3D render, or visible AI artifacts.
+    - Do not add motifs beyond the book brief.
+    - Treat AI output as a candidate; it is never published until approved.

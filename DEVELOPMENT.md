@@ -58,3 +58,9 @@ The author's brief for the book comes first (see `AUTHORING.md`). Then:
 4. Chapters in `content/<slug>/chapters/NN.yaml`; guides and themes as Markdown in `guides/` and `themes/`. A chapter with no file is unwritten (see above); `titles` in book.yaml can give unwritten chapters a title on the book page.
 5. Book of Mormon comparison data is optional: `data/bom/<slug>-parallels.json`, same format as Isaiah’s (only Isaiah has one; `scripts/fetch-bom-parallels.mjs` is Isaiah-specific). Without it, chapter pages simply have no BoM panel.
 6. Still written by hand for now: site-wide wording that names books (`SITE.description`, the 404 page’s Isa. 30:20 line, the search box’s example searches).
+
+### Book illustration workflow
+
+Every book can have one full-width landing-page illustration. Its meaning lives in `content/<book>/visual.yaml`; the shared visual identity lives in `content/visual-style.yaml`. The renderer uses an approved brief automatically, so a new book never needs a book-specific template edit.
+
+Use `npm run book-art -- brief <book> --summary "…" --motif "…"` to save a short visual brief, then `npm run book-art -- prompt <book>` to review the exact candidate prompt. `npm run book-art -- generate <book>` calls the bundled ImageGen CLI only when both `IMAGE_GEN` (the path to `image_gen.py`) and `OPENAI_API_KEY` are set; it writes a review candidate to the ignored `output/book-art/` directory. It does not publish anything. After author approval, `npm run book-art -- approve <book> --from output/book-art/<file>.png --alt "…"` copies the candidate into `src/assets/` and marks its brief approved. Never run `approve` without a human review.

@@ -6,6 +6,7 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/fix-yaml.mjs --all && node scripts/build.mjs",
+    "book-art": "node scripts/book-art.mjs",
     "dev": "node scripts/dev.mjs",
     "check": "node scripts/check-content.mjs",
     "check:links": "node scripts/check-links.mjs"
