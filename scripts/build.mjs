@@ -1,7 +1,9 @@
 // Static site generator for Line upon Line.
 // Reads content/ and data/, writes a complete static site to dist/.
-import { readFile, writeFile, mkdir, readdir, cp, rm } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, readdir, cp, rm, stat } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
+import { execFile } from 'node:child_process';
+import { promisify } from 'node:util';
 import path from 'node:path';
 import YAML from 'yaml';
 import { md, plain, unknownRefs } from '../src/lib/markdown.mjs';
@@ -21,6 +23,7 @@ const r = (...p) => path.join(ROOT, ...p);
 // PREVIEW=1 (set by npm run dev, and for the claude.ai preview) also builds books whose
 // book.yaml says `status: preview`. The live site leaves them out entirely.
 const PREVIEW = process.env.PREVIEW === '1';
+const run = promisify(execFile);
 
 const warnings = [];
 const warn = (m) => warnings.push(m);
@@ -29,6 +32,20 @@ async function write(rel, content) {
   const file = path.join(OUT, rel);
   await mkdir(path.dirname(file), { recursive: true });
   await writeFile(file, content);
+}
+
+// Content pages carry the last commit that changed their own source file, rather than the date of
+// a site-wide deploy. An uncommitted file still gets a useful date in a local preview.
+async function lastRevised(file) {
+  const rel = path.relative(ROOT, file);
+  try {
+    const { stdout } = await run('git', ['log', '-1', '--format=%cs', '--', rel], { cwd: ROOT });
+    const date = stdout.trim();
+    if (/^\d{4}-\d{2}-\d{2}$/.test(date)) return date;
+  } catch {
+    // A source archive may omit Git history; use the source file's timestamp in that case.
+  }
+  return (await stat(file)).mtime.toISOString().slice(0, 10);
 }
 
 const readYaml = async (p) => {
@@ -101,7 +118,9 @@ export async function build({ quiet = false } = {}) {
     const files = (await readdir(chDir)).filter((f) => f.endsWith('.yaml'));
     const authored = new Map();
     for (const f of files) {
-      const ch = await readYaml(path.join(chDir, f));
+      const file = path.join(chDir, f);
+      const ch = await readYaml(file);
+      ch.updated = await lastRevised(file);
       authored.set(ch.chapter, ch);
     }
     // A chapter without a YAML file is unwritten: it gets no page, and the book page, chapter strip,
@@ -195,7 +214,9 @@ export async function build({ quiet = false } = {}) {
       if (!existsSync(dir)) return [];
       const pages = [];
       for (const f of (await readdir(dir)).filter((f) => f.endsWith('.md')).sort()) {
-        const g = await readMd(path.join(dir, f));
+        const file = path.join(dir, f);
+        const g = await readMd(file);
+        g.updated = await lastRevised(file);
         g.slug = f.replace(/^\d+-/, '').replace(/\.md$/, '');
         const cited = applyCitations(g.body, sources, (m) => warn(`${slug}/${collection.path}/${f}: ${m}`));
         g.html = md(cited.body);
@@ -232,7 +253,7 @@ export async function build({ quiet = false } = {}) {
   // A page for each volume, listing its books on the site.
   for (const v of VOLUMES) await write(`${v.slug}/index.html`, renderVolume({ volume: v, books: books.filter((b) => b.place.vol === v.key) }));
   const about = await readMd(r('content/about.md'));
-  await write('about/index.html', renderPage({ title: about.title, blurb: about.blurb, html: md(about.body).replace('<!-- chapter-guide -->', chapterGuide()), path: '/about/' }));
+  await write('about/index.html', renderPage({ title: about.title, blurb: about.blurb, html: md(about.body).replace('<!-- chapter-guide -->', chapterGuide()), path: '/about/', updated: await lastRevised(r('content/about.md')) }));
   await write('search/index.html', renderSearch());
   await write('404.html', render404());
   await write('search.json', JSON.stringify(search));

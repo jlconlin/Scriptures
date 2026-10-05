@@ -38,6 +38,7 @@ The steps a coordinating session repeats for every batch of chapters are scripts
 - **Volume pages.** `/old-testament/`, `/new-testament/`, `/book-of-mormon/`, `/doctrine-and-covenants/`, and `/pearl-of-great-price/` list that volume's books on the site and link to the volume in the Gospel Library. The five volumes are in `src/lib/canon.mjs`; a book's volume and its place in it come from its `abbr` and the scripture-reference table in `src/lib/refs.mjs`. Book pages link their eyebrow to their volume's page.
 - **Search** has a book filter once there is more than one book; each `search.json` entry carries its book's slug in `b`.
 - **Highlighted phrases** are `<span role="button" tabindex="0">`, not `<button>`, so they wrap across lines like ordinary text; `site.js` gives them Enter and Space.
+- **Last-revised labels.** Chapter, guide, theme, and About pages show a quiet date below the page introduction. During the build, `build.mjs` reads the last Git commit that changed that page’s own source file (falling back to the file timestamp only in a source archive without Git history). This is a content date, not the date of a site-wide deployment.
 
 ## Books
 

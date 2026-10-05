@@ -10,6 +10,13 @@ export const logo = `<svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="tru
   <circle cx="24.5" cy="21" r="4.2" fill="var(--accent)"/>
 </svg>`;
 
+/** A quiet content timestamp. Dates are ISO strings from the source file's last content commit. */
+export function lastRevised(date) {
+  if (!date) return '';
+  const display = new Intl.DateTimeFormat('en-US', { dateStyle: 'long', timeZone: 'UTC' }).format(new Date(`${date}T00:00:00Z`));
+  return `<p class="last-revised">Last revised <time datetime="${date}">${display}</time></p>`;
+}
+
 /**
  * `book`, `chapter`, and `volume` say where the page is, so the Scriptures menu opens there.
  * @param {{title:string, description?:string, path:string, body:string, bodyClass?:string, book?:object, chapter?:number, volume?:string, head?:string}} p

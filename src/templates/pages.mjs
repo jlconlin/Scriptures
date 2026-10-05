@@ -1,6 +1,6 @@
 import { md, mdInline, esc, plain } from '../lib/markdown.mjs';
 import { KINDS, SITE, LIBRARY, sectionTitle } from '../site.mjs';
-import { layout, icon, logo } from './layout.mjs';
+import { layout, icon, logo, lastRevised } from './layout.mjs';
 import { renderSource } from './sources.mjs';
 import { gospelLibraryUrl } from './chapter.mjs';
 import { VOLUMES, gospelLibraryVolume } from '../lib/canon.mjs';
@@ -234,6 +234,7 @@ export function renderGuide({ book, guide, guides, sources, collection = COLLECT
   <nav class="crumbs"><a href="/${book.slug}/">${esc(book.name)}</a> <span>›</span> <a href="/${book.slug}/${c.path}/">${esc(c.crumb)}</a></nav>
   <h1>${esc(guide.title)}</h1>
   <p class="lede">${esc(guide.blurb)}</p>
+  ${lastRevised(guide.updated)}
 </div></header>
 <article class="wrap narrow guide prose prose-lg">
 ${guide.html}
@@ -262,9 +263,9 @@ export function chapterGuide() {
 </div>`;
 }
 
-export function renderPage({ title, blurb, html, path }) {
+export function renderPage({ title, blurb, html, path, updated }) {
   const body = `
-<header class="page-hero"><div class="wrap narrow"><h1>${esc(title)}</h1>${blurb ? `<p class="lede">${esc(blurb)}</p>` : ''}</div></header>
+<header class="page-hero"><div class="wrap narrow"><h1>${esc(title)}</h1>${blurb ? `<p class="lede">${esc(blurb)}</p>` : ''}${lastRevised(updated)}</div></header>
 <article class="wrap narrow prose prose-lg">${html}</article>`;
   return layout({ title, description: blurb, path, body, bodyClass: 'page-plain' });
 }

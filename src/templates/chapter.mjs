@@ -1,6 +1,6 @@
 import { md, mdInline, esc, plain } from '../lib/markdown.mjs';
 import { KINDS, SECTIONS, sectionTitle } from '../site.mjs';
-import { layout, icon } from './layout.mjs';
+import { layout, icon, lastRevised } from './layout.mjs';
 import { renderSource } from './sources.mjs';
 import { compareVerse } from '../lib/bomdiff.mjs';
 
@@ -220,6 +220,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
       <p class="eyebrow">${esc(book.name)} <span class="ch-num">${n}</span></p>
       <h1>${mdInline(ch.title)}</h1>
       ${ch.tagline ? `<p class="tagline">${mdInline(ch.tagline)}</p>` : ''}
+      ${lastRevised(ch.updated)}
       <div class="dial-wrap"><div class="dial-context"><span>${esc(book.name)} chapters</span><strong>Chapter ${n} of ${book.chapters.length}</strong></div><div class="dial-label" aria-hidden="true" hidden></div><div class="dial" style="--n:${book.chapters.length}" aria-label="Chapters of ${esc(book.name)}">${dial}</div></div>
       <div class="hero-meta">
         ${ch.when ? `<span>${icon('history')} ${mdInline(ch.when)}</span>` : ''}
