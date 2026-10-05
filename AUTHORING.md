@@ -51,6 +51,8 @@ The Opus reviewer took a third of the turns and reread a third of the tokens, bu
 
 Before that: the book's brief, with the author (`content/<book>/BRIEF.md`: divisions and intro, the author's questions, which sources are actually readable online, book-wide issues, guide and theme candidates, Restoration connections); then `book.yaml` and “Adding a new book” in `DEVELOPMENT.md`. Jeremiah's brief is the model, including its section “What a chapter is for.” The Workflow script for writing a book in batches (writer → reviewer pipeline, about twelve chapters at a time) is `.claude/workflows/write-chapters.js`, and the coordinator's steps around it are scripts too (`DEVELOPMENT.md`, “Writing a book in batches”).
 
+**After a book is complete:** run `.claude/workflows/create-book-art.js`. Its `book-art-director` reads the finished book and writes a proposed visual brief plus a dispatch-ready prompt. Give that prompt to an image-capable ChatGPT agent, review its one candidate with the author, and only then save the selected asset and mark the brief approved. This is an authoring stage, not a site build step; details are in `DEVELOPMENT.md`, “Book illustration workflow.”
+
 ## Working with the author
 
 - **Where changes go.** Commit chapter content, sources, and fixes directly to `main` and push. Changes to how the site *looks* (layout, widths, new interface features) go on a separate branch until the author has seen them and approved; then fast-forward `main`.

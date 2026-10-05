@@ -58,3 +58,9 @@ The author's brief for the book comes first (see `AUTHORING.md`). Then:
 4. Chapters in `content/<slug>/chapters/NN.yaml`; guides and themes as Markdown in `guides/` and `themes/`. A chapter with no file is unwritten (see above); `titles` in book.yaml can give unwritten chapters a title on the book page.
 5. Book of Mormon comparison data is optional: `data/bom/<slug>-parallels.json`, same format as Isaiah’s (only Isaiah has one; `scripts/fetch-bom-parallels.mjs` is Isaiah-specific). Without it, chapter pages simply have no BoM panel.
 6. Still written by hand for now: site-wide wording that names books (`SITE.description`, the 404 page’s Isa. 30:20 line, the search box’s example searches).
+
+### Book illustration workflow
+
+Every completed book gets one full-width landing-page illustration. This is an **AI authoring stage**, after all its chapters have passed review—not an npm command and never part of the site build. The coordinator runs `.claude/workflows/create-book-art.js`, which asks `book-art-director` to read the finished book and produce a short visual brief plus a dispatch-ready prompt. The coordinator then passes that prompt to an image-capable ChatGPT agent, which creates one review candidate in the shared house style.
+
+`content/visual-style.yaml` is the permanent visual identity. The director saves its book-specific summary, motifs, composition, and proposed accessible alt text in `content/<book>/visual.yaml`. The author reviews the candidate. Only after approval does the coordinator copy it into `src/assets/`, set `asset`, `alt`, and `status: approved` in that visual brief, and build the site. The renderer reads approved briefs automatically, so a new book never needs a book-specific template edit.

@@ -17,6 +17,7 @@ export async function discoverBooks(root) {
   for (const e of await readdir(content, { withFileTypes: true })) {
     const dir = path.join(content, e.name);
     const file = path.join(dir, 'book.yaml');
+    const visualFile = path.join(dir, 'visual.yaml');
     if (!e.isDirectory() || !existsSync(file) || !existsSync(path.join(dir, 'chapters'))) continue;
     let book;
     try {
@@ -25,7 +26,15 @@ export async function discoverBooks(root) {
       throw new Error(`${path.relative(root, file)}: ${err.message}`);
     }
     if (book.slug !== e.name) throw new Error(`${path.relative(root, file)}: slug “${book.slug}” must match the directory name “${e.name}”`);
-    books.push({ ...book, dir });
+    let visual;
+    if (existsSync(visualFile)) {
+      try {
+        visual = YAML.parse(await readFile(visualFile, 'utf8'));
+      } catch (err) {
+        throw new Error(`${path.relative(root, visualFile)}: ${err.message}`);
+      }
+    }
+    books.push({ ...book, dir, visual });
   }
   return books.sort((a, b) => (a.order ?? 1e9) - (b.order ?? 1e9) || a.slug.localeCompare(b.slug));
 }

@@ -9,6 +9,11 @@ Nephi gave the real reason he loved Isaiah: “he verily saw my Redeemer, even a
 
 Isaiah is full of testimony of Christ.[@isaiah-in-bom, p. 2] This guide collects the main ways he testifies of Jesus Christ.
 
+<figure class="guide-illustration">
+  <img src="/assets/isaiah-cornerstone.png" alt="A pale cornerstone set into a stone foundation, illuminated by a warm beam of light.">
+  <figcaption>A visual meditation on Isaiah’s “tried and precious corner stone” ([[Isa. 28:16]]).</figcaption>
+</figure>
+
 ## First: Jehovah is Jesus Christ
 
 The most important key to Christ in Isaiah is one the Restoration makes plain. **The LORD of the Old Testament, Jehovah, is Jesus Christ in His premortal role.**[@bd-jehovah] In the King James Bible, “LORD” in small capitals stands for the divine name *YHWH* (Jehovah).[@bd-jehovah] When Isaiah says “the LORD,” he usually means the God who would come to earth as Jesus of Nazareth.
