@@ -45,7 +45,6 @@ Not questions, but most of the questions below are easier after reading.
 ## Lamentations
 
 - **L1. Keil in chapters 1 and 5.** The Church's helps have almost nothing on these chapters, so six of chapter 1's ten notes and all seven of chapter 5's rest partly on Keil's commentary (the limit is about a third). Keep them, or cut the notes that rest on him almost alone (5:4, 5:6, 5:12)? Recommend: keep; each is worded as a reading, and chapter 5 would otherwise have four notes.
-- **L2. The book's illustration.** A candidate is drawn (dawn light behind a distant city, a dimmed gold bowl in the foreground). Approve it, or ask for another?
 
 ## Work waiting, no decision needed
 
