@@ -32,10 +32,6 @@ Everything that waits for the author, for every book and for the site, in this o
 
 - **I1. Deepen chapters 1–37?** They were written before the semi-academic standard, and `content/isaiah/BRIEF.md` has a plan to deepen them in place. It has not been started. Do it, and when?
 
-## Moses
-
-- **P4. Put the five verses back to the 1921 wording?** The site's Moses is the Church's 2013 text. The 1921 edition is in the public domain, and it differs in wording in five verses: 1:14 “transfigured” (1921: “strengthened”), 1:19 “ranted” (“rent”), 4:18 “commandest” (“commandedst”), 7:22 “save it was” (“save it were”), 7:39 “hath pled” (“hath plead”). Changing them makes the wording a public-domain edition's; three notes that quote those words would be reworded, and the footer's line changed. Recommend: change them, and have the notes on 1:14 and 1:19 say that the current edition reads “transfigured” and “ranted.”
-
 ## Work waiting, no decision needed
 
 - **Genesis 22, closing section:** Melvin J. Ballard's words are cited from the seminary manual that prints them; read and cite the original talk (“The Sacramental Covenant,” *New Era*, Jan. 1976).

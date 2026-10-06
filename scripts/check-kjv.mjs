@@ -14,6 +14,16 @@ const { slug, rest } = bookArg(argv.filter((a) => !a.startsWith('--')));
 const book = await findBook(ROOT, slug);
 const only = rest.map(Number);
 const kjv = JSON.parse(readFileSync(path.join(ROOT, `data/kjv/${slug}.json`), 'utf8')).chapters;
+// A book printed from an older, public-domain edition (data/kjv/<slug>.edition.json): its listed readings are put
+// back to the current wording before the comparison, so everything else is still checked against the Gospel Library.
+const editionFile = path.join(ROOT, `data/kjv/${slug}.edition.json`);
+const edition = existsSync(editionFile) ? JSON.parse(readFileSync(editionFile, 'utf8')) : null;
+for (const ch of edition?.changes ?? []) {
+  const [c, v] = ch.ref.split(':').map(Number);
+  if (!kjv[c - 1][v - 1].includes(ch.edition)) console.log(`!! ${ch.ref}: the file does not have the edition's wording “${ch.edition}”`);
+  kjv[c - 1][v - 1] = kjv[c - 1][v - 1].replace(ch.edition, ch.current);
+}
+if (edition) console.log(`${edition.changes.length} verse(s) carry the wording of ${edition.edition}; they are compared as the current edition words them.`);
 const CACHE = path.join(ROOT, '.cache/kjv');
 mkdirSync(CACHE, { recursive: true });
 // The Church's site gives a different page without a browser User-Agent.

@@ -1,0 +1,14 @@
+{
+  "edition": "The Pearl of Great Price (Salt Lake City: The Church of Jesus Christ of Latter-day Saints, 1921; 1929 printing)",
+  "source": "https://archive.org/details/pearlofgreatpric0000jose_d8d6",
+  "note": "Where the Church's current edition differs in wording from this public-domain edition, the site prints the older wording. scripts/fetch-gl.mjs applies these after importing; scripts/check-kjv.mjs undoes them before comparing with the Gospel Library.",
+  "changes": [
+    { "ref": "1:14", "current": "and I were transfigured before him", "edition": "and I were strengthened before him" },
+    { "ref": "1:19", "current": "and ranted upon the earth", "edition": "and rent upon the earth" },
+    { "ref": "4:13", "current": "sewed fig leaves together", "edition": "sewed fig-leaves together" },
+    { "ref": "4:18", "current": "and commandest that she", "edition": "and commandedst that she" },
+    { "ref": "7:21", "current": "Behold mine abode forever", "edition": "Behold mine abode for ever" },
+    { "ref": "7:22", "current": "save it was the seed of Cain", "edition": "save it were the seed of Cain" },
+    { "ref": "7:39", "current": "hath pled before my face", "edition": "hath plead before my face" }
+  ]
+}

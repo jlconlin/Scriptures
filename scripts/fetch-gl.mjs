@@ -5,7 +5,8 @@
 // Usage: node scripts/fetch-gl.mjs <slug> <Gospel Library path> <chapters> ["Book name"]
 //   node scripts/fetch-gl.mjs moses pgp/moses 8
 // Then node scripts/check-kjv.mjs <slug> reads the pages again and should report no difference.
-import { writeFile, mkdir } from 'node:fs/promises';
+import { writeFile, mkdir, readFile } from 'node:fs/promises';
+import { existsSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 
 const [slug, glPath, count, name] = process.argv.slice(2);
@@ -40,6 +41,19 @@ for (let c = 1; c <= Number(count); c++) {
   if (!verses.length) throw new Error(`No verses read from ${url}`);
   verses.forEach(([n], i) => { if (n !== i + 1) throw new Error(`${url}: verse ${i + 1} is numbered ${n}`); });
   chapters.push(verses.map(([, text]) => text));
+}
+
+// data/kjv/<slug>.edition.json lists where a public-domain edition's wording differs from the current one; the site
+// prints the older wording (author, 2026-10-06), so each change must find its words in its verse.
+const editionFile = `data/kjv/${slug}.edition.json`;
+if (existsSync(editionFile)) {
+  const { changes } = JSON.parse(await readFile(editionFile, 'utf8'));
+  for (const ch of changes) {
+    const [c, v] = ch.ref.split(':').map(Number);
+    if (!chapters[c - 1]?.[v - 1]?.includes(ch.current)) throw new Error(`${editionFile}: “${ch.current}” is not in ${ch.ref}`);
+    chapters[c - 1][v - 1] = chapters[c - 1][v - 1].replace(ch.current, ch.edition);
+  }
+  console.log(`Applied ${changes.length} reading(s) from ${editionFile}`);
 }
 
 await mkdir('data/kjv', { recursive: true });
