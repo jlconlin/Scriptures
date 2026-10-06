@@ -117,6 +117,20 @@ const LDS_SPELLINGS = [
   // Malachi: where the Gospel Library has “Lord” (adonai) and the source LORD (found by scripts/check-kjv.mjs).
   [/sacrificeth unto the LORD a corrupt thing/g, 'sacrificeth unto the Lord a corrupt thing'], // Mal. 1:14
   [/and the LORD, whom ye seek, shall suddenly come/g, 'and the Lord, whom ye seek, shall suddenly come'], // Mal. 3:1
+  // Lamentations: where the Gospel Library has “Lord” (adonai) and the source LORD, and the source’s “I AM” (found by scripts/check-kjv.mjs).
+  [/the LORD hath delivered me into their hands, from whom/g, 'the Lord hath delivered me into their hands, from whom'], // Lam. 1:14
+  [/The LORD hath trodden under foot all my mighty men/g, 'The Lord hath trodden under foot all my mighty men'], // Lam. 1:15
+  [/the LORD hath trodden the virgin, the daughter of Judah/g, 'the Lord hath trodden the virgin, the daughter of Judah'], // Lam. 1:15
+  [/How hath the LORD covered the daughter of Zion/g, 'How hath the Lord covered the daughter of Zion'], // Lam. 2:1
+  [/The LORD hath swallowed up all the habitations of Jacob/g, 'The Lord hath swallowed up all the habitations of Jacob'], // Lam. 2:2
+  [/The LORD was as an enemy/g, 'The Lord was as an enemy'], // Lam. 2:5
+  [/The LORD hath cast off his altar/g, 'The Lord hath cast off his altar'], // Lam. 2:7
+  [/Their heart cried unto the LORD, O wall/g, 'Their heart cried unto the Lord, O wall'], // Lam. 2:18
+  [/before the face of the LORD: lift up thy hands/g, 'before the face of the Lord: lift up thy hands'], // Lam. 2:19
+  [/I AM the man that hath seen affliction/g, 'I am the man that hath seen affliction'], // Lam. 3:1
+  [/For the LORD will not cast off for ever/g, 'For the Lord will not cast off for ever'], // Lam. 3:31
+  [/the LORD approveth not/g, 'the Lord approveth not'], // Lam. 3:36
+  [/O LORD, thou hast pleaded the causes of my soul/g, 'O Lord, thou hast pleaded the causes of my soul'], // Lam. 3:58
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 

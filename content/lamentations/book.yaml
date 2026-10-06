@@ -1,0 +1,71 @@
+name: Lamentations
+slug: lamentations
+status: preview          # remove when the book should go live (DEVELOPMENT.md, “Preview and live”)
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 3
+abbr: lam                # [[Lam. 3:22]] links here
+gospelLibrary: ot/lam
+eyebrow: The Old Testament
+heroQuote:
+  text: '“They are new every morning: great is thy faithfulness.”'
+  cite: '[[Lam. 3:23]]'
+description: A phrase-by-phrase companion to the book of Lamentations, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Five poems over the fall of Jerusalem. The first four follow the Hebrew alphabet, and the hope of the book stands at the middle of the middle poem.
+home:
+  blurb: Five poems of grief over the fall of Jerusalem, with hope in the Lord’s mercies at their center.
+
+intro: |
+  Lamentations is a collection of five poems mourning the destruction of Jerusalem and its temple by the Babylonians. No author is named in it; it is traditionally attributed to the prophet Jeremiah, who saw the city fall, and the Church’s edition titles it “The Lamentations of Jeremiah.” The Guide to the Scriptures places it after the fall of the city, about 586 B.C.
+
+  Chapters 1, 2, and 4 each have 22 verses that begin with the successive letters of the Hebrew alphabet; chapter 3 has 66, three for each letter; chapter 5 has 22 verses but does not follow the alphabet. The Lord does not answer anywhere in the book. This companion goes through all five chapters and tries to anticipate the questions a careful reader asks: *Who is speaking? What had happened to the city? What does that image mean? Where is Christ in this?*
+
+# The large movements of the book, by its five poems, described from the Church’s chapter headings.
+# Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: widow
+    range: [1, 2]
+    name: The City That Sits Solitary
+    blurb: Jerusalem sits alone like a widow, with none to comfort her, and speaks of her own sorrow. The second poem says that the Lord Himself has done this in His anger, and calls the city to pour out her heart before Him.
+    color: '#6a5a8c'
+    darkColor: '#b3a5d6'
+  - key: mercies
+    range: [3, 3]
+    name: The Man That Hath Seen Affliction
+    blurb: One voice speaks of his own affliction, then remembers that the Lord’s compassions fail not and are new every morning. He calls the people to search their ways and turn again to the Lord.
+    color: '#3f8a5a'
+    darkColor: '#86cda0'
+  - key: remember
+    range: [4, 5]
+    name: The Siege Remembered and the People’s Prayer
+    blurb: The fourth poem looks back on the siege, when the gold became dim and the children hungered. The fifth is a prayer of the whole people, asking the Lord to remember them and to turn them to Himself.
+    color: '#a05a3a'
+    darkColor: '#e0a082'
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [1, 5], sources: [ot-manual-24] }
+
+beloved:
+  - { chapter: 1, verse: 1, text: 'How doth the city sit solitary, that was full of people!' }
+  - { chapter: 1, verse: 12, text: 'Is it nothing to you, all ye that pass by?' }
+  - { chapter: 3, verse: 22, text: 'his compassions fail not' }
+  - { chapter: 3, verse: 23, text: 'They are new every morning: great is thy faithfulness' }
+  - { chapter: 3, verse: 26, text: 'hope and quietly wait for the salvation of the LORD' }
+  - { chapter: 3, verse: 40, text: 'Let us search and try our ways, and turn again to the LORD' }
+  - { chapter: 4, verse: 1, text: 'How is the gold become dim!' }
+  - { chapter: 5, verse: 21, text: 'Turn thou us unto thee, O LORD, and we shall be turned' }
+
+coreSources:
+  - bd-lamentations
+  - gs-lamentations
+  - ot-manual-24
+  - scripture-helps-jer-31-33
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'The City Sits Solitary'
+  2: 'The Lord’s Anger against Zion'
+  3: 'Affliction, and Mercies New Every Morning'
+  4: 'How Is the Gold Become Dim'
+  5: 'Remember, O Lord: The People’s Prayer'
