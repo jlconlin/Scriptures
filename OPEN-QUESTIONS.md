@@ -34,7 +34,6 @@ Everything that waits for the author, for every book and for the site, in this o
 
 ## Moses
 
-- **P1. The footer's line about the scripture text.** Every page says “Scripture text: King James Version (public domain).” That is not true of the Book of Moses, whose text is the Church's current edition, taken from the Gospel Library. Before Moses goes live the line should change. Recommend: “Scripture text: King James Version (public domain) and the Pearl of Great Price as published by The Church of Jesus Christ of Latter-day Saints.” You may also want to consider whether showing the Church's edition of the text in full is something you are comfortable with; the words are Joseph Smith's, but the edition is the Church's.
 
 - **P2. Who is speaking in Moses 2 (2:1, 2:26)?** *Scripture Helps* on Moses 1 says Moses “was speaking with the premortal Jesus Christ,” who sometimes speaks as the Father by divine investiture of authority; on Moses 2:26 it says “Heavenly Father was speaking to Jesus Christ.” The chapter 2 notes now say only that the words are the Father's, because no source read applies divine investiture to Moses 2. Should the note on 2:1 say it, pointing back to Moses 1, or stay as it is?
 - **P3. The book's illustration.** A candidate is drawn (a mountain under stars, Enoch's city on a ridge, rain on far slopes). Approve it, or ask for another?

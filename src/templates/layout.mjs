@@ -74,7 +74,7 @@ ${linkRefs(body)}
     <div class="footer-small">
       <p>The commentary on this site was written with AI (Anthropic’s Claude) and checked against the scriptures. <a href="/about/#how-this-site-was-made">How it was made</a>.</p>
       <p>An independent study companion created by a member of The Church of Jesus Christ of Latter-day Saints. It is not an official publication of the Church. For the Church’s official resources, visit <a href="https://www.churchofjesuschrist.org/study?lang=eng" target="_blank" rel="noopener">churchofjesuschrist.org</a>.</p>
-      <p>Scripture text: King James Version (public domain). Commentary © ${SITE.year} ${esc(SITE.author)}, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. <a href="/about/">About this site</a> · <a href="${SITE.repo}" target="_blank" rel="noopener">Source</a></p>
+      <p>Scripture text: King James Version (public domain) and the Pearl of Great Price as published by The Church of Jesus Christ of Latter-day Saints. Commentary © ${SITE.year} ${esc(SITE.author)}, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. <a href="/about/">About this site</a> · <a href="${SITE.repo}" target="_blank" rel="noopener">Source</a></p>
     </div>
   </div>
 </footer>
