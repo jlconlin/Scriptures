@@ -90,7 +90,7 @@ export function renderHome({ books, featured }) {
 }
 
 // A volume's page: its books on the site, and the Gospel Library for the rest.
-export function renderVolume({ volume, books }) {
+export function renderVolume({ volume, books, html = '' }) {
   const sorted = [...books].sort((a, b) => a.place.index - b.place.index);
   const status = (b) => (b.written.length < b.chapters.length ? `${b.written.length} of ${b.chapters.length} chapters` : `${b.chapters.length} chapters`);
   const body = `
@@ -100,6 +100,7 @@ export function renderVolume({ volume, books }) {
   <p class="lede">${sorted.length ? `The books of the ${esc(volume.name)} on this site so far. The whole ${esc(volume.name)} is in the Gospel Library, with footnotes and study helps.` : `Nothing from the ${esc(volume.name)} is on this site yet. You can read it in the Gospel Library, with footnotes and study helps.`}</p>
   <p><a class="btn" href="${gospelLibraryVolume(volume)}" target="_blank" rel="noopener">Read the ${esc(volume.name)} in the Gospel Library ↗</a></p>
 </div></header>
+${html ? `<article class="wrap narrow guide prose prose-lg">${html}</article>` : ''}
 ${sorted.length ? `<section class="wrap narrow book-section"><div class="volumes volumes-stack">
   ${sorted.map((b) => `<a class="volume live" href="/${b.slug}/"><span class="volume-status">${status(b)}</span><h3>${esc(b.name)}</h3><p>${esc(b.home.blurb)}</p><span class="volume-go">Open ${icon('arrowR')}</span></a>`).join('')}
 </div></section>` : ''}`;

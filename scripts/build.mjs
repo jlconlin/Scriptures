@@ -251,7 +251,12 @@ export async function build({ quiet = false } = {}) {
   }));
   await write('notes.json', JSON.stringify(noteList));
   // A page for each volume, listing its books on the site.
-  for (const v of VOLUMES) await write(`${v.slug}/index.html`, renderVolume({ volume: v, books: books.filter((b) => b.place.vol === v.key) }));
+  // Its introduction, when one is written, is the body of content/volumes/<slug>.md.
+  for (const v of VOLUMES) {
+    const intro = await readMd(r(`content/volumes/${v.slug}.md`)).catch(() => ({ body: '' }));
+    const html = intro.body.trim() ? md(intro.body) : '';
+    await write(`${v.slug}/index.html`, renderVolume({ volume: v, books: books.filter((b) => b.place.vol === v.key), html }));
+  }
   const about = await readMd(r('content/about.md'));
   await write('about/index.html', renderPage({ title: about.title, blurb: about.blurb, html: md(about.body).replace('<!-- chapter-guide -->', chapterGuide()), path: '/about/', updated: await lastRevised(r('content/about.md')) }));
   await write('search/index.html', renderSearch());
