@@ -32,10 +32,6 @@ Everything that waits for the author, for every book and for the site, in this o
 
 - **I1. Deepen chapters 1–37?** They were written before the semi-academic standard, and `content/isaiah/BRIEF.md` has a plan to deepen them in place. It has not been started. Do it, and when?
 
-## Moses
-
-- **P3. The book's illustration.** A candidate is drawn (a mountain under stars, Enoch's city on a ridge, rain on far slopes). Approve it, or ask for another?
-
 ## Work waiting, no decision needed
 
 - **Genesis 22, closing section:** Melvin J. Ballard's words are cited from the seminary manual that prints them; read and cite the original talk (“The Sacramental Covenant,” *New Era*, Jan. 1976).
