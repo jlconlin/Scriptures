@@ -7,16 +7,6 @@ Everything that waits for the author, for every book and for the site, in this o
 - Only what needs the author belongs here. What the standard or a book's brief already settles is decided by whoever is writing and recorded in that book's `BRIEF.md` (“Decided while writing”), where the author can overturn it.
 - “Recommend” is Claude's suggestion where the standard points one way. No recommendation means the choice is a matter of taste or doctrine.
 
-## Waiting to be read
-
-Not questions, but most of the questions below are easier after reading.
-
-- **Lamentations:** all 5 chapters, written 2026-10-06; live since the same day.
-- **Malachi:** all 4 chapters, written 2026-10-04 as the first test of the new arrangement; live since the same day.
-- **Genesis:** all 50 chapters, live since 2026-10-04. Chapters 1–26 were written by Opus and 27–50 by Sonnet (see S2).
-- **Jeremiah:** all 52 chapters and the five theme pages, live since 2026-10-02 and 03.
-- **Isaiah:** four of the five theme pages (the new exodus and the highway; Zion and her husband; light; the servants section of the Servant Songs page), live.
-
 ## The site
 
 - **S2. Opus or Sonnet as the writer?** Genesis 1–26 are Opus-written and 27–50 Sonnet-written, under the same brief and reviewers. If the two halves read the same to you, Sonnet writes from now on (the plan in `AUTHORING.md` already assumes it). If 1–26 are clearly better, say so.
@@ -45,5 +35,4 @@ Not questions, but most of the questions below are easier after reading.
 ## Work waiting, no decision needed
 
 - **Genesis 22, closing section:** Melvin J. Ballard's words are cited from the seminary manual that prints them; read and cite the original talk (“The Sacramental Covenant,” *New Era*, Jan. 1976).
-- **The new review arrangement has been tested once,** on Malachi (`AUTHORING.md`, “Plan for the next book”): the checker finds what it should and Opus does a third of the work it did, but a chapter costs more tokens in all. The scripts did not lower the count because they return as much text as the commands they replaced; what lowers it is fewer steps and less reading. The agents' instructions were changed for that on 2026-10-04 (`AUTHORING.md`); measure the first two chapters of the next book with `node scripts/batch-usage.cjs`.
 - **A leftover working copy** in `.claude/worktrees/` (from the “Show three more” branch, long merged) can be deleted.
