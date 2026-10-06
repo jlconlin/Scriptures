@@ -32,6 +32,10 @@ Everything that waits for the author, for every book and for the site, in this o
 
 - **I1. Deepen chapters 1–37?** They were written before the semi-academic standard, and `content/isaiah/BRIEF.md` has a plan to deepen them in place. It has not been started. Do it, and when?
 
+## Moses
+
+- **P1. The footer's line about the scripture text.** Every page says “Scripture text: King James Version (public domain).” That is not true of the Book of Moses, whose text is the Church's current edition, taken from the Gospel Library. Before Moses goes live the line should change. Recommend: “Scripture text: King James Version (public domain) and the Pearl of Great Price as published by The Church of Jesus Christ of Latter-day Saints.” You may also want to consider whether showing the Church's edition of the text in full is something you are comfortable with; the words are Joseph Smith's, but the edition is the Church's.
+
 ## Work waiting, no decision needed
 
 - **Genesis 22, closing section:** Melvin J. Ballard's words are cited from the seminary manual that prints them; read and cite the original talk (“The Sacramental Covenant,” *New Era*, Jan. 1976).

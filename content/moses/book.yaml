@@ -1,0 +1,77 @@
+name: Moses
+slug: moses
+status: preview          # remove when the book should go live (DEVELOPMENT.md, “Preview and live”)
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 5
+abbr: moses              # [[Moses 1:39]] links here
+gospelLibrary: pgp/moses
+eyebrow: The Pearl of Great Price
+heroQuote:
+  text: '“For behold, this is my work and my glory—to bring to pass the immortality and eternal life of man.”'
+  cite: 'The Lord to Moses, [[Moses 1:39]]'
+description: A phrase-by-phrase companion to the Book of Moses, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Moses 1 has no counterpart in Genesis. Chapters 2–5 and 8 retell Genesis 1–6 with much added, and most of chapters 6 and 7, the ministry of Enoch, stands where Genesis has a few verses.
+home:
+  blurb: Joseph Smith’s inspired translation of the opening chapters of Genesis, with the visions of Moses and of Enoch.
+
+intro: |
+  The Book of Moses is “an extract from the translation of the Bible as revealed to Joseph Smith the Prophet, June 1830–February 1831.” It begins with a vision in which God speaks with Moses face to face, and then gives, in God’s own words to Moses, the Creation, the Fall, the families of Adam and Eve, the ministry of Enoch, and the days of Noah.
+
+  Much of it runs beside Genesis 1:1–6:13, which is also on this site. This companion goes through all eight chapters and gives its attention to what the Book of Moses has that Genesis does not, linking to the Genesis chapters for the rest. It tries to anticipate the questions a careful reader asks: *Who is speaking? What does this add to Genesis? What did that phrase mean to the first Saints who read it? Where is Christ in this?*
+
+# The large movements of the book, described from the Church’s chapter headings.
+# Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: mount
+    range: [1, 1]
+    name: Moses on the Mountain
+    blurb: God reveals Himself to Moses, who is transfigured, confronted by Satan, and shown worlds without number. The Lord tells him His work and His glory.
+    color: '#5b6fb5'
+    darkColor: '#a8b6ec'
+  - key: eden
+    range: [2, 4]
+    name: The Creation and the Fall
+    blurb: God tells Moses of the Creation, by His Only Begotten, spiritually before naturally. Satan’s rebellion is told, and Adam and Eve fall.
+    color: '#3d8b5f'
+    darkColor: '#84cfa3'
+  - key: adam
+    range: [5, 5]
+    name: Adam and Eve and Their Children
+    blurb: Adam and Eve offer sacrifice and are taught the gospel by an angel. Cain loves Satan more than God, kills Abel, and wickedness spreads.
+    color: '#a5673a'
+    darkColor: '#e2a77e'
+  - key: enoch
+    range: [6, 7]
+    name: Enoch and Zion
+    blurb: Enoch is called, preaches the plan of salvation as Adam was taught it, and builds a city of one heart and one mind. He sees the God of heaven weep, the coming of the Son of Man, and the last days.
+    color: '#8a5aa8'
+    darkColor: '#c9a3e2'
+  - key: flood
+    range: [8, 8]
+    name: The Days of Noah
+    blurb: Methuselah and Noah prophesy and preach the gospel. The people will not repent, and the Flood is decreed.
+    color: '#4f7f8f'
+    darkColor: '#98c6d6'
+
+beloved:
+  - { chapter: 1, verse: 39, text: 'this is my work and my glory' }
+  - { chapter: 1, verse: 4, text: 'thou art my son' }
+  - { chapter: 5, verse: 11, text: 'Were it not for our transgression' }
+  - { chapter: 6, verse: 63, text: 'all things are created and made to bear record of me' }
+  - { chapter: 7, verse: 18, text: 'they were of one heart and one mind' }
+  - { chapter: 7, verse: 28, text: 'the God of heaven looked upon the residue of the people, and he wept' }
+
+coreSources:
+  - scripture-helps-moses-1
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'Moses Sees God Face to Face'
+  2: 'The Creation'
+  3: 'Created Spiritually; the Garden of Eden'
+  4: 'Satan’s Rebellion and the Fall'
+  5: 'Adam and Eve Are Taught the Gospel; Cain and Abel'
+  6: 'The Book of Remembrance; Enoch Is Called'
+  7: 'Zion, and the Vision of Enoch'
+  8: 'Noah Preaches Repentance'
