@@ -2,7 +2,7 @@ export const SITE = {
   name: 'Line upon Line',
   tagline: 'A companion for understanding the scriptures',
   description:
-    'Phrase-by-phrase help for understanding the scriptures, one book at a time: Isaiah and Jeremiah so far. Grounded in the restored gospel of Jesus Christ, with history, Hebrew, symbolism, and references.',
+    'Phrase-by-phrase help for understanding the scriptures, one book at a time. Grounded in the restored gospel of Jesus Christ, with history, Hebrew, symbolism, and references.',
   url: 'https://scriptures.conlin.io',
   author: 'Jeremy Lloyd Conlin',
   repo: 'https://github.com/jlconlin/Scriptures',

@@ -11,7 +11,7 @@ Everything that waits for the author, for every book and for the site, in this o
 
 Not questions, but most of the questions below are easier after reading.
 
-- **Lamentations:** all 5 chapters, written 2026-10-06; in the preview, not live.
+- **Lamentations:** all 5 chapters, written 2026-10-06; live since the same day.
 - **Malachi:** all 4 chapters, written 2026-10-04 as the first test of the new arrangement; live since the same day.
 - **Genesis:** all 50 chapters, live since 2026-10-04. Chapters 1–26 were written by Opus and 27–50 by Sonnet (see S2).
 - **Jeremiah:** all 52 chapters and the five theme pages, live since 2026-10-02 and 03.
@@ -41,10 +41,6 @@ Not questions, but most of the questions below are easier after reading.
 ## Isaiah
 
 - **I1. Deepen chapters 1–37?** They were written before the semi-academic standard, and `content/isaiah/BRIEF.md` has a plan to deepen them in place. It has not been started. Do it, and when?
-
-## Lamentations
-
-- **L1. Keil in chapters 1 and 5.** The Church's helps have almost nothing on these chapters, so six of chapter 1's ten notes and all seven of chapter 5's rest partly on Keil's commentary (the limit is about a third). Keep them, or cut the notes that rest on him almost alone (5:4, 5:6, 5:12)? Recommend: keep; each is worded as a reading, and chapter 5 would otherwise have four notes.
 
 ## Work waiting, no decision needed
 

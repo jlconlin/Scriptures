@@ -96,7 +96,7 @@ It runs `fix-yaml`, the preview build into `.cache/batch/lamentations/dist-NN`, 
 
 Settled by the reviewers on 2026-10-06, by the standard and this brief, without the author; any of them can be overturned.
 
-- **Keil in chapters 1 and 5.** Six of chapter 1's ten notes and all seven of chapter 5's cite Keil, over the limit of about a third. They stay (coordinator): the Church's helps have nothing on these verses, each reading is labelled as a reading, and cutting them would leave chapter 5 with almost no notes. The author is asked in `OPEN-QUESTIONS.md` (L1).
+- **Keil in chapters 1 and 5.** Six of chapter 1's ten notes and all seven of chapter 5's cite Keil, over the limit of about a third. They stay (coordinator): the Church's helps have nothing on these verses, each reading is labelled as a reading, and cutting them would leave chapter 5 with almost no notes. The author agreed on 2026-10-06 (“I’m fine with what you’ve done. Go ahead and keep”).
 - **One source entry for Keil.** `keil-lamentations` in `sources.yaml` points at his chapter 1 page, as `keil-malachi` and `keil-jeremiah` do; each ledger row carries the URL of the chapter page it quotes. The translators and dates two writers proposed were not on the page and were left out.
 
 **Chapter 1**
