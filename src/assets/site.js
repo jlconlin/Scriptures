@@ -334,20 +334,6 @@
     }
   }
 
-  // ---------- reading progress ----------
-  const readKey = (id) => `read:${id}`;
-  const isRead = (id) => store.get(readKey(id)) === '1';
-  $$('[data-read]').forEach((box) => {
-    box.checked = isRead(box.dataset.read);
-    box.addEventListener('change', () => {
-      box.checked ? store.set(readKey(box.dataset.read), '1') : store.del(readKey(box.dataset.read));
-      markDial();
-    });
-  });
-  // Progress keys are <book slug>-<chapter> (isaiah-53), the same as data-read on chapter pages and data-ch on book-page cards.
-  const markDial = () => $$('.dial .tick').forEach((t) => t.classList.toggle('is-read', isRead(`${t.closest('[data-book]').dataset.book}-${t.dataset.ch}`)));
-  markDial();
-
   // Chapter dial and section bar: show a label above the bar right away on hover or focus.
   $$('.dial-label').forEach((dialLabel) => {
     const wrap = dialLabel.parentElement;
@@ -372,18 +358,6 @@
       t.addEventListener('blur', hide);
     });
   });
-
-  const cards = $$('.chapter-card[data-ch]');
-  if (cards.length) {
-    let n = 0;
-    cards.forEach((c) => { const r = isRead(c.dataset.ch); c.classList.toggle('is-read', r); n += r; });
-    const bar = $('.progress-bar span');
-    const label = $('.progress-label');
-    if (bar && n) {
-      bar.style.width = `${(100 * n) / cards.length}%`;
-      label.textContent = `You’ve studied ${n} of ${cards.length} chapters.`;
-    }
-  }
 
   // ---------- collapsible chapter introduction ----------
   // A reader who collapses “Where we are” or “The thread” keeps it collapsed on every chapter.

@@ -129,11 +129,10 @@ export function renderBookIndex({ book, guides, sources }) {
       <span class="cc-title">${c.title ? mdInline(c.title) : 'Commentary coming'}</span>
       <span class="cc-tag">${c.title ? 'Commentary coming. ' : ''}Read it in the Gospel Library ↗</span>
     </a></li>`
-          : `<li><a class="chapter-card" href="/${book.slug}/${c.chapter}/" data-ch="${book.slug}-${c.chapter}">
+          : `<li><a class="chapter-card" href="/${book.slug}/${c.chapter}/">
       <span class="cc-num">${c.chapter}</span>
       <span class="cc-title">${mdInline(c.title)}</span>
       ${c.tagline ? `<span class="cc-tag">${esc(plain(c.tagline))}</span>` : ''}
-      <span class="cc-read" aria-hidden="true">${icon('check')}</span>
     </a></li>`,
       )
       .join('')}
@@ -150,7 +149,6 @@ export function renderBookIndex({ book, guides, sources }) {
       <h1>${esc(book.name)}</h1>
       <blockquote class="hero-quote">${book.heroQuote.text} <cite>${book.heroQuote.cite}</cite></blockquote>
       <div class="prose lede">${md(book.intro)}</div>
-      <div class="progress" aria-live="polite"><div class="progress-bar"><span style="width:0%"></span></div><span class="progress-label">Mark chapters as studied to track your progress.</span></div>
     </div>
     ${bookArt}
   </div>

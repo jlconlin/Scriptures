@@ -262,7 +262,6 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
         ${srcList.length ? `<section aria-labelledby="src-h"><h2 id="src-h">${esc(sectionTitle('sources'))}</h2><ul class="source-list">${srcList.map((s) => `<li>${s}</li>`).join('')}</ul></section>` : ''}
       </div>
 
-      <label class="mark-read"><input type="checkbox" data-read="${book.slug}-${n}"> ${esc(sectionTitle('studied', chapterName))}</label>
 
       <nav class="pager" aria-label="Chapter navigation">
         ${prev ? `<a class="pager-prev" href="/${book.slug}/${prev.chapter}/">${icon('arrowL')}<span><small>${esc(book.name)} ${prev.chapter}</small>${esc(prev.title)}</span></a>` : '<span></span>'}

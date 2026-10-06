@@ -28,7 +28,6 @@ export const SECTIONS = {
   sources: { title: 'Sources & further reading' },
   cited: { title: 'Sources' },
   further: { title: 'Further reading' },
-  studied: { title: 'I’ve studied {chapter}' },
 };
 export const sectionTitle = (key, chapter = '') => SECTIONS[key].title.replace('{chapter}', chapter);
 
