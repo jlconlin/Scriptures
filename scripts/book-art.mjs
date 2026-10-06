@@ -42,6 +42,11 @@ const candidates = async () => (existsSync(outDir) ? await readdir(outDir) : [])
 // A motif written “- Primary: the dawn…” is read by YAML as a map, and went into a prompt as “[object Object]”.
 const list = (items) => items.map((i) => (typeof i === 'string' ? `- ${i}` : fail(`${rel(visualFile)}: a list item is not plain text (quote it if it has a colon): ${JSON.stringify(i)}`))).join('\n');
 const p = style.prompt;
+// A book's brief may allow small figures (`figures:`, the author's exception for that book); its sentence then stands
+// in place of the site's rule against people, and the rest of that rule is kept.
+const constraints = brief.figures
+  ? p.constraints.map((c) => (/^No people/.test(c) ? `${String(brief.figures).trim()} Otherwise no people, faces, literal sacred figures, text, lettering, logos, UI, or decorative frames.` : c))
+  : p.constraints;
 const prompt = `Use case: ${p.useCase}
 Asset type: ${p.assetType}
 Aspect ratio: ${style.asset.aspectRatio}, ${style.asset.quality} quality
@@ -53,7 +58,7 @@ Style/medium: ${p.style.trim()}
 Composition/framing: ${(brief.composition ?? p.composition).trim()} ${brief.composition ? p.composition.trim() : ''}
 Color palette: ${p.palette.trim()}
 Constraints:
-${list(p.constraints)}`;
+${list(constraints)}`;
 
 if (command === 'prompt') {
   console.log(prompt);
