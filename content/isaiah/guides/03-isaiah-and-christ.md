@@ -11,7 +11,7 @@ Isaiah is full of testimony of Christ.[@isaiah-in-bom, p. 2] This guide collects
 
 <figure class="guide-illustration">
   <img src="/assets/isaiah-cornerstone.png" alt="A pale cornerstone set into a stone foundation, illuminated by a warm beam of light.">
-  <figcaption>A visual meditation on Isaiah’s “tried and precious corner stone” ([[Isa. 28:16]]).</figcaption>
+  <figcaption>A visual meditation on Isaiah’s “precious corner stone” ([[Isa. 28:16]]).</figcaption>
 </figure>
 
 ## First: Jehovah is Jesus Christ

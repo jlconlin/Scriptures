@@ -15,7 +15,7 @@ That overlap helps us read both records with better historical imagination. Neph
 
 ## The brass plates
 
-Nephi says the brass plates contained “the prophecies which have been spoken by the mouth of Jeremiah” ([[1 Ne. 5:13]]). The Bible Dictionary likewise identifies Jeremiah’s prophecies among the material on the plates.[@bd-jeremiah] The phrase is carefully limited: it does not claim that the plates carried the book exactly as we have it, or that Nephi quotes Jeremiah at Isaiah-like length. It does mean the two books belong to the same scriptural world from the beginning.
+Nephi says the brass plates contained “many prophecies which have been spoken by the mouth of Jeremiah” ([[1 Ne. 5:13]]). The Bible Dictionary likewise identifies Jeremiah’s prophecies among the material on the plates.[@bd-jeremiah] The phrase is carefully limited: it does not claim that the plates carried the book exactly as we have it, or that Nephi quotes Jeremiah at Isaiah-like length. It does mean the two books belong to the same scriptural world from the beginning.
 
 ## Nephi knew Jeremiah had been imprisoned
 
