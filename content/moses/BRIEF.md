@@ -101,7 +101,7 @@ Four things the reviewers left for the author were settled by the coordinator, b
 - **3:18.** The note stays cut: no source read says anything about the verse's address beyond the verse, and `christ` carries the point (`STANDARDS.md` §4).
 - **5:4 and 5:9, the Lectures on Faith.** The passage from page 17 of the 1835 Doctrine and Covenants is not attributed to Joseph Smith by name, because the page read names no author.
 
-One was not, and is in `OPEN-QUESTIONS.md` (P2): whether the note on 2:1 should say who is speaking by divine investiture of authority.
+One went to the author: whether the note on 2:1 should say who is speaking by divine investiture of authority. The author said to make the connection (2026-10-06: “Make the connection”), so the note “The Beginning and the End” now points back to Moses 1:6: the Creation account is the Father’s words, given to Moses by the Son who speaks in His name. No source read applies divine investiture to Moses 2 itself; the ledger row says so.
 
 **Chapter 1**
 
