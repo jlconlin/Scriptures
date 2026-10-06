@@ -82,6 +82,8 @@ Tested 2026-10-06 with the research scripts. `STANDARDS.md` §9 has the general 
 
 `data/kjv/moses.json` was imported on 2026-10-06 from the Gospel Library by `scripts/fetch-gl.mjs moses pgp/moses 8` (8 chapters, 356 verses: 42, 31, 25, 32, 59, 68, 69, 30), a script written for books that are not in the King James Version. `scripts/check-kjv.mjs moses` reads the pages again and reports no difference. The file sits in `data/kjv/` because that is where the build reads every book's text. Copy any quoted phrase from it (7:18 prints “ZION” in capitals).
 
+**Compared with a public-domain edition (2026-10-06).** The author wants every book's text to be a public-domain one. The 1921 edition of the Pearl of Great Price (“Copyright 1921 by Heber J. Grant”; the 1929 printing is on archive.org as `pearlofgreatpric0000jose_d8d6`, with a plain-text scan) has the same chapters and verses as today's. `scripts/find-verses.mjs` finds 339 of the 356 verses word for word in that scan or in the scans of the 1920 and 1913 printings; the other 17 were read by eye in the scans. In wording, the site's text (the 2013 edition) differs from the 1921 edition in five verses: 1:14 “transfigured” (1921: “strengthened”); 1:19 “ranted” (“rent”); 4:18 “commandest” (“commandedst”); 7:22 “save it was” (“save it were”); 7:39 “hath pled” (“hath plead”). Smaller: 4:13 “fig leaves” (“fig-leaves”), 7:21 “forever” (“for ever”), 7:31 “naught” in 1929 and “nought” in 1920. Punctuation and capitals were not compared (the comparison is of letters), and 1:42 and 4:32 are in parentheses in 1929. Whether the five verses go back to the 1921 wording waits for the author (`OPEN-QUESTIONS.md`, P4); notes at 1:14, 4:18 and 7:39 quote the present wording.
+
 ## Checks while the book is in preview
 
 ```sh
