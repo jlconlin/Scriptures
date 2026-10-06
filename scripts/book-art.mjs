@@ -39,7 +39,8 @@ const outDir = path.join(ROOT, '.cache/book-art', slug);
 const candidates = async () => (existsSync(outDir) ? await readdir(outDir) : [])
   .filter((f) => /^candidate-\d+\.png$/.test(f)).sort((a, b) => parseInt(a.slice(10), 10) - parseInt(b.slice(10), 10));
 
-const list = (items) => items.map((i) => `- ${i}`).join('\n');
+// A motif written “- Primary: the dawn…” is read by YAML as a map, and went into a prompt as “[object Object]”.
+const list = (items) => items.map((i) => (typeof i === 'string' ? `- ${i}` : fail(`${rel(visualFile)}: a list item is not plain text (quote it if it has a colon): ${JSON.stringify(i)}`))).join('\n');
 const p = style.prompt;
 const prompt = `Use case: ${p.useCase}
 Asset type: ${p.assetType}
