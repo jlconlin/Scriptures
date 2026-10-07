@@ -121,8 +121,247 @@ It runs `fix-yaml`, the preview build into `.cache/batch/ezekiel/dist-NN`, `chec
 
 ## Decided while writing
 
+Settled by the coordinator on 2026-10-07 from what the reviewers of chapters 1–12 left for the author; any of them can be overturned.
+
+- **Keil over a third (chapters 6, 10, 11, 12; the scripture links of 8:3, 8:12, 8:16).** Where he is the only source that answers a real question, the notes stay and the warning stands, as this brief allows for chapters the Church's helps hardly touch. In chapter 8 the three links stay on scripture alone rather than add him to more notes.
+- **A thin Witness of Christ (chapter 5).** Left short, saying what the chapter gives and no more (Jeremiah's brief, convention 9).
+- **12:10, “prince,” “burden,” and “bear.”** The observation that the Hebrew words sound alike stays, from the Hebrew text and the lexicon, with no interpretation built on it.
+- **One entry each for Clarke, Gill, and Jamieson-Fausset-Brown on Ezekiel** (`clarke-ezekiel`, `gill-exposition`, `jfb-ezekiel`), pointing at the first chapter page cited; each ledger row carries the URL of the page it quotes.
+
 *(`scripts/batch-decided.cjs` writes the reviewers' decisions here, by chapter.)*
+
+Settled by the reviewers on 2026-10-07, by the standard and this brief, without the author; any of them can be overturned.
+
+**Chapter 1**
+
+- 1:4 amber: cut the claim that the gleam in the fire is the radiance of the enthroned figure (no source makes it); the note now says only where the word occurs. Also 'meaning is not known' became 'exact meaning is uncertain' to match BDB, and the 'yellow resin' remark was cut.
+- 1:26: cut 'Genesis says man is in the likeness of God... The two statements meet' (the writer's own framing); the word fact that 'likeness' is the word of Gen. 1:26 stays. 'Isaiah had said as much' reworded, since Isa. 6:1 says nothing of a human form.
+- 1:28 bow: cut 'the one who judges them sits within the sign of His covenant' and 'not an ornament'. I searched Keil and the Student Manual and neither joins Ezekiel's bow to Noah's covenant. The note keeps the shared phrase and Hebrew nouns, and says the text does not explain the bow. 'The bow of His covenant' was also cut from christ.
+- 1:10: Joseph Smith's 1843 principle stays. The Student Manual (26-10, on Ezek. 1:15-21) itself sets it beside this chapter; I opened that page and added a ledger row. Cut 'a reader... has not missed something' and the sentence giving the Student Manual's 'seem to represent the same thing' against Scripture Helps (newest wins; note 1:5 already says it is unclear).
+- 1:16: cut 'No chariot frame joins the wheels to the creatures' (Keil alone, against KnoWhy #719 and Shannon, which speak of a throne-chariot) and 'A throne on wheels is... not fixed to one city' (unsourced, and note 1:28 says it). Added Ezek. 10:9 for one wheel beside each creature, with a ledger row for the plain rendering of verse 15.
+- 1:3: 'not prisoners in cells... living in their own settlements' replaced with Jeremiah's 'Build ye houses, and dwell in them' (Jer. 29:5). 'Temple priest with no temple' became 'a priest far from the temple'. The Septuagint sentence corrected: it still names the prophet and only ends in the first person. Added 'The text does not say why' about the change of voice.
+- 1:22: cut 'seen from underneath' and 'Ezekiel, standing on the ground, is looking up'; the note now states the order of the chapter from the verses only.
+- 1:1 Lehi: 'recognizably the same way' of calling reworded to the accounts being alike in more than their message, which is what KnoWhy #469 says.
+- 1:28 glory: restored Scripture Helps' 'likely' and cut the unsourced 'The glory of the LORD belonged to the temple'.
+- Thread: the Scripture Helps and KnoWhy #719 quotations are now paraphrased there and quoted once each, in notes 1:10 and 1:28. 'Returns three times' corrected to name all three returns (3:23; chapters 8-11; chapter 43). 'It is a throne that travels' softened to 'has been taken to teach'.
+- Christ: cut the near-verbatim Scripture Helps sentence ('Most significantly...') and the repeated Bible Dictionary quotation and footnote remark, which note 1:26 already has.
+- Setting: 'They had lost the land and the temple' became 'had been taken from', since the temple was still standing; 'turning points of the book' became 'later in the book'.
+- Explore: the unsourced summary of the three throne visions became a question; the Shannon pointer now says only what the article's title says.
+- Left as is: the plain's 'fearsome' for 'terrible' (same sense as the King James; the footnote's 'wonderful' is beside the verse already).
+
+**Chapter 2**
+
+- 2:1: kept the 'son of man' note although the footnote and Scripture Helps cover part of it; the brief puts the one explanation here, and the note adds Daniel 8:17, the Bible Dictionary and Keil's reading.
+- 2:2: cut the Daniel 8:18 comparison and the closing paragraph ('sets the pattern… he caused me to eat that roll'), since no source joins either to this verse; 'more vivid still' became 'is fuller'.
+- 2:2: kept Keil's 'spirit-power which proceeds from God' as the one explanation of 'spirit'; it does not conflict with the Church footnote (TG Teaching with the Spirit).
+- 2:3: said the use of goyim for Israel is 'comparatively rare' and that the word has been questioned because the Septuagint lacks it (two new BDB rows); reworded the 'victims of their parents' sins' sentence to what the verse says.
+- 2:4: replaced 'cannot be shamed and will not be moved' with 'both words speak of hardness'; added that the Septuagint lacks this half of verse 4 and that the lexicon marks the phrase as omitted by some (the lexicon's 'B' I took as a witness to the text, not named in the note).
+- 2:4: cut 'the answer to their faces is the face the Lord gives him'; kept only the fact that 'looks' in verse 6 is the Hebrew 'faces'.
+- 2:5: cut 'his work is to speak, and the hearing is not his to command' (no source).
+- 2:6: the opening no longer says the images are the people, only that they stand in a verse about the people's words and looks; cut 'the second word is firmer', 'he is to sit down among them' and 'it will hurt'; 'verbs' became 'participles'; 'glossed in the lexicon' reworded so no source is announced.
+- 2:8: 'the one it replaces' became 'sets the two names side by side'; cut 'nothing in the verse assumes he is unlike them by nature'; 'the lexicon's examples' reworded.
+- 2:9: cut 'shown the same news in the same form' and 'the book a prophet takes into himself is his commission'; added the Bateman teaching, paraphrased with one short phrase quoted; 'of his own call' removed from the Jeremiah 15:16 sentence.
+- 2:9 and christ: Revelation 5:1 is now quoted only in christ; the note keeps Revelation 10:9 and D&C 77:14, and the explore bullet repeating them was cut.
+- 2:10: Clarke's reason is now given in his own words ('that they might see the mind of God wherever they looked') in place of the invented 'no room for anything else'; the closing sentence that ran against Keil's reading was cut with its Scripture Helps row; the Bible Dictionary line on rolls is paraphrased.
+- christ: no longer says the voice or the roll 'comes from the throne'; says the voice is the one heard at 1:28 and that each prophet is shown a book written on both sides, the Lamb being 'worthy to take' John's; the mention of the Church footnote was dropped from the text (its row stays).
+- explore: 'calls to people who would not hear' became 'other prophets' calls', since Jeremiah 1:4–10 says nothing of that.
+- Keil and Clarke stay in 3 of 9 notes (2:1, 2:2, 2:10), at the third; so Keil's explanation of the plural 'nations' in 2:3 was not added.
+
+**Chapter 3**
+
+- 3:1 Eating the roll: 'In the ancient world' narrowed to the source's 'ancient Jewish and Egyptian writings'; the count corrected to three commands in verses 1 and 3; 'none of it starts with him' cut. The note stays although Scripture Helps gives the 'internalizing' point, because it goes further (the sweetness, verse 10, Lehi's book).
+- 3:5 Not a problem of language: the link to Moses's 'slow' tongue (Ex. 4:10) and the sentence that Ezekiel lived among such peoples were cut as the chapter's own; Matt. 11:21 is now given directly, without announcing the footnote.
+- 3:8 A forehead as hard as theirs: 'What was a fault in them is a gift in him' cut; Ezekiel's name is now stated only as built on the same root as 'strong', not as saying what the verses promise.
+- 3:12 A voice of praise: the closing claim that on either reading the throne is moving off was replaced by a plain statement of what each translation has.
+- 3:14 Sweet in the mouth, bitter on the way: D&C 77:14 and 'Ezekiel's roll is likewise a mission' cut (no source applies it to Ezekiel); 'the same experience in the same order' reduced to 'a like experience', which is what Elder McConkie says as the manual prints him.
+- 3:15 Seven days at Tel-abib: 'and say nothing' cut (not in the verse); the Bible Dictionary's Chebar sentence paraphrased instead of quoted in full.
+- 3:17 The watchman: the Ensign sentence paraphrased; 'a watchman reports; he does not compose' cut as the chapter's own reading.
+- 3:18 Answerable for the warning: Jacob 1:19 kept, since the Topical Guide puts it under the same heading as Ezekiel 3:17; King Benjamin and Paul reduced to references, corrected to what Jacob's footnote actually gives (Mosiah 2:27, Acts 20:26, not Mosiah 2:28). The Bible Dictionary is no longer announced, and the paragraph repeating the verse 20 footnotes was cut (explore keeps the references).
+- 3:20 The stumblingblock: the opening now rests on the lexicon's sense (a calamity in judgment) instead of the writer's inference from word order; the outside 'permits' reading stays as another reading because no Church source treats the verse.
+- 3:21 To warn is to care: attributed to Elder Christofferson alone instead of 'latter-day apostles'; 'the purpose of the other three' cut; one quotation paraphrased; Elder Andersen 'used the same image', not 'applied the same passage'.
+- 3:23 The glory in the plain: the source's 'likely' restored and its statement kept to the first vision; 'a long way from Jerusalem' cut; the footnote to 8:4 placed on verse 22.
+- 3:26 A watchman made silent: the Student Manual's reading (his countrymen) is given first and the other as 'has also been read', so the outside reading is not set beside it as an equal; the length of the dumbness is given as the best reading, not fact; the span corrected to more than seven years, from 1:2 and 33:21.
+- christ: reduced to what Elder Christofferson says (Jehovah commissioned Ezekiel; Jesus was not hesitant to warn). The summary sentence and the second paragraph were cut as the chapter's own and as repeating notes 3:5 and 3:21.
+- setting and thread: 'a plain nearby', 'follow at once' and 'in the same week' corrected to what the text says.
+
+**Chapter 4**
+
+- Thread (4:1-3): now says the Lord explains the last three signs within the chapter and the model siege is explained in chapter 5; 'Babylon's army' became 'Nebuchadnezzar's' with 2 Kgs. 25:1 and a new row.
+- Thread and note 4:3 (iron pan): 'the face set against the city is the Lord's' and 'He is outside the wall, with the siege' were the chapter's own; the thread now says the prophet besieges 'acting for God' (Keil's row) and the note only sets 4:3 beside the Lord's words in 5:8. 'Stood on edge' cut (no source).
+- Note 4:3 (iron pan): the Student Manual's reading (the wall the Chaldeans built around the city) is not added; the note does not contradict it, and adding it would put the manual in 4 of 9 notes.
+- Note 4:1: 'where brick was the thing at hand' cut (inference with no row). The note stays, since the Hebrew, Gen. 11:3 and the Kings parallel go beyond the Church footnotes.
+- Note 4:3 (sign): 'the people meant to see it' reworded to 'the people who can see it are the exiles he lives among' with Ezek. 3:15. Jer. 27 and Acts 21:11 stay, cited as the manual prints them.
+- Note 4:4 (left and right sides): added Keil's answer, the pre-eminence of Judah over Israel, as one reading, with a row.
+- Note 4:4 (390 and 40): Clarke's two counts (back to Jeroboam; the length of the siege) are now two separate counts, as his page has them, cited to Clarke for what he prints. 'Exile is Egypt over again' replaced with Keil's own words (Egypt 'as a type of the banishment'), with a row. The 253 years now carries Keil's condition ('taken as years of sinning'). The Septuagint's 190 is said to be verse 5's figure; its 150 in verse 4 is left out, as the brief allows.
+- Note 4:7 (bared arm): 'stripped for action' and the contrast with Isaiah 52:10 cut; neither Keil nor Clarke explains the gesture. The note now gives the verb, the lexicon's grouping of the two arms, and says the verse does not say what the gesture means. BDB's remark that one critic would strike the phrase is not added; the reader's question does not need it.
+- Note 4:12: the Deut. 23:13 sentences and their row cut; Keil's page says that law cannot be shown to make the bread unclean. The manual stays as the source for Clarke's words on dung.
+- Note 4:14: 'categories of the law' replaced by Lev. 22:8 quoted (the priests' rule on what dies of itself or is torn), with rows; piggul's sense in this verse now said to be 'undefined', as BDB has it; 'the sign keeps its meaning' and 'altered when His servant pleaded' cut as the chapter's own interpretation.
+- Note 4:16: 'the law's own warning coming true' and 'that verse acted out' reduced to the shared words (staff of bread broken, bread by weight, the verb and phrase of Lev. 26:39); 'Moses used it' removed; 'Jeremiah, who was inside the city, records the same day' replaced by a quotation of Jer. 52:6.
+- Setting: 'and a temple' cut (no row).
+- Christ: the last sentence ('the prophet could show what iniquity weighs, and the Servant takes it away') cut as the chapter's own. The shared verb with Lev. 16:22 and Isa. 53:12 stays, labelled a comparison of words, since Keil himself contrasts Ezekiel's bearing with the sacrifice of atonement.
+- Three sentences that announced the lexicon were reworded (notes 4:7, 4:14, 4:16).
+- Proposed sources: '(1831)' removed from clarke-ezekiel's pub field, since the page shows no date.
+
+**Chapter 5**
+
+- Tagline: reworded to 'Ezekiel is told to shave...', since the text gives the command and does not report it carried out (5:1-4).
+- Thread, note 5:2 'The curses of the covenant', parallels: 'comes from' / 'is the source of' Leviticus 26 softened to 'have a counterpart' / 'has the words of'; the link now rests on Lund's article (Moses' warnings as 'probably the most important' antecedent to Ezekiel), with the manual for verse 10 and BDB for the idiom. The reading of 'I the LORD have spoken it' as the point of the refrain was cut as the chapter's own.
+- Note 5:1 'A shaved head and beard': cut the paragraph setting the sign beside the ban on priests shaving (Lev. 21:5; Ezek. 44:20); no source read makes that connection.
+- Note 5:2 'Three thirds': the scales no longer 'make the parts equal' (that is Clarke's reading, not the text's); the Septuagint sentence now assigns plague, famine, scattering and sword to verse 12 only.
+- Note 5:3: 'Verse 4 says' replaced by a statement of what the burning signified, with the Student Manual carrying the attribution; 'the chapter's only sign' cut.
+- Note 5:5: added Lund's point that Judah had the law and the covenant, with D&C 82:3, which he joins to 5:5-7, so the note no longer rests on Keil alone; Keil's reading kept after it.
+- Note 5:7: 'Modern translations agree' made singular (only the NRSVUE was read); 'rare' cut. Keil's reconciliation with 11:12 stays as 'one answer'.
+- Note 5:10: 'eating their own dead' and the chapter's own fathers-and-sons comparison cut; the note now says it was foretold by Moses and fulfilled more than once, including A.D. 70, from Lund and the Student Manual, so it goes beyond the Church footnote.
+- Note 5:11: cut the echo between 'diminish' and the razor (Aramaic 'shave head', the clipped beard of Jer. 48:37) and the sentence saying no source makes it; the link to chapter 8 reworded to what 8:6 says.
+- Note 5:13: cut 'It does not say that the Lord takes pleasure in the ruin'; the lexicon and translation read lean the other way and nothing read says it.
+- Note 5:16: cut the Song of Moses arrows (Deut. 32:23). Keil does make that link, but citing him there would put commentaries in more than a third of the notes for a side remark.
+- Christ section: cut the link from verse 10 through A.D. 70 to Luke 21:24 and 19:41, which no source read applies to this chapter; it now rests on the remnant (5:3; 6:8-10) from the Student Manual and Lund, with Lev. 26:44. The A.D. 70 fact moved to the 5:10 note.
+- Student Manual now in 3 of 11 notes and Bible Hub commentaries in 3 of 11, both within the third.
+
+**Chapter 6**
+
+- 6:5 – kept the bones note by sourcing it: Gill on this verse says scattered bones 'were reckoned a pollution' of altars and cites 2 Kgs. 23:14; the writer's additions (worshippers' posture, 'what the idols were worth', 'put out of use') were cut. New proposed entry gill-exposition: { type: book, author: John Gill, title: 'Exposition of the Entire Bible', pub: 'Read on Bible Hub (Gill''s Exposition), on Ezekiel 6:5', url: 'https://biblehub.com/commentaries/gill/ezekiel/6.htm' } (page title seen: 'Ezekiel 6 Gill's Exposition').
+- Whole chapter – the Bible Hub commentary warning (4/10 notes: 6:5, 6:9, 6:11, 6:14) is left standing, as the brief allows for chapters where the Church's helps are thin: chapter 6 has 11 footnotes, no Scripture Helps section and no KnoWhy, and no Church or BYU source answers those four questions.
+- 6:7 – the Exodus paragraph (Ex. 6:7; 7:5 and the outstretched hand) was cut: no source applies it to this verse. 'And through the book' was replaced with the quoted occurrence at Ezek. 39:28. 'Recognition through events' was reduced to what the verses say.
+- 6:8 – the Lev. 26:40–42 comparison ('in Leviticus the Lord remembers; in Ezekiel the people do') and 'the self-loathing is not despair' were cut as the writer's own. 'A leading example' now says what Lund says: the hope follows directly on the bones before the altars.
+- 6:9 – the writer's argument about which reading fits and 'betrayal wounds' were cut, as were 'long disputed' and 'hard for its earliest translators'. The lexicon sentence now says only that the verse is also listed under 'break, rupture, heart'. The King James reading stays first and is the one `christ` uses.
+- 6:11 – the Ammon contrast (Ezek. 25:6, 'what keeps it from gloating') was cut as the writer's connection. 'Usually anger' became 'elsewhere the same gesture shows anger'. The Greek 'Aha, aha!' is reported without saying the translator heard scorn.
+- 6:12 – 'restates the sign of the hair' became 'the same three deaths were named' at 5:12, since the two lists do not match. The closing inference about the remnant of verse 8 was cut.
+- 6:13 – 'reserved for God', the counterfeit framing and 'explains why the altars are the place of judgment' were cut; the note keeps the lexicon's fact that the term for acceptable sacrifice is used here of idols.
+- 6:14 – added Clarke (existing key clarke-commentary) for the confusable letters and for Riblah as the place of Zedekiah's judgment; added that the King James comparison is judged the more probable sense by those who resist the correction; 'grim name to end on' cut; 'the question is open' became 'not settled'.
+- 6:4 – cut 'not a general word for a statue' and 'neither is a respectful name'; 'older explanation' became 'another explanation'; the closing sentence about what a hearer would have recognized was shortened to 'the threat is the law's own'.
+- 6:2 – the opening now rests on verse 3 (the high places were on the mountains); 'for a time' was cut because the Bible Dictionary does not say it.
+- Thread – cut 'the chapter's shape puts the survivors at its center' and 'the same knowledge by different roads'; no source gives the chapter that shape. Added Keil's statement that verses 13–14 are a variation of 4–7 as the row for the return in verse 13.
+- Setting and thread – Lev. 26:33 beside the chapter is now supported by Lund, who names the warnings of Leviticus 26:14–39 as the antecedent of Ezekiel's judgments; Keil still carries 26:30.
+- Section 1 plain – 'stream beds' became 'rivers', the King James word.
+- christ – cut 'the judge of this chapter is also the one who was wronged'; the paragraph now says only that the 'I' of verses 8–9 is Jehovah, from the Guide to the Scriptures.
+
+**Chapter 7**
+
+- Setting: Zedekiah's reign now rests on 2 Kgs. 24:17-18 (quoted), and the 586 B.C. date is tied to the deportation the Bible Dictionary dates; 'about six years off' is kept as a count from the brief's dates.
+- 7:2: cut the link to the proverb of Ezek. 12:22 ('the end was only sleeping'); no source joins it to this verse.
+- 7:7 (morning): 'The King James translators took it from Aramaic' reworded to say the King James rendering follows a derivation from Aramaic, which is all BDB says.
+- 7:7 (shout on the mountains): cut the paragraph tying the mountains to chapter 6's hill shrines; it was the writer's own reading, labelled as such.
+- 7:9: cut the sentences about Nebuchadnezzar's ambition, bad policy or bad luck being ruled out; unsourced interpretation.
+- 7:10: 'the most common reading' changed to 'one reading'; the Aaron's rod echo (Num. 17:8) cut as the writer's own; the second reading kept, now as Jerome's (reported by Jamieson-Fausset-Brown) rather than the chapter's.
+- 7:13: the unsourced 'family in need sold the use of a field' replaced with Lev. 25:25 and 25:15-16; the contrast with Jeremiah's purchase of the field (Jer. 32) cut from the note and from explore, since no source joins the two.
+- 7:16: cut 'These are townspeople hiding in the hills' (writer's inference).
+- 7:19: no longer states the gold reading of verse 20 as settled; it points to the note on 7:20.
+- 7:20: the Student Manual's temple reading is given as the reading, paraphrased with one short phrase quoted; the silver-and-gold rendering is given second as a translators' choice (ESV, NIV), not as an equal. Jerome's comment and Keil were dropped from the note; the footnote's Jer. 7:14 is now named beside Ezek. 24:21.
+- 7:23: 'the usual explanation' changed to 'one explanation'; 'presumably the prophet' cut (the singular verb is kept, from the Hebrew); the paragraph on Zedekiah's fetters and Jeremiah's chains cut as the writer's own link.
+- 7:26: the links to Jer. 18:18, Lam. 2:9, Ezek. 20:1-3 and Amos 8:11 are kept because Jamieson-Fausset-Brown makes each of them at this verse; Ezek. 14:1 replaced by 20:1 to match; 'the same verb' confirmed in the Hebrew (abad in both verses) and given rows; 'the ordinary ways of knowing what God wanted' and 'having refused the word while it was offered' cut.
+- 7:27 and christ: Matt. 7:2 removed from both (the chapter's own link, and repeated in two places); christ now rests on the Church footnote at 7:4 to D&C 1:10 and on the heading to Zephaniah 1. The sentence calling Jerusalem's fall 'a pattern of a day still ahead' was cut.
+- Bible Hub commentaries: Keil in 7:10, 7:13, 7:16 and Jamieson-Fausset-Brown in 7:10 and 7:26, which is 4 of 12 notes, at the limit and not over it.
+
+**Chapter 8**
+
+- christ: cut the paragraph joining the 'jealousy' of 8:3, 5 to 'the zeal of thine house' (Ps. 69:9; John 2:17), which the writer had flagged as keep-or-cut; no source read joins them, and its four ledger rows are removed.
+- 8:2 and christ: the figure of fire is no longer stated to be the Lord; the note says it is described in the words of 1:26-28 and that the speaker calls the temple 'my sanctuary' (8:6).
+- 8:8: Keil's 'altogether erroneous' and the Jerome sentence (read only through Keil) are cut, because they set an outside reading against the Church's chapter heading ('idolatry practiced in the temple itself'). The 'visionary drapery' reading stays as one reading, the seventy-one-men argument now matches Keil's, and the note closes on Jer. 7:30 and 2 Chr. 36:14.
+- 8:10: Clarke's reading of the later scenes as Phoenician and Persian is cut, since it differs from the Church footnotes (Amorite; Egyptian sun god); his Egyptian suggestion for the pictures stays as 'have been thought.' 'Ezekiel's list begins there' is cut.
+- 8:14: Tammuz is now 'worshipped in Babylonia and in Phoenicia' (the Student Manual, new ledger row) rather than flatly 'Babylonian,' which sits better beside the Church footnote's 'Amorite idol.' The public-versus-secret paragraph and the join to 9:4 are cut.
+- 8:18: cut the Mosiah 11:24 and D&C 101:7 'measure for measure' sentences and the closing paragraph reading 9:4-6 as the Lord hearing the mourners (the chapter's own readings); kept the echo in 9:1, the repeat in 9:10, and Jer. 11:11.
+- 8:11: cut the contrast with the seventy on Sinai (Ex. 24:10), 'not otherwise known,' and 'a son of the household that found the law'; the note keeps what Keil and the verses say.
+- 8:12: cut 'evidently a common one,' 'Each man has his own' (Keil rejects separate rooms), and the 'arranged to refute' paragraph, leaving one sentence of what the text shows.
+- 8:16: 'the worst' becomes 'turns on where the men stand'; cut 'had to turn around,' 'Ezekiel sees it done,' 'What Josiah put out has returned,' and 'suggests priests.'
+- 8:17: cut 'gesture of contempt' and 'the choice is between… an idiom for insolence' (the writer's inference from the Septuagint) and the announced-source sentence; 'explanations differ' moved into the opening.
+- 8:3 (vision): cut 'marks the book's three great visions,' 'part of what he sees,' and 'presumably'; the Lehi comparison now names Ezek. 1:1 and 37:1, the verses KnoWhy #469 actually compares.
+- 8:3 (idol): cut 'His choice of word recalls it' and 'that commandment broken at the Lord's own door'; 'comes from the second commandment' is now 'speaks of images and of jealousy together.'
+- 8:6: cut 'states what the vision is about' and 'no protection once the Lord had left it'; the lesson for the exiles is reworded to what KnoWhy #719 says. The closing lines on the glory's return (43:4) are cut because `christ` and `explore` already carry it.
+- 8:1: cut 'the audience the vision is meant for'; the last sentence now says only what 11:25 and verses 11-12 say.
+- setting and thread: 'None of the worship he sees was new' is narrowed to 'Idolatry in the temple was not new'; 'The whole chapter answers them… He sees through walls' is narrowed to what verses 4 and 12 show.
+- Left as written: 'The date stands over chapters 8-19' in `when` (the book's own dated headings support it), and the 8:16 sun-worship history from the Student Manual (the Church footnote's 'sun god of Egyptians' is beside the verse and is not repeated).
+
+**Chapter 9**
+
+- Thread, 9:9 and christ: 'to look at each person', 'look at every person' and 'looks for His own, one by one' cut or reworded to what verse 4 says (he is sent to mark those who grieve).
+- Thread: 'He is leaving, though not as they supposed' and 'where the privilege was greatest' replaced with the wording of 8:6 and 9:6.
+- 9:1: the 'irony' sentences cut (no source); 'the King James translators took the second' reworded as a statement about the King James wording. The echo of 8:18's 'loud voice' is kept as a plain observation of the text.
+- 9:2: 'He carries none' reworded to what the verse names; 'The one who marks is also the one who burns' cut; 'the one errand of mercy' reworded to 'the marking is given to him alone'. The man is left unnamed; the angel-of-Jehovah identification stays as an inference that is not established.
+- 9:3: the opening no longer calls the verse 'the first movement of the Lord's departure'; the stages are given from the verses. 'By the way it had gone' replaced with Ezekiel's own link in 43:3 (new ledger row); 'going slowly' and 'One who is on His way out' cut.
+- 9:4 (taw): 'a coincidence a believer may find moving' reduced to what Keil says; the mark's purpose now put in the sources' order (to tell the marked apart so they are spared, then the manual's 'belonged to God'); 'They are claimed' cut.
+- 9:4 (who receives the mark): 'they still see as He does, and it costs them something' and the contrast with the weeping for Tammuz (8:14) cut as the chapter's own readings; the note is now short, on the two Hebrew verbs and what the verse does and does not say.
+- 9:5: 'The six men were, in the event, an army' cut (no source identifies them; Keil calls them angels); 2 Chr. 36:17 kept as the history of the fall. The manual's 'martyrs and other exceptions' and Joseph Smith's statement are now said to be about the latter days, as the manual has them. A row from the Church's heading to chapter 11 supports the vision being of Jerusalem's destruction.
+- 9:6 (Passover and seal): the opening hedged to 'has been read with'; 'belonging before safety, which is what the Hebrew word suggests' cut; Mosiah 5:15 moved out of the note to christ so the two no longer repeat each other. The house-against-forehead contrast is kept as an observation of the two texts.
+- 9:6 (sanctuary): 'the worst of the sin' reworded; the closing 'most dangerous place in the city', which joined the elders of 9:6 to the men of 8:16, cut. The manual's point is kept, since its paragraph makes the comparison with D&C 112:24-26.
+- 9:7: 'three chapters earlier' corrected to chapter 5; the paragraph joining Jer. 7:4 to this verse cut (the chapter's own connection); Num. 19:13 kept as the law on why the dead defile.
+- 9:8: 'the people the city had written off' replaced with the quotation of 11:15; 'he feared no one would be left' cut.
+- 9:9: three interpretive sentences ('the thought is local', 'a people who believe they are unobserved', 'He had not, until the abominations drove Him to it') replaced with the verse's own 'for they say' and 8:6.
+- christ: Rev. 14:1 left to the note on 9:6; Mosiah 5:15 hedged to 'seems to be related', with KnoWhy #348 rows added; the Passover reading hedged.
+- Keil stays in 3 of 11 notes and the Student Manual in 3 of 11; I did not add Keil to 9:7 or 9:8, though his page supports both, to keep him within a third.
+- Joseph Smith's statement (9:5) stays cited from the Student Manual, which prints it; History of the Church 4:11 was not opened.
+
+**Chapter 10**
+
+- 10:4 'the cherub': the writer's two readings (one built on a Shannon sentence that does not say it) are replaced by the two Keil reports: the glory coming out from the interior of the sanctuary, or the singular standing collectively for the living cherubim in the court. Keil prefers the second; the note says the verse itself does not decide.
+- 10:4 and 9:3: the note now gives Keil's reading that verse 4 is a second rising to the threshold, and that the command of verse 2 was given from there.
+- 10:2, thread, christ: 'the command comes from the throne', 'the voice from the throne' and 'It is He who gives the command about the fire' are cut, since Keil says the command was given from the threshold, not the throne.
+- 10:2 coals: the significance of where the fire comes from now rests on Keil (quoting Kliefoth): the city's fire is kindled from the fire of God's wrath. The unsourced link to 1:13 and the 'Babylonian army' sentence are cut.
+- 10:2 coals: the Revelation 8:5 sentence is cut from the note because it only repeats the Church footnote; it stays in explore and parallels.
+- 10:2 linen: 'dressed as a priest', 'moves freely... where Ezekiel only watches' and the closing paragraph on the order of the errands are cut as inference or repetition; the note keeps what BDB says (an angel, in priestly material).
+- 10:3 'right side': one clause in the 10:4 note now says it is the south side, from Keil; no new note was added.
+- 10:13 'O wheel': 'The Hebrew is five words and allows either' is cut (Keil calls the naming reading untenable); the note now says only that translators have gone both ways.
+- 10:14: the 'third explanation' (a later addition) is cut as an inference; the Septuagint omission is stated as a bare fact. 'Has not been revealed' now has a Scripture Helps row and is paraphrased, since chapter 1 quotes it.
+- 10:15: 'The Lord says as much' is reworded so that 11:16 is quoted without claiming it says what Shannon says.
+- 10:18: the paragraph setting 9:9 and Hosea 9:12 beside the departure is cut (the first is the writer's own, the second only repeats the footnote); 'the safety of the temple had never been in the building' is reduced to Shannon's own words.
+- 10:18 and D&C 97:15-17: kept, because Jacob Milgrom's RSC essay 'The Temple in Biblical Israel' quotes those verses beside the cherubim lifting their wings in Ezekiel 11:22; 'Ezekiel 10 shows the thing happening' is cut.
+- 10:19: 'reverses each step', 'half of a story' and the 'third stage' count are cut; 'the temple faced east' now rests on Ezekiel 47:1.
+- 10:20: retitled 'The creatures named: cherubim and the temple'. The writer's explanation of why Ezekiel recognized them is cut; the note says he does not say how he knew and gives what the Bible Dictionary, scripture and Shannon say about cherubim and the temple.
+- 10:4 cloud: the generalization about how scripture describes the Lord coming to dwell is reworded to the two cases quoted; 'the next time the book speaks of the house being filled' was confirmed with occurrences.mjs (43:5, then 44:4).
+- Setting, thread, christ: 'He did not travel there in the body', 'one act... both proceed from His throne' and 'took for granted' are cut or reworded to the text; 'the book ends with His glory coming back' is corrected to 'the last vision of the book'.
+- Explore: Isaiah 6:6-7 is cut (no source joins it to this verse); the author's name is dropped from the pointer to the cherubim article.
+- Left as they were: the 'when' line (the brief's convention), the cloud note's title 'at its dedication' (true of the temple it names), the BDB 'perhaps' on galgal (the note's statement is about the Hebrew text), and the 'cherubims' plural remark (the Hebrew row carries it).
+
+**Chapter 11**
+
+- 11:1: 'civic leaders', 'a political one' and 'outer gate' reworded to the text's own terms (leaders of the people, their counsel, the east gate); the two Jaazaniahs are now stated only as having different fathers' names, not as two men.
+- 11:3 (houses): cut 'On every reading the saying is a refusal to believe the prophets' (no row, and too strong for the Septuagint reading); added Keil's own page beside the Student Manual for the Jeremiah-letter reading.
+- 11:3 (caldron): cut the Micah 3:3 comparison, which no source applies to this verse; added Keil's own page beside the manual for the pot-protects-the-meat sentence.
+- 11:10: removed 'Riblah has already come up at Ezek. 6:14' (the verse reads Diblath). The note stays, since it now goes beyond footnote 10a with Keil's reading that the threat was 'literally fulfilled' at Riblah, worded as 'has been read as'.
+- 11:13: cut 'does not take the death as a vindication' and 'looking for it in the wrong city' (the chapter's own reading); 'answered only with the reason' became 'answered with the reason' (9:9-10).
+- 11:13: cut the meaning of Pelatiah's name (a curiosity the note itself said teaches nothing) and Keil's conjecture that the death was probably realized afterward. The note now says only that the text does not say; strongs-concordance is no longer cited.
+- 11:15: cut the unsourced reasoning attributed to Jerusalem ('the Lord lives in Jerusalem, so...'), the 'redeeming kinsman' reading of ge'ullah, and 'duty' from 'right and duty'. Cut the Jeremiah 24 paragraph, since no source joins the two passages; Jeremiah 24 remains as a plain pointer in explore.
+- 11:16: restored the lexicon's 'apparently' for Isaiah 8:14; 'the same Hebrew verb' became 'forms of the same Hebrew root' (different stems); removed the two decorative Keil quotations and 'neither can be ruled out', so the note rests on the lexicon, the Hebrew, the translations and KnoWhy 719.
+- 11:19: 'Jeremiah uses Ezekiel's phrase' became 'Jeremiah has the same phrase' (no source gives the order or a dependence).
+- 11:23: the Mount of Olives identification now rests on Keil, who makes it (the Bible Dictionary entry only describes the hill). Cut the Satterfield quotation relayed by KnoWhy 637 (original not read) and the 'hard irony' passage built on 8:12; sc-knowhy-637 is no longer cited.
+- 11:25: 'in Ezekiel's house' at the close and the list of what the exiles 'learned' were cut as inference; the note now ends on the text's own point that the hearers were the people Jerusalem had told to keep far from the Lord.
+- Thread: the closing sentence joining the glory's departure to the taunt as its answer (a connection no source makes) was replaced by the Lord's own words in 8:6.
+- Christ: 'has long been read' became 'has been read'; the clipped Keil quotation (which dropped 'at the last judgment') is now a paraphrase; the Isaiah 8:14 sentence now rests on a ledger row quoting the Church's chapter heading, which I read on the page.
+- Section 3 plain: fixed a grammatical slip ('the people to whom ... have told').
+
+**Chapter 12**
+
+- Setting: Keil's sentence (as the Student Manual prints it) had been quoted beside a Jeremiah 29 reference as if it were Jeremiah's; replaced with a paraphrase of Jer. 29:5-10 itself, and the manual row removed.
+- Setting: the "two full years" are now said of the temple vessels, with Jeconiah and the captives following, as Jer. 28:3-4 has it; a row for 28:3 added.
+- Setting: "Chapter 12 begins the long run of signs" was wrong (the signs begin in chapter 4); now says the judgments on Jerusalem run on to chapter 24, from the Bible Dictionary's division.
+- Thread: cut "One word ties the two halves together" and the sentence joining the people's 'visions' to the verb 'see'; no source makes that link and the Hebrew words differ.
+- 12:5: removed "the back way" and "a way that is not the gate", which contradict 2 Kgs. 25:4 (the king left by a gate); the note now says the flight by night matches the sign.
+- 12:5: added that the breach in the wall has been judged very probable, which the note had left out of Keil's sentence (row added); "one older commentary says flatly" reworded so no source is announced.
+- 12:6: "makes it a disguise" was the writer's word for the Septuagint; now "adds a purpose". The sentence reconciling the readings is reworded to what Keil says, and the note states that none of the three readings is settled.
+- 12:10: cut the sentence setting the book's dating by Jehoiachin beside the title "prince" as an implied reason; the note now says no source read gives a reason. "Ezekiel does not call him king" (a claim about the whole book) narrowed to this verse. Three rows and three source keys removed from the note.
+- 12:10: cut "the one lifted up will lift his own baggage, and the oracle about him is a load", a reading of the writer's own.
+- 12:11: the pointer to 4:3 now quotes the verse's own words; cut the unsourced inference "As long as Jerusalem and its king stood, the captivity could be thought of as short" and the framing "the question the chapter turns on".
+- 12:13: the join of 2 Kgs. 25:5 to verse 14 is the Church edition's footnote; added the row for it. "My net" naming the Lord as the one who takes the king is the verse's plain wording and stays.
+- 12:16: cut the links to Ezek. 36:20 and 14:23 (I searched Keil on chapters 6, 14 and 36 and none joins them to 12:16); softened the sentence that overstated Keil, and marked the explanation as one commentary's reading.
+- 12:18: cut the sentence that reprinted the Church footnotes on "carefulness" and "astonishment", and the unsourced claim that "the people of the land" are the exiles as audience.
+- 12:22: cut "The people who used the proverb lived to hear that" (the verse places the proverb in the land of Israel; the news of 33:21 reached the exiles); now only that the word was performed within a few years by the book's own dates.
+- 12:24: replaced the writer's reasoning in the second paragraph with what verses 24-25 themselves say.
+- 12:27: retitled "The second saying: not in our time" (the old title "true, but not for us" and "allows that Ezekiel sees truly" said more than the verse); ledger rows renamed to match.
+- Witness of Christ: kept the Bible Dictionary's identification of Jehovah and Matt. 13:13, which Keil sets beside verse 2 (row added from his page); cut Mark 8:18, D&C 1:38 and the closing sentence on "the constancy of the speaker", which no source applies to this chapter.
+- Keil is cited in 5 of 11 notes, over the third: left, as the brief allows, because the chapter has no Scripture Helps section and the Student Manual gives it two sentences.
 
 ## Reader questions no source answered
 
 *(`scripts/batch-notes.mjs` adds to the end of this file, so this stays the last section.)*
+- **1:** Why the account changes from 'I' to 'Ezekiel... him' in verses 2-3 (the note records the change and says the text does not explain it); What the sound 'as the voice of the Almighty' is (verse 24); Why the creatures have straight feet, calf's soles, joined wings and human hands (verses 7-11); the Student Manual offers meanings, which the brief sets aside for Scripture Helps; What 'the hand of the LORD was upon him' means (verse 3); Keil treats it, and it could go at 3:14, 3:22 or 37:1; What 'terrible' crystal means in verse 22, in 1611 English or in the Hebrew; no lexicon page was read; Whether the rainbow of verse 28 is meant as the covenant sign of Genesis 9; no source read joins the two.
+- **2:** 2:3: why the Hebrew has the plural 'nations' (goyim) for Israel. The note says the text does not explain it; Keil has an explanation the writer left out to stay within the commentary limit; 2:9: whose hand holds out the roll. No source read says; 2:2: whether 'the spirit' is the Holy Ghost. Only Keil's 'spirit-power which proceeds from God' is given.
+- **3:** Why Ezekiel sits seven days at Tel-abib (3:15): no source read answers it; the note says the text does not say; Whom the anger of 3:14 is against, and whether it is Ezekiel's own: the note says the verse does not say; Why the New Revised Standard Version reads 3:12 without spoken words: no source read; the note only reports the two readings.
+- **4:** 4:7: what the uncovered arm signifies. Keil and Clarke do not comment on it, and BDB only lists it beside Isaiah 52:10; 4:14-15: why the Lord granted Ezekiel's request and changed the command. No source read explains it; 4:4-8: how a man lying bound for 430 days could also bake bread and tend a model siege, and how 430 days fit between the dates of 1:2 and 8:1 (about fourteen months); 4:5-6: what the 390 and 40 years count. The note gives three attempts and says none is established.
+- **5:** Was the sign of the razor and hair actually performed, or only commanded or seen in vision (5:1-4)? No source read says; the setting states only that the text gives the command; What do the scales of verse 1 signify? Only Clarke answers (divine justice and exactness), and he is not cited for it; the note says the text gives them no further meaning; Does 'that which I have not done, and whereunto I will not do any more the like' (5:9) look beyond 586 B.C.? No Church or BYU source read addresses it.
+- **6:** 6:7 – what the refrain 'ye shall know that I am the LORD' means across the book, and how often it comes: no source read treats it, so the note stays with what this chapter's verses say and one later occurrence (39:28). The brief's 'about seventy' has no source row; 6:14 – where Diblath was: the sources say the place is unknown, and the Riblah correction is not settled; 6:9 – whether the Lord or the people's heart is 'broken': no Church source addresses it; the note gives the King James reading first and the others after it.
+- **7:** Ezek. 7:11: what the last clauses mean ('nor of any of theirs: neither shall there be wailing for them'); the Hebrew is marked uncertain and no source read settles it; Ezek. 7:3-9: why the Septuagint is shorter and differently ordered here; Brenton's page shows the difference but nothing readable explains it; Ezek. 7:27: who 'the king' and 'the prince' are; the setting names Zedekiah, but the chapter has no note on the two titles; Ezek. 7:7: whose glad 'shouting on the mountains' is meant; the lexicon gives the word's sense but no source read says whose shouting it is.
+- **8:** Why did the elders think the Lord had forsaken the land (8:12)? No source read answers; Why is incense in the elders' hands itself an offence (8:11)? No source read answers; Who are the twenty-five men of 8:16? The text does not say; Keil's identification (the heads of the priestly courses with the high priest) was left out by the writer; Why is each scene 'greater' than the last (8:6, 13, 15)? No source read ranks them.
+- **9:** Why there are seven figures (six with weapons and one in linen): nothing readable says; Which cherub is meant in 9:3 (the ark's or the vision's): the note says the verse does not say; Keil argues for the vision's cherubim but was not used; How many were marked, and whether the marked all survived the fall of the city: the text does not say.
+- **10:** Why are the creatures' whole bodies, and not only the wheel rims, full of eyes in 10:12? The 10:15 note points out the difference and no source read explains it for Ezekiel's vision; Why does the glory halt at the threshold and again at the east gate (10:4, 10:19)? The note says the text gives no reason; Keil's remark that God judges from the threshold is on 9:3 and was not used.
+- **11:** Why the glory departs in stages and pauses on the mountain (11:22-23): no source read explains it; Where the glory goes after the mountain: the text does not say. Shannon's article says the Lord's presence settles among the exiles but does not tie that to 11:23; Whether Pelatiah actually died in Jerusalem at that hour (11:13): the text does not say; only Keil's conjecture was found, and it was removed; Whether the twenty-five men of 11:1 are those of 8:16, and why these two princes are named: the text does not say. Keil calls them representatives of the civil authorities and says nothing more is known of the two; he is not cited for it.
+- **12:** Why does Ezekiel call Zedekiah "prince" (nasi) and not king in 12:10 and 12:12? The lexicon points to a study that is not readable here; Was the second sign (eating bread with quaking, 12:17-20) actually performed? The text does not say; Who are "the people of the land" that Ezekiel is told to address in 12:19: the exiles around him or those still in Judah?; Who are "they" in "they shall know that I am the LORD" at the end of 12:16: the survivors or the nations?; Was a breach in fact dug in Jerusalem's wall when Zedekiah fled? The histories name only the gate between two walls.
