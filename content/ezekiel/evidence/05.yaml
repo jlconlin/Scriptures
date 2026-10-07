@@ -328,16 +328,6 @@ claims:
     url: 'https://biblehub.com/commentaries/kad/ezekiel/5.htm'
     quote: 'Since Jerusalem has acted worse than the heathen, God will execute His judgments upon her before the eyes of the heathen.'
   - where: 'note 5:5 “Jerusalem in the midst of the nations”'
-    claim: 'The word for midst (tavek, 8432) is in verses 2, 4, 5, 8, 10 and 12 (six times, by hebrew.mjs --word 8432)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'בְּ/ת֥וֹךְ'
-  - where: 'note 5:5 “Jerusalem in the midst of the nations”'
-    claim: 'The word for round about (saviv, 5439) is in verses 2, 5, 6, 7 (twice), 12, 14 and 15 (eight times, by hebrew.mjs --word 5439)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'סְבִיבוֹתֶ֑י/הָ'
-  - where: 'note 5:5 “Jerusalem in the midst of the nations”'
     claim: 'A modern translation renders “instruction” in verse 15 as a warning'
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Ezekiel+5&version=NRSVUE'
@@ -503,11 +493,6 @@ claims:
 
   # ---- note 5:16 ----
   - where: 'note 5:16 “The staff of bread”'
-    claim: 'The words are matteh lechem (4294, 3899)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'מַטֵּה'
-  - where: 'note 5:16 “The staff of bread”'
     claim: 'From the staff as a support comes the figure of the staff of bread, the food supply'
     key: bdb
     url: 'https://biblehub.com/hebrew/4294.htm'
@@ -518,11 +503,6 @@ claims:
     url: 'https://biblehub.com/hebrew/4294.htm'
     quote: 'staff of bread (food supply) Ezekiel 4:16; Ezekiel 5:16; Ezekiel 14:13; Leviticus 26:26'
   - where: 'note 5:16 “The staff of bread”'
-    claim: 'Leviticus 26:26'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/26?lang=eng'
-    quote: 'And when I have broken the staff of your bread, ten women shall bake your bread in one oven, and they shall deliver you your bread again by weight'
-  - where: 'note 5:16 “The staff of bread”'
     claim: 'Ezekiel 4:16: the staff of bread broken in Jerusalem, bread eaten by weight'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/4?lang=eng'
@@ -532,13 +512,6 @@ claims:
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
     quote: 'הָ/רָעָ֨ב'
-  - where: 'note 5:16 “The staff of bread”'
-    claim: '2 Kings 25:3: famine in the besieged city'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/25?lang=eng'
-    quote: 'the famine prevailed in the city, and there was no bread for the people of the land'
-
-  # ---- christ ----
   - where: christ
     claim: 'Leviticus 26:44: Israel not cast away'
     key: lds-scriptures
