@@ -27,8 +27,9 @@ if (!book) throw new Error(`No book “${slug}”. Books: ${books.map((b) => b.s
 
 // What was asked for: chapter numbers, themes, guides, or one page's file name; nothing means all of them.
 const chapters = rest.filter((a) => /^\d+$/.test(a)).map(Number);
-const kinds = rest.filter((a) => a === 'themes' || a === 'guides');
-const pageNames = rest.filter((a) => !/^\d+$/.test(a) && a !== 'themes' && a !== 'guides').map((a) => a.replace(/\.(?:yaml|md)$/, ''));
+const SUBS = ['themes', 'guides', 'facsimiles']; // evidence/facsimiles/<n>.yaml: a facsimile page's notes (node scripts/check-ledger.mjs abraham facsimiles)
+const kinds = rest.filter((a) => SUBS.includes(a));
+const pageNames = rest.filter((a) => !/^\d+$/.test(a) && !SUBS.includes(a)).map((a) => a.replace(/\.(?:yaml|md)$/, ''));
 const everything = !rest.length;
 
 const pages = new Map(); // url -> { text, num } | { error }
@@ -46,9 +47,9 @@ const ls = async (d) => (existsSync(d) ? (await readdir(d)).filter((f) => f.ends
 const todo = [];
 if (everything || chapters.length)
   for (const f of (await ls(dir)).filter((f) => /^\d+\.yaml$/.test(f))) if (!chapters.length || chapters.includes(parseInt(f, 10))) todo.push({ label: `${book.name} ${parseInt(f, 10)}`, file: path.join(dir, f) });
-for (const sub of ['themes', 'guides'])
-  if (everything || kinds.includes(sub) || pageNames.length)
-    for (const f of await ls(path.join(dir, sub))) if (!pageNames.length || kinds.includes(sub) || pageNames.includes(f.replace(/\.yaml$/, ''))) todo.push({ label: `${book.name} ${sub === 'themes' ? 'theme' : 'guide'} ${f.replace(/\.yaml$/, '')}`, file: path.join(dir, sub, f) });
+for (const sub of SUBS)
+  if (everything || kinds.includes(sub) || (pageNames.length && sub !== 'facsimiles'))
+    for (const f of await ls(path.join(dir, sub))) if (!pageNames.length || kinds.includes(sub) || pageNames.includes(f.replace(/\.yaml$/, ''))) todo.push({ label: `${book.name} ${{ themes: 'theme', guides: 'guide', facsimiles: 'facsimile' }[sub]} ${f.replace(/\.yaml$/, '')}`, file: path.join(dir, sub, f) });
 for (const name of pageNames) if (!todo.some((t) => t.file.endsWith(`/${name}.yaml`))) { console.error(`No ledger for “${name}” in ${path.relative(ROOT, dir)}/themes/ or guides/.`); process.exit(1); }
 if (!todo.length) { console.error(`No ledgers to check for ${book.name} (${rest.join(' ') || 'everything'}).`); process.exit(1); }
 

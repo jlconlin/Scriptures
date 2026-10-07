@@ -149,6 +149,10 @@ export async function build({ quiet = false } = {}) {
         if (!existsSync(file)) continue;
         const fac = { ...text, ...(await readYaml(file)), updated: await lastRevised(file) };
         if (!existsSync(r('src', fac.image))) book.warn(`facsimile ${fac.n} names ${fac.image}, which is not in src/assets/`);
+        for (const k of [...(fac.sources ?? []), ...(fac.notes ?? []).flatMap((n) => n.sources ?? [])]) {
+          const key = String(k).split(/,\s*/)[0];
+          if (/^[a-z0-9-]+$/.test(key) && !sources[key]) book.warn(`facsimile ${fac.n}: unknown source key “${key}”`);
+        }
         book.facsimiles.push(fac);
       }
     }

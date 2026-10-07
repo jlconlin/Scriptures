@@ -30,7 +30,7 @@ Everything that waits for the author, for every book and for the site, in this o
 
 ## Abraham
 
-- **A1. Notes on the facsimile pages, and which plates.** You approved the shape of the pages (2026-10-07: “I like the shape. Looks good”), and they are in the book now. Two things are left. (b) Do the pages get notes? They would be written by the same writer, checker and reviewer under the brief’s rule: what the Church’s page says, an explanation set beside its verse, no Egyptological argument of the site’s own. Recommend: notes only on the figures the text itself points to (Facsimile 1, figures 2–9 and 12; Facsimile 2, figure 1). (c) The 1921 plates are recut and coarser than the 1842 originals. Keep them, to match the text’s edition, or look for a public-domain scan of the 1842 *Times and Seasons* printing? Recommend: keep them.
+- **A1. Which plates for the facsimiles?** The pages show the 1921 edition’s plates, which are recut and coarser than the 1842 originals. Keep them, to match the text’s edition, or look for a public-domain scan of the 1842 *Times and Seasons* printing? Recommend: keep them. (The pages’ shape and their notes are settled; see `content/abraham/BRIEF.md`.)
 
 ## Isaiah
 
