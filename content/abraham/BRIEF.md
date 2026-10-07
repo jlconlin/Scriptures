@@ -2,7 +2,7 @@
 
 Book-level decisions for the Book of Abraham. The site-wide standard is in `STANDARDS.md`; this file records what is particular to Abraham. Writers, checkers, and reviewers read both before starting a chapter. Moses's brief (`content/moses/BRIEF.md`) is the model: Abraham is the second book from the Pearl of Great Price, and it stands to Genesis and Moses as Moses stands to Genesis.
 
-**Status (2026-10-07):** drafted by the coordinator from the sources named below, each opened in the session with the research scripts. The author asked for the book on 2026-10-07 (“Can we do the book of Abraham next?”) and has not read this brief. The book is in preview (`status: preview` in `book.yaml`). Where a section says “Proposed,” that is the approach the chapters follow; it is the coordinator's decision, and the author can overturn it.
+**Status (2026-10-07):** drafted by the coordinator from the sources named below, each opened in the session with the research scripts. The author asked for the book on 2026-10-07 (“Can we do the book of Abraham next?”) and has not read this brief. The book went live on 2026-10-07 (author: “Abraham should go live”). Where a section says “Proposed,” that is the approach the chapters follow; it is the coordinator's decision, and the author can overturn it.
 
 Related files: `OPEN-QUESTIONS.md` (what waits for the author; nothing for Abraham as of 2026-10-07); `content/genesis/CHURCH-STATEMENTS.md` (the Church's statements on the Creation and other contested questions, quoted with their pages).
 
@@ -108,7 +108,7 @@ Tested 2026-10-07 with the research scripts. `STANDARDS.md` §9 has the general 
 
 Punctuation, capitals, and hyphens were not compared (1:16 is “kins-folk” in 1929). **Copy any quotation from `data/kjv/abraham.json`, not from the Gospel Library, in these verses.** Where a note is on one of these phrases and the difference bears on its meaning (1:3 most of all, where “on the first man” and “our first father” read differently from today's text), the note says how the current edition reads, citing `pgp-1921`; a reading is not otherwise remarked on. Genesis 11's notes name “Nahor”; the spelling “Nehor” in 2:2 is the 1921 edition's and needs no note.
 
-## Checks while the book is in preview
+## Checks
 
 ```sh
 node scripts/check-chapter.mjs abraham <n>
