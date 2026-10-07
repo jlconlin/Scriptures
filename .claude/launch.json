@@ -1,7 +1,37 @@
 {
   "version": "0.0.1",
   "configurations": [
-    { "name": "site", "runtimeExecutable": "npm", "runtimeArgs": ["run", "dev"], "port": 4321 },
-    { "name": "site-4323", "runtimeExecutable": "env", "runtimeArgs": ["PORT=4323", "npm", "run", "dev"], "port": 4323 }
+    {
+      "name": "site",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": [
+        "run",
+        "dev"
+      ],
+      "port": 4321
+    },
+    {
+      "name": "site-4323",
+      "runtimeExecutable": "env",
+      "runtimeArgs": [
+        "PORT=4323",
+        "npm",
+        "run",
+        "dev"
+      ],
+      "port": 4323
+    },
+    {
+      "name": "facsimiles",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": [
+        "-m",
+        "http.server",
+        "4324",
+        "--directory",
+        ".claude/worktrees/facsimiles/.cache/fac-dist"
+      ],
+      "port": 4324
+    }
   ]
 }
