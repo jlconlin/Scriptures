@@ -1,0 +1,61 @@
+name: Abraham
+slug: abraham
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 6
+abbr: abr                # [[Abr. 3:22]] links here
+gospelLibrary: pgp/abr
+eyebrow: The Pearl of Great Price
+heroQuote:
+  text: '“Abraham, thou art one of them; thou wast chosen before thou wast born.”'
+  cite: 'The Lord to Abraham, [[Abr. 3:23]]'
+description: A phrase-by-phrase companion to the Book of Abraham, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Chapters 1 and 2 tell in Abraham’s own voice what Genesis 11 and 12 tell briefly. Chapter 3 has no counterpart in Genesis, and chapters 4 and 5 tell the Creation again as the work of the Gods.
+home:
+  blurb: Abraham’s own account of his deliverance in Ur, the covenant, the stars, the council before the world was, and the Creation.
+
+intro: |
+  The Book of Abraham is, in the words of its headnote, “the writings of Abraham while he was in Egypt.” Joseph Smith began translating it in 1835, after the Church obtained some Egyptian papyri, and it was first published in Nauvoo in 1842. In it Abraham tells how he sought the blessings of the fathers, how Jehovah delivered him from the priest of Elkenah, and how the Lord covenanted with him at Haran. He is shown the stars and the spirits that “were organized before the world was,” and the book ends with the Creation as the Gods planned it.
+
+  Chapters 1 and 2 run beside Genesis 11 and 12, and chapters 4 and 5 beside Genesis 1 and 2 and Moses 2 and 3, all of which are on this site. This companion goes through all five chapters and gives its attention to what the Book of Abraham has that those do not, linking to them for the rest. It tries to anticipate the questions a careful reader asks: *Who is speaking? What does this add to Genesis? Where did this book come from? Where is Christ in this?*
+
+# The large movements of the book, described from the Church’s chapter headings.
+# Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: chaldea
+    range: [1, 2]
+    name: From Ur to Egypt
+    blurb: Abraham seeks the blessings of the fathers and is saved by Jehovah from the altar of the false priests. At Haran the Lord covenants with him, and he goes on through Canaan toward Egypt.
+    color: '#a5673a'
+    darkColor: '#e2a77e'
+  - key: kolob
+    range: [3, 3]
+    name: The Stars and the Council
+    blurb: By the Urim and Thummim Abraham learns of the sun, moon, and stars. The Lord shows him the spirits who lived before the world was, the choosing of a Redeemer, and the second estate.
+    color: '#5b6fb5'
+    darkColor: '#a8b6ec'
+  - key: gods
+    range: [4, 5]
+    name: The Gods Plan the Creation
+    blurb: The Gods plan the creation of the earth and all life on it, and bring it to pass as They planned. Adam names every living creature.
+    color: '#3d8b5f'
+    darkColor: '#84cfa3'
+
+beloved:
+  - { chapter: 1, verse: 2, text: 'I sought for the blessings of the fathers' }
+  - { chapter: 2, verse: 11, text: 'in thy seed after thee' }
+  - { chapter: 3, verse: 23, text: 'thou wast chosen before thou wast born' }
+  - { chapter: 3, verse: 25, text: 'we will prove them herewith' }
+  - { chapter: 3, verse: 27, text: 'Here am I, send me' }
+
+coreSources:
+  - scripture-helps-moses-1
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'Abraham Seeks the Blessings of the Fathers'
+  2: 'The Covenant at Haran'
+  3: 'The Stars and the Council in Heaven'
+  4: 'The Gods Plan the Creation'
+  5: 'The Creation Brought to Pass; the Garden'

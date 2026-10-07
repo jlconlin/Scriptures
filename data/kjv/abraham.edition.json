@@ -1,0 +1,16 @@
+{
+  "edition": "The Pearl of Great Price (Salt Lake City: The Church of Jesus Christ of Latter-day Saints, 1921; 1929 printing)",
+  "source": "https://archive.org/details/pearlofgreatpric0000jose_d8d6",
+  "note": "Where the Church's current edition differs in wording from this public-domain edition, the site prints the older wording. scripts/fetch-gl.mjs applies these after importing; scripts/check-kjv.mjs undoes them before comparing with the Gospel Library.",
+  "changes": [
+    { "ref": "1:1", "current": "at the residence of my fathers", "edition": "at the residence of my father" },
+    { "ref": "1:3", "current": "before the foundation of the earth, down to the present time", "edition": "before the foundations of the earth to the present time" },
+    { "ref": "1:3", "current": "or the first man", "edition": "on the first man" },
+    { "ref": "1:3", "current": "or first father", "edition": "our first father" },
+    { "ref": "1:7", "current": "unto these dumb idols", "edition": "unto their dumb idols" },
+    { "ref": "1:14", "current": "which manner of figures", "edition": "which manner of the figures" },
+    { "ref": "2:2", "current": "Nahor, my brother", "edition": "Nehor, my brother" },
+    { "ref": "2:2", "current": "who was the daughter of Haran", "edition": "who were the daughters of Haran" },
+    { "ref": "3:21", "current": "to declare unto thee the works", "edition": "to deliver unto thee the works" }
+  ]
+}

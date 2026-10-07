@@ -28,6 +28,10 @@ Everything that waits for the author, for every book and for the site, in this o
 
 - **M1. A Book of Mormon comparison for Malachi 3–4?** The Savior quoted both chapters to the Nephites (3 Ne. 24–25), and ten verses differ in a word or two (“Sun of righteousness” is “Son of Righteousness” in 3 Ne. 25:2). Isaiah's chapters show such differences in a panel beside the verse. For Malachi none was built, by your rule against replicating the Gospel Library; the differences come into a note only where they answer a reader's question. Add the panel, as Isaiah has it? (The differences are already listed in `content/malachi/BRIEF.md`, so it is a small job.)
 
+## Abraham
+
+- **A1. The three facsimiles.** The Book of Abraham has three illustrations with Joseph Smith’s explanations of their figures, and the text points to them (Abr. 1:12, 14). The site has no page for a picture with numbered explanations, so for now the chapters say what a facsimile is where the text mentions it, link to it in the Gospel Library, and quote an explanation only where it bears on a verse (`content/abraham/BRIEF.md`). Should the site show them: the 1921 edition’s plates and explanations (public domain), each on its own page with notes, or leave them to the Gospel Library? Recommend: leave them for now and decide after reading the five chapters; a page of their own is new design work.
+
 ## Isaiah
 
 - **I1. Deepen the rest of chapters 1–37?** Done on 2026-10-06 under the add-only rules in `content/isaiah/BRIEF.md`: 6, 7, 9, 11, 14, 24, 26, 29 (25 and 27 were tried and nothing was worth adding). Not started: 2–5, 8, 10, 12, 13, 15–23, 28, 30–37. Chapter 1 has no evidence ledger and would need an audit first. A chapter cost 40–290k tokens and gained one to three notes. Recommend: read the eight first, then decide.

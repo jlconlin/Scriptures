@@ -1,6 +1,6 @@
 # Line upon Line
 
-A Latter-day Saint scripture study site (https://scriptures.conlin.io): scripture text with sourced commentary, one book at a time. Genesis, Isaiah, Jeremiah, Lamentations, Malachi and Moses are live; Mosiah has two bare chapters (`content/mosiah/BRIEF.md`).
+A Latter-day Saint scripture study site (https://scriptures.conlin.io): scripture text with sourced commentary, one book at a time. Genesis, Isaiah, Jeremiah, Lamentations, Malachi and Moses are live; Mosiah has two bare chapters (`content/mosiah/BRIEF.md`). Abraham is set up and in preview, with no chapter written (`content/abraham/BRIEF.md`).
 
 Always read `AUTHORING.md` (status, current plan, working with the author). Then read only what the task needs:
 
