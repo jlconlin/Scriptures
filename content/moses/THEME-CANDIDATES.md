@@ -1,6 +1,15 @@
 # Moses: theme candidates
 
-Topics that run across the book and might become theme pages (`STANDARDS.md` §8). None has been chosen.
+Topics that run across the book and might become theme pages (`STANDARDS.md` §8). The author selected two on 2026-10-07. The reports below remain research leads, not additional assignments.
+
+## Selected for development (author, 2026-10-07)
+
+**Do not write these pages yet.** The author is selecting themes book by book and will separately authorize development. Moses is shorter than the other books; the author considers two pages enough. Theme pages may make their own text-grounded connections under `STANDARDS.md` §8, while factual and doctrinal claims remain sourced.
+
+1. **The plan of salvation taught from the first parents.** The author's purpose for this page is to show that the gospel—*the plan of salvation*—was taught to Adam and Eve, not first introduced in a later dispensation. Start with God's work and glory and the Only Begotten's role (Moses 1:39; 2:1), then the angel teaching Adam the meaning of sacrifice and the command to act and repent in the Son's name (5:4–9), Adam's and Eve's own understanding and their teaching of their children (5:10–12, 58–59). Follow the same gospel in Enoch's sermon, which explicitly calls it “the plan of salvation” and teaches baptism, the Holy Ghost, and cleansing through the Son's blood (6:52–68), then Enoch's witness of the Messiah (7:39, 47, 53) and Noah's preaching (8:16, 19, 24). Let the first parents be the point; the later generations demonstrate continuity. Link to the detailed chapter notes instead of repeating their explanations of the ordinances.
+2. **The Father's one plan and Satan's rebellion.** The author's doctrinal requirement is explicit: **Heavenly Father presented one plan of salvation. Satan did not present a second plan, and there was no vote between two plans.** Moses 4:1–4 describes Satan's rebellious offer and the Beloved Son's submission to the Father's will; `chapters/04.yaml`, note on 4:1, already quotes a source saying the Father did not invite competing plans. Across the book, Satan falsely claims the Only Begotten's title before Moses and is dismissed in that name (1:12–22), deceives Eve and Adam's children (4:6–7; 5:13, 18, 23, 29–31), and gains dominion (6:15, 28–29; 7:24–26, 37), while the Chosen One is revealed as the suffering Messiah and King of Zion (7:39, 47, 53). The page must distinguish Satan's claim and attempted rebellion from the Father's plan, and must not imply Satan's offer could actually redeem everyone. Check the relevant Church source and existing chapter note before writing; the page's cross-chapter comparison can be its own, but the doctrinal correction should be sourced.
+
+**Not selected:** Zion made and promised again; mercy preached before judgment; from being shut out to entering God's presence. They remain in the reports below, but the author did not find them compelling as separate pages for this short book.
 
 ## Reported by chapters (not yet sorted)
 
