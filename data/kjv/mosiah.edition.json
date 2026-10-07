@@ -1,0 +1,21 @@
+{
+  "edition": "The Book of Mormon (Salt Lake City: The Church of Jesus Christ of Latter-day Saints, 1920; 1921 printing)",
+  "source": "https://archive.org/details/bookofmormon00smituoft",
+  "note": "Where the Church's current edition differs in wording from this public-domain edition, the site prints the older wording. scripts/fetch-gl.mjs applies these after importing; scripts/check-kjv.mjs undoes them before comparing with the Gospel Library.",
+  "changes": [
+    { "ref": "3:13", "current": "rejoice with exceedingly great joy", "edition": "rejoice with exceeding great joy" },
+    { "ref": "4:11", "current": "such exceedingly great joy", "edition": "such exceeding great joy" },
+    { "ref": "4:20", "current": "so exceedingly great was your joy", "edition": "so exceeding great was your joy" },
+    { "ref": "5:4", "current": "such exceedingly great joy", "edition": "such exceeding great joy" },
+    { "ref": "7:14", "current": "he was exceedingly glad", "edition": "he was exceeding glad" },
+    { "ref": "12:22", "current": "Thy watchmen shall lift up the voice", "edition": "Thy watchman shall lift up the voice" },
+    { "ref": "14:3", "current": "our faces from him", "edition": "our face from him" },
+    { "ref": "17:15", "current": "many shall suffer the pains that I do suffer, even the pains of death by fire", "edition": "many shall suffer even the pains of death by fire" },
+    { "ref": "20:10", "current": "the battle became exceedingly sore", "edition": "the battle became exceeding sore" },
+    { "ref": "21:24", "current": "filled with exceedingly great joy", "edition": "filled with exceeding great joy" },
+    { "ref": "22:7", "current": "on the left of their camp", "edition": "on the left of the camp" },
+    { "ref": "25:8", "current": "filled with exceedingly great joy", "edition": "filled with exceeding great joy" },
+    { "ref": "27:28", "current": "after wading through much tribulation", "edition": "after wandering through much tribulation" },
+    { "ref": "29:15", "current": "according to the crime which he has committed, according to the law", "edition": "according to the law" }
+  ]
+}

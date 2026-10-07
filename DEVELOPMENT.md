@@ -50,6 +50,8 @@ The build treats every directory `content/<slug>/` that has a `book.yaml` and a 
 
 **Unwritten chapters.** A chapter with no YAML file is unwritten. It gets no page and is left out of search and the sitemap. On the book page its card is greyed out and opens the chapter in the Gospel Library; the chapter strip dims its tick and links there too; previous/next links skip it; `[[Jer. 5:1]]` links to the Gospel Library until the chapter is written (`LIBRARY` carries each book's written chapters for `src/lib/refs.mjs`); and `404.html` sends `/jeremiah/5/` to the Gospel Library. The home page card and the header menu say “N of 52 chapters” until the book is complete.
 
+**Bare chapters** (author, 2026-10-07). A chapter file may hold only `chapter`, `title`, `tagline`, `when`, `notes`, `parallels` and `sources`: the page then shows the whole text as one passage with its notes, and no Background, thread, plain-words or closing sections (the template leaves out whatever is missing). It is for commentary written under one book that belongs under another not yet written: the note moves to its own verse, and the chapter is written in full later. The file begins with a comment saying it is bare, and the book's brief lists its bare chapters. To the build it is a written chapter. Mosiah 12 and 15 are the first (`content/mosiah/BRIEF.md`).
+
 Markdown files at the top of a book's directory (`BRIEF.md`, `THEME-CANDIDATES.md`, and so on) are project notes; the build ignores them. Markdown in `guides/` and `themes/` is published.
 
 ### Adding a new book

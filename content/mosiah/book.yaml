@@ -1,0 +1,106 @@
+name: Mosiah
+slug: mosiah
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 6
+abbr: mosiah             # [[Mosiah 15:18]] links here
+gospelLibrary: bofm/mosiah
+eyebrow: The Book of Mormon
+heroQuote:
+  text: '“When ye are in the service of your fellow beings ye are only in the service of your God.”'
+  cite: 'King Benjamin, [[Mosiah 2:17]]'
+description: A phrase-by-phrase companion to the book of Mosiah, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: The book begins and ends in Zarahemla, under King Benjamin and his son Mosiah. Between them it takes in the record of Zeniff’s people in the land of Lehi-Nephi and the account of Alma and his people.
+home:
+  blurb: King Benjamin’s address, Abinadi before King Noah’s priests, and Alma at the waters of Mormon. Only begun; two chapters so far.
+
+intro: |
+  The book of Mosiah tells of King Benjamin and his son Mosiah, who reigned in Zarahemla, and it takes two other records into theirs. One is the record of Zeniff, “an account of his people, from the time they left the land of Zarahemla until the time that they were delivered out of the hands of the Lamanites” ([[Mosiah 9–22]]). The other is “an account of Alma and the people of the Lord, who were driven into the wilderness by the people of King Noah” ([[Mosiah 23–24]]).
+
+  **This companion has only begun the book.** Two chapters are here so far, [[Mosiah 12]] and [[Mosiah 15]]. Each has the full text and a few notes on how Abinadi reads Isaiah before King Noah’s priests, which go with the notes on [[Isa. 52:7]]. Both chapters will be written in full with the rest of the book; until then the other chapters open in the Gospel Library.
+
+# The large movements of the book, from the Church’s chapter headings and the headnotes before chapters 9 and 23.
+# Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: benjamin
+    range: [1, 6]
+    name: King Benjamin
+    blurb: King Benjamin teaches his sons, chooses Mosiah as king, and addresses his people at the temple. They take upon them the name of Christ, and Mosiah begins to reign.
+    color: '#3f6fb0'
+    darkColor: '#9dbff0'
+  - key: ammon
+    range: [7, 8]
+    name: Ammon Finds Limhi’s People
+    blurb: Ammon finds the land of Lehi-Nephi, where Limhi is king and his people are in bondage to the Lamanites, and learns of the twenty-four Jaredite plates.
+    color: '#2f8f83'
+    darkColor: '#86d6cb'
+  - key: zeniff
+    range: [9, 10]
+    name: The Record of Zeniff
+    blurb: Zeniff leads a group from Zarahemla to possess the land of Lehi-Nephi. The record that begins here runs through chapter 22.
+    color: '#7a8f3a'
+    darkColor: '#c3d684'
+  - key: abinadi
+    range: [11, 17]
+    name: King Noah and Abinadi
+    blurb: King Noah rules in wickedness. Abinadi prophesies against him, answers his priests from the law of Moses and from Isaiah, testifies of Christ, and suffers death by fire.
+    color: '#b8532f'
+    darkColor: '#f0a585'
+  - key: mormonwaters
+    range: [18, 22]
+    name: The Waters of Mormon; Limhi’s People
+    blurb: Alma baptizes at the waters of Mormon and flees with his people. King Noah dies, Limhi rules as a tributary monarch, and his people escape to Zarahemla.
+    color: '#3a8fb8'
+    darkColor: '#93d0ee'
+  - key: almapeople
+    range: [23, 24]
+    name: Alma and the People of the Lord
+    blurb: Alma refuses to be king. His people come into bondage in the land of Helam, and the Lord makes their burdens light and delivers them.
+    color: '#8a5ab0'
+    darkColor: '#c9a6ea'
+  - key: mosiahreign
+    range: [25, 29]
+    name: The Church in Zarahemla and the End of the Kings
+    blurb: The peoples gather in Zarahemla and Alma organizes the Church. An angel stops Alma the younger and the sons of Mosiah, and Mosiah proposes judges in place of a king.
+    color: '#c9a227'
+    darkColor: '#f2d36b'
+
+beloved:
+  - { chapter: 12, verse: 21, text: 'How beautiful upon the mountains' }
+  - { chapter: 15, verse: 1, text: 'God himself shall come down among the children of men' }
+  - { chapter: 15, verse: 18, text: 'the founder of peace' }
+
+coreSources:
+  - lds-scriptures
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'King Benjamin Teaches His Sons'
+  2: 'King Benjamin Addresses His People'
+  3: 'The Lord Omnipotent Will Minister among Men'
+  4: 'Retaining a Remission of Sins'
+  5: 'The Sons and Daughters of Christ'
+  6: 'Mosiah Begins to Reign'
+  7: 'Ammon Finds Limhi'
+  8: 'The Twenty-Four Plates and the Seer'
+  9: 'Zeniff Returns to the Land of Lehi-Nephi'
+  10: 'Zeniff’s People Prevail'
+  11: 'King Noah; Abinadi’s First Prophecy'
+  12: 'Abinadi before King Noah’s Priests'
+  13: 'The Ten Commandments and the Law of Moses'
+  14: 'Abinadi Quotes Isaiah 53'
+  15: 'The Father and the Son; the Beautiful Feet'
+  16: 'Redemption and Resurrection'
+  17: 'Alma Believes; Abinadi Suffers Death by Fire'
+  18: 'The Waters of Mormon'
+  19: 'The Death of King Noah'
+  20: 'The Priests of Noah and the Lamanite Daughters'
+  21: 'Limhi’s People in Bondage'
+  22: 'The Escape to Zarahemla'
+  23: 'Alma Refuses to Be King'
+  24: 'The Lord Eases Their Burdens'
+  25: 'One People in Zarahemla'
+  26: 'Alma and the Transgressors in the Church'
+  27: 'Alma the Younger and the Sons of Mosiah'
+  28: 'The Sons of Mosiah Go to the Lamanites'
+  29: 'Judges in Place of a King'
