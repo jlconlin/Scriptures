@@ -20,18 +20,6 @@
         "dev"
       ],
       "port": 4323
-    },
-    {
-      "name": "facsimiles",
-      "runtimeExecutable": "python3",
-      "runtimeArgs": [
-        "-m",
-        "http.server",
-        "4324",
-        "--directory",
-        ".claude/worktrees/facsimiles/.cache/fac-dist"
-      ],
-      "port": 4324
     }
   ]
 }
