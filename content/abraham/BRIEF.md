@@ -4,7 +4,7 @@ Book-level decisions for the Book of Abraham. The site-wide standard is in `STAN
 
 **Status (2026-10-07):** drafted by the coordinator from the sources named below, each opened in the session with the research scripts. The author asked for the book on 2026-10-07 (“Can we do the book of Abraham next?”) and has not read this brief. The book is in preview (`status: preview` in `book.yaml`). Where a section says “Proposed,” that is the approach the chapters follow; it is the coordinator's decision, and the author can overturn it.
 
-Related files: `OPEN-QUESTIONS.md` (what waits for the author; A1, the facsimiles); `content/genesis/CHURCH-STATEMENTS.md` (the Church's statements on the Creation and other contested questions, quoted with their pages).
+Related files: `OPEN-QUESTIONS.md` (what waits for the author; nothing for Abraham as of 2026-10-07); `content/genesis/CHURCH-STATEMENTS.md` (the Church's statements on the Creation and other contested questions, quoted with their pages).
 
 ## What the author has decided
 
