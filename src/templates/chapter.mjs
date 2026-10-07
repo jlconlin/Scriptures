@@ -14,7 +14,7 @@ export const range = (r) => {
 };
 
 /** Wrap each note's phrase in its verse with a button; returns HTML for the verse text. */
-function highlightVerse(text, notes, warn) {
+export function highlightVerse(text, notes, warn) {
   const spans = [];
   for (const n of notes) {
     if (!n.phrase) continue;
@@ -68,7 +68,7 @@ function introSection({ key, cls, body, prose, preview = false }) {
 </details>`;
 }
 
-function noteHtml(n, sources) {
+export function noteHtml(n, sources) {
   const k = KINDS[n.kind];
   const src = (n.sources ?? []).map((s) => renderSource(s, sources)).filter(Boolean);
   return `<aside class="note k-${n.kind}" id="${n.id}" hidden aria-label="${esc(k.label)} note">
@@ -225,6 +225,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
       <div class="hero-meta">
         ${ch.when ? `<span>${icon('history')} ${mdInline(ch.when)}</span>` : ''}
         ${ch.parallels?.some((p) => p.primary) ? `<span>${icon('restoration')} Also in ${mdInline(ch.parallels.filter((p) => p.primary).map((p) => `[[${p.ref}]]`).join(', '))}</span>` : ''}
+        ${(book.facsimiles ?? []).filter((f) => f.with === n).map((f) => `<span>${icon('symbol')} <a href="/${book.slug}/facsimile-${f.n}/">Facsimile ${f.n}</a></span>`).join('')}
         <span>${icon('book')} <a href="${churchUrl}" target="_blank" rel="noopener">Read with footnotes in Gospel Library</a></span>
       </div>
       <a class="chapter-start" href="#reading">Start reading ${icon('arrowR')}</a>

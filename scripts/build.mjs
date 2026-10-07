@@ -9,6 +9,7 @@ import YAML from 'yaml';
 import { md, plain, unknownRefs } from '../src/lib/markdown.mjs';
 import { applyCitations, stripCitations } from '../src/lib/citations.mjs';
 import { renderChapter, range } from '../src/templates/chapter.mjs';
+import { renderFacsimile, facsimileUrl } from '../src/templates/facsimile.mjs';
 import { discoverBooks } from '../src/lib/books.mjs';
 import { VOLUMES, placeOf } from '../src/lib/canon.mjs';
 import { LIBRARY } from '../src/site.mjs';
@@ -138,6 +139,19 @@ export async function build({ quiet = false } = {}) {
       else if (!v.asset || !v.alt) book.warn('visual.yaml is approved but lacks asset or alt, so the book page shows the placeholder');
       else if (!existsSync(r('src', v.asset))) book.warn(`visual.yaml names ${v.asset}, which is not in src/assets/`);
     }
+    // Facsimiles (the Book of Abraham has three): the explanations are in data/kjv/<slug>.facsimiles.json,
+    // and content/<slug>/facsimiles/<n>.yaml gives each plate its title, image, introduction and notes.
+    book.facsimiles = [];
+    const facFile = r(`data/kjv/${book.slug}.facsimiles.json`);
+    if (existsSync(facFile)) {
+      for (const text of JSON.parse(await readFile(facFile, 'utf8')).facsimiles) {
+        const file = path.join(book.dir, 'facsimiles', `${text.n}.yaml`);
+        if (!existsSync(file)) continue;
+        const fac = { ...text, ...(await readYaml(file)), updated: await lastRevised(file) };
+        if (!existsSync(r('src', fac.image))) book.warn(`facsimile ${fac.n} names ${fac.image}, which is not in src/assets/`);
+        book.facsimiles.push(fac);
+      }
+    }
     book.place = placeOf(book.abbr);
     if (!book.place) throw new Error(`content/${book.slug}/book.yaml: abbr “${book.abbr}” is not a book of the standard works (see src/lib/refs.mjs)`);
     book.hasGuides = existsSync(path.join(book.dir, 'guides'));
@@ -207,6 +221,12 @@ export async function build({ quiet = false } = {}) {
     });
     await Promise.all(chapterWrites);
 
+    for (const fac of book.facsimiles) {
+      await write(`${slug}/facsimile-${fac.n}/index.html`, renderFacsimile({ book, fac, sources, warn: (m) => warn(`${book.name}, facsimile ${fac.n}: ${m}`) }));
+      search.push({ t: 'chapter', b: slug, r: `${book.name}, Facsimile ${fac.n}`, h: plain(fac.title), u: facsimileUrl(book, fac.n), x: plain(`${fac.tagline ?? ''} ${fac.figures.map((f) => f.text).join(' ')}`).slice(0, 1200) });
+      (fac.notes ?? []).forEach((n) => search.push({ t: 'note', b: slug, k: n.kind, r: `${book.name}, Facsimile ${fac.n}, fig. ${n.ref}`, h: plain(n.title ?? n.phrase ?? ''), u: `${facsimileUrl(book, fac.n)}#${n.id}`, x: plain(n.body) }));
+    }
+
     // Guides and theme pages: Markdown files with front matter, one page each plus an index.
     const buildCollection = async (key, searchLabel) => {
       const collection = COLLECTIONS[key];
@@ -271,6 +291,7 @@ export async function build({ quiet = false } = {}) {
       ...guides.map((g) => `/${book.slug}/guides/${g.slug}/`),
       ...(themes.length ? [`/${book.slug}/themes/`, ...themes.map((t) => `/${book.slug}/themes/${t.slug}/`)] : []),
       ...book.written.map((c) => `/${book.slug}/${c.chapter}/`),
+      ...book.facsimiles.map((f) => facsimileUrl(book, f.n)),
     ]),
   ];
   await write(
