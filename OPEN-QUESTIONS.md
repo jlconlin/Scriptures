@@ -28,10 +28,6 @@ Everything that waits for the author, for every book and for the site, in this o
 
 - **M1. A Book of Mormon comparison for Malachi 3–4?** The Savior quoted both chapters to the Nephites (3 Ne. 24–25), and ten verses differ in a word or two (“Sun of righteousness” is “Son of Righteousness” in 3 Ne. 25:2). Isaiah's chapters show such differences in a panel beside the verse. For Malachi none was built, by your rule against replicating the Gospel Library; the differences come into a note only where they answer a reader's question. Add the panel, as Isaiah has it? (The differences are already listed in `content/malachi/BRIEF.md`, so it is a small job.)
 
-## Abraham
-
-- **A1. Which plates for the facsimiles?** The pages show the 1921 edition’s plates, which are recut and coarser than the 1842 originals. Keep them, to match the text’s edition, or look for a public-domain scan of the 1842 *Times and Seasons* printing? Recommend: keep them. (The pages’ shape and their notes are settled; see `content/abraham/BRIEF.md`.)
-
 ## Isaiah
 
 - **I1. Deepen the rest of chapters 1–37?** Done on 2026-10-06 under the add-only rules in `content/isaiah/BRIEF.md`: 6, 7, 9, 11, 14, 24, 26, 29 (25 and 27 were tried and nothing was worth adding). Not started: 2–5, 8, 10, 12, 13, 15–23, 28, 30–37. Chapter 1 has no evidence ledger and would need an audit first. A chapter cost 40–290k tokens and gained one to three notes. Recommend: read the eight first, then decide.
