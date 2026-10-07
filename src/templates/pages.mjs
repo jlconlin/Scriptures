@@ -165,6 +165,19 @@ ${guides.length ? `<p class="wrap start-callout">${icon('key')}<span>New to ${es
   ${divisions}
 </section>
 
+${book.facsimiles?.length ? `<section class="wrap book-section" id="facsimiles">
+  <h2 class="section-title">The facsimiles</h2>
+  <p class="section-sub">${esc(book.facsimilesBlurb ?? '')}</p>
+  <ol class="facsimile-cards">
+    ${book.facsimiles.map((f) => `<li><a class="facsimile-card" href="/${book.slug}/facsimile-${f.n}/">
+      <img src="${esc(f.image)}" alt="" loading="lazy">
+      <span class="cc-num">Facsimile ${f.n}</span>
+      <span class="cc-title">${mdInline(f.title)}</span>
+      ${f.tagline ? `<span class="cc-tag">${esc(plain(f.tagline))}</span>` : ''}
+    </a></li>`).join('')}
+  </ol>
+</section>` : ''}
+
 
 <section class="wrap book-section">
   <h2 class="section-title">Beloved passages</h2>
