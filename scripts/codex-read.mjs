@@ -5,6 +5,11 @@
 //   node scripts/codex-read.mjs <book> <chapter>            one chapter → .cache/batch/<book>/reports/NN-codex.md
 //   node scripts/codex-read.mjs <book> <from>-<to> --across  the chapters read together, for what repeats or
 //                                                            disagrees between them → reports/NN-NN-codex.md
+//   node scripts/codex-read.mjs <book> book                  the book page's own words (book.yaml) → reports/book-codex.md
+//   node scripts/codex-read.mjs <book> <page file name>      a theme or guide page → reports/<name>-codex.md
+//   node scripts/codex-read.mjs --file <path>                any other page (content/about.md, content/volumes/…)
+//                                                            → .cache/codex/<name>-codex.md
+// Every page the site gains is read this way before the author sees it (author, 2026-10-07).
 //   --model <codex model>   --print (the prompt only)
 import { spawnSync } from 'node:child_process';
 import fs from 'node:fs';
@@ -16,18 +21,34 @@ const has = (name) => { const i = args.indexOf(name); if (i < 0) return false; a
 const model = flag('--model');
 const across = has('--across');
 const print = has('--print');
+const file = flag('--file');
 const [book, range] = args;
-if (!book || !range) { console.error('usage: node scripts/codex-read.mjs <book> <chapter | from-to --across> [--model <codex model>] [--print]'); process.exit(1); }
-const [from, to = from] = range.split('-').map(Number);
+if (!file && (!book || !range)) { console.error('usage: node scripts/codex-read.mjs <book> <chapter | from-to --across | book | page file name> | --file <path>  [--model <codex model>] [--print]'); process.exit(1); }
 const pad = (n) => String(n).padStart(2, '0');
+const isChapters = !file && /^\d+(-\d+)?$/.test(range);
+const [from, to = from] = isChapters ? range.split('-').map(Number) : [];
 const files = [];
-for (let n = from; n <= to; n++) {
-  const f = `content/${book}/chapters/${pad(n)}.yaml`;
-  if (fs.existsSync(f)) files.push(f);
+let page = null; // a page that is not a chapter: { path, kind, name }
+if (isChapters) {
+  for (let n = from; n <= to; n++) {
+    const f = `content/${book}/chapters/${pad(n)}.yaml`;
+    if (fs.existsSync(f)) files.push(f);
+  }
+  if (!files.length) { console.error(`no written chapter of ${book} in ${range}`); process.exit(1); }
+} else if (file) {
+  if (!fs.existsSync(file)) { console.error(`no file ${file}`); process.exit(1); }
+  page = { path: file, kind: 'page', name: path.basename(file).replace(/\.[^.]+$/, '') };
+} else if (range === 'book') {
+  page = { path: `content/${book}/book.yaml`, kind: 'book', name: 'book' };
+} else {
+  const name = range.replace(/\.md$/, '');
+  const found = ['themes', 'guides'].map((d) => `content/${book}/${d}/${name}.md`).find((f) => fs.existsSync(f))
+    ?? [`content/${book}/facsimiles/${name}.yaml`].find((f) => fs.existsSync(f));
+  if (!found) { console.error(`no theme, guide or facsimile page “${name}” in content/${book}/`); process.exit(1); }
+  page = { path: found, kind: found.endsWith('.yaml') ? 'facsimile' : 'page', name };
 }
-if (!files.length) { console.error(`no written chapter of ${book} in ${range}`); process.exit(1); }
 
-const shared = `You are a careful copy editor reading commentary on scripture for a study site. You change no file: you write a list of findings and nothing else. Read STANDARDS.md sections 2 and 3 (audience and voice) first; they are the rules. The chapter files are YAML: verses are in data/kjv/${book}.json, and the commentary is in the fields setting, thread, christ, explore, each section's plain, and each note's title and body.
+const shared = `You are a careful copy editor reading commentary on scripture for a study site. You change no file: you write a list of findings and nothing else. Read STANDARDS.md sections 2 and 3 (audience and voice) first; they are the rules. The chapter files are YAML: verses are in data/kjv/<book>.json, and the commentary is in the fields setting, thread, christ, explore, each section's plain, and each note's title and body.
 
 Out of scope, do not report: whether a claim is true or its citation right (others have checked every source); the choice of which verses have notes; YAML layout; [[references]] and their format; spelling the King James text uses.
 
@@ -59,11 +80,35 @@ Read these chapters of one book together: ${files.join(', ')}. Each was written 
 
 For each finding give the chapters and verses, the words quoted exactly from each, and what you would do. Number them, most important first. End with a short paragraph on how the chapters read in sequence.`;
 
-const ask = across ? many : one;
+const rules = `1. A sentence that is hard to follow, ambiguous, or longer than it needs to be; a paragraph or section that says the same thing twice.
+2. A source announced in running text (“the manual says”, “one commentator notes”) or a modern scholar named.
+3. A technical term or Hebrew word used without being explained the first time.
+4. A claim worded more firmly than the words around it support, or a reading presented as fact.
+5. Two places that say the same thing, or that contradict each other.
+6. Anything preachy, or an application to the reader's life made in the writer's own voice.
+7. Typos, grammar, inconsistent names or terms.`;
+const report = `For each finding give: where (the heading or field), the words quoted exactly, what is wrong in one sentence, and a suggested wording when one helps. Number them, the ones that matter most first. If a category has nothing, don't mention it. End with one line on how the page reads as a whole and whether it is too long for what it says.`;
+const pageAsk = page && (page.kind === 'book'
+  ? `${shared}
+
+Read ${page.path}: the words of one book's landing page on the site (heroQuote, description, divisionsBlurb, home.blurb, intro, each division's name and blurb, the beloved verses, any titles). A reader meets these before any chapter. Report:
+${rules}
+8. A blurb that would not tell a newcomer what that part of the book holds, or two blurbs that say the same thing.
+9. A quotation in heroQuote or beloved that is not word for word in data/kjv/${book}.json at the verse given (do check these against that file).
+
+${report}`
+  : `${shared}
+
+Read ${page.path}: one page of the site${page.kind === 'facsimile' ? ' (YAML: the commentary is in about and in each note’s title and body)' : ' (Markdown; a marker like [@key] is a citation and [[Isa. 53:4]] a scripture link: leave both alone)'}. Report, in the order of the page:
+${rules}
+8. A section whose heading does not say what it holds, an opening that does not say what the page is about, or a section that does not follow from the one before.
+
+${report}`);
+const ask = page ? pageAsk : across ? many : one;
 if (print) { console.log(ask); process.exit(0); }
-const outDir = `.cache/batch/${book}/reports`;
+const outDir = file ? '.cache/codex' : `.cache/batch/${book}/reports`;
 fs.mkdirSync(outDir, { recursive: true });
-const out = path.resolve(outDir, across ? `${pad(from)}-${pad(to)}-codex.md` : `${pad(from)}-codex.md`);
+const out = path.resolve(outDir, page ? `${page.name}-codex.md` : across ? `${pad(from)}-${pad(to)}-codex.md` : `${pad(from)}-codex.md`);
 const run = spawnSync('codex', ['exec', ...(model ? ['-m', model] : []), '--sandbox', 'read-only', '--ephemeral', '-C', process.cwd(), '-o', out, '-'],
   { input: ask, stdio: ['pipe', 'ignore', 'inherit'], timeout: 30 * 60 * 1000 });
 if (run.error) { console.error(run.error.code === 'ENOENT' ? 'the codex CLI is not installed or not on PATH' : run.error.message); process.exit(1); }

@@ -222,6 +222,8 @@ Fix every warning that concerns your chapter (length warnings on older chapters 
 
 ## 11. Review process
 
+**Every new page ends with a second reader** (author, 2026-10-07): after its own review, Codex reads it for language only (`scripts/codex-read.mjs`; chapters by the batch with the `codex-pass` workflow), the findings that hold up are applied without adding a fact, reference or connection, and the checks are rerun. This holds for chapters, theme and guide pages, book pages, and any other page (`AUTHORING.md`, “Working with the author”).
+
 1. **The author's questions first.** Before a chapter is written, ask the author whether they have focus questions for it, and build the chapter around them. Ask one question at a time.
 2. **A writer agent drafts** (`.claude/agents/chapter-writer.md`, on Opus): it reads the chapter, lists the questions a careful reader would ask, researches them, builds the ledger, writes the chapter from the ledger, runs the checks, and reports. It doesn't edit `sources.yaml`, code, or other chapters, and doesn't commit. Existing chapters are audited the same way by `.claude/agents/chapter-auditor.md`.
 3. **The ledger is checked by script** (`node scripts/check-ledger.mjs <book> <n>`): every row's URL is reopened and the quote confirmed on the page. A row it can't confirm is fixed or cut before review.
