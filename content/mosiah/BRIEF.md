@@ -15,6 +15,7 @@ When Mosiah is written, these two are written like any other chapter. The writer
 - Mosiah 12:21, “Why the priests asked about Isaiah”: the false-prophet trap and Zeniff's colony seeing itself in Isaiah's words, from Isaiah 52:7, with its three rows from KnoWhy #89. Two rows were added from the same KnoWhy and 2 Nephi 5 for sentences that had none.
 - Mosiah 15:18, “Whose feet are beautiful”: the widening circles and the joining of the two halves of Isaiah 52, from Isaiah 52:7.
 - Mosiah 12:29 and 15:29: what the Isaiah notes on 52:11 and 52:8 say of Abinadi in a sentence each, written out here with their rows from *Isaiah in the Book of Mormon* (Welch, p. 296; Pike, p. 265). Those two sentences were short and were **left in Isaiah as well**.
+- Mosiah 15:10, “The seed of Christ” (from Isaiah 53:10, “Who shall be his seed?”, the same day): Abinadi's question and answer about the servant's seed, with King Benjamin and Alma, and its two rows from Welch (p. 304). Isaiah 53:10 keeps the turning point of the song, “prolong his days,” and three sentences giving Abinadi's answer with a link.
 - Isaiah 52:7 keeps the runner on the ridge, the Hebrew, Paul and Nephi, and a short paragraph giving Abinadi's answer with links to the two Mosiah notes.
 
 **Not yet used, for the full chapters.** KnoWhy #89 gives a Dead Sea Scrolls text about Melchizedek that reads Isaiah 52:7 of the prophets and “the Anointed one”; and it names John W. Welch, *The Legal Cases in the Book of Mormon* (2008), 139–209, on the trial. Neither was read beyond the KnoWhy.
