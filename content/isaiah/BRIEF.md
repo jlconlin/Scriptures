@@ -26,12 +26,35 @@ All 66 chapters are written. Chapters 38–66 were written at the semi-academic 
 
 ## Revision plan for chapters 1–37
 
-**Deepen chapters 1–37 in place; don’t rewrite them.** Their threads, history, Restoration connections, and verified quotations are solid. For each chapter:
+**Deepen chapters 1–37 in place, adding only** (author, 2026-10-06). Their threads, history, Restoration connections, and verified quotations are solid, but they were written before the semi-academic standard (`STANDARDS.md` §2) and lean on Delitzsch. The pass adds what an academically trained reader would still ask after reading the chapter: textual variants (MT, LXX, 1QIsaᵃ, Book of Mormon readings), fairly presented scholarly debates (for example, the date of chapters 24–27, whether chapters 13–14 postdate Isaiah, near and far fulfillments of 7:14), archaeology, and literary structure.
 
-- Add 2–4 deeper notes: textual variants (MT, LXX, 1QIsaᵃ, Book of Mormon readings), fairly presented scholarly debates (for example, the date of chapters 24–27, whether chapters 13–14 postdate Isaiah, near and far fulfillments of 7:14), archaeology, and literary structure.
-- Sharpen the `thread` where it is thin.
-- Make sources explicit, and mark how certain each claim is (established fact, consensus, hypothesis, or devotional reading).
+Tried on chapters 6 and 7 (2026-10-06). The writers’ first drafts overreached: the reviewers cut about a third of chapter 6’s additions and made chapter 7’s three notes one. The rules that came of it:
 
-Priority order: 1, 6, 7, 9, 11, 14, 24–27, 29; then the rest. The oracles in 15–23 are lowest priority.
+- **Add only.** Nothing already in a chapter is cut, merged away, or rewritten (the author rejected a trimmed Isaiah 58). The earlier line here, that stronger notes should replace weaker ones, is withdrawn. Ledger rows that an old note lacks may be added, and an announced source in an old note may be reworded.
+- **One note per unanswered question, and no quota.** One or two strong additions to a chapter are better than four; a chapter with no unanswered question gets none. A note that lists “three points” is collecting, not answering.
+- **Look before writing.** Run `footnotes.mjs <n> --compare` and read the old notes on the verse. Add nothing the old notes, the Church’s footnotes, or *Scripture Helps* already say. Where an addition differs from an old note on the same verse, the new text says so, since the old text can’t change.
+- **Rest the additions on the Church’s sources, BYU, Scripture Central, *Isaiah in the Book of Mormon*, and the primary texts**, not on more Delitzsch. The *Scripture Helps* endnotes are the best finder (they led to Hoskisson for chapter 6 and Combs for chapter 7); if a guessed URL for an article fails, search for its title. One outside article is the main idea of one note (`STANDARDS.md` §4 rule 11).
+- **Keep the source’s strength of wording** (“seems to,” “more likely,” “no definitive conclusion can be reached”), and don’t round off its tally.
+- **No closing line of the writer’s own.** Nearly every sentence cut in the trial was a tidy last line or a connection no source makes. A connection worth keeping goes in `THEME-CANDIDATES.md`, not in the chapter.
+- **Where a scholar’s hypothesis touches a messianic verse, the note states the Church’s reading first** and gives the hypothesis as one.
+- **Never “one study says” or “the Church’s study helps say”** (`STANDARDS.md` §3).
+- **A list inside a note is numbered within the sentence**, “(1)…, (2)…,” not set out as a block list (author, 2026-10-06).
+- **The Septuagint and the Great Isaiah Scroll were not readable** for chapters 6 and 7 (Bible Hub’s `/sep/` page came back garbled; Elpenor returned the wrong book; no source gives the scroll verse by verse). Don’t plan a note on them unless a readable source is found first.
+- Adding notes does not lower the share of notes that cite Delitzsch (11 of 18 in chapter 6, 12 of 15 in chapter 7); only replacing notes would, and that is not allowed.
 
-In deepening them, stronger notes should replace weaker ones as often as they add new ones. The audit is done, so a deepened note gets ledger rows like any new writing.
+A chapter cost about 290k tokens (writer 120k, checker 85k, reviewer 85k).
+
+Order: 6 and 7 are done. Next 1, 9, 11, 14, 24–27, 29; then the rest. The oracles in 15–23 are lowest priority.
+
+## Reducing the reliance on the Student Manual
+
+(Author, 2026-10-06: the many references to the Student Manual are “one thing we wanted to get rid of.”) Chapters written before the limits of `STANDARDS.md` §1 lean on the *Old Testament Student Manual*: `check-content.mjs isaiah` lists the chapters where more than a third of the notes cite it, the notes that rest on it with nothing from beyond the Church's publications, and the places that name it in the text. For this purpose only, the add-only rule above is lifted: **an existing note that cites the manual may be reworded, but no note is removed and its point stays.**
+
+- Where the manual relays another work (a commentary, a talk, a Bible Dictionary entry), read that work and cite it (`STANDARDS.md` §4 rule 6); the manual's citation then goes, with its ledger rows.
+- Where the manual's own sentence is the note's support, look for the same point in the primary text (the Hebrew, another scripture), a BYU or Scripture Central article, *Isaiah in the Book of Mormon*, or the Church's other sources, and rest the note on that. Prefer these to Delitzsch; use him only where he is the work the manual quotes.
+- Where the manual gives the Church's standard reading as such, the note may keep it and say so (the exception in §1).
+- Where nothing but the manual can be read for the point, the note is left exactly as it is and listed for the author.
+- If the better source says something different from what the note says, the note follows the source, and the difference is reported.
+- A sentence that names the manual (“the manual says…”) is reworded (§3).
+- **A Church footnote, a Topical Guide pointer, or *Scripture Helps* is not a replacement for the manual** (found in the pass of 2026-10-06, where the reviewers undid most such swaps): the reader has those beside the verse already (`STANDARDS.md` §1), and a cross-reference is not evidence for a reading. Nor is another Church manual. If those are the only alternatives, the note stays on the manual.
+- **A swap never costs the note its point.** If the better source says less than the note needs (the key of David without the priesthood, 22:22), the note keeps the manual.

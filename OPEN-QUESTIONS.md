@@ -30,9 +30,20 @@ Everything that waits for the author, for every book and for the site, in this o
 
 ## Isaiah
 
-- **I1. Deepen chapters 1–37?** They were written before the semi-academic standard, and `content/isaiah/BRIEF.md` has a plan to deepen them in place. It has not been started. Do it, and when?
+- **I1. Deepen the rest of chapters 1–37?** Done on 2026-10-06 under the add-only rules in `content/isaiah/BRIEF.md`: 6, 7, 9, 11, 14, 24, 26, 29 (25 and 27 were tried and nothing was worth adding). Not started: 2–5, 8, 10, 12, 13, 15–23, 28, 30–37. Chapter 1 has no evidence ledger and would need an audit first. A chapter cost 40–290k tokens and gained one to three notes. Recommend: read the eight first, then decide.
+- **I2. Nine notes still rest on the Student Manual's own sentence, with nothing readable beyond it:** 2:5, 21:10, 22:1, 22:13, 23:8, 23:17, 24:5, 25:7, 27:6. Chapters 22 (5 of 11 notes) and 23 (4 of 7) are still over a third. Accept these as the Church's reading, look again for a BYU or Scripture Central source, or cut any of them?
+- **I3. Readings from the manual now stand without its name.** Every “the Student Manual says…” in chapters 2–35 was reworded so the citation carries it (`STANDARDS.md` §3). Some became plain statements (“That fruit is the gospel of peace,” 27:6; “Joseph Smith did not know Greek,” 2:16), others “is read as…” (23:17, 25:6). Should all of them be marked as a reading?
+- **I4. Isaiah or Micah first (2:4)?** The note says it is not known which prophet received “swords into plowshares” first (the manual). A BYU article the chapter already cites says Micah “seems clearly to be repeating” Isaiah. Stay neutral, or follow the article?
+- **I5. Coverdale and the “ships of the sea” (2:16).** The note argues Joseph Smith could not have had the line from the Greek. *Isaiah in the Book of Mormon* (p. 377) notes the line is in Coverdale's 1535 English Bible, “quite possibly” from the Greek. Add that, soften the argument, or leave it?
+- **I6. 130 years or 160 (13:17)?** The manual's “about 130 years later” for the Medes does not fit the Bible Dictionary's dates (701 to 538 BC). The note now gives the two dates and no interval. Right, or state an interval?
+- **I7. The tartan (20:1).** “He has also been described as Sargon's most trusted servant” rests on the manual relaying the Jerusalem Bible, which was not read. Cut the sentence? (It would take the manual off chapter 20.)
+- **I8. Keep the note “The Gentiles who seek the ensign” (11:10)?** Its sentence about Nephi rests on one scholar's unargued statement; the reviewer named it as the one to drop if fewer additions are wanted.
+- **I9. Where new notes sit beside old ones.** Under add-only an old note can't be merged with a new one. Four places where you may want that: 7:14 treats the sign for Ahaz twice (an old bullet and the new Immanuel note); 6:9 gives two readings of the hardening and the old one leads; the Babylonian morning-star parallel is in the 14:8 note, not at 14:12; the note on 29:15–17 sits on verse 16, so verse 17 has no highlight.
 
 ## Work waiting, no decision needed
 
 - **Genesis 22, closing section:** Melvin J. Ballard's words are cited from the seminary manual that prints them; read and cite the original talk (“The Sacramental Covenant,” *New Era*, Jan. 1976).
 - **A leftover working copy** in `.claude/worktrees/` (from the “Show three more” branch, long merged) can be deleted.
+- **Isaiah 18:7:** Joseph Smith's statement is cited from the manual (*History of the Church* 2:132); find it in the Joseph Smith Papers and cite it there.
+- **2 Nephi 19:1, “Red Sea”** (Isaiah 9:1): a note was written and cut because Skousen's *Analysis of Textual Variants* was read on an unauthorized site. Write it when the publisher's copy and the *Interpreter* article arguing the reading may be authentic can both be read.
+- **Isaiah chapters with no evidence ledger:** 1, 40–44, 56–66, though the status says all 66 are audited.

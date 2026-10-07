@@ -72,17 +72,17 @@ claims:
     url: 'https://biblehub.com/hebrew/4853.htm'
     quote: 'utterance, oracle'
   - where: 'note 13:1 “What is a “burden”?”'
-    claim: 'Isaiah introduces oracles against Babylon, Moab, Egypt and others as burdens'
-    key: ot-manual-14
-    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-14?lang=eng'
-    quote: 'Babylon, Assyria, Philistia, Moab, Damascus (Syria), Egypt, and others all came under the prophet’s gloomy oracles of judgment.'
-  - where: 'note 13:1 “What is a “burden”?”'
     claim: 'One commentary takes massa as a verdict of God without the idea of a load'
     key: delitzsch
     url: 'https://biblehub.com/commentaries/kad/isaiah/13.htm'
     quote: 'though without introducing the idea of onus (burden), which is the rendering adopted by the Targum, Syriac, Vulgate, and Luther'
   - where: 'note 13:1 “What is a “burden”?”'
-    claim: 'The manual reads the burden of Babylon as the weighty judgments awaiting it'
+    claim: "Isaiah’s oracles against the nations are introduced as burdens (massa): Babylon, Moab, Damascus, Egypt and others (Gee, p. 72)"
+    key: isaiah-in-bom
+    url: 'https://storage.googleapis.com/scripturecentral-prod-strapi-uploads/ry_and_welch_isaiah_in_the_book_of_mormon_1998_184195e137/ry_and_welch_isaiah_in_the_book_of_mormon_1998_184195e137.pdf'
+    quote: "the burden of Moab\" (Isaiah 15:1); \"the burden of Damascus\" (Isaiah 17:1); \"the burden of Egypt\" (Isaiah 19:1)"
+  - where: 'note 13:1 “What is a “burden”?”'
+    claim: 'The burden of Babylon read as the weighty judgments awaiting it'
     key: ot-manual-14
     url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-14?lang=eng'
     quote: 'the “burden” of Babylon refers to the weighty judgments that inevitably await it.'
@@ -117,35 +117,80 @@ claims:
     url: 'https://biblehub.com/commentaries/kad/isaiah/13.htm'
     quote: 'It is not indeed the general judgment which the prophet is depicting here, but a certain historical catastrophe falling upon the nations'
   - where: 'note 13:6 “The day of the Lord”'
-    claim: 'The manual reads Isaiah 13 as speaking of ancient Babylon and spiritual Babylon'
-    key: ot-manual-14
-    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-14?lang=eng'
-    quote: 'when Isaiah speaks of Babylon he refers to both the empire of that name and spiritual Babylon.'
-  - where: 'note 13:6 “The day of the Lord”'
     claim: 'Latter-day revelation speaks of the great and dreadful day of the Lord'
     key: gs-second-coming
     url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/second-coming-of-jesus-christ?lang=eng'
     quote: 'The great and dreadful day of the Lord is near'
+  - where: 'note 13:6 “The day of the Lord”'
+    claim: 'Isaiah 13 speaks of both ancient Babylon and spiritual Babylon'
+    key: ot-manual-14
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-14?lang=eng'
+    quote: 'when Isaiah speaks of Babylon he refers to both the empire of that name and spiritual Babylon.'
   - where: 'note 13:8 “Labor pains”'
     claim: 'The Greek of Matt. 24:8 means birth pains'
     key: greek-nt
     url: 'https://biblehub.com/interlinear/matthew/24-8.htm'
     quote: 'All these are the beginning of birth pains.'
   - where: 'note 13:10 “Signs in the heavens”'
-    claim: 'Signs in the heavens are spoken of by many prophets'
-    key: ot-manual-14
-    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-14?lang=eng'
-    quote: 'A very dramatic sign of the coming of the Lord will be the great wonders to be manifest in the heavens'
-  - where: 'note 13:11 “Babylon becomes “the world””'
-    claim: 'Babylon is a symbol for the peoples and governments opposing God’s kingdom'
-    key: ot-manual-14
-    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-14?lang=eng'
-    quote: 'Babylon is a scriptural symbol for the peoples and governments that oppose the kingdom of God'
+    claim: "Joel 2:10: the sun and moon dark, the stars withdraw their shining"
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/2?lang=eng'
+    quote: "The earth shall quake before them; the heavens shall tremble: the sun and the moon shall be dark, and the stars shall withdraw their shining:"
+  - where: 'note 13:10 “Signs in the heavens”'
+    claim: "Joel 2:31: the sun turned into darkness before the day of the Lord"
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/2?lang=eng'
+    quote: "The sun shall be turned into darkness, and the moon into blood, before the great and the terrible day of the Lord come."
+  - where: 'note 13:10 “Signs in the heavens”'
+    claim: "Matt. 24:29: the sun darkened, moon not giving light, stars falling"
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/24?lang=eng'
+    quote: "Immediately after the tribulation of those days shall the sun be darkened, and the moon shall not give her light, and the stars shall fall from heaven"
+  - where: 'note 13:10 “Signs in the heavens”'
+    claim: "D&C 29:14: the sun darkened before the great day"
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/29?lang=eng'
+    quote: "before this great day shall come the sun shall be darkened, and the moon shall be turned into blood, and the stars shall fall from heaven"
+  - where: 'note 13:10 “Signs in the heavens”'
+    claim: "D&C 45:42: the sun darkened before the day of the Lord"
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/45?lang=eng'
+    quote: "And before the day of the Lord shall come, the sun shall be darkened, and the moon be turned into blood, and the stars fall from heaven."
+  - where: 'note 13:10 “Signs in the heavens”'
+    claim: "D&C 88:87: the sun shall hide his face and refuse to give light"
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: "the sun shall hide his face, and shall refuse to give light"
+  - where: 'note 13:10 “Signs in the heavens”'
+    claim: "Isa. 60:19: the Lord an everlasting light in place of sun and moon"
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/60?lang=eng'
+    quote: "the Lord shall be unto thee an everlasting light, and thy God thy glory."
   - where: 'note 13:11 “Babylon becomes “the world””'
     claim: 'In D&C 1:16 Babylon means the world'
     key: bd-babylon
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/babylon?lang=eng'
     quote: 'In D&C 1:16, Babylon means “the world.”'
+  - where: 'note 13:11 “Babylon becomes “the world””'
+    claim: "Rev. 18:2–5: Babylon fallen, nations and merchants enriched by her, the call to come out of her"
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/18?lang=eng'
+    quote: "the merchants of the earth are waxed rich through the abundance of her delicacies."
+  - where: 'note 13:11 “Babylon becomes “the world””'
+    claim: "D&C 1:16: every man after the image of his own god, to perish in Babylon"
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/1?lang=eng'
+    quote: "whose image is in the likeness of the world, and whose substance is that of an idol, which waxeth old and shall perish in Babylon, even Babylon the great, which shall fall."
+  - where: 'note 13:11 “Babylon becomes “the world””'
+    claim: "D&C 133:5: Go ye out from Babylon"
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/133?lang=eng'
+    quote: "Go ye out from Babylon. Be ye clean that bear the vessels of the Lord."
+  - where: 'note 13:11 “Babylon becomes “the world””'
+    claim: "D&C 133:14: Babylon is spiritual Babylon, the midst of wickedness"
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/133?lang=eng'
+    quote: "Go ye out from among the nations, even from Babylon, from the midst of wickedness, which is spiritual Babylon."
   - where: 'note 13:12 “More precious than gold”'
     claim: 'Hebrew yaqar can mean “rare”; Isa. 13:12 cross-referenced'
     key: bdb
@@ -157,10 +202,15 @@ claims:
     url: 'https://biblehub.com/commentaries/kad/isaiah/13.htm'
     quote: 'a visitation punishing the wicked, humbling the proud, and depopulating the countries'
   - where: 'note 13:12 “More precious than gold”'
-    claim: 'The manual reads the verse as the righteous becoming scarce and treasured'
+    claim: 'The wicked are cleansed from the earth and the worthy righteous remain as the Lord’s precious jewels'
     key: ot-manual-14
     url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-14?lang=eng'
-    quote: 'righteous men will become as difficult to find as precious gold and will be treasured as highly'
+    quote: 'The wicked will be cleansed from the earth, and the worthy righteous will remain to become the precious jewels in the royal diadem of the Lord'
+  - where: 'note 13:12 “More precious than gold”'
+    claim: "D&C 18:10: the worth of souls is great in the sight of God"
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/18?lang=eng'
+    quote: "Remember the worth of souls is great in the sight of God;"
   - where: 'note 13:15 “The Book of Mormon narrows the judgment”'
     claim: '2 Ne. 23:15 reads “proud” and “joined to the wicked”'
     key: lds-scriptures
@@ -202,10 +252,15 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/assyria-and-babylonia?lang=eng'
     quote: 'Babylon fell almost without a struggle before Cyrus, king of Persia'
   - where: 'note 13:17 “The Medes, named in advance”'
-    claim: 'The call was answered about 130 years later by the Medes and Persians under Cyrus'
-    key: ot-manual-14
-    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-14?lang=eng'
-    quote: 'The call was answered about 130 years later when an alliance of Medes and Persians under Cyrus the Great'
+    claim: "Isaiah’s ministry was about 740–701 B.C."
+    key: bd-isaiah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/isaiah?lang=eng'
+    quote: "a prophet in Jerusalem during 40 years, 740–701 B.C."
+  - where: 'note 13:17 “The Medes, named in advance”'
+    claim: "Babylon fell to Cyrus in 538"
+    key: bd-assyria
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/assyria-and-babylonia?lang=eng'
+    quote: "in 538, Babylon fell almost without a struggle before Cyrus, king of Persia"
   - where: 'note 13:19 “The glory of kingdoms”'
     claim: 'Nebuchadnezzar strengthened and beautified Babylon; its walls and temple of Bel were among the wonders of the world'
     key: bd-assyria
@@ -231,16 +286,6 @@ claims:
     key: delitzsch
     url: 'https://biblehub.com/commentaries/kad/isaiah/13.htm'
     quote: 'the prophecy falls under the law of perspective foreshortening'
-  - where: 'note 13:20 “Babylon today”'
-    claim: 'By the first century after Christ Babylon lay deserted and in ruins'
-    key: ot-manual-14
-    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-14?lang=eng'
-    quote: 'by the first century after Christ it lay deserted and in ruins'
-  - where: 'note 13:20 “Babylon today”'
-    claim: 'Spiritual Babylon will become a waste (Rev. 18)'
-    key: ot-manual-14
-    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-14?lang=eng'
-    quote: 'Spiritual Babylon shall likewise become a waste and desolation'
   - where: 'note 13:20 “Babylon today”'
     claim: 'Babylon allied with Elam against Assyria'
     key: gee-roper-liken
@@ -286,6 +331,21 @@ claims:
     key: luckenbill-annals
     url: 'https://archive.org/download/annalsofsennache00senn_0/annalsofsennache00senn_0_djvu.txt'
     quote: 'temples and gods, temple-towers of brick and earth, as many as there were, I razed and dumped them into the Arahtu canal.'
+  - where: 'note 13:20 “Babylon today”'
+    claim: 'By the first century after Christ Babylon lay deserted and in ruins'
+    key: ot-manual-14
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-14?lang=eng'
+    quote: 'by the first century after Christ it lay deserted and in ruins'
+  - where: 'note 13:20 “Babylon today”'
+    claim: "Rev. 18:2: Babylon the great is fallen and become a habitation of devils"
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/18?lang=eng'
+    quote: "Babylon the great is fallen, is fallen, and is become the habitation of devils"
+  - where: 'note 13:20 “Babylon today”'
+    claim: "D&C 133:14: spiritual Babylon"
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/133?lang=eng'
+    quote: "from the midst of wickedness, which is spiritual Babylon."
   - where: 'note 13:22 “I will be merciful unto my people”'
     claim: '2 Ne. 23:22 adds “I will be merciful unto my people”'
     key: lds-scriptures
