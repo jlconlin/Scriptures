@@ -39,7 +39,6 @@ Everything that waits for the author, for every book and for the site, in this o
 - **I7. The tartan (20:1).** “He has also been described as Sargon's most trusted servant” rests on the manual relaying the Jerusalem Bible, which was not read. Cut the sentence? (It would take the manual off chapter 20.)
 - **I8. Keep the note “The Gentiles who seek the ensign” (11:10)?** Its sentence about Nephi rests on one scholar's unargued statement; the reviewer named it as the one to drop if fewer additions are wanted.
 - **I9. Where new notes sit beside old ones.** Under add-only an old note can't be merged with a new one. Four places where you may want that: 7:14 treats the sign for Ahaz twice (an old bullet and the new Immanuel note); 6:9 gives two readings of the hardening and the old one leads; the Babylonian morning-star parallel is in the 14:8 note, not at 14:12; the note on 29:15–17 sits on verse 16, so verse 17 has no highlight.
-- **I10. Isaiah notes that explain a Book of Mormon passage.** Isaiah 52:7 was the trial (2026-10-07): the Abinadi material moved to bare chapters Mosiah 12 and 15, and Isaiah kept a short paragraph with links. `node scripts/bom-in-notes.mjs isaiah` lists the other candidates by counting words in sentences that carry a Book of Mormon reference: 8 notes have 100 or more such words (53:10, 55:2, 11:11, 29:4, 65:2, 49:1, 49:8, and 52:7 before it was trimmed), 33 have 60 or more, and they point at 51 Book of Mormon chapters (`--by-target` groups them; 2 Nephi 25–29, 3 Nephi 20 and Mosiah 15 most). The count can't tell a note that explains the Book of Mormon passage from one that says how the Book of Mormon uses Isaiah's verse, which belongs in Isaiah. Which of these should move, and should each target chapter become a bare chapter (each new book needs its text set to the 1920 edition's wording first)?
 
 ## Work waiting, no decision needed
 
@@ -48,3 +47,17 @@ Everything that waits for the author, for every book and for the site, in this o
 - **Isaiah 18:7:** Joseph Smith's statement is cited from the manual (*History of the Church* 2:132); find it in the Joseph Smith Papers and cite it there.
 - **2 Nephi 19:1, “Red Sea”** (Isaiah 9:1): a note was written and cut because Skousen's *Analysis of Textual Variants* was read on an unauthorized site. Write it when the publisher's copy and the *Interpreter* article arguing the reading may be authentic can both be read.
 - **Isaiah chapters with no evidence ledger:** 1, 40–44, 56–66, though the status says all 66 are audited.
+
+## Notes waiting for a Book of Mormon home
+
+No decision needed; this is the one list of commentary that sits under Isaiah and belongs under a Book of Mormon verse. The author (2026-10-07): Book of Mormon books are not being written now (“there are many more books in the OT and NT that should come first”), so these stay in Isaiah, whole, until their book is set up. **Whoever sets up one of these books reads this list first**: move the passage to a note on its own verse with its ledger rows, cut the Isaiah note down to what is about Isaiah’s verse with a link across, and delete the line here. Mosiah 12 and 15 show how it was done (`content/mosiah/BRIEF.md`).
+
+| Isaiah note | What moves | To |
+|---|---|---|
+| 52:15 “The marvelous work and the marred servant” | Who the latter-day servant is (the three readings; the second and third paragraphs) | 3 Ne. 21:10 |
+| 14:12 “Lucifer, son of the morning” | What Lehi had read of an angel fallen from heaven (the last paragraph) | 2 Ne. 2:17 |
+| 53:4 “The pains and the sicknesses of his people” | Why the Savior took these on Himself, “that he may know according to the flesh” (the last paragraph) | Alma 7:12 |
+| 22:22 “The key of David” | Nephi’s sealing power and the shutting of the heavens (the end of the last paragraph) | Hel. 10:7 |
+| 1:2 “Calling the witnesses” | Nephi the son of Helaman putting the people on trial (the last paragraph) | Hel. 8:24 |
+
+How the list was made: `node scripts/bom-in-notes.mjs isaiah` counts each note’s words in sentences with a Book of Mormon reference; the 33 notes with 60 or more, and 11 smaller ones where such sentences are half the note, were read on 2026-10-07. The test: a note that says what Isaiah’s verse means, including how the Book of Mormon quotes, rewords or applies it, stays; a passage that explains the Book of Mormon scene itself (who is speaking, why, what the argument is) moves. Twenty-five of the 33 stay as they are. Run the script on any other book that quotes or is quoted by the Book of Mormon (Malachi 3–4, Genesis) before its Book of Mormon partner is written, and add to this table.
