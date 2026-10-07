@@ -52,6 +52,18 @@ The Bible Dictionary divides the book in four: “(1) 1–24, prophecies of judg
 - **Book of Mormon comparison panel: none.** Use the `scripture` kind for Book of Mormon passages.
 - **Theme candidates.** A writer reports what runs across the book; the coordinator adds it to `THEME-CANDIDATES.md`. No theme pages are written until the author chooses them.
 
+## Learned from the first twelve chapters
+
+A second reader went through chapters 1–12 side by side on 2026-10-07 (Codex, for language only; `scripts/codex-read.mjs`). Each chapter's agents see one chapter, and these are the habits that showed when the chapters were read in sequence. Later chapters avoid them.
+
+- **Say a thing once in a chapter.** The setting, the thread, a note, and the Witness of Christ were each restating the same point (where the exiles were, what the glory's coming means). The note carries it; the others say what only they say.
+- **Don't re-explain what an earlier chapter explained.** Point back with a `[[reference]]` and add only what is new here. Already explained, and where: the LORD as the premortal Christ (1:26; a later Witness of Christ does not repeat the identification); cherubim (1:5); the Chebar and Tel-abib, so spelled (1:3); Lehi's call beside Ezekiel's (1:1); the glory not confined to the temple (1:28); the staff of bread and Leviticus 26:26 (4:16); the stages of the glory's departure (11:23, the one full account).
+- **A Witness of Christ does not open by saying what the chapter lacks** (“The chapter names no Messiah…”). Start with what it has; if that is little, the section is short.
+- **A note's first sentence gives the answer, not a promise of one.** Not “This phrase contrasts two kinds of noise” or “‘Removed’ hides a much stronger word,” but the thing itself. The site shows that sentence alone as the note's card.
+- **A reading stays a reading in every sentence.** If a note offers two readings, its opening and the section's plain words must not state one of them as fact.
+- **“In plain words” adds nothing to the verse**: no gloss from a note, no choice between readings.
+- **Hebrew only where it changes what the reader understands.**
+
 ## Contested and sensitive questions
 
 One approach for each, so that forty-eight chapters say the same thing. Each quotation was copied from the page named, read with `source.mjs` on 2026-10-07.
