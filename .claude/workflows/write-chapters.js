@@ -7,17 +7,17 @@ export const meta = {
 // args:
 //   book         the book's slug (the directory under content/), e.g. 'genesis'
 //   chapters     chapter numbers to write, e.g. [27, 28, 29]; about twelve at a time is a good batch
-//   writerModel  'sonnet' (default; the arrangement Jeremiah was written with) or 'opus'.
+//   writerModel  'opus' (default; author, 2026-10-07, after the test on Jeremiah 19 and 45) or 'sonnet'.
 //   reviewerModel 'opus' (default) or 'sonnet', for the last step
 //   focus        optional: the author's focus questions, keyed by chapter number
 //   skipKeys     optional: source keys whose rows the checker reads in the ledger only, without page context
 //                (default 'lds-scriptures,oshb-wlc,biblehub-interlinear')
 // Three agents per chapter, none of which sees another's conversation:
-//   chapter-writer (Sonnet)   researches and writes the chapter and its ledger
+//   chapter-writer (Opus)     researches and writes the chapter and its ledger
 //   chapter-checker (Sonnet)  the mechanical half of the review: reopens the sources, compares each claim with
 //                             its page, tests the checkable rules, and writes its findings with the sources quoted
 //   chapter-reviewer (Opus, or Sonnet if asked)  the judgment: decides each finding and repairs the chapter, without reopening sources
-// Opus is kept for the last step only (author, 2026-10-04: Opus need not be the one to see that pages exist).
+// Opus writes and reviews; the checking between them is Sonnet's (author, 2026-10-04: Opus need not be the one to see that pages exist).
 //   models       optional chapter numbers of finished chapters of this book to use as models, e.g. [1, 22]
 //   lastBatch    true when these chapters finish the book. If every reviewer then reports its chapter ready,
 //                the batch ends by running create-book-art (the book-art-director's visual brief, then one
@@ -81,7 +81,7 @@ const REVIEW_SCHEMA = {
 const chapters = args.chapters
 const results = await pipeline(
   chapters,
-  (n) => agent(writePrompt(n), { label: `write:${n}`, phase: 'Write', agentType: 'chapter-writer', model: args.writerModel ?? 'sonnet' }),
+  (n) => agent(writePrompt(n), { label: `write:${n}`, phase: 'Write', agentType: 'chapter-writer', model: args.writerModel ?? 'opus' }),
   (w, n) => agent(checkPrompt(n), { label: `check:${n}`, phase: 'Check', agentType: 'chapter-checker', model: 'sonnet' }).then((c) => ({ w, c })),
   ({ w, c }, n) => agent(reviewPrompt(n), { label: `review:${n}`, phase: 'Review', agentType: 'chapter-reviewer', model: args.reviewerModel ?? 'opus', schema: REVIEW_SCHEMA })
     .then((r) => ({ chapter: n, writer: String(w).slice(0, 600), checker: String(c).slice(0, 600), review: r })),

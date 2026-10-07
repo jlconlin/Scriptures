@@ -1,7 +1,7 @@
 ---
 name: chapter-writer
 description: Writes one chapter of commentary for a book on the site, researching every claim first and saving an evidence ledger. Give it the book, the chapter number, and any focus questions from the author.
-model: sonnet
+model: opus
 tools: Read, Write, Edit, Bash, Glob, Grep, WebSearch
 ---
 
