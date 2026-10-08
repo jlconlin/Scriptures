@@ -5,7 +5,7 @@ icon: christ
 sources: [lds-scriptures, bd-jehovah, ot-manual-27, christofferson-converted, renlund-mighty-change, oshb-wlc]
 ---
 
-Ezekiel begins with a people whose hearts are hard. The Lord promises the exiles one heart and a new spirit, commands the house of Israel to make a new heart and a new spirit, and then says He will give them Himself, for His name's sake. From there the gift is “my spirit”: put within them, put in a people who say their hope is lost, and at the last poured out. The LORD who speaks is, in Latter-day Saint understanding, the premortal Jesus Christ ([[Ezek. 1:26]]).[@bd-jehovah]
+Ezekiel begins with a people whose hearts are hard. The Lord promises the exiles one heart and a new spirit, commands the house of Israel to make a new heart and a new spirit, and then says He will give these Himself, for His name's sake. From there the gift is “my spirit”: put within them, promised to a people who say their hope is lost, and at the last poured out. The LORD who speaks is, in Latter-day Saint understanding, the premortal Jesus Christ ([[Ezek. 1:26]]).[@bd-jehovah]
 
 | Step | Passage | The words |
 |---|---|---|
@@ -26,9 +26,9 @@ To the exiles: “I will give them one heart, and I will put a new spirit within
 
 ## Given
 
-In [[Ezek. 36:24–27]] the order is spelled out: gathered, then “Then will I sprinkle clean water upon you,” then “A new heart also will I give you, and a new spirit will I put within you,” then “I will put my spirit within you, and cause you to walk in my statutes.” The reason is not Israel's: “I do not this for your sakes, O house of Israel, but for mine holy name's sake” ([[Ezek. 36:22]]). Recovery is “for the Lord's reasons, not because Israel has earned it” (the manual's reading of [[Ezek. 36:32]]).[@ot-manual-27] Of verses 26–27: “They are to be converted to the Lord and receive His Spirit.”[@ot-manual-27] The note on [[Ezek. 36:26]] has more.
+In [[Ezek. 36:24–27]] the order is spelled out: gathered, then “Then will I sprinkle clean water upon you,” then “A new heart also will I give you, and a new spirit will I put within you,” then “I will put my spirit within you, and cause you to walk in my statutes.” The reason is not Israel's: “I do not this for your sakes, O house of Israel, but for mine holy name's sake” ([[Ezek. 36:22]]). Recovery is “for the Lord's reasons, not because Israel has earned it” (see [[Ezek. 36:32]]).[@ot-manual-27] Of verses 26–27: “They are to be converted to the Lord and receive His Spirit.”[@ot-manual-27] The note on [[Ezek. 36:26]] has more.
 
-**Connection made by this page: the command and the gift share a verb.** In the Hebrew text, “make” in [[Ezek. 18:31]] and “cause” in [[Ezek. 36:27]] are the same verb, *asah*.[@oshb-wlc] Set beside each other: in the one the people are told to make a new heart; in the other the Lord says, “A new heart also will I give you” ([[Ezek. 36:26]]), and uses that verb of Himself, “cause you to walk in my statutes.” The same verse ends with the verb in the people's mouth again: “ye shall keep my judgments, and do them.”[@oshb-wlc] The gift does not remove the people from the picture: “The Israel of the future must be spiritually worthy and must submit themselves to the Lord's will.”[@ot-manual-27]
+**Connection made by this page: the command and the gift share a verb.** In the Hebrew text, “make” in [[Ezek. 18:31]] and “cause” in [[Ezek. 36:27]] are the same verb, *asah*.[@oshb-wlc] Set beside each other: in the one the people are told to make a new heart; in the other the Lord says, “A new heart also will I give you” ([[Ezek. 36:26]]), and uses that verb of Himself, “cause you to walk in my statutes.” The same verse then uses the verb of the people: “ye shall keep my judgments, and do them.”[@oshb-wlc] The gift does not remove the people from the picture: “The Israel of the future must be spiritually worthy and must submit themselves to the Lord's will.”[@ot-manual-27]
 
 ## To the hopeless
 
@@ -38,12 +38,10 @@ In [[Ezek. 36:24–27]] the order is spelled out: gathered, then “Then will I 
 
 The verb changes at the end: “Neither will I hide my face any more from them: for I have poured out my spirit upon the house of Israel” ([[Ezek. 39:29]]).
 
-**Connection made by this page: “pour out” in Ezekiel.** In the Hebrew text the verb *shafakh*, “pour,” is used of the Lord's fury, as in “I poured my fury upon them” ([[Ezek. 36:18]]), and of His spirit only at [[Ezek. 39:29]].[@oshb-wlc] It does not always fit that pattern: it is also the book's word for shedding blood, which the same verse has (“the blood that they had shed”), and for casting up a siege mound ([[Ezek. 4:2]]).[@oshb-wlc] Set beside each other, one verb carries the fury of 36:18 and the spirit of 39:29.
+**Connection made by this page: “pour out” in Ezekiel.** Set beside each other, one verb carries the fury of 36:18 and the spirit of 39:29. In the Hebrew text the verb *shafakh*, “pour,” is used of the Lord's fury, as in “I poured my fury upon them” ([[Ezek. 36:18]]), and of His spirit only at [[Ezek. 39:29]].[@oshb-wlc] Fury and spirit are not its only objects: it is also the book's word for shedding blood, which 36:18 has (“the blood that they had shed”), and for casting up a siege mound ([[Ezek. 4:2]]).[@oshb-wlc]
 
 The Church's footnote on “poured” in 39:29 sends the reader to Zechariah: “I will pour upon the house of David, and upon the inhabitants of Jerusalem, the spirit of grace and of supplications: and they shall look upon me whom they have pierced” ([[Zech. 12:10]]).[@lds-scriptures]
 
 ## Jesus Christ
 
-Latter-day Saint speakers join these verses to the change of heart in the Book of Mormon, which comes “through faith on his name” ([[Mosiah 5:7]]). One reads [[Ezek. 11:19–20]] as conversion and adds, “Surely this is what happened to the people of King Benjamin when they said their hearts had been changed.”[@christofferson-converted] Those people said they had “a mighty change in us, or in our hearts” ([[Mosiah 5:2]]) and were told, “your hearts are changed through faith on his name” ([[Mosiah 5:7]]). Quoting [[Ezek. 36:26]], another says the change comes “Through the Atonement of Christ and by obedience to the laws and ordinances of the gospel.”[@renlund-mighty-change]
-
-What the arc shows, from [[Ezek. 18:31]] and [[Ezek. 36:26–27]], is what the covenant Lord gives His people beyond the command to change.
+These verses have been joined to the change of heart in the Book of Mormon. [[Ezek. 11:19–20]] has been read as conversion: “Surely this is what happened to the people of King Benjamin when they said their hearts had been changed.”[@christofferson-converted] Those people said they had “a mighty change in us, or in our hearts” ([[Mosiah 5:2]]) and were told, “your hearts are changed through faith on his name” ([[Mosiah 5:7]]). And the change of [[Ezek. 36:26]] comes “Through the Atonement of Christ and by obedience to the laws and ordinances of the gospel.”[@renlund-mighty-change]
