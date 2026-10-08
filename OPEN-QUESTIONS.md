@@ -11,6 +11,15 @@ Everything that waits for the author, for every book and for the site, in this o
 
 - **S4. The limits on a theme page's own connections.** Your rule of 2026-10-03 is in `STANDARDS.md` §8 with three limits added to your two: the connection rests on quoted words; the facts around it stay sourced; it is worded as a comparison and marked in the ledger. Is that what you meant by “relax a little,” or too tight? The last sections of Jeremiah's cup page and root-and-plant page show it in use.
 
+- **S5. What Codex found on older pages that only you can decide** (the language pass of 2026-10-08; these were left as they are because they are cuts of structure or matters of taste):
+  - *About page:* its principles speak of Isaiah only, though the site now has nine books; and Codex would cut “the Holy Ghost is the one who opens Isaiah” and “Read with a prayer in your heart” as preaching. Both are your own words on your own page.
+  - *The description line of every book page* (“A phrase-by-phrase companion to the book of …”) overstates Mosiah, which has two bare chapters.
+  - *Isaiah, The Arm of the Lord:* the paragraph on the arm of mercy sits under the heading “Alone”, where it does not belong.
+  - *Isaiah, The New Exodus:* the overview table's “The words” column repeats what the sections quote.
+  - *Jeremiah, Scattered and Gathered:* the section “Scattered” repeats the table above it.
+  - *Isaiah guide 2 (Isaiah's World):* reads long, because the overview, the timeline and the lists go over the same events.
+  - *Abraham 3:3 and Lamentations 2:* the pass replaced a sentence the brief had said to keep (the Church's caution about the facsimiles; the *Scripture Helps* sentence that the Lord does not answer in the book) with a pointer to the chapter that explains it (Abraham 1:12; Lamentations 1). Say if you want either back.
+
 ## Genesis
 
 - **G1. “The Angel which redeemed me” (48:16): a Witness of Christ note, or a Context note?** The note points the Angel to Christ by a chain: Hosea calls the one Jacob met “the Lord God of hosts” (Hosea 12:4–5); the Bible Dictionary says Jehovah is the premortal Christ; and the note says that Genesis does not say more about who the Angel is. No Church source found applies this verse to Christ directly, and President Joseph Fielding Smith thought the wrestler at Peniel “more than likely… a messenger.” It stands as a Witness of Christ note for now.
