@@ -78,6 +78,10 @@ Everything that waits for the author, for every book and for the site, in this o
   - **The Stranger's Inheritance:** no Church source ties 47:22–23 to Christ. The page rests on two older commentaries that read it beside Eph. 3:6 and on its own comparison with Eph. 2:12–19, which you asked for. The reviewer says it holds “only just.” Keep the page?
   - **Waters out of the Sanctuary:** the last step, “The LORD is there” (48:35), is one sentence with no tie to the section on Christ, because the link to Rev. 21:3 was given to A Little Sanctuary. Leave it, or add a pointer?
 
+## Daniel
+
+- **D1. Should Daniel's chapters mention the question of when the book was written?** Every Church source read treats Daniel as a prophet in Babylon in the sixth century B.C. and the visions as his own, and the Savior calls him “Daniel the prophet.” Many scholars outside the Church date the book, or its visions, to the second century B.C.; none of that was read in setting up, and the Church's helps don't raise it. The brief has the chapters follow the Church's sources and the book's own dates and say nothing of the other view, unless a writer meets it on a page it is reading, and then one sentence in chapter 7 or 8. A reader who has met the later date elsewhere will find no answer on the site. Leave it so, or have one place (the book page's introduction, or chapter 1's setting) say in two sentences that the question exists and where the Church's sources stand? Recommend: leave it so until the chapters are written, and decide when you read chapters 8 and 11, where it matters.
+
 ## Isaiah
 
 - **I1. Deepen the rest of chapters 1–37?** Done on 2026-10-06 under the add-only rules in `content/isaiah/BRIEF.md`: 6, 7, 9, 11, 14, 24, 26, 29 (25 and 27 were tried and nothing was worth adding). Not started: 2–5, 8, 10, 12, 13, 15–23, 28, 30–37. Chapter 1 has no evidence ledger and would need an audit first. A chapter cost 40–290k tokens and gained one to three notes. Recommend: read the eight first, then decide.
