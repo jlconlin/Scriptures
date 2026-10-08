@@ -34,7 +34,6 @@ Everything that waits for the author, for every book and for the site, in this o
 
 - **E3. “Leave but the sixth part of thee” (39:2).** The note explains from the Hebrew, the Septuagint and two modern translations that the verb means to lead or drive on, not to leave a sixth. The Student Manual's Enrichment I (by the writer's report; the passage was not reopened in review) builds a detail of the battle on the King James wording, that one-sixth of Gog's army survives. The note says nothing about the manual, and the plain-words section keeps the King James sense. Leave it silent, mention the manual's reading, or cut the note back so it does not run against the manual?
 
-- **E4. Which theme pages for Ezekiel, if any?** `content/ezekiel/THEME-CANDIDATES.md` opens with a short list of eight, sorted from what the chapters reported: the glory of the Lord leaving and returning; “ye shall know that I am the LORD” and “for my name's sake”; the watchman and each answering for his own sins; the shepherds, “my servant David,” and the prince; the new heart and the spirit put within; the covenant's warnings carried out and its blessings after (Leviticus 26); the unfaithful wife; Ezekiel himself as the sign. Recommend the first five: the first two are the book's own spine, and the fourth and fifth would sit beside Jeremiah's pages.
 
 ## Isaiah
 
