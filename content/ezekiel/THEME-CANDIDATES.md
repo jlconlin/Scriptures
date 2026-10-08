@@ -234,3 +234,76 @@ Expected before writing (coordinator, 2026-10-07; to be confirmed or dropped by 
 - (36) The Lord inquired of: refused, then allowed (14:3; 20:3, 31; 36:37).
 - (36) 'Know that I am the LORD', said of the nations as well as Israel (36:11, 23, 36, 38).
 - (36) Israel as the Lord's flock (34; 36:37-38).
+
+## Reported by chapters 37–48 (not yet sorted)
+
+- (37) The spirit put within Israel: 11:19; 36:27; 37:14; 39:29.
+- (37) 'Ye shall know that I am the LORD' closing each sign: 37:6, 13, 14, 28.
+- (37) One shepherd, 'my servant David': 34:23–24; 37:24–25.
+- (37) The covenant of peace and the sanctuary in the midst: 34:25; 37:26–28; 43:7–9; 48:35.
+- (37) The plain (biqah) as the place of vision: 3:22–23; 8:4; 37:1–2.
+- (37) Gathered from the nations and cleansed: 11:17; 20:34; 28:25; 34:13; 36:24–25; 37:21–23.
+- (37) Sign-acts explained when the people ask: 12:9; 24:19; 37:18.
+- (38) 'Sanctified in' a people or an enemy before the nations: 20:41; 28:22, 25; 36:23; 38:16, 23; 39:27.
+- (38) 'They shall know that I am the LORD' said of the nations: 36:23; 37:28; 38:23; 39:6-7, 21-23.
+- (38) 'Dwell safely': 28:26; 34:25-28; 38:8, 11, 14; 39:26.
+- (38) The mountains of Israel judged, restored, defended: chapter 6; 36:1-8; 38:8, 21; 39:2-4, 17.
+- (38) The table of nations (Genesis 10) in Ezekiel: 27:12-14; 32:26; 38:2-6, 13.
+- (38) Hooks in the jaws: 19:4, 9; 29:4; 38:4.
+- (38) Echoes in Revelation: Gog and Magog (Rev. 20:8); Armageddon, earthquake and hail (Rev. 16:16-21) beside 38:19-22.
+- (38) The Lord's face: hidden (7:22; 39:23-24), fury 'in my face' (38:18), no longer hidden (39:29).
+- (39) For the sake of the name: profaned and sanctified before the nations (36:20-23; 38:16, 23; 39:7, 25, 27; 43:7).
+- (39) "Know that I am the LORD," of Israel and of the nations (39:6, 7, 22, 28; with 6:7).
+- (39) The Lord's face hidden and no longer hidden (7:22; 39:23, 24, 29; Deut. 31:17).
+- (39) The spirit given: put within, then poured out (11:19; 36:27; 37:14; 39:29).
+- (39) Dwelling safely (28:26; 34:25-28; 38:8, 11, 14; 39:6, 26).
+- (39) Clean and unclean: the land cleansed by burial (39:12-16; 36:17-25; 43:7-9).
+- (39) Ezekiel in Revelation: the feast for the birds, and Gog and Magog (39:17-20 with Rev. 19:17-21; 38-39 with Rev. 20:7-9).
+- (39) Shame borne after restoration (16:54, 61-63; 20:43; 36:31; 39:26).
+- (39) Glory set among the nations, leading to the glory's return (39:13, 21; 43:1-5).
+- (40) The glory leaving and returning by the east gate (10:19; 11:23; 40:6; 43:1-4; 44:1-2; 46:1).
+- (40) 'The hand of the LORD was upon me' and 'visions of God' as the mark of each vision (1:1-3; 8:1-3; 37:1; 40:1-2).
+- (40) Measuring and the separation of holy from profane (40:3-5; 42:15-20; 43:10-12; 45:1-6; 47:3-5; with Zech. 2:1 and Rev. 11:1; 21:15).
+- (40) Ezekiel's temple and John's city (40:2-5; 47:1-12; 48:30-35 with Rev. 21-22).
+- (40) The sons of Zadok (40:46; 43:19; 44:15; 48:11).
+- (40) Solomon's temple behind Ezekiel's (40:16, 48-49; chapter 41).
+- (41) The glory leaving and returning: the inner room measured with nothing named in it (41:4), the glory entering (43:1-7), 'the place of my throne' (43:7), the city's name (48:35).
+- (41) Cherubim across the book: living (chapters 1 and 10), in Eden (28:14), carved on the walls and doors (41:18-25).
+- (41) The table before the LORD: 41:22 and 44:16, with Mal. 1:7, 12.
+- (41) Graded holiness and who may come near: 41:3-4; 42:13-14; 43:12; 44:9-16.
+- (42) Holy and common, and the priests' commission to tell them apart: 22:26; 42:13-14, 20; 43:12; 44:19, 23; 45:1-6; 46:20; 48:15 (with Lev. 10:10).
+- (42) The east gate and the glory: 10:19; 11:23; 42:15; 43:1-5; 44:1-3.
+- (43) The glory leaving and returning (1:28; 8:4; 10:4, 18–19; 11:22–23; 43:1–7; 44:2, 4; 48:35).
+- (43) 'I will dwell in the midst of them for ever' / the sanctuary in their midst (37:26–28; 43:7, 9; 48:35).
+- (43) Defiling and profaning the holy name (20:39; 36:20–23; 39:7; 43:7–8).
+- (43) Shame as the turning point (6:9; 16:61–63; 36:31–32; 43:10–11).
+- (43) Holy and common, most holy (22:26; 42:13–14, 20; 43:12; 44:23).
+- (43) 'I will accept you' (20:40–41; 43:27).
+- (43) The sons of Zadok (40:46; 43:19; 44:15; 48:11).
+- (43) Sacrifice in the temple of the vision (43:18–27; 45–46), with Mal. 3:3, D&C 13 and D&C 84:31.
+- (44) Keeping the charge (mishmeret) of the sanctuary: 40:45-46; 44:8, 14, 15, 16; 48:11.
+- (44) Holy and common, clean and unclean, and the priests who teach it: 22:26; 42:20; 44:23.
+- (44) The glory leaving and returning by the east gate: 10:19; 11:23; 43:1-5; 44:1-4.
+- (44) The prince (nasi): 12:10; 21:25; 34:24; 37:25; 44:3; 45-46; 48:21.
+- (44) Uncircumcised: 28:10; 31:18; 32:19-32; 44:7, 9.
+- (44) The sons of Zadok: 40:46; 43:19; 44:15; 48:11.
+- (45) The prince (nasi) of the temple vision: 44:3; 45:7-9, 16-17, 22; 46:1-18; 48:21-22, beside 34:24 and 37:25.
+- (45) Princes who oppress, and the end of it: 22:27; 34:1-10; 45:8-9; 46:18.
+- (45) The holy portion (terumah) of the land: 45:1-7; 48:8-22.
+- (45) Atonement for the house and the altar: 43:20, 26; 45:15, 17, 20.
+- (45) Holy and common kept apart: 42:20; 44:23; 45:1-6; 48:14-15.
+- (46) The prince (nasi) across the book: 12:10; 34:24; 37:25; 44:3; 45:7-22; 46:2-18; 48:21-22.
+- (46) The east gate and the glory: 10:19; 11:23; 43:1-4; 44:1-3; 46:1-12; 47:1.
+- (46) Holiness kept apart from the common: 42:13-14, 20; 44:19, 23; 46:20.
+- (46) Land and inheritance restored, and rulers who do not oppress: 34; 45:8-9; 46:16-18; 47:13-48:29.
+- (47) Water and life from the Lord's house (47:1-12, with Joel 3:18, Zech. 14:8, Rev. 22:1-2).
+- (47) The glory's movements, the threshold and the east gate (9:3; 10:4, 18-19; 11:23; 43:1-7; 44:1-2; 47:1-2).
+- (47) The oath 'I lifted up mine hand' (20:5-6, 15, 23, 28, 42; 36:7; 44:12; 47:14).
+- (47) The stranger (14:7; 22:7, 29; 44:7-9; 47:22-23).
+- (47) The land as an inheritance sworn to the fathers (20:42; 36:28; 37:25; 45:1-8; 47:13-48:29).
+- (48) 'The LORD is there': the glory leaving and returning, and the city's name (10:18-19; 11:22-23; 35:10; 43:1-7; 48:35).
+- (48) The sanctuary 'in the midst' (37:26-28; 43:7, 9; 45:3; 48:8, 10, 21).
+- (48) Holy and common ground (22:26; 42:20; 44:23; 45:1-6; 48:12-15).
+- (48) The land as inheritance, lost and given again (11:15; 33:24; 36:2-5; 45:8; 46:18; 47:13-23; 48:29).
+- (48) Echoes in Revelation: the city with twelve gates and God dwelling with men (48:31-35; 37:27; Rev. 21:3, 12-13).
+- (48) The prince and the end of oppression (34:24; 44:3; 45:8-9; 46:18; 48:21-22).
