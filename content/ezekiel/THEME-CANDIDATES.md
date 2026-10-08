@@ -76,3 +76,79 @@ Expected before writing (coordinator, 2026-10-07; to be confirmed or dropped by 
 - (12) Popular sayings the Lord quotes and answers: 12:22, 27; 18:2; also 11:3 and 33:10.
 - (12) False prophets and smooth visions: 12:24; chapter 13; Jer. 28-29.
 - (12) Seeing and not seeing: 12:2-13; with Isa. 6:9-10 and Jer. 5:21 on the site.
+
+## Reported by chapters 13–24 (not yet sorted)
+
+- (13) False prophets and the test of a true one (13; 12:24; 14:9-10; 22:25, 28; with Jer. 23 and 28-29 on the site).
+- (13) Standing in the gap: the intercessor the Lord looks for (13:5; 22:30; with the watchman of chapters 3 and 33).
+- (13) "My people" and "I will deliver my people out of your hand," leading to "I will deliver my flock" (13:21, 23; 34:10).
+- (13) "Ye shall know that I am the LORD" (13:9, 14, 21, 23).
+- (13) "Peace, and there was no peace" (13:10, 16; Jer. 6:14; 8:11; 1 Ne. 2:13; 2 Ne. 28:21).
+- (14) Elders sitting before the prophet, and the Lord refusing and later promising to be inquired of: 8:1; 14:1-3; 20:1-3, 31; 36:37.
+- (14) Each answers for himself: 3:17-21; 14:12-20; 18; 33:10-20.
+- (14) The four judgments of Leviticus 26 (sword, famine, beasts, pestilence): 5:12, 17; 6:11-12; 7:15; 12:16; 14:13-21; 33:27.
+- (14) 'They shall be my people, and I will be their God': 11:20; 14:11; 34:30-31; 36:28; 37:23, 27.
+- (14) The survivors and what they are for: 5:3-4; 6:8-10; 12:16; 14:22-23.
+- (14) False prophets and those who consult them: 12:24; 13; 14:9-10; 22:28.
+- (14) 'Ye shall know that I am the LORD': 14:8, 23 (with chapter 6).
+- (15) Israel as a vine in Ezekiel (15:2–6; 17:5–10; 19:10–14), with the Savior's 'I am the true vine' (John 15).
+- (15) 'I will set my face against' (14:8; 15:7; Lev. 26:17).
+- (15) 'Trespass' (ma'al), broken faith (14:13; 15:8; 17:20; 18:24; 20:27; 39:26).
+- (15) Leviticus 26 in Ezekiel's words: add 15:7–8 to the candidate already listed from chapters 4–6.
+- (15) 'Ye shall know that I am the LORD' (15:7).
+- (16) The Lord as husband, Israel as wife (16; 23; with Hosea 2 and Jer. 2–3).
+- (16) Remember: she did not remember (16:22, 43); He remembers the covenant (16:60); she remembers and is ashamed (16:61, 63; 20:43; 36:31).
+- (16) The everlasting covenant (16:60–62; 37:26; with 11:19–20 and 36:26–27).
+- (16) 'Thou shalt know that I am the LORD' following mercy and not judgment (16:62).
+- (16) Not for Israel's sake (16:61–63; 20:44; 36:22, 32).
+- (16) Child sacrifice (16:20–21, 36; 20:26, 31; 23:37–39).
+- (16) Foreign alliances as harlotry: Egypt, Assyria, Chaldea (16:26–29; 17; 23).
+- (17) Trees and vines for kings and kingdoms: 15; 17; 19:10–14; 31.
+- (17) The low exalted and the high abased, 'until he come whose right it is': 17:24; 21:26–27 (the same Hebrew word, shaphal, in 17:6, 14, 24 and 21:26).
+- (17) Zedekiah's fate foretold: 12:10–14; 17:16–21; 21:25–27.
+- (17) 'Despised the oath … broke the covenant', of the city and of the king: 16:59; 17:16–19.
+- (17) Egypt as the help that fails: 17:15–17; 29–32.
+- (17) Ezekiel beside Zenos (Jacob 5): 15; 17; 19 (KnoWhy #440).
+- (18) Each answers for his own sin (3:18-21; 14:12-20; 18; 33:10-20).
+- (18) Popular sayings the Lord quotes and answers (12:22, 27; 18:2, 19, 25, 29; 33:10, 17, 20).
+- (18) The new heart and new spirit, promised and commanded (11:19; 18:31; 36:26).
+- (18) Judged 'according to his ways' (7:3, 8; 18:30; 33:20).
+- (18) 'As I live' and 'no pleasure in the death of the wicked' (18:3, 23, 32; 33:11).
+- (18) Turning (shuv) as the book's word for repentance (14:6; 18:21-32; 33:9-19).
+- (18) The law of Leviticus and Deuteronomy behind Ezekiel's lists (18:5-9; 22:6-12; 33:15).
+- (19) The royal house of Judah and the sceptre: 12:10-13; 17:11-24; 19:1-14; 21:25-27; 34:23-24; 37:24-25 (with Gen. 49:8-12).
+- (19) The vine: 15; 17:5-10; 19:10-14.
+- (19) Laments (qinah): 2:10; 19; 26:17; 27; 28:12; 32:2, 16.
+- (19) Hooks in the jaws: 19:4, 9; 29:4; 38:4.
+- (20) Acting 'for my name's sake', and the name profaned or sanctified before the nations: 20:9, 14, 22, 39, 41, 44; 36:20-23; 39:7.
+- (20) A second exodus (mighty hand, wilderness, covenant, the land): 20:33-42, with 11:17-20; 34; 36-37.
+- (20) The Lord as shepherd who counts and sorts His flock: 20:37-38; 34:11-22.
+- (20) Elders who come to inquire: 8:1; 14:1-3; 20:1-3, 31; 36:37.
+- (20) 'Ye shall know that I am the LORD': 20:12, 20, 26, 38, 42, 44.
+- (20) Israel's history retold as an indictment: chapters 16, 20, 23.
+- (21) The sword of the Lord (5:1-2, 12, 17; 6:3; 11:8; 14:17, 21; chapter 21 throughout, 15 times; 30:24-25; 32:10-11).
+- (21) Zedekiah's broken oath (17:13-19; 21:23-25).
+- (21) The low exalted and the high abased (17:24; 21:26; Luke 1:52).
+- (21) The king to come: 'whose right it is' (21:27) with 'my servant David' (34:23-24; 37:24-25) and Gen. 49:10.
+- (21) Ammon (21:20, 28-32; 25:1-7).
+- (21) 'All flesh shall know' (20:48; 21:5), a form of the recognition refrain.
+- (22) The search for an intercessor, 'I sought for a man… but I found none': 13:5; 22:30; with 14:14-20, Gen. 18, Jer. 5:1, Isa. 59:16.
+- (22) Profaning the Lord's holy things, sabbaths and name: 22:8, 16, 26; 20:9, 14, 22; 36:20-23; 44:23.
+- (22) Blood-guilt and 'the bloody city': 7:23; 9:9; 22:2-13; 24:6-9; 36:18.
+- (22) Every rank failing (prophets, priests, princes, people): 7:26-27; 13; 22:25-29; 34.
+- (22) 'Their own way upon their heads': 7:4, 27; 9:10; 11:21; 16:43; 22:31.
+- (22) Ezekiel's use of the law (Exodus 20-22; Leviticus 18-20 and 26): chapters 4-6, 18, 22.
+- (23) The unfaithful wife, Jehovah as husband: 16; 23 (with 6:9; Jer. 3; Hosea).
+- (23) Egypt as the first and last temptation: 20:5-9; 23:3, 8, 19-21, 27; 17:15; 29-32.
+- (23) The cup: 23:31-34 (with Jeremiah's page The Cup of the Lord's Fury; Isa. 51:17-22).
+- (23) 'Wilt thou judge?' as the frame of chapters 20-23: 20:4; 22:2; 23:36.
+- (23) The sanctuary defiled: 5:11; 8; 23:38-39; 44:7.
+- (23) 'Ye shall know that I am the Lord GOD': 23:49 (explained at 6:7).
+- (24) Ezekiel himself as the sign (4:3; 12:6, 11; 24:24, 27).
+- (24) The prophet's dumbness from his call to the fall of the city (3:26-27; 24:25-27; 33:21-22).
+- (24) The covenant warnings of Leviticus 26 in Ezekiel's words: 'pride of your power' (24:21 with Lev. 26:19) and 'pine away' (4:17; 24:23; 33:10 with Lev. 26:39).
+- (24) The caldron (11:3-11; 24:3-14).
+- (24) The Lord's fury brought to rest (5:13; 16:42; 21:17; 24:13).
+- (24) Judged 'according to thy ways' (7:3-9; 18:30; 24:14; 33:20; 36:19).
+- (24) The sanctuary profaned (7:20-22; 24:21).
+- (24) 'Ye shall know that I am the LORD' (24:24, 27).
