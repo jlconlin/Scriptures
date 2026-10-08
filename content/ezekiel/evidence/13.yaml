@@ -1,0 +1,659 @@
+chapter: 13
+claims:
+  # ---------- when ----------
+  - where: 'when'
+    claim: 'The nearest date above the chapter is the sixth year, sixth month (8:1)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/8?lang=eng'
+    quote: 'And it came to pass in the sixth year, in the sixth month, in the fifth day of the month'
+  - where: 'when'
+    claim: 'The next date in the book is the seventh year, fifth month (20:1)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/20?lang=eng'
+    quote: 'And it came to pass in the seventh year, in the fifth month, the tenth day of the month'
+  - where: 'when'
+    claim: 'Ezekiel’s ministry began in 592 B.C. (the fifth year), so the sixth year is about 591 B.C.'
+    key: bd-ezekiel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ezekiel?lang=eng'
+    quote: 'prophesied during a period of 22 years, 592–570 B.C.'
+
+  # ---------- setting ----------
+  - where: 'setting'
+    claim: 'Ezekiel was one of the captives carried away with Jehoiachin'
+    key: bd-ezekiel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ezekiel?lang=eng'
+    quote: 'one of the captives carried away by Nebuchadnezzar along with Jehoiachin'
+  - where: 'setting'
+    claim: 'The chapter stands under the date of 8:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/8?lang=eng'
+    quote: 'And it came to pass in the sixth year, in the sixth month'
+  - where: 'setting'
+    claim: 'Chapter 12 quotes the proverb about failing visions and promises an end of vain vision and flattering divination'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/12?lang=eng'
+    quote: 'For there shall be no more any vain vision nor flattering divination within the house of Israel.'
+  - where: 'setting'
+    claim: 'Chapter 12 has the people’s saying that every vision fails'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/12?lang=eng'
+    quote: 'The days are prolonged, and every vision faileth'
+  - where: 'setting'
+    claim: 'Chapter 12 denounced the people’s false expectations and chapter 13 the leaders who fed them'
+    key: jfb-ezekiel
+    url: 'https://biblehub.com/commentaries/jfb/ezekiel/13.htm'
+    quote: 'As the twelfth chapter denounced the false expectations of the people, so this denounces the false leaders who fed those expectations.'
+  - where: 'setting'
+    claim: 'The exiles said the Lord had raised up prophets for them in Babylon'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/29?lang=eng'
+    quote: 'Because ye have said, The Lord hath raised us up prophets in Babylon'
+  - where: 'setting'
+    claim: 'The chapter has been taken as meant first for those in Jerusalem and then for the exiles'
+    key: jfb-ezekiel
+    url: 'https://biblehub.com/commentaries/jfb/ezekiel/13.htm'
+    quote: 'this chapter, therefore, is primarily intended as a message to those still in the Jewish metropolis; and, secondarily, for the good of the exiles at the Chebar'
+  - where: 'setting'
+    claim: 'The chapter closely parallels Jeremiah 23:9–40'
+    key: ot-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-26?lang=eng'
+    quote: 'Chapter 13 in Ezekiel closely parallels Jeremiah’s condemnation of false prophets (see Jeremiah 23:9–40).'
+  - where: 'thread'
+    claim: 'The chapter divides into two parts, against the prophets and against the prophetesses, each giving conduct first and then punishment'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/13.htm'
+    quote: 'It divides itself into two parts, viz., vv. 1-16, directed against the false prophets; and Ezekiel 13:17-23, against the false prophetesses. In both parts their conduct is first described, and then the punishment foretold.'
+  - where: 'thread'
+    claim: 'The refrain “ye shall know that I am the LORD” is in chapter 6'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/6?lang=eng'
+    quote: 'and ye shall know that I am the Lord'
+
+  # ---------- sections ----------
+  - where: 'section 1 plain'
+    claim: '“Gaps” rendered as breaks in the wall'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/13?lang=eng'
+    quote: 'IE breaks in the wall.'
+  - where: 'note 13:4 “Foxes among the ruins”'
+    claim: 'The Hebrew word for “deserts” means waste places or ruins'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2723.htm'
+    quote: 'waste place amid ruins'
+  - where: 'section 3 plain'
+    claim: '“Daubing” is plaster'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/13?lang=eng'
+    quote: 'OR plaster.'
+  - where: 'note 13:2 “Who these prophets were”'
+    claim: 'The phrase “out of their own hearts” alludes to Jeremiah 23:16, 26; what they prophesied was what they and the people wished'
+    key: jfb-ezekiel
+    url: 'https://biblehub.com/commentaries/jfb/ezekiel/13.htm'
+    quote: 'alluding to the words of Jeremiah (Jer 23:16, 26); that is, what they prophesied was what they and the people wished'
+  - where: 'note 13:2 “Who these prophets were”'
+    claim: 'What they prophesied was a speedy return to Jerusalem'
+    key: jfb-ezekiel
+    url: 'https://biblehub.com/commentaries/jfb/ezekiel/13.htm'
+    quote: 'that prophesy—namely, a speedy return to Jerusalem'
+  - where: 'note 13:2 “Who these prophets were”'
+    claim: 'Jeremiah on prophets who speak a vision of their own heart'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/23?lang=eng'
+    quote: 'they speak a vision of their own heart, and not out of the mouth of the Lord'
+  - where: 'note 13:2 “Who these prophets were”'
+    claim: 'Jeremiah told Hananiah the Lord had not sent him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/28?lang=eng'
+    quote: 'The Lord hath not sent thee; but thou makest this people to trust in a lie'
+  - where: 'note 13:2 “Who these prophets were”'
+    claim: 'Hananiah’s two full years'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/28?lang=eng'
+    quote: 'within the space of two full years'
+  - where: 'note 13:2 “Who these prophets were”'
+    claim: 'Ahab and Zedekiah prophesied lies among the exiles'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/29?lang=eng'
+    quote: 'of Ahab the son of Kolaiah, and of Zedekiah the son of Maaseiah, which prophesy a lie unto you in my name'
+  - where: 'note 13:2 “Who these prophets were”'
+    claim: 'Shemaiah the Nehelamite prophesied without being sent'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/29?lang=eng'
+    quote: 'Thus saith the Lord concerning Shemaiah the Nehelamite; Because that Shemaiah hath prophesied unto you, and I sent him not, and he caused you to trust in a lie'
+
+  # ---------- note 13:3 ----------
+  - where: 'note 13:3 “Fools, in the Bible’s sense”'
+    claim: 'The Hebrew adjective is nabal (H5036), a word of moral and religious insensibility'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5036.htm'
+    quote: 'foolish, senseless, especially of the man who has no perception of ethical and religious claims'
+  - where: 'note 13:3 “Fools, in the Bible’s sense”'
+    claim: 'The adjective stands beside “the prophets” in the Hebrew of 13:3; it occurs only here in Ezekiel (scripts/hebrew.mjs ezekiel --word 5036: 1 occurrence)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'הַ/נְּבָלִ֑ים'
+  - where: 'note 13:3 “Fools, in the Bible’s sense”'
+    claim: 'The word for “the prophets” that it follows'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'הַ/נְּבִיאִ֣ים'
+  - where: 'note 13:3 “Fools, in the Bible’s sense”'
+    claim: 'The Septuagint has no word for “foolish” and reads “out of their own heart”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/ezekiel/13.htm'
+    quote: 'Woe to them that prophesy out of their own heart, and who see nothing at all.'
+
+  # ---------- note 13:4 ----------
+  - where: 'note 13:4 “Foxes among the ruins”'
+    claim: 'The animal is the fox or perhaps the jackal, named here as haunting ruins, as in Lamentations 5:18'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7776.htm'
+    quote: 'fox, perhaps also jackal'
+  - where: 'note 13:4 “Foxes among the ruins”'
+    claim: 'The lexicon groups this verse with Lamentations 5:18'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7776.htm'
+    quote: 'as haunting ruins Ezekiel 13:4; Lamentations 5:18'
+  - where: 'note 13:4 “Foxes among the ruins”'
+    claim: 'A modern translation has jackals among ruins'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=ESV'
+    quote: 'Your prophets have been like jackals among ruins, O Israel.'
+  - where: 'note 13:4 “Foxes among the ruins”'
+    claim: 'Foxes walk on desolate Zion in Lamentations'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lam/5?lang=eng'
+    quote: 'Because of the mountain of Zion, which is desolate, the foxes walk upon it.'
+  - where: 'note 13:4 “Foxes among the ruins”'
+    claim: 'One reading: the fox’s cunning'
+    key: ot-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-26?lang=eng'
+    quote: 'Like the cunning foxes in the desert (see Ezekiel 13:4), they obtain their prey by subtlety.'
+  - where: 'note 13:4 “Foxes among the ruins”'
+    claim: 'Another reading: the fox’s undermining of the ground'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/13.htm'
+    quote: 'The point of comparison is to be found in the undermining of the ground by foxes'
+  - where: 'note 13:4 “Foxes among the ruins”'
+    claim: 'The ruins point to the fall of the nation, which the false prophets hasten'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/13.htm'
+    quote: 'points to the fall of the theocracy, which the false prophets cannot prevent, but, on the contrary, accelerate by undermining the moral foundations of the state'
+
+  # ---------- note 13:5 ----------
+  - where: 'note 13:5 “What a prophet does at a broken wall”'
+    claim: 'The Hebrew noun is the word for a breach in a wall'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6556.htm'
+    quote: 'breach in wall'
+  - where: 'note 13:5 “What a prophet does at a broken wall”'
+    claim: 'Figuratively, going up into or standing in the breach is averting calamity by instruction and intercession; Ezekiel 22:30 and Psalm 106:23 are grouped with this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6556.htm'
+    quote: 'Ezekiel 22:30 ("" id.), compare Psalm 106:23, by instruction and (especially) intercession'
+  - where: 'note 13:5 “What a prophet does at a broken wall”'
+    claim: 'A modern translation has breaches and a wall'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=ESV'
+    quote: 'You have not gone up into the breaches, or built up a wall for the house of Israel'
+  - where: 'note 13:5 “What a prophet does at a broken wall”'
+    claim: 'Moses stood in the breach'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/106?lang=eng'
+    quote: 'had not Moses his chosen stood before him in the breach, to turn away his wrath'
+  - where: 'note 13:5 “What a prophet does at a broken wall”'
+    claim: 'The Lord sought a man to stand in the gap, in the chapter that lists Jerusalem’s sins'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/22?lang=eng'
+    quote: 'And I sought for a man among them, that should make up the hedge, and stand in the gap before me for the land, that I should not destroy it: but I found none.'
+  - where: 'note 13:5 “What a prophet does at a broken wall”'
+    claim: 'Chapter 22 is a catalog of the people’s sins'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/22?lang=eng'
+    quote: 'Ezekiel catalogs the sins of the people of Judah in Jerusalem'
+
+  # ---------- note 13:6 ----------
+  - where: 'note 13:6 “Whose hope it was”'
+    claim: 'The verb is yachal (H3176) in the Piel'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'וְ/יִֽחֲל֖וּ'
+  - where: 'note 13:6 “Whose hope it was”'
+    claim: 'In the Piel the verb means wait for, hope for'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3176.htm'
+    quote: 'wait for = hope for'
+  - where: 'note 13:6 “Whose hope it was”'
+    claim: 'This verse is listed under that sense, with the infinitive “to confirm a word” following'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3176.htm'
+    quote: 'followed by ל infinitive לְקַיֵּם דָּבָר ׳ויח Ezekiel 13:6'
+  - where: 'note 13:6 “Whose hope it was”'
+    claim: 'ESV rendering'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=ESV'
+    quote: 'and yet they expect him to fulfill their word'
+  - where: 'note 13:6 “Whose hope it was”'
+    claim: 'NRSVUE rendering'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=NRSVUE'
+    quote: 'and yet they wait for the fulfillment of their word'
+  - where: 'note 13:6 “Whose hope it was”'
+    claim: 'Septuagint rendering'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/ezekiel/13.htm'
+    quote: 'and they began to try to confirm the word'
+
+  # ---------- note 13:9 ----------
+  - where: 'note 13:9 “Left off the register”'
+    claim: 'The Hebrew word for “writing” is kethab (H3791)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'וּ/בִ/כְתָ֤ב'
+  - where: 'note 13:9 “Left off the register”'
+    claim: 'It means a register here and in Ezra 2:62'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3791.htm'
+    quote: 'register, enrolement, Ezekiel 13:9; Ezra 2:62 = Nehemiah 7:64.'
+  - where: 'note 13:9 “Left off the register”'
+    claim: 'Returning families sought their register and were not found'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/2?lang=eng'
+    quote: 'These sought their register among those that were reckoned by genealogy, but they were not found'
+  - where: 'note 13:9 “Left off the register”'
+    claim: 'Ezra 2 lists those who returned from the captivity'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/2?lang=eng'
+    quote: 'The descendants of the Jews taken captive who return to Jerusalem'
+  - where: 'note 13:9 “Left off the register”'
+    claim: 'The Hebrew word for “assembly” is sod (H5475)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'בְּ/ס֧וֹד'
+  - where: 'note 13:9 “Left off the register”'
+    claim: 'The lexicon puts this verse under the sense assembly, company'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5475.htm'
+    quote: 'assembly, company'
+  - where: 'note 13:9 “Left off the register”'
+    claim: 'Modern translations have council'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=ESV'
+    quote: 'They shall not be in the council of my people'
+  - where: 'note 13:9 “Left off the register”'
+    claim: 'The rebels among the exiles will not enter the land (the Church edition’s footnote at “enter” points here)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/20?lang=eng'
+    quote: 'I will bring them forth out of the country where they sojourn, and they shall not enter into the land of Israel'
+  - where: 'note 13:10 “The prophets of peace”'
+    claim: 'Jeremiah quotes the same message'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/6?lang=eng'
+    quote: 'They have healed also the hurt of the daughter of my people slightly, saying, Peace, peace; when there is no peace.'
+  - where: 'note 13:10 “The prophets of peace”'
+    claim: 'Jeremiah says it again at 8:11'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/8?lang=eng'
+    quote: 'saying, Peace, peace; when there is no peace'
+  - where: 'note 13:10 “The prophets of peace”'
+    claim: 'Laman and Lemuel did not believe Jerusalem could be destroyed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/2?lang=eng'
+    quote: 'Neither did they believe that Jerusalem, that great city, could be destroyed according to the words of the prophets.'
+  - where: 'note 13:10 “The prophets of peace”'
+    claim: 'Laman and Lemuel took Hananiah’s view; Nephi and Lehi preached like Jeremiah'
+    key: sc-knowhy-441
+    url: 'https://scripturecentral.org/knowhy/who-were-the-many-prophets-in-jerusalem-during-lehis-time'
+    quote: 'Laman and Lemuel, who took Hananiah’s view that Jerusalem would be spared, and Nephi and Lehi, who preached, like Jeremiah, that Jerusalem would be destroyed'
+  - where: 'note 13:10 “The prophets of peace”'
+    claim: 'Nephi on being pacified and lulled into carnal security'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/28?lang=eng'
+    quote: 'And others will he pacify, and lull them away into carnal security, that they will say: All is well in Zion'
+  - where: 'note 13:10 “The prophets of peace”'
+    claim: '2 Nephi 28:21 is applied to the false prophets of Ezekiel 13'
+    key: ot-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-26?lang=eng'
+    quote: 'False prophets pacify and lull people into carnal security (see 2 Nephi 28:21).'
+
+  # ---------- note 13:10 mortar ----------
+  - where: 'note 13:10 “Whitewash on a flimsy wall”'
+    claim: 'The word for the wall is chayits (H2434); in Ezekiel only here (scripts/hebrew.mjs ezekiel --word 2434: 1 occurrence)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'חַ֔יִץ'
+  - where: 'note 13:10 “Whitewash on a flimsy wall”'
+    claim: 'It is explained as a thin or party wall'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2434.htm'
+    quote: 'i.e. a thin or party-wall'
+  - where: 'note 13:10 “Whitewash on a flimsy wall”'
+    claim: 'NRSVUE has a flimsy wall, built by the people'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=NRSVUE'
+    quote: 'when the people build a flimsy wall, these prophets smear whitewash on it'
+  - where: 'note 13:10 “Whitewash on a flimsy wall”'
+    claim: 'ESV supplies “the people” as the builders'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=ESV'
+    quote: 'when the people build a wall'
+  - where: 'note 13:10 “Whitewash on a flimsy wall”'
+    claim: 'The Hebrew has only the pronoun “he” for the builder'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'וְ/הוּא֙'
+  - where: 'note 13:10 “Whitewash on a flimsy wall”'
+    claim: 'Taphel (H8602) occurs at 13:10, 11, 14, 15 and 22:28 (scripts/hebrew.mjs ezekiel --word 8602: 5 occurrences)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'תָּפֵֽל'
+  - where: 'note 13:10 “Whitewash on a flimsy wall”'
+    claim: 'Taphel means whitewash'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8602.htm'
+    quote: 'whitewash; — applied to wall, in Ezekiel''s vision Ezekiel 13:10,11,14,15; figurative of false prophet Ezekiel 22:28.'
+  - where: 'note 13:10 “Whitewash on a flimsy wall”'
+    claim: 'One explanation of “untempered mortar”: mortar without lime, which does not protect an earthen wall'
+    key: ot-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-26?lang=eng'
+    quote: 'When this mortar is properly mixed with lime, it answers the purpose designed; but where the lime is left out, as is often the case'
+  - where: 'note 13:10 “Whitewash on a flimsy wall”'
+    claim: 'The other explanation: whitewash, a thin coat of lime that gives a finished look'
+    key: ot-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-26?lang=eng'
+    quote: 'a mere thin covering of lime, which gives the wall a finished durable appearance, which its real character does not warrant'
+  - where: 'note 13:10 “Whitewash on a flimsy wall”'
+    claim: 'The people build hopes and the prophets paint them'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/13.htm'
+    quote: 'The people build up foolish hopes, and the prophets not only paint these hopes for them in splendid colours, but even predict their fulfilment'
+  - where: 'note 13:10 “Whitewash on a flimsy wall”'
+    claim: '“It shall fall” (yippol) resembles taphel in sound'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/13.htm'
+    quote: 'suggests a resemblance in sound'
+  - where: 'note 13:10 “Whitewash on a flimsy wall”'
+    claim: 'In 13:11 “it shall fall” stands directly after taphel'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'וְ/יִפֹּ֑ל'
+  - where: 'note 13:10 “Whitewash on a flimsy wall”'
+    claim: 'The wall is a figure of Jerusalem with a superficial coating'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2902.htm'
+    quote: 'metaphor of coating over Jerusalem, under figure of a wall, with a superficial coating, to hide its real weakness'
+  - where: 'note 13:10 “Whitewash on a flimsy wall”'
+    claim: 'NRSVUE renders verse 14 of the city'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=NRSVUE'
+    quote: 'when the city falls, you shall perish within it'
+  - where: 'note 13:10 “Whitewash on a flimsy wall”'
+    claim: 'In verse 14 the words pass from the figure to Jerusalem'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/13.htm'
+    quote: 'the plastered wall is a symbol of Jerusalem'
+
+  # ---------- note 13:17 ----------
+  - where: 'note 13:17 “Women who prophesied”'
+    claim: 'Miriam is called a prophetess'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/15?lang=eng'
+    quote: 'And Miriam the prophetess, the sister of Aaron, took a timbrel in her hand'
+  - where: 'note 13:17 “Women who prophesied”'
+    claim: 'Deborah, a prophetess, judged Israel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/4?lang=eng'
+    quote: 'And Deborah, a prophetess, the wife of Lapidoth, she judged Israel at that time.'
+  - where: 'note 13:17 “Women who prophesied”'
+    claim: 'Hilkiah the priest and others went to Huldah the prophetess in Jerusalem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/22?lang=eng'
+    quote: 'went unto Huldah the prophetess, the wife of Shallum the son of Tikvah, the son of Harhas, keeper of the wardrobe; (now she dwelt in Jerusalem in the college;)'
+  - where: 'note 13:17 “Women who prophesied”'
+    claim: 'A modern translation’s cross-references at verse 17 join these three prophetesses to it'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=ESV'
+    quote: 'Ezekiel 13:17 : [Ex. 15:20; Judg. 4:4; 2 Kgs. 22:14]'
+  - where: 'note 13:17 “Women who prophesied”'
+    claim: 'What divination is'
+    key: bd-divination
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/divination?lang=eng'
+    quote: 'Any superstitious method of trying to discover the course of future events.'
+  - where: 'note 13:17 “Women who prophesied”'
+    claim: 'Jeremiah’s letter warned the exiles of prophets and diviners'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/29?lang=eng'
+    quote: 'Let not your prophets and your diviners, that be in the midst of you, deceive you'
+
+  # ---------- note 13:18 ----------
+  - where: 'note 13:18 “Bands and veils”'
+    claim: 'Kesatot (H3704) occurs only at 13:18 and 13:20 (scripts/hebrew.mjs ezekiel --word 3704: 2 occurrences)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'כְּסָת֜וֹת'
+  - where: 'note 13:18 “Bands and veils”'
+    claim: 'The lexicon gives band, fillet, with an ancient explanation as charm or amulet'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3704.htm'
+    quote: 'band, fillet (= charm or amulet according to'
+  - where: 'note 13:18 “Bands and veils”'
+    claim: 'In later Hebrew the word usually means cushion or pillow; in the Bible it is only in these two verses'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3704.htm'
+    quote: 'in Late Hebrew כסת usually = cushion, bolster, pillow), only plural'
+  - where: 'note 13:18 “Bands and veils”'
+    claim: 'The Septuagint has pillows under every elbow'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/ezekiel/13.htm'
+    quote: 'Woe to the women that sew pillows under every elbow, and make kerchiefs on the head of every stature'
+  - where: 'note 13:18 “Bands and veils”'
+    claim: '“Armholes” is the joint of the hand, the elbow'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/679.htm'
+    quote: 'joint of hand, i.e. elbow Ezekiel 13:18'
+  - where: 'note 13:18 “Bands and veils”'
+    claim: 'Mispachot (H4555) occurs only at 13:18 and 13:21 (scripts/hebrew.mjs ezekiel --word 4555: 2 occurrences)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'הַ/מִּסְפָּח֛וֹת'
+  - where: 'note 13:18 “Bands and veils”'
+    claim: 'It means a long veil'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4555.htm'
+    quote: 'long veil (properly sheathing?) covering whole person'
+  - where: 'note 13:18 “Bands and veils”'
+    claim: 'ESV: magic bands on wrists'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=ESV'
+    quote: 'who sew magic bands upon all wrists'
+  - where: 'note 13:18 “Bands and veils”'
+    claim: 'ESV: veils for heads'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=ESV'
+    quote: 'make veils for the heads of persons of every stature'
+  - where: 'note 13:18 “Bands and veils”'
+    claim: 'The Church edition’s footnote calls them trappings for magical arts'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/13?lang=eng'
+    quote: 'HEB bands or coverings to all elbows (trappings for magical arts).'
+  - where: 'note 13:18 “Bands and veils”'
+    claim: 'The Hebrew has “my hands” (first-person suffix)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'יָדַ֗/י'
+  - where: 'note 13:18 “Bands and veils”'
+    claim: 'The verse has been read as a figure, coverings over the joints of God’s hand (an explanation Keil quotes from Kliefoth and adopts)'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/13.htm'
+    quote: 'they sew coverings together to wrap round all the joints of the hand of God, so that He cannot touch them; i.e., they cover up and conceal the word of God by their prophesying'
+  - where: 'note 13:18 “Bands and veils”'
+    claim: 'And coverings fitted to each hearer’s head'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/13.htm'
+    quote: 'so that the men neither hear nor see'
+  - where: 'note 13:19 “The fee, and what was done for it”'
+    claim: 'Micah on prophets who cry Peace when fed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/micah/3?lang=eng'
+    quote: 'that bite with their teeth, and cry, Peace; and he that putteth not into their mouths, they even prepare war against him'
+  - where: 'note 13:19 “The fee, and what was done for it”'
+    claim: 'The Church edition’s footnote at “pieces” points to Proverbs 28:21'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/13?lang=eng'
+    quote: 'Prov. 28:21.'
+  - where: 'note 13:19 “The fee, and what was done for it”'
+    claim: 'The proverb'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/prov/28?lang=eng'
+    quote: 'for for a piece of bread that man will transgress'
+  - where: 'explore'
+    claim: 'Nephi defines priestcraft'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/26?lang=eng'
+    quote: 'priestcrafts are that men preach and set themselves up for a light unto the world, that they may get gain and praise of the world; but they seek not the welfare of Zion'
+  - where: 'explore'
+    claim: 'Ezekiel 13:1–7 is set beside 2 Nephi 26:29–31'
+    key: sc-knowhy-719
+    url: 'https://scripturecentral.org/knowhy/how-did-jacobs-and-ezekiels-peoples-each-respond-to-exile'
+    quote: 'Ezekiel 13:1–7 and 34:1–6 to 2 Nephi 26:29–31'
+  - where: 'note 13:19 “The fee, and what was done for it”'
+    claim: 'NRSVUE renders “souls” as lives in verse 18'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=NRSVUE'
+    quote: 'in the hunt for lives'
+  - where: 'note 13:19 “The fee, and what was done for it”'
+    claim: 'NRSVUE rendering of verse 19'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=NRSVUE'
+    quote: 'putting to death those who should not die and keeping alive those who should not live'
+  - where: 'note 13:19 “The fee, and what was done for it”'
+    claim: 'The life and death read as spiritual'
+    key: ot-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-26?lang=eng'
+    quote: 'They brought destruction upon those who might otherwise live (spiritually) and held up and sustained those who ought to have been condemned (see vv. 19, 22).'
+  - where: 'note 13:19 “The fee, and what was done for it”'
+    claim: 'ESV: the people listen to lies'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=ESV'
+    quote: 'by your lying to my people, who listen to lies'
+
+  # ---------- note 13:20 ----------
+  - where: 'note 13:20 “Souls caught like birds”'
+    claim: 'The word is a feminine plural participle of parach (H6524)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'לְ/פֹ֣רְח֔וֹת'
+  - where: 'note 13:20 “Souls caught like birds”'
+    claim: 'The lexicon renders it as flying things, birds, and notes that the Greek and Syriac lack it in the first half and that some strike it out'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6524.htm'
+    quote: 'for (like ?) flying things, i. e. birds, but strike out ᵐ5 ᵑ6 Hi Siegf in va'
+  - where: 'note 13:20 “Souls caught like birds”'
+    claim: 'ESV rendering'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=ESV'
+    quote: 'your magic bands with which you hunt the souls like birds'
+  - where: 'note 13:20 “Souls caught like birds”'
+    claim: 'NRSVUE has no birds in the first half of the verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=NRSVUE'
+    quote: 'I am against your bands with which you hunt lives; I will tear them from your arms and let the lives go free, the lives that you hunt down like birds.'
+  - where: 'note 13:20 “Souls caught like birds”'
+    claim: 'NRSVUE follows the Greek and Syriac and notes the Hebrew'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=NRSVUE'
+    quote: '13.20 Gk Syr: Heb lives for birds'
+  - where: 'note 13:20 “Souls caught like birds”'
+    claim: 'The Church edition’s footnote on “fly” gives “free”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/13?lang=eng'
+    quote: 'HEB free.'
+  - where: 'note 13:20 “Souls caught like birds”'
+    claim: 'The intensive form of “hunt” is listed only at 13:18 and 13:20, with “souls” as object, of magic arts'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6679.htm'
+    quote: 'Participle feminine plural מְצֹדְדוֺת Ezekiel 13:20; Ezekiel 13:20, all with accusative נְפָשׁוֺת (of magic arts, necromancy, etc.)'
+  - where: 'note 13:20 “Souls caught like birds”'
+    claim: '“To be hunted” in verse 21 is a noun (H4686)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'לִ/מְצוּדָ֑ה'
+  - where: 'note 13:20 “Souls caught like birds”'
+    claim: 'ESV renders it “as prey”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=ESV'
+    quote: 'they shall be no more in your hand as prey'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'A modern translation’s cross-reference joins 13:21 to 34:10'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=ESV'
+    quote: 'Ezekiel 13:21 : [ch. 34:10]'
+  - where: 'christ'
+    claim: 'The Lord will deliver His flock from the shepherds'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/34?lang=eng'
+    quote: 'for I will deliver my flock from their mouth, that they may not be meat for them'
+  - where: 'christ'
+    claim: 'Chapter 34 goes on to promise one shepherd'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/34?lang=eng'
+    quote: 'And I will set up one shepherd over them, and he shall feed them, even my servant David'
+  - where: 'christ'
+    claim: 'The plastering is explained as covering inward corruption with outward appearance, as in Matthew 23:27'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/13.htm'
+    quote: 'the covering up of inward corruption by means of outward appearance (as in Matthew 23:27 and Acts 23:3)'
+  - where: 'christ'
+    claim: 'The Savior’s whited sepulchres'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/23?lang=eng'
+    quote: 'for ye are like unto whited sepulchres, which indeed appear beautiful outward'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: 'Ezekiel 22 has the prophets, the mortar and the gap again'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/22?lang=eng'
+    quote: 'There is a conspiracy of her prophets in the midst thereof, like a roaring lion ravening the prey; they have devoured souls'
+  - where: 'explore'
+    claim: 'Samuel the Lamanite’s foolish and blind guides (the Church edition’s footnote at verse 3 points here)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/13?lang=eng'
+    quote: 'how long will ye suffer yourselves to be led by foolish and blind guides'
+  - where: 'explore'
+    claim: 'In chapter 14 elders come and sit before Ezekiel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/14?lang=eng'
+    quote: 'Then came certain of the elders of Israel unto me, and sat before me.'
+  - where: 'explore'
+    claim: 'Chapter 14 is about whom the Lord will not answer'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/14?lang=eng'
+    quote: 'The Lord will not answer those who worship false gods'
+  - where: 'setting'
+    claim: 'Chapter 12 has the second saying, that the vision is for days far off'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/12?lang=eng'
+    quote: 'The vision that he seeth is for many days to come'
+  - where: 'note 13:2 “Who these prophets were”'
+    claim: 'False prophecy had its stronghold in Jerusalem and had reached the exiles at the Chebar'
+    key: jfb-ezekiel
+    url: 'https://biblehub.com/commentaries/jfb/ezekiel/13.htm'
+    quote: 'the bane of false prophecy, which had its stronghold in Jerusalem, having in some degree extended to the Chebar'
+  - where: 'note 13:2 “Who these prophets were”'
+    claim: 'Ahab, Zedekiah, Shemaiah and Hananiah are named as examples at this chapter'
+    key: jfb-ezekiel
+    url: 'https://biblehub.com/commentaries/jfb/ezekiel/13.htm'
+    quote: 'for example, Ahab, Zedekiah, and Shemaiah. Hananiah must have believed his own lie'
+  - where: 'note 13:19 “The fee, and what was done for it”'
+    claim: 'A modern translation’s cross-reference at verse 19 joins Micah 3:5 to it'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=ESV'
+    quote: 'Ezekiel 13:19 : [Mic. 3:5]'
+  - where: 'note 13:5 “What a prophet does at a broken wall”'
+    claim: 'A modern translation’s cross-references at verse 5 join Ezekiel 22:30 and Psalm 106:23 to it'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2013&version=ESV'
+    quote: 'Ezekiel 13:5 : ch. 22:30; Ps. 106:23'
