@@ -152,3 +152,85 @@ Expected before writing (coordinator, 2026-10-07; to be confirmed or dropped by 
 - (24) Judged 'according to thy ways' (7:3-9; 18:30; 24:14; 33:20; 36:19).
 - (24) The sanctuary profaned (7:20-22; 24:21).
 - (24) 'Ye shall know that I am the LORD' (24:24, 27).
+
+## Reported by chapters 25–36 (not yet sorted)
+
+- (25) "Aha" over Israel's fall: 25:3; 26:2; 36:2 (the word's only three places in the book).
+- (25) "Ye shall know that I am the LORD" spoken to foreign nations: 25:5, 7, 11, 17 and through 26-32; Edom's variant at 25:14.
+- (25) Edom and Mount Seir: 25:8, 12-14; 35; 36:5 (with Idumea, D&C 1:36).
+- (25) The Lord's vengeance answering a nation's vengeance: 25:12-17; 24:8.
+- (25) "The old hatred" / "perpetual hatred": 25:15; 35:5.
+- (26) Tyre across the book: 26; 27; 28:1-19; 29:17-20 (the siege unpaid).
+- (26) The lament (qinah) form: 19; 26:17-18; 27; 28:12; 32.
+- (26) The pit and the land of the living: 26:20; 31:14-18; 32:17-32.
+- (26) 'Aha' over Jerusalem's fall as the charge against the nations: 25:3; 26:2; 36:2.
+- (26) 'They shall know that I am the LORD' said of a foreign nation: 26:6 (with 25:5, 7, 11, 17).
+- (27) The laments (qinah): 19:1, 14; 26:17; 27:2, 32; 28:12; 32:2, 16.
+- (27) 'Perfect beauty', Jerusalem's and Tyre's: 16:14; 27:3, 4, 11; 28:12, 17 (with Lam. 2:15).
+- (27) The east wind: 17:10; 19:12; 27:26.
+- (27) 'A terror, and never shalt be any more': 26:21; 27:36; 28:19.
+- (27) Ezekiel in Revelation: 27:13, 27-36 beside Rev. 18:11-19.
+- (27) The nations of Genesis 10 (Javan, Tubal, Meshech, Togarmah, Tarshish): 27:12-14 and 38:2-6.
+- (28) Laments: 28:12 (with 19, 26:17, 27, 32).
+- (28) Cherubim and the temple: 28:14, 16.
+- (28) Eden used of the nations: 28:13; 31:8-9, 16, 18; 36:35.
+- (28) 'Sanctified in them in the sight of the heathen': 28:22, 25; 20:41; 36:23; 38:16; 39:27.
+- (28) The heart lifted up, of rulers: 28:2, 5, 17; 31:10.
+- (28) 'Dwell safely': 28:26; 34:25-28; 38:8, 11, 14; 39:26.
+- (28) 'They shall know that I am the LORD': 28:22, 23, 24, 26.
+- (29) Trust in Egypt, the reed that breaks: 29:6-7, 16; 17:15-17 (with Isa. 30-31, 36:6 and Jer. 37 on the site).
+- (29) A nation sentenced in the words used of Judah, with a limited return: 29:11-14; 4:6; 11:17; 22:15; 39:25; 16:53.
+- (29) Pride that claims a god's place: 28:2; 29:3, 9; 31:10.
+- (29) The dragon in the waters: 29:3-5; 32:2-3; Isa. 51:9 (2 Ne. 8:9).
+- (29) Nebuchadnezzar as the Lord's hired servant: 29:18-20; 26:7; 30:10, 24-25; Jer. 25:9; 27:6; 43:10.
+- (29) 'They shall know that I am the LORD' (already a candidate): 29:6, 9, 16, 21.
+- (29) The prophet's mouth shut and opened: 3:26-27; 24:27; 29:21; 33:22.
+- (30) The day of the LORD (30:2-3, 18; with 7:7-19; 13:5).
+- (30) 'They shall know that I am the LORD' (30:8, 19, 25, 26).
+- (30) The Lord's sword in Babylon's hand (30:4, 11, 24-25; with chapter 21; 29:8; 32:10-11).
+- (30) Egypt as the help that fails (30:6, 8, 21-22; with 17:15-17; 29:6-7).
+- (30) Scattering, of Egypt as of Israel (30:23, 26; 29:12-14).
+- (30) The cloudy and dark day (30:3, 18; 34:12; D&C 109:61).
+- (31) Trees and vines for kings and kingdoms: 15; 17; 19:10-14; 31:3-18 (with Dan. 4).
+- (31) The high brought low: 17:24; 21:26; 28:2-8, 17; 31:10-14.
+- (31) Sheol, the pit, and 'the uncircumcised': 26:20; 28:8-10; 31:14-18; 32:17-32.
+- (31) Eden and the garden of God: 28:13-16; 31:8-9, 16, 18; 36:35.
+- (31) Pharaoh's 'multitude' (hamon): 29:19; 30:4, 10, 15; 31:2, 18; 32:12-32.
+- (31) 'The terrible of the nations': 28:7; 30:11; 31:12; 32:12.
+- (31) Egypt as the help that fails: 17:15-17; 29-32.
+- (32) The lament (qinah) over a ruler or city not yet fallen: 19:1, 14; 26:17; 27:2, 32; 28:12; 32:2, 16.
+- (32) Going down to the pit, Sheol, 'the nether parts of the earth': 26:20; 28:8; 31:14-18; 32:18-32 (and graves opened, 37:12-14).
+- (32) 'The land of the living' and the terror caused there: 26:17, 20; 32:23-27, 32.
+- (32) 'The uncircumcised' as a word for the slain: 28:10; 31:18; 32:19-32 (against 44:7, 9).
+- (32) The Lord's net: 12:13; 17:20; 19:8; 32:3.
+- (32) The day of the LORD in the words against the nations: 30:3; 32:7-8.
+- (32) The king of Babylon's sword as the Lord's: chapter 21; 29:19-20; 30:24-25; 32:11.
+- (32) 'Ye shall know that I am the LORD': 32:15.
+- (33) The watchman: 3:16-21; 33:1-9 (with Jer. 6:17 on the site).
+- (33) Each answers for his own turning: chapter 18; 33:10-20; 3:18-21; 14:12-20.
+- (33) The prophet's silence and its end: 3:26-27; 24:25-27; 33:21-22.
+- (33) 'They shall know that a prophet hath been among them': 2:5; 33:33 (beside 'know that I am the LORD', 33:29).
+- (33) 'Pine away in their iniquity' and the covenant warnings of Leviticus 26: 4:17; 24:23; 33:10 (with the sword, beasts and pestilence of 5:17; 14:21; 33:27).
+- (33) Who owns the land: 11:15; 33:24; 36:2-5.
+- (33) 'As I live', the Lord's oath: 33:11, 27 and elsewhere in the book.
+- (33) Hearers who sit before the prophet and do not do: 8:1; 14:1; 20:1; 33:30-32.
+- (34) The shepherds and the one shepherd (34; 37:22-25), with Jer. 23:1-6 and John 10.
+- (34) 'My servant David' as prince and king (34:23-24; 37:24-25; the prince of chapters 44-46).
+- (34) The covenant of peace (34:25; 37:26) and the words of Leviticus 26, first as warning and then as blessing (4:16; 5:17; 34:25-28; 36:8-11).
+- (34) 'Ye shall know that I am the LORD' after deliverance (34:27, 30) as well as after judgment (6:7 onward).
+- (34) Requiring at the hand: the watchman and the shepherds (3:18; 33:6; 34:10).
+- (34) Scattered and gathered to 'their own land' (11:17; 20:34; 34:13; 36:24; 37:21).
+- (35) 'Ye shall know that I am the LORD' (35:4, 9, 12, 15; 'I will make myself known among them', 35:11).
+- (35) The mountains of Israel judged, then restored, with mount Seir as their counterpart (6:2-3; 35; 36:1-15).
+- (35) The punishment as the offense turned back (35:6, 11, 14-15; 25:12-14; Obad. 1:15).
+- (35) 'The LORD was there' and 'The LORD is there', with the glory leaving and returning (11:23; 35:10; 43:1-5; 48:35).
+- (35) Edom or Idumea as the world (25:12-14; 35; 36:5; Isa. 34; 63; D&C 1:36).
+- (35) 'The time that their iniquity had an end' (21:25, 29; 35:5).
+- (36) For the sake of the name: profaned and sanctified before the nations (20:9, 14, 22, 39-44; 28:22-25; 36:20-23; 38:16, 23; 39:7, 25-27).
+- (36) The new heart and spirit: promised, commanded, given (11:19-20; 18:31; 36:26-27; 37:14; 39:29).
+- (36) Clean and unclean, a priest's vocabulary (4:13-14; 7:19-20; 22:26; 36:17, 25, 29, 33; 37:23; 44:23).
+- (36) The mountains of Israel judged and restored (6:2-3; 35:12; 36:1-15).
+- (36) Remembering and loathing after mercy (6:9; 16:61-63; 20:43; 36:31).
+- (36) The Lord inquired of: refused, then allowed (14:3; 20:3, 31; 36:37).
+- (36) 'Know that I am the LORD', said of the nations as well as Israel (36:11, 23, 36, 38).
+- (36) Israel as the Lord's flock (34; 36:37-38).
