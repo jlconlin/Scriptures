@@ -87,16 +87,6 @@ claims:
     quote: 'To the question, Where is or remains the God of judgment? the Lord Himself replies that He will suddenly come to His temple'
 
   # ---- sections ----
-  - where: 'section 1 plain'
-    claim: 'The verb the KJV renders “corrupt” in verse 3 means “rebuke”'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/1605.htm'
-    quote: 'גָּעַר verb rebuke'
-  - where: 'section 5 plain'
-    claim: 'Verse 15 is obscure in the Hebrew'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/7605.htm'
-    quote: 'Malachi 2:15 is obscure'
 
   # ---- note 2:2 ----
   - where: 'note 2:2 “The blessings that are cursed”'
@@ -514,11 +504,6 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-34?lang=eng'
     quote: '“The master and the scholar” (v. 12) is he who teaches such doctrine (profaning the Lord by marrying women who worship idols) and he who follows it.'
   - where: 'note 2:12 “The master and the scholar”'
-    claim: 'The Hebrew is ‘er we-‘oneh (verse 12 shown)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
-    quote: 'עֵ֣ר וְ/עֹנֶ֔ה מֵ/אָהֳלֵ֖י יַֽעֲקֹ֑ב'
-  - where: 'note 2:12 “The master and the scholar”'
     claim: 'The ESV’s note on verse 12 gives the Hebrew as “any who wakes and answers”'
     key: esv
     url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=ESV'
@@ -583,11 +568,6 @@ claims:
     url: 'https://biblehub.com/hebrew/1285.htm'
     quote: '5 alliance of marriage Proverbs 2:17; Malachi 2:14.'
   - where: 'note 2:14 “The wife of thy covenant”'
-    claim: 'chabereth (“companion”) is glossed “consort, i.e. wife”'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/2278.htm'
-    quote: 'consort, i.e. wife וְהִיא חֲבֶרְתְּךָ Malachi 2:14'
-  - where: 'note 2:14 “The wife of thy covenant”'
     claim: 'When men and women marry, they make solemn covenants with each other and with God'
     key: topics-divorce
     url: 'https://www.churchofjesuschrist.org/study/manual/gospel-topics/divorce?lang=eng'
@@ -614,11 +594,6 @@ claims:
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Malachi+2%3A10-17&version=NRSVUE'
     quote: '2.15 Meaning of Heb uncertain'
-  - where: 'note 2:15 “Verse 15 is uncertain in the Hebrew”'
-    claim: 'The lexicon calls the phrase behind “residue of the spirit” obscure'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/7605.htm'
-    quote: 'Malachi 2:15 is obscure'
   - where: 'note 2:15 “Verse 15 is uncertain in the Hebrew”'
     claim: 'NRSVUE text of verse 15; “godly offspring”'
     key: nrsvue
@@ -746,7 +721,7 @@ claims:
     url: 'https://biblehub.com/commentaries/kad/malachi/3.htm'
     quote: 'To the question, Where is or remains the God of judgment? the Lord Himself replies that He will suddenly come to His temple'
   - where: 'christ'
-    claim: '“Messenger of the covenant” is a title of Jesus Christ; His role of delivering the Father’s covenant'
+    claim: '“Messenger of the covenant” is a title of Jesus Christ'
     key: scripture-helps-mal
     url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
     quote: '“Messenger of the covenant” is a title of Jesus Christ. It can refer to His role of delivering the Father’s covenant to the people of the earth and making salvation possible through His gospel and Atonement.'
