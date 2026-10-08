@@ -10,14 +10,14 @@ heroQuote:
   text: '“Great are the words of Isaiah.”'
   cite: 'Jesus Christ, [[3 Ne. 23:1]]'
 description: A phrase-by-phrase companion to the book of Isaiah, grounded in the restored gospel of Jesus Christ.
-divisionsBlurb: Isaiah falls into a handful of large movements. Knowing which one you’re in is half the battle.
+divisionsBlurb: Isaiah falls into a handful of large movements. It helps to know which one a chapter belongs to.
 home:
   blurb: The prophet the Savior told us to search diligently, one phrase at a time.
 
 intro: |
   Isaiah is the most quoted prophet in the Book of Mormon, the New Testament, and the Doctrine and Covenants. The Savior Himself told us to search his words diligently. Isaiah is also famously hard to read. His poetry is dense, his world is 2,700 years away, and he moves between his own day, the Savior’s mortal ministry, and the last days, sometimes within a single verse.
 
-  This companion goes through all sixty-six chapters and tries to anticipate the questions a careful reader asks: *Who is he talking to? What does that image mean? Why does this matter to me? Where is Christ in this?*
+  This companion goes through all sixty-six chapters and tries to anticipate the questions a careful reader asks: *Who is he talking to? What does that image mean? Where is Christ in this?*
 
 # The large movements of the book. `key` sets the color used throughout the site.
 divisions:
@@ -28,11 +28,11 @@ divisions:
   - key: nations
     range: [13, 23]
     name: Burdens upon the Nations
-    blurb: Oracles against Babylon, Assyria, Philistia, Moab, Damascus, Egypt, Edom, Tyre, and even Jerusalem. The lesson is that every empire answers to Israel’s God. Babylon in particular becomes a type of the proud world in every age.
+    blurb: Oracles against Babylon, Assyria, Philistia, Moab, Damascus, Egypt, Edom, Tyre, and even Jerusalem. The lesson is that every empire answers to Israel’s God. Babylon in particular becomes a figure of the proud world in every age.
   - key: apocalypse
     range: [24, 27]
     name: The Earth Made New
-    blurb: Isaiah’s “little apocalypse.” The earth is shaken for broken covenants, then comes a feast for all peoples on the Lord’s mountain, death is swallowed up, and the dead arise.
+    blurb: The earth is shaken for broken covenants, then comes a feast for all peoples on the Lord’s mountain, death is swallowed up, and the dead arise.
   - key: woes
     range: [28, 35]
     name: Woe and Wonder
@@ -48,7 +48,7 @@ divisions:
   - key: servant
     range: [49, 55]
     name: The Servant Who Redeems
-    blurb: The Servant Songs reach their height in Isaiah 53, the clearest Old Testament prophecy of the Atonement. Zion awakes, puts on her beautiful garments, and enlarges her tent. Everyone who thirsts is invited to come.
+    blurb: The Servant Songs reach their height in Isaiah 53, a clear Old Testament prophecy of the Atonement. Zion awakes, puts on her beautiful garments, and enlarges her tent. Everyone who thirsts is invited to come.
   - key: zion
     range: [56, 66]
     name: Zion, Arise and Shine
@@ -64,22 +64,22 @@ rangeSources:
   - { range: [55, 66], sources: [ot-manual-18] }
 
 beloved:
-  - { chapter: 1, verse: 18, text: 'Though your sins be as scarlet, they shall be as white as snow' }
+  - { chapter: 1, verse: 18, text: 'though your sins be as scarlet, they shall be as white as snow' }
   - { chapter: 2, verse: 3, text: 'Come ye, and let us go up to the mountain of the LORD' }
   - { chapter: 6, verse: 8, text: 'Here am I; send me' }
   - { chapter: 9, verse: 6, text: 'For unto us a child is born, unto us a son is given' }
   - { chapter: 11, verse: 6, text: 'The wolf also shall dwell with the lamb' }
-  - { chapter: 29, verse: 14, text: 'A marvellous work and a wonder' }
-  - { chapter: 35, verse: 1, text: 'The desert shall rejoice, and blossom as the rose' }
-  - { chapter: 40, verse: 31, text: 'They shall mount up with wings as eagles' }
+  - { chapter: 29, verse: 14, text: 'a marvellous work and a wonder' }
+  - { chapter: 35, verse: 1, text: 'the desert shall rejoice, and blossom as the rose' }
+  - { chapter: 40, verse: 31, text: 'they shall mount up with wings as eagles' }
   - { chapter: 41, verse: 10, text: 'Fear thou not; for I am with thee' }
   - { chapter: 43, verse: 2, text: 'When thou passest through the waters, I will be with thee' }
   - { chapter: 49, verse: 16, text: 'I have graven thee upon the palms of my hands' }
   - { chapter: 52, verse: 7, text: 'How beautiful upon the mountains are the feet of him that bringeth good tidings' }
-  - { chapter: 53, verse: 5, text: 'With his stripes we are healed' }
-  - { chapter: 54, verse: 10, text: 'My kindness shall not depart from thee' }
-  - { chapter: 55, verse: 8, text: 'My thoughts are not your thoughts' }
-  - { chapter: 61, verse: 3, text: 'To give unto them beauty for ashes' }
+  - { chapter: 53, verse: 5, text: 'with his stripes we are healed' }
+  - { chapter: 54, verse: 10, text: 'my kindness shall not depart from thee' }
+  - { chapter: 55, verse: 8, text: 'my thoughts are not your thoughts' }
+  - { chapter: 61, verse: 3, text: 'to give unto them beauty for ashes' }
 
 coreSources:
   - mcconkie-keys
