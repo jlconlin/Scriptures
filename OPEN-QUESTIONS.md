@@ -35,6 +35,15 @@ Everything that waits for the author, for every book and for the site, in this o
 - **E3. “Leave but the sixth part of thee” (39:2).** The note explains from the Hebrew, the Septuagint and two modern translations that the verb means to lead or drive on, not to leave a sixth. The Student Manual's Enrichment I (by the writer's report; the passage was not reopened in review) builds a detail of the battle on the King James wording, that one-sixth of Gog's army survives. The note says nothing about the manual, and the plain-words section keeps the King James sense. Leave it silent, mention the manual's reading, or cut the note back so it does not run against the manual?
 
 
+- **E6. Ezekiel's six theme pages** (written 2026-10-08; you have not read them). Every reviewer judged that its page holds. What they left for you:
+  - **A Little Sanctuary** has the same title as chapter 11. Keep both, or rename one?
+  - **One Shepherd:** its own connection sets “whose right it is” (21:27) beside “feed them with judgment” (34:16), the same Hebrew word, which is one of Ezekiel's commonest (43 times; the page says so). Keep the paragraph or drop it? Chapter 17's tender twig was left out of the arc on purpose (E1).
+  - **A New Heart and a New Spirit:** the page keeps “a new spirit” and “my spirit” apart, as the note on 36:27 does, without saying outright that they differ. Its own connection (the people told to “make,” the Lord saying He will “cause,” one verb) rests on the ordinary Hebrew word for do or make, and says so. Enough, or cut?
+  - **A Man to Stand in the Gap:** the step from “I sought for a man” (22:30) to “I will seek that which was lost” (34:16) is one shared verb with different objects, marked as the page's comparison. Keep it, or end the page on Isaiah 59:16? This is the page your test was written for; the reviewer calls the arc thin but real.
+  - **The Stranger's Inheritance:** no Church source ties 47:22–23 to Christ. The page rests on two older commentaries that read it beside Eph. 3:6 and on its own comparison with Eph. 2:12–19, which you asked for. The reviewer says it holds “only just.” Keep the page?
+  - **Waters out of the Sanctuary:** the last step, “The LORD is there” (48:35), is one sentence with no tie to the section on Christ, because the link to Rev. 21:3 was given to A Little Sanctuary. Leave it, or add a pointer?
+  - No chapter of Ezekiel links to these pages yet; the links go in once you approve the pages.
+
 ## Isaiah
 
 - **I1. Deepen the rest of chapters 1–37?** Done on 2026-10-06 under the add-only rules in `content/isaiah/BRIEF.md`: 6, 7, 9, 11, 14, 24, 26, 29 (25 and 27 were tried and nothing was worth adding). Not started: 2–5, 8, 10, 12, 13, 15–23, 28, 30–37. Chapter 1 has no evidence ledger and would need an audit first. A chapter cost 40–290k tokens and gained one to three notes. Recommend: read the eight first, then decide.
