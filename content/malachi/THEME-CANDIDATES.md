@@ -2,7 +2,7 @@
 
 ## Author's selection (2026-10-07)
 
-The author selected **1 and 2** below. The author found **3 good but weaker** and chose to keep it as a research lead, **not a third page assignment**. Do not write pages yet; the author will give a separate instruction to develop the selected themes. Numbering here follows the selection conversation, not the unsorted reports below.
+The author selected **1 and 2** below. The author found **3 good but weaker** and chose to keep it as a research lead, **not a third page assignment**. The author gave that instruction on 2026-10-08, and pages 1 and 2 are written (`content/malachi/themes/purified-offering.md`, `god-of-judgment.md`). Numbering here follows the selection conversation, not the unsorted reports below.
 
 1. **From polluted offerings to a purified offering — selected.** The priests dishonor the altar and fail as teachers (1:6–14; 2:4–8); the coming messenger of the covenant refines the sons of Levi so that the offering can again be made in righteousness (3:1–4). The Christ connection runs through the messenger of the covenant; 3 Ne. 9:19–20 may provide a later comparison, clearly distinguished from Malachi's own words. Keep verse-level details in the chapters.
 2. **“Where is the God of judgment?” — selected.** The question in 2:17 is answered by the Lord's coming and judgment (3:1–5). The complaint returns in 3:13–15; the Lord distinguishes those who fear Him (3:16–18), and the day brings fire and healing (4:1–2). Read the “Sun”/“Son” difference in 3 Ne. 25:2 as the chapter notes do. This page follows the complaint and answer, rather than repeating page 1's account of failed and renewed offerings.
