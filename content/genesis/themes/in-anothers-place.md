@@ -5,7 +5,7 @@ icon: christ
 sources: [lds-scriptures, oshb-wlc, sc-knowhy-841, olson-matriarchs, spackman-judah-tamar, scripture-helps-gen-42-50, scripture-helps-gen-18-23, bdb, bd-shiloh]
 ---
 
-This page sets a ram offered “in the stead of his son” ([[Gen. 22:13]]) beside a brother who offers to stay “instead of the lad” ([[Gen. 44:33]]). In the first a substitute is provided; in the second a man offers to become one. Between the two stands the change in Judah, who once proposed selling a brother, and the Church’s study helps liken his offer to the Savior, who was his descendant.[@scripture-helps-gen-42-50]
+This page sets a ram offered “in the stead of his son” ([[Gen. 22:13]]) beside a brother who offers to stay “instead of the lad” ([[Gen. 44:33]]). In the first a substitute is provided; in the second a man offers to become one. Between the two stands the change in Judah, who once proposed selling a brother. His offer is likened to the Savior, who was his descendant.[@scripture-helps-gen-42-50]
 
 | Step | Passage | The words |
 |---|---|---|
@@ -18,7 +18,7 @@ This page sets a ram offered “in the stead of his son” ([[Gen. 22:13]]) besi
 
 ## “In the stead of his son”
 
-Isaac asks where the lamb is, and Abraham answers, “God will provide himself a lamb for a burnt offering” ([[Gen. 22:8]]). Then “behold behind him a ram caught in a thicket by his horns: and Abraham went and took the ram, and offered him up for a burnt offering in the stead of his son” ([[Gen. 22:13]]). The promised lamb is one of the likenesses to the Savior in the Church’s study helps;[@scripture-helps-gen-18-23] the note on [[Gen. 22:8]] gives the source’s words. Jacob calls Abraham’s offering of Isaac “a similitude of God and his Only Begotten Son” ([[Jacob 4:5]]).[@lds-scriptures] See [Genesis 22](/genesis/22/).
+Isaac asks where the lamb is, and Abraham answers, “God will provide himself a lamb for a burnt offering” ([[Gen. 22:8]]). Then “behold behind him a ram caught in a thicket by his horns: and Abraham went and took the ram, and offered him up for a burnt offering in the stead of his son” ([[Gen. 22:13]]). The promised lamb is likened to the Savior;[@scripture-helps-gen-18-23] see the note on [[Gen. 22:8]]. Jacob calls Abraham’s offering of Isaac “a similitude of God and his Only Begotten Son” ([[Jacob 4:5]]).[@lds-scriptures] See [Genesis 22](/genesis/22/).
 
 ## “Let us sell him”
 
@@ -32,15 +32,15 @@ Why Judah changed is not stated. The Tamar story is “the only story included i
 
 ## “I will be surety for him”
 
-Jacob will not send Benjamin to Egypt. Judah says, “I will be surety for him; of my hand shalt thou require him” ([[Gen. 43:9]]). The verb for “be surety” (*arav*) means to “take on pledge, give in pledge”;[@bdb] the “pledge” of chapter 38 is *eravon*. In Genesis the verb occurs only at 43:9 and 44:32, the noun only at 38:17, 18 and 20.[@oshb-wlc] One reading: the man who left tokens of himself as a pledge now offers himself as the pledge.[@spackman-judah-tamar] The psalmist asks the same of God with this verb: “Be surety for thy servant for good” ([[Ps. 119:122]]).[@bdb]
+Jacob will not send Benjamin to Egypt. Judah says, “I will be surety for him; of my hand shalt thou require him” ([[Gen. 43:9]]). The verb for “be surety” (*arav*) means to “take on pledge, give in pledge”;[@bdb] the “pledge” of chapter 38 is *eravon*. Genesis has *arav* only at 43:9 and 44:32, and *eravon* only at 38:17, 18 and 20.[@oshb-wlc] One reading: the man who left tokens of himself as a pledge now offers himself as the pledge.[@spackman-judah-tamar] The psalmist asks the same of God with this verb: “Be surety for thy servant for good” ([[Ps. 119:122]]).[@bdb]
 
 ## “Instead of the lad”
 
 Benjamin is found with Joseph’s cup. Judah pleads: “let thy servant abide instead of the lad a bondman to my lord; and let the lad go up with his brethren. For how shall I go up to my father, and the lad be not with me?” ([[Gen. 44:33–34]]).
 
-Judah would take Benjamin’s punishment so that Benjamin could return to his father. That offer can remind a reader of Jesus Christ, who took our sins upon Himself so that we can return to our Father;[@scripture-helps-gen-42-50] the passage cited with it is [[Mosiah 15:9]], where the Son is “standing betwixt them and justice… taken upon himself their iniquity and their transgressions.”[@lds-scriptures] The note on [[Gen. 44:33]] gives the source’s words.
+Judah would take Benjamin’s punishment so that Benjamin could return to his father. That offer can remind a reader of Jesus Christ, who took our sins upon Himself so that we can return to our Father;[@scripture-helps-gen-42-50] the passage cited with it is [[Mosiah 15:9]], where the Son is “standing betwixt them and justice… taken upon himself their iniquity and their transgressions.”[@lds-scriptures] See the note on [[Gen. 44:33]].
 
-Setting this offer beside the ram of chapter 22 is the page’s own comparison; no source cited here draws it. “Instead of” is the ordinary Hebrew word for “under” and “in place of” (*tachat*, 31 times in Genesis),[@bdb] so the word alone proves little. It is the word at [[Gen. 22:13]] and here.[@oshb-wlc] They differ in the text. The ram is provided by God ([[Gen. 22:8]], [[Gen. 22:14]]) and dies; Judah offers himself and is not taken, for Joseph “made himself known unto his brethren” ([[Gen. 45:1]]).
+Setting this offer beside the ram of chapter 22 is the page’s own comparison; no source cited here draws it. “Instead of” is the ordinary Hebrew word for “under” and “in place of” (*tachat*, 31 times in Genesis),[@bdb] so the word alone proves little. It is the word at [[Gen. 22:13]] and here.[@oshb-wlc] The two scenes differ. The ram is provided by God ([[Gen. 22:8]], [[Gen. 22:14]]) and dies; Judah offers himself and is not taken, for Joseph “made himself known unto his brethren” ([[Gen. 45:1]]).
 
 ## “Until Shiloh come”
 

@@ -5,7 +5,7 @@ icon: christ
 sources: [lds-scriptures, oshb-wlc, scripture-helps-gen-6-11, donaldson-babel-1994, keil-genesis]
 ---
 
-Genesis 10 lists the families of the earth as they divide. At Babel the people build to make themselves a name and to avoid being scattered, and they are scattered. The Lord’s next act in the record is to call one man out of one of those families and promise to make his name great and to bless “all families of the earth.” Paul calls that promise the gospel preached beforehand. This page follows the scattering of the nations and the promise that comes after it; the covenant’s renewals are in [The Covenant with Abraham](/genesis/themes/covenant-with-abraham/).
+At Babel the people build to make themselves a name and to avoid being scattered, and they are scattered. The Lord’s next act in the record is to call one man, from one of the families Genesis 10 lists, and promise to make his name great and to bless “all families of the earth.” Paul calls that promise the gospel preached beforehand. This page follows the scattering of the nations and the promise that comes after it; the covenant’s renewals are in [The Covenant with Abraham](/genesis/themes/covenant-with-abraham/).
 
 | Step | Passage | The words |
 |---|---|---|
@@ -17,7 +17,7 @@ Genesis 10 lists the families of the earth as they divide. At Babel the people b
 
 ## The families divided
 
-Japheth’s sons are “divided in their lands; every one after his tongue, after their families, in their nations” ([[Gen. 10:5]]), and the chapter ends: “by these were the nations divided in the earth after the flood” ([[Gen. 10:32]]). “Families” is *mishpachah*, which occurs in twelve verses of Genesis: five in this chapter ([[Gen. 10:5]], [[Gen. 10:18]], [[Gen. 10:20]], [[Gen. 10:31]], [[Gen. 10:32]]), two in the promise ([[Gen. 12:3]]; [[Gen. 28:14]]), and five that are ordinary uses (the animals’ “kinds,” [[Gen. 8:19]]; Abraham’s “kindred,” [[Gen. 24:38–41]]; Esau’s chiefs, [[Gen. 36:40]]).[@oshb-wlc] See [Genesis 10](/genesis/10/).
+Japheth’s sons are “divided in their lands; every one after his tongue, after their families, in their nations” ([[Gen. 10:5]]), and the chapter ends: “by these were the nations divided in the earth after the flood” ([[Gen. 10:32]]). “Families” is *mishpachah*. Genesis has the word in twelve verses. Five are in this chapter ([[Gen. 10:5]], [[Gen. 10:18]], [[Gen. 10:20]], [[Gen. 10:31]], [[Gen. 10:32]]) and two in the promise ([[Gen. 12:3]]; [[Gen. 28:14]]); the other five are ordinary uses (the animals’ “kinds,” [[Gen. 8:19]]; Abraham’s “kindred,” [[Gen. 24:38–41]]; Esau’s chiefs, [[Gen. 36:40]]).[@oshb-wlc] See [Genesis 10](/genesis/10/).
 
 ## A name, and a scattering
 
@@ -31,13 +31,13 @@ After the scattering the record follows one line from Shem to Abram ([[Gen. 11:1
 
 “I will make of thee a great nation… and make thy name great; and thou shalt be a blessing… and in thee shall all families of the earth be blessed” ([[Gen. 12:2–3]]).
 
-Set side by side, the two stories contrast at three points: the builders wanted a name of their own making, and God promises to make Abram’s great; they feared scattering, and the covenant gathers and seals families; and through Abraham and his seed every family is to be blessed.[@scripture-helps-gen-6-11] The chapters work this out ([Genesis 11](/genesis/11/), [Genesis 12](/genesis/12/)).
+The two stories have been contrasted at three points: the builders wanted a name of their own making, and God promises to make Abram’s great; they feared scattering, and the covenant gathers and seals families; and through Abraham and his seed every family is to be blessed.[@scripture-helps-gen-6-11] The chapters work this out ([Genesis 11](/genesis/11/), [Genesis 12](/genesis/12/)).
 
-The Hebrew has the same words in both stories. “Families” in 12:3 is the *mishpachah* of chapter 10. “Name” is *shem* at 11:4 and 12:2, though the verbs differ: the builders would “make” one, and the Lord will “make great” Abram’s. *Shem* is far too common in Genesis (113 times in 95 verses) for the shared word to prove anything alone; the contrast is the one drawn above.[@oshb-wlc] In one reading “all the families of the ground” points back to the division of chapter 10, so that the blessing was to “unite the divided families.”[@keil-genesis]
+Two Hebrew words carry over into the call. “Families” in 12:3 is the *mishpachah* of chapter 10. “Name” is *shem* at 11:4 and 12:2, though the verbs differ: the builders would “make” one, and the Lord will “make great” Abram’s. *Shem* is far too common in Genesis (113 times in 95 verses) for the shared word to prove anything alone; the contrast is the one drawn above.[@oshb-wlc] In one reading “all the families of the ground” points back to the division of chapter 10, so that the blessing was to “unite the divided families.”[@keil-genesis]
 
 ## Repeated to Jacob
 
-To Jacob at Beth-el: “thou shalt spread abroad to the west, and to the east, and to the north, and to the south: and in thee and in thy seed shall all the families of the earth be blessed” ([[Gen. 28:14]]). The King James has “spread abroad” at [[Gen. 10:18]] too, but there the verb is Babel’s *puts*; here it is *parats*, so the likeness is in the English only. What does repeat is the whole phrase of 12:3, the same Hebrew words both times (*mishpechot ha-adamah*) and nowhere else in Genesis.[@oshb-wlc] See [Genesis 28](/genesis/28/).
+To Jacob at Beth-el: “thou shalt spread abroad to the west, and to the east, and to the north, and to the south: and in thee and in thy seed shall all the families of the earth be blessed” ([[Gen. 28:14]]). The King James has “spread abroad” at [[Gen. 10:18]] too, but there the verb is *puts*, the verb of the Babel story; here it is *parats*, so the likeness is in the English only. What does repeat from 12:3 is “all the families of the earth,” the same Hebrew words both times (*mishpechot ha-adamah*) and nowhere else in Genesis.[@oshb-wlc] See [Genesis 28](/genesis/28/).
 
 ## The gospel preached to Abraham
 
