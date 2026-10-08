@@ -7,6 +7,7 @@
 //                                                            disagrees between them → reports/NN-NN-codex.md
 //   node scripts/codex-read.mjs <book> book                  the book page's own words (book.yaml) → reports/book-codex.md
 //   node scripts/codex-read.mjs <book> <page file name>      a theme or guide page → reports/<name>-codex.md
+//   node scripts/codex-read.mjs <book> facsimile-<n>         a facsimile page → reports/facsimile-<n>-codex.md
 //   node scripts/codex-read.mjs --file <path>                any other page (content/about.md, content/volumes/…)
 //                                                            → .cache/codex/<name>-codex.md
 // Every page the site gains is read this way before the author sees it (author, 2026-10-07).
@@ -42,8 +43,9 @@ if (isChapters) {
   page = { path: `content/${book}/book.yaml`, kind: 'book', name: 'book' };
 } else {
   const name = range.replace(/\.md$/, '');
+  const fac = name.replace(/^facsimile-/, '');
   const found = ['themes', 'guides'].map((d) => `content/${book}/${d}/${name}.md`).find((f) => fs.existsSync(f))
-    ?? [`content/${book}/facsimiles/${name}.yaml`].find((f) => fs.existsSync(f));
+    ?? [`content/${book}/facsimiles/${fac}.yaml`].find((f) => fs.existsSync(f));
   if (!found) { console.error(`no theme, guide or facsimile page “${name}” in content/${book}/`); process.exit(1); }
   page = { path: found, kind: found.endsWith('.yaml') ? 'facsimile' : 'page', name };
 }
