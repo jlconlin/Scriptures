@@ -5,7 +5,7 @@ icon: christ
 sources: [lds-scriptures, oshb-wlc, scripture-helps-mal, bd-christ-names, bd-refiner, jsp-history-c1-addenda-18, keil-malachi]
 ---
 
-In Malachi 1 priests offer the blind and the lame at the Lord’s altar and call His table contemptible. In Malachi 3 “the messenger of the covenant” will “purify the sons of Levi… that they may offer unto the LORD an offering in righteousness” ([[Mal. 3:1, 3]]). What changes is the men who bring the offering, and with them the offering; the one who purifies them, in the Church’s reading, is Jesus Christ.[@bd-christ-names][@bd-refiner]
+In Malachi 1 priests offer the blind and the lame at the Lord’s altar and call His table contemptible. In Malachi 3 “the messenger of the covenant” will “purify the sons of Levi… that they may offer unto the LORD an offering in righteousness” ([[Mal. 3:1, 3]]). The men who bring the offering are changed first, and then the offering; the one who purifies them, in the Church’s reading, is Jesus Christ.[@bd-christ-names][@bd-refiner]
 
 | Step | Passage | The words |
 |---|---|---|
@@ -36,13 +36,13 @@ The Lord addresses “O priests, that despise my name,” and names the offence:
 
 “The messenger of the covenant” is a title of Jesus Christ, and Christ is “the great Refiner.”[@scripture-helps-mal][@bd-refiner] The next verses say of Him, “he is like a refiner’s fire, and like fullers’ soap: And he shall sit as a refiner and purifier of silver: and he shall purify the sons of Levi, and purge them as gold and silver” ([[Mal. 3:2–3]]). See [Malachi 3](/malachi/3/).
 
-Malachi uses “messenger” (Hebrew *mal’ak*) three times, and not of one person: of the priest in [[Mal. 2:7]], and in [[Mal. 3:1]] of “my messenger,” who “shall prepare the way,” and of “the messenger of the covenant.”[@oshb-wlc] One older commentary says the “I will send” of 3:1 keeps “my messenger” from meaning the priests, and that he is not the one “mentioned afterwards” as the messenger of the covenant.[@keil-malachi] See the notes on [[Mal. 2:7]] and [[Mal. 3:1]].
+Malachi uses “messenger” (Hebrew *mal’ak*) three times, and not of one person: of the priest in [[Mal. 2:7]], and in [[Mal. 3:1]] of “my messenger,” who “shall prepare the way,” and of “the messenger of the covenant.”[@oshb-wlc] One older commentary says that the “I will send” of 3:1 keeps “my messenger” from meaning the priests, and that he is not the messenger of the covenant, who is “mentioned afterwards.”[@keil-malachi] See the notes on [[Mal. 2:7]] and [[Mal. 3:1]].
 
 ## An offering in righteousness
 
 The purpose follows: “that they may offer unto the LORD an offering in righteousness. Then shall the offering of Judah and Jerusalem be pleasant unto the LORD, as in the days of old” ([[Mal. 3:3–4]]). The sons of Levi rebuked in Malachi’s day for improper sacrifices are promised a purifying, so that their offerings will be acceptable again.[@scripture-helps-mal]
 
-“Offering” is one Hebrew word (*minchah*) in [[Mal. 1:10]], [[Mal. 1:11]], [[Mal. 1:13]] and 3:3–4, and also in 2:12–13. The verb “offer” (*nagash*) in 3:3 is the verb of “Ye offer polluted bread” in 1:7, and also of 1:8, 1:11 and 2:12.[@oshb-wlc] “Polluted bread,” “a pure offering” and “an offering in righteousness” share no word for the quality.
+“Offering” is one Hebrew word (*minchah*) in [[Mal. 1:10]], [[Mal. 1:11]], [[Mal. 1:13]] and 3:3–4, and also in 2:12–13. The verb “offer” (*nagash*) in 3:3 is the verb of “Ye offer polluted bread” in 1:7, and also of 1:8, 1:11 and 2:12.[@oshb-wlc] The words that describe the offering are not shared: “polluted,” “pure” and “in righteousness” differ.
 
 John the Baptist used Malachi’s words when he conferred the Aaronic Priesthood: it “shall never be taken again from the earth, until the sons of Levi do offer again an offering unto the Lord in righteousness” ([[D&C 13:1]]).[@lds-scriptures]
 
@@ -50,4 +50,4 @@ Church teaching gives the offering two readings, side by side.[@scripture-helps-
 
 ## A later comparison
 
-The footnote at [[Mal. 1:10]] leads to words the Lord spoke to the Nephites after His death: “ye shall offer up unto me no more the shedding of blood… ye shall offer for a sacrifice unto me a broken heart and a contrite spirit” ([[3 Ne. 9:19–20]]).[@lds-scriptures] These are not Malachi’s words, and setting them beside “an offering in righteousness” ([[Mal. 3:3]]) is this page’s own comparison. Malachi speaks of the sons of Levi and the offering of Judah and Jerusalem; the Lord in 3 Nephi speaks to the Nephites. The comparison does not say that 3 Nephi 9 fulfils Mal. 3:3 or explains its phrase.
+The footnote at [[Mal. 1:10]] leads to words the Lord spoke to the Nephites after His death: “ye shall offer up unto me no more the shedding of blood… ye shall offer for a sacrifice unto me a broken heart and a contrite spirit” ([[3 Ne. 9:19–20]]).[@lds-scriptures] These are not Malachi’s words: he speaks of the sons of Levi and the offering of Judah and Jerusalem, and the Lord in 3 Nephi speaks to the Nephites. Setting His words beside “an offering in righteousness” ([[Mal. 3:3]]) is this page’s own comparison; it does not say that 3 Nephi 9 fulfils Mal. 3:3 or explains its phrase.
