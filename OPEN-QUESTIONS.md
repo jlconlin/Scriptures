@@ -14,6 +14,14 @@ Everything that waits for the author, for every book and for the site, in this o
 ## Genesis
 
 - **G1. “The Angel which redeemed me” (48:16): a Witness of Christ note, or a Context note?** The note points the Angel to Christ by a chain: Hosea calls the one Jacob met “the Lord God of hosts” (Hosea 12:4–5); the Bible Dictionary says Jehovah is the premortal Christ; and the note says that Genesis does not say more about who the Angel is. No Church source found applies this verse to Christ directly, and President Joseph Fielding Smith thought the wrestler at Peniel “more than likely… a messenger.” It stands as a Witness of Christ note for now.
+- **G2. The seven Genesis theme pages** (written 2026-10-08 from your selection; you have not read them). Every reviewer judged that its page holds. What they left for you:
+  - **The God Who Sees, Hears, and Remembers:** tested against every verse, the pattern is mostly a motif that becomes an arc at the end. The page now says so: it follows what begins with Hagar (people saying it of their own “affliction”) to Joseph’s “God will surely visit you,” Exodus, and Luke 7:16. Its own connection is Gen. 50:24 beside Luke 7:16. Enough of an arc, or drop the page?
+  - **From Babel’s Scattering to the Blessing of All Families:** the thinnest of the covenant pages; the chapter notes on 10–12 already make its central step. A closing comparison with Rev. 7:9 was cut because the likeness could not be shown in the original languages from a page the ledger could quote (the Greek Old Testament does use Revelation’s words at Gen. 10:5). Restore it with that support, or leave it out?
+  - **From Hiding from God to Meeting Him:** it does not say who Jacob wrestled, and does not call Beth-el or the temple a return to Eden (no source read says either). A contrast between God “walking in the garden” and the fathers who “did walk” before Him was cut because Moses 4:14 reads Gen. 3:8 with Adam and Eve walking.
+  - **The Covenant Blesses Those Outside the Family:** no source says these scenes fulfil Gen. 12:2–3, so the frame is the page’s own, as you asked; the reviewer had it reworded as a contrast (flocks and grain there; the blessings of the gospel in Abr. 2:9–11). Laban is called “outside the line of promise,” not an outsider, since he is Jacob’s uncle.
+  - **One in Another’s Place:** the ram and Judah are compared and their differences stated (the ram is provided and dies; Judah offers himself and is not taken).
+  - **Brothers at Odds, and Reconciled:** its own comparison of Cain’s “thy brother’s blood” with Judah’s “slay our brother, and conceal his blood” rests on common words, and says so. Keep it?
+  - **Pages 1, 3 and 5** share their starting verse (12:2–3) and reach for the same scriptures at the end; their bodies do not overlap, and both reviewers judged that they stand as separate pages.
 
 ## Jeremiah
 

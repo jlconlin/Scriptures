@@ -1,6 +1,6 @@
 # Genesis: theme candidates
 
-Topics that run across chapters, reported by the reviewers as the fifty chapters were written (2026-10-03 and 04). The author selected seven to develop on 2026-10-07; the earlier reports below remain as research leads, not additional page assignments. **Do not begin writing pages yet.** The author is selecting themes book by book and will give a separate instruction to develop them after all selections are made.
+Topics that run across chapters, reported by the reviewers as the fifty chapters were written (2026-10-03 and 04). The author selected seven to develop on 2026-10-07; the earlier reports below remain as research leads, not additional page assignments. The author gave the instruction to develop them on 2026-10-08, and the seven pages are written (`content/genesis/themes/`: `covenant-with-abraham`, `god-who-sees`, `babel-to-blessing`, `hiding-to-meeting`, `blessing-outsiders`, `in-anothers-place`, `brothers-reconciled`).
 
 ## Selected for development (author, 2026-10-07)
 
