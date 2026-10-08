@@ -46,21 +46,6 @@ claims:
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
     quote: 'that they might not serve nor worship any god, except their own God'
-  - where: 'thread'
-    claim: 'Verse 14 has two Aramaic verbs behind the two “deliver”s: shezib (H7804) and netsal (H5338); this is the first'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
-    quote: 'לְ/שֵׁיזָבוּתֵ֑/הּ'
-  - where: 'thread'
-    claim: 'The second verb of verse 14 is netsal (H5338); scripts/hebrew.mjs lists H5338 in Daniel at 3:29, 6:14 and 6:27 only'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
-    quote: 'לְ/הַצָּלוּתֵֽ/הּ'
-  - where: 'thread'
-    claim: 'Verse 27 has the same two verbs in the same order, of God: shezib then netsal (“delivereth and rescueth”)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
-    quote: 'מְשֵׁיזִ֣ב'
 
   # sections
   - where: 'section 1 plain'
@@ -100,11 +85,6 @@ claims:
     key: bd-darius
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/darius?lang=eng'
     quote: 'It is impossible to identify him with any of the kings of Babylon known to secular history.'
-  - where: 'note 6:1 “Darius the Median”'
-    claim: 'The Darius of Ezra, Haggai and Zechariah is a different king, the son of Hystaspes'
-    key: bd-darius
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/darius?lang=eng'
-    quote: '(2) The son of Hystaspes and founder of the Persian dynasty (Ezra 4:5, 24; 5:5–7; 6:1–15; Hag. 1:1, 15; 2:10; Zech. 1:1, 7; 7:1).'
   - where: 'note 6:1 “Darius the Median”'
     claim: 'Daniel 9:1 calls him of the seed of the Medes and says he was made king over the realm of the Chaldeans'
     key: lds-scriptures
@@ -275,7 +255,7 @@ claims:
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/esth/8?lang=eng'
     quote: 'for the writing which is written in the king’s name, and sealed with the king’s ring, may no man reverse'
-  - where: 'note 6:8 “A law the king himself cannot change”'
+  - where: 'note 6:17 “The den, the stone, and two seals”'
     claim: 'The verb “change” (shena, H8133) stands at 6:8, 6:15 and 6:17 (scripts/hebrew.mjs daniel --word 8133); this is the form in 6:17'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
@@ -499,11 +479,6 @@ claims:
     key: draper-exile
     url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/prophets-exile'
     quote: 'Darius took the last step, which occurred when Daniel’s enemies tricked the king into throwing Daniel into the lions’ den.'
-  - where: 'note 6:26 “The king’s second decree”'
-    claim: 'The Student Manual’s caution, written of Nebuchadnezzar at 4:8–9'
-    key: ot-manual-28
-    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
-    quote: 'By acknowledging Daniel’s spiritual abilities, Nebuchadnezzar was not acknowledging Jehovah as the only or even the supreme god.'
   - where: 'note 6:26 “The king’s second decree”'
     claim: 'Nebuchadnezzar’s decree forbade speaking against the God of the three'
     key: lds-scriptures
