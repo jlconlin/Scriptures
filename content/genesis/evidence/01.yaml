@@ -63,7 +63,7 @@ claims:
     key: bdb
     url: 'https://biblehub.com/hebrew/8414.htm'
     quote: 'formlessness, of primaeval earth Genesis 1:2 (P), of land reduced to primaeval chaos Jeremiah 4:23'
-  - where: thread
+  - where: 'note 1:4 “Creation by dividing”'
     claim: 'The verb badal, divide, occurs in Gen. 1:4, 6, 7, 14, 18 (WLC: lemma 914 in those verses only, in chapter 1)'
     key: bdb
     url: 'https://biblehub.com/hebrew/914.htm'
@@ -122,11 +122,6 @@ claims:
     key: biblehub-interlinear
     url: 'https://biblehub.com/interlinear/genesis/1-1.htm'
     quote: 'created V‑Qal‑Perf‑3ms … God N‑mp'
-  - where: 'note 1:1 “Elohim, and who created”'
-    claim: 'BDB classes the use of Elohim for God as a plural intensive'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/430.htm'
-    quote: '2 Plural intensive. … d. God (see 3 & 4)'
   - where: 'note 1:1 “Elohim, and who created”'
     claim: 'Elohim is the name-title Latter-day Saints use for the Father'
     key: father-and-son-1916
@@ -762,11 +757,6 @@ claims:
     key: bdb
     url: 'https://biblehub.com/hebrew/7363.htm'
     quote: 'hovering over face of waters'
-  - where: section 4 plain
-    claim: '“Seasons” rendered “appointed times”'
-    key: biblehub-interlinear
-    url: 'https://biblehub.com/interlinear/genesis/1-14.htm'
-    quote: 'and for appointed times'
   - where: section 6 plain
     claim: '“Meat” rendered “food”'
     key: lds-scriptures
