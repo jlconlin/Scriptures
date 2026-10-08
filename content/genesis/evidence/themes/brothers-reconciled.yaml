@@ -1,20 +1,50 @@
-page: joseph-sent-ahead
+page: brothers-reconciled
 claims:
-  - where: 'section “Out of the pit”'
-    claim: 'The Hebrew word behind “dungeon” at 40:15 is bor, the word for the “pit” at 37:24'
+  - where: 'section “Cain and Abel”'
+    claim: 'Cain kills Abel; the Lord says the voice of his brother’s blood cries from the ground'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/4?lang=eng'
+    quote: 'the voice of thy brother’s blood crieth unto me from the ground.'
+  - where: 'section “Cain and Abel”'
+    claim: 'Cain went out from the presence of the LORD and dwelt in Nod; no reconciliation is recorded'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/4?lang=eng'
+    quote: 'And Cain went out from the presence of the LORD, and dwelt in the land of Nod'
+  - where: 'section “Esau and Jacob”'
+    claim: 'Esau resolves to kill Jacob'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/27?lang=eng'
+    quote: 'then will I slay my brother Jacob.'
+  - where: 'section “Esau and Jacob”'
+    claim: 'Jacob had spent twenty years in Laban’s house'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'Thus have I been twenty years in thy house'
+  - where: 'section “Esau and Jacob”'
+    claim: 'Esau runs to meet Jacob and embraces him; the verse records no word about the earlier wrong'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/33?lang=eng'
+    quote: 'And Esau ran to meet him, and embraced him, and fell on his neck, and kissed him: and they wept.'
+  - where: 'section “Esau and Jacob”'
+    claim: 'Esau’s generosity could be linked to Joseph’s later generosity toward his brothers'
+    key: maxwell-teaching-opportunities
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1981/04/teaching-opportunities-from-the-old-testament?lang=eng'
+    quote: 'This episode on generosity could be linked to the later generosity of Joseph toward his brothers.'
+  - where: 'section “Hated and sold”'
+    claim: 'Connection made by this page: Cain’s “thy brother’s blood” (4:10) set beside Judah’s “slay our brother, and conceal his blood” (37:26); Hebrew dam (H1818) and ach (H251) stand together in one verse in Genesis only at 4:10, 4:11, 9:5 and 37:26 (dam is in 9 verses of Genesis)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/37?lang=eng'
+    quote: 'What profit is it if we slay our brother, and conceal his blood?'
+  - where: 'section “Hated and sold”'
+    claim: 'Hebrew “blood” (dam) at 4:10'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
-    quote: 'בַּ/בּֽוֹר'
-  - where: 'section “Out of the pit”'
-    claim: 'The Hebrew word behind “dungeon” at 41:14 is bor'
+    quote: 'דְּמֵ֣י'
+  - where: 'section “Hated and sold”'
+    claim: 'Hebrew “blood” (dam) at 37:26'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
-    quote: 'הַ/בּ֑וֹר'
-  - where: 'section “Out of the pit”'
-    claim: 'The Hebrew word for the “pit” at 37:24 is bor'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
-    quote: 'וְ/הַ/בּ֣וֹר'
+    quote: 'דָּמֽ/וֹ'
   - where: 'section “Guilt found out”'
     claim: 'Reuben’s remorse and Judah’s offer are given as indications that the brothers had changed'
     key: scripture-helps-gen-42-50
