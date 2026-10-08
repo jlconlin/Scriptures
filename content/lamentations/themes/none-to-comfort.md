@@ -18,11 +18,11 @@ Six times in the first two poems of Lamentations the word “comfort” is spoke
 
 ## None to comfort her
 
-“Among all her lovers she hath none to comfort her” ([[Lam. 1:2]]); “she had no comforter” ([[Lam. 1:9]]). The poet says this of her, and the city of herself: “the comforter that should relieve my soul is far from me” ([[Lam. 1:16]]); “there is none to comfort me” ([[Lam. 1:21]]).[@lds-scriptures] All five are one Hebrew participle, *menaḥem*, “one who comforts.”[@oshb-wlc] See [Lamentations 1](/lamentations/1/).
+“Among all her lovers she hath none to comfort her” ([[Lam. 1:2]]); “she had no comforter” ([[Lam. 1:9]]). The poet says this of the city, and the city says it of herself: “the comforter that should relieve my soul is far from me” ([[Lam. 1:16]]); “there is none to comfort me” ([[Lam. 1:21]]).[@lds-scriptures] All five are one Hebrew word, *menaḥem*, “one who comforts.”[@oshb-wlc] See [Lamentations 1](/lamentations/1/).
 
 ## “Who can heal thee?”
 
-The poet speaks to her: “what shall I equal to thee, that I may comfort thee, O virgin daughter of Zion? for thy breach is great like the sea: who can heal thee?” ([[Lam. 2:13]]). He asks how he may comfort her and gives no answer. The verb is the root of chapter 1’s participle, its sixth and last use in the book; chapters 3, 4 and 5 do not have it.[@oshb-wlc]
+The poet speaks to her: “what shall I equal to thee, that I may comfort thee, O virgin daughter of Zion? for thy breach is great like the sea: who can heal thee?” ([[Lam. 2:13]]). He asks how he may comfort her and gives no answer. The verb has the same root as chapter 1’s *menaḥem*, and this is the root’s sixth and last use in the book.[@oshb-wlc]
 
 ## “My hope is perished”
 
@@ -36,7 +36,7 @@ The hope that perished in verse 18 is a noun, *tokhelet*; the hope of verses 21 
 
 ## Shut out, and heard
 
-“Thou hast covered thyself with a cloud, that our prayer should not pass through” ([[Lam. 3:44]]). Then: “I called upon thy name, O LORD, out of the low dungeon. Thou hast heard my voice… Thou drewest near in the day that I called upon thee: thou saidst, Fear not” ([[Lam. 3:55–57]]). The book quotes no other words of the Lord, and these come in the man’s own telling.[@lds-scriptures] The tenses are read two ways: as a rescue remembered (“You came near when I called”),[@niv][@esv][@nrsvue] or as present assurance, as an older commentary takes it.[@keil-lamentations] See the note on [[Lam. 3:56]]. For the appeals to be seen, see [“See, O LORD, and Consider”](/lamentations/themes/look-upon-us/).
+“Thou hast covered thyself with a cloud, that our prayer should not pass through” ([[Lam. 3:44]]). Then: “I called upon thy name, O LORD, out of the low dungeon. Thou hast heard my voice… Thou drewest near in the day that I called upon thee: thou saidst, Fear not” ([[Lam. 3:55–57]]). The book quotes no other words of the Lord, and these come in the man’s own telling.[@lds-scriptures] The tenses of these verses are read two ways: as a rescue remembered (“You came near when I called”),[@niv][@esv][@nrsvue] or as present assurance, as an older commentary takes it.[@keil-lamentations] See the note on [[Lam. 3:56]]. For the appeals to be seen, see [“See, O LORD, and Consider”](/lamentations/themes/look-upon-us/).
 
 ## No reply
 

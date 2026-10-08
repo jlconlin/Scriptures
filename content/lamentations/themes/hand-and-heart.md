@@ -18,7 +18,7 @@ Lamentations says who afflicted Jerusalem and why: “the LORD hath afflicted he
 
 ## He afflicted her
 
-The poet says it of her; she says it of herself, “wherewith the LORD hath afflicted me in the day of his fierce anger” ([[Lam. 1:12]]). She names the cause too: “The LORD is righteous; for I have rebelled against his commandment” ([[Lam. 1:18]]). Unrighteousness and rebellion were the main reasons for the destruction of Jerusalem, as Jeremiah makes clear.[@cook-lamentations-bondage] See the note on [[Lam. 1:5]].
+The poet says the LORD afflicted her; she says it of herself, “wherewith the LORD hath afflicted me in the day of his fierce anger” ([[Lam. 1:12]]). She names the cause too: “The LORD is righteous; for I have rebelled against his commandment” ([[Lam. 1:18]]). Unrighteousness and rebellion were the main reasons for the destruction of Jerusalem, as Jeremiah makes clear.[@cook-lamentations-bondage] See the note on [[Lam. 1:5]].
 
 ## As an enemy
 
@@ -32,7 +32,7 @@ The poet says it of her; she says it of herself, “wherewith the LORD hath affl
 
 “For the Lord will not cast off for ever: But though he cause grief, yet will he have compassion according to the multitude of his mercies. For he doth not afflict willingly nor grieve the children of men” ([[Lam. 3:31–33]]).
 
-In the Hebrew, “willingly” is *millibbo*, “from his heart,” as the ESV and an older commentary render it; the book names the Lord’s heart nowhere else.[@oshb-wlc][@esv][@keil-lamentations] These verses are read as saying that the Lord does not take pleasure in punishing people.[@ot-seminary-teacher-lesson-138]
+In the Hebrew, “willingly” is *millibbo*, “from his heart,” as the ESV and an older commentary render it.[@oshb-wlc][@esv][@keil-lamentations] These verses are read as saying that the Lord does not take pleasure in punishing people.[@ot-seminary-teacher-lesson-138]
 
 The verb of “hath afflicted” in 1:5 and 1:12 is used five times: of the virgins (1:4), in those two verses, and here as “cause grief” (3:32) and “grieve” (3:33). “Afflict” in 3:33 is another verb.[@oshb-wlc] Setting 3:32 beside 1:5 and 1:12 is this page’s own comparison.[@lds-scriptures] See the note on [[Lam. 3:33]].
 
@@ -42,11 +42,11 @@ The verb of “hath afflicted” in 1:5 and 1:12 is used five times: of the virg
 
 ## Turn thou us
 
-“The LORD hath accomplished his fury” ([[Lam. 4:11]]). “Woe unto us, that we have sinned!” ([[Lam. 5:16]]). Then: “Turn thou us unto thee, O LORD, and we shall be turned; renew our days as of old. But thou hast utterly rejected us; thou art very wroth against us” ([[Lam. 5:21–22]]).
+“The LORD hath accomplished his fury” ([[Lam. 4:11]]). “Woe unto us, that we have sinned!” ([[Lam. 5:16]]). Then: “Turn thou us unto thee, O LORD, and we shall be turned; renew our days as of old. But thou hast utterly rejected us; thou art very wroth against us” ([[Lam. 5:21–22]]). Verse 22 begins “But” in the King James Version and “unless” in the NRSVUE, ESV and NIV (note on [[Lam. 5:22]]).[@nrsvue][@esv][@niv]
 
-The verb “turn” (*shuv*) stands in thirteen verses, many in other senses (“relieve,” “recall,” “render”). The Lord “hath turned me back” ([[Lam. 1:13]]), “hath drawn back his right hand” ([[Lam. 2:3]]) and “turneth his hand against me” ([[Lam. 3:3]]); the people say “turn again” (3:40) and then ask Him to do it.[@oshb-wlc] Setting 3:40 beside 5:21 is this page’s own.[@lds-scriptures] The only words of the Lord that the book quotes are “Fear not,” in the man’s telling ([[Lam. 3:57]]).[@lds-scriptures] Verse 22 begins “But” in the King James Version and “unless” in the NRSVUE, ESV and NIV (note on [[Lam. 5:22]]).[@nrsvue][@esv][@niv]
+The verb “turn” (*shuv*) stands in thirteen verses, many in other senses (“relieve,” “recall,” “render”). The Lord “hath turned me back” ([[Lam. 1:13]]), “hath drawn back his right hand” ([[Lam. 2:3]]) and “turneth his hand against me” ([[Lam. 3:3]]); the people say “turn again” (3:40) and then ask Him to do it.[@oshb-wlc] Setting 3:40 beside 5:21 is this page’s own.[@lds-scriptures]
 
-No reply to this prayer is written in Lamentations. The Church edition’s footnote on “Turn” leads, among other verses, to Ephraim’s prayer, “turn thou me, and I shall be turned” ([[Jer. 31:18]]), with the same Hebrew verb.[@lds-scriptures][@oshb-wlc] What the Lord says there is said of Ephraim, in Jeremiah; see the note on [[Lam. 5:21]].
+No reply to this prayer is written in Lamentations. The only words of the Lord that the book quotes are “Fear not,” in the man’s telling ([[Lam. 3:57]]).[@lds-scriptures] The Church edition’s footnote on “Turn” leads, among other verses, to Ephraim’s prayer, “turn thou me, and I shall be turned” ([[Jer. 31:18]]), with the same Hebrew verb.[@lds-scriptures][@oshb-wlc] What the Lord says there is said of Ephraim, in Jeremiah; see the note on [[Lam. 5:21]].
 
 ## One city, not a rule
 

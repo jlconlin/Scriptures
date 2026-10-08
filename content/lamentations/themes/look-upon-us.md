@@ -22,7 +22,7 @@ Across Lamentations the Lord is asked to look. The city asks, then a man waits f
 
 ## “To whom thou hast done this”
 
-“Behold, O LORD, and consider to whom thou hast done this” ([[Lam. 2:20]]). The two Hebrew verbs are those of 1:11, *reʾeh* and *habbiṭah*, in the same order.[@oshb-wlc] The verse does not name the speaker; an older commentary calls it “the prayer which the city has been commanded to make” (see the note on [[Lam. 2:20]]).[@keil-lamentations] What He is asked to look at is now a person: “to whom.”
+“Behold, O LORD, and consider to whom thou hast done this” ([[Lam. 2:20]]). The two Hebrew verbs are those of “See… and consider” in 1:11, in the same order: *reʾeh*, then *habbiṭah*.[@oshb-wlc] The verse does not name the speaker; an older commentary calls it “the prayer which the city has been commanded to make” (see the note on [[Lam. 2:20]]).[@keil-lamentations] What He is asked to consider is now a person, the one “to whom” this was done.
 
 ## “Till the LORD look down”
 
@@ -38,7 +38,7 @@ The man says, “Thou drewest near in the day that I called upon thee: thou said
 
 ## What the verses do
 
-Set side by side, the appeals ask one thing from first to last; 5:1 uses the two verbs of 1:11. Who asks, and how, changes. The speaker is the city’s “I” ([[Lam. 1:9]], [[Lam. 1:11]], [[Lam. 1:20]]), then a voice the verse does not name ([[Lam. 2:20]]), then the man’s “I” ([[Lam. 3:50]], [[Lam. 3:59–63]]), then “we” ([[Lam. 5:1]]). The form goes from commands, to a wait, to “thou hast seen,” to commands again, now beginning with “remember.” Three verses do not fit so neatly. In [[Lam. 3:19]] the verb of 5:1 is parsed as a command, “Remember mine affliction,” where the King James has “Remembering,” and the verse names no one addressed.[@oshb-wlc] [[Lam. 3:63]] is a command after “thou hast seen.” And in [[Lam. 4:16]] the verb behind “consider” is used of the Lord not looking: “he will no more regard them.”[@oshb-wlc] Reading these verses as a sequence is this page’s own; no source read treats them as one.[@lds-scriptures]
+Set side by side, the appeals ask one thing from first to last. Who asks, and how, changes. The speaker is the city’s “I” ([[Lam. 1:9]], [[Lam. 1:11]], [[Lam. 1:20]]), then a voice the verse does not name ([[Lam. 2:20]]), then the man’s “I” ([[Lam. 3:50]], [[Lam. 3:59–63]]), then “we” ([[Lam. 5:1]]). The form goes from commands, to a wait, to “thou hast seen,” to commands again, now beginning with “remember.” Three verses do not fit so neatly. In [[Lam. 3:19]] the verb of 5:1 is parsed as a command, “Remember mine affliction,” where the King James has “Remembering,” and the verse names no one addressed.[@oshb-wlc] [[Lam. 3:63]] is a command after “thou hast seen.” And in [[Lam. 4:16]] the verb behind “consider” is used of the Lord not looking: “he will no more regard them.”[@oshb-wlc] Reading these verses as a sequence is this page’s own; no source read treats them as one.[@lds-scriptures]
 
 ## No reply
 
