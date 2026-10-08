@@ -45,6 +45,13 @@ Everything that waits for the author, for every book and for the site, in this o
 
 (Ten chapter-level items were settled on 2026-10-04; they are listed in `content/jeremiah/BRIEF.md`, “Decided while writing,” where you can overturn any of them.)
 
+## Lamentations
+
+- **La-T. The three Lamentations theme pages** (written 2026-10-08 from your selection; you have not read them). Every reviewer judged that its page holds, each with a question about how far it should go:
+  - **“See, O LORD, and Consider”** (your “Look upon us”): tested against every appeal, this is the same request repeated by a widening speaker in changing forms, not a prayer that progresses; the page says so. Enough development for a theme page, or chapter-note material? Its closing section sets Ex. 3:7 (“I have surely seen the affliction of my people”) and Luke 19:41 (Jesus “beheld the city, and wept over it”) beside the prayers as the page’s own comparisons and says they are not an answer; the reviewer called the Luke comparison acceptable but thin, and asks whether the page should carry that section at all or end at “No reply.” Should the Lord’s not-looking (4:16) get more room?
+  - **“None to Comfort Her”:** the word “comfort” is used six times (1:2, 9, 16, 17, 21; 2:13) and never after; the page follows it until it stops. The Isaiah comparison was cut back so it does not read as an answer: Isa. 40:1 is gone, and Isa. 51:12 (“I, even I, am he that comforteth you”) stays as one sentence marked as Isaiah’s. Keep 51:12? An older commentary’s report that many manuscripts repeat verse 21 after 22 was cut (one 19th-century source): want it back? Does the heading “Hope, not yet comfort” promise more than the book gives?
+  - **The Lord’s Hand and Heart:** “from his heart” (3:33) follows the ESV and an older commentary; the chapter 3 note on 3:33 says “with His heart”: bring the note into line? A comparison of “have compassion” (once) with “not pitied” (four times) was cut because the Hebrew verbs differ: want it back as the page’s own? The Lord’s reply to Ephraim (Jer. 31:20) is not quoted, only pointed to in the note on 5:21: enough? John 9:3 is set beside the poems as the page’s own placement in the section “One city, not a rule”: keep? D&C 133:53 (reached by the Church footnote on 3:33) sits in the closing section, marked as not a reply within the poems: or under “From his heart”? The page is 928 words.
+
 ## Malachi
 
 - **Ma-T. The two Malachi theme pages** (written 2026-10-08 from your selection; you have not read them). Both reviewers judged that the pages hold. What they left for you:
