@@ -5,11 +5,11 @@ icon: key
 sources: [bd-jeremiah, lds-scriptures]
 ---
 
-Jeremiah is not hard because it is obscure; it is hard because it is **deliberately un-neat**. A sermon from Jehoiakim’s reign can sit next to a story from Zedekiah’s. A promise of a new covenant can arrive while Babylon is outside the city walls. The book asks us to hear a prophet’s long ministry as a whole, not as a diary.
+Jeremiah is hard less because it is obscure than because it is **out of order**. A sermon from Jehoiakim’s reign can sit next to a story from Zedekiah’s. A promise of a new covenant can arrive while Babylon is outside the city walls. The book asks us to hear a prophet’s long ministry as a whole, not as a diary.
 
 ## Start with the six movements
 
-The pages on this site group the book by the Bible Dictionary’s outline by reign.[@bd-jeremiah] That is the quickest way to regain your bearings.
+The pages on this site group the book by reign.[@bd-jeremiah] That is the quickest way to regain your bearings.
 
 | Chapters | What you are reading |
 |---|---|
@@ -18,7 +18,7 @@ The pages on this site group the book by the Bible Dictionary’s outline by rei
 | 21–29 | Last kings, false prophets, Babylon, and the letter to the exiles |
 | 30–33 | Restoration, the Branch, and the covenant written in the heart |
 | 34–45 | The siege, Jerusalem’s fall, and its aftermath |
-| 46–52 | Oracles against the nations and the historical conclusion |
+| 46–52 | Prophecies against the nations and the historical conclusion |
 
 When a chapter feels discontinuous, first ask: *Where is it in that movement, and which king is reigning?* The chapter page’s **When** line supplies that answer whenever the text permits it.
 
@@ -28,7 +28,7 @@ Jeremiah served from Josiah’s thirteenth year until after Jerusalem fell—a m
 
 1. **Josiah**: reform, but deep-rooted apostasy remains (chapters 1–6).
 2. **Jehoiakim**: the temple sermon, Jeremiah’s conflict with the court, and the burned scroll (7–20; 26; 35–36).
-3. **Zedekiah**: Babylon’s siege, warnings to surrender, and Jerusalem’s fall (21–38, then 39–45).
+3. **Zedekiah**: Babylon’s siege, warnings to surrender, and Jerusalem’s fall (most of 21–38, then 39–45).
 
 Chapter 25 is a useful landmark: it names Jehoiakim’s fourth year and Nebuchadnezzar’s first. Chapter 52 is not another turn in the narrative; it is the book’s historical conclusion.[@bd-jeremiah]
 
@@ -58,6 +58,6 @@ The existing theme pages trace those arcs: [To Root Out and to Plant](/jeremiah/
 
 ## Read Jeremiah beside Lehi
 
-Lehi and Jeremiah preached in the same Jerusalem. Jeremiah’s writings are the fullest surviving account of that world, and some of his prophecies were on the brass plates.[@bd-jeremiah] That shared setting gives Book of Mormon references unusual force, but it does not make every line in Jeremiah a prediction of Nephi’s family. Let the two records illuminate the same crisis where they genuinely meet.
+Lehi and Jeremiah preached in the same Jerusalem. Jeremiah’s writings are the fullest surviving account of that world, and some of his prophecies were on the brass plates.[@bd-jeremiah] That shared setting gives the Book of Mormon’s references to Jeremiah unusual force, but it does not make every line in Jeremiah a prediction of Nephi’s family. Let the two records illuminate the same crisis where they genuinely meet.
 
 For the connections, start with [Jeremiah, Lehi, and the Restoration](/jeremiah/guides/jeremiah-lehi-and-the-restoration/), then begin at [Jeremiah 1](/jeremiah/1/).
