@@ -14,6 +14,7 @@ Everything that waits for the author, for every book and for the site, in this o
 ## Genesis
 
 - **G1. “The Angel which redeemed me” (48:16): a Witness of Christ note, or a Context note?** The note points the Angel to Christ by a chain: Hosea calls the one Jacob met “the Lord God of hosts” (Hosea 12:4–5); the Bible Dictionary says Jehovah is the premortal Christ; and the note says that Genesis does not say more about who the Angel is. No Church source found applies this verse to Christ directly, and President Joseph Fielding Smith thought the wrestler at Peniel “more than likely… a messenger.” It stands as a Witness of Christ note for now.
+- **G2. The four Genesis theme pages** (The Covenant with Abraham; Judah; Joseph: Sold, and Sent; The Birthright and the Firstborn), written 2026-10-08 and not yet live. Keep, change, or drop each? Two things in particular: (a) the Judah page's title, “From Selling a Brother to Standing in His Place”: the reviewer thinks “His” reads as Joseph's and suggests “a Brother's Place”; (b) the birthright page began as “the younger chosen over the elder,” which the research showed is a list with no source tying it to Christ, so the page follows where the birthright goes instead and leaves out Abel and Seth, Laban's daughters, and Perez and Zerah. Narrowed as you would want, or drop it?
 
 ## Jeremiah
 
