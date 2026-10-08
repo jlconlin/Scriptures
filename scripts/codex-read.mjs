@@ -12,6 +12,9 @@
 //                                                            → .cache/codex/<name>-codex.md
 // Every page the site gains is read this way before the author sees it (author, 2026-10-07).
 //   --model <codex model>   --print (the prompt only)
+//   --inline   one chapter only: the standard's two sections, the chapter's verses and the chapter file are put in
+//              the prompt, so Codex opens nothing. A reading then costs about a third of Codex's allowance
+//              (it took some 34,000 tokens a page when Codex opened the files itself; author's limit, 2026-10-08).
 import { spawnSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
@@ -22,6 +25,7 @@ const has = (name) => { const i = args.indexOf(name); if (i < 0) return false; a
 const model = flag('--model');
 const across = has('--across');
 const print = has('--print');
+const inline = has('--inline');
 const file = flag('--file');
 const [book, range] = args;
 if (!file && (!book || !range)) { console.error('usage: node scripts/codex-read.mjs <book> <chapter | from-to --across | book | page file name> | --file <path>  [--model <codex model>] [--print]'); process.exit(1); }
@@ -106,7 +110,24 @@ ${rules}
 8. A section whose heading does not say what it holds, an opening that does not say what the page is about, or a section that does not follow from the one before.
 
 ${report}`);
-const ask = page ? pageAsk : across ? many : one;
+const inlined = () => {
+  const std = fs.readFileSync('STANDARDS.md', 'utf8');
+  const sections = std.slice(std.indexOf('\n## 2.'), std.indexOf('\n## 4.'));
+  const verses = JSON.parse(fs.readFileSync(`data/kjv/${book}.json`, 'utf8')).chapters[from - 1] ?? [];
+  return `${one}
+
+Everything you need is below. Do not open any file and do not run any command; answer from this text alone.
+
+===== STANDARDS.md, sections 2 and 3 =====
+${sections.trim()}
+
+===== The verses of the chapter (data/kjv/${book}.json) =====
+${verses.map((v, i) => `${i + 1} ${v}`).join('\n')}
+
+===== ${files[0]} =====
+${fs.readFileSync(files[0], 'utf8')}`;
+};
+const ask = page ? pageAsk : across ? many : inline && from === to ? inlined() : one;
 if (print) { console.log(ask); process.exit(0); }
 const outDir = file ? '.cache/codex' : `.cache/batch/${book}/reports`;
 fs.mkdirSync(outDir, { recursive: true });
