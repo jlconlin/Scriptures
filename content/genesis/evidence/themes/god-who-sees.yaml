@@ -1,7 +1,7 @@
 page: god-who-sees
 claims:
   - where: 'section “Remembered”'
-    claim: 'In Gen. 8:1 the narrator alone speaks of God remembering (the person-side example is Gen. 16:13)'
+    claim: 'In Gen. 8:1 the narrator says God remembered (the person-side example is Gen. 16:13)'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/8?lang=eng'
     quote: 'And God remembered Noah, and every living thing, and all the cattle that was with him in the ark: and God made a wind to pass over the earth, and the waters assuaged;'
@@ -61,7 +61,7 @@ claims:
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
     quote: 'רָאִ֖יתִי'
   - where: 'section “Thou God seest me”'
-    claim: 'Hagar is the only person in the Old Testament to name God'
+    claim: 'Hagar is the only person in the Old Testament to name God himself (paraphrased on the page)'
     key: easton-hagar
     url: 'https://rsc.byu.edu/tender-mercies-loving-kindness/you-are-god-who-sees-me'
     quote: 'Hagar’s extraordinary encounter at the well concludes with her becoming the only person in the Old Testament to name God'
@@ -71,7 +71,7 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/21?lang=eng'
     quote: 'And God opened her eyes, and she saw a well of water'
   - where: 'section “The LORD will see”'
-    claim: 'The Church edition glosses Jehovah-jireh “The Lord will see, or provide”'
+    claim: 'The Church edition’s footnote gives Jehovah-jireh as “The Lord will see, or provide”'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/22?lang=eng'
     quote: 'IE The Lord will see, or provide (v. 8).'
@@ -85,11 +85,6 @@ claims:
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
     quote: 'בְּ/עָנְיִ֔/י'
-  - where: 'section “Leah and Rachel”'
-    claim: 'Leah’s experience is similar to Hagar’s'
-    key: scripture-helps-gen-24-33
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/09-genesis-24-33?lang=eng'
-    quote: 'Similar to Hagar’s experience, God showed His tender love and care for Leah in her difficult circumstances by blessing her with children.'
   - where: 'section “Jacob”'
     claim: 'Jacob’s “affliction” (31:42) is again the noun H6040'
     key: oshb-wlc
@@ -106,42 +101,57 @@ claims:
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
     quote: 'פָּקֹ֤ד'
   - where: 'section “God will surely visit you”'
-    claim: 'Exodus has the verbs together: heard, remembered, looked, had respect'
+    claim: 'Ex. 2:24: God heard their groaning and remembered his covenant'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/2?lang=eng'
-    quote: 'And God looked upon the children of Israel, and God had respect unto them.'
-  - where: 'section “He hath visited his people”'
+    quote: 'And God heard their groaning, and God remembered his covenant'
+  - where: 'section “God will surely visit you”'
+    claim: 'Ex. 3:7 has the noun “affliction” (H6040) of Gen. 16:11, 29:32 and 31:42'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'עֳנִ֥י'
+  - where: 'section “God will surely visit you”'
+    claim: 'Ex. 4:31 has “visited” (paqad, H6485), “looked” (ra’ah, H7200) and “affliction” (H6040) together'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'עָנְיָ֔/ם'
+  - where: 'section “God will surely visit you”'
+    claim: 'Ex. 4:31: the people hear that the LORD had visited them and looked upon their affliction'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/4?lang=eng'
+    quote: 'that the Lord had visited the children of Israel, and that he had looked upon their affliction'
+  - where: 'section “God hath visited his people”'
     claim: 'Jehovah is the premortal Jesus Christ'
     key: bd-jehovah
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
     quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
-  - where: 'section “He hath visited his people”'
-    claim: 'The Topical Guide lists Gen. 22:14 under “Jesus Christ, Jehovah”'
-    key: tg-jesus-christ-jehovah
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/tg/jesus-christ-jehovah?lang=eng'
-    quote: 'Abraham called the name of that place Jehovah-jireh, Gen. 22:14.'
-  - where: 'section “He hath visited his people”'
+  - where: 'section “God hath visited his people”'
     claim: 'At Nain the people say God hath visited his people'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/7?lang=eng'
     quote: 'That God hath visited his people.'
-  - where: 'section “He hath visited his people”'
+  - where: 'section “God hath visited his people”'
     claim: 'Jesus had compassion on the widow'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/7?lang=eng'
-    quote: 'he had compassion on her'
-  - where: 'section “He hath visited his people”'
+    quote: 'when the Lord saw her, he had compassion on her'
+  - where: 'section “God hath visited his people”'
     claim: 'The footnote on “visited” (Luke 7:16) points to Ex. 3:16'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/7?lang=eng'
     quote: 'Ex. 3:16; Luke 1:68; D&C 110:7.'
-  - where: 'section “He hath visited his people”'
+  - where: 'section “God hath visited his people”'
     claim: 'Zacharias: visited and redeemed his people, to remember his holy covenant'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/1?lang=eng'
     quote: 'Blessed be the Lord God of Israel; for he hath visited and redeemed his people'
-  - where: 'section “He hath visited his people”'
-    claim: 'Connection made by this page: Gen. 50:24 “God will surely visit you” set beside Luke 7:16 “God hath visited his people”; no source cited on the page draws it; Luke 7:16 is linked to Ex. 3:16 by the footnote, Ex. 3:16 to Gen. 50:24 by the Hebrew construction; Greek and Hebrew share no original word'
+  - where: 'section “God hath visited his people”'
+    claim: 'A commentary reads Joseph’s “visit” as God’s gracious visitation, as in Ex. 3:16, Ex. 4:31 and Luke 1:68'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/50.htm'
+    quote: 'The visitation of God in a gracious and merciful sense, as in Exodus 3:16; Exodus 4:31; cf. Luke 1:68'
+  - where: 'section “God hath visited his people”'
+    claim: 'Connection made by this page: Gen. 50:24 “God will surely visit you” set beside Luke 7:16 “God hath visited his people”; a commentary links 50:24 to Luke 1:68 and the Church footnote at Luke 7:16 cites Ex. 3:16 and Luke 1:68, but the step to Luke 7:16 is the page’s own'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/7?lang=eng'
     quote: 'That God hath visited his people.'
