@@ -71,6 +71,31 @@ Before that: the book's brief, with the author (`content/<book>/BRIEF.md`: divis
 
 **After a book is complete:** its illustration, the last stage of writing a book. Run the book's final batch of `write-chapters` with `lastBatch: true` and it ends by running `.claude/workflows/create-book-art.js` once every chapter is ready (or run that workflow by name). Its `book-art-director` reads the finished book and writes a proposed visual brief; `scripts/book-art.mjs generate <book>` then has Codex draw one candidate into `.cache/book-art/<book>/`. Show the candidate to the author, and only after approval run `node scripts/book-art.mjs approve <book>`, which saves the asset and marks the brief approved. Until then the build warns that the finished book has no approved illustration. This is an authoring stage, not a site build step; details are in `DEVELOPMENT.md`, “Book illustration workflow.”
 
+## The language pass, in a session of its own
+
+The author runs step 5 (Codex reads, Opus applies) in a separate session from the one writing chapters (author, 2026-10-07). Everything that session needs is here. It works **in the main checkout, on `main`**; the writing session works in a worktree on the book's branch and fast-forwards `main` to it whenever a batch is committed, so a chapter that is on `main` is finished and ready for the pass.
+
+**What is waiting.** A chapter has had the pass when a commit says so:
+
+```sh
+git log --format=%s --grep "language pass" -- content/ezekiel/chapters | sort -V   # done
+ls content/ezekiel/chapters                                                          # written
+```
+
+Ezekiel 1–12 were done on 2026-10-07 and 13–24 the same day, both in the writing session. **Waiting: Ezekiel 25–36 and 37–48, each as its batch reaches `main`.** Take a batch whole, so its chapters can also be read side by side.
+
+**Run it.** Start a session in the main checkout and say “run the codex-pass workflow on Ezekiel 25–36” (or call it: `Workflow({ name: "codex-pass", args: { book: "ezekiel", chapters: [25, …, 36] } })`). It needs the `codex` CLI signed in (`codex login status`). For each chapter a small agent runs `node scripts/codex-read.mjs ezekiel <n>` (Codex, read-only, writes numbered findings to `.cache/batch/ezekiel/reports/NN-codex.md`; it reads the batch side by side into `25-36-codex.md` first), then an Opus agent decides each finding, edits only that chapter's two files, adds nothing, and reruns `check-chapter`. Twelve chapters took 6 minutes and 1.4M tokens once Codex had read them; Codex itself takes a few minutes a chapter and none of Claude's tokens. If Codex's model is at capacity, pass `codexModel`. A stopped run is resumed with `resumeFromRunId` and the same `args`.
+
+**Then, as coordinator:**
+
+1. `node scripts/check-pass.mjs ezekiel 25 26 … 36`: what the edits added, beside the last commit. New references should only be pointers to another chapter's note; no ledger row should have been added; a “new or changed quotation” is usually an old one whose closing punctuation moved, so look at any that is not.
+2. `node scripts/check-chapter.mjs ezekiel <n>` for each chapter. The warnings about commentaries read on Bible Hub were there before the pass and stay.
+3. Read each agent's `declined` list in the workflow's result: a finding declined for a reason that touches doctrine or the author's taste goes to `OPEN-QUESTIONS.md`; the rest need nothing.
+4. Commit one chapter at a time, the chapter with its ledger: `Ezekiel 25: language pass (Codex's findings, applied by Opus)`. Commit to `main`; don't push (the book is in preview, and a push rebuilds the live site).
+5. Touch nothing but those chapters' files. The writing session owns `content/sources.yaml`, the brief, `THEME-CANDIDATES.md`, and the chapters not yet on `main`; it merges `main` into its branch before each of its own commits reaches `main`.
+
+**Other pages** (a theme or guide page, a book page, the About page) are read one at a time, with no workflow: `node scripts/codex-read.mjs <book> <page file name>`, `<book> book`, or `--file <path>`; apply the findings that hold up, adding nothing, and rerun that page's checks (`check-content <book> <page>` and `check-ledger <book> <page>` for a theme page; the build for a book page).
+
 ## Working with the author
 
 - **Where changes go.** Commit chapter content, sources, and fixes directly to `main`, one commit a chapter as before. **Push only when the live site changes, and say so first** (author, 2026-10-07: “We should be cautious about pushing to main. I don't need CloudFlare to build a new site when nothing has changed”). Every push to `main` makes Cloudflare rebuild the site, so commits that change nothing a visitor sees stay local until something does: a book still in preview, a brief, the standard, the open questions, scripts, an unapproved illustration. When there is something to publish, push once, with whatever has gathered behind it. On 2026-10-07 Abraham’s setup, chapters and notes were pushed about twenty times while the book was in preview; none of those builds changed the site. Changes to how the site *looks* (layout, widths, new interface features) go on a separate branch until the author has seen them and approved; then fast-forward `main`.
