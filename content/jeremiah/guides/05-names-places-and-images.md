@@ -19,7 +19,7 @@ Use this as a lookup page while you read. The entries point to the chapter where
 
 **Jehoiachin / Jeconiah / Coniah.** The same young king under three names; Babylon deposes and exiles him after three months. → [Jeremiah 22](/jeremiah/22/), [Jeremiah 24](/jeremiah/24/)
 
-**Zedekiah.** Judah’s last king, installed after Jehoiachin’s deposition ([[2 Kgs. 24:17]]); he seeks Jeremiah’s counsel but resists its consequence. → [Jeremiah 21](/jeremiah/21/), [Jeremiah 37–39](/jeremiah/37/)
+**Zedekiah.** Judah’s last king, installed after Jehoiachin’s deposition ([[2 Kgs. 24:17]]); he seeks Jeremiah’s counsel but resists what it asks of him. → [Jeremiah 21](/jeremiah/21/), [Jeremiah 37–39](/jeremiah/37/)
 
 **Nebuchadnezzar / Nebuchadrezzar.** Babylon’s king. Jeremiah uses both spellings; they name the same ruler. → [Jeremiah 25](/jeremiah/25/), [Jeremiah 52](/jeremiah/52/)
 
@@ -29,7 +29,7 @@ Use this as a lookup page while you read. The entries point to the chapter where
 
 **Anathoth.** Jeremiah’s hometown, a priestly town northeast of Jerusalem. → [Jeremiah 1](/jeremiah/1/), [Jeremiah 32](/jeremiah/32/)
 
-**Babylon / Chaldeans.** The empire that destroys Jerusalem and carries Judah into exile. In Jeremiah, Babylon is first a real historical power before it becomes the target of the final oracles. → [Jeremiah 25](/jeremiah/25/), [Jeremiah 50–51](/jeremiah/50/)
+**Babylon / Chaldeans.** The empire that destroys Jerusalem and carries Judah into exile. In Jeremiah, Babylon is a real historical power first, and then also the target of the book’s final prophecies. → [Jeremiah 25](/jeremiah/25/), [Jeremiah 50–51](/jeremiah/50/)
 
 **Egypt.** The false refuge Judah seeks against Babylon; the remnant finally carries Jeremiah there. → [Jeremiah 2](/jeremiah/2/), [Jeremiah 42–44](/jeremiah/42/)
 
@@ -45,7 +45,7 @@ Use this as a lookup page while you read. The entries point to the chapter where
 
 **The yoke.** Jeremiah’s wooden yoke pictures Babylon’s domination; breaking it without the Lord’s word only replaces it with iron ([[Jer. 27–28]]). → [Jeremiah 27](/jeremiah/27/)
 
-**Good and bad figs.** The exiles and those remaining in Jerusalem, used to overturn easy assumptions about who is safe and who is lost ([[Jer. 24]]). → [Jeremiah 24](/jeremiah/24/)
+**Good and bad figs.** The figs stand for the exiles and for those remaining in Jerusalem, and they overturn easy assumptions about who is safe and who is lost ([[Jer. 24]]). → [Jeremiah 24](/jeremiah/24/)
 
 **The cup of the Lord’s fury.** Judgment as a drink the nations must receive. → [The Cup of the Lord’s Fury](/jeremiah/themes/cup-of-fury/)
 
