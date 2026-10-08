@@ -5,7 +5,7 @@ icon: christ
 sources: [lds-scriptures, oshb-wlc]
 ---
 
-Isaiah promises a second deliverance. At first it is like the exodus, with a highway “like as it was to Israel in the day that he came up out of the land of Egypt” ([[Isa. 11:16]]). Then the LORD “which maketh a way in the sea” says, “Remember ye not the former things… I will do a new thing” ([[Isa. 43:16–19]]), and then the going out is unlike the exodus: “ye shall not go out with haste” ([[Isa. 52:12]]). The road is first for “the remnant of his people,” then “for our God” ([[Isa. 40:3]]), then “the way of the people” ([[Isa. 62:10]]).
+Isaiah promises a second deliverance. At first the deliverance is like the exodus, with a highway “like as it was to Israel in the day that he came up out of the land of Egypt” ([[Isa. 11:16]]). Then the LORD “which maketh a way in the sea” says, “Remember ye not the former things… I will do a new thing” ([[Isa. 43:16–19]]), and then the going out is unlike the exodus: “ye shall not go out with haste” ([[Isa. 52:12]]). The road is first for “the remnant of his people,” then “for our God” ([[Isa. 40:3]]), then “the way of the people” ([[Isa. 62:10]]).
 
 Scripture connects three of these passages with Jesus Christ: “the Messiah will set himself again the second time to recover them” ([[2 Ne. 6:14]]); the Gospels apply Isaiah 40:3 to John the Baptist, who prepared His way; and Jesus Christ says, “I will go before you and be your rearward” ([[D&C 49:27–28]]).
 
@@ -22,7 +22,7 @@ Scripture connects three of these passages with Jesus Christ: “the Messiah wil
 
 ## Like the day he came up out of Egypt
 
-“The Lord shall set his hand again the second time to recover the remnant of his people” ([[Isa. 11:11]]); the LORD “shall utterly destroy the tongue of the Egyptian sea” ([[Isa. 11:15]]), to “facilitate the return, as in the days of Moses.”[@lds-scriptures] Then the highway, “like as it was” in the exodus ([[Isa. 11:16]]). Jacob says this “second time” of the Messiah ([[2 Ne. 6:14]]).[@lds-scriptures] Isaiah 35 gives the road a name: “it shall be called The way of holiness… the redeemed shall walk there” ([[Isa. 35:8–9]]). See [Isaiah 11](/isaiah/11/) and [Isaiah 35](/isaiah/35/).
+“The Lord shall set his hand again the second time to recover the remnant of his people” ([[Isa. 11:11]]); the LORD “shall utterly destroy the tongue of the Egyptian sea” ([[Isa. 11:15]]), to “facilitate the return, as in the days of Moses.”[@lds-scriptures] Then comes the highway, “like as it was” in the exodus ([[Isa. 11:16]]). Jacob says this “second time” of the Messiah ([[2 Ne. 6:14]]).[@lds-scriptures] Isaiah 35 gives the road a name: “it shall be called The way of holiness… the redeemed shall walk there” ([[Isa. 35:8–9]]). See [Isaiah 11](/isaiah/11/) and [Isaiah 35](/isaiah/35/).
 
 <h2 id="prepare-the-way">Prepare ye the way of the LORD</h2>
 
@@ -34,7 +34,7 @@ The new thing is “a way in the wilderness, and rivers in the desert” ([[Isa.
 
 <h2 id="not-with-haste">Not with haste</h2>
 
-Israel ate the first Passover “in haste” ([[Ex. 12:11]]). Isaiah uses the same Hebrew word, *chippazon*, only once, to deny it: “ye shall not go out with haste, nor go by flight: for the LORD will go before you; and the God of Israel will be your rearward” ([[Isa. 52:12]]).[@oshb-wlc]
+Israel ate the first Passover “in haste” ([[Ex. 12:11]]). Isaiah uses the same Hebrew word, *chippazon*, only once, and there the haste is denied: “ye shall not go out with haste, nor go by flight: for the LORD will go before you; and the God of Israel will be your rearward” ([[Isa. 52:12]]).[@oshb-wlc]
 
 Nephi says that in the first exodus it was “the Lord their God, their Redeemer, going before them” ([[1 Ne. 17:30]]). The risen Savior quotes Isaiah’s verses ([[3 Ne. 20:41–42]])[@lds-scriptures] and gives the words as the Father’s: “I will go before them, saith the Father, and I will be their rearward” ([[3 Ne. 21:29]]). In the Doctrine and Covenants He speaks them Himself: “Behold, I will go before you and be your rearward… Behold, I am Jesus Christ” ([[D&C 49:27–28]]).[@lds-scriptures] See [Isaiah 52](/isaiah/52/).
 
