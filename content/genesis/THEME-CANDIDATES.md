@@ -2,6 +2,8 @@
 
 Topics that run across chapters, reported by the reviewers as the fifty chapters were written (2026-10-03 and 04). Most will never become pages (`STANDARDS.md` §8, “What earns a theme page”: an arc, not a list, that points to Jesus Christ; a handful for a book). No Genesis theme page is written until the author chooses it.
 
+**Chosen for pages (author, 2026-10-08):** 1 the covenant with Abraham (`themes/covenant-with-abraham.md`); 2 the younger chosen over the elder (`themes/younger-and-birthright.md`); 3 Joseph, sent ahead to preserve life (`themes/joseph-sent-ahead.md`), which takes in 5, brothers at odds and reconciled; 4 Judah (`themes/judah.md`). 6, the God who sees, hears, and remembers, stays in the chapter notes: it is a list more than an arc. Each page still has to pass the research and outline steps.
+
 ## Short list
 
 Sorted by the coordinator from the reports below, by how many chapters reported a topic and whether something changes from its first passage to its last. The chapter numbers are the chapters that reported it. None has been researched as a theme; each would begin with the research step in `STANDARDS.md` §8.
