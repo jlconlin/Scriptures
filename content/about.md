@@ -17,7 +17,7 @@ The title comes from Isaiah himself: “line upon line; here a little, and there
 
 ## Principles behind the commentary
 
-1. **Christ at the center.** Nephi said he delighted in Isaiah because Isaiah saw the Redeemer ([[2 Ne. 11:2–6]]). The notes try to do the same.
+1. **Christ at the center.** Nephi said he delighted in Isaiah because Isaiah saw the Redeemer ([[2 Ne. 11:2–6]]). The notes try to see him there too.
 2. **Scripture interprets scripture.** The Book of Mormon, the Doctrine and Covenants, and the Pearl of Great Price explain Isaiah in several places ([[2 Ne. 25]]; [[D&C 113]]; [[JS—H 1:40]]). Those readings come first.
 3. **Prophets over commentators.** When modern prophets and apostles have taught plainly about a passage, the notes follow them. Scholarly views, Latter-day Saint and otherwise, are included when they help. When faithful readers see a passage differently, the notes say so.
 4. **Honest about uncertainty.** Isaiah’s Hebrew is sometimes hard, and some prophecies have more than one fulfillment. Where the answer is “we don’t know for sure,” the notes say that too.
@@ -34,7 +34,7 @@ The commentary on this site, including the chapter essays, notes, plain-words su
 AI can explain a great deal, but it can also be confidently wrong. So the content was checked in several ways:
 
 - **The scripture text** is the public-domain King James Version, compared word for word against the Latter-day Saint edition in the Gospel Library.
-- **Every quotation** of scripture that is followed by a reference is automatically checked against the text of that chapter, so that quoted words actually appear where the note says they do.
+- **Every quotation** of scripture that is followed by a reference is automatically checked against the text of the chapter the reference names, so that quoted words actually appear where the note says they do.
 - **Every link** to the Church’s website and other sources was checked to make sure it leads to a real page with the expected title.
 - **The Book of Mormon comparisons** are generated directly from the text, not written by hand.
 - **Interpretations** follow the scriptures and the teachings of latter-day prophets and apostles. Where faithful readers differ, or where a reading is speculative, the notes try to say so.
