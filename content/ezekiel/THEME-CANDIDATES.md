@@ -2,7 +2,20 @@
 
 Topics that run across the book and might become theme pages (`STANDARDS.md` §8). None has been chosen.
 
-Expected before writing (coordinator, 2026-10-07; to be confirmed or dropped by what the chapters report): the glory of the Lord leaving the temple and returning (1; 8–11; 43:1–5; 48:35); “ye shall know that I am the LORD”; the watchman (3; 33); the shepherds and the one shepherd (34; 37:24); the new heart and new spirit (11:19; 18:31; 36:26; 37:14); the unfaithful wife (16; 23).
+## Short list (coordinator, 2026-10-07; the author chooses: `OPEN-QUESTIONS.md`, E4)
+
+Sorted from what the 48 chapters reported below, by how much of the book each runs through and how often a reader will meet it. None is written until the author chooses.
+
+1. **The glory of the Lord, leaving and returning.** Reported by eighteen chapters. Seen by the river (1:28) and in the plain (3:23); in the temple (8:4); moving to the threshold (9:3; 10:4), the east gate (10:18–19) and the mountain east of the city (11:22–23); returning by the east gate (43:1–7; 44:1–4); and the city's last name, “The LORD is there” (48:35). The book's spine.
+2. **“Ye shall know that I am the LORD,” and “for my name's sake.”** The refrain comes about seventy times: after judgment (6:7 on), to the nations (25–32; 38–39), and after mercy (16:62; 34:27; 37:13). With it, the name profaned and sanctified before the nations (20:9–44; 36:20–23; 39:7, 25–27).
+3. **The watchman, and each answering for his own sins.** 3:16–21; 14:12–20; chapter 18; 33:1–20; with “I have no pleasure in the death of the wicked” and turning (*shuv*) as the book's word for repentance.
+4. **The shepherds, “my servant David,” and the prince.** The failed shepherds and the one shepherd (34; 37:22–25); the crown removed “until he come whose right it is” (21:25–27); the prince of the temple vision (44–46). It would stand beside Jeremiah's page The Shepherds and the Branch.
+5. **The new heart and the spirit put within.** Promised (11:19–20), commanded (18:31), given (36:26–27; 37:14), poured out (39:29); “they shall be my people, and I will be their God.” Beside Jeremiah's page The Covenant Written in the Heart.
+6. **The covenant's warnings carried out, and its blessings after.** Leviticus 26 in Ezekiel's words: the staff of bread, sword, famine, beasts and pestilence, “pine away in their iniquity” (4–6; 14:13–21; 24:23; 33:10, 27), then the covenant of peace (34:25–28; 36:8–11; 37:26).
+7. **The unfaithful wife.** Chapters 16 and 23 (with 6:9 and the history retold in 20): idolatry and foreign alliances as adultery, and the everlasting covenant remembered (16:60–63). Needs the most care in the writing.
+8. **Ezekiel himself as the sign.** The acted signs (4–5; 12; 24:15–27; 37:15–20) and the prophet's silence from his call to the fall of the city (3:26–27; 24:27; 33:22).
+
+Smaller, and probably notes rather than pages: holy and common, a priest's vocabulary (22:26; 42–48); Ezekiel in the book of Revelation; trees and vines for kings (15; 17; 19; 31, beside Zenos); Egypt, the help that fails (17; 29–32); the laments (19; 26–28; 32).
 
 ## Reported by chapters (not yet sorted)
 
