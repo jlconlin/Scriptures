@@ -18,6 +18,8 @@ Everything that waits for the author, for every book and for the site, in this o
   - *Isaiah, The New Exodus:* the overview table's “The words” column repeats what the sections quote.
   - *Jeremiah, Scattered and Gathered:* the section “Scattered” repeats the table above it.
   - *Isaiah guide 2 (Isaiah's World):* reads long, because the overview, the timeline and the lists go over the same events.
+  - *Plain words that followed the Hebrew now follow the King James.* Where a writer had paraphrased from the Hebrew or the Septuagint (“the oak of Moreh”, “you broke the yoke”), Codex reported that the plain words say what the verses do not, and the pass put the King James reading back; the notes still give the other reading. Changed in Genesis 12 (verses 6, 9, 19), Jeremiah 2:20, 6:18–19 and 10:17. Say if the plain words should follow the Hebrew where a note explains it; the old wording and its ledger rows are in git.
+  - *Genesis 21:31:* the sentence on Abraham at both Dan and Beer-sheba, a sourced point from a BYU study, was cut as a digression, with its three ledger rows.
   - *Abraham 3:3 and Lamentations 2:* the pass replaced a sentence the brief had said to keep (the Church's caution about the facsimiles; the *Scripture Helps* sentence that the Lord does not answer in the book) with a pointer to the chapter that explains it (Abraham 1:12; Lamentations 1). Say if you want either back.
 
 ## Genesis
