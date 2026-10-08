@@ -14,7 +14,6 @@ Everything that waits for the author, for every book and for the site, in this o
 ## Genesis
 
 - **G1. “The Angel which redeemed me” (48:16): a Witness of Christ note, or a Context note?** The note points the Angel to Christ by a chain: Hosea calls the one Jacob met “the Lord God of hosts” (Hosea 12:4–5); the Bible Dictionary says Jehovah is the premortal Christ; and the note says that Genesis does not say more about who the Angel is. No Church source found applies this verse to Christ directly, and President Joseph Fielding Smith thought the wrestler at Peniel “more than likely… a messenger.” It stands as a Witness of Christ note for now.
-- **G2. Which theme pages, if any?** `content/genesis/THEME-CANDIDATES.md` opens with a short list of six: the covenant with Abraham; the younger chosen over the elder; Joseph sent ahead to preserve life; Judah; brothers at odds and reconciled; the God who sees, hears, and remembers. It also lists five connections no source makes, which only a theme page could make (Abraham on the altar beside Isaac on the altar is one).
 
 ## Jeremiah
 
