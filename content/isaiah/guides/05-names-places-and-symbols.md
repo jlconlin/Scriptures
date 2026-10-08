@@ -21,7 +21,7 @@ Use this page as a lookup table while you read. Most entries point to the chapte
 
 **Isaiah.** “The Lord is salvation.” Son of Amoz, prophet in Jerusalem 740–701 BC.[@bd-isaiah] His wife is called “the prophetess”;[@isaiah-in-bom, p. 414] his sons are Shear-jashub and Maher-shalal-hash-baz. → [Isaiah 1](/isaiah/1/), [Isaiah 8](/isaiah/8/)
 
-**Lucifer.** “The Shining One,” also “Lightbringer” or “Son of the Morning.” The name appears only once in the Bible ([[Isa. 14:12]]), in a taunt against the king of Babylon ([[Isa. 14:4]]). Latter-day revelation equates Lucifer with Satan,[@bd-lucifer] and the *Old Testament Student Manual* sees these chapters as reaching also to the premortal overthrow of Lucifer.[@ot-manual-e] → [Isaiah 14](/isaiah/14/)
+**Lucifer.** “The Shining One,” also “Lightbringer” or “Son of the Morning.” The name appears only once in the Bible ([[Isa. 14:12]]), in a taunt against the king of Babylon ([[Isa. 14:4]]). Latter-day revelation equates Lucifer with Satan,[@bd-lucifer] and these chapters can be read as reaching also to the premortal overthrow of Lucifer.[@ot-manual-e] → [Isaiah 14](/isaiah/14/)
 
 **Maher-shalal-hash-baz.** “Speedy-spoil-quick-booty,” the name of Isaiah’s son,[@isaiah-in-bom, p. 413] a living prophecy that Assyria would soon plunder Damascus and Samaria ([[Isa. 8:4]]). → [Isaiah 8](/isaiah/8/)
 
@@ -31,9 +31,9 @@ Use this page as a lookup table while you read. Most entries point to the chapte
 
 **Rezin and Pekah** (“the son of Remaliah”). Kings of Syria and Israel, united against Judah.[@isaiah-in-bom, p. 414] Isaiah calls them “two tails of these smoking firebrands.” → [Isaiah 7](/isaiah/7/)
 
-**Sennacherib.** King of Assyria, 705–681 BC, who invaded Judah and took some of its fenced cities.[@bd-sennacherib] Jerusalem was besieged in 701 BC.[@isaiah-in-bom, p. 198] → [Isaiah 36–37](/isaiah/36/)
+**Sennacherib.** King of Assyria, 705–681 BC, who invaded Judah and took some of its fortified cities.[@bd-sennacherib] Jerusalem was besieged in 701 BC.[@isaiah-in-bom, p. 198] → [Isaiah 36–37](/isaiah/36/)
 
-**The Servant.** Sometimes Israel as a nation ([[Isa. 41:8]]); in the four Servant Songs, a figure whom Latter-day Saints read as Jesus Christ, as Abinadi does in applying Isaiah 53 to the Lord who comes down among His people ([[Mosiah 15:1]]).[@isaiah-in-bom, p. 302] → [Isaiah’s Witness of Christ](/isaiah/guides/isaiah-and-christ/)
+**The Servant.** Sometimes Israel as a nation ([[Isa. 41:8]]); in the four passages called the Servant Songs, a figure whom Latter-day Saints read as Jesus Christ, as Abinadi does in applying Isaiah 53 to the Lord who comes down among His people ([[Mosiah 15:1]]).[@isaiah-in-bom, p. 302] → [Isaiah’s Witness of Christ](/isaiah/guides/isaiah-and-christ/)
 
 **Shear-jashub.** “A remnant shall return,” the name of one of Isaiah’s sons.[@isaiah-in-bom, p. 414] → [Isaiah 7](/isaiah/7/)
 
@@ -45,7 +45,7 @@ Use this page as a lookup table while you read. Most entries point to the chapte
 
 **Assyria.** The eastern empire whose center lay on the Tigris, where Nineveh stood.[@bd-assyria] It destroyed and exiled the northern kingdom in 722 BC[@isaiah-in-bom, p. 155] and besieged Jerusalem in 701 BC.[@isaiah-in-bom, p. 198] The Lord’s “rod” of discipline ([[Isa. 10:5]]), later judged for its arrogance ([[Isa. 10:12]]). → [Isaiah 10](/isaiah/10/)
 
-**Babylon.** Historically, the empire that destroyed Jerusalem in 586 BC.[@bd-captivities] Symbolically, “the world” ([[D&C 1:16]]),[@bd-babylon] the wickedness of the world and the dominions of Satan in it.[@ot-manual-e] Compare [[D&C 133:14]]. → [Isaiah 13–14](/isaiah/13/), [Isaiah 47](/isaiah/47/)
+**Babylon.** Historically, the empire that destroyed Jerusalem in 586 BC.[@bd-captivities] Symbolically, “the world” ([[D&C 1:16]]),[@bd-babylon] its wickedness and the dominions of Satan in it.[@ot-manual-e] Compare [[D&C 133:14]]. → [Isaiah 13–14](/isaiah/13/), [Isaiah 47](/isaiah/47/)
 
 **Bashan.** The district east of the Jordan and north of Gilead, rich in grain and known for its cattle,[@bd-bashan] and, with Lebanon, a symbol of pride and haughtiness.[@ot-manual-e] Isaiah names its oaks ([[Isa. 2:13]]). → [Isaiah 2](/isaiah/2/)
 
@@ -53,11 +53,11 @@ Use this page as a lookup table while you read. Most entries point to the chapte
 
 **Daughter of Zion.** One of the terms Isaiah uses for Jerusalem.[@isaiah-in-bom, p. 236] → [Isaiah 1](/isaiah/1/), [Isaiah 52](/isaiah/52/)
 
-**Edom / Idumea.** Esau’s descendants, in the country south of the Dead Sea.[@bd-edom] Idumea is the same name; in the D&C it stands for the world ([[D&C 1:36]]).[@bd-idumea] Isaiah’s Edom likewise typifies worldliness.[@ot-manual-e] → [Isaiah 34](/isaiah/34/), [Isaiah 63](/isaiah/63/)
+**Edom / Idumea.** Esau’s descendants, in the country south of the Dead Sea.[@bd-edom] Idumea is another name for it; in the D&C it stands for the world ([[D&C 1:36]]).[@bd-idumea] Isaiah’s Edom likewise typifies worldliness.[@ot-manual-e] → [Isaiah 34](/isaiah/34/), [Isaiah 63](/isaiah/63/)
 
 **Egypt.** The rich and prosperous kingdom of the Pharaohs,[@bd-egypt] which Judah looked to for help ([[Isa. 31:1]]) and which Isaiah also uses as a symbol of wickedness.[@ot-manual-e] → [Isaiah 19](/isaiah/19/), [Isaiah 30–31](/isaiah/30/)
 
-**Ephraim.** The leading tribe of the Northern Kingdom, and so a name for that kingdom as a whole.[@ot-manual-e] In the latter days, Ephraim has a leading role in the gathering ([[D&C 133:32–34]]).[@bd-ephraim] → [Isaiah 7](/isaiah/7/), [Isaiah 28](/isaiah/28/)
+**Ephraim.** The leading tribe of the northern kingdom, and so a name for that kingdom as a whole.[@ot-manual-e] In the latter days, Ephraim has a leading role in the gathering ([[D&C 133:32–34]]).[@bd-ephraim] → [Isaiah 7](/isaiah/7/), [Isaiah 28](/isaiah/28/)
 
 **Jacob / Israel.** Names for the whole covenant people, descended from the patriarch Jacob, whom God renamed Israel. → [Isaiah 40–49](/isaiah/40/)
 
