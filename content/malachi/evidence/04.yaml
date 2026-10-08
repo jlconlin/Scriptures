@@ -33,16 +33,6 @@ claims:
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
     quote: '<note>KJV:Mal.4.6</note>'
   - where: setting
-    claim: 'The Bible Dictionary dates the prophecy of Malachi to about 430 B.C.'
-    key: bd-malachi
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/malachi?lang=eng'
-    quote: 'The prophecy of Malachi was spoken about 430 B.C.'
-  - where: setting
-    claim: 'The timing of Malachi’s ministry is uncertain'
-    key: scripture-helps-mal
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
-    quote: 'The exact timing of Malachi’s ministry is uncertain'
-  - where: setting
     claim: 'Malachi preached to the Jews in Jerusalem after they returned from exile'
     key: scripture-helps-mal
     url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
@@ -78,21 +68,6 @@ claims:
     key: keil-malachi
     url: 'https://biblehub.com/commentaries/kad/malachi/4.htm'
     quote: 'point back to Malachi 3:15'
-  - where: thread
-    claim: 'Roots and branches can stand for ancestors and descendants'
-    key: scripture-helps-mal
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
-    quote: 'Roots and branches can refer to our ancestors and descendants.'
-  - where: thread
-    claim: 'Elder Christofferson’s statement that without sealings we would be left with neither roots nor branches'
-    key: christofferson-sealing-power
-    url: 'https://www.churchofjesuschrist.org/study/general-conference/2023/10/15christofferson?lang=eng'
-    quote: 'we would be left in eternity with neither roots nor branches—that is, neither ancestry nor posterity'
-  - where: thread
-    claim: 'Elder Christofferson joins that state (the image of 4:1) to the curse of 4:6'
-    key: christofferson-sealing-power
-    url: 'https://www.churchofjesuschrist.org/study/general-conference/2023/10/15christofferson?lang=eng'
-    quote: 'Were that to become the norm, it would be tantamount to the earth being smitten with a curse or “utterly wasted” at the Lord’s coming.'
   - where: thread
     claim: 'Malachi 4:2 text (“you that fear my name”) and 4:6 text'
     key: lds-scriptures
@@ -370,37 +345,32 @@ claims:
     url: 'https://scripturecentral.org/knowhy/why-did-moroni-quote-malachi-about-elijahs-coming'
     quote: 'knit permanently together by being welded into one heart by priesthood powers (Malachi 4:6)'
   # ---------- note 4:5 Moroni’s wording ----------
-  - where: 'note 4:5 “Moroni’s wording, and why the Nephites received these chapters”'
+  - where: 'note 4:5 “Moroni’s wording”'
     claim: 'Moroni’s wording of verse 5 as Joseph Smith recorded it'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng'
     quote: 'Behold, I will reveal unto you the Priesthood, by the hand of Elijah the prophet, before the coming of the great and dreadful day of the Lord.'
-  - where: 'note 4:5 “Moroni’s wording, and why the Nephites received these chapters”'
+  - where: 'note 4:5 “Moroni’s wording”'
     claim: 'Moroni quoted chapter 4 with a little variation'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng'
     quote: 'though with a little variation from the way it reads in our Bibles'
-  - where: 'note 4:5 “Moroni’s wording, and why the Nephites received these chapters”'
+  - where: 'note 4:5 “Moroni’s wording”'
     claim: 'Elijah’s words in Kirtland refer to what Malachi spoke, and say that Elijah “should be sent”'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/110?lang=eng'
     quote: 'Behold, the time has fully come, which was spoken of by the mouth of Malachi—testifying that he [Elijah] should be sent'
-  - where: 'note 4:5 “Moroni’s wording, and why the Nephites received these chapters”'
+  - where: 'note 4:5 “Moroni’s wording”'
     claim: 'Jesus commanded the words be written and expounded them; the record does not say what He taught'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/26?lang=eng'
     quote: 'when Jesus had told these things he expounded them unto the multitude; and he did expound all things unto them, both great and small'
-  - where: 'note 4:5 “Moroni’s wording, and why the Nephites received these chapters”'
-    claim: 'Why Jesus gave the Nephites these scriptures'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/26?lang=eng'
-    quote: 'These scriptures, which ye had not with you, the Father commanded that I should give unto you; for it was wisdom in him that they should be given unto future generations'
-  - where: 'note 4:5 “Moroni’s wording, and why the Nephites received these chapters”'
+  - where: 'note 4:5 “Moroni’s wording”'
     claim: 'Moroni’s variation may rest on the Lord’s clarifications to the Nephites that are not in the Book of Mormon (an inference)'
     key: sc-knowhy-591
     url: 'https://scripturecentral.org/knowhy/why-did-moroni-quote-malachi-about-elijahs-coming'
     quote: 'Moroni’s variation of Malachi’s words may well have been based directly on the clarifications and teachings of the Lord that aren’t found in the Book of Mormon.'
-  - where: 'note 4:5 “Moroni’s wording, and why the Nephites received these chapters”'
+  - where: 'note 4:5 “Moroni’s wording”'
     claim: 'The text in 3 Nephi closely follows the KJV'
     key: sc-knowhy-591
     url: 'https://scripturecentral.org/knowhy/why-did-moroni-quote-malachi-about-elijahs-coming'
@@ -717,11 +687,6 @@ claims:
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/25?lang=eng'
     quote: 'shall the Son of Righteousness arise with healing in his wings'
-  - where: christ
-    claim: 'Jesus gave these scriptures to the Nephites because the Father commanded it'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/26?lang=eng'
-    quote: 'the Father commanded that I should give unto you'
   - where: christ
     claim: 'Jesus told the Nephites that He gave the law that was given to Moses (3 Ne. 15:4–5)'
     key: lds-scriptures
