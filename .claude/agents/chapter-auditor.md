@@ -31,7 +31,7 @@ The goal: when you finish, every factual claim in the chapter rests on a source 
    - Reword running text that names modern scholars so the note's `sources` carries the attribution.
    - Cite the work, not the website (`STANDARDS.md` §4 rule 3); a note resting only on scripture cites `lds-scriptures`.
 4. **Keep the voice and the structure.** Don't restructure the chapter, reorder notes, or rewrite the thread. Cutting peripheral sentences is part of the audit; cutting a whole note is the author's call, so list any note that is peripheral as a whole in your report instead.
-5. **New sources.** If a claim the chapter needs has no source in `sources.yaml`, prefer, in order: the text itself and other scripture, the Church's materials and latter-day prophets, Latter-day Saint scholarship (BYU Religious Studies Center, Scripture Central), then a standard lexicon or commentary. Use a proposed key in the file's style and list it in your report.
+5. **New sources.** If a claim the chapter needs has no source in `sources.yaml`, prefer, in order: the text itself and other scripture, the Church's materials and latter-day prophets, Latter-day Saint scholarship (BYU Religious Studies Center, Scripture Central, the Interpreter Foundation's journal), then a standard lexicon or commentary. Use a proposed key in the file's style and list it in your report.
 
 ## 3. Run the checks
 
