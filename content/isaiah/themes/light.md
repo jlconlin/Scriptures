@@ -5,7 +5,7 @@ icon: christ
 sources: [lds-scriptures, ot-manual-16, ot-manual-18, nt-student-manual-32]
 ---
 
-The house of Jacob is invited to “walk in the light of the LORD” ([[Isa. 2:5]]). Isaiah then describes a people in darkness, and comes at last to a Zion whose light is the LORD Himself. Scripture and the Church read several of these passages of Jesus Christ.
+The house of Jacob is invited to “walk in the light of the LORD” ([[Isa. 2:5]]). Isaiah then describes a people in darkness, and comes at last to a Zion whose light is the LORD Himself. Scripture and the Church read several of these passages as speaking of Jesus Christ.
 
 | Step | Passage | The words |
 |---|---|---|
@@ -23,11 +23,11 @@ Chapter 8 ends with people who “shall be driven to darkness” ([[Isa. 8:22]])
 
 ## A light to the Gentiles
 
-The LORD says to His servant, “I will also give thee for a light to the Gentiles” ([[Isa. 49:6]]; compare [[Isa. 42:6]]). The servant’s light is read both of Christ and of His people. “The Messiah will be a light to the Gentiles,”[@lds-scriptures] and Simeon, holding the infant Jesus, calls Him “A light to lighten the Gentiles” ([[Luke 2:32]]). Paul and Barnabas take the words as their own charge, “For so hath the Lord commanded us, saying, I have set thee to be a light of the Gentiles” ([[Acts 13:47]]): the Lord “had called Israel to be ‘a light of the Gentiles.’”[@nt-student-manual-32] To the Nephites Jesus says, “Behold I am the light which ye shall hold up” ([[3 Ne. 18:24]]). “Every covenant person becomes a light to the world by holding up the light of the Savior through faithfully living His commandments.”[@ot-manual-16] The [Servant Songs](/isaiah/themes/servant-songs/#song-2) page covers the song itself.
+The LORD says to His servant, “I will also give thee for a light to the Gentiles” ([[Isa. 49:6]]; compare [[Isa. 42:6]]). The light to the Gentiles is read both as Christ and as His people. “The Messiah will be a light to the Gentiles,”[@lds-scriptures] and Simeon, holding the infant Jesus, calls Him “A light to lighten the Gentiles” ([[Luke 2:32]]). Paul and Barnabas take the words as their own charge, “For so hath the Lord commanded us, saying, I have set thee to be a light of the Gentiles” ([[Acts 13:47]]): the Lord “had called Israel to be ‘a light of the Gentiles.’”[@nt-student-manual-32] To the Nephites Jesus says, “Behold I am the light which ye shall hold up” ([[3 Ne. 18:24]]). “Every covenant person becomes a light to the world by holding up the light of the Savior through faithfully living His commandments.”[@ot-manual-16] The [Servant Songs](/isaiah/themes/servant-songs/#song-2) page covers the song itself.
 
 ## Waiting for light
 
-Light is promised to the one who feeds the hungry: “then shall thy light rise in obscurity” ([[Isa. 58:10]]). The people then confess, “we wait for light, but behold obscurity; for brightness, but we walk in darkness” ([[Isa. 59:9]]), and “We grope for the wall like the blind” ([[Isa. 59:10]]). “Failure to heed the word of the Lord causes people to ‘wait for light’ but none comes.”[@ot-manual-18]
+Light is promised to the one who feeds the hungry: “then shall thy light rise in obscurity” ([[Isa. 58:10]]). In the next chapter the people confess, “we wait for light, but behold obscurity; for brightness, but we walk in darkness” ([[Isa. 59:9]]), and “We grope for the wall like the blind” ([[Isa. 59:10]]). “Failure to heed the word of the Lord causes people to ‘wait for light’ but none comes.”[@ot-manual-18]
 
 <h2 id="arise-shine">Arise, shine</h2>
 
