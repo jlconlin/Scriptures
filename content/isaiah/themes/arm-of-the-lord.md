@@ -5,7 +5,7 @@ icon: christ
 sources: [bdb, delitzsch, isaiah-in-bom, ot-manual-17, ot-manual-18, ot-seminary-lesson-130, bom-student-manual-6, dc-student-manual-2017-133]
 ---
 
-“An arm is a symbol of power.”[@bom-student-manual-6] In Isaiah the Lord’s arm is His “instrument of deliverance and judgment,”[@bdb] and it has a story. The arm of the exodus is promised again, called on to wake, made bare before the nations, asked about beside the suffering servant, and found working alone. Scripture and the Church read several of these passages of Jesus Christ.
+“An arm is a symbol of power.”[@bom-student-manual-6] In Isaiah the Lord’s arm is His “instrument of deliverance and judgment,”[@bdb] and it has a story. The arm of the exodus is promised again, called on to wake, and made bare before the nations. Then comes the question to whom it is revealed, and twice it brings salvation alone. Other scripture and Church manuals apply several of these passages to Jesus Christ.
 
 | Step | Passage | The words |
 |---|---|---|
@@ -20,21 +20,21 @@ sources: [bdb, delitzsch, isaiah-in-bom, ot-manual-17, ot-manual-18, ot-seminary
 
 ## From the exodus to the promise
 
-The arm is first the arm of the exodus: “by a mighty hand, and by a stretched out arm” ([[Deut. 4:34]]). Isaiah recalls it twice, as the arm that “dried the sea” ([[Isa. 51:10]]) and that led Israel “dividing the water before them” ([[Isa. 63:12]]). When he promises it again, the arm that rules also gathers lambs ([[Isa. 40:10–11]]), and the Lord says, “on mine arm shall they trust” ([[Isa. 51:5]]), in a passage whose verses “bear strong witness that Jehovah, the God of the Old Testament, is the same person as Jesus Christ of the New.”[@ot-manual-17]
+The arm is first the arm of the exodus: “by a mighty hand, and by a stretched out arm” ([[Deut. 4:34]]). Isaiah recalls it twice, as the arm that “dried the sea” ([[Isa. 51:10]]) and that led Israel “dividing the water before them” ([[Isa. 63:12]]). When he promises it again, the arm that rules also gathers lambs ([[Isa. 40:10–11]]). The Lord says, “on mine arm shall they trust” ([[Isa. 51:5]]), in a passage whose verses “bear strong witness that Jehovah, the God of the Old Testament, is the same person as Jesus Christ of the New.”[@ot-manual-17]
 
 ## Called on, and made bare
 
 In [[Isa. 51:9]] the arm itself is told to awake. The verse does not say who is speaking, and it is read two ways: as the Lord’s people “pleading with the Lord to ‘awake,’”[@ot-seminary-lesson-130] or as a call “from God to His latter-day children.”[@ot-manual-17] The same call is then turned on Jerusalem ([[Isa. 51:17]]) and Zion ([[Isa. 52:1]]); the pages for [Isaiah 51](/isaiah/51/) and [Isaiah 52](/isaiah/52/) follow all three.
 
-Then the announcement: “The LORD hath made bare his holy arm” ([[Isa. 52:10]]). The picture is probably a warrior who makes “bare his right arm up to the shoulder, that he may fight without encumbrance,”[@delitzsch] and it means “to reveal His strength and power.”[@dc-student-manual-2017-133]
+Then the announcement: “The LORD hath made bare his holy arm” ([[Isa. 52:10]]). The picture is probably of a warrior who makes “bare his right arm up to the shoulder, that he may fight without encumbrance,”[@delitzsch] and to make the arm bare is “to reveal His strength and power.”[@dc-student-manual-2017-133]
 
-<h2 id="revealed">Who has believed?</h2>
+<h2 id="revealed">To whom is the arm revealed?</h2>
 
 The next time the arm is named, it is a question: “Who hath believed our report? and to whom is the arm of the LORD revealed?” ([[Isa. 53:1]]). The servant has just been introduced ([[Isa. 52:13–14]]), and what follows is a man “despised and rejected of men” ([[Isa. 53:3]]).
 
 John says the verse was fulfilled when people saw Jesus’s miracles, “yet they believed not on him” ([[John 12:37–38]]). Abinadi, asked what Isaiah 52:7–10 means ([[Mosiah 12:20–24]]), answers that “God himself should come down among the children of men” ([[Mosiah 13:34]]) and then quotes all of Isaiah 53, beginning with this question ([[Mosiah 14:1]]).
 
-Latter-day Saint writers differ on what “the arm” is here. It “is often interpreted to mean that the arm of the Lord is revealed in the being of the mortal Messiah”; others take the question as “To whom is the power or might of the Lord revealed?”[@isaiah-in-bom, p. 496] The pages for [Isaiah 53](/isaiah/53/) and [the Servant Songs](/isaiah/themes/servant-songs/#song-4) take up the song itself.
+“The arm” here is read in more than one way. It “is often interpreted to mean that the arm of the Lord is revealed in the being of the mortal Messiah”; others take the question as “To whom is the power or might of the Lord revealed?”[@isaiah-in-bom, p. 496] The pages for [Isaiah 53](/isaiah/53/) and [the Servant Songs](/isaiah/themes/servant-songs/#song-4) take up the song itself.
 
 <h2 id="alone">Alone</h2>
 
