@@ -5,11 +5,11 @@ icon: christ
 sources: [oshb-wlc, delitzsch, duhm, westermann, childs, oswalt, blenkinsopp, paul-40-66, isaiah-in-bom, sc-knowhy-648, sc-knowhy-215, holland-cnc, origen-celsum, chilton-targum]
 ---
 
-Chapters 40–55 of Isaiah speak often of the Lord’s **servant** (*ʿebed*). Usually the servant is plainly the nation of Israel: “thou, Israel, art my servant, Jacob whom I have chosen” ([[Isa. 41:8]]). But four passages describe a servant who seems to be an individual, with a mission *to* Israel as well as to the nations, and who suffers for others. Since the end of the nineteenth century these passages have been called the **Servant Songs**.[@duhm] The name is modern; nothing in the text marks them off. But the songs do form a sequence, and reading them together shows something that reading them one at a time can hide.
+Chapters 40–55 of Isaiah speak often of the Lord’s **servant** (*ʿebed*). Usually the servant is plainly the nation of Israel: “thou, Israel, art my servant, Jacob whom I have chosen” ([[Isa. 41:8]]). But four passages describe a servant who seems to be an individual, with a mission *to* Israel as well as to the nations, and who suffers for others. Since the end of the nineteenth century these passages have been called the **Servant Songs**.[@duhm] The name is modern; nothing in the text marks them off. But the songs do form a sequence, which reading them one at a time can hide.
 
 ## Where the songs are
 
-Scholars agree on where each song begins but not always on where it ends, because the verses that follow a song respond to it.[@westermann][@blenkinsopp] The passages below include those verses, so nothing is left out.
+Where each song begins is agreed, but not always where it ends, because the verses that follow a song respond to it.[@westermann][@blenkinsopp] The passages below include those verses, so nothing is left out.
 
 | Song | Passage | Who speaks | In the Book of Mormon |
 |---|---|---|---|
@@ -20,7 +20,7 @@ Scholars agree on where each song begins but not always on where it ends, becaus
 
 ## How the songs build
 
-Read in order, the songs tell a story. The servant’s suffering grows from song to song: in the first he is gentle and unbroken; in the second he is discouraged; in the third he is beaten and spat upon; in the fourth he dies. His mission grows at the same time: justice for the nations, then the gathering of Israel and light to the Gentiles, then a word for the weary, and finally bearing “the sin of many.” And the songs move from speaking *about* the servant to letting him speak for himself, and then to the confession of those who finally understand him.
+Read in order, the songs tell a story. The servant’s lot grows harder from song to song: in the first he is gentle and unbroken; in the second he is discouraged; in the third he is beaten and spat upon; in the fourth he dies. His mission grows at the same time: justice for the nations, then the gathering of Israel and light to the Gentiles, then a word for the weary, and finally bearing “the sin of many.” And the songs move from speaking *about* the servant to letting him speak for himself, and then to the confession of those who finally understand him.
 
 <h2 id="song-1">The first song: the gentle servant</h2>
 
@@ -32,7 +32,7 @@ The contrast later in the same chapter is deliberate. There the Lord asks, “Wh
 
 **[[Isa. 49:1–13]].** Now the servant speaks, to the whole world: “Listen, O isles, unto me.” The Lord called him before birth and hid him like a sharpened arrow in a quiver. For the first time the servant admits discouragement: “I have laboured in vain, I have spent my strength for nought” (verse 4). The Lord answers by enlarging his task. Restoring Israel is “a light thing”; he will also be “a light to the Gentiles… my salvation unto the end of the earth” (verse 6).
 
-This song holds the puzzle at the center of the whole debate. The Lord calls the servant “Israel” (verse 3), yet sends him “to bring Jacob again to him” (verse 5). The servant is Israel, and has a mission to Israel.[@paul-40-66]
+This song holds the puzzle at the center of the whole debate. The Lord calls the servant “Israel” (verse 3), yet sends him “to bring Jacob again to him” (verse 5). The servant bears the name Israel, and has a mission to Israel.[@paul-40-66]
 
 Nephi’s text opens with lines not in the King James Version, addressed to “ye that are broken off and are driven out… that are scattered abroad” ([[1 Ne. 21:1]]), and Nephi read the chapter to his brothers as a prophecy of the scattering and gathering of their own family ([[1 Ne. 22]]).[@isaiah-in-bom] Simeon echoed verse 6 over the infant Jesus: “A light to lighten the Gentiles” ([[Luke 2:32]]). And Paul and Barnabas applied the same verse to their own mission: “so hath the Lord commanded us, saying, I have set thee to be a light of the Gentiles” ([[Acts 13:47]]).
 
@@ -54,7 +54,7 @@ When the Ethiopian official read the fourth song, he asked Philip, “of whom sp
 - **An individual in Isaiah’s world**, such as the prophet himself, a persecuted prophet like Jeremiah (who called himself “like a lamb or an ox that is brought to the slaughter,” [[Jer. 11:19]]), or a suffering king. One proposal ties the songs to King Hezekiah’s near-fatal illness ([[Isa. 38]]). It is one theory among many, though it has the merit of placing the songs in Isaiah’s own lifetime.[@sc-knowhy-648]
 - **The Messiah.** The ancient Aramaic paraphrase of Isaiah, the Targum, begins the fourth song with “my servant the Messiah.”[@chilton-targum] The New Testament identifies the servant with Jesus.
 
-Each reading explains some features of the songs and struggles with others. The collective reading fits verse 3 of the second song (“Thou art my servant, O Israel”) but not verse 5, where the servant is sent to Israel, or the fourth song, where he is stricken “for the transgression of my people” ([[Isa. 53:8]]), is innocent, and dies and yet lives on.
+Each reading explains some features of the songs and struggles with others. The collective reading fits verse 3 of the second song (“Thou art my servant, O Israel”) but struggles with verse 5, where the servant is sent to Israel, and with the fourth song, where he is stricken “for the transgression of my people” ([[Isa. 53:8]]), is innocent, and dies and yet lives on.
 
 Latter-day Saints read the songs first of all as prophecies of Jesus Christ, as the Book of Mormon does. But the Restoration is also comfortable with prophecy that is fulfilled more than once, and Nephi taught his people to “liken all scriptures unto us” ([[1 Ne. 19:23]]). Read that way, the servant is a pattern. Israel was called to be God’s servant and a light to the nations. Jesus Christ fulfilled that calling perfectly, as the one faithful Israelite who bore the sins of others. And those who follow Him share in the calling, as Paul and Barnabas did when they applied the second song to themselves. The Savior Himself applied the language of the fourth song to a latter-day servant who would be “marred” and healed ([[3 Ne. 21:10]]). Latter-day Saints have usually taken that servant to be Joseph Smith; others have read it as Christ, or as the Book of Mormon itself.[@sc-knowhy-215] The text does not settle which.
 
@@ -62,8 +62,8 @@ Latter-day Saints read the songs first of all as prophecies of Jesus Christ, as 
 
 After the fourth song the word changes. In chapters 41–53 “servant” (*ʿebed*) appears twenty times, always singular, the last being “my righteous servant” ([[Isa. 53:11]]). From there to the end of the book it appears eleven times, always plural, beginning with “This is the heritage of the servants of the LORD” ([[Isa. 54:17]]).[@oshb-wlc]
 
-Isaiah does not say how the two are related. The fourth song promises that the servant “shall see his seed” ([[Isa. 53:10]]), and Abinadi says who they are, speaking of the prophets: “all those who have hearkened unto their words, and believed that the Lord would redeem his people… these are his seed, or they are the heirs of the kingdom of God” ([[Mosiah 15:11]]). One reading ties the servants to the servant’s suffering: their righteousness “is the fruit of the sufferings of this one ‘Servant of Jehovah.’”[@delitzsch] Near the end of the book the two words stand in one verse: “I will bring forth a seed out of Jacob… and my servants shall dwell there” ([[Isa. 65:9]]). The note on Isaiah 54:17 on the [chapter page](/isaiah/54/) says more.
+Isaiah does not say how the two are related. The fourth song promises that the servant “shall see his seed” ([[Isa. 53:10]]), and Abinadi says who they are, those who heeded the prophets: “all those who have hearkened unto their words, and believed that the Lord would redeem his people… these are his seed, or they are the heirs of the kingdom of God” ([[Mosiah 15:11]]). One reading ties the servants to the servant’s suffering: their righteousness “is the fruit of the sufferings of this one ‘Servant of Jehovah.’”[@delitzsch] Near the end of the book “seed” and “servants” stand in one verse: “I will bring forth a seed out of Jacob… and my servants shall dwell there” ([[Isa. 65:9]]). The note on Isaiah 54:17 on the [chapter page](/isaiah/54/) says more.
 
 <h2 id="fifth-song">A fifth song?</h2>
 
-Some scholars add [[Isa. 61:1–3]] to the list: “The Spirit of the Lord GOD is upon me; because the LORD hath anointed me to preach good tidings unto the meek.” The speaker is not called a servant, but his anointing by the Spirit echoes the first song. Jesus read this passage in the synagogue at Nazareth and announced, “This day is this scripture fulfilled in your ears” ([[Luke 4:16–21]]).
+[[Isa. 61:1–3]] is sometimes added to the list: “The Spirit of the Lord GOD is upon me; because the LORD hath anointed me to preach good tidings unto the meek.” The speaker is not called a servant, but his anointing by the Spirit echoes the first song. Jesus read this passage in the synagogue at Nazareth and announced, “This day is this scripture fulfilled in your ears” ([[Luke 4:16–21]]).
