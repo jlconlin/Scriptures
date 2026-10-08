@@ -5,7 +5,7 @@ icon: christ
 sources: [lds-scriptures, bednar-divine-nature-2026, scripture-helps-gen-3-4, mathews-satans-rebellion, pgp-manual-moses-4, pgp-manual-moses-1-12-23, pgp-manual-moses-7-1-41, schade-bowen-council, nt-teacher-manual-matt-26]
 ---
 
-Before the world was, the Father’s plan was known, and the question was whom He would send. The Beloved Son answered, “Father, thy will be done, and the glory be thine forever”; Satan demanded the Father’s honor and rebelled. The book then follows both: Satan claims the Son’s title before Moses, lies to the first family, and holds a chain over the earth, while the Chosen is shown to Enoch suffering for sins and as King of Zion. The table puts the council first and then follows the book, which tells the council in chapter 4; that chapter’s first verse looks back to chapter 1: “Satan, whom thou hast commanded in the name of mine Only Begotten.”[@schade-bowen-council]
+Before the world was, the Father’s plan was known, and the question was whom He would send. The Beloved Son answered, “Father, thy will be done, and the glory be thine forever”; Satan demanded the Father’s honor and rebelled. The book then follows both: Satan claims the Son’s title before Moses, lies to the first family, and holds a chain over the earth, while the Chosen is shown to Enoch suffering for sins and as King of Zion. The table starts with the council, though Moses recounts it in chapter 4. That chapter’s first verse looks back to chapter 1: “Satan, whom thou hast commanded in the name of mine Only Begotten.”[@schade-bowen-council]
 
 | Step | Passage | The words |
 |---|---|---|
@@ -46,7 +46,7 @@ In vision Enoch “beheld Satan; and he had a great chain in his hand, and it ve
 
 <h2 id="son-father">Son and father</h2>
 
-Set side by side, the words “son” and “father” follow Satan through these chapters; the comparison is this page’s. He says, “I will be thy son” ([[Moses 4:1]]) and “I am also a son of God” ([[Moses 5:13]]). The Lord names him “the father of all lies” ([[Moses 4:4]]) and says of those who follow him, “Satan shall be their father” ([[Moses 7:37]]).[@pgp-manual-moses-7-1-41] Cain is to be “the father of his lies” ([[Moses 5:24]]). (Satan’s other uses are of men: “son of man,” [[Moses 1:12]]; “thy father,” [[Moses 5:29]].) The Beloved Son’s reply begins, “Father.”
+The comparison here is this page’s own: the words “son” and “father,” said by Satan and said of him, set side by side. He says, “I will be thy son” ([[Moses 4:1]]) and “I am also a son of God” ([[Moses 5:13]]). The Lord names him “the father of all lies” ([[Moses 4:4]]) and says of those who follow him, “Satan shall be their father” ([[Moses 7:37]]).[@pgp-manual-moses-7-1-41] Cain is to be “the father of his lies” ([[Moses 5:24]]). (Elsewhere Satan uses these words of men: “son of man,” [[Moses 1:12]]; “thy father,” [[Moses 5:29]].) The Beloved Son’s reply begins, “Father.”
 
 <h2 id="thy-will">“Thy will be done”</h2>
 
