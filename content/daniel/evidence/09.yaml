@@ -1,0 +1,786 @@
+chapter: 9
+claims:
+  # ---------- when ----------
+  - where: 'when'
+    claim: 'The first year of the new rule over Babylon is placed at 539 B.C. (Sperry, as the manual prints him)'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'Babylon, the power that had brought about the captivity is now fallen, and Persia is in the first year of its rule. (539 B.C.)'
+
+  # ---------- setting ----------
+  - where: 'setting'
+    claim: 'Babylon has fallen; about 539 B.C.'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'Babylon, the power that had brought about the captivity is now fallen, and Persia is in the first year of its rule. (539 B.C.)'
+  - where: 'setting'
+    claim: 'Ahasuerus is the name of one Median and two Persian kings; here the Median, father of Darius the Mede'
+    key: bd-ahasuerus
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ahasuerus?lang=eng'
+    quote: 'Old Testament name of one Median and two Persian kings.'
+  - where: 'setting'
+    claim: 'The Ahasuerus of Esther is a different king (Xerxes)'
+    key: bd-ahasuerus
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ahasuerus?lang=eng'
+    quote: 'Esth. 1:1, where Ahasuerus is certainly to be identified with Xerxes.'
+  - where: 'setting'
+    claim: 'It is seventy years or nearly so since Daniel was taken'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'It is now seventy years or nearly so since I and my family, not to mention many other Jews, were taken into captivity.'
+  - where: 'setting'
+    claim: 'The divine name occurs in Daniel only in chapter 9 (hebrew.mjs daniel --word 3068: 8 occurrences, all in 9:2–20)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'יְהוָה֙'
+  - where: 'setting'
+    claim: 'The end of the chapter parallels Matthew 24:15'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'The rest of the chapter describes the destruction of Jerusalem and the temple and parallels very closely the message of Matthew 24:15'
+  - where: 'setting'
+    claim: 'The chapter heading: Daniel fasts, confesses and prays; Gabriel reveals the coming of the Messiah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: 'Daniel fasts, confesses, and prays for all Israel'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'Jeremiah’s promise of return came with the condition of prayer and whole-hearted seeking'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/29?lang=eng'
+    quote: 'And ye shall seek me, and find me, when ye shall search for me with all your heart.'
+  - where: 'thread'
+    claim: 'The law of Moses named confession as the turning point of exile'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/26?lang=eng'
+    quote: 'If they shall confess their iniquity, and the iniquity of their fathers'
+  - where: 'thread'
+    claim: 'The seventy weeks are seventy sevens'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'The phrase “seventy weeks” thus refers to seventy periods of sevens.'
+  - where: 'thread'
+    claim: 'The reckoning of the weeks is not settled'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'many attempts have been made to do that, resulting in several differing interpretations of the passage'
+
+  # ---------- sections ----------
+  - where: 'section 2 plain'
+    claim: '“Dreadful” rendered “awesome”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%209&version=NRSVUE'
+    quote: 'Ah, Lord, great and awesome God, keeping covenant and steadfast love'
+  - where: 'section 2 plain'
+    claim: '“Confusion of faces” is shame'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: 'OR shamefacedness.'
+  - where: 'section 2 plain'
+    claim: '“Confusion of faces” rendered “open shame”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%209&version=NRSVUE'
+    quote: 'Righteousness is on your side, O Lord, but open shame, as at this day, falls on us'
+  - where: 'section 2 plain'
+    claim: '“Evil” in verse 12 is calamity'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: 'OR calamity.'
+  - where: 'section 2 plain'
+    claim: '“Made we not our prayer” rendered as seeking the Lord’s favor; “watched upon the evil” as keeping watch over the calamity'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%209&version=NRSVUE'
+    quote: 'We did not entreat the favor of the Lord our God, turning from our iniquities and reflecting on his fidelity.'
+  - where: 'section 2 plain'
+    claim: '“Watched upon the evil” rendered as keeping watch over the calamity'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%209&version=NRSVUE'
+    quote: 'So the Lord kept watch over this calamity until he brought it upon us.'
+  - where: 'section 3 plain'
+    claim: '“Gotten thee renown” rendered as making a name'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%209&version=NRSVUE'
+    quote: 'made your name renowned even to this day'
+  - where: 'section 4 plain'
+    claim: '“Being caused to fly swiftly” rendered “in swift flight”; the oblation as the evening offering'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%209&version=NRSVUE'
+    quote: 'came to me in swift flight at the time of the evening sacrifice'
+  - where: 'section 4 plain'
+    claim: '“The commandment came forth” rendered “a word went out”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%209&version=NRSVUE'
+    quote: 'At the beginning of your supplications a word went out, and I have come to declare it'
+  - where: 'section 5 plain'
+    claim: '“Determined” (9:24) is a verb meaning divide, determine: marked out'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2852.htm'
+    quote: 'verb divide, determine'
+  - where: 'section 5 plain'
+    claim: '“The going forth of the commandment” rendered as a word going out; “determined” (9:26) as decreed'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%209&version=NRSVUE'
+    quote: 'from the time that the word went out to restore and rebuild Jerusalem'
+
+  # ---------- note 9:2 ----------
+  - where: 'note 9:2 “Daniel reads Jeremiah”'
+    claim: 'The Hebrew of 9:2 is plural with the article: the books, the writings'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'בַּ/סְּפָרִ֑ים'
+  - where: 'note 9:2 “Daniel reads Jeremiah”'
+    claim: 'Jeremiah 29:1 calls what Jeremiah sent to the exiles in Babylon a letter'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/29?lang=eng'
+    quote: 'Now these are the words of the letter that Jeremiah the prophet sent from Jerusalem unto the residue of the elders which were carried away captives'
+  - where: 'note 9:2 “Daniel reads Jeremiah”'
+    claim: 'The word does not show that the writings were already a recognized collection'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/9.htm'
+    quote: 'does not say that these writings formed already a recognised collection'
+  - where: 'note 9:2 “Daniel reads Jeremiah”'
+    claim: 'Jeremiah gives the seventy years in 25:11–12'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/25?lang=eng'
+    quote: 'these nations shall serve the king of Babylon seventy years'
+  - where: 'note 9:2 “Daniel reads Jeremiah”'
+    claim: 'Jeremiah gives the seventy years again in the letter, 29:10'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/29?lang=eng'
+    quote: 'That after seventy years be accomplished at Babylon I will visit you, and perform my good word toward you, in causing you to return to this place.'
+  - where: 'note 9:2 “Daniel reads Jeremiah”'
+    claim: 'The Church’s footnote at 9:2 joins the seventy years to Jeremiah 25:12 and 2 Chronicles 36:21'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: '“seventy”: 2 Chr. 36:21; Jer. 25:12.'
+  - where: 'note 9:2 “Daniel reads Jeremiah”'
+    claim: 'Sperry’s reconstruction, as the manual prints it: Babylon is fallen'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'Babylon, the power that had brought about the captivity is now fallen, and Persia is in the first year of its rule.'
+  - where: 'note 9:2 “Daniel reads Jeremiah”'
+    claim: 'Sperry’s reconstruction: seventy years or nearly so since Daniel was taken'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'It is now seventy years or nearly so since I and my family, not to mention many other Jews, were taken into captivity.'
+  - where: 'note 9:2 “Daniel reads Jeremiah”'
+    claim: 'Sperry’s reconstruction: the people not yet restored, so Daniel inquires and confesses'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'In view of the fact that my people have not yet been restored, I shall inquire of the Lord and confess my people’s sins.'
+  - where: 'note 9:2 “Daniel reads Jeremiah”'
+    claim: 'Keil’s view: the people’s religious condition moved Daniel to pray'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/9.htm'
+    quote: 'That which moved Daniel to prayer was rather the religious condition of his own people, among whom the chastisement of the Exile had not produced the expected fruits of repentance'
+  - where: 'note 9:2 “Daniel reads Jeremiah”'
+    claim: 'Jeremiah’s letter follows the seventy years with the instruction to pray and seek (29:12–13)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/29?lang=eng'
+    quote: 'Then shall ye call upon me, and ye shall go and pray unto me, and I will hearken unto you.'
+  - where: 'note 9:2 “Daniel reads Jeremiah”'
+    claim: 'A modern translation’s cross-references join Daniel 9:3 to Jeremiah 29:12'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%209&version=NRSVUE'
+    quote: 'Neh 1.4; Jer 29.12; Jas 4.8'
+
+  # ---------- note 9:4 ----------
+  - where: 'note 9:4 “The covenant name, only in this chapter”'
+    claim: 'The divine name (H3068) occurs in Daniel 8 times, in 9:2, 4, 8, 10, 13, 14 (twice) and 20, and nowhere else in the book (hebrew.mjs daniel --word 3068)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'יְהוָה֙'
+  - where: 'note 9:4 “The covenant name, only in this chapter”'
+    claim: 'Adonai (H136) occurs ten times in chapter 9: verses 3, 4, 7, 9, 15, 16, 17 and three times in 19 (hebrew.mjs daniel --word 136)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'אֲדֹנָ/י֙'
+  - where: 'note 9:4 “The covenant name, only in this chapter”'
+    claim: 'The King James text prints the name in verse 4 and “Lord” (adonai) beside it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: 'And I prayed unto the Lord my God, and made my confession, and said, O Lord, the great and dreadful God'
+  - where: 'note 9:4 “The covenant name, only in this chapter”'
+    claim: 'Jehovah is the covenant name of the God of Israel'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'The covenant or proper name of the God of Israel.'
+  - where: 'note 9:4 “The covenant name, only in this chapter”'
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
+
+  # ---------- note 9:5 ----------
+  - where: 'note 9:5 “Why the confession is in the plural”'
+    claim: 'The Church’s footnote at 9:13 sends the reader to Leviticus 26:14–46'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: '“law”: Lev. 26:14 (14–46).'
+  - where: 'note 9:5 “Why the confession is in the plural”'
+    claim: 'Leviticus 26 makes confession of their iniquity and their fathers’ the condition'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/26?lang=eng'
+    quote: 'If they shall confess their iniquity, and the iniquity of their fathers, with their trespass which they trespassed against me'
+  - where: 'note 9:5 “Why the confession is in the plural”'
+    claim: 'Leviticus 26 promises that the Lord will then remember the covenant and the land'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/26?lang=eng'
+    quote: 'Then will I remember my covenant with Jacob, and also my covenant with Isaac, and also my covenant with Abraham will I remember; and I will remember the land.'
+  - where: 'note 9:5 “Why the confession is in the plural”'
+    claim: 'The Church’s footnote at 9:5 joins the confession to Solomon’s prayer'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: '“sinned”: 1 Kgs. 8:47; Ps. 106:6.'
+  - where: 'note 9:5 “Why the confession is in the plural”'
+    claim: 'Solomon’s prayer gives captives the words “We have sinned”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/8?lang=eng'
+    quote: 'saying, We have sinned, and have done perversely, we have committed wickedness'
+  - where: 'note 9:5 “Why the confession is in the plural”'
+    claim: 'The chapter heading: Daniel prays for all Israel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: 'Daniel fasts, confesses, and prays for all Israel'
+
+  # ---------- note 9:11 ----------
+  - where: 'note 9:11 “The curse and the oath in the law of Moses”'
+    claim: 'Deuteronomy 28 warns that the curses will overtake a disobedient Israel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/28?lang=eng'
+    quote: 'that all these curses shall come upon thee, and overtake thee'
+  - where: 'note 9:11 “The curse and the oath in the law of Moses”'
+    claim: 'Deuteronomy 29 speaks of the Lord’s anger bringing on the land the curses written in the book'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/29?lang=eng'
+    quote: 'And the anger of the Lord was kindled against this land, to bring upon it all the curses that are written in this book'
+  - where: 'note 9:11 “The curse and the oath in the law of Moses”'
+    claim: 'The penalties are also in Leviticus 26:14–46 (the Church’s footnote at 9:13)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: '“law”: Lev. 26:14 (14–46).'
+
+  # ---------- note 9:14 ----------
+  - where: 'note 9:14 “The Lord who watched”'
+    claim: 'Shaqad means watch, wake'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8245.htm'
+    quote: 'verb watch, wake'
+  - where: 'note 9:14 “The Lord who watched”'
+    claim: 'With the Lord as subject: keep watch of, be wakeful over, to perform a thing (Jeremiah 1:12; Daniel 9:14; Jeremiah 31:28)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8245.htm'
+    quote: 'keep watch of, be wakeful over'
+  - where: 'note 9:14 “The Lord who watched”'
+    claim: 'BDB lists Jeremiah 1:12 and Daniel 9:14 together under watching over a thing to perform it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8245.htm'
+    quote: 'to perform it Jeremiah 1:12; Daniel 9:14'
+  - where: 'note 9:14 “The Lord who watched”'
+    claim: 'The King James renders the verb “hasten” in Jeremiah 1:12'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/1?lang=eng'
+    quote: 'for I will hasten my word to perform it'
+  - where: 'note 9:14 “The Lord who watched”'
+    claim: 'The Church’s footnote at 9:14 joins the verse to Jeremiah 31:28'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: '“evil”: Jer. 31:28.'
+  - where: 'note 9:14 “The Lord who watched”'
+    claim: 'The footnote at 9:12 gives “calamity” for “evil”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: 'OR calamity.'
+
+  # ---------- note 9:19 ----------
+  - where: 'note 9:19 “What Daniel pleads”'
+    claim: '“Righteousness” in 9:16 rendered “righteous acts”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%209&version=NRSVUE'
+    quote: 'O Lord, in view of all your righteous acts, let your anger and wrath, we pray, turn away from your city Jerusalem'
+  - where: 'note 9:19 “What Daniel pleads”'
+    claim: 'Jeremiah 25, the chapter of the seventy years, speaks of the city called by the Lord’s name'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/25?lang=eng'
+    quote: 'For, lo, I begin to bring evil on the city which is called by my name'
+
+  # ---------- note 9:21 Gabriel ----------
+  - where: 'note 9:21 “Gabriel, a second time”'
+    claim: 'Gabriel explained the vision of chapter 8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: 'Gabriel, make this man to understand the vision.'
+  - where: 'note 9:21 “Gabriel, a second time”'
+    claim: 'Gabriel is named twice in the Old Testament, both times appearing to Daniel'
+    key: mcconkie-special-witnesses
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-new-testament/special-witnesses-birth-christ'
+    quote: 'Gabriel is mentioned twice in the Old Testament; both instances are appearances to Daniel.'
+  - where: 'note 9:21 “Gabriel, a second time”'
+    claim: 'The name means Man of God; he was sent to Daniel, Zacharias and Mary'
+    key: bd-gabriel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/gabriel?lang=eng'
+    quote: 'Man of God. The name of an angel sent to Daniel (Dan. 8:16; 9:21); to Zacharias (Luke 1:11–19); and to Mary (Luke 1:26–38).'
+  - where: 'note 9:21 “Gabriel, a second time”'
+    claim: 'Latter-day revelation identifies Gabriel as Noah'
+    key: bd-gabriel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/gabriel?lang=eng'
+    quote: 'He is identified by latter-day revelation as Noah'
+  - where: 'note 9:21 “Gabriel, a second time”'
+    claim: 'The noun in “fly swiftly” means weariness; BDB reads the phrase as utterly weary, from winged flight'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3288.htm'
+    quote: 'weary with weariness, utterly weary Daniel 9:21 (from winged flight, said of Gabriel).'
+  - where: 'note 9:21 “Gabriel, a second time”'
+    claim: 'The noun means weariness, faintness'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3288.htm'
+    quote: 'weariness, faintness'
+  - where: 'note 9:21 “Gabriel, a second time”'
+    claim: 'A modern translation: “in swift flight”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%209&version=NRSVUE'
+    quote: 'came to me in swift flight at the time of the evening sacrifice'
+  - where: 'note 9:21 “Gabriel, a second time”'
+    claim: 'The verb bin (H995) stands in 9:2 (“understood”), 9:22 (“informed”) and 9:23 (“understand”) (hebrew.mjs daniel 9:2, 9:22, 9:23)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'בִּינֹ֖תִי'
+  - where: 'note 9:21 “Gabriel, a second time”'
+    claim: 'The same verb in 9:22, “he informed me”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'וַ/יָּ֖בֶן'
+
+  # ---------- note 9:21 hour ----------
+  - where: 'note 9:21 “An hour kept without a temple”'
+    claim: 'A modern translation renders the evening oblation “the evening sacrifice”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%209&version=NRSVUE'
+    quote: 'came to me in swift flight at the time of the evening sacrifice'
+  - where: 'note 9:21 “An hour kept without a temple”'
+    claim: 'The time of the evening oblation was the time of evening prayer'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/9.htm'
+    quote: 'The time of the evening oblation was the time of evening prayer for the congregation.'
+  - where: 'note 9:21 “An hour kept without a temple”'
+    claim: 'Elijah prayed at the time of the evening sacrifice'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/18?lang=eng'
+    quote: 'And it came to pass at the time of the offering of the evening sacrifice, that Elijah the prophet came near, and said'
+  - where: 'note 9:21 “An hour kept without a temple”'
+    claim: 'The Church’s footnote at 9:21 joins “evening” to 1 Kings 18:36'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: '“evening”: 1 Kgs. 18:36.'
+  - where: 'note 9:21 “An hour kept without a temple”'
+    claim: 'Ezra confesses at the evening sacrifice, over the transgression of the returned exiles'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/9?lang=eng'
+    quote: 'because of the transgression of those that had been carried away; and I sat astonied until the evening sacrifice.'
+  - where: 'note 9:21 “An hour kept without a temple”'
+    claim: 'Ezra prays at the evening sacrifice'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/9?lang=eng'
+    quote: 'And at the evening sacrifice I arose up from my heaviness'
+  - where: 'note 9:21 “An hour kept without a temple”'
+    claim: 'Psalm 141 sets prayer beside the evening sacrifice'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/141?lang=eng'
+    quote: 'Let my prayer be set forth before thee as incense; and the lifting up of my hands as the evening sacrifice.'
+
+  # ---------- note 9:23 ----------
+  - where: 'note 9:23 “Answered at the first word”'
+    claim: 'The noun in 9:23 and 9:25 is dabar, “word” (H1697) (hebrew.mjs daniel 9:23, 9:25)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'דָבָ֗ר'
+  - where: 'note 9:23 “Answered at the first word”'
+    claim: 'A modern translation: “a word went out”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%209&version=NRSVUE'
+    quote: 'At the beginning of your supplications a word went out, and I have come to declare it'
+  - where: 'note 9:23 “Answered at the first word”'
+    claim: 'The same translation renders 9:25 alike'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%209&version=NRSVUE'
+    quote: 'from the time that the word went out to restore and rebuild Jerusalem'
+  - where: 'note 9:23 “Answered at the first word”'
+    claim: 'The Church’s footnote at 9:3 joins the chapter to Daniel 10:12'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: '“seek”: Dan. 10:12.'
+  - where: 'note 9:23 “Answered at the first word”'
+    claim: '“Greatly beloved” is said to Daniel again in 10:11 and 10:19'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/10?lang=eng'
+    quote: 'O Daniel, a man greatly beloved, understand the words that I speak unto thee'
+
+  # ---------- note 9:24 sevens ----------
+  - where: 'note 9:24 “Seventy sevens”'
+    claim: 'Shabua means a period of seven, heptad, week'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7620.htm'
+    quote: 'period of seven (days, years), heptad, week'
+  - where: 'note 9:24 “Seventy sevens”'
+    claim: 'BDB takes the weeks of Daniel 9 as sevens of years'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7620.htm'
+    quote: 'heptad or seven of years, late, Daniel 9:24,25,26,27'
+  - where: 'note 9:24 “Seventy sevens”'
+    claim: 'The word would more properly be translated sevens'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'The Hebrew word that is commonly translated weeks would more properly be translated sevens.'
+  - where: 'note 9:24 “Seventy sevens”'
+    claim: 'The sevens could be of several units or unspecified'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'These periods of seven could be days, weeks, months, years, or even periods of unspecified duration.'
+  - where: 'note 9:24 “Seventy sevens”'
+    claim: 'A Latter-day Saint reading: a symbol for an unknown period of time'
+    key: mcconkie-special-witnesses
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-new-testament/special-witnesses-birth-christ'
+    quote: 'after seventy weeks (a symbol for an unknown period of time)'
+  - where: 'note 9:24 “Seventy sevens”'
+    claim: 'Each seventh year was a sabbath year (chapter heading of Leviticus 25)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/25?lang=eng'
+    quote: 'Each seventh year is to be kept as a sabbath year'
+  - where: 'note 9:24 “Seventy sevens”'
+    claim: 'The jubilee counted seven sabbaths of years'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/25?lang=eng'
+    quote: 'And thou shalt number seven sabbaths of years unto thee, seven times seven years'
+  - where: 'note 9:24 “Seventy sevens”'
+    claim: 'Chronicles describes the seventy years as the land’s sabbaths'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/36?lang=eng'
+    quote: 'until the land had enjoyed her sabbaths: for as long as she lay desolate she kept sabbath, to fulfil threescore and ten years.'
+  - where: 'note 9:24 “Seventy sevens”'
+    claim: 'The Church’s footnote at 9:2 joins Daniel’s seventy years to 2 Chronicles 36:21'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: '“seventy”: 2 Chr. 36:21; Jer. 25:12.'
+  - where: 'note 9:24 “Seventy sevens”'
+    claim: 'It has been argued that sevens of years were natural, since the seventy years were seen as punishment for neglected sabbatical years (2 Chr. 36:21); Keil reports the argument as others’'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/9.htm'
+    quote: 'the seventy years'' desolation of the land was viewed as a punishment for the interrupted festival of the sabbatical years: 2 Chronicles 36:21'
+  - where: 'note 9:24 “Seventy sevens”'
+    claim: 'The argument is disputed: the law does not call its seven-year periods by this word'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/9.htm'
+    quote: 'But since these periods of seven years, as Hengstenberg himself confesses, are not called in the law'
+  - where: 'note 9:24 “Seventy sevens”'
+    claim: 'BDB cites the verb “determined” only from Daniel 9:24'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2852.htm'
+    quote: 'Daniel 9:24 seventy weeks are determined upon thy people.'
+  - where: 'note 9:24 “Seventy sevens”'
+    claim: 'In later Hebrew the verb means cut, cut off, decide'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2852.htm'
+    quote: 'cut, cut off, decide'
+  - where: 'note 9:24 “Seventy sevens”'
+    claim: 'Many attempts to tie the weeks to history, with differing results'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'many attempts have been made to do that, resulting in several differing interpretations of the passage'
+  - where: 'note 9:24 “Seventy sevens”'
+    claim: 'Sperry, as the manual prints him, on the difficulty of the passage'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'one of the most difficult passages in all of the Old Testament'
+
+  # ---------- note 9:24 six ----------
+  - where: 'note 9:24 “Six things the seventy weeks are for”'
+    claim: 'Kipper: cover over, pacify, make propitiation'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'cover over (figurative), pacify, make propitiation'
+  - where: 'note 9:24 “Six things the seventy weeks are for”'
+    claim: 'A modern translation: “to atone for iniquity”; “vision and prophet”; “a most holy place”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%209&version=NRSVUE'
+    quote: 'to finish the transgression, to put an end to sin, and to atone for iniquity, to bring in everlasting righteousness, to seal both vision and prophet, and to anoint a most holy place.'
+  - where: 'note 9:24 “Six things the seventy weeks are for”'
+    claim: 'The translation’s note at 9:24 gives “thing or one” as alternatives to “place”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%209&version=NRSVUE'
+    quote: '9.24 Or thing or one'
+  - where: 'note 9:24 “Six things the seventy weeks are for”'
+    claim: 'The chapter heading: the Messiah will make reconciliation for iniquity'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: 'Gabriel reveals the time of the coming of the Messiah, who will make reconciliation for iniquity'
+  - where: 'note 9:24 “Six things the seventy weeks are for”'
+    claim: 'The written text (ketiv) has the verb “seal” where the reading (qere) has “make an end” (hebrew.mjs daniel 9:24, words 11–12)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'וּ/לְ/הָתֵ֤ם'
+  - where: 'note 9:24 “Six things the seventy weeks are for”'
+    claim: 'BDB notes the ketiv and qere at Daniel 9:24 under “seal”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2856.htm'
+    quote: 'Daniel 9:24 Kt (Qr'
+  - where: 'note 9:24 “Six things the seventy weeks are for”'
+    claim: 'The verb means seal, affix seal, seal up'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2856.htm'
+    quote: 'verb seal, affix seal, seal up'
+  - where: 'note 9:24 “Six things the seventy weeks are for”'
+    claim: '“Prophecy” is the noun “prophet” (H5030) (hebrew.mjs daniel 9:24, word 22)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'וְ/נָבִ֔יא'
+  - where: 'note 9:24 “Six things the seventy weeks are for”'
+    claim: '“The most Holy” is qodesh qodashim, holy of holies, with no article (hebrew.mjs daniel 9:24, words 24–25)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'קֹ֥דֶשׁ'
+  - where: 'note 9:24 “Six things the seventy weeks are for”'
+    claim: '“Anoint” is the verb mashach (H4886) (hebrew.mjs daniel 9:24, word 23)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'וְ/לִ/מְשֹׁ֖חַ'
+  - where: 'note 9:24 “Six things the seventy weeks are for”'
+    claim: 'Mashiach, “Messiah,” is from the verb mashach'
+    key: strongs-concordance
+    url: 'https://biblehub.com/hebrew/4899.htm'
+    quote: 'From mashach; anointed; usually a consecrated person (as a king, priest, or saint); specifically, the Messiah'
+
+  # ---------- note 9:25 ----------
+  - where: 'note 9:25 “Messiah the Prince”'
+    claim: 'Mashiach means anointed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4899.htm'
+    quote: 'noun masculine anointed'
+  - where: 'note 9:25 “Messiah the Prince”'
+    claim: 'The word “Messiah” occurs in the King James Old Testament only in Daniel 9:25–26'
+    key: bd-messiah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/messiah?lang=eng'
+    quote: 'It occurs only in Dan. 9:25–26 and John 1:41; 4:25 (Messias).'
+  - where: 'note 9:25 “Messiah the Prince”'
+    claim: 'Used of the king of Israel'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4899.htm'
+    quote: 'king of Israel anointed by divine command'
+  - where: 'note 9:25 “Messiah the Prince”'
+    claim: 'Used of the high priest'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4899.htm'
+    quote: 'high priest of Israel'
+  - where: 'note 9:25 “Messiah the Prince”'
+    claim: 'Used of Cyrus in Isaiah 45:1'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4899.htm'
+    quote: 'Cyrus as commissioned by'
+  - where: 'note 9:25 “Messiah the Prince”'
+    claim: 'BDB reads a Messianic prince in Daniel 9:25'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4899.htm'
+    quote: 'Messianic prince'
+  - where: 'note 9:25 “Messiah the Prince”'
+    claim: 'BDB lists scholars who refer 9:25 to Cyrus or to the high priest Joshua'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4899.htm'
+    quote: 'refer Daniel 9:25 to Cyrus'
+  - where: 'note 9:25 “Messiah the Prince”'
+    claim: 'Nagid: leader, literally one in front'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5057.htm'
+    quote: 'noun masculine leader (literally probably one in front), ruler, prince'
+  - where: 'note 9:25 “Messiah the Prince”'
+    claim: 'Neither noun has the article (hebrew.mjs daniel 9:25, words 10–11, morphology HNcmsa)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'מָשִׁ֣יחַ'
+  - where: 'note 9:25 “Messiah the Prince”'
+    claim: 'The chapter heading reads the Messiah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: 'Gabriel reveals the time of the coming of the Messiah, who will make reconciliation for iniquity'
+  - where: 'note 9:25 “Messiah the Prince”'
+    claim: 'Christ is the Greek equivalent of Messiah'
+    key: bd-messiah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/messiah?lang=eng'
+    quote: 'In the New Testament the deliverer is called the Christ, which is the Greek equivalent of Messiah'
+  - where: 'note 9:25 “Messiah the Prince”'
+    claim: 'The Hebrew accent (atnach) stands under “seven” (hebrew.mjs daniel 9:25, word 13)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'שִׁבְעָ֑ה'
+  - where: 'note 9:25 “Messiah the Prince”'
+    claim: 'A modern translation divides after seven weeks and has “an anointed prince”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%209&version=NRSVUE'
+    quote: 'until the time of an anointed prince, there shall be seven weeks, and for sixty-two weeks it shall be built again with streets and moat, but in a troubled time.'
+
+  # ---------- note 9:26 ----------
+  - where: 'note 9:26 “Cut off, but not for himself”'
+    claim: 'The chapter heading: the Messiah will be cut off'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: 'The Messiah will be cut off.'
+  - where: 'note 9:26 “Cut off, but not for himself”'
+    claim: 'The phrase seems to allude to the Crucifixion'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'Verse 26 makes reference to the Messiah being “cut off, but not for himself,” which seems to be an allusion to His Crucifixion.'
+  - where: 'note 9:26 “Cut off, but not for himself”'
+    claim: 'Karat: cut off, cut down'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3772.htm'
+    quote: 'verb cut off, cut down'
+  - where: 'note 9:26 “Cut off, but not for himself”'
+    claim: '“But not for himself” is two Hebrew words, the particle of non-existence (H369) and “to him” (hebrew.mjs daniel 9:26, words 7–8)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'וְ/אֵ֣ין'
+  - where: 'note 9:26 “Cut off, but not for himself”'
+    claim: 'The second of the two words is “to him” (hebrew.mjs daniel 9:26, word 8)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'ל֑/וֹ'
+  - where: 'note 9:26 “Cut off, but not for himself”'
+    claim: 'A modern translation: “and shall have nothing”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%209&version=NRSVUE'
+    quote: 'an anointed one shall be cut off and shall have nothing'
+  - where: 'note 9:26 “Cut off, but not for himself”'
+    claim: 'A suffering, dying messiah was almost unknown in pre-Christian Jewish texts'
+    key: hatch-messianism
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/messianism-jewish-messiahs-new-testament-period'
+    quote: 'in pre-Christian Jewish texts of the Second Temple period the notion that the messiah was to suffer and die was virtually nonexistent'
+  - where: 'note 9:26 “Cut off, but not for himself”'
+    claim: 'The same study calls the passage ambiguous about humiliation and death'
+    key: hatch-messianism
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/messianism-jewish-messiahs-new-testament-period'
+    quote: 'it is ambiguous whether this passage suggests that the anointed one will be humiliated and ultimately killed'
+  - where: 'note 9:26 “Cut off, but not for himself”'
+    claim: 'The Church’s footnote at 9:26 joins “destroy” to Luke 19:44'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: '“destroy”: Luke 19:44 (43–44).'
+  - where: 'note 9:27 “The last week, and what is not explained”'
+    claim: 'The first fulfillment was the Roman siege under Titus, A.D. 70'
+    key: bd-abomination-of-desolation
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abomination-of-desolation?lang=eng'
+    quote: 'The first was to be when the Roman legions under Titus, in A.D. 70, laid siege to Jerusalem'
+  - where: 'note 9:26 “Cut off, but not for himself”'
+    claim: 'The rest of the chapter describes the destruction of Jerusalem and the temple'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'The rest of the chapter describes the destruction of Jerusalem and the temple'
+
+  # ---------- note 9:27 ----------
+  - where: 'note 9:27 “The last week, and what is not explained”'
+    claim: 'The one week of 9:27 has not been satisfactorily explained'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'The reference to confirming the covenant for one week (see Daniel 9:27), however, has not been satisfactorily explained'
+  - where: 'note 9:27 “The last week, and what is not explained”'
+    claim: 'A modern translation reads the verse of the coming prince, the desolator'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%209&version=NRSVUE'
+    quote: 'and in their place shall be a desolating sacrilege until the decreed end is poured out upon the desolator.'
+  - where: 'note 9:27 “The last week, and what is not explained”'
+    claim: 'The translation marks the Hebrew of 9:27 as uncertain'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%209&version=NRSVUE'
+    quote: '9.27 Cn: Meaning of Heb uncertain'
+  - where: 'note 9:27 “The last week, and what is not explained”'
+    claim: 'Chadwick takes “he” as the Lord'
+    key: eom-daniel-prophecies
+    url: 'https://eom.byu.edu/index.php/Daniel,_Prophecies_of'
+    quote: 'Verse 27 reports that the Lord would'
+  - where: 'note 9:27 “The last week, and what is not explained”'
+    claim: 'Chadwick’s suggestion for the seventieth week'
+    key: eom-daniel-prophecies
+    url: 'https://eom.byu.edu/index.php/Daniel,_Prophecies_of'
+    quote: 'This seventieth week may typify the decades that Christ''s true church endured, led then by living apostles and prophets'
+  - where: 'note 9:27 “The last week, and what is not explained”'
+    claim: 'Chadwick: the prophecy suggests the apostasy of the New Testament church'
+    key: eom-daniel-prophecies
+    url: 'https://eom.byu.edu/index.php/Daniel,_Prophecies_of'
+    quote: 'it suggests that the New Testament church would fall into apostasy'
+  - where: 'note 9:27 “The last week, and what is not explained”'
+    claim: 'The end of the chapter parallels Matthew 24:15 and Joseph Smith’s inspired revision of it'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'parallels very closely the message of Matthew 24:15 and Joseph Smith’s inspired revision of that verse (see JS—M 1:12)'
+  - where: 'note 9:27 “The last week, and what is not explained”'
+    claim: 'Joseph Smith—Matthew: the phrase concerns the destruction of Jerusalem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-m/1?lang=eng'
+    quote: 'spoken of by Daniel the prophet, concerning the destruction of Jerusalem, then you shall stand in the holy place'
+  - where: 'note 9:27 “The last week, and what is not explained”'
+    claim: 'Joseph Smith—Matthew: it will be fulfilled again'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-m/1?lang=eng'
+    quote: 'And again shall the abomination of desolation, spoken of by Daniel the prophet, be fulfilled.'
+  - where: 'note 9:27 “The last week, and what is not explained”'
+    claim: 'The second fulfillment is in the last days'
+    key: bd-abomination-of-desolation
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abomination-of-desolation?lang=eng'
+    quote: 'Speaking of the last days, of the days following the Restoration of the gospel'
+  - where: 'note 9:27 “The last week, and what is not explained”'
+    claim: 'Daniel uses the phrase at 11:31 and 12:11'
+    key: bd-abomination-of-desolation
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abomination-of-desolation?lang=eng'
+    quote: 'Daniel spoke prophetically of a day when there would be “the abomination that maketh desolate” (Dan. 11:31; 12:11)'
+  - where: 'note 9:27 “The last week, and what is not explained”'
+    claim: 'The Church’s footnote at 9:27 points to the Topical Guide on the abomination of desolation'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: '“abominations”: TG Abomination of Desolation.'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'Verse 24 refers to the coming of Christ and His Atonement'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'Daniel 9:24 is undoubtedly a reference to the coming of Christ and His Atonement, by which forgiveness of sins and reconciliation to God through repentance would be made possible.'
+  - where: 'christ'
+    claim: 'The LORD (Jehovah) is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
+  - where: 'christ'
+    claim: 'The Gabriel of Daniel is the angel sent to Mary'
+    key: bd-gabriel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/gabriel?lang=eng'
+    quote: 'The name of an angel sent to Daniel (Dan. 8:16; 9:21); to Zacharias (Luke 1:11–19); and to Mary (Luke 1:26–38).'
+  - where: 'christ'
+    claim: 'Gabriel was sent to Nazareth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/1?lang=eng'
+    quote: 'And in the sixth month the angel Gabriel was sent from God unto a city of Galilee, named Nazareth,'
+  - where: 'christ'
+    claim: 'Gabriel announced to Mary that she would be the mother of God’s Son'
+    key: mcconkie-special-witnesses
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-new-testament/special-witnesses-birth-christ'
+    quote: 'that she was to become the mother of God’s Son'
+  - where: 'christ'
+    claim: 'Gabriel promised an everlasting righteousness accomplished in their behalf'
+    key: mcconkie-special-witnesses
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-new-testament/special-witnesses-birth-christ'
+    quote: 'Gabriel promised that an everlasting righteousness would be accomplished in their behalf'
+  - where: 'christ'
+    claim: 'The chapter heading: the Messiah will make reconciliation for iniquity and be cut off'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: 'Gabriel reveals the time of the coming of the Messiah, who will make reconciliation for iniquity'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: 'Ezra 1 ties Cyrus’s first year to the word of Jeremiah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/1?lang=eng'
+    quote: 'Now in the first year of Cyrus king of Persia, that the word of the Lord by the mouth of Jeremiah might be fulfilled'
+  - where: 'explore'
+    claim: 'Ezra’s confession begins at the evening sacrifice'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/9?lang=eng'
+    quote: 'And at the evening sacrifice I arose up from my heaviness'
