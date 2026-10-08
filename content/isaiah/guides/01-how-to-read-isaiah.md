@@ -11,7 +11,7 @@ This guide gathers the keys that help most. None of them are secret. They are ha
 
 ## Key 1: Nephi’s four keys
 
-In [[2 Ne. 25:1–8]], Nephi explains why Isaiah is hard and what makes him plain. Read those verses slowly; they are the best introduction to Isaiah ever written. Nephi names four things:
+In [[2 Ne. 25:1–8]], Nephi explains why Isaiah is hard and what makes him plain. Read those verses slowly; they are a good introduction to Isaiah. Nephi names four things:
 
 1. **“The manner of prophesying among the Jews”** (verse 1). Isaiah writes in the forms of ancient Hebrew prophecy: poetic style, imagery and figurative language, allusions to the law of Moses, and phrases with more than one meaning.[@ot-manual-e] Nephi’s people, raised far from Jerusalem, didn’t know those forms. Keys 2–5 below are about learning them.
 2. **“The regions round about”** (verse 6). Nephi had lived in Jerusalem and knew the geography and the nations Isaiah names. We have to learn them, because Isaiah uses places both literally and as figures.[@ot-manual-e] See [Isaiah’s World](/isaiah/guides/isaiahs-world/).
@@ -44,7 +44,7 @@ These aren’t two separate commands to two audiences. They are one summons said
 
 <div class="callout">
 
-**A practical tip:** When a verse confuses you, find its partner line. Isaiah almost always explains his hard line with an easier one right next to it. In “he was wounded for our transgressions, he was bruised for our iniquities” ([[Isa. 53:5]]), *wounded* and *bruised* explain each other, and so do *transgressions* and *iniquities*.
+**A practical tip:** When a verse confuses you, find its partner line. Isaiah often explains a hard line with the one right next to it. In “he was wounded for our transgressions, he was bruised for our iniquities” ([[Isa. 53:5]]), *wounded* and *bruised* explain each other, and so do *transgressions* and *iniquities*.
 
 </div>
 
@@ -69,11 +69,11 @@ Isaiah moves between several time periods, often without warning, because some o
 | **The Savior’s mortal ministry** | about 700 years after Isaiah[@mcconkie-keys] | the Servant, Immanuel, the Anointed One, the Man of Sorrows |
 | **The last days and the Millennium** | our day and beyond | the ensign, gathering, Zion, “in that day,” new heavens and new earth |
 
-One passage can speak to more than one horizon. In chapters 13–14, Babylon is both the nation and the wickedness of the world that the nation epitomized.[@ot-manual-e] Cyrus captured the nation,[@bd-cyrus] and the same figure describes the downfall of “Babylon” the wicked world at the Second Coming ([[D&C 1:16]]; [[D&C 133:14]]). The Book of Mormon calls this *likening*. The Church’s Old Testament manual calls it *dualism*.[@ot-manual-e] Nephi says “all things which have been given of God from the beginning of the world, unto man, are the typifying of him” ([[2 Ne. 11:4]]). A good question to ask of any Isaiah passage is: *Where else has this pattern happened, and where will it happen again?*
+One passage can speak to more than one horizon. In chapters 13–14, Babylon is both the nation and the wickedness of the world that the nation epitomized.[@ot-manual-e] Cyrus captured the nation,[@bd-cyrus] and the figure of Babylon also describes the downfall of “Babylon” the wicked world at the Second Coming ([[D&C 1:16]]; [[D&C 133:14]]). The Book of Mormon calls this *likening*; it is also called *dualism*.[@ot-manual-e] Nephi says “all things which have been given of God from the beginning of the world, unto man, are the typifying of him” ([[2 Ne. 11:4]]). A good question to ask of any Isaiah passage is: *Where else has this pattern happened, and where will it happen again?*
 
 ## Key 4: The “prophetic perfect”
 
-Hebrew prophets sometimes describe future events in the past tense, as though they had already happened. The prophet has seen it, so it is as good as done. “For unto us a child **is born**” ([[Isa. 9:6]]): the prophet here sees as born the one he foretold in chapter 7.[@delitzsch, on Isa. 9:6] That was some seven hundred years before His birth.[@mcconkie-keys] Isaiah 53 is full of past-tense verbs: “he **was** wounded… he **was** oppressed.” Don’t let the tense throw you. Ask what the prophet saw, not when the verb says it happened.
+Hebrew prophets sometimes describe future events in the past tense, as though they had already happened. The prophet has seen it, so it is as good as done. Isaiah 53 is full of past-tense verbs: “he **was** wounded… he **was** oppressed.” In “For unto us a child **is born**” ([[Isa. 9:6]]), the prophet sees as born the one he foretold in chapter 7.[@delitzsch, on Isa. 9:6] That was some seven hundred years before His birth.[@mcconkie-keys] Don’t let the tense throw you. Ask what the prophet saw, not when the verb says it happened.
 
 ## Key 5: Listen for the change of speaker
 
@@ -113,11 +113,11 @@ Some confusion comes from the King James English, not from Isaiah. A few words t
 
 ## Key 9: Liken, and look for Christ
 
-Nephi read Isaiah for two purposes: to “liken all scriptures unto us, that it might be for our profit and learning” ([[1 Ne. 19:23]]), and to persuade his people to “believe in the Lord their Redeemer” ([[1 Ne. 19:23]]; [[2 Ne. 11:2–6]]). He said his soul delighted “in proving unto my people the truth of the coming of Christ” ([[2 Ne. 11:4]]). Every chapter page on this site includes a **Seeing Christ** section for that reason. See [Isaiah’s Witness of Christ](/isaiah/guides/isaiah-and-christ/).
+Nephi names two purposes for reading Isaiah: to “liken all scriptures unto us, that it might be for our profit and learning” ([[1 Ne. 19:23]]), and to persuade his people to “believe in the Lord their Redeemer” ([[1 Ne. 19:23]]; [[2 Ne. 11:2–6]]). He said his soul delighted “in proving unto my people the truth of the coming of Christ” ([[2 Ne. 11:4]]). Every chapter page on this site includes a **Seeing Christ** section for that reason. See [Isaiah’s Witness of Christ](/isaiah/guides/isaiah-and-christ/).
 
 ## A word about “Second Isaiah”
 
-If you read modern commentaries, you will quickly meet the idea that the book of Isaiah had more than one author. Many text-critical scholars hold that the disputed chapters, mainly 40–66, were written or edited after the Babylonian deportation of the sixth century BC, and chapters 56–66 are argued most strongly to be post-exilic.[@isaiah-in-bom, 423, 432–33] The main arguments concern differences in form and content and the problem of foreknowledge, above all the naming of Cyrus ([[Isa. 44:28]]; [[Isa. 45:1]]).[@isaiah-in-bom, 425–29]
+If you read modern commentaries, you will quickly meet the idea that the book of Isaiah had more than one author. Many text-critical scholars hold that the disputed chapters, mainly 40–66, were written or edited after the Babylonian deportation of the sixth century BC, and chapters 56–66 are argued most strongly to date from after the exile.[@isaiah-in-bom, 423, 432–33] The main arguments concern differences in form and content and the problem of foreknowledge, above all the naming of Cyrus ([[Isa. 44:28]]; [[Isa. 45:1]]).[@isaiah-in-bom, 425–29]
 
 Most Latter-day Saint writers read the book as Isaiah’s prophecy, for reasons like these:[@isaiah-in-bom, 423–24]
 
@@ -127,7 +127,7 @@ Most Latter-day Saint writers read the book as Isaiah’s prophecy, for reasons 
 
 Two cautions belong with these reasons. The New Testament references are helpful but “do not settle the question of authorship,” since they name the book as a whole without dating each part of it.[@isaiah-in-bom, 425] And the Book of Mormon requires only the chapters it quotes or uses to be older than 600 BC; it is possible that some parts of Isaiah were missing from the brass plates.[@isaiah-in-bom, 432]
 
-That doesn’t mean the observations behind the scholarly theory are worthless: critical scholars may have correctly identified real differences in the text, and the question is how best to explain them.[@isaiah-in-bom, 428] Latter-day Saint readers explain them by Isaiah’s inspired view of a future he was shown.[@isaiah-in-bom, 429–30]
+That doesn’t mean the observations behind the scholarly theory are worthless: critical scholars may have correctly identified real differences in the text, and the question is how best to explain them.[@isaiah-in-bom, 428] A Latter-day Saint reader can explain them by Isaiah’s inspired view of a future he was shown.[@isaiah-in-bom, 429–30]
 
 ## Where to start
 
