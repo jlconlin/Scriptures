@@ -5,11 +5,11 @@ icon: map
 sources: [bd-jeremiah, bd-assyria, bd-captivities]
 ---
 
-Jeremiah lived through the hinge of Old Testament history: Assyria faded, Babylon rose, and Judah lost Jerusalem and the temple. He was not predicting a distant disaster from a calm city. He preached through the final forty years before its fall.[@bd-jeremiah]
+Jeremiah lived through the hinge of Old Testament history: Assyria faded, Babylon rose, and Judah lost Jerusalem and the temple. The disaster he warned of was not distant: he preached through the final forty years before Jerusalem’s fall.[@bd-jeremiah]
 
 ## The story in one paragraph
 
-Judah was a small kingdom caught between Egypt to the southwest and the Mesopotamian empires to the northeast. Josiah’s reform briefly renewed worship, but his successors pursued unstable alliances and resisted Babylon. Nebuchadnezzar’s armies took Jerusalem in stages; under Zedekiah, the city was besieged, breached, and destroyed. The exile that follows is the disaster Jeremiah had spent his ministry warning about.[@bd-captivities]
+Judah was a small kingdom caught between Egypt to the southwest and the Mesopotamian empires to the northeast. Josiah’s reform briefly renewed worship, but his successors pursued unstable alliances and resisted Babylon. Nebuchadnezzar’s armies took Jerusalem in stages; under Zedekiah, the city was besieged, breached, and destroyed. The exile that followed was the disaster Jeremiah had spent his ministry warning about.[@bd-captivities]
 
 ## Timeline
 
@@ -24,11 +24,11 @@ Judah was a small kingdom caught between Egypt to the southwest and the Mesopota
 | 586 | Jerusalem falls; Zedekiah is taken to Babylon | [[Jer. 39]], [[Jer. 52]] |
 | after 586 | The remaining community takes Jeremiah to Egypt | [[Jer. 40–44]] |
 
-Dates in this period sometimes vary by a year among reference works. The guide follows the Bible Dictionary’s 626–586 frame for Jeremiah and 597–586 for Zedekiah.[@bd-jeremiah]
+Dates in this period sometimes vary by a year among reference works. This guide uses 626–586 for Jeremiah and 597–586 for Zedekiah.[@bd-jeremiah]
 
 ## The kings Jeremiah knew
 
-**Josiah** begins the book’s story. Jeremiah’s earliest prophecies belong to his reign, and the book does not deny the reality of Josiah’s reform. It asks whether outward reform reached the heart.
+**Josiah** begins the book’s story. Jeremiah’s earliest prophecies belong to his reign, and the book does not deny that Josiah’s reform was real; it asks whether outward reform reached the heart.
 
 **Jehoiakim** is the king who cuts up and burns Jeremiah’s scroll ([[Jer. 36]]). His reign makes the conflict between a prophet’s word and royal power visible.
 
@@ -38,9 +38,9 @@ Dates in this period sometimes vary by a year among reference works. The guide f
 
 ## The empires at the edges
 
-**Babylon** is the immediate military power in Jeremiah. Nebuchadnezzar, its great king, ruled 604–561 B.C.;[@bd-assyria] Jeremiah calls him the Lord’s servant in the particular work of judging Judah ([[Jer. 25:9]]). That does not make Babylon righteous: Jeremiah’s final oracles announce Babylon’s own judgment.
+**Babylon** is the immediate military power in Jeremiah. Nebuchadnezzar, its great king, ruled 604–561 B.C.;[@bd-assyria] Jeremiah calls him the Lord’s servant in the particular work of judging Judah ([[Jer. 25:9]]). That does not make Babylon righteous: Jeremiah’s final prophecies announce Babylon’s own judgment.
 
-**Egypt** is the tempting alternative. Judah repeatedly looks south for help against Babylon; Jeremiah treats that reliance as another refusal to trust the Lord ([[Jer. 37:5–10]]; [[Jer. 42:13–19]]). The survivors’ flight to Egypt therefore is more than a change of address—it is the book’s final act of resistance.
+**Egypt** is the tempting alternative. Judah repeatedly looks south for help against Babylon; Jeremiah treats that reliance as another refusal to trust the Lord ([[Jer. 37:5–10]]; [[Jer. 42:13–19]]). The survivors’ flight to Egypt is therefore more than a change of address: the book presents it as their final act of resistance.
 
 **Assyria** is mostly the empire of the previous generation. Its earlier destruction of the northern kingdom explains why Jeremiah can speak to “Israel” and “Judah” as wounded, divided siblings and still promise their reunion.[@bd-assyria]
 
@@ -56,4 +56,4 @@ Dates in this period sometimes vary by a year among reference works. The guide f
 
 **Egypt** is the destination of the survivors in chapters 43–44, where Jeremiah’s ministry ends in the biblical account.
 
-Keep this frame in view, but do not make it a substitute for the book. Jeremiah’s world is political, but his central question is covenantal: will Judah hear the Lord before the consequences already gathering at the gate arrive?
+This frame is no substitute for the book. Jeremiah’s world is political, but his central question is covenantal: will Judah hear the Lord before the consequences already gathering at the gate arrive?
