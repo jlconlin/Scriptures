@@ -5,11 +5,11 @@ icon: map
 sources: [ot-manual-f, bd-isaiah, bd-captivities, bd-assyria, bd-babylon, bd-persia, bd-cyrus, bd-hezekiah, bd-ahaz, bd-uzziah, bd-sennacherib, bd-samaria, bd-damascus, bd-egypt, bd-ethiopia, bd-philistines, bd-moab, bd-edom, bd-tyre, bd-tarshish, bd-media, bd-elam, bd-lachish, bd-nineveh, bd-temple-of-zerubbabel, bd-hezekiahs-tunnel, bd-gate, bd-high-places, bd-grove, gs-ensign, luckenbill-annals, great-isaiah-scroll, lds-scriptures]
 ---
 
-Nephi said that one reason he could understand Isaiah was that he knew “the regions round about” ([[2 Ne. 25:6]]). He had grown up in Jerusalem. He knew why Egypt was tempting, why Assyria was terrifying, and why Babylon was a byword. This guide tries to give you some of what Nephi knew.
+Nephi said that one reason he could understand Isaiah was that he knew “the regions round about” ([[2 Ne. 25:6]]). Growing up in Jerusalem, he would have known why Egypt was tempting, why Assyria was terrifying, and why Babylon was a byword. This guide tries to give you some of what Nephi knew.
 
 ## The big picture in one paragraph
 
-Isaiah was a prophet in **Jerusalem**, capital of the kingdom of **Judah**, from about 740 to 701 BC.[@bd-isaiah] To the north was the kingdom of **Israel**, often called **Ephraim** ([[Isa. 7:9]]), with its capital at **Samaria**.[@bd-samaria] Both kingdoms lay between two great powers, **Egypt** and **Assyria**, and an alliance with Egypt against Assyria was for some time the policy of Judah’s kings.[@bd-egypt] During Isaiah’s ministry, Assyria conquered Israel and scattered the ten tribes (722 BC), then invaded Judah and besieged Jerusalem (701 BC).[@ot-manual-f] The Lord delivered Jerusalem that time.[@ot-manual-f] But Isaiah also foretold the destruction of Judah by a later empire, **Babylon**,[@ot-manual-f] which carried Judah into exile (586 BC), and a Persian king, **Cyrus**, named in [[Isa. 44:28]], who would let the exiles go home (536 BC).[@bd-captivities]
+Isaiah was a prophet in **Jerusalem**, capital of the kingdom of **Judah**, from about 740 to 701 BC.[@bd-isaiah] To the north was the kingdom of **Israel**, often called **Ephraim** ([[Isa. 7:9]]), with its capital at **Samaria**.[@bd-samaria] Both kingdoms lay between two great powers, **Egypt** and **Assyria**, and an alliance with Egypt against Assyria was for some time the policy of Judah’s kings.[@bd-egypt] During Isaiah’s ministry, Assyria conquered Israel and scattered the ten tribes (722 BC), then invaded Judah and besieged Jerusalem (701 BC).[@ot-manual-f] The Lord delivered Jerusalem that time.[@ot-manual-f] But Isaiah also foretold the destruction of Judah by a later empire, **Babylon**,[@ot-manual-f] and a Persian king, **Cyrus**, named in [[Isa. 44:28]], who would let the exiles go home. Babylon carried Judah into exile in 586 BC, and Cyrus let the exiles return in 536 BC.[@bd-captivities]
 
 ## A map of Isaiah’s world
 
@@ -47,7 +47,7 @@ Isaiah was a prophet in **Jerusalem**, capital of the kingdom of **Judah**, from
 
 ## Timeline
 
-All dates are approximate, and the Church’s reference works differ from one another by a year or more in places (the student manual dates the fall of Samaria to 722, the Bible Dictionary to 721).[@ot-manual-f][@bd-captivities]
+All dates are approximate, and the sources differ by a year or more in places: the fall of Samaria is dated to 722[@ot-manual-f] and to 721.[@bd-captivities]
 
 | Date (BC) | Event | Where in Isaiah |
 |---|---|---|
@@ -110,13 +110,13 @@ All dates are approximate, and the Church’s reference works differ from one an
 - **Threshing.** Isaiah pictures threshing and then fanning, so that the wind carries the chaff away ([[Isa. 41:15–16]]).
 - **City gates.** The gate of a city was often a place for public business.[@bd-gate] Isaiah and Amos both speak of justice at the gate ([[Isa. 29:21]]; [[Amos 5:15]]).
 - **Watchmen.** Men posted to watch and to declare what they saw, set “upon thy walls” ([[Isa. 21:6–12]]; [[Isa. 52:8]]; [[Isa. 62:6]]).
-- **Cisterns and pools.** Facing the Assyrian threat, Hezekiah moved to protect Jerusalem’s water supply.[@ot-manual-f] A tunnel about 1,770 feet long, cut through limestone rock, brought the waters of the Gihon spring inside the walls to the pool of Siloam ([[2 Kgs. 20:20]]), and an inscription carved by the workmen survives.[@bd-hezekiahs-tunnel]
+- **Jerusalem’s water supply.** Facing the Assyrian threat, Hezekiah moved to protect it.[@ot-manual-f] His tunnel brought the waters of the Gihon spring inside the walls to the pool of Siloam ([[2 Kgs. 20:20]]).[@bd-hezekiahs-tunnel]
 - **High places and groves.** Altars on hilltops that became local centers of worship; when idolatry came in, many were used for heathen worship.[@bd-high-places] A “grove” (Hebrew *Asherah*) was a living tree or a tree-like pole set up as an object of worship.[@bd-grove]
 - **Ensigns.** A flag or standard around which people gather, a rallying point in battle ([[Isa. 5:26]]; [[Isa. 11:12]]; [[Isa. 18:3]]).[@gs-ensign]
 
 ## Archaeology that illuminates Isaiah
 
-- **Sennacherib’s Prism** records the Assyrian king’s version of the 701 BC campaign. In Luckenbill’s translation he boasts of besieging and taking forty-six of Hezekiah’s strong cities and of shutting Hezekiah up “like a caged bird” in Jerusalem.[@luckenbill-annals, p. 11] He does *not* claim to have taken Jerusalem, which fits [[Isa. 37:33–37]]; Hezekiah instead sent tribute after him to Nineveh.[@luckenbill-annals, pp. 11–12]
-- **The Lachish reliefs** depict the siege of Lachish, the Judean city mentioned in [[Isa. 36:2]];[@bd-lachish] an epigraph shows Sennacherib on a throne “while the booty of Lachish passed before him.”[@luckenbill-annals, epigraph XXV, pp. 156–57]
-- **Hezekiah’s Tunnel** and its **Siloam Inscription** preserve the water tunnel of [[2 Kgs. 20:20]]. The inscription tells how workmen digging from both ends met in the rock, and it is now in the museum at Istanbul.[@bd-hezekiahs-tunnel]
-- **The Great Isaiah Scroll**, found among the Dead Sea Scrolls at Qumran in 1947, is an almost complete copy of Isaiah dating to about 125 BC, some thousand years older than the oldest Hebrew manuscripts of the Bible known before its discovery. Its text generally agrees with the traditional Masoretic text, though it has many variant readings.[@great-isaiah-scroll] You can page through it online at the Israel Museum’s Digital Dead Sea Scrolls site.
+- **Sennacherib’s Prism** records the Assyrian king’s version of the 701 BC campaign. On the prism Sennacherib boasts of besieging and taking forty-six of Hezekiah’s strong cities and of shutting Hezekiah up “like a caged bird” in Jerusalem.[@luckenbill-annals, p. 11] He does *not* claim to have taken Jerusalem, which fits [[Isa. 37:33–37]]; Hezekiah instead sent tribute after him to Nineveh.[@luckenbill-annals, pp. 11–12]
+- **The Lachish reliefs** depict the siege of Lachish, the Judean city mentioned in [[Isa. 36:2]];[@bd-lachish] an inscription shows Sennacherib on a throne “while the booty of Lachish passed before him.”[@luckenbill-annals, epigraph XXV, pp. 156–57]
+- **Hezekiah’s Tunnel** and its **Siloam Inscription** preserve the water tunnel of [[2 Kgs. 20:20]], about 1,770 feet long and cut through limestone rock. The inscription, carved by the workmen, tells how those digging from both ends met in the rock, and it is now in the museum at Istanbul.[@bd-hezekiahs-tunnel]
+- **The Great Isaiah Scroll**, found among the Dead Sea Scrolls at Qumran in 1947, is an almost complete copy of Isaiah dating to about 125 BC, some thousand years older than the oldest Hebrew manuscripts of the Bible known before its discovery. Its text generally agrees with the traditional Hebrew text, called the Masoretic text, though it differs from it in many places.[@great-isaiah-scroll] You can page through it online at the Israel Museum’s Digital Dead Sea Scrolls site.
