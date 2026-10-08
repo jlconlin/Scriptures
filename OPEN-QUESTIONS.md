@@ -23,6 +23,13 @@ Everything that waits for the author, for every book and for the site, in this o
   - **Brothers at Odds, and Reconciled:** its own comparison of Cain’s “thy brother’s blood” with Judah’s “slay our brother, and conceal his blood” rests on common words, and says so. Keep it?
   - **Pages 1, 3 and 5** share their starting verse (12:2–3) and reach for the same scriptures at the end; their bodies do not overlap, and both reviewers judged that they stand as separate pages.
 
+## Moses
+
+- **Mo-T. The two Moses theme pages** (written 2026-10-08 from your selection; you have not read them). Both reviewers judged that the pages hold. What they left for you:
+  - **The Father’s One Plan and Satan’s Rebellion:** the page never speaks of a plan of Satan’s, an alternative or a vote, and quotes Elder Bednar (Liahona, Jan. 2026) that “only one plan was presented” and that Lucifer presented no plan that was voted down. It uses the words “proposed” and “proposal” for what Satan did unbidden, as *Scripture Helps* and the 2015 Ensign article do; say if you want even those gone. It quotes one manual’s “based on compulsion” once, beside the statement that the verses do not clearly say how. Some older Church writings (1916, 1993, 2016) say “Satan’s plan”; the page does not mention them. Its own comparison follows “son” and “father” in Satan’s mouth and of him (4:1, 4:4, 5:13, 5:24, 7:37) and draws no doctrine from it; the reviewer said it is the section to cut if you want the page shorter.
+  - **The Plan of Salvation, Taught from the First Parents:** the 1834 letter is quoted as “sent in the name of the elders of the Church in Kirtland” and “printed by the Church among Joseph Smith’s teachings,” because the Joseph Smith Papers page does not name a single author. The page says what changes is who carries the gospel, not what is taught; an earlier draft said the plan was named more plainly as the book goes on, which could be read as Adam knowing less than Enoch.
+- **Mo-Q. A quotation on the Moses 7 page fails the quotation check** (older than this work): the note on 7:47 quotes Mosiah 3:13 as “exceedingly great joy,” the current edition’s wording, and the site’s Mosiah text (1920 edition) has “exceeding great joy.” Change the note to match the site’s text, or leave it?
+
 ## Jeremiah
 
 - **J1. The five theme pages** (The Shepherds and the Branch; Scattered and Gathered; The Covenant Written in the Heart; The Cup of the Lord's Fury; To Root Out and to Plant). They went live before you read them. Keep, change, or drop each?
