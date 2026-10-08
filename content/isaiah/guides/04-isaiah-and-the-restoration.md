@@ -5,11 +5,11 @@ icon: restoration
 sources: [isaiah-in-bom, mcconkie-keys, lds-scriptures, nelson-hope-israel, gs-stake]
 ---
 
-Latter-day Saints have an extraordinary advantage in reading Isaiah. The Restoration didn’t just quote Isaiah. It **explained** him, sometimes by revelation, and the angel who delivered the Book of Mormon quoted him. This guide gathers that light.
+Latter-day Saints have an extraordinary advantage in reading Isaiah. The Restoration didn’t just quote Isaiah. It **explained** him, sometimes by revelation. This guide gathers that light.
 
 ## Moroni quotes Isaiah 11
 
-On the night of September 21, 1823, the angel Moroni visited the seventeen-year-old Joseph Smith. After quoting Malachi, Moroni “quoted the eleventh chapter of Isaiah, saying that it was about to be fulfilled” ([[JS—H 1:40]]).[@mcconkie-keys] Isaiah 11 describes the stem and rod of Jesse, the Lord recovering His people “the second time,” and an ensign lifted to the nations. Of all the scripture he could have chosen, the angel who delivered the Book of Mormon chose an Isaiah chapter about the gathering of Israel.
+On the night of September 21, 1823, the angel Moroni visited the seventeen-year-old Joseph Smith. After quoting Malachi, Moroni “quoted the eleventh chapter of Isaiah, saying that it was about to be fulfilled” ([[JS—H 1:40]]).[@mcconkie-keys] Isaiah 11 describes the stem and rod of Jesse, the Lord recovering His people “the second time,” and an ensign lifted to the nations.
 
 ## Isaiah in the Book of Mormon
 
@@ -38,14 +38,16 @@ After quoting Isaiah 54, the Savior said: “a commandment I give unto you that 
 
 Most of the Book of Mormon’s Isaiah text is very close to the King James Version, but not all of it. Some differences are small clarifications; a few are striking.
 
-- **[[2 Ne. 12:16]]** (Isa. 2:16). The Book of Mormon reads “upon all the ships of **the sea**, and upon all the ships of Tarshish.” The Hebrew (Masoretic) text has only “ships of Tarshish,” and the ancient Greek Septuagint has only “ships of the sea.” The Book of Mormon has both.[@isaiah-in-bom, pp. 376–77]
+- **[[2 Ne. 12:16]]** (Isa. 2:16). The Book of Mormon reads “upon all the ships of **the sea**, and upon all the ships of Tarshish.” The Hebrew text has only “ships of Tarshish,” and the ancient Greek Septuagint has only “ships of the sea.” The Book of Mormon has both.[@isaiah-in-bom, pp. 376–77]
 - **[[1 Ne. 20:1]]** (Isa. 48:1). Joseph Smith added “or out of the waters of baptism” to the 1840 edition, clarifying what it means to come “out of the waters of Judah.”[@isaiah-in-bom, p. 97]
 - **[[1 Ne. 21:1]]** (Isa. 49:1). The Book of Mormon opens the chapter with an extra passage addressed to the scattered house of Israel, “broken off and… driven out because of the wickedness of the pastors of my people.”[@isaiah-in-bom, p. 105] It makes clear who the chapter is speaking to.
 - **[[2 Ne. 7:1]]** (Isa. 50:1). The Lord asks, “Have I put thee away, **or have I cast thee off forever?**” The added question sharpens the answer: He has not.
 - **[[2 Ne. 27]]** (Isa. 29). Nephi’s version greatly expands Isaiah’s prophecy of a sealed book. It speaks of a man who will not read it, the learned man who says “I cannot read a sealed book,” and three witnesses.
 - **[[3 Ne. 20]]**. The Savior rearranges the verses of Isaiah 52 and weaves them into His own prophecy of the gathering.[@isaiah-in-bom, p. 290]
 
-*Isaiah in the Book of Mormon* treats these variants in detail.[@isaiah-in-bom]
+## Isaiah 29 and the Book of Mormon
+
+Isaiah 29 speaks of a people who “speak out of the ground,” a sealed book delivered to one who is learned and another who is not, and “a marvellous work and a wonder.” Nephi’s expanded version ([[2 Ne. 27]]) and Joseph Smith’s own history make the connection explicit. In February 1828 Martin Harris took a transcript of characters from the plates to Professor Charles Anthon in New York. According to Harris, Anthon first certified the translation, then tore up his certificate when he learned an angel was involved and said, “I cannot read a sealed book” ([[JS—H 1:63–65]]; compare [[Isa. 29:11–12]]).[@isaiah-in-bom, p. 223]
 
 ## The Doctrine and Covenants explains Isaiah
 
@@ -59,7 +61,7 @@ Most of the Book of Mormon’s Isaiah text is very close to the King James Versi
 
 The root of Jesse is commonly identified as Joseph Smith, though the revelation doesn’t name anyone.[@isaiah-in-bom, p. 214]
 
-**Section 133**, first added to the Doctrine and Covenants as an appendix,[@lds-scriptures] is soaked in Isaiah. It quotes his prayer to “rend the heavens” ([[D&C 133:40–45]]; [[Isa. 64:1–4]]) and his vision of the Lord coming in red apparel from Edom ([[D&C 133:46–53]]; [[Isa. 63:1–9]]). It also borrows his highway, his parched ground, and his pools of living water ([[D&C 133:26–29]]; [[Isa. 35]]).
+**Section 133**, first added to the Doctrine and Covenants as an appendix,[@lds-scriptures] draws repeatedly on Isaiah. It quotes his prayer to “rend the heavens” ([[D&C 133:40–45]]; [[Isa. 64:1–4]]) and his vision of the Lord coming in red apparel from Edom ([[D&C 133:46–53]]; [[Isa. 63:1–9]]). It also borrows his highway, his parched ground, and his pools of living water ([[D&C 133:26–29]]; [[Isa. 35]]).
 
 Other places where modern revelation echoes Isaiah:
 
@@ -72,13 +74,9 @@ Other places where modern revelation echoes Isaiah:
 - **The Millennium.** Isaiah’s peaceable kingdom ([[Isa. 11:6–9]]; [[Isa. 65:17–25]]) is expanded in [[D&C 101:23–34]].
 - **Redemption of the dead.** Isaiah’s promise to “proclaim liberty to the captives, and the opening of the prison to them that are bound” ([[Isa. 61:1]]) is applied to the spirit world in [[D&C 138:42]]. See also [[Isa. 24:22]] and [[Isa. 42:7]].
 
-## Isaiah 29 and the Book of Mormon
-
-Isaiah 29 speaks of a people who “speak out of the ground,” a sealed book delivered to one who is learned and another who is not, and “a marvellous work and a wonder.” Nephi’s expanded version ([[2 Ne. 27]]) and Joseph Smith’s own history make the connection explicit. In February 1828 Martin Harris took a transcript of characters from the plates to Professor Charles Anthon in New York. According to Harris, Anthon first certified the translation, then tore up his certificate when he learned an angel was involved and said, “I cannot read a sealed book” ([[JS—H 1:63–65]]; compare [[Isa. 29:11–12]]).[@isaiah-in-bom, p. 223]
-
 ## Latter-day events Isaiah foresaw
 
-Latter-day Saints read these themes in Isaiah as prophecies of the Restoration and the last days. The chapter notes explore each one.
+Latter-day Saints connect these Isaiah passages with the Restoration and the last days. The chapter notes explore each one.
 
 - **The mountain of the Lord’s house** established “in the top of the mountains,” with all nations flowing to it ([[Isa. 2:2–3]]).
 - **An ensign to the nations**, lifted up to gather Israel ([[Isa. 5:26]]; [[Isa. 11:12]]; [[Isa. 49:22]]). Compare [[D&C 45:9]]: the everlasting covenant is “a standard for my people.”
@@ -93,4 +91,4 @@ President Russell M. Nelson has taught that the gathering of Israel is “the mo
 
 ## A caution about over-reading
 
-Isaiah is so rich in latter-day imagery that it’s easy to find “fulfillments” everywhere. Some Latter-day Saint interpretations are grounded in revelation, like D&C 113, JS—H 1:40, and 2 Nephi 27. Others are thoughtful applications by Church leaders or scholars. The chapter notes try to label the difference clearly. Nephi’s counsel is the safest guide: “liken” the scriptures, and keep the testimony of Jesus at the center.
+Isaiah is so rich in latter-day imagery that it’s easy to find “fulfillments” everywhere. Some Latter-day Saint interpretations are grounded in revelation, like D&C 113, JS—H 1:40, and 2 Nephi 27. Others are thoughtful applications by Church leaders or scholars. The chapter notes try to label the difference clearly.
