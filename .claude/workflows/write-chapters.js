@@ -44,6 +44,8 @@ ${common(n)}
 
 Check content/sources.yaml for the sources you can already cite; propose an entry only for one that is not there.
 
+An earlier run may have been cut off partway: if content/${book}/chapters/${pad(n)}.yaml or its ledger content/${book}/evidence/${pad(n)}.yaml already exists, it is an unfinished draft of this chapter by a writer like you, not a reviewed chapter. Read both, keep what is sound, and finish the work from there rather than starting over; every claim still needs its ledger row, and the two working files below are still yours to write.
+
 When you finish, besides the chapter and its ledger, write two working files (create the folders if they are missing):
 1. ${scratch}/proposed/${pad(n)}.yaml : the sources.yaml entries you propose, one per line in that file's one-line format (key: { type, author, title, pub, url }), each URL opened and its heading confirmed in this session. Leave the file empty if you propose none.
 2. ${scratch}/reports/${pad(n)}-writer.md : your report: the reader questions you worked from and which went unanswered; what you decided on your own and why (one line each); anything that truly needs the author's judgment (doctrine or taste the standard and brief don't settle; expect this to be rare); theme candidates; what you cut for lack of a source; the check output.

@@ -14,7 +14,6 @@ Everything that waits for the author, for every book and for the site, in this o
 ## Genesis
 
 - **G1. “The Angel which redeemed me” (48:16): a Witness of Christ note, or a Context note?** The note points the Angel to Christ by a chain: Hosea calls the one Jacob met “the Lord God of hosts” (Hosea 12:4–5); the Bible Dictionary says Jehovah is the premortal Christ; and the note says that Genesis does not say more about who the Angel is. No Church source found applies this verse to Christ directly, and President Joseph Fielding Smith thought the wrestler at Peniel “more than likely… a messenger.” It stands as a Witness of Christ note for now.
-- **G2. The four Genesis theme pages** (The Covenant with Abraham; Judah; Joseph: Sold, and Sent; The Birthright and the Firstborn), written 2026-10-08 and not yet live. Keep, change, or drop each? Two things in particular: (a) the Judah page's title, “From Selling a Brother to Standing in His Place”: the reviewer thinks “His” reads as Joseph's and suggests “a Brother's Place”; (b) the birthright page began as “the younger chosen over the elder,” which the research showed is a list with no source tying it to Christ, so the page follows where the birthright goes instead and leaves out Abel and Seth, Laban's daughters, and Perez and Zerah. Narrowed as you would want, or drop it?
 
 ## Jeremiah
 
@@ -26,6 +25,23 @@ Everything that waits for the author, for every book and for the site, in this o
 ## Malachi
 
 - **M1. A Book of Mormon comparison for Malachi 3–4?** The Savior quoted both chapters to the Nephites (3 Ne. 24–25), and ten verses differ in a word or two (“Sun of righteousness” is “Son of Righteousness” in 3 Ne. 25:2). Isaiah's chapters show such differences in a panel beside the verse. For Malachi none was built, by your rule against replicating the Gospel Library; the differences come into a note only where they answer a reader's question. Add the panel, as Isaiah has it? (The differences are already listed in `content/malachi/BRIEF.md`, so it is a small job.)
+
+## Ezekiel
+
+- **E1. Who is the “tender” twig planted on the high mountain (17:22–23)?** The Church's footnotes (Omni 1:15; Mosiah 25:2; Hel. 8:21) and the Student Manual (quoting Orson Pratt) read it of Mulek, planted in America; the chapter heading says only “in the last days.” The reading of the Messiah, a king from David's line, comes from a Scripture Central KnoWhy (#440) and Keil. No source read relates the two. The chapter has a note for the Mulek reading and rests its Witness of Christ on the Messianic one, labelled as scholarship and not the Church's helps. Leave it so, let the Mulek reading lead, or rest the Witness of Christ on something else? Recommend: let the Mulek reading lead, since it is the Church's, and keep the Messianic reading as a second reading.
+
+- **E2. The king of Tyrus in Eden (28:13): mention the reading of Lucifer?** The brief said a reading of Satan in this lament would be given only from a Church source, and none was found. The note has a short paragraph that reports it from a BYU article (*Journal of Book of Mormon Studies*), which itself prefers Adam as the figure behind the image, and calls it a reading “that some hold, not what the lament means.” Keep the paragraph, or drop it?
+
+- **E3. “Leave but the sixth part of thee” (39:2).** The note explains from the Hebrew, the Septuagint and two modern translations that the verb means to lead or drive on, not to leave a sixth. The Student Manual's Enrichment I (by the writer's report; the passage was not reopened in review) builds a detail of the battle on the King James wording, that one-sixth of Gog's army survives. The note says nothing about the manual, and the plain-words section keeps the King James sense. Leave it silent, mention the manual's reading, or cut the note back so it does not run against the manual?
+
+
+- **E6. Ezekiel's six theme pages** (written 2026-10-08; approved by you the same day, with these left for another time). Every reviewer judged that its page holds. What they left for you:
+  - **A Little Sanctuary** has the same title as chapter 11. Keep both, or rename one?
+  - **One Shepherd:** its own connection sets “whose right it is” (21:27) beside “feed them with judgment” (34:16), the same Hebrew word, which is one of Ezekiel's commonest (43 times; the page says so). Keep the paragraph or drop it? Chapter 17's tender twig was left out of the arc on purpose (E1).
+  - **A New Heart and a New Spirit:** the page keeps “a new spirit” and “my spirit” apart, as the note on 36:27 does, without saying outright that they differ. Its own connection (the people told to “make,” the Lord saying He will “cause,” one verb) rests on the ordinary Hebrew word for do or make, and says so. Enough, or cut?
+  - **A Man to Stand in the Gap:** the step from “I sought for a man” (22:30) to “I will seek that which was lost” (34:16) is one shared verb with different objects, marked as the page's comparison. Keep it, or end the page on Isaiah 59:16? This is the page your test was written for; the reviewer calls the arc thin but real.
+  - **The Stranger's Inheritance:** no Church source ties 47:22–23 to Christ. The page rests on two older commentaries that read it beside Eph. 3:6 and on its own comparison with Eph. 2:12–19, which you asked for. The reviewer says it holds “only just.” Keep the page?
+  - **Waters out of the Sanctuary:** the last step, “The LORD is there” (48:35), is one sentence with no tie to the section on Christ, because the link to Rev. 21:3 was given to A Little Sanctuary. Leave it, or add a pointer?
 
 ## Isaiah
 

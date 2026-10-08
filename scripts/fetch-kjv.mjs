@@ -131,6 +131,23 @@ const LDS_SPELLINGS = [
   [/For the LORD will not cast off for ever/g, 'For the Lord will not cast off for ever'], // Lam. 3:31
   [/the LORD approveth not/g, 'the Lord approveth not'], // Lam. 3:36
   [/O LORD, thou hast pleaded the causes of my soul/g, 'O Lord, thou hast pleaded the causes of my soul'], // Lam. 3:58
+  // Ezekiel: spellings, hyphens, one colon, and “Lord” (adonai) where the source has LORD (found by scripts/check-kjv.mjs).
+  [/Telabib/g, 'Tel-abib'], // Ezek. 3:15
+  [/a stumbling-block before him/g, 'a stumblingblock before him'], // Ezek. 3:20
+  [/pourtray/g, 'portray'], // Ezek. 4:1; 8:10; 23:14
+  [/be enquired of/g, 'be inquired of'], // Ezek. 14:3; 20:3, 31; 36:37
+  [/saith the LORD GOD;\)/g, 'saith the Lord GOD;)'], // Ezek. 16:23
+  [/saith the LORD GOD, seeing thou doest/g, 'saith the Lord GOD, seeing thou doest'], // Ezek. 16:30
+  [/The way of the LORD is not equal/g, 'The way of the Lord is not equal'], // Ezek. 18:25, 29
+  [/a couching place for flocks/g, 'a couchingplace for flocks'], // Ezek. 25:5
+  [/Bethjeshimoth, Baalmeon/g, 'Beth-jeshimoth, Baal-meon'], // Ezek. 25:9
+  [/Pibeseth/g, 'Pi-beseth'], // Ezek. 30:17
+  [/Hamongog/g, 'Hamon-gog'], // Ezek. 39:11, 15
+  [/and the trespass offering: and every dedicated thing/g, 'and the trespass offering; and every dedicated thing'], // Ezek. 44:29
+  [/from Engedi even unto Eneglaim/g, 'from En-gedi even unto En-eglaim'], // Ezek. 47:10
+  [/the marishes thereof/g, 'the marshes thereof'], // Ezek. 47:11
+  [/Hazarhatticon/g, 'Hazar-hatticon'], // Ezek. 47:16
+  [/Hazarenan, the border/g, 'Hazar-enan, the border'], // Ezek. 47:17; 48:1
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 

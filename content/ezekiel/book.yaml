@@ -1,0 +1,85 @@
+name: Ezekiel
+slug: ezekiel
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 8
+abbr: ezek               # [[Ezek. 37:16]] links here
+gospelLibrary: ot/ezek
+eyebrow: The Old Testament
+heroQuote:
+  text: '“A new heart also will I give you, and a new spirit will I put within you.”'
+  cite: 'The Lord to the house of Israel, [[Ezek. 36:26]]'
+description: A phrase-by-phrase companion to the book of Ezekiel, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Ezekiel dates his visions from the year he was carried away, and the book turns on the day word comes that Jerusalem has fallen.
+home:
+  blurb: The priest among the captives in Babylon, who saw the glory of the Lord leave the temple and return.
+
+intro: |
+  Ezekiel was a priest, one of the captives carried to Babylon with King Jehoiachin. In the fifth year of that captivity, by the river of Chebar, “the heavens were opened” and he “saw visions of God” ([[Ezek. 1:1–3]]). He prophesied among the exiles for about twenty-two years, from about 592 to 570 B.C., while Jeremiah was preaching in Jerusalem, Daniel was serving in the court of Babylon, and Lehi’s family was on its way to a promised land.
+
+  His book is full of things he was told to act out before the people (a siege drawn on a tile, his hair cut and divided, two sticks joined in his hand) and of visions, among them a valley of dry bones. Until Jerusalem falls he warns the exiles that it will; after the news reaches him he speaks of Israel gathered, given a new heart, and led by one shepherd, and the book ends with the vision of a temple. This companion goes through all forty-eight chapters and tries to anticipate the questions a careful reader asks: *When is this? What is he being told to do, and what does it mean? What does that image stand for? Where is Christ in this?*
+
+# The Bible Dictionary divides the book in four (1–24, 25–32, 33–39, 40–48); the Guide to the Scriptures and
+# Scripture Helps set chapters 1–3 apart. The split of 4–24 at chapter 11 is the site’s own (the vision of 8–11).
+# Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: chebar
+    range: [1, 3]
+    name: The Vision by the River and the Watchman’s Call
+    blurb: The heavens open over the captives in Babylon and Ezekiel sees the glory of the Lord. He is given a scroll to eat and is made a watchman to the house of Israel.
+    color: '#3f6f9c'
+    darkColor: '#8fbbe6'
+  - key: departing
+    range: [4, 11]
+    name: Signs of the Siege and the Glory Departing
+    blurb: Ezekiel acts out the siege of Jerusalem before the exiles. Carried there in vision, he is shown what is done in the temple, and watches the glory of the Lord leave it.
+    color: '#9c4f3c'
+    darkColor: '#e69a86'
+  - key: parables
+    range: [12, 24]
+    name: Parables and Judgments on Jerusalem
+    blurb: Words against false prophets and against the hope that the city will be spared, told in parables of a vine, an unfaithful wife, two eagles, a lioness, and two sisters. Each person will answer for his own sins. The division ends on the day the siege begins.
+    color: '#7a5a96'
+    darkColor: '#bda3d8'
+  - key: neighbors
+    range: [25, 32]
+    name: Prophecies against the Nations
+    blurb: 'Judgments on the peoples around Israel: Ammon, Moab, Edom, and Philistia, then at length Tyre and Egypt.'
+    color: '#8a7a2e'
+    darkColor: '#d6c670'
+  - key: newheart
+    range: [33, 39]
+    name: The Shepherd, the New Heart, and the Dry Bones
+    blurb: Word comes that Jerusalem has fallen. The Lord will seek out His own sheep, give Israel a new heart, raise them like dry bones made to live, and join the stick of Judah with the stick of Joseph. Gog comes against the gathered people and falls.
+    color: '#2e8a70'
+    darkColor: '#74cfb4'
+  - key: sanctuary
+    range: [40, 48]
+    name: The Vision of the Temple
+    blurb: In the twenty-fifth year of the captivity Ezekiel is shown a temple and its measurements. The glory of the Lord returns to it, waters flow from under its threshold to heal the sea, and the land is divided among the tribes.
+    color: '#a8742a'
+    darkColor: '#e6b676'
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [1, 24], sources: [ot-manual-26] }
+  - { range: [25, 48], sources: [ot-manual-27] }
+
+beloved:
+  - { chapter: 1, verse: 28, text: 'the appearance of the likeness of the glory of the LORD' }
+  - { chapter: 3, verse: 17, text: 'I have made thee a watchman unto the house of Israel' }
+  - { chapter: 11, verse: 19, text: 'I will give them one heart, and I will put a new spirit within you' }
+  - { chapter: 18, verse: 4, text: 'the soul that sinneth, it shall die' }
+  - { chapter: 33, verse: 11, text: 'I have no pleasure in the death of the wicked' }
+  - { chapter: 34, verse: 11, text: 'I, even I, will both search my sheep, and seek them out' }
+  - { chapter: 36, verse: 26, text: 'A new heart also will I give you' }
+  - { chapter: 37, verse: 3, text: 'Son of man, can these bones live?' }
+  - { chapter: 37, verse: 17, text: 'they shall become one in thine hand' }
+  - { chapter: 47, verse: 9, text: 'every thing shall live whither the river cometh' }
+
+coreSources:
+  - bd-ezekiel
+  - gs-ezekiel
+  - scripture-helps-ezek
+  - ot-manual-26
+  - ot-manual-27

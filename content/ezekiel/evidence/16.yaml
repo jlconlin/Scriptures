@@ -1,0 +1,694 @@
+chapter: 16
+claims:
+  - where: 'when'
+    claim: 'The nearest date above the chapter is the sixth year, sixth month (8:1)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/8?lang=eng'
+    quote: 'And it came to pass in the sixth year, in the sixth month, in the fifth day of the month'
+  - where: 'when'
+    claim: 'The book counts its years from Jehoiachin’s captivity'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/1?lang=eng'
+    quote: 'which was the fifth year of king Jehoiachin’s captivity'
+  - where: 'when'
+    claim: 'The next date in the book is the seventh year (20:1)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/20?lang=eng'
+    quote: 'And it came to pass in the seventh year, in the fifth month, the tenth day of the month'
+  - where: 'when'
+    claim: 'Ezekiel prophesied from 592 B.C., so the sixth year is about 591'
+    key: bd-ezekiel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ezekiel?lang=eng'
+    quote: 'prophesied during a period of 22 years, 592–570 B.C.'
+
+  - where: 'setting'
+    claim: 'The chapter before compares Jerusalem to a vine to be burned'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/15?lang=eng'
+    quote: 'Jerusalem, as a useless vine, will be burned.'
+  - where: 'setting'
+    claim: 'The chapter removes a false confidence in Israel’s election by showing that by nature Israel is no better than other nations'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'which shows that by nature Israel is no better than other nations'
+  - where: 'setting'
+    claim: 'The chapter divides into sin (2–34), punishment (35–52), and restoration (53–63)'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'in the second, the announcement of the punishment (vv. 35-52); and in the third, the restoration of Israel to favour (Ezekiel 16:53-63)'
+  - where: 'setting'
+    claim: 'The Church’s footnotes to the chapter point to Hosea 2'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/16?lang=eng'
+    quote: 'Hosea 2:7; Joel 1:8'
+  - where: 'setting'
+    claim: 'The Church’s footnotes to the chapter point to Jeremiah 3'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/16?lang=eng'
+    quote: 'Jer. 3:7 (7–8, 10); Ezek. 23:2'
+  - where: 'setting'
+    claim: 'The imagery is among the most scathing in scripture and compares idolatry to adultery'
+    key: ot-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-26?lang=eng'
+    quote: 'The imagery Ezekiel uses in 16:30–34 is some of the most scathing in all the scriptures. Comparing idolatry to adultery'
+  - where: 'setting'
+    claim: 'The daughter is Jerusalem as representative of the nation; the husband is the Lord'
+    key: ot-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-26?lang=eng'
+    quote: 'Daughter indicates Jerusalem, a representative of Judah or Israel. The husband represents the Lord'
+  - where: 'setting'
+    claim: 'The lovers are false gods'
+    key: lund-ezekiel
+    url: 'https://rsc.byu.edu/isaiah-prophets/ezekiel-prophet-judgment-prophet-promise'
+    quote: 'Israel actually gave gifts to her lovers—the false gods (verses 26–34)'
+  - where: 'setting'
+    claim: 'The lovers are also foreign powers: Egypt, Assyria, and the Chaldeans'
+    key: lund-ezekiel
+    url: 'https://rsc.byu.edu/isaiah-prophets/ezekiel-prophet-judgment-prophet-promise'
+    quote: 'Because they had committed whoredoms with Egypt, Assyria, and the Chaldeans, they were facing destruction.'
+  - where: 'setting'
+    claim: 'Chapter 23 tells of two sisters, Samaria and Jerusalem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/23?lang=eng'
+    quote: 'Two sisters, Samaria and Jerusalem, committed whoredoms by worshipping idols'
+
+  - where: 'thread'
+    claim: 'The Hebrew verb “remember” (zakar, H2142) stands in 16:22, 43, 60, 61, and 63 (scripts/hebrew.mjs ezekiel --word 2142)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'וְ/זָכַרְתִּ֨י'
+  - where: 'thread'
+    claim: 'The lovers are the false gods and the nations Egypt, Assyria, and Chaldea'
+    key: lund-ezekiel
+    url: 'https://rsc.byu.edu/isaiah-prophets/ezekiel-prophet-judgment-prophet-promise'
+    quote: 'Because they had committed whoredoms with Egypt, Assyria, and the Chaldeans, they were facing destruction.'
+  - where: 'thread'
+    claim: 'The word behind “pacified” in verse 63 is rendered “atone”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2016&version=ESV'
+    quote: 'when I atone for you for all that you have done'
+
+  - where: 'section 1 plain'
+    claim: 'The Church’s footnote: the navel is the umbilical cord'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/16?lang=eng'
+    quote: 'IE umbilical cord'
+  - where: 'section 1 plain'
+    claim: 'The Church’s footnote: “to supple” is in Hebrew “cleanse”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/16?lang=eng'
+    quote: 'HEB cleanse'
+  - where: 'section 2 plain'
+    claim: 'The Church’s footnote: “forehead” is in Hebrew “nose”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/16?lang=eng'
+    quote: 'HEB nose'
+  - where: 'section 2 plain'
+    claim: 'A modern translation: sandals of fine leather; advanced to royalty'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2016&version=ESV'
+    quote: 'I clothed you also with embroidered cloth and shod you with fine leather'
+  - where: 'section 4 plain'
+    claim: 'The Church’s footnote: “thine ordinary food” is in Hebrew “thine allotted portion”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/16?lang=eng'
+    quote: 'HEB thine allotted portion'
+  - where: 'section 6 plain'
+    claim: 'The Church’s footnote: “as I saw good” is in Hebrew “when I saw it”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/16?lang=eng'
+    quote: 'HEB when I saw it'
+  - where: 'section 6 plain'
+    claim: 'A modern translation: prosperous ease; made your sisters appear righteous'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2016&version=ESV'
+    quote: 'have made your sisters appear righteous by all the abominations that you have committed'
+
+  - where: 'note 16:3 “Canaanite parents”'
+    claim: 'The descent is spiritual, not physical'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'The descent and birth referred to are not physical, but spiritual descent.'
+  - where: 'note 16:3 “Canaanite parents”'
+    claim: 'It is meant in the sense of John 8:44'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'in the same sense in which Jesus said to the Jews, "Ye are of your father the devil" (John 8:44)'
+  - where: 'note 16:3 “Canaanite parents”'
+    claim: 'Amorites and Hittites are named as the leaders in Canaanite ungodliness'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'because they were recognised as the leaders in Canaanitish ungodliness'
+  - where: 'note 16:3 “Canaanite parents”'
+    claim: 'Genesis 15:16 and 27:46 are the background'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'and the daughters of Heth, whom Esau married, caused Rebekah great bitterness of spirit (Genesis 27:46). These facts furnish the substratum for our description.'
+  - where: 'note 16:3 “Canaanite parents”'
+    claim: 'As a city Jerusalem was Jebusite; the address is to the people'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'Jerusalem was neither of Amoritish nor Hittite origin, but simply a Jebusite city'
+  - where: 'note 16:3 “Canaanite parents”'
+    claim: 'By nature Israel was no better than other nations'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'which shows that by nature Israel is no better than other nations'
+  - where: 'note 16:3 “Canaanite parents”'
+    claim: 'Jerusalem stands for Judah in general'
+    key: ot-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-26?lang=eng'
+    quote: 'The Lord referred to Jerusalem (which means Judah in general) as having the Amorites for their father and the Hittites for their mother.'
+  - where: 'note 16:3 “Canaanite parents”'
+    claim: 'The Student Manual prints the same explanation of spiritual descent'
+    key: ot-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-26?lang=eng'
+    quote: 'The descent and birth referred to are not physical, but spiritual descent.'
+  - where: 'note 16:3 “Canaanite parents”'
+    claim: 'The Hittites were a branch of the Canaanites'
+    key: bd-hittites
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hittites?lang=eng'
+    quote: 'They were a branch of the Canaanites'
+  - where: 'note 16:3 “Canaanite parents”'
+    claim: 'The iniquity of the Amorites in Abraham’s day'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/15?lang=eng'
+    quote: 'for the iniquity of the Amorites is not yet full'
+
+  - where: 'note 16:4 “A newborn no one tended”'
+    claim: 'Newborns were rubbed with salt by a widespread ancient custom'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'After the washing, the body was rubbed with salt, according to a custom very widely spread in ancient times'
+  - where: 'note 16:4 “A newborn no one tended”'
+    claim: 'The salt firmed and cleaned the skin and probably expressed a hope for the child’s health'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'but probably from a regard to the virtue of salt as a protection from putrefaction'
+  - where: 'note 16:4 “A newborn no one tended”'
+    claim: 'The salt as a symbol of hope for the child’s health'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'a hope and desire for the vigorous health of the child'
+  - where: 'note 16:4 “A newborn no one tended”'
+    claim: 'The child was exposed to die'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'but it was cast into the field, i.e., exposed, in order that it might perish'
+  - where: 'note 16:4 “A newborn no one tended”'
+    claim: 'The birth is Israel’s becoming a nation in Egypt'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'The day of the birth of Jerusalem, i.e., of Israel, was the period of its sojourn in Egypt, where Israel as a nation was born'
+  - where: 'note 16:4 “A newborn no one tended”'
+    claim: 'The details are explained by the figure as a whole'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'but have their explanation in the totality of the figure'
+
+  - where: 'note 16:4 “A newborn no one tended”'
+    claim: 'The uncut cord: the people were still nourished by the practices of the heathen neighbours who gave them birth'
+    key: ot-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-26?lang=eng'
+    quote: 'they were still being nourished in their wickedness by the degrading practices of their heathen neighbors who had given them birth in iniquity'
+  - where: 'note 16:4 “A newborn no one tended”'
+    claim: 'The message of the unwashed, unsalted child: the Jews had never been cleansed from the corruptions of the world and born as God’s children'
+    key: ot-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-26?lang=eng'
+    quote: 'The message being conveyed by Ezekiel is that the Jews had never really been cleansed from the corruptions of the world and born as God’s children.'
+  - where: 'note 16:6 “Live, said twice”'
+    claim: '“Live” is a Qal imperative, second person feminine singular (chayah, H2421), twice in the verse'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'חֲיִ֔י'
+  - where: 'note 16:6 “Live, said twice”'
+    claim: 'A modern translation keeps the repetition'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2016&version=ESV'
+    quote: 'in your blood, ‘Live!’ I said to you'
+
+  - where: 'note 16:8 “The skirt spread over her”'
+    claim: 'The Hebrew word is kanaph (H3671), with a first-person suffix'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'כְּנָפִ/י֙'
+  - where: 'note 16:8 “The skirt spread over her”'
+    claim: 'Of a garment kanaph is the skirt or corner; Ezekiel 16:8 is listed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3671.htm'
+    quote: 'of garment = skirt, corner, or loose flowing end'
+  - where: 'note 16:8 “The skirt spread over her”'
+    claim: 'The same word, with suffix, is in Ruth 3:9'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3671.htm'
+    quote: 'Ezekiel 16:8, כְּנָפֶ֑ךָ Ruth 3:9'
+  - where: 'note 16:8 “The skirt spread over her”'
+    claim: 'A modern translation’s rendering'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2016&version=ESV'
+    quote: 'I spread the corner of my garment over you and covered your nakedness'
+  - where: 'note 16:8 “The skirt spread over her”'
+    claim: 'The translation’s cross-references join Ruth 3:9 and Jeremiah 2:2 to this verse'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2016&version=ESV'
+    quote: 'Ezekiel 16:8 : Ruth 3:9; [Jer. 2:2]'
+  - where: 'note 16:8 “The skirt spread over her”'
+    claim: 'Oath and covenant are paired terms; Ezekiel 16:8 is an example'
+    key: benson-adam-eve
+    url: 'https://rsc.byu.edu/our-rites-worship/marriage-adam-eve-ritual-literary-elements'
+    quote: '“I sware unto thee, and entered into a covenant with thee” (Ezekiel 16:8; emphasis added)'
+  - where: 'note 16:8 “The skirt spread over her”'
+    claim: 'Swearing oaths and making covenants together indicate a mutually binding obligation'
+    key: benson-adam-eve
+    url: 'https://rsc.byu.edu/our-rites-worship/marriage-adam-eve-ritual-literary-elements'
+    quote: 'are indications of a mutually binding obligation and often go together'
+  - where: 'note 16:8 “The skirt spread over her”'
+    claim: 'The Lord took her in, adorned her like a bride, and married her'
+    key: lund-ezekiel
+    url: 'https://rsc.byu.edu/isaiah-prophets/ezekiel-prophet-judgment-prophet-promise'
+    quote: 'the Lord not only took her in (verses 3–9) but adorned her like a bride (verses 10–14) and married her himself'
+
+  - where: 'note 16:8 “The skirt spread over her”'
+    claim: 'To spread the skirt (wing) of the garment over her is to marry her; Ruth 3:9 is compared'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'I spread my wing over thee, i.e., the lappet of my garment, which also served as a counterpane; in other words, I married thee'
+  - where: 'note 16:10 “What the bride was given”'
+    claim: 'The Hebrew words are tachash (H8476) and meshi (H4897)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'תָּ֑חַשׁ'
+  - where: 'note 16:10 “What the bride was given”'
+    claim: 'Tachash is a kind of leather; the animal is perhaps the dugong'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8476.htm'
+    quote: 'a kind of leather or skin, and perhaps the animal yielding it (probably the dugong'
+  - where: 'note 16:10 “What the bride was given”'
+    claim: 'Here it is sandal leather; elsewhere it is the covering of the tabernacle'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8476.htm'
+    quote: "leather used for (woman's) sandals Ezekiel 16:10; elsewhere for cover of tabernacle Numbers 4:25"
+  - where: 'note 16:10 “What the bride was given”'
+    claim: 'Meshi is a costly material, by rabbinic tradition silk, found in Ezekiel 16:10 and 16:13'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4897.htm'
+    quote: 'a costly material for garments, according to Rabb silk'
+  - where: 'note 16:10 “What the bride was given”'
+    claim: 'Whether the tradition of silk is sound is doubtful'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4897.htm'
+    quote: 'whether this is based on actual tradition is dubious'
+  - where: 'note 16:10 “What the bride was given”'
+    claim: 'A modern translation: fine leather'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2016&version=ESV'
+    quote: 'shod you with fine leather'
+  - where: 'note 16:10 “What the bride was given”'
+    claim: 'A modern translation: advanced to royalty'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2016&version=ESV'
+    quote: 'You grew exceedingly beautiful and advanced to royalty'
+  - where: 'note 16:15 “What the harlotry stands for”'
+    claim: 'Ezekiel 16:15–22 describes apostasy as spiritual adultery'
+    key: sc-knowhy-147
+    url: 'https://scripturecentral.org/knowhy/why-was-coriantons-sin-so-serious'
+    quote: 'Ezekiel also used forceful language to describe Israel’s apostasy as a form of spiritual adultery'
+  - where: 'note 16:15 “What the harlotry stands for”'
+    claim: 'Israel was unfaithful to her marriage to Jehovah, going after false gods'
+    key: lund-ezekiel
+    url: 'https://rsc.byu.edu/isaiah-prophets/ezekiel-prophet-judgment-prophet-promise'
+    quote: 'Instead of being faithful to her marriage to Jehovah, Israel played the part of the harlot (verse 15), whoring after false gods.'
+  - where: 'note 16:15 “What the harlotry stands for”'
+    claim: 'The Church’s footnote at verse 19 points to Hosea 2:8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/16?lang=eng'
+    quote: 'Hosea 2:8'
+
+  - where: 'note 16:20 “Children given to idols”'
+    claim: 'Molech was worshipped by passing children through fire; Ahaz and Manasseh did it; Ezekiel 20:26, 31 are listed'
+    key: bd-molech
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/molech?lang=eng'
+    quote: 'a fire god, worshipped by passing children through or burning them in fire'
+  - where: 'note 16:20 “Children given to idols”'
+    claim: 'Ahaz and Manasseh practiced it'
+    key: bd-molech
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/molech?lang=eng'
+    quote: 'and by Ahaz and Manasseh (2 Kgs. 16:3; 21:6). See also 2 Kgs. 23:10; Jer. 7:31; Ezek. 20:26, 31.'
+  - where: 'note 16:20 “Children given to idols”'
+    claim: 'Ahaz made his son pass through the fire'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/16?lang=eng'
+    quote: 'made his son to pass through the fire, according to the abominations of the heathen'
+
+  - where: 'note 16:26 “Egypt, Assyria, Chaldea”'
+    claim: 'The harlotry takes in religious and political turning to the nations'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'the inclination of Israel to heathen ways in all its extent, both religious and political, is embraced'
+  - where: 'note 16:26 “Egypt, Assyria, Chaldea”'
+    claim: 'Egypt stands first because the apostasy began with the golden calf'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'for the apostasy of Israel from the Lord commenced with the worship of the golden calf, and the longing in the wilderness for the fleshpots of Egypt'
+  - where: 'note 16:26 “Egypt, Assyria, Chaldea”'
+    claim: 'Assyria came with Ahaz'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'from the times of Ahaz, who sought help from the Assyrians'
+  - where: 'note 16:26 “Egypt, Assyria, Chaldea”'
+    claim: '“Land of Canaan” is a common noun applied to Chaldea, as in 17:4'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'is not the proper name of the land of Canaan here, but an appellative designation applied to Chaldaea (Kasdim) or Babylonia, as in Ezekiel 17:4'
+  - where: 'note 16:26 “Egypt, Assyria, Chaldea”'
+    claim: 'The epithet may relate to Babylon’s commerce'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'whether it merely related to the commercial spirit, in which Babylon was by no means behind the Canaanitish Tyre and Sidon'
+  - where: 'note 16:26 “Egypt, Assyria, Chaldea”'
+    claim: 'The consequences of seeking Assyria did not sober Judah'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'did not sober it, so as to lead it to give up seeking for help from the heathen and their gods'
+  - where: 'note 16:26 “Egypt, Assyria, Chaldea”'
+    claim: 'A modern translation: the trading land of Chaldea'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2016&version=ESV'
+    quote: 'You multiplied your whoring also with the trading land'
+  - where: 'note 16:26 “Egypt, Assyria, Chaldea”'
+    claim: 'The Church’s footnote at verse 28 points to 2 Kings 16:7'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/16?lang=eng'
+    quote: '2 Kgs. 16:7 (7–18); 2 Chr. 28:16 (16–21); Ezek. 23:12'
+
+  - where: 'note 16:33 “A harlot who pays”'
+    claim: 'A harlot is moved by presents; Judah was not like this'
+    key: ot-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-26?lang=eng'
+    quote: 'A harlot takes presents from her lovers, and that is her motivation'
+  - where: 'note 16:33 “A harlot who pays”'
+    claim: 'The false gods gave nothing; she gave the presents'
+    key: ot-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-26?lang=eng'
+    quote: 'the false gods gave no benefits to Israel'
+  - where: 'note 16:33 “A harlot who pays”'
+    claim: 'Israel gave gifts to her lovers'
+    key: lund-ezekiel
+    url: 'https://rsc.byu.edu/isaiah-prophets/ezekiel-prophet-judgment-prophet-promise'
+    quote: 'In her spiritual adultery, Israel actually gave gifts to her lovers—the false gods (verses 26–34)'
+  - where: 'note 16:33 “A harlot who pays”'
+    claim: 'The Church’s footnote on “hirest” points to Hosea 8:9'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/16?lang=eng'
+    quote: 'Hosea 8:9'
+  - where: 'note 16:40 “The sentence the law gave”'
+    claim: 'The Church’s footnote on “burn” points to 2 Kings 25:9'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/16?lang=eng'
+    quote: '2 Kgs. 25:9; Jer. 39:8; 52:13'
+  - where: 'note 16:40 “The sentence the law gave”'
+    claim: 'The law’s penalty for adultery was death'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/20?lang=eng'
+    quote: 'the adulterer and the adulteress shall surely be put to death'
+  - where: 'note 16:40 “The sentence the law gave”'
+    claim: 'Stoning is prescribed in a case of adultery'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/22?lang=eng'
+    quote: 'ye shall stone them with stones that they die'
+
+  - where: 'note 16:46 “Two sisters: Samaria and Sodom”'
+    claim: 'Samaria and Sodom had already been chastened'
+    key: ot-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-26?lang=eng'
+    quote: 'both of which had already fallen under the chastening hand of the Lord'
+  - where: 'note 16:46 “Two sisters: Samaria and Sodom”'
+    claim: 'The three are sisters as sharing the same spirit of idolatry'
+    key: ot-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-26?lang=eng'
+    quote: 'They and Jerusalem were all motivated by the same spirit of idolatry.'
+  - where: 'note 16:46 “Two sisters: Samaria and Sodom”'
+    claim: 'Elder and younger are better greater and lesser; left is north and right is south'
+    key: ot-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-26?lang=eng'
+    quote: 'The words elder and younger could more clearly be rendered greater and lesser.'
+  - where: 'note 16:46 “Two sisters: Samaria and Sodom”'
+    claim: 'Left is north, right is south'
+    key: ot-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-26?lang=eng'
+    quote: 'Left hand equals the direction north; right hand means south.'
+  - where: 'note 16:46 “Two sisters: Samaria and Sodom”'
+    claim: 'The daughters are dependent lesser cities'
+    key: ot-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-26?lang=eng'
+    quote: 'daughters are cities under the domination of Samaria and Sodom, lesser cities in the surrounding areas'
+  - where: 'note 16:46 “Two sisters: Samaria and Sodom”'
+    claim: '“Elder” is the Hebrew adjective gadol, “great” (H1419), feminine with the article'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'הַ/גְּדוֹלָ֤ה'
+  - where: 'note 16:46 “Two sisters: Samaria and Sodom”'
+    claim: '“Younger” is the Hebrew adjective qatan, “small” (H6996), feminine with the article'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'הַ/קְּטַנָּ֣ה'
+  - where: 'note 16:46 “Two sisters: Samaria and Sodom”'
+    claim: 'Samaria was the capital of the kingdom of Israel'
+    key: bd-samaria
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/samaria?lang=eng'
+    quote: 'a city built by Omri and made the capital of the kingdom of Israel'
+  - where: 'note 16:46 “Two sisters: Samaria and Sodom”'
+    claim: 'The rest of Israel was carried captive to Assyria in 721 B.C.'
+    key: bd-captivities
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/captivities-of-the-israelites?lang=eng'
+    quote: 'carried into captivity the rest of Israel (2 Kgs. 17:3)'
+  - where: 'note 16:46 “Two sisters: Samaria and Sodom”'
+    claim: 'The date of that captivity is 721 B.C.'
+    key: bd-captivities
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/captivities-of-the-israelites?lang=eng'
+    quote: 'in 721 B.C.'
+  - where: 'note 16:46 “Two sisters: Samaria and Sodom”'
+    claim: 'A modern translation: north and south'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2016&version=ESV'
+    quote: 'who lived with her daughters to the north of you'
+  - where: 'note 16:46 “Two sisters: Samaria and Sodom”'
+    claim: 'A modern translation: “justified” means made to appear righteous'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2016&version=ESV'
+    quote: 'have made your sisters appear righteous by all the abominations that you have committed'
+  - where: 'note 16:46 “Two sisters: Samaria and Sodom”'
+    claim: 'The Church’s footnote on “justified” points to Jeremiah 3:11'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/16?lang=eng'
+    quote: 'Jer. 3:11'
+  - where: 'note 16:46 “Two sisters: Samaria and Sodom”'
+    claim: 'Chapter 23 has two sisters, Samaria and Jerusalem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/23?lang=eng'
+    quote: 'Samaria is Aholah, and Jerusalem Aholibah'
+
+  - where: 'note 16:49 “The sin of Sodom”'
+    claim: 'A modern translation: prosperous ease, and no aid for the poor'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2016&version=ESV'
+    quote: 'excess of food, and prosperous ease, but did not aid the poor and needy'
+  - where: 'note 16:49 “The sin of Sodom”'
+    claim: 'The Church’s footnote at verse 50 points to the destruction in Genesis 19'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/16?lang=eng'
+    quote: 'Gen. 19:24 (24–29)'
+  - where: 'note 16:49 “The sin of Sodom”'
+    claim: 'The fate of the cities of the plain was regarded as a warning against sensual wickedness'
+    key: bd-gomorrah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/gomorrah?lang=eng'
+    quote: 'The fate of the city was regarded as a warning against sensual wickedness.'
+  - where: 'note 16:49 “The sin of Sodom”'
+    claim: 'Elder Burton: Sodom was not destroyed for sexual impurity alone'
+    key: burton-pride
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1971/03/a-disease-called-pride?lang=eng'
+    quote: 'But the Lord did not destroy Sodom and Gomorrah because of sexual impurity alone.'
+  - where: 'note 16:49 “The sin of Sodom”'
+    claim: 'Elder Burton, after quoting Ezekiel 16:48–50: pride added to the other sins brought the destruction'
+    key: burton-pride
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1971/03/a-disease-called-pride?lang=eng'
+    quote: 'So it was pride and haughtiness, added to all these other sins, that brought about this utter destruction.'
+  - where: 'note 16:49 “The sin of Sodom”'
+    claim: 'Elder Burton was an Assistant to the Council of the Twelve'
+    key: burton-pride
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1971/03/a-disease-called-pride?lang=eng'
+    quote: 'Assistant to the Council of the Twelve'
+  - where: 'note 16:49 “The sin of Sodom”'
+    claim: 'President Benson: pride destroyed Sodom, citing Ezekiel 16:49–50'
+    key: benson-pride
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1989/04/beware-of-pride?lang=eng'
+    quote: 'It destroyed the Nephite nation and the city of Sodom. (See Moro. 8:27; Ezek. 16:49–50.)'
+  - where: 'note 16:49 “The sin of Sodom”'
+    claim: 'The Church’s footnote at verse 48 points to the Savior’s sayings about Sodom'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/16?lang=eng'
+    quote: 'Matt. 10:15; 11:24'
+
+  - where: 'note 16:53 “Sodom brought back?”'
+    claim: 'Sodom had no captivity; the phrase is figurative for restoration'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'No carrying away, or captivity, took place in the case of Sodom.'
+  - where: 'note 16:53 “Sodom brought back?”'
+    claim: 'To turn the captivity is used figuratively here'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'is here used in a figurative sense for restitutio in statum integritatis'
+  - where: 'note 16:53 “Sodom brought back?”'
+    claim: 'The restoration of Sodom and Samaria is announced so that Israel cannot boast'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'announces the restoration of Sodom and Samaria as well as that of Jerusalem, so that all boasting on the part of Israel is precluded'
+  - where: 'note 16:53 “Sodom brought back?”'
+    claim: 'Keil takes the words of the literal Sodom'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'We must therefore take the words as referring to the literal Sodom.'
+  - where: 'note 16:53 “Sodom brought back?”'
+    claim: 'He finds no earthly restoration conceivable and looks beyond the present order'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'the realization of the prophecy must be sought for beyond the present order of things, in one that extends into the life everlasting'
+  - where: 'note 16:53 “Sodom brought back?”'
+    claim: 'He reasons from Matthew 10:15 and 11:24 that the judgment was not final for Sodom’s people'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'the judgment which has fallen upon it does not carry with it the final decision with regard to its inhabitants'
+  - where: 'note 16:53 “Sodom brought back?”'
+    claim: 'He appeals to 1 Peter 3:19 and 4:6, the gospel preached to the dead'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/16.htm'
+    quote: 'they might live according to God''s way in the spirit (1 Peter 3:19; 1 Peter 4:6)'
+  - where: 'note 16:53 “Sodom brought back?”'
+    claim: 'A modern translation: restore their fortunes'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2016&version=ESV'
+    quote: 'I will restore their fortunes, both the fortunes of Sodom and her daughters'
+  - where: 'note 16:53 “Sodom brought back?”'
+    claim: 'Another modern translation has the same'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2016%3A53-63&version=NRSVUE'
+    quote: 'I will restore their fortunes, the fortunes of Sodom and her daughters'
+
+  - where: 'note 16:60 “She forgot; He remembers”'
+    claim: 'The verb zakar (H2142) in verse 60 is first person, “I will remember”; it stands in 16:22, 43, 60, 61, 63 (scripts/hebrew.mjs ezekiel --word 2142)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'וְ/זָכַרְתִּ֨י'
+  - where: 'note 16:60 “She forgot; He remembers”'
+    claim: 'In verse 61 the same verb is second person feminine, “thou shalt remember”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'וְ/זָכַ֣רְתְּ'
+  - where: 'note 16:60 “She forgot; He remembers”'
+    claim: 'In verse 61 “by thy covenant” is the preposition min with “covenant” and a second-person feminine suffix'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'מִ/בְּרִיתֵֽ/ךְ'
+  - where: 'note 16:60 “She forgot; He remembers”'
+    claim: 'After the denunciation comes a promise of the restoration of the everlasting covenant, beginning with “nevertheless”'
+    key: lund-ezekiel
+    url: 'https://rsc.byu.edu/isaiah-prophets/ezekiel-prophet-judgment-prophet-promise'
+    quote: 'there followed a promise of the restoration of the everlasting covenant, beginning with the'
+  - where: 'note 16:60 “She forgot; He remembers”'
+    claim: '16:60–63 is among the prophecies that Israel will return to the covenant'
+    key: lund-ezekiel
+    url: 'https://rsc.byu.edu/isaiah-prophets/ezekiel-prophet-judgment-prophet-promise'
+    quote: 'Israel will return to the covenant and experience an eventual conversion to the gospel'
+  - where: 'note 16:60 “She forgot; He remembers”'
+    claim: 'The Church’s chapter heading places the covenant’s re-establishment in the last days'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/16?lang=eng'
+    quote: 'Yet in the last days, the Lord will again establish His covenant with her.'
+  - where: 'note 16:60 “She forgot; He remembers”'
+    claim: 'The Church’s footnote on “remember” in verse 61 points to Ezekiel 36:31'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/16?lang=eng'
+    quote: 'Ezek. 36:31'
+  - where: 'note 16:60 “She forgot; He remembers”'
+    claim: 'A modern translation of the phrase in verse 61'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2016&version=ESV'
+    quote: 'as daughters, but not on account of the covenant with you'
+  - where: 'note 16:60 “She forgot; He remembers”'
+    claim: 'That translation’s alternative'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2016&version=ESV'
+    quote: 'Ezekiel 16:61 Or not apart from'
+  - where: 'note 16:60 “She forgot; He remembers”'
+    claim: 'Another translation of the phrase'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2016%3A53-63&version=NIV'
+    quote: 'but not on the basis of my covenant with you'
+
+  - where: 'note 16:63 “Atonement, made by the Lord”'
+    claim: 'The Hebrew is the Piel infinitive of kaphar (H3722) with a first-person suffix'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'בְּ/כַפְּרִ/י'
+  - where: 'note 16:63 “Atonement, made by the Lord”'
+    claim: 'The verb is that of the law’s rites of atonement, including the Day of Atonement'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'by the great sin-offering of the day of atonement'
+  - where: 'note 16:63 “Atonement, made by the Lord”'
+    claim: 'In the law the priest makes atonement'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'and the priest shall make atonement Leviticus 16:32'
+  - where: 'note 16:63 “Atonement, made by the Lord”'
+    claim: 'Ezekiel 16:63 is listed among the uses with God as subject'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'with God as subject, with accusative of person, cover, i.e. treat as covered, view propitiously'
+  - where: 'note 16:63 “Atonement, made by the Lord”'
+    claim: 'In these passages God himself provides the atonement'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'It is conceived that God in his sovereignty may himself provide an atonement or covering for men and their sins which could not be provided by men.'
+  - where: 'note 16:63 “Atonement, made by the Lord”'
+    claim: 'A modern translation: when I atone for you'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2016&version=ESV'
+    quote: 'when I atone for you for all that you have done'
+  - where: 'note 16:63 “Atonement, made by the Lord”'
+    claim: 'Another: when I make atonement'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2016%3A53-63&version=NIV'
+    quote: 'when I make atonement'
+  - where: 'christ'
+    claim: 'The husband of the chapter is the Lord'
+    key: ot-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-26?lang=eng'
+    quote: 'The husband represents the Lord (see Ezekiel 16:8, 32, 38).'
+  - where: 'christ'
+    claim: 'In verse 63 God himself provides the atonement'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'It is conceived that God in his sovereignty may himself provide an atonement or covering for men and their sins which could not be provided by men.'
+
+  - where: 'explore'
+    claim: 'Hosea 2 has the same figure and ends in reconciliation'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/2?lang=eng'
+    quote: 'And I will betroth thee unto me for ever'
+  - where: 'explore'
+    claim: 'Jeremiah 3 compares Israel and Judah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/3?lang=eng'
+    quote: 'The backsliding Israel hath justified herself more than treacherous Judah'
+  - where: 'explore'
+    claim: 'Ezekiel 36 has remembering and shame after the gathering, not for Israel’s sake'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/36?lang=eng'
+    quote: 'Not for your sakes do I this, saith the Lord God, be it known unto you: be ashamed and confounded for your own ways'
+  - where: 'explore'
+    claim: 'The Savior set Sodom beside the towns that saw His works'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/11?lang=eng'
+    quote: 'it shall be more tolerable for the land of Sodom in the day of judgment, than for thee'

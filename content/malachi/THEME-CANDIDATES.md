@@ -1,3 +1,14 @@
+# Malachi: theme candidates
+
+## Author's selection (2026-10-07)
+
+The author selected **1 and 2** below. The author found **3 good but weaker** and chose to keep it as a research lead, **not a third page assignment**. Do not write pages yet; the author will give a separate instruction to develop the selected themes. Numbering here follows the selection conversation, not the unsorted reports below.
+
+1. **From polluted offerings to a purified offering — selected.** The priests dishonor the altar and fail as teachers (1:6–14; 2:4–8); the coming messenger of the covenant refines the sons of Levi so that the offering can again be made in righteousness (3:1–4). The Christ connection runs through the messenger of the covenant; 3 Ne. 9:19–20 may provide a later comparison, clearly distinguished from Malachi's own words. Keep verse-level details in the chapters.
+2. **“Where is the God of judgment?” — selected.** The question in 2:17 is answered by the Lord's coming and judgment (3:1–5). The complaint returns in 3:13–15; the Lord distinguishes those who fear Him (3:16–18), and the day brings fire and healing (4:1–2). Read the “Sun”/“Son” difference in 3 Ne. 25:2 as the chapter notes do. This page follows the complaint and answer, rather than repeating page 1's account of failed and renewed offerings.
+3. **Preparing for His coming — research lead, not selected.** A priest should be the Lord's messenger (2:7); “my messenger” prepares the way and the messenger of the covenant comes (3:1); Elijah is sent before the day of the Lord (4:5–6). These passages may inform pages 1 or 2. If considered later for a separate page, test whether priestly teaching, John the Baptist (Matt. 11:10), and Elijah's sealing work (D&C 110:13–16) make one developing arc, or whether this repeats pages 1 and 2. Distinguish the several messengers and their roles; do not equate them because the same word or title appears.
+
+Other reported ideas, including the Lord's name and the day of fire and healing, may supply passages for these pages but have not been selected as separate pages. The author permits theme pages to make their own text-grounded connections under `STANDARDS.md` §8; keep factual claims sourced. The chapter reports below are research leads, not additional assignments.
 
 ## Reported by chapters 1–4 (not yet sorted)
 
