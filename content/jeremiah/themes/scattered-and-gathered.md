@@ -5,7 +5,7 @@ icon: christ
 sources: [lds-scriptures, bd-jeremiah, ot-manual-23, ot-manual-25, oshb-wlc, nelson-gathering, cfm-2026-thoughts-28, rasband-fulfillment]
 ---
 
-“The scattering of Israel, however, is only half the story.”[@cfm-2026-thoughts-28] The Lord announces the scattering, and promises to gather Israel “out of all countries whither I have driven them” ([[Jer. 23:3]]). The gathering comes “one of a city, and two of a family,” it brings Israel and Judah back together, and Church sources read it as larger than the return from Babylon.
+“The scattering of Israel, however, is only half the story.”[@cfm-2026-thoughts-28] The Lord announces the scattering, and promises to gather Israel “out of all countries whither I have driven them” ([[Jer. 23:3]]). The gathering comes “one of a city, and two of a family,” and brings Israel and Judah back together; Church sources read it as larger than the return from Babylon.
 
 | Step | Passage | The words |
 |---|---|---|
@@ -36,17 +36,17 @@ The next verse says how: “I will send for many fishers… and after will I sen
 
 ## From where He drove them
 
-In [[Jer. 23:2]] the pastors have “driven them away”; in the next verse the Lord uses the same Hebrew verb of Himself: “I will gather the remnant of my flock out of all countries whither I have driven them” ([[Jer. 23:3]]).[@oshb-wlc] The clause is Jeremiah’s name for the places of exile. It stands in threats ([[Jer. 8:3]]; [[Jer. 29:18]]) and in the promise to gather ([[Jer. 23:8]]; [[Jer. 29:14]]; [[Jer. 32:37]]).[@oshb-wlc] Jeremiah 31 puts both in one line:
+In [[Jer. 23:2]] the pastors have “driven them away”; in the next verse the Lord uses the same Hebrew verb of Himself: “I will gather the remnant of my flock out of all countries whither I have driven them” ([[Jer. 23:3]]).[@oshb-wlc] Jeremiah uses this clause for the places of exile. It stands in threats ([[Jer. 8:3]]; [[Jer. 29:18]]) and in the promise to gather ([[Jer. 23:8]]; [[Jer. 29:14]]; [[Jer. 32:37]]).[@oshb-wlc] Jeremiah 31 puts both in one line:
 
 > He that scattered Israel will gather him, and keep him, as a shepherd doth his flock. ([[Jer. 31:10]])
 
-“The Lord Himself will gather Israel.”[@ot-manual-25] For the shepherd, see [the shepherds and the Branch](/jeremiah/themes/shepherds-and-the-branch/); for the north country and Ephraim in [[Jer. 31:8–9]], see [Jeremiah 31](/jeremiah/31/).
+For the shepherd, see [the shepherds and the Branch](/jeremiah/themes/shepherds-and-the-branch/); for the north country and Ephraim in [[Jer. 31:8–9]], see [Jeremiah 31](/jeremiah/31/).
 
 <h2 id="together">Israel and Judah together</h2>
 
 “The house of Judah shall walk with the house of Israel, and they shall come together out of the land of the north” ([[Jer. 3:18]]): “the return of the lost tribes from the north and the reuniting of the children of Judah.”[@ot-manual-23] “The children of Israel shall come, they and the children of Judah together… Come, and let us join ourselves to the LORD in a perpetual covenant that shall not be forgotten” ([[Jer. 50:4–5]]). The return from Babylon was not this: “Israel did not participate in the return from Babylon, but Israel and Judah will be restored together in the last days.”[@ot-manual-25]
 
-A single promise can hold both. [[Jer. 30:3]] “has several meanings”;[@ot-manual-25] [Jeremiah 30](/jeremiah/30/) lists them, and [Jeremiah 50](/jeremiah/50/) takes up the perpetual covenant.
+A single promise can hold both the return from Babylon and the restoration in the last days. [[Jer. 30:3]] “has several meanings”;[@ot-manual-25] [Jeremiah 30](/jeremiah/30/) lists them, and [Jeremiah 50](/jeremiah/50/) takes up the perpetual covenant.
 
 ## Gathered to Christ
 
