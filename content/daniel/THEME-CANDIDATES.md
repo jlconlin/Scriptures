@@ -1,6 +1,6 @@
 # Daniel: theme candidates
 
-Topics that run across the book and might become theme pages (`STANDARDS.md` §8). The author liked the three-page shortlist on 2026-10-08; these are selected for development, but no page is written until the author gives a separate instruction. With twelve chapters, a topic that lives in one chapter belongs in that chapter's notes. The earlier reports below remain research leads, not additional page assignments.
+Topics that run across the book and might become theme pages (`STANDARDS.md` §8). The author liked the three-page shortlist on 2026-10-08; these were selected for development. The author asked for the pages on 2026-10-08 (“Go ahead and make the theme pages”), and all three are written, reviewed, and read by Codex (`content/daniel/themes/kingdom-never-destroyed.md`, `but-if-not.md`, `desolate-sanctuary.md`). With twelve chapters, a topic that lives in one chapter belongs in that chapter's notes. The earlier reports below remain research leads, not additional page assignments.
 
 ## Selected for development (author, 2026-10-08)
 

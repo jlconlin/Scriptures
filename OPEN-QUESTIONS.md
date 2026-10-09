@@ -92,6 +92,11 @@ Everything that waits for the author, for every book and for the site, in this o
 
 - **D6. 1 Maccabees as a historical witness (11:3, 11:31–32).** Chapter 11 quotes 1 Maccabees from the King James Apocrypha three times for what Antiochus did. Is the Apocrypha acceptable as a quoted historical source, or should those places rest on Josephus alone?
 
+- **D-T. Daniel's three theme pages** (written 2026-10-08; not yet read by you). Every reviewer judged that its page holds. What they left for you:
+  - **“But If Not”:** no Church source read joins the furnace and the den to those who fall (11:33–35) and the resurrection (12:1–3); the page makes that step itself and says so, with Hebrews 11:33–35 as scripture's own bridge. Your selection said deliverance “finally reaches resurrection”; the reviewer had the page say that deliverance is promised (12:1) *beside* the dead awaking (12:2), since the text gives them as two statements. Keep the weaker wording, or restore yours inside the page's own connection?
+  - **The Kingdom That Shall Never Be Destroyed:** no source read ties the pagan kings' words about God's kingdom (4:3, 34; 6:26) to the Son of Man's (7:14); the page sets them side by side on the Aramaic words they share. President Hinckley's talk is not cited, because it speaks of the gospel as the stone and not of the kingdom.
+  - **The Desolate Sanctuary and the Messiah:** the book never joins the vessels of chapters 1 and 5 to the sanctuary of chapters 8–11, and the desolations are four different events; the page says both plainly. To fit the length it lost the vessels' return under Cyrus, the Student Manual's remark that the last week of 9:27 is unexplained, and the note that “make reconciliation” is the verb of atonement (all three are in the chapter notes). Put any back?
+
 ## Isaiah
 
 - **I1. Deepen the rest of chapters 1–37?** Done on 2026-10-06 under the add-only rules in `content/isaiah/BRIEF.md`: 6, 7, 9, 11, 14, 24, 26, 29 (25 and 27 were tried and nothing was worth adding). Not started: 2–5, 8, 10, 12, 13, 15–23, 28, 30–37. Chapter 1 has no evidence ledger and would need an audit first. A chapter cost 40–290k tokens and gained one to three notes. Recommend: read the eight first, then decide.
