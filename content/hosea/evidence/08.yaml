@@ -1,0 +1,937 @@
+chapter: 8
+claims:
+  # ---------- when ----------
+  - where: 'when'
+    claim: 'Hosea lived in the northern kingdom’s time of decline'
+    key: bd-hosea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng'
+    quote: 'He lived during a time of national decline and ruin, the result of the sin of Israel.'
+  - where: 'when'
+    claim: 'He began to prophesy late in the reign of Jeroboam Ⅱ (the 700s B.C.); the Bible Dictionary places his death before 736 B.C.'
+    key: bd-hosea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng'
+    quote: 'He probably died before the accession of Pekah, 736 B.C.'
+
+  # ---------- setting ----------
+  - where: 'setting'
+    claim: 'Chapter 5 has an alarm with horn and trumpet at verse 8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/5?lang=eng'
+    quote: 'Blow ye the cornet in Gibeah, and the trumpet in Ramah'
+  - where: 'setting'
+    claim: 'The trumpet of verse 1 is the shofar, the ram’s horn'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/8?lang=eng'
+    quote: 'HEB shofar, or ram’s horn.'
+  - where: 'setting'
+    claim: 'Ephraim stands for the northern kingdom, after its dominant tribe'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'Thus, as used here, Judah means the Southern Kingdom, and Ephraim the Northern Kingdom.'
+  - where: 'setting'
+    claim: 'The kings of the north reigned in Samaria'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'began Menahem the son of Gadi to reign over Israel, and reigned ten years in Samaria'
+  - where: 'setting'
+    claim: 'Shallum took the throne by killing the king'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'And Shallum the son of Jabesh conspired against him, and smote him before the people, and slew him, and reigned in his stead.'
+  - where: 'setting'
+    claim: 'Menahem took the throne by killing Shallum'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'smote Shallum the son of Jabesh in Samaria, and slew him, and reigned in his stead'
+  - where: 'setting'
+    claim: 'Pekah took the throne by killing the king'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'But Pekah the son of Remaliah, a captain of his, conspired against him, and smote him in Samaria'
+  - where: 'setting'
+    claim: 'Hoshea the son of Elah (the king) took the throne by killing Pekah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'And Hoshea the son of Elah made a conspiracy against Pekah the son of Remaliah, and smote him, and slew him, and reigned in his stead'
+  - where: 'setting'
+    claim: 'Hosea the prophet is the son of Beeri, so a different man from king Hoshea the son of Elah'
+    key: bd-hosea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng'
+    quote: 'Son of Beeri, and the only prophet of the northern kingdom who has left written prophecies.'
+  - where: 'setting'
+    claim: 'Jeroboam (the son of Nebat) made two golden calves and set them at Bethel and Dan'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/12?lang=eng'
+    quote: 'And he set the one in Beth-el, and the other put he in Dan.'
+  - where: 'setting'
+    claim: 'Hosea still speaks of the calves'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/10?lang=eng'
+    quote: 'The inhabitants of Samaria shall fear because of the calves of Beth-aven'
+  - where: 'setting'
+    claim: 'Menahem paid the king of Assyria for his support'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'Menahem gave Pul a thousand talents of silver, that his hand might be with him to confirm the kingdom in his hand.'
+  - where: 'setting'
+    claim: 'King Hoshea sent messengers to Egypt'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng'
+    quote: 'for he had sent messengers to So king of Egypt, and brought no present to the king of Assyria'
+  - where: 'setting'
+    claim: 'Assyria took Samaria and carried Israel away'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng'
+    quote: 'In the ninth year of Hoshea the king of Assyria took Samaria, and carried Israel away into Assyria'
+  - where: 'setting'
+    claim: 'The rest of Israel was carried captive in 721 B.C.'
+    key: bd-captivities
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/captivities-of-the-israelites?lang=eng'
+    quote: 'in 721 B.C. Sargon Ⅱ carried into captivity the rest of Israel (2 Kgs. 17:3), placing them at Halah, Habor, etc.'
+  - where: 'setting'
+    claim: 'King Limhi gives a saying about sowing and reaping the whirlwind as the Lord’s word'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/7?lang=eng'
+    quote: 'And again, he saith: If my people shall sow filthiness they shall reap the chaff thereof in the whirlwind; and the effect thereof is poison.'
+  - where: 'setting'
+    claim: 'The Savior closes the Sermon on the Mount with people who claim Him and are not known by Him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/7?lang=eng'
+    quote: 'And then will I profess unto them, I never knew you: depart from me, ye that work iniquity.'
+  - where: 'setting'
+    claim: 'Verses 1 and 13 are marked as uncertain in Hebrew by a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NRSVUE'
+    quote: 'Meaning of Heb uncertain'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'The verb “make” (asah, H6213) stands in verse 4, “made them idols” (hebrew.mjs hosea 8:4; --word 6213)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'עָשׂ֤וּ'
+  - where: 'thread'
+    claim: 'The same verb stands in verse 6, “the workman made it” (hebrew.mjs hosea 8:6)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'עָשָׂ֔/הוּ'
+  - where: 'thread'
+    claim: 'The same verb is behind “yield” in verse 7, twice (hebrew.mjs hosea 8:7)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יַֽעֲשֶׂה'
+  - where: 'thread'
+    claim: '“His Maker” in verse 14 is a participle of the same verb, with a suffix (hebrew.mjs hosea 8:14: H6213a, HVqrmsc/Sp3ms)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'עֹשֵׂ֗/הוּ'
+  - where: 'thread'
+    claim: 'The verb “know” (yada, H3045) is in verse 2, “we know thee” (hebrew.mjs hosea 8:2)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יְֽדַעֲנ֖וּ/ךָ'
+  - where: 'thread'
+    claim: 'The same verb is in verse 4, “I knew it not” (hebrew.mjs hosea 8:4)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יָדָ֑עְתִּי'
+
+  # ---------- sections ----------
+  - where: 'section 2 plain'
+    claim: '“I knew it not” means that He did not acknowledge them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/8?lang=eng'
+    quote: 'IE I acknowledged them not.'
+  - where: 'section 2 plain'
+    claim: 'The calf is rejected (one rendering of the first clause of verse 5)'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NRSVUE'
+    quote: 'Your calf is rejected, O Samaria.'
+  - where: 'section 2 plain'
+    claim: '“Ere they attain to innocency” can be “before they become clean”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/8?lang=eng'
+    quote: 'OR before they become clean.'
+  - where: 'section 4 plain'
+    claim: '“Temples” in verse 14 can be palaces or great buildings'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/8?lang=eng'
+    quote: 'OR palaces or great buildings.'
+  - where: 'section 4 plain'
+    claim: '“Fenced” cities are fortified cities'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/8?lang=eng'
+    quote: 'OR fortified.'
+  - where: 'section 4 plain'
+    claim: '“Visit their sins” is to punish them; the “palaces” the fire devours are strongholds'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NRSVUE'
+    quote: 'and it shall devour his strongholds.'
+
+  # ---------- note 8:1 ----------
+  - where: 'note 8:1 “A bird of prey over the Lord’s house”'
+    claim: 'The first sentence of verse 1 is an exclamation without a verb'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/8.htm'
+    quote: 'The first sentence of Hosea 5:1 is an exclamation, and therefore has no verb.'
+  - where: 'note 8:1 “A bird of prey over the Lord’s house”'
+    claim: 'Keil’s literal rendering of the second clause'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/8.htm'
+    quote: 'Like an eagle upon the house of Jehovah!'
+  - where: 'note 8:1 “A bird of prey over the Lord’s house”'
+    claim: 'The NRSVUE renders the clause with a vulture over the house'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NRSVUE'
+    quote: 'One like a vulture is over the house of the Lord,'
+  - where: 'note 8:1 “A bird of prey over the Lord’s house”'
+    claim: 'The NRSVUE marks verse 1 as uncertain'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NRSVUE'
+    quote: '8.1 Meaning of Heb uncertain'
+  - where: 'note 8:1 “A bird of prey over the Lord’s house”'
+    claim: 'The Hebrew nesher (H5404) is a griffon-vulture or eagle'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5404.htm'
+    quote: 'griffon-vulture, eagle'
+  - where: 'note 8:1 “A bird of prey over the Lord’s house”'
+    claim: 'The trumpet is the shofar, the ram’s horn'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/8?lang=eng'
+    quote: 'HEB shofar, or ram’s horn.'
+  - where: 'note 8:1 “A bird of prey over the Lord’s house”'
+    claim: 'The eagle is one of the covenant curses of Deuteronomy 28'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/28?lang=eng'
+    quote: 'The Lord shall bring a nation against thee from far, from the end of the earth, as swift as the eagle flieth'
+  - where: 'note 8:1 “A bird of prey over the Lord’s house”'
+    claim: 'The simile points back to Deuteronomy 28:49'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/8.htm'
+    quote: 'points back to the threat of Moses in Deuteronomy 28:49'
+  - where: 'note 8:1 “A bird of prey over the Lord’s house”'
+    claim: 'The shrines of the north held Jeroboam’s calves'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/12?lang=eng'
+    quote: 'So did he in Beth-el, sacrificing unto the calves that he had made'
+  - where: 'note 8:1 “A bird of prey over the Lord’s house”'
+    claim: 'One reading: the house of the Lord is Israel itself, as in Hosea 9:15'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/8.htm'
+    quote: 'but Israel was the house of Jehovah, as being a portion of the congregation of the Lord, as in Hosea 9:15'
+  - where: 'note 8:1 “A bird of prey over the Lord’s house”'
+    claim: 'Hosea 9:15 has the Lord driving Israel out of His house'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/9?lang=eng'
+    quote: 'I will drive them out of mine house'
+
+  # ---------- note 8:2 ----------
+  - where: 'note 8:2 “Israel’s claim to know the Lord”'
+    claim: 'Chapter 4 charged the land with having no knowledge of God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/4?lang=eng'
+    quote: 'because there is no truth, nor mercy, nor knowledge of God in the land'
+  - where: 'note 8:2 “Israel’s claim to know the Lord”'
+    claim: 'In Hebrew “Israel” is the last word of verse 2 (hebrew.mjs hosea 8:2, word 5)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יִשְׂרָאֵֽל'
+  - where: 'note 8:2 “Israel’s claim to know the Lord”'
+    claim: 'The ESV keeps “Israel” inside the people’s cry'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=ESV'
+    quote: '“My God, we—Israel—know you.”'
+  - where: 'note 8:2 “Israel’s claim to know the Lord”'
+    claim: 'The Septuagint has no “Israel” in the cry'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/8.htm'
+    quote: 'They shall soon cry out to me, saying, O God, we know thee.'
+  - where: 'note 8:2 “Israel’s claim to know the Lord”'
+    claim: 'The NRSVUE follows the Greek and Syriac and notes that the Hebrew adds “Israel”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NRSVUE'
+    quote: 'Gk Syr: Heb adds Israel'
+  - where: 'note 8:2 “Israel’s claim to know the Lord”'
+    claim: 'The verb “know” in verse 2 is yada (H3045) (hebrew.mjs hosea 8:2)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יְֽדַעֲנ֖וּ/ךָ'
+  - where: 'note 8:2 “Israel’s claim to know the Lord”'
+    claim: '“I knew it not” in verse 4 is the same verb (H3045) (hebrew.mjs hosea 8:4)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יָדָ֑עְתִּי'
+  - where: 'note 8:2 “Israel’s claim to know the Lord”'
+    claim: 'The Latter-day Saint edition’s alternative for “I knew it not”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/8?lang=eng'
+    quote: 'IE I acknowledged them not.'
+  - where: 'note 8:2 “Israel’s claim to know the Lord”'
+    claim: 'The NIV translates the cry with “acknowledge”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NIV'
+    quote: 'Our God, we acknowledge you!'
+
+  # ---------- note 8:4 ----------
+  - where: 'note 8:4 “Kings the Lord did not choose”'
+    claim: 'The law left the choice of a king to the Lord'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/17?lang=eng'
+    quote: 'Thou shalt in any wise set him king over thee, whom the Lord thy God shall choose'
+  - where: 'note 8:4 “Kings the Lord did not choose”'
+    claim: 'Shallum conspired, killed the king, and reigned'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'And Shallum the son of Jabesh conspired against him, and smote him before the people, and slew him, and reigned in his stead.'
+  - where: 'note 8:4 “Kings the Lord did not choose”'
+    claim: 'Menahem killed Shallum and reigned'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'smote Shallum the son of Jabesh in Samaria, and slew him, and reigned in his stead'
+  - where: 'note 8:4 “Kings the Lord did not choose”'
+    claim: 'Pekah, a captain, conspired against his king, killed him, and reigned'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'and he killed him, and reigned in his room'
+  - where: 'note 8:4 “Kings the Lord did not choose”'
+    claim: 'Pekah was a captain who conspired'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'But Pekah the son of Remaliah, a captain of his, conspired against him'
+  - where: 'note 8:4 “Kings the Lord did not choose”'
+    claim: 'Hoshea conspired against Pekah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'And Hoshea the son of Elah made a conspiracy against Pekah the son of Remaliah'
+  - where: 'note 8:4 “Kings the Lord did not choose”'
+    claim: 'Hosea 7:7 on the fallen kings'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'all their kings are fallen: there is none among them that calleth unto me'
+  - where: 'note 8:4 “Kings the Lord did not choose”'
+    claim: 'Ahijah promised Jeroboam ten tribes in the Lord’s name'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/11?lang=eng'
+    quote: 'I will rend the kingdom out of the hand of Solomon, and will give ten tribes to thee'
+  - where: 'note 8:4 “Kings the Lord did not choose”'
+    claim: 'One reading: the verse refers chiefly to the founding of the kingdom by Jeroboam Ⅰ, and to later usurpations'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/8.htm'
+    quote: 'refers chiefly to the founding of the kingdom by Jeroboam I. It is not to be restricted to this, however'
+  - where: 'note 8:4 “Kings the Lord did not choose”'
+    claim: 'The promise did not warrant seizing the government'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/8.htm'
+    quote: 'For neither the divine promise of the throne, nor the anointing performed by the command of God, warranted their forcibly seizing upon the government'
+  - where: 'note 8:4 “Kings the Lord did not choose”'
+    claim: 'In Kings the people made Jeroboam king'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/12?lang=eng'
+    quote: 'they sent and called him unto the congregation, and made him king over all Israel'
+  - where: 'note 8:4 “Kings the Lord did not choose”'
+    claim: 'Hosea 13:11: the Lord gave a king in anger and took him away in wrath'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
+    quote: 'I gave thee a king in mine anger, and took him away in my wrath.'
+  - where: 'note 8:4 “Kings the Lord did not choose”'
+    claim: 'The silver and gold were the Lord’s gifts, used for Baal'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/2?lang=eng'
+    quote: 'and multiplied her silver and gold, which they prepared for Baal'
+
+  # ---------- note 8:5 ----------
+  - where: 'note 8:5 “The calf of Samaria”'
+    claim: 'Jeroboam made two calves of gold'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/12?lang=eng'
+    quote: 'Whereupon the king took counsel, and made two calves of gold'
+  - where: 'note 8:5 “The calf of Samaria”'
+    claim: 'He set them at Bethel and Dan'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/12?lang=eng'
+    quote: 'And he set the one in Beth-el, and the other put he in Dan.'
+  - where: 'note 8:5 “The calf of Samaria”'
+    claim: 'Hosea joins Samaria’s people to the calves of Beth-aven'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/10?lang=eng'
+    quote: 'The inhabitants of Samaria shall fear because of the calves of Beth-aven'
+  - where: 'note 8:5 “The calf of Samaria”'
+    claim: 'The verb of verse 5 is zanach (H2186), the verb of verse 3 (hebrew.mjs hosea 8:3, 8:5)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'זָנַח֙'
+  - where: 'note 8:5 “The calf of Samaria”'
+    claim: 'Verse 3 has the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'זָנַ֥ח'
+  - where: 'note 8:5 “The calf of Samaria”'
+    claim: 'zanach means reject, spurn'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2186.htm'
+    quote: 'verb reject, spurn'
+  - where: 'note 8:5 “The calf of Samaria”'
+    claim: 'As the Hebrew stands, the calf rejects Samaria; others make the Lord the subject'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2186.htm'
+    quote: 'Samaria''s calf rejects her Hosea 8:5 (others make'
+  - where: 'note 8:5 “The calf of Samaria”'
+    claim: 'The ESV makes the Lord the one who spurns the calf'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=ESV'
+    quote: 'I have spurned your calf, O Samaria.'
+  - where: 'note 8:5 “The calf of Samaria”'
+    claim: 'The ESV notes that the Hebrew has the third person'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=ESV'
+    quote: 'Hosea 8:5 Hebrew He has'
+  - where: 'note 8:5 “The calf of Samaria”'
+    claim: 'The NIV reads a command'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NIV'
+    quote: 'Samaria, throw out your calf-idol!'
+  - where: 'note 8:5 “The calf of Samaria”'
+    claim: 'The Septuagint reads a command'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/8.htm'
+    quote: 'Cast off thy calf, O Samaria; mine anger is kindled against them'
+  - where: 'note 8:5 “The calf of Samaria”'
+    claim: 'Hosea 13:2 calls the idols the work of craftsmen'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
+    quote: 'all of it the work of the craftsmen: they say of them, Let the men that sacrifice kiss the calves'
+  - where: 'note 8:5 “The calf of Samaria”'
+    claim: 'The word for “broken in pieces” (shebabim, H7616) probably means splinters'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7616.htm'
+    quote: 'probably splinters'
+  - where: 'note 8:5 “The calf of Samaria”'
+    claim: 'Hosea 10:6: the calf will be carried to Assyria'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/10?lang=eng'
+    quote: 'It shall be also carried unto Assyria for a present to king Jareb'
+  - where: 'note 8:5 “The calf of Samaria”'
+    claim: 'Beth-aven in Hosea 10:5 (as in 4:15 and 5:8) is Hosea’s name for Bethel'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/205.htm'
+    quote: 'Hosea 4:15 (for בֵּית אֵלbecause Bethel, house of God, is given over to idolatry) so also Hosea 5:8; Hosea 10:5'
+
+  # ---------- note 8:7 A crop of wind ----------
+  - where: 'note 8:7 “A crop of wind”'
+    claim: 'What is sown is ruach (H7307), wind (hebrew.mjs hosea 8:7)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'ר֥וּחַ'
+  - where: 'note 8:7 “A crop of wind”'
+    claim: 'suphah (H5492) is a storm-wind'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5492.htm'
+    quote: 'noun feminine storm-wind'
+  - where: 'note 8:7 “A crop of wind”'
+    claim: 'The lexicon lists the word as symbolic of the Lord’s judgments, citing this verse among others'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5492.htm'
+    quote: 'symbolic of'
+  - where: 'note 8:7 “A crop of wind”'
+    claim: 'God’s acts toward Israel are the harvest of what they have sown (Hosea 8:7)'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'In this situation, God’s actions toward Israel are the harvest of what they have sown (see Hosea 8:7).'
+  - where: 'note 8:7 “A crop of wind”'
+    claim: 'Justice returns more than was sown, as a kernel yields hundreds'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'a magnified return for what was meted out, just as one kernel of corn sown will produce hundreds of kernels in the day of harvest'
+  - where: 'note 8:7 “A crop of wind”'
+    claim: 'The “bud” is tsemach (H6780) (hebrew.mjs hosea 8:7)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'צֶ֚מַח'
+  - where: 'note 8:7 “A crop of wind”'
+    claim: 'The “meal” is qemach (H7058), which rhymes with it (hebrew.mjs hosea 8:7)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'קֶּ֔מַח'
+  - where: 'note 8:7 “A crop of wind”'
+    claim: '“Yield” is the verb asah, make (H6213) (hebrew.mjs hosea 8:7)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יַֽעֲשֶׂה'
+  - where: 'note 8:7 “A crop of wind”'
+    claim: '“Swallow it up” in verse 7 is the verb bala (H1104) (hebrew.mjs hosea 8:7)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יִבְלָעֻֽ/הוּ'
+  - where: 'note 8:7 “A crop of wind”'
+    claim: '“Is swallowed up” in verse 8 is the same verb (H1104) (hebrew.mjs hosea 8:8)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'נִבְלַ֖ע'
+  - where: 'note 8:7 “A crop of wind”'
+    claim: 'The NRSVUE’s rendering of the vessel in verse 8'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NRSVUE'
+    quote: 'as a useless vessel.'
+
+  # ---------- note 8:7 Limhi ----------
+  - where: 'note 8:7 “King Limhi and the whirlwind”'
+    claim: 'Limhi’s people were in bondage to the Lamanites when he spoke'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/7?lang=eng'
+    quote: 'Limhi’s people are in bondage to the Lamanites'
+  - where: 'note 8:7 “King Limhi and the whirlwind”'
+    claim: 'They had killed a prophet, and Limhi gives that as the reason for their bondage'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/7?lang=eng'
+    quote: 'they did put him to death; and many more things did they do which brought down the wrath of God upon them. Therefore, who wondereth that they are in bondage, and that they are smitten with sore afflictions?'
+  - where: 'note 8:7 “King Limhi and the whirlwind”'
+    claim: 'The first saying is introduced as the Lord’s'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/7?lang=eng'
+    quote: 'For behold, the Lord hath said: I will not succor my people in the day of their transgression'
+  - where: 'note 8:7 “King Limhi and the whirlwind”'
+    claim: 'The second saying: filthiness sown, chaff reaped in the whirlwind'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/7?lang=eng'
+    quote: 'And again, he saith: If my people shall sow filthiness they shall reap the chaff thereof in the whirlwind; and the effect thereof is poison.'
+  - where: 'note 8:7 “King Limhi and the whirlwind”'
+    claim: 'The third saying: the east wind'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/7?lang=eng'
+    quote: 'And again he saith: If my people shall sow filthiness they shall reap the east wind, which bringeth immediate destruction.'
+  - where: 'note 8:7 “King Limhi and the whirlwind”'
+    claim: 'The footnote on “reap” in Hosea 8:7 points to Mosiah 7:30'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/8?lang=eng'
+    quote: 'Mosiah 7:30; D&C 6:33.'
+  - where: 'note 8:7 “King Limhi and the whirlwind”'
+    claim: 'Limhi goes on to the condition of deliverance'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/7?lang=eng'
+    quote: 'But if ye will turn to the Lord with full purpose of heart, and put your trust in him, and serve him with all diligence of mind, if ye do this, he will, according to his own will and pleasure, deliver you out of bondage.'
+  - where: 'note 8:7 “King Limhi and the whirlwind”'
+    claim: 'Hosea 10:12 turns the figure of sowing to righteousness'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/10?lang=eng'
+    quote: 'Sow to yourselves in righteousness, reap in mercy'
+  - where: 'note 8:7 “King Limhi and the whirlwind”'
+    claim: 'D&C 6:33 states the rule for sowing good'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/6?lang=eng'
+    quote: 'for whatsoever ye sow, that shall ye also reap; therefore, if ye sow good ye shall also reap good for your reward'
+
+  # ---------- note 8:9 ----------
+  - where: 'note 8:9 “A wild ass alone, and lovers for hire”'
+    claim: 'pere (H6501), wild ass, is used here as a figure of wilfulness'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6501.htm'
+    quote: 'figurative of wilfulness Hosea 8:9'
+  - where: 'note 8:9 “A wild ass alone, and lovers for hire”'
+    claim: '“Alone” (boded, H909) is going alone for itself, wilfully'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/909.htm'
+    quote: 'a wild-ass (simile of Ephraim) going alone for itself (i.e. willfully'
+  - where: 'note 8:9 “A wild ass alone, and lovers for hire”'
+    claim: 'Israel wanted to go her own way and be alone'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'Because Israel wanted to go her own way and be alone, she was likened to a wild ass.'
+  - where: 'note 8:9 “A wild ass alone, and lovers for hire”'
+    claim: 'She would go alone into Assyria and be swallowed up'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'She would go alone into Assyria and be swallowed up by the Gentiles.'
+  - where: 'note 8:9 “A wild ass alone, and lovers for hire”'
+    claim: 'Jeremiah uses the wild ass in a chapter addressed to Judah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/2?lang=eng'
+    quote: 'A wild ass used to the wilderness, that snuffeth up the wind at her pleasure'
+  - where: 'note 8:9 “A wild ass alone, and lovers for hire”'
+    claim: 'Jeremiah 2 is about the people of Judah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/2?lang=eng'
+    quote: 'The people of Judah forsook the Lord, the fountain of living waters'
+  - where: 'note 8:9 “A wild ass alone, and lovers for hire”'
+    claim: 'The verb (tanah, H8566) means to hire'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8566.htm'
+    quote: 'hire (allies) among the nations'
+  - where: 'note 8:9 “A wild ass alone, and lovers for hire”'
+    claim: 'The NRSVUE’s rendering'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NRSVUE'
+    quote: 'Ephraim has bargained for lovers.'
+  - where: 'note 8:9 “A wild ass alone, and lovers for hire”'
+    claim: 'The NIV’s rendering'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NIV'
+    quote: 'Ephraim has sold herself to lovers.'
+  - where: 'note 8:9 “A wild ass alone, and lovers for hire”'
+    claim: 'Ezekiel says the same of Jerusalem: she pays her lovers'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/16?lang=eng'
+    quote: 'They give gifts to all whores: but thou givest thy gifts to all thy lovers, and hirest them'
+  - where: 'note 8:9 “A wild ass alone, and lovers for hire”'
+    claim: 'Ezekiel 16 is addressed to Jerusalem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/16?lang=eng'
+    quote: 'Jerusalem has become as a harlot'
+  - where: 'note 8:9 “A wild ass alone, and lovers for hire”'
+    claim: 'The lovers represent political alliances'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'represent her continued attempt to find security and friends through political alliances rather than through obedience to God'
+  - where: 'note 8:9 “A wild ass alone, and lovers for hire”'
+    claim: 'Menahem’s payment to Pul'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'Menahem gave Pul a thousand talents of silver, that his hand might be with him to confirm the kingdom in his hand.'
+
+  # ---------- note 8:10 ----------
+  - where: 'note 8:10 “The burden of the king of princes”'
+    claim: 'The King James rendering, as the lexicon gives it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2490.htm'
+    quote: 'shall be in anguish a little for the burden'
+  - where: 'note 8:10 “The burden of the king of princes”'
+    claim: 'Another rendering of the same clause'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2490.htm'
+    quote: 'begin to be minished by reason of the burden'
+  - where: 'note 8:10 “The burden of the king of princes”'
+    claim: 'The Septuagint’s reading rests on different Hebrew and is judged probably best'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2490.htm'
+    quote: 'cease a little from anointing, so Che We, this probably best'
+  - where: 'note 8:10 “The burden of the king of princes”'
+    claim: 'The NIV, first line'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NIV'
+    quote: 'They will begin to waste away'
+  - where: 'note 8:10 “The burden of the king of princes”'
+    claim: 'The NIV, second line'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NIV'
+    quote: 'under the oppression of the mighty king.'
+  - where: 'note 8:10 “The burden of the king of princes”'
+    claim: 'The NRSVUE’s rendering'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NRSVUE'
+    quote: 'They shall soon writhe under the burden of kings and princes.'
+  - where: 'note 8:10 “The burden of the king of princes”'
+    claim: 'The ESV makes the king and princes the subject'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=ESV'
+    quote: 'the king and princes'
+  - where: 'note 8:10 “The burden of the king of princes”'
+    claim: 'The ESV: they writhe because of the tribute'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=ESV'
+    quote: 'shall soon writhe because of the tribute.'
+  - where: 'note 8:10 “The burden of the king of princes”'
+    claim: 'Brenton’s Septuagint'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/8.htm'
+    quote: 'they shall cease a little to anoint a king and princes'
+  - where: 'note 8:10 “The burden of the king of princes”'
+    claim: 'The king of princes read as the Assyrian king, with Isaiah 10:8'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/8.htm'
+    quote: 'is a term applied to the great Assyrian king, who boasted, according to Isaiah 10:8, that his princes were all kings'
+  - where: 'note 8:10 “The burden of the king of princes”'
+    claim: 'Isaiah 10:8, the Assyrian’s boast'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/10?lang=eng'
+    quote: 'For he saith, Are not my princes altogether kings?'
+  - where: 'note 8:10 “The burden of the king of princes”'
+    claim: 'The gathering is a threat'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/8.htm'
+    quote: 'can only have a threatening or punitive sense here'
+  - where: 'note 8:10 “The burden of the king of princes”'
+    claim: 'Hosea 9:6 uses “gather” of burial in Egypt'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/9?lang=eng'
+    quote: 'Egypt shall gather them up, Memphis shall bury them'
+
+  # ---------- note 8:11 ----------
+  - where: 'note 8:11 “Altars for sin that became altars for sinning”'
+    claim: 'Both halves of verse 11 end with the same phrase, “to sin” (H2398) (hebrew.mjs hosea 8:11, words 5 and 9)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'לַ/חֲטֹ֑א'
+  - where: 'note 8:11 “Altars for sin that became altars for sinning”'
+    claim: 'The second occurrence'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'לַ/חֲטֹֽא'
+  - where: 'note 8:11 “Altars for sin that became altars for sinning”'
+    claim: 'The ESV keeps the repetition'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=ESV'
+    quote: 'has multiplied altars for sinning, they have become to him altars for sinning.'
+  - where: 'note 8:11 “Altars for sin that became altars for sinning”'
+    claim: 'The NRSVUE hears two senses'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NRSVUE'
+    quote: 'When Ephraim multiplied altars to expiate sin, they became to him altars for sinning.'
+  - where: 'note 8:11 “Altars for sin that became altars for sinning”'
+    claim: 'The NIV, first line'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NIV'
+    quote: 'Though Ephraim built many altars for sin offerings,'
+  - where: 'note 8:11 “Altars for sin that became altars for sinning”'
+    claim: 'The NIV, second line'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NIV'
+    quote: 'these have become altars for sinning.'
+  - where: 'note 8:11 “Altars for sin that became altars for sinning”'
+    claim: 'The word behind “mine offerings” (habhab, H1890) is of dubious meaning; “my gifts”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1890.htm'
+    quote: 'but meaning (and v) dubious'
+  - where: 'note 8:11 “Altars for sin that became altars for sinning”'
+    claim: 'The NRSVUE marks verse 13 as uncertain'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NRSVUE'
+    quote: '8.13 Cn: Meaning of Heb uncertain'
+  - where: 'note 8:11 “Altars for sin that became altars for sinning”'
+    claim: 'Hosea 10:1 ties the altars to the land’s fruitfulness'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/10?lang=eng'
+    quote: 'according to the multitude of his fruit he hath increased the altars'
+
+  # ---------- note 8:12 ----------
+  - where: 'note 8:12 “Ten thousand things of the law, counted as foreign”'
+    claim: 'The written form (ketiv) in verse 12 is ribbo (H7239) (hebrew.mjs hosea 8:12 prints both forms)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'רבו'
+  - where: 'note 8:12 “Ten thousand things of the law, counted as foreign”'
+    claim: 'The form to be read (qere) (H7230)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'רֻבֵּ֖י'
+  - where: 'note 8:12 “Ten thousand things of the law, counted as foreign”'
+    claim: 'ribbo means ten thousand, myriad'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7239.htm'
+    quote: 'ten thousand, myriad'
+  - where: 'note 8:12 “Ten thousand things of the law, counted as foreign”'
+    claim: 'The lexicon lists Hosea 8:12 as the ketiv'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7239.htm'
+    quote: 'Hosea 8:12 Kt'
+  - where: 'note 8:12 “Ten thousand things of the law, counted as foreign”'
+    claim: 'The Masoretes’ form is read as “multitudes”'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/8.htm'
+    quote: 'The Masoretes, who supposed the number to be used in an arithmetical sense, altered it, as conjecturally unsuitable, into'
+  - where: 'note 8:12 “Ten thousand things of the law, counted as foreign”'
+    claim: 'Keil glosses the Masoretes’ form as multitudes'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/8.htm'
+    quote: 'multitudes, although'
+  - where: 'note 8:12 “Ten thousand things of the law, counted as foreign”'
+    claim: 'The NIV takes the verb as past fact'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NIV'
+    quote: 'I wrote for them the many things of my law,'
+  - where: 'note 8:12 “Ten thousand things of the law, counted as foreign”'
+    claim: 'The chapter heading in the Latter-day Saint edition takes it as fact'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/8?lang=eng'
+    quote: 'The Lord has written the great things of His law to Ephraim.'
+  - where: 'note 8:12 “Ten thousand things of the law, counted as foreign”'
+    claim: 'The ESV makes it a supposition, with ten thousands'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=ESV'
+    quote: 'Were I to write for him my laws by the ten thousands, they would be regarded as a strange thing.'
+  - where: 'note 8:12 “Ten thousand things of the law, counted as foreign”'
+    claim: 'The NRSVUE makes it a supposition'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NRSVUE'
+    quote: 'Though I write for him the multitude of my instructions,'
+  - where: 'note 8:12 “Ten thousand things of the law, counted as foreign”'
+    claim: 'The Septuagint has a future'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/8.htm'
+    quote: 'I will write down a multitude of commands for him'
+  - where: 'note 8:12 “Ten thousand things of the law, counted as foreign”'
+    claim: '“A strange thing” is zar (H2114) (hebrew.mjs hosea 8:12)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'זָ֖ר'
+  - where: 'note 8:12 “Ten thousand things of the law, counted as foreign”'
+    claim: '“Strangers” in verse 7 is the same word, in the plural (H2114) (hebrew.mjs hosea 8:7)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'זָרִ֖ים'
+  - where: 'note 8:12 “Ten thousand things of the law, counted as foreign”'
+    claim: 'Hosea 4:6 charges the priests with forgetting the law'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/4?lang=eng'
+    quote: 'seeing thou hast forgotten the law of thy God, I will also forget thy children'
+
+  # ---------- note 8:13 ----------
+  - where: 'note 8:13 “Back to Egypt”'
+    claim: 'Egypt was the land of Israel’s first captivity'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'Egypt was the land of the first captivity—between the times of Joseph and Moses.'
+  - where: 'note 8:13 “Back to Egypt”'
+    claim: 'The return to Egypt is the last verse of the curses in Deuteronomy 28'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/28?lang=eng'
+    quote: 'And the Lord shall bring thee into Egypt again with ships'
+  - where: 'note 8:13 “Back to Egypt”'
+    claim: 'The eagle of verse 1 is in the same chapter of Deuteronomy'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/28?lang=eng'
+    quote: 'as swift as the eagle flieth'
+  - where: 'note 8:13 “Back to Egypt”'
+    claim: 'Hosea 9:3 sets Egypt beside Assyria'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/9?lang=eng'
+    quote: 'Ephraim shall return to Egypt, and they shall eat unclean things in Assyria'
+  - where: 'note 8:13 “Back to Egypt”'
+    claim: 'Hosea 11:5 says he will not return to Egypt; Assyria will rule'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/11?lang=eng'
+    quote: 'He shall not return into the land of Egypt, but the Assyrian shall be his king'
+  - where: 'note 8:13 “Back to Egypt”'
+    claim: 'The Septuagint has the Assyrian line at 8:13'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/8.htm'
+    quote: 'they have returned to Egypt, and they shall eat unclean things among the Assyrians'
+  - where: 'note 8:13 “Back to Egypt”'
+    claim: 'Egypt stands for bondage; Assyria is the new Egypt'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'The word here refers to captivity or bondage in general; thus, Assyria is the new Egypt.'
+  - where: 'note 8:13 “Back to Egypt”'
+    claim: 'Assyria took Samaria and carried Israel away'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng'
+    quote: 'the king of Assyria took Samaria, and carried Israel away into Assyria'
+  - where: 'note 8:13 “Back to Egypt”'
+    claim: 'Ephraim called to Egypt as well as Assyria'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'they call to Egypt, they go to Assyria'
+  - where: 'note 8:13 “Back to Egypt”'
+    claim: 'King Hoshea sent to Egypt, and the king of Assyria imprisoned him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng'
+    quote: 'for he had sent messengers to So king of Egypt, and brought no present to the king of Assyria, as he had done year by year: therefore the king of Assyria shut him up, and bound him in prison'
+
+  # ---------- note 8:14 ----------
+  - where: 'note 8:14 “The Maker forgotten, and the builders”'
+    claim: '“His Maker” is a participle of asah (H6213) (hebrew.mjs hosea 8:14)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'עֹשֵׂ֗/הוּ'
+  - where: 'note 8:14 “The Maker forgotten, and the builders”'
+    claim: 'The same verb in verse 4, “made them idols”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'עָשׂ֤וּ'
+  - where: 'note 8:14 “The Maker forgotten, and the builders”'
+    claim: 'The same verb in verse 6, “the workman made it”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'עָשָׂ֔/הוּ'
+  - where: 'note 8:14 “The Maker forgotten, and the builders”'
+    claim: 'hekal (H1964) means palace or temple'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1964.htm'
+    quote: 'palace, temple'
+  - where: 'note 8:14 “The Maker forgotten, and the builders”'
+    claim: 'The lexicon lists Hosea 8:14 under royal palace, in Northern Israel'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1964.htm'
+    quote: 'Hosea 8:14 (in Northern Israel)'
+  - where: 'note 8:14 “The Maker forgotten, and the builders”'
+    claim: 'The Latter-day Saint edition’s alternative for “temples”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/8?lang=eng'
+    quote: 'OR palaces or great buildings.'
+  - where: 'note 8:14 “The Maker forgotten, and the builders”'
+    claim: 'The NRSVUE has palaces'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%208&version=NRSVUE'
+    quote: 'and built palaces,'
+  - where: 'note 8:14 “The Maker forgotten, and the builders”'
+    claim: 'The Septuagint translates “fanes” (temples)'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/8.htm'
+    quote: 'and they have built fanes, and Juda has multiplied walled cities'
+  - where: 'note 8:14 “The Maker forgotten, and the builders”'
+    claim: 'Amos has the same sentence of Judah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/amos/2?lang=eng'
+    quote: 'But I will send a fire upon Judah, and it shall devour the palaces of Jerusalem.'
+  - where: 'note 8:14 “The Maker forgotten, and the builders”'
+    claim: 'Amos uses it of other nations too (Moab)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/amos/2?lang=eng'
+    quote: 'But I will send a fire upon Moab, and it shall devour the palaces of Kerioth'
+  - where: 'note 8:14 “The Maker forgotten, and the builders”'
+    claim: 'Amos begins the series with Syria (Damascus)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/amos/1?lang=eng'
+    quote: 'But I will send a fire into the house of Hazael, which shall devour the palaces of Ben-hadad.'
+  - where: 'note 8:14 “The Maker forgotten, and the builders”'
+    claim: 'Hosea was a contemporary of Amos'
+    key: vandyke-ogden-twelve
+    url: 'https://rsc.byu.edu/vol-4-no-3-2003/amos-through-malachi-major-teachings-twelve-prophets'
+    quote: 'Hosea is a contemporary of Amos.'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'The Savior: not everyone who says “Lord, Lord” enters the kingdom'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/7?lang=eng'
+    quote: 'Not every one that saith unto me, Lord, Lord, shall enter into the kingdom of heaven; but he that doeth the will of my Father which is in heaven.'
+  - where: 'christ'
+    claim: 'They plead what they did in His name'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/7?lang=eng'
+    quote: 'Many will say to me in that day, Lord, Lord, have we not prophesied in thy name?'
+  - where: 'christ'
+    claim: 'His answer: I never knew you'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/7?lang=eng'
+    quote: 'And then will I profess unto them, I never knew you: depart from me, ye that work iniquity.'
+  - where: 'christ'
+    claim: 'Hosea 8:1–2 uses language like that of 3 Nephi 14 and Matthew 7'
+    key: sc-knowhy-205
+    url: 'https://scripturecentral.org/knowhy/why-did-jesus-say-that-some-well-intentioned-people-will-be-told-to-depart'
+    quote: 'Hosea 8:1–2 uses language similar to that of 3 Nephi 14'
+  - where: 'christ'
+    claim: 'One reading: Jesus, like Hosea in 8:1–2, spoke of those acting in God’s name illegitimately, perhaps having broken their covenants'
+    key: sc-knowhy-205
+    url: 'https://scripturecentral.org/knowhy/why-did-jesus-say-that-some-well-intentioned-people-will-be-told-to-depart'
+    quote: 'It appears that Jesus was, as was Hosea in Hosea 8:1–2, directing His comments towards those who officiated in the temple but who had fallen away from correct practice because they were acting in God’s name illegitimately, perhaps because they had broken their covenants.'
+  - where: 'christ'
+    claim: 'The use of His name without righteousness and a faithful covenant relationship does not gain entrance'
+    key: sc-knowhy-205
+    url: 'https://scripturecentral.org/knowhy/why-did-jesus-say-that-some-well-intentioned-people-will-be-told-to-depart'
+    quote: 'the use of His name alone, without the required righteousness and faithful covenant relationship, will not gain them access'
+  - where: 'note 8:7 “King Limhi and the whirlwind”'
+    claim: 'The prophet Limhi’s people killed had prophesied of the coming of Christ'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/7?lang=eng'
+    quote: 'and prophesied of many things which are to come, yea, even the coming of Christ'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: 'Galatians 6:7–8 on sowing and reaping'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/gal/6?lang=eng'
+    quote: 'for whatsoever a man soweth, that shall he also reap'
+  - where: 'explore'
+    claim: 'Hosea 13:10–11 on the king given in anger'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
+    quote: 'Give me a king and princes?'
