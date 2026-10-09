@@ -1,0 +1,833 @@
+chapter: 13
+claims:
+  # ---- when ----
+  - where: 'when'
+    claim: 'Hosea ministered in the northern kingdom in the latter half of the eighth century B.C.'
+    key: scripture-helps-hosea
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/45-hosea-1-6-10-14-joel?lang=eng'
+    quote: 'His ministry took place in the Northern Kingdom of Israel during the latter half of the eighth century BC.'
+
+  # ---- setting ----
+  - where: 'setting'
+    claim: 'Hosea prophesied when Israel was close to being conquered by Assyria'
+    key: scripture-helps-hosea
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/45-hosea-1-6-10-14-joel?lang=eng'
+    quote: 'Hosea prophesied during a time of great wickedness, when Israel was close to being conquered by the Assyrian empire.'
+  - where: 'setting'
+    claim: 'Assyria took Samaria and carried Israel away'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng'
+    quote: 'In the ninth year of Hoshea the king of Assyria took Samaria, and carried Israel away into Assyria'
+  - where: 'setting'
+    claim: 'Chapter 14 is a call to return with a promise of healing'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/14?lang=eng'
+    quote: 'I will heal their backsliding, I will love them freely: for mine anger is turned away from him.'
+  - where: 'setting'
+    claim: 'Verse 16 is the first verse of chapter 14 in the Hebrew Bible'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NIV'
+    quote: 'In Hebrew texts this verse (13:16) is numbered 14:1.'
+  - where: 'setting'
+    claim: 'The request for a king in verse 10 goes back to the people’s request to Samuel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/8?lang=eng'
+    quote: 'But the thing displeased Samuel, when they said, Give us a king to judge us.'
+  - where: 'setting'
+    claim: 'Paul addresses death and the grave in 1 Corinthians 15'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/15?lang=eng'
+    quote: 'O death, where is thy sting? O grave, where is thy victory?'
+  - where: 'setting'
+    claim: 'Abinadi’s words in Mosiah 16:7–8 are close to Paul’s and to this verse'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/16?lang=eng'
+    quote: 'that the grave should have no victory, and that death should have no sting'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'The morning cloud and early dew of 13:3 were the picture of Israel’s goodness in 6:4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
+    quote: 'Therefore they shall be as the morning cloud, and as the early dew that passeth away'
+  - where: 'thread'
+    claim: 'The Church edition’s heading reads verse 14 as a promise'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
+    quote: 'He ransoms from the grave and redeems from death.'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: 'Verse 1: when Ephraim spoke there was trembling'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'When Ephraim spoke, there was trembling;'
+  - where: 'section 1 plain'
+    claim: 'Verse 1: he became guilty through Baal and died'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'but he incurred guilt through Baal and died.'
+  - where: 'section 2 plain'
+    claim: 'Verse 8: a bear robbed of her cubs'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'I will fall upon them like a bear robbed of her cubs'
+  - where: 'section 2 plain'
+    claim: 'Verse 8: “the caul of their heart” is the breast'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=ESV'
+    quote: 'I will tear open their breast,'
+  - where: 'section 3 plain'
+    claim: 'Verse 10 is a question, “Where is your king?”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'Where now is your king, that he may save you?'
+  - where: 'section 4 plain'
+    claim: 'Verse 12: the sin is kept in store'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'his sin is kept in store.'
+  - where: 'section 4 plain'
+    claim: 'Verse 13: he does not come to the mouth of the womb at the proper time'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'for at the proper time he does not present himself'
+  - where: 'section 4 plain'
+    claim: 'Verse 14: “where are your plagues” for the King James “I will be thy plagues”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'O Death, where are your plagues?'
+  - where: 'section 5 plain'
+    claim: 'Verse 15: the storehouse is plundered'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NIV'
+    quote: 'His storehouse will be plundered'
+  - where: 'section 5 plain'
+    claim: 'Verse 16: Samaria bears her guilt'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'Samaria shall bear her guilt'
+
+  # ---- note 13:1 ----
+  - where: 'note 13:1 “When Ephraim spoke, others trembled”'
+    claim: 'The lexicon gives the King James rendering'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7578.htm'
+    quote: 'when Ephraim spoke trembling'
+  - where: 'note 13:1 “When Ephraim spoke, others trembled”'
+    claim: 'The lexicon gives the other rendering and calls the text doubtful'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7578.htm'
+    quote: 'spoke, there was trembling; text dubious'
+  - where: 'note 13:1 “When Ephraim spoke, others trembled”'
+    claim: 'Modern translations: there was trembling when Ephraim spoke'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'When Ephraim spoke, there was trembling;'
+  - where: 'note 13:1 “When Ephraim spoke, others trembled”'
+    claim: 'The trembling is that of those who heard Ephraim'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/13.htm'
+    quote: 'men listened with fear and trembling'
+  - where: 'note 13:1 “When Ephraim spoke, others trembled”'
+    claim: '“Exalted himself” is Ephraim’s rise to rule, ending in the separate kingdom'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/13.htm'
+    quote: 'raised itself to the government'
+  - where: 'note 13:1 “When Ephraim spoke, others trembled”'
+    claim: 'The attempts at rule led to the secession and a kingdom beside Judah’s'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/13.htm'
+    quote: 'the establishment of the kingdom of Israel by the side of that of Judah'
+  - where: 'note 13:1 “When Ephraim spoke, others trembled”'
+    claim: '“Died,” of a state, is given up to destruction'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/13.htm'
+    quote: 'given up to destruction'
+  - where: 'note 13:1 “When Ephraim spoke, others trembled”'
+    claim: 'The dying began with the unlawful worship'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/13.htm'
+    quote: 'The dying commenced with the introduction of the unlawful worship'
+  - where: 'note 13:1 “When Ephraim spoke, others trembled”'
+    claim: 'The offence includes Jeroboam’s calves as well as Ahab’s Baal'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/13.htm'
+    quote: 'but even through the establishment of the worship of the calves under Jeroboam'
+
+  # ---- note 13:2 ----
+  - where: 'note 13:2 “Kissing the calves”'
+    claim: 'Kissing Baal was worship'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/19?lang=eng'
+    quote: 'all the knees which have not bowed unto Baal, and every mouth which hath not kissed him.'
+  - where: 'note 13:2 “Kissing the calves”'
+    claim: 'The Hebrew has “sacrificers of” followed by “man”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'זֹבְחֵ֣י'
+  - where: 'note 13:2 “Kissing the calves”'
+    claim: '“Man” and “calves” stand side by side in the Hebrew line'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'עֲגָלִ֖ים'
+  - where: 'note 13:2 “Kissing the calves”'
+    claim: 'The ESV reads human sacrifice'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=ESV'
+    quote: 'Those who offer human sacrifice'
+  - where: 'note 13:2 “Kissing the calves”'
+    claim: 'The NIV reads human sacrifice'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NIV'
+    quote: 'They offer human sacrifices!'
+  - where: 'note 13:2 “Kissing the calves”'
+    claim: 'The NIV gives the King James sense in a note'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NIV'
+    quote: 'Hosea 13:2 Or “Men who sacrifice / kiss'
+  - where: 'note 13:2 “Kissing the calves”'
+    claim: 'The Septuagint’s reading'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/13.htm'
+    quote: 'Sacrifice men, for the calves have come to an end.'
+  - where: 'note 13:2 “Kissing the calves”'
+    claim: 'The NRSVUE’s reading'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'People are kissing calves!'
+  - where: 'note 13:2 “Kissing the calves”'
+    claim: 'The NRSVUE notes that it has corrected the Hebrew'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: '13.2 Cn Compare Gk: Heb To these they say sacrifices of people'
+
+  # ---- note 13:4 ----
+  - where: 'note 13:4 “The first commandment, with a Saviour in it”'
+    claim: 'The opening of the Ten Commandments'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/20?lang=eng'
+    quote: 'I am the Lord thy God, which have brought thee out of the land of Egypt, out of the house of bondage.'
+  - where: 'note 13:4 “The first commandment, with a Saviour in it”'
+    claim: '“Knowledge” in Hosea is covenant language'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'The concept of “knowledge,” used to describe the exclusive intimacy of the covenant bond, is very important.'
+  - where: 'note 13:4 “The first commandment, with a Saviour in it”'
+    claim: 'Hosea 13:4–5 tells the establishment of the covenant in the vocabulary of marriage'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'concerning the establishment of the covenant between Jehovah and Israel, expressed in the vocabulary of marriage'
+  - where: 'note 13:4 “The first commandment, with a Saviour in it”'
+    claim: 'Egypt is where the Lord found Israel'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'Egypt is where Jehovah found Israel, his bride.'
+  - where: 'note 13:4 “The first commandment, with a Saviour in it”'
+    claim: '“Know” in verse 4 is Strong’s 3045'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'תֵדָ֔ע'
+  - where: 'note 13:4 “The first commandment, with a Saviour in it”'
+    claim: '“I did know thee” in verse 5 is the same verb (Strong’s 3045)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יְדַעְתִּ֖י'
+  - where: 'note 13:4 “The first commandment, with a Saviour in it”'
+    claim: 'Isaiah has the same sentence'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/43?lang=eng'
+    quote: 'I, even I, am the Lord; and beside me there is no saviour.'
+  - where: 'note 13:4 “The first commandment, with a Saviour in it”'
+    claim: 'The LORD of the Old Testament is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
+  - where: 'note 13:4 “The first commandment, with a Saviour in it”'
+    claim: 'Nephi swears by the God who brought Israel out of Egypt that there is no other name than Jesus Christ'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/25?lang=eng'
+    quote: 'And as the Lord God liveth that brought Israel up out of the land of Egypt'
+  - where: 'note 13:4 “The first commandment, with a Saviour in it”'
+    claim: 'The Church’s footnote on “saviour” gives Acts 4:12 and 2 Nephi 25:20'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
+    quote: 'Acts 4:12; 2 Ne. 25:20.'
+
+  # ---- note 13:6 ----
+  - where: 'note 13:6 “Fed, full, proud, forgetful”'
+    claim: 'Moses’ warning: the heart lifted up and the Lord forgotten'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/8?lang=eng'
+    quote: 'Then thine heart be lifted up, and thou forget the Lord thy God, which brought thee forth out of the land of Egypt, from the house of bondage;'
+  - where: 'note 13:6 “Fed, full, proud, forgetful”'
+    claim: 'The warning is for when herds and flocks have multiplied'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/8?lang=eng'
+    quote: 'And when thy herds and thy flocks multiply'
+  - where: 'note 13:6 “Fed, full, proud, forgetful”'
+    claim: 'The Church’s footnote on “filled” points to Deuteronomy 8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
+    quote: 'Deut. 8:16 (12, 16)'
+  - where: 'note 13:6 “Fed, full, proud, forgetful”'
+    claim: '“Pasture” is pasturing or shepherding, always a figure'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4830.htm'
+    quote: 'pasturing, shepherding, pasturage (always figurative)'
+  - where: 'note 13:6 “Fed, full, proud, forgetful”'
+    claim: 'The ESV keeps the grazing animal'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=ESV'
+    quote: 'but when they had grazed, they became full,'
+  - where: 'note 13:6 “Fed, full, proud, forgetful”'
+    claim: 'The Septuagint has a shepherd in verse 5'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/13.htm'
+    quote: 'I tended thee as a shepherd in the wilderness'
+  - where: 'note 13:6 “Fed, full, proud, forgetful”'
+    claim: 'The NRSVUE follows the Greek in verse 5'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'It was I who fed you in the wilderness,'
+  - where: 'note 13:6 “Fed, full, proud, forgetful”'
+    claim: 'The NRSVUE notes that the Hebrew has “knew”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: '13.5 Gk Syr: Heb knew'
+
+  # ---- note 13:7 ----
+  - where: 'note 13:7 “The shepherd comes as the beasts”'
+    claim: 'The NRSVUE renders “observe” as “lurk”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'like a leopard I will lurk beside the way.'
+  - where: 'note 13:7 “The shepherd comes as the beasts”'
+    claim: 'The Church edition’s footnote on “caul”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
+    quote: 'IE chamber.'
+  - where: 'note 13:7 “The shepherd comes as the beasts”'
+    claim: 'The ESV’s rendering of “the caul of their heart”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=ESV'
+    quote: 'I will tear open their breast,'
+  - where: 'note 13:7 “The shepherd comes as the beasts”'
+    claim: 'The Lord was a lion to Ephraim earlier in the book'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
+    quote: 'Therefore I will be unto them as a lion: as a leopard by the way will I observe them:'
+
+  # ---- note 13:9 ----
+  - where: 'note 13:9 “Destroyed, and by whom”'
+    claim: 'The Hebrew verb is third person with a “you” suffix, with no stated subject'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'שִֽׁחֶתְ'
+  - where: 'note 13:9 “Destroyed, and by whom”'
+    claim: 'The ESV reads “against me”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=ESV'
+    quote: 'He destroys you, O Israel,'
+  - where: 'note 13:9 “Destroyed, and by whom”'
+    claim: 'The ESV’s second line'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=ESV'
+    quote: 'for you are against me, against'
+  - where: 'note 13:9 “Destroyed, and by whom”'
+    claim: 'The NIV reads likewise'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NIV'
+    quote: 'You are destroyed, Israel,'
+  - where: 'note 13:9 “Destroyed, and by whom”'
+    claim: 'The NIV’s second line'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NIV'
+    quote: 'because you are against me,'
+  - where: 'note 13:9 “Destroyed, and by whom”'
+    claim: 'The Septuagint has a question'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/13.htm'
+    quote: 'O Israel, who will aid thee in thy destruction?'
+  - where: 'note 13:9 “Destroyed, and by whom”'
+    claim: 'The NRSVUE follows the Greek'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'I will destroy you, O Israel;'
+  - where: 'note 13:9 “Destroyed, and by whom”'
+    claim: 'The NRSVUE’s second line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'who can help you?'
+  - where: 'note 13:9 “Destroyed, and by whom”'
+    claim: 'The NRSVUE gives the Hebrew in a note'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: '13.9 Gk Syr: Heb for in me is your help'
+  - where: 'note 13:9 “Destroyed, and by whom”'
+    claim: 'The Church’s edition has the King James reading'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
+    quote: 'thou hast destroyed thyself; but in me is thine help.'
+  - where: 'note 13:9 “Destroyed, and by whom”'
+    claim: 'The ESV, both lines together'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=ESV'
+    quote: 'He destroys you, O Israel, for you are against me, against'
+  - where: 'note 13:9 “Destroyed, and by whom”'
+    claim: 'The NIV, both lines together'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NIV'
+    quote: 'You are destroyed, Israel, because you are against me,'
+  - where: 'note 13:9 “Destroyed, and by whom”'
+    claim: 'The NRSVUE, both lines together'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'I will destroy you, O Israel; who can help you?'
+
+  # ---- note 13:10 ----
+  - where: 'note 13:10 “The King James promise is a question in Hebrew”'
+    claim: 'The word is an adverb, “where?”, found in 13:10 and twice in 13:14'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/165.htm'
+    quote: 'Hosea 13:10,14 (twice in verse) adverb where ?'
+  - where: 'note 13:10 “The King James promise is a question in Hebrew”'
+    claim: 'Older interpreters took it as a form of “to be”; the lexicon finds that less suited'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/165.htm'
+    quote: 'Taken by many of the older interpreters'
+  - where: 'note 13:10 “The King James promise is a question in Hebrew”'
+    claim: 'The “I would be” reading is less suited to the context'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/165.htm'
+    quote: 'I would be: but this is less suited to the context'
+  - where: 'note 13:10 “The King James promise is a question in Hebrew”'
+    claim: 'The Greek, Syriac and Latin (Vulgate) read “where”; the Hebrew as pointed can be read “I will be”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: '13.10 Gk Syr Vg: Heb I will be'
+  - where: 'note 13:10 “The King James promise is a question in Hebrew”'
+    claim: 'The modern rendering'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'Where now is your king, that he may save you?'
+  - where: 'note 13:10 “The King James promise is a question in Hebrew”'
+    claim: 'The word in verse 10 (Strong’s 165)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אֱהִ֤י'
+  - where: 'note 13:10 “The King James promise is a question in Hebrew”'
+    claim: '“Save” in verse 10 is the verb of “saviour” in verse 4 (Strong’s 3467)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יוֹשִֽׁיעֲ'
+  - where: 'note 13:10 “The King James promise is a question in Hebrew”'
+    claim: 'The Lord was Israel’s king when they asked for another'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/8?lang=eng'
+    quote: 'for they have not rejected thee, but they have rejected me, that I should not reign over them.'
+
+  # ---- note 13:11 ----
+  - where: 'note 13:11 “The king given and the king taken”'
+    claim: 'The people’s request to Samuel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/8?lang=eng'
+    quote: 'But the thing displeased Samuel, when they said, Give us a king to judge us.'
+  - where: 'note 13:11 “The king given and the king taken”'
+    claim: 'Saul was rejected from being king'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/15?lang=eng'
+    quote: 'the Lord hath rejected thee from being king over Israel.'
+  - where: 'note 13:11 “The king given and the king taken”'
+    claim: 'The Church’s footnotes on verse 11 point to Saul'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
+    quote: '1 Sam. 15:23.'
+  - where: 'note 13:11 “The king given and the king taken”'
+    claim: '“Gave” is an imperfect (Strong’s 5414, first person imperfect)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אֶֽתֶּן'
+  - where: 'note 13:11 “The king given and the king taken”'
+    claim: 'The imperfects mean repeated action'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/13.htm'
+    quote: 'The imperfects denote an action that is repeated again and again'
+  - where: 'note 13:11 “The king given and the king taken”'
+    claim: 'The rendering with present tense and plural kings'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/13.htm'
+    quote: 'I give thee kings in my anger, and take them away in my wrath.'
+  - where: 'note 13:11 “The king given and the king taken”'
+    claim: 'The verse refers to all the northern kings'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/13.htm'
+    quote: 'all the kings that the kingdom of the ten tribes had received and was receiving still, and to their removal'
+  - where: 'note 13:11 “The king given and the king taken”'
+    claim: 'The northern kingdom’s kingship began with Jeroboam'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/13.htm'
+    quote: 'when they fell away from the house of David, and made Jeroboam their king'
+  - where: 'note 13:11 “The king given and the king taken”'
+    claim: 'It includes the kings who fell by conspiracy'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/13.htm'
+    quote: 'the kings who followed one another so rapidly through conspiracy and murder'
+  - where: 'note 13:11 “The king given and the king taken”'
+    claim: 'The taking away reaches to the end of the kingdom'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/13.htm'
+    quote: 'God took away this government from them to chastise them for their sins, by giving them into the power of the heathen'
+  - where: 'note 13:11 “The king given and the king taken”'
+    claim: 'Hoshea, the last king, was imprisoned by the king of Assyria, and the siege follows'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng'
+    quote: 'therefore the king of Assyria shut him up, and bound him in prison.'
+
+  # ---- note 13:12 ----
+  - where: 'note 13:12 “Sin kept in store”'
+    claim: 'The verb is to hide or treasure up'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6845.htm'
+    quote: 'verb hide, treasure up'
+  - where: 'note 13:12 “Sin kept in store”'
+    claim: 'The NRSVUE’s rendering'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'his sin is kept in store.'
+  - where: 'note 13:12 “Sin kept in store”'
+    claim: 'The NIV’s rendering'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NIV'
+    quote: 'his sins are kept on record.'
+
+  # ---- note 13:13 ----
+  - where: 'note 13:13 “The child who will not be born”'
+    claim: 'The NRSVUE’s rendering, first line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'for at the proper time he does not present himself'
+  - where: 'note 13:13 “The child who will not be born”'
+    claim: 'The NRSVUE’s rendering, second line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'at the mouth of the womb.'
+  - where: 'note 13:13 “The child who will not be born”'
+    claim: 'The NIV’s rendering'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NIV'
+    quote: 'he doesn’t have the sense to come out of the womb.'
+  - where: 'note 13:13 “The child who will not be born”'
+    claim: 'Hezekiah’s use of the stalled birth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/37?lang=eng'
+    quote: 'for the children are come to the birth, and there is not strength to bring forth.'
+  - where: 'note 13:13 “The child who will not be born”'
+    claim: 'The range of the Hebrew word hevel'
+    key: sc-knowhy-93
+    url: 'https://scripturecentral.org/knowhy/why-does-abinadi-use-the-phrase-the-bands-of-death'
+    quote: 'including “cord, rope, band, snare” or “pain, pang, travail”'
+  - where: 'note 13:13 “The child who will not be born”'
+    claim: 'Most of the childbirth passages listed speak of crisis and then deliverance by the Messiah'
+    key: sc-knowhy-93
+    url: 'https://scripturecentral.org/knowhy/why-does-abinadi-use-the-phrase-the-bands-of-death'
+    quote: 'Most of these passages speak of the people of Israel going through a time of crisis (which is compared to a woman in the pain of childbirth) and then being delivered by the promised king, the Messiah.'
+  - where: 'note 13:13 “The child who will not be born”'
+    claim: 'Hosea 13:9–14 is named among those passages'
+    key: sc-knowhy-93
+    url: 'https://scripturecentral.org/knowhy/why-does-abinadi-use-the-phrase-the-bands-of-death'
+    quote: 'Similar childbirth and atonement/redemption imagery can be found in Isaiah 37:3, Hosea 13:9–14'
+  - where: 'note 13:13 “The child who will not be born”'
+    claim: '“Sorrows” in 13:13 is Strong’s 2256'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'חֶבְלֵ֥י'
+  - where: 'note 13:13 “The child who will not be born”'
+    claim: '“Cords” in 11:4 is the same word (Strong’s 2256), its only other use in Hosea'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'חַבְלֵ֨י'
+  - where: 'note 13:13 “The child who will not be born”'
+    claim: 'The NRSVUE, both lines together'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'for at the proper time he does not present himself at the mouth of the womb.'
+
+  # ---- note 13:14 a ----
+  - where: 'note 13:14 “A promise, or a question”'
+    claim: 'The Church edition’s chapter heading'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
+    quote: 'He ransoms from the grave and redeems from death.'
+  - where: 'note 13:14 “A promise, or a question”'
+    claim: 'The NRSVUE prints a question, first line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'Shall I ransom them from the power of Sheol?'
+  - where: 'note 13:14 “A promise, or a question”'
+    claim: 'The NRSVUE prints a question, second line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'Shall I redeem them from Death?'
+  - where: 'note 13:14 “A promise, or a question”'
+    claim: '“I will ransom them” is a first-person imperfect with no question word before it'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אֶפְדֵּ֔'
+  - where: 'note 13:14 “A promise, or a question”'
+    claim: '“I will redeem them” is a first-person imperfect'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אֶגְאָלֵ֑'
+  - where: 'note 13:14 “A promise, or a question”'
+    claim: '“The grave” is sheol'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'שְׁאוֹל֙'
+  - where: 'note 13:14 “A promise, or a question”'
+    claim: 'The ESV keeps the statement'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=ESV'
+    quote: 'I shall ransom them from the power of Sheol;'
+  - where: 'note 13:14 “A promise, or a question”'
+    claim: 'The ESV gives the questions as an alternative'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=ESV'
+    quote: 'Hosea 13:14 Or Shall I ransom them from the power of Sheol? Shall I redeem them from Death?'
+  - where: 'note 13:14 “A promise, or a question”'
+    claim: 'The verse is the Lord’s promise in the midst of destruction'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'In the midst of death and destruction is the Lord’s promise that'
+  - where: 'note 13:14 “A promise, or a question”'
+    claim: 'The verse uses resurrection as a figure of Israel’s gathering'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'Hosea 13:14 uses the figures of resurrection as a metaphor that promises the gathering and restoration of Israel.'
+  - where: 'note 13:14 “A promise, or a question”'
+    claim: 'The figure presupposes a real resurrection'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'for a metaphor of this type loses its force if the type or figure used is not real.'
+  - where: 'note 13:14 “A promise, or a question”'
+    claim: 'Ezekiel’s vision of the graves opened'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/37?lang=eng'
+    quote: 'I will open your graves, and cause you to come up out of your graves, and bring you into the land of Israel.'
+
+  # ---- note 13:14 b ----
+  - where: 'note 13:14 “Paul and Abinadi take up the words to death”'
+    claim: 'Paul’s words'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/15?lang=eng'
+    quote: 'O death, where is thy sting? O grave, where is thy victory?'
+  - where: 'note 13:14 “Paul and Abinadi take up the words to death”'
+    claim: 'The lexicon sets 1 Corinthians 15:55 beside the versions that read “where” in 13:14'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/165.htm'
+    quote: '(compare 1 Corinthians 15:55)'
+  - where: 'note 13:14 “Paul and Abinadi take up the words to death”'
+    claim: 'The line with “where,” first half'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'O Death, where are your plagues?'
+  - where: 'note 13:14 “Paul and Abinadi take up the words to death”'
+    claim: 'The line with “where,” second half'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'O Sheol, where is your destruction?'
+  - where: 'note 13:14 “Paul and Abinadi take up the words to death”'
+    claim: 'The Septuagint’s form, with “sting”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/13.htm'
+    quote: 'where is thy penalty, O death? O Hades, where is thy sting?'
+  - where: 'note 13:14 “Paul and Abinadi take up the words to death”'
+    claim: 'Paul joins the line to Isaiah 25:8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/25?lang=eng'
+    quote: 'He will swallow up death in victory'
+  - where: 'note 13:14 “Paul and Abinadi take up the words to death”'
+    claim: 'Abinadi’s words'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/16?lang=eng'
+    quote: 'But there is a resurrection, therefore the grave hath no victory, and the sting of death is swallowed up in Christ.'
+  - where: 'note 13:14 “Paul and Abinadi take up the words to death”'
+    claim: 'Paul and Abinadi may both draw on Isaiah 25:8 and Hosea 13:14'
+    key: sc-knowhy-533
+    url: 'https://scripturecentral.org/knowhy/why-new-testament-words-and-phrases-are-in-the-book-of-mormon-part-5-how-often-were'
+    quote: 'it is likely that both Paul and Abinadi were borrowing from Old Testament passages such as Isaiah 25:8'
+  - where: 'note 13:14 “Paul and Abinadi take up the words to death”'
+    claim: 'The NRSVUE, both lines together'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'O Death, where are your plagues? O Sheol, where is your destruction?'
+
+  # ---- note 13:14 c ----
+  - where: 'note 13:14 “No change of mind, or no pity”'
+    claim: 'The lexicon’s gloss, with this verse as its one reference'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5164.htm'
+    quote: 'noun masculine sorrow, repentance, Hosea 13:14.'
+  - where: 'note 13:14 “No change of mind, or no pity”'
+    claim: 'The Church edition’s footnote on “repentance”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
+    quote: 'HEB compassion.'
+  - where: 'note 13:14 “No change of mind, or no pity”'
+    claim: 'The NRSVUE’s rendering'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'Compassion is hidden from my eyes.'
+  - where: 'note 13:14 “No change of mind, or no pity”'
+    claim: 'The NIV makes the line the opening of a sentence that runs into verse 15'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NIV'
+    quote: 'I will have no compassion,'
+  - where: 'note 13:14 “No change of mind, or no pity”'
+    claim: 'On one reading the line seals the promise'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/13.htm'
+    quote: 'my purpose of salvation will be irrevocably accomplished.'
+  - where: 'note 13:14 “No change of mind, or no pity”'
+    claim: 'That reading compares the oath of Psalm 110:4'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/13.htm'
+    quote: 'where the oath of God is still further strengthened by the words'
+  - where: 'note 13:14 “No change of mind, or no pity”'
+    claim: 'The oath of Psalm 110:4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/110?lang=eng'
+    quote: 'The Lord hath sworn, and will not repent'
+  - where: 'note 13:14 “No change of mind, or no pity”'
+    claim: 'On another reading the line seals the judgment'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'This could mean that the Lord will not swerve in His purpose even though Israel may cry out for deliverance.'
+
+  # ---- note 13:15 ----
+  - where: 'note 13:15 “The east wind on the fruitful one”'
+    claim: 'The east wind was seen as an instrument of judgment, and Hosea 13:15 calls it the wind of the Lord'
+    key: sc-knowhy-560
+    url: 'https://scripturecentral.org/knowhy/why-did-abinadi-warn-the-people-of-an-east-wind'
+    quote: 'because it was “viewed as an instrument of God’s judgment.”'
+  - where: 'note 13:15 “The east wind on the fruitful one”'
+    claim: 'The east wind comes from the desert and is hot and dry'
+    key: sc-knowhy-560
+    url: 'https://scripturecentral.org/knowhy/why-did-abinadi-warn-the-people-of-an-east-wind'
+    quote: 'the wind from the east (or southeast) originates from the Arabian Desert and is insufferably hot and dry'
+  - where: 'note 13:15 “The east wind on the fruitful one”'
+    claim: 'What such winds do to crops'
+    key: sc-knowhy-560
+    url: 'https://scripturecentral.org/knowhy/why-did-abinadi-warn-the-people-of-an-east-wind'
+    quote: 'capable of reducing green crops to dry, brown husks in a single day'
+  - where: 'note 13:15 “The east wind on the fruitful one”'
+    claim: 'The east wind of Pharaoh’s dream'
+    key: sc-knowhy-560
+    url: 'https://scripturecentral.org/knowhy/why-did-abinadi-warn-the-people-of-an-east-wind'
+    quote: 'it is an “east wind” that came and dried the crops'
+  - where: 'note 13:15 “The east wind on the fruitful one”'
+    claim: 'Ephraim’s name and fruitfulness'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng'
+    quote: 'And the name of the second called he Ephraim: For God hath caused me to be fruitful in the land of my affliction.'
+  - where: 'note 13:15 “The east wind on the fruitful one”'
+    claim: 'The NIV’s rendering of the last clause'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NIV'
+    quote: 'His storehouse will be plundered'
+
+  # ---- note 13:16 ----
+  - where: 'note 13:16 “Samaria bears her guilt”'
+    claim: 'The verb of 13:1, with the sense be or become guilty'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/816.htm'
+    quote: 'be or become guilty'
+  - where: 'note 13:16 “Samaria bears her guilt”'
+    claim: 'The lexicon puts Hosea 13:1 under that sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/816.htm'
+    quote: 'Ezekiel 22:4; Hosea 13:1.'
+  - where: 'note 13:16 “Samaria bears her guilt”'
+    claim: 'The same verb in 13:16 (Hebrew 14:1), with the sense be held guilty, bear punishment'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/816.htm'
+    quote: 'be held guilty, bear punishment'
+  - where: 'note 13:16 “Samaria bears her guilt”'
+    claim: 'The lexicon puts Hosea 14:1 (King James 13:16) under that sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/816.htm'
+    quote: 'Hosea 10:2; Hosea 14:1; Zechariah 11:5'
+  - where: 'note 13:16 “Samaria bears her guilt”'
+    claim: 'The verb in 13:16 (Strong’s 816)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'תֶּאְשַׁם֙'
+  - where: 'note 13:16 “Samaria bears her guilt”'
+    claim: 'The verb in 13:1 (Strong’s 816)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יֶּאְשַׁ֥ם'
+  - where: 'note 13:16 “Samaria bears her guilt”'
+    claim: 'The NRSVUE’s rendering, first line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'Samaria shall bear her guilt'
+  - where: 'note 13:16 “Samaria bears her guilt”'
+    claim: 'The NRSVUE’s rendering, second line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'because she has rebelled against her God;'
+  - where: 'note 13:16 “Samaria bears her guilt”'
+    claim: 'What the verse’s images are for'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'Hosea’s language evokes the realities and horrors of wartime atrocities against women and children to emphasize the consequences of Israel’s failure to turn to God'
+  - where: 'note 13:16 “Samaria bears her guilt”'
+    claim: 'The siege of Samaria'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng'
+    quote: 'Then the king of Assyria came up throughout all the land, and went up to Samaria, and besieged it three years.'
+  - where: 'note 13:16 “Samaria bears her guilt”'
+    claim: 'The verse is 14:1 in the Hebrew Bible'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NIV'
+    quote: 'In Hebrew texts this verse (13:16) is numbered 14:1.'
+  - where: 'note 13:16 “Samaria bears her guilt”'
+    claim: 'The words that follow in the Hebrew arrangement'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/14?lang=eng'
+    quote: 'O Israel, return unto the Lord thy God; for thou hast fallen by thine iniquity.'
+  - where: 'note 13:16 “Samaria bears her guilt”'
+    claim: 'The NRSVUE, both lines together'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2013&version=NRSVUE'
+    quote: 'Samaria shall bear her guilt because she has rebelled against her God;'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'The LORD of the Old Testament is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
+  - where: 'christ'
+    claim: 'Paul ends with thanks for the victory through Christ'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/15?lang=eng'
+    quote: 'But thanks be to God, which giveth us the victory through our Lord Jesus Christ.'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'Ezekiel’s dry bones carry the same message as 13:14'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'The “dry bones” metaphor in Ezekiel 37:1–14 conveys the same message.'
+  - where: 'explore'
+    claim: '“Save” in 14:3 is the verb of “saviour” in 13:4 (Strong’s 3467)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יוֹשִׁיעֵ֗'
+  - where: 'explore'
+    claim: 'Israel’s prayer in chapter 14'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/14?lang=eng'
+    quote: 'Asshur shall not save us; we will not ride upon horses'
