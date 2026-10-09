@@ -1,10 +1,10 @@
 # Hosea: theme candidates
 
-Topics that run across the book and might become theme pages (`STANDARDS.md` §8). The author selected three on 2026-10-09 and will give a separate instruction before any page is developed. With fourteen chapters, a topic that lives in one chapter belongs in that chapter's notes. The unselected candidate and chapter reports below remain research leads, not page assignments.
+Topics that run across the book and might become theme pages (`STANDARDS.md` §8). The author selected three on 2026-10-09; they are written. With fourteen chapters, a topic that lives in one chapter belongs in that chapter's notes. The unselected candidate and chapter reports below remain research leads, not page assignments.
 
 ## Selected for development (author, 2026-10-09)
 
-The author chose earlier shortlist items 1, 3, and 4. Their passage anchors, Christ connections, and boundaries are in the shortlist below. This selection is not yet an instruction to write the pages.
+The author chose earlier shortlist items 1, 3, and 4, and asked for them the same day (“Please go and develop those”). All three are researched, outlined, written, reviewed, repaired, and read by Codex (`content/hosea/themes/betroth-thee.md`, `heal-their-backsliding.md`, `out-of-egypt.md`), and sixteen chapter notes link to them. Their passage anchors, Christ connections, and boundaries are in the shortlist below.
 
 1. **“I will betroth thee unto me”** — the broken marriage covenant, the children's names, and promised mercy (earlier shortlist 1).
 2. **“I will heal their backsliding”** — false helps, return, and the Lord's promised healing (earlier shortlist 3).
