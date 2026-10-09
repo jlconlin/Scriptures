@@ -1,0 +1,836 @@
+chapter: 7
+claims:
+  # ---------- when ----------
+  - where: 'when'
+    claim: 'Hosea’s ministry is placed in the latter half of the eighth century B.C.; no oracle in the chapter is dated'
+    key: scripture-helps-hosea
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/45-hosea-1-6-10-14-joel?lang=eng'
+    quote: 'His ministry took place in the Northern Kingdom of Israel during the latter half of the eighth century BC.'
+
+  # ---------- setting ----------
+  - where: 'setting'
+    claim: 'Hosea ministered in the north in the latter half of the eighth century B.C.'
+    key: scripture-helps-hosea
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/45-hosea-1-6-10-14-joel?lang=eng'
+    quote: 'took place in the Northern Kingdom of Israel during the latter half of the eighth century BC'
+  - where: 'setting'
+    claim: 'Israel was then close to conquest by Assyria'
+    key: scripture-helps-hosea
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/45-hosea-1-6-10-14-joel?lang=eng'
+    quote: 'when Israel was close to being conquered by the Assyrian empire'
+  - where: 'setting'
+    claim: 'The first clause of 7:1 continues the sentence of 6:11: the NRSVUE begins the chapter without a capital'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'when I would heal Israel'
+  - where: 'setting'
+    claim: 'Samaria is named with Ephraim in 7:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'then the iniquity of Ephraim was discovered, and the wickedness of Samaria'
+  - where: 'setting'
+    claim: 'Hosea began to prophesy late in the reign of Jeroboam II'
+    key: bd-hosea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng'
+    quote: 'He began to prophesy during the latter part of the reign of Jeroboam Ⅱ.'
+  - where: 'setting'
+    claim: 'Zachariah, the first king after Jeroboam II, was killed by Shallum, who took the throne'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'And Shallum the son of Jabesh conspired against him, and smote him before the people, and slew him, and reigned in his stead.'
+  - where: 'setting'
+    claim: 'Shallum was killed by Menahem, who took the throne'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'smote Shallum the son of Jabesh in Samaria, and slew him, and reigned in his stead'
+  - where: 'setting'
+    claim: 'Pekahiah was killed by Pekah, who took the throne'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'and he killed him, and reigned in his room'
+  - where: 'setting'
+    claim: 'Pekah was killed by Hoshea, who took the throne; the six kings after Jeroboam II are Zachariah, Shallum, Menahem, Pekahiah, Pekah, and Hoshea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'And Hoshea the son of Elah made a conspiracy against Pekah the son of Remaliah, and smote him, and slew him, and reigned in his stead'
+  - where: 'setting'
+    claim: 'Conspiracies weakened Israel during Hosea’s ministry (the manual, printing Sidney B. Sperry)'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'During Hosea’s ministry there occurred conspiracies and other internal disturbances that seriously weakened Israel (2 Kings 15).'
+  - where: 'setting'
+    claim: 'The kingdom sought help from Assyria and Egypt'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'In desperation the people alternately sought aid from Assyria and Egypt'
+  - where: 'setting'
+    claim: 'Ephraim stands for the northern kingdom'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'Because Ephraim (the Northern Kingdom) had mixed with other nations'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'The verb “call” in verse 7 (“calleth unto me”) is H7121'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'קֹרֵ֥א'
+  - where: 'thread'
+    claim: 'The verb “call” in verse 11 (“they call to Egypt”) is the same verb, H7121'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'קָרָ֖אוּ'
+  - where: 'thread'
+    claim: 'Verse 16 reads “not upwards,” that is, not toward God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5920.htm'
+    quote: 'they return (but) not upwards (i.e. not God-wards)'
+  - where: 'thread'
+    claim: 'Verse 13 is read “would have redeemed them” in the Church edition’s footnote'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'OR would have redeemed them'
+  - where: 'thread'
+    claim: 'The banked oven smolders overnight (modern rendering of verse 6)'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'all night their anger smolders'
+
+  # ---------- sections ----------
+  - where: 'section 2 plain'
+    claim: 'The princes themselves are sick with the heat of wine'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'became sick with the heat of wine'
+  - where: 'section 2 plain'
+    claim: 'The king “joins hands” with scoffers'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NIV'
+    quote: 'and he joins hands with the mockers'
+  - where: 'section 2 plain'
+    claim: 'The baker leaves the fire alone from kneading until the dough has risen'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'whose baker does not need to stir the fire'
+  - where: 'section 3 plain'
+    claim: '“The people” is the peoples'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'Ephraim mixes himself with the peoples'
+  - where: 'section 4 plain'
+    claim: '“Without heart” is without sense'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'silly and without sense'
+  - where: 'section 4 plain'
+    claim: 'Verse 13: He would have redeemed them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'OR would have redeemed them'
+  - where: 'section 5 plain'
+    claim: '“Bound” is trained'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'HEB trained'
+  - where: 'section 5 plain'
+    claim: '“Corn and wine” is grain and wine; “howled” is wailed'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'but they wail upon their beds'
+  - where: 'section 5 plain'
+    claim: 'The deceitful bow is one that fails him who trusts to it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7423.htm'
+    quote: 'treacherous bow (simile) Hosea 7:16; Psalm 78:57 (failing him who trusts to it)'
+
+  # ---------- note 7:1 ----------
+  - where: 'note 7:1 “Healing that uncovers the wound”'
+    claim: 'The verb behind “discovered” means to be disclosed or uncovered, and BDB lists this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1540.htm'
+    quote: 'be disclosed, discovered'
+  - where: 'note 7:1 “Healing that uncovers the wound”'
+    claim: 'NRSVUE: “revealed”; the chapter begins mid-sentence'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'the corruption of Ephraim is revealed'
+  - where: 'note 7:1 “Healing that uncovers the wound”'
+    claim: 'NIV: “exposed”; the chapter begins mid-sentence'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NIV'
+    quote: 'the sins of Ephraim are exposed'
+  - where: 'note 7:1 “Healing that uncovers the wound”'
+    claim: 'Keil: the attempt to heal brings out how dangerous the wound is'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/7.htm'
+    quote: 'As the dangerous nature of a wound is often first brought out by the attempt to heal it, so was the corruption of Israel only brought truly to light by the effort to stem it.'
+  - where: 'note 7:1 “Healing that uncovers the wound”'
+    claim: 'Keil: the healing is not future; it is the prophets’ preaching and corrective chastisements'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/7.htm'
+    quote: 'partly by the preaching of repentance and the reproofs of the prophets, and partly by chastisements designed to promote reformation'
+  - where: 'note 7:1 “Healing that uncovers the wound”'
+    claim: 'NRSVUE renders the thief and the robbers'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'the thief breaks in, and the bandits raid outside'
+  - where: 'note 7:1 “Healing that uncovers the wound”'
+    claim: 'The verse’s own words: healing, falsehood, the thief, the robbers'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'When I would have healed Israel, then the iniquity of Ephraim was discovered'
+
+  # ---------- note 7:4 ----------
+  - where: 'note 7:4 “The oven that needs no stirring”'
+    claim: 'The word behind “raising” means stirring up a fire'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5782.htm'
+    quote: 'stirring up (a fire) Hosea 7:4'
+  - where: 'note 7:4 “The oven that needs no stirring”'
+    claim: 'NRSVUE of verse 4'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'whose baker does not need to stir the fire from the kneading of the dough until it is leavened.'
+  - where: 'note 7:4 “The oven that needs no stirring”'
+    claim: 'Keil: the oven is heated in the evening and left burning overnight while the dough leavens, to burn brighter in the morning'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/7.htm'
+    quote: 'a furnace which a baker heats in the evening, and leaves burning all night while the dough is leavening'
+  - where: 'note 7:4 “The oven that needs no stirring”'
+    claim: 'NRSVUE of verse 6: anger smolders all night'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'all night their anger smolders'
+  - where: 'note 7:4 “The oven that needs no stirring”'
+    claim: 'NIV of verse 6: intrigue'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NIV'
+    quote: 'they approach him with intrigue.'
+  - where: 'note 7:4 “The oven that needs no stirring”'
+    claim: 'NIV of verse 6: passion smolders all night'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NIV'
+    quote: 'Their passion smolders all night'
+  - where: 'note 7:4 “The oven that needs no stirring”'
+    claim: 'The baker has been identified with Menahem or Pekah; Keil rejects tying the verses to one conspiracy'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/7.htm'
+    quote: 'there is no foundation whatever for the widespread historical interpretation of these verses, as relating to a conspiracy against the then reigning king'
+  - where: 'note 7:4 “The oven that needs no stirring”'
+    claim: 'Keil: “all their kings” is not limited to the events of 2 Kings 15'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/7.htm'
+    quote: 'shows clearly, not only that the words are not to be limited to these events, but embrace all the earlier revolutions'
+  - where: 'note 7:4 “The oven that needs no stirring”'
+    claim: 'Keil: the adultery is spiritual, though Baal worship promoted licentiousness'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/7.htm'
+    quote: 'is spiritual adultery, apostasy from the Lord; and literal adultery is only so far to be thought of, that the worship of Baal promoted licentiousness'
+  - where: 'note 7:4 “The oven that needs no stirring”'
+    claim: 'The King James wording of verses 4, 6 and 7'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'their baker sleepeth all the night; in the morning it burneth as a flaming fire'
+
+  # ---------- note 7:5 ----------
+  - where: 'note 7:5 “The day of our king”'
+    claim: 'NIV supplies “festival”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NIV'
+    quote: 'On the day of the festival of our king'
+  - where: 'note 7:5 “The day of our king”'
+    claim: 'The word behind “bottles” is heat; BDB: fever from wine'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2534.htm'
+    quote: 'fever from wine, wine-fever'
+  - where: 'note 7:5 “The day of our king”'
+    claim: 'NRSVUE: the officials became sick with the heat of wine'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'became sick with the heat of wine'
+  - where: 'note 7:5 “The day of our king”'
+    claim: 'BDB calls the last clause difficult'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4900.htm'
+    quote: 'Hosea 7:5 is difficult'
+  - where: 'note 7:5 “The day of our king”'
+    claim: 'BDB records the usual sense and doubts it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4900.htm'
+    quote: 'he stretcheth out his hand with, maketh common cause with, is hardly possibly'
+  - where: 'note 7:5 “The day of our king”'
+    claim: 'NIV: he joins hands with the mockers'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NIV'
+    quote: 'and he joins hands with the mockers'
+  - where: 'note 7:5 “The day of our king”'
+    claim: 'NIV of verse 6: they approach him with intrigue'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NIV'
+    quote: 'they approach him with intrigue.'
+  - where: 'note 7:5 “The day of our king”'
+    claim: 'The NRSVUE’s cross-references set Isaiah 28:1, 7, 8 beside verse 5'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: '7.5 : Isa 28.1, 7, 8'
+  - where: 'note 7:5 “The day of our king”'
+    claim: 'Isaiah 28:1 pronounces woe on the drunkards of Ephraim'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/28?lang=eng'
+    quote: 'Woe to the crown of pride, to the drunkards of Ephraim'
+
+  # ---------- note 7:7 ----------
+  - where: 'note 7:7 “Four kings killed by their successors”'
+    claim: 'Zachariah the son of Jeroboam reigned six months'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'did Zachariah the son of Jeroboam reign over Israel in Samaria six months'
+  - where: 'note 7:7 “Four kings killed by their successors”'
+    claim: 'Shallum killed Zachariah and reigned a full month'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'and he reigned a full month in Samaria'
+  - where: 'note 7:7 “Four kings killed by their successors”'
+    claim: 'Menahem killed Shallum'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'smote Shallum the son of Jabesh in Samaria, and slew him, and reigned in his stead'
+  - where: 'note 7:7 “Four kings killed by their successors”'
+    claim: 'Menahem died a natural death and Pekahiah his son succeeded him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'And Menahem slept with his fathers; and Pekahiah his son reigned in his stead.'
+  - where: 'note 7:7 “Four kings killed by their successors”'
+    claim: 'Pekahiah reigned two years'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'Pekahiah the son of Menahem began to reign over Israel in Samaria, and reigned two years'
+  - where: 'note 7:7 “Four kings killed by their successors”'
+    claim: 'Pekah, a captain of Pekahiah, killed him in the palace'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'a captain of his, conspired against him, and smote him in Samaria, in the palace of the king’s house'
+  - where: 'note 7:7 “Four kings killed by their successors”'
+    claim: 'Hoshea conspired against Pekah and killed him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'And Hoshea the son of Elah made a conspiracy against Pekah the son of Remaliah, and smote him, and slew him'
+  - where: 'note 7:7 “Four kings killed by their successors”'
+    claim: 'Samaria fell in Hoshea’s ninth year; he was the last king'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng'
+    quote: 'In the ninth year of Hoshea the king of Assyria took Samaria, and carried Israel away into Assyria'
+  - where: 'note 7:7 “Four kings killed by their successors”'
+    claim: 'The prophet’s name is the same as King Hoshea’s: the Bible Dictionary heads its entry with both forms'
+    key: bd-hosea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng'
+    quote: 'Hosea, or Hoshea'
+  - where: 'note 7:7 “Four kings killed by their successors”'
+    claim: 'The ESV’s cross-references set the four murders beside verse 7'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=ESV'
+    quote: 'Hosea 7:7 : 2 Kgs. 15:10, 14, 25, 30'
+  - where: 'note 7:7 “Four kings killed by their successors”'
+    claim: 'The ESV’s cross-references set Hosea 8:4 beside verse 7'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=ESV'
+    quote: 'Hosea 7:7 : ch. 8:4'
+  - where: 'note 7:7 “Four kings killed by their successors”'
+    claim: '“Judges” is rendered “rulers”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'and they devour their rulers.'
+  - where: 'note 7:7 “Four kings killed by their successors”'
+    claim: 'The ESV also has “they devour their rulers”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=ESV'
+    quote: 'and they devour their rulers.'
+
+  # ---------- note 7:8 ----------
+  - where: 'note 7:8 “Burnt on one side, raw on the other”'
+    claim: 'The word is used of the cake baked on hot stones in 1 Kings 19:6'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5692.htm'
+    quote: '1 Kings 19:6 cake of hot-stones i.e. baked on them'
+  - where: 'note 7:8 “Burnt on one side, raw on the other”'
+    claim: 'BDB: an unturned cake is burnt, ruined'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5692.htm'
+    quote: 'is a cake not turned (i.e. burnt, ruined)'
+  - where: 'note 7:8 “Burnt on one side, raw on the other”'
+    claim: 'NIV: a flat loaf not turned over'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NIV'
+    quote: 'Ephraim is a flat loaf not turned over.'
+  - where: 'note 7:8 “Burnt on one side, raw on the other”'
+    claim: '“The people” is plural and the verb reflexive'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1101.htm'
+    quote: 'Ephraim, among the peoples doth he mix himself'
+  - where: 'note 7:8 “Burnt on one side, raw on the other”'
+    claim: 'The Church edition’s footnote on “mixed” is the Topical Guide’s “Separation”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'TG Separation'
+  - where: 'note 7:8 “Burnt on one side, raw on the other”'
+    claim: 'The verse’s first half: he hath mixed himself among the people'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'Ephraim, he hath mixed himself among the people; Ephraim is a cake not turned.'
+  - where: 'note 7:8 “Burnt on one side, raw on the other”'
+    claim: 'Psalm 106:35 is set beside the verse in the ESV’s cross-references'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=ESV'
+    quote: 'Hosea 7:8 : Ps. 106:35'
+  - where: 'note 7:8 “Burnt on one side, raw on the other”'
+    claim: 'The Student Manual: Ephraim mixed with other nations, took their idols and ways, and was only half baked'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'had mixed with other nations, worshiped their idols, and learned their ways, she had only fulfilled half the requisites for the conquest of Canaan'
+  - where: 'note 7:8 “Burnt on one side, raw on the other”'
+    claim: 'Schade: the term refers to the leaders’ foreign alliances'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'this term refers to the leaders of Israel entering foreign alliances rather than trusting in the Lord for protection'
+  - where: 'note 7:8 “Burnt on one side, raw on the other”'
+    claim: 'Schade: burning on one side, doughy on the other'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'it is burning on one side but is spiritually doughy or undeveloped on the other'
+  - where: 'note 7:8 “Burnt on one side, raw on the other”'
+    claim: 'The figure is explained by verse 9 (Keil, as the Student Manual prints him)'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'The meaning of this figure is explained by ver. 9.'
+
+  # ---------- note 7:9 ----------
+  - where: 'note 7:9 “Old without knowing it”'
+    claim: 'The verb is the ordinary one for scattering or sprinkling'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2236.htm'
+    quote: 'To throw, scatter, sprinkle'
+  - where: 'note 7:9 “Old without knowing it”'
+    claim: 'BDB suggests “profuse” for this verse, with a query'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2236.htm'
+    quote: 'grey hairs are profuse upon him'
+  - where: 'note 7:9 “Old without knowing it”'
+    claim: 'NRSVUE: gray hairs are sprinkled upon him'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'gray hairs are sprinkled upon him'
+  - where: 'note 7:9 “Old without knowing it”'
+    claim: 'NIV: His hair is sprinkled with gray'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NIV'
+    quote: 'His hair is sprinkled with gray'
+  - where: 'note 7:9 “Old without knowing it”'
+    claim: 'The verb “know” ends the first half of the verse'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יָדָ֑ע'
+  - where: 'note 7:9 “Old without knowing it”'
+    claim: 'The same verb ends the second half'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יָדָֽע'
+  - where: 'note 7:9 “Old without knowing it”'
+    claim: 'The NRSVUE’s cross-references set Hosea 4:6 beside verse 9'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: '7.9 : Isa 1.7; Hos 4.6'
+  - where: 'note 7:9 “Old without knowing it”'
+    claim: '“Strangers” are foreigners'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'Foreigners devour his strength'
+  - where: 'note 7:9 “Old without knowing it”'
+    claim: 'Menahem raised his payment to Assyria from the wealthy men of Israel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'And Menahem exacted the money of Israel, even of all the mighty men of wealth, of each man fifty shekels of silver, to give to the king of Assyria.'
+  - where: 'note 7:9 “Old without knowing it”'
+    claim: 'The words of verses 9 and 10 quoted in the note'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'and they do not return to the Lord their God, nor seek him for all this'
+
+  # ---------- note 7:11 ----------
+  - where: 'note 7:11 “A dove between Egypt and Assyria”'
+    claim: 'BDB keeps “silly dove” for the verse, under the sense simple'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6601.htm'
+    quote: 'Hosea 7:11 silly dove'
+  - where: 'note 7:11 “A dove between Egypt and Assyria”'
+    claim: 'NIV: easily deceived and senseless'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NIV'
+    quote: 'easily deceived and senseless'
+  - where: 'note 7:11 “A dove between Egypt and Assyria”'
+    claim: 'NRSVUE: without sense'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'silly and without sense'
+  - where: 'note 7:11 “A dove between Egypt and Assyria”'
+    claim: 'The rendering “without understanding” (Sperry’s, as the Student Manual prints it)'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'And Ephraim is become like a silly dove, without understanding'
+  - where: 'note 7:11 “A dove between Egypt and Assyria”'
+    claim: 'The ESV’s cross-references set Hosea 4:11 beside verse 11'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=ESV'
+    quote: 'Hosea 7:11 : ch. 4:11'
+  - where: 'note 7:11 “A dove between Egypt and Assyria”'
+    claim: 'Israel sought aid alternately from Assyria and Egypt and lost its independence (Sperry, as the Student Manual prints him)'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'In desperation the people alternately sought aid from Assyria and Egypt, paying tribute to both, with the result that they lost their independence and national autonomy'
+  - where: 'note 7:11 “A dove between Egypt and Assyria”'
+    claim: 'Hoshea submitted to Shalmaneser of Assyria'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng'
+    quote: 'Against him came up Shalmaneser king of Assyria; and Hoshea became his servant, and gave him presents.'
+  - where: 'note 7:11 “A dove between Egypt and Assyria”'
+    claim: 'Hoshea then sent to Egypt, withheld tribute, and was imprisoned'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng'
+    quote: 'therefore the king of Assyria shut him up, and bound him in prison'
+  - where: 'note 7:11 “A dove between Egypt and Assyria”'
+    claim: 'Samaria was then besieged'
+    key: ot-manual-kings-d
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/enrichment-d?lang=eng'
+    quote: 'Because of the revolt of Hoshea, king of Israel, Shalmaneser laid siege to Samaria'
+  - where: 'note 7:11 “A dove between Egypt and Assyria”'
+    claim: 'The ESV’s cross-references set 2 Kings 17:4 beside verse 11'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=ESV'
+    quote: 'Hosea 7:11 : [ch. 12:1; 2 Kgs. 17:4]'
+  - where: 'note 7:11 “A dove between Egypt and Assyria”'
+    claim: 'Alliances would not cure the real trouble (Sperry, as the Student Manual prints him)'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'Political alliances would not remedy the real cause of their trouble—moral disease and rebellion against God.'
+  - where: 'note 7:11 “A dove between Egypt and Assyria”'
+    claim: '“Calleth” in verse 7 is H7121'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'קֹרֵ֥א'
+  - where: 'note 7:11 “A dove between Egypt and Assyria”'
+    claim: '“They call” in verse 11 is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'קָרָ֖אוּ'
+  - where: 'note 7:11 “A dove between Egypt and Assyria”'
+    claim: 'The NRSVUE’s cross-references set 5:13, 8:9, 11:11 and 12:1 beside verse 11'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: '7.11 : v 16; Hos 4.6, 11, 14; 5.13; 8.9; 11.11; 12.1'
+  - where: 'note 7:11 “A dove between Egypt and Assyria”'
+    claim: 'The verse’s own words'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'Ephraim also is like a silly dove without heart: they call to Egypt, they go to Assyria.'
+
+  # ---------- note 7:12 ----------
+  - where: 'note 7:12 “The fowler’s net, and what the congregation had heard”'
+    claim: 'The Church edition’s footnote on “net” gives Ezekiel 12:13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'Ezek. 12:13'
+  - where: 'note 7:12 “The fowler’s net, and what the congregation had heard”'
+    claim: 'In Ezekiel 12:13 the net is exile to Babylon'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/12?lang=eng'
+    quote: 'My net also will I spread upon him, and he shall be taken in my snare: and I will bring him to Babylon to the land of the Chaldeans'
+  - where: 'note 7:12 “The fowler’s net, and what the congregation had heard”'
+    claim: 'The word for net (H7568) in 7:12; hebrew.mjs lists two occurrences in Hosea, 5:1 and 7:12'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'רִשְׁתִּ֔'
+  - where: 'note 7:12 “The fowler’s net, and what the congregation had heard”'
+    claim: 'The same word in 5:1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'רֶ֖שֶׁת'
+  - where: 'note 7:12 “The fowler’s net, and what the congregation had heard”'
+    claim: 'NRSVUE of the last clause'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'I will discipline them according to the report made to their assembly'
+  - where: 'note 7:12 “The fowler’s net, and what the congregation had heard”'
+    claim: 'The NRSVUE’s note on the verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: '7.12 Meaning of Heb uncertain'
+  - where: 'note 7:12 “The fowler’s net, and what the congregation had heard”'
+    claim: 'NIV of the last clause'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NIV'
+    quote: 'When I hear them flocking together, I will catch them.'
+  - where: 'note 7:12 “The fowler’s net, and what the congregation had heard”'
+    claim: 'The ESV’s cross-references point to the covenant warnings of Leviticus 26 and Deuteronomy 28'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=ESV'
+    quote: 'Hosea 7:12 : See Lev. 26:14-39; Deut. 28:15-68'
+  - where: 'note 7:12 “The fowler’s net, and what the congregation had heard”'
+    claim: 'Deuteronomy 28:15: the curses follow if Israel will not hearken'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/28?lang=eng'
+    quote: 'if thou wilt not hearken unto the voice of the Lord thy God'
+  - where: 'note 7:12 “The fowler’s net, and what the congregation had heard”'
+    claim: 'The verb is one of discipline, chastening, instruction and correction; BDB gives “chasten” for 7:12'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3256.htm'
+    quote: 'with accusative chasten Hosea 7:12'
+  - where: 'note 7:12 “The fowler’s net, and what the congregation had heard”'
+    claim: 'The verb’s range'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3256.htm'
+    quote: 'To discipline, to chasten, to instruct, to correct'
+
+  # ---------- note 7:13 ----------
+  - where: 'note 7:13 “I would redeem them”'
+    claim: 'The Church edition’s footnote on “have”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'OR would have redeemed them'
+  - where: 'note 7:13 “I would redeem them”'
+    claim: 'NRSVUE: I would redeem them; its cross-references set verse 1 beside verse 13'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'I would redeem them'
+  - where: 'note 7:13 “I would redeem them”'
+    claim: 'The NRSVUE’s cross-references at verse 13 begin with verse 1'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: '7.13 : v 1; Jer 14.10; Ezek 34.6; Hos 9.12, 17; Mt 23.37'
+  - where: 'note 7:13 “I would redeem them”'
+    claim: 'NIV: I long to redeem them'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NIV'
+    quote: 'I long to redeem them'
+  - where: 'note 7:13 “I would redeem them”'
+    claim: 'The NIV’s cross-references at verse 13 also give verse 1'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NIV'
+    quote: 'Hosea 7:13 : ver 1; Jer 51:9; Mt 23:37'
+  - where: 'note 7:13 “I would redeem them”'
+    claim: 'The Church edition’s footnote on “redeemed” gives Micah 6:4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'Micah 6:4'
+  - where: 'note 7:13 “I would redeem them”'
+    claim: 'Micah 6:4 speaks of the redemption from Egypt'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/micah/6?lang=eng'
+    quote: 'For I brought thee up out of the land of Egypt, and redeemed thee out of the house of servants'
+  - where: 'note 7:13 “I would redeem them”'
+    claim: 'The verb redeem (H6299) stands in two verses of Hosea, 7:13 and 13:14, in the same form (hebrew.mjs hosea --word 6299)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אֶפְדֵּ֔'
+  - where: 'note 7:13 “I would redeem them”'
+    claim: 'The ESV’s cross-references set 13:14 beside verse 13'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=ESV'
+    quote: 'Hosea 7:13 : ch. 13:14'
+  - where: 'note 7:13 “I would redeem them”'
+    claim: 'ESV: I would redeem them'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=ESV'
+    quote: 'I would redeem them'
+
+  # ---------- note 7:14 ----------
+  - where: 'note 7:14 “Wailing on their beds”'
+    claim: 'The Church edition’s footnote on “cried” gives Mormon 2:13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'Morm. 2:13'
+  - where: 'note 7:14 “Wailing on their beds”'
+    claim: 'Mormon 2:13 is said of the sorrowing of Mormon’s people'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/morm/2?lang=eng'
+    quote: 'for their sorrowing was not unto repentance, because of the goodness of God; but it was rather the sorrowing of the damned'
+  - where: 'note 7:14 “Wailing on their beds”'
+    claim: '“Corn and wine” is grain and new wine; NIV follows the reading “slash themselves”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NIV'
+    quote: 'They slash themselves, appealing to their gods for grain and new wine'
+  - where: 'note 7:14 “Wailing on their beds”'
+    claim: 'Some Hebrew manuscripts and the Septuagint have the other verb'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NIV'
+    quote: 'Some Hebrew manuscripts and Septuagint; most Hebrew manuscripts They gather together'
+  - where: 'note 7:14 “Wailing on their beds”'
+    claim: 'BDB lists the variant under the verb to cut oneself, with manuscripts and the Septuagint'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1413.htm'
+    quote: 'Hosea 7:14 Codd, they cut themselves'
+  - where: 'note 7:14 “Wailing on their beds”'
+    claim: 'BDB judges the usual text probably an error; the two verbs differ by one letter (resh, dalet)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1481.htm'
+    quote: 'they assemble themselves, but text probably error'
+  - where: 'note 7:14 “Wailing on their beds”'
+    claim: 'NRSVUE follows the variant'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'they gash themselves for grain and wine'
+  - where: 'note 7:14 “Wailing on their beds”'
+    claim: 'Cutting oneself was a heathen religious practice (1 Kings 18:28)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1413.htm'
+    quote: 'cut oneself, as religious (heathen) practice 1 Kings 18:28'
+  - where: 'note 7:14 “Wailing on their beds”'
+    claim: 'It was forbidden in Deuteronomy 14:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/14?lang=eng'
+    quote: 'ye shall not cut yourselves, nor make any baldness between your eyes for the dead'
+  - where: 'note 7:14 “Wailing on their beds”'
+    claim: 'The verse’s own words'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'And they have not cried unto me with their heart, when they howled upon their beds: they assemble themselves for corn and wine, and they rebel against me.'
+
+  # ---------- note 7:15 ----------
+  - where: 'note 7:15 “One word for training and for chastening”'
+    claim: 'The Church edition’s footnote on “bound”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'HEB trained'
+  - where: 'note 7:15 “One word for training and for chastening”'
+    claim: 'BDB lists 7:15 under the verb yasar, of training arms'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3256.htm'
+    quote: 'Hosea 7:15 (of training arms)'
+  - where: 'note 7:15 “One word for training and for chastening”'
+    claim: 'BDB lists 7:12 under the same verb: chasten'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3256.htm'
+    quote: 'with accusative chasten Hosea 7:12'
+  - where: 'note 7:15 “One word for training and for chastening”'
+    claim: 'NRSVUE of verse 15'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'It was I who trained and strengthened their arms, yet they plot evil against me.'
+  - where: 'note 7:15 “One word for training and for chastening”'
+    claim: 'The ESV’s cross-references set Hosea 11:3 beside verse 15'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=ESV'
+    quote: 'Hosea 7:15 : [ch. 11:3]'
+
+  # ---------- note 7:16 ----------
+  - where: 'note 7:16 “A bow that cannot be trusted”'
+    claim: 'BDB: a treacherous bow, failing him who trusts to it; the phrase is also in Psalm 78:57'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7423.htm'
+    quote: 'treacherous bow (simile) Hosea 7:16; Psalm 78:57 (failing him who trusts to it)'
+  - where: 'note 7:16 “A bow that cannot be trusted”'
+    claim: 'NRSVUE: a defective bow'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: 'they have become like a defective bow'
+  - where: 'note 7:16 “A bow that cannot be trusted”'
+    claim: 'NIV: a faulty bow; its cross-references give Psalm 78:9, 57'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NIV'
+    quote: 'they are like a faulty bow'
+  - where: 'note 7:16 “A bow that cannot be trusted”'
+    claim: 'The NIV’s cross-references set Psalm 78:9 and 57 beside verse 16'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NIV'
+    quote: 'Hosea 7:16 : S Ps 78:9, 57'
+  - where: 'note 7:16 “A bow that cannot be trusted”'
+    claim: 'ESV: a treacherous bow'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=ESV'
+    quote: 'like a treacherous bow'
+  - where: 'note 7:16 “A bow that cannot be trusted”'
+    claim: 'ESV: but not upward'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=ESV'
+    quote: 'but not upward'
+  - where: 'note 7:16 “A bow that cannot be trusted”'
+    claim: 'The Student Manual: a bow that springs back or breaks, wounding the archer'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'is one that flies back to its curved position while the archer is stringing it or breaks while he has it drawn. In either case, the archer can be wounded.'
+  - where: 'note 7:16 “A bow that cannot be trusted”'
+    claim: 'Keil: a bow whose string is slack, so that the arrows miss'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/7.htm'
+    quote: 'the string of which has lost its elasticity, so that the arrows do not hit the mark'
+  - where: 'note 7:16 “A bow that cannot be trusted”'
+    claim: 'BDB: “not upwards,” not toward God; the same word in Hosea 11:7'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5920.htm'
+    quote: 'they return (but) not upwards (i.e. not God-wards), Hosea 11:7'
+  - where: 'note 7:16 “A bow that cannot be trusted”'
+    claim: 'The Church edition’s footnote on “most” gives Hosea 11:7'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'Hosea 11:7'
+  - where: 'note 7:16 “A bow that cannot be trusted”'
+    claim: 'Keil: Egypt’s derision falls on those who trusted Egypt (he compares Isaiah 30:3, 5)'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/7.htm'
+    quote: 'because they put their trust in Egypt, the derision of Egypt will come upon them when they are overthrown'
+  - where: 'note 7:16 “A bow that cannot be trusted”'
+    claim: 'The verse’s own words'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'They return, but not to the most High: they are like a deceitful bow: their princes shall fall by the sword for the rage of their tongue: this shall be their derision in the land of Egypt.'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'The LORD (Jehovah) is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
+  - where: 'christ'
+    claim: 'The footnote reading of verse 13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'OR would have redeemed them'
+  - where: 'christ'
+    claim: 'The NRSVUE’s cross-references set Matthew 23:37 beside verse 13'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NRSVUE'
+    quote: '7.13 : v 1; Jer 14.10; Ezek 34.6; Hos 9.12, 17; Mt 23.37'
+  - where: 'christ'
+    claim: 'The NIV’s cross-references do the same'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%207&version=NIV'
+    quote: 'Hosea 7:13 : ver 1; Jer 51:9; Mt 23:37'
+  - where: 'christ'
+    claim: 'The word for redeeming (H6299) returns in 13:14'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אֶפְדֵּ֔'
+  # ---------- added in review ----------
+  - where: 'note 7:4 “The oven that needs no stirring”'
+    claim: 'BDB marks the text of 7:4 doubtful where it gives “stirring up (a fire)”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5782.htm'
+    quote: 'but text dubious'
+  - where: 'note 7:5 “The day of our king”'
+    claim: 'BDB thinks the text of the last clause of 7:5 probably corrupt'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4900.htm'
+    quote: 'is hardly possibly, text probably corrupt'
+  - where: 'note 7:7 “Four kings killed by their successors”'
+    claim: 'The Bible Dictionary thinks Hosea probably died before Pekah became king'
+    key: bd-hosea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng'
+    quote: 'probably died before the accession of Pekah'
+  - where: 'note 7:12 “The fowler’s net, and what the congregation had heard”'
+    claim: 'Keil: what the congregation had heard is the threatening of the law (Leviticus 26; Deuteronomy 28), repeated by the prophets'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/7.htm'
+    quote: 'in accordance with the threatening already contained in the law'
+  - where: 'note 7:12 “The fowler’s net, and what the congregation had heard”'
+    claim: 'Keil: that threatening is now to be fulfilled on Ephraim'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/7.htm'
+    quote: 'which threatening would now be fulfilled upon Ephraim'
