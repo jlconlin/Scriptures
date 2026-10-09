@@ -200,6 +200,7 @@ What has worked (2026-09-30, from the author's Mac and from the cloud sandbox). 
 ## 10. Checks
 
 ```sh
+node scripts/status.mjs [book]                         # where each book stands, read from the repository (AUTHORING.md, “Status”)
 node scripts/source.mjs <url> [--find "words" | --para 12-20 | --notes | --all]   # read a page, verbatim, a part at a time (§9)
 node scripts/footnotes.mjs <book> <n> [--compare]       # the Church's footnotes and Scripture Helps for a chapter; --compare: each note of the written chapter beside them (§9)
 node scripts/ledger-context.mjs <book> <n | page>       # the ledger's quotes each in its page, under the text they support (the checker's reading, §9)

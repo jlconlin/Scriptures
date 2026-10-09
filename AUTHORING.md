@@ -4,30 +4,22 @@ Where each book stands, how a book is written, and how to work with the author. 
 
 This file says what is true now. How the work got here is in git (`git log -- AUTHORING.md`), not here: when a status changes, replace the line; don't add to it.
 
-## Status (2026-10-09)
+## Status
 
-| Book | Chapters | Theme pages | State | Waiting for the author (`OPEN-QUESTIONS.md`) |
-|---|---|---|---|---|
-| Isaiah | 66 | 5 | live; 5 guides | I1–I9 |
-| Jeremiah | 52 | 5 | live; 5 guides | J1, J2 |
-| Genesis | 50 | 7 | live | G1, G2 |
-| Ezekiel | 48 | 6 | live | E1–E3, E6 |
-| Daniel | 12 | 3 | live | D1–D6, D-T |
-| Malachi | 4 | 2 | live | Ma-T, M1 |
-| Lamentations | 5 | 3 | live | La-T, La-C |
-| Moses | 8 | 2 | live | Mo-T, Mo-Q |
-| Abraham | 5, and 3 facsimile pages | 2 | live | Ab-T |
-| Mosiah | 2 bare (12, 15) | none | live | none |
-| Hosea | 14 | none | in preview, not pushed; illustration approved; language pass under way | H0–H9 |
+**Nothing about a single book is recorded in this file or any other top-level file** (author, 2026-10-09: it belongs in commit messages and in the book's own documents, which stay in step with what happened). Three places hold it:
+
+- **`node scripts/status.mjs [book]`** reads the repository and prints where each book stands: chapters written and bare, ledgers, the language pass, theme and guide pages, preview or live, the illustration, the question numbers waiting for the author, and what is not pushed. It is never out of date, because nobody writes it.
+- **`content/<book>/BRIEF.md`** holds the book's decisions and whatever about its state a script can't see (“State of the book”, “Decided while writing”): that Jeremiah is finished as written, which Isaiah chapters have been deepened, why Mosiah has two bare chapters.
+- **`git log -- content/<book>`** is the book's history, so a commit message says what was done and, where the author decided it, in the author's words: `Daniel: live (author: “Let's go live”)`, `Hosea 4: language pass (Codex's findings, applied by Opus)`. `status.mjs` reads the language pass from these messages; keep that wording.
+
+`OPEN-QUESTIONS.md` stays one file for every book, at the author's request (“Working with the author,” below).
+
+What is true of the whole site:
 
 - **The author has read almost none of it.** Books went live at the author's word before being read, and the open questions are answered as the author studies. Treat every book as open to the author's correction.
-- **Every book but Mosiah has an approved illustration.** Every chapter but Hosea's has had the language pass, as have the book, guide and facsimile pages and the theme pages of Isaiah, Jeremiah, Ezekiel and Daniel. Abraham's and Moses's theme pages have not been read by Codex.
-- **Isaiah:** chapters 1, 40–44 and 56–66 have no evidence ledger. Chapters 1–37 are being deepened, adding only (`content/isaiah/BRIEF.md`, “Revision plan”): done for 6, 7, 9, 11, 14, 24–27 and 29; the rest wait for the author (I1). The Student Manual was replaced by the work it relayed in chapters 2, 13, 18–25, 27, 34, 35 and 45; what is left is I2 and I3.
-- **Jeremiah is finished as written** (author, 2026-10-03: “we're done with Jeremiah”). No deepening pass.
-- **Mosiah exists only to hold notes that belonged there** (the note on Isaiah 52:7 was mostly about Abinadi). It has no full brief and no illustration. **No more Book of Mormon content for now** (author, 2026-10-07: “There are many more books in the OT and NT that should come first”). Five other Isaiah notes with a passage that belongs under a Book of Mormon verse stay in Isaiah until that book is set up (`OPEN-QUESTIONS.md`, “Notes waiting for a Book of Mormon home”).
-- **Rules are for new writing.** The limits on the Student Manual (2026-10-03) and on quoting the Church's material (2026-10-07) were not applied to the books written before them (author, 2026-10-07: “No, we're not going to go over the other books”). `check-content` warnings on Isaiah and Jeremiah are information, not a to-do list.
-- **Theme pages are the author's choice.** Each book's `THEME-CANDIDATES.md` opens with the pages the author selected, their passages and their boundaries. A candidate is not developed until the author says so. Hosea's candidates have not been put to the author.
-- **The order of books** has followed the 2026 *Come, Follow Me* schedule since Jeremiah. Hosea was the coordinator's choice on that basis, while the author was away (H0).
+- **Rules are for new writing.** A rule is not applied to the books written before it unless the author asks (2026-10-07: “No, we're not going to go over the other books”). `check-content` warnings on older books are information, not a to-do list.
+- **Which book is next is the author's choice.** The order has followed the 2026 *Come, Follow Me* schedule since Jeremiah. **No more Book of Mormon content for now** (author, 2026-10-07: “There are many more books in the OT and NT that should come first”); Isaiah notes with a passage that belongs under a Book of Mormon verse wait in `OPEN-QUESTIONS.md` (“Notes waiting for a Book of Mormon home”).
+- **Theme pages are the author's choice.** Each book's `THEME-CANDIDATES.md` opens with the pages the author selected; a candidate is not developed until the author says so.
 
 ## Plan for the next book
 

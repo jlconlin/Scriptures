@@ -10,6 +10,8 @@ Related files:
 
 All 52 chapters were written on 2026-10-02 and the book went live the same day, with the author's approval given in advance. Each chapter was written by a `chapter-writer` agent (Sonnet), checked and repaired by a `chapter-reviewer` agent (Opus, which did not write it), and committed with its evidence ledger; the coordinating session added the `sources.yaml` entries and ran the checks. The author gave no focus questions and confirmed the approach: continue as with Isaiah, whose commentary the author is happy with “both in its content and its quantity.” Each writer worked from the questions a careful reader would ask (`STANDARDS.md` §3).
 
+**Jeremiah is finished as written** (author, 2026-10-03: “we're done with Jeremiah”): no deepening pass is wanted.
+
 Remaining: the author has not yet read the chapters; the judgment calls and unanswered reader questions the checkers reported were settled on 2026-10-04 (“Decided while writing,” below), except what needs the author, which is in `OPEN-QUESTIONS.md` at the top of the repository; and the topics that run across the book are in `THEME-CANDIDATES.md`.
 
 ## What a chapter is for

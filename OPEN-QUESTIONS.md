@@ -144,7 +144,8 @@ Everything that waits for the author, for every book and for the site, in this o
 - **Isaiah 18:7:** Joseph Smith's statement is cited from the manual (*History of the Church* 2:132); find it in the Joseph Smith Papers and cite it there.
 - **2 Nephi 19:1, “Red Sea”** (Isaiah 9:1): a note was written and cut because Skousen's *Analysis of Textual Variants* was read on an unauthorized site. Write it when the publisher's copy and the *Interpreter* article arguing the reading may be authentic can both be read.
 - **Isaiah 29:14:** three ledger rows cite an *Interpreter* article (`bowen-yasap`) whose page now needs a browser, so `check-ledger` cannot confirm them; find a readable copy.
-- **Isaiah chapters with no evidence ledger:** 1, 40–44, 56–66, though the status says all 66 are audited.
+- **Isaiah chapters with no evidence ledger:** 1, 40–44, 56–66 (`content/isaiah/BRIEF.md`, “State of the book”).
+- **Abraham’s and Moses’s theme pages** have not had Codex’s language read (`AUTHORING.md`, “Other pages”).
 
 ## Notes waiting for a Book of Mormon home
 
