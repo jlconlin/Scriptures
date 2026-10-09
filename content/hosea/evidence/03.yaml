@@ -1,0 +1,547 @@
+chapter: 3
+claims:
+  # ---------- when ----------
+  - where: 'when'
+    claim: 'Hosea’s ministry is placed in the third quarter of the eighth century B.C.'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'The ministry of the prophet Hosea is generally placed in the turbulent third quarter of the eighth century B.C.'
+  - where: 'when'
+    claim: 'His activity is usually dated from near the end of Jeroboam II’s reign to about the fall of Samaria'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'his prophetic activity is usually dated from near the end of Jeroboam II’s reign (circa 750 BC) to around the fall of Samaria (circa 722 BC)'
+
+  # ---------- setting ----------
+  - where: 'setting'
+    claim: 'Hosea’s ministry is generally placed in the third quarter of the eighth century B.C.'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'The ministry of the prophet Hosea is generally placed in the turbulent third quarter of the eighth century B.C.'
+  - where: 'setting'
+    claim: 'The ministry ran from the last years of Jeroboam II to about the fall of Samaria'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'his prophetic activity is usually dated from near the end of Jeroboam II’s reign (circa 750 BC) to around the fall of Samaria (circa 722 BC)'
+  - where: 'setting'
+    claim: 'Hosea’s charge was primarily to the northern kingdom'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'Hosea’s stewardship was primarily to the Northern Kingdom.'
+  - where: 'setting'
+    claim: 'Chapter 3 is told in the first person; chapters 1 and 2 in the third'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'The narrative in chapter 3 is in the first person, while that in chapters 1 and 2 is in third person.'
+  - where: 'setting'
+    claim: 'Several prophets, Isaiah, Jeremiah and Ezekiel among them, prophesied by symbolic action'
+    key: parry-symbolic-action
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/symbolic-action-prophecy-old-testament'
+    quote: 'Several Old Testament prophets, including Abraham, Moses, Ahijah, Elijah, Isaiah, Jeremiah, and Ezekiel used such symbolic actions to prophesy'
+  - where: 'setting'
+    claim: 'The explanation of a symbolic action often stands beside it'
+    key: parry-symbolic-action
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/symbolic-action-prophecy-old-testament'
+    quote: 'Many times the prophet’s explanation of the symbolic action is included alongside prophecy'
+  - where: 'setting'
+    claim: 'Hosea 3 is listed among the prophets’ symbolic actions: Hosea is commanded once more to show love to his wife'
+    key: parry-symbolic-action
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/symbolic-action-prophecy-old-testament'
+    quote: 'Symbolic action: Hosea is once more commanded to demonstrate love to his wife, the adulteress'
+  - where: 'setting'
+    claim: 'From chapter 4 the marriage is no longer part of the prophecy, though marriage remains its image'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'Beginning in chapter 4 the marriage of Hosea is no longer a factor in his prophecy. But marriage remains the image through which his message is conveyed.'
+  - where: 'setting'
+    claim: 'Jeremiah 30:9 has “David their king”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/30?lang=eng'
+    quote: 'But they shall serve the Lord their God, and David their king, whom I will raise up unto them.'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'The Hebrew root for love occurs four times in verse 1 (imperative, passive participle, noun or infinitive, participle)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אֱֽהַב'
+  - where: 'thread'
+    claim: 'The second occurrence of the root for love in verse 1, “beloved”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אֲהֻ֥בַת'
+  - where: 'thread'
+    claim: 'The verb “abide” in verse 3 is the verb used of Israel in verse 4'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'תֵּ֣שְׁבִי'
+  - where: 'thread'
+    claim: 'The verb means to sit or stay'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/3.htm'
+    quote: 'Sitting is equivalent to remaining quiet'
+  - where: 'thread'
+    claim: 'Verses 1–3 are the action and verses 4–5 its explanation'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/3.htm'
+    quote: 'Hosea 3:1-3 contain the symbolical action; Hosea 3:4, Hosea 3:5 the explanation'
+  - where: 'thread'
+    claim: 'The sign summed up: the Lord will once more show love to Israel'
+    key: parry-symbolic-action
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/symbolic-action-prophecy-old-testament'
+    quote: 'Prophecy: As Hosea once more shows love for his wife, so the Lord will once more show love to Israel'
+  - where: 'thread'
+    claim: 'What Israel loves in verse 1 is raisin cakes'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/809.htm'
+    quote: 'noun feminine (pressed) raisin-cake'
+
+  # ---------- sections ----------
+  - where: 'section 1 plain'
+    claim: '“Go yet” can be rendered “Go again”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%203&version=ESV'
+    quote: 'Go again, love a woman who is loved by another man and is an adulteress'
+  - where: 'section 1 plain'
+    claim: '“Flagons of wine” is raisin cakes in the Hebrew'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/3?lang=eng'
+    quote: 'raisin-cakes (used in fertility rites)'
+  - where: 'section 2 plain'
+    claim: 'The “image” is a sacred stone or pillar'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4676.htm'
+    quote: 'especially of sacred stones or pillars in connection with altar'
+  - where: 'section 2 plain'
+    claim: '“Fear the LORD” here is to come to Him in dread or trembling'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6342.htm'
+    quote: 'pregnantly, turn in dread to each other Jeremiah 36:16, submitting to'
+
+  # ---------- note 3:1 The woman is not named ----------
+  - where: 'note 3:1 “The woman is not named”'
+    claim: 'Chapter 1 names Gomer the daughter of Diblaim; the command there was to take a wife'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/1?lang=eng'
+    quote: 'So he went and took Gomer the daughter of Diblaim'
+  - where: 'note 3:1 “The woman is not named”'
+    claim: 'Some scholars find a second wife; Jackson thinks that unlikely and grants that the relation of the accounts is a problem'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'Some scholars argue that this chapter introduces a second wife; but that, in my view, is unlikely, though admittedly the relationship between the two accounts is problematic.'
+  - where: 'note 3:1 “The woman is not named”'
+    claim: 'Jackson reads chapter 3 as the same story as chapter 1'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'Hosea chapter 3 presents the same story of Hosea and his wife, but with different details and additional information.'
+  - where: 'note 3:1 “The woman is not named”'
+    claim: 'Parry lists the persons of the sign in Hosea 3 as Hosea and Gomer'
+    key: parry-symbolic-action
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/symbolic-action-prophecy-old-testament'
+    quote: 'Object or person used as a symbol: Hosea and Gomer'
+  - where: 'note 3:1 “The woman is not named”'
+    claim: 'Scripture Helps’ outline of chapters 1–3 names the wife throughout as Gomer (her betrayal, and Hosea’s efforts to bring her back)'
+    key: scripture-helps-hosea
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/45-hosea-1-6-10-14-joel?lang=eng'
+    quote: 'Gomer’s betrayal, and Hosea’s efforts to bring her back to their covenant relationship'
+  - where: 'note 3:1 “The woman is not named”'
+    claim: 'The word rendered “yet” is ‘od'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'ע֚וֹד'
+  - where: 'note 3:1 “The woman is not named”'
+    claim: '‘od can mean “again”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5750.htm'
+    quote: 'becomes = again, Genesis 4:25'
+  - where: 'note 3:1 “The woman is not named”'
+    claim: 'The ESV takes “again” with “go”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%203&version=ESV'
+    quote: 'Go again, love a woman who is loved by another man and is an adulteress'
+  - where: 'note 3:1 “The woman is not named”'
+    claim: 'The NRSVUE takes “again” with “said”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%203&version=NRSVUE'
+    quote: 'The Lord said to me again'
+
+  # ---------- note 3:1 The friend who loves her ----------
+  - where: 'note 3:1 “The friend who loves her”'
+    claim: 'The word for “friend” is rea‘'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'רֵ֖עַ'
+  - where: 'note 3:1 “The friend who loves her”'
+    claim: 'BDB: rea‘ is a friend or intimate; it lists Hosea 3:1 and Jeremiah 3:1 under paramours and Jeremiah 3:20 under husband'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7453.htm'
+    quote: 'husband Jeremiah 3:20, paramours Hosea 3:1; Jeremiah 3:1'
+  - where: 'note 3:1 “The friend who loves her”'
+    claim: 'NRSVUE: a woman who has a lover'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%203&version=NRSVUE'
+    quote: 'love a woman who has a lover and is an adulteress'
+  - where: 'note 3:1 “The friend who loves her”'
+    claim: 'ESV: loved by another man'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%203&version=ESV'
+    quote: 'love a woman who is loved by another man and is an adulteress'
+  - where: 'note 3:1 “The friend who loves her”'
+    claim: 'Keil: the word is used of a husband and the friend here is the prophet himself'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/3.htm'
+    quote: 'could only be her husband, i.e., the prophet himself'
+  - where: 'note 3:1 “The friend who loves her”'
+    claim: 'Keil’s argument: a woman is an adulteress only when unfaithful to a loving husband'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/3.htm'
+    quote: 'for a woman only becomes an adulteress when she is unfaithful to her loving husband'
+  - where: 'note 3:1 “The friend who loves her”'
+    claim: 'The Septuagint has “a woman that loves evil things”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/3.htm'
+    quote: 'Go yet, and love a woman that loves evil things, an adulteress'
+
+  - where: 'note 3:1 “The friend who loves her”'
+    claim: 'Jeremiah 3:20 in the King James: a wife and her husband'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/3?lang=eng'
+    quote: 'Surely as a wife treacherously departeth from her husband'
+
+  # ---------- note 3:1 Raisin cakes at the feasts ----------
+  - where: 'note 3:1 “Raisin cakes at the feasts”'
+    claim: 'The Hebrew phrase is cakes of grapes (’ashishe ‘anavim)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אֲשִׁישֵׁ֥י'
+  - where: 'note 3:1 “Raisin cakes at the feasts”'
+    claim: '’ashishah is a pressed raisin cake, distributed to the people in 2 Samuel 6:19'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/809.htm'
+    quote: 'noun feminine (pressed) raisin-cake'
+  - where: 'note 3:1 “Raisin cakes at the feasts”'
+    claim: 'In Hosea 3:1 the cakes are those used in sacrificial feasts'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/809.htm'
+    quote: 'Hosea 3:1 used in sacrificial feasts'
+  - where: 'note 3:1 “Raisin cakes at the feasts”'
+    claim: 'The King James has “a flagon of wine” in 2 Samuel 6:19, where David gives to every one at the feast for the ark'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/6?lang=eng'
+    quote: 'to every one a cake of bread, and a good piece of flesh, and a flagon of wine'
+  - where: 'note 3:1 “Raisin cakes at the feasts”'
+    claim: 'The Church’s footnote: raisin cakes, used in fertility rites'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/3?lang=eng'
+    quote: 'raisin-cakes (used in fertility rites)'
+
+  # ---------- note 3:2 The price and what it bought ----------
+  - where: 'note 3:2 “The price and what it bought”'
+    claim: 'The verb “bought” means to get by trade, buy'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3739.htm'
+    quote: 'get by trade, buy, with accusative Hosea 3:2; Deuteronomy 2:6'
+  - where: 'note 3:2 “The price and what it bought”'
+    claim: 'A homer was ten ephahs, about six and a half bushels'
+    key: bd-weights-and-measures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/weights-and-measures?lang=eng'
+    quote: 'Homer (dry). Said to be 10 ephahs. A homer is also believed to be 230 liters (or about 6½ U.S. bushels dry measure).'
+  - where: 'note 3:2 “The price and what it bought”'
+    claim: 'Ezekiel 45:11: the ephah is a tenth of a homer'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/45?lang=eng'
+    quote: 'the ephah the tenth part of an homer'
+  - where: 'note 3:2 “The price and what it bought”'
+    claim: 'lethek is a barley measure found only in Hosea 3:2'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3963.htm'
+    quote: 'noun [masculine] a barley-measure'
+  - where: 'note 3:2 “The price and what it bought”'
+    claim: 'That a lethek is half a homer is a tradition BDB calls uncertain'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3963.htm'
+    quote: 'but this tradition is uncertain'
+  - where: 'note 3:2 “The price and what it bought”'
+    claim: 'The Septuagint has “a flagon of wine” where the Hebrew has a lethek of barley'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/3.htm'
+    quote: 'for fifteen pieces of silver, and a homer of barley, and a flagon of wine'
+  - where: 'note 3:2 “The price and what it bought”'
+    claim: 'NRSVUE: a measure of wine'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%203&version=NRSVUE'
+    quote: 'a homer of barley and a measure of wine'
+  - where: 'note 3:2 “The price and what it bought”'
+    claim: 'Exodus 21:32 sets thirty shekels for a servant gored by an ox'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/21?lang=eng'
+    quote: 'he shall give unto their master thirty shekels of silver'
+  - where: 'note 3:2 “The price and what it bought”'
+    claim: 'Keil’s reckoning supposes barley at a shekel an ephah'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/3.htm'
+    quote: 'it is a very natural supposition, especially if we refer to 2 Kings 7:1; 2 Kings 16:18, that at that time an ephah of barley was worth a shekel'
+  - where: 'note 3:2 “The price and what it bought”'
+    claim: 'On that supposition the total is the price of a slave in Exodus 21:32, half in money and half in barley'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/3.htm'
+    quote: 'the whole price would just amount to the sum for which, according to Exodus 21:32, it was possible to purchase a slave, and was paid half in money and half in barley'
+  - where: 'note 3:2 “The price and what it bought”'
+    claim: 'Keil takes the payment as a marriage present given to the bride'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/3.htm'
+    quote: 'which a bridegroom gave, not to the parents, but to the bride herself'
+  - where: 'note 3:2 “The price and what it bought”'
+    claim: 'Scholars debate whether she is bought out of slavery or redeemed from prostitution'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'Much scholarly discussion has been generated over the issue of whether she is being purchased out of slavery or redeemed out of prostitution.'
+  - where: 'note 3:2 “The price and what it bought”'
+    claim: 'Jackson: the meaning is unclear'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'The meaning is quite unclear.'
+  - where: 'note 3:2 “The price and what it bought”'
+    claim: 'The purchase gives Hosea the right to set the terms'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'giving Hosea, the purchaser, the right to stipulate their relationship'
+
+  # ---------- note 3:3 What Hosea promises in return ----------
+  - where: 'note 3:3 “What Hosea promises in return”'
+    claim: 'The last clause of verse 3 is three Hebrew words: and also, I, to you'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אֲנִ֖י'
+  - where: 'note 3:3 “What Hosea promises in return”'
+    claim: 'NRSVUE reads the clause as a restriction on the husband too'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%203&version=NRSVUE'
+    quote: 'you shall not have intercourse with a man, nor I with you'
+  - where: 'note 3:3 “What Hosea promises in return”'
+    claim: 'NIV: the husband will behave the same way'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%203&version=NIV'
+    quote: 'I will behave the same way toward you'
+  - where: 'note 3:3 “What Hosea promises in return”'
+    claim: 'Jackson reads the clause as Hosea’s statement of his own responsibility'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'This list of commands is followed by his statement of his responsibility'
+  - where: 'note 3:3 “What Hosea promises in return”'
+    claim: 'Jackson: the covenant is reciprocal'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'Notice the reciprocal nature of the covenant, both partners being bound to obligations of faithfulness.'
+  - where: 'note 3:3 “What Hosea promises in return”'
+    claim: 'The Student Manual: a time of waiting before the blessings of the covenant are restored'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'there is a time of testing, of waiting and preparing, before one is reinstated to all the blessings of the covenant'
+
+  # ---------- note 3:4 Six things Israel will do without ----------
+  - where: 'note 3:4 “Six things Israel will do without”'
+    claim: 'The “image” is a matstsebah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'מַצֵּבָ֑ה'
+  - where: 'note 3:4 “Six things Israel will do without”'
+    claim: 'A matstsebah is a sacred stone or pillar connected with an altar; BDB lists Hosea 3:4 there'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4676.htm'
+    quote: 'especially of sacred stones or pillars in connection with altar'
+  - where: 'note 3:4 “Six things Israel will do without”'
+    claim: 'The law condemned the pillar for Israel (Deuteronomy 16:22)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4676.htm'
+    quote: 'condemned for Israel by Deuteronomic code'
+  - where: 'note 3:4 “Six things Israel will do without”'
+    claim: 'Deuteronomy 16:22 in the King James uses “image”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/16?lang=eng'
+    quote: 'Neither shalt thou set thee up any image'
+  - where: 'note 3:4 “Six things Israel will do without”'
+    claim: 'The ephod was part of the high priest’s dress, and the breastplate was fastened to it'
+    key: bd-ephod
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ephod?lang=eng'
+    quote: 'To the ephod was fastened the Breastplate of Judgment.'
+  - where: 'note 3:4 “Six things Israel will do without”'
+    claim: 'The Urim and Thummim were put in the breastplate'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/28?lang=eng'
+    quote: 'And thou shalt put in the breastplate of judgment the Urim and the Thummim'
+  - where: 'note 3:4 “Six things Israel will do without”'
+    claim: 'The ephod also became an object of idolatrous worship'
+    key: bd-ephod
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ephod?lang=eng'
+    quote: 'The ephod at one time became the object of idolatrous worship'
+  - where: 'note 3:4 “Six things Israel will do without”'
+    claim: 'Teraphim were a kind of idol and a means of divination'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8655.htm'
+    quote: 'a kind of idol, object of reverence, and means of divination'
+  - where: 'note 3:4 “Six things Israel will do without”'
+    claim: 'The Bible Dictionary on what using teraphim was'
+    key: bd-teraphim
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/teraphim?lang=eng'
+    quote: 'To use teraphim was probably not to worship strange gods but to worship the true God in a corrupt manner.'
+  - where: 'note 3:4 “Six things Israel will do without”'
+    claim: 'The Student Manual: the ephod stands for revelation'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'They would also be without revelation (represented by the ephod, to which the Urim and Thummim were attached).'
+  - where: 'note 3:4 “Six things Israel will do without”'
+    claim: 'The Student Manual: idolatrous objects are listed with the Lord’s to show both would be lost'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'were included with objects from the worship of Jehovah to show the people that the worship of idols would also be lost'
+  - where: 'note 3:4 “Six things Israel will do without”'
+    claim: 'The Student Manual: the verse alludes to the coming captivity'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'Hosea 3:4 alludes to Israel’s impending captivity'
+  - where: 'note 3:4 “Six things Israel will do without”'
+    claim: 'The Septuagint’s rendering of the last three items'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/3.htm'
+    quote: 'without an altar, and without a priesthood, and without manifestations'
+  - where: 'note 3:4 “Six things Israel will do without”'
+    claim: 'Jackson: verse 4 prophesies a long separation without king or revelation'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'the Israelites would enjoy neither direction from a king nor divine instruction through revelation'
+  - where: 'note 3:4 “Six things Israel will do without”'
+    claim: 'Assyria took Samaria and carried Israel away'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng'
+    quote: 'the king of Assyria took Samaria, and carried Israel away into Assyria'
+
+  # ---------- note 3:5 David their king is the Messiah ----------
+  - where: 'note 3:5 “David their king is the Messiah”'
+    claim: 'The Church’s heading to Jeremiah 30 glosses David their king as the Messiah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/30?lang=eng'
+    quote: 'David, their king (the Messiah)'
+  - where: 'note 3:5 “David their king is the Messiah”'
+    claim: 'David’s reign was remembered as the type of the Messiah’s age'
+    key: bd-david
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/david?lang=eng'
+    quote: 'the type of the more glorious age to which the nation looked forward when Messiah should come'
+  - where: 'note 3:5 “David their king is the Messiah”'
+    claim: 'The kingdom of David and Solomon divided about two centuries before Hosea'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'Approximately two centuries earlier, the great Israelite empire of David and Solomon had divided into two rival nations'
+  - where: 'note 3:5 “David their king is the Messiah”'
+    claim: 'The northern tribes’ cry when they left the house of David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/12?lang=eng'
+    quote: 'What portion have we in David? neither have we inheritance in the son of Jesse: to your tents, O Israel'
+  - where: 'note 3:5 “David their king is the Messiah”'
+    claim: 'Keil: returning to David points to the ten tribes’ falling away from his house'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/3.htm'
+    quote: 'which clearly points to the falling away of the ten tribes from the house of David'
+  - where: 'note 3:5 “David their king is the Messiah”'
+    claim: 'Keil: a true return to the Lord includes a return to David'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/3.htm'
+    quote: 'the true return to the Lord cannot take place without a return to David their king'
+  - where: 'note 3:5 “David their king is the Messiah”'
+    claim: 'Keil: this King David is the Messiah'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/3.htm'
+    quote: 'This King David, however, is no other than the Messiah.'
+
+  # ---------- note 3:5 A fear that comes toward the Lord ----------
+  - where: 'note 3:5 “A fear that comes toward the Lord”'
+    claim: 'The verb is pachad, followed by the preposition “to”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'פָחֲד֧וּ'
+  - where: 'note 3:5 “A fear that comes toward the Lord”'
+    claim: 'BDB: pachad is to be in dread; with the preposition “to” in Hosea 3:5 it is submitting to the Lord'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6342.htm'
+    quote: 'pregnantly, turn in dread to each other Jeremiah 36:16, submitting to'
+  - where: 'note 3:5 “A fear that comes toward the Lord”'
+    claim: 'NRSVUE: come in awe'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%203&version=NRSVUE'
+    quote: 'they shall come in awe to the Lord and to his goodness in the latter days'
+  - where: 'note 3:5 “A fear that comes toward the Lord”'
+    claim: 'ESV: come in fear'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%203&version=ESV'
+    quote: 'they shall come in fear to the Lord and to his goodness'
+  - where: 'note 3:5 “A fear that comes toward the Lord”'
+    claim: 'The Septuagint: amazed at the Lord and His goodness'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/3.htm'
+    quote: 'shall be amazed at the Lord and at his goodness in the latter days'
+
+  # ---------- note 3:5 The end of the days ----------
+  - where: 'note 3:5 “The end of the days”'
+    claim: 'The Hebrew phrase is be’acharit hayyamim'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אַחֲרִ֥ית'
+  - where: 'note 3:5 “The end of the days”'
+    claim: 'BDB: “in the end of the days” is a prophetic phrase for the final period within the speaker’s view'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/319.htm'
+    quote: 'in the end of the days, a prophetic phrase denoting the final period of the history so far as the speaker''s perspective reaches'
+  - where: 'note 3:5 “The end of the days”'
+    claim: 'BDB: the sense varies, and is often the Messianic future'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/319.htm'
+    quote: 'the sense thus varies with the context, but it often = the ideal or Messianic future'
+  - where: 'note 3:5 “The end of the days”'
+    claim: 'BDB lists Deuteronomy 4:30 and Hosea 3:5 under the phrase, the first of Israel’s return to God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/319.htm'
+    quote: 'Deuteronomy 4:30 (of the period of Israel''s return to God after adversity)'
+  - where: 'note 3:5 “The end of the days”'
+    claim: 'Deuteronomy 4:30 speaks of turning to the Lord in the latter days'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/4?lang=eng'
+    quote: 'even in the latter days, if thou turn to the Lord thy God'
+  - where: 'explore'
+    claim: 'The Church’s footnote on “seek” gives 2 Nephi 6:11 and D&C 113:10, on Israel’s return'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/3?lang=eng'
+    quote: '2 Ne. 6:11; D&C 113:10'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'The Student Manual: “David their king” is a title of the Messiah, Jesus Christ'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: '“David their king” (v. 5) is one of the titles of the Messiah or Jesus Christ'
+  - where: 'christ'
+    claim: 'The Student Manual reads the purchase as a figure of redemption through the blood of Jesus Christ'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'just as Heavenly Father seeks after His children to redeem them from Satan’s power with the blood of His Son Jesus Christ'
+  - where: 'christ'
+    claim: 'Keil: the wording of verse 1 recalls Deuteronomy 7:8'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/3.htm'
+    quote: 'recal Deuteronomy 7:8'
+  - where: 'christ'
+    claim: 'Deuteronomy 7:8 joins the Lord’s love to redemption from bondage'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/7?lang=eng'
+    quote: 'redeemed you out of the house of bondmen, from the hand of Pharaoh king of Egypt'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: 'Jeremiah 3:20 uses the figure of a wife departing from her husband'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/3?lang=eng'
+    quote: 'Surely as a wife treacherously departeth from her husband'
+  - where: 'explore'
+    claim: 'From chapter 4 the marriage of Hosea is left behind'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'Beginning in chapter 4 the marriage of Hosea is no longer a factor in his prophecy.'
