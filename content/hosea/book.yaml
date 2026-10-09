@@ -1,0 +1,85 @@
+name: Hosea
+slug: hosea
+status: preview          # remove when the book should go live (DEVELOPMENT.md, “Preview and live”)
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 10
+abbr: hosea              # [[Hosea 6:6]] links here
+gospelLibrary: ot/hosea
+eyebrow: The Old Testament
+heroQuote:
+  text: '“I will heal their backsliding, I will love them freely.”'
+  cite: 'The Lord to Israel, [[Hosea 14:4]]'
+description: A phrase-by-phrase companion to the book of Hosea, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: The book opens with a household, a wife who leaves and children with hard names, and then turns to the nation that household stands for. Warning and promise alternate to the end, and the last word is a promise.
+home:
+  blurb: A prophet of the northern kingdom in its last years, whose marriage became a picture of the Lord’s love for a people who had left Him.
+
+intro: |
+  Hosea prophesied in the northern kingdom of Israel in the eighth century B.C., from the last years of Jeroboam the son of Joash into the decades when that kingdom came apart and was taken by Assyria. He is the only prophet of the northern kingdom whose written prophecies have come down to us. The kingdom he speaks to he most often calls Ephraim, after its leading tribe.
+
+  The book begins with the Lord’s command that Hosea take “a wife of whoredoms” ([[Hosea 1:2]]), and with three children whose names are sentences passed on Israel. From that household the book reads the whole history of the covenant as a marriage: a bride who went after other lovers, and a husband who will not give her up. Chapters 4–14 carry the same charge and the same promise to the nation, in a rush of images from the farm, the oven, the hunt, and the nursery. This companion goes through all fourteen chapters and tries to anticipate the questions a careful reader asks: *Did Hosea really marry such a woman? Who is Ephraim? What does that image mean? Where is Christ in this?*
+
+# Scripture Helps divides the book in two (1–3, Hosea’s marriage and children; 4–14, warnings and promises to Israel).
+# The split of 4–14 at chapter 11 is the site’s own: at 11:1 the picture changes from a wife to a child the Lord raised.
+# Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: gomer
+    range: [1, 3]
+    name: The Prophet’s Household
+    blurb: Hosea is told to take a wife of whoredoms, and her three children are named for what is coming on Israel. The Lord pleads with His unfaithful bride, promises to betroth her to Him for ever, and sends Hosea to love and buy back a woman who has left him.
+    color: '#a04a5c'
+    darkColor: '#e39aab'
+  - key: controversy
+    range: [4, 10]
+    name: The Lord’s Controversy with Israel
+    blurb: There is no truth, mercy, or knowledge of God in the land. Priests, princes, and people are charged with idols, with kings set up and cut down, and with running to Egypt and Assyria for help. They have sown the wind and will reap the whirlwind.
+    color: '#8a6a2a'
+    darkColor: '#dcbc74'
+  - key: freely
+    range: [11, 14]
+    name: “I Will Love Them Freely”
+    blurb: The Lord remembers Israel as a child He called out of Egypt and taught to walk, and cannot give him up. He recalls Jacob, promises to ransom His people from the grave, and calls them to return with words of repentance.
+    color: '#3f7f6a'
+    darkColor: '#8fd0b9'
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [1, 14], sources: [ot-manual-10] }
+  - { range: [1, 6], sources: [scripture-helps-hosea] }
+  - { range: [10, 14], sources: [scripture-helps-hosea] }
+
+beloved:
+  - { chapter: 2, verse: 19, text: 'I will betroth thee unto me for ever' }
+  - { chapter: 2, verse: 23, text: 'I will say to them which were not my people, Thou art my people' }
+  - { chapter: 4, verse: 6, text: 'My people are destroyed for lack of knowledge' }
+  - { chapter: 6, verse: 6, text: 'I desired mercy, and not sacrifice' }
+  - { chapter: 8, verse: 7, text: 'they have sown the wind, and they shall reap the whirlwind' }
+  - { chapter: 10, verse: 12, text: 'Sow to yourselves in righteousness, reap in mercy; break up your fallow ground' }
+  - { chapter: 11, verse: 4, text: 'I drew them with cords of a man, with bands of love' }
+  - { chapter: 11, verse: 8, text: 'How shall I give thee up, Ephraim?' }
+  - { chapter: 13, verse: 14, text: 'I will ransom them from the power of the grave; I will redeem them from death' }
+  - { chapter: 14, verse: 4, text: 'I will heal their backsliding, I will love them freely' }
+
+coreSources:
+  - bd-hosea
+  - gs-hosea
+  - scripture-helps-hosea
+  - ot-manual-10
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'A Wife of Whoredoms and Three Children'
+  2: 'I Will Betroth Thee unto Me for Ever'
+  3: 'Go Yet, Love a Woman'
+  4: 'No Knowledge of God in the Land'
+  5: 'Ephraim and Judah Shall Fall'
+  6: 'Mercy, and Not Sacrifice'
+  7: 'A Cake Not Turned'
+  8: 'They Have Sown the Wind'
+  9: 'Wanderers among the Nations'
+  10: 'Break Up Your Fallow Ground'
+  11: 'Out of Egypt Have I Called My Son'
+  12: 'The Lord Has a Controversy with Jacob'
+  13: 'No Saviour beside Me'
+  14: 'I Will Love Them Freely'

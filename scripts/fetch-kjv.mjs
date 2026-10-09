@@ -156,6 +156,13 @@ const LDS_SPELLINGS = [
   [/and stedfast for ever/g, 'and steadfast for ever'], // Dan. 6:26
   [/O LORD, righteousness belongeth unto thee/g, 'O Lord, righteousness belongeth unto thee'], // Dan. 9:7
   [/O LORD, according to all thy righteousness/g, 'O Lord, according to all thy righteousness'], // Dan. 9:16
+  // Hosea: hyphens in names, and “Lord” (adonai) where the source has LORD (found by scripts/check-kjv.mjs).
+  [/Loruhamah/g, 'Lo-ruhamah'], // Hosea 1:6, 8
+  [/Loammi/g, 'Lo-ammi'], // Hosea 1:9
+  [/Bethaven/g, 'Beth-aven'], // Hosea 4:15; 5:8; 10:5
+  [/Baalpeor, and separated/g, 'Baal-peor, and separated'], // Hosea 9:10
+  [/Betharbel/g, 'Beth-arbel'], // Hosea 10:14
+  [/shall his LORD return unto him/g, 'shall his Lord return unto him'], // Hosea 12:14
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 
