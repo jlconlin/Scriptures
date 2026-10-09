@@ -1,0 +1,635 @@
+chapter: 5
+claims:
+  # ---------- when ----------
+  - where: 'when'
+    claim: 'Hosea lived in the northern kingdom’s time of decline; the Bible Dictionary places his death before 736 B.C.'
+    key: bd-hosea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng'
+    quote: 'He probably died before the accession of Pekah, 736 B.C.'
+  - where: 'when'
+    claim: 'He lived during the decline of the northern kingdom'
+    key: bd-hosea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng'
+    quote: 'He lived during a time of national decline and ruin, the result of the sin of Israel.'
+
+  # ---------- setting ----------
+  - where: 'setting'
+    claim: 'The oracles of chapters 4–14 sometimes stand apart, each opening with a call to hear (chapters 4 and 5), and sometimes build on each other (chapter 6 on chapter 5)'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'each started with an exhortation for the audience to hear or hearken (such as chapters 4 and 5), and at other times build on one another by drawing on the imagery from the preceding chapter (such as how chapter 6 draws on the imagery in 5)'
+  - where: 'setting'
+    claim: 'Chapter 4 opens with a call to the children of Israel to hear'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/4?lang=eng'
+    quote: 'Hear the word of the Lord, ye children of Israel'
+  - where: 'setting'
+    claim: 'Ephraim stands for the northern kingdom and Judah for the southern, each after its dominant tribe'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'Thus, as used here, Judah means the Southern Kingdom, and Ephraim the Northern Kingdom.'
+  - where: 'setting'
+    claim: 'Hosea was a prophet of the northern kingdom'
+    key: bd-hosea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng'
+    quote: 'the only prophet of the northern kingdom who has left written prophecies'
+  - where: 'setting'
+    claim: 'Kings records that Menahem of Israel paid the king of Assyria for his support'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'Menahem gave Pul a thousand talents of silver, that his hand might be with him to confirm the kingdom in his hand.'
+  - where: 'setting'
+    claim: 'D&C 101:7–8 speaks of the Saints in the terms of verses 6 and 15 (the Church’s footnotes at 6a and 15b join them)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/101?lang=eng'
+    quote: 'therefore, the Lord their God is slow to hearken unto their prayers, to answer them in the day of their trouble.'
+  - where: 'setting'
+    claim: 'The going to Assyria has been referred to Menahem (2 Kings 15:19–20)'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/5.htm'
+    quote: 'Going to Asshur refers rather to Menahem than to Zechariah'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'The verb “know” (yada, H3045) is the same in verse 3 (“I know Ephraim”) and verse 4 (“they have not known”) (hebrew.mjs hosea 5:3-4)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יָדַ֣עְתִּי'
+  - where: 'thread'
+    claim: 'The verb “seek” (baqash, H1245) stands in verse 6 and verse 15 (hebrew.mjs hosea --word 1245: 2:7, 3:5, 5:6, 5:15, 7:10)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'בַקֵּ֥שׁ'
+  - where: 'thread'
+    claim: 'The images of judgment in 5:10–15 (water, sickness, lion) are reversed in 6:1–3'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'Hosea’s images of destructive water, a rot or sickness, and a tearing lion are reversed'
+
+  # ---------- sections ----------
+  - where: 'section 2 plain'
+    claim: 'The first clause of verse 4: their deeds do not let them return'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/5?lang=eng'
+    quote: 'HEB Their behavior does not permit them to return to their God.'
+  - where: 'section 2 plain'
+    claim: '“Doth testify to his face” rendered as testifying against him'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NRSVUE'
+    quote: 'Israel’s pride testifies against him;'
+  - where: 'section 2 plain'
+    claim: '“Month” may be rendered “new moon”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NRSVUE'
+    quote: 'Now the new moon shall devour them along with their fields.'
+  - where: 'section 3 plain'
+    claim: 'The “cornet” is the ram’s horn'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/5?lang=eng'
+    quote: 'HEB shofar, or ram’s horn.'
+  - where: 'section 3 plain'
+    claim: '“Desolate” rendered “a desolation”; “that which shall surely be” rendered “what is sure”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NRSVUE'
+    quote: 'I declare what is sure.'
+  - where: 'section 4 plain'
+    claim: '“Remove the bound” is to move a boundary marker'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/5?lang=eng'
+    quote: 'HEB boundary marker.'
+  - where: 'section 4 plain'
+    claim: '“Broken in judgment” rendered “crushed in judgment”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NRSVUE'
+    quote: 'Ephraim is oppressed, crushed in judgment,'
+  - where: 'section 4 plain'
+    claim: '“After the commandment” may be “after filth”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/5?lang=eng'
+    quote: 'OR after filth.'
+  - where: 'section 5 plain'
+    claim: '“I will take away” rendered “I will carry off”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NRSVUE'
+    quote: 'I will carry off, and no one shall rescue.'
+
+  # ---------- note 5:1 ----------
+  - where: 'note 5:1 “The snare and the net”'
+    claim: 'The three groups summoned are the religious leadership, the people, and the political leadership'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'The audience of chapter 5 is the religious leadership, the people, and the political leadership of Israel (see Hosea 5:1).'
+  - where: 'note 5:1 “The snare and the net”'
+    claim: 'The Hebrew word for “snare” (pach, H6341) is a bird-trap; the lexicon lists Hosea 5:1 and 9:8 under it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6341.htm'
+    quote: 'bird-trap'
+  - where: 'note 5:1 “The snare and the net”'
+    claim: 'The rulers and priests are pictured as hunters whose prey is Israel; Mizpah and Tabor were said to be famous for hunting'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'The metaphor depicts the rulers and priesthood in the bloody role of the hunters who spiritually killed their prey, Israel.'
+  - where: 'note 5:1 “The snare and the net”'
+    claim: 'Tabor is the mountain where Barak gathered the army'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/4?lang=eng'
+    quote: 'Go and draw toward mount Tabor, and take with thee ten thousand men'
+  - where: 'note 5:1 “The snare and the net”'
+    claim: 'Mizpah means “Watchtower,” and several places bore the name'
+    key: bd-mizpah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/mizpah?lang=eng'
+    quote: 'Watchtower. (1) The heap of stones raised by Jacob and Laban'
+  - where: 'note 5:1 “The snare and the net”'
+    claim: 'Mizpah and Tabor are explained as mountains famous for hunting, hence the net and the snare'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'Mizpah and Tabor, both mountains, were famous for hunting'
+
+  # ---------- note 5:2 ----------
+  - where: 'note 5:2 “A hard line, read three ways”'
+    claim: 'The ESV: the revolters have gone deep into slaughter'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=ESV'
+    quote: 'have gone deep into slaughter,'
+  - where: 'note 5:2 “A hard line, read three ways”'
+    claim: 'The NIV: the rebels are knee-deep in slaughter'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NIV'
+    quote: 'The rebels are knee-deep in slaughter.'
+  - where: 'note 5:2 “A hard line, read three ways”'
+    claim: 'The lexicon renders the Hebrew as revolters gone deep in slaughter, marks it dubious, and records the proposal “the pit of Shittim they have made deep”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7846.htm'
+    quote: 'but dubious'
+  - where: 'note 5:2 “A hard line, read three ways”'
+    claim: 'The proposal recorded in the lexicon'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7846.htm'
+    quote: 'and the pit of Shittim they have made deep'
+  - where: 'note 5:2 “A hard line, read three ways”'
+    claim: 'The NRSVUE reads a pit dug deep in Shittim'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NRSVUE'
+    quote: 'and a pit dug deep in Shittim,'
+  - where: 'note 5:2 “A hard line, read three ways”'
+    claim: 'The NRSVUE’s note on 5:2'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NRSVUE'
+    quote: '5.2 Cn: Meaning of Heb uncertain'
+  - where: 'note 5:2 “A hard line, read three ways”'
+    claim: 'The Septuagint continues the hunting image of verse 1'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/5.htm'
+    quote: 'which they that hunt the prey have fixed: but I will correct you.'
+  - where: 'note 5:2 “A hard line, read three ways”'
+    claim: 'The NIV puts the correction in the future'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NIV'
+    quote: 'I will discipline all of them.'
+  - where: 'note 5:2 “A hard line, read three ways”'
+    claim: 'The revolters are explained as those who drove animals into a camouflaged pit'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'Revolters were those who drove animals into a pit that had been camouflaged.'
+
+  # ---------- note 5:4 ----------
+  - where: 'note 5:4 “The Lord knows Ephraim, and Ephraim does not know the Lord”'
+    claim: 'Verse 3 “I know” is the verb yada (H3045) (hebrew.mjs hosea 5:3)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יָדַ֣עְתִּי'
+  - where: 'note 5:4 “The Lord knows Ephraim, and Ephraim does not know the Lord”'
+    claim: 'Verse 4 “they have not known” is the same verb (H3045) (hebrew.mjs hosea 5:4)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יָדָֽעוּ'
+  - where: 'note 5:4 “The Lord knows Ephraim, and Ephraim does not know the Lord”'
+    claim: 'The Hebrew of the first clause of verse 4 can be read with the deeds as subject'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/5?lang=eng'
+    quote: 'HEB Their behavior does not permit them to return to their God.'
+  - where: 'note 5:4 “The Lord knows Ephraim, and Ephraim does not know the Lord”'
+    claim: 'The NRSVUE translates so'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NRSVUE'
+    quote: 'Their deeds do not permit them to return to their God.'
+  - where: 'note 5:4 “The Lord knows Ephraim, and Ephraim does not know the Lord”'
+    claim: 'The NIV translates so'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NIV'
+    quote: 'Their deeds do not permit them'
+  - where: 'note 5:4 “The Lord knows Ephraim, and Ephraim does not know the Lord”'
+    claim: 'The ESV translates so'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=ESV'
+    quote: 'Their deeds do not permit them to return to their God.'
+  - where: 'note 5:4 “The Lord knows Ephraim, and Ephraim does not know the Lord”'
+    claim: '“Whoredoms” (zenunim, H2183) is in Hosea 1:2, 2:2, 2:4, 4:12 and 5:4 (hebrew.mjs hosea --word 2183)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'זְנוּנִים֙'
+
+  # ---------- note 5:6 ----------
+  - where: 'note 5:6 “Seeking the Lord with flocks and herds”'
+    claim: 'The flocks and herds are for sacrifice, and sacrifice will not help because God has withdrawn'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/5.htm'
+    quote: 'The offering of sacrifices will be no help to them, because God has withdrawn Himself from them, and does not hear their prayers; for God has no pleasure in sacrifices which are offered in an impenitent state of mind'
+  - where: 'note 5:6 “Seeking the Lord with flocks and herds”'
+    claim: '“Withdrawn” is chalats (H2502), to draw off or out, withdraw; the lexicon lists Hosea 5:6'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2502.htm'
+    quote: 'verb draw off or out, withdraw,'
+  - where: 'note 5:6 “Seeking the Lord with flocks and herds”'
+    claim: '“Seek” (baqash, H1245) stands in 5:6, 5:15 and 7:10 (hebrew.mjs hosea --word 1245)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'בַקֵּ֥שׁ'
+  - where: 'note 5:6 “Seeking the Lord with flocks and herds”'
+    claim: 'Hosea 7:10: Israel does not seek the Lord for all this'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'and they do not return to the Lord their God, nor seek him for all this.'
+
+  # ---------- note 5:7 ----------
+  - where: 'note 5:7 “Strange children, and a month that devours”'
+    claim: 'Israel should have borne children of God within the covenant and instead bore children the Lord could not own (the manual prints Keil)'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'Israel ought to have begotten children of God in the maintenance of the covenant with the Lord; but in its apostasy from God it had begotten an adulterous generation, children whom the Lord could not acknowledge as His own'
+  - where: 'note 5:7 “Strange children, and a month that devours”'
+    claim: 'The NRSVUE: illegitimate children'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NRSVUE'
+    quote: 'for they have borne illegitimate children.'
+  - where: 'note 5:7 “Strange children, and a month that devours”'
+    claim: 'The ESV: alien children'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=ESV'
+    quote: 'for they have borne alien children.'
+  - where: 'note 5:7 “Strange children, and a month that devours”'
+    claim: 'Chodesh (H2320) means new moon and month; the lexicon lists Hosea 5:7 under the new moon as a religious festival'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2320.htm'
+    quote: 'new moon = day, time, of new moon, as religious festival'
+  - where: 'note 5:7 “Strange children, and a month that devours”'
+    claim: 'The word has both senses'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2320.htm'
+    quote: '(newness), new moon, month'
+  - where: 'note 5:7 “Strange children, and a month that devours”'
+    claim: 'Taken as “month”: they and their property destroyed within a month'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/5?lang=eng'
+    quote: 'IE Within a month they and their property shall be destroyed.'
+  - where: 'note 5:7 “Strange children, and a month that devours”'
+    claim: 'The ESV: the new moon devours them with their fields'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=ESV'
+    quote: 'Now the new moon shall devour them with their fields.'
+  - where: 'note 5:7 “Strange children, and a month that devours”'
+    claim: 'The NIV makes the feast the occasion'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NIV'
+    quote: 'When they celebrate their New Moon feasts,'
+  - where: 'note 5:7 “Strange children, and a month that devours”'
+    claim: 'The Septuagint has the cankerworm'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/5.htm'
+    quote: 'now shall the cankerworm devour them and their heritages.'
+  - where: 'note 5:7 “Strange children, and a month that devours”'
+    claim: 'Hosea 2:11: the Lord will end the new moons'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/2?lang=eng'
+    quote: 'her new moons'
+  - where: 'note 5:7 “Strange children, and a month that devours”'
+    claim: 'Strange children are children not born of the marriage; the words quoted in the note are Keil’s (the manual prints them from him)'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/5.htm'
+    quote: 'Israel ought to have begotten children of God in the maintenance of the covenant with the Lord; but in its apostasy from God it had begotten an adulterous generation, children whom the Lord could not acknowledge as His own.'
+  - where: 'note 5:7 “Strange children, and a month that devours”'
+    claim: 'The expression is equivalent to the “children of whoredoms” of Hosea 1:2 and 2:4'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/5.htm'
+    quote: 'such as have not sprung from the conjugal union. In actual fact, the expression is equivalent to'
+
+  # ---------- note 5:8 ----------
+  - where: 'note 5:8 “The alarm sounds in Benjamin”'
+    claim: 'The cornet is the shofar, the ram’s horn'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/5?lang=eng'
+    quote: 'HEB shofar, or ram’s horn.'
+  - where: 'note 5:8 “The alarm sounds in Benjamin”'
+    claim: 'Blowing the horn or trumpet announced invasion'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/5.htm'
+    quote: 'was a signal by which the invasion of foes'
+  - where: 'note 5:8 “The alarm sounds in Benjamin”'
+    claim: 'Gibeah and Ramah were high places on Benjamin’s northern boundary'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/5.htm'
+    quote: 'were two elevated places on the northern boundary of the tribe of Benjamin, which were well adapted for signals, on account of their lofty situation.'
+  - where: 'note 5:8 “The alarm sounds in Benjamin”'
+    claim: 'Ramah was in Benjamin on Ephraim’s border, on the frontier and the road to Jerusalem; the entry cites Hosea 5:8'
+    key: bd-ramah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ramah?lang=eng'
+    quote: 'in Benjamin, on the border of Ephraim'
+  - where: 'note 5:8 “The alarm sounds in Benjamin”'
+    claim: 'Ramah on the frontier'
+    key: bd-ramah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ramah?lang=eng'
+    quote: 'Being on the frontier and on the road to Jerusalem, it was the scene of several conflicts between Israel and Judah'
+  - where: 'note 5:8 “The alarm sounds in Benjamin”'
+    claim: 'Gibeah belonged to Benjamin and is the town of Judges 19–20'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/20?lang=eng'
+    quote: 'I came into Gibeah that belongeth to Benjamin'
+  - where: 'note 5:8 “The alarm sounds in Benjamin”'
+    claim: 'Beth-aven is Bethel'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/5.htm'
+    quote: 'Bethaven is Bethel (Beitin), as in Hosea 4:15, the seat of the idolatrous worship of the calves'
+  - where: 'note 5:8 “The alarm sounds in Benjamin”'
+    claim: 'One reading: naming these towns means the enemy has overrun the north and reached Judah’s border'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/5.htm'
+    quote: 'is intended to intimate that the enemy has already conquered the kingdom of the ten tribes, and has advanced to the border of that of Judah.'
+  - where: 'note 5:8 “The alarm sounds in Benjamin”'
+    claim: 'The phrase is from Deborah’s song, where Benjamin marched behind Ephraim; here it means the foe is behind Benjamin'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/5.htm'
+    quote: 'There they mean that Benjamin marched behind Ephraim, or joined it in attacking the foe; here, on the contrary, they mean that the foe is coming behind Benjamin'
+  - where: 'note 5:8 “The alarm sounds in Benjamin”'
+    claim: 'The NRSVUE: look behind you'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NRSVUE'
+    quote: 'look behind you, Benjamin!'
+  - where: 'note 5:8 “The alarm sounds in Benjamin”'
+    claim: 'The NIV: lead on'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NIV'
+    quote: 'lead on, Benjamin.'
+  - where: 'note 5:8 “The alarm sounds in Benjamin”'
+    claim: 'The ESV: we follow you'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=ESV'
+    quote: 'we follow you, O Benjamin!'
+  - where: 'note 5:8 “The alarm sounds in Benjamin”'
+    claim: 'The ESV’s note on 5:8'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=ESV'
+    quote: 'Hosea 5:8 Or after you'
+
+  # ---------- note 5:11 ----------
+  - where: 'note 5:11 “Walking after the commandment, or after filth”'
+    claim: 'Tsav (H6673) occurs once in Hosea, at 5:11 (hebrew.mjs hosea --word 6673)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'צָֽו'
+  - where: 'note 5:11 “Walking after the commandment, or after filth”'
+    claim: 'The same word is the “precept” of Isaiah 28:10 (hebrew.mjs isaiah 28:10)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'צַ֤ו'
+  - where: 'note 5:11 “Walking after the commandment, or after filth”'
+    claim: 'The lexicon: a dubious word, usually “command, ordinance” in Hosea 5:11; elsewhere only Isaiah 28:10, 13'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6673.htm'
+    quote: 'dubious word'
+  - where: 'note 5:11 “Walking after the commandment, or after filth”'
+    claim: 'The lexicon’s gloss and the other occurrences'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6673.htm'
+    quote: 'Hosea 5:11 usually command, ordinance'
+  - where: 'note 5:11 “Walking after the commandment, or after filth”'
+    claim: 'The ESV’s note: human precepts'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=ESV'
+    quote: 'Hosea 5:11 Or to follow human precepts'
+  - where: 'note 5:11 “Walking after the commandment, or after filth”'
+    claim: 'The Septuagint: vanities'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/5.htm'
+    quote: 'for he began to go after vanities.'
+  - where: 'note 5:11 “Walking after the commandment, or after filth”'
+    claim: 'The NRSVUE follows the Greek: vanity'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NRSVUE'
+    quote: 'because he was determined to go after vanity.'
+  - where: 'note 5:11 “Walking after the commandment, or after filth”'
+    claim: 'The NRSVUE’s note on 5:11'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NRSVUE'
+    quote: '5.11 Gk: Meaning of Heb uncertain'
+  - where: 'note 5:11 “Walking after the commandment, or after filth”'
+    claim: 'The NIV: idols'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NIV'
+    quote: 'intent on pursuing idols.'
+  - where: 'note 5:11 “Walking after the commandment, or after filth”'
+    claim: 'The ESV: filth; “willingly” as “was determined”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=ESV'
+    quote: 'because he was determined to go after filth.'
+  - where: 'note 5:11 “Walking after the commandment, or after filth”'
+    claim: 'The Latter-day Saint edition’s alternative'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/5?lang=eng'
+    quote: 'OR after filth.'
+
+  # ---------- note 5:12 ----------
+  - where: 'note 5:12 “The Lord as moth and as rottenness”'
+    claim: 'The moth (ash, H6211) is named as waster, consumer; the lexicon lists Hosea 5:12 and Job 13:28'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6211.htm'
+    quote: 'moth (as waster, consumer)'
+  - where: 'note 5:12 “The Lord as moth and as rottenness”'
+    claim: 'Raqab (H7538) is rottenness, decay, in Hosea 5:12 apparently the ravages of worm'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7538.htm'
+    quote: 'rottenness, decay (always figurative)'
+  - where: 'note 5:12 “The Lord as moth and as rottenness”'
+    claim: 'Of the ravages of worm in this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7538.htm'
+    quote: 'apparently of ravages of worm'
+  - where: 'note 5:12 “The Lord as moth and as rottenness”'
+    claim: 'The NRSVUE: maggots'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NRSVUE'
+    quote: 'Therefore I am like maggots to Ephraim'
+  - where: 'note 5:12 “The Lord as moth and as rottenness”'
+    claim: 'The Septuagint has other figures'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/5.htm'
+    quote: 'Therefore I will be as consternation to Ephraim, and as a goad to the house of Juda.'
+  - where: 'note 5:12 “The Lord as moth and as rottenness”'
+    claim: 'Such images of God are rare and startling'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'It is not often that a prophet speaks of God as a destructive deluge, a rot that cannot be cured, or a lion that tears its prey and ensures it cannot be rescued.'
+  - where: 'note 5:12 “The Lord as moth and as rottenness”'
+    claim: 'The question the image of rot puts'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'in what ways God is like a devastating rot to those who have turned away from him and turned toward other sources for healing or relief'
+
+  # ---------- note 5:13 ----------
+  - where: 'note 5:13 “King Jareb”'
+    claim: 'Jareb (H3377) is an epithet of the Assyrian king, from “contend,” only in Hosea 5:13 and 10:6, identified as Tiglath-pileser III; a proposal reads it as an Assyrian royal title'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3377.htm'
+    quote: 'eipthet of Assyrian king (properly, si vera lectio, verb = let him contend, or (one who) contends)'
+  - where: 'note 5:13 “King Jareb”'
+    claim: 'The lexicon identifies the king as Tiglath-pileser III'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3377.htm'
+    quote: 'i.e. Tiglath-Pileser III'
+  - where: 'note 5:13 “King Jareb”'
+    claim: 'The proposal to read an Assyrian royal title'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3377.htm'
+    quote: '= Assyrian šarru rabbu'
+  - where: 'note 5:13 “King Jareb”'
+    claim: 'Hosea 10:6 has the name again'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/10?lang=eng'
+    quote: 'It shall be also carried unto Assyria for a present to king Jareb'
+  - where: 'note 5:13 “King Jareb”'
+    claim: 'The NRSVUE: the great king'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NRSVUE'
+    quote: 'and sent to the great king.'
+  - where: 'note 5:13 “King Jareb”'
+    claim: 'The NRSVUE’s note on 5:13'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NRSVUE'
+    quote: '5.13 Cn: Heb to a king who will contend'
+  - where: 'note 5:13 “King Jareb”'
+    claim: 'The NIV: the great king'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NIV'
+    quote: 'and sent to the great king for help.'
+  - where: 'note 5:13 “King Jareb”'
+    claim: 'The ESV: the great king, with the note “Or to King Jareb”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=ESV'
+    quote: 'Hosea 5:13 Or to King Jareb'
+  - where: 'note 5:13 “King Jareb”'
+    claim: 'The Septuagint: king Jarim'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/5.htm'
+    quote: 'sent ambassadors to king Jarim'
+  - where: 'note 5:13 “King Jareb”'
+    claim: 'The solution is to turn to the Lord, not to other sources'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'The solution to Israel’s dilemma is to turn to the Lord for deliverance—not other sources, as they are impotent for what is required.'
+
+  # ---------- note 5:14 ----------
+  - where: 'note 5:14 “The lion that tears, and the reversal in chapter 6”'
+    claim: 'The images of 5:10–15 are reversed in 6:1–3'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'the lion becomes a healer instead of a tearer (or terror), sickness is reversed in revival, and torrential rain becomes spring rain with all the promise of nourishing the land instead of destroying it'
+  - where: 'note 5:14 “The lion that tears, and the reversal in chapter 6”'
+    claim: 'Taraph (H2963), “tear,” occurs in Hosea only at 5:14 and 6:1 (hebrew.mjs hosea --word 2963)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אֶטְרֹף֙'
+  - where: 'note 5:14 “The lion that tears, and the reversal in chapter 6”'
+    claim: 'The same verb in 6:1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'טָרָ֖ף'
+  - where: 'note 5:14 “The lion that tears, and the reversal in chapter 6”'
+    claim: 'Verse 15 is what turns the Lord from justice to mercy between 5:14 and 6:1'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'Central to the message of these images is what transforms the Lord from an executor of justice into a minister of mercy between Hosea 5:14 and Hosea 6:1b.'
+  - where: 'note 5:14 “The lion that tears, and the reversal in chapter 6”'
+    claim: 'The lion returns in chapter 13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
+    quote: 'Therefore I will be unto them as a lion'
+
+  # ---------- note 5:15 ----------
+  - where: 'note 5:15 “The Lord returns to His place, until”'
+    claim: 'The NIV renders “place” as a lair'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NIV'
+    quote: 'Then I will return to my lair'
+  - where: 'note 5:15 “The Lord returns to His place, until”'
+    claim: 'Asham (H816): offend, be guilty'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/816.htm'
+    quote: 'verb offend, be guilty'
+  - where: 'note 5:15 “The Lord returns to His place, until”'
+    claim: 'The NRSVUE: acknowledge their guilt'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NRSVUE'
+    quote: 'until they acknowledge their guilt and seek my face.'
+  - where: 'note 5:15 “The Lord returns to His place, until”'
+    claim: 'The ESV: acknowledge their guilt; earnestly seek me'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=ESV'
+    quote: 'until they acknowledge their guilt and seek my face,'
+  - where: 'note 5:15 “The Lord returns to His place, until”'
+    claim: 'The ESV: earnestly seek me'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=ESV'
+    quote: 'earnestly seek me.'
+  - where: 'note 5:15 “The Lord returns to His place, until”'
+    claim: 'The NIV: borne their guilt'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NIV'
+    quote: 'until they have borne their guilt'
+  - where: 'note 5:15 “The Lord returns to His place, until”'
+    claim: 'The NIV: earnestly seek me'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%205&version=NIV'
+    quote: 'they will earnestly seek me.'
+  - where: 'note 5:15 “The Lord returns to His place, until”'
+    claim: '“Seek my face” has the verb of verse 6 (baqash, H1245) (hebrew.mjs hosea --word 1245)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'בִקְשׁ֣וּ'
+  - where: 'note 5:15 “The Lord returns to His place, until”'
+    claim: 'Shachar (H7836): look early, diligently for; originally look for dawn'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7836.htm'
+    quote: 'verb denominative look early, diligently for (late; originally look for dawn)'
+  - where: 'note 5:15 “The Lord returns to His place, until”'
+    claim: 'The Church’s footnote on “seek” in verse 15 points to D&C 101:8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/101?lang=eng'
+    quote: 'in the day of their trouble, of necessity they feel after me.'
+  - where: 'note 5:15 “The Lord returns to His place, until”'
+    claim: 'A reader who stops at the chapter break misses the rest of the message'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'a reader runs the risk of stopping his or her study at the chapter break before receiving the rest (and most important part) of God’s message'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'The LORD of the Old Testament is Jehovah, the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: 'christ'
+    claim: 'Read with 6:1–3, the images give assurance of hope in a God who gathers'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'a familiar message of prophetic warning and future assurance of hope in a God who seeks to gather his people to him'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: 'Hord’s article sets the judgments of 5:10–15 beside the redemption of 6:1–3'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'While the message of judgment is depicted in Hosea 5:10–15, the rest of the message of redemption is pictured in Hosea 6:1–3.'
+  - where: 'explore'
+    claim: 'Hosea 11:10: the Lord roars like a lion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/11?lang=eng'
+    quote: 'he shall roar like a lion'
