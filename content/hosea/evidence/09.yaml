@@ -1,0 +1,608 @@
+chapter: 9
+claims:
+  # ---------- when ----------
+  - where: 'when'
+    claim: 'Hosea lived during the northern kingdom’s decline'
+    key: bd-hosea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng'
+    quote: 'He lived during a time of national decline and ruin, the result of the sin of Israel.'
+  - where: 'when'
+    claim: 'The Bible Dictionary places the start of his ministry late in the reign of Jeroboam Ⅱ (the 700s B.C.)'
+    key: bd-hosea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng'
+    quote: 'He began to prophesy during the latter part of the reign of Jeroboam Ⅱ. He probably died before the accession of Pekah, 736 B.C.'
+
+  # ---------- setting ----------
+  - where: 'setting'
+    claim: 'Chapter 8 ends its charge with a return to Egypt, which 9:3 takes up'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/8?lang=eng'
+    quote: 'now will he remember their iniquity, and visit their sins: they shall return to Egypt.'
+  - where: 'setting'
+    claim: 'The joy forbidden in verse 1 is joy at a good harvest, as verse 2 shows'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/9.htm'
+    quote: 'The rejoicing to which Israel was not to give itself up was, according to Hosea 9:2, rejoicing at a plentiful harvest.'
+  - where: 'setting'
+    claim: 'The law set the feast of tabernacles after the ingathering of grain and wine'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/16?lang=eng'
+    quote: 'Thou shalt observe the feast of tabernacles seven days, after that thou hast gathered in thy corn and thy wine'
+  - where: 'setting'
+    claim: 'The law commanded rejoicing at that feast'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/16?lang=eng'
+    quote: 'And thou shalt rejoice in thy feast, thou, and thy son, and thy daughter'
+  - where: 'setting'
+    claim: 'Ephraim stands for the northern kingdom'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'Thus, as used here, Judah means the Southern Kingdom, and Ephraim the Northern Kingdom.'
+  - where: 'setting'
+    claim: 'Kings records the Assyrian capture of Samaria and the carrying away of Israel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng'
+    quote: 'In the ninth year of Hoshea the king of Assyria took Samaria, and carried Israel away into Assyria'
+  - where: 'setting'
+    claim: 'The Church’s chapter heading summarizes the chapter as captivity and wandering'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/9?lang=eng'
+    quote: 'The people of Israel are taken into captivity for their sins—Ephraim will be a wanderer among the nations.'
+  - where: 'setting'
+    claim: 'Verse 8 is a hard line that has been read in very different ways'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/9.htm'
+    quote: 'The first clause, which is a difficult one and has been interpreted in very different ways'
+  - where: 'setting'
+    claim: 'The NRSVUE marks the Hebrew of verse 13 as uncertain'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=NRSVUE'
+    quote: 'Meaning of Heb uncertain'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'Joseph explained the name Ephraim as fruitfulness'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng'
+    quote: 'And the name of the second called he Ephraim: For God hath caused me to be fruitful in the land of my affliction.'
+
+  # ---------- section plain ----------
+  - where: 'section 1 plain'
+    claim: 'The modern versions render “reward” as a prostitute’s pay and “cornfloor” as threshing floors'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=NRSVUE'
+    quote: 'You have loved a prostitute’s pay'
+  - where: 'section 2 plain'
+    claim: 'Verse 7’s “visitation” is punishment in the modern versions'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=NRSVUE'
+    quote: 'The days of punishment have come;'
+
+  # ---------- note 9:1 ----------
+  - where: 'note 9:1 “A harlot’s pay on the threshing floor”'
+    claim: 'The “reward” is a prostitute’s pay (the Church’s footnote 1b gives the same alternate rendering, and 1c “threshing floor”)'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=NRSVUE'
+    quote: 'You have loved a prostitute’s pay'
+  - where: 'note 9:1 “A harlot’s pay on the threshing floor”'
+    claim: '“As other people” is “as other nations do”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=NRSVUE'
+    quote: 'Do not exult as other nations do,'
+  - where: 'note 9:1 “A harlot’s pay on the threshing floor”'
+    claim: 'The Hebrew word for the reward (ethnan, H868) stands only here in Hosea (hebrew.mjs hosea --word 868)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אֶתְנָ֔ן'
+  - where: 'note 9:1 “A harlot’s pay on the threshing floor”'
+    claim: 'In chapter 2 the wife credits her bread, wool, flax, oil and drink to her lovers'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/2?lang=eng'
+    quote: 'I will go after my lovers, that give me my bread and my water, my wool and my flax, mine oil and my drink.'
+  - where: 'note 9:1 “A harlot’s pay on the threshing floor”'
+    claim: 'In chapter 2 she calls her vines and fig trees her rewards from her lovers'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/2?lang=eng'
+    quote: 'These are my rewards that my lovers have given me'
+  - where: 'note 9:1 “A harlot’s pay on the threshing floor”'
+    claim: 'In chapter 2 the Lord says the grain and wine were His gifts and that He will take them back in their season'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/2?lang=eng'
+    quote: 'Therefore will I return, and take away my corn in the time thereof, and my wine in the season thereof'
+  - where: 'note 9:1 “A harlot’s pay on the threshing floor”'
+    claim: 'She did not know the Lord gave her the grain, wine and oil'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/2?lang=eng'
+    quote: 'For she did not know that I gave her corn, and wine, and oil'
+  - where: 'note 9:1 “A harlot’s pay on the threshing floor”'
+    claim: 'Read with chapter 2, the line means Israel took the harvest on its threshing floors as presents from the Baals'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/9.htm'
+    quote: 'Israel would not regard the harvest-blessing upon its corn-floors as gifts of the goodness of its God, but as presents from the Baals'
+
+  # ---------- note 9:3 ----------
+  - where: 'note 9:3 “Back to Egypt, by way of Assyria”'
+    claim: 'Egypt here stands for captivity in general, and Assyria is the new Egypt'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'The word here refers to captivity or bondage in general; thus, Assyria is the new Egypt.'
+  - where: 'note 9:3 “Back to Egypt, by way of Assyria”'
+    claim: 'Hosea himself says later that Israel will not return to Egypt but be ruled by Assyria'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/11?lang=eng'
+    quote: 'He shall not return into the land of Egypt, but the Assyrian shall be his king, because they refused to return.'
+  - where: 'note 9:3 “Back to Egypt, by way of Assyria”'
+    claim: 'The covenant curses of Deuteronomy 28 include being brought into Egypt again'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/28?lang=eng'
+    quote: 'And the Lord shall bring thee into Egypt again with ships, by the way whereof I spake unto thee, Thou shalt see it no more again'
+  - where: 'note 9:3 “Back to Egypt, by way of Assyria”'
+    claim: 'The Church’s footnote at Hosea 8:13 joins Deuteronomy 28:68 and Hosea 9:3 to the return to Egypt'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/8?lang=eng'
+    quote: 'Deut. 28:68 (58–59, 68); Hosea 9:3 (1–3); 11:5'
+  - where: 'note 9:3 “Back to Egypt, by way of Assyria”'
+    claim: 'Israel’s last king, Hoshea, sent to Egypt for help against Assyria'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng'
+    quote: 'for he had sent messengers to So king of Egypt, and brought no present to the king of Assyria'
+  - where: 'note 9:3 “Back to Egypt, by way of Assyria”'
+    claim: 'The king’s name is the prophet’s name (the Bible Dictionary heads its entry with both spellings)'
+    key: bd-hosea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng'
+    quote: 'Hosea, or Hoshea'
+  - where: 'note 9:3 “Back to Egypt, by way of Assyria”'
+    claim: 'Memphis (Noph) was the ancient capital of Egypt'
+    key: bd-noph
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/noph?lang=eng'
+    quote: 'Memphis; ancient capital of Egypt'
+  - where: 'note 9:3 “Back to Egypt, by way of Assyria”'
+    claim: 'The Septuagint puts the clause in the past: Ephraim dwelt in Egypt'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/9.htm'
+    quote: 'They dwelt not in the Lord''s land: Ephraim dwelt in Egypt, and they shall eat unclean things among the Assyrians.'
+  - where: 'note 9:3 “Back to Egypt, by way of Assyria”'
+    claim: 'Ezekiel says the same of Judah’s exiles: defiled bread among the Gentiles'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/4?lang=eng'
+    quote: 'Even thus shall the children of Israel eat their defiled bread among the Gentiles, whither I will drive them.'
+
+  # ---------- note 9:4 ----------
+  - where: 'note 9:4 “Mourners’ bread, and a feast day with nothing to bring”'
+    claim: 'The Hebrew phrase is bread of trouble, sorrow, or mourning'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/205.htm'
+    quote: 'bread of trouble, sorrow, or mourning Hosea 9:4'
+  - where: 'note 9:4 “Mourners’ bread, and a feast day with nothing to bring”'
+    claim: 'Mourners’ bread is the food of a funeral meal, unclean because a corpse defiled the house'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/9.htm'
+    quote: 'the bread eaten at funeral meals. This was regarded as unclean, because the corpse defiled the house, and all who came in contact with it, for seven days'
+  - where: 'note 9:4 “Mourners’ bread, and a feast day with nothing to bring”'
+    claim: 'The law made everything in a tent where someone died unclean for seven days'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/19?lang=eng'
+    quote: 'all that come into the tent, and all that is in the tent, shall be unclean seven days.'
+  - where: 'note 9:4 “Mourners’ bread, and a feast day with nothing to bring”'
+    claim: 'An Israelite bringing his tithe declared that he had not eaten of it in mourning'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/26?lang=eng'
+    quote: 'I have not eaten thereof in my mourning, neither have I taken away ought thereof for any unclean use, nor given ought thereof for the dead'
+  - where: 'note 9:4 “Mourners’ bread, and a feast day with nothing to bring”'
+    claim: 'The last clause means their bread will only satisfy hunger and will not come to the Lord’s house'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=NRSVUE'
+    quote: 'for their bread shall be for their hunger only;'
+  - where: 'note 9:4 “Mourners’ bread, and a feast day with nothing to bring”'
+    claim: 'Food not sanctified by the offering of firstfruits was unclean to Israel'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/9.htm'
+    quote: 'all food, which was not sanctified to the Lord by the presentation of the first-fruits, was unclean food to Israel'
+  - where: 'note 9:4 “Mourners’ bread, and a feast day with nothing to bring”'
+    claim: 'In exile, without temple and ritual, the feasts cannot be kept'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/9.htm'
+    quote: 'As the temple and ritual will both be wanting in their exile, they will be unable to observe any of the feasts of the Lord.'
+
+  # ---------- note 9:7 ----------
+  - where: 'note 9:7 “Who calls the prophet a fool”'
+    claim: 'The Student Manual reads the line of false prophets who said all was well'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'Hosea was referring to false prophets who were saying that all was well in Israel and that their enemies would not come against them.'
+  - where: 'note 9:7 “Who calls the prophet a fool”'
+    claim: 'The NRSVUE prints the line as what Israel cries out'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=NRSVUE'
+    quote: 'Israel will cry out,'
+  - where: 'note 9:7 “Who calls the prophet a fool”'
+    claim: 'The NIV makes it the people’s opinion of the prophet'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=NIV'
+    quote: 'the prophet is considered a fool,'
+  - where: 'note 9:7 “Who calls the prophet a fool”'
+    claim: 'A prophet sent by Elisha was called a mad fellow by Jehu’s officers'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/9?lang=eng'
+    quote: 'wherefore came this mad fellow to thee?'
+  - where: 'note 9:7 “Who calls the prophet a fool”'
+    claim: 'In Jeremiah’s day a letter spoke of every man that is mad and makes himself a prophet'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/29?lang=eng'
+    quote: 'for every man that is mad, and maketh himself a prophet, that thou shouldest put him in prison, and in the stocks.'
+  - where: 'note 9:7 “Who calls the prophet a fool”'
+    claim: 'The ESV makes the prophet the watchman of Ephraim'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=ESV'
+    quote: 'the watchman of Ephraim with my God;'
+  - where: 'note 9:7 “Who calls the prophet a fool”'
+    claim: 'The NIV has snares awaiting the prophet on his paths'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=NIV'
+    quote: 'await him on all his paths,'
+
+  - where: 'note 9:7 “Who calls the prophet a fool”'
+    claim: 'The Hebrew line has no verb of saying: an adjective (fool), the prophet, a participle (mad), man of the spirit (hebrew.mjs hosea 9:7, words 9–13)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'מְשֻׁגָּע֙'
+  - where: 'note 9:7 “Who calls the prophet a fool”'
+    claim: 'The NIV’s second line'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=NIV'
+    quote: 'the inspired person a maniac.'
+  - where: 'note 9:7 “Who calls the prophet a fool”'
+    claim: 'The lexicon marks “mad” here as said of prophets, contemptuously, and lists Jeremiah 29:26 and 2 Kings 9:11 with it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7696.htm'
+    quote: 'of prophets, contemptuously Hosea 9:7'
+
+  # ---------- note 9:9 ----------
+  - where: 'note 9:9 “The days of Gibeah”'
+    claim: 'A Levite and his concubine lodged at Gibeah of Benjamin'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/19?lang=eng'
+    quote: 'the sun went down upon them when they were by Gibeah, which belongeth to Benjamin.'
+  - where: 'note 9:9 “The days of Gibeah”'
+    claim: 'Men of the town abused the woman through the night'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/19?lang=eng'
+    quote: 'they knew her, and abused her all the night until the morning'
+  - where: 'note 9:9 “The days of Gibeah”'
+    claim: 'She was found fallen at the door, and the Levite sent her body in pieces through Israel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/19?lang=eng'
+    quote: 'the woman his concubine was fallen down at the door of the house, and her hands were upon the threshold.'
+  - where: 'note 9:9 “The days of Gibeah”'
+    claim: 'Israel judged it the worst deed since the Exodus'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/19?lang=eng'
+    quote: 'There was no such deed done nor seen from the day that the children of Israel came up out of the land of Egypt unto this day'
+  - where: 'note 9:9 “The days of Gibeah”'
+    claim: 'Benjamin refused to hand over the guilty men'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/20?lang=eng'
+    quote: 'But the children of Benjamin would not hearken to the voice of their brethren the children of Israel'
+  - where: 'note 9:9 “The days of Gibeah”'
+    claim: 'Twenty-five thousand Benjamites fell in the war that followed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/20?lang=eng'
+    quote: 'So that all which fell that day of Benjamin were twenty and five thousand men that drew the sword'
+  - where: 'note 9:9 “The days of Gibeah”'
+    claim: 'Six hundred men of the tribe survived'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/20?lang=eng'
+    quote: 'But six hundred men turned and fled to the wilderness unto the rock Rimmon'
+  - where: 'note 9:9 “The days of Gibeah”'
+    claim: 'Hosea returns to Gibeah in chapter 10'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/10?lang=eng'
+    quote: 'O Israel, thou hast sinned from the days of Gibeah'
+  - where: 'note 9:9 “The days of Gibeah”'
+    claim: 'The sentence of verse 9 repeats 8:13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/8?lang=eng'
+    quote: 'now will he remember their iniquity, and visit their sins'
+
+  # ---------- note 9:10 grapes ----------
+  - where: 'note 9:10 “Grapes in the wilderness, first figs on the tree”'
+    claim: 'The image is of the Lord’s joy at finding Israel, a joy that did not last'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'like finding grapes in the wilderness, he had found Israel to be his people, but the joy did not last as Israel turned to abominations'
+  - where: 'note 9:10 “Grapes in the wilderness, first figs on the tree”'
+    claim: 'The Lord wants to find joy in His people as a wanderer who finds grapes in the wilderness'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'God wants to find joy in his people as a wanderer who finds grapes in the wilderness and gathers them in'
+  - where: 'note 9:10 “Grapes in the wilderness, first figs on the tree”'
+    claim: 'The “firstripe … at her first time” is the first fruit of the fig tree in its first season'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=NRSVUE'
+    quote: 'Like the first fruit on the fig tree,'
+  - where: 'note 9:10 “Grapes in the wilderness, first figs on the tree”'
+    claim: 'Jeremiah calls very good figs like the figs that are first ripe (the Church’s footnote 10a at Hosea 9:10 gives Jer. 24:2)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/24?lang=eng'
+    quote: 'One basket had very good figs, even like the figs that are first ripe'
+
+  # ---------- note 9:10 Baal-peor ----------
+  - where: 'note 9:10 “Baal-peor: consecrated to shame”'
+    claim: 'At Shittim Israel committed whoredom with the daughters of Moab'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/25?lang=eng'
+    quote: 'And Israel abode in Shittim, and the people began to commit whoredom with the daughters of Moab.'
+  - where: 'note 9:10 “Baal-peor: consecrated to shame”'
+    claim: 'Israel joined itself to Baal-peor in the same episode'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/25?lang=eng'
+    quote: 'And Israel joined himself unto Baal-peor: and the anger of the Lord was kindled against Israel.'
+  - where: 'note 9:10 “Baal-peor: consecrated to shame”'
+    claim: 'It happened in Moses’s day'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/25?lang=eng'
+    quote: 'And Moses said unto the judges of Israel, Slay ye every one his men that were joined unto Baal-peor.'
+  - where: 'note 9:10 “Baal-peor: consecrated to shame”'
+    claim: 'The verb “separated themselves” (nazar) means to devote or dedicate oneself, here to Baal'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5144.htm'
+    quote: 'devote, dedicate oneself unto'
+  - where: 'note 9:10 “Baal-peor: consecrated to shame”'
+    claim: 'The same root gives the Nazirite his name'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5144.htm'
+    quote: 'be a Nazirite, live as Nazirite'
+  - where: 'note 9:10 “Baal-peor: consecrated to shame”'
+    claim: 'The ESV renders “consecrated themselves to the thing of shame”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=ESV'
+    quote: 'consecrated themselves to the thing of shame,'
+  - where: 'note 9:10 “Baal-peor: consecrated to shame”'
+    claim: 'BDB lists Hosea 9:10 among the places where “shame” (bosheth) is a shameful thing substituted for the name Baal, by later editors'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1322.htm'
+    quote: 'shameful thing, substituted for'
+  - where: 'note 9:10 “Baal-peor: consecrated to shame”'
+    claim: 'The last clause: they became detestable like the thing they loved (NRSVUE)'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=NRSVUE'
+    quote: 'and became detestable like the thing they loved.'
+  - where: 'note 9:10 “Baal-peor: consecrated to shame”'
+    claim: 'The last clause in the NIV'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=NIV'
+    quote: 'and became as vile as the thing they loved.'
+
+  # ---------- note 9:13 ----------
+  - where: 'note 9:13 “Like Tyre, like a palm, or like prey”'
+    claim: 'Tyre was renowned for its splendor; on this reading God had chosen Ephraim for like blessings'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'Tyre was renowned for its glory and splendor. God had chosen Ephraim for similar blessings, but because of their wickedness they would be barren.'
+  - where: 'note 9:13 “Like Tyre, like a palm, or like prey”'
+    claim: 'The NIV keeps Tyre'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=NIV'
+    quote: 'like Tyre,'
+  - where: 'note 9:13 “Like Tyre, like a palm, or like prey”'
+    claim: 'The NRSVUE reads a young palm and marks the Hebrew uncertain'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=NRSVUE'
+    quote: 'Once I saw Ephraim as a young palm planted in a lovely meadow,'
+  - where: 'note 9:13 “Like Tyre, like a palm, or like prey”'
+    claim: 'The NRSVUE’s note on 9:13'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=NRSVUE'
+    quote: 'Meaning of Heb uncertain'
+  - where: 'note 9:13 “Like Tyre, like a palm, or like prey”'
+    claim: 'The ESV reads a young palm, with Tyre in its note'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=ESV'
+    quote: 'was like a young palm planted in a meadow;'
+  - where: 'note 9:13 “Like Tyre, like a palm, or like prey”'
+    claim: 'The ESV’s note on 9:13'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=ESV'
+    quote: 'Or like Tyre'
+  - where: 'note 9:13 “Like Tyre, like a palm, or like prey”'
+    claim: 'The Septuagint has no Tyre: Ephraim gave its children for a prey'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/9.htm'
+    quote: 'Ephraim, even as I saw, gave their children for a prey; yea, Ephraim was ready to bring out his children to slaughter.'
+  - where: 'note 9:13 “Like Tyre, like a palm, or like prey”'
+    claim: 'The lexicon judges the Hebrew word here probably corrupt'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6865.htm'
+    quote: 'Hosea 9:13 is probably corrupt'
+
+  # ---------- note 9:14 ----------
+  - where: 'note 9:14 “The prophet’s prayer”'
+    claim: 'A second reading: the prophet begins to intercede and is stopped'
+    key: clarke-commentary
+    url: 'https://biblehub.com/commentaries/clarke/hosea/9.htm'
+    quote: 'begins to make intercession for them'
+  - where: 'note 9:14 “The prophet’s prayer”'
+    claim: 'On that reading he learns the petition will not be answered'
+    key: clarke-commentary
+    url: 'https://biblehub.com/commentaries/clarke/hosea/9.htm'
+    quote: 'the prophetic light discovered to him that the petition would not be answered'
+  - where: 'note 9:14 “The prophet’s prayer”'
+    claim: 'A third reading denies that it is intercession and takes it as indignation'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/9.htm'
+    quote: 'are expressive of holy indignation at the deep corruption of the people'
+  - where: 'note 9:14 “The prophet’s prayer”'
+    claim: 'One reading reported and rejected by Keil: a prayer that God condemn them to barrenness rather than to the loss of the young men'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/9.htm'
+    quote: 'condemn them to barrenness rather than to the loss of the young men'
+  - where: 'note 9:14 “The prophet’s prayer”'
+    claim: 'The judgments of 9:14–17 are symbolic judgments'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'Hosea 9:14–17 describes symbolic judgments of miscarrying wombs, dried-up breasts, and slain children.'
+  - where: 'note 9:14 “The prophet’s prayer”'
+    claim: 'Hosea’s language draws on the realities of war to show the consequences of not turning to God'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'Hosea’s language evokes the realities and horrors of wartime atrocities against women and children to emphasize the consequences of Israel’s failure to turn to God'
+  - where: 'note 9:14 “The prophet’s prayer”'
+    claim: 'Kings records such an act by Menahem, a king of Israel, against a town that would not open to him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'Then Menahem smote Tiphsah, and all that were therein, and the coasts thereof from Tirzah: because they opened not to him, therefore he smote it'
+
+  # ---------- note 9:15 ----------
+  - where: 'note 9:15 “Hated at Gilgal, driven from the house”'
+    claim: 'In the ancient world love and hate were terms of covenant relationship more than of emotion'
+    key: sc-knowhy-186
+    url: 'https://scripturecentral.org/knowhy/why-did-samuel-say-the-lord-hated-the-lamanites'
+    quote: 'had less to do with emotion and more to do with a vassal’s covenantal relationship with a lord'
+  - where: 'note 9:15 “Hated at Gilgal, driven from the house”'
+    claim: 'Covenant breakers were described as hated'
+    key: sc-knowhy-186
+    url: 'https://scripturecentral.org/knowhy/why-did-samuel-say-the-lord-hated-the-lamanites'
+    quote: 'Those who violated the covenant and were unfaithful to their Lord were described as “hated,” and those who were within the covenant and faithful were “loved.”'
+  - where: 'note 9:15 “Hated at Gilgal, driven from the house”'
+    claim: 'The KnoWhy applies this to Hosea 9:15: the Ephraimites were removed from God’s covenantal house'
+    key: sc-knowhy-186
+    url: 'https://scripturecentral.org/knowhy/why-did-samuel-say-the-lord-hated-the-lamanites'
+    quote: 'the Ephraimites were removed from God’s covenantal house or family.'
+  - where: 'note 9:15 “Hated at Gilgal, driven from the house”'
+    claim: 'Samuel the Lamanite uses “hated” the same way'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/15?lang=eng'
+    quote: 'the Lamanites hath he hated because their deeds have been evil continually'
+  - where: 'note 9:15 “Hated at Gilgal, driven from the house”'
+    claim: 'Gilgal was sacred in Saul’s day and later a place of idolatrous worship'
+    key: bd-gilgal
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/gilgal?lang=eng'
+    quote: 'It was a sacred city in the time of Saul (1 Sam. 10:8; 11:14–15; 13:4, 15; 15:12–33); but later it was the scene of idolatrous worship (Hosea 4:15; 9:15; 12:11; Amos 4:4; 5:5).'
+  - where: 'note 9:15 “Hated at Gilgal, driven from the house”'
+    claim: 'Hosea names sacrifices at Gilgal in his own day'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/12?lang=eng'
+    quote: 'they sacrifice bullocks in Gilgal'
+
+  # ---------- note 9:16 ----------
+  - where: 'note 9:16 “Ephraim, the fruitful one, bears no fruit”'
+    claim: 'Genesis connects the name Ephraim with the verb “be fruitful”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/669.htm'
+    quote: 'proper name, masculine Ephraim (Genesis 41:52 connected with'
+  - where: 'note 9:16 “Ephraim, the fruitful one, bears no fruit”'
+    claim: 'Joseph’s explanation of the name'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng'
+    quote: 'And the name of the second called he Ephraim: For God hath caused me to be fruitful in the land of my affliction.'
+  - where: 'note 9:16 “Ephraim, the fruitful one, bears no fruit”'
+    claim: 'Hosea 9:16 plays on Ephraim and “fruit”'
+    key: bowen-fruit-of-loins
+    url: 'https://interpreterfoundation.org/journal/thou-art-the-fruit-of-my-loins-the-interrelated-symbolism-and-meanings-of-the-names-joseph-and-ephraim-in-ancient-scripture'
+    quote: 'Hosea again uses wordplay on Ephraim in terms of “fruit” as subsequently describes Ephraim’s “unfruitful” condition as divine justice overtakes them'
+  - where: 'note 9:16 “Ephraim, the fruitful one, bears no fruit”'
+    claim: 'The unfruitfulness is loss of posterity'
+    key: bowen-fruit-of-loins
+    url: 'https://interpreterfoundation.org/journal/thou-art-the-fruit-of-my-loins-the-interrelated-symbolism-and-meanings-of-the-names-joseph-and-ephraim-in-ancient-scripture'
+    quote: 'here means deprivation of posterity including the violent loss of the'
+  - where: 'note 9:16 “Ephraim, the fruitful one, bears no fruit”'
+    claim: 'In 14:8 the Lord is the source of Ephraim’s fruitfulness'
+    key: bowen-fruit-of-loins
+    url: 'https://interpreterfoundation.org/journal/thou-art-the-fruit-of-my-loins-the-interrelated-symbolism-and-meanings-of-the-names-joseph-and-ephraim-in-ancient-scripture'
+    quote: 'The day will come when the Lord himself will confront Israel-Ephraim with the truth: he himself is source of Israel’s and Ephraim’s'
+  - where: 'note 9:16 “Ephraim, the fruitful one, bears no fruit”'
+    claim: 'The word “fruit” (peri, H6529) stands in Hosea at 9:16, 10:1, 10:13 and 14:8 (hebrew.mjs hosea --word 6529)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'פְּרִ֣י'
+  - where: 'note 9:16 “Ephraim, the fruitful one, bears no fruit”'
+    claim: 'Hosea 14:8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/14?lang=eng'
+    quote: 'I am like a green fir tree. From me is thy fruit found.'
+  - where: 'note 9:16 “Ephraim, the fruitful one, bears no fruit”'
+    claim: 'Verse 11 in the NRSVUE: no birth, no pregnancy, no conception'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%209&version=NRSVUE'
+    quote: 'no birth, no pregnancy, no conception!'
+
+  # ---------- note 9:17 ----------
+  - where: 'note 9:17 “Wanderers among the nations”'
+    claim: 'and no rest among the nations'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/28?lang=eng'
+    quote: 'And among these nations shalt thou find no ease, neither shall the sole of thy foot have rest'
+  - where: 'note 9:17 “Wanderers among the nations”'
+    claim: 'The banishment among the nations is according to Deuteronomy 28:65'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/9.htm'
+    quote: 'this rejection is described as banishment among the nations, according to Deuteronomy 28:65'
+  - where: 'note 9:17 “Wanderers among the nations”'
+    claim: 'The verb (nadad) means to wander or stray homeless, and is used here of scattered Israel'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5074.htm'
+    quote: 'of scattered Israel Hosea 9:17'
+  - where: 'note 9:17 “Wanderers among the nations”'
+    claim: 'The same verb is used in 7:13 of Israel fleeing from the Lord'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5074.htm'
+    quote: 'flee, depart, Israel from'
+  - where: 'note 9:17 “Wanderers among the nations”'
+    claim: 'The verb stands in Hosea only at 7:13 and 9:17 (hebrew.mjs hosea --word 5074)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'נֹדְדִ֖ים'
+  - where: 'note 9:17 “Wanderers among the nations”'
+    claim: 'Hosea 7:13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'Woe unto them! for they have fled from me'
+  - where: 'note 9:17 “Wanderers among the nations”'
+    claim: 'Israel remains scattered until she repents and returns to Jehovah'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'She will remain scattered until she repents and comes back to Jehovah.'
+  - where: 'note 9:17 “Wanderers among the nations”'
+    claim: 'The tribe of Joseph is being gathered again in the Church'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'To some extent, the tribe of Joseph is being gathered again to Jehovah’s covenant in The Church of Jesus Christ of Latter-day Saints.'
+  - where: 'note 9:17 “Wanderers among the nations”'
+    claim: 'Hosea 11:11 promises a return from Egypt and Assyria to their houses'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/11?lang=eng'
+    quote: 'They shall tremble as a bird out of Egypt, and as a dove out of the land of Assyria: and I will place them in their houses, saith the Lord.'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'Jehovah, the LORD of the Old Testament, is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: 'christ'
+    claim: 'In Hosea the images of judgment stand among depictions of God’s love'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'interspersed between each of these grotesque images of consequences and judgment are depictions of God’s love and faithfulness to his people'
+  - where: 'christ'
+    claim: 'Hosea 14:4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/14?lang=eng'
+    quote: 'I will heal their backsliding, I will love them freely'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: 'Bowen and Spendlove treat Hosea’s wordplay on Ephraim in a section of their article'
+    key: bowen-fruit-of-loins
+    url: 'https://interpreterfoundation.org/journal/thou-art-the-fruit-of-my-loins-the-interrelated-symbolism-and-meanings-of-the-names-joseph-and-ephraim-in-ancient-scripture'
+    quote: 'Interpreter: A Journal of Mormon Scripture 28 (2018) : 273-298'
+  - where: 'explore'
+    claim: 'Numbers 25 tells of Baal-peor'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/25?lang=eng'
+    quote: 'And Israel joined himself unto Baal-peor'
+  - where: 'explore'
+    claim: 'Judges 19–20 tells of Gibeah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/20?lang=eng'
+    quote: 'All Israel arises against the Benjamites, who refuse to deliver up the men of Gibeah'
