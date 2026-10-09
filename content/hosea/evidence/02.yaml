@@ -1,0 +1,735 @@
+chapter: 2
+claims:
+  # ---- when, setting, thread ----
+  - where: 'when'
+    claim: 'Hosea’s ministry is placed in the third quarter of the eighth century B.C.'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'The ministry of the prophet Hosea is generally placed in the turbulent third quarter of the eighth century B.C.'
+  - where: 'when'
+    claim: 'Hosea lived in the northern kingdom’s time of decline'
+    key: bd-hosea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng'
+    quote: 'He lived during a time of national decline and ruin, the result of the sin of Israel.'
+  - where: 'setting'
+    claim: 'The meanings of the second and third children’s names'
+    key: scripture-helps-hosea
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/45-hosea-1-6-10-14-joel?lang=eng'
+    quote: 'The second child was named Lo-Ruhamah, meaning “not pitied” or “not having obtained mercy,”'
+  - where: 'setting'
+    claim: 'Lo-ammi means “not my people”'
+    key: scripture-helps-hosea
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/45-hosea-1-6-10-14-joel?lang=eng'
+    quote: 'The third was named Lo-Ammi, meaning “not my people,”'
+  - where: 'setting'
+    claim: 'The three children and their names are given in Hosea 1:4–9'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/1?lang=eng'
+    quote: 'Call his name Lo-ammi: for ye are not my people, and I will not be your God.'
+  - where: 'setting'
+    claim: 'The mother is the nation and the children are its people'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'Thus the “mother” is the nation; her children are the people of Israel.'
+  - where: 'setting'
+    claim: 'In the Hebrew text chapter 1 ends with verse 9'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'In the Hebrew text, chapter 1 ends with verse 9.'
+  - where: 'setting'
+    claim: 'King James 2:1 is 2:3 in the Hebrew numbering, two verses ahead'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%202&version=ESV'
+    quote: 'Hosea 2:1 Ch 2:3 in Hebrew'
+  - where: 'setting'
+    claim: 'Hosea’s ministry began under Jeroboam II, in a time of prosperity'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'His ministry began during the reign of Jeroboam II, when both kingdoms were prosperous and wealthy.'
+  - where: 'setting'
+    claim: 'The Church’s chapter heading places the reconciliation in the last days'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/2?lang=eng'
+    quote: 'In the last days, Israel will be reconciled to God and become His people.'
+  - where: 'thread'
+    claim: 'The same Hebrew word, lakhen (H3651, “therefore”), opens 2:6, 2:9 and 2:14 (scripts/hebrew.mjs hosea --word 3651)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'לָ/כֵ֗ן'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: '“Out of her sight” is literally “from her face”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%202&version=ESV'
+    quote: 'from her face'
+  - where: 'section 1 plain'
+    claim: 'Ammi and Ruhamah mean “my people” and “she has received mercy”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%202&version=ESV'
+    quote: 'Hosea 2:1 Hebrew ruhama, which means she has received mercy'
+  - where: 'section 2 plain'
+    claim: '“Corn” is grain; “prepared for Baal” is rendered “used for Baal”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%202&version=ESV'
+    quote: 'which they used for Baal'
+  - where: 'section 2 plain'
+    claim: '“Discover her lewdness” is “uncover”; “rewards” is “wages”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%202&version=ESV'
+    quote: 'I will uncover her lewdness'
+  - where: 'section 3 plain'
+    claim: '“Speak comfortably” is rendered “speak tenderly”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%202&version=ESV'
+    quote: 'speak tenderly to her'
+  - where: 'section 3 plain'
+    claim: 'Ishi is “my husband” and Baali “my master”'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'Ishi (Hebrew for “my husband”) and Baali (Hebrew for “my master”)'
+  - where: 'section 4 plain'
+    claim: '“Hear” in verses 21–22 is rendered “answer”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%202&version=ESV'
+    quote: 'and the earth shall answer the grain, the wine, and the oil'
+
+  # ---- note 2:2 ----
+  - where: 'note 2:2 “A charge to bring, not an appeal”'
+    claim: '“Plead” is the Qal imperative masculine plural of rib (H7378), twice in the verse'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'רִ֤יבוּ'
+  - where: 'note 2:2 “A charge to bring, not an appeal”'
+    claim: 'rib is to strive with words; BDB lists this verse (Hebrew 2:4) under that sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7378.htm'
+    quote: 'so (in figurative) Hosea 2:4'
+  - where: 'note 2:2 “A charge to bring, not an appeal”'
+    claim: 'The noun in “the LORD hath a controversy” (4:1) is rib (H7379), of the same root'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'רִ֤יב'
+  - where: 'note 2:2 “A charge to bring, not an appeal”'
+    claim: '“Controversy” in 4:1 is from the root of “plead” in 2:2, and “plead” is an inadequate translation'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: '“Controversy” here is from the same root as the word inadequately translated “plead” in Hosea 2:2.'
+  - where: 'note 2:2 “A charge to bring, not an appeal”'
+    claim: 'The verb describes accusation, not appeal (a study the article quotes)'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'The verb rib never describes an appeal or call to repentance, but always a hostile confrontation, an accusation.'
+  - where: 'note 2:2 “A charge to bring, not an appeal”'
+    claim: 'The plural command “say ye” (verse 1) addresses all Israel; mother is the nation, children the people'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'The plural command “say ye” speaks to all Israel and all readers in a powerful manner. Thus the “mother” is the nation; her children are the people of Israel.'
+  - where: 'note 2:2 “A charge to bring, not an appeal”'
+    claim: 'One reading: the verse announces a divorce'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'This is essentially an announcement of divorce; Jehovah has divorced Israel.'
+  - where: 'note 2:2 “A charge to bring, not an appeal”'
+    claim: 'Another: a temporary divorce'
+    key: muhlestein-everlasting-covenant
+    url: 'https://rsc.byu.edu/vol-21-no-2-2020/recognizing-everlasting-covenant-scriptures'
+    quote: 'It was followed by Hosea’s temporary divorce of his wife'
+  - where: 'note 2:2 “A charge to bring, not an appeal”'
+    claim: 'A third: not a divorce but an effort to reclaim'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'the Lord is not trying to divorce Israel, he is trying to reclaim her.'
+  - where: 'note 2:2 “A charge to bring, not an appeal”'
+    claim: 'The article prints a study’s finding that the words are not a known divorce formula'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'are not attested anywhere else in the Hebrew Bible as a formula of divorce'
+  - where: 'note 2:2 “A charge to bring, not an appeal”'
+    claim: 'The repudiation of the people in 1:9 is like the repudiation of a wife'
+    key: muhlestein-everlasting-covenant
+    url: 'https://rsc.byu.edu/vol-21-no-2-2020/recognizing-everlasting-covenant-scriptures'
+    quote: 'His temporary repudiation of Israel as no longer being his people is like a repudiation of a faithless wife.'
+  - where: 'note 2:2 “A charge to bring, not an appeal”'
+    claim: 'Hosea 4:1 has “controversy”; 1:9 has the parallel sentence'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/1?lang=eng'
+    quote: 'for ye are not my people, and I will not be your God.'
+  - where: 'note 2:2 “A charge to bring, not an appeal”'
+    claim: 'The Lord taught through Hosea that He would not divorce Israel if they would turn back'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'He would still not divorce them (cast them off) if they would but turn back'
+
+  # ---- note 2:3 ----
+  - where: 'note 2:3 “The stripping of the wife”'
+    claim: 'The wife of 2:3–13 is the land of Israel losing its fertility'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'Hosea 2:3–13 contains an image in which the prosperous and productive land of Israel sins and is punished, drying up and losing its fertility.'
+  - where: 'note 2:3 “The stripping of the wife”'
+    claim: 'Verse 11 is the loss of worship'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'We read of the loss of opportunity to participate in sacred acts of worship (v. 11)'
+  - where: 'note 2:3 “The stripping of the wife”'
+    claim: '“The day that she was born” read of Israel’s birth at the Exodus'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'The symbolism in 2:3 takes us back to the birth of Israel during the Exodus'
+  - where: 'note 2:3 “The stripping of the wife”'
+    claim: 'At the Exodus Israel had nothing'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'It was a time when Israel had nothing and needed to rely on the Lord or perish.'
+  - where: 'note 2:3 “The stripping of the wife”'
+    claim: 'Assyria’s destruction of the kingdom began the fulfilment'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'In 722 BC the Assyrians would destroy the kingdom of Israel and begin to fulfill this prophecy.'
+  - where: 'note 2:3 “The stripping of the wife”'
+    claim: 'The wilderness of verse 3 read as the captivity'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'Verse 3 | wilderness | The captivity'
+  - where: 'note 2:3 “The stripping of the wife”'
+    claim: 'The treatment of the wife is distressing to readers'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'the treatment of the cheating wife in the parable is distressing'
+  - where: 'note 2:3 “The stripping of the wife”'
+    claim: 'The imagery is symbolic'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'Religious educators may assist students in evaluating these images by reminding students that the imagery is symbolic.'
+  - where: 'note 2:3 “The stripping of the wife”'
+    claim: 'The shame answers the offence (a study the article quotes in its note 20)'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'Just as Israel had exposed her nakedness to others, God would strip her naked, making her an object of shame.'
+  - where: 'note 2:3 “The stripping of the wife”'
+    claim: 'The threats and the Lord’s grief are to be read together'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'They must be set side by side and evaluated together.'
+  - where: 'note 2:3 “The stripping of the wife”'
+    claim: 'Ezekiel 16:4 tells Jerusalem’s birth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/2?lang=eng'
+    quote: 'my wool and my flax given to cover her nakedness'
+
+  # ---- note 2:5 ----
+  - where: 'note 2:5 “Who the lovers are”'
+    claim: 'What Baal was'
+    key: bd-baal
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/baal?lang=eng'
+    quote: 'The Sun-god and the male or generative principle in nature.'
+  - where: 'note 2:5 “Who the lovers are”'
+    claim: 'Baal was worshipped in many local forms, hence the plural Baalim'
+    key: bd-baal
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/baal?lang=eng'
+    quote: 'He was worshipped with different ideas and rites (compare the plural Baalim) in different places'
+  - where: 'note 2:5 “Who the lovers are”'
+    claim: 'Canaanite worship was meant to secure the land’s productivity'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'In Canaanite religion, the productivity of land and cattle is assured through worship of the deified forces of nature.'
+  - where: 'note 2:5 “Who the lovers are”'
+    claim: 'The Canaanites’ fertile flocks and fields drew Israel’s farmers'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'the fertility of their flocks and fields (apparently elicited from the gods and goddesses of fertility) attracted the Israelite farmers'
+  - where: 'note 2:5 “Who the lovers are”'
+    claim: '“Rewards” in verse 12 is rendered “wages”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%202&version=ESV'
+    quote: 'my wages'
+  - where: 'note 2:5 “Who the lovers are”'
+    claim: 'Israel is pictured as a woman who is paid'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'Hosea characterized Israel not only as an adulteress but as a prostitute, since she accepted bread, water, wool, flax, oil, drink'
+  - where: 'note 2:5 “Who the lovers are”'
+    claim: 'The good things came only from the Lord'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'blessings that come only from the true husband, Jehovah'
+  - where: 'note 2:5 “Who the lovers are”'
+    claim: 'The lovers read as priests, priestesses and idols'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'The priests, priestesses, and idols of the Canaanite temples'
+  - where: 'note 2:5 “Who the lovers are”'
+    claim: 'The lovers read as political alliances too'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'refers not only to idolatry but also to political alliances not sanctioned by the Lord'
+  - where: 'note 2:5 “Who the lovers are”'
+    claim: 'Hosea 8:9 uses “lovers” of Assyria; 2:13 and 2:17 name the Baalim'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/8?lang=eng'
+    quote: 'For they are gone up to Assyria, a wild ass alone by himself: Ephraim hath hired lovers.'
+
+  # ---- note 2:8 ----
+  - where: 'note 2:8 “Gifts the covenant had promised”'
+    claim: 'Deuteronomy 7:13 names corn, wine and oil as the Lord’s blessing'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/7?lang=eng'
+    quote: 'he will also bless the fruit of thy womb, and the fruit of thy land, thy corn, and thy wine, and thine oil'
+  - where: 'note 2:8 “Gifts the covenant had promised”'
+    claim: 'Deuteronomy 11:14 and 11:17: rain for corn, wine and oil; heaven shut if they serve other gods'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/11?lang=eng'
+    quote: 'he shut up the heaven, that there be no rain, and that the land yield not her fruit'
+  - where: 'note 2:8 “Gifts the covenant had promised”'
+    claim: 'Hosea 2:8 has dagan, tirosh, yitshar (H1715, H8492, H3323) in that order'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'וְ/הַ/תִּיר֣וֹשׁ'
+  - where: 'note 2:8 “Gifts the covenant had promised”'
+    claim: 'Deuteronomy 7:13 and 11:14 have the same three words (H1715, H8492, H3323) in the same order'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'וְ/תִֽירֹשְׁ/ךָ֖'
+  - where: 'note 2:8 “Gifts the covenant had promised”'
+    claim: '“Prepared for Baal” rendered “used for Baal”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%202&version=ESV'
+    quote: 'which they used for Baal'
+  - where: 'note 2:8 “Gifts the covenant had promised”'
+    claim: 'Hosea 8:4: silver and gold made into idols'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/8?lang=eng'
+    quote: 'of their silver and their gold have they made them idols'
+  - where: 'note 2:8 “Gifts the covenant had promised”'
+    claim: 'The verse heard as a lament (a study the article quotes)'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'Hear the heartache of Israel’s God!'
+  - where: 'note 2:8 “Gifts the covenant had promised”'
+    claim: '“Know” (yada, H3045) is the verb of 2:8 and of 2:20'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יָֽדְעָ֔ה'
+
+  # ---- note 2:14 ----
+  - where: 'note 2:14 “Courtship in the wilderness”'
+    claim: 'Students told the story expected a divorce'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'They expected the husband to divorce his wife and be done.'
+  - where: 'note 2:14 “Courtship in the wilderness”'
+    claim: '“Allure” is a Piel participle of pathah (H6601)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'מְפַתֶּ֔י/הָ'
+  - where: 'note 2:14 “Courtship in the wilderness”'
+    claim: 'BDB glosses the Piel here (Hebrew 2:16) as “persuade,” of a woman'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6601.htm'
+    quote: 'persuade, woman Hosea 2:16'
+  - where: 'note 2:14 “Courtship in the wilderness”'
+    claim: '“Comfortably unto her” is “upon her heart”: al (H5921) and leb (H3820) with a feminine suffix'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'לִבָּֽ/הּ'
+  - where: 'note 2:14 “Courtship in the wilderness”'
+    claim: 'leb is “heart”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3820.htm'
+    quote: 'my heart and my flesh cry out'
+  - where: 'note 2:14 “Courtship in the wilderness”'
+    claim: 'A modern translation: “speak tenderly to her”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%202&version=ESV'
+    quote: 'speak tenderly to her'
+  - where: 'note 2:14 “Courtship in the wilderness”'
+    claim: 'Judges 19:3 has the same words: dabber (H1696) al (H5921) libbah (H3820)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Judg.xml'
+    quote: 'לִבָּ/הּ֙'
+  - where: 'note 2:14 “Courtship in the wilderness”'
+    claim: 'Judges 19:3: a husband goes after his wife to speak friendly to her'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/19?lang=eng'
+    quote: 'And her husband arose, and went after her, to speak friendly unto her, and to bring her again'
+  - where: 'note 2:14 “Courtship in the wilderness”'
+    claim: 'Isaiah 40:2 has the same idiom: dabberu (H1696) al (H5921) leb (H3820)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'לֵ֤ב'
+  - where: 'note 2:14 “Courtship in the wilderness”'
+    claim: 'The wilderness is where the covenant marriage was made'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'The wilderness refers to the Sinai desert, where God established the covenant with the Israelites. The marriage was performed there and the honeymoon took place there.'
+  - where: 'note 2:14 “Courtship in the wilderness”'
+    claim: 'The passage draws on the Exodus'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'Just as in the days of the Exodus, Israel will be led to safety and back into the covenant with the Lord'
+  - where: 'note 2:14 “Courtship in the wilderness”'
+    claim: 'The wilderness as the place where the Lord reminds Israel of His love'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'So he will remove them to a “wilderness” where he will remind them of what kind of love is possible when they turn to him instead of other sources for fulfillment.'
+  - where: 'note 2:14 “Courtship in the wilderness”'
+    claim: 'The Bible Dictionary cites 2:14 for chastisement in love'
+    key: bd-hosea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng'
+    quote: 'all His chastisements are inflicted in love (2:14; 3)'
+
+  # ---- note 2:15 ----
+  - where: 'note 2:15 “The valley of trouble”'
+    claim: 'Achor means trouble and occurs only as this valley’s name'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5911.htm'
+    quote: 'disturbance, trouble, only in'
+  - where: 'note 2:15 “The valley of trouble”'
+    claim: 'Achan and all he had were brought to the valley of Achor'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/7?lang=eng'
+    quote: 'and they brought them unto the valley of Achor.'
+  - where: 'note 2:15 “The valley of trouble”'
+    claim: 'The valley’s naming, and the Lord’s anger turned'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/7?lang=eng'
+    quote: 'Wherefore the name of that place was called, The valley of Achor, unto this day.'
+  - where: 'note 2:15 “The valley of trouble”'
+    claim: 'Hosea names the valley in allusion to Joshua 7'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/2.htm'
+    quote: 'with an evident allusion to the occurrence described in Joshua 7'
+  - where: 'note 2:15 “The valley of trouble”'
+    claim: 'The army sent against Ai was defeated because of Achan’s sin'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/2.htm'
+    quote: 'the army that marched against Ai was defeated'
+  - where: 'note 2:15 “The valley of trouble”'
+    claim: 'One reading: the valley was a memorial of favour restored after guilt was dealt with'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/2.htm'
+    quote: 'how the Lord restores His favour to the church after the expiation of the guilt by the punishment of the transgressor'
+  - where: 'note 2:15 “The valley of trouble”'
+    claim: 'Another reading: the door of hope follows purging and repentance'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'following her purging and repentance, “a door of hope” (Hosea 2:15)'
+  - where: 'note 2:15 “The valley of trouble”'
+    claim: 'The vineyards are those withdrawn in verse 12'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/2.htm'
+    quote: 'are the vineyards which it formerly possessed'
+
+  # ---- note 2:16 ----
+  - where: 'note 2:16 “Why the name Baali had to go”'
+    claim: 'Ishi is ish (H376) with a first-person suffix'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אִישִׁ֑/י'
+  - where: 'note 2:16 “Why the name Baali had to go”'
+    claim: 'The same word (H376) is “her husband” in 2:2'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אִישָׁ֑/הּ'
+  - where: 'note 2:16 “Why the name Baali had to go”'
+    claim: 'Baal means possessor, lord'
+    key: bd-baal
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/baal?lang=eng'
+    quote: 'Possessor, lord.'
+  - where: 'note 2:16 “Why the name Baali had to go”'
+    claim: 'Baali means both “my husband” and “my Baal”'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: '“Baali,” which also means “my husband” but means as well “my Baal.”'
+  - where: 'note 2:16 “Why the name Baali had to go”'
+    claim: 'The word was dropped from names and Bosheth put in its place'
+    key: bd-baal
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/baal?lang=eng'
+    quote: 'Becoming utterly abominable from its associations, its use was abjured and Bosheth (shame) was substituted in names compounded with it.'
+  - where: 'note 2:16 “Why the name Baali had to go”'
+    claim: 'The word expresses lord and slave'
+    key: bd-baal
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/baal?lang=eng'
+    quote: 'The word Baal expresses the relation between lord and slave.'
+  - where: 'note 2:16 “Why the name Baali had to go”'
+    claim: 'Exodus 23:13 forbids naming other gods'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/23?lang=eng'
+    quote: 'make no mention of the name of other gods, neither let it be heard out of thy mouth.'
+
+  # ---- note 2:18 ----
+  - where: 'note 2:18 “Peace with the animals”'
+    claim: 'The list of animals follows the creation order and is a return to creation’s harmony (a study the article quotes)'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'The reference to the series of animals in Hos. 2:18, following the creation order, is a return to the harmony that existed in creation'
+  - where: 'note 2:18 “Peace with the animals”'
+    claim: 'The verse points to the Millennium'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'What follows in Hosea 2:18 draws upon the imagery of the Creation and points to the millennial reign of the Lord and the earth’s paradisiacal glory.'
+
+  # ---- note 2:19 betrothal ----
+  - where: 'note 2:19 “A betrothal and its bride-gift”'
+    claim: '“Betroth” is the Piel of aras (H781), three times in 2:19–20'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'וְ/אֵרַשְׂתִּ֥י/ךְ'
+  - where: 'note 2:19 “A betrothal and its bride-gift”'
+    claim: 'aras is used of a man betrothing a woman'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/781.htm'
+    quote: 'betroth (subject man) object woman'
+  - where: 'note 2:19 “A betrothal and its bride-gift”'
+    claim: 'The preposition b- marks the price paid to the father in 2 Samuel 3:14 and the gift to the bride in Hosea 2:19–20 (Hebrew 2:21–22)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/781.htm'
+    quote: 'of price paid to father'
+  - where: 'note 2:19 “A betrothal and its bride-gift”'
+    claim: 'BDB: in Hosea the preposition marks the gift to the bride, figurative of the Lord’s covenant mercy'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/781.htm'
+    quote: 'of gift to bride'
+  - where: 'note 2:19 “A betrothal and its bride-gift”'
+    claim: '2 Samuel 3:14 has the same verb (H781) followed by b- with “hundred”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/2Sam.xml'
+    quote: 'בְּ/מֵאָ֖ה'
+  - where: 'note 2:19 “A betrothal and its bride-gift”'
+    claim: 'Each of the five terms in 2:19–20 is prefixed with b-'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'בְּ/צֶ֣דֶק'
+  - where: 'note 2:19 “A betrothal and its bride-gift”'
+    claim: 'Betrothal in Israel was binding, the last step before marriage'
+    key: scripture-helps-hosea
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/45-hosea-1-6-10-14-joel?lang=eng'
+    quote: 'In ancient Israelite culture, betrothal was a legally binding commitment—the final step before the full union of marriage.'
+  - where: 'note 2:19 “A betrothal and its bride-gift”'
+    claim: 'The five terms are attributes God brings to the covenant'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/2.htm'
+    quote: 'we have a description of the attributes which God would thereby unfold in order to render the covenant indissoluble'
+  - where: 'note 2:19 “A betrothal and its bride-gift”'
+    claim: 'The faithfulness is God’s'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/2.htm'
+    quote: 'is also to be understood of the faithfulness of God'
+  - where: 'note 2:19 “A betrothal and its bride-gift”'
+    claim: 'The verb is used of wooing a maiden, not of taking back a divorced wife'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/2.htm'
+    quote: 'is only applied to the wooing of a maiden, not to the restoration of a wife who has been divorced'
+  - where: 'note 2:19 “A betrothal and its bride-gift”'
+    claim: 'So it points to a new marriage'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/2.htm'
+    quote: 'to an entirely new marriage'
+  - where: 'note 2:19 “A betrothal and its bride-gift”'
+    claim: 'The reunion is permanent'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'This describes the permanent reunion of the repentant wife to the ever-forgiving husband.'
+  - where: 'note 2:19 “A betrothal and its bride-gift”'
+    claim: 'Read of the new and everlasting covenant in the latter days'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'The fulness of the new and everlasting covenant restored to Israel in the latter days'
+  - where: 'note 2:19 “A betrothal and its bride-gift”'
+    claim: '2 Samuel 3:14: David espoused Michal for a price'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/3?lang=eng'
+    quote: 'which I espoused to me for an hundred foreskins of the Philistines.'
+
+  # ---- note 2:19 hesed ----
+  - where: 'note 2:19 “Hesed, the love inside a covenant”'
+    claim: '“Lovingkindness” is hesed (H2617)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'וּ/בְ/חֶ֖סֶד'
+  - where: 'note 2:19 “Hesed, the love inside a covenant”'
+    claim: 'The same word (H2617) is “mercy” in 4:1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'חֶ֛סֶד'
+  - where: 'note 2:19 “Hesed, the love inside a covenant”'
+    claim: 'President Nelson: no adequate English equivalent'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'Hesed has no adequate English equivalent.'
+  - where: 'note 2:19 “Hesed, the love inside a covenant”'
+    claim: 'President Nelson’s description of hesed'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'Hesed is a unique term describing a covenant relationship in which both parties are bound to be loyal and faithful to each other.'
+  - where: 'note 2:19 “Hesed, the love inside a covenant”'
+    claim: 'Hesed is love available within a covenant'
+    key: muhlestein-everlasting-covenant
+    url: 'https://rsc.byu.edu/vol-21-no-2-2020/recognizing-everlasting-covenant-scriptures'
+    quote: 'translated from the Hebrew word hesed, a kind of mercy and love available only within a covenant'
+  - where: 'note 2:19 “Hesed, the love inside a covenant”'
+    claim: 'Hesed is love that acts'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'It is the kind of love that translates into action, a key requirement of a successful marriage.'
+  - where: 'note 2:19 “Hesed, the love inside a covenant”'
+    claim: 'Hesed is “lovingkindness” in 2:19 and “mercy” in 4:1'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: '“Loving kindness” is translated from hesed; the same word is rendered “mercy” in Hosea 4:1.'
+  - where: 'note 2:19 “Hesed, the love inside a covenant”'
+    claim: '“Mercies” is rachamim (H7356), compassion, usually God’s; BDB lists this verse (Hebrew 2:21)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7356.htm'
+    quote: 'compassion: usually of God'
+  - where: 'note 2:19 “Hesed, the love inside a covenant”'
+    claim: 'Hosea 4:1: no truth, mercy, or knowledge of God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/4?lang=eng'
+    quote: 'because there is no truth, nor mercy, nor knowledge of God in the land.'
+
+  # ---- note 2:20 ----
+  - where: 'note 2:20 “To know the Lord”'
+    claim: '“Know” in 2:20 is yada (H3045), the verb of 2:8'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'וְ/יָדַ֖עַתְּ'
+  - where: 'note 2:20 “To know the Lord”'
+    claim: 'Knowledge describes the intimacy of the covenant bond'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'The concept of “knowledge,” used to describe the exclusive intimacy of the covenant bond, is very important.'
+  - where: 'note 2:20 “To know the Lord”'
+    claim: 'It denotes the closest relationship between two persons'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'Knowledge here denotes the most intimate possible relationship between two individuals'
+  - where: 'note 2:20 “To know the Lord”'
+    claim: 'The three terms of 4:1 are all in 2:19–20'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'Each of the three terms defined above is found in Hosea 2:19–20'
+  - where: 'note 2:20 “To know the Lord”'
+    claim: '“Faithfulness” in 2:20 and “truth” in 4:1 share a root'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: '“Faithfulness” comes from the same root, and means essentially the same thing, as “truth” in Hosea 4:1.'
+  - where: 'note 2:20 “To know the Lord”'
+    claim: 'Hosea 13:5 uses “know” (H3045) of the Lord and Israel in the wilderness'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
+    quote: 'I did know thee in the wilderness, in the land of great drought.'
+
+  # ---- note 2:21 ----
+  - where: 'note 2:21 “A chain of answers”'
+    claim: '“Hear” in 2:21–22 is anah (H6030), five times'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אֶֽעֱנֶה֙'
+  - where: 'note 2:21 “A chain of answers”'
+    claim: 'Modern translation: “answer”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%202&version=ESV'
+    quote: 'I will answer the heavens'
+  - where: 'note 2:21 “A chain of answers”'
+    claim: 'BDB lists these verses (Hebrew 2:23–24) under God answering graciously'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6030.htm'
+    quote: 'of God answering (graciously)'
+
+  # ---- note 2:22 ----
+  - where: 'note 2:22 “Jezreel, the name turned around”'
+    claim: 'Jezreel means “God soweth”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3157.htm'
+    quote: 'God soweth'
+  - where: 'note 2:22 “Jezreel, the name turned around”'
+    claim: 'The name Jezreel (H3157) ends 2:22'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יִזְרְעֶֽאל'
+  - where: 'note 2:22 “Jezreel, the name turned around”'
+    claim: '“I will sow her” is zara (H2232)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'וּ/זְרַעְתִּ֤י/הָ'
+  - where: 'note 2:22 “Jezreel, the name turned around”'
+    claim: 'BDB: the verb here (Hebrew 2:25) is the Lord’s sowing Israel in the land'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2232.htm'
+    quote: 'sowing (planting) Israel in the land'
+  - where: 'note 2:22 “Jezreel, the name turned around”'
+    claim: 'The name is played on in both senses, scatter and sow'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'Hosea plays on the name Jezreel, meaning both “God shall scatter” (v. 4; emphasizing the dissemination of Israel) and “God shall sow”'
+  - where: 'note 2:22 “Jezreel, the name turned around”'
+    claim: 'Israel is sown in order to be gathered'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'Israel will be sown with the intent to be gathered, obtain mercy, and become the Lord’s people once again through the covenant.'
+  - where: 'note 2:22 “Jezreel, the name turned around”'
+    claim: 'Another reading: restoration in the land'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'It is used in this verse to depict the restoration of Israel in the land'
+  - where: 'note 2:22 “Jezreel, the name turned around”'
+    claim: 'Hosea 1:4–5 and 1:11 on Jezreel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/1?lang=eng'
+    quote: 'for great shall be the day of Jezreel.'
+
+  # ---- note 2:23 ----
+  - where: 'note 2:23 “The last two names, and how Paul and Peter use them”'
+    claim: 'The Hebrew of 2:23 has the names Lo-ruhamah and Lo-ammi, then “Ammi”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'רֻחָ֑מָה'
+  - where: 'note 2:23 “The last two names, and how Paul and Peter use them”'
+    claim: 'The children’s names are used in the verse to show the covenant renewed'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'not to express the dissolution of the covenant as he did in chapter 1, but to show its renewal'
+  - where: 'note 2:23 “The last two names, and how Paul and Peter use them”'
+    claim: 'The pair of sentences is the core of the covenant, restored'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'The precious relationship which is described in so many places in the scriptures as the core of God’s dealings with Israel is now restored once again'
+  - where: 'note 2:23 “The last two names, and how Paul and Peter use them”'
+    claim: 'Paul applies the verse to Jews and Gentiles called'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/9?lang=eng'
+    quote: 'As he saith also in Osee, I will call them my people, which were not my people; and her beloved, which was not beloved.'
+  - where: 'note 2:23 “The last two names, and how Paul and Peter use them”'
+    claim: 'Peter uses the same words of those who are now the people of God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/2?lang=eng'
+    quote: 'Which in time past were not a people, but are now the people of God: which had not obtained mercy, but now have obtained mercy.'
+  - where: 'note 2:23 “The last two names, and how Paul and Peter use them”'
+    claim: 'Paul’s quotation strengthens the reading of the verse as the gathering'
+    key: schade-hosea-family
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/imagery-hoseas-family-restoration-israel'
+    quote: 'this interpretation is strengthened through Paul’s quoting of Hosea 2:23 as a promise to be fulfilled to the Gentiles'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'President Eyring: the husband is a figure of Jehovah, Jesus Christ (as the manual prints his 1995 address)'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'even my youngest students knew that the husband was a metaphor for Jehovah, Jesus Christ'
+  - where: 'christ'
+    claim: 'The Bible Dictionary cites 2:19 for restoration due to His love'
+    key: bd-hosea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng'
+    quote: 'their restoration shall be due to His love (2:19; 14:4)'
+  - where: 'christ'
+    claim: 'Isaiah 54:5 names the Maker and Redeemer as husband'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/54?lang=eng'
+    quote: 'For thy Maker is thine husband'
+  - where: 'explore'
+    claim: 'Jeremiah 31:34: “they shall all know me”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/31?lang=eng'
+    quote: 'for they shall all know me, from the least of them unto the greatest of them'
