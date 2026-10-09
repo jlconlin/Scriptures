@@ -1,0 +1,699 @@
+chapter: 10
+claims:
+  # ---------- setting ----------
+  - where: 'setting'
+    claim: 'Chapters 4–14 of Hosea are prophetic oracles'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'chapters 4–14 are prophetic oracles'
+  - where: 'setting'
+    claim: 'The oracles of chapters 4–14 sometimes stand apart and sometimes build on the imagery of the chapter before'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'at other times build on one another by drawing on the imagery from the preceding chapter'
+  - where: 'setting'
+    claim: 'Shalmaneser, king of Assyria 727–722 B.C., put Hoshea under tribute and besieged Samaria, which fell after three years'
+    key: bd-shalmaneser
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/shalmaneser?lang=eng'
+    quote: 'King of Assyria, 727–722 B.C., puts Hoshea under tribute (2 Kgs. 17:3); besieges Samaria, which is taken after three years'
+  - where: 'setting'
+    claim: 'Kings: Hoshea became Shalmaneser’s servant and gave him presents'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng'
+    quote: 'Against him came up Shalmaneser king of Assyria; and Hoshea became his servant, and gave him presents.'
+  - where: 'setting'
+    claim: 'Kings: Samaria was taken in Hoshea’s ninth year and Israel carried to Assyria'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng'
+    quote: 'In the ninth year of Hoshea the king of Assyria took Samaria, and carried Israel away into Assyria'
+  - where: 'setting'
+    claim: 'The Church’s footnote on “Shalman” (10:14) points to 2 Kings 17:3'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/10?lang=eng'
+    quote: '2 Kgs. 17:3'
+  - where: 'setting'
+    claim: 'Jeremiah gives Judah the command of verse 12'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/4?lang=eng'
+    quote: 'Break up your fallow ground, and sow not among thorns.'
+  - where: 'setting'
+    claim: 'The Savior speaks the words of verse 8 in Luke 23:30'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/23?lang=eng'
+    quote: 'Then shall they begin to say to the mountains, Fall on us; and to the hills, Cover us.'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'The king is “cut off” in verse 7 and in verse 15 with the same Hebrew verb (damah, H1820; hebrew.mjs hosea 10:7, 10:15)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'נִדְמֶ֥ה'
+  - where: 'thread'
+    claim: 'The verb is used of a king in Hosea 10:7 and 10:15'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1820.htm'
+    quote: 'of king Hosea 10:7,15 (twice in verse)'
+
+  - where: 'thread'
+    claim: 'The “images” of verse 1 are standing stones (NIV “sacred stones”)'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NIV'
+    quote: 'he adorned his sacred stones'
+  - where: 'thread'
+    claim: 'The king is like a chip on the water (NRSVUE)'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NRSVUE'
+    quote: 'like a chip on the face of the waters'
+
+  # ---------- sections ----------
+  - where: 'section 1 plain'
+    claim: '“Images” rendered as sacred stones'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NIV'
+    quote: 'he adorned his sacred stones'
+  - where: 'section 2 plain'
+    claim: '“Hemlock” is a poisonous plant'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7219.htm'
+    quote: 'a bitter and poisonous herb'
+  - where: 'section 3 plain'
+    claim: 'Ephraim is a trained heifer that loves to thresh'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NIV'
+    quote: 'Ephraim is a trained heifer'
+  - where: 'section 3 plain'
+    claim: '“Make Ephraim to ride” rendered as harnessing or driving'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NIV'
+    quote: 'I will drive Ephraim'
+  - where: 'section 3 plain'
+    claim: 'The last line of verse 10 is read “for their two iniquities” where the King James has “in their two furrows”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NRSVUE'
+    quote: 'when they are punished for their double iniquity'
+
+  # ---------- note 10:1 ----------
+  - where: 'note 10:1 “An empty vine, or a spreading one”'
+    claim: 'The Hebrew participle is boqeq (H1238; hebrew.mjs hosea 10:1)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'בּוֹקֵק֙'
+  - where: 'note 10:1 “An empty vine, or a spreading one”'
+    claim: 'The lexicon separates two verbs spelled alike, “be luxuriant” and “empty,” and puts Hosea 10:1 under the first'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1238.htm'
+    quote: 'Qal Participle בֹּקֵק luxuriant Hosea 10:1 (figurative of Israel as vine).'
+  - where: 'note 10:1 “An empty vine, or a spreading one”'
+    claim: 'The second verb means to empty or lay waste'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1238.htm'
+    quote: 'empty, lay waste land'
+  - where: 'note 10:1 “An empty vine, or a spreading one”'
+    claim: 'The Septuagint reads a vine with goodly branches and abundant fruit'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/10.htm'
+    quote: 'Israel is a vine with goodly branches, her fruit is abundant'
+  - where: 'note 10:1 “An empty vine, or a spreading one”'
+    claim: 'NRSVUE: “a luxuriant vine”; the more fruit, the more altars'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NRSVUE'
+    quote: 'Israel is a luxuriant vine'
+  - where: 'note 10:1 “An empty vine, or a spreading one”'
+    claim: 'NIV: “a spreading vine”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NIV'
+    quote: 'Israel was a spreading vine'
+  - where: 'note 10:1 “An empty vine, or a spreading one”'
+    claim: 'The fruit was brought forth “unto himself” and not unto God'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'an empty vine who brought forth fruit “unto himself” and not unto God (Hosea 10:1)'
+  - where: 'note 10:1 “An empty vine, or a spreading one”'
+    claim: 'NRSVUE renders “images” as pillars'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NRSVUE'
+    quote: 'he improved his pillars'
+  - where: 'note 10:1 “An empty vine, or a spreading one”'
+    claim: 'NIV renders them as sacred stones'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NIV'
+    quote: 'he adorned his sacred stones'
+  # ---------- note 10:2 ----------
+
+  - where: 'note 10:2 “A divided heart, or a smooth one”'
+    claim: 'The verb is chalaq (H2505; hebrew.mjs hosea 10:2)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'חָלַ֥ק'
+  - where: 'note 10:2 “A divided heart, or a smooth one”'
+    claim: 'The lexicon reads “smooth, slippery” of the heart of faithless Israel, and notes that the ancient versions read “divided is their heart”; the same word is used of smooth, deceptive words in Psalm 55:21'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2505.htm'
+    quote: 'smooth, slippery, only figurative: Hosea 10:2 of heart of faithless Israel'
+  - where: 'note 10:2 “A divided heart, or a smooth one”'
+    claim: 'Of words the verb means smooth, that is, deceptive'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2505.htm'
+    quote: 'of words, smooth Psalm 55:22 i.e. deceptive'
+  - where: 'note 10:2 “A divided heart, or a smooth one”'
+    claim: 'The Septuagint has “divided”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/10.htm'
+    quote: 'They have divided their hearts'
+  - where: 'note 10:2 “A divided heart, or a smooth one”'
+    claim: 'NRSVUE: “Their heart is false”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NRSVUE'
+    quote: 'Their heart is false'
+  - where: 'note 10:2 “A divided heart, or a smooth one”'
+    claim: 'NIV: “Their heart is deceitful”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NIV'
+    quote: 'Their heart is deceitful'
+  - where: 'note 10:2 “A divided heart, or a smooth one”'
+    claim: 'The Church’s footnote on “faulty” gives “guilty,” and the footnote on “divided” points to 1 Kings 18:21'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/10?lang=eng'
+    quote: 'HEB guilty'
+
+  - where: 'note 10:2 “A divided heart, or a smooth one”'
+    claim: 'The Hebrew has “he”; NRSVUE supplies “The Lord” (its note: “Heb he”)'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NRSVUE'
+    quote: 'The Lord will break down their altars'
+
+  # ---------- note 10:4 ----------
+  - where: 'note 10:4 “Justice that comes up as a poison weed”'
+    claim: 'The plant is rosh (H7219; hebrew.mjs hosea 10:4)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'רֹאשׁ֙'
+  - where: 'note 10:4 “Justice that comes up as a poison weed”'
+    claim: 'Rosh is a bitter and poisonous herb, always figurative; the lexicon lists Hosea 10:4 and Amos 6:12 together'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7219.htm'
+    quote: 'a bitter and poisonous herb'
+  - where: 'note 10:4 “Justice that comes up as a poison weed”'
+    claim: 'Amos 6:12 has the same two Hebrew words, rosh (H7219) and mishpat (H4941), as Hosea 10:4 (hebrew.mjs amos 6:12)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Amos.xml'
+    quote: 'מִשְׁפָּ֔ט'
+  - where: 'note 10:4 “Justice that comes up as a poison weed”'
+    claim: 'NRSVUE reads “judgment” as litigation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NRSVUE'
+    quote: 'so litigation springs up like poisonous weeds'
+  - where: 'note 10:4 “Justice that comes up as a poison weed”'
+    claim: 'NIV reads it as lawsuits'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NIV'
+    quote: 'therefore lawsuits spring up'
+
+  # ---------- note 10:5 ----------
+  - where: 'note 10:5 “The calf goes into exile”'
+    claim: 'Beth-aven is a derogatory name for Bethel (the NIV’s footnote on 10:5)'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NIV'
+    quote: 'Beth Aven means house of wickedness (a derogatory name for Bethel, which means house of God)'
+  - where: 'note 10:5 “The calf goes into exile”'
+    claim: 'Jeroboam set one golden calf in Bethel and one in Dan'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/12?lang=eng'
+    quote: 'And he set the one in Beth-el, and the other put he in Dan.'
+  - where: 'note 10:5 “The calf goes into exile”'
+    claim: 'The Hebrew has a feminine plural, “heifers” (eglot, H5697; hebrew.mjs hosea 10:5), used only here of the calves worshipped in northern Israel; the lexicon would read the singular with the Septuagint'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5697.htm'
+    quote: 'once of calves worshipped in Northern Israel Hosea 10:5 (where read probably'
+  - where: 'note 10:5 “The calf goes into exile”'
+    claim: 'The Septuagint has one calf'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/10.htm'
+    quote: 'the calf of the house of On'
+  - where: 'note 10:5 “The calf goes into exile”'
+    claim: 'The word for “priests” is kemarim (H3649; hebrew.mjs hosea 10:5)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'כְמָרָי'
+  - where: 'note 10:5 “The calf goes into exile”'
+    claim: 'Kemarim is used in the Old Testament only of idol-priests'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3649.htm'
+    quote: 'in O.T. only of idol-priests'
+  - where: 'note 10:5 “The calf goes into exile”'
+    claim: 'NIV: the glory “is taken from them into exile,” and the calf is carried to Assyria as tribute'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NIV'
+    quote: 'because it is taken from them into exile'
+  - where: 'note 10:5 “The calf goes into exile”'
+    claim: 'NRSVUE: “as tribute to the great king”; the priests “wail”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NRSVUE'
+    quote: 'as tribute to the great king'
+  - where: 'note 10:5 “The calf goes into exile”'
+    claim: 'NRSVUE has the idolatrous priests wail over the calf where the King James has “rejoiced”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NRSVUE'
+    quote: 'and its idolatrous priests shall wail over it'
+  - where: 'note 10:5 “The calf goes into exile”'
+    claim: 'Hosea 8:6 on the calf of Samaria'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/8?lang=eng'
+    quote: 'the workman made it; therefore it is not God'
+
+  - where: 'note 10:5 “The calf goes into exile”'
+    claim: 'Ephraim had sent to king Jareb for healing (Hosea 5:13)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/5?lang=eng'
+    quote: 'then went Ephraim to the Assyrian, and sent to king Jareb: yet could he not heal you'
+
+  # ---------- note 10:7 ----------
+  - where: 'note 10:7 “The king as a chip on the water”'
+    claim: 'The noun is qetseph (H7110; hebrew.mjs hosea 10:7)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'קֶ֖צֶף'
+  - where: 'note 10:7 “The king as a chip on the water”'
+    claim: 'The lexicon reads “probably splinter,” from a root meaning to break or snap off, and calls it a simile of a helpless king'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7110.htm'
+    quote: 'Hosea 10:7 (simile of helpless king)'
+  - where: 'note 10:7 “The king as a chip on the water”'
+    claim: 'The root is compared with an Arabic word meaning break, snap off'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7110.htm'
+    quote: 'Arabic break, snap off'
+  - where: 'note 10:7 “The king as a chip on the water”'
+    claim: 'The Septuagint has a twig on the water'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/10.htm'
+    quote: 'Samaria has cast off her king as a twig on the surface of the water.'
+  - where: 'note 10:7 “The king as a chip on the water”'
+    claim: 'NRSVUE: “like a chip on the face of the waters”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NRSVUE'
+    quote: 'like a chip on the face of the waters'
+  - where: 'note 10:7 “The king as a chip on the water”'
+    claim: 'NIV: “like a twig”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NIV'
+    quote: 'swept away like a twig on the surface of the waters'
+  - where: 'note 10:7 “The king as a chip on the water”'
+    claim: 'The verb “cut off” of verse 7 is the verb of verse 15 (H1820; hebrew.mjs hosea 10:7, 10:15)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'נִדְמָ֖ה'
+  - where: 'note 10:7 “The king as a chip on the water”'
+    claim: 'The last king, Hoshea, was imprisoned by the king of Assyria before Samaria was taken'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng'
+    quote: 'therefore the king of Assyria shut him up, and bound him in prison'
+  - where: 'note 10:7 “The king as a chip on the water”'
+    claim: 'Hosea 13:11 on the king given and taken away'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
+    quote: 'I gave thee a king in mine anger, and took him away in my wrath.'
+  - where: 'note 10:7 “The king as a chip on the water”'
+    claim: 'Samaria fell after a three-year siege begun by Shalmaneser'
+    key: bd-shalmaneser
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/shalmaneser?lang=eng'
+    quote: 'besieges Samaria, which is taken after three years'
+
+  # ---------- note 10:8 ----------
+  - where: 'note 10:8 “Words the Savior spoke on the way to the cross”'
+    claim: 'Luke 23:30, with the two requests in the opposite order'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/23?lang=eng'
+    quote: 'Then shall they begin to say to the mountains, Fall on us; and to the hills, Cover us.'
+  - where: 'note 10:8 “Words the Savior spoke on the way to the cross”'
+    claim: 'He spoke to the women who followed Him, of themselves and their children'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/23?lang=eng'
+    quote: 'Daughters of Jerusalem, weep not for me, but weep for yourselves, and for your children.'
+  - where: 'note 10:8 “Words the Savior spoke on the way to the cross”'
+    claim: 'The Joseph Smith Translation adds that He spoke of the scattering of Israel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/23?lang=eng'
+    quote: 'This he spake, signifying the scattering of Israel, and the desolation of the heathen, or in other words, the Gentiles.'
+  - where: 'note 10:8 “Words the Savior spoke on the way to the cross”'
+    claim: 'Revelation 6:15–16: kings and mighty men, bond and free, say it at the opening of the sixth seal'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/6?lang=eng'
+    quote: 'And said to the mountains and rocks, Fall on us, and hide us from the face of him that sitteth on the throne, and from the wrath of the Lamb'
+  - where: 'note 10:8 “Words the Savior spoke on the way to the cross”'
+    claim: 'Alma 12:14 uses the wish of the unrepentant at the judgment'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/12?lang=eng'
+    quote: 'we would fain be glad if we could command the rocks and the mountains to fall upon us to hide us from his presence'
+  - where: 'note 10:8 “Words the Savior spoke on the way to the cross”'
+    claim: '2 Nephi 26:5 of those who kill the prophets'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/26?lang=eng'
+    quote: 'mountains shall cover them'
+  - where: 'note 10:8 “Words the Savior spoke on the way to the cross”'
+    claim: 'The Church’s footnote on “mountains” joins the verse to Luke 23:30, Revelation 6:16, 2 Nephi 26:5 and Alma 12:14'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/10?lang=eng'
+    quote: 'Luke 23:30 (26–33); Rev. 6:16 (14–17); 2 Ne. 26:5; Alma 12:14'
+
+  # ---------- note 10:9 ----------
+  - where: 'note 10:9 “What happened at Gibeah”'
+    claim: 'Gibeah was a town of Benjamin'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/19?lang=eng'
+    quote: 'Gibeah, which belongeth to Benjamin'
+  - where: 'note 10:9 “What happened at Gibeah”'
+    claim: 'Men of the town abused the Levite’s concubine through the night; she was found fallen at the door and did not answer'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/19?lang=eng'
+    quote: 'they knew her, and abused her all the night until the morning'
+  - where: 'note 10:9 “What happened at Gibeah”'
+    claim: 'Benjamin refused to give up the men of Gibeah, and all Israel went to war against the tribe'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/20?lang=eng'
+    quote: 'All Israel arises against the Benjamites, who refuse to deliver up the men of Gibeah'
+  - where: 'note 10:9 “What happened at Gibeah”'
+    claim: 'Twenty-five thousand men of Benjamin fell, and six hundred escaped'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/20?lang=eng'
+    quote: 'So that all which fell that day of Benjamin were twenty and five thousand men that drew the sword'
+  - where: 'note 10:9 “What happened at Gibeah”'
+    claim: 'Six hundred men fled to the rock Rimmon'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/20?lang=eng'
+    quote: 'But six hundred men turned and fled to the wilderness unto the rock Rimmon'
+  - where: 'note 10:9 “What happened at Gibeah”'
+    claim: 'NRSVUE: “there they have continued. Shall not war overtake them in Gibeah?”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NRSVUE'
+    quote: 'Shall not war overtake them in Gibeah?'
+  - where: 'note 10:9 “What happened at Gibeah”'
+    claim: 'NRSVUE: “there they have continued”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NRSVUE'
+    quote: 'there they have continued'
+  - where: 'note 10:9 “What happened at Gibeah”'
+    claim: 'NIV: “and there you have remained. Will not war again overtake the evildoers in Gibeah?”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NIV'
+    quote: 'and there you have remained'
+  - where: 'note 10:9 “What happened at Gibeah”'
+    claim: 'Hosea 9:9 names the days of Gibeah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/9?lang=eng'
+    quote: 'They have deeply corrupted themselves, as in the days of Gibeah'
+
+  # ---------- note 10:10 ----------
+  - where: 'note 10:10 “Two furrows, or two iniquities”'
+    claim: 'The Hebrew text has one word written (ketiv) and another read (qere) at the end of verse 10 (hebrew.mjs hosea 10:10 marks them “ketiv, as written” and “qere, the reading”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'עוֹנֹתָֽ'
+  - where: 'note 10:10 “Two furrows, or two iniquities”'
+    claim: 'The interlinear glosses the word “of their transgressions”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/hosea/10-10.htm'
+    quote: 'of their transgressions'
+  - where: 'note 10:10 “Two furrows, or two iniquities”'
+    claim: 'The Septuagint: “for their two sins”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/10.htm'
+    quote: 'when they are chastened for their two sins'
+  - where: 'note 10:10 “Two furrows, or two iniquities”'
+    claim: 'NRSVUE: “double iniquity”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NRSVUE'
+    quote: 'when they are punished for their double iniquity'
+  - where: 'note 10:10 “Two furrows, or two iniquities”'
+    claim: 'NIV: “double sin”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NIV'
+    quote: 'to put them in bonds for their double sin'
+  - where: 'note 10:10 “Two furrows, or two iniquities”'
+    claim: 'Proposals for the two: the calves at Dan and Bethel, or forsaking the Lord and joining idols'
+    key: clarke-commentary
+    url: 'https://biblehub.com/commentaries/clarke/hosea/10.htm'
+    quote: '"When they are chastised for their two iniquities," i.e., the calves in Dan and Beth-el.'
+
+  # ---------- note 10:11 ----------
+  - where: 'note 10:11 “The heifer that liked threshing”'
+    claim: 'The lexicon: a trained heifer, a simile of Ephraim; heifers were used in threshing and ploughing'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5697.htm'
+    quote: 'a trained heifer (simile of Ephraim)'
+  - where: 'note 10:11 “The heifer that liked threshing”'
+    claim: 'The threshing animal was not muzzled, so it ate as it worked'
+    key: clarke-commentary
+    url: 'https://biblehub.com/commentaries/clarke/hosea/10.htm'
+    quote: 'Goes peaceably in the yoke; and is pleased because, not being muzzled, she eats of the corn.'
+  - where: 'note 10:11 “The heifer that liked threshing”'
+    claim: 'The passing over the neck is read as bringing the yoke on it, for plough and harrow; the yoke is taken to be Assyria’s'
+    key: clarke-commentary
+    url: 'https://biblehub.com/commentaries/clarke/hosea/10.htm'
+    quote: 'I brought the yoke upon it, that she should not tread out the corn merely, but draw the plough and drag the harrow.'
+  - where: 'note 10:11 “The heifer that liked threshing”'
+    claim: 'The yoke as that of the Assyrians'
+    key: clarke-commentary
+    url: 'https://biblehub.com/commentaries/clarke/hosea/10.htm'
+    quote: 'be put under the yoke, namely, that of the Assyrians'
+  - where: 'note 10:11 “The heifer that liked threshing”'
+    claim: 'NIV: “so I will put a yoke on her fair neck. I will drive Ephraim”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NIV'
+    quote: 'I will drive Ephraim'
+  - where: 'note 10:11 “The heifer that liked threshing”'
+    claim: 'NIV: a yoke on her fair neck'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NIV'
+    quote: 'on her fair neck'
+  - where: 'note 10:11 “The heifer that liked threshing”'
+    claim: 'NRSVUE: “and I spared her fair neck, but I will make Ephraim break the ground”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NRSVUE'
+    quote: 'and I spared her fair neck'
+  - where: 'note 10:11 “The heifer that liked threshing”'
+    claim: 'NRSVUE: “I will make Ephraim break the ground”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NRSVUE'
+    quote: 'but I will make Ephraim break the ground'
+  # ---------- note 10:12 (sow, reap) ----------
+
+  - where: 'note 10:12 “The harvest is hesed”'
+    claim: '“Mercy” is hesed (H2617), which stands in Hosea 2:19, 4:1, 6:4, 6:6, 10:12 and 12:6 (hebrew.mjs hosea --word 2617)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'חֶ֔סֶד'
+  - where: 'note 10:12 “The harvest is hesed”'
+    claim: 'NRSVUE: “reap steadfast love”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NRSVUE'
+    quote: 'reap steadfast love'
+  - where: 'note 10:12 “The harvest is hesed”'
+    claim: 'NIV: “reap the fruit of unfailing love, and break up your unplowed ground”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NIV'
+    quote: 'reap the fruit of unfailing love'
+  - where: 'note 10:12 “The harvest is hesed”'
+    claim: 'NIV: fallow ground is unplowed ground'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NIV'
+    quote: 'and break up your unplowed ground'
+  - where: 'note 10:12 “The harvest is hesed”'
+    claim: 'The manual prints Elder Bruce R. McConkie: mercy is granted to those who comply with the law on which it is predicated; those who sow righteousness reap mercy'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'That law is the law of righteousness; those who sow righteousness, reap mercy. (Hos. 10:12.)'
+  - where: 'note 10:12 “The harvest is hesed”'
+    claim: 'The manual: what one receives depends on where one put one’s trust'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'What one does is a result of where one puts one’s trust.'
+  - where: 'note 10:12 “The harvest is hesed”'
+    claim: 'Jeremiah 4:3 has the same command'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/4?lang=eng'
+    quote: 'Break up your fallow ground, and sow not among thorns.'
+  - where: 'note 10:12 “The harvest is hesed”'
+    claim: 'Hosea 8:7, the whirlwind'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/8?lang=eng'
+    quote: 'For they have sown the wind, and they shall reap the whirlwind'
+  - where: 'note 10:12 “The harvest is hesed”'
+    claim: 'The sowing of righteousness is set in the article beside the destruction that follows: the cry comes before the fall of Beth-arbel'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'The destruction of Beth-arbel is preceded by a prophetic cry to sow righteousness in order to reap mercy'
+
+  - where: 'note 10:12 “The harvest is hesed”'
+    claim: 'The manual prints Elder McConkie: mercy is granted to those who comply with the law'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'to those who comply with the law upon which its receipt is predicated'
+
+  # ---------- note 10:12 (rain) ----------
+  - where: 'note 10:12 “Until He comes and rains righteousness”'
+    claim: 'God gives the rain of righteousness as rain for the seed, and must create righteousness in a person by His Spirit'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/10.htm'
+    quote: 'God causes righteousness to rain, inasmuch as He not only gives strength to secure it, like rain for the growth of the seed'
+  - where: 'note 10:12 “Until He comes and rains righteousness”'
+    claim: 'He must also create it in man by His Spirit'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/10.htm'
+    quote: 'but must also generate and create it in man by His Spirit'
+  - where: 'note 10:12 “Until He comes and rains righteousness”'
+    claim: 'The verb is yarah (H3384), which in Hosea stands only in 6:3 and 10:12 (hebrew.mjs hosea --word 3384)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יֹרֶ֥ה'
+  - where: 'note 10:12 “Until He comes and rains righteousness”'
+    claim: 'In Hosea 6:3 the same root is the noun for the former rain'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'י֥וֹרֶה'
+  - where: 'note 10:12 “Until He comes and rains righteousness”'
+    claim: 'The lexicon reads the verb here as “rain”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3384.htm'
+    quote: 'Hosea 10:12 and rain righteousness for you'
+  - where: 'note 10:12 “Until He comes and rains righteousness”'
+    claim: 'The same verb commonly means to teach or instruct'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3384.htm'
+    quote: 'To throw, shoot, cast, direct, instruct, teach'
+  - where: 'note 10:12 “Until He comes and rains righteousness”'
+    claim: 'The Septuagint reads the verse differently and has no rain in it'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/10.htm'
+    quote: 'seek the Lord till the fruits of righteousness come upon you'
+  - where: 'note 10:12 “Until He comes and rains righteousness”'
+    claim: 'NRSVUE: “that he may come and rain righteousness upon you”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hosea%2010&version=NRSVUE'
+    quote: 'that he may come and rain righteousness upon you'
+  - where: 'note 10:12 “Until He comes and rains righteousness”'
+    claim: 'Hosea 6:3, the people’s words about the Lord coming as rain'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/6?lang=eng'
+    quote: 'he shall come unto us as the rain'
+
+  # ---------- note 10:14 (Shalman) ----------
+  - where: 'note 10:14 “Shalman and Beth-arbel are not known”'
+    claim: 'Another guess: Gideon’s victory over Zalmunna, general of the Midianites'
+    key: clarke-commentary
+    url: 'https://biblehub.com/commentaries/clarke/hosea/10.htm'
+    quote: "Some think that this refers to Jerubbaal, or Gideon's victory over Zalmunna, general of the Midianites"
+  - where: 'note 10:14 “Shalman and Beth-arbel are not known”'
+    claim: 'The manual gives the guess that Shalman is Shalmaneser and Beth-arbel the city Arbela'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'Shalman may be Shalmaneser and Beth-arbel may be the Armenian city Arbela, which Shalmaneser destroyed while still a general under Tiglath-pileser'
+  - where: 'note 10:14 “Shalman and Beth-arbel are not known”'
+    claim: 'The commentary the manual cites reports that guess and another (Gideon and Zalmunna) and judges the history unknown'
+    key: clarke-commentary
+    url: 'https://biblehub.com/commentaries/clarke/hosea/10.htm'
+    quote: 'I think the history to which this refers is unknown. It seems that it was distinguished by some remarkable ferocities.'
+  - where: 'note 10:14 “Shalman and Beth-arbel are not known”'
+    claim: 'The same commentary on the mother and children: when, where and by whom is unknown'
+    key: clarke-commentary
+    url: 'https://biblehub.com/commentaries/clarke/hosea/10.htm'
+    quote: 'But when, where, how, and by whom, still remain unknown.'
+  - where: 'note 10:14 “Shalman and Beth-arbel are not known”'
+    claim: 'The lexicon calls the name doubtful and records a Moabite prince Salamanu in Assyrian records as another candidate'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8020.htm'
+    quote: 'Assyrian Salamanu, of Moabite prince'
+  - where: 'note 10:14 “Shalman and Beth-arbel are not known”'
+    claim: 'The lexicon on Beth-arbel: perhaps Arbel near Pella east of the Jordan, or in Galilee'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1009.htm'
+    quote: 'perhaps Arbel near Pella (east of Jordan)'
+  - where: 'note 10:14 “Shalman and Beth-arbel are not known”'
+    claim: 'The Septuagint reads the names as Solomon and Jeroboam'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/hosea/10.htm'
+    quote: 'as a prince Solomon departed out of the house of Jeroboam'
+  - where: 'note 10:14 “Shalman and Beth-arbel are not known”'
+    claim: 'The Church’s footnote on “Shalman” points to 2 Kings 17:3, Shalmaneser’s coming against Hoshea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng'
+    quote: 'Against him came up Shalmaneser king of Assyria'
+
+  - where: 'note 10:14 “Shalman and Beth-arbel are not known”'
+    claim: 'The lexicon marks the name as doubtful'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8020.htm'
+    quote: 'dubious'
+  - where: 'note 10:14 “Shalman and Beth-arbel are not known”'
+    claim: 'Or Beth-arbel in Galilee'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1009.htm'
+    quote: 'but in Galilee'
+
+  # ---------- note 10:14 (mother and children) ----------
+  - where: 'note 10:14 “The mother and her children”'
+    claim: 'The images describe what the cities will face on their present course'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'will face if they continue on their current trajectory'
+  - where: 'note 10:14 “The mother and her children”'
+    claim: 'Assyria’s armies were savage and brutal'
+    key: ot-manual-kings-d
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/enrichment-d?lang=eng'
+    quote: 'They were savage and brutal as well.'
+  - where: 'note 10:14 “The mother and her children”'
+    claim: 'An Israelite king, Menahem, ripped up the women with child at Tiphsah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/15?lang=eng'
+    quote: 'all the women therein that were with child he ripped up'
+  - where: 'note 10:14 “The mother and her children”'
+    claim: 'The severe images are set between depictions of God’s love and of the relationship He wants and Israel rejects'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'interspersed between each of these grotesque images of consequences and judgment are depictions of God’s love and faithfulness to his people—the relationship that he wants but that Israel rejects'
+  - where: 'note 10:14 “The mother and her children”'
+    claim: 'The article names 10:12–15 among the passages on the destruction of women and children and says such symbols do not justify violence'
+    key: hord-not-fragile
+    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
+    quote: 'These symbols are not justifications of violence against women'
+  - where: 'note 10:14 “The mother and her children”'
+    claim: 'Hosea 13:16 says the same of Samaria (the Church’s footnote on “dashed” points to it)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/10?lang=eng'
+    quote: 'Hosea 13:16 (15–16)'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'Jesus spoke the words of verse 8 on the way to the cross'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/23?lang=eng'
+    quote: 'Then shall they begin to say to the mountains, Fall on us; and to the hills, Cover us.'
+  - where: 'christ'
+    claim: 'The green tree is the time of the Savior’s mortal ministry and the dry tree the time after He was gone'
+    key: nt-student-manual-20
+    url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/introduction-to-the-gospel-according-to-st-luke/chapter-20-luke-23-24?lang=eng'
+    quote: 'The “green tree” described in Luke 23:31 represents the time of Jesus Christ’s mortal ministry.'
+  - where: 'christ'
+    claim: 'The dry tree is the time after the Savior was gone'
+    key: nt-student-manual-20
+    url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/introduction-to-the-gospel-according-to-st-luke/chapter-20-luke-23-24?lang=eng'
+    quote: 'a time represented by the “dry tree.”'
+  - where: 'christ'
+    claim: 'Revelation 6:16: the hiding is from the wrath of the Lamb'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/6?lang=eng'
+    quote: 'from the wrath of the Lamb'
+  # ---------- explore ----------
+
+  - where: 'explore'
+    claim: 'The Church’s footnote on “fruit” (10:1) points to Jacob 5'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/10?lang=eng'
+    quote: 'Jacob 5:32 (1–77)'
+
+  # ---------- parallels ----------
+  - where: 'parallels'
+    claim: 'Luke 23:30 and Revelation 6:16 take up verse 8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/23?lang=eng'
+    quote: 'Then shall they begin to say to the mountains, Fall on us; and to the hills, Cover us.'
