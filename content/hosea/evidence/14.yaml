@@ -265,11 +265,6 @@ claims:
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/14?lang=eng'
     quote: 'Isa. 31:1; Hosea 1:7'
-  - where: 'note 14:3 “Three helps given up by name”'
-    claim: 'The phrase has been heard as a play on the name Hosea'
-    key: bowen-fruit-of-loins
-    url: 'https://interpreterfoundation.org/journal/thou-art-the-fruit-of-my-loins-the-interrelated-symbolism-and-meanings-of-the-names-joseph-and-ephraim-in-ancient-scripture'
-    quote: 'the phrases “Asshur will not save us” and “in thee the fatherless find mercy” play on the names Hosea and Lo-ruhamah, respectively.'
 
   # ---- note 14:3 fatherless ----
   - where: 'note 14:3 “Lo-ruhamah’s word, without the “not””'
@@ -319,11 +314,6 @@ claims:
     quote: 'אֶרְפָּא֙'
 
   # ---- note 14:5 ----
-  - where: 'note 14:5 “The Lord as the dew”'
-    claim: 'The word “dew” (H2919) is in Hosea three times: 6:4; 13:3; 14:5 (count from scripts/hebrew.mjs hosea --word 2919)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
-    quote: 'כַ/טַּל֙'
   - where: 'note 14:5 “The Lord as the dew”'
     claim: 'Dew mattered in that land because of the long rainless season'
     key: bd-dew
