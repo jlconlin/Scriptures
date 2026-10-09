@@ -1,0 +1,729 @@
+chapter: 11
+claims:
+  # when, setting, thread
+  - where: 'when'
+    claim: 'Cyrus conquered Babylon in 539 B.C.'
+    key: scripture-helps-dan
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/44-daniel-1-7?lang=eng'
+    quote: 'lasting into the reign of King Cyrus of Persia, who conquered Babylon in 539 BC'
+  - where: 'when'
+    claim: 'The vision of chapters 10–12 is dated to the third year of Cyrus'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/10?lang=eng'
+    quote: 'In the third year of Cyrus king of Persia a thing was revealed unto Daniel'
+  - where: 'setting'
+    claim: 'The messenger of chapter 10 states his purpose and what he will tell (10:14, 21)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/10?lang=eng'
+    quote: 'But I will shew thee that which is noted in the scripture of truth: and there is none that holdeth with me in these things, but Michael your prince.'
+  - where: 'setting'
+    claim: 'The speech runs on to 12:4, where Daniel is told to shut up the words'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/12?lang=eng'
+    quote: 'But thou, O Daniel, shut up the words, and seal the book, even to the time of the end'
+  - where: 'setting'
+    claim: 'Verse 1 belongs with 10:21; Keil refers “him” to Michael'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'the connection of this verse with Daniel 10:21 is placed beyond a doubt'
+  - where: 'setting'
+    claim: 'Others (Hävernick, Hengstenberg) refer “him” to Darius'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'to Darius (Hv., Hengstb.) is excluded by this'
+  - where: 'setting'
+    claim: 'The history is a background, to show its effects on the Lord’s people'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'Daniel’s intention was not to emphasize the history but only to give it as a background in order to indicate its effects upon the Lord’s people'
+  - where: 'setting'
+    claim: 'An overview of main events, not a detailed chronology'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'Daniel did not intend to present a detailed chronology of future events but rather to give an overview of some of the main events that would influence the Lord’s people'
+  - where: 'setting'
+    claim: 'Several things in the chapter apply to more than one period'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'Several things Daniel mentioned seem to be dualistic, having application to more than one period of time.'
+  - where: 'setting'
+    claim: 'The Church’s chapter heading'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/11?lang=eng'
+    quote: 'Daniel sees the successive kings and their wars, leagues, and conflicts that lead up to the Second Coming of Christ.'
+  - where: 'thread'
+    claim: 'The speech ends with Michael, deliverance and the dead awaking (12:1–3)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/12?lang=eng'
+    quote: 'And many of them that sleep in the dust of the earth shall awake, some to everlasting life, and some to shame and everlasting contempt.'
+
+  # plain-words sections
+  - where: 'section 2 plain'
+    claim: 'Verse 8: “princes” is molten images'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/11?lang=eng'
+    quote: 'HEB molten images.'
+  - where: 'section 2 plain'
+    claim: 'Verse 14: “robbers” is oppressors'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/11?lang=eng'
+    quote: 'HEB oppressors.'
+  - where: 'section 2 plain'
+    claim: 'Verse 15: “mount” is siegework'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/11?lang=eng'
+    quote: 'OR siegework.'
+  - where: 'section 3 plain'
+    claim: 'Verse 21: “vile” is contemptible'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/959.htm'
+    quote: '3 despicable, contemptible Malachi 1:7'
+  - where: 'section 4 plain'
+    claim: 'Verse 38: “forces” is fortresses (the word for a place of safety, used of fortresses in 11:7, 10, 19)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4581.htm'
+    quote: 'Ezekiel 24:25; Ezekiel 30:15; Daniel 11:7,10,19'
+  - where: 'section 4 plain'
+    claim: 'Verse 38 rendered “the god of fortresses”'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'On the other hand, he will honour the god of fortresses.'
+  - where: 'section 4 plain'
+    claim: 'Verse 43: “at his steps” is march with him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/11?lang=eng'
+    quote: 'IE march with him.'
+
+  # note 11:3
+  - where: 'note 11:3 “Persia’s kings and the mighty king (verses 2–4)”'
+    claim: 'Chapter 8 names Media and Persia, Grecia, its first king, and four kingdoms after him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: 'Now that being broken, whereas four stood up for it, four kingdoms shall stand up out of the nation, but not in his power.'
+  - where: 'note 11:3 “Persia’s kings and the mighty king (verses 2–4)”'
+    claim: 'Alexander of Macedon: his dates and the reach of his empire'
+    key: bd-alexander
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/alexander?lang=eng'
+    quote: 'King of Macedon, surnamed the Great; born 356 B.C., died 323 B.C. He made himself ruler over a wide empire stretching from Greece to the Indus, including Syria and Egypt.'
+  - where: 'note 11:3 “Persia’s kings and the mighty king (verses 2–4)”'
+    claim: 'After Alexander his government fell among many; Seleucus had Babylon'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'And as his government fell among many, Antigonus obtained Asia: Seleucus, Babylon'
+  - where: 'note 11:3 “Persia’s kings and the mighty king (verses 2–4)”'
+    claim: 'Ptolemy the son of Lagus seized Egypt'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'As did Ptolemy the son of Lagus seize upon Egypt.'
+  - where: 'note 11:3 “Persia’s kings and the mighty king (verses 2–4)”'
+    claim: 'Alexander’s officers took crowns after his death (1 Maccabees 1:9)'
+    key: first-maccabees
+    url: 'https://biblehub.com/apocrypha/1_maccabees/1.htm'
+    quote: 'And after his death they all put crowns upon themselves; so did their sons after them many years'
+  - where: 'note 11:3 “Persia’s kings and the mighty king (verses 2–4)”'
+    claim: 'Keil’s reading of the four Persian kings'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'the three successors of Cyrus, viz., Cambyses, the pseudo-Smerdis, and Darius Hystaspes; the fourth is then Xerxes'
+  - where: 'note 11:3 “Persia’s kings and the mighty king (verses 2–4)”'
+    claim: 'Xerxes spent his treasure on a host to conquer Greece (Hitzig, as Keil quotes him)'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'Xerxes expended his treasures for the raising and arming of an immense host'
+  - where: 'note 11:3 “Persia’s kings and the mighty king (verses 2–4)”'
+    claim: 'The list closes with Xerxes though Persia had later kings; his expedition began the conflict that ended with Alexander'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'which led to the destruction of the Persian kingdom by Alexander the Great. The reply of Alexander to Darius Codomannus'
+  - where: 'note 11:3 “Persia’s kings and the mighty king (verses 2–4)”'
+    claim: 'The prophecy gives only the elements of the development'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'mentions only the elements and factors which constitute the historical development'
+
+  # note 11:5
+  - where: 'note 11:5 “The kings of the south and of the north (verses 5–20)”'
+    claim: 'The text names Egypt as the land of the king of the south (verse 8); Jerome is an early source of the identifications'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/11?lang=eng'
+    quote: 'And shall also carry captives into Egypt their gods'
+  - where: 'note 11:5 “The kings of the south and of the north (verses 5–20)”'
+    claim: 'Egypt went to Ptolemy the son of Lagus'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'As did Ptolemy the son of Lagus seize upon Egypt.'
+  - where: 'note 11:5 “The kings of the south and of the north (verses 5–20)”'
+    claim: 'Seleucus obtained Syria'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'obtained, according to Appian, Syr. c. 55, Syria from the Euphrates to the Mediterranean Sea'
+  - where: 'note 11:5 “The kings of the south and of the north (verses 5–20)”'
+    claim: 'Verse 5: Ptolemy Lagus and Seleucus'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'Thus all interpreters regard the king of the south, Daniel 11:5, as Ptolemy Lagus'
+  - where: 'note 11:5 “The kings of the south and of the north (verses 5–20)”'
+    claim: 'Seleucus once fled to Ptolemy in Egypt'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'under the necessity of fleeing to Egypt to Ptolemy, by whom he was hospitably received'
+  - where: 'note 11:5 “The kings of the south and of the north (verses 5–20)”'
+    claim: 'Verse 6: the marriage of Berenice, as explained by Jerome and those who follow him'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'on the condition that Antiochus should put away his own wife Laodice, who was at the same time his half-sister, and disinherit her son, and should marry Berenice, the daughter of Ptolemy'
+  - where: 'note 11:5 “The kings of the south and of the north (verses 5–20)”'
+    claim: 'The explanation goes back to Jerome'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'is thus explained by Jerome, and all interpreters who follow him'
+  - where: 'note 11:5 “The kings of the south and of the north (verses 5–20)”'
+    claim: 'Verses 7–9: her brother Ptolemy Euergetes invaded Syria in revenge for her murder'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'her brother, Ptolemy Euergetes, invaded the Syrian kingdom'
+  - where: 'note 11:5 “The kings of the south and of the north (verses 5–20)”'
+    claim: 'She was murdered'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'since he had come too late to save his sister, in revenge for her murder'
+  - where: 'note 11:5 “The kings of the south and of the north (verses 5–20)”'
+    claim: 'Verses 10–12: Antiochus the Great and his defeat at Raphia'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'His brother Antiochus, surnamed the Great, succeeded him'
+  - where: 'note 11:5 “The kings of the south and of the north (verses 5–20)”'
+    claim: 'Raphia'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'he was defeated by the Egyptians at Raphia, not far from Gaza'
+  - where: 'note 11:5 “The kings of the south and of the north (verses 5–20)”'
+    claim: 'Antiochus later defeated Scopas and took Judea (Antiquities 12.3.3)'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'Yet was it not long afterward when Antiochus overcame Scopas; in a battel fought at the fountains of Jordan'
+  - where: 'note 11:5 “The kings of the south and of the north (verses 5–20)”'
+    claim: 'He gave his daughter Cleopatra to Ptolemy (Antiquities 12.4.1)'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'After this Antiochus made a friendship and league with Ptolemy; and gave him his daughter Cleopatra to wife'
+  - where: 'note 11:5 “The kings of the south and of the north (verses 5–20)”'
+    claim: 'Verse 20: Seleucus Philopator, if the verses before are of Antiochus the Great'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'Seleucus Philopator, to whom Daniel 11:20 must refer, if the foregoing verses treat of Antiochus the Great'
+  - where: 'note 11:5 “The kings of the south and of the north (verses 5–20)”'
+    claim: 'The prophecy has four kings of the north and three of the south'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'there is mention made of only four kings of the north'
+  - where: 'note 11:5 “The kings of the south and of the north (verses 5–20)”'
+    claim: 'Three kings of the south'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'and three kings of the south'
+  - where: 'note 11:5 “The kings of the south and of the north (verses 5–20)”'
+    claim: 'History does not match the prophecy exhaustively'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'the historical reality does not correspond with the contents of the prophecy in anything like an exhaustive manner'
+  - where: 'note 11:5 “The kings of the south and of the north (verses 5–20)”'
+    claim: 'The two kings stand for the two kingdoms'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'as representatives of the power of these two kingdoms'
+
+  # note 11:16
+  - where: 'note 11:16 “The glorious land”'
+    claim: 'The word is used of the land of Israel (Ezekiel 20:6, 15)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6643.htm'
+    quote: 'of land of Israel (Judah),'
+  - where: 'note 11:16 “The glorious land”'
+    claim: 'The word occurs four times in Daniel: 8:9; 11:16, 41, 45 (scripts/hebrew.mjs daniel --word 6643; the form quoted is that of 11:45)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'צְבִי'
+  - where: 'note 11:16 “The glorious land”'
+    claim: 'Judea lay between the Ptolemies and the Seleucids'
+    key: ot-manual-kings-k
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/enrichment-k?lang=eng'
+    quote: 'Judea lay directly between the two rivals.'
+  - where: 'note 11:16 “The glorious land”'
+    claim: 'It fell to the Ptolemies in 301 B.C.'
+    key: ot-manual-kings-k
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/enrichment-k?lang=eng'
+    quote: 'In 301 B.C. it finally fell to the Ptolemies of Egypt, to whom it belonged for one hundred years.'
+  - where: 'note 11:16 “The glorious land”'
+    claim: 'The Seleucids held it from 200 B.C.'
+    key: ot-manual-kings-k
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/enrichment-k?lang=eng'
+    quote: 'It was not until 200 B.C. that the Seleucids were able to capture and hold Judea.'
+  - where: 'note 11:16 “The glorious land”'
+    claim: 'Josephus on the Jews in the wars of Antiochus the Great (Antiquities 12.3.3)'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'So that they were very like to a ship in a storm; which is tossed by the waves on both sides'
+  - where: 'note 11:16 “The glorious land”'
+    claim: 'The messenger came to show what would befall Daniel’s people'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/10?lang=eng'
+    quote: 'Now I am come to make thee understand what shall befall thy people in the latter days'
+
+  # note 11:21
+  - where: 'note 11:21 “The vile person (verses 21–35)”'
+    claim: 'The word means despicable, contemptible'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/959.htm'
+    quote: '3 despicable, contemptible Malachi 1:7'
+  - where: 'note 11:21 “The vile person (verses 21–35)”'
+    claim: 'The lexicon identifies the person as Antiochus Epiphanes'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/959.htm'
+    quote: 'Daniel 11:21 as substantive of Antiochus Epiph.'
+  - where: 'note 11:21 “The vile person (verses 21–35)”'
+    claim: 'Who Antiochus was'
+    key: bd-antiochus-epiphanes
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/antiochus-epiphanes?lang=eng'
+    quote: 'King of Syria (175–164 B.C.), at a time when Palestine was a Syrian province. He resolved to try to crush all that was distinctive of Jewish nationality and worship.'
+  - where: 'note 11:21 “The vile person (verses 21–35)”'
+    claim: 'Antiochus’s expedition against Egypt (Antiquities 12.5.2)'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'resolved to make an expedition against Egypt'
+  - where: 'note 11:21 “The vile person (verses 21–35)”'
+    claim: 'He took Egypt by treachery'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'circumvented Ptolemy Philometor by treachery; and seized upon Egypt'
+  - where: 'note 11:21 “The vile person (verses 21–35)”'
+    claim: 'The Romans drove him out'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'But he was driven not only from Alexandria, but out of all Egypt, by the declaration of the Romans'
+  - where: 'note 11:21 “The vile person (verses 21–35)”'
+    claim: 'He then subdued Judea and the temple'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'how he subdued Judea and the temple'
+  - where: 'note 11:21 “The vile person (verses 21–35)”'
+    claim: 'He emptied the temple of its treasures and forbade the daily sacrifices (Antiquities 12.5.4)'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'For he forbad them to offer those daily sacrifices which they used to offer to God, according to the law.'
+  - where: 'note 11:21 “The vile person (verses 21–35)”'
+    claim: 'He emptied the temple of its treasures'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'He also emptied it of its secret treasures'
+  - where: 'note 11:21 “The vile person (verses 21–35)”'
+    claim: 'Chittim: the people of Cyprus'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3794.htm'
+    quote: 'name, of a people = Cypriotes'
+  - where: 'note 11:21 “The vile person (verses 21–35)”'
+    claim: 'Chittim more widely: the Mediterranean coastlands'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3794.htm'
+    quote: 'more Generally, of coast-lands of Mediterranean'
+  - where: 'note 11:21 “The vile person (verses 21–35)”'
+    claim: 'A Hellenizing movement among the Jews helped him'
+    key: bd-maccabees
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/maccabees?lang=eng'
+    quote: 'At first he met with considerable success, owing partly to a Hellenizing movement among the Jews themselves'
+  - where: 'note 11:21 “The vile person (verses 21–35)”'
+    claim: 'Josephus read Daniel’s earlier vision (chapter 8) as fulfilled under Antiochus (Antiquities 10.11.7)'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-10.html'
+    quote: 'our nation suffered these things under Antiochus Epiphanes, according to Daniel’s vision; and what he wrote many years before they came to pass'
+  - where: 'note 11:21 “The vile person (verses 21–35)”'
+    claim: 'The little horn of chapter 8 grew toward the pleasant land'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: 'toward the south, and toward the east, and toward the pleasant land'
+
+  # note 11:27
+  - where: 'note 11:27 “The time appointed”'
+    claim: 'The word is moed; it occurs in Daniel at 8:19; 11:27, 29, 35; 12:7 (scripts/hebrew.mjs daniel --word 4150)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'מּוֹעֵֽד'
+  - where: 'note 11:27 “The time appointed”'
+    claim: 'The lexicon lists these verses under “at the appointed time”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4150.htm'
+    quote: 'Daniel 8:19; Daniel 11:27,29,35'
+  - where: 'note 11:27 “The time appointed”'
+    claim: 'Chapter 8 uses the same phrase'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: 'for at the time appointed the end shall be'
+
+  # note 11:31
+  - where: 'note 11:31 “The abomination that maketh desolate”'
+    claim: 'Shiqquts is a detested thing'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8251.htm'
+    quote: 'detested thing'
+  - where: 'note 11:31 “The abomination that maketh desolate”'
+    claim: 'The participle means appalling, causing horror'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8074.htm'
+    quote: 'transitive appalling, causing horror'
+  - where: 'note 11:31 “The abomination that maketh desolate”'
+    claim: 'The Hebrew phrase is a noun and a participle (scripts/hebrew.mjs daniel 11:31)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'מְשׁוֹמֵֽם'
+  - where: 'note 11:31 “The abomination that maketh desolate”'
+    claim: '1 Maccabees 1:54 uses the phrase of what Antiochus’s men set on the altar'
+    key: first-maccabees
+    url: 'https://biblehub.com/apocrypha/1_maccabees/1.htm'
+    quote: 'they set up the abomination of desolation upon the altar, and builded idol altars throughout the cities of Juda on every side'
+  - where: 'note 11:31 “The abomination that maketh desolate”'
+    claim: 'Josephus: an idol altar on God’s altar (Antiquities 12.5.4)'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'And when the King had built an idol altar'
+  - where: 'note 11:31 “The abomination that maketh desolate”'
+    claim: 'Swine sacrificed on it'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'he slew swine upon it, and so offered a sacrifice neither according to the law'
+  - where: 'note 11:31 “The abomination that maketh desolate”'
+    claim: 'Josephus saw Daniel’s prophecy fulfilled (Antiquities 12.7.6)'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'And this desolation came to pass according to the prophecy of Daniel'
+  - where: 'note 11:31 “The abomination that maketh desolate”'
+    claim: 'Jesus names Daniel and uses the phrase'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/24?lang=eng'
+    quote: 'When ye therefore shall see the abomination of desolation, spoken of by Daniel the prophet, stand in the holy place, (whoso readeth, let him understand:)'
+  - where: 'note 11:31 “The abomination that maketh desolate”'
+    claim: 'Joseph Smith—Matthew applies it to the destruction of Jerusalem and has the disciples stand in the holy place'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-m/1?lang=eng'
+    quote: 'concerning the destruction of Jerusalem, then you shall stand in the holy place; whoso readeth let him understand.'
+  - where: 'note 11:31 “The abomination that maketh desolate”'
+    claim: 'Joseph Smith—Matthew applies it again to the last days'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-m/1?lang=eng'
+    quote: 'And again shall the abomination of desolation, spoken of by Daniel the prophet, be fulfilled.'
+  - where: 'note 11:31 “The abomination that maketh desolate”'
+    claim: 'The prophecy was to be fulfilled twice'
+    key: bd-abomination-of-desolation
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abomination-of-desolation?lang=eng'
+    quote: 'Conditions of desolation, born of abomination and wickedness, were to occur twice in fulfillment of Daniel’s words.'
+  - where: 'note 11:31 “The abomination that maketh desolate”'
+    claim: 'The first: the Roman siege of A.D. 70'
+    key: bd-abomination-of-desolation
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abomination-of-desolation?lang=eng'
+    quote: 'The first was to be when the Roman legions under Titus, in A.D. 70, laid siege to Jerusalem'
+  - where: 'note 11:31 “The abomination that maketh desolate”'
+    claim: 'The second: Jerusalem under siege again'
+    key: bd-abomination-of-desolation
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abomination-of-desolation?lang=eng'
+    quote: 'That is, Jerusalem again will be under siege.'
+  - where: 'note 11:31 “The abomination that maketh desolate”'
+    claim: 'The wider use in the Doctrine and Covenants'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'the desolation of abomination which awaits the wicked, both in this world and in the world to come'
+  - where: 'note 11:31 “The abomination that maketh desolate”'
+    claim: 'The revision makes the disciples, not the abomination, stand in the holy place'
+    key: bradshaw-holy-place
+    url: 'https://interpreterfoundation.org/journal/standing-in-the-holy-place-ancient-and-modern-reverberations-of-an-enigmatic-new-testament-prophecy'
+    quote: 'the jst version enjoins the apostles to “stand in the holy place” when the “abomination of desolation” appears'
+  - where: 'note 11:31 “The abomination that maketh desolate”'
+    claim: 'Bradshaw argues the idea is ancient'
+    key: bradshaw-holy-place
+    url: 'https://interpreterfoundation.org/journal/standing-in-the-holy-place-ancient-and-modern-reverberations-of-an-enigmatic-new-testament-prophecy'
+    quote: 'far from being a modern invention, reverberates throughout the religious thought of earlier times'
+  - where: 'note 11:31 “The abomination that maketh desolate”'
+    claim: 'In D&C 45 the Lord again refers to the prophecies of the Olivet Discourse, Daniel’s among them'
+    key: sc-knowhy-790
+    url: 'https://scripturecentral.org/knowhy/why-does-doctrine-and-covenants-45-quote-the-book-of-zechariah'
+    quote: 'just as He did when He gave the Olivet Discourse in mortality, Jesus also referenced various Old Testament prophecies regarding the Day of the Lord, such as those from Joel or Daniel'
+  - where: 'note 11:31 “The abomination that maketh desolate”'
+    claim: 'D&C 45:32'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/45?lang=eng'
+    quote: 'But my disciples shall stand in holy places, and shall not be moved'
+
+  # note 11:32
+  - where: 'note 11:32 “Those who knew their God”'
+    claim: 'Many in Israel refused (1 Maccabees 1:62)'
+    key: first-maccabees
+    url: 'https://biblehub.com/apocrypha/1_maccabees/1.htm'
+    quote: 'Howbeit many in Israel were fully resolved and confirmed in themselves not to eat any unclean thing.'
+  - where: 'note 11:32 “Those who knew their God”'
+    claim: 'They died rather than profane the covenant (1 Maccabees 1:63)'
+    key: first-maccabees
+    url: 'https://biblehub.com/apocrypha/1_maccabees/1.htm'
+    quote: 'that they might not profane the holy covenant: so then they died'
+  - where: 'note 11:32 “Those who knew their God”'
+    claim: 'Josephus on those who would not obey the king (Antiquities 12.5.4)'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'those of the noblest souls did not regard him'
+  - where: 'note 11:32 “Those who knew their God”'
+    claim: 'They were whipped, torn and crucified'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'For they were whipped with rods; and their bodies were torn to pieces, and were crucified, while they were still alive'
+  - where: 'note 11:32 “Those who knew their God”'
+    claim: 'Resistance began with Mattathias'
+    key: bd-maccabees
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/maccabees?lang=eng'
+    quote: 'where an aged priest named Mattathias, of the family of Hasmon or Chasmon, slew the sacrificers'
+  - where: 'note 11:32 “Those who knew their God”'
+    claim: 'Judas Maccabaeus led after him'
+    key: bd-maccabees
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/maccabees?lang=eng'
+    quote: 'his son Judas, surnamed Maccabaeus'
+  - where: 'note 11:32 “Those who knew their God”'
+    claim: 'The temple was restored and a new altar dedicated'
+    key: bd-maccabees
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/maccabees?lang=eng'
+    quote: 'The ruined temple was restored, the desecrated altar was pulled down and reconstructed, and the new altar was dedicated amid great rejoicing.'
+  - where: 'note 11:32 “Those who knew their God”'
+    claim: '1 Maccabees is in the Apocrypha and tells this history'
+    key: bd-maccabees
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/maccabees?lang=eng'
+    quote: 'The first book of Maccabees (see Apocrypha) contains a history of events from 175 to 135 B.C.'
+  - where: 'note 11:32 “Those who knew their God”'
+    claim: 'Its value as history'
+    key: bd-maccabees
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/maccabees?lang=eng'
+    quote: 'It forms a historical document of the highest importance.'
+  - where: 'note 11:32 “Those who knew their God”'
+    claim: 'Details in the chapter seem related to the Maccabean revolt'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'there are also details that seem related to the Maccabean revolt against Antiochus Epiphanes'
+  - where: 'note 11:32 “Those who knew their God”'
+    claim: 'Verse 33’s list of how they fall'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/11?lang=eng'
+    quote: 'yet they shall fall by the sword, and by flame, by captivity, and by spoil, many days'
+
+  # note 11:33
+  - where: 'note 11:33 “They that understand”'
+    claim: 'The causative verb means give insight, teach'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7919.htm'
+    quote: 'cause to consider, give insight, teach'
+  - where: 'note 11:33 “They that understand”'
+    claim: 'The lexicon renders the participle in Daniel 11:33, 35; 12:3, 10 as the teachers'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7919.htm'
+    quote: 'Daniel 11:33,35; Daniel 12:3,10 the teachers'
+  - where: 'note 11:33 “They that understand”'
+    claim: 'The participle in 11:33 (scripts/hebrew.mjs daniel --word 7919 lists 1:4; 11:33, 35; 12:3, 10 as plural participles)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'מַשְׂכִּ֣ילֵי'
+  - where: 'note 11:33 “They that understand”'
+    claim: 'The same word in 1:4, “skilful”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'מַשְׂכִּילִ֣ים'
+  - where: 'note 11:33 “They that understand”'
+    claim: 'Daniel 12:3 and 12:10 on the wise'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/12?lang=eng'
+    quote: 'Many shall be purified, and made white, and tried; but the wicked shall do wickedly: and none of the wicked shall understand; but the wise shall understand.'
+  - where: 'note 11:33 “They that understand”'
+    claim: 'Daniel 1:4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/1?lang=eng'
+    quote: 'skilful in all wisdom'
+
+  # note 11:36
+  - where: 'note 11:36 “The king who exalts himself (verses 36–45)”'
+    claim: 'Jerome: verses 21–35 of Antiochus, 36–45 of Antichrist'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'concludes that Daniel 11:21-35 treat of Antiochus Epiphanes, and Daniel 11:36-45 of Antichrist'
+  - where: 'note 11:36 “The king who exalts himself (verses 36–45)”'
+    claim: 'This is Jerome’s interpretation'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'the church interpretation given by Jerome'
+  - where: 'note 11:36 “The king who exalts himself (verses 36–45)”'
+    claim: 'Most modern interpreters (of Keil’s day) read all of verses 21–45 of Antiochus'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'Proceeding from the view that the whole of the second half of this chapter (vv. 21-45) treats of Antiochus and his undertakings, most modern interpreters find in the verses the prophecy of a last expedition of this Syrian king against Egypt'
+  - where: 'note 11:36 “The king who exalts himself (verses 36–45)”'
+    claim: 'Objection: Antiochus promoted the worship of Zeus'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'he even wished to render the worship of Zeus universal'
+  - where: 'note 11:36 “The king who exalts himself (verses 36–45)”'
+    claim: 'Objection: no such last expedition against Egypt is recorded'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'But regarding this expedition not only are historians silent'
+  - where: 'note 11:36 “The king who exalts himself (verses 36–45)”'
+    claim: 'Objection: verse 45 puts the king’s end in the holy land, and Antiochus died in Persia'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'thus meeting with his destruction in the Holy Land not far from Jerusalem, while Antiochus, according to Polybius and Porphyry, died in the Persian city of Tabae'
+  - where: 'note 11:36 “The king who exalts himself (verses 36–45)”'
+    claim: 'Josephus: Antiochus attacked Elymais in Persia, failed, and fell sick (Antiquities 12.9.1)'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'heard, that there was a very rich city in Persia, called Elymais'
+  - where: 'note 11:36 “The king who exalts himself (verses 36–45)”'
+    claim: 'He fell sick after the failure'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'by the anxiety he was in, fell into a distemper'
+  - where: 'note 11:36 “The king who exalts himself (verses 36–45)”'
+    claim: 'The next sentence after the king’s fall'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/12?lang=eng'
+    quote: 'And at that time shall Michael stand up, the great prince which standeth for the children of thy people'
+  - where: 'note 11:36 “The king who exalts himself (verses 36–45)”'
+    claim: 'Joseph Fielding Smith identified Daniel 11–12 as of the last days (as the manual reports)'
+    key: ot-manual-kings-i
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/enrichment-i?lang=eng'
+    quote: 'Elder Joseph Fielding Smith specifically identified Daniel 11–12'
+  - where: 'note 11:36 “The king who exalts himself (verses 36–45)”'
+    claim: 'Near and far events shown with one image'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'It is possible that in the prophetic dualism Daniel showed near-future and far-future events with the same image.'
+  - where: 'note 11:36 “The king who exalts himself (verses 36–45)”'
+    claim: 'Much suggests Armageddon'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'suggests the future battle of Armageddon'
+  - where: 'note 11:36 “The king who exalts himself (verses 36–45)”'
+    claim: 'Details could relate to Rome'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'They could also relate to the fall of Judah to Rome.'
+  - where: 'note 11:36 “The king who exalts himself (verses 36–45)”'
+    claim: 'Paul’s words in 2 Thessalonians 2:4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/2-thes/2?lang=eng'
+    quote: 'Who opposeth and exalteth himself above all that is called God, or that is worshipped'
+  - where: 'note 11:36 “The king who exalts himself (verses 36–45)”'
+    claim: 'The words of verse 36 are those of 2 Thessalonians 2:4'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'these words before us are expressly referred to Antichrist, 2 Thessalonians 2:4'
+  - where: 'note 11:36 “The king who exalts himself (verses 36–45)”'
+    claim: '“The desire of women”: older interpreters, of the love of women'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'the old interpreters understood of the love of women, or of conjugal love'
+  - where: 'note 11:36 “The king who exalts himself (verses 36–45)”'
+    claim: '“The desire of women”: later interpreters, of a goddess (two are proposed)'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'understand them of the goddess Anatis or Mylitta, the Assyrian Venus'
+
+  # rows added in review
+  - where: 'note 11:3 “Persia’s kings and the mighty king (verses 2–4)”'
+    claim: 'Verse 3 passes to the founder of the Greek (Macedonian) empire, Alexander'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'the angel (Daniel 11:3) passes immediately over to the founder of the Grecian (Macedonian) world-kingdom'
+  - where: 'note 11:3 “Persia’s kings and the mighty king (verses 2–4)”'
+    claim: 'The prophecy closes its list of Persian kings with Xerxes'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'the prophecy closes the list of Persian kings with Xerxes'
+  - where: 'note 11:5 “The kings of the south and of the north (verses 5–20)”'
+    claim: 'The south is Egypt'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/11.htm'
+    quote: 'according to the context, the south denotes Egypt'
+  - where: 'note 11:16 “The glorious land”'
+    claim: 'In Daniel the word is used of Jerusalem and the temple (8:9), the land (11:16, 41), and the temple hill (11:45)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6643.htm'
+    quote: 'especially of Jerusalem and temple Daniel 8:9 (Bev), compare'
+  - where: 'note 11:21 “The vile person (verses 21–35)”'
+    claim: 'Chittim reaches as far as Greece; the ships of 11:30 are glossed as Grecian'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3794.htm'
+    quote: 'even of Macedonian Greece,'
+  - where: 'note 11:31 “The abomination that maketh desolate”'
+    claim: 'In a general sense the phrase describes latter-day judgments on the wicked (D&C 84:114, 117; 88:84–85)'
+    key: bd-abomination-of-desolation
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abomination-of-desolation?lang=eng'
+    quote: 'In a general sense, abomination of desolation also describes the latter-day judgments to be poured out upon the wicked wherever they may be.'
+  - where: 'note 11:31 “The abomination that maketh desolate”'
+    claim: 'Bradshaw joins standing in the holy place (JST) with not being moved in the Doctrine and Covenants; his note 52 on the phrase cites D&C 45:32'
+    key: bradshaw-holy-place
+    url: 'https://interpreterfoundation.org/journal/standing-in-the-holy-place-ancient-and-modern-reverberations-of-an-enigmatic-new-testament-prophecy'
+    quote: '52. D&C 45:32. See also D&C 87:8, 124:45.'
+  - where: 'christ'
+    claim: 'The phrase the Savior used is that of Daniel 11:31 and 12:11'
+    key: bd-abomination-of-desolation
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abomination-of-desolation?lang=eng'
+    quote: 'and the phrase was recoined in New Testament times to say “the abomination of desolation, spoken of by Daniel the prophet” (Matt. 24:15)'
+
+  # note 11:38
+  - where: 'note 11:38 “The god of fortresses”'
+    claim: 'The word is the “fortress” of 11:7, 10 (and 19)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4581.htm'
+    quote: 'Ezekiel 24:25; Ezekiel 30:15; Daniel 11:7,10,19'
+  - where: 'note 11:38 “The god of fortresses”'
+    claim: 'The lexicon lists 11:38 as of a heathen god, unnamed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4581.htm'
+    quote: 'b. of a heathen god,'
+  - where: 'note 11:38 “The god of fortresses”'
+    claim: 'The word in 11:38 (scripts/hebrew.mjs daniel 11:38)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'מָֽעֻזִּ֔ים'
+  - where: 'note 11:38 “The god of fortresses”'
+    claim: 'The same word in 11:31, “the sanctuary of strength” (scripts/hebrew.mjs daniel 11:31)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'מָּעוֹז֙'
+
+  # christ, explore
+  - where: 'christ'
+    claim: 'The Savior names Daniel and tells the reader to understand'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/24?lang=eng'
+    quote: 'When ye therefore shall see the abomination of desolation, spoken of by Daniel the prophet, stand in the holy place, (whoso readeth, let him understand:)'
+  - where: 'christ'
+    claim: 'In Joseph Smith—Matthew the Son of Man comes after the second fulfilment (1:32–36)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-m/1?lang=eng'
+    quote: 'they shall see the Son of Man coming in the clouds of heaven, with power and great glory'
+  - where: 'christ'
+    claim: 'Matthew 24’s Son of man coming in the clouds is the figure of Daniel 7:13'
+    key: ludlow-son-of-man
+    url: 'https://rsc.byu.edu/vol-24-no-1-2023/one-like-son-man-came-clouds-heaven'
+    quote: 'Matthew 24 states that this is precisely the “sign of the Son of man in heaven,” when all the tribes of the earth will see the Son of man “coming in the clouds of heaven with power and great glory”'
+  - where: 'christ'
+    claim: 'Elder Bruce R. McConkie on the last siege (Mormon Doctrine, as the manual prints it)'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'It will be during this siege that Christ will come, the wicked will be destroyed, and the millennial era commenced.'
+  - where: 'christ'
+    claim: 'The kingdom that shall never be destroyed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/2?lang=eng'
+    quote: 'shall the God of heaven set up a kingdom, which shall never be destroyed'
+  - where: 'explore'
+    claim: 'The Church’s footnote at 11:30 points to Numbers 24:24'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/24?lang=eng'
+    quote: 'And ships shall come from the coast of Chittim'
+  - where: 'explore'
+    claim: 'The Church’s footnote at 11:35 points to Zechariah 13:9'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/13?lang=eng'
+    quote: 'will refine them as silver is refined, and will try them as gold is tried'

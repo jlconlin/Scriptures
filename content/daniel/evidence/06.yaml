@@ -1,0 +1,520 @@
+chapter: 6
+claims:
+  # when, setting, thread
+  - where: 'when'
+    claim: 'Cyrus conquered Babylon in 539 B.C.'
+    key: scripture-helps-dan
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/44-daniel-1-7?lang=eng'
+    quote: 'lasting into the reign of King Cyrus of Persia, who conquered Babylon in 539 BC'
+  - where: 'when'
+    claim: 'Chapter 9 is dated to the first year of Darius, of the seed of the Medes'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: 'In the first year of Darius the son of Ahasuerus, of the seed of the Medes, which was made king over the realm of the Chaldeans'
+  - where: 'setting'
+    claim: 'Darius the Median took the kingdom at about sixty-two, after Belshazzar was slain'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/5?lang=eng'
+    quote: 'And Darius the Median took the kingdom, being about threescore and two years old.'
+  - where: 'setting'
+    claim: 'The Hebrew Bible numbers Daniel 5:31 as 6:1 (scripts/hebrew.mjs prints “Dan 5:31 (Hebrew 6:1)”; the verse’s verb is the word quoted)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'קַבֵּ֖ל'
+  - where: 'setting'
+    claim: 'Cyrus conquered Babylon in 539 B.C.; Daniel was taken to Babylon as a young man'
+    key: scripture-helps-dan
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/44-daniel-1-7?lang=eng'
+    quote: 'As young men they were taken to Babylon around the beginning of the sixth century BC'
+  - where: 'setting'
+    claim: 'By the first year of Darius the Mede nearly seventy years had passed since Daniel was taken captive (Sidney B. Sperry, as the manual prints him)'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'It is now seventy years or nearly so since I and my family, not to mention many other Jews, were taken into captivity.'
+  - where: 'setting'
+    claim: 'The Bible Dictionary lists the lions’ den among the book’s stories and says each deliverance is by God’s blessing because of faithfulness'
+    key: bd-daniel-book
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/daniel-book-of?lang=eng'
+    quote: 'In every case, the deliverance of Daniel and his three friends is shown to be brought about by the blessing of God because of their faithfulness.'
+  - where: 'setting'
+    claim: 'The Bible Dictionary: chapters 1–6 are the narratives and chapters 7–12 the visions, so chapter 6 is the last of the stories'
+    key: bd-daniel-book
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/daniel-book-of?lang=eng'
+    quote: 'Dan. 1–6 contains narratives regarding Daniel and his three companions; Dan. 7–12 contains prophetic visions seen by Daniel and reported in his own name.'
+  - where: 'setting'
+    claim: 'In chapter 3 the three refuse to worship the image the king commanded'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
+    quote: 'that they might not serve nor worship any god, except their own God'
+
+  # sections
+  - where: 'section 1 plain'
+    claim: 'The princes are satraps; the king is to suffer no loss; Daniel is one of three'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%206&version=NRSVUE'
+    quote: 'and over them three administrators, one of whom was Daniel; to these the satraps gave account, so that the king might suffer no loss'
+  - where: 'section 2 plain'
+    claim: 'No negligence or corruption; a ban (interdict) that cannot be revoked'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%206&version=NRSVUE'
+    quote: 'no negligence or corruption could be found in him'
+  - where: 'section 2 plain'
+    claim: 'The officials come thronging (the verb regash)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7284.htm'
+    quote: 'shew tumultuousness, come thronging'
+  - where: 'section 3 plain'
+    claim: 'Upper room; seeking mercy; the thing stands fast; exiles from Judah; nothing might be changed'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%206&version=NRSVUE'
+    quote: 'Then those men watched and found Daniel praying and seeking mercy before his God.'
+  - where: 'section 4 plain'
+    claim: 'No entertainment; at first light; found blameless; had trusted'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%206&version=NRSVUE'
+    quote: 'Then at dawn, the king got up and at first light hurried to the den of lions.'
+  - where: 'section 5 plain'
+    claim: 'The lions overpowered them before they reached the bottom'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%206&version=NRSVUE'
+    quote: 'Before they reached the bottom of the den, the lions overpowered them and broke all their bones in pieces.'
+
+  # note 6:1 Darius
+  - where: 'note 6:1 “Darius the Median”'
+    claim: 'The Bible Dictionary says Darius the Mede cannot be identified with a king known to secular history'
+    key: bd-darius
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/darius?lang=eng'
+    quote: 'It is impossible to identify him with any of the kings of Babylon known to secular history.'
+  - where: 'note 6:1 “Darius the Median”'
+    claim: 'Daniel 9:1 calls him of the seed of the Medes and says he was made king over the realm of the Chaldeans'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: 'In the first year of Darius the son of Ahasuerus, of the seed of the Medes, which was made king over the realm of the Chaldeans'
+  - where: 'note 6:1 “Darius the Median”'
+    claim: 'The verb of 5:31 (“took”) is qabbel, H6902'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'קַבֵּ֖ל'
+  - where: 'note 6:1 “Darius the Median”'
+    claim: 'Qabbel means to receive'
+    key: strongs-concordance
+    url: 'https://biblehub.com/hebrew/6902.htm'
+    quote: 'to acquire -- receive, take'
+  - where: 'note 6:1 “Darius the Median”'
+    claim: 'Josephus says Darius took Babylon with his kinsman Cyrus, was the son of Astyages, and had another name among the Greeks'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-10.html'
+    quote: 'But when Babylon was taken by Darius; and when he, with his kinsman Cyrus, had put an end to the dominion of the Babylonians, he was sixty two years old. He was the son of Astyages: and had another name among the Greeks.'
+
+  # note 6:1 satraps
+  - where: 'note 6:1 “Satraps and presidents”'
+    claim: 'The Aramaic word for “princes” is satraps; it also stands in Daniel 3:2, 3, 27'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/324.htm'
+    quote: 'noun masculine plural satraps'
+  - where: 'note 6:1 “Satraps and presidents”'
+    claim: '“President” is sarak, chief or overseer, probably a Persian loan-word'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5632.htm'
+    quote: 'noun masculine chief, overseer'
+  - where: 'note 6:1 “Satraps and presidents”'
+    claim: 'Sarak is probably a loan-word from Persian'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5632.htm'
+    quote: 'loan-word from Persian'
+  - where: 'note 6:1 “Satraps and presidents”'
+    claim: 'Sarak (H5632) occurs in Daniel only at 6:2, 3, 4, 6, 7 (scripts/hebrew.mjs daniel --word 5632: 5 occurrences)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'סָרְכִ֣ין'
+  - where: 'note 6:1 “Satraps and presidents”'
+    claim: 'The word behind “first” in verse 2 is the numeral one (chad, H2298)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'חַֽד'
+  - where: 'note 6:1 “Satraps and presidents”'
+    claim: 'A modern translation: satraps; “so that the king might suffer no loss”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%206&version=NRSVUE'
+    quote: 'so that the king might suffer no loss'
+  - where: 'note 6:1 “Satraps and presidents”'
+    claim: 'A modern translation: Daniel is one of the three, not the first'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%206&version=NRSVUE'
+    quote: 'three administrators, one of whom was Daniel'
+  - where: 'note 6:1 “Satraps and presidents”'
+    claim: 'Esther counts 127 provinces under Ahasuerus'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/esth/1?lang=eng'
+    quote: 'over an hundred and seven and twenty provinces'
+  - where: 'note 6:1 “Satraps and presidents”'
+    claim: 'Belshazzar proclaimed Daniel the third ruler in the kingdom'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/5?lang=eng'
+    quote: 'made a proclamation concerning him, that he should be the third ruler in the kingdom'
+
+  # note 6:3
+  - where: 'note 6:3 “An excellent spirit”'
+    claim: 'Yattir means pre-eminent, surpassing; it stands at Daniel 5:12, 14 and 6:3 (Hebrew 6:4)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3493.htm'
+    quote: 'adjective pre-eminent, surpassing'
+  - where: 'note 6:3 “An excellent spirit”'
+    claim: 'The adjective of 6:3 (H3493), which scripts/hebrew.mjs lists also at 5:12 and 5:14'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'יַתִּירָא֙'
+  - where: 'note 6:3 “An excellent spirit”'
+    claim: 'Belshazzar spoke of the spirit of the gods and excellent wisdom in Daniel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/5?lang=eng'
+    quote: 'I have even heard of thee, that the spirit of the gods is in thee, and that light and understanding and excellent wisdom is found in thee.'
+  - where: 'note 6:3 “An excellent spirit”'
+    claim: 'The Church’s footnote 3b at “over” points to Joseph: Gen. 41:41 (38–45)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/6?lang=eng'
+    quote: 'Gen. 41:41 (38–45)'
+  - where: 'note 6:3 “An excellent spirit”'
+    claim: 'Pharaoh saw the Spirit of God in Joseph'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng'
+    quote: 'Can we find such a one as this is, a man in whom the Spirit of God is?'
+
+  # note 6:6
+  - where: 'note 6:6 “They came thronging”'
+    claim: 'Regash in the haphel means to show tumultuousness, come thronging'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7284.htm'
+    quote: 'shew tumultuousness, come thronging'
+  - where: 'note 6:6 “They came thronging”'
+    claim: 'The verb (H7284) occurs in Daniel three times, at 6:6, 11, 15 (scripts/hebrew.mjs daniel --word 7284)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'הַרְגִּ֖שׁוּ'
+  - where: 'note 6:6 “They came thronging”'
+    claim: 'A modern translation has “conspired and came” in verse 6'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%206&version=NRSVUE'
+    quote: 'So the administrators and satraps conspired and came to the king'
+  - where: 'note 6:6 “They came thronging”'
+    claim: 'The same translation has “the conspirators came” in verse 15'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%206&version=NRSVUE'
+    quote: 'Then the conspirators came to the king'
+  - where: 'note 6:6 “They came thronging”'
+    claim: 'At verse 11 it follows the Greek and notes that the Aramaic says “rushed in”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%206&version=NRSVUE'
+    quote: '6.11 Gk Theodotion Syr: Aram rushed in'
+  - where: 'note 6:6 “They came thronging”'
+    claim: 'The ancient Greek at verse 11 has “these men watched”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/daniel/6.htm'
+    quote: 'Then these men watched, and found Daniel praying and supplicating to his God.'
+
+  # note 6:7
+  - where: 'note 6:7 “Why a king would sign such a decree”'
+    claim: 'Keil: the claim that all the presidents had consulted was false, since Daniel was one of the three'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/6.htm'
+    quote: 'But Daniel certainly was not called to this consultation; therefore their pretence, that all "presidents of the kingdom" had consulted on the matter, was false.'
+  - where: 'note 6:7 “Why a king would sign such a decree”'
+    claim: 'Keil: the ban concerned prayer, not every request in ordinary life'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/6.htm'
+    quote: 'But it only referred to the religious sphere of prayer, as an evidence of worshipping God'
+  - where: 'note 6:7 “Why a king would sign such a decree”'
+    claim: 'Keil (quoting Kliefoth, as Keil prints him): the law’s object was recognition of the king as the manifestation of all the gods of his subject peoples'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/6.htm'
+    quote: 'the king was the living manifestation of all the gods, not only of the Median and Persian, but also of the Babylonian and Lydian, and all the gods of the conquered nations'
+  - where: 'note 6:7 “Why a king would sign such a decree”'
+    claim: 'Keil: other peoples could comply without violating conscience; the Jews could not'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/6.htm'
+    quote: 'And the heathen nations could all do this without violating their consciences'
+  - where: 'note 6:7 “Why a king would sign such a decree”'
+    claim: 'Keil: for thirty days petitions were to be presented to the gods only in the king'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/6.htm'
+    quote: 'For this purpose they must for the space of thirty days present their petitions to their national gods only in him as their manifestation.'
+  - where: 'note 6:7 “Why a king would sign such a decree”'
+    claim: 'There were three presidents and Daniel was one (verse 2), as a modern translation renders it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/6?lang=eng'
+    quote: 'And over these three presidents; of whom Daniel was first'
+
+  # note 6:8
+  - where: 'note 6:8 “A law the king himself cannot change”'
+    claim: 'Esther 1:19: a decree written among the laws of the Persians and the Medes is not altered'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/esth/1?lang=eng'
+    quote: 'let it be written among the laws of the Persians and the Medes, that it be not altered'
+  - where: 'note 6:8 “A law the king himself cannot change”'
+    claim: 'Esther 8:8: what is written in the king’s name and sealed with his ring cannot be reversed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/esth/8?lang=eng'
+    quote: 'for the writing which is written in the king’s name, and sealed with the king’s ring, may no man reverse'
+  - where: 'note 6:17 “The den, the stone, and two seals”'
+    claim: 'The verb “change” (shena, H8133) stands at 6:8, 6:15 and 6:17 (scripts/hebrew.mjs daniel --word 8133); this is the form in 6:17'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'תִשְׁנֵ֥א'
+
+  # note 6:10
+  - where: 'note 6:10 “Praying toward Jerusalem, three times a day”'
+    claim: 'Solomon’s dedicatory prayer asks the Lord to hear captives who pray toward the land, the city and the house'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/8?lang=eng'
+    quote: 'pray unto thee toward their land, which thou gavest unto their fathers, the city which thou hast chosen, and the house which I have built for thy name'
+  - where: 'note 6:10 “Praying toward Jerusalem, three times a day”'
+    claim: 'Psalm 55:17 speaks of prayer evening, morning and noon'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/55?lang=eng'
+    quote: 'Evening, and morning, and at noon, will I pray, and cry aloud: and he shall hear my voice.'
+  - where: 'note 6:10 “Praying toward Jerusalem, three times a day”'
+    claim: 'The chamber is an upper room with windows open toward Jerusalem'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%206&version=NRSVUE'
+    quote: 'which had windows in its upper room open toward Jerusalem'
+  - where: 'note 6:10 “Praying toward Jerusalem, three times a day”'
+    claim: 'A modern translation: just as he had done previously'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%206&version=NRSVUE'
+    quote: 'just as he had done previously'
+  - where: 'note 6:10 “Praying toward Jerusalem, three times a day”'
+    claim: 'Joseph Smith’s counsel to the Twelve, as the Student Manual prints it from History of the Church 3:391 (the Joseph Smith Papers page was not found)'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'make yourselves acquainted with those men who like Daniel pray three times a day toward the House of the Lord'
+  - where: 'note 6:10 “Praying toward Jerusalem, three times a day”'
+    claim: 'The manual: the direction has no mystical significance; it is a turning of the heart'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'This is not to suggest that the direction in which one faces when one prays has mystical significance'
+
+  # note 6:16
+  - where: 'note 6:16 “A promise or a wish”'
+    claim: 'The Greek version, like the King James, makes it a statement'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/daniel/6.htm'
+    quote: 'Thy God whom thou servest continually, he will deliver thee.'
+  - where: 'note 6:16 “A promise or a wish”'
+    claim: 'A modern translation makes it a wish'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%206&version=NRSVUE'
+    quote: '“May your God, whom you faithfully serve, deliver you!”'
+  - where: 'note 6:16 “A promise or a wish”'
+    claim: 'Draper reads the king’s words as a confession of belief'
+    key: draper-exile
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/prophets-exile'
+    quote: 'The king confessed his belief that Daniel’s God could save him (see Daniel 6:16).'
+  - where: 'note 6:16 “A promise or a wish”'
+    claim: 'The three in the furnace: our God is able to deliver us'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
+    quote: 'If it be so, our God whom we serve is able to deliver us from the burning fiery furnace'
+  - where: 'note 6:16 “A promise or a wish”'
+    claim: 'Shezib means deliver; BDB lists it at Daniel 3:15, 17, 28 and 6:14, 16, 20, 27 (Hebrew 6:15, 17, 21, 28)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7804.htm'
+    quote: 'שֵׁיזִב verb deliver'
+  - where: 'note 6:16 “A promise or a wish”'
+    claim: 'Netsal means deliver, rescue'
+    key: strongs-concordance
+    url: 'https://biblehub.com/hebrew/5338.htm'
+    quote: 'to extricate -- deliver, rescue'
+  - where: 'note 6:16 “A promise or a wish”'
+    claim: 'Verse 14 has shezib then netsal (H7804, H5338); scripts/hebrew.mjs lists both again in 6:27'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'לְ/הַצָּלוּתֵֽ/הּ'
+  - where: 'note 6:16 “A promise or a wish”'
+    claim: 'Verse 27 has shezib as a participle, then netsal, then shezib again as a perfect'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'שֵׁיזִ֣יב'
+
+  # note 6:17
+  - where: 'note 6:17 “The den, the stone, and two seals”'
+    claim: 'Gob means pit, den of lions'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1358.htm'
+    quote: 'noun masculine pit, den of lions'
+  - where: 'note 6:17 “The den, the stone, and two seals”'
+    claim: 'Keil: no ancient account of how lions’ dens were built survives'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/6.htm'
+    quote: "We have no account by the ancients of the construction of lions' dens."
+  - where: 'note 6:17 “The den, the stone, and two seals”'
+    claim: 'Keil pictures the den from a traveler’s account of lion pits in Morocco: an underground cavern'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/6.htm'
+    quote: 'they consist of a large square cavern under the earth, having a partition-wall in the middle of it'
+  - where: 'note 6:17 “The den, the stone, and two seals”'
+    claim: 'Keil: the cavern is open above with a wall one can look over'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/6.htm'
+    quote: 'The cavern is open above, its mouth being surrounded by a wall of a yard and a half high, over which one can look down into the den.'
+  - where: 'note 6:17 “The den, the stone, and two seals”'
+    claim: 'Keil: the “mouth” is a side opening for the keepers, covered with the stone; this explains the king’s speaking with Daniel before it was removed'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/6.htm'
+    quote: 'This also explains how, according to Daniel 6:20 ff., the king was able to converse with Daniel before the removal of the stone (namely, by the opening above).'
+  - where: 'note 6:17 “The den, the stone, and two seals”'
+    claim: 'A modern translation of the purpose clause'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%206&version=NRSVUE'
+    quote: 'so that nothing might be changed concerning Daniel'
+
+  # note 6:22
+  - where: 'note 6:22 “What Daniel says from the den”'
+    claim: 'Nebuchadnezzar said God sent His angel and delivered the three'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
+    quote: 'who hath sent his angel, and delivered his servants that trusted in him'
+  - where: 'note 6:22 “What Daniel says from the den”'
+    claim: 'Zaku means purity, innocence; BDB notes this verse (Hebrew 6:23; the page prints 6:13) as innocence in God’s sight'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2136.htm'
+    quote: "innocence in God's sight"
+  - where: 'note 6:22 “What Daniel says from the den”'
+    claim: 'Zaku: purity, innocence'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2136.htm'
+    quote: 'noun feminine purity, innocence'
+
+  # note 6:23
+  - where: 'note 6:23 “Faithful, and full of faith”'
+    claim: '“Believed” in 6:23 is the haphel of aman (H540)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'הֵימִ֥ן'
+  - where: 'note 6:23 “Faithful, and full of faith”'
+    claim: '“Faithful” in 6:4 is the same verb (H540); scripts/hebrew.mjs lists it in Daniel at 2:45, 6:4 and 6:23'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'מְהֵימַ֣ן'
+  - where: 'note 6:23 “Faithful, and full of faith”'
+    claim: 'Aramaic aman: believe, faithful, sure'
+    key: strongs-concordance
+    url: 'https://biblehub.com/hebrew/540.htm'
+    quote: 'believe, faithful, sure'
+  - where: 'note 6:23 “Faithful, and full of faith”'
+    claim: 'A modern translation: because he had trusted in his God'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%206&version=NRSVUE'
+    quote: 'no kind of harm was found on him because he had trusted in his God'
+  - where: 'note 6:23 “Faithful, and full of faith”'
+    claim: 'Hebrews 11:33 lists stopping the mouths of lions among what was done through faith, naming no one'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
+    quote: 'Who through faith subdued kingdoms, wrought righteousness, obtained promises, stopped the mouths of lions,'
+
+  # note 6:24
+  - where: 'note 6:24 “The accusers’ families”'
+    claim: 'Keil: condemning wives and children with the men was Persian custom, attested by Herodotus 3.119'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/6.htm'
+    quote: 'The condemning to death of the wives and children along with the men was in accordance with Persian custom, as is testified by Herodotus, iii. 119'
+  - where: 'note 6:24 “The accusers’ families”'
+    claim: 'Keil: the accusers are not said to be all the satraps; the text states no number'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/6.htm'
+    quote: 'for the text states no number'
+  - where: 'note 6:24 “The accusers’ families”'
+    claim: 'Herodotus: the Persian king Darius seized Intaphrenes with his sons and household on suspicion of rebellion'
+    key: herodotus-histories-3-119
+    url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0126%3Abook%3D3%3Achapter%3D119'
+    quote: 'he seized Intaphrenes with his sons and all his household—for he strongly suspected that the man was plotting a rebellion with his kinsmen'
+  - where: 'note 6:24 “The accusers’ families”'
+    claim: 'Herodotus: he released two at the wife’s plea and put the rest to death'
+    key: herodotus-histories-3-119
+    url: 'https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0126%3Abook%3D3%3Achapter%3D119'
+    quote: 'he released the one for whom she had asked, and the eldest of her sons as well; he put to death all the rest'
+  - where: 'note 6:24 “The accusers’ families”'
+    claim: 'The Student Manual suggests a probable motive: insurrection might come from such families'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'To an absolute monarch, however, it probably seemed the logical thing to do, for out of these families might come insurrection in the future.'
+  - where: 'note 6:24 “The accusers’ families”'
+    claim: 'The manual: “or ever” means before'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'The term or ever, as used in Daniel 6:24, means “before.”'
+  - where: 'note 6:24 “The accusers’ families”'
+    claim: 'The law of Moses forbade putting children to death for their fathers'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/24?lang=eng'
+    quote: 'The fathers shall not be put to death for the children, neither shall the children be put to death for the fathers: every man shall be put to death for his own sin.'
+  - where: 'note 6:24 “The accusers’ families”'
+    claim: 'A modern translation: the lions overpowered them'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%206&version=NRSVUE'
+    quote: 'the lions overpowered them and broke all their bones in pieces'
+
+  # note 6:26
+  - where: 'note 6:26 “The king’s second decree”'
+    claim: 'Daniel 2:44: a kingdom which shall never be destroyed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/2?lang=eng'
+    quote: 'And in the days of these kings shall the God of heaven set up a kingdom, which shall never be destroyed'
+  - where: 'note 6:26 “The king’s second decree”'
+    claim: 'The verb “destroyed” in 6:26 is chabal (H2255); scripts/hebrew.mjs lists the same form at 2:44 and 7:14, and the verb at 6:22 of the lions'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'תִתְחַבַּ֔ל'
+  - where: 'note 6:26 “The king’s second decree”'
+    claim: 'Chabal means destroy, hurt; BDB lists it of the lions at 6:22 (Hebrew 6:23)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2255.htm'
+    quote: 'Pa`el destroy, hurt (see Biblical Hebrew II. חבל); — Perfect3masculine plural suffix חַבְּלוּנִי Daniel 6:23 (of lions)'
+  - where: 'note 6:26 “The king’s second decree”'
+    claim: 'Draper reads the decree as confessing more than the earlier kings had'
+    key: draper-exile
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/prophets-exile'
+    quote: 'Jehovah no longer stood as one of the many gods nor as the head of the gods: He was the living God whose kingdom and dominion were everlasting.'
+  - where: 'note 6:26 “The king’s second decree”'
+    claim: 'Draper places Darius’s decree after the earlier kings’ confessions'
+    key: draper-exile
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/prophets-exile'
+    quote: 'Darius took the last step, which occurred when Daniel’s enemies tricked the king into throwing Daniel into the lions’ den.'
+  - where: 'note 6:26 “The king’s second decree”'
+    claim: 'Nebuchadnezzar’s decree forbade speaking against the God of the three'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
+    quote: 'because there is no other God that can deliver after this sort'
+
+  # christ
+  - where: 'christ'
+    claim: 'Scripture Helps sets five likenesses between Daniel 6 and the Savior’s life side by side: no fault found'
+    key: scripture-helps-dan
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/44-daniel-1-7?lang=eng'
+    quote: 'The following are examples of similarities between Daniel’s experiences and events that took place during the Savior’s life:'
+  - where: 'christ'
+    claim: 'Scripture Helps: Darius and Pilate each wished to release and yielded'
+    key: scripture-helps-dan
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/44-daniel-1-7?lang=eng'
+    quote: 'King Darius wanted to spare Daniel but gave into pressure and carried out the sentence'
+  - where: 'christ'
+    claim: 'Scripture Helps: the den and the tomb each sealed with a stone and a seal'
+    key: scripture-helps-dan
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/44-daniel-1-7?lang=eng'
+    quote: 'Was laid in a tomb, which was sealed with a large stone and a Roman seal'
+  - where: 'christ'
+    claim: 'Scripture Helps: Daniel was preserved and emerged alive; Christ rose from the dead'
+    key: scripture-helps-dan
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/44-daniel-1-7?lang=eng'
+    quote: 'Miraculously rose from the dead and emerged alive from the tomb'
+  - where: 'christ'
+    claim: 'Mark 14:55 and Matthew 27:66, the verses the table cites'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/27?lang=eng'
+    quote: 'So they went, and made the sepulchre sure, sealing the stone, and setting a watch.'
+
+  # explore
+  - where: 'explore'
+    claim: 'Daniel’s prayer of chapter 9 is dated to the first year of Darius'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/9?lang=eng'
+    quote: 'In the first year of Darius the son of Ahasuerus, of the seed of the Medes'

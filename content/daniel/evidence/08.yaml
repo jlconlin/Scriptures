@@ -1,0 +1,721 @@
+chapter: 8
+claims:
+  # ---------- when ----------
+  - where: 'when'
+    claim: 'Cyrus conquered Babylon in 539 BC'
+    key: scripture-helps-dan
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/44-daniel-1-7?lang=eng'
+    quote: 'lasting into the reign of King Cyrus of Persia, who conquered Babylon in 539 BC.'
+
+  # ---------- setting ----------
+  - where: 'setting'
+    claim: 'Cyrus conquered Babylon in 539 BC'
+    key: scripture-helps-dan
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/44-daniel-1-7?lang=eng'
+    quote: 'lasting into the reign of King Cyrus of Persia, who conquered Babylon in 539 BC.'
+  - where: 'setting'
+    claim: 'Daniel 2:4–7:28 is in Aramaic and the rest of the book, so chapter 8 onward, in Hebrew'
+    key: bd-daniel-book
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/daniel-book-of?lang=eng'
+    quote: 'Dan. 2:4–7:28 is written in Aramaic and the rest in Hebrew.'
+  - where: 'setting'
+    claim: 'The vision of chapter 8 treats the second and third empires of chapter 7'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'focuses on the second and third empires spoken of in Daniel 7.'
+  - where: 'setting'
+    claim: 'Most of the chapter was fulfilled between 500 B.C. and the time of Christ, a period the Old Testament hardly records'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'Most of what he recorded in this chapter was fulfilled between 500 B.C. and the time of Christ, a period with few Old Testament writings describing it.'
+  - where: 'setting'
+    claim: 'Gabriel is the angel sent to Daniel, to Zacharias, and to Mary'
+    key: bd-gabriel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/gabriel?lang=eng'
+    quote: 'The name of an angel sent to Daniel (Dan. 8:16; 9:21); to Zacharias (Luke 1:11–19); and to Mary (Luke 1:26–38).'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'The verb of 8:4 (“became great”) is gadal, lemma 1431'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'וְ/הִגְדִּֽיל'
+  - where: 'thread'
+    claim: 'The same verb, lemma 1431, is in 8:8 and 8:11 (“waxed very great,” “magnified himself”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'הִגְדִּ֣יל'
+  - where: 'thread'
+    claim: 'The same verb, lemma 1431, is in 8:9 and 8:10 (“waxed exceeding great,” “waxed great”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'וַ/תִּגְדַּל'
+  - where: 'thread'
+    claim: 'The same verb, lemma 1431, is in 8:25 (“magnify himself in his heart”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'יַגְדִּ֔יל'
+  - where: 'thread'
+    claim: 'Gadal is used in 8:9–10 of a king growing in importance, under the figure of a horn'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1431.htm'
+    quote: 'in importance, of a king Ecclesiastes 2:9; 1 Kings 10:23 ( = 2 Chronicles 9:22) Daniel 8:9,10 (under figure of horn)'
+  - where: 'thread'
+    claim: 'The sanctuary “cleansed” (8:14) is the holy place put right'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6663.htm'
+    quote: 'Daniel 8:14 the holy place shall be put right, in a right condition'
+
+  # ---------- sections ----------
+  - where: 'section 1 plain'
+    claim: '“River” in 8:2 is a watercourse'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: 'HEB water-course.'
+  - where: 'section 3 plain'
+    claim: '“Moved with choler” is enraged'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: 'HEB enraged.'
+  - where: 'section 3 plain'
+    claim: '“For it” in 8:8 is “instead of it”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: 'HEB instead of it.'
+  - where: 'section 4 plain'
+    claim: '“The pleasant land” is “the beautiful land”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%208&version=NRSVUE'
+    quote: 'toward the south, toward the east, and toward the beautiful land'
+  - where: 'section 4 plain'
+    claim: '“To the prince of the host” may be “against”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: 'OR against.'
+  - where: 'section 4 plain'
+    claim: 'The daily offering is taken away from the prince of the host'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%208&version=NRSVUE'
+    quote: 'it took the regular burnt offering away from him and overthrew the place of his sanctuary'
+  - where: 'section 5 plain'
+    claim: 'The “saints” of 8:13 are holy ones'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%208&version=NRSVUE'
+    quote: 'Then I heard a holy one speaking, and another holy one said to the one who spoke'
+  - where: 'section 5 plain'
+    claim: 'The Hebrew of 8:14 has “evening” and “morning” where the KJV has “days” (lemma 6153)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'עֶ֣רֶב'
+  - where: 'section 5 plain'
+    claim: '“Cleansed” is put right'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6663.htm'
+    quote: 'Daniel 8:14 the holy place shall be put right, in a right condition'
+  - where: 'section 6 plain'
+    claim: '“In the last end of the indignation” is the latter part of the period of indignation'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: 'IE in the latter part of the period of indignation, or in the last days.'
+  - where: 'section 8 plain'
+    claim: '“Dark sentences” is riddles'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: 'HEB riddles.'
+  - where: 'section 8 plain'
+    claim: '“By peace” is “in a time of peace”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: 'OR in a time of peace.'
+  - where: 'section 8 plain'
+    claim: '“It shall be for many days” is “pertains to many days hereafter”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: 'IE pertains to many days hereafter.'
+
+  # ---------- note 8:2 ----------
+  - where: 'note 8:2 “Daniel is set down in Shushan in vision”'
+    claim: 'A modern translation has Daniel see himself in Susa in the vision'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%208&version=NRSVUE'
+    quote: 'In the vision I saw myself in Susa the capital'
+  - where: 'note 8:2 “Daniel is set down in Shushan in vision”'
+    claim: 'The Church’s footnote at “river” (8:2) gives 1 Nephi 11:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: 'HEB water-course. Dan. 8:16; 1 Ne. 11:1 (1–5).'
+  - where: 'note 8:2 “Daniel is set down in Shushan in vision”'
+    claim: 'Josephus retells the chapter with Daniel in Susa in person, with companions'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-10.html'
+    quote: 'When he was in Susa, the metropolis of Persia, and went out into the field with his companions'
+  - where: 'note 8:2 “Daniel is set down in Shushan in vision”'
+    claim: 'Shushan is Susa, once capital of Elam and under Cyrus capital of the Persian Empire; the Shushan of Nehemiah and Esther'
+    key: bd-shushan
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/shushan?lang=eng'
+    quote: 'Also known as Susa; formerly the capital of Elam; under Cyrus the capital of the Persian Empire (Neh. 1:1; Esth. 1:2, 5'
+  - where: 'note 8:2 “Daniel is set down in Shushan in vision”'
+    claim: 'Daniel was conveyed to Susa in spirit, to see in the future Persian citadel the fall of that power, as Ezekiel was taken to Jerusalem'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/8.htm'
+    quote: 'Daniel was in spirit conveyed to Susa, that here in the future royal citadel of the Persian kingdom he might witness the destruction of this world-power, as Ezekiel was removed to Jerusalem'
+
+  # ---------- note 8:3 ----------
+  - where: 'note 8:3 “The ram and the goat are named in the chapter itself”'
+    claim: 'The Persians were at first a tribe east of Elam; Cyrus united Medes and Persians and conquered Babylon'
+    key: bd-persia
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/persia?lang=eng'
+    quote: 'The Persians were a tribe who in the 8th century B.C. inhabited a district east of Elam. Cyrus united the Medes and Persians, conquered Babylon'
+  - where: 'note 8:3 “The ram and the goat are named in the chapter itself”'
+    claim: 'The Persian Empire extended from Afghanistan to the Mediterranean'
+    key: bd-persia
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/persia?lang=eng'
+    quote: 'founded the Persian Empire, which extended from Afghanistan to the Mediterranean, including Asia Minor.'
+  - where: 'note 8:3 “The ram and the goat are named in the chapter itself”'
+    claim: 'Judea and the other Persian provinces passed to Alexander in 334 B.C.'
+    key: bd-persia
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/persia?lang=eng'
+    quote: 'until 334 B.C., when it passed, along with the other provinces of that empire, into the hands of Alexander the Great.'
+  - where: 'note 8:3 “The ram and the goat are named in the chapter itself”'
+    claim: 'Cyrus gained Media and united it with the Persian kingdom'
+    key: bd-media
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/media?lang=eng'
+    quote: 'Cyrus, by his defeat of Astyages (550 B.C.), gained possession of Media, which he united with the Persian kingdom.'
+  - where: 'note 8:3 “The ram and the goat are named in the chapter itself”'
+    claim: 'Alexander of Macedon, 356–323 B.C., ruled from Greece to the Indus'
+    key: bd-alexander
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/alexander?lang=eng'
+    quote: 'King of Macedon, surnamed the Great; born 356 B.C., died 323 B.C. He made himself ruler over a wide empire stretching from Greece to the Indus'
+  - where: 'note 8:3 “The ram and the goat are named in the chapter itself”'
+    claim: 'Josephus understood the four horns as the successors of the first king and the partition of his kingdom'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-10.html'
+    quote: 'signified the successors that should arise after the death of the first King; and the partition of the Kingdom among them'
+  - where: 'note 8:3 “The ram and the goat are named in the chapter itself”'
+    claim: 'The Church’s footnote at “four” (8:8) gives Daniel 11:4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: '“four”: Dan. 7:6; 11:4 (3–4).'
+  - where: 'note 8:3 “The ram and the goat are named in the chapter itself”'
+    claim: 'The higher horn that came up last is read as the Persians, who came to dominate the Medes'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'The one horn which came up last and was higher than the other represented the Persians, who finally dominated the alliance'
+  - where: 'note 8:3 “The ram and the goat are named in the chapter itself”'
+    claim: 'The great horn, the first king, is Alexander, who died at thirty-two at the height of his power'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'Alexander himself fit the description of the “great horn” (verse 21). At age thirty-two, Alexander died in the height of his power.'
+  - where: 'note 8:3 “The ram and the goat are named in the chapter itself”'
+    claim: 'Alexander’s four chief generals divided the empire and seem to be the four horns'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'his four chief generals carved up the empire, and they seem to be the four notable horns'
+
+  # ---------- note 8:9 little horn ----------
+  - where: 'note 8:9 “The little horn and Antiochus Epiphanes”'
+    claim: 'The little horn has generally been read as Antiochus IV, who ruled Syria 175–164 B.C.'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'has generally been interpreted to represent Antiochus IV (Epiphanes), who ruled Syria 175–164 B.C.'
+  - where: 'note 8:9 “The little horn and Antiochus Epiphanes”'
+    claim: 'Chapter 8 treats the second and third empires of chapter 7'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'focuses on the second and third empires spoken of in Daniel 7.'
+  - where: 'note 8:9 “The little horn and Antiochus Epiphanes”'
+    claim: 'The reading that names Antiochus holds that he was a type'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'Though Antiochus IV may fit the conditions described in the prophecy, he seems to have been a type of those who function through the power of Satan'
+  - where: 'note 8:9 “The little horn and Antiochus Epiphanes”'
+    claim: 'Antiochus IV was a Seleucid king who came to power in 175 B.C.'
+    key: ot-manual-kings-k
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/enrichment-k?lang=eng'
+    quote: 'When Antiochus IV, a Seleucid king, came to power in 175 B.C.'
+  - where: 'note 8:9 “The little horn and Antiochus Epiphanes”'
+    claim: 'Seleucus, one of Alexander’s generals, conquered Syria'
+    key: ot-manual-kings-k
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/enrichment-k?lang=eng'
+    quote: 'conquered Syria and the northern part of the Middle East.'
+  - where: 'note 8:9 “The little horn and Antiochus Epiphanes”'
+    claim: 'The temple was plundered on Antiochus’s orders'
+    key: ot-manual-kings-k
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/enrichment-k?lang=eng'
+    quote: 'In 169 B.C. the temple was plundered under orders of Antiochus.'
+  - where: 'note 8:9 “The little horn and Antiochus Epiphanes”'
+    claim: 'Sabbath observance and circumcision were forbidden on pain of death'
+    key: ot-manual-kings-k
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/enrichment-k?lang=eng'
+    quote: 'Sabbath observance, celebrations, and circumcision were forbidden on penalty of death.'
+  - where: 'note 8:9 “The little horn and Antiochus Epiphanes”'
+    claim: 'Antiochus resolved to crush Jewish nationality and worship'
+    key: bd-antiochus-epiphanes
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/antiochus-epiphanes?lang=eng'
+    quote: 'He resolved to try to crush all that was distinctive of Jewish nationality and worship.'
+  - where: 'note 8:9 “The little horn and Antiochus Epiphanes”'
+    claim: 'Antiochus sacrificed swine on an idol altar built on the altar of God'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'he slew swine upon it, and so offered a sacrifice neither according to the law'
+  - where: 'note 8:9 “The little horn and Antiochus Epiphanes”'
+    claim: 'Josephus read the vision as fulfilled under Antiochus Epiphanes'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-10.html'
+    quote: 'our nation suffered these things under Antiochus Epiphanes, according to Daniel’s vision'
+  - where: 'note 8:9 “The little horn and Antiochus Epiphanes”'
+    claim: 'The revolt was led by Mattathias and then his son Judas Maccabaeus'
+    key: bd-maccabees
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/maccabees?lang=eng'
+    quote: 'an aged priest named Mattathias'
+  - where: 'note 8:9 “The little horn and Antiochus Epiphanes”'
+    claim: 'Judas Maccabaeus became leader after Mattathias'
+    key: bd-maccabees
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/maccabees?lang=eng'
+    quote: 'his son Judas, surnamed Maccabaeus'
+  - where: 'note 8:9 “The little horn and Antiochus Epiphanes”'
+    claim: 'The temple was restored and a new altar dedicated'
+    key: bd-maccabees
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/maccabees?lang=eng'
+    quote: 'The ruined temple was restored, the desecrated altar was pulled down and reconstructed, and the new altar was dedicated amid great rejoicing.'
+  - where: 'note 8:9 “The little horn and Antiochus Epiphanes”'
+    claim: 'The Church’s footnote at “horn” (8:9) gives Daniel 7:8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: '“horn”: Dan. 7:8.'
+  - where: 'note 8:9 “The little horn and Antiochus Epiphanes”'
+    claim: 'Critics reported by Keil dated the chapter to about the re-consecration of the temple'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/8.htm'
+    quote: 'this chapter must have been written shortly before the re-consecration of the temple, or immediately thereafter'
+  - where: 'note 8:9 “The little horn and Antiochus Epiphanes”'
+    claim: 'Keil answers that the chapter has no hint of the Maccabean victories'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/8.htm'
+    quote: 'It contains no hint whatever of the great victories of the Maccabees which preceded the consecration of the temple'
+  - where: 'note 8:9 “The little horn and Antiochus Epiphanes”'
+    claim: 'The Bible Dictionary treats the visions as Daniel’s own'
+    key: bd-daniel-book
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/daniel-book-of?lang=eng'
+    quote: 'Dan. 7–12 contains prophetic visions seen by Daniel and reported in his own name.'
+
+  # ---------- note 8:9 pleasant land ----------
+  - where: 'note 8:9 “The pleasant land is the land of Israel”'
+    claim: 'The word is tsevi, beauty, honour'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6643.htm'
+    quote: 'beauty, honour'
+  - where: 'note 8:9 “The pleasant land is the land of Israel”'
+    claim: 'It is used of the land of Israel, in Ezekiel 20:6, and in Daniel 8:9 especially of Jerusalem and the temple; compare Daniel 11:16, 41, 45'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6643.htm'
+    quote: 'of land of Israel (Judah)'
+  - where: 'note 8:9 “The pleasant land is the land of Israel”'
+    claim: 'In Daniel 8:9 it is used especially of Jerusalem and the temple'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6643.htm'
+    quote: 'especially of Jerusalem and temple Daniel 8:9'
+  - where: 'note 8:9 “The pleasant land is the land of Israel”'
+    claim: 'The word in 8:9 is lemma 6643, which recurs in Daniel 11:16, 11:41 and 11:45'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'הַ/צֶּֽבִי'
+  - where: 'note 8:9 “The pleasant land is the land of Israel”'
+    claim: 'Ezekiel 20:6, “the glory of all lands,” has the same word (lemma 6643)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'צְבִ֥י'
+  - where: 'note 8:9 “The pleasant land is the land of Israel”'
+    claim: 'A modern translation has “the beautiful land”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%208&version=NRSVUE'
+    quote: 'toward the beautiful land'
+
+  # ---------- note 8:10 ----------
+  - where: 'note 8:10 “The host, the stars, and the prince of the host”'
+    claim: '“Host of heaven” can mean the host of angels; in 8:10 some take it as a figure of Israel'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6635.htm'
+    quote: 'host (organized body) of angels'
+  - where: 'note 8:10 “The host, the stars, and the prince of the host”'
+    claim: 'Some take the host of 8:10 as figurative of Israel'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6635.htm'
+    quote: 'figurative of Israel'
+  - where: 'note 8:10 “The host, the stars, and the prince of the host”'
+    claim: 'The prince of the host in 8:11 is read as the angel-prince of Israel or as God; Joshua 5:14 has the same title'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6635.htm'
+    quote: 'Daniel 8:11 (angel-prince of Israel, others, God)'
+  - where: 'note 8:19 “How far the vision reaches”'
+    claim: 'The stars of heaven are read as the children of God, with Job 38:7 and Revelation 12:4'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'the “stars of heaven” (the children of God—see Job 38:7; Isaiah 14:13; Revelation 12:4)'
+  - where: 'note 8:19 “How far the vision reaches”'
+    claim: 'Antiochus is read as a type of those who work by Satan’s power'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'he seems to have been a type of those who function through the power of Satan'
+  - where: 'note 8:10 “The host, the stars, and the prince of the host”'
+    claim: '“Prince of the host” in 8:11 is sar (lemma 8269) with tsaba (lemma 6635)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'שַֽׂר'
+  - where: 'note 8:10 “The host, the stars, and the prince of the host”'
+    claim: '“Captain of the host” in Joshua 5:14 is the same two words (lemmas 8269 and 6635)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Josh.xml'
+    quote: 'צְבָֽא'
+  - where: 'note 8:10 “The host, the stars, and the prince of the host”'
+    claim: 'Joshua 5:14 reads “captain of the host of the Lord”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/5?lang=eng'
+    quote: 'Nay; but as captain of the host of the Lord am I now come.'
+
+  # ---------- note 8:11 ----------
+  - where: 'note 8:11 “The daily sacrifice is the continual burnt offering”'
+    claim: 'In late Hebrew ha-tamid alone means the daily morning and evening burnt offering, as in Daniel 8:11–13; 11:31; 12:11'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8548.htm'
+    quote: 'alone = daily (morning and evening) burnt-offering'
+  - where: 'note 8:11 “The daily sacrifice is the continual burnt offering”'
+    claim: 'The Hebrew of 8:11 has only ha-tamid (lemma 8548), which occurs in Daniel at 8:11, 12, 13; 11:31; 12:11'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'הַ/תָּמִ֔יד'
+  - where: 'note 8:11 “The daily sacrifice is the continual burnt offering”'
+    claim: '“Continual” in Exodus 29:42 is the same word (lemma 8548)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'תָּמִיד֙'
+  - where: 'note 8:11 “The daily sacrifice is the continual burnt offering”'
+    claim: 'Antiochus forbade the daily sacrifices'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'For he forbad them to offer those daily sacrifices which they used to offer to God, according to the law.'
+  - where: 'note 8:11 “The daily sacrifice is the continual burnt offering”'
+    claim: 'The Church’s footnote at “daily” gives Exodus 29:38'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: '“daily”: Ex. 29:38.'
+
+  # ---------- note 8:13 ----------
+  - where: 'note 8:13 “The saints who speak are angels”'
+    claim: 'Qadosh is used of angels, Daniel 8:13 among the examples'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6918.htm'
+    quote: 'angels, Psalm 89:6; Psalm 89:8; Job 5:1; Job 15:15; Zechariah 14:5; Daniel 8:13 (twice in verse).'
+  - where: 'note 8:13 “The saints who speak are angels”'
+    claim: 'In 8:24 the plural of the same word is used of holy persons, saints'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6918.htm'
+    quote: 'sacred ones, saints Deuteronomy 33:3 (song), Psalm 16:3; Psalm 34:10; Daniel 8:24.'
+  - where: 'note 8:13 “The saints who speak are angels”'
+    claim: 'The word in 8:13 is qadosh, lemma 6918'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'קָד֖וֹשׁ'
+  - where: 'note 8:13 “The saints who speak are angels”'
+    claim: 'The word in 8:24 is the plural of lemma 6918'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'קְדֹשִֽׁים'
+  - where: 'note 8:13 “The saints who speak are angels”'
+    claim: 'A modern translation has “a holy one”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%208&version=NRSVUE'
+    quote: 'Then I heard a holy one speaking'
+
+  # ---------- note 8:14 ----------
+  - where: 'note 8:14 “Two thousand three hundred evenings and mornings”'
+    claim: 'The Hebrew has erev (lemma 6153), “evening”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'עֶ֣רֶב'
+  - where: 'note 8:14 “Two thousand three hundred evenings and mornings”'
+    claim: 'followed at once by boqer (lemma 1242), “morning”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'בֹּ֔קֶר'
+  - where: 'note 8:14 “Two thousand three hundred evenings and mornings”'
+    claim: 'Some interpreters understand whole days of morning and evening'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/8.htm'
+    quote: 'understand by its days consisting of morning and evening (twenty-four hours)'
+  - where: 'note 8:14 “Two thousand three hundred evenings and mornings”'
+    claim: 'Others reckon by the morning and evening sacrifice, halving the days'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/8.htm'
+    quote: 'reckoned with reference to the offering of a morning and an evening sacrifice each day, so that 2300 evening-mornings make only 1150 whole days'
+  - where: 'note 8:14 “Two thousand three hundred evenings and mornings”'
+    claim: 'The phrase recalls the morning and evening sacrifice and the evening and morning of Genesis 1'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/8.htm'
+    quote: 'probably originates with reference to the morning and evening sacrifice, by which the day was to be consecrated to the Lord, after Genesis 1:5'
+  - where: 'note 8:14 “Two thousand three hundred evenings and mornings”'
+    claim: 'The verb primarily means to be just'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/8.htm'
+    quote: 'primarily means to be just, whence the meaning is derived to justify'
+  - where: 'note 8:14 “Two thousand three hundred evenings and mornings”'
+    claim: 'The stated duration means the end is fixed beforehand by God'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/8.htm'
+    quote: 'not only the fact that they will come to an end, but at the same time also that this end is determined beforehand by God'
+  - where: 'note 8:14 “Two thousand three hundred evenings and mornings”'
+    claim: 'Brenton’s Septuagint reads 2,400'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/daniel/8.htm'
+    quote: 'Evening and morning there shall be two thousand and four hundred days; and then the sanctuary shall be cleansed.'
+  - where: 'note 8:14 “Two thousand three hundred evenings and mornings”'
+    claim: 'Of the periods in Daniel 12:7–13: not revealed; calculations each proven wrong'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'The interpretation of the time periods mentioned in these verses has not been revealed by the Lord as yet. Numerous calculations and formulas have been put forward, each in their turn to be proven wrong.'
+  - where: 'note 8:14 “Two thousand three hundred evenings and mornings”'
+    claim: 'In 8:14 the verb means the holy place shall be put right'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6663.htm'
+    quote: 'Daniel 8:14 the holy place shall be put right, in a right condition'
+  - where: 'note 8:14 “Two thousand three hundred evenings and mornings”'
+    claim: 'The Church’s footnotes give no gloss on 8:14 (the list passes from 13a to 16a)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: '“saint”: TG Saints.'
+
+  # ---------- note 8:16 ----------
+  - where: 'note 8:16 “Gabriel is Noah”'
+    claim: 'Joseph Smith, summer 1839: Noah is Gabriel and stands next to Adam in authority'
+    key: jsp-discourse-1839-a
+    url: 'https://www.josephsmithpapers.org/paper-summary/discourse-between-circa-26-june-and-circa-4-august-1839-a-as-reported-by-unidentified-scribe/1'
+    quote: 'Then to Noah who is Gabriel he stands next in authority to Adam, in the preasthood'
+  - where: 'note 8:16 “Gabriel is Noah”'
+    claim: 'Noah was the father of all living in his day'
+    key: jsp-discourse-1839-a
+    url: 'https://www.josephsmithpapers.org/paper-summary/discourse-between-circa-26-june-and-circa-4-august-1839-a-as-reported-by-unidentified-scribe/1'
+    quote: 'was the father of all living, in this day, & to him was given the dominion'
+  - where: 'note 8:16 “Gabriel is Noah”'
+    claim: 'These men held keys first on earth and then in heaven'
+    key: jsp-discourse-1839-a
+    url: 'https://www.josephsmithpapers.org/paper-summary/discourse-between-circa-26-june-and-circa-4-august-1839-a-as-reported-by-unidentified-scribe/1'
+    quote: 'These men held keys first on earth & then in heaven'
+  - where: 'note 8:16 “Gabriel is Noah”'
+    claim: 'Gabriel means “Man of God”; sent to Daniel, Zacharias and Mary; identified as Noah'
+    key: bd-gabriel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/gabriel?lang=eng'
+    quote: 'Man of God. The name of an angel sent to Daniel (Dan. 8:16; 9:21); to Zacharias (Luke 1:11–19); and to Mary (Luke 1:26–38). He is identified by latter-day revelation as Noah'
+  - where: 'note 8:16 “Gabriel is Noah”'
+    claim: 'Noah holds the keys of a dispensation'
+    key: bd-noah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/noah?lang=eng'
+    quote: 'Noah, a righteous man, holds the keys of a dispensation and stands next to Adam in authority'
+  - where: 'note 8:16 “Gabriel is Noah”'
+    claim: 'Noah and his family were saved from the Flood'
+    key: bd-noah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/noah?lang=eng'
+    quote: 'were saved from the Flood by the ark he had built at the command of God'
+  - where: 'note 8:16 “Gabriel is Noah”'
+    claim: 'Daniel was guided through his visions by angelic messengers (8:15–16; 9:20–22; 10:10–14)'
+    key: sc-knowhy-492
+    url: 'https://scripturecentral.org/knowhy/why-were-lehi-and-nephi-guided-by-angelic-escorts-in-their-visions'
+    quote: 'who was guided through his visions by angelic messengers (Daniel 8:15–16; 9:20–22; 10:10–14)'
+  - where: 'note 8:16 “Gabriel is Noah”'
+    claim: 'Lehi’s dream and Nephi’s vision are of the same apocalyptic kind'
+    key: sc-knowhy-492
+    url: 'https://scripturecentral.org/knowhy/why-were-lehi-and-nephi-guided-by-angelic-escorts-in-their-visions'
+    quote: 'Lehi’s dream and Nephi’s vision can rightly be classified under the scriptural and extra-canonical genre of “apocalypse.”'
+  - where: 'note 8:16 “Gabriel is Noah”'
+    claim: 'The Church’s footnote at “Gabriel” gives Daniel 9:21, Luke 1:19, 26 and D&C 128:21'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: '“Gabriel”: Dan. 9:21; Luke 1:19 (19, 26); D&C 128:21.'
+
+  # ---------- note 8:17 ----------
+  - where: 'note 8:17 “Why Daniel falls, and why Gabriel sets him on his feet”'
+    claim: 'Falling in weakness after a vision is a common scriptural motif (Daniel, Lehi, Joseph Smith)'
+    key: bradshaw-holy-place
+    url: 'https://interpreterfoundation.org/journal/standing-in-the-holy-place-ancient-and-modern-reverberations-of-an-enigmatic-new-testament-prophecy'
+    quote: 'Falling in weakness after a vision of God is a common motif in scripture.'
+  - where: 'note 8:17 “Why Daniel falls, and why Gabriel sets him on his feet”'
+    claim: 'Prophets, Daniel among them (8:18), are grasped by an angel’s hand and raised to stand'
+    key: bradshaw-holy-place
+    url: 'https://interpreterfoundation.org/journal/standing-in-the-holy-place-ancient-and-modern-reverberations-of-an-enigmatic-new-testament-prophecy'
+    quote: 'are grasped by the hand of an angel and raised to a standing position in key moments of their heavenly visions'
+  - where: 'note 8:17 “Why Daniel falls, and why Gabriel sets him on his feet”'
+    claim: 'Bradshaw’s reading of the gesture'
+    key: bradshaw-holy-place
+    url: 'https://interpreterfoundation.org/journal/standing-in-the-holy-place-ancient-and-modern-reverberations-of-an-enigmatic-new-testament-prophecy'
+    quote: 'It is by being raised by the hand to the upright position that we are made ready to hear the word of the Lord.'
+  - where: 'note 8:17 “Why Daniel falls, and why Gabriel sets him on his feet”'
+    claim: 'Bradshaw cites Daniel 8:18 for the angel’s raising him'
+    key: bradshaw-holy-place
+    url: 'https://interpreterfoundation.org/journal/standing-in-the-holy-place-ancient-and-modern-reverberations-of-an-enigmatic-new-testament-prophecy'
+    quote: 'Daniel 8:18: “he touched me, and set me upright”'
+  - where: 'note 8:17 “Why Daniel falls, and why Gabriel sets him on his feet”'
+    claim: 'Daniel, like Lehi, was exhausted after a heavenly visitation (8:17, 27)'
+    key: sc-knowhy-469
+    url: 'https://scripturecentral.org/knowhy/why-are-lehis-visions-like-those-of-other-prophets-in-his-day'
+    quote: 'was similarly exhausted after receiving a heavenly visitation'
+  - where: 'note 8:17 “Why Daniel falls, and why Gabriel sets him on his feet”'
+    claim: '“Son of man” is ben adam, a human being; the word is adam (lemma 120)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'אָדָ֔ם'
+  - where: 'note 8:17 “Why Daniel falls, and why Gabriel sets him on his feet”'
+    claim: 'A modern translation renders “son of man” here as “mortal”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%208&version=NRSVUE'
+    quote: 'Understand, O mortal, that the vision is for the time of the end.'
+  - where: 'note 8:17 “Why Daniel falls, and why Gabriel sets him on his feet”'
+    claim: 'The Church’s footnote at “touched” (8:18) gives Daniel 9:21'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: '“touched”: Dan. 9:21.'
+
+  # ---------- note 8:19 ----------
+  - where: 'note 8:19 “How far the vision reaches”'
+    claim: 'The Church’s footnote on 8:19'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: 'IE in the latter part of the period of indignation, or in the last days.'
+  - where: 'note 8:19 “How far the vision reaches”'
+    claim: 'The chapter heading places the fierce king in the last days'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: 'in the last days, a fierce king who will destroy the holy people'
+  - where: 'note 8:19 “How far the vision reaches”'
+    claim: 'The prophecy refers to more than the Maccabean period, from 8:19 and 8:26'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'That this prophecy refers to more than just the time up through the Maccabean period is also indicated by two phrases in Daniel 8:19.'
+  - where: 'note 8:19 “How far the vision reaches”'
+    claim: 'Reynolds and Sjodahl, as the manual prints them: the horn also points to the church of the devil'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'What Antiochus was to the Jews during the time of the Maccabees, the ‘church of the devil’ has been to the ‘Church of Christ’ in all ages.'
+  - where: 'note 8:19 “How far the vision reaches”'
+    claim: 'Elder Parley P. Pratt, as the manual prints him: Rome caused the daily sacrifice to cease and slew the apostles and primitive Christians'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'caused the daily sacrifice to cease, and not only that but afterwards destroyed the mighty and holy people, that is, the apostles and primitive Christians'
+  - where: 'note 8:19 “How far the vision reaches”'
+    claim: '“Last end” (8:19) is acharit, lemma 319'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'בְּ/אַחֲרִ֣ית'
+  - where: 'note 8:19 “How far the vision reaches”'
+    claim: '“Latter time” (8:23) is the same word, lemma 319'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'וּֽ/בְ/אַחֲרִית֙'
+  - where: 'note 8:19 “How far the vision reaches”'
+    claim: 'The phrase “in the end of the days” denotes the final period as far as the speaker’s view reaches; its sense varies with context'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/319.htm'
+    quote: 'a prophetic phrase denoting the final period of the history so far as the speaker''s perspective reaches; the sense thus varies with the context'
+
+  # ---------- note 8:25 ----------
+  - where: 'note 8:25 “Broken without hand”'
+    claim: 'The Church’s footnote at “without” gives Daniel 2:34 and D&C 65:2'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: '“without”: Dan. 2:34; D&C 65:2.'
+  - where: 'note 8:25 “Broken without hand”'
+    claim: 'A modern translation has “not by human hands”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel%208&version=NRSVUE'
+    quote: 'But he shall be broken, and not by human hands.'
+  - where: 'note 8:25 “Broken without hand”'
+    claim: 'Antiochus was beaten off from a temple in Persia he meant to plunder'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'For they drove him away from the city, and went out, and pursued after him'
+  - where: 'note 8:25 “Broken without hand”'
+    claim: 'He heard of his commanders’ defeat in Judea and fell ill'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'by the anxiety he was in, fell into a distemper'
+  - where: 'note 8:25 “Broken without hand”'
+    claim: 'He confessed the calamity came for what he had done to the Jews'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'confessed withal that this calamity was sent upon him for the miseries he had brought upon the Jewish nation'
+  - where: 'note 8:25 “Broken without hand”'
+    claim: 'Josephus notes Polybius’s different cause and declines to contend'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-12.html'
+    quote: 'But we will not contend about this matter'
+
+  # ---------- note 8:26 ----------
+  - where: 'note 8:26 “Shutting up the vision”'
+    claim: 'Satam, of prophetic words: shut up, keep close (Daniel 8:26; 12:4, 9)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5640.htm'
+    quote: 'shut up, keep close, prophetic words Daniel 8:26; Daniel 12:4,9'
+  - where: 'note 8:26 “Shutting up the vision”'
+    claim: 'The verb of 8:26 is lemma 5640'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'סְתֹ֣ם'
+  - where: 'note 8:26 “Shutting up the vision”'
+    claim: 'The same verb is in 12:4, beside a second verb, “seal” (lemma 2856)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'וַ/חֲתֹ֥ם'
+  - where: 'note 8:26 “Shutting up the vision”'
+    claim: 'The same verb is in 12:9'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'סְתֻמִ֧ים'
+  - where: 'note 8:26 “Shutting up the vision”'
+    claim: 'The Church’s footnote on 8:26'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: 'IE pertains to many days hereafter.'
+  - where: 'note 8:26 “Shutting up the vision”'
+    claim: 'Daniel’s record is a heavenly book he was told to seal, compared with the book given to Lehi'
+    key: sc-knowhy-469
+    url: 'https://scripturecentral.org/knowhy/why-are-lehis-visions-like-those-of-other-prophets-in-his-day'
+    quote: 'Daniel was also shown a heavenly book about future events that he was instructed to seal up'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'The Prince of princes is Christ'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'against the “Prince of princes” (Daniel 8:25), who is Christ'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: 'Enrichment K summarizes the history this chapter foresees'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'This history is summarized in Enrichment K.'
+  - where: 'explore'
+    claim: 'Enrichment K covers Alexander, the Ptolemies and Seleucids, and Antiochus'
+    key: ot-manual-kings-k
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/enrichment-k?lang=eng'
+    quote: 'The Holy Land changed hands several times during the next few years as Ptolemies and Seleucids fought for its control'
+
+  # ---------- parallels ----------
+  - where: 'parallels'
+    claim: 'The Church’s footnote at “broken” (8:22) gives Daniel 11:4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: '“broken”: Dan. 11:4.'
+  - where: 'parallels'
+    claim: 'The Church’s footnote at “Gabriel” (8:16) gives Luke 1:19 and D&C 128:21'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: '“Gabriel”: Dan. 9:21; Luke 1:19 (19, 26); D&C 128:21.'
+  - where: 'parallels'
+    claim: 'The Church’s footnote at “river” (8:2) gives 1 Nephi 11:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: 'HEB water-course. Dan. 8:16; 1 Ne. 11:1 (1–5).'
+  - where: 'parallels'
+    claim: 'The Church’s footnote at “without” (8:25) gives D&C 65:2'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/8?lang=eng'
+    quote: '“without”: Dan. 2:34; D&C 65:2.'

@@ -1,0 +1,529 @@
+chapter: 3
+claims:
+  - where: 'when'
+    claim: 'The dream of chapter 2 is dated to Nebuchadnezzar’s second year; the accusers (3:12) refer to the appointment of 2:49'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/2?lang=eng'
+    quote: 'Then Daniel requested of the king, and he set Shadrach, Meshach, and Abed-nego, over the affairs of the province of Babylon: but Daniel sat in the gate of the king.'
+
+  - where: 'when'
+    claim: 'The chapter is later than chapter 2, since 3:12 and 3:30 refer to 2:49'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/3.htm'
+    quote: 'the event narrated in this chapter occurred later than that of the 2nd chapter, since Daniel 3:12 and Daniel 3:30 refer to Daniel 2:49'
+  - where: 'setting'
+    claim: 'The Greek opens “In his eighteenth year”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/daniel/3.htm'
+    quote: 'In his eighteenth year Nabuchodonosor the king made a golden image'
+  - where: 'setting'
+    claim: 'The Aramaic text has no date; the verse begins with the king’s name'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'נְבוּכַדְנֶצַּ֣ר'
+  - where: 'setting'
+    claim: 'The Greek date has been explained as supplied because the statue was associated with the taking of Jerusalem'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/3.htm'
+    quote: 'The lxx and Theodotion have placed the date of this event in the eighteenth year of Nebuchadnezzar, apparently only because they associated the erection of this statue with the taking of Jerusalem under Zedekiah'
+  - where: 'setting'
+    claim: 'The exiles were not prisoners and could buy land, open shops and enter civil service'
+    key: draper-exile
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/prophets-exile'
+    quote: 'they were not prisoners, either. Theirs was a kind of modified, somewhat benevolent, internment that allowed them to buy land, open shops, move into civil service, and attend to their many chores.'
+  - where: 'setting'
+    claim: 'The three were among Jewish administrators rising in the Babylonian government'
+    key: draper-exile
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/prophets-exile'
+    quote: 'the Jewish administrators, such as Daniel, Shadrach, Meshach, and Abednego, who were moving up in the ranks of Babylonian government'
+  - where: 'setting'
+    claim: 'The three were set over the affairs of the province of Babylon at Daniel’s request (2:49); they were renamed at 1:7'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/2?lang=eng'
+    quote: 'Then Daniel requested of the king, and he set Shadrach, Meshach, and Abed-nego, over the affairs of the province of Babylon'
+  - where: 'setting'
+    claim: 'Daniel is not named in the chapter; the three are named in the book only in chapters 1, 2 and 3 (scripts/occurrences.mjs daniel "Shadrach": 14 verses, in 1:7, 2:49 and twelve verses of chapter 3), the last being 3:30'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
+    quote: 'Then the king promoted Shadrach, Meshach, and Abed-nego, in the province of Babylon.'
+  - where: 'setting'
+    claim: 'Hebrews lists quenching the violence of fire among the works of faith'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
+    quote: 'Quenched the violence of fire, escaped the edge of the sword'
+
+  - where: 'thread'
+    claim: 'The king’s question (3:15) and his decree (3:29); the instruments are listed in verses 5, 7, 10 and 15'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
+    quote: 'because there is no other God that can deliver after this sort'
+
+  - where: 'section 3 plain'
+    claim: '“We are not careful to answer thee” rendered “have no need”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+3%3A8-30&version=ESV'
+    quote: 'we have no need to answer you in this matter'
+  - where: 'section 4 plain'
+    claim: '“The form of his visage was changed” is the expression of his face'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+3%3A8-30&version=ESV'
+    quote: 'the expression of his face'
+  - where: 'section 5 plain'
+    claim: 'The Church’s footnote at 3:27 gives “damaged” for “changed”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
+    quote: 'OR damaged.'
+  - where: 'section 6 plain'
+    claim: '“Have changed the king’s word” means they defied the king’s decree (the Church’s footnote at 3:28)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
+    quote: 'IE were successful in defying the king’s decree.'
+
+  - where: 'note 3:1 “What the image was”'
+    claim: 'The Aramaic word is tselem (H6755), the same word as the image of the dream in 2:31 (hebrew.mjs daniel --word 6755: 2:31–35 and 3:1–19)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'צְלֵ֣ם'
+  - where: 'note 3:1 “What the image was”'
+    claim: 'Tselem is an image in human likeness, not a pillar or obelisk'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/3.htm'
+    quote: 'is properly an image in human likeness (cf. Daniel 2:31), and excludes the idea of a mere pillar or an obelisk'
+  - where: 'note 3:1 “What the image was”'
+    claim: 'A human figure is about six to one; the pedestal may be included in the sixty cubits'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/3.htm'
+    quote: 'in the human figure the length is to be breadth in the proportion of about six to one. In the height of threescore cubits the pedestal of the image may be regarded as included'
+  - where: 'note 3:1 “What the image was”'
+    claim: 'Ancient writers on Babylonian idols and Isaiah 40:19 suggest the image was overlaid with gold, not solid'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/3.htm'
+    quote: 'as well as the description in Isaiah 40:19 of the construction of idol-images, lead us to think of the image as merely overlaid with plates of gold.'
+  - where: 'note 3:1 “What the image was”'
+    claim: 'In the dream Nebuchadnezzar was the head of gold'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/2?lang=eng'
+    quote: 'Thou art this head of gold.'
+  - where: 'note 3:1 “What the image was”'
+    claim: 'The idea of the image was probably suggested to the king by the image of his dream, whose head of gold was his kingdom'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/3.htm'
+    quote: 'was probably suggested to Nebuchadnezzar by the tselem seen (Daniel 2) by him in a dream, whose head of gold his world-kingdom was described to him as being'
+  - where: 'note 3:1 “What the image was”'
+    claim: 'The ceremony has been read as demanding recognition of the national god, which other subjects could give without violating conscience'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/3.htm'
+    quote: 'It only demanded the recognition of the national god, to whom the king supposed he owed the greatness of his kingdom, as the god of the kingdom, and was a command which the heathen subjects of Nebuchadnezzar could execute without any violence to their consciences.'
+  - where: 'note 3:1 “What the image was”'
+    claim: 'The king took disobedience as rebellion'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/3.htm'
+    quote: 'Disobedience to his command appeared to him as culpable rebellion against his majesty.'
+  - where: 'note 3:1 “What the image was”'
+    claim: 'Verses 12, 14 and 18 name the king’s gods and the golden image separately'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
+    quote: 'they serve not thy gods, nor worship the golden image which thou hast set up'
+
+  - where: 'note 3:2 “The roll of officials, called three times”'
+    claim: 'The first title is the Aramaic word for satraps'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/324.htm'
+    quote: 'noun masculine plural satraps'
+  - where: 'note 3:2 “The roll of officials, called three times”'
+    claim: 'A modern translation’s rendering of the list'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+3%3A1-30&version=NRSVUE'
+    quote: 'the satraps, the prefects, and the governors, the counselors, the treasurers, the justices, the magistrates, and all the officials of the provinces'
+  - where: 'note 3:2 “The roll of officials, called three times”'
+    claim: 'The list is repeated in verse 3, the instruments in verses 5, 7, 10 and 15, and all peoples fell down (verse 7)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
+    quote: 'all the people, the nations, and the languages, fell down and worshipped the golden image that Nebuchadnezzar the king had set up'
+  - where: 'note 3:2 “The roll of officials, called three times”'
+    claim: 'In verse 27 the officials gather and see that the fire had no power over the men'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+3%3A8-30&version=ESV'
+    quote: 'gathered together and saw that'
+  - where: 'note 3:2 “The roll of officials, called three times”'
+    claim: 'Verse 27 in a modern translation'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+3%3A8-30&version=ESV'
+    quote: 'the fire had not had any power over the bodies of those men'
+
+  - where: 'note 3:5 “The six instruments”'
+    claim: 'A modern translation’s names for the six instruments'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+3%3A8-30&version=ESV'
+    quote: 'horn, pipe, lyre, trigon, harp, bagpipe, and every kind of music'
+  - where: 'note 3:5 “The six instruments”'
+    claim: 'The lyre’s name is a loan-word from Greek kitharis'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7030.htm'
+    quote: 'loan-word from Greek'
+  - where: 'note 3:5 “The six instruments”'
+    claim: 'The psaltery is a triangular stringed instrument, Greek psalterion'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6460.htm'
+    quote: 'a (triangular) stringed instrument (Greek ψαλτήριον'
+  - where: 'note 3:5 “The six instruments”'
+    claim: 'The last instrument is a loan-word from Greek symphonia: bagpipe, double pipe, or Pan’s pipe'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5481.htm'
+    quote: 'bag-pipe, or double pipe, or Pan''s pipe'
+  - where: 'note 3:5 “The six instruments”'
+    claim: 'Symphonia is a Greek loan-word'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5481.htm'
+    quote: 'loan-word from (late) Greek συμφωνία'
+  - where: 'note 3:5 “The six instruments”'
+    claim: 'The decree names the moment and the penalty'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
+    quote: 'That at what time ye hear the sound of the cornet, flute, harp, sackbut, psaltery, dulcimer, and all kinds of musick, ye fall down and worship the golden image'
+
+  - where: 'note 3:6 “Death by fire under the king of Babylon”'
+    claim: 'Jeremiah records that the king of Babylon roasted two men in the fire, in a curse to be used among the exiles in Babylon'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/29?lang=eng'
+    quote: 'And of them shall be taken up a curse by all the captivity of Judah which are in Babylon, saying, The Lord make thee like Zedekiah and like Ahab, whom the king of Babylon roasted in the fire'
+  - where: 'note 3:6 “Death by fire under the king of Babylon”'
+    claim: 'The soldiers took the three up and were killed by the flame; the three fell down bound; the king came to the mouth of the furnace'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
+    quote: 'the flame of the fire slew those men that took up Shadrach, Meshach, and Abed-nego'
+
+  - where: 'note 3:8 “Accused: the Aramaic idiom”'
+    claim: 'The Aramaic is the verb “eat” (H399) with the noun “pieces” (H7170)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'קַרְצֵי/ה֖וֹן'
+  - where: 'note 3:8 “Accused: the Aramaic idiom”'
+    claim: 'The noun means piece; the phrase means accuse maliciously, occurs in Daniel 3:8 and 6:24 (Hebrew 6:25), and was probably borrowed from an Assyrian phrase for malign, slander'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7170.htm'
+    quote: 'accuse maliciously'
+  - where: 'note 3:8 “Accused: the Aramaic idiom”'
+    claim: 'The phrase was probably borrowed from Assyrian'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7170.htm'
+    quote: 'probably borrowed from Assyrian'
+  - where: 'note 3:8 “Accused: the Aramaic idiom”'
+    claim: 'The Assyrian phrase means malign, slander'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7170.htm'
+    quote: 'malign, slander'
+  - where: 'note 3:8 “Accused: the Aramaic idiom”'
+    claim: 'A modern translation of 3:8'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+3%3A8-30&version=ESV'
+    quote: 'came forward and maliciously accused the Jews'
+  - where: 'note 3:8 “Accused: the Aramaic idiom”'
+    claim: 'The men who accused Daniel before Darius'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/6?lang=eng'
+    quote: 'they brought those men which had accused Daniel, and they cast them into the den of lions'
+  - where: 'note 3:8 “Accused: the Aramaic idiom”'
+    claim: 'The accusers begin with the appointment (2:49) and end with the image'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
+    quote: 'There are certain Jews whom thou hast set over the affairs of the province of Babylon, Shadrach, Meshach, and Abed-nego; these men, O king, have not regarded thee: they serve not thy gods, nor worship the golden image which thou hast set up.'
+
+  - where: 'note 3:12 “Where Daniel was”'
+    claim: 'Daniel sat in the gate of the king while the three were over the province'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/2?lang=eng'
+    quote: 'but Daniel sat in the gate of the king'
+  - where: 'note 3:12 “Where Daniel was”'
+    claim: 'Daniel’s absence is called a remarkable circumstance; he would not have done homage'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/3.htm'
+    quote: 'The remarkable circumstance, that Daniel is not named as having been present at this festival (and he also would certainly not have done homage to the image)'
+  - where: 'note 3:12 “Where Daniel was”'
+    claim: 'Two possibilities offered: prevented from attending, or present, refusing, and not informed against'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/3.htm'
+    quote: 'Either he may have been prevented for some reason from being present on the occasion, or he may have been present and may have refused to bow down before the image, but yet may only not have been informed against.'
+  - where: 'note 3:12 “Where Daniel was”'
+    claim: 'On the second, the accusers aimed first only at the three rulers of the province'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/3.htm'
+    quote: 'we must suppose that the accusers had designed first only the overthrow of the three rulers of the province of Babylon'
+
+  - where: 'note 3:15 “The king’s question, and who answers it”'
+    claim: 'The verb deliver (shezib, H7804) occurs in chapter 3 at 3:15, twice in 3:17, and at 3:28 (hebrew.mjs daniel --word 7804)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'יְשֵֽׁיזְבִנְ/כ֖וֹן'
+  - where: 'note 3:15 “The king’s question, and who answers it”'
+    claim: 'The king’s blessing in verse 28 and decree in verse 29'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
+    quote: 'Blessed be the God of Shadrach, Meshach, and Abed-nego, who hath sent his angel, and delivered his servants that trusted in him'
+  - where: 'note 3:15 “The king’s question, and who answers it”'
+    claim: 'The Assyrians’ challenge to Jerusalem in Hezekiah’s day'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/36?lang=eng'
+    quote: 'Who are they among all the gods of these lands, that have delivered their land out of my hand, that the Lord should deliver Jerusalem out of my hand?'
+  - where: 'note 3:15 “The king’s question, and who answers it”'
+    claim: 'The Assyrian speech addresses Hezekiah’s Jerusalem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/36?lang=eng'
+    quote: 'Beware lest Hezekiah persuade you, saying, The Lord will deliver us.'
+  - where: 'note 3:15 “The king’s question, and who answers it”'
+    claim: 'Sennacherib raised his gods above Jehovah; Nebuchadnezzar only says no god can deliver from the furnace, and likens the God of the Jews to other gods only indirectly'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/3.htm'
+    quote: 'Sennacherib raised his gods above Jehovah, the God of the Jews; Nebuchadnezzar only declares that deliverance out of the fiery furnace is a work which no god can accomplish, and in this he only indirectly likens the God of the Jews to the gods of the heathen.'
+  - where: 'note 3:15 “The king’s question, and who answers it”'
+    claim: '“Deliver” in 3:29 is a different Aramaic verb (H5338), not shezib (hebrew.mjs daniel 3:29)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'לְ/הַצָּלָ֖ה'
+
+  - where: 'note 3:18 “The two ifs of the answer”'
+    claim: 'Careful meant full of care, anxious'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/careful'
+    quote: 'Full of care; anxious; solicitous.'
+  - where: 'note 3:18 “The two ifs of the answer”'
+    claim: 'A modern rendering of 3:16, and “If this be so” in 3:17'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+3%3A8-30&version=ESV'
+    quote: 'we have no need to answer you in this matter. 17 If this be so,'
+  - where: 'note 3:18 “The two ifs of the answer”'
+    claim: 'The “it” filled in from the king’s threat'
+    key: simmons-but-if-not
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2004/04/but-if-not?lang=eng'
+    quote: 'If it be so [if you cast us into the furnace], our God whom we serve is able to deliver us from the burning fiery furnace'
+  - where: 'note 3:18 “The two ifs of the answer”'
+    claim: 'Another translation attaches the if to God’s ability'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+3%3A1-30&version=NRSVUE'
+    quote: 'If our God whom we serve is able to deliver us from the furnace of blazing fire and out of your hand, O king, let him deliver us.'
+  - where: 'note 3:18 “The two ifs of the answer”'
+    claim: 'The same translation gives the other construction in a footnote'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+3%3A1-30&version=NRSVUE'
+    quote: 'Or If our God whom we serve is able to deliver us, he will deliver us from the furnace of blazing fire and out of your hand, O king.'
+  - where: 'note 3:18 “The two ifs of the answer”'
+    claim: 'The second sentence called a statement of true faith'
+    key: simmons-but-if-not
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2004/04/but-if-not?lang=eng'
+    quote: 'That is a statement of true faith.'
+  - where: 'note 3:18 “The two ifs of the answer”'
+    claim: 'The Church’s footnote at 3:6 points to Abinadi (Mosiah 17:13–20)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
+    quote: 'Mosiah 17:13 (13–20).'
+  - where: 'note 3:18 “The two ifs of the answer”'
+    claim: 'Abinadi suffered death by fire'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/17?lang=eng'
+    quote: 'he fell, having suffered death by fire; yea, having been put to death because he would not deny the commandments of God'
+  - where: 'note 3:18 “The two ifs of the answer”'
+    claim: 'Hebrews 11:34–35 sets those who quenched fire beside those who did not accept deliverance'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
+    quote: 'and others were tortured, not accepting deliverance; that they might obtain a better resurrection'
+
+  - where: 'note 3:21 “The clothes that went into the fire”'
+    claim: 'The meaning of the Aramaic clothing words is uncertain (translation footnote)'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+3%3A8-30&version=ESV'
+    quote: 'The meaning of the Aramaic words rendered cloaks and tunics is uncertain; also verse 27'
+  - where: 'note 3:21 “The clothes that went into the fire”'
+    claim: 'The first word (sarbal) is probably mantle, rather than trousers'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5622.htm'
+    quote: 'probably mantle'
+  - where: 'note 3:21 “The clothes that went into the fire”'
+    claim: 'One translation: cloaks, tunics, hats'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+3%3A8-30&version=ESV'
+    quote: 'their cloaks, their tunics, their hats, and their other garments'
+  - where: 'note 3:21 “The clothes that went into the fire”'
+    claim: 'Another translation: tunics, trousers, hats'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+3%3A1-30&version=NRSVUE'
+    quote: 'their tunics, their trousers, their hats, and their other garments'
+  - where: 'note 3:21 “The clothes that went into the fire”'
+    claim: 'Verse 27: hair not singed, coats not changed, no smell of fire; verses 23 and 25: bound, then loose'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
+    quote: 'nor was an hair of their head singed, neither were their coats changed, nor the smell of fire had passed on them'
+  - where: 'note 3:21 “The clothes that went into the fire”'
+    claim: 'The three Nephites were cast into a furnace and received no harm'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/28?lang=eng'
+    quote: 'And thrice they were cast into a furnace and received no harm.'
+  - where: 'note 3:21 “The clothes that went into the fire”'
+    claim: 'Moroni on the three disciples (Mormon 8 is Moroni’s writing)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/morm/8?lang=eng'
+    quote: 'even the fiery furnace could not harm them, neither wild beasts nor poisonous serpents, because of the power of his word'
+  - where: 'note 3:21 “The clothes that went into the fire”'
+    claim: 'Daniel’s friends went in fully clothed and their clothing was undamaged'
+    key: tvedtnes-garment
+    url: 'https://scripturecentral.org/archive/periodicals/journal-article/notes-and-communications-garment-hot-furnace'
+    quote: 'when Daniel’s three friends were tossed into the fiery furnace, fully clothed (Daniel 3:21), their clothing sustained no fire or smoke damage (Daniel 3:27)'
+  - where: 'note 3:21 “The clothes that went into the fire”'
+    claim: 'The same article sets the three Nephites beside them'
+    key: tvedtnes-garment
+    url: 'https://scripturecentral.org/archive/periodicals/journal-article/notes-and-communications-garment-hot-furnace'
+    quote: 'In the Book of Mormon, the three Nephites were thrice “cast into a furnace and received no harm” (3 Nephi 28:21; Mormon 8:24).'
+
+  - where: 'note 3:23 “The song the Apocrypha adds”'
+    claim: 'The Song of the Three Children is an addition to Daniel not in the present canon, found in the Apocrypha'
+    key: bd-daniel-book
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/daniel-book-of?lang=eng'
+    quote: 'There are various additions to the book of Daniel not included in the present canon, some of which are found in the Apocrypha, that is, the Song of the Three Children, the History of Susanna, and Bel and the Dragon.'
+  - where: 'note 3:23 “The song the Apocrypha adds”'
+    claim: 'It purports to be the song sung by the three in the furnace'
+    key: bd-apocrypha
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/apocrypha?lang=eng'
+    quote: 'The Song of the Three Children. Purports to be the song sung by Shadrach, Meshach, and Abed-nego (they are called Ananias, Azarias, and Misael in verse 66) in the midst of the burning, fiery furnace.'
+  - where: 'note 3:23 “The song the Apocrypha adds”'
+    claim: 'In Brenton’s English of the Greek, verse 23 has the three walking in the flame and singing'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/daniel/3.htm'
+    quote: 'fell bound into the midst of the burning furnace, and walked in the midst of the flame, singing praise to God, and blessing the Lord'
+  - where: 'note 3:23 “The song the Apocrypha adds”'
+    claim: 'In the Greek the king hears them singing before he rises'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/daniel/3.htm'
+    quote: 'heard them singing praises; and he wondered, and rose up in haste'
+
+  - where: 'note 3:25 “The fourth man in the king’s own words”'
+    claim: 'The Aramaic is bar (H1247, construct, no article) elahin (H426, masculine plural absolute)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'אֱלָהִֽין'
+  - where: 'note 3:25 “The fourth man in the king’s own words”'
+    claim: 'The phrase is glossed a divine (or angelic) being'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1247.htm'
+    quote: 'Daniel 3:25 a divine (or angelic) being'
+  - where: 'note 3:25 “The fourth man in the king’s own words”'
+    claim: 'One modern translation: like a son of the gods'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+3%3A8-30&version=ESV'
+    quote: 'a son of the gods'
+  - where: 'note 3:25 “The fourth man in the king’s own words”'
+    claim: 'Another: the appearance of a god'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+3%3A1-30&version=NRSVUE'
+    quote: 'the fourth has the appearance of a god'
+  - where: 'note 3:25 “The fourth man in the king’s own words”'
+    claim: 'Brenton’s English of the Greek reads like the Son of God'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/daniel/3.htm'
+    quote: 'the appearance of the fourth is like the Son of God'
+  - where: 'note 3:25 “The fourth man in the king’s own words”'
+    claim: 'The king has been read as speaking in the terms of Babylonian religion, of one of the race of the gods; in verse 28 he calls the same figure an angel'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/3.htm'
+    quote: 'to a son of the gods, i.e., to one of the race of the gods. In Daniel 3:28 the same personage is called an angel of God'
+  - where: 'note 3:25 “The fourth man in the king’s own words”'
+    claim: 'He speaks in the spirit of the Babylonian doctrine of the gods'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/3.htm'
+    quote: 'he speaks in the spirit and meaning of the Babylonian doctrine of the gods'
+  - where: 'note 3:25 “The fourth man in the king’s own words”'
+    claim: 'In 3:26 “God” in “the most high God” is singular (H426, masculine singular determined)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'אֱלָהָ֥/א'
+  - where: 'note 3:25 “The fourth man in the king’s own words”'
+    claim: 'The king’s words in verses 26 and 28'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
+    quote: 'ye servants of the most high God, come forth, and come hither. Then Shadrach, Meshach, and Abed-nego, came forth of the midst of the fire.'
+  - where: 'note 3:25 “The fourth man in the king’s own words”'
+    claim: 'Daniel says God sent His angel to the lions’ den'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/6?lang=eng'
+    quote: 'My God hath sent his angel, and hath shut the lions’ mouths'
+  - where: 'note 3:25 “The fourth man in the king’s own words”'
+    claim: 'The Church’s newest help says the text does not settle whether this was Jehovah or an angel'
+    key: scripture-helps-dan
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/44-daniel-1-7?lang=eng'
+    quote: 'It is unclear from the text whether this was Jehovah or an angel. Some translations render the phrase as “a divine being” or “son of the gods.”'
+
+  - where: 'note 3:29 “What Nebuchadnezzar decreed, and what he did not”'
+    claim: 'The decree forbids speaking against their God; it commands no worship and does not mention the image'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
+    quote: 'That every people, nation, and language, which speak any thing amiss against the God of Shadrach, Meshach, and Abed-nego, shall be cut in pieces'
+  - where: 'note 3:29 “What Nebuchadnezzar decreed, and what he did not”'
+    claim: 'The king’s confession after the dream'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/2?lang=eng'
+    quote: 'your God is a God of gods, and a Lord of kings, and a revealer of secrets'
+  - where: 'note 3:29 “What Nebuchadnezzar decreed, and what he did not”'
+    claim: 'After the furnace Jehovah had risen in the king’s estimation but not far enough; the next event is chapter 4'
+    key: draper-exile
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/prophets-exile'
+    quote: 'Jehovah had definitely climbed a few more rungs up the ladder of the pantheon. Still, that was not far enough. The next event would push His position all the way to the top.'
+  - where: 'note 3:29 “What Nebuchadnezzar decreed, and what he did not”'
+    claim: 'In chapter 4 the king praises the King of heaven'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/4?lang=eng'
+    quote: 'Now I Nebuchadnezzar praise and extol and honour the King of heaven'
+  - where: 'note 3:29 “What Nebuchadnezzar decreed, and what he did not”'
+    claim: 'The king praises the three for changing his word'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
+    quote: 'and have changed the king’s word, and yielded their bodies, that they might not serve nor worship any god, except their own God'
+
+  - where: 'christ'
+    claim: 'The Lord’s promise through Isaiah of His presence in the fire'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/43?lang=eng'
+    quote: 'When thou passest through the waters, I will be with thee; and through the rivers, they shall not overflow thee: when thou walkest through the fire, thou shalt not be burned; neither shall the flame kindle upon thee.'
+  - where: 'christ'
+    claim: 'The speaker names Himself the LORD, the Holy One of Israel, the Saviour'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/43?lang=eng'
+    quote: 'For I am the Lord thy God, the Holy One of Israel, thy Saviour'
+  - where: 'christ'
+    claim: 'The Church’s footnote at Daniel 3:27 joins Isaiah 43:2 to the verse'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
+    quote: 'Isa. 43:2; Heb. 11:34 (32–34); 4 Ne. 1:32.'
+  - where: 'christ'
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: 'christ'
+    claim: 'The Church’s newest help leaves open whether the fourth was Jehovah or an angel'
+    key: scripture-helps-dan
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/44-daniel-1-7?lang=eng'
+    quote: 'It is unclear from the text whether this was Jehovah or an angel.'
+  - where: 'christ'
+    claim: 'Trust without knowing the outcome is described as faith in the Lord Jesus Christ, with deliverance in His time and way'
+    key: simmons-but-if-not
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2004/04/but-if-not?lang=eng'
+    quote: 'we will have faith in the Lord Jesus Christ, knowing that if we do all we can do, we will, in His time and in His way, be delivered and receive all that He has'
+
+  - where: 'explore'
+    claim: 'Daniel 6 has the same idiom for the accusation (3:8; 6:24) and an angel sent'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7170.htm'
+    quote: 'accuse maliciously'
+  - where: 'explore'
+    claim: 'Believers burned at Ammonihah, not delivered'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/14?lang=eng'
+    quote: 'The Spirit constraineth me that I must not stretch forth mine hand; for behold the Lord receiveth them up unto himself, in glory'
+  - where: 'explore'
+    claim: 'The disciples cast into furnaces of fire in 4 Nephi'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/4-ne/1?lang=eng'
+    quote: 'And they did cast them into furnaces of fire, and they came forth receiving no harm.'
+  - where: 'explore'
+    claim: 'Elder Dennis E. Simmons’s talk follows the phrase “but if not” through scripture'
+    key: simmons-but-if-not
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2004/04/but-if-not?lang=eng'
+    quote: 'Our scriptures and our history are replete with accounts of God’s great men and women who believed that He would deliver them, but if not, they demonstrated that they would trust and be true.'

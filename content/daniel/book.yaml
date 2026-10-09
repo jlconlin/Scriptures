@@ -1,0 +1,82 @@
+name: Daniel
+slug: daniel
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 9
+abbr: dan                # [[Dan. 2:44]] links here
+gospelLibrary: ot/dan
+eyebrow: The Old Testament
+heroQuote:
+  text: '“There is a God in heaven that revealeth secrets.”'
+  cite: 'Daniel to Nebuchadnezzar, [[Dan. 2:28]]'
+description: A phrase-by-phrase companion to the book of Daniel, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: The stories come first and the visions after, but not in order of time. Daniel dates the visions of chapters 7 and 8 to the reign of Belshazzar, before the night of the writing on the wall in chapter 5.
+home:
+  blurb: A captive who served the kings of Babylon and kept faith with his God, and who was shown the kingdoms of the world giving way to the kingdom of God.
+
+intro: |
+  Daniel was taken from Jerusalem to Babylon as a young man, with Hananiah, Mishael, and Azariah, to be trained for the king’s court. He served there under Nebuchadnezzar and those who came after him, and “continued even unto the first year of king Cyrus” ([[Dan. 1:21]]), whose Persians conquered Babylon in 539 B.C. He was in Babylon while Ezekiel prophesied among the exiles by the river of Chebar and while Jeremiah was still in Jerusalem.
+
+  The book has two halves. Chapters 1–6 are stories about Daniel and his three companions: the king’s food refused, a forgotten dream told and explained, a furnace, a king driven out to live with the beasts, a hand that wrote on a wall, a den of lions. Chapters 7–12 are visions that Daniel reports himself, of beasts and kingdoms, of the Ancient of days and one like the Son of man, and of the end. This companion goes through all twelve chapters and tries to anticipate the questions a careful reader asks: *When is this, and who is this king? What does that image stand for, and does the text say? What has been revealed about it since? Where is Christ in this?*
+
+# The Bible Dictionary divides the book in two (1–6 narratives, 7–12 visions). The split of 7–12 at chapter 10 is the
+# site’s own: chapters 10–12 are one vision (10:1 to 12:13).
+# Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: captives
+    range: [1, 6]
+    name: Faithful in the Courts of Babylon
+    blurb: Daniel and his three companions serve the kings of Babylon and of the Medes and Persians and will not give up their God. Daniel tells a king his dream and what it means, his companions walk out of the furnace and he out of the den of lions unhurt, and two kings learn that the most High rules.
+    color: '#9c6a2f'
+    darkColor: '#e3b77a'
+  - key: beasts
+    range: [7, 9]
+    name: The Beasts, the Ancient of Days, and the Seventy Weeks
+    blurb: Daniel sees four beasts come up from the sea and one like the Son of man brought before the Ancient of days. A second vision shows a ram and a goat, and while he is praying for Jerusalem Gabriel comes to him with the seventy weeks.
+    color: '#7a3f55'
+    darkColor: '#d79bb3'
+  - key: sealed
+    range: [10, 12]
+    name: The Last Vision
+    blurb: By the river Hiddekel a man clothed in linen strengthens Daniel and tells him what is to come upon his people, to a time of trouble and the awaking of those who sleep in the dust. The words are sealed till the time of the end.
+    color: '#3d5f7d'
+    darkColor: '#93b9db'
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [1, 12], sources: [ot-manual-28] }
+  - { range: [1, 7], sources: [scripture-helps-dan] }
+
+beloved:
+  - { chapter: 1, verse: 8, text: 'Daniel purposed in his heart that he would not defile himself' }
+  - { chapter: 2, verse: 28, text: 'there is a God in heaven that revealeth secrets' }
+  - { chapter: 2, verse: 44, text: 'shall the God of heaven set up a kingdom, which shall never be destroyed' }
+  - { chapter: 3, verse: 18, text: 'But if not, be it known unto thee, O king, that we will not serve thy gods' }
+  - { chapter: 3, verse: 25, text: 'I see four men loose, walking in the midst of the fire' }
+  - { chapter: 5, verse: 27, text: 'Thou art weighed in the balances, and art found wanting' }
+  - { chapter: 6, verse: 22, text: 'My God hath sent his angel, and hath shut the lions’ mouths' }
+  - { chapter: 7, verse: 13, text: 'one like the Son of man came with the clouds of heaven' }
+  - { chapter: 9, verse: 19, text: 'O Lord, hear; O Lord, forgive; O Lord, hearken and do' }
+  - { chapter: 12, verse: 3, text: 'they that be wise shall shine as the brightness of the firmament' }
+
+coreSources:
+  - bd-daniel-book
+  - bd-daniel
+  - gs-daniel
+  - scripture-helps-dan
+  - ot-manual-28
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'Daniel Purposed in His Heart'
+  2: 'The Stone Cut Out without Hands'
+  3: 'The Burning Fiery Furnace'
+  4: 'Nebuchadnezzar’s Dream of the Great Tree'
+  5: 'The Writing on the Wall'
+  6: 'The Den of Lions'
+  7: 'Four Beasts, the Ancient of Days, and the Son of Man'
+  8: 'The Ram and the He Goat'
+  9: 'Daniel’s Prayer and the Seventy Weeks'
+  10: 'The Man Clothed in Linen'
+  11: 'The Kings of the North and the South'
+  12: 'The Time of the End'

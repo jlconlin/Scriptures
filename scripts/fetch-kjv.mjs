@@ -148,6 +148,14 @@ const LDS_SPELLINGS = [
   [/the marishes thereof/g, 'the marshes thereof'], // Ezek. 47:11
   [/Hazarhatticon/g, 'Hazar-hatticon'], // Ezek. 47:16
   [/Hazarenan, the border/g, 'Hazar-enan, the border'], // Ezek. 47:17; 48:1
+  // Daniel: a hyphen, spellings, a comma, a lower-case “god”, and “Lord” (adonai) where the source has LORD (found by scripts/check-kjv.mjs).
+  [/Abednego/g, 'Abed-nego'], // Dan. 1:7; 2:49; 3:12–30
+  [/the king enquired of them/g, 'the king inquired of them'], // Dan. 1:20
+  [/according to the name of my God, and in whom/g, 'according to the name of my god, and in whom'], // Dan. 4:8
+  [/Now the queen by reason of the words of the king and his lords came into/g, 'Now the queen, by reason of the words of the king and his lords, came into'], // Dan. 5:10
+  [/and stedfast for ever/g, 'and steadfast for ever'], // Dan. 6:26
+  [/O LORD, righteousness belongeth unto thee/g, 'O Lord, righteousness belongeth unto thee'], // Dan. 9:7
+  [/O LORD, according to all thy righteousness/g, 'O Lord, according to all thy righteousness'], // Dan. 9:16
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 

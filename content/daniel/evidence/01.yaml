@@ -1,0 +1,598 @@
+chapter: 1
+claims:
+  # when, setting
+  - where: 'when'
+    claim: 'The Church’s newest help: the Bible places the events around 606 B.C., in Jehoiakim’s third year'
+    key: scripture-helps-dan
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/44-daniel-1-7?lang=eng'
+    quote: 'While the Bible indicates that these events took place around 606 BC, during the third year of King Jehoiakim’s reign'
+  - where: 'when'
+    claim: 'The Student Manual dates the first captivity about 605 B.C.'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'At the time that Nebuchadnezzar first carried the Jews captive into Babylon (about 605 B.C.), Daniel was chosen as one of the choicest Jewish youths'
+  - where: 'when'
+    claim: 'Cyrus took Babylon in 539 B.C.'
+    key: scripture-helps-dan
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/44-daniel-1-7?lang=eng'
+    quote: 'lasting into the reign of King Cyrus of Persia, who conquered Babylon in 539 BC'
+  - where: 'setting'
+    claim: 'Scholars generally date Nebuchadnezzar’s capture of Jerusalem to 597 B.C.'
+    key: scripture-helps-dan
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/44-daniel-1-7?lang=eng'
+    quote: 'scholars generally believe that Nebuchadnezzar captured Jerusalem in 597 BC'
+  - where: 'setting'
+    claim: 'The siege followed the victory over Egypt at Carchemish in 605 B.C.'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'was in command of his father’s troops in 605 B.C. when they soundly defeated the Egyptian forces at Carchemish (see Jeremiah 46:2)'
+  - where: 'setting'
+    claim: 'Judah became a vassal; temple vessels and members of the upper class, Daniel among them, were taken'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'Selected members of Judah’s upper class, which included Daniel (see 2 Kings 20:14–18; Daniel 6:13), were carried captive to Babylon.'
+  - where: 'setting'
+    claim: 'Nebuchadnezzar besieged Jerusalem twice more and finally destroyed it; this was the first exile'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'Later he besieged Jerusalem twice more, carrying off additional captives both times, and eventually destroying Jerusalem'
+  - where: 'setting'
+    claim: 'Daniel lived in Jerusalem when Lehi did'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'Daniel lived in Jerusalem at the same time Lehi did, though there is no evidence to suggest that they knew each other.'
+  - where: 'setting'
+    claim: 'Jeremiah was prophesying to Judah in Jehoiakim’s fourth year'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/25?lang=eng'
+    quote: 'The word that came to Jeremiah concerning all the people of Judah in the fourth year of Jehoiakim the son of Josiah king of Judah'
+  - where: 'setting'
+    claim: 'Ezekiel refers to Daniel (14:14, 20; 28:3)'
+    key: bd-daniel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/daniel?lang=eng'
+    quote: 'There are references to him in Ezek. 14:14, 20; 28:3; Heb. 11:33.'
+  - where: 'setting'
+    claim: 'Chapter 1 is the introduction to the book'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/1.htm'
+    quote: 'is to be regarded as a historico-biographical introduction to the book'
+  - where: 'setting'
+    claim: 'Chapters 1–6 are narratives; 7–12 are visions'
+    key: bd-daniel-book
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/daniel-book-of?lang=eng'
+    quote: 'Dan. 1–6 contains narratives regarding Daniel and his three companions; Dan. 7–12 contains prophetic visions seen by Daniel and reported in his own name.'
+
+  # thread
+  - where: 'thread'
+    claim: 'The same Hebrew verb, natan (H5414), “give,” has God as subject in verses 2, 9, and 17'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'נָתַ֨ן'
+
+  # sections
+  - where: 'section 2 plain'
+    claim: '“The master of his eunuchs” may be rendered chief of his officers'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/1?lang=eng'
+    quote: 'OR chief of his officers.'
+  - where: 'section 2 plain'
+    claim: '“Well favoured” is good in appearance'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/1?lang=eng'
+    quote: 'HEB good in appearance.'
+  - where: 'section 2 plain'
+    claim: '“The king’s seed, and … the princes” are the royal family and the nobility; “children” are youths'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+1&version=ESV'
+    quote: 'to bring some of the people of Israel, both of the royal family and of'
+  - where: 'section 2 plain'
+    claim: '“The learning and the tongue” is the literature and language'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+1&version=ESV'
+    quote: 'teach them the literature and language of the'
+  - where: 'section 3 plain'
+    claim: '“Worse liking” is less healthy'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/1?lang=eng'
+    quote: 'IE less healthy.'
+  - where: 'section 3 plain'
+    claim: '“Of your sort” is of your age; ESV “of your own age”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+1&version=ESV'
+    quote: 'in worse condition than the youths who are of your own age'
+  - where: 'section 3 plain'
+    claim: '“Melzar” is a title, the steward'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/1?lang=eng'
+    quote: 'HEB the steward.'
+  - where: 'section 3 plain'
+    claim: '“Pulse” is rendered vegetables; “fairer and fatter in flesh” as better in appearance and fatter in flesh'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+1&version=ESV'
+    quote: 'they were better in appearance and fatter in flesh than all the youths who ate'
+  - where: 'section 4 plain'
+    claim: '“Learning” is literature; “magicians and astrologers” is magicians and enchanters; “continued” is was there'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+1&version=ESV'
+    quote: 'skill in all literature and wisdom, and Daniel had'
+
+  # note 1:1
+  - where: 'note 1:1 “The third year here, the fourth in Jeremiah”'
+    claim: 'Jeremiah calls Jehoiakim’s fourth year Nebuchadnezzar’s first'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/25?lang=eng'
+    quote: 'in the fourth year of Jehoiakim the son of Josiah king of Judah, that was the first year of Nebuchadrezzar king of Babylon'
+  - where: 'note 1:1 “The third year here, the fourth in Jeremiah”'
+    claim: 'Nebuchadnezzar was a prince commanding his father’s army at Carchemish in 605 B.C.'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'Most scholars agree that Nebuchadnezzar, as a Babylonian prince, was in command of his father’s troops in 605 B.C.'
+  - where: 'note 1:1 “The third year here, the fourth in Jeremiah”'
+    claim: 'He returned to Babylon within the year to be made king'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'Nebuchadnezzar learned of the death of his father, and within the year he returned to Babylon to be made king (see Jeremiah 25:1)'
+  - where: 'note 1:1 “The third year here, the fourth in Jeremiah”'
+    claim: 'Keil: he is called king by anticipation, being then only commander of the army'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/1.htm'
+    quote: 'he who afterwards became king might be proleptically styled king, though he was at the time only the commander of the army'
+  - where: 'note 1:1 “The third year here, the fourth in Jeremiah”'
+    claim: 'Keil: the verb “came” also means to go, to march to a place, so the third year is the setting out'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/1.htm'
+    quote: 'means not only to come, but also to go, to march to a place'
+  - where: 'note 1:1 “The third year here, the fourth in Jeremiah”'
+    claim: 'Keil: the capture fell in Jehoiakim’s fourth year'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/1.htm'
+    quote: 'must have been in the fourth year of Jehoiakim, i.e., in the year 606 b.c.'
+  - where: 'note 1:1 “The third year here, the fourth in Jeremiah”'
+    claim: 'Jeremiah puts Carchemish in Jehoiakim’s fourth year'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/46?lang=eng'
+    quote: 'in the fourth year of Jehoiakim the son of Josiah king of Judah'
+  - where: 'note 1:1 “The third year here, the fourth in Jeremiah”'
+    claim: 'Jehoiakim reigned 609–598 B.C.'
+    key: bd-jehoiakim
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehoiakim?lang=eng'
+    quote: 'King of Judah (609–598 B.C.), originally called Eliakim'
+  - where: 'note 1:1 “The third year here, the fourth in Jeremiah”'
+    claim: 'Nebuchadnezzar reigned 604–561 B.C.'
+    key: bd-nebuchadnezzar
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/nebuchadnezzar?lang=eng'
+    quote: 'The great king of Babylon (604–561 B.C.), son of Nabopolassar'
+
+  # note 1:2 gave
+  - where: 'note 1:2 “God gave, three times”'
+    claim: 'Verse 2 opens with natan (H5414), “and the Lord gave”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'וַ/יִּתֵּן֩'
+  - where: 'note 1:2 “God gave, three times”'
+    claim: 'Verse 17 uses the same verb, natan, with God as subject'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'נָתַ֨ן'
+  - where: 'note 1:2 “God gave, three times”'
+    claim: 'Verse 9 is rendered “God gave Daniel favor and compassion”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+1&version=ESV'
+    quote: 'And God gave Daniel favor and compassion in the sight of the chief of the eunuchs'
+  - where: 'note 1:2 “God gave, three times”'
+    claim: 'Kings says Judah’s fall came at the Lord’s commandment'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/24?lang=eng'
+    quote: 'came this upon Judah, to remove them out of his sight'
+  - where: 'note 1:2 “God gave, three times”'
+    claim: 'The exile’s prophets assured Judah that Jehovah governed all nations, Babylon included'
+    key: draper-exile
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/prophets-exile'
+    quote: 'They did that by reinforcing the idea that Jehovah governed and controlled the destiny of all nations, including Babylon.'
+  - where: 'note 1:2 “God gave, three times”'
+    claim: 'If Daniel’s experiences were known to his fellow Jews, his testimony promised that Jehovah sustained the faithful in Babylon'
+    key: draper-exile
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/prophets-exile'
+    quote: 'it promised the Jews that even in Babylon, Jehovah could and did sustain and protect those who remained true to the faith'
+
+  # note 1:2 Shinar
+  - where: 'note 1:2 “Shinar, and where the vessels went”'
+    claim: 'The tower of Babel was built on a plain in the land of Shinar'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11?lang=eng'
+    quote: 'they found a plain in the land of Shinar; and they dwelt there'
+  - where: 'note 1:2 “Shinar, and where the vessels went”'
+    claim: 'Shinar (H8152) occurs once in Daniel, at 1:2'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'שִׁנְעָ֖ר'
+  - where: 'note 1:2 “Shinar, and where the vessels went”'
+    claim: 'Cyrus returned the vessels Nebuchadnezzar had put in the house of his gods'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/1?lang=eng'
+    quote: 'which Nebuchadnezzar had brought forth out of Jerusalem, and had put them in the house of his gods'
+  - where: 'note 1:2 “Shinar, and where the vessels went”'
+    claim: 'Belshazzar called for the vessels Nebuchadnezzar had taken'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/5?lang=eng'
+    quote: 'commanded to bring the golden and silver vessels which his father Nebuchadnezzar had taken out of the temple which was in Jerusalem'
+  - where: 'note 1:2 “Shinar, and where the vessels went”'
+    claim: 'More of the temple’s treasure was taken in a later siege'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/24?lang=eng'
+    quote: 'cut in pieces all the vessels of gold which Solomon king of Israel had made'
+
+  # note 1:3
+  - where: 'note 1:3 “Whether Daniel was made a eunuch”'
+    claim: 'Saris means eunuch; it is used of Potiphar, whom the lexicon marks as married'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5631.htm'
+    quote: 'eunuch, of Pharaoh Genesis 37:36; Genesis 40:2,7 (all E), married Genesis 39:1'
+  - where: 'note 1:3 “Whether Daniel was made a eunuch”'
+    claim: 'Eunuchs were emasculated men at eastern courts, often trusted officials'
+    key: bd-eunuch
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/eunuch?lang=eng'
+    quote: 'A class of emasculated men attached to the courts of eastern rulers. They were employed to watch over the harems and also were often given positions as trusted officials.'
+  - where: 'note 1:3 “Whether Daniel was made a eunuch”'
+    claim: 'The Church edition’s footnote gives “chief of his officers” as an alternative'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/1?lang=eng'
+    quote: 'OR chief of his officers.'
+  - where: 'note 1:3 “Whether Daniel was made a eunuch”'
+    claim: 'Isaiah told Hezekiah his sons would be eunuchs in Babylon’s palace; the Church footnote at “seed” (1:3) points there'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/39?lang=eng'
+    quote: 'and they shall be eunuchs in the palace of the king of Babylon'
+  - where: 'note 1:3 “Whether Daniel was made a eunuch”'
+    claim: 'The Church edition’s footnote on “seed” at Daniel 1:3 cites Isaiah 39:7'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/1?lang=eng'
+    quote: 'Isa. 39:7'
+  - where: 'note 1:3 “Whether Daniel was made a eunuch”'
+    claim: 'Josephus says Nebuchadnezzar made some of the noble youths eunuchs'
+    key: josephus-antiquities
+    url: 'https://penelope.uchicago.edu/josephus/ant-10.html'
+    quote: 'He also made some of them to be eunuchs: which course he took also with those of other nations whom he had taken in the flower of their age'
+
+  # note 1:4
+  - where: 'note 1:4 “A Babylonian education”'
+    claim: '“Children” is rendered “youths”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+1&version=ESV'
+    quote: 'youths without'
+  - where: 'note 1:4 “A Babylonian education”'
+    claim: '“The learning and the tongue” is rendered the literature and language'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+1&version=ESV'
+    quote: 'teach them the literature and language of the'
+  - where: 'note 1:4 “A Babylonian education”'
+    claim: '“Cunning” in older English meant knowing, skillful'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/cunning'
+    quote: 'Knowing; skillful; experienced; well-instructed.'
+  - where: 'note 1:4 “A Babylonian education”'
+    claim: '“Science” in older English meant knowledge'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/science'
+    quote: 'In a general sense, knowledge, or certain knowledge; the comprehension or understanding of truth or facts by the mind.'
+  - where: 'note 1:4 “A Babylonian education”'
+    claim: 'Madda means knowledge, thought; used at Daniel 1:4'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4093.htm'
+    quote: 'knowledge, thought (late)'
+  - where: 'note 1:4 “A Babylonian education”'
+    claim: 'Chaldea was the part of Babylonia south and east of Babylon'
+    key: bd-chaldea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/chaldea?lang=eng'
+    quote: 'The portion of Babylonia that lay south and east of Babylon'
+  - where: 'note 1:4 “A Babylonian education”'
+    claim: 'In Daniel the name is also used of a learned class'
+    key: bd-chaldea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/chaldea?lang=eng'
+    quote: 'In Dan. 2:2, 10 the name is applied to a learned class in Babylon who made a special study of astrology.'
+  - where: 'note 1:4 “A Babylonian education”'
+    claim: 'The word for “learning” in verse 4 (sepher, H5612) is the word in verse 17'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'סֵ֖פֶר'
+  - where: 'note 1:4 “A Babylonian education”'
+    claim: 'Verse 17 has sepher again'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'סֵ֣פֶר'
+
+  # note 1:7
+  - where: 'note 1:7 “Four names changed”'
+    claim: 'Daniel means a judge is God'
+    key: bd-daniel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/daniel?lang=eng'
+    quote: 'A judge (is) God.'
+  - where: 'note 1:7 “Four names changed”'
+    claim: 'Daniel: El is my judge'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1840.htm'
+    quote: 'El is my judge'
+  - where: 'note 1:7 “Four names changed”'
+    claim: 'Mishael: Who is what God is?'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4332.htm'
+    quote: 'Who is what God is ?'
+  - where: 'note 1:7 “Four names changed”'
+    claim: 'Hananiah: the Lord hath been gracious'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2608.htm'
+    quote: 'hath been gracious'
+  - where: 'note 1:7 “Four names changed”'
+    claim: 'Azariah: the Lord hath helped'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5838.htm'
+    quote: 'hath helped'
+  - where: 'note 1:7 “Four names changed”'
+    claim: 'Belteshazzar is probably Babylonian for “protect his life!”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1095.htm'
+    quote: 'protect his life!'
+  - where: 'note 1:7 “Four names changed”'
+    claim: 'The lexicon: Daniel 4:8 (Hebrew 4:5) connects the name with Bel, which leaves it inexplicable'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1095.htm'
+    quote: 'connected with Bel, but name then inexplicable'
+  - where: 'note 1:7 “Four names changed”'
+    claim: 'Bel was a Babylonian god'
+    key: bd-bel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/bel?lang=eng'
+    quote: 'A Babylonian god, same as Baal'
+  - where: 'note 1:7 “Four names changed”'
+    claim: 'Shadrach: form and meaning dubious'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7714.htm'
+    quote: 'form and meaning dubious'
+  - where: 'note 1:7 “Four names changed”'
+    claim: 'Meshach explained as “who is what Aku is?”, compared with Mishael'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4335.htm'
+    quote: 'who is what Aku (the moon-god) is?'
+  - where: 'note 1:7 “Four names changed”'
+    claim: 'Abed-nego: servant of Nebo, the god’s name altered'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5664.htm'
+    quote: 'servant of (God) Nebo'
+  - where: 'note 1:7 “Four names changed”'
+    claim: 'Nebuchadnezzar’s own name invokes Nebo'
+    key: bd-nebuchadnezzar
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/nebuchadnezzar?lang=eng'
+    quote: 'Nebo, protect the crown!'
+  - where: 'note 1:7 “Four names changed”'
+    claim: 'Pharaoh renamed Joseph'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng'
+    quote: 'And Pharaoh called Joseph’s name Zaphnath-paaneah'
+  - where: 'note 1:7 “Four names changed”'
+    claim: 'The narrator of chapter 2 still uses the Hebrew names'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/2?lang=eng'
+    quote: 'made the thing known to Hananiah, Mishael, and Azariah, his companions'
+
+  # note 1:8
+  - where: 'note 1:8 “Why the king’s table would defile”'
+    claim: '“Meat” in older English is food in general'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/meat'
+    quote: 'Food in general; any thing eaten for nourishment, either by man or beast.'
+  - where: 'note 1:8 “Why the king’s table would defile”'
+    claim: 'Pathbag is a Persian loanword: the king’s portion, delicacies'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6598.htm'
+    quote: 'portion (of food) for king, delicacies (Persian loanword'
+  - where: 'note 1:8 “Why the king’s table would defile”'
+    claim: 'Ga’al, “defile,” is late; used of hands defiled with blood (Isa. 59:3)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1351.htm'
+    quote: 'be defiled, hands with blood'
+  - where: 'note 1:8 “Why the king’s table would defile”'
+    claim: 'The same verb is used of polluted bread on the altar (Mal. 1:7)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1351.htm'
+    quote: 'of bread laid on Yahweh''s altar Malachi 1:7'
+  - where: 'note 1:8 “Why the king’s table would defile”'
+    claim: 'The food may have been offered to Babylonian gods'
+    key: scripture-helps-dan
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/44-daniel-1-7?lang=eng'
+    quote: 'these items may have first been offered to Babylonian gods as part of pagan rituals. Consuming such offerings would have been seen as participating in idol worship.'
+  - where: 'note 1:8 “Why the king’s table would defile”'
+    claim: 'The food may have broken the Mosaic dietary laws'
+    key: scripture-helps-dan
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/44-daniel-1-7?lang=eng'
+    quote: 'Additionally, the food may have violated dietary laws given in the law of Moses.'
+  - where: 'note 1:8 “Why the king’s table would defile”'
+    claim: 'Keil: unclean animals would not explain refusing the wine'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/1.htm'
+    quote: 'for in this case the youths were not under the necessity of refraining from the wine'
+  - where: 'note 1:8 “Why the king’s table would defile”'
+    claim: 'Keil: a part offered to the gods made the whole meal an idol sacrifice'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/1.htm'
+    quote: 'the meat and the wine as a whole were the meat and the wine of an idol sacrifice'
+  - where: 'note 1:8 “Why the king’s table would defile”'
+    claim: 'Keil joins Hosea 9:3 to the aversion to unclean food in heathen lands; the Church footnote at “defile” also cites it'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/1.htm'
+    quote: 'is found already existing in these threatenings in Hosea 9:3., Amos 7:17'
+  - where: 'note 1:8 “Why the king’s table would defile”'
+    claim: 'Hosea warned of eating unclean things in exile'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/9?lang=eng'
+    quote: 'they shall eat unclean things in Assyria'
+
+  # note 1:12
+  - where: 'note 1:12 “Pulse, a ten-day test, and the Word of Wisdom”'
+    claim: 'The Hebrew noun means vegetable and occurs only at Daniel 1:12, with a variant form only at 1:16'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2235.htm'
+    quote: 'noun [masculine] vegetable'
+  - where: 'note 1:12 “Pulse, a ten-day test, and the Word of Wisdom”'
+    claim: 'The Hebrew word denotes seeds'
+    key: bd-pulse
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/pulse?lang=eng'
+    quote: 'The Hebrew word denotes seeds, and may include the grains of leguminous vegetables or any other edible seeds.'
+  - where: 'note 1:12 “Pulse, a ten-day test, and the Word of Wisdom”'
+    claim: 'Modern translation: vegetables'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+1&version=ESV'
+    quote: 'let us be given vegetables to eat and water to drink'
+  - where: 'note 1:12 “Pulse, a ten-day test, and the Word of Wisdom”'
+    claim: '“Prove” is “Test”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+1&version=ESV'
+    quote: 'Test your servants for'
+  - where: 'note 1:12 “Pulse, a ten-day test, and the Word of Wisdom”'
+    claim: 'The wisdom is described as given in consequence of abstinence from wine'
+    key: bd-daniel-book
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/daniel-book-of?lang=eng'
+    quote: 'the spirit of wisdom that was given to Daniel and his companions in consequence of their abstinence from wine (Dan. 1)'
+  - where: 'note 1:12 “Pulse, a ten-day test, and the Word of Wisdom”'
+    claim: 'The Church edition’s footnote on “pulse” points to D&C 89:14'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/1?lang=eng'
+    quote: 'IE foods made of seeds, grains, etc.'
+  - where: 'note 1:12 “Pulse, a ten-day test, and the Word of Wisdom”'
+    claim: 'The footnote on “countenances” (v. 13) points to D&C 89:18'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/1?lang=eng'
+    quote: 'D&C 89:18'
+  - where: 'note 1:12 “Pulse, a ten-day test, and the Word of Wisdom”'
+    claim: 'The footnote on “knowledge” (v. 17) points to D&C 89:19'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/1?lang=eng'
+    quote: 'D&C 89:19'
+  - where: 'note 1:12 “Pulse, a ten-day test, and the Word of Wisdom”'
+    claim: 'D&C 89:18–19 promises health, then wisdom and knowledge'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/89?lang=eng'
+    quote: 'shall receive health in their navel and marrow to their bones'
+  - where: 'note 1:12 “Pulse, a ten-day test, and the Word of Wisdom”'
+    claim: 'The Word of Wisdom did not exist in Daniel’s time'
+    key: ot-institute-manual-44
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-institute-teacher-manual-2026/44-daniel-1-7?lang=eng'
+    quote: 'the Word of Wisdom as the Lord has revealed it in our day did not exist in Daniel’s time'
+  - where: 'note 1:12 “Pulse, a ten-day test, and the Word of Wisdom”'
+    claim: 'The law of Moses had its own dietary laws'
+    key: ot-institute-manual-44
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-institute-teacher-manual-2026/44-daniel-1-7?lang=eng'
+    quote: 'However, the law of Moses did include specific dietary laws that guided the Lord’s people anciently.'
+
+  # note 1:17
+  - where: 'note 1:17 “The gift only Daniel is given”'
+    claim: 'The second half of the book is visions seen by Daniel'
+    key: bd-daniel-book
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/daniel-book-of?lang=eng'
+    quote: 'Dan. 7–12 contains prophetic visions seen by Daniel and reported in his own name.'
+  - where: 'note 1:17 “The gift only Daniel is given”'
+    claim: 'Like Joseph, Daniel attributes his wisdom to God'
+    key: bd-daniel-book
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/daniel-book-of?lang=eng'
+    quote: 'Also, like Joseph, he is careful to point out that he is not able to do this by his own wisdom but because of the wisdom given him by the God of heaven'
+  - where: 'note 1:17 “The gift only Daniel is given”'
+    claim: 'Ezekiel refers to Daniel'
+    key: bd-daniel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/daniel?lang=eng'
+    quote: 'There are references to him in Ezek. 14:14, 20; 28:3; Heb. 11:33.'
+  - where: 'note 1:17 “The gift only Daniel is given”'
+    claim: 'Ezekiel uses Daniel as a measure of wisdom'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/28?lang=eng'
+    quote: 'Behold, thou art wiser than Daniel; there is no secret that they can hide from thee'
+
+  # note 1:20
+  - where: 'note 1:20 “Pharaoh’s magicians, and Babylon’s”'
+    claim: 'Chartom: engraver, writer; one with occult knowledge'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2748.htm'
+    quote: 'engraver, writer, only in derived sense of one possessed of occult knowledge, diviner, astrologer, magician'
+  - where: 'note 1:20 “Pharaoh’s magicians, and Babylon’s”'
+    claim: 'Outside Daniel the word is applied only to Egyptian magicians'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2748.htm'
+    quote: 'the fact that the word is always applied to Egyptian magicians, except Daniel 2:2 (late)'
+  - where: 'note 1:20 “Pharaoh’s magicians, and Babylon’s”'
+    claim: 'It is the word for Pharaoh’s magicians in Joseph’s story'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng'
+    quote: 'he sent and called for all the magicians of Egypt, and all the wise men thereof'
+  - where: 'note 1:20 “Pharaoh’s magicians, and Babylon’s”'
+    claim: 'Ashshaph: conjurer, necromancer; probably a Babylonian loanword; in the Hebrew of Daniel only at 1:20 and 2:2'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/825.htm'
+    quote: 'conjurer, necromancer (probably Babylonian loan-word'
+  - where: 'note 1:20 “Pharaoh’s magicians, and Babylon’s”'
+    claim: 'A modern translation has “enchanters”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+1&version=ESV'
+    quote: 'enchanters that were in all his kingdom'
+
+  # note 1:21
+  - where: 'note 1:21 “From Nebuchadnezzar to Cyrus”'
+    claim: 'Daniel receives a revelation in Cyrus’s third year'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/10?lang=eng'
+    quote: 'In the third year of Cyrus king of Persia a thing was revealed unto Daniel'
+  - where: 'note 1:21 “From Nebuchadnezzar to Cyrus”'
+    claim: 'Keil: the preposition marks an end point without reference to what followed'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/1.htm'
+    quote: 'it denotes a termination without reference to that which came after it'
+  - where: 'note 1:21 “From Nebuchadnezzar to Cyrus”'
+    claim: 'A modern translation: “was there until”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Daniel+1&version=ESV'
+    quote: 'was there until the first year of'
+  - where: 'note 1:21 “From Nebuchadnezzar to Cyrus”'
+    claim: 'The first year of Cyrus is the year of the decree that ended the exile'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/1?lang=eng'
+    quote: 'Now in the first year of Cyrus king of Persia, that the word of the Lord by the mouth of Jeremiah might be fulfilled'
+  - where: 'note 1:21 “From Nebuchadnezzar to Cyrus”'
+    claim: 'Keil: the first year of Cyrus is the end of the exile and answers to 1:1, its commencement'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/1.htm'
+    quote: 'Nebuchadnezzar''s advance against Jerusalem and the first taking of the city, which forms the commencement of the exile'
+  - where: 'note 1:21 “From Nebuchadnezzar to Cyrus”'
+    claim: 'Keil: the verse means Daniel lived and acted through the whole exile'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/1.htm'
+    quote: 'means only that he lived and acted during the whole period of the exile in Babylon'
+  - where: 'note 1:21 “From Nebuchadnezzar to Cyrus”'
+    claim: 'Cyrus conquered Babylon in 539 B.C.'
+    key: scripture-helps-dan
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/44-daniel-1-7?lang=eng'
+    quote: 'King Cyrus of Persia, who conquered Babylon in 539 BC'
+  - where: 'note 1:21 “From Nebuchadnezzar to Cyrus”'
+    claim: 'Daniel served through the seventy years of the captivity'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'He was in Babylon serving various kings through the seventy years of the Jewish captivity (see Jeremiah 25:11; 29:10).'
+  - where: 'note 1:21 “From Nebuchadnezzar to Cyrus”'
+    claim: 'His age is not given, but he lived to at least eighty'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'Though there is no indication of his age at the time of his captivity, Daniel 1:21 shows that he lived to at least the age of eighty.'
+
+  # christ
+  - where: 'christ'
+    claim: 'The one like the Son of man is given an everlasting dominion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/7?lang=eng'
+    quote: 'his dominion is an everlasting dominion, which shall not pass away'
+  - where: 'christ'
+    claim: 'The Son of Man of Daniel 7 is Jesus Christ'
+    key: bd-daniel-book
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/daniel-book-of?lang=eng'
+    quote: 'is Jesus Christ'
+
+  # explore
+  - where: 'explore'
+    claim: 'The Church edition’s footnotes at Daniel 1:12, 13, and 17 point to D&C 89'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/1?lang=eng'
+    quote: 'IE foods made of seeds, grains, etc.'

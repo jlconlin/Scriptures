@@ -1,0 +1,92 @@
+page: blessing-outsiders
+claims:
+  - where: 'opening'
+    claim: '“Be a blessing” occurs in Genesis only at 12:2 (occurrences.mjs)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/12?lang=eng'
+    quote: 'and thou shalt be a blessing'
+  - where: 'section “A king sees it”'
+    claim: 'The Philistine king and his men say they saw that the LORD was with Isaac and call him blessed of the LORD; Isaac is the one named blessed, not the king'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/26?lang=eng'
+    quote: 'We saw certainly that the Lord was with thee'
+  - where: 'section “For Joseph’s sake”'
+    claim: 'The Hebrew behind “for thy sake” at 12:13 is biglal'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'בִּ/גְלָלֵֽ/ךְ'
+  - where: 'section “For Joseph’s sake”'
+    claim: 'The Hebrew behind “for thy sake” at 30:27 is biglal'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'בִּ/גְלָלֶֽ/ךָ'
+  - where: 'section “For Joseph’s sake”'
+    claim: 'The Hebrew behind “for Joseph’s sake” at 39:5 is the same word, biglal; it occurs three times in Genesis (12:13, 30:27, 39:5)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'בִּ/גְלַ֣ל'
+  - where: 'section “For Joseph’s sake”'
+    claim: 'The Church edition’s footnotes on 30:27 and 39:5 point to each other'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/30?lang=eng'
+    quote: '“sake”: Gen. 39:5 (3–5).'
+  - where: 'section “For Joseph’s sake”'
+    claim: 'The Church edition’s footnote on 39:5 “sake” points to 30:27'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/39?lang=eng'
+    quote: 'Gen. 30:27.'
+  - where: 'section “Bread for all countries”'
+    claim: 'Gen. 41:56–57 has the grain sold, and has neither “bless” nor the divine name'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/41?lang=eng'
+    quote: 'And all countries came into Egypt to Joseph for to buy corn; because that the famine was so sore in all lands.'
+  - where: 'section “Jacob blesses Pharaoh”'
+    claim: 'Jacob’s blessing of Pharaoh is read as a benediction from an aged man to one of higher rank, or as a greeting'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/47.htm'
+    quote: 'We should understand by this the solemn and benevolent benediction which is the privilege of aged persons in addressing those of much higher rank. According to another interpretation, the word should be rendered “saluted”'
+  - where: 'section “When a king’s house suffers”'
+    claim: 'The LORD plagued Pharaoh and his house because of Sarai'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/12?lang=eng'
+    quote: 'And the Lord plagued Pharaoh and his house with great plagues because of Sarai Abram’s wife.'
+  - where: 'section “When a king’s house suffers”'
+    claim: 'Abimelech’s house was closed up because of Sarah, and Abraham prayed for him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/20?lang=eng'
+    quote: 'For the Lord had fast closed up all the wombs of the house of Abimelech, because of Sarah Abraham’s wife.'
+  - where: 'section “When a king’s house suffers”'
+    claim: 'God healed Abimelech’s house when Abraham prayed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/20?lang=eng'
+    quote: 'and God healed Abimelech, and his wife, and his maidservants'
+  - where: 'section “When a king’s house suffers”'
+    claim: 'Genesis uses neither of its curse verbs (arar, qalal) of these episodes; arar is at 3:14, 3:17, 4:11, 5:29, 9:25, 12:3, 27:29, 49:7, and qalal in the sense of cursing at 8:21 and 12:3'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וּ/מְקַלֶּלְ/ךָ֖'
+  - where: 'section “The blessing and Christ”'
+    claim: 'Abr. 2:9: Abraham is a blessing to his seed, who bear the ministry and priesthood to all nations'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'thou shalt be a blessing unto thy seed after thee, that in their hands they shall bear this ministry and Priesthood unto all nations'
+  - where: 'section “The blessing and Christ”'
+    claim: 'Abraham’s record says all families are blessed with the blessings of the gospel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/2?lang=eng'
+    quote: 'even with the blessings of the Gospel, which are the blessings of salvation, even of life eternal'
+  - where: 'section “The blessing and Christ”'
+    claim: 'Paul: the blessing of Abraham comes on the Gentiles through Jesus Christ'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/gal/3?lang=eng'
+    quote: 'That the blessing of Abraham might come on the Gentiles through Jesus Christ'
+  - where: 'section “The blessing and Christ”'
+    claim: 'Heirs of the covenant are chosen to carry the gospel to all the peoples of the earth'
+    key: bd-abraham-covenant
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abraham-covenant-of?lang=eng'
+    quote: 'such are chosen to responsibly carry the gospel to all the peoples of the earth.'
+  - where: 'section “The blessing and Christ”'
+    claim: 'Connection made by this page: “blessed… for thy sake” of Laban (30:27) and of Potiphar’s house (39:5) set beside “thou shalt be a blessing” (12:2); a contrast as much as a likeness: the scenes give flocks, a prosperous house and grain, and Abr. 2:9–11 and Gal. 3:14 promise all families the blessings of the gospel through Jesus Christ; Egypt’s bread is not called a blessing'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/12?lang=eng'
+    quote: 'and thou shalt be a blessing'
