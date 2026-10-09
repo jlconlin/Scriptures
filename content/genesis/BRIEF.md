@@ -17,6 +17,7 @@ Related files: `CHURCH-STATEMENTS.md` (what the Church's own sources say on the 
 - **Decide, don't defer** (2026-10-03: “make note of things that really need my judgement. Do not save for me what you can decide on your own”). Writers and reviewers settle by the standard and this brief whatever they can: an outside reading that only gives the ancient picture or a location is kept, framed as that, and never as an equal to the Church's reading; a reading no source applies to the verse is cut; a source that can't be read is left out. `OPEN-QUESTIONS.md` is for what is truly the author's: a matter of doctrine or taste the standard doesn't settle.
 - **How it is written:** an Opus writer (`chapter-writer` with the model set to Opus), then `scripts/check-ledger.mjs`, then a second Opus as reviewer (`AUTHORING.md`, “Plan for the next book”). One commit per chapter with its ledger.
 - **The Student Manual limits apply from the first chapter** (`STANDARDS.md` §1): about a third of a chapter's notes at most, and a note that cites it also rests on something from beyond the Church's own publications.
+- **“The Angel which redeemed me” (48:16) stays a Witness of Christ note** (2026-10-09: “keep it”). It reaches Christ by a chain (Hosea 12:4–5 calls the one Jacob met “the LORD God of hosts”; the Bible Dictionary says Jehovah is the premortal Christ) and says that Genesis does not say more about who the Angel is; no Church source read applies the verse to Christ directly.
 
 ## Divisions
 
