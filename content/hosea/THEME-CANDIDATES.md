@@ -1,6 +1,27 @@
 # Hosea: theme candidates
 
-Topics that run across the book and might become theme pages (`STANDARDS.md` §8). None is chosen; the author chooses, and gives a separate instruction before any page is developed. With fourteen chapters, a topic that lives in one chapter belongs in that chapter's notes.
+Topics that run across the book and might become theme pages (`STANDARDS.md` §8). The author selected three on 2026-10-09 and will give a separate instruction before any page is developed. With fourteen chapters, a topic that lives in one chapter belongs in that chapter's notes. The unselected candidate and chapter reports below remain research leads, not page assignments.
+
+## Selected for development (author, 2026-10-09)
+
+The author chose earlier shortlist items 1, 3, and 4. Their passage anchors, Christ connections, and boundaries are in the shortlist below. This selection is not yet an instruction to write the pages.
+
+1. **“I will betroth thee unto me”** — the broken marriage covenant, the children's names, and promised mercy (earlier shortlist 1).
+2. **“I will heal their backsliding”** — false helps, return, and the Lord's promised healing (earlier shortlist 3).
+3. **“Out of Egypt have I called my son”** — the Exodus remembered and undone, the father calling His children home, and Matthew's use of Hosea 11:1 (earlier shortlist 4).
+
+**Research lead, not selected:** “I desired mercy, and not sacrifice” (earlier shortlist 2).
+
+## Earlier shortlist (2026-10-09)
+
+These four were proposed before the author's selection. Items 1, 3, and 4 were selected; item 2 remains a research lead.
+
+1. **“I will betroth thee unto me.”** The children's names pronounce the broken covenant (1:4–9), yet “not my people” is answered almost at once (1:10–2:1). The Lord withdraws the gifts Israel credited to Baal, leads her into the wilderness, and promises a new betrothal and mercy (2:8–23); chapter 3 shows love commanded again and ends with Israel seeking the Lord and David their king (3:1–5). Later charges of unfaithfulness (4:12–15; 5:3–7; 9:1) keep the promise from becoming a tidy ending. **Christ connection:** identify the covenant LORD with Jehovah, Jesus Christ, as the brief and chapter notes do; follow His promised mercy rather than infer a later life for Gomer. **Boundary:** fold the reversal of Lo-ruhamah and Lo-ammi into this page rather than make a second page on the names. Link to Isaiah's *Zion and Her Husband* and the related Jeremiah and Ezekiel chapters without retelling them. Leave whether Hosea's marriage was literal open (`OPEN-QUESTIONS.md`, H1).
+2. **“I desired mercy, and not sacrifice.”** Betrothal promises faithfulness, mercy, and knowledge of the Lord (2:19–20). The land instead lacks truth, mercy, and knowledge (4:1, 6; 5:3–4); the people say they will know Him, but their mercy vanishes like a morning cloud (6:3–6). The call returns as “sow to yourselves in righteousness, reap in mercy” and “keep mercy and judgment” (10:12; 12:6). **Christ connection:** Jesus cites 6:6 when answering criticism of His eating with publicans and of His disciples' Sabbath conduct (Matt. 9:10–13; 12:1–7). **Research test:** distinguish Hosea's use of *hesed* from the English “mercy” in each verse, and show a developing claim about covenant life, not merely a word list. Keep the Gospel scenes' different settings clear.
+3. **“I will heal their backsliding.”** Israel seeks Assyria for a wound Assyria cannot heal (5:13); the people expect the Lord to heal after He has torn them (5:14–6:3), but He says He would have healed them and found sin instead (7:1). The father says He healed Ephraim without being recognized (11:1–4); at last Israel renounces Assyria, horses, and handmade gods (14:1–3), and the Lord answers, “I will heal their backsliding: I will love them freely” (14:4). **Christ connection:** the LORD who judges and heals is Jehovah, Jesus Christ; the page can follow His saving work through Hosea's own images. **Boundary:** fold the book's repeated “return,” false helps, lion and physician, and the final prayer into this one arc. Do not make 6:1–3 alone a promise that every quick return has succeeded; 6:4 follows it with a complaint.
+4. **“Out of Egypt have I called my son.”** The Lord woos Israel in the wilderness again (2:14–15); later “return to Egypt” names a reversal of deliverance (8:13; 9:3, 6). The father remembers calling His son, teaching him to walk, and healing him, while the son refuses to return (11:1–5). He then calls like a lion and brings the children home from Egypt and Assyria (11:10–11); 12:9, 13 and 13:4–5 recall who first led them out. **Christ connection:** Matthew applies 11:1 to the child Jesus (Matt. 2:15); explain first what Hosea says of Israel, then Matthew's use. **Boundary:** keep the father and son picture here, distinct from the marriage page; do not treat every mention of Egypt as the same kind of return or name a second historical exodus that Hosea does not name.
+
+**Keep as research leads, not separate pages:** the names by themselves (fold into 1); “return,” the false allies, the Lord as healer, and the lion (fold into 3); the wife-to-son change (a bridge between 1 and 4); dew and rain, fruit and farming, the kings, and the golden calves (images or chapter notes unless research finds a distinct Christ-centered arc). Hosea 13:14 and Paul's use of it matter greatly, but its resurrection question is already treated in the chapter 13 note; test whether a broader arc warrants a page before proposing one.
 
 ## Noticed while setting up (2026-10-09; not yet tested against the chapters)
 
