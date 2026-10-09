@@ -1,8 +1,8 @@
 # Line upon Line
 
-A Latter-day Saint scripture study site (https://scriptures.conlin.io): scripture text with sourced commentary, one book at a time. Genesis, Isaiah, Jeremiah, Lamentations, Ezekiel, Daniel, Hosea, Malachi, Moses and Abraham are live; Mosiah has two bare chapters (`content/mosiah/BRIEF.md`).
+A Latter-day Saint scripture study site (https://scriptures.conlin.io): scripture text with sourced commentary, one book at a time. `node scripts/status.mjs` prints where every book stands; a book’s own decisions are in `content/<book>/BRIEF.md` and its history in `git log -- content/<book>`.
 
-Always read `AUTHORING.md` (status, current plan, working with the author). Then read only what the task needs:
+Always read `AUTHORING.md` (how a book is written, working with the author). Then read only what the task needs:
 
 | Task | Read |
 |---|---|

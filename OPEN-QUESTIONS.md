@@ -11,6 +11,8 @@ Everything that waits for the author, for every book and for the site, in this o
 
 - **S4. The limits on a theme page's own connections.** Your rule of 2026-10-03 is in `STANDARDS.md` §8 with three limits added to your two: the connection rests on quoted words; the facts around it stay sourced; it is worded as a comparison and marked in the ledger. Is that what you meant by “relax a little,” or too tight? The last sections of Jeremiah's cup page and root-and-plant page show it in use.
 
+- **S6. Former “Liken It” notes that still end in personal application.** When the note kinds were re-sorted on 2026-09-30, 27 notes that had been Liken It kept a closing sentence of application, which you have said belongs in *Come, Follow Me* (`STANDARDS.md` §1). You were never asked whether to trim those sentences. The language pass of 2026-10-08 cut closing lines that preach, so some may already be gone; nobody has counted since. Recommend: count what is left, then cut the sentences and keep the notes.
+
 - **S5. What Codex found on older pages that only you can decide** (the language pass of 2026-10-08; these were left as they are because they are cuts of structure or matters of taste):
   - *About page:* its principles speak of Isaiah only, though the site now has nine books; and Codex would cut “the Holy Ghost is the one who opens Isaiah” and “Read with a prayer in your heart” as preaching. Both are your own words on your own page.
   - *The description line of every book page* (“A phrase-by-phrase companion to the book of …”) overstates Mosiah, which has two bare chapters.
@@ -147,7 +149,8 @@ Everything that waits for the author, for every book and for the site, in this o
 - **Isaiah 18:7:** Joseph Smith's statement is cited from the manual (*History of the Church* 2:132); find it in the Joseph Smith Papers and cite it there.
 - **2 Nephi 19:1, “Red Sea”** (Isaiah 9:1): a note was written and cut because Skousen's *Analysis of Textual Variants* was read on an unauthorized site. Write it when the publisher's copy and the *Interpreter* article arguing the reading may be authentic can both be read.
 - **Isaiah 29:14:** three ledger rows cite an *Interpreter* article (`bowen-yasap`) whose page now needs a browser, so `check-ledger` cannot confirm them; find a readable copy.
-- **Isaiah chapters with no evidence ledger:** 1, 40–44, 56–66, though the status says all 66 are audited.
+- **Isaiah chapters with no evidence ledger:** 1, 40–44, 56–66 (`content/isaiah/BRIEF.md`, “State of the book”).
+- **Abraham’s and Moses’s theme pages** have not had Codex’s language read (`AUTHORING.md`, “Other pages”).
 
 ## Notes waiting for a Book of Mormon home
 

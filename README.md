@@ -28,7 +28,7 @@ The output is a plain static site that any web server can host. Configure the se
 
 ## Contributing to the content
 
-[STANDARDS.md](STANDARDS.md) explains how the commentary is written and sourced; [AUTHORING.md](AUTHORING.md) records the project’s status and lists the other project files. [DEVELOPMENT.md](DEVELOPMENT.md) covers the code.
+[STANDARDS.md](STANDARDS.md) explains how the commentary is written and sourced; [AUTHORING.md](AUTHORING.md) says how a book is written and lists the other project files; `node scripts/status.mjs` prints where each book stands. [DEVELOPMENT.md](DEVELOPMENT.md) covers the code.
 
 ## License
 

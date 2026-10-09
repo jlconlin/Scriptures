@@ -6,6 +6,14 @@ Book-level decisions for Hosea. The site-wide standard is in `STANDARDS.md`; thi
 
 Related files: `OPEN-QUESTIONS.md` at the top of the repository (what waits for the author, for every book); `THEME-CANDIDATES.md` in this folder. Genesis, Isaiah, Jeremiah, Lamentations, Ezekiel, Daniel, Malachi, Moses, and Abraham are on the site.
 
+## State of the book
+
+`node scripts/status.mjs hosea` prints what the repository shows (chapters, ledgers, the language pass, pages, the illustration, live or preview, open questions); the history is `git log -- content/hosea`. What a script can't see:
+
+- **The author has read the brief and none of the chapters or theme pages.** On reading the brief (2026-10-09) the author said it is not brief; that “What the author has decided” should link to the standing rules, not copy them (done here); and “you still jump to the student manual quite quickly.”
+- **This brief was drafted from the Student Manual and two BYU articles.** Scripture Central and *Interpreter* were searched only afterwards, so the manual frames more of the contested questions than it should; where it still frames the chapters is H9 in `OPEN-QUESTIONS.md`. After the batch the manual was in 35 of the 172 notes, older commentaries in 46, Latter-day Saint articles and KnoWhys in 71. The three theme pages were researched from those two sites first; the manual is on one of them, once.
+- **The illustration** (approved 2026-10-09, the fifth candidate): the author rejected lilies in a plowed field, whose furrows looked made by a tractor; the olive tree, vine and dove of 11:11 and 14:5–7 were added and the ground made dry.
+
 ## What the author has decided
 
 Nothing for Hosea in particular. The author's standing rules are in `STANDARDS.md` §1 and `AUTHORING.md` (“Plan for the next book,” “Working with the author”) and are not repeated here. How three of them land on this book:
