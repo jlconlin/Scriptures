@@ -9,11 +9,6 @@ claims:
 
   # ---- setting ----
   - where: 'setting'
-    claim: 'Psalms 34 and 35 are the only psalms that name the angel of the LORD'
-    key: delitzsch-psalms
-    url: 'https://biblehub.com/commentaries/kad/psalms/35.htm'
-    quote: 'This Psalm 35 and Psalm 34 form a pair. They are the only Psalms in which the name'
-  - where: 'setting'
     claim: 'One older reading sets the psalm in Saul’s persecution of David and calls it the expansion of 1 Samuel 24:15'
     key: delitzsch-psalms
     url: 'https://biblehub.com/commentaries/kad/psalms/35.htm'
@@ -92,11 +87,6 @@ claims:
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2035&version=NRSVUE'
     quote: 'Rescue me from their ravages,'
-  - where: 'section 6 plain'
-    claim: 'Verse 19: enemies “wrongfully” are treacherous, lying enemies'
-    key: nrsvue
-    url: 'https://www.biblegateway.com/passage/?search=Psalm%2035&version=NRSVUE'
-    quote: 'Do not let my treacherous enemies rejoice over me'
   - where: 'section 8 plain'
     claim: 'Verse 27: “favour my righteous cause” is to desire his vindication; “prosperity” is welfare'
     key: nrsvue
@@ -174,16 +164,6 @@ claims:
     url: 'https://biblehub.com/hebrew/4397.htm'
     quote: 'encamping about the faithful Psalm 34:8; chasing his enemies Psalm 35:5'
   - where: 'note 35:5 “The angel of the LORD, guard and pursuer”'
-    claim: 'Angels are messengers of the Lord'
-    key: bd-angels
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/angels?lang=eng'
-    quote: 'These are messengers of the Lord'
-  - where: 'note 35:5 “The angel of the LORD, guard and pursuer”'
-    claim: 'In some passages the angel of the Lord speaks as God Himself'
-    key: bd-angels
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/angels?lang=eng'
-    quote: 'speaks as the voice of God Himself'
-  - where: 'note 35:5 “The angel of the LORD, guard and pursuer”'
     claim: '“Persecute” in verse 6 is the verb radaph (Strong’s 7291), of the angel'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
@@ -227,16 +207,6 @@ claims:
     quote: 'gratuitously, without cause, undeservedly, especially of groundless hostility or attack'
 
   # ---- note 35:10 ----
-  - where: 'note 35:10 “The question from the song at the sea”'
-    claim: 'Verse 10 has mi kamokha (Strong’s 4310, 3644)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'כָ֫מ֥וֹ/ךָ'
-  - where: 'note 35:10 “The question from the song at the sea”'
-    claim: 'Exodus 15:11 has the same two words'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
-    quote: 'כָמֹ֤/כָה'
   - where: 'note 35:10 “The question from the song at the sea”'
     claim: 'Moses and Israel sing the song after Pharaoh’s host is cast into the sea'
     key: lds-scriptures
