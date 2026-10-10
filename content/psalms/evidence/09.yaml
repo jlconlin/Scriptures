@@ -1,0 +1,489 @@
+chapter: 9
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/9?lang=eng'
+    quote: 'To the chief Musician upon Muth-labben, A Psalm of David.'
+  - where: setting
+    claim: 'One older reading: a national song of thanksgiving for victory by David, from the time after the ark was brought to Zion'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/9.htm'
+    quote: 'This Psalm is a thoroughly national song of thanksgiving for victory by David, belonging to the time when Jahve was already enthroned on Zion, and therefore, to the time after the ark was brought home.'
+  - where: setting
+    claim: 'Many ancient manuscripts, the Greek especially, take Psalms 9 and 10 as one psalm, and the two appear to be one acrostic poem'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Many ancient (especially Greek) manuscripts understand Psalms 9 and 10 to be one psalm. The two psalms together appear to be one complete acrostic poem'
+  - where: setting
+    claim: 'The lines follow the Hebrew alphabet in order, with some letters missing'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'the first letters of each line (in Hebrew) follow the Hebrew alphabet in order (although some letters are missing)'
+  - where: setting
+    claim: 'The pair is a hymn of thanksgiving followed by a lament'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalms 9–10 is a hymn of thanksgiving (Psalm 9) followed by a lament (Psalm 10).'
+  - where: setting
+    claim: 'The Church’s chapter heading calls it a messianic psalm of David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/9?lang=eng'
+    quote: 'A messianic psalm of David'
+  - where: setting
+    claim: 'Paul at Athens speaks of God judging the world in righteousness by the man He has ordained'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/17?lang=eng'
+    quote: 'he will judge the world in righteousness by that man whom he hath ordained'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'One older reading: the judgment just experienced opens the prospect of a final universal judgment in verse 8 (Hebrew 9:8–9)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/9.htm'
+    quote: 'the prospect of a final universal judgment was opened up by'
+  - where: thread
+    claim: 'The Hebrew verb “perish” is the same in verse 3'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ֝/יֹאבְד֗וּ'
+  - where: thread
+    claim: 'The Hebrew verb “perish” is the same in verse 6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אָבַ֖ד'
+  - where: thread
+    claim: 'The Hebrew verb “perish” is the same in verse 18'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תֹּאבַ֥ד'
+  - where: thread
+    claim: 'One older reading takes verses 13–14 as the cry the afflicted raised before the deliverance, not a present prayer'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/9.htm'
+    quote: 'cried to Jahve before the deliverance now experienced'
+  - where: thread
+    claim: 'Psalm 10 acknowledges that the day of judgment Psalm 9 looks to has not yet come'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalm 10 is the painful acknowledgment that that great day has not yet arrived and that wickedness is still found abundantly in this world.'
+
+  # ---------- sections ----------
+  - where: section 2 plain
+    claim: 'Verse 3 rendered as past: the enemies turned back, stumbled and perished'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%209&version=NRSVUE'
+    quote: 'they stumbled and perished before you'
+  - where: section 2 plain
+    claim: 'Verse 6 rendered with the enemy as subject, ended in lasting ruins'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%209&version=NRSVUE'
+    quote: 'The enemies have vanished in everlasting ruins'
+  - where: section 3 plain
+    claim: 'Verse 7: the LORD sits enthroned for ever'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%209&version=NRSVUE'
+    quote: 'But the Lord sits enthroned forever'
+  - where: section 3 plain
+    claim: 'Verse 9: “refuge” rendered stronghold'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%209&version=NRSVUE'
+    quote: 'The Lord is a stronghold for the oppressed'
+  - where: section 3 plain
+    claim: 'The Hebrew word for “refuge” means a secure height, used of God twice in this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4869.htm'
+    quote: 'figurative of God as refuge Psalm 9:10 (twice in verse)'
+  - where: section 3 plain
+    claim: 'Verse 12: He who avenges blood remembers them'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%209&version=NRSVUE'
+    quote: 'For he who avenges blood is mindful of them'
+  - where: section 4 plain
+    claim: 'Verse 16: the LORD has made Himself known and executed judgment'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%209&version=NRSVUE'
+    quote: 'The Lord has made himself known; he has executed judgment'
+  - where: section 5 plain
+    claim: 'Verse 17: “hell” is Sheol'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%209&version=NRSVUE'
+    quote: 'The wicked shall depart to Sheol'
+  - where: section 5 plain
+    claim: 'Verses 19–20: “man” and “men” rendered mortals and only human'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%209&version=NRSVUE'
+    quote: 'let the nations know that they are only human'
+
+  # ---------- note 9:0 ----------
+  - where: 'note 9:0 “Muth-labben”'
+    claim: 'The wording of the title in the King James Version'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/9?lang=eng'
+    quote: 'To the chief Musician upon Muth-labben, A Psalm of David.'
+  - where: 'note 9:0 “Muth-labben”'
+    claim: 'The lexicon calls the phrase of dubious meaning'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4192.htm'
+    quote: 'of dubious meaning'
+  - where: 'note 9:0 “Muth-labben”'
+    claim: 'The Student Manual prints a dictionary that calls Muth-labben a perfect riddle'
+    key: ot-manual-psalms
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/the-psalms-songs-from-the-heart-of-israel?lang=eng'
+    quote: 'presents a perfect riddle, owing to the various readings of MSS., and the contradictory conjectures of the learned'
+  - where: 'note 9:0 “Muth-labben”'
+    claim: 'The common reading of the words is “upon death to the son”'
+    key: ot-manual-psalms
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/the-psalms-songs-from-the-heart-of-israel?lang=eng'
+    quote: 'Besides the common reading upon death to the son'
+  - where: 'note 9:0 “Muth-labben”'
+    claim: 'Some take the phrase as the subject or occasion of the song, but most refer it to the music'
+    key: ot-manual-psalms
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/the-psalms-songs-from-the-heart-of-israel?lang=eng'
+    quote: 'Some explain it as the subject or occasion of the song, but most refer it to the music'
+  - where: 'note 9:0 “Muth-labben”'
+    claim: 'The title has two Hebrew words here (the first)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עַלְמ֥וּת'
+  - where: 'note 9:0 “Muth-labben”'
+    claim: 'The title has two Hebrew words here (the second)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לַבֵּ֗ן'
+  - where: 'note 9:0 “Muth-labben”'
+    claim: 'The Greek title has “concerning the secrets of the Son”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/9.htm'
+    quote: 'For the end, a Psalm of David, concerning the secrets of the Son.'
+  - where: 'note 9:0 “Muth-labben”'
+    claim: 'The Bible Dictionary takes titles of this kind as probably names of tunes'
+    key: bd-psalms
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
+    quote: 'The other titles are all probably names of tunes, well known at the time, to which the Psalms were appointed to be sung.'
+
+  # ---------- note 9:1 ----------
+  - where: 'note 9:1 “An alphabet shared with Psalm 10”'
+    claim: 'The first line of verse 1 begins with aleph'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אוֹדֶ֣ה'
+  - where: 'note 9:1 “An alphabet shared with Psalm 10”'
+    claim: 'The second line of verse 1 begins with aleph'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲ֝סַפְּרָ֗ה'
+  - where: 'note 9:1 “An alphabet shared with Psalm 10”'
+    claim: 'The first line of verse 2 begins with aleph'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶשְׂמְחָ֣ה'
+  - where: 'note 9:1 “An alphabet shared with Psalm 10”'
+    claim: 'The second line of verse 2 begins with aleph'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲזַמְּרָ֖ה'
+  - where: 'note 9:1 “An alphabet shared with Psalm 10”'
+    claim: 'The letters run in order through the two psalms, with some missing'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'the first letters of each line (in Hebrew) follow the Hebrew alphabet in order (although some letters are missing)'
+  - where: 'note 9:1 “An alphabet shared with Psalm 10”'
+    claim: 'A modern translation notes that the two were originally one psalm and formed an acrostic'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%209&version=NRSVUE'
+    quote: 'Psalms 9–10 were originally one psalm, as in the Greek and Latin traditions. In Hebrew, Psalms 9–10 formed an acrostic.'
+  - where: 'note 9:1 “An alphabet shared with Psalm 10”'
+    claim: 'The pair is thanksgiving followed by lament'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalms 9–10 is a hymn of thanksgiving (Psalm 9) followed by a lament (Psalm 10).'
+  - where: 'note 9:1 “An alphabet shared with Psalm 10”'
+    claim: 'Psalm 10 acknowledges that the great day has not yet arrived'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalm 10 is the painful acknowledgment that that great day has not yet arrived and that wickedness is still found abundantly in this world.'
+
+  # ---------- note 9:6 ----------
+  - where: 'note 9:6 “The enemy ended, the LORD enthroned”'
+    claim: 'The word for “the enemy” appears to be a vocative, which would make the next verb addressed to the enemy too'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/9.htm'
+    quote: 'appears to be a vocative'
+  - where: 'note 9:6 “The enemy ended, the LORD enthroned”'
+    claim: 'A modern translation makes the enemies the subject'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%209&version=NRSVUE'
+    quote: 'The enemies have vanished in everlasting ruins'
+  - where: 'note 9:6 “The enemy ended, the LORD enthroned”'
+    claim: 'The same translation on the end of the verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%209&version=NRSVUE'
+    quote: 'the very memory of them has perished'
+  - where: 'note 9:6 “The enemy ended, the LORD enthroned”'
+    claim: 'The Greek reads “swords”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/9.htm'
+    quote: 'The swords of the enemy have failed utterly'
+  - where: 'note 9:6 “The enemy ended, the LORD enthroned”'
+    claim: 'The reading “swords” (Greek, Latin, Syriac) leaves it unclear whose swords'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/9.htm'
+    quote: 'which leaves it uncertain whose swords are meant'
+  - where: 'note 9:6 “The enemy ended, the LORD enthroned”'
+    claim: 'One older reading: verse 7 is the contrast to the perished memorial'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/9.htm'
+    quote: 'their, even their memorial is perished, while on the contrary Jahve endures for ever and is enthroned as judge'
+  - where: 'note 9:6 “The enemy ended, the LORD enthroned”'
+    claim: 'The verb of verse 7 (“endure”) is “sit”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יֵשֵׁ֑ב'
+  - where: 'note 9:6 “The enemy ended, the LORD enthroned”'
+    claim: 'The same verb in verse 4 (“thou satest”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָשַׁ֥בְתָּ'
+  - where: 'note 9:6 “The enemy ended, the LORD enthroned”'
+    claim: 'The same verb in verse 11 (“dwelleth”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יֹשֵׁ֣ב'
+  - where: 'note 9:6 “The enemy ended, the LORD enthroned”'
+    claim: 'A modern translation of verse 7'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%209&version=NRSVUE'
+    quote: 'But the Lord sits enthroned forever'
+
+  # ---------- note 9:8 ----------
+  - where: 'note 9:8 “The words Paul used at Athens”'
+    claim: 'Acts 17:31 in the King James Version'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/17?lang=eng'
+    quote: 'Because he hath appointed a day, in the which he will judge the world in righteousness by that man whom he hath ordained'
+  - where: 'note 9:8 “The words Paul used at Athens”'
+    claim: 'The Greek translation of verse 8 in English'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/9.htm'
+    quote: 'And he will judge the world in righteousness, he will judge the nations in uprightness.'
+  - where: 'note 9:8 “The words Paul used at Athens”'
+    claim: 'The Greek words of verse 8: judge, the world, in righteousness'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sepd/psalms/9.htm'
+    quote: 'κρινεῖ τὴν οἰκουμένην ἐν δικαιοσύνῃ'
+  - where: 'note 9:8 “The words Paul used at Athens”'
+    claim: 'The Greek of Acts 17:31 has the same words for the world and righteousness, with the same verb'
+    key: greek-nt
+    url: 'https://biblehub.com/text/acts/17-31.htm'
+    quote: 'κρίνειν τὴν οἰκουμένην ἐν δικαιοσύνῃ'
+  - where: 'note 9:8 “The words Paul used at Athens”'
+    claim: 'The psalm read as depicting the Second Coming and the millennial reign'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'The psalm appears to depict the Second Coming and the subsequent millennial reign of Christ on earth.'
+  - where: 'note 9:8 “The words Paul used at Athens”'
+    claim: 'The Topical Guide entry “Jesus Christ, Judge” (footnote 8a) lists Acts 17:31 with Psalm 9:8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/tg/jesus-christ-judge?lang=eng'
+    quote: 'he shall judge the world in righteousness, Ps. 9:8 (Acts 17:31'
+  - where: 'note 9:8 “The words Paul used at Athens”'
+    claim: 'The Topical Guide entry that footnote 8a on “judge” names is “Jesus Christ, Judge”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/tg/jesus-christ-judge?lang=eng'
+    quote: 'Jesus Christ, Judge'
+
+  # ---------- note 9:12 ----------
+  - where: 'note 9:12 “He who asks after blood”'
+    claim: 'The verb in this sense: to exact, with the idea of avenging; the lexicon lists Genesis 9:5 and this verse (Hebrew 9:13) together'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1875.htm'
+    quote: 'exact, often with collateral idea of avenging'
+  - where: 'note 9:12 “He who asks after blood”'
+    claim: 'The verb of verse 12'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'דֹרֵ֣שׁ'
+  - where: 'note 9:12 “He who asks after blood”'
+    claim: 'The same verb in verse 10, “them that seek thee”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'דֹרְשֶׁ֣י/ךָ'
+  - where: 'note 9:12 “He who asks after blood”'
+    claim: 'The same verb in Genesis 9:5, “will I require”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אֶדְרֹ֔שׁ'
+  - where: 'note 9:12 “He who asks after blood”'
+    claim: 'A modern translation of the line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%209&version=NRSVUE'
+    quote: 'For he who avenges blood is mindful of them'
+  - where: 'note 9:12 “He who asks after blood”'
+    claim: 'One older reading: the Avenger of blood is as earnest for His seekers as they for Him'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/9.htm'
+    quote: 'has been as earnest in His concern for them as they in theirs for Him'
+  - where: 'note 9:12 “He who asks after blood”'
+    claim: '“Them” refers to those named afterward in the verse'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/9.htm'
+    quote: 'refers to those who are mentioned afterwards'
+
+  # ---------- note 9:13 ----------
+  - where: 'note 9:13 “Two sets of gates”'
+    claim: '“Daughter of Zion” is in Psalms only at 9:14 in the King James text (scripts/occurrences.mjs psalms "daughter of Zion": 1 verse)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/9?lang=eng'
+    quote: 'That I may shew forth all thy praise in the gates of the daughter of Zion: I will rejoice in thy salvation.'
+  - where: 'note 9:13 “Two sets of gates”'
+    claim: 'The daughter of Zion is Zion itself'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/9.htm'
+    quote: 'The daughter of Zion (Zion itself)'
+  - where: 'note 9:13 “Two sets of gates”'
+    claim: 'To be lifted from the gates of death is to be snatched from peril of death'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/9.htm'
+    quote: 'he who is snatched from peril of death is lifted up'
+  - where: 'note 9:13 “Two sets of gates”'
+    claim: 'The gates of death and the gates of Zion are set against each other'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/9.htm'
+    quote: 'In antithesis to the gates of death, which are represented as beneath the ground, we have the gates of the daughter of Zion standing on high.'
+  - where: 'note 9:13 “Two sets of gates”'
+    claim: 'Verse 13 may refer to the Resurrection'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Verse 13 may be a reference to the Resurrection.'
+
+  # ---------- note 9:16 ----------
+  - where: 'note 9:16 “Higgaion”'
+    claim: 'The meaning of the word'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1902.htm'
+    quote: 'noun masculine resounding music, meditation, musing'
+  - where: 'note 9:16 “Higgaion”'
+    claim: 'Here it is a musical direction, beside Selah'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1902.htm'
+    quote: 'a musical direction'
+  - where: 'note 9:16 “Higgaion”'
+    claim: 'The word occurs three times in Psalms: here (scripts/hebrew.mjs psalms --word 1902)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הִגָּי֥וֹן'
+  - where: 'note 9:16 “Higgaion”'
+    claim: 'The word in Psalm 19:14 (Hebrew 19:15), “meditation”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/הֶגְי֣וֹן'
+  - where: 'note 9:16 “Higgaion”'
+    claim: 'The word in Psalm 92:3 (Hebrew 92:4), “solemn sound”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הִגָּי֣וֹן'
+  - where: 'note 9:16 “Higgaion”'
+    claim: 'The Greek renders Higgaion Selah as “A song of Pause”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/9.htm'
+    quote: 'A song of Pause.'
+
+  # ---------- note 9:17 ----------
+  - where: 'note 9:17 “Back to Sheol”'
+    claim: 'The Hebrew word is Sheol'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לִ/שְׁא֑וֹלָ/ה'
+  - where: 'note 9:17 “Back to Sheol”'
+    claim: 'The verb “turned” is “return” (H7725)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָשׁ֣וּבוּ'
+  - where: 'note 9:17 “Back to Sheol”'
+    claim: 'The same verb in verse 3, “turned back”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/שׁוּב'
+  - where: 'note 9:17 “Back to Sheol”'
+    claim: 'A modern translation of the line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%209&version=NRSVUE'
+    quote: 'The wicked shall depart to Sheol'
+  - where: 'note 9:17 “Back to Sheol”'
+    claim: 'The Greek has Hades'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/9.htm'
+    quote: 'Let sinners be driven away into Hades'
+
+  # ---------- note 9:20 ----------
+  - where: 'note 9:20 “Only mortals”'
+    claim: 'The word for “man” in verse 19'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֱנ֑וֹשׁ'
+  - where: 'note 9:20 “Only mortals”'
+    claim: 'The same word for “men” in verse 20'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֱנ֖וֹשׁ'
+  - where: 'note 9:20 “Only mortals”'
+    claim: 'A modern translation of verse 19'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%209&version=NRSVUE'
+    quote: 'Do not let mortals prevail'
+  - where: 'note 9:20 “Only mortals”'
+    claim: 'A modern translation of verse 20'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%209&version=NRSVUE'
+    quote: 'let the nations know that they are only human'
+  - where: 'note 9:20 “Only mortals”'
+    claim: '“Heathen” (verses 5, 15, 19) is the Hebrew word goyim'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'ג֭וֹיִם'
+  - where: 'note 9:20 “Only mortals”'
+    claim: '“Nations” (verses 17, 20) is the same word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'גּ֝וֹיִ֗ם'
+  - where: 'note 9:20 “Only mortals”'
+    claim: '“Arise” is the same imperative as in Psalm 3:7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קוּמָ֣/ה'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'The psalm read as looking to the great day of the Lord, when He judges the nations'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalm 9 can be understood as looking forward to a time when the great day of the Lord will come in which He will sit in judgment over the nations of the world'
+  - where: christ
+    claim: 'The same reading has the Lord dwelling in Zion in that day'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'It will be a time when the Lord dwells in Zion'
+  - where: christ
+    claim: 'The same reading sees a possible reference to the Resurrection in verse 13'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Verse 13 may be a reference to the Resurrection.'
+
+  # ---------- parallels ----------
+  - where: parallels
+    claim: 'Acts 17:31 uses the words of verse 8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/17?lang=eng'
+    quote: 'he will judge the world in righteousness by that man whom he hath ordained'
+  - where: parallels
+    claim: 'Psalm 10 is the lament that follows this thanksgiving in the acrostic'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalms 9–10 is a hymn of thanksgiving (Psalm 9) followed by a lament (Psalm 10).'
+  - where: parallels
+    claim: 'The lexicon lists Genesis 9:5 with this verse under the same sense of the verb'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1875.htm'
+    quote: 'Genesis 9:5 (P) Ezekiel 33:6; accusative only'
