@@ -166,6 +166,37 @@ const LDS_SPELLINGS = [
   // Joel: a comma and an old spelling (found by scripts/check-kjv.mjs).
   [/and cry unto the LORD\.$/g, 'and cry unto the LORD,'], // Joel 1:14
   [/the vats shall overflow with wine and oil/g, 'the fats shall overflow with wine and oil'], // Joel 2:24
+  // Psalms: the divine name at the head of a psalm and elsewhere, the source's capitals on a
+  // psalm's first words, punctuation and old spellings (found by scripts/check-kjv.mjs).
+  [/the LORD shall have them in derision/g, 'the Lord shall have them in derision'], // Ps. 2:4
+  [/^Lord, how are they increased/g, 'LORD, how are they increased'], // Ps. 3:1
+  [/^O LORD, our Lord, how excellent is thy name in all the earth! who/g, 'O LORD our Lord, how excellent is thy name in all the earth! who'], // Ps. 8:1
+  [/^Lord, who shall abide/g, 'LORD, who shall abide'], // Ps. 15:1
+  [/thyself also in the LORD: and he/g, 'thyself also in the LORD; and he'], // Ps. 37:4
+  [/^The LORD shall laugh at him/g, 'The Lord shall laugh at him'], // Ps. 37:13
+  [/what it is: that I may know/g, 'what it is; that I may know'], // Ps. 39:4
+  [/and casteth my words behind thee/g, 'and castest my words behind thee'], // Ps. 50:17
+  [/^MAKE HASTE, O GOD, TO DELIVER ME; MAKE HASTE TO HELP ME, O LORD\.$/g, 'Make haste, O God, to deliver me; make haste to help me, O LORD.'], // Ps. 70:1
+  [/old and greyheaded/g, 'old and grayheaded'], // Ps. 71:18
+  [/not stedfast with God/g, 'not steadfast with God'], // Ps. 78:8
+  [/and enquired early after God/g, 'and inquired early after God'], // Ps. 78:34
+  [/were they stedfast in his covenant/g, 'were they steadfast in his covenant'], // Ps. 78:37
+  [/^Then the LORD awaked as one out of sleep/g, 'Then the Lord awaked as one out of sleep'], // Ps. 78:65
+  [/^O GOD, the heathen/g, 'O God, the heathen'], // Ps. 79:1
+  [/perished at Endor/g, 'perished at En-dor'], // Ps. 83:10
+  [/^Lord, thou hast been favourable/g, 'LORD, thou hast been favourable'], // Ps. 85:1
+  [/gracious, long suffering, and plenteous/g, 'gracious, longsuffering, and plenteous'], // Ps. 86:15
+  [/^Lord, thou hast been our dwelling place/g, 'LORD, thou hast been our dwelling place'], // Ps. 90:1
+  [/^IT IS A GOOD THING TO GIVE THANKS UNTO THE LORD, AND TO SING PRAISES UNTO THY NAME, O MOST HIGH:$/g, 'It is a good thing to give thanks unto the LORD, and to sing praises unto thy name, O most High:'], // Ps. 92:1
+  [/^O Lord God, to whom vengeance belongeth/g, 'O LORD God, to whom vengeance belongeth'], // Ps. 94:1
+  [/unto Baalpeor, and ate/g, 'unto Baal-peor, and ate'], // Ps. 106:28
+  [/at their wit.s end/g, "at their wits' end"], // Ps. 107:27
+  [/^O Praise the LORD, all ye nations/g, 'O praise the LORD, all ye nations'], // Ps. 117:1
+  [/^Lord, my heart is not haughty/g, 'LORD, my heart is not haughty'], // Ps. 131:1
+  [/^Lord, remember David/g, 'LORD, remember David'], // Ps. 132:1
+  [/^Lord, I cry unto thee/g, 'LORD, I cry unto thee'], // Ps. 141:1
+  [/snow, and vapours; stormy wind/g, 'snow, and vapour; stormy wind'], // Ps. 148:8
+  [/a two-edged sword in their hand/g, 'a twoedged sword in their hand'], // Ps. 149:6
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 
