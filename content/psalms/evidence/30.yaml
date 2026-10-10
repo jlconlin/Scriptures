@@ -1,0 +1,628 @@
+chapter: 30
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/30?lang=eng'
+    quote: 'A Psalm and Song at the dedication of the house of David.'
+  - where: setting
+    claim: 'The speaker cried to the LORD and was healed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/30?lang=eng'
+    quote: 'I cried unto thee, and thou hast healed me.'
+  - where: setting
+    claim: 'The healing of verse 2 suggests a rescue from grave illness or injury and not from actual death'
+    key: ot-minute-psalm-30
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-30'
+    quote: 'may indicate that he was not brought back from actual death but from a serious, perhaps nearly fatal, illness or injury'
+  - where: setting
+    claim: 'Psalm 30 is counted among the songs of thanksgiving, which give thanks after deliverance from a trial'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'Songs of thanksgiving. These psalms reflect the gratitude of an individual or community after they have been delivered from a trial by God: 18, 30, 34, 40, 66, 92, 116, 118, and 138.'
+  - where: setting
+    claim: 'Such thanks would typically have been shown with a sacrifice at the temple and a sung psalm'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'This gratitude typically would have been demonstrated with a sacrifice at the temple, and accompanied by the singing of a hymn or psalm.'
+  - where: setting
+    claim: 'Psalm 30 belongs to the series Psalms 25–31, notable for covenant and temple themes'
+    key: ot-minute-psalm-30
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-30'
+    quote: 'Psalm 30 is another in the series of Psalms 25–31, which are notable for their focus on themes of covenant and temple.'
+  - where: setting
+    claim: 'It has been suggested that Psalms 25–31 particularly influenced Nephi’s psalm (2 Nephi 4:16–35)'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'The purpose of this essay is to suggest that Psalms 25–31 may have had a particular influence upon Nephi as he wrote his psalm.'
+  - where: setting
+    claim: 'Nephi’s psalm is 2 Nephi 4:16–35'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'Nephi’s soul-searching introspection found in 2 Nephi 4:16–35'
+  - where: section 1 plain
+    claim: '“Lifted me up” rendered “drawn me up”; “the grave” left as Sheol'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2030&version=NRSVUE'
+    quote: 'for you have drawn me up'
+  - where: section 2 plain
+    claim: '“Saints” rendered “faithful ones”; “the remembrance of his holiness” as “his holy name”; “in his favour is life” as a lifetime'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2030&version=NRSVUE'
+    quote: 'his favor is for a lifetime'
+  - where: section 2 plain
+    claim: '“His faithful ones” and “his holy name”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2030&version=NRSVUE'
+    quote: 'O you his faithful ones'
+  - where: section 3 plain
+    claim: '“Prosperity” is ease'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7959.htm'
+    quote: 'ease, prosperity'
+  - where: section 3 plain
+    claim: '“Troubled” rendered “dismayed”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2030&version=NRSVUE'
+    quote: 'I was dismayed'
+  - where: section 4 plain
+    claim: '“My blood” means my death'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2030&version=NRSVUE'
+    quote: 'What profit is there in my death'
+  - where: section 5 plain
+    claim: '“My glory” rendered “my soul”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2030&version=NRSVUE'
+    quote: 'so that my soul may praise you and not be silent'
+
+  # ---------- note 30:0 ----------
+  - where: 'note 30:0 “Which house was dedicated”'
+    claim: 'The Hebrew title has “the dedication of the house” and then “of David” as a separate phrase: the word for dedication'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֲנֻכַּ֖ת'
+  - where: 'note 30:0 “Which house was dedicated”'
+    claim: '“The house,” with the article and no owner attached'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַ/בַּ֣יִת'
+  - where: 'note 30:0 “Which house was dedicated”'
+    claim: '“Of David,” with the preposition that ascribes a psalm'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ/דָוִֽד'
+  - where: 'note 30:0 “Which house was dedicated”'
+    claim: 'The King James joins “house” and “of David”; several modern translations read “the temple; of David”'
+    key: ot-minute-psalm-30
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-30'
+    quote: 'Although the King James Version translates the line as “at the dedication of the house of David,” several modern translations render it as “for the dedication of the temple; of (by) David.”'
+  - where: 'note 30:0 “Which house was dedicated”'
+    claim: 'A modern translation’s title'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2030&version=NRSVUE'
+    quote: 'A Psalm. A Song at the dedication of the temple. Of David.'
+  - where: 'note 30:0 “Which house was dedicated”'
+    claim: 'The ancient Greek translation reads as the King James does'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/30.htm'
+    quote: 'For the end, a Psalm and Song at the dedication of the house of David.'
+  - where: 'note 30:0 “Which house was dedicated”'
+    claim: 'The word is “dedication, consecration,” used of Jerusalem’s wall and of the altar in the temple'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2598.htm'
+    quote: 'noun feminine dedication, consecration'
+  - where: 'note 30:0 “Which house was dedicated”'
+    claim: 'The same word for the wall and the temple altar'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2598.htm'
+    quote: 'dedication of wall of Jerusalem Nehemiah 12:27 (twice in verse), by sacrifices and processions, with music; of altar in temple 2Chronicles 7:9'
+  - where: 'note 30:0 “Which house was dedicated”'
+    claim: 'If the psalm is David’s and the house is the temple, the title is anachronistic'
+    key: ot-minute-psalm-30
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-30'
+    quote: 'if the psalm were written by David, the assertion is anachronistic since the temple was dedicated under Solomon'
+  - where: 'note 30:0 “Which house was dedicated”'
+    claim: 'It may be an older psalm later used at the second temple’s dedication'
+    key: ot-minute-psalm-30
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-30'
+    quote: 'it may have been an earlier psalm that was later used as part of the second temple’s dedication'
+  - where: 'note 30:0 “Which house was dedicated”'
+    claim: 'The Talmud records its use at Hanukkah, the feast of the temple’s rededication'
+    key: ot-minute-psalm-30
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-30'
+    quote: 'The Talmud indicates that it was used for the celebration of Hanukkah (b. Sop 18b), which involved the cleansing and (re)dedication of the temple under Judas Maccabaeus.'
+  - where: 'note 30:0 “Which house was dedicated”'
+    claim: 'One older reading takes the house to be David’s own newly finished citadel on Zion'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/30.htm'
+    quote: 'it must be the dedication of the citadel on Zion, the building of which was just completed'
+  - where: 'note 30:0 “Which house was dedicated”'
+    claim: 'One older reading: the dedication of David’s citadel on Zion, delayed by a severe illness'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/30.htm'
+    quote: 'to infer from the Psalm itself, that David had been delayed by some severe illness from taking possession of the new building'
+  - where: 'note 30:0 “Which house was dedicated”'
+    claim: 'The psalm contains nothing that points to the dedication of a sanctuary'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/30.htm'
+    quote: 'The Psalm, however, also does not contain anything that should point to a dedication of a sanctuary'
+
+  # ---------- note 30:1 ----------
+  - where: 'note 30:1 “Drawn up like water from a well”'
+    claim: 'The verb of “lifted me up”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'דִלִּיתָ֑/נִי'
+  - where: 'note 30:1 “Drawn up like water from a well”'
+    claim: 'It is the verb for drawing water, as in Exodus 2:19'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1802.htm'
+    quote: 'verb draw (water)'
+  - where: 'note 30:1 “Drawn up like water from a well”'
+    claim: 'In this verse it is figurative, with the LORD as subject'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1802.htm'
+    quote: 'thou hast drawn me up'
+  - where: 'note 30:1 “Drawn up like water from a well”'
+    claim: 'A modern translation keeps the image'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2030&version=NRSVUE'
+    quote: 'for you have drawn me up'
+  - where: 'note 30:1 “Drawn up like water from a well”'
+    claim: '“The grave” in verse 3 is Sheol'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שְׁא֣וֹל'
+  - where: 'note 30:1 “Drawn up like water from a well”'
+    claim: 'The word for “pit” is the ordinary word for a pit, cistern or well'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/953.htm'
+    quote: 'pit, cistern, well'
+  - where: 'note 30:1 “Drawn up like water from a well”'
+    claim: 'In poetry it is the pit of the grave, and of Sheol in this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/953.htm'
+    quote: '(in poetry & late; never with article) pit of the grave'
+
+  # ---------- note 30:3 ----------
+  - where: 'note 30:3 “Brought back from the edge of death”'
+    claim: 'Verse 2’s healing suggests the speaker was not brought back from actual death'
+    key: ot-minute-psalm-30
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-30'
+    quote: 'may indicate that he was not brought back from actual death but from a serious, perhaps nearly fatal, illness or injury'
+  - where: 'note 30:3 “Brought back from the edge of death”'
+    claim: 'The question has been debated, and some read the verse as a prophecy of Christ’s Resurrection'
+    key: ot-minute-psalm-30
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-30'
+    quote: 'Was the psalmist (who is traditionally thought to be King David) claiming to have been resurrected from the dead? Some, including Orthodox Christians, read the psalm as a prophecy of Christ’s Resurrection.'
+  - where: 'note 30:3 “Brought back from the edge of death”'
+    claim: 'The Hebrew has a written form (ketiv), a plural participle, “those going down”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מ/יורדי'
+  - where: 'note 30:3 “Brought back from the edge of death”'
+    claim: 'and a form to be read (qere), an infinitive with “my”: “from my going down”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִ/יָּֽרְדִ/י'
+  - where: 'note 30:3 “Brought back from the edge of death”'
+    claim: 'The written form is probably meant as a participle: revived from those who sink into the grave'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/30.htm'
+    quote: 'it is probably intended to be read as a participle'
+  - where: 'note 30:3 “Brought back from the edge of death”'
+    claim: 'A modern translation prints the written form'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2030&version=NRSVUE'
+    quote: 'restored me to life from among those gone down to the Pit'
+  - where: 'note 30:3 “Brought back from the edge of death”'
+    claim: 'and gives the other in its margin'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2030&version=NRSVUE'
+    quote: 'Or that I should not go down to the Pit'
+  - where: 'note 30:3 “Brought back from the edge of death”'
+    claim: 'The ancient Greek agrees with the written form'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/30.htm'
+    quote: 'thou hast delivered me from among them that go down to the pit'
+
+  # ---------- note 30:4 ----------
+  - where: 'note 30:4 “The name He is remembered by”'
+    claim: 'The word behind “remembrance”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ/זֵ֣כֶר'
+  - where: 'note 30:4 “The name He is remembered by”'
+    claim: 'It means remembrance or memorial'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2143.htm'
+    quote: 'remembrance, memorial'
+  - where: 'note 30:4 “The name He is remembered by”'
+    claim: 'As a memorial it is that by which one is remembered, used so of the LORD in Exodus 3:15'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2143.htm'
+    quote: 'memorial, by which one is remembered'
+  - where: 'note 30:4 “The name He is remembered by”'
+    claim: 'The lexicon places this verse under remembrance of the LORD’s character and works, with Psalm 97:12'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2143.htm'
+    quote: 'character and works Psalm 30:5; Psalm 97:12; Psalm 111:4'
+  - where: 'note 30:4 “The name He is remembered by”'
+    claim: 'A modern translation renders “his holy name”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2030&version=NRSVUE'
+    quote: 'and give thanks to his holy name'
+  - where: 'note 30:4 “The name He is remembered by”'
+    claim: 'Exodus 3:15 sets “name” and “memorial” side by side'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/3?lang=eng'
+    quote: 'this is my name for ever, and this is my memorial unto all generations'
+  - where: 'note 30:4 “The name He is remembered by”'
+    claim: 'Psalm 97:12 ends with the same line'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/97?lang=eng'
+    quote: 'give thanks at the remembrance of his holiness'
+  - where: 'note 30:4 “The name He is remembered by”'
+    claim: '“Saints” is the plural of hasid'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֲסִידָ֑י/ו'
+  - where: 'note 30:4 “The name He is remembered by”'
+    claim: 'In the plural the word means the pious, those faithful and devoted to God’s service; this verse is listed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2623.htm'
+    quote: 'plural the pious, godly, those of the people who were faithful, devoted to God''s service'
+  - where: 'note 30:4 “The name He is remembered by”'
+    claim: 'A modern translation: faithful ones'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2030&version=NRSVUE'
+    quote: 'O you his faithful ones'
+
+  # ---------- note 30:5 words ----------
+  - where: 'note 30:5 “Weeping lodges for the night”'
+    claim: 'The Hebrew of the first half: “a moment”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רֶ֨גַע'
+  - where: 'note 30:5 “Weeping lodges for the night”'
+    claim: '“life” set against it'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַיִּ֪ים'
+  - where: 'note 30:5 “Weeping lodges for the night”'
+    claim: 'The lexicon’s rendering of the first half, with Isaiah 54:7 beside it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7281.htm'
+    quote: 'a moment (passes) in his anger (opposed to'
+  - where: 'note 30:5 “Weeping lodges for the night”'
+    claim: 'The lexicon lists Isaiah 54:7 next under the same word'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7281.htm'
+    quote: 'Isaiah 54:7'
+  - where: 'note 30:5 “Weeping lodges for the night”'
+    claim: 'A modern translation takes “life” as a lifetime'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2030&version=NRSVUE'
+    quote: 'his favor is for a lifetime'
+  - where: 'note 30:5 “Weeping lodges for the night”'
+    claim: 'The verb of “endure” in the second half'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָלִ֥ין'
+  - where: 'note 30:5 “Weeping lodges for the night”'
+    claim: 'It means to lodge, to pass the night'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3885.htm'
+    quote: 'verb lodge, pass the night, figurative abide'
+  - where: 'note 30:5 “Weeping lodges for the night”'
+    claim: 'The word for “joy” is a ringing cry'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7440.htm'
+    quote: 'noun feminine ringing cry'
+  - where: 'note 30:5 “Weeping lodges for the night”'
+    claim: 'The word for joy, with no verb beside it'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רִנָּֽה'
+  - where: 'note 30:5 “Weeping lodges for the night”'
+    claim: 'Isaiah 54:7–8: a small moment, a little wrath, the hidden face'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/54?lang=eng'
+    quote: 'In a little wrath I hid my face from thee for a moment; but with everlasting kindness will I have mercy on thee'
+  - where: 'note 30:5 “Weeping lodges for the night”'
+    claim: 'The Joseph Smith Translation of verse 5, as the Church’s footnote 5a gives it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/30?lang=eng'
+    quote: 'For his anger kindleth against the wicked; they repent, and in a moment it is turned away, and they are in his favor, and he giveth them life; therefore, weeping may'
+
+  # ---------- note 30:5 prophets ----------
+  - where: 'note 30:5 “The morning as resurrection and as forgiveness”'
+    claim: 'Elder Thomas S. Monson applied the verse to those who know that life continues beyond the grave'
+    key: monson-hopeless-dawn
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1976/04/hopeless-dawn-joyful-morning?lang=eng'
+    quote: 'knowing that life continues beyond the grave, she, her father, her brothers, her sisters, and indeed all who share this knowledge of divine truth can declare to the world: “Weeping may endure for a night, but joy cometh in the morning.”'
+  - where: 'note 30:5 “The morning as resurrection and as forgiveness”'
+    claim: 'He told of a child beside her mother’s casket'
+    key: monson-hopeless-dawn
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1976/04/hopeless-dawn-joyful-morning?lang=eng'
+    quote: 'she led me to the casket in which rested the body of her beloved mother'
+  - where: 'note 30:5 “The morning as resurrection and as forgiveness”'
+    claim: 'His testimony of the Son as the firstfruits of the resurrection and of the joyful morning'
+    key: monson-hopeless-dawn
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1976/04/hopeless-dawn-joyful-morning?lang=eng'
+    quote: 'his Beloved Son is the firstfruits of the resurrection, that the gospel of Jesus Christ is that penetrating light that makes of every hopeless dawn a joyful morning'
+  - where: 'note 30:5 “The morning as resurrection and as forgiveness”'
+    claim: 'Elder Craig C. Christensen of the Seventy applied the verse to repentance'
+    key: christensen-exquisite-joy
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2023/04/26christensen?lang=eng'
+    quote: 'The nights may seem long, but the morning does come, and oh, how exquisite is the peace and resplendent joy we feel as the Savior’s Atonement frees us from sin and suffering.'
+  - where: 'note 30:5 “The morning as resurrection and as forgiveness”'
+    claim: 'He quoted the psalmist in a section on repentance'
+    key: christensen-exquisite-joy
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2023/04/26christensen?lang=eng'
+    quote: 'As we repent of our sins, we must focus on the great joy that follows.'
+
+  # ---------- note 30:6 ----------
+  - where: 'note 30:6 “What he said in his ease”'
+    claim: 'The word behind “prosperity”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְ/שַׁלְוִ֑/י'
+  - where: 'note 30:6 “What he said in his ease”'
+    claim: 'It means ease, prosperity'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7959.htm'
+    quote: 'ease, prosperity'
+  - where: 'note 30:6 “What he said in his ease”'
+    claim: 'Psalm 10:6 gives nearly the same sentence to the wicked'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/10?lang=eng'
+    quote: 'He hath said in his heart, I shall not be moved: for I shall never be in adversity.'
+  - where: 'note 30:6 “What he said in his ease”'
+    claim: 'One older reading compares the speaker’s self-confidence with that of the wicked in Psalm 10:6'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/30.htm'
+    quote: 'he contrasts his former self-confidence, in which (like the'
+  - where: 'note 30:6 “What he said in his ease”'
+    claim: 'On that reading he trusted the gift and not the Giver'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/30.htm'
+    quote: 'Instead of confiding in the Giver, he trusted in the gift, as though it had been his own work.'
+  - where: 'note 30:6 “What he said in his ease”'
+    claim: 'The same reading points to Deuteronomy 8:11–18'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/30.htm'
+    quote: 'The inevitable consequence of such carnal security, as it is more minutely described in Deuteronomy 8:11-18, is some humbling divine chastisement.'
+  - where: 'note 30:6 “What he said in his ease”'
+    claim: 'Deuteronomy 8:14'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/8?lang=eng'
+    quote: 'Then thine heart be lifted up, and thou forget the Lord thy God'
+  - where: 'note 30:6 “What he said in his ease”'
+    claim: 'The same reading takes the mountain as Zion, the emblem of David’s kingdom'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/30.htm'
+    quote: 'The mountain is Zion, which is strong by natural position and by the additions of art (2 Samuel 5:9); and this, as being the castle-hill, is the emblem of the kingdom of David'
+  - where: 'note 30:6 “What he said in his ease”'
+    claim: 'The ancient Greek has “my beauty” where the Hebrew has “my mountain”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/30.htm'
+    quote: 'O Lord, in thy good pleasure thou didst add strength to my beauty: but thou didst turn away thy face, and I was troubled.'
+  - where: 'note 30:6 “What he said in his ease”'
+    claim: 'A modern translation makes the mountain a comparison for the speaker'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2030&version=NRSVUE'
+    quote: 'you had established me as a strong mountain'
+  - where: 'note 30:6 “What he said in his ease”'
+    claim: 'On the same reading the withdrawal of favour was brought about by his self-exaltation'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/30.htm'
+    quote: 'God''s withdrawal of favour, which is brought about by his self-exaltation'
+
+  # ---------- note 30:9 ----------
+  - where: 'note 30:9 “The argument of the prayer, and Joseph Smith’s revision”'
+    claim: '“Blood” here means death (the Church’s footnote 9b)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/30?lang=eng'
+    quote: 'IE death'
+  - where: 'note 30:9 “The argument of the prayer, and Joseph Smith’s revision”'
+    claim: 'A modern translation says “my death”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2030&version=NRSVUE'
+    quote: 'What profit is there in my death'
+  - where: 'note 30:9 “The argument of the prayer, and Joseph Smith’s revision”'
+    claim: 'The verb “praise” in verse 9 is the verb (Strong’s 3034) of “give thanks” in verses 4 and 12: verse 9'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הֲ/יוֹדְ/ךָ֥'
+  - where: 'note 30:9 “The argument of the prayer, and Joseph Smith’s revision”'
+    claim: 'verse 4'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ֝/הוֹד֗וּ'
+  - where: 'note 30:9 “The argument of the prayer, and Joseph Smith’s revision”'
+    claim: 'verse 12'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אוֹדֶֽ/ךָּ'
+  - where: 'note 30:9 “The argument of the prayer, and Joseph Smith’s revision”'
+    claim: 'The Joseph Smith Translation of verse 9, as the Church’s footnote 9a gives it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/30?lang=eng'
+    quote: 'When I go down to the pit, my blood shall return to the dust. I will praise thee; my soul shall declare thy truth; for what profit am I, if I do it not?'
+
+  # ---------- note 30:11 ----------
+  - where: 'note 30:11 “Wailing turned to a dance”'
+    claim: 'The word behind “mourning”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִסְפְּדִ/י֮'
+  - where: 'note 30:11 “Wailing turned to a dance”'
+    claim: 'It means wailing, first of all for the dead'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4553.htm'
+    quote: '1 for dead, Genesis 50:10'
+  - where: 'note 30:11 “Wailing turned to a dance”'
+    claim: 'The lexicon’s gloss'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4553.htm'
+    quote: 'wailing'
+  - where: 'note 30:11 “Wailing turned to a dance”'
+    claim: 'The dance is a token of joyousness, set against wailing in this verse; the same word is in Lamentations 5:15'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4234.htm'
+    quote: 'dance, token of joyousness Psalm 30:12 (opposed to'
+  - where: 'note 30:11 “Wailing turned to a dance”'
+    claim: 'The lexicon lists Lamentations 5:15 under the same word'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4234.htm'
+    quote: 'Lamentations 5:15 (opposed to'
+  - where: 'note 30:11 “Wailing turned to a dance”'
+    claim: 'Lamentations 5:15 reverses the line'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lam/5?lang=eng'
+    quote: 'The joy of our heart is ceased; our dance is turned into mourning.'
+  - where: 'note 30:11 “Wailing turned to a dance”'
+    claim: 'Lamentations 5 is a prayer over the sorrowful condition of Zion (the Church’s chapter heading)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lam/5?lang=eng'
+    quote: 'Jeremiah recites in prayer the sorrowful condition of Zion.'
+  - where: 'note 30:11 “Wailing turned to a dance”'
+    claim: 'Jeremiah 31:13 promises the turn to Israel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/31?lang=eng'
+    quote: 'for I will turn their mourning into joy'
+
+  # ---------- note 30:12 ----------
+  - where: 'note 30:12 “My glory is the self that sings”'
+    claim: 'The Hebrew has “glory” with no “my”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כָ֭בוֹד'
+  - where: 'note 30:12 “My glory is the self that sings”'
+    claim: 'A modern translation notes the Hebrew and renders “my soul”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2030&version=NRSVUE'
+    quote: 'Heb that glory'
+  - where: 'note 30:12 “My glory is the self that sings”'
+    claim: 'Its rendering'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2030&version=NRSVUE'
+    quote: 'so that my soul may praise you and not be silent'
+  - where: 'note 30:12 “My glory is the self that sings”'
+    claim: 'The ancient Greek has “my glory”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/30.htm'
+    quote: 'that my glory may sing praise to thee'
+  - where: 'note 30:12 “My glory is the self that sings”'
+    claim: 'The lexicon’s sense: the seat of honour in the inner man, parallel to soul and heart, as in Psalm 16:9; it reads “my glory” here'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3519.htm'
+    quote: 'my honour, poetic of the seat of honour in the inner man, the noblest part of man'
+  - where: 'note 30:12 “My glory is the self that sings”'
+    claim: 'The lexicon lists Psalm 16:9 and this verse under that sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3519.htm'
+    quote: 'Psalm 16:9; Psalm 108:2; it is called upon to'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'Some Christians have read the psalm as a prophecy of Christ’s Resurrection; the healing of verse 2 suggests a recovery'
+    key: ot-minute-psalm-30
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-30'
+    quote: 'Some, including Orthodox Christians, read the psalm as a prophecy of Christ’s Resurrection.'
+  - where: christ
+    claim: 'Elder Monson’s testimony joining the verse to the Resurrection'
+    key: monson-hopeless-dawn
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1976/04/hopeless-dawn-joyful-morning?lang=eng'
+    quote: 'his Beloved Son is the firstfruits of the resurrection, that the gospel of Jesus Christ is that penetrating light that makes of every hopeless dawn a joyful morning'
+  - where: christ
+    claim: 'Elder Christensen joining the verse to the Savior’s Atonement'
+    key: christensen-exquisite-joy
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2023/04/26christensen?lang=eng'
+    quote: 'the morning does come, and oh, how exquisite is the peace and resplendent joy we feel as the Savior’s Atonement frees us from sin and suffering'
+  - where: christ
+    claim: 'The Church’s footnote 11b on “gladness” points to Isaiah 61:3'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/30?lang=eng'
+    quote: 'Isa. 61:3'
+  - where: christ
+    claim: 'Isaiah 61:3 and the Church’s heading for the chapter'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/61?lang=eng'
+    quote: 'the oil of joy for mourning, the garment of praise for the spirit of heaviness'
+  - where: christ
+    claim: 'The Church’s heading reads Isaiah 61 of the Messiah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/61?lang=eng'
+    quote: 'Isaiah speaks about the Messiah'
+  - where: christ
+    claim: 'Jesus said of the passage that it was fulfilled that day'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/4?lang=eng'
+    quote: 'This day is this scripture fulfilled in your ears.'
+
+  - where: christ
+    claim: 'Jesus was given the book of Isaiah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/4?lang=eng'
+    quote: 'And there was delivered unto him the book of the prophet Esaias.'
+  - where: christ
+    claim: 'What He read is the opening of Isaiah 61'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/4?lang=eng'
+    quote: 'The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'Isaiah 38:9: Hezekiah’s writing after his sickness'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/38?lang=eng'
+    quote: 'The writing of Hezekiah king of Judah, when he had been sick, and was recovered of his sickness'
+  - where: explore
+    claim: 'Isaiah 38:19: the living give thanks'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/38?lang=eng'
+    quote: 'The living, the living, he shall praise thee, as I do this day'
+  - where: explore
+    claim: 'The psalm’s crying to the Lord and being lifted up are reminiscent of Nephi’s psalm'
+    key: ot-minute-psalm-30
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-30'
+    quote: 'In words reminiscent of Nephi’s Psalm (see 2 Nephi 4:23, 35), the psalmist recounted how he “cried unto” the Lord (verse 8) and the Lord lifted him up (verse 1)'
+  - where: explore
+    claim: 'Psalms 25–31 are compared with Nephi’s psalm phrase by phrase, Psalm 30:10 among them'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'Psalm 30:10: “Hear, O Lord, and have mercy upon me: Lord, be thou my helper.”'
+  - where: explore
+    claim: 'Hezekiah makes the same argument about the grave'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/38?lang=eng'
+    quote: 'For the grave cannot praise thee, death can not celebrate thee: they that go down into the pit cannot hope for thy truth.'
+  - where: explore
+    claim: 'An older commentary holds that Hezekiah’s song of thanksgiving in Isaiah 38 grew out of the close of this psalm'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/30.htm'
+    quote: 'song of thanksgiving in Isaiah 38 has grown out of the two closing strophes of this Psalm'
+  - where: parallels
+    claim: '2 Nephi 4:23 and 35: Nephi’s cry heard, and his vow to cry to God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/4?lang=eng'
+    quote: 'Behold, he hath heard my cry by day, and he hath given me knowledge by visions in the night-time.'
+  - where: parallels
+    claim: 'Isaiah 38:18: Hezekiah’s argument'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/38?lang=eng'
+    quote: 'For the grave cannot praise thee, death can not celebrate thee'
+  - where: parallels
+    claim: 'Psalm 10:6'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/10?lang=eng'
+    quote: 'I shall not be moved'
+  - where: parallels
+    claim: 'Lamentations 5:15'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lam/5?lang=eng'
+    quote: 'our dance is turned into mourning'
