@@ -1,0 +1,581 @@
+chapter: 33
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The Hebrew psalm has no title: its first word is the verb of verse 1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רַנְּנ֣וּ'
+  - where: setting
+    claim: 'The Church’s edition prints no title above the psalm; its text begins with verse 1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/33?lang=eng'
+    quote: 'Rejoice in the Lord, O ye righteous: for praise is comely for the upright.'
+  - where: setting
+    claim: 'Psalm 33 is listed among the psalms of praise, which begin with a call to Israel to gather and praise'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'These psalms often begin with a command or call to Israel to gather as a community (most importantly, at the temple) and praise the Lord: 8, 19, 29, 33, 47'
+  - where: setting
+    claim: 'After the call, such hymns describe the Lord’s power and mercy and His role as creator'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'After the call to praise, the hymns describe the power and the mercy of the Lord, often describing what he has done for Israel in the past and emphasizing his role as the creator'
+  - where: setting
+    claim: 'Such psalms are now thought to mark national festival gatherings at the temple'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'are now thought to mark times of national festival gatherings'
+  - where: setting
+    claim: 'The next psalm to speak of a new song is Psalm 40'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/40?lang=eng'
+    quote: 'And he hath put a new song in my mouth, even praise unto our God'
+  - where: setting
+    claim: 'Isaiah calls for a new song'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/42?lang=eng'
+    quote: 'a new song, and his praise from the end of the earth'
+  - where: setting
+    claim: 'A new song is sung in the Revelation of John'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/5?lang=eng'
+    quote: 'And they sung a new song, saying, Thou art worthy to take the book'
+  - where: setting
+    claim: 'The Doctrine and Covenants gives the words of a new song'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/84?lang=eng'
+    quote: 'and with the voice together sing this new song, saying:'
+  - where: setting
+    claim: 'John says all things were made by the Word'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/1?lang=eng'
+    quote: 'All things were made by him; and without him was not any thing made that was made.'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: '“Stood fast” in verse 9 is the Hebrew verb amad (Strong’s 5975)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַֽ/יַּעֲמֹֽד'
+  - where: thread
+    claim: '“Standeth” in verse 11 is the same verb (Strong’s 5975)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תַּעֲמֹ֑ד'
+  - where: thread
+    claim: 'The last verse addresses the LORD in the second person (“to thee”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַסְדְּ/ךָ֣'
+  - where: thread
+    claim: '“Goodness” in verse 5 is hesed, the word translated “mercy” in verse 22'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֶ֥סֶד'
+
+  # ---------- plain words ----------
+  - where: section 1 plain
+    claim: 'Verses 1–3 in a modern translation: praise befits; lyre; harp of ten strings; loud shouts'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2033&version=NRSVUE'
+    quote: 'make melody to him with the harp of ten strings'
+  - where: section 1 plain
+    claim: 'Verse 3: “with loud shouts”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2033&version=NRSVUE'
+    quote: 'play skillfully on the strings, with loud shouts'
+  - where: section 2 plain
+    claim: 'Verses 4–5: upright, faithfulness, justice, steadfast love'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2033&version=NRSVUE'
+    quote: 'the earth is full of the steadfast love of the Lord'
+  - where: section 2 plain
+    claim: 'Verse 4: “done in faithfulness”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2033&version=NRSVUE'
+    quote: 'and all his work is done in faithfulness'
+  - where: section 2 plain
+    claim: 'The Church’s footnote gives “justice” for “judgment” in verse 5'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/33?lang=eng'
+    quote: 'HEB justice.'
+  - where: section 2 plain
+    claim: 'Verse 9: “it came to be … it stood firm”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2033&version=NRSVUE'
+    quote: 'for he spoke, and it came to be'
+  - where: section 3 plain
+    claim: 'The Church’s footnote gives “nations” for “heathen” in verse 10'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/33?lang=eng'
+    quote: 'HEB nations, Gentiles.'
+  - where: section 3 plain
+    claim: 'Verse 10: “frustrates the plans of the peoples”; verse 12: “Happy is the nation”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2033&version=NRSVUE'
+    quote: 'he frustrates the plans of the peoples'
+  - where: section 3 plain
+    claim: 'Verse 12: “Happy”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2033&version=NRSVUE'
+    quote: 'Happy is the nation whose God is the Lord'
+  - where: section 4 plain
+    claim: 'Verses 13–15: sees all humankind; fashions the hearts of them all'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2033&version=NRSVUE'
+    quote: 'he who fashions the hearts of them all'
+  - where: section 4 plain
+    claim: 'Verses 16–17: great army; war horse; victory'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2033&version=NRSVUE'
+    quote: 'A king is not saved by his great army'
+  - where: section 4 plain
+    claim: 'The word behind “a vain thing” is falsehood, what deceives'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8267.htm'
+    quote: 'deception, what deceives, disappoints, and betrays one'
+  - where: section 5 plain
+    claim: 'Verses 20–22: waits; is glad; steadfast love'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2033&version=NRSVUE'
+    quote: 'Let your steadfast love, O Lord, be upon us'
+
+  # ---------- note 33:1 ----------
+  - where: 'note 33:1 “The psalm begins where Psalm 32 ends”'
+    claim: 'The last verse of Psalm 32'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/32?lang=eng'
+    quote: 'Be glad in the Lord, and rejoice, ye righteous: and shout for joy, all ye that are upright in heart.'
+  - where: 'note 33:1 “The psalm begins where Psalm 32 ends”'
+    claim: '“Rejoice” in 33:1 is the Hebrew verb ranan (Strong’s 7442)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רַנְּנ֣וּ'
+  - where: 'note 33:1 “The psalm begins where Psalm 32 ends”'
+    claim: '“Shout for joy” in 32:11 is the same verb (Strong’s 7442)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ֝/הַרְנִ֗ינוּ'
+  - where: 'note 33:1 “The psalm begins where Psalm 32 ends”'
+    claim: 'Both verses address the righteous (Strong’s 6662) and the upright (Strong’s 3477)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לַ֝/יְשָׁרִ֗ים'
+  - where: 'note 33:1 “The psalm begins where Psalm 32 ends”'
+    claim: 'The Greek psalm has the title “A Psalm of David”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/33.htm'
+    quote: 'A Psalm of David. Rejoice in the Lord, ye righteous; praise becomes the upright.'
+  - where: 'note 33:1 “The psalm begins where Psalm 32 ends”'
+    claim: 'A modern translation: praise befits the upright'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2033&version=NRSVUE'
+    quote: 'Praise befits the upright.'
+  - where: 'note 33:1 “The psalm begins where Psalm 32 ends”'
+    claim: '“Right” in verse 4 is the word for “upright” in verse 1 (Strong’s 3477)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָשָׁ֥ר'
+
+  # ---------- note 33:2 ----------
+  - where: 'note 33:2 “One instrument of ten strings”'
+    claim: 'The Hebrew has “harp” and “ten” side by side with no conjunction'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/נֵ֥בֶל'
+  - where: 'note 33:2 “One instrument of ten strings”'
+    claim: 'The second of the two words'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עָ֝שׂ֗וֹר'
+  - where: 'note 33:2 “One instrument of ten strings”'
+    claim: 'The lexicon takes the two words as one instrument, a harp with ten strings, here and in Psalm 144:9'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5035.htm'
+    quote: 'a harp with ten strings Psalm 33:2; Psalm 144:9'
+  - where: 'note 33:2 “One instrument of ten strings”'
+    claim: 'The Greek has one instrument of ten strings'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/33.htm'
+    quote: 'a psaltery of ten strings'
+  - where: 'note 33:2 “One instrument of ten strings”'
+    claim: 'A modern translation of verse 2'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2033&version=NRSVUE'
+    quote: 'make melody to him with the harp of ten strings'
+  - where: 'note 33:2 “One instrument of ten strings”'
+    claim: 'A modern translation has “lyre” for the first instrument'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2033&version=NRSVUE'
+    quote: 'with the lyre'
+  - where: 'note 33:2 “One instrument of ten strings”'
+    claim: 'Psalm 144:9 joins a new song to the same instrument'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/144?lang=eng'
+    quote: 'upon a psaltery and an instrument of ten strings will I sing praises unto thee'
+
+  # ---------- note 33:3 ----------
+  - where: 'note 33:3 “Why the song is new”'
+    claim: 'Psalm 40: the singer brought up from the pit'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/40?lang=eng'
+    quote: 'He brought me up also out of an horrible pit'
+  - where: 'note 33:3 “Why the song is new”'
+    claim: 'Psalm 40: a new song put in his mouth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/40?lang=eng'
+    quote: 'And he hath put a new song in my mouth'
+  - where: 'note 33:3 “Why the song is new”'
+    claim: 'Psalm 98 gives the reason for its new song'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/98?lang=eng'
+    quote: 'for he hath done marvellous things'
+  - where: 'note 33:3 “Why the song is new”'
+    claim: 'The new song to the Lamb gives His death and redemption as its reason'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/5?lang=eng'
+    quote: 'for thou wast slain, and hast redeemed us to God by thy blood'
+  - where: 'note 33:3 “Why the song is new”'
+    claim: 'The Lord gives the words of a new song that all will sing together'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/84?lang=eng'
+    quote: 'and with the voice together sing this new song, saying:'
+  - where: 'note 33:3 “Why the song is new”'
+    claim: 'The song announces that the Lord has redeemed Israel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/84?lang=eng'
+    quote: 'The Lord hath redeemed his people, Israel,'
+  - where: 'note 33:3 “Why the song is new”'
+    claim: 'One older reading: a new song follows new mighty deeds of God'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/33.htm'
+    quote: 'A "new song" is one which, in consequence of some new mighty deeds of God, comes from a new impulse of gratitude in the heart'
+  - where: 'note 33:3 “Why the song is new”'
+    claim: 'The same reading supposes a deliverance of the nation without war'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/33.htm'
+    quote: 'It owes its composition apparently to some deliverance of the nation from heathen oppression, which had resulted from God''s interposition and without war.'
+  - where: 'note 33:3 “Why the song is new”'
+    claim: 'Psalm 96 has the phrase'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/96?lang=eng'
+    quote: 'a new song: sing unto the'
+  - where: 'note 33:3 “Why the song is new”'
+    claim: 'Psalm 144 has the phrase'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/144?lang=eng'
+    quote: 'I will sing a new song unto thee, O God'
+  - where: 'note 33:3 “Why the song is new”'
+    claim: 'Psalm 149 has the phrase'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/149?lang=eng'
+    quote: 'a new song, and his praise in the congregation of saints'
+  - where: 'note 33:3 “Why the song is new”'
+    claim: '“A loud noise” is teruah, here a shout of joy with the music of worship'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8643.htm'
+    quote: 'shout of joy with religious impulse'
+
+  # ---------- note 33:6 ----------
+  - where: 'note 33:6 “The word that made the heavens”'
+    claim: 'The creation account begins with God speaking and the light appearing'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng'
+    quote: 'And God said, Let there be light: and there was light.'
+  - where: 'note 33:6 “The word that made the heavens”'
+    claim: 'The Church’s footnote on “spake” in verse 9 points to Genesis 1:3 and Doctrine and Covenants 38:3'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/33?lang=eng'
+    quote: 'D&C 38:3'
+  - where: 'note 33:6 “The word that made the heavens”'
+    claim: 'The Church’s footnote on “word” in verse 6 points to the Joseph Smith Translation of John 1 and to the Topical Guide entry on Jesus Christ as Creator'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/33?lang=eng'
+    quote: 'TG Jesus Christ, Creator'
+  - where: 'note 33:6 “The word that made the heavens”'
+    claim: 'John names the Word'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/1?lang=eng'
+    quote: 'In the beginning was the Word, and the Word was with God, and the Word was God.'
+  - where: 'note 33:6 “The word that made the heavens”'
+    claim: 'All things were made by the Word'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/1?lang=eng'
+    quote: 'All things were made by him; and without him was not any thing made that was made.'
+  - where: explore
+    claim: 'The Lord told Moses that the word of His power is His Only Begotten Son'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/1?lang=eng'
+    quote: 'And by the word of my power, have I created them, which is mine Only Begotten Son'
+  - where: 'note 33:6 “The word that made the heavens”'
+    claim: 'The Savior says He is the one who spoke and the world was made'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/38?lang=eng'
+    quote: 'I am the same which spake, and the world was made, and all things came by me.'
+  - where: 'note 33:6 “The word that made the heavens”'
+    claim: '“Word” in verses 4 and 6 is the same Hebrew noun, dabar (Strong’s 1697)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בִּ/דְבַ֣ר'
+
+  # ---------- note 33:7 ----------
+  - where: 'note 33:7 “A heap of waters, or a bottle”'
+    claim: 'The noun is used of the Red Sea (Exodus 15:8; Psalm 78:13) and of the Jordan (Joshua 3:13, 16), and in Psalm 33:7 as a simile'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5067.htm'
+    quote: 'heap of waters; of Red Sea Exodus 15:8 (song), Psalm 78:13; of Jordan Joshua 3:13,16; Psalm 33:7 (simile)'
+  - where: 'note 33:7 “A heap of waters, or a bottle”'
+    claim: 'The Hebrew of verse 7 has this noun'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כַּ֭/נֵּד'
+  - where: 'note 33:7 “A heap of waters, or a bottle”'
+    claim: 'The song of Moses on the Red Sea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/15?lang=eng'
+    quote: 'the floods stood upright as an heap'
+  - where: 'note 33:7 “A heap of waters, or a bottle”'
+    claim: 'Psalm 78 on the Red Sea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/78?lang=eng'
+    quote: 'he made the waters to stand as an heap'
+  - where: 'note 33:7 “A heap of waters, or a bottle”'
+    claim: 'The Jordan at Israel’s crossing'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/3?lang=eng'
+    quote: 'stood and rose up upon an heap'
+  - where: 'note 33:7 “A heap of waters, or a bottle”'
+    claim: 'The Greek reads “as in a bottle”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/33.htm'
+    quote: 'Who gathers the waters of the sea as in a bottle; who lays up the deeps in treasuries.'
+  - where: 'note 33:7 “A heap of waters, or a bottle”'
+    claim: 'A modern translation follows the Greek'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2033&version=NRSVUE'
+    quote: 'He gathered the waters of the sea as in a bottle'
+
+  # ---------- note 33:11 ----------
+  - where: 'note 33:11 “What the LORD says stands”'
+    claim: '“Counsel” in verse 10 is etsah (Strong’s 6098)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עֲצַת'
+  - where: 'note 33:11 “What the LORD says stands”'
+    claim: '“Counsel” in verse 11 is the same noun (Strong’s 6098)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עֲצַ֣ת'
+  - where: 'note 33:11 “What the LORD says stands”'
+    claim: '“Devices” in verse 10 and “thoughts” in verse 11 are the same noun (Strong’s 4284)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מַחְשְׁב֥וֹת'
+  - where: 'note 33:11 “What the LORD says stands”'
+    claim: 'The Church’s footnote: “heathen” is the Hebrew for nations'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/33?lang=eng'
+    quote: 'HEB nations, Gentiles.'
+  - where: 'note 33:11 “What the LORD says stands”'
+    claim: '“Stood fast” in verse 9 (Strong’s 5975)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַֽ/יַּעֲמֹֽד'
+  - where: 'note 33:11 “What the LORD says stands”'
+    claim: '“Standeth” in verse 11 is the same verb (Strong’s 5975)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תַּעֲמֹ֑ד'
+
+  # ---------- note 33:12 ----------
+  - where: 'note 33:12 “The nation is Israel, His inheritance”'
+    claim: 'The covenant at Sinai: a treasure above all people, for all the earth is His'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/19?lang=eng'
+    quote: 'then ye shall be a peculiar treasure unto me above all people: for all the earth is mine'
+  - where: 'note 33:12 “The nation is Israel, His inheritance”'
+    claim: 'A modern translation’s cross-references for verse 12 include Exodus 19:5'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2033&version=NRSVUE'
+    quote: '33.12 : Ex 19.5; Deut 7.6; Ps 144.15'
+  - where: 'note 33:12 “The nation is Israel, His inheritance”'
+    claim: 'Moses’ blessing on the tribes ends by calling Israel happy'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/33?lang=eng'
+    quote: 'Happy art thou, O Israel: who is like unto thee, O people saved by the'
+  - where: 'note 33:12 “The nation is Israel, His inheritance”'
+    claim: 'One older reading: this part of the psalm paraphrases the “Happy” (ashre) of Deuteronomy 33:29'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/33.htm'
+    quote: 'This portion of the song is like a paraphrase of the אשׁרי in Deuteronomy 33:29.'
+  - where: 'note 33:12 “The nation is Israel, His inheritance”'
+    claim: 'The same reading: in verse 16 the people have in the LORD a stronger defence than worldly power'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/33.htm'
+    quote: 'His people have in Jahve a stronger defence than the greatest worldly power would be'
+  - where: 'note 33:12 “The nation is Israel, His inheritance”'
+    claim: 'The same reading: verse 20 echoes Deuteronomy 33:29'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/33.htm'
+    quote: 'we still hear the echo of the primary passage Deuteronomy 33:29'
+  - where: 'note 33:12 “The nation is Israel, His inheritance”'
+    claim: '“Blessed” in verse 12 is ashre (Strong’s 835)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַשְׁרֵ֣י'
+
+  # ---------- note 33:15 ----------
+  - where: 'note 33:15 “Alike means all of them”'
+    claim: 'The word behind “alike” means all together, and the lexicon renders the clause'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3162.htm'
+    quote: 'who formeth the hearts of them all together'
+  - where: 'note 33:15 “Alike means all of them”'
+    claim: 'A modern translation of the line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2033&version=NRSVUE'
+    quote: 'he who fashions the hearts of them all'
+  - where: 'note 33:15 “Alike means all of them”'
+    claim: 'The Maker of the heart knows the works that begin there'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/33.htm'
+    quote: 'acquainted with their origin in the laboratory of the heart, which He as Creator has formed'
+
+  # ---------- note 33:17 ----------
+  - where: 'note 33:17 “The horse is called a lie”'
+    claim: 'The word behind “a vain thing” is sheqer, falsehood, in the sense of what deceives; Psalm 33:17 is listed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8267.htm'
+    quote: 'deception, what deceives, disappoints, and betrays one'
+  - where: 'note 33:17 “The horse is called a lie”'
+    claim: 'The Hebrew of verse 17 has that word first'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שֶׁ֣קֶר'
+  - where: 'note 33:17 “The horse is called a lie”'
+    claim: '“Safety” is teshuah, deliverance, in battle victory, set beside “saved” of verse 16'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8668.htm'
+    quote: 'deliverance, usually by God, through human agency, especially from oppression'
+  - where: 'note 33:17 “The horse is called a lie”'
+    claim: 'The lexicon lists Psalm 33:17 under “victory,” with the verb of 33:16 as its parallel'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8668.htm'
+    quote: 'Proverbs 21:31; Psalm 33:17 (נושׁע in "" Psalm 33:16)'
+  - where: 'note 33:17 “The horse is called a lie”'
+    claim: 'A modern translation of the line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2033&version=NRSVUE'
+    quote: 'The war horse is a vain hope for victory'
+  - where: 'note 33:17 “The horse is called a lie”'
+    claim: '“Multitude” and “much” in verse 16 are the noun rov (Strong’s 7230)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/רָב'
+  - where: 'note 33:17 “The horse is called a lie”'
+    claim: '“Great” in verse 17 is the same noun (Strong’s 7230)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וּ/בְ/רֹ֥ב'
+  - where: 'note 33:17 “The horse is called a lie”'
+    claim: '“Delivered” in verse 16 is the verb natsal (Strong’s 5337)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִנָּצֵ֥ל'
+  - where: 'note 33:17 “The horse is called a lie”'
+    claim: '“To deliver” in verse 19 is the same verb (Strong’s 5337)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ/הַצִּ֣יל'
+
+  # ---------- note 33:18 ----------
+  - where: 'note 33:18 “The eye on those who fear and hope”'
+    claim: '“Fear” in verse 8 is the verb yare (Strong’s 3372)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִֽירְא֣וּ'
+  - where: 'note 33:18 “The eye on those who fear and hope”'
+    claim: '“Them that fear him” in verse 18 is the related adjective (Strong’s 3373)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְרֵאָ֑י/ו'
+  - where: 'note 33:18 “The eye on those who fear and hope”'
+    claim: '“Goodness” in verse 5 is hesed (Strong’s 2617)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֶ֥סֶד'
+  - where: 'note 33:18 “The eye on those who fear and hope”'
+    claim: '“His mercy” in verse 18 is hesed (Strong’s 2617)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ/חַסְדּֽ/וֹ'
+  - where: 'note 33:18 “The eye on those who fear and hope”'
+    claim: '“Thy mercy” in verse 22 is hesed (Strong’s 2617)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַסְדְּ/ךָ֣'
+  - where: 'note 33:18 “The eye on those who fear and hope”'
+    claim: '“Hope” in verse 18 is the verb yachal (Strong’s 3176)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לַֽ/מְיַחֲלִ֥ים'
+  - where: 'note 33:18 “The eye on those who fear and hope”'
+    claim: '“Hope” in verse 22 is the same verb (Strong’s 3176)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִחַ֥לְנוּ'
+  - where: 'note 33:18 “The eye on those who fear and hope”'
+    claim: 'Psalm 147 sets the horse’s strength beside those who fear the LORD and hope in His mercy'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/147?lang=eng'
+    quote: 'He delighteth not in the strength of the horse: he taketh not pleasure in the legs of a man.'
+  - where: 'note 33:18 “The eye on those who fear and hope”'
+    claim: 'Psalm 147:11'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/147?lang=eng'
+    quote: 'taketh pleasure in them that fear him, in those that hope in his mercy.'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: christ
+    claim: 'When “LORD” appears in the Old Testament it usually means Jehovah'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Usually, when the word Lord appears in the Old Testament, it means “Jehovah.”'
+  - where: christ
+    claim: 'All things were made by the Word'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/1?lang=eng'
+    quote: 'All things were made by him'
+  - where: christ
+    claim: 'The Savior: “I am the same which spake, and the world was made”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/38?lang=eng'
+    quote: 'I am the same which spake, and the world was made'
+  - where: christ
+    claim: 'The new song to the Lamb'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/5?lang=eng'
+    quote: 'thou wast slain, and hast redeemed us to God by thy blood'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'Jacob reasons from creation by God’s word'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/jacob/4?lang=eng'
+    quote: 'if God being able to speak and the world was, and to speak and man was created, O then, why not able to command the earth'
+  - where: explore
+    claim: 'Hebrews: the worlds were framed by the word of God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
+    quote: 'the worlds were framed by the word of God'
+  - where: parallels
+    claim: 'Deuteronomy 33:29 calls the LORD the shield of Israel’s help'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/33?lang=eng'
+    quote: 'the shield of thy help'
