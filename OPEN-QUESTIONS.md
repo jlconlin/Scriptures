@@ -73,8 +73,6 @@ Everything that waits for the author, for every book and for the site, in this o
 
 ## Ezekiel
 
-- **E2. The king of Tyrus in Eden (28:13): mention the reading of Lucifer?** The brief said a reading of Satan in this lament would be given only from a Church source, and none was found. The note has a short paragraph that reports it from a BYU article (*Journal of Book of Mormon Studies*), which itself prefers Adam as the figure behind the image, and calls it a reading “that some hold, not what the lament means.” Keep the paragraph, or drop it?
-
 - **E3. “Leave but the sixth part of thee” (39:2).** The note explains from the Hebrew, the Septuagint and two modern translations that the verb means to lead or drive on, not to leave a sixth. The Student Manual's Enrichment I (by the writer's report; the passage was not reopened in review) builds a detail of the battle on the King James wording, that one-sixth of Gog's army survives. The note says nothing about the manual, and the plain-words section keeps the King James sense. Leave it silent, mention the manual's reading, or cut the note back so it does not run against the manual?
 
 
