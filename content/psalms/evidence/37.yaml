@@ -1,0 +1,490 @@
+chapter: 37
+claims:
+  # ---- when / setting ----
+  - where: 'when'
+    claim: 'The title ascribes the psalm to David and gives no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/37?lang=eng'
+    quote: 'A Psalm of David.'
+  - where: 'setting'
+    claim: 'The psalm is an alphabetic acrostic made of short proverb-like sayings, with thoughts that recur'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/37.htm'
+    quote: 'in shorter utterances of the proverbial form following the order of the letters of the alphabet, and not without some repetitions and recurrences to a previous thought'
+  - where: 'setting'
+    claim: 'Most of the sayings are four lines long'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/37.htm'
+    quote: 'The structure of the proverbial utterances is almost entirely tetrastichic'
+  - where: 'setting'
+    claim: 'Proverbs 24:19 has the same Hebrew verb form as the psalm’s “Fret not thyself”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2734.htm'
+    quote: 'Psalm 37:1; Psalm 37:7; Psalm 37:8; Proverbs 24:19 heat oneself in vexation'
+  - where: 'setting'
+    claim: 'Psalms 49 and 73 and the book of Job deal with the same trouble as Psalm 37'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/73.htm'
+    quote: 'the doubts respecting the moral order of the world are set at rest in exactly the same way as in Psalm 37; Psalm 49, and in the Book of Job'
+  - where: 'setting'
+    claim: 'Latter-day revelation repeats the promise to the meek'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'the poor and the meek of the earth shall inherit it'
+  - where: 'setting'
+    claim: 'The Savior’s beatitude of the meek rests on Psalm 37:11'
+    key: skinner-beatitudes
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/israels-ancient-psalms'
+    quote: 'There is no mistaking the direct influence of and foundation laid by Psalm 37:11 for this beatitude'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'The Hebrew verb behind “fret” occurs in the psalm at verses 1, 7 and 8 (hebrew.mjs psalms --word 2734)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּתְחַ֥ר'
+  - where: 'thread'
+    claim: 'The Hebrew verb “cut off” (H3772) occurs at verses 9, 22, 28, 34 and 38 (hebrew.mjs psalms --word 3772)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִכָּרֵת֑וּ/ן'
+  - where: 'thread'
+    claim: 'The Hebrew verb “inherit” (H3423) occurs at verses 9, 11, 22, 29 and 34 (hebrew.mjs psalms --word 3423)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִֽירְשׁוּ'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: 'Verse 5: he will act; verse 6: the justice of your cause'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2037&version=NRSVUE'
+    quote: 'and the justice of your cause like the noonday.'
+  - where: 'section 1 plain'
+    claim: 'Verse 1: “fret” is to heat oneself in vexation'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2734.htm'
+    quote: 'heat oneself in vexation'
+  - where: 'section 2 plain'
+    claim: 'Verse 7: be still; verse 8: fretting leads only to evil'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2037&version=NRSVUE'
+    quote: 'Do not fret—it leads only to evil.'
+  - where: 'section 2 plain'
+    claim: 'Verses 9 and 11: “earth” rendered “land”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2037&version=NRSVUE'
+    quote: 'but those who wait for the Lord shall inherit the land.'
+  - where: 'section 3 plain'
+    claim: 'Verse 14: “of upright conversation” is those who walk uprightly'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2037&version=NRSVUE'
+    quote: 'to kill those who walk uprightly;'
+  - where: 'section 4 plain'
+    claim: 'Verse 20: the glory of the pastures; they vanish like smoke'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2037&version=NRSVUE'
+    quote: 'they vanish—like smoke they vanish away.'
+  - where: 'section 4 plain'
+    claim: 'Verse 21: the righteous is generous and gives'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2037&version=NRSVUE'
+    quote: 'but the righteous are generous and keep giving;'
+  - where: 'section 5 plain'
+    claim: 'Verse 23: a man’s steps are made firm, and it is the LORD who delights in his way'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2037&version=NRSVUE'
+    quote: 'Our steps are made firm by the Lord'
+  - where: 'section 5 plain'
+    claim: 'Verse 24: when he falls he is not hurled headlong'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2904.htm'
+    quote: 'when he falls he shall not be hurled headlong (figurative of a good man)'
+  - where: 'section 5 plain'
+    claim: 'Verse 25: “begging bread” is “seeking bread”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/37.htm'
+    quote: 'nor his seed seeking bread'
+  - where: 'section 6 plain'
+    claim: 'Verse 28: “judgment” is justice'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/37?lang=eng'
+    quote: 'HEB justice'
+  - where: 'section 7 plain'
+    claim: 'Verse 35: a native tree in its own soil'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/249.htm'
+    quote: 'a native tree, growing in its natural soil'
+  - where: 'section 7 plain'
+    claim: 'Verse 37: the blameless; a future (posterity) for the peaceable'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2037&version=NRSVUE'
+    quote: 'for there is posterity for the peaceable.'
+  - where: 'section 7 plain'
+    claim: 'Verse 38: “end” is “future”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/37?lang=eng'
+    quote: 'HEB future'
+
+  # ---- note 37:1 ----
+  - where: 'note 37:1 “Do not heat yourself”'
+    claim: 'In this form the verb means to heat oneself in vexation; the form is in verses 1, 7, 8 and Proverbs 24:19'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2734.htm'
+    quote: 'Psalm 37:1; Psalm 37:7; Psalm 37:8; Proverbs 24:19 heat oneself in vexation'
+  - where: 'note 37:1 “Do not heat yourself”'
+    claim: 'The verb occurs in the psalm only at verses 1, 7 and 8 (hebrew.mjs psalms --word 2734)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּתְחַ֥ר'
+  - where: 'note 37:1 “Do not heat yourself”'
+    claim: 'A modern translation renders the last clause of verse 8 “it leads only to evil”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2037&version=NRSVUE'
+    quote: 'Do not fret—it leads only to evil.'
+
+  # ---- note 37:4 ----
+  - where: 'note 37:4 “Delight first, then the desires”'
+    claim: 'The verb means to take exquisite delight, and is used at Psalm 37:4 and 37:11'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6026.htm'
+    quote: 'take exquisite delight'
+  - where: 'note 37:4 “Delight first, then the desires”'
+    claim: 'The verb of verse 4 is the verb of verse 11, and the psalm has it only in those two verses (hebrew.mjs psalms --word 6026)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/הִתְעַנַּ֥ג'
+  - where: 'note 37:4 “Delight first, then the desires”'
+    claim: 'One reading: whoever delights most in God cannot desire what is against Him, nor anything He would refuse'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/37.htm'
+    quote: 'finds his highest delight in God, cannot desire anything that is at enmity with God, but he also can desire nothing that God, with whose will his own is thoroughly blended in love, would refuse him'
+
+  # ---- note 37:5 ----
+  - where: 'note 37:5 “Roll your way onto the LORD, and be still”'
+    claim: '“Commit” is the verb for rolling, as of a stone from a well’s mouth'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1556.htm'
+    quote: 'roll a stone Proverbs 26:27; roll away stone from upon'
+  - where: 'note 37:5 “Roll your way onto the LORD, and be still”'
+    claim: 'Proverbs 16:3 uses the same verb in the same figure'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1556.htm'
+    quote: 'Psalm 37:5, compare Psalm 22:9; Proverbs 16:3 (both followed by'
+  - where: 'note 37:5 “Roll your way onto the LORD, and be still”'
+    claim: 'The Hebrew words: the imperative “roll” in verse 5 and “be silent” in verse 7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'דּ֤וֹם'
+  - where: 'note 37:5 “Roll your way onto the LORD, and be still”'
+    claim: '“Rest” in verse 7 is to be silent to, be resigned to'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1826.htm'
+    quote: 'be silent to i.e. be resigned to Psalm 37:7'
+  - where: 'note 37:5 “Roll your way onto the LORD, and be still”'
+    claim: 'A modern translation has “Be still” in verse 7'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2037&version=NRSVUE'
+    quote: 'Be still before the Lord, and wait patiently for him;'
+
+  # ---- note 37:11 meek ----
+  - where: 'note 37:11 “The line the Savior made a beatitude”'
+    claim: 'The Savior gives the beatitude again to the Nephites'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/12?lang=eng'
+    quote: 'And blessed are the meek, for they shall inherit the earth.'
+  - where: 'note 37:11 “The line the Savior made a beatitude”'
+    claim: 'The Hebrew word “the meek” in verse 11, and the verb “inherit” in verses 9, 11, 22, 29 and 34 (hebrew.mjs psalms --word 3423)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַ/עֲנָוִ֥ים'
+  - where: 'note 37:11 “The line the Savior made a beatitude”'
+    claim: 'Verses 21–22 make the merciful heirs as well as the meek'
+    key: skinner-beatitudes
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/israels-ancient-psalms'
+    quote: 'Thus, according to Psalm 37, both the meek (Psalm 37:11) and the merciful inherit the earth.'
+  - where: 'note 37:11 “The line the Savior made a beatitude”'
+    claim: 'Elder Bednar taught that meekness is strong, not weak'
+    key: bednar-meek
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2018/04/meek-and-lowly-of-heart?lang=eng'
+    quote: 'Meekness is strong, not weak; active, not passive; courageous, not timid; restrained, not excessive; modest, not self-aggrandizing; and gracious, not brash.'
+  - where: 'note 37:11 “The line the Savior made a beatitude”'
+    claim: 'The third Beatitude rests on Psalm 37:11'
+    key: skinner-beatitudes
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/israels-ancient-psalms'
+    quote: 'There is no mistaking the direct influence of and foundation laid by Psalm 37:11 for this beatitude'
+
+  # ---- note 37:11 earth ----
+  - where: 'note 37:11 “The land, and the earth”'
+    claim: 'The Hebrew word erets (H776) occurs at verses 3, 9, 11, 22, 29 and 34 (hebrew.mjs psalms --word 776)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אָֽרֶץ'
+  - where: 'note 37:11 “The land, and the earth”'
+    claim: 'A modern translation has “land” in verse 11 and throughout'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2037&version=NRSVUE'
+    quote: 'But the meek shall inherit the land'
+  - where: 'note 37:11 “The land, and the earth”'
+    claim: 'One reading: the land in this psalm is the promised land'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/37.htm'
+    quote: 'is throughout this Psalm the promised possession'
+  - where: 'note 37:11 “The land, and the earth”'
+    claim: 'The same reading: verse 22 is the patriarchs’ promise fulfilled in those God blesses'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/37.htm'
+    quote: 'the promise given to the patriarchs is fulfilled in the experience of those who are blessed of God'
+  - where: 'note 37:11 “The land, and the earth”'
+    claim: 'The same reading: meekness inherits the land and at length the earth'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/37.htm'
+    quote: 'will at length become the inheritor of the land, yea of the earth'
+  - where: 'note 37:11 “The land, and the earth”'
+    claim: 'The same reading: the everlasting inheritance of verse 18 does not yet reach into the world to come'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/37.htm'
+    quote: 'is not as yet thought of as extending into the future world, as in the New Testament'
+  - where: 'note 37:11 “The land, and the earth”'
+    claim: 'D&C 88: the earth is sanctified for celestial glory and the meek inherit it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'Therefore, it must needs be sanctified from all unrighteousness, that it may be prepared for the celestial glory;'
+  - where: 'note 37:11 “The land, and the earth”'
+    claim: 'D&C 88:26: after the earth dies and is quickened, the righteous inherit it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'notwithstanding it shall die, it shall be quickened again, and shall abide the power by which it is quickened, and the righteous shall inherit it.'
+  - where: 'note 37:11 “The land, and the earth”'
+    claim: 'D&C 88:17–20 has been called commentary on the beatitude of the meek'
+    key: skinner-beatitudes
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/israels-ancient-psalms'
+    quote: 'This declaration gives invaluable commentary on the beatitude.'
+
+  # ---- note 37:13 ----
+  - where: 'note 37:13 “What the Lord sees”'
+    claim: 'The verb “see” (H7200) is in verses 13, 25, 34, 35 and 37 (hebrew.mjs psalms --word 7200)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּרְאֶֽה'
+  - where: 'note 37:13 “What the Lord sees”'
+    claim: 'The verb in verse 13, “he seeth”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רָ֝אָ֗ה'
+
+  # ---- note 37:20 ----
+  - where: 'note 37:20 “Fat of lambs, or the glory of the pastures”'
+    claim: 'The first word means precious or splendid, and here is a noun, glory: “like the glory of the pastures”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3368.htm'
+    quote: 'like the glory of the pastures (i.e. like gay, but short-lived, flowers)'
+  - where: 'note 37:20 “Fat of lambs, or the glory of the pastures”'
+    claim: 'The second word is a word for pasture, which some translate “lambs” after ancient versions'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3733.htm'
+    quote: 'who translates lambs Psalm 37:20 after Aq'
+  - where: 'note 37:20 “Fat of lambs, or the glory of the pastures”'
+    claim: 'The two Hebrew words of the phrase'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כָּרִ֑ים'
+  - where: 'note 37:20 “Fat of lambs, or the glory of the pastures”'
+    claim: 'A modern translation has “the glory of the pastures”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2037&version=NRSVUE'
+    quote: 'and the enemies of the Lord are like the glory of the pastures;'
+  - where: 'note 37:20 “Fat of lambs, or the glory of the pastures”'
+    claim: 'The Greek reads the phrase as the moment of being honoured and exalted'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/37.htm'
+    quote: 'the enemies of the Lord at the moment of their being honoured and exalted have utterly vanished like smoke'
+
+  # ---- note 37:24 ----
+  - where: 'note 37:24 “Falling, but held by the hand”'
+    claim: '“Utterly cast down” is to be hurled headlong'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2904.htm'
+    quote: 'when he falls he shall not be hurled headlong (figurative of a good man)'
+  - where: 'note 37:24 “Falling, but held by the hand”'
+    claim: 'The Hebrew of the last clause has “his hand” as what the LORD upholds; “man” in verse 23 is the plain word for a man; “upholdeth” (H5564) is in verses 17 and 24 (hebrew.mjs psalms --word 5564)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'סוֹמֵ֥ךְ'
+  - where: 'note 37:24 “Falling, but held by the hand”'
+    claim: 'The Greek: the Lord supports his hand'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/37.htm'
+    quote: 'When he falls, he shall not be ruined: for the Lord supports his hand.'
+  - where: 'note 37:24 “Falling, but held by the hand”'
+    claim: 'A modern translation: holds us by the hand'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2037&version=NRSVUE'
+    quote: 'for the Lord holds us by the hand.'
+  - where: 'note 37:24 “Falling, but held by the hand”'
+    claim: 'Verse 23: steps “made firm”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2037&version=NRSVUE'
+    quote: 'Our steps are made firm by the Lord'
+  - where: 'note 37:24 “Falling, but held by the hand”'
+    claim: 'Verse 23: the Hebrew has “a man”, not “a good man”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2037&version=NRSVUE'
+    quote: '37.23 Heb A man’s steps'
+  - where: 'note 37:24 “Falling, but held by the hand”'
+    claim: 'The verb “uphold” is used of the LORD sustaining, at Psalm 37:17 and 37:24'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5564.htm'
+    quote: 'support, uphold, sustain, only figurative'
+
+  # ---- note 37:25 ----
+  - where: 'note 37:25 “What the old man says he has not seen”'
+    claim: 'The verb “forsake” (H5800) of verse 25 returns in verses 28 and 33 (hebrew.mjs psalms --word 5800)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נֶעֱזָ֑ב'
+  - where: 'note 37:25 “What the old man says he has not seen”'
+    claim: 'Verse 28 has the same verb with the LORD as subject'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יַעֲזֹ֣ב'
+  - where: 'note 37:25 “What the old man says he has not seen”'
+    claim: 'The Greek has “seeking bread”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/37.htm'
+    quote: 'yet I have not seen the righteous forsaken, nor his seed seeking bread.'
+  - where: 'note 37:25 “What the old man says he has not seen”'
+    claim: 'One reading: the psalm does not deny temporary forsakenness and want'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/37.htm'
+    quote: 'Temporary forsakenness and destitution the Psalm does not deny'
+  - where: 'note 37:25 “What the old man says he has not seen”'
+    claim: 'The same reading: the psalm answers doubt by contrasting what abides with what passes'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/37.htm'
+    quote: 'by contrasting that which in the end abides with that which is transitory'
+  - where: 'note 37:25 “What the old man says he has not seen”'
+    claim: 'The same reading: the problem is solved only in the light of the New Testament'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/37.htm'
+    quote: 'it only solves its problem, in so far as it is placed in the light of the New Testament'
+  - where: 'note 37:25 “What the old man says he has not seen”'
+    claim: 'The Hebrew of verse 25 has a participle of the verb “seek” (H1245) before “bread” (hebrew.mjs psalms 37:25)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מְבַקֶּשׁ'
+
+  # ---- note 37:35 ----
+  - where: 'note 37:35 “A tree in its native soil”'
+    claim: 'The word means a native, and here a native tree in its natural soil, a figure of the prosperous wicked'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/249.htm'
+    quote: 'a native tree, growing in its natural soil'
+  - where: 'note 37:35 “A tree in its native soil”'
+    claim: 'The lexicon calls it a figure of the prosperous wicked'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/249.htm'
+    quote: 'figurative of prosperous wicked'
+  - where: 'note 37:35 “A tree in its native soil”'
+    claim: 'The Hebrew word in verse 35'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כְּ/אֶזְרָ֥ח'
+  - where: 'note 37:35 “A tree in its native soil”'
+    claim: 'The Greek has cedars of Lebanon, and “I passed by” in verse 36'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/37.htm'
+    quote: 'lifting himself up like the cedars of Libanus'
+  - where: 'note 37:35 “A tree in its native soil”'
+    claim: 'The Greek of verse 36 makes the witness the one who passes'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/37.htm'
+    quote: 'Yet I passed by, and lo! he was not'
+  - where: 'note 37:35 “A tree in its native soil”'
+    claim: 'A modern translation has a cedar of Lebanon in verse 35'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2037&version=NRSVUE'
+    quote: 'and towering like a cedar of Lebanon.'
+  - where: 'note 37:35 “A tree in its native soil”'
+    claim: 'A modern translation of verse 36'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2037&version=NRSVUE'
+    quote: 'Again I passed by, and they were no more;'
+
+  # ---- note 37:37 ----
+  - where: 'note 37:37 “An end, a future, a posterity”'
+    claim: 'The lexicon places verses 37 and 38 under “posterity,” allowing that it may be no more than a future'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/319.htm'
+    quote: 'concrete posterity (extension of usage noted above in Proverbs 24:20) Psalm 37:37; Psalm 37:38 (possibly not more than'
+  - where: 'note 37:37 “An end, a future, a posterity”'
+    claim: 'The Hebrew word for “end” in verses 37 and 38'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַחֲרִ֖ית'
+  - where: 'note 37:37 “An end, a future, a posterity”'
+    claim: 'A modern translation has “posterity” and “the blameless”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2037&version=NRSVUE'
+    quote: 'for there is posterity for the peaceable.'
+  - where: 'note 37:37 “An end, a future, a posterity”'
+    claim: 'A modern translation has “the blameless” for “the perfect man”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2037&version=NRSVUE'
+    quote: 'Mark the blameless and behold the upright,'
+  - where: 'note 37:37 “An end, a future, a posterity”'
+    claim: 'The Greek has “a remnant”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/37.htm'
+    quote: 'for there is a remnant to the peaceable man.'
+  - where: 'note 37:37 “An end, a future, a posterity”'
+    claim: 'Tam means complete, morally innocent, having integrity'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8535.htm'
+    quote: 'complete, morally innocent, having integrity'
+  - where: 'note 37:37 “An end, a future, a posterity”'
+    claim: 'The Sermon’s command to be perfect has been said to be reflected in this verse'
+    key: skinner-beatitudes
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/israels-ancient-psalms'
+    quote: 'to be perfect as our Father in Heaven is perfect (see Matthew 5:48)—is reflected in one of the Psalmist’s exhortation'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'Meekness is a defining attribute of the Redeemer'
+    key: bednar-meek
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2018/04/meek-and-lowly-of-heart?lang=eng'
+    quote: 'Meekness is a defining attribute of the Redeemer and is distinguished by righteous responsiveness, willing submissiveness, and strong self-restraint.'
+  - where: 'christ'
+    claim: 'D&C 88:17 joins redemption and the inheritance of the meek'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'And the redemption of the soul is through him that quickeneth all things, in whose bosom it is decreed that the poor and the meek of the earth shall inherit it.'
+  - where: 'christ'
+    claim: 'The beatitude of the meek rests on Psalm 37:11'
+    key: skinner-beatitudes
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/israels-ancient-psalms'
+    quote: 'There is no mistaking the direct influence of and foundation laid by Psalm 37:11 for this beatitude'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'The Beatitude of the merciful is connected with Psalm 37:21–22'
+    key: skinner-beatitudes
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/israels-ancient-psalms'
+    quote: 'As the Psalmist said, “The righteous sheweth mercy. . . . For such as be blessed of him shall inherit the earth” (Psalm 37:21–22; emphasis added).'
+  - where: 'explore'
+    claim: 'Psalms 73 and 49 and Job set the same doubts at rest in the same way'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/73.htm'
+    quote: 'the doubts respecting the moral order of the world are set at rest in exactly the same way as in Psalm 37; Psalm 49, and in the Book of Job'
+
+  # ---- parallels ----
+  - where: 'parallels'
+    claim: 'Psalm 25:13 promises that the seed of the man who fears the LORD shall inherit the earth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/25?lang=eng'
+    quote: 'his seed shall inherit the earth'
+  - where: 'parallels'
+    claim: 'The third Beatitude rests on Psalm 37:11'
+    key: skinner-beatitudes
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/israels-ancient-psalms'
+    quote: 'There is no mistaking the direct influence of and foundation laid by Psalm 37:11 for this beatitude'
