@@ -1,0 +1,474 @@
+chapter: 4
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David and names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/4?lang=eng'
+    quote: 'To the chief Musician on Neginoth, A Psalm of David.'
+  - where: setting
+    claim: 'Psalm 4 is like Psalm 3 in many ways, which may be why the two stand together'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalm 4 is similar to Psalm 3 in many ways and complements its themes, which may be why they were placed in proximity to each other in the biblical collection of psalms.'
+  - where: setting
+    claim: 'If Psalm 3 is a morning prayer, Psalm 4 can be seen as an evening prayer for protection'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'If Psalm 3 can be considered a prayer given in the morning, Psalm 4 could be seen as an evening prayer for protection.'
+  - where: setting
+    claim: 'Psalm 3 is taken as a morning prayer because its speaker has woken after a night of sleep (verse 5)'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalm 3 is often considered to be a morning prayer for protection because verse 5 can be read as indicating that the psalmist had recently woken up after a night of sleep.'
+  - where: setting
+    claim: 'Psalm 3:2 opens with the Hebrew words “many” and “saying”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֹמְרִ֪ים'
+  - where: setting
+    claim: 'Psalm 4:6 opens with the same two Hebrew words (the adjective “many” and the participle “saying”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֹמְרִים֮'
+  - where: setting
+    claim: 'The wording of Psalm 3:2 in the King James Version'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/3?lang=eng'
+    quote: 'Many there be which say of my soul, There is no help for him in God. Selah.'
+  - where: setting
+    claim: 'Verse 6 uses the words of the priestly blessing of Numbers 6'
+    key: sc-knowhy-212
+    url: 'https://scripturecentral.org/knowhy/why-did-jesus-allude-to-the-priestly-blessing-in-numbers-6'
+    quote: 'See, e.g., Psalms 4:6; 31:16; 44:3; 67:1; 80:1, 3, 7, 19; 89:15; Daniel 9:17.'
+  - where: setting
+    claim: 'The Greek translation of verse 4 reads “Be ye angry, and sin not”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/4.htm'
+    quote: 'Be ye angry, and sin not; feel compunction upon your beds for what ye say in your hearts.'
+  - where: setting
+    claim: 'Ephesians 4:26 has the same sentence'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/eph/4?lang=eng'
+    quote: 'Be ye angry, and sin not: let not the sun go down upon your wrath:'
+  - where: setting
+    claim: 'The Greek of verse 4 is compared with Ephesians 4:26'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/4.htm'
+    quote: 'The lxx has rendered it correctly: ὀργίζεσθε καὶ μὴ ἁμαρτάνετε (cf. Ephesians 4:26)'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'A modern translation renders “God of my righteousness” as “God of my right”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%204&version=NRSVUE'
+    quote: 'Answer me when I call, O God of my right!'
+  - where: thread
+    claim: 'The commands of verse 4 can be rendered as trembling, speaking in the heart, and being silent'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7264.htm'
+    quote: 'be agitated, quiver, quake, be excited, perturbed'
+  - where: thread
+    claim: 'A modern translation renders verse 5 “Offer right sacrifices”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%204&version=NRSVUE'
+    quote: 'Offer right sacrifices'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: '“Enlarged me when I was in distress” is “gave me room”; “have mercy” is “be gracious”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%204&version=NRSVUE'
+    quote: 'You gave me room when I was in distress.'
+  - where: section 2 plain
+    claim: '“Sons of men” addresses people; “glory” is honor; “leasing” is lies; “godly” is the faithful'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%204&version=NRSVUE'
+    quote: 'How long will you love vain words and seek after lies?'
+  - where: section 2 plain
+    claim: '“Be still” is to be silent'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1826.htm'
+    quote: '1 be silent Psalm 4:5'
+  - where: section 2 plain
+    claim: '“Commune with your own heart” is speaking in the heart (so the Greek)'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/4.htm'
+    quote: 'feel compunction upon your beds for what ye say in your hearts'
+  - where: section 3 plain
+    claim: '“Corn” is grain; “increased” is abound; “only” is “alone”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%204&version=NRSVUE'
+    quote: 'more than when their grain and wine abound'
+
+  # ---------- note 4:0 ----------
+  - where: 'note 4:0 “Neginoth, a psalm for strings”'
+    claim: 'The wording of the title'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/4?lang=eng'
+    quote: 'To the chief Musician on Neginoth, A Psalm of David.'
+  - where: 'note 4:0 “Neginoth, a psalm for strings”'
+    claim: 'Neginoth is the plural of a noun for music of a stringed instrument, used especially in psalm titles (the lexicon lists 4, 6, 54, 55, 67, 76) and in Habakkuk 3:19'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5058.htm'
+    quote: '1 music (of stringed instrument) accusative of congnate meaning with verb Isaiah 38:20; as occupation Lamentations 5:14; especially בִּנְגִינוֺת in Psalm-titles; Psalm 4:1; Psalm 6:1; Psalm 54:1; Psalm 55:1; Psalm 67:1; Psalm 76:1; so Habakkuk 3:19'
+  - where: 'note 4:0 “Neginoth, a psalm for strings”'
+    claim: 'Psalms titled Neginoth or Neginah (Psalm 61 among them) were to be accompanied by stringed instruments'
+    key: bd-psalms
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
+    quote: 'Some Psalms were to be accompanied by stringed instruments (Neginah, Neginoth Ps. 4; 54–55; 61; 67; 76; and Hab. 3:19)'
+  - where: 'note 4:0 “Neginoth, a psalm for strings”'
+    claim: 'A modern translation prints the title as “To the leader: with stringed instruments”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%204&version=NRSVUE'
+    quote: 'To the leader: with stringed instruments. A Psalm of David.'
+  - where: 'note 4:0 “Neginoth, a psalm for strings”'
+    claim: 'Habakkuk 3:19 ends with a direction for stringed instruments'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hab/3?lang=eng'
+    quote: 'To the chief singer on my stringed instruments.'
+  - where: 'note 4:0 “Neginoth, a psalm for strings”'
+    claim: 'The verb behind “chief Musician” is used of one who directs (explained at Psalm 8)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5329.htm'
+    quote: 'act as overseer, superintendent, director'
+
+  # ---------- note 4:1 ----------
+  - where: 'note 4:1 “Room in a tight place”'
+    claim: 'The verb behind “enlarged” means to be or grow wide'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7337.htm'
+    quote: 'verb be, or grow, wide, large'
+  - where: 'note 4:1 “Room in a tight place”'
+    claim: 'In the form used here it is to make large'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7337.htm'
+    quote: '1 make large, with accusative baldness Micah 1:16'
+  - where: 'note 4:1 “Room in a tight place”'
+    claim: 'It is used of enlarging territory and, in this verse, as a figure of deliverance'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7337.htm'
+    quote: '2 enlarge limit of territory'
+  - where: 'note 4:1 “Room in a tight place”'
+    claim: 'This verse (Hebrew 4:2) is listed as a figure of deliverance'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7337.htm'
+    quote: '(figurative of deliverance)'
+  - where: 'note 4:1 “Room in a tight place”'
+    claim: 'The noun behind “distress” is straits, and this verse is listed under it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6862.htm'
+    quote: 'noun [masculine] straits, distress'
+  - where: 'note 4:1 “Room in a tight place”'
+    claim: 'The adjective of the same spelling means narrow, tight'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6862.htm'
+    quote: 'adjective narrow, tight'
+  - where: 'note 4:1 “Room in a tight place”'
+    claim: 'The Greek translation has “made room for me”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/4.htm'
+    quote: 'thou hast made room for me in tribulation'
+  - where: 'note 4:1 “Room in a tight place”'
+    claim: 'A modern translation has “You gave me room”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%204&version=NRSVUE'
+    quote: 'You gave me room when I was in distress.'
+
+  # ---------- note 4:2 ----------
+  - where: 'note 4:2 “Leasing is lying”'
+    claim: 'Webster (1828) defines leasing as falsehood and marks it nearly obsolete'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/leasing'
+    quote: 'Falsehood; lies. [Obsolete or nearly so.]'
+  - where: 'note 4:2 “Leasing is lying”'
+    claim: 'The Hebrew noun means a lie or falsehood, and this verse is listed with the verb “seek”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3577.htm'
+    quote: 'lie, falsehood, deceptive thing'
+  - where: 'note 4:2 “Leasing is lying”'
+    claim: 'A modern translation has “seek after lies”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%204&version=NRSVUE'
+    quote: 'How long will you love vain words and seek after lies?'
+  - where: 'note 4:2 “Leasing is lying”'
+    claim: 'A modern translation renders “glory” as honor'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%204&version=NRSVUE'
+    quote: 'How long, you people, shall my honor suffer shame?'
+
+  # ---------- note 4:3 ----------
+  - where: 'note 4:3 “The godly man, and the difference the LORD makes”'
+    claim: '“Him that is godly” is the single word hasid'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חָסִ֣יד'
+  - where: 'note 4:3 “The godly man, and the difference the LORD makes”'
+    claim: 'Hasid means kind, pious, as denoting the active practice of hesed (kindness)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2623.htm'
+    quote: 'adjective masculine kind, pious (so, as denoting active practice of חֶסֶד, kindness'
+  - where: 'note 4:3 “The godly man, and the difference the LORD makes”'
+    claim: 'The active sense is the view of most authorities the lexicon names'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2623.htm'
+    quote: 'Thes MV De and most'
+  - where: 'note 4:3 “The godly man, and the difference the LORD makes”'
+    claim: 'As a noun it is a pious man, the godly, with this verse (Hebrew 4:4) listed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2623.htm'
+    quote: 'a pious man, the godly Psalm 4:4'
+  - where: 'note 4:3 “The godly man, and the difference the LORD makes”'
+    claim: 'A modern translation has “the faithful”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%204&version=NRSVUE'
+    quote: 'But know that the Lord has set apart the faithful for himself'
+  - where: 'note 4:3 “The godly man, and the difference the LORD makes”'
+    claim: 'The verb, of the LORD, is to make separate; this verse (Hebrew 4:4) is listed as “set apart”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6395.htm'
+    quote: 'make separate, with accusative Exodus 8:18 (by treating differently); set apart Psalm 4:4'
+  - where: 'note 4:3 “The godly man, and the difference the LORD makes”'
+    claim: 'The lexicon adds that the text of this verse should perhaps be read differently: “hath made wonderful (his) kindness to me”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6395.htm'
+    quote: 'hath made wonderful (his) kindness to me'
+  - where: 'note 4:3 “The godly man, and the difference the LORD makes”'
+    claim: 'The Greek translation of verse 3 has “done wondrous things for his holy one”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/4.htm'
+    quote: 'But know ye that the Lord has done wondrous things for his holy one'
+  - where: 'note 4:3 “The godly man, and the difference the LORD makes”'
+    claim: 'The same verb is used in Exodus 11:7 of distinguishing between Egypt and Israel'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6395.htm'
+    quote: 'distinguish between, בֵּין thing, Exodus 9:4, בֵּין person Exodus 11:7'
+  - where: 'note 4:3 “The godly man, and the difference the LORD makes”'
+    claim: 'The wording of Exodus 11:7'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/11?lang=eng'
+    quote: 'that ye may know how that the Lord doth put a difference between the Egyptians and Israel'
+
+  # ---------- note 4:4 ----------
+  - where: 'note 4:4 “Tremble, or be angry, and do not sin”'
+    claim: 'The Hebrew verb means to be agitated, quiver, quake, be excited, perturbed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7264.htm'
+    quote: 'verb be agitated, quiver, quake, be excited, perturbed'
+  - where: 'note 4:4 “Tremble, or be angry, and do not sin”'
+    claim: 'It is used of persons in fear or awe, with this verse (Hebrew 4:5) listed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7264.htm'
+    quote: 'of person, in fear, awe, Genesis 45:24 (ב location), Isaiah 32:11 ("" הָרַד), Isaiah 32:10; Psalm 4:5'
+  - where: 'note 4:4 “Tremble, or be angry, and do not sin”'
+    claim: 'The Greek translation reads “Be ye angry, and sin not” and “what ye say in your hearts”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/4.htm'
+    quote: 'Be ye angry, and sin not; feel compunction upon your beds for what ye say in your hearts.'
+  - where: 'note 4:4 “Tremble, or be angry, and do not sin”'
+    claim: 'A modern translation has “When you are disturbed, do not sin”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%204&version=NRSVUE'
+    quote: 'When you are disturbed, do not sin'
+  - where: 'note 4:4 “Tremble, or be angry, and do not sin”'
+    claim: 'Its margin gives “are angry”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%204&version=NRSVUE'
+    quote: 'Or are angry'
+  - where: 'note 4:4 “Tremble, or be angry, and do not sin”'
+    claim: 'Ephesians 4:26 in the King James Version has the words of the English Septuagint of verse 4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/eph/4?lang=eng'
+    quote: 'Be ye angry, and sin not: let not the sun go down upon your wrath:'
+  - where: 'note 4:4 “Tremble, or be angry, and do not sin”'
+    claim: 'The Greek of verse 4 is compared with Ephesians 4:26'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/4.htm'
+    quote: 'The lxx has rendered it correctly: ὀργίζεσθε καὶ μὴ ἁμαρτάνετε (cf. Ephesians 4:26): if ye will be angry beware of sinning'
+  - where: 'note 4:4 “Tremble, or be angry, and do not sin”'
+    claim: 'The Joseph Smith Translation of Ephesians 4:26 is a question'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/eph/4?lang=eng'
+    quote: 'Can ye be angry, and not sin?'
+  - where: 'note 4:4 “Tremble, or be angry, and do not sin”'
+    claim: '“Commune” in verse 4 is the verb whose participle is “say” in verse 6 (same lemma, Strong’s 559)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אִמְר֣וּ'
+  - where: 'note 4:4 “Tremble, or be angry, and do not sin”'
+    claim: '“Be still” is to be silent, with this verse (Hebrew 4:5) listed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1826.htm'
+    quote: '1 be silent Psalm 4:5'
+
+  # ---------- note 4:5 ----------
+  - where: 'note 4:5 “Right sacrifices”'
+    claim: 'One reading: the phrase means sacrifices offered with a right mind, not deeds in place of sacrifices'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/4.htm'
+    quote: 'sacrifices offered with a right mind, conformed to the will of God, instead of the hypocritical mind with which they consecrate their evil doings'
+  - where: 'note 4:5 “Right sacrifices”'
+    claim: 'The same commentary cites Psalm 51 and Deuteronomy 33:19 as real sacrifices'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/4.htm'
+    quote: 'Deuteronomy 33:19 also, "the sacrifices of righteousness" are real sacrifices, not merely symbols of moral acts'
+  - where: 'note 4:5 “Right sacrifices”'
+    claim: 'A modern translation has “Offer right sacrifices”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%204&version=NRSVUE'
+    quote: 'Offer right sacrifices'
+  - where: 'note 4:5 “Right sacrifices”'
+    claim: 'Deuteronomy 33:19 has the phrase'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/33?lang=eng'
+    quote: 'there they shall offer sacrifices of righteousness'
+  - where: 'note 4:5 “Right sacrifices”'
+    claim: 'Psalm 51:19 has the phrase beside burnt offerings'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/51?lang=eng'
+    quote: 'Then shalt thou be pleased with the sacrifices of righteousness, with burnt offering and whole burnt offering'
+  - where: 'note 4:5 “Right sacrifices”'
+    claim: 'The noun for righteousness in verse 5 is the noun of verse 1 (Strong’s 6664 in both)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'צִדְקִ֗/י'
+
+  # ---------- note 4:6 ----------
+  - where: 'note 4:6 “The priests’ blessing, prayed back”'
+    claim: 'The priestly blessing, Numbers 6:25'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/6?lang=eng'
+    quote: 'The Lord make his face shine upon thee, and be gracious unto thee:'
+  - where: 'note 4:6 “The priests’ blessing, prayed back”'
+    claim: 'The priestly blessing, Numbers 6:26'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/6?lang=eng'
+    quote: 'The Lord lift up his countenance upon thee, and give thee peace.'
+  - where: 'note 4:6 “The priests’ blessing, prayed back”'
+    claim: 'The verb “lift up” in Psalm 4:6 (Strong’s 5375)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נְֽסָ/ה'
+  - where: 'note 4:6 “The priests’ blessing, prayed back”'
+    claim: 'Numbers 6:26 has the same verb (Strong’s 5375) and the same noun, “face” (Strong’s 6440), which also stands in 6:25'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'יִשָּׂ֨א'
+  - where: 'note 4:6 “The priests’ blessing, prayed back”'
+    claim: 'The noun “face” in Psalm 4:6 (Strong’s 6440)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פָּנֶ֬י/ךָ'
+  - where: 'note 4:6 “The priests’ blessing, prayed back”'
+    claim: 'Many biblical passages borrow the blessing’s language, especially the lifting up of the light of the Lord’s countenance'
+    key: sc-knowhy-212
+    url: 'https://scripturecentral.org/knowhy/why-did-jesus-allude-to-the-priestly-blessing-in-numbers-6'
+    quote: 'Its significance can be seen through the many biblical passages that borrow from its language, especially in mentions of the Lord lifting up the light of His countenance.'
+  - where: 'note 4:6 “The priests’ blessing, prayed back”'
+    claim: 'Psalm 4:6 is the first passage listed as borrowing the blessing’s language'
+    key: sc-knowhy-212
+    url: 'https://scripturecentral.org/knowhy/why-did-jesus-allude-to-the-priestly-blessing-in-numbers-6'
+    quote: 'See, e.g., Psalms 4:6; 31:16; 44:3; 67:1; 80:1, 3, 7, 19; 89:15; Daniel 9:17.'
+  - where: 'note 4:6 “The priests’ blessing, prayed back”'
+    claim: 'The lifting up of the Lord’s countenance has been tied to the ancient temple rites'
+    key: sc-knowhy-437
+    url: 'https://scripturecentral.org/knowhy/how-do-the-psalms-quoted-in-the-book-of-mormon-teach-about-the-temple'
+    quote: 'when the Lord appeared, He would “lift up” the light of His countenance and His face would “shine” upon the people. This was part of the priestly blessing (Numbers 6:24–26) and is mentioned repeatedly in the Psalms.'
+  - where: 'note 4:6 “The priests’ blessing, prayed back”'
+    claim: 'Whether pilgrims expected literally to see the Lord cannot be known (the account is a reconstruction)'
+    key: sc-knowhy-437
+    url: 'https://scripturecentral.org/knowhy/how-do-the-psalms-quoted-in-the-book-of-mormon-teach-about-the-temple'
+    quote: 'We cannot know if ancient Israelite temple pilgrims expected to literally (rather than symbolically) see the Lord upon arriving at the Lord’s house in Jerusalem.'
+  - where: 'note 4:6 “The priests’ blessing, prayed back”'
+    claim: 'A modern translation gives both lines of verse 6 to the many, the first as a wish'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%204&version=NRSVUE'
+    quote: 'There are many who say, “O that we might see some good!'
+  - where: 'note 4:6 “The priests’ blessing, prayed back”'
+    claim: 'In that translation the quotation closes after the prayer for the shining face'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%204&version=NRSVUE'
+    quote: 'Let the light of your face shine on us, O Lord!”'
+
+  # ---------- note 4:8 ----------
+  - where: 'note 4:8 “Alone, and safe”'
+    claim: 'A modern translation attaches “alone” to the LORD'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%204&version=NRSVUE'
+    quote: 'for you alone, O Lord, make me lie down in safety.'
+  - where: 'note 4:8 “Alone, and safe”'
+    claim: 'The Hebrew word is a noun for isolation, used especially with verbs of dwelling and as a figure of security'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/910.htm'
+    quote: 'noun [masculine] isolation, separation'
+  - where: 'note 4:8 “Alone, and safe”'
+    claim: 'It is used especially with verbs of dwelling, and figuratively of security'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/910.htm'
+    quote: 'especially with verbs of dwelling, Leviticus 13:46'
+  - where: 'note 4:8 “Alone, and safe”'
+    claim: 'It is a figure of freedom from attack, as in Deuteronomy 33:28'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/910.htm'
+    quote: 'figurative of freedom from attack, security Deuteronomy 33:28 (of Israel)'
+  - where: 'note 4:8 “Alone, and safe”'
+    claim: 'The lexicon renders this verse (Hebrew 4:9) “makest me dwell solitarily, in safety” and compares Deuteronomy 33:28'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/910.htm'
+    quote: 'makest me dwell solitarily, in safety (see Deuteronomy 33:28)'
+  - where: 'note 4:8 “Alone, and safe”'
+    claim: 'On the evening-prayer reading the psalmist is reassured and then lies down (verse 8)'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'The psalmist is reassured and declares, “I will both lay me down in peace, and sleep: for thou, Lord, only makest me dwell in safety” (verse 8).'
+  - where: 'note 4:8 “Alone, and safe”'
+    claim: 'That reading takes verse 4, with its bed, as the Lord’s apparent response to the psalmist'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'The fact that this prayer is given just before the individual lies down to sleep is evident in the Lord’s apparent response: “Commune with your own heart upon your bed, and be still” (verse 4).'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'The wording of 3 Nephi 19:25'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/19?lang=eng'
+    quote: 'Jesus blessed them as they did pray unto him; and his countenance did smile upon them, and the light of his countenance did shine upon them'
+  - where: christ
+    claim: '3 Nephi 19:25 follows Numbers 6:25–26 closely'
+    key: sc-knowhy-212
+    url: 'https://scripturecentral.org/knowhy/why-did-jesus-allude-to-the-priestly-blessing-in-numbers-6'
+    quote: 'This follows much of Numbers 6:25–26 very closely'
+  - where: christ
+    claim: 'The verse has been read as Jesus performing the priestly blessing'
+    key: sc-knowhy-212
+    url: 'https://scripturecentral.org/knowhy/why-did-jesus-allude-to-the-priestly-blessing-in-numbers-6'
+    quote: 'we can see Jesus’ performance of the Priestly Blessing in 3 Nephi 19'
+  - where: christ
+    claim: 'The Church’s footnote on “countenance” in Psalm 4:6 refers to 3 Nephi 19:25'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/4?lang=eng'
+    quote: '3 Ne. 19:25 (24–25)'
+
+  # ---------- explore ----------
+  - where: explore
+    claim: 'Psalms 31:16, 67:1 and 80:3 are listed among passages that borrow the blessing’s language'
+    key: sc-knowhy-212
+    url: 'https://scripturecentral.org/knowhy/why-did-jesus-allude-to-the-priestly-blessing-in-numbers-6'
+    quote: 'See, e.g., Psalms 4:6; 31:16; 44:3; 67:1; 80:1, 3, 7, 19; 89:15; Daniel 9:17.'
+  - where: explore
+    claim: 'Psalm 67:1 asks for the shining face'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/67?lang=eng'
+    quote: 'God be merciful unto us, and bless us; and cause his face to shine upon us; Selah.'
+
+  # ---------- parallels ----------
+  - where: parallels
+    claim: 'Psalm 3:5 has the speaker waking from sleep'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/3?lang=eng'
+    quote: 'I laid me down and slept; I awaked; for the Lord sustained me.'
+  - where: parallels
+    claim: 'Deuteronomy 33:28 is compared with Psalm 4:8'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/910.htm'
+    quote: 'makest me dwell solitarily, in safety (see Deuteronomy 33:28)'
