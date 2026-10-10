@@ -1,0 +1,616 @@
+chapter: 12
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David and names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/12?lang=eng'
+    quote: 'To the chief Musician upon Sheminith, A Psalm of David.'
+  - where: setting
+    claim: 'The title names David and Sheminith, and no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/12?lang=eng'
+    quote: 'To the chief Musician upon Sheminith, A Psalm of David.'
+  - where: setting
+    claim: 'Psalm 12 is a lament, a cry for help against the verbal attacks of the wicked'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalm 12 is a lament, a cry for help from the righteous against the (verbal) attacks of the wicked.'
+  - where: setting
+    claim: 'Isaiah 33:10 has the LORD say “Now will I rise, saith the LORD”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/33?lang=eng'
+    quote: 'Now will I rise, saith the Lord; now will I be exalted; now will I lift up myself.'
+  - where: setting
+    claim: 'Joseph Smith’s work on the Psalms is dated to about January and February 1833'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'an approximate date for the translation of Psalms of January and February 1833'
+  - where: setting
+    claim: 'The revision moves psalms toward the last days'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'bringing their message forward to the last days and the Lord’s Coming'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The verb “speak” (H1696) is the second word of verse 2'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְֽדַבְּרוּ֮'
+  - where: thread
+    claim: 'The verb “speak” (H1696) is the last word of verse 2'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְדַבֵּֽרוּ'
+  - where: thread
+    claim: 'The verb “speak” (H1696) comes a third time in verse 3 (“that speaketh”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מְדַבֶּ֥רֶת'
+  - where: thread
+    claim: '“Have said” in verse 4 is the verb H559'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אָֽמְר֨וּ'
+  - where: thread
+    claim: '“Saith” in verse 5 is the same verb, H559'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יֹאמַ֣ר'
+  - where: thread
+    claim: 'The Lord’s pure and sure promises are set against the flattering and proud words of verses 2–3'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Unlike the “flattering” and “proud” words coming from the “double heart” of the wicked (Psalm 12:2–3), the Lord’s promises are pure and sure.'
+  - where: thread
+    claim: 'The hope of verse 7 rests on the divine utterance of verse 5'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/12.htm'
+    quote: 'now in the fourth there arises a consolatory hope based upon the divine utterance which was heard in the third strophe'
+  - where: thread
+    claim: 'The psalm ends with the present still dark'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/12.htm'
+    quote: 'Thus even at last the depressing view of the present prevails in the midst of the confession of a more consolatory hope. The present is gloomy.'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: 'Verse 1 in a modern translation: the godly are no more, the faithful have disappeared'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2012&version=NRSVUE'
+    quote: 'the faithful have disappeared from humankind'
+  - where: section 1 plain
+    claim: 'The Greek has “Save” for “Help”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/12.htm'
+    quote: 'Save me, O Lord; for the godly man has failed'
+  - where: section 1 plain
+    claim: '“Flattering” is smoothness'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2513.htm'
+    quote: 'smoothness = flattery'
+  - where: section 2 plain
+    claim: 'Verse 3 is a wish; verse 4 has “master”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2012&version=NRSVUE'
+    quote: 'May the Lord cut off all flattering lips,'
+  - where: section 2 plain
+    claim: 'A modern translation has “who is our master?”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2012&version=NRSVUE'
+    quote: 'who is our master?'
+  - where: section 2 plain
+    claim: '“Proud things” is in the Greek “great words”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/12.htm'
+    quote: 'the tongue that speaks great words'
+  - where: section 3 plain
+    claim: 'The alternative rendering of the last clause of verse 5: to pant for it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6315.htm'
+    quote: 'puff, = pant for it (so most'
+  - where: section 3 plain
+    claim: '“Tried” is smelted, refined'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6884.htm'
+    quote: 'smelt, refine'
+  - where: section 4 plain
+    claim: 'The pronoun on “preserve” is parsed as third person masculine singular (hebrew.mjs: HVqi2ms/Sp3ms)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּצְּרֶ֓/נּוּ'
+  - where: section 4 plain
+    claim: 'What is exalted in verse 8 is “worthlessness”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2149.htm'
+    quote: 'noun feminine worthlessness, only'
+  - where: section 4 plain
+    claim: 'Verse 8 ends in Hebrew with “the children of men” (bene adam)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לִ/בְנֵ֥י'
+
+  # ---------- note 12:1 JST ----------
+  - where: 'note 12:1 “Joseph Smith’s revision sets the psalm in the day of judgment”'
+    claim: 'The work on Psalms is dated to about January and February 1833'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'All of these considerations combine to give us an approximate date for the translation of Psalms of January and February 1833.'
+  - where: 'note 12:1 “Joseph Smith’s revision sets the psalm in the day of judgment”'
+    claim: 'The Joseph Smith Translation of Psalm 12:1'
+    key: mcconkie-poetic-writings
+    url: 'https://rsc.byu.edu/joseph-smith-translation/joseph-smith-poetic-writings'
+    quote: 'To that theme is added these words in Psalm 12:1: “In that day thou shalt help, O Lord, the poor and the meek of the earth.”'
+  - where: 'note 12:1 “Joseph Smith’s revision sets the psalm in the day of judgment”'
+    claim: '“In that day” opens JST Psalms 11:1 and 12:1 and refers to the future day of judgment; three words'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'In the JST, both Psalms 11:1 and 12:1 start with the phrase “In that day,” a clear reference to the future day of God’s judgment, retribution, and triumph.'
+  - where: 'note 12:1 “Joseph Smith’s revision sets the psalm in the day of judgment”'
+    claim: 'The opening of JST Psalm 12:5'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: '“Therefore, thus saith the Lord, I will arise in that day, I will stand upon the earth, and I will judge the earth for the oppression of the poor, for the sighing of the needy;'
+  - where: 'note 12:1 “Joseph Smith’s revision sets the psalm in the day of judgment”'
+    claim: 'JST Psalm 12:5 adds that the Lord shall sit in judgment'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'The inserted phrase toward the end of JST Psalm 12:5, “the Lord shall sit in judgment,” applies to those who oppress the poor and ignore their sighing.'
+  - where: 'note 12:1 “Joseph Smith’s revision sets the psalm in the day of judgment”'
+    claim: '“Thus saith the Lord” is common where a prophet declares God’s words and never used in the King James Psalms'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: '“Thus saith the Lord,” is common in scripture—used over five hundred times—when a prophet is declaring the words of God, but it is never employed in Psalms in the KJV.'
+  - where: 'note 12:1 “Joseph Smith’s revision sets the psalm in the day of judgment”'
+    claim: 'The addition makes the psalm prophetic'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'This phrase’s addition to Psalm 12 in the JST makes this psalm prophetic, highlighting the direct revelation to the Psalmist.'
+  - where: 'note 12:1 “Joseph Smith’s revision sets the psalm in the day of judgment”'
+    claim: 'The clause added to JST Psalm 12:8'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'but in the day of their pride thou shalt visit them” (Psalm 12:8)'
+  - where: 'note 12:1 “Joseph Smith’s revision sets the psalm in the day of judgment”'
+    claim: 'The visit of JST 12:8 is punishment'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'In the JST of Psalm 12:8, the sense is clearly one of punishment of the wicked'
+  - where: 'note 12:1 “Joseph Smith’s revision sets the psalm in the day of judgment”'
+    claim: 'In the King James the wicked are left in power; in the revision they are punished'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'in the JST, the wicked will be punished; in the KJV, the wicked are left in their positions of power and authority.'
+  - where: 'note 12:1 “Joseph Smith’s revision sets the psalm in the day of judgment”'
+    claim: 'A pervasive trend of the JST psalms is a shift to the future tense'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'One pervasive trend in the JST psalms is that verses were shifted to future tense,'
+  - where: 'note 12:1 “Joseph Smith’s revision sets the psalm in the day of judgment”'
+    claim: 'The shift brings the message to the last days'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'bringing their message forward to the last days and the Lord’s Coming'
+
+  # ---------- note 12:1 godly ----------
+  - where: 'note 12:1 “The godly are no more”'
+    claim: '“The godly man” is hasid (H2623)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חָסִ֑יד'
+  - where: 'note 12:1 “The godly are no more”'
+    claim: '“Ceaseth” is a verb meaning come to an end, be no more, listed for this verse (Hebrew 12:2)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1584.htm'
+    quote: '1 come to an end, be no more Psalm 7:10; Psalm 12:2'
+  - where: 'note 12:1 “The godly are no more”'
+    claim: '“Fail” is rendered “the faithful have vanished from among men”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6461.htm'
+    quote: 'Psalm 12:2 the faithful have vanished (Che Dr) from (among) . . . men'
+  - where: 'note 12:1 “The godly are no more”'
+    claim: 'Verse 1 in a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2012&version=NRSVUE'
+    quote: 'there is no longer anyone who is godly;'
+  - where: 'note 12:1 “The godly are no more”'
+    claim: 'Verse 1b in a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2012&version=NRSVUE'
+    quote: 'the faithful have disappeared from humankind'
+  - where: 'note 12:1 “The godly are no more”'
+    claim: 'Micah 7:2 “the good man” is the same word, hasid (H2623)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mic.xml'
+    quote: 'חָסִיד֙'
+
+  # ---------- note 12:2 ----------
+  - where: 'note 12:2 “Smooth lips, and a heart and a heart”'
+    claim: 'The word behind “flattering” is smoothness, used of the smooth part of the neck in Genesis 27:16'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2513.htm'
+    quote: '1 smoothness, smooth part חֶלְקַת צַוָּארָיו Genesis 27:16.'
+  - where: 'note 12:2 “Smooth lips, and a heart and a heart”'
+    claim: 'In this verse the word means flattery; in Isaiah 30:10 it is smooth, agreeable, flattering things'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2513.htm'
+    quote: '3 smoothness = flattery ׳שְׂפַת חִ Psalm 12:3, compare Psalm 12:4; חֶלְקַת לָשׁוֺן Proverbs 6:24; = substantive plural smooth things, i.e. agreeable, flattering things Isaiah 30:10.'
+  - where: 'note 12:2 “Smooth lips, and a heart and a heart”'
+    claim: 'Genesis 27:16 is of Jacob, on whose neck Rebekah put the skins'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/27?lang=eng'
+    quote: 'And she put the skins of the kids of the goats upon his hands, and upon the smooth of his neck:'
+  - where: 'note 12:2 “Smooth lips, and a heart and a heart”'
+    claim: 'The Hebrew of “a double heart” is “with a heart” …'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/לֵ֖ב'
+  - where: 'note 12:2 “Smooth lips, and a heart and a heart”'
+    claim: '… “and a heart”: the noun (H3820) twice'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וָ/לֵ֣ב'
+  - where: 'note 12:2 “Smooth lips, and a heart and a heart”'
+    claim: 'The phrase is rendered “with a double heart”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3820.htm'
+    quote: 'בלב ולב with a double heart Psalm 12:3'
+  - where: 'note 12:2 “Smooth lips, and a heart and a heart”'
+    claim: '1 Chronicles 12:33 (Hebrew 12:34) ends with the same pair, “heart and heart” (H3820 twice)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/1Chr.xml'
+    quote: 'וָ/לֵֽב'
+  - where: 'note 12:2 “Smooth lips, and a heart and a heart”'
+    claim: '1 Chronicles 12:33 is of Zebulun’s men who went forth to battle'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/12?lang=eng'
+    quote: 'Of Zebulun, such as went forth to battle, expert in war, with all instruments of war, fifty thousand, which could keep rank: they were not of double heart.'
+  - where: 'note 12:2 “Smooth lips, and a heart and a heart”'
+    claim: 'A modern translation has “a deceitful heart”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2012&version=NRSVUE'
+    quote: 'with flattering lips and a deceitful heart they speak.'
+
+  # ---------- note 12:3 ----------
+  - where: 'note 12:3 “A wish that the LORD would act”'
+    claim: 'The verb “cut off” is a Hiphil jussive (hebrew.mjs: HVhj3ms)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יַכְרֵ֣ת'
+  - where: 'note 12:3 “A wish that the LORD would act”'
+    claim: 'A modern translation renders it as a wish, with “may”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2012&version=NRSVUE'
+    quote: 'May the Lord cut off all flattering lips,'
+  - where: 'note 12:3 “A wish that the LORD would act”'
+    claim: 'The Greek renders it as a wish, with “let”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/12.htm'
+    quote: 'Let the Lord destroy all the deceitful lips, and the tongue that speaks great words'
+
+  # ---------- note 12:4 ----------
+  - where: 'note 12:4 “The boast of having no master”'
+    claim: '“Lord” in verse 4 is adon (H113)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אָד֣וֹן'
+  - where: 'note 12:4 “The boast of having no master”'
+    claim: 'A modern translation has “who is our master?”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2012&version=NRSVUE'
+    quote: 'who is our master?'
+  - where: 'note 12:4 “The boast of having no master”'
+    claim: '“Are our own” is the preposition “with” (H854, as in “with his neighbour,” verse 2) and the suffix “us” (hebrew.mjs: HR/Sp1cp)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אִתָּ֑/נוּ'
+  - where: 'note 12:4 “The boast of having no master”'
+    claim: 'Two renderings of the first clause'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1396.htm'
+    quote: 'we will confirm covenant with our tongue Ew Ol Che (or, to our tongue will we give strength Hi De) Psalm 12:5.'
+
+  # ---------- note 12:5 oracle ----------
+  - where: 'note 12:5 “The LORD answers inside the psalm”'
+    claim: 'In verse 5 the psalmist hears the LORD Himself speak'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/12.htm'
+    quote: 'In Psalm 12:6 the psalmist hears Jahve Himself speak; and in Psalm 12:7 he adds his Amen.'
+  - where: 'note 12:5 “The LORD answers inside the psalm”'
+    claim: 'The psalmist passes into the tone of one who directly hears God’s words, an inspired prophet; Psalm 2 is the other example'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/12.htm'
+    quote: 'together with Psalm 2:1-12 is a second example of the way in which the psalmist, when under great excitement of spirit, passes over into the tone of one who directly hears'
+  - where: 'note 12:5 “The LORD answers inside the psalm”'
+    claim: 'The wording “into the tone of an inspired prophet”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/12.htm'
+    quote: 'and therefore into the tone of an inspired prophet'
+  - where: 'note 12:5 “The LORD answers inside the psalm”'
+    claim: '“saith the LORD” is in the King James Psalms only at 12:5 (node scripts/occurrences.mjs psalms "saith the LORD": 1 verse, 1 occurrence, in 1 chapter)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/12?lang=eng'
+    quote: 'now will I arise, saith the Lord'
+  - where: 'note 12:5 “The LORD answers inside the psalm”'
+    claim: 'Verse 5 has the four words “now,” “I will arise” (H6965), “saith” (H559), “the LORD”; the second'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אָ֭קוּם'
+  - where: 'note 12:5 “The LORD answers inside the psalm”'
+    claim: 'Isaiah 33:10 opens with the same four words (H6258, H6965, H559, H3068); the second'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'אָק֖וּם'
+  - where: 'note 12:5 “The LORD answers inside the psalm”'
+    claim: 'Isaiah 33:10 in the King James Version'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/33?lang=eng'
+    quote: 'Now will I rise, saith the Lord; now will I be exalted; now will I lift up myself.'
+  - where: 'note 12:5 “The LORD answers inside the psalm”'
+    claim: '“Now” is the turning point from forbearance to judgment; Isaiah 33:10 is its echo'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/12.htm'
+    quote: 'the decisive turning-point from forebearance to the execution of judgment'
+  - where: 'note 12:5 “The LORD answers inside the psalm”'
+    claim: 'The Lord as champion of the poor and needy is a recurring theme in Psalms'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Verse 5 features a recurring theme in Psalms—the idea that the Lord is the champion of the poor and needy.'
+
+  # ---------- note 12:5 puffeth ----------
+  - where: 'note 12:5 “Safety, and who is puffing”'
+    claim: 'At Psalm 10:5 the verb is to puff, snort, against a person'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6315.htm'
+    quote: 'puff, snort, against'
+  - where: 'note 12:5 “Safety, and who is puffing”'
+    claim: 'Psalm 10:5 in the King James Version has “puffeth at”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/10?lang=eng'
+    quote: 'as for all his enemies, he puffeth at them.'
+  - where: 'note 12:5 “Safety, and who is puffing”'
+    claim: '“Puffeth” is glossed “scoffeth”'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: '“set him in safety from him that puffeth [scoffeth] at him.”'
+  - where: 'note 12:5 “Safety, and who is puffing”'
+    claim: 'Most take the verb in this verse as “pant for it”; others as “against whom men puff”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6315.htm'
+    quote: 'Psalm 12:6 puff, = pant for it (so most; Thes Hi and others against whom men puff'
+  - where: 'note 12:5 “Safety, and who is puffing”'
+    claim: 'A modern translation follows the “long for” reading'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2012&version=NRSVUE'
+    quote: '“I will place them in the safety for which they long.”'
+  - where: 'note 12:5 “Safety, and who is puffing”'
+    claim: 'The Greek reads the clause differently'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/12.htm'
+    quote: 'I will set them in safety; I will speak to them thereof openly.'
+  - where: 'note 12:5 “Safety, and who is puffing”'
+    claim: 'The range of the word “safety” (yesha)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3468.htm'
+    quote: 'deliverance, rescue, salvation, also safety, welfare'
+  - where: 'note 12:5 “Safety, and who is puffing”'
+    claim: 'This verse (Hebrew 12:6) is listed under “safety, welfare”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3468.htm'
+    quote: '1 safety, welfare, prosperity 2 Samuel 23:5; Psalm 12:6'
+
+  # ---------- note 12:6 ----------
+  - where: 'note 12:6 “Words with no dross in them”'
+    claim: 'Verse 6 is the psalmist’s Amen to the LORD’s words'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/12.htm'
+    quote: 'In Psalm 12:6 the psalmist hears Jahve Himself speak; and in Psalm 12:7 he adds his Amen.'
+  - where: 'note 12:6 “Words with no dross in them”'
+    claim: '“Tried” is the verb smelt, refine, used in this verse of silver'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6884.htm'
+    quote: '1 smelt, refine: Jeremiah 6:29'
+  - where: 'note 12:6 “Words with no dross in them”'
+    claim: 'The silver is the purest, purged of dross'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/12.htm'
+    quote: 'i.e., the purest silver, entirely purged from dross'
+  - where: 'note 12:6 “Words with no dross in them”'
+    claim: 'Pure words are words to be fulfilled as they stand, with no untruthfulness mixed in'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/12.htm'
+    quote: 'intended, and to be fulfilled, absolutely as they run without any admixture whatever of untruthfulness'
+  - where: 'note 12:6 “Words with no dross in them”'
+    claim: 'Seven is the number of a completed process'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/12.htm'
+    quote: 'seven is the number indicating the completion of any process'
+  - where: 'note 12:6 “Words with no dross in them”'
+    claim: 'The Lord’s promises contrasted with the flattering and proud words of the wicked'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Unlike the “flattering” and “proud” words coming from the “double heart” of the wicked (Psalm 12:2–3), the Lord’s promises are pure and sure.'
+  - where: 'note 12:6 “Words with no dross in them”'
+    claim: 'A modern translation prints “promises”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2012&version=NRSVUE'
+    quote: 'The promises of the Lord are promises that are pure,'
+  - where: 'note 12:6 “Words with no dross in them”'
+    claim: 'The same verb is used of the word of the LORD in Psalm 18:30 (Hebrew 18:31), Psalm 119:140 and Proverbs 30:5'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6884.htm'
+    quote: 'Psalm 12:7 (all simile); of ׳אִמְרַת י Psalm 18:31 = 2 Samuel 22:31; Psalm 119:140; Proverbs 30:5'
+  - where: 'note 12:6 “Words with no dross in them”'
+    claim: '“Tried” in verse 6 is H6884'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'צָ֭רוּף'
+  - where: 'note 12:6 “Words with no dross in them”'
+    claim: '“Pure” in Proverbs 30:5 is the same verb, H6884'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Prov.xml'
+    quote: 'צְרוּפָ֑ה'
+  - where: 'note 12:6 “Words with no dross in them”'
+    claim: 'Psalm 18:30 in the King James Version'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/18?lang=eng'
+    quote: 'As for God, his way is perfect: the word of the Lord is tried'
+  - where: 'note 12:6 “Words with no dross in them”'
+    claim: 'The word behind “furnace” is found only here and its meaning is wholly dubious; usually furnace, crucible'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5948.htm'
+    quote: 'usually (after ᵑ7 כּוּרָא) furnace, crucible'
+  - where: 'note 12:6 “Words with no dross in them”'
+    claim: 'The lexicon’s judgment on that rendering'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5948.htm'
+    quote: 'but wholly dubious'
+  - where: 'note 12:6 “Words with no dross in them”'
+    claim: 'The word is found only in this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5948.htm'
+    quote: 'apparently noun [masculine], only'
+  - where: 'note 12:6 “Words with no dross in them”'
+    claim: 'A modern translation has “a furnace on the ground”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2012&version=NRSVUE'
+    quote: 'silver refined in a furnace on the ground,'
+
+  # ---------- note 12:7 ----------
+  - where: 'note 12:7 “Them is the poor, not the words”'
+    claim: '“Words” in verse 6 is a feminine plural noun (hebrew.mjs: HNcfpc)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אִֽמֲר֣וֹת'
+  - where: 'note 12:7 “Them is the poor, not the words”'
+    claim: 'The suffix on “keep” is third person masculine plural (hebrew.mjs: HVqi2ms/Sp3mp)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּשְׁמְרֵ֑/ם'
+  - where: 'note 12:7 “Them is the poor, not the words”'
+    claim: 'The suffix on “preserve” is parsed as third person masculine singular (hebrew.mjs: HVqi2ms/Sp3ms)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּצְּרֶ֓/נּוּ'
+  - where: 'note 12:7 “Them is the poor, not the words”'
+    claim: 'The Greek has “us” in both halves'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/12.htm'
+    quote: 'Thou, O Lord, shalt keep us, and shalt preserve us, from this generation, and for ever.'
+  - where: 'note 12:7 “Them is the poor, not the words”'
+    claim: 'A modern translation has “us”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2012&version=NRSVUE'
+    quote: 'You, O Lord, will protect us;'
+  - where: 'note 12:7 “Them is the poor, not the words”'
+    claim: 'Verse 7 is read of the righteous poor and needy'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'He will keep and preserve the righteous poor and needy forever (verse 7).'
+  - where: 'note 12:7 “Them is the poor, not the words”'
+    claim: 'JST Psalm 12:7 adds “save thy people”'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'save thy people, O Lord, thou shalt keep them; thou shalt preserve them from the wickedness of'
+
+  # ---------- note 12:8 ----------
+  - where: 'note 12:8 “The psalm ends where it began”'
+    claim: 'Verse 1 ends “from the children of” …'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִ/בְּנֵ֥י'
+  - where: 'note 12:8 “The psalm ends where it began”'
+    claim: 'Verse 8 ends with the same two words, “sons of” (H1121) and “man” (H120); the first'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לִ/בְנֵ֥י'
+  - where: 'note 12:8 “The psalm ends where it began”'
+    claim: 'The second word, “man” (H120), closes both verses'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אָדָֽם'
+  - where: 'note 12:8 “The psalm ends where it began”'
+    claim: 'The noun in verse 8 is “worthlessness,” found only here'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2149.htm'
+    quote: 'noun feminine worthlessness, only'
+  - where: 'note 12:8 “The psalm ends where it began”'
+    claim: 'Verse 8 in a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2012&version=NRSVUE'
+    quote: 'as vileness is exalted among humankind.'
+  - where: 'note 12:8 “The psalm ends where it began”'
+    claim: 'The psalm’s middle (the LORD’s words and the psalmist’s Amen) is a six-line strophe surrounded by four-line strophes'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/12.htm'
+    quote: 'form the middle portion of this Psalm-a six line strophe, which is surrounded by four line strophes.'
+  - where: 'note 12:8 “The psalm ends where it began”'
+    claim: 'At the end the gloomy view of the present prevails'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/12.htm'
+    quote: 'Thus even at last the depressing view of the present prevails in the midst of the confession of a more consolatory hope. The present is gloomy.'
+  - where: 'note 12:8 “The psalm ends where it began”'
+    claim: 'The psalm as a ring with the oracle as its jewel'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/12.htm'
+    quote: 'The Psalm is a ring and this central oracle is its jewel.'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'Isaiah 33:10 has the LORD say the same words'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/33?lang=eng'
+    quote: 'Now will I rise, saith the Lord; now will I be exalted; now will I lift up myself.'
+  - where: christ
+    claim: 'JST Psalm 12:1 begins “In that day”'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'In the JST, both Psalms 11:1 and 12:1 start with the phrase “In that day,”'
+  - where: christ
+    claim: 'In JST Psalm 12:5 the Lord stands on the earth and judges it'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'I will arise in that day, I will stand upon the earth, and I will judge the earth'
+  - where: christ
+    claim: 'The JST change at Psalm 12:1 is counted as adding to the Psalms’ theme of the first and second comings of Christ'
+    key: mcconkie-poetic-writings
+    url: 'https://rsc.byu.edu/joseph-smith-translation/joseph-smith-poetic-writings'
+    quote: 'Central themes of the Psalms are the first and second comings of Christ. This message is enhanced and expanded by the Joseph Smith Translation.'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'Related verses for the Lord as champion of the poor'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalms 72:4, 12–13; 82:3–4; 86:1; 2 Samuel 22:31; Proverbs 31:9; James 1:8'
+  - where: explore
+    claim: 'The refining verb is used of the LORD’s word in Psalm 18:30, Psalm 119:140 and Proverbs 30:5'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6884.htm'
+    quote: 'Psalm 18:31 = 2 Samuel 22:31; Psalm 119:140; Proverbs 30:5'
+  - where: explore
+    claim: 'The essay prints JST changes to Psalm 10 (verse 16) with the changes marked'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'For example, Psalm 10:16 reads: “And the Lord is shall be King for ever and ever over his people'
+  - where: explore
+    claim: 'The essay prints the JST changes to Psalm 14'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'the Prophet dramatically transformed the first four verses of Psalm 14'
+  - where: parallels
+    claim: 'Psalm 18:30 uses the refining verb (H6884) of the word of the LORD'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'צְרוּפָ֑ה'
+  - where: parallels
+    claim: '1 Chronicles 12:33 in the King James Version'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/12?lang=eng'
+    quote: 'which could keep rank: they were not of double heart.'
+  - where: parallels
+    claim: 'Micah 7:2 has hasid (H2623) for “the good man”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mic.xml'
+    quote: 'חָסִיד֙'
