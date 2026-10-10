@@ -1,0 +1,428 @@
+chapter: 23
+claims:
+  - where: 'when'
+    claim: 'The title above the psalm is only “A Psalm of David”; it names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/23?lang=eng'
+    quote: 'A Psalm of David.'
+  - where: 'setting'
+    claim: 'The title above the psalm is only “A Psalm of David”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/23?lang=eng'
+    quote: 'A Psalm of David.'
+  - where: 'setting'
+    claim: 'One older reading places the psalm in David’s flight from Absalom'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/23.htm'
+    quote: 'If David is the author, and there is no reason for doubting it, then this Psalm belongs to the time of the rebellion under Absolom'
+  - where: 'setting'
+    claim: '“Fed” in Genesis 48:15 is the Hebrew verb to shepherd (H7462), the word behind “shepherd” in Psalm 23:1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'רֹעֶ֣ה'
+  - where: 'setting'
+    claim: '“My shepherd” in Psalm 23:1 is a form of the same verb (H7462)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רֹ֝עִ֗'
+
+  - where: 'thread'
+    claim: 'Psalm 23 has been grouped with the psalms of lament or prayer'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'Psalms of lament or prayer. These likely arose from times of national or personal crisis'
+  - where: 'thread'
+    claim: 'Such prayers describe a trial, plead for help, and end in confidence'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'third, express their complete confidence that God will deliver them'
+  - where: 'thread'
+    claim: 'At verse 5 the shepherd gives way to a host'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/23.htm'
+    quote: 'After the figure of the shepherd fades away in Psalm 23:4, that of the host appears.'
+  - where: 'thread'
+    claim: 'The pronoun “thou” (H859) enters at verse 4'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַתָּ֥ה'
+
+  - where: 'section 1 plain'
+    claim: '“I shall not want” means “I shall not lack”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2637.htm'
+    quote: 'b. absolute be in want, want Psalm 23:1; Proverbs 13:25; Nehemiah 9:21.'
+  - where: 'section 1 plain'
+    claim: '“Still waters” are waters of rest'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2023&version=NRSVUE'
+    quote: 'Heb waters of rest'
+  - where: 'section 1 plain'
+    claim: '“Restoreth my soul” can be rendered of the life brought back; “paths of righteousness” as right paths'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2023&version=NRSVUE'
+    quote: 'He leads me in right paths'
+  - where: 'section 2 plain'
+    claim: 'A modern translation has “the darkest valley”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2023&version=NRSVUE'
+    quote: 'Even though I walk through the darkest valley'
+  - where: 'section 3 plain'
+    claim: 'The enemies look on'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/23.htm'
+    quote: 'His enemies must look quietly on'
+  - where: 'section 3 plain'
+    claim: '“Surely” may be rendered “only”; “for ever” is in Hebrew “for length of days”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2023&version=NRSVUE'
+    quote: 'Heb for length of days'
+  - where: 'section 3 plain'
+    claim: '“Follow” is the verb to pursue'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7291.htm'
+    quote: 'in good sense, attend closely upon'
+
+  - where: 'note 23:1 “Jehovah is the shepherd, and Jesus took the name”'
+    claim: '“The LORD” in capitals renders the divine name, Jehovah'
+    key: pike-shepherd
+    url: 'https://rsc.byu.edu/celebrating-easter/jesus-great-shepherd-king'
+    quote: 'renders the Hebrew divine name YHWH, or Jehovah'
+  - where: 'note 23:1 “Jehovah is the shepherd, and Jesus took the name”'
+    claim: 'By calling Himself the good shepherd Jesus identified Himself with Jehovah'
+    key: pike-shepherd
+    url: 'https://rsc.byu.edu/celebrating-easter/jesus-great-shepherd-king'
+    quote: 'thus making a specific identification: He and Jehovah were the same being, the same Shepherd.'
+  - where: 'note 23:1 “Jehovah is the shepherd, and Jesus took the name”'
+    claim: 'The claim was heard as a claim to be Jehovah, Messiah and king, which helps explain the reaction in John 10:20'
+    key: pike-shepherd
+    url: 'https://rsc.byu.edu/celebrating-easter/jesus-great-shepherd-king'
+    quote: 'Referring to Himself as the Good Shepherd of Israel was an open announcement by Jesus that He was Jehovah, the Messiah, the King of Israel.'
+  - where: 'note 23:1 “Jehovah is the shepherd, and Jesus took the name”'
+    claim: 'The divine name (H3068) is the first word of the psalm after the title'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְהוָ֥ה'
+
+  - where: 'note 23:1 “Shepherd was a king’s title”'
+    claim: 'Ancient Near Eastern kings were called shepherds of their people'
+    key: pike-shepherd
+    url: 'https://rsc.byu.edu/celebrating-easter/jesus-great-shepherd-king'
+    quote: 'ancient Near Eastern kings were often described as shepherds of the people they ruled'
+  - where: 'note 23:1 “Shepherd was a king’s title”'
+    claim: 'Kings were thought of as earthly representatives of their deities'
+    key: pike-shepherd
+    url: 'https://rsc.byu.edu/celebrating-easter/jesus-great-shepherd-king'
+    quote: 'As earthly representatives of their deities, ancient Near Eastern kings'
+  - where: 'note 23:1 “Shepherd was a king’s title”'
+    claim: 'What the title claimed for a king'
+    key: pike-shepherd
+    url: 'https://rsc.byu.edu/celebrating-easter/jesus-great-shepherd-king'
+    quote: 'Kings employed it to illustrate their divine sanction to rule, their ability to provide and care for their subjects, and their power to protect their people from enemies.'
+  - where: 'note 23:1 “Shepherd was a king’s title”'
+    claim: 'The Hebrew verb to shepherd is used figuratively of ruling'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7462.htm'
+    quote: 'c. figurative of ruler, and teacher, accusative of people, as flock, 2 Samuel 5:2'
+
+  - where: 'note 23:1 “Want means lack”'
+    claim: 'The Hebrew verb means to lack, to be in want'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2637.htm'
+    quote: 'b. absolute be in want, want Psalm 23:1; Proverbs 13:25; Nehemiah 9:21.'
+  - where: 'note 23:1 “Want means lack”'
+    claim: 'The same verb is in Deuteronomy 2:7 (“thou hast lacked nothing”)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2637.htm'
+    quote: 'Deuteronomy 2:7'
+  - where: 'note 23:1 “Want means lack”'
+    claim: 'The Greek translation gives the sense'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/23.htm'
+    quote: 'The Lord tends me as a shepherd, and I shall want nothing.'
+  - where: 'note 23:1 “Want means lack”'
+    claim: 'The form in Psalm 23:1 (H2637)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶחְסָֽר'
+
+  - where: 'note 23:2 “Waters of rest”'
+    claim: 'The Hebrew is “waters of rest”; the noun means rest, quietness'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4496.htm'
+    quote: 'noun feminine resting-place, rest'
+  - where: 'note 23:2 “Waters of rest”'
+    claim: 'The same noun is “my rest” in Psalm 95:11'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4496.htm'
+    quote: 'Psalm 95:11'
+  - where: 'note 23:2 “Waters of rest”'
+    claim: 'A modern translation notes the literal Hebrew'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2023&version=NRSVUE'
+    quote: 'Heb waters of rest'
+  - where: 'note 23:2 “Waters of rest”'
+    claim: 'The Greek translation has “the water of rest”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/23.htm'
+    quote: 'he has nourished me by the water of rest'
+  - where: 'note 23:2 “Waters of rest”'
+    claim: 'Shepherds in ancient Israel led their flocks from the front; Psalm 23:2 is cited for it'
+    key: pike-shepherd
+    url: 'https://rsc.byu.edu/celebrating-easter/jesus-great-shepherd-king'
+    quote: 'shepherds in ancient Israel led their flocks, rather than driving their flocks from behind'
+
+  - where: 'note 23:3 “Brought back to life”'
+    claim: 'The verb in this form means restore, refresh'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7725.htm'
+    quote: 'figurative restore, refresh'
+  - where: 'note 23:3 “Brought back to life”'
+    claim: 'The verb’s first sense is to turn back'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7725.htm'
+    quote: '1 turn back, with'
+  - where: 'note 23:3 “Brought back to life”'
+    claim: 'A modern translation gives “life” as an alternative to “soul”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2023&version=NRSVUE'
+    quote: 'Or life'
+  - where: 'note 23:3 “Brought back to life”'
+    claim: 'The form in Psalm 23:3 (H7725)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְשׁוֹבֵ֑ב'
+
+  - where: 'note 23:3 “Right tracks, for the shepherd’s own name”'
+    claim: 'The Hebrew noun means a track'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4570.htm'
+    quote: '2 track;'
+  - where: 'note 23:3 “Right tracks, for the shepherd’s own name”'
+    claim: 'It is used of a course of action or life, and in this verse of a good, right one'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4570.htm'
+    quote: 'b. = course of action, or life'
+  - where: 'note 23:3 “Right tracks, for the shepherd’s own name”'
+    claim: 'A modern translation has “right paths”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2023&version=NRSVUE'
+    quote: 'He leads me in right paths'
+  - where: 'note 23:3 “Right tracks, for the shepherd’s own name”'
+    claim: 'One reading of “for his name’s sake”: the Lord has revealed Himself as gracious and will show Himself so to the one He leads'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/23.htm'
+    quote: 'He has revealed Himself as the gracious One, and as such He will prove and glorify Himself even in the need of him who submits to His guidance.'
+  - where: 'note 23:3 “Right tracks, for the shepherd’s own name”'
+    claim: '“In the paths of righteousness” in 1 Nephi 16:5 and Alma 7:19 has been counted among the Book of Mormon’s allusions to the Psalms'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: 'In the paths of righteousness'
+  - where: 'note 23:3 “Right tracks, for the shepherd’s own name”'
+    claim: 'Finding allusions is uncertain work'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: 'uncovering allusions is a difficult and subjective endeavor'
+
+  - where: 'note 23:4 “Death’s shadow, or deep darkness”'
+    claim: 'The Hebrew word is read as a compound, death-shadow, and by many as a single word for deep darkness'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6757.htm'
+    quote: 'death-shadow, deep shadow, in poetry'
+  - where: 'note 23:4 “Death’s shadow, or deep darkness”'
+    claim: 'The other vocalization means darkness, deep darkness'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6757.htm'
+    quote: 'darkness, deep darkness'
+  - where: 'note 23:4 “Death’s shadow, or deep darkness”'
+    claim: 'The lexicon puts this verse under the figurative sense of extreme danger'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6757.htm'
+    quote: 'b. of extreme danger Jeremiah 2:6; Psalm 23:4; Psalm 44:20.'
+  - where: 'note 23:4 “Death’s shadow, or deep darkness”'
+    claim: 'The word also describes the world of the dead (Job 10:21)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6757.htm'
+    quote: '3 characterizing world of the dead'
+  - where: 'note 23:4 “Death’s shadow, or deep darkness”'
+    claim: 'The Greek translation has “the shadow of death”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/23.htm'
+    quote: 'Yea, even if I should walk in the midst of the shadow of death'
+  - where: 'note 23:4 “Death’s shadow, or deep darkness”'
+    claim: 'A modern translation has “the darkest valley,” with the older rendering in its margin'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2023&version=NRSVUE'
+    quote: 'Even though I walk through the darkest valley'
+
+  - where: 'note 23:4 “From he to thou at the center”'
+    claim: 'The pronoun “thou” (H859) first appears in verse 4; in the Hebrew, after the two words of the title, 26 words stand before “for thou art with me” (three words) and 26 after, as hebrew.mjs lists the words of Psalm 23:1–6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַתָּ֥ה'
+  - where: 'note 23:4 “From he to thou at the center”'
+    claim: 'The last of the three words, “with me” (H5978)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עִמָּדִ֑'
+
+  - where: 'note 23:5 “The shepherd becomes a host”'
+    claim: 'At verse 5 the image changes from shepherd to host'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/23.htm'
+    quote: 'After the figure of the shepherd fades away in Psalm 23:4, that of the host appears.'
+  - where: 'note 23:5 “The shepherd becomes a host”'
+    claim: 'The enemies look on and can do nothing'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/23.htm'
+    quote: 'His enemies must look quietly on'
+  - where: 'note 23:5 “The shepherd becomes a host”'
+    claim: 'One reading sets the table in David’s flight from Absalom, with the food brought to him in 2 Samuel 17:27–29'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/23.htm'
+    quote: 'it is, therefore, even an abundance of daily bread streaming in upon them, as in 2 Samuel 17:27-29, that is meant'
+  - where: 'note 23:5 “The shepherd becomes a host”'
+    claim: 'What was brought to David across the Jordan'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/17?lang=eng'
+    quote: 'Brought beds, and basins, and earthen vessels, and wheat, and barley'
+  - where: 'note 23:5 “The shepherd becomes a host”'
+    claim: 'The Greek translation has “them that afflict me”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/23.htm'
+    quote: 'in presence of them that afflict me'
+
+  - where: 'note 23:5 “A guest’s anointing, not a king’s”'
+    claim: 'The verb means to make fat, and here to anoint as a sign of festivity and joy'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1878.htm'
+    quote: 'causative make fat'
+  - where: 'note 23:5 “A guest’s anointing, not a king’s”'
+    claim: 'The lexicon’s gloss for this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1878.htm'
+    quote: 'i.e. anoint, symbol of festivity and joy Psalm 23:5'
+  - where: 'note 23:5 “A guest’s anointing, not a king’s”'
+    claim: 'The verb of consecration is another, mashach'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4886.htm'
+    quote: '2 anoint, as consecration, solemn setting apart to an office, always by the use of oil poured on the head'
+  - where: 'note 23:5 “A guest’s anointing, not a king’s”'
+    claim: 'The form in Psalm 23:5 (H1878)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'דִּשַּׁ֖נְתָּ'
+  - where: 'note 23:5 “A guest’s anointing, not a king’s”'
+    claim: 'The Psalms use mashach (H4886) in 45:7 and 89:20; this is the form in 89:20'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מְשַׁחְתִּֽי'
+
+  - where: 'note 23:6 “Pursued by goodness”'
+    claim: 'The verb means to pursue, and here, in a good sense, to attend closely upon'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7291.htm'
+    quote: 'in good sense, attend closely upon'
+  - where: 'note 23:6 “Pursued by goodness”'
+    claim: 'The verb’s ordinary sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7291.htm'
+    quote: 'g. pursue, dog'
+  - where: 'note 23:6 “Pursued by goodness”'
+    claim: 'The same verb (H7291) is “them that persecute me” in Psalm 7:1 and 31:15 (hebrew.mjs psalms --word 7291 lists both); this is the form in 7:1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רֹ֝דְפַ֗'
+  - where: 'note 23:6 “Pursued by goodness”'
+    claim: 'The form in Psalm 23:6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִ֭רְדְּפוּ'
+  - where: 'note 23:6 “Pursued by goodness”'
+    claim: 'One reading: the pursuers are replaced'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/23.htm'
+    quote: 'Foes are now pursuing him, but prosperity and favour alone shall pursue him'
+  - where: 'note 23:6 “Pursued by goodness”'
+    claim: '“Surely” may be rendered “only”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2023&version=NRSVUE'
+    quote: 'Or Only'
+  - where: 'note 23:6 “Pursued by goodness”'
+    claim: '“Mercy” is hesed (H2617)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֶ֣סֶד'
+
+  - where: 'note 23:6 “Dwell or return, and for how long”'
+    claim: 'One reading takes the Hebrew verb as “return”: having returned, he will dwell'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/23.htm'
+    quote: 'again, having returned, dwell in the house of Jahve'
+  - where: 'note 23:6 “Dwell or return, and for how long”'
+    claim: 'The Greek translation has “dwell”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/23.htm'
+    quote: 'my dwelling shall be in the house of the Lord for a very long time'
+  - where: 'note 23:6 “Dwell or return, and for how long”'
+    claim: 'The Hebrew form in verse 6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שַׁבְתִּ֥י'
+  - where: 'note 23:6 “Dwell or return, and for how long”'
+    claim: '“For ever” is in Hebrew “for length of days”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2023&version=NRSVUE'
+    quote: 'Heb for length of days'
+  - where: 'note 23:6 “Dwell or return, and for how long”'
+    claim: 'A modern translation has “my whole life long”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2023&version=NRSVUE'
+    quote: 'my whole life long'
+  - where: 'note 23:6 “Dwell or return, and for how long”'
+    claim: 'The phrase “length of days” is an expression of time, found also in Psalm 21:4 (Hebrew 21:5), 91:16 and 93:5'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/753.htm'
+    quote: 'Psalm 23:6; Psalm 91:16; Psalm 93:5'
+
+  - where: 'christ'
+    claim: 'Jesus’s claim to be the good shepherd identified Him with Jehovah'
+    key: pike-shepherd
+    url: 'https://rsc.byu.edu/celebrating-easter/jesus-great-shepherd-king'
+    quote: 'thus making a specific identification: He and Jehovah were the same being, the same Shepherd.'
+  - where: 'christ'
+    claim: 'Revelation 7 brings the shepherd and the sheep together in the Lamb'
+    key: pike-shepherd
+    url: 'https://rsc.byu.edu/celebrating-easter/jesus-great-shepherd-king'
+    quote: 'comes together to dramatically represent King Jesus and His redeeming accomplishment'
+  - where: 'christ'
+    claim: '“Shall feed them” in Revelation 7:17 is the Greek verb to shepherd'
+    key: greek-nt
+    url: 'https://biblehub.com/interlinear/revelation/7-17.htm'
+    quote: 'ποιμανεῖ'
+  - where: 'christ'
+    claim: 'Revelation 7:17 is set beside Psalm 23:2 as a cross-reference'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2023&version=NRSVUE'
+    quote: 'Ezek 34.14; Rev 7.17'
+
+  - where: 'explore'
+    claim: 'Psalm 23 is among the psalms set to music in the Latter-day Saint hymnal'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'The psalms that have been either put to music in the current Latter-day Saint hymnal or are somewhat reflected in the hymns are Psalms 5, 8, 16, 23'
+  - where: 'explore'
+    claim: 'Hymn no. 108 opens with the psalm’s first line'
+    key: hymn-lord-my-shepherd
+    url: 'https://www.churchofjesuschrist.org/study/manual/hymns/the-lord-is-my-shepherd?lang=eng'
+    quote: 'The Lord is my Shepherd; no want shall I know.'
+  - where: 'explore'
+    claim: 'Hymn no. 108 carries the psalm as far as the valley of verse 4'
+    key: hymn-lord-my-shepherd
+    url: 'https://www.churchofjesuschrist.org/study/manual/hymns/the-lord-is-my-shepherd?lang=eng'
+    quote: 'Since thou art my Guardian, no evil I fear'
+  - where: 'explore'
+    claim: 'The study of the shepherd as a royal and divine title'
+    key: pike-shepherd
+    url: 'https://rsc.byu.edu/celebrating-easter/jesus-great-shepherd-king'
+    quote: 'The royal dimension of the title “Shepherd” is much less appreciated but just as important.'
