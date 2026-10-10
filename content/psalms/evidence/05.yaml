@@ -1,0 +1,479 @@
+chapter: 5
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David and names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/5?lang=eng'
+    quote: 'To the chief Musician upon Nehiloth, A Psalm of David.'
+  - where: setting
+    claim: 'The title ascribes the psalm to David and names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/5?lang=eng'
+    quote: 'To the chief Musician upon Nehiloth, A Psalm of David.'
+  - where: setting
+    claim: 'Psalm 5 can be seen as another morning prayer for protection and justice'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalm 5 can be seen as another morning prayer for protection and justice.'
+  - where: setting
+    claim: 'Psalm 3 is often taken as a morning prayer'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalm 3 is often considered to be a morning prayer for protection'
+  - where: setting
+    claim: 'Psalm 4 is read beside Psalm 3 as an evening prayer'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'If Psalm 3 can be considered a prayer given in the morning, Psalm 4 could be seen as an evening prayer for protection.'
+  - where: setting
+    claim: 'Paul quotes Psalm 5:9 in the chain of quotations in Romans 3:10–18'
+    key: sc-knowhy-535
+    url: 'https://scripturecentral.org/knowhy/why-new-testament-words-and-phrases-are-in-the-book-of-mormon-part-6-why-do-similar-clusters'
+    quote: 'goes on to use a chain of partial scriptural quotations, including phrases from Psalms 5:9; 10:7; 14:1–3; 36:1; 140:3; Proverbs 1:16; and Isaiah 59:7.'
+  - where: setting
+    claim: 'The language of the psalm has been set beside Nephi’s psalm in 2 Nephi 4'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Note the similarity of language to the poetic expressions known as Nephi’s Psalm in 2 Nephi 4:'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The psalm presents a case to the Lord against the enemies and for the righteous'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'The psalmist presents a case to the Lord for why his enemies should be punished and why the righteous should be preserved.'
+  - where: thread
+    claim: 'Verse 7 (Hebrew 5:8) has the phrase “in the abundance of” (preposition and the noun rov) before “thy mercy”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/רֹ֣ב'
+  - where: thread
+    claim: 'Verse 10 (Hebrew 5:11) has the same phrase before “their transgressions”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פִּ֭שְׁעֵי/הֶם'
+  - where: thread
+    claim: 'Verse 4: evil cannot lodge with God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1481.htm'
+    quote: 'Psalm 5:5 evil cannot be a guest of thine'
+
+  # ---------- sections ----------
+  - where: 'section 1 plain'
+    claim: '“Consider my meditation” is “understand my murmuring”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1901.htm'
+    quote: 'understand my murmuring (whispering, faint utterance)'
+  - where: 'section 1 plain'
+    claim: '“Direct” is arrange or set in order'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6186.htm'
+    quote: 'verb arrange or set in order'
+  - where: 'section 1 plain'
+    claim: '“Look up” is to watch'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%205&version=NRSVUE'
+    quote: 'in the morning I plead my case to you and watch.'
+  - where: 'section 2 plain'
+    claim: 'Verse 4: evil cannot be God’s guest'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1481.htm'
+    quote: 'Psalm 5:5 evil cannot be a guest of thine'
+  - where: 'section 2 plain'
+    claim: '“The foolish” are boasters'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1984.htm'
+    quote: 'Participle boastful ones, boasters Psalm 5:6'
+  - where: 'section 2 plain'
+    claim: '“Leasing” is lies'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%205&version=NRSVUE'
+    quote: 'You destroy those who speak lies;'
+  - where: 'section 3 plain'
+    claim: '“In the multitude of thy mercy” is through the abundance of His steadfast love; “worship” is bow down'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%205&version=NRSVUE'
+    quote: 'I will bow down toward your holy temple'
+  - where: 'section 3 plain'
+    claim: '“In thy fear” may be read “in reverence”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/5?lang=eng'
+    quote: 'OR reverence.'
+  - where: 'section 4 plain'
+    claim: '“Open sepulchre” is an open grave'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%205&version=NRSVUE'
+    quote: 'their throats are open graves;'
+  - where: 'section 4 plain'
+    claim: '“Flatter” is to make the tongue smooth'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2505.htm'
+    quote: 'figurative the tongue, i.e. flatter with it Psalm 5:10'
+  - where: 'section 4 plain'
+    claim: '“Destroy thou them” is “declare them guilty”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/816.htm'
+    quote: 'declare them guilty Psalm 5:11.'
+  - where: 'section 5 plain'
+    claim: '“Shout for joy” is sing in the Hebrew'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/5?lang=eng'
+    quote: 'HEB sing.'
+  - where: 'section 5 plain'
+    claim: '“Put their trust” is take refuge'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%205&version=NRSVUE'
+    quote: 'But let all who take refuge in you rejoice;'
+  - where: 'section 5 plain'
+    claim: '“Compass” is surround, and the shield is the large one'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5849.htm'
+    quote: 'as with a shield, with favour will thou surround him'
+
+  # ---------- note 5:0 ----------
+  - where: 'note 5:0 “Nehiloth”'
+    claim: 'The wording of the title in the King James Version'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/5?lang=eng'
+    quote: 'To the chief Musician upon Nehiloth, A Psalm of David.'
+  - where: 'note 5:0 “Nehiloth”'
+    claim: 'Nehiloth is explained as accompaniment by wind instruments'
+    key: bd-psalms
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
+    quote: 'others by wind instruments (Nehiloth Ps. 5)'
+  - where: 'note 5:0 “Nehiloth”'
+    claim: 'Neginoth in the title of Psalm 4 is explained as stringed instruments'
+    key: bd-psalms
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
+    quote: 'Some Psalms were to be accompanied by stringed instruments (Neginah, Neginoth Ps. 4'
+  - where: 'note 5:0 “Nehiloth”'
+    claim: 'A modern translation prints “for the flutes”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%205&version=NRSVUE'
+    quote: 'To the leader: for the flutes. A Psalm of David.'
+  - where: 'note 5:0 “Nehiloth”'
+    claim: 'The word occurs only in this title and its meaning is unknown'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5155.htm'
+    quote: 'noun feminine meaning unknown; only; plural in phrase'
+  - where: 'note 5:0 “Nehiloth”'
+    claim: 'Most conjecture a connection with the word for flute, and this has been disputed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5155.htm'
+    quote: 'most conjecture … flute; see against this'
+  - where: 'note 5:0 “Nehiloth”'
+    claim: 'It has been thought possibly the name of a melody'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5155.htm'
+    quote: 'possibly designation of a melody.'
+  - where: 'note 5:0 “Nehiloth”'
+    claim: 'The Greek title has “concerning her that inherits”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/5.htm'
+    quote: 'For the end, a Psalm of David, concerning her that inherits.'
+
+  # ---------- note 5:1 ----------
+  - where: 'note 5:1 “A murmur before a cry”'
+    claim: 'The Hebrew noun behind “meditation” means murmuring, whisper, musing'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1901.htm'
+    quote: 'murmuring (Che), whisper, musing'
+  - where: 'note 5:1 “A murmur before a cry”'
+    claim: 'The line is rendered “understand my murmuring”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1901.htm'
+    quote: 'understand my murmuring (whispering, faint utterance)'
+  - where: 'note 5:1 “A murmur before a cry”'
+    claim: 'A modern translation has “attend to my sighing”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%205&version=NRSVUE'
+    quote: 'attend to my sighing.'
+
+  # ---------- note 5:3 ----------
+  - where: 'note 5:3 “A prayer set in order, and a watch kept”'
+    claim: 'The verb behind “direct” means arrange or set in order'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6186.htm'
+    quote: 'verb arrange or set in order'
+  - where: 'note 5:3 “A prayer set in order, and a watch kept”'
+    claim: 'The Hebrew of verse 3 (Hebrew 5:4) has the verb and “to thee” with no object; “my prayer” is supplied'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶֽעֱרָךְ'
+  - where: 'note 5:3 “A prayer set in order, and a watch kept”'
+    claim: 'The lexicon lists this verse with the object omitted'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6186.htm'
+    quote: 'so (object omitted) Job 33:5'
+  - where: 'note 5:3 “A prayer set in order, and a watch kept”'
+    claim: 'The verb is used of laying wood and offerings in order on an altar'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6186.htm'
+    quote: 'set or lay in order, as wood Genesis 22:9'
+  - where: 'note 5:3 “A prayer set in order, and a watch kept”'
+    claim: 'The verb is used of setting forth a legal case'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6186.htm'
+    quote: 'state in order, set forth a legal case Job 13:18; Job 23:4'
+  - where: 'note 5:3 “A prayer set in order, and a watch kept”'
+    claim: 'One older reading: the priests laid the wood for the morning offering at dawn, and the prayer is compared to that sacrifice'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/5.htm'
+    quote: 'The morning prayer is compared to this morning sacrifice.'
+  - where: 'note 5:3 “A prayer set in order, and a watch kept”'
+    claim: 'On that reading the prayer is a spiritual sacrifice and the speaker looks out for an answer'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/5.htm'
+    quote: 'so he brings his prayer before God as a spiritual sacrifice and looks out for an answer'
+  - where: 'note 5:3 “A prayer set in order, and a watch kept”'
+    claim: 'The lexicon places Psalm 5:3 (Hebrew 5:4) under “arrange words,” as probable, in preference to arranging a sacrifice'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6186.htm'
+    quote: 'Psalm 5:4 (probably; > of arranging a sacrifice)'
+  - where: 'note 5:3 “A prayer set in order, and a watch kept”'
+    claim: 'The lexicon’s heading for that sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6186.htm'
+    quote: 'f. arrange words'
+  - where: 'note 5:3 “A prayer set in order, and a watch kept”'
+    claim: 'A modern translation prints “I plead my case to you and watch”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%205&version=NRSVUE'
+    quote: 'in the morning I plead my case to you and watch.'
+  - where: 'note 5:3 “A prayer set in order, and a watch kept”'
+    claim: 'The verb behind “look up” means look out, keep watch'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6822.htm'
+    quote: 'verb look out or about, spy keep watch'
+  - where: 'note 5:3 “A prayer set in order, and a watch kept”'
+    claim: 'In this verse: “I will look out (expectantly)”; the same form in Habakkuk 2:1'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6822.htm'
+    quote: 'Psalm 5:4 I will look out (expectantly)'
+  - where: 'note 5:3 “A prayer set in order, and a watch kept”'
+    claim: 'Habakkuk 2:1 has the same verb'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6822.htm'
+    quote: 'Habakkuk 2:1 I will look forth, to see'
+
+  # ---------- note 5:4 ----------
+  - where: 'note 5:4 “Evil cannot be God’s guest”'
+    claim: 'The line is rendered “evil cannot be a guest of thine”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1481.htm'
+    quote: 'Psalm 5:5 evil cannot be a guest of thine'
+  - where: 'note 5:4 “Evil cannot be God’s guest”'
+    claim: 'The verb means sojourn, dwell for a time as a newcomer; of a lodger or guest in another’s house'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1481.htm'
+    quote: 'sojourn, dwell for a (definite or indefinite) time, dwell as a new-comer'
+  - where: 'note 5:4 “Evil cannot be God’s guest”'
+    claim: 'A modern translation keeps “sojourn”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%205&version=NRSVUE'
+    quote: 'evil will not sojourn with you.'
+  - where: 'note 5:4 “Evil cannot be God’s guest”'
+    claim: 'The verb is used in poetry of the worshipper in the Lord’s house, in Psalm 15:1'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1481.htm'
+    quote: 'so (poetry) of worshipper in'
+  - where: 'note 5:4 “Evil cannot be God’s guest”'
+    claim: 'Psalm 15:1 has this verb (“abide”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָג֣וּר'
+
+  # ---------- note 5:5 ----------
+  - where: 'note 5:5 “The boasters, and the God who hates iniquity”'
+    claim: 'One older reading: God’s hatred of evil belongs to the holiness of His love'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/5.htm'
+    quote: 'for if He did not hate evil (Psalm 11:5), His love would not be a holy love.'
+  - where: 'note 5:5 “The boasters, and the God who hates iniquity”'
+    claim: '“The foolish” are boastful ones, boasters'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1984.htm'
+    quote: 'Participle boastful ones, boasters Psalm 5:6'
+  - where: 'note 5:5 “The boasters, and the God who hates iniquity”'
+    claim: 'A modern translation has “The boastful”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%205&version=NRSVUE'
+    quote: 'The boastful will not stand before your eyes;'
+
+  # ---------- note 5:7 ----------
+  - where: 'note 5:7 “A house and a temple in David’s day”'
+    claim: 'Solomon began to build the temple in the fourth year of his reign'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/6?lang=eng'
+    quote: 'in the fourth year of Solomon’s reign over Israel, in the month Zif, which is the second month, that he began to build the house of the Lord.'
+  - where: 'note 5:7 “A house and a temple in David’s day”'
+    claim: 'The Hebrew word for “temple” here is used of the pre-Solomonic house at Shiloh in 1 Samuel 1:9 and 3:3'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1964.htm'
+    quote: 'a. of early, pre-Solomonic house at Shiloh'
+  - where: 'note 5:7 “A house and a temple in David’s day”'
+    claim: 'One older reading: the house of verse 7 is the tent David pitched on Zion for the ark'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/5.htm'
+    quote: 'It is the tabernacle on Zion in which was the ark of the covenant that is meant here.'
+  - where: 'note 5:7 “A house and a temple in David’s day”'
+    claim: 'On that reading David is in Jerusalem and about to go up to the service'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/5.htm'
+    quote: 'here he is in Jerusalem and anticipates going up to the Temple service'
+  - where: 'note 5:7 “A house and a temple in David’s day”'
+    claim: 'On that reading he enters the front court and prostrates himself toward the inner sanctuary'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/5.htm'
+    quote: 'there will he prostrate himself in worship'
+  - where: 'note 5:7 “A house and a temple in David’s day”'
+    claim: 'On that reading it is the court he enters'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/5.htm'
+    quote: 'i.e., into its front court, will David enter'
+  - where: 'note 5:7 “A house and a temple in David’s day”'
+    claim: 'A modern translation has “bow down toward”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%205&version=NRSVUE'
+    quote: 'I will bow down toward your holy temple'
+  - where: 'note 5:7 “A house and a temple in David’s day”'
+    claim: 'The word for “mercy” in verse 7 (Hebrew 5:8) is hesed'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַ֭סְדְּ/ךָ'
+  - where: 'note 5:7 “A house and a temple in David’s day”'
+    claim: 'A modern translation renders it “steadfast love”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%205&version=NRSVUE'
+    quote: 'through the abundance of your steadfast love'
+
+  # ---------- note 5:8 ----------
+  - where: 'note 5:8 “Nephi’s psalm asks for the same thing”'
+    claim: 'The psalm’s language has been set beside Nephi’s psalm for its similarity'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Note the similarity of language to the poetic expressions known as Nephi’s Psalm in 2 Nephi 4:'
+  - where: 'note 5:8 “Nephi’s psalm asks for the same thing”'
+    claim: 'Psalm 5:8 is paired there with 2 Nephi 4:29, 33'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Wilt thou make my path straight before me!” (2 Nephi 4:29, 33)'
+  - where: 'note 5:8 “Nephi’s psalm asks for the same thing”'
+    claim: 'Psalm 5:11–12 is paired there with Nephi’s request to be encircled in the robe of righteousness'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'O Lord, wilt thou encircle me around in the robe of thy righteousness!'
+  - where: 'note 5:8 “Nephi’s psalm asks for the same thing”'
+    claim: 'Psalm 5:2–3 is paired there with Nephi’s cry being heard'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Behold, he hath heard my cry by day'
+  - where: 'note 5:8 “Nephi’s psalm asks for the same thing”'
+    claim: '2 Nephi 4:33 asks that the path be made straight'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/4?lang=eng'
+    quote: 'Wilt thou make my path straight before me!'
+
+  # ---------- note 5:9 ----------
+  - where: 'note 5:9 “Paul says it of everyone”'
+    claim: 'Romans 3:13 quotes the line'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/3?lang=eng'
+    quote: 'Their throat is an open sepulchre; with their tongues they have used deceit'
+  - where: 'note 5:9 “Paul says it of everyone”'
+    claim: 'Paul’s quotation is one of a chain of partial quotations from Psalms, Proverbs and Isaiah, introduced by “as it is written”'
+    key: sc-knowhy-535
+    url: 'https://scripturecentral.org/knowhy/why-new-testament-words-and-phrases-are-in-the-book-of-mormon-part-6-why-do-similar-clusters'
+    quote: 'goes on to use a chain of partial scriptural quotations, including phrases from Psalms 5:9; 10:7; 14:1–3; 36:1; 140:3; Proverbs 1:16; and Isaiah 59:7.'
+  - where: 'note 5:9 “Paul says it of everyone”'
+    claim: 'Paul does not mark where he passes from one book to another'
+    key: sc-knowhy-535
+    url: 'https://scripturecentral.org/knowhy/why-new-testament-words-and-phrases-are-in-the-book-of-mormon-part-6-why-do-similar-clusters'
+    quote: 'Paul gives no indication of where these passages are coming from or when he is switching from one Old Testament book to another.'
+  - where: 'note 5:9 “Paul says it of everyone”'
+    claim: 'The Greek translation of Psalm 5:9 has the wording Paul uses'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/5.htm'
+    quote: 'their throat is an open sepulchre; with their tongues they have used deceit.'
+  - where: 'note 5:9 “Paul says it of everyone”'
+    claim: 'The Hebrew verb behind “flatter” is to make smooth'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2505.htm'
+    quote: 'make smooth:'
+  - where: 'note 5:9 “Paul says it of everyone”'
+    claim: 'Used figuratively of the tongue: flatter with it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2505.htm'
+    quote: 'figurative the tongue, i.e. flatter with it Psalm 5:10'
+
+  # ---------- note 5:10 ----------
+  - where: 'note 5:10 “Hold them guilty”'
+    claim: 'The Hebrew of “Destroy thou them” is “declare them guilty”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/816.htm'
+    quote: 'declare them guilty Psalm 5:11.'
+  - where: 'note 5:10 “Hold them guilty”'
+    claim: 'A modern translation: “Make them bear their guilt, O God”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%205&version=NRSVUE'
+    quote: 'Make them bear their guilt, O God;'
+  - where: 'note 5:10 “Hold them guilty”'
+    claim: 'The Greek: “Judge them, O God”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/5.htm'
+    quote: 'Judge them, O God; let them fail of their counsels'
+
+  # ---------- note 5:12 ----------
+  - where: 'note 5:12 “A shield that covers the whole body”'
+    claim: 'The shield is the large shield covering the whole body'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6793.htm'
+    quote: 'noun feminine large shield (covering whole body)'
+  - where: 'note 5:12 “A shield that covers the whole body”'
+    claim: 'It is larger than the ordinary shield; Goliath’s was carried by a bearer (1 Samuel 17:7)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6793.htm'
+    quote: 'shield, larger than'
+  - where: 'note 5:12 “A shield that covers the whole body”'
+    claim: '“Compass” is surround'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5849.htm'
+    quote: 'as with a shield, with favour will thou surround him'
+  - where: 'note 5:12 “A shield that covers the whole body”'
+    claim: 'A modern translation of verse 11: “Spread your protection over them”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%205&version=NRSVUE'
+    quote: 'Spread your protection over them,'
+
+  # ---------- christ / explore / parallels ----------
+  - where: christ
+    claim: 'The LORD of the Old Testament is Jehovah, the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: christ
+    claim: 'Usually “Lord” in the Old Testament means Jehovah'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Usually, when the word Lord appears in the Old Testament, it means “Jehovah.”'
+  - where: christ
+    claim: 'Paul uses verse 9 in Romans 3:13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/3?lang=eng'
+    quote: 'Their throat is an open sepulchre; with their tongues they have used deceit'
+  - where: explore
+    claim: 'Psalm 5:2–3, 7–8 and 11–12 are the verses set beside 2 Nephi 4'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Note the similarity of language to the poetic expressions known as Nephi’s Psalm in 2 Nephi 4:'
+  - where: parallels
+    claim: 'Habakkuk 2:1 has the verb of Psalm 5:3'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6822.htm'
+    quote: 'Habakkuk 2:1 I will look forth, to see'
+  - where: parallels
+    claim: 'Psalm 15:1 has the verb of Psalm 5:4'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָג֣וּר'
