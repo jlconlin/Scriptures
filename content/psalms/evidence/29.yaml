@@ -1,0 +1,487 @@
+chapter: 29
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David and names no occasion'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/29.htm'
+    quote: 'A Psalm of David'
+  - where: setting
+    claim: 'Psalm 29 is listed among the psalms of praise, which open with a call to praise'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'These psalms often begin with a command or call to Israel to gather as a community (most importantly, at the temple) and praise the Lord: 8, 19, 29, 33, 47'
+  - where: setting
+    claim: 'After the call, such hymns describe the Lord’s power and mercy and His reign as king'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'the hymns describe the power and the mercy of the Lord, often describing what he has done for Israel in the past and emphasizing his role as the creator and his divine reign as king of Israel'
+  - where: setting
+    claim: 'The Greek title adds an occasion'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/29.htm'
+    quote: 'A Psalm of David on the occasion of the solemn assembly of the Tabernacle.'
+  - where: setting
+    claim: 'The Greek addition seems to imply use in the time of the second temple (one older reading)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/29.htm'
+    quote: 'During the time of the second Temple, as the addition to the inscription by the lxx'
+  - where: setting
+    claim: 'It was sung on the last day of the Feast of Tabernacles, on that reading'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/29.htm'
+    quote: 'it was sung on the Shemini Azereth, the last day'
+  - where: setting
+    claim: 'The same commentary finds almost nothing else to confirm the Greek title’s occasion'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/29.htm'
+    quote: 'The only confirmation of the statement of the lxx is to be found in the Sohar'
+  - where: setting
+    claim: 'Psalm 96:7 repeats verse 1 with the kindreds of the people addressed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/96?lang=eng'
+    quote: 'Give unto the Lord, O ye kindreds of the people, give unto the Lord glory and strength.'
+  - where: setting
+    claim: 'The same lines are in the psalm David delivers in 1 Chronicles 16'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/16?lang=eng'
+    quote: 'Give unto the Lord, ye kindreds of the people, give unto the Lord glory and strength.'
+  - where: setting
+    claim: 'The chapter heading of 1 Chronicles 16 says David delivers a psalm'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/16?lang=eng'
+    quote: 'David delivers a psalm of'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The voice of the LORD is repeated seven times'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/29.htm'
+    quote: 'is repeated seven times'
+  - where: thread
+    claim: 'The word for strength in verse 1 (H5797) is the word in verse 11'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עֹ֭ז'
+  - where: thread
+    claim: 'The divine name stands in the psalm eighteen times (counted in the Hebrew text: twice in each of verses 1–5, 8, 10 and 11, once in verses 7 and 9)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְהוָ֗ה'
+  - where: thread
+    claim: 'The name occurs four times in the opening strophe and four in the closing one'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/29.htm'
+    quote: 'Between two tetrastichs, in each of which the name יהוה occurs four times'
+  - where: thread
+    claim: 'One older commentary sums up the psalm as glory in the highest and peace on earth'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/29.htm'
+    quote: 'Gloria in excelsis is its beginning, and pax in terris its conclusion.'
+  - where: thread
+    claim: 'A modern translation prints verse 11 as a wish'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=NRSVUE'
+    quote: '11 May the Lord give strength to his people!'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: 'Verse 1 addresses heavenly beings'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=NRSVUE'
+    quote: 'Ascribe to the Lord, O heavenly beings,'
+  - where: section 1 plain
+    claim: 'Verse 2: holy splendor'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=NRSVUE'
+    quote: 'worship the Lord in holy splendor.'
+  - where: section 2 plain
+    claim: 'Verse 3: over mighty waters'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=NRSVUE'
+    quote: 'the Lord, over mighty waters.'
+  - where: section 3 plain
+    claim: 'Verse 6: a young wild ox'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=NRSVUE'
+    quote: 'and Sirion like a young wild ox.'
+  - where: section 3 plain
+    claim: 'Verse 7: the verb is divide, cleave'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2672.htm'
+    quote: 'divide, cleave subject ׳יs voice Psalm 29:7'
+  - where: section 3 plain
+    claim: 'Verse 9: the deer give birth'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=ESV'
+    quote: 'the deer give birth'
+  - where: section 3 plain
+    claim: 'Verse 9: or the oaks whirl'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=NRSVUE'
+    quote: '9 The voice of the Lord causes the oaks to whirl'
+  - where: section 3 plain
+    claim: 'Verse 9: strips the forest bare'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=NRSVUE'
+    quote: 'and strips the forest bare,'
+  - where: section 4 plain
+    claim: 'Verse 10: at the Flood the LORD sat enthroned'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3999.htm'
+    quote: 'at the flood sat enthroned (so most;'
+  - where: section 4 plain
+    claim: 'Verse 10: sits enthroned as king for ever'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=NRSVUE'
+    quote: 'the Lord sits enthroned as king forever.'
+
+  # ---------- note 29:1 ----------
+  - where: 'note 29:1 “The mighty are the sons of God”'
+    claim: 'The Hebrew behind “O ye mighty” is bene elim: “sons of” (H1121, plural construct)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּנֵ֣י'
+  - where: 'note 29:1 “The mighty are the sons of God”'
+    claim: 'The second word is the plural of El (H410, noun masculine plural)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֵלִ֑ים'
+  - where: 'note 29:1 “The mighty are the sons of God”'
+    claim: 'The same word (H410), singular, is “God” in verse 3, “the God of glory”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֵֽל'
+  - where: 'note 29:1 “The mighty are the sons of God”'
+    claim: 'The Greek has “ye sons of God”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/29.htm'
+    quote: 'Bring to the Lord, ye sons of God, bring to the Lord young rams'
+  - where: 'note 29:1 “The mighty are the sons of God”'
+    claim: 'A modern translation has “O heavenly beings”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=NRSVUE'
+    quote: 'Ascribe to the Lord, O heavenly beings,'
+  - where: 'note 29:1 “The mighty are the sons of God”'
+    claim: 'The phrase is understood as angels, here and in Psalm 89:6 (Hebrew 89:7), equal to “the sons of God”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/410.htm'
+    quote: 'angels, בְּנֵי אֵלִים Psalm 29:1; Psalm 89:7 = בְּנֵי הָאֱלֹהִים.'
+  - where: 'note 29:1 “The mighty are the sons of God”'
+    claim: 'Psalm 89:6 has the phrase and sets it in heaven'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/89?lang=eng'
+    quote: 'who among the sons of the mighty can be likened unto the Lord?'
+  - where: 'note 29:1 “The mighty are the sons of God”'
+    claim: 'Psalm 96:7 addresses the call to the kindreds of the people'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/96?lang=eng'
+    quote: 'Give unto the Lord, O ye kindreds of the people, give unto the Lord glory and strength.'
+
+  # ---------- note 29:2 ----------
+  - where: 'note 29:2 “Holy adornment”'
+    claim: 'The phrase is “holy adornment,” always in connection with public worship; its four places'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1927.htm'
+    quote: 'holy adornment (ChePsalm), always in connection with public worship of ׳י 1 Chronicles 16:29; 2Chronicles 20:21; Psalm 29:2; Psalm 96:9.'
+  - where: 'note 29:2 “Holy adornment”'
+    claim: 'The Hebrew word in verse 2 (H1927), as in Psalm 96:9'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/הַדְרַת'
+  - where: 'note 29:2 “Holy adornment”'
+    claim: 'A modern translation has “holy splendor”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=NRSVUE'
+    quote: 'worship the Lord in holy splendor.'
+  - where: 'note 29:2 “Holy adornment”'
+    claim: 'The Greek has “in his holy court”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/29.htm'
+    quote: 'worship the lord in his holy court.'
+
+  # ---------- note 29:3 ----------
+  - where: 'note 29:3 “Seven thunders and the path of a storm”'
+    claim: 'The phrase “voice of the LORD” (qol with the divine name) stands in verses 3, 4 (twice), 5, 7, 8 and 9'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'ק֥וֹל'
+  - where: 'note 29:3 “Seven thunders and the path of a storm”'
+    claim: 'The psalm has been called the Psalm of the Seven Thunders'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/29.htm'
+    quote: 'The Psalm of the Seven Thunders'
+  - where: 'note 29:3 “Seven thunders and the path of a storm”'
+    claim: 'The seven repetitions represent successive peals of thunder'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/29.htm'
+    quote: 'represent the peals of thunder which follow in rapid succession as the storm increases in its fury.'
+  - where: 'note 29:3 “Seven thunders and the path of a storm”'
+    claim: 'One reading takes the waters of verse 3 as the storm-clouds, not the sea'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/29.htm'
+    quote: 'understand them to mean the mass of water gathered together in the thick, black storm-clouds'
+  - where: 'note 29:3 “Seven thunders and the path of a storm”'
+    claim: 'The storm moves from the northern mountains to the southern desert'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/29.htm'
+    quote: 'From the northern mountains the storm sweeps on towards the south of Palestine into the Arabian desert'
+  - where: 'note 29:3 “Seven thunders and the path of a storm”'
+    claim: 'The Kadesh of verse 8 is taken as Kadesh-barnea'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/29.htm'
+    quote: 'the wilderness region of Kadesh (Kadesh Barnea)'
+  - where: 'note 29:3 “Seven thunders and the path of a storm”'
+    claim: 'Kadesh-barnea was in the southwest corner of Palestine'
+    key: bd-kadesh
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/kadesh?lang=eng'
+    quote: 'a city in the southwest corner of Palestine, a well-watered and fruitful spot in the wilderness of Zin.'
+  - where: 'note 29:3 “Seven thunders and the path of a storm”'
+    claim: 'The twelve spies were sent from Kadesh'
+    key: bd-kadesh
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/kadesh?lang=eng'
+    quote: 'the 12 spies were sent to report upon the land of Canaan'
+  - where: 'note 29:3 “Seven thunders and the path of a storm”'
+    claim: 'Verse 7: the verb is divide or cleave, and the line is forked lightning'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2672.htm'
+    quote: 'divide, cleave subject ׳יs voice Psalm 29:7 object להבות אשׁ, i.e. the thunder of his voice sends forked lightnings'
+  - where: 'note 29:3 “Seven thunders and the path of a storm”'
+    claim: 'The voice is not only thunder but God’s omnipotence expressed in it'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/29.htm'
+    quote: 'denotes not merely the thunder as a phenomenon, but at the same time it denotes the omnipotence of God expressing itself therein'
+  - where: 'note 29:3 “Seven thunders and the path of a storm”'
+    claim: 'Elihu speaks of God thundering with His voice'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/37?lang=eng'
+    quote: 'God thundereth marvellously with his voice; great things doeth he, which we cannot comprehend.'
+
+  # ---------- note 29:6 ----------
+  - where: 'note 29:6 “Mountains that skip like calves”'
+    claim: 'Sirion is the Sidonian name of Hermon'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/3?lang=eng'
+    quote: '(Which Hermon the Sidonians call Sirion; and the Amorites call it Shenir;)'
+  - where: 'note 29:6 “Mountains that skip like calves”'
+    claim: 'The Hebrew word is wild ox; the Greek one-horned rendering is marked erroneous'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7214.htm'
+    quote: 'ᵐ5 (erroneous) μονοκέρως'
+  - where: 'note 29:6 “Mountains that skip like calves”'
+    claim: 'The wild ox is fierce and strong; in this verse it is used in a simile of skipping'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7214.htm'
+    quote: 'wild ox, as fierce and strong Job 39:9,10'
+  - where: 'note 29:6 “Mountains that skip like calves”'
+    claim: 'In this verse the word is used in a simile of skipping, leaping'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7214.htm'
+    quote: 'in simile of skipping, leaping, בֶּןרְֿאֵמִים Psalm 29:6'
+  - where: 'note 29:6 “Mountains that skip like calves”'
+    claim: 'The Greek translation has a young unicorn'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/29.htm'
+    quote: 'and the beloved one is as a young unicorn.'
+
+  # ---------- note 29:8 ----------
+  - where: 'note 29:8 “The voice that shakes the earth”'
+    claim: 'The presence and voice of God shake the earth in the Book of Mormon and the Old Testament'
+    key: sc-knowhy-754
+    url: 'https://scripturecentral.org/knowhy/why-did-mormon-say-that-many-prophets-prophesied-of-the-destructions-in-3-nephi'
+    quote: 'The divine presence and voice of God are described in the Book of Mormon and Old Testament as shaking the earth.'
+  - where: 'note 29:8 “The voice that shakes the earth”'
+    claim: 'The endnote to that sentence lists Psalm 29:8 with Helaman 12:9, 11'
+    key: sc-knowhy-754
+    url: 'https://scripturecentral.org/knowhy/why-did-mormon-say-that-many-prophets-prophesied-of-the-destructions-in-3-nephi'
+    quote: 'Psalms 29:8; 60:2; Job 9:6; Isaiah 2:19, 21; 13:13; Joel 3:16; Mosiah 27:11, 15, 18; Alma 36:7; Helaman 12:9, 11; Ether 4:9.'
+  - where: 'note 29:8 “The voice that shakes the earth”'
+    claim: 'Old Testament passages give God a thunderous voice and presence'
+    key: sc-knowhy-754
+    url: 'https://scripturecentral.org/knowhy/why-did-mormon-say-that-many-prophets-prophesied-of-the-destructions-in-3-nephi'
+    quote: 'Several Old Testament passages describe God sending thunder and lightning or as having a thunderous voice and presence.'
+  - where: 'note 29:8 “The voice that shakes the earth”'
+    claim: 'The endnote to that sentence lists Psalm 29:3'
+    key: sc-knowhy-754
+    url: 'https://scripturecentral.org/knowhy/why-did-mormon-say-that-many-prophets-prophesied-of-the-destructions-in-3-nephi'
+    quote: 'Psalms 29:3; 77:17; 97:4; 135:7.'
+  - where: 'note 29:8 “The voice that shakes the earth”'
+    claim: 'The passages are set beside the thunder and tempest at the Savior’s death in 3 Nephi 8'
+    key: sc-knowhy-754
+    url: 'https://scripturecentral.org/knowhy/why-did-mormon-say-that-many-prophets-prophesied-of-the-destructions-in-3-nephi'
+    quote: 'In conjunction with the great storm, Mormon reported that there had been “exceedingly sharp lightnings” and “terrible thunder” (3 Nephi 8:6–7).'
+  - where: 'note 29:8 “The voice that shakes the earth”'
+    claim: 'Helaman 12:9, 11 on the Lord’s voice'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/12?lang=eng'
+    quote: 'Yea, behold at his voice do the hills and the mountains tremble and quake.'
+  - where: 'note 29:8 “The voice that shakes the earth”'
+    claim: '3 Nephi 8:6 on the thunder at the Savior’s death'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/8?lang=eng'
+    quote: 'there was terrible thunder, insomuch that it did shake the whole earth as if it was about to divide asunder.'
+
+  # ---------- note 29:9 hinds ----------
+  - where: 'note 29:9 “Hinds calving, or oaks whirling”'
+    claim: 'The noun is hind, doe, as calving in Job 39:1 and here'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/355.htm'
+    quote: 'hind, doe, as calving Job 39:1'
+  - where: 'note 29:9 “Hinds calving, or oaks whirling”'
+    claim: 'The verb is to writhe in travail, bring forth, of hinds in Job 39:1 and (causative) here'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2342.htm'
+    quote: 'writhe in travail with, bear, bring forth (poetry), of Sarah, mother of Israel, Isaiah 51:2'
+  - where: 'note 29:9 “Hinds calving, or oaks whirling”'
+    claim: 'The lexicon lists this verse with Job 39:1 under that sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2342.htm'
+    quote: 'of hinds Job 39:1; Psalm 29:9 (causative )'
+  - where: 'note 29:9 “Hinds calving, or oaks whirling”'
+    claim: 'One modern translation: the deer give birth'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=ESV'
+    quote: 'the deer give birth'
+  - where: 'note 29:9 “Hinds calving, or oaks whirling”'
+    claim: 'Another modern translation: the oaks whirl'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=NRSVUE'
+    quote: '9 The voice of the Lord causes the oaks to whirl'
+  - where: 'note 29:9 “Hinds calving, or oaks whirling”'
+    claim: 'The verb behind “discovereth” is strip, lay bare, here of a storm stripping forests'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2834.htm'
+    quote: 'strip, lay bare, figurative of'
+  - where: 'note 29:9 “Hinds calving, or oaks whirling”'
+    claim: 'Used in this verse of the voice of the LORD, a storm, stripping forests'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2834.htm'
+    quote: '(i.e. a storm) stripping forests.'
+  - where: 'note 29:9 “Hinds calving, or oaks whirling”'
+    claim: 'Job 39:1 has the hinds calving'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/39?lang=eng'
+    quote: 'canst thou mark when the hinds do calve?'
+
+  # ---------- note 29:9 temple ----------
+  - where: 'note 29:9 “The answer to verse 1 is Glory”'
+    claim: 'A modern translation prints the line as a cry of “Glory!”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=NRSVUE'
+    quote: 'and in his temple all say, “Glory!”'
+  - where: 'note 29:9 “The answer to verse 1 is Glory”'
+    claim: 'The word glory (H3519) stands in verses 1, 2, 3 and 9'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כָּבֽוֹד'
+  - where: 'note 29:9 “The answer to verse 1 is Glory”'
+    claim: 'One reading: the temple is the heavenly palace and each being there says “Glory”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/29.htm'
+    quote: 'in His heavenly palace (Psalm 11:4; Psalm 18:7)'
+  - where: 'note 29:9 “The answer to verse 1 is Glory”'
+    claim: 'Each of the beings in it says the word'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/29.htm'
+    quote: 'i.e., each of the beings therein, says:'
+  - where: 'note 29:9 “The answer to verse 1 is Glory”'
+    claim: 'What verse 1 called for now takes place'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/29.htm'
+    quote: 'That which the poet, in Psalm 29:1, has called upon them to do, now takes place.'
+  - where: 'note 29:9 “The answer to verse 1 is Glory”'
+    claim: 'The Hebrew word for temple is used of the LORD’s abode in the heavens, as in Psalm 11:4'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1964.htm'
+    quote: 'his abode in the heavens 2 Samuel 22:7 = Psalm 18:7; Psalm 11:4'
+  - where: 'note 29:9 “The answer to verse 1 is Glory”'
+    claim: 'Psalm 11:4 sets the LORD’s temple beside His throne in heaven'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/11?lang=eng'
+    quote: 'The Lord is in his holy temple, the Lord’s throne is in heaven'
+
+  # ---------- note 29:10 ----------
+  - where: 'note 29:10 “The Flood of Noah”'
+    claim: 'The word in verse 10 is mabbul (H3999), its only occurrence in the Psalms'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לַ/מַּבּ֣וּל'
+  - where: 'note 29:10 “The Flood of Noah”'
+    claim: 'The word is the flood in the time of Noah, found only in Genesis and Psalm 29:10'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3999.htm'
+    quote: 'only Genesis and Psalm 29:10; always absolute and always with article except Genesis 9:11,15'
+  - where: 'note 29:10 “The Flood of Noah”'
+    claim: 'In the other passages it is almost the proper name of the Flood; most read “at the flood sat enthroned”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3999.htm'
+    quote: 'at the flood sat enthroned (so most;'
+  - where: 'note 29:10 “The Flood of Noah”'
+    claim: 'The word is nearly the proper name of the Flood'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3999.htm'
+    quote: 'seems in all the other passages to be almost = proper name of the flood'
+  - where: 'note 29:10 “The Flood of Noah”'
+    claim: 'The first verb of verse 10 is a perfect (morphology code Vqp3ms), a past tense'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָשָׁ֑ב'
+  - where: 'note 29:10 “The Flood of Noah”'
+    claim: 'A modern translation keeps the present tense'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=NRSVUE'
+    quote: '10 The Lord sits enthroned over the flood;'
+  - where: 'note 29:10 “The Flood of Noah”'
+    claim: 'Genesis 6:17 uses the word in the LORD’s announcement (first in the list of the word’s occurrences in Genesis)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/6?lang=eng'
+    quote: 'I, even I, do bring a flood of waters upon the earth'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
+  - where: christ
+    claim: 'The name behind “the LORD” in the King James is Jehovah'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'the name is generally denoted by Lord or God, printed in small capitals.'
+  - where: christ
+    claim: 'The refrain is qol with the divine name'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'ק֥וֹל'
+  - where: christ
+    claim: '3 Nephi 8:6: thunder that shook the whole earth at His death'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/8?lang=eng'
+    quote: 'there was terrible thunder, insomuch that it did shake the whole earth as if it was about to divide asunder.'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'Thunder at Sinai'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/19?lang=eng'
+    quote: 'there were thunders and lightnings, and a thick cloud upon the mount'
+  - where: explore
+    claim: 'D&C 43:21: the thunders shall utter their voices'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/43?lang=eng'
+    quote: 'the thunders shall utter their voices from the ends of the earth'
+  - where: explore
+    claim: 'D&C 88:90: the voice of thunderings'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'the testimony of the voice of thunderings, and the voice of lightnings'
+  - where: parallels
+    claim: 'Psalm 89:6 (Hebrew 89:7) has bene elim, the only other place in the Psalms the lexicon lists'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/410.htm'
+    quote: 'angels, בְּנֵי אֵלִים Psalm 29:1; Psalm 89:7 = בְּנֵי הָאֱלֹהִים.'
+  - where: parallels
+    claim: 'Helaman 12:11: the whole earth shaken by the power of His voice'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/12?lang=eng'
+    quote: 'Yea, by the power of his voice doth the whole earth shake;'
