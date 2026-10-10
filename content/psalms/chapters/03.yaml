@@ -4,7 +4,7 @@ tagline: A king driven from his city counts the many who have risen against him,
 when: 'By its title, David’s, when he fled from Absalom his son (2 Samuel 15–18)'
 
 setting: |
-  This is the first psalm in the book with a title: “A Psalm of David, when he fled from Absalom his son.” Many psalms have one. Titles mainly say how a psalm was to be sung; this one names an author and an occasion. In the Hebrew the title is part of the text, counted here as verse 1, so that the Hebrew verse numbers of this psalm run one ahead of the King James. How old the titles are is an open question: they may have been added after the poems were written, and some are judged inaccurate. This one may not record the psalm’s first setting, but the psalm’s language of military conflict fits the occasion it names.
+  The title sets the psalm in Absalom’s revolt against his father.
 
   The story is in 2 Samuel 15–18. Absalom “stole the hearts of the men of Israel” ([[2 Sam. 15:6]]), and David fled Jerusalem, crossing the brook Kidron and climbing the Mount of Olives in tears. Ahithophel, David’s counsellor, joined the conspiracy. David crossed the Jordan to Mahanaim; in the battle that followed Joab killed Absalom, and David wept for his son. The psalm’s leading features have been matched to that story: the mockery of a man thought to be rejected by God ([[2 Sam. 16:7–8]]), the danger by night ([[2 Sam. 17:1]]), and the multitudes with Absalom ([[2 Sam. 15:13]]; [[2 Sam. 17:11]]).
 
@@ -34,6 +34,13 @@ sections:
       Arise, LORD! Save me, my God! You have struck all my enemies on the cheek; You have broken the teeth of the wicked. Salvation is the LORD’s. Your blessing is on Your people.
 
 notes:
+  - ref: 0
+    phrase: A Psalm of David
+    kind: history
+    title: What a psalm’s title is
+    body: |
+      This is the first psalm in the book with a title, and many psalms have one. Titles mainly say how a psalm was to be sung; this one names an author and an occasion. In the Hebrew the title is part of the text, counted here as verse 1, so that the Hebrew verse numbers of this psalm run one ahead of the King James. How old the titles are is an open question: they may have been added after the poems were written, and some are judged inaccurate. This one may not record the psalm’s first setting, but the psalm’s language of military conflict fits the occasion it names.
+    sources: [oshb-wlc, bd-psalms, ot-minute-psalms-1-20]
   - ref: 1
     phrase: many are they that rise up against me
     kind: words
