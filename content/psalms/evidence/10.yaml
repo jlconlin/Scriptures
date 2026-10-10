@@ -1,0 +1,439 @@
+chapter: 10
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'Psalm 9, which Psalm 10 continues, is ascribed to David by its title'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/9?lang=eng'
+    quote: 'To the chief Musician upon Muth-labben, A Psalm of David.'
+  - where: setting
+    claim: 'The Church’s chapter heading for Psalm 10 has David as the speaker'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/10?lang=eng'
+    quote: 'David speaks of various acts of the wicked'
+  - where: setting
+    claim: 'Many ancient manuscripts, the Greek especially, count Psalms 9 and 10 as one psalm'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Many ancient (especially Greek) manuscripts understand Psalms 9 and 10 to be one psalm.'
+  - where: setting
+    claim: 'The two psalms together appear to be one acrostic, with some letters missing'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'The two psalms together appear to be one complete acrostic poem—in other words, the first letters of each line (in Hebrew) follow the Hebrew alphabet in order (although some letters are missing).'
+  - where: setting
+    claim: 'The pair is a hymn of thanksgiving followed by a lament'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalms 9–10 is a hymn of thanksgiving (Psalm 9) followed by a lament (Psalm 10).'
+  - where: setting
+    claim: 'The Greek gives Psalm 10 with Psalm 9 as one psalm'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/10.htm'
+    quote: 'The lxx gives it with Psalm 9 as one Psalm, and not without a certain amount of warrant for so doing.'
+  - where: setting
+    claim: 'A modern translation notes that the two formed an acrostic and are one psalm in the Greek and Latin traditions'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2010&version=NRSVUE'
+    quote: 'In Hebrew, Psalms 9–10 formed an acrostic.'
+  - where: setting
+    claim: 'Psalm 10 takes up the order of the letters at lamed'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/10.htm'
+    quote: 'Psalm 10, beginning with ל, continues the order of the letters.'
+  - where: setting
+    claim: 'Six letters are passed over in the middle of the psalm, and the last four letters head its last four stanzas'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/10.htm'
+    quote: 'with which the last four strophes of the Psalm begin, viz., six'
+  - where: setting
+    claim: 'The acrostic resumes at verse 12 (“Arise”) with the letter qoph'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/10.htm'
+    quote: 'are completed, and now the acrostic strophes begin again with ק.'
+  - where: setting
+    claim: 'Verse 12 begins with the word “Arise,” whose first letter is qoph'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קוּמָ֤/ה'
+  - where: setting
+    claim: 'Paul quotes verse 7 in Romans 3:14'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/3?lang=eng'
+    quote: 'Whose mouth is full of cursing and bitterness:'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'Psalm 10 acknowledges that the day Psalm 9 looks forward to has not yet come'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalm 10 is the painful acknowledgment that that great day has not yet arrived and that wickedness is still found abundantly in this world.'
+  - where: thread
+    claim: 'Verses 17–18 return to the hopeful themes of Psalm 9'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Verses 17–18 return to the more hopeful themes of Psalm 9 and the deliverance that the Righteous King will bring to the poor and oppressed'
+
+  # ---------- sections ----------
+  - where: section 2 plain
+    claim: 'Verse 5: a modern translation has the wicked man’s ways prosper where the King James has “grievous”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2010&version=NRSVUE'
+    quote: 'Their ways prosper at all times;'
+  - where: section 2 plain
+    claim: 'Verse 5: “puffeth at them” is scoffing'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2010&version=NRSVUE'
+    quote: 'as for their foes, they scoff at them.'
+  - where: section 2 plain
+    claim: 'Verse 5: to puff at enemies is to blow on them in disdain'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/10.htm'
+    quote: 'to blow upon them disdainfully, to puff at them'
+  - where: section 2 plain
+    claim: 'Verse 10: the wicked man stoops and crouches, and the helpless fall by his might'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2010&version=NRSVUE'
+    quote: 'and the helpless fall by their might.'
+  - where: section 4 plain
+    claim: 'Verse 18: “oppress” rendered as striking terror, and “the man of the earth” as those from earth'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2010&version=NRSVUE'
+    quote: 'so that those from earth may strike terror no more.'
+
+  # ---------- note 10:1 ----------
+  - where: 'note 10:1 “The refuge of Psalm 9, now far off”'
+    claim: 'Psalm 9:9 promises a refuge “in times of trouble”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/9?lang=eng'
+    quote: 'will be a refuge for the oppressed, a refuge in times of trouble.'
+  - where: 'note 10:1 “The refuge of Psalm 9, now far off”'
+    claim: 'The first Hebrew word of “in times of trouble,” in the same form in Psalm 9:9 and Psalm 10:1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ/עִתּ֥וֹת'
+  - where: 'note 10:1 “The refuge of Psalm 9, now far off”'
+    claim: 'The second Hebrew word of “in times of trouble,” in the same form in Psalm 9:9 and Psalm 10:1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּצָּרָֽה'
+  - where: 'note 10:1 “The refuge of Psalm 9, now far off”'
+    claim: 'Psalm 9 looks forward to the Lord’s reign; Psalm 10 acknowledges that the day has not arrived'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'If Psalm 9 is a song of praise and thanks looking forward to the day when the Lord will reign over the earth in righteousness from Zion, Psalm 10 is the painful acknowledgment that that great day has not yet arrived'
+
+  # ---------- note 10:4 ----------
+  - where: 'note 10:4 “No God, or a God who does nothing”'
+    claim: 'The Hebrew of the second half of verse 4 has the words “there is no” God'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֵ֥ין'
+  - where: 'note 10:4 “No God, or a God who does nothing”'
+    claim: 'The Hebrew of the first half has only “will not seek,” with no object'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִדְרֹ֑שׁ'
+  - where: 'note 10:4 “No God, or a God who does nothing”'
+    claim: 'A modern translation prints the second half as the wicked man’s thought'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2010&version=NRSVUE'
+    quote: 'all their thoughts are, “There is no God.”'
+  - where: 'note 10:4 “No God, or a God who does nothing”'
+    claim: 'The same translation prints the first half as his thought too: God will not seek it out'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2010&version=NRSVUE'
+    quote: 'the wicked say, “God will not seek it out”;'
+  - where: 'note 10:4 “No God, or a God who does nothing”'
+    claim: 'The lexicon lists the verb in verse 4 with verse 13, under the sense require or exact'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1875.htm'
+    quote: 'absolute Psalm 10:4; Psalm 10:13'
+  - where: 'note 10:4 “No God, or a God who does nothing”'
+    claim: 'The wicked are unconcerned about God’s future judgments'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'the wicked do not appear to be particularly concerned about His future judgments'
+
+  # ---------- note 10:6 ----------
+  - where: 'note 10:6 “Three things said in the heart”'
+    claim: 'The Hebrew for “in his heart” in verse 6 (the same phrase stands in verses 11 and 13)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ֭/לִבּ/וֹ'
+  - where: 'note 10:6 “Three things said in the heart”'
+    claim: 'One reading: “I shall not be moved” is the believer’s saying (Psalms 16:8; 30:6) in a godless mouth'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/10.htm'
+    quote: 'is said by him in godless self-confidence.'
+  - where: 'note 10:6 “Three things said in the heart”'
+    claim: 'The same reading names the believer’s fellowship with God as the ground of the saying'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/10.htm'
+    quote: 'That which the believer can say by reason of his fellowship with God'
+  - where: 'note 10:6 “Three things said in the heart”'
+    claim: 'Psalm 16:8 has “I shall not be moved” on the ground that the Lord is at the speaker’s right hand'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/16?lang=eng'
+    quote: 'because he is at my right hand, I shall not be moved.'
+
+  # ---------- note 10:7 ----------
+  - where: 'note 10:7 “Paul’s use of the line in Romans”'
+    claim: 'The Greek psalm has “bitterness” where the Hebrew has “deceit”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/10.htm'
+    quote: 'Whose mouth is full of cursing, and bitterness, and fraud: under his tongue are trouble and pain.'
+  - where: 'note 10:7 “Paul’s use of the line in Romans”'
+    claim: 'Romans 3:14 has the line with “bitterness”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/3?lang=eng'
+    quote: 'Whose mouth is full of cursing and bitterness:'
+  - where: 'note 10:7 “Paul’s use of the line in Romans”'
+    claim: 'Paul’s charge, which the chain of quotations supports, is that Jews and Gentiles are all under sin'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/3?lang=eng'
+    quote: 'for we have before proved both Jews and Gentiles, that they are all under sin;'
+
+  # ---------- note 10:10 ----------
+  - where: 'note 10:10 “Crouching, or bowed down”'
+    claim: 'A modern translation has the wicked stoop and crouch'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2010&version=NRSVUE'
+    quote: 'They stoop, they crouch,'
+  - where: 'note 10:10 “Crouching, or bowed down”'
+    claim: 'The same translation has the helpless fall “by their might” where the King James has “by his strong ones”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2010&version=NRSVUE'
+    quote: 'and the helpless fall by their might.'
+  - where: 'note 10:10 “Crouching, or bowed down”'
+    claim: 'The lexicon lists the verb of this verse with the verb of Job 38:40, where lions crouch in their dens'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7817.htm'
+    quote: 'Imperfect3masculine singular יָשֹׁחַ Psalm 10:10, 3masculine plural יָשֹׁ֫חוּ Job 38:40'
+  - where: 'note 10:10 “Crouching, or bowed down”'
+    claim: 'The lexicon’s sense for the verb, which it applies in this verse to one bowed down by man'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7817.htm'
+    quote: 'be bowed down, prostrated, humbled'
+  - where: 'note 10:10 “Crouching, or bowed down”'
+    claim: 'The lexicon places Psalm 10:10 under being bowed down “by man”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7817.htm'
+    quote: 'by man Psalm 10:10.'
+  - where: 'note 10:10 “Crouching, or bowed down”'
+    claim: 'The Greek has the oppressor bow down and fall'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/10.htm'
+    quote: 'He will bow down and fall when he has mastered the poor.'
+  - where: 'note 10:10 “Crouching, or bowed down”'
+    claim: 'The word for the victims means the helpless or hapless'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2489.htm'
+    quote: 'adjective helpless, unfortunate, only as substantive hapless, luckless one(s)'
+  - where: 'note 10:10 “Crouching, or bowed down”'
+    claim: 'The lexicon calls the text and meaning of the word doubtful in all three places'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2489.htm'
+    quote: 'In all text and meaning dubious'
+  - where: 'note 10:10 “Crouching, or bowed down”'
+    claim: 'The word stands in verses 8, 10 and 14 and nowhere else in the Psalms (hebrew.mjs psalms --word 2489: 3 occurrences)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְֽ/חֵלְכָ֥ה'
+
+  # ---------- note 10:12 ----------
+  - where: 'note 10:12 “Arise, and forget not”'
+    claim: '“Arise” in verse 12'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קוּמָ֤/ה'
+  - where: 'note 10:12 “Arise, and forget not”'
+    claim: '“Arise” in Psalm 9:19 is the same Hebrew word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קוּמָ֣/ה'
+  - where: 'note 10:12 “Arise, and forget not”'
+    claim: 'The verb “forgotten” in the wicked man’s saying of verse 11'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁ֣כַֽח'
+  - where: 'note 10:12 “Arise, and forget not”'
+    claim: 'The same verb in the plea “forget not” of verse 12'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּשְׁכַּ֥ח'
+  - where: 'note 10:12 “Arise, and forget not”'
+    claim: 'The same verb in Psalm 9:12, “he forgetteth not”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁ֝כַ֗ח'
+  - where: 'note 10:12 “Arise, and forget not”'
+    claim: 'The verb “see” in the wicked man’s “he will never see it” (verse 11)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רָאָ֥ה'
+  - where: 'note 10:12 “Arise, and forget not”'
+    claim: 'The same verb in “Thou hast seen it” (verse 14)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רָאִ֡תָה'
+  - where: 'note 10:12 “Arise, and forget not”'
+    claim: 'Psalm 3:7 opens with the same call'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/3?lang=eng'
+    quote: 'save me, O my God: for thou hast smitten all mine enemies upon the cheek bone'
+
+  # ---------- note 10:15 ----------
+  - where: 'note 10:15 “One verb behind seek and require”'
+    claim: 'The verb in verse 4, “will not seek”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִדְרֹ֑שׁ'
+  - where: 'note 10:15 “One verb behind seek and require”'
+    claim: 'The same verb in verse 13, “Thou wilt not require it”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּדְרֹֽשׁ'
+  - where: 'note 10:15 “One verb behind seek and require”'
+    claim: 'The same verb in verse 15, “seek out”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּֽדְרוֹשׁ'
+  - where: 'note 10:15 “One verb behind seek and require”'
+    claim: 'The same verb in Psalm 9:12, “maketh inquisition”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'דֹרֵ֣שׁ'
+  - where: 'note 10:15 “One verb behind seek and require”'
+    claim: 'The verb’s sense here: to require or exact, often with the idea of avenging'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1875.htm'
+    quote: 'exact, often with collateral idea of avenging'
+  - where: 'note 10:15 “One verb behind seek and require”'
+    claim: 'The lexicon puts Psalm 9:12 (Hebrew 9:13) and Psalm 10:4, 13 and 15 together under that sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1875.htm'
+    quote: 'absolute Psalm 10:4; Psalm 10:13'
+  - where: 'note 10:15 “One verb behind seek and require”'
+    claim: 'A modern translation of verse 13: you will not call us to account'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2010&version=NRSVUE'
+    quote: '“You will not call us to account”'
+
+  # ---------- note 10:16 ----------
+  - where: 'note 10:16 “The heathen in a psalm about the villages”'
+    claim: 'The Hebrew word for “heathen” in verse 16; it is the word for the nations in Psalm 9:5, 15, 17, 19 and 20 (hebrew.mjs psalms --word 1471)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'ג֝וֹיִ֗ם'
+  - where: 'note 10:16 “The heathen in a psalm about the villages”'
+    claim: 'The Hebrew verb “are perished” is a perfect, a completed-action form (morphology HVqp3cp)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אָבְד֥וּ'
+  - where: 'note 10:16 “The heathen in a psalm about the villages”'
+    claim: 'A modern translation puts the line in the future'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2010&version=NRSVUE'
+    quote: 'the nations shall perish from his land.'
+  - where: 'note 10:16 “The heathen in a psalm about the villages”'
+    claim: 'The Greek puts the line in the future'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/10.htm'
+    quote: 'ye Gentiles shall perish out his land.'
+  - where: 'note 10:16 “The heathen in a psalm about the villages”'
+    claim: 'One reading: the oppressors in Israel and the nations outside are one in the psalmist’s mind'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/10.htm'
+    quote: 'the heathen in Israel and the heathen world outside of Israel are blended together into one to his mind'
+  - where: 'note 10:16 “The heathen in a psalm about the villages”'
+    claim: 'The same reading: the judgment stands before the psalmist as accomplished, by the anticipation of faith'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/10.htm'
+    quote: 'by the anticipation of faith, here stands before the mind of the suppliant as an accomplished fact'
+  - where: 'note 10:16 “The heathen in a psalm about the villages”'
+    claim: 'The same reading takes “his land” as the land of the LORD, citing Leviticus 25:23'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/10.htm'
+    quote: 'sees the land of Jahve (Leviticus 25:23), the holy land, purified of all oppressors'
+  - where: 'note 10:16 “The heathen in a psalm about the villages”'
+    claim: 'Leviticus 25:23: the land is the LORD’s'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/25?lang=eng'
+    quote: 'for the land is mine; for ye are strangers and sojourners with me.'
+  - where: 'note 10:16 “The heathen in a psalm about the villages”'
+    claim: 'Verse 16 recalls that the day of justice will come'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'However, as the psalmist recalls in verse 16, that day of justice will come'
+
+  # ---------- note 10:18 ----------
+  - where: 'note 10:18 “Man, from the earth”'
+    claim: 'The Hebrew word for “man” in verse 18 is enosh'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֱ֝נ֗וֹשׁ'
+  - where: 'note 10:18 “Man, from the earth”'
+    claim: 'The same word closes Psalm 9 (9:20, “but men”; also 9:19)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֱנ֖וֹשׁ'
+  - where: 'note 10:18 “Man, from the earth”'
+    claim: 'Enosh is a poetic word for man or mankind'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/582.htm'
+    quote: 'man, mankind, mostly in poetry'
+  - where: 'note 10:18 “Man, from the earth”'
+    claim: 'The lexicon lists this verse, with Psalm 8:4 and 9:19–20, among the places where the word is man as opposed to God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/582.htm'
+    quote: 'especially opposed to God'
+  - where: 'note 10:18 “Man, from the earth”'
+    claim: 'The verb translated “oppress” means to cause trembling'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6206.htm'
+    quote: 'absolute cause trembling = inspire awe Isaiah 47:12 (of Babylonian ), Psalm 10:18.'
+  - where: 'note 10:18 “Man, from the earth”'
+    claim: 'A modern translation: those from earth may strike terror no more'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2010&version=NRSVUE'
+    quote: 'so that those from earth may strike terror no more.'
+  - where: 'note 10:18 “Man, from the earth”'
+    claim: 'The translation marks the Hebrew of verse 18 as uncertain'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2010&version=NRSVUE'
+    quote: '10.18 Meaning of Heb uncertain'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'Jehovah, the LORD of the Old Testament, is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: christ
+    claim: 'The deliverance of verses 17–18 is what the Righteous King will bring to the poor and oppressed'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'the deliverance that the Righteous King will bring to the poor and oppressed'
+  - where: christ
+    claim: 'One reading: the kingship of verse 16 must be realised in the universality foretold in Revelation 11:15'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/10.htm'
+    quote: 'His absolute and eternal kingship must at length be realised, even in all the universality and endless duration foretold in Zechariah 14:9; Daniel 7:14, Revelation 11:15.'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'Psalm 13’s opening has affinities with Joseph Smith’s prayer in Liberty Jail (D&C 121)'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'its affinities with Joseph Smith’s prayerful lament in Liberty Jail recorded in Doctrine and Covenants 121'
+  - where: explore
+    claim: 'Psalm 10:1 is listed with D&C 121 among the verses related to Psalm 13:1–2'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Deuteronomy 31:17; Psalms 10:1; 35:17; 88:14; 89:46; Lamentations 5:20; Doctrine and Covenants 121'
+  - where: parallels
+    claim: 'Romans 3:14 has verse 7'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/3?lang=eng'
+    quote: 'Whose mouth is full of cursing and bitterness:'
