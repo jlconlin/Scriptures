@@ -1,0 +1,247 @@
+page: two-gatherings
+claims:
+  - where: 'opening'
+    claim: '“Sanctify” at 1:14 is qadash (H6942), Piel imperative plural'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Joel.xml'
+    quote: 'קַדְּשׁוּ'
+  - where: 'opening'
+    claim: 'qadash at 2:15 (same form)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Joel.xml'
+    quote: 'קַדְּשׁוּ'
+  - where: 'opening'
+    claim: 'qadash at 2:16 (same form)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Joel.xml'
+    quote: 'קַדְּשׁ֤וּ'
+  - where: 'opening'
+    claim: 'qadash at 3:9 (same form); the four verses 1:14, 2:15, 2:16, 3:9 are its only uses in Joel (occurrences.mjs joel --hebrew H6942: 4 occurrences in 4 verses)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Joel.xml'
+    quote: 'קַדְּשׁ֖וּ'
+  - where: 'opening'
+    claim: '“call” (qara, H7121) at 1:14, imperative plural, beside qadash'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Joel.xml'
+    quote: 'קִרְא֣וּ'
+  - where: 'opening'
+    claim: '“call” (H7121) at 2:15, beside qadash'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Joel.xml'
+    quote: 'קִרְא֥וּ'
+  - where: 'opening'
+    claim: '“Proclaim” (H7121) at 3:9, beside qadash'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Joel.xml'
+    quote: 'קִרְאוּ'
+  - where: 'opening'
+    claim: 'The lexicon lists the fast under observing as holy, keeping sacred (Joel 1:14; 2:15)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6942.htm'
+    quote: 'fast Joel 1:14; Joel 2:15'
+  - where: 'opening'
+    claim: 'The lexicon lists the congregation (Joel 2:16) under consecrating, of people, beside the war sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6942.htm'
+    quote: 'קהל for fast Joel 2:16'
+  - where: 'opening'
+    claim: 'The lexicon lists war under consecrating, “from custom of opening campaign by sacrifice” (Joel 4:9 is KJV 3:9)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6942.htm'
+    quote: 'from custom of opening campaign by sacrifice'
+  - where: 'opening'
+    claim: 'A modern translation of 2:15: “consecrate a fast”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Joel%202&version=NRSVUE'
+    quote: 'consecrate a fast;'
+  - where: 'opening'
+    claim: 'A modern translation of 3:9: “Consecrate yourselves for war”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Joel%203&version=NRSVUE'
+    quote: 'Consecrate yourselves for war'
+  - where: 'section “The summons to Judah”'
+    claim: 'Joel 1:14 text: sanctify a fast … into the house of the LORD your God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/1?lang=eng'
+    quote: 'gather the elders and all the inhabitants of the land into the house of the Lord your God'
+  - where: 'section “The summons to Judah”'
+    claim: 'Joel 2:15–16 text: the gathering of the people, elders, children, bridegroom'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/2?lang=eng'
+    quote: 'Gather the people, sanctify the congregation, assemble the elders'
+  - where: 'section “What that gathering does”'
+    claim: 'The priests’ prayer (2:17): Spare thy people, O LORD'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/2?lang=eng'
+    quote: 'Spare thy people, O Lord'
+  - where: 'section “What that gathering does”'
+    claim: '“heathen” at 2:17 is goyim (H1471), the word of “Gentiles” in 3:9 and “heathen” in 3:12'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Joel.xml'
+    quote: 'גּוֹיִ֔ם'
+  - where: 'section “What that gathering does”'
+    claim: '“Gentiles” at 3:9 is goyim (H1471)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Joel.xml'
+    quote: 'בַּ/גּוֹיִ֔ם'
+  - where: 'section “The Lord answers”'
+    claim: '2:18–19: the Lord pities His people and answers'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/2?lang=eng'
+    quote: 'the Lord will answer and say unto his people'
+  - where: 'section “The summons to the nations”'
+    claim: '3:2: the Lord gathers all nations into the valley of Jehoshaphat'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/3?lang=eng'
+    quote: 'I will also gather all nations, and will bring them down into the valley of Jehoshaphat'
+  - where: 'section “The summons to the nations”'
+    claim: '3:9 text'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/3?lang=eng'
+    quote: 'Prepare war, wake up the mighty men, let all the men of war draw near; let them come up'
+  - where: 'section “The summons to the nations”'
+    claim: 'Connection made by this page: the summons to the nations (call, sanctify, war) is set beside the summons to Judah (call, sanctify, fast); the shared verbs are sourced, the pairing is the page’s'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/3?lang=eng'
+    quote: 'Proclaim ye this among the Gentiles; Prepare war'
+  - where: 'section “The summons to the nations”'
+    claim: 'Connection made by this page (Judah’s side of the pairing): call a solemn assembly, sanctify a fast'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/1?lang=eng'
+    quote: 'Sanctify ye a fast, call a solemn assembly'
+  - where: 'section “Judgment and refuge”'
+    claim: '3:12: there will I sit to judge all the heathen round about'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/3?lang=eng'
+    quote: 'for there will I sit to judge all the heathen round about'
+  - where: 'section “Judgment and refuge”'
+    claim: 'Connection made by this page: set side by side, the two summonses are followed by different things: after Judah’s the Lord answers His people (2:18–19); after the nations’ He sits to judge them (3:12)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/2?lang=eng'
+    quote: 'the Lord will answer and say unto his people'
+  - where: 'section “Judgment and refuge”'
+    claim: 'Connection made by this page (3:16 side): the roar and the hope of his people in one verse'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/3?lang=eng'
+    quote: 'but the Lord will be the hope of his people'
+  - where: 'section “Judgment and refuge”'
+    claim: '3:16 text'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/3?lang=eng'
+    quote: 'The Lord also shall roar out of Zion, and utter his voice from Jerusalem'
+  - where: 'section “Judgment and refuge”'
+    claim: '“Hope” is machseh (H4268): refuge, shelter'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4268.htm'
+    quote: 'refuge, shelter'
+  - where: 'section “Through Jesus Christ”'
+    claim: 'Footnote on “judge” (3:12) is cross-referenced to Jesus Christ, Judge'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/3?lang=eng'
+    quote: 'TG Jesus Christ, Judge'
+  - where: 'section “Through Jesus Christ”'
+    claim: 'Footnote on “the LORD” (3:16) is cross-referenced to Jesus Christ, Second Coming'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/3?lang=eng'
+    quote: 'TG Jesus Christ, Second Coming'
+  - where: 'section “Through Jesus Christ”'
+    claim: 'John 5:22: the Father has committed all judgment unto the Son'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/5?lang=eng'
+    quote: 'hath committed all judgment unto the Son'
+  - where: 'section “In latter-day revelation”'
+    claim: 'The Topical Guide “Solemn Assembly” lists Joel 1:14 with 2:15; D&C 88:70; 95:7; 109:6; 133:6'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/tg/solemn-assembly?lang=eng'
+    quote: 'Sanctify ye a fast, call a solemn assembly, Joel 1:14 (2:15; D&C 88:70; 95:7; 109:6; 133:6)'
+  - where: 'section “In latter-day revelation”'
+    claim: 'D&C 133:6: Call your solemn assemblies'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/133?lang=eng'
+    quote: 'Call your solemn assemblies, and speak often one to another.'
+  - where: 'section “In latter-day revelation”'
+    claim: 'D&C 133:4: prepare ye, sanctify yourselves; gather ye together'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/133?lang=eng'
+    quote: 'prepare ye, prepare ye, O my people; sanctify yourselves; gather ye together'
+  - where: 'section “In latter-day revelation”'
+    claim: 'D&C 133:21: the Lord shall utter his voice out of Zion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/133?lang=eng'
+    quote: 'And he shall utter his voice out of Zion, and he shall speak from Jerusalem'
+  - where: 'section “In latter-day revelation”'
+    claim: 'The footnote on “utter” in Joel 3:16 points to D&C 133:21'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/3?lang=eng'
+    quote: 'D&C 133:21'
+  - where: 'section “In latter-day revelation”'
+    claim: 'D&C 133:18: the Lamb shall stand upon Mount Zion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/133?lang=eng'
+    quote: 'When the Lamb shall stand upon Mount Zion'
+  - where: 'section “In latter-day revelation”'
+    claim: 'Connection made by this page: the one revelation (D&C 133) has both the call to the Lord’s people to sanctify themselves, gather and call solemn assemblies (133:4, 6) and the voice out of Zion (133:21)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/133?lang=eng'
+    quote: 'sanctify yourselves; gather ye together'
+  - where: 'section “The summons to Judah”'
+    claim: 'One reading of Joel 1:14: the temple is the only place of refuge in the day of the Lord'
+    key: vandyke-ogden-twelve
+    url: 'https://rsc.byu.edu/vol-4-no-3-2003/amos-through-malachi-major-teachings-twelve-prophets'
+    quote: 'According to Joel, the temple is the only place of refuge from destruction in the day of the Lord.'
+  - where: 'section “What that gathering does”'
+    claim: '2:17 the prayer names thine heritage'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/2?lang=eng'
+    quote: 'give not thine heritage to reproach, that the heathen should rule over them'
+  - where: 'section “The summons to the nations”'
+    claim: '“heritage” at 2:17 is nachalah (Strong’s 5159)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Joel.xml'
+    quote: 'נַחֲלָתְ/ךָ֤'
+  - where: 'section “The summons to the nations”'
+    claim: '“heritage” at 3:2 is nachalah (Strong’s 5159); the word is in Joel only at 2:17 and 3:2 (occurrences --hebrew 5159: 2 occurrences in 2 verses)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Joel.xml'
+    quote: 'וְ/נַחֲלָתִ֤/י'
+  - where: 'section “The summons to the nations”'
+    claim: 'Connection made by this page: the Lord’s words in 3:2 (my people, my heritage) set beside the priests’ prayer in 2:17 (thy people, thine heritage)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/3?lang=eng'
+    quote: 'will plead with them there for my people and for my heritage Israel'
+  - where: 'section “The summons to the nations”'
+    claim: 'Connection made by this page (2:17 side): Spare thy people, and give not thine heritage to reproach'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/2?lang=eng'
+    quote: 'Spare thy people, O LORD, and give not thine heritage to reproach'
+  - where: 'section “The Lord answers”'
+    claim: 'The note on 2:18 exists: the verse may be read as past or future (pointer)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/2?lang=eng'
+    quote: 'Then will the LORD be jealous for his land, and pity his people.'
+  - where: 'section “In latter-day revelation”'
+    claim: 'The one who utters his voice in D&C 133:21 is the Lamb of 133:18'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/133?lang=eng'
+    quote: 'And he shall utter his voice out of Zion, and he shall speak from Jerusalem'
+  - where: 'section “Through Jesus Christ”'
+    claim: 'D&C 133:25: the Lord, even the Savior'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/133?lang=eng'
+    quote: 'And the Lord, even the Savior, shall stand in the midst of his people'
+  - where: 'section “Through Jesus Christ”'
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ'
+  - where: 'section “Through Jesus Christ”'
+    claim: 'The name Jehovah is printed in the King James text as LORD in small capitals'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'the name is generally denoted by Lord or God, printed in small capitals'
+  - where: 'section “Through Jesus Christ”'
+    claim: '3:12 and 3:16: the same LORD sits to judge and is the hope of his people'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/3?lang=eng'
+    quote: 'but the LORD will be the hope of his people'
