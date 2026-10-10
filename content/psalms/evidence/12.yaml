@@ -17,20 +17,10 @@ claims:
     url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
     quote: 'Psalm 12 is a lament, a cry for help from the righteous against the (verbal) attacks of the wicked.'
   - where: setting
-    claim: 'Isaiah 33:10 has the LORD say “Now will I rise, saith the LORD”'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/33?lang=eng'
-    quote: 'Now will I rise, saith the Lord; now will I be exalted; now will I lift up myself.'
-  - where: setting
     claim: 'Joseph Smith’s work on the Psalms is dated to about January and February 1833'
     key: lefevre-jst-psalms
     url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
     quote: 'an approximate date for the translation of Psalms of January and February 1833'
-  - where: setting
-    claim: 'The revision moves psalms toward the last days'
-    key: lefevre-jst-psalms
-    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
-    quote: 'bringing their message forward to the last days and the Lord’s Coming'
 
   # ---------- thread ----------
   - where: thread
@@ -105,11 +95,6 @@ claims:
     key: lxx-rahlfs
     url: 'https://biblehub.com/sep/psalms/12.htm'
     quote: 'the tongue that speaks great words'
-  - where: section 3 plain
-    claim: 'The alternative rendering of the last clause of verse 5: to pant for it'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/6315.htm'
-    quote: 'puff, = pant for it (so most'
   - where: section 3 plain
     claim: '“Tried” is smelted, refined'
     key: bdb
@@ -205,11 +190,6 @@ claims:
     url: 'https://biblehub.com/hebrew/1584.htm'
     quote: '1 come to an end, be no more Psalm 7:10; Psalm 12:2'
   - where: 'note 12:1 “The godly are no more”'
-    claim: '“Fail” is rendered “the faithful have vanished from among men”'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/6461.htm'
-    quote: 'Psalm 12:2 the faithful have vanished (Che Dr) from (among) . . . men'
-  - where: 'note 12:1 “The godly are no more”'
     claim: 'Verse 1 in a modern translation'
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2012&version=NRSVUE'
@@ -300,11 +280,6 @@ claims:
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2012&version=NRSVUE'
     quote: 'who is our master?'
-  - where: 'note 12:4 “The boast of having no master”'
-    claim: '“Are our own” is the preposition “with” (H854, as in “with his neighbour,” verse 2) and the suffix “us” (hebrew.mjs: HR/Sp1cp)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'אִתָּ֑/נוּ'
   - where: 'note 12:4 “The boast of having no master”'
     claim: 'Two renderings of the first clause'
     key: bdb
@@ -541,11 +516,6 @@ claims:
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2012&version=NRSVUE'
     quote: 'as vileness is exalted among humankind.'
   - where: 'note 12:8 “The psalm ends where it began”'
-    claim: 'The psalm’s middle (the LORD’s words and the psalmist’s Amen) is a six-line strophe surrounded by four-line strophes'
-    key: delitzsch-psalms
-    url: 'https://biblehub.com/commentaries/kad/psalms/12.htm'
-    quote: 'form the middle portion of this Psalm-a six line strophe, which is surrounded by four line strophes.'
-  - where: 'note 12:8 “The psalm ends where it began”'
     claim: 'At the end the gloomy view of the present prevails'
     key: delitzsch-psalms
     url: 'https://biblehub.com/commentaries/kad/psalms/12.htm'
@@ -557,11 +527,6 @@ claims:
     quote: 'The Psalm is a ring and this central oracle is its jewel.'
 
   # ---------- christ ----------
-  - where: christ
-    claim: 'Isaiah 33:10 has the LORD say the same words'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/33?lang=eng'
-    quote: 'Now will I rise, saith the Lord; now will I be exalted; now will I lift up myself.'
   - where: christ
     claim: 'JST Psalm 12:1 begins “In that day”'
     key: lefevre-jst-psalms
