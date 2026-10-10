@@ -1,0 +1,583 @@
+chapter: 14
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David and addresses it to the chief Musician; it names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/14?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David.'
+  - where: setting
+    claim: 'The title ascribes the psalm to David and addresses it to the chief Musician'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/14?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David.'
+  - where: setting
+    claim: 'Psalm 53 is another version of the same psalm'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalm 53, which is another version of the same psalm within the book of Psalms'
+  - where: setting
+    claim: 'Psalm 53 says “God” where Psalm 14 says “the LORD” (53:2 beside 14:2), and has “God” in every place (seven times)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/53?lang=eng'
+    quote: 'God looked down from heaven upon the children of men, to see if there were any that did understand, that did seek God.'
+  - where: setting
+    claim: 'The Hebrew of Psalm 14 has the divine name (four times: verses 2, 4, 6, 7) beside Elohim (three times: verses 1, 2, 5)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְֽהוָ֗ה'
+  - where: setting
+    claim: 'Paul quotes the psalm to show that Jews and Gentiles are all under sin'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/3?lang=eng'
+    quote: 'for we have before proved both Jews and Gentiles, that they are all under sin'
+  - where: setting
+    claim: 'Joseph Smith used Psalm 14:1 and 14:3 in his 1832 history of the First Vision'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'During the account of the vision itself, he quoted Psalm 14:3 as part of what the Lord said to him'
+  - where: setting
+    claim: 'The translation of Psalm 14 was most probably finished in January or February 1833'
+    key: wright-bradley-none-good
+    url: 'https://byustudies.byu.edu/article/none-that-doeth-good'
+    quote: 'The most probable dates of completion for the translation of Psalm 14 (January or February 1833) and the writing of the 1832 account (July–September 1832)'
+  - where: setting
+    claim: 'The Joseph Smith Translation reworks verses 1–7 and is printed in the appendix with a heading on the loss of truth in the last days and the establishment of Zion'
+    key: jst-ps-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/14?lang=eng'
+    quote: 'The Psalmist sees the loss of truth in the last days and looks forward to the establishment of Zion.'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The Hebrew particle ein (“there is not”) stands in “There is no God” and again in “there is none that doeth good” in verse 1, and twice in verse 3'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֵ֣ין'
+  - where: thread
+    claim: 'The second ein of verse 3 (“no, not one”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֵ֝֗ין'
+  - where: thread
+    claim: 'The word for God in the fool’s saying is Elohim'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֱלֹהִ֑ים'
+  - where: thread
+    claim: 'Those called “my people” in verse 4 are the “generation of the righteous” of verse 5, set against corrupt humanity'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/14.htm'
+    quote: 'the generation of the righteous, in opposition to the corrupted humanity of the time'
+
+  # ---------- sections ----------
+  - where: section 3 plain
+    claim: 'Verse 6 can be rendered as an attempt against the plans of the poor'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2014&version=NRSVUE'
+    quote: 'You would confound the plans of the poor'
+  - where: section 3 plain
+    claim: 'Verse 5 can be rendered “with the company of the righteous”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2014&version=NRSVUE'
+    quote: 'for God is with the company of the righteous'
+
+  # ---------- note 14:1 fool ----------
+  - where: 'note 14:1 “The fool is senseless toward God, not slow-witted”'
+    claim: 'The Hebrew word for “fool” in verse 1 is nabal'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נָבָ֣ל'
+  - where: 'note 14:1 “The fool is senseless toward God, not slow-witted”'
+    claim: 'Nabal is used especially of moral and religious insensibility, with the idea of what is ignoble'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5036.htm'
+    quote: 'adjective foolish, senseless, especially of the man who has no perception of ethical and religious claims, and with collateral idea of ignoble, disgraceful'
+  - where: 'note 14:1 “The fool is senseless toward God, not slow-witted”'
+    claim: 'As a noun the word is an impious and presumptuous fool; Isaiah 32:6 characterizes him; Psalm 14:1 is listed as his denying God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5036.htm'
+    quote: 'elsewhere as substantive (impious and presumptuous) fool, Isaiah 32:5'
+  - where: 'note 14:1 “The fool is senseless toward God, not slow-witted”'
+    claim: 'Isaiah 32:6 is listed as describing the nabal; Psalm 14:1 as his denying God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5036.htm'
+    quote: 'characterized as at once irreligious and churlish, Isaiah 32:6; denying God Psalm 14:1'
+  - where: 'note 14:1 “The fool is senseless toward God, not slow-witted”'
+    claim: 'The name Nabal in 1 Samuel 25:25 is spelled as the word for fool is'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/1Sam.xml'
+    quote: 'נָבָ֗ל'
+  - where: 'note 14:1 “The fool is senseless toward God, not slow-witted”'
+    claim: 'Nabal was a churlish man of Carmel in David’s story'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5037.htm'
+    quote: 'a churlish man of Carmel, whose widow David married'
+  - where: 'note 14:1 “The fool is senseless toward God, not slow-witted”'
+    claim: 'Abigail plays on her husband’s name'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/25?lang=eng'
+    quote: 'for as his name is, so is he; Nabal is his name, and folly is with him'
+  - where: 'note 14:1 “The fool is senseless toward God, not slow-witted”'
+    claim: 'The King James calls the nabal of Isaiah 32:6 “the vile person,” whose heart works iniquity and who empties the soul of the hungry'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/32?lang=eng'
+    quote: 'For the vile person will speak villany, and his heart will work iniquity'
+  - where: 'note 14:1 “The fool is senseless toward God, not slow-witted”'
+    claim: 'A modern translation makes the fool plural from the first word'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2014&version=NRSVUE'
+    quote: 'Fools say in their hearts'
+
+  # ---------- note 14:1 JST ----------
+  - where: 'note 14:1 “Joseph Smith’s translation gives the fool a reason”'
+    claim: 'The Joseph Smith Translation of verse 1'
+    key: jst-ps-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/14?lang=eng'
+    quote: 'The fool hath said in his heart, There is no man that hath seen God. Because he showeth himself not unto us, therefore there is no God.'
+  - where: 'note 14:1 “Joseph Smith’s translation gives the fool a reason”'
+    claim: 'The translation gives the fool’s reason: he has not seen God and concludes no one has'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'The reason why he thinks there is no God is that he has not seen God and, by extension, concludes that no person has.'
+  - where: 'note 14:1 “Joseph Smith’s translation gives the fool a reason”'
+    claim: 'The Hebrew of the denial is two words, ein Elohim'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֵ֣ין'
+  - where: 'note 14:1 “Joseph Smith’s translation gives the fool a reason”'
+    claim: 'The expansion makes the dispute whether God appears to human beings'
+    key: wright-bradley-none-good
+    url: 'https://byustudies.byu.edu/article/none-that-doeth-good'
+    quote: 'making the immediate matter of dispute not whether God exists but whether God appears to human beings'
+  - where: 'note 14:1 “Joseph Smith’s translation gives the fool a reason”'
+    claim: 'On this reading those who reject appearances of God become the fool'
+    key: wright-bradley-none-good
+    url: 'https://byustudies.byu.edu/article/none-that-doeth-good'
+    quote: 'Consequently, those who reject the occurrence of theophanies become the'
+  - where: 'note 14:1 “Joseph Smith’s translation gives the fool a reason”'
+    claim: 'The added words import “No man hath seen God” (John 1:18; 1 John 4:12), which he had met twice in the translation'
+    key: wright-bradley-none-good
+    url: 'https://byustudies.byu.edu/article/none-that-doeth-good'
+    quote: 'one he had already encountered twice in his work on the JST'
+  - where: 'note 14:1 “Joseph Smith’s translation gives the fool a reason”'
+    claim: 'He had already revised those two passages so that they supported his vision'
+    key: wright-bradley-none-good
+    url: 'https://byustudies.byu.edu/article/none-that-doeth-good'
+    quote: 'transforming them from potential prooftexts against his theophany into passages supporting it'
+  - where: 'note 14:1 “Joseph Smith’s translation gives the fool a reason”'
+    claim: 'The article quotes JS—H 1:21 as the minister’s rejection of the vision'
+    key: wright-bradley-none-good
+    url: 'https://byustudies.byu.edu/article/none-that-doeth-good'
+    quote: 'that there were no such things as visions or revelations in these days'
+  - where: 'note 14:1 “Joseph Smith’s translation gives the fool a reason”'
+    claim: 'The article’s inference: the expansion reflects his experience after the First Vision'
+    key: wright-bradley-none-good
+    url: 'https://byustudies.byu.edu/article/none-that-doeth-good'
+    quote: 'this expansion makes the psalm more accurately reflect his own experience after the First Vision'
+  - where: 'note 14:1 “Joseph Smith’s translation gives the fool a reason”'
+    claim: 'The minister’s answer in Joseph Smith—History 1:21'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng'
+    quote: 'there were no such things as visions or revelations in these days'
+
+  # ---------- note 14:2 ----------
+  - where: 'note 14:2 “A verdict that rests on looking”'
+    claim: 'One reading hears the Flood in “corrupt” and Babel in “to see”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/14.htm'
+    quote: 'reminds one of the history of the Flood'
+  - where: 'note 14:2 “A verdict that rests on looking”'
+    claim: 'The same reading ties “to see” to Babel, Genesis 11:5'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/14.htm'
+    quote: 'of the history of the building of the tower of Babel, Genesis 11:5'
+  - where: 'note 14:2 “A verdict that rests on looking”'
+    claim: 'The verb for “corrupt” in Psalm 14:1 (Strong’s 7843, Hiphil)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הִֽשְׁחִ֗יתוּ'
+  - where: 'note 14:2 “A verdict that rests on looking”'
+    claim: 'Genesis 6:12 has the same verb (Strong’s 7843, Hiphil) for “had corrupted”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'הִשְׁחִ֧ית'
+  - where: 'note 14:2 “A verdict that rests on looking”'
+    claim: 'Genesis 6:12 begins with God looking on the earth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/6?lang=eng'
+    quote: 'And God looked upon the earth, and, behold, it was corrupt; for all flesh had corrupted his way upon the earth.'
+  - where: 'note 14:2 “A verdict that rests on looking”'
+    claim: '“To see” in Psalm 14:2 is the infinitive of the verb to see with the preposition (Strong’s 7200)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לִ֭/רְאוֹת'
+  - where: 'note 14:2 “A verdict that rests on looking”'
+    claim: 'Genesis 11:5 has the same infinitive (Strong’s 7200) and “the children of men”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'לִ/רְאֹ֥ת'
+  - where: 'note 14:2 “A verdict that rests on looking”'
+    claim: 'Genesis 11:5 in the King James'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/11?lang=eng'
+    quote: 'came down to see the city and the tower, which the children of men builded'
+  - where: 'note 14:2 “A verdict that rests on looking”'
+    claim: 'The verb for “looked down” is the word for looking out of a window'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/14.htm'
+    quote: 'It is the proper word for looking out of a window'
+  - where: 'note 14:2 “A verdict that rests on looking”'
+    claim: 'God’s judgment is pictured as resting on knowledge of the facts'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/14.htm'
+    quote: 'God''s judgment rests upon a knowledge of the matter of fact, which is represented in such passages after the manner of men'
+  - where: 'note 14:2 “A verdict that rests on looking”'
+    claim: 'A modern translation renders “understand” as “wise”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2014&version=NRSVUE'
+    quote: 'to see if there are any who are wise'
+
+  # ---------- note 14:3 First Vision ----------
+  - where: 'note 14:3 “The verse in the First Vision”'
+    claim: 'In the 1832 history the Lord speaks the words of Psalm 14:3'
+    key: js-history-1832
+    url: 'https://www.josephsmithpapers.org/paper-summary/history-circa-summer-1832/3'
+    quote: 'behold the world lieth in sin at this time and none doeth good no not one they have turned asside from the gospel and keep not my commandments'
+  - where: 'note 14:3 “The verse in the First Vision”'
+    claim: 'Earlier in the same history Joseph Smith uses Psalm 14:1'
+    key: js-history-1832
+    url: 'https://www.josephsmithpapers.org/paper-summary/history-circa-summer-1832/3'
+    quote: 'well hath the wise man said it is a fool that saith in his heart there is no God'
+  - where: 'note 14:3 “The verse in the First Vision”'
+    claim: 'The history dates from the summer of 1832; Psalm 14:1 comes before the vision in it'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'In that history, he paraphrased Psalm 14:1 as a concept that struck him before the vision'
+  - where: 'note 14:3 “The verse in the First Vision”'
+    claim: 'The history and the translation of Psalm 14 are within four to seven months of each other'
+    key: wright-bradley-none-good
+    url: 'https://byustudies.byu.edu/article/none-that-doeth-good'
+    quote: 'put the two accounts within four to seven months of each other'
+  - where: 'note 14:3 “The verse in the First Vision”'
+    claim: 'JST verse 2: the Lord speaks to His servant and the servant answers'
+    key: jst-ps-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/14?lang=eng'
+    quote: 'by his voice said unto his servant, Seek ye among the children of men, to see if there are any that do understand God. And he opened his mouth unto the Lord, and said, Behold, all these who say they are thine.'
+  - where: 'note 14:3 “The verse in the First Vision”'
+    claim: 'JST verse 3: the verdict as the Lord’s answer'
+    key: jst-ps-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/14?lang=eng'
+    quote: 'The Lord answered, and said, They are all gone aside, they are together become filthy, thou canst behold none of them that are doing good, no, not one.'
+  - where: 'note 14:3 “The verse in the First Vision”'
+    claim: 'JST verse 4: their teachers are workers of iniquity'
+    key: jst-ps-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/14?lang=eng'
+    quote: 'All they have for their teachers are workers of iniquity, and there is no knowledge in them.'
+  - where: 'note 14:3 “The verse in the First Vision”'
+    claim: 'The rendering reads like another account of the First Vision'
+    key: mcconkie-poetic-writings
+    url: 'https://rsc.byu.edu/joseph-smith-translation/joseph-smith-poetic-writings'
+    quote: 'The JST rendering of this Psalm reads like another account of the First Vision.'
+  - where: 'note 14:3 “The verse in the First Vision”'
+    claim: 'Verses 2–4 of the translation may give a sense of the conversation in the vision'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'In verses 2–4 of JST Psalm 14, we perhaps get a sense of that extended conversation.'
+  - where: 'note 14:3 “The verse in the First Vision”'
+    claim: 'The article concludes that Joseph Smith modeled the translation on his First Vision'
+    key: wright-bradley-none-good
+    url: 'https://byustudies.byu.edu/article/none-that-doeth-good'
+    quote: 'If, as the evidence signifies, Joseph Smith modeled JST Psalm 14 after his First Vision experience'
+  - where: 'note 14:3 “The verse in the First Vision”'
+    claim: 'The article sets JS—H 1:19 (“all corrupt”) beside “they are corrupt” in verse 1'
+    key: wright-bradley-none-good
+    url: 'https://byustudies.byu.edu/article/none-that-doeth-good'
+    quote: 'that all their creeds were an abomination in his sight; that those professors were all corrupt'
+  - where: 'note 14:3 “The verse in the First Vision”'
+    claim: 'Joseph Smith—History 1:19'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng'
+    quote: 'that those professors were all corrupt'
+  - where: 'note 14:3 “The verse in the First Vision”'
+    claim: 'The heading of the translation in the Church’s edition speaks of the loss of truth in the last days'
+    key: jst-ps-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/14?lang=eng'
+    quote: 'The Psalmist sees the loss of truth in the last days and looks forward to the establishment of Zion.'
+
+  # ---------- note 14:3 Paul ----------
+  - where: 'note 14:3 “Paul’s proof that all are under sin”'
+    claim: 'Paul quotes the psalm in Romans 3:10–12'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/3?lang=eng'
+    quote: 'They are all gone out of the way, they are together become unprofitable; there is none that doeth good, no, not one.'
+  - where: 'note 14:3 “Paul’s proof that all are under sin”'
+    claim: 'The Greek translation of verse 3 has “gone out of the way,” as Romans does'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/14.htm'
+    quote: 'They are all gone out of the way, they are together become good for nothing'
+  - where: 'note 14:3 “Paul’s proof that all are under sin”'
+    claim: 'The Greek psalm carries in verse 3 the lines of Romans 3:13–18'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/14.htm'
+    quote: 'Their throat is an open sepulchre; with their tongues they have used deceit'
+  - where: 'note 14:3 “Paul’s proof that all are under sin”'
+    claim: 'Romans 3:13 continues the chain with the open sepulchre'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/3?lang=eng'
+    quote: 'Their throat is an open sepulchre; with their tongues they have used deceit; the poison of asps is under their lips'
+  - where: 'note 14:3 “Paul’s proof that all are under sin”'
+    claim: 'The Hebrew of verse 3 ends with “no, not one” (ten words; no further lines)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֵ֝֗ין'
+  - where: 'note 14:3 “Paul’s proof that all are under sin”'
+    claim: 'Moroni 10:25 is listed among the phrases the Book of Mormon shares with Psalm 14:3'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: 'None that doeth good . . . no not one'
+  - where: 'note 14:3 “Paul’s proof that all are under sin”'
+    claim: 'Moroni 10:25'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10?lang=eng'
+    quote: 'for there shall be none that doeth good among you, no not one. For if there be one among you that doeth good, he shall work by the power and gifts of God.'
+  - where: 'note 14:3 “Paul’s proof that all are under sin”'
+    claim: 'Doctrine and Covenants 33:4, of the Lord’s vineyard'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/33?lang=eng'
+    quote: 'And my vineyard has become corrupted every whit; and there is none which doeth good save it be a few'
+  - where: 'note 14:3 “Paul’s proof that all are under sin”'
+    claim: 'The revelation that is D&C 33 dates to October 1830 and quotes Psalm 14:3'
+    key: wright-bradley-none-good
+    url: 'https://byustudies.byu.edu/article/none-that-doeth-good'
+    quote: 'In this revelation, not only is Psalm 14:3 once again quoted'
+  - where: 'note 14:3 “Paul’s proof that all are under sin”'
+    claim: 'The revelation is dated October 1830'
+    key: wright-bradley-none-good
+    url: 'https://byustudies.byu.edu/article/none-that-doeth-good'
+    quote: 'Revelation, October 1830–B [D&C 33]'
+
+  # ---------- note 14:4 ----------
+  - where: 'note 14:4 “People eaten like bread”'
+    claim: 'One reading: they eat God’s people and think it no more sinful than eating bread'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/14.htm'
+    quote: 'who eating my people, eat bread," i.e., who think that they are not doing anything more sinful'
+  - where: 'note 14:4 “People eaten like bread”'
+    claim: 'The same reading points to Micah 3:1–3 as carrying the thought further'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/14.htm'
+    quote: 'cf. the further carrying out of this thought in Micah 3:1-3'
+  - where: 'note 14:4 “People eaten like bread”'
+    claim: 'Micah 3:1–3 is addressed to the heads and princes of Israel, who eat the flesh of the people'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/micah/3?lang=eng'
+    quote: 'Who also eat the flesh of my people, and flay their skin from off them'
+  - where: 'note 14:4 “People eaten like bread”'
+    claim: 'The same reading takes verse 4 as the LORD’s own words, heard by the psalmist'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/14.htm'
+    quote: 'The divine outburst of indignation which the psalmist hears here, is applicable to the sinners in Israel'
+  - where: 'note 14:4 “People eaten like bread”'
+    claim: 'The Joseph Smith Translation makes verse 3 onward the Lord’s answer, and verse 4 continues it'
+    key: jst-ps-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/14?lang=eng'
+    quote: 'They are they who eat up my people. They eat bread and call not upon the Lord.'
+
+  # ---------- note 14:5 ----------
+  - where: 'note 14:5 “Where Psalm 14 and Psalm 53 part”'
+    claim: 'Psalm 53:5 differs from Psalm 14:5–6'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/53?lang=eng'
+    quote: 'There were they in great fear, where no fear was: for God hath scattered the bones of him that encampeth against thee: thou hast put them to shame, because God hath despised them.'
+  - where: 'note 14:5 “Where Psalm 14 and Psalm 53 part”'
+    claim: 'The Greek of Psalm 14:5 has “where there was no fear”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/14.htm'
+    quote: 'There were they alarmed with fear, where there was no fear'
+  - where: 'note 14:5 “Where Psalm 14 and Psalm 53 part”'
+    claim: 'A modern translation puts the fear in the future'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2014&version=NRSVUE'
+    quote: 'There they shall be in great terror'
+  - where: 'note 14:5 “Where Psalm 14 and Psalm 53 part”'
+    claim: 'The same translation renders “generation” as “company”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2014&version=NRSVUE'
+    quote: 'for God is with the company of the righteous'
+  - where: 'note 14:5 “Where Psalm 14 and Psalm 53 part”'
+    claim: 'The Joseph Smith Translation of verse 5'
+    key: jst-ps-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/14?lang=eng'
+    quote: 'They are in great fear, for God dwells in the generation of the righteous.'
+
+  # ---------- note 14:6 ----------
+  - where: 'note 14:6 “A line spoken to the oppressors”'
+    claim: 'The verb of verse 6 is second person masculine plural, imperfect (morphology HVhi2mp), not a perfect'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תָבִ֑ישׁוּ'
+  - where: 'note 14:6 “A line spoken to the oppressors”'
+    claim: 'A modern translation takes the verb as an attempt and the second half as its answer'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2014&version=NRSVUE'
+    quote: 'You would confound the plans of the poor'
+  - where: 'note 14:6 “A line spoken to the oppressors”'
+    claim: 'The Joseph Smith Translation adds to verse 5 that God is the counsel of the poor'
+    key: jst-ps-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/14?lang=eng'
+    quote: 'He is the counsel of the poor, because they are ashamed of the wicked, and flee unto the Lord, for their refuge.'
+  - where: 'note 14:6 “A line spoken to the oppressors”'
+    claim: 'The Joseph Smith Translation of verse 6'
+    key: jst-ps-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/14?lang=eng'
+    quote: 'They are ashamed of the counsel of the poor because the Lord is his refuge.'
+  - where: 'note 14:6 “A line spoken to the oppressors”'
+    claim: 'In the translation “the counsel of the poor” is God Himself, and the wicked are ashamed of Him'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'refers to God Himself, to whom the poor flee because they are ashamed to be with the wicked. In verse 6, it is the wicked who are ashamed of the Lord.'
+
+  # ---------- note 14:7 captivity ----------
+  - where: 'note 14:7 “Captivity need not mean the exile”'
+    claim: 'The noun of the phrase in Psalm 14:7 (Strong’s 7622), after the verb shub (Strong’s 7725)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שְׁב֣וּת'
+  - where: 'note 14:7 “Captivity need not mean the exile”'
+    claim: 'The lexicon lists the set phrase “restore the captivity of”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7622.htm'
+    quote: 'in phrase restore the captivity of'
+  - where: 'note 14:7 “Captivity need not mean the exile”'
+    claim: 'Its list of the phrase begins with Deuteronomy 30:3'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7622.htm'
+    quote: 'Qal Deuteronomy 30:3'
+  - where: 'note 14:7 “Captivity need not mean the exile”'
+    claim: 'Deuteronomy 30:3 has the same verb and noun'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'שְׁבוּתְ/ךָ֖'
+  - where: 'note 14:7 “Captivity need not mean the exile”'
+    claim: 'Job 42:10 has the same verb and noun (the noun as read, the qere)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Job.xml'
+    quote: 'שְׁב֣וּת'
+  - where: 'note 14:7 “Captivity need not mean the exile”'
+    claim: 'Job 42:10 in the King James: the captivity of Job turned, and twice as much given'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/42?lang=eng'
+    quote: 'turned the captivity of Job, when he prayed for his friends: also the Lord gave Job twice as much as he had before'
+  - where: 'note 14:7 “Captivity need not mean the exile”'
+    claim: 'A modern translation renders the phrase “restores the fortunes”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2014&version=NRSVUE'
+    quote: 'restores the fortunes of his people'
+  - where: 'note 14:7 “Captivity need not mean the exile”'
+    claim: 'The verb is chosen for its likeness of sound to the noun'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/14.htm'
+    quote: 'in favour of the alliteration with'
+  - where: 'note 14:7 “Captivity need not mean the exile”'
+    claim: 'One reading: the verse sounds like an addition from the Exile'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/14.htm'
+    quote: 'This tristich sounds like a liturgical addition belonging to the time of the Exile, unless one is disposed to assign the whole Psalm to this period on account of it'
+  - where: 'note 14:7 “Captivity need not mean the exile”'
+    claim: 'But the phrase is also used metaphorically, as of Job'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/14.htm'
+    quote: 'also signifies metaphorically to turn misfortune, as in Job 42:10'
+  - where: 'note 14:7 “Captivity need not mean the exile”'
+    claim: 'So the ascription to David cannot be questioned on this ground'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/14.htm'
+    quote: 'cannot be called in question from this quarter'
+
+  # ---------- note 14:7 Zion ----------
+  - where: 'note 14:7 “Zion established out of heaven”'
+    claim: 'The Joseph Smith Translation of verse 7'
+    key: jst-ps-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/14?lang=eng'
+    quote: 'Oh that Zion were established out of heaven, the salvation of Israel. O Lord, when wilt thou establish Zion? When the Lord bringeth back the captivity of his people, Jacob shall rejoice, Israel shall be glad.'
+  - where: 'note 14:7 “Zion established out of heaven”'
+    claim: 'The translation looks to the descent of Enoch’s Zion'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'this translation looks forward with hope to the latter-day descent of Enoch’s Zion from heaven'
+  - where: 'note 14:7 “Zion established out of heaven”'
+    claim: 'Joseph Smith had learned of Enoch’s Zion in translating Genesis'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'Through the translation of Genesis, Joseph Smith had learned of Enoch’s Zion'
+  - where: 'note 14:7 “Zion established out of heaven”'
+    claim: 'Moses 7:62: righteousness sent down out of heaven, and a holy city called Zion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng'
+    quote: 'And righteousness will I send down out of heaven'
+  - where: 'note 14:7 “Zion established out of heaven”'
+    claim: 'Moses 7:62 names the holy city Zion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng'
+    quote: 'an Holy City, that my people may gird up their loins, and be looking forth for the time of my coming; for there shall be my tabernacle, and it shall be called Zion, a New Jerusalem'
+  - where: 'note 14:7 “Zion established out of heaven”'
+    claim: 'The psalms were likely translated in January 1833'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'In January 1833—the likely time he was translating the psalms'
+  - where: 'note 14:7 “Zion established out of heaven”'
+    claim: 'The changed verse read as a prayer for Enoch’s city to return and join the New Jerusalem in Jackson County'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'was an impassioned call for Enoch’s city to return and join the fledgling New Jerusalem in Jackson County (Moses 7:62–63)'
+  - where: 'note 14:7 “Zion established out of heaven”'
+    claim: 'The added question implies that Zion may not come soon'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'implies, like D&C 58:3–4, that it may not be soon'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'Paul follows the psalm’s verdict with justification through the redemption in Christ Jesus'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/3?lang=eng'
+    quote: 'Being justified freely by his grace through the redemption that is in Christ Jesus'
+  - where: christ
+    claim: 'In the 1832 history the Lord names Himself as crucified for the world before speaking the psalm’s words'
+    key: js-history-1832
+    url: 'https://www.josephsmithpapers.org/paper-summary/history-circa-summer-1832/3'
+    quote: 'I am the Lord of glory I was crucifyed for the world that all those who believe on my name may have Eternal life'
+  - where: christ
+    claim: 'The same sentence goes on to the psalm’s words'
+    key: js-history-1832
+    url: 'https://www.josephsmithpapers.org/paper-summary/history-circa-summer-1832/3'
+    quote: 'none doeth good no not one'
+
+  # ---------- explore ----------
+  - where: explore
+    claim: 'The article’s authors, title and issue'
+    key: wright-bradley-none-good
+    url: 'https://byustudies.byu.edu/article/none-that-doeth-good'
+    quote: 'By Walker A. Wright and Don Bradley'
+  - where: explore
+    claim: 'The article compares the translation with the First Vision accounts'
+    key: wright-bradley-none-good
+    url: 'https://byustudies.byu.edu/article/none-that-doeth-good'
+    quote: 'When the Joseph Smith Translation (JST) of Psalm 14 is compared to the various First Vision accounts'
+  - where: explore
+    claim: 'The Joseph Smith Translation of Psalm 14:1–7 is in the appendix'
+    key: jst-ps-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/14?lang=eng'
+    quote: 'The Psalmist sees the loss of truth in the last days and looks forward to the establishment of Zion.'
+
+  # ---------- parallels ----------
+  - where: parallels
+    claim: 'Psalm 53 has “God” throughout'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/53?lang=eng'
+    quote: 'Oh that the salvation of Israel were come out of Zion! When God bringeth back the captivity of his people'
+  - where: parallels
+    claim: 'Genesis 6:12 uses the verb of verse 1 (see the note on verse 2)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'הִשְׁחִ֧ית'
