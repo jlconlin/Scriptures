@@ -1,0 +1,471 @@
+chapter: 42
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title gives the psalm to the sons of Korah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/42?lang=eng'
+    quote: 'To the chief Musician, Maschil, for the sons of Korah.'
+  - where: setting
+    claim: 'Psalm 42 begins the Second Book of Psalms, in which “God” (Elohim) replaces the divine name; the counts are Delitzsch’s'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/42.htm'
+    quote: 'The Second Book of Psalms consists entirely of Elohimic Psalms'
+  - where: setting
+    claim: 'By his count the divine name occurs 272 times in Book One and 30 times in Book Two'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/42.htm'
+    quote: 'occurred 272 times and אלהים only 15 times, the relation is here reversed: אלהים occurs 164 times, and יהוה only 30 times'
+  - where: setting
+    claim: 'The divine name (LORD) occurs once in Psalm 42, in verse 8 (Hebrew 42:9); hebrew.mjs psalms 42:1-11 shows H3068 only there'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְהוָ֨ה'
+  - where: setting
+    claim: 'Elohim (H430) occurs ten times in the psalm (verses 1, 2 twice, 3, 4, 5, 6, 10, 11 twice) and El (H410) three times (verses 2, 8, 9): thirteen in all, each “God” in the King James'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֱלֹהִֽים'
+  - where: setting
+    claim: 'One older reading: a Korahite Levite beyond the Jordan with David in Absalom’s time'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/42.htm'
+    quote: 'is the poem of a Korahitic Levite, who found himself in exile beyond the Jordan among the attendants of David, his exiled king'
+  - where: setting
+    claim: 'Others have placed the psalm among those carried to Babylon'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/42.htm'
+    quote: 'Reuss (in the Nouvelle Revue de Thologie, 1858) prefers to suppose it is one of those who were carried off with Jeconiah'
+  - where: setting
+    claim: 'Psalm 43 has no title in the Church’s edition and ends with the refrain'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/43?lang=eng'
+    quote: 'Why art thou cast down, O my soul? and why art thou disquieted within me? hope in God: for I shall yet praise him, who is the health of my countenance, and my God.'
+  - where: setting
+    claim: 'The two psalms have long been read as one'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/42.htm'
+    quote: 'an old Midrash reckons 147 Psalms, taking Psalm 42:1 together as one'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The request to God comes only in Psalm 43, the third part'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/42.htm'
+    quote: 'it is not until the third part (Psalm 43:1-5) that complaint, resignation, and hope are perfected by the language of confident prayer which supervenes'
+  - where: thread
+    claim: '“Lovingkindness” in verse 8 is hesed (H2617), standing beside the divine name'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַסְדּ֗/וֹ'
+  - where: thread
+    claim: 'Psalm 43 contains the petition'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/43?lang=eng'
+    quote: 'O send out thy light and thy truth: let them lead me; let them bring me unto thy holy hill, and to thy tabernacles.'
+
+  # ---------- sections ----------
+  - where: 'section 2 plain'
+    claim: 'Verse 6 names Jordan and Hermon'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2042&version=NRSVUE'
+    quote: 'from the land of Jordan and of Hermon,'
+
+  # ---------- note 42:0 ----------
+  - where: 'note 42:0 “The sons of Korah”'
+    claim: 'Korah was a great-grandson of Levi and led the rebellion against Moses and Aaron'
+    key: bd-korah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/korah?lang=eng'
+    quote: 'Son of Izhar, grandson of Kohath, and great-grandson of Levi (Ex. 6:21, 24), the leader of the rebellion against Moses and Aaron'
+  - where: 'note 42:0 “The sons of Korah”'
+    claim: 'His descendants were a guild of musicians, named in the titles of eleven psalms (42; 44–49; 84–85; 87–88), and others were doorkeepers'
+    key: bd-korah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/korah?lang=eng'
+    quote: 'formed a guild of musicians (2 Chr. 20:19; titles of Ps. 42; 44–49; 84–85; 87–88), while others held the responsible post of doorkeeper'
+  - where: 'note 42:0 “The sons of Korah”'
+    claim: 'The earth swallowed Korah and his company, but his children did not die'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/26?lang=eng'
+    quote: 'And the earth opened her mouth, and swallowed them up together with Korah, when that company died'
+  - where: 'note 42:0 “The sons of Korah”'
+    claim: 'Numbers 26:11'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/26?lang=eng'
+    quote: 'Notwithstanding the children of Korah died not.'
+  - where: 'note 42:0 “The sons of Korah”'
+    claim: 'Heman the singer is among those David set over the music'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/6?lang=eng'
+    quote: 'And these are they whom David set over the service of song in the house of the Lord, after that the ark had rest.'
+  - where: 'note 42:0 “The sons of Korah”'
+    claim: 'Heman’s line is traced back to Korah (1 Chr. 6:33–37)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/6?lang=eng'
+    quote: 'The son of Tahath, the son of Assir, the son of Ebiasaph, the son of Korah,'
+  - where: 'note 42:0 “The sons of Korah”'
+    claim: 'Heman a singer (1 Chr. 6:33)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/6?lang=eng'
+    quote: 'Of the sons of the Kohathites: Heman a singer, the son of Joel, the son of Shemuel,'
+  - where: 'note 42:0 “The sons of Korah”'
+    claim: 'The Korahites kept the gates (1 Chr. 9:19)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/9?lang=eng'
+    quote: 'the Korahites, were over the work of the service, keepers of the gates of the tabernacle'
+  - where: 'note 42:0 “The sons of Korah”'
+    claim: 'Korhites praise the Lord in Jehoshaphat’s day (2 Chr. 20:19)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/20?lang=eng'
+    quote: 'and of the children of the Korhites, stood up to praise the Lord God of Israel with a loud voice on high.'
+  - where: 'note 42:0 “The sons of Korah”'
+    claim: 'A modern translation renders the title “of the Korahites”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2042&version=NRSVUE'
+    quote: 'To the leader. A Maskil of the Korahites.'
+  - where: 'note 42:0 “The sons of Korah”'
+    claim: 'The titles naming the sons of Korah connect the psalms to Levites who served in the temple'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'These were Levitical priest-figures who served in the temple of God, again demonstrating the biblical connection between the psalms and the temple.'
+  - where: 'note 42:0 “The sons of Korah”'
+    claim: 'Psalm 84, a psalm of the sons of Korah by its title, cries out for the living God (84:2) and speaks of being a doorkeeper (84:10)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/84?lang=eng'
+    quote: 'my heart and my flesh crieth out for the living God.'
+
+  # ---------- note 42:1 ----------
+  - where: 'note 42:1 “A deer at the stream-bed”'
+    claim: 'The Hebrew for “hart” is a hart, stag or deer, and the lexicon lists this verse for the deer longing for water'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/354.htm'
+    quote: 'hart, stag, deer'
+  - where: 'note 42:1 “A deer at the stream-bed”'
+    claim: 'The lexicon’s summary of the simile in this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/354.htm'
+    quote: 'as longing for water, simile of longing for'
+  - where: 'note 42:1 “A deer at the stream-bed”'
+    claim: '“Brooks” is a word for a channel, stream-bed or wady, and the phrase “channels of water” is in Psalm 42:1 (Hebrew 42:2) and Joel 1:20'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/650.htm'
+    quote: 'channel = stream-bed, ravine, wady'
+  - where: 'note 42:1 “A deer at the stream-bed”'
+    claim: 'Joel 1:20 in the King James'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/joel/1?lang=eng'
+    quote: 'The beasts of the field cry also unto thee: for the rivers of waters are dried up'
+  - where: 'note 42:1 “A deer at the stream-bed”'
+    claim: 'The verb behind “panteth” (H6165) occurs twice in this verse and nowhere else in the Psalms (hebrew.mjs psalms --word 6165: 2 occurrences, in 1 verse)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תַּעֲרֹ֥ג'
+
+  # ---------- note 42:2 ----------
+  - where: 'note 42:2 “To see the face of God”'
+    claim: 'The Hebrew of verse 2 has “face of God” (H6440), with a Niphal (passive) form of the verb “see” (H7200)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פְּנֵ֣י'
+  - where: 'note 42:2 “To see the face of God”'
+    claim: 'The verb as pointed (Niphal, “be seen, appear”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֵרָאֶ֗ה'
+  - where: 'note 42:2 “To see the face of God”'
+    claim: 'Three times a year the males of Israel were to appear before the Lord (Exodus 23:17)'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'Three times a year, all males of the covenant were commanded to make a pilgrimage to the temple to “appear before the Lord God”'
+  - where: 'note 42:2 “To see the face of God”'
+    claim: 'Skinner argues the verb in Exodus 23:17 should be vocalized as active, “will see the face”; the traditional form is Niphal'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'should be vocalized slightly differently (yire’eh) and that this passage should actually read, “Three times in the year every male of yours will see the face of Lord.”'
+  - where: 'note 42:2 “To see the face of God”'
+    claim: 'He offers the reading conditionally'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'Thus, if the emended reading is correct, the original commandment to go to the temple to see the face of God was given to all'
+  - where: 'note 42:2 “To see the face of God”'
+    claim: 'His translation of Psalm 42:2, and the tie between seeking the face and the temple'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'Seeking the face of the Lord and seeking to be in the temple were twin thrusts of the same quest. In Psalm 42:2, the Psalmist longs to come to God in the temple: “When will I go and see the face of God?”'
+  - where: 'note 42:2 “To see the face of God”'
+    claim: 'A modern translation renders “behold the face of God”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2042&version=NRSVUE'
+    quote: 'When shall I come and behold'
+
+  # ---------- note 42:4 ----------
+  - where: 'note 42:4 “The procession he remembers”'
+    claim: '“Kept holyday” is the verb for keeping a pilgrim feast; the feasts had processions; the lexicon takes the multitude as led by the psalmist'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2287.htm'
+    quote: 'all celebrated in part by sacred processions and dances; המון חוגג Psalm 42:5 multitude keeping festival (led by the Psalmist in procession)'
+  - where: 'note 42:4 “The procession he remembers”'
+    claim: 'The verb’s meaning'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2287.htm'
+    quote: 'verb make pilgrimage, keep a pilgrim-feast'
+  - where: 'note 42:4 “The procession he remembers”'
+    claim: 'A modern translation has him lead the throng in procession'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2042&version=NRSVUE'
+    quote: 'and led them in procession to the house of God,'
+  - where: 'note 42:4 “The procession he remembers”'
+    claim: 'The translation’s footnote on verse 4'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2042&version=NRSVUE'
+    quote: '42.4 Meaning of Heb uncertain'
+  - where: 'note 42:4 “The procession he remembers”'
+    claim: 'The Greek reads the middle of the verse differently'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/42.htm'
+    quote: 'for I will go to the place of thy wondrous tabernacle, even to the house of God'
+  - where: 'note 42:4 “The procession he remembers”'
+    claim: 'The pilgrimage feasts were kept with psalms and joy at the temple'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'Always the activities of the three pilgrimage festivals were accompanied by the singing of psalms and a feeling of joy centered on the temple.'
+
+  # ---------- note 42:5 refrain ----------
+  - where: 'note 42:5 “The refrain, and Psalm 43”'
+    claim: 'Psalm 43 has no title, repeats the complaint of 42:9 in 43:2 and ends with the refrain'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/43?lang=eng'
+    quote: 'why go I mourning because of the oppression of the enemy?'
+  - where: 'note 42:5 “The refrain, and Psalm 43”'
+    claim: 'Delitzsch holds the two psalms to be one, in three parts'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/42.htm'
+    quote: 'The similarity of the situation, of the general impress, of the structure, and of the refrain, is decisive in favour of these Psalms, which are commonly reckoned as two, being one. The one Psalm consists of three parts'
+  - where: 'note 42:5 “The refrain, and Psalm 43”'
+    claim: 'On Delitzsch’s reading the complaint breaks out three times and is each time overcome by the speaker’s admonition to himself'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/42.htm'
+    quote: 'thrice his pain breaks forth into complaint, and is each time again overcome by the admonitory voice of his higher consciousness'
+  - where: 'note 42:5 “The refrain, and Psalm 43”'
+    claim: 'He cites Eusebius on Psalm 43 for it'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/42.htm'
+    quote: 'Concerning Psalm 43:1-5 Eusebius has said'
+  - where: 'note 42:5 “The refrain, and Psalm 43”'
+    claim: 'The verb form (Hithpolel of H7817) occurs only in 42:5, 6, 11 and 43:5 (Hebrew 42:6, 7, 12), each with “my soul” as subject, and means be cast down, despairing'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7817.htm'
+    quote: 'be cast down, despairing: Imperfect3feminine singular תִּשְׁתּוֺחָ֑ח Psalm 42:7, 2feminine singular תִּשְׁתּוֺחֲחִי Psalm 42:6; Psalm 42:12; Psalm 43:5 (all with subject נַפְשִׁי).'
+  - where: 'note 42:5 “The refrain, and Psalm 43”'
+    claim: 'The form in the refrain, as the Hebrew text has it (also 42:11 and 43:5)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּשְׁתּ֬וֹחֲחִ֨י'
+
+  # ---------- note 42:5 Nephi ----------
+  - where: 'note 42:5 “Nephi speaks to his soul”'
+    claim: 'Nephi questions and commands his own soul (2 Ne. 4:26, 28, 30)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/4?lang=eng'
+    quote: 'Awake, my soul! No longer droop in sin. Rejoice, O my heart, and give place no more for the enemy of my soul.'
+  - where: 'note 42:5 “Nephi speaks to his soul”'
+    claim: 'The Church’s footnote 11a on “cast down” points to 2 Nephi 4:28 (17–31)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/42?lang=eng'
+    quote: '2 Ne. 4:28 (17–31)'
+  - where: 'note 42:5 “Nephi speaks to his soul”'
+    claim: 'Hilton names Psalm 42:5, 11 and 2 Nephi 4:26, 28, 30 as an example of a conceptual allusion his search for textual allusions would miss'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: 'One weakness of searching for textual allusions is missing potential conceptual allusions (for example Psalm 42:5, 11; compare 2 Nephi 4:26, 28, 30).'
+
+  # ---------- note 42:6 christ ----------
+  - where: 'note 42:6 “The words of Gethsemane”'
+    claim: 'Matthew 26:38 has the adjective perilypos of the Savior’s soul'
+    key: greek-nt
+    url: 'https://biblehub.com/interlinear/matthew/26-38.htm'
+    quote: 'Περίλυπός'
+  - where: 'note 42:6 “The words of Gethsemane”'
+    claim: 'Mark 14:34 has the same word'
+    key: greek-nt
+    url: 'https://biblehub.com/interlinear/mark/14-34.htm'
+    quote: 'Περίλυπός'
+  - where: 'note 42:6 “The words of Gethsemane”'
+    claim: 'The Greek of the refrain has perilypos (verses 5 and 11)'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sepd/psalms/42.htm'
+    quote: 'ἵνα τί περίλυπος εἶ, ἡ ψυχή'
+  - where: 'note 42:6 “The words of Gethsemane”'
+    claim: 'Brenton’s translation of the Greek refrain'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/42.htm'
+    quote: 'Wherefore art thou very sad, O my soul?'
+  - where: 'note 42:6 “The words of Gethsemane”'
+    claim: 'The Greek of verse 6 in Brenton’s translation'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/42.htm'
+    quote: 'O my God, my soul has been troubled within me'
+  - where: 'note 42:6 “The words of Gethsemane”'
+    claim: 'The Greek of verse 6'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sepd/psalms/42.htm'
+    quote: 'ἡ ψυχή μου ἐταράχθη'
+  - where: 'note 42:6 “The words of Gethsemane”'
+    claim: 'John 12:27 in Greek, glossed “has been troubled”'
+    key: greek-nt
+    url: 'https://biblehub.com/interlinear/john/12-27.htm'
+    quote: 'τετάρακται'
+  - where: 'note 42:6 “The words of Gethsemane”'
+    claim: 'Delitzsch sets Matthew 26:38 and John 12:27 beside the Greek of the refrain'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/42.htm'
+    quote: 'lxx ἵνα τί περίλυπος εἶ, κ. τ. λ., cf. Matthew 26:38; John 12:27'
+
+  # ---------- note 42:6 geography ----------
+  - where: 'note 42:6 “Where the speaker is”'
+    claim: 'The Hermonites are the peaks of Mount Hermon, in the far northeast'
+    key: bd-hermon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hermon?lang=eng'
+    quote: 'A mountain, 9400 feet high, in the extreme northeast of the Holy Land'
+  - where: 'note 42:6 “Where the speaker is”'
+    claim: 'The Bible Dictionary on the Hermonites of this verse'
+    key: bd-hermon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hermon?lang=eng'
+    quote: 'The Hermonites (Ps. 42:6) are the three peaks of Mount Hermon.'
+  - where: 'note 42:6 “Where the speaker is”'
+    claim: 'A modern translation writes “Hermon”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2042&version=NRSVUE'
+    quote: 'from the land of Jordan and of Hermon,'
+  - where: 'note 42:6 “Where the speaker is”'
+    claim: 'Mizar is an unidentified mountain near Hermon; the name may mean littleness'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4706.htm'
+    quote: 'proper name, of a mountain near Hermon'
+  - where: 'note 42:6 “Where the speaker is”'
+    claim: 'Not identified; perhaps “littleness”; others (so the Greek) “little mountain”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4706.htm'
+    quote: '(perhaps originally littleness), not identified'
+  - where: 'note 42:6 “Where the speaker is”'
+    claim: 'The Greek renders Mizar “the little hill”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/42.htm'
+    quote: 'from the land of Jordan, and of the Ermonites, from the little hill.'
+  - where: 'note 42:6 “Where the speaker is”'
+    claim: 'Delitzsch takes the land of Jordan as the land beyond the river and not necessarily the northern range'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/42.htm'
+    quote: 'is not necessarily the northern mountain range together with the sources of the Jordan. The land beyond the Jordan is so called'
+  - where: 'note 42:6 “Where the speaker is”'
+    claim: 'Psalm 43:3 asks to be brought to the holy hill'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/43?lang=eng'
+    quote: 'let them bring me unto thy holy hill, and to thy tabernacles.'
+
+  # ---------- note 42:7 ----------
+  - where: 'note 42:7 “The flood, and whose it is”'
+    claim: '“Deep” is tehom: deep, sea, abyss'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8415.htm'
+    quote: 'deep, sea, abyss (almost always in poetry)'
+  - where: 'note 42:7 “The flood, and whose it is”'
+    claim: 'The lexicon allows that the deep of this verse may be the Jordan'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8415.htm'
+    quote: 'but possibly here of Jordan'
+  - where: 'note 42:7 “The flood, and whose it is”'
+    claim: '“Waterspouts”: pipe, spout, conduit; here figurative of the sluices of heaven'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6794.htm'
+    quote: 'noun masculine pipe, spout, conduit'
+  - where: 'note 42:7 “The flood, and whose it is”'
+    claim: 'The lexicon on the word in this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6794.htm'
+    quote: 'the sound of thy (water-) spouts figurative, of sluices of heaven opened'
+  - where: 'note 42:7 “The flood, and whose it is”'
+    claim: 'The Greek has “cataracts”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/42.htm'
+    quote: 'Deep calls to deep at the voice of thy cataracts'
+  - where: 'note 42:7 “The flood, and whose it is”'
+    claim: 'A modern translation of the line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2042&version=NRSVUE'
+    quote: 'at the thunder of your torrents;'
+  - where: 'note 42:7 “The flood, and whose it is”'
+    claim: 'Jonah 2:3 (Hebrew 2:4) ends with the same five Hebrew words as Psalm 42:7 (Hebrew 42:8): all / thy breakers / and thy waves / over me / passed (H3605, H4867, H1530, H5921, H5674 in both, by hebrew.mjs)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jonah.xml'
+    quote: 'עָבָֽרוּ'
+  - where: 'note 42:7 “The flood, and whose it is”'
+    claim: 'The same words in Psalm 42:7 (Hebrew 42:8)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עָבָֽרוּ'
+  - where: 'note 42:7 “The flood, and whose it is”'
+    claim: 'Jonah 2:3 in the King James'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jonah/2?lang=eng'
+    quote: 'all thy billows and thy waves passed over me.'
+
+  # ---------- note 42:11 ----------
+  - where: 'note 42:11 “His countenance” and “my countenance”'
+    claim: '“Help” (verse 5) and “health” (verse 11) are one Hebrew noun (H3444), a word for salvation'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3444.htm'
+    quote: 'noun feminine salvation'
+  - where: 'note 42:11 “His countenance” and “my countenance”'
+    claim: 'Verse 5 (Hebrew 42:6) ends “his face” (H6440 with a third-person suffix), and the next verse begins “my God”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פָּנָֽי/ו'
+  - where: 'note 42:11 “His countenance” and “my countenance”'
+    claim: 'Verse 11 (Hebrew 42:12) has “my face” followed by “and my God”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וֵֽ/אלֹהָֽ/י'
+  - where: 'note 42:11 “His countenance” and “my countenance”'
+    claim: 'The Greek has “my countenance” in verse 5'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/42.htm'
+    quote: 'he is the salvation of my countenance.'
+  - where: 'note 42:11 “His countenance” and “my countenance”'
+    claim: 'The Greek has “my countenance” in verse 11'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/42.htm'
+    quote: 'he is the health of my countenance, and my God.'
+  - where: 'note 42:11 “His countenance” and “my countenance”'
+    claim: 'A modern translation ends both refrains alike'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2042&version=NRSVUE'
+    quote: 'my help and my God.'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'The Church’s footnote 2a on “thirsteth” points to John 4:14 and 7:37'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/42?lang=eng'
+    quote: 'John 4:14 (13–15); 7:37 (37–39)'
+  - where: christ
+    claim: 'The feast of John 7 is the feast of tabernacles'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/7?lang=eng'
+    quote: 'Now the Jews’ feast of tabernacles was at hand.'
+  - where: christ
+    claim: 'Jesus went up into the temple at that feast'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/7?lang=eng'
+    quote: 'Now about the midst of the feast Jesus went up into the temple, and taught.'
+  - where: christ
+    claim: 'Living water is a symbol of Jesus Christ and His teachings'
+    key: gs-living-water
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/living-water?lang=eng'
+    quote: 'A symbol of the Lord Jesus Christ and His teachings.'
+
+  # ---------- explore / parallels ----------
+  - where: parallels
+    claim: 'Psalm 84:2 in a psalm of the sons of Korah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/84?lang=eng'
+    quote: 'My soul longeth, yea, even fainteth for the courts of the Lord: my heart and my flesh crieth out for the living God.'
