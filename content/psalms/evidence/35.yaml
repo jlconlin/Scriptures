@@ -1,0 +1,502 @@
+chapter: 35
+claims:
+  # ---- when ----
+  - where: 'when'
+    claim: 'The title ascribes the psalm to David and gives no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/35?lang=eng'
+    quote: 'A Psalm of David.'
+
+  # ---- setting ----
+  - where: 'setting'
+    claim: 'Psalms 34 and 35 are the only psalms that name the angel of the LORD'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/35.htm'
+    quote: 'This Psalm 35 and Psalm 34 form a pair. They are the only Psalms in which the name'
+  - where: 'setting'
+    claim: 'One older reading sets the psalm in Saul’s persecution of David and calls it the expansion of 1 Samuel 24:15'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/35.htm'
+    quote: 'this whole Psalm is, as it were, the lyrical expansion of that which David expresses before Saul in 1 Samuel 24:15'
+  - where: 'setting'
+    claim: 'The psalm makes its plea in three parts'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/35.htm'
+    quote: 'The divisions cannot therefore be mistaken, viz., Psalm 35:1, Psalm 35:11, Psalm 35:19.'
+  - where: 'setting'
+    claim: 'Psalm 40:16 (Hebrew 40:17) has the words of verse 27, “say continually, the LORD be magnified” (tamid yigdal YHWH)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִגְדַּ֣ל'
+  - where: 'setting'
+    claim: 'Psalm 40:14–16 has the wish of 35:4, the “Aha, aha” of 35:21 and the blessing of 35:27'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/40?lang=eng'
+    quote: 'Let them be ashamed and confounded together that seek after my soul to destroy it'
+  - where: 'setting'
+    claim: 'Jesus says the line is written in their law and fulfilled'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/15?lang=eng'
+    quote: 'that the word might be fulfilled that is written in their law, They hated me without a cause.'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'Each of the three parts opens with a cry and closes with a vow of thanksgiving'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/35.htm'
+    quote: 'Each of the three parts opens with a cry for deliverance; and closes, in the certain assumption that it will take place, with a vow of thanksgiving.'
+  - where: 'thread'
+    claim: 'The second part, on the enemies’ ingratitude, is calmer than the first'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/35.htm'
+    quote: 'it is not until the second part, where the poet describes the base ingratitude of his enemies, that the language becomes more clam and transparent'
+  - where: 'thread'
+    claim: 'The noun of verse 23, “my cause,” is from the root of verse 1’s “plead” (Strong’s 7379, 7378)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ/רִיבִֽ/י'
+
+  # ---- sections ----
+  - where: 'section 2 plain'
+    claim: 'Verse 5: the angel driving them'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2035&version=NRSVUE'
+    quote: 'driving them on.'
+  - where: 'section 2 plain'
+    claim: 'Verse 6: “persecute” is pursue'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2035&version=NRSVUE'
+    quote: 'pursuing them.'
+  - where: 'section 4 plain'
+    claim: 'Verse 11: the witnesses ask him about things he does not know'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2035&version=NRSVUE'
+    quote: 'they ask me about things I do not know.'
+  - where: 'section 4 plain'
+    claim: 'Verse 12: “the spoiling of my soul” is bereavement'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/35.htm'
+    quote: 'They rewarded me evil for good, and bereavement to my soul.'
+  - where: 'section 4 plain'
+    claim: 'Verse 15: “in mine adversity” is at my stumbling'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2035&version=NRSVUE'
+    quote: 'But at my stumbling they gathered in glee;'
+  - where: 'section 5 plain'
+    claim: 'Verse 17: “my darling” is my only one, my life'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3173.htm'
+    quote: 'my only one, poetic for my life, as the one unique and priceless possession which can never be replaced'
+  - where: 'section 5 plain'
+    claim: 'Verse 17: “their destructions” as ravages'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2035&version=NRSVUE'
+    quote: 'Rescue me from their ravages,'
+  - where: 'section 6 plain'
+    claim: 'Verse 19: enemies “wrongfully” are treacherous, lying enemies'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2035&version=NRSVUE'
+    quote: 'Do not let my treacherous enemies rejoice over me'
+  - where: 'section 8 plain'
+    claim: 'Verse 27: “favour my righteous cause” is to desire his vindication; “prosperity” is welfare'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2035&version=NRSVUE'
+    quote: 'Let those who desire my vindication'
+  - where: 'section 8 plain'
+    claim: 'Verse 27: “prosperity” is welfare'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2035&version=NRSVUE'
+    quote: 'who delights in the welfare of his servant.'
+
+  # ---- note 35:1 ----
+  - where: 'note 35:1 “A lawsuit and a battle”'
+    claim: '“Plead” in verse 1 is the verb rib (Strong’s 7378)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רִיבָ֣/ה'
+  - where: 'note 35:1 “A lawsuit and a battle”'
+    claim: '“Them that strive with me” is a noun of the same root (Strong’s 3401)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְרִיבַ֑/י'
+  - where: 'note 35:1 “A lawsuit and a battle”'
+    claim: '“My cause” in verse 23 is the noun rib (Strong’s 7379)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ/רִיבִֽ/י'
+  - where: 'note 35:1 “A lawsuit and a battle”'
+    claim: 'The verb means strive, contend'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7378.htm'
+    quote: 'verb strive, contend'
+  - where: 'note 35:1 “A lawsuit and a battle”'
+    claim: 'It is used of bodily struggle and of quarrels with words'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7378.htm'
+    quote: 'involving bodily struggle'
+  - where: 'note 35:1 “A lawsuit and a battle”'
+    claim: 'It is used of conducting a legal case, and so of taking one’s part, as in 1 Samuel 24:15'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7378.htm'
+    quote: 'conduct a (legal) case, suit, usually figurative'
+  - where: 'note 35:1 “A lawsuit and a battle”'
+    claim: 'David’s words to Saul in 1 Samuel 24:15 have the same verb'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7378.htm'
+    quote: 'in good sense, = take one''s part, 1 Samuel 24:15'
+
+  # ---- note 35:4 ----
+  - where: 'note 35:4 “What the curses ask for”'
+    claim: 'Psalm 9:15 has the net taking the foot of those who hid it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/9?lang=eng'
+    quote: 'in the net which they hid is their own foot taken.'
+  - where: 'note 35:4 “What the curses ask for”'
+    claim: 'Psalm 7:15 has the digger falling into his own pit'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/7?lang=eng'
+    quote: 'He made a pit, and digged it, and is fallen into the ditch which he made.'
+
+  # ---- note 35:5 ----
+  - where: 'note 35:5 “The angel of the LORD, guard and pursuer”'
+    claim: 'In the King James text of Psalms “angel of the LORD” occurs only in 34:7 and 35:5–6 (scripts/occurrences.mjs)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/34?lang=eng'
+    quote: 'encampeth round about them that fear him, and delivereth them.'
+  - where: 'note 35:5 “The angel of the LORD, guard and pursuer”'
+    claim: 'The Hebrew phrase in 35:5 is malak YHWH, as in 34:7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וּ/מַלְאַ֖ךְ'
+  - where: 'note 35:5 “The angel of the LORD, guard and pursuer”'
+    claim: 'An angel is a messenger of God; the two psalms give the angel the work of encamping about the faithful and chasing enemies'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4397.htm'
+    quote: 'encamping about the faithful Psalm 34:8; chasing his enemies Psalm 35:5'
+  - where: 'note 35:5 “The angel of the LORD, guard and pursuer”'
+    claim: 'Angels are messengers of the Lord'
+    key: bd-angels
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/angels?lang=eng'
+    quote: 'These are messengers of the Lord'
+  - where: 'note 35:5 “The angel of the LORD, guard and pursuer”'
+    claim: 'In some passages the angel of the Lord speaks as God Himself'
+    key: bd-angels
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/angels?lang=eng'
+    quote: 'speaks as the voice of God Himself'
+  - where: 'note 35:5 “The angel of the LORD, guard and pursuer”'
+    claim: '“Persecute” in verse 6 is the verb radaph (Strong’s 7291), of the angel'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רֹדְפָֽ/ם'
+  - where: 'note 35:5 “The angel of the LORD, guard and pursuer”'
+    claim: '“Them that persecute me” in verse 3 is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רֹדְפָ֑/י'
+  - where: 'note 35:5 “The angel of the LORD, guard and pursuer”'
+    claim: 'The verb means pursue, here as a figure of judgment'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7291.htm'
+    quote: 'pursue (figurative of punishment, judgment)'
+
+  # ---- note 35:7 ----
+  - where: 'note 35:7 “Without cause: for nothing”'
+    claim: '“Without cause” is hinnam (Strong’s 2600), twice in verse 7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חִנָּ֣ם'
+  - where: 'note 35:7 “Without cause: for nothing”'
+    claim: 'The word is in verse 19 as well'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חִ֝נָּ֗ם'
+  - where: 'note 35:7 “Without cause: for nothing”'
+    claim: 'Its first sense is gratis, for nothing'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2600.htm'
+    quote: 'gratis, gratuitously, for nothing'
+  - where: 'note 35:7 “Without cause: for nothing”'
+    claim: 'As of serving for nothing'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2600.htm'
+    quote: 'to serve for nought Genesis 29:15'
+  - where: 'note 35:7 “Without cause: for nothing”'
+    claim: 'In this verse the sense is without cause, of groundless hostility'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2600.htm'
+    quote: 'gratuitously, without cause, undeservedly, especially of groundless hostility or attack'
+
+  # ---- note 35:10 ----
+  - where: 'note 35:10 “The question from the song at the sea”'
+    claim: 'Verse 10 has mi kamokha (Strong’s 4310, 3644)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כָ֫מ֥וֹ/ךָ'
+  - where: 'note 35:10 “The question from the song at the sea”'
+    claim: 'Exodus 15:11 has the same two words'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'כָמֹ֤/כָה'
+  - where: 'note 35:10 “The question from the song at the sea”'
+    claim: 'Moses and Israel sing the song after Pharaoh’s host is cast into the sea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/15?lang=eng'
+    quote: 'Then sang Moses and the children of Israel this song'
+  - where: 'note 35:10 “The question from the song at the sea”'
+    claim: 'Pharaoh’s host is cast into the sea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/15?lang=eng'
+    quote: 'chariots and his host hath he cast into the sea'
+
+  # ---- note 35:11 ----
+  - where: 'note 35:11 “Witnesses of violence, and their questions”'
+    claim: '“False witnesses” is ede hamas, witnesses of violence (Strong’s 5707, 2555)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חָמָ֑ס'
+  - where: 'note 35:11 “Witnesses of violence, and their questions”'
+    claim: '“Laid to my charge” is the verb to ask (Strong’s 7592)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִשְׁאָלֽוּ/נִי'
+  - where: 'note 35:11 “Witnesses of violence, and their questions”'
+    claim: 'The phrase is the law’s (Exodus 23:1; Deuteronomy 19:16) for a witness who promotes violence and wrong'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2555.htm'
+    quote: 'a witness that promotes violence and wrong Exodus 23:1 (JE), Deuteronomy 19:16'
+  - where: 'note 35:11 “Witnesses of violence, and their questions”'
+    claim: 'A modern translation has them asking'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2035&version=NRSVUE'
+    quote: 'they ask me about things I do not know.'
+  - where: 'note 35:11 “Witnesses of violence, and their questions”'
+    claim: 'The Greek has them asking'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/35.htm'
+    quote: 'Unjust witnesses arose, and asked me of things'
+
+  # ---- note 35:13 ----
+  - where: 'note 35:13 “A prayer that came back to his bosom”'
+    claim: 'The Hebrew: my prayer upon my bosom returns (Strong’s 2436, 7725)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֵיקִ֥/י'
+  - where: 'note 35:13 “A prayer that came back to his bosom”'
+    claim: 'One reading: his posture, head on his breast like Elijah'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/35.htm'
+    quote: 'his head was lowered upon his breast, or he cowered, like Elijah (1 Kings 18:42), upon the ground'
+  - where: 'note 35:13 “A prayer that came back to his bosom”'
+    claim: 'On that reading the prayer returned as it were into his bosom'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/35.htm'
+    quote: 'returned again as it were in broken accents into his bosom'
+  - where: 'note 35:13 “A prayer that came back to his bosom”'
+    claim: 'A modern translation follows the posture reading'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2035&version=NRSVUE'
+    quote: 'I prayed with head bowed on my bosom,'
+  - where: 'note 35:13 “A prayer that came back to his bosom”'
+    claim: 'Its margin gives the bare Hebrew'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2035&version=NRSVUE'
+    quote: 'Or My prayer turned back'
+  - where: 'note 35:13 “A prayer that came back to his bosom”'
+    claim: 'The bosom is the fold of the garment at the breast'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2436.htm'
+    quote: 'of fold of garment, at breast'
+  - where: 'note 35:13 “A prayer that came back to his bosom”'
+    claim: 'The verse is listed with Isaiah 65:6–7, Psalm 79:12 and Jeremiah 32:18 as a figure of requital'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2436.htm'
+    quote: 'figurative, requite into bosom Isaiah 65:6,7; Psalm 35:13; Psalm 79:12; Jeremiah 32:18.'
+
+  # ---- note 35:15 ----
+  - where: 'note 35:15 “Abjects, and mockers for a cake”'
+    claim: 'Webster (1828) defines the noun abject, citing this verse'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/abject'
+    quote: 'A person in the lowest condition and despicable. Psalms 35:15.'
+  - where: 'note 35:15 “Abjects, and mockers for a cake”'
+    claim: 'The Hebrew word is nekim (Strong’s 5222)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נֵ֭כִים'
+  - where: 'note 35:15 “Abjects, and mockers for a cake”'
+    claim: 'It means smitten ones, but another word is probably to be read'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5222.htm'
+    quote: 'smitten ones, but read probably'
+  - where: 'note 35:15 “Abjects, and mockers for a cake”'
+    claim: 'The proposed reading means aliens'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5222.htm'
+    quote: 'aliens'
+  - where: 'note 35:15 “Abjects, and mockers for a cake”'
+    claim: 'A modern translation: ruffians'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2035&version=NRSVUE'
+    quote: 'ruffians whom I did not know'
+  - where: 'note 35:15 “Abjects, and mockers for a cake”'
+    claim: 'Verse 16 has the word for a cake (Strong’s 4580)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מָע֑וֹג'
+  - where: 'note 35:15 “Abjects, and mockers for a cake”'
+    claim: 'The phrase is mockers of (for) a cake, buffoons'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4580.htm'
+    quote: 'mockers of (for) a cake, i. e. buffoons'
+  - where: 'note 35:15 “Abjects, and mockers for a cake”'
+    claim: 'The translation’s text of verse 16'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2035&version=NRSVUE'
+    quote: 'they impiously mocked more and more,'
+  - where: 'note 35:15 “Abjects, and mockers for a cake”'
+    claim: 'Its margin marks a correction made by comparing the Greek and gives the Hebrew'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2035&version=NRSVUE'
+    quote: 'Cn Compare Gk: Heb like the profanest of mockers of a cake'
+
+  # ---- note 35:19 ----
+  - where: 'note 35:19 “They hated me without a cause”'
+    claim: 'Jesus says the word written in their law is fulfilled'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/15?lang=eng'
+    quote: 'that the word might be fulfilled that is written in their law, They hated me without a cause.'
+  - where: 'note 35:19 “They hated me without a cause”'
+    claim: 'The hatred is of Him and of His Father'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/15?lang=eng'
+    quote: 'but now have they both seen and hated both me and my Father.'
+  - where: 'note 35:19 “They hated me without a cause”'
+    claim: 'Verse 19 has “my haters” (Strong’s 8130) with hinnam'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שֹׂנְאַ֥/י'
+  - where: 'note 35:19 “They hated me without a cause”'
+    claim: 'Psalm 69:4 (Hebrew 69:5) has the same two words'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שֹׂנְאַ֪/י'
+  - where: 'note 35:19 “They hated me without a cause”'
+    claim: 'The lexicon gives the two verses together for the phrase'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2600.htm'
+    quote: 'my haters without cause'
+  - where: 'note 35:19 “They hated me without a cause”'
+    claim: 'A table of the Savior’s uses of the Psalms lists John 15:25 with Psalm 35:19'
+    key: olmstead-saviors-use
+    url: 'https://www.churchofjesuschrist.org/study/ensign/2002/07/the-saviors-use-of-the-old-testament?lang=eng'
+    quote: 'They hated me without a cause.'
+  - where: 'note 35:19 “They hated me without a cause”'
+    claim: 'The table’s heading'
+    key: olmstead-saviors-use
+    url: 'https://www.churchofjesuschrist.org/study/ensign/2002/07/the-saviors-use-of-the-old-testament?lang=eng'
+    quote: 'New Testament References to Jesus’ Use of the Psalms'
+
+  # ---- note 35:22 ----
+  - where: 'note 35:22 “What the enemies saw, the LORD has seen”'
+    claim: '“Look on” in verse 17 is the verb to see (Strong’s 7200)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּ֫רְאֶ֥ה'
+  - where: 'note 35:22 “What the enemies saw, the LORD has seen”'
+    claim: '“Hath seen” in verse 21 is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רָאֲתָ֥ה'
+  - where: 'note 35:22 “What the enemies saw, the LORD has seen”'
+    claim: '“Thou hast seen” in verse 22 is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רָאִ֣יתָה'
+
+  # ---- note 35:27 ----
+  - where: 'note 35:27 “The enemies’ words, turned”'
+    claim: '“Magnify themselves” in verse 26 is the verb gadal (Strong’s 1431)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַֽ/מַּגְדִּילִ֥ים'
+  - where: 'note 35:27 “The enemies’ words, turned”'
+    claim: '“Be magnified” in verse 27 (and in 40:16) is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִגְדַּ֣ל'
+  - where: 'note 35:27 “The enemies’ words, turned”'
+    claim: 'The verb is used in a bad sense of the enemies in verse 26'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1431.htm'
+    quote: 'of enemies Psalm 35:26'
+  - where: 'note 35:27 “The enemies’ words, turned”'
+    claim: '“Rejoiced” in verse 15 is the verb samach (Strong’s 8055)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׂמְח֪וּ'
+  - where: 'note 35:27 “The enemies’ words, turned”'
+    claim: '“Be glad” in verse 27 is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/יִשְׂמְחוּ֮'
+  - where: 'note 35:27 “The enemies’ words, turned”'
+    claim: 'In verses 15, 19 and 24 the verb is to rejoice arrogantly'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8055.htm'
+    quote: 'rejoice arrogantly, exult at'
+  - where: 'note 35:27 “The enemies’ words, turned”'
+    claim: '“Peace” in verse 20 is shalom (Strong’s 7965)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁל֗וֹם'
+  - where: 'note 35:27 “The enemies’ words, turned”'
+    claim: '“Prosperity” in verse 27 is the same word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שְׁל֣וֹם'
+  - where: 'note 35:27 “The enemies’ words, turned”'
+    claim: 'The Greek keeps “peace” in verse 27'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/35.htm'
+    quote: 'who desire the peace of his servant.'
+
+  # ---- christ ----
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'D&C 121 is Joseph Smith’s prayer from the jail at Liberty'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121?lang=eng'
+    quote: 'dictated by Joseph Smith the Prophet while he was a prisoner in the jail at Liberty, Missouri'
+  - where: 'explore'
+    claim: 'The Church’s footnote to D&C 121:2 (“How long”) cites Psalm 35:17'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121?lang=eng'
+    quote: 'Ps. 35:17 (17–28)'
+  - where: 'explore'
+    claim: 'The footnote to D&C 121:5 (“avenge”) cites Psalm 35:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121?lang=eng'
+    quote: 'Ps. 35:1 (1–10)'
+  - where: 'explore'
+    claim: 'Joseph Smith’s plea to be avenged'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121?lang=eng'
+    quote: 'with thy sword avenge us of our wrongs.'
+
+  # ---- parallels ----
+  - where: 'parallels'
+    claim: '1 Samuel 24:15 has the verb of verse 1'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7378.htm'
+    quote: 'in good sense, = take one''s part, 1 Samuel 24:15'
+  - where: 'parallels'
+    claim: 'Psalm 40:15 has “Aha, aha”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/40?lang=eng'
+    quote: 'that say unto me, Aha, aha.'
+  - where: 'parallels'
+    claim: 'The footnote to D&C 121:2 cites verse 17'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121?lang=eng'
+    quote: 'Ps. 35:17 (17–28)'
