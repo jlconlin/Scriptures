@@ -1,0 +1,469 @@
+chapter: 3
+claims:
+  # ---- when / setting ----
+  - where: 'when'
+    claim: 'The psalm’s title ascribes it to David, when he fled from Absalom his son'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'The superscription labels the psalm as “a Psalm of David, when he fled from Absalom his son” (see 2 Samuel 15:14).'
+  - where: 'setting'
+    claim: 'The title, as the Church’s edition prints it above the psalm'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/3?lang=eng'
+    quote: 'A Psalm of David, when he fled from Absalom his son.'
+  - where: 'setting'
+    claim: 'Psalm 3 is the first psalm with a title: in the Hebrew, Psalm 1 opens directly with “Blessed is the man” (hebrew.mjs prints no title for Psalms 1 and 2); this is Psalm 1’s first word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַ֥שְֽׁרֵי'
+  - where: 'setting'
+    claim: 'The title is the first verse in the Hebrew (its first word, mizmor, H4210), so Hebrew verse numbers run one ahead: Hebrew 3:8 is marked as the King James 3:7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'KJV:Ps.3.7'
+  - where: 'setting'
+    claim: 'Titles mainly tell how a psalm was sung; how old they are is an open question'
+    key: bd-psalms
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
+    quote: 'Titles are added to some of the Psalms, but it is open to question whether these are as old as the words to which they are attached. They mainly refer to the manner in which the words were to be sung or accompanied.'
+  - where: 'setting'
+    claim: 'Psalms are ascribed to David in their titles, and the titles are sometimes judged inaccurate'
+    key: bd-psalms
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
+    quote: 'it has been concluded that the Hebrew titles are sometimes inaccurate'
+  - where: 'setting'
+    claim: 'The titles were apparently added later and may not give the first setting, but the psalm’s military language fits this one'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'the superscriptions were apparently added after the initial writing of the psalm and may not reflect the original intention or life setting of the text. That said, the language of military conflict used in the psalm is fitting for the setting described in the superscription.'
+  - where: 'setting'
+    claim: 'David crossed the Kidron as he fled'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/15?lang=eng'
+    quote: 'the king also himself passed over the brook Kidron'
+  - where: 'setting'
+    claim: 'David went up the Mount of Olives weeping'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/15?lang=eng'
+    quote: 'And David went up by the ascent of mount Olivet, and wept as he went up'
+  - where: 'setting'
+    claim: 'Ahithophel, David’s counsellor, joined the conspiracy'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/15?lang=eng'
+    quote: 'Ahithophel is among the conspirators with Absalom'
+  - where: 'setting'
+    claim: 'Ahithophel was David’s counsellor'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/15?lang=eng'
+    quote: 'Absalom sent for Ahithophel the Gilonite, David’s counsellor'
+  - where: 'setting'
+    claim: 'David crossed the Jordan and came to Mahanaim'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/17?lang=eng'
+    quote: 'Then David came to Mahanaim. And Absalom passed over Jordan'
+  - where: 'setting'
+    claim: 'Joab killed Absalom in the battle (chapter heading)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/18?lang=eng'
+    quote: 'Joab slays Absalom'
+  - where: 'setting'
+    claim: 'David wept for Absalom'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/18?lang=eng'
+    quote: 'And the king was much moved, and went up to the chamber over the gate, and wept'
+  - where: 'setting'
+    claim: 'The psalm begins as a lament; it is often considered a morning prayer'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalm 3 is often considered to be a morning prayer for protection because verse 5 can be read as indicating that the psalmist had recently woken up after a night of sleep.'
+  - where: 'setting'
+    claim: 'Psalm 4 is read as the evening prayer beside it'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'If Psalm 3 can be considered a prayer given in the morning, Psalm 4 could be seen as an evening prayer for protection.'
+  - where: 'setting'
+    claim: 'The psalm’s leading features have been matched to the story of Absalom’s revolt: the mockery, the danger by night, the multitudes (Delitzsch)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/3.htm'
+    quote: 'All the leading features of the Psalm accord with it, viz., the mockery of one who is rejected of God 2 Samuel 16:7., the danger by night 2 Samuel 17:1, the multitudes of the people 2 Samuel 15:13; 2 Samuel 17:11'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'The psalm follows a common pattern: lament, faith in God’s power to protect and answer, strengthened confidence and a renewed plea'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'He begins by (1) lamenting or complaining to the Lord regarding his many enemies and dire circumstances (verses 1–2); he then (2) expresses his faith in God’s power to protect him and answer his prayers (verses 3–4)'
+  - where: 'thread'
+    claim: 'The third step of the pattern'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'his confidence is strengthened (verses 5–6), and he renews his plea to the Lord for deliverance and declares again his faith'
+  - where: 'thread'
+    claim: '“Rise up” in verse 1 is the verb qum (H6965), a participle'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קָמִ֥ים'
+  - where: 'thread'
+    claim: '“Arise” in verse 7 is the same verb (H6965), an imperative'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'ק֘וּמָ֤/ה'
+  - where: 'thread'
+    claim: '“Help” in verse 2 is yeshuah (H3444), the noun of verse 8’s “Salvation”; verse 2’s form'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְֽשׁוּעָ֓תָ/ה'
+  - where: 'thread'
+    claim: 'Verse 8’s form of the same noun (H3444), with the article'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַ/יְשׁוּעָ֑ה'
+
+  # ---- sections ----
+  - where: 'section 2 plain'
+    claim: '“A shield for me” is a shield about or around me'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%203&version=NRSVUE'
+    quote: 'But you, O Lord, are a shield around me,'
+  - where: 'section 3 plain'
+    claim: '“Sustained” is samak, to prop or uphold'
+    key: strongs-concordance
+    url: 'https://biblehub.com/hebrew/5564.htm'
+    quote: 'A primitive root; to prop (literally or figuratively)'
+
+  # ---- note 3:1 ----
+  - where: 'note 3:1 “Many, many, ten thousands”'
+    claim: '“Increased” in verse 1 is the verb rabab (H7231)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רַבּ֣וּ'
+  - where: 'note 3:1 “Many, many, ten thousands”'
+    claim: 'Rabab means to increase, be many'
+    key: strongs-concordance
+    url: 'https://biblehub.com/hebrew/7231.htm'
+    quote: 'A primitive root; properly, to cast together (compare rabiyb), i.e. Increase, especially in number'
+  - where: 'note 3:1 “Many, many, ten thousands”'
+    claim: '“Many” in verse 1 is the adjective rab (H7227)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רַ֝בִּ֗ים'
+  - where: 'note 3:1 “Many, many, ten thousands”'
+    claim: '“Many” in verse 2 is the same adjective (H7227)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רַבִּים֮'
+  - where: 'note 3:1 “Many, many, ten thousands”'
+    claim: 'Rab is an adjective meaning much, many, great'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7227.htm'
+    quote: 'adjective much, many, great'
+  - where: 'note 3:1 “Many, many, ten thousands”'
+    claim: 'Rab is formed from rabab'
+    key: strongs-concordance
+    url: 'https://biblehub.com/hebrew/7227.htm'
+    quote: 'By contracted from rabab; abundant (in quantity, size, age, number, rank, quality)'
+  - where: 'note 3:1 “Many, many, ten thousands”'
+    claim: '“Ten thousands” in verse 6 is rebabah (H7233)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מֵ/רִבְב֥וֹת'
+  - where: 'note 3:1 “Many, many, ten thousands”'
+    claim: 'Rebabah is a multitude, myriad, ten thousand; BDB lists this verse (Hebrew 3:7) under the indefinite great number'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7233.htm'
+    quote: 'noun feminine multitude, myriad, ten thousand'
+  - where: 'note 3:1 “Many, many, ten thousands”'
+    claim: 'Rebabah is from rabab'
+    key: strongs-concordance
+    url: 'https://biblehub.com/hebrew/7233.htm'
+    quote: 'From rabab; abundance (in number), i.e. (specifically) a myriad (whether definite or indefinite)'
+  - where: 'note 3:1 “Many, many, ten thousands”'
+    claim: '“Increased” in 2 Samuel 15:12 is rab (H7227)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/2Sam.xml'
+    quote: 'וָ/רָ֖ב'
+  - where: 'note 3:1 “Many, many, ten thousands”'
+    claim: 'The people increased with Absalom'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/15?lang=eng'
+    quote: 'And the conspiracy was strong; for the people increased continually with Absalom.'
+  - where: 'note 3:1 “Many, many, ten thousands”'
+    claim: 'The counsel to Absalom was to gather all Israel, as the sand by the sea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/17?lang=eng'
+    quote: 'Therefore I counsel that all Israel be generally gathered unto thee, from Dan even to Beer-sheba, as the sand that is by the sea for multitude'
+
+  # ---- note 3:2 help ----
+  - where: 'note 3:2 “The taunt uses the psalm’s last word”'
+    claim: '“Help” in verse 2 is yeshuah (H3444)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְֽשׁוּעָ֓תָ/ה'
+  - where: 'note 3:2 “The taunt uses the psalm’s last word”'
+    claim: '“Salvation” in verse 8 is the same noun (H3444)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַ/יְשׁוּעָ֑ה'
+  - where: 'note 3:2 “The taunt uses the psalm’s last word”'
+    claim: '“Save me” in verse 7 is the verb yasha (H3467)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הוֹשִׁ֘יעֵ֤/נִי'
+  - where: 'note 3:2 “The taunt uses the psalm’s last word”'
+    claim: 'The noun yeshuah is formed from the verb yasha, to save'
+    key: strongs-concordance
+    url: 'https://biblehub.com/hebrew/3444.htm'
+    quote: 'Feminine passive participle of yasha''; something saved, i.e. (abstractly) deliverance; hence, aid, victory, prosperity'
+  - where: 'note 3:2 “The taunt uses the psalm’s last word”'
+    claim: 'Yeshuah means salvation; BDB lists both verses of this psalm (Hebrew 3:3 and 3:9) under salvation by God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3444.htm'
+    quote: 'salvation by God, primarily from external evils, but often with added spiritual idea'
+
+  # ---- note 3:2 Selah ----
+  - where: 'note 3:2 “Selah”'
+    claim: 'Selah is a musical term, 71 times in Psalms and three in Habakkuk, of uncertain meaning'
+    key: bd-selah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/selah?lang=eng'
+    quote: 'A musical term that occurs 71 times in the Psalms and three times in Habakkuk. Its meaning is uncertain.'
+  - where: 'note 3:2 “Selah”'
+    claim: 'Most likely a direction to the musicians to strike up, louder or in an interlude'
+    key: bd-selah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/selah?lang=eng'
+    quote: 'Most likely it is a direction to the musicians to strike up, either with a louder accompaniment or with an interlude while the singing ceased.'
+  - where: 'note 3:2 “Selah”'
+    claim: 'Scholars do not agree on the translation; nearly all take it as an instruction to performers, the largest group as a pause'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'although modern scholars cannot agree on the translation of the word selah, almost all are in accord that it indicated some type of instruction to the performers with the largest group believing that it indicated a pause in the music'
+  - where: 'note 3:2 “Selah”'
+    claim: 'Brenton’s English of the Greek has “Pause” where the Hebrew has selah'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/3.htm'
+    quote: 'There is no deliverance for him in his God. Pause.'
+  - where: 'note 3:2 “Selah”'
+    claim: 'Psalm 3:2 is the first of the 71 occurrences in the book (hebrew.mjs psalms --word 5542 lists it first); selah (H5542) stands at the end of verses 2, 4 and 8 and not verse 6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'סֶֽלָה'
+
+  # ---- note 3:3 ----
+  - where: 'note 3:3 “A covered head lifted”'
+    claim: 'David went up Olivet with his head covered, and so did the people with him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/15?lang=eng'
+    quote: 'and all the people that was with him covered every man his head, and they went up, weeping as they went up'
+  - where: 'note 3:3 “A covered head lifted”'
+    claim: 'The preposition (baad, H1157) means about, behind, on behalf of'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1157.htm'
+    quote: 'preposition away from, behind, about, on behalf of'
+  - where: 'note 3:3 “A covered head lifted”'
+    claim: 'It is used for making a hedge about something'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1157.htm'
+    quote: 'to make a hedge about'
+  - where: 'note 3:3 “A covered head lifted”'
+    claim: 'The NRSVUE renders “a shield around me”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%203&version=NRSVUE'
+    quote: 'But you, O Lord, are a shield around me,'
+  - where: 'note 3:3 “A covered head lifted”'
+    claim: 'David told his servants to flee Jerusalem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/15?lang=eng'
+    quote: 'Arise, and let us flee; for we shall not else escape from Absalom'
+  - where: 'note 3:3 “A covered head lifted”'
+    claim: 'The covered head of 2 Samuel 15:30 is set beside “the lifter up of mine head” (Delitzsch’s reading)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/3.htm'
+    quote: 'With covered head and dejected countenance he ascended the Mount of Olives (2 Samuel 15:30), but Jahve is the'
+  - where: 'note 3:3 “A covered head lifted”'
+    claim: '“My glory” answers the loss of the kingdom (Delitzsch’s reading)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/3.htm'
+    quote: 'His kingdom is taken from him, but Jahve is his glory.'
+
+  # ---- note 3:4 ----
+  - where: 'note 3:4 “The hill David had left”'
+    claim: 'The holy hill is Zion in Psalm 2:6'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/2?lang=eng'
+    quote: 'Yet have I set my king upon my holy hill of Zion.'
+  - where: 'note 3:4 “The hill David had left”'
+    claim: '“Holy hill” means the temple in this verse'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Verse 4 testifies of the power of prayer and temple worship (“holy hill” meaning “temple” in this verse).'
+  - where: 'note 3:4 “The hill David had left”'
+    claim: 'In David’s day the ark stood in the tent he had pitched for it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/6?lang=eng'
+    quote: 'set it in his place, in the midst of the tabernacle that David had pitched for it'
+  - where: 'note 3:4 “The hill David had left”'
+    claim: 'David sent the ark back into the city'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/15?lang=eng'
+    quote: 'And the king said unto Zadok, Carry back the ark of God into the city'
+
+  # ---- note 3:5 ----
+  - where: 'note 3:5 “Sleeping and waking”'
+    claim: '“Sustained” is samak, to prop'
+    key: strongs-concordance
+    url: 'https://biblehub.com/hebrew/5564.htm'
+    quote: 'A primitive root; to prop (literally or figuratively)'
+  - where: 'note 3:5 “Sleeping and waking”'
+    claim: 'Verse 5 is why the psalm is often taken as a morning prayer; it has parallels with Psalm 4'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'It contains a number of parallels with Psalm 4, which is generally interpreted as an evening prayer.'
+  - where: 'note 3:5 “Sleeping and waking”'
+    claim: 'Psalm 4 ends with lying down to sleep in safety'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/4?lang=eng'
+    quote: 'I will both lay me down in peace, and sleep'
+  - where: 'note 3:5 “Sleeping and waking”'
+    claim: 'Trust in the Lord’s protection lets the psalmist let go of fear and sleep'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Because of his trust in the Lord’s protective power, the psalmist is able to let go of his fears, relax, and sleep peacefully at night, knowing that God is watching over him (verse 5).'
+
+  # ---- note 3:7 Arise ----
+  - where: 'note 3:7 “The call Moses made”'
+    claim: 'Moses said “Rise up, Lord” when the ark set forward'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/10?lang=eng'
+    quote: 'when the ark set forward, that Moses said, Rise up, Lord, and let thine enemies be scattered'
+  - where: 'note 3:7 “The call Moses made”'
+    claim: 'Numbers 10:35 has qumah (H6965) followed by the divine name'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'קוּמָ֣/ה'
+  - where: 'note 3:7 “The call Moses made”'
+    claim: 'Psalm 3:7 has the same word (H6965, the same imperative form) followed by the divine name'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'ק֘וּמָ֤/ה'
+  - where: 'note 3:7 “The call Moses made”'
+    claim: '“Rise up” in verse 1 is the same verb (H6965)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קָמִ֥ים'
+
+  # ---- note 3:7 cheek ----
+  - where: 'note 3:7 “The cheek and the teeth”'
+    claim: 'The blow on the cheek joins contempt with rendering harmless (Delitzsch’s reading)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/3.htm'
+    quote: 'The idea of contempt (Job 16:10) is combined with that of rendering harmless in this "smiting upon the cheek."'
+  - where: 'note 3:7 “The cheek and the teeth”'
+    claim: 'The enemies are pictured as beasts that bite'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/3.htm'
+    quote: 'The enemies are conceived of as monsters given to biting, and the picture of their fate is fashioned according to this conception.'
+  - where: 'note 3:7 “The cheek and the teeth”'
+    claim: 'The perfects look back on experience and ground the plea'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/3.htm'
+    quote: 'the logical connection requires an appeal to previous experience in the present passage: they express facts of experience'
+  - where: 'note 3:7 “The cheek and the teeth”'
+    claim: '“Hast smitten” is a perfect (morphology HVhp2ms: verb, hiphil, perfect)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הִכִּ֣יתָ'
+  - where: 'note 3:7 “The cheek and the teeth”'
+    claim: '“Hast broken” is a perfect (morphology HVpp2ms: verb, piel, perfect)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שִׁבַּֽרְתָּ'
+  - where: 'note 3:7 “The cheek and the teeth”'
+    claim: 'The NRSVUE puts the line in the present'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%203&version=NRSVUE'
+    quote: 'For you strike all my enemies on the cheek;'
+
+  # ---- note 3:8 ----
+  - where: 'note 3:8 “A blessing on thy people”'
+    claim: '“People” in verse 6 is am (H5971)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עָ֑ם'
+  - where: 'note 3:8 “A blessing on thy people”'
+    claim: '“Thy people” in verse 8 is the same noun (H5971) with a suffix; the verse has no verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עַמְּ/ךָ֖'
+  - where: 'note 3:8 “A blessing on thy people”'
+    claim: '“The people” who increased with Absalom is the same noun (H5971)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/2Sam.xml'
+    quote: 'וְ/הָ/עָ֛ם'
+  - where: 'note 3:8 “A blessing on thy people”'
+    claim: 'The people increased with Absalom'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/15?lang=eng'
+    quote: 'the people increased continually with Absalom'
+  - where: 'note 3:8 “A blessing on thy people”'
+    claim: 'A verb has to be supplied in the last line'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/3.htm'
+    quote: 'Therefore he closes with the intercessory inference'
+  - where: 'note 3:8 “A blessing on thy people”'
+    claim: 'Read as a prayer, the line is intercession for the people who had been led astray (Delitzsch’s reading)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/3.htm'
+    quote: 'Instead of cursing his faithless people he implores a blessing upon those who have been piteously led astray and deceived.'
+  - where: 'note 3:8 “A blessing on thy people”'
+    claim: 'The NRSVUE renders it as a wish'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%203&version=NRSVUE'
+    quote: 'may your blessing be on your people!'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'Jehovah, the LORD of the Old Testament, is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: 'christ'
+    claim: 'When “Lord” appears in the Old Testament it usually means Jehovah'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Usually, when the word Lord appears in the Old Testament, it means “Jehovah.”'
+  - where: 'christ'
+    claim: 'The name Jesus is the Greek form of Jeshua, “God is help” or “Savior”'
+    key: bd-jesus
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jesus?lang=eng'
+    quote: 'The Greek form of the name Joshua or Jeshua, “God is help” or “Savior.”'
+  - where: 'christ'
+    claim: '“Help” in verse 2 is yeshuah, salvation'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3444.htm'
+    quote: 'noun feminine salvation'
+  - where: 'christ'
+    claim: 'The confession of verse 8 is the one made in Revelation 7:10'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/3.htm'
+    quote: 'salvation, in all its fulness (just so in Jonah 2:10, Revelation 7:10)'
+  - where: 'christ'
+    claim: 'The multitude of Revelation 7 is one that no man could number'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/7?lang=eng'
+    quote: 'a great multitude, which no man could number, of all nations, and kindreds, and people, and tongues'
+  - where: 'christ'
+    claim: 'The closing blessing has been set beside “Father, forgive them” (Delitzsch’s comparison)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/3.htm'
+    quote: 'has its counterpart in the "Father forgive them" of the other David, whom His people crucified'
+
+  # ---- parallels ----
+  - where: 'parallels'
+    claim: 'Numbers 10:35 was said when the ark set forward'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/10?lang=eng'
+    quote: 'when the ark set forward, that Moses said, Rise up, Lord'
+  - where: 'parallels'
+    claim: 'Ahithophel proposed to pursue David by night'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/17?lang=eng'
+    quote: 'I will arise and pursue after David this night'
