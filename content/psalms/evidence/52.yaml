@@ -1,0 +1,517 @@
+chapter: 52
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David and names the occasion as Doeg’s report to Saul'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/52?lang=eng'
+    quote: 'A Psalm of David, when Doeg the Edomite came and told Saul'
+  - where: setting
+    claim: 'It is one of eight psalms whose titles assign them to the time of Saul’s persecution of David'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/52.htm'
+    quote: 'are assigned to the time of his persecution by Saul'
+  - where: setting
+    claim: 'Psalms 52–55 are a run of four psalms each headed a Maschil of David'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/52.htm'
+    quote: 'begins a series of Elohimic'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: '“Goodness” in verse 1 is the Hebrew noun hesed'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֶ֥סֶד'
+  - where: thread
+    claim: '“Mercy” in verse 8 is the same noun, hesed'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְ/חֶֽסֶד'
+  - where: thread
+    claim: '“Trusted” in verse 7 and “I trust” in verse 8 are one Hebrew verb (Strong’s 982)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בָּטַ֥חְתִּי'
+  - where: thread
+    claim: 'The lexicon lists verse 8 among the places where men trust in God’s hesed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2617.htm'
+    quote: 'men should trust in it Psalm 13:6; Psalm 52:10'
+
+  # ---------- plain ----------
+  - where: 'section 1 plain'
+    claim: 'The Hebrew of verse 1 says “the kindness of God”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2052&version=NRSVUE'
+    quote: 'Heb the kindness of God'
+  - where: 'section 1 plain'
+    claim: '“Deviseth mischiefs” rendered as plotting ruin; “working deceitfully” addressed to a person'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2052&version=NRSVUE'
+    quote: 'you worker of treachery'
+  - where: 'section 1 plain'
+    claim: 'The razor is a sharpened one'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/52.htm'
+    quote: 'like a sharpened razor thou hast wrought deceit.'
+  - where: 'section 2 plain'
+    claim: 'The four verbs of verse 5: pull down, snatch up, tear away from a tent, root up'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2846.htm'
+    quote: 'shall snatch thee away, and pluck thee up tent-less.'
+  - where: 'section 2 plain'
+    claim: '“Dwelling place” is a tent, and “strength” in verse 7 is a refuge'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2052&version=NRSVUE'
+    quote: 'he will snatch and tear you from your tent'
+  - where: 'section 2 plain'
+    claim: '“Strengthened himself in his wickedness” as growing strong through evil desire'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1942.htm'
+    quote: 'became strong through his (evil) desire'
+  - where: 'section 3 plain'
+    claim: '“Green” is luxuriant, fresh'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7488.htm'
+    quote: 'adjective luxuriant, fresh'
+  - where: 'section 3 plain'
+    claim: '“Praise” rendered “thank”; “saints” rendered “the faithful”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2052&version=NRSVUE'
+    quote: 'I will thank you forever'
+
+  # ---------- note 52:0 ----------
+  - where: 'note 52:0 “What Doeg told, and what it cost”'
+    claim: 'The wording of the title'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/52?lang=eng'
+    quote: 'when Doeg the Edomite came and told Saul, and said unto him, David is come to the house of Ahimelech.'
+  - where: 'note 52:0 “What Doeg told, and what it cost”'
+    claim: 'David came alone to Ahimelech the priest at Nob and was given the hallowed bread; Doeg, Saul’s chief herdsman, was there'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/21?lang=eng'
+    quote: 'and his name was Doeg, an Edomite, the chiefest of the herdmen that belonged to Saul.'
+  - where: 'note 52:0 “What Doeg told, and what it cost”'
+    claim: 'David came to Nob alone'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/21?lang=eng'
+    quote: 'Why art thou alone, and no man with thee?'
+  - where: 'note 52:0 “What Doeg told, and what it cost”'
+    claim: 'The tabernacle stood at Nob, a city of priests'
+    key: bd-nob
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/nob?lang=eng'
+    quote: 'Priestly city in Benjamin, north of Jerusalem, one of the places where the tabernacle stood before the building of the temple'
+  - where: 'note 52:0 “What Doeg told, and what it cost”'
+    claim: 'Doeg’s report to Saul'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/22?lang=eng'
+    quote: 'I saw the son of Jesse coming to Nob, to Ahimelech the son of Ahitub.'
+  - where: 'note 52:0 “What Doeg told, and what it cost”'
+    claim: 'Saul sentenced Ahimelech and his father’s house; his footmen refused to kill the priests; David was in flight'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/22?lang=eng'
+    quote: 'because they knew when he fled, and did not shew it to me'
+  - where: 'note 52:0 “What Doeg told, and what it cost”'
+    claim: 'Doeg killed eighty-five priests'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/22?lang=eng'
+    quote: 'slew on that day fourscore and five persons that did wear a linen ephod.'
+  - where: 'note 52:0 “What Doeg told, and what it cost”'
+    claim: 'Nob was put to the sword, people and animals'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/22?lang=eng'
+    quote: 'And Nob, the city of the priests, smote he with the edge of the sword'
+  - where: 'note 52:0 “What Doeg told, and what it cost”'
+    claim: 'Abiathar escaped to David, who took the deaths on himself'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/22?lang=eng'
+    quote: 'I have occasioned the death of all the persons of thy father’s house.'
+
+  # ---------- note 52:1 mighty man ----------
+  - where: 'note 52:1 “A hero, said with scorn”'
+    claim: 'The word in verse 1 is gibbor'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַ/גִּבּ֑וֹר'
+  - where: 'note 52:1 “A hero, said with scorn”'
+    claim: 'Gibbor is a strong, valiant man, a warrior; the lexicon lists this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1368.htm'
+    quote: 'noun masculine strong, valiant man'
+  - where: 'note 52:1 “A hero, said with scorn”'
+    claim: 'One reading: the title is sarcastic, since Doeg boasts of wickedness as a heroic act'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/52.htm'
+    quote: 'It is bad enough to behave wickedly, but bad in the extreme to boast of it at the same time as an heroic act.'
+  - where: 'note 52:1 “A hero, said with scorn”'
+    claim: 'He is “sarcastically called” by the word'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/52.htm'
+    quote: 'Hence he is sarcastically called'
+  - where: 'note 52:1 “A hero, said with scorn”'
+    claim: '“The man” in verse 7 is geber, a different word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַ/גֶּ֗בֶר'
+  - where: 'note 52:1 “A hero, said with scorn”'
+    claim: 'Geber is man as strong, the defender of those who cannot fight'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1397.htm'
+    quote: 'man as strong, distinguished from women, children, and non-combatants whom he is to defend, chiefly poetic'
+  - where: 'note 52:1 “A hero, said with scorn”'
+    claim: 'The ground of the scorn in this reading: Doeg caused a massacre by his tongue, not by the strength of his hand'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/52.htm'
+    quote: 'not, however, by the strength of his hand, but by the cunning of his tongue'
+
+  # ---------- note 52:1 goodness ----------
+  - where: 'note 52:1 “The kindness of God, all day long”'
+    claim: 'The Hebrew clause is four words: hesed, El, “all,” “the day”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֶ֥סֶד'
+  - where: 'note 52:1 “The kindness of God, all day long”'
+    claim: 'The last word of the clause is “the day”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַ/יּֽוֹם'
+  - where: 'note 52:1 “The kindness of God, all day long”'
+    claim: 'The lexicon files the clause under God’s hesed as everlasting'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2617.htm'
+    quote: 'c. everlasting:'
+  - where: 'note 52:1 “The kindness of God, all day long”'
+    claim: 'The Greek has no “goodness of God”; its verse ends “All the day”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/52.htm'
+    quote: 'Why dost thou, O mighty man, boast of iniquity in thy mischief? All the day'
+  - where: 'note 52:1 “The kindness of God, all day long”'
+    claim: 'A modern translation follows a corrected text'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2052&version=NRSVUE'
+    quote: 'of mischief done against the godly?'
+  - where: 'note 52:1 “The kindness of God, all day long”'
+    claim: 'Its footnote records the Hebrew as “the kindness of God”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2052&version=NRSVUE'
+    quote: 'Cn Compare Syr: Heb the kindness of God'
+  - where: 'note 52:1 “The kindness of God, all day long”'
+    claim: 'The same noun returns in verse 8'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְ/חֶֽסֶד'
+
+  # ---------- note 52:2 razor ----------
+  - where: 'note 52:2 “The psalm indicts the tongue, not the sword”'
+    claim: 'The Hebrew word is a razor, used here as a simile of the tongue'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8593.htm'
+    quote: '(simile of tongue)'
+  - where: 'note 52:2 “The psalm indicts the tongue, not the sword”'
+    claim: 'The razor is a sharpened one'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/52.htm'
+    quote: 'like a sharpened razor thou hast wrought deceit.'
+  - where: 'note 52:2 “The psalm indicts the tongue, not the sword”'
+    claim: 'In 1 Samuel Doeg fell upon the priests himself'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/22?lang=eng'
+    quote: 'And Doeg the Edomite turned, and he fell upon the priests'
+  - where: 'note 52:2 “The psalm indicts the tongue, not the sword”'
+    claim: 'Doeg reported what he saw: the inquiry, the food, the sword'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/22?lang=eng'
+    quote: 'gave him victuals, and gave him the sword of Goliath the Philistine.'
+  - where: 'note 52:2 “The psalm indicts the tongue, not the sword”'
+    claim: 'Saul heard a conspiracy in the report'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/22?lang=eng'
+    quote: 'Why have ye conspired against me, thou and the son of Jesse'
+  - where: 'note 52:2 “The psalm indicts the tongue, not the sword”'
+    claim: 'Ahimelech answered that he knew nothing of it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/22?lang=eng'
+    quote: 'for thy servant knew nothing of all this, less or more.'
+  - where: 'note 52:2 “The psalm indicts the tongue, not the sword”'
+    claim: 'The title names the telling as the occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/52?lang=eng'
+    quote: 'when Doeg the Edomite came and told Saul'
+
+  # ---------- note 52:5 ----------
+  - where: 'note 52:5 “Four verbs of demolition”'
+    claim: 'The first verb is used of pulling down a structure: an altar, a tower, a house, a city wall'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5422.htm'
+    quote: 'literally pull down a structure'
+  - where: 'note 52:5 “Four verbs of demolition”'
+    claim: 'It is used figuratively of a person, with God as subject, in this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5422.htm'
+    quote: 'b. an individual, subject God,'
+  - where: 'note 52:5 “Four verbs of demolition”'
+    claim: 'The second verb is to snatch up, usually of fire or coals'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2846.htm'
+    quote: 'verb snatch up, usually fire, coals'
+  - where: 'note 52:5 “Four verbs of demolition”'
+    claim: 'The third verb is to pull or tear away; the lexicon renders the clause as leaving him without a tent'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5255.htm'
+    quote: 'verb pull or tear away'
+  - where: 'note 52:5 “Four verbs of demolition”'
+    claim: 'The lexicon renders the clause as leaving him without a tent'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2846.htm'
+    quote: 'shall snatch thee away, and pluck thee up tent-less.'
+  - where: 'note 52:5 “Four verbs of demolition”'
+    claim: 'The same verb is in Deuteronomy 28:63'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5255.htm'
+    quote: 'Deuteronomy 28:63 and ye shall be torn away from off the land.'
+  - where: 'note 52:5 “Four verbs of demolition”'
+    claim: 'The fourth verb is made from the noun for a root'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8327.htm'
+    quote: '= deal with the roots'
+  - where: 'note 52:5 “Four verbs of demolition”'
+    claim: 'The lexicon’s rendering of the fourth clause'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8327.htm'
+    quote: 'Psalm 52:7 he shall root thee up from'
+  - where: 'note 52:5 “Four verbs of demolition”'
+    claim: '“Dwelling place” is the Hebrew word for a tent'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2052&version=NRSVUE'
+    quote: 'he will snatch and tear you from your tent'
+  - where: 'note 52:5 “Four verbs of demolition”'
+    claim: 'The Greek makes the verse a wish'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/52.htm'
+    quote: 'Therefore may God destroy thee for ever'
+  - where: 'note 52:5 “Four verbs of demolition”'
+    claim: 'Deuteronomy’s covenant curse uses “plucked from off the land”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/28?lang=eng'
+    quote: 'and ye shall be plucked from off the land whither thou goest to possess it.'
+
+  # ---------- note 52:6 ----------
+  - where: 'note 52:6 “What the righteous laugh at”'
+    claim: 'The verb is to laugh at, usually in contempt or derision; this verse is listed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7832.htm'
+    quote: 'laugh at, usually in contempt, derision'
+  - where: 'note 52:6 “What the righteous laugh at”'
+    claim: 'One reading: the laughter is joy that justice has at last broken through'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/52.htm'
+    quote: 'the laughing is joy at the ultimate breaking through of justice long hidden and not discerned'
+  - where: 'note 52:6 “What the righteous laugh at”'
+    claim: 'The Old Testament’s own teaching condemns gloating over a fallen enemy'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/52.htm'
+    quote: 'reprobates the low malignant joy that glories at the overthrow of one''s enemy'
+  - where: 'note 52:6 “What the righteous laugh at”'
+    claim: 'Proverbs 24:17'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/prov/24?lang=eng'
+    quote: 'Rejoice not when thine enemy falleth, and let not thine heart be glad when he stumbleth'
+  - where: 'note 52:6 “What the righteous laugh at”'
+    claim: '“See” and “fear” are a play of sounds in the Hebrew'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/52.htm'
+    quote: 'The righteous will be strengthened in the fear of God (for the play of sounds cf. Psalm 40:4)'
+  - where: 'note 52:6 “What the righteous laugh at”'
+    claim: 'The Greek and a modern translation mark verse 7 as what the righteous say'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/52.htm'
+    quote: 'and shall laugh at him, and say,'
+
+  # ---------- note 52:7 ----------
+  - where: 'note 52:7 “A refuge made of wealth”'
+    claim: '“Strength” is a place or means of safety'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4581.htm'
+    quote: 'place or means of safety, protection'
+  - where: 'note 52:7 “A refuge made of wealth”'
+    claim: 'The lexicon lists this verse among those where God is the refuge'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4581.htm'
+    quote: '2. a. figurative, of God'
+  - where: 'note 52:7 “A refuge made of wealth”'
+    claim: 'A modern translation has “take refuge”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2052&version=NRSVUE'
+    quote: 'refuge in God'
+  - where: 'note 52:7 “A refuge made of wealth”'
+    claim: '“Wickedness” here is the noun translated “mischiefs” in verse 2 (Strong’s 1942 in both)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/הַוָּת/וֹ'
+  - where: 'note 52:7 “A refuge made of wealth”'
+    claim: 'The noun in verse 2'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַ֭וּוֹת'
+  - where: 'note 52:7 “A refuge made of wealth”'
+    claim: 'The lexicon takes the word in verse 7 as evil desire, and in verse 2 as ruin worked by one against another'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1942.htm'
+    quote: 'became strong through his (evil) desire'
+  - where: 'note 52:7 “A refuge made of wealth”'
+    claim: 'The plural means ruin, especially as worked or planned against another'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1942.htm'
+    quote: 'especially as wrought, or meditated, by one against another'
+  - where: 'note 52:7 “A refuge made of wealth”'
+    claim: 'A modern translation reads “wealth,” following the Syriac and the Targum, and records the Hebrew as “in his destruction”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2052&version=NRSVUE'
+    quote: 'Syr Tg: Heb in his destruction'
+  - where: 'note 52:7 “A refuge made of wealth”'
+    claim: 'Its text of the line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2052&version=NRSVUE'
+    quote: 'and sought refuge in wealth!'
+  - where: 'note 52:7 “A refuge made of wealth”'
+    claim: 'The reading “wealth” has been preferred (the lexicon’s “read rather”)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1942.htm'
+    quote: '(but read rather with'
+  - where: 'note 52:7 “A refuge made of wealth”'
+    claim: 'What 1 Samuel says of Doeg’s standing'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/21?lang=eng'
+    quote: 'the chiefest of the herdmen that belonged to Saul.'
+  - where: 'note 52:7 “A refuge made of wealth”'
+    claim: 'The verb “trusted” (Strong’s 982) is the verb of “I trust” in verse 8'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַ֭/יִּבְטַח'
+
+  # ---------- note 52:8 ----------
+  - where: 'note 52:8 “The tree that is not uprooted”'
+    claim: '“Green” is luxuriant, fresh, said of trees; this verse and Jeremiah 11:16 are listed for the olive'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7488.htm'
+    quote: 'adjective luxuriant, fresh'
+  - where: 'note 52:8 “The tree that is not uprooted”'
+    claim: 'The Greek has “fruitful”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/52.htm'
+    quote: 'But I am as a fruitful olive in the house of God'
+  - where: 'note 52:8 “The tree that is not uprooted”'
+    claim: 'The verb of verse 5 is made from the word for roots'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8327.htm'
+    quote: '= deal with the roots'
+  - where: 'note 52:8 “The tree that is not uprooted”'
+    claim: 'Psalm 92 plants the righteous in the house of the Lord'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/92?lang=eng'
+    quote: 'Those that be planted in the house of the'
+  - where: 'note 52:8 “The tree that is not uprooted”'
+    claim: 'Jeremiah 11:16 gives the name to Judah and then burns the tree'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/11?lang=eng'
+    quote: 'he hath kindled fire upon it, and the branches of it are broken.'
+  - where: 'note 52:8 “The tree that is not uprooted”'
+    claim: 'Nob was one of the places where the tabernacle stood'
+    key: bd-nob
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/nob?lang=eng'
+    quote: 'one of the places where the tabernacle stood before the building of the temple'
+  - where: 'note 52:8 “The tree that is not uprooted”'
+    claim: 'Nob, the city of the priests, was put to the sword'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/22?lang=eng'
+    quote: 'And Nob, the city of the priests, smote he with the edge of the sword'
+  - where: 'note 52:8 “The tree that is not uprooted”'
+    claim: 'The tree of Psalm 1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/1?lang=eng'
+    quote: 'And he shall be like a tree planted by the rivers of water'
+
+  # ---------- note 52:9 ----------
+  - where: 'note 52:9 “Done, with no object, and a doubtful “wait””'
+    claim: 'The Hebrew verb “thou hast done” stands with no object'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עָשִׂ֑יתָ'
+  - where: 'note 52:9 “Done, with no object, and a doubtful “wait””'
+    claim: 'Psalm 22 ends on the same verb'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/22?lang=eng'
+    quote: 'unto a people that shall be born, that he hath done this.'
+  - where: 'note 52:9 “Done, with no object, and a doubtful “wait””'
+    claim: 'One reading: what God has done is to carry out what He intended in choosing David'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/52.htm'
+    quote: 'to the gracious and just carrying out of that which was aimed at in the election of David'
+  - where: 'note 52:9 “Done, with no object, and a doubtful “wait””'
+    claim: 'The objection to “wait”: what he does before the saints should be audible or visible'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/52.htm'
+    quote: 'what he intends to do in the presence of the saints must be something that is audible or visible to them'
+  - where: 'note 52:9 “Done, with no object, and a doubtful “wait””'
+    claim: 'The lexicon gives the verb as wait with the name as object, and prefers another reading'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6960.htm'
+    quote: 'Psalm 52:11 (but read probably'
+  - where: 'note 52:9 “Done, with no object, and a doubtful “wait””'
+    claim: 'A modern translation prints “proclaim” and records the Hebrew as “wait for”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2052&version=NRSVUE'
+    quote: 'I will proclaim your name, for it is good.'
+  - where: 'note 52:9 “Done, with no object, and a doubtful “wait””'
+    claim: 'Its footnote'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2052&version=NRSVUE'
+    quote: 'Cn: Heb wait for'
+  - where: 'note 52:9 “Done, with no object, and a doubtful “wait””'
+    claim: 'The Greek has “wait,” as the Hebrew does'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/52.htm'
+    quote: 'and I will wait on thy name; for it is good before the saints.'
+  - where: 'note 52:9 “Done, with no object, and a doubtful “wait””'
+    claim: '“Saints” is hasidim'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֲסִידֶֽי/ךָ'
+
+  # ---------- christ / explore / parallels ----------
+  - where: christ
+    claim: 'Hesed stands in verses 1 and 8'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְ/חֶֽסֶד'
+  - where: christ
+    claim: 'Jehovah is the covenant name of the God of Israel, and Jehovah is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'The covenant or proper name of the God of Israel.'
+  - where: christ
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: explore
+    claim: 'The other psalms whose titles place them in the time of Saul’s pursuit'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/52.htm'
+    quote: 'are assigned to the time of his persecution by Saul'
+  - where: explore
+    claim: 'Paul and Zenos use the olive tree for Israel and the Gentiles'
+    key: bd-olive-tree
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/olive-tree?lang=eng'
+    quote: 'Using the olive tree in an allegorical sense to illustrate Israel and the Gentiles is also done by Zenos, as quoted by Jacob 5.'
+  - where: parallels
+    claim: 'Deuteronomy 28:63 has the verb of verse 5'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5255.htm'
+    quote: 'Deuteronomy 28:63 and ye shall be torn away from off the land.'
+  - where: parallels
+    claim: 'Psalm 92:12–14 plants the righteous in the house of the Lord'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/92?lang=eng'
+    quote: 'They shall still bring forth fruit in old age; they shall be fat and flourishing'
