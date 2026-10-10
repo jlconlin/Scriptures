@@ -54,16 +54,6 @@ claims:
 
   # ---------- thread ----------
   - where: thread
-    claim: '“Stood fast” in verse 9 is the Hebrew verb amad (Strong’s 5975)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'וַֽ/יַּעֲמֹֽד'
-  - where: thread
-    claim: '“Standeth” in verse 11 is the same verb (Strong’s 5975)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'תַּעֲמֹ֑ד'
-  - where: thread
     claim: 'The last verse addresses the LORD in the second person (“to thee”)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
