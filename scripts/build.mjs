@@ -8,7 +8,9 @@ import path from 'node:path';
 import YAML from 'yaml';
 import { md, plain, unknownRefs } from '../src/lib/markdown.mjs';
 import { applyCitations, stripCitations } from '../src/lib/citations.mjs';
-import { renderChapter, range } from '../src/templates/chapter.mjs';
+import { renderChapter, range, chapterLabel } from '../src/templates/chapter.mjs';
+// A note's reference as a reader sees it; verse 0 is a psalm's title.
+const noteRef = (book, chapter, ref) => (String(ref) === '0' ? `${chapterLabel(book, chapter)}, title` : `${chapterLabel(book, chapter)}:${ref}`);
 import { renderFacsimile, facsimileUrl } from '../src/templates/facsimile.mjs';
 import { discoverBooks } from '../src/lib/books.mjs';
 import { VOLUMES, placeOf } from '../src/lib/canon.mjs';
@@ -110,6 +112,11 @@ export async function build({ quiet = false } = {}) {
     const kjvFile = r(`data/kjv/${book.slug}.json`);
     if (!existsSync(kjvFile)) throw new Error(`content/${book.slug}: missing data/kjv/${book.slug}.json (node scripts/fetch-kjv.mjs)`);
     book.kjv = JSON.parse(await readFile(kjvFile, 'utf8'));
+    // The titles above the psalms and Psalm 119's stanza letters (scripts/fetch-psalm-titles.mjs); optional.
+    const titlesFile = r(`data/kjv/${book.slug}.titles.json`);
+    const titleData = existsSync(titlesFile) ? JSON.parse(await readFile(titlesFile, 'utf8')) : {};
+    book.kjv.titles = titleData.titles ?? {};
+    book.kjv.stanzas = titleData.stanzas ?? {};
     // Book of Mormon comparison data is optional; chapters without it simply have no BoM panel.
     const bomFile = r(`data/bom/${book.slug}-parallels.json`);
     book.bomParallels = existsSync(bomFile) ? JSON.parse(await readFile(bomFile, 'utf8')).chapters : {};
@@ -215,11 +222,14 @@ export async function build({ quiet = false } = {}) {
         next: book.written[i + 1],
         warn: (m) => warn(`${book.name} ${ch.chapter}: ${m}`),
         bom: book.bomParallels[ch.chapter],
+        title: kjv.titles[ch.chapter],
+        stanzas: kjv.stanzas[ch.chapter],
       });
-      search.push({ t: 'chapter', b: slug, r: `${book.name} ${ch.chapter}`, h: plain(ch.title), u: `/${slug}/${ch.chapter}/`, x: plain(`${ch.tagline ?? ''} ${ch.setting ?? ''} ${ch.thread ?? ''}`).slice(0, 1200) });
-      verses.forEach((v, j) => search.push({ t: 'verse', b: slug, r: `${book.name} ${ch.chapter}:${j + 1}`, u: `/${slug}/${ch.chapter}/#v${j + 1}`, x: v }));
+      search.push({ t: 'chapter', b: slug, r: chapterLabel(book, ch.chapter), h: plain(ch.title), u: `/${slug}/${ch.chapter}/`, x: plain(`${ch.tagline ?? ''} ${ch.setting ?? ''} ${ch.thread ?? ''}`).slice(0, 1200) });
+      if (kjv.titles[ch.chapter]) search.push({ t: 'verse', b: slug, r: `${chapterLabel(book, ch.chapter)}, title`, u: `/${slug}/${ch.chapter}/#v0`, x: kjv.titles[ch.chapter] });
+      verses.forEach((v, j) => search.push({ t: 'verse', b: slug, r: `${chapterLabel(book, ch.chapter)}:${j + 1}`, u: `/${slug}/${ch.chapter}/#v${j + 1}`, x: v }));
       (ch.notes ?? []).forEach((n) =>
-        search.push({ t: 'note', b: slug, k: n.kind, r: `${book.name} ${ch.chapter}:${n.ref}`, h: plain(n.title ?? n.phrase ?? ''), u: `/${slug}/${ch.chapter}/#${n.id}`, x: plain(n.body) }),
+        search.push({ t: 'note', b: slug, k: n.kind, r: noteRef(book, ch.chapter, n.ref), h: plain(n.title ?? n.phrase ?? ''), u: `/${slug}/${ch.chapter}/#${n.id}`, x: plain(n.body) }),
       );
       return write(`${slug}/${ch.chapter}/index.html`, html);
     });
@@ -270,7 +280,7 @@ export async function build({ quiet = false } = {}) {
   // c: chapter, r: verse ref, i: id, k: kind, p: phrase, x: opening text.
   const noteList = books.map((book) => ({
     b: book.slug,
-    n: book.name,
+    n: book.unit?.singular ?? book.name,
     notes: book.chapters.flatMap((ch) => (ch.notes ?? []).map((n) => ({ c: ch.chapter, r: n.ref, i: n.id, k: n.kind, p: n.phrase, x: teaserText(n) }))),
   }));
   await write('notes.json', JSON.stringify(noteList));

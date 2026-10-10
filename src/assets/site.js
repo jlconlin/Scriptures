@@ -309,7 +309,7 @@
       const chips = Object.fromEntries($$('template.teaser-chip').map((t) => [t.dataset.kind, t.innerHTML]));
       const href = (n) => `${url(`${n.b}/${n.c}/`)}#${n.i}`;
       const card = (n) =>
-        `<a class="teaser k-${n.k}" href="${href(n)}">${chips[n.k]}<span class="teaser-phrase">“${esc(n.p)}”</span><span class="teaser-ref">${esc(n.n)} ${n.c}:${n.r}</span><span class="teaser-text">${esc(n.x)}…</span></a>`;
+        `<a class="teaser k-${n.k}" href="${href(n)}">${chips[n.k]}<span class="teaser-phrase">“${esc(n.p)}”</span><span class="teaser-ref">${esc(n.n)} ${n.c}${n.r === 0 ? ', title' : `:${n.r}`}</span><span class="teaser-text">${esc(n.x)}…</span></a>`;
       let notes = null;
       const load = async () => {
         const res = await fetch(`${sm.dataset.root}notes.json`);

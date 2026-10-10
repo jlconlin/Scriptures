@@ -107,7 +107,7 @@ Files for a book: `content/<book>/book.yaml`, `chapters/`, `guides/`, `themes/`,
 
 Each note has:
 
-- `ref`: the verse.
+- `ref`: the verse. In Psalms, `ref: 0` is the psalm's title (“A Psalm of David, when he fled from Absalom his son”), which the page shows above verse 1 with no number; `phrase` is then a substring of the title as `data/kjv/psalms.titles.json` has it (`node scripts/show.mjs psalms <n>` prints it as verse 0), and the note's ledger rows say `note <psalm>:0 “<title of the note>”`.
 - `phrase`: an **exact** substring of that verse, in the spellings of `data/kjv/<book>.json` (the Latter-day Saint edition). Phrases in the same verse must not overlap.
 - `kind`: see “Note kinds.”
 - `title`: plain and descriptive.

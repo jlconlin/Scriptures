@@ -7,6 +7,8 @@ order: 12
 abbr: ps                 # [[Ps. 23:1]] links here
 gospelLibrary: ot/ps
 eyebrow: The Old Testament
+# What one chapter is called on the pages (“Psalm 23 of 150”); the default is “Chapter”.
+unit: { singular: Psalm, plural: psalms }
 heroQuote:
   text: '“The LORD is my shepherd; I shall not want.”'
   cite: 'A Psalm of David, [[Ps. 23:1]]'

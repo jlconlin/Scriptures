@@ -42,7 +42,12 @@ if (page.error) { console.error(`${page.error}: ${url}`); process.exit(1); }
 console.log(`${page.title || `${book.name} ${chapter}`}: ${url}\n`);
 const summary = page.heads.find((h) => h.level === 2) ?? page.heads.at(-1), bookHead = page.heads.find((h) => h.level === 1 && h !== summary);
 if (bookHead) console.log(`Book heading: ${bookHead.text}`);
-console.log(`Chapter heading: ${summary?.text ?? '(none)'}\n`);
+console.log(`Chapter heading: ${summary?.text ?? '(none)'}`);
+// A psalm's title (data/kjv/<slug>.titles.json): on the site it is verse 0, and a note with `ref: 0` hangs on it.
+const titlesFile = path.join(ROOT, 'data/kjv', `${slug}.titles.json`);
+const psalmTitle = existsSync(titlesFile) ? JSON.parse(await readFile(titlesFile, 'utf8')).titles?.[chapter] : null;
+if (existsSync(titlesFile)) console.log(`Title (verse 0 on the site): ${psalmTitle ?? '(none)'}`);
+console.log('');
 const jst = page.notes.filter((n) => n.jst);
 console.log(`Footnotes: ${page.notes.length}${jst.length ? `; Joseph Smith Translation: ${jst.length} (${jst.map((n) => n.marker).join(', ')})` : '; no Joseph Smith Translation footnotes'}`);
 const byVerse = new Map();

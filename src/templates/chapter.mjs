@@ -102,9 +102,21 @@ function bomNoteHtml(b, sources) {
 </aside>`;
 }
 
-export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom }) {
+/**
+ * What one chapter of a book is called: “Isaiah 53”, but “Psalm 23” where book.yaml has
+ * `unit: { singular: Psalm, plural: psalms }`.
+ */
+export const chapterLabel = (book, n) => `${book.unit?.singular ?? book.name} ${n}`;
+export const unitPlural = (book) => book.unit?.plural ?? 'chapters';
+
+/**
+ * `title` is the line above verse 1 of a psalm (“A Psalm of David, …”), shown before the first verse
+ * with no number; a note with `ref: 0` hangs on its words. `stanzas` maps a verse to the Hebrew
+ * letter that heads the stanza it opens (Psalm 119). Both come from data/kjv/<slug>.titles.json.
+ */
+export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom, title, stanzas }) {
   const n = ch.chapter;
-  const chapterName = `${book.name} ${n}`;
+  const chapterName = chapterLabel(book, n);
   const division = book.divisions.find((d) => n >= d.range[0] && n <= d.range[1]);
 
   // Assign ids and index notes by verse
@@ -113,7 +125,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
     note.id = `n${n}-${idx + 1}`;
     note.v = range(note.ref)[0];
     if (!KINDS[note.kind]) warn(`unknown note kind “${note.kind}” at ${n}:${note.ref}`);
-    if (note.v < 1 || note.v > verses.length) warn(`note ref out of range: ${n}:${note.ref}`);
+    if (note.v < (title ? 0 : 1) || note.v > verses.length) warn(`note ref out of range: ${n}:${note.ref}`);
     if (!byVerse.has(note.v)) byVerse.set(note.v, []);
     byVerse.get(note.v).push(note);
   });
@@ -153,7 +165,16 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
     .map((s, si) => {
       const [a, b] = range(s.range);
       const vs = [];
+      if (si === 0 && title) {
+        const notes = byVerse.get(0) ?? [];
+        vs.push(`<div class="verse-block">
+  <p class="verse psalm-title" id="v0">${highlightVerse(title, notes, (m) => warn(`${n} title: ${m}`))}</p>
+  ${notes.map((x) => noteHtml(x, sources)).join('\n')}
+</div>`);
+      }
       for (let v = a; v <= b && v <= verses.length; v++) {
+        const stanza = stanzas?.[v];
+        if (stanza) vs.push(`<p class="stanza-letter"><span lang="he" dir="rtl">${esc(stanza.letter)}</span> ${esc(stanza.name)}</p>`);
         const notes = byVerse.get(v) ?? [];
         const loose = notes.filter((x) => !x.phrase);
         const text = highlightVerse(verses[v - 1], notes, (m) => warn(`${n}:${v} ${m}`));
@@ -177,7 +198,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
       return `<section class="passage" id="s${si + 1}" aria-labelledby="s${si + 1}h">
   <header class="passage-head">
     <span class="passage-range">${label}</span>
-    <h2 id="s${si + 1}h">${mdInline(s.heading || `${book.name} ${n}`)}</h2>
+    <h2 id="s${si + 1}h">${mdInline(s.heading || chapterName)}</h2>
   </header>
   ${s.plain ? `<div class="plain"><span class="plain-label">${esc(sectionTitle('plain'))}</span>${md(s.plain)}</div>` : ''}
   <div class="verses">${vs.join('\n')}</div>
@@ -205,8 +226,8 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
   const dial = book.chapters
     .map((c) => {
       const d = book.divisions.find((d) => c.chapter >= d.range[0] && c.chapter <= d.range[1]);
-      if (c.draft) return `<a href="${gospelLibraryUrl(book, c.chapter)}" class="tick unwritten" target="_blank" rel="noopener" style="--c:var(--div-${d.key})" aria-label="${esc(book.name)} ${c.chapter}: commentary coming; opens the Gospel Library" data-label="${esc(book.name)} ${c.chapter}: commentary coming" data-div="Opens the Gospel Library"></a>`;
-      return `<a href="/${book.slug}/${c.chapter}/" class="tick${c.chapter === n ? ' current' : ''}" style="--c:var(--div-${d.key})" aria-label="${esc(book.name)} ${c.chapter}: ${esc(plain(c.title))}${c.chapter === n ? ' (this chapter)' : ''}" data-ch="${c.chapter}" data-label="${esc(book.name)} ${c.chapter}: ${esc(plain(c.title))}" data-div="${esc(d.name)}"></a>`;
+      if (c.draft) return `<a href="${gospelLibraryUrl(book, c.chapter)}" class="tick unwritten" target="_blank" rel="noopener" style="--c:var(--div-${d.key})" aria-label="${esc(chapterLabel(book, c.chapter))}: commentary coming; opens the Gospel Library" data-label="${esc(chapterLabel(book, c.chapter))}: commentary coming" data-div="Opens the Gospel Library"></a>`;
+      return `<a href="/${book.slug}/${c.chapter}/" class="tick${c.chapter === n ? ' current' : ''}" style="--c:var(--div-${d.key})" aria-label="${esc(chapterLabel(book, c.chapter))}: ${esc(plain(c.title))}${c.chapter === n ? ` (this ${book.unit ? book.unit.singular.toLowerCase() : 'chapter'})` : ''}" data-ch="${c.chapter}" data-label="${esc(chapterLabel(book, c.chapter))}: ${esc(plain(c.title))}" data-div="${esc(d.name)}"></a>`;
     })
     .join('');
 
@@ -217,11 +238,11 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
   <header class="chapter-hero">
     <div class="wrap">
       <nav class="crumbs" aria-label="Breadcrumb"><a href="/${book.slug}/">${esc(book.name)}</a> <span>›</span> <a href="/${book.slug}/#${division.key}">${esc(division.name)}</a></nav>
-      <p class="eyebrow">${esc(book.name)} <span class="ch-num">${n}</span></p>
+      <p class="eyebrow">${esc(book.unit?.singular ?? book.name)} <span class="ch-num">${n}</span></p>
       <h1>${mdInline(ch.title)}</h1>
       ${ch.tagline ? `<p class="tagline">${mdInline(ch.tagline)}</p>` : ''}
       ${lastRevised(ch.updated)}
-      <div class="dial-wrap"><div class="dial-context"><span>${esc(book.name)} chapters</span><strong>Chapter ${n} of ${book.chapters.length}</strong></div><div class="dial-label" aria-hidden="true" hidden></div><div class="dial" style="--n:${book.chapters.length}" aria-label="Chapters of ${esc(book.name)}">${dial}</div></div>
+      <div class="dial-wrap"><div class="dial-context"><span>${book.unit ? `The ${esc(unitPlural(book))}` : `${esc(book.name)} chapters`}</span><strong>${esc(book.unit?.singular ?? 'Chapter')} ${n} of ${book.chapters.length}</strong></div><div class="dial-label" aria-hidden="true" hidden></div><div class="dial" style="--n:${book.chapters.length}" aria-label="${book.unit ? `The ${esc(unitPlural(book))}` : `Chapters of ${esc(book.name)}`}">${dial}</div></div>
       <div class="hero-meta">
         ${ch.when ? `<span>${icon('history')} ${mdInline(ch.when)}</span>` : ''}
         ${ch.parallels?.some((p) => p.primary) ? `<span>${icon('restoration')} Also in ${mdInline(ch.parallels.filter((p) => p.primary).map((p) => `[[${p.ref}]]`).join(', '))}</span>` : ''}
@@ -265,8 +286,8 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
 
 
       <nav class="pager" aria-label="Chapter navigation">
-        ${prev ? `<a class="pager-prev" href="/${book.slug}/${prev.chapter}/">${icon('arrowL')}<span><small>${esc(book.name)} ${prev.chapter}</small>${esc(prev.title)}</span></a>` : '<span></span>'}
-        ${next ? `<a class="pager-next" href="/${book.slug}/${next.chapter}/"><span><small>${esc(book.name)} ${next.chapter}</small>${esc(next.title)}</span>${icon('arrowR')}</a>` : '<span></span>'}
+        ${prev ? `<a class="pager-prev" href="/${book.slug}/${prev.chapter}/">${icon('arrowL')}<span><small>${esc(chapterLabel(book, prev.chapter))}</small>${esc(prev.title)}</span></a>` : '<span></span>'}
+        ${next ? `<a class="pager-next" href="/${book.slug}/${next.chapter}/"><span><small>${esc(chapterLabel(book, next.chapter))}</small>${esc(next.title)}</span>${icon('arrowR')}</a>` : '<span></span>'}
       </nav>
     </div>
   </div>

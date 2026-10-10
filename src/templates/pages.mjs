@@ -2,7 +2,7 @@ import { md, mdInline, esc, plain } from '../lib/markdown.mjs';
 import { KINDS, SITE, LIBRARY, sectionTitle } from '../site.mjs';
 import { layout, icon, logo, lastRevised } from './layout.mjs';
 import { renderSource } from './sources.mjs';
-import { gospelLibraryUrl } from './chapter.mjs';
+import { gospelLibraryUrl, chapterLabel, unitPlural } from './chapter.mjs';
 import { VOLUMES, gospelLibraryVolume } from '../lib/canon.mjs';
 
 const ensignArt = `<svg class="hero-art" viewBox="0 0 320 220" aria-hidden="true">
@@ -69,7 +69,7 @@ export function renderHome({ books, featured }) {
     ${featured
       .map(
         (f) =>
-          `<a class="teaser k-${f.kind}" href="/${f.book.slug}/${f.chapter}/#${f.id}">${kindChip(f.kind)}<span class="teaser-phrase">“${esc(f.phrase)}”</span><span class="teaser-ref">${esc(f.book.name)} ${f.chapter}:${f.ref}</span><span class="teaser-text">${esc(teaserText(f))}…</span></a>`,
+          `<a class="teaser k-${f.kind}" href="/${f.book.slug}/${f.chapter}/#${f.id}">${kindChip(f.kind)}<span class="teaser-phrase">“${esc(f.phrase)}”</span><span class="teaser-ref">${esc(chapterLabel(f.book, f.chapter))}${String(f.ref) === '0' ? ', title' : `:${f.ref}`}</span><span class="teaser-text">${esc(teaserText(f))}…</span></a>`,
       )
       .join('\n    ')}
   </div>
@@ -92,7 +92,7 @@ export function renderHome({ books, featured }) {
 // A volume's page: its books on the site, and the Gospel Library for the rest.
 export function renderVolume({ volume, books, html = '' }) {
   const sorted = [...books].sort((a, b) => a.place.index - b.place.index);
-  const status = (b) => (b.written.length < b.chapters.length ? `${b.written.length} of ${b.chapters.length} chapters` : `${b.chapters.length} chapters`);
+  const status = (b) => (b.written.length < b.chapters.length ? `${b.written.length} of ${b.chapters.length} ${unitPlural(b)}` : `${b.chapters.length} ${unitPlural(b)}`);
   const body = `
 <header class="page-hero"><div class="wrap narrow">
   <p class="eyebrow">The standard works</p>
@@ -157,7 +157,7 @@ export function renderBookIndex({ book, guides, sources }) {
 ${guides.length ? `<p class="wrap start-callout">${icon('key')}<span>New to ${esc(book.name)}? Start with <a href="/${book.slug}/guides/">Guides</a>.</span></p>` : ''}
 
 <section class="wrap book-section" id="chapters">
-  <h2 class="section-title">The chapters</h2>
+  <h2 class="section-title">The ${esc(unitPlural(book))}</h2>
   <p class="section-sub">${esc(book.divisionsBlurb)}</p>
   <div class="dial-wrap division-map-wrap"><div class="dial-label" aria-hidden="true" hidden></div><div class="division-map" aria-hidden="true">
     ${book.divisions.map((d) => `<a href="#${d.key}" style="--div:var(--div-${d.key});--c:var(--div-${d.key});flex:${d.range[1] - d.range[0] + 1}" data-label="${esc(d.name)}" data-div="${esc(book.name)} ${d.range[0]}–${d.range[1]}"><span>${d.range[0]}–${d.range[1]}</span></a>`).join('')}
@@ -182,7 +182,7 @@ ${book.facsimiles?.length ? `<section class="wrap book-section" id="facsimiles">
 <section class="wrap book-section">
   <h2 class="section-title">Beloved passages</h2>
   <ul class="beloved">
-    ${book.beloved.map((b) => `<li><a href="/${book.slug}/${b.chapter}/#v${b.verse}"><span class="bel-text">“${esc(b.text)}”</span><span class="bel-ref">${esc(book.name)} ${b.chapter}:${b.verse}</span></a></li>`).join('')}
+    ${book.beloved.map((b) => `<li><a href="/${book.slug}/${b.chapter}/#v${b.verse}"><span class="bel-text">“${esc(b.text)}”</span><span class="bel-ref">${esc(chapterLabel(book, b.chapter))}:${b.verse}</span></a></li>`).join('')}
   </ul>
 </section>
 

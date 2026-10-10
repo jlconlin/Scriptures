@@ -114,6 +114,8 @@ const inlined = () => {
   const std = fs.readFileSync('STANDARDS.md', 'utf8');
   const sections = std.slice(std.indexOf('\n## 2.'), std.indexOf('\n## 4.'));
   const verses = JSON.parse(fs.readFileSync(`data/kjv/${book}.json`, 'utf8')).chapters[from - 1] ?? [];
+  const titlesFile = `data/kjv/${book}.titles.json`;
+  const psalmTitle = fs.existsSync(titlesFile) ? JSON.parse(fs.readFileSync(titlesFile, 'utf8')).titles?.[from] : null;
   return `${one}
 
 Everything you need is below. Do not open any file and do not run any command; answer from this text alone.
@@ -122,7 +124,7 @@ Everything you need is below. Do not open any file and do not run any command; a
 ${sections.trim()}
 
 ===== The verses of the chapter (data/kjv/${book}.json) =====
-${verses.map((v, i) => `${i + 1} ${v}`).join('\n')}
+${psalmTitle ? `0 (the psalm's title, shown above verse 1; a note with ref 0 hangs on it) ${psalmTitle}\n` : ''}${verses.map((v, i) => `${i + 1} ${v}`).join('\n')}
 
 ===== ${files[0]} =====
 ${fs.readFileSync(files[0], 'utf8')}`;
