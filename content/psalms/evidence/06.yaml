@@ -1,0 +1,516 @@
+chapter: 6
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David and names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/6?lang=eng'
+    quote: 'To the chief Musician on Neginoth upon Sheminith, A Psalm of David.'
+  - where: setting
+    claim: 'Psalm 6 is a prayer for healing of body and spirit'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalm 6 is a prayer for healing of both body and spirit.'
+  - where: setting
+    claim: 'The psalmist appears to be in declining health'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'The psalmist appears to be in declining health and prays to the Lord for deliverance from the pain and grief associated with his condition.'
+  - where: setting
+    claim: 'Many laments have three parts: the trial described, a plea, and an expression of confidence'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'Many of these psalms exhibit a three-part division.'
+  - where: setting
+    claim: 'Verse 5 has the first occurrence of sheol in the Psalms (hebrew.mjs psalms --word 7585 lists Ps 6:5 first of sixteen)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בִּ֝/שְׁא֗וֹל'
+  - where: setting
+    claim: 'The Savior quoted the psalm in John 12:27 (compare Psalm 6:3–4)'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'According to John 12:27, the Savior quoted from this psalm as he foretold his own imminent suffering and death'
+  - where: setting
+    claim: 'Luke 13:27 has the words of Psalm 6:8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/13?lang=eng'
+    quote: 'depart from me, all ye workers of iniquity.'
+  - where: setting
+    claim: 'Nephi used expressions very similar to Psalm 6:6 in 2 Nephi 33:3'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'he used expressions very similar to those in Psalm 6:6 in 2 Nephi 33:3'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: '“How long?” in verse 3 is two Hebrew words, a preposition and an interrogative, with no verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מָתָֽי'
+  - where: thread
+    claim: 'A modern translation prints the broken sentence of verse 3 with a dash'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%206&version=NRSVUE'
+    quote: 'while you, O Lord—how long?'
+  - where: thread
+    claim: 'Many laments end with an expression of confidence that God will deliver'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'third, express their complete confidence that God will deliver them'
+  - where: thread
+    claim: 'Laments sometimes speak of God’s help as already given'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'Sometimes they speak of God’s help as if he has already saved them.'
+  - where: thread
+    claim: 'The psalm’s last Hebrew word is the word translated “suddenly”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רָֽגַע'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: '“Vexed” rendered as terror'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%206&version=NRSVUE'
+    quote: 'O Lord, heal me, for my bones are shaking with terror.'
+  - where: section 1 plain
+    claim: '“Chasten” rendered as discipline, “hot displeasure” as wrath'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%206&version=NRSVUE'
+    quote: 'or discipline me in your wrath.'
+  - where: section 2 plain
+    claim: '“Mercies” rendered as steadfast love; “deliver my soul” as save my life'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%206&version=NRSVUE'
+    quote: 'deliver me for the sake of your steadfast love.'
+  - where: section 2 plain
+    claim: '“The grave” is Sheol'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%206&version=NRSVUE'
+    quote: 'in Sheol who can give you praise?'
+  - where: section 2 plain
+    claim: 'The Greek has “no man remembers thee” for “no remembrance of thee”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/6.htm'
+    quote: 'For in death no man remembers thee: and who will give thee thanks in Hades?'
+  - where: section 3 plain
+    claim: 'Verses 6–7 in a modern translation: flood, drench, waste away'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%206&version=NRSVUE'
+    quote: 'My eyes waste away because of grief'
+  - where: section 4 plain
+    claim: '“Suddenly” rendered “in a moment”; “receive” as accept'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%206&version=NRSVUE'
+    quote: 'they shall turn back and in a moment be put to shame.'
+
+  # ---------- note 6:0 ----------
+  - where: 'note 6:0 “Sheminith, the eighth”'
+    claim: 'The Hebrew word in the title is the ordinal “eighth” with the article'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַ/שְּׁמִינִ֗ית'
+  - where: 'note 6:0 “Sheminith, the eighth”'
+    claim: 'The Greek title renders the word “for the eighth”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/6.htm'
+    quote: 'For the End, a Psalm of David among the Hymns for the eighth.'
+  - where: 'note 6:0 “Sheminith, the eighth”'
+    claim: 'Psalm 12’s title also has Sheminith'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/12?lang=eng'
+    quote: 'To the chief Musician upon Sheminith, A Psalm of David.'
+  - where: 'note 6:0 “Sheminith, the eighth”'
+    claim: 'In 1 Chronicles 15:21 harps are played on the Sheminith'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/15?lang=eng'
+    quote: 'with harps on the Sheminith to excel.'
+  - where: 'note 6:0 “Sheminith, the eighth”'
+    claim: 'The Bible Dictionary glosses Sheminith “the octave” (Psalms 6 and 12) and says such titles seem to imply singing in parts; Alamoth is “maidens,” Psalm 46'
+    key: bd-psalms
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
+    quote: 'while such titles as “Set to Alamoth” (“maidens,” Ps. 46), or “Set to the Sheminith” (“the octave,” Ps. 6; 12), seem to imply that there was singing in parts.'
+  - where: 'note 6:0 “Sheminith, the eighth”'
+    claim: 'Neginoth marks accompaniment by stringed instruments (Psalm 4 first)'
+    key: bd-psalms
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
+    quote: 'Some Psalms were to be accompanied by stringed instruments (Neginah, Neginoth Ps. 4; 54–55; 61; 67; 76; and Hab. 3:19)'
+  - where: 'note 6:0 “Sheminith, the eighth”'
+    claim: 'Delitzsch: 1 Chronicles 15:21 shows that Sheminith is not the name of an instrument'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/6.htm'
+    quote: 'From this latter passage it is at least clear that it is not the name of an instrument.'
+  - where: 'note 6:0 “Sheminith, the eighth”'
+    claim: 'Delitzsch: if Alamoth is maidens’ voices, soprano, Sheminith is the bass'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/6.htm'
+    quote: 'is a designation of the bass'
+  - where: 'note 6:0 “Sheminith, the eighth”'
+    claim: 'Delitzsch: Psalms 6 and 12 are plaintive and were to be played in the lower octave'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/6.htm'
+    quote: 'These two were to be played in the lower octave, that one in the higher.'
+
+  # ---------- note 6:1 ----------
+  - where: 'note 6:1 “A plea against anger, with no sin confessed”'
+    claim: 'Psalm 38 opens with nearly the same sentence'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/38?lang=eng'
+    quote: 'rebuke me not in thy wrath: neither chasten me in thy hot displeasure.'
+  - where: 'note 6:1 “A plea against anger, with no sin confessed”'
+    claim: 'Psalm 38 names the speaker’s sin'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/38?lang=eng'
+    quote: 'neither is there any rest in my bones because of my sin.'
+  - where: 'note 6:1 “A plea against anger, with no sin confessed”'
+    claim: 'The church has reckoned Psalm 6 the first of the seven penitential psalms (6, 32, 38, 51, 102, 130, 143), though it has no confession of sin'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/6.htm'
+    quote: 'Because the Psalm contains no confession of sin, one might be inclined to think that the church has wrongly reckoned it as the first of the seven'
+  - where: 'note 6:1 “A plea against anger, with no sin confessed”'
+    claim: 'Delitzsch: the penitent’s feeling of wrath is well-grounded, unlike that of one merely tried'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/6.htm'
+    quote: 'the feeling of wrath is with the one perfectly groundless and with the other well-grounded'
+  - where: 'note 6:1 “A plea against anger, with no sin confessed”'
+    claim: 'Delitzsch: the psalmist is a penitent'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/6.htm'
+    quote: 'Our psalmist, however, is a penitent'
+  - where: 'note 6:1 “A plea against anger, with no sin confessed”'
+    claim: 'Delitzsch: he asks not that chastening be removed but chastening in wrath, like Jeremiah 10:24'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/6.htm'
+    quote: 'does not pray for the removal of the chastisement but of the chastisement in wrath'
+  - where: 'note 6:1 “A plea against anger, with no sin confessed”'
+    claim: 'Jeremiah 10:24 asks for correction, but not in anger'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/10?lang=eng'
+    quote: 'correct me, but with judgment; not in thine anger, lest thou bring me to nothing.'
+  - where: 'note 6:1 “A plea against anger, with no sin confessed”'
+    claim: 'The psalm is a prayer for healing of body and spirit'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalm 6 is a prayer for healing of both body and spirit.'
+
+  # ---------- note 6:2 ----------
+  - where: 'note 6:2 “Vexed means terrified”'
+    claim: 'The Hebrew verb means to be disturbed, dismayed, terrified'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/926.htm'
+    quote: '1 be disturbed, dismayed, terrified'
+  - where: 'note 6:2 “Vexed means terrified”'
+    claim: 'The lexicon files the psalm’s uses under terror at the LORD’s chastisements and judgments'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/926.htm'
+    quote: 'especially at chastisements & judgments of'
+  - where: 'note 6:2 “Vexed means terrified”'
+    claim: 'A modern translation of verse 2'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%206&version=NRSVUE'
+    quote: 'my bones are shaking with terror'
+  - where: 'note 6:2 “Vexed means terrified”'
+    claim: 'A modern translation of verse 3'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%206&version=NRSVUE'
+    quote: 'My soul also is struck with terror'
+  - where: 'note 6:2 “Vexed means terrified”'
+    claim: 'The verb (Strong’s 926) in verse 2; hebrew.mjs psalms --word 926 lists ten occurrences in Psalms, at 2:5; 6:2, 3, 10; 30:7; 48:5; 83:15, 17; 90:7; 104:29'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נִבְהֲל֣וּ'
+  - where: 'note 6:2 “Vexed means terrified”'
+    claim: 'The same verb in verse 3, of the soul'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נִבְהֲלָ֣ה'
+  - where: 'note 6:2 “Vexed means terrified”'
+    claim: 'The same verb in verse 10, of the enemies'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/יִבָּהֲל֣וּ'
+
+  # ---------- note 6:3 ----------
+  - where: 'note 6:3 “The Savior’s troubled soul”'
+    claim: 'John 12:27'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/12?lang=eng'
+    quote: 'Now is my soul troubled; and what shall I say? Father, save me from this hour: but for this cause came I unto this hour.'
+  - where: 'note 6:3 “The Savior’s troubled soul”'
+    claim: 'The Savior quoted this psalm in John 12:27 (compare Psalm 6:3–4)'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'According to John 12:27, the Savior quoted from this psalm as he foretold his own imminent suffering and death'
+  - where: 'note 6:3 “The Savior’s troubled soul”'
+    claim: 'The Greek psalm: “my soul is greatly troubled” (verse 3)'
+    key: lxx-rahlfs
+    url: 'https://www.ellopos.net/elpenor/greek-texts/septuagint/chapter.asp?book=24&page=6'
+    quote: 'καὶ ἡ ψυχή μου ἐταράχθη σφόδρα'
+  - where: 'note 6:3 “The Savior’s troubled soul”'
+    claim: 'The Greek psalm: “save me” (verse 4)'
+    key: lxx-rahlfs
+    url: 'https://www.ellopos.net/elpenor/greek-texts/septuagint/chapter.asp?book=24&page=6'
+    quote: 'σῶσόν με ἕνεκεν τοῦ ἐλέους σου'
+  - where: 'note 6:3 “The Savior’s troubled soul”'
+    claim: 'John 12:27 has “has been troubled,” a form of the verb tarassō (Strong’s 5015)'
+    key: greek-nt
+    url: 'https://biblehub.com/interlinear/john/12-27.htm'
+    quote: 'τετάρακται'
+  - where: 'note 6:3 “The Savior’s troubled soul”'
+    claim: 'The psalm’s form is listed among the forms of the same verb, tarassō'
+    key: greek-nt
+    url: 'https://biblehub.com/greek/5015.htm'
+    quote: 'ἐταράχθη'
+  - where: 'note 6:3 “The Savior’s troubled soul”'
+    claim: 'John 12:27 has the imperative “save” followed by “me,” as the Greek psalm does'
+    key: greek-nt
+    url: 'https://biblehub.com/interlinear/john/12-27.htm'
+    quote: 'σῶσόν'
+
+  # ---------- note 6:4 ----------
+  - where: 'note 6:4 “Mercies is hesed”'
+    claim: 'The Hebrew word is hesed (Strong’s 2617), with “your”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַסְדֶּֽ/ךָ'
+  - where: 'note 6:4 “Mercies is hesed”'
+    claim: 'A modern translation has “steadfast love”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%206&version=NRSVUE'
+    quote: 'deliver me for the sake of your steadfast love.'
+
+  # ---------- note 6:5 (Restoration) ----------
+  - where: 'note 6:5 “What the Restoration adds”'
+    claim: 'Verse 5 may show a limited understanding of the afterlife, or a concern like Amulek’s'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'may reflect the author’s limited understanding of the afterlife compared to the clearer picture we possess in the Restoration, or it may be expressing a concern similar to that of Amulek'
+  - where: 'note 6:5 “What the Restoration adds”'
+    claim: 'Alma 34:33'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=eng'
+    quote: 'then cometh the night of darkness wherein there can be no labor performed.'
+  - where: 'note 6:5 “What the Restoration adds”'
+    claim: 'Doctrine and Covenants 138 is President Joseph F. Smith’s vision of the Lord’s visit to the spirit world'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/138?lang=eng'
+    quote: 'President Joseph F. Smith ponders upon the writings of Peter and our Lord’s visit to the spirit world'
+  - where: 'note 6:5 “What the Restoration adds”'
+    claim: 'The righteous dead in the vision rejoice and acknowledge the Son of God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/138?lang=eng'
+    quote: 'And the saints rejoiced in their redemption, and bowed the knee and acknowledged the Son of God as their Redeemer and Deliverer from death and the chains of hell.'
+  - where: 'note 6:5 “What the Restoration adds”'
+    claim: 'They sing praises'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/138?lang=eng'
+    quote: 'and they sang praises unto his holy name.'
+
+  # ---------- note 6:5 (Sheol) ----------
+  - where: 'note 6:5 “The grave is Sheol”'
+    claim: 'The Hebrew word in verse 5 is sheol (Strong’s 7585); hebrew.mjs psalms --word 7585 lists sixteen occurrences in Psalms, the first at 6:5'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בִּ֝/שְׁא֗וֹל'
+  - where: 'note 6:5 “The grave is Sheol”'
+    claim: 'Sheol is the abode of departed spirits, translated grave, pit and hell in the King James'
+    key: bd-sheol
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sheol?lang=eng'
+    quote: 'The Hebrew name for the abode of departed spirits (corresponding to the Greek Hades), translated in the KJV “grave,” “pit,” and “hell,” depending on the context'
+  - where: 'note 6:5 “The grave is Sheol”'
+    claim: 'The Greek has Hades in this verse'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/6.htm'
+    quote: 'and who will give thee thanks in Hades?'
+  - where: 'note 6:5 “The grave is Sheol”'
+    claim: 'A modern translation keeps the word Sheol'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%206&version=NRSVUE'
+    quote: 'in Sheol who can give you praise?'
+  - where: 'note 6:5 “The grave is Sheol”'
+    claim: 'Sheol is where all go after death, whatever their moral character'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'This refers to the place where all people go after death, regardless of their moral character.'
+  - where: 'note 6:5 “The grave is Sheol”'
+    claim: 'Sheol was generally viewed as inescapable'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'Sheol was generally viewed as inescapable.'
+  - where: 'note 6:5 “The grave is Sheol”'
+    claim: 'The lexicon cites this verse (Hebrew 6:6) and Isaiah 38:18 for the righteous dreading Sheol because there is no praise or presence of God there'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7585.htm'
+    quote: 'righteous dread it because no praise or presence of God there (as in temple) Psalm 6:6'
+  - where: 'note 6:5 “The grave is Sheol”'
+    claim: 'Hezekiah: the grave cannot praise'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/38?lang=eng'
+    quote: 'For the grave cannot praise thee, death can not celebrate thee: they that go down into the pit cannot hope for thy truth.'
+  - where: 'note 6:5 “The grave is Sheol”'
+    claim: 'Hezekiah: the living praise'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/38?lang=eng'
+    quote: 'The living, the living, he shall praise thee, as I do this day'
+  - where: 'note 6:5 “The grave is Sheol”'
+    claim: 'Psalm 49:15 has Sheol (Hebrew 49:16), translated “the grave”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שְׁא֑וֹל'
+
+  # ---------- note 6:6 ----------
+  - where: 'note 6:6 “Nephi’s pillow”'
+    claim: 'Nephi was apparently familiar with this psalm'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'The Book of Mormon prophet Nephi was apparently familiar with this psalm'
+  - where: 'note 6:6 “Nephi’s pillow”'
+    claim: '2 Nephi 33:3'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/33?lang=eng'
+    quote: 'For I pray continually for them by day, and mine eyes water my pillow by night, because of them; and I cry unto my God in faith, and I know that he will hear my cry.'
+  - where: 'note 6:6 “Nephi’s pillow”'
+    claim: 'A modern translation of verse 6'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%206&version=NRSVUE'
+    quote: 'every night I flood my bed with tears;'
+  - where: 'note 6:6 “Nephi’s pillow”'
+    claim: 'A modern translation of verse 6, second half'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%206&version=NRSVUE'
+    quote: 'I drench my couch with my weeping.'
+
+  # ---------- note 6:8 (Depart) ----------
+  - where: 'note 6:8 “The same words in two sayings of the Savior”'
+    claim: 'Luke 13:27'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/13?lang=eng'
+    quote: 'But he shall say, I tell you, I know you not whence ye are; depart from me, all ye workers of iniquity.'
+  - where: 'note 6:8 “The same words in two sayings of the Savior”'
+    claim: 'Matthew 7:23'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/7?lang=eng'
+    quote: 'And then will I profess unto them, I never knew you: depart from me, ye that work iniquity.'
+  - where: 'note 6:8 “The same words in two sayings of the Savior”'
+    claim: 'The Greek psalm’s wording of verse 8'
+    key: lxx-rahlfs
+    url: 'https://www.ellopos.net/elpenor/greek-texts/septuagint/chapter.asp?book=24&page=6'
+    quote: 'πάντες οἱ ἐργαζόμενοι τὴν ἀνομίαν'
+  - where: 'note 6:8 “The same words in two sayings of the Savior”'
+    claim: 'The Greek psalm in English'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/6.htm'
+    quote: 'Depart from me, all ye that work iniquity'
+  - where: 'note 6:8 “The same words in two sayings of the Savior”'
+    claim: 'Luke 13:27 in Greek has the psalm’s first words, “depart from me, all”'
+    key: greek-nt
+    url: 'https://biblehub.com/text/luke/13-27.htm'
+    quote: 'ἀπόστητε ἀπ’ ἐμοῦ πάντες ἐργάται ἀδικίας'
+  - where: 'note 6:8 “The same words in two sayings of the Savior”'
+    claim: 'Matthew 7:23 in Greek has the psalm’s last four words, “those working lawlessness”'
+    key: greek-nt
+    url: 'https://biblehub.com/text/matthew/7-23.htm'
+    quote: 'οἱ ἐργαζόμενοι τὴν ἀνομίαν'
+
+  # ---------- note 6:8 (turn) ----------
+  - where: 'note 6:8 “The turn at verse 8”'
+    claim: '“Hath heard” in verses 8 and 9 is a Hebrew perfect (morphology code HVqp3ms)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁמַ֥ע'
+  - where: 'note 6:8 “The turn at verse 8”'
+    claim: '“Will receive” in verse 9 is a Hebrew imperfect (morphology code HVqi3ms)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִקָּֽח'
+  - where: 'note 6:8 “The turn at verse 8”'
+    claim: 'Laments describe the trial, plead, and express confidence'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'the supplicants, first, describe their trial; second, plea for help; and third, express their complete confidence that God will deliver them. Sometimes they speak of God’s help as if he has already saved them.'
+
+  # ---------- note 6:10 ----------
+  - where: 'note 6:10 “His own words, given to his enemies”'
+    claim: 'Verse 10 has the verb of verses 2–3 (Strong’s 926)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/יִבָּהֲל֣וּ'
+  - where: 'note 6:10 “His own words, given to his enemies”'
+    claim: 'Verses 3 and 10 both add the adverb “very” (Strong’s 3966), “sore” in the King James'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מְאֹ֑ד'
+  - where: 'note 6:10 “His own words, given to his enemies”'
+    claim: '“Return” in verse 4 is the verb shub (Strong’s 7725)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שׁוּבָ֣/ה'
+  - where: 'note 6:10 “His own words, given to his enemies”'
+    claim: '“Let them return” in verse 10 is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָ֝שֻׁ֗בוּ'
+  - where: 'note 6:10 “His own words, given to his enemies”'
+    claim: '“Be ashamed” in verse 10, the next word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יֵבֹ֥שׁוּ'
+  - where: 'note 6:10 “His own words, given to his enemies”'
+    claim: 'Delitzsch: what the sufferer seemed to have to suffer becomes the lot of his enemies'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/6.htm'
+    quote: 'That which he seems to have to suffer, shall in reality be the lot of his enemies'
+  - where: 'note 6:10 “His own words, given to his enemies”'
+    claim: 'Delitzsch: the verb points back to verses 2–3'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/6.htm'
+    quote: 'the lot at which the malicious have rejoiced, shall come upon themselves'
+  - where: 'note 6:10 “His own words, given to his enemies”'
+    claim: 'Delitzsch transliterates the last three words and remarks on the reversed letters'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/6.htm'
+    quote: 'And, if not intentional, yet how remarkable is the coincidence, that shame follows the involuntary reverse of the foes'
+  - where: 'note 6:10 “His own words, given to his enemies”'
+    claim: 'Delitzsch: one word is in letters and sound the reverse of the other'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/6.htm'
+    quote: 'in its letters and sound is the reverse of'
+  - where: 'note 6:10 “His own words, given to his enemies”'
+    claim: 'A modern translation prints the verse as a statement, with “in a moment”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%206&version=NRSVUE'
+    quote: 'All my enemies shall be ashamed and struck with terror;'
+  - where: 'note 6:10 “His own words, given to his enemies”'
+    claim: '“Suddenly” is “in a moment”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%206&version=NRSVUE'
+    quote: 'they shall turn back and in a moment be put to shame.'
+
+  # ---------- christ / explore / parallels ----------
+  - where: christ
+    claim: 'The Savior quoted this psalm in John 12:27'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'According to John 12:27, the Savior quoted from this psalm as he foretold his own imminent suffering and death'
+  - where: christ
+    claim: 'Matthew 7:23 has the words of verse 8 in the Savior’s mouth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/7?lang=eng'
+    quote: 'depart from me, ye that work iniquity.'
+  - where: christ
+    claim: 'The righteous dead acknowledge the Son of God as Redeemer'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/138?lang=eng'
+    quote: 'acknowledged the Son of God as their Redeemer and Deliverer from death and the chains of hell.'
+  - where: explore
+    claim: 'Psalm 13:1–2 asks “how long” four times'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/13?lang=eng'
+    quote: 'How long shall I take counsel in my soul, having sorrow in my heart daily? how long shall mine enemy be exalted over me?'
+  - where: explore
+    claim: 'Psalm 38 names the speaker’s sin'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/38?lang=eng'
+    quote: 'For I will declare mine iniquity; I will be sorry for my sin.'
