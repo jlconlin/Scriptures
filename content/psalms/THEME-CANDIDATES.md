@@ -197,3 +197,64 @@ The coordinator's leads from the brief's research. Each would have to show an ar
 - (31) Psalms 25-31 and the psalm of Nephi (31:15, 19; Alford and Baker).
 - (31) Lines shared with the prophets: Jeremiah 20:10 (31:13); Jonah 2:4 and 2:8 (31:22, 31:6).
 - (31) The Savior's sayings from the cross taken from psalms (31:5 with 22:1).
+
+## Reported by chapters 32–43 (not yet sorted)
+
+- (32) Confession and forgiveness in David's psalms: 32:1-5 with Psalm 51 (and 6, 38).
+- (32) Hesed and hasid, covenant love and the one who practises it: 32:6, 10.
+- (32) The 'Blessed' sayings of the Psalter and the Beatitudes: 32:1-2, 11.
+- (32) Paul's use of the Psalms in Romans: 32:1-2 in Romans 4.
+- (33) The new song: 33:3; 40:3; 96:1; 98:1; 144:9; 149:1, then Isa. 42:10, Rev. 5:9 and 14:3, D&C 84:98-102.
+- (33) Horses, armies and the name: 20:7; 33:16-17; 147:10-11.
+- (33) Creation by the word: 33:6, 9; 148:5 (with John 1:1-3, D&C 38:3, Jacob 4:9).
+- (33) Hesed running through a psalm (33:5, 18, 22), under the full note at 51:1.
+- (34) The broken heart and contrite spirit, into the Book of Mormon (34:18; 51:17).
+- (34) The righteous sufferer whom the LORD delivers (34:19-20; Psalm 22; Psalm 69).
+- (34) Acrostic psalms with an added last verse (25; 34).
+- (34) The angel of the LORD (34:7; 35:5-6).
+- (34) Psalms tied by title to David's flight from Saul (34; 52; 54; 56; 57; 59; 142).
+- (35) The LORD as advocate and judge, 'plead my cause' (35:1, 23-24; 43:1; 119:154).
+- (35) 'Without a cause' (35:7, 19; 69:4; 109:3; 119:161), with John 15:25.
+- (35) The trap that catches its maker (7:15; 9:15; 35:8; 57:6).
+- (35) The cursing psalms (35:4-8, 26), centred on the note at 137:8.
+- (35) 'Who is like unto thee' (35:10; 71:19; 89:8; 113:5) and Exodus 15:11.
+- (35) The angel of the LORD (34:7; 35:5-6).
+- (35) 'How long' (35:17; 13:1) and D&C 121.
+- (36) The LORD as the fountain of life and of living waters: Ps. 36:9; Jer. 2:13; 17:13.
+- (36) Light and life paired, and the Savior's title at Bountiful: Ps. 36:9; 27:1; John 1:4; 8:12; 3 Ne. 11:11.
+- (36) The feast in God's house and the river of delights: Ps. 36:8; 23:5-6; 65:4; Gen. 2:10.
+- (36) The shadow of thy wings: Ps. 17:8; 36:7; 57:1; 61:4; 63:7; 91:4.
+- (36) Paul's chain of psalm lines in Romans 3: Ps. 5:9; 10:7; 14:1-3; 36:1; 140:3.
+- (36) The fall of the wicked seen as already done: Ps. 14:5; 36:12.
+- (37) The prosperity of the wicked: Ps. 37 (answered by time), with Ps. 49, Ps. 73 and Job; already on the list from Psalm 1.
+- (37) The meek and the inheritance of the land or earth: Ps. 25:9-13; 37:9, 11, 22, 29, 34; Matt. 5:5; 3 Ne. 12:5; D&C 88:17-26.
+- (37) Waiting on the LORD: Ps. 37:7, 9, 34; 27:14; 40:1; 130:5.
+- (37) Psalms and Proverbs sharing sayings: Ps. 37:1 and Prov. 24:19; 37:5 and Prov. 16:3; 37:16 and Prov. 15:16.
+- (37) The LORD holding the hand: Ps. 37:24; 73:23.
+- (37) Psalms behind the Beatitudes (Skinner): Ps. 37:11, 21-22, 37; 24:3-4; 1:1.
+- (38) Sickness as God's hand and as a figure of sin (6:2; 32:3-4; 38:2-8; 39:10-11; 41:3-4; Isa. 1:5-6).
+- (38) Silence before those who speak against him (38:13-14; 39:1-2, 9).
+- (38) Laments that end without an answer (38; 39; 88).
+- (38) Friends and kinsmen at a distance (31:11; 38:11; 69:8; 88:8, 18; Luke 23:49).
+- (38) 'Make haste to help me' and 'be not far from me' (22:11, 19; 35:22; 38:21-22; 40:13; 70:1; 71:12).
+- (39) Strangers and sojourners with God: Ps. 39:12; 119:19 (with Lev. 25:23; 1 Chr. 29:15; Heb. 11:13-16; D&C 45:12-14).
+- (39) The shortness of life (breath, shadow, handbreadth): Ps. 39:4-6, 11; 62:9; 90:10-12; 144:4.
+- (39) Silence before God and God's silence: Ps. 38:13; 39:2, 9, 12; 62:1.
+- (39) Suffering taken as chastening: Ps. 38; 39:8-11 (with 6 and 32).
+- (40) Obedience over sacrifice: 40:6-8; 50:8-15; 51:16-17; 69:30-31 (with 1 Sam. 15:22 and Heb. 10).
+- (40) Waiting on the LORD: 25:3, 5, 21; 27:14; 37:9, 34; 40:1; 130:5.
+- (40) Telling the deliverance in 'the great congregation': 22:22, 25; 35:18; 40:9-10.
+- (40) 'The LORD be magnified' and the mockers' 'Aha': 35:21, 25, 27; 40:15-16; 70:3-4.
+- (41) Betrayal by a companion: 41:9; 55:12-14, 20-21; John 13:18; Acts 1:16-20.
+- (41) 'Blessed' (ashre) framing Book One: 1:1; 2:12; 32:1-2; 40:4; 41:1.
+- (41) The doxologies that close the five books: 41:13; 72:18-19; 89:52; 106:48; 150 (already noted at 150:6).
+- (41) Sickness, sin and healing in the laments: 6:2; 38:3-5; 41:3-4.
+- (42) Thirst for God and living water: 42:1-2; 63:1; 143:6; 36:8-9, with John 4 and 7.
+- (42) Seeing the face of God in His house: 42:2; 11:7; 17:15; 24:6; 27:4, 8; 63:2; 84:7.
+- (42) The psalms of the sons of Korah and the temple: 42-49; 84-85; 87-88.
+- (42) "Where is thy God?": 42:3, 10; 79:10; 115:2 (and 3:2; 22:8).
+- (42) A man speaking to his own soul: 42:5, 11; 43:5; 103:1; 116:7, with 2 Nephi 4.
+- (42) The flood as God's: 42:7; 69:1-2; 88:7; 124:4-5; Jonah 2.
+- (43) Longing for the sanctuary from far off (42:1-4; 43:3-4; 84; 63:1-2; 27:4).
+- (43) Mercy (hesed) and truth as a pair God sends out (43:3; 57:3; 85:10; 89:14), with Ex. 15:13 behind it.
+- (43) Speaking to one's own soul (42:5, 11; 43:5; 103:1; 116:7).
