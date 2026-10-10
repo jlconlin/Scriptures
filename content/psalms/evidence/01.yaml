@@ -1,0 +1,394 @@
+chapter: 1
+claims:
+  # ---- when / setting ----
+  - where: 'when'
+    claim: 'Psalm 1 is anonymous (no title, no author named)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/1.htm'
+    quote: 'These two anonymous hymns are only so far related, as that the one is adapted to form the proaemium of the Psalter from its ethical, the other from its prophetic character.'
+  - where: 'setting'
+    claim: 'The psalm has no title: the Hebrew text of verse 1 begins with the word ashre, with no title words before it'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַ֥שְֽׁרֵי'
+  - where: 'setting'
+    claim: 'The psalm bears no superscription and gives no indication of its date'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/1.htm'
+    quote: 'But since it contains no indications of contemporary history whatever, we give up the attempt to define more minutely the date of its composition'
+  - where: 'setting'
+    claim: 'The Hebrew name of the book is Tehillim, “Praises”'
+    key: bd-psalms
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
+    quote: 'The Psalms collectively are called in Hebrew Tehillim or “Praises,”'
+  - where: 'setting'
+    claim: 'The first two psalms introduce the whole collection'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'The first two psalms serve as an introduction to the entire collection.'
+  - where: 'setting'
+    claim: 'Some traditions count Psalms 1 and 2 as one psalm framed by “blessed” (1:1 and 2:12)'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'Some traditions view the first two psalms as a single psalm enclosed by the word happy—or “blessed” in the King James Version'
+  - where: 'setting'
+    claim: 'The Hebrew word for “Blessed” in Psalm 2:12 is the same word (ashre, Strong’s 835) as in 1:1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַ֝שְׁרֵ֗י'
+  - where: 'setting'
+    claim: 'The book is 150 poems; when it was compiled is not known exactly, and most scholars place it after the Babylonian exile'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'It is unknown exactly when the book of Psalms was compiled, but most scholars agree that it was likely assembled after the Babylonian exile.'
+  - where: 'setting'
+    claim: 'The book has five sections, each ending with praise'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'The book of Psalms is divided into five sections, each ending with a final expression of praise:'
+  - where: 'setting'
+    claim: 'Psalm 1 is often categorized as a wisdom psalm because, like Proverbs, it distinguishes the “two ways”'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalm 1 is often categorized as a wisdom psalm because of its similarity to other wisdom literature in the Bible such as Proverbs, which present a distinction between the “two ways”'
+  - where: 'setting'
+    claim: 'Jeremiah 17:8 has the same tree by the water'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/17?lang=eng'
+    quote: 'For he shall be as a tree planted by the waters, and that spreadeth out her roots by the river'
+  - where: 'setting'
+    claim: 'Joshua is charged to meditate on the law day and night'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/1?lang=eng'
+    quote: 'This book of the law shall not depart out of thy mouth; but thou shalt meditate therein day and night'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'The psalm falls into three segments: the righteous man (1–3), the wicked (4–5), and a conclusion on the two ways (6)'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'The psalm can be divided into three distinct segments:'
+  - where: 'thread'
+    claim: 'Verse 4 opens with three Hebrew words, “not so the wicked” (lo, ken, ha-resha‘im)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כֵ֥ן'
+  - where: 'thread'
+    claim: 'The last Hebrew word of the psalm is the verb “perish”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תֹּאבֵֽד'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: '“Blessed” is an exclamation of happiness'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/835.htm'
+    quote: 'abstract intensive exclamation O happiness, blessedness of'
+  - where: 'section 1 plain'
+    claim: '“Law” is torah: direction, instruction'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8451.htm'
+    quote: 'direction, instruction, law'
+  - where: 'section 1 plain'
+    claim: '“Meditate” is a verb of low sounds: moan, growl, utter, muse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1897.htm'
+    quote: 'verb moan, growl, utter, speak, muse (only poetry)'
+  - where: 'section 1 plain'
+    claim: '“Rivers” is a word for a channel or canal'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6388.htm'
+    quote: 'channel, (artificial) canal'
+  - where: 'section 2 plain'
+    claim: '“Stand” in verse 5 is to maintain oneself'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6965.htm'
+    quote: '= maintain oneself'
+  - where: 'section 2 plain'
+    claim: '“Congregation of the righteous” is a gathering or company'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5712.htm'
+    quote: 'Psalm 1:5 congregation of the righteous'
+  - where: 'section 3 plain'
+    claim: '“Knoweth” in verse 6 is to take notice of, regard'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3045.htm'
+    quote: '= take notice of, regard'
+
+  # ---- note 1:1 The word behind the Beatitudes ----
+  - where: 'note 1:1 “The word behind the Beatitudes”'
+    claim: 'Ashre is used only in the plural construct, as an exclamation of happiness'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/835.htm'
+    quote: 'abstract intensive exclamation O happiness, blessedness of'
+  - where: 'note 1:1 “The word behind the Beatitudes”'
+    claim: 'The word occurs 44 times in the Masoretic Text'
+    key: skinner-beatitudes
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/israels-ancient-psalms'
+    quote: 'the term ashre occurs 44 times'
+  - where: 'note 1:1 “The word behind the Beatitudes”'
+    claim: 'The majority of its uses, 26, are in Psalms'
+    key: skinner-beatitudes
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/israels-ancient-psalms'
+    quote: 'is found in Psalms (26 times). The very first psalm begins with:'
+  - where: 'note 1:1 “The word behind the Beatitudes”'
+    claim: 'Psalm 2:12 ends with the same Hebrew word, ashre'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַ֝שְׁרֵ֗י'
+  - where: 'note 1:1 “The word behind the Beatitudes”'
+    claim: 'The Septuagint renders ashre as makarios/makarioi, as in Psalm 1:1'
+    key: skinner-beatitudes
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/israels-ancient-psalms'
+    quote: 'as makarios/makarioi, as in Psalm 1:1'
+  - where: 'note 1:1 “The word behind the Beatitudes”'
+    claim: 'The Greek of the Beatitudes has makarioi for this Hebrew form'
+    key: skinner-beatitudes
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/israels-ancient-psalms'
+    quote: 'which is rendered in the underlying Greek text of the New Testament as makarioi'
+  - where: 'note 1:1 “The word behind the Beatitudes”'
+    claim: 'The Beatitudes are built on this Hebrew form, found mostly in the Psalms'
+    key: skinner-beatitudes
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/israels-ancient-psalms'
+    quote: 'Thus we see that the Beatitudes are based on an original form of Hebrew speech found more often than not in the Psalms.'
+
+  # ---- note 1:1 How a Hebrew verse is built ----
+  - where: 'note 1:1 “How a Hebrew verse is built”'
+    claim: 'In a parallelism the second line restates, reinforces or reconfigures the first'
+    key: parry-synonymous
+    url: 'https://rsc.byu.edu/preserved-translation/synonymous-parallelism'
+    quote: 'The prophet-psalmist thus sets forth his ideas in the first line, then restates, reinforces, or reconfigures them in the next line.'
+  - where: 'note 1:1 “How a Hebrew verse is built”'
+    claim: 'The second line adds to the first'
+    key: parry-synonymous
+    url: 'https://rsc.byu.edu/preserved-translation/synonymous-parallelism'
+    quote: 'This reconfiguration may serve to emphasize, broaden, or add further light to the first clause.'
+  - where: 'note 1:1 “How a Hebrew verse is built”'
+    claim: 'Hebrew poetry differs from Western rhymed or metrical verse and rests on parallelism'
+    key: ot-manual-g
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/enrichment-section-g-hebrew-literary-styles?lang=eng'
+    quote: 'it is greatly different from Western poetry, whether rhyming verse or blank verse'
+  - where: 'note 1:1 “How a Hebrew verse is built”'
+    claim: 'Because parallelism rests on meaning, it survives translation'
+    key: ot-manual-g
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/enrichment-section-g-hebrew-literary-styles?lang=eng'
+    quote: 'survives translation into the prose of any language with remarkably little loss, unlike the poetry that relies on complex metre or a special vocabulary'
+  - where: 'note 1:1 “How a Hebrew verse is built”'
+    claim: 'Antithetic parallelism sets a contrasting thought in the second line'
+    key: ot-manual-g
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/enrichment-section-g-hebrew-literary-styles?lang=eng'
+    quote: 'Antithetic parallelism consists of the repetition of a contrasting thought in the second line to accentuate the thought of the first'
+  - where: 'note 1:1 “How a Hebrew verse is built”'
+    claim: 'Synthetic parallelism builds line on line; the manual’s example is Psalm 1:3'
+    key: ot-manual-g
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/enrichment-section-g-hebrew-literary-styles?lang=eng'
+    quote: 'Synthetic parallelism is a building up of thought, with each succeeding line adding to the first'
+  - where: 'note 1:1 “How a Hebrew verse is built”'
+    claim: 'One reading: the three names for the wicked in verse 1 form a climax'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/1.htm'
+    quote: 'The three appellations form a climax'
+  - where: 'note 1:1 “How a Hebrew verse is built”'
+    claim: 'The climax runs from a state of mind, to a way of life, to the company of scoffers'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/1.htm'
+    quote: 'Blessed is he who does not walk in the state of mind which the ungodly cherish, much less that he should associate with the vicious life of sinners, or even delight in the company of those who scoff at religion.'
+  - where: 'note 1:1 “How a Hebrew verse is built”'
+    claim: 'The Hebrew word for “seat” means both a seat and an assembling'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/1.htm'
+    quote: 'signifies both seat (Job 29:7) and assembling (Psalm 107:32), be it official or social'
+
+  # ---- note 1:2 ----
+  - where: 'note 1:2 “Meditating on the LORD’s instruction day and night”'
+    claim: 'The verb is used of a lion growling over its prey'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1897.htm'
+    quote: 'a. growl, of lion growling over prey'
+  - where: 'note 1:2 “Meditating on the LORD’s instruction day and night”'
+    claim: 'The verb is used of moaning in distress, like a dove'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1897.htm'
+    quote: 'b. groan, moan, in distress (like dove)'
+  - where: 'note 1:2 “Meditating on the LORD’s instruction day and night”'
+    claim: 'In Psalm 1:2 and Joshua 1:8 the sense is to meditate, muse (soliloquize)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1897.htm'
+    quote: '3. a. (soliloquize) meditate, muse, with'
+  - where: 'note 1:2 “Meditating on the LORD’s instruction day and night”'
+    claim: 'Torah means direction, instruction, law'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8451.htm'
+    quote: 'direction, instruction, law'
+  - where: 'note 1:2 “Meditating on the LORD’s instruction day and night”'
+    claim: 'Joshua 1:8 has the same verb for meditating (hagah, Strong’s 1897) as Psalm 1:2'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Josh.xml'
+    quote: 'הָגִ֤יתָ'
+  - where: 'note 1:2 “Meditating on the LORD’s instruction day and night”'
+    claim: 'The verb in Psalm 1:2'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יֶהְגֶּ֗ה'
+  - where: 'note 1:2 “Meditating on the LORD’s instruction day and night”'
+    claim: 'Joshua 1:8 has the same verb for prospering (tsalach, Strong’s 6743) as Psalm 1:3'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Josh.xml'
+    quote: 'תַּצְלִ֥יחַ'
+  - where: 'note 1:2 “Meditating on the LORD’s instruction day and night”'
+    claim: 'Joshua 1:8 has the same Hebrew word for “day” (yomam, Strong’s 3119) in “day and night” as Psalm 1:2, followed by the same word for “night”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Josh.xml'
+    quote: 'יוֹמָ֣ם'
+  - where: 'note 1:2 “Meditating on the LORD’s instruction day and night”'
+    claim: '“Day” in “day and night” in Psalm 1:2 (yomam, Strong’s 3119)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יוֹמָ֥ם'
+  - where: 'note 1:2 “Meditating on the LORD’s instruction day and night”'
+    claim: 'The man of Psalm 1 has been read as the anointed king of Psalm 2, supported by the law of the king in Deuteronomy 17:14–20'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'The righteous man in the psalm, according to some interpretations, should be seen as identical to the anointed, or messianic, king of Psalm 2. This view is supported by Deuteronomy 17:14–20'
+
+  # ---- note 1:3 tree ----
+  - where: 'note 1:3 “A tree set beside the channels”'
+    claim: '“Planted” is a verb meaning to transplant, used in poetry of a tree or vine'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8362.htm'
+    quote: 'transplant (poetry): tree or vine'
+  - where: 'note 1:3 “A tree set beside the channels”'
+    claim: '“Rivers” is peleg, a channel or artificial canal'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6388.htm'
+    quote: 'channel, (artificial) canal'
+  - where: 'note 1:3 “A tree set beside the channels”'
+    claim: 'In Psalm 46:4 (Hebrew 46:5) the same word is used of irrigating canals'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6388.htm'
+    quote: 'irrigating canals from river'
+  - where: 'note 1:3 “A tree set beside the channels”'
+    claim: 'Jeremiah 17:8 has the same Hebrew participle for “planted” (shathul, Strong’s 8362)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
+    quote: 'שָׁת֣וּל'
+  - where: 'note 1:3 “A tree set beside the channels”'
+    claim: 'The participle in Psalm 1:3'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁת֪וּל'
+  - where: 'note 1:3 “A tree set beside the channels”'
+    claim: 'Psalm 92:13 (Hebrew 92:14) has the same verb'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8362.htm'
+    quote: 'Ezekiel 19:13; Psalm 92:14'
+  - where: 'note 1:3 “A tree set beside the channels”'
+    claim: 'One reading: the tree is the tree of life, planted in or near the temple, argued from Psalms 52:8; 92:12–15; Ezekiel 47:12; Revelation 22:1–2'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'The Messianic King is like the tree of life, planted in or near the temple.'
+
+
+  # ---- note 1:4 chaff ----
+  - where: 'note 1:4 “Chaff, and the judgment it pictures”'
+    claim: 'Chaff is what is threshed loose'
+    key: strongs-concordance
+    url: 'https://biblehub.com/hebrew/4671.htm'
+    quote: 'threshed loose'
+  - where: 'note 1:4 “Chaff, and the judgment it pictures”'
+    claim: 'The word is always used of chaff driven by wind, and always in a simile'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4671.htm'
+    quote: 'chaff, always as driven by wind, and always with'
+  - where: 'note 1:4 “Chaff, and the judgment it pictures”'
+    claim: 'The chaff is the opposite of the tree, driven from the threshing floor'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/1.htm'
+    quote: 'which the wind drives away, viz., from the loftily situated threshing-floor (Isaiah 17:13), i.e., without root below, without fruit above'
+  - where: 'note 1:4 “Chaff, and the judgment it pictures”'
+    claim: '“Stand” in verse 5 is to maintain oneself'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6965.htm'
+    quote: '= maintain oneself'
+  - where: 'note 1:4 “Chaff, and the judgment it pictures”'
+    claim: 'One reading: the judgment is God’s, whenever He holds it'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/1.htm'
+    quote: 'God''s judgment, when and wheresoever he may hold it, shall trace back this appearance to its nothingness.'
+  - where: 'note 1:4 “Chaff, and the judgment it pictures”'
+    claim: 'One reading: the judgment separates righteous and unrighteous as wheat and chaff'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/1.htm'
+    quote: 'which also separates outwardly that which is now inwardly separate, viz., righteous and unrighteous, wheat and chaff'
+  - where: 'note 1:4 “Chaff, and the judgment it pictures”'
+    claim: 'One reading: at that judgment the temporary prosperity of the unrighteous comes to an end'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/1.htm'
+    quote: 'their temporary prosperity, which had no divine roots, come to a fearful end'
+
+  # ---- note 1:6 ----
+  - where: 'note 1:6 “What it means that the LORD knows a way”'
+    claim: '“Know” in Psalm 1:6 is to take notice of, regard'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3045.htm'
+    quote: '= take notice of, regard'
+  - where: 'note 1:6 “What it means that the LORD knows a way”'
+    claim: 'The same sense is used of God knowing His true servants'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3045.htm'
+    quote: 'knowing his true servants'
+  - where: 'note 1:6 “What it means that the LORD knows a way”'
+    claim: 'The same sense is used of Israel as chosen people, Amos 3:2'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3045.htm'
+    quote: 'so of Israel as chosen people Amos 3:2'
+  - where: 'note 1:6 “What it means that the LORD knows a way”'
+    claim: 'The doctrine of the two ways: the way of life and the way of death'
+    key: sc-knowhy-287
+    url: 'https://scripturecentral.org/knowhy/why-did-lehi-teach-about-the-two-ways'
+    quote: 'This doctrine states that there are only two ways to live: the way of life, and the way of death.'
+  - where: 'note 1:6 “What it means that the LORD knows a way”'
+    claim: 'Psalm 1:6 is a prominent instance of the two ways in wisdom literature'
+    key: sc-knowhy-287
+    url: 'https://scripturecentral.org/knowhy/why-did-lehi-teach-about-the-two-ways'
+    quote: 'See prominently, for example, Psalms 1:6.'
+  - where: 'note 1:6 “What it means that the LORD knows a way”'
+    claim: 'Lehi’s statement echoes Deuteronomy 30:19'
+    key: sc-knowhy-287
+    url: 'https://scripturecentral.org/knowhy/why-did-lehi-teach-about-the-two-ways'
+    quote: 'Lehi’s statement strongly echoes Deuteronomy, where Moses proclaimed'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'The Beatitudes rest on the ashre form of the Psalms'
+    key: skinner-beatitudes
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/israels-ancient-psalms'
+    quote: 'Thus we see that the Beatitudes are based on an original form of Hebrew speech found more often than not in the Psalms.'
+  - where: 'christ'
+    claim: 'The Savior frequently referred to the Psalms'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'the Savior frequently referred to it during His ministry'
+  - where: 'christ'
+    claim: 'Many commentators identify the righteous man of Psalm 1 with the anointed king of Psalm 2, the Messiah'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Many commentators have seen a connection between the righteous man of Psalm 1 and the anointed king of Psalm 2, suggesting that they are one and the same—the chosen Messiah who loves and follows the law of the Lord.'
+  - where: 'christ'
+    claim: 'Psalm 2 calls the anointed king the Son'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/2?lang=eng'
+    quote: 'Kiss the Son, lest he be angry, and ye perish from the way'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'Psalm 119:1 opens with the same Hebrew word, ashre'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/835.htm'
+    quote: 'blessed the perfect in way Psalm 119:1'
+  - where: 'explore'
+    claim: 'Larsen’s chapter treats Psalms 1 and 2 as one introduction to the book'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'placed together at the beginning of the book of Psalms to serve as an introduction to the entire collection'
