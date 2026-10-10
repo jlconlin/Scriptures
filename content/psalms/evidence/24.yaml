@@ -1,0 +1,594 @@
+chapter: 24
+claims:
+  - where: 'when'
+    claim: 'The title is “A Psalm of David” and gives no occasion'
+    key: parry-psalm-24
+    url: 'https://byustudies.byu.edu/article/temple-worship-and-a-possible-reference-to-a-prayer-circle-in-psalm-24'
+    quote: '1. A Psalm of David'
+  - where: 'setting'
+    claim: 'The Hebrew title is two words, “of David” and “a psalm” (mizmor, H4210); no occasion follows'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִ֫זְמ֥וֹר'
+  - where: 'setting'
+    claim: 'The title in translation is “A Psalm of David”'
+    key: parry-psalm-24
+    url: 'https://byustudies.byu.edu/article/temple-worship-and-a-possible-reference-to-a-prayer-circle-in-psalm-24'
+    quote: '1. A Psalm of David'
+  - where: 'setting'
+    claim: 'One older reading: the psalm was composed when the ark was brought to Mount Zion (2 Samuel 6)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/24.htm'
+    quote: 'It was composed when the Ark was brought from Kirjath Jearim to Mount Zion, where David had caused it to be set up in a tabernacle built expressly for it, 2 Samuel 6:17'
+  - where: 'setting'
+    claim: 'The same reading allows a later day, when the ark returned from accompanying the army; it rests on the description of the Lord as a warrior'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/24.htm'
+    quote: 'or else, which is rendered the more probable by the description of Jahve as a warrior, at a time when the Ark was brought back to Mount Zion, after having been taken to accompany the army to battle'
+  - where: 'setting'
+    claim: 'The Greek translation adds “on the first day of the week” to the title'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/24.htm'
+    quote: 'A Psalm for David on the first day of the week.'
+  - where: 'setting'
+    claim: 'The Talmud names Psalm 24 as the psalm sung on Sunday'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'The Talmud even indicated that certain psalms were sung on each day of the week: Sunday, Psalm 24'
+  - where: 'setting'
+    claim: 'The beatitude on the pure in heart rests on Psalm 24'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'Jesus Christ used the doctrinal foundation of Psalm 24 to make the same promise, in his Sermon on the Mount, to the pure in heart: they would see God (Matthew 5:8).'
+  - where: 'setting'
+    claim: 'Nephi and Alma use Psalm 24:4 of standing before God'
+    key: sc-knowhy-437
+    url: 'https://scripturecentral.org/knowhy/how-do-the-psalms-quoted-in-the-book-of-mormon-teach-about-the-temple'
+    quote: 'mentioned the requirement of having “a pure heart and clean hands” in the context of “look[ing] up to God” and standing in His presence (Alma 5:18–19)'
+
+  - where: 'thread'
+    claim: 'Psalm 24 is counted among the psalms designed as antiphonal dialogue, a call and response'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'These psalms are clearly designed for antiphonal dialogue in a way that worshippers could respond to the call of a priest, or the Levites could perform a song in a call and response fashion'
+  - where: 'thread'
+    claim: '“Lifted up” in verse 4 is the verb nasa (H5375)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נָשָׂ֣א'
+  - where: 'thread'
+    claim: '“Receive” in verse 5 is a form of the same verb, nasa (H5375)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִשָּׂ֣א'
+  - where: 'thread'
+    claim: '“Lift up” in verses 7 and 9 is the same verb, twice in each verse (four times of the gates)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שְׂא֤וּ'
+
+  - where: 'section 2 plain'
+    claim: '“Hill” is the Hebrew word for mountain: “who shall go up to the mountain”'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'the Hebrew literally translates to “who shall go up to the mountain of Yahweh,”'
+  - where: 'section 2 plain'
+    claim: '“Vanity” is emptiness'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7723.htm'
+    quote: 'emptiness, vanity'
+  - where: 'section 2 plain'
+    claim: 'To lift up the soul to a thing is to direct one’s soul or longing toward it'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/24.htm'
+    quote: 'to direct one''s soul, Psalm 25:1, or longing and striving, towards anything'
+  - where: 'section 2 plain'
+    claim: 'The Hebrew of verse 6 ends “your face, O Jacob”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2024&version=NRSVUE'
+    quote: 'Heb your face, O Jacob'
+  - where: 'section 3 plain'
+    claim: '“Everlasting doors” can be rendered ancient gates or doors'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5769.htm'
+    quote: 'ancient gates Psalm 24:7; Psalm 24:9'
+
+  - where: 'note 24:1 “The whole earth first, then one hill”'
+    claim: 'The Lord owns the world because He made it'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/24.htm'
+    quote: 'is the owner of the world, because its Creator'
+  - where: 'note 24:1 “The whole earth first, then one hill”'
+    claim: 'One reading: the question of verse 3 arises from the Creator’s ownership, and asks who has courage to go up'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/24.htm'
+    quote: 'Hereupon arises the question, who may ascend the mountain of Jahve, and stand above in His holy place? The futures have a potential signification: who can have courage to do it?'
+  - where: 'note 24:1 “The whole earth first, then one hill”'
+    claim: 'The psalm is full of temple terms (mountain, holy place, gates), and the creation scene is prominent in verses 1–2'
+    key: parry-psalm-24
+    url: 'https://byustudies.byu.edu/article/temple-worship-and-a-possible-reference-to-a-prayer-circle-in-psalm-24'
+    quote: 'the creation scene plays a prominent role in the opening verses 1–2'
+  - where: 'note 24:1 “The whole earth first, then one hill”'
+    claim: 'The temple terms of the psalm'
+    key: parry-psalm-24
+    url: 'https://byustudies.byu.edu/article/temple-worship-and-a-possible-reference-to-a-prayer-circle-in-psalm-24'
+    quote: 'such as mountain of Yahweh, holy place, ascend, rise up, innocent, pure heart, lift up, seeking God’s face, gates, entrances, king, glory, and eternity'
+  - where: 'note 24:1 “The whole earth first, then one hill”'
+    claim: 'Paul quotes the verse where he writes of meat sold in the market and meat offered to idols'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/10?lang=eng'
+    quote: 'This is offered in sacrifice unto idols, eat not for his sake that shewed it, and for conscience sake: for the earth is the Lord’s, and the fulness thereof'
+
+  - where: 'note 24:2 “Dry land held up over the water”'
+    claim: 'One reading: the land, raised out of the waters at creation, has them for its foundation'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/24.htm'
+    quote: 'has the waters, as it were, for its foundation (Psalm 136:6)'
+  - where: 'note 24:2 “Dry land held up over the water”'
+    claim: 'It would sink but for God’s upholding power'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/24.htm'
+    quote: 'although it would more readily sink down into them than keep itself above them, if it were not in itself upheld by the creative power of God'
+  - where: 'note 24:2 “Dry land held up over the water”'
+    claim: 'Psalm 136:6 praises the Lord who stretched out the earth above the waters'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/136?lang=eng'
+    quote: 'To him that stretched out the earth above the waters'
+
+  - where: 'note 24:3 “The hill is the temple mount”'
+    claim: '“Hill” in 24:3 is har (H2022), mountain'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַר'
+  - where: 'note 24:3 “The hill is the temple mount”'
+    claim: 'The lexicon lists Psalm 24:3 with Isaiah 2:3 and Isaiah 30:29 for the mountain of the Lord, and Psalm 15:1 among the uses for the holy mountain'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2022.htm'
+    quote: 'Isaiah 2:3 = Micah 4:2; Isaiah 30:29; Psalm 24:3'
+  - where: 'note 24:3 “The hill is the temple mount”'
+    claim: '“His holy place” refers to the temple'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'the phrase “who shall stand in his holy place” refers directly to the temple; a section of the Jerusalem temple was explicitly called “the Holy Place.”'
+  - where: 'note 24:3 “The hill is the temple mount”'
+    claim: 'After the Exodus the Lord said He would appear to Israel mainly at the tabernacle'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'the Lord said that he would appear to the Israelites mainly in the ’ohel mo‘ed (the tent of meeting, or tabernacle) once it was established'
+  - where: 'note 24:3 “The hill is the temple mount”'
+    claim: 'Psalm 24 is among the psalms that suggest pilgrimage to the house of the Lord'
+    key: sc-knowhy-437
+    url: 'https://scripturecentral.org/knowhy/how-do-the-psalms-quoted-in-the-book-of-mormon-teach-about-the-temple'
+    quote: 'Descriptions like those found in Psalms 24, 42, 68, 95, 118, 122, and 132 suggest that periodic pilgrimages to the house of the Lord were an important part of ancient temple worship.'
+  - where: 'note 24:3 “The hill is the temple mount”'
+    claim: 'What Israel went up to the temple to do'
+    key: sc-knowhy-437
+    url: 'https://scripturecentral.org/knowhy/how-do-the-psalms-quoted-in-the-book-of-mormon-teach-about-the-temple'
+    quote: 'The people of Israel would ascend up to Jerusalem and enter the temple grounds in order to be taught the word of God, offer sacrifices, and participate in other temple rites.'
+  - where: 'note 24:3 “The hill is the temple mount”'
+    claim: 'The Psalms use the word “temple” more than any Old Testament book but 2 Chronicles, and have been called the hymn book of the temple'
+    key: sc-knowhy-437
+    url: 'https://scripturecentral.org/knowhy/how-do-the-psalms-quoted-in-the-book-of-mormon-teach-about-the-temple'
+    quote: 'The Psalms mention the word “temple” more than any other book in the Old Testament except for 2 Chronicles. The Psalms have been called the “hymn book” of the ancient temple because many of them were likely read or sung during temple rituals'
+  - where: 'note 24:3 “The hill is the temple mount”'
+    claim: 'The temple had gradations of holiness, but the Psalter invites all to seek God’s face'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'We know gradations of holiness existed—among classes of people as well as in the temple itself. Yet the language of the Psalter does not discriminate; all are invited to seek the face of God.'
+  - where: 'note 24:3 “The hill is the temple mount”'
+    claim: 'In David’s day the ark was set in a tent David pitched for it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/6?lang=eng'
+    quote: 'set it in his place, in the midst of the tabernacle that David had pitched for it'
+  - where: 'note 24:3 “The hill is the temple mount”'
+    claim: '“Holy hill” in Psalm 15:1 is the same word, har (H2022)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַ֣ר'
+
+  - where: 'note 24:3 “A question at the gate, and an answer”'
+    claim: 'Psalm 24 is one of the psalms designed for antiphonal dialogue'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'These psalms are clearly designed for antiphonal dialogue in a way that worshippers could respond to the call of a priest'
+  - where: 'note 24:3 “A question at the gate, and an answer”'
+    claim: 'It works like Psalm 15: one asks who shall ascend, the other answers with verse 4'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'Psalm 24 functions in a similar way, with the worshipper (or the priest) asking, “Who shall ascend into the hill of the Lord?” (3). The priest (or the worshipper) would then respond'
+  - where: 'note 24:3 “A question at the gate, and an answer”'
+    claim: 'Some scholars have argued that priests at the gates questioned those seeking entrance'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'priests stood at the temple gates and ensured the worthiness of worshippers, and hence the sanctity of the temple, by posing questions to those seeking entrance'
+  - where: 'note 24:3 “A question at the gate, and an answer”'
+    claim: 'Another proposal reverses it: worshippers ask from outside and a priest answers from within'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'The worshippers stood outside the gates of the temple and asked, “Who is worthy to enter the temple?” Then, “from the inside a priestly speaker answers them with the declaration of the conditions of entrance.”'
+  - where: 'note 24:3 “A question at the gate, and an answer”'
+    claim: 'How the temple’s music was performed is known only by educated guess'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'There is no way to know beyond educated guesses what form temple music would have taken.'
+  - where: 'note 24:3 “A question at the gate, and an answer”'
+    claim: 'The call and response would have prompted reflection in the worshippers'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'the call and response format of the psalm would have caused thoughtful reflection among the temple worshippers'
+
+  - where: 'note 24:4 “Hands for what is done, heart for what is meant”'
+    claim: 'One translation: “He whose palms are innocent”'
+    key: parry-psalm-24
+    url: 'https://byustudies.byu.edu/article/temple-worship-and-a-possible-reference-to-a-prayer-circle-in-psalm-24'
+    quote: 'He whose palms are innocent'
+  - where: 'note 24:4 “Hands for what is done, heart for what is meant”'
+    claim: '“Clean” is naqi (H5355): free from guilt, clean, innocent; used of innocent blood'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5355.htm'
+    quote: 'free from guilt, clean, innocent'
+  - where: 'note 24:4 “Hands for what is done, heart for what is meant”'
+    claim: 'The same adjective is the one in the phrase “innocent blood”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5355.htm'
+    quote: 'innocent blood, first used in D, Deuteronomy 19:10'
+  - where: 'note 24:4 “Hands for what is done, heart for what is meant”'
+    claim: '“Pure” is bar (H1249): pure, clear; “pure in heart” in this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1249.htm'
+    quote: 'pure in heart Psalm 24:4'
+  - where: 'note 24:4 “Hands for what is done, heart for what is meant”'
+    claim: 'The two adjectives in the Hebrew text of 24:4 (H5355, H1249)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נְקִ֥י'
+  - where: 'note 24:4 “Hands for what is done, heart for what is meant”'
+    claim: 'The Greek translation: innocent in his hands and pure in his heart'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/24.htm'
+    quote: 'He that is innocent in his hands and pure in his heart'
+  - where: 'note 24:4 “Hands for what is done, heart for what is meant”'
+    claim: 'Both outward actions and inward thoughts had to meet a holy standard'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'both the outward actions and the inward thoughts of the worshipper had to conform to a holy standard for the person to gain entrance into the temple precinct'
+  - where: 'note 24:4 “Hands for what is done, heart for what is meant”'
+    claim: 'What stained hands and what corrupted the heart'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'Hands were stained by such things as idolatry, murder, theft, adultery, Sabbath breaking, and mistreating others. The heart was corrupted by evil or impure thoughts.'
+
+  - where: 'note 24:4 “Vanity is emptiness, and the wording is the third commandment’s”'
+    claim: '“Vanity” is shav (H7723): emptiness, vanity'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7723.htm'
+    quote: 'emptiness, vanity'
+  - where: 'note 24:4 “Vanity is emptiness, and the wording is the third commandment’s”'
+    claim: 'The word is used of idols'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7723.htm'
+    quote: 'Psalm 31:7 (idols)'
+  - where: 'note 24:4 “Vanity is emptiness, and the wording is the third commandment’s”'
+    claim: 'It is used of empty speech, lying'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7723.htm'
+    quote: 'emptiness of speech'
+  - where: 'note 24:4 “Vanity is emptiness, and the wording is the third commandment’s”'
+    claim: 'It is used of worthless conduct'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7723.htm'
+    quote: 'of conduct, worthlessness'
+  - where: 'note 24:4 “Vanity is emptiness, and the wording is the third commandment’s”'
+    claim: 'The lexicon sets Psalm 24:4 beside Exodus 20:7, to take up the name of God in vain'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7723.htm'
+    quote: 'take up name of God in vain (to no good purpose) = Deuteronomy 5:11 (twice in verse), compare Psalm 24:4'
+  - where: 'note 24:4 “Vanity is emptiness, and the wording is the third commandment’s”'
+    claim: 'Exodus 20:7 has the verb nasa (H5375) and the noun shav (H7723)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'תִשָּׂ֛א'
+  - where: 'note 24:4 “Vanity is emptiness, and the wording is the third commandment’s”'
+    claim: 'Psalm 24:4 has the same verb (H5375) with shav (H7723) and “soul” (H5315)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נָשָׂ֣א'
+  - where: 'note 24:4 “Vanity is emptiness, and the wording is the third commandment’s”'
+    claim: 'Psalm 25:1 has the same verb (H5375) and noun, “soul” (H5315)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶשָּֽׂא'
+  - where: 'note 24:4 “Vanity is emptiness, and the wording is the third commandment’s”'
+    claim: 'A modern translation: “who do not lift up their souls to what is false”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2024&version=NRSVUE'
+    quote: 'who do not lift up their souls to what is false'
+  - where: 'note 24:4 “Vanity is emptiness, and the wording is the third commandment’s”'
+    claim: 'To lift the soul to a thing is to direct one’s soul, longing and striving, toward it, as in Psalm 25:1'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/24.htm'
+    quote: 'to direct one''s soul, Psalm 25:1, or longing and striving, towards anything'
+  - where: 'note 24:4 “Vanity is emptiness, and the wording is the third commandment’s”'
+    claim: 'The Greek adds “to his neighbour”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/24.htm'
+    quote: 'nor sworn deceitfully to his neighbour'
+
+  - where: 'note 24:5 “Receive is the same verb as lift”'
+    claim: '“Receive” in 24:5 is nasa (H5375), the verb of 24:4'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִשָּׂ֣א'
+  - where: 'note 24:5 “Receive is the same verb as lift”'
+    claim: 'The verb occurs six times in the psalm: 24:4, 24:5, twice in 24:7, twice in 24:9'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שְׂא֤וּ'
+  - where: 'note 24:5 “Receive is the same verb as lift”'
+    claim: 'One translation keeps “lift up” in verse 5'
+    key: parry-psalm-24
+    url: 'https://byustudies.byu.edu/article/temple-worship-and-a-possible-reference-to-a-prayer-circle-in-psalm-24'
+    quote: 'He will lift up a blessing from Yahweh.'
+  - where: 'note 24:5 “Receive is the same verb as lift”'
+    claim: 'One proposal: the blessing is implicit in verse 6, the privilege of appearing before God in His temple'
+    key: parry-psalm-24
+    url: 'https://byustudies.byu.edu/article/temple-worship-and-a-possible-reference-to-a-prayer-circle-in-psalm-24'
+    quote: 'The blessing is implicit in verse 6.'
+  - where: 'note 24:5 “Receive is the same verb as lift”'
+    claim: 'The blessing as appearing before God'
+    key: parry-psalm-24
+    url: 'https://byustudies.byu.edu/article/temple-worship-and-a-possible-reference-to-a-prayer-circle-in-psalm-24'
+    quote: 'The blessing, then, is that those individuals worthy to enter the temple will have the privilege of appearing before God in his temple.'
+  - where: 'note 24:5 “Receive is the same verb as lift”'
+    claim: 'Elsewhere in the Psalms blessings, especially salvation, come when the Lord’s face shines on a person'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'when the Lord’s face shines on a person, blessings—especially salvation—come'
+
+  - where: 'note 24:5 “Righteousness is received, not brought”'
+    claim: 'The Greek has “mercy from God his Saviour”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/24.htm'
+    quote: 'He shall receive a blessing from the Lord, and mercy from God his Saviour.'
+  - where: 'note 24:5 “Righteousness is received, not brought”'
+    claim: 'A modern translation has “vindication”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2024&version=NRSVUE'
+    quote: 'and vindication from the God of their salvation'
+  - where: 'christ'
+    claim: 'Elder Bednar: our works cannot produce them; the Atonement cleanses and sanctifies'
+    key: bednar-clean-hands
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2007/10/clean-hands-and-a-pure-heart?lang=eng'
+    quote: 'All of our worthy desires and good works, as necessary as they are, can never produce clean hands and a pure heart. It is the Atonement of Jesus Christ that provides both a cleansing and redeeming power'
+
+  - where: 'note 24:6 “Jesus promised the pure in heart what this psalm seeks”'
+    claim: 'Jesus used Psalm 24 as the foundation of the beatitude'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'Jesus Christ used the doctrinal foundation of Psalm 24 to make the same promise, in his Sermon on the Mount, to the pure in heart: they would see God (Matthew 5:8).'
+  - where: 'note 24:6 “Jesus promised the pure in heart what this psalm seeks”'
+    claim: 'The Greek of Psalm 24:4 and of Matthew 5:8 have equivalent phrases'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'The Septuagint phrase “pure in his heart” (katharos te kardia), used in the singular in verse 4, is equivalent to the phrase “pure in heart” (katharoi te kardia), used in the plural by Jesus in Matthew 5:8.'
+  - where: 'note 24:6 “Jesus promised the pure in heart what this psalm seeks”'
+    claim: 'The Greek translation of verse 4 has “pure in his heart”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/24.htm'
+    quote: 'pure in his heart'
+  - where: 'note 24:6 “Jesus promised the pure in heart what this psalm seeks”'
+    claim: 'Nephi cites Psalm 24:4 of the day the Jews believe in Christ'
+    key: sc-knowhy-437
+    url: 'https://scripturecentral.org/knowhy/how-do-the-psalms-quoted-in-the-book-of-mormon-teach-about-the-temple'
+    quote: 'Nephi prophesied that the Jews will come to recognize Jesus as their true Messiah when they worship the Father “with pure hearts and clean hands” (2 Nephi 25:16, citing Psalm 24:4)'
+  - where: 'note 24:6 “Jesus promised the pure in heart what this psalm seeks”'
+    claim: 'Alma speaks of the tribunal of God in the verse before'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/5?lang=eng'
+    quote: 'can ye imagine yourselves brought before the tribunal of God'
+  - where: 'note 24:6 “Jesus promised the pure in heart what this psalm seeks”'
+    claim: 'Alma’s “image of God engraven upon your countenances” has been read as temple imagery of being changed by the Lord’s face'
+    key: sc-knowhy-437
+    url: 'https://scripturecentral.org/knowhy/how-do-the-psalms-quoted-in-the-book-of-mormon-teach-about-the-temple'
+    quote: 'he also used the related temple imagery of being transfigured by the Lord’s shining face. This is the well-known line in Alma 5:19, in which Alma asked his audience if they had “the image of God engraven upon your countenances.”'
+  - where: 'parallels'
+    claim: 'D&C 97:15–16: the house built and kept undefiled, and the pure in heart seeing God there'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/97?lang=eng'
+    quote: 'inasmuch as my people build a house unto me in the name of the Lord, and do not suffer any unclean thing to come into it, that it be not defiled, my glory shall rest upon it'
+
+  - where: 'note 24:6 “Whose face, and who is Jacob”'
+    claim: 'The Hebrew ends “thy face, Jacob,” with no word for “O” or for “God”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יַעֲקֹ֣ב'
+  - where: 'note 24:6 “Whose face, and who is Jacob”'
+    claim: 'The Church’s edition gives “even Jacob” in its footnote'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/24?lang=eng'
+    quote: 'OR even Jacob.'
+  - where: 'note 24:6 “Whose face, and who is Jacob”'
+    claim: 'The Greek has “the face of the God of Jacob”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/24.htm'
+    quote: 'that seek the face of the God of Jacob'
+  - where: 'note 24:6 “Whose face, and who is Jacob”'
+    claim: 'A modern translation follows the Greek and Syriac and notes the Hebrew'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2024&version=NRSVUE'
+    quote: 'Gk Syr: Heb your face, O Jacob'
+  - where: 'note 24:6 “Whose face, and who is Jacob”'
+    claim: 'The Syriac and the Septuagint supply “God,” and most translators accept it'
+    key: parry-psalm-24
+    url: 'https://byustudies.byu.edu/article/temple-worship-and-a-possible-reference-to-a-prayer-circle-in-psalm-24'
+    quote: 'most translators have accepted this alternate reading and have supplied the term God in their translations'
+  - where: 'note 24:6 “Whose face, and who is Jacob”'
+    claim: 'The argument from sense: it is the Lord’s face that is sought'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'it is not Jacob’s face that is sought but the Lord’s'
+  - where: 'note 24:6 “Whose face, and who is Jacob”'
+    claim: 'The Septuagint says the purpose of going up was to seek the face of the God of Jacob'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'the ultimate purpose of going up to the temple was to “seek the face of the God of Jacob.”'
+  - where: 'note 24:6 “Whose face, and who is Jacob”'
+    claim: '“Generation” (dor, H1755) here is a class of people: the righteous, as a class'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1755.htm'
+    quote: 'of the righteous, as a class Psalm 14:5; Psalm 24:6'
+  - where: 'note 24:6 “Whose face, and who is Jacob”'
+    claim: 'The vowels were introduced by the Masoretes, centuries after the text was written'
+    key: parry-psalm-24
+    url: 'https://byustudies.byu.edu/article/temple-worship-and-a-possible-reference-to-a-prayer-circle-in-psalm-24'
+    quote: 'Because the vowels were introduced by the Masoretes of Tiberius (9th century AD), they may or may not reflect the intent of the original biblical authors'
+  - where: 'note 24:6 “Whose face, and who is Jacob”'
+    claim: 'The proposal: with another vowel the word reads “circle,” and may refer to a prayer circle'
+    key: parry-psalm-24
+    url: 'https://byustudies.byu.edu/article/temple-worship-and-a-possible-reference-to-a-prayer-circle-in-psalm-24'
+    quote: 'the term circle fits that context well and may have reference to a religious prayer circle'
+  - where: 'note 24:6 “Whose face, and who is Jacob”'
+    claim: 'The proposed translation of the line'
+    key: parry-psalm-24
+    url: 'https://byustudies.byu.edu/article/temple-worship-and-a-possible-reference-to-a-prayer-circle-in-psalm-24'
+    quote: 'This is the circle of them that inquire of him'
+  - where: 'note 24:6 “Whose face, and who is Jacob”'
+    claim: 'The article’s own title calls it a possible reference'
+    key: parry-psalm-24
+    url: 'https://byustudies.byu.edu/article/temple-worship-and-a-possible-reference-to-a-prayer-circle-in-psalm-24'
+    quote: 'Temple Worship and a Possible Reference to a Prayer Circle in Psalm 24'
+
+  - where: 'note 24:7 “Gates told to make room”'
+    claim: 'One reading: the gates are too low and narrow for the Lord, and are to raise their lintels'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/24.htm'
+    quote: 'for whom they are too low and too strait. Rejoicing at the great honour, thus conferred upon them, they are to raise their heads (Job 10:15; Zechariah 2:4), i.e., lift up their portals (lintels); the doors of antiquity are to open high and wide.'
+  - where: 'note 24:7 “Gates told to make room”'
+    claim: 'The same reading takes “everlasting doors” as portals dating from the distant past'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/24.htm'
+    quote: 'as the portals dating back into the hoary ages of the past'
+  - where: 'note 24:7 “Gates told to make room”'
+    claim: 'The lexicon renders the phrase “ancient gates”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5769.htm'
+    quote: 'ancient gates Psalm 24:7; Psalm 24:9'
+  - where: 'note 24:7 “Gates told to make room”'
+    claim: 'A modern translation has “ancient doors”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2024&version=NRSVUE'
+    quote: 'and be lifted up, O ancient doors'
+
+  - where: 'note 24:9 “In Joseph Smith’s revision the King comes to His people”'
+    claim: 'The JST addresses the generations of Jacob in place of the gates'
+    key: jst-ps-24
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/24?lang=eng'
+    quote: 'Lift up your heads, O ye generations of Jacob; and be ye lifted up; and the Lord strong and mighty; the Lord mighty in battle, who is the king of glory, shall establish you forever.'
+  - where: 'note 24:9 “In Joseph Smith’s revision the King comes to His people”'
+    claim: 'The JST: He will roll away the heavens and come down to redeem His people'
+    key: jst-ps-24
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/24?lang=eng'
+    quote: 'And he will roll away the heavens; and will come down to redeem his people; to make you an everlasting name'
+  - where: 'note 24:9 “In Joseph Smith’s revision the King comes to His people”'
+    claim: 'The JST: the King of glory shall come unto you'
+    key: jst-ps-24
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/24?lang=eng'
+    quote: 'Even the king of glory shall come unto you; and shall redeem his people, and shall establish them in righteousness.'
+  - where: 'note 24:9 “In Joseph Smith’s revision the King comes to His people”'
+    claim: 'The appendix heads the passage as the King’s coming to redeem His people'
+    key: jst-ps-24
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/24?lang=eng'
+    quote: 'The King of Glory will redeem His people at His coming.'
+  - where: 'note 24:9 “In Joseph Smith’s revision the King comes to His people”'
+    claim: 'The work on Psalms is undated but was likely finished just before D&C 90 (8 March 1833)'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'Thus it is likely that he finished working on Psalms just prior to the reception of section 90.'
+  - where: 'note 24:9 “In Joseph Smith’s revision the King comes to His people”'
+    claim: 'Section 90 is dated by the article to March 8, 1833'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'It appears that he had progressed to at least Isaiah by March 8, 1833'
+  - where: 'note 24:9 “In Joseph Smith’s revision the King comes to His people”'
+    claim: 'A number of JST changes in Psalms turn them toward the Second Coming'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'shifted some of their messages from a present-tense, Old Testament focus to one looking forward to the Second Coming'
+  - where: 'note 24:9 “In Joseph Smith’s revision the King comes to His people”'
+    claim: 'D&C 88:95 has the same image and was revealed in late December 1832 and early January 1833, just before the work on this psalm'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'Doctrine and Covenants 88:95, which was revealed to Joseph Smith in late December 1832 and early January 1833, just prior to his work on this psalm'
+  - where: 'note 24:9 “In Joseph Smith’s revision the King comes to His people”'
+    claim: 'D&C 88:95 ends with the unveiling of the Lord’s face'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'and the face of the Lord shall be unveiled'
+
+  - where: 'note 24:10 “The LORD of hosts was the name on the ark”'
+    claim: 'The hosts are Israel’s armies and also the angelic armies of heaven'
+    key: bd-sabaoth
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sabaoth?lang=eng'
+    quote: 'The Lord of Sabaoth was a title of Jehovah; the hosts were the armies of Israel (1 Sam. 17:45) but also included the angelic armies of heaven'
+  - where: 'note 24:10 “The LORD of hosts was the name on the ark”'
+    claim: 'The psalm has been connected with the sanctuary of the ark'
+    key: parry-psalm-24
+    url: 'https://byustudies.byu.edu/article/temple-worship-and-a-possible-reference-to-a-prayer-circle-in-psalm-24'
+    quote: 'must reckon with the presence in the Psalms of concepts connected with the sanctuary of the Ark'
+  - where: 'note 24:10 “The LORD of hosts was the name on the ark”'
+    claim: 'The ark was carried by bearers when David brought it up'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/6?lang=eng'
+    quote: 'when they that bare the ark of the Lord had gone six paces'
+  - where: 'note 24:10 “The LORD of hosts was the name on the ark”'
+    claim: 'The ark was called by the name of the LORD of hosts that dwelleth between the cherubims'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/6?lang=eng'
+    quote: 'whose name is called by the name of the Lord of hosts that dwelleth between the cherubims'
+  - where: 'note 24:10 “The LORD of hosts was the name on the ark”'
+    claim: '“Hosts” (H6635) with the divine name occurs in Psalms first at 24:10 and next at 46:7, so only here in Book One (Psalms 1–41); from scripts/hebrew.mjs psalms --word 6635b'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'צְבָא֑וֹת'
+
+  - where: 'christ'
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
+  - where: 'christ'
+    claim: '“LORD” in small capitals stands for the name Jehovah'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'the name is generally denoted by Lord or God, printed in small capitals'
+  - where: 'christ'
+    claim: 'Elder Bednar: clean hands and a pure heart come by the Atonement, and we stand before Him who is pure and who shed His blood'
+    key: bednar-clean-hands
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2007/10/clean-hands-and-a-pure-heart?lang=eng'
+    quote: 'Clean hands alone will not be enough when we stand before Him who is pure and who, as “a lamb without blemish and without spot” (1 Peter 1:19), freely spilled His precious blood for us.'
+  - where: 'christ'
+    claim: 'The psalm became a hymn for the Lord who should come to His temple, with Malachi 3:1'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/24.htm'
+    quote: 'an Old Testament Advent hymn in honour of the Lord who should come into His temple, Malachi 3:1'
+  - where: 'christ'
+    claim: 'The JST: He will come down to redeem His people'
+    key: jst-ps-24
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/24?lang=eng'
+    quote: 'will come down to redeem his people'
+
+  - where: 'explore'
+    claim: 'At Sinai the people are sanctified before the Lord comes down on the mount'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/19?lang=eng'
+    quote: 'for all the earth is mine'
+  - where: 'explore'
+    claim: 'Psalm 132:8 calls the Lord and the ark into their rest'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/132?lang=eng'
+    quote: 'Arise, O Lord, into thy rest; thou, and the ark of thy strength.'
+  - where: 'explore'
+    claim: 'Skinner’s study follows the theme of seeing God in the temple through the Psalms'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'Seeing God in His Temple: A Significant Theme in Israel’s Psalms'
