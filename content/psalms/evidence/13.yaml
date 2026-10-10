@@ -44,11 +44,6 @@ claims:
     url: 'https://biblehub.com/commentaries/kad/psalms/13.htm'
     quote: 'The Psalm consists of three strophes, or if it be preferred, three groups of decreasing magnitude.'
   - where: 'thread'
-    claim: 'Five lines of lament, four of prayer, three of anticipation'
-    key: delitzsch-psalms
-    url: 'https://biblehub.com/commentaries/kad/psalms/13.htm'
-    quote: 'Three lines of joyous anticipation now follow the five of lament and four of prayer.'
-  - where: 'thread'
     claim: 'The image of ever smaller waves until the sea is still'
     key: delitzsch-psalms
     url: 'https://biblehub.com/commentaries/kad/psalms/13.htm'
@@ -58,11 +53,6 @@ claims:
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'הַבִּ֣יטָֽ/ה'
-  - where: 'thread'
-    claim: '“Hear me” is the verb answer'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/6030.htm'
-    quote: 'verb answer, respond'
   - where: 'thread'
     claim: 'A modern translation has “answer me”'
     key: nrsvue
@@ -127,11 +117,6 @@ claims:
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'אָ֨נָה'
-  - where: 'note 13:1 “How long, four times, and for ever”'
-    claim: 'The word behind “for ever” means everlastingness, and its short form stands in this verse'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/5331.htm'
-    quote: 'everlastingness, ever, usually לָנֶצַח for ever'
   - where: 'note 13:1 “How long, four times, and for ever”'
     claim: 'The lexicon lists this verse (Hebrew 13:2) with Psalms 74:10, 79:5 and 89:47 (King James 89:46) under the same word'
     key: bdb
@@ -315,16 +300,6 @@ claims:
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2013&version=NRSVUE'
     quote: 'But I trusted in your steadfast love;'
   - where: 'note 13:5 “The turn, before any answer”'
-    claim: 'The psalm records no answer from the Lord'
-    key: ot-minute-psalms-1-20
-    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
-    quote: 'Whereas Psalm 13 does not record an answer from the Lord'
-  - where: 'note 13:5 “The turn, before any answer”'
-    claim: 'The psalmist’s faith is what leads him to trust and to sing'
-    key: ot-minute-psalms-1-20
-    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
-    quote: 'The psalmist, in Psalm 13, had also gained great faith in the Lord, leading him to trust in God’s mercy'
-  - where: 'note 13:5 “The turn, before any answer”'
     claim: 'A lament’s usual elements include a confession of trust and a vow of praise'
     key: sc-knowhy-438
     url: 'https://scripturecentral.org/knowhy/why-do-biblical-psalms-of-lament-show-up-in-the-book-of-mormon'
@@ -393,21 +368,6 @@ claims:
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'לַ/יהוָ֑ה'
-  - where: 'christ'
-    claim: '“Salvation” in verse 5 (Hebrew 13:6) is yeshuah, salvation by God, here with a verb of rejoicing'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/3444.htm'
-    quote: 'with verbs of rejoicing בישׁועה 1 Samuel 2:1; Isaiah 25:9; Psalm 9:15; Psalm 13:6'
-  - where: 'christ'
-    claim: 'The noun is used of salvation by God'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/3444.htm'
-    quote: 'salvation by God, primarily from external evils'
-  - where: 'christ'
-    claim: 'The same cry from Liberty Jail received an answer'
-    key: ot-minute-psalms-1-20
-    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
-    quote: 'Joseph Smith received an extensive response in Doctrine and Covenants 121 that comforted his troubled heart'
 
   # ---- explore, parallels ----
   - where: 'explore'
@@ -415,11 +375,6 @@ claims:
     key: ot-minute-psalms-1-20
     url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
     quote: 'its affinities with Nephi’s Psalm, found in 2 Nephi 4'
-  - where: 'explore'
-    claim: 'Psalms 79:5 and 89:47 (King James 89:46) have the same “for ever”'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/5331.htm'
-    quote: 'Psalm 79:5; Psalm 89:47'
   - where: 'parallels'
     claim: 'D&C 121:1–2 is compared with verses 1–2'
     key: ot-minute-psalms-1-20
