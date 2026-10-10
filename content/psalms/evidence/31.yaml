@@ -1,0 +1,618 @@
+chapter: 31
+claims:
+  # ---- when ----
+  - where: 'when'
+    claim: 'The title ascribes the psalm to David and gives no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/31?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David.'
+
+  # ---- setting ----
+  - where: 'setting'
+    claim: 'One older reading keeps the title and places the psalm in the time of Saul, with some hesitation'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/31.htm'
+    quote: 'We abide, though not without some degree of hesitation, by the testimony of the inscription; and regard the Psalm as a song springing from the outward and inward conflict'
+  - where: 'setting'
+    claim: 'The conflict meant is that of the time of Saul'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/31.htm'
+    quote: 'of the time of Saul'
+  - where: 'setting'
+    claim: 'The parts of a lament: invocation, complaint, confession of trust, petition, vow of praise'
+    key: sc-knowhy-438
+    url: 'https://scripturecentral.org/knowhy/why-do-biblical-psalms-of-lament-show-up-in-the-book-of-mormon'
+    quote: 'These psalms share a basic common form that generally has the following elements, although the order can be rearranged: (1) invocation, (2) complaint, (3) confession of trust, (4) petition, and (5) vow of praise.'
+  - where: 'setting'
+    claim: 'Psalm 31 has been described as moving quickly from complaint to rejoicing'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'In Psalm 31 the Psalmist moves quickly “from complaint to rejoicing,” as Nephi does in 2 Nephi 4:28.'
+  - where: 'setting'
+    claim: 'The opening of Psalm 31 is repeated in Psalm 71'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/31.htm'
+    quote: 'The opening, Psalm 31:2, is repeated in the centonic Psalm 71'
+  - where: 'setting'
+    claim: 'Psalm 71:1 has the Hebrew words of Psalm 31:1 (“in thee, LORD, I have taken refuge”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חָסִ֑יתִי'
+  - where: 'setting'
+    claim: 'Psalm 71:3 ends with the words of Psalm 31:3'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/71?lang=eng'
+    quote: 'for thou art my rock and my fortress.'
+  - where: 'setting'
+    claim: 'Jeremiah 20:10 has the phrase of verse 13 (magor missabib)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
+    quote: 'מָג֣וֹר'
+  - where: 'setting'
+    claim: 'Jonah 2:4 (Hebrew 2:5) has a verb one letter from that of verse 22, in the same sentence'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jonah.xml'
+    quote: 'נִגְרַ֖שְׁתִּי'
+  - where: 'setting'
+    claim: 'Jonah 2:8 (Hebrew 2:9) has the phrase of verse 6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jonah.xml'
+    quote: 'הַבְלֵי'
+  - where: 'setting'
+    claim: 'The chapter heading in the Church’s edition has David speaking as the Messiah in verse 5'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/31?lang=eng'
+    quote: 'Speaking as the Messiah he says, Into Thine hand I commit my spirit'
+  - where: 'setting'
+    claim: 'Psalms 25–31 have been compared with the psalm of Nephi'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'The purpose of this essay is to suggest that Psalms 25–31 may have had a particular influence upon Nephi as he wrote his psalm.'
+  - where: 'setting'
+    claim: 'The psalm of Nephi is 2 Nephi 4:16–35'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'Nephi’s soul-searching introspection found in 2 Nephi 4:16–35'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'One older reading: verses 1–8 are a song before victory, and at verse 9 the petition breaks out again'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/31.htm'
+    quote: 'After the paean before victory, which he has sung in the fulness of his faith, in this second part of the Psalm (with groups, or strophes, of diminishing compass: 6. 5. 4) there again breaks forth the petition'
+  - where: 'thread'
+    claim: 'The change from complaint to assurance in Psalm 31 has been called brusque, with no apparent cause (Schaefer, as the article prints him)'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'More often the brusque transition from complaint to assurance has no apparent cause. . . . Psalm 31 is a fine example'
+  - where: 'thread'
+    claim: 'In verse 22 the poet looks back on an earlier state of mind'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/31.htm'
+    quote: 'looks back upon a previous state of mind, viz., that of conflict'
+  - where: 'thread'
+    claim: 'Verses 5, 8 and 15 have the same Hebrew word for hand (Strong’s 3027), of God and of the enemy'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/יָדְ/ךָ֥'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: 'The verb of verse 1 is to seek refuge'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2620.htm'
+    quote: 'seek refuge'
+  - where: 'section 1 plain'
+    claim: 'The verb of verse 5 means to commit, entrust'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6485.htm'
+    quote: 'commit, entrust'
+  - where: 'section 2 plain'
+    claim: '“Lying vanities” rendered as worthless idols'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2031&version=NRSVUE'
+    quote: 'You hate those who pay regard to worthless idols'
+  - where: 'section 2 plain'
+    claim: '“A large room” is a broad place'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4800.htm'
+    quote: 'broad, roomy, place'
+  - where: 'section 3 plain'
+    claim: '“Belly” rendered as body'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2031&version=NRSVUE'
+    quote: 'my soul and body also'
+  - where: 'section 3 plain'
+    claim: '“Without” in verse 11 is in the street'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2031&version=NRSVUE'
+    quote: 'those who see me in the street flee from me'
+  - where: 'section 5 plain'
+    claim: '“In my haste” is in my alarm'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2648.htm'
+    quote: 'in my alarm Psalm 31:23'
+  - where: 'section 5 plain'
+    claim: '“Pavilion” is a booth'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5521.htm'
+    quote: 'booth, rude or temporary shelter'
+
+  # ---- note 31:2 ----
+  - where: 'note 31:2 “Asking God to be what He is”'
+    claim: 'One older reading: asking God to be what He already is is the logic of believing prayer'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/31.htm'
+    quote: 'Lster considers it to be illogical, but it is the logic of every believing prayer.'
+  - where: 'note 31:2 “Asking God to be what He is”'
+    claim: 'The speaker prays that God would become to him what to his faith He is now'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/31.htm'
+    quote: 'The poet prays that God would become to him, actu reflexo, that which to the actus directus of his faith He is even now.'
+  - where: 'note 31:2 “Asking God to be what He is”'
+    claim: '“My rock” and “my fortress” in verse 3 are sela and metsudah (Strong’s 5553, 4686), the words of Psalm 18:2'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'סַלְעִ֣/י'
+
+  # ---- note 31:5 words ----
+  - where: 'note 31:5 “A spirit entrusted to God’s hand”'
+    claim: 'The verb in this form means commit, entrust, and this verse is cited'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6485.htm'
+    quote: 'commit, entrust'
+  - where: 'note 31:5 “A spirit entrusted to God’s hand”'
+    claim: 'Elsewhere the same form means to deposit a thing in a place (a separate sense from the one this verse is listed under)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6485.htm'
+    quote: 'deposit, with accusative of thing'
+  - where: 'note 31:5 “A spirit entrusted to God’s hand”'
+    claim: 'A modern translation has “faithful God” for “God of truth”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2031&version=NRSVUE'
+    quote: 'faithful God'
+
+  # ---- note 31:5 christ ----
+  - where: 'note 31:5 “The Savior’s last words from the cross”'
+    claim: 'Luke records the saying, with “Father” and “hands”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/23?lang=eng'
+    quote: 'he said, Father, into thy hands I commend my spirit: and having said thus, he gave up the ghost.'
+  - where: 'note 31:5 “The Savior’s last words from the cross”'
+    claim: 'The Greek psalm has the plural “hands”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/31.htm'
+    quote: 'Into thine hands I will commit my spirit'
+  - where: 'note 31:5 “The Savior’s last words from the cross”'
+    claim: 'One older reading of the difference between David’s use and Christ’s'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/31.htm'
+    quote: 'Like David, He commends His spirit to God; but not, that He may not die, but that dying He may not die'
+  - where: 'note 31:5 “The Savior’s last words from the cross”'
+    claim: 'Elder Holland on the trust behind the saying'
+    key: holland-none-with-him
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2009/04/none-were-with-him?lang=eng'
+    quote: 'The trust He lived by told Him in spite of His feelings that divine compassion is never absent, that God is always faithful, that He never flees nor fails us.'
+  - where: 'note 31:5 “The Savior’s last words from the cross”'
+    claim: 'Elder Holland quotes the saying as said in triumph'
+    key: holland-none-with-him
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2009/04/none-were-with-him?lang=eng'
+    quote: 'With faith in the God He knew was there, He could say in triumph, “Father, into thy hands I commend my spirit.”'
+  - where: 'note 31:5 “The Savior’s last words from the cross”'
+    claim: 'Acts 7:59 is cross-referenced to this verse beside Luke 23:46'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2031&version=NRSVUE'
+    quote: '31.5 : Lk 23.46; Acts 7.59'
+  - where: 'note 31:5 “The Savior’s last words from the cross”'
+    claim: 'Stephen’s prayer'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/7?lang=eng'
+    quote: 'And they stoned Stephen, calling upon God, and saying, Lord Jesus, receive my spirit.'
+
+  # ---- note 31:6 ----
+  - where: 'note 31:6 “Lying vanities are idols”'
+    claim: 'The first Hebrew word means vapour, breath'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1892.htm'
+    quote: 'noun masculine vapour, breath'
+  - where: 'note 31:6 “Lying vanities are idols”'
+    claim: 'Figuratively it is what is worthless, and is used of idols'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1892.htm'
+    quote: 'figurative of what is evanescent, unsubstantial, worthless, vanity, as of idols'
+  - where: 'note 31:6 “Lying vanities are idols”'
+    claim: 'A modern translation has “worthless idols” and makes God the subject'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2031&version=NRSVUE'
+    quote: 'You hate those who pay regard to worthless idols'
+  - where: 'note 31:6 “Lying vanities are idols”'
+    claim: 'The translation notes that the Hebrew text has “I hate,” and that it follows the Greek, Syriac and Jerome'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2031&version=NRSVUE'
+    quote: '31.6 Heb ms Gk Syr Jerome: MT I hate'
+  - where: 'note 31:6 “Lying vanities are idols”'
+    claim: 'The Greek makes God the one who hates'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/31.htm'
+    quote: 'Thou has hated them that idly persist in vanities'
+  - where: 'note 31:6 “Lying vanities are idols”'
+    claim: 'The Hebrew verb of verse 6 is first person (“I have hated”); the phrase is havle-shav (Strong’s 1892, 7723)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׂנֵ֗אתִי'
+  - where: 'note 31:6 “Lying vanities are idols”'
+    claim: 'Jonah 2:8 (Hebrew 2:9) has the same two words, havle-shav'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jonah.xml'
+    quote: 'הַבְלֵי'
+
+  # ---- note 31:8 ----
+  - where: 'note 31:8 “A wide place, and then a narrow one”'
+    claim: 'The noun means a broad, roomy place and is a figure of freedom from distress; this verse is cited'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4800.htm'
+    quote: 'broad, roomy, place; — absolute ׳מ, of pasture Hosea 4:16 (in simile); figurative of freedom from distress and anxiety'
+  - where: 'note 31:8 “A wide place, and then a narrow one”'
+    claim: 'The noun tsar means straits, distress'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6862.htm'
+    quote: 'noun [masculine] straits, distress'
+  - where: 'note 31:8 “A wide place, and then a narrow one”'
+    claim: 'The adjective tsar means narrow, tight'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6862.htm'
+    quote: 'adjective narrow, tight'
+  - where: 'note 31:8 “A wide place, and then a narrow one”'
+    claim: 'The noun is used with “to me” for “in my distress,” the construction of verse 9'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6862.htm'
+    quote: 'in my distress Psalm 18:7'
+
+  # ---- note 31:10 ----
+  - where: 'note 31:10 “Iniquity, its punishment, or misery”'
+    claim: 'The Hebrew word is avon, iniquity (Strong’s 5771)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5771.htm'
+    quote: 'iniquities of my youth'
+  - where: 'note 31:10 “Iniquity, its punishment, or misery”'
+    claim: 'The word has a third sense, consequence of or punishment for iniquity'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5771.htm'
+    quote: 'Consequence of, or punishment for, iniquity'
+  - where: 'note 31:10 “Iniquity, its punishment, or misery”'
+    claim: 'This verse (Hebrew 31:11) is listed under that sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5771.htm'
+    quote: 'Psalm 31:11; Psalm 106:43'
+  - where: 'note 31:10 “Iniquity, its punishment, or misery”'
+    claim: 'The Greek reads “poverty”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/31.htm'
+    quote: 'my strength has been weakened through poverty'
+  - where: 'note 31:10 “Iniquity, its punishment, or misery”'
+    claim: 'A modern translation has “misery”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2031&version=NRSVUE'
+    quote: 'my strength fails because of my misery'
+  - where: 'note 31:10 “Iniquity, its punishment, or misery”'
+    claim: 'Its note: it follows the Greek and Syriac; the Hebrew has “my iniquity”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2031&version=NRSVUE'
+    quote: '31.10 Gk Syr: Heb my iniquity'
+
+  # ---- note 31:13 ----
+  - where: 'note 31:13 “A clause shared with Jeremiah”'
+    claim: 'Verse 13 has magor missabib; its first six words are ki shamati dibbat rabbim magor missabib'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מָג֪וֹר'
+  - where: 'note 31:13 “A clause shared with Jeremiah”'
+    claim: 'Jeremiah 20:10 opens with the same six words'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
+    quote: 'מָג֣וֹר'
+  - where: 'note 31:13 “A clause shared with Jeremiah”'
+    claim: 'The clause is word for word the same as in Jeremiah 20:10'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/31.htm'
+    quote: 'this is word for word the same as in Jeremiah 20:10'
+  - where: 'note 31:13 “A clause shared with Jeremiah”'
+    claim: 'Jeremiah gave the phrase to Pashur as a name'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/20?lang=eng'
+    quote: 'The LORD hath not called thy name Pashur, but Magor-missabib.'
+  - where: 'note 31:13 “A clause shared with Jeremiah”'
+    claim: 'The phrase is a standing formula with Jeremiah'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/31.htm'
+    quote: 'is a frequent and standing formula'
+  - where: 'note 31:13 “A clause shared with Jeremiah”'
+    claim: 'Another reading takes Jeremiah’s line as a reminiscence of the psalm, his language being imbued with the Psalter’s'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/31.htm'
+    quote: 'like many other passages of this prophet, whose language is so strongly imbued with that of the Psalter, may be just as much a reminiscence as Jonah 2:5, Jonah 2:9'
+
+  # ---- note 31:15 ----
+  - where: 'note 31:15 “God’s hand and the enemy’s”'
+    claim: 'Verse 15 has yad twice (Strong’s 3027): in thy hand, from the hand of my enemies'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/יָדְ/ךָ֥'
+  - where: 'note 31:15 “God’s hand and the enemy’s”'
+    claim: 'Verses 5 and 8 have the same word (Strong’s 3027)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/יָדְ/ךָ֮'
+  - where: 'note 31:15 “God’s hand and the enemy’s”'
+    claim: 'The plural “times” means experiences, fortunes; this verse (Hebrew 31:16) is cited'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6256.htm'
+    quote: 'experiences, fortunes'
+  - where: 'note 31:15 “God’s hand and the enemy’s”'
+    claim: 'The Greek has “lots”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/31.htm'
+    quote: 'My lots are in thy hands'
+
+  # ---- note 31:16 ----
+  - where: 'note 31:16 “The shining face, and a hiding place in it”'
+    claim: 'The priestly blessing'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/6?lang=eng'
+    quote: 'The LORD make his face shine upon thee, and be gracious unto thee'
+  - where: 'note 31:16 “The shining face, and a hiding place in it”'
+    claim: 'Verse 16 has the verb “shine” (Strong’s 215) and the noun “face” (6440)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הָאִ֣ירָ/ה'
+  - where: 'note 31:16 “The shining face, and a hiding place in it”'
+    claim: 'Numbers 6:25 has the same verb (215) and noun (6440)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'יָאֵ֨ר'
+  - where: 'note 31:16 “The shining face, and a hiding place in it”'
+    claim: 'In the Psalms the shining of the Lord’s face brings blessing, especially salvation; this verse is listed'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'when the Lord’s face shines on a person, blessings—especially salvation—come (see Psalms 4:6; 31:16; 67:1–2; 80:3, 7, 19; 119:135)'
+  - where: 'note 31:16 “The shining face, and a hiding place in it”'
+    claim: '“Presence” in verse 20 is the word “face” (Strong’s 6440), as in verse 16'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פָּנֶי/ךָ֮'
+  - where: 'note 31:16 “The shining face, and a hiding place in it”'
+    claim: '“Secret” is a noun for a covering or hiding place'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5643.htm'
+    quote: 'noun [masculine] covering, hiding-place, secrecy'
+  - where: 'note 31:16 “The shining face, and a hiding place in it”'
+    claim: 'It is used of the LORD as shelter, in this verse (Hebrew 31:21) and in Psalm 27:5'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5643.htm'
+    quote: 'as shelter'
+  - where: 'note 31:16 “The shining face, and a hiding place in it”'
+    claim: '“Pavilion” is a booth, a rude or temporary shelter, as for warriors and vineyard watchers; this verse and probably Psalm 27:5'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5521.htm'
+    quote: 'booth, rude or temporary shelter, for cattle Genesis 33:17 (J; distinct from בַּיִת), but also for warriors in the field'
+  - where: 'note 31:16 “The shining face, and a hiding place in it”'
+    claim: 'Watchers in vineyards; Psalm 31:21 and probably Psalm 27:5 are listed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5521.htm'
+    quote: 'for watchers in vineyards Isaiah 1:8'
+  - where: 'note 31:16 “The shining face, and a hiding place in it”'
+    claim: 'Psalm 27:5 is listed with this verse under the booth'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5521.htm'
+    quote: 'Psalm 31:21, probably also Psalm 27:5'
+
+  # ---- note 31:17 ----
+  - where: 'note 31:17 “Silence for the lying lips”'
+    claim: '“The grave” is sheol (Strong’s 7585)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לִ/שְׁאֽוֹל'
+  - where: 'note 31:17 “Silence for the lying lips”'
+    claim: 'A modern translation keeps the name Sheol'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2031&version=NRSVUE'
+    quote: 'let them go dumbfounded to Sheol'
+
+  # ---- note 31:19 ----
+  - where: 'note 31:19 “Nephi’s psalm and this one”'
+    claim: 'The study sets 2 Nephi 4:17 beside Psalm 31:19'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'Nephi speaks of the “great goodness of the Lord, in showing me his great and marvelous works” (2 Nephi 4:17). Psalm 31:19 similarly states, “Oh how great is thy goodness . . . which thou hast wrought for them that trust in thee.”'
+  - where: 'note 31:19 “Nephi’s psalm and this one”'
+    claim: 'Only Psalm 145:7 has the phrase elsewhere in the Psalms'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'The only other place in the Psalms where the Lord’s “great goodness” is mentioned is in Psalm 145:7.'
+  - where: 'note 31:19 “Nephi’s psalm and this one”'
+    claim: 'Nephi’s plea about his enemies'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'He asks, “Wilt thou deliver me out of the hands of mine enemies?” (2 Nephi 4:31)'
+  - where: 'note 31:19 “Nephi’s psalm and this one”'
+    claim: 'The study lists Psalm 31:15 beside it'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'Psalm 31:15: “Deliver me from the hand of mine enemies.”'
+  - where: 'note 31:19 “Nephi’s psalm and this one”'
+    claim: 'The psalm moves from complaint to rejoicing as Nephi does'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'In Psalm 31 the Psalmist moves quickly “from complaint to rejoicing,” as Nephi does in 2 Nephi 4:28.'
+  - where: 'note 31:19 “Nephi’s psalm and this one”'
+    claim: 'The authors’ hedge'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'We cannot determine with certainty the specific influences that affected Nephi as he drafted his psalm'
+  - where: 'note 31:19 “Nephi’s psalm and this one”'
+    claim: 'The proposal'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'The purpose of this essay is to suggest that Psalms 25–31 may have had a particular influence upon Nephi as he wrote his psalm.'
+  - where: 'note 31:19 “Nephi’s psalm and this one”'
+    claim: 'The authors think the Psalms were probably on the brass plates'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'It seems probable that Psalms would have been recorded on the brass plates.'
+  - where: 'note 31:19 “Nephi’s psalm and this one”'
+    claim: 'Nephi’s words in 2 Nephi 4:17'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/4?lang=eng'
+    quote: 'notwithstanding the great goodness of the Lord, in showing me his great and marvelous works'
+
+  # ---- note 31:21 ----
+  - where: 'note 31:21 “A fortified city, or a besieged one”'
+    claim: 'The noun’s range'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4692.htm'
+    quote: 'noun [masculine] siege-enclosure, siege, entrenchment'
+  - where: 'note 31:21 “A fortified city, or a besieged one”'
+    claim: 'This verse (Hebrew 31:22) is taken as an entrenched city, others reading besieged'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4692.htm'
+    quote: 'entrenched city Psalm 31:22 (al. besieged)'
+  - where: 'note 31:21 “A fortified city, or a besieged one”'
+    claim: 'The Greek has a fortified city'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/31.htm'
+    quote: 'he has magnified his mercy in a fortified city'
+  - where: 'note 31:21 “A fortified city, or a besieged one”'
+    claim: 'A modern translation takes it of a siege, as a comparison'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2031&version=NRSVUE'
+    quote: 'when I was beset as a city under siege'
+
+  # ---- note 31:22 ----
+  - where: 'note 31:22 “Haste is alarm”'
+    claim: 'The verb’s meaning'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2648.htm'
+    quote: 'verb be in trepidation, hurry, or alarm'
+  - where: 'note 31:22 “Haste is alarm”'
+    claim: 'The phrase in this verse (Hebrew 31:23) is “in my alarm”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2648.htm'
+    quote: 'in my alarm Psalm 31:23'
+  - where: 'note 31:22 “Haste is alarm”'
+    claim: 'The Greek of verse 22'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/31.htm'
+    quote: 'But I said in my extreme fear, I am cast out from the sight of thine eyes'
+  - where: 'note 31:22 “Haste is alarm”'
+    claim: 'The Greek title has the same words'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/31.htm'
+    quote: 'For the end, a Psalm of David, an utterance of extreme fear.'
+  - where: 'note 31:22 “Haste is alarm”'
+    claim: 'The verb of verse 22 is nigrazti (Strong’s 1629)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נִגְרַזְתִּי֮'
+  - where: 'note 31:22 “Haste is alarm”'
+    claim: 'Jonah 2:4 (Hebrew 2:5) has nigrashti (Strong’s 1644), one letter different, after the same “I said” and before the same “from before thine eyes”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jonah.xml'
+    quote: 'נִגְרַ֖שְׁתִּי'
+  - where: 'note 31:22 “Haste is alarm”'
+    claim: 'The verb means cut, cut off'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1629.htm'
+    quote: 'verb cut, cut off'
+  - where: 'note 31:22 “Haste is alarm”'
+    claim: 'A modern translation has “in my alarm” and “driven far”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2031&version=NRSVUE'
+    quote: '“I am driven far from your sight.”'
+  - where: 'note 31:22 “Haste is alarm”'
+    claim: 'Its note: it follows Hebrew manuscripts; the standard text has “cut off”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2031&version=NRSVUE'
+    quote: '31.22 Heb mss: MT cut off'
+
+  # ---- note 31:23 ----
+  - where: 'note 31:23 “Saints are the people of hesed”'
+    claim: '“Saints” is hasidim (Strong’s 2623)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֲסִ֫ידָ֥י/ו'
+  - where: 'note 31:23 “Saints are the people of hesed”'
+    claim: 'Verses 7, 16 and 21 have hesed (Strong’s 2617)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַסְדּ֥/וֹ'
+  - where: 'note 31:23 “Saints are the people of hesed”'
+    claim: 'The adjective means kind, pious, as denoting the practice of hesed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2623.htm'
+    quote: 'adjective masculine kind, pious'
+  - where: 'note 31:23 “Saints are the people of hesed”'
+    claim: 'The vow of praise is the last element of a lament'
+    key: sc-knowhy-438
+    url: 'https://scripturecentral.org/knowhy/why-do-biblical-psalms-of-lament-show-up-in-the-book-of-mormon'
+    quote: '(1) invocation, (2) complaint, (3) confession of trust, (4) petition, and (5) vow of praise'
+  - where: 'note 31:23 “Saints are the people of hesed”'
+    claim: 'Verse 24 has the verbs hazaq and amats (Strong’s 2388, 553), in the plural'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חִ֭זְקוּ'
+  - where: 'note 31:23 “Saints are the people of hesed”'
+    claim: 'Psalm 27:14 has the same two verbs, in the singular'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֲ֭זַק'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'The crucified Christ took His last word from this psalm, as He took an earlier one from Psalm 22'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/31.htm'
+    quote: 'the crucified Christ takes His last word from this Psalm, just as He takes His last utterance but three from that Psalm'
+  - where: 'christ'
+    claim: 'One older reading: in verses 9–13 (Hebrew 10–14) the prefigurement of the Passion stays within the limits of the type, unlike Psalm 22'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/31.htm'
+    quote: 'in Psalm 31:10-14, the prefigurement of the Passion is confined within the limits of the type and does not undergo the same prophetical enhancement as it does in that unique Psalm 22'
+  - where: 'christ'
+    claim: 'The chapter heading in the Church’s edition has David speaking as the Messiah in verse 5'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/31?lang=eng'
+    quote: 'Speaking as the Messiah he says, Into Thine hand I commit my spirit'
+  - where: 'christ'
+    claim: 'Luke 23:46'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/23?lang=eng'
+    quote: 'Father, into thy hands I commend my spirit'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'The article sets Psalms 25–31 beside the psalm of Nephi; its title and volume'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'Kenneth L. Alford and D. Bryce Baker, “Parallels between Psalms 25–31 and the Psalm of Nephi,” in Ascending the Mountain of the Lord: Temple, Praise, and Worship in the Old Testament (2013 Sperry Symposium)'
+
+  # ---- parallels ----
+  - where: 'parallels'
+    claim: 'Jeremiah 20:10 opens with the six Hebrew words that open verse 13'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
+    quote: 'דִּבַּ֣ת'
+  - where: 'parallels'
+    claim: 'Jonah 2:8 has the phrase of verse 6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jonah.xml'
+    quote: 'הַבְלֵי'
+  - where: 'parallels'
+    claim: 'The priestly blessing'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/6?lang=eng'
+    quote: 'The LORD make his face shine upon thee'
+  - where: 'parallels'
+    claim: 'Nephi’s great goodness set beside verse 19'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'Psalm 31:19 similarly states'
