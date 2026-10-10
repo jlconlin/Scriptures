@@ -258,3 +258,45 @@ The coordinator's leads from the brief's research. Each would have to show an ar
 - (43) Longing for the sanctuary from far off (42:1-4; 43:3-4; 84; 63:1-2; 27:4).
 - (43) Mercy (hesed) and truth as a pair God sends out (43:3; 57:3; 85:10; 89:14), with Ex. 15:13 behind it.
 - (43) Speaking to one's own soul (42:5, 11; 43:5; 103:1; 116:7).
+
+## Reported by chapters 44–56 (not yet sorted)
+
+- (44) God's face shining and hidden: 44:3, 15, 24 (with 4:6; 27:8-9; 31:16; 42:2; 80:3, 7, 19).
+- (44) 'Cast off' (zanach) across the laments: 43:2; 44:9, 23; 60:1, 10; 74:1; 77:7; 88:14; 89:38; with Lam. 3:31.
+- (44) Israel as a planted vine: 44:2; 80:8-15.
+- (44) Calls on God to awake or arise: 7:6; 35:23; 44:23, 26; 59:4-5; 78:65; against 121:4.
+- (44) Suffering 'for thy sake': 44:22; 69:7; Rom. 8:36.
+- (45) The king as bridegroom and the Lord as husband: 45:10-15, with Isa. 54:5, 61:10, 62:5 and Rev. 19:7-8.
+- (45) Psalms that Hebrews 1 reads of the Son: 2:7; 45:6-7; 110:1 (also 102:25-27 and 104:4).
+- (45) 'For ever' said of a Davidic throne: 45:6; 89; 132, with 2 Sam. 7:16.
+- (45) Elohim used of someone other than God: 8:5; 45:6; 82:1, 6.
+- (46) Zion, the city of God that is not moved (46:4-5; with Psalms 48, 76, 84, 87, 122; the Joseph Smith Translation adds Zion at 14:7, 15:1, 46:5, 53:6; D&C 101:16).
+- (46) The sea and the nations described in the same words (46:2-3, 6; compare 65:7; 93:3-4; Isa. 17:12).
+- (46) 'God with us' and the LORD of hosts refrain (46:7, 11; 24:10; Isa. 7:14; 8:10; Matt. 1:23).
+- (46) The Joseph Smith Translation turning psalms toward the latter days (46:5-10; others per the study of its changes in the Psalms).
+- (47) The LORD reigneth: God as King over all the earth (47:2, 7-8; with 93:1, 96:10, 97:1, 99:1 and Isa. 52:7).
+- (47) The nations brought into the covenant people (47:1, 9; the peoples called to praise, their princes gathered as the people of the God of Abraham).
+- (47) Going up to the holy place with shout and trumpet: the ark and the Lord's ascent to His throne (47:5, 8; with 24:7-10 and 2 Sam. 6:15).
+- (49) Redemption from Sheol, the hand of the grave (49:7-9, 15; 16:10; 30:3; 86:13; 89:48; with Hosea 13:14).
+- (49) God 'taking' or 'receiving' the righteous (49:15; 73:24; Gen. 5:24).
+- (49) The prosperity of the wicked and the wisdom psalms' answer (37; 49; 73).
+- (49) Death as shepherd beside the Lord as shepherd (49:14; 23:1).
+- (50) God as judge of His own people, with heaven and earth as witnesses: 50:1-7, with 75; 82; 96:13.
+- (50) What God desires beside sacrifice: 50:8-15, 23, with 40:6; 51:16-17; 69:30-31.
+- (50) The psalms of Asaph as prophetic speech in God's voice: 50; 75; 81; 82.
+- (50) Sinai remembered in the Psalms: 50:2-7; 68:8, 17; 81:7-10.
+- (52) Trust in riches against trust in God (52:7; compare 49:6, 62:10).
+- (52) The righteous as a tree planted in God's house (1:3; 52:8; 92:12-14).
+- (52) The tongue as a weapon (52:2-4; 57:4; 64:3; 120:2-4).
+- (52) The psalms whose titles set them in David's flight from Saul (7, 34, 52, 54, 56, 57, 59, 142).
+- (52) Hesed named at a psalm's opening and at its turn (52:1, 52:8; full note at 51:1).
+- (53) Psalms that stand in the book twice (14 and 53; 40:13-17 and 70; 57 and 60 in 108).
+- (53) 'God' for 'the LORD' in Books Two and Three (53:2, 53:6 beside 14:2, 14:7), if a source for the pattern is found.
+- (54) The name of God as what saves and is praised (54:1, 6; 52:9; compare 20:1, 7).
+- (54) David's psalms from Saul's pursuit, by their titles (52, 54, 56, 57, 59, 142).
+- (54) Elohim and the divine name in Book Two (54:1-4 against 54:6; 42; 53 beside 14).
+- (56) Refrains in the Michtam psalms: 56:4, 10-11; 57:5, 11; 59:9, 17.
+- (56) 'What can man do unto me': Ps. 56:4, 11; 118:6; Heb. 13:6; D&C 122:9.
+- (56) God's book and record: Ps. 56:8; 69:28; 139:16; Mal. 3:16.
+- (56) Land or light of the living: Ps. 27:13; 56:13; 116:9; 142:5.
+- (56) Psalms tied by title to David's flight from Saul: 34, 52, 54, 56, 57, 59, 142.
