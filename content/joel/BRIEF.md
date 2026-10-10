@@ -11,6 +11,10 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository (what waits for 
 `node scripts/status.mjs joel` prints what the repository shows; the history is `git log -- content/joel`. What a script can't see:
 
 - **The book is in preview** (`status: preview` in `book.yaml`). It goes live at the author's word and not before.
+- **All three chapters are written, reviewed, and read by Codex** (2026-10-09), and the author has read none of them. Of 42 notes, the Student Manual is in 9, Keil in 13, and a Latter-day Saint article or KnoWhy in 19 (`OPEN-QUESTIONS.md`, Jo5).
+- **The `when` lines differ by a few words on purpose**: chapters 1 and 3 follow the Bible Dictionary (“as late as after the return”), chapter 2 the Guide to the Scriptures (“between … and the return”), each with its own ledger row. The reviewers and Codex pointed opposite ways on which should win; the coordinator left both, since each says what its source says.
+- **The illustration is proposed, not approved**: one candidate, `.cache/book-art/joel/candidate-1.png` (not committed), from the brief in `visual.yaml` (`OPEN-QUESTIONS.md`, Jo6).
+- **No theme page is written**; the author has chosen none (`THEME-CANDIDATES.md`).
 - **This brief's research began with Scripture Central, the Interpreter Foundation and BYU** (author, 2026-10-09), and the Student Manual and Keil were opened last. What was searched and what was read is under “Sources for Joel.” Latter-day Saint writing on Joel is thin: one KnoWhy, one article by Sidney B. Sperry, one study of the phrase “the great and dreadful day of the Lord,” a section of a survey, and a short verse-by-verse aid. The chapters will need the Hebrew, the Septuagint, the rest of scripture, and an older commentary more than Hosea's did; say so in the report where it happens.
 
 ## What the author has decided
