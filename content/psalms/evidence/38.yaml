@@ -1,0 +1,461 @@
+chapter: 38
+claims:
+  # ---------- when ----------
+  - where: 'when'
+    claim: 'The title ascribes the psalm to David and gives no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/38?lang=eng'
+    quote: 'A Psalm of David, to bring to remembrance.'
+
+  # ---------- setting ----------
+  - where: 'setting'
+    claim: 'The Church’s chapter heading reads the psalm as David sorrowing for sins that rest on him as a disease'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/38?lang=eng'
+    quote: 'David sorrows for his sins—They rest as a disease upon him—He asks the Lord to be compassionate.'
+  - where: 'setting'
+    claim: 'Psalm 38 is called a penitential psalm'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/38.htm'
+    quote: 'The Penitential Psalm, 38, is placed immediately after Psalm 37'
+  - where: 'setting'
+    claim: 'The church has reckoned seven penitential psalms: 6, 32, 38, 51, 102, 130, 143'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/6.htm'
+    quote: 'the first of the seven (probably selected with reference to the seven days of the week) Psalmi paenitentiales (Psalm 6:1, Psalm 32:1, Psalm 38:1, Psalm 51:1, Psalm 102:1, Psalm 130:1, Psalm 143:1)'
+  - where: 'setting'
+    claim: 'One older reading: it begins like Psalm 6, and if David’s adultery is the occasion, Psalms 6, 38, 51 and 32 form a series in that order'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/38.htm'
+    quote: 'then Psalm 6:1-10; 38; 51; Psalm 32:1-11 form a chronological series'
+  - where: 'setting'
+    claim: 'The first verse has the same two verbs as Psalm 6:1 (verb “rebuke” identical in both)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תוֹכִיחֵ֑/נִי'
+  - where: 'setting'
+    claim: 'Psalm 6 contains no confession of sin'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/6.htm'
+    quote: 'Because the Psalm contains no confession of sin'
+
+  # ---------- thread ----------
+  - where: 'thread'
+    claim: 'The psalm has been laid out in three main parts'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/38.htm'
+    quote: 'It consists of three main paragraphs'
+  - where: 'thread'
+    claim: 'The names of God mark the parts: the divine name first in verse 1, Adonai first in verse 9, both in the third part'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/38.htm'
+    quote: 'The way in which the names of God are brought in is well conceived.'
+  - where: 'thread'
+    claim: 'Verse 9 opens with Adonai (“Lord”), not the divine name (hebrew.mjs psalms 38:9, word 1, H136)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲֽדֹנָ/י'
+  - where: 'thread'
+    claim: 'The psalm’s last Hebrew word is “my salvation” (hebrew.mjs psalms 38:22, word 4, H8668)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תְּשׁוּעָתִֽ/י'
+  - where: 'thread'
+    claim: 'The psalm ends without the light breaking: no turn to praise'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/38.htm'
+    quote: 'No lighting up of the darkness of wrath takes place.'
+  - where: 'thread'
+    claim: 'The second part (from verse 9) goes on in a calmer tone'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/38.htm'
+    quote: 'he goes on in a somewhat calmer tone'
+
+  # ---------- sections ----------
+  - where: 'section 1 plain'
+    claim: 'Verse 2: the arrows have sunk in and the hand has come down'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2038&version=NRSVUE'
+    quote: 'and your hand has come down on me'
+  - where: 'section 2 plain'
+    claim: 'Verse 5: the wounds fester; verse 7: the loins are full of burning'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2038&version=NRSVUE'
+    quote: 'My wounds grow foul and fester'
+  - where: 'section 2 plain'
+    claim: 'Verse 8: “roared” is groaned (the Church’s footnote 8a: OR groaned)'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2038&version=NRSVUE'
+    quote: 'I groan because of the tumult of my heart'
+  - where: 'section 3 plain'
+    claim: 'Verse 10: the heart throbs; verse 12: they speak of ruin'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2038&version=NRSVUE'
+    quote: 'those who seek to hurt me speak of ruin'
+  - where: 'section 3 plain'
+    claim: 'Verse 10: “panteth” is a throbbing heart'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2038&version=NRSVUE'
+    quote: 'My heart throbs; my strength fails me'
+  - where: 'section 4 plain'
+    claim: 'Verse 15: “thou wilt hear” is “you will answer,” and “hope” is wait'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2038&version=NRSVUE'
+    quote: 'But it is for you, O Lord, that I wait'
+  - where: 'section 5 plain'
+    claim: 'Verse 17: “ready to halt” is ready to fall; verse 18: he confesses'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2038&version=NRSVUE'
+    quote: 'For I am ready to fall'
+  - where: 'section 5 plain'
+    claim: 'Verse 18: “sorry” is anxious'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1672.htm'
+    quote: '1 be anxious, concerned, with reference to, in behalf of'
+
+  # ---------- note 38:0 ----------
+  - where: 'note 38:0 “A title that may name an offering”'
+    claim: 'The title word is one Hebrew verb form, the causative infinitive of “remember” (H2142), and the same form stands in the title of Psalm 70'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ/הַזְכִּֽיר'
+  - where: 'note 38:0 “A title that may name an offering”'
+    claim: 'The first sense of the causative stem is to cause to remember'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2142.htm'
+    quote: '1 cause to remember, remind, with accusative of person Isaiah 43:26.'
+  - where: 'note 38:0 “A title that may name an offering”'
+    claim: 'Only Psalms 38 and 70 have “to bring to remembrance” in their titles in the King James Version (data/kjv/psalms.titles.json)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/70?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David, to bring to remembrance.'
+  - where: 'note 38:0 “A title that may name an offering”'
+    claim: 'Psalm 70:1 and Psalm 38:22 share the Hebrew words for “make haste to help me” (hebrew.mjs psalms 70:1 and 38:22)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ/עֶזְרָ֥תִ/י'
+  - where: 'note 38:0 “A title that may name an offering”'
+    claim: '1 Chronicles 16:4 uses the same verb form for the Levites’ duty (“to record”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/1Chr.xml'
+    quote: 'וּ/לְ/הַזְכִּיר֙'
+  - where: 'note 38:0 “A title that may name an offering”'
+    claim: 'The lexicon gives “commemorate, praise” for 1 Chronicles 16:4 and says the titles of Psalms 38 and 70 are perhaps the same'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2142.htm'
+    quote: 'd. absolute commemorate, praise 1 Chronicles 16:4'
+  - where: 'note 38:0 “A title that may name an offering”'
+    claim: 'The lexicon notes that others put the two titles under the sacrificial sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2142.htm'
+    quote: 'in titles Psalm 38:1; Psalm 70:1 (others below 5)'
+  - where: 'note 38:0 “A title that may name an offering”'
+    claim: 'The sacrificial sense: to make a memorial, that is, to offer the memorial portion'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2142.htm'
+    quote: '5 of sacrifice, make a memorial, i.e. offer an'
+  - where: 'note 38:0 “A title that may name an offering”'
+    claim: 'The “memorial” the priest burns in Leviticus 2:2 is the related noun (H234)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'אַזְכָּרָתָ/הּ֙'
+  - where: 'note 38:0 “A title that may name an offering”'
+    claim: 'A modern translation renders the title as naming the memorial offering'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2038&version=NRSVUE'
+    quote: 'A Psalm of David, for the memorial offering.'
+  - where: 'note 38:0 “A title that may name an offering”'
+    claim: 'The Greek title adds the Sabbath'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/38.htm'
+    quote: 'A Psalm of David for remembrance concerning the Sabbath-day.'
+
+
+  # ---------- note 38:2 ----------
+  - where: 'note 38:2 “The arrows and the hand”'
+    claim: 'One verb (H5181) is used twice in the verse, of the arrows and of the hand'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נִ֣חֲתוּ'
+  - where: 'note 38:2 “The arrows and the hand”'
+    claim: 'Second occurrence of the verb, of the hand'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַ/תִּנְחַ֖ת'
+  - where: 'note 38:2 “The arrows and the hand”'
+    claim: 'The verb means to descend; of the arrows here it is “penetrate”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5181.htm'
+    quote: '= penetrate Psalm 38:3, (of arrows of'
+  - where: 'note 38:2 “The arrows and the hand”'
+    claim: 'Of the hand it is “descend in chastisement”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5181.htm'
+    quote: '2 figurative descend in chastisement Psalm 38:3 (hand of'
+  - where: 'note 38:2 “The arrows and the hand”'
+    claim: 'Job 6:4 has the same noun “arrows” (H2671) of the Almighty'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Job.xml'
+    quote: 'חִצֵּ֪י'
+  - where: 'note 38:2 “The arrows and the hand”'
+    claim: 'Psalm 32:4 speaks of God’s heavy hand'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/32?lang=eng'
+    quote: 'For day and night thy hand was heavy upon me'
+  - where: 'note 38:2 “The arrows and the hand”'
+    claim: 'A modern translation cross-references Job 6:4 and Psalm 32:4 at this verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2038&version=NRSVUE'
+    quote: '38.2 : Job 6.4; Ps 32.4'
+
+  # ---------- note 38:3 (three causes) ----------
+  - where: 'note 38:3 “Three causes, and a sickness the psalm does not explain”'
+    claim: 'The same preposition “because of” (literally “from the face of”) stands twice in verse 3 and once in verse 5'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִ/פְּנֵ֣י'
+  - where: 'note 38:3 “Three causes, and a sickness the psalm does not explain”'
+    claim: '“Foolishness” in verse 5 is the Hebrew noun for folly'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/200.htm'
+    quote: 'noun feminine folly'
+  - where: 'note 38:3 “Three causes, and a sickness the psalm does not explain”'
+    claim: '“Rest” in verse 3 is shalom (H7965)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁל֥וֹם'
+  - where: 'note 38:3 “Three causes, and a sickness the psalm does not explain”'
+    claim: 'The Greek has “peace”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/38.htm'
+    quote: 'there is no peace to my bones because of my sins'
+  - where: 'note 38:3 “Three causes, and a sickness the psalm does not explain”'
+    claim: 'The Church’s heading words the disease as a comparison'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/38?lang=eng'
+    quote: 'They rest as a disease upon him'
+  - where: 'note 38:3 “Three causes, and a sickness the psalm does not explain”'
+    claim: 'In scripture physical illness sometimes symbolizes spiritual unwellness, with Isaiah 1:4–7 cited'
+    key: gs-sick-sickness
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/sick-sickness?lang=eng'
+    quote: 'In the scriptures, physical illness sometimes serves as a symbol for a lack of spiritual well-being (Isa. 1:4–7; 33:24).'
+  - where: 'note 38:3 “Three causes, and a sickness the psalm does not explain”'
+    claim: 'The phrase “no soundness in” occurs in Isaiah 1:6 and Psalm 38:3 and 7 (Hebrew 38:4, 8)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4974.htm'
+    quote: 'Isaiah 1:6; Psalm 38:4; Psalm 38:8'
+  - where: 'note 38:3 “Three causes, and a sickness the psalm does not explain”'
+    claim: '“Wounds” in verse 5 is the noun (H2250) translated “bruises” in Isaiah 1:6 (hebrew.mjs isaiah 1:6, word 9)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'וְ/חַבּוּרָ֖ה'
+  - where: 'note 38:3 “Three causes, and a sickness the psalm does not explain”'
+    claim: 'The noun in Psalm 38:5'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַבּוּרֹתָ֑/י'
+  - where: 'note 38:3 “Three causes, and a sickness the psalm does not explain”'
+    claim: 'A modern translation cross-references Isaiah 1:6 at this verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2038&version=NRSVUE'
+    quote: '38.3 : Ps 6.2; Isa 1.6'
+
+  # ---------- note 38:3 (Nephi) ----------
+  - where: 'note 38:3 “A possible echo in Nephi’s psalm”'
+    claim: 'Psalm 38:3 is set beside “my heart groaneth because of my sins” in 2 Nephi 4:19'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: 'my heart groaneth because of my sins [Psalm 38:3]'
+  - where: 'note 38:3 “A possible echo in Nephi’s psalm”'
+    claim: 'The study presents these as potential allusions'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: 'The Psalm of Nephi appears below, with potential allusions to Psalms in italics.'
+  - where: 'note 38:3 “A possible echo in Nephi’s psalm”'
+    claim: 'About a fifth of the words of Nephi’s psalm are key words or phrases also found in the Psalter'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: 'Of the 660 words comprising the Psalm of Nephi, 127 (approximately 20 percent) are key words or phrases that are also found in the biblical Psalter.'
+  - where: 'note 38:3 “A possible echo in Nephi’s psalm”'
+    claim: 'The words of 2 Nephi 4:19 quoted in the note'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/4?lang=eng'
+    quote: 'nevertheless, I know in whom I have trusted'
+
+  # ---------- note 38:7 ----------
+  - where: 'note 38:7 “The loathsome disease is burning”'
+    claim: 'The word is a participle used as a noun: “burning”; the versions read “contempt,” from a second verb of the same letters'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7033.htm'
+    quote: 'as noun Psalm 38:8 my loins are filled with burning (Vrss Bae with contempt'
+  - where: 'note 38:7 “The loathsome disease is burning”'
+    claim: 'The verb is one of roasting or parching'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7033.htm'
+    quote: 'roasted, burning, parched'
+  - where: 'note 38:7 “The loathsome disease is burning”'
+    claim: 'A modern translation has “burning”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2038&version=NRSVUE'
+    quote: 'For my loins are filled with burning'
+  - where: 'note 38:7 “The loathsome disease is burning”'
+    claim: 'The Greek reads “mockings”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/38.htm'
+    quote: 'For my soul is filled with mockings'
+
+  # ---------- note 38:11 ----------
+  - where: 'note 38:11 “Those who stood afar off”'
+    claim: '“Sore” is the noun for a stroke, used especially of disease regarded as divine chastisement, with this verse listed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5061.htm'
+    quote: '2 stroke, metaphor, especially of a disease, regarded as sent by a divine chastisement'
+  - where: 'note 38:11 “Those who stood afar off”'
+    claim: 'In the Greek the nearest of kin “stood afar off”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/38.htm'
+    quote: 'and my nearest of kin stood afar off'
+  - where: 'note 38:11 “Those who stood afar off”'
+    claim: 'The Greek words for “from afar” in the psalm'
+    key: lxx-rahlfs
+    url: 'https://www.ellopos.net/elpenor/greek-texts/septuagint/chapter.asp?book=24&page=37'
+    quote: 'ἀπὸ μακρόθεν ἔστησαν'
+  - where: 'note 38:11 “Those who stood afar off”'
+    claim: 'Luke 23:49 has the same two Greek words, apo makrothen'
+    key: greek-nt
+    url: 'https://biblehub.com/interlinear/luke/23-49.htm'
+    quote: 'μακρόθεν'
+  - where: 'note 38:11 “Those who stood afar off”'
+    claim: 'A modern translation cross-references Luke 23:49 at this verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2038&version=NRSVUE'
+    quote: '38.11 : Ps 31.11; Lk 23.49'
+  - where: 'note 38:11 “Those who stood afar off”'
+    claim: 'Luke’s scene at the cross'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/23?lang=eng'
+    quote: 'stood afar off, beholding these things'
+
+  # ---------- note 38:13 ----------
+  - where: 'note 38:13 “Why he does not answer”'
+    claim: 'The verb of verse 15 is “answer” (H6030)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תַ֝עֲנֶ֗ה'
+  - where: 'note 38:13 “Why he does not answer”'
+    claim: 'A modern translation has “answer”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2038&version=NRSVUE'
+    quote: 'it is you, O Lord my God, who will answer'
+  - where: 'note 38:13 “Why he does not answer”'
+    claim: '“Reproofs” here are arguments spoken by the mouth'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8433.htm'
+    quote: '1 argument, impeachment, spoken by lips and mouth Psalm 38:15'
+  - where: 'note 38:13 “Why he does not answer”'
+    claim: 'A modern translation renders it “retort”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2038&version=NRSVUE'
+    quote: 'and in whose mouth is no retort'
+  - where: 'note 38:13 “Why he does not answer”'
+    claim: 'The noun in verse 14 (H8433)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תּוֹכָחֽוֹת'
+  - where: 'note 38:13 “Why he does not answer”'
+    claim: 'One older reading: guilt and resignation close his lips'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/38.htm'
+    quote: 'Consciousness of guilt and resignation close his lips, so that he is not able, nor does he wish, to refute the false charges of his enemies'
+  - where: 'note 38:13 “Why he does not answer”'
+    claim: 'The same reading: he gives up self-help and leaves his cause to God'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/38.htm'
+    quote: 'renouncing all self-help, to abandon his cause to God'
+  - where: 'note 38:13 “Why he does not answer”'
+    claim: 'A modern translation cross-references Psalm 39:2 and 9 at this verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2038&version=NRSVUE'
+    quote: '38.13 : Ps 39.2, 9'
+  - where: 'note 38:13 “Why he does not answer”'
+    claim: 'Psalm 39:9 gives the silence and its reason'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/39?lang=eng'
+    quote: 'I was dumb, I opened not my mouth; because thou didst it.'
+
+  # ---------- note 38:18 ----------
+  - where: 'note 38:18 “Sorry means anxious”'
+    claim: 'The verb means to be anxious, concerned, with this verse cited'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1672.htm'
+    quote: '1 be anxious, concerned, with reference to, in behalf of'
+  - where: 'note 38:18 “Sorry means anxious”'
+    claim: 'The Greek has “be distressed”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/38.htm'
+    quote: 'For I will declare mine iniquity, and be distressed for my sin.'
+  - where: 'note 38:18 “Sorry means anxious”'
+    claim: 'Psalm 32:5 reports forgiveness after confession'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/32?lang=eng'
+    quote: 'and thou forgavest the iniquity of my sin'
+
+  # ---------- note 38:20 ----------
+  - where: 'note 38:20 “Guilty before God, wronged by men”'
+    claim: 'One older reading: the good he follows is his conduct toward these foes'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/38.htm'
+    quote: 'David means more particularly that which is brought into exercise in relation to his present foes.'
+  - where: 'note 38:20 “Guilty before God, wronged by men”'
+    claim: 'A modern translation reads “foes without cause” in verse 19'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2038&version=NRSVUE'
+    quote: 'Those who are my foes without cause are mighty'
+  - where: 'note 38:20 “Guilty before God, wronged by men”'
+    claim: 'Its footnote: the reading follows a Qumran manuscript; the Masoretic Text has “my living foes”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2038&version=NRSVUE'
+    quote: '38.19 Q ms: MT my living foes'
+
+  # ---------- note 38:22 ----------
+  - where: 'note 38:22 “A psalm that ends still asking”'
+    claim: 'No turn to praise takes place'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/38.htm'
+    quote: 'No lighting up of the darkness of wrath takes place.'
+  - where: 'note 38:22 “A psalm that ends still asking”'
+    claim: 'One older reading of the closing words'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/38.htm'
+    quote: 'True repentance has faith within itself, it despairs of itself, but not of God.'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'The Greek of verse 11 and Luke 23:49 share “from afar”'
+    key: lxx-rahlfs
+    url: 'https://www.ellopos.net/elpenor/greek-texts/septuagint/chapter.asp?book=24&page=37'
+    quote: 'ἀπὸ μακρόθεν ἔστησαν'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: 'Psalm 39 continues the silence (cross-referenced at verse 13)'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2038&version=NRSVUE'
+    quote: '38.13 : Ps 39.2, 9'
+  - where: 'explore'
+    claim: 'Psalm 70 has five verses and ends with a plea for haste'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/70?lang=eng'
+    quote: 'O Lord, make no tarrying'
+
+  # ---------- parallels ----------
+  - where: 'parallels'
+    claim: 'Psalm 70 is the only other psalm with this title'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/70?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David, to bring to remembrance.'
+  - where: 'parallels'
+    claim: '2 Nephi 4:19 listed as a potential allusion to Psalm 38:3'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: 'my heart groaneth because of my sins [Psalm 38:3]'
