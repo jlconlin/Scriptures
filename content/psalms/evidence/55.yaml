@@ -1,0 +1,409 @@
+chapter: 55
+claims:
+  # ---- when / setting ----
+  - where: 'when'
+    claim: 'The title ascribes the psalm to David and gives no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/55?lang=eng'
+    quote: 'To the chief Musician on Neginoth, Maschil, A Psalm of David.'
+  - where: 'setting'
+    claim: 'The title ascribes the psalm to David and gives no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/55?lang=eng'
+    quote: 'To the chief Musician on Neginoth, Maschil, A Psalm of David.'
+  - where: 'setting'
+    claim: 'One older reading finds the friend in Ahithophel, who went over to Absalom'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
+    quote: 'This Old Testament Judas is none other than Ahithphel, the right hand of Absalom.'
+  - where: 'setting'
+    claim: 'Ahithophel was David’s counsellor and joined Absalom’s conspiracy'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/15?lang=eng'
+    quote: 'And Absalom sent for Ahithophel the Gilonite, David’s counsellor, from his city, even from Giloh'
+  - where: 'setting'
+    claim: 'The divine name (the LORD) stands in the psalm at verse 16'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַ֝/יהוָ֗ה'
+  - where: 'setting'
+    claim: 'The divine name stands in the psalm a second and last time at verse 22 (hebrew.mjs psalms --word 3068 lists two verses of Psalm 55)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְהוָ֨ה'
+  - where: 'setting'
+    claim: 'Jesus quoted Psalm 41:9 at the Last Supper'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/13?lang=eng'
+    quote: 'that the scripture may be fulfilled, He that eateth bread with me hath lifted up his heel against me.'
+  - where: 'setting'
+    claim: 'This psalm and Psalm 41 are paired as psalms of the faithless friend'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
+    quote: 'the faithless bosom friend, over whom the complaint concerning malicious foes here, as in Psalm 41:1-13, lingers with special sadness'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'The past tense of verse 18 expresses the certainty of faith'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
+    quote: 'Also in the praet. פּדה expression is given to the certainty of faith'
+  - where: 'thread'
+    claim: 'At verse 20 the psalm returns to the one faithless friend among the many'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
+    quote: 'David again has the one faithless foe among the multitude of the rebels before his mind.'
+  - where: 'thread'
+    claim: 'The psalm moves through sorrow, anger and confidence, the last beginning at verse 16 (Hebrew 17)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
+    quote: 'In the third group confidence prevails, the tone that is struck up in Psalm 55:17 being carried forward.'
+
+  # ---- plain words ----
+  - where: 'section 1 plain'
+    claim: 'Verse 3: they bring trouble down on me'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2055&version=NRSVUE'
+    quote: 'For they bring trouble upon me'
+  - where: 'section 2 plain'
+    claim: 'Verse 7: “remain” is to lodge; verse 8: a shelter from the raging wind'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2055&version=NRSVUE'
+    quote: 'I would lodge in the wilderness'
+  - where: 'section 4 plain'
+    claim: 'Verse 15: “quick into hell” is alive to Sheol'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2055&version=NRSVUE'
+    quote: 'let them go down alive to Sheol'
+  - where: 'section 4 plain'
+    claim: 'Verse 15: let death come upon them unexpectedly'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
+    quote: 'let death come upon them unexpectedly'
+  - where: 'section 5 plain'
+    claim: 'Verse 19: “afflict” is humble, and “he that abideth of old” is God enthroned from of old'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2055&version=NRSVUE'
+    quote: 'God, who is enthroned from of old'
+
+  # ---- note 55:0 ----
+  - where: 'note 55:0 “The title’s terms”'
+    claim: 'A modern translation prints the title as a direction for stringed instruments and leaves Maskil as a name'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2055&version=NRSVUE'
+    quote: 'To the leader: with stringed instruments. A Maskil of David.'
+
+  # ---- note 55:9 ----
+  - where: 'note 55:9 “The word of Babel, used of a plot”'
+    claim: 'The verb “divide” in verse 9 (H6385); hebrew.mjs psalms --word 6385 lists this as its one occurrence in Psalms'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פַּלַּ֣ג'
+  - where: 'note 55:9 “The word of Babel, used of a plot”'
+    claim: 'The same verb (H6385) is “was divided” in Genesis 10:25'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'נִפְלְגָ֣ה'
+  - where: 'note 55:9 “The word of Babel, used of a plot”'
+    claim: 'The lexicon lists Genesis 10:25 and this verse under the verb, and glosses this verse “divide their speech (their counsels)”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6385.htm'
+    quote: 'Psalm 55:10 divide their speech (their counsels).'
+  - where: 'note 55:9 “The word of Babel, used of a plot”'
+    claim: 'An older commentary hears a reference to the confusion of tongues at Babel'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
+    quote: 'The retrospective reference to the confusion of tongues at Babel which is contained in the word פּלּג (cf. Genesis 10:25)'
+  - where: 'note 55:9 “The word of Babel, used of a plot”'
+    claim: 'A modern translation of verse 9'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2055&version=NRSVUE'
+    quote: 'Confuse, O Lord, confound their speech'
+
+  # ---- note 55:12 ----
+  - where: 'note 55:12 “Who the friend was”'
+    claim: 'An older commentary identifies the friend as Ahithophel'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
+    quote: 'This Old Testament Judas is none other than Ahithphel, the right hand of Absalom.'
+  - where: 'note 55:12 “Who the friend was”'
+    claim: 'On that reading the psalm belongs to the years when Absalom’s rebellion was forming'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
+    quote: 'Psalm 55 belongs, like Psalm 41:1-13, to the four years during which the rebellion of Absalom was forming'
+  - where: 'note 55:12 “Who the friend was”'
+    claim: 'On that reading David watched the movement until he left Jerusalem'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
+    quote: 'until he abandoned the palace of his own free will and quitted Jerusalem'
+  - where: 'note 55:12 “Who the friend was”'
+    claim: 'The commentary offers the reading as an attempt from the standpoint of the title, and reports that Hitzig gave the psalm to Jeremiah'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
+    quote: 'The exposition which follows here places itself - and it is at least worthy of being attempted - on the standpoint of the writer of the inscription.'
+  - where: 'note 55:12 “Who the friend was”'
+    claim: 'Another scholar held the psalm to be Jeremiah’s'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
+    quote: 'Hitzig also holds this Psalm to be Jeremianic.'
+  - where: 'note 55:12 “Who the friend was”'
+    claim: 'Ahithophel was David’s counsellor; David was told he was among the conspirators and prayed against his counsel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/15?lang=eng'
+    quote: 'Ahithophel is among the conspirators with Absalom. And David said, O Lord, I pray thee, turn the counsel of Ahithophel into foolishness.'
+  - where: 'note 55:12 “Who the friend was”'
+    claim: 'Ahithophel’s counsel was valued as an oracle'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/16?lang=eng'
+    quote: 'was as if a man had inquired at the oracle of God'
+
+  # ---- note 55:13 ----
+  - where: 'note 55:13 “Three names for one friend”'
+    claim: '“Mine equal” is literally a man according to my valuation'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6187.htm'
+    quote: 'Psalm 55:14 a man according to my valuation, figurative for my equal'
+  - where: 'note 55:13 “Three names for one friend”'
+    claim: 'The word translated “guide” means friend, intimate in this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/441.htm'
+    quote: '2. noun masculine friend, intimate Psalm 55:14'
+  - where: 'note 55:13 “Three names for one friend”'
+    claim: 'A modern translation of verse 13'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2055&version=NRSVUE'
+    quote: 'my companion, my familiar friend'
+
+  # ---- note 55:15 ----
+  - where: 'note 55:15 “Alive into Sheol”'
+    claim: 'Quick meant alive'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/quick'
+    quote: 'Primarily, alive; living; opposed to dead or unanimated'
+  - where: 'note 55:15 “Alive into Sheol”'
+    claim: 'A modern translation of the line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2055&version=NRSVUE'
+    quote: 'let them go down alive to Sheol'
+  - where: 'note 55:15 “Alive into Sheol”'
+    claim: '“Hell” in verse 15 is Sheol (H7585)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שְׁא֣וֹל'
+  - where: 'note 55:15 “Alive into Sheol”'
+    claim: 'Numbers 16:30 has the same two words, alive (H2416) and Sheol (H7585); hebrew.mjs numbers 16:30 and 16:33'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'שְׁאֹ֑לָ/ה'
+  - where: 'note 55:15 “Alive into Sheol”'
+    claim: 'Moses’s words about Korah, Dathan and Abiram'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/16?lang=eng'
+    quote: 'and they go down quick into the pit; then ye shall understand that these men have provoked the Lord.'
+
+  # ---- note 55:17 ----
+  - where: 'note 55:17 “The complaint becomes the prayer”'
+    claim: 'The noun “complaint” in verse 2 (H7879)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/שִׂיחִ֣/י'
+  - where: 'note 55:17 “The complaint becomes the prayer”'
+    claim: 'The noun means complaint and the lexicon lists verse 2 (Hebrew 3) under it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7879.htm'
+    quote: '1 plaint, complaint: Job 7:13; Job 9:27; Job 10:1'
+  - where: 'note 55:17 “The complaint becomes the prayer”'
+    claim: 'The verb “pray” in verse 17 (H7878) is formed from the noun (denominative), and in this verse means complain'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7878.htm'
+    quote: 'verb denominative muse, complain, in poetry talk (of)'
+  - where: 'note 55:17 “The complaint becomes the prayer”'
+    claim: 'The lexicon lists verse 17 (Hebrew 18) under “complain”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7878.htm'
+    quote: '1 complain: Psalm 55:18; Psalm 77:4'
+  - where: 'note 55:17 “The complaint becomes the prayer”'
+    claim: '“Cry aloud” is the verb murmur, used of the soul in prayer in this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1993.htm'
+    quote: 'in prayer Psalm 55:18; Psalm 77:4'
+  - where: 'note 55:17 “The complaint becomes the prayer”'
+    claim: 'The verb’s basic sense is murmur'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1993.htm'
+    quote: 'verb murmur, growl, roar, be boisterous'
+  - where: 'note 55:17 “The complaint becomes the prayer”'
+    claim: 'A modern translation of verse 17'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2055&version=NRSVUE'
+    quote: 'I utter my complaint and moan'
+  - where: 'note 55:17 “The complaint becomes the prayer”'
+    claim: 'Daniel prayed three times a day'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/6?lang=eng'
+    quote: 'he kneeled upon his knees three times a day, and prayed, and gave thanks before his God'
+  - where: 'note 55:17 “The complaint becomes the prayer”'
+    claim: 'Amulek names morning, mid-day and evening'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=eng'
+    quote: 'Cry unto him in your houses, yea, over all your household, both morning, mid-day, and evening.'
+
+  # ---- note 55:18 ----
+  - where: 'note 55:18 “With me, or against me”'
+    claim: 'A modern translation reads the many as enemies'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2055&version=NRSVUE'
+    quote: 'for many are arrayed against me'
+  - where: 'note 55:18 “With me, or against me”'
+    claim: 'The Greek translation of the line'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/55.htm'
+    quote: 'for they were with me in many cases'
+  - where: 'note 55:18 “With me, or against me”'
+    claim: 'The first half of the verse speaks of deliverance in peace in the Greek as in the King James'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/55.htm'
+    quote: 'He shall deliver my soul in peace'
+  - where: 'note 55:18 “With me, or against me”'
+    claim: 'The first half of the verse in the modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2055&version=NRSVUE'
+    quote: 'He will redeem me unharmed'
+
+  # ---- note 55:19 ----
+  - where: 'note 55:19 “A line no one is sure of”'
+    claim: 'The word is used of changes of raiment and of relays'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2487.htm'
+    quote: '1 change of raiment'
+  - where: 'note 55:19 “A line no one is sure of”'
+    claim: 'The lexicon’s reading of this verse and its doubt'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2487.htm'
+    quote: 'with whom are no changings, i.e. they do evil incessantly, steadily'
+  - where: 'note 55:19 “A line no one is sure of”'
+    claim: 'The lexicon calls the expression obscure and the text perhaps corrupt'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2487.htm'
+    quote: 'but the expression is peculiar and obscure'
+  - where: 'note 55:19 “A line no one is sure of”'
+    claim: 'The lexicon allows that the text may be corrupt'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2487.htm'
+    quote: 'text perhaps corrupt.'
+  - where: 'note 55:19 “A line no one is sure of”'
+    claim: 'A modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2055&version=NRSVUE'
+    quote: 'because they do not change'
+  - where: 'note 55:19 “A line no one is sure of”'
+    claim: 'The Greek translation'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/55.htm'
+    quote: 'For they suffer no reverse, and therefore they have not feared God.'
+
+  # ---- note 55:22 ----
+  - where: 'note 55:22 “The burden is what was given”'
+    claim: 'The noun “burden” (H3053); hebrew.mjs psalms --word 3053 lists this one occurrence'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְהָבְ/ךָ֮'
+  - where: 'note 55:22 “The burden is what was given”'
+    claim: 'The word means a lot, what is given, and the lexicon gives its one reference and explains the line'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3053.htm'
+    quote: 'lot (as that which is given)'
+  - where: 'note 55:22 “The burden is what was given”'
+    claim: 'The lexicon’s explanation of the line'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3053.htm'
+    quote: 'thy lot (the care, anxiety, etc. which are thy portion'
+  - where: 'note 55:22 “The burden is what was given”'
+    claim: 'The word occurs only once (called a hapax legomenon)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
+    quote: 'Instead of the obscure ἅπαξ γεγραμ. יהבך, we read in Psalm 37:5 דרכך'
+  - where: 'note 55:22 “The burden is what was given”'
+    claim: 'A modern translation’s footnote'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2055&version=NRSVUE'
+    quote: 'Or Cast what he has given you'
+  - where: 'note 55:22 “The burden is what was given”'
+    claim: 'One reading of who is addressed'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
+    quote: 'is first of all a counsel which David gives to himself, but at the same time to all who suffer innocently'
+  - where: 'note 55:22 “The burden is what was given”'
+    claim: '“Moved” is the verb totter, shake, slip (H4131)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4131.htm'
+    quote: 'verb totter, shake, slip (usually in poetry)'
+  - where: 'note 55:22 “The burden is what was given”'
+    claim: 'The same verb in verse 3 (Hebrew 4), where it is to let fall or drop'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4131.htm'
+    quote: 'dislodge, let fall, drop'
+  - where: 'note 55:22 “The burden is what was given”'
+    claim: 'Verse 3 has the verb H4131'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָמִ֥יטוּ'
+  - where: 'note 55:22 “The burden is what was given”'
+    claim: 'A modern translation’s footnote to verse 3'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2055&version=NRSVUE'
+    quote: 'Heb they cause to totter'
+  - where: 'note 55:22 “The burden is what was given”'
+    claim: 'The Greek translation has “care”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/55.htm'
+    quote: 'Cast thy care upon the Lord, and he shall sustain thee'
+  - where: 'note 55:22 “The burden is what was given”'
+    claim: 'The Greek wording is applied in 1 Peter 5:7'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
+    quote: 'Thus are these words of the Psalm applied in 1 Peter 5:7.'
+  - where: 'note 55:22 “The burden is what was given”'
+    claim: 'Peter’s words'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/5?lang=eng'
+    quote: 'Casting all your care upon him; for he careth for you.'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'The Church’s footnote to “Cast” in verse 22 (22a) refers to Matthew 11:28–30'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/55?lang=eng'
+    quote: '11:28 (28–30)'
+  - where: 'christ'
+    claim: 'Peter’s words'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/5?lang=eng'
+    quote: 'Casting all your care upon him; for he careth for you.'
+  - where: 'christ'
+    claim: 'Jesus applied Psalm 41:9 to Judas'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/13?lang=eng'
+    quote: 'that the scripture may be fulfilled, He that eateth bread with me hath lifted up his heel against me.'
+  - where: 'christ'
+    claim: 'An older commentary reads the friend as having Judas for his antitype'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
+    quote: 'since it has in the person of Judas Iscariot its historical living antitype in the life and passion of the second David?'
+
+  # ---- explore / parallels ----
+  - where: 'explore'
+    claim: '“I will trust in thee” (Psalms 55:23; 56:3) is counted among the phrases of the Psalms in 2 Nephi 4:34'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: 'Psalms 55:23; 56:3 2 Nephi 4:34 I will trust in thee'
+  - where: 'parallels'
+    claim: '2 Nephi 4:34 is listed as a potential allusion to Psalms 55:23 and 56:3'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: 'Psalms 55:23; 56:3 2 Nephi 4:34 I will trust in thee'
+  - where: 'parallels'
+    claim: 'The Greek translation has “care” for “burden”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/55.htm'
+    quote: 'Cast thy care upon the Lord, and he shall sustain thee'
