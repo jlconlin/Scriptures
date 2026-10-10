@@ -1,0 +1,431 @@
+chapter: 82
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to Asaph'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/82?lang=eng'
+    quote: 'A Psalm of Asaph.'
+  - where: setting
+    claim: 'Asaph was a Levite who led David’s choir and founded a family of singers'
+    key: bd-asaph
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/asaph?lang=eng'
+    quote: 'A cymbal-playing Levite appointed leader of David’s choir. Founded a family of singers called the “sons of Asaph”'
+  - where: setting
+    claim: 'Asaph is named in the titles of Psalms 50 and 73–83'
+    key: bd-asaph
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/asaph?lang=eng'
+    quote: 'mentioned in the titles of various Psalms'
+  - where: setting
+    claim: 'The psalm’s opening scene is called the divine council and is found in several places in the Old Testament'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'This setting, sometimes called the divine council, is described in several places throughout the Old Testament.'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The verb “judge” (shaphat) stands in verse 3 as well, where the King James has “Defend”; it is also the verb of verses 1, 2 and 8'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שִׁפְטוּ'
+  - where: thread
+    claim: 'The Greek translation keeps the verb “judge” in verse 3'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/82.htm'
+    quote: 'Judge the orphan and poor: do justice to the low and needy.'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: 'Verse 1 rendered as God taking His place in the divine council'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2082&version=NRSVUE'
+    quote: 'God has taken his place in the divine council'
+  - where: section 2 plain
+    claim: '“Accept the persons of the wicked” means to show them partiality'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2082&version=NRSVUE'
+    quote: 'show partiality to the wicked'
+  - where: section 3 plain
+    claim: '“Out of course” means shaken'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2082&version=NRSVUE'
+    quote: 'all the foundations of the earth are shaken'
+  - where: section 4 plain
+    claim: '“Like men” rendered “like mortals,” and “like one of the princes” as “like any prince”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2082&version=NRSVUE'
+    quote: 'and fall like any prince'
+
+  # ---------- note 82:1 council ----------
+  - where: 'note 82:1 “The congregation of the mighty is the council of God”'
+    claim: 'The Hebrew behind “the congregation of the mighty” is two words, “assembly” and El'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּ/עֲדַת'
+  - where: 'note 82:1 “The congregation of the mighty is the council of God”'
+    claim: 'The lexicon renders the phrase “congregation of El” and takes it of a heavenly company'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5712.htm'
+    quote: 'congregation of El, of company of angels'
+  - where: 'note 82:1 “The congregation of the mighty is the council of God”'
+    claim: 'A modern translation has “the divine council”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2082&version=NRSVUE'
+    quote: 'God has taken his place in the divine council'
+  - where: 'note 82:1 “The congregation of the mighty is the council of God”'
+    claim: 'The Greek translation has “the assembly of gods”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/82.htm'
+    quote: 'God stands in the assembly of gods; and in the midst of them will judge gods.'
+  - where: 'note 82:1 “The congregation of the mighty is the council of God”'
+    claim: 'The Church’s help describes the scene as God standing among heavenly beings, a setting found elsewhere in the Old Testament'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'Psalm 82 begins by describing God standing among a group of heavenly beings.'
+  - where: 'note 82:1 “The congregation of the mighty is the council of God”'
+    claim: 'The verb “standeth” means to take one’s stand for a definite purpose, and is used of the Lord in Isaiah 3:13'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5324.htm'
+    quote: 'station oneself, take one''s stand, for definite purpose'
+  - where: 'note 82:1 “The congregation of the mighty is the council of God”'
+    claim: 'The lexicon sets Isaiah 3:13 and Psalm 82:1 together under this sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5324.htm'
+    quote: 'Isaiah 3:13 taketh his stand to plead'
+  - where: 'note 82:1 “The congregation of the mighty is the council of God”'
+    claim: 'The council in 1 Kings 22:19 and Job 1:6 (scripture read)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/22?lang=eng'
+    quote: 'I saw the LORD sitting on his throne, and all the host of heaven standing by him on his right hand and on his left.'
+
+  # ---------- note 82:1 Joseph Smith ----------
+  - where: 'note 82:1 “Joseph Smith preached from this verse”'
+    claim: 'On 16 June 1844 Joseph Smith quoted Psalm 82:1, as William McIntire reported'
+    key: jsp-discourse-1844-06-16-mcintire
+    url: 'https://www.josephsmithpapers.org/paper-summary/discourse-16-june-1844-a-as-reported-by-william-p-mcintire/1'
+    quote: 'and also the 82 psalm 1st verse God standith in the Congragations of the Mighty; he Judgeth among the Gods'
+  - where: 'note 82:1 “Joseph Smith preached from this verse”'
+    claim: 'The subject of the discourse was the plurality of Gods, argued from Genesis 1 in Hebrew'
+    key: jsp-discourse-1844-06-16-mcintire
+    url: 'https://www.josephsmithpapers.org/paper-summary/discourse-16-june-1844-a-as-reported-by-william-p-mcintire/1'
+    quote: 'He then prceeded to show the plurality of Gods By Refering to the 1st Jen.— Genesis as in the origanel Hebrew'
+  - where: 'note 82:1 “Joseph Smith preached from this verse”'
+    claim: 'He taught that the Son is a distinct personage in the image of the Father, and quoted John 17'
+    key: jsp-discourse-1844-06-16-mcintire
+    url: 'https://www.josephsmithpapers.org/paper-summary/discourse-16-june-1844-a-as-reported-by-william-p-mcintire/1'
+    quote: 'the Son also was a distinct personage But in the image of the Father'
+  - where: 'note 82:1 “Joseph Smith preached from this verse”'
+    claim: 'A Latter-day Saint scholar reads Abraham 3:22–23 as a divine-assembly scene whose members are premortal human beings'
+    key: peterson-ye-are-gods
+    url: 'https://scripturecentral.org/archive/books/book-chapter/ye-are-gods-psalm-82-and-john-10-witnesses-divine-nature-humankind'
+    quote: 'a scene that is really a textbook instance of the motif of the divine assembly. These are premortal human beings.'
+  - where: 'note 82:1 “Joseph Smith preached from this verse”'
+    claim: 'Latter-day Saint scholars do not claim that the Bible’s council matches the Restoration’s account exactly'
+    key: bokovoy-ye-really-are-gods
+    url: 'https://scripturecentral.org/archive/periodicals/journal-article/ye-really-are-gods-response-michael-heiser-concerning-lds-use-psalm-82-and-gospel-john'
+    quote: 'Latter-day Saint scholars acknowledge that an LDS understanding of the council does not precisely mirror the perspectives manifested in the Bible.'
+
+  # ---------- note 82:3 ----------
+  - where: 'note 82:3 “Defend is the verb judge”'
+    claim: '“Defend” in verse 3 is the imperative of the verb “judge”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שִׁפְטוּ'
+  - where: 'note 82:3 “Defend is the verb judge”'
+    claim: 'The Greek translation has “Judge the orphan and poor”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/82.htm'
+    quote: 'Judge the orphan and poor: do justice to the low and needy.'
+  - where: 'note 82:3 “Defend is the verb judge”'
+    claim: 'A modern translation has “Give justice to the weak and the orphan”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2082&version=NRSVUE'
+    quote: 'Give justice to the weak and the orphan'
+  - where: 'note 82:3 “Defend is the verb judge”'
+    claim: '“Accept the persons of the wicked” is to show partiality to them'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2082&version=NRSVUE'
+    quote: 'show partiality to the wicked'
+  - where: 'note 82:3 “Defend is the verb judge”'
+    claim: 'The expression in Psalm 82:2 uses the Hebrew words for “face” and “lift”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּשְׂאוּ'
+  - where: 'note 82:3 “Defend is the verb judge”'
+    claim: 'Deuteronomy 10:17 uses the same two words (“regardeth not persons”) of God'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'יִשָּׂ֣א'
+  - where: 'note 82:3 “Defend is the verb judge”'
+    claim: 'The power to rule belongs to God, and those to whom He grants it answer to Him'
+    key: frederick-ot-in-nt-gospels
+    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/use-old-testament-new-testament-gospels'
+    quote: 'Because the power to rule is seen as belonging strictly to God, those to whom he grants power incur God’s wrath when they fail in their commission.'
+
+  # ---------- note 82:5 ----------
+  - where: 'note 82:5 “Unjust judgment shakes the foundations of the earth”'
+    claim: 'The verb means to be shaken, moved, overthrown, and in this verse is a figure of general disorder'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4131.htm'
+    quote: 'be shaken, moved, overthrown'
+  - where: 'note 82:5 “Unjust judgment shakes the foundations of the earth”'
+    claim: 'The lexicon classes Psalm 82:5 as figurative'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4131.htm'
+    quote: 'figurative of General disorder'
+  - where: 'note 82:5 “Unjust judgment shakes the foundations of the earth”'
+    claim: 'A modern translation has “shaken” for “out of course”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2082&version=NRSVUE'
+    quote: 'all the foundations of the earth are shaken'
+  - where: 'note 82:5 “Unjust judgment shakes the foundations of the earth”'
+    claim: 'One reading: the foundations are the commands the judges transgress'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/82.htm'
+    quote: 'The commands, however, which they transgress are the foundations (cf. Psalm 11:3), as it were the shafts and pillars'
+  - where: 'note 82:5 “Unjust judgment shakes the foundations of the earth”'
+    claim: 'On that reading their transgression makes the earth totter'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/82.htm'
+    quote: 'Their transgression makes the land, the earth, to totter physically and morally'
+  - where: 'note 82:5 “Unjust judgment shakes the foundations of the earth”'
+    claim: 'The change to the third person shows that the admonition has had no result'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/82.htm'
+    quote: 'Thus, then, no result is to be expected from the divine admonition: they still go their ways in this state of mental darkness'
+
+  # ---------- note 82:6 who ----------
+  - where: 'note 82:6 “Who the gods of the psalm are”'
+    claim: 'The Church’s help: God appears to be addressing judges He had appointed'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'In this instance, God appears to be addressing those He had appointed as judges but who had judged unjustly.'
+  - where: 'note 82:6 “Who the gods of the psalm are”'
+    claim: 'The Church’s help: “ye are gods” likely refers to delegated divine authority'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'The phrase “ye are gods” likely refers to the fact that God had given these individuals His divine authority to act as judges.'
+  - where: 'note 82:6 “Who the gods of the psalm are”'
+    claim: 'The lexicon has a sense of elohim for rulers and judges'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/430.htm'
+    quote: 'rulers, judges, either as divine representatives at sacred places or as reflecting divine majesty and power'
+  - where: 'note 82:6 “Who the gods of the psalm are”'
+    claim: 'The lexicon places Psalm 82:1, 6 under that sense and records that others read angels'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/430.htm'
+    quote: 'Psalm 82:1; Psalm 82:6 (De Ew Pe; but angels Bl Hup)'
+  - where: 'note 82:6 “Who the gods of the psalm are”'
+    claim: 'On the judges reading they are gods in the sense of exercising authority God granted'
+    key: frederick-ot-in-nt-gospels
+    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/use-old-testament-new-testament-gospels'
+    quote: 'they are “gods” in the sense that they are exercising authority granted unto them by God.'
+  - where: 'note 82:6 “Who the gods of the psalm are”'
+    claim: 'Objection to the judges reading: death is no penalty for those already mortal'
+    key: peterson-ye-are-gods
+    url: 'https://scripturecentral.org/archive/books/book-chapter/ye-are-gods-psalm-82-and-john-10-witnesses-divine-nature-humankind'
+    quote: 'If they were already mortals, this would hardly be a serious penalty.'
+  - where: 'note 82:6 “Who the gods of the psalm are”'
+    claim: 'The Exodus verses are judged weak support for elohim meaning human judges'
+    key: peterson-ye-are-gods
+    url: 'https://scripturecentral.org/archive/books/book-chapter/ye-are-gods-psalm-82-and-john-10-witnesses-divine-nature-humankind'
+    quote: 'provide very weak support (if, indeed, they provide any support at all) for the notion that ʾĕlōhîm can ever denote merely human judges'
+  - where: 'note 82:6 “Who the gods of the psalm are”'
+    claim: 'The scholarly consensus, as this author judges it, sets the psalm in the divine council'
+    key: peterson-ye-are-gods
+    url: 'https://scripturecentral.org/archive/books/book-chapter/ye-are-gods-psalm-82-and-john-10-witnesses-divine-nature-humankind'
+    quote: 'The consensus of contemporary biblical scholarship, I would judge, is that the action depicted in this psalm occurs in the divine council'
+  - where: 'note 82:6 “Who the gods of the psalm are”'
+    claim: 'The Latter-day Saint resolution: gods and men are one class'
+    key: peterson-ye-are-gods
+    url: 'https://scripturecentral.org/archive/books/book-chapter/ye-are-gods-psalm-82-and-john-10-witnesses-divine-nature-humankind'
+    quote: 'gods and men form a single class, differentiated along a spectrum of holiness, wisdom, and power'
+  - where: 'note 82:6 “Who the gods of the psalm are”'
+    claim: 'Verses 2–4 of human beings and verses 6–7 of divine beings need not conflict'
+    key: peterson-ye-are-gods
+    url: 'https://scripturecentral.org/archive/books/book-chapter/ye-are-gods-psalm-82-and-john-10-witnesses-divine-nature-humankind'
+    quote: 'even if verses 2–4 are taken as referring to human beings, this is not necessarily incompatible with the clear reference to divine beings in verses 6–7'
+  - where: 'note 82:6 “Who the gods of the psalm are”'
+    claim: 'A second Latter-day Saint scholar accepts that elohim here is a literal reference to gods and not human judges'
+    key: bokovoy-ye-really-are-gods
+    url: 'https://scripturecentral.org/archive/periodicals/journal-article/ye-really-are-gods-response-michael-heiser-concerning-lds-use-psalm-82-and-gospel-john'
+    quote: 'the biblical use of the word elohim as a literal reference to gods rather than human judges'
+  - where: 'note 82:6 “Who the gods of the psalm are”'
+    claim: 'He concludes that the Latter-day Saint position on humanity and the council is closer to the Bible than supposed'
+    key: bokovoy-ye-really-are-gods
+    url: 'https://scripturecentral.org/archive/periodicals/journal-article/ye-really-are-gods-response-michael-heiser-concerning-lds-use-psalm-82-and-gospel-john'
+    quote: 'clearly the Latter-day Saint position regarding humanity and the divine council of deities is much more biblical-like than many have supposed'
+  - where: 'note 82:6 “Who the gods of the psalm are”'
+    claim: 'The lexicon on “children of the most High”: rulers, whether monarchs or angel-princes'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5945.htm'
+    quote: 'of rulers, either monarchs or angel-princes'
+
+  # ---------- note 82:6 John 10 ----------
+  - where: 'note 82:6 “The Savior quotes the line in His own defense”'
+    claim: 'The Savior’s argument: scripture itself applies the title to others than Jehovah'
+    key: frederick-ot-in-nt-gospels
+    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/use-old-testament-new-testament-gospels'
+    quote: 'how can the Jews condemn him for “making himself God” when their own scriptures apply the title of “God” to beings other than Jehovah?'
+  - where: 'note 82:6 “The Savior quotes the line in His own defense”'
+    claim: 'The argument runs from the greater title to the lesser'
+    key: frederick-ot-in-nt-gospels
+    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/use-old-testament-new-testament-gospels'
+    quote: 'if he could be justified in calling himself “God,” he is even more justified in calling himself “Son of God.”'
+  - where: 'note 82:6 “The Savior quotes the line in His own defense”'
+    claim: 'The irony: He is in fact God made flesh'
+    key: frederick-ot-in-nt-gospels
+    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/use-old-testament-new-testament-gospels'
+    quote: 'The irony, of course, lost on most of his audience is that Jesus actually is God made flesh'
+  - where: 'note 82:6 “The Savior quotes the line in His own defense”'
+    claim: 'One Latter-day Saint reading: a merely metaphorical “gods” would not carry His argument'
+    key: peterson-ye-are-gods
+    url: 'https://scripturecentral.org/archive/books/book-chapter/ye-are-gods-psalm-82-and-john-10-witnesses-divine-nature-humankind'
+    quote: 'It does not seem that Jesus’ citation of a metaphorical use of the term god, as applied to human beings, would go very far toward justifying his ascription to himself of literal divinity.'
+  - where: 'note 82:6 “The Savior quotes the line in His own defense”'
+    claim: 'On that reading John 10 must concern human beings and also genuinely divine beings'
+    key: peterson-ye-are-gods
+    url: 'https://scripturecentral.org/archive/books/book-chapter/ye-are-gods-psalm-82-and-john-10-witnesses-divine-nature-humankind'
+    quote: 'For John 10 must apply to human beings, or its narrative makes no sense, yet it must also involve genuinely divine beings'
+  - where: 'note 82:6 “The Savior quotes the line in His own defense”'
+    claim: 'John 10:30–36 (scripture read)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/10?lang=eng'
+    quote: 'Is it not written in your law, I said, Ye are gods?'
+
+  - where: 'note 82:6 “The Savior quotes the line in His own defense”'
+    claim: 'The Savior’s wording in John 10:35: God called them gods, the word of God came to them, and the scripture cannot be broken'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/10?lang=eng'
+    quote: 'If he called them gods, unto whom the word of God came, and the scripture cannot be broken'
+
+  # ---------- note 82:6 prophets ----------
+  - where: 'note 82:6 “Children of the Most High in latter-day revelation”'
+    claim: 'The Church’s edition ties “as it is written, they are gods” in D&C 76:58 to Psalm 82:6 and John 10:34'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/76?lang=eng'
+    quote: 'Ps. 82:6 (1, 6)'
+  - where: 'note 82:6 “Children of the Most High in latter-day revelation”'
+    claim: 'Modern prophets cite the verse when teaching that we are children of God'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'Modern prophets have referenced Psalm 82:6 when teaching that we are the children of God.'
+  - where: 'note 82:6 “Children of the Most High in latter-day revelation”'
+    claim: 'Elder Kearon used the psalm’s phrase in general conference, April 2025 (his note cites Psalm 82:6)'
+    key: kearon-receive-gift
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2025/04/55kearon?lang=eng'
+    quote: 'The Holy Spirit can bear witness to your heart that you are indeed a child of the Most High.'
+
+  - where: 'note 82:6 “Children of the Most High in latter-day revelation”'
+    claim: 'The wording of D&C 76:58'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/76?lang=eng'
+    quote: 'Wherefore, as it is written, they are gods, even the sons of God'
+
+  # ---------- note 82:7 ----------
+  - where: 'note 82:7 “Like men, or like Adam”'
+    claim: 'The Hebrew phrase is “like adam”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כְּ/אָדָ֣ם'
+  - where: 'note 82:7 “Like men, or like Adam”'
+    claim: 'The lexicon takes the word here of man as feeble, earthly, mortal'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/120.htm'
+    quote: 'as feeble, earthly, mortal'
+  - where: 'note 82:7 “Like men, or like Adam”'
+    claim: 'A modern translation has “like mortals”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2082&version=NRSVUE'
+    quote: 'nevertheless, you shall die like mortals'
+  - where: 'note 82:7 “Like men, or like Adam”'
+    claim: 'The phrase can also be read “like Adam,” as a reference to the Fall; the same reading is proposed for Hosea 6:7'
+    key: sc-knowhy-28
+    url: 'https://scripturecentral.org/knowhy/what-are-the-origins-of-lehis-understanding-of-the-fall'
+    quote: 'translated as “like man” in the KJV, could just as easily be read as “like Adam.”'
+  - where: 'note 82:7 “Like men, or like Adam”'
+    claim: 'Because adam is both “man” and the name Adam, a verse that referred to Adam may have been translated of man in general; the study behind the KnoWhy, on Psalm 82:7'
+    key: pritchett-fall
+    url: 'https://archive.bookofmormoncentral.org/content/lehis-theology-fall-its-preexilicexilic-context'
+    quote: 'passages that may originally have had clear reference to Adam may have been translated as referring only to man'
+  - where: 'note 82:7 “Like men, or like Adam”'
+    claim: 'The Church’s footnote on “die” in verse 7 is 1 Corinthians 15:22'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/82?lang=eng'
+    quote: '1 Cor. 15:22'
+  - where: 'note 82:7 “Like men, or like Adam”'
+    claim: 'One Latter-day Saint suggestion: the sentence resembles the punishment of Lucifer'
+    key: bokovoy-ye-really-are-gods
+    url: 'https://scripturecentral.org/archive/periodicals/journal-article/ye-really-are-gods-response-michael-heiser-concerning-lds-use-psalm-82-and-gospel-john'
+    quote: 'members of the divine council often appear to receive a type of reprimand suggestive of the punishment given Lucifer in LDS scripture'
+  - where: 'note 82:7 “Like men, or like Adam”'
+    claim: 'He offers it as a possibility, not a conclusion'
+    key: bokovoy-ye-really-are-gods
+    url: 'https://scripturecentral.org/archive/periodicals/journal-article/ye-really-are-gods-response-michael-heiser-concerning-lds-use-psalm-82-and-gospel-john'
+    quote: 'then Jesus may very well have interpreted Psalm 82 as a reflection of this event'
+
+  - where: 'note 82:7 “Like men, or like Adam”'
+    claim: 'A modern translation has “like any prince”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2082&version=NRSVUE'
+    quote: 'and fall like any prince'
+
+  # ---------- note 82:8 ----------
+  - where: 'note 82:8 “The Most High and the inheritance of the nations”'
+    claim: '“Inherit” in Psalm 82:8 is the verb nachal'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִ֝נְחַ֗ל'
+  - where: 'note 82:8 “The Most High and the inheritance of the nations”'
+    claim: '“Most High” (Elyon) stands in Psalm 82:6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עֶלְי֣וֹן'
+  - where: 'note 82:8 “The Most High and the inheritance of the nations”'
+    claim: 'Deuteronomy 32:8 has the same verb (“divided … their inheritance”) and the same title'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'בְּ/הַנְחֵ֤ל'
+  - where: 'note 82:8 “The Most High and the inheritance of the nations”'
+    claim: 'A modern translation of Deuteronomy 32:8 reads “according to the number of the gods”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Deuteronomy%2032%3A8-9&version=NRSVUE'
+    quote: 'according to the number of the gods'
+  - where: 'note 82:8 “The Most High and the inheritance of the nations”'
+    claim: 'That reading follows a Dead Sea scroll, with the Greek; the traditional Hebrew text has “the Israelites”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Deuteronomy%2032%3A8-9&version=NRSVUE'
+    quote: 'Q ms Compare Gk Tg: MT the Israelites'
+  - where: 'note 82:8 “The Most High and the inheritance of the nations”'
+    claim: 'A Latter-day Saint scholar reads Deuteronomy 32:8 as God assigning council members administrative responsibility'
+    key: bokovoy-ye-really-are-gods
+    url: 'https://scripturecentral.org/archive/periodicals/journal-article/ye-really-are-gods-response-michael-heiser-concerning-lds-use-psalm-82-and-gospel-john'
+    quote: 'The notion of God assigning members of his council to assume important positions of administrative responsibility appears in its earliest form in Deuteronomy 32:8'
+  - where: 'note 82:8 “The Most High and the inheritance of the nations”'
+    claim: 'A modern translation of the last line: all the nations belong to God'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2082&version=NRSVUE'
+    quote: 'for all the nations belong to you!'
+
+  - where: 'note 82:8 “The Most High and the inheritance of the nations”'
+    claim: 'The King James, following the traditional Hebrew text, has “the children of Israel” in Deuteronomy 32:8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/32?lang=eng'
+    quote: 'according to the number of the children of Israel'
+
+  # ---------- christ / explore ----------
+  - where: christ
+    claim: 'The Church’s footnote on “judge” in verse 8 points to Jesus Christ as Judge'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/82?lang=eng'
+    quote: 'TG Jesus Christ, Judge'
+  - where: christ
+    claim: 'The Savior quoted verse 6 in defense of His claim to be the Son of God'
+    key: frederick-ot-in-nt-gospels
+    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/use-old-testament-new-testament-gospels'
+    quote: 'The scripture quoted here by Jesus comes from Psalm 82:6'
+  - where: explore
+    claim: 'A Latter-day Saint study of the psalm and John 10 is a long essay arguing that the Latter-day Saints are well placed to reconcile the two'
+    key: peterson-ye-are-gods
+    url: 'https://scripturecentral.org/archive/books/book-chapter/ye-are-gods-psalm-82-and-john-10-witnesses-divine-nature-humankind'
+    quote: 'the Latter-day Saints are in a uniquely strong position to reconcile the original sense of Psalm 82 with the Savior’s use of it in John 10'
