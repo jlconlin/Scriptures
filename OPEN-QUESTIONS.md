@@ -163,7 +163,6 @@ Set up in preview on 2026-10-10 at your word (“Let's do the book of Psalms nex
 - **Ps25.** Psalm 42:6, the note "The words of Gethsemane": the only source that ties the Savior's "exceeding sorrowful" (Matt. 26:38; Mark 14:34) to this psalm's Greek refrain is a "cf." in Delitzsch; no Church source makes the link. I kept it as a Witness of Christ note, narrowed to the shared Greek word and saying plainly that the Gospels do not cite the psalm. Should a Witness of Christ note stand on that, or be cut (the second paragraph of `christ` and one parallel would go with it)?
 - **Ps26.** Psalm 47:9, "even the people of the God of Abraham": the note keeps Abraham 2:10 and the Bible Dictionary on adoption into Israel as what the Restoration adds, though no source read applies either to this verse (the one commentary read says only that the promise to Abraham is being fulfilled here). Say if you would rather the note stop at the promise and leave Abraham 2:10 to the explore list.
 - **Ps27.** Psalm 50:5, note "The gathering before the Lord comes": it carries the kind Latter-day Prophets though its source is the sixth Lecture on Faith (1835 Doctrine and Covenants), not a named prophet's teaching; the note attributes it to the lecture only. Should the Lectures on Faith sit under that label, or under Related Scriptures?
-- **Ps28.** Do you want the Psalm 55 review (step 4) to go ahead? I held it back because your relayed message was only the question about Codex; rerunning this step with a request to review will do it.
 
 ## Isaiah
 
