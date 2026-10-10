@@ -1,0 +1,610 @@
+chapter: 17
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the prayer to David and names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/17?lang=eng'
+    quote: 'A Prayer of David.'
+  - where: setting
+    claim: 'The title ascribes the prayer to David and names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/17?lang=eng'
+    quote: 'A Prayer of David.'
+  - where: setting
+    claim: 'The psalm is a righteous individual’s prayer for protection'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalm 17 reflects a righteous individual’s prayer for protection.'
+  - where: setting
+    claim: 'One older commentary matches the psalm to David in the wilderness of Maon, with Saul close behind (1 Samuel 23:25 and following)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'All this corresponds, line for line, with the situation of David in the wilderness of Maon'
+  - where: setting
+    claim: 'The same commentary describes the speaker as persecuted with others, by foes among whom one leader stands out'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'The author of the Psalm is persecuted, and others with him; foes, among whom one, their leader, stands prominently forward, plot against his life'
+  - where: setting
+    claim: 'Psalm 17 follows Psalm 16 because both close with the hope of a vision of God'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'it closes with the hope of a blessed and satisfying vision of God'
+  - where: setting
+    claim: 'Psalms 16 and 17 share the petition “keep me” (16:1; 17:8) and a look back on the night (16:7; 17:3)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'the retrospect on nightly fellowship with God, Psalm 16:7; Psalm 17:3'
+  - where: setting
+    claim: 'Joseph Smith revised the Psalms by early 1833'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'Even before he completed the translation of the psalms in early 1833'
+
+  - where: setting
+    claim: 'The two psalms differ greatly in tone'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'notwithstanding a great dissimilarity in their tone'
+  - where: setting
+    claim: 'Both psalms ask to be kept (16:1; 17:8)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'Psalm 16:1; Psalm 17:8'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The psalmist asks God to hear him, to see his innocence, and to deliver and protect him'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'The psalmist prays for God to hear him, to behold his innocence, to deliver and protect him.'
+  - where: thread
+    claim: 'The last verse expresses confidence that he will behold the Lord’s face and see His likeness'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'he will ultimately behold the Lord’s face and see His likeness'
+  - where: thread
+    claim: '“Lovingkindness” in verse 7 is hesed (Strong’s 2617), in the plural'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֲ֭סָדֶי/ךָ'
+  - where: thread
+    claim: '“Those that rise up” in verse 7 is a form of the verb qum (Strong’s 6965)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִ֝/מִּתְקוֹמְמִ֗ים'
+  - where: thread
+    claim: '“Arise” in verse 13 is the same verb qum (Strong’s 6965)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קוּמָ֤/ה'
+  - where: thread
+    claim: '“The right” in verse 1 is tsedeq (Strong’s 6664)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'צֶ֗דֶק'
+  - where: thread
+    claim: '“In righteousness” in verse 15 is the same noun tsedeq (Strong’s 6664)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ֭/צֶדֶק'
+  - where: thread
+    claim: 'The lexicon lists both verse 1 and verse 15 under this noun'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6664.htm'
+    quote: 'righteousness, as ethically right Job 35:2; Psalm 17:15'
+  - where: thread
+    claim: '“From thy presence” in verse 2 is built on the word for face (panim, Strong’s 6440)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִ֭/לְּ/פָנֶי/ךָ'
+  - where: thread
+    claim: '“Thy face” in verse 15 is the same word (Strong’s 6440)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פָנֶ֑י/ךָ'
+  - where: thread
+    claim: '“Behold” in verse 2 (of God’s eyes) is the verb chazah (Strong’s 2372)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תֶּחֱזֶ֥ינָה'
+  - where: thread
+    claim: '“I will behold” in verse 15 is the same verb chazah (Strong’s 2372)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶחֱזֶ֣ה'
+  - where: thread
+    claim: '“They are full” in verse 14 is the verb saba (Strong’s 7646)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִשְׂבְּע֥וּ'
+  - where: thread
+    claim: '“I shall be satisfied” in verse 15 is the same verb saba (Strong’s 7646)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶשְׂבְּעָ֥ה'
+  - where: thread
+    claim: 'The lexicon lists verses 14 and 15 together under “be satisfied with, have one’s fill of”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7646.htm'
+    quote: 'be satisfied with, have one''s fill of: Jeremiah 31:14, compare Psalm 17:15'
+  - where: thread
+    claim: 'With “As for me” the speaker contrasts his own good with that of his enemies'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'he contrasts his incomparably greater prosperity with that of his enemies'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: '“The right” is a just cause'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2017&version=NRSVUE'
+    quote: 'Hear a just cause, O Lord; attend to my cry;'
+  - where: section 1 plain
+    claim: '“Sentence” is the judgment in his case, and “the things that are equal” is what is right'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2017&version=NRSVUE'
+    quote: 'let your eyes see the right.'
+  - where: section 1 plain
+    claim: '“The destroyer” is the violent one'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6530.htm'
+    quote: 'violent one (robber, murderer)'
+  - where: section 3 plain
+    claim: 'Verse 10: they have closed their hearts'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2017&version=NRSVUE'
+    quote: 'They close their hearts to pity;'
+  - where: section 3 plain
+    claim: 'Verse 11: their eyes are set on casting him to the ground'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2017&version=NRSVUE'
+    quote: 'they set their eyes to cast me to the ground.'
+  - where: section 4 plain
+    claim: '“Disappoint him” is to confront him'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2017&version=NRSVUE'
+    quote: 'confront them, overthrow them!'
+  - where: section 4 plain
+    claim: 'The rescue is by the LORD’s sword'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2017&version=NRSVUE'
+    quote: 'By your sword deliver my life from the wicked'
+
+  - where: section 4 plain
+    claim: '“World” is the world as duration, a span of time'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2465.htm'
+    quote: 'duration, world'
+
+  # ---------- note 17:0 ----------
+  - where: 'note 17:0 “Five psalms are headed A Prayer”'
+    claim: 'The title’s first word is tefillah, prayer (Strong’s 8605)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תְּפִלָּ֗ה'
+  - where: 'note 17:0 “Five psalms are headed A Prayer”'
+    claim: 'The same noun is “my prayer” in verse 1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תְפִלָּתִ֑/י'
+  - where: 'note 17:0 “Five psalms are headed A Prayer”'
+    claim: 'As a title the word heads Psalms 17, 86, 90, 102 and 142 and Habakkuk 3, and Psalm 72:20 uses it of David’s psalms together; the lexicon glosses it in titles as a poetic, liturgical prayer'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8605.htm'
+    quote: 'in Psalm-titles, poetic, liturgical prayer Psalm 17:1; Psalm 86:1; Psalm 90:1; Psalm 102:1; Psalm 142:1; Habakkuk 3:1'
+
+  # ---------- note 17:1 words ----------
+  - where: 'note 17:1 “A just cause and a verdict”'
+    claim: 'Tsedeq in verse 1 is righteousness or justice in a case or cause'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6664.htm'
+    quote: 'righteousness, justice, in a case or cause'
+  - where: 'note 17:1 “A just cause and a verdict”'
+    claim: 'A modern translation renders “the right” as “a just cause”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2017&version=NRSVUE'
+    quote: 'Hear a just cause, O Lord; attend to my cry;'
+  - where: 'note 17:1 “A just cause and a verdict”'
+    claim: 'The Greek attaches the word to God: “O Lord of my righteousness”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/17.htm'
+    quote: 'Hearken, O Lord of my righteousness, attend to my petition'
+  - where: 'note 17:1 “A just cause and a verdict”'
+    claim: 'The Greek renders “my sentence” as “my judgment”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/17.htm'
+    quote: 'Let my judgment come forth from thy presence'
+  - where: 'note 17:1 “A just cause and a verdict”'
+    claim: 'A modern translation renders verse 2 as vindication coming from God, whose eyes see the right'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2017&version=NRSVUE'
+    quote: 'From you let my vindication come;'
+  - where: 'note 17:1 “A just cause and a verdict”'
+    claim: '“The things that are equal” is “the right” in a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2017&version=NRSVUE'
+    quote: 'let your eyes see the right.'
+
+  # ---------- note 17:1 JST ----------
+  - where: 'note 17:1 “Joseph Smith’s revision asks for the right word”'
+    claim: 'Joseph Smith’s revision of verse 1 asks for the right word and promises to hear'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'Give me right word, O Lord; speak and thy servant shall hear'
+  - where: 'note 17:1 “Joseph Smith’s revision asks for the right word”'
+    claim: 'The revision changes the last clause of verse 1 to the first person'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'I come not unto thee out of feigned lips'
+  - where: 'note 17:1 “Joseph Smith’s revision asks for the right word”'
+    claim: 'The most important addition is the commitment to hear, which implies obeying'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'The most important addition is the commitment to hear the Lord’s teachings, implying both hearing the words and obeying them.'
+  - where: 'note 17:1 “Joseph Smith’s revision asks for the right word”'
+    claim: 'In verse 3 the revision reads “thou shalt find nothing evil in me”'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'thou shalt find nothing evil in me'
+  - where: 'note 17:1 “Joseph Smith’s revision asks for the right word”'
+    claim: 'That addition agrees with the Greek of the verse'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'the JST addition agrees with the LXX version of this verse'
+  - where: 'note 17:1 “Joseph Smith’s revision asks for the right word”'
+    claim: 'The Greek of verse 3 has “unrighteousness has not been found in me”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/17.htm'
+    quote: 'unrighteousness has not been found in me'
+  - where: 'note 17:1 “Joseph Smith’s revision asks for the right word”'
+    claim: 'The Prophet revised the Psalms by early 1833'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'Even before he completed the translation of the psalms in early 1833'
+  - where: 'note 17:1 “Joseph Smith’s revision asks for the right word”'
+    claim: 'One study sets the revised verse 3 beside Joseph Smith’s account of himself after the First Vision (Joseph Smith—History 1:28–29)'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'So Joseph Smith, after the First Vision, felt concerned about his own sins'
+
+  # ---------- note 17:3 ----------
+  - where: 'note 17:3 “Tested as metal is tested”'
+    claim: 'The verb behind “tried” means to smelt, refine, test'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6884.htm'
+    quote: 'verb smelt, refine, test'
+  - where: 'note 17:3 “Tested as metal is tested”'
+    claim: 'The lexicon parses the form in Psalm 17:3 under this verb'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6884.htm'
+    quote: 'Psalm 17:3, etc.'
+  - where: 'note 17:3 “Tested as metal is tested”'
+    claim: 'The Greek translators wrote the fire into the line'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/17.htm'
+    quote: 'thou hast tried me as with fire'
+  - where: 'note 17:3 “Tested as metal is tested”'
+    claim: '“Visited” here is a visit to search or test'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6485.htm'
+    quote: 'visit to search, test, accusative of person Job 7:18'
+  - where: 'note 17:3 “Tested as metal is tested”'
+    claim: 'One older reading: the night is when the bottom of the heart shows'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'when the bottom of a man''s heart is at once made manifest'
+  - where: 'note 17:3 “Tested as metal is tested”'
+    claim: 'On that reading God finds nothing that separates as dross from the gold'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'anything that is separated as dross from the gold'
+  - where: 'note 17:3 “Tested as metal is tested”'
+    claim: 'On that reading the confession is not a claim to be free of sins'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'does not claim to be clear from sins, but only from a conscious love of sin'
+  - where: 'note 17:3 “Tested as metal is tested”'
+    claim: 'The psalmist asks God to behold his innocence'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'to behold his innocence'
+  - where: 'note 17:3 “Tested as metal is tested”'
+    claim: 'A modern translation makes the testing conditional'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2017&version=NRSVUE'
+    quote: 'if you test me, you will find no wickedness in me;'
+
+  # ---------- note 17:8 ----------
+  - where: 'note 17:8 “The pupil of the eye, and wings”'
+    claim: 'The Hebrew word is the pupil of the eye, a simile of preciousness in Deuteronomy 32:10, Proverbs 7:2 and here'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/380.htm'
+    quote: 'Psalm 17:8 (in all, simile of preciousness)'
+  - where: 'note 17:8 “The pupil of the eye, and wings”'
+    claim: 'The lexicon’s gloss is “pupil of eye”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/380.htm'
+    quote: 'pupil of eye'
+  - where: 'note 17:8 “The pupil of the eye, and wings”'
+    claim: 'One older explanation of the word: the little man of the eye, from the reflection seen in another’s eye'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'the little man of the eye, because a picture in miniature of one''s self is seen, as in a glass, when looking into another person''s eye'
+  - where: 'note 17:8 “The pupil of the eye, and wings”'
+    claim: 'The point of the comparison is that the pupil is guarded most carefully'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'the apple of the eye is an object of the most careful self-preservation'
+  - where: 'note 17:8 “The pupil of the eye, and wings”'
+    claim: 'Deuteronomy 32:10 is the first passage for the figure'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'The primary passage for this bold figure, which is the utterance of loving entreaty, is Deuteronomy 32:10'
+  - where: 'note 17:8 “The pupil of the eye, and wings”'
+    claim: 'In the song of Moses the Lord keeps Israel as the apple of His eye'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/32?lang=eng'
+    quote: 'he kept him as the apple of his eye'
+  - where: 'note 17:8 “The pupil of the eye, and wings”'
+    claim: 'Wings are a figure of the LORD as protector of His people in this verse and in Psalms 36:7, 57:1, 61:4, 63:7 and 91:4 (the lexicon gives the Hebrew verse numbers)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3671.htm'
+    quote: 'as protector of his people Psalm 17:8; Psalm 36:8; Psalm 57:2; Psalm 61:5; Psalm 63:3; Psalm 91:4; Ruth 2:12'
+
+  # ---------- note 17:10 ----------
+  - where: 'note 17:10 “Fat that shuts the heart”'
+    claim: 'The Hebrew of the clause is two words, “their fat” and a verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֶלְבָּ֥/מוֹ'
+  - where: 'note 17:10 “Fat that shuts the heart”'
+    claim: 'The lexicon takes the fat here as a figure of an unreceptive heart'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2459.htm'
+    quote: 'fat (of midriff) figurative of unreceptive heart'
+  - where: 'note 17:10 “Fat that shuts the heart”'
+    claim: 'It explains Psalm 119:70 the same way'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2459.htm'
+    quote: 'their heart is as unresponsive as the midriff-fat near it'
+  - where: 'note 17:10 “Fat that shuts the heart”'
+    claim: 'A modern translation gives the sense without the image'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2017&version=NRSVUE'
+    quote: 'They close their hearts to pity;'
+  - where: 'note 17:10 “Fat that shuts the heart”'
+    claim: 'The Greek keeps the image as the King James does'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/17.htm'
+    quote: 'They have enclosed themselves with their own fat'
+
+  # ---------- note 17:13 ----------
+  - where: 'note 17:13 “The sword and the hand are the LORD’s”'
+    claim: 'In Hebrew “the wicked” and “thy sword” stand side by side with no word between: “from the wicked”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מֵ/רָשָׁ֥ע'
+  - where: 'note 17:13 “The sword and the hand are the LORD’s”'
+    claim: '“Thy sword” follows directly, as the verse’s last word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַרְבֶּֽ/ךָ'
+  - where: 'note 17:13 “The sword and the hand are the LORD’s”'
+    claim: 'The Church’s edition gives “by” as an alternative to “which is”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/17?lang=eng'
+    quote: 'OR by.'
+  - where: 'note 17:13 “The sword and the hand are the LORD’s”'
+    claim: 'A modern translation reads the sword as the means of rescue'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2017&version=NRSVUE'
+    quote: 'By your sword deliver my life from the wicked'
+  - where: 'note 17:13 “The sword and the hand are the LORD’s”'
+    claim: 'The Greek makes the sword a new request'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/17.htm'
+    quote: 'deliver my soul from the ungodly: draw thy sword'
+  - where: 'note 17:13 “The sword and the hand are the LORD’s”'
+    claim: '“Disappoint him” is “confront them” in a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2017&version=NRSVUE'
+    quote: 'confront them, overthrow them!'
+
+  # ---------- note 17:14 ----------
+  - where: 'note 17:14 “A portion in this life”'
+    claim: 'The Hebrew word for “world” here means duration, the world as a span of time'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2465.htm'
+    quote: 'duration, world'
+  - where: 'note 17:14 “A portion in this life”'
+    claim: 'One older reading explains the phrase from its converse in Psalm 16:5'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'becomes clear from the converse in Psalm 16:5'
+  - where: 'note 17:14 “A portion in this life”'
+    claim: 'On that reading the contrast is between the world and God more than between this life and the next'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'The contrast is not so much between this life and the life to come, as between the world (life) and God.'
+  - where: 'note 17:14 “A portion in this life”'
+    claim: 'On that reading God’s filling them leaves them no claim beyond this life'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'absolutely deprives them of all claim to possessions that extend beyond the world and this present temporal life'
+  - where: 'note 17:14 “A portion in this life”'
+    claim: 'On that reading the lines carry no envy'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'there is not the slightest alloy of murmur or envy in the words'
+  - where: 'note 17:14 “A portion in this life”'
+    claim: 'A modern translation turns the second half of the verse into wishes'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2017&version=NRSVUE'
+    quote: 'May their bellies be filled with what you have stored up for them;'
+  - where: 'note 17:14 “A portion in this life”'
+    claim: 'The lexicon calls the text of the clause about children doubtful'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7646.htm'
+    quote: 'but text dubious'
+
+  # ---------- note 17:15 face ----------
+  - where: 'note 17:15 “His face and His form”'
+    claim: 'The last verse expects to behold the Lord’s face and see His likeness'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'he will ultimately behold the Lord’s face and see His likeness'
+  - where: 'note 17:15 “His face and His form”'
+    claim: 'The expectation is bold but shared by other psalms'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'This is a bold expectation but not a unique one in Psalms.'
+  - where: 'note 17:15 “His face and His form”'
+    claim: 'Temunah can be a made image (Exodus 20:4) or God’s own form (Numbers 12:8)'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'can refer to an image or statue (as in Exodus 20:4) or to something similar that represents God’s appearance, but it can also refer to God’s own form (as in Numbers 12:8)'
+  - where: 'note 17:15 “His face and His form”'
+    claim: 'The lexicon glosses the noun “likeness, form” and puts this verse with Numbers 12:8'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8544.htm'
+    quote: 'Numbers 12:8; Psalm 17:15'
+  - where: 'note 17:15 “His face and His form”'
+    claim: 'The lexicon’s gloss'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8544.htm'
+    quote: 'likeness, form'
+  - where: 'note 17:15 “His face and His form”'
+    claim: 'The Greek has “glory” where the Hebrew has “likeness,” and has the speaker appear before God’s face'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/17.htm'
+    quote: 'But I shall appear in righteousness before thy face: I shall be satisfied when thy glory appears.'
+  - where: 'note 17:15 “His face and His form”'
+    claim: 'Several psalms suggest seeing God’s face in the temple'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Multiple passages suggest an experience of seeing God’s face in the temple.'
+  - where: 'note 17:15 “His face and His form”'
+    claim: 'Coming into God’s presence in His house and seeing Him is a theme of the psalms'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'worshippers could come into the presence of God in his holy house in Jerusalem and see him face-to-face'
+  - where: 'note 17:15 “His face and His form”'
+    claim: 'Tsedeq in verse 15 is righteousness as ethically right'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6664.htm'
+    quote: 'righteousness, as ethically right Job 35:2; Psalm 17:15'
+
+  - where: 'note 17:15 “His face and His form”'
+    claim: 'The last verse’s confidence rests on his righteousness'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'due to his righteousness, he will ultimately behold the Lord’s face'
+  - where: 'note 17:15 “His face and His form”'
+    claim: '“The right” in verse 1 is tsedeq (Strong’s 6664)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'צֶ֗דֶק'
+  - where: 'note 17:15 “His face and His form”'
+    claim: '“In righteousness” in verse 15 is the same noun'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ֭/צֶדֶק'
+
+  # ---------- note 17:15 awake ----------
+  - where: 'note 17:15 “Awake from which sleep”'
+    claim: 'Three readings of the awakening: ordinary sleep, sleep in the temple, or the Resurrection'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'could refer to normal sleep, to sleeping in the temple or temple grounds, or to the Resurrection, after which the psalmist knows he will see God (as in Job 19:26)'
+  - where: 'note 17:15 “Awake from which sleep”'
+    claim: 'The verb is used of waking from the sleep of death and of resurrection'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6974.htm'
+    quote: 'of resurrection Isaiah 26:19; Daniel 12:2'
+  - where: 'note 17:15 “Awake from which sleep”'
+    claim: 'The lexicon records that this verse has been placed under different senses: ordinary sleep (1a), the sleep of death (2), and the LORD’s awaking (1b)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6974.htm'
+    quote: 'Psalm 17:15 is put by Thes Ol Hup Du and others below 1a; Ew De Che below 2; we below 1b'
+  - where: 'note 17:15 “Awake from which sleep”'
+    claim: 'Sense 1b is the LORD’s awaking to activity'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6974.htm'
+    quote: 'awake [from sleep] to activity'
+  - where: 'note 17:15 “Awake from which sleep”'
+    claim: 'The Greek has the LORD’s glory appearing where the Hebrew has the awaking'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/17.htm'
+    quote: 'I shall be satisfied when thy glory appears.'
+  - where: 'note 17:15 “Awake from which sleep”'
+    claim: 'The Church’s edition points the word “awake” to the Topical Guide entry on the Resurrection'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/17?lang=eng'
+    quote: 'TG Resurrection.'
+
+  - where: 'note 17:15 “Awake from which sleep”'
+    claim: 'The verb’s first sense is waking from sleep'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6974.htm'
+    quote: '1 from sleep,'
+  - where: 'note 17:15 “Awake from which sleep”'
+    claim: 'Its second sense is waking from the sleep of death'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6974.htm'
+    quote: '2 from sleep of death'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'An older commentary sets Matthew 5:8 beside “in righteousness” in verse 15'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'in righteousness, which will then find its reward (Matthew 5:8, Hebrews 12:14)'
+  - where: christ
+    claim: 'Seeing God in His temple recurs in the revelations to Joseph Smith; Doctrine and Covenants 97:15–16 is quoted beside this verse'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Just as seeing God in His temple is a recurring theme in Psalms, so also it is in the latter-day teachings of Joseph Smith.'
+  - where: christ
+    claim: 'Doctrine and Covenants 93:1 is listed among the verses related to Psalm 17:15'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Doctrine and Covenants 88:67–68; 93:1; 97:15–16'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'Psalms that share the hope of beholding God’s face'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalms 11:7; 24:6; 27:4, 8; 42:2; 63:2; 105:4 share this confidence'
+  - where: explore
+    claim: 'Psalms 16 and 17 share the petition “keep me” (16:1; 17:8) and the night (16:7; 17:3)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'the retrospect on nightly fellowship with God, Psalm 16:7; Psalm 17:3'
+  - where: explore
+    claim: 'Both psalms ask to be kept (16:1; 17:8)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'Psalm 16:1; Psalm 17:8'
+  - where: parallels
+    claim: 'Job 19:26 is cited for seeing God after the Resurrection'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'after which the psalmist knows he will see God (as in Job 19:26)'
+  - where: parallels
+    claim: 'Deuteronomy 32:10 is the first passage for the apple of the eye'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'The primary passage for this bold figure, which is the utterance of loving entreaty, is Deuteronomy 32:10'
+  - where: 'note 17:8 “The pupil of the eye, and wings”'
+    claim: 'One older reading takes the wings of this verse as a second figure from the song of Moses (Deuteronomy 32:11)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/17.htm'
+    quote: 'Then follows another figure, taken from the eagle, which hides its young under its wings, likewise from Deuteronomy 32'
+  - where: 'note 17:15 “Awake from which sleep”'
+    claim: 'Some interpreters take the awaking as from a night of distress and helplessness'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6974.htm'
+    quote: 'Calv Now from night of distress and helplessness'
