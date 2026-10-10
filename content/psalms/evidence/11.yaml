@@ -1,0 +1,534 @@
+chapter: 11
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David and names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/11?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David.'
+  - where: setting
+    claim: 'The title addresses the psalm to the chief Musician and ascribes it to David, with no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/11?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David.'
+  - where: setting
+    claim: 'One older reading places the psalm when Absalom’s rebellion was being prepared in secret'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/11.htm'
+    quote: 'These are indications of the time when the rebellion of Absolom was secretly preparing, but still clearly discernible.'
+  - where: setting
+    claim: 'On that reading the advice comes from David’s friends'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/11.htm'
+    quote: 'David rejects the advice of his friends to save his life by flight.'
+  - where: setting
+    claim: 'Psalm 11 is a psalm of confidence and trust'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalm 11 is a psalm of confidence and trust in the Lord.'
+  - where: setting
+    claim: 'The Joseph Smith Translation revises verses 1–5, printed in the appendix, and sets the psalm in the last days'
+    key: jst-ps-11
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/11?lang=eng'
+    quote: 'In the last days the righteous will flee to the mountain of the Lord.'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'Modern translations close the advisers’ speech at the end of verse 3'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2011&version=NRSVUE'
+    quote: 'what can the righteous do?”'
+  - where: thread
+    claim: 'Verse 4 begins with the divine name and no conjunction'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְהוָ֤ה'
+  - where: thread
+    claim: 'In verse 4 David gives the ground of the confidence he began with'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/11.htm'
+    quote: 'And David justifies his confidence in God with which he began his song.'
+  - where: thread
+    claim: 'The LORD is enthroned above what disheartens the advisers'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/11.htm'
+    quote: 'Jahve sits enthroned above all that takes place on earth that disheartens those of little faith.'
+  - where: thread
+    claim: 'The psalm sets the all-seeing eye of the LORD against those who work in the dark'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/11.htm'
+    quote: 'sets the all-seeing eye of Jahve before the ungodly who carry out their murderous designs under cover of the darkness'
+  - where: thread
+    claim: 'The verb “behold” of verse 4 (Strong’s 2372) is the verb of verse 7; hebrew.mjs psalms 11:4 and 11:7 show the same form'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יֶחֱז֑וּ'
+  - where: thread
+    claim: 'The same verb form stands in verse 7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יֶחֱז֥וּ'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: 'The first verb is “take refuge”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2011&version=NRSVUE'
+    quote: 'In the Lord I take refuge; how can you say to me,'
+  - where: section 1 plain
+    claim: '“Privily” is “in the dark”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2011&version=NRSVUE'
+    quote: 'to shoot in the dark at the upright in heart.'
+  - where: section 1 plain
+    claim: 'The quotation of the advice runs to the end of verse 3'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2011&version=NRSVUE'
+    quote: 'what can the righteous do?”'
+  - where: section 2 plain
+    claim: '“His eyelids try” is “his gaze examines”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2011&version=NRSVUE'
+    quote: 'His eyes behold; his gaze examines humankind.'
+  - where: section 2 plain
+    claim: 'The verb “trieth” in verse 5 is to examine'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/974.htm'
+    quote: '1 examine, scrutinize, try Psalm 11:5; Psalm 139:23; Job 7:18'
+  - where: section 2 plain
+    claim: '“Snares” may be read as coals'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2011&version=NRSVUE'
+    quote: 'On the wicked he will rain coals of fire and sulfur;'
+  - where: section 2 plain
+    claim: 'The “horrible tempest” is a scorching wind'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2011&version=NRSVUE'
+    quote: 'a scorching wind shall be the portion of their cup.'
+  - where: section 3 plain
+    claim: '“Righteousness” is plural in Hebrew, righteous deeds'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2011&version=NRSVUE'
+    quote: 'he loves righteous deeds;'
+  - where: section 3 plain
+    claim: 'The last clause says the upright will see His face'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2011&version=NRSVUE'
+    quote: 'the upright shall behold his face.'
+
+  # ---------- note 11:1 refuge ----------
+  - where: 'note 11:1 “Trust here means taking refuge”'
+    claim: 'The Hebrew verb is “seek refuge,” mostly in poetry and figurative'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2620.htm'
+    quote: 'verb (mostly in poetry and figurative) seek refuge'
+  - where: 'note 11:1 “Trust here means taking refuge”'
+    claim: 'The lexicon lists the verb’s uses of refuge in God through the Psalms, Psalm 2:12 and 11:1 among them'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2620.htm'
+    quote: 'Psalm 2:12; Psalm 5:12; Psalm 7:2; Psalm 11:1; Psalm 16:1'
+  - where: 'note 11:1 “Trust here means taking refuge”'
+    claim: 'A modern translation has “take refuge”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2011&version=NRSVUE'
+    quote: 'In the Lord I take refuge; how can you say to me,'
+  - where: 'note 11:1 “Trust here means taking refuge”'
+    claim: 'The verb is a first-person perfect (morphology HVqp1cs in hebrew.mjs psalms 11:1)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חָסִ֗יתִי'
+
+  # ---------- note 11:1 flee ----------
+  - where: 'note 11:1 “Who says Flee, and how far the advice runs”'
+    claim: 'One older reading takes the speakers as David’s friends'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/11.htm'
+    quote: 'David rejects the advice of his friends to save his life by flight.'
+  - where: 'note 11:1 “Who says Flee, and how far the advice runs”'
+    claim: 'On that reading “your mountain” looks back to the mountains that sheltered David from Saul, with 1 Samuel 26:20 and 23:14'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/11.htm'
+    quote: 'to the mountains, which formerly so effectually protected you (cf. 1 Samuel 26:20; 1 Samuel 23:14)'
+  - where: 'note 11:1 “Who says Flee, and how far the advice runs”'
+    claim: 'David stayed in a mountain in the wilderness of Ziph while Saul sought him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/23?lang=eng'
+    quote: 'And David abode in the wilderness in strong holds, and remained in a mountain in the wilderness of Ziph.'
+  - where: 'note 11:1 “Who says Flee, and how far the advice runs”'
+    claim: 'David told Saul he was hunted like a partridge in the mountains'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/26?lang=eng'
+    quote: 'for the king of Israel is come out to seek a flea, as when one doth hunt a partridge in the mountains.'
+  - where: 'note 11:1 “Who says Flee, and how far the advice runs”'
+    claim: 'The ketiv is a plural imperative (HVqv2mp in hebrew.mjs psalms 11:1)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נודו'
+  - where: 'note 11:1 “Who says Flee, and how far the advice runs”'
+    claim: 'The qere is a feminine singular imperative (HVqv2fs), agreeing with “my soul”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נ֝֗וּדִי'
+  - where: 'note 11:1 “Who says Flee, and how far the advice runs”'
+    claim: '“Your mountain” has a second-person plural suffix (Sp2mp)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַרְ/כֶ֥ם'
+  - where: 'note 11:1 “Who says Flee, and how far the advice runs”'
+    claim: 'The Greek has “Flee to the mountains as a sparrow”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/11.htm'
+    quote: 'Flee to the mountains as a sparrow?'
+  - where: 'note 11:1 “Who says Flee, and how far the advice runs”'
+    claim: 'The NRSVUE closes the quotation after verse 3'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2011&version=NRSVUE'
+    quote: 'what can the righteous do?”'
+  - where: 'note 11:1 “Who says Flee, and how far the advice runs”'
+    claim: 'The NIV also closes the quotation after verse 3'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2011&version=NIV'
+    quote: 'what can the righteous do?”'
+
+  # ---------- note 11:1 JST ----------
+  - where: 'note 11:1 “Flee unto my mountain in the Joseph Smith Translation”'
+    claim: 'The revision opens with the Lord’s coming “in that day”'
+    key: jst-ps-11
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/11?lang=eng'
+    quote: 'In that day thou shalt come, O Lord; and I will put my trust in thee.'
+  - where: 'note 11:1 “Flee unto my mountain in the Joseph Smith Translation”'
+    claim: 'The call to flee becomes the Lord’s, to His mountain'
+    key: jst-ps-11
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/11?lang=eng'
+    quote: 'thou shalt say unto every soul, Flee unto my mountain; and the righteous shall flee like a bird that is let go from the snare of the fowler.'
+  - where: 'note 11:1 “Flee unto my mountain in the Joseph Smith Translation”'
+    claim: 'Verse 3 becomes the destruction of the foundations of the wicked'
+    key: jst-ps-11
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/11?lang=eng'
+    quote: 'But the foundations of the wicked shall be destroyed, and what can they do?'
+  - where: 'note 11:1 “Flee unto my mountain in the Joseph Smith Translation”'
+    claim: 'Verse 4 has the Lord coming into His temple'
+    key: jst-ps-11
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/11?lang=eng'
+    quote: 'For the Lord, when he shall come into his holy temple, sitting upon God’s throne in heaven, his eyes shall pierce the wicked.'
+  - where: 'note 11:1 “Flee unto my mountain in the Joseph Smith Translation”'
+    claim: 'Verse 5 adds that the Lord loves the righteous'
+    key: jst-ps-11
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/11?lang=eng'
+    quote: 'The Lord loveth the righteous, but the wicked, and him that loveth violence, his soul hateth.'
+  - where: 'note 11:1 “Flee unto my mountain in the Joseph Smith Translation”'
+    claim: '“In that day” refers to the future day of judgment'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'a clear reference to the future day of God’s judgment, retribution, and triumph'
+  - where: 'note 11:1 “Flee unto my mountain in the Joseph Smith Translation”'
+    claim: '“My mountain” parallels the holy temple of verse 4'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'The phrase “my mountain” in this verse parallels “his holy temple” (Psalm 11:4)'
+  - where: 'note 11:1 “Flee unto my mountain in the Joseph Smith Translation”'
+    claim: 'The reference to foundations in the King James is vague and the revision resolves it'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'the rather vague reference in verse 3 to the “foundations” being destroyed is resolved by rewriting the verse'
+  - where: 'note 11:1 “Flee unto my mountain in the Joseph Smith Translation”'
+    claim: 'The translation of the Psalms is dated to about January and February 1833'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'an approximate date for the translation of Psalms of January and February 1833'
+  - where: 'note 11:1 “Flee unto my mountain in the Joseph Smith Translation”'
+    claim: 'Section 88 was the first revelation directing the Saints to build a temple'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'This is the first revelation in the Doctrine and Covenants that directed the Saints to build a temple in this dispensation.'
+  - where: 'note 11:1 “Flee unto my mountain in the Joseph Smith Translation”'
+    claim: 'Psalm 11 was translated just after section 88, so its mountain and temple can be read through that revelation'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'The translation of Psalm 11 came chronologically just after section 88, so the psalm’s “mountain” and “holy temple” can be interpreted through that revelation.'
+  - where: 'note 11:1 “Flee unto my mountain in the Joseph Smith Translation”'
+    claim: 'The changes make the psalm a depiction of the Second Coming'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'making it a clear depiction of the Second Coming of Christ'
+
+  # ---------- note 11:2 ----------
+  - where: 'note 11:2 “Privily means from the dark”'
+    claim: 'The Hebrew noun is darkness, gloom'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/652.htm'
+    quote: 'noun masculine Job 3:6 darkness, gloom (only in poetry)'
+  - where: 'note 11:2 “Privily means from the dark”'
+    claim: 'In Psalm 11:2 it is used of secrecy and treachery'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/652.htm'
+    quote: 'of secrecy, treachery Psalm 11:2'
+  - where: 'note 11:2 “Privily means from the dark”'
+    claim: 'A modern translation has “in the dark”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2011&version=NRSVUE'
+    quote: 'to shoot in the dark at the upright in heart.'
+
+  # ---------- note 11:3 ----------
+  - where: 'note 11:3 “The foundations are those of society”'
+    claim: 'The word means foundation, stay of society'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8356.htm'
+    quote: 'foundation, stay (of society)'
+  - where: 'note 11:3 “The foundations are those of society”'
+    claim: 'In Psalm 11:3 it is probably figurative of usages and laws; others take it of nobles'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8356.htm'
+    quote: 'Psalm 11:3 (probably figurative of established usages, laws, etc.'
+  - where: 'note 11:3 “The foundations are those of society”'
+    claim: 'Some have taken the word of nobles'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8356.htm'
+    quote: 'Thes and others of nobles'
+  - where: 'note 11:3 “The foundations are those of society”'
+    claim: 'The word occurs once in the Psalms (hebrew.mjs psalms --word 8356: 1 occurrence, Ps 11:3)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַ֭/שָּׁתוֹת'
+  - where: 'note 11:3 “The foundations are those of society”'
+    claim: 'The verb “do” is a perfect (HVqp3ms in hebrew.mjs psalms 11:3)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פָּעָֽל'
+  - where: 'note 11:3 “The foundations are those of society”'
+    claim: 'The Greek reads the line of the past'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/11.htm'
+    quote: 'For they have pulled down what thou didst frame, but what has the righteous done?'
+  - where: 'note 11:3 “The foundations are those of society”'
+    claim: 'A modern translation keeps “what can the righteous do?” inside the advisers’ speech'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2011&version=NRSVUE'
+    quote: 'what can the righteous do?”'
+
+  # ---------- note 11:4 temple ----------
+  - where: 'note 11:4 “A temple and a throne in heaven”'
+    claim: 'One Latter-day Saint study reads the two halves as God’s two dwelling places'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'Here I believe the Psalmist is using antithetical parallelism to compare God’s two dwelling places.'
+  - where: 'note 11:4 “A temple and a throne in heaven”'
+    claim: 'The earthly temple has a heavenly counterpart'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'The holy structure on earth called the temple (heikhal) has its counterpart: God’s heavenly residence, his divine throne.'
+  - where: 'note 11:4 “A temple and a throne in heaven”'
+    claim: 'Heikhal usually means the Jerusalem temple and is sometimes translated palace'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'The Hebrew word heikhal is a well-known noun which is most often used to refer to the Jerusalem temple. Occasionally, it is translated as “palace”'
+  - where: 'note 11:4 “A temple and a throne in heaven”'
+    claim: 'The temple was the Lord’s palace and the place of His throne'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'the Lord’s earthly temple was also his earthly palace, home to his earthly throne'
+  - where: 'note 11:4 “A temple and a throne in heaven”'
+    claim: 'Habakkuk 2:20 has the same sentence in the King James Version'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hab/2?lang=eng'
+    quote: 'But the Lord is in his holy temple: let all the earth keep silence before him.'
+
+  # ---------- note 11:4 eyelids ----------
+  - where: 'note 11:4 “Eyelids that try”'
+    claim: 'Eyelids in Hebrew verse usually stand for the eyes'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6079.htm'
+    quote: 'eyelids, usually nearly = eyes'
+  - where: 'note 11:4 “Eyelids that try”'
+    claim: 'The clause means that He searches men through and through'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/974.htm'
+    quote: 'His eyelids try the children of men (search them through and through) Psalm 11:4.'
+  - where: 'note 11:4 “Eyelids that try”'
+    claim: 'The verb’s first sense is examine, scrutinize, and Psalm 11:5 is listed under it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/974.htm'
+    quote: '1 examine, scrutinize, try Psalm 11:5; Psalm 139:23; Job 7:18'
+  - where: 'note 11:4 “Eyelids that try”'
+    claim: 'Elsewhere the verb is used with the metaphor of gold'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/974.htm'
+    quote: 'a. with the metaphor of gold Job 23:10'
+  - where: 'note 11:4 “Eyelids that try”'
+    claim: 'The gold metaphor is of trying as one tries gold'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/974.htm'
+    quote: 'and I will try them as one tries gold Zechariah 13:9'
+  - where: 'note 11:4 “Eyelids that try”'
+    claim: 'A Latter-day Saint reading: He tries the faith of the righteous and loves and protects them'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'although He tries the faith of the righteous, He loves them and will ultimately protect them from the wicked'
+  - where: 'note 11:4 “Eyelids that try”'
+    claim: 'The Church’s chapter heading keeps the King James division: the righteous tested, the wicked hated'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/11?lang=eng'
+    quote: 'The Lord tests the righteous and hates the wicked'
+  - where: 'note 11:4 “Eyelids that try”'
+    claim: 'The Greek puts the ungodly with the righteous as objects of the testing'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/11.htm'
+    quote: 'The Lord tries the righteous and the ungodly: and he that loves unrighteousness hates his own soul.'
+  - where: 'note 11:4 “Eyelids that try”'
+    claim: 'A modern translation divides the verse the same way'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2011&version=NRSVUE'
+    quote: 'The Lord tests the righteous and the wicked,'
+
+  # ---------- note 11:6 ----------
+  - where: 'note 11:6 “The rain of Sodom and the cup”'
+    claim: 'The LORD rained brimstone and fire on Sodom and Gomorrah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/19?lang=eng'
+    quote: 'Then the Lord rained upon Sodom and upon Gomorrah brimstone and fire from the Lord out of heaven;'
+  - where: 'note 11:6 “The rain of Sodom and the cup”'
+    claim: 'An older commentary connects the fire and brimstone with Genesis 19:24'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/11.htm'
+    quote: 'In addition to fire and brimstone (Genesis 19:24)'
+  - where: 'note 11:6 “The rain of Sodom and the cup”'
+    claim: 'The Hebrew word as it stands is the word for a bird-trap'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6341.htm'
+    quote: 'bird-trap'
+  - where: 'note 11:6 “The rain of Sodom and the cup”'
+    claim: 'The Greek keeps “snares”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/11.htm'
+    quote: 'He shall rain upon sinners snares, fire, and brimstone, and a stormy blast shall be the portion of their cup.'
+  - where: 'note 11:6 “The rain of Sodom and the cup”'
+    claim: 'The lexicon refers Psalm 11:6 away from “snare” to the entry for coal'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6341.htm'
+    quote: 'Psalm 11:6 see'
+  - where: 'note 11:6 “The rain of Sodom and the cup”'
+    claim: 'The word referred to is one for charcoal or glowing coal'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6341.htm'
+    quote: 'glowing coal'
+  - where: 'note 11:6 “The rain of Sodom and the cup”'
+    claim: 'A modern translation prints coals'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2011&version=NRSVUE'
+    quote: 'On the wicked he will rain coals of fire and sulfur;'
+  - where: 'note 11:6 “The rain of Sodom and the cup”'
+    claim: 'The noun behind “horrible” is raging heat'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2152.htm'
+    quote: 'noun feminine raging heat'
+  - where: 'note 11:6 “The rain of Sodom and the cup”'
+    claim: 'In Psalm 11:6 it is used of a burning wind'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2152.htm'
+    quote: '2 of burning wind'
+  - where: 'note 11:6 “The rain of Sodom and the cup”'
+    claim: 'A modern translation has “a scorching wind”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2011&version=NRSVUE'
+    quote: 'a scorching wind shall be the portion of their cup.'
+  - where: 'note 11:6 “The rain of Sodom and the cup”'
+    claim: 'One reading of the portion of their cup'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/11.htm'
+    quote: 'what is adjudged to them as the contents of their cup which they must drain off'
+
+  # ---------- note 11:7 ----------
+  - where: 'note 11:7 “The upright shall behold His face”'
+    claim: 'The King James seems to have the Lord’s face looking on the upright'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'in a manner that seems to depict the Lord’s face (countenance) looking upon the upright'
+  - where: 'note 11:7 “The upright shall behold His face”'
+    claim: 'The Hebrew order indicates that the upright behold the Lord’s face'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'The Hebrew of this verse, however, makes this statement in reverse order, indicating that it is the upright which shall behold the Lord’s face.'
+  - where: 'note 11:7 “The upright shall behold His face”'
+    claim: 'A modern translation has “the upright shall behold his face”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2011&version=NRSVUE'
+    quote: 'the upright shall behold his face.'
+  - where: 'note 11:7 “The upright shall behold His face”'
+    claim: 'The Church’s footnote 7b gives the alternative rendering'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/11?lang=eng'
+    quote: 'the upright shall behold His face'
+  - where: 'note 11:7 “The upright shall behold His face”'
+    claim: 'The Greek has the face beholding'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/11.htm'
+    quote: 'For the Lord is righteous, and loves righteousness; his face beholds uprightness.'
+  - where: 'note 11:7 “The upright shall behold His face”'
+    claim: 'In Hebrew usage the face is what is seen, not what sees'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/11.htm'
+    quote: 'is always used only as that which is to be seen, not as that which itself sees'
+  - where: 'note 11:7 “The upright shall behold His face”'
+    claim: 'The context expects the end of the upright in contrast to that of the ungodly'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/11.htm'
+    quote: 'one expects to find something respecting the end of the upright in contrast to that of the ungodly'
+  - where: 'note 11:7 “The upright shall behold His face”'
+    claim: 'Only the upright will see the Lord’s face'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'We might even say that only upright persons will see the Lord’s face, for that is the message of the passage.'
+  - where: 'note 11:7 “The upright shall behold His face”'
+    claim: 'Psalm 11:7 is one of several psalms confident that the righteous will behold God’s face'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalms 11:7; 24:6; 27:4, 8; 42:2; 63:2; 105:4 share this confidence that the righteous who seek God’s face will ultimately have the privilege of beholding it.'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'The revision begins with the Lord’s coming'
+    key: jst-ps-11
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/11?lang=eng'
+    quote: 'In that day thou shalt come, O Lord; and I will put my trust in thee.'
+  - where: christ
+    claim: 'He comes into His temple, tries the children of men and redeems the righteous'
+    key: jst-ps-11
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ps/11?lang=eng'
+    quote: 'Behold his eyelids shall try the children of men, and he shall redeem the righteous, and they shall be tried.'
+  - where: christ
+    claim: 'The revised psalm depicts the Second Coming of Christ'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'making it a clear depiction of the Second Coming of Christ'
+  - where: christ
+    claim: 'Doctrine and Covenants 93:1 is listed with the psalms (11:7 among them) that expect to see God’s face'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Doctrine and Covenants 88:67–68; 93:1; 97:15–16'
+  - where: christ
+    claim: 'The Lord promises that the obedient shall see His face'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/93?lang=eng'
+    quote: 'shall see my face and know that I am'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'Nephi’s psalm expresses similar sentiments'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Compare to the similar sentiments expressed by the Book of Mormon prophet Nephi in 2 Nephi 4:15–35.'
+  - where: explore
+    claim: 'Verses related to Psalm 11:7 on seeing God’s face'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalms 24:6; 27:4, 8; 105:4; Deuteronomy 34:10; 1 Chronicles 16:11; Moses 1:2, 11, 31'
+  - where: parallels
+    claim: 'Nephi’s declaration of trust'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/4?lang=eng'
+    quote: 'O Lord, I have trusted in thee, and I will trust in thee forever.'
+  - where: parallels
+    claim: 'The psalmist expects to behold the LORD’s face'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/17?lang=eng'
+    quote: 'As for me, I will behold thy face in righteousness'
