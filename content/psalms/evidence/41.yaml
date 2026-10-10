@@ -1,0 +1,325 @@
+chapter: 41
+claims:
+  # ---- when / setting ----
+  - where: 'when'
+    claim: 'The title ascribes the psalm to David and names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/41?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David.'
+  - where: 'setting'
+    claim: 'The Psalter is in five books, the first being Psalms 1–41, each closing with a doxology'
+    key: mcconkie-poetic-writings
+    url: 'https://rsc.byu.edu/joseph-smith-translation/joseph-smith-poetic-writings'
+    quote: 'they have obviously been divided into five sections or five books within the book, each division closing with a doxology or utterance of praise to God (Psalms 1–41; 42–72; 73–89; 90–106; 107–150)'
+  - where: 'setting'
+    claim: 'The Church’s chapter heading calls the psalm messianic and says the treachery of Judas is foretold'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/41?lang=eng'
+    quote: 'A messianic psalm of David—Blessed is he who considers the poor—The treachery of Judas is foretold.'
+  - where: 'setting'
+    claim: 'Jesus quotes verse 9 at the Last Supper'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/13?lang=eng'
+    quote: 'I speak not of you all: I know whom I have chosen: but that the scripture may be fulfilled, He that eateth bread with me hath lifted up his heel against me.'
+  - where: 'setting'
+    claim: 'An older commentary places the psalm in the time of Absalom’s rebellion'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/41.htm'
+    quote: 'Psalm 41:1-13 belongs to the time of the persecution by Absalom.'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'The speaker is himself one of the weak of verse 1 and is treated in the opposite way to what that verse blesses'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/41.htm'
+    quote: 'He, the poet, is treated in his distress of soul in a manner totally different from the way just described which is so rich in promises of blessing. He is himself just such a'
+  - where: 'thread'
+    claim: 'The plea “be merciful unto me” in verse 4 and in verse 10 is the same Hebrew word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חָנֵּ֑/נִי'
+  - where: 'thread'
+    claim: 'Verse 10 has the same plea (Hebrew 41:11)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חָנֵּ֥/נִי'
+  - where: 'thread'
+    claim: 'The enemies’ “rise up” in verse 8 is the verb qum (Hebrew 41:9)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לָ/קֽוּם'
+  - where: 'thread'
+    claim: '“Raise me up” in verse 10 is the same verb, in the causative (Hebrew 41:11)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַ/הֲקִימֵ֑/נִי'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: '“Poor” can be rendered “weak”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2041&version=NRSVUE'
+    quote: '41.1 Or weak'
+  - where: 'section 1 plain'
+    claim: 'The Hebrew of verse 3 says “you change all his bed,” which a modern translation gives as healing'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2041&version=NRSVUE'
+    quote: '41.3 Heb you change all his bed'
+  - where: 'section 2 plain'
+    claim: 'Verse 8 rendered as a deadly thing that has fastened on him'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2041&version=NRSVUE'
+    quote: 'They think that a deadly thing has fastened on me'
+  - where: 'section 3 plain'
+    claim: '“Favourest” rendered “are pleased with”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2041&version=NRSVUE'
+    quote: 'By this I know that you are pleased with me'
+
+  # ---- note 41:1 ----
+  - where: 'note 41:1 “The poor of verse 1 are the weak”'
+    claim: 'The Hebrew word behind “poor” in verse 1 is dal (Hebrew 41:2)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'דָּ֑ל'
+  - where: 'note 41:1 “The poor of verse 1 are the weak”'
+    claim: 'Dal means low, weak, poor, thin'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1800.htm'
+    quote: 'adjective low, weak, poor, thin (especially common in Wisdom literature and poetry)'
+  - where: 'note 41:1 “The poor of verse 1 are the weak”'
+    claim: 'The word is used of Pharaoh’s thin cattle and of Amnon'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1800.htm'
+    quote: 'weak, thin, of kine Genesis 41:19 (E); of Amnon 2 Samuel 13:4'
+  - where: 'note 41:1 “The poor of verse 1 are the weak”'
+    claim: 'A modern translation notes “weak” as an alternative to “poor”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2041&version=NRSVUE'
+    quote: '41.1 Or weak'
+  - where: 'note 41:1 “The poor of verse 1 are the weak”'
+    claim: '“Blessed” in verse 1 is ashre (Hebrew 41:2)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַ֭שְׁרֵי'
+  - where: 'note 41:1 “The poor of verse 1 are the weak”'
+    claim: 'Psalm 1:1 and Psalm 40:4 (Hebrew 40:5) open with the same word, ashre'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַ֥שְֽׁרֵי'
+  - where: 'note 41:1 “The poor of verse 1 are the weak”'
+    claim: 'Psalm 41’s opening is listed among the Psalms’ “Blessed” sayings that stand behind the Beatitudes'
+    key: skinner-beatitudes
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/israels-ancient-psalms'
+    quote: '“Blessed is he who considers the poor” (Psalm 41:2)'
+
+  # ---- note 41:4 ----
+  - where: 'note 41:4 “A confession beside a claim of integrity”'
+    claim: '“My soul” is the Hebrew nephesh with “my” (Hebrew 41:5)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נַ֝פְשִׁ֗/י'
+  - where: 'note 41:4 “A confession beside a claim of integrity”'
+    claim: 'A modern translation renders “heal my soul” as “heal me”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2041&version=NRSVUE'
+    quote: 'heal me, for I have sinned against you'
+  - where: 'note 41:4 “A confession beside a claim of integrity”'
+    claim: 'The lexicon places “mine integrity” in verse 12 (Hebrew 41:13) under the sense integrity, with integrity of mind or heart'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8537.htm'
+    quote: 'integrity of mind Genesis 20:5,6 (E), 1 Kings 9:4; Psalm 78:72; Psalm 101:2'
+
+  # ---- note 41:8 ----
+  - where: 'note 41:8 “A thing of Belial”'
+    claim: 'The Hebrew of “an evil disease” is “a thing (word) of belial” (Hebrew 41:9)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ֭לִיַּעַל'
+  - where: 'note 41:8 “A thing of Belial”'
+    claim: 'The lexicon first files the phrase as a base, wicked thing, with a cross-reference to its third sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1100.htm'
+    quote: 'base, wicked thing Psalm 41:9 (yet compare 3 below)'
+  - where: 'note 41:8 “A thing of Belial”'
+    claim: 'The lexicon’s third sense is ruin or destruction, which some take here'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1100.htm'
+    quote: '3 ruin, destruction: so Psalm 41:9 according to De Che and others, but see above'
+  - where: 'note 41:8 “A thing of Belial”'
+    claim: 'The word names worthless, base fellows elsewhere'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1100.htm'
+    quote: 'worthless, good-for-nothing, base fellows 1 Samuel 25:25; 2 Samuel 16:7'
+  - where: 'note 41:8 “A thing of Belial”'
+    claim: 'The Greek takes the phrase as a wicked word spoken against him'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/41.htm'
+    quote: 'They denounced a wicked word against me, saying, Now that he lies, shall he not rise up again?'
+  - where: 'note 41:8 “A thing of Belial”'
+    claim: 'A modern translation takes it as a deadly thing'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2041&version=NRSVUE'
+    quote: 'They think that a deadly thing has fastened on me'
+  - where: 'note 41:8 “A thing of Belial”'
+    claim: '“Rise up” in verse 8 is the verb qum (Hebrew 41:9)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לָ/קֽוּם'
+  - where: 'note 41:8 “A thing of Belial”'
+    claim: '“Raise me up” in verse 10 is the same verb (Hebrew 41:11)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַ/הֲקִימֵ֑/נִי'
+
+  # ---- note 41:9 friend ----
+  - where: 'note 41:9 “The man of my peace”'
+    claim: 'The Hebrew of “mine own familiar friend” is “the man of my peace” (Hebrew 41:10)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שְׁלוֹמִ֨/י'
+  - where: 'note 41:9 “The man of my peace”'
+    claim: 'The Greek keeps the phrase word for word'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/41.htm'
+    quote: 'For even the man of my peace, in whom I trusted, who ate my bread, lifted up his heel against me.'
+  - where: 'note 41:9 “The man of my peace”'
+    claim: 'Eating his bread means sharing his table'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/41.htm'
+    quote: 'who did eat his bread, i.e., was his messmate'
+  - where: 'note 41:9 “The man of my peace”'
+    claim: 'The Hebrew verb with “heel” is “made great” (Hebrew 41:10)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הִגְדִּ֖יל'
+  - where: 'note 41:9 “The man of my peace”'
+    claim: 'The lexicon explains the idiom as an insidious great fall, a cruel advantage taken'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6119.htm'
+    quote: 'hath made great the heel against me, i.e. given me insidiously a great fall (figurative for taken some cruel advantage of me'
+  - where: 'note 41:9 “The man of my peace”'
+    claim: 'One older commentary takes the heel as a kick'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/41.htm'
+    quote: 'to give a great kick, i.e., with a good swing of the foot'
+  - where: 'note 41:9 “The man of my peace”'
+    claim: 'One older reading identifies the friend as Ahithophel'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/41.htm'
+    quote: 'The faithless friend is that Ahithophel whose counsels, according to 2 Samuel 16:23, had with David almost the appearance of being divine oracles.'
+  - where: 'note 41:9 “The man of my peace”'
+    claim: 'The same reading pairs Psalm 41 with Psalm 55, both dwelling on a faithless close friend'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/41.htm'
+    quote: 'the complaint concerning the Psalmist''s foes dwells with especial sadness upon some faithless bosom-friend'
+  - where: 'note 41:9 “The man of my peace”'
+    claim: 'The title of the psalm names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/41?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David.'
+  - where: 'note 41:9 “The man of my peace”'
+    claim: 'Ahithophel was David’s counsellor and joined Absalom'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/15?lang=eng'
+    quote: 'And Absalom sent for Ahithophel the Gilonite, David’s counsellor, from his city, even from Giloh'
+
+  # ---- note 41:9 christ ----
+  - where: 'note 41:9 “The line Jesus quoted at the Last Supper”'
+    claim: 'Jesus quotes the verse of His betrayer after washing the disciples’ feet'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/13?lang=eng'
+    quote: 'I speak not of you all: I know whom I have chosen: but that the scripture may be fulfilled, He that eateth bread with me hath lifted up his heel against me.'
+  - where: 'note 41:9 “The line Jesus quoted at the Last Supper”'
+    claim: 'John’s chapter heading says Jesus identifies Judas as His betrayer'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/13?lang=eng'
+    quote: 'And when he had dipped the sop, he gave it to Judas Iscariot, the son of Simon.'
+  - where: 'note 41:9 “The line Jesus quoted at the Last Supper”'
+    claim: 'The Savior quoted the line to impress His foreknowledge, so that the apostles would afterward see scripture fulfilled'
+    key: talmage-jesus-christ-33
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-33?lang=eng'
+    quote: 'The Lord was intent on impressing the fact of His foreknowledge as to what was to come, so that when the terrible development was an accomplished fact, the apostles would realize that thereby the scriptures had been fulfilled.'
+  - where: 'note 41:9 “The line Jesus quoted at the Last Supper”'
+    claim: 'Peter says David spoke beforehand of Judas; the Church’s footnote there points to Psalm 41:9'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/1?lang=eng'
+    quote: 'this scripture must needs have been fulfilled, which the Holy Ghost by the mouth of David spake before concerning Judas'
+
+  # ---- note 41:10 ----
+  - where: 'note 41:10 “Raise me up, that I may repay”'
+    claim: '“Requite” is the Hebrew verb shillem (Hebrew 41:11)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַֽ/אֲשַׁלְּמָ֥ה'
+  - where: 'note 41:10 “Raise me up, that I may repay”'
+    claim: 'Psalm 137:8 has the same verb (“rewardeth”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שֶׁ/יְשַׁלֶּם'
+  - where: 'note 41:10 “Raise me up, that I may repay”'
+    claim: 'A modern translation has “repay”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2041&version=NRSVUE'
+    quote: 'and raise me up, that I may repay them'
+  - where: 'note 41:10 “Raise me up, that I may repay”'
+    claim: 'One older reading: the requiting is the king’s duty, carried out when Absalom’s rebellion was put down'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/41.htm'
+    quote: 'What is meant is the requiting which it was David''s duty as a duly constituted king to exercise, and which he did really execute by the power of God, when he subdued the rebellion of Absalom'
+
+  # ---- note 41:13 ----
+  - where: 'note 41:13 “The blessing that closes Book One”'
+    claim: 'Psalms 1–41 are the first of five books, each closed by a doxology'
+    key: mcconkie-poetic-writings
+    url: 'https://rsc.byu.edu/joseph-smith-translation/joseph-smith-poetic-writings'
+    quote: 'each division closing with a doxology or utterance of praise to God (Psalms 1–41; 42–72; 73–89; 90–106; 107–150)'
+  - where: 'note 41:13 “The blessing that closes Book One”'
+    claim: 'Amen means firm, true, and marks acceptance'
+    key: bd-amen
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/amen?lang=eng'
+    quote: 'Firm, true. The word is used to denote acceptance (Deut. 27:15–26) or truthfulness (1 Kgs. 1:36).'
+  - where: 'note 41:13 “The blessing that closes Book One”'
+    claim: 'Amen is a word of response'
+    key: bd-amen
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/amen?lang=eng'
+    quote: 'Amen was the proper response of a person to whom an oath was administered (1 Chr. 16:36; Neh. 5:13; 8:6)'
+  - where: 'note 41:13 “The blessing that closes Book One”'
+    claim: 'The Greek translates the double Amen'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/41.htm'
+    quote: 'Blessed be the Lord God of Israel from everlasting, and to everlasting. So be it, so be it.'
+  - where: 'note 41:13 “The blessing that closes Book One”'
+    claim: 'In Chronicles the people answer such a blessing with Amen'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/16?lang=eng'
+    quote: 'And all the people said, Amen, and praised the'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'Jesus applied verse 9 to His betrayal'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/13?lang=eng'
+    quote: 'Now I tell you before it come, that, when it is come to pass, ye may believe that I am he.'
+  - where: 'christ'
+    claim: 'A psalm can be both a prophecy of Christ and a prayer out of its speaker’s own experience'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'For Latter-day Saints, these two viewpoints need not be seen as mutually exclusive.'
+
+  # ---- explore / parallels ----
+  - where: 'explore'
+    claim: 'Psalm 55 complains of a companion who turned'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/55?lang=eng'
+    quote: 'But it was thou, a man mine equal, my guide, and mine acquaintance.'
+  - where: 'parallels'
+    claim: 'At the supper Jesus says the betrayer eats with Him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/mark/14?lang=eng'
+    quote: 'One of you which eateth with me shall betray me.'
+  - where: 'parallels'
+    claim: 'Ahithophel’s counsel was valued as an oracle'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/16?lang=eng'
+    quote: 'was as if a man had inquired at the oracle of God'
