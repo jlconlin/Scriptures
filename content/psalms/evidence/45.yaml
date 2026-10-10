@@ -1,0 +1,533 @@
+chapter: 45
+claims:
+  # ---- when ----
+  - where: 'when'
+    claim: 'The title names no king and no date; it calls the psalm a song of loves'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/45?lang=eng'
+    quote: 'To the chief Musician upon Shoshannim, for the sons of Korah, Maschil, A Song of loves.'
+  - where: 'when'
+    claim: 'The psalm is a wedding song for a king'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: 'Ode for a Royal Wedding'
+
+  # ---- setting ----
+  - where: 'setting'
+    claim: 'The title gives the psalm to the sons of Korah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/45?lang=eng'
+    quote: 'for the sons of Korah'
+  - where: 'setting'
+    claim: 'Psalm 45 is listed among the royal psalms, which Christian readers have read of the Messiah'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'These psalms celebrated important events in the lives of royalty, which for Christian readers often reflected the royal life and reign of the Messiah: 2, 18, 20, 21, 45, 72, 89, 101, 110, 132, and 144.'
+  - where: 'setting'
+    claim: 'Who the king was is uncertain'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/45.htm'
+    quote: 'in this Psalm the person of the king who is celebrated is a matter of doubt and controversy'
+  - where: 'setting'
+    claim: 'Hebrews quotes verses 6–7 as said to the Son'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/1?lang=eng'
+    quote: 'But unto the Son he saith, Thy throne, O God, is for ever and ever: a sceptre of righteousness is the sceptre of thy kingdom.'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'The verb of verse 1 means the heart is astir'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7370.htm'
+    quote: 'Psalm 45:2 is astir.'
+  - where: 'thread'
+    claim: 'At verse 10 the address turns to a woman: the imperative is feminine'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שִׁמְעִי'
+  - where: 'thread'
+    claim: 'Verse 16 is addressed to a man again: “thy fathers” has the masculine suffix'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲ֭בֹתֶי/ךָ'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: 'Verse 1: the heart is astir'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7370.htm'
+    quote: 'Psalm 45:2 is astir.'
+  - where: 'section 1 plain'
+    claim: 'Verse 1: “the things which I have made” are the poet’s verses, spoken to the king'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: 'I address my verses to the king;'
+  - where: 'section 1 plain'
+    claim: 'Verse 1: “ready” is quick or skilled'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4106.htm'
+    quote: 'adjective quick, prompt, ready, skilled'
+  - where: 'section 2 plain'
+    claim: 'Verse 4: “terrible things” are dread deeds'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: 'let your right hand teach you dread deeds.'
+  - where: 'section 2 plain'
+    claim: 'Verse 5: peoples fall under the king'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: 'the peoples fall under you.'
+  - where: 'section 3 plain'
+    claim: 'Verse 6: a “right sceptre” is a sceptre of equity'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: 'Your royal scepter is a scepter of equity;'
+  - where: 'section 3 plain'
+    claim: 'Verse 8: music of strings from the ivory palaces'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: 'From ivory palaces stringed instruments make you glad;'
+  - where: 'section 3 plain'
+    claim: 'Verse 9: “honourable women” are ladies of honour'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: 'daughters of kings are among your ladies of honor;'
+  - where: 'section 4 plain'
+    claim: 'Verse 11: “he is thy Lord; and worship thou him” as lord and bow'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: 'Since he is your lord, bow to him;'
+  - where: 'section 4 plain'
+    claim: 'Verse 12: the rich of the people seek her favour'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/45.htm'
+    quote: 'the rich of the people of the land shall supplicate thy favour.'
+  - where: 'section 5 plain'
+    claim: 'Verse 14: “raiment of needlework” is embroidered clothing'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/45.htm'
+    quote: 'in embroidered clothing: virgins shall be brought to the king after her: her fellows shall be brought to thee.'
+  - where: 'section 5 plain'
+    claim: 'Verse 15: they are led along and enter the palace'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: 'With joy and gladness they are led along'
+  - where: 'section 6 plain'
+    claim: 'Verse 16: sons in the place of ancestors, said to the king'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: 'In the place of ancestors you, O king, shall have sons;'
+
+  # ---- note: A tune called Lilies ----
+  - where: 'note 45:0 “A tune called Lilies”'
+    claim: 'The Hebrew word means lily'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7799.htm'
+    quote: 'noun feminine usually lily, probably any lily-like flower'
+  - where: 'note 45:0 “A tune called Lilies”'
+    claim: 'In the Song of Solomon the lily is a simile for the bride'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7799.htm'
+    quote: 'Songs 2:2 (simile of bride)'
+  - where: 'note 45:0 “A tune called Lilies”'
+    claim: 'Outside those uses the word is found only in psalm titles, where its meaning is not clear'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7799.htm'
+    quote: 'meaning not clear'
+  - where: 'note 45:0 “A tune called Lilies”'
+    claim: 'A modern translation prints “according to Lilies”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: 'To the leader: according to Lilies. Of the Korahites. A Maskil. A love song.'
+  - where: 'note 45:0 “A tune called Lilies”'
+    claim: 'Titles of this kind are probably names of tunes'
+    key: bd-psalms
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
+    quote: 'The other titles are all probably names of tunes, well known at the time, to which the Psalms were appointed to be sung.'
+  - where: 'note 45:0 “A tune called Lilies”'
+    claim: 'The Greek translators wrote “for alternate strains”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/45.htm'
+    quote: 'For the end, for alternate strains by the sons of Core; for instruction, a Song concerning the beloved.'
+
+  # ---- note: A love song, and the king it was written for ----
+  - where: 'note 45:0 “A love song, and the king it was written for”'
+    claim: 'The Hebrew of “A Song of loves” means a song of love'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3039.htm'
+    quote: 'Psalm 45:1 = a song of love.'
+  - where: 'note 45:0 “A love song, and the king it was written for”'
+    claim: 'The Greek reads “a Song concerning the beloved”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/45.htm'
+    quote: 'for instruction, a Song concerning the beloved.'
+  - where: 'note 45:0 “A love song, and the king it was written for”'
+    claim: 'A modern translation heads the psalm “Ode for a Royal Wedding”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: 'Ode for a Royal Wedding'
+  - where: 'note 45:0 “A love song, and the king it was written for”'
+    claim: 'Who the king was is disputed'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/45.htm'
+    quote: 'the person of the king who is celebrated is a matter of doubt and controversy'
+  - where: 'note 45:0 “A love song, and the king it was written for”'
+    claim: 'The psalm was written for an occasion, to a king of the poet’s own day'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/45.htm'
+    quote: 'The Psalm is a poem composed for some special occasion the motive of which is some contemporary event. The king whom it celebrates was a contemporary of the poet.'
+  - where: 'note 45:0 “A love song, and the king it was written for”'
+    claim: 'The proposal of Solomon and Pharaoh’s daughter, and the objection to it'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/45.htm'
+    quote: 'marriage with the daughter of Pharaoh; but the entire absence of any mention of Egypt is decisive against this view.'
+  - where: 'note 45:0 “A love song, and the king it was written for”'
+    claim: 'The proposal of Joram and Athaliah is a conjecture'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/45.htm'
+    quote: 'we adhere to the conjecture advanced in our commentary on Canticles and on the Epistle to the Hebrews, viz., that it was composed in connection with the marriage of Joram of Judah with Athaliah.'
+  - where: 'note 45:0 “A love song, and the king it was written for”'
+    claim: 'The argument from Tyre and from Ahab’s ivory palace'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/45.htm'
+    quote: 'Ahab, the father of Athaliah, built a palace of ivory'
+  - where: 'note 45:0 “A love song, and the king it was written for”'
+    claim: 'The argument from Tyre'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/45.htm'
+    quote: 'And it becomes intelligible why the homage of Tyre in particular, and only of Tyre, is mentioned.'
+  - where: 'note 45:0 “A love song, and the king it was written for”'
+    claim: 'The proposal’s author grants that Joram and Athaliah did not fulfil the song'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/45.htm'
+    quote: 'although they have not realized the good wishes expressed by the poet at the time of their marriage'
+  - where: 'note 45:0 “A love song, and the king it was written for”'
+    claim: 'A Davidic king held a kingship with promises reaching into the future (2 Samuel 7)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/45.htm'
+    quote: 'he was a possessor of a kingship to which were attached, according to 2 Samuel 7, great promises extending into the unlimited future'
+  - where: 'note 45:0 “A love song, and the king it was written for”'
+    claim: 'The promise to David’s house in 2 Samuel 7'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/7?lang=eng'
+    quote: 'And thine house and thy kingdom shall be established for ever before thee: thy throne shall be established for ever.'
+
+  - where: 'note 45:0 “A love song, and the king it was written for”'
+    claim: 'Joram of Judah married the daughter of Ahab (2 Kings 8:18)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/8?lang=eng'
+    quote: 'for the daughter of Ahab was his wife'
+
+  # ---- note: Riding out for truth and meekness ----
+  - where: 'note 45:4 “Riding out for truth and meekness”'
+    claim: 'A modern translation drops “meekness”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: 'for the cause of truth and to defend the right;'
+  - where: 'note 45:4 “Riding out for truth and meekness”'
+    claim: 'Its footnote says the Hebrew has “and the meekness of”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: '45.4 Cn: Heb and the meekness of'
+  - where: 'note 45:4 “Riding out for truth and meekness”'
+    claim: 'The Hebrew has the word for meekness'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/עַנְוָה'
+  - where: 'note 45:4 “Riding out for truth and meekness”'
+    claim: 'The Greek keeps meekness'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/45.htm'
+    quote: 'and bend thy bow, and prosper, and reign, because of truth and meekness and righteousness'
+
+  # ---- note: A king addressed as God ----
+  - where: 'note 45:6 “A king addressed as God”'
+    claim: 'The Hebrew word is Elohim, set between “thy throne” and “for ever and ever” with no verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֱ֭לֹהִים'
+  - where: 'note 45:6 “A king addressed as God”'
+    claim: 'The first word is “thy throne”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כִּסְאֲ/ךָ֣'
+  - where: 'note 45:6 “A king addressed as God”'
+    claim: 'The Greek takes it as an address'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/45.htm'
+    quote: 'Thy throne, O God, is for ever and ever: the sceptre of thy kingdom is a sceptre of righteousness.'
+  - where: 'note 45:6 “A king addressed as God”'
+    claim: 'A modern translation agrees'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: 'Your throne, O God, endures forever and ever.'
+  - where: 'note 45:6 “A king addressed as God”'
+    claim: 'The address is the reading of most scholars; the alternative is “thy throne is God’s”; the verse is classed under “godlike one” with Moses, and 1 Chronicles 28:5 is compared'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/430.htm'
+    quote: 'godlike one Exodus 4:16 (J; Moses in relation to Aaron), Exodus 7:1 (P; in relation to Pharaoh), 1 Samuel 28:13 (the shade of Samuel), Psalm 45:7 (the Messianic king, O God,'
+  - where: 'note 45:6 “A king addressed as God”'
+    claim: 'The address is the reading of most scholars; the alternative is “thy throne is God’s”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/430.htm'
+    quote: 'most scholars ancient and modern, but thy throne is God'
+  - where: 'note 45:6 “A king addressed as God”'
+    claim: 'The lexicon compares 1 Chronicles 28:5 for the alternative'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/430.htm'
+    quote: 'compare 1 Chronicles 28:5'
+  - where: 'note 45:6 “A king addressed as God”'
+    claim: 'Chronicles speaks of Israel’s throne as the LORD’s'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/28?lang=eng'
+    quote: 'he hath chosen Solomon my son to sit upon the throne of the kingdom of the LORD over Israel.'
+  - where: 'note 45:6 “A king addressed as God”'
+    claim: 'The Lord made Moses “a god to Pharaoh”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/7?lang=eng'
+    quote: 'See, I have made thee a god to Pharaoh'
+
+  # ---- note: Hebrews gives these lines to the Son ----
+  - where: 'note 45:6 “Hebrews gives these lines to the Son”'
+    claim: 'Hebrews 1 argues the Son is better than the angels and quotes verses 6–7 as said to the Son'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/1?lang=eng'
+    quote: 'But unto the Son he saith, Thy throne, O God, is for ever and ever: a sceptre of righteousness is the sceptre of thy kingdom.'
+  - where: 'note 45:6 “Hebrews gives these lines to the Son”'
+    claim: 'The chain begins with Psalm 2:7'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/1?lang=eng'
+    quote: 'For unto which of the angels said he at any time, Thou art my Son, this day have I begotten thee?'
+  - where: 'note 45:6 “Hebrews gives these lines to the Son”'
+    claim: 'The chain ends with Psalm 110:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/1?lang=eng'
+    quote: 'But to which of the angels said he at any time, Sit on my right hand, until I make thine enemies thy footstool?'
+  - where: 'note 45:6 “Hebrews gives these lines to the Son”'
+    claim: 'Of the angels God says they are His ministers'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/1?lang=eng'
+    quote: 'And of the angels he saith, Who maketh his angels spirits, and his ministers a flame of fire.'
+  - where: 'note 45:6 “Hebrews gives these lines to the Son”'
+    claim: 'Hebrews 1:9 keeps verse 7'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/1?lang=eng'
+    quote: 'Thou hast loved righteousness, and hated iniquity; therefore God, even thy God, hath anointed thee with the oil of gladness above thy fellows.'
+  - where: 'note 45:6 “Hebrews gives these lines to the Son”'
+    claim: 'The wording of Hebrews matches the Greek psalm'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/45.htm'
+    quote: 'Thou hast loved righteousness, and hated iniquity: therefore God, thy God, has anointed thee with the oil of gladness beyond thy fellows.'
+
+  # ---- note: The oil of gladness ----
+  - where: 'note 45:7 “The oil of gladness”'
+    claim: 'The verb is mashach, to anoint'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מְשָׁחֲ/ךָ֡'
+  - where: 'note 45:7 “The oil of gladness”'
+    claim: 'Kings were anointed by prophets'
+    key: bd-anoint
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/anoint?lang=eng'
+    quote: 'Kings were anointed to their office by the prophets'
+  - where: 'note 45:7 “The oil of gladness”'
+    claim: '“Oil of gladness” in Psalm 45:7: the word for gladness'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׂשׂ֗וֹן'
+  - where: 'note 45:7 “The oil of gladness”'
+    claim: '“Oil of joy” in Isaiah 61:3 has the same word (Strong’s 8342), after the same word for oil (8081)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'שָׂשׂוֹן֙'
+  - where: 'note 45:7 “The oil of gladness”'
+    claim: 'Isaiah 61:3 in the King James'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/61?lang=eng'
+    quote: 'the oil of joy for mourning'
+  - where: 'note 45:7 “The oil of gladness”'
+    claim: 'Near its end Isaiah 61 has a bridegroom and a bride dressed for the wedding (verse 10 of 11)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/61?lang=eng'
+    quote: 'as a bridegroom decketh himself with ornaments, and as a bride adorneth herself with her jewels.'
+  - where: 'note 45:7 “The oil of gladness”'
+    claim: 'A likely parallel between Isaiah 61:10 and the royal marriage of Psalm 45, in the clothing'
+    key: larsen-dust-crown
+    url: 'https://interpreterfoundation.org/journal/from-dust-to-exalted-crown-royal-and-temple-themes-common-to-the-psalms-and-the-dead-sea-scrolls'
+    quote: 'likely also a parallel between the marriage imagery in Isaiah 61:10 and the royal marriage in Psalm 45, where the king and his bride are dressed in glorious and elaborate vestments.'
+  - where: 'note 45:7 “The oil of gladness”'
+    claim: '“Fellows” are companions of like rank'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2270.htm'
+    quote: 'b. of like rank Psalm 45:8'
+
+  # ---- note: Music from ivory palaces ----
+  - where: 'note 45:8 “Music from ivory palaces”'
+    claim: 'The word behind “whereby” is probably the word for a harp string, as in Psalm 150:4'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4482.htm'
+    quote: 'string (of harp)'
+  - where: 'note 45:8 “Music from ivory palaces”'
+    claim: 'The lexicon marks the reading “probably” and corrects the Hebrew'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4482.htm'
+    quote: 'Psalm 150:4, so also probably Psalm 45:9 (read'
+  - where: 'note 45:8 “Music from ivory palaces”'
+    claim: 'A modern translation reads stringed instruments'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: 'From ivory palaces stringed instruments make you glad;'
+  - where: 'note 45:8 “Music from ivory palaces”'
+    claim: 'Kings lists Ahab’s ivory house among his works'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/22?lang=eng'
+    quote: 'and the ivory house which he made'
+
+  # ---- note: Counsel to the bride ----
+  - where: 'note 45:10 “Counsel to the bride”'
+    claim: 'The imperatives and pronouns of verses 10–12 are feminine'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שִׁמְעִי'
+  - where: 'note 45:10 “Counsel to the bride”'
+    claim: 'The Hebrew behind “thy Lord” is adon with a feminine suffix'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲ֝דֹנַ֗יִ/ךְ'
+  - where: 'note 45:10 “Counsel to the bride”'
+    claim: 'The word means lord or master, and here husband'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/113.htm'
+    quote: '(c) husband Judges 19:26,27; Psalm 45:12'
+  - where: 'note 45:10 “Counsel to the bride”'
+    claim: 'A modern translation: lord, and bow'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: 'Since he is your lord, bow to him;'
+  - where: 'note 45:10 “Counsel to the bride”'
+    claim: 'A modern translation reads the city, “Daughter Tyre”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: 'Daughter Tyre will seek your favor with gifts,'
+  - where: 'note 45:10 “Counsel to the bride”'
+    claim: 'Tyre was a trading seaport'
+    key: bd-tyre
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/tyre?lang=eng'
+    quote: 'an important commercial and seaport town of Syria'
+  - where: 'note 45:10 “Counsel to the bride”'
+    claim: 'The word for “queen” means consort and is used again in Nehemiah 2:6'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7694.htm'
+    quote: 'noun feminine (queen-)consort Nehemiah 2:6; Psalm 45:10'
+  - where: 'note 45:10 “Counsel to the bride”'
+    claim: 'In the Psalms the word occurs only at 45:9 (hebrew.mjs psalms --word 7694: one occurrence)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שֵׁגַ֥ל'
+  - where: 'note 45:10 “Counsel to the bride”'
+    claim: 'Nehemiah 2:6 is the Persian king’s queen'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/neh/2?lang=eng'
+    quote: 'And the king said unto me, (the queen also sitting by him,)'
+
+  # ---- note: Glorious within her chamber ----
+  - where: 'note 45:13 “Glorious within her chamber”'
+    claim: '“Within” means within the house'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6441.htm'
+    quote: 'i.e. within the house'
+  - where: 'note 45:13 “Glorious within her chamber”'
+    claim: 'A modern translation: in her chamber'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: 'The princess is decked in her chamber with gold-woven robes;'
+
+  # ---- note: The Bridegroom and the bride ----
+  - where: 'note 45:14 “The Bridegroom and the bride”'
+    claim: 'Christ is the Bridegroom and the Church His symbolic bride'
+    key: gs-bridegroom
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/bridegroom?lang=eng'
+    quote: 'Jesus Christ is symbolized in the scriptures as the Bridegroom. The Church is His symbolic bride.'
+  - where: 'note 45:14 “The Bridegroom and the bride”'
+    claim: 'The allegorical reading of the psalm as a song of the Church compares the bride of Revelation with the bride of the psalm'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/45.htm'
+    quote: 'arrayed in shining white linen (byssus), which denotes her righteousness, just as here the variegated, golden garments denote her glory'
+  - where: 'note 45:14 “The Bridegroom and the bride”'
+    claim: 'The marriage of the Lamb'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/19?lang=eng'
+    quote: 'for the marriage of the Lamb is come, and his wife hath made herself ready.'
+  - where: 'note 45:14 “The Bridegroom and the bride”'
+    claim: 'Jesus speaks of Himself as the bridegroom'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/9?lang=eng'
+    quote: 'Can the children of the bridechamber mourn, as long as the bridegroom is with them?'
+  - where: 'note 45:14 “The Bridegroom and the bride”'
+    claim: 'The Kirtland Temple prayer asks that the Church be adorned as a bride'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/109?lang=eng'
+    quote: 'And be adorned as a bride for that day when thou shalt unveil the heavens'
+  - where: 'note 45:14 “The Bridegroom and the bride”'
+    claim: 'The subject of verse 73 is “thy church”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/109?lang=eng'
+    quote: 'That thy church may come forth out of the wilderness of darkness'
+
+  # ---- note: Sons in place of fathers ----
+  - where: 'note 45:16 “Sons in place of fathers”'
+    claim: 'The suffixes of verse 16 are masculine'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲ֭בֹתֶי/ךָ'
+  - where: 'note 45:16 “Sons in place of fathers”'
+    claim: 'A modern translation adds “O king”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: 'In the place of ancestors you, O king, shall have sons;'
+  - where: 'note 45:16 “Sons in place of fathers”'
+    claim: 'The verb of verse 17 is first person singular'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַזְכִּ֣ירָה'
+  - where: 'note 45:16 “Sons in place of fathers”'
+    claim: 'A modern translation: “I will cause your name to be celebrated”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2045&version=NRSVUE'
+    quote: 'I will cause your name to be celebrated in all generations;'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'Hebrews gives verses 6–7 as said to the Son'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/1?lang=eng'
+    quote: 'But unto the Son he saith, Thy throne, O God, is for ever and ever'
+  - where: 'christ'
+    claim: 'The Church’s heading reads the psalm of the Messiah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/45?lang=eng'
+    quote: 'A messianic psalm—The Messiah is fairer than the children of men'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'Revelation 19 has the marriage of the Lamb'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/19?lang=eng'
+    quote: 'for the marriage of the Lamb is come, and his wife hath made herself ready.'
+  - where: 'explore'
+    claim: 'Psalm 45 is one of the royal psalms, with 2 and 110'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: '2, 18, 20, 21, 45, 72, 89, 101, 110, 132, and 144'
+
+  # ---- parallels ----
+  - where: 'parallels'
+    claim: 'Isaiah 61:3 has the same Hebrew word for joy as Psalm 45:7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'שָׂשׂוֹן֙'
+  - where: 'parallels'
+    claim: 'Revelation 19:8, the bride arrayed in fine linen'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/19?lang=eng'
+    quote: 'And to her was granted that she should be arrayed in fine linen, clean and white'
