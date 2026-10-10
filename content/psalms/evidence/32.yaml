@@ -1,0 +1,477 @@
+chapter: 32
+claims:
+  # ---- when, setting ----
+  - where: 'when'
+    claim: 'The title ascribes the psalm to David and gives no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/32?lang=eng'
+    quote: 'A Psalm of David, Maschil.'
+  - where: 'setting'
+    claim: 'Paul quotes the opening of the psalm as David’s'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/4?lang=eng'
+    quote: 'Even as David also describeth the blessedness of the man, unto whom God imputeth righteousness without works,'
+  - where: 'setting'
+    claim: 'An older reading places the psalm after David’s adultery, a year in which he was like a condemned man'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/32.htm'
+    quote: 'For a whole year after his adultery David was like one under sentence of condemnation.'
+  - where: 'setting'
+    claim: 'On that reading Psalm 51 was written during the struggle and Psalm 32 after peace returned'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/32.htm'
+    quote: 'The former was written in the very midst of the penitential struggle; the latter after he had recovered his inward peace.'
+  - where: 'setting'
+    claim: 'The psalm has been called a didactic psalm about the way of penitence'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/32.htm'
+    quote: 'is a didactic Psalm, concerning the way of penitence which leads to the forgiveness of sins'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'The silence of verse 3 is David’s holding back from confessing (an older commentary’s reading)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/32.htm'
+    quote: 'The more he strove against confessing, the louder did conscience speak'
+  - where: 'thread'
+    claim: '“Covered” in verse 1 is the Hebrew verb kasah (Strong’s 3680)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כְּס֣וּי'
+  - where: 'thread'
+    claim: '“Hid” in verse 5 is the same verb (Strong’s 3680)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כִסִּ֗יתִי'
+  - where: 'thread'
+    claim: '“Compass” in verse 7 is the verb savav (Strong’s 5437)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תְּס֖וֹבְבֵ֣/נִי'
+  - where: 'thread'
+    claim: '“Compass” in verse 10 is the same verb (Strong’s 5437)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְסוֹבְבֶֽ/נּוּ'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: '“Guile” rendered “deceit”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2032&version=NRSVUE'
+    quote: 'and in whose spirit there is no deceit.'
+  - where: 'section 2 plain'
+    claim: '“Roaring” rendered “groaning”; “moisture” rendered “strength”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2032&version=NRSVUE'
+    quote: 'my strength was dried up as by the heat of summer.'
+  - where: 'section 3 plain'
+    claim: '“The iniquity of my sin” rendered “the guilt of my sin”; “hid” rendered “cover/hide”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2032&version=NRSVUE'
+    quote: 'and you forgave the guilt of my sin.'
+  - where: 'section 5 plain'
+    claim: '“Guide thee with mine eye” rendered “counsel you with my eye upon you”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2032&version=NRSVUE'
+    quote: 'I will counsel you with my eye upon you.'
+  - where: 'section 5 plain'
+    claim: 'The last clause of verse 9 rendered so that the unbridled animal does not come near'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2032&version=NRSVUE'
+    quote: 'else it will not stay near you.'
+
+  # ---- note 32:0 ----
+  - where: 'note 32:0 “Maschil, and the verb of verse 8”'
+    claim: 'The title word is maskil (Strong’s 4905)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מַ֫שְׂכִּ֥יל'
+  - where: 'note 32:0 “Maschil, and the verb of verse 8”'
+    claim: '“I will instruct thee” in verse 8 is a form of the verb sakal (Strong’s 7919), on the same consonants'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַשְׂכִּֽילְ/ךָ֨'
+  - where: 'note 32:0 “Maschil, and the verb of verse 8”'
+    claim: 'The word stands in the titles of thirteen psalms, of which 32 is the first; the first explanation is “contemplative poem,” referred to the verb’s causative stem'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4905.htm'
+    quote: 'noun masculine contemplative poem (Hiph`il 2. De and others); — in titles of Psalm 32; Psalm 42; Psalm 44; Psalm 45; Psalm 52; Psalm 53; Psalm 54; Psalm 55; Psalm 74; Psalm 78; Psalm 88; Psalm 89; Psalm 142'
+  - where: 'note 32:0 “Maschil, and the verb of verse 8”'
+    claim: 'A second explanation is “didactic poem”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4905.htm'
+    quote: 'Ges and others didactic poem'
+  - where: 'note 32:0 “Maschil, and the verb of verse 8”'
+    claim: 'A third explanation is “skilful, artistic song”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4905.htm'
+    quote: 'Ew Ri Pe and others skilful, artistic song'
+  - where: 'note 32:0 “Maschil, and the verb of verse 8”'
+    claim: 'The lexicon judges that the first sense alone fits all cases'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4905.htm'
+    quote: '2 alone fits all cases.'
+  - where: 'note 32:0 “Maschil, and the verb of verse 8”'
+    claim: 'Some titles appear to indicate the character of the psalm; Maschil is explained as “giving instruction”'
+    key: bd-psalms
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
+    quote: 'Some of the titles appear to be intended to indicate the character of the Psalm, as Maschil (“giving instruction,” Ps. 32; 42; 44–45; 52–55; 74; 78; and 88–89)'
+  - where: 'note 32:0 “Maschil, and the verb of verse 8”'
+    claim: 'The Greek translation renders the title word “of instruction”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/32.htm'
+    quote: 'A Psalm of instruction by David.'
+  - where: 'note 32:0 “Maschil, and the verb of verse 8”'
+    claim: 'A modern translation leaves the word as a name'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2032&version=NRSVUE'
+    quote: 'Of David. A Maskil.'
+  - where: 'note 32:0 “Maschil, and the verb of verse 8”'
+    claim: 'The verb in verse 8 has the sense “cause to consider, give insight, teach”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7919.htm'
+    quote: 'cause to consider, give insight, teach'
+
+  # ---- note 32:1 ----
+  - where: 'note 32:1 “Three words for sin, three for its removal, and one condition”'
+    claim: '“Transgression” in verse 1 is pesha (Strong’s 6588)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פֶּ֗שַׁע'
+  - where: 'note 32:1 “Three words for sin, three for its removal, and one condition”'
+    claim: '“Sin” in verse 1 is chata’ah (Strong’s 2401)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֲטָאָֽה'
+  - where: 'note 32:1 “Three words for sin, three for its removal, and one condition”'
+    claim: '“Iniquity” in verse 2 is avon (Strong’s 5771)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עָוֺ֑ן'
+  - where: 'note 32:1 “Three words for sin, three for its removal, and one condition”'
+    claim: 'One older reading distinguishes the three nouns for sin'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/32.htm'
+    quote: 'as being a breaking loose or tearing away from God'
+  - where: 'note 32:1 “Three words for sin, three for its removal, and one condition”'
+    claim: 'The second and third nouns as that reading defines them'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/32.htm'
+    quote: 'as a deviation from that which is well-pleasing to God'
+  - where: 'note 32:1 “Three words for sin, three for its removal, and one condition”'
+    claim: 'The third noun defined'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/32.htm'
+    quote: 'as a perversion, distortion, misdeed'
+  - where: 'note 32:1 “Three words for sin, three for its removal, and one condition”'
+    claim: 'The third noun can mean iniquity, its guilt, or its punishment'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5771.htm'
+    quote: 'iniquity, guilt, or punishment of iniquity'
+  - where: 'note 32:1 “Three words for sin, three for its removal, and one condition”'
+    claim: 'Forgiveness in the first verb is pictured as lifting up and taking away'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/32.htm'
+    quote: 'as a lifting up and taking away'
+  - where: 'note 32:1 “Three words for sin, three for its removal, and one condition”'
+    claim: '“Covered” means covered by God, who puts the sin out of sight'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3680.htm'
+    quote: 'covered in respect of sin (by God, which he thus puts out of sight)'
+  - where: 'note 32:1 “Three words for sin, three for its removal, and one condition”'
+    claim: '“Imputeth” is a verb of reckoning'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2803.htm'
+    quote: 'impute, reckon'
+  - where: 'note 32:1 “Three words for sin, three for its removal, and one condition”'
+    claim: 'The Hebrew noun behind “guile” means deceit or treachery, and in this verse deception'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7423.htm'
+    quote: 'noun feminine deceit, treachery'
+  - where: 'note 32:1 “Three words for sin, three for its removal, and one condition”'
+    claim: 'The lexicon gives “deception” for this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7423.htm'
+    quote: 'deception Psalm 32:2'
+  - where: 'note 32:1 “Three words for sin, three for its removal, and one condition”'
+    claim: 'On the same older reading the guile is the deceit that hides or excuses a sin'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/32.htm'
+    quote: 'no deceit, which denies and hides, or extenuates and excuses, this or that favourite sin'
+  - where: 'note 32:1 “Three words for sin, three for its removal, and one condition”'
+    claim: 'A modern translation’s cross-references set John 1:47 beside verse 2'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2032&version=NRSVUE'
+    quote: '32.2 : Jn 1.47; 2 Cor 5.19'
+
+  # ---- note 32:2 ----
+  - where: 'note 32:2 “Paul quotes David beside Abraham”'
+    claim: 'Paul introduces the psalm as David’s description of righteousness imputed without works'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/4?lang=eng'
+    quote: 'Even as David also describeth the blessedness of the man, unto whom God imputeth righteousness without works,'
+  - where: 'note 32:2 “Paul quotes David beside Abraham”'
+    claim: 'Paul’s quotation is plural in its first line'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/4?lang=eng'
+    quote: 'Saying, Blessed are they whose iniquities are forgiven, and whose sins are covered.'
+  - where: 'note 32:2 “Paul quotes David beside Abraham”'
+    claim: 'The Greek psalm is plural in its first line, as Paul’s quotation is'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/32.htm'
+    quote: 'Blessed are they whose transgressions are forgiven'
+  - where: 'note 32:2 “Paul quotes David beside Abraham”'
+    claim: 'The verb of Genesis 15:6 (“counted”) and of Psalm 32:2 (“imputeth”) is one Hebrew verb, with the sense impute, reckon'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2803.htm'
+    quote: 'he reckoned to Abram as righteousness Genesis 15:6 (J E; compare Niph`al 3); not impute iniquity to one Psalm 32:2.'
+  - where: 'note 32:2 “Paul quotes David beside Abraham”'
+    claim: 'The sense of the verb in both verses'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2803.htm'
+    quote: 'impute, reckon, with accusative of thing'
+  - where: 'note 32:2 “Paul quotes David beside Abraham”'
+    claim: 'Genesis 15:6 has the verb chashav (Strong’s 2803)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/יַּחְשְׁבֶ֥/הָ'
+  - where: 'note 32:2 “Paul quotes David beside Abraham”'
+    claim: 'Psalm 32:2 has the same verb (Strong’s 2803)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יַחְשֹׁ֬ב'
+
+  # ---- note 32:3 ----
+  - where: 'note 32:3 “What the silence cost him”'
+    claim: 'A modern translation has “groaning” for “roaring”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2032&version=NRSVUE'
+    quote: 'through my groaning all day long.'
+  - where: 'note 32:3 “What the silence cost him”'
+    claim: 'The Hebrew noun behind “moisture” means juice or sap'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3955.htm'
+    quote: 'my juice (sap, life-moisture) is transformed'
+  - where: 'note 32:3 “What the silence cost him”'
+    claim: 'A modern translation marks the line as uncertain'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2032&version=NRSVUE'
+    quote: '32.4 Meaning of Heb uncertain'
+  - where: 'note 32:3 “What the silence cost him”'
+    claim: 'The Greek translators read the second half of verse 4 differently'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/32.htm'
+    quote: 'I became thoroughly miserable while a thorn was fastened in me.'
+  - where: 'note 32:3 “What the silence cost him”'
+    claim: 'Joseph Smith’s revision of verses 3–4, and one study’s reading of it'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'Joseph Smith’s burden of declaring God’s word to so many people comes through in one psalm'
+  - where: 'note 32:3 “What the silence cost him”'
+    claim: 'The words Joseph Smith added after “When I kept silence”'
+    key: lefevre-jst-psalms
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/give-me-right-word-o-lord-jst-changes-psalms'
+    quote: 'my spirit failed within me. When I opened my mouth, my bones waxed old'
+
+  # ---- note 32:5 ----
+  - where: 'note 32:5 “He stopped covering, and God covered”'
+    claim: 'In verse 1 the verb describes the man covered by God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3680.htm'
+    quote: 'covered in respect of sin (by God, which he thus puts out of sight)'
+  - where: 'note 32:5 “He stopped covering, and God covered”'
+    claim: 'In verse 5 the same verb means cover, conceal; the lexicon lists Proverbs 28:13 in the same group'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3680.htm'
+    quote: 'cover transgressions Job 31:33; Proverbs 17:9; Proverbs 28:13; iniquity Psalm 32:5'
+  - where: 'note 32:5 “He stopped covering, and God covered”'
+    claim: 'Verse 5 has the verb of verse 1 (Strong’s 3680)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כִסִּ֗יתִי'
+  - where: 'note 32:5 “He stopped covering, and God covered”'
+    claim: 'Proverbs 28:13 has the same verb (Strong’s 3680)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Prov.xml'
+    quote: 'מְכַסֶּ֣ה'
+  - where: 'note 32:5 “He stopped covering, and God covered”'
+    claim: '“Forgavest” in verse 5 is the verb of “forgiven” in verse 1 (Strong’s 5375)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נָ֘שָׂ֤אתָ'
+  - where: 'note 32:5 “He stopped covering, and God covered”'
+    claim: '“Sin” in verse 5 is chatta’t (Strong’s 2403), a different form from verse 1’s chata’ah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַטָּאתִ֨/י'
+  - where: 'note 32:5 “He stopped covering, and God covered”'
+    claim: 'The verse is cited for confession to God in prayer, with D&C 64:7'
+    key: kimball-confession
+    url: 'https://byustudies.byu.edu/article/confession-in-lds-doctrine-and-practice'
+    quote: 'penitents confess to God in prayer (for example, Ps. 32:5–6; Dan. 9:3–6, 20–23; Alma 17:4; D&C 64:7)'
+  - where: 'note 32:5 “He stopped covering, and God covered”'
+    claim: 'The verse is quoted as an Old Testament example of holding nothing back'
+    key: kimball-confession
+    url: 'https://byustudies.byu.edu/article/confession-in-lds-doctrine-and-practice'
+    quote: 'In making these confessions, the penitent was encouraged to hold back nothing from the Lord.'
+
+  # ---- note 32:6 ----
+  - where: 'note 32:6 “A time of finding”'
+    claim: 'The Hebrew has only “a time of finding”: the noun “time” and the infinitive “to find” (Strong’s 4672)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מְ֫צֹ֥א'
+  - where: 'note 32:6 “A time of finding”'
+    claim: 'A modern translation gives the literal Hebrew in a note and marks its own text as a correction'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2032&version=NRSVUE'
+    quote: '32.6 Cn: Heb at a time of finding only'
+  - where: 'note 32:6 “A time of finding”'
+    claim: 'That translation reads “at a time of distress” and opens the verse with “Therefore”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2032&version=NRSVUE'
+    quote: 'at a time of distress, the rush of mighty waters'
+  - where: 'note 32:6 “A time of finding”'
+    claim: 'The lexicon lists this verse among those where the LORD is the one found'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4672.htm'
+    quote: 'Hosea 5:6; Deuteronomy 4:29; Jeremiah 29:13; Job 23:3; Psalm 32:6'
+  - where: 'note 32:6 “A time of finding”'
+    claim: 'Isaiah 55:6 has the same verb (Strong’s 4672), with the LORD as the one found'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'בְּ/הִמָּצְא֑/וֹ'
+
+  # ---- note 32:8 ----
+  - where: 'note 32:8 “Who is the teacher?”'
+    claim: 'The lexicon lists the verb in this verse with the LORD as its subject'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7919.htm'
+    quote: 'subject, accusative of thing, 1 Chronicles 28:19, accusative of person Psalm 32:8'
+  - where: 'note 32:8 “Who is the teacher?”'
+    claim: 'The argument that the speaker is not the LORD'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/32.htm'
+    quote: 'In this case the person addressed must be the poet, who, however, has already attained the knowledge here treated of.'
+  - where: 'note 32:8 “Who is the teacher?”'
+    claim: 'On that reading David himself takes the teacher’s part, doing what Psalm 51 promised (51:15 in the Hebrew numbering is 51:13 in the King James)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/32.htm'
+    quote: 'It is he himself who now directly adopts the tone of the teacher (cf. Psalm 34:12). That which David, in Psalm 51:15, promises to do, he here takes in hand'
+  - where: 'note 32:8 “Who is the teacher?”'
+    claim: '“Guide” translates the Hebrew verb for advise, counsel (Strong’s 3289)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3289.htm'
+    quote: 'verb advise, counsel (only twice in Hexateuch)'
+  - where: 'note 32:8 “Who is the teacher?”'
+    claim: 'A modern translation of the last clause'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2032&version=NRSVUE'
+    quote: 'I will counsel you with my eye upon you.'
+  - where: 'note 32:8 “Who is the teacher?”'
+    claim: 'The Greek translation of the last clause'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/32.htm'
+    quote: 'I will fix mine eyes upon thee.'
+  - where: 'note 32:8 “Who is the teacher?”'
+    claim: 'The eye is the teacher’s loving interest'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/32.htm'
+    quote: 'fixing my eye upon thee, i.e., with sympathising love taking an interest in thee'
+
+  # ---- note 32:9 ----
+  - where: 'note 32:9 “The mule that will not come”'
+    claim: 'The Greek has the animal kept from coming near'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/32.htm'
+    quote: 'lest they should come nigh to thee.'
+  - where: 'note 32:9 “The mule that will not come”'
+    claim: 'A modern translation has the opposite sense'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2032&version=NRSVUE'
+    quote: 'else it will not stay near you.'
+  - where: 'note 32:9 “The mule that will not come”'
+    claim: 'An older commentary rejects the first sense as not fitting the psalm and renders “otherwise there is no coming near to thee”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/32.htm'
+    quote: 'but this rendering does not produce any point of comparison corresponding to the context of this Psalm. Therefore, it is rather to be rendered: otherwise there is no coming near to thee.'
+  - where: 'note 32:9 “The mule that will not come”'
+    claim: 'That rendering assumes a usage of the language with no other support'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/32.htm'
+    quote: 'according to a usage of the language that is without further support'
+  - where: 'note 32:9 “The mule that will not come”'
+    claim: 'The sense of the verse: willing obedience, not constrained'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/32.htm'
+    quote: 'not constrained, but willing obedience is becoming to man'
+  - where: 'note 32:9 “The mule that will not come”'
+    claim: 'The animal stands for the sinner who will not come to God, as David learned'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/32.htm'
+    quote: 'it is the sinner, who will not come to God, although God only is his help, and who, as David has learned by experience, must first of all endure inward torture, before he comes to a right state of mind'
+  - where: 'note 32:9 “The mule that will not come”'
+    claim: 'The verb “be” in verse 9 is plural (second person masculine plural)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּֽהְי֤וּ'
+  - where: 'note 32:9 “The mule that will not come”'
+    claim: 'The address passes into the plural in verse 9'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/32.htm'
+    quote: 'passes over, in Psalm 32:9, into the plural'
+
+  # ---- note 32:10 ----
+  - where: 'note 32:10 “Mercy on every side”'
+    claim: '“Compass” in verse 10 is the verb of verse 7 (Strong’s 5437)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְסוֹבְבֶֽ/נּוּ'
+  - where: 'note 32:10 “Mercy on every side”'
+    claim: 'Verse 7 has the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תְּס֖וֹבְבֵ֣/נִי'
+  - where: 'note 32:10 “Mercy on every side”'
+    claim: '“Mercy” in verse 10 is hesed (Strong’s 2617)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֶ֝֗סֶד'
+  - where: 'note 32:10 “Mercy on every side”'
+    claim: 'The verb means to encompass with protection, and the lexicon cites verses 10 and 7'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5437.htm'
+    quote: 'encompass (with protection)'
+  - where: 'note 32:10 “Mercy on every side”'
+    claim: '“Godly” in verse 6 is hasid (Strong’s 2623)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חָסִ֨יד'
+  - where: 'note 32:10 “Mercy on every side”'
+    claim: 'Hasid means kind, pious, and denotes the active practice of hesed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2623.htm'
+    quote: 'adjective masculine kind, pious (so, as denoting active practice of'
+
+  # ---- christ, explore ----
+  - where: 'christ'
+    claim: 'Paul carries the argument of Romans 4 to belief in Him who raised Jesus'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/4?lang=eng'
+    quote: 'But for us also, to whom it shall be imputed, if we believe on him that raised up Jesus our Lord from the dead;'
+  - where: 'christ'
+    claim: '2 Corinthians 5:19 is set beside verse 2 in a modern translation’s cross-references'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2032&version=NRSVUE'
+    quote: '32.2 : Jn 1.47; 2 Cor 5.19'
+  - where: 'explore'
+    claim: '“Upright in heart” in Psalm 32:11 has been connected with the Beatitude of Matthew 5:8'
+    key: skinner-beatitudes
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/israels-ancient-psalms'
+    quote: 'other Psalms that speak of the “upright in heart” (Psalms 11:2; 32:11), which some scholars have connected to the Beatitude in Matthew 5:8'
+  - where: 'explore'
+    claim: 'On the older reading Psalm 51 comes from the struggle and Psalm 32 from after it'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/32.htm'
+    quote: 'In the midst of this fearful anguish of soul he composed Psalm 51'
