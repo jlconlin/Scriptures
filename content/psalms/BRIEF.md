@@ -2,7 +2,7 @@
 
 Book-level decisions for Psalms. The site-wide standard is in `STANDARDS.md`; this file records what is particular to Psalms. Writers, checkers, and reviewers read both before starting a psalm. Jeremiah's brief (`content/jeremiah/BRIEF.md`) is the model, and its section “What a chapter is for” holds here.
 
-**Status (2026-10-10):** drafted by the coordinator from the sources named below, each read in the session with the research scripts. The author chose the book (“Let's do the book of Psalms next”) and **has not read this brief**. Where a section says “Proposed,” that is the approach the chapters will follow; it is the coordinator's decision, not a fact from a source, and the author can overturn it. **No psalm is written yet**, and none will be until the author has answered Ps1 and Ps2 in `OPEN-QUESTIONS.md` (how much of the book to write first; how the site shows a psalm's title).
+**Status (2026-10-10):** drafted by the coordinator from the sources named below, each read in the session with the research scripts. The author chose the book (“Let's do the book of Psalms next”) and **has not read this brief**. Where a section says “Proposed,” that is the approach the chapters will follow; it is the coordinator's decision, not a fact from a source, and the author can overturn it. **The first batch is twelve psalms chosen to try this brief** (author, 2026-10-10: “let's try with a batch of 12 and see how far we get”): 1, 2, 3, 8, 22, 23, 24, 51, 82, 110, 137, 150. What follows it is the author's to decide once it has been measured and read. How the site shows a psalm's title is still open (Ps2 in `OPEN-QUESTIONS.md`).
 
 Related files: `OPEN-QUESTIONS.md` at the top of the repository (what waits for the author, for every book); `THEME-CANDIDATES.md` in this folder.
 
@@ -33,6 +33,25 @@ A psalm is not a chapter of a longer argument. Each is a whole poem with its own
 **Shared things are explained once.** A hundred and fifty poems share a small stock of words: selah, the title terms, *hesed*, Sheol, Zion and the holy hill, the horn, the right hand, the wicked and the righteous, the anointed. Each is explained once, at the place this brief names, and every other psalm points there with a `[[reference]]`. This matters more here than in any book so far: without it the same note will be written forty times. `check-content psalms --repeats` after each batch shows what crept in.
 
 **Short psalms get short chapters.** Psalm 117 has two verses, 131 and 133 and 134 three each. `setting` may fall under the checker's 120 words for these, and the warning is ignored; two or three notes is a full chapter. Don't pad. Psalm 119 (176 verses) is the other extreme: one section to a stanza of eight verses, and notes on what a reader asks (the eight words for the law, the acrostic, the lines everyone knows), not on every stanza.
+
+## The first batch
+
+Psalms 1, 2, 3, 8, 22, 23, 24, 51, 82, 110, 137 and 150, written out of order and at the same time, so no writer can see another's chapter. Where this brief says a thing is explained “once, at its first appearance,” in this batch that means:
+
+| Explained in full at | What | The others in the batch |
+|---|---|---|
+| Psalm 1 | how Hebrew verse works (the second half of a line answering the first); that Psalms 1 and 2 open the collection; when the book was gathered | point to `[[Ps. 1:1]]` |
+| Psalm 2 | “his anointed” (the word behind Messiah) and what a royal psalm is | 110 points to `[[Ps. 2:2]]` |
+| Psalm 3 | selah (3:2); what a title is and what it is worth, in `setting` | say nothing of selah; a title's occasion in a sentence |
+| Psalm 8 | “To the chief Musician” and Gittith, in `setting`; *Elohim* in 8:5 | 82 points to `[[Ps. 8:5]]` for the word and gives its own council |
+| Psalm 22 | the shape of a lament (address, complaint, plea, vow of praise) | 3, 51 and 137 use the word “lament” without re-explaining |
+| Psalm 24 | ascending the hill of the Lord; the temple in the Psalms | 23:6 and 150:1 point to `[[Ps. 24:3]]` |
+| Psalm 51 | David after Nathan; *hesed* (51:1), with President Nelson quoted once | 23:6 points to `[[Ps. 51:1]]` |
+| Psalm 110 | LORD and Lord (110:1); Melchizedek | 2 and 8 point to `[[Ps. 110:1]]` |
+| Psalm 137 | the cursing psalms | 3:7 and 110:5–6 point to `[[Ps. 137:8]]` in a clause if the reader would ask |
+| Psalm 150 | hallelujah; the five books and their closing lines of praise | Psalm 1 says only that there are five |
+
+A pointer is written to the verse named here even though that psalm's note may end up on a neighboring verse; the coordinator mends pointers after the batch.
 
 ## Divisions
 
