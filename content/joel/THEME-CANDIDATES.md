@@ -1,6 +1,13 @@
 # Joel: theme candidates
 
-Topics that run across the book and might become theme pages (`STANDARDS.md` §8). **The author has selected none**; nothing here is developed until the author says so. With three chapters, most of what recurs is better carried by one note and two pointers than by a page.
+Topics that run across the book and might become theme pages (`STANDARDS.md` §8). The author selected the two arcs below on 2026-10-10, after comparing the candidates with the finished chapters. Neither page has been written.
+
+## Author's selection (2026-10-10)
+
+1. **The overflowing vats — selected.** Wine is lost in 1:5, 10; full vats are a gift in 2:24; in 3:13 the same Hebrew noun and verb describe vats overflowing because of the nations' wickedness; new wine returns in 3:18. Follow the image from loss to blessing to judgment to final abundance. The page should make the change in what fills the vats clear, and follow the judgment toward Christ through the scriptural passages that name Him as Judge (including Rev. 14:14–20), without treating the vineyard and the winepress as one event.
+2. **The two calls to “sanctify” — selected.** The same Hebrew verb calls Judah to set apart a fast and congregation (1:14; 2:15–16), then calls the nations to consecrate war (3:9). Test whether these opposing gatherings make an arc through the Lord's judgment and His refuge for His people (3:12, 16), and whether scripture supports its connection to Christ strongly enough for a page. Keep the fast and the war distinct; the repeated verb alone is not the theme.
+
+The day of the Lord and what the locust ate and the Lord restored remain useful threads, but were not selected as separate pages. The reported ideas below are research leads, not additional assignments.
 
 ## Noticed while setting up (2026-10-09; not yet tested against the chapters)
 
