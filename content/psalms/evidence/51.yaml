@@ -1,0 +1,690 @@
+chapter: 51
+claims:
+  # ---- when / setting ----
+  - where: 'when'
+    claim: 'The psalm’s title, as the Church’s edition prints it above the psalm'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/51?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David, when Nathan the prophet came unto him, after he had gone in to Bath-sheba.'
+  - where: 'setting'
+    claim: 'The title'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/51?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David, when Nathan the prophet came unto him, after he had gone in to Bath-sheba.'
+  - where: 'setting'
+    claim: 'The psalm is attributed to David and believed to have been written sometime after Nathan’s rebuke'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'Psalm 51 is attributed to David. It is believed to have been written sometime after Nathan rebuked David for his sin against Bathsheba and the arranged death of her husband, Uriah.'
+  - where: 'setting'
+    claim: 'The story: David lay with Bathsheba, she conceived, and he arranged Uriah’s death (chapter heading of 2 Samuel 11)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/11?lang=eng'
+    quote: 'David lies with Bathsheba, and she conceives'
+  - where: 'setting'
+    claim: 'David took her as his wife, and the thing displeased the Lord (2 Sam. 11:27)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/11?lang=eng'
+    quote: 'David sent and fetched her to his house, and she became his wife, and bare him a son. But the thing that David had done displeased the Lord.'
+  - where: 'setting'
+    claim: 'Uriah is “the Hittite,” and Nathan charges David with killing him and taking his wife (2 Sam. 12:9)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/12?lang=eng'
+    quote: 'thou hast killed Uriah the Hittite with the sword, and hast taken his wife to be thy wife'
+  - where: 'setting'
+    claim: 'Nathan’s parable of the poor man’s one ewe lamb (2 Sam. 12:3 and the chapter heading)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/12?lang=eng'
+    quote: 'But the poor man had nothing, save one little ewe lamb'
+  - where: 'setting'
+    claim: 'David passes sentence on the rich man before Nathan names him (2 Sam. 12:5)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/12?lang=eng'
+    quote: 'the man that hath done this thing shall surely die'
+  - where: 'setting'
+    claim: 'In the Hebrew title Nathan’s coming is the verb bo (H935), an infinitive'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּֽ/בוֹא'
+  - where: 'setting'
+    claim: 'David’s going in to Bathsheba is the same verb bo (H935) in the title'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בָּ֝֗א'
+  - where: 'setting'
+    claim: 'Psalm 51 is known as a penitential psalm, a psalm of repentance'
+    key: sc-knowhy-325
+    url: 'https://scripturecentral.org/knowhy/why-did-lehi-quote-from-a-psalm-of-repentance-in-his-dream'
+    quote: 'Psalm 51 is known as a penitential psalm, a psalm of repentance, and is traditionally associated with King David’s plea to God for mercy and forgiveness after the Bathsheba incident'
+  - where: 'setting'
+    claim: 'Psalm 32 is tied to the same fall'
+    key: bd-david
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/david?lang=eng'
+    quote: 'David’s fall gave occasion to Ps. 51 and 32.'
+  - where: 'setting'
+    claim: 'Paul quotes verse 4 (Rom. 3:4)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/3?lang=eng'
+    quote: 'as it is written, That thou mightest be justified in thy sayings, and mightest overcome when thou art judged.'
+  - where: 'setting'
+    claim: 'Lehi prays the words of verse 1 in his dream'
+    key: sc-knowhy-325
+    url: 'https://scripturecentral.org/knowhy/why-did-lehi-quote-from-a-psalm-of-repentance-in-his-dream'
+    quote: 'Psalm 51:1 from the Old Testament is very similar to this prayer of Lehi.'
+  - where: 'setting'
+    claim: 'The risen Lord asks the offering of verse 17 of all (3 Ne. 9:20)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/9?lang=eng'
+    quote: 'And ye shall offer for a sacrifice unto me a broken heart and a contrite spirit.'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: '“Blot out” (machah, H4229) is in verse 1 and again closes verse 9: hebrew.mjs psalms --word 4229 lists Ps 51:1 and 51:9; this is the form in verse 9'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מְחֵֽה'
+  - where: 'thread'
+    claim: '“Wash” (kabas, H3526) of verse 2 returns in verse 7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תְּ֝כַבְּסֵ֗/נִי'
+  - where: 'thread'
+    claim: 'The first part closes by returning to the language of the opening'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/51.htm'
+    quote: 'Here the first part of the Psalm closes; the close recurs to the language of the opening'
+  - where: 'thread'
+    claim: 'The prayer for forgiveness is followed by a prayer for renewing, beginning at verse 10'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/51.htm'
+    quote: 'In the second part, the prayer for justification is followed by the prayer for renewing.'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: '“Lovingkindness” as steadfast love and “tender mercies” as abundant mercy; “throughly” as thoroughly'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2051&version=NRSVUE'
+    quote: 'according to your steadfast love;'
+  - where: 'section 2 plain'
+    claim: '“Acknowledge” is “know”; “justified when thou speakest”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2051&version=NRSVUE'
+    quote: '3 For I know my transgressions,'
+  - where: 'section 3 plain'
+    claim: 'The bones God has “broken” are bones He has crushed'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2051&version=NRSVUE'
+    quote: 'let the bones that you have crushed rejoice.'
+  - where: 'section 4 plain'
+    claim: '“Presence” is the word for face (panim, H6440)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִ/לְּ/פָנֶ֑י/ךָ'
+  - where: 'section 4 plain'
+    claim: '“Free spirit” is a willing spirit; “right” is steadfast'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2051&version=NRSVUE'
+    quote: 'and sustain in me a willing spirit.'
+  - where: 'section 5 plain'
+    claim: '“Bloodguiltiness” is the guilt of bloodshed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1818.htm'
+    quote: 'guilt of bloodshed, blood-guiltiness'
+  - where: 'section 5 plain'
+    claim: '“Converted” is “return” (shub); a contrite heart is a crushed one'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2051&version=NRSVUE'
+    quote: 'and sinners will return to you.'
+  - where: 'section 5 plain'
+    claim: '“Contrite” (dakah, niphal) is be crushed, broken'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1794.htm'
+    quote: 'be crushed, broken, of physical distress'
+
+  # ---- note 51:1 ----
+  - where: 'note 51:1 “Hesed, the ground of the plea”'
+    claim: '“Lovingkindness” in verse 1 is hesed (H2617)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כְּ/חַסְדֶּ֑/ךָ'
+  - where: 'note 51:1 “Hesed, the ground of the plea”'
+    claim: 'President Nelson: hesed is the covenantal love'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'Hesed is a special kind of love and mercy that God feels for and extends to those who have made a covenant with Him.'
+  - where: 'note 51:1 “Hesed, the ground of the plea”'
+    claim: 'President Nelson: because of hesed God forgives those who repent and helps those who stray'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'He will forgive them when they repent. And should they stray, He will help them find their way back to Him.'
+  - where: 'note 51:1 “Hesed, the ground of the plea”'
+    claim: 'President Nelson calls hesed covenantal love'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'In the Hebrew language, that covenantal love is called hesed'
+  - where: 'note 51:1 “Hesed, the ground of the plea”'
+    claim: 'The lexicon lists Ps 51:1 (Hebrew 51:3) under God’s hesed in redemption from sin'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2617.htm'
+    quote: 'in redemption from sin Psalm 25:7; Psalm 51:3.'
+  - where: 'note 51:1 “Hesed, the ground of the plea”'
+    claim: 'The lexicon lists 2 Sam. 7:15 under God’s hesed in keeping covenant with David and his dynasty'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2617.htm'
+    quote: 'with David and his dynasty 2 Samuel 7:15'
+  - where: 'note 51:1 “Hesed, the ground of the plea”'
+    claim: '“My mercy” in 2 Sam. 7:15 is hesed (H2617)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/2Sam.xml'
+    quote: 'וְ/חַסְדִּ֖/י'
+  - where: 'note 51:1 “Hesed, the ground of the plea”'
+    claim: 'The promise of 2 Samuel 7 came to David through Nathan (chapter heading; verses 4 and 17)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/7?lang=eng'
+    quote: 'According to all these words, and according to all this vision, so did Nathan speak unto David.'
+  - where: 'note 51:1 “Hesed, the ground of the plea”'
+    claim: '“Tender mercies” is rachamim (H7356), a different word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רַ֝חֲמֶ֗י/ךָ'
+  - where: 'note 51:1 “Hesed, the ground of the plea”'
+    claim: 'Rachamim is compassion, usually God’s'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7356.htm'
+    quote: 'compassion: usually of God'
+  - where: 'note 51:1 “Hesed, the ground of the plea”'
+    claim: '1 Ne. 8:8 and Ps. 51:1 are the only verses that join the plea for mercy to “the multitude of … tender mercies”'
+    key: sc-knowhy-325
+    url: 'https://scripturecentral.org/knowhy/why-did-lehi-quote-from-a-psalm-of-repentance-in-his-dream'
+    quote: 'these two passages are the only ones which contain in the same verse both “have mercy upon/on me” and “according unto the multitude of thy/his tender mercies.”'
+  - where: 'note 51:1 “Hesed, the ground of the plea”'
+    claim: 'It seems very likely that Lehi or Nephi had Psalm 51 in mind'
+    key: sc-knowhy-325
+    url: 'https://scripturecentral.org/knowhy/why-did-lehi-quote-from-a-psalm-of-repentance-in-his-dream'
+    quote: 'It seems very likely that either Lehi, in his retelling of his dream, or Nephi, in his abridgment of his father’s record, had Psalm 51 in mind.'
+  - where: 'note 51:1 “Hesed, the ground of the plea”'
+    claim: 'Lehi’s dream places the prayer in a dark and dreary waste'
+    key: sc-knowhy-325
+    url: 'https://scripturecentral.org/knowhy/why-did-lehi-quote-from-a-psalm-of-repentance-in-his-dream'
+    quote: 'he suddenly found himself “in a dark and dreary waste” (1 Nephi 8:7)'
+
+  # ---- note 51:2 ----
+  - where: 'note 51:2 “Three pictures of one request”'
+    claim: '“Blot out”: transgressions no more remembered by God against the sinner'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4229.htm'
+    quote: 'transgressions (פשׁע; no more remembered by God against sinner) Psalm 51:3'
+  - where: 'note 51:2 “Three pictures of one request”'
+    claim: '“Blot out” is to obliterate from the memory'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4229.htm'
+    quote: 'blot out = obliterate from the memory'
+  - where: 'note 51:2 “Three pictures of one request”'
+    claim: '“Wash” (kabas) is ordinarily to wash garments by treading; the participle is a fuller'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3526.htm'
+    quote: 'wash garments (i.e. by treading)'
+  - where: 'note 51:2 “Three pictures of one request”'
+    claim: 'Kabas of washing a person is only in poetry and figurative, with Ps. 51:2 and 51:7 (Hebrew 51:4, 9)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3526.htm'
+    quote: 'wash person, only in poetry and figurative'
+  - where: 'note 51:2 “Three pictures of one request”'
+    claim: 'The participle of kabas is a fuller'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3526.htm'
+    quote: 'Participle = fuller'
+  - where: 'note 51:2 “Three pictures of one request”'
+    claim: '“Cleanse” (taher) is the verb for being made clean from all sins by the Day of Atonement sin offering (Lev. 16:30); the same entry lists Ps. 51:2 (Hebrew 51:4)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2891.htm'
+    quote: 'Leviticus 16:30 (P; by the sin-offering of the atonement day)'
+  - where: 'note 51:2 “Three pictures of one request”'
+    claim: '“Wash” in verse 2 is kabas (H3526)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כַּבְּסֵ֣/נִי'
+  - where: 'note 51:2 “Three pictures of one request”'
+    claim: '“Cleanse” in verse 2 is taher (H2891), which returns as “I shall be clean” in verse 7 (hebrew.mjs psalms --word 2891 lists Ps 51:2 and 51:7)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'טַהֲרֵֽ/נִי'
+  - where: 'note 51:2 “Three pictures of one request”'
+    claim: '“Blot out” returns at the end of verse 9 (H4229)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מְחֵֽה'
+  - where: 'note 51:2 “Three pictures of one request”'
+    claim: '“Throughly” is thoroughly'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2051&version=NRSVUE'
+    quote: '2 Wash me thoroughly from my iniquity,'
+
+  # ---- note 51:4 ----
+  - where: 'note 51:4 “Against thee only, with Uriah dead”'
+    claim: '“Sinned” in Ps. 51:4 is chata (H2398), first person'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חָטָאתִי֮'
+  - where: 'note 51:4 “Against thee only, with Uriah dead”'
+    claim: 'David’s “I have sinned” in 2 Sam. 12:13 is the same verb and form'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/2Sam.xml'
+    quote: 'חָטָ֖אתִי'
+  - where: 'note 51:4 “Against thee only, with Uriah dead”'
+    claim: 'Nathan’s charge in 2 Sam. 12:9, “to do evil in his sight,” has “the evil” (ha-ra, H7451) with “do” (H6213) and “in the eyes of” (H5869)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/2Sam.xml'
+    quote: 'הָ/רַע֮'
+  - where: 'note 51:4 “Against thee only, with Uriah dead”'
+    claim: 'Ps. 51:4 has the same three words: “the evil” (H7451), “in thy eyes” (H5869), “I have done” (H6213)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/עֵינֶ֗י/ךָ'
+  - where: 'note 51:4 “Against thee only, with Uriah dead”'
+    claim: 'The lexicon lists 2 Sam. 12:13 and Ps. 51:4 (Hebrew 51:6) together as confessions, “I have sinned against”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2398.htm'
+    quote: '2 Samuel 12:13 Psalm 41:5; Psalm 51:6'
+  - where: 'note 51:4 “Against thee only, with Uriah dead”'
+    claim: 'One reading: true consciousness of sin sees all sin, in its ultimate ground, as against God alone'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/51.htm'
+    quote: 'directly as sin against God, and in its ultimate ground as sin against Him alone'
+  - where: 'note 51:4 “Against thee only, with Uriah dead”'
+    claim: 'Because every human relation is the form of the relation to God, the sole Lawgiver and Judge'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/51.htm'
+    quote: 'it is contradiction to the will of God, the sole and highest Lawgiver and Judge'
+  - where: 'note 51:4 “Against thee only, with Uriah dead”'
+    claim: 'The confession aims at God’s being shown just in His sentence, as David says Amen to Nathan’s'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/51.htm'
+    quote: 'he must himself say Amen to the divine sentence, just as David does to that passed upon him by Nathan'
+  - where: 'note 51:4 “Against thee only, with Uriah dead”'
+    claim: 'Paul’s wording in Rom. 3:4 is that of the Greek translation of the psalm'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/51.htm'
+    quote: 'that thou mightest be justified in thy sayings, and mightest overcome when thou art judged.'
+  - where: 'note 51:4 “Against thee only, with Uriah dead”'
+    claim: 'Rom. 3:4: God true, every man a liar, with the quotation'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/3?lang=eng'
+    quote: 'God forbid: yea, let God be true, but every man a liar; as it is written, That thou mightest be justified in thy sayings, and mightest overcome when thou art judged.'
+  - where: 'note 51:4 “Against thee only, with Uriah dead”'
+    claim: 'Joseph speaks of sin with his master’s wife as sin against God (Gen. 39:9)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/39?lang=eng'
+    quote: 'because thou art his wife: how then can I do this great wickedness, and sin against God?'
+
+  # ---- note 51:7 ----
+  - where: 'note 51:7 “Hyssop, the leper, and the touch of the dead”'
+    claim: 'Hyssop was a kind of wild marjoram, used at Passover, for sprinkling in the purification of lepers, and in the red heifer rite'
+    key: bd-hyssop
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hyssop?lang=eng'
+    quote: 'A kind of wild marjoram, used at the Passover (Ex. 12:22); for sprinkling purposes in the purification of lepers (Lev. 14:4, 51) and in the sacrifice of the red heifer'
+  - where: 'note 51:7 “Hyssop, the leper, and the touch of the dead”'
+    claim: 'Hyssop is a little plant; a bunch of it sprinkled blood on the doorposts'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/231.htm'
+    quote: 'a bunch of h. for sprinkling blood on doorposts'
+  - where: 'note 51:7 “Hyssop, the leper, and the touch of the dead”'
+    claim: '“Hyssop” in verse 7 is ezob (H231)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְ/אֵז֣וֹב'
+  - where: 'note 51:7 “Hyssop, the leper, and the touch of the dead”'
+    claim: '“Purge” is the verb chata, to sin (H2398), in the piel'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תְּחַטְּאֵ֣/נִי'
+  - where: 'note 51:7 “Hyssop, the leper, and the touch of the dead”'
+    claim: 'In that form the verb means to purify from uncleanness; the lexicon lists the leper’s house, the red heifer rite, and Ps. 51:7 (Hebrew 51:9) together'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2398.htm'
+    quote: 'the house of the leper by application of the mixture of living water and blood of the bird Leviticus 14:49,52 (P); a person, by application of then mixture of living water and ashes of the red heifer Numbers 19:19 (P), by sprinkling with a hyssop spring Psalm 51:9.'
+  - where: 'note 51:7 “Hyssop, the leper, and the touch of the dead”'
+    claim: 'In Num. 19:18 a clean person does the sprinkling with hyssop'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/19?lang=eng'
+    quote: 'And a clean person shall take hyssop, and dip it in the water, and sprinkle it upon the tent'
+  - where: 'note 51:7 “Hyssop, the leper, and the touch of the dead”'
+    claim: 'In the leper’s rite the priest uses the hyssop (Lev. 14:6, 51)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/14?lang=eng'
+    quote: 'he shall take it, and the cedar wood, and the scarlet, and the hyssop, and shall dip them and the living bird in the blood of the bird that was killed over the running water'
+  - where: 'note 51:7 “Hyssop, the leper, and the touch of the dead”'
+    claim: 'David had killed Uriah (2 Sam. 12:9)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/12?lang=eng'
+    quote: 'thou hast killed Uriah the Hittite with the sword'
+
+  # ---- note 51:10 ----
+  - where: 'note 51:10 “Create is the verb of Genesis 1”'
+    claim: '“Create” in verse 10 is bara (H1254), imperative'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּרָא'
+  - where: 'note 51:10 “Create is the verb of Genesis 1”'
+    claim: 'Bara is the verb of Gen. 1:1 and is used always of divine activity'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1254.htm'
+    quote: 'Qal Perfect Genesis 1:1 19t.'
+  - where: 'note 51:10 “Create is the verb of Genesis 1”'
+    claim: 'Bara is always of divine activity'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1254.htm'
+    quote: 'shape, fashion, create, always of divine activity'
+  - where: 'note 51:10 “Create is the verb of Genesis 1”'
+    claim: 'The lexicon places Ps. 51:10 (Hebrew 51:12) under transformations, beside the new heaven and earth in place of the old'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1254.htm'
+    quote: 'of transformations: a clean heart Psalm 51:12 ("" חִדֵּשׁ); new heaven and earth Isaiah 65:17 (in place of old)'
+  - where: 'note 51:10 “Create is the verb of Genesis 1”'
+    claim: '“Right” spirit is a steadfast spirit'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2051&version=NRSVUE'
+    quote: '51.10 Or steadfast'
+  - where: 'note 51:10 “Create is the verb of Genesis 1”'
+    claim: 'Ezek. 36:26 promises Israel a new heart and spirit (the chapter is of the gathering of all the house of Israel)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/36?lang=eng'
+    quote: 'A new heart also will I give you, and a new spirit will I put within you'
+
+  # ---- note 51:11 ----
+  - where: 'note 51:11 “The Spirit that came on David and departed from Saul”'
+    claim: 'The Spirit came on David at his anointing and departed from Saul (1 Sam. 16:13–14)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/16?lang=eng'
+    quote: 'But the Spirit of the Lord departed from Saul, and an evil spirit from the Lord troubled him.'
+  - where: 'note 51:11 “The Spirit that came on David and departed from Saul”'
+    claim: 'David was at Saul’s court and then a fugitive from him'
+    key: bd-david
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/david?lang=eng'
+    quote: '(2) at court (1 Sam. 18:1–19:18) (see Jonathan); (3) as a fugitive (1 Sam. 19:18–31:13; 2 Sam. 1)'
+  - where: 'note 51:11 “The Spirit that came on David and departed from Saul”'
+    claim: 'One reading: David fears being rejected as Saul was'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/51.htm'
+    quote: 'If Jahve should reject David as He rejected Saul, this would be the extreme manifestation of anger'
+  - where: 'note 51:11 “The Spirit that came on David and departed from Saul”'
+    claim: 'The Spirit he fears to lose is that which came on him at his anointing'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/51.htm'
+    quote: 'The Holy Spirit is none other than that which came upon him by means of the anointing, 1 Samuel 16:13.'
+  - where: 'note 51:11 “The Spirit that came on David and departed from Saul”'
+    claim: '“Holy spirit” is “spirit of thy holiness”: ruach (H7307) with qodesh (H6944) and the suffix “thy”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קָ֝דְשְׁ/ךָ֗'
+  - where: 'note 51:11 “The Spirit that came on David and departed from Saul”'
+    claim: 'The lexicon sets Ps. 51:11 (Hebrew 51:13) beside Isa. 63:10–11'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7307.htm'
+    quote: 'Isaiah 63:10,11'
+  - where: 'note 51:11 “The Spirit that came on David and departed from Saul”'
+    claim: 'Isa. 63:10–11 is of Israel in the days of Moses'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/63?lang=eng'
+    quote: 'But they rebelled, and vexed his holy Spirit'
+  - where: 'note 51:11 “The Spirit that came on David and departed from Saul”'
+    claim: '“Presence” in verse 11 is panim, face (H6440)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִ/לְּ/פָנֶ֑י/ךָ'
+  - where: 'note 51:11 “The Spirit that came on David and departed from Saul”'
+    claim: '“Thy face” in verse 9 is the same word (H6440)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פָּ֭נֶי/ךָ'
+
+  # ---- note 51:12 ----
+  - where: 'note 51:12 “A willing spirit”'
+    claim: '“Free” is nedivah (H5081), an adjective with no suffix; “spirit” in the phrase (H7307) has none either (hebrew.mjs prints both without a pronoun suffix)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נְדִיבָ֣ה'
+  - where: 'note 51:12 “A willing spirit”'
+    claim: 'The adjective means inclined, generous, noble'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5081.htm'
+    quote: 'inclined, Generous, noble'
+  - where: 'note 51:12 “A willing spirit”'
+    claim: 'The lexicon renders the phrase in Ps. 51:12 (Hebrew 51:14) “a willing spirit”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5081.htm'
+    quote: 'Psalm 51:14 a willing spirit.'
+  - where: 'note 51:12 “A willing spirit”'
+    claim: 'A modern translation: “sustain in me a willing spirit”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2051&version=NRSVUE'
+    quote: 'and sustain in me a willing spirit.'
+  - where: 'note 51:12 “A willing spirit”'
+    claim: 'The lexicon lists the right (steadfast) spirit of verse 10 and the willing spirit of verse 12 together as uses of “spirit” for the human will'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7307.htm'
+    quote: 'rarely of the will'
+
+  # ---- note 51:14 ----
+  - where: 'note 51:14 “Bloodguiltiness, and what became of David”'
+    claim: '“Bloodguiltiness” is dam, blood (H1818), in the plural'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִ/דָּמִ֨ים'
+  - where: 'note 51:14 “Bloodguiltiness, and what became of David”'
+    claim: 'The plural means guilt of bloodshed; Ps. 51:14 (Hebrew 51:16) is listed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1818.htm'
+    quote: 'guilt of bloodshed, blood-guiltiness'
+  - where: 'note 51:14 “Bloodguiltiness, and what became of David”'
+    claim: 'David could find forgiveness except in the murder of Uriah; he received a promise that his soul would not be left in hell'
+    key: bd-david
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/david?lang=eng'
+    quote: 'he was capable of true contrition and was therefore able to find forgiveness, except in the murder of Uriah. As a consequence David is still unforgiven, but he received a promise that the Lord would not leave his soul in hell.'
+  - where: 'note 51:14 “Bloodguiltiness, and what became of David”'
+    claim: 'The Church’s current study help says the same of this psalm: forgiveness except for the murder of Uriah'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'David recognized that he could be forgiven of his sins, except for the murder of Uriah, because of the Lord’s hesed'
+  - where: 'note 51:14 “Bloodguiltiness, and what became of David”'
+    claim: 'Joseph Smith (10 March 1844, Wilford Woodruff’s report): David sought repentance carefully with tears, could get it only through hell, and had a promise that his soul would not be left there'
+    key: jsp-discourse-1844-03-10
+    url: 'https://www.josephsmithpapers.org/paper-summary/discourse-10-march-1844-as-reported-by-wilford-woodruff/6'
+    quote: 'David sought repentance at the hand of God carefully with tears but he could ownly get it through Hell, he got a promise that his soul should not be left in Hell'
+  - where: 'note 51:14 “Bloodguiltiness, and what became of David”'
+    claim: 'Peter reads Ps. 16:10 of the resurrection of Christ (Acts 2:27, 31)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/2?lang=eng'
+    quote: 'He seeing this before spake of the resurrection of Christ, that his soul was not left in hell, neither his flesh did see corruption.'
+  - where: 'note 51:14 “Bloodguiltiness, and what became of David”'
+    claim: 'Nathan: the sin put away, yet the sword never to depart (2 Sam. 12:10, 13)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/12?lang=eng'
+    quote: 'Now therefore the sword shall never depart from thine house'
+
+  # ---- note 51:16 ----
+  - where: 'note 51:16 “What God desires, three times”'
+    claim: '“Desirest” in verse 6 is chaphets (H2654); hebrew.mjs psalms --word 2654 lists Ps 51:6, 51:16 and 51:19'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חָפַ֣צְתָּ'
+  - where: 'note 51:16 “What God desires, three times”'
+    claim: '“Desirest” in verse 16 is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תַחְפֹּ֣ץ'
+  - where: 'note 51:16 “What God desires, three times”'
+    claim: '“Be pleased with” in verse 19 is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תַּחְפֹּ֣ץ'
+  - where: 'note 51:16 “What God desires, three times”'
+    claim: 'The lexicon lists Ps. 40:6 with 51:16 and 51:19 (Hebrew 40:7; 51:18, 21) under delighting in sacrifice, and 51:6 (Hebrew 51:8) under truth'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2654.htm'
+    quote: 'Psalm 40:7; Psalm 51:18,21'
+  - where: 'note 51:16 “What God desires, three times”'
+    claim: 'The spiritual sacrifice was what was truly important, beside the animal offerings'
+    key: sc-knowhy-27
+    url: 'https://scripturecentral.org/knowhy/was-the-requirement-of-a-broken-heart-known-before-the-time-of-christ'
+    quote: 'it demonstrates that the more spiritual type of sacrifice was what was truly important'
+  - where: 'note 51:18 “Why a confession ends with Jerusalem’s walls”'
+    claim: 'The psalm comes back in its last verses to material sacrifices offered in a right state of mind'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/51.htm'
+    quote: 'comes back to the material sacrifices that are offered in a right state of mind'
+
+  # ---- note 51:17 ----
+  - where: 'note 51:17 “The crushed heart, from David to the Savior’s command”'
+    claim: '“Contrite” in verse 17 is dakah (H1794), niphal'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/נִדְכֶּ֑ה'
+  - where: 'note 51:17 “The crushed heart, from David to the Savior’s command”'
+    claim: '“Hast broken” in verse 8 is the same verb (H1794), piel'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'דִּכִּֽיתָ'
+  - where: 'note 51:17 “The crushed heart, from David to the Savior’s command”'
+    claim: 'The lexicon: in verse 8 (Hebrew 51:10) the verb is crush to pieces, of the bones; in verse 17 be contrite'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1794.htm'
+    quote: 'crush to pieces, object reference to עצמות, in metaphor Psalm 51:10'
+  - where: 'note 51:17 “The crushed heart, from David to the Savior’s command”'
+    claim: '“Despise” in verse 17 is bazah (H959)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִבְזֶֽה'
+  - where: 'note 51:17 “The crushed heart, from David to the Savior’s command”'
+    claim: '“Thou hast despised me” in 2 Sam. 12:10 is the same verb (H959), as is “despised” in 12:9'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/2Sam.xml'
+    quote: 'בְזִתָ֔/נִי'
+  - where: 'note 51:17 “The crushed heart, from David to the Savior’s command”'
+    claim: 'The lexicon lists 2 Sam. 12:9, 12:10 and Ps. 51:17 (Hebrew 51:19) as forms of the one verb'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/959.htm'
+    quote: '2 Samuel 12:9; suffix בְּזִתָ֑נִי 2 Samuel 12:10'
+  - where: 'note 51:17 “The crushed heart, from David to the Savior’s command”'
+    claim: 'The four words come together in the Bible only in Ps. 34:18 and 51:17'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: 'within the Bible, the four words broken, heart, contrite, and spirit only appear together in Psalms 34:18 and 51:17'
+  - where: 'note 51:17 “The crushed heart, from David to the Savior’s command”'
+    claim: 'Such psalms may have been on the plates of brass'
+    key: sc-knowhy-198
+    url: 'https://scripturecentral.org/knowhy/why-did-jesus-tell-all-people-to-sacrifice-a-broken-heart-and-a-contrite-spirit'
+    quote: 'the teaching can be found in the Old Testament, especially in the Psalms, and thus may have been included on the plates of brass that Lehi’s family obtained in Jerusalem'
+  - where: 'note 51:17 “The crushed heart, from David to the Savior’s command”'
+    claim: 'Nephite prophets understood the requirement long before the command of 3 Nephi 9, while under the law of sacrifice'
+    key: sc-knowhy-198
+    url: 'https://scripturecentral.org/knowhy/why-did-jesus-tell-all-people-to-sacrifice-a-broken-heart-and-a-contrite-spirit'
+    quote: 'was an essential part of the law of sacrifice long before Christ gave commands in this regard in 3 Nephi 9'
+  - where: 'note 51:17 “The crushed heart, from David to the Savior’s command”'
+    claim: 'The Lord did away with animal sacrifice and kept the broken heart and contrite spirit'
+    key: sc-knowhy-198
+    url: 'https://scripturecentral.org/knowhy/why-did-jesus-tell-all-people-to-sacrifice-a-broken-heart-and-a-contrite-spirit'
+    quote: 'the Lord did away with the animal sacrifice after the law of Moses was fulfilled'
+  - where: 'note 51:17 “The crushed heart, from David to the Savior’s command”'
+    claim: '3 Nephi 9 is the voice of Christ in the darkness (chapter heading)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/9?lang=eng'
+    quote: 'In the darkness, the voice of Christ proclaims'
+  - where: 'note 51:17 “The crushed heart, from David to the Savior’s command”'
+    claim: 'D&C 59:8 gives the command in this dispensation'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/59?lang=eng'
+    quote: 'Thou shalt offer a sacrifice unto the Lord thy God in righteousness, even that of a broken heart and a contrite spirit.'
+  - where: 'note 51:17 “The crushed heart, from David to the Savior’s command”'
+    claim: 'Elder Maxwell on what real, personal sacrifice is'
+    key: maxwell-deny-yourselves
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1995/04/deny-yourselves-of-all-ungodliness?lang=eng'
+    quote: 'So it is that real, personal sacrifice never was placing an animal on the altar. Instead, it is a willingness to put the animal in us upon the altar and letting it be consumed!'
+
+  # ---- note 51:18 ----
+  - where: 'note 51:18 “Why a confession ends with Jerusalem’s walls”'
+    claim: 'The words suit the exiles in Babylon, whose way back lay through penitence; the supposition of a later liturgical addition is very natural'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/51.htm'
+    quote: 'Through penitence the way of the exiles led back to Jerusalem. The supposition is very natural that vv. 20f. may be a liturgical addition made by the church of the Exile.'
+  - where: 'note 51:18 “Why a confession ends with Jerusalem’s walls”'
+    claim: 'The same commentator holds the prayer possible for David: “build” can mean to finish what is being built'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/51.htm'
+    quote: 'is not inadmissible in the mouth of David; since בּנה signifies not merely to build up what has been thrown down, but also to go on and finish building what is in the act of being built'
+  - where: 'note 51:18 “Why a confession ends with Jerusalem’s walls”'
+    claim: 'David’s prayer passes into intercession for all Israel'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/51.htm'
+    quote: "David's prayer for himself here passes over into an intercession on behalf of all Israel"
+  - where: 'note 51:18 “Why a confession ends with Jerusalem’s walls”'
+    claim: 'He concludes that the close is not a later addition'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/51.htm'
+    quote: 'is not the mere addition of a later age'
+  - where: 'note 51:18 “Why a confession ends with Jerusalem’s walls”'
+    claim: 'A modern translation reads “rebuild the walls”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2051&version=NRSVUE'
+    quote: 'rebuild the walls of Jerusalem;'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'Peter preaches in the temple that sins may be blotted out (Acts 3:19 and the chapter heading)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/3?lang=eng'
+    quote: 'Repent ye therefore, and be converted, that your sins may be blotted out'
+  - where: 'christ'
+    claim: 'The Messiah offers Himself a sacrifice for sin to those of a broken heart (2 Ne. 2:7)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng'
+    quote: 'Behold, he offereth himself a sacrifice for sin, to answer the ends of the law, unto all those who have a broken heart and a contrite spirit'
+  - where: 'christ'
+    claim: 'The whole law points to the great and last sacrifice, the Son of God (Alma 34:14)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=eng'
+    quote: 'this is the whole meaning of the law, every whit pointing to that great and last sacrifice; and that great and last sacrifice will be the Son of God'
+  - where: 'christ'
+    claim: 'The Hebrew word for “contrite” is treated as the same word as “bruised” in Isa. 53:5, 10 (the manual’s endnote cites lexicon entries 1792 and 1794 together)'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'The same Hebrew word is translated as “beat … to pieces” in Isaiah 3:15 and “bruised” and “bruise” in Isaiah 53:5, 10.'
+  - where: 'christ'
+    claim: '“Bruised” in Isa. 53:5 is daka (H1792), spelled with a final aleph where Ps. 51:17 has dakah (H1794)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'מְדֻכָּ֖א'
+  - where: 'christ'
+    claim: '“Contrite” in Ps. 51:17 (H1794)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/נִדְכֶּ֑ה'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'Psalm 32 is tied to the same occasion'
+    key: bd-david
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/david?lang=eng'
+    quote: 'David’s fall gave occasion to Ps. 51 and 32.'
+  - where: 'explore'
+    claim: 'Psalm 32 speaks of sin confessed and forgiven (32:5)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/32?lang=eng'
+    quote: 'I said, I will confess my transgressions unto the Lord; and thou forgavest the iniquity of my sin.'
+  - where: 'explore'
+    claim: 'KnoWhy #325 lays out the words Psalm 51:7–8 shares with 1 Nephi 8:10–12'
+    key: sc-knowhy-325
+    url: 'https://scripturecentral.org/knowhy/why-did-lehi-quote-from-a-psalm-of-repentance-in-his-dream'
+    quote: 'Psalm 51:7–8 contains words and phrases such as “whiter than snow,” “joy,” “gladness,” and “rejoice.”'
+
+  # ---- parallels ----
+  - where: 'parallels'
+    claim: 'Rom. 3:4 quotes verse 4 in the wording of the Greek translation'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/51.htm'
+    quote: 'that thou mightest be justified in thy sayings, and mightest overcome when thou art judged.'
+  - where: 'parallels'
+    claim: '1 Ne. 8:8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/8?lang=eng'
+    quote: 'I began to pray unto the Lord that he would have mercy on me, according to the multitude of his tender mercies.'
