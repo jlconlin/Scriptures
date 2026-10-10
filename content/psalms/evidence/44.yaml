@@ -1,0 +1,362 @@
+chapter: 44
+claims:
+  # ---------- when ----------
+  - where: when
+    claim: 'The title gives the psalm to the sons of Korah and names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/44?lang=eng'
+    quote: 'To the chief Musician for the sons of Korah, Maschil.'
+
+  # ---------- setting ----------
+  - where: setting
+    claim: 'Psalm 44 follows Psalms 42–43 as a second Korahite psalm'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/44.htm'
+    quote: 'with its counterpart Psalm 43:1-5, if followed by a second, to which a place is here assigned by manifold accords with Psalm 42-43'
+  - where: setting
+    claim: 'The divine name (H3068) does not occur in Psalm 44; hebrew.mjs psalms 44:1-26 shows Elohim (H430) and El (H410) throughout, e.g. the first word of verse 1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֱלֹהִ֤ים'
+  - where: setting
+    claim: '“Lord” in verse 23 is the title adonai (H136), not the divine name'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲדֹנָ֑/י'
+  - where: setting
+    claim: 'Laments, Psalm 44 among those listed, likely arose from crises when the community gathered to sacrifice and pray'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'These likely arose from times of national or personal crisis, when the community gathered (at the temple, if possible) in order to offer sacrifice and pray for deliverance: 12, 22, 23, 44, 60'
+  - where: setting
+    claim: 'The psalm has been placed in the time of the Maccabees'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/44.htm'
+    quote: 'There is even a tradition that it was a stated lamentation Psalm of the time of the Maccabees.'
+  - where: setting
+    claim: 'The same commentator weighs other dates and comes back to the time of David'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/44.htm'
+    quote: 'Thus we seem consequently driven back to the time of David'
+  - where: setting
+    claim: 'One older reading calls Psalm 44 the twin of Psalm 60'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/44.htm'
+    quote: 'whether the Psalm does not admit, with Psalm 60:1-12, with which it forms a twin couple, of being understood as the offspring of a similar situation'
+  - where: setting
+    claim: 'The line of verse 9 (Hebrew verse 10) recurs almost word for word in Psalm 60'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/44.htm'
+    quote: 'in which Psalm Psa 44:10 recurs almost word for word'
+  - where: setting
+    claim: 'The title of Psalm 60 gives it to David at war'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/60?lang=eng'
+    quote: 'Michtam of David, to teach; when he strove with Aram-naharaim and with Aram-zobah'
+  - where: thread
+    claim: 'The usual elements of a lament, whose order can be rearranged'
+    key: sc-knowhy-438
+    url: 'https://scripturecentral.org/knowhy/why-do-biblical-psalms-of-lament-show-up-in-the-book-of-mormon'
+    quote: 'although the order can be rearranged: (1) invocation, (2) complaint, (3) confession of trust, (4) petition, and (5) vow of praise'
+  - where: thread
+    claim: 'The last word of the psalm in Hebrew is hesed (H2617) with “thy”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַסְדֶּֽ/ךָ'
+
+  # ---------- sections ----------
+  - where: 'section 1 plain'
+    claim: 'Verse 2: the fathers are the ones planted and set free'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2044&version=NRSVUE'
+    quote: 'but them you planted;'
+  - where: 'section 3 plain'
+    claim: 'Verse 9 “rejected”; verse 12 “for a trifle”; verse 13 “taunt”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2044&version=NRSVUE'
+    quote: 'You have sold your people for a trifle,'
+  - where: 'section 4 plain'
+    claim: 'Verse 19: a haunt of jackals and deep darkness'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2044&version=NRSVUE'
+    quote: 'yet you have broken us in the haunt of jackals'
+  - where: 'section 4 plain'
+    claim: 'Verse 22: “because of you”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2044&version=NRSVUE'
+    quote: 'Because of you we are being killed all day long'
+  - where: 'section 5 plain'
+    claim: 'Verses 23–26: rouse yourself; our bodies cling to the ground; steadfast love'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2044&version=NRSVUE'
+    quote: 'Redeem us for the sake of your steadfast love.'
+
+  # ---------- note 44:0 ----------
+  - where: 'note 44:0 “The title’s terms”'
+    claim: 'The Greek translation renders Maschil “a Psalm for instruction”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/44.htm'
+    quote: 'For the end, a Psalm for instruction, for the sons of Core.'
+  - where: 'note 44:0 “The title’s terms”'
+    claim: 'The verb “cast off” of Psalm 43:2 and of Psalm 44:9 (Hebrew 44:10) is the same, zanach'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2186.htm'
+    quote: 'זָנַחְתָּ Psalm 44:10 2t.; suffix זְנַחְתָּ֑נִי Psalm 43:2'
+
+  # ---------- note 44:2 ----------
+  - where: 'note 44:2 “Both halves of the verse end with the fathers”'
+    claim: 'The Hebrew of verse 2: “planted them” and “sent them out” (shalach, piel), each with the suffix “them”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַֽ/תְּשַׁלְּחֵֽ/ם'
+  - where: 'note 44:2 “Both halves of the verse end with the fathers”'
+    claim: 'A modern translation makes both “them” the fathers: planted, and set free'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2044&version=NRSVUE'
+    quote: 'you with your own hand drove out the nations, but them you planted; you afflicted the peoples, but them you set free;'
+  - where: 'note 44:2 “Both halves of the verse end with the fathers”'
+    claim: 'The verb is used of a tree shooting forth branches, as in Psalm 80:11 (Hebrew 80:12)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7971.htm'
+    quote: 'shoot forth branches, Jeremiah 17:8; Psalm 80:12; Ezekiel 31:5'
+  - where: 'note 44:2 “Both halves of the verse end with the fathers”'
+    claim: 'One reading: the planting figure is carried on in the verb, “to make wide-branching”, after Exodus 15:17'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/44.htm'
+    quote: 'for this word means to send forth far away, to make wide-branching, a figure which is wrought up in Psalm 80'
+  - where: 'note 44:2 “Both halves of the verse end with the fathers”'
+    claim: 'The same reading takes the planting figure from Exodus 15:17'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/44.htm'
+    quote: 'after Exodus 15:17'
+  - where: 'note 44:2 “Both halves of the verse end with the fathers”'
+    claim: 'Psalm 80:11 uses the same verb (H7971) for the vine sending out its boughs'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תְּשַׁלַּ֣ח'
+  - where: 'note 44:2 “Both halves of the verse end with the fathers”'
+    claim: 'Psalm 80:8, the vine brought out of Egypt and planted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/80?lang=eng'
+    quote: 'Thou hast brought a vine out of Egypt: thou hast cast out the heathen, and planted it.'
+
+  # ---------- note 44:3 ----------
+  - where: 'note 44:3 “The face that shone, and is now hidden”'
+    claim: '“Countenance” in verse 3 is the Hebrew word for face (panim, H6440)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פָּנֶ֗י/ךָ'
+  - where: 'note 44:3 “The face that shone, and is now hidden”'
+    claim: 'The same word is “thy face” in verse 24 (Hebrew 44:25)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פָנֶ֥י/ךָ'
+  - where: 'note 44:3 “The face that shone, and is now hidden”'
+    claim: 'The same word is “my face” in verse 15 (Hebrew 44:16)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פָּנַ֣/י'
+
+  # ---------- note 44:9 ----------
+  - where: 'note 44:9 “The turn at verse 9”'
+    claim: 'The first word of verse 9 (Hebrew 44:10) is the particle aph (H637), followed by the verb zanach'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַף'
+  - where: 'note 44:9 “The turn at verse 9”'
+    claim: 'A modern translation renders it “Yet”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2044&version=NRSVUE'
+    quote: 'Yet you have rejected us and shamed us'
+  - where: 'note 44:9 “The turn at verse 9”'
+    claim: 'The verb means reject, spurn, and is the verb of verse 23 (Hebrew 44:24)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2186.htm'
+    quote: 'זָנַח verb reject, spurn'
+  - where: 'note 44:12 “Sold, and for nothing”'
+    claim: 'The verb “sell” in verse 12 is makar (H4376)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּמְכֹּֽר'
+  - where: 'note 44:12 “Sold, and for nothing”'
+    claim: 'The same verb (H4376) in Deuteronomy 32:30'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'מְכָרָ֔/ם'
+  - where: 'note 44:12 “Sold, and for nothing”'
+    claim: 'The same verb (H4376) in Judges 2:14'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Judg.xml'
+    quote: 'וַֽ/יִּמְכְּרֵ֞/ם'
+  - where: 'note 44:12 “Sold, and for nothing”'
+    claim: 'In Judges the LORD sells Israel into the hands of enemies when they serve other gods'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/2?lang=eng'
+    quote: 'he sold them into the hands of their enemies round about'
+  - where: 'note 44:12 “Sold, and for nothing”'
+    claim: 'A modern translation: “for a trifle”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2044&version=NRSVUE'
+    quote: 'You have sold your people for a trifle,'
+  - where: 'note 44:17 “A people who say they have kept the covenant”'
+    claim: 'Of the psalms nearest akin to it (60, 80, 89), Psalm 44 alone claims innocence'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/44.htm'
+    quote: 'but they do not contain any like expression of consciousness of innocence, a feature in which Psalm 44 has no equal.'
+  - where: 'note 44:17 “A people who say they have kept the covenant”'
+    claim: 'The psalms compared are 60, 80 and 89, called nearest akin to Psalm 44'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/44.htm'
+    quote: 'Psalm 80 by Asaph, and Psalm 89 by Ethan, are nearest akin to it'
+  - where: 'note 44:17 “A people who say they have kept the covenant”'
+    claim: 'One older reading compares the psalm with Job'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/44.htm'
+    quote: 'it is like the national mirroring of the Book of Job'
+  - where: 'note 44:17 “A people who say they have kept the covenant”'
+    claim: 'On that reading the affliction is not punishment'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/44.htm'
+    quote: 'Israel''s affliction, which could not possibly be of a punitive character, resembles the affliction of Job'
+  - where: 'note 44:17 “A people who say they have kept the covenant”'
+    claim: 'The same reading: the psalmist does not deny individual sins, only a national apostasy'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/44.htm'
+    quote: 'The writer certainly cannot mean to disown the sins of individuals, nor even this or that transgression of the whole people.'
+
+  # ---------- note 44:19 ----------
+  - where: 'note 44:19 “A haunt of jackals”'
+    claim: 'Two Hebrew words are rendered dragon; in many passages, Jeremiah 9:11 among them, a jackal is meant'
+    key: bd-dragon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/dragon?lang=eng'
+    quote: 'Two Hebrew words are thus rendered though they are sometimes translated whale, serpent, jackal, or sea-monster.'
+  - where: 'note 44:19 “A haunt of jackals”'
+    claim: 'The entry lists Jeremiah 9:11 among the jackal passages'
+    key: bd-dragon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/dragon?lang=eng'
+    quote: 'A jackal in Job 30:29; Isa. 13:22; 27:1; 34:13; 35:7; 43:20; 51:9; Jer. 9:11'
+  - where: 'note 44:19 “A haunt of jackals”'
+    claim: 'A modern translation: “the haunt of jackals” and “deep darkness”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2044&version=NRSVUE'
+    quote: 'yet you have broken us in the haunt of jackals'
+  - where: 'note 44:19 “A haunt of jackals”'
+    claim: 'The same translation renders “shadow of death” as “deep darkness”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2044&version=NRSVUE'
+    quote: 'and covered us with deep darkness.'
+  - where: 'note 44:19 “A haunt of jackals”'
+    claim: 'Jeremiah 9:11: a den of dragons is a city without an inhabitant'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/9?lang=eng'
+    quote: 'And I will make Jerusalem heaps, and a den of dragons; and I will make the cities of Judah desolate, without an inhabitant.'
+
+  # ---------- note 44:22 ----------
+  - where: 'note 44:22 “Paul quotes the complaint and answers it”'
+    claim: 'Paul quotes Psalm 44:22 in Romans 8:36'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/8?lang=eng'
+    quote: 'As it is written, For thy sake we are killed all the day long; we are accounted as sheep for the slaughter.'
+  - where: 'note 44:22 “Paul quotes the complaint and answers it”'
+    claim: '“For thy sake” is “because of you” in a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2044&version=NRSVUE'
+    quote: 'Because of you we are being killed all day long'
+  - where: 'note 44:22 “Paul quotes the complaint and answers it”'
+    claim: 'The Hebrew is the preposition “upon, on account of” with “thee”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עָ֭לֶי/ךָ'
+
+  # ---------- note 44:23 ----------
+  - where: 'note 44:23 “Does God sleep?”'
+    claim: 'The verb “sleep” in verse 23 is yashen (H3462)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִישַׁ֥ן'
+  - where: 'note 44:23 “Does God sleep?”'
+    claim: 'Psalm 121:4 uses the same verb (H3462) for “sleep”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִישָׁ֑ן'
+  - where: 'note 44:23 “Does God sleep?”'
+    claim: 'One reading of the figure'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/44.htm'
+    quote: 'God is said to sleep when He does not interpose in whatever is taking place in the outward world here below'
+  - where: 'note 44:23 “Does God sleep?”'
+    claim: 'A Jewish tradition of Levites who cried this verse daily and were called wakers'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/44.htm'
+    quote: 'The Levites daily ascended the pulpit'
+  - where: 'note 44:23 “Does God sleep?”'
+    claim: 'They were called “wakers”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/44.htm'
+    quote: '(wakers). It is related in B. Sota 48a of Jochanan the high priest'
+  - where: 'note 44:23 “Does God sleep?”'
+    claim: 'The high priest stopped them, citing Psalm 121:4'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/44.htm'
+    quote: 'Doth the Deity sleep? Hath not the Scripture said: Behold the Keeper of Israel slumbereth not and sleepeth not!?'
+  - where: 'note 44:23 “Does God sleep?”'
+    claim: 'In the tradition the high priest allows the cry only for a time when Israel is in distress and the nations at rest'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/44.htm'
+    quote: 'Only in a time when Israel was in distress and the peoples of the world in rest and prosperity'
+  - where: 'note 44:23 “Does God sleep?”'
+    claim: '“Lord” in verse 23 is adonai with the suffix “my” (H136)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲדֹנָ֑/י'
+
+  # ---------- note 44:26 ----------
+  - where: 'note 44:26 “The last word is God’s steadfast love”'
+    claim: 'The last word of the psalm is hesed (H2617) with “thy”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַסְדֶּֽ/ךָ'
+  - where: 'note 44:26 “The last word is God’s steadfast love”'
+    claim: 'A modern translation: “for the sake of your steadfast love”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2044&version=NRSVUE'
+    quote: 'Redeem us for the sake of your steadfast love.'
+  - where: 'note 44:26 “The last word is God’s steadfast love”'
+    claim: 'The Greek translation reads “for thy name’s sake”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/44.htm'
+    quote: 'Arise, O Lord, help us, and redeem us for thy name''s sake.'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'Romans 8:37 follows the quotation'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/8?lang=eng'
+    quote: 'Nay, in all these things we are more than conquerors through him that loved us.'
+
+  # ---------- explore ----------
+  - where: explore
+    claim: 'One older reading calls Psalm 60 the twin of Psalm 44'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/44.htm'
+    quote: 'with Psalm 60:1-12, with which it forms a twin couple'
+  - where: explore
+    claim: 'Lamentations 3:31 has the same verb, zanach, with “for ever”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2186.htm'
+    quote: 'לעולם Lamentations 3:31'
+  - where: explore
+    claim: 'A modern translation’s cross-references set Isaiah 53:7 beside verse 22'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2044&version=NRSVUE'
+    quote: '44.22 : Isa 53.7; Rom 8.36'
+  - where: parallels
+    claim: 'Psalm 121:4 has the verb of Psalm 44:23 (H3462)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִישָׁ֑ן'
+  - where: parallels
+    claim: 'Lamentations 3:31 has the verb of Psalm 44:9 and 23'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2186.htm'
+    quote: 'לעולם Lamentations 3:31'
