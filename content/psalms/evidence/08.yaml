@@ -1,0 +1,351 @@
+chapter: 8
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/8?lang=eng'
+    quote: 'To the chief Musician upon Gittith, A Psalm of David.'
+  - where: setting
+    claim: 'The wording of the title in the King James Version'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/8?lang=eng'
+    quote: 'To the chief Musician upon Gittith, A Psalm of David.'
+  - where: setting
+    claim: 'The verb behind “chief Musician” is used of acting as overseer or director'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5329.htm'
+    quote: 'Piel = act as overseer, superintendent, director, only Chronicles and Psalm-titles'
+  - where: setting
+    claim: 'Gittith is in the titles of Psalms 8, 81 and 84, is glossed “belonging to Gath,” and may be a melody or an instrument'
+    key: bd-psalms
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
+    quote: 'Gittith (“belonging to Gath,” Ps. 8; 81; 84) may relate either to the melody or to the instrument used in the performance.'
+  - where: setting
+    claim: 'The Greek title has “concerning the wine-presses” where the Hebrew has Gittith'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/8.htm'
+    quote: 'For the end, concerning the wine-presses, a Psalm of David.'
+  - where: setting
+    claim: 'The lexicon records the Greek reading “wine-presses” as a different word from Gittith'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1665.htm'
+    quote: 'wine-presses, whence Bae and others at the wine-presses'
+  - where: setting
+    claim: 'Psalm 8 is a hymn of praise and a creation psalm, quoted several times in the New Testament'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalm 8 is an important psalm that is quoted numerous times in the New Testament. It is seen as a messianic psalm and is considered a hymn of praise as well as a Creation psalm'
+  - where: setting
+    claim: 'The Church’s chapter heading calls it a messianic psalm of David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/8?lang=eng'
+    quote: 'A messianic psalm of David'
+  - where: setting
+    claim: 'Hebrews 2 quotes Psalm 8:4–6'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/2?lang=eng'
+    quote: 'But one in a certain place testified, saying, What is man, that thou art mindful of him? or the son of man, that thou visitest him?'
+  - where: setting
+    claim: 'Ephesians 1:22 uses the words of Psalm 8:6 of Christ'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/eph/1?lang=eng'
+    quote: 'And hath put all things under his feet, and gave him to be the head over all things to the church,'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'A modern translation begins verse 5 with “Yet” where the King James has “For”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%208&version=NRSVUE'
+    quote: 'Yet you have made them a little lower than God'
+  - where: thread
+    claim: 'The list of creatures answers to the dominion of Genesis 1:26'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Compare this with God’s own declaration in the Creation: “God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea” (Genesis 1:26).'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: '“Excellent” rendered “majestic”; “ordained strength” as established strength'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%208&version=NRSVUE'
+    quote: 'how majestic is your name in all the earth!'
+  - where: section 2 plain
+    claim: '“Mindful” is remember; “visitest” is attend to'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6485.htm'
+    quote: 'pay attention to, observe (with care, practical interest)'
+  - where: section 3 plain
+    claim: '“A little lower than God” is the more accurate translation of verse 5'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'Therefore, a more accurate translation would be that human beings were made “a little lower than God.”'
+  - where: section 3 plain
+    claim: 'Verse 5 begins “Yet” in a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%208&version=NRSVUE'
+    quote: 'Yet you have made them a little lower than God'
+
+  # ---------- note 8:1 ----------
+  - where: 'note 8:1 “The name and the title”'
+    claim: 'The first word of the verse is the divine name'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְהוָ֤ה'
+  - where: 'note 8:1 “The name and the title”'
+    claim: 'The second word is a different word, with a first-person plural suffix (“our”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲדֹנֵ֗י/נוּ'
+  - where: 'note 8:1 “The name and the title”'
+    claim: 'The address can be rendered “Jehovah our Lord”'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: '“Jehovah our Lord” is praised for His mighty works in the Creation, next to which humankind seems so insignificant.'
+  - where: 'note 8:1 “The name and the title”'
+    claim: 'A modern translation renders “excellent” as “majestic”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%208&version=NRSVUE'
+    quote: 'how majestic is your name in all the earth!'
+
+  # ---------- note 8:2 ----------
+  - where: 'note 8:2 “Strength in the psalm, praise in the Savior’s quotation”'
+    claim: 'The Hebrew of verse 2 is “founded strength, or a stronghold”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5797.htm'
+    quote: 'out of the mouth of babes . . . thou hast founded strength, or a stronghold (for thy defence'
+  - where: 'note 8:2 “Strength in the psalm, praise in the Savior’s quotation”'
+    claim: 'The verb in verse 2 means establish (the Hebrew verse number is 8:3)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3245.htm'
+    quote: '2 establish Psalm 8:3 followed by'
+  - where: 'note 8:2 “Strength in the psalm, praise in the Savior’s quotation”'
+    claim: 'The Greek translation has “perfected praise”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/8.htm'
+    quote: 'Out of the mouth of babes and sucklings hast thou perfected praise'
+  - where: 'note 8:2 “Strength in the psalm, praise in the Savior’s quotation”'
+    claim: 'A modern translation: “founded a bulwark”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%208&version=NRSVUE'
+    quote: 'you have founded a bulwark because of your foes'
+  - where: 'note 8:2 “Strength in the psalm, praise in the Savior’s quotation”'
+    claim: 'Matthew 21 is the chapter of the cleansing of the temple'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/21?lang=eng'
+    quote: 'He cleanses the temple'
+  - where: 'note 8:2 “Strength in the psalm, praise in the Savior’s quotation”'
+    claim: 'Jesus quotes verse 2 with “perfected praise”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/21?lang=eng'
+    quote: 'have ye never read, Out of the mouth of babes and sucklings thou hast perfected praise?'
+  - where: 'note 8:2 “Strength in the psalm, praise in the Savior’s quotation”'
+    claim: 'One reading: the strength is the power of children’s confession, pictured as a fortress'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/8.htm'
+    quote: 'might, or victorious power, which God creates for Himself out of the mouths of children that confess Him'
+  - where: 'note 8:2 “Strength in the psalm, praise in the Savior’s quotation”'
+    claim: 'The same reading pictures the strength as a fortress'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/8.htm'
+    quote: 'a fortress, refuge, bulwark, fortification'
+  - where: 'note 8:2 “Strength in the psalm, praise in the Savior’s quotation”'
+    claim: 'The same reading: God uses weak instruments to make His name glorious on earth'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/8.htm'
+    quote: 'It is by obscure and naturally feeble instruments that He makes His name glorious here below'
+
+  # ---------- note 8:4 ----------
+  - where: 'note 8:4 “Son of man means a human being here”'
+    claim: 'The first half of verse 4 has one Hebrew word for man'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֱנ֥וֹשׁ'
+  - where: 'note 8:4 “Son of man means a human being here”'
+    claim: 'The second half has a different word (adam) after “son of”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אָ֝דָ֗ם'
+  - where: 'note 8:4 “Son of man means a human being here”'
+    claim: 'A modern translation renders “man” as “humans”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%208&version=NRSVUE'
+    quote: 'what are humans that you are mindful of them,'
+  - where: 'note 8:4 “Son of man means a human being here”'
+    claim: 'A modern translation renders “son of man” as “mortals”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%208&version=NRSVUE'
+    quote: 'mortals that you care for them?'
+  - where: 'note 8:4 “Son of man means a human being here”'
+    claim: '“Art mindful of him” is more literally “dost remember him”'
+    key: sperry-psalm-8
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1972/02/a-note-on-psalm-8-4-6?lang=eng'
+    quote: 'may be translated somewhat more literally (not more beautifully) in this way: “What is man, that thou dost remember him?”'
+  - where: 'note 8:4 “Son of man means a human being here”'
+    claim: 'The verb behind “visitest” is to pay attention to, observe with care'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6485.htm'
+    quote: 'pay attention to, observe (with care, practical interest)'
+  - where: 'note 8:4 “Son of man means a human being here”'
+    claim: 'The lexicon cites this verse (Hebrew 8:5) under that sense, “with providence”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6485.htm'
+    quote: 'Psalm 8:5 (with providence'
+  - where: 'note 8:4 “Son of man means a human being here”'
+    claim: 'Job asks the same question as a complaint'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/7?lang=eng'
+    quote: 'And that thou shouldest visit him every morning, and try him every moment?'
+  - where: 'note 8:4 “Son of man means a human being here”'
+    claim: 'Psalm 144 asks the question and answers with the brevity of life'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/144?lang=eng'
+    quote: 'Lord, what is man, that thou takest knowledge of him! or the son of man, that thou makest account of him!'
+
+  # ---------- note 8:5 ----------
+  - where: 'note 8:5 “The word behind angels is Elohim”'
+    claim: 'The Hebrew of verse 5 has Elohim (with the preposition “from”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מֵ/אֱלֹהִ֑ים'
+  - where: 'note 8:5 “The word behind angels is Elohim”'
+    claim: 'The lexicon renders the clause “make him lack little of God”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2637.htm'
+    quote: 'and thou didst make him lack little of God'
+  - where: 'note 8:5 “The word behind angels is Elohim”'
+    claim: 'Elohim can be rendered God or gods'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'the Hebrew word translated here as “angels” is elohim, which can also be rendered as “God” or “gods.”'
+  - where: 'note 8:5 “The word behind angels is Elohim”'
+    claim: 'The lexicon lists a use of Elohim for rulers and judges'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/430.htm'
+    quote: 'rulers, judges, either as divine representatives at sacred places or as reflecting divine majesty and power'
+  - where: 'note 8:5 “The word behind angels is Elohim”'
+    claim: 'The lexicon lists a use of Elohim for angels'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/430.htm'
+    quote: 'c. angels Psalm'
+  - where: 'note 8:5 “The word behind angels is Elohim”'
+    claim: 'The lexicon places this verse (Hebrew 8:6) under “divine ones,” and records that the Greek has angels and the Revised Version and most moderns God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/430.htm'
+    quote: 'divine ones, superhuman beings including God and angels Psalm 8:6 (De Che Br; but angels ᵐ5 ᵑ6 ᵑ7 Ew; God, RV and most moderns)'
+  - where: 'note 8:5 “The word behind angels is Elohim”'
+    claim: 'The Greek translation reads “angels”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/8.htm'
+    quote: 'Thou madest him a little less than angels'
+  - where: 'note 8:5 “The word behind angels is Elohim”'
+    claim: 'Hebrews quotes the psalm with “angels”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/2?lang=eng'
+    quote: 'Thou madest him a little lower than the angels; thou crownedst him with glory and honour'
+  - where: 'note 8:5 “The word behind angels is Elohim”'
+    claim: 'The Greek translation of the Psalms was made in the centuries before Christ, and “angels” first appears there'
+    key: sperry-psalm-8
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1972/02/a-note-on-psalm-8-4-6?lang=eng'
+    quote: 'The translation “angels” seems first to have appeared in the Septuagint (Greek) Version of the Psalms, which was completed sometime between 250 and 150 B.C.'
+  - where: 'note 8:5 “The word behind angels is Elohim”'
+    claim: 'One account: the word passed from the Greek through Hebrews and the Latin into the King James Version'
+    key: sperry-psalm-8
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1972/02/a-note-on-psalm-8-4-6?lang=eng'
+    quote: 'And in time the word “angels” passed into Latin versions of Psalm 8:5 [Ps. 8:5] and thence into the King James Version.'
+  - where: 'note 8:5 “The word behind angels is Elohim”'
+    claim: 'The same account supposes the Greek translators could not accept the doctrine of the line'
+    key: sperry-psalm-8
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1972/02/a-note-on-psalm-8-4-6?lang=eng'
+    quote: 'Apparently the Septuagint translators couldn’t stomach theologically the bold Hebrew doctrine that man was made a “little less than the gods”'
+  - where: 'note 8:5 “The word behind angels is Elohim”'
+    claim: 'Scripture Helps (endnote 19): the wording of the King James and other translations may have come from translators’ hesitancy'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'may have occurred because of hesitancy among translators to associate mankind with God'
+  - where: 'note 8:5 “The word behind angels is Elohim”'
+    claim: 'Scripture Helps: Elohim is a name for God, and “a little lower than God” is more accurate'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'the Hebrew word translated as “angels” is Elohim, which is a name for God. Therefore, a more accurate translation would be that human beings were made “a little lower than God.”'
+  - where: 'note 8:5 “The word behind angels is Elohim”'
+    claim: 'Scripture Helps reads the verse with the teaching that God’s children can become like Him'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'As children of God, we have the potential to become like Him.'
+  - where: 'note 8:5 “The word behind angels is Elohim”'
+    claim: 'A modern translation prints “a little lower than God”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%208&version=NRSVUE'
+    quote: 'Yet you have made them a little lower than God'
+  - where: 'note 8:5 “The word behind angels is Elohim”'
+    claim: 'The reading “lower than God” fits verse 6 and Genesis 1:26'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'verse 5 may be saying that humans were created to be only a little lower than God, which makes sense in conjunction with verse 6'
+  - where: 'note 8:5 “The word behind angels is Elohim”'
+    claim: 'The lexicon cites Psalm 82:1 and 82:6 in its discussion of who the elohim are'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/430.htm'
+    quote: 'Psalm 82:1; Psalm 82:6 (De Ew Pe; but angels Bl Hup)'
+
+  # ---------- note 8:6 dominion ----------
+  - where: 'note 8:6 “Genesis 1 sung back to God”'
+    claim: 'Verses 5–6 are compared with God’s declaration in Genesis 1:26'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Compare this with God’s own declaration in the Creation: “God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea” (Genesis 1:26).'
+  - where: 'note 8:6 “Genesis 1 sung back to God”'
+    claim: 'Genesis 1:26 names fish, fowl, and cattle in that order'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng'
+    quote: 'let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle'
+
+  # ---------- note 8:6 under his feet ----------
+  - where: 'note 8:6 “Not yet true of us, already true of Jesus”'
+    claim: 'Hebrews says the psalm is not yet seen fulfilled, and then points to Jesus'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/2?lang=eng'
+    quote: 'But now we see not yet all things put under him.'
+  - where: 'note 8:6 “Not yet true of us, already true of Jesus”'
+    claim: 'Hebrews takes “son of man” as Jesus, made lower when He came to earth'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Hebrews 2 takes the “son of man” from Psalm 8:4 as a reference to Jesus, “who was made a little lower than the angels” when he condescended to come to earth “for the suffering of death,”'
+  - where: 'note 8:6 “Not yet true of us, already true of Jesus”'
+    claim: 'A modern translation renders the phrase in Hebrews 2:7 as “for a little while”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Hebrews%202%3A5-9&version=NRSVUE'
+    quote: 'You have made them for a little while lower than the angels'
+  - where: 'note 8:6 “Not yet true of us, already true of Jesus”'
+    claim: 'Paul uses the words of the line of Christ, just after naming death as the last enemy'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/15?lang=eng'
+    quote: 'For he hath put all things under his feet.'
+  - where: 'note 8:6 “Not yet true of us, already true of Jesus”'
+    claim: 'Verse 6 is read as Christ’s victory and sovereignty over all creation'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'The language in Psalm 8:6 regarding having dominion and all things put under his feet is interpreted as Christ’s ultimate victory and sovereignty over all Creation.'
+  - where: 'note 8:6 “Not yet true of us, already true of Jesus”'
+    claim: 'Psalm 110:1 is a related verse for all things under His feet'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Genesis 1:26–28; Psalm 110:1; Daniel 7:13–14; Matthew 28:18; 1 Corinthians 15:24–27; Ephesians 1:20–22; Hebrews 2:6–9'
+
+  # ---------- christ / explore / parallels ----------
+  - where: christ
+    claim: 'Jesus quoted verse 2 in Matthew 21:16'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Jesus quoted verse 2 of this psalm in Matthew 21:16'
+  - where: christ
+    claim: 'Hebrews reads the psalm of Jesus, made lower for the suffering of death and crowned'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/2?lang=eng'
+    quote: 'But we see Jesus, who was made a little lower than the angels for the suffering of death, crowned with glory and honour'
+  - where: parallels
+    claim: 'Job 7:17 asks the question of Psalm 8:4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/7?lang=eng'
+    quote: 'What is man, that thou shouldest magnify him? and that thou shouldest set thine heart upon him?'
