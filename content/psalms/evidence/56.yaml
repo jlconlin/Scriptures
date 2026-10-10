@@ -1,0 +1,469 @@
+chapter: 56
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David and places it when the Philistines took him in Gath'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/56?lang=eng'
+    quote: 'To the chief Musician upon Jonath-elem-rechokim, Michtam of David, when the Philistines took him in Gath.'
+  - where: setting
+    claim: 'David fled from Saul to Achish the king of Gath'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/21?lang=eng'
+    quote: 'And David arose, and fled that day for fear of Saul, and went to Achish the king of Gath.'
+  - where: setting
+    claim: 'The title of Psalm 34 points to the same episode (David changing his behaviour)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/34?lang=eng'
+    quote: 'A Psalm of David, when he changed his behaviour before Abimelech; who drove him away, and he departed.'
+  - where: setting
+    claim: 'Psalm 34 and Psalm 56 are assigned to the same time, the sojourn in Philistia'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/56.htm'
+    quote: 'carries us back into the time of Saul, to the same time of the sojourn in Philistia to which Psalm 34 is assigned'
+  - where: setting
+    claim: 'The psalm says “God” nine times and “the LORD” once (verse 10)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּ֝/יהוָ֗ה'
+  - where: setting
+    claim: 'On one older reading the psalm was placed after Psalm 55 because of that psalm’s dove'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/56.htm'
+    quote: 'no Psalm could be more appropriately appended, according to the mode of arrangement adopted by the collector'
+  - where: setting
+    claim: 'The last verse stands nearly word for word in Psalm 116:8–9'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/116?lang=eng'
+    quote: 'For thou hast delivered my soul from death, mine eyes from tears, and my feet from falling.'
+  - where: setting
+    claim: 'The refrain’s confession is cross-referenced to Psalm 118:6 and Hebrews 13:6'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: '56.4 : Ps 118.6; Heb 13.6'
+  - where: setting
+    claim: 'D&C 122:9 commands Joseph Smith not to fear what man can do'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/122?lang=eng'
+    quote: 'therefore, fear not what man can do, for God shall be with you forever and ever.'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'A modern translation has “all day long” in verses 1, 2 and 5'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'my enemies trample on me all day long'
+  - where: thread
+    claim: 'Verse 5 also has “all day long” in a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'All day long they seek to injure my cause'
+  - where: thread
+    claim: 'Verse 3 begins with the Hebrew word “day”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'י֥וֹם'
+  - where: thread
+    claim: 'Verse 9 has “in the day” where the King James has “When I cry”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/י֣וֹם'
+  - where: thread
+    claim: 'A modern translation renders verse 9 “in the day when I call”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'in the day when I call'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: '“Swallow me up” rendered “trample on me”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'Be gracious to me, O God, for people trample on me'
+  - where: section 2 plain
+    claim: 'The refrain rendered “In God, whose word I praise … what can flesh do to me?”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'In God, whose word I praise'
+  - where: section 3 plain
+    claim: '“Wait for my soul” means hoping to take his life; “the people” is plural'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'as they hoped to take my life'
+  - where: section 3 plain
+    claim: 'A modern translation has “peoples” in verse 7'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'in wrath cast down the peoples, O God!'
+  - where: section 4 plain
+    claim: '“Tellest” means counted; verse 9 “on the day I call”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'You have kept count of my tossings'
+  - where: section 5 plain
+    claim: '“Praises” in verse 12 are thank offerings'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'I will render thank offerings to you.'
+  - where: section 5 plain
+    claim: '“Falling” in verse 13 is a noun for stumbling'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1762.htm'
+    quote: 'noun [masculine] stumbling'
+
+  # ---------- note 56:0 tune ----------
+  - where: 'note 56:0 “A tune about a dove far away”'
+    claim: 'The Bible Dictionary takes titles of this kind as probably names of tunes'
+    key: bd-psalms
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
+    quote: 'The other titles are all probably names of tunes, well known at the time, to which the Psalms were appointed to be sung.'
+  - where: 'note 56:0 “A tune about a dove far away”'
+    claim: 'The title has been rendered “The silent dove among the far off”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/56.htm'
+    quote: 'To the Precentor, after "The silent dove among the far off," by David, a Michtam.'
+  - where: 'note 56:0 “A tune about a dove far away”'
+    claim: 'The middle word as pointed is a noun “silence,” here in the name of a melody'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/482.htm'
+    quote: 'silence, Psalm 56:1 (title) see Ol De, in name of melody'
+  - where: 'note 56:0 “A tune about a dove far away”'
+    claim: 'Read with other vowels the word gives “Dove of the distant terebinths”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/56.htm'
+    quote: 'more readily commends itself, "Dove of the distant terebinths."'
+  - where: 'note 56:0 “A tune about a dove far away”'
+    claim: 'A modern translation prints the title with terebinths'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'according to The Dove on Far-off Terebinths'
+  - where: 'note 56:0 “A tune about a dove far away”'
+    claim: 'The Greek title interprets the words as a people removed from the sanctuary'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/56.htm'
+    quote: 'For the end, concerning the people that were removed from the sanctuary, by David for a memorial'
+  - where: 'note 56:0 “A tune about a dove far away”'
+    claim: 'One older reading: the Greek interprets the figure, and the melody was chosen to suit the psalmist’s situation'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/56.htm'
+    quote: 'the melody is chosen with reference to that situation'
+
+  # ---------- note 56:0 Gath ----------
+  - where: 'note 56:0 “Taken, where Samuel says he went”'
+    claim: 'The narrative says David went to Achish, was recognised, feigned madness in their hands, and was brought to Achish by his servants'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/21?lang=eng'
+    quote: 'And he changed his behaviour before them, and feigned himself mad in their hands'
+  - where: 'note 56:0 “Taken, where Samuel says he went”'
+    claim: 'The Greek title has “caught him”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/56.htm'
+    quote: 'when the Philistines caught him in Geth'
+  - where: 'note 56:0 “Taken, where Samuel says he went”'
+    claim: 'David escaped from Gath to the cave Adullam'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/22?lang=eng'
+    quote: 'David therefore departed thence, and escaped to the cave Adullam'
+
+  # ---------- note 56:1 ----------
+  - where: 'note 56:1 “Swallowed, or trampled”'
+    claim: 'The lexicon takes the verb here as trample upon, crush, in verses 1 and 2 (Hebrew 2 and 3)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7602.htm'
+    quote: 'trample upon, crush (the poor, etc.), figurative, with accusative of person Amos 8:4'
+  - where: 'note 56:1 “Swallowed, or trampled”'
+    claim: 'The same Hebrew verb is also glossed to pant, to gasp'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7602.htm'
+    quote: 'To pant, to gasp, to long for'
+  - where: 'note 56:1 “Swallowed, or trampled”'
+    claim: 'A modern translation has “people trample on me”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'for people trample on me'
+  - where: 'note 56:1 “Swallowed, or trampled”'
+    claim: 'The Greek has “man has trodden me down”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/56.htm'
+    quote: 'Have mercy upon me, O God; for man has trodden me down'
+  - where: 'note 56:1 “Swallowed, or trampled”'
+    claim: 'The word for “man” in verse 1 is enosh'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֱנ֑וֹשׁ'
+  - where: 'note 56:1 “Swallowed, or trampled”'
+    claim: 'Enosh is man, mankind, here and often as opposed to God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/582.htm'
+    quote: 'Psalm 56:2; especially opposed to God Job 4:17'
+
+  # ---------- note 56:2 ----------
+  - where: 'note 56:2 “A title of God, or a word about the enemies”'
+    claim: 'The last word of verse 2 is marom'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מָרֽוֹם'
+  - where: 'note 56:2 “A title of God, or a word about the enemies”'
+    claim: 'Marom means height; some read it here as an adverb, “proudly,” which the lexicon calls dubious'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4791.htm'
+    quote: 'adverb figurative, = proudly Psalm 56:3 (so Gei Hup-Now and others, compare Che, but dubious)'
+  - where: 'note 56:2 “A title of God, or a word about the enemies”'
+    claim: 'The word is glossed “height”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4791.htm'
+    quote: 'Height, high place, exalted place'
+  - where: 'note 56:2 “A title of God, or a word about the enemies”'
+    claim: 'A modern translation joins “O Most High” to verse 3'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'O Most High,(A) 3 when I am afraid'
+  - where: 'note 56:2 “A title of God, or a word about the enemies”'
+    claim: 'The address as the modern translation prints it'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'O Most High,'
+  - where: 'note 56:2 “A title of God, or a word about the enemies”'
+    claim: 'The words the address leads into in the modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'when I am afraid,'
+  - where: 'note 56:2 “A title of God, or a word about the enemies”'
+    claim: 'The Greek of verse 2 has no address to the Most High'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/56.htm'
+    quote: 'Mine enemies have trodden me down all the day from the dawning of the day; for there are many warring against me.'
+
+  # ---------- note 56:4 ----------
+  - where: 'note 56:4 “The refrain, and where else scripture has it”'
+    claim: 'The first refrain has “flesh”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בָשָׂ֣ר'
+  - where: 'note 56:4 “The refrain, and where else scripture has it”'
+    claim: 'The second refrain has adam'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אָדָ֣ם'
+  - where: 'note 56:4 “The refrain, and where else scripture has it”'
+    claim: 'A modern translation renders the second refrain “a mere mortal”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'What can a mere mortal do to me?'
+  - where: 'note 56:4 “The refrain, and where else scripture has it”'
+    claim: 'Psalm 118:6 has the confession'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/118?lang=eng'
+    quote: 'I will not fear: what can man do unto me?'
+  - where: 'note 56:4 “The refrain, and where else scripture has it”'
+    claim: 'Hebrews 13:6 has the Saints say it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/13?lang=eng'
+    quote: 'So that we may boldly say, The Lord is my helper, and I will not fear what man shall do unto me.'
+  - where: 'note 56:4 “The refrain, and where else scripture has it”'
+    claim: 'D&C 122 was given to Joseph Smith in Liberty Jail'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/122?lang=eng'
+    quote: 'The word of the Lord to Joseph Smith the Prophet, while a prisoner in the jail at Liberty, Missouri.'
+
+  # ---------- note 56:7 ----------
+  - where: 'note 56:7 “A question, or a plea”'
+    claim: 'A modern translation makes the line a request'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'Do not deliver them for any reason'
+  - where: 'note 56:7 “A question, or a plea”'
+    claim: 'Its footnote says it follows the Greek and gives the Hebrew as it stands'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: '56.7 Gk Compare Syr Jerome: Heb deliver them because of their iniquity'
+  - where: 'note 56:7 “A question, or a plea”'
+    claim: 'The Greek reading of the line'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/56.htm'
+    quote: 'Thou wilt on no account save them; thou wilt bring down the people in wrath.'
+  - where: 'note 56:7 “A question, or a plea”'
+    claim: '“The people” is a plural noun in the Hebrew'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עַמִּ֤ים'
+  - where: 'note 56:7 “A question, or a plea”'
+    claim: 'A modern translation has “cast down the peoples”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'in wrath cast down the peoples, O God!'
+
+  # ---------- note 56:8 ----------
+  - where: 'note 56:8 “A skin of tears and a book”'
+    claim: 'A modern translation has “kept count” for “tellest”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'You have kept count of my tossings'
+  - where: 'note 56:8 “A skin of tears and a book”'
+    claim: 'The bottle is a skin-bottle, used for wine and milk, and here figuratively for tears'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4997.htm'
+    quote: 'skin-bottle, skin'
+  - where: 'note 56:8 “A skin of tears and a book”'
+    claim: 'The lexicon notes the use for tears as figurative'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4997.htm'
+    quote: 'for tears Psalm 56:9 (figurative'
+  - where: 'note 56:8 “A skin of tears and a book”'
+    claim: '“My wanderings” is a noun found only here, and plays on the word for bottle'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5112.htm'
+    quote: 'noun [masculine] wandering of aimless fugitive'
+  - where: 'note 56:8 “A skin of tears and a book”'
+    claim: 'The lexicon marks the word-play with “thy bottle”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5112.htm'
+    quote: 'my wandering (word-play with'
+  - where: 'note 56:8 “A skin of tears and a book”'
+    claim: 'The Hebrew of “my wanderings” in verse 8'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נֹדִ/י֮'
+  - where: 'note 56:8 “A skin of tears and a book”'
+    claim: 'Malachi speaks of a book of remembrance written before the Lord'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/3?lang=eng'
+    quote: 'a book of remembrance was written before him for them that feared the Lord, and that thought upon his name.'
+
+  # ---------- note 56:10 ----------
+  - where: 'note 56:10 “The one place the psalm says LORD”'
+    claim: 'The divine name stands in verse 10 and nowhere else in the psalm; Elohim stands nine times'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּ֝/יהוָ֗ה'
+  - where: 'note 56:10 “The one place the psalm says LORD”'
+    claim: 'One older reading explains God then LORD by the style of these psalms'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/56.htm'
+    quote: 'Because the thought is repeated, Elohim stands in the first case and then Jahve, in accordance with the Elohimic Psalm style'
+  - where: 'note 56:10 “The one place the psalm says LORD”'
+    claim: 'On that reading “his word” is the word of God’s promise'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/56.htm'
+    quote: 'He has the word of His promise on his side'
+  - where: 'note 56:10 “The one place the psalm says LORD”'
+    claim: 'He will praise the word as it is verified in him'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/56.htm'
+    quote: 'through God will he praise this His word, inasmuch as it is gloriously verified in him'
+  - where: 'note 56:10 “The one place the psalm says LORD”'
+    claim: 'Verse 4 has “his word” with the suffix'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'דְּבָ֫ר֥/וֹ'
+  - where: 'note 56:10 “The one place the psalm says LORD”'
+    claim: 'Verse 10 has “word” with no suffix'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'דָּבָ֑ר'
+
+  # ---------- note 56:12 ----------
+  - where: 'note 56:12 “Vows he owes, and thank offerings”'
+    claim: 'A modern translation: the vows are his, to be performed'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'My vows to you I must perform, O God'
+  - where: 'note 56:12 “Vows he owes, and thank offerings”'
+    claim: 'A modern translation has thank offerings'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'I will render thank offerings to you.'
+  - where: 'note 56:12 “Vows he owes, and thank offerings”'
+    claim: 'Todah is thanksgiving'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8426.htm'
+    quote: 'noun feminine thanksgiving'
+  - where: 'note 56:12 “Vows he owes, and thank offerings”'
+    claim: 'Todah is also the thank-offering, and the lexicon lists this verse under that sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8426.htm'
+    quote: 'thank-offering'
+  - where: 'note 56:12 “Vows he owes, and thank offerings”'
+    claim: 'Vows are paired with the thank offering in Psalm 50:14 and here'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5088.htm'
+    quote: 'Psalm 50:14; Psalm 56:13'
+
+  # ---------- note 56:13 ----------
+  - where: 'note 56:13 “The light of the living, and Psalm 116”'
+    claim: 'Psalm 116:8–9 has nearly the same words, with “land of the living”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/116?lang=eng'
+    quote: 'I will walk before the Lord in the land of the living.'
+  - where: 'note 56:13 “The light of the living, and Psalm 116”'
+    claim: 'The Hebrew for the feet kept from stumbling is the same in both psalms'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1762.htm'
+    quote: 'Psalm 56:14 = Psalm 116:8'
+  - where: 'note 56:13 “The light of the living, and Psalm 116”'
+    claim: 'The Greek reads “land of the living” here'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/56.htm'
+    quote: 'that I should be well-pleasing before God in the land of the living'
+  - where: 'note 56:13 “The light of the living, and Psalm 116”'
+    claim: 'The lexicon lists “light of life” for Job 33:30 and this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/216.htm'
+    quote: 'light of life'
+  - where: 'note 56:13 “The light of the living, and Psalm 116”'
+    claim: 'Job 33:30 sets the light of the living against the pit'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/33?lang=eng'
+    quote: 'To bring back his soul from the pit, to be enlightened with the light of the living.'
+  - where: 'note 56:13 “The light of the living, and Psalm 116”'
+    claim: 'One older reading: not only the sunlight of this life'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/56.htm'
+    quote: 'is not exclusively the sun-light of this present life'
+  - where: 'note 56:13 “The light of the living, and Psalm 116”'
+    claim: 'The same reading sets the phrase against the night of Hades and cites John 8:12'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/56.htm'
+    quote: 'light of life is therefore the opposite of the night of Hades'
+  - where: 'note 56:13 “The light of the living, and Psalm 116”'
+    claim: 'The commentary cites John 8:12 at the phrase'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/56.htm'
+    quote: 'Light of life (John 8:12) or of the living'
+  - where: 'note 56:13 “The light of the living, and Psalm 116”'
+    claim: 'A modern translation makes the middle of the verse a statement'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2056&version=NRSVUE'
+    quote: 'and my feet from falling'
+
+  # ---------- christ / explore / parallels ----------
+  - where: christ
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: christ
+    claim: 'The divine name stands in verse 10'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּ֝/יהוָ֗ה'
+  - where: christ
+    claim: 'Hebrews 13:6 has the Saints say “The Lord is my helper”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/13?lang=eng'
+    quote: 'The Lord is my helper'
+  - where: explore
+    claim: 'Michtam stands in the titles of Psalms 16 and 56–60'
+    key: bd-psalms
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
+    quote: 'Michtam, rendered by some Golden Psalm (Ps. 16; 56–60)'
+  - where: explore
+    claim: 'The title of Psalm 57'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/57?lang=eng'
+    quote: 'To the chief Musician, Al-taschith, Michtam of David, when he fled from Saul in the cave.'
+  - where: parallels
+    claim: 'Job 33:30 and this verse are the two places the lexicon lists for “light of life”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/216.htm'
+    quote: 'light of life'
