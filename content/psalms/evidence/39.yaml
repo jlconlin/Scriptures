@@ -1,0 +1,472 @@
+chapter: 39
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David and names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/39?lang=eng'
+    quote: 'To the chief Musician, even to Jeduthun, A Psalm of David.'
+  - where: setting
+    claim: 'Psalm 38:13 has the sufferer as a dumb man who does not open his mouth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/38?lang=eng'
+    quote: 'But I, as a deaf man, heard not; and I was as a dumb man that openeth not his mouth.'
+  - where: setting
+    claim: 'The shared silence has been given as the reason Psalms 38 and 39 stand together'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/39.htm'
+    quote: 'This forms a prominent characteristic common to the two Psalms, which fully warranted their being placed together as a pair.'
+  - where: setting
+    claim: 'Both psalms bear Jeduthun’s name and describe human nothingness in the same language'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/39.htm'
+    quote: 'Both Psalms bear the name of Jeduthun side by side with the name of David at their head; both describe the nothingness of everything human in the same language'
+  - where: setting
+    claim: 'Psalm 62 has been judged still more closely related to Psalm 39 than Psalm 38 is'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/39.htm'
+    quote: 'which is still more closely related to Psalm 39:1-13'
+  - where: setting
+    claim: 'Psalm 62:9 calls men vanity'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/62?lang=eng'
+    quote: 'Surely men of low degree are vanity, and men of high degree are a lie: to be laid in the balance, they are altogether lighter than vanity.'
+  - where: setting
+    claim: 'Psalm 62 carries Jeduthun’s name in its title'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/62?lang=eng'
+    quote: 'To the chief Musician, to Jeduthun, A Psalm of David.'
+  - where: setting
+    claim: 'David uses the words of verse 12 again in his prayer at the offering for the temple'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/29?lang=eng'
+    quote: 'For we are strangers before thee, and sojourners, as were all our fathers: our days on the earth are as a shadow, and there is none abiding.'
+  - where: setting
+    claim: 'Hebrews 11:13 and 1 Peter 2:11 are tied to verse 12 by a modern translation’s cross-references'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: '39.12 : Ps 56.8; 102.1; Heb 11.13; 1 Pet 2.11'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The Hebrew particle akh (Strong’s 389) stands in verse 5'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַ֥ךְ'
+  - where: thread
+    claim: 'The same particle stands twice in verse 6 and once in verse 11 (hebrew.mjs --word 389: Ps 39:5, 39:6 twice, 39:11)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַ֤ךְ'
+  - where: thread
+    claim: 'Verse 7’s “And now” is the customary way to begin a turning point'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/39.htm'
+    quote: 'It is customary to begin a distinct turning-point of a discourse with ועתּה: and now'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: 'Verse 1: a muzzle on the mouth, as long as the wicked are present'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: 'I will keep a muzzle on my mouth'
+  - where: section 2 plain
+    claim: 'Verse 4: “how fleeting”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: 'let me know how fleeting my life is.'
+  - where: section 2 plain
+    claim: 'Verse 5: a few handbreadths; everyone stands as a breath'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: 'You have made my days a few handbreadths'
+  - where: section 2 plain
+    claim: 'Verse 6: like a shadow; in turmoil for nothing'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: 'Surely for nothing they are in turmoil'
+  - where: section 3 plain
+    claim: 'Verse 8: “the scorn of the fool”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: 'Do not make me the scorn of the fool.'
+  - where: section 3 plain
+    claim: 'Verse 11: “beauty” is what is dear to a person'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: 'consuming like a moth what is dear to them'
+  - where: section 4 plain
+    claim: 'Verse 13: look away, that I may smile again'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: 'Turn your gaze away from me, that I may smile again'
+
+  # ---------- note 39:0 ----------
+  - where: 'note 39:0 “Jeduthun, one of David’s three musicians”'
+    claim: 'Jeduthun is named with Heman among those appointed when the ark was brought up'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/16?lang=eng'
+    quote: 'And with them Heman and Jeduthun with trumpets and cymbals for those that should make a sound, and with musical instruments of God.'
+  - where: 'note 39:0 “Jeduthun, one of David’s three musicians”'
+    claim: 'Jeduthun’s sons, counted as six, served under their father, who prophesied with a harp'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/25?lang=eng'
+    quote: 'Gedaliah, and Zeri, and Jeshaiah, Hashabiah, and Mattithiah, six, under the hands of their father Jeduthun, who prophesied with a harp'
+  - where: 'note 39:0 “Jeduthun, one of David’s three musicians”'
+    claim: 'The lexicon calls him chief of one of the three temple choirs and takes the name in the titles as a musical direction'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3038.htm'
+    quote: 'chief of one of the three choirs of the temple (only Chronicles & Psalm-titles)'
+  - where: 'note 39:0 “Jeduthun, one of David’s three musicians”'
+    claim: 'The lexicon’s reading of the name in the three titles'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3038.htm'
+    quote: 'all = after the manner of (the choir of) Yeduthun'
+  - where: 'note 39:0 “Jeduthun, one of David’s three musicians”'
+    claim: 'The lexicon takes the preposition in the title of Psalm 39 as an error for the one in the other titles'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3038.htm'
+    quote: 'error for'
+  - where: 'note 39:0 “Jeduthun, one of David’s three musicians”'
+    claim: 'The King James title reads “even to Jeduthun”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/39?lang=eng'
+    quote: 'To the chief Musician, even to Jeduthun, A Psalm of David.'
+  - where: 'note 39:0 “Jeduthun, one of David’s three musicians”'
+    claim: 'Psalm 77, a psalm of Asaph, also has Jeduthun in its title'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/77?lang=eng'
+    quote: 'To the chief Musician, to Jeduthun, A Psalm of Asaph.'
+  - where: 'note 39:0 “Jeduthun, one of David’s three musicians”'
+    claim: 'Psalm 62 has Jeduthun in its title'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/62?lang=eng'
+    quote: 'To the chief Musician, to Jeduthun, A Psalm of David.'
+  - where: 'note 39:0 “Jeduthun, one of David’s three musicians”'
+    claim: 'A modern translation has simply “to Jeduthun”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: 'To the leader: to Jeduthun. A Psalm of David.'
+
+  # ---------- note 39:1 ----------
+  - where: 'note 39:1 “A muzzle, and what he feared to say”'
+    claim: 'The Hebrew noun means a muzzle'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4269.htm'
+    quote: 'let me keep a muzzle for my mouth, to avoid (hasty and) erring speech'
+  - where: 'note 39:1 “A muzzle, and what he feared to say”'
+    claim: 'A modern translation prints “muzzle”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: 'I will keep a muzzle on my mouth'
+  - where: 'note 39:1 “A muzzle, and what he feared to say”'
+    claim: 'One older reading: the sin would have been complaint at the prosperity of the ungodly'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/39.htm'
+    quote: 'by any murmuring complaint concerning his own misfortune, when he saw the prosperity of the ungodly'
+
+  - where: 'note 39:1 “A muzzle, and what he feared to say”'
+    claim: 'The noun (Strong’s 4269) is found only here in the Psalms (hebrew.mjs --word 4269: 1 occurrence, Ps 39:1)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מַחְס֑וֹם'
+
+  # ---------- note 39:2 ----------
+  - where: 'note 39:2 “Silent even from good”'
+    claim: 'The Hebrew is the preposition “from” and the word “good” (Strong’s 2896)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'טּ֑וֹב'
+  - where: 'note 39:2 “Silent even from good”'
+    claim: 'The Greek has “from good words”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/39.htm'
+    quote: 'I was dumb, and humbled myself, and kept silence from good words; and my grief was renewed.'
+  - where: 'note 39:2 “Silent even from good”'
+    claim: 'A modern translation: “to no avail”; “my distress grew worse”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: 'I held my peace to no avail'
+  - where: 'note 39:2 “Silent even from good”'
+    claim: 'A modern translation of the last clause of verse 2'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: 'my distress grew worse'
+
+  # ---------- note 39:4 ----------
+  - where: 'note 39:4 “A prayer to know how short life is”'
+    claim: 'A modern translation: “how fleeting my life is”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: 'let me know how fleeting my life is.'
+  - where: 'note 39:4 “A prayer to know how short life is”'
+    claim: 'A modern translation’s cross-references set Psalm 90:12 beside verse 4'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: '39.4 : Ps 90.12; 103.14'
+  - where: 'note 39:4 “A prayer to know how short life is”'
+    claim: 'Psalm 90:12 asks to be taught to number our days, for wisdom'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/90?lang=eng'
+    quote: 'So teach us to number our days, that we may apply our hearts unto wisdom.'
+
+  # ---------- note 39:5 ----------
+  - where: 'note 39:5 “Vanity is a breath”'
+    claim: 'The word behind “vanity” is hebel (Strong’s 1892), in verses 5, 6 and 11'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הֶ֥בֶל'
+  - where: 'note 39:5 “Vanity is a breath”'
+    claim: 'hebrew.mjs --word 1892 finds the word in eight verses of Psalms (31:6; 39:5, 6, 11; 62:9; 78:33; 94:11; 144:4), three of them in this psalm'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הֶ֖בֶל'
+  - where: 'note 39:5 “Vanity is a breath”'
+    claim: 'The lexicon lists these verses under the word’s use of human life and of man, and says it is used especially in Ecclesiastes'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1892.htm'
+    quote: 'of the fruitlessness of all human enterprise and endeavour'
+  - where: 'note 39:5 “Vanity is a breath”'
+    claim: 'A modern translation renders the word “a mere breath”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: 'Surely everyone stands as a mere breath.'
+  - where: 'note 39:5 “Vanity is a breath”'
+    claim: '“At his best state” is a participle meaning standing firm; the lexicon doubts the text'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5324.htm'
+    quote: 'every man, (even) the firm-standing, is wholly vanity (but expression strange, and text dubious)'
+  - where: 'note 39:5 “Vanity is a breath”'
+    claim: '“Handbreadth” is plural in the Hebrew: a few handbreadths'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2947.htm'
+    quote: '(a few) hand-breadths are my days'
+  - where: 'note 39:5 “Vanity is a breath”'
+    claim: 'A modern translation: “a few handbreadths”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: 'You have made my days a few handbreadths'
+
+  # ---------- note 39:6 ----------
+  - where: 'note 39:6 “A man as a passing shadow”'
+    claim: 'The Hebrew word is tselem, image; here figuratively a mere semblance'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6754.htm'
+    quote: 'figurative = mere, empty, image, semblance'
+  - where: 'note 39:6 “A man as a passing shadow”'
+    claim: 'The lexicon’s rendering of the clause'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6754.htm'
+    quote: 'a (mere) semblance man walks about'
+  - where: 'note 39:6 “A man as a passing shadow”'
+    claim: 'The Greek has “in a shadow”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/39.htm'
+    quote: 'Surely man walks in a shadow; nay, he is disquieted in vain'
+  - where: 'note 39:6 “A man as a passing shadow”'
+    claim: 'A modern translation: “like a shadow”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: 'Surely everyone goes about like a shadow.'
+  - where: 'note 39:6 “A man as a passing shadow”'
+    claim: '“In vain” in verse 6 is the same Hebrew word as “vanity” in verses 5 and 11'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הֶ֥בֶל'
+
+  # ---------- note 39:9 ----------
+  - where: 'note 39:9 “The second silence”'
+    claim: '“I was dumb” in verse 2 is the verb of Strong’s 481, first person perfect'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נֶאֱלַ֣מְתִּי'
+  - where: 'note 39:9 “The second silence”'
+    claim: '“I was dumb” in verse 9 is the same verb in the same form'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נֶ֭אֱלַמְתִּי'
+  - where: 'note 39:9 “The second silence”'
+    claim: 'A modern translation of the reason'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: 'for it is you who have done it.'
+  - where: 'note 39:9 “The second silence”'
+    claim: 'The Greek reads the clause of creation'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/39.htm'
+    quote: 'I was dumb, and opened not my mouth; for thou art he that made me.'
+  - where: 'note 39:9 “The second silence”'
+    claim: 'One older reading: what God did is the affliction'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/39.htm'
+    quote: 'As to the rest he is silent and calm; for God is the author, viz., of his affliction'
+  - where: 'note 39:9 “The second silence”'
+    claim: 'The same reading: he sees God’s hand in it and may still pray for mercy'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/39.htm'
+    quote: 'he recognises the hand of God in his affliction, and knows that he has not merited anything better. But it is permitted to him to pray that God would suffer mercy to take the place of right.'
+  - where: 'note 39:9 “The second silence”'
+    claim: '“I held my peace” in verse 2 is the verb of Strong’s 2814'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הֶחֱשֵׁ֣יתִי'
+  - where: 'note 39:9 “The second silence”'
+    claim: '“Hold not thy peace” in verse 12 is a different verb (Strong’s 2790)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תֶּ֫חֱרַ֥שׁ'
+
+  # ---------- note 39:11 ----------
+  - where: 'note 39:11 “Suffering taken as correction”'
+    claim: '“The blow of thine hand” is in Hebrew the hostility of God’s hand'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8409.htm'
+    quote: 'from (i.e. through) the hostility of thy hand I am consumed'
+  - where: 'note 39:11 “Suffering taken as correction”'
+    claim: 'A modern translation’s footnote at verse 10 says the Hebrew is “hostility”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: '39.10 Heb hostility'
+  - where: 'note 39:11 “Suffering taken as correction”'
+    claim: 'A modern translation has “what is dear to them” where the King James has “beauty”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: 'consuming like a moth what is dear to them'
+  - where: 'note 39:11 “Suffering taken as correction”'
+    claim: 'The moth image: a moth-eaten garment'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/39.htm'
+    quote: 'as a moth-eaten garment falls into rags'
+  - where: 'note 39:11 “Suffering taken as correction”'
+    claim: 'One older reading: the psalm and Job face the same riddle'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/39.htm'
+    quote: 'The Book of Job is occupied with the same riddle as that with which this Psalm is occupied. But in the solution of it, it advances a step further.'
+  - where: 'note 39:11 “Suffering taken as correction”'
+    claim: 'The same reading: David does not separate sin and suffering; Job thinks of suffering and love together'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/39.htm'
+    quote: 'David does not know how to disassociate in his mind sin and suffering, and wrath and suffering. The Book of Job, on the contrary, thinks of suffering and love together'
+
+  # ---------- note 39:12 ----------
+  - where: 'note 39:12 “A resident alien on God’s land”'
+    claim: 'Ger: a sojourner or temporary dweller with no inherited rights'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1616.htm'
+    quote: 'sojourner, temporary dweller, new-comer (no inherited rights)'
+  - where: 'note 39:12 “A resident alien on God’s land”'
+    claim: 'The lexicon groups Leviticus 25:23, 1 Chronicles 29:15 and this verse as strangers “with Yahweh,” each with the second word beside it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1616.htm'
+    quote: 'with Yahweh Leviticus 25:23 (H) 1 Chronicles 29:15; Psalm 39:13'
+  - where: 'note 39:12 “A resident alien on God’s land”'
+    claim: 'Toshab: a sojourner apparently more temporary and dependent than the ger; figuratively one with only a temporary tenure'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8453.htm'
+    quote: 'Figurative of one enjoying only a temporary tenure'
+  - where: 'note 39:12 “A resident alien on God’s land”'
+    claim: 'The second word names a more dependent kind of sojourner'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8453.htm'
+    quote: 'dependent (Leviticus 22:10; 25:6) kind than the גֵּר (with which it is often joined)'
+  - where: 'note 39:12 “A resident alien on God’s land”'
+    claim: 'A stranger lived in the land by permission, and the law provided for his fair treatment'
+    key: bd-stranger
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/stranger?lang=eng'
+    quote: 'resident in the promised land with the permission of the Israelite authorities. There were various provisions in the law with regard to the treatment of strangers, all of which were intended to secure for them justice and fair treatment'
+  - where: 'note 39:12 “A resident alien on God’s land”'
+    claim: 'Leviticus 25:23: the land is the Lord’s and Israel are strangers and sojourners with Him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/25?lang=eng'
+    quote: 'The land shall not be sold for ever: for the land is mine; for ye are strangers and sojourners with me.'
+  - where: 'note 39:12 “A resident alien on God’s land”'
+    claim: 'David’s prayer in 1 Chronicles 29:15'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/29?lang=eng'
+    quote: 'For we are strangers before thee, and sojourners, as were all our fathers: our days on the earth are as a shadow, and there is none abiding.'
+  - where: 'note 39:12 “A resident alien on God’s land”'
+    claim: 'A modern translation: “your passing guest”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: 'For I am your passing guest'
+  - where: 'note 39:12 “A resident alien on God’s land”'
+    claim: 'A modern translation’s cross-references set Hebrews 11:13 beside verse 12'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: '39.12 : Ps 56.8; 102.1; Heb 11.13; 1 Pet 2.11'
+  - where: 'note 39:12 “A resident alien on God’s land”'
+    claim: 'Hebrews 11:13: the fathers confessed they were strangers and pilgrims'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
+    quote: 'confessed that they were strangers and pilgrims on the earth.'
+  - where: 'note 39:12 “A resident alien on God’s land”'
+    claim: 'Hebrews 11:16: they desire a heavenly country'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
+    quote: 'But now they desire a better country, that is, an heavenly'
+
+  # ---------- note 39:13 ----------
+  - where: 'note 39:13 “Look away from me”'
+    claim: '“Spare me” is in Hebrew a request that God turn His gaze away'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8159.htm'
+    quote: 'cause thy gaze to turn away from me'
+  - where: 'note 39:13 “Look away from me”'
+    claim: '“Recover strength” is a verb meaning to show a smile, look cheerful; the lexicon lists Job 10:20 with this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1082.htm'
+    quote: 'shew a smile, look cheerful Psalm 39:14; Job 9:27; Job 10:20.'
+  - where: 'note 39:13 “Look away from me”'
+    claim: 'A modern translation of the verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: 'Turn your gaze away from me, that I may smile again'
+  - where: 'note 39:13 “Look away from me”'
+    claim: 'Job 7:19 asks God to depart and let him alone'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/7?lang=eng'
+    quote: 'How long wilt thou not depart from me, nor let me alone till I swallow down my spittle?'
+  - where: 'note 39:13 “Look away from me”'
+    claim: 'Job 10:20–21 asks the same, before he goes whence he shall not return'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/10?lang=eng'
+    quote: 'Are not my days few? cease then, and let me alone, that I may take comfort a little,'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'The LORD of the Old Testament is Jehovah, the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'Psalm 62:9 weighs men as lighter than vanity'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/62?lang=eng'
+    quote: 'Surely men of low degree are vanity, and men of high degree are a lie: to be laid in the balance, they are altogether lighter than vanity.'
+  - where: explore
+    claim: 'A modern translation’s cross-references set Luke 12:20 beside verse 6'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2039&version=NRSVUE'
+    quote: '39.6 : Job 27.17; Ps 127.2; Lk 12.20; 1 Pet 1.24'
+  - where: explore
+    claim: 'In the parable of the rich man God asks who will have what he stored'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/12?lang=eng'
+    quote: 'then whose shall those things be, which thou hast provided?'
+  - where: explore
+    claim: 'In D&C 45:13 the Savior speaks of those who confessed they were strangers and pilgrims'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/45?lang=eng'
+    quote: 'And confessed they were strangers and pilgrims on the earth;'
+  - where: explore
+    claim: 'The Church’s footnote at Hebrews 11:16 points to D&C 45:12–14'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
+    quote: 'D&C 45:12 (12–14)'
+  - where: parallels
+    claim: 'Jeremiah 20:9: a word held in becomes a burning fire'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/20?lang=eng'
+    quote: 'But his word was in mine heart as a burning fire shut up in my bones, and I was weary with forbearing, and I could not stay.'
