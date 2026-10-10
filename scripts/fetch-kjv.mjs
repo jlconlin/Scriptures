@@ -163,6 +163,9 @@ const LDS_SPELLINGS = [
   [/Baalpeor, and separated/g, 'Baal-peor, and separated'], // Hosea 9:10
   [/Betharbel/g, 'Beth-arbel'], // Hosea 10:14
   [/shall his LORD return unto him/g, 'shall his Lord return unto him'], // Hosea 12:14
+  // Joel: a comma and an old spelling (found by scripts/check-kjv.mjs).
+  [/and cry unto the LORD\.$/g, 'and cry unto the LORD,'], // Joel 1:14
+  [/the vats shall overflow with wine and oil/g, 'the fats shall overflow with wine and oil'], // Joel 2:24
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 

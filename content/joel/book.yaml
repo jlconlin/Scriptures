@@ -1,0 +1,66 @@
+name: Joel
+slug: joel
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 11
+abbr: joel               # [[Joel 2:28]] links here
+gospelLibrary: ot/joel
+eyebrow: The Old Testament
+heroQuote:
+  text: '“I will pour out my spirit upon all flesh.”'
+  cite: 'The Lord to Judah, [[Joel 2:28]]'
+description: A phrase-by-phrase companion to the book of Joel, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Three chapters, one movement. Locusts strip the land, and the prophet hears in them the approach of the day of the Lord. A trumpet calls the people to turn. The Lord answers with rain, with His Spirit, and with judgment on the nations.
+home:
+  blurb: A prophet of Judah who saw the day of the Lord in a plague of locusts, and whose promise of the Spirit poured out on all flesh was quoted by Peter at Pentecost and by Moroni to Joseph Smith.
+
+intro: |
+  Joel was a prophet of Judah. His book names no king and no year, and the Church’s own helps leave its date open, anywhere from the ninth century B.C. to the years after the return from Babylon. What it does give is an occasion: locusts and drought have stripped the land so bare that even the offerings at the temple have stopped.
+
+  From that ruin Joel looks up to “the day of the LORD” ([[Joel 1:15]]), a phrase he uses five times. He calls priests and people to a fast, and the Lord answers. The answer runs from the rain and the grain of the next harvest to the Spirit poured out “upon all flesh” ([[Joel 2:28]]) and to the nations judged in the valley of Jehoshaphat. Peter quoted the promise of the Spirit on the day of Pentecost, and the angel Moroni quoted it to Joseph Smith in 1823, saying it “was not yet fulfilled, but was soon to be.” This companion goes through all three chapters and tries to anticipate the questions a careful reader asks: *Were the locusts real? When is the day of the Lord? Has the promise of the Spirit been kept? Where is Christ in this?*
+
+# The division by chapter is the site’s own; the book is one continuous prophecy.
+# Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: locusts
+    range: [1, 1]
+    name: The Locusts and the Fast
+    blurb: What one swarm left, the next has eaten. Vine, fig tree, wheat, and barley are gone, the temple offerings have ceased, and the prophet calls the priests to proclaim a fast, for the day of the Lord is at hand.
+    color: '#8a6a2a'
+    darkColor: '#dcbc74'
+  - key: trumpet
+    range: [2, 2]
+    name: Turn Ye Even to Me
+    blurb: A trumpet sounds in Zion as an army darkens the sky. The Lord calls His people to turn to Him with all their heart, and answers them with rain, with the years the locust ate, and with His Spirit poured out on all flesh.
+    color: '#3f6f8f'
+    darkColor: '#8fc0e0'
+  - key: jehoshaphat
+    range: [3, 3]
+    name: The Valley of Decision
+    blurb: The Lord gathers the nations to the valley of Jehoshaphat and judges them for what they did to His people. He roars out of Zion, and a fountain flows from His house.
+    color: '#7a4a8a'
+    darkColor: '#c9a0d8'
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [1, 3], sources: [scripture-helps-hosea] }
+
+beloved:
+  - { chapter: 2, verse: 13, text: 'rend your heart, and not your garments' }
+  - { chapter: 2, verse: 25, text: 'I will restore to you the years that the locust hath eaten' }
+  - { chapter: 2, verse: 28, text: 'I will pour out my spirit upon all flesh' }
+  - { chapter: 2, verse: 32, text: 'whosoever shall call on the name of the LORD shall be delivered' }
+  - { chapter: 3, verse: 14, text: 'Multitudes, multitudes in the valley of decision' }
+  - { chapter: 3, verse: 16, text: 'the LORD will be the hope of his people' }
+
+coreSources:
+  - bd-joel
+  - gs-joel
+  - scripture-helps-hosea
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'That Which the Locust Hath Left'
+  2: 'I Will Pour Out My Spirit upon All Flesh'
+  3: 'Multitudes in the Valley of Decision'
