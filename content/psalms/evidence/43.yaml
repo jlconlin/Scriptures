@@ -7,26 +7,6 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/43?lang=eng'
     quote: 'Judge me, O God, and plead my cause against an ungodly nation'
   - where: setting
-    claim: 'Psalm 42 sounds the refrain twice (verses 5 and 11)'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/42?lang=eng'
-    quote: 'Why art thou cast down, O my soul? and why art thou disquieted in me? hope thou in God'
-  - where: setting
-    claim: 'Psalm 42:9 has the line that Psalm 43:2 repeats'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/42?lang=eng'
-    quote: 'why go I mourning because of the oppression of the enemy?'
-  - where: setting
-    claim: 'Many Hebrew manuscripts have Psalms 42 and 43 as one psalm'
-    key: niv
-    url: 'https://www.biblegateway.com/passage/?search=Psalm%2042-43&version=NIV'
-    quote: 'In many Hebrew manuscripts Psalms 42 and 43 constitute one psalm.'
-  - where: setting
-    claim: 'The Greek translation gives Psalm 43 its own heading, “A Psalm of David”'
-    key: lxx-rahlfs
-    url: 'https://biblehub.com/sep/psalms/43.htm'
-    quote: 'A Psalm of David. Judge me, o God, and plead my cause, against an ungodly nation'
-  - where: setting
     claim: 'In Psalm 42 the singer is in the land of Jordan and of the Hermonites'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/42?lang=eng'
@@ -165,11 +145,6 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/57?lang=eng'
     quote: 'God shall send forth his mercy and his truth.'
   - where: 'note 43:1 “The word behind ungodly”'
-    claim: 'The word for “nation” (goy) means nation, people'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/1471.htm'
-    quote: 'nation, people'
-  - where: 'note 43:1 “The word behind ungodly”'
     claim: 'A modern translation has “an ungodly people”'
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2043&version=NRSVUE'
@@ -211,11 +186,6 @@ claims:
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2043&version=NRSVUE'
     quote: 'For you are the God in whom I take refuge;'
-  - where: 'note 43:3 “Two guides sent from God”'
-    claim: 'The Hebrew has an independent pronoun, “they” (hemmah, H1992), before “lead me”'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'הֵ֣מָּה'
   - where: 'note 43:3 “Two guides sent from God”'
     claim: 'One older reading calls light and truth two angels of God'
     key: delitzsch-psalms
@@ -261,11 +231,6 @@ claims:
     key: delitzsch-psalms
     url: 'https://biblehub.com/commentaries/kad/psalms/43.htm'
     quote: '"Light and truth" is equivalent to mercy and truth. What is intended is the light of mercy or loving-kindness which is coupled with the truth of fidelity to the promises'
-  - where: 'note 43:3 “Two guides sent from God”'
-    claim: 'The lexicon sets this verse with the Lord as a light to guide'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/216.htm'
-    quote: 'light to guide Micah 7:8 compare Psalm 43:3'
 
   # ---------- note 43:3 hill ----------
   - where: 'note 43:3 “Hill, dwelling, altar”'
@@ -283,16 +248,6 @@ claims:
     key: bdb
     url: 'https://biblehub.com/hebrew/4908.htm'
     quote: 'God''s abode in Zion Ezekiel 37:27; Psalm 132:5; Psalm 132:7, compare Psalm 43:3; Psalm 84:2'
-  - where: 'note 43:5 “The singer speaks to his own soul”'
-    claim: 'The verbs of the refrain are second person feminine singular (morphology Vri2fs, Vqi2fs), with “my soul”'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'תִּשְׁתּ֬וֹחֲחִ֨י'
-  - where: 'note 43:5 “The singer speaks to his own soul”'
-    claim: 'Nephesh, soul, is a feminine noun'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/5315.htm'
-    quote: 'noun feminine'
   - where: 'note 43:5 “The singer speaks to his own soul”'
     claim: 'The verb means bow, be bowed down, crouch'
     key: bdb
@@ -341,11 +296,6 @@ claims:
 
   # ---------- note 43:5 christ ----------
   - where: 'note 43:5 “The refrain and the Savior’s words in Gethsemane”'
-    claim: 'The Greek translation of the refrain, in English'
-    key: lxx-rahlfs
-    url: 'https://biblehub.com/sep/psalms/43.htm'
-    quote: 'Wherefore art thou very sad, O my soul? and wherefore dost thou trouble me?'
-  - where: 'note 43:5 “The refrain and the Savior’s words in Gethsemane”'
     claim: 'The Greek word for “very sad” in the refrain is perilypos'
     key: lxx-rahlfs
     url: 'https://biblehub.com/sepd/psalms/43.htm'
@@ -360,16 +310,6 @@ claims:
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/26?lang=eng'
     quote: 'My soul is exceeding sorrowful, even unto death'
-  - where: 'note 43:5 “The refrain and the Savior’s words in Gethsemane”'
-    claim: 'The comparison of the Greek refrain with Matthew 26:38 and John 12:27 is made in an older commentary (at Psalm 42:5, Hebrew 42:6)'
-    key: delitzsch-psalms
-    url: 'https://biblehub.com/commentaries/kad/psalms/42.htm'
-    quote: 'Why art thou thus cast down... (lxx ἵνα τί περίλυπος εἶ, κ. τ. λ., cf. Matthew 26:38; John 12:27)'
-  - where: 'note 43:5 “The refrain and the Savior’s words in Gethsemane”'
-    claim: 'The King James wording of John 12:27'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/12?lang=eng'
-    quote: 'Now is my soul troubled; and what shall I say? Father, save me from this hour: but for this cause came I unto this hour.'
   - where: 'note 43:5 “The refrain and the Savior’s words in Gethsemane”'
     claim: 'Psalm 43 is in a published list of psalms with no direct relationship with the New Testament (Shire’s list, as Hilton reports it)'
     key: hilton-psalms-bom
