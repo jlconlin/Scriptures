@@ -1,0 +1,386 @@
+chapter: 20
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/20?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David.'
+  - where: setting
+    claim: 'The psalm’s vocabulary suggests a king preparing for battle while his people pray for him'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'give the sense that the king is preparing for a battle and his people are praying for God to strengthen and protect him'
+  - where: setting
+    claim: 'Psalm 20 is liturgical, a hymn composed for use in a ritual or ceremony'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalm 20 is a good example of a psalm that is quite clearly liturgical in nature—a hymn that was composed for use in a ritual or ceremony.'
+  - where: setting
+    claim: 'The setting seems to be a ceremony for the king’s departure for battle, and the psalm is often counted a royal psalm'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'the setting of the psalm seems to be a ceremony for the king’s departure for battle. As such, it is often categorized as one of the royal psalms.'
+  - where: setting
+    claim: 'One older commentary places the intercession in the sanctuary on Zion, with the king offering sacrifice'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/20.htm'
+    quote: 'This intercession on the behalf of the praying one is made in the sanctuary on the heights of Zion'
+  - where: setting
+    claim: 'The same commentary has the king offering sacrifices in the sanctuary while the people pray'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/20.htm'
+    quote: 'Litany for the king in distress, who offers sacrifices for himself in the sanctuary.'
+  - where: setting
+    claim: 'Psalms 20 and 21 have been read as a pair, intercession and thanksgiving for the king'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/20.htm'
+    quote: 'Psalm 20:1-9 is an intercessory psalm of the nation, and Psalm 21:1-13 a thanksgiving psalm of the nation, on behalf of its king.'
+  - where: setting
+    claim: 'The Church’s chapter heading for Psalm 20'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/20?lang=eng'
+    quote: 'The Lord saves'
+
+  - where: setting
+    claim: 'The same commentary: the king offers sacrifice according to custom before battle, citing 1 Samuel 13:9'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/20.htm'
+    quote: 'He offers sacrifice according to custom before the commencement of the battle (1 Samuel 13:9.'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The psalm divides into a prayer for the king (1–5), a declaration (6) and the congregation’s song of faith (7–9)'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'A declaration (perhaps after a ritual or divine sign) that God will protect His anointed (verse 6)'
+  - where: thread
+    claim: 'Verse 6 is the turning point of the psalm'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'This is a turning point in the psalm'
+  - where: thread
+    claim: '“Hear” in verse 1 is the Hebrew verb anah, to answer'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יַֽעַנְ/ךָ֣'
+  - where: thread
+    claim: '“Hear” in verse 6 is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יַ֭עֲנֵ/הוּ'
+  - where: thread
+    claim: '“Hear” in verse 9 is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יַעֲנֵ֥/נוּ'
+  - where: thread
+    claim: '“Thy salvation” in verse 5 is the king’s victory'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2020&version=NRSVUE'
+    quote: 'May we shout for joy over your victory'
+
+  # ---------- plain ----------
+  - where: section 1 plain
+    claim: 'Verse 1: “answer you” for the King James “hear thee”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2020&version=NRSVUE'
+    quote: 'The Lord answer you in the day of trouble!'
+  - where: section 1 plain
+    claim: 'Verse 1: “set on high” for the King James “defend”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7682.htm'
+    quote: 'set (securely) on high, Psalm 20:2'
+  - where: section 1 plain
+    claim: 'Verse 5: “your victory” and the wish form of the verbs'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2020&version=NRSVUE'
+    quote: 'May we shout for joy over your victory'
+  - where: section 3 plain
+    claim: 'Verse 7: “boast” for the King James “trust” and “remember”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2142.htm'
+    quote: 'compare Psalm 20:8 (De Che and others boast of, praise'
+  - where: section 3 plain
+    claim: 'Verse 9: the Hebrew has “in the day we call”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְ/יוֹם'
+
+  # ---------- note 20:1 A people’s prayer ----------
+  - where: 'note 20:1 “A people’s prayer for their king”'
+    claim: 'Verses 1–5 are the congregation’s prayer (or a priest’s or prophet’s on its behalf) for the king'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'The first five verses present a prayer given by the congregation (or a priest/prophet representing the congregation) on behalf of the king.'
+  - where: 'note 20:1 “A people’s prayer for their king”'
+    claim: 'The “thee” of verse 1 is a singular suffix on the verb anah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יַֽעַנְ/ךָ֣'
+  - where: 'note 20:1 “A people’s prayer for their king”'
+    claim: 'The same verb stands in verse 6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יַ֭עֲנֵ/הוּ'
+  - where: 'note 20:1 “A people’s prayer for their king”'
+    claim: 'The same verb stands in verse 9'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יַעֲנֵ֥/נוּ'
+  - where: 'note 20:1 “A people’s prayer for their king”'
+    claim: 'The verb is used of God answering graciously'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6030.htm'
+    quote: 'of God answering (graciously)'
+  - where: 'note 20:1 “A people’s prayer for their king”'
+    claim: 'A modern translation has “answer” in verse 1'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2020&version=NRSVUE'
+    quote: 'The Lord answer you in the day of trouble!'
+
+  # ---------- note 20:1 Set on high ----------
+  - where: 'note 20:1 “Set on high by the name of Jacob’s God”'
+    claim: '“Defend” is the verb sagab in the Piel, to set securely on high'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7682.htm'
+    quote: 'set (securely) on high, Psalm 20:2'
+  - where: 'note 20:1 “Set on high by the name of Jacob’s God”'
+    claim: 'Psalm 20:1 has “answer,” “in the day” and “trouble” (anah, beyom, tsarah)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/י֣וֹם'
+  - where: 'note 20:1 “Set on high by the name of Jacob’s God”'
+    claim: 'The word for “trouble” in Psalm 20:1 is tsarah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'צָרָ֑ה'
+  - where: 'note 20:1 “Set on high by the name of Jacob’s God”'
+    claim: 'Genesis 35:3 has the same verb, “answered”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'הָ/עֹנֶ֤ה'
+  - where: 'note 20:1 “Set on high by the name of Jacob’s God”'
+    claim: 'Genesis 35:3 has the same noun, “my distress” (tsarah)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'צָֽרָתִ֔/י'
+  - where: 'note 20:1 “Set on high by the name of Jacob’s God”'
+    claim: 'One older commentary thinks it not improbable that the wish is modelled on Genesis 35:3'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/20.htm'
+    quote: 'refers to Genesis 35:3; and it is not improbable that the desire moulds itself after the fashion of the record of the fact there handed down to us'
+  - where: 'note 20:1 “Set on high by the name of Jacob’s God”'
+    claim: 'The same commentary: may the God who answered Jacob in distress hear the king'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/20.htm'
+    quote: 'May Jahve, who, as the history of Jacob shows, hears (and answers) in the day of distress, hear the king'
+
+  # ---------- note 20:3 ----------
+  - where: 'note 20:3 “Remembering and accepting the king’s offerings”'
+    claim: '“Remember” here is God remembering a person’s devotion'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2142.htm'
+    quote: 'their devotion, accusative, Psalm 20:4'
+  - where: 'note 20:3 “Remembering and accepting the king’s offerings”'
+    claim: '“Accept” is the Piel of dashen, to find a burnt offering fat, that is, acceptable'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1878.htm'
+    quote: 'find a burnt-offering fat = acceptable Psalm 20:4'
+  - where: 'note 20:3 “Remembering and accepting the king’s offerings”'
+    claim: 'The Greek has “enrich thy whole-burnt-offering”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/20.htm'
+    quote: 'Remember all thy sacrifice, and enrich thy whole-burnt-offering.'
+
+  # ---------- note 20:4 ----------
+  - where: 'note 20:4 “The next psalm gives thanks for this request”'
+    claim: 'Psalms 20 and 21 refer to the same event as prayer and thanksgiving'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/20.htm'
+    quote: 'because both Psalms refer to the same event relatively, as prayer and thanksgiving'
+  - where: 'note 20:4 “The next psalm gives thanks for this request”'
+    claim: 'Psalm 21 opens with the king rejoicing in the LORD’s salvation and his heart’s desire given'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/21?lang=eng'
+    quote: 'Thou hast given him his heart’s desire, and hast not withholden the request of his lips.'
+
+  # ---------- note 20:5 ----------
+  - where: 'note 20:5 “Raising the standard in God’s name”'
+    claim: 'The verb dagal means to set up a standard in battle'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1713.htm'
+    quote: 'set up standard in battle'
+  - where: 'note 20:5 “Raising the standard in God’s name”'
+    claim: 'The verb occurs once in Psalms, here (node scripts/hebrew.mjs psalms --word 1713: 1 occurrence)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נִדְגֹּ֑ל'
+  - where: 'note 20:5 “Raising the standard in God’s name”'
+    claim: '“Thy salvation” is rendered “your victory” in a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2020&version=NRSVUE'
+    quote: 'May we shout for joy over your victory'
+  - where: 'note 20:5 “Raising the standard in God’s name”'
+    claim: 'The Greek has “shall we be magnified”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/20.htm'
+    quote: 'in the name of our God shall we be magnified'
+
+  - where: 'note 20:5 “Raising the standard in God’s name”'
+    claim: 'The lexicon lists other Hebrew verbs proposed for this verse, one after the Greek and Syriac'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1713.htm'
+    quote: '(Gr Che נָגִיל; Bi נְגַדֵּל, after'
+
+  # ---------- note 20:6 One voice ----------
+  - where: 'note 20:6 “One voice announces the answer”'
+    claim: 'Verse 6 appears to be a declaration, perhaps by the high priest or a prophet'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Verse 6 appears to be a declaration perhaps by the high priest or prophet of his witness that God will indeed save His anointed king'
+  - where: 'note 20:6 “One voice announces the answer”'
+    claim: 'It is the turning point; something, perhaps a ritual or a sign, has given assurance that the prayer was heard'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'a turning point in the psalm, in which something (perhaps a ritual or a divine sign) has given the priest/prophet the assurance (“Now know I”) that God has heard the prayer of the congregation'
+
+  # ---------- note 20:6 sanctuary and heaven ----------
+  - where: 'note 20:6 “The sanctuary and heaven share a word”'
+    claim: '“From the sanctuary” in verse 2 is the noun qodesh'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִ/קֹּ֑דֶשׁ'
+  - where: 'note 20:6 “The sanctuary and heaven share a word”'
+    claim: '“Holy” in “his holy heaven” (verse 6) is the same noun with a suffix'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קָדְשׁ֑/וֹ'
+  - where: 'note 20:6 “The sanctuary and heaven share a word”'
+    claim: '1 Kings 8:44–45 is listed among the verses related to Psalm 20'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalms 2; 18:50; 21; 89:20; 110:5; 118:25–26; 138:7; 1 Kings 8:44–45; Habakkuk 3:13; Revelation 11:15'
+  - where: 'note 20:6 “The sanctuary and heaven share a word”'
+    claim: 'Solomon’s prayer: the people go out to battle and pray toward the house built for the LORD’s name'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/8?lang=eng'
+    quote: 'If thy people go out to battle against their enemy, whithersoever thou shalt send them, and shall pray unto the Lord toward the city which thou hast chosen, and toward the house that I have built for thy name'
+
+  # ---------- note 20:7 ----------
+  - where: 'note 20:7 “Chariots and horses against a name”'
+    claim: 'The law of the king forbids multiplying horses'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/17?lang=eng'
+    quote: 'But he shall not multiply horses to himself'
+  - where: 'note 20:7 “Chariots and horses against a name”'
+    claim: 'The verse has been set beside the law of the king'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/20.htm'
+    quote: 'the law touching the king (Deuteronomy 17:16) speaks strongly against his keeping many horses'
+  - where: 'note 20:7 “Chariots and horses against a name”'
+    claim: 'The verse has been set beside David’s words to Goliath'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/20.htm'
+    quote: 'The language of David to Goliath is very similar, 1 Samuel 17:45.'
+  - where: 'note 20:7 “Chariots and horses against a name”'
+    claim: 'Deuteronomy 20:1–4 is listed among the verses related to Psalm 20'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Deuteronomy 3:21–22; 7:18–19; 20:1–4; 31:5–8'
+  - where: 'note 20:7 “Chariots and horses against a name”'
+    claim: 'The only verb in the Hebrew of verse 7 is its last word, the Hiphil of zakar'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נַזְכִּֽיר'
+  - where: 'note 20:7 “Chariots and horses against a name”'
+    claim: 'The Hiphil with “in the name” is to mention or call on; some take it here as boast of, praise'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2142.htm'
+    quote: 'compare Psalm 20:8 (De Che and others boast of, praise'
+  - where: 'note 20:7 “Chariots and horses against a name”'
+    claim: 'The Hiphil is used for calling on the LORD and mentioning a name'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2142.htm'
+    quote: '= call upon Isaiah 62:6, name of'
+  - where: 'note 20:7 “Chariots and horses against a name”'
+    claim: 'A modern translation of verse 7'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2020&version=NRSVUE'
+    quote: 'Some take pride in chariots and some in horses, but our pride is in the name of the Lord our God.'
+
+  # ---------- note 20:9 ----------
+  - where: 'note 20:9 “Who the king is in the last line”'
+    claim: 'The Hebrew as it stands makes the king the one who answers'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2020&version=NRSVUE'
+    quote: 'Gk: Heb give victory, O Lord; let the King answer us when we call'
+  - where: 'note 20:9 “Who the king is in the last line”'
+    claim: 'The Greek makes the king the object of “save”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/20.htm'
+    quote: 'O Lord, save the king: and hear us in whatever day we call upon thee.'
+  - where: 'note 20:9 “Who the king is in the last line”'
+    claim: 'A modern translation follows the Greek'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2020&version=NRSVUE'
+    quote: 'Give victory to the king, O Lord; answer us when we call.'
+  - where: 'note 20:9 “Who the king is in the last line”'
+    claim: 'Verse 9 has the verb anah again'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יַעֲנֵ֥/נוּ'
+  - where: 'note 20:9 “Who the king is in the last line”'
+    claim: 'Verse 9 has “in the day,” as verse 1 does'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְ/יוֹם'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'The Greek of verse 6 has “his Christ” for “his anointed”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/20.htm'
+    quote: 'Now I know that the Lord has saved his Christ'
+  - where: christ
+    claim: '“His anointed” in verse 6 is mashiach'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מְשִׁ֫יח֥/וֹ'
+  - where: christ
+    claim: '“Save” in Psalm 20:9 is the Hiphil imperative hoshiah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הוֹשִׁ֑יעָ/ה'
+  - where: christ
+    claim: 'Psalm 118:25 has the same imperative'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הוֹשִׁ֘יעָ֥/ה'
+  - where: christ
+    claim: 'Hosanna means “Save now” and is taken from Psalm 118:25; the multitudes used it at the triumphal entry'
+    key: bd-hosanna
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosanna?lang=eng'
+    quote: 'Save now. The word is taken from Ps. 118:25, one of the Psalms of the Hallel.'
+  - where: christ
+    claim: 'One older commentary calls the New Testament Hosanna an application of this psalm’s “save the king,” by way of Psalm 118:25'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/20.htm'
+    quote: 'is a peculiar application of this Davidic'
+  - where: christ
+    claim: 'The same commentary: the application comes by means of Psalm 118:25'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/20.htm'
+    quote: 'which is brought about by means of Psalm 118:25'
+
+  # ---------- parallels ----------
+  - where: parallels
+    claim: 'Isaiah 31:1 pronounces woe on those who trust in chariots and horses'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/31?lang=eng'
+    quote: 'stay on horses, and trust in chariots, because they are many'
+  - where: parallels
+    claim: 'Deuteronomy 20:4: the LORD goes with Israel to save them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/20?lang=eng'
+    quote: 'For the Lord your God is he that goeth with you, to fight for you against your enemies, to save you.'
