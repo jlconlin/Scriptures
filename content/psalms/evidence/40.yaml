@@ -1,0 +1,374 @@
+chapter: 40
+claims:
+  # ---- when / setting ----
+  - where: 'when'
+    claim: 'The title ascribes the psalm to David and gives no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/40?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David.'
+  - where: 'setting'
+    claim: 'The chapter heading in the Church’s edition calls it a messianic psalm of David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/40?lang=eng'
+    quote: 'A messianic psalm of David—The Messiah will come and preach righteousness—He will declare salvation'
+  - where: 'setting'
+    claim: 'One older reading: the speaker has just been rescued and is still in danger, which is why praise comes first'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/40.htm'
+    quote: 'he has just been rescued from danger, and, on the other, is still exposed to peril. Under such circumstances praise rightly occupies the first place'
+  - where: 'setting'
+    claim: 'Hebrews 10 quotes verses 6–8 as the words of Christ at His coming into the world'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/10?lang=eng'
+    quote: 'Wherefore when he cometh into the world, he saith, Sacrifice and offering thou wouldest not, but a body hast thou prepared me'
+  - where: 'setting'
+    claim: 'Psalm 70 is nearly the same as verses 13–17'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/70?lang=eng'
+    quote: 'But I am poor and needy: make haste unto me, O God: thou art my help and my deliverer; O Lord, make no tarrying.'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: '“Desire” in verse 6 and “delight” in verse 8 are forms of one Hebrew verb (Strong’s 2654)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חָפַ֗צְתָּ'
+  - where: 'thread'
+    claim: '“Refrained” in verse 9 and “Withhold” in verse 11 are forms of one Hebrew verb (Strong’s 3607)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִכְלָ֣א'
+
+  # ---- sections ----
+  - where: 'section 2 plain'
+    claim: '“Respecteth not the proud” rendered “does not turn to the proud”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2040&version=NRSVUE'
+    quote: 'who do not turn to the proud,'
+  - where: 'section 3 plain'
+    claim: '“Mine ears hast thou opened” rendered “You have dug ears for me”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3738.htm'
+    quote: 'ears hast thou dug (with allusion to the cavity of the ear) for me'
+  - where: 'section 4 plain'
+    claim: '“Preached” rendered “told the glad news”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2040&version=NRSVUE'
+    quote: 'I have told the glad news of deliverance'
+
+  # ---- note 40:1 ----
+  - where: 'note 40:1 “Waiting, I waited”'
+    claim: 'The Hebrew of “I waited patiently” is the verb “wait” twice: an infinitive and then the finite verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קִוִּ֣יתִי'
+  - where: 'note 40:1 “Waiting, I waited”'
+    claim: 'The verb means to wait or look eagerly for; the lexicon lists this verse with the infinitive absolute'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6960.htm'
+    quote: 'wait, or look eagerly, for'
+  - where: 'note 40:1 “Waiting, I waited”'
+    claim: 'The lexicon notes the infinitive absolute in this verse (Hebrew 40:2)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6960.htm'
+    quote: 'Psalm 40:2 (+ infinitive absolute)'
+
+  # ---- note 40:2 ----
+  - where: 'note 40:2 “A pit of tumult and a rock”'
+    claim: 'The word behind “horrible” is a noun for roar, din, uproar'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁאוֹן֮'
+  - where: 'note 40:2 “A pit of tumult and a rock”'
+    claim: 'The noun means roar (of waters), din, crash, uproar'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7588.htm'
+    quote: 'roar (of waters, etc.), din, crash, uproar'
+  - where: 'note 40:2 “A pit of tumult and a rock”'
+    claim: 'The lexicon reads the phrase as “pit of roaring,” perhaps of waters, and compares Psalm 69:2 (Hebrew 69:3)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7588.htm'
+    quote: 'pit of roaring (of waters? figurative'
+  - where: 'note 40:2 “A pit of tumult and a rock”'
+    claim: 'A modern translation has “desolate pit” and notes that the Hebrew is “pit of tumult”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2040&version=NRSVUE'
+    quote: '40.2 Cn: Heb pit of tumult'
+  - where: 'note 40:2 “A pit of tumult and a rock”'
+    claim: 'The modern translation’s wording of the line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2040&version=NRSVUE'
+    quote: 'He drew me up from the desolate pit,'
+  - where: 'note 40:2 “A pit of tumult and a rock”'
+    claim: 'The Greek has “a pit of misery”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/40.htm'
+    quote: 'And he brought me up out of a pit of misery, and from miry clay'
+  - where: 'note 40:2 “A pit of tumult and a rock”'
+    claim: 'Psalm 69:2 has the mire with no standing and the deep waters'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/69?lang=eng'
+    quote: 'I sink in deep mire, where there is no standing: I am come into deep waters, where the floods overflow me.'
+
+  # ---- note 40:6 ears ----
+  - where: 'note 40:6 “Ears dug for hearing”'
+    claim: 'The Hebrew has the dual “ears” and the verb “you have dug”; the verb of “desire” returns in verse 8 as “delight”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כָּרִ֣יתָ'
+  - where: 'note 40:6 “Ears dug for hearing”'
+    claim: '“Delight” in verse 8 is the verb of “desire” in verse 6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חָפָ֑צְתִּי'
+  - where: 'note 40:6 “Ears dug for hearing”'
+    claim: 'The verb is “dig”; here, ears dug, meaning the means of hearing and obeying'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3738.htm'
+    quote: 'ears hast thou dug (with allusion to the cavity of the ear) for me, thou hast given me the means of hearing and obeying thy will.'
+  - where: 'note 40:6 “Ears dug for hearing”'
+    claim: 'A modern translation: “you have given me an open ear”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2040&version=NRSVUE'
+    quote: 'but you have given me an open ear.'
+  - where: 'note 40:6 “Ears dug for hearing”'
+    claim: 'One older reading: the clause is the positive answer, obedience in place of sacrifice'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/40.htm'
+    quote: 'God desires not sacrifices but hearing ears, and consequently the submission of the person himself in willing obedience.'
+  - where: 'note 40:6 “Ears dug for hearing”'
+    claim: 'The same reading calls David’s words the echo of Samuel’s in 1 Samuel 15:22'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/40.htm'
+    quote: 'The assertion of David is the echo of this assertion of Samuel'
+  - where: 'note 40:6 “Ears dug for hearing”'
+    claim: 'The four terms name sacrifices by their material and by their purpose'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/40.htm'
+    quote: 'according to the material of which they consist'
+  - where: 'note 40:6 “Ears dug for hearing”'
+    claim: 'The verse does not deny that the law of sacrifice came from God'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/40.htm'
+    quote: 'but that the true, essential will of God is not directed to such sacrifices'
+  - where: 'note 40:6 “Ears dug for hearing”'
+    claim: 'Samuel’s words to Saul'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/15?lang=eng'
+    quote: 'Behold, to obey is better than sacrifice, and to hearken than the fat of rams.'
+
+  - where: 'note 40:6 “Ears dug for hearing”'
+    claim: 'The verb means dig'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3738.htm'
+    quote: 'verb dig'
+  - where: 'note 40:6 “Ears dug for hearing”'
+    claim: 'The other two terms name sacrifices by their purpose'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/40.htm'
+    quote: 'according to their purpose'
+
+  # ---- note 40:6 Hebrews ----
+  - where: 'note 40:6 “Hebrews hears Christ speaking”'
+    claim: 'Hebrews introduces the quotation as Christ’s words on coming into the world, with “a body hast thou prepared me”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/10?lang=eng'
+    quote: 'Wherefore when he cometh into the world, he saith, Sacrifice and offering thou wouldest not, but a body hast thou prepared me'
+  - where: 'note 40:6 “Hebrews hears Christ speaking”'
+    claim: 'Hebrews ends the quotation at “to do thy will, O God”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/10?lang=eng'
+    quote: 'Then said I, Lo, I come (in the volume of the book it is written of me,) to do thy will, O God.'
+  - where: 'note 40:6 “Hebrews hears Christ speaking”'
+    claim: 'Hebrews draws its conclusion from “will” and “body”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/10?lang=eng'
+    quote: 'By the which will we are sanctified through the offering of the body of Jesus Christ once for all.'
+  - where: 'note 40:6 “Hebrews hears Christ speaking”'
+    claim: 'The ancient Greek translation of the psalm has “a body hast thou prepared me”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/40.htm'
+    quote: 'Sacrifice and offering thou wouldest not; but a body hast thou prepared me'
+  - where: 'note 40:6 “Hebrews hears Christ speaking”'
+    claim: 'The Greek psalm has the clauses on delight and the law in the heart, which Hebrews does not quote'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/40.htm'
+    quote: 'I desired to do thy will, O my God, and thy law in the midst of mine heart.'
+  - where: 'note 40:6 “Hebrews hears Christ speaking”'
+    claim: 'The Hebrew text has “ears,” and no word for body, in the clause'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אָ֭זְנַיִם'
+
+  # ---- note 40:7 ----
+  - where: 'note 40:7 “The roll of the book”'
+    claim: 'The Hebrew phrase is “in the roll of a book”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בִּ/מְגִלַּת'
+  - where: 'note 40:7 “The roll of the book”'
+    claim: 'The word means a roll of writing'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4039.htm'
+    quote: 'roll of writing, book'
+  - where: 'note 40:7 “The roll of the book”'
+    claim: 'A modern translation: “in the scroll of the book,” and “Here I am” for “Lo, I come”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2040&version=NRSVUE'
+    quote: 'in the scroll of the book it is written of me.'
+  - where: 'note 40:7 “The roll of the book”'
+    claim: 'One older reading: “Lo, I come” is a servant answering his master’s call'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/40.htm'
+    quote: 'the servant places himself at the call of his master'
+  - where: 'note 40:7 “The roll of the book”'
+    claim: 'The same reading: the roll is the law, especially Deuteronomy, which the law of the king required the king to keep by him'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/40.htm'
+    quote: 'written upon skins and rolled up together, which according to the law touching the king (Deuteronomy 17:14-20) was to be the vade-mecum of the king of Israel'
+  - where: 'note 40:7 “The roll of the book”'
+    claim: 'The same reading: “written of me” means written concerning him, prescribing his conduct'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/40.htm'
+    quote: 'which prescribes to him, as a man, and more especially as the king, the right course of conduct'
+  - where: 'note 40:7 “The roll of the book”'
+    claim: 'The law of the king: he writes a copy of the law in a book and reads it all his life'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/17?lang=eng'
+    quote: 'he shall write him a copy of this law in a book out of that which is before the priests the Levites'
+  - where: 'note 40:7 “The roll of the book”'
+    claim: 'Hebrews keeps the clause, in a parenthesis, in Christ’s mouth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/10?lang=eng'
+    quote: 'Then said I, Lo, I come (in the volume of the book it is written of me,) to do thy will, O God.'
+
+  # ---- note 40:9 ----
+  - where: 'note 40:9 “Glad tidings in the great congregation”'
+    claim: 'The Hebrew verb of “preached” (Strong’s 1319)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בִּשַּׂ֤רְתִּי'
+  - where: 'note 40:9 “Glad tidings in the great congregation”'
+    claim: 'The verb means to herald as glad tidings; the lexicon lists this verse (Hebrew 40:10) in that sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1319.htm'
+    quote: 'herald as glad tidings'
+  - where: 'note 40:9 “Glad tidings in the great congregation”'
+    claim: 'The same sense line lists Isaiah 40:9, 52:7 and 61:1'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1319.htm'
+    quote: 'the Messianic servant preaches good tidings to the meek Isaiah 61:1'
+  - where: 'note 40:9 “Glad tidings in the great congregation”'
+    claim: 'A modern translation: “I have told the glad news of deliverance”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2040&version=NRSVUE'
+    quote: 'I have told the glad news of deliverance'
+  - where: 'note 40:9 “Glad tidings in the great congregation”'
+    claim: 'The Church’s chapter heading reads the verse of the Messiah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/40?lang=eng'
+    quote: 'The Messiah will come and preach righteousness'
+  - where: 'note 40:9 “Glad tidings in the great congregation”'
+    claim: 'Isaiah 61:1 in the King James'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/61?lang=eng'
+    quote: 'the Lord hath anointed me to preach good tidings unto the meek'
+
+  - where: 'note 40:9 “Glad tidings in the great congregation”'
+    claim: 'The verb is used of news of a birth and of a victory'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1319.htm'
+    quote: 'gladden with good tidings: birth of a son Jeremiah 20:15; victory 1 Samuel 31:9'
+  - where: 'note 40:9 “Glad tidings in the great congregation”'
+    claim: 'The same sense line lists Isaiah 52:7'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1319.htm'
+    quote: 'Isaiah 52:7 (twice in verse)'
+
+  # ---- note 40:11 ----
+  - where: 'note 40:11 “The plea takes up the thanksgiving’s words”'
+    claim: '“Withhold” in verse 11 is the verb of “refrained” in verse 9 (Strong’s 3607)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶכְלָ֑א'
+  - where: 'note 40:11 “The plea takes up the thanksgiving’s words”'
+    claim: 'The verb of verse 11'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִכְלָ֣א'
+  - where: 'note 40:11 “The plea takes up the thanksgiving’s words”'
+    claim: '“They are more than” in verses 5 and 12 is one Hebrew verb (Strong’s 6105)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עָצְמ֥וּ'
+
+  # ---- note 40:12 ----
+  - where: 'note 40:12 “A messianic psalm whose speaker confesses iniquity”'
+    claim: 'The Church’s heading calls the psalm messianic'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/40?lang=eng'
+    quote: 'A messianic psalm of David'
+  - where: 'note 40:12 “A messianic psalm whose speaker confesses iniquity”'
+    claim: 'One older reading: David’s words in verses 6–8 are shaped by the Spirit to sound like the words of the second David'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/40.htm'
+    quote: 'so moulded by the Holy Spirit, the Spirit of prophecy, that they sound at the same time like the words of the second David'
+  - where: 'note 40:12 “A messianic psalm whose speaker confesses iniquity”'
+    claim: 'The same reading: the whole psalm need not be read as predictive'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/40.htm'
+    quote: 'We are not thereby compelled to understand the whole Psalm as typically predictive.'
+  - where: 'note 40:12 “A messianic psalm whose speaker confesses iniquity”'
+    claim: 'The same reading: the prophetic strain has ceased by this verse (Hebrew 40:13)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/40.htm'
+    quote: 'the typically prophetic strain which still lingers in Psalm 40:10 and Psalm 40:11 has entirely ceased'
+  - where: 'note 40:12 “A messianic psalm whose speaker confesses iniquity”'
+    claim: 'The same reading: his misdeeds have overtaken him in their consequences'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/40.htm'
+    quote: 'overtaken him in their consequences'
+  - where: 'note 40:12 “A messianic psalm whose speaker confesses iniquity”'
+    claim: 'Hebrews quotes verses 6–8 only'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/10?lang=eng'
+    quote: 'Then said I, Lo, I come (in the volume of the book it is written of me,) to do thy will, O God.'
+
+  # ---- note 40:13 ----
+  - where: 'note 40:13 “The ending is also Psalm 70”'
+    claim: 'Psalm 70:1 beside verse 13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/70?lang=eng'
+    quote: 'Make haste, O God, to deliver me; make haste to help me, O Lord.'
+  - where: 'note 40:13 “The ending is also Psalm 70”'
+    claim: 'Psalm 70:4 has “God” where verse 16 has “LORD”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/70?lang=eng'
+    quote: 'let such as love thy salvation say continually, Let God be magnified.'
+  - where: 'note 40:13 “The ending is also Psalm 70”'
+    claim: 'Psalm 70:5 has a plea for haste where verse 17 has “the Lord thinketh upon me”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/70?lang=eng'
+    quote: 'But I am poor and needy: make haste unto me, O God'
+  - where: 'note 40:13 “The ending is also Psalm 70”'
+    claim: 'Psalm 35 has the mockers’ “Aha, aha”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/35?lang=eng'
+    quote: 'Yea, they opened their mouth wide against me, and said, Aha, aha, our eye hath seen it.'
+
+  # ---- christ / explore / parallels ----
+  - where: 'christ'
+    claim: 'Hebrews: the blood of animals cannot take away sins; Christ takes away the first to establish the second'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/10?lang=eng'
+    quote: 'Then said he, Lo, I come to do thy will, O God. He taketh away the first, that he may establish the second.'
+  - where: 'christ'
+    claim: 'Hebrews: we are sanctified by that will, through the offering of His body'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/10?lang=eng'
+    quote: 'By the which will we are sanctified through the offering of the body of Jesus Christ once for all.'
+  - where: 'parallels'
+    claim: 'Hebrews 10:5–7 quotes verses 6–8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/10?lang=eng'
+    quote: 'Wherefore when he cometh into the world, he saith, Sacrifice and offering thou wouldest not, but a body hast thou prepared me'
