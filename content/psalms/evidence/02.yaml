@@ -51,27 +51,12 @@ claims:
 
   # ---- thread ----
   - where: 'thread'
-    claim: 'Psalm 1 opens with the Hebrew word ashre, “blessed”'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'אַ֥שְֽׁרֵי'
-  - where: 'thread'
-    claim: 'Psalm 2:12 closes with the same word, ashre'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'אַ֝שְׁרֵ֗י'
-  - where: 'thread'
     claim: 'The verb behind “put their trust” (chasah) means to flee for protection, to take refuge'
     key: strongs-concordance
     url: 'https://biblehub.com/hebrew/2620.htm'
     quote: 'A primitive root; to flee for protection (compare batach); figuratively, to confide in'
 
   # ---- sections ----
-  - where: 'thread'
-    claim: 'Some traditions read Psalms 1 and 2 as one psalm enclosed by the word “blessed” (1:1 and 2:12)'
-    key: scripture-helps-ps-1
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
-    quote: 'Some traditions view the first two psalms as a single psalm enclosed by the word happy—or “blessed” in the King James Version (see Psalms 1:1 and 2:12'
   - where: 'section 2 plain'
     claim: 'The verb of verse 6 (nasak) is rendered “installed”'
     key: bdb
@@ -233,11 +218,6 @@ claims:
 
   # ---- note 2:7 son ----
   - where: 'note 2:7 “Israel’s king was called God’s son”'
-    claim: 'In several Old Testament verses God declares the king of Israel His son'
-    key: sc-knowhy-865
-    url: 'https://scripturecentral.org/knowhy/why-does-god-declare-jesus-to-be-his-son'
-    quote: 'In several verses of the Old Testament, God declares the king of Israel to be his son, showing the special relationship between God and the king.'
-  - where: 'note 2:7 “Israel’s king was called God’s son”'
     claim: '“Son of God” was understood as a title for the king'
     key: sc-knowhy-865
     url: 'https://scripturecentral.org/knowhy/why-does-god-declare-jesus-to-be-his-son'
@@ -317,7 +297,7 @@ claims:
     url: 'https://biblehub.com/hebrew/7489.htm'
     quote: 'Psalm 2:9 (but read תִּרְעֵם, see I.'
   - where: 'note 2:9 “Break, or shepherd?”'
-    claim: 'Ra‘ah is to pasture, tend; its related noun in Assyrian means ruler'
+    claim: 'Ra‘ah is to pasture, tend, graze'
     key: bdb
     url: 'https://biblehub.com/hebrew/7462.htm'
     quote: 'verb pasture, tend, graze (Assyrian rê°û, verb pasture, noun ruler'
