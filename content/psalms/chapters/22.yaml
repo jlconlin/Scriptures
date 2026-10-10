@@ -4,7 +4,7 @@ tagline: A man ringed by enemies and near death asks why God is far off, is answ
 when: 'By its title, a psalm of David; no occasion is given'
 
 setting: |
-  Psalm 22 stands in Book One of the Psalms, just before the shepherd psalm ([[Ps. 23:1]]). Its title reads “To the chief Musician upon Aijeleth Shahar, A Psalm of David.” The two Hebrew words left untranslated are rendered “The Deer of the Dawn” in a modern translation, and titles of this kind are “probably names of tunes, well known at the time.” The title names no occasion in David’s life.
+  Psalm 22 stands in Book One of the Psalms, just before the shepherd psalm ([[Ps. 23:1]]). Its title ascribes it to David and names no occasion in his life.
 
   The speaker is one man, surrounded and wasting, who prays his way from complaint to praise. That movement is the form of a lament, the most common kind of psalm; the first note on verse 1 sets out its parts.
 
@@ -56,6 +56,13 @@ sections:
       All the ends of the earth will remember and turn to the LORD, and all the families of the nations will worship before Him, for the kingdom is the LORD’s and He rules over the nations. All the fat ones of the earth will eat and worship; all who go down to the dust will kneel before Him, and no one can keep his own soul alive. A posterity will serve Him; it will be counted to the Lord for a generation. They will come and declare His righteousness to a people not yet born: that He has done it.
 
 notes:
+  - ref: 0
+    phrase: Aijeleth Shahar
+    kind: words
+    title: The Deer of the Dawn
+    body: |
+      The two Hebrew words the King James leaves untranslated are rendered “The Deer of the Dawn” in a modern translation, and titles of this kind are “probably names of tunes, well known at the time.”
+    sources: [nrsvue, bd-psalms]
   - ref: 1
     phrase: My God, my God
     kind: structure
