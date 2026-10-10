@@ -4,7 +4,7 @@ tagline: Under a night sky the psalmist asks why the Maker of the stars should k
 when: 'Undated; a psalm of David by its title'
 
 setting: |
-  The title reads “To the chief Musician upon Gittith, A Psalm of David.” The Hebrew behind “chief Musician” is a verb for one who acts “as overseer, superintendent, director”: the psalm is addressed to whoever led the singing. Gittith is uncertain. The word stands in three titles (Psalms 8, 81 and 84), looks like “belonging to Gath,” and “may relate either to the melody or to the instrument used in the performance.” The ancient Greek translators took it for a similar word and wrote “concerning the wine-presses.” What a title is, and what it is worth as evidence, is discussed at [[Ps. 3:1]].
+  The title ascribes the psalm to David.
 
   No occasion is named. The speaker looks at the moon and the stars and does not mention the sun, which suggests a night sky. The psalm asks God for nothing. It is a hymn of praise and a creation psalm.
 
@@ -38,6 +38,13 @@ sections:
       Lord, our Lord, how majestic Your name is through all the earth!
 
 notes:
+  - ref: 0
+    phrase: To the chief Musician upon Gittith
+    kind: words
+    title: The chief Musician and Gittith
+    body: |
+      The psalm is addressed to whoever led the singing: the Hebrew behind “chief Musician” is a verb for one who acts “as overseer, superintendent, director.” Gittith is uncertain. The word stands in three titles (Psalms 8, 81 and 84), looks like “belonging to Gath,” and “may relate either to the melody or to the instrument used in the performance.” The ancient Greek translators took it for a similar word and wrote “concerning the wine-presses.” What a title is, and what it is worth as evidence, is discussed under the title of Psalm 3 ([[Ps. 3:1]]).
+    sources: [bdb, bd-psalms, lxx-rahlfs]
   - ref: 1
     phrase: O LORD our Lord
     kind: words
