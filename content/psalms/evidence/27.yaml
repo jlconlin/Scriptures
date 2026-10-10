@@ -1,0 +1,575 @@
+chapter: 27
+claims:
+  # ---- when ----
+  - where: 'when'
+    claim: 'The title ascribes the psalm to David and gives no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/27?lang=eng'
+    quote: 'A Psalm of David.'
+
+  # ---- setting ----
+  - where: 'setting'
+    claim: 'Psalms 25–31 are all attributed to David'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'All seven of Psalms 25–31 are attributed to King David'
+  - where: 'setting'
+    claim: 'Psalms 25–31 are in the first of the five books of the Psalter'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'Psalms 25–31 appear in what is often identified as the first of five “books” of the Psalter (Psalms 1–41).'
+  - where: 'setting'
+    claim: 'The Greek translation adds an occasion to the title: before he was anointed'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/27.htm'
+    quote: 'A Psalm of David, before he was anointed.'
+  - where: 'setting'
+    claim: 'The Hebrew title is only “of David”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ/דָוִ֨ד'
+  - where: 'setting'
+    claim: 'Psalms 26 and 27 have been read together as psalms of love for the temple'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'Psalms 26 and 27 discuss the Psalmist’s love for the temple, which Nephi most certainly shared'
+  - where: 'setting'
+    claim: 'Psalm 27 has been classed as a lament of one person'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'He identified Psalms 25–28 and 31 as individual laments, Psalm 29 as a hymn, and Psalm 30 as a thanksgiving psalm.'
+  - where: 'setting'
+    claim: 'It has been proposed that Nephi was most directly influenced by Psalms 25–31'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'he appears to be most directly influenced by Psalms 25–31 based on an amazing concentration of shared feelings and phrases'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'Verse 4 “will I seek after” is the Hebrew verb baqash (H1245)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲבַ֫קֵּ֥שׁ'
+  - where: 'thread'
+    claim: 'Verse 8 “will I seek” is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲבַקֵּֽשׁ'
+  - where: 'thread'
+    claim: 'Verse 5 “shall he hide me” is the Hebrew verb satar (H5641)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יַ֭סְתִּרֵ/נִי'
+  - where: 'thread'
+    claim: 'Verse 9 “Hide not” is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תַּסְתֵּ֬ר'
+  - where: 'thread'
+    claim: '“My salvation” in verse 1 and verse 9 is one Hebrew noun (H3468)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִשְׁעִֽ/י'
+  - where: 'thread'
+    claim: 'Verse 13 is a sentence that breaks off'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3884.htm'
+    quote: 'with an aposiop. Psalm 27:13 if I had not believed ...!'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: 'Verse 1: “stronghold of my life”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2027&version=NRSVUE'
+    quote: 'The Lord is the stronghold of my life;'
+  - where: 'section 2 plain'
+    claim: 'Verse 5: “under the cover of his tent”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2027&version=NRSVUE'
+    quote: 'he will conceal me under the cover of his tent;'
+  - where: 'section 2 plain'
+    claim: 'Verse 6: “sacrifices with shouts of joy”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2027&version=NRSVUE'
+    quote: 'sacrifices with shouts of joy;'
+  - where: 'section 4 plain'
+    claim: 'Verse 11: “a level path”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2027&version=NRSVUE'
+    quote: 'and lead me on a level path'
+  - where: 'section 4 plain'
+    claim: 'Verse 12: “breathing out violence”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2027&version=NRSVUE'
+    quote: 'and they are breathing out violence.'
+
+  # ---- note 27:1 ----
+  - where: 'note 27:1 “The stronghold of my life”'
+    claim: 'The Hebrew word translated “strength” is ma‘oz (H4581)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מָֽעוֹז'
+  - where: 'note 27:1 “The stronghold of my life”'
+    claim: 'Ma‘oz means a place or means of safety'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4581.htm'
+    quote: 'place or means of safety, protection'
+  - where: 'note 27:1 “The stronghold of my life”'
+    claim: 'It is used figuratively of God as refuge, in this verse among others'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4581.htm'
+    quote: 'as refuge Nahum 1:7; Psalm 27:1; Psalm 31:5; Psalm 37:39'
+  - where: 'note 27:1 “The stronghold of my life”'
+    claim: 'A modern translation has “the stronghold of my life”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2027&version=NRSVUE'
+    quote: 'The Lord is the stronghold of my life;'
+  - where: 'note 27:1 “The stronghold of my life”'
+    claim: 'The same translation gives “refuge” as an alternative'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2027&version=NRSVUE'
+    quote: '27.1 Or refuge'
+
+  # ---- note 27:4 ----
+  - where: 'note 27:4 “The one thing: to dwell, to behold, to inquire”'
+    claim: 'The psalmist had one overarching request'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'the Psalmist sought one thing above all others, had one overarching request of the Lord'
+  - where: 'note 27:4 “The one thing: to dwell, to behold, to inquire”'
+    claim: '“Beauty” is no‘am, delightfulness, pleasantness'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5278.htm'
+    quote: 'delightfulness, pleasantness'
+  - where: 'note 27:4 “The one thing: to dwell, to behold, to inquire”'
+    claim: 'In this verse it is the delightfulness of the LORD contemplated in the temple'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5278.htm'
+    quote: 'contemplated in temple Psalm 27:4'
+  - where: 'note 27:4 “The one thing: to dwell, to behold, to inquire”'
+    claim: '“Inquire” is the verb baqar, inquire, seek'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1239.htm'
+    quote: 'verb inquire, seek'
+  - where: 'note 27:4 “The one thing: to dwell, to behold, to inquire”'
+    claim: 'For this verse the lexicon gives “contemplate”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1239.htm'
+    quote: 'Psalm 27:4'
+  - where: 'note 27:4 “The one thing: to dwell, to behold, to inquire”'
+    claim: 'Elsewhere it means consider, reflect'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1239.htm'
+    quote: 'consider, reflect, absolute Proverbs 20:25'
+  - where: 'note 27:4 “The one thing: to dwell, to behold, to inquire”'
+    claim: 'Ezekiel uses it of the LORD seeking His sheep in order to care for them'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1239.htm'
+    quote: 'seek (in order to care for) followed by accusative'
+  - where: 'note 27:4 “The one thing: to dwell, to behold, to inquire”'
+    claim: 'The Hebrew of “to inquire” in verse 4 is from baqar (H1239), a different verb from “seek after” (H1245)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וּ/לְ/בַקֵּ֥ר'
+  - where: 'note 27:4 “The one thing: to dwell, to behold, to inquire”'
+    claim: '“Seek after” in verse 4 is baqash (H1245)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲבַ֫קֵּ֥שׁ'
+  - where: 'note 27:4 “The one thing: to dwell, to behold, to inquire”'
+    claim: 'The same verb stands twice in verse 8: “seek ye” and “will I seek”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּקְּשׁ֣וּ'
+  - where: 'note 27:4 “The one thing: to dwell, to behold, to inquire”'
+    claim: 'Seeking the face of the Lord and seeking to be in the temple are one quest'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'Seeking the face of the Lord and seeking to be in the temple were twin thrusts of the same quest.'
+
+  # ---- note 27:5 ----
+  - where: 'note 27:5 “A booth, a tent, and a rock”'
+    claim: '“Pavilion” translates a word for a booth or covert'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'The word “pavilion” is translated from the Hebrew noun cok, which is a “booth” or “covert”'
+  - where: 'note 27:5 “A booth, a tent, and a rock”'
+    claim: 'The lexicon gives covert for the word and suggests reading “a booth” in this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5520.htm'
+    quote: 'thicket, covert, lair'
+  - where: 'note 27:5 “A booth, a tent, and a rock”'
+    claim: '“Tabernacle” is ’ohel, a tent, and the word for the tabernacle of Moses'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'the portable tabernacle temple of Moses and the children of Israel'
+  - where: 'note 27:5 “A booth, a tent, and a rock”'
+    claim: '“Secret” is a hiding place, used especially of the LORD as shelter'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5643.htm'
+    quote: 'as shelter'
+  - where: 'note 27:5 “A booth, a tent, and a rock”'
+    claim: 'A modern translation: “under the cover of his tent”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2027&version=NRSVUE'
+    quote: 'he will conceal me under the cover of his tent;'
+  - where: 'note 27:5 “A booth, a tent, and a rock”'
+    claim: '“Temple” in verse 4 is hekal (H1964)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/הֵיכָלֽ/וֹ'
+  - where: 'note 27:5 “A booth, a tent, and a rock”'
+    claim: 'Hekal means palace, temple'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1964.htm'
+    quote: 'palace, temple'
+  - where: 'note 27:5 “A booth, a tent, and a rock”'
+    claim: 'It names the sanctuary as the palace of God considered as king'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1964.htm'
+    quote: 'palace of God considered as king'
+  - where: 'note 27:5 “A booth, a tent, and a rock”'
+    claim: '“Tabernacle” in verses 5 and 6 is ’ohel (H168)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אָהֳל֑/וֹ'
+  - where: 'note 27:5 “A booth, a tent, and a rock”'
+    claim: 'In David’s day the ark stood in a tent he had pitched for it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/6?lang=eng'
+    quote: 'in the midst of the tabernacle that David had pitched for it'
+  - where: 'note 27:5 “A booth, a tent, and a rock”'
+    claim: '“Shall he hide me” in verse 5 is the verb satar (H5641)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יַ֭סְתִּרֵ/נִי'
+  - where: 'note 27:5 “A booth, a tent, and a rock”'
+    claim: '“Hide not” in verse 9 is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תַּסְתֵּ֬ר'
+
+  # ---- note 27:6 ----
+  - where: 'note 27:6 “Sacrifices with shouting”'
+    claim: '“Joy” is teru‘ah (H8643)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תְרוּעָ֑ה'
+  - where: 'note 27:6 “Sacrifices with shouting”'
+    claim: 'Teru‘ah is a shout or blast of war, alarm, or joy'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8643.htm'
+    quote: 'shout or blast of war, alarm, or joy'
+  - where: 'note 27:6 “Sacrifices with shouting”'
+    claim: 'Here it is a shout of joy with religious impulse; the lexicon lists 2 Samuel 6:15 and this verse under that sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8643.htm'
+    quote: '3 shout of joy with religious impulse, 1 Samuel 4:5,6 (twice in verse); 2 Samuel 6:15'
+  - where: 'note 27:6 “Sacrifices with shouting”'
+    claim: 'A modern translation: “sacrifices with shouts of joy”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2027&version=NRSVUE'
+    quote: 'sacrifices with shouts of joy;'
+
+  # ---- note 27:7 ----
+  - where: 'note 27:7 “Confidence first, then the plea”'
+    claim: 'Vows of thanksgiving usually close a psalm; here the prayer only begins after the vow'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/27.htm'
+    quote: 'are very common at the close of Psalms. But in this Psalm the prayer is only just beginning at this stage.'
+  - where: 'note 27:7 “Confidence first, then the plea”'
+    claim: 'The halves differ enough to tempt one to think verse 7 onward another writer’s'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/27.htm'
+    quote: 'so that one is tempted to regard Psalm 27:7 as the appendage of another writer'
+  - where: 'note 27:7 “Confidence first, then the plea”'
+    claim: 'The compiler had the psalm as one'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/27.htm'
+    quote: 'The compiler, however, must have had the Psalm before him exactly as we now have it'
+  - where: 'note 27:7 “Confidence first, then the plea”'
+    claim: 'Triumphant faith in the first part changes to pleading faith in the second'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/27.htm'
+    quote: 'the fides triumphans of the first part changes into fides supplex in the second'
+  - where: 'note 27:7 “Confidence first, then the plea”'
+    claim: 'The danger overcome by faith in the first part makes itself felt in the second'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/27.htm'
+    quote: 'The reality, which, in the first part, is overcome and surmounted by his faith, makes itself consciously felt here.'
+  - where: 'note 27:7 “Confidence first, then the plea”'
+    claim: '“Salvation” in verses 1 and 9 is one Hebrew noun (H3468)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִשְׁעִֽ/י'
+  - where: 'note 27:7 “Confidence first, then the plea”'
+    claim: '“Heart” in verses 3, 8 and 14 is one Hebrew noun (H3820)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לִ֫בִּ֥/י'
+  - where: 'note 27:7 “Confidence first, then the plea”'
+    claim: 'The verb for seeking stands in verse 4 and verse 8'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲבַקֵּֽשׁ'
+  - where: 'note 27:7 “Confidence first, then the plea”'
+    claim: 'The verb for hiding stands in verse 5 and verse 9'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תַּסְתֵּ֬ר'
+
+  # ---- note 27:8 ----
+  - where: 'note 27:8 “Who says “Seek ye my face”?”'
+    claim: 'The verse begins “to thee,” and has no words for “When thou saidst”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ/ךָ֤'
+  - where: 'note 27:8 “Who says “Seek ye my face”?”'
+    claim: '“Seek ye” is a plural imperative (morphology HVpv2mp)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּקְּשׁ֣וּ'
+  - where: 'note 27:8 “Who says “Seek ye my face”?”'
+    claim: 'The Greek translation of the verse'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/27.htm'
+    quote: 'My heart said to thee, I have diligently sought thy face: thy face, O Lord, I will seek.'
+  - where: 'note 27:8 “Who says “Seek ye my face”?”'
+    claim: 'A modern translation makes the summons the heart’s own'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2027&version=NRSVUE'
+    quote: 'my heart says, “seek his face!”'
+  - where: 'note 27:8 “Who says “Seek ye my face”?”'
+    claim: 'The same translation keeps the last clause'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2027&version=NRSVUE'
+    quote: 'Your face, Lord, do I seek.'
+  - where: 'note 27:8 “Who says “Seek ye my face”?”'
+    claim: 'The King James wording of the verse'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/27?lang=eng'
+    quote: 'When thou saidst, Seek ye my face; my heart said unto thee'
+
+  # ---- note 27:10 ----
+  - where: 'note 27:10 “Did David’s parents forsake him?”'
+    claim: 'The Hebrew verb is a perfect, “have forsaken me” (morphology HVqp3cp)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עֲזָב֑וּ/נִי'
+  - where: 'note 27:10 “Did David’s parents forsake him?”'
+    claim: 'The Greek translates it as a completed act'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/27.htm'
+    quote: 'For my father and my mother have forsaken me, but the Lord has taken me to himself.'
+  - where: 'note 27:10 “Did David’s parents forsake him?”'
+    claim: 'A modern translation takes it as a supposition'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2027&version=NRSVUE'
+    quote: 'If my father and mother forsake me,'
+  - where: 'note 27:10 “Did David’s parents forsake him?”'
+    claim: 'David placed his parents with the king of Moab while Saul pursued him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/22?lang=eng'
+    quote: 'Let my father and my mother, I pray thee, come forth, and be with you, till I know what God will do for me.'
+  - where: 'note 27:10 “Did David’s parents forsake him?”'
+    claim: 'One commentator finds the verse unlike David, who is only said to have parted from his parents'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/27.htm'
+    quote: 'does not sound as though it came from the lips of David, of whom it is only said during the time of his persecution by Saul, that at that time he was obliged to part from his parents, 1 Samuel 22:3'
+  - where: 'note 27:10 “Did David’s parents forsake him?”'
+    claim: 'The commentator reads the verse as fact because it gives the reason for the plea before it'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/27.htm'
+    quote: 'is naturally followed by the reason: for my father and my mother have forsaken me'
+  - where: 'note 27:10 “Did David’s parents forsake him?”'
+    claim: 'He allows the words might be David’s if hypothetical'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/27.htm'
+    quote: "The words certainly might be David's, if Psalm 27:10 would admit of being taken hypothetically"
+  - where: 'note 27:10 “Did David’s parents forsake him?”'
+    claim: 'The verb “take up” is used of bringing home a stray ox or sheep'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/622.htm'
+    quote: 'also of stray ox or sheep Deuteronomy 22:2'
+  - where: 'note 27:10 “Did David’s parents forsake him?”'
+    claim: 'For this verse the lexicon gives “take up, care for”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/622.htm'
+    quote: 'take up, care for, subject'
+
+  # ---- note 27:11 ----
+  - where: 'note 27:11 “Nephi’s psalm and this one”'
+    claim: 'A count of psalm phrases in the Book of Mormon finds two allusions to Psalm 27'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: 'Eight psalms (27, 34, 56, 69, 90, 106, 115, and 121) have two allusions'
+  - where: 'note 27:11 “Nephi’s psalm and this one”'
+    claim: '“Goodness of the Lord” (27:13) is set beside 2 Nephi 4:17'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: 'Case 13 Psalm 27:13, 33:5 2 Nephi 4:17 Goodness of the Lord'
+  - where: 'note 27:11 “Nephi’s psalm and this one”'
+    claim: '“Because of mine enemies” (27:11) is set beside 2 Nephi 4:27 and 4:29'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: 'Case 4 Psalms 5:8; 27:11; 69:18 2 Nephi 4:27; 2 Nephi 4:29; 3 Nephi 3:26 Because of mine enemies'
+  - where: 'note 27:11 “Nephi’s psalm and this one”'
+    claim: 'Nephi’s “my support” is compared with verses that call the Lord strength, 27:1 among them'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'Several verses in Psalms 27, 28, 29, and 31 speak of the Lord as a source of strength and support'
+  - where: 'note 27:11 “Nephi’s psalm and this one”'
+    claim: '2 Nephi 4:32 is compared with Psalm 27:9'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'Both verses ask the Lord not to reject the person writing the psalm but to allow the Lord’s presence or influence to abide with him.'
+  - where: 'note 27:11 “Nephi’s psalm and this one”'
+    claim: 'Nephi’s plain road is compared with the plain path of 27:11; the Hebrew word means level country or plain, and uprightness'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'which means a “level country” or “plain” and also denotes “uprightness.”'
+  - where: 'note 27:11 “Nephi’s psalm and this one”'
+    claim: 'The authors’ conclusion'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'it appears quite possible that he composed his psalm after reading and pondering what we identify today as Psalms 25–31'
+  - where: 'note 27:11 “Nephi’s psalm and this one”'
+    claim: 'They do not claim these psalms were his only source, and note that enemies are a common subject'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'we are not claiming that Psalms 25–31 were the sole inspiration for Nephi as he wrote his inspiring psalm. References to enemies, for example, one of the most common subjects in Psalms'
+  - where: 'note 27:11 “Nephi’s psalm and this one”'
+    claim: 'The case rests on the concentration of themes in seven psalms'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'Nearly all of the major themes of Nephi’s psalm can be found in Psalms 25–31 (under 5 percent of the entire book)'
+  - where: 'note 27:11 “Nephi’s psalm and this one”'
+    claim: 'The words of Psalm 27:11 and 27:13 compared'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/27?lang=eng'
+    quote: 'and lead me in a plain path, because of mine enemies.'
+
+  # ---- note 27:13 ----
+  - where: 'note 27:13 “A sentence that breaks off”'
+    claim: 'The verse’s Hebrew words begin with “unless” and “I had believed,” with nothing for “I had fainted”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הֶ֭אֱמַנְתִּי'
+  - where: 'note 27:13 “A sentence that breaks off”'
+    claim: 'The first word means if not, unless'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3884.htm'
+    quote: 'if not, unless'
+  - where: 'note 27:13 “A sentence that breaks off”'
+    claim: 'The lexicon marks this verse as an aposiopesis'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3884.htm'
+    quote: 'with an aposiop. Psalm 27:13 if I had not believed ...!'
+  - where: 'note 27:13 “A sentence that breaks off”'
+    claim: 'The Greek reads a plain statement'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/27.htm'
+    quote: 'I believe that I shall see the goodness of the Lord in the land of the living.'
+  - where: 'note 27:13 “A sentence that breaks off”'
+    claim: 'A modern translation reads the same'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2027&version=NRSVUE'
+    quote: 'I believe that I shall see the goodness of the Lord'
+  - where: 'note 27:13 “A sentence that breaks off”'
+    claim: 'Skinner asks whether verses 13–14 together were what kept the psalmist faithful'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'what ultimately kept the Psalmist faithful and motivated'
+
+  # ---- note 27:14 ----
+  - where: 'note 27:14 “Who says “Wait,” and to whom”'
+    claim: '“Wait” is a singular imperative of qavah (H6960; morphology HVpv2ms)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קַוֵּ֗ה'
+  - where: 'note 27:14 “Who says “Wait,” and to whom”'
+    claim: 'On one reading he speaks to himself'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/27.htm'
+    quote: 'he speaks to himself, it is, as it were, the believing half of his soul addressing the despondent and weaker half'
+  - where: 'note 27:14 “Who says “Wait,” and to whom”'
+    claim: 'The line is compared with Deuteronomy 31:7, with the second verb changed to a wish about the heart'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/27.htm'
+    quote: 'let thy heart be strong, let it give proof of strength'
+  - where: 'note 27:14 “Who says “Wait,” and to whom”'
+    claim: 'The commentator names Deuteronomy 31:7 as the comparison'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/27.htm'
+    quote: '(Deuteronomy 31:7) the expression is, as in Psalm 31:25'
+  - where: 'note 27:14 “Who says “Wait,” and to whom”'
+    claim: 'The Greek: “let thy heart be strengthened”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/27.htm'
+    quote: 'be of good courage, and let thy heart be strengthened'
+  - where: 'note 27:14 “Who says “Wait,” and to whom”'
+    claim: 'A modern translation: “let your heart take courage”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2027&version=NRSVUE'
+    quote: 'be strong, and let your heart take courage;'
+  - where: 'note 27:14 “Who says “Wait,” and to whom”'
+    claim: 'The verb means wait, or look eagerly, for (this verse is listed under that sense; Isaiah 40:31 is in the same entry)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6960.htm'
+    quote: 'wait, or look eagerly, for'
+  - where: 'note 27:14 “Who says “Wait,” and to whom”'
+    claim: 'Elder Hales on what “wait” means in the scriptures'
+    key: hales-waiting
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2011/10/waiting-upon-the-lord-thy-will-be-done?lang=eng'
+    quote: 'In the scriptures, the word wait means to hope, to anticipate, and to trust.'
+  - where: 'note 27:14 “Who says “Wait,” and to whom”'
+    claim: 'The King James wording of the verse'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/27?lang=eng'
+    quote: 'be of good courage, and he shall strengthen thine heart'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'The Church’s edition points from “light” in verse 1 to the Topical Guide entry “Jesus Christ, Light of the World”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/27?lang=eng'
+    quote: 'TG Jesus Christ, Light of the World'
+  - where: 'christ'
+    claim: 'D&C 93:1 is set beside the Psalms’ hope of seeing the Lord’s face'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'Several other passages in modern revelation hold up the promise of a face-to-face encounter with the Lord.'
+  - where: 'christ'
+    claim: 'Elder Hales taught that the Savior waited upon His Father in Gethsemane'
+    key: hales-waiting
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2011/10/waiting-upon-the-lord-thy-will-be-done?lang=eng'
+    quote: 'He waited upon His Father, saying, “Thy will be done,” and He humbly trod the winepress alone.'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'Skinner’s essay reads Psalm 27:4, 8–9 and 13–14 together'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'the Psalmist uttered these words only three verses after he petitioned the Lord to be allowed to spend the rest of his days in the temple (see v. 4)'
+  - where: 'explore'
+    claim: 'Psalms 17:15, 42:2 and 11:7 are named as psalms of seeing God in the temple'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'for the experience of God in the temple (Psalm. 17:15; 42:2; 63:2; 84:7; cf. 11:7; Job 33:26)'
+  - where: 'explore'
+    claim: 'Elder Hales’s talk on waiting upon the Lord'
+    key: hales-waiting
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2011/10/waiting-upon-the-lord-thy-will-be-done?lang=eng'
+    quote: 'What, then, does it mean to wait upon the Lord?'
+
+  # ---- parallels ----
+  - where: 'parallels'
+    claim: '2 Nephi 4:17 and 4:29 are listed as allusions to Psalm 27:13 and 27:11'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: 'Case 13 Psalm 27:13, 33:5 2 Nephi 4:17 Goodness of the Lord'
+  - where: 'parallels'
+    claim: 'Deuteronomy 31:7 is compared with verse 14'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/27.htm'
+    quote: '(Deuteronomy 31:7) the expression is, as in Psalm 31:25'
