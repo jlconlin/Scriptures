@@ -129,3 +129,71 @@ The coordinator's leads from the brief's research. Each would have to show an ar
 - (16) Seeing God's face and His presence in the temple (16:11; 17:15; 24:6; 27:4, 8).
 - (16) The right hand (16:8, 11; 110:1, 5).
 - (16) The Psalms in the apostles' preaching in Acts (Psalm 16 in Acts 2 and 13; Psalm 2 in Acts 4 and 13; Psalm 110 in Acts 2).
+
+## Reported by chapters 17–31 (not yet sorted)
+
+- (17) Seeing the face of God (11:7; 16:11; 17:15; 24:6; 27:4, 8; 42:2), with Num. 12:8, Matt. 5:8, D&C 93:1 and 97:15-16; this psalm adds 'likeness' (temunah).
+- (17) The portion: the LORD as one's portion against a portion in this life (16:5; 17:14; 73:26; 119:57; 142:5).
+- (17) The prosperity of the wicked (17:14, with 37, 49 and 73).
+- (17) The shadow of His wings (17:8; 36:7; 57:1; 61:4; 63:7; 91:4), with Deut. 32:11.
+- (17) The tested heart (7:9; 11:4-5; 17:3; 26:2; 66:10; 139:23).
+- (17) Joseph Smith's revision read beside his own history (11; 12; 14; 17).
+- (18) The LORD as Rock: 18:2, 31, 46, with 19:14; 28:1; 31:2-3; 62:2, 6-7; 89:26; 95:1; Deut. 32.
+- (18) The king and the promise to David's seed: 18:50 with 2:2; 89; 132; 2 Sam. 7; Luke 1:32-33.
+- (18) The LORD's appearing in storm: 18:7-15 with 29; 50:2-3; 68:7-8; 77:16-18; 97:2-5; 144:5-7; Ex. 19; Hab. 3.
+- (18) Rescue from the waters and from Sheol: 18:4-5, 16 with 69:1-2, 14-15; 116:3; 124:4-5; 144:7.
+- (18) The bands of death in the Book of Mormon: 18:4-5; 116:3 with Mosiah 15:8; Alma 5:7-10.
+- (18) Claims of innocence beside David's story: 7:8; 17:3; 18:20-24; 26, with Psalm 51.
+- (18) Psalms that repeat or borrow: 18 and 2 Sam. 22; 18:16 and 144:7.
+- (19) Creation as God's witness: Ps. 8:1, 3; 19:1-6; 104 (with Alma 30:44 and D&C 88:45-47).
+- (19) Praise of the law: Ps. 1:2; 19:7-11; 119.
+- (19) The LORD as rock: Ps. 18:2, 31, 46; 19:14.
+- (19) The LORD as redeemer (go'el): Ps. 19:14; 69:18; 72:14; 103:4; 119:154.
+- (19) 'Thy servant': Ps. 18 title; 19:11, 13.
+- (20) The name of the LORD as protection and boast (20:1, 5, 7; compare 8:1, 9).
+- (20) The king's prayer and its answer: Psalms 20 and 21 as a pair (20:4; 21:1-2), with the royal psalms 2, 18, 110.
+- (20) Help from Zion and from heaven (20:2, 6; 3:4; 24:3).
+- (20) Trust in the LORD and not in arms (20:7; 33:16-17; 44:6; 147:10), toward Isa. 31:1.
+- (20) 'Save, LORD' and Hosanna (20:9; 118:25).
+- (21) The LORD's own attributes laid on the king or on humankind: honour and majesty (21:5; 8:5; 45:3; 96:6; 104:1).
+- (21) The face of God: joy before it (16:11; 21:6) and judgment from it (21:9; 34:16).
+- (21) Psalms 20 and 21 as a pair, prayer and thanksgiving for the king, with the other royal psalms (2, 18, 110).
+- (21) 'Shall not be moved' (13:4; 15:5; 16:8; 21:7).
+- (25) The meek and the inheritance of the land or earth: 25:9, 13; 37:9, 11, 22; with Matt. 5:5 and D&C 88:17.
+- (25) Waiting on the LORD: 25:3, 5, 21; 27:14; 37:9; 40:1; 130:5 (and Isa. 40:31 on the site).
+- (25) The acrostic psalms and what each does with the alphabet: 9-10, 25, 34, 37, 111, 112, 119, 145 (25 and 34 as a pair).
+- (25) Psalms 25-31 and Nephi's psalm (2 Ne. 4:16-35): one essay covers all seven psalms.
+- (25) 'For thy name's sake': 23:3; 25:11; 31:3; 79:9; 106:8; 109:21; 143:11.
+- (25) The LORD's council or confidence (sod): 25:14; 89:7; 111:1; with Jer. 23:18 and Amos 3:7.
+- (26) Walking in integrity while pleading for mercy: 7:8; 25:21; 26:1, 11; 41:12; 101:2.
+- (26) Entering the LORD's house and what it requires: 15; 24:3-6; 26:1-8; 27:4; 73:13-17; 118:19-20.
+- (26) Hands (clean, washed, full of bribes): 24:4; 26:6, 10; 73:13.
+- (26) The level or plain path: 26:12; 27:11; 143:10 (and 2 Ne. 4:32).
+- (26) Psalms 25-31 beside Nephi's psalm (Alford and Baker): 25:17; 26:11-12; 27:11.
+- (26) The LORD who tries the reins and heart: 7:9; 26:2 (Jer. 11:20; 17:10; Rev. 2:23).
+- (27) Seeking and seeing the face of God in His house: 27:4, 8-9, 13 (with 11:7, 17:15, 24:6, 42:2).
+- (27) The hidden face and being hidden by God, one verb (satar): 27:5, 9; 13:1; 31:20.
+- (27) Waiting on the LORD: 27:14; 25:3, 5, 21; 37:9, 34; 40:1; 130:5-6, with Isa. 40:31.
+- (27) The LORD as refuge, rock and stronghold: 27:1, 5; 18:2; 31:2-3; 61:2-4.
+- (27) Psalms 25-31 and Nephi's psalm (2 Ne. 4:16-35): Alford and Baker's study covers all seven.
+- (28) Prayer toward the sanctuary with lifted hands (5:7; 28:2; 63:4; 134:2; 141:2; with 1 Kgs. 8).
+- (28) Psalms 25-31 and the psalm of Nephi (28:1, 6-7; 2 Ne. 4:16-35).
+- (28) God's silence (28:1; 35:22; 39:12; 83:1; 109:1).
+- (28) The shepherd who carries (28:9; 23:1; 78:52; 80:1; Isa. 40:11; 63:9), already on the list.
+- (28) Laments that turn without saying what changed (28:6; 13; 22:21), already on the list.
+- (28) The LORD's anointed (28:8; 2:2), already on the list.
+- (29) The LORD enthroned as King: 29:10, with 24:7-10; 93; 96-99.
+- (29) The heavenly beings and the council: 29:1; 82:1; 89:5-7.
+- (29) The voice of the LORD in thunder and earthquake: 29:3-9; 18:13; 77:17-18; 97:4, with Hel. 12:9-11 and 3 Ne. 8:6 (KnoWhy #754).
+- (29) Lines sung twice: 29:1-2 in 96:7-9 and 1 Chr. 16:28-29.
+- (29) The waters under the LORD's rule: 29:3, 10; 74:13-14; 93:3-4; 104.
+- (30) The argument that the dead cannot praise: 6:5; 30:9; 88:10-12; 115:17, with Isa. 38:18-19 and the Joseph Smith Translation of 30:9.
+- (30) The hidden face: 13:1; 27:9; 30:7; 44:24; 88:14; 104:29.
+- (30) Night and morning: 30:5; 46:5; 90:14; 130:6; 143:8.
+- (30) "I shall never be moved", said by the wicked (10:6), by the secure (30:6) and of the righteous (15:5; 16:8; 62:2).
+- (30) Psalms 25-31 and Nephi's psalm (2 Ne. 4:16-35).
+- (31) God's hand against the enemy's hand (31:5, 8, 15).
+- (31) The face of God: shining, a hiding place, being cut off from His eyes (31:16, 20, 22; with 4:6, 24:6, 27:5).
+- (31) Psalms 25-31 and the psalm of Nephi (31:15, 19; Alford and Baker).
+- (31) Lines shared with the prophets: Jeremiah 20:10 (31:13); Jonah 2:4 and 2:8 (31:22, 31:6).
+- (31) The Savior's sayings from the cross taken from psalms (31:5 with 22:1).
