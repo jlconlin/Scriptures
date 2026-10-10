@@ -1,0 +1,520 @@
+chapter: 36
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David and names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/36?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David the servant of the Lord.'
+  - where: setting
+    claim: 'One older commentary groups Psalms 12, 14, 36 and 37 as complaints about the corruption of the time, not about particular events'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/36.htm'
+    quote: 'In These Psalms David complains of the moral corruption of his generation. They are all merely reflections of the character of the time, not of particular occurrences.'
+  - where: setting
+    claim: 'The psalm moves from complaint to praise and only then to prayer'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/36.htm'
+    quote: 'Now for the first time, in the concluding hexastich, after complaint and commendation comes the language of prayer.'
+  - where: setting
+    claim: 'The wicked of verse 1 is singular in Hebrew; the wicked of verse 11 are plural'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רְ֝שָׁעִ֗ים'
+  - where: setting
+    claim: 'The wicked of verse 1 is a singular form in Hebrew'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לָ֭/רָשָׁע'
+  - where: setting
+    claim: 'Paul quotes verse 1 in Romans 3:18'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/3?lang=eng'
+    quote: 'There is no fear of God before their eyes.'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'At verse 5 the psalm turns from the wicked to the mercy of God'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/36.htm'
+    quote: 'The poet now turns from this repulsive prospect to one that is more pleasing.'
+  - where: thread
+    claim: 'The word for mercy in verse 5 is the word for lovingkindness in verse 10'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַ֭סְדְּ/ךָ'
+  - where: thread
+    claim: 'The word for righteousness in verse 6 returns in verse 10'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ֝/צִדְקָֽתְ/ךָ֗'
+  - where: thread
+    claim: 'The verbs of verse 12 are perfects (past tense)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נָ֭פְלוּ'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: 'A modern translation has transgression speak to the wicked in their hearts'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2036&version=NRSVUE'
+    quote: 'Transgression speaks to the wicked'
+  - where: section 1 plain
+    claim: 'The fear of verse 1 is dread'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6343.htm'
+    quote: '2 = object of dread Psalm 31:12; Psalm 36:2'
+  - where: section 1 plain
+    claim: 'A modern translation takes verse 2 as flattery that the iniquity will not be found out and hated'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2036&version=NRSVUE'
+    quote: 'that their iniquity cannot be found out and hated'
+  - where: section 2 plain
+    claim: 'The great mountains are mighty mountains; preservest is save'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2036&version=NRSVUE'
+    quote: 'you save humans and animals alike, O Lord'
+  - where: section 2 plain
+    claim: 'Excellent is precious'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2036&version=NRSVUE'
+    quote: 'How precious is your steadfast love, O God!'
+  - where: section 2 plain
+    claim: 'Put their trust is take refuge'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2036&version=NRSVUE'
+    quote: 'All people may take refuge in the shadow of your wings.'
+  - where: section 2 plain
+    claim: 'Fatness is rich fare, and pleasures are delights'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2036&version=NRSVUE'
+    quote: 'and you give them drink from the river of your delights.'
+  - where: section 3 plain
+    claim: 'Come against me is tread on me'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2036&version=NRSVUE'
+    quote: 'Do not let the foot of the arrogant tread on me'
+  - where: section 3 plain
+    claim: 'Remove me is drive me away'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2036&version=NRSVUE'
+    quote: 'or the hand of the wicked drive me away.'
+
+  # ---------- note 36:0 ----------
+  - where: 'note 36:0 “David the servant of the LORD”'
+    claim: 'The wording of the title of Psalm 36'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/36?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David the servant of the Lord.'
+  - where: 'note 36:0 “David the servant of the LORD”'
+    claim: 'The title of Psalm 18 is the other title that calls David the servant of the LORD'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/18?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David, the servant of the Lord, who spake unto the Lord the words of this song'
+  - where: 'note 36:0 “David the servant of the LORD”'
+    claim: 'Moses is called the servant of the LORD at his death'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/34?lang=eng'
+    quote: 'So Moses the servant of the Lord died there in the land of Moab, according to the word of the Lord.'
+  - where: 'note 36:0 “David the servant of the LORD”'
+    claim: 'Joshua is called the servant of the LORD at his death'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/24?lang=eng'
+    quote: 'Joshua the son of Nun, the servant of the Lord, died, being an hundred and ten years old.'
+  - where: 'note 36:0 “David the servant of the LORD”'
+    claim: 'The LORD calls David “my servant” when He sends Nathan'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/7?lang=eng'
+    quote: 'Go and tell my servant David, Thus saith the Lord, Shalt thou build me an house for me to dwell in?'
+
+  # ---------- note 36:1 (oracle) ----------
+  - where: 'note 36:1 “Transgression speaks an oracle”'
+    claim: 'The first Hebrew word of the verse is the noun for a prophetic utterance'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נְאֻֽם'
+  - where: 'note 36:1 “Transgression speaks an oracle”'
+    claim: 'The noun means the utterance or revelation of a prophet'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5002.htm'
+    quote: '1 utterance, declaration, revelation, of prophet in ecstatic state'
+  - where: 'note 36:1 “Transgression speaks an oracle”'
+    claim: 'In this verse transgression is personified and speaks as a prophet; the lexicon reads “his heart”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5002.htm'
+    quote: 'transgression personified, speaking with prophetic voice'
+  - where: 'note 36:1 “Transgression speaks an oracle”'
+    claim: 'The lexicon prints the phrase with “his heart” (libbo), not “my heart”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5002.htm'
+    quote: 'speaking with prophetic voice בְּקֶרֶב לִבּוֺ'
+  - where: 'note 36:1 “Transgression speaks an oracle”'
+    claim: 'The Hebrew text as printed has “my heart”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לִבִּ֑/י'
+  - where: 'note 36:1 “Transgression speaks an oracle”'
+    claim: 'The Greek translation has the transgressor speak within himself'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/36.htm'
+    quote: 'The transgressor, that he may sin, says within himself, that there is no fear of God before his eyes.'
+  - where: 'note 36:1 “Transgression speaks an oracle”'
+    claim: 'A modern translation has transgression speak to the wicked deep in their hearts'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2036&version=NRSVUE'
+    quote: 'deep in their hearts'
+
+  # ---------- note 36:1 (fear) ----------
+  - where: 'note 36:1 “Dread, and Paul’s last quotation”'
+    claim: 'The Hebrew word for fear in this verse'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פַּ֥חַד'
+  - where: 'note 36:1 “Dread, and Paul’s last quotation”'
+    claim: 'The word means dread, and in this verse an object of dread'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6343.htm'
+    quote: '2 = object of dread Psalm 31:12; Psalm 36:2'
+  - where: 'note 36:1 “Dread, and Paul’s last quotation”'
+    claim: 'A different noun is the one used for the fear of God as reverence and piety'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3374.htm'
+    quote: '3 fear of God, reverence, piety'
+  - where: 'note 36:1 “Dread, and Paul’s last quotation”'
+    claim: 'Paul quotes the line with “their” in Romans 3:18'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/3?lang=eng'
+    quote: 'There is no fear of God before their eyes.'
+  - where: 'note 36:1 “Dread, and Paul’s last quotation”'
+    claim: 'Paul is speaking of Jews and Gentiles alike'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/3?lang=eng'
+    quote: 'for we have before proved both Jews and Gentiles, that they are all under sin'
+
+  # ---------- note 36:2 ----------
+  - where: 'note 36:2 “A hard line about self-flattery”'
+    claim: 'The verb for flatter is to deal smoothly'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2505.htm'
+    quote: 'absolute deal smoothly, followed by'
+  - where: 'note 36:2 “A hard line about self-flattery”'
+    claim: 'A modern translation makes the second half the content of the flattery'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2036&version=NRSVUE'
+    quote: 'that their iniquity cannot be found out and hated'
+  - where: 'note 36:2 “A hard line about self-flattery”'
+    claim: 'The Greek translation of the verse'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/36.htm'
+    quote: 'For he has dealt craftily before him, to discover his iniquity and hate it.'
+
+  # ---------- note 36:5 ----------
+  - where: 'note 36:5 “One word behind mercy and lovingkindness”'
+    claim: 'The Hebrew word for mercy in verse 5 (hesed)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַסְדֶּ֑/ךָ'
+  - where: 'note 36:5 “One word behind mercy and lovingkindness”'
+    claim: 'The same word is lovingkindness in verse 7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַסְדְּ/ךָ֗'
+  - where: 'note 36:5 “One word behind mercy and lovingkindness”'
+    claim: 'The same word is lovingkindness in verse 10'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַ֭סְדְּ/ךָ'
+  - where: 'note 36:5 “One word behind mercy and lovingkindness”'
+    claim: 'A modern translation uses “steadfast love” in verse 5'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2036&version=NRSVUE'
+    quote: 'Your steadfast love, O Lord, extends to the heavens'
+  - where: 'note 36:5 “One word behind mercy and lovingkindness”'
+    claim: 'and in verse 7'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2036&version=NRSVUE'
+    quote: 'How precious is your steadfast love, O God!'
+  - where: 'note 36:5 “One word behind mercy and lovingkindness”'
+    claim: 'and in verse 10'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2036&version=NRSVUE'
+    quote: 'O continue your steadfast love to those who know you'
+  - where: 'note 36:5 “One word behind mercy and lovingkindness”'
+    claim: 'The word for righteousness in verse 6 is the word in verse 10'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'צִדְקָֽתְ/ךָ֨'
+
+  # ---------- note 36:6 ----------
+  - where: 'note 36:6 “Mountains of God and the great deep”'
+    claim: 'The Hebrew has “mountains of El”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כְּֽ/הַרְרֵי'
+  - where: 'note 36:6 “Mountains of God and the great deep”'
+    claim: 'The divine name here characterizes something mighty in nature'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/410.htm'
+    quote: '5 as characterizing mighty things in nature'
+  - where: 'note 36:6 “Mountains of God and the great deep”'
+    claim: 'The lexicon renders the phrase mighty mountains, literally mountains of El'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/410.htm'
+    quote: 'mighty mountains Psalm 36:7 (literally mountains of El)'
+  - where: 'note 36:6 “Mountains of God and the great deep”'
+    claim: 'The Greek translation has mountains of God'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/36.htm'
+    quote: 'Thy righteousness is as the mountains of God, thy judgments are as a great deep'
+  - where: 'note 36:6 “Mountains of God and the great deep”'
+    claim: 'The deep is the water under the earth, as in Genesis 7:11'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8415.htm'
+    quote: '1 deep, of subterranean waters'
+  - where: 'note 36:6 “Mountains of God and the great deep”'
+    claim: 'The Hebrew of the psalm for “great deep”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תְּה֣וֹם'
+  - where: 'note 36:6 “Mountains of God and the great deep”'
+    claim: 'Genesis 7:11 has the same two Hebrew words for “great deep”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'תְּה֣וֹם'
+  - where: 'note 36:6 “Mountains of God and the great deep”'
+    claim: 'The King James wording of Genesis 7:11'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/7?lang=eng'
+    quote: 'the same day were all the fountains of the great deep broken up'
+  - where: 'note 36:6 “Mountains of God and the great deep”'
+    claim: 'One older reading: the righteousness is firm as mountains'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/36.htm'
+    quote: 'unchangeably firm (Psalm 111:3), like the giant primeval mountains which bear witness to the greatness and glory of God'
+  - where: 'note 36:6 “Mountains of God and the great deep”'
+    claim: 'and the judgments unsearchable as the deep'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/36.htm'
+    quote: 'that they are "a great deep," incomprehensible and unsearchable'
+  - where: 'note 36:6 “Mountains of God and the great deep”'
+    claim: 'The same reading sees the Flood behind “man and beast”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/36.htm'
+    quote: 'as in the case of the Flood (cf. Jonah 4:11), embraces the animal world'
+  - where: 'note 36:6 “Mountains of God and the great deep”'
+    claim: 'The verb behind preservest is the verb to save'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תוֹשִׁ֣יעַ'
+  - where: 'note 36:6 “Mountains of God and the great deep”'
+    claim: 'A modern translation has “save”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2036&version=NRSVUE'
+    quote: 'you save humans and animals alike, O Lord'
+
+  # ---------- note 36:8 ----------
+  - where: 'note 36:8 “A feast in God’s house and a river of delights”'
+    claim: 'Fatness is used of food and drink and here of spiritual blessing'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1880.htm'
+    quote: 'of food and drink, Job 36:16; Jeremiah 31:14; passing over into figurative of spiritual blessing Psalm 36:9'
+  - where: 'note 36:8 “A feast in God’s house and a river of delights”'
+    claim: 'One older reading: the priests’ fare and the worshippers’ sacrificial meal, taken spiritually'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/36.htm'
+    quote: 'The abundant fare of the priests from Jahve''s table (vid., Jeremiah 31:14), and the festive joy of the guests at the shelamim-offering, i.e., the communion-offering'
+  - where: 'note 36:8 “A feast in God’s house and a river of delights”'
+    claim: 'These rites are read for their spiritual meaning'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/36.htm'
+    quote: 'these outward rites are here treated according to their spiritual significance'
+  - where: 'note 36:8 “A feast in God’s house and a river of delights”'
+    claim: 'Jeremiah 31:14 uses fatness of the priests’ portion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/31?lang=eng'
+    quote: 'And I will satiate the soul of the priests with fatness'
+  - where: 'note 36:8 “A feast in God’s house and a river of delights”'
+    claim: 'The Hebrew word for pleasures'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עֲדָנֶ֣י/ךָ'
+  - where: 'note 36:8 “A feast in God’s house and a river of delights”'
+    claim: 'The word (eden) means luxury, dainty, delight'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5730.htm'
+    quote: 'luxury, dainty, delight'
+  - where: 'note 36:8 “A feast in God’s house and a river of delights”'
+    claim: 'In this verse it is used of the delights of worshipping the LORD'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5730.htm'
+    quote: 'figurative of delights of worshipping'
+  - where: 'note 36:8 “A feast in God’s house and a river of delights”'
+    claim: 'The name Eden was probably associated in Hebrew with this word'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5731.htm'
+    quote: 'proper name, of a territory (probably associated by Hebrew with I.'
+  - where: 'note 36:8 “A feast in God’s house and a river of delights”'
+    claim: 'One older reading calls it a river of paradise and compares Genesis 2:10'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/36.htm'
+    quote: 'a paradisaic river of delights. This, as the four arms of the river of Paradise had one common source (Genesis 2:10), has its spring in God'
+  - where: 'note 36:8 “A feast in God’s house and a river of delights”'
+    claim: 'The wording of Genesis 2:10'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng'
+    quote: 'And a river went out of Eden to water the garden'
+  - where: 'note 36:8 “A feast in God’s house and a river of delights”'
+    claim: 'The house is the sanctuary'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/36.htm'
+    quote: 'The house of God is His sanctuary, and in general the domain of His mercy and grace.'
+
+  # ---------- note 36:9 (fountain) ----------
+  - where: 'note 36:9 “The LORD is the fountain”'
+    claim: 'The same word for fountain is a figure of the LORD in Jeremiah 2:13 and 17:13, with which this verse is compared'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4726.htm'
+    quote: 'Jeremiah 2:13; Jeremiah 17:13, compare'
+  - where: 'note 36:9 “The LORD is the fountain”'
+    claim: 'The wording of Jeremiah 2:13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/2?lang=eng'
+    quote: 'they have forsaken me the fountain of living waters'
+  - where: 'note 36:9 “The LORD is the fountain”'
+    claim: 'Jehovah, the LORD of the Old Testament, is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: 'note 36:9 “The LORD is the fountain”'
+    claim: 'Living water is a symbol of Jesus Christ and His teachings'
+    key: gs-living-water
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/living-water?lang=eng'
+    quote: 'A symbol of the Lord Jesus Christ and His teachings.'
+
+  # ---------- note 36:9 (light) ----------
+  - where: 'note 36:9 “Light and life in one verse”'
+    claim: 'Psalm 36:9 is listed among the few Old Testament passages that combine light and life'
+    key: sc-knowhy-341
+    url: 'https://scripturecentral.org/knowhy/what-can-we-learn-from-the-saviors-first-words-at-bountiful'
+    quote: 'A few passages in the Old Testament combine “light” and “life.”'
+  - where: 'note 36:9 “Light and life in one verse”'
+    claim: 'Only in the Book of Mormon does Jesus use the title Light and Life of the World'
+    key: sc-knowhy-341
+    url: 'https://scripturecentral.org/knowhy/what-can-we-learn-from-the-saviors-first-words-at-bountiful'
+    quote: 'only in the Book of Mormon does Jesus use the specific title Light and Life of the World'
+  - where: 'note 36:9 “Light and life in one verse”'
+    claim: 'John 1:4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/1?lang=eng'
+    quote: 'In him was life; and the life was the light of men.'
+  - where: 'note 36:9 “Light and life in one verse”'
+    claim: 'John 8:12'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/8?lang=eng'
+    quote: 'I am the light of the world: he that followeth me shall not walk in darkness, but shall have the light of life.'
+  - where: 'note 36:9 “Light and life in one verse”'
+    claim: '3 Nephi 11:11'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/11?lang=eng'
+    quote: 'And behold, I am the light and the life of the world'
+  - where: 'note 36:9 “Light and life in one verse”'
+    claim: 'A Latter-day Saint study quotes the line, stressing “his,” right after the psalmist’s gladness in the LORD’s countenance'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'the countenance of the Lord made one “exceeding glad” (Psalm 21:6). “In [his] light shall we see light” (Psalm 36:9; emphasis added).'
+  - where: 'note 36:9 “Light and life in one verse”'
+    claim: 'The passage is about the psalmist’s joy at coming into the LORD’s presence'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'the Psalmist especially exulted in the opportunity to come into the Lord’s presence'
+
+  # ---------- note 36:11 ----------
+  - where: 'note 36:11 “Remove means drive into wandering”'
+    claim: 'The verb is to cause to wander as fugitives'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5110.htm'
+    quote: '1 cause to wander aimlessly, as fugitives, with accusative of person Psalm 36:12'
+  - where: 'note 36:11 “Remove means drive into wandering”'
+    claim: 'A modern translation of the second half'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2036&version=NRSVUE'
+    quote: 'or the hand of the wicked drive me away.'
+  - where: 'note 36:11 “Remove means drive into wandering”'
+    claim: 'A modern translation of the first half'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2036&version=NRSVUE'
+    quote: 'Do not let the foot of the arrogant tread on me'
+
+  # ---------- note 36:12 ----------
+  - where: 'note 36:12 “A fall seen before it happens”'
+    claim: 'The verb “fallen” is a Hebrew perfect'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נָ֭פְלוּ'
+  - where: 'note 36:12 “A fall seen before it happens”'
+    claim: 'One older reading: as he prays, the future is unveiled to him'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/36.htm'
+    quote: 'Whilst the Psalmist is thus praying, the future all at once becomes unveiled to him.'
+  - where: 'note 36:12 “A fall seen before it happens”'
+    claim: 'He is certain of being heard and sees the adversaries overthrown'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/36.htm'
+    quote: 'Certain in his own mind that his prayer will be heard, he sees the adversaries of God and of His saints for ever overthrown.'
+  - where: 'note 36:12 “A fall seen before it happens”'
+    claim: '“There” points to the place of judgment, as in Psalm 14:5, and the past tenses are prophetic'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/36.htm'
+    quote: 'as in Psalm 14:5, points to the place where the judgment is executed. The preterites are prophetic'
+  - where: 'note 36:12 “A fall seen before it happens”'
+    claim: 'The wording of Psalm 14:5'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/14?lang=eng'
+    quote: 'There were they in great fear'
+  - where: 'note 36:12 “A fall seen before it happens”'
+    claim: 'A modern translation puts the scene in the present'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2036&version=NRSVUE'
+    quote: 'There the evildoers lie prostrate'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'The LORD of the psalm is Jehovah, the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Usually, when the word Lord appears in the Old Testament, it means “Jehovah.”'
+  - where: christ
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: christ
+    claim: 'The title Light and Life of the World at Bountiful'
+    key: sc-knowhy-341
+    url: 'https://scripturecentral.org/knowhy/what-can-we-learn-from-the-saviors-first-words-at-bountiful'
+    quote: 'only in the Book of Mormon does Jesus use the specific title Light and Life of the World'
+
+  # ---------- explore ----------
+  - where: explore
+    claim: 'Psalms 12, 14 and 37 are grouped with this psalm'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/36.htm'
+    quote: 'Psalm 12:1-8; Psalm 14:1-7 (Psalm 53:1-6), Psalm 36:1-12, Psalm 37, form a group.'
+  - where: explore
+    claim: 'Proverbs 6:23 and Job 33:28 are listed with Psalm 36:9 as joining light and life'
+    key: sc-knowhy-341
+    url: 'https://scripturecentral.org/knowhy/what-can-we-learn-from-the-saviors-first-words-at-bountiful'
+    quote: '“the law is light; and reproofs of instruction are the way of life” (Proverbs 6:23)'
+
+  # ---------- parallels ----------
+  - where: parallels
+    claim: 'Romans 3:18 quotes verse 1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/3?lang=eng'
+    quote: 'There is no fear of God before their eyes.'
+  - where: parallels
+    claim: 'Genesis 2:10, the river out of Eden'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng'
+    quote: 'And a river went out of Eden to water the garden'
