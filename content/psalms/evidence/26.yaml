@@ -1,0 +1,466 @@
+chapter: 26
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David and gives no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/26?lang=eng'
+    quote: 'A Psalm of David.'
+  - where: setting
+    claim: 'Psalms 25–31 stand in the first of the five books of the Psalter'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'Psalms 25–31 appear in what is often identified as the first of five “books” of the Psalter (Psalms 1–41).'
+  - where: setting
+    claim: 'Psalms 25–31 are a series notable for the themes of covenant and temple'
+    key: ot-minute-psalm-26
+    url: 'https://storage.googleapis.com/scripturecentral-prod-strapi-uploads/psalm_26_0fb65f8f28/psalm_26_0fb65f8f28.pdf'
+    quote: 'salm 26 is the next composition in the series of Psalms 25–31, which are notable for their focus on themes of covenant and temple.'
+  - where: setting
+    claim: 'Psalm 26 has been classed with Psalms 25, 27, 28 and 31 as the lament of one person'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'He identified Psalms 25–28 and 31 as individual laments'
+  - where: setting
+    claim: 'Psalms 25 and 26 are bound together by likeness of thought and wording'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/26.htm'
+    quote: 'Psalm 25 and Psalm 26:1-12 are bound together by similarity of thought and expression.'
+  - where: setting
+    claim: 'Psalm 26 lacks the confession of sin that Psalm 25 has three times'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/26.htm'
+    quote: 'that confession of sin which so closely corresponds to the New Testament consciousness (vid., supra p. 43), which is thrice repeated in Psalm 25.'
+  - where: setting
+    claim: 'Psalm 25 confesses sin (verse 7)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/25?lang=eng'
+    quote: 'Remember not the sins of my youth, nor my transgressions'
+  - where: setting
+    claim: 'Psalm 26 is often considered related to the temple entry psalms, 15 and 24'
+    key: ot-minute-psalm-26
+    url: 'https://storage.googleapis.com/scripturecentral-prod-strapi-uploads/psalm_26_0fb65f8f28/psalm_26_0fb65f8f28.pdf'
+    quote: 'Psalm 26 is often considered to be related to the temple entry psalms, Psalms 15 and 24'
+  - where: setting
+    claim: 'An older reading sets the psalm in Absalom’s revolt and ties its love of the house to 2 Samuel 15:25'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/26.htm'
+    quote: 'The description applies well to the Absolomites.'
+  - where: setting
+    claim: 'The same reading cites David’s sending back of the ark'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/26.htm'
+    quote: 'David at that time would not take the Ark with him in his flight'
+  - where: setting
+    claim: 'David’s words when he sent the ark back'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/15?lang=eng'
+    quote: 'he will bring me again, and shew me both it, and his habitation'
+  - where: setting
+    claim: 'Psalms 25–31 have been set beside the psalm of Nephi'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'The purpose of this essay is to suggest that Psalms 25–31 may have had a particular influence upon Nephi as he wrote his psalm.'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The word for lovingkindness in verse 3 is hesed (H2617)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַ֭סְדְּ/ךָ'
+  - where: thread
+    claim: 'Verse 9 is where the petition of verse 1 is first spelled out'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/26.htm'
+    quote: 'It is now, for the first time, that the petition compressed into the one word'
+  - where: thread
+    claim: 'One reading takes verse 12 as prayer turned to rejoicing sure of its answer'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/26.htm'
+    quote: 'The prayer is changed into rejoicing which is certain of the answer that shall be given.'
+
+  # ---------- sections ----------
+  - where: 'section 1 plain'
+    claim: 'A modern translation has “Vindicate,” “steadfast love,” and trust “without wavering”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2026&version=NRSVUE'
+    quote: 'For your steadfast love is before my eyes'
+  - where: 'section 1 plain'
+    claim: 'The Greek renders the third verb of verse 2 as refining by fire'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/26.htm'
+    quote: 'purify as with fire my reins and my heart'
+  - where: 'section 2 plain'
+    claim: 'The Hebrew of verse 4 is “worthless men” and those who conceal themselves'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5956.htm'
+    quote: 'those who conceal themselves, i.e. their thoughts; dissemblers'
+  - where: 'section 3 plain'
+    claim: 'A modern translation has “go around your altar”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2026&version=NRSVUE'
+    quote: 'and go around your altar, O Lord'
+  - where: 'section 3 plain'
+    claim: 'A modern translation has the house where the LORD dwells and the place where His glory abides'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2026&version=NRSVUE'
+    quote: 'and the place where your glory abides'
+  - where: 'section 4 plain'
+    claim: 'The verb of verse 9 is to gather and take away'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/622.htm'
+    quote: 'gather and take away, remove, withdraw'
+  - where: 'section 4 plain'
+    claim: 'A modern translation has “evil devices” for the King James “mischief”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2026&version=NRSVUE'
+    quote: 'those in whose hands are evil devices'
+  - where: 'section 5 plain'
+    claim: 'A modern translation has “be gracious to me” and “level ground”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2026&version=NRSVUE'
+    quote: 'My foot stands on level ground'
+
+  # ---------- note 26:1 judge ----------
+  - where: 'note 26:1 “To be judged is to be vindicated”'
+    claim: 'The lexicon places the verb in this verse under the sense of vindicating, with Psalm 43:1 and 7:8 (Hebrew 7:9)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8199.htm'
+    quote: 'vindicating, with accusative: (I) subject God'
+  - where: 'note 26:1 “To be judged is to be vindicated”'
+    claim: 'A modern translation has “Vindicate me”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2026&version=NRSVUE'
+    quote: 'Vindicate me, O Lord'
+
+  # ---------- note 26:1 integrity ----------
+  - where: 'note 26:1 “Integrity is wholeness of heart”'
+    claim: 'The noun is tom (H8537)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/תֻמִּ֣/י'
+  - where: 'note 26:1 “Integrity is wholeness of heart”'
+    claim: 'The noun means completeness, integrity'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8537.htm'
+    quote: 'completeness, integrity'
+  - where: 'note 26:1 “Integrity is wholeness of heart”'
+    claim: 'The lexicon lists Genesis 20:5–6 and Psalm 26:1, 11 together under integrity'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8537.htm'
+    quote: 'integrity of mind Genesis 20:5,6 (E), 1 Kings 9:4; Psalm 78:72; Psalm 101:2'
+  - where: 'note 26:1 “Integrity is wholeness of heart”'
+    claim: 'Genesis 20:5 has the same noun for integrity (H8537)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'בְּ/תָם'
+  - where: 'note 26:1 “Integrity is wholeness of heart”'
+    claim: 'Genesis 20:5 has the same noun for innocency (H5356) with “my hands” as Psalm 26:6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וּ/בְ/נִקְיֹ֥ן'
+  - where: 'note 26:1 “Integrity is wholeness of heart”'
+    claim: 'The lexicon lists Genesis 20:5 and Psalm 26:6 together under innocency'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5356.htm'
+    quote: 'freedom from guilt, innocency'
+  - where: 'note 26:1 “Integrity is wholeness of heart”'
+    claim: 'Abimelech’s plea and God’s answer'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/20?lang=eng'
+    quote: 'Yea, I know that thou didst this in the integrity of thy heart; for I also withheld thee from sinning against me'
+  - where: 'note 26:1 “Integrity is wholeness of heart”'
+    claim: 'One older reading: the word is freedom from sinful intent, citing Genesis 20:5'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/26.htm'
+    quote: 'perfect freedom from all sinful intent, purity of character, pureness, guilelessness'
+  - where: 'note 26:1 “Integrity is wholeness of heart”'
+    claim: 'The same reading: the speaker does not claim moral perfection'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/26.htm'
+    quote: 'He does not self-righteously hold himself to be morally perfect, he appeals only to the fundamental tendency of his inmost nature'
+  - where: 'note 26:1 “Integrity is wholeness of heart”'
+    claim: 'The word is a synonym of tamim, the word of Psalm 15:2'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/26.htm'
+    quote: '(synon. תמים, which, however, does not take any suffix)'
+
+  # ---------- note 26:2 ----------
+  - where: 'note 26:2 “A worshipper asking to be examined”'
+    claim: 'On one reading the psalm is an individual’s answer to the temple guardians of Psalms 15 and 24'
+    key: ot-minute-psalm-26
+    url: 'https://storage.googleapis.com/scripturecentral-prod-strapi-uploads/psalm_26_0fb65f8f28/psalm_26_0fb65f8f28.pdf'
+    quote: 'Psalm 26 apparently presents an individual’s answer to the temple guardians (who are representing the Lord).'
+  - where: 'note 26:2 “A worshipper asking to be examined”'
+    claim: 'The guardians were likely priests'
+    key: ot-minute-psalm-26
+    url: 'https://storage.googleapis.com/scripturecentral-prod-strapi-uploads/psalm_26_0fb65f8f28/psalm_26_0fb65f8f28.pdf'
+    quote: 'These guardians were likely priests; see 2 Kings 25:18.'
+  - where: 'note 26:2 “A worshipper asking to be examined”'
+    claim: 'Verses 1–5 are read as a declaration of compliance with the requirements for entering the temple'
+    key: ot-minute-psalm-26
+    url: 'https://storage.googleapis.com/scripturecentral-prod-strapi-uploads/psalm_26_0fb65f8f28/psalm_26_0fb65f8f28.pdf'
+    quote: 'declaring his innocence and compliance with temple entry requirements (verses 1–5)'
+  - where: 'note 26:2 “A worshipper asking to be examined”'
+    claim: 'He wants to be examined and found worthy to enter'
+    key: ot-minute-psalm-26
+    url: 'https://storage.googleapis.com/scripturecentral-prod-strapi-uploads/psalm_26_0fb65f8f28/psalm_26_0fb65f8f28.pdf'
+    quote: 'in both heart and mind, and found worthy to enter the temple'
+  - where: 'note 26:2 “A worshipper asking to be examined”'
+    claim: 'The reading is hedged by its author (“apparently”): the gate scene is a reconstruction'
+    key: ot-minute-psalm-26
+    url: 'https://storage.googleapis.com/scripturecentral-prod-strapi-uploads/psalm_26_0fb65f8f28/psalm_26_0fb65f8f28.pdf'
+    quote: 'pilgrims desiring to ascend to the temple are apparently stopped at the gates'
+  - where: 'note 26:2 “A worshipper asking to be examined”'
+    claim: 'The third verb of verse 2 is tsaraph (H6884; hebrew.mjs psalms 26:2), which means to smelt, refine, test'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6884.htm'
+    quote: 'verb smelt, refine, test'
+  - where: 'note 26:2 “A worshipper asking to be examined”'
+    claim: 'The Greek renders the third verb as purifying with fire'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/26.htm'
+    quote: 'Prove me, O Lord, and try me; purify as with fire my reins and my heart.'
+  - where: 'note 26:2 “A worshipper asking to be examined”'
+    claim: 'Reins are kidneys, and the pair means heart and mind'
+    key: ot-minute-psalm-26
+    url: 'https://storage.googleapis.com/scripturecentral-prod-strapi-uploads/psalm_26_0fb65f8f28/psalm_26_0fb65f8f28.pdf'
+    quote: 'The request to “try my reins [kidneys] and my heart” (verse 2) is essentially an ancient request to “test my heart and my mind.”'
+
+  # ---------- note 26:4 ----------
+  - where: 'note 26:4 “Vain persons and dissemblers”'
+    claim: '“Vain persons” are worthless men'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7723.htm'
+    quote: 'worthless men Psalm 26:4'
+  - where: 'note 26:4 “Vain persons and dissemblers”'
+    claim: '“Dissemblers” is a participle for those who conceal themselves'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5956.htm'
+    quote: 'those who conceal themselves, i.e. their thoughts; dissemblers'
+  - where: 'note 26:4 “Vain persons and dissemblers”'
+    claim: 'The older English sense of dissembler'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/dissembler'
+    quote: 'One who dissembles; a hypocrite; one who conceals his opinions or dispositions under a false appearance.'
+  - where: 'note 26:4 “Vain persons and dissemblers”'
+    claim: 'A modern translation has “hypocrites”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2026&version=NRSVUE'
+    quote: 'nor do I consort with hypocrites'
+
+  # ---------- note 26:5 ----------
+  - where: 'note 26:5 “Two words for congregation”'
+    claim: 'The word for congregation in verse 5 is qahal (H6951)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קְהַ֣ל'
+  - where: 'note 26:5 “Two words for congregation”'
+    claim: 'The lexicon lists the assembly of verse 5 as one for evil counsel'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6951.htm'
+    quote: 'for evil counsel'
+  - where: 'note 26:5 “Two words for congregation”'
+    claim: 'The word of verse 12 is an assembly for worship, possibly choirs'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4721.htm'
+    quote: 'assembly, for worship, plural: possibly choirs'
+  - where: 'note 26:5 “Two words for congregation”'
+    claim: 'The word of verse 12 (H4721) occurs in Psalms at 26:12'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ֝/מַקְהֵלִ֗ים'
+  - where: 'note 26:5 “Two words for congregation”'
+    claim: 'and at 68:26 (Hebrew 68:27), its only other occurrence in the book (hebrew.mjs psalms --word 4721: 2 occurrences)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּֽ֭/מַקְהֵלוֹת'
+
+  # ---------- note 26:6 ----------
+  - where: 'note 26:6 “Washed hands and a walk around the altar”'
+    claim: 'Priests washed at the laver before coming near the altar'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/30?lang=eng'
+    quote: 'For Aaron and his sons shall wash their hands and their feet thereat:'
+  - where: 'note 26:6 “Washed hands and a walk around the altar”'
+    claim: 'The elders wash their hands over the heifer when a killing is unsolved'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/21?lang=eng'
+    quote: 'shall wash their hands over the heifer that is beheaded in the valley'
+  - where: 'note 26:6 “Washed hands and a walk around the altar”'
+    claim: 'Pilate washed his hands before the multitude'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/27?lang=eng'
+    quote: 'he took water, and washed his hands before the multitude, saying, I am innocent of the blood of this just person'
+  - where: 'note 26:6 “Washed hands and a walk around the altar”'
+    claim: 'The washing of Deuteronomy 21:6 and Matthew 27:24 is a symbolic act; here it is taken as a figure drawn from the priest’s washing'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/26.htm'
+    quote: 'That which is elsewhere a symbolic act (Deuteronomy 21:6, cf. Matthew 27:24), is in this instance only a rhetorical figure made use of to confess his consciousness of innocence'
+  - where: 'note 26:6 “Washed hands and a walk around the altar”'
+    claim: 'The figure takes its form from the priest’s washing before serving at the altar'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/26.htm'
+    quote: 'from the idea of the priest washing his hands preparatory to the service of the altar'
+  - where: 'note 26:6 “Washed hands and a walk around the altar”'
+    claim: 'On another reading the psalmist, admitted through the gates, performs a washing rite before approaching the altar'
+    key: ot-minute-psalm-26
+    url: 'https://storage.googleapis.com/scripturecentral-prod-strapi-uploads/psalm_26_0fb65f8f28/psalm_26_0fb65f8f28.pdf'
+    quote: 'After being admitted through the gates, the psalmist goes on to perform a washing ritual before approaching the altar of the temple (verse 6).'
+  - where: 'note 26:6 “Washed hands and a walk around the altar”'
+    claim: 'Psalm 73:13 has the identical phrase'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5356.htm'
+    quote: 'Psalm 26:6 I will wash my hands in innocency = Psalm 73:13'
+  - where: 'note 26:6 “Washed hands and a walk around the altar”'
+    claim: 'To compass the altar is to go about it in solemn procession'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5437.htm'
+    quote: 'march or go about, city (accusative) Psalm 55:11; Psalm 59:7; Psalm 59:15; altar (in solemn procession) Psalm 26:6'
+
+  # ---------- note 26:8 ----------
+  - where: 'note 26:8 “The tabernacle of thy glory”'
+    claim: 'The Hebrew has mishkan (H4908), a noun, for “where … dwelleth”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִשְׁכַּ֥ן'
+  - where: 'note 26:8 “The tabernacle of thy glory”'
+    claim: 'The Hebrew has kavod (H3519), glory, for “honour”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כְּבוֹדֶֽ/ךָ'
+  - where: 'note 26:8 “The tabernacle of thy glory”'
+    claim: 'The Greek translates the phrase “the place of the tabernacle of thy glory”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/26.htm'
+    quote: 'O Lord, I have loved the beauty of thy house, and the place of the tabernacle of thy glory.'
+  - where: 'note 26:8 “The tabernacle of thy glory”'
+    claim: 'Exodus 40:34 uses the same noun, mishkan (H4908), for the tabernacle the glory filled'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'הַ/מִּשְׁכָּֽן'
+  - where: 'note 26:8 “The tabernacle of thy glory”'
+    claim: 'The lexicon sets the tent sanctified by the Glory (Exodus 29:43) beside the temple as the place of the dwelling of glory in Psalm 26:8'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3519.htm'
+    quote: 'the sacred tent was sanctified by the Glory Exodus 29:43 (P), and the temple was'
+  - where: 'note 26:8 “The tabernacle of thy glory”'
+    claim: 'Psalms 26 and 27 are described together as about love for the temple'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'Psalms 26 and 27 discuss the Psalmist’s love for the temple, which Nephi most certainly shared'
+
+  # ---------- note 26:9 ----------
+  - where: 'note 26:9 “Gathered up with sinners”'
+    claim: 'The verb here means to gather and take away, with the soul as object in this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/622.htm'
+    quote: 'gather and take away, remove, withdraw'
+  - where: 'note 26:9 “Gathered up with sinners”'
+    claim: 'The Greek has “Destroy not”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/26.htm'
+    quote: 'Destroy not my soul together with the ungodly, nor my life with bloody men'
+  - where: 'note 26:9 “Gathered up with sinners”'
+    claim: 'A modern translation has “sweep me away”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2026&version=NRSVUE'
+    quote: 'Do not sweep me away with sinners'
+
+  # ---------- note 26:11 ----------
+  - where: 'note 26:11 “A man of integrity asks for ransom and grace”'
+    claim: 'The verb for redeem means to ransom, and the lexicon lists this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6299.htm'
+    quote: 'ransom:'
+  - where: 'note 26:11 “A man of integrity asks for ransom and grace”'
+    claim: 'A modern translation has “be gracious to me”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2026&version=NRSVUE'
+    quote: 'redeem me and be gracious to me'
+  - where: 'note 26:11 “A man of integrity asks for ransom and grace”'
+    claim: 'The pleas to be redeemed and shown mercy are shared with Psalm 25:22 and 25:16, and help bind the two psalms'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/26.htm'
+    quote: 'the cry coming forth from a distressed condition for deliverance'
+  - where: 'note 26:11 “A man of integrity asks for ransom and grace”'
+    claim: 'Psalm 26 lacks the confession of sin that goes with these pleas in Psalm 25'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/26.htm'
+    quote: 'there is wanting the self-accusation that goes hand in hand with the self-attestation of piety'
+
+  # ---------- note 26:12 ----------
+  - where: 'note 26:12 “Level ground, and Nephi’s plain road”'
+    claim: 'The verb of verse 1 means to slip, of feet'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4571.htm'
+    quote: 'slip, subject feet'
+  - where: 'note 26:12 “Level ground, and Nephi’s plain road”'
+    claim: 'The “even place” is a level place, a figure for safety'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4334.htm'
+    quote: 'level place (free from obstacles), figurative for place of safety, comfort, and prosperity Psalm 26:12'
+  - where: 'note 26:12 “Level ground, and Nephi’s plain road”'
+    claim: 'The noun in verse 12 is mishor (H4334)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְ/מִישׁ֑וֹר'
+  - where: 'note 26:12 “Level ground, and Nephi’s plain road”'
+    claim: 'Psalm 27:11 has the same noun for “plain”'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'The words “even” and “plain” found in the verses below are translated from the Hebrew noun mîyshôwr'
+  - where: 'note 26:12 “Level ground, and Nephi’s plain road”'
+    claim: 'Nephi’s plain road (2 Nephi 4:32–33) is set beside Psalm 26:12'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'Psalm 26:12: “My foot standeth in an even place.”'
+  - where: 'note 26:12 “Level ground, and Nephi’s plain road”'
+    claim: 'Nephi’s “wilt thou redeem my soul?” is set beside Psalm 26:11'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'Nephi prays to God: “O Lord, wilt thou redeem my soul?” (2 Nephi 4:31). In like manner, the Psalmist pled:'
+  - where: 'note 26:12 “Level ground, and Nephi’s plain road”'
+    claim: 'The article lists Psalm 26:11 under that plea'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'Psalm 26:11: “Redeem me, and be merciful to me.”'
+  - where: 'note 26:12 “Level ground, and Nephi’s plain road”'
+    claim: 'The authors claim only a possible influence'
+    key: alford-baker-psalm-nephi
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/parallels-between-psalms-25-31-psalm-nephi'
+    quote: 'Psalms 25–31 may have had a particular influence upon Nephi as he wrote his psalm'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'Jehovah, the LORD of the Old Testament, is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: christ
+    claim: 'The Father has committed all judgment to the Son'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/5?lang=eng'
+    quote: 'For the Father judgeth no man, but hath committed all judgment unto the Son:'
+  - where: christ
+    claim: 'In Revelation the Son of God says He searches the reins and hearts'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/2?lang=eng'
+    quote: 'all the churches shall know that I am he which searcheth the reins and hearts'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'Psalm 73 speaks the same line in discouragement until the speaker enters the sanctuary'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/73?lang=eng'
+    quote: 'Verily I have cleansed my heart in vain, and washed my hands in innocency.'
+  - where: parallels
+    claim: 'The request of verse 9 is compared with Psalm 28:3'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/26.htm'
+    quote: 'He prays (as in Psalm 28:3), that God may not connect him in one common lot with those'
+  - where: parallels
+    claim: 'Psalm 28:3 asks not to be drawn away with the wicked'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/28?lang=eng'
+    quote: 'Draw me not away with the wicked, and with the workers of iniquity'
