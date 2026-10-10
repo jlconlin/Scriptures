@@ -1,0 +1,616 @@
+chapter: 19
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David and addresses it to the chief Musician'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/19?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David.'
+  - where: setting
+    claim: 'The title ascribes the psalm to David and addresses it to the chief Musician'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/19?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David.'
+  - where: setting
+    claim: 'The psalm has been categorized as a wisdom hymn with language like that of Proverbs'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'The psalm has been categorized as a wisdom hymn, with language sometimes reminiscent of that found in parts of the book of Proverbs.'
+  - where: setting
+    claim: 'The psalm divides into praise of God as Creator (1–6) and as Lawgiver (7–14)'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'a hymn of praise to God as Creator (verses 1–6) and a hymn of praise to God as Lawgiver (verses 7–14)'
+  - where: setting
+    claim: 'One older reading supposes the psalm was prompted by the sky by day, as Psalm 8 by the sky at night'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'if we suppose the Psalm to be called forth by the aspect of the heavens by day, just as Psalm 8:1-9 was by the aspect of the heavens by night'
+  - where: setting
+    claim: 'On that reading it is morning; the psalmist rejoices at the light and prepares for the day’s work'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'It is morning, and the psalmist rejoices on the one hand at the dawning light of day, and on the other he prepares himself for the days'' work lying before him'
+  - where: setting
+    claim: 'Psalm 18’s title calls David the servant of the LORD, and both psalms call on the LORD as “my rock”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'In both Psalms, in the former at the beginning, in the latter at the close, he calls upon Jahve by the name צוּרי, my rock.'
+  - where: setting
+    claim: 'The title of Psalm 18 calls David the servant of the LORD'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/18?lang=eng'
+    quote: 'A Psalm of David, the servant of the'
+  - where: setting
+    claim: 'These points of contact have been offered as the reason a collector placed Psalm 19 after Psalm 18, one on God’s revelation in David’s history and the other in nature and the Law'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'have concurred to lead the collector to append Psalm 19:1-14, which celebrates God''s revelation of Himself in nature and in the Law, to Psalm 18, which celebrates God''s revelation of Himself in the history of David'
+  - where: setting
+    claim: 'Paul quotes verse 4 in Romans 10:18'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/10?lang=eng'
+    quote: 'their sound went into all the earth, and their words unto the ends of the world'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'God is named once in verses 1–6, as El'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֵ֑ל'
+  - where: thread
+    claim: 'In the first part God is called El once; in the second He is called by the covenant name seven times, the last with further titles'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'in the first part God is called אל according to his relationship of power to the world, and is only mentioned once; whereas in the second part, He is called by His covenant name יהוה, and mentioned seven times'
+  - where: thread
+    claim: 'No sign marks the transition at verse 7 except the change of the divine name'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'No sign is made use of to mark the transition from the one part to the other, but it is indicated by the introduction of the divine name'
+  - where: thread
+    claim: 'One reading: the heavens tell God’s glory but not His will'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'the heavens indeed tell of the glory of God, but not of His will'
+  - where: thread
+    claim: 'The word “hid” in verse 6 is from the Hebrew verb to hide (H5641)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נִ֝סְתָּ֗ר'
+  - where: thread
+    claim: 'The word “secret faults” in verse 12 is from the same verb (H5641)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִֽ/נִּסְתָּר֥וֹת'
+  - where: thread
+    claim: 'Reflection on the law in verses 7–10 turns the psalmist inward in verses 11–14'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'cause him to turn his thoughts inward as he considers how his own life measures up to the standard of that law and pleads with the Lord to help him do better (verses 11–14)'
+
+  # ---------- sections ----------
+  - where: 'section 1 plain'
+    claim: 'Verse 3 can be rendered as a statement that the heavens’ voice is not heard'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2019&version=NRSVUE'
+    quote: 'their voice is not heard;'
+  - where: 'section 1 plain'
+    claim: 'Verse 4 is rendered “voice” where the King James has “line”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2019&version=NRSVUE'
+    quote: 'yet their voice goes out through all the earth'
+  - where: 'section 1 plain'
+    claim: 'The tent is set “in the heavens,” and the sun rises at one end and circles to the other'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2019&version=NRSVUE'
+    quote: 'In the heavens he has set a tent for the sun,'
+  - where: 'section 2 plain'
+    claim: '“Converting the soul” is to refresh or restore it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7725.htm'
+    quote: 'accusative נֶפֶשׁ = refresh Lamentations 1:11,16,19; Psalm 19:8; Proverbs 25:13; Ruth 4:15.'
+  - where: 'section 2 plain'
+    claim: '“Statutes” is rendered “precepts”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2019&version=NRSVUE'
+    quote: 'the precepts of the Lord are right,'
+  - where: 'section 2 plain'
+    claim: 'The honeycomb line is honey dripping from the comb'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2019&version=NRSVUE'
+    quote: 'and drippings of the honeycomb.'
+  - where: 'section 3 plain'
+    claim: '“Cleanse” is to acquit or clear; “secret faults” are hidden ones'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2019&version=NRSVUE'
+    quote: 'Clear me from hidden faults.'
+  - where: 'section 3 plain'
+    claim: 'The word in verse 13 may be read as presumptuous men'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2086.htm'
+    quote: 'also from presumptuous men hold back thy servant'
+  - where: 'section 3 plain'
+    claim: '“Upright” is rendered “blameless”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2019&version=NRSVUE'
+    quote: 'Then I shall be blameless'
+  - where: 'section 3 plain'
+    claim: '“My strength” is rendered “my rock”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2019&version=NRSVUE'
+    quote: 'my rock and my redeemer.'
+
+  # ---------- note 19:1 ----------
+  - where: 'note 19:1 “Creation as a witness of God”'
+    claim: 'Alma tells Korihor that all things denote there is a God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/30?lang=eng'
+    quote: 'all things denote there is a God; yea, even the earth, and all things that are upon the face of it, yea, and its motion, yea, and also all the planets which move in their regular form do witness that there is a Supreme Creator.'
+  - where: 'note 19:1 “Creation as a witness of God”'
+    claim: 'The first half of the psalm recalls the reasoning of Alma’s testimony to Korihor'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'The expressions of awe inspired by the majesty of God’s handiwork in this hymn recall the reasoning featured in the prophet Alma’s testimony to Korihor in the Book of Mormon'
+  - where: 'note 19:1 “Creation as a witness of God”'
+    claim: 'D&C 88:45 describes the sun, moon and stars giving their light'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'the sun giveth his light by day, and the moon giveth her light by night, and the stars also give their light'
+  - where: 'note 19:1 “Creation as a witness of God”'
+    claim: 'D&C 88:47 says that whoever has seen the least of these has seen God moving in majesty and power'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'any man who hath seen any or the least of these hath seen God moving in his majesty and power'
+  - where: 'note 19:1 “Creation as a witness of God”'
+    claim: 'An astronaut speaking in general conference joined Psalm 19:1 and D&C 88:47 as they came to mind while he looked at the earth from orbit'
+    key: lind-heavens-declare
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1985/10/the-heavens-declare-the-glory-of-god?lang=eng'
+    quote: '“The heavens declare the glory of God.” (Ps. 19:1.) If you have seen the heavens, you have “seen God moving in his majesty and power.” (D&C 88:47.)'
+  - where: 'note 19:1 “Creation as a witness of God”'
+    claim: 'The speaker was describing looking down on the earth from space'
+    key: lind-heavens-declare
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1985/10/the-heavens-declare-the-glory-of-god?lang=eng'
+    quote: 'To look down on the earth from space is absolutely incredible.'
+  - where: 'note 19:1 “Creation as a witness of God”'
+    claim: '“Declare” is a participle in Hebrew (morphology HVprmpa)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מְֽסַפְּרִ֥ים'
+  - where: 'note 19:1 “Creation as a witness of God”'
+    claim: 'A modern translation renders the participle “are telling”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2019&version=NRSVUE'
+    quote: 'The heavens are telling the glory of God,'
+  - where: 'note 19:1 “Creation as a witness of God”'
+    claim: 'The name for God in verse 1 is El'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כְּבֽוֹד'
+
+  # ---------- note 19:3 ----------
+  - where: 'note 19:3 “Speech in every language, or speech without sound”'
+    claim: 'The Hebrew line ends with “without” (beli), with no word for “where”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ֝לִ֗י'
+  - where: 'note 19:3 “Speech in every language, or speech without sound”'
+    claim: 'then “heard” (a participle of the verb to hear)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נִשְׁמָ֥ע'
+  - where: 'note 19:3 “Speech in every language, or speech without sound”'
+    claim: 'then “their voice”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קוֹלָֽ/ם'
+  - where: 'note 19:3 “Speech in every language, or speech without sound”'
+    claim: 'The Greek translation reads the line as the King James does'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/19.htm'
+    quote: 'There are no speeches or words, in which their voices are not heard.'
+  - where: 'note 19:3 “Speech in every language, or speech without sound”'
+    claim: 'A modern translation makes the line an independent statement'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2019&version=NRSVUE'
+    quote: 'their voice is not heard;'
+  - where: 'note 19:3 “Speech in every language, or speech without sound”'
+    claim: 'and begins verse 4 with “yet”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2019&version=NRSVUE'
+    quote: 'yet their voice goes out through all the earth'
+
+  # ---------- note 19:4 ----------
+  - where: 'note 19:4 “Line or sound, and Paul’s quotation”'
+    claim: 'The Hebrew word is a measuring line'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6957.htm'
+    quote: 'measuring-line'
+  - where: 'note 19:4 “Line or sound, and Paul’s quotation”'
+    claim: 'In this verse the line is taken as a figure of the heavens’ domain, and the lexicon judges the text probably read “their sound”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6957.htm'
+    quote: '(AV their line. figurative of their domain) read probably קֹלָם their sound'
+  - where: 'note 19:4 “Line or sound, and Paul’s quotation”'
+    claim: 'The Greek translation has “voice”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/19.htm'
+    quote: 'Their voice is gone out into all the earth, and their words to the ends of the world.'
+  - where: 'note 19:4 “Line or sound, and Paul’s quotation”'
+    claim: '“Their line” in the Hebrew text of verse 4'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קַוָּ֗/ם'
+  - where: 'note 19:4 “Line or sound, and Paul’s quotation”'
+    claim: '“Their voice,” the last word of verse 3, which differs from “their line” by one consonant'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קוֹלָֽ/ם'
+  - where: 'note 19:4 “Line or sound, and Paul’s quotation”'
+    claim: 'Paul has just said that faith comes by hearing the word'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/10?lang=eng'
+    quote: 'So then faith cometh by hearing, and hearing by the word of God.'
+  - where: 'note 19:4 “Line or sound, and Paul’s quotation”'
+    claim: 'Paul quotes the verse with “sound”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/10?lang=eng'
+    quote: 'But I say, Have they not heard? Yes verily, their sound went into all the earth, and their words unto the ends of the world.'
+
+  # ---------- note 19:5 ----------
+  - where: 'note 19:5 “The sun as bridegroom and runner”'
+    claim: 'The “chamber” is a bride-chamber, at root a canopy'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'shows that this word means a bride-chamber; properly (from חפף to cover) it means a canopy'
+  - where: 'note 19:5 “The sun as bridegroom and runner”'
+    claim: 'A modern translation has “wedding canopy”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2019&version=NRSVUE'
+    quote: 'which comes out like a bridegroom from his wedding canopy,'
+  - where: 'note 19:5 “The sun as bridegroom and runner”'
+    claim: 'One reading: the bridegroom is the freshness of the morning light'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'The morning light has in it a freshness and cheerfulness, as it were a renewed youth.'
+  - where: 'note 19:5 “The sun as bridegroom and runner”'
+    claim: 'The Greek has “giant” for the strong man'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/19.htm'
+    quote: 'he will exult as a giant to run his course'
+  - where: 'note 19:5 “The sun as bridegroom and runner”'
+    claim: 'The sun is like a hero in its course'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'inasmuch as it marches on its way ever anew, light-giving and triumphant'
+  - where: 'note 19:5 “The sun as bridegroom and runner”'
+    claim: 'The word in verse 6 is the heat of the sun'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2535.htm'
+    quote: 'heat of sun Psalm 19:7.'
+  - where: 'note 19:5 “The sun as bridegroom and runner”'
+    claim: 'The heat is the sun’s enlightening and warming influence'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'is the enlightening and warming influence of the sun'
+
+  # ---------- note 19:7 structure ----------
+  - where: 'note 19:7 “From the sun to the law”'
+    claim: 'God is named once in verses 1–6, as El (verse 1)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֵ֑ל'
+  - where: 'note 19:7 “From the sun to the law”'
+    claim: 'The divine name begins at verse 7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תּ֘וֹרַ֤ת'
+  - where: 'note 19:7 “From the sun to the law”'
+    claim: 'El once in the first part, the covenant name seven times in the second'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'in the first part God is called אל according to his relationship of power to the world, and is only mentioned once; whereas in the second part, He is called by His covenant name יהוה, and mentioned seven times'
+  - where: 'note 19:7 “From the sun to the law”'
+    claim: 'No connecting word marks the change of subject'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'No sign is made use of to mark the transition from the one part to the other'
+  - where: 'note 19:7 “From the sun to the law”'
+    claim: 'The psalm is read as two hymns, to the Creator and to the Lawgiver'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'a hymn of praise to God as Creator (verses 1–6) and a hymn of praise to God as Lawgiver (verses 7–14)'
+  - where: 'note 19:7 “From the sun to the law”'
+    claim: 'One reading: the heavens tell God’s glory but not His will'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'the heavens indeed tell of the glory of God, but not of His will'
+  - where: 'note 19:7 “From the sun to the law”'
+    claim: 'The word for “pure” also means clear'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1249.htm'
+    quote: 'pure, clear: בר לבב pure in heart Psalm 24:4'
+  - where: 'note 19:7 “From the sun to the law”'
+    claim: 'The commandment’s purity has been glossed as the clearness of sunlight'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'clear, like the light of the sun'
+  - where: 'note 19:7 “From the sun to the law”'
+    claim: '“Hid” in verse 6 is from the verb to hide (H5641)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נִ֝סְתָּ֗ר'
+  - where: 'note 19:7 “From the sun to the law”'
+    claim: '“Secret faults” in verse 12 is from the same verb (H5641)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִֽ/נִּסְתָּר֥וֹת'
+  - where: 'note 19:7 “From the sun to the law”'
+    claim: 'The word for “law” means instruction or teaching'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'does not in itself mean the law, but a pointing out, instruction, doctrine or teaching'
+  - where: 'note 19:7 “From the sun to the law”'
+    claim: 'One reading: “the fear of the LORD” is here a precept, what revelation demands'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'is not the fear of God as an act performed, but as a precept, it is what God''s revelation demands, effects, and maintains'
+
+  # ---------- note 19:7 words ----------
+  - where: 'note 19:7 “Converting the soul means restoring it”'
+    claim: 'The verb is to turn back, return'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7725.htm'
+    quote: 'turn back, return:'
+  - where: 'note 19:7 “Converting the soul means restoring it”'
+    claim: 'With “soul” as object it means to refresh, as in this verse (Hebrew 19:8)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7725.htm'
+    quote: 'accusative נֶפֶשׁ = refresh Lamentations 1:11,16,19; Psalm 19:8; Proverbs 25:13; Ruth 4:15.'
+  - where: 'note 19:7 “Converting the soul means restoring it”'
+    claim: 'A modern translation has “reviving the soul”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2019&version=NRSVUE'
+    quote: 'reviving the soul;'
+  - where: 'note 19:7 “Converting the soul means restoring it”'
+    claim: 'The same verb (H7725) stands in Psalm 23:3'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְשׁוֹבֵ֑ב'
+  - where: 'note 19:7 “Converting the soul means restoring it”'
+    claim: 'The form in this verse (H7725)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מְשִׁ֣יבַת'
+  - where: 'note 19:7 “Converting the soul means restoring it”'
+    claim: '“Perfect,” said of the law, is sound, wholesome, unimpaired'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8549.htm'
+    quote: 'sound, wholesome, unimpaired, innocent, having integrity: of God''s way Psalm 18:31 = 2 Samuel 22:31; work Deuteronomy 32:4; law Psalm 19:8'
+  - where: 'note 19:7 “Converting the soul means restoring it”'
+    claim: 'The simple person is open-minded'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6612.htm'
+    quote: 'adjective simple, possibly as open-minded'
+  - where: 'note 19:7 “Converting the soul means restoring it”'
+    claim: 'open to wisdom or to folly'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6612.htm'
+    quote: 'open to the instruction of wisdom or folly'
+  - where: 'note 19:7 “Converting the soul means restoring it”'
+    claim: 'The Greek has “babes” for the simple'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/19.htm'
+    quote: 'the testimony of the Lord is faithful, instructing babes.'
+  - where: setting
+    claim: 'This is truer of the second half than of the first'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'this is truer of this second half of the psalm than the first'
+
+  # ---------- note 19:12 ----------
+  - where: 'note 19:12 “Faults hidden from the one who commits them”'
+    claim: 'The noun for “errors” means error (Hebrew 19:13)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7691.htm'
+    quote: 'noun feminine error; — plural absolute שְׁגִיאוֺת Psalm 19:13'
+  - where: 'note 19:12 “Faults hidden from the one who commits them”'
+    claim: '“Secret faults” is one Hebrew word, hidden things, from the verb to hide (H5641)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִֽ/נִּסְתָּר֥וֹת'
+  - where: 'note 19:12 “Faults hidden from the one who commits them”'
+    claim: 'The same verb is used of the sun in verse 6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נִ֝סְתָּ֗ר'
+  - where: 'note 19:12 “Faults hidden from the one who commits them”'
+    claim: '“Cleanse” is to hold innocent, acquit (Hebrew 19:13)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5352.htm'
+    quote: 'hold innocent, acquit, Job 9:28; מֵעֲוֺנִי Job 10:4; מִנִּסְתּרוֺת Psalm 19:13.'
+  - where: 'note 19:12 “Faults hidden from the one who commits them”'
+    claim: 'Numbers 15 provides an offering and forgiveness for sin through ignorance'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/15?lang=eng'
+    quote: 'And if any soul sin through ignorance, then he shall bring a she goat of the first year for a sin offering.'
+  - where: 'note 19:12 “Faults hidden from the one who commits them”'
+    claim: 'and cuts off the one who acts presumptuously'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/15?lang=eng'
+    quote: 'But the soul that doeth ought presumptuously'
+  - where: 'note 19:12 “Faults hidden from the one who commits them”'
+    claim: 'One reading: the errors cover the whole province of involuntary sin'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'comprehends the whole province of the peccatum involuntarium'
+  - where: 'note 19:12 “Faults hidden from the one who commits them”'
+    claim: 'the sins the striving person does not discern'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'all those sins, which even he, who is most earnestly striving after sanctification, does not discern'
+  - where: 'note 19:12 “Faults hidden from the one who commits them”'
+    claim: 'The same reading sets the deliberate sins of verse 13 on Numbers 15:27–31'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'which cast one out of the state of grace or favour, Numbers 15:27-31'
+  - where: 'note 19:12 “Faults hidden from the one who commits them”'
+    claim: 'Reflection on the law turns the psalmist inward'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'cause him to turn his thoughts inward as he considers how his own life measures up to the standard of that law'
+  - where: 'note 19:12 “Faults hidden from the one who commits them”'
+    claim: 'The law is a mirror of self-knowledge'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'the Law is not only a copy of the divine will, but also a mirror of self-knowledge'
+
+  # ---------- note 19:13 ----------
+  - where: 'note 19:13 “Presumptuous sins, or presumptuous men”'
+    claim: 'The word is an adjective, insolent or presumptuous'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2086.htm'
+    quote: 'adjective insolent, presumptuous'
+  - where: 'note 19:13 “Presumptuous sins, or presumptuous men”'
+    claim: 'The Hebrew has the one word, a plural adjective with no noun'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִ/זֵּדִ֨ים'
+  - where: 'note 19:13 “Presumptuous sins, or presumptuous men”'
+    claim: 'Elsewhere it is a technical term for godless, rebellious men'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2086.htm'
+    quote: 'elsewhere used substantively, as technical term for godless, rebellious men'
+  - where: 'note 19:13 “Presumptuous sins, or presumptuous men”'
+    claim: 'The lexicon judges that this verse (Hebrew 19:14) probably means presumptuous men, against the King James'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2086.htm'
+    quote: 'so probably also Psalm 19:14'
+  - where: 'note 19:13 “Presumptuous sins, or presumptuous men”'
+    claim: 'The lexicon’s rendering'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2086.htm'
+    quote: 'also from presumptuous men hold back thy servant'
+  - where: 'note 19:13 “Presumptuous sins, or presumptuous men”'
+    claim: 'A modern translation has “the insolent”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2019&version=NRSVUE'
+    quote: 'Keep back your servant also from the insolent;'
+  - where: 'note 19:13 “Presumptuous sins, or presumptuous men”'
+    claim: 'The Greek has “the attack of strangers”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/19.htm'
+    quote: 'And spare thy servant the attack of strangers'
+  - where: 'note 19:13 “Presumptuous sins, or presumptuous men”'
+    claim: 'The Joseph Smith Translation, in footnote 13a of the Church’s edition, changes “sins” to “acts”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/19?lang=eng'
+    quote: 'acts'
+  - where: 'note 19:13 “Presumptuous sins, or presumptuous men”'
+    claim: '“Innocent” in verse 13 is the verb of “cleanse” in verse 12 (H5352), there an imperative'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נַקֵּֽ/נִי'
+  - where: 'note 19:13 “Presumptuous sins, or presumptuous men”'
+    claim: 'and here (H5352)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ֝/נִקֵּ֗יתִי'
+  - where: 'note 19:13 “Presumptuous sins, or presumptuous men”'
+    claim: '“Great transgression” has no article in Hebrew (preposition and noun only)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִ/פֶּ֥שַֽׁע'
+  - where: 'note 19:13 “Presumptuous sins, or presumptuous men”'
+    claim: 'A modern translation has “innocent of great transgression”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2019&version=NRSVUE'
+    quote: 'and innocent of great transgression.'
+
+  # ---------- note 19:14 ----------
+  - where: 'note 19:14 “My rock and my redeemer”'
+    claim: 'Jehovah is the premortal Jesus Christ, and LORD in the Old Testament usually means Jehovah'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: 'note 19:14 “My rock and my redeemer”'
+    claim: 'The Hebrew behind “my strength” is “my rock”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2019&version=NRSVUE'
+    quote: 'my rock and my redeemer.'
+  - where: 'note 19:14 “My rock and my redeemer”'
+    claim: 'The word is used of God as support and defence of His people'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6697.htm'
+    quote: 'figurative of God (33 t.) as support and defence of his people'
+  - where: 'note 19:14 “My rock and my redeemer”'
+    claim: 'The same form, “my rock,” is in Psalm 18:2 (Hebrew 18:3) as in this verse (Hebrew 19:15)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6697.htm'
+    quote: 'צוּרִי Psalm 18:3; Psalm 18:47 = 2 Samuel 22:3,47a'
+  - where: 'note 19:14 “My rock and my redeemer”'
+    claim: 'The verb behind “redeemer” means to act as kinsman'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1350.htm'
+    quote: 'act as kinsman, do the part of next of kin'
+  - where: 'note 19:14 “My rock and my redeemer”'
+    claim: 'With God as subject it means to redeem, implying personal relationship; this verse (Hebrew 19:15) is listed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1350.htm'
+    quote: 'redeem, with God as subject implying personal relationship, chiefly in poetry'
+  - where: 'note 19:14 “My rock and my redeemer”'
+    claim: 'Israelites who asked God to redeem them considered Him their kin through covenant'
+    key: sc-knowhy-436
+    url: 'https://scripturecentral.org/knowhy/how-the-book-of-mormon-and-the-old-testament-help-us-understand-what-it-means-to-be-redeemed'
+    quote: 'they were considering Him to be their kin through the covenant relationship they had with Him'
+  - where: 'note 19:14 “My rock and my redeemer”'
+    claim: 'Psalm 19:14 is cited among verses showing Jehovah understood as Israel’s Redeemer'
+    key: sc-knowhy-12
+    url: 'https://scripturecentral.org/knowhy/did-pre-christian-prophets-know-about-christ'
+    quote: 'understood to be Israel’s Redeemer (cf. Psalms 19:14; Isaiah 47:4; 48:17; 54:5; Jeremiah 50:34)'
+  - where: 'note 19:14 “My rock and my redeemer”'
+    claim: 'Jesus Christ is the Redeemer, who paid the price for sins through His Atonement'
+    key: gs-redeemer
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/redeemer?lang=eng'
+    quote: 'Jesus Christ is the great Redeemer of mankind because He, through His Atonement, paid the price for the sins of mankind and made possible the resurrection of all people.'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'The LORD is Jehovah, the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+
+  # ---------- explore ----------
+  - where: explore
+    claim: 'Psalm 8 is set beside this psalm as the night sky beside the day sky'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'called forth by the aspect of the heavens by day, just as Psalm 8:1-9 was by the aspect of the heavens by night'
+  - where: explore
+    claim: 'Psalm 119 is set beside the second half of the psalm'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: '(see also Psalm 119)'
+  - where: explore
+    claim: 'Job 19:25 has “my redeemer” in the same form'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1350.htm'
+    quote: 'גֹּאֲלִי Job 19:25, צוּרִי וְגֹאֲלִי Psalm 19:15.'
+
+  # ---------- parallels ----------
+  - where: parallels
+    claim: 'Romans 10:18 quotes verse 4 with “sound”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/10?lang=eng'
+    quote: 'their sound went into all the earth, and their words unto the ends of the world'
+  - where: parallels
+    claim: 'The Greek form of verse 4'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/19.htm'
+    quote: 'Their voice is gone out into all the earth, and their words to the ends of the world.'
+  - where: parallels
+    claim: 'Deliberate sins of verse 13 are set on Numbers 15:27–31'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'which cast one out of the state of grace or favour, Numbers 15:27-31'
