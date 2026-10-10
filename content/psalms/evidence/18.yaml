@@ -1,0 +1,759 @@
+chapter: 18
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David and dates it to the time of his deliverance from all his enemies and from Saul'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/18?lang=eng'
+    quote: 'who spake unto the Lord the words of this song in the day that the Lord delivered him from the hand of all his enemies, and from the hand of Saul'
+  - where: setting
+    claim: 'The same song is 2 Samuel 22, introduced in nearly the words of the title'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/22?lang=eng'
+    quote: 'And David spake unto the Lord the words of this song in the day that the Lord had delivered him out of the hand of all his enemies, and out of the hand of Saul'
+  - where: setting
+    claim: 'The next chapter of Samuel begins with David’s last words'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/23?lang=eng'
+    quote: 'Now these be the last words of David.'
+  - where: setting
+    claim: 'Psalm 18 is listed among the songs of thanksgiving, which are defined so'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'These psalms reflect the gratitude of an individual or community after they have been delivered from a trial by God: 18, 30, 34, 40, 66, 92, 116, 118, and 138.'
+  - where: setting
+    claim: 'Psalm 18 is also listed among the royal psalms'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'Psalm 18, for example, could fit in category 3 in that it provides thanksgiving after a successful battle'
+  - where: setting
+    claim: 'Psalm 18 is a royal psalm and has been called the king’s psalm of thanksgiving'
+    key: ot-minute-psalm-18-1
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1813'
+    quote: 'Psalm 18 has been called the king’s psalm of thanksgiving.'
+
+  - where: setting
+    claim: 'Psalm 144:7 borrows from this psalm'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'the borrowed passage, Psalm 144:7'
+  - where: setting
+    claim: 'Habakkuk 3:19 echoes the line on hinds’ feet (verse 33; the commentary numbers by the Hebrew)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'writers of the later time of the kings here and there use language which is borrowed from it or are echoes of it (comp. Proverbs 30:5 with Psalm 18:31; Habakkuk 3:19 with Psalm 18:34)'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The psalm divides into two halves, the second beginning at King James verse 31 (Hebrew 18:32)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'The Psalm divides into two halves; for the strain of praise begins anew with Psalm 18:32, after having run its first course and come to a beautiful close in Psalm 18:31.'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: 'Verse 2: the second “rock,” and “take refuge”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2018&version=NRSVUE'
+    quote: 'my God, my rock in whom I take refuge,'
+  - where: section 2 plain
+    claim: 'Verses 4–5: cords, Sheol, confronted'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2018&version=NRSVUE'
+    quote: 'the cords of Sheol entangled me;'
+  - where: section 4 plain
+    claim: 'Verses 16–19: reached down, support, a broad place'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2018&version=NRSVUE'
+    quote: 'He brought me out into a broad place;'
+  - where: section 5 plain
+    claim: 'Verse 23: “upright” rendered “blameless”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2018&version=NRSVUE'
+    quote: 'I was blameless before him,'
+  - where: section 6 plain
+    claim: 'Verses 25–27: loyal, crooked and shrewd, a humble people'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2018&version=NRSVUE'
+    quote: 'With the loyal you show yourself loyal;'
+  - where: section 6 plain
+    claim: 'Verse 28: “candle” is a lamp'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2018&version=NRSVUE'
+    quote: 'It is you who light my lamp;'
+  - where: section 7 plain
+    claim: 'Verses 33–34: a deer’s feet; a bow of bronze, bent'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2018&version=NRSVUE'
+    quote: 'so that my arms can bend a bow of bronze.'
+  - where: section 8 plain
+    claim: 'Verse 40: “given me the necks” means made them turn their backs'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2018&version=NRSVUE'
+    quote: 'You made my enemies turn their backs to me,'
+  - where: section 8 plain
+    claim: 'Verses 43–45: nations; foreigners who lose heart and come out of their strongholds'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2018&version=NRSVUE'
+    quote: 'and came trembling out of their strongholds.'
+
+  # ---------- note 18:0 the same song ----------
+  - where: 'note 18:0 “The same song is in 2 Samuel 22”'
+    claim: '2 Samuel 22 gives the same song, beginning with the psalm’s verse 2'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/22?lang=eng'
+    quote: 'And he said, The Lord is my rock, and my fortress, and my deliverer;'
+  - where: 'note 18:0 “The same song is in 2 Samuel 22”'
+    claim: 'Samuel’s copy stands after a chapter on David’s Philistine wars'
+    key: ot-minute-psalm-18-1
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1813'
+    quote: 'a version of Psalm 18 appears in 2 Samuel 22, inserted after a chapter concerning David’s battles against the Philistines'
+  - where: 'note 18:0 “The same song is in 2 Samuel 22”'
+    claim: 'Samuel has “waves of death” where the psalm has “sorrows of death”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/22?lang=eng'
+    quote: 'When the waves of death compassed me, the floods of ungodly men made me afraid;'
+  - where: 'note 18:0 “The same song is in 2 Samuel 22”'
+    claim: 'Samuel has “thou art my lamp” at the psalm’s verse 28, and “tower of salvation” in the last verse'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/22?lang=eng'
+    quote: 'He is the tower of salvation for his king: and sheweth mercy to his anointed, unto David, and to his seed for evermore.'
+
+  # ---------- note 18:0 when ----------
+  - where: 'note 18:0 “When David sang it, and why Saul is named”'
+    claim: '“In the day” means at the time'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'equals at the time, as in Genesis 2:4, and frequently'
+
+  - where: 'note 18:0 “When David sang it, and why Saul is named”'
+    claim: 'The Bible Dictionary places the psalm at the height of the kingdom'
+    key: bd-david
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/david?lang=eng'
+    quote: 'while Ps. 18 (2 Sam. 22) marks the highest point of the national prosperity'
+  - where: 'note 18:0 “When David sang it, and why Saul is named”'
+    claim: 'One older reading: the song comes after the promises of 2 Samuel 7 and its close looks back to them'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'springs entirely from the new self-consciousness to which he was raised by the promises recorded in 2 Samuel 7; and towards the end, it closes with express retrospective reference to these promises'
+  - where: 'note 18:0 “When David sang it, and why Saul is named”'
+    claim: 'Saul is singled out because that danger was the most personal and the longest'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'The deliverance out of the hand of Saul is made specially prominent'
+  - where: 'note 18:0 “When David sang it, and why Saul is named”'
+    claim: 'The danger from Saul described'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'was of the most personal, the most perilous, and the most protracted kind'
+  - where: 'note 18:0 “When David sang it, and why Saul is named”'
+    claim: 'David is the first after Moses and Joshua called the servant of the LORD'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'who is the first after Moses and Joshua to bear this designation'
+
+  - where: 'note 18:0 “When David sang it, and why Saul is named”'
+    claim: 'The title calls David the servant of the LORD'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/18?lang=eng'
+    quote: 'A Psalm of David, the servant of the Lord'
+  - where: 'note 18:2 “A horn is strength”'
+    claim: 'Adonijah caught hold of the horns of the altar'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/1?lang=eng'
+    quote: 'And Adonijah feared because of Solomon, and arose, and went, and caught hold on the horns of the altar.'
+
+  # ---------- note 18:1 ----------
+  - where: 'note 18:1 “A word for love found in this form only here”'
+    claim: 'The verb of verse 1 is racham (Strong’s 7355) in the simple (Qal) stem'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶרְחָמְ/ךָ֖'
+  - where: 'note 18:1 “A word for love found in this form only here”'
+    claim: 'The lexicon lists the simple stem for this verse alone, notes that the line is not in 2 Samuel 22, and suggests it may be a gloss'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7355.htm'
+    quote: 'I love thee (perhaps gloss; see not in'
+  - where: 'note 18:1 “A word for love found in this form only here”'
+    claim: 'Elsewhere the verb means to have compassion'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7355.htm'
+    quote: 'have compassion, compassionate'
+  - where: 'note 18:1 “A word for love found in this form only here”'
+    claim: 'Its subject is usually God, with His people as object; Psalm 103:13 is listed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7355.htm'
+    quote: '1 usually of God: with accusative of his people'
+  - where: 'note 18:1 “A word for love found in this form only here”'
+    claim: 'A modern translation has “I love you”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2018&version=NRSVUE'
+    quote: 'I love you, O Lord, my strength.'
+  - where: 'note 18:1 “A word for love found in this form only here”'
+    claim: 'Samuel’s copy begins with the psalm’s verse 2'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/22?lang=eng'
+    quote: 'And he said, The Lord is my rock, and my fortress, and my deliverer;'
+  - where: 'note 18:1 “A word for love found in this form only here”'
+    claim: 'The first verse expresses intimacy and devotion'
+    key: ot-minute-psalm-18-1
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1813'
+    quote: 'Note the feelings of intimacy and devotion for the Lord expressed in the first verse'
+
+  # ---------- note 18:2 names ----------
+  - where: 'note 18:2 “Names from the wilderness years”'
+    claim: 'The metaphors of verse 2 convey the speaker’s past experience of the Lord’s protection'
+    key: ot-minute-psalm-18-1
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1813'
+    quote: 'using several metaphors that communicate the speaker’s experience with the Lord’s protection and security in times past'
+  - where: 'note 18:2 “Names from the wilderness years”'
+    claim: 'The first “rock” is sela (Strong’s 5553)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'סַֽלְעִ֥/י'
+  - where: 'note 18:2 “Names from the wilderness years”'
+    claim: 'Sela means a crag or cliff'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5553.htm'
+    quote: 'crag, cliff, synonym'
+  - where: 'note 18:2 “Names from the wilderness years”'
+    claim: 'The cliff of 1 Samuel 23:25, 28 is listed among particular cliffs called sela'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5553.htm'
+    quote: '1 Samuel 23:28 compare 1 Samuel 23:25'
+  - where: 'note 18:2 “Names from the wilderness years”'
+    claim: 'The place where Saul broke off the pursuit was named Sela-hammahlekoth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/23?lang=eng'
+    quote: 'Wherefore Saul returned from pursuing after David, and went against the Philistines: therefore they called that place Sela-hammahlekoth.'
+  - where: 'note 18:2 “Names from the wilderness years”'
+    claim: '“Fortress” is metsudah (Strong’s 4686)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וּ/מְצוּדָתִ֗/י'
+  - where: 'note 18:2 “Names from the wilderness years”'
+    claim: 'Metsudah means a fastness or stronghold'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4686.htm'
+    quote: 'noun feminine fastness, stronghold'
+  - where: 'note 18:2 “Names from the wilderness years”'
+    claim: 'It is the word for David’s “hold” in 1 Samuel 22:4–5 and 24:22 (Hebrew 24:23)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4686.htm'
+    quote: 'fastness of David, 1 Samuel 22:4,5; 1 Samuel 24:23'
+  - where: 'note 18:2 “Names from the wilderness years”'
+    claim: '“My strength” in the middle of verse 2 is tsur, rock (Strong’s 6697)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'צ֭וּרִ/י'
+  - where: 'note 18:2 “Names from the wilderness years”'
+    claim: 'A modern translation has “my rock in whom I take refuge”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2018&version=NRSVUE'
+    quote: 'my God, my rock in whom I take refuge,'
+  - where: 'note 18:2 “Names from the wilderness years”'
+    claim: 'Tsur is the word in “the rocks of the wild goats” (1 Samuel 24:2; Hebrew 24:3)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6697.htm'
+    quote: 'home of goats 1 Samuel 24:3'
+  - where: 'note 18:2 “Names from the wilderness years”'
+    claim: '“Trust” is the verb chasah, to take refuge (Strong’s 2620)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶֽחֱסֶה'
+  - where: 'note 18:2 “Names from the wilderness years”'
+    claim: 'Used of God, tsur means the support and defence of His people'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6697.htm'
+    quote: 'figurative of God (33 t.) as support and defence of his people'
+  - where: 'note 18:2 “Names from the wilderness years”'
+    claim: 'In Deuteronomy 32 it is a name of God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6697.htm'
+    quote: 'proper name, of deity (the Rock Deuteronomy 32:4,18'
+
+  # ---------- note 18:2 horn ----------
+  - where: 'note 18:2 “A horn is strength”'
+    claim: 'A horn was a symbol of strength and power'
+    key: ot-minute-psalm-18-1
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1813'
+    quote: 'In biblical times, a horn was a symbol of strength and power.'
+  - where: 'note 18:2 “A horn is strength”'
+    claim: 'The lexicon files this verse under the horn as a symbol of strength, said of the LORD as deliverer'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7161.htm'
+    quote: 'figurative, of person, symbol of strength'
+  - where: 'note 18:2 “A horn is strength”'
+    claim: 'The horns of the altar were a place of refuge'
+    key: ot-minute-psalm-18-1
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1813'
+    quote: 'The horns of the altar became a place of refuge for those seeking sanctuary and mercy (see 1 Kings 1:50–53).'
+  - where: 'note 18:2 “A horn is strength”'
+    claim: 'Jesus Christ is called the horn of salvation in Luke 1:69'
+    key: ot-minute-psalm-18-1
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1813'
+    quote: 'The Savior Jesus Christ is referred to as the “horn of salvation” (Luke 1:69).'
+  - where: 'note 18:2 “A horn is strength”'
+    claim: 'Hannah’s song has the lifted horn at its beginning and end'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/2?lang=eng'
+    quote: 'and he shall give strength unto his king, and exalt the horn of his anointed'
+
+  # ---------- note 18:4 ----------
+  - where: 'note 18:4 “Cords, or pangs”'
+    claim: 'The word behind “sorrows” is chevel (Strong’s 2256)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֶבְלֵי'
+  - where: 'note 18:4 “Cords, or pangs”'
+    claim: 'The Hebrew word can mean cord or pain'
+    key: sc-knowhy-93
+    url: 'https://scripturecentral.org/knowhy/why-does-abinadi-use-the-phrase-the-bands-of-death'
+    quote: 'The Hebrew word hevel expresses an impressive array of meanings, including “cord, rope, band, snare” or “pain, pang, travail”'
+  - where: 'note 18:4 “Cords, or pangs”'
+    claim: 'The ancient Greek has “pangs”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/18.htm'
+    quote: 'The pangs of death compassed me, and the torrents of ungodliness troubled me exceedingly.'
+  - where: 'note 18:4 “Cords, or pangs”'
+    claim: 'A modern translation has cords in both verses'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2018&version=NRSVUE'
+    quote: 'The cords of death encompassed me;'
+  - where: 'note 18:4 “Cords, or pangs”'
+    claim: 'Verse 5 in a modern translation: cords of Sheol, and “confronted” for “prevented”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2018&version=NRSVUE'
+    quote: 'the cords of Sheol entangled me;'
+
+  - where: 'note 18:4 “Cords, or pangs”'
+    claim: 'The lexicon reads the phrase with Sheol as cords, and for verse 4 prefers the wording of 2 Samuel 22:5'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2256.htm'
+    quote: 'see 2 Samuel 22:5 and'
+  - where: 'note 18:4 “Cords, or pangs”'
+    claim: 'The same spelling serves two nouns, “cord” and “pain, pang”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2256.htm'
+    quote: 'noun masculineIsaiah 66:7 (but see Jeremiah 49:24) pain, pang'
+  - where: 'note 18:4 “Cords, or pangs”'
+    claim: 'Samuel has “waves of death”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/22?lang=eng'
+    quote: 'When the waves of death compassed me, the floods of ungodly men made me afraid;'
+  - where: 'note 18:4 “Cords, or pangs”'
+    claim: '“Hell” in verse 5 is Sheol'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שְׁא֣וֹל'
+
+  # ---------- note 18:5 ----------
+  - where: 'note 18:5 “The bands of death, and the king’s rescue read of Christ”'
+    claim: 'The Hebrew phrase of verse 4 can be translated “bands of death”'
+    key: sc-knowhy-93
+    url: 'https://scripturecentral.org/knowhy/why-does-abinadi-use-the-phrase-the-bands-of-death'
+    quote: 'that can be translated “bands of death” (as in the Darby Bible Translation). The phrase appears in Psalms 18:4 and 116:3'
+  - where: 'note 18:5 “The bands of death, and the king’s rescue read of Christ”'
+    claim: 'Abinadi and Alma seem to know the phrase'
+    key: ot-minute-psalm-18-4
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1845'
+    quote: 'both Abinadi and Alma the Younger seem to be familiar with the Hebrew phrase heveli-mot'
+  - where: 'note 18:5 “The bands of death, and the king’s rescue read of Christ”'
+    claim: 'Alma joins “the chains of hell” to “the bands of death”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/5?lang=eng'
+    quote: 'they were encircled about by the bands of death, and the chains of hell'
+  - where: 'note 18:5 “The bands of death, and the king’s rescue read of Christ”'
+    claim: 'One reading: the psalm’s imagery prefigures the Savior’s death and resurrection'
+    key: ot-minute-psalm-18-4
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1845'
+    quote: 'A close reading of Psalm 18 reveals imagery that can, similarly, be understood as prefiguring Jesus Christ’s death and resurrection (and perhaps also His baptism).'
+  - where: 'note 18:5 “The bands of death, and the king’s rescue read of Christ”'
+    claim: 'The psalm presents a royal figure who cries out and is saved from death'
+    key: ot-minute-psalm-18-4
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1845'
+    quote: 'The king cries out to God and is then miraculously saved from death.'
+  - where: 'note 18:5 “The bands of death, and the king’s rescue read of Christ”'
+    claim: 'The royal figure is the Lord’s anointed of verse 50'
+    key: ot-minute-psalm-18-4
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1845'
+    quote: 'The psalm presents a royal figure'
+
+  # ---------- note 18:7 ----------
+  - where: 'note 18:7 “A rescue told as the LORD’s coming in storm”'
+    claim: 'No such event is recorded in David’s life'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'we find no express record of any incident in David''s life of the kind recorded in 1 Samuel 7:10'
+  - where: 'note 18:7 “A rescue told as the LORD’s coming in storm”'
+    claim: 'One older reading: a real experience, idealised into a grand picture'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'works up into a grand majestic picture of his miraculous deliverance'
+  - where: 'note 18:7 “A rescue told as the LORD’s coming in storm”'
+    claim: 'The description may be meant to recall Sinai'
+    key: ot-minute-psalm-18-6
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-186-19'
+    quote: 'is meant to invoke in the audience the memory of God’s unforgettable visitation on Mount Sinai'
+  - where: 'note 18:7 “A rescue told as the LORD’s coming in storm”'
+    claim: 'A theophany is a divine appearance'
+    key: ot-minute-psalm-18-6
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-186-19'
+    quote: 'theophany (or divine appearance)'
+  - where: 'note 18:7 “A rescue told as the LORD’s coming in storm”'
+    claim: 'The martial imagery is nearer Judges 5 and Habakkuk 3; Exodus 15 is also compared'
+    key: ot-minute-psalm-18-6
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-186-19'
+    quote: 'more like the dramatic martial imagery of the theophanies in Judges 5 and Habakkuk 3 (compare also Exodus 15 and Deuteronomy 32–33)'
+  - where: 'note 18:7 “A rescue told as the LORD’s coming in storm”'
+    claim: 'The LORD’s help for David is set beside the Exodus and Sinai'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'Like the deliverance of Israel out of Egypt, Psalm 68; Psalm 77, and the giving of the Law on Sinai, Exodus 19'
+  - where: 'note 18:7 “A rescue told as the LORD’s coming in storm”'
+    claim: 'The appearing is for the help of David'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'the appearing of Jahve for the help of David has also extraordinary natural phenomena in its train'
+  - where: 'note 18:7 “A rescue told as the LORD’s coming in storm”'
+    claim: 'Samuel’s copy has “the channels of the sea” in the line on the blast of His nostrils'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/22?lang=eng'
+    quote: 'And the channels of the sea appeared, the foundations of the world were discovered, at the rebuking of the Lord, at the blast of the breath of his nostrils.'
+  - where: 'note 18:7 “A rescue told as the LORD’s coming in storm”'
+    claim: 'It has been proposed that the psalm belonged to a temple rite re-enacting God’s appearing'
+    key: ot-minute-psalm-18-6
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-186-19'
+    quote: 'In essence, the Sinai theophany was reproduced in the temple of Jerusalem.'
+  - where: 'note 18:7 “A rescue told as the LORD’s coming in storm”'
+    claim: 'The temple of verse 6 is the LORD’s heavenly dwelling'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'His heavenly dwelling-place, which is both palace and temple'
+  - where: 'note 18:7 “A rescue told as the LORD’s coming in storm”'
+    claim: 'What cherubim are, and where they were set'
+    key: bd-cherubim
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/cherubim?lang=eng'
+    quote: 'Figures representing heavenly creatures, the exact form being unknown. They are found in the Holy of Holies, on the Mercy Seat of the Ark'
+  - where: 'note 18:7 “A rescue told as the LORD’s coming in storm”'
+    claim: 'Nephi’s “upon the wings of” (2 Nephi 4:25) is counted as an allusion to verse 10'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: 'Case 9 Psalms 18:10; 104:3 2 Nephi 4:25 Upon the wings of 2 Samuel 22:11'
+
+  # ---------- note 18:16 ----------
+  - where: 'note 18:16 “Drawn out, as Moses was”'
+    claim: 'The verb of “drew me out” is mashah (Strong’s 4871)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יַֽ֝מְשֵׁ֗/נִי'
+  - where: 'note 18:16 “Drawn out, as Moses was”'
+    claim: 'The verb explains Moses’ name in Exodus 2:10'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4871.htm'
+    quote: 'out of the water I drew him (used to explain'
+  - where: 'note 18:16 “Drawn out, as Moses was”'
+    claim: 'The lexicon’s only other occurrence is this line, in 2 Samuel 22:17 and the psalm (which it numbers by the Hebrew), with the LORD as subject'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4871.htm'
+    quote: '2 Samuel 22:17 = Psalm 18:7 (subject'
+
+  # ---------- note 18:20 ----------
+  - where: 'note 18:20 “What righteousness David claims”'
+    claim: '“Upright” in verse 23 is tamim (Strong’s 8549)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תָמִ֣ים'
+  - where: 'note 18:20 “What righteousness David claims”'
+    claim: 'A modern translation has “blameless”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2018&version=NRSVUE'
+    quote: 'I was blameless before him,'
+  - where: 'note 18:20 “What righteousness David claims”'
+    claim: 'One older reading explains the word as undivided devotion'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'with his whole soul undividedly devoted to Him'
+  - where: 'note 18:20 “What righteousness David claims”'
+    claim: 'The same reading compares three testimonies about David'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'We may compare David''s own testimony concerning himself in 1 Samuel 26:23., the testimony of God in 1 Kings 14:8, and the testimony of history in 1 Kings 15:5'
+  - where: 'note 18:20 “What righteousness David claims”'
+    claim: 'The story of Uriah is in 2 Samuel 11, eleven chapters before the song'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/11?lang=eng'
+    quote: 'Set ye Uriah in the forefront of the hottest battle, and retire ye from him, that he may be smitten, and die.'
+  - where: 'note 18:20 “What righteousness David claims”'
+    claim: 'The same reading takes the song as covering the whole life, the fall included'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'did not cast him off even when he fell into sin'
+
+  # ---------- note 18:26 ----------
+  - where: 'note 18:26 “How God meets the crooked”'
+    claim: 'In the first three pairs the verb is formed from the adjective; here, “merciful” is chasid (2623) with the verb chasad (2616)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חָסִ֥יד'
+  - where: 'note 18:26 “How God meets the crooked”'
+    claim: 'The fourth pair changes words: the person is iqqesh (6141)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עִ֝קֵּ֗שׁ'
+  - where: 'note 18:26 “How God meets the crooked”'
+    claim: 'and the verb is pathal (6617)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּתְפַּתָּֽל'
+  - where: 'note 18:26 “How God meets the crooked”'
+    claim: 'The lexicon’s rendering of the line'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6617.htm'
+    quote: 'Psalm 18:27 with the twisted thou dost deal tortuously'
+  - where: 'note 18:26 “How God meets the crooked”'
+    claim: 'The verb means to twist; in another form, to wrestle'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6617.htm'
+    quote: 'I have wrestled (literally twisted myself) with'
+  - where: 'note 18:26 “How God meets the crooked”'
+    claim: 'The Church’s footnote gives an alternative rendering'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/18?lang=eng'
+    quote: 'with the twisted thou wilt be subtle'
+  - where: 'note 18:26 “How God meets the crooked”'
+    claim: 'A modern translation has “crooked” and “shrewd”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2018&version=NRSVUE'
+    quote: 'and with the crooked you show yourself shrewd.'
+  - where: 'note 18:26 “How God meets the crooked”'
+    claim: 'Samuel’s copy in the King James has “unsavoury”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/22?lang=eng'
+    quote: 'With the pure thou wilt shew thyself pure; and with the froward thou wilt shew thyself unsavoury.'
+  - where: 'note 18:26 “How God meets the crooked”'
+    claim: 'One older reading: God’s conduct reflects the relation a person has taken toward Him'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'God''s conduct to man is the reflection of the relation in which man has placed himself to God'
+  - where: 'note 18:26 “How God meets the crooked”'
+    claim: 'For the perverse that means being given over to perverseness'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'moral perverseness by paradoxical judgments, giving the perverse over to his perverseness'
+  - where: 'note 18:26 “How God meets the crooked”'
+    claim: 'Chasid is one who practises hesed; the line rendered'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2623.htm'
+    quote: 'with the kind thou shewest thyself kind 2 Samuel 22:26 = Psalm 18:26'
+
+  # ---------- note 18:34 ----------
+  - where: 'note 18:34 “A bow of bronze, bent”'
+    claim: 'The word behind “steel” means copper or bronze'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5154.htm'
+    quote: 'copper, bronze (only in poetry'
+  - where: 'note 18:34 “A bow of bronze, bent”'
+    claim: 'It is bronze as the material of the bow in this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5154.htm'
+    quote: 'as material of bow 2 Samuel 22:35 = Psalm 18:35'
+  - where: 'note 18:34 “A bow of bronze, bent”'
+    claim: '“Steel” in 1611 had a broader meaning that included bronze'
+    key: sc-knowhy-548
+    url: 'https://scripturecentral.org/knowhy/why-did-nephis-fine-steel-bow-break'
+    quote: 'The King James translation as steel reflects an older, broader range of meaning which included not only carburized iron (what we would call steel today) but also hardened copper alloys such as bronze.'
+  - where: 'note 18:34 “A bow of bronze, bent”'
+    claim: 'A modern translation has the arms bending a bow of bronze'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2018&version=NRSVUE'
+    quote: 'so that my arms can bend a bow of bronze.'
+  - where: 'note 18:34 “A bow of bronze, bent”'
+    claim: 'The bronze bow was probably a composite bow bound or inlaid with bronze'
+    key: sc-knowhy-548
+    url: 'https://scripturecentral.org/knowhy/why-did-nephis-fine-steel-bow-break'
+    quote: 'probably refers to a composite bow, bound and/or inlaid with bronze.'
+  - where: 'note 18:34 “A bow of bronze, bent”'
+    claim: 'The composite bow was long a royal weapon'
+    key: sc-knowhy-548
+    url: 'https://scripturecentral.org/knowhy/why-did-nephis-fine-steel-bow-break'
+    quote: 'it remained primarily a weapon of royalty.'
+  - where: 'note 18:34 “A bow of bronze, bent”'
+    claim: 'Nephi’s steel bow is compared with the biblical bow of steel'
+    key: sc-knowhy-548
+    url: 'https://scripturecentral.org/knowhy/why-did-nephis-fine-steel-bow-break'
+    quote: 'The reference to Nephi’s steel bow recalls several biblical passages which reference a “bow of steel.”'
+
+  # ---------- note 18:35 ----------
+  - where: 'note 18:35 “Gentleness, an uncertain word”'
+    claim: 'The word is anvah (Strong’s 6037)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְֽ/עַנְוַתְ/ךָ֥'
+  - where: 'note 18:35 “Gentleness, an uncertain word”'
+    claim: 'Elsewhere the noun means humility, meekness'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6037.htm'
+    quote: '1 humility, meekness Psalm 45:5 (dubious), Proverbs 15:33'
+  - where: 'note 18:35 “Gentleness, an uncertain word”'
+    claim: 'For this verse (Hebrew 18:36) the lexicon gives “condescension” and marks it dubious'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6037.htm'
+    quote: '2 condescension Psalm 18:36 (dubious, see above).'
+  - where: 'note 18:35 “Gentleness, an uncertain word”'
+    claim: 'Samuel’s copy has a different Hebrew word, which the lexicon sends to another root'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6037.htm'
+    quote: '2 Samuel 22:36 see I.'
+  - where: 'note 18:35 “Gentleness, an uncertain word”'
+    claim: 'The King James has “thy gentleness” in Samuel too'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/22?lang=eng'
+    quote: 'Thou hast also given me the shield of thy salvation: and thy gentleness hath made me great.'
+  - where: 'note 18:35 “Gentleness, an uncertain word”'
+    claim: 'The ancient Greek has “correction”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/18.htm'
+    quote: 'and thy right hand has helped me, and thy correction has upheld me to the end'
+  - where: 'note 18:35 “Gentleness, an uncertain word”'
+    claim: 'A modern translation prints “help”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2018&version=NRSVUE'
+    quote: 'your help has made me great.'
+  - where: 'note 18:35 “Gentleness, an uncertain word”'
+    claim: 'and gives “gentleness” in a footnote'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2018&version=NRSVUE'
+    quote: '18.35 Or gentleness'
+
+  # ---------- note 18:49 ----------
+  - where: 'note 18:49 “Paul hears the Gentiles in this line”'
+    claim: '“Heathen” is “nations” in the Hebrew (the Church’s footnote at verse 43)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/18?lang=eng'
+    quote: 'HEB nations'
+  - where: 'note 18:49 “Paul hears the Gentiles in this line”'
+    claim: 'Paul quotes the verse of the Gentiles glorifying God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/15?lang=eng'
+    quote: 'as it is written, For this cause I will confess to thee among the Gentiles, and sing unto thy name.'
+  - where: 'note 18:49 “Paul hears the Gentiles in this line”'
+    claim: 'The Greek psalm has the wording Paul uses'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/18.htm'
+    quote: 'Therefore will I confess to thee, O Lord, among the Gentiles, and sing to thy name.'
+  - where: 'note 18:49 “Paul hears the Gentiles in this line”'
+    claim: 'Three more passages follow, the last Isaiah’s root of Jesse'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/15?lang=eng'
+    quote: 'And again, Esaias saith, There shall be a root of Jesse, and he that shall rise to reign over the Gentiles; in him shall the Gentiles trust.'
+
+  # ---------- note 18:50 ----------
+  - where: 'note 18:50 “Mercy to David’s seed for evermore”'
+    claim: '“Mercy” is hesed (Strong’s 2617)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֶ֨סֶד'
+  - where: 'note 18:50 “Mercy to David’s seed for evermore”'
+    claim: '“His anointed” is mashiach (Strong’s 4899)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לִ/מְשִׁיח֗/וֹ'
+  - where: 'note 18:50 “Mercy to David’s seed for evermore”'
+    claim: 'The verse echoes the promises of 2 Samuel 7:12–16'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'is an echo of the Messianic promises in 2 Samuel 7:12-16'
+  - where: 'note 18:50 “Mercy to David’s seed for evermore”'
+    claim: 'One older reading: the “for evermore” holds only in Christ'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'In whom, but in Christ, the son of David, has the fallen throne of David any lasting continuance'
+  - where: 'note 18:50 “Mercy to David’s seed for evermore”'
+    claim: 'Nathan’s promise to David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/7?lang=eng'
+    quote: 'And thine house and thy kingdom shall be established for ever before thee: thy throne shall be established for ever.'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'Royal psalms were read by Christians of the Messiah'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'which for Christian readers often reflected the royal life and reign of the Messiah: 2, 18, 20, 21, 45, 72, 89, 101, 110, 132, and 144'
+  - where: christ
+    claim: 'The Church’s footnote on “trust” in verse 2 refers to Hebrews 2:13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/18?lang=eng'
+    quote: 'Heb. 2:13'
+
+  # ---------- explore ----------
+
+
+  - where: explore
+    claim: 'Nephi calls the Lord the rock of his salvation, as David does'
+    key: ot-minute-psalm-18-1
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1813'
+    quote: 'referring to the Lord as “the rock of my salvation” (2 Nephi 4:30)'
+  - where: explore
+    claim: 'The close of Nephi’s psalm is counted as alluding to “my rock” in verses 2 and 46'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: 'my rock [Psalms 18:2, 46; 28:1; 31:3; 42:9; 62:2, 6; 71:3; 78:35; 92:15] and mine everlasting God'
+  - where: explore
+    claim: 'Moses’ song names God the Rock'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/32?lang=eng'
+    quote: 'He is the Rock, his work is perfect: for all his ways are judgment'
+
+  # ---------- added in review ----------
+  - where: 'note 18:0 “When David sang it, and why Saul is named”'
+    claim: 'One older reading: the names for God in verse 2 come from the years of Saul’s persecution'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/18.htm'
+    quote: 'All these epithets applied to God are the fruits of the affliction out of which David''s song has sprung, viz., his persecution by Saul'
+  - where: 'note 18:20 “What righteousness David claims”'
+    claim: 'The Bible Dictionary connects Psalm 51 with David’s fall'
+    key: bd-david
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/david?lang=eng'
+    quote: 'David’s fall gave occasion to Ps. 51 and 32.'
+  - where: 'note 18:26 “How God meets the crooked”'
+    claim: 'Verse 25: the verb answering chasid is from the same root (chasad, 2616)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּתְחַסָּ֑ד'
+  - where: 'note 18:26 “How God meets the crooked”'
+    claim: 'Verse 25: “upright” is tamim (8549)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תָּ֝מִ֗ים'
+  - where: 'note 18:26 “How God meets the crooked”'
+    claim: 'and its verb is tamam (8552), the same root'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּתַּמָּֽם'
+  - where: 'note 18:26 “How God meets the crooked”'
+    claim: 'Verse 26: “pure” is a form of barar (1305)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נָבָ֥ר'
+  - where: 'note 18:26 “How God meets the crooked”'
+    claim: 'and its verb is the same word (1305)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּתְבָּרָ֑ר'
+  - where: 'note 18:26 “How God meets the crooked”'
+    claim: 'Chasid denotes one who practises hesed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2623.htm'
+    quote: 'as denoting active practice of חֶסֶד, kindness'
+  - where: 'note 18:34 “A bow of bronze, bent”'
+    claim: 'The verb is taken by most as press down (bend) in this verse, and the lexicon marks that dubious'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5181.htm'
+    quote: 'so that my arms press down, stretch, a bow of bronze, but dubious'
+  - where: 'note 18:50 “Mercy to David’s seed for evermore”'
+    claim: 'The Church’s footnote on the throne of 2 Samuel 7:16 refers to Gabriel’s words in Luke 1:33'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/7?lang=eng'
+    quote: '1 Kgs. 9:5; Luke 1:33; John 12:34'
