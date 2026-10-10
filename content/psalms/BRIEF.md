@@ -54,6 +54,15 @@ Psalms 1, 2, 3, 8, 22, 23, 24, 51, 82, 110, 137 and 150, written out of order an
 
 A pointer is written to the verse named here even though that psalm's note may end up on a neighboring verse; the coordinator mends pointers after the batch.
 
+## The rest of the book
+
+(Author, 2026-10-10: “Run the rest of the Psalms, in batches.”) The other 138 psalms are written in order, twelve at a time. For a writer:
+
+- **Twelve psalms are already written: 1, 2, 3, 8, 22, 23, 24, 51, 82, 110, 137, 150.** What the table above says they explain, they explain; point there and don't explain it again. Psalms 8 and 22 are the models for a chapter and for a note on a title.
+- **Everything else that is “explained once” is explained at the psalm this brief names** (“Book-wide conventions” and “Contested and sensitive questions”: Neginoth at 4, Nehiloth at 5, Sheminith and Sheol at 6, Shiggaion at 7, Michtam at 16, Maschil at 32, the sons of Korah at 42, Alamoth at 46, Asaph at 50, the songs of degrees at 120, and so on). If your psalm is that psalm, write the full note. If it is not, point to that psalm's verse with a `[[reference]]` whether or not it is written yet: the psalms of a batch are written at the same time, and the coordinator mends pointers afterward.
+- **A term this brief does not place** (a title word, an image) is explained at the lowest-numbered psalm that has it; `node scripts/occurrences.mjs psalms "<word>"` shows which that is. Title words are not in that search: for those, `grep -n "<word>" data/kjv/psalms.titles.json`.
+- **The title is on the page** as verse 0. Don't quote it in `setting`; put what its words need in a note with `ref: 0`.
+
 ## Divisions
 
 The Psalter's own five books, each closed by a line of praise (41:13; 72:19; 89:52; 106:48; Psalm 150 closing the whole), as *Scripture Helps* and the Student Manual (28-2) both give them. They are in `book.yaml` as Book One to Book Five (keys `psalms1` to `psalms5`):

@@ -52,6 +52,7 @@ What is true of the whole site:
 - If a batch is cut off, run it again with only the chapters that were not finished. Resuming a whole run after one agent failed once sent all twelve chapters again.
 - Ask a theme researcher for a dossier under about 400 lines, with script output summarized. Longer ones are more than the coordinator can read whole when outlining.
 - The preview has more files than one publish takes (255 files, 64MB), and files left out of a publish are kept. Publish `index.html` with only what the work changed (the book's own pages, the volume page, `notes.json`, `search.json`, the search page, `sitemap.xml`, `404.html`, `assets/site.css` and `site.js`). Don't list the artifact's files first: the listing is long and tells nothing the build doesn't. The first publish of a session is refused until the live page has been read; publish again.
+- `node scripts/batch-commit.mjs <book> written|pass <chapters…>` runs `check-chapter` on each chapter of a batch and commits the ones that pass, one commit a chapter, in the wording `status.mjs` reads; a chapter that fails is printed with its failing lines and left alone.
 - A shell variable holding a list of chapters (`C="1 2 3"`) is one argument in zsh; write the numbers out.
 - After a batch, see how much of it rests on the Student Manual and on older commentaries, and list for the author where the manual is still the frame (as H9 does for Hosea).
 
