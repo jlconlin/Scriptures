@@ -1,0 +1,367 @@
+chapter: 21
+claims:
+
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David and names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/21?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David.'
+  - where: setting
+    claim: 'Psalm 20’s setting seems to be a ceremony for the king’s departure for battle'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'the setting of the psalm seems to be a ceremony for the king’s departure for battle. As such, it is often categorized as one of the royal psalms.'
+  - where: setting
+    claim: 'Psalms 20 and 21 are a pair: the people pray for the king in the one and give thanks in the other'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/21.htm'
+    quote: 'In both Psalms the people come before God with matters that concern the welfare of their king; in the former, with their wishes and prayers, in the latter, their thanksgivings and hopes'
+  - where: setting
+    claim: 'The Bible Dictionary places Psalms 20, 21, 60 and 110 in the period of David’s foreign wars'
+    key: bd-david
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/david?lang=eng'
+    quote: 'Ps. 20, 21, 60, 110 belong to the period of David’s foreign wars'
+  - where: setting
+    claim: 'Psalm 21 is listed among the royal psalms, which celebrated events in the lives of royalty'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'These psalms celebrated important events in the lives of royalty, which for Christian readers often reflected the royal life and reign of the Messiah: 2, 18, 20, 21, 45, 72, 89, 101, 110, 132, and 144.'
+  - where: setting
+    claim: 'The Church’s chapter heading calls Psalm 21 a messianic psalm of David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/21?lang=eng'
+    quote: 'A messianic psalm of David'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'Verse 3’s first verb means that the LORD meets the king with blessings'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2021&version=NRSVUE'
+    quote: 'For you meet him with rich blessings'
+  - where: thread
+    claim: 'The same Hebrew phrase, “in thy strength,” stands in verse 1 and verse 13'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/עָזְּ/ךָ֥'
+
+  # ---------- sections ----------
+  - where: section 2 plain
+    claim: 'Verse 3: the verb is “come to meet,” listed for this verse (Psalm 21:4 in the Hebrew numbering)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6923.htm'
+    quote: 'come to meet one (accusative) as friend'
+  - where: section 2 plain
+    claim: 'Verse 5 can be rendered “splendor and majesty,” and verse 6 “the joy of your presence”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2021&version=NRSVUE'
+    quote: 'splendor and majesty you bestow on him'
+  - where: section 2 plain
+    claim: 'Verse 6 can be rendered “glad with the joy of your presence”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2021&version=NRSVUE'
+    quote: 'you make him glad with the joy of your presence'
+  - where: section 3 plain
+    claim: 'Verse 7’s “mercy” can be rendered “steadfast love”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2021&version=NRSVUE'
+    quote: 'through the steadfast love of the Most High he shall not be moved'
+  - where: section 4 plain
+    claim: 'Verse 9’s “in the time of thine anger” can be rendered “when you appear”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2021&version=NRSVUE'
+    quote: 'You will make them like a fiery furnace'
+  - where: section 4 plain
+    claim: 'Verse 10’s “fruit” and “seed” can be rendered “offspring” and “children”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2021&version=NRSVUE'
+    quote: 'You will destroy their offspring from the earth'
+  - where: section 4 plain
+    claim: 'Verse 12’s “strings” are bow-strings (Psalm 21:13 in the Hebrew numbering)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4340.htm'
+    quote: 'of bow-strings'
+  - where: section 4 plain
+    claim: 'Verse 12 can be rendered “you will aim at their faces with your bows”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2021&version=NRSVUE'
+    quote: 'you will aim at their faces with your bows'
+
+  # ---------- note 21:1 ----------
+  - where: 'note 21:1 “Psalm 20’s prayer, answered”'
+    claim: 'Psalm 20 prays that the king be granted his heart’s wish and his petitions'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/20?lang=eng'
+    quote: 'Grant thee according to thine own heart, and fulfil all thy counsel.'
+  - where: 'note 21:1 “Psalm 20’s prayer, answered”'
+    claim: '“Salvation” in Psalm 20:5 is the Hebrew noun yeshu‘ah (H3444)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בִּ֘/ישׁ֤וּעָתֶ֗/ךָ'
+  - where: 'note 21:1 “Psalm 20’s prayer, answered”'
+    claim: '“Salvation” in Psalm 21:1 is the same noun (H3444)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וּ֝/בִ/ישׁ֥וּעָתְ/ךָ֗'
+  - where: 'note 21:1 “Psalm 20’s prayer, answered”'
+    claim: '“Strength” in Psalm 20:6 is a form of gevurah (H1369)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בִּ֝/גְבֻר֗וֹת'
+  - where: 'note 21:1 “Psalm 20’s prayer, answered”'
+    claim: '“Power” in Psalm 21:13 is the same word, gevurah (H1369)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'גְּבוּרָתֶֽ/ךָ'
+
+  # ---------- note 21:3 preventest ----------
+  - where: 'note 21:3 “Prevent meant to go before”'
+    claim: 'The older English sense of prevent is to go before, to precede'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/prevent'
+    quote: 'To go before; to precede.'
+  - where: 'note 21:3 “Prevent meant to go before”'
+    claim: 'In 1828 those senses were marked obsolete'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/prevent'
+    quote: 'In all the preceding senses, the word is obsolete.'
+  - where: 'note 21:3 “Prevent meant to go before”'
+    claim: 'In 1828 to hinder was the only current sense'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/prevent'
+    quote: 'To hinder; to obstruct; to intercept the approach or access of. This is now the only sense.'
+  - where: 'note 21:3 “Prevent meant to go before”'
+    claim: 'The Hebrew verb is to come to meet one as a friend, with something; this verse (Psalm 21:4 in the Hebrew numbering) is listed there'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6923.htm'
+    quote: 'come to meet one (accusative) as friend, with'
+  - where: 'note 21:3 “Prevent meant to go before”'
+    claim: 'A modern translation has “you meet him with rich blessings”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2021&version=NRSVUE'
+    quote: 'For you meet him with rich blessings'
+
+  # ---------- note 21:3 crown ----------
+  - where: 'note 21:3 “The crown, and the one taken at Rabbah”'
+    claim: 'David took the Ammonite king’s gold crown at Rabbah and it was set on his head'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/12?lang=eng'
+    quote: 'And he took their king’s crown from off his head, the weight whereof was a talent of gold with the precious stones: and it was set on David’s head.'
+  - where: 'note 21:3 “The crown, and the one taken at Rabbah”'
+    claim: 'One older reading: the verse is not about David’s first coronation, and sounds like a prediction of the crown of Rabbah (the page prints “2 Samuel 22:30” for 12:30; Psalm 21:4 is the Hebrew numbering of verse 3)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/21.htm'
+    quote: 'cannot be intended to refer to David''s first coronation, but to the preservation and increase of the honour of his kingship, this particularisation of Psalm 21:4 sounds like a prediction of what is recorded in'
+  - where: 'note 21:3 “The crown, and the one taken at Rabbah”'
+    claim: 'The story meant is the conquest of Rabbah, the Ammonite royal city, and its crown'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/21.htm'
+    quote: 'after the conquest of the Ammonitish royal city Rabbah David set the Ammonitish crown'
+  - where: 'note 21:3 “The crown, and the one taken at Rabbah”'
+    claim: 'The same reading hears the fate of the Ammonites in the fire of verse 9'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/21.htm'
+    quote: 'The prospect here moulds itself according to this fate of the Ammonites.'
+
+  # ---------- note 21:4 ----------
+  - where: 'note 21:4 “Life for ever, asked for a king”'
+    claim: 'Bath-sheba wishes the aged David life for ever'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/1?lang=eng'
+    quote: 'Let my lord king David live for ever.'
+  - where: 'note 21:4 “Life for ever, asked for a king”'
+    claim: 'One older reading: wishing a king life for ever is usual, and the meaning is a life prolonged indefinitely'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/21.htm'
+    quote: 'and especially a king, is a usual thing, 1 Kings 1:31, and frequently. The meaning is, may the life of the king be prolonged to an indefinitely distant day.'
+  - where: 'note 21:4 “Life for ever, asked for a king”'
+    claim: 'The same reading takes the verse of length of life, not of succession to the throne (Psalm 21:5 is the Hebrew numbering of verse 4)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/21.htm'
+    quote: 'It is contrary to the tenour of the words to say that Psalm 21:5 does not refer to length of life, but to hereditary succession to the throne.'
+
+  # ---------- note 21:5 ----------
+  - where: 'note 21:5 “The LORD’s own splendour, laid on the king”'
+    claim: 'Hod is splendour, majesty, said of a king; this verse (Psalm 21:6 in the Hebrew numbering) is listed there'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1935.htm'
+    quote: 'splendour, majesty, of king'
+  - where: 'note 21:5 “The LORD’s own splendour, laid on the king”'
+    claim: 'Hod is also the divine splendour God wears as king, joined with hadar in Psalm 104:1 and 96:6'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1935.htm'
+    quote: 'divine splendour, majesty, light & glory which God wears as king'
+  - where: 'note 21:5 “The LORD’s own splendour, laid on the king”'
+    claim: 'Hadar in this verse is majesty and dignity conferred on the king, as on man in Psalm 8'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1926.htm'
+    quote: 'of majesty & dignity conferred by'
+  - where: 'note 21:5 “The LORD’s own splendour, laid on the king”'
+    claim: 'Verse 5 has hod (H1935)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'ה֥וֹד'
+  - where: 'note 21:5 “The LORD’s own splendour, laid on the king”'
+    claim: 'Verse 5 has hadar (H1926), and its first half has kavod, “glory” (H3519)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כְּ֭בוֹד/וֹ'
+  - where: 'note 21:5 “The LORD’s own splendour, laid on the king”'
+    claim: 'Psalm 104:1 has the same pair, hod and hadar'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'ה֭וֹד'
+  - where: 'note 21:5 “The LORD’s own splendour, laid on the king”'
+    claim: 'Psalm 8:5 has kavod and hadar, “glory and honour”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/כָב֖וֹד'
+  - where: 'note 21:5 “The LORD’s own splendour, laid on the king”'
+    claim: 'Psalm 104:1 says the LORD is clothed with honour and majesty'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/104?lang=eng'
+    quote: 'thou art clothed with honour and majesty'
+
+  # ---------- note 21:6 ----------
+  - where: 'note 21:6 “Gladness before the LORD’s face”'
+    claim: '“Countenance” in verse 6 is the word for face (H6440), with the preposition “with”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פָּנֶֽי/ךָ'
+  - where: 'note 21:6 “Gladness before the LORD’s face”'
+    claim: 'Psalm 16:11 has the same phrase, “with thy face” (H854, H6440)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פָּנֶ֑י/ךָ'
+  - where: 'note 21:6 “Gladness before the LORD’s face”'
+    claim: 'Psalm 16:11 in the King James Version'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/16?lang=eng'
+    quote: 'in thy presence is fulness of joy'
+  - where: 'note 21:6 “Gladness before the LORD’s face”'
+    claim: 'An article on seeing God in His temple in the Psalms cites this verse for the gladness the Lord’s countenance gives'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'The Psalmist declared, furthermore, that the countenance of the Lord made one “exceeding glad” (Psalm 21:6).'
+
+  # ---------- note 21:7 ----------
+  - where: 'note 21:7 “The verse the psalm turns on”'
+    claim: '“Mercy” in verse 7 is hesed (H2617)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וּ/בְ/חֶ֥סֶד'
+  - where: 'note 21:7 “The verse the psalm turns on”'
+    claim: 'A modern translation has “steadfast love”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2021&version=NRSVUE'
+    quote: 'through the steadfast love of the Most High he shall not be moved'
+
+  # ---------- note 21:8 ----------
+  - where: 'note 21:8 “Whether thou is the king or the LORD”'
+    claim: 'One older reading: from verse 8 the address changes from God to the king, as confident expectation'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/21.htm'
+    quote: 'The address to God is now changed into an address to the king; not, however, expressive of the wishes, but of the confident expectation, of the speakers.'
+  - where: 'note 21:8 “Whether thou is the king or the LORD”'
+    claim: 'The Church’s chapter heading summarizes the second half as the King’s triumph'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/21?lang=eng'
+    quote: 'The King will triumph over all His enemies'
+
+  # ---------- note 21:9 ----------
+  - where: 'note 21:9 “The time of thy face”'
+    claim: 'The Hebrew of “in the time of thine anger” is “at the time of” (H6256) “thy face” (H6440)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פָּ֫נֶ֥י/ךָ'
+  - where: 'note 21:9 “The time of thy face”'
+    claim: 'Verse 6’s “countenance” is the same word (H6440)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פָּנֶֽי/ךָ'
+  - where: 'note 21:9 “The time of thy face”'
+    claim: 'The Greek has “at the time of thy presence”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/21.htm'
+    quote: 'Thou shalt make them as a fiery oven at the time of thy presence'
+  - where: 'note 21:9 “The time of thy face”'
+    claim: 'A modern translation has “when you appear”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2021&version=NRSVUE'
+    quote: 'when you appear'
+  - where: 'note 21:9 “The time of thy face”'
+    claim: 'The word is taken in this verse (Psalm 21:10 in the Hebrew numbering) of the LORD’s angry presence'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6440.htm'
+    quote: 'angry presence'
+  - where: 'note 21:9 “The time of thy face”'
+    claim: 'Tannur is a portable stove or fire-pot for baking'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8574.htm'
+    quote: 'portable stove or fire-pot'
+  - where: 'note 21:9 “The time of thy face”'
+    claim: 'The oven is a simile of judgment in Malachi 4:1 (3:19 in the Hebrew numbering) and in this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8574.htm'
+    quote: 'of judgment Malachi 3:19'
+
+  # ---------- note 21:10 ----------
+  - where: 'note 21:10 “Fruit means offspring”'
+    claim: 'A modern translation renders “fruit” as offspring'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2021&version=NRSVUE'
+    quote: 'You will destroy their offspring from the earth'
+  - where: 'note 21:10 “Fruit means offspring”'
+    claim: 'The same translation renders “seed” as children'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2021&version=NRSVUE'
+    quote: 'and their children from among humankind'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'The Church’s chapter heading calls the psalm messianic and its king the great King'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/21?lang=eng'
+    quote: 'He tells of the glory of the great King'
+  - where: christ
+    claim: 'Royal psalms, Psalm 21 among them, often reflected for Christian readers the Messiah’s life and reign'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'which for Christian readers often reflected the royal life and reign of the Messiah: 2, 18, 20, 21, 45, 72, 89, 101, 110, 132, and 144'
+  - where: christ
+    claim: 'David’s reign was regarded as the type of the age of the Messiah'
+    key: bd-david
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/david?lang=eng'
+    quote: 'the type of the more glorious age to which the nation looked forward when Messiah should come'
+  - where: christ
+    claim: 'The Church’s footnote on “fiery” in verse 9 points to Malachi 4:1 and to Doctrine and Covenants 133:64'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/21?lang=eng'
+    quote: 'Mal. 4:1'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'Psalms 2 and 110 are royal psalms with Psalm 21'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'Royal psalms. These psalms celebrated important events in the lives of royalty'
+  - where: explore
+    claim: 'One older reading hears the fall of Rabbah behind verse 9 as well as verse 3'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/21.htm'
+    quote: 'David''s arrival did actually decide the fall of Rabbath Ammon'
+  - where: parallels
+    claim: 'Psalm 21 thanks God for granting what Psalm 20 asked'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/21.htm'
+    quote: 'cried the people in the preceding Psalm, as they interceded on behalf of their king; and in this Psalm they are able thankfully to say to God'
+  - where: parallels
+    claim: 'Psalm 16:11 has the same Hebrew words for “with thy face” as verse 6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פָּנֶ֑י/ךָ'
+  - where: parallels
+    claim: 'The oven is a simile of judgment in Malachi (3:19 in the Hebrew numbering is 4:1)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8574.htm'
+    quote: 'of judgment Malachi 3:19'
