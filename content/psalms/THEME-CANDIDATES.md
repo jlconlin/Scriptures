@@ -74,3 +74,58 @@ The coordinator's leads from the brief's research. Each would have to show an ar
 - (150) The five books and their closing doxologies: 41:13; 72:18–20; 89:52; 106:48; 150.
 - (150) Music and instruments of the temple: 33:2–3; 68:25; 81:2–3; 149:3; 150:3–5 (with 1 Chr. 15–16; 2 Chr. 5).
 - (150) Heaven and earth praising together: 148; 150:1, 6 (toward Rev. 5:13; 19:1–6).
+
+## Reported by chapters 4–16 (not yet sorted)
+
+- (4) The shining face of the LORD and the priestly blessing: 4:6; 31:16; 44:3; 67:1; 80:3, 7, 19; 89:15 (with 3 Ne. 19:25). Psalm 4:6 carries the full note; later psalms can point to it.
+- (4) Morning and evening prayer, sleep as trust: 3:5; 4:8 (and 5:3; 127:2).
+- (4) The hasid ('godly', 'saints', 'holy one'): 4:3; 16:10; 30:4; 50:5 and on.
+- (5) Morning prayer: 3:5; 5:3 (leads not read: 59:16; 88:13; 143:8).
+- (5) The Lord's guest, who may lodge in His house: 5:4, 7; 15:1; 24:3; 61:4.
+- (5) Enemies whose weapon is the tongue: 5:6, 9 (leads: 12; 52; 64; 140), with Paul's chain in Rom. 3:10-18.
+- (5) The Lord as shield: 3:3; 5:12 (leads: 18:2; 28:7; 84:11; 91:4).
+- (5) Refuge ('put their trust'): 2:12; 5:11.
+- (5) Psalms beside Nephi's psalm: 5:8, with the brief's Psalms 25-31.
+- (6) Sheol and what the psalmist knew of life after death: 6:5; 16:10; 30:9; 49:15; 88; 115:17 (the brief already tracks it).
+- (6) 'How long?': 6:3; 13:1-2; 35:17; 74:10; 79:5; 89:46; 90:13; 94:3.
+- (6) Psalm words in the Savior's mouth: 6:3-4 (John 12:27); 6:8 (Matt. 7:23; Luke 13:27); 22:1; 31:5.
+- (6) The lament's unexplained turn: 6:8; 13:5; 22:21.
+- (7) The LORD as judge of the peoples, to whom the falsely accused appeals (7:6-11; compare 9:4-8; 26:1; 35:24; 43:1; 82; 96:13; 98:9).
+- (7) The wicked caught in their own pit or net (7:15-16; 9:15-16; 35:7-8; 57:6; 141:10).
+- (7) The God who tries hearts and reins (7:9; 17:3; 26:2; 139:23), with Jer. 11:20, 17:10 and Rev. 2:23.
+- (9) The LORD as judge of the world in righteousness: 9:4, 7-8, 16, 19; 7:8, 11; 96:13; 98:9; with Acts 17:31.
+- (9) Remembered and forgotten (the poor not forgotten; the nations that forget God): 9:12, 17-18; 10:11-12; 13:1; 42:9; 74:19.
+- (9) The poor, humble and needy as those the LORD defends: 9:9, 12, 18; 10:2, 9, 12, 14, 17-18; 12:5; 72.
+- (9) "Arise, O LORD": 3:7; 9:19; 10:12.
+- (9) Acrostic psalms: 9-10, 25, 34, 37, 111, 112, 119, 145.
+- (9) The wicked caught in his own pit or net: 7:15-16; 9:15-16; 35:7-8; 57:6.
+- (10) God hiding His face and the 'Why?' and 'How long?' laments (10:1, 11; 13:1; 22:1; 44:24; 88:14; with D&C 121).
+- (10) What the wicked say in their hearts (10:4, 6, 11, 13; 14:1; 53:1; 94:7).
+- (10) The LORD as King (10:16; 24; 29:10; 93-99).
+- (10) The poor, the humble and the fatherless as the LORD's charge (9:9, 12, 18; 10:14, 17-18; 68:5; 146:9).
+- (11) Seeing the face of God (11:7; with 17:15; 24:6; 27:4, 8; 42:2; 63:2; 105:4).
+- (11) The LORD as refuge, the verb for taking shelter (11:1; 2:12; 5:11; 7:1; 16:1).
+- (11) The temple on earth and the throne in heaven (11:4).
+- (11) The Joseph Smith Translation turning psalms to the last days ('In that day', 11:1; 12:1; Psalm 24; Psalm 46).
+- (11) The LORD who tries hearts (11:4-5; 7:9; 17:3; 26:2; 139:23).
+- (12) The LORD as champion of the poor and needy (12:5; 72:4, 12-13; 82:3-4; 86:1).
+- (12) The LORD speaking in His own voice inside a psalm (12:5; 2:6-9; later 50, 81, 91, 95).
+- (12) Joseph Smith's revision turning psalms toward the last days, 'In that day' (11:1; 12:1, 5, 8; 10:16; 46).
+- (12) The word of the LORD as refined metal (12:6; 18:30; 119:140).
+- (13) 'How long?' as the lament's question: Ps. 6:3; 13:1-2; 79:5; 89:46 (leads: 35:17; 74:10; 90:13), with D&C 121:1-3.
+- (13) The face of God hidden and shining: Ps. 13:1, 3; 31:16 (leads: 10:11; 27:9; 30:7; 80:3), with Num. 6:25 and Deut. 31:17.
+- (13) 'I shall not be moved': Ps. 13:4; 16:8 (leads: 10:6; 15:5; 30:6; 62:2).
+- (14) The fool and the wise in the Psalms (14:1-2; 53:1-2; also 39:8; 74:18, 22).
+- (14) God with the poor and the LORD as refuge (14:5-6; compare Psalms 9-10, 12).
+- (14) Zion in the Joseph Smith Translation of the Psalms (14:7; LeFevre counts added references at 14:7, 15:1, 46:5, 53:6).
+- (14) Psalms Joseph Smith read of his own experience (14; LeFevre also treats 10, 11, 27).
+- (14) The Psalms in Paul's chain of Romans 3 (14:1-3; also 5:9, 10:7, 36:1, 140:3, not checked here).
+- (15) Entrance to the LORD's dwelling: Ps. 15:1-5; 24:3-6; Isa. 33:14-16.
+- (15) The guest in the LORD's tent, dwelling in His house: Ps. 5:4; 15:1; 23:6; 27:4-5; 61:4.
+- (15) 'Shall not be moved': Ps. 10:6; 15:5; 16:8; 21:7; 30:6; 46:5; 62:2, 6; 112:6; 125:1.
+- (15) Zion added by the Joseph Smith Translation: Ps. 14:7; 15:1; 46:5; 53:6.
+- (16) The LORD as one's portion and inheritance (16:5-6; with 73:26 and 119:57).
+- (16) Hope beyond Sheol in the Psalms (16:10; with 6:5, 30:3, 49:15, 73:24).
+- (16) Seeing God's face and His presence in the temple (16:11; 17:15; 24:6; 27:4, 8).
+- (16) The right hand (16:8, 11; 110:1, 5).
+- (16) The Psalms in the apostles' preaching in Acts (Psalm 16 in Acts 2 and 13; Psalm 2 in Acts 4 and 13; Psalm 110 in Acts 2).
