@@ -1,0 +1,484 @@
+chapter: 137
+claims:
+  # ---- when / setting ----
+  - where: 'when'
+    claim: 'The large deportations of Judah under Nebuchadnezzar were in 597 and 586 B.C.'
+    key: bd-captivities
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/captivities-of-the-israelites?lang=eng'
+    quote: 'in 597 B.C. and again in 586 B.C. there were large deportations under Nebuchadnezzar'
+  - where: 'setting'
+    claim: 'The psalm has no title: the Hebrew text of Psalm 137 begins directly with “By the rivers of Babylon” (hebrew.mjs prints no title words before verse 1); its second and third words'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נַהֲר֨וֹת'
+  - where: 'setting'
+    claim: 'Deportations in 597 and 586 B.C.; the captivity closed by the decree of Cyrus in 536 B.C.; only part of the people returned'
+    key: bd-captivities
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/captivities-of-the-israelites?lang=eng'
+    quote: 'The captivity was brought to a close by the decree of Cyrus in 536 B.C. (Ezra 1:2), who permitted all worshippers of Jehovah to return and build the temple in Jerusalem. Only part of the people availed themselves of this permission'
+  - where: 'setting'
+    claim: 'The Babylonian army burned the temple and the city'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/25?lang=eng'
+    quote: 'And he burnt the house of the Lord, and the king’s house, and all the houses of Jerusalem, and every great man’s house burnt he with fire.'
+  - where: 'setting'
+    claim: 'The captain of the guard carried away those left in the city'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/25?lang=eng'
+    quote: 'Now the rest of the people that were left in the city, and the fugitives that fell away to the king of Babylon, with the remnant of the multitude, did Nebuzar-adan the captain of the guard carry away.'
+  - where: 'setting'
+    claim: 'The psalm calls Babylon “there” (sham, H8033) in verse 1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁ֣ם'
+  - where: 'setting'
+    claim: 'Lamentations 4 ends by turning to Edom'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lam/4?lang=eng'
+    quote: 'Rejoice and be glad, O daughter of Edom, that dwellest in the land of Uz; the cup also shall pass through unto thee'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: '“Remembered” in verse 1 is the verb zakar (H2142)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ֝/זָכְרֵ֗/נוּ'
+  - where: 'thread'
+    claim: '“Remember” in verse 6 is the same verb (H2142)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶ֫זְכְּרֵ֥/כִי'
+  - where: 'thread'
+    claim: '“Remember” in verse 7 is the same verb (H2142), an imperative'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'זְכֹ֤ר'
+  - where: 'thread'
+    claim: '“Forget” occurs twice in verse 5, the verb shakach (H7911); the first form'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶשְׁכָּחֵ֥/ךְ'
+  - where: 'thread'
+    claim: 'The second “forget” of verse 5 (H7911)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּשְׁכַּ֥ח'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: '“They that wasted us required of us mirth” rendered as tormentors asking'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20137&version=NRSVUE'
+    quote: 'and our tormentors asked for mirth, saying,'
+  - where: 'section 1 plain'
+    claim: '“A strange land” is a foreign land'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20137&version=NRSVUE'
+    quote: 'in a foreign land?'
+  - where: 'section 2 plain'
+    claim: '“Prefer… above my chief joy” is to set above my highest joy'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20137&version=NRSVUE'
+    quote: 'above my highest joy.'
+  - where: 'section 3 plain'
+    claim: '“The day of Jerusalem” is the day of its fall'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20137&version=NRSVUE'
+    quote: 'the day of Jerusalem’s fall,'
+  - where: 'section 3 plain'
+    claim: '“Rase” is to lay bare to the foundations'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6168.htm'
+    quote: 'of laying foundations bare, i.e. tearing down walls, etc.'
+
+  # ---- note 137:1 ----
+  - where: 'note 137:1 “There, by the rivers”'
+    claim: 'The Chebar was a canal off the Euphrates, and many exiles lived on its banks'
+    key: bd-chebar
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/chebar?lang=eng'
+    quote: 'A canal or waterway that left the Euphrates River north of Babylon and flowed 60 miles southeast before reentering the Euphrates. On its banks lived many of the exiles carried from Judah by Nebuchadnezzar; here Ezekiel saw his earlier visions'
+  - where: 'note 137:1 “There, by the rivers”'
+    claim: 'Ezekiel saw his first vision among the captives by the Chebar'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/1?lang=eng'
+    quote: 'as I was among the captives by the river of Chebar, that the heavens were opened, and I saw visions of God.'
+  - where: 'note 137:1 “There, by the rivers”'
+    claim: 'Ezekiel sat among the exiles at Tel-abib by the Chebar'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/3?lang=eng'
+    quote: 'Then I came to them of the captivity at Tel-abib, that dwelt by the river of Chebar, and I sat where they sat, and remained there astonished among them seven days.'
+  - where: 'note 137:1 “There, by the rivers”'
+    claim: '“There” in verse 1 is sham (H8033)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁ֣ם'
+  - where: 'note 137:1 “There, by the rivers”'
+    claim: '“There” in verse 3 is the same word (H8033)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁ֨ם'
+  - where: 'note 137:1 “There, by the rivers”'
+    claim: '“We sat down” is a qal perfect, first person plural (morphology code HVqp1cp), as are “we wept” and “we hanged”; the form in verse 1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָ֭שַׁבְנוּ'
+
+  # ---- note 137:3 ----
+  - where: 'note 137:3 “Tormentors who ask for joy”'
+    claim: 'The word behind “they that wasted us” (tolal, H8437) is doubtful and occurs only in this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8437.htm'
+    quote: 'noun masculine doubtful word, only plural suffix'
+  - where: 'note 137:3 “Tormentors who ask for joy”'
+    claim: 'Others connect the word with a root for wailing: those who made us wail'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8437.htm'
+    quote: 'and others made us wail'
+  - where: 'note 137:3 “Tormentors who ask for joy”'
+    claim: 'The word occurs once in the Psalms (hebrew.mjs psalms --word 8437: 1 occurrence); its form'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/תוֹלָלֵ֣י/נוּ'
+  - where: 'note 137:3 “Tormentors who ask for joy”'
+    claim: 'A modern translation has “our tormentors”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20137&version=NRSVUE'
+    quote: 'and our tormentors asked for mirth, saying,'
+  - where: 'note 137:3 “Tormentors who ask for joy”'
+    claim: '“Mirth” in verse 3 is simchah (H8057)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שִׂמְחָ֑ה'
+  - where: 'note 137:3 “Tormentors who ask for joy”'
+    claim: '“Joy” in verse 6 (“my chief joy”) is the same noun (H8057) with a suffix'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שִׂמְחָתִֽ/י'
+  - where: 'note 137:3 “Tormentors who ask for joy”'
+    claim: 'Verse 6 sets Jerusalem above the highest joy'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20137&version=NRSVUE'
+    quote: 'above my highest joy.'
+
+  # ---- note 137:4 ----
+  - where: 'note 137:4 “The song of the LORD’s house”'
+    claim: 'The Levite musicians were instructed in “the songs of the LORD”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/25?lang=eng'
+    quote: 'So the number of them, with their brethren that were instructed in the songs of the Lord, even all that were cunning, was two hundred fourscore and eight.'
+  - where: 'note 137:4 “The song of the LORD’s house”'
+    claim: 'They served for song in the house of the LORD, with harps among the instruments'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/25?lang=eng'
+    quote: 'All these were under the hands of their father for song in the house of the Lord, with cymbals, psalteries, and harps, for the service of the house of God'
+  - where: 'note 137:4 “The song of the LORD’s house”'
+    claim: 'Under Hezekiah the song of the LORD began with the burnt offering'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/29?lang=eng'
+    quote: 'And when the burnt offering began, the song of the Lord began also with the trumpets, and with the instruments ordained by David king of Israel.'
+  - where: 'note 137:4 “The song of the LORD’s house”'
+    claim: 'The house of the LORD had been burned'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/25?lang=eng'
+    quote: 'And he burnt the house of the Lord, and the king’s house, and all the houses of Jerusalem'
+  - where: 'note 137:4 “The song of the LORD’s house”'
+    claim: '“Strange” means foreign; the verse in a modern translation (two lines of the page)'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20137&version=NRSVUE'
+    quote: 'How could we sing the Lord’s song'
+  - where: 'note 137:4 “The song of the LORD’s house”'
+    claim: 'The second line of the same verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20137&version=NRSVUE'
+    quote: 'in a foreign land?'
+
+  # ---- note 137:5 ----
+  - where: 'note 137:5 “Let my right hand forget”'
+    claim: 'The noun “cunning” meant skill, and Webster cites this verse'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/cunning'
+    quote: 'Knowledge; art; skill; dexterity.'
+  - where: 'note 137:5 “Let my right hand forget”'
+    claim: 'Webster’s example for the noun is Psalm 137:5'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/cunning'
+    quote: 'Let my right hand forget her cunning Psalms 137:5.'
+  - where: 'note 137:5 “Let my right hand forget”'
+    claim: 'The Hebrew verse has five words and ends with “my right hand”: the verb “forget” has no object; the last word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְמִינִֽ/י'
+  - where: 'note 137:5 “Let my right hand forget”'
+    claim: 'The verb “forget” (H7911) stands twice in the line; the second form'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּשְׁכַּ֥ח'
+  - where: 'note 137:5 “Let my right hand forget”'
+    claim: 'An old reading supplies an object, the art of playing; the commentator calls the ellipsis arbitrary'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/137.htm'
+    quote: 'obliviscatur dextera mea, scil. artem psallendi (Aben-Ezra, Kimchi, Pagninus, Grotius, Hengstenberg, and others); but this ellipsis is arbitrary'
+  - where: 'note 137:5 “Let my right hand forget”'
+    claim: 'One reading takes the verb reflexively: let the hand forget itself, fail, become lame'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/137.htm'
+    quote: 'let it forget itself, or its service (Amyraldus, Schultens, Ewald, and Hitzig), which is equivalent to let it refuse or fail, become lame, become benumbed'
+  - where: 'note 137:5 “Let my right hand forget”'
+    claim: 'A modern translation: let my right hand wither'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20137&version=NRSVUE'
+    quote: 'let my right hand wither!'
+
+  # ---- note 137:7 ----
+  - where: 'note 137:7 “What Edom said on the day of Jerusalem”'
+    claim: '“The day of Jerusalem” is the day of its fall'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20137&version=NRSVUE'
+    quote: 'the day of Jerusalem’s fall,'
+  - where: 'note 137:7 “What Edom said on the day of Jerusalem”'
+    claim: 'Obadiah: Edom stood by as one of the invaders when Jerusalem was taken'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/obad/1?lang=eng'
+    quote: 'In the day that thou stoodest on the other side, in the day that the strangers carried away captive his forces, and foreigners entered into his gates, and cast lots upon Jerusalem, even thou wast as one of them.'
+  - where: 'note 137:7 “What Edom said on the day of Jerusalem”'
+    claim: 'Edom rejoiced, entered the gate, took spoil'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/obad/1?lang=eng'
+    quote: 'Thou shouldest not have entered into the gate of my people in the day of their calamity; yea, thou shouldest not have looked on their affliction in the day of their calamity, nor have laid hands on their substance in the day of their calamity;'
+  - where: 'note 137:7 “What Edom said on the day of Jerusalem”'
+    claim: 'Edom stood at the crossway to cut off those who escaped'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/obad/1?lang=eng'
+    quote: 'Neither shouldest thou have stood in the crossway, to cut off those of his that did escape'
+  - where: 'note 137:7 “What Edom said on the day of Jerusalem”'
+    claim: 'The Lord’s answer to Edom: as thou hast done'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/obad/1?lang=eng'
+    quote: 'as thou hast done, it shall be done unto thee: thy reward shall return upon thine own head.'
+  - where: 'note 137:7 “What Edom said on the day of Jerusalem”'
+    claim: '“Rase” is the verb arah (H6168), to lay bare, of foundations'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6168.htm'
+    quote: 'of laying foundations bare, i.e. tearing down walls, etc.'
+  - where: 'note 137:7 “What Edom said on the day of Jerusalem”'
+    claim: 'The verb is said twice in verse 7'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6168.htm'
+    quote: 'Psalm 137:7 (twice in verse)'
+  - where: 'note 137:7 “What Edom said on the day of Jerusalem”'
+    claim: '“Thy reward” in Obadiah 1:15 is the noun gemul (H1576)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Obad.xml'
+    quote: 'גְּמֻלְ/ךָ֖'
+  - where: 'note 137:7 “What Edom said on the day of Jerusalem”'
+    claim: 'Psalm 137:8 uses the same noun (H1576) of Babylon, in “as thou hast served us”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'גְּ֝מוּלֵ֗/ךְ'
+  - where: 'note 137:7 “What Edom said on the day of Jerusalem”'
+    claim: 'Lamentations 4 closes with the Lord visiting Edom’s iniquity'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lam/4?lang=eng'
+    quote: 'he will visit thine iniquity, O daughter of Edom; he will discover thy sins.'
+
+  # ---- note 137:8 (the participle) ----
+  - where: 'note 137:8 “Destroyed, to be destroyed, or destroyer”'
+    claim: 'The verb is shadad, to devastate; the lexicon would probably read an active form in Psalm 137:8'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7703.htm'
+    quote: 'Jeremiah 51:55, compare Psalm 137:8 (read probably'
+  - where: 'note 137:8 “Destroyed, to be destroyed, or destroyer”'
+    claim: 'A modern translation has the active: devastator'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20137&version=NRSVUE'
+    quote: 'O daughter Babylon, you devastator!'
+  - where: 'note 137:8 “Destroyed, to be destroyed, or destroyer”'
+    claim: 'The psalm’s form is a qal passive participle of H7703'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַ/שְּׁד֫וּדָ֥ה'
+  - where: 'note 137:8 “Destroyed, to be destroyed, or destroyer”'
+    claim: '“Spoiler” in Jeremiah 51:56 is the qal active participle of the same verb (H7703)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
+    quote: 'שׁוֹדֵ֔ד'
+
+  # ---- note 137:8 (the cursing psalms) ----
+  - where: 'note 137:8 “The cursing psalms”'
+    claim: 'In the cursing psalms the psalmist does not act; vengeance is God’s alone (the manual printing Eerdmans’ Handbook)'
+    key: ot-manual-psalms
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/the-psalms-songs-from-the-heart-of-israel?lang=eng'
+    quote: 'There is no question of him taking the law into his own hands. … Vengeance is always seen as God’s province, and his alone.'
+  - where: 'note 137:8 “The cursing psalms”'
+    claim: 'The law reserves vengeance to God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/32?lang=eng'
+    quote: 'To me belongeth vengeance, and recompence; their foot shall slide in due time'
+  - where: 'note 137:8 “The cursing psalms”'
+    claim: '“Rewardeth” in verse 8 is the verb shillem (H7999, piel)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שֶׁ/יְשַׁלֶּם'
+  - where: 'note 137:8 “The cursing psalms”'
+    claim: 'Jeremiah 51:56 ends on the same verb (H7999), an infinitive absolute followed by the imperfect (“shall surely requite”); the last word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
+    quote: 'יְשַׁלֵּֽם'
+  - where: 'note 137:8 “The cursing psalms”'
+    claim: 'Jeremiah’s oracle: the Lord will requite Babylon'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/51?lang=eng'
+    quote: 'for the Lord God of recompences shall surely requite.'
+  - where: 'note 137:8 “The cursing psalms”'
+    claim: 'Babylon is to be repaid according to what she has done'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/50?lang=eng'
+    quote: 'recompense her according to her work; according to all that she hath done, do unto her'
+  - where: 'note 137:8 “The cursing psalms”'
+    claim: 'The Lord will repay Babylon for the evil done in Zion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/51?lang=eng'
+    quote: 'And I will render unto Babylon and to all the inhabitants of Chaldea all their evil that they have done in Zion in your sight, saith the Lord.'
+  - where: 'note 137:8 “The cursing psalms”'
+    claim: 'Of the “perfect hatred” of Psalm 139:19–22: the phrase may have expressed loyalty to God, and is read with the Savior’s higher law in mind'
+    key: scripture-helps-ps-102
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/34-psalms-102-103-110-116-119-127-128-135-139-146-150?lang=eng'
+    quote: 'Although this phrase may have been used to express unwavering loyalty to God, we should keep in mind the higher law taught by Jesus Christ.'
+  - where: 'note 137:8 “The cursing psalms”'
+    claim: 'The Savior’s command to love enemies'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/5?lang=eng'
+    quote: 'But I say unto you, Love your enemies, bless them that curse you, do good to them that hate you, and pray for them which despitefully use you, and persecute you;'
+  - where: 'note 137:8 “The cursing psalms”'
+    claim: 'Paul forbids avenging oneself and leaves vengeance to the Lord'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/12?lang=eng'
+    quote: 'Dearly beloved, avenge not yourselves, but rather give place unto wrath: for it is written, Vengeance is mine; I will repay, saith the Lord.'
+
+  # ---- note 137:9 ----
+  - where: 'note 137:9 “The last verse”'
+    claim: 'The Chaldean army killed Judah’s young without compassion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/36?lang=eng'
+    quote: 'who slew their young men with the sword in the house of their sanctuary, and had no compassion upon young man or maiden, old man, or him that stooped for age'
+  - where: 'note 137:9 “The last verse”'
+    claim: 'Zedekiah’s sons were killed before his eyes, and he was blinded'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/25?lang=eng'
+    quote: 'And they slew the sons of Zedekiah before his eyes, and put out the eyes of Zedekiah, and bound him with fetters of brass, and carried him to Babylon.'
+  - where: 'note 137:9 “The last verse”'
+    claim: 'Isaiah foretold this of Babylon (the Medes are named in the next verse; see the site’s note at Isaiah 13:17)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/13?lang=eng'
+    quote: 'Their children also shall be dashed to pieces before their eyes; their houses shall be spoiled, and their wives ravished.'
+  - where: 'note 137:9 “The last verse”'
+    claim: '“Little ones” in verse 9 is the noun olal (H5768)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עֹ֝לָלַ֗יִ/ךְ'
+  - where: 'note 137:9 “The last verse”'
+    claim: '“Their children” in Isaiah 13:16 is the same noun (H5768)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'וְ/עֹלְלֵי/הֶ֥ם'
+  - where: 'note 137:9 “The last verse”'
+    claim: '“Happy” is ashre (H835), happiness, blessedness of; the lexicon lists Psalm 137:8, 9 and Psalm 1:1 under it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/835.htm'
+    quote: 'happiness, blessedness of'
+  - where: 'note 137:9 “The last verse”'
+    claim: 'Verse 9 opens with ashre (H835)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַשְׁרֵ֤י'
+  - where: 'note 137:9 “The last verse”'
+    claim: 'Psalm 1:1 opens with the same word (H835)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַ֥שְֽׁרֵי'
+  - where: 'note 137:9 “The last verse”'
+    claim: 'The ancient world was more violent than modern readers can comprehend'
+    key: scripture-helps-violence
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/52-violence-and-destruction-in-the-old-testament?lang=eng'
+    quote: 'People in that time endured a more violent existence than many modern people can comprehend.'
+  - where: 'note 137:9 “The last verse”'
+    claim: 'Accounts of violence tell what happened and do not excuse it'
+    key: scripture-helps-violence
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/52-violence-and-destruction-in-the-old-testament?lang=eng'
+    quote: 'In general, accounts of violence in the Old Testament tell us what did happen. This does not excuse unrighteous behavior'
+  - where: 'note 137:9 “The last verse”'
+    claim: 'Old Testament violence is never a justification for violence today'
+    key: scripture-helps-violence
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/52-violence-and-destruction-in-the-old-testament?lang=eng'
+    quote: 'we should not think that examples of violence in the Old Testament would ever be justification for committing violence today.'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'Jesus Christ is Jehovah of the Old Testament'
+    key: scripture-helps-violence
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/52-violence-and-destruction-in-the-old-testament?lang=eng'
+    quote: 'It can be easy to wonder how Jesus Christ, “the Great Jehovah of the Old Testament,” could be associated with actions that seem so harsh or violent'
+  - where: 'christ'
+    claim: 'The Lord claims vengeance as His in the Book of Mormon'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/morm/3?lang=eng'
+    quote: 'Vengeance is mine, and I will repay; and because this people repented not after I had delivered them'
+
+  # ---- explore / parallels ----
+  - where: 'explore'
+    claim: 'Jeremiah told the exiles in Babylon to seek the city’s peace and pray for it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/29?lang=eng'
+    quote: 'And seek the peace of the city whither I have caused you to be carried away captives, and pray unto the Lord for it: for in the peace thereof shall ye have peace.'
+  - where: 'parallels'
+    claim: 'Obadiah 1:10–15 on Edom’s violence against Jacob'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/obad/1?lang=eng'
+    quote: 'For thy violence against thy brother Jacob shame shall cover thee, and thou shalt be cut off for ever.'
+  - where: 'parallels'
+    claim: 'Lamentations 4:21: the cup passes to Edom'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lam/4?lang=eng'
+    quote: 'the cup also shall pass through unto thee: thou shalt be drunken, and shalt make thyself naked.'
+  - where: 'parallels'
+    claim: 'Jeremiah 51:56 has the verbs of verse 8 (see the rows for the notes on 137:8)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/51?lang=eng'
+    quote: 'Because the spoiler is come upon her, even upon Babylon'
+
+  # ---- rows added in review ----
+  - where: 'setting'
+    claim: 'A lament in which the speaker is “we” is a communal lament'
+    key: sc-knowhy-438
+    url: 'https://scripturecentral.org/knowhy/why-do-biblical-psalms-of-lament-show-up-in-the-book-of-mormon'
+    quote: 'Psalms of lament come in two basic types: individual (in which the speaker is'
+  - where: 'thread'
+    claim: 'A lament generally has a confession of trust and a vow of praise among its elements'
+    key: sc-knowhy-438
+    url: 'https://scripturecentral.org/knowhy/why-do-biblical-psalms-of-lament-show-up-in-the-book-of-mormon'
+    quote: '(3) confession of trust, (4) petition, and (5) vow of praise'
+  - where: 'note 137:4 “The song of the LORD’s house”'
+    claim: 'The phrase in Psalm 137:4, as in 2 Chronicles 29:27 and 1 Chronicles 25:7, means sacred or liturgical song'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/137.htm'
+    quote: 'which, as in 2 Chronicles 29:27, cf. 1 Chronicles 25:7, denotes sacred or liturgical songs'
+  - where: 'note 137:8 “The cursing psalms”'
+    claim: 'Gloating or personal vindictiveness in a psalmist is to be condemned (the manual printing Eerdmans’ Handbook)'
+    key: ot-manual-psalms
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/the-psalms-songs-from-the-heart-of-israel?lang=eng'
+    quote: 'if personal vindictiveness creeps in under the cloak of concern for'
+  - where: 'note 137:8 “The cursing psalms”'
+    claim: 'The wrong does not pass into action'
+    key: ot-manual-psalms
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/the-psalms-songs-from-the-heart-of-israel?lang=eng'
+    quote: 'never carries over into wrong action'
+  - where: 'note 137:8 “The cursing psalms”'
+    claim: '“Recompense” in Jeremiah 50:29 is the same verb (H7999, piel imperative; hebrew.mjs jeremiah 50:29)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
+    quote: 'שַׁלְּמוּ'
+  - where: 'note 137:8 “The cursing psalms”'
+    claim: '“I will render” in Jeremiah 51:24 is the same verb (H7999, piel; hebrew.mjs jeremiah 51:24)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
+    quote: 'וְ/שִׁלַּמְתִּ֨י'
