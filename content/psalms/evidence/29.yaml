@@ -74,22 +74,12 @@ claims:
     url: 'https://biblehub.com/commentaries/kad/psalms/29.htm'
     quote: 'Between two tetrastichs, in each of which the name יהוה occurs four times'
   - where: thread
-    claim: 'One older commentary sums up the psalm as glory in the highest and peace on earth'
-    key: delitzsch-psalms
-    url: 'https://biblehub.com/commentaries/kad/psalms/29.htm'
-    quote: 'Gloria in excelsis is its beginning, and pax in terris its conclusion.'
-  - where: thread
     claim: 'A modern translation prints verse 11 as a wish'
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=NRSVUE'
     quote: '11 May the Lord give strength to his people!'
 
   # ---------- sections ----------
-  - where: section 1 plain
-    claim: 'Verse 1 addresses heavenly beings'
-    key: nrsvue
-    url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=NRSVUE'
-    quote: 'Ascribe to the Lord, O heavenly beings,'
   - where: section 1 plain
     claim: 'Verse 2: holy splendor'
     key: nrsvue
@@ -116,20 +106,10 @@ claims:
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=ESV'
     quote: 'the deer give birth'
   - where: section 3 plain
-    claim: 'Verse 9: or the oaks whirl'
-    key: nrsvue
-    url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=NRSVUE'
-    quote: '9 The voice of the Lord causes the oaks to whirl'
-  - where: section 3 plain
     claim: 'Verse 9: strips the forest bare'
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=NRSVUE'
     quote: 'and strips the forest bare,'
-  - where: section 4 plain
-    claim: 'Verse 10: at the Flood the LORD sat enthroned'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/3999.htm'
-    quote: 'at the flood sat enthroned (so most;'
   - where: section 4 plain
     claim: 'Verse 10: sits enthroned as king for ever'
     key: nrsvue
@@ -226,21 +206,6 @@ claims:
     key: delitzsch-psalms
     url: 'https://biblehub.com/commentaries/kad/psalms/29.htm'
     quote: 'From the northern mountains the storm sweeps on towards the south of Palestine into the Arabian desert'
-  - where: 'note 29:3 “Seven thunders and the path of a storm”'
-    claim: 'The Kadesh of verse 8 is taken as Kadesh-barnea'
-    key: delitzsch-psalms
-    url: 'https://biblehub.com/commentaries/kad/psalms/29.htm'
-    quote: 'the wilderness region of Kadesh (Kadesh Barnea)'
-  - where: 'note 29:3 “Seven thunders and the path of a storm”'
-    claim: 'Kadesh-barnea was in the southwest corner of Palestine'
-    key: bd-kadesh
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/kadesh?lang=eng'
-    quote: 'a city in the southwest corner of Palestine, a well-watered and fruitful spot in the wilderness of Zin.'
-  - where: 'note 29:3 “Seven thunders and the path of a storm”'
-    claim: 'The twelve spies were sent from Kadesh'
-    key: bd-kadesh
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/kadesh?lang=eng'
-    quote: 'the 12 spies were sent to report upon the land of Canaan'
   - where: 'note 29:3 “Seven thunders and the path of a storm”'
     claim: 'Verse 7: the verb is divide or cleave, and the line is forked lightning'
     key: bdb
@@ -401,37 +366,37 @@ claims:
     quote: 'The Lord is in his holy temple, the Lord’s throne is in heaven'
 
   # ---------- note 29:10 ----------
-  - where: 'note 29:10 “The Flood of Noah”'
+  - where: 'note 29:10 “The flood in verse 10”'
     claim: 'The word in verse 10 is mabbul (H3999), its only occurrence in the Psalms'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'לַ/מַּבּ֣וּל'
-  - where: 'note 29:10 “The Flood of Noah”'
+  - where: 'note 29:10 “The flood in verse 10”'
     claim: 'The word is the flood in the time of Noah, found only in Genesis and Psalm 29:10'
     key: bdb
     url: 'https://biblehub.com/hebrew/3999.htm'
     quote: 'only Genesis and Psalm 29:10; always absolute and always with article except Genesis 9:11,15'
-  - where: 'note 29:10 “The Flood of Noah”'
+  - where: 'note 29:10 “The flood in verse 10”'
     claim: 'In the other passages it is almost the proper name of the Flood; most read “at the flood sat enthroned”'
     key: bdb
     url: 'https://biblehub.com/hebrew/3999.htm'
     quote: 'at the flood sat enthroned (so most;'
-  - where: 'note 29:10 “The Flood of Noah”'
+  - where: 'note 29:10 “The flood in verse 10”'
     claim: 'The word is nearly the proper name of the Flood'
     key: bdb
     url: 'https://biblehub.com/hebrew/3999.htm'
     quote: 'seems in all the other passages to be almost = proper name of the flood'
-  - where: 'note 29:10 “The Flood of Noah”'
+  - where: 'note 29:10 “The flood in verse 10”'
     claim: 'The first verb of verse 10 is a perfect (morphology code Vqp3ms), a past tense'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'יָשָׁ֑ב'
-  - where: 'note 29:10 “The Flood of Noah”'
+  - where: 'note 29:10 “The flood in verse 10”'
     claim: 'A modern translation keeps the present tense'
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2029&version=NRSVUE'
     quote: '10 The Lord sits enthroned over the flood;'
-  - where: 'note 29:10 “The Flood of Noah”'
+  - where: 'note 29:10 “The flood in verse 10”'
     claim: 'Genesis 6:17 uses the word in the LORD’s announcement (first in the list of the word’s occurrences in Genesis)'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/6?lang=eng'
@@ -448,11 +413,6 @@ claims:
     key: bd-jehovah
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
     quote: 'the name is generally denoted by Lord or God, printed in small capitals.'
-  - where: christ
-    claim: 'The refrain is qol with the divine name'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'ק֥וֹל'
   - where: christ
     claim: '3 Nephi 8:6: thunder that shook the whole earth at His death'
     key: lds-scriptures
