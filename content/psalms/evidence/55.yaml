@@ -37,7 +37,7 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/13?lang=eng'
     quote: 'that the scripture may be fulfilled, He that eateth bread with me hath lifted up his heel against me.'
   - where: 'setting'
-    claim: 'This psalm and Psalm 41 are paired as psalms of the faithless friend'
+    claim: 'Psalm 41 is another psalm with a complaint of a faithless friend'
     key: delitzsch-psalms
     url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
     quote: 'the faithless bosom friend, over whom the complaint concerning malicious foes here, as in Psalm 41:1-13, lingers with special sadness'
@@ -94,27 +94,27 @@ claims:
     quote: 'To the leader: with stringed instruments. A Maskil of David.'
 
   # ---- note 55:9 ----
-  - where: 'note 55:9 “The word of Babel, used of a plot”'
+  - where: 'note 55:9 “An echo of Babel”'
     claim: 'The verb “divide” in verse 9 (H6385); hebrew.mjs psalms --word 6385 lists this as its one occurrence in Psalms'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'פַּלַּ֣ג'
-  - where: 'note 55:9 “The word of Babel, used of a plot”'
+  - where: 'note 55:9 “An echo of Babel”'
     claim: 'The same verb (H6385) is “was divided” in Genesis 10:25'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
     quote: 'נִפְלְגָ֣ה'
-  - where: 'note 55:9 “The word of Babel, used of a plot”'
+  - where: 'note 55:9 “An echo of Babel”'
     claim: 'The lexicon lists Genesis 10:25 and this verse under the verb, and glosses this verse “divide their speech (their counsels)”'
     key: bdb
     url: 'https://biblehub.com/hebrew/6385.htm'
     quote: 'Psalm 55:10 divide their speech (their counsels).'
-  - where: 'note 55:9 “The word of Babel, used of a plot”'
+  - where: 'note 55:9 “An echo of Babel”'
     claim: 'An older commentary hears a reference to the confusion of tongues at Babel'
     key: delitzsch-psalms
     url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
     quote: 'The retrospective reference to the confusion of tongues at Babel which is contained in the word פּלּג (cf. Genesis 10:25)'
-  - where: 'note 55:9 “The word of Babel, used of a plot”'
+  - where: 'note 55:9 “An echo of Babel”'
     claim: 'A modern translation of verse 9'
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2055&version=NRSVUE'
@@ -137,15 +137,10 @@ claims:
     url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
     quote: 'until he abandoned the palace of his own free will and quitted Jerusalem'
   - where: 'note 55:12 “Who the friend was”'
-    claim: 'The commentary offers the reading as an attempt from the standpoint of the title, and reports that Hitzig gave the psalm to Jeremiah'
+    claim: 'The commentary offers the reading as an attempt from the standpoint of the title'
     key: delitzsch-psalms
     url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
     quote: 'The exposition which follows here places itself - and it is at least worthy of being attempted - on the standpoint of the writer of the inscription.'
-  - where: 'note 55:12 “Who the friend was”'
-    claim: 'Another scholar held the psalm to be Jeremiah’s'
-    key: delitzsch-psalms
-    url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
-    quote: 'Hitzig also holds this Psalm to be Jeremianic.'
   - where: 'note 55:12 “Who the friend was”'
     claim: 'Ahithophel was David’s counsellor; David was told he was among the conspirators and prayed against his counsel'
     key: lds-scriptures
@@ -223,7 +218,7 @@ claims:
     url: 'https://biblehub.com/hebrew/7878.htm'
     quote: '1 complain: Psalm 55:18; Psalm 77:4'
   - where: 'note 55:17 “The complaint becomes the prayer”'
-    claim: '“Cry aloud” is the verb murmur, used of the soul in prayer in this verse'
+    claim: '“Cry aloud” is the verb murmur, and the lexicon lists this verse (Hebrew 18) as murmuring in prayer'
     key: bdb
     url: 'https://biblehub.com/hebrew/1993.htm'
     quote: 'in prayer Psalm 55:18; Psalm 77:4'
@@ -237,16 +232,6 @@ claims:
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2055&version=NRSVUE'
     quote: 'I utter my complaint and moan'
-  - where: 'note 55:17 “The complaint becomes the prayer”'
-    claim: 'Daniel prayed three times a day'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/6?lang=eng'
-    quote: 'he kneeled upon his knees three times a day, and prayed, and gave thanks before his God'
-  - where: 'note 55:17 “The complaint becomes the prayer”'
-    claim: 'Amulek names morning, mid-day and evening'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=eng'
-    quote: 'Cry unto him in your houses, yea, over all your household, both morning, mid-day, and evening.'
 
   # ---- note 55:18 ----
   - where: 'note 55:18 “With me, or against me”'
@@ -398,7 +383,7 @@ claims:
     url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
     quote: 'Psalms 55:23; 56:3 2 Nephi 4:34 I will trust in thee'
   - where: 'parallels'
-    claim: '2 Nephi 4:34 is listed as a potential allusion to Psalms 55:23 and 56:3'
+    claim: '2 Nephi 4:34 is listed among the phrases the Book of Mormon shares with Psalms 55:23 and 56:3'
     key: hilton-psalms-bom
     url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
     quote: 'Psalms 55:23; 56:3 2 Nephi 4:34 I will trust in thee'
