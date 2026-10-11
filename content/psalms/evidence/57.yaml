@@ -1,0 +1,457 @@
+chapter: 57
+claims:
+  # ---------- when / setting / thread ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David and places it when he fled from Saul in the cave'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/57?lang=eng'
+    quote: 'To the chief Musician, Al-taschith, Michtam of David, when he fled from Saul in the cave.'
+  - where: setting
+    claim: 'Psalm 57 shares with Psalm 56 its opening plea and the verb behind “swallow me up,” used the same way'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/57.htm'
+    quote: 'has not merely the supplicatory "Be gracious unto me, Elohim," at the beginning, but also שׁאף applied in the same way'
+  - where: setting
+    claim: 'The verb behind “would swallow me up” in 57:3 (H7602) is the verb of Psalm 56:1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שֹׁאֲפִ֣/י'
+  - where: setting
+    claim: 'Psalm 56 is also a Michtam of David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/56?lang=eng'
+    quote: 'Michtam of David, when the Philistines took him in Gath.'
+  - where: setting
+    claim: 'The psalm never has the divine name: it has Elohim (verses 1, 2, 3, 5, 7, 11), El and Elyon (“God most high,” verse 2)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עֶלְי֑וֹן'
+  - where: setting
+    claim: '“O Lord” in verse 9 is Adonai, the title, not the divine name'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲדֹנָ֑/י'
+  - where: setting
+    claim: 'Psalm 108 is made of the end of Psalm 57 and the end of Psalm 60'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/57.htm'
+    quote: 'Psalm 108:1-13 (which see) is a cento taken out of Psalm 57:1-11 and Psalm 60:1-12.'
+  - where: setting
+    claim: 'Psalm 108:1–5 repeats 57:7–11 with small changes'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/108?lang=eng'
+    quote: 'O God, my heart is fixed; I will sing and give praise, even with my glory.'
+  - where: setting
+    claim: 'Psalm 108:6–13 repeats Psalm 60:5–12'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/60?lang=eng'
+    quote: 'That thy beloved may be delivered; save with thy right hand, and hear me.'
+  - where: setting
+    claim: 'Book Two of the Psalms uses “God” (Elohim) far more than the divine name; explained at Psalm 42:1'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/42.htm'
+    quote: 'The Second Book of Psalms consists entirely of Elohimic Psalms'
+  - where: thread
+    claim: 'The refrain closes verses 1–5 and 6–11; verse 11 repeats verse 5'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/57?lang=eng'
+    quote: 'Be thou exalted, O God, above the heavens: let thy glory be above all the earth.'
+
+  # ---------- sections ----------
+  - where: section 3 plain
+    claim: '“My heart is fixed” means steadfast'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3559.htm'
+    quote: 'be fixed aright, stedfast נָכוֺן לִבִּי Psalm 57:8 (twice in verse)'
+  - where: section 3 plain
+    claim: 'The last clause of verse 8 can be rendered “I will wake the dawn”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5782.htm'
+    quote: 'figurative אָעִירָה שָׁ֑חַר Psalm 57:9 I will arouse the dawn'
+
+  # ---------- note 57:0 Al-taschith ----------
+  - where: 'note 57:0 “Destroy not, probably the name of a tune”'
+    claim: 'The title has the two Hebrew words al tashcheth, a negative and a verb of destroying'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תַּ֭שְׁחֵת'
+  - where: 'note 57:0 “Destroy not, probably the name of a tune”'
+    claim: 'The title of Psalm 57 has “Al-taschith,” “To the chief Musician” and “Michtam”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/57?lang=eng'
+    quote: 'To the chief Musician, Al-taschith, Michtam of David, when he fled from Saul in the cave.'
+  - where: 'note 57:0 “Destroy not, probably the name of a tune”'
+    claim: 'The words mean “Thou must not destroy” and are probably the opening words of a popular song'
+    key: strongs-concordance
+    url: 'https://biblehub.com/hebrew/516.htm'
+    quote: 'Thou must not destroy; probably the opening words to a popular song'
+  - where: 'note 57:0 “Destroy not, probably the name of a tune”'
+    claim: 'Al-taschith stands over Psalms 57–59 and 75 and is taken as a well-known ode to whose tune the psalms were sung (compare Isaiah 65:8)'
+    key: ot-manual-psalms
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/the-psalms-songs-from-the-heart-of-israel?lang=eng'
+    quote: 'Al-taschith, Destroy Thou Not, is found over [Psalms 57–59, 75], and signifies, by general consent, some well-known ode beginning with the expression [compare Isaiah 65:8], to the tune of which these compositions were to be sung.'
+  - where: 'note 57:0 “Destroy not, probably the name of a tune”'
+    claim: 'Titles of this kind are probably names of tunes known at the time'
+    key: bd-psalms
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
+    quote: 'The other titles are all probably names of tunes, well known at the time, to which the Psalms were appointed to be sung.'
+  - where: 'note 57:0 “Destroy not, probably the name of a tune”'
+    claim: 'The Greek translates the words instead of keeping them as a name'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/57.htm'
+    quote: 'For the end. Destroy not: by David, for a memorial, when he fled from the presence of Saul to the cave.'
+  - where: 'note 57:0 “Destroy not, probably the name of a tune”'
+    claim: 'Deuteronomy 9:26 has the verb in the same form as the title (tashcheth)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/deuteronomy/9-26.htm'
+    quote: 'תַּשְׁחֵ֤ת'
+  - where: 'note 57:0 “Destroy not, probably the name of a tune”'
+    claim: 'David’s “Destroy him not” in 1 Samuel 26:9 has the same verb, with a suffix'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/1_samuel/26-9.htm'
+    quote: 'תַּשְׁחִיתֵ֑הוּ'
+  - where: 'note 57:0 “Destroy not, probably the name of a tune”'
+    claim: 'David said “Destroy him not” to Abishai'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/26?lang=eng'
+    quote: 'And David said to Abishai, Destroy him not'
+  - where: 'note 57:0 “Destroy not, probably the name of a tune”'
+    claim: 'Isaiah 65:8 quotes “Destroy it not” as something said of the cluster with new wine in it'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/isaiah/65-8.htm'
+    quote: 'As the new wine is found in the cluster, and [one] saith, Destroy it not; for a blessing [is] in it'
+  - where: 'note 57:0 “Destroy not, probably the name of a tune”'
+    claim: 'One older commentary denies that the title refers to Deuteronomy 9:26 or 1 Samuel 26:9'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/57.htm'
+    quote: 'There is no actual reference in the words to Deuteronomy 9:26, or 1 Samuel 26:9 (why not also to Isaiah 65:8?).'
+
+  # ---------- note 57:0 cave ----------
+  - where: 'note 57:0 “Two caves in Samuel”'
+    claim: 'David escaped from Gath to the cave Adullam, and his family came to him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/22?lang=eng'
+    quote: 'David therefore departed thence, and escaped to the cave Adullam: and when his brethren and all his father’s house heard it, they went down thither to him.'
+  - where: 'note 57:0 “Two caves in Samuel”'
+    claim: 'About four hundred men gathered to him there'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/22?lang=eng'
+    quote: 'and there were with him about four hundred men'
+  - where: 'note 57:0 “Two caves in Samuel”'
+    claim: 'The second cave is in the wilderness of En-gedi; Saul went in while David and his men were inside'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/24?lang=eng'
+    quote: 'where was a cave; and Saul went in to cover his feet: and David and his men remained in the sides of the cave.'
+  - where: 'note 57:0 “Two caves in Samuel”'
+    claim: 'The cave of 1 Samuel 24 is in the wilderness of En-gedi'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/24?lang=eng'
+    quote: 'Behold, David is in the wilderness of En-gedi.'
+  - where: 'note 57:0 “Two caves in Samuel”'
+    claim: 'David’s men urged him to act against Saul and he refused'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/24?lang=eng'
+    quote: 'So David stayed his servants with these words, and suffered them not to rise against Saul.'
+  - where: 'note 57:0 “Two caves in Samuel”'
+    claim: 'The title of Psalm 142 also names the cave'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/142?lang=eng'
+    quote: 'Maschil of David; A Prayer when he was in the cave.'
+
+  # ---------- note 57:1 ----------
+  - where: 'note 57:1 “One verb for trust and refuge”'
+    claim: '“trusteth” is the verb chasah (H2620) in the perfect'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חָסָ֪יָה'
+  - where: 'note 57:1 “One verb for trust and refuge”'
+    claim: '“will I make my refuge” is the same verb in the imperfect'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶחְסֶ֑ה'
+  - where: 'note 57:1 “One verb for trust and refuge”'
+    claim: 'The lexicon lists both forms in this verse under the one verb, as perfect and imperfect'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2620.htm'
+    quote: '3feminine singular חָסָ֫יָה Psalm 57:2'
+  - where: 'note 57:1 “One verb for trust and refuge”'
+    claim: 'A modern translation has “takes refuge” for the first'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2057&version=NRSVUE'
+    quote: 'for in you my soul takes refuge;'
+  - where: 'note 57:1 “One verb for trust and refuge”'
+    claim: 'and “I will take refuge” for the second'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2057&version=NRSVUE'
+    quote: 'in the shadow of your wings I will take refuge,'
+  - where: 'note 57:1 “One verb for trust and refuge”'
+    claim: 'The same translation has “the destroying storms” for “these calamities”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2057&version=NRSVUE'
+    quote: 'until the destroying storms pass by.'
+
+  # ---------- note 57:2 ----------
+  - where: 'note 57:2 “God who brings to completion”'
+    claim: 'The Hebrew is the participle gomer with “for me” and no object'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'גֹּמֵ֥ר'
+  - where: 'note 57:2 “God who brings to completion”'
+    claim: 'The verb means end or complete and is found only in the Psalms'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1584.htm'
+    quote: 'verb end, come to an end, complete (only Psalms)'
+  - where: 'note 57:2 “God who brings to completion”'
+    claim: 'The lexicon renders the line “God that completeth, accomplisheth, for me” and lists Psalm 138:8 beside it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1584.htm'
+    quote: 'Psalm 57:3 God that completeth, accomplisheth, for me'
+  - where: 'note 57:2 “God who brings to completion”'
+    claim: 'A modern translation has “God who fulfills his purpose for me”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2057&version=NRSVUE'
+    quote: 'to God who fulfills his purpose for me.'
+  - where: 'note 57:2 “God who brings to completion”'
+    claim: 'The Greek has “the God who has benefited me”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/57.htm'
+    quote: 'I will cry to God most high; the God who has benefited me. Pause.'
+  - where: 'note 57:2 “God who brings to completion”'
+    claim: 'Psalm 138:8 has the same verb (H1584) with the LORD as subject'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִגְמֹ֪ר'
+  - where: 'note 57:2 “God who brings to completion”'
+    claim: 'Psalm 138:8 in the King James'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/138?lang=eng'
+    quote: 'will perfect that which concerneth me'
+
+  # ---------- note 57:3 ----------
+  - where: 'note 57:3 “What God sends from heaven”'
+    claim: 'The first “send” has no object; the second has “his mercy (hesed) and his truth”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַסְדּ֥/וֹ'
+  - where: 'note 57:3 “What God sends from heaven”'
+    claim: 'A modern translation renders the pair “his steadfast love and his faithfulness”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2057&version=NRSVUE'
+    quote: 'God will send forth his steadfast love and his faithfulness.'
+  - where: 'note 57:3 “What God sends from heaven”'
+    claim: 'The same two nouns return in verse 10'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַסְדֶּ֑/ךָ'
+  - where: 'note 57:3 “What God sends from heaven”'
+    claim: 'Verse 10 measures mercy and truth by the heavens and the clouds'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/57?lang=eng'
+    quote: 'For thy mercy is great unto the heavens, and thy truth unto the clouds.'
+
+  # ---------- note 57:4 ----------
+  - where: 'note 57:4 “Lying down among men on fire”'
+    claim: 'The verb “lie” is a first-person cohortative (I will lie down)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶשְׁכְּבָ֪ה'
+  - where: 'note 57:4 “Lying down among men on fire”'
+    claim: '“them that are set on fire” is a plural participle of the verb lahat'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לֹ֫הֲטִ֥ים'
+  - where: 'note 57:4 “Lying down among men on fire”'
+    claim: 'The verb means blaze up, flame'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3857.htm'
+    quote: 'verb blaze up, flame'
+  - where: 'note 57:4 “Lying down among men on fire”'
+    claim: 'Here it is used figuratively of enemies'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3857.htm'
+    quote: 'Psalm 57:5 (figurative of enemies, compare לְבָאִם'
+  - where: 'note 57:4 “Lying down among men on fire”'
+    claim: 'A modern translation has lions that “greedily devour human prey”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2057&version=NRSVUE'
+    quote: 'that greedily devour human prey;'
+  - where: 'note 57:4 “Lying down among men on fire”'
+    claim: 'It marks this as a correction and gives the Hebrew in a footnote'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2057&version=NRSVUE'
+    quote: '57.4 Cn: Heb are aflame for'
+  - where: 'note 57:4 “Lying down among men on fire”'
+    claim: 'The Greek reads “I lay down to sleep, though troubled”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/57.htm'
+    quote: 'I lay down to sleep, though troubled. As for the sons of men, their teeth are arms and missile weapons, and their tongue a sharp sword.'
+
+  # ---------- thread (the refrain; moved from the cut note on 57:5) ----------
+  - where: thread
+    claim: 'Verse 5 has “the heavens” with the article'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַ/שָּׁמַ֣יִם'
+  - where: thread
+    claim: 'Verse 11 is otherwise word for word the same, with “heavens” without the article'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'ר֣וּמָ/ה'
+
+  # ---------- note 57:7 ----------
+  - where: 'note 57:7 “A heart made firm”'
+    claim: '“fixed” is nakon, a form of the verb kun (H3559)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נָ֘כ֤וֹן'
+  - where: 'note 57:7 “A heart made firm”'
+    claim: '“prepared” in verse 6 is the same verb (H3559)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הֵכִ֣ינוּ'
+  - where: 'note 57:7 “A heart made firm”'
+    claim: 'The sense here is fixed aright, steadfast; Psalm 112:7 is listed with it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3559.htm'
+    quote: 'be fixed aright, stedfast נָכוֺן לִבִּי Psalm 57:8 (twice in verse); Psalm 108:2, so Psalm 112:7'
+  - where: 'note 57:7 “A heart made firm”'
+    claim: 'The “right spirit” of Psalm 51:10 is the same word'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3559.htm'
+    quote: 'רוּחַ נָכוֺן Psalm 51:12'
+  - where: 'note 57:7 “A heart made firm”'
+    claim: 'Verse 6’s use is listed with preparing weapons for a hostile purpose'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3559.htm'
+    quote: '(hostile purpose) Psalm 7:14, compare Psalm 57:7'
+  - where: 'note 57:7 “A heart made firm”'
+    claim: 'The Greek has “ready”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/57.htm'
+    quote: 'My heart, O God, is ready, my heart is ready: I will sing, yea will sing psalms.'
+  - where: 'note 57:7 “A heart made firm”'
+    claim: 'Psalm 112:7 in the King James'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/112?lang=eng'
+    quote: 'his heart is fixed, trusting in the'
+
+  # ---------- note 57:8 ----------
+  - where: 'note 57:8 “Waking the dawn”'
+    claim: 'The third “awake” is a causative (Hiphil) first-person form, followed by the noun “dawn”; the first two are simple imperatives'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אָעִ֥ירָה'
+  - where: 'note 57:8 “Waking the dawn”'
+    claim: 'The lexicon renders the clause “I will arouse the dawn”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5782.htm'
+    quote: 'figurative אָעִירָה שָׁ֑חַר Psalm 57:9 I will arouse the dawn'
+  - where: 'note 57:8 “Waking the dawn”'
+    claim: 'The noun is “dawn,” and the lexicon also allows it here as an adverb, “at dawn”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7837.htm'
+    quote: 'as adverb at dawn Psalm 57:9 = Psalm 108:3'
+  - where: 'note 57:8 “Waking the dawn”'
+    claim: 'A modern translation has “I will awake the dawn”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2057&version=NRSVUE'
+    quote: 'I will awake the dawn.'
+  - where: 'note 57:8 “Waking the dawn”'
+    claim: 'The Greek, like the King James, has “I will awake early”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/57.htm'
+    quote: 'Awake, my glory; awake, psaltery and harp: I will awake early.'
+  - where: 'note 57:8 “Waking the dawn”'
+    claim: '“My glory” is poetic for the inner self; this verse is listed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3519.htm'
+    quote: 'my honour, poetic of the seat of honour in the inner man, the noblest part of man'
+  - where: 'note 57:8 “Waking the dawn”'
+    claim: 'One older reading: verses 4 and 8 together show an evening or night song'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/57.htm'
+    quote: 'it at once becomes clear that we have before us an evening or nightly song'
+  - where: 'note 57:8 “Waking the dawn”'
+    claim: 'The evening mood is hope of victory and the morning mood certainty of victory'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/57.htm'
+    quote: 'His evening mood which found expression in Psalm 57:4, was hope of victory; the morning mood into which David here transports himself, is certainty of victory.'
+  - where: 'note 57:8 “Waking the dawn”'
+    claim: 'He wakes the dawn that has not yet risen with harp and song'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/57.htm'
+    quote: 'with the music of stringed instruments and with song he will awake the not yet risen dawn'
+
+  # ---------- note 57:9 ----------
+  - where: 'note 57:9 “Praise promised among the nations”'
+    claim: '“the people” and “the nations” are both plural in Hebrew'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בָ/עַמִּ֥ים'
+  - where: 'note 57:9 “Praise promised among the nations”'
+    claim: 'One older reading: David’s vocation reaches beyond Israel'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/57.htm'
+    quote: 'his vocation extends beyond Israel, and the events of his life are to be for the benefit of mankind'
+  - where: 'note 57:9 “Praise promised among the nations”'
+    claim: 'That reading sets the verse beside Psalm 18:49 (18:50 in the Hebrew numbering)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/57.htm'
+    quote: 'which accompanied David from the beginning to the end of his royal career (vid., Psalm 18:50)'
+  - where: 'note 57:9 “Praise promised among the nations”'
+    claim: 'and beside Psalm 22, where the deliverance of one is tied to the redemption of all peoples'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/57.htm'
+    quote: 'with Psalm 22 the relation of the deliverance of the anointed one to the redemption of all peoples (Psalm 57:10; Psalm 22:28.)'
+  - where: 'note 57:9 “Praise promised among the nations”'
+    claim: 'Paul quotes Psalm 18:49 of the Gentiles'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/15?lang=eng'
+    quote: 'For this cause I will confess to thee among the Gentiles, and sing unto thy name.'
+  - where: christ
+    claim: '“O Lord” in verse 9 is Adonai'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲדֹנָ֑/י'
+
+  # ---------- christ / explore / parallels ----------
+  - where: christ
+    claim: 'Psalm 108:3 has the divine name where 57:9 has Adonai'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְהוָ֑ה'
+  - where: christ
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: explore
+    claim: 'David calls to Saul from outside the cave'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/24?lang=eng'
+    quote: 'David also arose afterward, and went out of the cave, and cried after Saul'
+  - where: explore
+    claim: 'The lying down of verse 4 is compared with Psalm 4:8 (4:9 in the Hebrew numbering)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/57.htm'
+    quote: 'here has the sense of cubitum ire (Psalm 4:9)'
+  - where: explore
+    claim: 'Psalms 58, 59 and 75 have Al-taschith in their titles; Psalm 59’s title sets it when Saul’s men watched the house'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/59?lang=eng'
+    quote: 'To the chief Musician, Al-taschith, Michtam of David; when Saul sent, and they watched the house to kill him.'
+  - where: explore
+    claim: 'Saul sent messengers to watch David’s house and kill him in the morning'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/19?lang=eng'
+    quote: 'Saul also sent messengers unto David’s house, to watch him, and to slay him in the morning'
+  - where: parallels
+    claim: 'Psalm 36:5 measures mercy and faithfulness by the heavens and the clouds'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/36?lang=eng'
+    quote: 'is in the heavens; and thy faithfulness reacheth unto the clouds.'
+  - where: parallels
+    claim: 'Nephi’s “I will cry unto thee” (2 Nephi 4:35) is counted as an allusion to Psalm 57:2'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: 'yea, I will cry unto [Psalm 57:2] thee, my God, the rock of my'
