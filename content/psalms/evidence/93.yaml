@@ -1,0 +1,416 @@
+chapter: 93
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'Psalm 93 has no title in the Church’s edition; the page opens with the chapter heading and verse 1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/93?lang=eng'
+    quote: 'The Lord reigneth, he is clothed with majesty'
+  - where: setting
+    claim: 'The ancient Greek translation gives the psalm a title: for the day before the Sabbath, when the land was first inhabited, a song of David'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/93.htm'
+    quote: 'For the day before the Sabbath, when the land was first inhabited, the praise of a Song by David.'
+  - where: setting
+    claim: 'An older commentary sets aside the Greek title’s ascription to David'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/93.htm'
+    quote: 'The third part of this inscription is worthless.'
+  - where: setting
+    claim: 'The same commentary reports from the Talmud that Psalm 93 was the psalm of the sixth day, because God then finished creating and began to reign over His creatures'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/93.htm'
+    quote: 'Psalm 93:1-5 was really the Friday Psalm, and that, as is said in Rosh ha-shana 31a'
+  - where: setting
+    claim: 'The reason given: on the sixth day God had completed His creative work and began to reign'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/93.htm'
+    quote: 'because God then (on the sixth day) had completed His creative work and began to reign over them (His creatures)'
+  - where: setting
+    claim: 'Psalm 92, just before, is by its title for the sabbath day'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/92?lang=eng'
+    quote: 'A Psalm or Song for the sabbath day.'
+  - where: setting
+    claim: 'Psalms 90–106 are one of the five sections of the book (Book Four)'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'Psalms 90–106: This section begins with Moses’s prayer for the Lord to have mercy on straying Israel.'
+  - where: setting
+    claim: 'Psalm 93 is the first of the psalms that begin with “The LORD reigneth,” and the commentary dates them all after the exile'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/93.htm'
+    quote: 'but the first of the Psalms beginning with this watchword is Psalm 93:1-5. They are all post-exilic.'
+  - where: setting
+    claim: 'Psalm 93 is listed among the psalms of praise'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'praise the Lord: 8, 19, 29, 33, 47, 65, 66, 78, 93, 95–100'
+  - where: setting
+    claim: 'Psalms of praise dwell on the Lord as creator and as king'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'emphasizing his role as the creator and his divine reign as king of Israel'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The world “is stablished” (verse 1) and the throne “is established” (verse 2) are one Hebrew verb, H3559'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נָכ֣וֹן'
+  - where: thread
+    claim: 'The verb “lift up” (H5375) stands three times in verse 3: twice in the perfect and the third time in the imperfect'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִשְׂא֖וּ'
+  - where: thread
+    claim: 'The adjective for the “mighty” waves and for the LORD who is “mightier” is the same (H117), plural and then singular'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַדִּ֖יר'
+  - where: thread
+    claim: 'One older reading: the LORD is King of His people, who preserve His revelation and worship in His temple'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/93.htm'
+    quote: 'He is King of His people, Lord of His church, which preserves His revelation and worships in His temple.'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: 'Verse 1 rendered “is King” and “robed,” as a modern translation has it'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2093&version=NRSVUE'
+    quote: 'The Lord is king; he is robed in majesty;'
+  - where: section 2 plain
+    claim: 'The “floods” are rivers: the Hebrew word means stream, river'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5104.htm'
+    quote: 'stream, river'
+  - where: section 2 plain
+    claim: 'The word behind “waves” in verse 3 means a crashing or dashing'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1796.htm'
+    quote: '(crushing), crashing, dashing'
+  - where: section 2 plain
+    claim: 'The “noise” of verse 4 is the plural of the word for “voice” in verse 3 (H6963)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִ/קֹּל֨וֹת'
+  - where: section 3 plain
+    claim: 'Verse 5 rendered “decrees” and “befits,” as a modern translation has it'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2093&version=NRSVUE'
+    quote: 'Your decrees are very sure;'
+
+  # ---------- note 93:1 reigneth ----------
+  - where: 'note 93:1 “He reigns, or He has become King”'
+    claim: 'The Hebrew of “The LORD reigneth” is the divine name and a verb in the perfect (qal perfect, third person masculine singular)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מָלָךְ֮'
+  - where: 'note 93:1 “He reigns, or He has become King”'
+    claim: 'The verb means to be or to become king, to reign'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4427.htm'
+    quote: 'be, or become king, or queen, reign'
+  - where: 'note 93:1 “He reigns, or He has become King”'
+    claim: 'A modern translation has “is king”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2093&version=NRSVUE'
+    quote: 'The Lord is king; he is robed in majesty;'
+  - where: 'note 93:1 “He reigns, or He has become King”'
+    claim: 'One older reading hears an accession in the verb'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/93.htm'
+    quote: 'Jahve has entered upon the kingship and now reigns'
+  - where: 'note 93:1 “He reigns, or He has become King”'
+    claim: 'That reading takes the verb, in Isaiah 52:7 and Revelation 11:17, of the last time'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/93.htm'
+    quote: 'We find the word used in this lofty sense, and in relation to the last time, e.g., in Isaiah 24:23; Isaiah 52:7, and most unmistakeably in Revelation 11:17'
+  - where: 'note 93:1 “He reigns, or He has become King”'
+    claim: 'On that reading He is King already and now shows Himself so to the world'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/93.htm'
+    quote: 'He is King, and now too shows Himself to the world in the royal robe'
+  - where: 'note 93:1 “He reigns, or He has become King”'
+    claim: 'Isaiah 52:7 has the same verb in the same form (H4427, qal perfect)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'מָלַ֥ךְ'
+  - where: 'note 93:1 “He reigns, or He has become King”'
+    claim: 'Revelation 11:17: the elders give thanks that the Lord has taken His great power and reigned'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/11?lang=eng'
+    quote: 'because thou hast taken to thee thy great power, and hast reigned'
+
+  # ---------- note 93:1 girded ----------
+  - where: 'note 93:1 “Robed in majesty, girded with strength”'
+    claim: 'A modern translation has “robed in majesty”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2093&version=NRSVUE'
+    quote: 'he is robed in majesty'
+  - where: 'note 93:1 “Robed in majesty, girded with strength”'
+    claim: '“Girded himself” is the reflexive (Hithpael) form of the verb H247'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הִתְאַזָּ֑ר'
+  - where: 'note 93:1 “Robed in majesty, girded with strength”'
+    claim: 'The lexicon lists the form only in Isaiah 8:9 (twice), where it glosses it gird oneself, for war, and in Psalm 93:1, with strength'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/247.htm'
+    quote: 'gird oneself, for war Isaiah 8:9 (twice in verse)'
+  - where: 'note 93:1 “Robed in majesty, girded with strength”'
+    claim: 'The word for “majesty” (H1348) has the sense of a lifting up, and is used of the swelling of the sea in Psalm 89:9 (89:10 in the Hebrew numbering)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1348.htm'
+    quote: 'swelling of the sea Psalm 89:10'
+  - where: 'note 93:1 “Robed in majesty, girded with strength”'
+    claim: 'The lexicon’s first sense of the word is a lifting up'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1348.htm'
+    quote: '1 lifting up'
+  - where: 'note 93:1 “Robed in majesty, girded with strength”'
+    claim: 'The same word (H1348) is the “raging” of the sea in the King James of Psalm 89:9'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/גֵא֣וּת'
+  - where: 'note 93:1 “Robed in majesty, girded with strength”'
+    claim: 'The word in Psalm 93:1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'גֵּא֪וּת'
+
+  # ---------- note 93:2 ----------
+  - where: 'note 93:2 “One verb for the world and the throne”'
+    claim: 'Verse 1 “is stablished” is the verb H3559 (niphal imperfect)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּכּ֥וֹן'
+  - where: 'note 93:2 “One verb for the world and the throne”'
+    claim: 'Verse 2 “is established” is the same verb H3559 (niphal participle)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נָכ֣וֹן'
+  - where: 'note 93:2 “One verb for the world and the throne”'
+    claim: 'Psalm 96:10 has the same five Hebrew words for the world established and not moved (H637, H3559, H8398, H1077, H4131)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּכּ֣וֹן'
+
+  - where: 'note 93:2 “One verb for the world and the throne”'
+    claim: 'The King James of Psalm 96:10 puts the clause in the future: the world also shall be established'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/96?lang=eng'
+    quote: 'the world also shall be established that it shall not be moved'
+
+  # ---------- note 93:3 ----------
+  - where: 'note 93:3 “What the rising rivers are”'
+    claim: 'The word for “floods” is the ordinary word for a stream or river'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5104.htm'
+    quote: 'stream, river'
+  - where: 'note 93:3 “What the rising rivers are”'
+    claim: 'The first two “lifted up” are perfects (H5375, qal perfect)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נָשְׂא֤וּ'
+  - where: 'note 93:3 “What the rising rivers are”'
+    claim: 'The third is an imperfect (H5375, qal imperfect)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִשְׂא֖וּ'
+  - where: 'note 93:3 “What the rising rivers are”'
+    claim: 'One reading of the change of tense: what has happened, and what is still happening'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/93.htm'
+    quote: 'The perfects affirm what has taken place, the future that which even now as yet is taking place.'
+  - where: 'note 93:3 “What the rising rivers are”'
+    claim: 'The word behind “waves” (H1796) occurs once in the Psalms, here (hebrew.mjs psalms --word 1796: 1 occurrence)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'דָּכְיָֽ/ם'
+  - where: 'note 93:3 “What the rising rivers are”'
+    claim: 'It means the crashing or dashing of waves'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1796.htm'
+    quote: '(crushing), crashing, dashing'
+  - where: 'note 93:3 “What the rising rivers are”'
+    claim: 'A modern translation has “their roaring”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2093&version=NRSVUE'
+    quote: 'the floods lift up their roaring.'
+  - where: 'note 93:3 “What the rising rivers are”'
+    claim: 'An older reading: the sea is the Gentile world and the rivers are kingdoms, the Nile for Egypt and the Euphrates for Assyria'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/93.htm'
+    quote: 'is an emblem of the Gentile world alienated from and at enmity with God; and the rivers (floods) are emblems of worldly kingdoms, as the Nile of the Egyptian (Jeremiah 44:7.), the Euphrates of the Assyrian (Isaiah 8:7.)'
+  - where: 'note 93:3 “What the rising rivers are”'
+    claim: 'Isaiah 17:12 compares the rushing of nations to mighty waters'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/17?lang=eng'
+    quote: 'the rushing of nations, that make a rushing like the rushing of mighty waters'
+
+  # ---------- note 93:4 ----------
+  - where: 'note 93:4 “The waters’ own words, given to the LORD”'
+    claim: 'The “noise” of verse 4 is the plural of the “voice” of verse 3 (H6963)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִ/קֹּל֨וֹת'
+  - where: 'note 93:4 “The waters’ own words, given to the LORD”'
+    claim: 'The “voice” of verse 3'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קוֹלָ֑/ם'
+  - where: 'note 93:4 “The waters’ own words, given to the LORD”'
+    claim: '“Mighty” (of the waves) and “mightier” (of the LORD) are one adjective, H117, plural and then singular'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַדִּירִ֣ים'
+  - where: 'note 93:4 “The waters’ own words, given to the LORD”'
+    claim: 'The adjective means majestic, and is used of the waters of the sea in Exodus 15:10 and Psalm 93:4'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/117.htm'
+    quote: 'majestic (wide, lofty) of waters of sea Exodus 15:10; Psalm 93:4'
+  - where: 'note 93:4 “The waters’ own words, given to the LORD”'
+    claim: 'Exodus 15:10 has the same adjective in “the mighty waters”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'אַדִּירִֽים'
+  - where: 'note 93:4 “The waters’ own words, given to the LORD”'
+    claim: 'A modern translation makes the verse a comparison'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2093&version=NRSVUE'
+    quote: 'More majestic than the thunders of mighty waters,'
+  - where: 'note 93:4 “The waters’ own words, given to the LORD”'
+    claim: 'Its footnote says its second line is a correction and that the Hebrew reads “majestic are the waves”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2093&version=NRSVUE'
+    quote: '93.4 Cn: Heb majestic are the waves'
+  - where: 'note 93:4 “The waters’ own words, given to the LORD”'
+    claim: 'The ancient Greek has no comparison'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/93.htm'
+    quote: 'the billows of the sea are wonderful: the Lord is wonderful in high places.'
+
+  # ---------- note 93:5 ----------
+  - where: 'note 93:5 “Sure testimonies, and a house that holiness befits”'
+    claim: 'The word for “testimonies” (H5713) is used always of laws as divine testimonies or solemn charges'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5713.htm'
+    quote: 'testimonies (always of laws as divine testimonies or solemn charges)'
+  - where: 'note 93:5 “Sure testimonies, and a house that holiness befits”'
+    claim: 'The word in Psalm 93:5'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עֵֽדֹתֶ֨י/ךָ'
+  - where: 'note 93:5 “Sure testimonies, and a house that holiness befits”'
+    claim: 'A modern translation has “decrees”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2093&version=NRSVUE'
+    quote: 'Your decrees are very sure;'
+  - where: 'note 93:5 “Sure testimonies, and a house that holiness befits”'
+    claim: 'To become, in older English, is to suit or befit'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/become'
+    quote: 'In general, to suit or be suitable; to be congruous; to befit; to accord with, in character or circumstances'
+  - where: 'note 93:5 “Sure testimonies, and a house that holiness befits”'
+    claim: 'The Hebrew verb (H4998) in Psalm 93:5 means to be befitting'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4998.htm'
+    quote: '2 be befitting:'
+  - where: 'note 93:5 “Sure testimonies, and a house that holiness befits”'
+    claim: 'The lexicon lists the verb in two other verses, Isaiah 52:7 (the messenger’s feet) and Song of Solomon 1:10'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4998.htm'
+    quote: '1 be comely; of feet of messenger, (figurative) Isaiah 52:7; of cheeks Songs 1:10.'
+  - where: 'note 93:5 “Sure testimonies, and a house that holiness befits”'
+    claim: 'A modern translation has “befits”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2093&version=NRSVUE'
+    quote: 'holiness befits your house,'
+  - where: 'note 93:5 “Sure testimonies, and a house that holiness befits”'
+    claim: 'The verb in Psalm 93:5'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נַאֲוָה'
+  - where: 'note 93:5 “Sure testimonies, and a house that holiness befits”'
+    claim: 'Isaiah 52:7 “beautiful” is the same verb (H4998), in the verse that ends “Thy God reigneth”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'נָּאו֨וּ'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'Jehovah, the LORD of the Old Testament, is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: christ
+    claim: 'The angel’s words to King Benjamin: the Lord who reigns, from all eternity to all eternity, will come down among men'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/3?lang=eng'
+    quote: 'the Lord Omnipotent who reigneth, who was, and is from all eternity to all eternity, shall come down from heaven among the children of men'
+  - where: christ
+    claim: 'The angel goes on to name Him: He shall be called Jesus Christ (the verse the Guide to the Scriptures cites under Jehovah)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/3?lang=eng'
+    quote: 'And he shall be called Jesus Christ, the Son of God'
+  - where: christ
+    claim: 'The Church’s footnote at “clothed” in verse 1 gives Doctrine and Covenants 65:5 (footnotes.mjs psalms 93: “1a clothed: D&C 65:5”); the verse it gives'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/65?lang=eng'
+    quote: 'the Son of Man shall come down in heaven, clothed in the brightness of his glory'
+  - where: christ
+    claim: 'Many of the psalms of this section are read of the millennial day and the Messiah’s reign'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'Many of these psalms describe the millennial day when Israel will find rest under the Messiah’s reign.'
+  - where: christ
+    claim: 'One older reading: psalms of the LORD’s own kingship and psalms of His Anointed run side by side in the Old Testament'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/93.htm'
+    quote: 'These theocratic Psalms form, together with the christocratic, two series of prophecy referring to the last time which run parallel with one another.'
+  - where: christ
+    claim: 'On that reading the fulfilment shows the coming of the Anointed and the coming of the LORD to be one'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/93.htm'
+    quote: 'that the parusia of the Anointed One and the parusia of Jahve is one and the same'
+
+  # ---------- explore ----------
+  - where: explore
+    claim: 'Ezekiel 43:2: the voice of the God of Israel is like a noise of many waters'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/43?lang=eng'
+    quote: 'his voice was like a noise of many waters'
+  - where: explore
+    claim: 'Revelation 1:15: the voice of the Son of Man is as the sound of many waters'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/1?lang=eng'
+    quote: 'his voice as the sound of many waters'
+  - where: explore
+    claim: 'Doctrine and Covenants 110:3: the voice of Jehovah is as the sound of the rushing of great waters'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/110?lang=eng'
+    quote: 'his voice was as the sound of the rushing of great waters, even the voice of Jehovah'
+  - where: explore
+    claim: 'Doctrine and Covenants 133:22: the Lord’s voice at His coming is as the voice of many waters'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/133?lang=eng'
+    quote: 'And it shall be a voice as the voice of many waters, and as the voice of a great thunder'
+  - where: explore
+    claim: 'Revelation 19:6: a voice as of many waters says that the Lord God omnipotent reigneth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/19?lang=eng'
+    quote: 'as the voice of many waters, and as the voice of mighty thunderings, saying, Alleluia: for the Lord God omnipotent reigneth'
+
+  # ---------- parallels ----------
+  - where: parallels
+    claim: 'Psalm 96:10 repeats the opening cry and the line about the world'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/96?lang=eng'
+    quote: 'Say among the heathen that the Lord reigneth: the world also shall be established that it shall not be moved'
+  - where: parallels
+    claim: 'Isaiah 52:7: the messenger says to Zion, Thy God reigneth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/52?lang=eng'
+    quote: 'that saith unto Zion, Thy God reigneth!'
