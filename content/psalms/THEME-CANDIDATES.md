@@ -369,3 +369,65 @@ The coordinator's leads from the brief's research. Each would have to show an ar
 - (68) Older scripture sung again in the Psalms: Num. 10:35 (68:1; 3:7), Judges 5 (68:7-8, 18, perhaps 13), Deut. 33 (68:17, 33).
 - (68) God as father of the fatherless and defender of the widow: 68:5 (with 10:14; 82:3; 146:9).
 - (68) God or the King going up to His hill: 68:16-18, 24 (with 24; 47:5).
+
+## Reported by chapters 69–80 (not yet sorted)
+
+- (69) Reproach borne for God's sake (69:7, 9, 10, 19, 20; with 22:6; 44:13; 89:50–51).
+- (69) The sufferer of the passion psalms as the New Testament uses them (22, 31, 35, 40, 69, 109).
+- (69) Deep waters, mire and the pit as the place of death and rescue (69:1–2, 14–15; 40:2; 18:16; 124:4–5; 130:1).
+- (69) Praise in place of sacrifice (69:30–31; 40:6; 50:13–14; 51:16–17).
+- (69) The curses and what the New Testament does with them (69:22–28 in Romans 11 and Acts 1; 109:8).
+- (70) 'Make haste' as the plea of the laments (70:1, 5; 22:19; 38:22; 40:13; 71:12; 141:1).
+- (70) 'Aha' and 'be magnified': what the mockers and the friends say (70:3-4; 35:21-27; 40:15-16).
+- (70) Psalms that stand in the book twice (70 and 40:13-17; 14 and 53; 108 with 57 and 60).
+- (70) 'Poor and needy' as the speaker's name for himself (70:5; 40:17; 86:1; 109:22; with 69:29).
+- (71) Telling the next generation: 71:17-18; 22:30-31; 78:4-6; 145:4.
+- (71) 'Forsake me not' / 'be not far': 71:9, 11-12, 18; 22:1, 11, 19; 27:9; 38:21.
+- (71) The Holy One of Israel in the Psalms: 71:22; 78:41; 89:18 (probably links, not a page).
+- (71) Psalms made from other psalms: 71 (from 31, 22, 35, 40); 70 (40:13-17); 108 (57, 60); 14 and 53.
+- (71) Old age in the Psalms: 71:9, 18; 37:25; 92:14; 90:10.
+- (72) The king and the poor: 72:2, 4, 12-14 (with Ps. 12:5; 82:3-4).
+- (72) The royal psalms and the king to come: 2, 45, 72, 89, 110, 132 (72:8 into Zech. 9:9-10 and Matt. 21:4-5).
+- (72) The promise to Abraham in the Psalms: 72:17 with Gen. 12:3; 22:18.
+- (72) "As long as the sun and moon": 72:5, 7, 17 with Ps. 89:36-37.
+- (72) The earth filled with the Lord's glory: 72:19 with Num. 14:21; Isa. 11:9; D&C 65:2.
+- (72) The five closing blessings: 41:13; 72:18-19; 89:52; 106:48; 150 (already gathered at Ps. 150:6).
+- (73) The prosperity of the wicked (Ps. 37; 49; 73; with Jer. 12:1, Job 21 and Mal. 3:13-18).
+- (73) 'Receive/take' and hope beyond Sheol (Ps. 49:15; 73:24; with 16:10).
+- (73) The LORD as portion (Ps. 16:5; 73:26; 119:57; 142:5).
+- (73) The grasped right hand (Ps. 63:8; 73:23; 139:10).
+- (73) The sanctuary as the place where things are seen rightly (Ps. 63:2; 73:17; 77:13).
+- (74) The Lord's victory over the sea monster (74:13-14; 89:9-10; 104:26; Isa. 27:1; 51:9-10; 2 Ne. 9:10).
+- (74) 'How long?' as the Psalter's question (74:9-10; 79:5; 13:1; 6:3).
+- (74) The song at the sea in later prayer (74:2; Ex. 15:13-17).
+- (74) Laments over the fallen temple (74; 79; 137; Lamentations 2).
+- (74) 'Remember' and 'forget not' addressed to God (74:2, 18-23).
+- (75) The cup of the LORD's judgment and the Savior's bitter cup: Ps. 11:6; 60:3; 75:8 (with Isa. 51:17-23, Jer. 25:15, Mark 14:36, 3 Ne. 11:11, D&C 19:18; the cup of blessing in Ps. 16:5; 23:5; 116:13).
+- (75) The horn lifted up or cut off: Ps. 18:2; 75:4-5, 10; 89:17, 24; 92:10; 112:9; 132:17; 148:14.
+- (75) God as judge in Book Three: Ps. 75:2, 7; 76:8-9; 82:1, 8.
+- (75) Hannah's song in the Psalms: Ps. 75; 113:7-8.
+- (76) Zion attacked and delivered by God: Ps. 46:6-9; 48:4-8; 76:3-6.
+- (76) 'Who shall stand?': Ps. 76:7; 130:3-4 (with 1:5; 24:3).
+- (76) The meek and poor whom God's judgment saves: Ps. 76:9 (with 25:9, 13; 37:11; 72:4).
+- (76) The fear of the LORD among the nations and their gifts: Ps. 76:11-12; 68:29; 72:10.
+- (77) Remembering the Lord's works as the answer to lament (77:3, 6, 11; 74:2, 18, 22; 78:35, 42; 105; 106).
+- (77) The Exodus and the sea retold in the Psalms (77:13-20; 74:13-15; 78; 106; 114; 136).
+- (77) The flock and the Shepherd of Israel in the psalms of Asaph (77:20; 78:52; 79:13; 80:1).
+- (77) Joseph as a name for the people (77:15; 78:67; 80:1; 81:5).
+- (78) The shepherd: 78:52, 70–72, with 77:20 and 80:1 (links Ezekiel's One Shepherd page).
+- (78) Remembering and forgetting God's works: 78:7, 11, 35, 39, 42, with 77:11; 105:5; 106:7, 13, 21.
+- (78) Israel's history retold as teaching: 78; 105; 106; 135; 136, with Deut. 32, 1 Cor. 10 and 1 Ne. 17.
+- (78) Ephraim and Judah: 78:9, 67–68; 60:7; 80:1–2, with 1 Chr. 5:1–2.
+- (78) God as rock and redeemer: 78:35, with 1 Cor. 10:4.
+- (78) The ark as God's strength: 78:61; 132:8.
+- (79) God's name as the ground of a plea: 79:9; 23:3; 25:11; 115:1-2 (with Ezek. 36:22).
+- (79) Israel as the flock in the psalms of Asaph: 74:1; 77:20; 78:52, 70-72; 79:13; 80:1.
+- (79) 'How long ... for ever': 13:1; 74:10; 79:5; 80:4; 89:46.
+- (79) The fall of Jerusalem in the Psalter: 74; 79; 137 (with Lamentations).
+- (79) 'Where is their God?': 42:3; 79:10; 115:2.
+- (80) The shepherd of Israel (80:1, with 23:1; 78:52, 70-72; 79:13; 95:7; 100:3).
+- (80) The shining face and the priests' blessing asked for in prayer (80:3, 7, 19; 4:6; 31:16; 44:3; 67:1).
+- (80) "How long" in the people's laments (80:4; 74:10; 79:5; 13:1-2; 89:46; 90:13).
+- (80) Israel as the Lord's vine or planting (80:8-16; 44:2; with Isa. 5; Jer. 2:21; Ezek. 15, 17; Matt. 21:33).
+- (80) Joseph and the northern tribes in the psalms of Asaph (77:15; 78:9, 67; 80:1-2; 81:5).
+- (80) "Turn us" and "return" as prayer (80:3, 7, 14, 19; 85:4; 90:13; Lam. 5:21).
