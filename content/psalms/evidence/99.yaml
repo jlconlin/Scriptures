@@ -1,0 +1,351 @@
+chapter: 99
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'Psalm 99 has no title in the Church’s edition; the page opens with the chapter heading and verse 1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/99?lang=eng'
+    quote: 'The Lord reigneth; let the people tremble'
+  - where: setting
+    claim: 'The ancient Greek translation gives the psalm the title “A Psalm of David”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/99.htm'
+    quote: 'A Psalm of David. The Lord reigns'
+  - where: setting
+    claim: 'Psalm 99 is the third of three psalms (93, 97, 99) that open with “The LORD reigneth”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/99.htm'
+    quote: 'This is the third of the Psalms (Psalm 93:1-5, Psalm 97:1-12, Psalm 99:1-9) which begin with the watchword'
+  - where: setting
+    claim: 'Psalm 97 opens with the same cry'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/97?lang=eng'
+    quote: 'The Lord reigneth; let the earth rejoice'
+  - where: setting
+    claim: 'The psalm’s last part looks back to the time before Israel’s kings'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/99.htm'
+    quote: 'The vision of the third Sanctus looks into the history of the olden time prior to the kings.'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'One older reading: the psalm has three parts, each closing with “holy,” an echo of the seraphim’s threefold cry'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/99.htm'
+    quote: 'the third, more full-toned, with אלחנוּ קדושׁ ה - an earthly echo of the trisagion of the seraphim'
+  - where: thread
+    claim: 'The same reading: the trembling of verse 1 is one that leads to salvation'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/99.htm'
+    quote: 'What is meant is not a trembling that is the absolute opposite of joy, but a trembling that leads on to salvation.'
+  - where: thread
+    claim: 'The same reading: the God of Israel is holy in love and in wrath'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/99.htm'
+    quote: 'The God of Israel is holy in love and in wrath, as He Himself unfolds His Name in Exodus 34:6-7.'
+
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: 'A modern translation: “The Lord is king; let the peoples tremble”; “enthroned upon the cherubim”; “awesome name”; “Holy is he”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2099&version=NRSVUE'
+    quote: 'The Lord is king; let the peoples tremble!'
+  - where: section 2 plain
+    claim: 'A modern translation addresses verse 4 to the LORD as King and has “justice” for “judgment”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2099&version=NRSVUE'
+    quote: 'Mighty King, lover of justice'
+  - where: section 3 plain
+    claim: 'A modern translation of verses 7–8: “pillar of cloud,” “decrees,” “a forgiving God,” “wrongdoings”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2099&version=NRSVUE'
+    quote: 'you were a forgiving God to them'
+
+  # ---------- note 99:1 tremble ----------
+  - where: 'note 99:1 “The peoples who tremble”'
+    claim: 'The noun in verse 1 is plural (H5971, “peoples”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עַמִּ֑ים'
+  - where: 'note 99:1 “The peoples who tremble”'
+    claim: 'A modern translation has the plural, and “quake” for the earth'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2099&version=NRSVUE'
+    quote: 'let the peoples tremble!'
+  - where: 'note 99:1 “The peoples who tremble”'
+    claim: 'A modern translation: “let the earth quake!”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2099&version=NRSVUE'
+    quote: 'let the earth quake!'
+  - where: 'note 99:1 “The peoples who tremble”'
+    claim: 'Psalm 97 follows the cry with rejoicing'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/97?lang=eng'
+    quote: 'The Lord reigneth; let the earth rejoice'
+
+  # ---------- note 99:1 cherubim ----------
+  - where: 'note 99:1 “The throne above the ark”'
+    claim: 'A modern translation: “He sits enthroned upon the cherubim”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2099&version=NRSVUE'
+    quote: 'He sits enthroned upon the cherubim'
+  - where: 'note 99:1 “The throne above the ark”'
+    claim: 'The ark is described by this phrase in 1 Samuel 4:4, when it was fetched from Shiloh'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/4?lang=eng'
+    quote: 'bring from thence the ark of the covenant of the Lord of hosts, which dwelleth between the cherubims'
+
+  # ---------- note 99:3 holy ----------
+  - where: 'note 99:3 “Three times holy”'
+    claim: 'The Hebrew of the refrain in verses 3 and 5 is the same two words (H6918 and the pronoun)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קָד֥וֹשׁ'
+  - where: 'note 99:3 “Three times holy”'
+    claim: 'A modern translation prints both refrains as “Holy is he!”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2099&version=NRSVUE'
+    quote: 'Holy is he!'
+  - where: 'note 99:3 “Three times holy”'
+    claim: 'The word holy came to refer to moral character'
+    key: bd-holiness
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/holiness?lang=eng'
+    quote: 'The word holy therefore came to refer to moral character'
+  - where: 'note 99:3 “Three times holy”'
+    claim: 'Things and places were holy that were set apart; what distinguished Jehovah was His personal character'
+    key: bd-holiness
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/holiness?lang=eng'
+    quote: 'what distinguished Jehovah from the gods of the heathen was His personal character'
+
+
+  # ---------- note 99:4 king ----------
+  - where: 'note 99:4 “Which king loves judgment”'
+    claim: 'The Hebrew begins “And a king’s strength”; a modern translation marks its own rendering as a correction'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2099&version=NRSVUE'
+    quote: '99.4 Cn: Heb And a king’s strength'
+  - where: 'note 99:4 “Which king loves judgment”'
+    claim: 'A modern translation addresses the line to the LORD'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2099&version=NRSVUE'
+    quote: 'Mighty King, lover of justice'
+
+
+  # ---------- note 99:5 footstool ----------
+  - where: 'note 99:5 “The footstool and the holy hill”'
+    claim: 'The Hebrew word for footstool is never literal'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1916.htm'
+    quote: 'footstool, never literal'
+  - where: 'note 99:5 “The footstool and the holy hill”'
+    claim: 'In Psalm 99:5 and 132:7 it is perhaps the ark'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1916.htm'
+    quote: 'or perhaps of ark (as place on which God rests) Psalm 99:5; Psalm 132:7'
+  - where: 'note 99:5 “The footstool and the holy hill”'
+    claim: 'David speaks of the ark and the footstool together'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/28?lang=eng'
+    quote: 'an house of rest for the ark of the covenant of the Lord, and for the footstool of our God'
+  - where: 'note 99:5 “The footstool and the holy hill”'
+    claim: 'Psalm 132:7–8 has the same summons, with the ark in the next verse'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/132?lang=eng'
+    quote: 'We will go into his tabernacles: we will worship at his footstool.'
+  - where: 'note 99:5 “The footstool and the holy hill”'
+    claim: 'A modern translation of verse 9: “his holy mountain”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2099&version=NRSVUE'
+    quote: 'worship at his holy mountain'
+  - where: 'note 99:5 “The footstool and the holy hill”'
+    claim: 'Scripture speaks of the temple as the hill or mountain of the Lord, and Psalm 99:9 is cited as an instance'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'Many biblical passages refer to the temple not as built on a hill or mountain, but as the hill or mountain of the Lord.'
+  - where: 'note 99:5 “The footstool and the holy hill”'
+    claim: 'The same paragraph cites Psalm 99:9'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'And Psalm 99:9 encourages all of righteous Israel to “exalt the Lord our God, and worship at his holy hill.”'
+
+  # ---------- note 99:6 three ----------
+  - where: 'note 99:6 “Three who called and were answered”'
+    claim: 'Moses did priestly acts before the priests were consecrated: the blood at Sinai (Exodus 24) and the consecration of the priests (Leviticus 8)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/99.htm'
+    quote: 'he twice performed priestly acts which laid as it were a foundation for all times to come'
+  - where: 'note 99:6 “Three who called and were answered”'
+    claim: 'The same commentary applies Psalm 106:23 to Moses as a man of prayer, and reads Samuel chiefly as the man mighty in prayer'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/99.htm'
+    quote: 'placed himself in the breach, and rescued them from the wrath of God and from destruction (Psalm 106:23; Exodus 32:30-32'
+  - where: 'note 99:6 “Three who called and were answered”'
+    claim: 'Aaron made atonement for the people in the plague after Korah’s rebellion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/16?lang=eng'
+    quote: 'he put on incense, and made an atonement for the people'
+  - where: 'note 99:6 “Three who called and were answered”'
+    claim: 'Moses sprinkled the blood of the covenant at Sinai'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/24?lang=eng'
+    quote: 'And Moses took the blood, and sprinkled it on the people'
+  - where: 'note 99:6 “Three who called and were answered”'
+    claim: 'Moses consecrated Aaron and his sons'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/8?lang=eng'
+    quote: 'and sanctified Aaron, and his garments, and his sons'
+  - where: 'note 99:6 “Three who called and were answered”'
+    claim: 'Moses received the priesthood under the hand of Jethro'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/84?lang=eng'
+    quote: 'according to the Holy Priesthood which he received under the hand of his father-in-law, Jethro'
+  - where: 'note 99:6 “Three who called and were answered”'
+    claim: 'Psalm 106 remembers Moses standing in the breach'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/106?lang=eng'
+    quote: 'had not Moses his chosen stood before him in the breach, to turn away his wrath'
+  - where: 'note 99:6 “Three who called and were answered”'
+    claim: 'Samuel cried to the LORD for Israel against the Philistines and was heard'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/7?lang=eng'
+    quote: 'Samuel cried unto the Lord for Israel; and the Lord heard him'
+  - where: 'note 99:6 “Three who called and were answered”'
+    claim: 'Samuel would not cease to pray for the people'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/12?lang=eng'
+    quote: 'God forbid that I should sin against the Lord in ceasing to pray for you'
+  - where: 'note 99:6 “Three who called and were answered”'
+    claim: 'Jeremiah names Moses and Samuel together as those who stood before the LORD'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/15?lang=eng'
+    quote: 'Though Moses and Samuel stood before me, yet my mind could not be toward this people'
+
+  # ---------- note 99:7 cloud ----------
+  - where: 'note 99:7 “Who was spoken to from the cloud”'
+    claim: 'The LORD talked with Moses from the cloudy pillar at the tabernacle door, and all the people saw and worshipped'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/33?lang=eng'
+    quote: 'the cloudy pillar descended, and stood at the door of the tabernacle, and the Lord talked with Moses'
+  - where: 'note 99:7 “Who was spoken to from the cloud”'
+    claim: 'Aaron and Miriam were once called when the LORD came down in the pillar'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/12?lang=eng'
+    quote: 'And the Lord came down in the pillar of the cloud, and stood in the door of the tabernacle, and called Aaron and Miriam'
+  - where: 'note 99:7 “Who was spoken to from the cloud”'
+    claim: 'One older reading: only Moses, with one exception, is spoken to from the pillar'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/99.htm'
+    quote: 'it is always Moses only, not Aaron, much less Samuel, with whom God negotiates in such a manner'
+  - where: 'note 99:7 “Who was spoken to from the cloud”'
+    claim: 'That reading takes “them” as the whole people'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/99.htm'
+    quote: 'refers to the whole people'
+  - where: 'note 99:7 “Who was spoken to from the cloud”'
+    claim: 'The reading speaks of the nation of priests and praying ones to which the three belong'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/99.htm'
+    quote: 'of the twelve-tribe nation of priests and praying ones to which they belong'
+  - where: 'note 99:7 “Who was spoken to from the cloud”'
+    claim: 'If verse 8 meant only the three, its words would be too strong'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/99.htm'
+    quote: 'referred to their sins of infirmity, appear to be too strong expressions'
+  - where: 'note 99:7 “Who was spoken to from the cloud”'
+    claim: 'The reading takes verse 8 of the wilderness generation'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/99.htm'
+    quote: 'The calling to mind of the generation of the desert, which fell short of the promise'
+  - where: 'note 99:7 “Who was spoken to from the cloud”'
+    claim: 'The commentary grants that nothing marks the passage from the three to the people'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/99.htm'
+    quote: 'since there is nothing to indicate the transition from them to the people'
+
+  # ---------- note 99:8 forgiven ----------
+  - where: 'note 99:8 “Forgiven, and still held to account”'
+    claim: 'The Hebrew has two participles: forgiving (H5375) and avenging (H5358)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נֹ֭שֵׂא'
+  - where: 'note 99:8 “Forgiven, and still held to account”'
+    claim: 'A modern translation of the two titles'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2099&version=NRSVUE'
+    quote: 'you were a forgiving God to them'
+  - where: 'note 99:8 “Forgiven, and still held to account”'
+    claim: 'A modern translation: “but an avenger of their wrongdoings”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2099&version=NRSVUE'
+    quote: 'but an avenger of their wrongdoings'
+  - where: 'note 99:8 “Forgiven, and still held to account”'
+    claim: 'The noun behind “inventions” (H5949) means deeds, and of people usually evil deeds'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5949.htm'
+    quote: 'usually practices = evil deeds'
+  - where: 'note 99:8 “Forgiven, and still held to account”'
+    claim: 'The lexicon: God takes vengeance on the doings of His own people in Psalm 99:8'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5358.htm'
+    quote: 'on their doings (his people'
+  - where: 'note 99:8 “Forgiven, and still held to account”'
+    claim: 'Exodus 34:7 has the same participle (H5375), translated “forgiving”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'נֹשֵׂ֥א'
+  - where: 'note 99:8 “Forgiven, and still held to account”'
+    claim: 'The LORD’s proclamation has both sides'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/34?lang=eng'
+    quote: 'forgiving iniquity and transgression and sin, and that will by no means clear the guilty'
+  - where: 'note 99:8 “Forgiven, and still held to account”'
+    claim: 'Moses prays in the words of the proclamation after the spies’ report'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/14?lang=eng'
+    quote: 'The Lord is longsuffering, and of great mercy, forgiving iniquity and transgression, and by no means clearing the guilty'
+  - where: 'note 99:8 “Forgiven, and still held to account”'
+    claim: 'The LORD pardons, and the generation does not see the land'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/14?lang=eng'
+    quote: 'I have pardoned according to thy word'
+
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: christ
+    claim: 'Paul taught that Christ was the Jehovah of the Old Testament, in 1 Corinthians 10:1–4'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'The Apostle Paul taught that Christ was the Jehovah of the Old Testament (Ex. 17:6; 1 Cor. 10:1–4).'
+  - where: christ
+    claim: 'The Church’s heading to 1 Corinthians 10'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/10?lang=eng'
+    quote: 'Christ is the God of Israel and the spiritual Rock that guided them'
+  - where: christ
+    claim: 'The song of Moses and of the Lamb in Revelation 15'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/15?lang=eng'
+    quote: 'for thou only art holy: for all nations shall come and worship before thee'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'Moses prays the proclamation of Exodus 34 back to the LORD in Numbers 14:18'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/14?lang=eng'
+    quote: 'The Lord is longsuffering, and of great mercy, forgiving iniquity and transgression'
+  - where: explore
+    claim: 'Moses turns the LORD from destroying the people after the golden calf'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/32?lang=eng'
+    quote: 'And the Lord repented of the evil which he thought to do unto his people.'
+  - where: parallels
+    claim: 'Revelation 15:3 names the song of Moses and of the Lamb'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/15?lang=eng'
+    quote: 'And they sing the song of Moses the servant of God, and the song of the Lamb'
