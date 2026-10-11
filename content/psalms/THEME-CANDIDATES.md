@@ -431,3 +431,68 @@ The coordinator's leads from the brief's research. Each would have to show an ar
 - (80) Israel as the Lord's vine or planting (80:8-16; 44:2; with Isa. 5; Jer. 2:21; Ezek. 15, 17; Matt. 21:33).
 - (80) Joseph and the northern tribes in the psalms of Asaph (77:15; 78:9, 67; 80:1-2; 81:5).
 - (80) "Turn us" and "return" as prayer (80:3, 7, 14, 19; 85:4; 90:13; Lam. 5:21).
+
+## Reported by chapters 81–93 (not yet sorted)
+
+- (81) God speaking in the first person inside a psalm at worship (Ps. 50:7-23; 81:6-16; 95:8-11).
+- (81) The exodus retold in the psalms of Asaph, with "Joseph" for the nation (77:15-20; 78; 80:1, 8; 81:5-10).
+- (81) Meribah (81:7; 95:8-9; 106:32).
+- (81) Being given up to one's own way as judgment (81:12; 78:29-31; 106:15; Rom. 1:24).
+- (83) God's silence, and prayer that He not be still (83:1; with 28:1, 35:22, 50:3, 109:1; Isa. 62:6-7).
+- (83) Punishment 'that they may know' (83:16-18; with 59:13, 9:20).
+- (83) The cursing psalms (83:9-17).
+- (83) The name of God as the psalm's goal (83:4, 16, 18).
+- (83) The divine names in the Asaph psalms: 'God' for fifteen verses, the divine name only at the end (83:16, 18).
+- (84) Longing for the sanctuary / ascending the hill of the Lord (84:1-2, 10; with 27:4; 42:1-4; 43:3-4; 63:1-2; 122).
+- (84) 'Blessed' (ashre) sayings (84:4, 5, 12; with 1:1).
+- (84) Appearing before God and seeing His face (84:7; 42:2; 17:15; 63:2; with Ex. 23:17 and Deut. 16:16).
+- (84) The psalms of the sons of Korah and the temple (42-49; 84-85; 87-88).
+- (84) God as light and sun (84:11; 27:1; 36:9; 43:3; with Mal. 4:2 and 3 Ne. 25:2).
+- (84) Desert turned to springs on the way to Zion (84:6; 107:35; with Isa. 35:6-8; 41:18).
+- (84) The LORD of hosts as the name of the temple's King (24:10; 46:7, 11; 48:8; 84:1, 3, 8, 12).
+- (84) The Lord's anointed in the Psalms (84:9; 2:2; 89; 132).
+- (85) 'Turn' (shub) as prayer, God turning and turning His people: 85:1, 3, 4, 6, 8; 80:3, 7, 19; 126:1, 4; 14:7.
+- (85) Mercy and truth (hesed and emet) as a pair and as God's messengers: 85:10; 43:3; 57:3; 61:7; 89:14 (already on the list).
+- (85) Righteousness from heaven and truth from the earth: 85:11; Isa. 45:8; Moses 7:62, ending in the Book of Mormon's witness of Christ.
+- (85) The land yielding its increase as covenant blessing: 85:12; 67:6; 72:3, 16; Lev. 26:4.
+- (85) The glory dwelling with Israel: 85:9; 26:8; 63:2.
+- (86) The LORD's description of Himself at Sinai (Ex. 34:6) as the ground of prayer: 86:5, 15; 103:8; 145:8; with Num. 14:18 and Joel 2:13.
+- (86) All nations coming to worship: 86:9; 22:27; 72:11, 17; with Rev. 15:4.
+- (86) 'None like thee among the gods' and Israel's song at the sea: 86:8; 35:10; 77:13; 89:6-8.
+- (86) The psalmist as the Lord's servant: 86:2, 4, 16; 116:16.
+- (86) Psalms that share lines with other psalms: 86; 70 and 40; 108.
+- (87) The nations brought into the covenant people, here as native-born citizens of Zion: 87:4-6 (with 22:27; 47:9; 68:31; 86:9).
+- (87) Zion, the city of God, founded and established by Him: 87:1-3, 5 (with 46:4-5; 48:8; 78:68; 132:13).
+- (87) The LORD's book or register of the living: 87:6 (with 56:8; 69:28; 139:16).
+- (87) Springs, river and fountain in God's city: 87:7 (with 36:8-9; 46:4; 65:9; 84:6).
+- (88) Sheol and the dead who cannot praise: 88:3-6, 10-12 (with 6:5; 30:9; 115:17), and what later scripture adds.
+- (88) The hidden face of God: 88:14 (with 13:1; 22:24; 27:9; 44:24).
+- (88) Laments that do not turn, or turn without saying why: 88 beside 13 and 22.
+- (88) 'Thy waves', water as God's own affliction: 88:7, 17 with 42:7 and Jonah 2:3.
+- (89) The covenant with David and its apparent failure: 89:3-4, 19-37, 38-51, with 2:7; 18:50; 72; 132:11-12 (already listed as the king from Psalm 2 to Psalm 110).
+- (89) Mercy and faithfulness as a pair (hesed and emunah): 89:1-2, 14, 24, 33, 49; leads at 36:5; 85:10; 92:2; 98:3; 100:5.
+- (89) The council of the holy ones: 89:5-7 with 82:1 (already listed).
+- (89) The sea and the monster subdued: 89:9-10 with 65:7; 74:13-14; 93:3-4; 104:26.
+- (89) "How long, LORD?": 89:46 with 6:3; 13:1; 74:10; 79:5; 90:13.
+- (89) Laments that end without an answer: 89 with 88.
+- (89) The book-ending doxologies: 89:52 (already listed).
+- (89) The Firstborn: 89:27 with Ex. 4:22; Col. 1:18; Rev. 1:5.
+- (90) Moses in Book Four: 90 (title); 99:6; 103:7; 105:26; 106:16, 23, 32 (only 90 read here), with Ex. 32 and Num. 14.
+- (90) 'How long?': 6:3; 13:1; 74:10; 79:5; 80:4; 89:46; 90:13; 94:3, with 2 Pet. 3:8-9.
+- (90) The shortness of life: 39:4-6; 89:47-48; 90:3-12; 103:14-17; 144:4, with Isa. 40:6-8.
+- (90) God as dwelling place and refuge: 71:3; 90:1; 91:1-9, with Deut. 33:27.
+- (90) The seam between Book Three and Book Four: 89:38-51 to 90.
+- (91) The shadow of His wings: 91:4 (with 17:8; 36:7; 57:1; 61:4; 63:7).
+- (91) The LORD as refuge and dwelling place: 91:1-2, 9; 90:1; 71:3.
+- (91) The LORD speaking in His own voice inside a psalm: 91:14-16 (with 12:5; 50; 81; 95).
+- (91) Angels as the LORD's guard: 91:11-12; 34:7; 103:20.
+- (91) Psalms quoted in the temptation and Passion narratives: 91:11-12 (Matt. 4:6).
+- (92) The prosperity of the wicked answered by time: 92:6-7 with 37:35-36; 73:3, 17-22; 90:5-6.
+- (92) The righteous as trees planted in the house of the LORD: 1:3; 52:8; 92:12-14.
+- (92) Psalm 90's petitions and the psalms after it: 90:14-16 with 92:2, 4 (shared Hebrew words); 91:8 with 92:11. Needs a source or a theme page's freedom to say more than shared words.
+- (92) The song of Moses in the Psalms: Deut. 32:4 in 92:15 (the Rock; also 18:2, 31; 78:35; 95:1).
+- (92) The Sabbath and the Lord's works: the title of 92 and 92:4, with Ex. 20:11, Deut. 5:15 and D&C 59.
+- (93) 'The LORD reigneth' (93:1; 96:10; 97:1; 99:1; 47:8; Isa. 52:7; Rev. 11:17; 19:6; Mosiah 3:5): 93:1 and 96:10 share five Hebrew words about the world; Isa. 52:7 shares the verb behind 'becometh' in 93:5.
+- (93) The waters under the LORD's rule (29:3, 10; 46:2-3; 65:7; 74:13-14; 89:9; 93:3-4; 107:29): the word for 'majesty' in 93:1 is the sea's 'raging' in 89:9.
+- (93) 'The voice of many waters': the floods' voice in 93:3-4; the Lord's own voice in Ezek. 43:2, Rev. 1:15, D&C 110:3 and 133:22; Rev. 19:6.
+- (93) Holiness and the LORD's house (93:5, with 15; 24:3-4; 65:4).
