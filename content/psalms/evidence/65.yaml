@@ -1,0 +1,475 @@
+chapter: 65
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ/דָוִ֥ד'
+  - where: setting
+    claim: 'Psalm 65 is listed among the psalms of praise, which often begin with a call to gather and praise the Lord'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'These psalms often begin with a command or call to Israel to gather as a community (most importantly, at the temple) and praise the Lord: 8, 19, 29, 33, 47, 65, 66'
+  - where: setting
+    claim: 'The psalms of praise are now thought to belong to national festival gatherings'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'These psalms, once thought of as synagogue hymns, are now thought to mark times of national festival gatherings'
+  - where: setting
+    claim: 'One older reading: the speakers are the congregation gathered at the sanctuary on Zion'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/65.htm'
+    quote: 'The congregation gathered around the sanctuary on Zion praises its God'
+  - where: setting
+    claim: 'The same reading: the harvest is in prospect and not yet gathered'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/65.htm'
+    quote: 'The harvest itself, as follows from v. 14b, is not yet housed.'
+  - where: setting
+    claim: 'The same reading sets Passover and Pentecost, the feasts at the beginning of harvest, against Tabernacles, the harvest thanksgiving; only if verse 10 were a prayer for rain would the psalm stand at Tabernacles'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/65.htm'
+    quote: 'the standpoint would be not about the time of the Passover and Pentecost, both festivals belonging to the beginning of the harvest, but about the time of the feast of Tabernacles, the festival of thanksgiving for the harvest'
+  - where: setting
+    claim: 'The same reading rejects the Tabernacles standpoint: verses 9–10 look back and are not a prayer'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/65.htm'
+    quote: 'But there is nothing to indicate that in Psalm 65:11 the retrospect changes into a looking forward.'
+  - where: setting
+    claim: 'Rain in the land begins in October'
+    key: bd-rain
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/rain?lang=eng'
+    quote: 'In Palestine rain begins to fall in October and continues in November and early December'
+  - where: setting
+    claim: 'The latter rain comes in March and April'
+    key: bd-rain
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/rain?lang=eng'
+    quote: 'The biblical “latter rain” comes in March and April.'
+  - where: setting
+    claim: 'The Gospels tell of Jesus stilling the sea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/8?lang=eng'
+    quote: 'Then he arose, and rebuked the winds and the sea; and there was a great calm.'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'One older reading: forgiveness of sin is the first prayer God answers, which is why the psalm begins there'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/65.htm'
+    quote: 'Before all else it is the prayer for the forgiveness of sin which He graciously answers.'
+  - where: thread
+    claim: 'One older reading: God’s rule in history and His rule in nature reflect each other in this psalm'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/65.htm'
+    quote: 'His rule in human history and His rule in nature are, to the church, reflected the one in the other.'
+  - where: thread
+    claim: 'The same reading: in nature as in history the congregation sees the hand of the one who answers prayer and expiates sins'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/65.htm'
+    quote: 'it sees the almighty and bountiful hand of Him who answers prayer and expiates sins'
+  - where: thread
+    claim: 'One participle (“stilling”) governs the seas, their waves and the peoples in verse 7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מַשְׁבִּ֤יחַ'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: 'The verb of verse 3 is “atone”; God is its subject'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: '2 cover over, atone for sin, without sacrifice :'
+  - where: section 1 plain
+    claim: '“Bring near” for “causest to approach”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2065&version=NRSVUE'
+    quote: '4 Happy are those whom you choose and bring near'
+  - where: section 2 plain
+    claim: '“Awesome deeds” for “terrible things”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2065&version=NRSVUE'
+    quote: '5 By awesome deeds you answer us with deliverance,'
+  - where: section 2 plain
+    claim: '“The farthest seas” for “them that are afar off upon the sea”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2065&version=NRSVUE'
+    quote: 'and of the farthest seas.'
+  - where: section 2 plain
+    claim: '“In awe at your signs” for “afraid at thy tokens”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2065&version=NRSVUE'
+    quote: '8 Those who live at earth’s farthest bounds are awed by your signs;'
+  - where: section 2 plain
+    claim: 'The “outgoings of the morning and evening” are the east and the west'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4161.htm'
+    quote: 'i.e. the east and the west'
+  - where: section 3 plain
+    claim: '“Grain” for “corn,” and the land as what is prepared'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2065&version=NRSVUE'
+    quote: 'you provide the people with grain,'
+  - where: section 3 plain
+    claim: 'Furrows watered and ridges settled (the King James has the two nouns the other way round)'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2065&version=NRSVUE'
+    quote: '10 You water its furrows abundantly,'
+  - where: section 3 plain
+    claim: '“Channel” for “river”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6388.htm'
+    quote: '(cleft) channel, (artificial) canal'
+  - where: section 3 plain
+    claim: '“Wagon tracks” for “paths”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2065&version=NRSVUE'
+    quote: 'your wagon tracks overflow with richness.'
+  - where: section 3 plain
+    claim: 'The hills put on joy as a garment (“rejoice on every side”)'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2065&version=NRSVUE'
+    quote: 'the hills gird themselves with joy;'
+
+  # ---------- note 65:1 ----------
+  - where: 'note 65:1 “Praise that waits, or praise that is due”'
+    claim: 'The second Hebrew word of the verse is the noun dumiyyah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'דֻֽמִיָּ֬ה'
+  - where: 'note 65:1 “Praise that waits, or praise that is due”'
+    claim: 'The noun means silence, still waiting, repose'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1747.htm'
+    quote: 'noun feminine silence, still waiting, repose'
+  - where: 'note 65:1 “Praise that waits, or praise that is due”'
+    claim: 'The lexicon lists Psalm 62:1 (Hebrew 62:2) under this word as the text stands (it adds that another word should probably be read there), and gives Psalm 65:1 (Hebrew 65:2) the same sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1747.htm'
+    quote: 'Psalm 62:2 still waiting, resignation'
+  - where: 'note 65:1 “Praise that waits, or praise that is due”'
+    claim: 'The lexicon also records the other reading (“is meet”), with the Greek, for this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1747.htm'
+    quote: 'is meet ?'
+  - where: 'note 65:1 “Praise that waits, or praise that is due”'
+    claim: 'The Greek has “Praise becomes thee,” and spells the place Sion'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/65.htm'
+    quote: 'Praise becomes thee, O God, in Sion; and to thee shall the vow be performed.'
+  - where: 'note 65:1 “Praise that waits, or praise that is due”'
+    claim: 'A modern translation has “Praise is due to you”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2065&version=NRSVUE'
+    quote: '1 Praise is due to you,'
+  - where: 'note 65:1 “Praise that waits, or praise that is due”'
+    claim: 'The Hebrew place name is the usual word Zion'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/צִיּ֑וֹן'
+
+  # ---------- note 65:3 ----------
+  - where: 'note 65:3 “God Himself atones”'
+    claim: 'The verb of the verse is kaphar, second person, with God addressed'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תְכַפְּרֵֽ/ם'
+  - where: 'note 65:3 “God Himself atones”'
+    claim: 'The Hebrew has a separate pronoun “thou” before the verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַתָּ֥ה'
+  - where: 'note 65:3 “God Himself atones”'
+    claim: 'The same verb is the priest’s atonement on the Day of Atonement (Leviticus 16:30)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'יְכַפֵּ֥ר'
+  - where: 'note 65:3 “God Himself atones”'
+    claim: 'The lexicon lists the verb’s use for atonement by the priest in the Day of Atonement chapter'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'and the priest shall make atonement Leviticus 16:32'
+  - where: 'note 65:3 “God Himself atones”'
+    claim: 'Psalm 65:3 (Hebrew 65:4) is listed under atonement without sacrifice, with God as subject and the sin as object'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'with accusative of the sin Psalm 65:4; Psalm 78:38'
+  - where: 'note 65:3 “God Himself atones”'
+    claim: 'The lexicon’s summary of those passages: God Himself provides the atonement'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'It is conceived that God in his sovereignty may himself provide an atonement or covering for men and their sins which could not be provided by men.'
+  - where: 'note 65:3 “God Himself atones”'
+    claim: 'Leviticus 16:30 on the Day of Atonement'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/16?lang=eng'
+    quote: 'For on that day shall the priest make an atonement for you, to cleanse you, that ye may be clean from all your sins before the Lord.'
+
+  # ---------- note 65:4 ----------
+  - where: 'note 65:4 “Chosen and brought near”'
+    claim: 'The verse has the verb bachar (choose)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּֽבְחַ֣ר'
+  - where: 'note 65:4 “Chosen and brought near”'
+    claim: 'The verse has the root qarab (bring near), in the intensive stem'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וּ/תְקָרֵב֮'
+  - where: 'note 65:4 “Chosen and brought near”'
+    claim: 'The form in Psalm 65:4 (Hebrew 65:5) means cause to approach, bring near'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7126.htm'
+    quote: 'cause to approach, bring near:'
+  - where: 'note 65:4 “Chosen and brought near”'
+    claim: 'One older reading: the one chosen and brought near is the congregation at Zion'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/65.htm'
+    quote: 'The congregation gathered around Zion is esteemed worthy of this distinction among the nations of the earth'
+
+  # ---------- note 65:5 ----------
+  - where: 'note 65:5 “Terrible means awe-inspiring”'
+    claim: 'The first word of the verse is a form of the verb yare, to fear'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נ֤וֹרָא֨וֹת'
+  - where: 'note 65:5 “Terrible means awe-inspiring”'
+    claim: 'In this form, of God and His doings, the verb means to cause astonishment and awe'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3372.htm'
+    quote: '2 cause astonishment and awe: of Yahweh himself'
+  - where: 'note 65:5 “Terrible means awe-inspiring”'
+    claim: 'The lexicon lists Psalm 65:5 (Hebrew 65:6) under this sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3372.htm'
+    quote: 'adverbially in Psalm 65:6; Psalm 139:14'
+  - where: 'note 65:5 “Terrible means awe-inspiring”'
+    claim: 'A modern translation: awesome deeds'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2065&version=NRSVUE'
+    quote: '5 By awesome deeds you answer us with deliverance,'
+  - where: 'note 65:5 “Terrible means awe-inspiring”'
+    claim: 'The verb of verse 8 (“are afraid”) is the same verb, and a modern translation has “awed by your signs”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2065&version=NRSVUE'
+    quote: '8 Those who live at earth’s farthest bounds are awed by your signs;'
+  - where: 'note 65:5 “Terrible means awe-inspiring”'
+    claim: 'Verse 8 opens with the same verb yare'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַ/יִּ֤ירְא֨וּ'
+
+  # ---------- note 65:7 (christ) ----------
+  - where: 'note 65:7 “The one who stills the sea”'
+    claim: 'Jesus rebukes the winds and the sea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/8?lang=eng'
+    quote: 'Then he arose, and rebuked the winds and the sea; and there was a great calm.'
+  - where: 'note 65:7 “The one who stills the sea”'
+    claim: 'The disciples’ question'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/8?lang=eng'
+    quote: 'What manner of man is this, that even the winds and the sea obey him!'
+  - where: 'note 65:7 “The one who stills the sea”'
+    claim: 'In Mark Jesus speaks to the sea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/mark/4?lang=eng'
+    quote: 'And he arose, and rebuked the wind, and said unto the sea, Peace, be still.'
+  - where: 'note 65:7 “The one who stills the sea”'
+    claim: 'The verb for stilling in Psalm 65:7 (Hebrew 65:8)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7623.htm'
+    quote: 'Psalm 65:8 stilling the roar of the seas.'
+  - where: 'note 65:7 “The one who stills the sea”'
+    claim: 'The same verb, in this sense, is used in the Psalms only once more, of the waves in Psalm 89:9 (Hebrew 89:10)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7623.htm'
+    quote: 'Psalm 89:10 thou stillest them, i.e. waves'
+  - where: 'note 65:7 “The one who stills the sea”'
+    claim: 'Jehovah is the name of the God of Israel'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'The covenant or proper name of the God of Israel.'
+  - where: 'note 65:7 “The one who stills the sea”'
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+
+  # ---------- note 65:7 (symbol) ----------
+  - where: 'note 65:7 “The sea and the nations”'
+    claim: 'One participle (“stilling”) opens the verse and governs its three objects'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מַשְׁבִּ֤יחַ'
+  - where: 'note 65:7 “The sea and the nations”'
+    claim: 'The last word of the verse is a plural noun, “peoples”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְאֻמִּֽים'
+  - where: 'note 65:7 “The sea and the nations”'
+    claim: 'A modern translation has the plural'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2065&version=NRSVUE'
+    quote: 'the tumult of the peoples.'
+  - where: 'note 65:7 “The sea and the nations”'
+    claim: 'Isaiah compares the nations to the roaring seas and says God will rebuke them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/17?lang=eng'
+    quote: 'Woe to the multitude of many people, which make a noise like the noise of the seas'
+  - where: 'note 65:7 “The sea and the nations”'
+    claim: 'One older reading joins the sea and the nations here and cites Isaiah 17:12–14'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/65.htm'
+    quote: 'The roaring of the billows and the wild tumult of the nations as a mass in the empire of the world, both are stilled by the threatening of the God of Israel (Isaiah 17:12-14).'
+
+  # ---------- note 65:9 ----------
+  - where: 'note 65:9 “God’s channel, full of water”'
+    claim: 'The Hebrew word is peleg'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פֶּ֣לֶג'
+  - where: 'note 65:9 “God’s channel, full of water”'
+    claim: 'The word means a channel or artificial canal'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6388.htm'
+    quote: '(cleft) channel, (artificial) canal'
+  - where: 'note 65:9 “God’s channel, full of water”'
+    claim: 'In this verse it is a poetic name for the channel of the rain; the lexicon compares Job 38:25'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6388.htm'
+    quote: 'poetic of channel for rain (compare Job 38:25)'
+  - where: 'note 65:9 “God’s channel, full of water”'
+    claim: 'The same word, plural, is in Psalm 1:3 and Psalm 46:4 (Hebrew 46:5), there of irrigating canals'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6388.htm'
+    quote: 'Psalm 46:5 (i.e. irrigating canals from river, metaphor)'
+  - where: 'note 65:9 “God’s channel, full of water”'
+    claim: 'Job’s picture of a watercourse divided for the rain'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/38?lang=eng'
+    quote: 'Who hath divided a watercourse for the overflowing of waters'
+
+  # ---------- note 65:11 ----------
+  - where: 'note 65:11 “Wagon tracks that drip with plenty”'
+    claim: 'The Hebrew word for “paths”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וּ֝/מַעְגָּלֶ֗י/ךָ'
+  - where: 'note 65:11 “Wagon tracks that drip with plenty”'
+    claim: 'The word is properly a wagon-track'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4570.htm'
+    quote: '2 track (properly wagon-track), only figurative:'
+  - where: 'note 65:11 “Wagon tracks that drip with plenty”'
+    claim: 'A modern translation prints “wagon tracks”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2065&version=NRSVUE'
+    quote: 'your wagon tracks overflow with richness.'
+  - where: 'note 65:11 “Wagon tracks that drip with plenty”'
+    claim: 'The word for “fatness”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1880.htm'
+    quote: '1 fatness, abundance, luxuriance, oil'
+  - where: 'note 65:11 “Wagon tracks that drip with plenty”'
+    claim: 'In Psalm 65:11 (Hebrew 65:12) it means abundance, fertility'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1880.htm'
+    quote: 'abundance, fertility Psalm 63:6'
+
+  - where: 'note 65:11 “Wagon tracks that drip with plenty”'
+    claim: 'The tracks are those God traverses; the figure is a laden cart dropping its contents'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4570.htm'
+    quote: 'figurative of richly-laden cart dropping its contents in its track.'
+
+  # ---------- note 65:13 ----------
+  - where: 'note 65:13 “Who shouts and sings”'
+    claim: 'A modern translation makes the meadows and valleys the singers'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2065&version=NRSVUE'
+    quote: '13 the meadows clothe themselves with flocks;'
+  - where: 'note 65:13 “Who shouts and sings”'
+    claim: 'The same translation’s last line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2065&version=NRSVUE'
+    quote: 'they shout and sing together for joy.'
+  - where: 'note 65:13 “Who shouts and sings”'
+    claim: 'The same translation’s middle line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2065&version=NRSVUE'
+    quote: 'the valleys deck themselves with grain;'
+  - where: 'note 65:13 “Who shouts and sings”'
+    claim: 'One older reading: people, not fields, are the subject'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/65.htm'
+    quote: 'The expression requires men to be the subject, and refers to men in the widest and most general sense.'
+  - where: 'note 65:13 “Who shouts and sings”'
+    claim: 'The same reading: the close of the psalm links with its beginning'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/65.htm'
+    quote: 'The closing words, locking themselves as it were with the beginning of the Psalm together'
+  - where: 'note 65:13 “Who shouts and sings”'
+    claim: 'The title has two words, mizmor (psalm) and shir (song); this is the second'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שִֽׁיר'
+  - where: 'note 65:13 “Who shouts and sings”'
+    claim: 'The title’s first term, mizmor'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִזְמ֗וֹר'
+  - where: 'note 65:13 “Who shouts and sings”'
+    claim: 'The last word of the psalm is the verb “they sing”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָשִֽׁירוּ'
+  - where: 'note 65:13 “Who shouts and sings”'
+    claim: 'The noun “song” is from the verb “to sing”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7892.htm'
+    quote: 'Word Origin: [from H7891'
+  - where: 'note 65:13 “Who shouts and sings”'
+    claim: 'Mizmor is a different word, the technical name for a psalm'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4210.htm'
+    quote: 'melody (technical designation of psalms;'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'Jehovah is the name of the God of Israel'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'The covenant or proper name of the God of Israel.'
+  - where: christ
+    claim: 'Jehovah is Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: christ
+    claim: 'The verb of verse 3 is the word for atonement, and God provides what men could not'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'It is conceived that God in his sovereignty may himself provide an atonement or covering for men and their sins which could not be provided by men.'
+  - where: christ
+    claim: 'The disciples’ question after the storm'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/8?lang=eng'
+    quote: 'What manner of man is this, that even the winds and the sea obey him!'
+
+  # ---------- explore / parallels ----------
+  - where: parallels
+    claim: 'Psalm 89:9 has the same verb for stilling'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/89?lang=eng'
+    quote: 'Thou rulest the raging of the sea: when the waves thereof arise, thou stillest them.'
+  - where: parallels
+    claim: 'Psalm 62:1, where the King James has “waiteth” for the same Hebrew word'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/62?lang=eng'
+    quote: 'Truly my soul waiteth upon God: from him cometh my salvation.'
+  - where: 'note 65:7 “The sea and the nations”'
+    claim: 'The same reading: the seas of the verse stand with the nations as a figure'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/65.htm'
+    quote: 'in connection with the seas he gives expression to this allegorical conjunction of thoughts'
