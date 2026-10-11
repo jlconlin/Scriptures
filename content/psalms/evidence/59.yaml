@@ -1,0 +1,442 @@
+chapter: 59
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David and places it when Saul sent men to watch his house and kill him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/59?lang=eng'
+    quote: 'To the chief Musician, Al-taschith, Michtam of David; when Saul sent, and they watched the house to kill him.'
+  - where: setting
+    claim: 'The story the title names: Saul sent messengers to David’s house to watch him and kill him in the morning'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/19?lang=eng'
+    quote: 'Saul also sent messengers unto David’s house, to watch him, and to slay him in the morning'
+  - where: setting
+    claim: 'Michal let David down through a window and he escaped'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/19?lang=eng'
+    quote: 'So Michal let David down through a window: and he went, and fled, and escaped.'
+  - where: setting
+    claim: 'One older reading: the title does not mean the psalm was composed on the night before the flight'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/59.htm'
+    quote: 'This inscription is no more intended to imply that the Psalm was composed on that night before the flight'
+  - where: setting
+    claim: 'On that reading a title of this kind gives the historical groundwork of the song in a general way'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/59.htm'
+    quote: 'only sets forth in a general way the historical groundwork of the song'
+  - where: setting
+    claim: 'Psalm 57’s title also sets its psalm in Saul’s pursuit of David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/57?lang=eng'
+    quote: 'To the chief Musician, Al-taschith, Michtam of David, when he fled from Saul in the cave.'
+  - where: setting
+    claim: 'The Church’s chapter heading: David prays to be delivered from his enemies'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/59?lang=eng'
+    quote: 'David prays to be delivered from his enemies—God rules in Jacob unto the ends of the earth.'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'Verse 14 has the verbs of verse 6 with “and” added: verse 6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָשׁ֣וּבוּ'
+  - where: thread
+    claim: 'Verse 14 has the verbs of verse 6 with “and” added: verse 14'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/יָשׁ֣וּבוּ'
+  - where: thread
+    claim: 'Verse 9’s verb is “I will watch” (shamar)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶשְׁמֹ֑רָה'
+  - where: thread
+    claim: 'Verse 17 has “I will sing” in the same place in the line'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲזַמֵּ֑רָה'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: 'Verse 4: “without my fault” is “for no guilt of mine” (the Church’s footnote 4a)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/59?lang=eng'
+    quote: 'OR for no guilt of mine.'
+  - where: section 1 plain
+    claim: 'Verse 5: “visit” is here to punish (Psalm 59:6 in the Hebrew numbering)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6485.htm'
+    quote: 'to punish Jeremiah 6:15; Jeremiah 49:8; Jeremiah 50:31; Psalm 59:6'
+  - where: section 2 plain
+    claim: 'Verse 6: “make a noise like a dog” is to growl (Psalm 59:7 in the Hebrew numbering)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1993.htm'
+    quote: 'growl like a dog'
+  - where: section 2 plain
+    claim: 'Verse 7: “belch out” is to pour forth, of speech'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5042.htm'
+    quote: 'figurative, usually of speech, pour forth, emit, belch forth'
+  - where: section 2 plain
+    claim: 'Verse 9 rendered “O my strength, I will watch for you”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2059&version=NRSVUE'
+    quote: 'O my strength, I will watch for you,'
+  - where: section 2 plain
+    claim: 'Verse 10: the Hebrew is “My God, in His loving kindness, shall go before me” (the Church’s footnote 10a)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/59?lang=eng'
+    quote: 'HEB My God, in His loving kindness, shall go before me.'
+  - where: section 3 plain
+    claim: 'Verse 11: “scatter” is to cause to wander (Psalm 59:12 in the Hebrew numbering)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5128.htm'
+    quote: 'cause to wander Numbers 32:13 (J); 2 Samuel 15:20'
+  - where: section 4 plain
+    claim: 'Verse 15: “grudge” meant to murmur'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/grudge'
+    quote: 'To murmur; to repine; to complain'
+
+  # ---------- note 59:0 ----------
+  - where: 'note 59:0 “The night at David’s house”'
+    claim: 'Saul had just tried to pin David to the wall with a javelin, and David escaped that night'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/19?lang=eng'
+    quote: 'And Saul sought to smite David even to the wall with the javelin; but he slipped away out of Saul’s presence'
+  - where: 'note 59:0 “The night at David’s house”'
+    claim: 'Saul sent messengers to watch the house and kill David in the morning; Michal warned him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/19?lang=eng'
+    quote: 'Saul also sent messengers unto David’s house, to watch him, and to slay him in the morning: and Michal David’s wife told him, saying, If thou save not thy life to night, to morrow thou shalt be slain.'
+  - where: 'note 59:0 “The night at David’s house”'
+    claim: 'The title’s “watched” is the verb shamar'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַֽ/יִּשְׁמְר֥וּ'
+  - where: 'note 59:0 “The night at David’s house”'
+    claim: 'The story uses the same verb, shamar, for the messengers’ errand in 1 Samuel 19:11'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/1Sam.xml'
+    quote: 'לְ/שָׁמְר֔/וֹ'
+
+  # ---------- note 59:3 ----------
+  - where: 'note 59:3 “Three words for the wrong he has not done”'
+    claim: 'Verse 3 has pesha (transgression) and chattat (sin)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פִשְׁעִ֖/י'
+  - where: 'note 59:3 “Three words for the wrong he has not done”'
+    claim: 'Verse 3’s second noun is chattat (sin)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַטָּאתִ֣/י'
+  - where: 'note 59:3 “Three words for the wrong he has not done”'
+    claim: 'Verse 4’s “fault” is avon'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עָ֭וֺן'
+  - where: 'note 59:3 “Three words for the wrong he has not done”'
+    claim: 'The Church’s footnote renders verse 4’s phrase “for no guilt of mine”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/59?lang=eng'
+    quote: 'OR for no guilt of mine.'
+  - where: 'note 59:3 “Three words for the wrong he has not done”'
+    claim: 'Jonathan tells Saul that David has not sinned against him and that killing him would be without a cause'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/19?lang=eng'
+    quote: 'wherefore then wilt thou sin against innocent blood, to slay David without a cause?'
+  - where: 'note 59:3 “Three words for the wrong he has not done”'
+    claim: 'David’s question to Jonathan in 1 Samuel 20:1 has avon (iniquity)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/1Sam.xml'
+    quote: 'עֲוֺנִ֤/י'
+  - where: 'note 59:3 “Three words for the wrong he has not done”'
+    claim: 'David’s question to Jonathan in 1 Samuel 20:1 has chattat (sin)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/1Sam.xml'
+    quote: 'חַטָּאתִ/י֙'
+  - where: 'note 59:3 “Three words for the wrong he has not done”'
+    claim: 'David’s words to Saul in 1 Samuel 24:11 have pesha (transgression)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/1Sam.xml'
+    quote: 'וָ/פֶ֨שַׁע֙'
+
+  # ---------- note 59:5 ----------
+  - where: 'note 59:5 “Why the prayer turns to all the nations”'
+    claim: 'One older reading: the speaker counts himself in an Israel from which he excludes his enemies'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/59.htm'
+    quote: 'The poet evidently reckons himself as belonging to an Israel from which he excludes his enemies'
+  - where: 'note 59:5 “Why the prayer turns to all the nations”'
+    claim: 'On that reading the heathen include the heathen-minded in Israel'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/59.htm'
+    quote: 'are included the heathen-minded in Israel'
+  - where: 'note 59:5 “Why the prayer turns to all the nations”'
+    claim: 'On that reading each divine name in the invocation is a challenge to God’s power and promise'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/59.htm'
+    quote: 'is a challenge, so to speak, to the ability and willingness, the power and promise of God'
+  - where: 'note 59:5 “Why the prayer turns to all the nations”'
+    claim: '“Heathen” is goyim, nations, in verse 5'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַ/גּוֹיִ֑ם'
+  - where: 'note 59:5 “Why the prayer turns to all the nations”'
+    claim: 'The same word returns in verse 8'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'גּוֹיִֽם'
+  - where: 'note 59:5 “Why the prayer turns to all the nations”'
+    claim: '“Visit” in this verse is to punish (Psalm 59:6 in the Hebrew numbering)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6485.htm'
+    quote: 'to punish Jeremiah 6:15; Jeremiah 49:8; Jeremiah 50:31; Psalm 59:6'
+
+  # ---------- note 59:6 ----------
+  - where: 'note 59:6 “Dogs that come out at evening”'
+    claim: 'The literal dogs of the passages listed from 1 and 2 Kings are fierce, hungry scavengers'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3611.htm'
+    quote: 'all of fierce, hungry dogs, devouring dead bodies and licking blood'
+  - where: 'note 59:6 “Dogs that come out at evening”'
+    claim: 'The verb is to growl like a dog, with wicked men as subject (Psalm 59:7, 15 in the Hebrew numbering)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1993.htm'
+    quote: 'growl like a dog'
+  - where: 'note 59:6 “Dogs that come out at evening”'
+    claim: '“Belch out” is to pour forth or emit, a figure usually of speech'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5042.htm'
+    quote: 'figurative, usually of speech, pour forth, emit, belch forth'
+  - where: 'note 59:6 “Dogs that come out at evening”'
+    claim: 'Verse 6’s verb “return” has no “and”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָשׁ֣וּבוּ'
+  - where: 'note 59:6 “Dogs that come out at evening”'
+    claim: 'Verse 14 has the same verb with “and” prefixed'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/יָשׁ֣וּבוּ'
+  - where: 'note 59:6 “Dogs that come out at evening”'
+    claim: 'A modern translation gives verses 6 and 14 in the same words, as description'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2059&version=NRSVUE'
+    quote: 'Each evening they come back'
+
+  # ---------- note 59:8 ----------
+  - where: 'note 59:8 “The laughter of Psalm 2”'
+    claim: 'Verse 8’s first verb is “laugh” (H7832)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּשְׂחַק'
+  - where: 'note 59:8 “The laughter of Psalm 2”'
+    claim: 'Verse 8’s second verb is “deride” (H3932)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּ֝לְעַ֗ג'
+  - where: 'note 59:8 “The laughter of Psalm 2”'
+    claim: 'Psalm 2:4 has the same two verbs: laugh'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִשְׂחָ֑ק'
+  - where: 'note 59:8 “The laughter of Psalm 2”'
+    claim: 'Psalm 2:4 has the same two verbs: deride'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִלְעַג'
+
+  # ---------- note 59:9 ----------
+  - where: 'note 59:9 “The refrain, and the verb of the title”'
+    claim: 'The Hebrew of verse 9 begins “his strength,” with no preposition'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עֻ֭זּ/וֹ'
+  - where: 'note 59:9 “The refrain, and the verb of the title”'
+    claim: 'Verse 17 has “my strength”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עֻ֭זִּ/י'
+  - where: 'note 59:9 “The refrain, and the verb of the title”'
+    claim: 'The Greek has “my strength” in verse 9'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/59.htm'
+    quote: 'I will keep my strength, looking to thee'
+  - where: 'note 59:9 “The refrain, and the verb of the title”'
+    claim: 'A modern translation reads “my strength” as an address to God'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2059&version=NRSVUE'
+    quote: 'O my strength, I will watch for you,'
+  - where: 'note 59:9 “The refrain, and the verb of the title”'
+    claim: '“Wait upon” is the verb shamar, watch or keep'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶשְׁמֹ֑רָה'
+  - where: 'note 59:9 “The refrain, and the verb of the title”'
+    claim: 'The title’s “watched” is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַֽ/יִּשְׁמְר֥וּ'
+  - where: 'note 59:9 “The refrain, and the verb of the title”'
+    claim: 'In verse 17 the verb in that place is “I will sing”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲזַמֵּ֑רָה'
+
+  - where: 'note 59:9 “The refrain, and the verb of the title”'
+    claim: 'The title says that Saul’s men watched the house'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/59?lang=eng'
+    quote: 'when Saul sent, and they watched the house to kill him'
+
+  # ---------- note 59:10 ----------
+  - where: 'note 59:10 “Written “his mercy,” read “my mercy””'
+    claim: 'The written text (ketiv) of verse 10 has “his mercy”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חסד/ו'
+  - where: 'note 59:10 “Written “his mercy,” read “my mercy””'
+    claim: 'The reading (qere) of verse 10 has “my mercy,” as verse 17 does'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַסְדִּ֣/י'
+  - where: 'note 59:10 “Written “his mercy,” read “my mercy””'
+    claim: 'The Church’s footnote gives the written form'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/59?lang=eng'
+    quote: 'HEB My God, in His loving kindness, shall go before me.'
+  - where: 'note 59:10 “Written “his mercy,” read “my mercy””'
+    claim: 'The Greek has “his mercy” as well'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/59.htm'
+    quote: 'As for my God, his mercy shall go before me'
+
+  # ---------- note 59:11 ----------
+  - where: 'note 59:11 “Not killed, so that the people remember”'
+    claim: 'One older reading: “slay them not” does not contradict the prayer for their destruction'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/59.htm'
+    quote: 'does not contradict the prayer that follows for their destruction'
+  - where: 'note 59:11 “Not killed, so that the people remember”'
+    claim: 'On that reading the enemies are first to stand for a time before the people as an example'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/59.htm'
+    quote: 'may remain for a season before the eyes of this people as an example of punishment'
+  - where: 'note 59:11 “Not killed, so that the people remember”'
+    claim: '“Scatter” is to cause to wander (Psalm 59:12 in the Hebrew numbering)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5128.htm'
+    quote: 'cause to wander Numbers 32:13 (J); 2 Samuel 15:20'
+  - where: 'note 59:11 “Not killed, so that the people remember”'
+    claim: 'Verse 11’s causative form is rendered “cause them to wander about” by comparison with the simple form in verse 15 (Psalm 59:16 in the Hebrew numbering)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/59.htm'
+    quote: 'by a comparison of the Hiph. in Numbers 32:13, and of the Kal in Psalm 59:16, Psalm 109:10, is to be rendered: cause them to wander about'
+  - where: 'note 59:11 “Not killed, so that the people remember”'
+    claim: 'Verse 11’s verb is nua (H5128)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הֲנִיעֵ֣/מוֹ'
+  - where: 'note 59:11 “Not killed, so that the people remember”'
+    claim: 'Verse 15’s “wander up and down” is the same verb (the written text)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'ינועו/ן'
+
+  # ---------- note 59:15 ----------
+  - where: 'note 59:15 “Grudge: to murmur, or to stay the night”'
+    claim: 'To grudge was to murmur or complain'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/grudge'
+    quote: 'To murmur; to repine; to complain'
+  - where: 'note 59:15 “Grudge: to murmur, or to stay the night”'
+    claim: 'The Greek has “murmur”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/59.htm'
+    quote: 'and if they be not satisfied, they shall even murmur'
+  - where: 'note 59:15 “Grudge: to murmur, or to stay the night”'
+    claim: 'One Hebrew verb with these consonants means to lodge or pass the night'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3885.htm'
+    quote: 'lodge, pass the night'
+  - where: 'note 59:15 “Grudge: to murmur, or to stay the night”'
+    claim: 'This verse (Psalm 59:16 in the Hebrew numbering) is listed under that verb, on the authority of some interpreters'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3885.htm'
+    quote: 'of the wicked Psalm 59:16, according to'
+  - where: 'note 59:15 “Grudge: to murmur, or to stay the night”'
+    claim: 'The verse is also listed under the second verb, murmur'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3885.htm'
+    quote: 'absolute Psalm 59:16'
+  - where: 'note 59:15 “Grudge: to murmur, or to stay the night”'
+    claim: 'A modern translation has “growl”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2059&version=NRSVUE'
+    quote: 'and growl if they do not get their fill.'
+
+  # ---------- note 59:16 ----------
+  - where: 'note 59:16 “Evening for them, morning for him”'
+    claim: 'One older reading calls the psalm an evening song'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/59.htm'
+    quote: 'Psalm 59 seems to be an evening song'
+  - where: 'note 59:16 “Evening for them, morning for him”'
+    claim: 'On that reading the speaker’s morning is set against the enemies’ night in the streets'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/59.htm'
+    quote: 'contrasts his believingly joyous prospects for the coming morning with the ineffectual ardour with which they pass the night patrolling the streets'
+  - where: 'note 59:16 “Evening for them, morning for him”'
+    claim: 'Verse 15 opens in Hebrew with the pronoun “they”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הֵ֭מָּה'
+  - where: 'note 59:16 “Evening for them, morning for him”'
+    claim: 'Verse 16 opens with “But I”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַ/אֲנִ֤י'
+  - where: 'note 59:16 “Evening for them, morning for him”'
+    claim: 'In the story the messengers were to kill David in the morning'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/19?lang=eng'
+    quote: 'to watch him, and to slay him in the morning'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: christ
+    claim: 'The divine name stands in verses 3, 5 and 8 (verse 8 shown)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְ֭הוָה'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'The verb “laugh” (H7832) occurs five times in the Psalms (hebrew.mjs psalms --word 7832: 2:4; 37:13; 52:6; 59:8; 104:26); the Lord is its subject in 2:4, 37:13 and 59:8 (37:13 shown)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִשְׂחַק'
+  - where: thread
+    claim: 'Morning is named once in the psalm, in verse 16 (hebrew.mjs psalms 59:1-17)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לַ/בֹּ֗קֶר'
+  - where: 'note 59:0 “The night at David’s house”'
+    claim: 'Michal laid an image in the bed and told the messengers David was sick'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/19?lang=eng'
+    quote: 'And when Saul sent messengers to take David, she said, He is sick.'
+  - where: parallels
+    claim: 'David tells Saul at the cave that there is no transgression in his hand'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/24?lang=eng'
+    quote: 'there is neither evil nor transgression in mine hand, and I have not sinned against thee; yet thou huntest my soul to take it'
