@@ -72,7 +72,7 @@ const REVIEW_SCHEMA = {
     ready: { type: 'boolean', description: 'true if the chapter is ready for the author to read' },
     summary: { type: 'string', description: 'Three or four sentences: what you changed, how many of the checker\'s findings you acted on, and the final note and ledger-row counts' },
     checks: { type: 'string', description: 'Final one-line results of check-chapter.mjs: fix-yaml, build, check-quotes, check-content, and check-ledger' },
-    authorQuestions: { type: 'array', items: { type: 'string' }, description: 'Only what truly needs the author; each a self-contained sentence or two naming the verse' },
+    authorQuestions: { type: 'array', items: { type: 'string' }, description: 'Almost always empty. Only a reading that touches doctrine where the Church\'s own sources pull two ways, or a faithful scholar\'s speculation the author may not want. Never a request for leave to do what the standard or the brief already settles (an outside reading given as one reading; shared words set side by side; following the King James; a short christ section): decide those and say so under decided' },
     decided: { type: 'array', items: { type: 'string' }, description: 'Judgment calls you or the writer settled, one line each with the verse' },
     unanswered: { type: 'array', items: { type: 'string' }, description: 'Reader questions no source answered' },
     themeCandidates: { type: 'array', items: { type: 'string' } },

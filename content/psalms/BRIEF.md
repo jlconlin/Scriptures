@@ -95,6 +95,21 @@ Where this brief elsewhere sends a writer to `hebrew.mjs` and a lexicon page (th
 
 **This brief must stay short enough to be read whole.** It was 430 KB when the reviewers' log was kept in it, and agents read the first 270 lines. If it passes about 60 KB, move something out before the next batch (`batch-finish.mjs` warns).
 
+## Settled without the author
+
+(Author, 2026-10-11, of forty-two questions the reviewers had left: “I have a hard time believing that you have a question that you need my input on for half of the Psalms… You should do a better job than that.”) A reviewer does not ask the author whether to do what the standard already says. Each of these is decided, not asked:
+
+- **No Church, BYU or Scripture Central source answers a reader's real question, and the older commentary does:** give his answer as “one older reading,” within the limit of a third of the notes. If the question isn't one a reader would ask, there is no note.
+- **Two passages share words and no source joins them:** a note may set them side by side as shared wording and say so. It draws nothing from the pairing; anything built on it is cut. A pairing that rests on likeness of idea and not of words goes to `explore` or is cut.
+- **The King James and the Church's chapter heading read a verse one way and the Hebrew or a modern translation another:** the paraphrase, tagline and thread follow the King James; the note gives the other rendering as a fact of translation, second.
+- **The Church's footnote points somewhere the note does not go:** leave it. The footnote is beside the verse in the Gospel Library.
+- **No scripture or Church source reads the psalm of Christ:** the `christ` section is short, says the LORD is Jehovah in a clause, and rests on what the psalm says of Him. A writer's own typology is cut and stays cut.
+- **A teaching that is not a prophet's or apostle's** (a Seventy, the Lectures on Faith, an astronaut at general conference) goes under another kind than Latter-day Prophets.
+- **Two faithful sources read a verse differently:** give both, the Church's first, without choosing.
+- **What the Restoration adds to a verse** (who Abraham's people are; the spirit world) may be said from scripture and the Church's reference works, as addition, with a sentence saying the psalm itself does not say it.
+
+What does go to the author: a reading that touches doctrine where the Church's own sources pull two ways, or a faithful scholar's speculation the author may not want on the site. Expect one or two in a book, not one in three chapters.
+
 ## Divisions
 
 The Psalter's own five books, each closed by a line of praise (41:13; 72:19; 89:52; 106:48; Psalm 150 closing the whole), as *Scripture Helps* and the Student Manual (28-2) both give them. They are in `book.yaml` as Book One to Book Five (keys `psalms1` to `psalms5`):

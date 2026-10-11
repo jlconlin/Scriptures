@@ -1,10 +1,9 @@
 // The coordinator's steps after a write-chapters run, in one command (DEVELOPMENT.md, “Writing a book in batches”):
 //   batch-notes (unanswered questions into UNANSWERED.md, theme candidates),
-//   merge-sources --write, the reviewers' questions for the author appended to OPEN-QUESTIONS.md under the book's
-//   heading and numbered on from the last (<prefix>15, <prefix>16 …), one commit for those documents, then
+//   merge-sources --write, the reviewers' questions printed for the coordinator (not filed), one commit for the documents, then
 //   batch-commit (check-chapter on each chapter; one commit for each that passes).
 // It prints one line a step and whatever needs a person: a chapter not ready, a source to settle by hand,
-// a chapter whose checks fail. The questions are appended in the reviewers' own words: read them afterwards.
+// a chapter whose checks fail.
 // Usage: node scripts/batch-finish.mjs <book> <the run's journal.jsonl> <question prefix, e.g. Ps>
 import { execFileSync } from 'node:child_process';
 import { readFileSync, writeFileSync } from 'node:fs';
@@ -35,23 +34,13 @@ run('batch-notes.mjs', slug, journal);
 const merged = run('merge-sources.mjs', slug, ...chapters, '--write');
 console.log(merged.split('\n').filter((l) => /^✗|^ {4}(have|new)|new source\(s\)/.test(l)).map((l) => l.slice(0, 200)).join('\n'));
 
-// The reviewers' questions, numbered on from the last one under the book's heading in OPEN-QUESTIONS.md.
-const oqFile = path.join(ROOT, 'OPEN-QUESTIONS.md');
-let oq = readFileSync(oqFile, 'utf8');
-const head = oq.indexOf(`\n## ${book.name}\n`);
-if (head < 0) throw new Error(`OPEN-QUESTIONS.md has no “## ${book.name}” heading`);
-const next = oq.indexOf('\n## ', head + 1);
-const end = next < 0 ? oq.length : next;
-const section = oq.slice(head, end);
-let n = Math.max(0, ...[...section.matchAll(new RegExp(`\\*\\*${prefix}(\\d+)\\.`, 'g'))].map((m) => +m[1]));
+// The reviewers' questions are printed, not filed. Most ask leave for something the standard or the book's brief
+// already settles (Psalms: 40 of 42); the coordinator settles those and writes into OPEN-QUESTIONS.md, by hand and
+// in the author's terms, only what touches doctrine or taste (AUTHORING.md, “Decide, don't defer”).
 const tidy = (s) => String(s).replace(/\s+/g, ' ').trim();
-const added = reviews.flatMap((r) => (r.authorQuestions ?? []).map((q) => `- **${prefix}${++n}.** ${tidy(q)}\n`));
-if (added.length) {
-  oq = oq.slice(0, end).replace(/\n*$/, '\n') + added.join('') + oq.slice(end);
-  writeFileSync(oqFile, oq);
-}
-console.log(`${added.length} question(s) for the author appended to OPEN-QUESTIONS.md${added.length ? `: ${added.map((a) => a.match(/\*\*(\w+)\./)[1]).join(', ')}` : ''}`);
-for (const a of added) console.log(`  ${a.trim().slice(0, 260)}`);
+const asked = reviews.flatMap((r) => (r.authorQuestions ?? []).map((q) => `  ${book.unit?.singular ?? book.name} ${r.chapter}: ${tidy(q)}`));
+console.log(`${asked.length} question(s) the reviewers raised, for the coordinator to settle or pass on (${prefix}…):`);
+for (const q of asked) console.log(q.slice(0, 420));
 
 git('add', 'content/sources.yaml', 'OPEN-QUESTIONS.md', `content/${slug}/BRIEF.md`, `content/${slug}/THEME-CANDIDATES.md`);
 try { git('add', `content/${slug}/UNANSWERED.md`); } catch { /* none written yet */ }
