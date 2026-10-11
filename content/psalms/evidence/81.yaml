@@ -1,0 +1,742 @@
+chapter: 81
+claims:
+  - where: 'when'
+    claim: 'The title ascribes the psalm to Asaph and gives no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/81?lang=eng'
+    quote: 'To the chief Musician upon Gittith, A Psalm of Asaph.'
+  - where: 'when'
+    claim: 'The psalm calls for music on a feast day'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/81?lang=eng'
+    quote: 'Blow up the trumpet in the new moon, in the time appointed, on our solemn feast day.'
+  - where: 'setting'
+    claim: 'The title carries Asaph’s name and the word Gittith'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/81?lang=eng'
+    quote: 'To the chief Musician upon Gittith, A Psalm of Asaph.'
+  - where: 'setting'
+    claim: 'Psalm 80 looks back to the leading out of Egypt and is followed by another psalm that looks back at Israel’s early history'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/81.htm'
+    quote: 'Psalm 80, which looks back into the time of the leading forth out of Egypt, is followed by another with the very same Asaphic thoroughly characteristic feature of a retrospective glance at Israel''s early history'
+  - where: 'setting'
+    claim: 'The neighbouring psalms also use the name Joseph (77:15; 78:67; 80:1)'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=ESV'
+    quote: 'Psalm 81:5 : Ps. 77:15; 78:67; 80:1'
+  - where: 'setting'
+    claim: 'God is the speaker in the second part, described as the Preacher of the festival'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/81.htm'
+    quote: 'Jahve Himself makes Himself heard as the Preacher of the festival'
+  - where: 'setting'
+    claim: 'Psalm 95 has been called akin to this psalm'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/81.htm'
+    quote: 'as in Psalm 95:7, which is in many ways akin to this Psalm'
+  - where: 'setting'
+    claim: 'Psalm 50:7 is set beside verse 8 of this psalm'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.8 : Ps 50.7'
+  - where: 'setting'
+    claim: 'Passover and Tabernacles are the two feasts in question'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/81.htm'
+    quote: 'Either the Feast of the Passover or the Feast of Tabernacles; for it must be one of these two feasts which begin on the day of the full moon.'
+  - where: 'thread'
+    claim: '“I heard” in verse 5 is the verb shama (H8085)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶשְׁמָֽע'
+  - where: 'thread'
+    claim: '“Hear” in verse 8 is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שְׁמַ֣ע'
+  - where: 'thread'
+    claim: '“hearken” in verse 8 is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּֽשְׁמַֽע'
+  - where: 'thread'
+    claim: '“would not hearken” in verse 11 is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁמַ֣ע'
+  - where: 'thread'
+    claim: '“hearkened” in verse 13 is the same verb, a participle'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שֹׁמֵ֣עַֽ'
+  - where: 'thread'
+    claim: 'A modern translation gives the wish of verse 13 as “would listen”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '13 O that my people would listen to me,'
+  - where: 'thread'
+    claim: 'The psalm’s last Hebrew word is a first-person verb with a second-person suffix, “I would satisfy thee”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַשְׂבִּיעֶֽ/ךָ'
+  - where: 'section 1 plain'
+    claim: 'Verse 3 rendered “at the full moon, on our festal day”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: 'at the full moon, on our festal day.'
+  - where: 'section 1 plain'
+    claim: 'Verse 5 rendered “went out over” with “against” as an alternative'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: 'when he went out over the land of Egypt.'
+  - where: 'section 1 plain'
+    claim: '“against” is the alternative given for “over”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.5 Or against'
+  - where: 'section 2 plain'
+    claim: '“pots” rendered “basket”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: 'your hands were freed from the basket.'
+  - where: 'section 2 plain'
+    claim: '“proved” rendered “tested”, and “secret place” kept'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: 'I tested you at the waters of Meribah. Selah'
+  - where: 'section 2 plain'
+    claim: '“secret place of thunder” as hiding place of thunder'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5643.htm'
+    quote: 'hiding-place of thunder'
+  - where: 'section 2 plain'
+    claim: '“testify” rendered as admonish or warn, and “if thou wilt hearken” as a wish'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: 'O Israel, if you would but listen to me!'
+  - where: 'section 2 plain'
+    claim: '“brought thee out” rendered “brought you up”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: 'who brought you up out of the land of Egypt.'
+  - where: 'section 3 plain'
+    claim: '“gave them up unto their own hearts’ lust” rendered as giving over to stubborn hearts'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '12 So I gave them over to their stubborn hearts,'
+  - where: 'section 4 plain'
+    claim: '“submitted themselves” rendered as cringing'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3584.htm'
+    quote: '3 cringe = come cringing (make shew of obedience'
+  - where: 'section 4 plain'
+    claim: 'The Hebrew of verse 16 has “he would feed him”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.16 Cn: Heb he would feed him'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: '“the time appointed” is the noun keseh (H3677)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּ֝/כֵּ֗סֶה'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: 'The noun means full moon'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3677.htm'
+    quote: 'noun [masculine] full moon'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: 'In this verse it is a feast day, set against the new moon'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3677.htm'
+    quote: 'as a feast-day'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: 'The noun occurs once in the Psalms (hebrew.mjs psalms --word 3677: 1 occurrence)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּ֝/כֵּ֗סֶה'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: 'Modern translation of the verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: 'at the full moon, on our festal day.'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: 'The Greek has no “full moon”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/81.htm'
+    quote: 'Blow the trumpet at the new moon, in the glorious day of your feast.'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: 'Feast days were reckoned by the moon, the month beginning with the new moon'
+    key: bd-new-moon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/new-moon?lang=eng'
+    quote: 'As the days for all Jewish feasts were reckoned by the moon, the exact time of the appearance of the new moon was of great importance.'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: 'Unleavened bread begins on the fifteenth of the first month'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/23?lang=eng'
+    quote: 'And on the fifteenth day of the same month is the feast of unleavened bread unto the Lord'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: 'Tabernacles begins on the fifteenth of the seventh month'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/23?lang=eng'
+    quote: 'The fifteenth day of this seventh month shall be the feast of tabernacles for seven days unto the Lord.'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: 'Tabernacles was kept on the 15th to 21st of the seventh month'
+    key: bd-feasts
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/feasts?lang=eng'
+    quote: 'was celebrated on the 15th to 21st days of the seventh month'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: 'The first day of the seventh month is a memorial of blowing of trumpets'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/23?lang=eng'
+    quote: 'In the seventh month, in the first day of the month, shall ye have a sabbath, a memorial of blowing of trumpets, an holy convocation.'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: 'Jewish tradition read the psalm of Tabernacles'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/81.htm'
+    quote: 'the Targum, Talmud (more particularly Rosh ha-Shana, where this Psalm is much discussed), Midrash, and Sohar understand the Feast of Tabernacles'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: 'The psalm was the Jewish New Year’s psalm'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/81.htm'
+    quote: 'This Psalm 81 is according to ancient custom the Jewish New Year''s Psalm, the Psalm of the Feast of Trumpets'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: 'Delitzsch’s reason for Passover'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/81.htm'
+    quote: 'Because the remembrance of the redemption of Israel clings far more characteristically to the Feast of the Passover than to the Feast of Tabernacles.'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: 'Delitzsch reads verse 5 (his 81:6) as deciding for Passover'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/81.htm'
+    quote: 'This statement of the time of itself at once decides the reference of the Psalm to the Passover'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: 'What the Passover commemorates'
+    key: bd-feasts
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/feasts?lang=eng'
+    quote: 'The Feast of the Passover was instituted to commemorate the passing over the houses of the children of Israel in Egypt when God smote the firstborn of the Egyptians'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: '“trumpet” is shofar (H7782)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שׁוֹפָ֑ר'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: 'The shofar is a horn for blowing'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7782.htm'
+    quote: 'horn, for blowing'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: 'It is a curved horn, as of cow or ram'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7782.htm'
+    quote: 'is a curved horn, as of cow or ram'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: 'The trumpets of Numbers 10 are silver trumpets'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/10?lang=eng'
+    quote: 'Silver trumpets are used to call assemblies and to blow alarms'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: 'They were blown at the beginnings of the months'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/10?lang=eng'
+    quote: 'and in the beginnings of your months, ye shall blow with the trumpets over your burnt offerings'
+  - where: 'note 81:3 “Which feast, and the horn at the new moon and the full moon”'
+    claim: 'Scripture distinguishes the horn from the metal trumpet'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/81.htm'
+    quote: 'a horn (more especially a ram''s horn) and a (metal) trumpet, side by side in Psalm 98:6; 1 Chronicles 15:28, and is therefore conscious of a difference between them'
+  - where: 'note 81:5 “Who went out, and against whom”'
+    claim: 'The preposition in “through the land of Egypt” is al (H5921), upon or over'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ֭/צֵאת/וֹ'
+  - where: 'note 81:5 “Who went out, and against whom”'
+    claim: 'Modern translation: went out over'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: 'when he went out over the land of Egypt.'
+  - where: 'note 81:5 “Who went out, and against whom”'
+    claim: '“against” in the margin'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.5 Or against'
+  - where: 'note 81:5 “Who went out, and against whom”'
+    claim: 'ESV has the same, with the same margin'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=ESV'
+    quote: 'Psalm 81:5 Or against'
+  - where: 'note 81:5 “Who went out, and against whom”'
+    claim: 'The cross-reference is to Exodus 11:4'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.5 : Ex 11.4'
+  - where: 'note 81:5 “Who went out, and against whom”'
+    claim: 'ESV gives the same cross-reference'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=ESV'
+    quote: 'Psalm 81:5 : Ex. 11:4'
+  - where: 'note 81:5 “Who went out, and against whom”'
+    claim: 'Exodus 11:4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/11?lang=eng'
+    quote: 'About midnight will I go out into the midst of Egypt'
+  - where: 'note 81:5 “Who went out, and against whom”'
+    claim: 'The Greek reads it of coming out of Egypt'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/81.htm'
+    quote: 'He made it to be a testimony in Joseph, when he came forth out of the land of Egypt'
+  - where: 'note 81:5 “The voice the singer had not known”'
+    claim: 'Psalm 114:1 speaks of Egypt as a people of strange language; ESV sets it beside this verse'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=ESV'
+    quote: 'Psalm 81:5 : Ps. 114:1'
+  - where: 'note 81:5 “The voice the singer had not known”'
+    claim: 'Psalm 114:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/114?lang=eng'
+    quote: 'When Israel went out of Egypt, the house of Jacob from a people of strange language'
+  - where: 'note 81:5 “The voice the singer had not known”'
+    claim: 'The Hebrew half-line has four words: language (H8193), not, I knew, I hear; no word for “where”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שְׂפַ֖ת'
+  - where: 'note 81:5 “The voice the singer had not known”'
+    claim: '“I knew” is a first-person perfect'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָדַ֣עְתִּי'
+  - where: 'note 81:5 “The voice the singer had not known”'
+    claim: '“I hear” is a first-person imperfect (morphology HVqi1cs)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶשְׁמָֽע'
+  - where: 'note 81:5 “The voice the singer had not known”'
+    claim: 'NRSVUE sets the line apart as the introduction to God’s speech'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: 'I hear a voice I had not known:'
+  - where: 'note 81:5 “The voice the singer had not known”'
+    claim: 'ESV likewise'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=ESV'
+    quote: 'I hear a language'
+  - where: 'note 81:5 “The voice the singer had not known”'
+    claim: 'The Greek keeps the line in the third person and the past'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/81.htm'
+    quote: 'he heard a language which he understood not'
+  - where: 'note 81:6 “Baskets, not cooking pots”'
+    claim: 'The word can mean a cooking pot'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1731.htm'
+    quote: 'a. pot, kettle or cooking'
+  - where: 'note 81:6 “Baskets, not cooking pots”'
+    claim: 'Its other sense is a receptacle for carrying, translated basket by all the versions'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1731.htm'
+    quote: 'b. receptacle for carrying, all Vrss basket'
+  - where: 'note 81:6 “Baskets, not cooking pots”'
+    claim: 'This verse is listed there, with clay or bricks'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1731.htm'
+    quote: '(clay or bricks'
+  - where: 'note 81:6 “Baskets, not cooking pots”'
+    claim: 'Modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: 'your hands were freed from the basket.'
+  - where: 'note 81:6 “Baskets, not cooking pots”'
+    claim: 'The Hebrew of verse 6 has “his”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.6 Heb his'
+  - where: 'note 81:7 “Meribah, where Israel tested God, told as God’s test of Israel”'
+    claim: 'Exodus 17:7: the place named because Israel tempted the LORD'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/17?lang=eng'
+    quote: 'And he called the name of the place Massah, and Meribah, because of the chiding of the children of Israel, and because they tempted the Lord'
+  - where: 'note 81:7 “Meribah, where Israel tested God, told as God’s test of Israel”'
+    claim: 'Exodus 17: the people had no water'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/17?lang=eng'
+    quote: 'Israel murmurs for want of water—Moses smites a rock in Horeb'
+  - where: 'note 81:7 “Meribah, where Israel tested God, told as God’s test of Israel”'
+    claim: 'Translations set Exodus 17 beside this verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.7 : Ex 2.23; 17.6, 7; 19.19; Ps 50.15'
+  - where: 'note 81:7 “Meribah, where Israel tested God, told as God’s test of Israel”'
+    claim: '“provocation” in Psalm 95:8 is the name Meribah (H4808, tagged as a proper noun)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כִּ/מְרִיבָ֑ה'
+  - where: 'note 81:7 “Meribah, where Israel tested God, told as God’s test of Israel”'
+    claim: '“proved” in Psalm 95:9 is bachan (H974)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ֝חָנ֗וּ/נִי'
+  - where: 'note 81:7 “Meribah, where Israel tested God, told as God’s test of Israel”'
+    claim: '“proved” in this verse is bachan (H974)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶבְחָֽנְ/ךָ֨'
+  - where: 'note 81:7 “Meribah, where Israel tested God, told as God’s test of Israel”'
+    claim: 'The verb means prove, test, try'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/974.htm'
+    quote: '2 prove, test, try.'
+  - where: 'note 81:7 “Meribah, where Israel tested God, told as God’s test of Israel”'
+    claim: 'It is used with the metaphor of gold'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/974.htm'
+    quote: 'a. with the metaphor of gold'
+  - where: 'note 81:7 “Meribah, where Israel tested God, told as God’s test of Israel”'
+    claim: 'This verse is listed under God testing persons'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/974.htm'
+    quote: 'b. without metaphor, of God testing persons'
+  - where: 'note 81:7 “Meribah, where Israel tested God, told as God’s test of Israel”'
+    claim: 'Psalm 95:9 is listed under man testing or tempting God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/974.htm'
+    quote: 'c. of man testing or tempting God'
+  - where: 'note 81:7 “Meribah, where Israel tested God, told as God’s test of Israel”'
+    claim: '“secret place of thunder” is a hiding-place of thunder; darkness (dark clouds) as the LORD’s hiding-place in Psalm 18'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5643.htm'
+    quote: 'hiding-place of thunder'
+  - where: 'note 81:7 “Meribah, where Israel tested God, told as God’s test of Israel”'
+    claim: 'The dark clouds are God’s hiding-place when He appears'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5643.htm'
+    quote: 'of darkness (i.e. dark clouds) as'
+  - where: 'note 81:7 “Meribah, where Israel tested God, told as God’s test of Israel”'
+    claim: '“secret place” in this verse is sether (H5643)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/סֵ֣תֶר'
+  - where: 'note 81:7 “Meribah, where Israel tested God, told as God’s test of Israel”'
+    claim: '“secret place” in Psalm 18:11 is the same word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'סִתְר֗/וֹ'
+  - where: 'note 81:7 “Meribah, where Israel tested God, told as God’s test of Israel”'
+    claim: 'Sinai’s thunder and thick cloud'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/19?lang=eng'
+    quote: 'there were thunders and lightnings, and a thick cloud upon the mount'
+  - where: 'note 81:10 “The opening words of Sinai, spoken again at the feast”'
+    claim: 'Exodus 20:2'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/20?lang=eng'
+    quote: 'I am the Lord thy God, which have brought thee out of the land of Egypt, out of the house of bondage.'
+  - where: 'note 81:10 “The opening words of Sinai, spoken again at the feast”'
+    claim: 'Translations set Exodus 20:2 beside verse 10'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.10 : Ex 20.2; Ps 103.5'
+  - where: 'note 81:10 “The opening words of Sinai, spoken again at the feast”'
+    claim: 'The divine name stands in verse 10'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְה֘וָ֤ה'
+  - where: 'note 81:10 “The opening words of Sinai, spoken again at the feast”'
+    claim: 'and in verse 15, its only other place in the psalm'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְ֭הוָה'
+  - where: 'note 81:10 “The opening words of Sinai, spoken again at the feast”'
+    claim: 'Psalm 50:7 is set beside verse 8'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.8 : Ps 50.7'
+  - where: 'note 81:10 “The opening words of Sinai, spoken again at the feast”'
+    claim: '“testify” in verse 8 and in Psalm 50:7 is the same verb (H5749), in the same form'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/אָעִ֣ידָה'
+  - where: 'note 81:10 “The opening words of Sinai, spoken again at the feast”'
+    claim: 'Modern translation of “I will testify unto thee”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '8 Hear, O my people, while I admonish you;'
+  - where: 'note 81:12 “A punishment that consists of being let go”'
+    claim: 'The verb is listed for this verse (Hebrew 81:13) under “give over”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7971.htm'
+    quote: 'b. give over, accusative of person Psalm 81:13'
+  - where: 'note 81:12 “A punishment that consists of being let go”'
+    claim: 'The Greek: let them go'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/81.htm'
+    quote: 'So I let them go after the ways of their own hearts'
+  - where: 'note 81:12 “A punishment that consists of being let go”'
+    claim: 'Modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '12 So I gave them over to their stubborn hearts,'
+  - where: 'note 81:12 “A punishment that consists of being let go”'
+    claim: 'The noun means firmness, always stubbornness; ten places listed, eight in Jeremiah'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8307.htm'
+    quote: 'noun feminine firmness, always = stubbornness'
+  - where: 'note 81:12 “A punishment that consists of being let go”'
+    claim: 'The noun occurs once in the Psalms (hebrew.mjs psalms --word 8307: 1 occurrence)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בִּ/שְׁרִיר֣וּת'
+  - where: 'note 81:12 “A punishment that consists of being let go”'
+    claim: '“counsels” in this verse is H4156'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּֽ/מוֹעֲצוֹתֵי/הֶֽם'
+  - where: 'note 81:12 “A punishment that consists of being let go”'
+    claim: '“imagination” in Jeremiah 7:24 is the same noun (H8307)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
+    quote: 'בִּ/שְׁרִר֖וּת'
+  - where: 'note 81:12 “A punishment that consists of being let go”'
+    claim: '“counsels” in Jeremiah 7:24 is the same noun (H4156)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
+    quote: 'בְּ/מֹ֣עֵצ֔וֹת'
+  - where: 'note 81:12 “A punishment that consists of being let go”'
+    claim: 'Jeremiah 7:24'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/7?lang=eng'
+    quote: 'But they hearkened not, nor inclined their ear, but walked in the counsels and in the imagination of their evil heart'
+  - where: 'note 81:12 “A punishment that consists of being let go”'
+    claim: 'Romans 1:24 is set beside this verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.12 : Acts 7.42; Rom 1.24'
+  - where: 'note 81:12 “A punishment that consists of being let go”'
+    claim: 'Romans 1:24'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/1?lang=eng'
+    quote: 'Wherefore God also gave them up to uncleanness through the lusts of their own hearts'
+  - where: 'note 81:13 “The Hebrew of the wish”'
+    claim: '“hearkened” is a participle (morphology HVqrmsa)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שֹׁמֵ֣עַֽ'
+  - where: 'note 81:13 “The Hebrew of the wish”'
+    claim: '“Oh that” is the particle lu (H3863)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'ל֗וּ'
+  - where: 'note 81:13 “The Hebrew of the wish”'
+    claim: 'The lexicon’s rendering of the construction in this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3863.htm'
+    quote: 'if my people were hearkening to me, . . . quickly would I bow down'
+  - where: 'note 81:13 “The Hebrew of the wish”'
+    claim: 'It is listed under the particle followed by a participle'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3863.htm'
+    quote: 'c. followed by participle'
+  - where: 'note 81:13 “The Hebrew of the wish”'
+    claim: 'Modern translation of verse 13'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '13 O that my people would listen to me,'
+  - where: 'note 81:13 “The Hebrew of the wish”'
+    claim: 'Modern translation of verse 14'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '14 Then I would quickly subdue their enemies'
+  - where: 'note 81:13 “The Hebrew of the wish”'
+    claim: 'Isaiah 48:18 has the same particle as a wish about the past'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3863.htm'
+    quote: '2 If only ...! i.e. O that! would that!'
+  - where: 'note 81:13 “The Hebrew of the wish”'
+    claim: 'Deuteronomy 5:29 and Isaiah 48:18 are set beside this verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.13 : Deut 5.29; Ps 128.1; Isa 48.18'
+  - where: 'note 81:13 “The Hebrew of the wish”'
+    claim: 'Deuteronomy 5:29'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/5?lang=eng'
+    quote: 'O that there were such an heart in them, that they would fear me, and keep all my commandments always'
+  - where: 'note 81:15 “Enemies who cringe, and whose time lasts”'
+    claim: '“submitted themselves” is kachash (H3584)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְכַֽחֲשׁוּ'
+  - where: 'note 81:15 “Enemies who cringe, and whose time lasts”'
+    claim: 'The verb here means to cringe, a show of obedience'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3584.htm'
+    quote: '3 cringe = come cringing (make shew of obedience'
+  - where: 'note 81:15 “Enemies who cringe, and whose time lasts”'
+    claim: 'NRSVUE: cringe'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '15 Those who hate the Lord would cringe before him,'
+  - where: 'note 81:15 “Enemies who cringe, and whose time lasts”'
+    claim: 'NRSVUE reads “their time” as the enemies’ doom'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: 'and their doom would last forever.'
+  - where: 'note 81:15 “Enemies who cringe, and whose time lasts”'
+    claim: 'Delitzsch reads the promise of Israel'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/81.htm'
+    quote: 'The promise in Psalm 81:16 relates to Israel and all the members of the nation.'
+  - where: 'note 81:15 “Enemies who cringe, and whose time lasts”'
+    claim: 'Delitzsch on “time”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/81.htm'
+    quote: '"Time" is equivalent to duration, and in this instance with the collateral notion of Prosperity'
+  - where: 'note 81:15 “Enemies who cringe, and whose time lasts”'
+    claim: 'The same commentary says the word is used elsewhere of the term of punishment'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/81.htm'
+    quote: 'of the term of punishment'
+  - where: 'note 81:13 “The Hebrew of the wish”'
+    claim: 'The Church’s chapter heading summarizes verses 13–16 as what would have been'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/81?lang=eng'
+    quote: 'they would have triumphed over their enemies'
+  - where: 'note 81:15 “Enemies who cringe, and whose time lasts”'
+    claim: 'The Hebrew is “their time” (H6256 with a third-person plural suffix)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עִתָּ֣/ם'
+  - where: 'note 81:16 “Wheat and honey from the Song of Moses”'
+    claim: 'Deuteronomy 32:13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/32?lang=eng'
+    quote: 'and he made him to suck honey out of the rock, and oil out of the flinty rock'
+  - where: 'note 81:16 “Wheat and honey from the Song of Moses”'
+    claim: 'Deuteronomy 32:14'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/32?lang=eng'
+    quote: 'with the fat of kidneys of wheat'
+  - where: 'note 81:16 “Wheat and honey from the Song of Moses”'
+    claim: 'Deuteronomy 32:13 is set beside verse 16'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.16 : Deut 32.13; Ps 147.14'
+  - where: 'note 81:16 “Wheat and honey from the Song of Moses”'
+    claim: 'The Greek has “the fat of wheat” and reads the verse as past'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/81.htm'
+    quote: 'And he fed them with the fat of wheat; and satisfied them with honey out of the rock.'
+  - where: 'note 81:16 “Wheat and honey from the Song of Moses”'
+    claim: 'Deuteronomy 32:12 is set beside verse 9'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.9 : Deut 32.12; Isa 43.12'
+  - where: 'note 81:16 “Wheat and honey from the Song of Moses”'
+    claim: 'Deuteronomy 32:15 is set beside verse 11'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=ESV'
+    quote: 'Psalm 81:11 : Ex. 32:1; Deut. 32:15, 18; Prov. 1:25, 30'
+  - where: 'note 81:16 “Wheat and honey from the Song of Moses”'
+    claim: 'The first verb is third person with a third-person suffix (HC/Vhw3ms/Sp3ms)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַֽ֭/יַּאֲכִילֵ/הוּ'
+  - where: 'note 81:16 “Wheat and honey from the Song of Moses”'
+    claim: 'NRSVUE notes the Hebrew “he would feed him”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.16 Cn: Heb he would feed him'
+  - where: 'note 81:16 “Wheat and honey from the Song of Moses”'
+    claim: 'NRSVUE prints “I would feed you”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '16 I would feed you with the finest of the wheat,'
+  - where: 'note 81:16 “Wheat and honey from the Song of Moses”'
+    claim: 'The last word is first person with a second-person suffix'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַשְׂבִּיעֶֽ/ךָ'
+  - where: 'christ'
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: 'christ'
+    claim: 'LORD in the Old Testament usually means Jehovah'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Usually, when the word Lord appears in the Old Testament, it means “Jehovah.”'
+  - where: 'christ'
+    claim: 'Paul taught Christ was the Jehovah of the Old Testament; the entry cites Exodus 17:6 with 1 Corinthians 10:1–4'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'The Apostle Paul taught that Christ was the Jehovah of the Old Testament (Ex. 17:6; 1 Cor. 10:1–4).'
+  - where: 'christ'
+    claim: '1 Corinthians 10:4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/10?lang=eng'
+    quote: 'for they drank of that spiritual Rock that followed them: and that Rock was Christ.'
+  - where: 'christ'
+    claim: 'At Meribah Moses struck a rock'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/17?lang=eng'
+    quote: 'Israel murmurs for want of water—Moses smites a rock in Horeb'
+  - where: 'explore'
+    claim: 'Psalm 50:7 has nearly the same summons'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.8 : Ps 50.7'
+  - where: 'explore'
+    claim: 'Psalm 95 warns about Meribah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/95?lang=eng'
+    quote: 'Harden not your heart, as in the provocation, and as in the day of temptation in the wilderness'
+  - where: 'explore'
+    claim: 'Deuteronomy 32 is set beside verses 9, 11 and 16'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.16 : Deut 32.13; Ps 147.14'
+  - where: 'explore'
+    claim: 'Deuteronomy 5:29 and Isaiah 48:18 beside verse 13'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.13 : Deut 5.29; Ps 128.1; Isa 48.18'
+  - where: 'explore'
+    claim: 'Numbers 20:13 is the second Meribah, set beside verse 7'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=ESV'
+    quote: 'Psalm 81:7 : Ex. 17:7; Num. 20:13'
+  - where: 'explore'
+    claim: 'Numbers 20: water of Meribah, Moses smites a rock'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/20?lang=eng'
+    quote: 'Moses smites a rock at Meribah and brings forth water'
+  - where: 'parallels'
+    claim: 'Exodus 20:2 beside verse 10'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.10 : Ex 20.2; Ps 103.5'
+  - where: 'parallels'
+    claim: 'Psalm 50:7 beside verse 8'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.8 : Ps 50.7'
+  - where: 'parallels'
+    claim: 'Psalm 95:9 has the verb “proved” of the fathers testing God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/974.htm'
+    quote: 'c. of man testing or tempting God'
+  - where: 'parallels'
+    claim: 'Jeremiah 7:24 has the two nouns of verse 12'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
+    quote: 'בִּ/שְׁרִר֖וּת'
+  - where: 'parallels'
+    claim: 'Deuteronomy 32:13 beside verse 16'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.16 : Deut 32.13; Ps 147.14'
+  - where: 'parallels'
+    claim: 'Isaiah 48:18 beside verse 13'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2081&version=NRSVUE'
+    quote: '81.13 : Deut 5.29; Ps 128.1; Isa 48.18'
