@@ -54,21 +54,6 @@ claims:
 
   # ---------- thread ----------
   - where: thread
-    claim: 'The world “is stablished” (verse 1) and the throne “is established” (verse 2) are one Hebrew verb, H3559'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'נָכ֣וֹן'
-  - where: thread
-    claim: 'The verb “lift up” (H5375) stands three times in verse 3: twice in the perfect and the third time in the imperfect'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'יִשְׂא֖וּ'
-  - where: thread
-    claim: 'The adjective for the “mighty” waves and for the LORD who is “mightier” is the same (H117), plural and then singular'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'אַדִּ֖יר'
-  - where: thread
     claim: 'One older reading: the LORD is King of His people, who preserve His revelation and worship in His temple'
     key: delitzsch-psalms
     url: 'https://biblehub.com/commentaries/kad/psalms/93.htm'
@@ -150,25 +135,10 @@ claims:
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2093&version=NRSVUE'
     quote: 'he is robed in majesty'
   - where: 'note 93:1 “Robed in majesty, girded with strength”'
-    claim: '“Girded himself” is the reflexive (Hithpael) form of the verb H247'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'הִתְאַזָּ֑ר'
-  - where: 'note 93:1 “Robed in majesty, girded with strength”'
-    claim: 'The lexicon lists the form only in Isaiah 8:9 (twice), where it glosses it gird oneself, for war, and in Psalm 93:1, with strength'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/247.htm'
-    quote: 'gird oneself, for war Isaiah 8:9 (twice in verse)'
-  - where: 'note 93:1 “Robed in majesty, girded with strength”'
-    claim: 'The word for “majesty” (H1348) has the sense of a lifting up, and is used of the swelling of the sea in Psalm 89:9 (89:10 in the Hebrew numbering)'
+    claim: 'The word for “majesty” (H1348) is used of the swelling of the sea in Psalm 89:9 (89:10 in the Hebrew numbering)'
     key: bdb
     url: 'https://biblehub.com/hebrew/1348.htm'
     quote: 'swelling of the sea Psalm 89:10'
-  - where: 'note 93:1 “Robed in majesty, girded with strength”'
-    claim: 'The lexicon’s first sense of the word is a lifting up'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/1348.htm'
-    quote: '1 lifting up'
   - where: 'note 93:1 “Robed in majesty, girded with strength”'
     claim: 'The same word (H1348) is the “raging” of the sea in the King James of Psalm 89:9'
     key: oshb-wlc
@@ -224,11 +194,6 @@ claims:
     key: delitzsch-psalms
     url: 'https://biblehub.com/commentaries/kad/psalms/93.htm'
     quote: 'The perfects affirm what has taken place, the future that which even now as yet is taking place.'
-  - where: 'note 93:3 “What the rising rivers are”'
-    claim: 'The word behind “waves” (H1796) occurs once in the Psalms, here (hebrew.mjs psalms --word 1796: 1 occurrence)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'דָּכְיָֽ/ם'
   - where: 'note 93:3 “What the rising rivers are”'
     claim: 'It means the crashing or dashing of waves'
     key: bdb
@@ -340,11 +305,6 @@ claims:
     quote: 'נָּאו֨וּ'
 
   # ---------- christ ----------
-  - where: christ
-    claim: 'Jehovah, the LORD of the Old Testament, is the premortal Jesus Christ'
-    key: gs-jehovah
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
-    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
   - where: christ
     claim: 'The angel’s words to King Benjamin: the Lord who reigns, from all eternity to all eternity, will come down among men'
     key: lds-scriptures
