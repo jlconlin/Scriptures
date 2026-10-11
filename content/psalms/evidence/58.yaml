@@ -54,26 +54,6 @@ claims:
 
   # ---------- thread ----------
   - where: thread
-    claim: 'Verse 1 and verse 11 use the same Hebrew verb, judge (H8199): verse 1'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'תִּ֝שְׁפְּט֗וּ'
-  - where: thread
-    claim: 'Verse 11 has the same verb, as a participle'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'שֹׁפְטִ֥ים'
-  - where: thread
-    claim: '“In the earth” in verse 2 and verse 11 is the same Hebrew phrase: verse 2'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'בָּ/אָ֡רֶץ'
-  - where: thread
-    claim: '“In the earth” in verse 11'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'בָּ/אָֽרֶץ'
-  - where: thread
     claim: 'In the Hebrew of verse 6 “God” is the first word'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
@@ -85,11 +65,6 @@ claims:
     quote: 'יְהוָֽה'
 
   # ---------- sections ----------
-  - where: thread
-    claim: 'One older reading: because the wicked cannot be persuaded, nothing remains but to pray for their removal'
-    key: delitzsch-psalms
-    url: 'https://biblehub.com/commentaries/kad/psalms/58.htm'
-    quote: 'Nothing therefore remains to David but to hope for their removal, and to pray for it.'
   - where: section 1 plain
     claim: 'Verse 1 can be rendered as addressed to rulers'
     key: niv
@@ -137,7 +112,7 @@ claims:
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NRSVUE'
     quote: 'To the leader: Do Not Destroy. Of David. A Miktam.'
-  - where: 'note 58:0 “Do not destroy”'
+  - where: setting
     claim: 'Titles of this kind are probably names of tunes'
     key: bd-psalms
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
