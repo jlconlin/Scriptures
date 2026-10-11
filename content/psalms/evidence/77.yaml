@@ -1,0 +1,505 @@
+chapter: 77
+claims:
+  # ---- when ----
+  - where: 'when'
+    claim: 'The title ascribes the psalm to Asaph and gives no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/77?lang=eng'
+    quote: 'To the chief Musician, to Jeduthun, A Psalm of Asaph.'
+
+  # ---- setting ----
+  - where: 'setting'
+    claim: 'Psalms 73–89 are one of the five books of the Psalter'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'Psalms 73–89: These psalms include a variety of themes.'
+  - where: 'setting'
+    claim: 'The trouble has been read as one the psalmist shares with his whole people'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/77.htm'
+    quote: 'an affliction shared in company with the whole of his people'
+  - where: 'setting'
+    claim: 'What the national trouble was cannot be told'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/77.htm'
+    quote: 'it remains obscure what kind of national affliction it is'
+  - where: 'setting'
+    claim: 'A lament usually has a petition and a vow of praise'
+    key: sc-knowhy-438
+    url: 'https://scripturecentral.org/knowhy/why-do-biblical-psalms-of-lament-show-up-in-the-book-of-mormon'
+    quote: '(1) invocation, (2) complaint, (3) confession of trust, (4) petition, and (5) vow of praise'
+  - where: 'setting'
+    claim: 'The chapter heading gives the psalm as a cry and a remembering'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/77?lang=eng'
+    quote: 'The righteous cry unto the Lord—They remember the wonders of old'
+  - where: 'setting'
+    claim: 'The song at the sea has the words the hymn uses'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/15?lang=eng'
+    quote: 'who is like thee, glorious in holiness, fearful in praises, doing wonders?'
+  - where: 'setting'
+    claim: 'Habakkuk 3 has the same storm at the sea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hab/3?lang=eng'
+    quote: 'Thou didst walk through the sea with thine horses, through the heap of great waters.'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'One Hebrew verb, “remember,” stands in verses 3, 6 and 11'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶזְכְּרָ֣ה'
+  - where: 'thread'
+    claim: '“Voice” in verse 1 and in verse 18 is one Hebrew word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'ק֤וֹל'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: 'Verse 2: the Hebrew has a hand stretched out in the night'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2077&version=NRSVUE'
+    quote: 'in the night my hand is stretched out without wearying;'
+  - where: 'section 1 plain'
+    claim: 'Verse 3: “was troubled” is to moan, and “overwhelmed” is to grow faint'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2077&version=NRSVUE'
+    quote: 'I meditate, and my spirit faints.'
+  - where: 'section 2 plain'
+    claim: 'Verse 4: the eyes held waking are eyelids kept from closing'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2077&version=NRSVUE'
+    quote: 'You keep my eyelids from closing;'
+  - where: 'section 3 plain'
+    claim: 'Verse 9: “tender mercies” is compassion'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2077&version=NRSVUE'
+    quote: 'Has he in anger shut up his compassion?'
+  - where: 'section 4 plain'
+    claim: 'Verse 10: “my infirmity” read as “my sickness”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2470.htm'
+    quote: 'Infinitive Qal; my sickness'
+  - where: 'section 5 plain'
+    claim: 'Verse 13: “in the sanctuary” is “holy”; verse 14: “the people” is plural, the peoples'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2077&version=NRSVUE'
+    quote: 'you have displayed your might among the peoples.'
+  - where: 'section 6 plain'
+    claim: 'Verse 16: “afraid” is a verb for writhing'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2342.htm'
+    quote: 'twist, writhe'
+  - where: 'section 6 plain'
+    claim: 'Verse 18: “in the heaven” is “in the whirlwind”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1534.htm'
+    quote: 'whirlwind Psalm 77:19'
+  - where: 'section 6 plain'
+    claim: 'Verse 19: “footsteps” are footprints'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6119.htm'
+    quote: 'thy footprints were not known'
+
+  # ---- note 77:0 ----
+  - where: 'note 77:0 “The names in the title”'
+    claim: 'The title as the Church’s edition prints it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/77?lang=eng'
+    quote: 'To the chief Musician, to Jeduthun, A Psalm of Asaph.'
+  - where: 'note 77:0 “The names in the title”'
+    claim: 'A modern translation has “according to Jeduthun”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2077&version=NRSVUE'
+    quote: 'To the leader: according to Jeduthun. Of Asaph. A Psalm.'
+
+  # ---- note 77:1 ----
+  - where: 'note 77:1 “Heard already, or asking to be heard”'
+    claim: 'A modern translation reads the clause as a purpose'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2077&version=NRSVUE'
+    quote: 'aloud to God, that he may hear me.'
+  - where: 'note 77:1 “Heard already, or asking to be heard”'
+    claim: 'The Greek has a past tense, as the King James does'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/77.htm'
+    quote: 'and he gave heed to me.'
+
+  # ---- note 77:2 ----
+  - where: 'note 77:2 “A hand stretched out all night”'
+    claim: 'The lexicon glosses the verb here as “be stretched out,” with a question mark, of “my hand”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5064.htm'
+    quote: 'be stretched out (?)'
+  - where: 'note 77:2 “A hand stretched out all night”'
+    claim: 'A modern translation has the hand stretched out'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2077&version=NRSVUE'
+    quote: 'in the night my hand is stretched out without wearying;'
+  - where: 'note 77:2 “A hand stretched out all night”'
+    claim: 'The Greek has hands, not a sore'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/77.htm'
+    quote: 'even with my hands by night before him'
+  - where: 'note 77:2 “A hand stretched out all night”'
+    claim: 'The Hebrew noun in verse 2 is the one translated “hand” in verse 20'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָדִ֤/י'
+
+  # ---- note 77:3 ----
+  - where: 'note 77:3 “Remembering, before the turn and after”'
+    claim: 'The verb “remember” stands in verses 3 and 6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶֽזְכְּרָ֥ה'
+  - where: 'note 77:3 “Remembering, before the turn and after”'
+    claim: 'The verb “remember” stands twice in verse 11'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶזְכְּרָ֖ה'
+  - where: 'note 77:3 “Remembering, before the turn and after”'
+    claim: 'One verb is “complained” (verse 3), “commune” (verse 6) and “talk” (verse 12)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אָשִֽׂיחָה'
+  - where: 'note 77:3 “Remembering, before the turn and after”'
+    claim: 'The lexicon’s senses of that verb'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7878.htm'
+    quote: 'muse, complain, in poetry talk (of)'
+  - where: 'note 77:3 “Remembering, before the turn and after”'
+    claim: '“Was troubled” is a verb for murmuring, used of the soul'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1993.htm'
+    quote: 'murmur, figurative of soul'
+  - where: 'note 77:3 “Remembering, before the turn and after”'
+    claim: 'A modern translation of verse 3'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2077&version=NRSVUE'
+    quote: 'I think of God, and I moan;'
+  - where: 'note 77:3 “Remembering, before the turn and after”'
+    claim: 'A modern translation of verse 4'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2077&version=NRSVUE'
+    quote: 'You keep my eyelids from closing;'
+  - where: 'note 77:3 “Remembering, before the turn and after”'
+    claim: '“Of old” in verses 5 and 11 is one Hebrew phrase'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִ/קֶּ֑דֶם'
+
+  # ---- note 77:9 ----
+  - where: 'note 77:9 “Words shared with Exodus 34:6”'
+    claim: 'The LORD’s proclamation of His name at Sinai'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/34?lang=eng'
+    quote: 'merciful and gracious, longsuffering, and abundant in goodness and truth'
+  - where: 'note 77:9 “Words shared with Exodus 34:6”'
+    claim: '“Mercy” in verse 8 is the Hebrew noun hesed'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַסְדּ֑/וֹ'
+  - where: 'note 77:9 “Words shared with Exodus 34:6”'
+    claim: '“Goodness” in Exodus 34:6 is the same noun, hesed, and “longsuffering” there contains the noun for anger'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'חֶ֥סֶד'
+  - where: 'note 77:9 “Words shared with Exodus 34:6”'
+    claim: '“Merciful” in Exodus 34:6 is an adjective, “compassionate,” used only of God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7349.htm'
+    quote: 'adjective compassionate; — always of God'
+  - where: 'note 77:9 “Words shared with Exodus 34:6”'
+    claim: 'The “tender mercies” God is asked whether He has shut up are His compassion'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7092.htm'
+    quote: 'shut up his compassion'
+  - where: 'note 77:9 “Words shared with Exodus 34:6”'
+    claim: '“Longsuffering” in Exodus 34:6 contains the Hebrew noun for anger'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'אַפַּ֖יִם'
+
+  # ---- note 77:10 ----
+  - where: 'note 77:10 “The hinge verse and its two readings”'
+    claim: 'The Hebrew of verse 10 has six words; the word read “years” is spelled as in verse 5'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שְׁ֝נ֗וֹת'
+  - where: 'note 77:10 “The hinge verse and its two readings”'
+    claim: 'The lexicon reads the word as the verb “change”: the right hand of the Highest is changed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8138.htm'
+    quote: 'Psalm 77:11 the right hand of the Highest is changed'
+  - where: 'note 77:10 “The hinge verse and its two readings”'
+    claim: 'The King James and others read “years” and supply “I will remember”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8138.htm'
+    quote: 'years, usually insert I will remember'
+  - where: 'note 77:10 “The hinge verse and its two readings”'
+    claim: '“My infirmity” read as “my sickness”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2470.htm'
+    quote: 'Infinitive Qal; my sickness'
+  - where: 'note 77:10 “The hinge verse and its two readings”'
+    claim: '“My infirmity” read from another root as “my piercing, my wound”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2490.htm'
+    quote: 'Psalm 77:11 it is my piercing, my wound'
+  - where: 'note 77:10 “The hinge verse and its two readings”'
+    claim: 'A modern translation takes “changed”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2077&version=NRSVUE'
+    quote: 'that the right hand of the Most High has changed.'
+  - where: 'note 77:10 “The hinge verse and its two readings”'
+    claim: 'The Greek has “change”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/77.htm'
+    quote: 'this is the change of the right hand of the Most High'
+
+  # ---- note 77:14 ----
+  - where: 'note 77:14 “The hymn uses the words of the song at the sea”'
+    claim: 'Moses’ song asks who is like the LORD, glorious in holiness, doing wonders'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/15?lang=eng'
+    quote: 'who is like thee, glorious in holiness, fearful in praises, doing wonders?'
+  - where: 'note 77:14 “The hymn uses the words of the song at the sea”'
+    claim: 'Exodus 15:11 has “in holiness” and “doing wonders” in the Hebrew words of Psalm 77:13–14'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'בַּ/קֹּ֑דֶשׁ'
+  - where: 'note 77:14 “The hymn uses the words of the song at the sea”'
+    claim: 'Psalm 77:13 has the same phrase, which the King James translates “in the sanctuary”; verse 14 has “doing wonders”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּ/קֹּ֣דֶשׁ'
+  - where: 'note 77:14 “The hymn uses the words of the song at the sea”'
+    claim: 'Exodus 15:11 is the primary passage behind verse 13'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/77.htm'
+    quote: 'The primary passage Exodus 15:11'
+  - where: 'note 77:14 “The hymn uses the words of the song at the sea”'
+    claim: 'On that ground the phrase is “in holiness,” not “in the sanctuary”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/77.htm'
+    quote: 'is not to be rendered "in the sanctuary"'
+  - where: 'note 77:14 “The hymn uses the words of the song at the sea”'
+    claim: 'A modern translation of verse 13'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2077&version=NRSVUE'
+    quote: 'Your way, O God, is holy.'
+  - where: 'note 77:14 “The hymn uses the words of the song at the sea”'
+    claim: 'Exodus 15:13 has the verbs “led” and “redeemed” and the noun hesed'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'נָחִ֥יתָ'
+  - where: 'note 77:14 “The hymn uses the words of the song at the sea”'
+    claim: 'Psalm 77:15 and 77:20 have the same two verbs, “redeemed” and “leddest”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נָחִ֣יתָ'
+  - where: 'note 77:14 “The hymn uses the words of the song at the sea”'
+    claim: 'Exodus 15:13 has the verb “redeemed”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'גָּאָ֑לְתָּ'
+  - where: 'note 77:14 “The hymn uses the words of the song at the sea”'
+    claim: 'Psalm 77:15 has the same verb, “redeemed”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'גָּאַ֣לְתָּ'
+  - where: 'note 77:14 “The hymn uses the words of the song at the sea”'
+    claim: 'Exodus 15:13 and 15:16 in the King James'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/15?lang=eng'
+    quote: 'Thou in thy mercy hast led forth the people which thou hast redeemed'
+
+  # ---- note 77:15 ----
+  - where: 'note 77:15 “Joseph, a name the psalms of Asaph use”'
+    claim: 'Psalm 78, a psalm of Asaph by its title, names Joseph beside Ephraim'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/78?lang=eng'
+    quote: 'Moreover he refused the tabernacle of Joseph, and chose not the tribe of Ephraim:'
+  - where: 'note 77:15 “Joseph, a name the psalms of Asaph use”'
+    claim: 'Psalm 80, a psalm of Asaph by its title, names Joseph as the flock'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/80?lang=eng'
+    quote: 'To the chief Musician upon Shoshannim-Eduth, A Psalm of Asaph.'
+  - where: 'note 77:15 “Joseph, a name the psalms of Asaph use”'
+    claim: 'Psalm 81, a psalm of Asaph by its title, names Joseph'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/81?lang=eng'
+    quote: 'This he ordained in Joseph for a testimony'
+  - where: 'note 77:15 “Joseph, a name the psalms of Asaph use”'
+    claim: 'The fifth verse of the Psalms that names Joseph is about the man'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/105?lang=eng'
+    quote: 'He sent a man before them, even Joseph, who was sold for a servant:'
+
+  # ---- note 77:16 ----
+  - where: 'note 77:16 “The sea sees God, and a storm”'
+    claim: '“Afraid” is a verb for writhing in pain, especially childbirth'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2342.htm'
+    quote: 'in pain, especially childbirth'
+  - where: 'note 77:16 “The sea sees God, and a storm”'
+    claim: 'The same verb is used of the mountains in Habakkuk 3:10'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2342.htm'
+    quote: 'figurative of mountains Habakkuk 3:10'
+  - where: 'note 77:16 “The sea sees God, and a storm”'
+    claim: 'An older commentary has the waters fall into travail'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/77.htm'
+    quote: 'the waters immediately fell as it were into pangs of travail'
+  - where: 'note 77:16 “The sea sees God, and a storm”'
+    claim: 'Verses 17–18 are the picture of a thunderstorm'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/77.htm'
+    quote: 'lines taken from the picture of a thunder-storm'
+  - where: 'note 77:16 “The sea sees God, and a storm”'
+    claim: 'The arrows are lightning'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/77.htm'
+    quote: 'are the lightnings'
+  - where: 'note 77:16 “The sea sees God, and a storm”'
+    claim: 'The storm shows nature serving the Lord at the deliverance'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/77.htm'
+    quote: 'how all the powers of nature became the servants of the majestic revelation of Jahve'
+  - where: 'note 77:16 “The sea sees God, and a storm”'
+    claim: '“In the heaven” is read “whirlwind”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1534.htm'
+    quote: 'whirlwind Psalm 77:19'
+  - where: 'note 77:16 “The sea sees God, and a storm”'
+    claim: 'Whether the word means the rolling of the thunder or the whirlwind is open to question, and usage favours the whirlwind'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/77.htm'
+    quote: 'It is open to question whether'
+  - where: 'note 77:16 “The sea sees God, and a storm”'
+    claim: 'Usage favours the whirlwind'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/77.htm'
+    quote: 'is in favour of the latter'
+  - where: 'note 77:16 “The sea sees God, and a storm”'
+    claim: 'Habakkuk 3:11 has the arrows'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hab/3?lang=eng'
+    quote: 'at the light of thine arrows they went'
+  - where: 'note 77:16 “The sea sees God, and a storm”'
+    claim: '“Voice” in verse 1, “sound” in verse 17 and “voice” in verse 18 are one Hebrew word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'ק֭וֹל'
+  - where: 'note 77:16 “The sea sees God, and a storm”'
+    claim: 'Habakkuk 3:10 in the King James'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hab/3?lang=eng'
+    quote: 'The mountains saw thee, and they trembled'
+  - where: 'note 77:16 “The sea sees God, and a storm”'
+    claim: 'One older commentator holds that Habakkuk continues the psalm'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/77.htm'
+    quote: 'Where our Psalm leaves off, Habakkuk 3 goes on'
+  - where: 'note 77:16 “The sea sees God, and a storm”'
+    claim: 'Another scholar held the reverse, that the psalmist imitates Habakkuk'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/77.htm'
+    quote: 'Hitzig certainly calls the psalmist the reader and imitator of Habakkuk 3'
+
+  # ---- note 77:19 ----
+  - where: 'note 77:19 “No footprints, and no return to the complaint”'
+    claim: 'The Hebrew word is heel, and so footprint'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6119.htm'
+    quote: 'noun masculine heel, footprint, hinderpart'
+  - where: 'note 77:19 “No footprints, and no return to the complaint”'
+    claim: 'The lexicon’s rendering of the clause'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6119.htm'
+    quote: 'thy footprints were not known (the waters closing over them)'
+  - where: 'note 77:19 “No footprints, and no return to the complaint”'
+    claim: 'God’s working was invisible and its result visible'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/77.htm'
+    quote: 'His person and His working were invisible, but the result which attested His active presence was visible.'
+  - where: 'note 77:19 “No footprints, and no return to the complaint”'
+    claim: '“Thy way” in verses 13 and 19 is one Hebrew word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'דַּרְכֶּ֗/ךָ'
+  - where: 'note 77:19 “No footprints, and no return to the complaint”'
+    claim: 'A vow of praise is one of a lament’s usual parts'
+    key: sc-knowhy-438
+    url: 'https://scripturecentral.org/knowhy/why-do-biblical-psalms-of-lament-show-up-in-the-book-of-mormon'
+    quote: '(1) invocation, (2) complaint, (3) confession of trust, (4) petition, and (5) vow of praise'
+  - where: 'note 77:19 “No footprints, and no return to the complaint”'
+    claim: 'Some have thought the psalm damaged or unfinished'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/77.htm'
+    quote: 'Olshausen is of opinion that it is mutilated, and Tholuck that the author never completed it'
+  - where: 'note 77:19 “No footprints, and no return to the complaint”'
+    claim: 'Closing on a picture from history is the manner of the psalms of Asaph'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/77.htm'
+    quote: 'it is the Asaphic manner thus to close with an historical picture'
+  - where: 'note 77:19 “No footprints, and no return to the complaint”'
+    claim: 'The old redemption is read as a prophecy of what lies beyond the present trouble'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/77.htm'
+    quote: 'is to him a prophecy of the future lying behind the afflictive years of the present'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
+  - where: 'christ'
+    claim: 'Paul says the fathers passed through the sea and that the Rock was Christ'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/10?lang=eng'
+    quote: 'for they drank of that spiritual Rock that followed them: and that Rock was Christ.'
+  - where: 'christ'
+    claim: 'Jesus calls Himself the good shepherd'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/10?lang=eng'
+    quote: 'I am the good shepherd, and know my sheep, and am known of mine.'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'Habakkuk asks God to remember mercy in wrath'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hab/3?lang=eng'
+    quote: 'in wrath remember mercy'
+  - where: 'explore'
+    claim: 'Isaiah 63 remembers the sea and the shepherd of the flock'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/63?lang=eng'
+    quote: 'Where is he that brought them up out of the sea with the shepherd of his flock?'
+  - where: 'explore'
+    claim: 'Psalm 80 opens by addressing the Shepherd who leads Joseph like a flock'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/80?lang=eng'
+    quote: 'Give ear, O Shepherd of Israel, thou that leadest Joseph like a flock'
+  - where: 'explore'
+    claim: 'Alma praises God for the deliverance at the Red Sea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/36?lang=eng'
+    quote: 'he has brought our fathers out of Egypt, and he has swallowed up the Egyptians in the Red Sea'
+
+  # ---- parallels ----
+  - where: 'parallels'
+    claim: 'Exodus 15:13 has the leading and redeeming of verses 15 and 20'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/15?lang=eng'
+    quote: 'Thou in thy mercy hast led forth the people which thou hast redeemed'
+  - where: 'parallels'
+    claim: 'Habakkuk 3:15 has the way through the sea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hab/3?lang=eng'
+    quote: 'Thou didst walk through the sea with thine horses, through the heap of great waters.'
