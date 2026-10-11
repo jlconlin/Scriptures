@@ -1,0 +1,501 @@
+chapter: 71
+claims:
+  # ---- when ----
+  - where: 'when'
+    claim: 'The psalm has no title in the Church’s edition: the page gives the chapter heading and then verse 1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/71?lang=eng'
+    quote: 'In thee, O Lord, do I put my trust: let me never be put to confusion.'
+  - where: 'when'
+    claim: 'The speaker is old (verse 18 in a modern translation)'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'So even to old age and gray hairs'
+
+  # ---- setting ----
+  - where: 'setting'
+    claim: 'Psalm 70 before it is David’s by its title, and the psalm itself is anonymous'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/71.htm'
+    quote: 'The Davidic Psalm 70:1-5 is followed by an anonymous Psalm which begins like Psalm 31 and closes like Psalm 35'
+  - where: 'setting'
+    claim: 'The Greek translation gives the psalm a title'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/71.htm'
+    quote: 'By David, a Psalm sung by the sons of Jonadab, and the first that were taken captive.'
+  - where: 'setting'
+    claim: 'The sons of Jonadab are the Rechabites of Jeremiah 35'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/35?lang=eng'
+    quote: 'The Rechabites are commended and blessed for their obedience.'
+  - where: 'setting'
+    claim: 'The Rechabites call Jonadab the son of Rechab their father'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/35?lang=eng'
+    quote: 'We will drink no wine: for Jonadab the son of Rechab our father commanded us'
+  - where: 'setting'
+    claim: 'The heading in the Church’s edition speaks of David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/71?lang=eng'
+    quote: 'David praises God with thanksgiving—Who is like unto the Lord!'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: '“Continually” in verses 3, 6 and 14 is one Hebrew word (tamid, H8548); verse 3'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תָּמִ֗יד'
+  - where: 'thread'
+    claim: '“Continually” in verse 14 is the same word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תָּמִ֣יד'
+  - where: 'thread'
+    claim: '“Righteousness” in verses 2, 15, 16, 19 and 24 is one Hebrew noun (tsedaqah, H6666); verse 2'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/צִדְקָתְ/ךָ֗'
+  - where: 'thread'
+    claim: '“Put to confusion” in verse 1 is the verb bosh (H954)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֵב֥וֹשָׁה'
+  - where: 'thread'
+    claim: '“Confounded” in verse 13 is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יֵבֹ֣שׁוּ'
+  - where: 'thread'
+    claim: '“Confounded” in verse 24 is the same verb, in the perfect'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בֹ֥שׁוּ'
+  - where: 'thread'
+    claim: 'The perfect tenses of the last line present the hoped-for rescue as done'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/71.htm'
+    quote: 'In the perfects in the closing line that which is hoped for stands before his soul as though it had already taken place.'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: 'Verse 1 rendered “take refuge” and “put to shame”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'let me never be put to shame'
+  - where: 'section 1 plain'
+    claim: 'Verse 3 in the Hebrew: a rock of habitation, “to come continually you have commanded”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'Gk: Heb to come continually you have commanded'
+  - where: 'section 2 plain'
+    claim: 'Verse 6 rendered “leaned upon you”; verse 7 “portent”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'From my birth I have leaned upon you'
+  - where: 'section 3 plain'
+    claim: 'Verse 9 rendered “when my strength is spent”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'do not forsake me when my strength is spent'
+  - where: 'section 3 plain'
+    claim: 'Verse 13: “adversaries” as accusers; “scorn and disgrace”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'Let my accusers be put to shame and consumed'
+  - where: 'section 4 plain'
+    claim: 'Verse 15: the acts are past counting'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'though their number is past my knowledge'
+  - where: 'section 4 plain'
+    claim: 'Verse 16: “strength” is “mighty deeds”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'I will come praising the mighty deeds'
+  - where: 'section 4 plain'
+    claim: 'Verse 18: “strength” is “arm” in the Greek, as in the Hebrew'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/71.htm'
+    quote: 'until I shall have declared thine arm to all the generation that is to come'
+  - where: 'section 5 plain'
+    claim: 'Verse 20: “quicken” as revive'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'will revive me again'
+  - where: 'section 6 plain'
+    claim: 'Verse 22: “truth” as faithfulness; psaltery and harp as harp and lyre'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'for your faithfulness, O my God'
+
+  # ---- notes ----
+  - where: 'note 71:1 “A prayer made of older psalms”'
+    claim: 'The psalm begins like Psalm 31 and closes like Psalm 35'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/71.htm'
+    quote: 'an anonymous Psalm which begins like Psalm 31 and closes like Psalm 35'
+  - where: 'note 71:1 “A prayer made of older psalms”'
+    claim: 'Verses 1–3 come from Psalm 31:1–3 and verses 5–6 from Psalm 22:9–10 (the commentary numbers by the Hebrew, one higher)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/71.htm'
+    quote: 'The first of these two strophes (Psalm 71:1-3) is taken from Psalm 31:2-4, the second (Psalm 71:4-6, with the exception of Psalm 71:4 and Psalm 71:6) from Psalm 22:10-11'
+  - where: 'note 71:1 “A prayer made of older psalms”'
+    claim: 'Verse 12 echoes the pleas of Psalms 22, 35, 38 and 40 (70)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/71.htm'
+    quote: 'Psalm 71:12, which is an echo of very similar prayers of David in Psalm 22:12, Psalm 22:20 (Psalm 40:14, cf. Psalm 70:2), Psalm 35:22; Psalm 38:22'
+  - where: 'note 71:1 “A prayer made of older psalms”'
+    claim: 'The older psalms’ language has become the author’s own and is revived by like experiences'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/71.htm'
+    quote: 'The whole Psalm is an echo of the language of older Psalms, which is become the mental property, so to speak, of the author, and is revived in him by experiences of a similar character.'
+  - where: 'note 71:1 “A prayer made of older psalms”'
+    claim: 'Psalm 31:1–3 has the words of verses 1–3'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/31?lang=eng'
+    quote: 'for thou art my rock and my fortress'
+  - where: 'note 71:1 “A prayer made of older psalms”'
+    claim: 'Psalm 35 has the wish of verse 13 and the last line of verse 24'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/35?lang=eng'
+    quote: 'And my tongue shall speak of thy righteousness and of thy praise all the day long.'
+
+  - where: 'note 71:3 “A rock to live in”'
+    claim: 'The word after “rock” here is ma‘on (H4583), the King James “habitation”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מָע֡וֹן'
+  - where: 'note 71:3 “A rock to live in”'
+    claim: 'Psalm 31:2 has ma‘oz (H4581) in the same place, one letter different'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מָ֭עוֹז'
+  - where: 'note 71:3 “A rock to live in”'
+    claim: 'A modern translation prints the Hebrew of the next words in a note and follows the Greek'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'Gk: Heb to come continually you have commanded'
+  - where: 'note 71:3 “A rock to live in”'
+    claim: 'The modern translation’s text of the line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'Be to me a rock of refuge'
+  - where: 'note 71:3 “A rock to live in”'
+    claim: 'The Greek of the line'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/71.htm'
+    quote: 'Be to me a protecting God, and a strong hold to save me'
+  - where: 'note 71:3 “A rock to live in”'
+    claim: 'Psalm 31:2 reads “for an house of defence to save me”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/31?lang=eng'
+    quote: 'be thou my strong rock, for an house of defence to save me.'
+
+  - where: 'note 71:6 “Cut from the womb”'
+    claim: 'The verb here is from gazah (H1491)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'גוֹזִ֑/י'
+  - where: 'note 71:6 “Cut from the womb”'
+    claim: 'Psalm 22:9 has a different verb (H1518) in the same place'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'גֹחִ֣/י'
+  - where: 'note 71:6 “Cut from the womb”'
+    claim: 'The root means to cut, cut off, sever'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1491.htm'
+    quote: 'verb cut, (cut off, sever)'
+  - where: 'note 71:6 “Cut from the womb”'
+    claim: 'The Greek has “protector”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/71.htm'
+    quote: 'from the belly of my mother thou art my protector'
+  - where: 'note 71:6 “Cut from the womb”'
+    claim: 'A modern translation follows the Greek and Jerome and gives the Hebrew in a note'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'Q ms Gk Jerome: MT from my mother’s womb you took me'
+  - where: 'note 71:6 “Cut from the womb”'
+    claim: 'The modern translation’s text: “leaned upon you,” “my protector since my mother’s womb”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'my protector since my mother’s womb'
+  - where: 'note 71:6 “Cut from the womb”'
+    claim: '“Holden up” as leaned'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'From my birth I have leaned upon you'
+  - where: 'note 71:6 “Cut from the womb”'
+    claim: 'Psalm 22:9 has the line this verse reworks'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/22?lang=eng'
+    quote: 'But thou art he that took me out of the womb'
+
+  - where: 'note 71:7 “A sign to many”'
+    claim: 'The word is mopheth (H4159)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כְּ֭/מוֹפֵת'
+  - where: 'note 71:7 “A sign to many”'
+    claim: 'It means wonder, sign, portent'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4159.htm'
+    quote: 'wonder, sign, portent'
+  - where: 'note 71:7 “A sign to many”'
+    claim: 'The lexicon lists Psalm 71:7 as said of one protected by the LORD, next after the use for the effect of a curse in Deuteronomy 28:46'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4159.htm'
+    quote: 'to one protected by'
+  - where: 'note 71:7 “A sign to many”'
+    claim: 'The word’s other uses in the Psalms are 78:43; 105:5, 27; 135:9 (hebrew.mjs psalms --word 4159: five occurrences)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וּ֭/מֹפְתִים'
+  - where: 'note 71:7 “A sign to many”'
+    claim: 'One older reading: he is a wonder, a miracle, to those who watch him with astonishment'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/71.htm'
+    quote: 'as a wonder, a miracle'
+  - where: 'note 71:7 “A sign to many”'
+    claim: 'The same reading: he has been brought safely through dangers'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/71.htm'
+    quote: 'Brought safely through dangers of every kind'
+  - where: 'note 71:7 “A sign to many”'
+    claim: 'A modern translation has “portent”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'I have been like a portent to many'
+  - where: 'note 71:7 “A sign to many”'
+    claim: 'Deuteronomy 28:46 uses the word of the curses'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/28?lang=eng'
+    quote: 'And they shall be upon thee for a sign and for a wonder, and upon thy seed for ever.'
+
+  - where: 'note 71:9 “President Benson repeats the plea”'
+    claim: 'President Benson quoted Psalm 71:9 when he turned to speak to the families of the elderly'
+    key: benson-elderly
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1989/10/to-the-elderly-in-the-church?lang=eng'
+    quote: 'Now for a few minutes may I speak to the families of the elderly. We repeat a scripture from Psalms: “Cast me not off in the time of old age; forsake me not when my strength faileth.” (Ps. 71:9.)'
+  - where: 'note 71:9 “President Benson repeats the plea”'
+    claim: 'He went on to ask families to care for their elderly parents and grandparents'
+    key: benson-elderly
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1989/10/to-the-elderly-in-the-church?lang=eng'
+    quote: 'We encourage families to give their elderly parents and grandparents the love, care, and attention they deserve.'
+
+  - where: 'note 71:11 “The enemies say he is forsaken”'
+    claim: '“Forsake” in verse 9 is the verb ‘azab (H5800)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תַּעַזְבֵֽ/נִי'
+  - where: 'note 71:11 “The enemies say he is forsaken”'
+    claim: '“Forsaken” in verse 11 is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עֲזָב֑/וֹ'
+  - where: 'note 71:11 “The enemies say he is forsaken”'
+    claim: 'Psalm 22:1 has the same verb (“why hast thou forsaken me”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עֲזַבְתָּ֑/נִי'
+  - where: 'note 71:11 “The enemies say he is forsaken”'
+    claim: 'Psalm 22:1 in the King James text'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/22?lang=eng'
+    quote: 'why hast thou forsaken me?'
+
+  - where: 'note 71:16 “Coming with the mighty deeds”'
+    claim: '“Strength” in verse 16 is a plural noun (geburot, H1369, morphology Ncfpc)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בִּ֭/גְבֻרוֹת'
+  - where: 'note 71:16 “Coming with the mighty deeds”'
+    claim: 'The same noun, singular, is “thy power” in verse 18'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'גְּבוּרָתֶֽ/ךָ'
+  - where: 'note 71:16 “Coming with the mighty deeds”'
+    claim: 'A modern translation renders the plural “mighty deeds”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'I will come praising the mighty deeds'
+  - where: 'note 71:16 “Coming with the mighty deeds”'
+    claim: 'Verse 15: the numbers are of the LORD’s acts, which are innumerable'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5615.htm'
+    quote: 'they are innumerable'
+  - where: 'note 71:16 “Coming with the mighty deeds”'
+    claim: 'A modern rendering of the last clause of verse 15'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'though their number is past my knowledge'
+  - where: 'note 71:16 “Coming with the mighty deeds”'
+    claim: 'A modern translation renders “righteousness” in verse 15 as righteous acts'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'My mouth will tell of your righteous acts'
+  - where: 'note 71:16 “Coming with the mighty deeds”'
+    claim: 'Psalm 40:5 says God’s works are more than can be numbered'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/40?lang=eng'
+    quote: 'they are more than can be numbered'
+
+  - where: 'note 71:18 “Old age and gray hair”'
+    claim: '“Old” in verse 18 is the noun ziqnah (H2209), old age'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'זִקְנָ֨ה'
+  - where: 'note 71:18 “Old age and gray hair”'
+    claim: '“Grayheaded” is the noun sebah (H7872), gray hair'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/שֵׂיבָה֮'
+  - where: 'note 71:18 “Old age and gray hair”'
+    claim: 'Isaiah 46:4 has the same noun for “old age” (H2209)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'זִקְנָה֙'
+  - where: 'note 71:18 “Old age and gray hair”'
+    claim: 'Isaiah 46:4 has the same noun for “hoar hairs” (H7872)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'שֵיבָ֖ה'
+  - where: 'note 71:18 “Old age and gray hair”'
+    claim: 'Isaiah 46:3–4 in the King James text'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/46?lang=eng'
+    quote: 'And even to your old age I am he; and even to hoar hairs will I carry you'
+  - where: 'note 71:18 “Old age and gray hair”'
+    claim: 'A modern translation’s cross-references join verse 6 to Isaiah 46:3'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: '71.6 : Ps 22.9, 10; 34.1; Isa 46.3'
+  - where: 'note 71:18 “Old age and gray hair”'
+    claim: 'The Hebrew of “this generation” is “to a generation”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'Gk Compare Syr: Heb to a generation, to all who come'
+  - where: 'note 71:18 “Old age and gray hair”'
+    claim: '“Strength” in verse 18 is “arm” (zeroa, H2220)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'זְרוֹעֲ/ךָ֣'
+  - where: 'note 71:18 “Old age and gray hair”'
+    claim: 'The Greek translates it “arm”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/71.htm'
+    quote: 'until I shall have declared thine arm'
+  - where: 'note 71:18 “Old age and gray hair”'
+    claim: 'Psalm 22:31 ends on telling a people yet to be born'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/22?lang=eng'
+    quote: 'unto a people that shall be born'
+
+  - where: 'note 71:20 “Brought up from the depths”'
+    claim: 'A modern translation renders “quicken” as revive'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2071&version=NRSVUE'
+    quote: 'will revive me again'
+  - where: 'note 71:20 “Brought up from the depths”'
+    claim: 'The depths are abysses, a figure of extreme danger'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/71.htm'
+    quote: 'are, like the gates of death (Psalm 9:14), a figure of extreme perils and dangers'
+  - where: 'note 71:20 “Brought up from the depths”'
+    claim: 'The written text (ketiv) of “shewed me” has the suffix “us”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הראית/נו'
+  - where: 'note 71:20 “Brought up from the depths”'
+    claim: 'The written text of “quicken me” has “us” as well'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תחיי/נו'
+  - where: 'note 71:20 “Brought up from the depths”'
+    claim: 'The reading tradition (qere) has “me”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הִרְאִיתַ֨/נִי'
+  - where: 'note 71:20 “Brought up from the depths”'
+    claim: 'The third verb, “bring me up,” has “me” with no second reading'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תַּעֲלֵֽ/נִי'
+  - where: 'note 71:20 “Brought up from the depths”'
+    claim: 'One reading of the written “us”: the speaker’s experience joined to his nation’s'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/71.htm'
+    quote: 'those which he has experienced in common with others in the history of his own nation'
+  - where: 'note 71:20 “Brought up from the depths”'
+    claim: 'A Latter-day Saint study counts at least forty-three textual allusions to the Psalms in the Book of Mormon'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: 'I believe there are at least forty-three textual allusions to the book of Psalms in the Book of Mormon, as outlined in table 1.'
+  - where: 'note 71:20 “Brought up from the depths”'
+    claim: 'Its table lists “the depths of the earth” for Psalm 71:20 with no appearances elsewhere'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: 'Psalm 71:20 The depths of the earth 0'
+  - where: 'note 71:20 “Brought up from the depths”'
+    claim: 'The Book of Mormon verses listed for the phrase are 2 Nephi 26:5 and 3 Nephi 9:6, 8; 28:20'
+    key: hilton-psalms-bom
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/old-testament-psalms-book-mormon'
+    quote: '3 Nephi 9:6, 8; 28:20'
+  - where: 'note 71:20 “Brought up from the depths”'
+    claim: 'In 3 Nephi 9 the wicked are buried in the depths of the earth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/9?lang=eng'
+    quote: 'the inhabitants thereof to be buried up in the depths of the earth'
+  - where: 'note 71:20 “Brought up from the depths”'
+    claim: 'In 3 Nephi 28:20 the disciples are delivered out of the depths of the earth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/28?lang=eng'
+    quote: 'by his power they were delivered out of the depths of the earth'
+
+  - where: 'note 71:22 “The Holy One of Israel”'
+    claim: 'The title is a name for the Savior, used most by Isaiah'
+    key: bd-holy-one
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/holy-one-of-israel?lang=eng'
+    quote: 'A name for the Savior used 34 times in the Old Testament, most frequently by Isaiah'
+  - where: 'note 71:22 “The Holy One of Israel”'
+    claim: 'It appears three times in the Psalms'
+    key: bd-holy-one
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/holy-one-of-israel?lang=eng'
+    quote: 'It appears three times in the Psalms (71:22; 78:41; 89:18)'
+  - where: 'note 71:22 “The Holy One of Israel”'
+    claim: 'Nephi identifies the Holy One of Israel as Christ'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/25?lang=eng'
+    quote: 'and Christ is the Holy One of Israel'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'The Holy One of Israel is identified as Christ in 2 Nephi 25:29'
+    key: bd-holy-one
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/holy-one-of-israel?lang=eng'
+    quote: 'The Holy One of Israel is identified as Christ in 2 Ne. 25:29.'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'Isaiah 46:3–4 has the LORD carrying His people from the womb to gray hairs'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/46?lang=eng'
+    quote: 'And even to your old age I am he; and even to hoar hairs will I carry you'
+
+  # ---- parallels ----
+  - where: 'parallels'
+    claim: 'Psalm 31:1–3 has the words of verses 1–3'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/31?lang=eng'
+    quote: 'for thou art my rock and my fortress'
+  - where: 'parallels'
+    claim: 'Psalm 22:9–10: trust from the womb'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/22?lang=eng'
+    quote: 'I was cast upon thee from the womb'
+  - where: 'parallels'
+    claim: 'Psalm 35:28 has the last line of the psalm'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/35?lang=eng'
+    quote: 'And my tongue shall speak of thy righteousness and of thy praise all the day long.'
