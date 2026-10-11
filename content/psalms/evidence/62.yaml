@@ -1,0 +1,551 @@
+chapter: 62
+claims:
+  # ---------- setting ----------
+  - where: setting
+    claim: 'The psalm’s last verse addresses God by the title (adonai), not the divine name; no verse of the psalm has the divine name (hebrew.mjs psalms 62:0-12 lists every word)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲדֹנָ֥/י'
+  - where: setting
+    claim: 'The title ascribes the psalm to David, names Jeduthun, and gives no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/62?lang=eng'
+    quote: 'To the chief Musician, to Jeduthun, A Psalm of David.'
+  - where: setting
+    claim: 'One older reading places the psalm in the time of Absalom’s revolt'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/62.htm'
+    quote: 'as being a product of the time of the persecution by Absalom'
+  - where: setting
+    claim: 'The same reading takes the “excellency” of verse 4 as the throne'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/62.htm'
+    quote: 'at thrusting down from his high position, that is to say from the throne'
+  - where: setting
+    claim: 'A modern translation heads the psalm “Song of Trust in God Alone”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'Song of Trust in God Alone'
+  - where: setting
+    claim: 'Psalm 39 also carries Jeduthun’s name in its title'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/39?lang=eng'
+    quote: 'To the chief Musician, even to Jeduthun, A Psalm of David.'
+  - where: setting
+    claim: 'Psalm 39 uses the same particle (ak) in verses 5, 6 and 11 (hebrew.mjs psalms --word 389)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַ֥ךְ'
+  - where: setting
+    claim: 'Psalm 39 calls every man vanity'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/39?lang=eng'
+    quote: 'verily every man at his best state is altogether vanity'
+  - where: setting
+    claim: 'A modern translation’s cross-references tie verse 9 to Psalm 39:5 and 11'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: '62.9 : Ps 39.5, 11; Isa 40.15, 17; Rom 3.4'
+  - where: setting
+    claim: 'Proverbs 24:12 has the words of the psalm’s last line'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/prov/24?lang=eng'
+    quote: 'shall not he render to every man according to his works?'
+  - where: setting
+    claim: 'Paul has the line in Romans 2:6'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/2?lang=eng'
+    quote: 'Who will render to every man according to his deeds:'
+  - where: setting
+    claim: 'A modern translation’s cross-references tie verse 12 to Matthew 16:27'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: '62.12 : Job 34.11; Mt 16.27; Col 3.25'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: '“Rock” in verses 2 and 6 is tsur, the word explained at Psalm 18:2'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'צ֭וּרִ/י'
+  - where: thread
+    claim: 'On one reading of verse 3 the attackers see the man as a wall already leaning'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/62.htm'
+    quote: 'To them David seems like a bent, overhanging wall'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: 'Verse 2: “defence” as fortress; “moved” as shaken'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'my fortress; I shall never be shaken.'
+  - where: section 1 plain
+    claim: 'Verse 1: the soul is silent, still, before God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1747.htm'
+    quote: 'noun feminine silence, still waiting, repose'
+  - where: section 2 plain
+    claim: 'Verse 3: “imagine mischief against” as assail'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'How long will you assail a person,'
+  - where: section 2 plain
+    claim: 'Verse 3: other translations have the attackers battering the man as a leaning wall'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'will you batter your victim, all of you,'
+  - where: section 2 plain
+    claim: 'Verse 4: their only plan is to bring him down from his high standing'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'Their only plan is to bring down a person of prominence.'
+  - where: section 3 plain
+    claim: 'Verse 5: “expectation” as hope'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'for my hope is from him.'
+  - where: section 3 plain
+    claim: 'Verse 5: the verb is a command to be silent, resigned, to God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1826.htm'
+    quote: 'be silent to i.e. be resigned to'
+  - where: section 3 plain
+    claim: 'Verse 7: salvation and honor rest on God; “rock of my strength” as strong rock'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'On God rests my deliverance and my honor;'
+  - where: section 4 plain
+    claim: 'Verse 9: breath for vanity; on the scales they go up'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'in the balances they go up;'
+  - where: section 4 plain
+    claim: 'Verse 10: extortion for oppression; vain hopes in robbery'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'Put no confidence in extortion,'
+  - where: section 5 plain
+    claim: 'Verse 12: “mercy” as steadfast love; “renderest” as repay'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'and steadfast love belongs to you, O Lord.'
+
+  # ---------- note 62:0 ----------
+  - where: 'note 62:0 “Jeduthun’s name again”'
+    claim: 'Jeduthun’s sons were one of three families David set apart for the sanctuary’s music'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/25?lang=eng'
+    quote: 'separated to the service of the sons of Asaph, and of Heman, and of Jeduthun, who should prophesy with harps, with psalteries, and with cymbals'
+  - where: 'note 62:0 “Jeduthun’s name again”'
+    claim: 'Jeduthun was over his sons in that service'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/25?lang=eng'
+    quote: 'under the hands of their father Jeduthun, who prophesied with a harp'
+  - where: 'note 62:0 “Jeduthun’s name again”'
+    claim: 'His name is in the title of Psalm 39'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/39?lang=eng'
+    quote: 'To the chief Musician, even to Jeduthun, A Psalm of David.'
+  - where: 'note 62:0 “Jeduthun’s name again”'
+    claim: 'His name is in the title of Psalm 77'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/77?lang=eng'
+    quote: 'To the chief Musician, to Jeduthun, A Psalm of Asaph.'
+
+  # ---------- note 62:1 ak ----------
+  - where: 'note 62:1 “One small word, six times”'
+    claim: 'The particle ak is the first word of verses 1, 2, 4, 5, 6 and 9 (hebrew.mjs psalms 62:0-12); the form in verse 1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַ֣ךְ'
+  - where: 'note 62:1 “One small word, six times”'
+    claim: 'The book of Psalms has the word 24 times, six of them in Psalm 62 (hebrew.mjs psalms --word 389: “24 occurrences, in 22 of the book’s 2527 Hebrew verses”); the form in verses 4 and 9'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַ֤ךְ'
+  - where: 'note 62:1 “One small word, six times”'
+    claim: 'The word’s first sense is “surely”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/389.htm'
+    quote: '1 surely.'
+  - where: 'note 62:1 “One small word, six times”'
+    claim: 'Its second sense is restrictive'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/389.htm'
+    quote: '2 with a restrictive force, emphasizing what follows:'
+  - where: 'note 62:1 “One small word, six times”'
+    claim: 'In some passages either sense fits and interpreters differ'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/389.htm'
+    quote: 'In some passages the affirmative and restrictive senses agree equally with the context; and authorities read the Hebrew differently.'
+  - where: 'note 62:1 “One small word, six times”'
+    claim: 'A modern translation takes the restrictive sense in verse 1'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'For God alone my soul waits in silence;'
+  - where: 'note 62:1 “One small word, six times”'
+    claim: 'and in verse 2'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'He alone is my rock and my salvation,'
+  - where: 'note 62:1 “One small word, six times”'
+    claim: 'and in verse 9, “but a breath”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'Those of low estate are but a breath;'
+
+  # ---------- note 62:1 silence ----------
+  - where: 'note 62:1 “Waiting is silence”'
+    claim: 'The word in verse 1 is a noun, dumiyyah, with no verb of waiting in the line'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'דּֽוּמִיָּ֣ה'
+  - where: 'note 62:1 “Waiting is silence”'
+    claim: 'The noun means silence, still waiting, repose'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1747.htm'
+    quote: 'noun feminine silence, still waiting, repose'
+  - where: 'note 62:1 “Waiting is silence”'
+    claim: 'At this verse (Hebrew 62:2) the sense is still waiting, resignation'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1747.htm'
+    quote: 'Psalm 62:2 still waiting, resignation'
+  - where: 'note 62:1 “Waiting is silence”'
+    claim: 'The noun is in four verses of the Psalms, one of them Psalm 39:2 (hebrew.mjs psalms --word 1747: Ps 22:2, 39:2, 62:1, 65:1); the lexicon lists the same four by the Hebrew numbering'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1747.htm'
+    quote: 'Psalm 39:3 silence'
+  - where: 'note 62:1 “Waiting is silence”'
+    claim: 'A modern translation: waits in silence'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'For God alone my soul waits in silence;'
+  - where: 'note 62:1 “Waiting is silence”'
+    claim: 'The Greek translation takes the line as submission'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/62.htm'
+    quote: 'Shall not my soul be subjected to God? for of him is my salvation.'
+
+  # ---------- note 62:3 ----------
+  - where: 'note 62:3 “Who is the leaning wall?”'
+    claim: 'A modern translation makes the man the wall and the attackers the batterers'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'will you batter your victim, all of you,'
+  - where: 'note 62:3 “Who is the leaning wall?”'
+    claim: 'The same translation, the next line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'as you would a leaning wall, a tottering fence?'
+  - where: 'note 62:3 “Who is the leaning wall?”'
+    claim: 'The Greek translation has the attackers slaughtering'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/62.htm'
+    quote: 'ye are all slaughtering as with a bowed wall and a broken hedge'
+  - where: 'note 62:3 “Who is the leaning wall?”'
+    claim: 'Two vocalizations of the verb were handed down, one Tiberian and one Babylonian'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/62.htm'
+    quote: 'of the school of Tiberias or the Babylonian'
+  - where: 'note 62:3 “Who is the leaning wall?”'
+    claim: 'The first is passive (“ye shall be slain”) and the commentary prefers the other'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/62.htm'
+    quote: 'produces a thought that is here introduced too early, and one that is inappropriate to the figures that follow'
+  - where: 'note 62:3 “Who is the leaning wall?”'
+    claim: 'The preferred reading is active (a Piel) and still governed by “How long”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/62.htm'
+    quote: 'is to be read as a Piel'
+  - where: 'note 62:3 “Who is the leaning wall?”'
+    claim: '“A man” and “all of you” stand in contrast'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/62.htm'
+    quote: '(a single one-ye all) stand in contrast'
+  - where: 'note 62:3 “Who is the leaning wall?”'
+    claim: 'To the attackers David looks like a wall about to fall, and they rush on him'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/62.htm'
+    quote: 'To them David seems like a bent, overhanging wall, like a wall of masonry that has received the thrust that must ultimately cause its fall; and yet they rush in upon him'
+  - where: 'note 62:3 “Who is the leaning wall?”'
+    claim: '“Excellency” in verse 4 (Hebrew 62:5) is dignity'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7613.htm'
+    quote: '1 dignity Genesis 49:3 (dignity of first-born), Psalm 62:5'
+  - where: 'note 62:3 “Who is the leaning wall?”'
+    claim: 'A modern translation: a person of prominence'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'Their only plan is to bring down a person of prominence.'
+
+  # ---------- note 62:5 ----------
+  - where: 'note 62:5 “The confession becomes a command”'
+    claim: 'Verse 5 has the verb, an imperative addressed to the soul (hebrew.mjs: H1826, imperative second person feminine singular), where verse 1 has the noun'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'דּ֣וֹמִּי'
+  - where: 'note 62:5 “The confession becomes a command”'
+    claim: 'Verse 1 has the noun'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'דּֽוּמִיָּ֣ה'
+  - where: 'note 62:5 “The confession becomes a command”'
+    claim: 'The lexicon records that some interpreters would read verse 1 (Hebrew 62:2) as verse 5 (Hebrew 62:6) reads, with the verb'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1747.htm'
+    quote: 'but read probably, as Psalm 62:6'
+  - where: 'note 62:5 “The confession becomes a command”'
+    claim: 'The verb with this preposition means be silent to, be resigned to, at this verse (Hebrew 62:6)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1826.htm'
+    quote: 'be silent to i.e. be resigned to'
+  - where: 'note 62:5 “The confession becomes a command”'
+    claim: 'A modern translation prints verse 5 as it prints verse 1'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: '5 For God alone my soul waits in silence,'
+  - where: 'note 62:5 “The confession becomes a command”'
+    claim: '“Expectation” is hope in a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'for my hope is from him.'
+  - where: 'note 62:5 “The confession becomes a command”'
+    claim: 'The refrain of Psalm 42 is addressed to the speaker’s soul'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/42?lang=eng'
+    quote: 'Why art thou cast down, O my soul? and why art thou disquieted in me? hope thou in God'
+
+  # ---------- note 62:6 ----------
+  - where: 'note 62:6 “The second time without greatly”'
+    claim: 'Verse 2 ends with the word “greatly” (rabbah); verse 6 has the same words without it (hebrew.mjs psalms 62:2 and 62:6)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רַבָּֽה'
+  - where: 'note 62:6 “The second time without greatly”'
+    claim: 'Verse 6 ends on the verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶמּֽוֹט'
+  - where: 'note 62:6 “The second time without greatly”'
+    claim: 'One older reading of “greatly”: he will not totter so as to fall and stay down'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/62.htm'
+    quote: 'He will not greatly, very much, particularly totter, i.e., not so that it should come to his falling and remaining down.'
+  - where: 'note 62:6 “The second time without greatly”'
+    claim: 'The same reading explains the word from Psalm 37:24'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/62.htm'
+    quote: 'We see clearly from Psalm 37:24, what the poet means by'
+  - where: 'note 62:6 “The second time without greatly”'
+    claim: 'Psalm 37:24'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/37?lang=eng'
+    quote: 'Though he fall, he shall not be utterly cast down'
+  - where: 'note 62:6 “The second time without greatly”'
+    claim: 'An older commentary notes that the only difference between the verses is the omitted word'
+    key: barnes-psalms
+    url: 'https://biblehub.com/commentaries/barnes/psalms/62.htm'
+    quote: 'The only difference between this verse and Psalm 62:2 is, that in this verse the word "greatly" is omitted.'
+  - where: 'note 62:6 “The second time without greatly”'
+    claim: 'and hears more entire confidence in the second'
+    key: barnes-psalms
+    url: 'https://biblehub.com/commentaries/barnes/psalms/62.htm'
+    quote: 'The language here indicates more entire confidence - more certain conviction'
+
+  # ---------- note 62:9 ----------
+  - where: 'note 62:9 “Weighed, and the scale goes up”'
+    claim: 'A modern translation: on the balances they go up, lighter than a breath'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'in the balances they go up;'
+  - where: 'note 62:9 “Weighed, and the scale goes up”'
+    claim: 'The same translation, the next line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'they are together lighter than a breath.'
+  - where: 'note 62:9 “Weighed, and the scale goes up”'
+    claim: '“Vanity” is hebel'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הֶ֥בֶל'
+  - where: 'note 62:9 “Weighed, and the scale goes up”'
+    claim: 'The verse has two phrases for men, sons of adam and sons of ish'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אָדָם֮'
+  - where: 'note 62:9 “Weighed, and the scale goes up”'
+    claim: 'A modern translation takes them as low and high estate'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'Those of low estate are but a breath;'
+  - where: 'note 62:9 “Weighed, and the scale goes up”'
+    claim: 'High estate'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'those of high estate are a delusion;'
+  - where: 'note 62:9 “Weighed, and the scale goes up”'
+    claim: 'The Greek translation does not distinguish two ranks'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/62.htm'
+    quote: 'But the sons of men are vain; the sons of men are false'
+  - where: 'note 62:9 “Weighed, and the scale goes up”'
+    claim: '“A lie” in verse 9 is the Hebrew word (kazab) translated “lies” in verse 4 (hebrew.mjs: H3577 in both)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כָּזָ֪ב'
+  - where: 'note 62:9 “Weighed, and the scale goes up”'
+    claim: '“Trust” in verse 8 and “Trust not” in verse 10 are the same Hebrew verb (hebrew.mjs: H982 in both)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּבְטְח֣וּ'
+  - where: 'note 62:9 “Weighed, and the scale goes up”'
+    claim: '“Become vain” in verse 10 is a verb made from hebel'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1891.htm'
+    quote: 'verb denominative act emptily, become vain'
+  - where: 'note 62:9 “Weighed, and the scale goes up”'
+    claim: 'Its sense in this verse (Hebrew 62:11)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1891.htm'
+    quote: 'do not become vain (i.e. be demoralized) by robbery'
+  - where: 'note 62:9 “Weighed, and the scale goes up”'
+    claim: 'The lexicon lists Jeremiah 2:5 under the same verb'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1891.htm'
+    quote: 'they went after vanity'
+  - where: 'note 62:9 “Weighed, and the scale goes up”'
+    claim: 'Jeremiah 2:5'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/2?lang=eng'
+    quote: 'have walked after vanity, and are become vain'
+
+  # ---------- note 62:11 ----------
+  - where: 'note 62:11 “A saying counted one, two”'
+    claim: 'The Greek translation reads “these two things”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/62.htm'
+    quote: 'God has spoken once, and I have heard these two things, that power is of God'
+  - where: 'note 62:11 “A saying counted one, two”'
+    claim: 'A modern translation’s cross-references tie verse 11 to Job 33:14'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: '62.11 : 1 Chr 29.11; Job 33.14'
+  - where: 'note 62:11 “A saying counted one, two”'
+    claim: 'Job 33:14'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/33?lang=eng'
+    quote: 'For God speaketh once, yea twice, yet man perceiveth it not.'
+  - where: 'note 62:11 “A saying counted one, two”'
+    claim: '“Power” in verse 11 is the Hebrew word (oz) translated “strength” in verse 7 (hebrew.mjs: H5797 in both); the form in verse 11'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עֹ֝֗ז'
+  - where: 'note 62:11 “A saying counted one, two”'
+    claim: 'The form in verse 7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עֻזִּ֥/י'
+  - where: 'note 62:11 “A saying counted one, two”'
+    claim: '“Mercy” in verse 12 is hesed (hebrew.mjs: H2617)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חָ֑סֶד'
+  - where: 'note 62:11 “A saying counted one, two”'
+    claim: 'A modern translation renders it steadfast love'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: 'and steadfast love belongs to you, O Lord.'
+
+  # ---------- note 62:12 ----------
+  - where: 'note 62:12 “Judgment as a reason for trust”'
+    claim: 'An older commentary: repaying by works is justice rather than mercy'
+    key: barnes-psalms
+    url: 'https://biblehub.com/commentaries/barnes/psalms/62.htm'
+    quote: 'is an act of justice rather than of mercy'
+  - where: 'note 62:12 “Judgment as a reason for trust”'
+    claim: 'Its answer: “for” refers to the general argument of the psalm'
+    key: barnes-psalms
+    url: 'https://biblehub.com/commentaries/barnes/psalms/62.htm'
+    quote: 'is to be understood with reference to the general course of argument in the psalm, as adapted to lead to confidence in God'
+  - where: 'note 62:12 “Judgment as a reason for trust”'
+    claim: 'Power, mercy and equity together are the reason to trust God'
+    key: barnes-psalms
+    url: 'https://biblehub.com/commentaries/barnes/psalms/62.htm'
+    quote: 'All these combined - power, mercy, equity - constitute a reason why people should confide in God.'
+  - where: 'note 62:12 “Judgment as a reason for trust”'
+    claim: 'There could be no confidence in a God who was not just'
+    key: barnes-psalms
+    url: 'https://biblehub.com/commentaries/barnes/psalms/62.htm'
+    quote: 'since there could be no just ground of confidence in a Being who is not thus impartial and just'
+  - where: 'note 62:12 “Judgment as a reason for trust”'
+    claim: 'Another reading: the one who opposes God meets His power as punishment'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/62.htm'
+    quote: 'as a power for punishment that dashes in pieces'
+  - where: 'note 62:12 “Judgment as a reason for trust”'
+    claim: 'and the one who resigns his will to God receives from His mercy the reward of faithfulness'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/62.htm'
+    quote: 'the promised reward of faithfulness'
+  - where: 'note 62:12 “Judgment as a reason for trust”'
+    claim: 'The same commentary: the one who resigns his own will to the will of God'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/62.htm'
+    quote: 'resigns his own will to the will of God'
+  - where: 'note 62:12 “Judgment as a reason for trust”'
+    claim: 'Proverbs 24:12'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/prov/24?lang=eng'
+    quote: 'shall not he render to every man according to his works?'
+  - where: 'note 62:12 “Judgment as a reason for trust”'
+    claim: 'Romans 2:6'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/2?lang=eng'
+    quote: 'Who will render to every man according to his deeds:'
+  - where: 'note 62:12 “Judgment as a reason for trust”'
+    claim: 'Paul’s wording in Romans 2:6 is identified as the psalm’s in its Greek translation'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/62.htm'
+    quote: 'as Paul confesses (Romans 2:6) no less than David, and even (vid., lxx) in the words of David'
+  - where: 'note 62:12 “Judgment as a reason for trust”'
+    claim: 'The Greek translation of the line'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/62.htm'
+    quote: 'for thou wilt recompense every one according to his works'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'The Savior says the Son of man will reward every man according to his works'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/16?lang=eng'
+    quote: 'and then he shall reward every man according to his works'
+  - where: christ
+    claim: 'A modern translation’s cross-references tie verse 12 to Matthew 16:27'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: '62.12 : Job 34.11; Mt 16.27; Col 3.25'
+
+  # ---------- explore ----------
+  - where: explore
+    claim: 'A modern translation’s cross-references tie verse 8 to 1 Samuel 1:15 and Lamentations 2:19'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: '62.8 : 1 Sam 1.15; Ps 37.3; 42.4; Lam 2.19'
+  - where: explore
+    claim: 'and verse 9 to Isaiah 40:15, 17'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2062&version=NRSVUE'
+    quote: '62.9 : Ps 39.5, 11; Isa 40.15, 17; Rom 3.4'
+
+  # ---------- parallels ----------
+  - where: parallels
+    claim: 'Psalm 39:11 has “every man is vanity”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/39?lang=eng'
+    quote: 'surely every man is vanity'
+  - where: parallels
+    claim: 'Job 33:14 counts God’s speaking once and twice'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/33?lang=eng'
+    quote: 'For God speaketh once, yea twice, yet man perceiveth it not.'
