@@ -1,0 +1,448 @@
+chapter: 58
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David, calls it a Michtam, and names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/58?lang=eng'
+    quote: 'To the chief Musician, Al-taschith, Michtam of David.'
+  - where: setting
+    claim: 'Psalms 56–60 all carry the word Michtam in their titles'
+    key: bd-psalms
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
+    quote: 'Michtam, rendered by some Golden Psalm (Ps. 16; 56–60)'
+  - where: setting
+    claim: 'One older reading assigns the psalm to the time of Absalom'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/58.htm'
+    quote: 'belongs to another period, viz., to the time of Absalom'
+  - where: setting
+    claim: 'On that reading Absalom used the administration of justice to win the people from David'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/58.htm'
+    quote: 'Absalom with his followers had made the administration of justice the means of stealing from David the heart of his people'
+  - where: setting
+    claim: 'Absalom wished aloud to be made judge in the land'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/15?lang=eng'
+    quote: 'Oh that I were made judge in the land, that every man which hath any suit or cause might come unto me, and I would do him justice!'
+  - where: setting
+    claim: 'The heading in the Church’s edition takes those addressed to be wicked judges'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/58?lang=eng'
+    quote: 'David reproves wicked judges'
+  - where: setting
+    claim: 'Psalm 82:2 is set beside verse 1 of this psalm'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NRSVUE'
+    quote: '58.1 : Ps 82.2'
+  - where: setting
+    claim: 'It has been suggested that the psalm was placed after Psalm 57 because of the teeth in both'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/58.htm'
+    quote: 'This prominent common thought has induced the collector to append the one Michtam of David, to be sung altashcheth, to the other.'
+  - where: setting
+    claim: 'Psalm 57:4 speaks of men whose teeth are spears and arrows'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/57?lang=eng'
+    quote: 'whose teeth are spears and arrows, and their tongue a sharp sword'
+  - where: setting
+    claim: 'Psalm 57’s title has the same title words'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/57?lang=eng'
+    quote: 'To the chief Musician, Al-taschith, Michtam of David, when he fled from Saul in the cave.'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'Verse 1 and verse 11 use the same Hebrew verb, judge (H8199): verse 1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּ֝שְׁפְּט֗וּ'
+  - where: thread
+    claim: 'Verse 11 has the same verb, as a participle'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שֹׁפְטִ֥ים'
+  - where: thread
+    claim: '“In the earth” in verse 2 and verse 11 is the same Hebrew phrase: verse 2'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בָּ/אָ֡רֶץ'
+  - where: thread
+    claim: '“In the earth” in verse 11'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בָּ/אָֽרֶץ'
+  - where: thread
+    claim: 'In the Hebrew of verse 6 “God” is the first word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֱֽלֹהִ֗ים'
+  - where: thread
+    claim: 'In the Hebrew of verse 6 the divine name is the last word; it stands nowhere else in the psalm'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְהוָֽה'
+
+  # ---------- sections ----------
+  - where: thread
+    claim: 'One older reading: because the wicked cannot be persuaded, nothing remains but to pray for their removal'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/58.htm'
+    quote: 'Nothing therefore remains to David but to hope for their removal, and to pray for it.'
+  - where: section 1 plain
+    claim: 'Verse 1 can be rendered as addressed to rulers'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NIV'
+    quote: 'Do you rulers indeed speak justly?'
+  - where: section 1 plain
+    claim: 'Verse 2: the hands deal out violence'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NRSVUE'
+    quote: 'your hands deal out violence on earth.'
+  - where: section 2 plain
+    claim: 'Verse 5: the charmer however skilful'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NIV'
+    quote: 'however skillful the enchanter may be.'
+  - where: section 3 plain
+    claim: 'Verse 7: let them vanish like water that runs away'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NRSVUE'
+    quote: 'Let them vanish like water that runs away;'
+  - where: section 3 plain
+    claim: 'Verse 7: the arrows fall short'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NIV'
+    quote: 'when they draw the bow, let their arrows fall short.'
+  - where: section 3 plain
+    claim: 'Verse 9: before the pots feel the heat of the thorns, they are swept away'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NRSVUE'
+    quote: 'Sooner than your pots can feel the heat of thorns,'
+  - where: section 3 plain
+    claim: 'Verse 9: the last words taken of the fuel, green or ablaze'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NRSVUE'
+    quote: 'whether green or ablaze, may he sweep them away!'
+  - where: section 4 plain
+    claim: 'Verse 11: people will say there is a God who judges on earth'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NRSVUE'
+    quote: 'surely there is a God who judges on earth.'
+
+  # ---------- note 58:0 ----------
+  - where: 'note 58:0 “Do not destroy”'
+    claim: 'The two Hebrew words are translated “Do Not Destroy”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NRSVUE'
+    quote: 'To the leader: Do Not Destroy. Of David. A Miktam.'
+  - where: 'note 58:0 “Do not destroy”'
+    claim: 'Titles of this kind are probably names of tunes'
+    key: bd-psalms
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
+    quote: 'The other titles are all probably names of tunes, well known at the time, to which the Psalms were appointed to be sung.'
+  - where: 'note 58:0 “Do not destroy”'
+    claim: 'The same words stand in the title of Psalm 57'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/57?lang=eng'
+    quote: 'To the chief Musician, Al-taschith, Michtam of David, when he fled from Saul in the cave.'
+  - where: 'note 58:0 “Do not destroy”'
+    claim: 'The same words stand in the title of Psalm 59'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/59?lang=eng'
+    quote: 'To the chief Musician, Al-taschith, Michtam of David; when Saul sent, and they watched the house to kill him.'
+  - where: 'note 58:0 “Do not destroy”'
+    claim: 'The same words stand in the title of Psalm 75'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/75?lang=eng'
+    quote: 'To the chief Musician, Al-taschith, A Psalm or Song of Asaph.'
+
+  # ---------- note 58:1 ----------
+  - where: 'note 58:1 “Congregation, silence, or gods”'
+    claim: 'The Hebrew word behind “congregation” in verse 1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֵ֣לֶם'
+  - where: 'note 58:1 “Congregation, silence, or gods”'
+    claim: 'As the Hebrew text has it the word is a noun, silence'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/482.htm'
+    quote: 'noun [masculine] silence'
+  - where: 'note 58:1 “Congregation, silence, or gods”'
+    claim: 'The lexicon doubts “in silence” here and advises reading another word'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/482.htm'
+    quote: 'also Psalm 58:2 (= adverb in silence ?) but read'
+  - where: 'note 58:1 “Congregation, silence, or gods”'
+    claim: 'A modern translation reads “you gods”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NRSVUE'
+    quote: 'Do you indeed decree what is right, you gods?'
+  - where: 'note 58:1 “Congregation, silence, or gods”'
+    claim: 'Another modern translation reads “you rulers”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NIV'
+    quote: 'Do you rulers indeed speak justly?'
+  - where: 'note 58:1 “Congregation, silence, or gods”'
+    claim: 'The Greek has no word of address in the first half of the verse'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/58.htm'
+    quote: 'If ye do indeed speak righteousness, then do ye judge rightly, ye sons of men.'
+  - where: 'note 58:1 “Congregation, silence, or gods”'
+    claim: 'Psalm 82:2 is set beside this verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NRSVUE'
+    quote: '58.1 : Ps 82.2'
+  - where: 'note 58:1 “Congregation, silence, or gods”'
+    claim: 'Psalm 82:2 has the same Hebrew verb, judge (H8199), as verse 1 here'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּשְׁפְּטוּ'
+
+  # ---------- note 58:3 ----------
+  - where: 'note 58:3 “Astray from the womb”'
+    claim: 'The Church’s footnote at “astray” points to the topic Conceived in Sin'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/58?lang=eng'
+    quote: 'TG Conceived in Sin'
+  - where: 'note 58:3 “Astray from the womb”'
+    claim: 'Psalm 51:5 is set beside this verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NRSVUE'
+    quote: '58.3 : Ps 51.5; 53.3; Isa 48.8'
+  - where: 'note 58:3 “Astray from the womb”'
+    claim: 'Psalm 51:5 has been read as teaching original sin, which is a false idea'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'Some have interpreted this verse as supporting the concept of original sin—the false idea that all people are condemned because of the actions of Adam and Eve in the Garden of Eden.'
+  - where: 'note 58:3 “Astray from the womb”'
+    claim: 'Restoration scripture, said of Psalm 51:5: each person is born innocent but in a fallen condition'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'each person is born innocent of sin but in a fallen condition'
+  - where: 'note 58:4 “The serpent that will not be charmed”'
+    claim: 'The Hebrew word for “adder” names a venomous serpent, perhaps the cobra'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6620.htm'
+    quote: 'a venomous serpent, perhaps cobra'
+  - where: 'note 58:4 “The serpent that will not be charmed”'
+    claim: 'The “charmers” are whisperers, that is, serpent-charmers'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3907.htm'
+    quote: 'voice of whisperers (i.e. serpent-charmers'
+  - where: 'note 58:4 “The serpent that will not be charmed”'
+    claim: 'A modern translation: a cobra that has stopped its ears'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NIV'
+    quote: 'like that of a cobra that has stopped its ears'
+  - where: 'note 58:4 “The serpent that will not be charmed”'
+    claim: 'Ecclesiastes 10:11 is set beside this verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NRSVUE'
+    quote: '58.4 : Ps 140.3; Eccl 10.11'
+  - where: 'note 58:4 “The serpent that will not be charmed”'
+    claim: 'One older reading: the adder makes itself deaf'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/58.htm'
+    quote: 'such an one, viz., as makes itself deaf'
+  - where: 'note 58:4 “The serpent that will not be charmed”'
+    claim: 'On that reading it is a figure of the evildoer who hardens himself'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/58.htm'
+    quote: 'it is a figure of the self-hardening evil-doer'
+  - where: 'note 58:4 “The serpent that will not be charmed”'
+    claim: 'On that reading no patience can change them, and so the psalm turns to prayer'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/58.htm'
+    quote: 'The most inventive affection and the most untiring patience cannot change their mind. Nothing therefore remains to David but to hope for their removal, and to pray for it.'
+
+  # ---------- note 58:6 ----------
+  - where: 'note 58:6 “The one prayer of the psalm”'
+    claim: 'A modern translation has “fangs” for the lions’ great teeth'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NRSVUE'
+    quote: 'tear out the fangs of the young lions, O Lord!'
+  - where: 'note 58:6 “The one prayer of the psalm”'
+    claim: 'In Psalm 57:4 the speaker is among lions, and among men whose teeth are spears and arrows'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/57?lang=eng'
+    quote: 'My soul is among lions'
+
+  # ---------- note 58:8 ----------
+  - where: 'note 58:8 “The snail and the untimely birth”'
+    claim: 'The snail’s Hebrew name is explained by its slimy trail'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7642.htm'
+    quote: 'name due to slimy trail'
+  - where: 'note 58:8 “The snail and the untimely birth”'
+    claim: 'A modern translation: a slug that melts away as it moves along'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NIV'
+    quote: 'May they be like a slug that melts away as it moves along,'
+  - where: 'note 58:8 “The snail and the untimely birth”'
+    claim: 'The Hebrew word for “untimely birth” is also in Job 3:16'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5309.htm'
+    quote: 'untimely birth, abortion'
+  - where: 'note 58:8 “The snail and the untimely birth”'
+    claim: 'Job 3:16 is set beside this verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NRSVUE'
+    quote: '58.8 : Job 3.16'
+  - where: 'note 58:8 “The snail and the untimely birth”'
+    claim: 'The Hebrew of the second half of verse 7 is uncertain'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NRSVUE'
+    quote: '58.7 Cn: Meaning of Heb uncertain'
+  - where: 'note 58:8 “The snail and the untimely birth”'
+    claim: 'One translation corrects the text of verse 7 and reads grass'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NRSVUE'
+    quote: 'like grass let them be trodden down and wither.'
+  - where: 'note 58:8 “The snail and the untimely birth”'
+    claim: 'Another reads the arrows of the wicked falling short'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NIV'
+    quote: 'when they draw the bow, let their arrows fall short.'
+
+  # ---------- note 58:9 ----------
+  - where: 'note 58:9 “Before the pot is warm”'
+    claim: 'The “thorns” are the bramble or buckthorn, here as fuel'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/329.htm'
+    quote: 'Psalm 58:10 as fuel'
+  - where: 'note 58:9 “Before the pot is warm”'
+    claim: 'The verb means to sweep or whirl away, as a storm wind does'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8175.htm'
+    quote: 'sweep or whirl away (of storm-wind)'
+  - where: 'note 58:9 “Before the pot is warm”'
+    claim: 'The Greek reads the verse differently'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/58.htm'
+    quote: 'Before your thorns feel the white thorn, he shall swallow you up as living, as in his wrath.'
+  - where: 'note 58:9 “Before the pot is warm”'
+    claim: 'A modern translation: whether green or ablaze'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NRSVUE'
+    quote: 'whether green or ablaze, may he sweep them away!'
+  - where: 'note 58:9 “Before the pot is warm”'
+    claim: 'Another modern translation: whether they be green or dry'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NIV'
+    quote: 'whether they be green or dry—the wicked will be swept away.'
+  - where: 'note 58:10 “Whose vengeance the righteous sees”'
+    claim: 'Psalm 68:23 has the same picture (the Church’s footnote 10a), after God wounds His enemies in 68:21'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/68?lang=eng'
+    quote: 'That thy foot may be dipped in the blood of thine enemies'
+  - where: 'note 58:10 “Whose vengeance the righteous sees”'
+    claim: 'Psalm 68:21: it is God who wounds'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/68?lang=eng'
+    quote: 'But God shall wound the head of his enemies'
+  - where: 'note 58:10 “Whose vengeance the righteous sees”'
+    claim: 'Modern translations: the righteous see vengeance done'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NRSVUE'
+    quote: 'The righteous will rejoice when they see vengeance done;'
+
+  # ---------- note 58:11 ----------
+  - where: 'note 58:11 “The answer to the first question”'
+    claim: 'Verse 11’s “judgeth” is the verb of verse 1, in a plural form'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שֹׁפְטִ֥ים'
+  - where: 'note 58:11 “The answer to the first question”'
+    claim: 'Verse 1’s “judge”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּ֝שְׁפְּט֗וּ'
+  - where: 'note 58:11 “The answer to the first question”'
+    claim: '“In the earth” repeats the phrase of verse 2'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בָּ/אָֽרֶץ'
+  - where: 'note 58:11 “The answer to the first question”'
+    claim: '“A man” in verse 11 is the Hebrew word adam'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אָ֭דָם'
+  - where: 'note 58:11 “The answer to the first question”'
+    claim: '“Sons of men” in verse 1 has the same word, adam'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אָדָֽם'
+  - where: 'note 58:11 “The answer to the first question”'
+    claim: 'A translation notes that the line could be read “there are gods who judge”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NRSVUE'
+    quote: '58.11 Or there are gods who judge'
+  - where: 'note 58:11 “The answer to the first question”'
+    claim: 'The translation’s text reads one God who judges'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2058&version=NRSVUE'
+    quote: 'surely there is a God who judges on earth.'
+  - where: 'note 58:11 “The answer to the first question”'
+    claim: 'One older reading: the plural sets the heavenly Judge against the “gods” of verse 1'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/58.htm'
+    quote: 'in order to set the infinite majesty and omnipotence of the heavenly Judge in contrast with these puffed-up "gods."'
+  - where: 'note 58:11 “The answer to the first question”'
+    claim: 'On that reading the name of God takes a plural here as it often does'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/58.htm'
+    quote: 'is construed with the plural'
+  - where: 'note 58:11 “The answer to the first question”'
+    claim: 'On that reading the onlookers confess one higher than the high ones'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/58.htm'
+    quote: 'that there is really one higher than the high ones'
+
+  # ---------- christ / explore / parallels ----------
+  - where: christ
+    claim: 'The divine name stands in verse 6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְהוָֽה'
+  - where: christ
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: christ
+    claim: 'The Church’s footnote at “judgeth” in verse 11 points to Jesus Christ as Judge'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/58?lang=eng'
+    quote: 'TG Jesus Christ, Judge'
+  - where: christ
+    claim: 'The Father has committed all judgment to the Son'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/5?lang=eng'
+    quote: 'For the Father judgeth no man, but hath committed all judgment unto the Son'
+  - where: explore
+    claim: 'The Church’s footnote at “judge” in verse 1 points to Mosiah 29:11'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/58?lang=eng'
+    quote: 'Mosiah 29:11'
+  - where: explore
+    claim: 'Mosiah 29:12 on the judgments of God and of man'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/29?lang=eng'
+    quote: 'the judgments of God are always just, but the judgments of man are not always just'
+  - where: explore
+    claim: 'The title of Psalm 57 has the same title words and sets it in the flight from Saul'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/57?lang=eng'
+    quote: 'To the chief Musician, Al-taschith, Michtam of David, when he fled from Saul in the cave.'
+  - where: explore
+    claim: 'The title of Psalm 59 has the same title words and sets it when Saul sent men to kill David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/59?lang=eng'
+    quote: 'To the chief Musician, Al-taschith, Michtam of David; when Saul sent, and they watched the house to kill him.'
+  - where: parallels
+    claim: 'Job 3:16 has the Hebrew word for “untimely birth”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5309.htm'
+    quote: 'untimely birth, abortion'
