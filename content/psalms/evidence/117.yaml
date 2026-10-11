@@ -33,16 +33,6 @@ claims:
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/116?lang=eng'
     quote: 'In the courts of the Lord’s house, in the midst of thee, O Jerusalem. Praise ye the Lord.'
-  - where: 'setting'
-    claim: 'Paul quotes verse 1 in Romans 15:11'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/15?lang=eng'
-    quote: 'And again, Praise the Lord, all ye Gentiles; and laud him, all ye people.'
-  - where: 'setting'
-    claim: 'The quotation is one of a series on the Gentiles glorifying God'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/15?lang=eng'
-    quote: 'And that the Gentiles might glorify God for his mercy; as it is written'
 
   # ---- thread ----
   - where: 'thread'
@@ -106,17 +96,17 @@ claims:
     quote: 'And that the Gentiles might glorify God for his mercy; as it is written'
 
   # ---- note 117:2 toward us ----
-  - where: 'note 117:2 “Who “us” is, and why the nations should praise for it”'
+  - where: 'note 117:2 “Who “us” is and why the nations should praise”'
     claim: 'On Delitzsch’s reading the mercy of verse 2 is mercy over Israel'
     key: delitzsch-psalms
     url: 'https://biblehub.com/commentaries/kad/psalms/117.htm'
     quote: 'the mercy or loving-kindness of Jahve, which proves itself mighty over Israel'
-  - where: 'note 117:2 “Who “us” is, and why the nations should praise for it”'
+  - where: 'note 117:2 “Who “us” is and why the nations should praise”'
     claim: 'The verb behind “is great,” with the preposition, means prevail over, and is used of God’s mercy here and in Psalm 103:11'
     key: bdb
     url: 'https://biblehub.com/hebrew/1396.htm'
     quote: 'with עַל prevail over, subject enemies 2 Samuel 11:23, blessings Genesis 49:26(J), mercy of God Psalm 103:11; Psalm 117:2.'
-  - where: 'note 117:2 “Who “us” is, and why the nations should praise for it”'
+  - where: 'note 117:2 “Who “us” is and why the nations should praise”'
     claim: 'Delitzsch: mercy and truth will be displayed in Israel and go out from Israel to the world'
     key: delitzsch-psalms
     url: 'https://biblehub.com/commentaries/kad/psalms/117.htm'
@@ -180,7 +170,7 @@ claims:
     key: bd-hallel
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hallel?lang=eng'
     quote: 'A name given to the group of Psalms (113–18) recited by Jews at the great feasts (Matt. 26:30; Mark 14:26).'
-  - where: 'christ'
+  - where: 'parallels'
     claim: 'The hymn of Matthew 26:30'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/26?lang=eng'
