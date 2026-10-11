@@ -1,0 +1,644 @@
+chapter: 63
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David and places him in the wilderness of Judah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/63?lang=eng'
+    quote: 'A Psalm of David, when he was in the wilderness of Judah.'
+  - where: setting
+    claim: 'In the flight from Absalom David went toward the wilderness'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/15?lang=eng'
+    quote: 'the king also himself passed over the brook Kidron, and all the people passed over, toward the way of the wilderness.'
+  - where: setting
+    claim: 'Delitzsch sets Psalms 61–63 in the time of Absalom'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/63.htm'
+    quote: 'were composed during the time of Absalom'
+  - where: setting
+    claim: 'Delitzsch: read of the flight from Absalom, the title throws light on the whole psalm: the poet is a king and longs for the God he beheld on Zion'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/63.htm'
+    quote: 'throws light upon the whole Psalm, and verifies itself in the fact that the poet is a king; that he longs for the God on Zion, where he has been so delighted to behold Him'
+  - where: setting
+    claim: 'and he is persecuted by enemies who have plotted his ruin'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/63.htm'
+    quote: 'and that he is persecuted by enemies who have plotted his ruin'
+  - where: setting
+    claim: 'Delitzsch finds the weariness of verse 1 in 2 Samuel 16:2 and 16:14'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/63.htm'
+    quote: 'that he there found himself in the condition of a'
+  - where: setting
+    claim: 'In the flight the king and his people came weary'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/16?lang=eng'
+    quote: 'And the king, and all the people that were with him, came weary, and refreshed themselves there.'
+  - where: setting
+    claim: 'The psalm has no imperative verb: its verbs are perfects, imperfects, an infinitive and participles (morphology codes from hebrew.mjs psalms 63:1-11); the first verb, for example, is an imperfect'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲֽשַׁחֲ֫רֶ֥/ךָּ'
+  - where: setting
+    claim: 'The divine name does not occur in the psalm; “God” in verse 1 is Elohim (H430) and so in verse 11'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בֵּ/אלֹ֫הִ֥ים'
+  - where: setting
+    claim: '“my God” in verse 1 is El (H410) with the suffix “my”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֵלִ֥/י'
+  - where: setting
+    claim: 'Psalm 61 has the covert of God’s wings (verse 4) and the king (verses 6–7)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/61?lang=eng'
+    quote: 'I will trust in the covert of thy wings.'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: '“Soul” in verses 1, 5, 8 and 9 is one Hebrew word, nephesh (H5315)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נַפְשִׁ֗/י'
+  - where: thread
+    claim: '“life” in verse 3 is the noun chayyim (H2416)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מֵֽ/חַיִּ֗ים'
+  - where: thread
+    claim: '“while I live” in verse 4 is the same noun with “in” and “my”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְ/חַיָּ֑/י'
+  - where: thread
+    claim: 'A modern translation joins verse 5 to verse 6 as one sentence, the soul satisfied when he thinks of God on his bed'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: 'when I think of you on my bed'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: '“early will I seek” is a verb of eager seeking'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7836.htm'
+    quote: 'seek with longing, long for'
+  - where: section 1 plain
+    claim: '“longeth” is faint; “thirsty land” is a weary land'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: 'my flesh faints for you,'
+  - where: section 1 plain
+    claim: 'The land is “dry and weary” in a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: 'as in a dry and weary land where there is no water.'
+  - where: section 1 plain
+    claim: 'Verse 2 in the Hebrew order: seeing God in the sanctuary first, then the power and glory'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: 'So I have looked upon you in the sanctuary,'
+  - where: section 2 plain
+    claim: 'Verse 4: “as long as I live”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: '4 So I will bless you as long as I live;'
+  - where: section 3 plain
+    claim: '“marrow and fatness” is rich food'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: '5 My soul is satisfied as with a rich feast,'
+  - where: section 3 plain
+    claim: '“rejoice” in verse 7 is to sing for joy'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: 'and in the shadow of your wings I sing for joy.'
+  - where: section 3 plain
+    claim: '“followeth hard after” is cling'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: '8 My soul clings to you;'
+  - where: section 4 plain
+    claim: 'Verse 9: go down into the depths of the earth'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: 'shall go down into the depths of the earth;'
+  - where: section 4 plain
+    claim: 'Verse 10: given over to the sword; jackals'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: 'they shall be given over to the power of the sword;'
+  - where: section 4 plain
+    claim: 'Verse 10: jackals for the King James’s foxes'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: 'they shall be prey for jackals.'
+  - where: section 4 plain
+    claim: 'Verse 11: the last clause begins “for”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: 'for the mouths of liars will be stopped.'
+
+  # ---------- note 63:0 ----------
+  - where: 'note 63:0 “Two seasons in the wilderness”'
+    claim: 'The wording of the title'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/63?lang=eng'
+    quote: 'A Psalm of David, when he was in the wilderness of Judah.'
+  - where: 'note 63:0 “Two seasons in the wilderness”'
+    claim: 'David hid from Saul in the wilderness'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/23?lang=eng'
+    quote: 'And David abode in the wilderness in strong holds, and remained in a mountain in the wilderness of Ziph. And Saul sought him every day'
+  - where: 'note 63:0 “Two seasons in the wilderness”'
+    claim: 'Fleeing Absalom, David waited in the plain of the wilderness'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/15?lang=eng'
+    quote: 'See, I will tarry in the plain of the wilderness, until there come word from you to certify me.'
+  - where: 'note 63:0 “Two seasons in the wilderness”'
+    claim: 'He was to cross over (the Jordan) from the plains of the wilderness'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/17?lang=eng'
+    quote: 'Lodge not this night in the plains of the wilderness, but speedily pass over'
+  - where: 'note 63:0 “Two seasons in the wilderness”'
+    claim: 'Older expositors put the psalm in Saul’s time; Delitzsch answers that David could not then call himself the king'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/63.htm'
+    quote: 'into transferring it, as the old expositors do, to the time of Saul. During that period David could not well call himself "the king"'
+  - where: 'note 63:0 “Two seasons in the wilderness”'
+    claim: 'Delitzsch sets the psalm in the flight from Absalom, before the crossing of the Jordan'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/63.htm'
+    quote: 'even during the time of his persecution by Absalom, in his flight, before crossing the Jordan, he tarried one or two days'
+  - where: 'note 63:0 “Two seasons in the wilderness”'
+    claim: 'Where that part of the wilderness of Judah lies'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/63.htm'
+    quote: 'of the wilderness of Judah lying nearest to Jerusalem, that dreary waste that extends along the western shore of the Dead Sea'
+
+  # ---------- note 63:1 early ----------
+  - where: 'note 63:1 “Early, or eagerly”'
+    claim: 'The verb is made from a noun (denominative) and means to look early or diligently for; originally to look for dawn'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7836.htm'
+    quote: 'verb denominative look early, diligently for (late; originally look for dawn)'
+  - where: 'note 63:1 “Early, or eagerly”'
+    claim: 'The sense given for this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7836.htm'
+    quote: 'seek with longing, long for'
+  - where: 'note 63:1 “Early, or eagerly”'
+    claim: 'Isaiah 26:9 has the same verb, listed with this verse (Psalm 63:2 in the Hebrew numbering)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7836.htm'
+    quote: 'Isaiah 26:9; Psalm 63:2.'
+  - where: 'note 63:1 “Early, or eagerly”'
+    claim: 'A modern translation has only “I seek you”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: '1 O God, you are my God; I seek you;'
+  - where: 'note 63:1 “Early, or eagerly”'
+    claim: 'The Greek keeps “early”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/63.htm'
+    quote: 'O God, my God, I cry to thee early; my soul has thirsted for thee'
+
+  # ---------- note 63:1 faint ----------
+  - where: 'note 63:1 “Faint in a weary land”'
+    claim: '“longeth” is the verb kamah (H3642), which hebrew.mjs psalms --word 3642 finds once in the book, in this verse'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כָּמַ֣הּ'
+  - where: 'note 63:1 “Faint in a weary land”'
+    claim: 'The verb means faint, here with longing'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3642.htm'
+    quote: 'faint (with longing) for thee'
+  - where: 'note 63:1 “Faint in a weary land”'
+    claim: 'A modern translation: the flesh faints'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: 'my flesh faints for you,'
+  - where: 'note 63:1 “Faint in a weary land”'
+    claim: '“thirsty” is the adjective ayeph (H5889), faint or weary'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5889.htm'
+    quote: 'adjective faint, weary'
+  - where: 'note 63:1 “Faint in a weary land”'
+    claim: 'The adjective is used of weariness from exertion and hunger'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5889.htm'
+    quote: 'from exertion and hunger Genesis 25:20,30 (J), Judges 8:4,5'
+  - where: 'note 63:1 “Faint in a weary land”'
+    claim: 'and specifically from thirst'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5889.htm'
+    quote: 'specifically from thirst Isaiah 29:8 (simile), Job 22:7'
+  - where: 'note 63:1 “Faint in a weary land”'
+    claim: 'The adjective in this verse'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/עָיֵ֣ף'
+  - where: 'note 63:1 “Faint in a weary land”'
+    claim: 'The Hebrew has the preposition “in” (b-) before “land”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/אֶֽרֶץ'
+  - where: 'note 63:1 “Faint in a weary land”'
+    claim: 'A modern translation makes the land a comparison'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: 'as in a dry and weary land where there is no water.'
+  - where: 'note 63:1 “Faint in a weary land”'
+    claim: 'The lexicon marks the phrase in this verse as figurative'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5889.htm'
+    quote: 'Psalm 63:2 (figurative'
+
+  # ---------- note 63:2 ----------
+  - where: 'note 63:2 “Seen in the sanctuary”'
+    claim: 'The Hebrew verse begins “so, in the sanctuary”; the word for the holy place stands second'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּ/קֹּ֣דֶשׁ'
+  - where: 'note 63:2 “Seen in the sanctuary”'
+    claim: 'The verb “I have seen thee” is chazah (H2372), third word of the verse, before “to see thy power”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֲזִיתִ֑י/ךָ'
+  - where: 'note 63:2 “Seen in the sanctuary”'
+    claim: 'A modern translation in the Hebrew order'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: 'So I have looked upon you in the sanctuary,'
+  - where: 'note 63:2 “Seen in the sanctuary”'
+    claim: 'and its second line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: 'beholding your power and glory.'
+  - where: 'note 63:2 “Seen in the sanctuary”'
+    claim: 'The verb is almost wholly poetic and means see, behold'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2372.htm'
+    quote: 'verb (almost wholly in poetry) see, behold'
+  - where: 'note 63:2 “Seen in the sanctuary”'
+    claim: 'It is used of beholding the face of God in Psalms 11:7 and 17:15'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2372.htm'
+    quote: 'the face of God Psalm 11:7; Psalm 17:15'
+  - where: 'note 63:2 “Seen in the sanctuary”'
+    claim: 'The Greek has “appeared before thee”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/63.htm'
+    quote: 'Thus have I appeared before thee in the sanctuary, that I might see thy power and thy glory.'
+  - where: 'note 63:2 “Seen in the sanctuary”'
+    claim: 'Psalm 63:2 is listed among the psalms where seeing God is the image for the experience of God in the temple (Skinner quoting Mark Smith)'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'is the preeminent image [in the Psalms] for the experience of God in the temple (Psalm. 17:15; 42:2; 63:2; 84:7'
+  - where: 'note 63:2 “Seen in the sanctuary”'
+    claim: 'Skinner reads the verse as a declaration that the psalmist had seen God'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'the Psalmist declared that he had seen God in his sanctuary and there beheld his power and glory (Psalm 63:2)'
+
+  # ---------- note 63:3 ----------
+  - where: 'note 63:3 “Lovingkindness set above life”'
+    claim: '“lovingkindness” is hesed (H2617)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַ֭סְדְּ/ךָ'
+  - where: 'note 63:3 “Lovingkindness set above life”'
+    claim: '“life” in verse 3 is chayyim (H2416)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מֵֽ/חַיִּ֗ים'
+  - where: 'note 63:3 “Lovingkindness set above life”'
+    claim: '“while I live” in verse 4 is the same noun'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְ/חַיָּ֑/י'
+  - where: 'note 63:3 “Lovingkindness set above life”'
+    claim: 'A modern translation has “steadfast love”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: '3 Because your steadfast love is better than life,'
+  - where: 'note 63:3 “Lovingkindness set above life”'
+    claim: 'The Greek has “mercy”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/63.htm'
+    quote: 'For thy mercy is better than life: my lips shall praise thee.'
+
+  # ---------- note 63:4 ----------
+  - where: 'note 63:4 “Lifted hands, wings, and a right hand”'
+    claim: 'Psalm 63 is named among temple psalms that describe prayer with lifted hands'
+    key: sc-knowhy-638
+    url: 'https://scripturecentral.org/knowhy/why-did-ancient-israelites-lift-their-hands-in-praise'
+    quote: 'Many psalms related to the temple, such as Psalm 63, also describe the temple petitioner praying with their hands stretched towards the heavens'
+  - where: 'note 63:4 “Lifted hands, wings, and a right hand”'
+    claim: 'A proposed sequence of ritual actions in verses 4, 7 and 8'
+    key: sc-knowhy-638
+    url: 'https://scripturecentral.org/knowhy/why-did-ancient-israelites-lift-their-hands-in-praise'
+    quote: 'Calabro noted a possible set of ritual actions undertaken by the petitioner in approaching God, including lifting up their hands in prayer (v. 4)'
+  - where: 'note 63:4 “Lifted hands, wings, and a right hand”'
+    claim: 'The wings as perhaps an embrace; the right hand clasped'
+    key: sc-knowhy-638
+    url: 'https://scripturecentral.org/knowhy/why-did-ancient-israelites-lift-their-hands-in-praise'
+    quote: 'could be “perhaps alluding to an embrace,” and finally clasping God’s right hand (v. 8)'
+  - where: 'note 63:4 “Lifted hands, wings, and a right hand”'
+    claim: 'The KnoWhy allows a metaphorical reading'
+    key: sc-knowhy-638
+    url: 'https://scripturecentral.org/knowhy/why-did-ancient-israelites-lift-their-hands-in-praise'
+    quote: 'Although it is possible to understand these references metaphorically, the temple petitioner here may be describing a set of ritual actions.'
+  - where: 'note 63:4 “Lifted hands, wings, and a right hand”'
+    claim: 'A modern translation of “in thy name”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: 'I will lift up my hands and call on your name.'
+
+  - where: 'note 63:4 “Lifted hands, wings, and a right hand”'
+    claim: 'Brown takes the speaker as the king of Israel, speaking of the temple'
+    key: brown-handclasp
+    url: 'https://interpreterfoundation.org/journal/the-handclasp-the-temple-and-the-king'
+    quote: 'In this text the king of Israel speaks of God’s “sanctuary” or temple (v. 2)'
+  - where: 'note 63:4 “Lifted hands, wings, and a right hand”'
+    claim: 'Brown places the king, hands lifted, at the altar of incense before the veil'
+    key: brown-handclasp
+    url: 'https://interpreterfoundation.org/journal/the-handclasp-the-temple-and-the-king'
+    quote: 'This information logically locates the king at the altar of incense/prayer (see Revelation 8:3–4), which was situated before the veil'
+  - where: 'note 63:4 “Lifted hands, wings, and a right hand”'
+    claim: 'The wings of verse 7 have been identified by some writers as those of the cherubim over the ark'
+    key: brown-handclasp
+    url: 'https://interpreterfoundation.org/journal/the-handclasp-the-temple-and-the-king'
+    quote: 'Some writers have identified this as the wings of the cherubim that overshadowed the ark or divine throne inside the Holy of Holies.'
+  - where: 'note 63:4 “Lifted hands, wings, and a right hand”'
+    claim: 'Brown glosses “upholdeth” as take hold of, grasp or seize'
+    key: brown-handclasp
+    url: 'https://interpreterfoundation.org/journal/the-handclasp-the-temple-and-the-king'
+    quote: 'thy right hand upholdeth [tamak, take hold of or grasp or seize] me'
+  - where: 'note 63:4 “Lifted hands, wings, and a right hand”'
+    claim: 'Brown reads verse 8 as a proposed right-hand clasp, beside imagery of an embrace'
+    key: brown-handclasp
+    url: 'https://interpreterfoundation.org/journal/the-handclasp-the-temple-and-the-king'
+    quote: 'Thus, a proposed right-hand clasp between God and the king in Psalm 63 is adjacent to imagery that suggests an embrace'
+  - where: 'note 63:4 “Lifted hands, wings, and a right hand”'
+    claim: 'The senses of the verb behind “upholdeth” (tamak, H8551)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8551.htm'
+    quote: 'verb grasp, support, attain'
+  - where: 'note 63:4 “Lifted hands, wings, and a right hand”'
+    claim: '“upholdeth” in verse 8 is the verb tamak (H8551)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תָּמְכָ֥ה'
+
+  # ---------- note 63:5 ----------
+  - where: 'note 63:5 “A rich feast, said by a thirsty man”'
+    claim: 'The Hebrew has two words for fat'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: '63.5 Heb with fat and fatness'
+  - where: 'note 63:5 “A rich feast, said by a thirsty man”'
+    claim: 'A modern translation: a rich feast'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: '5 My soul is satisfied as with a rich feast,'
+  - where: 'note 63:5 “A rich feast, said by a thirsty man”'
+    claim: 'The first word (chelev, H2459) is the fat of beasts as rich food in poetry, and this verse (63:6 in the Hebrew numbering) is classed there'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2459.htm'
+    quote: 'as rich food (poetry) Deuteronomy 32:14 and in simile Psalm 63:6'
+  - where: 'note 63:5 “A rich feast, said by a thirsty man”'
+    claim: 'The same word is used especially of fat offered in sacrifice, a separate sense in the entry'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2459.htm'
+    quote: 'especially as offered in sacrifice'
+  - where: 'note 63:5 “A rich feast, said by a thirsty man”'
+    claim: 'Sacrificial fat was not eaten'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2459.htm'
+    quote: 'not to be eaten by men Leviticus 3:17'
+  - where: 'note 63:5 “A rich feast, said by a thirsty man”'
+    claim: 'The fat of the peace offering was burned on the altar'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/3?lang=eng'
+    quote: 'And the priest shall burn them upon the altar: it is the food of the offering made by fire for a sweet savour: all the fat is the Lord’s.'
+  - where: 'note 63:5 “A rich feast, said by a thirsty man”'
+    claim: 'The second word (deshen, H1880) means fatness, abundance'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1880.htm'
+    quote: 'fatness, abundance, luxuriance'
+  - where: 'note 63:5 “A rich feast, said by a thirsty man”'
+    claim: 'The second word in this verse'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וָ֭/דֶשֶׁן'
+  - where: 'note 63:5 “A rich feast, said by a thirsty man”'
+    claim: '“fatness” in Psalm 36:8 is the same noun (H1880)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִ/דֶּ֣שֶׁן'
+
+  # ---------- note 63:6 ----------
+  - where: 'note 63:6 “Three watches of the night”'
+    claim: 'The night was divided into three watches, with their hours'
+    key: bd-watches
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/watches?lang=eng'
+    quote: 'divided the night into three watches, “the beginning of the watches,” sunset till 10 p.m. (Lam. 2:19); the “middle watch,” 10 p.m. till 2 a.m. (Judg. 7:19); and the “morning watch,” 2 a.m. till sunrise'
+  - where: 'note 63:6 “Three watches of the night”'
+    claim: 'The Hebrew word is a watch as a division of time'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/821.htm'
+    quote: 'noun feminine watch (division of time)'
+  - where: 'note 63:6 “Three watches of the night”'
+    claim: 'The word is plural in this verse (63:7 in the Hebrew numbering)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/821.htm'
+    quote: 'plural absolute'
+  - where: 'note 63:6 “Three watches of the night”'
+    claim: 'A modern translation joins verse 6 to verse 5'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: 'when I think of you on my bed'
+
+  # ---------- note 63:8 ----------
+  - where: 'note 63:8 “Cleaving, and being held”'
+    claim: '“followeth hard” is the verb dabaq (H1692)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'דָּבְקָ֣ה'
+  - where: 'note 63:8 “Cleaving, and being held”'
+    claim: 'The verb is followed by “after thee”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַחֲרֶ֑י/ךָ'
+  - where: 'note 63:8 “Cleaving, and being held”'
+    claim: 'The verb’s senses'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1692.htm'
+    quote: 'verb cling, cleave, keep close'
+  - where: 'note 63:8 “Cleaving, and being held”'
+    claim: 'It is used of loyalty and affection, sometimes keeping the idea of nearness; of a man and his wife in Genesis 2:24'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1692.htm'
+    quote: 'figurative of loyalty, affection etc., sometimes with idea of physical proximity retained'
+  - where: 'note 63:8 “Cleaving, and being held”'
+    claim: 'and of Ruth and Naomi'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1692.htm'
+    quote: 'further Ruth 1:14 (Ruth to Naomi)'
+  - where: 'note 63:8 “Cleaving, and being held”'
+    claim: 'This verse (63:9 in the Hebrew numbering) is listed with Deuteronomy’s passages on cleaving to the LORD, and the entry notes that here the verb is followed by “after”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1692.htm'
+    quote: 'compare further Deuteronomy 10:20; Deuteronomy 13:5; Joshua 23:8 (all D), 2 Kings 18:6; Psalm 63:9 (followed by'
+  - where: 'note 63:8 “Cleaving, and being held”'
+    claim: 'A modern translation: clings'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: '8 My soul clings to you;'
+  - where: 'note 63:8 “Cleaving, and being held”'
+    claim: 'The Greek has both closeness and following'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/63.htm'
+    quote: 'My soul has kept very close behind thee: thy right hand has upheld me.'
+  - where: 'note 63:8 “Cleaving, and being held”'
+    claim: 'Psalm 63:8 is cited among passages on grasping the Lord’s right hand, with Psalm 73:23–24'
+    key: sc-knowhy-642
+    url: 'https://scripturecentral.org/knowhy/why-does-the-psalmist-speak-about-grasping-gods-hand'
+    quote: 'Many passages in the Old Testament—but especially in the Psalms—refer to grasping the Lord’s right hand.'
+  - where: 'note 63:8 “Cleaving, and being held”'
+    claim: 'The KnoWhy quotes this verse there'
+    key: sc-knowhy-642
+    url: 'https://scripturecentral.org/knowhy/why-does-the-psalmist-speak-about-grasping-gods-hand'
+    quote: 'Psalm 63:8 states, “My soul followeth hard after thee: thy right hand upholdeth [held] me.”'
+
+  # ---------- note 63:9 ----------
+  - where: 'note 63:9 “What will happen to the pursuers”'
+    claim: 'A modern translation has a plain future'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: 'shall go down into the depths of the earth;'
+  - where: 'note 63:9 “What will happen to the pursuers”'
+    claim: 'Delitzsch: the verbs are predictions, not curses'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/63.htm'
+    quote: 'onwards are to be taken as predictive, not as imprecatory; the former accords better with the quiet, gentle character of the whole song'
+  - where: 'note 63:9 “What will happen to the pursuers”'
+    claim: 'The phrase means the lowest places of the earth'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8482.htm'
+    quote: '(+ perhaps Psalm 71:20) the lowest places of the earth'
+  - where: 'note 63:9 “What will happen to the pursuers”'
+    claim: 'The entry gathers this phrase with the word’s uses for Sheol, the world of the dead'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8482.htm'
+    quote: 'earth (or land) i.e. Sh., Ezekiel 31:14,16,18'
+  - where: 'note 63:9 “What will happen to the pursuers”'
+    claim: 'Delitzsch takes the phrase here as the interior of the earth'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/63.htm'
+    quote: 'is the interior of the earth down into its deepest bottom'
+  - where: 'note 63:9 “What will happen to the pursuers”'
+    claim: 'Verse 10 in a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: 'they shall be given over to the power of the sword;'
+  - where: 'note 63:9 “What will happen to the pursuers”'
+    claim: 'The word for foxes may also mean jackal'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7776.htm'
+    quote: 'fox, perhaps also jackal'
+  - where: 'note 63:9 “What will happen to the pursuers”'
+    claim: 'In this verse (63:11 in the Hebrew numbering) the animals are named as eating offal'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7776.htm'
+    quote: 'eating offal Psalm 63:11'
+  - where: 'note 63:9 “What will happen to the pursuers”'
+    claim: 'Delitzsch points to 2 Samuel 18:7 as the fulfilment'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/63.htm'
+    quote: 'prey, of the jackals (vid., the fulfilment in 2 Samuel 18:7.), rejoice in Elohim'
+
+  # ---------- note 63:11 ----------
+  - where: 'note 63:11 “The king, and whose name is sworn by”'
+    claim: 'Delitzsch: David speaks of himself as king in Psalms 61 and 63'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/63.htm'
+    quote: 'Here, as in Psalm 61:1-8, David gives utterance to his longing for the sanctuary; and in both Psalms he speaks of himself as king'
+  - where: 'note 63:11 “The king, and whose name is sworn by”'
+    claim: 'Grammatically “him” may be God or the king; Delitzsch decides for God'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/63.htm'
+    quote: 'So far as the language is concerned, both references are admissible; but as regards the subject-matter, only the latter.'
+  - where: 'note 63:11 “The king, and whose name is sworn by”'
+    claim: 'His reason: Israel swears by the LORD’s name only'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/63.htm'
+    quote: 'But the Israelite is to swear by the name of Jahve and by no other, Deuteronomy 6:13'
+  - where: 'note 63:11 “The king, and whose name is sworn by”'
+    claim: 'The Greek leaves “by him” open'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/63.htm'
+    quote: 'But the king shall rejoice in God; every one that swears by him shall be praised'
+  - where: 'note 63:11 “The king, and whose name is sworn by”'
+    claim: 'The lexicon lists this verse (63:12 in the Hebrew numbering) with oaths sworn by God or His name'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7650.htm'
+    quote: 'Leviticus 19:12 (id.), Psalm 63:12; Daniel 12:7'
+  - where: 'note 63:11 “The king, and whose name is sworn by”'
+    claim: 'The same list has Deuteronomy 6:13 and 10:20'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7650.htm'
+    quote: 'compare Genesis 31:53 (E), Deuteronomy 6:13; Deuteronomy 10:20'
+  - where: 'note 63:11 “The king, and whose name is sworn by”'
+    claim: '“cleave” in Deuteronomy 10:20 is the verb of verse 8 (H1692)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'תִדְבָּ֔ק'
+  - where: 'note 63:11 “The king, and whose name is sworn by”'
+    claim: '“swear” in Deuteronomy 10:20 is the verb of verse 11 (H7650)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'תִּשָּׁבֵֽעַ'
+  - where: 'note 63:11 “The king, and whose name is sworn by”'
+    claim: 'The verb “sweareth” in this verse'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַ/נִּשְׁבָּ֣ע'
+  - where: 'note 63:11 “The king, and whose name is sworn by”'
+    claim: 'The last clause begins with ki, “for,” in a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
+    quote: 'for the mouths of liars will be stopped.'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'The Church’s footnote 1b on “thirsteth” points to Psalm 42:2'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/63?lang=eng'
+    quote: 'Ps. 42:2'
+  - where: christ
+    claim: 'The Church’s footnote 2a on “thirsteth” in Psalm 42 points to John 4:14 and 7:37'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/42?lang=eng'
+    quote: 'John 4:14 (13–15); 7:37 (37–39)'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'Skinner’s essay gathers the psalms on seeing God in the temple and treats Psalm 63'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'Psalm 63 is also noteworthy as it relates to worshippers making pilgrimages to the Jerusalem temple.'
+  - where: parallels
+    claim: 'Delitzsch finds the weariness of verse 1 in 2 Samuel 16:14'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/63.htm'
+    quote: 'that he there found himself in the condition of a'
+  - where: parallels
+    claim: 'Isaiah 26:9 has the same verb for seeking early'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7836.htm'
+    quote: 'Isaiah 26:9; Psalm 63:2.'
