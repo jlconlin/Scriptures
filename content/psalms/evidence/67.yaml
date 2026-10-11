@@ -1,0 +1,380 @@
+chapter: 67
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title names no author and no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/67?lang=eng'
+    quote: 'To the chief Musician on Neginoth, A Psalm or Song.'
+  - where: setting
+    claim: 'The ancient Greek translation adds David to the title'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/67.htm'
+    quote: 'For the end, a Psalm of David among the Hymns.'
+  - where: setting
+    claim: 'One reading takes the psalm as a harvest thanksgiving, sung with the harvest already gathered in'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/67.htm'
+    quote: 'so this Psalm contemplates, as it seems, the harvest as already gathered in, in the light of the redemptive history'
+  - where: setting
+    claim: 'The same commentary heads the psalm a harvest thanksgiving song'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/67.htm'
+    quote: 'Harvest Thanksgiving Song'
+  - where: setting
+    claim: 'The Church’s chapter heading calls the psalm messianic'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/67?lang=eng'
+    quote: 'A messianic psalm'
+  - where: setting
+    claim: 'The psalm opens with words of the priests’ blessing of Numbers 6'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/67.htm'
+    quote: 'The Psalm begins (Psalm 67:1) with words of the priest''s benediction in Numbers 6:24-26.'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The psalm has seven stanzas, with the one three-line stanza (verse 4) in the middle'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/67.htm'
+    quote: 'There are seven stanzas: twice three two-line stanzas, having one of three lines in the middle'
+  - where: thread
+    claim: 'The threefold “bless us” has been read as an echo of the threefold blessing of the priests'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/67.htm'
+    quote: 'is repeated three times, in order that the whole may bear the impress of the blessing of the priest, which is threefold'
+  - where: thread
+    claim: 'The priests’ blessing has three lines, each beginning “The LORD”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/6?lang=eng'
+    quote: 'The Lord make his face shine upon thee, and be gracious unto thee:'
+  - where: thread
+    claim: 'In verses 3–5 the Hebrew has plural “peoples,” as a modern translation prints'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2067&version=NRSVUE'
+    quote: 'Let the peoples praise you, O God'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: '“Be merciful” rendered “be gracious”; “saving health” rendered as saving power'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2067&version=NRSVUE'
+    quote: 'May God be gracious to us and bless us'
+  - where: section 1 plain
+    claim: '“Saving health” is salvation'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/67.htm'
+    quote: 'That men may know thy way on the earth, thy salvation among all nations.'
+  - where: section 2 plain
+    claim: '“The people” rendered “peoples”; “righteously” as with equity; “govern” as guide'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2067&version=NRSVUE'
+    quote: 'for you judge the peoples with equity'
+  - where: section 2 plain
+    claim: '“Govern” rendered “guide”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2067&version=NRSVUE'
+    quote: 'and guide the nations upon earth'
+  - where: 'note 67:0 “A psalm for strings, called both psalm and song”'
+    claim: 'The wording of the title in the King James Version'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/67?lang=eng'
+    quote: 'To the chief Musician on Neginoth, A Psalm or Song.'
+  - where: 'note 67:0 “A psalm for strings, called both psalm and song”'
+    claim: 'The Hebrew title ends with two nouns side by side, the word for a psalm (Strong’s 4210)…'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִזְמ֥וֹר'
+  - where: 'note 67:0 “A psalm for strings, called both psalm and song”'
+    claim: '…and the word for a song (Strong’s 7892), with no “or” between them'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שִֽׁיר'
+  - where: 'note 67:0 “A psalm for strings, called both psalm and song”'
+    claim: 'A modern translation prints the title’s two nouns separately'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2067&version=NRSVUE'
+    quote: 'To the leader: with stringed instruments. A Psalm. A Song.'
+
+  # ---------- note 67:1 ----------
+  - where: 'note 67:1 “The priests’ blessing, prayed by the people”'
+    claim: 'The words of the priestly blessing, Numbers 6:24–26'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/6?lang=eng'
+    quote: 'The Lord make his face shine upon thee, and be gracious unto thee:'
+  - where: 'note 67:1 “The priests’ blessing, prayed by the people”'
+    claim: 'Numbers 6:27: by the blessing the priests put the Lord’s name on Israel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/6?lang=eng'
+    quote: 'And they shall put my name upon the children of Israel; and I will bless them.'
+  - where: 'note 67:1 “The priests’ blessing, prayed by the people”'
+    claim: 'The verb “cause to shine” in Psalm 67:1 (Strong’s 215, causative, with “his face”)…'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָ֤אֵ֥ר'
+  - where: 'note 67:1 “The priests’ blessing, prayed by the people”'
+    claim: '…is the verb of Numbers 6:25, in the same form, with the same noun “his face”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'יָאֵ֨ר'
+  - where: 'note 67:1 “The priests’ blessing, prayed by the people”'
+    claim: '“Be merciful” in the psalm and “be gracious” in Numbers 6:25 are one Hebrew verb, “shew favour, be gracious”; the lexicon lists both verses under it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2603.htm'
+    quote: 'verb shew favour, be gracious'
+  - where: 'note 67:1 “The priests’ blessing, prayed by the people”'
+    claim: 'A modern translation has “be gracious” in the psalm'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2067&version=NRSVUE'
+    quote: 'May God be gracious to us and bless us'
+
+  # ---------- note 67:2 (purpose) ----------
+  - where: 'note 67:2 “Blessed so that the nations may know”'
+    claim: 'Verse 2 is a purpose clause: “that one may know”; the Greek has “That men may know”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/67.htm'
+    quote: 'That men may know thy way on the earth, thy salvation among all nations.'
+  - where: 'note 67:2 “Blessed so that the nations may know”'
+    claim: 'The same reading takes “thy way” as God’s purpose being worked out, and the salvation as that of all mankind'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/67.htm'
+    quote: 'the progressive realization of His counsel'
+  - where: 'note 67:2 “Blessed so that the nations may know”'
+    claim: 'The salvation is “not of Israel merely, but of all mankind”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/67.htm'
+    quote: 'the salvation not of Israel merely, but of all mankind'
+  - where: 'note 67:2 “Blessed so that the nations may know”'
+    claim: 'The one verb of verse 2 (Hebrew 67:3) is an infinitive construct, “to know” (Strong’s 3045, with the preposition “to”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'דַ֣עַת'
+  - where: 'note 67:2 “Blessed so that the nations may know”'
+    claim: 'One reading: the more God favors His people, the further the knowledge of Him spreads'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/67.htm'
+    quote: 'The more graciously God attests Himself to the church, the more widely and successfully does the knowledge of this God spread itself forth from the church over the whole earth.'
+
+  # ---------- note 67:2 (saving health) ----------
+  - where: 'note 67:2 “Saving health is salvation”'
+    claim: 'The Hebrew noun behind “saving health” (Strong’s 3444) means salvation by God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3444.htm'
+    quote: 'salvation by God, primarily from external evils, but often with added spiritual idea'
+  - where: 'note 67:2 “Saving health is salvation”'
+    claim: 'The Greek translation has “thy salvation”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/67.htm'
+    quote: 'thy salvation among all nations'
+  - where: 'note 67:2 “Saving health is salvation”'
+    claim: 'A modern translation has “your saving power”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2067&version=NRSVUE'
+    quote: 'your saving power among all nations'
+  - where: christ
+    claim: 'The Church’s edition hangs three references on the word “saving”: Luke 2:30, Mosiah 15:28, D&C 133:37'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/67?lang=eng'
+    quote: 'Luke 2:30 (30–31); Mosiah 15:28; D&C 133:37 (36–37).'
+  - where: christ
+    claim: 'Simeon spoke with the child in his arms'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/2?lang=eng'
+    quote: 'Then took he him up in his arms, and blessed God, and said,'
+  - where: christ
+    claim: 'Simeon’s words, Luke 2:30–32'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/2?lang=eng'
+    quote: 'For mine eyes have seen thy salvation,'
+  - where: 'note 67:3 “The people are the peoples”'
+    claim: 'The noun in verses 3, 4 and 5 is plural (ammim, Strong’s 5971, masculine plural)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עַמִּ֥ים'
+  - where: 'note 67:3 “The people are the peoples”'
+    claim: 'A modern translation prints the plural'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2067&version=NRSVUE'
+    quote: 'Let the peoples praise you, O God; let all the peoples praise you.'
+  - where: 'note 67:3 “The people are the peoples”'
+    claim: 'The Greek translation has plurals in the refrain'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/67.htm'
+    quote: 'let all the peoples give thanks to thee'
+  - where: 'note 67:3 “The people are the peoples”'
+    claim: 'Verse 2’s “nations” is goyim (Strong’s 1471), plural'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'גּ֝וֹיִ֗ם'
+  - where: 'note 67:3 “The people are the peoples”'
+    claim: 'Verse 4’s “nations” is a third word, le’ummim (Strong’s 3816), plural'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְאֻ֫מִּ֥ים'
+  - where: 'note 67:3 “The people are the peoples”'
+    claim: 'The third word is poetic and in the plural usually means peoples other than Israel'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3816.htm'
+    quote: 'people, in poetry and chiefly late'
+  - where: 'note 67:3 “The people are the peoples”'
+    claim: 'In the plural it is usually of other peoples'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3816.htm'
+    quote: 'usually plural of other peoples'
+
+  # ---------- note 67:4 ----------
+  - where: 'note 67:4 “A judge who leads”'
+    claim: '“Righteously” is a noun, uprightness, which the lexicon files here under government'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4334.htm'
+    quote: '3 uprightness (compare מֵישָׁר 2), in government Psalm 67:5'
+  - where: 'note 67:4 “A judge who leads”'
+    claim: 'The verb behind “govern” means lead, guide'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5148.htm'
+    quote: 'verb lead, guide'
+  - where: 'note 67:4 “A judge who leads”'
+    claim: 'Psalm 23:3 is listed under the same use, “especially in path of blessing”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5148.htm'
+    quote: 'Psalm 67:5; especially in path of blessing Psalm 23:3'
+  - where: 'note 67:4 “A judge who leads”'
+    claim: 'A modern translation: “judge the peoples with equity and guide the nations”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2067&version=NRSVUE'
+    quote: 'for you judge the peoples with equity'
+  - where: 'note 67:4 “A judge who leads”'
+    claim: 'A modern translation has “guide”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2067&version=NRSVUE'
+    quote: 'and guide the nations upon earth'
+  - where: 'note 67:4 “A judge who leads”'
+    claim: 'The Greek translation has “guide”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/67.htm'
+    quote: 'shalt guide the nations on the earth'
+  - where: 'note 67:4 “A judge who leads”'
+    claim: 'Psalm 96:10 has the same clause, after “the LORD reigneth”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/96?lang=eng'
+    quote: 'Say among the heathen that the Lord reigneth: the world also shall be established that it shall not be moved: he shall judge the people righteously.'
+  - where: 'note 67:4 “A judge who leads”'
+    claim: 'Psalm 98:9: he comes to judge the world with righteousness and the people with equity'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/98?lang=eng'
+    quote: 'with righteousness shall he judge the world, and the people with equity'
+
+  # ---------- note 67:6 ----------
+  - where: 'note 67:6 “A harvest given, or a harvest promised”'
+    claim: 'The Hebrew verb “yield” (gave) is in the perfect, the form for a completed act (Strong’s 5414, qal perfect, third feminine singular)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נָתְנָ֣ה'
+  - where: 'note 67:6 “A harvest given, or a harvest promised”'
+    claim: 'The Greek translation renders it as past'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/67.htm'
+    quote: 'The earth has yielded her fruit; let God, our God bless us.'
+  - where: 'note 67:6 “A harvest given, or a harvest promised”'
+    claim: 'A modern translation renders it as past'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2067&version=NRSVUE'
+    quote: 'The earth has yielded its increase; God, our God, has blessed us.'
+  - where: 'note 67:6 “A harvest given, or a harvest promised”'
+    claim: 'Leviticus 26:4 promises that the land shall yield her increase'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/26?lang=eng'
+    quote: 'Then I will give you rain in due season, and the land shall yield her increase, and the trees of the field shall yield their fruit.'
+  - where: 'note 67:6 “A harvest given, or a harvest promised”'
+    claim: 'One reading: each good harvest fulfils Leviticus 26:4 and is a pledge that Israel’s mission to the world will be accomplished'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/67.htm'
+    quote: 'Each plentiful harvest is to Israel a fulfilment of the promise given in Leviticus 26:4, and a pledge that God is with His people, and that its mission to the whole world (of peoples) shall not remain unaccomplished.'
+  - where: 'note 67:6 “A harvest given, or a harvest promised”'
+    claim: 'On that reading the harvest is “an earnest of further blessing”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/67.htm'
+    quote: 'This increase of corn and fruits is a blessing and an earnest of further blessing'
+  - where: 'note 67:6 “A harvest given, or a harvest promised”'
+    claim: 'The Church’s edition points “increase” to the Topical Guide entry on the renewal of the earth, and “earth” to 2 Nephi 1:20'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/67?lang=eng'
+    quote: 'TG Earth, Renewal of.'
+  - where: 'note 67:6 “A harvest given, or a harvest promised”'
+    claim: 'Footnote 6a on “earth” is 2 Nephi 1:20'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/67?lang=eng'
+    quote: '2 Ne. 1:20.'
+  - where: 'note 67:6 “A harvest given, or a harvest promised”'
+    claim: '2 Nephi 1:20: prospering in the land depends on keeping the commandments'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/1?lang=eng'
+    quote: 'Inasmuch as ye shall keep my commandments ye shall prosper in the land'
+  - where: christ
+    claim: 'The tenth article of faith: the earth will be renewed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/a-of-f/1?lang=eng'
+    quote: 'that Christ will reign personally upon the earth; and, that the earth will be renewed and receive its paradisiacal glory'
+
+  - where: 'note 67:6 “A harvest given, or a harvest promised”'
+    claim: 'The Hebrew of verse 6 (Hebrew 67:7) begins with the noun “earth”; there is no word for “then”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֶ֭רֶץ'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'The Church’s chapter heading calls the psalm messianic and says He will judge and govern in righteousness'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/67?lang=eng'
+    quote: 'He will judge and govern in righteousness'
+  - where: christ
+    claim: '3 Nephi 19:25: Jesus blessed the people and His countenance shone upon them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/19?lang=eng'
+    quote: 'and his countenance did smile upon them, and the light of his countenance did shine upon them'
+  - where: christ
+    claim: 'In 3 Nephi 19 Jesus fulfilled the petition of the priestly blessing literally'
+    key: sc-knowhy-212
+    url: 'https://scripturecentral.org/knowhy/why-did-jesus-allude-to-the-priestly-blessing-in-numbers-6'
+    quote: 'When Jesus gave His blessing, He fulfilled in a very literal sense, the petition of the traditional priestly blessing.'
+  - where: explore
+    claim: 'The Church’s edition points “shine” in verse 1 to Psalm 4:6'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/67?lang=eng'
+    quote: 'Ps. 4:6.'
+  - where: parallels
+    claim: 'Leviticus 26:4 has the words of verse 6'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/26?lang=eng'
+    quote: 'the land shall yield her increase'
+  - where: parallels
+    claim: 'Psalm 85:12 has the words of verse 6'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/85?lang=eng'
+    quote: 'Yea, the Lord shall give that which is good; and our land shall yield her increase.'
+  - where: 'explore'
+    claim: 'One reading pairs Psalm 65 with this psalm: there the grain still stands in the fields'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/67.htm'
+    quote: 'As Psalm 65:1-13 contemplated the corn and fruits as still standing in the fields'
+  - where: christ
+    claim: 'The Church’s chapter heading says the Lord will cause His face to shine upon men'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/67?lang=eng'
+    quote: 'The Lord will cause His face to shine upon men'
+  - where: christ
+    claim: 'The Church’s footnote at 3 Nephi 19:25 (“countenance”) points to the priests’ blessing, Numbers 6:25 (23–27)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/19?lang=eng'
+    quote: 'Num. 6:25 (23–27)'
+  - where: christ
+    claim: 'The Church’s footnote at “increase” in verse 6 is the Topical Guide entry on the renewal of the earth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/67?lang=eng'
+    quote: 'TG Earth, Renewal of.'
+  - where: 'note 67:1 “The priests’ blessing, prayed by the people”'
+    claim: 'Psalm 4:6 prays for the light of the LORD’s countenance, in the words of the blessing’s third line'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/4?lang=eng'
+    quote: 'lift thou up the light of thy countenance upon us'
