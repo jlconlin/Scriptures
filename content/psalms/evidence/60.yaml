@@ -1,0 +1,569 @@
+chapter: 60
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David and sets it in his wars with Aram and Edom'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/60?lang=eng'
+    quote: 'Michtam of David, to teach; when he strove with Aram-naharaim and with Aram-zobah'
+  - where: setting
+    claim: 'Michtam stands in the titles of Psalm 16 and of Psalms 56–60, so Psalm 60 is the last of five in a row'
+    key: bd-psalms
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
+    quote: 'Michtam, rendered by some Golden Psalm (Ps. 16; 56–60)'
+  - where: setting
+    claim: 'Samuel’s account of these wars says the Lord preserved David wherever he went'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/8?lang=eng'
+    quote: 'And the Lord preserved David whithersoever he went.'
+  - where: setting
+    claim: 'Psalm 60 is listed among the laments that likely arose from crises when the community gathered to sacrifice and pray'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'These likely arose from times of national or personal crisis, when the community gathered (at the temple, if possible) in order to offer sacrifice and pray for deliverance: 12, 22, 23, 44, 60'
+  - where: setting
+    claim: 'Psalm 108:6–13 repeats Psalm 60:5–12 (the Church’s footnote 5b gives the parallel; the text of Psalm 108 was read with show.mjs)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/108?lang=eng'
+    quote: 'That thy beloved may be delivered: save with thy right hand, and answer me.'
+  - where: setting
+    claim: 'Psalm 108:1–5, before the shared verses, is praise'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/108?lang=eng'
+    quote: 'I will sing and give praise, even with my glory.'
+  - where: setting
+    claim: 'Psalm 44:9 has the line about God not going out with the armies'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/44?lang=eng'
+    quote: 'But thou hast cast off, and put us to shame; and goest not forth with our armies.'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The verb “cast off” of verse 1 (zanach, H2186) returns in verse 10; the lexicon lists both verses (Hebrew 60:3 and 60:12)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2186.htm'
+    quote: 'Psalm 60:3; Psalm 60:12; Psalm 108:12'
+  - where: thread
+    claim: 'In verses 1–3 every verb is second person masculine singular (addressed to God) except “it shaketh” in verse 2, a third person feminine form whose subject is the land (morphology HVqp3fs); hebrew.mjs psalms 60:1-3'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מָֽטָה'
+
+  # ---------- sections ----------
+  - where: 'section 1 plain'
+    claim: '“Scattered” in verse 1 is the verb to break through'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6555.htm'
+    quote: 'break through:'
+  - where: 'section 1 plain'
+    claim: '“Wine of astonishment” is wine of reeling'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8653.htm'
+    quote: 'noun feminine reeling'
+  - where: 'section 1 plain'
+    claim: 'A modern translation of verses 1–3: restore us, repair the cracks, tottering'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+60&version=NRSVUE'
+    quote: 'repair the cracks in it, for it is tottering.'
+  - where: 'section 2 plain'
+    claim: 'Verse 5’s “hear me” is rendered “answer”; the Hebrew verb is anah (H6032), as in Psalm 108:6 “answer me”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+60&version=NRSVUE'
+    quote: 'Give victory with your right hand and answer us,'
+  - where: 'section 3 plain'
+    claim: '“The strength of mine head” is a helmet'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4581.htm'
+    quote: 'i.e. my helmet'
+  - where: 'section 3 plain'
+    claim: '“Lawgiver” here is a commander’s staff'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2710.htm'
+    quote: 'Numbers 21:18 (both poetry), Psalm 60:9 = Psalm 108:9.'
+  - where: 'section 3 plain'
+    claim: 'A modern translation has washbasin, and a shout over Philistia'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+60&version=NRSVUE'
+    quote: 'Moab is my washbasin;'
+  - where: 'section 4 plain'
+    claim: 'The “strong city” is a fortified city'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+60&version=NRSVUE'
+    quote: 'Who will bring me to the fortified city?'
+  - where: 'section 4 plain'
+    claim: '“Help” in “the help of man” is deliverance'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8668.htm'
+    quote: 'noun feminine deliverance, salvation'
+
+  # ---------- note 60:0 Shushan-eduth ----------
+  - where: 'note 60:0 “A tune called the Lily of Testimony, and a psalm to teach”'
+    claim: 'The title’s Hebrew has shushan and eduth, then Michtam, “of David,” and “to teach” (lamad, H3925); hebrew.mjs psalms --wlc 60:1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שׁוּשַׁ֣ן'
+  - where: 'note 60:0 “A tune called the Lily of Testimony, and a psalm to teach”'
+    claim: 'Shushan is the word for lily'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7799.htm'
+    quote: 'noun feminine usually lily, probably any lily-like flower'
+  - where: 'note 60:0 “A tune called the Lily of Testimony, and a psalm to teach”'
+    claim: 'Eduth is “testimony,” used of the law; in the titles of Psalms 60 and 80 the pair is explained as a melody whose first line likened the law to a choice flower'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5715.htm'
+    quote: 'melody whose first line compare law as testimony to a choice flower'
+  - where: 'note 60:0 “A tune called the Lily of Testimony, and a psalm to teach”'
+    claim: 'The same entry gives the word’s sense as the law as a testimony of God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5715.htm'
+    quote: 'as a testimony of God'
+  - where: 'note 60:0 “A tune called the Lily of Testimony, and a psalm to teach”'
+    claim: 'A modern translation prints the title as a tune name'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+60&version=NRSVUE'
+    quote: 'according to the Lily of the Covenant'
+  - where: 'note 60:0 “A tune called the Lily of Testimony, and a psalm to teach”'
+    claim: 'Titles that are not instructions for performance or descriptions of the psalm are probably names of tunes'
+    key: bd-psalms
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
+    quote: 'The other titles are all probably names of tunes, well known at the time, to which the Psalms were appointed to be sung.'
+  - where: 'note 60:0 “A tune called the Lily of Testimony, and a psalm to teach”'
+    claim: 'The Greek title reads “for them that shall yet be changed” and “for instruction”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/60.htm'
+    quote: 'For the end, for them that shall yet be changed; for an inscription by David for instruction'
+  - where: 'note 60:0 “A tune called the Lily of Testimony, and a psalm to teach”'
+    claim: '“To teach” in the title is the verb teach with no object'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3925.htm'
+    quote: 'teach, absolute 2 Chronicles 17:7,9 (twice in verse); Psalm 60:1'
+
+  # ---------- note 60:0 the wars ----------
+  - where: 'note 60:0 “The wars behind the title”'
+    claim: 'The Greek title renders Aram-naharaim and Aram-zobah as Mesopotamia of Syria and Syria Sobal'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/60.htm'
+    quote: 'when he had burned Mesopotamia of Syria, and Syria Sobal'
+  - where: 'note 60:0 “The wars behind the title”'
+    claim: 'Aram-naharaim is Aram of the two rivers'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/60.htm'
+    quote: 'Aram of the two rivers'
+  - where: 'note 60:0 “The wars behind the title”'
+    claim: 'David smote Hadadezer king of Zobah on the way to the Euphrates'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/8?lang=eng'
+    quote: 'David smote also Hadadezer, the son of Rehob, king of Zobah, as he went to recover his border at the river Euphrates.'
+  - where: 'note 60:0 “The wars behind the title”'
+    claim: 'Edom is the name of Esau and of his descendants, and their country lay south of the Dead Sea'
+    key: bd-edom
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/edom?lang=eng'
+    quote: 'This country lay south of the Dead Sea, having Moab on the north and the Dead Sea on the northwest.'
+  - where: 'note 60:0 “The wars behind the title”'
+    claim: 'Samuel gives the victory in the valley of salt to David, over “the Syrians,” with eighteen thousand'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/8?lang=eng'
+    quote: 'And David gat him a name when he returned from smiting of the Syrians in the valley of salt, being eighteen thousand men.'
+  - where: 'note 60:0 “The wars behind the title”'
+    claim: 'Chronicles gives it to Abishai, over the Edomites, with eighteen thousand'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/18?lang=eng'
+    quote: 'Moreover Abishai the son of Zeruiah slew of the Edomites in the valley of salt eighteen thousand.'
+  - where: 'note 60:0 “The wars behind the title”'
+    claim: 'Kings says Joab stayed six months in Edom'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/11?lang=eng'
+    quote: '(For six months did Joab remain there with all Israel, until he had cut off every male in Edom:)'
+  - where: 'note 60:0 “The wars behind the title”'
+    claim: 'One older reading reconciles the three commanders: Joab had the supreme command and fought through his brother'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/60.htm'
+    quote: 'the army of David was under the supreme command of Joab, and this battle in the Valley of Salt was fought against the Edomites by Joab indirectly through his brother'
+  - where: 'note 60:0 “The wars behind the title”'
+    claim: 'The same reading notes that both histories have eighteen thousand, not twelve, and holds that the title came from a history now lost'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/60.htm'
+    quote: 'This historical inscription comes from an historical work which gave the Psalm in this connection.'
+  - where: 'note 60:0 “The wars behind the title”'
+    claim: 'The same reading notes the difference in the number'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/60.htm'
+    quote: 'we find the number eighteen thousand instead of twelve'
+  - where: 'note 60:0 “The wars behind the title”'
+    claim: 'Samuel twice says the Lord preserved David in these wars (verses 6 and 14)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/8?lang=eng'
+    quote: 'and the Syrians became servants to David, and brought gifts. And the Lord preserved David whithersoever he went.'
+  - where: 'note 60:0 “The wars behind the title”'
+    claim: 'One older reading: Edom invaded while the army was in the north'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/60.htm'
+    quote: 'the Edomites in the south had invaded the land which was denuded of troops'
+  - where: 'note 60:0 “The wars behind the title”'
+    claim: 'On that reading the psalm was composed before the victory the title names'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/60.htm'
+    quote: 'It was composed before the victory in the Valley of Salt, and presupposes the Israelitish south had been at that time grievously laid waste by the Edomites'
+
+  # ---------- note 60:1 ----------
+  - where: 'note 60:1 “Rejected, and broken through”'
+    claim: 'The Hebrew of verse 1 has zanach (H2186) and parats (H6555), each with the suffix “us”; hebrew.mjs psalms 60:1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'זְנַחְתָּ֣/נוּ'
+  - where: 'note 60:1 “Rejected, and broken through”'
+    claim: '“Cast off” is to reject, spurn'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2186.htm'
+    quote: 'verb reject, spurn'
+  - where: 'note 60:1 “Rejected, and broken through”'
+    claim: 'The verb is used mostly of God rejecting people'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2186.htm'
+    quote: 'elsewhere God rejects people'
+  - where: 'note 60:1 “Rejected, and broken through”'
+    claim: '“Scattered” is the verb to break through'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6555.htm'
+    quote: 'break through:'
+  - where: 'note 60:1 “Rejected, and broken through”'
+    claim: 'The lexicon puts this verse (Hebrew 60:3) under the same sense as 2 Samuel 5:20: the Lord breaking out on someone in sudden judgment'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6555.htm'
+    quote: 'in sudden judgment, with accusative of person 2 Samuel 5:20 = 1 Chronicles 14:11; Psalm 60:3'
+  - where: 'note 60:1 “Rejected, and broken through”'
+    claim: 'David used the verb of his victory and named the place Baal-perazim'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/5?lang=eng'
+    quote: 'The Lord hath broken forth upon mine enemies before me, as the breach of waters. Therefore he called the name of that place Baal-perazim.'
+  - where: 'note 60:1 “Rejected, and broken through”'
+    claim: 'The first verb returns in verse 10 (Hebrew 60:12)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2186.htm'
+    quote: 'Psalm 60:3; Psalm 60:12; Psalm 108:12'
+
+  # ---------- note 60:3 ----------
+  - where: 'note 60:3 “Wine that makes a people stagger”'
+    claim: 'The noun means reeling'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8653.htm'
+    quote: 'noun feminine reeling'
+  - where: 'note 60:3 “Wine that makes a people stagger”'
+    claim: 'The lexicon lists the noun in Isaiah 51:17, 22 and in this verse (Hebrew 60:5) only, and renders the phrase “drink reeling as wine”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8653.htm'
+    quote: 'Isaiah 51:17,22;'
+  - where: 'note 60:3 “Wine that makes a people stagger”'
+    claim: 'The phrase here is to drink reeling as wine'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8653.htm'
+    quote: 'drink reeling as wine'
+  - where: 'note 60:3 “Wine that makes a people stagger”'
+    claim: 'Isaiah 51:17 has the cup of trembling drunk at the hand of the Lord, and 51:22 has it taken away'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/51?lang=eng'
+    quote: 'which hast drunk at the hand of the Lord the cup of his fury; thou hast drunken the dregs of the cup of trembling'
+
+  # ---------- note 60:4 ----------
+  - where: 'note 60:4 “A banner to rally to, or a signal to flee”'
+    claim: 'The Hebrew of verse 4 has nes (H5251), an infinitive tagged H5127, and qoshet (H7189); hebrew.mjs psalms 60:4'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ/הִתְנוֹסֵ֑ס'
+  - where: 'note 60:4 “A banner to rally to, or a signal to flee”'
+    claim: 'The banner is a standard as a rallying point, the word of Isaiah 5:26 and 11:12'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5251.htm'
+    quote: 'standard, as rallying-point'
+  - where: 'note 60:4 “A banner to rally to, or a signal to flee”'
+    claim: 'The same entry lists Isaiah’s ensign passages'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5251.htm'
+    quote: 'Isaiah 5:26; Isaiah 11:12'
+  - where: 'note 60:4 “A banner to rally to, or a signal to flee”'
+    claim: 'The same entry renders this verse (Hebrew 60:6) as a standard set only for fleeing'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5251.htm'
+    quote: 'thou hast set a standard (only) for fleeing'
+  - where: 'note 60:4 “A banner to rally to, or a signal to flee”'
+    claim: 'The verb form is found here and in Zechariah 9:16, where it is doubtful; some derive it from the word banner, giving the King James rendering'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5264.htm'
+    quote: 'that it may be displayed, AV, compare De'
+  - where: 'note 60:4 “A banner to rally to, or a signal to flee”'
+    claim: 'The Zechariah occurrence is marked very dubious'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5264.htm'
+    quote: 'very dubious'
+  - where: 'note 60:4 “A banner to rally to, or a signal to flee”'
+    claim: 'The last word is taken as an Aramaic spelling of “bow,” differing in one letter'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7189.htm'
+    quote: 'noun [masculine ?] bow'
+  - where: 'note 60:4 “A banner to rally to, or a signal to flee”'
+    claim: 'The lexicon calls it an Aramaic form of the usual word for bow, with one consonant changed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7189.htm'
+    quote: 'Psalm 60:6, Aramaic form of'
+  - where: 'note 60:4 “A banner to rally to, or a signal to flee”'
+    claim: 'Under the verb “flee” the lexicon gives this verse (Hebrew 60:6) as “in order to take flight before the bow,” following the ancient versions'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5127.htm'
+    quote: 'Psalm 60:6 in order to take flight before the bow (so Vrss'
+  - where: 'note 60:4 “A banner to rally to, or a signal to flee”'
+    claim: 'A word of the same letters means truth and occurs in Proverbs 22:21'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7189.htm'
+    quote: 'noun masculine truth; — Proverbs 22:21'
+  - where: 'note 60:4 “A banner to rally to, or a signal to flee”'
+    claim: 'The Greek reads flight from the bow'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/60.htm'
+    quote: 'Thou hast given a token to them that fear thee, that they might flee from the bow.'
+  - where: 'note 60:4 “A banner to rally to, or a signal to flee”'
+    claim: 'A modern translation follows the Greek'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+60&version=NRSVUE'
+    quote: 'to rally to it out of bowshot.'
+  - where: 'note 60:4 “A banner to rally to, or a signal to flee”'
+    claim: 'Its footnote says the Hebrew has “because of the truth”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+60&version=NRSVUE'
+    quote: '60.4 Gk Syr Jerome: Heb because of the truth'
+
+  # ---------- note 60:6 ----------
+  - where: 'note 60:6 “The oracle at the centre”'
+    claim: 'A modern translation renders “in his sanctuary” and sets verses 6–8 in quotation marks as God’s speech'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+60&version=NRSVUE'
+    quote: 'God has promised in his sanctuary,'
+  - where: 'note 60:6 “The oracle at the centre”'
+    claim: 'Its footnote gives the alternative “by his holiness”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+60&version=NRSVUE'
+    quote: '60.6 Or by his holiness'
+  - where: 'note 60:6 “The oracle at the centre”'
+    claim: 'One older reading takes the phrase as an oath, with Psalm 89:35 (Hebrew 89:36)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/60.htm'
+    quote: 'it is therefore equal to an oath "by His holiness" (Psalm 89:36; Amos 4:2)'
+  - where: 'note 60:6 “The oracle at the centre”'
+    claim: 'Psalm 89:35 has the same Hebrew noun with “my” (H6944); hebrew.mjs psalms 89:35'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְ/קָדְשִׁ֑/י'
+  - where: 'note 60:6 “The oracle at the centre”'
+    claim: 'The same reading gives verses 6–8 to the king, arguing from Judah as the staff'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/60.htm'
+    quote: 'shows that it is the king who is speaking, and not the people'
+  - where: 'note 60:6 “The oracle at the centre”'
+    claim: 'The heading of the Church’s edition takes verses 6–8 as the Lord’s acts'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/60?lang=eng'
+    quote: 'The Lord places Ephraim at the head and makes Judah His lawgiver.'
+  - where: 'note 60:6 “The oracle at the centre”'
+    claim: 'On that reading the king has heard a divine promise of victory'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/60.htm'
+    quote: 'A divine utterance, promising him victory, which he has heard, is expanded in this second strophe.'
+  - where: 'note 60:6 “The oracle at the centre”'
+    claim: 'Shechem is west of the Jordan and the valley of Succoth east of it'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/60.htm'
+    quote: 'Shechem in the centre of the region on this side the Jordan, and the valley of Succoth in the heart of the region on the other side'
+  - where: 'note 60:6 “The oracle at the centre”'
+    claim: 'The speaker is in possession of the land'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/60.htm'
+    quote: 'he knows himself to be in the free and inalienable possession of the land'
+
+  # ---------- note 60:7 ----------
+  - where: 'note 60:7 “A helmet and a commander’s staff”'
+    claim: 'The word behind “strength” is a place or means of safety'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4581.htm'
+    quote: 'place or means of safety, protection'
+  - where: 'note 60:7 “A helmet and a commander’s staff”'
+    claim: 'In this verse (Hebrew 60:9) it is “my helmet”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4581.htm'
+    quote: 'i.e. my helmet'
+  - where: 'note 60:7 “A helmet and a commander’s staff”'
+    claim: 'The participle can mean a prescriber of laws'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2710.htm'
+    quote: 'prescriber of laws'
+  - where: 'note 60:7 “A helmet and a commander’s staff”'
+    claim: 'In Genesis 49:10 and in this verse it is a commander’s staff'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2710.htm'
+    quote: 'staff Genesis 49:10'
+  - where: 'note 60:7 “A helmet and a commander’s staff”'
+    claim: 'This verse is listed with Genesis 49:10 under that sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2710.htm'
+    quote: 'Numbers 21:18 (both poetry), Psalm 60:9 = Psalm 108:9.'
+  - where: 'note 60:7 “A helmet and a commander’s staff”'
+    claim: 'The Greek has “Judas is my king”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/60.htm'
+    quote: 'Judas is my king;'
+  - where: 'note 60:7 “A helmet and a commander’s staff”'
+    claim: 'Chronicles: the birthright went to the sons of Joseph and the chief ruler came of Judah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/5?lang=eng'
+    quote: 'For Judah prevailed above his brethren, and of him came the chief ruler; but the birthright was Joseph’s:)'
+  - where: 'note 60:7 “A helmet and a commander’s staff”'
+    claim: 'Ephraim was set before Manasseh and was given the birthright'
+    key: bd-ephraim
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ephraim?lang=eng'
+    quote: 'Ephraim was given the birthright in Israel (1 Chr. 5:1–2; Jer. 31:9)'
+  - where: 'note 60:7 “A helmet and a commander’s staff”'
+    claim: 'Judah’s tribe took the lead after the settlement, with Ephraim its chief rival'
+    key: bd-judah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/judah?lang=eng'
+    quote: 'the tribe descended from him took the lead after the settlement in Canaan, its chief rival being Ephraim'
+
+  # ---------- note 60:8 ----------
+  - where: 'note 60:8 “A washbasin, a shoe, and a shout”'
+    claim: 'The noun is the word for a pot, a household utensil for boiling'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5518.htm'
+    quote: 'household utensil for boiling'
+  - where: 'note 60:8 “A washbasin, a shoe, and a shout”'
+    claim: 'In this verse (Hebrew 60:10) it is “my washing-pot”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5518.htm'
+    quote: 'my washing-pot'
+  - where: 'note 60:8 “A washbasin, a shoe, and a shout”'
+    claim: 'One older reading: throwing a shoe over a territory is a sign of taking possession'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/60.htm'
+    quote: 'The throwing of a shoe over a territory is a sign of taking forcible possession'
+  - where: 'note 60:8 “A washbasin, a shoe, and a shout”'
+    claim: 'The same reading sets it beside the taking off of the shoe as renouncing a claim'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/60.htm'
+    quote: 'the shoe is in both instances the symbol of legal possession'
+  - where: 'note 60:8 “A washbasin, a shoe, and a shout”'
+    claim: 'Ruth 4:7 describes the custom of the shoe in confirming a transfer'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ruth/4?lang=eng'
+    quote: 'a man plucked off his shoe, and gave it to his neighbour: and this was a testimony in Israel.'
+  - where: 'note 60:8 “A washbasin, a shoe, and a shout”'
+    claim: 'The Greek has the shoe stretched out over Idumea and Philistia subjected'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/60.htm'
+    quote: 'over Idumea will I stretch out my shoe; the Philistines have been subjected to me.'
+  - where: 'note 60:8 “A washbasin, a shoe, and a shout”'
+    claim: 'The verb for Philistia is a feminine imperative (hebrew.mjs psalms 60:8, morphology HVrv2fs)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הִתְרֹעָֽעִֽי'
+  - where: 'note 60:8 “A washbasin, a shoe, and a shout”'
+    claim: 'The verb is to shout in triumph'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7321.htm'
+    quote: '1 shout in triumph: with'
+  - where: 'note 60:8 “A washbasin, a shoe, and a shout”'
+    claim: 'With Philistia as subject it is marked ironic'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7321.htm'
+    quote: '(subject Philistia; iron.)'
+  - where: 'note 60:8 “A washbasin, a shoe, and a shout”'
+    claim: 'Samuel: the Philistines subdued, the Moabites and all Edom made David’s servants'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/8?lang=eng'
+    quote: 'throughout all Edom put he garrisons, and all they of Edom became David’s servants.'
+
+  # ---------- note 60:10 ----------
+  - where: 'note 60:10 “The only helper is the one who rejected them”'
+    claim: 'Verse 10 has the verb of verse 1 again, zanach with “us”; hebrew.mjs psalms 60:10'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'זְנַחְתָּ֑/נוּ'
+  - where: 'note 60:10 “The only helper is the one who rejected them”'
+    claim: 'The Greek reads the verse as a question with a relative clause'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/60.htm'
+    quote: 'Wilt not thou, O God, who hast cast us off? and wilt not thou, O God, go forth with our forces?'
+  - where: 'note 60:10 “The only helper is the one who rejected them”'
+    claim: 'A modern translation reads it as a renewed complaint'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+60&version=NRSVUE'
+    quote: 'Have you not rejected us, O God?'
+  - where: 'note 60:10 “The only helper is the one who rejected them”'
+    claim: 'Its second line is a statement'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+60&version=NRSVUE'
+    quote: 'You do not go out, O God, with our armies.'
+  - where: 'note 60:10 “The only helper is the one who rejected them”'
+    claim: 'The “strong city” of verse 9 (Hebrew 60:11) is an entrenched city'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4692.htm'
+    quote: 'entrenched city Psalm 31:22 (al. besieged), Psalm 60:11'
+  - where: 'note 60:10 “The only helper is the one who rejected them”'
+    claim: '“Help” in “the help of man” is the noun deliverance, salvation'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8668.htm'
+    quote: 'noun feminine deliverance, salvation'
+  - where: 'note 60:10 “The only helper is the one who rejected them”'
+    claim: 'The noun is deliverance, usually by God through human agency, especially from oppression and in battle'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8668.htm'
+    quote: 'deliverance, usually by God, through human agency, especially from oppression'
+  - where: 'note 60:10 “The only helper is the one who rejected them”'
+    claim: 'The Greek of verse 11'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/60.htm'
+    quote: 'for vain is the deliverance of man.'
+  - where: 'note 60:10 “The only helper is the one who rejected them”'
+    claim: 'Verse 12 has an expressed pronoun “he” (H1931) before the verb; hebrew.mjs psalms 60:12'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ֝/ה֗וּא'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: '“Lawgiver” in verse 7 is the word of Genesis 49:10 (the Church’s footnote 7a gives the same reference)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2710.htm'
+    quote: 'staff Genesis 49:10'
+  - where: christ
+    claim: 'Genesis 49:10: the lawgiver stays with Judah until Shiloh come'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/49?lang=eng'
+    quote: 'The sceptre shall not depart from Judah, nor a lawgiver from between his feet, until Shiloh come'
+  - where: christ
+    claim: 'Shiloh in Genesis 49:10 is read as a prophecy of the Messiah, confirmed by the Joseph Smith Translation and fulfilled in Jesus Christ'
+    key: bd-shiloh
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/shiloh?lang=eng'
+    quote: 'was fulfilled in Jesus Christ’s being literally of the lineage so as to be the heir to the throne of David'
+  - where: christ
+    claim: 'The Bible Dictionary says many scholars have so regarded the name and that JST Genesis 50:24 confirms it'
+    key: bd-shiloh
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/shiloh?lang=eng'
+    quote: 'has been regarded by many biblical scholars as a prophecy of the coming of Messiah. This interpretation is confirmed by JST Gen. 50:24 (Appendix)'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'Psalm 44 has been called this psalm’s twin'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/44.htm'
+    quote: 'with which it forms a twin couple'
+  - where: explore
+    claim: 'Psalm 108 sets these verses after praise'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/108?lang=eng'
+    quote: 'God hath spoken in his holiness; I will rejoice, I will divide Shechem, and mete out the valley of Succoth.'
+  - where: parallels
+    claim: 'Isaiah 51:17 has the same Hebrew noun as verse 3'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8653.htm'
+    quote: 'Isaiah 51:17,22;'
+  - where: parallels
+    claim: 'Genesis 49:10 has the word rendered “lawgiver” in verse 7'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2710.htm'
+    quote: 'staff Genesis 49:10'
