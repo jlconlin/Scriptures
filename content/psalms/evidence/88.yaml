@@ -1,0 +1,458 @@
+chapter: 88
+claims:
+  # ---------- when ----------
+  - where: when
+    claim: 'The title names the sons of Korah and Heman the Ezrahite'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/88?lang=eng'
+    quote: 'A Song or Psalm for the sons of Korah, to the chief Musician upon Mahalath Leannoth, Maschil of Heman the Ezrahite.'
+
+  # ---------- setting ----------
+  - where: setting
+    claim: 'Psalm 87 is cheerful and Psalm 88 gloomy, and they stand together as contrasts'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/88.htm'
+    quote: 'Psalm 88 is as gloomy as Psalm 87:1-7 is cheerful; they stand near one another as contrasts.'
+  - where: setting
+    claim: 'Psalm 88 has been called the darkest of the laments'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/88.htm'
+    quote: 'this Psalm 88 is the darkest, gloomiest, of all the plaintive Psalms'
+  - where: setting
+    claim: '“The grave” in verse 3 is Sheol in Hebrew'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לִ/שְׁא֥וֹל'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The cry of verse 1 is the verb tsa‘aq'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'צָעַ֖קְתִּי'
+  - where: thread
+    claim: 'The cry of verse 9 is the verb qara’'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קְרָאתִ֣י/ךָ'
+  - where: thread
+    claim: 'The cry of verse 13 is the verb shawa‘'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שִׁוַּ֑עְתִּי'
+  - where: thread
+    claim: 'The last Hebrew word of the psalm is “darkness” (dark place)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מַחְשָֽׁךְ'
+  - where: thread
+    claim: 'The last line repeats the verb of verse 8, “thou hast put far”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הִרְחַ֣קְתָּ'
+
+  # ---------- sections ----------
+  - where: section 2 plain
+    claim: '“The grave” of verse 3 is Sheol'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לִ/שְׁא֥וֹל'
+  - where: section 2 plain
+    claim: '“Free among the dead” means adrift, cut off from remembrance'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2670.htm'
+    quote: 'among the dead I am free (i.e. adrift, cut off from Yahweh''s remembrance)'
+  - where: section 2 plain
+    claim: '“Waves” are breakers of the sea'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4867.htm'
+    quote: 'breaker, of sea'
+  - where: section 3 plain
+    claim: 'A modern translation has the eye growing dim'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2088&version=NRSVUE'
+    quote: 'my eye grows dim through sorrow.'
+  - where: section 4 plain
+    claim: 'The second “dead” of verse 10 is the shades'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2088&version=NRSVUE'
+    quote: 'Do the shades rise up to praise you?'
+  - where: section 4 plain
+    claim: '“Destruction” is Abaddon, the place of ruin'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/11.htm'
+    quote: 'proper name (place of) Destruction, Ruin'
+  - where: section 5 plain
+    claim: '“Prevent” is to come to meet'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6923.htm'
+    quote: 'come to meet one (accusative) as friend'
+  - where: section 5 plain
+    claim: 'The Greek renders the uncertain word of verse 15 as despair'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/88.htm'
+    quote: 'having been exalted, I was brought low and into despair.'
+  - where: section 5 plain
+    claim: 'A modern translation of the last clause'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2088&version=NRSVUE'
+    quote: 'my companions are in darkness.'
+
+  # ---------- note 88:0 Mahalath Leannoth ----------
+  - where: 'note 88:0 “Mahalath Leannoth”'
+    claim: 'Mahalath stands only in the titles of Psalms 53 and 88, apparently a tune name, of doubtful meaning'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4257.htm'
+    quote: 'apparently a catchword in a song, giving name to tune; meaning dubious'
+  - where: 'note 88:0 “Mahalath Leannoth”'
+    claim: 'The lexicon sets Leannoth beside the intensive form of the verb “sing”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6030.htm'
+    quote: 'the sound of distinct singing; compare לְעַנּוֺת Psalm 88:1.'
+  - where: 'note 88:0 “Mahalath Leannoth”'
+    claim: 'The Greek has “for responsive strains”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/88.htm'
+    quote: 'A song of a Psalm for the sons of Core for the end, upon Maeleth for responsive strains, of instruction for Aeman the Israelite.'
+  - where: 'note 88:0 “Mahalath Leannoth”'
+    claim: 'A modern translation keeps both words as a name'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2088&version=NRSVUE'
+    quote: 'To the leader: according to Mahalath Leannoth. A Maskil of Heman the Ezrahite.'
+
+  # ---------- note 88:0 Heman ----------
+  - where: 'note 88:0 “Heman, and the two names in the title”'
+    claim: 'Chronicles lists Heman a singer among the Kohathite Levites'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/6?lang=eng'
+    quote: 'Of the sons of the Kohathites: Heman a singer, the son of Joel, the son of Shemuel,'
+  - where: 'note 88:0 “Heman, and the two names in the title”'
+    claim: 'His line is traced back to Korah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/6?lang=eng'
+    quote: 'The son of Tahath, the son of Assir, the son of Ebiasaph, the son of Korah,'
+  - where: 'note 88:0 “Heman, and the two names in the title”'
+    claim: 'Heman is called the king’s seer'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/25?lang=eng'
+    quote: 'All these were the sons of Heman the king’s seer in the words of God, to lift up the horn.'
+  - where: 'note 88:0 “Heman, and the two names in the title”'
+    claim: 'A Heman is named among the sages Solomon surpassed, with Ethan the Ezrahite'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/4?lang=eng'
+    quote: 'For he was wiser than all men; than Ethan the Ezrahite, and Heman, and Chalcol, and Darda, the sons of Mahol'
+  - where: 'note 88:0 “Heman, and the two names in the title”'
+    claim: 'Chronicles lists Ethan and Heman among the sons of Zerah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/2?lang=eng'
+    quote: 'And the sons of Zerah; Zimri, and Ethan, and Heman, and Calcol, and Dara: five of them in all.'
+  - where: 'note 88:0 “Heman, and the two names in the title”'
+    claim: 'The Heman of 1 Kings 4:31 is of Judah, not Levi; the singer Heman is a Korahite'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/88.htm'
+    quote: 'is a direct descendant of Zerah, and therefore is not of the tribe of Levi, but of Judah.'
+  - where: 'note 88:0 “Heman, and the two names in the title”'
+    claim: 'The title of Psalm 89 names Ethan the Ezrahite'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/89?lang=eng'
+    quote: 'Maschil of Ethan the Ezrahite.'
+  - where: 'note 88:0 “Heman, and the two names in the title”'
+    claim: 'One older reading: two statements of origin stand side by side and cannot be reconciled'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/88.htm'
+    quote: 'At the head of the Psalm there stand two different statements respecting its origin side by side, which are irreconcilable.'
+  - where: 'note 88:0 “Heman, and the two names in the title”'
+    claim: 'That reading prefers the second statement (Heman the Ezrahite)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/88.htm'
+    quote: 'But which of the two statements is the more reliable one? Most assuredly the latter'
+
+  # ---------- note 88:1 ----------
+  - where: 'note 88:1 “One name of hope and three cries”'
+    claim: 'The noun “salvation” and the phrase “God of my salvation” in this verse (Hebrew 88:2)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3444.htm'
+    quote: 'salvation by God, primarily from external evils, but often with added spiritual idea'
+  - where: 'note 88:1 “One name of hope and three cries”'
+    claim: 'Verse 1 uses the verb tsa‘aq (H6817)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'צָעַ֖קְתִּי'
+  - where: 'note 88:1 “One name of hope and three cries”'
+    claim: 'Verse 9 uses the verb qara’ (H7121)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קְרָאתִ֣י/ךָ'
+  - where: 'note 88:1 “One name of hope and three cries”'
+    claim: 'Verse 13 uses the verb shawa‘ (H7768)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שִׁוַּ֑עְתִּי'
+  - where: 'note 88:1 “One name of hope and three cries”'
+    claim: '“Prevent” in verse 13 is the verb “come to meet,” used of worshippers and of this verse (Hebrew 88:14)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6923.htm'
+    quote: 'come to meet one (accusative) as friend, with (ב) something Isaiah 21:14; Deuteronomy 23:5; Nehemiah 13:2, so, as worshippers'
+  - where: 'note 88:1 “One name of hope and three cries”'
+    claim: 'Verse 13 opens with the pronoun “and I” standing first'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַ/אֲנִ֤י'
+
+  # ---------- note 88:5 ----------
+  - where: 'note 88:5 “Free, as a released slave is free”'
+    claim: 'The adjective means free from slavery, of the bondservant released in the seventh year'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2670.htm'
+    quote: 'free from slavery: of Hebrew bondslave (male or female) set free in 7th year'
+  - where: 'note 88:5 “Free, as a released slave is free”'
+    claim: 'The lexicon’s gloss of this verse (Hebrew 88:6)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2670.htm'
+    quote: 'among the dead I am free (i.e. adrift, cut off from Yahweh''s remembrance)'
+  - where: 'note 88:5 “Free, as a released slave is free”'
+    claim: 'Job 3:19 uses the same word of the slave in the grave'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/3?lang=eng'
+    quote: 'The small and great are there; and the servant is free from his master.'
+  - where: 'note 88:5 “Free, as a released slave is free”'
+    claim: 'The lexicon lists Job 3:19 under the same adjective'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2670.htm'
+    quote: 'Job 3:19 a slave is free from his master'
+  - where: 'note 88:5 “Free, as a released slave is free”'
+    claim: 'A modern translation: forsaken among the dead'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2088&version=NRSVUE'
+    quote: 'like those forsaken among the dead,'
+  - where: 'note 88:5 “Free, as a released slave is free”'
+    claim: 'The Greek keeps “free among the dead”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/88.htm'
+    quote: 'free among the dead, as the slain ones cast out, who sleep in the tomb'
+
+  # ---------- note 88:7 ----------
+  - where: 'note 88:7 “The pit, the dark, and thy waves”'
+    claim: 'The word for “darkness” in verse 6 (Hebrew 88:7) is used of the dark place of God’s wrath, like Sheol'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4285.htm'
+    quote: 'of dark place of God''s wrath'
+  - where: 'note 88:7 “The pit, the dark, and thy waves”'
+    claim: '“Waves” is a breaker of the sea, figurative of calamities, here as sent by the LORD; the same word in Psalm 42:7 and Jonah 2:3 (Hebrew 42:8; 2:4)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4867.htm'
+    quote: 'breaker, of sea'
+  - where: 'note 88:7 “The pit, the dark, and thy waves”'
+    claim: 'The word is used figuratively of calamities'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4867.htm'
+    quote: 'figurative of calamities'
+  - where: 'note 88:7 “The pit, the dark, and thy waves”'
+    claim: 'In Psalm 88, Psalm 42 and Jonah 2 the breakers are sent by the LORD'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4867.htm'
+    quote: 'as sent by'
+  - where: 'note 88:7 “The pit, the dark, and thy waves”'
+    claim: 'Jonah’s prayer has the same phrase'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jonah/2?lang=eng'
+    quote: 'all thy billows and thy waves passed over me.'
+  - where: 'note 88:7 “The pit, the dark, and thy waves”'
+    claim: 'Psalm 42:7, a psalm of the sons of Korah, has the same phrase'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/42?lang=eng'
+    quote: 'all thy waves and thy billows are gone over me.'
+
+  # ---------- note 88:8 ----------
+  - where: 'note 88:8 “What his affliction is”'
+    claim: '“Shut up” is the verb for confining, figurative here, opposed to going out (Hebrew 88:9)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3607.htm'
+    quote: 'shut up, with accusative 1 Samuel 6:10 (+ בְ local), Jeremiah 32:3; passive participle Jeremiah 32:2 (בְ local), figurative Psalm 88:9'
+  - where: 'note 88:8 “What his affliction is”'
+    claim: 'One older reading hears a leper’s complaint'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/88.htm'
+    quote: 'This sounds, according to Leviticus 13, very much like the complaint of a leper.'
+  - where: 'note 88:8 “What his affliction is”'
+    claim: 'That reading refers “shut up” to the leper’s separation and the youth of verse 15 to the same disease'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/88.htm'
+    quote: 'the leprosy (Psalm 88:9), which, the disposition to which being born with him, has been his inheritance from his youth up (Psalm 88:16)'
+  - where: 'note 88:8 “What his affliction is”'
+    claim: 'The law of the leper’s separation'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/13?lang=eng'
+    quote: 'he shall dwell alone; without the camp shall his habitation be.'
+  - where: 'note 88:8 “What his affliction is”'
+    claim: 'A modern translation of the clause'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2088&version=NRSVUE'
+    quote: 'I am shut in so that I cannot escape;'
+
+  # ---------- note 88:10 ----------
+  - where: 'note 88:10 “Six questions about the dead”'
+    claim: 'The first “dead” of verse 10 is the ordinary participle “dead ones”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הֲ/לַ/מֵּתִ֥ים'
+  - where: 'note 88:10 “Six questions about the dead”'
+    claim: 'The second is rephaim'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רְ֝פָאִ֗ים'
+  - where: 'note 88:10 “Six questions about the dead”'
+    claim: 'Rephaim are shades, ghosts, a name of the dead in Sheol'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7496.htm'
+    quote: 'plural shades, ghosts'
+  - where: 'note 88:10 “Six questions about the dead”'
+    claim: 'A modern translation of the line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2088&version=NRSVUE'
+    quote: 'Do the shades rise up to praise you?'
+  - where: 'note 88:10 “Six questions about the dead”'
+    claim: '“Destruction” is Abaddon in Hebrew'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בָּ/אֲבַדּֽוֹן'
+  - where: 'note 88:10 “Six questions about the dead”'
+    claim: 'Abaddon denotes the place of the lost, translated “destruction” in the King James'
+    key: bd-abaddon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abaddon?lang=eng'
+    quote: 'A Hebrew word found in the Wisdom literature of the Old Testament denoting “the place of the lost”'
+  - where: 'note 88:10 “Six questions about the dead”'
+    claim: 'Abaddon is the place of ruin within Sheol, parallel to “grave” in this verse (Hebrew 88:12)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/11.htm'
+    quote: 'Place of ruin in'
+  - where: 'note 88:10 “Six questions about the dead”'
+    claim: '“Land of forgetfulness” is a designation of Sheol'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5388.htm'
+    quote: 'noun feminine forgetfulness, oblivion'
+  - where: 'note 88:10 “Six questions about the dead”'
+    claim: '“Lovingkindness” in verse 11 is hesed'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַסְדֶּ֑/ךָ'
+
+  # ---------- note 88:15 ----------
+  - where: 'note 88:15 “A word of unknown meaning”'
+    claim: 'The verb occurs only here (Hebrew 88:16)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6323.htm'
+    quote: 'only אָפוּנָה Psalm 88:16'
+  - where: 'note 88:15 “A word of unknown meaning”'
+    claim: 'One derivation gives “be confused, helpless”; others emend the text'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6323.htm'
+    quote: 'hence be confused, helpless'
+  - where: 'note 88:15 “A word of unknown meaning”'
+    claim: 'Others emend to another verb'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6323.htm'
+    quote: 'others emend'
+  - where: 'note 88:15 “A word of unknown meaning”'
+    claim: 'The Greek rendering'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/88.htm'
+    quote: 'having been exalted, I was brought low and into despair.'
+  - where: 'note 88:15 “A word of unknown meaning”'
+    claim: 'A modern translation has “I am desperate”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2088&version=NRSVUE'
+    quote: 'I suffer your terrors; I am desperate.'
+  - where: 'note 88:15 “A word of unknown meaning”'
+    claim: 'Its footnote on verse 15'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2088&version=NRSVUE'
+    quote: 'Meaning of Heb uncertain'
+
+  # ---------- note 88:18 ----------
+  - where: 'note 88:18 “The last word is darkness”'
+    claim: 'The last word of the psalm is “dark place”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מַחְשָֽׁךְ'
+  - where: 'note 88:18 “The last word is darkness”'
+    claim: 'Verse 18 has the verb of verse 8, “thou hast put far”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הִרְחַ֣קְתָּ'
+  - where: 'note 88:18 “The last word is darkness”'
+    claim: 'Verse 8 has the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הִרְחַ֥קְתָּ'
+  - where: 'note 88:18 “The last word is darkness”'
+    claim: 'Verse 18 has the same word for acquaintances as verse 8, standing directly before “darkness” with no verb or preposition'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מְֽיֻדָּעַ֥/י'
+  - where: 'note 88:18 “The last word is darkness”'
+    claim: 'Verse 8 has the word for acquaintances'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מְיֻדָּעַ֗/י'
+  - where: 'note 88:18 “The last word is darkness”'
+    claim: 'A modern translation of the last clause'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2088&version=NRSVUE'
+    quote: 'my companions are in darkness.'
+  - where: 'note 88:18 “The last word is darkness”'
+    claim: 'An older commentary gives the rendering that the friends are darkness'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/88.htm'
+    quote: 'My familiar friends are gloomy darkness; i.e., instead of those who were hitherto my familiars (Job 19:14), darkness is become my familiar friend?'
+  - where: 'note 88:18 “The last word is darkness”'
+    claim: 'The same word, in the plural, is the “darkness” of verse 6 (Hebrew 88:7), and in verse 18 (Hebrew 88:19) it means the grave or Sheol'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4285.htm'
+    quote: 'plural מַחֲשַׁכִּים Psalm 88:7'
+  - where: 'note 88:18 “The last word is darkness”'
+    claim: 'The psalm does not brighten into hope'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/88.htm'
+    quote: 'the gloom of melancholy does not brighten up to become a hope, the Psalm dies away in Job-like lamentation.'
+  - where: 'note 88:18 “The last word is darkness”'
+    claim: 'The name “God of my salvation” and the praying itself show faith not extinguished'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/88.htm'
+    quote: 'and his praying itself, show that the spark of faith within him is not utterly extinguished'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'Jehovah, the LORD of the Old Testament, is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: christ
+    claim: 'Usually “LORD” in the Old Testament means Jehovah'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Usually, when the word Lord appears in the Old Testament, it means “Jehovah.”'
+
+  # ---------- explore ----------
+  - where: explore
+    claim: 'The psalm’s contacts with Job have been called more striking than its echoes of other psalms'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/88.htm'
+    quote: 'But these Psalm-echoes are outweighed by the still more striking points of contact with the Book of Job'
+  - where: explore
+    claim: 'The complaint of verse 8 is compared with Job 19:13 and following'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/88.htm'
+    quote: 'The complaint concerning the alienation of his nearest relations sounds like Job 19:13.'
+
+  # ---------- parallels ----------
+  - where: parallels
+    claim: 'Psalm 42:7 and Jonah 2:3 have the same word for waves (Hebrew 42:8; 2:4)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4867.htm'
+    quote: 'Psalm 88:8'
+  - where: parallels
+    claim: 'Job 3:19 has the same word “free”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2670.htm'
+    quote: 'Job 3:19 a slave is free from his master'
