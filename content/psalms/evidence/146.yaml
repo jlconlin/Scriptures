@@ -1,0 +1,340 @@
+chapter: 146
+claims:
+  # ---- when ----
+  - where: 'when'
+    claim: 'Psalm 145 carries a title, the last in the book (data/kjv/psalms.titles.json has none for 146–150; footnotes.mjs prints “Title: (none)” for 146)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/145?lang=eng'
+    quote: 'David’s Psalm of praise.'
+
+  # ---- setting ----
+  - where: 'setting'
+    claim: 'The psalm before this one carries a title; none follows it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/145?lang=eng'
+    quote: 'David’s Psalm of praise.'
+  - where: 'setting'
+    claim: 'Psalm 146 opens with “Praise ye the LORD” (and closes with it, verse 10)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/146?lang=eng'
+    quote: 'Praise ye the Lord. Praise the Lord, O my soul.'
+  - where: 'setting'
+    claim: 'Psalm 147 opens and closes with “Praise ye the LORD”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/147?lang=eng'
+    quote: 'Praise ye the Lord: for it is good to sing praises unto our God'
+  - where: 'setting'
+    claim: 'Psalm 148 opens and closes with “Praise ye the LORD”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/148?lang=eng'
+    quote: 'Praise ye the Lord. Praise ye the Lord from the heavens: praise him in the heights.'
+  - where: 'setting'
+    claim: 'Psalm 149 opens and closes with “Praise ye the LORD”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/149?lang=eng'
+    quote: 'Praise ye the Lord. Sing unto the Lord a new song, and his praise in the congregation of saints.'
+  - where: 'setting'
+    claim: 'Psalm 150 opens and closes with “Praise ye the LORD”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/150?lang=eng'
+    quote: 'Let every thing that hath breath praise the Lord. Praise ye the Lord.'
+  - where: 'setting'
+    claim: 'Psalm 145 ends with a promise of praise'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/145?lang=eng'
+    quote: 'My mouth shall speak the praise of the Lord: and let all flesh bless his holy name for ever and ever.'
+  - where: 'setting'
+    claim: 'Psalm 145 has the LORD raising the bowed down'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/145?lang=eng'
+    quote: 'The Lord upholdeth all that fall, and raiseth up all those that be bowed down.'
+  - where: 'setting'
+    claim: 'Psalm 145 has Him feeding all creatures'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/145?lang=eng'
+    quote: 'The eyes of all wait upon thee; and thou givest them their meat in due season.'
+  - where: 'setting'
+    claim: 'Psalm 145 calls His kingdom everlasting'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/145?lang=eng'
+    quote: 'Thy kingdom is an everlasting kingdom, and thy dominion endureth throughout all generations.'
+  - where: 'setting'
+    claim: 'Near the end of his psalm (verse 34 of 35 in the chapter) Nephi refuses to trust in the arm of flesh'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/4?lang=eng'
+    quote: 'O Lord, I have trusted in thee, and I will trust in thee forever. I will not put my trust in the arm of flesh'
+  - where: 'setting'
+    claim: 'John sent to Jesus from prison'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/11?lang=eng'
+    quote: 'Now when John had heard in the prison the works of Christ, he sent two of his disciples,'
+  - where: 'setting'
+    claim: 'The Savior’s answer begins with the blind receiving sight'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/11?lang=eng'
+    quote: 'The blind receive their sight, and the lame walk, the lepers are cleansed, and the deaf hear'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'The God the psalm trusts keeps faithfulness and is the Almighty Creator: the two grounds of trust'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/146.htm'
+    quote: 'Men often are not able to give help although they might be willing to do so: He, however, is the Almighty, the Creator of the heavens, the earth, and the sea'
+  - where: 'thread'
+    claim: 'Men change their minds; He keeps truth'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/146.htm'
+    quote: 'Men easily change their mind and do not keep their word: He, however, is He who keepeth truth or faithfulness'
+
+  # ---- sections ----
+  - where: 'section 2 plain'
+    claim: '“The son of man” is rendered “mortals,” and “thoughts” “plans”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20146&version=NRSVUE'
+    quote: 'in mortals, in whom there is no help.'
+  - where: 'section 2 plain'
+    claim: '“Thoughts” are plans'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20146&version=NRSVUE'
+    quote: 'on that very day their plans perish.'
+  - where: 'section 2 plain'
+    claim: '“Help” in verse 3 is the word for deliverance, salvation (hebrew.mjs psalms 146:3: H8668)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8668.htm'
+    quote: 'noun feminine deliverance, salvation'
+  - where: 'section 2 plain'
+    claim: '“His earth” is the ground he was taken from'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/146.htm'
+    quote: 'then he returns to his earth, i.e., the earth of his first beginning'
+  - where: 'section 3 plain'
+    claim: '“Keepeth truth” is keeping faithfulness'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/146.htm'
+    quote: 'He who keepeth truth or faithfulness, inasmuch as He unchangeably adheres to the fulfilling of His promises'
+  - where: 'section 4 plain'
+    claim: '“Relieveth” is to restore (hebrew.mjs psalms 146:9: H5749)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5749.htm'
+    quote: 'restore, relieve'
+  - where: 'section 4 plain'
+    claim: '“Turneth upside down” is to bend, make crooked (hebrew.mjs psalms 146:9: H5791)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5791.htm'
+    quote: 'bend, make crooked'
+
+  # ---- notes ----
+  - where: 'note 146:1 “The call to everyone, then to himself”'
+    claim: '“Praise ye the LORD” is the Hebrew hallelujah (footnote 1a of the Church’s edition)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/146?lang=eng'
+    quote: 'Hallelu-yah'
+  - where: 'note 146:1 “The call to everyone, then to himself”'
+    claim: 'Psalm 103 opens “Bless the LORD, O my soul”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/103?lang=eng'
+    quote: 'Bless the Lord, O my soul: and all that is within me, bless his holy name.'
+  - where: 'note 146:1 “The call to everyone, then to himself”'
+    claim: 'Psalm 104 opens with the same sentence'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/104?lang=eng'
+    quote: 'Bless the Lord, O my soul. O Lord my God, thou art very great'
+  - where: 'note 146:1 “The call to everyone, then to himself”'
+    claim: 'Psalm 104:33 has nearly the words of verse 2'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/104?lang=eng'
+    quote: 'I will sing unto the Lord as long as I live: I will sing praise to my God while I have my being.'
+
+  - where: 'note 146:3 “A son of man is a mortal, and he cannot save”'
+    claim: 'In the Old Testament “son of man” often means simply a man, as at Psalm 8:4'
+    key: bd-son-of-man
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/son-of-man?lang=eng'
+    quote: 'In the Old Testament the expression “son of man” is frequently used to denote simply “a man” (Num. 23:19; Job 25:6; Ps. 8:4; 80:17).'
+  - where: 'note 146:3 “A son of man is a mortal, and he cannot save”'
+    claim: 'A modern translation has “mortals”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20146&version=NRSVUE'
+    quote: 'in mortals, in whom there is no help.'
+  - where: 'note 146:3 “A son of man is a mortal, and he cannot save”'
+    claim: '“Help” is the noun deliverance, salvation (hebrew.mjs psalms 146:3: H8668)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8668.htm'
+    quote: 'noun feminine deliverance, salvation'
+  - where: 'note 146:3 “A son of man is a mortal, and he cannot save”'
+    claim: 'The word is used of deliverance by God from oppression, in battle, and from personal trouble'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8668.htm'
+    quote: 'deliverance, usually by God, through human agency, especially from oppression'
+  - where: 'note 146:3 “A son of man is a mortal, and he cannot save”'
+    claim: 'The same entry lists deliverance from personal trouble'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8668.htm'
+    quote: 'of deliverance from personal trouble Psalm 37:39'
+  - where: 'note 146:3 “A son of man is a mortal, and he cannot save”'
+    claim: 'Psalm 118:9 prefers trust in the LORD to confidence in princes'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/118?lang=eng'
+    quote: 'It is better to trust in the Lord than to put confidence in princes.'
+  - where: 'note 146:3 “A son of man is a mortal, and he cannot save”'
+    claim: 'Jeremiah curses the man who trusts in man and makes flesh his arm'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/17?lang=eng'
+    quote: 'Cursed be the man that trusteth in man, and maketh flesh his arm, and whose heart departeth from the Lord.'
+  - where: 'note 146:3 “A son of man is a mortal, and he cannot save”'
+    claim: 'Nephi has a curse on trusting in man (“maketh flesh his arm”) beside his own refusal to trust the arm of flesh'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/4?lang=eng'
+    quote: 'Yea, cursed is he that putteth his trust in man or maketh flesh his arm.'
+
+  - where: 'note 146:4 “Back to the ground, and his plans with him”'
+    claim: 'A modern translation renders “thoughts” as “plans”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20146&version=NRSVUE'
+    quote: 'on that very day their plans perish.'
+  - where: 'note 146:4 “Back to the ground, and his plans with him”'
+    claim: 'The older commentary has “projects or plans”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/146.htm'
+    quote: 'In that day, the inevitable day of death, the projects or plans of man are at once and forever at an end.'
+  - where: 'note 146:4 “Back to the ground, and his plans with him”'
+    claim: '“Son of man” in verse 3 is ben-adam (hebrew.mjs psalms 146:3: words 4–5, H1121a and H120)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אָדָ֓ם'
+  - where: 'note 146:4 “Back to the ground, and his plans with him”'
+    claim: 'The older commentary reads “son of adam” (verse 3), with “his earth” following, as joining Genesis 2:7 and 3:19'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/146.htm'
+    quote: 'combines the thoughts of Genesis 2:7 and Genesis 3:19'
+  - where: 'note 146:4 “Back to the ground, and his plans with him”'
+    claim: '“His earth” is the earth of his first beginning'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/146.htm'
+    quote: 'then he returns to his earth, i.e., the earth of his first beginning'
+  - where: 'note 146:4 “Back to the ground, and his plans with him”'
+    claim: 'Genesis 2:7: man formed of dust and given breath'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/2?lang=eng'
+    quote: 'And the Lord God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.'
+  - where: 'note 146:4 “Back to the ground, and his plans with him”'
+    claim: 'Genesis 3:19: dust returning to dust'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/3?lang=eng'
+    quote: 'for dust thou art, and unto dust shalt thou return.'
+  - where: 'note 146:4 “Back to the ground, and his plans with him”'
+    claim: 'Alma teaches that the spirits of all are taken home to God at death'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/40?lang=eng'
+    quote: 'the spirits of all men, whether they be good or evil, are taken home to that God who gave them life.'
+
+  - where: 'note 146:6 “Why He can be trusted: able, faithful, and at work”'
+    claim: '“Happy” in verse 5 is the word that opens Psalm 1:1, “Blessed” (hebrew.mjs psalms --word 835 lists Ps 1:1 and 146:5)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַשְׁרֵ֗י'
+  - where: 'note 146:6 “Why He can be trusted: able, faithful, and at work”'
+    claim: 'The older commentary notes the word here as the last of its kind in the Psalter'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/146.htm'
+    quote: 'blessed is he (this is the last of the twenty-five'
+  - where: 'note 146:6 “Why He can be trusted: able, faithful, and at work”'
+    claim: 'The older commentary sets verse 5 against verses 3–4: the word marks the turn to the other helper'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/146.htm'
+    quote: 'on the contrary, who has the God of Jacob'
+  - where: 'note 146:6 “Why He can be trusted: able, faithful, and at work”'
+    claim: 'The first ground is that He is the Almighty Creator'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/146.htm'
+    quote: 'He, however, is the Almighty, the Creator of the heavens, the earth, and the sea'
+  - where: 'note 146:6 “Why He can be trusted: able, faithful, and at work”'
+    claim: '“Truth” is faithfulness to His promises'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/146.htm'
+    quote: 'He who keepeth truth or faithfulness, inasmuch as He unchangeably adheres to the fulfilling of His promises'
+  - where: 'note 146:6 “Why He can be trusted: able, faithful, and at work”'
+    claim: 'Five lines beginning with the divine name belong together'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/146.htm'
+    quote: 'The five lines beginning with Jahve belong together.'
+  - where: 'note 146:6 “Why He can be trusted: able, faithful, and at work”'
+    claim: 'Judgment on the wicked gets one line'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/146.htm'
+    quote: 'This judicial manifestation of Jahve has only one line devoted to it.'
+  - where: 'note 146:6 “Why He can be trusted: able, faithful, and at work”'
+    claim: 'Lines of verses 7–9 begin with “The LORD”; verse 8 has three of the five'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/146?lang=eng'
+    quote: 'The Lord openeth the eyes of the blind: the Lord raiseth them that are bowed down: the Lord loveth the righteous:'
+
+  - where: 'note 146:8 “The works Jesus named to John”'
+    claim: 'John, in prison, sent two disciples'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/11?lang=eng'
+    quote: 'Now when John had heard in the prison the works of Christ, he sent two of his disciples,'
+  - where: 'note 146:8 “The works Jesus named to John”'
+    claim: 'Their question'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/11?lang=eng'
+    quote: 'And said unto him, Art thou he that should come, or do we look for another?'
+  - where: 'note 146:8 “The works Jesus named to John”'
+    claim: 'Jesus told them to report what they heard and saw'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/11?lang=eng'
+    quote: 'Jesus answered and said unto them, Go and shew John again those things which ye do hear and see:'
+  - where: 'note 146:8 “The works Jesus named to John”'
+    claim: 'The Church’s footnote 8b at “blind” refers to Isaiah 42:7 and Matthew 11:5'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/146?lang=eng'
+    quote: 'Isa. 42:7; Matt. 11:5'
+  - where: 'note 146:8 “The works Jesus named to John”'
+    claim: 'Isaiah 42:7 has the blind and the prisoners together'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/42?lang=eng'
+    quote: 'To open the blind eyes, to bring out the prisoners from the prison, and them that sit in darkness out of the prison house.'
+
+  - where: 'note 146:9 “The law’s three, and the way that is bent”'
+    claim: 'The law names the fatherless, the widow and the stranger as the LORD’s charge'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/10?lang=eng'
+    quote: 'He doth execute the judgment of the fatherless and widow, and loveth the stranger, in giving him food and raiment.'
+  - where: 'note 146:9 “The law’s three, and the way that is bent”'
+    claim: '“Relieveth” is the verb restore, relieve, used here and at Psalm 147:6'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5749.htm'
+    quote: 'restore, relieve (compare Arabic IV.), Imperfect3masculine singular יְעוֺדֵד, with accusative of person Psalm 146:9'
+  - where: 'note 146:9 “The law’s three, and the way that is bent”'
+    claim: 'The lexicon lists Psalm 147:6 for the same verb'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5749.htm'
+    quote: 'Psalm 147:6'
+  - where: 'note 146:9 “The law’s three, and the way that is bent”'
+    claim: '“Turneth upside down” is to bend, make crooked, with the LORD as subject'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5791.htm'
+    quote: 'bend, make crooked'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'The song at the sea ends with the LORD reigning for ever'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/15?lang=eng'
+    quote: 'The Lord shall reign for ever and ever.'
+  - where: 'explore'
+    claim: 'Jesus read a passage about preaching deliverance to captives and sight to the blind as His mission'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/4?lang=eng'
+    quote: 'to preach deliverance to the captives, and recovering of sight to the blind'
+
+  # ---- parallels ----
+  - where: 'parallels'
+    claim: 'Psalm 118:8 on confidence in man'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/118?lang=eng'
+    quote: 'It is better to trust in the Lord than to put confidence in man.'
+  - where: 'parallels'
+    claim: 'The song at the sea ends with the words that open verse 10'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/15?lang=eng'
+    quote: 'The Lord shall reign for ever and ever.'
