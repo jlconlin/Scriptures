@@ -29,15 +29,10 @@ claims:
     url: 'https://biblehub.com/commentaries/kad/psalms/87.htm'
     quote: 'The mission thought in Psalm 86:9 becomes the ruling thought in this Korahitic Psalm.'
   - where: 'setting'
-    claim: 'The psalm is very compressed; it has been called terse and enigmatic'
+    claim: 'The psalm has been called terse and enigmatic'
     key: cambridge-psalms
     url: 'https://biblehub.com/commentaries/cambridge/psalms/87.htm'
     quote: 'It is terse, abrupt, enigmatic, like a prophetic oracle'
-  - where: 'setting'
-    claim: 'The psalm is compressed to the point of obscurity'
-    key: delitzsch-psalms
-    url: 'https://biblehub.com/commentaries/kad/psalms/87.htm'
-    quote: 'boldly and expressively concise even to obscurity'
   - where: 'setting'
     claim: 'Selah stands at the end of verses 3 and 6'
     key: lds-scriptures
@@ -122,11 +117,6 @@ claims:
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2087&version=NRSVUE'
     quote: 'as he registers the peoples,'
-  - where: 'section 3 plain'
-    claim: 'Verse 7 is rendered as singers and dancers saying the last line'
-    key: nrsvue
-    url: 'https://www.biblegateway.com/passage/?search=Psalm%2087&version=NRSVUE'
-    quote: 'Singers and dancers alike say,'
 
   # ---- note 87:1 ----
   - where: 'note 87:1 “The city He founded”'
@@ -369,11 +359,6 @@ claims:
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'עַמִּ֑ים'
-  - where: 'note 87:6 “The LORD’s register of the peoples”'
-    claim: 'The verb “count” means to count things to learn their number, and the entry lists Psalm 87:6'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/5608.htm'
-    quote: '1 count things, to learn their number'
   - where: 'note 87:6 “The LORD’s register of the peoples”'
     claim: 'A modern translation’s cross-reference at verse 6 is Ezekiel 13:9'
     key: nrsvue
