@@ -61,11 +61,6 @@ claims:
 
   # ---- thread ----
   - where: 'thread'
-    claim: 'The clause of verse 17 is four Hebrew words: the Lord, among them, Sinai, in the holy place'
-    key: nrsvue
-    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
-    quote: '68.17 Cn: Heb The Lord among them Sinai in the holy (place)'
-  - where: 'thread'
     claim: 'The psalm has been divided into two halves at verse 18 (Hebrew verse 19)'
     key: delitzsch-psalms
     url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
@@ -239,11 +234,6 @@ claims:
     url: 'https://biblehub.com/hebrew/3173.htm'
     quote: 'to dwell at home'
   - where: 'note 68:6 “The solitary brought home”'
-    claim: 'The Greek has “a house”'
-    key: lxx-rahlfs
-    url: 'https://biblehub.com/sep/psalms/68.htm'
-    quote: 'God settles the solitary in a house'
-  - where: 'note 68:6 “The solitary brought home”'
     claim: 'A modern translation has “a home to live in”'
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
@@ -335,11 +325,6 @@ claims:
 
   # ---- note 68:13 ----
   - where: 'note 68:13 “Among the pots, the sheepfolds, or the hearths”'
-    claim: 'The word in verse 13 is a dual noun'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'שְׁפַ֫תָּ֥יִם'
-  - where: 'note 68:13 “Among the pots, the sheepfolds, or the hearths”'
     claim: 'Judges 5:16 has the related word'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Judg.xml'
@@ -386,42 +371,42 @@ claims:
     quote: 'a time of peaceful prosperity enhanced by rich spoils. Everything shall glitter and gleam with silver and gold.'
 
   # ---- note 68:16 ----
-  - where: 'note 68:16 “The high hills look on with envy”'
+  - where: 'note 68:16 “The high hills probably look on with envy”'
     claim: 'The verb in verse 16'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'תְּֽרַצְּדוּ/ן֮'
-  - where: 'note 68:16 “The high hills look on with envy”'
+  - where: 'note 68:16 “The high hills probably look on with envy”'
     claim: 'It means to watch stealthily or with envious hostility'
     key: bdb
     url: 'https://biblehub.com/hebrew/7520.htm'
     quote: 'watch stealthily, or with envious hostility'
-  - where: 'note 68:16 “The high hills look on with envy”'
+  - where: 'note 68:16 “The high hills probably look on with envy”'
     claim: 'The lexicon gives only this verse for the verb'
     key: bdb
     url: 'https://biblehub.com/hebrew/7520.htm'
     quote: 'Psalm 68:17 (figurative of mountains, with accusative)'
-  - where: 'note 68:16 “The high hills look on with envy”'
+  - where: 'note 68:16 “The high hills probably look on with envy”'
     claim: 'A modern translation has “look with envy”'
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
     quote: 'Why do you look with envy, O many-peaked mountain,'
-  - where: 'note 68:16 “The high hills look on with envy”'
+  - where: 'note 68:16 “The high hills probably look on with envy”'
     claim: 'The same translation addresses the mountain of Bashan in verse 15'
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
     quote: 'O mighty mountain, mountain of Bashan;'
-  - where: 'note 68:16 “The high hills look on with envy”'
+  - where: 'note 68:16 “The high hills probably look on with envy”'
     claim: 'Where Bashan is'
     key: bd-bashan
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/bashan?lang=eng'
     quote: 'The district east of Jordan and north of Gilead'
-  - where: 'note 68:16 “The high hills look on with envy”'
+  - where: 'note 68:16 “The high hills probably look on with envy”'
     claim: 'The hill of verse 16 is the temple mount, Mount Moriah'
     key: skinner-seeing-god
     url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
     quote: 'was, of course, Mount Moriah (2 Chronicles 3:1)'
-  - where: 'note 68:16 “The high hills look on with envy”'
+  - where: 'note 68:16 “The high hills probably look on with envy”'
     claim: 'Psalm 68:16 is given as an example of psalms that define the temple as the Lord’s dwelling place'
     key: skinner-seeing-god
     url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
