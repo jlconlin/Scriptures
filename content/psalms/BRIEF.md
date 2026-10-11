@@ -76,6 +76,45 @@ Where this brief elsewhere sends a writer to `hebrew.mjs` and a lexicon page (th
 - **A term this brief does not place** (a title word, an image) is explained at the lowest-numbered psalm that has it; `node scripts/occurrences.mjs psalms "<word>"` shows which that is. Title words are not in that search: for those, `grep -n "<word>" data/kjv/psalms.titles.json`.
 - **The title is on the page** as verse 0. Don't quote it in `setting`; put what its words need in a note with `ref: 0`.
 
+## Explained once: where
+
+(Author, 2026-10-11, on learning that agents had been reading only the first part of a brief grown too long: “you have to be consistent and when you just read some of the instructions/decisions you are not being consistent.”) Each batch is written without sight of the others, so the same explanation and the same quotation kept returning: Codex's side-by-side reading catches a repeat inside a batch and cannot see one across batches. This table is the book's memory. **A psalm that needs one of these says it in a clause and points to the place named; it does not explain it again or print the quotation again.** The coordinator adds a row whenever a batch's side-by-side reading settles where something stays.
+
+| What | Explained in full at | Elsewhere |
+|---|---|---|
+| What a psalm's title is and what it is worth | `[[Ps. 3:1]]` (note on the title) | nothing; don't open `setting` with “The title is only…” |
+| Selah | `[[Ps. 3:2]]` | no note |
+| “To the chief Musician”; Gittith | title of Psalm 8 (`[[Ps. 8:1]]`) | a clause at most |
+| Neginoth 4 · Nehiloth 5 · Sheminith 6 · Shiggaion 7 · Michtam 16 · Maschil 32 · sons of Korah 42 · Alamoth 46 · Asaph 50 (his later guild, 74) · Al-taschith 57 · “a song or psalm” 66 · tune-name titles 45 | the title note of that psalm | point to it |
+| How Hebrew verse works; Psalms 1 and 2 as the book's opening; the “Blessed” frame | Psalm 1 | point |
+| “His anointed”; what a royal psalm is | `[[Ps. 2:2]]` | don't quote the definition of royal psalms again (it is in 18, 21, 45, 72, 101 already) |
+| The shape of a lament (invocation, complaint, trust, petition, vow) | `[[Ps. 22:1]]` | the word “lament” and a pointer; never the five parts again |
+| A hymn of praise; a psalm of thanksgiving; a song of Zion | 29; 30; 46 | name the kind in a clause, no definition |
+| LORD and Lord; Jehovah | `[[Ps. 110:1]]` | see the next row |
+| **The LORD of the Psalms is Jehovah, the premortal Jesus Christ** | `[[Ps. 110:1]]` | a `christ` section may say so in its own words in one clause and go to what is this psalm's own. **Do not quote “Jehovah is the premortal Jesus Christ” again**: it is printed in more than twenty `christ` sections |
+| *Elohim* 8:5 · the council of God 82:1 | those notes | point |
+| *Hesed* (lovingkindness, mercy) | `[[Ps. 51:1]]` | point; President Nelson is quoted there only |
+| *Hasid* (godly, saints, Holy One) | `[[Ps. 4:3]]` | point |
+| Sheol and the dead | `[[Ps. 6:5]]` | point |
+| The cursing psalms | `[[Ps. 137:8]]` | what is this psalm's own, and a pointer |
+| Ascending the hill of the Lord; the temple in the Psalms | `[[Ps. 24:3]]` | point |
+| The LORD's face shining; the priests' blessing | `[[Ps. 4:6]]` | point |
+| The angel of the LORD | `[[Ps. 34:7]]` | point |
+| The thank offering (*todah*) | `[[Ps. 50:14]]` | point |
+| God Himself making atonement (the verb) | `[[Ps. 78:38]]` | point |
+| The good shepherd, with John 10:11 quoted | `[[Ps. 23:1]]` | point; don't quote John 10:11 again |
+| “That Rock was Christ” (1 Cor. 10:4) | Psalm 95 (`[[Ps. 95:8]]`) | point |
+| All judgment committed to the Son (John 5:22) | Psalm 94 (`[[Ps. 94:1]]`) | point |
+| Nephi's psalm and Psalms 25–31 | `[[Ps. 25:17]]` | point |
+| When and how Joseph Smith revised the Psalms | Psalm 11 (`[[Ps. 11:1]]`) | point |
+| The sea monster and creation | Psalm 74 | point |
+| The five books and their closing lines; the book's Hebrew name | `[[Ps. 150:6]]` | Book Four's range is given at Psalm 90 only |
+| Psalms that are pairs or one poem (9–10; 20–21; 42–43) | the first of the pair | the second says what is its own |
+
+**Three habits of wording, the same in every psalm:** a rendering that is not the King James is introduced as “a modern translation” (one psalm, 32, names the New Revised Standard Version; the rest do not); a point that is the older commentary's alone is “one older reading”; an `explore` bullet points to scripture, and to a study only when it is especially good on this psalm.
+
+**This brief must stay short enough to be read whole.** It was 430 KB when the reviewers' log was kept in it, and agents read the first 270 lines. If it passes about 60 KB, move something out before the next batch (`batch-finish.mjs` warns).
+
 ## Divisions
 
 The Psalter's own five books, each closed by a line of praise (41:13; 72:19; 89:52; 106:48; Psalm 150 closing the whole), as *Scripture Helps* and the Student Manual (28-2) both give them. They are in `book.yaml` as Book One to Book Five (keys `psalms1` to `psalms5`):
