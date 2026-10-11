@@ -1,0 +1,675 @@
+chapter: 72
+claims:
+  # ---- when ----
+  - where: 'when'
+    claim: 'The title of the psalm in the King James Version'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/127?lang=eng'
+    quote: 'A Song of degrees for Solomon.'
+  - where: 'when'
+    claim: 'The title is the one word “for/of Solomon” in Hebrew'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לִ/שְׁלֹמֹ֨ה'
+
+  # ---- setting ----
+  - where: 'setting'
+    claim: 'Psalm 72 is the last psalm of the second of the five books, which ends with a doxology at 72:19'
+    key: ot-manual-psalms
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/the-psalms-songs-from-the-heart-of-israel?lang=eng'
+    quote: 'Psalms 1 through 41, 42 through 72, 73 through 89, 90 through 106, and 107 through 150. At the end of each division, the break is marked with a doxology'
+  - where: 'setting'
+    claim: 'Psalm 72 is counted among the royal psalms'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'Royal psalms. These psalms celebrated important events in the lives of royalty, which for Christian readers often reflected the royal life and reign of the Messiah: 2, 18, 20, 21, 45, 72, 89, 101, 110, 132, and 144.'
+  - where: 'setting'
+    claim: 'The heading in the Church’s edition reads the psalm as David speaking of Solomon, a type of the Messiah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/72?lang=eng'
+    quote: 'David speaks of Solomon, who is made a type of the Messiah'
+  - where: 'setting'
+    claim: 'Zechariah repeats the wish of verse 8 as a prediction of the King Messiah'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/72.htm'
+    quote: 'the wishes expressed here are of wider compass, and Zechariah repeats them predictively'
+  - where: 'setting'
+    claim: 'The queen of Sheba brought Solomon gold (1 Kings 10)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/10?lang=eng'
+    quote: 'And she gave the king an hundred and twenty talents of gold, and of spices very great store, and precious stones'
+  - where: 'setting'
+    claim: 'Verses 18–19 are the closing blessing of the second book and verse 20 a note on the collection, distinct from the psalm'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/72.htm'
+    quote: 'The origin of this superscription cannot be the same as that of the doxology, which is only inserted between it and the Psalm'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'Verse 1 is the one petition and the verbs after it are wishes'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/72.htm'
+    quote: 'After the supplicatory teen the futures which now follow, without the Waw apodoseos, are manifestly optatives.'
+  - where: 'thread'
+    claim: 'Verses 12–14 give the ground of the hopes of verses 8–11'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/72.htm'
+    quote: 'This third strophe contains prospects, the ground of which is laid down in the fourth.'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: 'Verses 2–4 rendered as wishes; “break in pieces” is “crush”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2072&version=NRSVUE'
+    quote: 'May he defend the cause of the poor of the people,'
+  - where: 'section 2 plain'
+    claim: 'Verses 6–7 rendered as wishes; “so long as the moon endureth” is “until the moon is no more”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2072&version=NRSVUE'
+    quote: 'and peace abound, until the moon is no more.'
+  - where: 'section 2 plain'
+    claim: 'Verse 5 in Hebrew is “they shall fear thee”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִֽירָא֥וּ/ךָ'
+  - where: 'section 3 plain'
+    claim: 'Verses 8–11 rendered as wishes; the river is “the River”; the presents are tribute'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2072&version=NRSVUE'
+    quote: 'May he have dominion from sea to sea'
+  - where: 'section 4 plain'
+    claim: 'Verses 12–14 in the present tense; “soul” is life; “deceit” is oppression'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2072&version=NRSVUE'
+    quote: 'From oppression and violence he redeems their life,'
+  - where: 'section 5 plain'
+    claim: 'Verses 15–17 rendered as wishes; the “handful of corn” is abundance of grain'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2072&version=NRSVUE'
+    quote: 'May there be abundance of grain in the land;'
+  - where: 'section 6 plain'
+    claim: 'Verses 18–19: “who alone does wondrous things”; “may his glory fill the whole earth”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2072&version=NRSVUE'
+    quote: 'who alone does wondrous things.'
+
+  # ---- note 72:0 ----
+  - where: 'note 72:0 “For Solomon, or of Solomon?”'
+    claim: 'The title is the preposition le before Solomon’s name'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לִ/שְׁלֹמֹ֨ה'
+  - where: 'note 72:0 “For Solomon, or of Solomon?”'
+    claim: 'The title of Psalm 3 has the same preposition before David’s name'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ/דָוִ֑ד'
+  - where: 'note 72:0 “For Solomon, or of Solomon?”'
+    claim: 'The King James has “for Solomon” in the title of Psalm 127 as well'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/127?lang=eng'
+    quote: 'A Song of degrees for Solomon.'
+  - where: 'note 72:0 “For Solomon, or of Solomon?”'
+    claim: 'The Greek translation has “For Solomon”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/72.htm'
+    quote: 'For Solomon. O God, give thy judgment to the king, and thy righteousness to the king''s son;'
+  - where: 'note 72:0 “For Solomon, or of Solomon?”'
+    claim: 'A modern translation has “Of Solomon”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2072&version=NRSVUE'
+    quote: 'Of Solomon.'
+  - where: 'note 72:0 “For Solomon, or of Solomon?”'
+    claim: 'The Church’s heading takes the psalm as David speaking of Solomon'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/72?lang=eng'
+    quote: 'David speaks of Solomon, who is made a type of the Messiah'
+  - where: 'note 72:0 “For Solomon, or of Solomon?”'
+    claim: 'President Holland read verse 1 as David’s appeal to God for his son Solomon'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'an appeal to God by ‘the king’ (David) on behalf of ‘the king’s son’ (Solomon)'
+  - where: 'note 72:0 “For Solomon, or of Solomon?”'
+    claim: 'The teaching is President Jeffrey R. Holland’s'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'President Jeffrey R. Holland taught:'
+
+  # ---- note 72:1 ----
+  - where: 'note 72:1 “A king who asks for God’s justice”'
+    claim: 'The Lord appeared to Solomon, who asked for an understanding heart to judge God’s people'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/3?lang=eng'
+    quote: 'Give therefore thy servant an understanding heart to judge thy people, that I may discern between good and bad: for who is able to judge this thy so great a people?'
+  - where: 'note 72:1 “A king who asks for God’s justice”'
+    claim: 'The chapter tells of the Lord appearing to Solomon'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/3?lang=eng'
+    quote: 'The Lord appears to Solomon'
+  - where: 'note 72:1 “A king who asks for God’s justice”'
+    claim: 'After the judgment between the two mothers Israel saw God’s wisdom in him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/3?lang=eng'
+    quote: 'for they saw that the wisdom of God was in him, to do judgment'
+  - where: 'note 72:1 “A king who asks for God’s justice”'
+    claim: 'The judgment that precedes 1 Kings 3:28 is the one between two mothers'
+    key: bd-solomon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/solomon?lang=eng'
+    quote: 'the vision at Gibeon (3:5–15; 9:2; 2 Chr. 1:7–12; 7:12); his judgment between two mothers (1 Kgs. 3:16–28)'
+  - where: 'note 72:1 “A king who asks for God’s justice”'
+    claim: 'One older reading hears verses 1 and 2 as the echo of the Lord’s offer to Solomon and Solomon’s answer in 1 Kings 3'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/72.htm'
+    quote: 'The words of this verse and the next are the echo of'
+  - where: 'note 72:1 “A king who asks for God’s justice”'
+    claim: 'The answer that reading names is Solomon’s request of 1 Kings 3:9'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/72.htm'
+    quote: 'Give thy servant an understanding heart to judge thy people'
+
+  # ---- note 72:2 ----
+  - where: 'note 72:2 “‘He shall,’ or ‘may he’?”'
+    claim: 'A modern translation renders the verbs as wishes'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2072&version=NRSVUE'
+    quote: 'May he judge your people with righteousness'
+  - where: 'note 72:2 “‘He shall,’ or ‘may he’?”'
+    claim: 'The verb “have dominion” in verse 8 is parsed as a jussive (Vqj3ms)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ֭/יֵרְדְּ'
+  - where: 'note 72:2 “‘He shall,’ or ‘may he’?”'
+    claim: 'The verb “live” in verse 15 is parsed as a jussive (Vqj3ms)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וִ/יחִ֗י'
+  - where: 'note 72:2 “‘He shall,’ or ‘may he’?”'
+    claim: 'The verb “be” that opens verses 16 and 17 is parsed as a jussive (Vqj3ms)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְהִ֤י'
+  - where: 'note 72:2 “‘He shall,’ or ‘may he’?”'
+    claim: 'In the Open Scriptures morphology codes, j marks the jussive'
+    key: oshb-wlc
+    url: 'https://hb.openscriptures.org/parsing/HebrewMorphologyCodes.html'
+    quote: 'j jussive'
+  - where: 'note 72:2 “‘He shall,’ or ‘may he’?”'
+    claim: 'Zechariah 9:10 has the words of verse 8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/9?lang=eng'
+    quote: 'and his dominion shall be from sea even to sea, and from the river even to the ends of the earth'
+
+  # ---- note 72:3 ----
+  - where: 'note 72:3 “Peace as the land’s harvest”'
+    claim: 'A modern translation renders the verse with the mountains yielding prosperity'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2072&version=NRSVUE'
+    quote: 'May the mountains yield prosperity for the people,'
+  - where: 'note 72:3 “Peace as the land’s harvest”'
+    claim: 'The second half of the verse in the same translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2072&version=NRSVUE'
+    quote: 'and the hills, in righteousness.'
+  - where: 'note 72:3 “Peace as the land’s harvest”'
+    claim: 'The Hebrew word in verse 3 is shalom'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁ֘ל֥וֹם'
+  - where: 'note 72:3 “Peace as the land’s harvest”'
+    claim: 'Verse 7 has the same word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁ֝ל֗וֹם'
+  - where: 'note 72:3 “Peace as the land’s harvest”'
+    claim: 'Solomon’s name means “Peaceable”'
+    key: bd-solomon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/solomon?lang=eng'
+    quote: 'Peaceable. Son of David and Bathsheba.'
+  - where: 'note 72:3 “Peace as the land’s harvest”'
+    claim: 'The promise of Solomon’s birth joins his name to peace in his days'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/22?lang=eng'
+    quote: 'for his name shall be Solomon, and I will give peace and quietness unto Israel in his days'
+
+  # ---- note 72:5 ----
+  - where: 'note 72:5 “‘Thee’ is God, not the king”'
+    claim: 'The Hebrew verb is “they shall fear” with a second-person suffix, “thee”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִֽירָא֥וּ/ךָ'
+  - where: 'note 72:5 “‘Thee’ is God, not the king”'
+    claim: 'The Greek translation reads the line of the king’s length of days'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/72.htm'
+    quote: 'And he shall continue as long as the sun, and before the moon for ever.'
+  - where: 'note 72:5 “‘Thee’ is God, not the king”'
+    claim: 'A modern translation reads it the same way'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2072&version=NRSVUE'
+    quote: 'May he live while the sun endures'
+
+  # ---- note 72:6 ----
+  - where: 'note 72:6 “Rain on a mown field”'
+    claim: 'The Hebrew word means shearing or mowing, here land to be mown; elsewhere wool or fleece'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1488.htm'
+    quote: 'shearing, mowing'
+  - where: 'note 72:6 “Rain on a mown field”'
+    claim: 'In this verse the lexicon gives “land to be mown”; in Deuteronomy 18:4 and Job 31:20 the word is a fleece'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1488.htm'
+    quote: 'land to be mown Psalm 72:6'
+  - where: 'note 72:6 “Rain on a mown field”'
+    claim: 'The word is used of wool or a fleece'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1488.htm'
+    quote: 'shearing = thing sheared off, wool, fleece'
+  - where: 'note 72:6 “Rain on a mown field”'
+    claim: 'The Greek translation has “rain upon a fleece”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/72.htm'
+    quote: 'He shall come down as rain upon a fleece; and as drops falling upon the earth.'
+
+  # ---- note 72:8 ----
+  - where: 'note 72:8 “The promised borders, and past them”'
+    claim: 'The bounds promised at Sinai run from sea to sea and from the desert to the river'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/23?lang=eng'
+    quote: 'And I will set thy bounds from the Red sea even unto the sea of the Philistines, and from the desert unto the river'
+  - where: 'note 72:8 “The promised borders, and past them”'
+    claim: 'Scripture often calls the Euphrates “the River”'
+    key: bd-euphrates
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/euphrates?lang=eng'
+    quote: 'frequently called in scripture “the River.”'
+  - where: 'note 72:8 “The promised borders, and past them”'
+    claim: 'The Euphrates was the boundary of the land promised to Abraham’s seed'
+    key: bd-euphrates
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/euphrates?lang=eng'
+    quote: 'It was the boundary of the land promised to the seed of Abraham (Gen. 15:18; Deut. 1:7; Josh. 1:4; 1 Chr. 5:9)'
+  - where: 'note 72:8 “The promised borders, and past them”'
+    claim: 'Solomon reigned from the river to the border of Egypt'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/4?lang=eng'
+    quote: 'And Solomon reigned over all kingdoms from the river unto the land of the Philistines, and unto the border of Egypt'
+  - where: 'note 72:8 “The promised borders, and past them”'
+    claim: 'Zechariah 9:9–10 gives the dominion of verse 8 to the king who comes lowly'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/9?lang=eng'
+    quote: 'behold, thy King cometh unto thee: he is just, and having salvation; lowly, and riding upon an ass'
+  - where: 'note 72:8 “The promised borders, and past them”'
+    claim: 'Zechariah 9:10 has the words of verse 8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/9?lang=eng'
+    quote: 'and his dominion shall be from sea even to sea, and from the river even to the ends of the earth'
+  - where: 'note 72:8 “The promised borders, and past them”'
+    claim: 'Matthew quotes Zechariah 9:9 at the entry into Jerusalem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/21?lang=eng'
+    quote: 'Tell ye the daughter of Sion, Behold, thy King cometh unto thee, meek, and sitting upon an ass, and a colt the foal of an ass.'
+  - where: 'note 72:8 “The promised borders, and past them”'
+    claim: 'On one older reading the words generalize the promise of Exodus 23:31'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/72.htm'
+    quote: 'The words are a poetical generalisation of the promise to Israel in Exodus 23:31'
+  - where: 'note 72:8 “The promised borders, and past them”'
+    claim: 'The same reading adds the description of Solomon’s empire in 1 Kings 4:21'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/72.htm'
+    quote: 'empire is described, 1 Kings 4:21; 1 Kings 4:24'
+  - where: 'note 72:8 “The promised borders, and past them”'
+    claim: 'The phrase “from sea to sea” is more probably general than a naming of particular seas'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/72.htm'
+    quote: 'but more probably the phrase is quite general'
+
+  # ---- note 72:10 ----
+  - where: 'note 72:10 “The far west and the far south”'
+    claim: 'Tarshish was probably Tartessus in Spain; the entry lists the kings of Tarshish of this verse'
+    key: bd-tarshish
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/tarshish?lang=eng'
+    quote: 'Probably Tartessus in Spain; ships of Tarshish (the name came to be used to denote ships of the largest size, suitable for long voyages)'
+  - where: 'note 72:10 “The far west and the far south”'
+    claim: 'Sheba’s descendants gave their name to part of southern Arabia'
+    key: bd-sheba
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sheba?lang=eng'
+    quote: 'his descendants gave their name to a portion of southern Arabia (now called Arabia Felix)'
+  - where: 'note 72:10 “The far west and the far south”'
+    claim: 'Solomon’s navy of Tharshish brought gold and silver every three years'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/10?lang=eng'
+    quote: 'once in three years came the navy of Tharshish, bringing gold, and silver, ivory, and apes, and peacocks'
+  - where: 'note 72:10 “The far west and the far south”'
+    claim: 'The queen of Sheba gave Solomon gold'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/10?lang=eng'
+    quote: 'And she gave the king an hundred and twenty talents of gold'
+  - where: 'note 72:10 “The far west and the far south”'
+    claim: 'All the earth sought Solomon and brought presents yearly'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/10?lang=eng'
+    quote: 'And they brought every man his present, vessels of silver, and vessels of gold, and garments, and armour, and spices, horses, and mules, a rate year by year.'
+  - where: 'note 72:10 “The far west and the far south”'
+    claim: 'The entry “Sheba” lists Isaiah 60:6 with this psalm and the queen’s visit'
+    key: bd-sheba
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sheba?lang=eng'
+    quote: 'Queen of Sheba (1 Kgs. 10:1, 4, 10, 13; 2 Chr. 9:1, 3, 9, 12; also Job 6:19; Ps. 72:10, 15; Isa. 60:6; Jer. 6:20)'
+  - where: 'note 72:10 “The far west and the far south”'
+    claim: '“Ships of Tarshish” came to be a name for the largest ships; the entry lists 1 Kings 10:22 under it'
+    key: bd-tarshish
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/tarshish?lang=eng'
+    quote: 'the name came to be used to denote ships of the largest size, suitable for long voyages'
+
+  # ---- note 72:12 ----
+  - where: 'note 72:12 “Why the kings bow”'
+    claim: 'On one older reading the king’s world dominion is the reward of his care for the poor'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/72.htm'
+    quote: 'The elevation of the king to the dominion of the world is the reward of his condescension'
+  - where: 'note 72:12 “Why the kings bow”'
+    claim: 'The end of Solomon’s reign was unlike its beginning'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/72.htm'
+    quote: 'But the end of his reign was not like the beginning and the middle of it.'
+  - where: 'note 72:12 “Why the kings bow”'
+    claim: 'In Solomon’s days Judah and Israel dwelt safely'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/4?lang=eng'
+    quote: 'And Judah and Israel dwelt safely, every man under his vine and under his fig tree, from Dan even to Beer-sheba, all the days of Solomon.'
+  - where: 'note 72:12 “Why the kings bow”'
+    claim: 'The people told Rehoboam that Solomon had made their yoke grievous'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/12?lang=eng'
+    quote: 'Thy father made our yoke grievous: now therefore make thou the grievous service of thy father, and his heavy yoke which he put upon us, lighter, and we will serve thee.'
+  - where: 'note 72:12 “Why the kings bow”'
+    claim: 'The words were spoken to Solomon’s son Rehoboam'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/12?lang=eng'
+    quote: 'Rehoboam seeks to impose greater burdens upon the people'
+  - where: 'note 72:12 “Why the kings bow”'
+    claim: 'The royal psalms, 72 among them, picture an ideal king never realized in any king of Israel'
+    key: ot-manual-psalms
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/the-psalms-songs-from-the-heart-of-israel?lang=eng'
+    quote: 'picture an ideal divine king priest judge never fully realized in any actual king of Israel'
+
+  # ---- note 72:14 ----
+  - where: 'note 72:14 “The kinsman’s verb”'
+    claim: 'The verb in verse 14 is ga’al'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִגְאַ֣ל'
+  - where: 'note 72:14 “The kinsman’s verb”'
+    claim: 'The verb means to redeem, to act as kinsman'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1350.htm'
+    quote: 'verb redeem, act as kinsman'
+  - where: 'note 72:14 “The kinsman’s verb”'
+    claim: 'The kinsman redeems a relative from bondage'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1350.htm'
+    quote: 'in redeeming from bondage Leviticus 25:48,49'
+  - where: 'note 72:14 “The kinsman’s verb”'
+    claim: 'The kinsman redeems a field'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1350.htm'
+    quote: 'in redeeming a field Leviticus 25:26,33'
+  - where: 'note 72:14 “The kinsman’s verb”'
+    claim: 'The law of the kinsman who redeems what a poor brother sold'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/25?lang=eng'
+    quote: 'If thy brother be waxen poor, and hath sold away some of his possession, and if any of his kin come to redeem it, then shall he redeem that which his brother sold.'
+  - where: 'note 72:14 “The kinsman’s verb”'
+    claim: 'Isaiah’s “thy Redeemer” (48:17) is the participle of the same verb'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1350.htm'
+    quote: 'Isaiah 48:17'
+  - where: 'note 72:14 “The kinsman’s verb”'
+    claim: 'Isaiah 48:17 calls the Lord “thy Redeemer”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/48?lang=eng'
+    quote: 'Thus saith the Lord, thy Redeemer, the Holy One of Israel'
+  - where: 'note 72:14 “The kinsman’s verb”'
+    claim: '“Their soul” is their life'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2072&version=NRSVUE'
+    quote: 'From oppression and violence he redeems their life,'
+
+  # ---- note 72:15 ----
+  - where: 'note 72:15 “Prayer and blessing for the king”'
+    claim: 'A modern translation reads the king as the subject throughout verse 15'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2072&version=NRSVUE'
+    quote: 'May prayer be made for him continually'
+  - where: 'note 72:15 “Prayer and blessing for the king”'
+    claim: 'The same translation renders “praised” as blessings invoked'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2072&version=NRSVUE'
+    quote: 'and blessings invoked for him all day long.'
+  - where: 'note 72:15 “Prayer and blessing for the king”'
+    claim: 'The verb behind “praised” in verse 15 is the verb “bless” (Strong’s 1288)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְבָרֲכֶֽ/נְהֽוּ'
+  - where: 'note 72:15 “Prayer and blessing for the king”'
+    claim: 'Verse 17 has the same verb (Strong’s 1288)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/יִתְבָּ֥רְכוּ'
+  - where: 'note 72:15 “Prayer and blessing for the king”'
+    claim: 'Verse 18 opens with the same verb (Strong’s 1288)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בָּר֤וּךְ'
+  - where: 'note 72:15 “Prayer and blessing for the king”'
+    claim: 'Verse 19 opens with the same verb (Strong’s 1288)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וּ/בָר֤וּךְ'
+
+  # ---- note 72:16 ----
+  - where: 'note 72:16 “A handful of corn, or plenty of grain?”'
+    claim: 'The word behind “handful” is of doubtful meaning, probably abundance'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6451.htm'
+    quote: 'noun feminine dubious; if correct, probably abundance, plenty'
+  - where: 'note 72:16 “A handful of corn, or plenty of grain?”'
+    claim: 'A modern translation has abundance of grain waving on the mountain tops'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2072&version=NRSVUE'
+    quote: 'May there be abundance of grain in the land;'
+  - where: 'note 72:16 “A handful of corn, or plenty of grain?”'
+    claim: 'The next line in the same translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2072&version=NRSVUE'
+    quote: 'may it wave on the tops of the mountains;'
+  - where: 'note 72:16 “A handful of corn, or plenty of grain?”'
+    claim: 'The last clause is about people in the cities'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2072&version=NRSVUE'
+    quote: 'and may people blossom in the cities'
+
+  # ---- note 72:17 ----
+  - where: 'note 72:17 “The words of Abraham’s promise”'
+    claim: 'The promise to Abraham in Genesis 12:3'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/12?lang=eng'
+    quote: 'and in thee shall all families of the earth be blessed'
+  - where: 'note 72:17 “The words of Abraham’s promise”'
+    claim: 'The promise repeated in Genesis 22:18'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/22?lang=eng'
+    quote: 'And in thy seed shall all the nations of the earth be blessed; because thou hast obeyed my voice.'
+  - where: 'note 72:17 “The words of Abraham’s promise”'
+    claim: 'Genesis 22:18 follows the command to offer Isaac'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/22?lang=eng'
+    quote: 'Abraham is commanded to sacrifice Isaac, his son'
+  - where: 'note 72:17 “The words of Abraham’s promise”'
+    claim: 'The Greek translation of verse 17 has “all the tribes of the earth”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/72.htm'
+    quote: 'and all the tribes of the earth shall be blessed in him: all nations shall call him blessed'
+  - where: 'note 72:17 “The words of Abraham’s promise”'
+    claim: 'The verb “be blessed” in verse 17 is the verb “bless” of Genesis 22:18 (Strong’s 1288)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/יִתְבָּ֥רְכוּ'
+  - where: 'note 72:17 “The words of Abraham’s promise”'
+    claim: 'Paul says the seed of the promise is Christ'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/gal/3?lang=eng'
+    quote: 'He saith not, And to seeds, as of many; but as of one, And to thy seed, which is Christ.'
+  - where: 'note 72:17 “The words of Abraham’s promise”'
+    claim: 'One older reading takes the line as an allusion to the promises to Abraham and Isaac'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/72.htm'
+    quote: 'an allusion to the promises to Abraham and Isaac'
+  - where: 'note 72:17 “The words of Abraham’s promise”'
+    claim: 'The Greek translation of Genesis 12:3 has “all the tribes of the earth”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/12.htm'
+    quote: 'and in thee shall all the tribes of the earth be blessed'
+  - where: 'note 72:17 “The words of Abraham’s promise”'
+    claim: 'The verb “be blessed” in Genesis 22:18 is the same verb (Strong’s 1288) in the same reflexive stem (Vt) as in Psalm 72:17'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וְ/הִתְבָּרֲכ֣וּ'
+
+  # ---- note 72:18 ----
+  - where: 'note 72:18 “The blessing that closes Book Two”'
+    claim: 'Each of the five divisions ends with a doxology; the second at 72:19'
+    key: ot-manual-psalms
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/the-psalms-songs-from-the-heart-of-israel?lang=eng'
+    quote: 'At the end of each division, the break is marked with a doxology, or formal declaration of God’s power and glory (see Psalms 41:13; 72:19; 89:52; 106:48).'
+  - where: 'note 72:18 “The blessing that closes Book Two”'
+    claim: 'The divine name stands in verse 18, its only occurrence in Psalm 72 (hebrew.mjs psalms --word 3068 lists one verse of the psalm)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְהוָ֣ה'
+  - where: 'note 72:18 “The blessing that closes Book Two”'
+    claim: 'The closing wish uses the words of Numbers 14:21'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/14?lang=eng'
+    quote: 'But as truly as I live, all the earth shall be filled with the glory of the Lord.'
+
+  # ---- note 72:20 ----
+  - where: 'note 72:20 “The prayers of David are ended”'
+    claim: 'Psalm 86, after this line, is headed “A Prayer of David”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/86?lang=eng'
+    quote: 'A Prayer of David.'
+  - where: 'note 72:20 “The prayers of David are ended”'
+    claim: 'Psalm 110 is headed “A Psalm of David”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/110?lang=eng'
+    quote: 'A Psalm of David.'
+  - where: 'note 72:20 “The prayers of David are ended”'
+    claim: 'The line has been read as the closing mark of an earlier collection'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/72.htm'
+    quote: 'Superscription of the primary collection.'
+  - where: 'note 72:20 “The prayers of David are ended”'
+    claim: 'No one surveying the whole Psalter would have put the line here'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/72.htm'
+    quote: 'No one taking a survey of the whole Psalter, with the many Psalms of David that follow beyond Psalm 72, could possibly have placed this key-stone here.'
+  - where: 'note 72:20 “The prayers of David are ended”'
+    claim: 'It shows that a smaller collection preceded the whole'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/72.htm'
+    quote: 'the collection of the whole as it now lies before us was at least preceded by one smaller collection'
+  - where: 'note 72:20 “The prayers of David are ended”'
+    claim: 'Job has a line of the same kind'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/31?lang=eng'
+    quote: 'The words of Job are ended.'
+  - where: 'note 72:20 “The prayers of David are ended”'
+    claim: 'President Holland said this may be the last of David’s canonized psalms'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'that this may be the last of David’s canonized psalms'
+  - where: 'note 72:20 “The prayers of David are ended”'
+    claim: 'He called it fit to serve as David’s valedictory about the Son of God'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'could certainly serve well as a valedictory declaration regarding the Son of God who would one day come with the additional title of Son of David'
+  - where: 'note 72:20 “The prayers of David are ended”'
+    claim: 'The teaching is President Jeffrey R. Holland’s'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'President Jeffrey R. Holland taught:'
+  - where: 'note 72:20 “The prayers of David are ended”'
+    claim: 'The older reading itself sets Job 31:40 beside the line'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/72.htm'
+    quote: 'A parallel with this verse is the superscription'
+  - where: 'note 72:20 “The prayers of David are ended”'
+    claim: 'President Holland said the text would seem to indicate it'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'and the text would seem to indicate'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'The Church’s heading calls Solomon a type of the Messiah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/72?lang=eng'
+    quote: 'David speaks of Solomon, who is made a type of the Messiah'
+  - where: 'christ'
+    claim: 'President Holland: the prayer for an earthly king makes him a type of Christ'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'moves that earthly figure into a type or prefiguration of Christ, the Heavenly King'
+  - where: 'christ'
+    claim: 'Only the Messiah holds the endless, universal reign the royal psalms picture'
+    key: ot-manual-psalms
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/the-psalms-songs-from-the-heart-of-israel?lang=eng'
+    quote: 'Only the Messiah combines these roles in the endless, universal reign of peace and justice envisaged by the psalmists.'
+  - where: 'christ'
+    claim: 'Jesus said a greater than Solomon is here, naming the queen of the south'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/12?lang=eng'
+    quote: 'for she came from the uttermost parts of the earth to hear the wisdom of Solomon; and, behold, a greater than Solomon is here'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'Isaiah 11:4: the stem of Jesse judges the poor with righteousness'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/11?lang=eng'
+    quote: 'But with righteousness shall he judge the poor, and reprove with equity for the meek of the earth'
+  - where: 'explore'
+    claim: 'D&C 65:2: the gospel rolls forth until it has filled the whole earth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/65?lang=eng'
+    quote: 'until it has filled the whole earth'
+  - where: 'explore'
+    claim: 'Psalm 89:36 uses the sun for the lasting throne of David’s seed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/89?lang=eng'
+    quote: 'His seed shall endure for ever, and his throne as the sun before me.'
+
+  # ---- parallels ----
+  - where: 'parallels'
+    claim: 'Zechariah 9:10 repeats verse 8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/9?lang=eng'
+    quote: 'and his dominion shall be from sea even to sea, and from the river even to the ends of the earth'
+  - where: 'parallels'
+    claim: 'Numbers 14:21 has the words of verse 19'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/14?lang=eng'
+    quote: 'all the earth shall be filled with the glory of the Lord'
+  - where: 'parallels'
+    claim: 'One older reading hears verses 1–2 as an echo of Solomon’s request in 1 Kings 3'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/72.htm'
+    quote: 'The words of this verse and the next are the echo of'
+  - where: 'parallels'
+    claim: 'The simile of verse 6 may have been suggested by David’s last words, 2 Samuel 23:4'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/72.htm'
+    quote: 'The simile may have been suggested by the'
+  - where: 'parallels'
+    claim: 'Verse 17 has been read as an allusion to the promise of Genesis 22:18'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/72.htm'
+    quote: 'an allusion to the promises to Abraham and Isaac (Genesis 22:18; Genesis 26:4)'
