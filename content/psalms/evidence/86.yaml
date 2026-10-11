@@ -21,11 +21,6 @@ claims:
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/34?lang=eng'
     quote: 'And the Lord passed by before him, and proclaimed, The Lord, The Lord God, merciful and gracious, longsuffering, and abundant in goodness and truth,'
-  - where: 'setting'
-    claim: 'Revelation 15:4 has the words of verse 9'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/15?lang=eng'
-    quote: 'for all nations shall come and worship before thee'
 
   # ---- sections ----
   - where: 'section 1 plain'
@@ -307,16 +302,6 @@ claims:
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'חֶ֝֗סֶד'
-  - where: 'note 86:15 “The LORD’s own words at Sinai”'
-    claim: '“Ready to forgive” is one adjective'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/5546.htm'
-    quote: 'adjective ready to forgive, forgiving'
-  - where: 'note 86:15 “The LORD’s own words at Sinai”'
-    claim: 'The adjective occurs once in the Psalms, here (scripts/hebrew.mjs psalms --word 5546: one occurrence, Ps 86:5)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'וְ/סַלָּ֑ח'
 
   # ---- note 86:16 ----
   - where: 'note 86:16 “Servant, and son of thine handmaid”'
