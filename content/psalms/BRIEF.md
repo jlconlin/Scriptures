@@ -55,6 +55,18 @@ Psalms 1, 2, 3, 8, 22, 23, 24, 51, 82, 110, 137 and 150, written out of order an
 
 A pointer is written to the verse named here even though that psalm's note may end up on a neighboring verse; the coordinator mends pointers after the batch.
 
+## Hebrew: only to answer a reader's question
+
+(Author, 2026-10-11: “Understanding the Hebrew can be helpful if it sheds insight into English text in answering the questions that come up. You don't need to make an index of the hebrew unless you really need it.”) In the first 96 psalms, 48 percent of the notes are Language notes and 79 percent cite the Hebrew text or the lexicon; Jeremiah has 21 and 15. **From Psalm 94 on** (writers, checkers and reviewers alike; `STANDARDS.md` §3 has the rule in full):
+
+- Start from the English verse and the reader's question. Bring in a Hebrew word only when it answers that question: the King James word is obscure or misleading, a disputed rendering changes the reading, or the passage turns on one word the English splits in two.
+- Don't say what Hebrew word lies behind an ordinary English one, count a word's occurrences, list where a root returns, or remark that two lines share a word, unless the reading changes because of it. That goes for `thread` and `setting` too.
+- No more than about a quarter of a psalm's notes are Language notes, and a psalm may have none. A note that would be only a word study is cut, not rescued with another source.
+- Where no Latter-day Saint source speaks to a psalm, the answer is a shorter chapter resting on the text, the scriptures that take it up, and what the Church's helps say, not a chapter filled with the lexicon.
+- A reviewer of a psalm written before this rule (Psalms 94–105 were being written when it was given) applies it: cut Hebrew that answers no question a reader of the English would ask, with its ledger rows.
+
+Where this brief elsewhere sends a writer to `hebrew.mjs` and a lexicon page (the title terms, *hesed*, Sheol, the names of God, a shared English word), that is where to look when the question is real, not a list of notes to write. The first 93 psalms are not gone over (`AUTHORING.md`: rules are for new writing) unless the author asks.
+
 ## The rest of the book
 
 (Author, 2026-10-10: “Run the rest of the Psalms, in batches.”) The other 138 psalms are written in order, twelve at a time. For a writer:
