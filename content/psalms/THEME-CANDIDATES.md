@@ -300,3 +300,15 @@ The coordinator's leads from the brief's research. Each would have to show an ar
 - (56) God's book and record: Ps. 56:8; 69:28; 139:16; Mal. 3:16.
 - (56) Land or light of the living: Ps. 27:13; 56:13; 116:9; 142:5.
 - (56) Psalms tied by title to David's flight from Saul: 34, 52, 54, 56, 57, 59, 142.
+
+## Reported by chapters 48–55 (not yet sorted)
+
+- (48) Zion, the city of God: 46:4-5; 48:1-3, 8, 11-14 (with 76, 84, 87, 122, 125, 137), from the city God defends to the city mocked in Lam. 2:15 to Zion in latter-day revelation.
+- (48) Telling the next generation: 48:13 (with 22:30-31; 78:4-6; 102:18; 145:4).
+- (48) The LORD as King: 47:2, 7; 48:2 (with 93-99).
+- (48) Kings and nations gathered against Zion and scattered: 2:1-2; 46:6; 48:4-6 (with 76).
+- (55) The friend who betrays: Ps. 41:9; 55:12-14, 20-21, with John 13:18.
+- (55) Set times of prayer: Ps. 5:3; 55:17; 88:13; 119:164.
+- (55) Not being moved (tottering): Ps. 15:5; 16:8; 46:5; 55:22; 62:2.
+- (55) Flight to the wilderness and the wish for refuge: Ps. 11:1; 55:6-8.
+- (55) Casting care on the Lord: Ps. 37:5; 55:22, with 1 Pet. 5:7.
