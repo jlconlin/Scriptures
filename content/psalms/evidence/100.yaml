@@ -45,11 +45,6 @@ claims:
     quote: 'For he is our God; and we are the people of his pasture, and the sheep of his hand.'
 
   # ---------- sections ----------
-  - where: section 1 plain
-    claim: 'A modern translation: all the earth; the Lord is God; and we are his'
-    key: nrsvue
-    url: 'https://www.biblegateway.com/passage/?search=Psalm%20100&version=NRSVUE'
-    quote: 'It is he who made us, and we are his'
   - where: section 2 plain
     claim: 'A modern translation: give thanks to him; faithfulness to all generations'
     key: nrsvue
@@ -117,7 +112,7 @@ claims:
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'וְ/ל֣/וֹ'
   - where: 'note 100:3 “One letter between “not we ourselves” and “we are his””'
-    claim: 'The two forms differ by a letter, and the Hebrew Bible has fifteen places with this same pair, one written and the other read'
+    claim: 'The two forms differ by a letter, one written and the other read'
     key: delitzsch-psalms
     url: 'https://biblehub.com/commentaries/kad/psalms/100.htm'
     quote: 'there are fifteen passages in the Old Testament in which לא is written and לו is read'
