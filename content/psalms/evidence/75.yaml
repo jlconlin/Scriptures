@@ -1,0 +1,445 @@
+chapter: 75
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to Asaph'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/75?lang=eng'
+    quote: 'A Psalm or Song of Asaph'
+  - where: setting
+    claim: 'Psalms 73–89 are the third book, and some of them describe God as a judge who can rebuke wicked rulers'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'Psalms 73–89: These psalms include a variety of themes. Some describe God as a judge who can rebuke wicked rulers and destroy Israel’s enemies.'
+  - where: setting
+    claim: 'One older reading sets the psalm in the Assyrian threat, as what appears likely'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/75.htm'
+    quote: 'According to appearances it is the time of the judgment of the nations in the person of Assyria'
+  - where: setting
+    claim: 'The same commentary reports a reading that assigns the psalm to the time of the Maccabees'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/75.htm'
+    quote: 'Hitzig, however, assigns both Psalm 75:1-10 and Psalm 76:1-12 to Judas Maccabaeus'
+  - where: setting
+    claim: 'The commentary rates the Assyrian setting as a probability about even with the Maccabean one'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/75.htm'
+    quote: 'the probability that it refers to the Assyrian period is at least equally balanced with the probability that it refers to the Maccabaean'
+  - where: setting
+    claim: 'The Assyrian reading rests on the north not being named in verse 6'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/75.htm'
+    quote: 'The fact that the north is not mentioned at all shows that it is a northern power'
+  - where: setting
+    claim: 'Psalm 75 is read as beholding what Psalm 74:22 prays for'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/75.htm'
+    quote: 'That for which Psalm 74 prays: Arise, Jahve, plead Thine own cause (Psalm 74:22.), Psalm 75:1-10 beholds'
+  - where: setting
+    claim: 'Hannah’s song is called the only influence noticeable in the psalm'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/75.htm'
+    quote: 'The only influence that is noticeable in Psalm 75:1-10 is that of the Song of Hannah.'
+  - where: setting
+    claim: 'Hannah’s song has the horn, the arrogant speech, the pillars of the earth and the LORD who brings low and lifts up (1 Sam. 2:1, 3, 7, 8)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/2?lang=eng'
+    quote: 'he bringeth low, and lifteth up'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The verb rum (H7311), “lift up,” stands in verses 4, 5, 6, 7 and 10 (Hebrew 5, 6, 7, 8, 11); hebrew.mjs psalms 75:1-10'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תָּרִ֥ימוּ'
+  - where: thread
+    claim: 'The lexicon lists the verb in verses 4–7 and 10 (Hebrew numbering 5–8, 11); in verse 6 it is an infinitive meaning exaltation, the King James’s “promotion”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7311.htm'
+    quote: 'infinitive = exaltation Psalm 75:7'
+  - where: thread
+    claim: 'In verse 10 the same verb is used of the horns of the righteous'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7311.htm'
+    quote: 'Psalm 75:11 be lifted up, of horns'
+  - where: thread
+    claim: 'The words of the congregation change to the words of God at verse 2'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/75.htm'
+    quote: 'the words of the church suddenly change into the words of God'
+  - where: thread
+    claim: 'The congregation resumes at verse 6'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/75.htm'
+    quote: 'The church here takes up the words of God'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: 'A modern translation renders verse 1 in three clauses, with the name near and people telling the wonders'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2075&version=NRSVUE'
+    quote: 'we give thanks; your name is near. People tell of your wondrous deeds.'
+  - where: section 2 plain
+    claim: 'Verses 2–5 in a modern translation: the set time, equity, the pillars kept steady, the boastful, the insolent neck'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2075&version=NRSVUE'
+    quote: 'At the set time that I appoint, I will judge with equity. When the earth totters, with all its inhabitants, it is I who keep its pillars steady.'
+  - where: section 2 plain
+    claim: '“Dissolved” is a verb for melting, a figure for helplessness through terror'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4127.htm'
+    quote: 'melt away, figurative for be helpless, disorganized (through terror, etc.)'
+  - where: section 3 plain
+    claim: 'Verses 6–8 in a modern translation: lifting up, the wilderness, foaming wine well mixed, drained to the dregs'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2075&version=NRSVUE'
+    quote: 'and not from the wilderness comes lifting up'
+  - where: section 3 plain
+    claim: 'The cup has foaming wine, well mixed, and is drained to the dregs'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2075&version=NRSVUE'
+    quote: 'with foaming wine, well mixed; he will pour a draught from it, and all the wicked of the earth shall drain it down to the dregs.'
+
+  # ---------- note 75:0 ----------
+  - where: 'note 75:0 “Do Not Destroy”'
+    claim: 'A modern translation prints the title’s words as “Do Not Destroy”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2075&version=NRSVUE'
+    quote: 'To the leader: Do Not Destroy. A Psalm of Asaph. A Song.'
+  - where: 'note 75:0 “Do Not Destroy”'
+    claim: 'The Greek translators translated the words'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/75.htm'
+    quote: 'For the end, Destroy not, a Psalm of a Song for Asaph.'
+  - where: 'note 75:0 “Do Not Destroy”'
+    claim: 'Al-taschith stands in the titles of Psalms 57, 58 and 59 as well (data/kjv/psalms.titles.json; the Gospel Library page of Psalm 57 read for the first)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/57?lang=eng'
+    quote: 'Al-taschith, Michtam of David, when he fled from Saul in the cave'
+
+  # ---------- note 75:1 ----------
+  - where: 'note 75:1 “The name that is near”'
+    claim: 'The Hebrew of verse 1 is “and near (qarob, H7138) thy name (shem); they have told (a third person plural perfect) thy wonders,” with no conjunction “for that”; hebrew.mjs psalms 75:1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'סִ֝פְּר֗וּ'
+  - where: 'note 75:1 “The name that is near”'
+    claim: 'A modern translation keeps three short clauses'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2075&version=NRSVUE'
+    quote: 'we give thanks; your name is near. People tell of your wondrous deeds.'
+  - where: 'note 75:1 “The name that is near”'
+    claim: 'The Greek has “and call upon thy name”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/75.htm'
+    quote: 'We will give thanks to thee, O God, we will give thanks, and call upon thy name'
+  - where: 'note 75:1 “The name that is near”'
+    claim: 'The lexicon calls the Hebrew “near is thy name” striking but doubtful and prefers the reading “those who call on thy name,” with the Greek'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8034.htm'
+    quote: 'Psalm 75:2 is striking, but doubtful'
+  - where: 'note 75:1 “The name that is near”'
+    claim: 'Under “near,” the lexicon lists the line among the uses “of God” and gives the proposed reading (Hebrew verse 2)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7138.htm'
+    quote: 'f. of God'
+
+  # ---------- note 75:2 ----------
+  - where: 'note 75:2 “God answers, and names a set time”'
+    claim: 'The Hebrew of verse 2 has the verb “take” (laqach, H3947) with mo‘ed (H4150), and “I” with “judge”; hebrew.mjs psalms 75:2'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מוֹעֵ֑ד'
+  - where: 'note 75:2 “God answers, and names a set time”'
+    claim: 'The lexicon puts this verse (Hebrew 75:3) under mo‘ed as “appointed time,” with the verb “take”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4150.htm'
+    quote: 'at an or the appointed time'
+  - where: 'note 75:2 “God answers, and names a set time”'
+    claim: 'The same noun is in the Hebrew name of the tabernacle, “tent of meeting”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4150.htm'
+    quote: 'tent of meeting (of God with his people'
+  - where: 'note 75:2 “God answers, and names a set time”'
+    claim: 'The King James renders that name “the tabernacle of the congregation”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/29?lang=eng'
+    quote: 'the tabernacle of the congregation'
+  - where: 'note 75:2 “God answers, and names a set time”'
+    claim: 'A modern translation of verse 2'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2075&version=NRSVUE'
+    quote: 'At the set time that I appoint, I will judge with equity'
+  - where: 'note 75:2 “God answers, and names a set time”'
+    claim: 'The Greek of verse 2'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/75.htm'
+    quote: 'When I shall take a set time, I will judge righteously.'
+  - where: 'note 75:2 “God answers, and names a set time”'
+    claim: 'The speaker changes to God at verse 2'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/75.htm'
+    quote: 'the words of the church suddenly change into the words of God'
+  - where: 'note 75:2 “God answers, and names a set time”'
+    claim: 'God is still the speaker in verses 4–5'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/75.htm'
+    quote: 'The utterance of God is also continued after the Sela.'
+  - where: 'note 75:2 “God answers, and names a set time”'
+    claim: 'The congregation speaks again from verse 6'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/75.htm'
+    quote: 'The church here takes up the words of God'
+  - where: 'note 75:2 “God answers, and names a set time”'
+    claim: 'The same reading gives the last verse to the singer, who measures himself by what verse 7 (Hebrew 8) calls God’s work'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/75.htm'
+    quote: 'he measures himself in v. 11 by the standard of what he expresses in Psalm 75:8'
+
+  # ---------- note 75:3 ----------
+  - where: 'note 75:3 “The earth melts, and its pillars hold”'
+    claim: '“Dissolved” is the verb mug, melt, figurative for helplessness through terror; the lexicon lists Exodus 15:15 with this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4127.htm'
+    quote: 'melt away, figurative for be helpless, disorganized (through terror, etc.) Exodus 15:15'
+  - where: 'note 75:3 “The earth melts, and its pillars hold”'
+    claim: 'The verb behind “bear up” means regulate or adjust'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8505.htm'
+    quote: 'Psalm 75:4 I regulate (or adjust) her pillars (i.e. of earth).'
+  - where: 'note 75:3 “The earth melts, and its pillars hold”'
+    claim: 'The second half of verse 3 has the pronoun “I” (anoki, H595) before the verb; hebrew.mjs psalms 75:3'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִכַּ֖נְתִּי'
+  - where: 'note 75:3 “The earth melts, and its pillars hold”'
+    claim: 'A modern translation of the line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2075&version=NRSVUE'
+    quote: 'it is I who keep its pillars steady'
+  - where: 'note 75:3 “The earth melts, and its pillars hold”'
+    claim: 'The inhabitants of Canaan “melt away” in the song at the sea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/15?lang=eng'
+    quote: 'all the inhabitants of Canaan shall melt away'
+
+  # ---------- note 75:4 ----------
+  - where: 'note 75:4 “The horn the wicked lift for themselves”'
+    claim: 'A horn lifted up, as of a lordly animal, denotes increase of might and dignity'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7161.htm'
+    quote: 'especially as lifted up'
+  - where: 'note 75:4 “The horn the wicked lift for themselves”'
+    claim: 'The lifted horn denotes increase of might, dignity'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7161.htm'
+    quote: 'denoting increase of might, dignity 1 Samuel 2:1,10'
+  - where: 'note 75:4 “The horn the wicked lift for themselves”'
+    claim: 'In verses 4–5 (Hebrew 5–6) the lexicon gives the sense haughtiness, arrogance'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7161.htm'
+    quote: 'also haughtiness, arrogance Psalm 75:5; Psalm 75:6'
+  - where: 'note 75:4 “The horn the wicked lift for themselves”'
+    claim: 'The opposite is to hew off horns, as in verse 10 (Hebrew 11)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7161.htm'
+    quote: 'hew off horns, i.e. reduce, humiliate, Lamentations 2:3; Psalm 75:11'
+  - where: 'note 75:4 “The horn the wicked lift for themselves”'
+    claim: 'The verb behind “fools” and “Deal not foolishly” means be boastful'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1984.htm'
+    quote: 'be boastful'
+  - where: 'note 75:4 “The horn the wicked lift for themselves”'
+    claim: 'A modern translation of verses 4–5'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2075&version=NRSVUE'
+    quote: 'I say to the boastful, “Do not boast,” and to the wicked, “Do not lift up your horn; do not lift up your horn on high or speak with insolent neck.”'
+  - where: 'note 75:4 “The horn the wicked lift for themselves”'
+    claim: 'The word beside “neck” in verse 5 is an adjective used of speech'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6277.htm'
+    quote: 'adjective forward, arrogant (of speech)'
+  - where: 'note 75:4 “The horn the wicked lift for themselves”'
+    claim: 'Verse 10 says the horns of the righteous shall be exalted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/75?lang=eng'
+    quote: 'the horns of the righteous shall be exalted'
+
+  # ---------- note 75:6 ----------
+  - where: 'note 75:6 “Lifting up, the wilderness, and the missing north”'
+    claim: 'The last word of verse 6 is harim, tagged as the infinitive of rum (H7311), and the word before it is midbar (H4057); hebrew.mjs psalms 75:6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הָרִֽים'
+  - where: 'note 75:6 “Lifting up, the wilderness, and the missing north”'
+    claim: '“Promotion” is the infinitive of the verb “lift up,” meaning exaltation (Hebrew verse 7)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7311.htm'
+    quote: 'infinitive = exaltation Psalm 75:7'
+  - where: 'note 75:6 “Lifting up, the wilderness, and the missing north”'
+    claim: 'The King James translates midbar, wilderness, as “south” (its renderings are desert, south, speech, wilderness)'
+    key: strongs-concordance
+    url: 'https://biblehub.com/hebrew/4057.htm'
+    quote: 'desert, south, speech, wilderness'
+  - where: 'note 75:6 “Lifting up, the wilderness, and the missing north”'
+    claim: 'A modern translation of the line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2075&version=NRSVUE'
+    quote: 'and not from the wilderness comes lifting up'
+  - where: 'note 75:6 “Lifting up, the wilderness, and the missing north”'
+    claim: 'The Greek reads “desert mountains”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/75.htm'
+    quote: 'For good comes neither from the east, nor from the west, nor from the desert mountains.'
+  - where: 'note 75:6 “Lifting up, the wilderness, and the missing north”'
+    claim: 'The same letters, harim, are elsewhere the word for mountains (the commentary, reporting a Midrash)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/75.htm'
+    quote: 'everywhere where harim is found in Scripture it signifies harim, mountains, with the exception of this passage'
+  - where: 'note 75:6 “Lifting up, the wilderness, and the missing north”'
+    claim: 'Read as “mountains,” the sentence is left unfinished and the next verse completes it'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/75.htm'
+    quote: 'The negative thought is left unfinished, the discourse hurrying on to the opposite affirmative thought.'
+  - where: 'note 75:6 “Lifting up, the wilderness, and the missing north”'
+    claim: 'One reading: the missing north shows a northern power threatening Israel, which looks for help neither east nor west nor from Egypt beyond the desert'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/75.htm'
+    quote: 'The fact that the north is not mentioned at all shows that it is a northern power which arrogantly, even to blasphemy, threatens the small Israelitish nation with destruction'
+
+  # ---------- note 75:7 ----------
+  - where: 'note 75:7 “Hannah’s song beside the psalm”'
+    claim: 'Verse 7 has the verbs shaphel (H8213) and rum (H7311); hebrew.mjs psalms 75:7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יַ֝שְׁפִּ֗יל'
+  - where: 'note 75:7 “Hannah’s song beside the psalm”'
+    claim: '1 Samuel 2:7 has the same two verbs (H8213, H7311), and 1 Samuel 2:8 has a different word for pillars (H4690; the psalm has H5982); hebrew.mjs 1samuel 2:7-8'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/1Sam.xml'
+    quote: 'מַשְׁפִּ֖יל'
+  - where: 'note 75:7 “Hannah’s song beside the psalm”'
+    claim: 'Hannah’s “arrogancy” (1 Sam. 2:3) is the word translated “stiff” in verse 5 (Hebrew 6)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6277.htm'
+    quote: '1 Samuel 2:3; Psalm 31:19; Psalm 94:4; so also Psalm 75:6'
+  - where: 'note 75:7 “Hannah’s song beside the psalm”'
+    claim: 'Hannah’s song: the horn, the proud speech, bringing low and lifting up, the pillars, the judge, the barren and the mother of many (1 Sam. 2:1–10)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/2?lang=eng'
+    quote: 'he bringeth low, and lifteth up'
+  - where: 'note 75:7 “Hannah’s song beside the psalm”'
+    claim: 'Daniel says God removes and sets up kings'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/2?lang=eng'
+    quote: 'he removeth kings, and setteth up kings'
+
+  # ---------- note 75:8 cup ----------
+  - where: 'note 75:8 “The cup of judgment”'
+    claim: 'The lexicon defines this use as the cup of the LORD’s judgment, from which the nations or Israel must drink'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3563.htm'
+    quote: 'figurative (wine-) cup of judgement of … from which the nations, or Israel, must drink'
+  - where: 'note 75:8 “The cup of judgment”'
+    claim: 'The verb behind “is red” is taken as “foams”; others derive it from a root “be red”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2560.htm'
+    quote: 'and wine which foams, (others from IV. … be red)'
+  - where: 'note 75:8 “The cup of judgment”'
+    claim: '“Mixture” is wine mixed with spices'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4538.htm'
+    quote: 'mixture, i.e. wine mixed with spices'
+  - where: 'note 75:8 “The cup of judgment”'
+    claim: 'The dregs are the lees of the wine'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8105.htm'
+    quote: 'lees, dregs (figurative)'
+  - where: 'note 75:8 “The cup of judgment”'
+    claim: 'The Greek has unmingled wine'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/75.htm'
+    quote: 'For there is a cup in the hand of the Lord, full of unmingled wine'
+  - where: 'note 75:8 “The cup of judgment”'
+    claim: 'A modern translation of the last clause'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2075&version=NRSVUE'
+    quote: 'all the wicked of the earth shall drain it down to the dregs'
+  - where: 'note 75:8 “The cup of judgment”'
+    claim: 'Isaiah says Jerusalem has drunk at the LORD’s hand the cup of his fury'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/51?lang=eng'
+    quote: 'the cup of his fury'
+
+  # ---------- note 75:8 christ ----------
+  - where: 'note 75:8 “The bitter cup the Savior drank”'
+    claim: 'Alma’s bitter cup is the consequence of sin for the wicked, and the Savior’s drinking of the bitter cup is a metaphor for taking on the sins of the world, on behalf of all'
+    key: sc-knowhy-341
+    url: 'https://scripturecentral.org/knowhy/what-can-we-learn-from-the-saviors-first-words-at-bountiful'
+    quote: 'Drinking “the bitter cup” is thus an apt metaphor for “taking upon [Himself] … the sins of the world.” The Savior suffered the consequences of sin (drank the “bitter cup”) on behalf of all, so that those who repent may not have to drink of the bitter cup themselves.'
+  - where: 'note 75:8 “The bitter cup the Savior drank”'
+    claim: 'Alma had spoken of a bitter cup that the wicked drink as a consequence of sin'
+    key: sc-knowhy-341
+    url: 'https://scripturecentral.org/knowhy/what-can-we-learn-from-the-saviors-first-words-at-bountiful'
+    quote: 'Alma had previously spoken of “a bitter cup” that the wicked have to drink as part of the consequence for sin (Alma 40:26).'
+  - where: 'note 75:8 “The bitter cup the Savior drank”'
+    claim: 'The Savior’s words at Bountiful'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/11?lang=eng'
+    quote: 'I have drunk out of that bitter cup which the Father hath given me'
+  - where: 'note 75:8 “The bitter cup the Savior drank”'
+    claim: 'The Savior suffered for all that they might not suffer if they would repent, and would that He might not drink the bitter cup'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/19?lang=eng'
+    quote: 'and would that I might not drink the bitter cup, and shrink'
+
+  - where: 'note 75:8 “The bitter cup the Savior drank”'
+    claim: 'The Savior spoke of His atoning suffering and death as a cup, a term that drew on scripture’s cup of God’s wrath and of judgment on the wicked, with Psalm 75:8 listed first'
+    key: nt-student-manual-14
+    url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/introduction-to-mark/chapter-14?lang=eng'
+    quote: 'it could also represent judgment and punishment of the wicked (see Psalm 75:8; Isaiah 51:17; Mosiah 3:24–26)'
+  - where: 'note 75:8 “The bitter cup the Savior drank”'
+    claim: 'The manual joins that cup to the bitter cup of 3 Nephi 11:11 and D&C 19:18'
+    key: nt-student-manual-14
+    url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/introduction-to-mark/chapter-14?lang=eng'
+    quote: 'the Savior drank out of the “bitter cup” (3 Nephi 11:11; D&C 19:18) for us'
+  - where: 'note 75:8 “The bitter cup the Savior drank”'
+    claim: 'Alma speaks of the wicked drinking the dregs of a bitter cup'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/40?lang=eng'
+    quote: 'they drink the dregs of a bitter cup'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: christ
+    claim: 'Verse 8 has the divine name (H3068) for “the LORD”; hebrew.mjs psalms 75:8'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְהוָ֡ה'
+  - where: christ
+    claim: 'Moses 6:57 names Jesus Christ a righteous Judge'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/6?lang=eng'
+    quote: 'Jesus Christ, a righteous Judge, who shall come in the meridian of time'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'Mary’s song has the putting down of the mighty and the exalting of the low'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/1?lang=eng'
+    quote: 'He hath put down the mighty from their seats, and exalted them of low degree.'
+  - where: explore
+    claim: 'Isaiah 51:22–23 takes the cup from Jerusalem and puts it into the hand of those who afflict her'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/51?lang=eng'
+    quote: 'But I will put it into the hand of them that afflict thee'
+  - where: parallels
+    claim: 'Jeremiah is told to make all the nations drink the wine cup of fury'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/25?lang=eng'
+    quote: 'Take the wine cup of this fury at my hand, and cause all the nations, to whom I send thee, to drink it.'
