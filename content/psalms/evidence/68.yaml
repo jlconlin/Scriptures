@@ -1,0 +1,726 @@
+chapter: 68
+claims:
+  # ---- when ----
+  - where: 'when'
+    claim: 'The title ascribes the psalm to David and gives no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/68?lang=eng'
+    quote: 'To the chief Musician, A Psalm or Song of David.'
+
+  # ---- setting ----
+  - where: 'setting'
+    claim: 'Moses spoke the words of verse 1 when the ark set forward'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/10?lang=eng'
+    quote: 'And it came to pass, when the ark set forward, that Moses said, Rise up, Lord, and let thine enemies be scattered'
+  - where: 'setting'
+    claim: 'One proposed occasion is David bringing the ark to Zion'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'The first is the bringing home of the Ark of the covenant to Zion'
+  - where: 'setting'
+    claim: 'The other proposed occasion is the war with Ammon and Syria, when the ark went with the army'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'A far more appropriate occasion is, therefore, to be found in the Syro-Ammonitish war of David, in which the Ark was taken with them by the people'
+  - where: 'setting'
+    claim: 'Psalm 68 is placed with the Song of Deborah and the blessing of Moses in the earliest stage of Hebrew'
+    key: sc-knowhy-853
+    url: 'https://scripturecentral.org/knowhy/why-does-the-old-testament-contain-poems-in-the-middle-of-stories'
+    quote: 'the Song of Deborah (Judges 5), the Blessings of Jacob (Genesis 49) and of Moses (Deuteronomy 33)'
+  - where: 'setting'
+    claim: 'Psalm 68 is named among the texts in the earliest stage of the language'
+    key: sc-knowhy-853
+    url: 'https://scripturecentral.org/knowhy/why-does-the-old-testament-contain-poems-in-the-middle-of-stories'
+    quote: 'some of the Psalms (such as Psalm 68) are all written in this earliest stage of the language'
+  - where: 'setting'
+    claim: 'The word behind “Princes” (verse 31) occurs only here and its meaning is unknown'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2831.htm'
+    quote: 'meaning unknown'
+  - where: 'setting'
+    claim: 'The verb behind “leap” (verse 16) occurs only here'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7520.htm'
+    quote: 'Psalm 68:17 (figurative of mountains, with accusative)'
+  - where: 'setting'
+    claim: 'A modern translation marks the Hebrew of verse 30 as uncertain'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: 'Meaning of Heb of 68.30 is uncertain'
+  - where: 'setting'
+    claim: 'Moses’s words, Moses’s blessing and Deborah’s style are heard in the psalm'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'It is a Psalm in the style of Deborah'
+  - where: 'setting'
+    claim: 'Deuteronomy 33:2 is set beside verse 17'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: '68.17 : Deut 33.2; Dan 7.10'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'The clause of verse 17 is four Hebrew words: the Lord, among them, Sinai, in the holy place'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: '68.17 Cn: Heb The Lord among them Sinai in the holy (place)'
+  - where: 'thread'
+    claim: 'The psalm has been divided into two halves at verse 18 (Hebrew verse 19)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'the whole divides itself into two halves, vv. 2-19, 20-35'
+  - where: 'thread'
+    claim: 'The first half dwells on God’s deed, the second on its effect on His people and the nations'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'the first dwells more upon the mighty deed God has wrought, the second upon the impressions it produces upon the church and upon the peoples of the earth'
+  - where: 'thread'
+    claim: 'Verse 4 has the participle “rider”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לָ/רֹכֵ֣ב'
+  - where: 'thread'
+    claim: 'Verse 33 has the same participle “rider”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לָ֭/רֹכֵב'
+
+  # ---- note 68:1 ----
+  - where: 'note 68:1 “The words Moses spoke when the ark set out”'
+    claim: 'Moses said these words when the ark set forward'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/10?lang=eng'
+    quote: 'when the ark set forward, that Moses said, Rise up, Lord, and let thine enemies be scattered; and let them that hate thee flee before thee.'
+  - where: 'note 68:1 “The words Moses spoke when the ark set out”'
+    claim: 'Psalm 68:1 has the verb arise'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָק֣וּם'
+  - where: 'note 68:1 “The words Moses spoke when the ark set out”'
+    claim: 'Numbers 10:35 has the same verb arise, as an imperative'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'קוּמָ֣/ה'
+  - where: 'note 68:1 “The words Moses spoke when the ark set out”'
+    claim: 'Psalm 68:1 has the verb be scattered'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָפ֣וּצוּ'
+  - where: 'note 68:1 “The words Moses spoke when the ark set out”'
+    claim: 'Numbers 10:35 has the same verb be scattered'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'וְ/יָפֻ֨צוּ֙'
+  - where: 'note 68:1 “The words Moses spoke when the ark set out”'
+    claim: 'Psalm 68:1 has the verb flee, and “his enemies” and “those who hate him” with a third-person suffix'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/יָנ֥וּסוּ'
+  - where: 'note 68:1 “The words Moses spoke when the ark set out”'
+    claim: 'Numbers 10:35 has the same verb flee, with “thy enemies” and “those who hate thee”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'וְ/יָנֻ֥סוּ'
+  - where: 'note 68:1 “The words Moses spoke when the ark set out”'
+    claim: 'Psalm 68:1 has the participle “enemies” (H341) with a third-person suffix'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אוֹיְבָ֑י/ו'
+  - where: 'note 68:1 “The words Moses spoke when the ark set out”'
+    claim: 'Numbers 10:35 has the same participle “enemies” (H341) with a second-person suffix'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'אֹֽיְבֶ֔י/ךָ'
+  - where: 'note 68:1 “The words Moses spoke when the ark set out”'
+    claim: 'Psalm 68:1 has the participle “those who hate” (H8130) with a third-person suffix'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מְ֝שַׂנְאָ֗י/ו'
+  - where: 'note 68:1 “The words Moses spoke when the ark set out”'
+    claim: 'Numbers 10:35 has the same participle “those who hate” (H8130) with a second-person suffix'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'מְשַׂנְאֶ֖י/ךָ'
+  - where: 'note 68:1 “The words Moses spoke when the ark set out”'
+    claim: 'The psalm has Elohim (God) where Numbers has the divine name'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֱ֭לֹהִים'
+
+  # ---- note 68:4 rider ----
+  - where: 'note 68:4 “A rider through the deserts, or on the clouds”'
+    claim: 'The Hebrew word in verse 4 is the plural of arabah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בָּ֭/עֲרָבוֹת'
+  - where: 'note 68:4 “A rider through the deserts, or on the clouds”'
+    claim: 'Arabah means desert-plain, steppe'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6160.htm'
+    quote: 'noun feminine desert-plain, steppe'
+  - where: 'note 68:4 “A rider through the deserts, or on the clouds”'
+    claim: 'The lexicon lists Psalm 68:4 (Hebrew 68:5) under the general sense, the steppe'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6160.htm'
+    quote: '5 in General the steppe (often'
+  - where: 'note 68:4 “A rider through the deserts, or on the clouds”'
+    claim: 'Verse 33 has the Hebrew word for heavens'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בִּ/שְׁמֵ֣י'
+  - where: 'note 68:4 “A rider through the deserts, or on the clouds”'
+    claim: 'A modern translation has “rides upon the clouds”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: 'lift up a song to him who rides upon the clouds'
+  - where: 'note 68:4 “A rider through the deserts, or on the clouds”'
+    claim: 'Its margin gives the desert reading'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: '68.4 Or cast up a highway for him who rides through the deserts'
+  - where: 'note 68:4 “A rider through the deserts, or on the clouds”'
+    claim: 'The Greek has “rides upon the west”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/68.htm'
+    quote: 'make a way for him that rides upon the west (the Lord is his name)'
+
+  # ---- note 68:4 JAH ----
+  - where: 'note 68:4 “The short form of the divine name”'
+    claim: 'Yah is contracted from the four-letter divine name'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3050.htm'
+    quote: 'proper name, of deity contracted from'
+  - where: 'note 68:4 “The short form of the divine name”'
+    claim: 'It first appears in early poems, with Exodus 15:2 listed first'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3050.htm'
+    quote: 'first appears in early poems; Exodus 15:2'
+  - where: 'note 68:4 “The short form of the divine name”'
+    claim: 'It is the last element of hallelujah, “praise ye Yah”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3050.htm'
+    quote: 'praise ye Yah Psalm 104:35'
+  - where: 'note 68:4 “The short form of the divine name”'
+    claim: 'Exodus 15:2, in the song at the Red Sea, has Yah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'יָ֔הּ'
+  - where: 'note 68:4 “The short form of the divine name”'
+    claim: 'Verse 4 has Yah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/יָ֥הּ'
+  - where: 'note 68:4 “The short form of the divine name”'
+    claim: 'Verse 18 (Hebrew 19) has Yah Elohim, the King James “LORD God”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָ֬הּ'
+
+  # ---- note 68:6 ----
+  - where: 'note 68:6 “The solitary brought home”'
+    claim: 'The Hebrew has a participle “causing to dwell”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מ֘וֹשִׁ֤יב'
+  - where: 'note 68:6 “The solitary brought home”'
+    claim: 'The Hebrew has the word house with a directional ending (“homeward”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּ֗יְתָ/ה'
+  - where: 'note 68:6 “The solitary brought home”'
+    claim: 'The solitary are explained as friendless wanderers or exiles'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3173.htm'
+    quote: 'friendless wanderers or exiles'
+  - where: 'note 68:6 “The solitary brought home”'
+    claim: 'God causes them to dwell at home'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3173.htm'
+    quote: 'to dwell at home'
+  - where: 'note 68:6 “The solitary brought home”'
+    claim: 'The Greek has “a house”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/68.htm'
+    quote: 'God settles the solitary in a house'
+  - where: 'note 68:6 “The solitary brought home”'
+    claim: 'A modern translation has “a home to live in”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: 'God gives the desolate a home to live in;'
+
+  # ---- note 68:8 ----
+  - where: 'note 68:8 “The march from Sinai in Deborah’s words”'
+    claim: 'Judges 5:4–5 has the march, the earth trembling, the heavens dropping, and Sinai'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/5?lang=eng'
+    quote: 'The mountains melted from before the Lord, even that Sinai from before the Lord God of Israel.'
+  - where: 'note 68:8 “The march from Sinai in Deborah’s words”'
+    claim: 'Psalm 68:7 has the verb march'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/צַעְדְּ/ךָ֖'
+  - where: 'note 68:8 “The march from Sinai in Deborah’s words”'
+    claim: 'Judges 5:4 has the same verb march, in the same form'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Judg.xml'
+    quote: 'בְּ/צַעְדְּ/ךָ֙'
+  - where: 'note 68:8 “The march from Sinai in Deborah’s words”'
+    claim: 'Psalm 68:8 has “the earth quaked”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רָעָ֨שָׁה'
+  - where: 'note 68:8 “The march from Sinai in Deborah’s words”'
+    claim: 'Judges 5:4 has the same “the earth quaked”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Judg.xml'
+    quote: 'רָעָ֔שָׁה'
+  - where: 'note 68:8 “The march from Sinai in Deborah’s words”'
+    claim: 'Psalm 68:8 has “this Sinai”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'סִינַ֑י'
+  - where: 'note 68:8 “The march from Sinai in Deborah’s words”'
+    claim: 'Judges 5:5 has “this Sinai”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Judg.xml'
+    quote: 'סִינַ֔י'
+  - where: 'note 68:8 “The march from Sinai in Deborah’s words”'
+    claim: 'Psalm 68:7 addresses God (Elohim) where Judges 5:4 addresses the LORD'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֱֽלֹהִ֗ים'
+
+  # ---- note 68:11 ----
+  - where: 'note 68:11 “The women who carried the news”'
+    claim: 'The participle in verse 11 is feminine plural'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַֽ֝/מְבַשְּׂר֗וֹת'
+  - where: 'note 68:11 “The women who carried the news”'
+    claim: 'The verb means bear tidings'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1319.htm'
+    quote: 'verb bear tidings'
+  - where: 'note 68:11 “The women who carried the news”'
+    claim: 'It is used of good tidings, and of victory in this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1319.htm'
+    quote: '1 gladden with good tidings: birth of a son Jeremiah 20:15; victory 1 Samuel 31:9'
+  - where: 'note 68:11 “The women who carried the news”'
+    claim: 'A modern translation has “those who bore the tidings”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: 'great is the company of those who bore the tidings:'
+  - where: 'note 68:11 “The women who carried the news”'
+    claim: 'Its margin has “company of the women”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: '68.11 Or company of the women'
+  - where: 'note 68:11 “The women who carried the news”'
+    claim: 'Miriam and the women sang after the Red Sea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/15?lang=eng'
+    quote: 'took a timbrel in her hand; and all the women went out after her with timbrels and with dances.'
+  - where: 'note 68:11 “The women who carried the news”'
+    claim: 'One reading: Israel’s deliverances were celebrated by singing women'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'the victorious single combat of David with Goliath were celebrated by singing women'
+  - where: 'note 68:11 “The women who carried the news”'
+    claim: 'The same reading names Miriam and Deborah'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'of the evangelists, like Miriam (Mirjam) and Deborah, there shall be a great host'
+
+  # ---- note 68:13 ----
+  - where: 'note 68:13 “Among the pots, the sheepfolds, or the hearths”'
+    claim: 'The word in verse 13 is a dual noun'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שְׁפַ֫תָּ֥יִם'
+  - where: 'note 68:13 “Among the pots, the sheepfolds, or the hearths”'
+    claim: 'Judges 5:16 has the related word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Judg.xml'
+    quote: 'הַֽ/מִּשְׁפְּתַ֔יִם'
+  - where: 'note 68:13 “Among the pots, the sheepfolds, or the hearths”'
+    claim: 'The lexicon: probably the same word as in Judges 5:16'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4942.htm'
+    quote: 'noun [masculine] dual: probably ='
+  - where: 'note 68:13 “Among the pots, the sheepfolds, or the hearths”'
+    claim: 'The psalm’s phrase may be based on Judges 5:16'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4942.htm'
+    quote: 'Psalm 68:14 (based on Judges 5:16 ?)'
+  - where: 'note 68:13 “Among the pots, the sheepfolds, or the hearths”'
+    claim: 'The lexicon prefers fire-places or ash-heaps of villages or encampments'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4942.htm'
+    quote: 'dual probably fire-places or ash-heaps (namely, of the villages or encampments of the tribe)'
+  - where: 'note 68:13 “Among the pots, the sheepfolds, or the hearths”'
+    claim: 'Most interpreters take it as sheepfolds'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4942.htm'
+    quote: 'and most sheepfolds'
+  - where: 'note 68:13 “Among the pots, the sheepfolds, or the hearths”'
+    claim: 'A modern translation has “among the sheepfolds”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: 'though they stay among the sheepfolds'
+  - where: 'note 68:13 “Among the pots, the sheepfolds, or the hearths”'
+    claim: 'One reading: lying among the sheepfolds is an emblem of peace, pointing back to Deborah’s song'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'is an emblem of thriving peace'
+  - where: 'note 68:13 “Among the pots, the sheepfolds, or the hearths”'
+    claim: 'The dove is Israel, with Psalm 74:19 cited'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'turtle-dove, Psalm 74:19'
+  - where: 'note 68:13 “Among the pots, the sheepfolds, or the hearths”'
+    claim: 'The silver and gold are the spoils of a peaceful time'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'a time of peaceful prosperity enhanced by rich spoils. Everything shall glitter and gleam with silver and gold.'
+
+  # ---- note 68:16 ----
+  - where: 'note 68:16 “The high hills look on with envy”'
+    claim: 'The verb in verse 16'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תְּֽרַצְּדוּ/ן֮'
+  - where: 'note 68:16 “The high hills look on with envy”'
+    claim: 'It means to watch stealthily or with envious hostility'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7520.htm'
+    quote: 'watch stealthily, or with envious hostility'
+  - where: 'note 68:16 “The high hills look on with envy”'
+    claim: 'The lexicon gives only this verse for the verb'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7520.htm'
+    quote: 'Psalm 68:17 (figurative of mountains, with accusative)'
+  - where: 'note 68:16 “The high hills look on with envy”'
+    claim: 'A modern translation has “look with envy”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: 'Why do you look with envy, O many-peaked mountain,'
+  - where: 'note 68:16 “The high hills look on with envy”'
+    claim: 'The same translation addresses the mountain of Bashan in verse 15'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: 'O mighty mountain, mountain of Bashan;'
+  - where: 'note 68:16 “The high hills look on with envy”'
+    claim: 'Where Bashan is'
+    key: bd-bashan
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/bashan?lang=eng'
+    quote: 'The district east of Jordan and north of Gilead'
+  - where: 'note 68:16 “The high hills look on with envy”'
+    claim: 'The hill of verse 16 is the temple mount, Mount Moriah'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'was, of course, Mount Moriah (2 Chronicles 3:1)'
+  - where: 'note 68:16 “The high hills look on with envy”'
+    claim: 'Psalm 68:16 is given as an example of psalms that define the temple as the Lord’s dwelling place'
+    key: skinner-seeing-god
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/seeing-god-his-temple-significant-theme-israels-psalms'
+    quote: 'define the temple as the Lord’s dwelling place. Psalm 68:16, for example, speaks of the temple as'
+
+  # ---- note 68:17 ----
+  - where: 'note 68:17 “Sinai in the holy place”'
+    claim: 'The Hebrew has “Sinai” with no preposition'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'סִינַ֥י'
+  - where: 'note 68:17 “Sinai in the holy place”'
+    claim: 'The Hebrew reads “The Lord among them Sinai in the holy (place)”; the translation corrects it'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: '68.17 Cn: Heb The Lord among them Sinai in the holy (place)'
+  - where: 'note 68:17 “Sinai in the holy place”'
+    claim: 'The corrected rendering'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: 'the Lord came from Sinai into the holy place.'
+  - where: 'note 68:17 “Sinai in the holy place”'
+    claim: 'Deuteronomy 33:2 is set beside verse 17'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: '68.17 : Deut 33.2; Dan 7.10'
+  - where: 'note 68:17 “Sinai in the holy place”'
+    claim: 'The word behind “angels”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שִׁנְאָ֑ן'
+  - where: 'note 68:17 “Sinai in the holy place”'
+    claim: 'It is explained, with a question mark, as repetition'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8136.htm'
+    quote: 'noun [masculine] repetition (?)'
+  - where: 'note 68:17 “Sinai in the holy place”'
+    claim: 'That is, thousands twice-told'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8136.htm'
+    quote: 'thousands of repetition, i.e. thousands twice-told'
+  - where: 'note 68:17 “Sinai in the holy place”'
+    claim: 'The Greek has “thousands of rejoicing ones”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/68.htm'
+    quote: 'The chariots of God are ten thousand fold, thousands of rejoicing ones'
+
+  # ---- note 68:18 ----
+  - where: 'note 68:18 “Received gifts, and gave them”'
+    claim: 'Psalm 68:18 has the verb take captive'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁ֘בִ֤יתָ'
+  - where: 'note 68:18 “Received gifts, and gave them”'
+    claim: 'Judges 5:12 has the same verb take captive'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Judg.xml'
+    quote: 'וּֽ/שֲׁבֵ֥ה'
+  - where: 'note 68:18 “Received gifts, and gave them”'
+    claim: 'Judges 5:12 has the same noun captivity as Psalm 68:18'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Judg.xml'
+    quote: 'שֶׁבְיְ/ךָ֖'
+  - where: 'note 68:18 “Received gifts, and gave them”'
+    claim: 'The Hebrew verb is “thou hast taken (received)”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לָקַ֣חְתָּ'
+  - where: 'note 68:18 “Received gifts, and gave them”'
+    claim: 'A modern translation has “leading captives”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: 'leading captives in your train'
+  - where: 'note 68:18 “Received gifts, and gave them”'
+    claim: 'and “receiving gifts from people”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: 'and receiving gifts from people,'
+  - where: 'note 68:18 “Received gifts, and gave them”'
+    claim: 'The Greek has “received gifts for man”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/68.htm'
+    quote: 'thou hast led captivity captive, thou hast received gifts for man'
+  - where: 'note 68:18 “Received gifts, and gave them”'
+    claim: 'One reading: the gifts are received among men'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'These He has received among men'
+  - where: 'note 68:18 “Received gifts, and gave them”'
+    claim: 'The gifts are homage like a victor’s tribute'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'receives gifts like to the tribute which the vanquished bring to the victor'
+  - where: 'note 68:18 “Received gifts, and gave them”'
+    claim: 'Paul does not follow the Greek version'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'Paul (Ephesians 4:8) gathers up the meaning of Psalm 68:19, without following the lxx'
+  - where: 'note 68:18 “Received gifts, and gave them”'
+    claim: 'It is asked whether Paul had the Targum (an Aramaic paraphrase) in mind'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'Might he perhaps have had the Targum, with which the Syriac version agrees, in his mind at the time'
+  - where: 'note 68:18 “Received gifts, and gave them”'
+    claim: 'Paul interprets by the fulfilment'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'He interprets in the light and in the sense of the history that realizes it'
+  - where: 'note 68:18 “Received gifts, and gave them”'
+    claim: 'What the Victor gained He gained for men'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'He has gained not for His own aggrandisement, but for the interests of men'
+  - where: 'note 68:18 “Received gifts, and gave them”'
+    claim: 'The gifts are distributed among men'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'gifts which He now distributes among men'
+  - where: 'note 68:18 “Received gifts, and gave them”'
+    claim: 'Paul’s wording, with “gave”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/eph/4?lang=eng'
+    quote: 'Wherefore he saith, When he ascended up on high, he led captivity captive, and gave gifts unto men.'
+  - where: 'note 68:18 “Received gifts, and gave them”'
+    claim: 'D&C 88:6 speaks of Jesus Christ, named in verse 5'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'through Jesus Christ his Son'
+
+  # ---- note 68:20 ----
+  - where: 'note 68:20 “Escapes from death”'
+    claim: 'The noun behind “issues”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תּוֹצָאֽוֹת'
+  - where: 'note 68:20 “Escapes from death”'
+    claim: 'It means an outgoing'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8444.htm'
+    quote: 'noun feminine outgoing, extremity, source (?),escape; only plural'
+  - where: 'note 68:20 “Escapes from death”'
+    claim: 'The lexicon’s gloss for this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8444.htm'
+    quote: 'escapes from (literally for, i.e. in view of) death'
+  - where: 'note 68:20 “Escapes from death”'
+    claim: 'A modern translation has “escape from death”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: 'and to God, the Lord, belongs escape from death.'
+  - where: 'note 68:20 “Escapes from death”'
+    claim: 'The word behind “salvation” in this verse is plural'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְֽ/מוֹשָׁ֫ע֥וֹת'
+  - where: 'note 68:20 “Escapes from death”'
+    claim: 'It is glossed “saving acts”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4190.htm'
+    quote: 'saving acts Psalm 68:21'
+
+  # ---- note 68:22 ----
+  - where: 'note 68:22 “Whom the Lord brings back”'
+    claim: 'The Hebrew verb “I will bring back” stands twice with no object'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אָשִׁ֑יב'
+  - where: 'note 68:22 “Whom the Lord brings back”'
+    claim: 'A modern translation supplies “them”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: 'I will bring them back from Bashan;'
+  - where: 'note 68:22 “Whom the Lord brings back”'
+    claim: 'Jewish captives after the destruction of Jerusalem are said to have taken the verse of Israel'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'When after the destruction of Jerusalem a ship set sail for Rome with a freight of distinguished and well-formed captives'
+  - where: 'note 68:22 “Whom the Lord brings back”'
+    claim: 'They took it as a promise to Israel'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'They therefore took Psalm 68:23 to be a promise which has Israel as its object'
+  - where: 'note 68:22 “Whom the Lord brings back”'
+    claim: 'The other reading: the purpose clause shows the foes are meant'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'show that the foes of Israel are conceived of as its object'
+  - where: 'note 68:22 “Whom the Lord brings back”'
+    claim: 'God fetches them from the remotest hiding places'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'Even if these have hidden themselves in the most out-of-the-way places, God will fetch them back'
+
+  # ---- note 68:24 ----
+  - where: 'note 68:24 “A procession into the sanctuary”'
+    claim: 'The noun behind “goings”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הֲלִיכוֹתֶ֣י/ךָ'
+  - where: 'note 68:24 “A procession into the sanctuary”'
+    claim: 'It means a going, way, travelling-company'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1979.htm'
+    quote: 'noun feminine a going, way, travelling-company'
+  - where: 'note 68:24 “A procession into the sanctuary”'
+    claim: 'The lexicon’s sense for this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1979.htm'
+    quote: 'of going, marching, progress of God into the sanctuary'
+  - where: 'note 68:24 “A procession into the sanctuary”'
+    claim: 'It may refer to processions of worshippers'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1979.htm'
+    quote: 'reference either to solemn processions of worshippers'
+  - where: 'note 68:24 “A procession into the sanctuary”'
+    claim: 'or to the progress of God Himself'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1979.htm'
+    quote: 'to the theophanic progress of God himself'
+  - where: 'note 68:24 “A procession into the sanctuary”'
+    claim: 'A modern translation has “processions … into the sanctuary”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: 'the processions of my God, my King, into the sanctuary'
+  - where: 'note 68:24 “A procession into the sanctuary”'
+    claim: 'The same translation prints verse 26 as quoted speech'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: 'Bless God in the great congregation,'
+  - where: 'note 68:24 “A procession into the sanctuary”'
+    claim: 'Psalm 68 is listed among psalms designed for antiphonal dialogue, call and response'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'These psalms are clearly designed for antiphonal dialogue in a way that worshippers could respond to the call of a priest, or the Levites could perform a song in a call and response fashion'
+
+  # ---- note 68:31 ----
+  - where: 'note 68:31 “Egypt and Cush come to God”'
+    claim: 'The Hebrew has Cush'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כּ֥וּשׁ'
+  - where: 'note 68:31 “Egypt and Cush come to God”'
+    claim: 'Where Ethiopia or Cush lay'
+    key: bd-ethiopia
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ethiopia?lang=eng'
+    quote: 'Extended from Syene on the frontier of Egypt southward to the neighborhood of Khartoum'
+  - where: 'note 68:31 “Egypt and Cush come to God”'
+    claim: 'The word behind “Princes”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַ֭שְׁמַנִּים'
+  - where: 'note 68:31 “Egypt and Cush come to God”'
+    claim: 'It occurs only here and its meaning is unknown'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2831.htm'
+    quote: 'meaning unknown'
+  - where: 'note 68:31 “Egypt and Cush come to God”'
+    claim: 'The Greek has “Ambassadors”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/68.htm'
+    quote: 'Ambassadors shall arrive out of Egypt; Ethiopia shall hasten to stretch out her hand readily to God.'
+  - where: 'note 68:31 “Egypt and Cush come to God”'
+    claim: 'A modern translation has bronze'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2068&version=NRSVUE'
+    quote: 'Let bronze be brought from Egypt;'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'The Church’s chapter heading calls the psalm messianic'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/68?lang=eng'
+    quote: 'A messianic psalm of David'
+  - where: 'christ'
+    claim: 'Paul quotes verse 18 and goes on to the descent'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/eph/4?lang=eng'
+    quote: 'Now that he ascended, what is it but that he also descended first into the lower parts of the earth?'
+  - where: 'christ'
+    claim: 'JAH is the short form of the divine name'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3050.htm'
+    quote: 'proper name, of deity contracted from'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'Deuteronomy 33:26 is set beside the rider of verse 33'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/68.htm'
+    quote: 'God is said to ride along in the primeval heavens of the heavens (Deuteronomy 33:26)'
+  - where: 'explore'
+    claim: 'Numbers 10:36 is the second saying of Moses, when the ark rested'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/10?lang=eng'
+    quote: 'And when it rested, he said, Return, O Lord, unto the many thousands of Israel.'
+
+  # ---- parallels ----
+  - where: 'parallels'
+    claim: 'D&C 88:6 speaks of Jesus Christ, named in verse 5'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'through Jesus Christ his Son'
