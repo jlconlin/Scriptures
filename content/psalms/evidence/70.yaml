@@ -1,0 +1,346 @@
+chapter: 70
+claims:
+  # ---- when / setting ----
+  - where: 'when'
+    claim: 'The title ascribes the psalm to David and names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/70?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David, to bring to remembrance.'
+  - where: 'setting'
+    claim: 'The title ascribes the psalm to David and names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/70?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David, to bring to remembrance.'
+  - where: 'setting'
+    claim: 'The five verses are nearly Psalm 40:13–17'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/40?lang=eng'
+    quote: 'Be pleased, O Lord, to deliver me: O Lord, make haste to help me.'
+  - where: 'setting'
+    claim: 'One older reading: the verses were detached from Psalm 40 and its divine names changed'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/70.htm'
+    quote: 'This portion of the second half of Psalm 40 is detached from it and converted into the Elohimic style.'
+  - where: 'setting'
+    claim: 'The same reading: the original psalm was modified and put to a liturgical use (the source makes David’s authorship of the original a condition, “if he composed”)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/70.htm'
+    quote: 'if he composed the original Psalm which is here modified and appropriated to a special liturgical use'
+  - where: 'setting'
+    claim: 'The same reading: it stands after Psalm 69 because the two are alike, above all its last verse and Psalm 69:29 (69:30 in the Hebrew numbering)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/70.htm'
+    quote: 'placed after Psalm 69 on account of the kindred nature of its contents (cf. more especially v. 6 with Psalm 69:30)'
+  - where: 'setting'
+    claim: 'Psalm 69:29 has “But I am poor and sorrowful”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/69?lang=eng'
+    quote: 'But I am poor and sorrowful: let thy salvation, O God, set me up on high.'
+  - where: 'setting'
+    claim: 'Psalm 71:12–13 has the plea for haste and the wish against those who seek his hurt'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/71?lang=eng'
+    quote: 'O God, be not far from me: O my God, make haste for my help.'
+  - where: 'setting'
+    claim: 'Psalm 71:13 wishes confusion on those “that seek my hurt”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/71?lang=eng'
+    quote: 'let them be covered with reproach and dishonour that seek my hurt'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'The imperative “make haste” is the last Hebrew word of verse 1 (H2363)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֽוּשָֽׁ/ה'
+  - where: 'thread'
+    claim: 'The same imperative stands in verse 5 (H2363)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֽוּשָׁ֫/ה'
+  - where: 'thread'
+    claim: 'The verb of “make no tarrying” means to delay'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/309.htm'
+    quote: '1 intensive, delay, tarry, absolute Judges 5:28'
+  - where: 'thread'
+    claim: 'Psalm 40:17 has “yet the Lord thinketh upon me” where Psalm 70:5 has a plea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/40?lang=eng'
+    quote: 'But I am poor and needy; yet the Lord thinketh upon me: thou art my help and my deliverer; make no tarrying, O my God.'
+
+  # ---- sections ----
+  - where: 'section 2 plain'
+    claim: '“Seek after my soul” is to seek his life'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2070&version=NRSVUE'
+    quote: 'who seek my life.'
+  - where: 'section 2 plain'
+    claim: '“For a reward of their shame” is “because of their shame”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2070&version=NRSVUE'
+    quote: 'turn back because of their shame.'
+
+  # ---- note 70:0 ----
+  - where: 'note 70:0 “A remembrance, and in the Greek a plea”'
+    claim: 'The phrase is one Hebrew verb form (the causative infinitive of “remember,” H2142)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ/הַזְכִּֽיר'
+  - where: 'note 70:0 “A remembrance, and in the Greek a plea”'
+    claim: 'The form stands in two psalm titles, 38 and 70, and the lexicon suggests “commemorate, praise” for it, while noting that others take it of sacrifice'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2142.htm'
+    quote: 'd. absolute commemorate, praise 1 Chronicles 16:4 (׳לְהַז, apparently Levitical function, followed by ולהודות ולהלל ליהוה), so perhaps also לְהַזְכִּיר in titles Psalm 38:1; Psalm 70:1 (others below 5).'
+  - where: 'note 70:0 “A remembrance, and in the Greek a plea”'
+    claim: 'The Greek title runs on into a plea for rescue'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/70.htm'
+    quote: 'For the end, by David for a remembrance, that the Lord may save me. Draw nigh, O God, to my help.'
+  - where: 'note 70:0 “A remembrance, and in the Greek a plea”'
+    claim: 'The title as the Church’s edition prints it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/70?lang=eng'
+    quote: 'To the chief Musician, A Psalm of David, to bring to remembrance.'
+
+  # ---- note 70:1 ----
+  - where: 'note 70:1 “The end of Psalm 40, standing alone”'
+    claim: 'Psalm 40:13 opens with “Be pleased,” and has LORD twice'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/40?lang=eng'
+    quote: 'Be pleased, O Lord, to deliver me: O Lord, make haste to help me.'
+  - where: 'note 70:1 “The end of Psalm 40, standing alone”'
+    claim: 'The Hebrew of Psalm 40:13 begins with the imperative “be pleased” (H7521), which Psalm 70:1 does not have'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רְצֵ֣ה'
+  - where: 'note 70:1 “The end of Psalm 40, standing alone”'
+    claim: 'Verse 1 in Hebrew has five words and one finite verb, the imperative “hasten” (H2363), which is its last word; “to deliver me” is an infinitive (H5337)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֽוּשָֽׁ/ה'
+  - where: 'note 70:1 “The end of Psalm 40, standing alone”'
+    claim: '“To deliver me” in verse 1 is an infinitive with no verb before it (H5337)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ/הַצִּילֵ֑/נִי'
+  - where: 'note 70:1 “The end of Psalm 40, standing alone”'
+    claim: 'A modern translation supplies Psalm 40’s “Be pleased” in verse 1'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2070&version=NRSVUE'
+    quote: '1 Be pleased, O God, to deliver me.'
+  - where: 'note 70:1 “The end of Psalm 40, standing alone”'
+    claim: 'Psalm 70 has “God” (Elohim, H430) three times, in verses 1, 4 and 5; the form quoted is verse 5’s'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֱלֹהִ֪ים'
+  - where: 'note 70:1 “The end of Psalm 40, standing alone”'
+    claim: 'Psalm 70:1 and 70:5 keep the divine name (LORD), twice in all'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/70?lang=eng'
+    quote: 'Make haste, O God, to deliver me; make haste to help me, O Lord.'
+  - where: 'note 70:1 “The end of Psalm 40, standing alone”'
+    claim: 'Psalm 40:16 has “The LORD be magnified” where Psalm 70:4 has “Let God be magnified”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/40?lang=eng'
+    quote: 'let such as love thy salvation say continually, The Lord be magnified.'
+  - where: 'note 70:1 “The end of Psalm 40, standing alone”'
+    claim: 'Psalm 40:17 has “the Lord” (adonai, H136) and ends “O my God”; Psalm 70:5 has “O God” and ends “O LORD”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/40?lang=eng'
+    quote: 'But I am poor and needy; yet the Lord thinketh upon me: thou art my help and my deliverer; make no tarrying, O my God.'
+  - where: 'note 70:1 “The end of Psalm 40, standing alone”'
+    claim: '“The Lord” in Psalm 40:17 is the title adonai (H136), not the divine name'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲדֹנָ֪/י'
+  - where: 'note 70:1 “The end of Psalm 40, standing alone”'
+    claim: 'Psalm 70:5 ends with the divine name'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/70?lang=eng'
+    quote: 'But I am poor and needy: make haste unto me, O God: thou art my help and my deliverer; O Lord, make no tarrying.'
+  - where: 'note 70:1 “The end of Psalm 40, standing alone”'
+    claim: 'Psalm 53 has “God” where Psalm 14 has “The LORD” (verse 2 of each)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/53?lang=eng'
+    quote: 'God looked down from heaven upon the children of men, to see if there were any that did understand, that did seek God.'
+  - where: 'note 70:1 “The end of Psalm 40, standing alone”'
+    claim: 'Psalm 14:2 has “The LORD looked down”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/14?lang=eng'
+    quote: 'The Lord looked down from heaven upon the children of men, to see if there were any that did understand, and seek God.'
+
+  # ---- note 70:2 ----
+  - where: 'note 70:2 “Two kinds of seekers and what each says”'
+    claim: 'The participle “that seek” in verse 2 is from the verb H1245'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מְבַקְשֵׁ֪י'
+  - where: 'note 70:2 “Two kinds of seekers and what each says”'
+    claim: '“Those that seek thee” in verse 4 is the same participle of the same verb (H1245)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מְבַ֫קְשֶׁ֥י/ךָ'
+  - where: 'note 70:2 “Two kinds of seekers and what each says”'
+    claim: '“That say” in verse 3 is from the verb H559'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הָ֝/אֹמְרִ֗ים'
+  - where: 'note 70:2 “Two kinds of seekers and what each says”'
+    claim: '“Let … say” in verse 4 is from the same verb (H559)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/יֹאמְר֣וּ'
+  - where: 'note 70:2 “Two kinds of seekers and what each says”'
+    claim: '“Seek after my soul” is rendered “seek my life” in a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2070&version=NRSVUE'
+    quote: 'who seek my life.'
+  - where: 'note 70:2 “Two kinds of seekers and what each says”'
+    claim: 'A modern translation renders “Let God be magnified” as “God is great!”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2070&version=NRSVUE'
+    quote: 'say evermore, “God is great!”'
+  - where: 'note 70:2 “Two kinds of seekers and what each says”'
+    claim: 'Psalm 35:27 has the same saying of the speaker’s friends'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/35?lang=eng'
+    quote: 'yea, let them say continually, Let the Lord be magnified, which hath pleasure in the prosperity of his servant.'
+
+  # ---- note 70:3 ----
+  - where: 'note 70:3 “Aha is pleasure at another’s fall”'
+    claim: 'The Hebrew word is an interjection of joy, always introduced by “say”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1889.htm'
+    quote: 'interjection (onomatopoetic) expressing joy, Aha! always introduced by אָמַר'
+  - where: 'note 70:3 “Aha is pleasure at another’s fall”'
+    claim: 'In the Psalms it is satisfaction at an enemy’s misfortune'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1889.htm'
+    quote: 'Of satisfaction over the misfortune of an enemy or rival, Psalm 35:21'
+  - where: 'note 70:3 “Aha is pleasure at another’s fall”'
+    claim: 'Psalm 35:21 gives the mockers’ words in full'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/35?lang=eng'
+    quote: 'Yea, they opened their mouth wide against me, and said, Aha, aha, our eye hath seen it.'
+  - where: 'note 70:3 “Aha is pleasure at another’s fall”'
+    claim: 'Psalm 40:15 has “desolate” and “say unto me”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/40?lang=eng'
+    quote: 'Let them be desolate for a reward of their shame that say unto me, Aha, aha.'
+  - where: 'note 70:3 “Aha is pleasure at another’s fall”'
+    claim: 'The verb of Psalm 70:3 is “turn back” (H7725)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָ֭שׁוּבוּ'
+  - where: 'note 70:3 “Aha is pleasure at another’s fall”'
+    claim: 'The verb of Psalm 40:15 is a different one (H8074, “be desolate”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָ֭שֹׁמּוּ'
+  - where: 'note 70:3 “Aha is pleasure at another’s fall”'
+    claim: 'The word behind “reward” means consequence here'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6118.htm'
+    quote: 'according to the consequence of their shame, i.e. in consequence of the disgrace falling upon them'
+  - where: 'note 70:3 “Aha is pleasure at another’s fall”'
+    claim: 'A modern translation: “because of their shame”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2070&version=NRSVUE'
+    quote: 'turn back because of their shame.'
+
+  # ---- note 70:5 ----
+  - where: 'note 70:5 “Poor and needy, and still asking”'
+    claim: 'The first word means poor, weak, afflicted, and is used of the faithful afflicted by the wicked'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6041.htm'
+    quote: '3 poor, weak, afflicted Israel, or pious in Israel afflicted by wicked nations or the wicked in Israel itself'
+  - where: 'note 70:5 “Poor and needy, and still asking”'
+    claim: 'The second word is one who needs help and deliverance, especially as God delivers'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/34.htm'
+    quote: 'needing help, deliverance from trouble, especially as delivered by God'
+  - where: 'note 70:5 “Poor and needy, and still asking”'
+    claim: 'The pair stands in other psalms, among them Psalm 86:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/86?lang=eng'
+    quote: 'Bow down thine ear, O Lord, hear me: for I am poor and needy.'
+  - where: 'note 70:5 “Poor and needy, and still asking”'
+    claim: 'The lexicon lists the pair in the Psalms (Hebrew verse numbers)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6041.htm'
+    quote: 'עני ואביון Psalm 35:10; Psalm 37:14; Psalm 40:18 = Psalm 70:6; Psalm 74:21; Psalm 86:1'
+  - where: 'note 70:5 “Poor and needy, and still asking”'
+    claim: 'Psalm 40:17 follows the words with a statement of trust'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/40?lang=eng'
+    quote: 'But I am poor and needy; yet the Lord thinketh upon me: thou art my help and my deliverer; make no tarrying, O my God.'
+  - where: 'note 70:5 “Poor and needy, and still asking”'
+    claim: 'The imperative of verse 5 is the one that ends verse 1 (H2363)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֽוּשָׁ֫/ה'
+  - where: 'note 70:5 “Poor and needy, and still asking”'
+    claim: 'The lexicon lists this imperative in the Psalms with “to my help” and with “to me” (Hebrew verse numbers; the page prints the book name wrongly)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2363.htm'
+    quote: 'especially Imperative 1 Samuel 20:38'
+  - where: 'note 70:5 “Poor and needy, and still asking”'
+    claim: 'The verb of “make no tarrying” means delay'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/309.htm'
+    quote: '1 intensive, delay, tarry, absolute Judges 5:28'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'Jehovah is the covenant name of the God of Israel and is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: 'christ'
+    claim: 'Jehovah is the covenant name of the God of Israel'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'The covenant or proper name of the God of Israel.'
+  - where: 'christ'
+    claim: '“LORD” in the Old Testament usually means Jehovah'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Usually, when the word Lord appears in the Old Testament, it means'
+  - where: 'christ'
+    claim: 'The divine name stands in verses 1 and 5'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/70?lang=eng'
+    quote: 'thou art my help and my deliverer; O Lord, make no tarrying.'
+  - where: 'christ'
+    claim: 'Hebrews 10:5 introduces Psalm 40:6–8 as words of Christ'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/10?lang=eng'
+    quote: 'Wherefore when he cometh into the world, he saith, Sacrifice and offering thou wouldest not, but a body hast thou prepared me:'
+  - where: 'christ'
+    claim: 'The words Hebrews quotes are Psalm 40:6–8, the middle of that psalm and not its closing plea (verses 13–17)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/40?lang=eng'
+    quote: 'Sacrifice and offering thou didst not desire; mine ears hast thou opened: burnt offering and sin offering hast thou not required.'
+
+  # ---- explore / parallels ----
+  - where: 'explore'
+    claim: 'Psalm 38:22 has the same plea for haste'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/38?lang=eng'
+    quote: 'Make haste to help me, O Lord my salvation.'
+  - where: 'explore'
+    claim: 'Psalm 71:12 has the same plea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/71?lang=eng'
+    quote: 'O God, be not far from me: O my God, make haste for my help.'
+  - where: 'parallels'
+    claim: 'Psalm 35 has the mockers’ “Aha, aha” and the friends’ “Let the LORD be magnified”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/35?lang=eng'
+    quote: 'Yea, they opened their mouth wide against me, and said, Aha, aha, our eye hath seen it.'
+  - where: 'parallels'
+    claim: 'Psalm 71:12–13 repeats the plea and the wish'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/71?lang=eng'
+    quote: 'Let them be confounded and consumed that are adversaries to my soul'
