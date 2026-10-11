@@ -26,12 +26,6 @@ claims:
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'אֱ֭לֹהִים'
-  - where: setting
-    claim: 'The next psalm calls God the rock and the refuge'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/62?lang=eng'
-    quote: 'In God is my salvation and my glory: the rock of my strength, and my refuge, is in God.'
-
   # ---------- thread ----------
   - where: thread
     claim: 'The verb of “Hear” in verse 1 is the verb of “hast heard” in verse 5 (Strong’s 8085 in both)'
@@ -56,7 +50,7 @@ claims:
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2061&version=NRSVUE'
     quote: 'when my heart is faint.'
   - where: section 2 plain
-    claim: 'Verse 4 is rendered as a request, with “tent” for “tabernacle” and “shelter” for “covert”'
+    claim: 'A modern translation has “tent” for “tabernacle” in verse 4'
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2061&version=NRSVUE'
     quote: 'Let me abide in your tent forever'
@@ -142,11 +136,6 @@ claims:
     key: bdb
     url: 'https://biblehub.com/hebrew/6697.htm'
     quote: 'place of security 1 Chronicles 11:15'
-  - where: 'note 61:2 “A rock higher than the speaker”'
-    claim: 'The verb behind “higher” is “be high,” said here of a literal rock used figuratively, with the preposition of comparison'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/7311.htm'
-    quote: 'be high, literal rock (in figurative) Psalm 61:3'
   - where: 'note 61:2 “A rock higher than the speaker”'
     claim: 'The verb behind “overwhelmed” means to be feeble or to faint'
     key: bdb
