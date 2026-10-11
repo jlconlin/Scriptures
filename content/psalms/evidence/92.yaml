@@ -1,0 +1,475 @@
+chapter: 92
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title names no author and gives the psalm to the Sabbath day'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/92?lang=eng'
+    quote: 'A psalm or song for the Sabbath day'
+  - where: setting
+    claim: 'The word Sabbath occurs once in the Hebrew text of Psalms, in this title (hebrew.mjs psalms --word 7676: 1 occurrence)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַ/שַּׁבָּֽת'
+  - where: setting
+    claim: 'Psalms 90–106 are a section that begins with the prayer of Moses, and many of its psalms describe a day of rest under the Messiah’s reign'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'Psalms 90–106: This section begins with Moses’s prayer for the Lord to have mercy on straying Israel. Many of these psalms describe the millennial day when Israel will find rest under the Messiah’s reign.'
+  - where: setting
+    claim: 'Psalm 90 is headed as a prayer of Moses'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/90?lang=eng'
+    quote: 'A prayer of Moses, the man of God'
+  - where: setting
+    claim: 'Psalm 92 is counted among the songs of thanksgiving, sung after deliverance and usually with a sacrifice at the temple'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'These psalms reflect the gratitude of an individual or community after they have been delivered from a trial by God: 18, 30, 34, 40, 66, 92, 116, 118, and 138. This gratitude typically would have been demonstrated with a sacrifice at the temple'
+  - where: setting
+    claim: 'The Church’s edition joins verse 1 to D&C 59:7'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/92?lang=eng'
+    quote: 'D&C 59:7'
+  - where: setting
+    claim: 'Latter-day revelation gives the Sabbath law in D&C 59'
+    key: bd-sabbath
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sabbath?lang=eng'
+    quote: 'Latter-day revelation confirms the significance of the Sabbath (or Lord’s day) in D&C 59.'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'Verse 3 has the Hebrew words for “ten” and the psaltery that Psalm 33:2 has'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עָ֭שׂוֹר'
+  - where: thread
+    claim: '“Solemn sound” in verse 3 is the word Higgaion, which stands in Psalm 9:16'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הִגָּי֣וֹן'
+  - where: thread
+    claim: '“Lovingkindness” in verse 2 is hesed'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַסְֽדֶּ֑/ךָ'
+  - where: thread
+    claim: 'Verse 8 has four Hebrew words, the fewest of any verse in the psalm'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מָר֗וֹם'
+  - where: thread
+    claim: 'The verb for the wicked in verse 7 is the verb for the righteous in verses 12 and 13'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6524.htm'
+    quote: 'of righteous Psalm 72:7; Psalm 92:13; Proverbs 11:28; of wicked'
+
+  # ---------- sections ----------
+  - where: 'section 1 plain'
+    claim: 'Verse 4: “I sing for joy” for the King James “I will triumph”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2092&version=NRSVUE'
+    quote: 'at the works of your hands I sing for joy.'
+  - where: 'section 2 plain'
+    claim: 'Verse 7: the wicked sprout like grass; verse 8: the LORD is on high for ever'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2092&version=NRSVUE'
+    quote: 'though the wicked sprout like grass'
+  - where: 'section 2 plain'
+    claim: 'Verse 7: both verbs are of plants sprouting and blossoming'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6524.htm'
+    quote: 'bud, sprout, send out shoots'
+  - where: 'section 3 plain'
+    claim: 'Verses 10–11 as past: the horn exalted, the oil given, the eyes having seen; “wild ox” for unicorn'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2092&version=NRSVUE'
+    quote: 'But you have exalted my horn like that of the wild ox'
+  - where: 'section 3 plain'
+    claim: 'Verse 11 has “has looked,” “my eye,” and no word for desire'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַ/תַּבֵּ֥ט'
+  - where: 'section 4 plain'
+    claim: 'Verse 14: full of sap and green for the King James “fat and flourishing”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2092&version=NRSVUE'
+    quote: 'they are always green and full of sap'
+
+  # ---------- note 92:0 ----------
+  - where: 'note 92:0 “The psalm for the Sabbath day”'
+    claim: 'The Hebrew title is “a psalm, a song, for the day of the Sabbath”; the word Sabbath occurs only here in Psalms'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַ/שַּׁבָּֽת'
+  - where: 'note 92:0 “The psalm for the Sabbath day”'
+    claim: 'A modern translation divides the title in two'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2092&version=NRSVUE'
+    quote: 'A Psalm. A Song for the Sabbath Day.'
+  - where: 'note 92:0 “The psalm for the Sabbath day”'
+    claim: 'The Greek title names the Sabbath day too'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/92.htm'
+    quote: 'A Psalm of a Song for the Sabbath-day.'
+  - where: 'note 92:0 “The psalm for the Sabbath day”'
+    claim: 'The Talmud is cited for a list of psalms for each day of the week, Psalm 92 on the Sabbath'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'The Talmud even indicated that certain psalms were sung on each day of the week: Sunday, Psalm 24; Monday, Psalm 48; Tuesday, Psalm 82; Wednesday, Psalm 94; Thursday, Psalm 81; Friday, Psalm 93; and Saturday (the Sabbath), Psalm 92.'
+  - where: 'note 92:0 “The psalm for the Sabbath day”'
+    claim: 'It was the Sabbath psalm of the service after the exile, sung in the morning at the drink offering of the first daily lamb'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/92.htm'
+    quote: 'was the Sabbath-Psalm among the week''s Psalms of the post-exilic service (cf. pp. 18, 211); and was sung in the morning at the drink-offering of the first'
+  - where: 'note 92:0 “The psalm for the Sabbath day”'
+    claim: 'On the Sabbath the daily sacrifices were doubled'
+    key: bd-sabbath
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sabbath?lang=eng'
+    quote: 'On the Sabbath the daily sacrifices were doubled'
+  - where: 'note 92:0 “The psalm for the Sabbath day”'
+    claim: 'The Talmud disputes whether the title means the Sabbath of Creation or the final Sabbath; the commentary prefers the second'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/92.htm'
+    quote: 'whether it relates to the Sabbath of the Creation (R. Nehemiah, as it is taken by the Targum) or to the final Sabbath of the world''s history (R. Akiba: the day that is altogether Sabbath'
+  - where: 'note 92:0 “The psalm for the Sabbath day”'
+    claim: 'The commentary’s judgment and its ground: the psalm looks to the final issue'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/92.htm'
+    quote: 'The latter is relatively more correct.'
+  - where: 'note 92:0 “The psalm for the Sabbath day”'
+    claim: 'The ground of that judgment'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/92.htm'
+    quote: 'calms itself, in the face of the flourishing condition of the evil-doers, with the prospect of the final issue, which will brilliantly vindicate the righteousness of God'
+
+  # ---------- note 92:1 ----------
+  - where: 'note 92:1 “Thanks and the Lord’s day in Doctrine and Covenants 59”'
+    claim: 'The footnote on “thanks” in verse 1 is to D&C 59:7'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/92?lang=eng'
+    quote: 'D&C 59:7'
+  - where: 'note 92:1 “Thanks and the Lord’s day in Doctrine and Covenants 59”'
+    claim: 'D&C 59 appoints the day for devotions to the Most High and asks for thanksgiving and glad hearts'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/59?lang=eng'
+    quote: 'For verily this is a day appointed unto you to rest from your labors, and to pay thy devotions unto the Most High;'
+  - where: 'note 92:1 “Thanks and the Lord’s day in Doctrine and Covenants 59”'
+    claim: 'D&C 59 is the latter-day revelation on the Sabbath'
+    key: bd-sabbath
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sabbath?lang=eng'
+    quote: 'Latter-day revelation confirms the significance of the Sabbath (or Lord’s day) in D&C 59.'
+
+  # ---------- note 92:4 ----------
+  - where: 'note 92:4 “Which works make him glad”'
+    claim: '“The works of thy hands” in verse 4 is the phrase of Psalm 8:6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/מַעֲשֵׂ֣י'
+  - where: 'note 92:4 “Which works make him glad”'
+    claim: 'The lexicon lists this verse among the works of the LORD, especially in deliverance and judgment'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4639.htm'
+    quote: 'especially in deliverance and in judgment'
+  - where: 'note 92:4 “Which works make him glad”'
+    claim: 'The Sabbath commemorated the Creation and the redemption from Egypt, and was symbolic of God’s mighty works'
+    key: bd-sabbath
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sabbath?lang=eng'
+    quote: 'Instituted to commemorate God’s seventh day of rest at the Creation (Ex. 20:10–11), and also the redemption from Egyptian bondage (Deut. 5:15).'
+  - where: 'note 92:4 “Which works make him glad”'
+    claim: 'The Sabbath was symbolic of the mighty works of God'
+    key: bd-sabbath
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sabbath?lang=eng'
+    quote: 'the Sabbath was symbolic of the mighty works of God'
+  - where: 'note 92:4 “Which works make him glad”'
+    claim: 'Psalm 90:14 has “in the morning” and hesed, the words of Psalm 92:2'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַ/בֹּ֣קֶר'
+  - where: 'note 92:4 “Which works make him glad”'
+    claim: 'Psalm 90:14 “mercy” is the word translated “lovingkindness” in Psalm 92:2 (H2617)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַסְדֶּ֑/ךָ'
+  - where: 'note 92:4 “Which works make him glad”'
+    claim: 'Psalm 90:16 “thy work” is the noun of Psalm 92:4 (H6467)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פָעֳלֶ֑/ךָ'
+  - where: 'note 92:4 “Which works make him glad”'
+    claim: '“I will triumph” in Psalm 92:4 is the verb of “rejoice” in Psalm 90:14 (H7442)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲרַנֵּֽן'
+  - where: 'note 92:4 “Which works make him glad”'
+    claim: '“Made me glad” in Psalm 92:4 is the verb of “be glad” in Psalm 90:14 (H8055)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שִׂמַּחְתַּ֣/נִי'
+  - where: 'note 92:4 “Which works make him glad”'
+    claim: 'Psalm 90 is the prayer of Moses'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/90?lang=eng'
+    quote: 'A prayer of Moses, the man of God'
+
+  # ---------- note 92:6 ----------
+  - where: 'note 92:6 “What the fool does not understand”'
+    claim: 'A modern translation ends verse 6 with a colon and runs on into verse 7'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2092&version=NRSVUE'
+    quote: 'the stupid cannot understand this:'
+  - where: 'note 92:6 “What the fool does not understand”'
+    claim: 'Its verse 7'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2092&version=NRSVUE'
+    quote: 'though the wicked sprout like grass'
+  - where: 'note 92:6 “What the fool does not understand”'
+    claim: 'Its verse 7, end'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2092&version=NRSVUE'
+    quote: 'they are doomed to destruction forever'
+  - where: 'note 92:6 “What the fool does not understand”'
+    claim: 'The noun behind “brutish” is “brutishness,” and it is the predicate in Psalm 73:22'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1198.htm'
+    quote: 'noun masculine brutishness (only in poetry)'
+  - where: 'note 92:6 “What the fool does not understand”'
+    claim: 'The lexicon lists Psalm 73:22 under the same word'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1198.htm'
+    quote: 'as predicate = adjective, Psalm 73:22'
+  - where: 'note 92:6 “What the fool does not understand”'
+    claim: 'Psalm 73:22 “foolish” is the word of Psalm 92:6 (H1198)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַ֭עַר'
+  - where: 'note 92:6 “What the fool does not understand”'
+    claim: '“Spring” in verse 7 is a verb for budding and sending out shoots, used here of the wicked'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6524.htm'
+    quote: 'bud, sprout, send out shoots'
+  - where: 'note 92:6 “What the fool does not understand”'
+    claim: '“Flourish” in verse 7 is the verb used of grass in Psalm 90:6'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6692.htm'
+    quote: 'Psalm 90:6 (of grass'
+  - where: 'note 92:6 “What the fool does not understand”'
+    claim: 'Psalm 90:6 “flourisheth” (H6692), the verb of Psalm 92:7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָצִ֣יץ'
+  - where: 'note 92:6 “What the fool does not understand”'
+    claim: 'Psalm 90 is the prayer of Moses'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/90?lang=eng'
+    quote: 'A prayer of Moses, the man of God'
+
+  # ---------- note 92:8 ----------
+  - where: 'note 92:8 “The line at the centre”'
+    claim: 'Verse 8 has four Hebrew words; “most high” is the noun marom'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מָר֗וֹם'
+  - where: 'note 92:8 “The line at the centre”'
+    claim: '“Most High” in verse 1 is a different word, Elyon'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עֶלְיֽוֹן'
+  - where: 'note 92:8 “The line at the centre”'
+    claim: 'The divine name is written seven times in the psalm, in verses 1, 4, 5, 8, 9, 13 and 15 (hebrew.mjs psalms --word 3068)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְהוָֽה'
+  - where: 'note 92:8 “The line at the centre”'
+    claim: 'The noun is used alone for the height of heaven, and as a predicate of the LORD in this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4791.htm'
+    quote: 'alone = height of heaven'
+  - where: 'note 92:8 “The line at the centre”'
+    claim: 'A modern translation has “on high forever”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2092&version=NRSVUE'
+    quote: 'are on high forever'
+  - where: 'note 92:8 “The line at the centre”'
+    claim: 'The commentary: the psalm repeats the divine name seven times, and in its division into five stanzas (6, 6, 7, 6, 6) the middle one bears the Sabbath number'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/92.htm'
+    quote: 'Only the Sabbath-Psalm (and not Psalm 91) repeats the most sacred Name seven times. And certainly the unmistakeable strophe-schema too, 6. 6. 7. 6. 6, is not without significance. The middle of the Psalm bears the stamp of the sabbatic number.'
+
+  # ---------- note 92:10 ----------
+  - where: 'note 92:10 “Fresh oil, and a deliverance already given”'
+    claim: 'A modern translation reads verse 10 as past'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2092&version=NRSVUE'
+    quote: 'But you have exalted my horn like that of the wild ox'
+  - where: 'note 92:10 “Fresh oil, and a deliverance already given”'
+    claim: 'Its second line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2092&version=NRSVUE'
+    quote: 'you have anointed me with fresh oil'
+  - where: 'note 92:10 “Fresh oil, and a deliverance already given”'
+    claim: 'The verb means to mix and is the sacrificial term for mixing with oil'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1101.htm'
+    quote: 'mix (cakes or flour, etc. always with oil) technical term of sacrifice'
+  - where: 'note 92:10 “Fresh oil, and a deliverance already given”'
+    claim: 'The lexicon on this verse: the verb is not used elsewhere in this sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1101.htm'
+    quote: 'I shall be (am) anointed with fresh oil AV RV; verb not elsewhere in this sense'
+  - where: 'note 92:10 “Fresh oil, and a deliverance already given”'
+    claim: 'The lexicon on the Greek reading (another word from the same letters): the context does not favour it, and the passage is doubtful'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1101.htm'
+    quote: 'this however is not favoured by context. The passage is therefore doubtful.'
+  - where: 'note 92:10 “Fresh oil, and a deliverance already given”'
+    claim: 'The Greek reads “mine old age with rich mercy”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/92.htm'
+    quote: 'But my horn shall be exalted as the horn of a unicorn; and mine old age with rich mercy.'
+  - where: 'note 92:10 “Fresh oil, and a deliverance already given”'
+    claim: '“Fresh” is an adjective for luxuriant trees, used of oil here and of persons in verse 14'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7488.htm'
+    quote: 'adjective luxuriant, fresh'
+  - where: 'note 92:10 “Fresh oil, and a deliverance already given”'
+    claim: 'The same adjective in verse 10 (oil) and verse 14 (“flourishing”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/רַֽעֲנַנִּ֣ים'
+  - where: 'note 92:10 “Fresh oil, and a deliverance already given”'
+    claim: 'The verb in verse 10'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּ֝לֹּתִ֗י'
+
+  # ---------- note 92:11 ----------
+  - where: 'note 92:11 “‘My desire’ is supplied”'
+    claim: 'Verse 11 in Hebrew: has looked, my eye, on my foes; no word for desire'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַ/תַּבֵּ֥ט'
+  - where: 'note 92:11 “‘My desire’ is supplied”'
+    claim: 'The noun for the foes is a dubious word'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7790.htm'
+    quote: 'dubious word, only plural suffix'
+  - where: 'note 92:11 “‘My desire’ is supplied”'
+    claim: 'The Greek of verse 11'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/92.htm'
+    quote: 'And mine eye has seen mine enemies, and mine ear shall hear the wicked that rise up against me.'
+  - where: 'note 92:11 “‘My desire’ is supplied”'
+    claim: 'A modern translation supplies “the downfall”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2092&version=NRSVUE'
+    quote: 'My eyes have seen the downfall of my enemies'
+  - where: 'note 92:11 “‘My desire’ is supplied”'
+    claim: 'Psalm 91:8 “behold” is the verb of Psalm 92:11 (H5027)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תַבִּ֑יט'
+
+  # ---------- note 92:12 ----------
+  - where: 'note 92:12 “Grass answered by trees”'
+    claim: 'The lexicon lists the verb of the righteous (verse 12) and of the wicked (verse 7) in this psalm'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6524.htm'
+    quote: 'of righteous Psalm 72:7; Psalm 92:13; Proverbs 11:28; of wicked'
+  - where: 'note 92:12 “Grass answered by trees”'
+    claim: 'The same verb (H6524) in verses 7, 12 and 13'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יַפְרִֽיחוּ'
+  - where: 'note 92:12 “Grass answered by trees”'
+    claim: '“Planted” in verse 13 is the verb of Psalm 1:3 (H8362)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שְׁ֭תוּלִים'
+  - where: 'note 92:12 “Grass answered by trees”'
+    claim: '“Fat” in verse 14 of the righteous as trees'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1879.htm'
+    quote: 'fat, full of oil (?) or sap'
+  - where: 'note 92:12 “Grass answered by trees”'
+    claim: '“Flourishing” in verse 14 is the adjective of the oil in verse 10'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7488.htm'
+    quote: 'fresh, flourishing, person (figurative, as trees) Psalm 92:15'
+  - where: 'note 92:12 “Grass answered by trees”'
+    claim: 'A modern translation of verse 14'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2092&version=NRSVUE'
+    quote: 'they are always green and full of sap'
+  - where: 'note 92:12 “Grass answered by trees”'
+    claim: '“To shew” in verse 15 is the verb of “To shew forth” in verse 2 (H5046)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ/הַגִּ֣יד'
+
+  # ---------- note 92:15 ----------
+  - where: 'note 92:15 “The opening of the song of Moses”'
+    claim: 'Deuteronomy 32:4 has rock, work, truth (emunah), iniquity, just and right'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'הַ/צּוּר֙'
+  - where: 'note 92:15 “The opening of the song of Moses”'
+    claim: 'Psalm 92:15 has rock (H6697), upright (H3477) and unrighteousness (H5766)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'צ֝וּרִ֗/י'
+  - where: 'note 92:15 “The opening of the song of Moses”'
+    claim: 'Deuteronomy 32:4 is the opening of the song of Moses in the Church’s edition'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/32?lang=eng'
+    quote: 'He is the Rock, his work is perfect: for all his ways are judgment: a God of truth and without iniquity, just and right is he.'
+  - where: 'note 92:15 “The opening of the song of Moses”'
+    claim: 'The aged righteous confirm the confession of Deuteronomy 32:4; the two verses differ in the form of the word for iniquity'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/92.htm'
+    quote: 'to confirm the confession which Moses, in Deuteronomy 32:4, places at the head of his great song.'
+  - where: 'note 92:15 “The opening of the song of Moses”'
+    claim: 'A part of Deuteronomy 32 was sung at the Sabbath offering of Numbers 28:9'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/92.htm'
+    quote: 'a part of the song Deuteronomy 32 (divided into six parts) was sung'
+  - where: 'note 92:15 “The opening of the song of Moses”'
+    claim: 'The rock is a figure of God as support and defence'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6697.htm'
+    quote: 'as support and defence of his people'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: christ
+    claim: 'The Sabbath commemorated the Creation and the deliverance from Egypt'
+    key: bd-sabbath
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sabbath?lang=eng'
+    quote: 'the creation of the earth, the deliverance of Israel from Egypt, and the resurrection of Jesus from the dead'
+  - where: christ
+    claim: 'After the Ascension the first day of the week was kept in commemoration of the Resurrection'
+    key: bd-sabbath
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sabbath?lang=eng'
+    quote: 'kept holy the first day of the week (the Lord’s day) as a weekly commemoration of our Lord’s Resurrection'
+  - where: christ
+    claim: 'In D&C 59 the Lord speaks of “my holy day”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/59?lang=eng'
+    quote: 'thou shalt go to the house of prayer and offer up thy sacraments upon my holy day'
+
+  # ---------- explore ----------
+  # ---------- parallels ----------
+  - where: parallels
+    claim: 'Psalm 1:3 has the verb “planted” of Psalm 92:13 (H8362)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁת֪וּל'
+  - where: parallels
+    claim: 'The Church’s edition also joins verse 12 to Psalm 52:8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/92?lang=eng'
+    quote: 'Ps. 52:8'
