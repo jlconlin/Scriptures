@@ -1,0 +1,476 @@
+# Evidence ledger for Psalm 91. Every quote was copied from the page at `url` as scripts/source.mjs or scripts/hebrew.mjs printed it.
+chapter: 91
+claims:
+  # ---- when / setting ----
+  - where: 'when'
+    claim: 'The psalm has no title in the Church’s edition; the page opens with the chapter heading and verse 1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/91?lang=eng'
+    quote: 'He that dwelleth in the secret place of the most High shall abide under the shadow of the Almighty.'
+  - where: 'setting'
+    claim: 'Who wrote the psalm, and when, is not known'
+    key: church-psalm-91
+    url: 'https://www.churchofjesuschrist.org/learn/articles/psalm-91?lang=eng'
+    quote: 'As to the authorship of the 91st Psalm, we cannot say for certain who penned these words, which means we also do not know when they were first written.'
+  - where: 'setting'
+    claim: 'The Greek heads the psalm “by David”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/91.htm'
+    quote: 'Praise of a Song, by David.'
+  - where: 'setting'
+    claim: 'One older judgment: the Greek inscription has no warrant; the psalm is anonymous'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/91.htm'
+    quote: 'The primeval song is followed by an anonymous song (inscribed by the lxx without any warrant'
+  - where: 'setting'
+    claim: 'Psalm 90 is titled a prayer of Moses'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/90?lang=eng'
+    quote: 'A Prayer of Moses the man of God.'
+  - where: 'setting'
+    claim: 'Psalm 90:1 calls the LORD “our dwelling place”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/90?lang=eng'
+    quote: 'Lord, thou hast been our dwelling place in all generations.'
+  - where: 'setting'
+    claim: '“Dwelling place” in Psalm 90:1 is ma‘on (Strong’s 4583)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מָע֣וֹן'
+  - where: 'setting'
+    claim: '“Thy habitation” in Psalm 91:9 is the same noun ma‘on (Strong’s 4583)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מְעוֹנֶֽ/ךָ'
+  - where: 'setting'
+    claim: 'Psalm 90:16 asks that the LORD’s work appear'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/90?lang=eng'
+    quote: 'Let thy work appear unto thy servants, and thy glory unto their children.'
+  - where: 'setting'
+    claim: 'On one reading the psalm was placed after Psalm 90 because its last verse answers Psalm 90:16'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/91.htm'
+    quote: 'it is only placed in this order because the last verse accords with the last verse but one of Psalm 90'
+  - where: 'setting'
+    claim: 'It has been suggested that Psalm 91 answers Psalm 90'
+    key: church-psalm-91
+    url: 'https://www.churchofjesuschrist.org/learn/articles/psalm-91?lang=eng'
+    quote: 'The words of Psalm 91 may have been written as a response to Psalm 90'
+  - where: 'setting'
+    claim: 'It has been suggested that Moses wrote both, as a possibility'
+    key: church-psalm-91
+    url: 'https://www.churchofjesuschrist.org/learn/articles/psalm-91?lang=eng'
+    quote: 'then it is possible that the author of the 91st Psalm is also Moses'
+  - where: 'setting'
+    claim: 'The text attributes the psalm to no one'
+    key: church-psalm-91
+    url: 'https://www.churchofjesuschrist.org/learn/articles/psalm-91?lang=eng'
+    quote: 'the text does not attribute it to King David—or to anyone else'
+  - where: 'setting'
+    claim: 'The Church’s chapter heading calls it a messianic psalm'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/91?lang=eng'
+    quote: 'A messianic psalm—The Lord will deliver the Messiah from terror, pestilence, and war'
+  - where: 'setting'
+    claim: 'The devil quotes verses 11–12 in Matthew 4:6'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/4?lang=eng'
+    quote: 'for it is written, He shall give his angels charge concerning thee: and in their hands they shall bear thee up'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'The verb of verse 2 is a first-person form (morphology Vqi1cs), “I say”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֹמַ֗ר'
+  - where: 'thread'
+    claim: 'Verses 14–16 have seven first-person verbs with God as subject; the first is “I will deliver him”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַ/אֲפַלְּטֵ֑/הוּ'
+  - where: 'thread'
+    claim: 'Verse 15 has “I will be with him in trouble”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/91?lang=eng'
+    quote: 'I will be with him in trouble; I will deliver him, and honour him.'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: '“Secret place” is a covering or hiding place; rendered “shelter”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2091&version=NRSVUE'
+    quote: 'You who live in the shelter of the Most High,'
+  - where: 'section 1 plain'
+    claim: '“Abide” is the verb to lodge, pass the night'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3885.htm'
+    quote: 'verb lodge, pass the night, figurative abide'
+  - where: 'section 2 plain'
+    claim: 'Verse 3: “the deadly pestilence”; verse 4: “you will find refuge,” “his faithfulness”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2091&version=NRSVUE'
+    quote: 'and from the deadly pestilence;'
+  - where: 'section 2 plain'
+    claim: 'Verse 7 as a supposition: “A thousand may fall”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2091&version=NRSVUE'
+    quote: 'A thousand may fall at your side,'
+  - where: 'section 3 plain'
+    claim: 'The first half of verse 9 is a sentence by itself, addressed to the LORD'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/91.htm'
+    quote: 'For thou, O Lord, art my hope: thou, my soul, hast made the Most High thy refuge.'
+  - where: 'section 3 plain'
+    claim: 'Verse 10: “tent”; verse 11: “command his angels concerning you to guard you”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2091&version=NRSVUE'
+    quote: 'For he will command his angels concerning you'
+  - where: 'section 3 plain'
+    claim: 'Verse 13: “dragon” is a serpent'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2091&version=NRSVUE'
+    quote: 'the young lion and the serpent you will trample under foot.'
+  - where: 'section 4 plain'
+    claim: '“Set his love” is to be attached to, love'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2836.htm'
+    quote: 'verb be attached to, love'
+
+  # ---- note 91:1 ----
+  - where: 'note 91:1 “A hiding place and a night’s lodging”'
+    claim: '“Secret place” is sether, a covering or hiding place'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5643.htm'
+    quote: 'noun [masculine] covering, hiding-place, secrecy'
+  - where: 'note 91:1 “A hiding place and a night’s lodging”'
+    claim: 'The same entry lists Psalm 27:5 (the LORD’s tent) and Psalm 91:1 under the sense of the LORD as shelter'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5643.htm'
+    quote: 'Psalm 27:5'
+  - where: 'note 91:1 “A hiding place and a night’s lodging”'
+    claim: '“Abide” is lun, to lodge, pass the night'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3885.htm'
+    quote: 'verb lodge, pass the night, figurative abide'
+  - where: 'note 91:1 “A hiding place and a night’s lodging”'
+    claim: 'The verb of verse 1 is lun (Strong’s 3885)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִתְלוֹנָֽן'
+  - where: 'note 91:1 “A hiding place and a night’s lodging”'
+    claim: 'Shaddai is the patriarchs’ name for God in Genesis (17:1 and elsewhere)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7706.htm'
+    quote: 'divine name of patriarchs'
+  - where: 'note 91:1 “A hiding place and a night’s lodging”'
+    claim: 'Shaddai (Strong’s 7706) occurs twice in Psalms: here (hebrew.mjs psalms --word 7706: 2 occurrences)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שַׁ֝דַּ֗י'
+  - where: 'note 91:1 “A hiding place and a night’s lodging”'
+    claim: 'and at Psalm 68:14 (Hebrew 68:15)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שַׁדַּ֓י'
+
+  # ---- note 91:2 ----
+  - where: 'note 91:2 “Three voices”'
+    claim: 'The Greek has a third person in verse 2'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/91.htm'
+    quote: 'He shall say to the Lord, Thou art my helper and my refuge'
+  - where: 'note 91:2 “Three voices”'
+    claim: 'A modern translation makes verses 1–2 one address in the second person'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2091&version=NRSVUE'
+    quote: 'You who live in the shelter of the Most High,'
+  - where: 'note 91:2 “Three voices”'
+    claim: 'The same translation continues “will say to the Lord”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2091&version=NRSVUE'
+    quote: 'will say to the Lord, “My refuge and my fortress;'
+  - where: 'note 91:2 “Three voices”'
+    claim: 'The Hebrew verb of verse 2 is first person singular (Vqi1cs)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֹמַ֗ר'
+  - where: 'note 91:2 “Three voices”'
+    claim: 'One older reading: the changes of person are a dramatic arrangement'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/91.htm'
+    quote: 'a reason for this abrupt change of the person is that dramatic arrangement recognised even in the Targum'
+  - where: 'note 91:2 “Three voices”'
+    claim: 'Two voices, and the LORD’s as a third'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/91.htm'
+    quote: 'two voices that speak (as in Psalm 121:1-8), and at last the voice of Jahve comes in as a third'
+  - where: 'note 91:2 “Three voices”'
+    claim: 'Whether it was sung by several voices cannot be told'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/91.htm'
+    quote: 'perhaps by three choirs, we cannot tell'
+  - where: 'note 91:2 “Three voices”'
+    claim: 'The voice of trust speaks in verse 2 and the first half of verse 9 (after verses 3–8)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/91.htm'
+    quote: 'Ascribing the glory to God, the second voice confirms or ratifies these promises.'
+  - where: 'note 91:2 “Three voices”'
+    claim: 'The promising voice resumes in verse 9 at “thou hast made”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/91.htm'
+    quote: 'The first voice continues this ratification, and goes on weaving these promises still further: thou hast made the Most High thy dwelling-place'
+  - where: 'note 91:2 “Three voices”'
+    claim: 'Verse 9 in Hebrew has seven words and nothing for “which is”; “my refuge” is the fourth'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מַחְסִ֑/י'
+  - where: 'note 91:2 “Three voices”'
+    claim: 'The Greek renders the first half of verse 9 as its own sentence'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/91.htm'
+    quote: 'For thou, O Lord, art my hope: thou, my soul, hast made the Most High thy refuge.'
+
+  # ---- note 91:4 ----
+  - where: 'note 91:4 “Wings and a shield”'
+    claim: '“Trust” in verse 4 is chasah (Strong’s 2620), the verb for taking refuge'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תֶּחְסֶ֑ה'
+  - where: 'note 91:4 “Wings and a shield”'
+    claim: 'A modern translation: “find refuge”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2091&version=NRSVUE'
+    quote: 'and under his wings you will find refuge;'
+  - where: 'note 91:4 “Wings and a shield”'
+    claim: '“His truth” rendered “his faithfulness”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2091&version=NRSVUE'
+    quote: 'his faithfulness is a shield and defense.'
+  - where: 'note 91:4 “Wings and a shield”'
+    claim: 'The lexicon: the buckler of Psalm 91:4 is a figure of the LORD’s faithfulness'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5507.htm'
+    quote: 's faithfulness).'
+
+  # ---- note 91:6 ----
+  - where: 'note 91:6 “Four dangers for every hour”'
+    claim: '“Noisome” meant noxious, hurtful; “noisome pestilence” is the dictionary’s example'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/noisome'
+    quote: 'Noxious to health; hurtful; mischievous; unwholesome; insalubrious; destructive; as noisome winds; noisome effluvia or miasmata; noisome pestilence.'
+  - where: 'note 91:6 “Four dangers for every hour”'
+    claim: 'The Hebrew behind “noisome” (havvot) is a chasm, figuratively destruction'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1942.htm'
+    quote: 'chasm, figurative destruction'
+  - where: 'note 91:6 “Four dangers for every hour”'
+    claim: 'A modern translation of verse 3'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2091&version=NRSVUE'
+    quote: 'and from the deadly pestilence;'
+  - where: 'note 91:6 “Four dangers for every hour”'
+    claim: '“Destruction” in verse 6 is qeteb, used of pestilence'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6986.htm'
+    quote: 'destruction; — of pestilence'
+
+  # ---- note 91:10 ----
+  - where: 'note 91:10 “What the promise does and does not say”'
+    claim: 'In verse 15 the LORD is with the man in trouble and delivers him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/91?lang=eng'
+    quote: 'He shall call upon me, and I will answer him: I will be with him in trouble; I will deliver him, and honour him.'
+  - where: 'note 91:10 “What the promise does and does not say”'
+    claim: 'The Church’s article: the promise is not freedom from trials'
+    key: church-psalm-91
+    url: 'https://www.churchofjesuschrist.org/learn/articles/psalm-91?lang=eng'
+    quote: 'The promise provided in Psalms 91 is not that faithful followers will be free from the difficulties and trials of life.'
+  - where: 'note 91:10 “What the promise does and does not say”'
+    claim: 'The same article: where God does not give the victory in this life, He will ultimately deliver'
+    key: church-psalm-91
+    url: 'https://www.churchofjesuschrist.org/learn/articles/psalm-91?lang=eng'
+    quote: 'even if God does not give the victory in this life, He will ultimately deliver those who trust in Him'
+
+  # ---- note 91:11 ----
+  - where: 'note 91:11 “The verse the tempter quoted”'
+    claim: 'Jesus is set on a pinnacle of the temple'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/4?lang=eng'
+    quote: 'Then the devil taketh him up into the holy city, and setteth him on a pinnacle of the temple,'
+  - where: 'note 91:11 “The verse the tempter quoted”'
+    claim: 'Matthew’s quotation lacks “to keep thee in all thy ways”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/4?lang=eng'
+    quote: 'And saith unto him, If thou be the Son of God, cast thyself down: for it is written, He shall give his angels charge concerning thee: and in their hands they shall bear thee up, lest at any time thou dash thy foot against a stone.'
+  - where: 'note 91:11 “The verse the tempter quoted”'
+    claim: 'Luke’s quotation has “to keep thee” and not “in all thy ways”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/4?lang=eng'
+    quote: 'For it is written, He shall give his angels charge over thee, to keep thee:'
+  - where: 'note 91:11 “The verse the tempter quoted”'
+    claim: 'Satan tempted Jesus to throw Himself on the Father’s protection'
+    key: talmage-jesus-christ-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-10?lang=eng'
+    quote: 'Satan went to the other extreme and tempted Jesus to wantonly throw Himself upon the Father’s protection.'
+  - where: 'note 91:11 “The verse the tempter quoted”'
+    claim: 'The leap would have been a sign whose fame spread'
+    key: talmage-jesus-christ-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-10?lang=eng'
+    quote: 'It would have been a sign and a wonder indeed, the fame of which would have spread as fire in the dry grass'
+  - where: 'note 91:11 “The verse the tempter quoted”'
+    claim: 'The Savior answered the psalm with Moses'
+    key: talmage-jesus-christ-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-10?lang=eng'
+    quote: 'the lines of the psalmist were met by the binding fiat of the prophet of the exodus'
+  - where: 'note 91:11 “The verse the tempter quoted”'
+    claim: 'Satan tempted Jesus to tempt the Father; God decides when His wonders are wrought'
+    key: talmage-jesus-christ-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-10?lang=eng'
+    quote: 'Satan tempted Jesus to tempt the Father.'
+  - where: 'note 91:11 “The verse the tempter quoted”'
+    claim: 'God alone decides when and how'
+    key: talmage-jesus-christ-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-10?lang=eng'
+    quote: 'God alone must decide when and how His wonders shall be wrought.'
+  - where: 'note 91:11 “The verse the tempter quoted”'
+    claim: 'Deuteronomy 6:16 names Massah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/6?lang=eng'
+    quote: 'Ye shall not tempt the Lord your God, as ye tempted him in Massah.'
+  - where: 'note 91:11 “The verse the tempter quoted”'
+    claim: 'At Massah Israel asked whether the LORD was among them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/17?lang=eng'
+    quote: 'because they tempted the Lord, saying, Is the Lord among us, or not?'
+  - where: 'note 91:11 “The verse the tempter quoted”'
+    claim: 'Elder Hunter: faith precedes the miracle'
+    key: hunter-temptations
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-temptations-of-christ?lang=eng'
+    quote: 'But faith is to precede the miracle; miracles are not to precede the faith.'
+  - where: 'note 91:11 “The verse the tempter quoted”'
+    claim: 'Angels ministered to Him when the devil left'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/4?lang=eng'
+    quote: 'Then the devil leaveth him, and, behold, angels came and ministered unto him.'
+
+
+  # ---- note 91:13 ----
+  - where: 'note 91:13 “Lion and serpent underfoot”'
+    claim: 'The dragon of Psalm 91:13 is probably a large snake'
+    key: bd-dragon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/dragon?lang=eng'
+    quote: 'Probably a large snake or snakelike animal in Deut. 32:33; Ps. 74:13; 91:13.'
+  - where: 'note 91:13 “Lion and serpent underfoot”'
+    claim: 'One older reading: the creatures are destructive powers'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/91.htm'
+    quote: 'They are all kinds of destructive powers belonging to nature, and particularly to the spirit-world, that are meant.'
+  - where: 'note 91:13 “Lion and serpent underfoot”'
+    claim: 'Lions for open power, adders and dragons for secret malice'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/91.htm'
+    quote: 'from the side of their open power, which threatens destruction, and adders and dragons from the side of their venomous secret malice'
+  - where: 'note 91:13 “Lion and serpent underfoot”'
+    claim: 'The same reading recalls Luke 10:19'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/91.htm'
+    quote: 'The promise calls to mind Mark 16:18'
+  - where: 'note 91:13 “Lion and serpent underfoot”'
+    claim: '“but still more Luke 10:19”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/91.htm'
+    quote: 'but still more Luke 10:19'
+  - where: 'note 91:13 “Lion and serpent underfoot”'
+    claim: 'The same reading compares Romans 16:20'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/91.htm'
+    quote: 'that he shall tread them to the ground (cf. Romans 16:20)'
+  - where: 'note 91:13 “Lion and serpent underfoot”'
+    claim: 'The Savior’s words to the Seventy'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/10?lang=eng'
+    quote: 'Behold, I give unto you power to tread on serpents and scorpions, and over all the power of the enemy: and nothing shall by any means hurt you.'
+  - where: 'note 91:13 “Lion and serpent underfoot”'
+    claim: 'Paul on Satan underfoot'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/16?lang=eng'
+    quote: 'And the God of peace shall bruise Satan under your feet shortly.'
+  - where: 'note 91:13 “Lion and serpent underfoot”'
+    claim: 'The quotation in the wilderness ends with the words of verse 12'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/4?lang=eng'
+    quote: 'And in their hands they shall bear thee up, lest at any time thou dash thy foot against a stone.'
+
+  # ---- note 91:14 ----
+  - where: 'note 91:14 “The LORD speaks for Himself”'
+    claim: '“Set his love” is chashaq, be attached to, love'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2836.htm'
+    quote: 'verb be attached to, love'
+  - where: 'note 91:14 “The LORD speaks for Himself”'
+    claim: 'The lexicon: the LORD’s love for Israel in Deuteronomy 7:7 and 10:15, and love to the LORD in Psalm 91:14'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2836.htm'
+    quote: 'love for Israel Deuteronomy 7:7; Deuteronomy 10:15, and of love to'
+  - where: 'note 91:14 “The LORD speaks for Himself”'
+    claim: 'Chashaq (Strong’s 2836) occurs once in Psalms (hebrew.mjs psalms --word 2836: 1 occurrence)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חָ֭שַׁק'
+  - where: 'note 91:14 “The LORD speaks for Himself”'
+    claim: 'Deuteronomy 7:7'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/7?lang=eng'
+    quote: 'The Lord did not set his love upon you, nor choose you, because ye were more in number than any people'
+  - where: 'note 91:14 “The LORD speaks for Himself”'
+    claim: '“Set him on high” is sagab in the Piel, set (securely) on high'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7682.htm'
+    quote: 'set (securely) on high, Psalm 20:2; Psalm 69:30; Psalm 91:14'
+  - where: 'note 91:14 “The LORD speaks for Himself”'
+    claim: 'The root means be inaccessibly high'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7682.htm'
+    quote: 'verb be (inaccessibly) high'
+  - where: 'note 91:14 “The LORD speaks for Himself”'
+    claim: 'Seven first-person verbs in verses 14–16 (hebrew.mjs: two in verse 14, three in verse 15, two in verse 16, each coded 1cs); the second is “I will set him on high”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲ֝שַׂגְּבֵ֗/הוּ'
+  - where: 'note 91:14 “The LORD speaks for Himself”'
+    claim: '“I will be with him in trouble” has no verb: the words are “with him,” the pronoun “I,” and “in trouble”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אָנֹכִ֥י'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'The heading: the Lord will deliver the Messiah and honor Him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/91?lang=eng'
+    quote: 'A messianic psalm—The Lord will deliver the Messiah from terror, pestilence, and war—The Lord will give His angels charge over the Messiah and deliver Him and honor Him.'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'Psalm 121 is another psalm in two voices'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/91.htm'
+    quote: 'There are, to wit, two voices that speak (as in Psalm 121:1-8)'
+  - where: 'explore'
+    claim: 'Psalm 121:3'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/121?lang=eng'
+    quote: 'He will not suffer thy foot to be moved: he that keepeth thee will not slumber.'
+  - where: 'explore'
+    claim: 'Talmage’s chapter 10 treats the temptations'
+    key: talmage-jesus-christ-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-10?lang=eng'
+    quote: 'In the second attempt, the devil tried to support his suggestion by scripture, and employed a similar expression—“for it is written.”'
+
+  # ---- parallels ----
+  - where: 'parallels'
+    claim: 'Deuteronomy 7:7 uses chashaq of the LORD’s love for Israel'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2836.htm'
+    quote: 'love for Israel Deuteronomy 7:7; Deuteronomy 10:15, and of love to'
