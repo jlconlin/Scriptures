@@ -1,0 +1,253 @@
+chapter: 148
+claims:
+  # ---- when ----
+  - where: 'when'
+    claim: 'The psalm has no title; the Church edition heads it only with a summary of its contents'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/148?lang=eng'
+    quote: 'Let all things praise the Lord: men and angels, the heavenly bodies, the elements and the earth, and all things thereon.'
+
+  # ---- setting ----
+  - where: 'setting'
+    claim: 'Each of Psalms 146–150 ends with hallelujah'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1984.htm'
+    quote: 'Psalm 146:10; Psalm 147:20; Psalm 148:14; Psalm 149:9; Psalm 150:6'
+  - where: 'setting'
+    claim: 'Each of Psalms 146–150 begins with hallelujah (hebrew.mjs psalms --word 3050 lists Yah at 146:1, 147:1, 148:1, 149:1 and 150:1, each after the imperative of H1984)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַ֥לְלוּ'
+  - where: 'setting'
+    claim: 'Psalm 147, just before, ends by saying that the LORD has dealt with no other nation as with Israel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/147?lang=eng'
+    quote: 'He hath not dealt so with any nation'
+  - where: 'setting'
+    claim: 'Psalm 149, just after, begins with the same call and with praise in the congregation of saints'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/149?lang=eng'
+    quote: 'Praise ye the Lord. Sing unto the Lord a new song, and his praise in the congregation of saints.'
+  - where: 'setting'
+    claim: 'Genesis 1 has the waters above the firmament'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng'
+    quote: 'And God made the firmament, and divided the waters which were under the firmament from the waters which were above the firmament: and it was so.'
+  - where: 'setting'
+    claim: 'Genesis 1 has the lights of heaven'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng'
+    quote: 'And God made two great lights'
+  - where: 'setting'
+    claim: 'Genesis 1 has the great sea creatures (“great whales”)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng'
+    quote: 'And God created great whales, and every living creature that moveth'
+  - where: 'setting'
+    claim: 'Genesis 1 has the fowl, the cattle and the creeping things'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng'
+    quote: 'and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'The call begins at the top of creation, not from below'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/148.htm'
+    quote: 'The call does not rise step by step from below upwards, but begins forthwith from above in the highest and outermost spheres of creation.'
+  - where: 'thread'
+    claim: 'The waters above the heavens are the waters of the second day of creation'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng'
+    quote: 'And God made the firmament, and divided the waters which were under the firmament from the waters which were above the firmament: and it was so.'
+  - where: 'thread'
+    claim: 'The decree of verse 6 is a bound set for the heavens'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2706.htm'
+    quote: 'prescribed limit, boundary: of sea Jeremiah 5:22; Proverbs 8:29; Job 26:10; Job 38:10; of heavens Psalm 148:6'
+
+  # ---- section 4 plain ----
+  - where: 'section 4 plain'
+    claim: '“Excellent” is “exalted” in a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20148&version=NRSVUE'
+    quote: 'for his name alone is exalted;'
+
+  # ---- note 148:2 ----
+  - where: 'note 148:2 “The hosts are the holy beings around the LORD”'
+    claim: 'The heavenly host is all the holy beings around the Lord who do His will; Psalm 148:2 is cited for it'
+    key: pike-hebrew-words
+    url: 'https://rsc.byu.edu/vol-7-no-3-2006/biblical-hebrew-words-you-already-know-why-they-are-important'
+    quote: 'The Lord’s heavenly host is not just composed of fighters, but all the holy beings who surround Him and do His will'
+  - where: 'note 148:2 “The hosts are the holy beings around the LORD”'
+    claim: '“Host” can also mean the inanimate creations, the stars and planets, as in Deuteronomy 4:19'
+    key: pike-hebrew-words
+    url: 'https://rsc.byu.edu/vol-7-no-3-2006/biblical-hebrew-words-you-already-know-why-they-are-important'
+    quote: 'Sometimes “host(s)” refers collectively to the inanimate creations of the Lord, such as the stars and planets'
+  - where: 'note 148:2 “The hosts are the holy beings around the LORD”'
+    claim: 'The same article sets Psalm 103:20–21 beside this verse'
+    key: pike-hebrew-words
+    url: 'https://rsc.byu.edu/vol-7-no-3-2006/biblical-hebrew-words-you-already-know-why-they-are-important'
+    quote: 'Bless ye the Lord, all ye his hosts'
+  - where: 'note 148:2 “The hosts are the holy beings around the LORD”'
+    claim: 'Psalm 103:20 says the angels do His commandments'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/103?lang=eng'
+    quote: 'that do his commandments, hearkening unto the voice of his word'
+  - where: 'note 148:2 “The hosts are the holy beings around the LORD”'
+    claim: 'Psalm 103:21 says the hosts do His pleasure'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/103?lang=eng'
+    quote: 'ye ministers of his, that do his pleasure'
+
+  # ---- note 148:6 ----
+  - where: 'note 148:6 “The decree is a bound set for the heavens”'
+    claim: 'The Hebrew noun in this verse is a prescribed limit or boundary, here of the heavens'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2706.htm'
+    quote: 'prescribed limit, boundary: of sea Jeremiah 5:22; Proverbs 8:29; Job 26:10; Job 38:10; of heavens Psalm 148:6'
+  - where: 'note 148:6 “The decree is a bound set for the heavens”'
+    claim: 'A modern translation renders the line as bounds that cannot be passed'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20148&version=NRSVUE'
+    quote: 'he fixed their bounds, which cannot be passed.'
+  - where: 'note 148:6 “The decree is a bound set for the heavens”'
+    claim: 'The same translation gives the other reading, a law that does not pass away, in its footnote'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20148&version=NRSVUE'
+    quote: 'Or he set a law that cannot pass away'
+  - where: 'note 148:6 “The decree is a bound set for the heavens”'
+    claim: 'The lexicon lists Jeremiah 31:36 under the same noun, of the LORD’s ordinance in nature'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2706.htm'
+    quote: 'in nature Jeremiah 31:36'
+  - where: 'note 148:6 “The decree is a bound set for the heavens”'
+    claim: 'Jeremiah 31:35 speaks of the ordinances of the moon and stars'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/31?lang=eng'
+    quote: 'the ordinances of the moon and of the stars for a light by night'
+  - where: 'note 148:6 “The decree is a bound set for the heavens”'
+    claim: 'Jeremiah makes those ordinances the measure of how long Israel will last'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/31?lang=eng'
+    quote: 'If those ordinances depart from before me, saith the Lord, then the seed of Israel also shall cease from being a nation before me for ever.'
+
+  # ---- note 148:7 ----
+  - where: 'note 148:7 “The sea monsters sing first”'
+    claim: 'A modern translation has “sea monsters” for the King James “dragons”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20148&version=NRSVUE'
+    quote: 'you sea monsters and all deeps'
+  - where: 'note 148:7 “The sea monsters sing first”'
+    claim: 'The Hebrew word of this verse (tanninim, Strong’s 8577) is the word of Psalm 74:13'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תַּ֝נִּינִ֗ים'
+  - where: 'note 148:7 “The sea monsters sing first”'
+    claim: 'The same Hebrew word (Strong’s 8577) is the “great whales” of Genesis 1:21'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'הַ/תַּנִּינִ֖ם'
+  - where: 'note 148:7 “The sea monsters sing first”'
+    claim: 'In Psalm 74 God breaks the dragons’ heads'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/74?lang=eng'
+    quote: 'Thou didst divide the sea by thy strength: thou brakest the heads of the dragons in the waters.'
+  - where: 'note 148:7 “The sea monsters sing first”'
+    claim: 'In Genesis 1:21 God creates the great whales'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng'
+    quote: 'And God created great whales, and every living creature that moveth'
+  - where: 'note 148:7 “The sea monsters sing first”'
+    claim: 'Psalm 104:26 has leviathan made to play in the sea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/104?lang=eng'
+    quote: 'There go the ships: there is that leviathan, whom thou hast made to play therein.'
+
+  # ---- note 148:14 ----
+  - where: 'note 148:14 “Why the psalm ends with Israel”'
+    claim: 'A modern translation: a horn raised up for His people'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20148&version=NRSVUE'
+    quote: 'He has raised up a horn for his people,'
+  - where: 'note 148:14 “Why the psalm ends with Israel”'
+    claim: 'The lexicon takes the horn lifted up as increase of might and dignity, and in this verse as might restored'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7161.htm'
+    quote: 'is apparently of restoration of might (as Psalm 148:14 above'
+  - where: 'note 148:14 “Why the psalm ends with Israel”'
+    claim: 'A horn lifted up denotes increase of might and dignity'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7161.htm'
+    quote: 'denoting increase of might, dignity'
+  - where: 'note 148:14 “Why the psalm ends with Israel”'
+    claim: 'One older reading: the horn is one the people did not have and were given, after the exile'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/148.htm'
+    quote: 'The horn in both instances is one such as the person named does not already possess, but which is given him'
+  - where: 'note 148:14 “Why the psalm ends with Israel”'
+    claim: 'The same reading places the psalm after the return from exile'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/148.htm'
+    quote: 'has bestowed upon them once more now when they are gathered together again out of exile and Jerusalem has risen again out of the ruins of its overthrow'
+  - where: 'note 148:14 “Why the psalm ends with Israel”'
+    claim: 'On that reading Israel leads all creatures in the hallelujah'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/148.htm'
+    quote: 'the nation of the God of the history of salvation comes forward in this Psalm as the leader (choragus) of all creatures'
+  - where: 'note 148:14 “Why the psalm ends with Israel”'
+    claim: 'Moses says no nation has God so near as Israel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/4?lang=eng'
+    quote: 'For what nation is there so great, who hath God so nigh unto them, as the Lord our God is in all things that we call upon him for?'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'John says all things were made by the Word'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/1?lang=eng'
+    quote: 'All things were made by him; and without him was not any thing made that was made.'
+  - where: 'christ'
+    claim: 'The Father tells Moses the worlds were created by the Son'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/1?lang=eng'
+    quote: 'and by the Son I created them, which is mine Only Begotten.'
+  - where: 'christ'
+    claim: 'John hears every creature in heaven, earth and sea praise Him on the throne and the Lamb'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/5?lang=eng'
+    quote: 'And every creature which is in heaven, and on the earth, and under the earth, and such as are in the sea, and all that are in them, heard I saying'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'In Abraham’s account of the creation the things ordered obey'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/4?lang=eng'
+    quote: 'And the Gods watched those things which they had ordered until they obeyed.'
+  - where: 'explore'
+    claim: 'D&C 88:47 says that whoever has seen the least of the heavenly bodies has seen God moving in majesty and power'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'any man who hath seen any or the least of these hath seen God moving in his majesty and power.'
+  - where: 'explore'
+    claim: 'Joseph Smith’s letter on baptism for the dead calls on mountains, trees, sun, moon and stars to praise'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/128?lang=eng'
+    quote: 'Let the woods and all the trees of the field praise the Lord; and ye solid rocks weep for joy! And let the sun, moon, and the morning stars sing together, and let all the sons of God shout for joy!'
+
+  # ---- parallels ----
+  - where: 'parallels'
+    claim: 'Psalm 103:20–21 calls on the angels and the hosts together'
+    key: pike-hebrew-words
+    url: 'https://rsc.byu.edu/vol-7-no-3-2006/biblical-hebrew-words-you-already-know-why-they-are-important'
+    quote: 'Bless ye the Lord, all ye his hosts'
+  - where: 'parallels'
+    claim: 'D&C 88:42: a law given to all things, by which they move in their times and seasons'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'he hath given a law unto all things, by which they move in their times and their seasons;'
+  - where: 'parallels'
+    claim: 'D&C 128:23 calls on the mountains, valleys, seas and dry lands'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/128?lang=eng'
+    quote: 'Let the mountains shout for joy, and all ye valleys cry aloud; and all ye seas and dry lands tell the wonders of your Eternal King!'
