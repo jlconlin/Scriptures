@@ -1,0 +1,515 @@
+chapter: 80
+claims:
+  # ---- when / setting ----
+  - where: 'when'
+    claim: 'The title ascribes the psalm to Asaph and gives no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/80?lang=eng'
+    quote: 'To the chief Musician upon Shoshannim-Eduth, A Psalm of Asaph.'
+  - where: 'setting'
+    claim: 'The title carries Asaph’s name'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/80?lang=eng'
+    quote: 'To the chief Musician upon Shoshannim-Eduth, A Psalm of Asaph.'
+  - where: 'setting'
+    claim: 'Psalm 79 closes with the people as the sheep of God’s pasture'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/79?lang=eng'
+    quote: 'So we thy people and sheep of thy pasture will give thee thanks for ever'
+  - where: 'setting'
+    claim: 'The Greek title adds that the psalm concerns the Assyrian'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/80.htm'
+    quote: 'a testimony for Asaph, a Psalm concerning the Assyrian'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: '“Turn us again” in the refrain is a causative form of the verb shub (H7725)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הֲשִׁיבֵ֑/נוּ'
+  - where: 'thread'
+    claim: '“Return” in verse 14 is the same verb in its simple form, addressed to God'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שֽׁ֫וּב'
+  - where: 'thread'
+    claim: '“Face” in the refrain is panim (H6440)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פָּ֝נֶ֗י/ךָ'
+  - where: 'thread'
+    claim: '“Countenance” in verse 16 is the same Hebrew word (H6440)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פָּנֶ֣י/ךָ'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: '“Dwellest between the cherubims” is rendered “enthroned upon the cherubim”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2080&version=NRSVUE'
+    quote: 'You who are enthroned upon the cherubim, shine forth'
+  - where: 'section 1 plain'
+    claim: '“Turn us again” is rendered “Restore us”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2080&version=NRSVUE'
+    quote: 'Restore us, O God;'
+  - where: 'section 4 plain'
+    claim: 'Verse 15 rendered “the stock” and “the son”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2080&version=ESV'
+    quote: 'and for the son whom you made strong for yourself.'
+  - where: 'section 4 plain'
+    claim: '“Vineyard” in verse 15 rendered “stock”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2080&version=NRSVUE'
+    quote: 'the stock that your right hand planted.'
+  - where: 'section 4 plain'
+    claim: '“Quicken us” is rendered “give us life”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2080&version=NRSVUE'
+    quote: 'give us life, and we will call on your name.'
+
+  # ---- note 80:0 ----
+  - where: 'note 80:0 “Lilies, and a title that names Assyria in Greek”'
+    claim: 'A modern translation renders the untranslated words “on Lilies, a Covenant”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2080&version=NRSVUE'
+    quote: 'To the leader: on Lilies, a Covenant. Of Asaph. A Psalm.'
+  - where: 'note 80:0 “Lilies, and a title that names Assyria in Greek”'
+    claim: 'The Greek title has “a Psalm concerning the Assyrian,” which the Hebrew title lacks'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/80.htm'
+    quote: 'For the end, for alternate strains, a testimony for Asaph, a Psalm concerning the Assyrian.'
+  - where: 'note 80:0 “Lilies, and a title that names Assyria in Greek”'
+    claim: 'The Hebrew title has no such words'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/80?lang=eng'
+    quote: 'To the chief Musician upon Shoshannim-Eduth, A Psalm of Asaph.'
+
+  # ---- note 80:1 Joseph ----
+  - where: 'note 80:1 “Joseph and Rachel’s three tribes, and an enemy left unnamed”'
+    claim: 'Joseph, where distinct from Judah, names the northern kingdom'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/80.htm'
+    quote: 'Joseph, which, where it is distinct from Jacob or Judah, is the name of the kingdom of the ten tribes'
+  - where: 'note 80:1 “Joseph and Rachel’s three tribes, and an enemy left unnamed”'
+    claim: 'Psalm 78 sets Joseph and Ephraim over against Judah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/78?lang=eng'
+    quote: 'Moreover he refused the tabernacle of Joseph, and chose not the tribe of Ephraim:'
+  - where: 'note 80:1 “Joseph and Rachel’s three tribes, and an enemy left unnamed”'
+    claim: 'Ephraim and Manasseh are Joseph’s sons, and Benjamin is Rachel’s son as Joseph was'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/80.htm'
+    quote: 'of whom the beloved Rachel was the mother as well as of Joseph, the father of Ephraim and Manasseh'
+  - where: 'note 80:1 “Joseph and Rachel’s three tribes, and an enemy left unnamed”'
+    claim: 'Benjamin was the son of Jacob and Rachel'
+    key: bd-benjamin
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/benjamin?lang=eng'
+    quote: 'Son of Jacob and Rachel; his birth, Gen. 35:18'
+  - where: 'note 80:1 “Joseph and Rachel’s three tribes, and an enemy left unnamed”'
+    claim: 'In Numbers 2 the three tribes camp together on the west of the tabernacle'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/80.htm'
+    quote: 'In Numbers 2 also, these three are not separated, but have their camp on the west side of the Tabernacle.'
+  - where: 'note 80:1 “Joseph and Rachel’s three tribes, and an enemy left unnamed”'
+    claim: 'Numbers 2 places Ephraim’s camp, with Manasseh and Benjamin, on the west'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/2?lang=eng'
+    quote: 'On the west side shall be the standard of the camp of Ephraim according to their armies'
+  - where: 'note 80:1 “Joseph and Rachel’s three tribes, and an enemy left unnamed”'
+    claim: 'Jacob’s blessings of Joseph call God a shepherd, which may have suggested the psalm’s first names'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/80.htm'
+    quote: 'The fact that in the blessing of Joseph, Jacob calls God a Shepherd'
+  - where: 'note 80:1 “Joseph and Rachel’s three tribes, and an enemy left unnamed”'
+    claim: 'That connection is offered with a “perhaps”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/80.htm'
+    quote: 'perhaps has somewhat to do with the choice of the first two names'
+  - where: 'note 80:1 “Joseph and Rachel’s three tribes, and an enemy left unnamed”'
+    claim: 'Jacob’s words when he blessed Joseph'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/48?lang=eng'
+    quote: 'the God which fed me all my life long unto this day'
+  - where: 'note 80:1 “Joseph and Rachel’s three tribes, and an enemy left unnamed”'
+    claim: 'Jacob’s blessing of Joseph names the shepherd'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/49?lang=eng'
+    quote: 'from thence is the shepherd, the stone of Israel'
+  - where: 'note 80:1 “Joseph and Rachel’s three tribes, and an enemy left unnamed”'
+    claim: 'The Greek title’s “Assyrian” may come from a note that took the boar as Assyria'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/80.htm'
+    quote: 'an inscribed note which took the "boar out of the forest" as an emblem of Assyria'
+  - where: 'note 80:1 “Joseph and Rachel’s three tribes, and an enemy left unnamed”'
+    claim: 'The Greek title'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/80.htm'
+    quote: 'a Psalm concerning the Assyrian'
+  - where: 'note 80:1 “Joseph and Rachel’s three tribes, and an enemy left unnamed”'
+    claim: 'One older reading: the psalm was prayed while Assyria pressed on the northern kingdom'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/80.htm'
+    quote: 'The psalmist, as it seems, prays in a time in which the oppression of Assyria rested heavily upon the kingdom of Ephraim'
+  - where: 'note 80:1 “Joseph and Rachel’s three tribes, and an enemy left unnamed”'
+    claim: 'On that reading the people are still in their land'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/80.htm'
+    quote: 'the people are still on the soil of their fatherland'
+  - where: 'note 80:1 “Joseph and Rachel’s three tribes, and an enemy left unnamed”'
+    claim: 'The poet has a particular nation in mind for the boar'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/80.htm'
+    quote: 'Without doubt the poet associates a distinct nation with the wild boar in his mind'
+  - where: 'note 80:1 “Joseph and Rachel’s three tribes, and an enemy left unnamed”'
+    claim: 'Kings tells the end of the northern kingdom'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/17?lang=eng'
+    quote: 'In the ninth year of Hoshea the king of Assyria took Samaria, and carried Israel away into Assyria'
+
+  # ---- note 80:1 cherubim ----
+  - where: 'note 80:1 “Enthroned on the cherubim, and asked to appear”'
+    claim: 'Cherubim were figures on the mercy seat of the ark, of unknown form'
+    key: bd-cherubim
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/cherubim?lang=eng'
+    quote: 'Figures representing heavenly creatures, the exact form being unknown. They are found in the Holy of Holies, on the Mercy Seat of the Ark'
+  - where: 'note 80:1 “Enthroned on the cherubim, and asked to appear”'
+    claim: 'A modern translation has “enthroned upon the cherubim”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2080&version=NRSVUE'
+    quote: 'You who are enthroned upon the cherubim, shine forth'
+  - where: 'note 80:1 “Enthroned on the cherubim, and asked to appear”'
+    claim: 'The Greek has “sittest upon the cherubs” and “manifest thyself”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/80.htm'
+    quote: 'thou who sittest upon the cherubs, manifest thyself'
+  - where: 'note 80:1 “Enthroned on the cherubim, and asked to appear”'
+    claim: 'The ark was called by the name of the LORD of hosts who dwells between the cherubim'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/6?lang=eng'
+    quote: 'the ark of God, whose name is called by the name of the Lord of hosts that dwelleth between the cherubims'
+  - where: 'note 80:1 “Enthroned on the cherubim, and asked to appear”'
+    claim: 'Psalm 99 uses the same description'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/99?lang=eng'
+    quote: 'he sitteth between the cherubims; let the earth be moved'
+  - where: 'note 80:1 “Enthroned on the cherubim, and asked to appear”'
+    claim: '“Shine forth” is the verb yapha (H3313), an imperative'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הוֹפִֽיעָ/ה'
+  - where: 'note 80:1 “Enthroned on the cherubim, and asked to appear”'
+    claim: 'The verb means shine out or forth, send out beams'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3313.htm'
+    quote: 'shine out or forth, send out beams, cause to shine'
+  - where: 'note 80:1 “Enthroned on the cherubim, and asked to appear”'
+    claim: 'It is used of the LORD in Deuteronomy 33:2, Psalm 50:2 and here'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3313.htm'
+    quote: 'Deuteronomy 33:2; Psalm 50:2; Psalm 80:2; Psalm 94:1'
+  - where: 'note 80:1 “Enthroned on the cherubim, and asked to appear”'
+    claim: 'Moses’ blessing uses it of the LORD at Sinai'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/33?lang=eng'
+    quote: 'he shined forth from mount Paran'
+  - where: 'note 80:1 “Enthroned on the cherubim, and asked to appear”'
+    claim: 'Psalm 50 uses it of God shining from Zion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/50?lang=eng'
+    quote: 'Out of Zion, the perfection of beauty, God hath shined.'
+  - where: 'note 80:1 “Enthroned on the cherubim, and asked to appear”'
+    claim: 'The refrain’s “cause to shine” is a different verb (H215)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/הָאֵ֥ר'
+
+  # ---- note 80:3 refrain ----
+  - where: 'note 80:3 “A refrain that grows, and a prayer about turning”'
+    claim: '“Turn us again” is one Hebrew word, a causative form of shub (H7725) with “us” attached'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הֲשִׁיבֵ֑/נוּ'
+  - where: 'note 80:3 “A refrain that grows, and a prayer about turning”'
+    claim: 'The lexicon lists the three refrains under “restore,” of a conquered nation'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7725.htm'
+    quote: 'conquered nation Psalm 80:4; Psalm 80:8; Psalm 80:20'
+  - where: 'note 80:3 “A refrain that grows, and a prayer about turning”'
+    claim: 'That sense of the causative form is give back, restore'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7725.htm'
+    quote: 'give back, restore, accusative of person or thing'
+  - where: 'note 80:3 “A refrain that grows, and a prayer about turning”'
+    claim: 'A modern translation has “Restore us, O God”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2080&version=NRSVUE'
+    quote: 'Restore us, O God;'
+  - where: 'note 80:3 “A refrain that grows, and a prayer about turning”'
+    claim: 'Lamentations prays the same prayer'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lam/5?lang=eng'
+    quote: 'Turn thou us unto thee, O Lord, and we shall be turned; renew our days as of old.'
+  - where: 'note 80:3 “A refrain that grows, and a prayer about turning”'
+    claim: '“Return” in verse 14 is the same verb in its simple form'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שֽׁ֫וּב'
+  - where: 'note 80:3 “A refrain that grows, and a prayer about turning”'
+    claim: 'The lexicon reads verse 14 of the LORD returning to show favour'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7725.htm'
+    quote: 'return (to shew favour)'
+  - where: 'note 80:3 “A refrain that grows, and a prayer about turning”'
+    claim: 'The priests’ blessing in English'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/6?lang=eng'
+    quote: 'The Lord make his face shine upon thee, and be gracious unto thee:'
+  - where: 'note 80:3 “A refrain that grows, and a prayer about turning”'
+    claim: 'The priests’ blessing has the same verb “shine” (H215) with “face”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'יָאֵ֨ר'
+  - where: 'note 80:3 “A refrain that grows, and a prayer about turning”'
+    claim: 'The refrain’s “cause to shine” is that verb (H215)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/הָאֵ֥ר'
+  - where: 'note 80:3 “A refrain that grows, and a prayer about turning”'
+    claim: '“Countenance” in verse 16 is the word “face” (H6440)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פָּנֶ֣י/ךָ'
+
+  # ---- note 80:4 smoke ----
+  - where: 'note 80:4 “Smoke against their prayer, and tears by the measure”'
+    claim: '“Be angry” is the verb ashan (H6225), to smoke'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עָ֝שַׁ֗נְתָּ'
+  - where: 'note 80:4 “Smoke against their prayer, and tears by the measure”'
+    claim: 'The verb means smoke, be wroth'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6225.htm'
+    quote: 'verb denominative smoke, be wroth'
+  - where: 'note 80:4 “Smoke against their prayer, and tears by the measure”'
+    claim: 'Here, with a person as subject, it is “fume, i.e. be wroth”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6225.htm'
+    quote: 'subject person, fume, i.e.be wroth'
+  - where: 'note 80:4 “Smoke against their prayer, and tears by the measure”'
+    claim: 'The lexicon lists Psalm 74:1 under the figurative smoking of anger'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6225.htm'
+    quote: 'Deuteronomy 20:19; Psalm 74:1. Hence'
+  - where: 'note 80:4 “Smoke against their prayer, and tears by the measure”'
+    claim: 'A modern translation of the line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2080&version=NRSVUE'
+    quote: 'how long will you be angry with your people’s prayers?'
+  - where: 'note 80:4 “Smoke against their prayer, and tears by the measure”'
+    claim: '“In great measure” is the noun shalish, a third, the name of a measure of uncertain size, used also of dust in Isaiah 40:12'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7991.htm'
+    quote: 'third (part, i.e. of ephah? dubious), name of a measure; — for dust Isaiah 40:12, tears Psalm 80:6'
+  - where: 'note 80:4 “Smoke against their prayer, and tears by the measure”'
+    claim: 'The Hebrew word in verse 5'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁלִֽישׁ'
+  - where: 'note 80:4 “Smoke against their prayer, and tears by the measure”'
+    claim: 'A modern translation has “in full measure”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2080&version=NRSVUE'
+    quote: 'and given them tears to drink in full measure.'
+  - where: 'note 80:4 “Smoke against their prayer, and tears by the measure”'
+    claim: 'The Greek has “by measure”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/80.htm'
+    quote: 'Thou wilt feed us with bread of tears; and wilt cause us to drink tears by measure.'
+
+  # ---- note 80:8 vine ----
+  - where: 'note 80:8 “Israel’s story told as the transplanting of a vine”'
+    claim: 'The Greek has “transplanted”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/80.htm'
+    quote: 'Thou hast transplanted a vine out of Egypt: thou hast cast out the heathen, and planted it.'
+  - where: 'note 80:8 “Israel’s story told as the transplanting of a vine”'
+    claim: 'A modern translation capitalizes “the River”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2080&version=NRSVUE'
+    quote: 'and its shoots to the River.'
+  - where: 'note 80:8 “Israel’s story told as the transplanting of a vine”'
+    claim: 'Another translation’s footnote says the river of verse 11 is the Euphrates'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2080&version=ESV'
+    quote: 'Psalm 80:11 That is, the Euphrates'
+  - where: 'note 80:8 “Israel’s story told as the transplanting of a vine”'
+    claim: 'Moses named the Euphrates and the sea as the limits of the promised land'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/11?lang=eng'
+    quote: 'from the wilderness and Lebanon, from the river, the river Euphrates, even unto the uttermost sea shall your coast be'
+  - where: 'note 80:8 “Israel’s story told as the transplanting of a vine”'
+    claim: 'A modern translation’s cross-references set verse 8 beside Isaiah 5, Jeremiah 2:21 and Ezekiel 15'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2080&version=NRSVUE'
+    quote: '80.8 : Ps 44.2; Isa 5.1, 7; Jer 2.21; Ezek 15.6'
+  - where: 'note 80:8 “Israel’s story told as the transplanting of a vine”'
+    claim: 'Another translation’s cross-references add Ezekiel 17:6'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2080&version=ESV'
+    quote: 'Psalm 80:8 : Isa. 5:1; 27:2; Jer. 2:21; 12:10; Ezek. 17:6; Matt. 21:33; Mark 12:1; Luke 20:9'
+  - where: 'note 80:8 “Israel’s story told as the transplanting of a vine”'
+    claim: 'Jeremiah’s vine'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/2?lang=eng'
+    quote: 'Yet I had planted thee a noble vine, wholly a right seed'
+  - where: 'note 80:8 “Israel’s story told as the transplanting of a vine”'
+    claim: 'In Isaiah’s song the owner announces that he will remove the hedge'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/5?lang=eng'
+    quote: 'I will take away the hedge thereof, and it shall be eaten up; and break down the wall thereof, and it shall be trodden down'
+
+  # ---- note 80:17 son ----
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: '“Branch” in verse 15 is the Hebrew word ben, son (H1121)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בֵּ֝֗ן'
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: 'The lexicon lists ben “of plant-shoots” in Genesis 49:22, and this verse with a question mark'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1121.htm'
+    quote: 'of plant-shoots'
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: 'The lexicon also lists verse 15 under Israel as God’s son, with Exodus 4:22 and Hosea 11:1'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1121.htm'
+    quote: 'Exodus 4:22 compare Exodus 4:23; Hosea 11:1, see also Psalm 80:16'
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: '“Bough” in Jacob’s blessing of Joseph is the same word ben'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'בֵּ֤ן'
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: 'Jacob’s blessing of Joseph in English'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/49?lang=eng'
+    quote: 'Joseph is a fruitful bough, even a fruitful bough by a well; whose branches run over the wall:'
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: 'One modern translation prints “the son” in verse 15'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2080&version=ESV'
+    quote: 'and for the son whom you made strong for yourself.'
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: 'Another drops the half-line as repeated from verse 17'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2080&version=NRSVUE'
+    quote: '80.15 Heb adds from 80.17 and upon the one whom you made strong for yourself'
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: 'The Greek has “the son of man” in verse 15 as in verse 17'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/80.htm'
+    quote: 'and look on the son of man whom thou didst strengthen for thyself'
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: '“Vineyard” in verse 15 is a word the lexicon gives as root, stock, in a doubtful text'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3657.htm'
+    quote: 'support (of tree), i.e. root, stock'
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: 'The lexicon marks the text as doubtful'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3657.htm'
+    quote: 'is improbable Txt. dubious'
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: 'A modern translation has “the stock that your right hand planted”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2080&version=NRSVUE'
+    quote: 'the stock that your right hand planted.'
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: 'One older reading: the son is Israel, called out of Egypt'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/80.htm'
+    quote: 'as being the son whom Jahve has called into being in Egypt, and then called out of Egypt to Himself and solemnly declared to be His son on Sinai (Exodus 4:22; Hosea 11:1)'
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: 'The phrase plays on the name Benjamin'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/80.htm'
+    quote: 'with a play upon the name of Benjamin in Psalm 80:3'
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: 'On that reading the vine and the son of man are both the people'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/80.htm'
+    quote: 'the vine and the son of man are both the people of God'
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: 'Benjamin means “Son of the right hand”'
+    key: bd-benjamin
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/benjamin?lang=eng'
+    quote: 'Son of the right hand.'
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: 'The Targum is reported to render the son of verse 15 as the King Messiah'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/80.htm'
+    quote: '"and upon the King Messiah, whom Thou hast established for Thyself,"'
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: 'The Targum is counted among the old interpreters'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/80.htm'
+    quote: 'no one of the old interpreters (from the lxx and Targum onwards)'
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: 'The same commentary takes even the Targum’s Messiah as the nation'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/80.htm'
+    quote: 'it is not the Christ Himself, but the nation out of which He is to proceed, that is meant'
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: 'The Bible Dictionary lists this verse among Old Testament uses of “son of man” for simply a man'
+    key: bd-son-of-man
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/son-of-man?lang=eng'
+    quote: 'In the Old Testament the expression “son of man” is frequently used to denote simply “a man” (Num. 23:19; Job 25:6; Ps. 8:4; 80:17).'
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: 'A modern translation has “the one at your right hand”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2080&version=NRSVUE'
+    quote: 'But let your hand be upon the one at your right hand,'
+  - where: 'note 80:17 “The son, and the man of the right hand”'
+    claim: 'Hosea’s line about the son called out of Egypt'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/11?lang=eng'
+    quote: 'When Israel was a child, then I loved him, and called my son out of Egypt.'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'Christ was the Jehovah of the Old Testament'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'The Apostle Paul taught that Christ was the Jehovah of the Old Testament'
+  - where: 'christ'
+    claim: 'This psalm is among those that praise Jehovah as a shepherd'
+    key: pike-shepherd
+    url: 'https://rsc.byu.edu/celebrating-easter/jesus-great-shepherd-king'
+    quote: 'Several biblical psalms contain passages praising Jehovah as a shepherd.'
+  - where: 'christ'
+    claim: 'Jesus called Himself the good shepherd'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/10?lang=eng'
+    quote: 'I am the good shepherd: the good shepherd giveth his life for the sheep.'
+  - where: 'christ'
+    claim: 'A modern translation’s cross-references set verse 8 beside the Savior’s parable of the vineyard'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2080&version=ESV'
+    quote: 'Psalm 80:8 : Isa. 5:1; 27:2; Jer. 2:21; 12:10; Ezek. 17:6; Matt. 21:33; Mark 12:1; Luke 20:9'
+  - where: 'christ'
+    claim: 'The parable’s vineyard is planted and hedged'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/21?lang=eng'
+    quote: 'There was a certain householder, which planted a vineyard, and hedged it round about'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'Psalm 79 ends with the sheep of God’s pasture'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/79?lang=eng'
+    quote: 'So we thy people and sheep of thy pasture will give thee thanks for ever'
