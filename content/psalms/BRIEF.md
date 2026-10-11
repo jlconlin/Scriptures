@@ -1203,6 +1203,225 @@ Settled by the reviewers on 2026-10-10, by the standard and this brief, without 
 - Left as is, christ: Matt. 11:28 is the Church's footnote 22a, quoted once, as the Church's own link from verse 22 to the Savior.
 - Left as is: the older commentary in 3 of 9 notes (55:9, 55:12, 55:22), each labelled a reading; that is the brief's limit.
 
+**Chapter 57**
+
+- christ (finding 1): kept the short section the brief prescribes for a psalm no source reads of Christ, but reworded the second paragraph to the psalm's own words ('performs all things', the speaker 'asks' and 'promises'). Cut 'He is God most high, who completes what He undertakes' and 'His glory belongs over all the earth', which said more than any row.
+- thread (finding 2): cut 'which is told as a thing already done', a claim about the Hebrew tense with no row. 'The psalm reports no other rescue' stays as an observation a reader can check in the text.
+- setting and thread (finding 3): left 'The enemies are never named', 'half of it is praise' and 'low throughout the first half' as plain descriptions of the verses.
+- 57:0 Two caves (finding 4): 'After leaving Gath' became 'Early in it' (nothing quoted places Gath before the cave); the men urging David to strike now carries its reference, 1 Sam. 24:4.
+- 57:7 (finding 5): BDB's verse 6 entry is now 'compared with' preparing weapons, not 'listed with'. Cut 'The psalm does not point out the echo, but the Hebrew has it'. The shared verb in verses 6 and 7 stays as a fact of the Hebrew text.
+- 57:7: the note stays although footnote 7a gives 'steadfast', because it goes on to the shared verb, Ps. 112:7, Ps. 51:10 and the Greek.
+- 57:8 (finding 6): 'The speaker lay down among enemies' became 'says in verse 4 that he will lie down', to agree with the note on 57:4 and the Hebrew row.
+- 57:3: cut 'no longer coming down from heaven but reaching up to it', the chapter's own contrast between verses 3 and 10. That the pair returns in verse 10 stays.
+- 57:9 (finding 8): left as is. It is labelled one older reading throughout, and the commentary does cite both Ps. 18 and Ps. 22 at this verse.
+- 57:0 Al-taschith (finding 9): left as is; the checker found no difference from the sources.
+- The Bible Hub commentary stays in 3 of 9 notes (title, 57:8, 57:9), exactly the brief's limit of a third, each labelled a reading; the Student Manual is in one note.
+
+**Chapter 58**
+
+- Setting, 58:6, parallels (finding 1): Ps. 57:4's weapon-teeth belong to 'the sons of men', not the lions; all three places now say the speaker is among lions and among men 'whose teeth are spears and arrows'. Two ledger claims reworded to match.
+- 58:1 (finding 2): cut ''Gods' is the word of Psalm 82' (the word proposed here is elim, Psalm 82 has elohim); the note now says the reading 'gods' sends a reader to Psalm 82, quoting Ps. 82:1, and rests on the shared verb and the translation's cross-reference.
+- 58:1 (findings 3, 4): 'Modern translations do not print silence' became 'Two modern translations read another word'; the Greek has no word of address 'in the first half of the line', not 'at all'.
+- 58:1: the Church's heading ('wicked judges') was given in both setting and this note; it now stands once, in setting, and the note's row for it is removed.
+- 58:3 (finding 5): kept the note, because the Church's footnote 3b ties the verse to Ps. 51:5 and Scripture Helps sits beside 51:5, not beside this verse; the quoted Scripture Helps sentence is now paraphrased. Psalm 51 has no note on verse 5, so the reference is to the verse only.
+- 58:4 (finding 6): the opening no longer states the commentator's reading as fact ('that is the charge against the judges: they cannot be reached'); it says what the verse says, and the reading stays labelled 'one older reading' below. 'Other scripture knows the practice and its limits' became 'Ecclesiastes mentions the same practice'.
+- 58:6 and thread (finding 7): 'from here the speaker talks to' God became 'here the speaker turns to', since verse 9 addresses the judges again. The 'God' first, 'LORD' last detail was in both thread and note; it stays in thread only, and the note's two Hebrew rows and its oshb-wlc key are removed.
+- 58:6: cut 'That is the first thing to notice in any psalm of this kind' (the writer's own). The pointer to Ps. 137:8 stays here and in setting, and is removed from 58:10, where it was a third repetition.
+- 58:6: the Ps. 3:7 pointer is kept as navigation to the site's note on the same image, reworded to 'Psalm 3 also speaks of broken teeth'; the gloss 'as a thing God has already done' is cut.
+- 58:8 (finding 8): the note no longer says the King James takes the line of the arrows; it says the King James does not say whether 'them' is the arrows or the wicked.
+- 58:9 (finding 9, and STANDARDS section 4 rule 11): cut the Delitzsch paragraph (the meat in the pot, raw or cooked) with its two rows. It was a third reading the question did not need, and Delitzsch was the main idea of three notes. 'Common to the translations' became 'common to the translations quoted here'.
+- 58:10 (finding 11): 'Modern translations bring out that he is a witness' became 'One modern translation', since the New International Version has the righteous 'avenged'.
+- 58:11 (finding 12): 'the onlookers are brought to confess' became 'those who had been misled are compelled to confess', which is what the commentary says.
+- Section 1 plain (finding 10): 'you rulers' became 'you who judge', following the verse's own verb and the Church's heading, not one translation's choice for an uncertain word. Section 3's 'the green and the burning alike' is left: the King James is unintelligible there, the rendering has ledger rows, and the note on 58:9 explains the difficulty.
+- 58:0 (finding 13): 'The two Hebrew words' became 'The words', since no row carried the count.
+- Parallels, Isa. 48:8 (finding 14d): the gloss 'the figure of verse 3' is cut; the entry now only quotes the verse the Church's footnote 3a gives.
+- Left as is, 58:10: Ps. 68:21 beside footnote 10a's Ps. 68:23 is the same passage read in order, not a new connection.
+- Left as is, christ (finding 14f): it rests on the divine name in verse 6, the Church's footnote 11b and John 5:22, the short form the brief prescribes for a psalm no scripture reads of Christ.
+- Left as is: one ledger row under 'section 1 plain' ('Verse 1 can be rendered as addressed to rulers') no longer has a sentence to support; it is accurate and passes the checks.
+
+**Chapter 59**
+
+- 59:11: 'the verb comes back in verse 15' reworded to 'the same Hebrew verb, in its simple form' (verse 11 is causative, verse 15 simple as written); the link now rests on a new Delitzsch row, since he compares the two verses himself.
+- 59:11: cut the sentence tying the verb to Cain's 'vagabond' (Gen. 4:12) and its row; the lexicon only lists the verse and no source applies it to this psalm.
+- Explore: cut the bullet on 1 Sam. 24:8-15 (the 'skirt of Saul's robe' had no row and the bullet repeated note 59:3 and parallels), the cursing-psalms bullet (repeated the setting and note 59:11), and the 1 Sam. 20:1 half of the first bullet (repeated note 59:3), with its row.
+- Thread and tagline: 'Nothing outside the house changes' became 'The enemies do not change'; 'a man watching for God in the evening to a man who says what he will sing when it is light' and 'He no longer watches; he sings' reduced to the verb change the Hebrew shows, 'I will watch' to 'I will sing'.
+- Thread: the King James and modern-translation detail on verses 6 and 14 is now said once, in note 59:6; the thread points there and its duplicate row is removed.
+- Thread, left as is: the two halves of four parts (prayer with Selah, dogs at evening, 'But', refrain) are a pattern a reader can check in the verses, and Delitzsch notes the repeated distichs.
+- 59:6: 'The dog of the Old Testament narratives is a scavenger' narrowed to 'In the books of Kings', which is the set the lexicon's summary covers.
+- Setting: the unrowed definition of a lament cut; the sentence now only points to Ps. 22:1, as the brief directs.
+- 59:10, left as is: the Church's footnote gives the 'His' reading, but the note goes further (written and read forms, the Greek, verse 17's refrain with no variant). The clause glosses of ketiv and qere stay without a row of their own; the Hebrew rows show both forms.
+- 59:0 and 59:9, left as is: the title's 'watched' and the refrain's 'wait upon' are one Hebrew verb, confirmed in the text; the notes set them side by side and say nothing of what it means. No source read makes the link.
+- 59:3, left as is: the match of the psalm's three nouns with 1 Sam. 20:1 and 24:11 rests on the Hebrew of each verse, and the title asks for the psalm to be read with that story.
+- 59:16, left as is: morning as the hour set for the killing (1 Sam. 19:11) beside morning as the hour of the song states two texts and draws no meaning; Delitzsch also places the psalm against the order 'to slay him in the morning'.
+- Delitzsch stays in 3 of 10 notes (59:5, 59:11, 59:16) and the setting, each as 'one older reading'; no Church, BYU or Scripture Central source treats this psalm.
+
+**Chapter 60**
+
+- 60:6–8 (who speaks): the note set a modern translation's God-speaks reading and Delitzsch's king-speaks reading side by side as equals. The Church's chapter heading reads the lines as the Lord's acts, so the note now says the speaker is God, quotes the heading's clause once, and gives the king reading as the older reading only. Added a ledger row for the heading.
+- Thread: cut 'It has been divided into three parts of four verses each'. The source's division is by Hebrew verses (KJV 1–4, 5–8, 9–12) and does not match the chapter's sections or its turn at verse 6. Row removed.
+- Thread: 'its strong city still stands' reworded to 'the speaker is still outside its strong city', which is what verse 9 says.
+- 60:0 (to teach): cut the comparison with 2 Sam. 1:18 and its row. The link was the writer's; the lexicon files the two verses under different constructions. Delitzsch does make the link but is already at the brief's limit of a third of the notes.
+- 60:0 (wars): 'Edom, the people descended from Esau' reworded to the country, which is what the quoted Bible Dictionary words describe.
+- 60:0 (wars): left out Delitzsch's proposal that Samuel's 'Syrians' is a copyist's slip for Edom. The note states the discrepancy accurately, and adding the proposal would be new material.
+- 60:1: 'broken through their ranks' reworded to 'broken out upon them', the lexicon's sense; 'ranks' was not in the source.
+- 60:3: 'The wine is the defeat itself' cut as the writer's reading; the note now opens with what the verse says. The note stays although footnote 3a gives 'staggering', because it goes on to Isaiah 51.
+- 60:4: the opening sentence and the closing paragraph on what each reading means for the psalm's shape (first word of hope, or last line of complaint) were the writer's inference and are cut. The note now states the two renderings, with the King James first. 'In this form' dropped, since the other occurrence is a participle.
+- 60:6: cut Jacob's stops at Succoth and Shechem (Gen. 33:17–18), the writer's own join and partly the Church's footnote 6a, with its two rows; cut the closing paragraph, which repeated the thread.
+- 60:7: 'the two tribes that received what Reuben lost' reworded to what 1 Chr. 5:1–2 says. Cut the paragraph applying Isa. 11:13 to the oracle and the sentence on Ephraim's jealousy dividing the kingdom, with two rows; no source applies them to this verse.
+- 60:8: 'given a servant's places' (no source) replaced by a plain description of the three images. 'The Greek agrees with' Psalm 108 reworded: the Greek is a statement too, but it says Philistia is subjected, not that the speaker triumphs.
+- 60:10: the lexicon's 'through human agency' restored to the gloss on 'help'; the Greek is now quoted in full, since it makes both halves hopeful questions and the King James does not; cut 'It answers the plea of verse 5' and its row (the writer's link); the remark on the pronoun in verse 12 reworded to what the Hebrew has.
+- Explore: cut 'The cup taken away' and 'Jacob's blessing on Judah', which repeated the note on 60:3, christ and parallels.
+- Left as is, christ: the step from 'Judah is my lawgiver' to Gen. 49:10 and Shiloh rests on the shared Hebrew word and the Church's footnote 7a, and the section says the psalm itself goes no further.
+- Left as is, 60:4: the Church's footnote 4a is only a cross-reference for 'banner', so the Greek reading of the line contradicts no Church reading.
+- Left as is: Delitzsch in 3 of 9 notes (the wars, the oracle, the shoe), each as an older reading, which is the brief's limit.
+
+**Chapter 61**
+
+- christ (finding 1): left as written. The brief says a psalm no scripture or Church source reads of Christ gets a short christ section resting on what it says of the Lord, who is Jehovah; the sentence uses the Guide to the Scriptures' own words ('the covenant or proper name of the God of Israel'), and the Church's chapter heading calls this psalm's God 'the Lord'.
+- setting (finding 2): 'eight verses in two equal parts, with selah at the middle' kept, since it is visible in the text; the ledger row's claim no longer says the second part begins at verse 5, which its quote did not carry.
+- 61:0 title note (finding 4): cut 'and a different preposition' (no row for the Hebrew of the other titles) and matched the row's claim. 'Singular' kept: the lexicon sets this form against the plural of the six other titles.
+- 61:2 'Where the end of the earth may be' (finding 3): 'Mahanaim was no great way from Jerusalem' was stated as fact with no row; it now reads 'On this reading the distance was small in itself', which is as far as the commentary goes. 'East of the Jordan' kept on 2 Sam. 17:24.
+- 61:2 'A rock higher than the speaker' (finding 7): 'takes the last step and gives God the name' was the chapter's own; now 'The next psalm calls God the rock outright'. 'Verse 3 says without a figure' became 'Verse 3 says whom he is asking', since 'shelter' is itself a figure.
+- 61:5 (finding 5): cut the sentence on the uncertain text and the proposed correction to 'request', with its two rows. The lexicon page is garbled at that point, and the writer's own report called the point a curiosity.
+- 61:6 (finding 6): 'The King James makes the verses a prediction' became 'In the King James the verses say what God will do', which is the verse's plain wording and needs no source.
+- 61:6: the Targum's 'King Messiah' stays as the older commentary reports it, labelled one reading; no Church source reads the king of verses 6-7, so nothing is set beside the Church's reading.
+- explore: cut 'The rock named' (Ps. 62:1-8) and its row; setting, the note on verse 2 and parallels already say it. Kept 'Dwelling with God for ever' (Ps. 23:6; 91:1-4) as a reading pointer on shared wording, and the 2 Samuel bullet for the wider story.
+- thread: 'from there on he speaks differently' and the verse 5 / verse 8 vows link kept as observations of the text; the hear/heard verb link has a Hebrew row.
+- Pointer to Ps. 18:2 for tsur as a name of God kept: that note (on 18:2) has a paragraph on tsur said of God and Deut. 32:4.
+- The older commentary stays in 2 of 8 notes (61:2 and 61:6), inside the brief's limit of a third.
+
+**Chapter 62**
+
+- Setting: the unsourced claim that Book Two says 'God' far more often than 'the LORD' became a plain pointer to Ps. 42:1, where the count is made; this psalm's own count (seven 'God', one 'Lord') stays.
+- 62:1 (One small word): cut 'the particle carries the psalm's argument' and 'Each time the word narrows the field to a single thing' (the writer's own); the verse-by-verse list of the restrictive sense stays.
+- 62:1 (Waiting is silence): 'holds his tongue by his own resolve' replaced with Ps. 39:2's own words, 'I was dumb with silence'; cut 'The silence here is not the absence of prayer' (no source). That the psalm makes no request and addresses God only in its last verse stays, as plain from the verses.
+- 62:3: 'in most other renderings' became 'in other renderings, ancient and modern', since the rows are one translation and the Greek.
+- 62:3: cut the paragraph joining the wall to verse 2's 'moved' (a link made through the English word 'totter'; the Hebrew words differ) and its ledger row.
+- 62:5: the noun in verse 1 is now 'the Hebrew text as it was handed down', and the note says some interpreters would read the verb there too, with a new ledger row from the lexicon (confirmed by check-ledger).
+- 62:5: cut 'The order of the psalm shows what the change is for', 'He said his soul was still, he looked at them, and now he tells it to be still' and 'the thing he said he had is now the thing he waits for' (the writer's reading); the facts stay (the plotters stand between; 'salvation' becomes 'expectation').
+- 62:5: 'the refrain of Psalms 42 and 43' became 'the refrain of Psalm 42', which is what the row quotes.
+- 62:9: cut 'The weighing answers verse 8', 'the alternative to God is put on the scale' and 'On either reading no one is left out'; the shared Hebrew verb of verses 8 and 10 is stated as a fact.
+- 62:11: cut 'so the closing saying gives the reason for the earlier confidence' and the closing paragraph ('set in their place'), the writer's joins; power and mercy as the two things stays, on the Greek.
+- 62:12: 'readers have asked how judgment can be the ground of mercy' became 'how it is a reason has been read in more than one way', and the two answers are labelled as older readings, not as answers to a question one commentator raised.
+- 62:12 and christ: the Matthew 16:27 paragraph was cut from the note (it repeated christ) with its two rows, and nrsvue removed from the note's sources; christ now says the Savior 'uses nearly the same words', not 'says the same', since the link rests on the shared wording and a translation's cross-reference only.
+- Explore: cut 'Riches and the heart' (Jacob 2:18-19 is the Church's footnote 10c on the verse) and its row; 'a silence of a different kind' became 'the same word for silence'.
+- Left as is: 'It asks God for nothing', 'The enemies are not mentioned again', 'Psalm 39 is its near relation' and the thread's observations, which are checkable in the verses or shown by rows; the explore links to 1 Sam. 1:15, Lam. 2:19 and Isa. 40:15-17, which rest on a translation's cross-references and are offered only as reading.
+- Left as is: Delitzsch and Barnes in 3 of 9 notes (62:3, 62:6, 62:12), the brief's limit, each labelled a reading; no Church, BYU or Scripture Central source treats this psalm (no KnoWhy, no Scripture Helps section).
+
+**Chapter 63**
+
+- Setting: the Absalom placement is now 'the older reading' this chapter follows, with four new Delitzsch rows (Psalms 61-63 in Absalom's time; the title 'throws light upon the whole Psalm'; the enemies; the weariness of 2 Sam. 16:14). Cut the ark sent back (2 Sam. 15:25) and 2 Sam. 17:29, which no source joins to the psalm; 2 Sam. 16:14 ('came weary') replaces them because it is the verse Delitzsch uses.
+- Setting: cut Ps. 42:1-2 and 143:6 (the Church's footnotes 1b and 1c on verse 1); Ps. 61:4-7 stays, now tied to the reading that puts Psalm 61 in the same days.
+- 63:0 title note: cut 'twice', 'As a young man' and 'Years later' (no row); the confusing 'That reading answers' became 'The reading followed here answers'.
+- 63:1 'Early, or eagerly': cut the sentence that the King James's 'early' still fits the night watches (the chapter's own reading).
+- 63:1 'Faint in a weary land': cut the 2 Sam. 17:29 sentence and its row; Delitzsch makes the link with other verses, and it now sits in the setting as his.
+- 63:3: cut the closing sentence, which repeated the note's opening; the thread no longer repeats the life/while-I-live word link.
+- 63:4: the ritual proposal was told twice (the KnoWhy's summary, then Brown's study) and is now told once, as the brief requires; 'One Latter-day Saint study' and 'Those who report the sequence' removed; the note still closes by calling the sequence a reconstruction.
+- 63:5: cut the Eden-in-the-temple sentence and its row (Skinner says it of verses 2-5 as a whole, not of the fat) and 'He has no feast in front of him, and no water' (no row); Skinner removed from this note's sources.
+- 63:6: 'the same wakefulness' became 'the night watches as a time to meditate', which is what both verses say.
+- 63:8: 'often' corrected to the lexicon's 'sometimes'; 'gives the other side' reduced to quoting the second half of the line.
+- 63:9: 'a phrase used of the world of the dead' overstated the lexicon; now 'kindred phrases name Sheol', with Delitzsch's 'the interior of the earth down into its deepest bottom' as the older reading (new row).
+- 63:11: 'a reason in Hebrew' reworded to what the row supports (a modern translation has 'for'). The Deut. 10:20 cleave/swear observation stays as a word-fact: the lexicon lists this psalm at both verbs.
+- Thread and tagline: 'nothing in the wilderness changes' and 'before anything around him has changed' became what the psalm tells (no change told; satisfied in remembering); cut 'No water has been found'.
+- Christ: reordered to open with what the psalm says of God (verses 3, 5-8); the two John quotations are cut to references with a pointer to Psalm 42's chapter, which quotes them, so the footnote chain is not printed again.
+- Explore: cut 'Thirst and fatness' (Ps. 42 and 143 are the footnotes; no source applies Isa. 55 to this psalm) with its row; the first bullet no longer mentions the ark. Parallels: 2 Sam. 17:29 replaced by 2 Sam. 16:14.
+- Left as is: Skinner cited for the sentence he prints from another scholar (63:2); the first sentence of 63:9, since both translations have plain futures; Delitzsch in 3 of 11 notes, each as a reading, plus the setting.
+
+**Chapter 64**
+
+- Thread and 64:6: cut 'the hardest line in the psalm'; the one commentary read calls verse 8 'still more difficult', and no source ranks verse 6.
+- 64:5: cut 'In the King James the them is the snares' (no row; the commentary read takes 'them' as the plotters). The note now says only that a modern translation has 'us' and records the Hebrew 'them', which the King James keeps.
+- 64:5: cut the paragraph that printed the Church's footnotes (Secret Combinations, Alma 37:25, D&C 88:109), the Ps. 59:7 pointer, and the closing 'It does not say that God saw'. The note now rests on the translation and its Ps. 10:11 cross-reference, and points to the end of the chapter for the Restoration passages.
+- 64:5 and christ: 'To Alma He said' was wrong. Alma is repeating to his son what God had spoken (Alma 37:24-25); christ now says so, with a new ledger row.
+- christ: cut 'The psalm's other claim about Him is that secrecy does not work against Him' (the chapter's own). Alma 37:25 and D&C 88:109 are now quoted once, in christ, as what the Church's edition sets beside verse 5.
+- 64:7: 'finds the point of the echo in its timing' became 'stresses its suddenness', since the commentary speaks of suddenness and retribution, not of repeated words. The Greek past tense is narrowed to verse 9. Cut 'unusual' and 'The speaker describes the end as a thing already seen'.
+- 64:7: the cursing-psalms pointer now goes to Ps. 5:10, where the brief places the full note and where it is written, instead of Ps. 137:8.
+- 64:8: cut the Prov. 18:7 paragraph (the Church's footnote 8a), Ps. 140:9 (no source applies it to this verse) and 'first weapon named, last thing named'. 'The readings below agree' stays: it is true of the readings printed.
+- 64:4: cut 'The word bears on how the attack is to be judged' and the two sentences after it (the writer's own reading).
+- 64:3: cut 'That is the danger the speaker asked to be hidden from in verse 2' and the paragraph quoting Ps. 57:4 and Jer. 9:3 (footnotes 3a and 3b). Those references now sit only in explore and parallels.
+- 64:2: cut the link from verse 2's council to 'commune' in verse 5, and 'neither Hebrew word quite matches the King James'. The note opens with the two gatherings, a private circle and a crowd.
+- 64:10 and thread: cut the join of 'Hide me' (verse 2) to taking refuge (verse 10). The two are different Hebrew verbs and no source joins them.
+- 64:1: 'the speaker tells God at the start what kind of prayer this is' became 'The grievance itself fills verses 3-6'.
+- 64:9: 'what this fear produces' and 'those who fear go further' became a plain statement of what verses 8 and 9 each say.
+- Tagline: 'their own arrow' corrected; in verse 7 the arrow is God's.
+- Explore: cut Ps. 7:15 and Ps. 140:9 (no source applies them here) and the 'Secret works' bullet, which christ now carries. The bullets kept are Prov. 18:7 and the tongue as a weapon.
+- Left as they were: Delitzsch in 3 of 10 notes, each as one reading (the brief's limit); the thread's widening from 'my life' to 'all men', which is the psalm's plain words; no note on the title, with setting pointing to Ps. 8:1.
+
+**Chapter 65**
+
+- Tagline: 'atones in His house' became 'atones for sin'; neither the verse nor any row places the atoning in the house.
+- Setting: cut 'It stands in Book Two of the Psalter' (no row; the book page shows the division).
+- Thread: 'stills two things with one verb' reworded so it no longer contradicts the note's three objects; the closing summary is now given as the older reading's own point (the hand of the one who answers prayer and forgives sin), with a new ledger row.
+- 65:1: retitled 'Praise that waits, or praise that is due'. Cut the rendering 'to thee silence is praise' and the lexicon's gloss for Ps. 62:1, which the lexicon itself marks doubtful; the note now says only that the King James has 'waiteth' for the same word there 'as the Hebrew text stands'. 'The Greek translators read the word differently' became 'the Greek translation has instead'. 'Zion' now carries a reference (Ps. 2:6).
+- 65:3: 'a pronoun the verb does not need' and 'underlines who acts' cut (no source says the pronoun is emphatic); the note states only that the Hebrew has a separate pronoun. Cut 'says why it must be God' and the paragraph on 'me' and 'our' (the writer's reading, no source).
+- 65:4: cut the Numbers 16:5 comparison, its five ledger rows and its parallels entry. No source joins the verses, and the Church's footnotes at Num. 16:5 do not cite the psalm. Also cut 'nobody in the psalm approaches on his own'. The note is now kind Language, opening with who 'the man' is.
+- 65:5: cut 'The verb answer picks up verse 2' (the Hebrew verbs differ) and 'the next three verses give examples'; kept the plain statement that verse 2 has God hearing and verse 5 answering.
+- 65:7 (Witness of Christ): kept although footnote 7a gives Matt. 8:26 and Ps. 89:9, because it adds the disciples' question, Mark's wording and the lexicon's fact about the verb. The Jehovah sentence now rests on the Guide to the Scriptures' 'the God of Israel', since the psalm says 'God' and never 'LORD' (new row). Cut the closing sentence about 'the psalm's own address'.
+- 65:7 (sea and nations): the opening no longer states the figure as fact ('the verse sets the sea beside the nations'); 'Isaiah uses the same picture and spells it out' cut so that the link to Isaiah 17 is the older reading's; cut the last paragraph tying the stilling to verse 5.
+- 65:9: cut 'that never runs dry' and 'the kind a farmer cuts to bring water to a field' (not in the lexicon).
+- 65:11: cut 'the first half of the verse says the same thing without the picture' (the writer's own line; 'crowned' is itself a picture).
+- 65:13: cut the sentence joining the reading to verses 8 and 12. Reordered so the older reading's 'beginning of the Psalm' is tied to verse 1's praise and the title-word observation (song / they sing) stands separately on the Hebrew.
+- christ: cut the argument from silence ('does not say that any offering of his will'). The atonement paragraph stays as what the psalm says of its God, who is Jehovah, per the brief; it claims no typology.
+- explore: cut the Deuteronomy 11 bullet and Ps. 107 (no source pairs them with this psalm; 'ties its rain to the commandments' had no row) and the Ps. 46:4 bullet (it repeated the note on 65:9). Added a pointer to Ps. 24:3, the brief's anchor for approaching the Lord's house.
+- parallels: the Ps. 62:1 entry reworded to the King James's 'waiteth' for the same Hebrew word.
+- Delitzsch stays in 3 of 9 notes (65:4, the second note on 65:7, 65:13), the brief's limit, each labelled an older reading.
+
+**Chapter 66**
+
+- setting: 'the psalm does show that God's house was standing and that sacrifice was offered there' reworded to what verses 13-15 say (the speaker means to go into God's house with burnt offerings); the inference had no row.
+- thread: 'a series of lines that all begin with what God did' corrected to 'all but one', agreeing with the note on 66:10; 'verse 7 says why it is told now' reworded to 'verse 7 goes on in the present', since the 'why' is Delitzsch's reading.
+- 66:3: cut the claim that the Greek 'kept the older sense' (no source says so); the feigned-obedience sense is now given as the lexicon's explanation of a related form of the verb, and Deut. 33:29 is called the related form rather than 'the same verb'.
+- 66:6: cut Joshua 4:23 ('Joshua joined the two... The psalm does the same thing') and the link of 'there did we rejoice' to the song of Exodus 15; no source read applies either to this verse (Delitzsch cites Joshua 5:1 for the 'we'). The closing sentence on verse 7 is now marked as the same older reading.
+- 66:10: cut the paragraph joining the verse to Isa. 48:10, Zech. 13:9 and Mal. 3:3 (the writer's own connection; Delitzsch could not be cited there without exceeding a third of the notes) and its three rows; 'the metalworker's verb' reworded to 'a verb for working metal'.
+- 66:12: retitled 'Brought out into abundance' and reordered so the Hebrew as it stands (which agrees with the Church's footnote 'HEB bountiful') leads and the versions' 'relief' reading follows as a variant, not an equal alternative; cut the Isaiah 43:2 paragraph, which only repeated footnote 12a (explore still points to the site's note on Isa. 43:2).
+- 66:15: 'These were of that kind' (the writer's application of the Bible Dictionary to this psalm) reduced to what verse 14 says; 'verse 15 names all three' corrected to what the verse has (bullocks, rams, goats, fatlings); four of the five Bible Dictionary quotations paraphrased, keeping only the one on the Hebrew name of the burnt offering.
+- 66:18: opening sentence now hedged ('perhaps') as the lexicon is, and the note retitled 'What it is to regard iniquity in the heart' so the title no longer states one reading as fact.
+- christ: rebuilt on 1 Cor. 10:1-4 and the Guide to the Scriptures' statement that Paul there taught Christ was the Jehovah of the Old Testament, without saying the psalm itself names Jehovah (it does not use the divine name); the second paragraph, which restated footnotes 3a and 4a (D&C 49:6; 88:104), was cut as duplicating the Gospel Library.
+- explore and parallels: cut 'The song at the sea' (Ex. 15; Josh. 4:21-24), the furnace of Isa. 48:10, Jonah 2:9, and the parallels Josh. 4:23 and Zech. 13:9, all connections no source read makes to this psalm.
+- Left as is: 66:1 'The God is Israel's, and the praise is asked of everyone' (the verse's own 'our God'); the Ps. 116 pointer in explore (Hopkin and Hopkin list both psalms as songs of thanksgiving); the Greek variant in 66:18 (short, and a real textual difference); Delitzsch in 3 of 9 notes, each labelled a reading.
+
+**Chapter 67**
+
+- Setting: cut "so it comes from a people who knew that blessing" (the writer's inference). The heading "A messianic psalm" is now paraphrased there and quoted once, in the Christ section.
+- Thread: cut "the longest verse in the psalm" and "The psalm addresses God directly only where the nations are in view" (no source, and verses 6-7 also have the ends of the earth in view). The ring description and the pronoun shifts stay as checkable in the text.
+- Section 3 plain (67:6-7): returned to the King James future ("will give", "will fear"). The paraphrase had followed the NRSVUE's past tense and "revere" over the Church's edition; its two rows were removed.
+- 67:1: cut "What the psalm puts in its place is verse 2" (the writer's join). The pointer to Ps. 4:6 stays, since Psalm 4 has that note, and now has a row quoting Ps. 4:6.
+- 67:2 (Blessed so that the nations may know): "that is its whole point" became "One reading of the verse puts it as a rule". Cut the second Delitzsch quotation, which comes from his comment on verse 6, and removed its row.
+- 67:2 (Saving health): the note listed the three references of footnote 2a, which the Gospel Library already shows. It is now a Language note on the Hebrew noun and the Greek and modern renderings. Mosiah 15:28 and D&C 133:37 were cut with their rows; Simeon (Luke 2:30-32) is quoted once, in the Christ section, as where the footnote points.
+- 67:3: "every nation and not on Israel" became "the nations of the world and not on one people". Cut the closing paragraph ("That settles who is speaking to whom"), the writer's reading of a plural.
+- 67:4: "the verb beside it is a shepherd's" became "means to lead" (the lexicon's sense). Cut "what Israel said of its own God", "there too it is good news" and "not for what He has done for Israel".
+- 67:6: "other translations" became "the ancient Greek and a modern translation". Cut "the line is the psalm's evidence" and "God has done the small thing He promised, so He will do the great one". Cut the claim that the Church's footnotes "follow" the future reading; the note now says only what footnotes 6a and 6b give. The tenth article of faith is quoted once, in the Christ section.
+- Christ, shining face: the step from 3 Nephi 19:25 to this psalm now rests on the Church's heading ("The Lord will cause His face to shine upon men") and on the Church's footnote at 3 Ne. 19:25, which gives Num. 6:25 (seen on the page this session). The KnoWhy's "fulfilled in a very literal sense" is given as a reading of that scene; "great high priest" was cut with its row.
+- Christ, opening: "carry three of the psalm's lines to Jesus Christ" became "show where three of the psalm's lines lead".
+- Christ, earth's renewal: the link from footnote 6b ("TG Earth, Renewal of") to the tenth article of faith stays. It rests on the article's own words ("the earth will be renewed"), not on the Topical Guide page, which would not load.
+- Explore: cut the bullet on Psalms 96 and 98, which repeated the note on 67:4 and the parallels.
+- Left as is, 67:0: "asks for stringed instruments" rests on the NRSVUE row, and Neginoth is explained at Psalm 4's title note.
+- Left as is: Delitzsch in 2 of 7 notes, each as "one reading", plus setting, thread and explore; this is within the brief's limit.
+
+**Chapter 68**
+
+- Setting: cut 'stands entirely alone' and its row. In the commentary the phrase is part of an argument against the title's ascription to David, which the brief says no chapter takes up.
+- Setting: 'The psalm is old, and it is hard' became 'The psalm is hard'; the early date stays only as what the Hebrew 'has been placed' in. 'Several of its words occur only here' became 'Two', the number the rows support.
+- Setting and christ: the Church's 'messianic' chapter heading was mentioned in both; it now stands once, in christ, and the setting row was removed.
+- Setting, 68:8 and parallels: 'almost word for word', 'The differences are small' and 'nearly the same Hebrew' reduced to 'share much of their wording', 'They differ too' and 'much the same Hebrew'; the note itself lists what differs.
+- 68:8: cut the paragraph dating both poems to the earliest Hebrew, which repeated the setting, and removed the KnoWhy from the note's sources and its row. The echo of Deborah's song in verse 13 is now 'perhaps', as the lexicon marks it with a question mark.
+- Thread: cut 'the description is not of a warrior' (verses 1-2 are warlike and no source says it), 'the summit, and the psalm turns there' (the source says only that the psalm divides in two after verse 18), and 'receive what He provides' for the woman of verse 12, who divides the spoil.
+- Thread and 68:17: 'the verse joins the two mountains of the psalm' and the identification of the holy place with the hill of verse 16 were the writer's join; both now say only that verse 17 names Sinai and the holy place together.
+- 68:1: cut the closing sentence that repeated the thread. Kept 'the same two words for the enemies' and added four Hebrew rows for it (Num. 10:35 and Ps. 68:1, read with hebrew.mjs).
+- 68:4 (rider): cut the last paragraph, 'one rider in two places', a connection of the writer's own.
+- 68:11: the reading now names Miriam and Deborah as the source does and marks that its list of deliverances is longer; cut the last paragraph, whose claim that the psalm says only that kings fled is contradicted by verse 14.
+- 68:13: the lexicon's order restored: the Judges word is 'probably fire-places or ash-heaps', though most interpreters take it as 'sheepfolds'.
+- 68:16: the lead is hedged ('probably watching with envy, not leaping'), since the sense comes from a verb found only here.
+- 68:18: 'one word changed' became 'gave where the psalm has received'; 'without following the Greek version', said in the chapter's voice from the commentary, is replaced by the plain fact that the Greek has 'received'.
+- 68:22: 'Both answers are old' became 'Two answers have been given'; the second reading's age has no source.
+- 68:24: the lead now says the procession may be the worshippers' or God's own, as the lexicon does; the translation's verse 26 is said to be set in quotation marks, not to be 'the words the company sings'.
+- 68:31: cut the tie to verse 29, 'looks through Egypt to the country beyond it', 'clear in every version', and the closing sentence that repeated the tagline; the note is now Cush and the uncertain word for 'Princes'.
+- Left as is, 68:20 and 68:6: thin (lexicon and translations) but each answers a question the King James wording raises and neither repeats a Church footnote.
+- Left as is, 68:1, 68:8, 68:18: the Church's footnotes give the references, but each note goes past them (the Hebrew compared, what is changed, Paul's 'gave' for 'received').
+- Left as is, setting: the two occasions stay as two proposals although the commentary prefers the second; the chapter claims no more than that both have been proposed.
+- Left as is, christ: its second paragraph rests on what the psalm says of the Lord under the name JAH, as the brief directs for a psalm's christ section; no typology added.
+- Left as is: Delitzsch in 4 of 14 notes (68:11, 13, 18, 22), under the brief's third, each labelled a reading. No Scripture Helps chapter covers Psalm 68, so there was no endnote to follow.
+
 ## Reader questions no source answered
 
 *(`scripts/batch-notes.mjs` appends them here.)*
@@ -1266,3 +1485,15 @@ Settled by the reviewers on 2026-10-10, by the standard and this brief, without 
 - **56:** 56:10: what promise 'his word' is for David in particular; only the outside commentary's general 'word of His promise' was found; 56:8: why a bottle of tears, beyond 'kept account of'; no source read says what the image signifies, and the writer's own answer was cut; 56:0 and 1 Sam. 21: how 'took him' squares with David going to Gath of his own accord; no source read reconciles them, so the note only sets the narrative's words beside the title; Whether any latter-day prophet has taught from this psalm (the writer found none; no Scripture Helps chapter or KnoWhy covers it).
 - **48:** 48:8 'As we have heard, so have we seen': what had been heard. No Church or Latter-day Saint source answers it; Delitzsch says it is 'the tradition of a past age', which I did not add because he is already in a third of the notes; Whether D&C 97:19 ('Zion is the city of our God... Zion cannot fall') echoes this psalm: the writer found no source making the link and left it out; I did not look further; 48:14: no source settles whether the last words are 'unto death', 'for ever' or a misplaced musical term; the note gives the three without choosing.
 - **55:** Why does the speaker wish for a dove's wings and the wilderness (verses 6-8)? There is no note; the only source the writer found was the older commentary, already at its limit; Why does 'evening' come first in verse 17, and is this a custom of set prayer times? No source read answers it; Has a latter-day prophet or apostle taught from 'Cast thy burden upon the LORD' (verse 22)? The writer's one search of the Church's site found nothing; Does any Church source read verses 12-14 of Judas? The Topical Guide entry on the Savior's betrayal would not load for the writer, so the chapter says only that one older commentary does; What does 'shall not live out half their days' (verse 23) mean? There is no note.
+- **57:** Verse 6: whether the pit the diggers fall into is a set image with a history (Ps. 7:15; 9:15). The Church's footnote already gives 9:15, so no note was written; Verses 5 and 11: why a man among lions asks that God be exalted, and why twice. No source read answers it; the thread only describes where the refrain falls.
+- **58:** 58:10: what washing the feet in the blood of the wicked signified to its first hearers. The writer found no readable source; the note says only that the righteous man sees the vengeance and does not take it, and quotes Ps. 68:21, 23; 58:2: what 'weigh the violence of your hands' means. The scales-of-justice reading is in Delitzsch only and was not written as a note; the plain words keep 'weigh out'; 58:11: whether 'reward' is literally 'fruit'. The lexicon page was not read, so nothing is said.
+- **59:** Whether any Latter-day Saint source reads Psalm 59: the writer found no Scripture Helps chapter, no KnoWhy and no Latter-day Prophets material; What 'unto the ends of the earth' in verse 13 means beyond its words.
+- **60:** What the psalm was 'to teach', and to whom (title). The one source that says (Delitzsch: a song for the practice of arms) would put him over a third of the notes; Which city is the 'strong city' of verse 9. The note says only that it is a fortified city in Edom; Delitzsch's identification with Sela/Petra was left out; Why Samuel calls the enemy in the valley of salt 'Syrians' when Chronicles and the title say Edom. The note states the difference without explaining it.
+- **61:** What 'the heritage of those that fear thy name' (61:5) is: the note gives the word's use of land and that the Hebrew has no 'me', but no Church, BYU or Scripture Central source answers it, and the older commentary's answer (the land won back from the rebels) was left out to hold its limit; How a king's years can be 'as many generations' and he 'abide before God for ever' (61:6-7): answered only by the one older reading of the King Messiah and a pointer to Ps. 21:4; no Latter-day Saint source was found on these verses; No latter-day prophet or Latter-day Saint study on 'the rock that is higher than I' was found by the writer (Scripture Helps has no section on Psalm 61 and no KnoWhy names it); footnote 2a's Topical Guide entry 'Rock' would not print for the writer and I did not retry it.
+- **62:** Who 'ye people' of verse 8 are: only Delitzsch answers (David's remaining followers), and he is already at the limit of a third of the notes; Whether a latter-day prophet has taught from this psalm: the writer's search found nothing, so there is no Latter-day Prophets note; Why judgment by works is given as the ground of mercy (verse 12): answered only by two older commentaries' readings, with no Latter-day Saint source found.
+- **63:** What the 'power and glory' seen in the sanctuary were (verse 2): the note says the psalm does not say; Why the enemies are left to foxes or jackals (verse 10): only the lexicon's 'eating offal' was found; no source read says it means the dead left unburied.
+- **64:** Why the psalm says 'God' throughout and 'the LORD' only in its last verse: note 64:10 states the fact and Book Two's habit, but no source read explains it; Who the enemy is and what occasion lies behind the psalm: the title names none, and the commentary read says it cannot be fixed; Whether 'them' in 'Who shall see them?' (verse 5) means the snares or the plotters: the note gives the modern translation's 'us' and the Hebrew 'them' and does not settle it.
+- **65:** 65:11: why the harvest is the year's 'crown' (only Delitzsch answers, and he is at the limit of a third of the notes); 65:3: why the verse moves from 'me' to 'our' (no source read explains it; the observation was cut); Whether a latter-day prophet has taught from Psalm 65 (no KnoWhy, and Scripture Helps has no section on it).
+- **66:** What event lies behind the trial of verses 10-12: the one commentary read says it cannot be identified, and nothing else speaks to it; Who the 'I' of verses 13-20 is (a king, a leader, any worshipper): only Delitzsch addresses it, as the poet speaking for the congregation; Whether a latter-day prophet has taught from this psalm: no KnoWhy, no Scripture Helps section and no conference talk was found by the writer, so there is no Latter-day Prophets note.
+- **67:** What "fear him" means in 67:7 (reverence or dread): the writer found no source for a gloss, and the paraphrase keeps the King James word; Whether a latter-day prophet or apostle has taught from Psalm 67: the writer found none.
+- **68:** Why verse 27 names these four tribes (Benjamin, Judah, Zebulun, Naphtali): only Delitzsch explains it, and he is at the brief's limit; What 'white as snow in Salmon' (verse 14) means: the one source read offers three guesses; Who the 'company of spearmen' and the bulls of verse 30 are: the Church's footnote gives the Hebrew ('beasts that dwell among reeds'); only Delitzsch identifies them with Egypt; Why Paul has 'gave gifts' where the psalm has 'received' (68:18): no Latter-day Saint source read treats it; the note gives one older commentary's explanation as a reading.

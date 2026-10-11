@@ -312,3 +312,60 @@ The coordinator's leads from the brief's research. Each would have to show an ar
 - (55) Not being moved (tottering): Ps. 15:5; 16:8; 46:5; 55:22; 62:2.
 - (55) Flight to the wilderness and the wish for refuge: Ps. 11:1; 55:6-8.
 - (55) Casting care on the Lord: Ps. 37:5; 55:22, with 1 Pet. 5:7.
+
+## Reported by chapters 57–68 (not yet sorted)
+
+- (57) Refrains that divide a psalm (42-43; 46; 56; 57:5, 11; 59; 80; 107).
+- (57) Night and morning in David's psalms: lying down among enemies and waking to praise (3:5; 4:8; 5:3; 57:4, 8; 59:16).
+- (57) Praise promised among the nations by one delivered man (18:49; 22:27; 57:9; 108:3), which Paul carries to the Gentiles (Rom. 15:9).
+- (57) Mercy and truth as a pair (25:10; 40:11; 57:3, 10; 61:7; 85:10; 89:14).
+- (58) Unjust judges and the God who judges (58:1, 11; 82:1-8; Mosiah 29:11-12 by the Church's footnote).
+- (58) The cursing psalms (58:6-10), already placed at 137:8.
+- (58) The enemy's teeth and lions (3:7; 57:4; 58:6).
+- (59) Morning as the hour of God's help and of praise (59:16; cf. 30:5; 46:5; 90:14; 143:8).
+- (59) The LORD's laughter (2:4; 37:13; 59:8).
+- (59) Enemies as animals: dogs (22:16, 20; 59:6, 14), lions, bulls.
+- (59) Protest of innocence in the psalms of Saul's pursuit (7:3-5; 17:3; 59:3-4).
+- (59) Punishment 'that they may know' God rules (59:13; 83:18; 9:20).
+- (60) God casts off His people and is still the only one they pray to (60:1, 10; 44:9, 23; 43:2; 74:1; 77:7; 88:14; 89:38; 108:11).
+- (60) The cup or wine from God's hand (60:3; 75:8; with Isa. 51:17–22).
+- (60) 'Vain is the help of man': rescue is God's alone (60:11; 108:12; 33:16–17; 118:8–9; 146:3).
+- (60) Psalms that reuse other psalms (60:5–12 in 108:6–13).
+- (60) Ephraim and Judah named together (60:7; 78:67–68; 108:8).
+- (61) God as rock and refuge (61:2-3; 62:2, 6-7; 18:2; 19:14; 27:5).
+- (61) Dwelling in God's tent or house for ever (61:4; 15:1; 23:6; 27:4-5; 91:1-4).
+- (61) Prayer for the king's endless life (61:6-7; 21:4; 72).
+- (61) Mercy and truth as a pair (61:7; 40:11; 85:10; 89:14; Prov. 20:28).
+- (61) Vows and praise at the close of a lament (61:5, 8; 22:25; 56:12).
+- (62) Refrains that change on their return: Ps. 62:1-2 and 5-6; 42:5, 11 and 43:5; 49:12 and 20; 56:4 and 10-11.
+- (62) The psalmist addressing his own soul: Ps. 42:5; 43:5; 62:5; 103:1; 116:7; 146:1.
+- (62) Humankind as a breath (hebel): Ps. 39:5-6, 11; 62:9; 94:11; 144:4.
+- (62) God as rock (tsur) and refuge: Ps. 18:2; 19:14; 28:1; 31:2-3; 61:2-3; 62:2, 6-7; 71:3; 89:26; 94:22.
+- (62) Judgment according to works: Ps. 28:4; 62:12; Prov. 24:12; Matt. 16:27; Rom. 2:6.
+- (62) Trust in riches: Ps. 49:6; 52:7; 62:10.
+- (63) Thirst for God and living water: 63:1 (with 42:1-2; 143:6); already listed under Psalm 42.
+- (63) Seeing God in the sanctuary: 63:2 (with 11:7; 17:15; 42:2).
+- (63) The shadow of His wings: 63:7 (with 17:8; 36:7; 61:4).
+- (63) The right hand that holds: 63:8 (with 73:23).
+- (63) Cleaving to God: 63:8 (with Deut. 10:20).
+- (63) The king in the psalms of David's flight: 61:6-7; 63:11.
+- (64) The wicked undone by their own device (64:7-8; with 7:15-16; 9:15-16; 57:6; 140:9).
+- (64) The tongue as a weapon (64:3; with 52:2-4; 55:21; 57:4; 59:7; 120:2-4).
+- (64) 'Who sees?': the claim that God does not see or hear (64:5; with 10:11; 59:7; 94:7).
+- (65) The Lord's rule over the sea, and Jesus stilling the storm (65:7; 89:9; 93:3-4; 107:23-30; Matt. 8:23-27).
+- (65) The nations as roaring waters stilled by God (65:7; 46:6; Isa. 17:12-13).
+- (65) All flesh and the ends of the earth coming to Israel's God (65:2, 5, 8; 22:27; 67; 86:9).
+- (65) Water from God: the river or channel of God (65:9; 46:4; 1:3; 36:8).
+- (65) Creation rejoicing (65:8, 12-13; 96:11-12; 98:7-8).
+- (66) The nations called to praise Israel's God: 66:1-4, 8 (with 47:1; 67; 96; 117).
+- (66) The Exodus sung again in the Psalms: 66:6 (with 74:13-15; 77:16-20; 78; 106; 114; 136).
+- (66) God as refiner: 66:10 (with 12:6; 17:3; 26:2).
+- (66) Vows paid in the Lord's house: 66:13-15 (with 22:25; 50:14; 56:12; 61:8; 65:1; 116:14-19).
+- (67) The priests' blessing prayed back and the shining face of God: 4:6; 67:1 (leads not read: 31:16; 80:3, 7, 19; 119:135), with 3 Ne. 19:25.
+- (67) Israel blessed for the nations' sake, and the nations called to praise: 67:2-5, 7; 96:10; 98:9 (leads: 47, 117).
+- (67) The Lord's judging of all peoples as a reason for joy: 67:4; 96:10-13; 98:9.
+- (68) Sinai remembered in the Psalms: 68:8, 17 (with 50:2-7; 81:7-10).
+- (68) The nations bringing gifts to Zion and called to praise: 68:29-32 (with 47; 67; 72:10; 76:11).
+- (68) Older scripture sung again in the Psalms: Num. 10:35 (68:1; 3:7), Judges 5 (68:7-8, 18, perhaps 13), Deut. 33 (68:17, 33).
+- (68) God as father of the fatherless and defender of the widow: 68:5 (with 10:14; 82:3; 146:9).
+- (68) God or the King going up to His hill: 68:16-18, 24 (with 24; 47:5).
