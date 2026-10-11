@@ -1,0 +1,347 @@
+chapter: 104
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The psalm has no title in the Church’s edition; verse 1 begins the text'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/104?lang=eng'
+    quote: 'Bless the Lord, O my soul. O Lord my God, thou art very great; thou art clothed with honour and majesty.'
+  - where: setting
+    claim: 'The ancient Greek translation heads the psalm “A Psalm of David”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/104.htm'
+    quote: 'A Psalm of David. Bless the Lord, O my soul.'
+  - where: setting
+    claim: 'Psalm 103 opens and closes with the same line (occurrences.mjs psalms "Bless the LORD, O my soul": 103:1, 103:2, 103:22 and 104:1 only; 104:35 has “Bless thou the LORD, O my soul”)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/103?lang=eng'
+    quote: 'bless the Lord, O my soul.'
+  - where: setting
+    claim: 'One reading of the pair: Psalm 103 praises God’s rule in the kingdom of grace, Psalm 104 His rule in the kingdom of nature'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/104.htm'
+    quote: "God's rule in the kingdom of nature, as there in the kingdom of grace, is the theme of praise"
+  - where: setting
+    claim: 'The psalm’s subject is providence sustaining all forms of life (the Church’s chapter heading)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/104?lang=eng'
+    quote: 'Through His providence He sustains all forms of life'
+  - where: setting
+    claim: 'Hebrews 1:7 quotes verse 4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/1?lang=eng'
+    quote: 'And of the angels he saith, Who maketh his angels spirits, and his ministers a flame of fire.'
+  - where: setting
+    claim: 'Psalm 145:15–16 has the lines of verses 27–28 again'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/145?lang=eng'
+    quote: 'The eyes of all wait upon thee; and thou givest them their meat in due season.'
+  - where: setting
+    claim: 'The closing hallelujah is the first in the Psalter'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/104.htm'
+    quote: 'within the Psalter is found here for the first time'
+
+  # ---------- plain-words renderings ----------
+  - where: 'section 1 plain'
+    claim: 'The curtain of verse 2 is a tent’s; the alternative rendering of verse 4'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20104&version=NRSVUE'
+    quote: 'You stretch out the heavens like a tent'
+  - where: 'section 1 plain'
+    claim: 'The Church’s footnote gives the alternative for verse 4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/104?lang=eng'
+    quote: 'OR the winds His messengers.'
+  - where: 'section 2 plain'
+    claim: '“Not be removed” is “never be shaken”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20104&version=NRSVUE'
+    quote: 'so that it shall never be shaken.'
+  - where: 'section 3 plain'
+    claim: '“Herb for the service of man” is plants for people to cultivate; the trees “are watered abundantly”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20104&version=NRSVUE'
+    quote: 'and plants for people to cultivate'
+  - where: 'section 3 plain'
+    claim: 'Conies are rock badgers'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/104?lang=eng'
+    quote: 'OR rock badgers.'
+  - where: 'section 4 plain'
+    claim: '“For seasons” means to mark the times of month and year'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/104?lang=eng'
+    quote: 'IE to indicate the time of month and year.'
+  - where: 'section 5 plain'
+    claim: '“Riches” in verse 24 is “creations” in the Hebrew'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/104?lang=eng'
+    quote: 'HEB creations.'
+  - where: 'section 5 plain'
+    claim: 'Verse 30’s “face of the earth” is the face of the ground'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20104&version=NRSVUE'
+    quote: 'and you renew the face of the ground.'
+  - where: 'section 6 plain'
+    claim: 'Verse 31 may be read as a wish'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20104&version=NRSVUE'
+    quote: 'May the glory of the Lord endure forever'
+
+  # ---------- note 104:2 ----------
+  - where: 'note 104:2 “Genesis 1 sung in the present tense”'
+    claim: 'One reading: the psalm is an echo of the seven days of Genesis 1'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/104.htm'
+    quote: 'The Psalm is altogether an echo of the heptahemeron (or history of the seven days of creation) in Genesis 1:1.'
+  - where: 'note 104:2 “Genesis 1 sung in the present tense”'
+    claim: 'The groups of verses do not each match one day'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/104.htm'
+    quote: 'It is not, however, so worked out that each single group celebrates the work of a day of creation'
+  - where: 'note 104:2 “Genesis 1 sung in the present tense”'
+    claim: 'It begins with light and ends with an allusion to the Sabbath'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/104.htm'
+    quote: 'Nevertheless it begins with the light and closes with an allusion to the divine Sabbath.'
+  - where: 'note 104:2 “Genesis 1 sung in the present tense”'
+    claim: 'The poet keeps the order of the days in mind (moon and sun at verse 19)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/104.htm'
+    quote: 'shows that he has the order of the days of creation before his mind'
+  - where: 'note 104:2 “Genesis 1 sung in the present tense”'
+    claim: 'Creation is told in the present because it continues in the preservation of the world'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/104.htm'
+    quote: 'be expressed by participles of the present, because the original setting is continued in the preservation of the world'
+  - where: 'note 104:2 “Genesis 1 sung in the present tense”'
+    claim: 'Genesis tells the gathering of the waters as a thing said and done'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1?lang=eng'
+    quote: 'And God said, Let the waters under the heaven be gathered together unto one place, and let the dry land appear: and it was so.'
+  - where: 'note 104:2 “Genesis 1 sung in the present tense”'
+    claim: 'Verses 1–4 are read of the first and second days (light, the heavens)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/104.htm'
+    quote: 'The first decastich begins the celebration with work of the first and second days.'
+  - where: 'note 104:2 “Genesis 1 sung in the present tense”'
+    claim: 'Verses 6–9 are read of the dry land coming forth on the third day'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/104.htm'
+    quote: 'The reference of the description to the coming forth of the dry land on the third day of creation'
+  - where: 'note 104:2 “Genesis 1 sung in the present tense”'
+    claim: 'At verse 19 the psalm passes from the third day (the growing things of verses 10–18) to the fourth'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/104.htm'
+    quote: 'in which the poet passes over from the third to the fourth day'
+  - where: 'note 104:2 “Genesis 1 sung in the present tense”'
+    claim: 'With the sea (verses 24–30) the psalm passes to the fifth and sixth days'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/104.htm'
+    quote: 'the poet passes over to the fifth and sixth days of creation'
+
+  # ---------- note 104:4 ----------
+  - where: 'note 104:4 “Winds made messengers, or angels made spirits”'
+    claim: 'The word behind “angels” is the word for a messenger'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4397.htm'
+    quote: 'noun masculine messenger'
+  - where: 'note 104:4 “Winds made messengers, or angels made spirits”'
+    claim: 'The word behind “spirits” means breath, wind or spirit'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7307.htm'
+    quote: 'breath, wind, spirit'
+  - where: 'note 104:4 “Winds made messengers, or angels made spirits”'
+    claim: '“Spirits” in verse 4 is the plural of the word translated “wind” at the end of verse 3 (hebrew.mjs psalms 104:3-4: both H7307)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רוּח֑וֹת'
+  - where: 'note 104:4 “Winds made messengers, or angels made spirits”'
+    claim: 'The Church’s footnote offers the alternative'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/104?lang=eng'
+    quote: 'OR the winds His messengers.'
+  - where: 'note 104:4 “Winds made messengers, or angels made spirits”'
+    claim: 'A modern translation prints the winds as the messengers'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20104&version=NRSVUE'
+    quote: 'you make the winds your messengers'
+  - where: 'note 104:4 “Winds made messengers, or angels made spirits”'
+    claim: 'The same translation’s second half of the line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20104&version=NRSVUE'
+    quote: 'fire and flame your ministers.'
+  - where: 'note 104:4 “Winds made messengers, or angels made spirits”'
+    claim: 'The Greek translation makes the angels the object'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/104.htm'
+    quote: 'Who makes his angels spirits, and his ministers a flaming fire.'
+  - where: 'note 104:4 “Winds made messengers, or angels made spirits”'
+    claim: 'Hebrews quotes the verse of the angels and sets the Son beside them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/1?lang=eng'
+    quote: 'But unto the Son he saith, Thy throne, O God, is for ever and ever'
+
+  # ---------- note 104:9 ----------
+  - where: 'note 104:9 “The bound of the sea, at the Creation and after the Flood”'
+    claim: 'The Church’s footnote to verse 6 points to the Flood'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/104?lang=eng'
+    quote: 'Gen. 7:19.'
+  - where: 'note 104:9 “The bound of the sea, at the Creation and after the Flood”'
+    claim: 'The Church’s footnote to verse 9 points to the Lord’s oath to Enoch'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/104?lang=eng'
+    quote: 'Moses 7:51 (50–52).'
+  - where: 'note 104:9 “The bound of the sea, at the Creation and after the Flood”'
+    claim: 'The Lord covenanted with Enoch to stay the floods'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng'
+    quote: 'he covenanted with Enoch, and sware unto him with an oath, that he would stay the floods'
+
+  # ---------- parallels (D&C 59) ----------
+
+  - where: parallels
+    claim: 'D&C 59 says the things of the earth are made to gladden the heart'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/59?lang=eng'
+    quote: 'are made for the benefit and the use of man, both to please the eye and to gladden the heart'
+
+  # ---------- note 104:26 ----------
+
+  - where: 'note 104:26 “Leviathan at play”'
+    claim: 'Leviathan can be any great monster, a real creature or a symbol'
+    key: bd-leviathan
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/leviathan?lang=eng'
+    quote: 'Any great sea or land monster, such as the crocodile, either as an actual creature (Job 41:1) or as symbolic of a nation (Ps. 74:14); a large serpent (Isa. 27:1).'
+  - where: 'note 104:26 “Leviathan at play”'
+    claim: 'This verse is listed with the verses where Leviathan and Rahab are slain'
+    key: sc-knowhy-866
+    url: 'https://scripturecentral.org/knowhy/why-does-the-old-testament-talk-about-leviathan'
+    quote: 'Psalms 74:14, 89:10, and 104:26, as well as Isaiah 27:1 and 51:9 refer to beings known as Leviathan and Rahab whom Yahweh slays.'
+  - where: 'note 104:26 “Leviathan at play”'
+    claim: 'Many scholars read such verses of a myth of the Lord killing a cosmic sea monster'
+    key: sc-knowhy-866
+    url: 'https://scripturecentral.org/knowhy/why-does-the-old-testament-talk-about-leviathan'
+    quote: 'these verses are understood by many biblical scholars to be a reference to a myth in which Yahweh kills a cosmic sea-monster'
+  - where: 'note 104:26 “Leviathan at play”'
+    claim: 'The Greek translators wrote “this dragon”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/104.htm'
+    quote: 'There go the ships; and this dragon whom thou hast made to play in it.'
+  - where: 'note 104:26 “Leviathan at play”'
+    claim: 'A modern translation: formed to sport in the sea'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20104&version=NRSVUE'
+    quote: 'and Leviathan that you formed to sport in it.'
+
+  # ---------- note 104:30 ----------
+
+  - where: 'note 104:30 “One word for breath and for spirit”'
+    claim: '“Breath” in verse 29 is the word ruach (hebrew.mjs psalms 104:29-30: H7307 in both verses)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'ר֭וּחָ/ם'
+  - where: 'note 104:30 “One word for breath and for spirit”'
+    claim: '“Spirit” in verse 30 is the same word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'ר֭וּחֲ/ךָ'
+  - where: 'note 104:30 “One word for breath and for spirit”'
+    claim: 'The word means breath, wind, spirit'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7307.htm'
+    quote: 'breath, wind, spirit'
+  - where: 'note 104:30 “One word for breath and for spirit”'
+    claim: 'A modern translation notes “your breath” as an alternative at verse 30'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20104&version=NRSVUE'
+    quote: 'Or your breath'
+  - where: 'note 104:30 “One word for breath and for spirit”'
+    claim: 'The same translation has “the face of the ground”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20104&version=NRSVUE'
+    quote: 'and you renew the face of the ground.'
+
+  # ---------- note 104:35 ----------
+
+  - where: 'note 104:35 “Sinners in a good creation, and the first hallelujah”'
+    claim: 'One reading: the psalm closes wishing evil expelled from the good creation'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/104.htm'
+    quote: 'closes with the wish that evil may be expelled from this good creation'
+  - where: 'note 104:35 “Sinners in a good creation, and the first hallelujah”'
+    claim: 'Sinners are contrary to the purpose of the creation and mar its joy'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/104.htm'
+    quote: 'they are contrary to the purpose of the good creation of God, they imperil its continuance, and mar the joy of His creatures'
+  - where: 'note 104:35 “Sinners in a good creation, and the first hallelujah”'
+    claim: '“Praise ye the LORD” is hallelujah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/104?lang=eng'
+    quote: 'HEB Hallelu-yah (Hallelujah), Praise ye Jehovah!'
+  - where: 'note 104:35 “Sinners in a good creation, and the first hallelujah”'
+    claim: 'This is the first hallelujah in the Psalter'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/104.htm'
+    quote: 'within the Psalter is found here for the first time'
+  - where: 'note 104:35 “Sinners in a good creation, and the first hallelujah”'
+    claim: 'The hallelujah calls on all creatures, where the first line called on the singer himself'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/104.htm'
+    quote: 'the Hallelujah which summons all creatures to the praise of God'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'The LORD of the psalm is Jehovah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/104?lang=eng'
+    quote: 'HEB Hallelu-yah (Hallelujah), Praise ye Jehovah!'
+  - where: christ
+    claim: 'God created through His Son, Jesus Christ'
+    key: gs-create-creation
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/create-creation?lang=eng'
+    quote: 'God, working through His Son, Jesus Christ, organized the elements in nature to form the heavens and the earth.'
+  - where: christ
+    claim: 'The Father tells Moses He created by the Son'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/1?lang=eng'
+    quote: 'and by the Son I created them, which is mine Only Begotten.'
+  - where: christ
+    claim: 'Hebrews 1 says God made the worlds by the Son'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/1?lang=eng'
+    quote: 'by whom also he made the worlds'
+  - where: christ
+    claim: 'Hebrews 1:7–13 quotes Psalm 104:4 and Psalm 102:25–27'
+    key: ot-manual-psalms
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/the-psalms-songs-from-the-heart-of-israel?lang=eng'
+    quote: 'Hebrews 1:7–13 | Psalms 104:4; 45:6–7; 102:25–27; 110:1'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'In Job 38 the Lord asks Job about the foundations of the earth and the shutting up of the sea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/38?lang=eng'
+    quote: 'Or who shut up the sea with doors, when it brake forth'
+  - where: explore
+    claim: 'D&C 59 gives the fulness of the earth to those who keep the Lord’s day'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/59?lang=eng'
+    quote: 'the fulness of the earth is yours, the beasts of the field and the fowls of the air'
+  - where: parallels
+    claim: 'Psalm 145 repeats the open hand of verse 28'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/145?lang=eng'
+    quote: 'Thou openest thine hand, and satisfiest the desire of every living thing.'
+  - where: parallels
+    claim: 'The Lord’s word to the sea in Job'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/38?lang=eng'
+    quote: 'Hitherto shalt thou come, but no further: and here shall thy proud waves be stayed?'
+  - where: parallels
+    claim: 'Hebrews quotes verse 4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/1?lang=eng'
+    quote: 'Who maketh his angels spirits, and his ministers a flame of fire.'
