@@ -1,0 +1,555 @@
+chapter: 73
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to Asaph and gives no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/73?lang=eng'
+    quote: 'A Psalm of Asaph.'
+  - where: setting
+    claim: 'Psalm 73 opens Book Three (Psalms 73–89)'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2073&version=NRSVUE'
+    quote: 'Book III'
+  - where: setting
+    claim: 'Asaph’s name is on Psalm 50 and Psalms 73–83 (eleven psalms in a run)'
+    key: bd-asaph
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/asaph?lang=eng'
+    quote: 'mentioned in the titles of various Psalms. See 1 Chr. 6:39; 15:17, 19; 16:4–7, 37; 25:1–9; 2 Chr. 5:12; 20:14; Ezra 2:41; 3:10; Neh. 7:44; Ps. 50; 73–83.'
+  - where: setting
+    claim: 'The psalm’s question has been set beside Psalm 37, Jeremiah 12 and Job'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/73.htm'
+    quote: 'nor was any other known generally in the pre-exilic literature of Israel (vid., Psalm 37; Psalm 39:1-13, Jeremiah 12'
+  - where: setting
+    claim: 'The speaker’s trouble is the prosperity of the wicked (the Church’s chapter heading)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/73?lang=eng'
+    quote: 'The wicked and ungodly prosper in this world'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The particle ak opens verses 1, 13 and 18 (hebrew.mjs psalms 73:1-28; --word 389 lists Ps 73:1, 73:13, 73:18); the form in verse 1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַ֤ךְ'
+  - where: thread
+    claim: 'The pronoun “and I” (wa’ani) stands at the head of verses 2, 22, 23 and 28 (hebrew.mjs psalms 73:1-28); the form in verse 2'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַ/אֲנִ֗י'
+  - where: thread
+    claim: '“Good” in verse 28 is the Hebrew word of verse 1 (tov, H2896a in both); the form in verse 28'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'ט֥וֹב'
+
+  # ---------- section plain ----------
+  - where: section 2 plain
+    claim: 'Verse 12: the wicked are “always at ease”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2073&version=NRSVUE'
+    quote: 'always at ease, they increase in riches.'
+  - where: section 2 plain
+    claim: 'Verse 8: they mock'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2073&version=NRSVUE'
+    quote: 'They scoff and speak with malice;'
+  - where: section 2 plain
+    claim: 'Verse 10: the Hebrew of the second line, waters in full measure drained'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2073&version=NRSVUE'
+    quote: '73.10 Cn: Heb abundant waters are drained by them'
+  - where: section 3 plain
+    claim: 'Verse 16: thinking it through was a wearisome task'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2073&version=NRSVUE'
+    quote: 'it seemed to me a wearisome task,'
+  - where: section 4 plain
+    claim: 'Verse 21: the heart embittered, soured'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2073&version=NRSVUE'
+    quote: 'When my soul was embittered,'
+  - where: section 5 plain
+    claim: 'Verse 26: “strength” is literally “rock”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2073&version=NRSVUE'
+    quote: '73.26 Heb rock'
+  - where: section 5 plain
+    claim: 'Verse 28: “I have made the Lord God my refuge”; those who go a whoring are those false to God'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2073&version=NRSVUE'
+    quote: 'I have made the Lord God my refuge,'
+
+  # ---------- note 73:1 ----------
+  - where: 'note 73:1 “One small word, three times”'
+    claim: 'The particle ak opens verses 1, 13 and 18 (hebrew.mjs psalms 73:1-28); the form in verse 13'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַךְ'
+  - where: 'note 73:1 “One small word, three times”'
+    claim: 'The form of the particle in verse 18'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַ֣ךְ'
+  - where: 'note 73:1 “One small word, three times”'
+    claim: 'The word’s first sense is “surely”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/389.htm'
+    quote: '1 surely.'
+  - where: 'note 73:1 “One small word, three times”'
+    claim: 'Its second, restrictive sense is “only”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/389.htm'
+    quote: 'in contrast with other ideas Generally, only'
+  - where: 'note 73:1 “One small word, three times”'
+    claim: 'In some passages, Psalm 73:1 and 13 among them, either sense fits and authorities differ'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/389.htm'
+    quote: 'In some passages the affirmative and restrictive senses agree equally with the context; and authorities read the Hebrew differently.'
+  - where: 'note 73:1 “One small word, three times”'
+    claim: 'The asseverative sense introduces a truth or supposed truth newly perceived; Psalm 73:1 and 73:13 are cited under it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/389.htm'
+    quote: 'asseverative, often introducing with emphasis the expression of a truth (or supposed truth) newly perceived'
+  - where: 'note 73:1 “One small word, three times”'
+    claim: 'The Hebrew word for heart (lebab, H3824) comes six times: verses 1, 7, 13, 21 and twice in 26 (hebrew.mjs psalms 73:1-28); the form in verses 1 and 7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לֵבָֽב'
+
+  # ---------- note 73:3 ----------
+  - where: 'note 73:3 “The peace the wicked are not supposed to have”'
+    claim: '“Prosperity” in verse 3 is shalom (H7965); the form in the verse'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שְׁל֖וֹם'
+  - where: 'note 73:3 “The peace the wicked are not supposed to have”'
+    claim: 'Among the senses of shalom are welfare, health, prosperity; Psalm 73:3 is listed there'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7965.htm'
+    quote: 'welfare, health, prosperity'
+  - where: 'note 73:3 “The peace the wicked are not supposed to have”'
+    claim: 'The lexicon sets Psalm 73:3 against Isaiah 48:22 and 57:21 (no peace for the wicked) with “but”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7965.htm'
+    quote: 'Isaiah 48:22; Isaiah 57:21; but'
+  - where: 'note 73:3 “The peace the wicked are not supposed to have”'
+    claim: 'The Greek has “tranquility”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/73.htm'
+    quote: 'For I was jealous of the transgressors, beholding the tranquility of sinners.'
+  - where: 'note 73:3 “The peace the wicked are not supposed to have”'
+    claim: 'Isaiah says twice that the wicked have no peace (Isa. 48:22; 57:21)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/48?lang=eng'
+    quote: 'There is no peace, saith the Lord, unto the wicked.'
+
+  # ---------- note 73:4 ----------
+  - where: 'note 73:4 “No pangs, even in dying”'
+    claim: 'The noun means bond, fetter, pang, and is found only in the plural'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2784.htm'
+    quote: 'bond, fetter, pang, only plural'
+  - where: 'note 73:4 “No pangs, even in dying”'
+    claim: 'The lexicon cites two places; the first is Isaiah 58:6, literal bonds'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2784.htm'
+    quote: 'Isaiah 58:6 bonds of wickedness i.e. imposed by wicked men'
+  - where: 'note 73:4 “No pangs, even in dying”'
+    claim: 'The second is Psalm 73:4, “pangs,” with a proposal to divide the letters differently (lamo tam for lemotam)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2784.htm'
+    quote: 'Psalm 73:4 they have no pangs (read'
+  - where: 'note 73:4 “No pangs, even in dying”'
+    claim: 'The Hebrew as it stands has “to/in their death” as one word, the letters the proposal redivides'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ/מוֹתָ֗/ם'
+  - where: 'note 73:4 “No pangs, even in dying”'
+    claim: 'The Greek rendering of the line'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/73.htm'
+    quote: 'For there is no sign of reluctance in their death'
+  - where: 'note 73:4 “No pangs, even in dying”'
+    claim: 'A modern translation follows the other division: first line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2073&version=NRSVUE'
+    quote: 'For they have no pain;'
+  - where: 'note 73:4 “No pangs, even in dying”'
+    claim: 'A modern translation follows the other division: second line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2073&version=NRSVUE'
+    quote: 'their bodies are sound and sleek.'
+
+  # ---------- note 73:10 ----------
+  - where: 'note 73:10 “A verse the versions read differently”'
+    claim: 'The first verb has a ketiv (written), a Hiphil or causative form of shuv, “return” (hebrew.mjs: HVhi3ms, “ketiv, as written”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'ישיב'
+  - where: 'note 73:10 “A verse the versions read differently”'
+    claim: 'The qere (the reading) is the simple Qal form (hebrew.mjs: HVqi3ms, “qere, the reading”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָשׁ֣וּב'
+  - where: 'note 73:10 “A verse the versions read differently”'
+    claim: 'A modern translation prints a correction: first line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2073&version=NRSVUE'
+    quote: 'Therefore the people turn and praise them'
+  - where: 'note 73:10 “A verse the versions read differently”'
+    claim: 'A modern translation prints a correction: second line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2073&version=NRSVUE'
+    quote: 'and find no fault in them.'
+  - where: 'note 73:10 “A verse the versions read differently”'
+    claim: 'Its margin gives the Hebrew of the first line and marks the text as a correction (“Cn”)'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2073&version=NRSVUE'
+    quote: '73.10 Cn: Heb his people return here'
+  - where: 'note 73:10 “A verse the versions read differently”'
+    claim: 'Its margin gives the Hebrew of the second line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2073&version=NRSVUE'
+    quote: '73.10 Cn: Heb abundant waters are drained by them'
+  - where: 'note 73:10 “A verse the versions read differently”'
+    claim: 'The Greek reads “my people” and “full days”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/73.htm'
+    quote: 'Therefore shall my people return hither: and full days shall be found with them.'
+  - where: 'note 73:10 “A verse the versions read differently”'
+    claim: 'One older reading: “his people” are the adherents the wicked gain'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/73.htm'
+    quote: 'They gain adherents (Psalm 49:14) from those who leave the fear of God and turn to them'
+  - where: 'note 73:10 “A verse the versions read differently”'
+    claim: 'On that reading the full waters are the principles of the wicked'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/73.htm'
+    quote: 'which is here an emblem of their corrupt principles'
+  - where: 'note 73:10 “A verse the versions read differently”'
+    claim: 'The followers drink it in'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/73.htm'
+    quote: 'which eagerly drinks in everything that proceeds from them as though it were the true water of life'
+  - where: 'note 73:10 “A verse the versions read differently”'
+    claim: 'On that reading the speakers of verse 11 are the followers'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/73.htm'
+    quote: 'The persons speaking are now those apostates who, deluded by the good fortune and free-thinking of the ungodly, give themselves up to them as slaves.'
+
+  # ---------- note 73:15 ----------
+  - where: 'note 73:15 “What kept him from saying it”'
+    claim: 'In Malachi the people say aloud that it is vain to serve God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/3?lang=eng'
+    quote: 'Ye have said, It is vain to serve God: and what profit is it that we have kept his ordinance'
+  - where: 'note 73:15 “What kept him from saying it”'
+    claim: 'They go on to call the proud happy'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/3?lang=eng'
+    quote: 'And now we call the proud happy; yea, they that work wickedness are set up'
+  - where: 'note 73:15 “What kept him from saying it”'
+    claim: 'A modern translation of the second line of verse 15'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2073&version=NRSVUE'
+    quote: 'I would have been untrue to the circle of your children.'
+  - where: 'note 73:15 “What kept him from saying it”'
+    claim: 'The Greek of verse 15'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/73.htm'
+    quote: 'If I said, I will speak thus; behold, I should have broken covenant with the generation of thy children.'
+  - where: 'note 73:15 “What kept him from saying it”'
+    claim: '“Too painful” in verse 16 is ‘amal (H5999), the word for “trouble” in verse 5 (hebrew.mjs psalms 73:5, 73:16); the form in verse 16'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עָמָ֖ל'
+  - where: 'note 73:15 “What kept him from saying it”'
+    claim: 'The form of the same word in verse 5'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּ/עֲמַ֣ל'
+  - where: 'note 73:15 “What kept him from saying it”'
+    claim: 'Verse 15 is the first second-person address to God in the psalm (“thy children”: the suffix on “sons” is second person singular, HNcmpc/Sp2ms)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בָּנֶ֣י/ךָ'
+
+  # ---------- note 73:17 ----------
+  - where: 'note 73:17 “The turn happens in a place”'
+    claim: '“Sanctuary” is a plural construct in Hebrew (hebrew.mjs: HNcmpc)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִקְדְּשֵׁי'
+  - where: 'note 73:17 “The turn happens in a place”'
+    claim: 'The plural is used of the many sacred places in and about the temple; Psalm 73:17 is cited'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4720.htm'
+    quote: 'plural of many sacred places in and about the temple.'
+  - where: 'note 73:17 “The turn happens in a place”'
+    claim: 'Some interpreters took the word as God’s secrets; the usage of the language does not support it'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/73.htm'
+    quote: 'Ewald and Hitzig understand His secrets; but this meaning is without support in the usage of the language'
+  - where: 'note 73:17 “The turn happens in a place”'
+    claim: '“End” (acharit) in Psalm 73:17 is one’s final lot'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/319.htm'
+    quote: '= final lot Deuteronomy 32:20,29; Jeremiah 12:4; Jeremiah 31:17; Psalm 73:17'
+  - where: 'note 73:17 “The turn happens in a place”'
+    claim: 'One older reading: he prayed there for light, and the end of the wicked was shown him'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/73.htm'
+    quote: 'here he prayed for light in the darkness of his conflict, here were his eyes opened to the holy plans and ways of God'
+  - where: 'note 73:17 “The turn happens in a place”'
+    claim: 'The Church’s chapter heading reads the end of the wicked of the hereafter'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/73?lang=eng'
+    quote: 'They will be consumed with terrors hereafter'
+
+  # ---------- note 73:20 ----------
+  - where: 'note 73:20 “A dream at waking”'
+    claim: '“Image” in Psalm 73:20 is figurative: a mere, empty image, a semblance'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6754.htm'
+    quote: 'figurative = mere, empty, image, semblance'
+  - where: 'note 73:20 “A dream at waking”'
+    claim: 'A modern translation has “phantoms”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2073&version=NRSVUE'
+    quote: 'on awaking you despise their phantoms.'
+  - where: 'note 73:20 “A dream at waking”'
+    claim: 'Another psalm of Asaph (Psalm 78, by its title) speaks of the Lord awaking as from sleep to act; the Church’s footnote 20a points to it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/78?lang=eng'
+    quote: 'Then the Lord awaked as one out of sleep, and like a mighty man that shouteth by reason of wine.'
+  - where: 'note 73:20 “A dream at waking”'
+    claim: 'The Greek reads “in thy city”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/73.htm'
+    quote: 'As the dream of one awakening, O Lord, in thy city thou wilt despise their image.'
+  - where: 'note 73:20 “A dream at waking”'
+    claim: 'The Hebrew word is ba‘ir, the consonants of “in the city” (hebrew.mjs psalms 73:20: preposition b with a Hiphil infinitive of ‘ur)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בָּ/עִ֤יר'
+
+  # ---------- note 73:23 ----------
+  - where: 'note 73:23 “Held by the right hand”'
+    claim: 'Verses 22 and 23 both end their first clause with “with thee” (‘immakh, H5973a; hebrew.mjs psalms 73:22-23); the form in verse 22'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עִמָּֽ/ךְ'
+  - where: 'note 73:23 “Held by the right hand”'
+    claim: 'The form in verse 23'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עִמָּ֑/ךְ'
+  - where: 'note 73:23 “Held by the right hand”'
+    claim: 'Most interpreters have taken the gesture as leading by the hand, because of the parallel verb “guide”'
+    key: calabro-divine-handclasp
+    url: 'https://interpreterfoundation.org/journal/the-divine-handclasp-in-the-hebrew-bible-and-in-near-eastern-iconography'
+    quote: 'has led most interpreters to assume that the gesture is one of leading by the hand'
+  - where: 'note 73:23 “Held by the right hand”'
+    claim: 'Such passages are read beside a divine embrace or handclasp known from ancient art, writings and rituals'
+    key: sc-knowhy-642
+    url: 'https://scripturecentral.org/knowhy/why-does-the-psalmist-speak-about-grasping-gods-hand'
+    quote: 'a divine embrace or divine handclasp, which shows up frequently in ancient art, writings, and rituals'
+  - where: 'note 73:23 “Held by the right hand”'
+    claim: 'It has been proposed that the handclasp was a temple ritual with a priest as proxy'
+    key: sc-knowhy-642
+    url: 'https://scripturecentral.org/knowhy/why-does-the-psalmist-speak-about-grasping-gods-hand'
+    quote: 'Several scholars have proposed that this divine handclasp may have been an ancient temple ritual in which a temple priest stood as a proxy for the Lord.'
+  - where: 'note 73:23 “Held by the right hand”'
+    claim: 'Psalm 73 read with Psalm 139: both use right hands'
+    key: calabro-divine-handclasp
+    url: 'https://interpreterfoundation.org/journal/the-divine-handclasp-in-the-hebrew-bible-and-in-near-eastern-iconography'
+    quote: 'we see that both God and the Psalmist use their right hands'
+  - where: 'note 73:23 “Held by the right hand”'
+    claim: 'So the two would face each other'
+    key: calabro-divine-handclasp
+    url: 'https://interpreterfoundation.org/journal/the-divine-handclasp-in-the-hebrew-bible-and-in-near-eastern-iconography'
+    quote: 'This would suggest that the participants in the gesture are facing each other'
+  - where: 'note 73:23 “Held by the right hand”'
+    claim: '“Guide” may have the sense “instruct,” and the gesture imparts knowledge'
+    key: calabro-divine-handclasp
+    url: 'https://interpreterfoundation.org/journal/the-divine-handclasp-in-the-hebrew-bible-and-in-near-eastern-iconography'
+    quote: 'not to the gesture’s function of transporting the Psalmist, but to its function as a means of imparting knowledge'
+  - where: 'note 73:23 “Held by the right hand”'
+    claim: 'Psalm 139:10 has God’s right hand holding the psalmist'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/139?lang=eng'
+    quote: 'Even there shall thy hand lead me, and thy right hand shall hold me.'
+  - where: 'note 73:23 “Held by the right hand”'
+    claim: 'One form of the proposal attributes the psalm to the king'
+    key: brown-handclasp
+    url: 'https://interpreterfoundation.org/journal/the-handclasp-the-temple-and-the-king'
+    quote: 'A psalm that could be attributed to the king of Israel'
+  - where: 'note 73:23 “Held by the right hand”'
+    claim: 'It suggests the king passed through the veil at his installation'
+    key: brown-handclasp
+    url: 'https://interpreterfoundation.org/journal/the-handclasp-the-temple-and-the-king'
+    quote: 'when the king of Israel was initiated into his office in the temple precincts, he passed through the veil of the Holy of Holies'
+  - where: 'note 73:23 “Held by the right hand”'
+    claim: 'It is offered as a possibility'
+    key: brown-handclasp
+    url: 'https://interpreterfoundation.org/journal/the-handclasp-the-temple-and-the-king'
+    quote: 'Perhaps a proxy and a handclasp played a role in such a situation.'
+
+  # ---------- note 73:24 ----------
+  - where: 'note 73:24 “Afterward: how far does he see?”'
+    claim: '“Receive” is the verb laqach, “take” (H3947); the form in verse 24'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּקָּחֵֽ/נִי'
+  - where: 'note 73:24 “Afterward: how far does he see?”'
+    claim: 'The verb is used as in Psalm 49:15 (Hebrew 49:16) and of Enoch'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/73.htm'
+    quote: 'as in Psalm 49:16, and of Enoch, Genesis 5:24'
+  - where: 'note 73:24 “Afterward: how far does he see?”'
+    claim: 'A modern translation has “with honor”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2073&version=NRSVUE'
+    quote: 'and afterward you will receive me with honor.'
+  - where: 'note 73:24 “Afterward: how far does he see?”'
+    claim: 'and gives “to glory” in the margin'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2073&version=NRSVUE'
+    quote: '73.24 Or to glory'
+  - where: 'note 73:24 “Afterward: how far does he see?”'
+    claim: 'The Greek puts the verse in the past'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/73.htm'
+    quote: 'Thou hast guided me by thy counsel, and thou hast taken me to thyself with glory.'
+  - where: 'note 73:24 “Afterward: how far does he see?”'
+    claim: 'The two construals: accusative of the goal, or of the manner'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/73.htm'
+    quote: 'is either accusative of the goal (Hupfeld), or, which yields a form of expression that is more like the style of the Old Testament, accusative of the manner'
+  - where: 'note 73:24 “Afterward: how far does he see?”'
+    claim: 'One older reading of “afterward”: after this dark way of faith; the future dark but lit by one hope'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/73.htm'
+    quote: 'The future is dark to him, but lighted up by the one hope that the end of his earthly existence will be a glorious solution of the riddle.'
+  - where: 'note 73:24 “Afterward: how far does he see?”'
+    claim: 'The same reading: faith breaks through the night of Hades, though no divine utterance had yet been given'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/73.htm'
+    quote: 'it is faith which breaks through not only the darkness of this present life, but also the night of Hades'
+  - where: 'note 73:24 “Afterward: how far does he see?”'
+    claim: 'The Church’s chapter heading reads the verse of being received up to glory'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/73?lang=eng'
+    quote: 'Those who trust in the Lord will be received up unto glory.'
+
+  # ---------- note 73:26 ----------
+  - where: 'note 73:26 “A Levite’s portion”'
+    claim: 'Cheleq is a portion or tract of land distributed at the conquest; none for the tribe of Levi'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2506.htm'
+    quote: 'none for tribe of Levi Deuteronomy 10:9'
+  - where: 'note 73:26 “A Levite’s portion”'
+    claim: 'The LORD as the possession of His servants: of priests, with the perquisites of the altar (Num. 18:20, the same Hebrew word)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2506.htm'
+    quote: 'of priests, as enjoying perquisites of altar Numbers 18:20'
+  - where: 'note 73:26 “A Levite’s portion”'
+    claim: 'Psalm 73:26 takes it in a spiritual sense, with Psalm 119:57 and Lamentations 3:24; Psalm 16:5 is listed in the same paragraph'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2506.htm'
+    quote: 'in spiritual sense Psalm 73:26; Psalm 119:57; Lamentations 3:24'
+  - where: 'note 73:26 “A Levite’s portion”'
+    claim: 'The Lord’s word to Aaron'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/18?lang=eng'
+    quote: 'I am thy part and thine inheritance among the children of Israel.'
+  - where: 'note 73:26 “A Levite’s portion”'
+    claim: 'Asaph was a Levite'
+    key: bd-asaph
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/asaph?lang=eng'
+    quote: 'A cymbal-playing Levite appointed leader of David’s choir.'
+  - where: 'note 73:26 “A Levite’s portion”'
+    claim: '“Strength” in verse 26 is literally “rock”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2073&version=NRSVUE'
+    quote: '73.26 Heb rock'
+  - where: 'note 73:26 “A Levite’s portion”'
+    claim: 'The Hebrew word is tsur (H6697); the form in verse 26'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'צוּר'
+
+  # ---------- note 73:28 ----------
+  - where: 'note 73:28 “‘Good’ at both ends”'
+    claim: '“Good” in verse 28 is the word of verse 1 (tov, H2896a; hebrew.mjs psalms 73:1, 73:28); the form in verse 1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'ט֭וֹב'
+  - where: 'note 73:28 “‘Good’ at both ends”'
+    claim: 'The phrase is a noun, “approach to God,” cited for Isaiah 58:2 and Psalm 73:28'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7132.htm'
+    quote: 'approach to God'
+  - where: 'note 73:28 “‘Good’ at both ends”'
+    claim: 'A modern translation of the line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2073&version=NRSVUE'
+    quote: 'But for me it is good to be near God;'
+  - where: 'note 73:28 “‘Good’ at both ends”'
+    claim: '“Declare” in verse 28 is the verb of “speak” in verse 15 (sapper, H5608a in both; hebrew.mjs psalms 73:15, 73:28); the form in verse 28'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ֝/סַפֵּ֗ר'
+  - where: 'note 73:28 “‘Good’ at both ends”'
+    claim: 'The form of the verb in verse 15'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲסַפְּרָ֥ה'
+  - where: 'note 73:28 “‘Good’ at both ends”'
+    claim: 'The lexicon lists Psalm 73:15 under the same verb, in the sense “talk”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5608.htm'
+    quote: 'apparently, in weakened sense, talk'
+  - where: 'note 73:28 “‘Good’ at both ends”'
+    claim: 'The Greek adds a place'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/73.htm'
+    quote: 'that I may proclaim all thy praises in the gates of the daughter of Sion'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'The “pure in heart” of verse 1 has been set beside Psalm 24:4 and Matthew 5:8'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/73.htm'
+    quote: 'is limited in Psalm 73:1 to the pure in heart (Psalm 24:4; Matthew 5:8)'
+  - where: christ
+    claim: 'The nearness of God in verse 28 has been set beside James 4:8'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/73.htm'
+    quote: 'cf. James 4:8'
+
+  # ---------- explore ----------
+  - where: explore
+    claim: 'Psalms 37 and 49 and the book of Job take up the same doubts'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/73.htm'
+    quote: 'the doubts respecting the moral order of the world are set at rest in exactly the same way as in Psalm 37; Psalm 49, and in the Book of Job'
+  - where: explore
+    claim: 'KnoWhy #642, on Psalm 73:23–24, gathers the Latter-day Saint studies of the grasped hand and names Isaiah 41 among the passages'
+    key: sc-knowhy-642
+    url: 'https://scripturecentral.org/knowhy/why-does-the-psalmist-speak-about-grasping-gods-hand'
+    quote: 'It also appears in a covenant-making context in Isaiah 41, 42, and 45'
+  - where: explore
+    claim: 'Jeremiah 12 opens with the same question'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/12?lang=eng'
+    quote: 'Wherefore doth the way of the wicked prosper?'
+
+  # ---------- parallels ----------
+  - where: parallels
+    claim: 'Job asks why the wicked live and are mighty'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/21?lang=eng'
+    quote: 'Wherefore do the wicked live, become old, yea, are mighty in power?'
