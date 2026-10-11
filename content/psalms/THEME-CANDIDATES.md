@@ -605,3 +605,50 @@ The coordinator's leads from the brief's research. Each would have to show an ar
 - (118) Israel, the house of Aaron, and those who fear the LORD: 115:9-13; 118:2-4.
 - (118) 'Blessed is he that cometh in the name of the Lord' as a word for the Second Coming: 118:26; Matt. 23:39; JS-M 1:1.
 - (118) The Hallel at the Last Supper: Psalms 113-118 with Matt. 26:30.
+
+## Reported by chapters 119–130 (not yet sorted)
+
+- (119) The law as God's instruction and delight: Ps. 1:2; 19:7-10; 119:97, 103, 105.
+- (119) 'Quicken me', life asked of God according to His word: Ps. 71:20; 80:18; 119:25, 50, 93, 107; 143:11.
+- (119) The lost sheep and the seeking shepherd: Ps. 23; 119:176; Isa. 53:6; Ezek. 34:16; Luke 15.
+- (119) Affliction as teaching: Ps. 94:12; 119:67, 71, 75.
+- (119) Word and light said of Jehovah and given to Jesus in John: Ps. 27:1; 36:9; 43:3; 119:105, 130.
+- (120) The songs of degrees as a going up: the far country (120:5), the hills (121:1), the gates (122:2), the house by night (134:1); belongs with 'Ascending the hill of the Lord' (24:3).
+- (120) The tongue as a weapon and its repayment in kind (120:2-4; 57:4; 64:3, 7; 140:9-10).
+- (120) Peace sought among those who hate it (120:6-7; 122:6-8).
+- (121) The LORD 'which made heaven and earth' as the ground of help: 121:2; 124:8; 134:3 (also 115:15; 146:6), toward Mosiah 3:8 and 3 Ne. 9:15.
+- (121) The keeper of Israel who does not sleep, against the cries that God awake: 121:3-4 with 44:23; 7:6; 35:23; 59:4-5; 78:65.
+- (121) The songs of degrees as a pilgrim's journey: 120 far from home, 121 on the way, 122 at Jerusalem (this chapter now states only what each psalm says; a source for the sequence would be needed).
+- (122) Going up to the house of the LORD: the pilgrim feasts (122:1-4; with 24:3, 42:4, 84:5-7, 120-134).
+- (122) Peace through the songs of degrees (120:6-7; 122:6-8; 125:5; 128:6).
+- (122) The throne of David (122:5; with Psalms 2, 18, 89, 110, 132) and Luke 1:32.
+- (122) Jerusalem or Zion as the city of God (Psalms 48, 87, 122, 137).
+- (123) Lifted eyes in the songs of degrees (121:1; 123:1-2), with 25:15, 141:8 and 145:15.
+- (123) "He that sitteth in the heavens": the LORD enthroned above (2:4; 123:1; also 11:4, 113:5).
+- (123) The scorn of the comfortable against God's people (123:3-4; 44:13; 79:4; with Neh. 2:19 and 4:4).
+- (124) The confession 'which made heaven and earth' through the songs of degrees (121:2; 124:8; 134:3; leads not read: 115:15; 146:6).
+- (124) 'May Israel now say': the people called to speak a line (118:2–4; 124:1; 129:1).
+- (124) The enemy as a flood (124:4–5; 69:1–2; Isa. 8:7–8; leads: 18:16; 144:7).
+- (124) The snare and the fowler (91:3; 124:7; leads: 140:5; 141:9; 142:3).
+- (125) Zion that cannot be moved: Ps. 46:5; 48; 125:1, beside D&C 97:19–21 and 101:17 (no source read joins them; it would be a theme page's own connection).
+- (125) 'Peace upon Israel' in the songs of degrees: Ps. 122:6–8; 125:5; 128:6, with Gal. 6:16.
+- (125) The LORD round about His people: Ps. 34:7; 121; 125:2, with Zech. 2:5.
+- (126) The turned captivity and the gathering: Ps. 14:7; 53:6; 85:1-4; 126:1, 4 (with Deut. 30:3; Jer. 30:3; Amos 9:14; Job 42:10).
+- (126) Weeping that ends in joy: Ps. 30:5, 11; 126:5-6 (with Matt. 5:4).
+- (126) The nations as witnesses of what the LORD does for Zion: Ps. 98:2-3; 126:2 (with Ezek. 36:36).
+- (127) The house the LORD builds: house as temple and as family or dynasty (127:1; 2 Sam. 7; Ps. 132:11-14; 122:1, 5; 128:3).
+- (127) The keeper and the watchman in the songs of degrees (121:3-8; 127:1; 130:6).
+- (127) Family in the songs of degrees (127:3-5; 128:3, 6; 133:1).
+- (128) Blessing out of Zion across the songs of degrees: 128:5; 133:3; 134:3 (with 20:2; 122:6).
+- (128) Peace on Israel in the songs of degrees: 120:6-7; 122:6-8; 125:5; 128:6.
+- (128) Psalms 127-128 as a pair on the house the LORD builds: 127:1-5; 128:1-4 (with 112:1).
+- (128) The covenant's blessings and curses behind the wisdom psalms: 128:2 with Lev. 26:16; Deut. 28:30-33; Isa. 65:22.
+- (129) Israel speaking as one person, with a line given to the people to say (118:2; 124:1; 129:1).
+- (129) Those who hate or fight against Zion (129:5; Isa. 29:7-8; 1 Ne. 22:14; 2 Ne. 6:12-13).
+- (129) Harvest in the songs of degrees: the sheaves that come home and the harvest that never comes (126:5-6; 129:6-8).
+- (129) Blessing out of Zion in the songs of degrees (128:5; 134:3), beside the blessing nobody says in 129:8.
+- (130) Waiting on the LORD: 130:5-6 (already listed from 25, 27, 37, 40).
+- (130) Night and morning: 130:6 (already listed from 30).
+- (130) Deep waters: 130:1 with 69:2, 14 (already listed from 69).
+- (130) "Who shall stand?": 130:3-4 with 76:7 (already listed from 76).
+- (130) Redemption from sin rather than from troubles: 130:7-8 beside 25:22.
