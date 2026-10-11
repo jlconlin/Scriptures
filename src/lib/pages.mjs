@@ -7,7 +7,7 @@
 // (scripts/check-ledger.mjs): a quote is on the page when its letters are. readPage(url) turns a page into its readable
 // paragraphs, headings and notes, verbatim, for scripts/source.mjs and scripts/footnotes.mjs; scripts/test-source.mjs
 // checks that what it returns is found by onPage().
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, rename } from 'node:fs/promises';
 import { existsSync, statSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import { createHash } from 'node:crypto';
@@ -123,7 +123,9 @@ export async function fetchPage(url, { fresh = false, tries = 3, wait = 1500 } =
     } catch {}
     if (raw === null && attempt + 1 < tries) await new Promise((r) => setTimeout(r, wait * (attempt + 1)));
   }
-  if (raw !== null) await writeFile(file, raw);
+  // Written whole or not at all: another script reading the cache while a large page (the Hebrew Psalms, 1.9 MB) was
+  // being written saw the first part of it and found no Psalm 119. So the page goes to a file of its own and is renamed.
+  if (raw !== null) { const tmp = `${file}.${process.pid}.tmp`; await writeFile(tmp, raw); await rename(tmp, file); }
   const result = raw === null ? { error: `could not fetch (tried ${tries} times)` } : { raw };
   memo.set(url, result);
   return result;
