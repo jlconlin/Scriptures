@@ -1,0 +1,584 @@
+chapter: 74
+claims:
+  # ---- when ----
+  - where: 'when'
+    claim: 'The title ascribes the psalm to Asaph'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/74?lang=eng'
+    quote: 'Maschil of Asaph.'
+  - where: 'when'
+    claim: 'The date is debated between the Babylonian destruction and the persecution under Antiochus'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/74.htm'
+    quote: 'there remains only the choice between the laying waste of Jerusalem and of the Temple in the year 588 and in the year 167'
+
+  # ---- setting ----
+  - where: 'setting'
+    claim: 'Asaph’s name stands on Psalm 50 and on Psalms 73–83'
+    key: bd-asaph
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/asaph?lang=eng'
+    quote: 'mentioned in the titles of various Psalms. See 1 Chr. 6:39; 15:17, 19; 16:4–7, 37; 25:1–9; 2 Chr. 5:12; 20:14; Ezra 2:41; 3:10; Neh. 7:44; Ps. 50; 73–83.'
+  - where: 'setting'
+    claim: 'A lament of the community is one spoken as “we/us”'
+    key: sc-knowhy-438
+    url: 'https://scripturecentral.org/knowhy/why-do-biblical-psalms-of-lament-show-up-in-the-book-of-mormon'
+    quote: 'Psalms of lament come in two basic types: individual (in which the speaker is “I/me”), and communal (“we/us”).'
+  - where: 'setting'
+    claim: 'Kings records that Nebuchadnezzar’s captain of the guard burned the temple'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/25?lang=eng'
+    quote: 'came Nebuzar-adan, captain of the guard, a servant of the king of Babylon, unto Jerusalem'
+  - where: 'setting'
+    claim: 'Lamentations 2 is close in language to the psalm'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/74.htm'
+    quote: 'The lament "there is no prophet any more" (Psalm 74:9) sounds very much like Lamentations 2:9.'
+  - where: 'setting'
+    claim: 'Psalm 79 reflects the same circumstances'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/74.htm'
+    quote: 'We also find the former of these two characteristic features in Psalm 79:1-13, which reflects the same circumstances of the times.'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: '“Remember” is one Hebrew verb in verses 2, 18 and 22'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'זְכֹ֤ר'
+  - where: 'thread'
+    claim: '“Forget not” is one Hebrew verb in verses 19 and 23'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תִּשְׁכַּ֥ח'
+  - where: 'thread'
+    claim: 'One Hebrew word is “for ever” in verses 1, 10 and 19 and “perpetual” in verse 3'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נֶ֑צַח'
+  - where: 'thread'
+    claim: 'The pronoun “thou” stands seven times in verses 13–17'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַתָּ֤ה'
+  - where: 'thread'
+    claim: 'A lament commonly has a vow of praise among its parts'
+    key: sc-knowhy-438
+    url: 'https://scripturecentral.org/knowhy/why-do-biblical-psalms-of-lament-show-up-in-the-book-of-mormon'
+    quote: '(1) invocation, (2) complaint, (3) confession of trust, (4) petition, and (5) vow of praise'
+  - where: 'thread'
+    claim: 'The psalm’s last Hebrew word is “continually”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תָמִֽיד'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: 'Verse 3: “lift up thy feet” is to direct the steps toward the ruins'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: 'Direct your steps to the perpetual ruins;'
+  - where: 'section 1 plain'
+    claim: 'Verse 2: “rod of thine inheritance” is the tribe of God’s heritage'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: 'which you redeemed to be the tribe of your heritage.'
+  - where: 'section 2 plain'
+    claim: 'Verse 5 as a comparison to men with axes in a thicket'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/74.htm'
+    quote: 'it looked, and one experienced it, as if a man caused the axe to enter into the thicket of the wood'
+  - where: 'section 2 plain'
+    claim: 'Verse 8: “synagogues” as meeting places; “destroy them together” as subduing them utterly'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: 'they burned all the meeting places of God in the land.'
+  - where: 'section 2 plain'
+    claim: 'Verse 4: the “congregations” is the meeting place or assembly'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4150.htm'
+    quote: 'Psalm 74:4 in the midst of thine assembly'
+  - where: 'section 3 plain'
+    claim: 'Verse 10: “reproach” and “blaspheme” as scoff and revile'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: 'How long, O God, is the foe to scoff?'
+  - where: 'section 4 plain'
+    claim: 'Verse 12 opens with “Yet”; verse 15 as springs and torrents and ever-flowing streams'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: 'you dried up ever-flowing streams.'
+  - where: 'section 4 plain'
+    claim: 'Verse 14: Leviathan’s heads crushed'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: 'You crushed the heads of Leviathan;'
+  - where: 'section 5 plain'
+    claim: 'Verse 22: the foolish man reproaches all day long'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: 'remember how the impious scoff at you all day long.'
+  - where: 'section 5 plain'
+    claim: 'Verse 23: the tumult “goes up” continually'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: 'the uproar of your adversaries that goes up continually.'
+
+  # ---- note 74:0 ----
+  - where: 'note 74:0 “A psalm of Asaph about a ruined sanctuary”'
+    claim: 'Asaph was a Levite appointed leader of David’s choir'
+    key: bd-asaph
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/asaph?lang=eng'
+    quote: 'A cymbal-playing Levite appointed leader of David’s choir.'
+  - where: 'note 74:0 “A psalm of Asaph about a ruined sanctuary”'
+    claim: 'His guild continued until after the exile'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'He established a guild of musicians that continued until after the Babylonian exile.'
+  - where: 'note 74:0 “A psalm of Asaph about a ruined sanctuary”'
+    claim: 'Some psalms under his name may be by later musicians of the guild'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'Asaph is credited with composing Psalms 50 and 73–83, though some of these may have been written by successive musicians of his guild.'
+  - where: 'note 74:0 “A psalm of Asaph about a ruined sanctuary”'
+    claim: 'The children of Asaph are among the singers who returned from Babylon'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/2?lang=eng'
+    quote: 'The singers: the children of Asaph, an hundred twenty and eight.'
+
+  # ---- note 74:2 ----
+  - where: 'note 74:2 “The words of the song at the sea”'
+    claim: 'The song of Exodus 15 was sung by Israel after the sea; it has “redeemed,” “purchased,” the mountain of God’s inheritance and the Sanctuary'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/15?lang=eng'
+    quote: 'Thou shalt bring them in, and plant them in the mountain of thine inheritance, in the place, O Lord, which thou hast made for thee to dwell in, in the Sanctuary, O Lord, which thy hands have established.'
+  - where: 'note 74:2 “The words of the song at the sea”'
+    claim: 'Exodus 15 is the song the children of Israel sang'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/15?lang=eng'
+    quote: 'The children of Israel sing the song of Moses'
+  - where: 'note 74:2 “The words of the song at the sea”'
+    claim: 'The verb “redeemed” in Ps. 74:2 (H1350)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'גָּ֭אַלְתָּ'
+  - where: 'note 74:2 “The words of the song at the sea”'
+    claim: 'The same verb “redeemed” in Ex. 15:13 (H1350)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'גָּאָ֑לְתָּ'
+  - where: 'note 74:2 “The words of the song at the sea”'
+    claim: 'The verb “purchased” in Ps. 74:2 (H7069)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קָ֘נִ֤יתָ'
+  - where: 'note 74:2 “The words of the song at the sea”'
+    claim: 'The same verb “purchased” in Ex. 15:16 (H7069)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'קָנִֽיתָ'
+  - where: 'note 74:2 “The words of the song at the sea”'
+    claim: 'The noun “inheritance” in Ps. 74:2 (H5159); the same noun stands in Ex. 15:17'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נַחֲלָתֶ֑/ךָ'
+  - where: 'note 74:2 “The words of the song at the sea”'
+    claim: '“Of old” in verse 2 (H6924); verse 12 has the same word'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קֶּ֗דֶם'
+
+  # ---- note 74:4 ----
+  - where: 'note 74:4 “Their signs and our signs”'
+    claim: 'The same Hebrew word (H226) is “ensigns” and “signs” in verse 4'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אוֹתֹתָ֣/ם'
+  - where: 'note 74:4 “Their signs and our signs”'
+    claim: 'The same word is “our signs” in verse 9'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֽוֹתֹתֵ֗י/נוּ'
+  - where: 'note 74:4 “Their signs and our signs”'
+    claim: 'The lexicon files Ps. 74:4 under ensigns, standards'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/226.htm'
+    quote: '7 ensigns, standards Numbers 2:2 (P) Psalm 74:4.'
+  - where: 'note 74:4 “Their signs and our signs”'
+    claim: 'One reading: not military insignia but signs in the religious sense'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/74.htm'
+    quote: 'we must not understand military insignia; the scene of the Temple … requires that the word should have the religious reference in which it is used of circumcision and of the Sabbath'
+  - where: 'note 74:4 “Their signs and our signs”'
+    claim: '“Our signs” are the ordinances of worship, set aside by the enemy, and the antithesis of “their signs”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/74.htm'
+    quote: 'they are the instituted ordinances of divine worship by means of which God is pleased to stand in fellowship with His people, and which are now no longer to be seen because the enemies have set them aside.'
+  - where: 'note 74:4 “Their signs and our signs”'
+    claim: '“Our signs” is the direct antithesis of their signs'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/74.htm'
+    quote: '"Our signs" is the direct antithesis to "their sings" (Psalm 74:4)'
+  - where: 'note 74:4 “Their signs and our signs”'
+    claim: '“Congregations” in verse 4 is the word for appointed meeting (H4150)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מוֹעֲדֶ֑/ךָ'
+  - where: 'note 74:4 “Their signs and our signs”'
+    claim: 'The lexicon renders it “in the midst of thine assembly,” under appointed meeting'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4150.htm'
+    quote: '2 appointed meeting: … Psalm 74:4 in the midst of thine assembly'
+  - where: 'note 74:4 “Their signs and our signs”'
+    claim: 'A modern translation has “within your holy place”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: 'Your foes have roared within your holy place;'
+
+  # ---- note 74:5 ----
+  - where: 'note 74:5 “Axes in a thicket”'
+    claim: 'A modern translation’s rendering of verse 5'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: 'At the upper entrance they hacked'
+  - where: 'note 74:5 “Axes in a thicket”'
+    claim: 'The rest of the modern rendering'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: 'the wooden trellis with axes.'
+  - where: 'note 74:5 “Axes in a thicket”'
+    claim: 'Its footnote: the Hebrew is uncertain and the rendering a correction from the Greek and Syriac'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: '74.5 Cn Compare Gk Syr: Meaning of Heb uncertain'
+  - where: 'note 74:5 “Axes in a thicket”'
+    claim: 'The Greek has the doors cut down with axes as in a wood'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/74.htm'
+    quote: 'they cut down its doors at once with axes as in a wood of trees'
+  - where: 'note 74:5 “Axes in a thicket”'
+    claim: '“Carved work” in verse 6 (H6603)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פִּתּוּחֶ֣י/הָ'
+  - where: 'note 74:5 “Axes in a thicket”'
+    claim: 'The same word (H6603) in 1 Kings 6:29, of the carved figures in Solomon’s temple'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/1Kgs.xml'
+    quote: 'פִּתּוּחֵי֙'
+  - where: 'note 74:5 “Axes in a thicket”'
+    claim: 'Solomon carved the walls of the house'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/6?lang=eng'
+    quote: 'And he carved all the walls of the house round about with carved figures of cherubims and palm trees and open flowers, within and without.'
+
+  # ---- note 74:7 ----
+  - where: 'note 74:7 “Which burning of the sanctuary?”'
+    claim: 'The two dates argued, about four centuries apart'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/74.htm'
+    quote: 'there remains only the choice between the laying waste of Jerusalem and of the Temple in the year 588 and in the year 167'
+  - where: 'note 74:7 “Which burning of the sanctuary?”'
+    claim: 'The later date is the persecution under Antiochus Epiphanes'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/74.htm'
+    quote: 'we yield to the force of the impression and base both Psalms upon the situation of the Jewish nation under Antiochus and Demetrius'
+  - where: 'note 74:7 “Which burning of the sanctuary?”'
+    claim: 'The Babylonians burned the house of God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/36?lang=eng'
+    quote: 'And they burnt the house of God, and brake down the wall of Jerusalem'
+  - where: 'note 74:7 “Which burning of the sanctuary?”'
+    claim: 'Verse 7 fits the Chaldaeans and not the Syrians'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/74.htm'
+    quote: 'For what is said in Psalm 74:7, "they have set Thy Temple on fire," applies just as unconditionally as it runs to the Chaldaeans, but not to the Syrians.'
+  - where: 'note 74:7 “Which burning of the sanctuary?”'
+    claim: 'Antiochus’s troops burned gates and razed chambers'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/74.htm'
+    quote: 'his troops laid the city waste with fire and sword, destroyed houses and walls, burnt down several of the Temple-gates and razed many of its apartments'
+  - where: 'note 74:7 “Which burning of the sanctuary?”'
+    claim: 'Verses 4, 8 and 9 are best explained from the Maccabean age'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/74.htm'
+    quote: 'in which Psalm 74:4, Psalm 74:8, Psalm 74:9 are the most satisfactorily explained from the Maccabaean age, there are, again, other parts which are better explained from the Chaldaean'
+  - where: 'note 74:7 “Which burning of the sanctuary?”'
+    claim: 'Prophecy was felt to have ceased in that age; heathen signs filled the temple'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/74.htm'
+    quote: 'At that time it was felt more painfully than ever that prophecy had become dumb'
+  - where: 'note 74:7 “Which burning of the sanctuary?”'
+    claim: 'Verse 8 is taken of synagogues'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/74.htm'
+    quote: 'The expression apparently has reference to synagogues (and this ought not to be disputed), as Aquila and Symmachus render the word.'
+  - where: 'note 74:7 “Which burning of the sanctuary?”'
+    claim: 'On the Babylonian date the author could be an Asaphite of the exile'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/74.htm'
+    quote: 'might be regarded as an Asaphite of the time of the Exile'
+  - where: 'note 74:7 “Which burning of the sanctuary?”'
+    claim: 'The Church’s heading does not date the psalm'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/74?lang=eng'
+    quote: 'O God, remember Thy chosen congregation—The wicked destroy the sanctuary and burn the synagogues'
+
+  # ---- note 74:8 ----
+  - where: 'note 74:8 “Synagogues” are God’s appointed meeting places'
+    claim: '“Synagogues” is the word for appointed meeting (H4150), as in verse 4'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מוֹעֲדֵי'
+  - where: 'note 74:8 “Synagogues” are God’s appointed meeting places'
+    claim: 'The Church’s footnote 8b'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/74?lang=eng'
+    quote: 'HEB assembly places'
+  - where: 'note 74:8 “Synagogues” are God’s appointed meeting places'
+    claim: 'The lexicon’s rendering'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4150.htm'
+    quote: 'all the appointed places of El in the land Psalm 74:8'
+  - where: 'note 74:8 “Synagogues” are God’s appointed meeting places'
+    claim: 'A modern translation’s rendering'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: 'they burned all the meeting places of God in the land.'
+  - where: 'note 74:8 “Synagogues” are God’s appointed meeting places'
+    claim: 'The Greek reads the line as the enemy’s speech about feasts'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/74.htm'
+    quote: 'Come, let us abolish the feasts of the Lord from the earth.'
+
+  # ---- note 74:9 ----
+  - where: 'note 74:9 “No prophet, and no one who knows how long”'
+    claim: 'Lamentations 2:9 mourns prophets without vision'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lam/2?lang=eng'
+    quote: 'her prophets also find no vision from the Lord'
+  - where: 'note 74:9 “No prophet, and no one who knows how long”'
+    claim: 'The complaint would be strange just after the destruction, since Jeremiah was still active'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/74.htm'
+    quote: 'would seem strange in the period immediately after the destruction of Jerusalem, for Jeremiah''s term of active service lasted beyond this'
+  - where: 'note 74:9 “No prophet, and no one who knows how long”'
+    claim: 'Ezekiel had appeared six years before'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/74.htm'
+    quote: 'six years before the destruction Ezekiel appeared, who was in communication with those who remained behind in the land'
+  - where: 'note 74:9 “No prophet, and no one who knows how long”'
+    claim: 'Lamentations 2:9 assumes there were prophets'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/74.htm'
+    quote: 'for there it is assumed that there were prophets, a fact which is here denied'
+  - where: 'note 74:9 “No prophet, and no one who knows how long”'
+    claim: 'One answer: a voice from the middle of the exile, when the seventy years were still a riddle'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/74.htm'
+    quote: 'The seventy years of Jeremiah were then still a riddle without any generally known solution (Daniel 9).'
+  - where: 'note 74:9 “No prophet, and no one who knows how long”'
+    claim: 'The other answer: the time of Antiochus'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/74.htm'
+    quote: 'Psalm 74:9 now too accords with the like-sounding lament in the calamitous times of Antiochus'
+
+  # ---- note 74:11 ----
+  - where: 'note 74:11 “The right hand kept in the bosom”'
+    claim: 'A modern translation’s rendering'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: 'why do you keep your hand in your bosom?'
+  - where: 'note 74:11 “The right hand kept in the bosom”'
+    claim: 'Its footnote marks a correction of the Hebrew'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: '74.11 Cn: Heb do you consume your right hand from'
+  - where: 'note 74:11 “The right hand kept in the bosom”'
+    claim: 'Lamentations says the Lord drew back His right hand from before the enemy at the fall of Jerusalem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lam/2?lang=eng'
+    quote: 'he hath drawn back his right hand from before the enemy'
+
+  # ---- note 74:12 ----
+  - where: 'note 74:12 “The turn: seven times “thou””'
+    claim: 'A modern translation opens verse 12 with “Yet”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: 'Yet God my King is from of old,'
+  - where: 'note 74:12 “The turn: seven times “thou””'
+    claim: 'The pronoun “thou” (H859) stands seven times in verses 13–17: once in 13, once in 14, twice in 15, once in 16, twice in 17'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אַתָּ֤ה'
+  - where: 'note 74:12 “The turn: seven times “thou””'
+    claim: 'The verbs are second-person forms (for example “thou didst cleave,” verse 15, parsed Vqp2ms)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בָ֭קַעְתָּ'
+  - where: 'note 74:12 “The turn: seven times “thou””'
+    claim: '“My King” has a first-person singular suffix'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מַלְכִּ֣/י'
+  - where: 'note 74:12 “The turn: seven times “thou””'
+    claim: '“Of old” in verse 12 is the word of verse 2 (H6924)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִ/קֶּ֑דֶם'
+
+  # ---- note 74:14 ----
+  - where: 'note 74:14 “Leviathan: Egypt at the sea, and the sea monster of creation”'
+    claim: 'Leviathan is a great monster, here symbolic of a nation'
+    key: bd-leviathan
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/leviathan?lang=eng'
+    quote: 'Any great sea or land monster, such as the crocodile, either as an actual creature (Job 41:1) or as symbolic of a nation (Ps. 74:14); a large serpent (Isa. 27:1).'
+  - where: 'note 74:14 “Leviathan: Egypt at the sea, and the sea monster of creation”'
+    claim: 'The lexicon takes Leviathan here as figurative of Egypt'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3882.htm'
+    quote: 'figurative of Egypt as all-engulfing Psalm 74:14'
+  - where: 'note 74:14 “Leviathan: Egypt at the sea, and the sea monster of creation”'
+    claim: 'The lexicon glosses the dragons of verse 13 as the Egyptians'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8577.htm'
+    quote: '3 sea- (or river-) monster, Genesis 1:21 (P); figurative Job 7:12; Psalm 74:13 (i.e. Egyptains)'
+  - where: 'note 74:14 “Leviathan: Egypt at the sea, and the sea monster of creation”'
+    claim: 'The Church’s footnotes to verse 15 point to the water from the rock and the crossing of the Jordan'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/74?lang=eng'
+    quote: 'Josh. 3:17 (14–17)'
+  - where: 'note 74:14 “Leviathan: Egypt at the sea, and the sea monster of creation”'
+    claim: 'Many scholars read these verses of a myth of the Lord killing a cosmic sea monster'
+    key: sc-knowhy-866
+    url: 'https://scripturecentral.org/knowhy/why-does-the-old-testament-talk-about-leviathan'
+    quote: 'Although cryptic, these verses are understood by many biblical scholars to be a reference to a myth in which Yahweh kills a cosmic sea-monster.'
+  - where: 'note 74:14 “Leviathan: Egypt at the sea, and the sea monster of creation”'
+    claim: 'In the Babylonian story a god kills the sea monster and makes heaven and earth from her body'
+    key: sc-knowhy-866
+    url: 'https://scripturecentral.org/knowhy/why-does-the-old-testament-talk-about-leviathan'
+    quote: 'After catching Tiamat in a cosmic net, he kills her and divides her body in two, using half to create the heavens and half to create the earth.'
+  - where: 'note 74:14 “Leviathan: Egypt at the sea, and the sea monster of creation”'
+    claim: 'The shared idea is a God who turns chaos into order'
+    key: sc-knowhy-866
+    url: 'https://scripturecentral.org/knowhy/why-does-the-old-testament-talk-about-leviathan'
+    quote: 'Thus, both the Old Testament and Enuma Elish contain the notion of a God who destroys chaos and turns it into order.'
+  - where: 'note 74:14 “Leviathan: Egypt at the sea, and the sea monster of creation”'
+    claim: 'A modern translation has creatures of the wilderness, with a footnote that the Hebrew has “people”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: 'you gave him as food for the creatures of the wilderness.'
+  - where: 'note 74:14 “Leviathan: Egypt at the sea, and the sea monster of creation”'
+    claim: 'The Greek has the Ethiopian nations'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/74.htm'
+    quote: 'thou didst give him for meat to the Ethiopian nations.'
+
+  # ---- note 74:19 ----
+  - where: 'note 74:19 “A dove among wild beasts”'
+    claim: '“Multitude” in verse 19 (H2416)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ֭/חַיַּת'
+  - where: 'note 74:19 “A dove among wild beasts”'
+    claim: '“Congregation” in verse 19 is the same word (H2416)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַיַּ֥ת'
+  - where: 'note 74:19 “A dove among wild beasts”'
+    claim: 'A modern translation’s first line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: 'Do not deliver the soul of your dove to the wild animals;'
+  - where: 'note 74:19 “A dove among wild beasts”'
+    claim: 'A modern translation’s second line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: 'do not forget the life of your poor forever.'
+  - where: 'note 74:19 “A dove among wild beasts”'
+    claim: 'The Greek has wild beasts and souls, and “a soul that gives praise to thee” for the turtledove'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/74.htm'
+    quote: 'Deliver not to the wild beasts a soul that gives praise to thee: forget not for ever the souls of thy poor.'
+
+  # ---- note 74:20 ----
+  - where: 'note 74:20 “What the plea rests on”'
+    claim: 'Psalm 79 confesses and asks that former iniquities not be remembered'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/79?lang=eng'
+    quote: 'O remember not against us former iniquities: let thy tender mercies speedily prevent us: for we are brought very low.'
+  - where: 'note 74:20 “What the plea rests on”'
+    claim: 'A modern translation reads “your covenant” from the Greek and Syriac, where the Hebrew has “the”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: '74.20 Gk Syr: Heb the'
+  - where: 'note 74:20 “What the plea rests on”'
+    claim: 'A modern translation reads “your covenant”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2074&version=NRSVUE'
+    quote: 'Have regard for your covenant,'
+  - where: 'note 74:20 “What the plea rests on”'
+    claim: 'The Greek reads “thy covenant”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/74.htm'
+    quote: 'Look upon thy covenant: for the dark places of the earth are filled with the habitations of iniquity.'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: 'christ'
+    claim: 'The divine name stands once in the psalm, in verse 18'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְהוָ֑ה'
+  - where: 'christ'
+    claim: 'Paul says the Rock the fathers drank from was Christ'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/10?lang=eng'
+    quote: 'for they drank of that spiritual Rock that followed them: and that Rock was Christ.'
+  - where: 'christ'
+    claim: 'Jacob names the monster death and hell'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/9?lang=eng'
+    quote: 'who prepareth a way for our escape from the grasp of this awful monster; yea, that monster, death and hell'
+  - where: 'christ'
+    claim: 'The sea monsters symbolized the powers of chaos and are symbols of death and hell'
+    key: sc-knowhy-34
+    url: 'https://scripturecentral.org/knowhy/why-does-jacob-choose-a-monster-as-a-symbol-for-death-and-hell'
+    quote: 'Together, these all symbolized the powers of chaos, or those forces that endanger the lives of mortal beings, and are personifications or symbols of death and hell.'
+  - where: 'christ'
+    claim: 'Jacob’s image is read as a depiction of Christ the Redeemer overcoming them'
+    key: sc-knowhy-34
+    url: 'https://scripturecentral.org/knowhy/why-does-jacob-choose-a-monster-as-a-symbol-for-death-and-hell'
+    quote: 'Modern readers can well appreciate this powerful depiction of how Christ, our Redeemer and Savior, helps us conquer and overcome our greatest challenges and every obstacle to our eternal salvation.'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'Psalm 79 ends with a vow of praise'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/79?lang=eng'
+    quote: 'So we thy people and sheep of thy pasture will give thee thanks for ever: we will shew forth thy praise to all generations.'
+  - where: 'explore'
+    claim: 'Leviathan in Psalm 104 is a creature made to play in the sea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/104?lang=eng'
+    quote: 'There go the ships: there is that leviathan, whom thou hast made to play therein.'
+  - where: 'explore'
+    claim: 'KnoWhy #866 is on Leviathan and creation'
+    key: sc-knowhy-866
+    url: 'https://scripturecentral.org/knowhy/why-does-the-old-testament-talk-about-leviathan'
+    quote: 'However, this account is not the only Creation story in the Old Testament. There are narratives of Creation in the Psalms, Job, and Isaiah as well.'
+
+  # ---- parallels ----
+  - where: 'parallels'
+    claim: 'Isaiah 51:9 calls on the arm of the Lord that wounded the dragon'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/51?lang=eng'
+    quote: 'Art thou not it that hath cut Rahab, and wounded the dragon?'
+  - where: 'parallels'
+    claim: 'Psalm 79:1 mourns the defiled temple'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/79?lang=eng'
+    quote: 'thy holy temple have they defiled; they have laid Jerusalem on heaps.'
