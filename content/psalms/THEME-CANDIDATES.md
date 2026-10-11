@@ -696,3 +696,34 @@ The coordinator's leads from the brief's research. Each would have to show an ar
 - (143) Night and morning: 143:3, 8 with 90:14 (already listed).
 - (143) Psalms that share lines with Lamentations 3: 143:3 and Lam. 3:6.
 - (143) God's good Spirit as guide: 143:10 with Neh. 9:20.
+
+## Reported by chapters 144–149 (not yet sorted)
+
+- (144) Psalms made from older psalms: 144:1-11 from Psalm 18, with 8:4, 33:2-3, 33:12, 39:5 and 104:32 (already listed under psalms that repeat or borrow).
+- (144) 'What is man': 8:4; 144:3-4; Job 7:17; Heb. 2:6 (already listed).
+- (144) 'Blessed/Happy is the people': 1:1; 33:12; 144:15; 146:5.
+- (144) The LORD asked to come down: 18:9; 144:5. Joining these to Isa. 64:1 and D&C 133:40 is a connection no source read makes, so it was cut from this chapter; it could only be a theme page's own connection.
+- (144) Temporal blessing and the covenant: 144:12-15; 128. Deut. 28 and Mosiah 2:41 were cut here for the same reason and would likewise be a theme page's own connection.
+- (145) The Sinai sentence (Ex. 34:6) across the Psalms: 86:15; 103:8; 145:8 (also 111:4; 116:5).
+- (145) The LORD as King and His everlasting kingdom: 145:1, 11-13, with Psalms 93-99 and 146:10.
+- (145) Psalms in the Book of Mormon: 145:9 (1 Ne. 1:20; Jacob 4:10) and 145:20 (2 Ne. 30:10); Hilton counts five allusions to this psalm, the most for any.
+- (145) God feeding every creature: 104:27-28; 136:25; 145:15-16.
+- (146) Trust not in man or princes; the arm of flesh: 146:3-4 (with 118:8-9; Jer. 17:5; 2 Ne. 4:34).
+- (146) The LORD as king for ever, at the close of the book: 146:10 (with 145:13; Ex. 15:18).
+- (146) The stranger, the fatherless and the widow: 146:9 (with 94:6; 68:5; 82:3).
+- (146) The closing hallelujahs, 146-150, each opening and closing with 'Praise ye the LORD': 146:1, 10 (with 145:21).
+- (146) The works of the LORD that Jesus named to John: 146:7-8 (with Isa. 42:7; Matt. 11:5).
+- (147) The gathering of Israel's outcasts sung as present work: 147:2 (with 106:47; 107:2–3; Isa. 11:12; 56:8; Deut. 30:3).
+- (147) The word of the LORD that acts in creation and is given as law: 147:15–19 (with 33:6; 148:8; Isa. 55:10–11).
+- (147) Creation's scale beside God's care for the one: 147:3–4 (with 8:3–4; Isa. 40:26–27; Moses 1:35).
+- (147) Trust in the LORD and not in arms: 147:10–11 (with 20:7; 33:16–18); already listed.
+- (147) Mercy for those who fear Him: 147:11 (with 33:18); already listed.
+- (148) Heaven and earth praising together: 148; 150:6; Rev. 5:13; D&C 128:23 (already listed under 150).
+- (148) The horn lifted up: 148:14, with 18:2, 75 and 132:17 (already listed under 75).
+- (148) The fixed order of the heavens as a pledge to Israel: 148:6, 14; Jer. 31:35–36.
+- (148) Creation obeying its Maker: 148:5–8; 33:9; 104; 119:89–91 — the writer's candidate; no source found carries it, so it is a lead only.
+- (149) The two-edged sword and the word of God: 149:6, with Isa. 49:2, Eph. 6:17, Heb. 4:12, D&C 6:2, Rev. 1:16; 19:15.
+- (149) The saints' share in judgment and rule: 149:9, with 2:8-9, Dan. 7:22, 1 Cor. 6:2 (no source read joins them yet).
+- (149) Clothed with salvation: 132:9, 16; 149:4, with Isa. 61:10.
+- (149) The meek lifted up: 147:6; 149:4, with 37:11 and Matt. 5:5.
+- (149) The LORD as King of Zion in the closing psalms: 146:10; 149:2.
