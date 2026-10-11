@@ -1,0 +1,222 @@
+chapter: 100
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title in the Church’s edition is “A Psalm of praise.” and names no author'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/100?lang=eng'
+    quote: 'A Psalm of praise.'
+  - where: setting
+    claim: 'One older reading: the psalms of God’s dominion run from Psalm 93 onward, and Psalm 100 closes them as the echo of the first half of Psalm 95, by arrangement'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/100.htm'
+    quote: 'From the fact that this last Jubilate is entirely the echo of the first, viz., of the first half of Psalm 95:1-11, we see how ingenious the arrangement is.'
+  - where: setting
+    claim: 'The psalms before it celebrate the LORD’s kingship, from Psalm 93 on'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/100.htm'
+    quote: 'the Psalms celebrating the dominion of God, from Psalm 93:1-5 onwards, which vividly portray the unfolded glory of the kingship of Jahve'
+  - where: setting
+    claim: 'Psalms of praise, Psalms 95–100 among them, often begin with a call to gather (most importantly at the temple) and praise the Lord'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'often begin with a command or call to Israel to gather as a community (most importantly, at the temple) and praise the Lord'
+  - where: setting
+    claim: 'The psalm’s five verses have gates and courts, and no enemy, trouble or request'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/100?lang=eng'
+    quote: 'Enter into his gates with thanksgiving, and into his courts with praise'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'One older reading: those who enter the gates and courts in verse 4 are the men of all nations, as in Psalm 96:8'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/100.htm'
+    quote: 'Therefore shall the men of all nations enter with thanksgiving into the gates of His Temple and into the courts of His Temple with praise (Psalm 96:8)'
+  - where: thread
+    claim: '“All ye lands” is “all the earth” in a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20100&version=NRSVUE'
+    quote: 'Make a joyful noise to the Lord, all the earth.'
+  - where: thread
+    claim: 'Psalm 95 calls to worship twice, each call followed by “For,” through verse 7'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/95?lang=eng'
+    quote: 'For he is our God; and we are the people of his pasture, and the sheep of his hand.'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: 'A modern translation: all the earth; the Lord is God; and we are his'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20100&version=NRSVUE'
+    quote: 'It is he who made us, and we are his'
+  - where: section 2 plain
+    claim: 'A modern translation: give thanks to him; faithfulness to all generations'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20100&version=NRSVUE'
+    quote: 'and his faithfulness to all generations'
+
+  # ---------- note 100:0 ----------
+  - where: 'note 100:0 “The title’s praise is the thanksgiving of verse 4”'
+    claim: 'The title is two Hebrew words, mizmor and le-todah; todah (H8426) is the word in the title'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תוֹדָ֑ה'
+  - where: 'note 100:0 “The title’s praise is the thanksgiving of verse 4”'
+    claim: 'Verse 4’s “thanksgiving” is the same noun (H8426); its “praise” is a different noun, tehillah (H8416)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תוֹדָ֗ה'
+  - where: 'note 100:0 “The title’s praise is the thanksgiving of verse 4”'
+    claim: 'The Greek heads the psalm “A Psalm for Thanksgiving”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/100.htm'
+    quote: 'A Psalm for Thanksgiving. Make a joyful noise to the Lord, all the earth.'
+  - where: 'note 100:0 “The title’s praise is the thanksgiving of verse 4”'
+    claim: 'A modern translation heads it “A Psalm of thanksgiving.”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20100&version=NRSVUE'
+    quote: 'A Psalm of thanksgiving.'
+  - where: 'note 100:0 “The title’s praise is the thanksgiving of verse 4”'
+    claim: 'The lexicon puts verse 4 under “thanksgiving in songs of liturgical worship,” parallel with tehillah'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8426.htm'
+    quote: '2 thanksgiving in songs of liturgical worship'
+  - where: 'note 100:0 “The title’s praise is the thanksgiving of verse 4”'
+    claim: 'The lexicon puts the title of Psalm 100 under the thank-offering, a division of the peace offering (Lev. 7:12)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8426.htm'
+    quote: 'לתודה Psalm 100:1 (title)'
+  - where: 'note 100:0 “The title’s praise is the thanksgiving of verse 4”'
+    claim: 'Leviticus 7: the sacrifice of thanksgiving is of the peace offerings and is eaten the day it is offered'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/7?lang=eng'
+    quote: 'And the flesh of the sacrifice of his peace offerings for thanksgiving shall be eaten the same day that it is offered'
+
+  # ---------- note 100:3 confession ----------
+  - where: 'note 100:3 “Israel’s confession, addressed to all the earth”'
+    claim: 'The psalm’s summons opens with all lands and then says “the LORD he is God,” the words of Deut. 4:35 and 4:39 and, nearly, of 1 Kgs. 18:39 in the King James text'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/100?lang=eng'
+    quote: 'Know ye that the Lord he is God'
+  - where: 'note 100:3 “Israel’s confession, addressed to all the earth”'
+    claim: 'Deuteronomy 4:39 has the same sentence as a command to know, and adds that there is none else'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/4?lang=eng'
+    quote: 'Know therefore this day, and consider it in thine heart, that the Lord he is God in heaven above, and upon the earth beneath: there is none else.'
+
+  # ---------- note 100:3 variant ----------
+  - where: 'note 100:3 “One letter between “not we ourselves” and “we are his””'
+    claim: 'The Hebrew text has a written form (ketiv), the negative with “and”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'ו/לא'
+  - where: 'note 100:3 “One letter between “not we ourselves” and “we are his””'
+    claim: 'The Hebrew text has a read form (qere), the preposition with a third-person suffix: “and his”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/ל֣/וֹ'
+  - where: 'note 100:3 “One letter between “not we ourselves” and “we are his””'
+    claim: 'The two forms differ by a letter, and the Hebrew Bible has fifteen places with this same pair, one written and the other read'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/100.htm'
+    quote: 'there are fifteen passages in the Old Testament in which לא is written and לו is read'
+  - where: 'note 100:3 “One letter between “not we ourselves” and “we are his””'
+    claim: 'The Greek follows the written form'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/100.htm'
+    quote: 'he made us, and not we ourselves'
+  - where: 'note 100:3 “One letter between “not we ourselves” and “we are his””'
+    claim: 'A modern translation prints the read form'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20100&version=NRSVUE'
+    quote: 'It is he who made us, and we are his'
+  - where: 'note 100:3 “One letter between “not we ourselves” and “we are his””'
+    claim: 'The modern translation gives the written form in a footnote'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20100&version=NRSVUE'
+    quote: 'Or and not we ourselves'
+  - where: 'note 100:3 “One letter between “not we ourselves” and “we are his””'
+    claim: 'An older commentary: both readings fit the context'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/100.htm'
+    quote: 'But in reality both readings accord with the context'
+  - where: 'note 100:3 “One letter between “not we ourselves” and “we are his””'
+    claim: 'The commentary prefers the read form, among other reasons for the parallel in Psalm 95:7'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/100.htm'
+    quote: 'the Ker decidedly maintains the preference'
+  - where: 'note 100:3 “One letter between “not we ourselves” and “we are his””'
+    claim: 'The commentary names Psalm 95:7 as favouring the read form'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/100.htm'
+    quote: 'Since, however, the parallel passage, Psalm 95:7, favours'
+  - where: 'note 100:3 “One letter between “not we ourselves” and “we are his””'
+    claim: 'Psalm 95:7: “he is our God” is followed at once by “we are the people of his pasture”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/95?lang=eng'
+    quote: 'For he is our God; and we are the people of his pasture, and the sheep of his hand.'
+  - where: 'note 100:3 “One letter between “not we ourselves” and “we are his””'
+    claim: 'The commentary takes “made” of Israel’s making as God’s people; the Creator is also the Owner'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/100.htm'
+    quote: 'not merely as a people, but as the people of God'
+
+  # ---------- note 100:5 ----------
+  - where: 'note 100:5 “The line Jeremiah hears beside the thank offering”'
+    claim: 'Jeremiah 33:11 has the words of verse 5 beside the bringing of the sacrifice of praise into the house of the LORD'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/33?lang=eng'
+    quote: 'Praise the Lord of hosts: for the Lord is good; for his mercy endureth for ever: and of them that shall bring the sacrifice of praise into the house of the Lord'
+  - where: 'note 100:5 “The line Jeremiah hears beside the thank offering”'
+    claim: '“Sacrifice of praise” in Jer. 33:11 is todah (H8426), the noun of this psalm’s title'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
+    quote: 'תּוֹדָ֖ה'
+  - where: 'note 100:5 “The line Jeremiah hears beside the thank offering”'
+    claim: 'The lexicon lists Jer. 33:11 under the thank-offering'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8426.htm'
+    quote: 'Jeremiah 17:26; Jeremiah 33:11'
+  - where: 'note 100:5 “The line Jeremiah hears beside the thank offering”'
+    claim: 'Verse 5 in the King James text: “his mercy is everlasting”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/100?lang=eng'
+    quote: 'For the Lord is good; his mercy is everlasting; and his truth endureth to all generations.'
+  - where: 'note 100:5 “The line Jeremiah hears beside the thank offering”'
+    claim: '“His mercy is everlasting” in verse 5 is le-olam hasdo: hesed (H2617), “mercy,” after “for ever” (H5769)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַסְדּ֑'
+  - where: 'note 100:5 “The line Jeremiah hears beside the thank offering”'
+    claim: '“His mercy endureth for ever” in Jer. 33:11 is the same two Hebrew words, le-olam hasdo'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
+    quote: 'חַסְדּ֔'
+  - where: 'note 100:5 “The line Jeremiah hears beside the thank offering”'
+    claim: '“Truth” is emunah (H530): firmness, steadfastness, fidelity'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/530.htm'
+    quote: 'noun feminine firmness, steadfastness, fidelity'
+  - where: 'note 100:5 “The line Jeremiah hears beside the thank offering”'
+    claim: 'A modern translation: steadfast love and faithfulness'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20100&version=NRSVUE'
+    quote: 'his steadfast love endures forever and his faithfulness to all generations'
+
+  # ---------- christ / explore / parallels ----------
+  - where: christ
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: christ
+    claim: 'Jesus calls Himself the good shepherd who knows His sheep and is known by them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/10?lang=eng'
+    quote: 'I am the good shepherd, and know my sheep, and am known of mine.'
+  - where: explore
+    claim: 'Leviticus 7 gives the law of the sacrifice of thanksgiving'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/7?lang=eng'
+    quote: 'If he offer it for a thanksgiving, then he shall offer with the sacrifice of thanksgiving unleavened cakes mingled with oil'
