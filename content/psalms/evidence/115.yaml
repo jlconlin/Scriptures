@@ -1,0 +1,266 @@
+chapter: 115
+claims:
+  # ---------- setting ----------
+  - where: 'setting'
+    claim: 'The Hallel is Psalms 113–118, recited at the great feasts'
+    key: bd-hallel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hallel?lang=eng'
+    quote: 'A name given to the group of Psalms (113–18) recited by Jews at the great feasts (Matt. 26:30; Mark 14:26).'
+  - where: 'setting'
+    claim: 'In later times the Hallel was sung at Passover, with the telling of the redemption from Egypt'
+    key: bd-feasts
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/feasts?lang=eng'
+    quote: 'In later times the following ceremonies were added: (1) The history of the redemption from Egypt was related by the head of the household (Ex. 12:26–27).'
+  - where: 'setting'
+    claim: 'The Hallel psalms were sung at Passover'
+    key: bd-feasts
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/feasts?lang=eng'
+    quote: 'Ps. 113–18 (the Hallel) were sung.'
+  - where: 'setting'
+    claim: 'Psalm 135:15–18 repeats the description of the idols in shorter form'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/135?lang=eng'
+    quote: 'They have ears, but they hear not; neither is there any breath in their mouths.'
+  - where: 'setting'
+    claim: 'Psalm 118:2–4 calls on the same three groups'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/118?lang=eng'
+    quote: 'Let the house of Aaron now say, that his mercy endureth for ever.'
+  - where: 'setting'
+    claim: 'Psalm 135:19–20 calls on the three groups and adds the house of Levi'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/135?lang=eng'
+    quote: 'O house of Levi: ye that fear the'
+  - where: 'setting'
+    claim: 'The last two words of verse 18 in Hebrew are hallelu yah (Strong’s 1984 and 3050)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַֽלְלוּ'
+
+  # ---------- section 2 plain ----------
+  - where: 'section 2 plain'
+    claim: 'The last clause of verse 7 rendered as making no sound in the throat'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20115&version=NRSVUE'
+    quote: 'they make no sound in their throats.'
+
+  # ---------- note 115:1 ----------
+  - where: 'note 115:1 “The glory is asked for the name, not for Israel”'
+    claim: 'A modern translation has “steadfast love” and “faithfulness”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20115&version=NRSVUE'
+    quote: 'for the sake of your steadfast love and your faithfulness.'
+  - where: 'note 115:1 “The glory is asked for the name, not for Israel”'
+    claim: '“Mercy” in verse 1 is the Hebrew hesed (Strong’s 2617)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַ֝סְדְּ/ךָ֗'
+
+  # ---------- note 115:3 ----------
+  - where: 'note 115:3 “Where He is, and what He can do”'
+    claim: 'Psalm 135:6 repeats and fills out the line'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/135?lang=eng'
+    quote: 'that did he in heaven, and in earth, in the seas, and all deep places.'
+
+  # ---------- note 115:5 ----------
+  - where: 'note 115:5 “A body with nothing living in it”'
+    claim: 'A modern translation renders the end of verse 7 as making no sound'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20115&version=NRSVUE'
+    quote: 'they make no sound in their throats.'
+  - where: 'note 115:5 “A body with nothing living in it”'
+    claim: 'Jeremiah says idols do not speak and must be carried'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/10?lang=eng'
+    quote: 'They are upright as the palm tree, but speak not: they must needs be borne, because they cannot go.'
+  - where: 'note 115:5 “A body with nothing living in it”'
+    claim: 'Daniel tells Belshazzar he has praised gods that neither see, hear, nor know'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/5?lang=eng'
+    quote: 'thou hast praised the gods of silver, and gold, of brass, iron, wood, and stone, which see not, nor hear, nor know'
+
+  # ---------- note 115:8 (makers) ----------
+  - where: 'note 115:8 “Makers who become like what they make”'
+    claim: 'The Greek version makes verse 8 a wish'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/115.htm'
+    quote: 'Let those that make them become like to them, and all who trust in them.'
+  - where: 'note 115:8 “Makers who become like what they make”'
+    claim: 'Isaiah says their eyes are shut'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/44?lang=eng'
+    quote: 'for he hath shut their eyes, that they cannot see; and their hearts, that they cannot understand.'
+  - where: 'note 115:8 “Makers who become like what they make”'
+    claim: 'Delitzsch: the worshippers become like their idols and come to nothing'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/115.htm'
+    quote: 'they become like to their idols, that is to say, being deprived of their consciousness, life, and existence, they come to nothing'
+
+  # ---------- note 115:8 (Kimball) ----------
+  - where: 'note 115:8 “President Kimball on what a man trusts most”'
+    claim: 'President Kimball defined a man’s god as what he trusts most'
+    key: kimball-false-gods
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1976/06/the-false-gods-we-worship?lang=eng'
+    quote: 'Whatever thing a man sets his heart and his trust in most is his god; and if his god doesn’t also happen to be the true and living God of Israel, that man is laboring in idolatry.'
+  - where: 'note 115:8 “President Kimball on what a man trusts most”'
+    claim: 'He said faith has seemed harder than relying on things at hand, so that trust is transferred to material things, and called this a dominant theme of the Old Testament'
+    key: kimball-false-gods
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1976/06/the-false-gods-we-worship?lang=eng'
+    quote: 'carnal man has tended to transfer his trust in God to material things.'
+  - where: 'note 115:8 “President Kimball on what a man trusts most”'
+    claim: 'He called it a dominant theme in the Old Testament'
+    key: kimball-false-gods
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1976/06/the-false-gods-we-worship?lang=eng'
+    quote: 'This I find to be a dominant theme in the Old Testament.'
+  - where: 'note 115:8 “President Kimball on what a man trusts most”'
+    claim: 'He cited D&C 1:16'
+    key: kimball-false-gods
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1976/06/the-false-gods-we-worship?lang=eng'
+    quote: 'whose image is in the likeness of the world, and whose substance is that of an idol'
+  - where: 'note 115:8 “President Kimball on what a man trusts most”'
+    claim: 'The Lord’s words in D&C 1:16'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/1?lang=eng'
+    quote: 'whose image is in the likeness of the world, and whose substance is that of an idol'
+
+  # ---------- note 115:9 ----------
+  - where: 'note 115:9 “A second voice answers”'
+    claim: 'Delitzsch explains the third-person refrain from the psalm being an antiphonal song'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/115.htm'
+    quote: 'our help and shield is He, is to be explained from its being an antiphonal song.'
+  - where: 'note 115:9 “A second voice answers”'
+    claim: 'Delitzsch has a new voice begin at verse 9'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/115.htm'
+    quote: 'After this confession of Israel there now arises a voice that addresses itself to Israel.'
+  - where: 'note 115:9 “A second voice answers”'
+    claim: 'Psalm 33:20 has the line in the first person'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/33?lang=eng'
+    quote: 'he is our help and our shield.'
+  - where: 'note 115:9 “A second voice answers”'
+    claim: 'The Greek version has statements where the King James has commands'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/115.htm'
+    quote: 'The house of Israel trusts in the Lord: he is their helper and defender.'
+
+  # ---------- note 115:11 ----------
+  - where: 'note 115:11 “The third group”'
+    claim: 'Delitzsch: those who fear the LORD are probably the proselytes'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/115.htm'
+    quote: 'Those who fear Jahve, who also stand in the last passage, are probably the proselytes'
+  - where: 'note 115:11 “The third group”'
+    claim: 'Delitzsch: the notion extends beyond Israel'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/115.htm'
+    quote: 'for the notion of "those who fear Jahve" extends beyond Israel.'
+  - where: 'note 115:11 “The third group”'
+    claim: 'Paul addresses Israel and those who fear God in the synagogue at Antioch'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/13?lang=eng'
+    quote: 'Then Paul stood up, and beckoning with his hand said, Men of Israel, and ye that fear God, give audience.'
+  - where: 'note 115:11 “The third group”'
+    claim: 'The same three groups in Psalm 118:2–4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/118?lang=eng'
+    quote: 'Let the house of Aaron now say, that his mercy endureth for ever.'
+
+  # ---------- note 115:12 ----------
+  - where: 'note 115:12 “Three calls, three blessings, and the blessing returned”'
+    claim: 'The psalm’s own verses 12–13 name the three groups in the order of verses 9–11'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/115?lang=eng'
+    quote: 'he will bless the house of Aaron.'
+
+  # ---------- note 115:16 ----------
+  - where: 'note 115:16 “Given by the one who made it”'
+    claim: 'Psalm 24:1 says the earth is the LORD’s'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/24?lang=eng'
+    quote: 'and the fulness thereof; the world, and they that dwell therein.'
+
+  # ---------- note 115:17 ----------
+  - where: 'note 115:17 “Those who go down into silence”'
+    claim: 'The Greek version has Hades for “silence”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/115.htm'
+    quote: 'nor any that go down to Hades.'
+  - where: 'note 115:17 “Those who go down into silence”'
+    claim: 'The Greek version adds “the living” in verse 18'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/115.htm'
+    quote: 'But we, the living, will bless the Lord, from henceforth and for ever.'
+  - where: 'christ'
+    claim: 'The Church’s footnote on “dead” in verse 17 points to D&C 128:22'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/115?lang=eng'
+    quote: 'D&C 128:22.'
+  - where: 'christ'
+    claim: 'D&C 128:22 has the dead praising'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/128?lang=eng'
+    quote: 'Let the dead speak forth anthems of eternal praise to the King Immanuel, who hath ordained, before the world was, that which would enable us to redeem them out of their prison'
+
+  # ---------- christ ----------
+  - where: 'christ'
+    claim: 'LORD usually stands for Jehovah, who is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: 'christ'
+    claim: 'Usually “Lord” in the Old Testament means Jehovah'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Usually, when the word Lord appears in the Old Testament, it means “Jehovah.”'
+  - where: 'christ'
+    claim: 'The Bible Dictionary’s entry on the Hallel cites Matthew 26:30 and Mark 14:26'
+    key: bd-hallel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hallel?lang=eng'
+    quote: 'recited by Jews at the great feasts (Matt. 26:30; Mark 14:26)'
+  - where: 'christ'
+    claim: 'The Hallel was sung at Passover'
+    key: bd-feasts
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/feasts?lang=eng'
+    quote: 'Ps. 113–18 (the Hallel) were sung.'
+
+  # ---------- explore ----------
+  - where: 'explore'
+    claim: 'Psalm 135:19–20 has “bless the LORD” where this psalm has “trust in the LORD”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/135?lang=eng'
+    quote: 'O house of Israel: bless the'
+
+  # ---------- parallels ----------
+  - where: 'parallels'
+    claim: 'Psalm 79:10 has the nations’ question'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/79?lang=eng'
+    quote: 'Where is their God?'
+  - where: 'note 115:1 “The glory is asked for the name, not for Israel”'
+    claim: 'The Church’s footnote on “name” in verse 1 points to Isaiah 48:11'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/115?lang=eng'
+    quote: 'Isa. 48:11.'
+  - where: 'note 115:1 “The glory is asked for the name, not for Israel”'
+    claim: 'The LORD says through Isaiah that He acts for His own sake and will not give His glory to another'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/48?lang=eng'
+    quote: 'and I will not give my glory unto another.'
+  - where: 'note 115:11 “The third group”'
+    claim: 'Proselytes were men of gentile birth who had joined the Jewish community'
+    key: bd-proselytes
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/proselytes?lang=eng'
+    quote: 'Men of gentile birth who had been incorporated into the Jewish church.'
+  - where: 'note 115:11 “The third group”'
+    claim: 'Most synagogues had God-fearing Gentiles attached who attended the services and were not full proselytes; Acts 13:16 is among the references to them'
+    key: bd-proselytes
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/proselytes?lang=eng'
+    quote: 'there were attached to most Jewish synagogues a number of “God-fearing” or “devout” Gentiles, who attended the services but only observed part of the ceremonial law'
+  - where: 'parallels'
+    claim: 'Isaiah 44:18 says of the makers of idols that their eyes are shut'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/44?lang=eng'
+    quote: 'for he hath shut their eyes, that they cannot see'
