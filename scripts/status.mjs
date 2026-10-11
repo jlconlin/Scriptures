@@ -31,7 +31,7 @@ if (existsSync(path.join(root, 'OPEN-QUESTIONS.md'))) {
   for (const line of (await readFile(path.join(root, 'OPEN-QUESTIONS.md'), 'utf8')).split('\n')) {
     const h = line.match(/^## (.+)/);
     if (h) heading = h[1].trim().toLowerCase();
-    const id = line.match(/^- \*\*([A-Za-z]+-?[A-Z0-9]*)\. /);
+    const id = line.match(/^- \*\*([A-Za-z]+-?[A-Z0-9]*)\.(?:\*\*)? /); // “- **G1. Title.** …”, or “- **Ps18.** …” as batch-finish.mjs appends them
     if (id) (waiting[heading] ??= []).push(id[1]);
   }
 }
