@@ -1,0 +1,335 @@
+chapter: 64
+claims:
+  # ---------- setting ----------
+  - where: setting
+    claim: 'The psalm has no feature that fixes it to an occasion in David’s life'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/64.htm'
+    quote: 'it is wanting in any specially defined features and cannot with any certainty be identified with one or other of the two great periods of suffering in the life of David'
+  - where: setting
+    claim: 'In Book Two of the Psalms “God” (Elohim) largely takes the place of the divine name'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/42.htm'
+    quote: 'The Second Book of Psalms consists entirely of Elohimic Psalms'
+  - where: setting
+    claim: 'The psalm says “God” (Elohim) in verses 1, 7 and 9'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֱלֹהִ֣ים'
+  - where: setting
+    claim: 'The divine name stands in verse 10 (Hebrew 64:11), its only occurrence in the psalm'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּ֭/יהוָה'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'Verse 7 repeats the Hebrew words of verses 3–4: arrow (Strong’s 2671), shoot (3384) and suddenly (6597)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פִּתְא֑וֹם'
+  - where: thread
+    claim: 'The plotters “fear not” in verse 4 and all men “fear” in verse 9, with one Hebrew verb (Strong’s 3372)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַ/יִּֽירְא֗וּ'
+
+  # ---------- note 64:1 ----------
+  - where: 'note 64:1 “The prayer is a complaint”'
+    claim: 'The Hebrew noun behind “prayer” means a plaint or complaint, and the lexicon lists this verse under that sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7879.htm'
+    quote: 'plaint, complaint'
+  - where: 'note 64:1 “The prayer is a complaint”'
+    claim: 'The New Revised Standard Version has “in my complaint” and “the dread enemy”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2064&version=NRSVUE'
+    quote: 'Hear my voice, O God, in my complaint; preserve my life from the dread enemy.'
+  - where: 'note 64:1 “The prayer is a complaint”'
+    claim: 'The word behind “fear” in verse 1 is a noun meaning dread, and the lexicon lists this verse under it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6343.htm'
+    quote: 'noun masculine1Samuel 11:7 dread'
+
+  # ---------- note 64:2 ----------
+  - where: 'note 64:2 “A private circle and a throng”'
+    claim: 'The word behind “secret counsel” is a council, a circle of familiar friends, used in this verse in a bad sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5475.htm'
+    quote: 'divan or circle of familiar friends'
+  - where: 'note 64:2 “A private circle and a throng”'
+    claim: 'The lexicon marks the use in this verse (Hebrew 64:3) as “in bad sense”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5475.htm'
+    quote: 'in bad sense'
+  - where: 'note 64:2 “A private circle and a throng”'
+    claim: 'The word behind “insurrection” is a noun meaning throng'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7285.htm'
+    quote: 'noun feminine throng'
+  - where: 'note 64:2 “A private circle and a throng”'
+    claim: 'The New Revised Standard Version has “secret plots” and “scheming”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2064&version=NRSVUE'
+    quote: 'Hide me from the secret plots of the wicked, from the scheming of evildoers'
+
+  # ---------- note 64:3 ----------
+  - where: 'note 64:3 “Weapons made of words”'
+    claim: 'The New Revised Standard Version makes the words the arrows'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2064&version=NRSVUE'
+    quote: 'who aim bitter words like arrows'
+  - where: explore
+    claim: 'The Church’s footnotes on verse 3 point to Psalm 57:4 and Jeremiah 9:3, and on verse 4 to Psalm 11:2'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/64?lang=eng'
+    quote: 'Jer. 9:3.'
+  - where: explore
+    claim: 'Psalm 57:4 calls the enemies’ tongue a sharp sword'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/57?lang=eng'
+    quote: 'whose teeth are spears and arrows, and their tongue a sharp sword'
+  - where: explore
+    claim: 'Jeremiah 9:3 has tongues bent like a bow for lies'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/9?lang=eng'
+    quote: 'And they bend their tongues like their bow for lies'
+
+  # ---------- note 64:4 ----------
+  - where: 'note 64:4 “Perfect means a person of integrity”'
+    claim: 'The Hebrew adjective means complete, morally innocent, having integrity, and the lexicon lists this verse and Job under that sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8535.htm'
+    quote: 'complete, morally innocent, having integrity'
+  - where: 'note 64:4 “Perfect means a person of integrity”'
+    claim: 'The New Revised Standard Version has “the blameless”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2064&version=NRSVUE'
+    quote: 'shooting from ambush at the blameless'
+  - where: 'note 64:4 “Perfect means a person of integrity”'
+    claim: 'The Greek translation has “the blameless”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/64.htm'
+    quote: 'to shoot in secret at the blameless'
+
+  # ---------- note 64:5 ----------
+  - where: 'note 64:5 “The question secrecy asks”'
+    claim: 'The New Revised Standard Version gives the question as the plotters’ own words, and notes that the Hebrew has “them”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2064&version=NRSVUE'
+    quote: 'thinking, “Who can see us?'
+  - where: 'note 64:5 “The question secrecy asks”'
+    claim: 'The New Revised Standard Version’s footnote says the Hebrew reads “them”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2064&version=NRSVUE'
+    quote: 'Syr Jerome: Heb them'
+  - where: 'note 64:5 “The question secrecy asks”'
+    claim: 'The New Revised Standard Version’s cross-reference for verse 5 is Psalm 10:11'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2064&version=NRSVUE'
+    quote: 'Ps 10.11'
+  - where: christ
+    claim: 'Doctrine and Covenants 88:109 has an angel’s trump reveal secret acts and the thoughts and intents of hearts'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'reveal the secret acts of men, and the thoughts and intents of their hearts'
+
+  # ---------- note 64:6 ----------
+  - where: 'note 64:6 “A verse read in more than one way”'
+    claim: 'One Hebrew root (Strong’s 2664 and 2665) stands three times in the verse: search out, a search, searched'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מְחֻפָּ֑שׂ'
+  - where: 'note 64:6 “A verse read in more than one way”'
+    claim: 'It is doubtful whether the verb behind “they accomplish” is a first-person or a third-person form'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/64.htm'
+    quote: 'It is doubtful whether'
+  - where: 'note 64:6 “A verse read in more than one way”'
+    claim: 'Read as first person, the line is the plotters’ own speech'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/64.htm'
+    quote: 'we are ready, a clever stroke is concocted'
+  - where: 'note 64:6 “A verse read in more than one way”'
+    claim: 'The commentary prefers the third person, with the last clause as the poet’s ironic comment'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/64.htm'
+    quote: 'they excogitate knavish tricks, they are ready - a delicately devised, clever stroke (nominative of the result), and (as the poet ironically adds) the inward part of man and the heart is (verily) deep'
+  - where: 'note 64:6 “A verse read in more than one way”'
+    claim: 'The depth of the heart is not too deep for God'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/64.htm'
+    quote: 'but not too deep for God, who knoweth the heart'
+  - where: 'note 64:6 “A verse read in more than one way”'
+    claim: 'The New Revised Standard Version continues the plotters’ speech through most of the verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2064&version=NRSVUE'
+    quote: 'Who can search out our crimes? We have thought out a cunningly conceived plot.” For the human heart and mind are deep.'
+  - where: 'note 64:6 “A verse read in more than one way”'
+    claim: 'The New Revised Standard Version’s footnote gives the Hebrew as “They search out crimes”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2064&version=NRSVUE'
+    quote: 'Heb They search out crimes'
+  - where: 'note 64:6 “A verse read in more than one way”'
+    claim: 'The Greek translation has the plotters wearied with searching'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/64.htm'
+    quote: 'They have searched out iniquity; they have wearied themselves with searching diligently, a man shall approach and the heart is deep'
+
+  # ---------- note 64:7 ----------
+  - where: 'note 64:7 “Their own weapons, turned on them”'
+    claim: 'The word for arrow in verse 7 (Strong’s 2671) is the word of verse 3'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֵ֥ץ'
+  - where: 'note 64:7 “Their own weapons, turned on them”'
+    claim: 'The verb for shoot (Strong’s 3384) stands twice in verse 4 and again in verse 7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַ/יֹּרֵ֗/ם'
+  - where: 'note 64:7 “Their own weapons, turned on them”'
+    claim: 'The word for suddenly (Strong’s 6597) stands in verse 4 and in verse 7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פִּתְאֹ֥ם'
+  - where: 'note 64:7 “Their own weapons, turned on them”'
+    claim: 'The word for tongue (Strong’s 3956) stands in verse 3 and in verse 8, in the same form'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְשׁוֹנָ֑/ם'
+  - where: 'note 64:7 “Their own weapons, turned on them”'
+    claim: 'God surprises the enemies as suddenly as they had plotted to surprise their victim'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/64.htm'
+    quote: 'He will just as suddenly surprise the enemies of His anointed with their death-blow, as they had plotted it for him.'
+  - where: 'note 64:7 “Their own weapons, turned on them”'
+    claim: 'The same commentary calls what verses 7–9 describe a retribution springing from the enemies’ own craftiness'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/64.htm'
+    quote: 'as a retribution springing from the malicious craftiness of the enemies'
+  - where: 'note 64:7 “Their own weapons, turned on them”'
+    claim: 'On one reading the Hebrew verb forms of verses 7–9 speak of the future with the certainty of something already done'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/64.htm'
+    quote: 'represent that which is future, with all the certainty of an historical fact'
+  - where: 'note 64:7 “Their own weapons, turned on them”'
+    claim: 'The Greek translation puts verses 8–9 in the past'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/64.htm'
+    quote: 'and every man was alarmed, and they related the works of God, and understood his deeds.'
+
+  # ---------- note 64:8 ----------
+  - where: 'note 64:8 “The tongue that brings its owners down”'
+    claim: 'One commentary calls the wording the King James follows an odd fancy'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/64.htm'
+    quote: 'is an odd fancy'
+  - where: 'note 64:8 “The tongue that brings its owners down”'
+    claim: 'The same commentary prefers an unnamed subject who overthrows the enemy while the sin of their tongue comes on themselves'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/64.htm'
+    quote: 'and one overthrows him, inasmuch as their tongue, i.e., the sin of their tongue with which they sought to destroy others, comes upon themselves.'
+  - where: 'note 64:8 “The tongue that brings its owners down”'
+    claim: 'The New Revised Standard Version makes God the subject'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2064&version=NRSVUE'
+    quote: 'Because of their tongue he will bring them to ruin'
+  - where: 'note 64:8 “The tongue that brings its owners down”'
+    claim: 'The New Revised Standard Version’s footnote gives the Hebrew wording'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2064&version=NRSVUE'
+    quote: 'Heb They will bring him to ruin, their tongue being against them'
+  - where: explore
+    claim: 'The Church’s footnote on “fall” points to Proverbs 18:7'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/64?lang=eng'
+    quote: 'Prov. 18:7.'
+  - where: explore
+    claim: 'Proverbs 18:7 says a fool’s mouth is his destruction'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/prov/18?lang=eng'
+    quote: 'mouth is his destruction, and his lips are the snare of his soul.'
+  - where: 'note 64:9 “The fear the plotters lacked”'
+    claim: 'The verb “fear” of verse 9 (Strong’s 3372) is the verb of “fear not” in verse 4'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִירָֽאוּ'
+  - where: 'note 64:9 “The fear the plotters lacked”'
+    claim: 'The fear of verse 1 is a different Hebrew word, a noun for dread'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6343.htm'
+    quote: 'noun masculine1Samuel 11:7 dread'
+  - where: 'note 64:9 “The fear the plotters lacked”'
+    claim: 'The verb behind “flee away” in verse 8 is used of fleeing in horror or disgust'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5074.htm'
+    quote: 'flee away (in horror, disgust, compare'
+  - where: 'note 64:9 “The fear the plotters lacked”'
+    claim: 'The New Revised Standard Version has the onlookers shake with horror, and has “ponder” for “wisely consider”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2064&version=NRSVUE'
+    quote: 'all who see them will shake with horror.'
+  - where: 'note 64:9 “The fear the plotters lacked”'
+    claim: 'The New Revised Standard Version renders the last clause “ponder what he has done”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2064&version=NRSVUE'
+    quote: 'and ponder what he has done.'
+  - where: 'note 64:9 “The fear the plotters lacked”'
+    claim: 'The verb behind “wisely consider” means, in this verse, to give attention to, consider, ponder'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7919.htm'
+    quote: 'give attention to, consider, ponder'
+
+  # ---------- note 64:10 ----------
+  - where: 'note 64:10 “The name of the LORD, once, at the end”'
+    claim: 'Verse 10 (Hebrew 64:11) has the divine name; verses 1, 7 and 9 have Elohim'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּ֭/יהוָה'
+  - where: 'note 64:10 “The name of the LORD, once, at the end”'
+    claim: 'The verb behind “trust” means to seek refuge'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2620.htm'
+    quote: '(mostly in poetry and figurative) seek refuge'
+  - where: 'note 64:10 “The name of the LORD, once, at the end”'
+    claim: 'The New Revised Standard Version has “take refuge in him”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2064&version=NRSVUE'
+    quote: 'and take refuge in him.'
+  - where: christ
+    claim: 'Jehovah is the covenant name of the God of Israel'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'The covenant or proper name of the God of Israel.'
+  - where: christ
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ'
+  - where: christ
+    claim: 'The Church’s footnote on “see” in verse 5 points to Alma 37:25 and Doctrine and Covenants 88:108–109'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/64?lang=eng'
+    quote: 'Alma 37:25; D&C 88:108 (108–9).'
+  - where: christ
+    claim: 'In Alma 37:25 it is the Lord who brings secret works to light'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/37?lang=eng'
+    quote: 'I will bring forth out of darkness unto light all their secret works and their abominations'
+
+  # ---------- explore ----------
+  - where: christ
+    claim: 'In Alma 37:24–25 Alma is repeating to his son what God had spoken'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/37?lang=eng'
+    quote: 'And now, my son, these interpreters were prepared that the word of God might be fulfilled, which he spake, saying'
+  - where: explore
+    claim: 'Jeremiah 9:8 calls the tongue an arrow shot out'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/9?lang=eng'
+    quote: 'Their tongue is as an arrow shot out; it speaketh deceit'
+  - where: parallels
+    claim: 'Psalm 10:11 has the wicked say that God will never see'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/10?lang=eng'
+    quote: 'He hath said in his heart, God hath forgotten: he hideth his face; he will never see it.'
