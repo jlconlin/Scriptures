@@ -652,3 +652,47 @@ The coordinator's leads from the brief's research. Each would have to show an ar
 - (130) Deep waters: 130:1 with 69:2, 14 (already listed from 69).
 - (130) "Who shall stand?": 130:3-4 with 76:7 (already listed from 76).
 - (130) Redemption from sin rather than from troubles: 130:7-8 beside 25:22.
+
+## Reported by chapters 131–143 (not yet sorted)
+
+- (131) 'Let Israel hope in the LORD': a single speaker's prayer handed to the whole people at the close of consecutive songs of degrees (130:7-8; 131:3).
+- (131) The stilled, waiting soul (62:1; 130:5-6; 131:2).
+- (132) The oath to David and its 'if' (Ps. 89:3-4, 28-37; 132:11-12), carried to Acts 2:30 and Luke 1:32-33.
+- (132) The LORD's rest and dwelling in Zion (Ps. 132:8, 13-14; 95:11; 78:68).
+- (132) Horn, lamp and Branch for David's line (Ps. 132:17; 18:2; 89:17, 24; Jer. 23:5; 33:15).
+- (133) Blessing out of Zion in the songs of degrees (128:5; 133:3; 134:3); already listed under 128.
+- (133) Family and brethren in the songs of degrees (127:3-5; 128:3, 6; 133:1); already listed under 127.
+- (133) Anointing oil and the anointed (2:2; 23:5; 45:7; 89:20; 133:2).
+- (133) Unity and Zion as a people of one heart (133:1, 3, with Moses 7:18; John 17:21; D&C 38:27).
+- (134) Blessing in both directions, the LORD blessed and blessing (Ps. 115:12-18; 128:5; 133:3; 134:1-3; 135:19-21), with Num. 6:24.
+- (134) The Maker of heaven and earth in the songs of degrees (Ps. 121:2; 124:8; 134:3; also 115:15; 146:6): probably links, not a page.
+- (134) The songs of degrees as a movement toward the house of the LORD (Ps. 120:5 to 134:1): no source read states it, so it was cut from this chapter; it belongs under 'Ascending the hill of the Lord' only if a source is found.
+- (135) The recital of Egypt, Sihon and Og, and the land as heritage (135:8-12; 136:10-22; also 78, 105, 106).
+- (135) Idols that cannot speak, see or hear, and their makers like them (135:15-18; 115:4-8; Jer. 10).
+- (135) Psalms built from earlier scripture (135 from Ex. 3:15, Ex. 19:5, Deut. 32:36, Jer. 10:13, Ps. 115, Ps. 134).
+- (135) The call to Israel, Aaron, Levi and those who fear the LORD (135:19-20; 115:9-11; 118:2-4).
+- (136) The refrain 'his mercy endureth for ever' across scripture: 1 Chr. 16:34; 2 Chr. 5:13; 7:3; 20:21; Ezra 3:11; Ps. 106:1; 107:1; 118:1-4; 136; Jer. 33:11.
+- (136) Israel's history retold as praise or as confession: Ps. 78, 105, 106, 135, 136; Neh. 9.
+- (138) The kings of the earth praising the LORD (138:4-5; with 2:10-12; 72:10-11; 102:15; 148:11; D&C 124:3).
+- (138) The high LORD who looks on the lowly (138:6; 113:5-7).
+- (138) God finishing what He began (138:8; 57:2; with Philip. 1:6).
+- (138) 'Gods' beneath the LORD and the council (138:1; with 8:5; 82:1; 97:7): already listed.
+- (139) God's presence in Sheol and the Psalter's range of views on the dead: 139:8 beside 6:5, 30:9, 88, 115:17, and 16:10, 49:15.
+- (139) The hand of God that leads and holds: 139:5, 10 (with 63:8; 73:23).
+- (139) God who tries the heart and reins: 139:1, 13, 23 (with 7:9; 17:3; 26:2; 44:21).
+- (139) A cursing passage followed at once by self-examination: 139:19-24.
+- (140) The tongue as a weapon and the slanderer as the enemy (140:3, 9, 11; with 5:9; 52:2-4; 57:4; 64:3-8; 120:2-4).
+- (140) The hunter's snare (140:5; 141:9; 142:3; with 9:15-16; 91:3; 124:7).
+- (140) Harm returning on the head of the one who planned it (140:9, 11; 7:15-16; 9:15-16; 57:6).
+- (140) The LORD as the judge who takes the case of the poor (140:12; 9:4; 72:2-4, 12-14; 109:31).
+- (141) Prayer as offering, and prayer at the hour of the offering: 141:2 (with lifted hands in 28:2, 63:4, 134:2; Ezra 9:5; Dan. 9:21; Luke 1:10; Rev. 5:8; 8:3-4).
+- (141) The wicked caught in their own pit or net: 141:10 (already listed from 7:15-16; 9:15-16; 35:7-8; 57:6).
+- (141) Psalms 140-143 as a group sharing the snare: 140:5; 141:9; 142:3.
+- (142) The LORD as "portion" (16:5; 73:26; 119:57; 142:5; Lam. 3:24).
+- (142) The right hand as the defender's place (16:8; 109:31; 110:5; 121:5; 142:4).
+- (142) Prison and release (107:10-14; 142:7; Isa. 42:7; 61:1).
+- (143) Justification before God: 143:2 with 130:3 (Rom. 3:20; Gal. 2:16; 2 Ne. 2:5).
+- (143) 'Thy servant' as the psalmist's standing: 143:2, 12 (already listed from 19, 86, 116).
+- (143) Night and morning: 143:3, 8 with 90:14 (already listed).
+- (143) Psalms that share lines with Lamentations 3: 143:3 and Lam. 3:6.
+- (143) God's good Spirit as guide: 143:10 with Neh. 9:20.
