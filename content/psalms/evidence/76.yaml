@@ -1,0 +1,538 @@
+chapter: 76
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to Asaph and names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/76?lang=eng'
+    quote: 'To the chief Musician on Neginoth, A Psalm or Song of Asaph.'
+  - where: when
+    claim: 'The Greek title adds “for the Assyrian”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/76.htm'
+    quote: 'a Song for the Assyrian.'
+  - where: setting
+    claim: 'Asaph was a Levite, and his name stands in the titles of Psalm 50 and Psalms 73–83'
+    key: bd-asaph
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/asaph?lang=eng'
+    quote: 'A cymbal-playing Levite appointed leader of David’s choir.'
+  - where: setting
+    claim: 'The psalms that bear Asaph’s name'
+    key: bd-asaph
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/asaph?lang=eng'
+    quote: 'Ps. 50; 73–83.'
+  - where: setting
+    claim: 'The Greek title adds “a Song for the Assyrian” to what the Hebrew title has'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/76.htm'
+    quote: 'For the end, among the Hymns, a Psalm for Asaph; a Song for the Assyrian.'
+  - where: setting
+    claim: 'The psalm has been read of the overthrow of the Assyrian army before Jerusalem'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/76.htm'
+    quote: 'with the overthrow of the army of Assyria before Jerusalem and its results'
+  - where: setting
+    claim: 'The Assyrian king who came against Judah was Sennacherib'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/32?lang=eng'
+    quote: 'Sennacherib invades Judah and besieges the cities'
+  - where: setting
+    claim: 'It happened in Hezekiah’s reign'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/19?lang=eng'
+    quote: 'Hezekiah seeks counsel from Isaiah to save Jerusalem'
+  - where: setting
+    claim: 'Psalm 46 tells of God breaking the weapons of war'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/46?lang=eng'
+    quote: 'he breaketh the bow, and cutteth the spear in sunder'
+  - where: setting
+    claim: 'Psalm 48 tells of kings who came against the city and fled'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/48?lang=eng'
+    quote: 'They saw it, and so they marvelled; they were troubled, and hasted away.'
+  - where: setting
+    claim: 'The Church’s footnote on verse 7 points to Revelation 6:17'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/76?lang=eng'
+    quote: 'Ps. 130:3; Rev. 6:17.'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The fear word of verse 7 (nora) returns in verse 12 (hebrew.mjs psalms 76:1-12: H3372 in verses 7, 8 and 12, H4172a in verse 11); the form in verse 7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נ֥וֹרָא'
+  - where: thread
+    claim: 'The noun of verse 11 is from the verb of verses 7, 8 and 12'
+    key: strongs-concordance
+    url: 'https://biblehub.com/hebrew/4172.htm'
+    quote: 'see HEBREW yare'''
+
+  # ---------- sections ----------
+  - where: 'section 1 plain'
+    claim: '“Abode” for the King James’s “tabernacle”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'His abode has been established in Salem,'
+  - where: 'section 1 plain'
+    claim: '“Flashing arrows” for “the arrows of the bow”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'There he broke the flashing arrows,'
+  - where: 'section 1 plain'
+    claim: '“The battle” is the weapons of war'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'the shield, the sword, and the weapons of war.'
+  - where: 'section 2 plain'
+    claim: '“Glorious” and “majestic” for “glorious and excellent”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'Glorious are you, more majestic'
+  - where: 'section 2 plain'
+    claim: '“Spoiled” is plundered'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'The courageous were stripped of their spoil;'
+  - where: 'section 2 plain'
+    claim: 'They sank into sleep'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'they sank into sleep;'
+  - where: 'section 2 plain'
+    claim: '“Found their hands” is being able to lift a hand'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'was able to lift a hand.'
+  - where: 'section 3 plain'
+    claim: '“Who may stand in thy sight” is who can stand before you'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'Who can stand before you'
+  - where: 'section 3 plain'
+    claim: 'Judgment heard from heaven'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'From the heavens you uttered judgment;'
+  - where: 'section 4 plain'
+    claim: 'The Hebrew verb of verse 10 is “gird,” where the King James has “restrain”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2296.htm'
+    quote: 'with a remnant (residue) of wraths thou girdest thyself'
+  - where: 'section 4 plain'
+    claim: 'Make vows and perform them'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'Make vows to the Lord your God and perform them;'
+  - where: 'section 4 plain'
+    claim: '“Presents” are gifts, brought by all who are around Him'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'let all who are around him bring gifts'
+
+  # ---------- note 76:0 ----------
+  - where: 'note 76:0 “Strings, Asaph, and a line the Greek adds”'
+    claim: 'The Hebrew title as the King James prints it names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/76?lang=eng'
+    quote: 'To the chief Musician on Neginoth, A Psalm or Song of Asaph.'
+  - where: 'note 76:0 “Strings, Asaph, and a line the Greek adds”'
+    claim: 'Neginoth asks for stringed instruments'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'To the leader: with stringed instruments. A Psalm of Asaph. A Song.'
+  - where: 'note 76:0 “Strings, Asaph, and a line the Greek adds”'
+    claim: 'The Greek title ends with “a Song for the Assyrian”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/76.htm'
+    quote: 'a Song for the Assyrian.'
+
+  # ---------- note 76:2 ----------
+  - where: 'note 76:2 “Salem, and a word for a lion’s covert”'
+    claim: 'Salem was the home of Melchizedek'
+    key: bd-salem
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/salem?lang=eng'
+    quote: 'Peace. The home of Melchizedek'
+  - where: 'note 76:2 “Salem, and a word for a lion’s covert”'
+    claim: 'Salem is identified as Jerusalem'
+    key: bd-salem
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/salem?lang=eng'
+    quote: 'which is easily identified as Jerusalem'
+  - where: 'note 76:2 “Salem, and a word for a lion’s covert”'
+    claim: 'Genesis calls Melchizedek king of Salem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/14?lang=eng'
+    quote: 'And Melchizedek king of Salem brought forth bread and wine'
+  - where: 'note 76:2 “Salem, and a word for a lion’s covert”'
+    claim: 'The Greek translates Salem as a common noun, “in peace”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/76.htm'
+    quote: 'And his place has been in peace, and his dwelling-place in Sion.'
+  - where: 'note 76:2 “Salem, and a word for a lion’s covert”'
+    claim: 'The Hebrew noun behind “tabernacle” (sok, H5520) means thicket, covert, lair'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5520.htm'
+    quote: 'thicket, covert, lair'
+  - where: 'note 76:2 “Salem, and a word for a lion’s covert”'
+    claim: 'The lexicon reads the word in Jeremiah 25:38 and in this verse (Hebrew 76:3) of the LORD under the figure of a lion'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5520.htm'
+    quote: 'under figure of lion'
+  - where: 'note 76:2 “Salem, and a word for a lion’s covert”'
+    claim: 'Jeremiah 25:38 has the same word, “covert,” with the lion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/25?lang=eng'
+    quote: 'He hath forsaken his covert, as the lion'
+  - where: 'note 76:2 “Salem, and a word for a lion’s covert”'
+    claim: 'The noun behind “dwelling place” (meonah, H4585) is the den or lair of wild beasts'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4585.htm'
+    quote: 'den, lair of wild beasts'
+  - where: 'note 76:2 “Salem, and a word for a lion’s covert”'
+    claim: 'The lexicon takes it in this verse as a figure of the LORD dwelling in the temple'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4585.htm'
+    quote: 'dwelling in temple, singular suffix'
+  - where: 'note 76:2 “Salem, and a word for a lion’s covert”'
+    claim: 'A modern translation has “abode”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'His abode has been established in Salem,'
+
+  # ---------- note 76:4 ----------
+  - where: 'note 76:4 “Mountains of prey”'
+    claim: 'The Hebrew word (tereph, H2964) is prey, first of a lion'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2964.htm'
+    quote: 'prey of lion Amos 3:4'
+  - where: 'note 76:4 “Mountains of prey”'
+    claim: 'The lexicon reads the line (Hebrew 76:5) as the lion coming down from mountains of prey, and suggests the Greek reading'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2964.htm'
+    quote: 'compare Psalm 76:5 coming down from mountains of prey (the lion’s lair), but read perhaps'
+  - where: 'note 76:4 “Mountains of prey”'
+    claim: 'The Greek has “everlasting mountains”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/76.htm'
+    quote: 'Thou dost wonderfully shine forth from the everlasting mountains.'
+  - where: 'note 76:4 “Mountains of prey”'
+    claim: 'A modern translation follows the Greek'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'than the everlasting mountains.'
+  - where: 'note 76:4 “Mountains of prey”'
+    claim: 'It gives the Hebrew reading in a footnote'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: '76.4 Gk: Heb the mountains of prey'
+
+  # ---------- note 76:5 spoiled ----------
+  - where: 'note 76:5 “Spoiled means plundered”'
+    claim: 'The Hebrew verb (shalal, H7997) is spoil, plunder'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7997.htm'
+    quote: 'spoil, plunder (usually'
+  - where: 'note 76:5 “Spoiled means plundered”'
+    claim: 'The lexicon’s rendering of the clause (Hebrew 76:6)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7997.htm'
+    quote: 'Psalm 76:6 the stout of heart are spoiled'
+  - where: 'note 76:5 “Spoiled means plundered”'
+    claim: 'A modern translation: stripped of their spoil'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'The courageous were stripped of their spoil;'
+  - where: 'note 76:5 “Spoiled means plundered”'
+    claim: '“Found their hands” rendered as being able to lift a hand'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'was able to lift a hand.'
+
+  # ---------- note 76:5 sleepers ----------
+  - where: 'note 76:5 “The sleepers, and the Greek title’s Assyrian”'
+    claim: 'The verb of verse 6 (radam, H7290; Hebrew 76:7) is used there of the sleep of death'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7290.htm'
+    quote: 'of sleep of death Psalm 76:7'
+  - where: 'note 76:5 “The sleepers, and the Greek title’s Assyrian”'
+    claim: 'Jeremiah speaks of a perpetual sleep for Babylon’s mighty men'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/51?lang=eng'
+    quote: 'they shall sleep a perpetual sleep, and not wake'
+  - where: 'note 76:5 “The sleepers, and the Greek title’s Assyrian”'
+    claim: 'The Greek title names the Assyrian'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/76.htm'
+    quote: 'a Song for the Assyrian.'
+  - where: 'note 76:5 “The sleepers, and the Greek title’s Assyrian”'
+    claim: 'The psalm read as answering to the overthrow of Assyria’s army before Jerusalem, with the Greek title cited'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/76.htm'
+    quote: 'with the overthrow of the army of Assyria before Jerusalem and its results'
+  - where: 'note 76:5 “The sleepers, and the Greek title’s Assyrian”'
+    claim: 'The sleep read as the eternal sleep'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/76.htm'
+    quote: 'they have fallen into their sleep, viz., the eternal sleep'
+  - where: 'note 76:5 “The sleepers, and the Greek title’s Assyrian”'
+    claim: 'Kings reports the death of the Assyrian camp in one night'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/19?lang=eng'
+    quote: 'smote in the camp of the Assyrians an hundred fourscore and five thousand'
+  - where: 'note 76:5 “The sleepers, and the Greek title’s Assyrian”'
+    claim: 'The army was Sennacherib’s'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/32?lang=eng'
+    quote: 'Sennacherib invades Judah and besieges the cities'
+  - where: 'note 76:5 “The sleepers, and the Greek title’s Assyrian”'
+    claim: '“Chariot and horse” read as an allusion to Exodus 15'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/76.htm'
+    quote: 'an allusion to Exodus 15'
+
+  # ---------- note 76:7 fear ----------
+  - where: 'note 76:7 “One Hebrew word for fear, four times”'
+    claim: 'Verse 7 has nora (H3372, a participle); hebrew.mjs psalms 76:1-12 shows H3372 in verses 7, 8 and 12 and H4172a in verse 11'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נ֥וֹרָא'
+  - where: 'note 76:7 “One Hebrew word for fear, four times”'
+    claim: 'Verse 8 has the same verb, “feared”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יָֽרְאָ֣ה'
+  - where: 'note 76:7 “One Hebrew word for fear, four times”'
+    claim: 'Verse 11 has a single noun, mora, with the article and a preposition'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לַ/מּוֹרָֽא'
+  - where: 'note 76:7 “One Hebrew word for fear, four times”'
+    claim: 'Verse 12 has the form of verse 7 again'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נ֝וֹרָ֗א'
+  - where: 'note 76:7 “One Hebrew word for fear, four times”'
+    claim: 'The noun of verse 11 comes from the verb of verses 7, 8 and 12'
+    key: strongs-concordance
+    url: 'https://biblehub.com/hebrew/4172.htm'
+    quote: 'see HEBREW yare'''
+  - where: 'note 76:7 “One Hebrew word for fear, four times”'
+    claim: 'The form in verses 7 and 12 means to cause astonishment and awe, and is used of God Himself (Hebrew 76:8)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3372.htm'
+    quote: 'cause astonishment and awe: of Yahweh himself'
+  - where: 'note 76:7 “One Hebrew word for fear, four times”'
+    claim: 'The lexicon lists verse 12 (Hebrew 76:13) under the same sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3372.htm'
+    quote: 'to kings of the earth Psalm 76:13'
+  - where: 'note 76:7 “One Hebrew word for fear, four times”'
+    claim: 'A modern translation has “awesome” in verse 7'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'But you indeed are awesome!'
+  - where: 'note 76:7 “One Hebrew word for fear, four times”'
+    claim: 'and “awesome” in verse 11'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'to the one who is awesome,'
+  - where: 'note 76:7 “One Hebrew word for fear, four times”'
+    claim: 'and “inspires fear” in verse 12'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'who inspires fear in the kings of the earth.'
+
+  # ---------- note 76:7 who may stand ----------
+  - where: 'note 76:7 “The question asked again before the Lamb”'
+    claim: 'The Church’s footnote on “stand” gives Psalm 130:3 and Revelation 6:17'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/76?lang=eng'
+    quote: 'Ps. 130:3; Rev. 6:17.'
+  - where: 'note 76:7 “The question asked again before the Lamb”'
+    claim: 'Revelation asks the question of the wrath of the Lamb'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/6?lang=eng'
+    quote: 'For the great day of his wrath is come; and who shall be able to stand?'
+  - where: 'note 76:7 “The question asked again before the Lamb”'
+    claim: 'Psalm 130:4 answers with forgiveness'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/130?lang=eng'
+    quote: 'But there is forgiveness with thee, that thou mayest be feared.'
+  - where: 'note 76:7 “The question asked again before the Lamb”'
+    claim: '“Feared” in Psalm 130:4 is the verb of this psalm (yare, H3372, in the same stem as the form of verse 7)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3372.htm'
+    quote: 'Psalm 130:4; Participle'
+
+  # ---------- note 76:9 ----------
+  - where: 'note 76:9 “Judgment that saves the meek of the earth”'
+    claim: 'The Hebrew word (anav, H6035) names the poor, afflicted, humble, meek'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6035.htm'
+    quote: 'poor, afflicted, humble, meek'
+  - where: 'note 76:9 “Judgment that saves the meek of the earth”'
+    claim: 'In the phrase “meek of the earth” the lexicon gives the sense poor and weak, oppressed by the rich and powerful, and lists this verse (Hebrew 76:10), Isaiah 11:4 and Zephaniah 2:3'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6035.htm'
+    quote: 'poor and weak. oppressed by rich and powerful'
+  - where: 'note 76:9 “Judgment that saves the meek of the earth”'
+    claim: 'A modern translation has “the oppressed of the earth”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'to save all the oppressed of the earth.'
+  - where: 'note 76:9 “Judgment that saves the meek of the earth”'
+    claim: 'The form of “meek of” in this verse (hebrew.mjs psalms 76:9), followed by “earth”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עַנְוֵי'
+  - where: 'note 76:9 “Judgment that saves the meek of the earth”'
+    claim: 'Isaiah 11:4 has the same two words (hebrew.mjs isaiah 11:4: H6035 in the same form with a preposition, then H776)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'לְ/עַנְוֵי'
+  - where: 'note 76:9 “Judgment that saves the meek of the earth”'
+    claim: 'Isaiah 11:4 in the King James Version'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/11?lang=eng'
+    quote: 'reprove with equity for the meek of the earth'
+  - where: 'note 76:9 “Judgment that saves the meek of the earth”'
+    claim: 'The Church’s chapter heading identifies the stem of Jesse as Christ'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/11?lang=eng'
+    quote: 'The stem of Jesse (Christ) will judge in righteousness'
+  - where: 'note 76:9 “Judgment that saves the meek of the earth”'
+    claim: 'The Church’s footnote on “meek” points to Zephaniah 2:3'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/76?lang=eng'
+    quote: 'Zeph. 2:3 (1–3).'
+
+  # ---------- note 76:10 ----------
+  - where: 'note 76:10 “The remainder of wrath: restrained, or girded on”'
+    claim: 'The Hebrew verb (chagar, H2296) means gird'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2296.htm'
+    quote: 'gird, gird on, gird oneself'
+  - where: 'note 76:10 “The remainder of wrath: restrained, or girded on”'
+    claim: 'The lexicon’s rendering of the line (Hebrew 76:11), which it calls very doubtful'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2296.htm'
+    quote: 'with a remnant (residue) of wraths thou girdest thyself, so Hi Hup De VB; but very doubtful'
+  - where: 'note 76:10 “The remainder of wrath: restrained, or girded on”'
+    claim: 'The first half: the rage of men must turn to God’s glory'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/76.htm'
+    quote: 'must ultimately redound to Thy glory'
+  - where: 'note 76:10 “The remainder of wrath: restrained, or girded on”'
+    claim: 'One reading: the remainder is God’s own store of wrath'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/76.htm'
+    quote: 'is the infinite store of wrath still available to God after human rage has done its utmost.'
+  - where: 'note 76:10 “The remainder of wrath: restrained, or girded on”'
+    claim: 'On that reading He girds, that is arms, Himself with it'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/76.htm'
+    quote: 'with which Thou canst gird, i.e., arm, Thyself against such human rage'
+  - where: 'note 76:10 “The remainder of wrath: restrained, or girded on”'
+    claim: 'A modern translation takes the remainder as God’s wrath'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: 'when you bind the last bit of your wrath around you.'
+  - where: 'note 76:10 “The remainder of wrath: restrained, or girded on”'
+    claim: 'It notes that the Hebrew has no “your”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2076&version=NRSVUE'
+    quote: '76.10 Heb lacks your'
+
+  # ---------- note 76:11 ----------
+  - where: 'note 76:11 “Gifts for the One who is feared”'
+    claim: 'The weight of “Vow, and pay” falls on the paying'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/76.htm'
+    quote: 'inasmuch as the preponderance falls upon the second imperative'
+  - where: 'note 76:11 “Gifts for the One who is feared”'
+    claim: '“All that be round about him” are the neighbouring peoples'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/76.htm'
+    quote: 'all the peoples dwelling round about Him and His people'
+  - where: 'note 76:11 “Gifts for the One who is feared”'
+    claim: 'The summons is connected with 2 Chronicles 32:23'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/76.htm'
+    quote: 'and with the fulfilment in 2 Chronicles 32:23'
+  - where: 'note 76:11 “Gifts for the One who is feared”'
+    claim: 'Chronicles records gifts brought to Jerusalem after Sennacherib’s fall'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/32?lang=eng'
+    quote: 'presents to Hezekiah king of Judah'
+  - where: 'note 76:11 “Gifts for the One who is feared”'
+    claim: '“Him that ought to be feared” is one Hebrew noun with the article (hebrew.mjs psalms 76:11, word 9)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לַ/מּוֹרָֽא'
+  - where: 'note 76:11 “Gifts for the One who is feared”'
+    claim: 'The noun (mora, H4172) means an object of reverence, especially God, in Isaiah 8:13 and this verse (Hebrew 76:12)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4172.htm'
+    quote: 'object of reverence, especially God Isaiah 8:12,13; Psalm 76:12'
+  - where: 'note 76:11 “Gifts for the One who is feared”'
+    claim: 'Isaiah 8:13 has the same noun (hebrew.mjs isaiah 8:13, word 7, H4172a)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'מוֹרַאֲ/כֶ֖ם'
+
+  # ---------- note 76:12 ----------
+  - where: 'note 76:12 “The vintager’s verb”'
+    claim: 'The verb (batsar, H1219) is used of cutting off grape clusters, and its participle of grape-gathering'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1219.htm'
+    quote: 'hence Participle active grape-gathering, -gatherer'
+  - where: 'note 76:12 “The vintager’s verb”'
+    claim: 'In this verse (Hebrew 76:13) it is figurative: cut off, take away'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1219.htm'
+    quote: 'figurative cut off (= take away) Psalm 76:13'
+  - where: 'note 76:12 “The vintager’s verb”'
+    claim: 'The Greek has “takes away the spirits of princes”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/76.htm'
+    quote: 'and that takes away the spirits of princes'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'The Church’s footnote on verse 7 points to Revelation 6:17'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/76?lang=eng'
+    quote: 'Ps. 130:3; Rev. 6:17.'
+  - where: christ
+    claim: 'In Revelation the wrath is the Lamb’s'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/6?lang=eng'
+    quote: 'and from the wrath of the Lamb'
+  - where: christ
+    claim: 'Isaiah 11:4 has the Hebrew phrase of verse 9 (hebrew.mjs isaiah 11:4)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'לְ/עַנְוֵי'
+  - where: christ
+    claim: 'The Church’s chapter heading identifies the stem of Jesse as Christ'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/11?lang=eng'
+    quote: 'The stem of Jesse (Christ) will judge in righteousness'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'Psalm 46 has the broken bow'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/46?lang=eng'
+    quote: 'he breaketh the bow, and cutteth the spear in sunder'
+  - where: parallels
+    claim: 'Kings reports the night the Assyrian camp died'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/19?lang=eng'
+    quote: 'behold, they were all dead corpses'
+  - where: parallels
+    claim: 'Chronicles reports gifts brought to Jerusalem afterward'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/32?lang=eng'
+    quote: 'presents to Hezekiah king of Judah'
