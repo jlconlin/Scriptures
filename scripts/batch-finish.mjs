@@ -53,5 +53,6 @@ console.log(`${added.length} question(s) for the author appended to OPEN-QUESTIO
 for (const a of added) console.log(`  ${a.trim().slice(0, 260)}`);
 
 git('add', 'content/sources.yaml', 'OPEN-QUESTIONS.md', `content/${slug}/BRIEF.md`, `content/${slug}/THEME-CANDIDATES.md`);
+try { git('add', `content/${slug}/DECIDED.md`); } catch { /* most books keep the log in the brief */ }
 if (git('diff', '--cached', '--name-only').trim()) git('commit', '-q', '-m', `${book.name} ${chapters[0]}–${chapters.at(-1)}: sources, the reviewers' decisions, questions and theme candidates\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`);
 console.log(run('batch-commit.mjs', slug, 'written', ...chapters).trim());

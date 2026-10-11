@@ -33,7 +33,9 @@ for (const r of reviews) {
   if (r.problems) console.log(`   problems: ${short(r.problems, 600)}`);
 }
 
-const brief = path.join('content', book, 'BRIEF.md');
+// A book whose log has outgrown its brief keeps it in content/<book>/DECIDED.md (Psalms); the script writes there when the file exists.
+const decidedFile = path.join('content', book, 'DECIDED.md');
+const brief = fs.existsSync(decidedFile) ? decidedFile : path.join('content', book, 'BRIEF.md');
 const text = fs.readFileSync(brief, 'utf8');
 const heading = '## Decided while writing';
 const at = text.indexOf(heading);

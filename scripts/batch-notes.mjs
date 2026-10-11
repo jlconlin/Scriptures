@@ -4,7 +4,7 @@
 // Prints what the reviewers left for the author, to be settled or added by hand to OPEN-QUESTIONS.md at the
 // top of the repository, and what blocked a reviewer.
 // Usage: node scripts/batch-notes.mjs <book> <the run's journal.jsonl> [--dry]
-import { readFileSync, appendFileSync } from 'node:fs';
+import { readFileSync, appendFileSync, existsSync } from 'node:fs';
 import path from 'node:path';
 import { findBook, bookArg } from '../src/lib/books.mjs';
 
@@ -30,7 +30,8 @@ const unanswered = reviews.filter((r) => r.unanswered?.length).map((r) => `- **$
 const themes = `\n## Reported by chapters ${reviews[0].chapter}–${reviews.at(-1).chapter} (not yet sorted)\n\n` +
   reviews.flatMap((r) => (r.themeCandidates ?? []).map((t) => `- (${r.chapter}) ${tidy(t)}.\n`)).join('');
 if (!dry) {
-  const brief = path.join(book.dir, 'BRIEF.md');
+  // content/<book>/DECIDED.md, where a book has one (Psalms), takes the unanswered questions in place of the brief.
+  const brief = existsSync(path.join(book.dir, 'DECIDED.md')) ? path.join(book.dir, 'DECIDED.md') : path.join(book.dir, 'BRIEF.md');
   const heading = '## Reader questions no source answered';
   appendFileSync(brief, (readFileSync(brief, 'utf8').includes(heading) ? '' : `\n${heading}\n\n`) + unanswered);
   appendFileSync(path.join(book.dir, 'THEME-CANDIDATES.md'), themes);
