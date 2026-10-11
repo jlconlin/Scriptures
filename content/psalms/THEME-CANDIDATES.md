@@ -552,3 +552,56 @@ The coordinator's leads from the brief's research. Each would have to show an ar
 - (105) Israel's history retold (already listed at 78): 105 as the hymn, 106 as the confession.
 - (105) The LORD's anointed (already listed at 2): 105:15, plural and used of the patriarchs.
 - (105) Remembering and forgetting (already listed at 78): 105:5, 8, 42.
+
+## Reported by chapters 106–118 (not yet sorted)
+
+- (106) The wilderness history retold to teach, praise, warn and confess (Psalms 78, 95, 105, 106; also 81, 90, 99).
+- (106) Remembering and forgetting, God's and Israel's (Ps. 105:5, 8, 42; 106:4, 7, 13, 21, 45; 78:11, 35, 42).
+- (106) Intercessors who stand between, pointing to the Mediator (Ps. 106:23, 30; 99:6).
+- (106) 'For his name's sake' (Ps. 106:8; 23:3; 25:11; 79:9; 109:21).
+- (107) The gathering from the four quarters and thanks for it: 106:47; 107:2-3; 147:2 (with Isa. 43:5-6; Jer. 33:11; 1 Ne. 22:25).
+- (107) 'O give thanks unto the LORD; for he is good: for his mercy endureth for ever': 106:1; 107:1; 118:1, 29; 136 (with Ezra 3:11; Jer. 33:11). Probably one note and links.
+- (107) The LORD who stills the sea: 65:7; 89:9; 93:3-4; 107:23-30, with Mark 4:35-41.
+- (107) Prisoners brought out of darkness: 68:6; 102:20; 107:10-16; 146:7, with Isa. 42:7 and Luke 1:79.
+- (107) Hesed under three English words in one psalm (107:1, 8, 43): a pointer for the mercy-that-endures candidate.
+- (108) Psalms sung twice (14/53; 40/70; 57 and 60/108; 18 and 2 Samuel 22) and what each second use changes: Ps. 108:1–13.
+- (108) Praise “among the nations”: Ps. 108:3, with 18:49 and 57:9.
+- (109) The LORD at the right hand: 109:6, 31; 110:1, 5; 16:8.
+- (109) The courtroom in the Psalms (accuser, judge, advocate): 109:6-7, 31; 35:1; 43:1.
+- (109) Peter's psalms of Judas: 69:25; 109:8; 41:9 (Acts 1:16-20).
+- (109) The curse or trap that returns on its maker: 109:17-19; 7:15-16; 9:15; 35:8.
+- (109) Prayer for enemies inside the cursing psalms: 109:4 (JST); 35:13.
+- (111) The fear of the LORD (Ps. 111:5, 9, 10; 112:1; with 19:9; 34:11; 103:11-17).
+- (111) Twin and paired psalms (111 and 112; 103 and 104; 105 and 106; 9 and 10).
+- (111) "Gracious and full of compassion": the Sinai sentence through the Psalms (111:4; 112:4; 86:15; 103:8; 145:8).
+- (111) The LORD's works for Israel rehearsed (111:4-9; 105; 106; 78; 136).
+- (112) The fear of the LORD as the beginning of wisdom, and the one fear beside which the others go (111:10; 112:1, 7-8).
+- (112) 'Merciful and gracious' (Ex. 34:6) through the Psalter: 86:15; 103:8; 111:4; 112:4; 145:8.
+- (112) The 'Blessed is the man' psalms and their endings (1:1, 6; 112:1, 10).
+- (113) The Hallel (Psalms 113-118) and the Savior's last Passover: 113:1; 114:1; 118:22-26.
+- (113) Hannah's song in the Psalms: 113:7-9, with 75:7.
+- (113) The LORD who lifts the poor and needy: 113:7-8, with 72:12-13; 107:41; 146:7-9.
+- (113) 'Who is like unto the LORD': 113:5, with 35:10; 71:19; 89:8; Ex. 15:11.
+- (113) The name praised among all nations: 113:3-4, with Mal. 1:11.
+- (114) The exodus sung again in the Psalms: 114 with 66:6; 77:16-20; 78; 81; 105; 106; 136.
+- (114) Nature before the Lord's presence: 114:3-7 with 29:6; 68:8; 77:16; 97:4-5; Hel. 12:9-16; Moses 7:13; D&C 133:40-44.
+- (114) The Hallel and the Last Supper: Psalms 113-118 with Matt. 26:30 and 118:22-26.
+- (115) The nations' taunt 'Where is their God?' and the answer 'for thy name's sake' (42:3, 10; 79:10; 115:1-2; Joel 2:17; Isa. 48:11).
+- (115) Idols that cannot speak beside the God who acts (96:5; 97:7; 115:4-8; 135:15-18; Isaiah 44, 46; Jeremiah 10).
+- (115) The dead who do not praise, and what the Restoration adds (6:5; 30:9; 88:10-12; 94:17; 115:17; D&C 128:22; D&C 138).
+- (115) Israel, the house of Aaron, and those who fear the LORD (115:9-13; 118:2-4; 135:19-20).
+- (115) The Hallel (113-118) and the Last Supper.
+- (116) The Hallel (Psalms 113-118) as the hymn of the Passover and of the Last Supper: 116:13; 118:22-26; Matt. 26:30.
+- (116) The cup in the Psalms: 11:6; 16:5; 23:5; 75:8; 116:13, and the cup of Gethsemane.
+- (116) Vows made in danger and paid in the temple: 22:25-26; 50:14; 56:12; 61:8; 66:13-15; 116:14, 17-19.
+- (116) 'The land of the living' and 'the light of the living': 27:13; 52:5; 56:13; 116:9; 142:5.
+- (117) The nations called to praise Israel's God (117:1; 18:49; 67:3; 96; 150:6), and Paul's use of these in Romans 15:9-12.
+- (117) Mercy and truth, the Sinai sentence of Ex. 34:6, in the Psalms (86:15; 103:8; 117:2; 145:8).
+- (117) The Hallel (113-118) and the hymn of the Last Supper (Matt. 26:30).
+- (118) The stone the builders refused: 118:22-23 with Isa. 28:16; Matt. 21:42; Acts 4:11; 1 Pet. 2:6-7; Jacob 4:15-17.
+- (118) Hosanna, 'Save now': 118:25 with Matt. 21:9 and the Feast of Tabernacles.
+- (118) Who may enter the gate: 118:19-20 with Ps. 15; 24:3-6; 2 Ne. 4:32.
+- (118) The song of Moses sung again: 118:14 with Ex. 15:2; Isa. 12:2.
+- (118) Israel, the house of Aaron, and those who fear the LORD: 115:9-13; 118:2-4.
+- (118) 'Blessed is he that cometh in the name of the Lord' as a word for the Second Coming: 118:26; Matt. 23:39; JS-M 1:1.
+- (118) The Hallel at the Last Supper: Psalms 113-118 with Matt. 26:30.
