@@ -1,0 +1,454 @@
+chapter: 66
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title names no author and no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/66?lang=eng'
+    quote: 'To the chief Musician, A Song or Psalm.'
+  - where: setting
+    claim: 'Psalm 66 is listed among the songs of thanksgiving, which reflect gratitude after deliverance from a trial'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'These psalms reflect the gratitude of an individual or community after they have been delivered from a trial by God: 18, 30, 34, 40, 66, 92, 116, 118, and 138.'
+  - where: setting
+    claim: 'Psalm 66 is also listed among the psalms of praise, which begin with a call to praise the Lord'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'praise the Lord: 8, 19, 29, 33, 47, 65, 66, 78, 93, 95–100'
+  - where: setting
+    claim: 'Psalms of praise describe the Lord’s power and mercy, often what He did for Israel in the past'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'After the call to praise, the hymns describe the power and the mercy of the Lord, often describing what he has done for Israel in the past'
+  - where: setting
+    claim: 'The event behind the thanksgiving cannot be identified'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/66.htm'
+    quote: 'It is hardly possible to define this event more minutely.'
+  - where: setting
+    claim: 'The psalm uses Elohim throughout, and adonai once, in verse 18'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/66.htm'
+    quote: 'Both are purely Elohimic; only in one instance'
+  - where: setting
+    claim: 'The word for “the Lord” in verse 18 is adonai, not the divine name'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲדֹנָֽ/י'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The invitation of verse 5 begins with the imperative “come”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְכ֣וּ'
+  - where: thread
+    claim: 'The invitation of verse 16 begins with the same imperative'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְכֽוּ'
+  - where: thread
+    claim: 'The congregation speaks to verse 12 and one person from verse 13'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/66.htm'
+    quote: 'The congregation is the subject speaking as far as Psalm 66:12. From Psalm 66:13 the person of the poet appears in the foreground'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: '“Terrible” is awe-inspiring; a modern translation has “awesome”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2066&version=NRSVUE'
+    quote: 'How awesome are your deeds!'
+  - where: section 1 plain
+    claim: '“Submit themselves” is “cringe”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2066&version=NRSVUE'
+    quote: 'Because of your great power, your enemies cringe before you.'
+  - where: section 2 plain
+    claim: '“The flood” is the river'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2066&version=NRSVUE'
+    quote: 'they passed through the river on foot.'
+  - where: section 3 plain
+    claim: '“Be moved” is slip'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2066&version=NRSVUE'
+    quote: 'and has not let our feet slip.'
+  - where: section 3 plain
+    claim: '“Affliction upon our loins” is a burden on the back'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2066&version=NRSVUE'
+    quote: 'you laid burdens on our backs;'
+  - where: section 3 plain
+    claim: '“Tried” is the verb for refining'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6884.htm'
+    quote: 'to smelt, refine, test'
+  - where: section 3 plain
+    claim: '“A wealthy place” is saturation, abundance'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7310.htm'
+    quote: 'noun feminine saturation'
+  - where: section 4 plain
+    claim: '“The incense of rams” is the smoke of the sacrifice'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2066&version=NRSVUE'
+    quote: 'with the smoke of the sacrifice of rams;'
+  - where: section 5 plain
+    claim: 'Verse 18 as a condition contrary to fact, with “cherished”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2066&version=NRSVUE'
+    quote: 'If I had cherished iniquity in my heart,'
+  - where: section 5 plain
+    claim: 'Verse 18, second half, as “would not have listened”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2066&version=NRSVUE'
+    quote: 'the Lord would not have listened.'
+
+  # ---------- note 66:0 ----------
+  - where: 'note 66:0 “A song, a psalm, and no author”'
+    claim: 'The first noun of the title is the word for a song'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שִׁ֣יר'
+  - where: 'note 66:0 “A song, a psalm, and no author”'
+    claim: 'The second noun, directly after it, is the word for a psalm'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מִזְמ֑וֹר'
+  - where: 'note 66:0 “A song, a psalm, and no author”'
+    claim: 'A modern translation prints the two nouns without “or”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2066&version=NRSVUE'
+    quote: 'To the leader. A Song. A Psalm.'
+  - where: 'note 66:0 “A song, a psalm, and no author”'
+    claim: 'The title of Psalm 65 has both words and names David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/65?lang=eng'
+    quote: 'To the chief Musician, A Psalm and Song of David.'
+  - where: 'note 66:0 “A song, a psalm, and no author”'
+    claim: 'The title of Psalm 67 has both words'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/67?lang=eng'
+    quote: 'To the chief Musician on Neginoth, A Psalm or Song.'
+  - where: 'note 66:0 “A song, a psalm, and no author”'
+    claim: 'The title of Psalm 68 has both words and names David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/68?lang=eng'
+    quote: 'To the chief Musician, A Psalm or Song of David.'
+
+  # ---------- note 66:1 ----------
+  - where: 'note 66:1 “All the earth, and all its peoples”'
+    claim: 'Verse 1 has “the earth,” singular, after “all”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הָ/אָֽרֶץ'
+  - where: 'note 66:1 “All the earth, and all its peoples”'
+    claim: 'Verse 4 has the same word after “all”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הָ/אָ֤רֶץ'
+  - where: 'note 66:1 “All the earth, and all its peoples”'
+    claim: 'A modern translation has “all the earth” in verse 1'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2066&version=NRSVUE'
+    quote: 'Make a joyful noise to God, all the earth;'
+  - where: 'note 66:1 “All the earth, and all its peoples”'
+    claim: 'A modern translation has “All the earth” in verse 4'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2066&version=NRSVUE'
+    quote: 'All the earth worships you;'
+  - where: 'note 66:1 “All the earth, and all its peoples”'
+    claim: '“People” in verse 8 is a plural noun'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עַמִּ֥ים'
+  - where: 'note 66:1 “All the earth, and all its peoples”'
+    claim: 'The Greek has “ye Gentiles” in verse 8'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/66.htm'
+    quote: 'Bless our God, ye Gentiles, and make the voice of his praise to be heard'
+  - where: 'note 66:1 “All the earth, and all its peoples”'
+    claim: 'A modern translation has “O peoples” in verse 8'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2066&version=NRSVUE'
+    quote: 'Bless our God, O peoples;'
+
+  # ---------- note 66:3 ----------
+  - where: 'note 66:3 “Enemies who come cringing”'
+    claim: 'The verb of verse 3'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְֽכַחֲשׁ֖וּ'
+  - where: 'note 66:3 “Enemies who come cringing”'
+    claim: 'The lexicon’s sense for this form: come cringing, make a show of obedience'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3584.htm'
+    quote: 'cringe = come cringing (make shew of obedience, see Niph`al)'
+  - where: 'note 66:3 “Enemies who come cringing”'
+    claim: 'The lexicon lists this verse under that sense, with Psalm 81:15 (Hebrew 81:16)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3584.htm'
+    quote: 'Psalm 66:3; Psalm 81:16'
+  - where: 'note 66:3 “Enemies who come cringing”'
+    claim: 'A related form of the verb (the Niphal, in Deuteronomy 33:29) is explained as originally acting deceptively, feigning obedience'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3584.htm'
+    quote: 'Deuteronomy 33:29 thine enemies shall cringe (come cringing, i.e. originally act deceptively, feigning obedience) to thee'
+  - where: 'note 66:3 “Enemies who come cringing”'
+    claim: 'The same form, in the same sense, is in Psalm 18:44 (Hebrew 18:45)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3584.htm'
+    quote: 'person Psalm 18:45'
+  - where: 'note 66:3 “Enemies who come cringing”'
+    claim: 'The Greek has “shall lie to thee”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/66.htm'
+    quote: 'through the greatness of thy power thine enemies shall lie to thee'
+  - where: 'note 66:3 “Enemies who come cringing”'
+    claim: 'A modern translation has “cringe”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2066&version=NRSVUE'
+    quote: 'Because of your great power, your enemies cringe before you.'
+  - where: 'note 66:3 “Enemies who come cringing”'
+    claim: '“Terrible” in verses 3 and 5 is the word for causing astonishment and awe'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3372.htm'
+    quote: 'cause astonishment and awe'
+  - where: 'note 66:3 “Enemies who come cringing”'
+    claim: 'The lexicon lists verses 3 and 5 under that sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3372.htm'
+    quote: 'Psalm 66:3; Psalm 66:5'
+
+  # ---------- note 66:6 ----------
+  - where: 'note 66:6 “Two crossings, and who rejoiced there”'
+    claim: '“Flood” is the Hebrew word for a river'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּ֭/נָּהָר'
+  - where: 'note 66:6 “Two crossings, and who rejoiced there”'
+    claim: 'The Greek has “the river” and a future “shall we rejoice”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/66.htm'
+    quote: 'they shall go through the river on foot; there shall we rejoice in him'
+  - where: 'note 66:6 “Two crossings, and who rejoiced there”'
+    claim: 'A modern translation has “the river”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2066&version=NRSVUE'
+    quote: 'they passed through the river on foot.'
+  - where: 'note 66:6 “Two crossings, and who rejoiced there”'
+    claim: 'The two crossings are the Red Sea and the Jordan'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/66.htm'
+    quote: 'the mighty deeds of God at the time of the deliverance from Egypt, viz., the laying of the Red Sea and of Jordan dry'
+  - where: 'note 66:6 “Two crossings, and who rejoiced there”'
+    claim: 'The Jordan was crossed under Joshua'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/3?lang=eng'
+    quote: 'Joshua leads Israel to the Jordan'
+  - where: 'note 66:6 “Two crossings, and who rejoiced there”'
+    claim: 'One reading: the congregation of every age is one, which explains “we”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/66.htm'
+    quote: 'The church of all ages is a unity, the separate parts being jointly involved in the whole.'
+  - where: 'note 66:6 “Two crossings, and who rejoiced there”'
+    claim: 'The verb “rejoice” is a first-person plural cohortative'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נִשְׂמְחָה'
+  - where: 'note 66:6 “Two crossings, and who rejoiced there”'
+    claim: 'The form is a future form (the cohortative), which can refer to the past'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/66.htm'
+    quote: 'since the cohortative form of the future can also'
+  - where: 'note 66:6 “Two crossings, and who rejoiced there”'
+    claim: 'The same reading defends the past tense as sound Hebrew'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/66.htm'
+    quote: 'the rendering: Then did we rejoice in Him, cannot be assailed on syntactical grounds'
+  - where: 'note 66:6 “Two crossings, and who rejoiced there”'
+    claim: 'Verse 7 draws from the old deliverance that God’s power does not change'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/66.htm'
+    quote: 'that the sovereign power of God is ever the same'
+
+  # ---------- note 66:10 ----------
+  - where: 'note 66:10 “Refined, with God as the refiner”'
+    claim: 'The verb of verse 10, second half'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'צְ֝רַפְתָּ֗/נוּ'
+  - where: 'note 66:10 “Refined, with God as the refiner”'
+    claim: 'The verb means to smelt, refine, test'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6884.htm'
+    quote: 'to smelt, refine, test'
+  - where: 'note 66:10 “Refined, with God as the refiner”'
+    claim: 'The Greek adds “with fire”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/66.htm'
+    quote: 'thou hast tried us with fire as silver is tried'
+
+  # ---------- note 66:12 ----------
+  - where: 'note 66:12 “Brought out into abundance”'
+    claim: 'The Hebrew word behind “a wealthy place”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לָֽ/רְוָיָֽה'
+  - where: 'note 66:12 “Brought out into abundance”'
+    claim: 'The word means saturation'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7310.htm'
+    quote: 'noun feminine saturation'
+  - where: 'note 66:12 “Brought out into abundance”'
+    claim: 'The same word is in Psalm 23:5, of the cup that is well-filled'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7310.htm'
+    quote: 'Psalm 23:5 (figurative), i.e. is well-filled'
+  - where: 'note 66:12 “Brought out into abundance”'
+    claim: 'The versions and most modern scholars read a different word here'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7310.htm'
+    quote: 'Psalm 66:12, but Vrss and most modern'
+  - where: 'note 66:12 “Brought out into abundance”'
+    claim: 'That other word means relief'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7310.htm'
+    quote: 'to (a place of) relief'
+  - where: 'note 66:12 “Brought out into abundance”'
+    claim: 'The Greek has “a place of refreshment”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/66.htm'
+    quote: 'but thou broughtest us out into a place of refreshment'
+  - where: 'note 66:12 “Brought out into abundance”'
+    claim: 'A modern translation has “a spacious place”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2066&version=NRSVUE'
+    quote: 'yet you have brought us out to a spacious place.'
+
+  # ---------- note 66:13 ----------
+  - where: 'note 66:13 “The voice changes from we to I”'
+    claim: 'One reading: from verse 13 the poet speaks, as a member of the community'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/66.htm'
+    quote: 'From this point onwards the poet himself speaks, but, as the diversity and the kind of the sacrifices show, as being a member of the community at large.'
+  - where: 'note 66:13 “The voice changes from we to I”'
+    claim: 'The same reading: his thank-offering is for what the whole congregation experienced'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/66.htm'
+    quote: 'that which brings him under obligation to present a thank-offering is nothing more nor less than that which the whole congregation, and he together with it, has experienced'
+  - where: 'note 66:13 “The voice changes from we to I”'
+    claim: 'Thanksgiving was shown by a sacrifice at the temple with a hymn or psalm'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'This gratitude typically would have been demonstrated with a sacrifice at the temple, and accompanied by the singing of a hymn or psalm.'
+
+  # ---------- note 66:15 ----------
+  - where: 'note 66:15 “Burnt offerings for vows made in trouble”'
+    claim: 'Vows were often made to obtain a favor from the Lord'
+    key: bd-vows
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/vows?lang=eng'
+    quote: 'Vows often had an entreating character; they were offered in order to obtain some favor from Jehovah'
+  - where: 'note 66:15 “Burnt offerings for vows made in trouble”'
+    claim: 'The whole animal was burned in a burnt offering'
+    key: bd-sacrifices
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sacrifices?lang=eng'
+    quote: 'The characteristic rite was the burning of the whole animal on the altar'
+  - where: 'note 66:15 “Burnt offerings for vows made in trouble”'
+    claim: 'Only the peace offering had a meal for the offerer'
+    key: bd-sacrifices
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sacrifices?lang=eng'
+    quote: 'The sacrificial meal (in the case of the peace offering only).'
+  - where: 'note 66:15 “Burnt offerings for vows made in trouble”'
+    claim: 'The animals allowed for a burnt offering'
+    key: bd-sacrifices
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sacrifices?lang=eng'
+    quote: 'The burnt offering might be made with male bullocks, rams, or he-goats without blemish'
+  - where: 'note 66:15 “Burnt offerings for vows made in trouble”'
+    claim: 'The burnt offering’s Hebrew name comes from the rising smoke'
+    key: bd-sacrifices
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sacrifices?lang=eng'
+    quote: 'The burnt offering got its Hebrew name from the idea of the smoke of the sacrifice ascending to heaven.'
+  - where: 'note 66:15 “Burnt offerings for vows made in trouble”'
+    claim: 'The word translated “incense” means smoke or odor of sacrifice'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7004.htm'
+    quote: 'smoke, odour of (burning) sacrifice, incense'
+  - where: 'note 66:15 “Burnt offerings for vows made in trouble”'
+    claim: 'The lexicon lists this verse under “sweet smoke of sacrifice”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7004.htm'
+    quote: 'sweet smoke of sacrifice'
+  - where: 'note 66:15 “Burnt offerings for vows made in trouble”'
+    claim: 'A modern translation has “the smoke of the sacrifice of rams”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2066&version=NRSVUE'
+    quote: 'with the smoke of the sacrifice of rams;'
+
+  # ---------- note 66:18 ----------
+  - where: 'note 66:18 “What it is to regard iniquity in the heart”'
+    claim: 'The verb of verse 18 is the verb to see, first person'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'רָאִ֣יתִי'
+  - where: 'note 66:18 “What it is to regard iniquity in the heart”'
+    claim: 'The verb can mean to look at with favor'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7200.htm'
+    quote: 'look at with favour'
+  - where: 'note 66:18 “What it is to regard iniquity in the heart”'
+    claim: 'The lexicon gives “regard” for this verse with a “perhaps”, and records that others take it as “intend”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7200.htm'
+    quote: 'Psalm 66:18 (Hup-Now; Che Bae Dr and others intend)'
+  - where: 'note 66:18 “What it is to regard iniquity in the heart”'
+    claim: 'A modern translation has “cherished”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2066&version=NRSVUE'
+    quote: 'If I had cherished iniquity in my heart,'
+  - where: 'note 66:18 “What it is to regard iniquity in the heart”'
+    claim: 'One older reading: “aimed at evil”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/66.htm'
+    quote: 'If I had aimed at evil in my heart, the Lord would not hear'
+  - where: 'note 66:18 “What it is to regard iniquity in the heart”'
+    claim: 'The same reading: a hypocritical prayer is not heard'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/66.htm'
+    quote: 'For a hypocritical prayer, coming from a heart which has not its aim sincerely directed towards Him, He does not hear.'
+  - where: 'note 66:18 “What it is to regard iniquity in the heart”'
+    claim: 'The same reading: verse 19 refutes, from the result, the idea that such a heart lay behind his prayer'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/66.htm'
+    quote: 'The idea that such a heart was not hidden behind his prayer is refuted in Psalm 66:19 from the result'
+  - where: 'note 66:18 “What it is to regard iniquity in the heart”'
+    claim: 'The Greek makes the second half a wish'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/66.htm'
+    quote: 'If I have regarded iniquity in my heart, let not the Lord hearken to me.'
+  - where: 'note 66:18 “What it is to regard iniquity in the heart”'
+    claim: '“Mercy” in verse 20 is hesed'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ֝/חַסְדּ֗/וֹ'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'Paul’s words in 1 Corinthians 10:1–4 are read as teaching that Christ was the Jehovah of the Old Testament'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'The Apostle Paul taught that Christ was the Jehovah of the Old Testament (Ex. 17:6; 1 Cor. 10:1–4).'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'Psalm 116 is listed among the songs of thanksgiving'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'delivered from a trial by God: 18, 30, 34, 40, 66, 92, 116, 118, and 138'
+  - where: explore
+    claim: 'Isaiah 43:2 has a note on this site that compares Psalm 66:12; the Church’s footnote 12a gives the verse'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/66?lang=eng'
+    quote: 'Isa. 43:2'
