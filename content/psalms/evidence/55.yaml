@@ -32,11 +32,6 @@ claims:
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'יְהוָ֨ה'
   - where: 'setting'
-    claim: 'Jesus quoted Psalm 41:9 at the Last Supper'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/13?lang=eng'
-    quote: 'that the scripture may be fulfilled, He that eateth bread with me hath lifted up his heel against me.'
-  - where: 'setting'
     claim: 'Psalm 41 is another psalm with a complaint of a faithless friend'
     key: delitzsch-psalms
     url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
@@ -75,11 +70,6 @@ claims:
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2055&version=NRSVUE'
     quote: 'let them go down alive to Sheol'
-  - where: 'section 4 plain'
-    claim: 'Verse 15: let death come upon them unexpectedly'
-    key: delitzsch-psalms
-    url: 'https://biblehub.com/commentaries/kad/psalms/55.htm'
-    quote: 'let death come upon them unexpectedly'
   - where: 'section 5 plain'
     claim: 'Verse 19: “afflict” is humble, and “he that abideth of old” is God enthroned from of old'
     key: nrsvue
@@ -95,7 +85,7 @@ claims:
 
   # ---- note 55:9 ----
   - where: 'note 55:9 “An echo of Babel”'
-    claim: 'The verb “divide” in verse 9 (H6385); hebrew.mjs psalms --word 6385 lists this as its one occurrence in Psalms'
+    claim: 'The verb “divide” in verse 9 (H6385)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'פַּלַּ֣ג'
