@@ -1,0 +1,418 @@
+chapter: 61
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David and names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/61?lang=eng'
+    quote: 'To the chief Musician upon Neginah, A Psalm of David.'
+  - where: setting
+    claim: 'The title ascribes the psalm to David and names no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/61?lang=eng'
+    quote: 'To the chief Musician upon Neginah, A Psalm of David.'
+  - where: setting
+    claim: 'One older reading hears David in Gilead during Absalom’s revolt'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/61.htm'
+    quote: 'It is a Psalm of the time of Absalom, composed in Mahanaim or elsewhere in Gilead, when the army of the king had smitten the rebels in the wood of Ephraim.'
+  - where: setting
+    claim: 'The psalm falls into two equal parts'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/61.htm'
+    quote: 'It consists of two parts of eight lines.'
+  - where: setting
+    claim: 'The psalm addresses “God” (Elohim) in verses 1, 5 and 7, and the divine name does not occur in it'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֱ֭לֹהִים'
+  - where: setting
+    claim: 'The next psalm calls God the rock and the refuge'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/62?lang=eng'
+    quote: 'In God is my salvation and my glory: the rock of my strength, and my refuge, is in God.'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The verb of “Hear” in verse 1 is the verb of “hast heard” in verse 5 (Strong’s 8085 in both)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁמַ֣עְתָּ'
+  - where: thread
+    claim: 'A modern translation renders “overwhelmed” as “faint”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2061&version=NRSVUE'
+    quote: 'when my heart is faint.'
+  - where: thread
+    claim: 'A modern translation renders verses 6–7 as petitions'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2061&version=NRSVUE'
+    quote: 'may his years endure to all generations!'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: '“Overwhelmed” is rendered “faint”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2061&version=NRSVUE'
+    quote: 'when my heart is faint.'
+  - where: section 2 plain
+    claim: 'Verse 4 is rendered as a request, with “tent” for “tabernacle” and “shelter” for “covert”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2061&version=NRSVUE'
+    quote: 'Let me abide in your tent forever'
+  - where: section 3 plain
+    claim: 'Verses 6–7 are rendered as petitions, with “appoint” and “watch over”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2061&version=NRSVUE'
+    quote: 'appoint steadfast love and faithfulness to watch over him!'
+  - where: section 3 plain
+    claim: 'The Hebrew of verse 5 has no word for “me” after “given”; the Greek has “to them that fear thy name”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/61.htm'
+    quote: 'thou hast given an inheritance to them that fear thy name.'
+  - where: section 4 plain
+    claim: '“Daily” is rendered “day after day,” and “perform” as “pay”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2061&version=NRSVUE'
+    quote: 'as I pay my vows day after day.'
+
+  # ---------- note on the title ----------
+  - where: 'note 61:0 “Neginah, the music of strings”'
+    claim: 'The Hebrew word means music of a stringed instrument and stands in the plural in the titles of Psalms 4, 6, 54, 55, 67 and 76'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5058.htm'
+    quote: 'music (of stringed instrument)'
+  - where: 'note 61:0 “Neginah, the music of strings”'
+    claim: 'The lexicon sets this title beside those and suggests the plural may be the right reading here'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5058.htm'
+    quote: 'Psalm 61:1 (read perhaps plural'
+  - where: 'note 61:0 “Neginah, the music of strings”'
+    claim: 'A modern translation prints this title like the plural ones'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2061&version=NRSVUE'
+    quote: 'To the leader: with stringed instruments. Of David.'
+  - where: 'note 61:0 “Neginah, the music of strings”'
+    claim: 'The Greek title has “among the Hymns of David”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/61.htm'
+    quote: 'For the end, among the Hymns of David.'
+
+  # ---------- note 61:2 end of the earth ----------
+  - where: 'note 61:2 “Where the end of the earth may be”'
+    claim: 'One older reading places the psalm in Gilead during Absalom’s revolt, after the king’s army had won'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/61.htm'
+    quote: 'It is a Psalm of the time of Absalom, composed in Mahanaim or elsewhere in Gilead, when the army of the king had smitten the rebels in the wood of Ephraim.'
+  - where: 'note 61:2 “Where the end of the earth may be”'
+    claim: 'On that reading the country beyond the Jordan felt to David like the farthest corner of the earth'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/61.htm'
+    quote: 'David felt only as though he were banished to the extreme corner of the earth'
+  - where: 'note 61:2 “Where the end of the earth may be”'
+    claim: 'On that reading the short distance was made great by separation from the place of God’s dwelling'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/61.htm'
+    quote: 'It is the feeling of homelessness and of separation from the abode of God by reason of which the distance, in itself so insignificant (just as was the case with the exiles later on), became to him immeasurably great.'
+  - where: 'note 61:2 “Where the end of the earth may be”'
+    claim: 'The same reading connects the psalm’s vows with David’s words when he sent the ark back'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/61.htm'
+    quote: 'resulted from the lowly, God-resigned spirit which finds expression in 2 Samuel 15:25'
+  - where: 'note 61:2 “Where the end of the earth may be”'
+    claim: 'In the story of Absalom’s revolt David came to Mahanaim, east of the Jordan'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/17?lang=eng'
+    quote: 'Then David came to Mahanaim. And Absalom passed over Jordan, he and all the men of Israel with him.'
+
+  - where: 'note 61:2 “Where the end of the earth may be”'
+    claim: 'David sent the ark back to Jerusalem when he fled'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/15?lang=eng'
+    quote: 'And the king said unto Zadok, Carry back the ark of God into the city'
+
+  # ---------- note 61:2 rock ----------
+  - where: 'note 61:2 “A rock higher than the speaker”'
+    claim: 'The word for rock means a rocky wall or cliff'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6697.htm'
+    quote: 'rocky wall, cliff, Exodus 17:6'
+  - where: 'note 61:2 “A rock higher than the speaker”'
+    claim: 'The lexicon places this verse with the rock as a place of security, used as a figure'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6697.htm'
+    quote: 'place of security 1 Chronicles 11:15'
+  - where: 'note 61:2 “A rock higher than the speaker”'
+    claim: 'The verb behind “higher” is “be high,” said here of a literal rock used figuratively, with the preposition of comparison'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7311.htm'
+    quote: 'be high, literal rock (in figurative) Psalm 61:3'
+  - where: 'note 61:2 “A rock higher than the speaker”'
+    claim: 'The verb behind “overwhelmed” means to be feeble or to faint'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5848.htm'
+    quote: 'literally be feeble Genesis 30:42'
+  - where: 'note 61:2 “A rock higher than the speaker”'
+    claim: 'A modern translation has “faint”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2061&version=NRSVUE'
+    quote: 'when my heart is faint.'
+  - where: 'note 61:2 “A rock higher than the speaker”'
+    claim: 'The Greek translation reads the line as something already done'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/61.htm'
+    quote: 'thou liftedst me up on a rock thou didst guide me'
+  - where: 'note 61:2 “A rock higher than the speaker”'
+    claim: 'The word for “shelter” in verse 3 is used of God as the refuge of His people, this verse included'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4268.htm'
+    quote: 'elsewhere of God as the refuge of his people Psalm 14:6; Psalm 46:2; Psalm 61:4'
+  - where: 'note 61:2 “A rock higher than the speaker”'
+    claim: 'The Hebrew word for rock in verse 2 is tsur (Strong’s 6697)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/צוּר'
+  - where: 'note 61:2 “A rock higher than the speaker”'
+    claim: 'Psalm 62:2 calls God “my rock” with the same Hebrew word (Strong’s 6697)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'צ֭וּרִ/י'
+  - where: 'note 61:2 “A rock higher than the speaker”'
+    claim: 'The next psalm names God as the rock'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/62?lang=eng'
+    quote: 'He only is my rock and my salvation; he is my defence; I shall not be greatly moved.'
+
+  # ---------- note 61:4 ----------
+  - where: 'note 61:4 “A guest in God’s tent”'
+    claim: 'The verb of “abide” is in the cohortative, the form of a wish or resolve'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1481.htm'
+    quote: 'cohortative'
+  - where: 'note 61:4 “A guest in God’s tent”'
+    claim: 'The verb is the one for staying as a lodger or guest, used in poetry of a worshipper in the LORD’s house, in Psalm 15:1 and here'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1481.htm'
+    quote: 'as lodger or guest'
+  - where: 'note 61:4 “A guest in God’s tent”'
+    claim: 'The lexicon lists this verse (Hebrew 61:5) under the worshipper in the LORD’s house'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1481.htm'
+    quote: 'Psalm 15:1; Psalm 61:5'
+  - where: 'note 61:4 “A guest in God’s tent”'
+    claim: 'A modern translation renders the line as a request, with “tent”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2061&version=NRSVUE'
+    quote: 'Let me abide in your tent forever'
+  - where: 'note 61:4 “A guest in God’s tent”'
+    claim: 'A modern translation renders the second half “find refuge under the shelter of your wings”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2061&version=NRSVUE'
+    quote: 'find refuge under the shelter of your wings.'
+  - where: 'note 61:4 “A guest in God’s tent”'
+    claim: '“Covert” is a word for a hiding place, used especially of the LORD as shelter, in this verse among others'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5643.htm'
+    quote: 'as shelter:'
+  - where: 'note 61:4 “A guest in God’s tent”'
+    claim: 'The word behind “tabernacle” is the Hebrew word for a tent (Strong’s 168), “in thy tent”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְ֭/אָהָלְ/ךָ'
+
+  # ---------- note 61:5 ----------
+  - where: 'note 61:5 “A heritage, a word said of land”'
+    claim: 'The word means a possession or inheritance'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3425.htm'
+    quote: 'noun feminine (a) possession, inheritance'
+  - where: 'note 61:5 “A heritage, a word said of land”'
+    claim: 'The word is used of land in Deuteronomy and Joshua'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3425.htm'
+    quote: 'used of land Deuteronomy 2:5,9'
+  - where: 'note 61:5 “A heritage, a word said of land”'
+    claim: 'The Hebrew line has four words (given, heritage of, fearers of, thy name) and no word for “me”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְ֝רֻשַּׁ֗ת'
+  - where: 'note 61:5 “A heritage, a word said of land”'
+    claim: 'The Greek has no “me” either'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/61.htm'
+    quote: 'thou hast given an inheritance to them that fear thy name.'
+  - where: 'note 61:5 “A heritage, a word said of land”'
+    claim: 'A modern translation supplies “me,” as the King James does'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2061&version=NRSVUE'
+    quote: 'you have given me the heritage of those who fear your name.'
+
+  # ---------- note 61:6 ----------
+  - where: 'note 61:6 “The king and the one praying”'
+    claim: 'On one older reading the speaker of verses 6–7 is the same person as in the first half, praying for himself as king'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/61.htm'
+    quote: 'The words sound like intercession, but the praying one is the same person as in Psalm 61:2-5.'
+  - where: 'note 61:6 “The king and the one praying”'
+    claim: 'The same reading explains the return to “I” in the last verse'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/61.htm'
+    quote: 'Since the poet himself is the king for whom he prays, the transition to the first person in v. 9 is perfectly natural.'
+  - where: 'note 61:6 “The king and the one praying”'
+    claim: 'The Greek has “add days to the days of the king”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/61.htm'
+    quote: 'Thou shalt add days to the days of the king; thou shalt lengthen his years to all generations.'
+  - where: 'note 61:6 “The king and the one praying”'
+    claim: 'The Hebrew verb of verse 6 is “add” (Strong’s 3254), with “days upon the days of the king”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תּוֹסִ֑יף'
+  - where: 'note 61:6 “The king and the one praying”'
+    claim: 'A modern translation renders verse 6 as a petition'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2061&version=NRSVUE'
+    quote: 'Prolong the life of the king;'
+  - where: 'note 61:6 “The king and the one praying”'
+    claim: 'A modern translation renders the second half of verse 6 as a wish'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2061&version=NRSVUE'
+    quote: 'may his years endure to all generations!'
+  - where: 'note 61:6 “The king and the one praying”'
+    claim: 'A modern translation has “enthroned” in verse 7'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2061&version=NRSVUE'
+    quote: 'May he be enthroned forever before God;'
+  - where: 'note 61:6 “The king and the one praying”'
+    claim: 'A modern translation cross-references verse 6 to Psalm 21:4'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2061&version=NRSVUE'
+    quote: '61.6 : Ps 21.4'
+  - where: 'note 61:6 “The king and the one praying”'
+    claim: 'Psalm 21:4 has a king asking life and receiving length of days'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/21?lang=eng'
+    quote: 'He asked life of thee, and thou gavest it him, even length of days for ever and ever.'
+  - where: 'note 61:6 “The king and the one praying”'
+    claim: 'Said of a king, the verb of “abide” in verse 7 means to remain enthroned'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/61.htm'
+    quote: 'when the person spoken of is a king it means "to remain enthroned,"'
+  - where: 'note 61:6 “The king and the one praying”'
+    claim: 'The Targum has “the King Messiah” for the psalm’s “king”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/61.htm'
+    quote: '(the King Messiah) of the Targum shows to whom the church referred the word "king" after the extinction of the Davidic dynasty.'
+  - where: 'note 61:6 “The king and the one praying”'
+    claim: 'The lofty wish of the next verse favours that reference without requiring it; the wish is like the royal salutation'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/61.htm'
+    quote: 'favours this without absolutely requiring it'
+
+  # ---------- note 61:7 ----------
+  - where: 'note 61:7 “Mercy and truth set to guard the king”'
+    claim: 'The verb behind “prepare” means to appoint or ordain, and this verse is listed with mercy and truth as its object'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4487.htm'
+    quote: 'appoint, ordain, food Daniel 1:10'
+  - where: 'note 61:7 “Mercy and truth set to guard the king”'
+    claim: 'The same verb is used of the fish in the story of Jonah'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4487.htm'
+    quote: 'in story of Jonah, object. fish Jonah 2:1'
+  - where: 'note 61:7 “Mercy and truth set to guard the king”'
+    claim: 'Jonah 1:17 (Hebrew 2:1) has the verb (Strong’s 4487) where the King James has “had prepared”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jonah.xml'
+    quote: 'וַ/יְמַ֤ן'
+  - where: 'note 61:7 “Mercy and truth set to guard the king”'
+    claim: 'A modern translation has “appoint” and “watch over”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2061&version=NRSVUE'
+    quote: 'appoint steadfast love and faithfulness to watch over him!'
+  - where: 'note 61:7 “Mercy and truth set to guard the king”'
+    claim: '“Mercy” is hesed (Strong’s 2617), “truth” is emet (571), and “preserve” is the verb natsar (5341)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִנְצְרֻֽ/הוּ'
+  - where: 'note 61:7 “Mercy and truth set to guard the king”'
+    claim: 'Psalm 40:11 has the same two nouns and the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִצְּרֽוּ/נִי'
+  - where: 'note 61:7 “Mercy and truth set to guard the king”'
+    claim: 'Proverbs 20:28 has the same two nouns and the same verb (Strong’s 2617, 571, 5341)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Prov.xml'
+    quote: 'יִצְּרוּ'
+  - where: 'note 61:7 “Mercy and truth set to guard the king”'
+    claim: 'A proverb says mercy and truth preserve the king'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/prov/20?lang=eng'
+    quote: 'Mercy and truth preserve the king: and his throne is upholden by mercy.'
+
+  # ---------- note 61:8 ----------
+  - where: 'note 61:8 “Vows heard, and vows paid every day”'
+    claim: 'The word for vows covers votive offerings and promised gifts of any kind, and both verses of this psalm are listed (Hebrew 61:6, 9)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5088.htm'
+    quote: 'of any kind of votive offerings or promised gifts to'
+  - where: 'note 61:8 “Vows heard, and vows paid every day”'
+    claim: 'The Greek has “prayers” in verse 5 where the Hebrew has “vows”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/61.htm'
+    quote: 'For thou, o God, hast heard my prayers'
+  - where: 'note 61:8 “Vows heard, and vows paid every day”'
+    claim: 'The Hebrew of “daily” is the word “day” twice'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'י֣וֹם'
+  - where: 'note 61:8 “Vows heard, and vows paid every day”'
+    claim: 'A modern translation has “day after day”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2061&version=NRSVUE'
+    quote: 'as I pay my vows day after day.'
+
+  # ---------- christ ----------
+  - where: christ
+    claim: 'Jehovah is the covenant name of the God of Israel, and Jehovah is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'The covenant or proper name of the God of Israel. It denotes “the eternal I Am” (Ex. 3:14; John 8:58). Jehovah is the premortal Jesus Christ'
+  - where: christ
+    claim: 'The psalm’s “king” was later referred to the Messiah'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/61.htm'
+    quote: '(the King Messiah) of the Targum shows to whom the church referred the word "king" after the extinction of the Davidic dynasty.'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'A modern translation cross-references verse 4 to Psalms 23:6 and 91:4'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2061&version=NRSVUE'
+    quote: '61.4 : Ps 23.6; 91.4'
+  - where: explore
+    claim: 'David at Mahanaim, in the story of Absalom’s revolt'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/17?lang=eng'
+    quote: 'when David was come to Mahanaim'
+  - where: parallels
+    claim: 'Psalm 62 calls God “my rock”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/62?lang=eng'
+    quote: 'He only is my rock and my salvation: he is my defence; I shall not be moved.'
+  - where: parallels
+    claim: 'Proverbs 20:28 says mercy and truth preserve the king'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/prov/20?lang=eng'
+    quote: 'Mercy and truth preserve the king: and his throne is upholden by mercy.'
+  - where: parallels
+    claim: 'Psalm 21:4 has the king’s length of days'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/21?lang=eng'
+    quote: 'He asked life of thee, and thou gavest it him, even length of days for ever and ever.'
+  - where: parallels
+    claim: 'David came to Mahanaim during Absalom’s revolt, the setting one older reading gives the psalm'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/61.htm'
+    quote: 'composed in Mahanaim or elsewhere in Gilead'
