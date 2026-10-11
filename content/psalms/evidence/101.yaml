@@ -1,0 +1,217 @@
+chapter: 101
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title ascribes the psalm to David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/101?lang=eng'
+    quote: 'A Psalm of David.'
+  - where: setting
+    claim: 'Psalm 101 is listed among the royal psalms'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'Royal psalms. These psalms celebrated important events in the lives of royalty, which for Christian readers often reflected the royal life and reign of the Messiah: 2, 18, 20, 21, 45, 72, 89, 101, 110, 132, and 144.'
+  - where: setting
+    claim: 'Psalm 103 is the other psalm of Book Four (90–106) with David’s name in its title (the titles of 90–106 were listed from data/kjv/psalms.titles.json; only 101 and 103 name David)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/103?lang=eng'
+    quote: 'A Psalm of David.'
+  - where: setting
+    claim: 'The psalm has been placed, with Psalms 15, 68 and 24, at the removal of the ark to Jerusalem, as probable'
+    key: bd-david
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/david?lang=eng'
+    quote: 'A series consisting of Ps. 101, 15, 68, 24 was probably composed on the occasion of the removal of the Ark to Jerusalem.'
+  - where: setting
+    claim: 'David brought the ark from the house of Obed-edom to the city of David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/6?lang=eng'
+    quote: 'So David went and brought up the ark of God from the house of Obed-edom into the city of David with gladness.'
+  - where: setting
+    claim: 'Psalms 90–106 are one of the five sections of the book (Book Four)'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'Psalms 90–106: This section begins with Moses’s prayer for the Lord to have mercy on straying Israel.'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: '“Judgment” in verse 1 is justice'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/101?lang=eng'
+    quote: 'David sings of mercy and justice'
+  - where: section 2 plain
+    claim: '“A perfect way” is the way of integrity or blamelessness, and “behave myself wisely in” is to give thought to it'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+101&version=NRSVUE'
+    quote: 'I will study the way that is blameless.'
+  - where: section 2 plain
+    claim: '“A wicked thing” is anything base'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+101&version=NRSVUE'
+    quote: 'anything that is base.'
+  - where: section 2 plain
+    claim: '“A froward heart shall depart from me” is a perverse heart kept far away'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+101&version=NRSVUE'
+    quote: 'Perverseness of heart shall be far from me;'
+  - where: section 3 plain
+    claim: '“Early” is morning by morning'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+101&version=NRSVUE'
+    quote: 'Morning by morning I will destroy'
+  - where: section 3 plain
+    claim: '“Will not I suffer” is will not tolerate'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+101&version=NRSVUE'
+    quote: 'I will not tolerate.'
+
+  # ---------- setting (motto), then note 101:2 question ----------
+  - where: setting
+    claim: 'One older reading takes Psalm 99:4 as the motto of Psalm 101'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/101.htm'
+    quote: "Can there be any more appropriate motto for it than what is said of Jahve's government in Psalm 99:4?"
+  - where: 'note 101:2 “The one question among the vows”'
+    claim: 'The Greek translation reads the line as the King James does'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/101.htm'
+    quote: 'When wilt thou come to me?'
+  - where: 'note 101:2 “The one question among the vows”'
+    claim: 'A modern translation reads the line as a question about attaining the blameless way'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+101&version=NRSVUE'
+    quote: 'When shall I attain it?'
+  - where: 'note 101:2 “The one question among the vows”'
+    claim: 'The ark stayed three months in the house of Obed-edom, and the LORD blessed him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/6?lang=eng'
+    quote: 'And the ark of the Lord continued in the house of Obed-edom the Gittite three months: and the Lord blessed Obed-edom, and all his household.'
+  - where: 'note 101:2 “The one question among the vows”'
+    claim: 'The psalm has been placed at the removal of the ark to Jerusalem, as probable'
+    key: bd-david
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/david?lang=eng'
+    quote: 'A series consisting of Ps. 101, 15, 68, 24 was probably composed on the occasion of the removal of the Ark to Jerusalem.'
+  - where: 'note 101:2 “The one question among the vows”'
+    claim: 'One older reading sets the psalm in the months the ark was with Obed-edom'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/101.htm'
+    quote: 'The Psalm before us belongs to the time during which the Ark was in the house of Obed-Edom'
+  - where: 'note 101:2 “The one question among the vows”'
+    claim: 'That reading joins the question of verse 2 to David’s words in 2 Samuel 6'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/101.htm'
+    quote: 'David said at that time: "How shall the Ark of Jahve come to me (the unholy one)?" 2 Samuel 6:8.'
+  - where: 'note 101:2 “The one question among the vows”'
+    claim: 'On that reading the vows are David’s resolve about his walk, his rule and his house'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/101.htm'
+    quote: 'he gives utterance to his determination as king to give earnest heed to the sanctity of his walk, of his rule, and of his house'
+  - where: 'note 101:2 “The one question among the vows”'
+    claim: 'On that reading Jerusalem becomes the city of the LORD because the LORD comes to David'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/101.htm'
+    quote: 'From the fact that Jahve comes to David, Jerusalem becomes "the city of Jahve," Psalm 101:8'
+
+  # ---------- note 101:2 perfect ----------
+  - where: 'note 101:2 “Perfect means whole, not sinless”'
+    claim: 'The word behind “perfect” in “a perfect way” (101:2, 6) means sound, having integrity'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8549.htm'
+    quote: 'sound, wholesome, unimpaired, innocent, having integrity'
+  - where: 'note 101:2 “Perfect means whole, not sinless”'
+    claim: 'The same word is in Psalm 15:2 (“uprightly”); the lexicon lists it in the same entry as Psalm 101:2 and 101:6'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8549.htm'
+    quote: 'Proverbs 28:18; Psalm 15:2'
+  - where: 'note 101:2 “Perfect means whole, not sinless”'
+    claim: 'The phrase behind “a perfect heart” is “integrity of mind,” and the same phrase is in 1 Kings 9:4 and Psalm 78:72'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8537.htm'
+    quote: 'integrity of mind Genesis 20:5,6 (E), 1 Kings 9:4; Psalm 78:72; Psalm 101:2'
+  - where: 'note 101:2 “Perfect means whole, not sinless”'
+    claim: 'A modern translation has “the way that is blameless”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+101&version=NRSVUE'
+    quote: 'I will study the way that is blameless.'
+  - where: 'note 101:2 “Perfect means whole, not sinless”'
+    claim: 'A modern translation has “integrity of heart”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+101&version=NRSVUE'
+    quote: 'I will walk with integrity of heart'
+  - where: 'note 101:2 “Perfect means whole, not sinless”'
+    claim: 'The King James has “integrity of heart” of David in 1 Kings 9:4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/9?lang=eng'
+    quote: 'as David thy father walked, in integrity of heart, and in uprightness'
+  - where: 'note 101:2 “Perfect means whole, not sinless”'
+    claim: 'Scripture records the exception to David’s uprightness'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/15?lang=eng'
+    quote: 'save only in the matter of Uriah the Hittite.'
+
+  - where: 'note 101:6 “The king’s house and the LORD’s holy hill”'
+    claim: '“Uprightly” in Psalm 15:2 and “perfect” in Psalm 101:6 are the same Hebrew word; the lexicon lists both under one sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8549.htm'
+    quote: 'Proverbs 28:18; Psalm 15:2'
+  - where: 'note 101:6 “The king’s house and the LORD’s holy hill”'
+    claim: 'Psalms 101 and 15 have been assigned to the same occasion, the removal of the ark'
+    key: bd-david
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/david?lang=eng'
+    quote: 'A series consisting of Ps. 101, 15, 68, 24 was probably composed on the occasion of the removal of the Ark to Jerusalem.'
+  - where: 'note 101:6 “The king’s house and the LORD’s holy hill”'
+    claim: 'Psalm 15 asks who may dwell on the LORD’s hill and answers with walking uprightly, speaking truth and not backbiting'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/15?lang=eng'
+    quote: 'He that walketh uprightly, and worketh righteousness, and speaketh the truth in his heart.'
+
+  # ---------- note 101:8 ----------
+  - where: 'note 101:8 “Morning by morning, the king as judge”'
+    claim: 'The Hebrew behind “early” is a plural meaning every morning afresh, almost “continually” in this verse; the lexicon compares Jeremiah 21:12'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1242.htm'
+    quote: 'every morning afresh Psalm 73:14; Isaiah 33:2 compare Lamentations 3:23; almost = continually Psalm 101:8 (compare Jeremiah 21:12)'
+  - where: 'note 101:8 “Morning by morning, the king as judge”'
+    claim: 'A modern translation has “Morning by morning”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+101&version=NRSVUE'
+    quote: 'Morning by morning I will destroy'
+  - where: 'note 101:8 “Morning by morning, the king as judge”'
+    claim: 'The modern translation continues “all the wicked in the land”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+101&version=NRSVUE'
+    quote: 'all the wicked in the land,'
+  - where: 'note 101:8 “Morning by morning, the king as judge”'
+    claim: 'David executed judgment and justice as king'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/8?lang=eng'
+    quote: 'And David reigned over all Israel; and David executed judgment and justice unto all his people.'
+  - where: christ
+    claim: 'Royal psalms, Psalm 101 among them, often reflected for Christian readers the reign of the Messiah'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'Royal psalms. These psalms celebrated important events in the lives of royalty, which for Christian readers often reflected the royal life and reign of the Messiah: 2, 18, 20, 21, 45, 72, 89, 101, 110, 132, and 144.'
+  - where: christ
+    claim: 'David’s reign was regarded as the type of the age of the Messiah; Isaiah 16:5 is the first passage cited'
+    key: bd-david
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/david?lang=eng'
+    quote: 'the type of the more glorious age to which the nation looked forward when Messiah should come (Isa. 16:5; Jer. 23:5; 30:9; Ezek. 34:23–24; 37:24–28).'
+  - where: christ
+    claim: 'Jehovah, the LORD of the Old Testament, is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: explore
+    claim: 'Psalms 15, 24 and 68 are assigned with Psalm 101 to the removal of the ark'
+    key: bd-david
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/david?lang=eng'
+    quote: 'A series consisting of Ps. 101, 15, 68, 24 was probably composed on the occasion of the removal of the Ark to Jerusalem.'
+  - where: explore
+    claim: 'Jeremiah 23:5 is among the prophecies of the age of the Messiah for which David’s reign was the type'
+    key: bd-david
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/david?lang=eng'
+    quote: 'the type of the more glorious age to which the nation looked forward when Messiah should come (Isa. 16:5; Jer. 23:5; 30:9; Ezek. 34:23–24; 37:24–28).'
+  - where: parallels
+    claim: 'The phrase of Psalm 101:2 is the “integrity of heart” of 1 Kings 9:4'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8537.htm'
+    quote: 'integrity of mind Genesis 20:5,6 (E), 1 Kings 9:4; Psalm 78:72; Psalm 101:2'
