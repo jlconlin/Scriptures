@@ -43,38 +43,8 @@ claims:
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Psalm%20142&version=NRSVUE'
     quote: 'you know my way.'
-  - where: thread
-    claim: 'Delitzsch observes that the last verse shows the speaker is not so alone as verse 4 made him seem'
-    key: delitzsch-psalms
-    url: 'https://biblehub.com/commentaries/kad/psalms/142.htm'
-    quote: 'The poet therefore does not after all find himself so absolutely alone'
 
-  - where: thread
-    claim: '“Refuge” in verse 4 and “refuge” in verse 5 are two different Hebrew words (manos, H4498, and machseh, H4268)'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/4498.htm'
-    quote: 'place of escape'
-  - where: thread
-    claim: 'The word for “refuge” in verse 5 is machseh, a refuge or shelter'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/4268.htm'
-    quote: 'refuge, shelter'
-  - where: thread
-    claim: 'Verse 4 (Hebrew 142:5) has manos for “refuge”'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'מָנ֣וֹס'
-  - where: thread
-    claim: 'Verse 5 (Hebrew 142:6) has machseh, with the suffix “my,” for “refuge”'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'מַחְסִ֑/י'
   # ---------- sections ----------
-  - where: 'section 2 plain'
-    claim: 'The NRSVUE reads the verbs of verse 4 as a request: look and see'
-    key: nrsvue
-    url: 'https://www.biblegateway.com/passage/?search=Psalm%20142&version=NRSVUE'
-    quote: 'Look on my right hand and see:'
   - where: 'section 2 plain'
     claim: '“No man that would know me” is no one who takes notice of him'
     key: nrsvue
@@ -125,30 +95,10 @@ claims:
     url: 'https://biblehub.com/sep/psalms/142.htm'
     quote: 'I looked on my right hand, and behold, for there was none that noticed me'
   - where: 'note 142:4 “The empty place at the right hand”'
-    claim: 'Delitzsch reads the verse as asking God to look: He will find the one praying unprotected'
-    key: delitzsch-psalms
-    url: 'https://biblehub.com/commentaries/kad/psalms/142.htm'
-    quote: 'But then if God looks in that direction, He will find him, who is praying to Him, unprotected.'
-  - where: 'note 142:4 “The empty place at the right hand”'
     claim: 'About four hundred men were with David at Adullam'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/22?lang=eng'
     quote: 'and there were with him about four hundred men.'
-  - where: 'note 142:4 “The empty place at the right hand”'
-    claim: 'Delitzsch explains the “no man” of a David surrounded by loyal men by comparing Paul’s words in Philippians 2:20'
-    key: delitzsch-psalms
-    url: 'https://biblehub.com/commentaries/kad/psalms/142.htm'
-    quote: 'is to be understood similarly to the language of Paul when he says in Philippians 2:20 : "I have no man like-minded."'
-  - where: 'note 142:4 “The empty place at the right hand”'
-    claim: 'On Delitzsch’s reading David is surrounded by enemies and not fully understood by his friends'
-    key: delitzsch-psalms
-    url: 'https://biblehub.com/commentaries/kad/psalms/142.htm'
-    quote: 'misunderstood, or at least not thoroughly understood, by his friends'
-  - where: 'note 142:4 “The empty place at the right hand”'
-    claim: 'Paul’s words in Philippians 2:20'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/philip/2?lang=eng'
-    quote: 'For I have no man likeminded, who will naturally care for your state.'
 
   # ---------- note 142:5 ----------
   - where: 'note 142:5 “The LORD as a share of land”'
