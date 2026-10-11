@@ -1,0 +1,180 @@
+chapter: 123
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title of Psalm 123 is “A Song of degrees” and names no author'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/123?lang=eng'
+    quote: 'A Song of degrees.'
+  - where: setting
+    claim: 'The songs of degrees are fifteen psalms, 120–134, so Psalm 123 is the fourth'
+    key: bd-degrees-songs-of
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/degrees-songs-of?lang=eng'
+    quote: 'Fifteen Psalms (120–34), probably so called because they were sung by Jewish pilgrims on their way up to Jerusalem.'
+  - where: setting
+    claim: 'Psalm 121 opens by lifting the eyes to the hills'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/121?lang=eng'
+    quote: 'I will lift up mine eyes unto the hills, from whence cometh my help.'
+  - where: setting
+    claim: 'The Church’s footnote on “lift” in Psalm 123:1 points to Psalm 121:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/123?lang=eng'
+    quote: 'Ps. 121:1; Ezek. 18:6.'
+  - where: setting
+    claim: 'Psalm 122 ends with the name “the LORD our God,” which Psalm 123:2 uses'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/122?lang=eng'
+    quote: 'Because of the house of the Lord our God I will seek thy good.'
+  - where: setting
+    claim: 'Psalm 123 is joined to Psalm 122 by the shared divine name'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/123.htm'
+    quote: 'This Psalm is joined to the preceding Psalm by the community of the divine name Jahve our God.'
+  - where: setting
+    claim: 'Psalm 124, the next psalm, is sung by a people the LORD has delivered'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/124?lang=eng'
+    quote: 'If it had not been the Lord who was on our side, now may Israel say;'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'A modern translation renders “dwellest in the heavens” as “enthroned in the heavens”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20123&version=NRSVUE'
+    quote: 'O you who are enthroned in the heavens!'
+  - where: thread
+    claim: 'The people’s gaze stays on the LORD, unwearied, until He turns their distress'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/123.htm'
+    quote: 'Therefore its longing gaze goes forth towards Him, without being wearied, until He shall graciously turn its distress.'
+  - where: thread
+    claim: 'Verse 3 takes up the plea for mercy that closes verse 2, and the psalm rises from there in the manner of steps'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/123.htm'
+    quote: 'The second strophe takes up the "be gracious unto us" as it were in echo. It begins with a Kyrie eleison, which is confirmed in a crescendo manner after the form of steps.'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: 'The rendering “enthroned” for the King James “dwellest” follows a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20123&version=NRSVUE'
+    quote: 'O you who are enthroned in the heavens!'
+  - where: section 2 plain
+    claim: 'The rendering “more than enough of contempt” for “exceedingly filled with contempt” follows a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20123&version=NRSVUE'
+    quote: 'for we have had more than enough of contempt.'
+
+  # ---------- note 123:2 ----------
+  - where: 'note 123:2 “Why the servant watches the hand”'
+    claim: 'Delitzsch reads the hand as the one that governs the household'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/123.htm'
+    quote: 'for this hand regulates the whole house, and they wait upon their winks and signs with most eager attention'
+  - where: 'note 123:2 “Why the servant watches the hand”'
+    claim: 'Delitzsch reads Israel as the LORD’s servants, whose future lies in His hand'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/123.htm'
+    quote: 'Those of Israel are Jahve''s servants, Israel the church is Jahve''s maid. In His hand lies its future.'
+
+  # ---------- note 123:3 ----------
+  - where: 'note 123:3 “More than enough of contempt”'
+    claim: 'The verb behind “filled” means to be sated'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7646.htm'
+    quote: 'verb be sated, satisfied, surfeited'
+  - where: 'note 123:3 “More than enough of contempt”'
+    claim: 'The lexicon’s first sense of the verb is being sated with food'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7646.htm'
+    quote: 'be sated (with food), especially human subject'
+  - where: 'note 123:3 “More than enough of contempt”'
+    claim: 'The lexicon places Psalm 123:3–4 under the verb’s figurative sense, to be weary of something'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7646.htm'
+    quote: 'figurative = be weary of, with accusative of offerings Isaiah 1:11'
+  - where: 'note 123:3 “More than enough of contempt”'
+    claim: 'A modern translation renders verse 3 “we have had more than enough of contempt”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20123&version=NRSVUE'
+    quote: 'for we have had more than enough of contempt.'
+  - where: 'note 123:3 “More than enough of contempt”'
+    claim: 'A modern translation renders verse 4 “Our soul has had more than its fill”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20123&version=NRSVUE'
+    quote: 'Our soul has had more than its fill'
+
+  # ---------- note 123:4 ----------
+  - where: 'note 123:4 “Who the scorners are”'
+    claim: 'The lexicon gives “at ease” in Psalm 123:4 and Amos 6:1 the added idea of careless, wanton, arrogant'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7600.htm'
+    quote: 'at ease, with collateral idea of careless, wanton, arrogant, Amos 6:1; Isaiah 32:9,11; Zechariah 1:15; Psalm 123:4.'
+  - where: 'note 123:4 “Who the scorners are”'
+    claim: 'The same word in Job 12:5 means one at ease, free from misfortune'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7600.htm'
+    quote: 'as substantive, one at ease, free from misfortune, Job 12:5.'
+  - where: 'note 123:4 “Who the scorners are”'
+    claim: 'Job 12:5 has the psalm’s word for contempt (Strong’s 937) beside the word for “at ease”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/job/12-5.htm'
+    quote: '[there is] contempt'
+  - where: 'note 123:4 “Who the scorners are”'
+    claim: 'The word for contempt in Psalm 123:3–4 is Strong’s 937'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/psalms/123-4.htm'
+    quote: 'with the contempt'
+  - where: 'note 123:4 “Who the scorners are”'
+    claim: 'Amos 6:1 uses the same word of those at ease in Zion'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/amos/6-1.htm'
+    quote: 'to those at ease'
+  - where: 'note 123:4 “Who the scorners are”'
+    claim: 'The Church’s footnote on “scorning” in verse 4 points to Nehemiah 2:19 and Amos 6:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/123?lang=eng'
+    quote: 'Neh. 2:19; Amos 6:1.'
+  - where: 'note 123:4 “Who the scorners are”'
+    claim: 'In Nehemiah 2:19 Sanballat, Tobiah and Geshem laugh the builders to scorn and despise them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/neh/2?lang=eng'
+    quote: 'they laughed us to scorn, and despised us, and said, What is this thing that ye do?'
+  - where: 'note 123:4 “Who the scorners are”'
+    claim: 'In Nehemiah 4 the enemies oppose the rebuilding of Jerusalem’s walls, and Nehemiah prays that God hear, because the builders are despised'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/neh/4?lang=eng'
+    quote: 'Hear, O our God; for we are despised: and turn their reproach upon their own head'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'In Nehemiah 4 the mocked builders build the wall and pray'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/neh/4?lang=eng'
+    quote: 'Nevertheless we made our prayer unto our God, and set a watch against them day and night'
+  - where: parallels
+    claim: 'The Hebrew of Psalm 123:1 is a participle, “the One sitting,” followed by “in the heavens”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/psalms/123-1.htm'
+    quote: '[to] the One sitting [enthroned]'
+  - where: parallels
+    claim: 'Psalm 2:4 has the same words, “the One sitting in the heavens”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/psalms/2-4.htm'
+    quote: 'The One sitting'
+  - where: parallels
+    claim: 'The King James renders the phrase in Psalm 2:4 “He that sitteth in the heavens”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/2?lang=eng'
+    quote: 'He that sitteth in the heavens shall laugh: the Lord shall have them in derision.'
+  - where: parallels
+    claim: 'Psalm 145:15 has the eyes of all waiting on the LORD'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/145?lang=eng'
+    quote: 'The eyes of all wait upon thee; and thou givest them their meat in due season.'
+  - where: parallels
+    claim: 'Job 12:5 has the one at ease despising the one whose foot slips'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/12?lang=eng'
+    quote: 'He that is ready to slip with his feet is as a lamp despised in the thought of him that is at ease.'
