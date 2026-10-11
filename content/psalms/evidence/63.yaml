@@ -47,11 +47,6 @@ claims:
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'בֵּ/אלֹ֫הִ֥ים'
   - where: setting
-    claim: '“my God” in verse 1 is El (H410) with the suffix “my”'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'אֵלִ֥/י'
-  - where: setting
     claim: 'Psalm 61 has the covert of God’s wings (verse 4) and the king (verses 6–7)'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/61?lang=eng'
@@ -130,11 +125,6 @@ claims:
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
     quote: 'they shall be given over to the power of the sword;'
-  - where: section 4 plain
-    claim: 'Verse 10: jackals for the King James’s foxes'
-    key: nrsvue
-    url: 'https://www.biblegateway.com/passage/?search=Psalm%2063&version=NRSVUE'
-    quote: 'they shall be prey for jackals.'
   - where: section 4 plain
     claim: 'Verse 11: the last clause begins “for”'
     key: nrsvue
@@ -410,21 +400,6 @@ claims:
     key: bdb
     url: 'https://biblehub.com/hebrew/2459.htm'
     quote: 'as rich food (poetry) Deuteronomy 32:14 and in simile Psalm 63:6'
-  - where: 'note 63:5 “A rich feast, said by a thirsty man”'
-    claim: 'The same word is used especially of fat offered in sacrifice, a separate sense in the entry'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/2459.htm'
-    quote: 'especially as offered in sacrifice'
-  - where: 'note 63:5 “A rich feast, said by a thirsty man”'
-    claim: 'Sacrificial fat was not eaten'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/2459.htm'
-    quote: 'not to be eaten by men Leviticus 3:17'
-  - where: 'note 63:5 “A rich feast, said by a thirsty man”'
-    claim: 'The fat of the peace offering was burned on the altar'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/3?lang=eng'
-    quote: 'And the priest shall burn them upon the altar: it is the food of the offering made by fire for a sweet savour: all the fat is the Lord’s.'
   - where: 'note 63:5 “A rich feast, said by a thirsty man”'
     claim: 'The second word (deshen, H1880) means fatness, abundance'
     key: bdb
