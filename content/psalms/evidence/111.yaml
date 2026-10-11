@@ -1,0 +1,370 @@
+chapter: 111
+claims:
+  # ---- when ----
+  - where: 'when'
+    claim: 'The psalm has no title; the Gospel Library page begins with verse 1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/111?lang=eng'
+    quote: 'Praise ye the Lord. I will praise the Lord with my whole heart, in the assembly of the upright, and in the congregation.'
+
+  # ---- setting ----
+  - where: 'setting'
+    claim: 'Psalm 112 opens with “Praise ye the LORD”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/112?lang=eng'
+    quote: 'Praise ye the Lord. Blessed is the man that feareth the Lord, that delighteth greatly in his commandments.'
+  - where: 'setting'
+    claim: 'Psalm 113 opens with “Praise ye the LORD”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/113?lang=eng'
+    quote: 'Praise ye the Lord. Praise, O ye servants of the Lord, praise the name of the Lord.'
+  - where: 'setting'
+    claim: 'Psalms 111–113 have been called a trilogy of hallelujah psalms'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/111.htm'
+    quote: 'begins a trilogy of Hallelujah-Psalms'
+  - where: 'setting'
+    claim: 'The psalm is an acrostic of twenty-two lines, one for each letter'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/111.htm'
+    quote: 'Each consists of twenty-two lines with the twenty-two letters of the alphabet at the beginning,'
+  - where: 'setting'
+    claim: 'Most lines have three words, and the lines are not grouped into stanzas'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/111.htm'
+    quote: 'every line for the most part consists of three words. Both songs are only chains of acrostic lines without any strophic grouping'
+  - where: 'setting'
+    claim: 'The first acrostic line begins after the hallelujah, with a word in aleph (“I will praise”), the third word of verse 1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אוֹדֶ֣ה'
+  - where: 'setting'
+    claim: 'Psalms 111 and 112 have been called twins in form and contents; 111 celebrates the LORD and 112 those who fear Him'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/111.htm'
+    quote: 'The two Psalms are twin in form as in contents.'
+  - where: 'setting'
+    claim: 'Psalm 112 is about the happiness of those who fear the LORD'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/111.htm'
+    quote: 'celebrates the glory flowing therefrom and the happiness of the "upright" themselves, of those who fear Jahve'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: '“Sought out of” means studied by; a modern translation of verse 2'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20111&version=NRSVUE'
+    quote: 'studied by all who delight in them.'
+  - where: 'thread'
+    claim: '“Of” for the agent, where English now says “by,” is an obsolete use'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/of'
+    quote: 'This use is obsolete, and we use by in lieu of it.'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: 'Verses 1–3 in a modern translation: company of the upright; studied by all who delight; honor and majesty'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20111&version=NRSVUE'
+    quote: 'Full of honor and majesty is his work,'
+  - where: 'section 2 plain'
+    claim: '“Meat” is food, and “heathen” is nations'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20111&version=NRSVUE'
+    quote: 'He provides food for those who fear him;'
+  - where: 'section 2 plain'
+    claim: '“Heritage of the heathen” is the heritage of the nations'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20111&version=NRSVUE'
+    quote: 'in giving them the heritage of the nations.'
+  - where: 'section 3 plain'
+    claim: '“Verity and judgment” and “sure” in a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20111&version=NRSVUE'
+    quote: 'The works of his hands are faithful and just;'
+  - where: 'section 3 plain'
+    claim: '“Sure” is trustworthy'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20111&version=NRSVUE'
+    quote: 'all his precepts are trustworthy.'
+  - where: 'section 3 plain'
+    claim: '“Reverend” is awesome, to be held in awe'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20111&version=NRSVUE'
+    quote: 'Holy and awesome is his name.'
+
+  # ---- note 111:3 ----
+  - where: 'note 111:3 “The next psalm says it of a man”'
+    claim: 'Psalm 112:3 has the line of 111:3, said of the man who fears the LORD'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/112?lang=eng'
+    quote: 'Wealth and riches shall be in his house: and his righteousness endureth for ever.'
+  - where: 'note 111:3 “The next psalm says it of a man”'
+    claim: 'Psalm 112:9 has the line again, after the man gives to the poor'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/112?lang=eng'
+    quote: 'He hath dispersed, he hath given to the poor; his righteousness endureth for ever; his horn shall be exalted with honour.'
+  - where: 'note 111:3 “The next psalm says it of a man”'
+    claim: 'Psalm 112:1 names the man who fears the LORD'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/112?lang=eng'
+    quote: 'Blessed is the man that feareth the Lord, that delighteth greatly in his commandments.'
+  - where: 'note 111:3 “The next psalm says it of a man”'
+    claim: 'The Hebrew of “his righteousness endureth for ever” is the same three words in 111:3, 112:3 and 112:9 (H6666, H5975, H5703); the first of them'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ֝/צִדְקָת֗/וֹ'
+  - where: 'note 111:3 “The next psalm says it of a man”'
+    claim: 'The second and third words of the line, “endureth” and “for ever,” as in 111:3 and 112:3'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עֹמֶ֥דֶת'
+  - where: 'note 111:3 “The next psalm says it of a man”'
+    claim: 'Psalm 112:4 has “gracious, and full of compassion” in the description of the upright'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/112?lang=eng'
+    quote: 'Unto the upright there ariseth light in the darkness: he is gracious, and full of compassion, and righteous.'
+  - where: 'note 111:3 “The next psalm says it of a man”'
+    claim: 'The lexicon lists Exodus 34:6, Psalm 111:4 and Psalm 112:4 under one word, “gracious,” in the earlier and the later order'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2587.htm'
+    quote: 'Nehemiah 9:17,31; Psalm 111:4; Psalm 112:4; Psalm 145:8; Joel 2:13'
+  - where: 'note 111:3 “The next psalm says it of a man”'
+    claim: 'The lexicon says “gracious” is used only of God, and counts Psalm 112:4 with the rest'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2587.htm'
+    quote: 'adjective gracious, only used as an attribute of God'
+  - where: 'note 111:3 “The next psalm says it of a man”'
+    claim: 'The lexicon lists Exodus 34:6, Psalm 111:4 and Psalm 112:4 under one word, “compassionate”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7349.htm'
+    quote: 'Jonah 4:2; Psalm 111:4; Psalm 112:4; Psalm 145:8'
+  - where: 'note 111:3 “The next psalm says it of a man”'
+    claim: 'The lexicon says “compassionate” is always of God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7349.htm'
+    quote: 'adjective compassionate; — always of God'
+  - where: 'note 111:3 “The next psalm says it of a man”'
+    claim: 'Exodus 34:6 has the same two words in the other order: H7349 (“merciful”) and then H2587 (“gracious”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'רַח֖וּם'
+  - where: 'note 111:3 “The next psalm says it of a man”'
+    claim: 'The second of the two words in Exodus 34:6 (H2587, “gracious”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'וְ/חַנּ֑וּן'
+  - where: 'note 111:3 “The next psalm says it of a man”'
+    claim: 'At Sinai the LORD proclaimed Himself merciful and gracious, the first two attributes named'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/34?lang=eng'
+    quote: 'And the Lord passed by before him, and proclaimed, The Lord, The Lord God, merciful and gracious, longsuffering, and abundant in goodness and truth,'
+
+  # ---- note 111:4 ----
+  - where: 'note 111:4 “A memorial, and one reading finds the Passover in it”'
+    claim: 'The first word of verse 4 is a noun, “a memorial,” followed by “He has made”'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/psalms/111-4.htm'
+    quote: 'A memorial'
+  - where: 'note 111:4 “A memorial, and one reading finds the Passover in it”'
+    claim: 'The lexicon gives the noun as remembrance, memorial (the entry goes on to cite Psalm 111:4 for the form)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2143.htm'
+    quote: 'remembrance, memorial (compare HptHebraica. 1885, 230)'
+  - where: 'note 111:4 “A memorial, and one reading finds the Passover in it”'
+    claim: 'A modern translation takes the line of the LORD’s renown'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20111&version=NRSVUE'
+    quote: 'He has gained renown by his wonderful deeds;'
+  - where: 'note 111:4 “A memorial, and one reading finds the Passover in it”'
+    claim: 'One reading: the memorial is the festival that keeps the remembrance of the Exodus'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/111.htm'
+    quote: 'points to the festival which propagates the remembrance of the deeds of God in the Mosaic age'
+  - where: 'note 111:4 “A memorial, and one reading finds the Passover in it”'
+    claim: 'On that reading the food of verse 5 is the food of the Exodus and the Passover meal, the memorial of Exodus 12:14'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/111.htm'
+    quote: 'the food provided for the Exodus, and to the Passover meal, together with the feast of unleavened bread, this memorial'
+  - where: 'note 111:4 “A memorial, and one reading finds the Passover in it”'
+    claim: 'On that reading, given with its own “if,” the redemption of verse 9 is the deliverance from Egypt'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/111.htm'
+    quote: 'If we have understood Psalm 111:4-6 correctly, then'
+  - where: 'note 111:4 “A memorial, and one reading finds the Passover in it”'
+    claim: 'On that reading the covenant of verse 9 is the one ratified at Sinai'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/111.htm'
+    quote: 'Upon this followed the ratification of the covenant on Sinai'
+  - where: 'note 111:4 “A memorial, and one reading finds the Passover in it”'
+    claim: 'The law calls the Passover day a memorial'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/12?lang=eng'
+    quote: 'And this day shall be unto you for a memorial; and ye shall keep it a feast to the Lord throughout your generations'
+  - where: 'note 111:4 “A memorial, and one reading finds the Passover in it”'
+    claim: '“Meat” in older English is food in general'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/meat'
+    quote: 'Food in general; any thing eaten for nourishment, either by man or beast.'
+  - where: 'note 111:4 “A memorial, and one reading finds the Passover in it”'
+    claim: 'The Hebrew word for “meat” in verse 5 is used here of human food for those who fear God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2964.htm'
+    quote: 'of human food (late): for those who fear God Psalm 111:5'
+
+  # ---- note 111:6 ----
+  - where: 'note 111:6 “The land the nations had held”'
+    claim: 'A modern translation has “the heritage of the nations”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20111&version=NRSVUE'
+    quote: 'in giving them the heritage of the nations.'
+  - where: 'note 111:6 “The land the nations had held”'
+    claim: 'Psalm 105:44 says the LORD gave Israel the lands of the heathen'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/105?lang=eng'
+    quote: 'And gave them the lands of the heathen: and they inherited the labour of the people;'
+
+  # ---- note 111:9 ----
+  - where: 'note 111:9 “Reverend means to be feared”'
+    claim: '“Reverend” in older English: worthy of reverence, respect mingled with fear'
+    key: webster-1828
+    url: 'https://webstersdictionary1828.com/Dictionary/reverend'
+    quote: 'Worthy of reverence; entitled to respect mingled with fear and affection'
+  - where: 'note 111:9 “Reverend means to be feared”'
+    claim: 'The lexicon gives this form the sense “inspire reverence, godly fear, and awe”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3372.htm'
+    quote: 'inspire reverence, godly fear, and awe'
+  - where: 'note 111:9 “Reverend means to be feared”'
+    claim: 'The lexicon lists Psalm 99:3 and Psalm 111:9 together under that sense, of the name of the LORD'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3372.htm'
+    quote: 'of the name of Yahweh Deuteronomy 28:58; Psalm 99:3; Psalm 111:9; Malachi 1:14.'
+  - where: 'note 111:9 “Reverend means to be feared”'
+    claim: 'Psalm 99:3 in the King James'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/99?lang=eng'
+    quote: 'Let them praise thy great and terrible name; for it is holy.'
+  - where: 'note 111:9 “Reverend means to be feared”'
+    claim: 'A modern translation of the line'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20111&version=NRSVUE'
+    quote: 'Holy and awesome is his name.'
+  - where: 'note 111:9 “Reverend means to be feared”'
+    claim: 'The noun “fear” of verse 10 is glossed fear of God, reverence, piety, with this verse cited'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3374.htm'
+    quote: 'fear of God, reverence, piety'
+
+  # ---- note 111:10 ----
+  - where: 'note 111:10 “Fear that is reverence, and is shown in doing”'
+    claim: 'The Bible Dictionary distinguishes two uses of “fear” and cites Psalm 111:10 for the fear of the Lord as man’s duty'
+    key: bd-fear
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/fear?lang=eng'
+    quote: 'The “fear of the Lord” is frequently spoken of as part of man’s duty (Ps. 111:10; Eccl. 12:13; Isa. 11:2–3; Luke 1:50)'
+  - where: 'note 111:10 “Fear that is reverence, and is shown in doing”'
+    claim: 'In such passages fear is reverence, awe, worship'
+    key: bd-fear
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/fear?lang=eng'
+    quote: 'In such passages fear is equivalent to reverence, awe, worship'
+  - where: 'note 111:10 “Fear that is reverence, and is shown in doing”'
+    claim: 'The other use is the fear that perfect love casts out'
+    key: bd-fear
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/fear?lang=eng'
+    quote: 'something that “perfect love casteth out” (1 Jn. 4:18)'
+  - where: 'note 111:10 “Fear that is reverence, and is shown in doing”'
+    claim: 'Elder Bednar: godly fear includes reverence for Jesus Christ, obedience, and anticipation of the Final Judgment'
+    key: bednar-hushed-fears
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2015/04/therefore-they-hushed-their-fears?lang=eng'
+    quote: 'encompasses a deep feeling of reverence, respect, and awe for the Lord Jesus Christ (see Psalm 33:8; 96:4), obedience to His commandments'
+  - where: 'note 111:10 “Fear that is reverence, and is shown in doing”'
+    claim: 'Elder Bednar names anticipation of the Final Judgment as part of godly fear'
+    key: bednar-hushed-fears
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2015/04/therefore-they-hushed-their-fears?lang=eng'
+    quote: 'and anticipation of the Final Judgment and justice at His hand'
+  - where: 'note 111:10 “Fear that is reverence, and is shown in doing”'
+    claim: 'Elder Bednar: godly fear is a source of peace'
+    key: bednar-hushed-fears
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2015/04/therefore-they-hushed-their-fears?lang=eng'
+    quote: 'Unlike worldly fear that creates alarm and anxiety, godly fear is a source of peace, assurance, and confidence.'
+  - where: 'note 111:10 “Fear that is reverence, and is shown in doing”'
+    claim: 'The talk is by Elder David A. Bednar'
+    key: bednar-hushed-fears
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2015/04/therefore-they-hushed-their-fears?lang=eng'
+    quote: 'By Elder David A. Bednar'
+  - where: 'note 111:10 “Fear that is reverence, and is shown in doing”'
+    claim: 'Proverbs 9:10 has the saying in the same words'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/prov/9?lang=eng'
+    quote: 'The fear of the Lord is the beginning of wisdom: and the knowledge of the holy is understanding.'
+  - where: 'note 111:10 “Fear that is reverence, and is shown in doing”'
+    claim: 'Proverbs 1:7 has it as the beginning of knowledge'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/prov/1?lang=eng'
+    quote: 'The fear of the Lord is the beginning of knowledge: but fools despise wisdom and instruction.'
+  - where: 'note 111:10 “Fear that is reverence, and is shown in doing”'
+    claim: 'In Job the saying is spoken to man'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/28?lang=eng'
+    quote: 'And unto man he said, Behold, the fear of the Lord, that is wisdom; and to depart from evil is understanding.'
+  - where: 'note 111:10 “Fear that is reverence, and is shown in doing”'
+    claim: 'The Hebrew of the second line has the pronoun “them”; the translation’s “it” follows the Greek and Syriac, by its own footnote'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20111&version=NRSVUE'
+    quote: '111.10 Gk Syr: Heb them'
+  - where: 'note 111:10 “Fear that is reverence, and is shown in doing”'
+    claim: '“His commandments” is supplied by the King James (printed in brackets)'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/psalms/111-10.htm'
+    quote: 'a good understanding have all they that do [his commandments]'
+  - where: 'note 111:10 “Fear that is reverence, and is shown in doing”'
+    claim: 'A modern translation has “it,” the fear, where the Hebrew has “them”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20111&version=NRSVUE'
+    quote: 'all those who practice it have a good understanding.'
+  - where: 'note 111:10 “Fear that is reverence, and is shown in doing”'
+    claim: 'Psalm 112:1: the man who fears the LORD delights in His commandments'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/112?lang=eng'
+    quote: 'Blessed is the man that feareth the Lord, that delighteth greatly in his commandments.'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: '“LORD” in the Old Testament usually means Jehovah'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Usually, when the word Lord appears in the Old Testament, it means “Jehovah.”'
+  - where: 'christ'
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
+  - where: 'christ'
+    claim: 'Elder Bednar: godly fear is reverence for the Lord Jesus Christ'
+    key: bednar-hushed-fears
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2015/04/therefore-they-hushed-their-fears?lang=eng'
+    quote: 'a deep feeling of reverence, respect, and awe for the Lord Jesus Christ'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'Ecclesiastes 12:13 joins fearing God and keeping His commandments'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/eccl/12?lang=eng'
+    quote: 'Fear God, and keep his commandments: for this is the whole duty of man.'
+  - where: 'explore'
+    claim: 'Psalm 105 ends with the gift of the land'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/105?lang=eng'
+    quote: 'And gave them the lands of the heathen: and they inherited the labour of the people;'
+  - where: 'explore'
+    claim: 'The Passover is kept by an ordinance for ever'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/12?lang=eng'
+    quote: 'ye shall keep it a feast by an ordinance for ever.'
+
+  # ---- parallels ----
+  - where: 'parallels'
+    claim: 'Psalm 99:3 calls the name great and terrible'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/99?lang=eng'
+    quote: 'Let them praise thy great and terrible name; for it is holy.'
