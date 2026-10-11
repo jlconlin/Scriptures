@@ -1,0 +1,297 @@
+chapter: 114
+claims:
+  # ---- when ----
+  - where: 'when'
+    claim: 'The psalm has no title in the Church’s edition; it opens with the exodus'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/114?lang=eng'
+    quote: 'When Israel went out of Egypt, the house of Jacob from a people of strange language;'
+
+  # ---- setting ----
+  - where: 'setting'
+    claim: 'Psalms 113–118 are the Hallel, recited at the great feasts'
+    key: bd-hallel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hallel?lang=eng'
+    quote: 'A name given to the group of Psalms (113–18) recited by Jews at the great feasts (Matt. 26:30; Mark 14:26).'
+  - where: 'setting'
+    claim: 'Psalm 114 names Egypt; of Psalms 113–118 it is the only one that does (scripts/occurrences.mjs psalms "Egypt": chapters 68, 78, 80, 81, 105, 106, 114, 135, 136)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/114?lang=eng'
+    quote: 'When Israel went out of Egypt'
+  - where: 'setting'
+    claim: 'Paul recalls the sea and the rock and names Christ'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/10?lang=eng'
+    quote: 'for they drank of that spiritual Rock that followed them: and that Rock was Christ.'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: '“His” in verse 2 has no named antecedent; the Hebrew has only “his”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20114&version=NRSVUE'
+    quote: '114.2 Heb his'
+  - where: 'thread'
+    claim: 'The sea “saw” with no object stated'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20114&version=NRSVUE'
+    quote: 'The sea looked and fled;'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: '“A people of strange language” is a people whose speech is unintelligible, foreign'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3937.htm'
+    quote: 'Psalm 114:1 a people talking unintelligibly'
+  - where: 'section 4 plain'
+    claim: '“Standing water” is a pool and “fountain” a spring'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20114&version=NRSVUE'
+    quote: 'who turns the rock into a pool of water,'
+
+  # ---- note 114:1 ----
+  - where: 'note 114:1 “A psalm for the Passover table”'
+    claim: 'Psalms 113–118 are the Hallel, recited at the great feasts; the entry cites Matthew 26:30 for it'
+    key: bd-hallel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hallel?lang=eng'
+    quote: 'A name given to the group of Psalms (113–18) recited by Jews at the great feasts (Matt. 26:30; Mark 14:26).'
+  - where: 'note 114:1 “A psalm for the Passover table”'
+    claim: 'In later times the telling of the redemption from Egypt was part of the Passover meal'
+    key: bd-feasts
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/feasts?lang=eng'
+    quote: 'The history of the redemption from Egypt was related by the head of the household (Ex. 12:26–27).'
+  - where: 'note 114:1 “A psalm for the Passover table”'
+    claim: 'The Hallel was sung at the Passover'
+    key: bd-feasts
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/feasts?lang=eng'
+    quote: '(3) Ps. 113–18 (the Hallel) were sung.'
+  - where: 'note 114:1 “A psalm for the Passover table”'
+    claim: 'Psalms 113–114 are sung early in the feast and 115–118 at its close'
+    key: lambert-passover-easter
+    url: 'https://interpreterfoundation.org/journal/our-faithful-lord-passover-to-easter'
+    quote: 'Psalms 113–14 are sung early in the feast. Psalms 115–18 would probably have been the last words Jesus sang with his disciples before they left'
+  - where: 'note 114:1 “A psalm for the Passover table”'
+    claim: 'The Hallel is the praise sung at Passover and comprises Psalms 113–118'
+    key: lambert-passover-easter
+    url: 'https://interpreterfoundation.org/journal/our-faithful-lord-passover-to-easter'
+    quote: 'The Hallel is the “praise” sung at Passover and several Jewish Feasts. It comprises Psalms 113–18.'
+  - where: 'note 114:1 “A psalm for the Passover table”'
+    claim: 'The children’s question at the Passover'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/12?lang=eng'
+    quote: 'And it shall come to pass, when your children shall say unto you, What mean ye by this service?'
+  - where: 'note 114:1 “A psalm for the Passover table”'
+    claim: 'Matthew says a hymn was sung before they went out'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/26?lang=eng'
+    quote: 'And when they had sung an hymn, they went out into the mount of Olives.'
+  - where: 'note 114:1 “A psalm for the Passover table”'
+    claim: 'Of Psalms 113–118 only Psalm 114 names Egypt (scripts/occurrences.mjs psalms "Egypt")'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/114?lang=eng'
+    quote: 'When Israel went out of Egypt'
+
+  # ---- note 114:2 ----
+  - where: 'note 114:2 “A people made into a holy place”'
+    claim: 'A modern translation supplies “God’s” for “his”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20114&version=NRSVUE'
+    quote: 'Judah became God’s sanctuary,'
+  - where: 'note 114:2 “A people made into a holy place”'
+    claim: 'The translation notes that the Hebrew has “his”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20114&version=NRSVUE'
+    quote: '114.2 Heb his'
+  - where: 'note 114:2 “A people made into a holy place”'
+    claim: 'Exodus 19:6 is the cross-reference a modern translation gives for this verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20114&version=NRSVUE'
+    quote: '114.2 : Ex 19.6'
+  - where: 'note 114:2 “A people made into a holy place”'
+    claim: 'At Sinai Israel is to be a kingdom of priests and a holy nation'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/19?lang=eng'
+    quote: 'And ye shall be unto me a kingdom of priests, and an holy nation.'
+  - where: 'note 114:2 “A people made into a holy place”'
+    claim: 'The sanctuary was to be made so that God might dwell among them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/25?lang=eng'
+    quote: 'And let them make me a sanctuary; that I may dwell among them.'
+  - where: 'note 114:2 “A people made into a holy place”'
+    claim: 'One older reading: the nation is called Judah because God set His sanctuary in its midst, at Jerusalem'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/114.htm'
+    quote: 'The redeemed nation is called Judah, inasmuch as God made it His sanctuary (קדשׁ) by setting up His sanctuary (מקדּשׁ, Exodus 15:17) in the midst of it, for Jerusalem'
+  - where: 'note 114:2 “A people made into a holy place”'
+    claim: 'The same reading: the one redeemed nation is called Israel as the people God made His kingdom'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/114.htm'
+    quote: 'In so far, however, as He made this people His kingdom'
+  - where: 'note 114:2 “A people made into a holy place”'
+    claim: 'The same reading: God in the relation of King to the people'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/114.htm'
+    quote: 'by placing Himself in the relation of King (Deuteronomy 33:5) to the people of possession'
+
+  # ---- note 114:3 ----
+  - where: 'note 114:3 “Two crossings in one line”'
+    claim: 'At the sea the waters were divided'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/14?lang=eng'
+    quote: 'and made the sea dry land, and the waters were divided.'
+  - where: 'note 114:3 “Two crossings in one line”'
+    claim: 'At the Jordan the waters stood in a heap and the people crossed opposite Jericho'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/3?lang=eng'
+    quote: 'That the waters which came down from above stood and rose up upon an heap very far from the city Adam'
+  - where: 'note 114:3 “Two crossings in one line”'
+    claim: 'Joshua sets the Jordan beside the Red Sea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/4?lang=eng'
+    quote: 'dried up the waters of Jordan from before you, until ye were passed over, as the Lord your God did to the Red sea'
+  - where: 'note 114:3 “Two crossings in one line”'
+    claim: 'A modern translation has no object after “looked”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20114&version=NRSVUE'
+    quote: 'The sea looked and fled;'
+  - where: 'note 114:3 “Two crossings in one line”'
+    claim: 'The ancient Greek translation has no object after “saw”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/114.htm'
+    quote: 'The sea saw and fled: Jordan was turned back.'
+  - where: 'note 114:3 “Two crossings in one line”'
+    claim: 'Psalm 77 says the waters saw God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/77?lang=eng'
+    quote: 'The waters saw thee, O God, the waters saw thee; they were afraid'
+
+  # ---- note 114:4 ----
+  - where: 'note 114:4 “The mountains read as Sinai”'
+    claim: 'The lexicon reads the skipping mountains of verses 4 and 6 as Sinai quaking at the giving of the law'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7540.htm'
+    quote: 'Qal skip about, Perfect3masculine plural רָֽקְדוּ Psalm 114:4 (of mountains, כְּאֵילִים); Imperfect2masculine plural תִּרְקְדוּ Psalm 114:6 (id.; both of Sinai quaking at law-giving)'
+  - where: 'note 114:4 “The mountains read as Sinai”'
+    claim: 'Sinai quaked when the Lord descended on it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/19?lang=eng'
+    quote: 'because the Lord descended upon it in fire: and the smoke thereof ascended as the smoke of a furnace, and the whole mount quaked greatly.'
+  - where: 'note 114:4 “The mountains read as Sinai”'
+    claim: 'Deborah’s song remembers Sinai'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/5?lang=eng'
+    quote: 'The mountains melted from before the Lord, even that Sinai from before the Lord God of Israel.'
+  - where: 'note 114:4 “The mountains read as Sinai”'
+    claim: 'Psalm 68 remembers Sinai moved at the presence of God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/68?lang=eng'
+    quote: 'even Sinai itself was moved at the presence of God, the God of Israel.'
+  - where: 'note 114:4 “The mountains read as Sinai”'
+    claim: 'In Psalm 29 Lebanon skips'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/29?lang=eng'
+    quote: 'He maketh them also to skip like a calf; Lebanon and Sirion like a young unicorn.'
+
+  # ---- note 114:7 ----
+  - where: 'note 114:7 “The answer is a command”'
+    claim: 'A modern translation puts the questions in the present tense'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20114&version=NRSVUE'
+    quote: 'Why is it, O sea, that you flee?'
+  - where: 'note 114:7 “The answer is a command”'
+    claim: 'One older reading: the poet speaks as a contemporary of the events, past and present flowing together, and his answer is a mandate'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/114.htm'
+    quote: 'lives and moves in this olden time as a contemporary, or the present and the olden time as it were flow together to his mind; hence the answer he himself gives to the question propounded takes the form of a triumphant mandate.'
+  - where: 'note 114:7 “The answer is a command”'
+    claim: '“Lord” in verse 7 is the Hebrew adon, lord or master, here used of God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/113.htm'
+    quote: '1 singular lord, master (1) reference to men'
+  - where: 'note 114:7 “The answer is a command”'
+    claim: 'The lexicon lists this verse under the word’s use of God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/113.htm'
+    quote: 'אָדוֺן Psalm 114:7.'
+  - where: 'note 114:7 “The answer is a command”'
+    claim: 'The Hebrew of verse 7 has adon (Strong’s 113), not the divine name'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/psalms/114-7.htm'
+    quote: 'אָ֭דוֹן'
+
+  # ---- note 114:8 ----
+  - where: 'note 114:8 “Water from the rock”'
+    claim: 'The Hebrew noun behind “standing water” is a pool'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/98.htm'
+    quote: '2 any pool, pond, singular מַיִם ׳א Isaiah 41:18; Psalm 107:35; Psalm 114:8'
+  - where: 'note 114:8 “Water from the rock”'
+    claim: 'A modern translation has “a pool of water”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20114&version=NRSVUE'
+    quote: 'who turns the rock into a pool of water,'
+  - where: 'note 114:8 “Water from the rock”'
+    claim: 'Water from the rock in Horeb'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/17?lang=eng'
+    quote: 'Behold, I will stand before thee there upon the rock in Horeb; and thou shalt smite the rock, and there shall come water out of it, that the people may drink.'
+  - where: 'note 114:8 “Water from the rock”'
+    claim: 'Moses strikes the rock a second time, in Numbers'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/20?lang=eng'
+    quote: 'And Moses lifted up his hand, and with his rod he smote the rock twice: and the water came out abundantly'
+  - where: 'note 114:8 “Water from the rock”'
+    claim: 'Moses speaks of water out of the rock of flint'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/8?lang=eng'
+    quote: 'who brought thee forth water out of the rock of flint;'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'Paul says the Rock was Christ'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/10?lang=eng'
+    quote: 'for they drank of that spiritual Rock that followed them: and that Rock was Christ.'
+  - where: 'christ'
+    claim: 'The Lord there calls Himself the God of Jacob who led Israel out of Egypt'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/136?lang=eng'
+    quote: 'I am he who led the children of Israel out of the land of Egypt; and my arm is stretched out in the last days, to save my people Israel.'
+  - where: 'christ'
+    claim: 'The hymn of the Last Supper is associated with the Hallel'
+    key: bd-hallel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hallel?lang=eng'
+    quote: 'A name given to the group of Psalms (113–18) recited by Jews at the great feasts (Matt. 26:30; Mark 14:26).'
+  - where: 'christ'
+    claim: 'Paul calls Christ our passover'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/5?lang=eng'
+    quote: 'For even Christ our passover is sacrificed for us:'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'In Helaman 12 the hills and mountains tremble at His voice'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/12?lang=eng'
+    quote: 'Yea, behold at his voice do the hills and the mountains tremble and quake.'
+  - where: 'explore'
+    claim: 'In Helaman 12 the great deep is dried up at His word'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/12?lang=eng'
+    quote: 'And behold, also, if he say unto the waters of the great deep—Be thou dried up—it is done.'
+
+  # ---- parallels ----
+  - where: 'parallels'
+    claim: 'At Enoch’s word the earth trembled, mountains fled and rivers turned out of their course'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/7?lang=eng'
+    quote: 'he spake the word of the Lord, and the earth trembled, and the mountains fled, even according to his command; and the rivers of water were turned out of their course'
+  - where: 'parallels'
+    claim: 'At the Lord’s coming the nations tremble at His presence'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/133?lang=eng'
+    quote: 'O Lord, thou shalt come down to make thy name known to thine adversaries, and all nations shall tremble at thy presence'
+  - where: 'parallels'
+    claim: 'Paul recalls the fathers passing through the sea'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/10?lang=eng'
+    quote: 'how that all our fathers were under the cloud, and all passed through the sea;'
