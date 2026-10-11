@@ -44,11 +44,6 @@ claims:
     url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
     quote: 'The first two divisions of the Psalm lead up to the prayer for the restoration of God’s favour to Israel, which is its main purpose.'
   - where: thread
-    claim: 'Verse 1 addresses God by the title Adonai, not the divine name'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'אֲֽדֹנָ֗/י'
-  - where: thread
     claim: 'The divine name stands in verse 13'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
@@ -274,11 +269,6 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/90?lang=eng'
     quote: 'returnest man to dust'
   - where: 'note 90:3 “One verb for man’s dying and for God’s command”'
-    claim: 'The noun means dust, as something pulverized'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/1793.htm'
-    quote: 'dust (as pulverized)'
-  - where: 'note 90:3 “One verb for man’s dying and for God’s command”'
     claim: 'The verse refers to Genesis 3:19 in different words'
     key: cambridge-psalms
     url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
@@ -414,11 +404,6 @@ claims:
     url: 'https://biblehub.com/hebrew/935.htm'
     quote: 'Psalm 90:12 that we may gain a heart of wisdom'
   - where: 'note 90:12 “Gaining a heart of wisdom”'
-    claim: 'The verb is a causative form of “come”: bring in'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'וְ֝/נָבִ֗א'
-  - where: 'note 90:12 “Gaining a heart of wisdom”'
     claim: 'A modern translation of the verse'
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Psalm%2090&version=NRSVUE'
@@ -445,11 +430,6 @@ claims:
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
     quote: 'וְ/הִנָּחֵ֥ם'
-  - where: 'note 90:13 “The prayer of Moses at Sinai, prayed again”'
-    claim: 'The lexicon cites the imperative of this verb from Exodus 32:12 and Psalm 90:13'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/5162.htm'
-    quote: 'Exodus 32:12; Psalm 90:13.'
   - where: 'note 90:13 “The prayer of Moses at Sinai, prayed again”'
     claim: 'The verb here means to be sorry, moved to pity, have compassion'
     key: bdb
@@ -564,25 +544,10 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/2-pet/3?lang=eng'
     quote: 'The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward'
   - where: christ
-    claim: 'What the Lord told Moses His work is'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/1?lang=eng'
-    quote: 'to bring to pass the immortality and eternal life of man'
-  - where: christ
-    claim: 'Jehovah is the premortal Jesus Christ'
-    key: bd-jehovah
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
-    quote: 'Jehovah is the premortal Jesus Christ'
-  - where: christ
     claim: 'The divine name stands in verse 13'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'יְ֭הוָה'
-  - where: christ
-    claim: 'The Church’s footnote at “work” in verse 16 is Moses 1:39'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/90?lang=eng'
-    quote: 'Moses 1:39'
   - where: explore
     claim: 'The Song of Moses uses the psalm’s words for generations and days'
     key: lds-scriptures
