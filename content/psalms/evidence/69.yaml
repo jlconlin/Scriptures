@@ -1,0 +1,543 @@
+chapter: 69
+claims:
+  # ---- when ----
+  - where: 'when'
+    claim: 'The title ascribes the psalm to David and gives no occasion'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2069&version=NRSVUE'
+    quote: 'To the leader: according to Lilies. Of David.'
+
+  # ---- setting ----
+  - where: 'setting'
+    claim: 'Paul quotes the psalm as David’s'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/11?lang=eng'
+    quote: 'And David saith, Let their table be made a snare, and a trap, and a stumblingblock, and a recompence unto them:'
+  - where: 'setting'
+    claim: 'Peter quotes the psalm as spoken by the Holy Ghost through David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/1?lang=eng'
+    quote: 'which the Holy Ghost by the mouth of David spake before concerning Judas'
+  - where: 'setting'
+    claim: 'Many scholars place the psalm after the return from exile'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'Although Psalm 69 is attributed to David, many scholars believe that it was written later, after the Jewish exiles returned from Babylon.'
+  - where: 'setting'
+    claim: 'After Psalm 22 no psalm is referred to in the New Testament in so many ways; the list of New Testament uses'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/69.htm'
+    quote: 'after Psalm 22 there is no Psalm referred to in so many ways as Psalm 69.'
+  - where: 'setting'
+    claim: 'The Church’s heading calls it a messianic psalm of David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/69?lang=eng'
+    quote: 'A messianic psalm of David'
+  - where: 'setting'
+    claim: 'The Savior’s words in John 15:25 are the wording of verse 4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/15?lang=eng'
+    quote: 'They hated me without a cause.'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'The Hebrew noun for reproach (H2781) occurs five times in Psalm 69 (verses 7, 9, 10, 19, 20) of twenty in the Psalms, and no other psalm has it more than twice (listed by scripts/hebrew.mjs psalms --word H2781)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֶרְפָּ֤ה'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: 'Verse 1: “unto my soul” is an attack on the life'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5315.htm'
+    quote: 'a serious attack upon the life is an attack upon this inner living being'
+  - where: 'section 1 plain'
+    claim: 'Verse 2: no foothold; verse 3: the throat is parched'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2069&version=NRSVUE'
+    quote: 'where there is no foothold;'
+  - where: 'section 1 plain'
+    claim: 'Verse 4: the last clause is a protest about restoring what he did not steal'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2069&version=NRSVUE'
+    quote: 'What I did not steal,'
+  - where: 'section 2 plain'
+    claim: 'Verse 5: “sins” is guilt'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/819.htm'
+    quote: 'wrong-doing, guiltiness'
+  - where: 'section 2 plain'
+    claim: 'Verse 11: “proverb” is a byword'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2069&version=NRSVUE'
+    quote: 'I became a byword to them.'
+  - where: 'section 3 plain'
+    claim: 'Verse 13: “acceptable” is favor; “hear me” is “answer me”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2069&version=NRSVUE'
+    quote: 'in the abundance of your steadfast love, answer me.'
+  - where: 'section 4 plain'
+    claim: 'Verse 20: despair; verse 21: poison for food'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2069&version=NRSVUE'
+    quote: 'They gave me poison for food,'
+  - where: 'section 4 plain'
+    claim: 'Verse 20: “take pity” is to show sympathy'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5110.htm'
+    quote: 'condole, shew sympathy with Job 2:11'
+  - where: 'section 5 plain'
+    claim: 'Verse 22: “that which should have been for their welfare” is their security'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7965.htm'
+    quote: 'Psalm 69:23 security, (let it) become a trap'
+  - where: 'section 5 plain'
+    claim: 'Verse 25: “habitation” is a camp'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2069&version=NRSVUE'
+    quote: 'May their camp be a desolation;'
+  - where: 'section 6 plain'
+    claim: 'Verse 29: afflicted and in pain; verse 33: “his prisoners” are his own who are in bonds'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2069&version=NRSVUE'
+    quote: 'and does not despise his own who are in bonds.'
+
+  # ---- note 69:0 ----
+  - where: 'note 69:0 “The title’s lilies”'
+    claim: 'A modern translation renders Shoshannim as Lilies'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2069&version=NRSVUE'
+    quote: 'To the leader: according to Lilies. Of David.'
+
+  # ---- note 69:1 ----
+  - where: 'note 69:1 “Drowning, with nothing to stand on”'
+    claim: 'A modern translation has “up to my neck” and “no foothold”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2069&version=NRSVUE'
+    quote: 'for the waters have come up to my neck.'
+  - where: 'note 69:1 “Drowning, with nothing to stand on”'
+    claim: 'No foothold in the mire'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2069&version=NRSVUE'
+    quote: 'where there is no foothold;'
+  - where: 'note 69:1 “Drowning, with nothing to stand on”'
+    claim: 'The lexicon lists Psalm 69:1 (Hebrew 69:2) among verses where an attack on the life is meant'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5315.htm'
+    quote: 'a serious attack upon the life is an attack upon this inner living being'
+  - where: 'note 69:1 “Drowning, with nothing to stand on”'
+    claim: 'Jonah’s prayer has nearly the same words'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jonah/2?lang=eng'
+    quote: 'The waters compassed me about, even to the soul'
+  - where: 'note 69:1 “Drowning, with nothing to stand on”'
+    claim: 'The pit of verse 15 is parallel to the deep, and the lexicon compares it with the pit of the grave in Psalm 55'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/875.htm'
+    quote: 'pit of (the) grave'
+
+  # ---- note 69:4 ----
+  - where: 'note 69:4 “Hated for nothing”'
+    claim: 'Jesus says the words are fulfilled in Him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/15?lang=eng'
+    quote: 'that the word might be fulfilled that is written in their law, They hated me without a cause.'
+  - where: 'note 69:4 “Hated for nothing”'
+    claim: 'The same phrase stands in Psalm 35:19'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/35?lang=eng'
+    quote: 'neither let them wink with the eye that hate me without a cause.'
+  - where: 'note 69:4 “Hated for nothing”'
+    claim: 'The adverb means gratuitously, undeservedly, used of groundless hostility'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2600.htm'
+    quote: 'gratuitously, without cause, undeservedly, especially of groundless hostility or attack'
+  - where: 'note 69:4 “Hated for nothing”'
+    claim: 'A modern translation makes the last clause a protest'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2069&version=NRSVUE'
+    quote: 'What I did not steal, must I now restore?'
+  - where: 'note 69:4 “Hated for nothing”'
+    claim: 'The verb means to tear away, seize, rob'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1497.htm'
+    quote: 'tear away, seize, rob'
+
+  # ---- note 69:5 ----
+  - where: 'note 69:5 “The sufferer does not claim to be sinless”'
+    claim: 'The word for “sins” means wrong-doing, guiltiness'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/819.htm'
+    quote: 'wrong-doing, guiltiness'
+  - where: 'note 69:5 “The sufferer does not claim to be sinless”'
+    claim: 'One older reading: he is a sinner, but suffers for the Lord’s sake'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/69.htm'
+    quote: 'The person praying here is, it is true, a sinner, but that is no justification of the conduct of men towards him; he is suffering for the Lord''s sake'
+  - where: 'note 69:5 “The sufferer does not claim to be sinless”'
+    claim: 'The same reading calls the whole psalm typically prophetic'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/69.htm'
+    quote: 'The whole Psalm is typically prophetic, in as far as it is a declaration of a history of life and suffering moulded by God into a factual prediction concerning Jesus the Christ'
+  - where: 'note 69:5 “The sufferer does not claim to be sinless”'
+    claim: 'The New Testament quotations are of verses 4, 9, 22–23 and 25 (the list)'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/69.htm'
+    quote: 'According to Acts 1:20, the imprecation in Psalm 69:26 has received its fulfilment in Judas Iscariot.'
+
+  # ---- note 69:9 ----
+  - where: 'note 69:9 “Insults meant for God fall on him”'
+    claim: 'The disciples remembered the first half of the verse'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/2?lang=eng'
+    quote: 'And his disciples remembered that it was written, The zeal of thine house hath eaten me up.'
+  - where: 'note 69:9 “Insults meant for God fall on him”'
+    claim: 'Jesus drove the traders from the temple'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/2?lang=eng'
+    quote: 'make not my Father’s house an house of merchandise.'
+  - where: 'note 69:9 “Insults meant for God fall on him”'
+    claim: 'Paul quotes the second half of Christ'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/15?lang=eng'
+    quote: 'For even Christ pleased not himself; but, as it is written, The reproaches of them that reproached thee fell on me.'
+  - where: 'note 69:9 “Insults meant for God fall on him”'
+    claim: 'The word for zeal means ardor, zeal, jealousy'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7068.htm'
+    quote: 'ardor, zeal, jealousy'
+
+  # ---- note 69:13 ----
+  - where: 'note 69:13 “The turn: a time of favor”'
+    claim: 'The noun means goodwill, favour, acceptance'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7522.htm'
+    quote: 'goodwill, favour, acceptance, will'
+  - where: 'note 69:13 “The turn: a time of favor”'
+    claim: 'The lexicon lists the phrase “time of favour” in Isaiah 49:8 and Psalm 69:13 (Hebrew 69:14)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7522.htm'
+    quote: 'Isaiah 49:8; Psalm 69:14'
+  - where: 'note 69:13 “The turn: a time of favor”'
+    claim: 'Isaiah 49:8 has the phrase where the LORD answers His servant'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/49?lang=eng'
+    quote: 'In an acceptable time have I heard thee, and in a day of salvation have I helped thee'
+  - where: 'note 69:13 “The turn: a time of favor”'
+    claim: 'Paul quotes Isaiah’s line'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/2-cor/6?lang=eng'
+    quote: 'behold, now is the accepted time'
+  - where: 'note 69:13 “The turn: a time of favor”'
+    claim: '“Hear me” in verse 13 is “answer me” in a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2069&version=NRSVUE'
+    quote: 'in the abundance of your steadfast love, answer me.'
+  - where: 'note 69:13 “The turn: a time of favor”'
+    claim: '“Hear me” in verse 16 is “Answer me”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2069&version=NRSVUE'
+    quote: 'Answer me, O Lord, for your steadfast love is good;'
+  - where: 'note 69:13 “The turn: a time of favor”'
+    claim: '“Hear me speedily” in verse 17 is “make haste to answer me”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2069&version=NRSVUE'
+    quote: 'make haste to answer me.'
+  - where: 'note 69:13 “The turn: a time of favor”'
+    claim: '“Mercy” in verse 13 and “lovingkindness” in verse 16 are the same Hebrew word, hesed (H2617), in the same form'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַסְדֶּ֑/ךָ'
+
+  # ---- note 69:20 ----
+  - where: 'note 69:20 “Elder Talmage: the Lord died of a broken heart”'
+    claim: 'Elder Talmage believed the Lord died of a broken heart and read verses 20–21 as the psalmist’s prevision'
+    key: talmage-jesus-christ-35
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-35?lang=eng'
+    quote: 'The present writer believes that the Lord Jesus died of a broken heart. The psalmist sang in dolorous measure according to his inspired prevision of the Lord’s passion'
+  - where: 'note 69:20 “Elder Talmage: the Lord died of a broken heart”'
+    claim: 'The verb for “take pity” means to condole, show sympathy, and is used of Job’s friends'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5110.htm'
+    quote: 'condole, shew sympathy with Job 2:11'
+  - where: 'note 69:20 “Elder Talmage: the Lord died of a broken heart”'
+    claim: 'The word behind “I am full of heaviness” (H5136) occurs once in the Psalms (scripts/hebrew.mjs psalms --word H5136: 1 occurrence)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וָֽ/אָ֫נ֥וּשָׁ/ה'
+  - where: 'note 69:20 “Elder Talmage: the Lord died of a broken heart”'
+    claim: 'A modern translation has “I am in despair”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2069&version=NRSVUE'
+    quote: 'so that I am in despair.'
+  - where: 'note 69:20 “Elder Talmage: the Lord died of a broken heart”'
+    claim: 'The verse as the Church’s edition has it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/69?lang=eng'
+    quote: 'Reproach hath broken my heart; and I am full of heaviness'
+
+  # ---- note 69:21 ----
+  - where: 'note 69:21 “Poison for food, vinegar for thirst, and two drinks at the cross”'
+    claim: 'The Hebrew word behind “gall” is a bitter and poisonous herb'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7219.htm'
+    quote: '(bitter and poisonous herb) venom'
+  - where: 'note 69:21 “Poison for food, vinegar for thirst, and two drinks at the cross”'
+    claim: 'A modern translation has “poison for food”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2069&version=NRSVUE'
+    quote: 'They gave me poison for food,'
+  - where: 'note 69:21 “Poison for food, vinegar for thirst, and two drinks at the cross”'
+    claim: 'The Greek translation has “gall”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/69.htm'
+    quote: 'They gave me also gall for my food, and made me drink vinegar for my thirst.'
+  - where: 'note 69:21 “Poison for food, vinegar for thirst, and two drinks at the cross”'
+    claim: 'Gall means something bitter'
+    key: bd-gall
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/gall?lang=eng'
+    quote: 'Something bitter; hence the word is applied to bile'
+  - where: 'note 69:21 “Poison for food, vinegar for thirst, and two drinks at the cross”'
+    claim: 'Matthew’s first drink: vinegar mingled with gall, refused'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/27?lang=eng'
+    quote: 'They gave him vinegar to drink mingled with gall: and when he had tasted thereof, he would not drink.'
+  - where: 'note 69:21 “Poison for food, vinegar for thirst, and two drinks at the cross”'
+    claim: 'Mark calls it wine mingled with myrrh'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/mark/15?lang=eng'
+    quote: 'And they gave him to drink wine mingled with myrrh: but he received it not.'
+  - where: 'note 69:21 “Poison for food, vinegar for thirst, and two drinks at the cross”'
+    claim: 'Elder Talmage: the first drink was a narcotic offered in mercy'
+    key: talmage-jesus-christ-35
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-35?lang=eng'
+    quote: 'it was the custom to offer each a narcotic draught of sour wine or vinegar mingled with myrrh and possibly containing other anodyne ingredients, for the merciful purpose of deadening the sensibility of the victim'
+  - where: 'note 69:21 “Poison for food, vinegar for thirst, and two drinks at the cross”'
+    claim: 'Elder Talmage: Jesus refused it to meet death with His mind unclouded'
+    key: talmage-jesus-christ-35
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-35?lang=eng'
+    quote: 'demonstrated His determination to meet death with faculties alert and mind unclouded'
+  - where: 'note 69:21 “Poison for food, vinegar for thirst, and two drinks at the cross”'
+    claim: 'John: Jesus said “I thirst” that the scripture might be fulfilled, and was given vinegar on a sponge'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/19?lang=eng'
+    quote: 'After this, Jesus knowing that all things were now accomplished, that the scripture might be fulfilled, saith, I thirst.'
+  - where: 'note 69:21 “Poison for food, vinegar for thirst, and two drinks at the cross”'
+    claim: 'The sponge of vinegar'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/19?lang=eng'
+    quote: 'they filled a sponge with vinegar, and put it upon hyssop, and put it to his mouth.'
+
+  # ---- note 69:22 ----
+  - where: 'note 69:22 “The curses, and what Paul does with them”'
+    claim: 'The first curse answers the poisoned meal'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/69.htm'
+    quote: 'They have given the sufferer gall and vinegar; therefore their table, which was abundantly supplied, is to be turned into a snare to them'
+  - where: 'note 69:22 “The curses, and what Paul does with them”'
+    claim: 'Paul applies the verses to the part of Israel that was blinded'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/11?lang=eng'
+    quote: 'but the election hath obtained it, and the rest were blinded'
+  - where: 'note 69:22 “The curses, and what Paul does with them”'
+    claim: 'Paul quotes verses 22–23 as David’s'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/11?lang=eng'
+    quote: 'Let their eyes be darkened, that they may not see, and bow down their back alway.'
+  - where: 'note 69:22 “The curses, and what Paul does with them”'
+    claim: 'The Greek psalm has “for a recompense” in verse 22'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/69.htm'
+    quote: 'Let their table before them be for a snare, and for a recompense, and for a stumbling-block.'
+  - where: 'note 69:22 “The curses, and what Paul does with them”'
+    claim: 'The Greek psalm has “bow down their back continually” in verse 23'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/69.htm'
+    quote: 'Let their eyes be darkened that they should not see; and bow down their back continually.'
+  - where: 'note 69:22 “The curses, and what Paul does with them”'
+    claim: 'Paul denies that Israel has stumbled so as to fall'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/11?lang=eng'
+    quote: 'Have they stumbled that they should fall? God forbid'
+  - where: 'note 69:22 “The curses, and what Paul does with them”'
+    claim: 'The blindness is in part and until'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/11?lang=eng'
+    quote: 'blindness in part is happened to Israel, until the fulness of the Gentiles be come in.'
+
+  # ---- note 69:25 ----
+  - where: 'note 69:25 “Peter applies the verse to Judas”'
+    claim: 'Peter says the Holy Ghost spoke of Judas by David'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/1?lang=eng'
+    quote: 'this scripture must needs have been fulfilled, which the Holy Ghost by the mouth of David spake before concerning Judas, which was guide to them that took Jesus.'
+  - where: 'note 69:25 “Peter applies the verse to Judas”'
+    claim: 'Peter quotes the verse in the singular and joins another psalm to it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/1?lang=eng'
+    quote: 'For it is written in the book of Psalms, Let his habitation be desolate, and let no man dwell therein: and his bishoprick let another take.'
+  - where: 'note 69:25 “Peter applies the verse to Judas”'
+    claim: 'The last clause is Psalm 109:8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/109?lang=eng'
+    quote: 'Let his days be few; and let another take his office.'
+
+  # ---- note 69:26 ----
+  - where: 'note 69:26 “Smitten of God: two words shared with Isaiah 53”'
+    claim: '“Smitten” in Psalm 69:26 is the verb nakah (H5221)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הִכִּ֣יתָ'
+  - where: 'note 69:26 “Smitten of God: two words shared with Isaiah 53”'
+    claim: '“Grief” in Psalm 69:26 is the noun for pain (H4341)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מַכְא֖וֹב'
+  - where: 'note 69:26 “Smitten of God: two words shared with Isaiah 53”'
+    claim: '“Smitten” in Isaiah 53:4 is the same verb (H5221)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'מֻכֵּ֥ה'
+  - where: 'note 69:26 “Smitten of God: two words shared with Isaiah 53”'
+    claim: '“Sorrows” in Isaiah 53:4 is the same noun (H4341)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'וּ/מַכְאֹבֵ֖י/נוּ'
+  - where: 'note 69:26 “Smitten of God: two words shared with Isaiah 53”'
+    claim: 'The verb is nakah, to strike'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5221.htm'
+    quote: 'nakah: To strike, smite, hit, beat, slay, kill'
+  - where: 'note 69:26 “Smitten of God: two words shared with Isaiah 53”'
+    claim: 'The noun means pain'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4341.htm'
+    quote: 'KJV: grief, pain, sorrow'
+  - where: 'note 69:26 “Smitten of God: two words shared with Isaiah 53”'
+    claim: 'Isaiah 53:4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/53?lang=eng'
+    quote: 'yet we did esteem him stricken, smitten of God, and afflicted.'
+  - where: 'note 69:26 “Smitten of God: two words shared with Isaiah 53”'
+    claim: 'A modern translation’s cross-references set Isaiah 53:4 beside this verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2069&version=NRSVUE'
+    quote: '69.26 : Isa 53.4'
+  - where: 'note 69:26 “Smitten of God: two words shared with Isaiah 53”'
+    claim: '“Wounded” means pierced, fatally wounded, and is plural here'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2491.htm'
+    quote: 'pierced, fatally wounded Psalm 69:27'
+
+  # ---- note 69:28 ----
+  - where: 'note 69:28 “The book of the living”'
+    claim: 'Moses asks to be blotted out of the book, and the LORD answers'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/32?lang=eng'
+    quote: 'Whosoever hath sinned against me, him will I blot out of my book.'
+  - where: 'note 69:28 “The book of the living”'
+    claim: 'A heavenly record is kept of the faithful'
+    key: bd-book-of-life
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/book-of-life?lang=eng'
+    quote: 'the scriptures indicate that a heavenly record is kept of the faithful, whose names are recorded'
+
+  # ---- note 69:31 ----
+  - where: 'note 69:31 “A song in place of an ox”'
+    claim: 'Todah is also the name of the thank-offering'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8426.htm'
+    quote: 'thank-offering'
+  - where: 'note 69:31 “A song in place of an ox”'
+    claim: '“Thanksgiving” in verse 30 is todah (H8426)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְ/תוֹדָֽה'
+  - where: 'note 69:31 “A song in place of an ox”'
+    claim: '“Song” is shir'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7892.htm'
+    quote: 'shiyr: Song'
+  - where: 'note 69:31 “A song in place of an ox”'
+    claim: '“Ox” is shor'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7794.htm'
+    quote: 'shor: Ox, bull'
+  - where: 'note 69:31 “A song in place of an ox”'
+    claim: 'Horns and hoofs are the animal’s legal qualifications for sacrifice'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/69.htm'
+    quote: 'The attributives do not denote the rough material animal nature (Hengstenberg), but their legal qualifications for being sacrificed.'
+  - where: 'note 69:31 “A song in place of an ox”'
+    claim: 'Horned: not under three years old; hoofed: of the clean animals'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/69.htm'
+    quote: 'is the name for the young ox as not being under three years old'
+  - where: 'note 69:31 “A song in place of an ox”'
+    claim: 'Hoofed: belonging to the clean four-footed animals'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/69.htm'
+    quote: 'as belonging to the clean four-footed animals'
+  - where: 'note 69:31 “A song in place of an ox”'
+    claim: 'The best sacrificial animal stands below the sacrifice of praise'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/69.htm'
+    quote: 'Even the most stately, full-grown, clean animal that may be offered as a sacrifice stands in the sight of Jahve very far below the sacrifice of grateful praise coming from the heart.'
+
+  # ---- note 69:35 ----
+  - where: 'note 69:35 “Does the ending date the psalm?”'
+    claim: '“His prisoners” is “his own who are in bonds”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2069&version=NRSVUE'
+    quote: 'and does not despise his own who are in bonds.'
+  - where: 'note 69:35 “Does the ending date the psalm?”'
+    claim: 'One older reading: the ending looks to the return of Israel from the Exile'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/69.htm'
+    quote: 'the view of the poet widens into the prophetic prospect of the bringing back of Israel out of the Exile into the Land of Promise'
+  - where: 'note 69:35 “Does the ending date the psalm?”'
+    claim: 'The same reading grants that the closing turn is harder to understand if David wrote the psalm'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/69.htm'
+    quote: 'If the Psalm were written by David, the closing turn from Psalm 69:23 onwards might be more difficult of comprehension'
+  - where: 'note 69:35 “Does the ending date the psalm?”'
+    claim: 'Many scholars believe the psalm was written after the return from Babylon'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'Although Psalm 69 is attributed to David, many scholars believe that it was written later, after the Jewish exiles returned from Babylon.'
+  - where: 'note 69:35 “Does the ending date the psalm?”'
+    claim: 'Paul names David as the speaker'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/11?lang=eng'
+    quote: 'And David saith, Let their table be made a snare'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'The vinegar on a sponge at the end'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/27?lang=eng'
+    quote: 'took a sponge, and filled it with vinegar, and put it on a reed, and gave him to drink.'
+  - where: 'christ'
+    claim: 'Psalm 22 ends with the meek satisfied and hearts that live'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/22?lang=eng'
+    quote: 'The meek shall eat and be satisfied: they shall praise the Lord that seek him: your heart shall live for ever.'
+  - where: 'christ'
+    claim: 'One older commentary is reminded of Psalm 22:26 (Hebrew 22:27) at verse 32'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/69.htm'
+    quote: 'We are at once reminded of Psalm 22:27'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'Psalm 40:2 has the miry clay'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/40?lang=eng'
+    quote: 'He brought me up also out of an horrible pit, out of the miry clay'
+
+  # ---- parallels ----
+  - where: 'parallels'
+    claim: 'Romans 15:3'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/15?lang=eng'
+    quote: 'For even Christ pleased not himself'
