@@ -496,3 +496,59 @@ The coordinator's leads from the brief's research. Each would have to show an ar
 - (93) The waters under the LORD's rule (29:3, 10; 46:2-3; 65:7; 74:13-14; 89:9; 93:3-4; 107:29): the word for 'majesty' in 93:1 is the sea's 'raging' in 89:9.
 - (93) 'The voice of many waters': the floods' voice in 93:3-4; the Lord's own voice in Ezek. 43:2, Rev. 1:15, D&C 110:3 and 133:22; Rev. 19:6.
 - (93) Holiness and the LORD's house (93:5, with 15; 24:3-4; 65:4).
+
+## Reported by chapters 94–105 (not yet sorted)
+
+- (94) 'How long?' and its answer: 94:3 with 13:1-2 and D&C 121:1-8.
+- (94) The LORD who sees and hears, against the boast that He does not: 94:7-9 with 10:11-14.
+- (94) Chastening as teaching: 94:10, 12 with Heb. 12:5-11, D&C 95:1 and Rev. 3:19.
+- (94) 'The LORD reigneth' psalms (93, 96-99), with 94 between them naming Him judge of the earth: 94:2.
+- (94) Vengeance left with God: 94:1 with Deut. 32:35 and Rom. 12:19 (the cursing-psalms note at 137:8).
+- (95) The rest of the Lord: Ps. 95:11; 132:8, 14 (with Heb. 3-4, Alma 12-13, D&C 84:24).
+- (95) Meribah and Massah, the wilderness as warning: Ps. 81:7; 95:8-11; 78; 106:32.
+- (95) The LORD as King above all gods: Ps. 93; 95:3; 96:4-5; 97:7, 9.
+- (95) The flock of His hand: Ps. 23; 74:1; 79:13; 95:7; 100:3.
+- (95) The Psalms in the Book of Mormon (Jacob and Alma on Ps. 95): Ps. 95:7-11.
+- (96) 'The LORD reigneth' as a message (Ps. 93:1; 96:10; 97:1; 99:1; 47:8) with Isa. 52:7.
+- (96) The new song (Ps. 33:3; 96:1; 98:1; 149:1) to D&C 84:98-102.
+- (96) The nations brought into the LORD's worship (Ps. 22:27; 47:9; 67; 86:9; 96:7-9).
+- (96) The Judge who comes, as good news (Ps. 9:8; 67:4; 96:13; 98:9) with Acts 17:31 and John 5:22.
+- (97) 'The LORD reigneth' (Ps. 93:1; 96:10; 97:1; 99:1; with 47:8 and Isa. 52:7).
+- (97) The Lord's coming in cloud, fire and melting mountains (Ps. 18:9; 50:3; 68:2; 77:18; 97:2-5).
+- (97) 'Gods' beneath the LORD (Ps. 82; 89:5-7; 95:3; 96:4-5; 97:7, 9; 138:1).
+- (98) The new song (33:3; 40:3; 96:1; 98:1; 144:9; 149:1), with Rev. 5:9, Rev. 15:3 and D&C 84:98.
+- (98) The LORD as King and coming Judge (93; 95-99; 98:6, 9), with Isa. 52:7-10 and Isa. 33:22.
+- (98) Creation joining the praise (96:11-12; 98:7-8; 148), with Isa. 55:12 and D&C 128:23.
+- (98) All the ends of the earth seeing the salvation of God (98:2-3), with Isa. 52:10, Mosiah 15:31, 3 Ne. 20:35 and D&C 133:3.
+- (99) 'The LORD reigneth' and what each psalm sets after the cry (93:1; 96:10; 97:1; 99:1; with 47:8).
+- (99) The ark as throne and footstool (80:1; 99:1, 5; 132:7-8).
+- (99) The name proclaimed at Sinai, forgiving and not clearing the guilty, in the Psalms (99:8; 86:15; 103:8; 145:8).
+- (99) Moses in the Psalms as intercessor (90 title; 99:6; 106:23).
+- (100) The shepherd and His flock (100:3, with 95:7; 79:13; 23:1; John 10): already listed.
+- (100) Mercy and faithfulness as a pair (100:5, with 89:1-2; 98:3): already listed under Psalm 89.
+- (100) The thank offering and its song (title; 100:4-5; 50:14; 107:22; 116:17; Jer. 33:11).
+- (100) The nations called to the LORD's house (100:1, 4; 96:7-8; 66:1; Isa. 2:2-3).
+- (101) The king under the King: royal psalms after 'The LORD reigneth' (93, 97, 99, then 101; also 2, 72, 110).
+- (101) Who may dwell: the tests of Ps. 15:1-3 and 24:3-4 beside the king's house (101:5-7).
+- (101) The ark coming to Jerusalem (Ps. 15, 24, 68, 101, 132; 2 Sam. 6).
+- (102) Zion built up when the Lord appears (102:13-16, with D&C 124:6 and the Second Coming).
+- (102) Psalms quoted of the Son in Hebrews 1 (102:25-27, with Psalms 2, 45 and 110).
+- (102) Human days like grass and shadow beside God's years (102:3, 11, 24-27; Psalm 90).
+- (102) A record written for a generation to come (102:18; 22:30-31).
+- (102) Ruined Jerusalem and the prisoners (102:14, 20; Psalm 79; Lamentations 5).
+- (103) The Sinai sentence (Ex. 34:6-7) in the Psalms: 86:5, 15; 103:8, 17-18; 145:8 (with 77:8-9 and Joel 2:13).
+- (103) Mercy for "them that fear him": 103:11, 13, 17; 33:18; 147:11; D&C 76:5.
+- (103) Dust and grass as the measure of man: 90:3-6; 102:4, 11; 103:14-16; Isa. 40:6-8.
+- (103) Angels and hosts called to praise: 103:20-21; 148:2; 29:1.
+- (103) Paired psalms sharing a frame: 103 and 104 ("Bless the LORD, O my soul").
+- (104) Creation psalms: 8; 19:1-6; 104 (creation as continuing work, 104:10-30).
+- (104) Psalms that Hebrews 1 quotes or sets beside the Son: 104:4 with 2:7; 45:6-7; 102:25-27; 110:1.
+- (104) The waters under the LORD's rule: 104:6-9 with 29:3, 10; 74:13-14; 93:3-4; Moses 7:51.
+- (104) Leviathan, from enemy (74:14; Isa. 27:1) to creature at play (104:26).
+- (104) Breath and spirit given and withdrawn: 104:29-30 with 146:4.
+- (104) The hidden face: 104:29.
+- (104) Hallelujah: 104:35 is the first in the Psalter (full note at 150:1).
+- (105) The covenant with Abraham remembered: 105:8-11, 42; 106:45; with Luke 1:72-73 and 1 Ne. 17:40.
+- (105) Israel's history retold (already listed at 78): 105 as the hymn, 106 as the confession.
+- (105) The LORD's anointed (already listed at 2): 105:15, plural and used of the patriarchs.
+- (105) Remembering and forgetting (already listed at 78): 105:5, 8, 42.
