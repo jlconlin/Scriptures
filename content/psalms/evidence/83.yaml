@@ -1,0 +1,494 @@
+chapter: 83
+claims:
+  # ---- when / setting ----
+  - where: 'when'
+    claim: 'The title ascribes the psalm to Asaph and gives no occasion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/83?lang=eng'
+    quote: 'A Song or Psalm of Asaph.'
+  - where: 'setting'
+    claim: 'Psalm 83 is the last of the twelve psalms under Asaph’s name'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/83.htm'
+    quote: 'It is the last of the twelve Psalms of Asaph of the Psalter.'
+  - where: 'setting'
+    claim: 'The endings of Psalms 82 and 83 have been read as a pair'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/83.htm'
+    quote: 'The close of this Psalm is in accord with the close of the preceding Psalm.'
+  - where: 'setting'
+    claim: 'Psalm 82 ends by asking God to judge the earth and inherit all nations'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/82?lang=eng'
+    quote: 'Arise, O God, judge the earth: for thou shalt inherit all nations.'
+  - where: 'setting'
+    claim: 'The invasion in Jehoshaphat’s day is the occasion to which the psalm has been referred, among others'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/83.htm'
+    quote: 'the confederation of the nations for the extinction of Judah in the time of Jehoshaphat (2 Chronicles 20)'
+  - where: 'setting'
+    claim: 'That occasion does not account for every people the psalm names'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/83.htm'
+    quote: 'there always remains a difficulty in the fact that the Psalm also names Amalek, Philistia, Tyre, and Asshur, of which we find no mention there in the reign of Jehoshaphat'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: '“Name” in verse 4 is shem (H8034)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שֵֽׁם'
+  - where: 'thread'
+    claim: '“Thy name” in verses 16 and 18 is the same word with a suffix (H8034)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שִׁמְ/ךָ֣'
+  - where: 'thread'
+    claim: 'The psalm opens with Elohim; the divine name (H3068) occurs only in verses 16 and 18'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֱלֹהִ֥ים'
+
+  # ---- sections ----
+  - where: 'section 1 plain'
+    claim: '“Hidden ones” rendered as those God keeps or protects'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2083&version=NRSVUE'
+    quote: 'they consult together against those you protect.'
+  - where: 'section 1 plain'
+    claim: '“Cut them off from being a nation” rendered “wipe them out as a nation”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2083&version=NRSVUE'
+    quote: 'let us wipe them out as a nation;'
+  - where: 'section 2 plain'
+    claim: '“They are confederate against thee” rendered as making a covenant'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2083&version=NRSVUE'
+    quote: 'against you they make a covenant'
+  - where: 'section 2 plain'
+    claim: '“Tabernacles” are tents; “Assur” is Assyria; “holpen” is rendered “the strong arm”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2083&version=NRSVUE'
+    quote: 'they are the strong arm of the children of Lot.'
+  - where: 'section 3 plain'
+    claim: '“Houses of God” is “pastures of God”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4999.htm'
+    quote: 'pastures of God, i.e. the land of Canaan'
+  - where: 'section 4 plain'
+    claim: '“Wheel” rendered “whirling dust,” “stubble” as chaff'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2083&version=NRSVUE'
+    quote: 'O my God, make them like whirling dust,'
+  - where: 'section 4 plain'
+    claim: '“Persecute” rendered “pursue”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2083&version=NRSVUE'
+    quote: 'so pursue them with your tempest'
+  - where: 'section 5 plain'
+    claim: '“Confounded and troubled” rendered “put to shame and dismayed”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2083&version=NRSVUE'
+    quote: 'Let them be put to shame and dismayed forever;'
+
+  # ---- note 83:1 ----
+  - where: 'note 83:1 “Three ways of asking God to act”'
+    claim: 'The noun of the first clause (domi, H1824) means cessation, pause, quiet, rest'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1824.htm'
+    quote: 'cessation, pause, quiet, rest'
+  - where: 'note 83:1 “Three ways of asking God to act”'
+    claim: 'The phrase in this verse is glossed “keep not quiet (inactive)”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1824.htm'
+    quote: 'keep not quiet (inactive;'
+  - where: 'note 83:1 “Three ways of asking God to act”'
+    claim: 'Isaiah 62:6 has the same phrase, literally “let there be no quiet to you,” and 62:7 the same noun'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1824.htm'
+    quote: 'Isaiah 62:6 keep not quiet (let there be no quiet to you)'
+  - where: 'note 83:1 “Three ways of asking God to act”'
+    claim: 'Isaiah 62:7, “give him no rest,” uses the same noun'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1824.htm'
+    quote: 'and give no rest to him'
+  - where: 'note 83:1 “Three ways of asking God to act”'
+    claim: 'The third verb (shaqat, H8252) means be quiet, inactive, and this verse is listed under that sense'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8252.htm'
+    quote: 'be quiet, inactive'
+  - where: 'note 83:1 “Three ways of asking God to act”'
+    claim: 'The same verb is used of the LORD looking on as an inactive spectator (Isaiah 18:4)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8252.htm'
+    quote: 'gaze as an inactive spectator'
+  - where: 'note 83:1 “Three ways of asking God to act”'
+    claim: '“Hold not thy peace” is the verb charash (H2790b), the same verb as the first “silent” of Psalm 28:1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תֶּחֱרַ֖שׁ'
+  - where: 'note 83:1 “Three ways of asking God to act”'
+    claim: 'The noun domi stands in verse 1 of the psalm'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'דֳּמִי'
+  - where: 'note 83:1 “Three ways of asking God to act”'
+    claim: 'Isaiah’s watchmen are told to keep not silence'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/62?lang=eng'
+    quote: 'And give him no rest, till he establish, and till he make Jerusalem a praise in the earth.'
+
+  # ---- note 83:3 ----
+  - where: 'note 83:3 “Hidden ones are the ones God keeps”'
+    claim: 'The verb (tsaphan, H6845) means hide, treasure up'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6845.htm'
+    quote: 'hide, treasure up'
+  - where: 'note 83:3 “Hidden ones are the ones God keeps”'
+    claim: 'The passive plural in this verse (Hebrew 83:4) is explained as the LORD’s treasured ones, his saints'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6845.htm'
+    quote: 'treasured ones, his saints Psalm 83:4'
+  - where: 'note 83:3 “Hidden ones are the ones God keeps”'
+    claim: 'The verb is used of the LORD hiding His servants in Psalms 27:5 and 31:20 (Hebrew 31:21)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6845.htm'
+    quote: 'hiding his servants (from evil) Psalm 27:5; Psalm 31:21'
+  - where: 'note 83:3 “Hidden ones are the ones God keeps”'
+    claim: 'Psalm 27:5 in the King James'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/27?lang=eng'
+    quote: 'For in the time of trouble he shall hide me in his pavilion'
+  - where: 'note 83:3 “Hidden ones are the ones God keeps”'
+    claim: 'The NRSVUE renders “those you protect”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2083&version=NRSVUE'
+    quote: 'they consult together against those you protect.'
+  - where: 'note 83:3 “Hidden ones are the ones God keeps”'
+    claim: 'The ESV renders “your treasured ones”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2083&version=ESV'
+    quote: 'they consult together against your (F)treasured ones.'
+  - where: 'note 83:3 “Hidden ones are the ones God keeps”'
+    claim: 'The Greek renders “thy saints”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/83.htm'
+    quote: 'have taken counsel against thy saints'
+
+  # ---- note 83:5 ----
+  - where: 'note 83:5 “A covenant cut against God”'
+    claim: 'The Hebrew of verse 5 has the noun berit (covenant, H1285) with the verb karat (H3772)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּרִ֣ית'
+  - where: 'note 83:5 “A covenant cut against God”'
+    claim: 'The verb karat means cut off, cut down, and this verse’s form is listed in its entry'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3772.htm'
+    quote: 'cut off, cut down'
+  - where: 'note 83:5 “A covenant cut against God”'
+    claim: 'A modern translation renders the clause as making a covenant'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2083&version=NRSVUE'
+    quote: 'against you they make a covenant'
+
+  # ---- note 83:6 ----
+  - where: 'note 83:6 “Ten peoples, and Israel’s kin among them”'
+    claim: 'Edom is Esau'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/36?lang=eng'
+    quote: 'Now these are the generations of Esau, who is Edom.'
+  - where: 'note 83:6 “Ten peoples, and Israel’s kin among them”'
+    claim: 'Amalek was the son of Eliphaz, Esau’s son'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/36?lang=eng'
+    quote: 'And Timna was concubine to Eliphaz Esau’s son; and she bare to Eliphaz Amalek'
+  - where: 'note 83:6 “Ten peoples, and Israel’s kin among them”'
+    claim: 'Moab and Ammon descend from the sons of Lot’s daughters'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/19?lang=eng'
+    quote: 'called his name Moab: the same is the father of the Moabites unto this day.'
+  - where: 'note 83:6 “Ten peoples, and Israel’s kin among them”'
+    claim: 'Ishmael was the son of Abraham and Hagar; the Ishmaelites are his descendants'
+    key: bd-ishmael
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ishmael?lang=eng'
+    quote: 'Son of Abraham and Hagar the Egyptian'
+  - where: 'note 83:6 “Ten peoples, and Israel’s kin among them”'
+    claim: 'The Ishmaelites of Psalm 83:6 are Ishmael’s descendants'
+    key: bd-ishmael
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ishmael?lang=eng'
+    quote: 'His descendants, the Ishmaelites, appear to have been a wandering race'
+  - where: 'note 83:6 “Ten peoples, and Israel’s kin among them”'
+    claim: 'Lot was the son of Abraham’s brother'
+    key: bd-lot
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/lot?lang=eng'
+    quote: 'Son of Haran, Abraham’s brother'
+  - where: 'note 83:6 “Ten peoples, and Israel’s kin among them”'
+    claim: 'Lot was the ancestor of Moab and Ammon'
+    key: bd-lot
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/lot?lang=eng'
+    quote: 'He was the ancestor of Moab and Ammon'
+  - where: 'note 83:6 “Ten peoples, and Israel’s kin among them”'
+    claim: 'The Hagarenes (Hagrites) were a tribe of uncertain stock east of the Jordan'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1905.htm'
+    quote: 'a tribe (Aramaean ? Arabian ?) with which the east Jordan Israelites waged successful war'
+  - where: 'note 83:6 “Ten peoples, and Israel’s kin among them”'
+    claim: 'Chronicles places the war with the Hagarites in the days of Saul'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/5?lang=eng'
+    quote: 'And in the days of Saul they made war with the Hagarites, who fell by their hand'
+  - where: 'note 83:6 “Ten peoples, and Israel’s kin among them”'
+    claim: 'Gebal is identified as a mountainous region south of the Dead Sea'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1381.htm'
+    quote: 'mountainous region south of Dead Sea'
+  - where: 'note 83:6 “Ten peoples, and Israel’s kin among them”'
+    claim: '“Assur” is Assyria'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2083&version=NRSVUE'
+    quote: 'Assyria also has joined them;'
+
+  # ---- note 83:8 ----
+  - where: 'note 83:8 “When the league was made”'
+    claim: 'The Hebrew of “holpen” is “have been an arm,” the arm as a symbol of strength; this verse (Hebrew 83:9) is listed there'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2220.htm'
+    quote: 'arm, as symbol of strength'
+  - where: 'note 83:8 “When the league was made”'
+    claim: 'A modern translation renders “the strong arm of the children of Lot”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2083&version=NRSVUE'
+    quote: 'they are the strong arm of the children of Lot.'
+  - where: 'note 83:8 “When the league was made”'
+    claim: 'One older reading: Asshur strengthens the sons of Lot, Moab and Ammon, with whom the enterprise started'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/83.htm'
+    quote: 'the sons of Lot, i.e., the Moabites and Ammonites, with whom the enterprise started'
+  - where: 'note 83:8 “When the league was made”'
+    claim: 'The psalm has been referred to the confederation against Judah under Jehoshaphat'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/83.htm'
+    quote: 'the confederation of the nations for the extinction of Judah in the time of Jehoshaphat (2 Chronicles 20)'
+  - where: 'note 83:8 “When the league was made”'
+    claim: 'An Asaphite’s part in that event is found to coincide remarkably with the title'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/83.htm'
+    quote: 'did actually interpose in the course of events, a circumstance which coincides remarkably with the'
+  - where: 'note 83:8 “When the league was made”'
+    claim: 'The difficulty: Chronicles does not mention Amalek, Philistia, Tyre or Assyria'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/83.htm'
+    quote: 'there always remains a difficulty in the fact that the Psalm also names Amalek, Philistia, Tyre, and Asshur, of which we find no mention there in the reign of Jehoshaphat'
+  - where: 'note 83:8 “When the league was made”'
+    claim: 'Other interpreters place the psalm in the time of the Maccabees'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/83.htm'
+    quote: 'find the circumstances of the time of the Psalm in 1 Macc. 5'
+  - where: 'note 83:8 “When the league was made”'
+    claim: 'Others place it in the time of Nehemiah'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/83.htm'
+    quote: 'to hinder the rebuilding of Jerusalem, in the time of Nehemiah'
+  - where: 'note 83:8 “When the league was made”'
+    claim: 'The invasion in Chronicles is led by Moab and Ammon; the Levite who answers is of the sons of Asaph'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/20?lang=eng'
+    quote: 'a Levite of the sons of Asaph'
+  - where: 'note 83:8 “When the league was made”'
+    claim: 'Esau dwelt in mount Seir'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/36?lang=eng'
+    quote: 'Thus dwelt Esau in mount Seir: Esau is Edom.'
+  - where: 'note 83:8 “When the league was made”'
+    claim: 'The NRSVUE cross-references set 2 Chronicles 20:1, 10, 11 beside verse 6'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2083&version=NRSVUE'
+    quote: '83.6 : 2 Chr 20.1, 10, 11'
+
+  # ---- note 83:9 ----
+  - where: 'note 83:9 “Two victories from the book of Judges”'
+    claim: 'The LORD routed Sisera at the Kishon'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/4?lang=eng'
+    quote: 'And the Lord discomfited Sisera, and all his chariots, and all his host'
+  - where: 'note 83:9 “Two victories from the book of Judges”'
+    claim: 'Judges 4 and 5 do not name En-dor (both chapters searched); Barak came down from mount Tabor to the battle'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/4?lang=eng'
+    quote: 'So Barak went down from mount Tabor, and ten thousand men after him.'
+  - where: 'note 83:9 “Two victories from the book of Judges”'
+    claim: 'One older reading places En-dor near Tabor, on the battlefield'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/83.htm'
+    quote: 'near Tabor, and therefore situated not far distant from Taanach and Megiddo (Judges 5:19), belonged to the battle-field'
+  - where: 'note 83:9 “Two victories from the book of Judges”'
+    claim: 'Oreb and Zeeb were two princes of the Midianites, slain in the pursuit'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/7?lang=eng'
+    quote: 'And they took two princes of the Midianites, Oreb and Zeeb'
+  - where: 'note 83:9 “Two victories from the book of Judges”'
+    claim: 'Zebah and Zalmunna were kings of Midian, slain by Gideon; Midian lifted up their heads no more'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/8?lang=eng'
+    quote: 'And Gideon arose, and slew Zebah and Zalmunna'
+  - where: 'note 83:9 “Two victories from the book of Judges”'
+    claim: 'The ESV cross-references join “raised their heads” in verse 2 to Judges 8:28'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2083&version=ESV'
+    quote: 'Psalm 83:2 : Judg. 8:28'
+  - where: 'note 83:9 “Two victories from the book of Judges”'
+    claim: 'Isaiah 10:26 names the slaughter of Midian at the rock of Oreb'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/10?lang=eng'
+    quote: 'according to the slaughter of Midian at the rock of Oreb'
+
+  # ---- note 83:13 ----
+  - where: 'note 83:13 “Whirling dust, not a wheel”'
+    claim: 'The Hebrew word (galgal, H1534) means wheel, whirl, whirlwind'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1534.htm'
+    quote: 'wheel, whirl, whirlwind'
+  - where: 'note 83:13 “Whirling dust, not a wheel”'
+    claim: 'In this verse (Hebrew 83:14) and Isaiah 17:13 it is a whirl of dust or chaff, a simile of foes put to flight'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1534.htm'
+    quote: 'whirl (of dust or chaff) Psalm 83:14; Isaiah 17:13, simile of foes put to flight by God.'
+  - where: 'note 83:13 “Whirling dust, not a wheel”'
+    claim: 'A modern translation has “like whirling dust”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2083&version=NRSVUE'
+    quote: 'O my God, make them like whirling dust,'
+  - where: 'note 83:13 “Whirling dust, not a wheel”'
+    claim: 'Its footnote gives “a tumbleweed”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2083&version=NRSVUE'
+    quote: '83.13 Or a tumbleweed'
+  - where: 'note 83:13 “Whirling dust, not a wheel”'
+    claim: '“Persecute” is rendered “pursue”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2083&version=NRSVUE'
+    quote: 'so pursue them with your tempest'
+  - where: 'note 83:13 “Whirling dust, not a wheel”'
+    claim: 'The word in verse 13 is galgal (H1534), the same word as “rolling thing” in Isaiah 17:13'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כַ/גַּלְגַּ֑ל'
+  - where: 'note 83:13 “Whirling dust, not a wheel”'
+    claim: 'Isaiah 17:13 in the King James'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/17?lang=eng'
+    quote: 'like a rolling thing before the whirlwind'
+
+  # ---- note 83:16 ----
+  - where: 'note 83:16 “What the curses are for”'
+    claim: 'One older reading: the wish is that the enemies lay hold on the LORD’s mercy in their downfall'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/83.htm'
+    quote: 'The aim of the wish is that they in the midst of their downfall may lay hold upon the mercy of Jahve as their only deliverance'
+  - where: 'note 83:16 “What the curses are for”'
+    claim: 'On the same reading, the knowing of verse 18 does not exclude saving knowledge'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/83.htm'
+    quote: 'the knowledge which is unto salvation is not excluded'
+  - where: 'note 83:16 “What the curses are for”'
+    claim: 'Psalm 59:13 ends its curse on the same purpose'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/59?lang=eng'
+    quote: 'let them know that God ruleth in Jacob unto the ends of the earth'
+
+  # ---- note 83:18 ----
+  - where: 'note 83:18 “The divine name, spelled out”'
+    claim: 'Psalm 83:18 is the only verse of the King James Psalms with “JEHOVAH” (scripts/occurrences.mjs psalms "JEHOVAH": 1 verse)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/83?lang=eng'
+    quote: 'art the most high over all the earth'
+  - where: 'note 83:18 “The divine name, spelled out”'
+    claim: 'The Hebrew of “JEHOVAH” in verse 18 is the divine name (H3068), as is “LORD” in verse 16'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְהוָ֣ה'
+  - where: 'note 83:18 “The divine name, spelled out”'
+    claim: 'The King James generally prints the name as LORD or GOD in small capitals'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'In the KJV, the Jewish custom has been followed, and the name is generally denoted by Lord or God, printed in small capitals.'
+  - where: 'note 83:18 “The divine name, spelled out”'
+    claim: 'The Bible Dictionary lists Psalm 83:18 with Exodus 6:3 and Isaiah 12:2; 26:4 (each read in this session and found to print the name as Jehovah), and gives what the name denotes'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'It denotes the “Unchangeable One,” “the eternal I Am” (Ex. 6:3; Ps. 83:18; Isa. 12:2; 26:4).'
+  - where: 'note 83:18 “The divine name, spelled out”'
+    claim: 'The original pronunciation may be lost'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'The original pronunciation of this name has possibly been lost'
+  - where: 'note 83:18 “The divine name, spelled out”'
+    claim: 'The NRSVUE joins “alone” to the title Most High'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2083&version=NRSVUE'
+    quote: 'Let them know that you alone, whose name is the Lord, are the Most High over all the earth.'
+  - where: 'note 83:18 “The divine name, spelled out”'
+    claim: 'So does the Greek'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/83.htm'
+    quote: 'thy name is Lord; that thou alone art Most High over all the earth'
+  - where: 'note 83:18 “The divine name, spelled out”'
+    claim: '“Most high” (elyon, H5945) is a title, Highest, Most High'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5945.htm'
+    quote: 'Highest, Most High'
+  - where: 'note 83:18 “The divine name, spelled out”'
+    claim: 'It is a name of God, and this verse (Hebrew 83:19) is listed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5945.htm'
+    quote: 'name of God'
+  - where: 'note 83:18 “The divine name, spelled out”'
+    claim: 'The word in verse 18 is elyon (H5945), the word of Psalm 82:6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עֶ֝לְי֗וֹן'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
+  - where: 'christ'
+    claim: 'The Church’s footnote on the name in verse 18 points to the Topical Guide, “Jesus Christ, Jehovah”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/83?lang=eng'
+    quote: 'TG Jesus Christ, Jehovah.'
+  - where: 'christ'
+    claim: 'Joseph Smith and Oliver Cowdery saw the resurrected Jehovah in the Kirtland Temple'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'At the Kirtland Temple, Joseph Smith and Oliver Cowdery saw the resurrected Jehovah (D&C 110:3–4).'
+  - where: 'christ'
+    claim: 'The words of D&C 110:3–4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/110?lang=eng'
+    quote: 'I am the first and the last; I am he who liveth, I am he who was slain; I am your advocate with the Father.'
+
+  # ---- explore / parallels ----
+  - where: 'explore'
+    claim: 'In 2 Chronicles 20 the answer to Jehoshaphat’s prayer comes through a Levite of the sons of Asaph'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/20?lang=eng'
+    quote: 'a Levite of the sons of Asaph, came the Spirit of the Lord in the midst of the congregation'
+  - where: 'explore'
+    claim: 'Exodus 6:3 prints the name spelled out (Isaiah 12:2 and 26:4 likewise, on their own pages)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/6?lang=eng'
+    quote: 'but by my name Jehovah was I not known to them'
+  - where: 'parallels'
+    claim: 'Jeremiah 48:2 has the enemies’ words of verse 4, said against Moab'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/48?lang=eng'
+    quote: 'come, and let us cut it off from being a nation'
+  - where: 'parallels'
+    claim: 'Jehoshaphat’s prayer names Ammon, Moab and mount Seir'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/20?lang=eng'
+    quote: 'to come to cast us out of thy possession, which thou hast given us to inherit'
