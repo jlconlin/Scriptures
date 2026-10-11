@@ -2,19 +2,18 @@
 
 Book-level decisions for Psalms. The site-wide standard is in `STANDARDS.md`; this file records what is particular to Psalms. Writers, checkers, and reviewers read both before starting a psalm. Jeremiah's brief (`content/jeremiah/BRIEF.md`) is the model, and its section “What a chapter is for” holds here.
 
-**Status (2026-10-10):** drafted by the coordinator from the sources named below, each read in the session with the research scripts. The author chose the book (“Let's do the book of Psalms next”) and **has not read this brief**. Where a section says “Proposed,” that is the approach the chapters will follow; it is the coordinator's decision, not a fact from a source, and the author can overturn it. **The first batch is twelve psalms chosen to try this brief** (author, 2026-10-10: “let's try with a batch of 12 and see how far we get”): 1, 2, 3, 8, 22, 23, 24, 51, 82, 110, 137, 150. What follows it is the author's to decide once it has been measured and read. 
+**Status:** drafted by the coordinator on 2026-10-10 from the sources named below. The author chose the book and has not read this brief; where a section says “Proposed,” that is the coordinator's decision and the author can overturn it.
 
 Related files: `OPEN-QUESTIONS.md` at the top of the repository (what waits for the author, for every book); `THEME-CANDIDATES.md` in this folder.
 
 ## State of the book
 
-`node scripts/status.mjs psalms` prints what the repository shows; the history is `git log -- content/psalms`. What a script can't see:
+`node scripts/status.mjs psalms` prints what the repository shows (which psalms are written, which have had the language pass); the history is `git log -- content/psalms`. What a script can't see:
 
-- **The book is set up in preview** (2026-10-10): `book.yaml` with the five books as divisions, the text imported and matched to the Gospel Library edition (“The text,” below), and the Church's footnotes for every psalm saved in `.cache/batch/psalms/fn<n>.txt`.
-- **Twelve psalms are written and reviewed** (2026-10-10: 1, 2, 3, 8, 22, 23, 24, 51, 82, 110, 137, 150), every reviewer reporting its psalm ready. They have had the language pass (2026-10-10; Codex's side-by-side reading left the “Blessed” frame of Psalms 1 and 2 with Psalm 1, and the explanation of titles with Psalm 3). The author has read none. Of their 115 notes, Delitzsch is cited in 29, a Latter-day Saint article or KnoWhy in 51, and the Student Manual in 2 (`OPEN-QUESTIONS.md`, Ps13).
-- **Where the run stands (2026-10-10, evening).** The author said to run the rest in batches; the batches after the first are 4–16, 17–31, 32–43, 44–56, 57–68, 69–80, 81–93, 94–105, 106–118, 119–130, 131–143 and 144–149 (the last with `lastBatch: true`). `node scripts/status.mjs psalms` shows which psalms are written and which have had the language pass. When this was written, Psalms 1–47, 49–54 and 56 were finished through every step; Psalms 48 and 55 were being written again (48's writer wrote nothing, and 55 was committed without its review, because both agents took a question the author asked mid-run for their task); and Psalms 57–68 were being written. The author's usage limit stops a batch in flight: afterwards, run `write-chapters` again for the psalms with no committed chapter (a draft left behind is picked up), then `batch-finish.mjs`, then `codex-pass`, then `batch-commit.mjs … pass`. After a batch, look for a chapter whose writer or reviewer did nothing: `batch-finish` prints NOT READY for one, and a psalm that `check-pass` calls unchanged had no Codex reading.
-- **What a psalm costs.** The first batch took 36 minutes and 5.2 million tokens for twelve psalms through writer, checker and reviewer, about 430,000 a psalm, which is what a chapter of any other book has cost: a short psalm is not cheaper, because most of the cost is the research and the brief, not the verses. With the language pass (about 120,000 a chapter) the remaining 138 psalms would be roughly 75 million tokens in twelve batches.
-- **This brief's research began with Scripture Central, the Religious Studies Center, BYU Studies and the Interpreter Foundation** (author, 2026-10-09); the Student Manual was opened last and Delitzsch not at all beyond seeing that his pages load. What was searched and what was read is under “Sources for Psalms.”
+- **The author said to write the whole book in batches** (2026-10-10), twelve psalms at a time in order after a first batch of twelve chosen to try this brief (1, 2, 3, 8, 22, 23, 24, 51, 82, 110, 137, 150). The last batch, 144–149, runs with `lastBatch: true`. A batch costs about 4.5 million tokens and the language pass about 1.2 million; the author's usage limit stops a batch in flight, and it is run again for the psalms with no committed chapter.
+- **Three things changed on 2026-10-11, after 116 psalms were written**, and the author does not want the earlier psalms gone over now (“Maybe in a future date”; `OPEN-QUESTIONS.md`, Ps42): the rule on Hebrew (next section but one), the table “Explained once: where,” and two finders of Latter-day Saint studies the coordinator had missed (“Sources for Psalms”). So Psalms 1–93 carry more Hebrew, more of Delitzsch and more repeated explanation than the later psalms, and Psalms 94–118 are partway.
+- **The site shows a psalm's title above verse 1**, and the pages say “Psalm 23” where another book says “Chapter 23” (author, 2026-10-10: “just go do it”). Psalms 23, 24, 51, 82 and 110 still open `setting` by quoting the title the page now prints; trim that sentence when one of them is next edited.
+- **A progress page** for the author is published from `scripts/progress-page.mjs psalms` after each batch (`AUTHORING.md`).
 
 ## What the author has decided
 
@@ -36,25 +35,6 @@ A psalm is not a chapter of a longer argument. Each is a whole poem with its own
 
 **Short psalms get short chapters.** Psalm 117 has two verses, 131 and 133 and 134 three each. `setting` may fall under the checker's 120 words for these, and the warning is ignored; two or three notes is a full chapter. Don't pad. Psalm 119 (176 verses) is the other extreme: one section to a stanza of eight verses, and notes on what a reader asks (the eight words for the law, the acrostic, the lines everyone knows), not on every stanza.
 
-## The first batch
-
-Psalms 1, 2, 3, 8, 22, 23, 24, 51, 82, 110, 137 and 150, written out of order and at the same time, so no writer can see another's chapter. Where this brief says a thing is explained “once, at its first appearance,” in this batch that means:
-
-| Explained in full at | What | The others in the batch |
-|---|---|---|
-| Psalm 1 | how Hebrew verse works (the second half of a line answering the first); that Psalms 1 and 2 open the collection; when the book was gathered | point to `[[Ps. 1:1]]` |
-| Psalm 2 | “his anointed” (the word behind Messiah) and what a royal psalm is | 110 points to `[[Ps. 2:2]]` |
-| Psalm 3 | selah (3:2); what a title is and what it is worth, in a note on the title | say nothing of selah; a title's occasion in a sentence |
-| Psalm 8 | “To the chief Musician” and Gittith, in a note on the title; *Elohim* in 8:5 | 82 points to `[[Ps. 8:5]]` for the word and gives its own council |
-| Psalm 22 | the shape of a lament (address, complaint, plea, vow of praise) | 3, 51 and 137 use the word “lament” without re-explaining |
-| Psalm 24 | ascending the hill of the Lord; the temple in the Psalms | 23:6 and 150:1 point to `[[Ps. 24:3]]` |
-| Psalm 51 | David after Nathan; *hesed* (51:1), with President Nelson quoted once | 23:6 points to `[[Ps. 51:1]]` |
-| Psalm 110 | LORD and Lord (110:1); Melchizedek | 2 and 8 point to `[[Ps. 110:1]]` |
-| Psalm 137 | the cursing psalms | 3:7 and 110:5–6 point to `[[Ps. 137:8]]` in a clause if the reader would ask |
-| Psalm 150 | hallelujah; the five books and their closing lines of praise | Psalm 1 says only that there are five |
-
-A pointer is written to the verse named here even though that psalm's note may end up on a neighboring verse; the coordinator mends pointers after the batch.
-
 ## Hebrew: only to answer a reader's question
 
 (Author, 2026-10-11: “Understanding the Hebrew can be helpful if it sheds insight into English text in answering the questions that come up. You don't need to make an index of the hebrew unless you really need it.”) In the first 96 psalms, 48 percent of the notes are Language notes and 79 percent cite the Hebrew text or the lexicon; Jeremiah has 21 and 15. **From Psalm 94 on** (writers, checkers and reviewers alike; `STANDARDS.md` §3 has the rule in full):
@@ -71,7 +51,7 @@ Where this brief elsewhere sends a writer to `hebrew.mjs` and a lexicon page (th
 
 (Author, 2026-10-10: “Run the rest of the Psalms, in batches.”) The other 138 psalms are written in order, twelve at a time. For a writer:
 
-- **Twelve psalms are already written: 1, 2, 3, 8, 22, 23, 24, 51, 82, 110, 137, 150.** What the table above says they explain, they explain; point there and don't explain it again. Psalms 8 and 22 are the models for a chapter and for a note on a title.
+- **Twelve psalms are already written: 1, 2, 3, 8, 22, 23, 24, 51, 82, 110, 137, 150.** “Explained once: where,” below, says what each of them explains. Psalms 8 and 22 are the models for a chapter and for a note on a title.
 - **Everything else that is “explained once” is explained at the psalm this brief names** (“Book-wide conventions” and “Contested and sensitive questions”: Neginoth at 4, Nehiloth at 5, Sheminith and Sheol at 6, Shiggaion at 7, Michtam at 16, Maschil at 32, the sons of Korah at 42, Alamoth at 46, Asaph at 50, the songs of degrees at 120, and so on). If your psalm is that psalm, write the full note. If it is not, point to that psalm's verse with a `[[reference]]` whether or not it is written yet: the psalms of a batch are written at the same time, and the coordinator mends pointers afterward.
 - **A term this brief does not place** (a title word, an image) is explained at the lowest-numbered psalm that has it; `node scripts/occurrences.mjs psalms "<word>"` shows which that is. Title words are not in that search: for those, `grep -n "<word>" data/kjv/psalms.titles.json`.
 - **The title is on the page** as verse 0. Don't quote it in `setting`; put what its words need in a note with `ref: 0`.
@@ -235,15 +215,6 @@ node scripts/check-chapter.mjs psalms <n>
 
 It runs `fix-yaml`, the preview build into `.cache/batch/psalms/dist-NN`, `check-quotes`, `check-content` (with the proposed entries), and `check-ledger`. The working folder for a batch is `.cache/batch/psalms/` (not committed): `proposed/NNN.yaml`, `reports/NNN-writer.md`, `reports/NNN-check.md`. Chapter files are `01.yaml` to `99.yaml` and then `100.yaml` to `150.yaml`: the scripts pad a number to two digits and leave a longer one alone.
 
-## Before the first batch
+## Decided while writing; reader questions no source answered
 
-For the coordinator; none of this needs the author except where it says so.
-
-1. **File names.** The scripts pad a chapter number to two digits (`padStart(2, '0')`), so Psalm 100 is `100.yaml`. Nothing has been run on a three-digit chapter yet: try `check-chapter psalms 100` and a listing that sorts by name (`status.mjs`, the batch scripts) before a batch reaches it.
-2. **Titles in the first twelve.** Psalms 3, 8 and 22 had their title explanations moved from `setting` into notes on the title (2026-10-10, by the coordinator: the same sentences and ledger rows, moved). Psalms 23, 24, 51, 82 and 110 still open `setting` by quoting the title the page now prints above verse 1; trim that sentence when one of them is next edited.
-3. **The Scriptures menu** still counts “chapters” for Psalms (`src/assets/site.js`); the pages themselves say “psalms.”
-4. **The first batch is a test of this brief.** Measure it (`batch-usage.cjs`) before the second: nobody knows yet what a psalm costs.
-
-## Decided while writing, and reader questions no source answered
-
-Both are in `content/psalms/DECIDED.md`, by psalm: what each reviewer settled by the standard and this brief without the author (any of it can be overturned), and the questions a reader would ask that no source answered. Search that file for a psalm when editing it; a writer or reviewer of another psalm does not need it.
+Not in this brief. `content/psalms/DECIDED.md` has what reviewers settled for Psalms 1–105 (nothing is added to it now), and `content/psalms/UNANSWERED.md` the questions no source answered. Search either for a psalm when editing it.

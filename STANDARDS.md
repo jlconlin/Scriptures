@@ -60,7 +60,7 @@ The goal: **content that needs no audit afterward.** Sourcing is part of writing
 11. **No single secondary source shapes a chapter.** Start from the text and the scriptures that quote it. As a rule of thumb, no one outside source is the main idea of more than one note. When an idea comes from a source, cite it, put it in your own words, and don't follow its outline. The Student Manuals have their own limits (§1).
 12. **List in `sources` only what the chapter relies on.** A chapter-level `sources` list is the union of what its notes and prose actually cite, not a reading list.
 13. **Quotations are checked**: scripture quotations with `check-quotes.mjs`; Book of Mormon variants against the text (`data/bom/`); quotations from talks and books against the page you read.
-14. **Judgment calls are never decided silently.** What the standard or the book's brief settles is decided and recorded in the brief (“Decided while writing”). What needs the author goes in `OPEN-QUESTIONS.md` at the top of the repository, the one list for every book.
+14. **Judgment calls that matter are never decided silently, and the rest are not logged.** What needs the author goes in `OPEN-QUESTIONS.md` at the top of the repository, the one list for every book. A decision that sets how the *book* does something (where a shared term is explained, how a disputed question is handled in every chapter) is written into the book's brief as a rule, in a line. A reviewer's verse-by-verse decisions are not recorded anywhere: the chapter and its commit are the record (author, 2026-10-11: “We don't have to record every decision of every verse. That's absurd”).
 
 ## 5. The evidence ledger
 
@@ -236,6 +236,6 @@ Fix every warning that concerns your chapter (length warnings on older chapters 
 6. **The orchestrating session finishes** (on the most capable model): adds the proposed `sources.yaml` entries after confirming each URL, spot-checks ledger rows itself, and runs `build`, `check-quotes`, and `check-content`.
 7. **The author sees it** in the private preview artifact (see “Working with the author” in `AUTHORING.md`).
 8. **One commit per chapter**, with its ledger.
-9. **Judgment calls** are recorded, never decided silently (§4 rule 14): in the book's brief if the standard settles them, in `OPEN-QUESTIONS.md` if they need the author.
+9. **Judgment calls** (§4 rule 14): what needs the author goes in `OPEN-QUESTIONS.md`; what sets a rule for the whole book goes in the brief, in a line; the rest is not logged.
 
 A theme page goes through its own four steps first (§8, “How a theme page is written”), with the ledger checked by script as in step 3 (`node scripts/check-ledger.mjs <book> <file name>`), then steps 7–9 here, with one commit for the page and its ledger.

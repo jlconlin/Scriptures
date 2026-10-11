@@ -1,6 +1,5 @@
 // Reads the reviewers' results from a write-chapters workflow run (.claude/workflows/write-chapters.js) and
-// files what they reported: reader questions no source answered go to the end of the book's BRIEF.md (its last
-// section, “Reader questions no source answered”), topics that run across chapters to its THEME-CANDIDATES.md.
+// files what they reported: reader questions no source answered go to content/<book>/UNANSWERED.md, topics that run across chapters to its THEME-CANDIDATES.md.
 // Prints what the reviewers left for the author, to be settled or added by hand to OPEN-QUESTIONS.md at the
 // top of the repository, and what blocked a reviewer.
 // Usage: node scripts/batch-notes.mjs <book> <the run's journal.jsonl> [--dry]
@@ -30,10 +29,10 @@ const unanswered = reviews.filter((r) => r.unanswered?.length).map((r) => `- **$
 const themes = `\n## Reported by chapters ${reviews[0].chapter}–${reviews.at(-1).chapter} (not yet sorted)\n\n` +
   reviews.flatMap((r) => (r.themeCandidates ?? []).map((t) => `- (${r.chapter}) ${tidy(t)}.\n`)).join('');
 if (!dry) {
-  // content/<book>/DECIDED.md, where a book has one (Psalms), takes the unanswered questions in place of the brief.
-  const brief = existsSync(path.join(book.dir, 'DECIDED.md')) ? path.join(book.dir, 'DECIDED.md') : path.join(book.dir, 'BRIEF.md');
-  const heading = '## Reader questions no source answered';
-  appendFileSync(brief, (readFileSync(brief, 'utf8').includes(heading) ? '' : `\n${heading}\n\n`) + unanswered);
+  // The unanswered questions go to content/<book>/UNANSWERED.md, never into the brief, which stays brief.
+  const file = path.join(book.dir, 'UNANSWERED.md');
+  if (!existsSync(file)) appendFileSync(file, `# ${book.name}: reader questions no source answered\n\nQuestions a reader would ask that no source read answered, by chapter: a list for a later deepening pass. Kept out of \`BRIEF.md\` so the brief stays brief.\n\n`);
+  appendFileSync(file, unanswered);
   appendFileSync(path.join(book.dir, 'THEME-CANDIDATES.md'), themes);
 }
 console.log(reviews.map((r) => `${r.chapter}: ${r.ready ? 'ready' : 'NOT READY'}`).join(', '));

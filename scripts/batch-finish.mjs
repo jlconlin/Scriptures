@@ -1,5 +1,5 @@
 // The coordinator's steps after a write-chapters run, in one command (DEVELOPMENT.md, “Writing a book in batches”):
-//   batch-decided (the reviewers' decisions into the brief), batch-notes (unanswered questions, theme candidates),
+//   batch-notes (unanswered questions into UNANSWERED.md, theme candidates),
 //   merge-sources --write, the reviewers' questions for the author appended to OPEN-QUESTIONS.md under the book's
 //   heading and numbered on from the last (<prefix>15, <prefix>16 …), one commit for those documents, then
 //   batch-commit (check-chapter on each chapter; one commit for each that passes).
@@ -29,7 +29,8 @@ const chapters = reviews.map((r) => String(r.chapter));
 const notReady = reviews.filter((r) => !r.ready);
 console.log(`${reviews.length} chapters reviewed: ${chapters.join(', ')}${notReady.length ? `\nNOT READY: ${notReady.map((r) => `${r.chapter} (${String(r.summary).slice(0, 300)})`).join('; ')}` : '; all ready'}`);
 
-console.log(run('batch-decided.cjs', slug, journal).split('\n').filter((l) => /added to|already/.test(l)).join('\n').trim());
+// The reviewers' decisions are not logged any more (author, 2026-10-11: “We don't have to record every decision of every verse”).
+// `node scripts/batch-decided.cjs <book> <journal> --dry` still prints them for a coordinator who wants to read one.
 run('batch-notes.mjs', slug, journal);
 const merged = run('merge-sources.mjs', slug, ...chapters, '--write');
 console.log(merged.split('\n').filter((l) => /^✗|^ {4}(have|new)|new source\(s\)/.test(l)).map((l) => l.slice(0, 200)).join('\n'));
@@ -53,7 +54,7 @@ console.log(`${added.length} question(s) for the author appended to OPEN-QUESTIO
 for (const a of added) console.log(`  ${a.trim().slice(0, 260)}`);
 
 git('add', 'content/sources.yaml', 'OPEN-QUESTIONS.md', `content/${slug}/BRIEF.md`, `content/${slug}/THEME-CANDIDATES.md`);
-try { git('add', `content/${slug}/DECIDED.md`); } catch { /* most books keep the log in the brief */ }
+try { git('add', `content/${slug}/UNANSWERED.md`); } catch { /* none written yet */ }
 if (git('diff', '--cached', '--name-only').trim()) git('commit', '-q', '-m', `${book.name} ${chapters[0]}–${chapters.at(-1)}: sources, the reviewers' decisions, questions and theme candidates\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`);
 console.log(run('batch-commit.mjs', slug, 'written', ...chapters).trim());
 // A brief too long to read whole is read in part: agents take its first few hundred lines (Psalms, 2026-10-11).
