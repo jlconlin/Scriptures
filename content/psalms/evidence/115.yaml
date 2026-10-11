@@ -7,11 +7,6 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hallel?lang=eng'
     quote: 'A name given to the group of Psalms (113–18) recited by Jews at the great feasts (Matt. 26:30; Mark 14:26).'
   - where: 'setting'
-    claim: 'In later times the Hallel was sung at Passover, with the telling of the redemption from Egypt'
-    key: bd-feasts
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/feasts?lang=eng'
-    quote: 'In later times the following ceremonies were added: (1) The history of the redemption from Egypt was related by the head of the household (Ex. 12:26–27).'
-  - where: 'setting'
     claim: 'The Hallel psalms were sung at Passover'
     key: bd-feasts
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/feasts?lang=eng'
@@ -31,11 +26,6 @@ claims:
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/135?lang=eng'
     quote: 'O house of Levi: ye that fear the'
-  - where: 'setting'
-    claim: 'The last two words of verse 18 in Hebrew are hallelu yah (Strong’s 1984 and 3050)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'הַֽלְלוּ'
 
   # ---------- section 2 plain ----------
   - where: 'section 2 plain'
@@ -220,11 +210,6 @@ claims:
     key: bd-hallel
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hallel?lang=eng'
     quote: 'recited by Jews at the great feasts (Matt. 26:30; Mark 14:26)'
-  - where: 'christ'
-    claim: 'The Hallel was sung at Passover'
-    key: bd-feasts
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/feasts?lang=eng'
-    quote: 'Ps. 113–18 (the Hallel) were sung.'
 
   # ---------- explore ----------
   - where: 'explore'
