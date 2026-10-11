@@ -1,0 +1,254 @@
+chapter: 142
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title in the Church’s edition ascribes the psalm to David and sets it “when he was in the cave”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/142?lang=eng'
+    quote: 'Maschil of David; A Prayer when he was in the cave.'
+  - where: setting
+    claim: 'The title sets the psalm in the time of Saul’s persecution of David'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/142.htm'
+    quote: 'derived by their inscriptions from the time of the persecution by Saul'
+  - where: setting
+    claim: 'Delitzsch finds no sure sign of a date after David'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/142.htm'
+    quote: 'The Psalm does not contain any sure signs of a post-Davidic age'
+  - where: setting
+    claim: 'Delitzsch judges that the psalm imitates older models and depends on Psalm 77'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/142.htm'
+    quote: 'still it appears throughout to be an imitation of older models'
+  - where: setting
+    claim: 'Delitzsch names Psalm 77 as the psalm this one depends on'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/142.htm'
+    quote: 'it comes into a relation of dependence to Psalm 77'
+  - where: setting
+    claim: 'The title of Psalm 57 also speaks of the cave (the title as the site’s text has it); Delitzsch sets the two titles side by side'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/142.htm'
+    quote: 'as in Psalm 57:1, points to the cave of Adullam (1 Samuel 22) or the cave of Engedi (1 Samuel 24)'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'On Delitzsch’s reading the comfort of verse 3 is that the LORD knows the speaker’s way'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/142.htm'
+    quote: 'just this is his consolation, that Jahve is intimately acquainted with his way'
+  - where: thread
+    claim: 'The NRSVUE renders verse 3 in the present: when his spirit is faint, God knows his way'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20142&version=NRSVUE'
+    quote: 'you know my way.'
+  - where: thread
+    claim: 'Delitzsch observes that the last verse shows the speaker is not so alone as verse 4 made him seem'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/142.htm'
+    quote: 'The poet therefore does not after all find himself so absolutely alone'
+
+  - where: thread
+    claim: '“Refuge” in verse 4 and “refuge” in verse 5 are two different Hebrew words (manos, H4498, and machseh, H4268)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4498.htm'
+    quote: 'place of escape'
+  - where: thread
+    claim: 'The word for “refuge” in verse 5 is machseh, a refuge or shelter'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4268.htm'
+    quote: 'refuge, shelter'
+  - where: thread
+    claim: 'Verse 4 (Hebrew 142:5) has manos for “refuge”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מָנ֣וֹס'
+  - where: thread
+    claim: 'Verse 5 (Hebrew 142:6) has machseh, with the suffix “my,” for “refuge”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מַחְסִ֑/י'
+  # ---------- sections ----------
+  - where: 'section 2 plain'
+    claim: 'The NRSVUE reads the verbs of verse 4 as a request: look and see'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20142&version=NRSVUE'
+    quote: 'Look on my right hand and see:'
+  - where: 'section 2 plain'
+    claim: '“No man that would know me” is no one who takes notice of him'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20142&version=NRSVUE'
+    quote: 'there is no one who takes notice of me;'
+  - where: 'section 3 plain'
+    claim: '“Praise thy name” is rendered as giving thanks to the name'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20142&version=NRSVUE'
+    quote: 'so that I may give thanks to your name.'
+
+  # ---------- note on the title ----------
+  - where: 'note 142:0 “Which cave”'
+    claim: 'David escaped to the cave Adullam'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/22?lang=eng'
+    quote: 'David therefore departed thence, and escaped to the cave Adullam'
+  - where: 'note 142:0 “Which cave”'
+    claim: 'In the wilderness of En-gedi David and his men were in a cave when Saul came into it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/24?lang=eng'
+    quote: 'David and his men remained in the sides of the cave.'
+
+  # ---------- note 142:4 ----------
+  - where: 'note 142:4 “The empty place at the right hand”'
+    claim: 'The LORD stands at the right hand of the poor to save him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/109?lang=eng'
+    quote: 'For he shall stand at the right hand of the poor'
+  - where: 'note 142:4 “The empty place at the right hand”'
+    claim: 'The right hand is where a helper or defender takes his place'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/142.htm'
+    quote: 'and there too the helper in battle (Psalm 110:5) and the defender or advocate (Psalm 109:31) takes his place'
+  - where: 'note 142:4 “The empty place at the right hand”'
+    claim: 'The NRSVUE has the verbs as a request to God to look and see'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20142&version=NRSVUE'
+    quote: 'Look on my right hand and see:'
+  - where: 'note 142:4 “The empty place at the right hand”'
+    claim: 'The NRSVUE renders “no man that would know me” as no one who takes notice'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20142&version=NRSVUE'
+    quote: 'there is no one who takes notice of me;'
+  - where: 'note 142:4 “The empty place at the right hand”'
+    claim: 'The Greek has the first person and the past, as the King James does'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/142.htm'
+    quote: 'I looked on my right hand, and behold, for there was none that noticed me'
+  - where: 'note 142:4 “The empty place at the right hand”'
+    claim: 'Delitzsch reads the verse as asking God to look: He will find the one praying unprotected'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/142.htm'
+    quote: 'But then if God looks in that direction, He will find him, who is praying to Him, unprotected.'
+  - where: 'note 142:4 “The empty place at the right hand”'
+    claim: 'About four hundred men were with David at Adullam'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/22?lang=eng'
+    quote: 'and there were with him about four hundred men.'
+  - where: 'note 142:4 “The empty place at the right hand”'
+    claim: 'Delitzsch explains the “no man” of a David surrounded by loyal men by comparing Paul’s words in Philippians 2:20'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/142.htm'
+    quote: 'is to be understood similarly to the language of Paul when he says in Philippians 2:20 : "I have no man like-minded."'
+  - where: 'note 142:4 “The empty place at the right hand”'
+    claim: 'On Delitzsch’s reading David is surrounded by enemies and not fully understood by his friends'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/142.htm'
+    quote: 'misunderstood, or at least not thoroughly understood, by his friends'
+  - where: 'note 142:4 “The empty place at the right hand”'
+    claim: 'Paul’s words in Philippians 2:20'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/philip/2?lang=eng'
+    quote: 'For I have no man likeminded, who will naturally care for your state.'
+
+  # ---------- note 142:5 ----------
+  - where: 'note 142:5 “The LORD as a share of land”'
+    claim: 'BDB: the word for “portion” means a portion or tract of land'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2506.htm'
+    quote: '2 portion, tract, of land:'
+  - where: 'note 142:5 “The LORD as a share of land”'
+    claim: 'BDB lists this verse with those in which the LORD is the possession of His servants, after the priests’ portion of Numbers 18:20 and the spiritual sense of Psalm 73:26 and Lamentations 3:24'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2506.htm'
+    quote: 'in spiritual sense Psalm 73:26; Psalm 119:57; Lamentations 3:24'
+  - where: 'note 142:5 “The LORD as a share of land”'
+    claim: 'BDB begins the list of verses where the LORD is His servants’ possession with the priests of Numbers 18:20'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2506.htm'
+    quote: 'of priests, as enjoying perquisites of altar Numbers 18:20'
+  - where: 'note 142:5 “The LORD as a share of land”'
+    claim: 'Lamentations says the LORD is the speaker’s portion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lam/3?lang=eng'
+    quote: 'The Lord is my portion, saith my soul; therefore will I hope in him.'
+  - where: 'note 142:5 “The LORD as a share of land”'
+    claim: 'Psalm 116 sets “the land of the living” against death'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/116?lang=eng'
+    quote: 'I will walk before the Lord in the land of the living.'
+
+  # ---------- note 142:7 prison ----------
+  - where: 'note 142:7 “The prison and Isaiah’s servant”'
+    claim: 'BDB: the word is a dungeon, and it stands in Isaiah 24:22, Isaiah 42:7 and this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4525.htm'
+    quote: '2 dungeon Isaiah 24:22'
+  - where: 'note 142:7 “The prison and Isaiah’s servant”'
+    claim: 'BDB takes the word in Isaiah 42:7 as a figure for exile, with the same verb of bringing out as the psalm'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4525.htm'
+    quote: 'figurative of exile Isaiah 42:7'
+  - where: 'note 142:7 “The prison and Isaiah’s servant”'
+    claim: 'Isaiah’s servant is sent to bring prisoners out of the prison'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/42?lang=eng'
+    quote: 'to bring out the prisoners from the prison, and them that sit in darkness out of the prison house.'
+  - where: 'note 142:7 “The prison and Isaiah’s servant”'
+    claim: 'The NRSVUE has “me” for “my soul”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20142&version=NRSVUE'
+    quote: 'Bring me out of prison,'
+  - where: 'note 142:7 “The prison and Isaiah’s servant”'
+    claim: 'The NRSVUE has thanks to the name as the purpose of the release'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20142&version=NRSVUE'
+    quote: 'so that I may give thanks to your name.'
+
+  # ---------- note 142:7 compass ----------
+  - where: 'note 142:7 “Surround, crown, or wait”'
+    claim: 'BDB calls the verb’s sense in this verse doubtful and gives “throw out crowns”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3803.htm'
+    quote: 'Psalm 142:8 dubious, throw out crowns'
+  - where: 'note 142:7 “Surround, crown, or wait”'
+    claim: 'BDB explains the crowns as a figure for triumph on the speaker’s account'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3803.htm'
+    quote: 'figurative for triumph, because of me'
+  - where: 'note 142:7 “Surround, crown, or wait”'
+    claim: 'BDB objects that the noun for a crown, from which this sense would come, is very late'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3803.htm'
+    quote: 'but this very late'
+  - where: 'note 142:7 “Surround, crown, or wait”'
+    claim: 'BDB: the verb’s basic sense is to surround, and in Aramaic it is to wait or hope for'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3803.htm'
+    quote: 'wait, hope for'
+  - where: 'note 142:7 “Surround, crown, or wait”'
+    claim: 'BDB: the verb is used of surrounding an enemy, and in Psalm 22:12 (Hebrew 22:13) in a figure'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3803.htm'
+    quote: 'of surrounding an enemy'
+  - where: 'note 142:7 “Surround, crown, or wait”'
+    claim: 'The NRSVUE has “surround”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%20142&version=NRSVUE'
+    quote: 'The righteous will surround me,'
+  - where: 'note 142:7 “Surround, crown, or wait”'
+    claim: 'The Greek has the righteous waiting for the speaker until God recompenses him'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/142.htm'
+    quote: 'the righteous shall wait for me, until thou recompense me.'
+
+  # ---------- explore / parallels ----------
+  - where: explore
+    claim: 'Paul says that no man stood with him and that the Lord stood with him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/2-tim/4?lang=eng'
+    quote: 'Notwithstanding the Lord stood with me, and strengthened me'
+  - where: explore
+    claim: 'Isaiah 61:1 speaks of the opening of the prison'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/61?lang=eng'
+    quote: 'to proclaim liberty to the captives, and the opening of the prison to them that are bound'
