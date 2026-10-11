@@ -27,11 +27,6 @@ claims:
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'עֶלְי֑וֹן'
   - where: setting
-    claim: '“O Lord” in verse 9 is Adonai, the title, not the divine name'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'אֲדֹנָ֑/י'
-  - where: setting
     claim: 'Psalm 108 is made of the end of Psalm 57 and the end of Psalm 60'
     key: delitzsch-psalms
     url: 'https://biblehub.com/commentaries/kad/psalms/57.htm'
@@ -63,11 +58,6 @@ claims:
     key: bdb
     url: 'https://biblehub.com/hebrew/3559.htm'
     quote: 'be fixed aright, stedfast נָכוֺן לִבִּי Psalm 57:8 (twice in verse)'
-  - where: section 3 plain
-    claim: 'The last clause of verse 8 can be rendered “I will wake the dawn”'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/5782.htm'
-    quote: 'figurative אָעִירָה שָׁ֑חַר Psalm 57:9 I will arouse the dawn'
 
   # ---------- note 57:0 Al-taschith ----------
   - where: 'note 57:0 “Destroy not, probably the name of a tune”'
@@ -287,16 +277,6 @@ claims:
     quote: 'I lay down to sleep, though troubled. As for the sons of men, their teeth are arms and missile weapons, and their tongue a sharp sword.'
 
   # ---------- thread (the refrain; moved from the cut note on 57:5) ----------
-  - where: thread
-    claim: 'Verse 5 has “the heavens” with the article'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'הַ/שָּׁמַ֣יִם'
-  - where: thread
-    claim: 'Verse 11 is otherwise word for word the same, with “heavens” without the article'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'ר֣וּמָ/ה'
 
   # ---------- note 57:7 ----------
   - where: 'note 57:7 “A heart made firm”'
@@ -371,16 +351,6 @@ claims:
     key: delitzsch-psalms
     url: 'https://biblehub.com/commentaries/kad/psalms/57.htm'
     quote: 'it at once becomes clear that we have before us an evening or nightly song'
-  - where: 'note 57:8 “Waking the dawn”'
-    claim: 'The evening mood is hope of victory and the morning mood certainty of victory'
-    key: delitzsch-psalms
-    url: 'https://biblehub.com/commentaries/kad/psalms/57.htm'
-    quote: 'His evening mood which found expression in Psalm 57:4, was hope of victory; the morning mood into which David here transports himself, is certainty of victory.'
-  - where: 'note 57:8 “Waking the dawn”'
-    claim: 'He wakes the dawn that has not yet risen with harp and song'
-    key: delitzsch-psalms
-    url: 'https://biblehub.com/commentaries/kad/psalms/57.htm'
-    quote: 'with the music of stringed instruments and with song he will awake the not yet risen dawn'
 
   # ---------- note 57:9 ----------
   - where: 'note 57:9 “Praise promised among the nations”'
