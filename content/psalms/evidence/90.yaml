@@ -1,0 +1,610 @@
+chapter: 90
+claims:
+  # ---------- when / setting ----------
+  - where: when
+    claim: 'The title calls the psalm a prayer of Moses the man of God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/90?lang=eng'
+    quote: 'A Prayer of Moses the man of God.'
+  - where: setting
+    claim: 'Book Four (Psalms 90–106) begins with Moses’s prayer for mercy on straying Israel'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'This section begins with Moses’s prayer for the Lord to have mercy on straying Israel.'
+  - where: setting
+    claim: 'Psalm 89, the last psalm of Book Three, mourns the king’s throne cast down and asks how long, pleading the shortness of life'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/89?lang=eng'
+    quote: 'Remember how short my time is: wherefore hast thou made all men in vain?'
+  - where: setting
+    claim: 'Psalm 90 pleads the brevity of life as Psalm 89:46 and following does'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
+    quote: 'The brevity of human life—appearing still more brief in comparison with Divine Eternity—is pleaded, as in Psalm 89:46 ff., as a ground for the speedier exhibition of mercy.'
+  - where: setting
+    claim: 'The generation that left Egypt was sentenced to die in the wilderness over forty years'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/14?lang=eng'
+    quote: 'And your children shall wander in the wilderness forty years, and bear your whoredoms, until your carcases be wasted in the wilderness.'
+  - where: setting
+    claim: 'One older commentary reads the psalm out of the dying off of that generation'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/90.htm'
+    quote: 'which comes out of the midst of the dying off of the older generation during the march through the wilderness'
+  - where: setting
+    claim: 'Peter says that with the Lord a thousand years are as one day'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/2-pet/3?lang=eng'
+    quote: 'one day is with the Lord as a thousand years, and a thousand years as one day'
+
+  # ---------- thread ----------
+  - where: thread
+    claim: 'The first two parts of the psalm lead up to the prayer of verses 13–17, which is its main purpose'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
+    quote: 'The first two divisions of the Psalm lead up to the prayer for the restoration of God’s favour to Israel, which is its main purpose.'
+  - where: thread
+    claim: 'Verse 1 addresses God by the title Adonai, not the divine name'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲֽדֹנָ֗/י'
+  - where: thread
+    claim: 'The divine name stands in verse 13'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְ֭הוָה'
+  - where: thread
+    claim: '“Return” in verse 13 is the verb of verse 3'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שׁוּבָ֣/ה'
+  - where: thread
+    claim: '“Early” in verse 14 is “in the morning,” the word of verses 5 and 6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַ/בֹּ֣קֶר'
+
+  # ---------- sections ----------
+  - where: section 1 plain
+    claim: '“Brought forth” is “were born”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3205.htm'
+    quote: 'i. q. Niph`al be born'
+  - where: section 2 plain
+    claim: 'The Hebrew of verse 3 is “returnest man to dust”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/90?lang=eng'
+    quote: 'returnest man to dust'
+  - where: section 2 plain
+    claim: 'Verses 5–6 in a modern translation: swept away, and the grass fades'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2090&version=NRSVUE'
+    quote: 'in the evening it fades and withers'
+  - where: section 2 plain
+    claim: '“Cut down” may be rendered “fadeth”'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
+    quote: 'Or, it fadeth'
+  - where: section 3 plain
+    claim: '“Troubled” is “dismayed”'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
+    quote: 'through thy wrath have we been dismayed'
+  - where: section 3 plain
+    claim: '“A tale that is told” is a sigh'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2090&version=NRSVUE'
+    quote: 'our years come to an end like a sigh'
+  - where: section 3 plain
+    claim: '“Their strength” is “their pride,” and “labour and sorrow” is toil and trouble'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
+    quote: 'And their pride is but travail and misery'
+  - where: section 3 plain
+    claim: 'Verse 11 in a modern translation'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2090&version=NRSVUE'
+    quote: 'Your wrath is as great as the fear that is due you.'
+  - where: section 3 plain
+    claim: 'Verse 12: “gain a heart of wisdom”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/935.htm'
+    quote: 'Psalm 90:12 that we may gain a heart of wisdom'
+  - where: section 4 plain
+    claim: 'The Hebrew of “let it repent thee” is “have pity on Thy servants”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/90?lang=eng'
+    quote: 'have pity on Thy servants'
+  - where: section 4 plain
+    claim: 'Verses 14–17 in a modern translation: in the morning; favor'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2090&version=NRSVUE'
+    quote: 'Let the favor of the Lord our God be upon us'
+
+  # ---------- note 90:0 ----------
+  - where: 'note 90:0 “The one psalm with the name of Moses”'
+    claim: 'The wording of the title'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/90?lang=eng'
+    quote: 'A Prayer of Moses the man of God.'
+  - where: 'note 90:0 “The one psalm with the name of Moses”'
+    claim: 'One psalm is attributed to Moses'
+    key: ot-manual-psalms
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/the-psalms-songs-from-the-heart-of-israel?lang=eng'
+    quote: 'Psalms attributed to Moses'
+  - where: 'note 90:0 “The one psalm with the name of Moses”'
+    claim: 'Moses is called the man of God at the head of his blessing of Israel'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/33?lang=eng'
+    quote: 'And this is the blessing, wherewith Moses the man of God blessed the children of Israel before his death.'
+  - where: 'note 90:0 “The one psalm with the name of Moses”'
+    claim: 'Caleb calls him Moses the man of God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/14?lang=eng'
+    quote: 'the thing that the Lord said unto Moses the man of God'
+  - where: 'note 90:0 “The one psalm with the name of Moses”'
+    claim: '“In all generations” is in Hebrew “in generation and generation,” as in Deuteronomy 32:7'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
+    quote: 'More forcibly the Heb., in generation and generation, i.e. in each successive generation. So Deuteronomy 32:7'
+  - where: 'note 90:0 “The one psalm with the name of Moses”'
+    claim: 'The form of the word for “days” in verse 15 occurs elsewhere only in Deuteronomy 32:7'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
+    quote: 'occurs elsewhere only in Deuteronomy 32:7'
+  - where: 'note 90:0 “The one psalm with the name of Moses”'
+    claim: '“The work of our hands” is characteristic of Deuteronomy'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
+    quote: 'A phrase characteristic of Deuteronomy, where it occurs seven times.'
+  - where: 'note 90:0 “The one psalm with the name of Moses”'
+    claim: 'One older commentary holds that the psalm has the same origin as the Song and the Blessing of Moses'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/90.htm'
+    quote: 'Psalm 90 bears within itself distinct traces of the same origin as the song'
+  - where: 'note 90:0 “The one psalm with the name of Moses”'
+    claim: 'The same commentary sets it in the dying off of the older generation in the wilderness'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/90.htm'
+    quote: 'which comes out of the midst of the dying off of the older generation during the march through the wilderness'
+  - where: 'note 90:0 “The one psalm with the name of Moses”'
+    claim: 'Another holds that the likeness to Deuteronomy could come from a poet who knew that book'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
+    quote: 'the resemblances might be fully accounted for by the Psalmist’s familiarity with that book'
+  - where: 'note 90:0 “The one psalm with the name of Moses”'
+    claim: 'That commentary finds the author looking back on a long national history'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
+    quote: 'the author appears to look back upon a long period of national existence'
+  - where: 'note 90:0 “The one psalm with the name of Moses”'
+    claim: 'and assigns the psalm probably to the Exile'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
+    quote: 'To what period then may it be assigned? Probably to the time of the Exile.'
+  - where: 'note 90:0 “The one psalm with the name of Moses”'
+    claim: 'The Church’s chapter heading reads the psalm as Moses imploring the Lord for mercy and blessings on His people'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/90?lang=eng'
+    quote: 'Moses implores the Lord to give mercy and blessings to His people'
+
+  # ---------- note 90:1 ----------
+  - where: 'note 90:1 “A home that is not a place”'
+    claim: 'The Hebrew word for “dwelling place” in verse 1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מָע֣וֹן'
+  - where: 'note 90:1 “A home that is not a place”'
+    claim: 'The word is used figuratively of the LORD as the abode of His people, here and in Psalm 91:9'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4583.htm'
+    quote: 'as abode of his people'
+  - where: 'note 90:1 “A home that is not a place”'
+    claim: 'The related word in Deuteronomy 33:27 means a dwelling-place'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4585.htm'
+    quote: 'Deuteronomy 33:27 the ancient God is a dwelling-place (for his people'
+  - where: 'note 90:1 “A home that is not a place”'
+    claim: 'The Greek has “refuge” in verse 1'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/90.htm'
+    quote: 'Lord, thou hast been our refuge in all generations.'
+  - where: 'note 90:1 “A home that is not a place”'
+    claim: 'A modern translation notes “refuge” as an alternative'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2090&version=NRSVUE'
+    quote: 'Or our refuge'
+  - where: 'note 90:1 “A home that is not a place”'
+    claim: 'The sentence on the wilderness generation was forty years of wandering'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/14?lang=eng'
+    quote: 'And your children shall wander in the wilderness forty years'
+  - where: 'note 90:1 “A home that is not a place”'
+    claim: 'Psalm 91:9 has “habitation”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/91?lang=eng'
+    quote: 'even the most High, thy habitation'
+
+  # ---------- note 90:2 ----------
+  - where: 'note 90:2 “Creation as a birth”'
+    claim: '“Were brought forth” is the passive of the verb to bear: “be born”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3205.htm'
+    quote: 'i. q. Niph`al be born'
+  - where: 'note 90:2 “Creation as a birth”'
+    claim: '“Formed” is a verb for labor in childbirth, used here of the LORD producing the earth'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2342.htm'
+    quote: 'writhe in travail with, bear, bring forth (poetry)'
+  - where: 'note 90:2 “Creation as a birth”'
+    claim: 'The lexicon lists the same verb in Deuteronomy 32:18, of the LORD bringing forth Israel'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2342.htm'
+    quote: 'of his bringing forth Israel'
+  - where: 'note 90:2 “Creation as a birth”'
+    claim: 'The Greek has the passive “were formed”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/psalms/90.htm'
+    quote: 'Before the mountains existed, and before the earth and the world were formed'
+  - where: 'note 90:2 “Creation as a birth”'
+    claim: 'Latter-day revelation has the phrase “from everlasting to everlasting” of God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/20?lang=eng'
+    quote: 'from everlasting to everlasting the same unchangeable God'
+
+  # ---------- note 90:3 ----------
+  - where: 'note 90:3 “One verb for man’s dying and for God’s command”'
+    claim: '“Turnest” in verse 3 is a form of the verb “return”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תָּשֵׁ֣ב'
+  - where: 'note 90:3 “One verb for man’s dying and for God’s command”'
+    claim: '“Return” in verse 3 is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שׁ֣וּבוּ'
+  - where: 'note 90:3 “One verb for man’s dying and for God’s command”'
+    claim: '“Return” in verse 13 is the same verb, addressed to the LORD'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שׁוּבָ֣/ה'
+  - where: 'note 90:3 “One verb for man’s dying and for God’s command”'
+    claim: 'The Church’s footnote gives the Hebrew of the first half'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/90?lang=eng'
+    quote: 'returnest man to dust'
+  - where: 'note 90:3 “One verb for man’s dying and for God’s command”'
+    claim: 'The noun means dust, as something pulverized'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1793.htm'
+    quote: 'dust (as pulverized)'
+  - where: 'note 90:3 “One verb for man’s dying and for God’s command”'
+    claim: 'The verse refers to Genesis 3:19 in different words'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
+    quote: 'The Psalmist plainly refers to Genesis 3:19, though he chooses different words to emphasise his point'
+  - where: 'note 90:3 “One verb for man’s dying and for God’s command”'
+    claim: 'Two readings of “Return”: to the dust, or new generations called into being'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
+    quote: 'a call to new generations to appear on the stage of history'
+  - where: 'note 90:3 “One verb for man’s dying and for God’s command”'
+    claim: 'The commentary prefers the first reading because of Genesis 3:19'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
+    quote: 'the evident allusion to Genesis 3:19 is in favour of (1)'
+  - where: 'note 90:3 “One verb for man’s dying and for God’s command”'
+    claim: 'The lexicon lists the verb in Genesis 3:19 under dying and takes Psalm 90:3 as probably the same'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7725.htm'
+    quote: 'so probably absolute Psalm 90:3 (> come back to life)'
+
+  # ---------- note 90:4 ----------
+  - where: 'note 90:4 “A thousand years, in Peter and in Abraham”'
+    claim: 'Israel divided the night into three watches'
+    key: bd-watches
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/watches?lang=eng'
+    quote: 'The Jews, like the Babylonians and Greeks, divided the night into three watches'
+  - where: 'note 90:4 “A thousand years, in Peter and in Abraham”'
+    claim: 'Peter gives the saying both ways'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/2-pet/3?lang=eng'
+    quote: 'one day is with the Lord as a thousand years, and a thousand years as one day'
+  - where: 'note 90:4 “A thousand years, in Peter and in Abraham”'
+    claim: 'Peter is answering those who ask where the promise of the Lord’s coming is'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/2-pet/3?lang=eng'
+    quote: 'Where is the promise of his coming?'
+  - where: 'note 90:4 “A thousand years, in Peter and in Abraham”'
+    claim: 'The Lord told Abraham that a day by Kolob’s reckoning is a thousand years of the earth’s'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/3?lang=eng'
+    quote: 'one revolution was a day unto the Lord, after his manner of reckoning, it being one thousand years according to the time appointed unto that whereon thou standest'
+  - where: 'note 90:4 “A thousand years, in Peter and in Abraham”'
+    claim: 'Alma says that time is measured only to men'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/40?lang=eng'
+    quote: 'all is as one day with God, and time only is measured unto men'
+  - where: 'note 90:4 “A thousand years, in Peter and in Abraham”'
+    claim: 'The Church’s footnote at Abraham 3:4 points to Psalm 90:4 and 2 Peter 3:8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/abr/3?lang=eng'
+    quote: 'Ps. 90:4; 2 Pet. 3:8'
+  - where: 'note 90:4 “A thousand years, in Peter and in Abraham”'
+    claim: 'The Church’s footnote at Alma 40:8 points to 2 Peter 3:8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/40?lang=eng'
+    quote: '2 Pet. 3:8'
+
+  # ---------- note 90:7 ----------
+  - where: 'note 90:7 “The anger is the sentence of the wilderness”'
+    claim: 'The sentence on those who murmured after the spies’ report'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/14?lang=eng'
+    quote: 'Your carcases shall fall in this wilderness'
+  - where: 'note 90:7 “The anger is the sentence of the wilderness”'
+    claim: 'The sentence ran forty years, a year for a day'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/14?lang=eng'
+    quote: 'each day for a year, shall ye bear your iniquities, even forty years'
+  - where: 'note 90:7 “The anger is the sentence of the wilderness”'
+    claim: 'One older commentary reads verses 7–9 as Moses’s lament over that generation'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/90.htm'
+    quote: 'This it is over which Moses here laments.'
+  - where: 'note 90:7 “The anger is the sentence of the wilderness”'
+    claim: 'The same commentary hears the Israel of the desert in verse 9'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/90.htm'
+    quote: 'In Psalm 90:9 we distinctly hear the Israel of the desert speaking.'
+  - where: 'note 90:7 “The anger is the sentence of the wilderness”'
+    claim: 'The verse speaks of an experience, not a general truth'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
+    quote: 'He speaks of it not as a general truth but as an actual experience.'
+  - where: 'note 90:7 “The anger is the sentence of the wilderness”'
+    claim: 'The light of verse 8 is a different word from the usual “light of thy countenance,” a luminary that searches'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
+    quote: 'here a slightly different word, lit. the luminary of Thy face, is used to denote His Presence as a searching light from which nothing can be hid'
+
+  # ---------- note 90:9 ----------
+  - where: 'note 90:9 “A sigh, not a story”'
+    claim: 'The noun means a sigh or moan, a fleeting sound'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1899.htm'
+    quote: 'a sigh or moan, as transient'
+  - where: 'note 90:9 “A sigh, not a story”'
+    claim: 'A modern translation has “like a sigh”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2090&version=NRSVUE'
+    quote: 'our years come to an end like a sigh'
+
+  # ---------- note 90:10 ----------
+  - where: 'note 90:10 “Seventy years, in the prayer of a man who lived to a hundred and twenty”'
+    claim: 'Moses died at a hundred and twenty'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/34?lang=eng'
+    quote: 'And Moses was an hundred and twenty years old when he died: his eye was not dim, nor his natural force abated.'
+  - where: 'note 90:10 “Seventy years, in the prayer of a man who lived to a hundred and twenty”'
+    claim: 'The longer lives of Moses and other leaders may have been exceptional'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
+    quote: 'the longer lives of Moses and other leaders may have been exceptional'
+  - where: 'note 90:10 “Seventy years, in the prayer of a man who lived to a hundred and twenty”'
+    claim: 'The verse says that a lifetime is short at best'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
+    quote: 'is but short at best'
+  - where: 'note 90:10 “Seventy years, in the prayer of a man who lived to a hundred and twenty”'
+    claim: '“Their strength” is “their pride,” and “labour and sorrow” is “travail and misery”'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/90.htm'
+    quote: 'And their pride is but travail and misery'
+  - where: 'note 90:10 “Seventy years, in the prayer of a man who lived to a hundred and twenty”'
+    claim: 'A modern translation’s footnote gives the Hebrew as “pride”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2090&version=NRSVUE'
+    quote: 'Heb pride'
+
+  # ---------- note 90:12 ----------
+  - where: 'note 90:12 “Gaining a heart of wisdom”'
+    claim: 'The lexicon renders the clause “that we may gain a heart of wisdom”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/935.htm'
+    quote: 'Psalm 90:12 that we may gain a heart of wisdom'
+  - where: 'note 90:12 “Gaining a heart of wisdom”'
+    claim: 'The verb is a causative form of “come”: bring in'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ֝/נָבִ֗א'
+  - where: 'note 90:12 “Gaining a heart of wisdom”'
+    claim: 'A modern translation of the verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2090&version=NRSVUE'
+    quote: 'that we may gain a wise heart'
+
+  # ---------- note 90:13 ----------
+  - where: 'note 90:13 “The prayer of Moses at Sinai, prayed again”'
+    claim: '“Return” in verse 13'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שׁוּבָ֣/ה'
+  - where: 'note 90:13 “The prayer of Moses at Sinai, prayed again”'
+    claim: '“Let it repent thee” in verse 13'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ֝/הִנָּחֵ֗ם'
+  - where: 'note 90:13 “The prayer of Moses at Sinai, prayed again”'
+    claim: '“Turn” in Exodus 32:12 is the same verb, in the imperative'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'שׁ֚וּב'
+  - where: 'note 90:13 “The prayer of Moses at Sinai, prayed again”'
+    claim: '“Repent” in Exodus 32:12 is the same verb in the same form'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'וְ/הִנָּחֵ֥ם'
+  - where: 'note 90:13 “The prayer of Moses at Sinai, prayed again”'
+    claim: 'The lexicon cites the imperative of this verb from Exodus 32:12 and Psalm 90:13'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5162.htm'
+    quote: 'Exodus 32:12; Psalm 90:13.'
+  - where: 'note 90:13 “The prayer of Moses at Sinai, prayed again”'
+    claim: 'The verb here means to be sorry, moved to pity, have compassion'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5162.htm'
+    quote: 'be sorry, moved to pity, have compassion'
+  - where: 'note 90:13 “The prayer of Moses at Sinai, prayed again”'
+    claim: 'The Joseph Smith Translation of the Lord’s answer in Exodus 32:14'
+    key: jst-ex-32
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-ex/32?lang=eng'
+    quote: 'If they will repent of the evil which they have done, I will spare them, and turn away my fierce wrath'
+  - where: 'note 90:13 “The prayer of Moses at Sinai, prayed again”'
+    claim: 'In the Song of Moses the verb is used of the LORD and His servants'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'יִתְנֶחָ֑ם'
+  - where: 'note 90:13 “The prayer of Moses at Sinai, prayed again”'
+    claim: 'The wording of Deuteronomy 32:36'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/32?lang=eng'
+    quote: 'shall judge his people, and repent himself for his servants'
+
+  # ---------- note 90:14 ----------
+  - where: 'note 90:14 “Early means in the morning”'
+    claim: 'The Hebrew of “early” is “in the morning”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַ/בֹּ֣קֶר'
+  - where: 'note 90:14 “Early means in the morning”'
+    claim: 'The same word stands in verse 5'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּ֝/בֹּ֗קֶר'
+  - where: 'note 90:14 “Early means in the morning”'
+    claim: 'and in verse 6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּ֭/בֹּקֶר'
+  - where: 'note 90:14 “Early means in the morning”'
+    claim: 'A modern translation of the verse'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2090&version=NRSVUE'
+    quote: 'Satisfy us in the morning with your steadfast love'
+  - where: 'note 90:14 “Early means in the morning”'
+    claim: '“Mercy” is hesed'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חַסְדֶּ֑/ךָ'
+
+  # ---------- note 90:16 ----------
+  - where: 'note 90:16 “God’s work before the work of our hands”'
+    claim: 'The word for “work” in verse 16'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פָעֳלֶ֑/ךָ'
+  - where: 'note 90:16 “God’s work before the work of our hands”'
+    claim: 'The word for “work” in verse 17 is a different one'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וּ/מַעֲשֵׂ֣ה'
+  - where: 'note 90:16 “God’s work before the work of our hands”'
+    claim: 'The Church’s footnote at “work” is Moses 1:39'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/90?lang=eng'
+    quote: 'Moses 1:39'
+  - where: 'note 90:16 “God’s work before the work of our hands”'
+    claim: 'The Lord’s words to Moses about His work and glory'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/1?lang=eng'
+    quote: 'For behold, this is my work and my glory—to bring to pass the immortality and eternal life of man.'
+
+  # ---------- note 90:17 ----------
+  - where: 'note 90:17 “Beauty here is favor”'
+    claim: 'The noun means delightfulness or pleasantness, shown here in the LORD’s favor and contemplated in the temple in Psalm 27:4'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5278.htm'
+    quote: 'contemplated in temple Psalm 27:4, shewn in his favour'
+  - where: 'note 90:17 “Beauty here is favor”'
+    claim: 'A modern translation has “favor” and “prosper”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Psalm%2090&version=NRSVUE'
+    quote: 'Let the favor of the Lord our God be upon us'
+  - where: 'note 90:17 “Beauty here is favor”'
+    claim: 'The wording of Psalm 27:4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/27?lang=eng'
+    quote: 'to behold the beauty of the Lord, and to inquire in his temple'
+  - where: 'note 90:17 “Beauty here is favor”'
+    claim: 'The Hebrew text read here has the title Adonai in verse 17, not the divine name'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲדֹנָ֥/י'
+  - where: 'note 90:17 “Beauty here is favor”'
+    claim: 'The divine name stands in verse 13'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְ֭הוָה'
+
+  # ---------- christ / explore / parallels ----------
+  - where: christ
+    claim: 'The Church’s footnote at verse 2 is D&C 38:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/90?lang=eng'
+    quote: 'D&C 38:1'
+  - where: christ
+    claim: 'In D&C 38:1 Jesus Christ speaks as the one who looked on eternity before the world was made'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/38?lang=eng'
+    quote: 'the same which looked upon the wide expanse of eternity, and all the seraphic hosts of heaven, before the world was made'
+  - where: christ
+    claim: 'Peter concludes that the Lord is not slack concerning His promise but longsuffering'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/2-pet/3?lang=eng'
+    quote: 'The Lord is not slack concerning his promise, as some men count slackness; but is longsuffering to us-ward'
+  - where: christ
+    claim: 'What the Lord told Moses His work is'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/1?lang=eng'
+    quote: 'to bring to pass the immortality and eternal life of man'
+  - where: christ
+    claim: 'Jehovah is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ'
+  - where: christ
+    claim: 'The divine name stands in verse 13'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְ֭הוָה'
+  - where: christ
+    claim: 'The Church’s footnote at “work” in verse 16 is Moses 1:39'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/90?lang=eng'
+    quote: 'Moses 1:39'
+  - where: explore
+    claim: 'The Song of Moses uses the psalm’s words for generations and days'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/32?lang=eng'
+    quote: 'Remember the days of old, consider the years of many generations'
+  - where: explore
+    claim: 'Latter-day revelation uses the grass image'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/124?lang=eng'
+    quote: 'for they are as grass, and all their glory as the flower thereof which soon falleth'
+  - where: parallels
+    claim: 'Moses’s intercession after the golden calf'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/32?lang=eng'
+    quote: 'Turn from thy fierce wrath, and repent of this evil against thy people.'
+  - where: parallels
+    claim: 'The sentence on Adam'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/3?lang=eng'
+    quote: 'for dust thou art, and unto dust shalt thou return'
+  - where: parallels
+    claim: 'The Blessing of Moses calls God the refuge of His people'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/33?lang=eng'
+    quote: 'The eternal God is thy refuge, and underneath are the everlasting arms'
