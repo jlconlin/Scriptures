@@ -10,6 +10,7 @@ import { existsSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { driftLine } from './check-docs.mjs';
 import { discoverBooks } from '../src/lib/books.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -95,4 +96,5 @@ for (const book of await discoverBooks(root)) {
 }
 const site = waiting['the site'];
 if (!only && site) console.log(`\nThe site: for the author ${site.join(', ')}`);
-console.log('\nA book’s own decisions and state are in content/<book>/BRIEF.md; its history is `git log -- content/<book>`.');
+console.log(`\n${driftLine()}`);
+console.log('A book’s own decisions and state are in content/<book>/BRIEF.md; its history is `git log -- content/<book>`.');
