@@ -181,7 +181,7 @@ Then the author reads it in the preview (§11). The dossier is a working file an
 
 The same four steps and the same three agents, each of which has a section “When the page is a guide”; `DEVELOPMENT.md` (“Writing a book in batches”) has the commands. What differs:
 
-- **A guide is background, not an arc.** It says what a period, a custom or an institution was, where the text shows it, and what scripture and the Church teach about it. Nothing has to develop, and it is not held to 1,000 words, though it is still a page to consult.
+- **A guide is background, not an arc.** It says what a period, a custom or an institution was, where the text shows it, and what scripture and the Church teach about it. Nothing has to develop, and it is not held to 1,000 words, though it is still a page to consult: “long enough to cover the subject, but short enough to still be interesting” (author, 2026-10-12, of a 4,000-word first draft of the women guide that was too long to read; about 2,000 words is the measure). Detail goes in the chapter notes the guide links to.
 - **§4 holds in full.** A guide makes no connections of its own: every statement is a quoted verse's plain words or is cited, and its ledger has no “Connection made by this page:” row.
 - **It explains; it doesn't argue.** No sentence defends, excuses or condemns beyond its source, an evaluative word is a claim with a row, and a hard passage is named plainly and given what the sources give it.
 - **The outline is still the session's**, on the most capable model, and for a guide the author has asked to approve, the author reads the outline before anything is written.
