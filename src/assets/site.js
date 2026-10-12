@@ -415,9 +415,9 @@
       items[a].top = items[a].want;
       // Keep a newly opened note on screen: slide it up the margin rather than make the reader scroll.
       if (items[a].n === lastOpened) {
-        const viewTop = 120 - base;
+        const viewTop = ($('.section-nav')?.offsetHeight ?? 0) + 16 - base;
         const viewBottom = innerHeight - 16 - base;
-        if (items[a].top + items[a].h > viewBottom) items[a].top = Math.max(viewTop, viewBottom - items[a].h);
+        items[a].top = Math.max(viewTop, Math.min(items[a].top, viewBottom - items[a].h));
       }
       for (let i = a + 1; i < items.length; i++) items[i].top = Math.max(items[i].want, items[i - 1].top + items[i - 1].h + gap);
       for (let i = a - 1; i >= 0; i--) items[i].top = Math.min(items[i].want, items[i + 1].top - items[i].h - gap);
@@ -442,7 +442,7 @@
       if (open && scroll && !wide.matches) {
         requestAnimationFrame(() => {
           const r = note.getBoundingClientRect();
-          if (r.bottom > innerHeight || r.top < 110) note.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest' });
+          if (r.bottom > innerHeight || r.top < ($('.section-nav')?.offsetHeight ?? 0) + 16) note.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest' });
         });
       }
     };
@@ -484,7 +484,7 @@
         e.target.click();
       }
     });
-    document.addEventListener('keydown', (e) => {
+    reader.addEventListener('keydown', (e) => {
       if (e.key !== 'Escape') return;
       const note = e.target.closest?.('.note');
       if (note) { setNote(note, false); triggersFor(note.id)[0]?.focus(); }
@@ -576,6 +576,18 @@
     });
   }
 
+  // Citations stay collapsible on screen but are always included when printing.
+  let printedSources = [];
+  addEventListener('beforeprint', () => {
+    if (printedSources.length) return;
+    printedSources = $$('details.note-sources').filter((el) => !el.open);
+    printedSources.forEach((el) => { el.open = true; });
+  });
+  addEventListener('afterprint', () => {
+    printedSources.forEach((el) => { el.open = false; });
+    printedSources = [];
+  });
+
   // ---------- search ----------
   // Only the section navigation stays pinned; its height sets anchor offsets.
   const sectionNav = $('.section-nav');
@@ -644,6 +656,7 @@
     let request = 0;
     const scope = $('.search-scope');
     const library = JSON.parse(scope.dataset.library);
+    const kinds = JSON.parse(scope.dataset.kinds);
     const allBooks = library.flatMap((v) => v.books.map((b) => ({ ...b, volume: v.key })));
     const KIND_LABEL = { verse: 'Verse', note: 'Note', chapter: 'Chapter', guide: 'Guide' };
     const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
@@ -653,7 +666,7 @@
       if (index) return index;
       status.textContent = 'Loading…';
       const data = await (await fetch('/search.json')).json();
-      index = data.map((d) => ({ ...d, n: norm(`${d.h ?? ''} ${d.r} ${d.x}`) }));
+      index = data.map((d) => ({ ...d, n: norm(`${d.h ?? ''} ${d.x}`) }));
       status.textContent = '';
       return index;
     };
@@ -685,10 +698,11 @@
       const scored = [];
       const reference = raw.match(/^(.*?)\s*(\d+)(?::\s*(\d+)(?:\s*[–-]\s*(\d+))?)?$/);
       const refBook = reference && allBooks.find((b) => [b.name, ...b.aliases].some((a) => a.toLowerCase().replace(/[.\s]/g, '') === reference[1].toLowerCase().replace(/[.\s]/g, '')));
+      const scopedBooks = volumeFilter === 'all' ? null : new Set(library.find((v) => v.key === volumeFilter).books.map((b) => b.slug));
       for (const d of idx) {
         if (filter !== 'all' && !(filter === 'chapter' ? d.t === 'chapter' || d.t === 'guide' : d.t === filter)) continue;
         if (bookFilter !== 'all' && d.b !== bookFilter) continue;
-        if (volumeFilter !== 'all' && !library.find((v) => v.key === volumeFilter)?.books.some((b) => b.slug === d.b)) continue;
+        if (scopedBooks && !scopedBooks.has(d.b)) continue;
         const prefix = refBook && `/${refBook.slug}/${Number(reference[2])}/`;
         const verse = Number(d.u.split('#v')[1]);
         const direct = prefix && (reference[3] ? d.t === 'verse' && d.u.startsWith(prefix) && verse >= Number(reference[3]) && verse <= Number(reference[4] ?? reference[3]) : d.t === 'chapter' && d.u === prefix);
@@ -704,7 +718,7 @@
       const top = scored.slice(0, 80);
       status.textContent = scored.length ? `${scored.length} result${scored.length === 1 ? '' : 's'}${scored.length > 80 ? ' (showing the first 80)' : ''}` : volumeFilter !== 'all' || bookFilter !== 'all' ? 'Nothing found in this selection. Try a different volume or book, or clear the filter.' : 'Nothing found. Try fewer or different words.';
       results.innerHTML = top
-        .map(([, d, direct]) => `<li class="search-result${direct ? ' direct-result' : ''}"><span class="sr-meta"><span>${KIND_LABEL[d.t]}</span>${d.h ? `<span>${esc(d.r)}</span>` : ''}</span><a class="sr-title" href="${d.u}">${esc(d.h || d.r)}</a><span class="sr-text">${direct && d.t === 'verse' ? esc(d.x) : snippet(d.x, terms)}</span></li>`)
+        .map(([, d, direct]) => `<li class="search-result${direct ? ' direct-result' : ''}"><span class="sr-meta"><span${d.t === 'note' && kinds[d.k] ? ` class="kind-chip k-${esc(d.k)}"` : ''}>${d.t === 'note' && kinds[d.k] ? `${kinds[d.k].icon}${esc(kinds[d.k].label)}` : KIND_LABEL[d.t]}</span>${d.h ? `<span>${esc(d.r)}</span>` : ''}</span><a class="sr-title" href="${d.u}">${esc(d.h || d.r)}</a><span class="sr-text">${direct && d.t === 'verse' ? esc(d.x) : snippet(d.x, terms)}</span></li>`)
         .join('');
     };
 
@@ -722,21 +736,29 @@
       b.type = 'button'; b.className = 'scope-choice'; b.textContent = label;
       b.setAttribute('aria-pressed', String(selected)); b.addEventListener('click', action); return b;
     };
+    const volumes = $('.scope-volumes', scope), books = $('.scope-books', scope);
+    const closeScope = () => { scope.open = false; $('summary', scope).focus(); };
+    const selectVolume = (v) => { volumeFilter = v; bookFilter = 'all'; renderScope(); run(); };
+    const volumeChoices = [['all', 'All volumes'], ...library.map((v) => [v.key, v.name])];
+    volumeChoices.forEach(([key, name]) => {
+      const b = choice(name, volumeFilter === key, () => selectVolume(key));
+      b.dataset.volume = key;
+      volumes.append(b);
+    });
     const renderScope = () => {
-      const volumes = $('.scope-volumes', scope), books = $('.scope-books', scope);
-      volumes.replaceChildren(); books.replaceChildren();
-      const selectVolume = (v) => { volumeFilter = v; bookFilter = 'all'; renderScope(); run(); };
-      volumes.append(choice('All volumes', volumeFilter === 'all', () => selectVolume('all')));
-      library.forEach((v) => volumes.append(choice(v.name, volumeFilter === v.key, () => selectVolume(v.key))));
+      const focusAllBooks = document.activeElement === books.firstElementChild;
+      $$('[data-volume]', volumes).forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.volume === volumeFilter)));
+      books.replaceChildren();
       books.append(choice('All books', bookFilter === 'all', () => { bookFilter = 'all'; renderScope(); run(); }));
       const bs = allBooks.filter((b) => volumeFilter === 'all' || b.volume === volumeFilter);
-      bs.forEach((b) => books.append(choice(b.name, bookFilter === b.slug, () => { bookFilter = b.slug; volumeFilter = b.volume; renderScope(); run(); scope.open = false; })));
+      bs.forEach((b) => books.append(choice(b.name, bookFilter === b.slug, () => { bookFilter = b.slug; volumeFilter = b.volume; renderScope(); run(); closeScope(); })));
       if (!bs.length) { const p = document.createElement('p'); p.className = 'scope-empty'; p.textContent = 'No books from this volume are on the site yet.'; books.append(p); }
       $('.scope-label', scope).textContent = bookFilter !== 'all' ? allBooks.find((b) => b.slug === bookFilter).name : volumeFilter !== 'all' ? library.find((v) => v.key === volumeFilter).name : 'All scriptures';
       $('.scope-books-heading', scope).textContent = volumeFilter === 'all' ? 'Book' : library.find((v) => v.key === volumeFilter).name;
+      if (focusAllBooks) books.firstElementChild.focus();
     };
-    $('.scope-clear', scope).addEventListener('click', () => { volumeFilter = 'all'; bookFilter = 'all'; renderScope(); run(); });
-    $('.scope-done', scope).addEventListener('click', () => { scope.open = false; });
+    $('.scope-clear', scope).addEventListener('click', () => { volumeFilter = 'all'; bookFilter = 'all'; renderScope(); run(); closeScope(); });
+    $('.scope-done', scope).addEventListener('click', closeScope);
     document.addEventListener('click', (e) => { if (!e.composedPath().includes(scope)) scope.open = false; });
     scope.addEventListener('keydown', (e) => { if (e.key === 'Escape') { scope.open = false; $('summary', scope).focus(); } });
     $('.search-form').addEventListener('submit', (e) => { e.preventDefault(); run(); });

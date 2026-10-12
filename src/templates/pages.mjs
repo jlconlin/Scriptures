@@ -166,8 +166,8 @@ ${guides.length ? `<p class="wrap start-callout">${icon('key')}<span>New to ${es
 <section class="wrap book-section" id="chapters">
   <h2 class="section-title">The ${esc(unitPlural(book))}</h2>
   <p class="section-sub">${esc(book.divisionsBlurb)}</p>
-  <div class="dial-wrap division-map-wrap"><div class="dial-label" aria-hidden="true" hidden></div><div class="division-map" aria-label="Book sections">
-    ${book.divisions.map((d) => `<a href="#${d.key}" style="--div:var(--div-${d.key});--c:var(--div-${d.key});flex:${d.range[1] - d.range[0] + 1}" data-label="${esc(d.name)}" data-div="${esc(book.name)} ${d.range[0]}–${d.range[1]}"><span>${d.range[0]}–${d.range[1]}</span></a>`).join('')}
+  <div class="dial-wrap division-map-wrap"><div class="dial-label" aria-hidden="true" hidden></div><div class="division-map" role="navigation" aria-label="Book sections">
+    ${book.divisions.map((d) => `<a href="#${d.key}" style="--div:var(--div-${d.key});--c:var(--div-${d.key});flex:${d.range[1] - d.range[0] + 1}" aria-label="${esc(book.name)} ${d.range[0]}–${d.range[1]}: ${esc(d.name)}" data-label="${esc(d.name)}" data-div="${esc(book.name)} ${d.range[0]}–${d.range[1]}"><span>${d.range[0]}–${d.range[1]}</span></a>`).join('')}
   </div></div>
   ${divisions}
 </section>
@@ -296,8 +296,8 @@ export function renderSearch() {
   <p class="lede">Find a verse, a phrase, a name, or a topic across the text and the notes.</p>
   <form class="search-form" role="search">
     <label class="sr" for="q">Search</label>
-    ${icon('search')}
-    <input id="q" type="search" placeholder="Isaiah 53:5, “wings as eagles”, or a topic" autocomplete="off" autofocus>
+    <div class="search-input">${icon('search')}
+    <input id="q" type="search" placeholder="Isaiah 53:5, “wings as eagles”, or a topic" autocomplete="off" autofocus></div>
     <button type="submit" class="btn btn-primary">Search</button>
   </form>
   <div class="search-filters" role="group" aria-label="Filter results">

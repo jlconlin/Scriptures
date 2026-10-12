@@ -575,7 +575,6 @@ a.ref-internal { text-decoration-style: dotted; }
 .note-title { font-size: 1.12rem; margin: 0 0 6px; }
 .note-body { font-size: 1em; }
 .note-sources { font-size: .82rem; color: var(--muted); margin: 12px 0 0; padding-top: 10px; border-top: 1px dashed var(--line); }
-.note-sources span { font-weight: 700; }
 @media (prefers-reduced-motion: reduce) { .note, .verse:target, .verse.flash { animation: none; } }
 .hint-wide { display: none; }
 
@@ -589,6 +588,7 @@ a.ref-internal { text-decoration-style: dotted; }
 .note.is-card .note-body, .note.is-card .note-sources, .note.is-card .bom-text, .note.is-card .bom-legend, .note.is-card .bom-explain-title { display: none; }
 .note.is-card .note-title { font-size: .98rem; margin: 0 0 2px; }
 .note.is-card .note-teaser { display: block; margin: 0; font-size: .86em; line-height: 1.45; color: var(--ink-2); }
+.phr.is-linked:not([aria-expanded='true']) { background: linear-gradient(to top, color-mix(in srgb, var(--k) 32%, transparent) 38%, transparent 38%); }
 .phr.is-linked[aria-expanded='true'] { background: color-mix(in srgb, var(--k) 20%, transparent); }
 .marker.is-linked { outline: 2px solid var(--k); outline-offset: 1px; }
 
@@ -602,7 +602,7 @@ a.ref-internal { text-decoration-style: dotted; }
   .reader { position: relative; }
   .reader .note {
     position: absolute; left: calc(100% + var(--margin-gap)); width: var(--margin-w); margin: 0;
-    max-height: calc(100vh - 140px); overflow-y: auto; overscroll-behavior: contain;
+    max-height: calc(100vh - var(--section-nav-h) - 32px); max-height: calc(100dvh - var(--section-nav-h) - 32px); overflow-y: auto; overscroll-behavior: contain;
     font-size: calc(.94rem * var(--reader-scale));
   }
   .hint-wide { display: inline; }
@@ -630,7 +630,7 @@ a.ref-internal { text-decoration-style: dotted; }
 
 /* ---------- search ---------- */
 .search-form { position: relative; margin-top: 18px; }
-.search-form .icon { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); color: var(--muted); width: 22px; height: 22px; }
+.search-input .icon { position: absolute; left: 16px; top: 50%; transform: translateY(-50%); color: var(--muted); width: 22px; height: 22px; }
 .search-form input { width: 100%; font: 500 1.1rem var(--font-ui); padding: 14px 16px 14px 48px; border-radius: 14px; border: 1.5px solid var(--line-2); background: var(--surface); color: var(--ink); }
 .search-form input:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
 .search-filters { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 12px; }
@@ -645,9 +645,10 @@ a.ref-internal { text-decoration-style: dotted; }
 
 /* ---------- print ---------- */
 @media print {
-  .site-header, .site-footer, .reader-bar, .reader-hint, .pager, .dial, .note-close, .note-link { display: none !important; }
+  .site-header, .site-footer, .reader-bar, .reader-hint, .pager, .dial, .note-close, .note-link, .note-teaser { display: none !important; }
   .note { display: block !important; box-shadow: none; break-inside: avoid; position: static !important; width: auto !important; max-height: none !important; }
   .note[hidden] { display: block !important; }
+  .note.is-card .note-body, .note.is-card .note-sources, .note.is-card .bom-text, .note.is-card .bom-legend, .note.is-card .bom-explain-title { display: block !important; }
   body { background: #fff; }
 }
 
@@ -714,14 +715,14 @@ a.ref-internal { text-decoration-style: dotted; }
 .note.is-card .note-expand { display: none; }
 .note-sources summary { cursor: pointer; font-weight: 700; }
 .note-sources > div { margin-top: 8px; }
-.note-dialog { width: min(760px, calc(100% - 32px)); max-height: calc(100dvh - 40px); padding: 24px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--ink); }
+.note-dialog { width: min(760px, calc(100% - 32px)); max-height: calc(100vh - 40px); max-height: calc(100dvh - 40px); padding: 24px; border: 1px solid var(--line); border-radius: var(--radius); background: var(--surface); color: var(--ink); }
 .note-dialog::backdrop { background: rgb(0 0 0 / .45); }
 .note-dialog-bar { position: sticky; top: 0; z-index: 1; background: var(--surface); padding-block: 8px; display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 18px; color: var(--muted); font-size: .85rem; }
 .note-dialog-verse { margin-bottom: 20px; padding-bottom: 16px; border-bottom: 1px solid var(--line); font: 1rem/1.8 var(--font-read); }
 .note-dialog-content .note { display: block; position: static; width: auto; max-height: none; overflow: visible; padding: 0; margin: 0; border: 0; box-shadow: none; animation: none; }
 .note-dialog-content .note-title { font-size: 1.4rem; }
 .search-form { display: flex; gap: 10px; }
-.search-form input { min-width: 0; flex: 1; }
+.search-input { position: relative; min-width: 0; flex: 1; }
 .search-form > .btn { flex: none; }
 .page-search .wrap.narrow { max-width: 800px; }
 .search-scope { margin-top: 12px; }
@@ -735,7 +736,7 @@ a.ref-internal { text-decoration-style: dotted; }
 .scope-choice { width: 100%; text-align: left; padding: 8px; border: 0; background: none; border-radius: 8px; color: var(--ink-2); font: 500 .88rem var(--font-ui); cursor: pointer; }
 .scope-choice:hover { background: var(--bg-2); }
 .scope-choice[aria-pressed='true'] { background: var(--accent-soft); color: var(--accent-ink); }
-.scope-books { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.scope-books { max-height: min(360px, 50vh); max-height: min(360px, 50dvh); overflow-y: auto; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); }
 .scope-empty { color: var(--muted); font-size: .88rem; padding: 0 8px; grid-column: 1/-1; }
 .scope-footer { grid-column: 1/-1; display: flex; justify-content: space-between; padding: 10px 16px; border-top: 1px solid var(--line); }
 .scope-clear { background: none; border: 0; padding: 0; color: var(--accent-ink); text-decoration: underline; font: inherit; cursor: pointer; }
@@ -744,12 +745,14 @@ a.ref-internal { text-decoration-style: dotted; }
 .search-results .sr-title { display: inline; padding: 0; background: none; border: 0; color: var(--ink); }
 .search-results .sr-title:hover { color: var(--accent-ink); text-decoration: underline; }
 @media (max-width: 600px) {
-  .section-nav { gap: 5px 14px; }
-  .section-nav > span { flex-basis: 100%; }
+  .section-nav { gap: 5px 14px; flex-wrap: nowrap; overflow-x: auto; }
+  .section-nav > span { display: none; }
+  .section-nav a { flex: none; white-space: nowrap; }
   .scope-panel { grid-template-columns: 1fr; }
   .scope-column + .scope-column { border-left: 0; border-top: 1px solid var(--line); }
   .scope-volumes, .scope-books { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .search-form { flex-wrap: wrap; }
+  .search-input { flex-basis: 100%; }
   .note-dialog { padding: 18px; }
 }
 @media print { .section-nav, .chapter-steps, .division-chapters, .note-expand, .note-dialog { display: none !important; } }
