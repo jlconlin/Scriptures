@@ -1,9 +1,9 @@
 // Reads the reviewers' results from a write-chapters workflow run (.claude/workflows/write-chapters.js) and
-// files what they reported: reader questions no source answered go to content/<book>/UNANSWERED.md, topics that run across chapters to its THEME-CANDIDATES.md.
+// files what they reported: reader questions no source answered go to content/<book>/UNANSWERED.md, topics that run across chapters to .cache/batch/<book>/theme-leads.md (working notes, not committed).
 // Prints what the reviewers left for the author, to be settled or added by hand to OPEN-QUESTIONS.md at the
 // top of the repository, and what blocked a reviewer.
 // Usage: node scripts/batch-notes.mjs <book> <the run's journal.jsonl> [--dry]
-import { readFileSync, appendFileSync, existsSync } from 'node:fs';
+import { readFileSync, appendFileSync, existsSync, mkdirSync } from 'node:fs';
 import path from 'node:path';
 import { findBook, bookArg } from '../src/lib/books.mjs';
 
@@ -33,7 +33,10 @@ if (!dry) {
   const file = path.join(book.dir, 'UNANSWERED.md');
   if (!existsSync(file)) appendFileSync(file, `# ${book.name}: reader questions no source answered\n\nQuestions a reader would ask that no source read answered, by chapter: a list for a later deepening pass. Kept out of \`BRIEF.md\` so the brief stays brief.\n\n`);
   appendFileSync(file, unanswered);
-  appendFileSync(path.join(book.dir, 'THEME-CANDIDATES.md'), themes);
+  // The reviewers' theme leads are no longer appended to THEME-CANDIDATES.md (author, 2026-10-11, of Psalms' file: “way too much
+  // stuff in there”). They are written to the batch's working folder for the coordinator, who proposes a few arcs after the book is written.
+  mkdirSync(path.join(ROOT, '.cache/batch', book.slug), { recursive: true });
+  appendFileSync(path.join(ROOT, '.cache/batch', book.slug, 'theme-leads.md'), themes);
 }
 console.log(reviews.map((r) => `${r.chapter}: ${r.ready ? 'ready' : 'NOT READY'}`).join(', '));
 for (const r of reviews) for (const q of r.authorQuestions ?? []) console.log(`\nFor the author, chapter ${r.chapter}: ${q}`);
