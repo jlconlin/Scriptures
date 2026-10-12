@@ -577,6 +577,66 @@
   }
 
   // ---------- search ----------
+  // Measure shared sticky surfaces once; CSS owns their layout and anchor offsets.
+  const sectionNav = $('.section-nav');
+  const header = $('.site-header');
+  const readingTools = $('.reader-bar');
+  const measureBars = () => {
+    root.style.setProperty('--header-h', `${header?.offsetHeight ?? 56}px`);
+    root.style.setProperty('--section-nav-h', `${sectionNav?.offsetHeight ?? 0}px`);
+    root.style.setProperty('--reader-tools-h', `${readingTools?.offsetHeight ?? 0}px`);
+  };
+  const bars = new ResizeObserver(measureBars);
+  [header, sectionNav, readingTools].filter(Boolean).forEach((el) => bars.observe(el));
+  measureBars();
+  if (sectionNav) {
+    const links = $$('a', sectionNav);
+    const targets = links.map((a) => document.getElementById(a.hash.slice(1)));
+    let queued = false;
+    const updateSection = () => {
+      queued = false;
+      const top = (header?.offsetHeight ?? 56) + sectionNav.offsetHeight + (readingTools?.offsetHeight ?? 0) + 24;
+      let current = 0;
+      targets.forEach((t, i) => { if (t && t.getBoundingClientRect().top <= top) current = i; });
+      links.forEach((a, i) => i === current ? a.setAttribute('aria-current', 'location') : a.removeAttribute('aria-current'));
+    };
+    sectionNav.addEventListener('click', (e) => {
+      const a = e.target.closest('a');
+      const target = a && document.getElementById(a.hash.slice(1));
+      const intro = target?.closest('details.intro');
+      if (intro) intro.open = true;
+    });
+    addEventListener('scroll', () => { if (!queued) { queued = true; requestAnimationFrame(updateSection); } }, { passive: true });
+    updateSection();
+  }
+
+  // A native dialog keeps long notes readable without moving the passage or duplicating IDs.
+  const expandedNote = $('.note-dialog');
+  if (expandedNote) {
+    let opener;
+    document.addEventListener('click', (e) => {
+      const button = e.target.closest('[data-expand-note]');
+      if (!button) return;
+      const note = document.getElementById(button.dataset.expandNote);
+      if (!note) return;
+      opener = button;
+      const clone = note.cloneNode(true);
+      clone.hidden = false;
+      clone.classList.remove('is-card');
+      [clone, ...$$('[id]', clone)].forEach((el) => el.removeAttribute('id'));
+      $$('.note-head, .note-teaser', clone).forEach((el) => el.remove());
+      const title = $('.note-title', clone);
+      if (title) title.id = 'expanded-note-title';
+      $('.note-dialog-content', expandedNote).replaceChildren(clone);
+      const verse = note.closest('.verse-block')?.querySelector('.verse');
+      $('.note-dialog-verse', expandedNote).textContent = verse?.textContent.trim() ?? '';
+      expandedNote.showModal();
+    });
+    $('[data-dialog-close]', expandedNote).addEventListener('click', () => expandedNote.close());
+    expandedNote.addEventListener('close', () => { opener?.focus(); });
+    expandedNote.addEventListener('click', (e) => { if (e.target === expandedNote) { const r = expandedNote.getBoundingClientRect(); if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) expandedNote.close(); } });
+  }
+
   const q = $('#q');
   if (q) {
     const results = $('.search-results');
@@ -584,6 +644,11 @@
     let index = null;
     let filter = 'all';
     let bookFilter = 'all';
+    let volumeFilter = 'all';
+    let request = 0;
+    const scope = $('.search-scope');
+    const library = JSON.parse(scope.dataset.library);
+    const allBooks = library.flatMap((v) => v.books.map((b) => ({ ...b, volume: v.key })));
     const KIND_LABEL = { verse: 'Verse', note: 'Note', chapter: 'Chapter', guide: 'Guide' };
     const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
     const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[’‘]/g, "'");
@@ -592,7 +657,7 @@
       if (index) return index;
       status.textContent = 'Loading…';
       const data = await (await fetch('/search.json')).json();
-      index = data.map((d) => ({ ...d, n: norm(`${d.h ?? ''} ${d.x}`) }));
+      index = data.map((d) => ({ ...d, n: norm(`${d.h ?? ''} ${d.r} ${d.x}`) }));
       status.textContent = '';
       return index;
     };
@@ -611,29 +676,39 @@
     };
 
     const run = async () => {
+      const version = ++request;
       const raw = q.value.trim();
       const url = new URL(location);
       raw ? url.searchParams.set('q', raw) : url.searchParams.delete('q');
       history.replaceState(null, '', url);
       if (raw.length < 2) { results.innerHTML = ''; status.textContent = ''; return; }
       const idx = await load();
+      if (version !== request) return;
       const phrase = norm(raw.replace(/^["“]|["”]$/g, ''));
       const terms = phrase.split(/\s+/).filter(Boolean);
       const scored = [];
+      const reference = raw.match(/^(.*?)\s*(\d+)(?::\s*(\d+)(?:\s*[–-]\s*(\d+))?)?$/);
+      const refBook = reference && allBooks.find((b) => [b.name, ...b.aliases].some((a) => a.toLowerCase().replace(/[.\s]/g, '') === reference[1].toLowerCase().replace(/[.\s]/g, '')));
       for (const d of idx) {
         if (filter !== 'all' && !(filter === 'chapter' ? d.t === 'chapter' || d.t === 'guide' : d.t === filter)) continue;
         if (bookFilter !== 'all' && d.b !== bookFilter) continue;
-        if (!terms.every((w) => d.n.includes(w))) continue;
-        let score = d.n.includes(phrase) ? 10 : 0;
+        if (volumeFilter !== 'all' && !library.find((v) => v.key === volumeFilter)?.books.some((b) => b.slug === d.b)) continue;
+        const prefix = refBook && `/${refBook.slug}/${Number(reference[2])}/`;
+        const verse = Number(d.u.split('#v')[1]);
+        const direct = prefix && (reference[3] ? d.t === 'verse' && d.u.startsWith(prefix) && verse >= Number(reference[3]) && verse <= Number(reference[4] ?? reference[3]) : d.t === 'chapter' && d.u === prefix);
+        const noteRange = d.t === 'note' && d.r.match(/:(\d+)(?:[–-](\d+))?/);
+        const attached = prefix && noteRange && d.u.startsWith(prefix) && (!reference[3] || Number(noteRange[1]) <= Number(reference[4] ?? reference[3]) && Number(noteRange[2] ?? noteRange[1]) >= Number(reference[3]));
+        if (!direct && !attached && !terms.every((w) => d.n.includes(w))) continue;
+        let score = direct ? 1000 - (verse || 0) / 10000 : attached ? 500 : d.n.includes(phrase) ? 10 : 0;
         if (d.h && norm(d.h).includes(phrase)) score += 8;
         score += { chapter: 3, guide: 2, note: 2, verse: 1 }[d.t];
-        scored.push([score, d]);
+        scored.push([score, d, direct]);
       }
       scored.sort((a, b) => b[0] - a[0]);
       const top = scored.slice(0, 80);
-      status.textContent = scored.length ? `${scored.length} result${scored.length === 1 ? '' : 's'}${scored.length > 80 ? ' (showing the first 80)' : ''}` : 'Nothing found. Try fewer or different words.';
+      status.textContent = scored.length ? `${scored.length} result${scored.length === 1 ? '' : 's'}${scored.length > 80 ? ' (showing the first 80)' : ''}` : volumeFilter !== 'all' || bookFilter !== 'all' ? 'Nothing found in this selection. Try a different volume or book, or clear the filter.' : 'Nothing found. Try fewer or different words.';
       results.innerHTML = top
-        .map(([, d]) => `<li><a href="${d.u}"><span class="sr-meta">${d.k ? `<span class="kind-chip k-${d.k}">${KIND_LABEL[d.t]}</span>` : `<span>${KIND_LABEL[d.t]}</span>`}<span>${esc(d.r)}</span></span>${d.h ? `<span class="sr-title">${esc(d.h)}</span>` : ''}<span class="sr-text">${snippet(d.x, terms)}</span></a></li>`)
+        .map(([, d, direct]) => `<li class="search-result${direct ? ' direct-result' : ''}"><span class="sr-meta"><span>${KIND_LABEL[d.t]}</span>${d.h ? `<span>${esc(d.r)}</span>` : ''}</span><a class="sr-title" href="${d.u}">${esc(d.h || d.r)}</a><span class="sr-text">${direct && d.t === 'verse' ? esc(d.x) : snippet(d.x, terms)}</span></li>`)
         .join('');
     };
 
@@ -646,13 +721,30 @@
         run();
       }),
     );
-    $$('[data-book-filter]').forEach((b) =>
-      b.addEventListener('click', () => {
-        bookFilter = b.dataset.bookFilter;
-        $$('[data-book-filter]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
-        run();
-      }),
-    );
+    const choice = (label, selected, action) => {
+      const b = document.createElement('button');
+      b.type = 'button'; b.className = 'scope-choice'; b.textContent = label;
+      b.setAttribute('aria-pressed', String(selected)); b.addEventListener('click', action); return b;
+    };
+    const renderScope = () => {
+      const volumes = $('.scope-volumes', scope), books = $('.scope-books', scope);
+      volumes.replaceChildren(); books.replaceChildren();
+      const selectVolume = (v) => { volumeFilter = v; bookFilter = 'all'; renderScope(); run(); };
+      volumes.append(choice('All volumes', volumeFilter === 'all', () => selectVolume('all')));
+      library.forEach((v) => volumes.append(choice(v.name, volumeFilter === v.key, () => selectVolume(v.key))));
+      books.append(choice('All books', bookFilter === 'all', () => { bookFilter = 'all'; renderScope(); run(); }));
+      const bs = allBooks.filter((b) => volumeFilter === 'all' || b.volume === volumeFilter);
+      bs.forEach((b) => books.append(choice(b.name, bookFilter === b.slug, () => { bookFilter = b.slug; volumeFilter = b.volume; renderScope(); run(); scope.open = false; })));
+      if (!bs.length) { const p = document.createElement('p'); p.className = 'scope-empty'; p.textContent = 'No books from this volume are on the site yet.'; books.append(p); }
+      $('.scope-label', scope).textContent = bookFilter !== 'all' ? allBooks.find((b) => b.slug === bookFilter).name : volumeFilter !== 'all' ? library.find((v) => v.key === volumeFilter).name : 'All scriptures';
+      $('.scope-books-heading', scope).textContent = volumeFilter === 'all' ? 'Book' : library.find((v) => v.key === volumeFilter).name;
+    };
+    $('.scope-clear', scope).addEventListener('click', () => { volumeFilter = 'all'; bookFilter = 'all'; renderScope(); run(); });
+    $('.scope-done', scope).addEventListener('click', () => { scope.open = false; });
+    document.addEventListener('click', (e) => { if (!e.composedPath().includes(scope)) scope.open = false; });
+    scope.addEventListener('keydown', (e) => { if (e.key === 'Escape') { scope.open = false; $('summary', scope).focus(); } });
+    $('.search-form').addEventListener('submit', (e) => { e.preventDefault(); run(); });
+    renderScope();
     const initial = new URL(location).searchParams.get('q');
     if (initial) { q.value = initial; run(); }
   }

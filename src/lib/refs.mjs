@@ -58,6 +58,9 @@ const internalPath = (abbr, chapter) => { const b = LIBRARY.find((x) => x.abbr =
 
 const norm = (b) => b.toLowerCase().replace(/[.\s]/g, '');
 
+// The browser's reference search uses the same aliases as content links.
+export const bookAliases = (slug) => Object.keys(BOOKS).filter((key) => BOOKS[key][1] === slug);
+
 /** Parse "2 Ne. 25:1–8" -> {book, vol, slug, chapter, verses:[first,last]|null}. `prevBook` lets "13:4" inherit. */
 export function parseRef(text, prevBook) {
   const m = text.trim().match(/^(.*?)\s*(\d+)(?::\s*(\d+)(?:\s*[–-]\s*(\d+)(:\d+)?)?(?:\s*,.*)?)?(?:\s*[–-]\s*(\d+))?$/);

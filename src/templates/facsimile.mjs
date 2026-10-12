@@ -2,6 +2,7 @@ import { md, mdInline, esc, plain } from '../lib/markdown.mjs';
 import { KINDS } from '../site.mjs';
 import { layout, icon, lastRevised } from './layout.mjs';
 import { renderSource } from './sources.mjs';
+import { readingTools, noteDialog } from './ui.mjs';
 import { highlightVerse, noteHtml } from './chapter.mjs';
 
 export const facsimileUrl = (book, n) => `/${book.slug}/facsimile-${n}/`;
@@ -73,15 +74,7 @@ export function renderFacsimile({ book, fac, sources, warn }) {
         <figcaption>${mdInline(fac.credit)}</figcaption>
       </figure>
 
-      ${kindsUsed.length ? `<div class="reader-bar" id="reading" role="toolbar" aria-label="Reading tools">
-        <div class="legend">
-          ${kindsUsed.map((k) => `<button type="button" class="kind-chip k-${k} filter" aria-pressed="true" data-kind="${k}" title="${esc(KINDS[k].blurb)}">${icon(k)}${esc(KINDS[k].short)} <span class="count">${counts[k]}</span></button>`).join('')}
-        </div>
-        <div class="reader-actions">
-          <button type="button" class="tool" data-action="related" aria-pressed="false" title="Show every note as a card beside the text">${icon('panel')}<span>Related</span></button>
-          <button type="button" class="tool" data-action="font" title="Text size" aria-label="Change text size"><span class="aa">Aa</span></button>
-        </div>
-      </div>
+      ${kindsUsed.length ? `${readingTools(kindsUsed, counts, { plain: false })}
       <p class="reader-hint">Tap any <span class="hint-phr">highlighted phrase</span> to open a note <span class="hint-narrow">beneath its figure</span><span class="hint-wide">in the margin</span>.</p>` : ''}
 
       <div class="reader">
@@ -101,7 +94,8 @@ export function renderFacsimile({ book, fac, sources, warn }) {
       </nav>
     </div>
   </div>
-</article>`;
+</article>
+${noteDialog()}`;
 
   return layout({
     title: `${book.name}, ${name}: ${plain(fac.title)}`,

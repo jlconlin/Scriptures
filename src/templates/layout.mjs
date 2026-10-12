@@ -57,7 +57,7 @@ ${head}
 <a class="skip" href="#main">Skip to content</a>
 <header class="site-header">
   <div class="wrap header-inner">
-    <a class="brand" href="/">${logo}<span>${esc(SITE.name)}</span></a>
+    <a class="brand" href="/" aria-label="Line upon Line — Home">${logo}<span>${esc(SITE.name)}</span></a>
     ${nav}
     <button class="theme-toggle" type="button" aria-label="Toggle dark mode" title="Toggle dark mode">${icon('moon')}${icon('sun')}</button>
   </div>

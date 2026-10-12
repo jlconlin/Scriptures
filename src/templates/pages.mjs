@@ -4,6 +4,7 @@ import { layout, icon, logo, lastRevised } from './layout.mjs';
 import { renderSource } from './sources.mjs';
 import { gospelLibraryUrl, chapterLabel, unitPlural } from './chapter.mjs';
 import { VOLUMES, gospelLibraryVolume } from '../lib/canon.mjs';
+import { sectionNav, chapterNumbers, searchScope } from './ui.mjs';
 
 const ensignArt = `<svg class="hero-art" viewBox="0 0 320 220" aria-hidden="true">
   <defs>
@@ -30,6 +31,8 @@ export const teaserText = (note) => plain(note.body).slice(0, 150);
 // is the Scriptures menu's picker, open on the page: site.js draws it from the menu's data plus the
 // blurbs in data-books. Without JavaScript it is the list of volumes and books written here.
 export function renderHome({ books, featured }) {
+  const exampleBook = books.find((b) => b.written.length);
+  const exampleChapter = exampleBook?.written[0];
   const inVolume = (v) => books.filter((b) => b.place.vol === v.key).sort((a, b) => a.place.index - b.place.index);
   const info = Object.fromEntries(books.map((b) => [b.slug, { blurb: b.home.blurb, themes: b.hasThemes }]));
   const fallback = VOLUMES.map((v) => {
@@ -45,11 +48,12 @@ export function renderHome({ books, featured }) {
       <p class="lede">Some passages of scripture make you stop and read them three times. This site is for those passages. It goes phrase by phrase, the way a patient religion teacher might, with the history, the language, the imagery, and the witness of Jesus Christ that sits underneath them.</p>
     </div>
   </div>
-  <div class="wrap home-hero-visual">${homeHeroArt}</div>
   <div class="wrap home-hero-actions"><div class="cta-row">
     <a class="btn btn-primary" href="#library">Choose a book</a>
-    <a class="btn" href="/about/">How this site works</a>
+    ${exampleChapter ? `<a class="btn" href="/${exampleBook.slug}/${exampleChapter.chapter}/#reading">Try the reading experience</a>` : ''}
+    <a class="home-about" href="/about/">How this site works</a>
   </div></div>
+  <div class="wrap home-hero-visual">${homeHeroArt}</div>
 </section>
 
 <section class="wrap home-section" id="library">
@@ -120,6 +124,7 @@ export function renderBookIndex({ book, guides, sources }) {
     <h3>${esc(d.name)}</h3>
     <p>${mdInline(d.blurb)}</p>
   </header>
+  ${chapterNumbers(book, chs)}
   <ol class="chapter-cards">
     ${chs
       .map((c) =>
@@ -154,12 +159,14 @@ export function renderBookIndex({ book, guides, sources }) {
   </div>
 </section>
 
+${sectionNav([["chapters", "Chapters"], ["beloved", "Beloved passages"], ["book-sources", "Sources"]])}
+
 ${guides.length ? `<p class="wrap start-callout">${icon('key')}<span>New to ${esc(book.name)}? Start with <a href="/${book.slug}/guides/">Guides</a>.</span></p>` : ''}
 
 <section class="wrap book-section" id="chapters">
   <h2 class="section-title">The ${esc(unitPlural(book))}</h2>
   <p class="section-sub">${esc(book.divisionsBlurb)}</p>
-  <div class="dial-wrap division-map-wrap"><div class="dial-label" aria-hidden="true" hidden></div><div class="division-map" aria-hidden="true">
+  <div class="dial-wrap division-map-wrap"><div class="dial-label" aria-hidden="true" hidden></div><div class="division-map" aria-label="Book sections">
     ${book.divisions.map((d) => `<a href="#${d.key}" style="--div:var(--div-${d.key});--c:var(--div-${d.key});flex:${d.range[1] - d.range[0] + 1}" data-label="${esc(d.name)}" data-div="${esc(book.name)} ${d.range[0]}–${d.range[1]}"><span>${d.range[0]}–${d.range[1]}</span></a>`).join('')}
   </div></div>
   ${divisions}
@@ -179,14 +186,14 @@ ${book.facsimiles?.length ? `<section class="wrap book-section" id="facsimiles">
 </section>` : ''}
 
 
-<section class="wrap book-section">
+<section class="wrap book-section" id="beloved">
   <h2 class="section-title">Beloved passages</h2>
   <ul class="beloved">
     ${book.beloved.map((b) => `<li><a href="/${book.slug}/${b.chapter}/#v${b.verse}"><span class="bel-text">“${esc(b.text)}”</span><span class="bel-ref">${esc(chapterLabel(book, b.chapter))}:${b.verse}</span></a></li>`).join('')}
   </ul>
 </section>
 
-<section class="wrap book-section">
+<section class="wrap book-section" id="book-sources">
   <h2 class="section-title">Most-used sources</h2>
   <p class="section-sub">Every note cites its sources. These are the ones this commentary leans on most.</p>
   <ul class="source-list">${book.coreSources.map((s) => `<li>${renderSource(s, sources)}</li>`).join('')}</ul>
@@ -287,10 +294,11 @@ export function renderSearch() {
 <header class="page-hero"><div class="wrap narrow">
   <h1>Search</h1>
   <p class="lede">Find a verse, a phrase, a name, or a topic across the text and the notes.</p>
-  <form class="search-form" role="search" onsubmit="return false">
+  <form class="search-form" role="search">
     <label class="sr" for="q">Search</label>
     ${icon('search')}
-    <input id="q" type="search" placeholder="Try “wings as eagles”, “Immanuel”, or “Cyrus”" autocomplete="off" autofocus>
+    <input id="q" type="search" placeholder="Isaiah 53:5, “wings as eagles”, or a topic" autocomplete="off" autofocus>
+    <button type="submit" class="btn btn-primary">Search</button>
   </form>
   <div class="search-filters" role="group" aria-label="Filter results">
     <button type="button" class="tool" data-filter="all" aria-pressed="true">Everything</button>
@@ -298,10 +306,7 @@ export function renderSearch() {
     <button type="button" class="tool" data-filter="note" aria-pressed="false">Notes</button>
     <button type="button" class="tool" data-filter="chapter" aria-pressed="false">Chapters &amp; guides</button>
   </div>
-  ${LIBRARY.length > 1 ? `<div class="search-filters" role="group" aria-label="Books to search">
-    <button type="button" class="tool" data-book-filter="all" aria-pressed="true">All books</button>
-    ${LIBRARY.map((b) => `<button type="button" class="tool" data-book-filter="${b.slug}" aria-pressed="false">${esc(b.name)}</button>`).join('\n    ')}
-  </div>` : ''}
+  ${searchScope()}
 </div></header>
 <div class="wrap narrow"><p class="search-status" aria-live="polite"></p><ol class="search-results"></ol></div>`;
   return layout({ title: 'Search', path: '/search/', body, bodyClass: 'page-search' });

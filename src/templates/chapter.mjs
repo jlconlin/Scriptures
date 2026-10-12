@@ -2,6 +2,7 @@ import { md, mdInline, esc, plain } from '../lib/markdown.mjs';
 import { KINDS, SECTIONS, sectionTitle } from '../site.mjs';
 import { layout, icon, lastRevised } from './layout.mjs';
 import { renderSource } from './sources.mjs';
+import { sectionNav, readingTools, noteSources, noteDialog } from './ui.mjs';
 import { compareVerse } from '../lib/bomdiff.mjs';
 
 /** A chapter in the Gospel Library, where unwritten chapters send readers. */
@@ -75,12 +76,13 @@ export function noteHtml(n, sources) {
   <div class="note-head">
     <span class="kind-chip k-${n.kind}">${icon(n.kind)}${esc(k.label)}</span>
     <a class="note-link" href="#${n.id}" title="Link to this note" aria-label="Link to this note">#</a>
+    <button type="button" class="note-expand" data-expand-note="${n.id}">Expand</button>
     <button type="button" class="note-close" aria-label="Close note" data-close="${n.id}">×</button>
   </div>
   <h4 class="note-title">${mdInline(n.title ?? (n.phrase ? `“${n.phrase}”` : 'A closer look'))}</h4>
   <p class="note-teaser">${esc(teaser(n.body))}</p>
   <div class="note-body prose">${md(n.body)}</div>
-  ${src.length ? `<p class="note-sources"><span>Sources:</span> ${src.join(' ')}</p>` : ''}
+  ${noteSources(src)}
 </aside>`;
 }
 
@@ -91,6 +93,7 @@ function bomNoteHtml(b, sources) {
   <div class="note-head">
     <span class="kind-chip k-bom">${icon('bom')}${esc(KINDS.bom.label)}</span>
     <a class="note-link" href="#${b.id}" title="Link to this note" aria-label="Link to this note">#</a>
+    <button type="button" class="note-expand" data-expand-note="${b.id}">Expand</button>
     <button type="button" class="note-close" aria-label="Close" data-close="${b.id}">×</button>
   </div>
   <h4 class="note-title">${mdInline(`[[${b.ref}]]`)} reads differently</h4>
@@ -98,7 +101,7 @@ function bomNoteHtml(b, sources) {
   <p class="bom-legend"><ins>added or changed in the Book of Mormon</ins> <del>in the King James Version only</del></p>
   ${x ? `<h5 class="bom-explain-title">${mdInline(x.title ?? 'Why it matters')}</h5>
   <div class="note-body prose">${md(x.body)}</div>
-  ${src.length ? `<p class="note-sources"><span>Sources:</span> ${src.join(' ')}</p>` : ''}` : ''}
+  ${noteSources(src)}` : ''}
 </aside>`;
 }
 
@@ -243,33 +246,26 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
       ${ch.tagline ? `<p class="tagline">${mdInline(ch.tagline)}</p>` : ''}
       ${lastRevised(ch.updated)}
       <div class="dial-wrap"><div class="dial-context"><span>${book.unit ? `The ${esc(unitPlural(book))}` : `${esc(book.name)} chapters`}</span><strong>${esc(book.unit?.singular ?? 'Chapter')} ${n} of ${book.chapters.length}</strong></div><div class="dial-label" aria-hidden="true" hidden></div><div class="dial" style="--n:${book.chapters.length}" aria-label="${book.unit ? `The ${esc(unitPlural(book))}` : `Chapters of ${esc(book.name)}`}">${dial}</div></div>
+      <nav class="chapter-steps" aria-label="Adjacent chapters">${prev ? `<a href="/${book.slug}/${prev.chapter}/">${icon('arrowL')}${esc(chapterLabel(book, prev.chapter))}</a>` : '<span></span>'}${next ? `<a href="/${book.slug}/${next.chapter}/">${esc(chapterLabel(book, next.chapter))}${icon('arrowR')}</a>` : ''}</nav>
       <div class="hero-meta">
         ${ch.when ? `<span>${icon('history')} ${mdInline(ch.when)}</span>` : ''}
         ${ch.parallels?.some((p) => p.primary) ? `<span>${icon('restoration')} Also in ${mdInline(ch.parallels.filter((p) => p.primary).map((p) => `[[${p.ref}]]`).join(', '))}</span>` : ''}
         ${(book.facsimiles ?? []).filter((f) => f.with === n).map((f) => `<span>${icon('symbol')} <a href="/${book.slug}/facsimile-${f.n}/">Facsimile ${f.n}</a></span>`).join('')}
         <span>${icon('book')} <a href="${churchUrl}" target="_blank" rel="noopener">Read with footnotes in Gospel Library</a></span>
       </div>
+
       <a class="chapter-start" href="#reading">Start reading ${icon('arrowR')}</a>
     </div>
   </header>
 
   <div class="wrap chapter-grid">
+    ${sectionNav([ch.setting && ['setting-h', sectionTitle('setting')], ['reading', 'Scripture & notes'], ch.christ && ['christ-h', 'Seeing Christ'], srcList.length && ['src-h', 'Sources']])}
     <div class="chapter-main">
       ${ch.setting ? introSection({ key: 'setting', cls: 'setting card', body: ch.setting, prose: 'prose', preview: true }) : ''}
 
       ${ch.thread ? introSection({ key: 'thread', cls: 'thread', body: ch.thread, prose: 'prose prose-lg' }) : ''}
 
-      <div class="reader-bar" id="reading" role="toolbar" aria-label="Reading tools">
-        <div class="legend">
-          ${kindsUsed.map((k) => `<button type="button" class="kind-chip k-${k} filter" aria-pressed="true" data-kind="${k}" title="${esc(KINDS[k].blurb)}">${icon(k)}${esc(KINDS[k].short)} <span class="count">${counts[k]}</span></button>`).join('')}
-        </div>
-        <div class="reader-actions">
-          <button type="button" class="tool tool-notes" data-action="notes-reset" aria-label="Hide all note kinds" title="Hide all note kinds">${icon('symbol')}</button>
-          <button type="button" class="tool" data-action="toggle-plain" aria-pressed="true" title="Show or hide the ${esc(sectionTitle('plain'))} summaries" aria-label="Show or hide the ${esc(sectionTitle('plain'))} summaries">${icon('text')}</button>
-          <button type="button" class="tool" data-action="related" aria-pressed="false" title="Show every note as a card beside the text">${icon('panel')}<span>Related</span></button>
-          <button type="button" class="tool" data-action="font" title="Text size" aria-label="Change text size"><span class="aa">Aa</span></button>
-        </div>
-      </div>
+      ${readingTools(kindsUsed, counts)}
       <p class="reader-hint">Tap any <span class="hint-phr">highlighted phrase</span> to open a note <span class="hint-narrow">beneath its verse</span><span class="hint-wide">in the margin</span>.</p>
 
       <div class="reader">
@@ -291,7 +287,8 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
       </nav>
     </div>
   </div>
-</article>`;
+</article>
+${noteDialog()}`;
 
   return layout({
     title: `${chapterName}: ${plain(ch.title)}`,
