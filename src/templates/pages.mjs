@@ -162,7 +162,7 @@ export function renderBookIndex({ book, guides, sources }) {
   </div>
 </section>
 
-${sectionNav([["chapters", "Chapters"], ["beloved", "Beloved passages"], ["book-sources", "Sources"]])}
+${sectionNav([['chapters', 'Chapters'], book.facsimiles?.length && ['facsimiles', 'Facsimiles'], ['beloved', 'Beloved passages'], ['book-sources', 'Sources']])}
 
 ${guides.length ? `<p class="wrap start-callout">${icon('key')}<span>New to ${esc(book.name)}? Start with <a href="/${book.slug}/guides/">Guides</a>.</span></p>` : ''}
 
