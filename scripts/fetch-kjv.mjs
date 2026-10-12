@@ -197,6 +197,24 @@ const LDS_SPELLINGS = [
   [/^Lord, I cry unto thee/g, 'LORD, I cry unto thee'], // Ps. 141:1
   [/snow, and vapours; stormy wind/g, 'snow, and vapour; stormy wind'], // Ps. 148:8
   [/a two-edged sword in their hand/g, 'a twoedged sword in their hand'], // Ps. 149:6
+  // Exodus: “Lord” (adonai) where the source has LORD and the reverse, hyphens in names, old spellings
+  // and a dash (found by scripts/check-kjv.mjs).
+  [/O my LORD, I am not eloquent/g, 'O my Lord, I am not eloquent'], // Ex. 4:10
+  [/O my LORD, send, I pray thee/g, 'O my Lord, send, I pray thee'], // Ex. 4:13
+  [/and said, LORD, wherefore hast thou so evil entreated/g, 'and said, Lord, wherefore hast thou so evil entreated'], // Ex. 5:22
+  [/\bIntreat the LORD/g, 'Entreat the LORD'], // Ex. 8:8; 9:28
+  [/in the bason/g, 'in the basin'], // Ex. 12:22
+  [/Pihahiroth/g, 'Pi-hahiroth'], // Ex. 14:2, 9
+  [/Baalzephon/g, 'Baal-zephon'], // Ex. 14:2, 9
+  [/the Sanctuary, O LORD, which thy hands/g, 'the Sanctuary, O Lord, which thy hands'], // Ex. 15:17
+  [/Jehovahnissi/g, 'Jehovah-nissi'], // Ex. 17:15
+  [/with an aul/g, 'with an awl'], // Ex. 21:6
+  [/appear before the LORD God\.$/g, 'appear before the Lord GOD.'], // Ex. 23:17
+  [/Consecrate yourselves today to the LORD/g, 'Consecrate yourselves to day to the LORD'], // Ex. 32:29
+  [/forgive their sin--; and if not/g, 'forgive their sin—; and if not'], // Ex. 32:32
+  [/and the Lord talked with Moses/g, 'and the LORD talked with Moses'], // Ex. 33:9
+  [/in thy sight, O LORD, let my LORD, I pray thee/g, 'in thy sight, O Lord, let my Lord, I pray thee'], // Ex. 34:9
+  [/all your menchildren appear before the LORD God, the God of Israel/g, 'all your men children appear before the Lord GOD, the God of Israel'], // Ex. 34:23
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 

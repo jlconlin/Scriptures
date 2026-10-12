@@ -1,0 +1,135 @@
+name: Exodus
+slug: exodus
+status: preview          # remove when the author says to go live
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 0.5
+abbr: ex                 # [[Ex. 3:14]] links here
+gospelLibrary: ot/ex
+eyebrow: The Old Testament
+heroQuote:
+  text: '“Let them make me a sanctuary; that I may dwell among them.”'
+  cite: 'The Lord to Moses, [[Ex. 25:8]]'
+description: A phrase-by-phrase companion to the book of Exodus, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: The book has two halves, the way out of Egypt and the year at Sinai. A nation enslaved becomes a nation redeemed and then a nation set apart, with the Lord’s tent pitched in the middle of its camp.
+home:
+  blurb: Israel brought out of Egypt by the blood of a lamb and through the sea, the covenant and the commandments at Sinai, and the tabernacle built so that the Lord could dwell among His people.
+
+intro: |
+  Exodus is a Greek word meaning “departure.” The book takes up where Genesis stops, with the family of Jacob in Egypt, and it ends a year after they leave, at the foot of Mount Sinai, with a cloud resting on a tent. In between are the birth and call of Moses, the plagues and the first Passover, the crossing of the Red Sea, manna and water in the wilderness, the Ten Commandments, the golden calf, and the making of the tabernacle.
+
+  Latter-day revelation has a great deal to say about these chapters. It names Moses as their author ([[Moses 1:40–41]]; [[1 Ne. 5:11]]), tells who gave him the priesthood ([[D&C 84:6]]), and explains what Israel was offered at Sinai and what it received instead ([[D&C 84:19–27]]). This companion goes through all forty chapters and tries to anticipate the questions a careful reader asks: *Who is this? Did God harden Pharaoh’s heart? What did that law or that piece of the tabernacle mean? Where is Christ in this?* What the Gospel Library already puts beside the verse is not repeated here for its own sake; it comes in where it answers the question.
+
+# The Bible Dictionary (“Exodus, book of”) divides the book in two, historical (1–18) and legislative (19–40);
+# the finer divisions are the site’s own. Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: bondage
+    range: [1, 6]
+    name: Bondage and the Call of Moses
+    blurb: A king who knew not Joseph enslaves Israel. Moses is drawn out of the river, flees to Midian, and is sent back from the burning bush with the name of the God who has remembered His covenant.
+    color: '#8a5a3a'
+    darkColor: '#d9a884'
+  - key: plagues
+    range: [7, 13]
+    name: The Plagues and the Passover
+    blurb: Ten plagues show Pharaoh and Egypt who the Lord is. On the last night a lamb’s blood marks the doors of Israel, the firstborn of Egypt die, and the people go out.
+    color: '#a23b3b'
+    darkColor: '#e58e8e'
+  - key: wilderness
+    range: [14, 18]
+    name: Through the Sea to Sinai
+    blurb: The sea opens and closes, and Moses and Miriam sing. In the wilderness the Lord gives bitter water made sweet, manna, water from the rock, victory over Amalek, and through Jethro a way to govern the people.
+    color: '#2f7b8c'
+    darkColor: '#7cc6d6'
+  - key: sinai
+    range: [19, 24]
+    name: The Covenant at Sinai
+    blurb: The Lord comes down on the mountain in fire, speaks the Ten Commandments, and gives the judgments that follow them. The people answer that they will do all He has said, and the covenant is sealed with blood and a meal in His presence.
+    color: '#5d5a9c'
+    darkColor: '#aaa7e6'
+  - key: pattern
+    range: [25, 31]
+    name: The Pattern of the Tabernacle
+    blurb: Forty days on the mount. Moses is shown the ark and its mercy seat, the table, the candlestick, the veil, the altars, the garments of the priests, and how Aaron and his sons are to be washed, anointed, and consecrated.
+    color: '#a8842a'
+    darkColor: '#e3c36c'
+  - key: calf
+    range: [32, 34]
+    name: The Golden Calf and the Covenant Renewed
+    blurb: While Moses is on the mount the people make a calf of gold. Moses breaks the tables, pleads for Israel, asks to see the Lord’s glory, and comes down with new tables and a shining face.
+    color: '#9a4a78'
+    darkColor: '#dc98c0'
+  - key: dwelling
+    range: [35, 40]
+    name: The Tabernacle Built
+    blurb: The people bring more than enough, Bezaleel and Aholiab make everything as the Lord commanded Moses, and on the first day of the second year the tabernacle is reared up and the glory of the Lord fills it.
+    color: '#4a8454'
+    darkColor: '#93cf9d'
+
+beloved:
+  - { chapter: 2, verse: 24, text: 'God remembered his covenant with Abraham, with Isaac, and with Jacob' }
+  - { chapter: 3, verse: 5, text: 'the place whereon thou standest is holy ground' }
+  - { chapter: 3, verse: 14, text: 'I AM THAT I AM' }
+  - { chapter: 12, verse: 13, text: 'when I see the blood, I will pass over you' }
+  - { chapter: 14, verse: 13, text: 'Fear ye not, stand still, and see the salvation of the LORD' }
+  - { chapter: 15, verse: 2, text: 'The LORD is my strength and song, and he is become my salvation' }
+  - { chapter: 19, verse: 6, text: 'ye shall be unto me a kingdom of priests, and an holy nation' }
+  - { chapter: 20, verse: 3, text: 'Thou shalt have no other gods before me' }
+  - { chapter: 33, verse: 14, text: 'My presence shall go with thee, and I will give thee rest' }
+  - { chapter: 40, verse: 34, text: 'the glory of the LORD filled the tabernacle' }
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [1, 6], sources: [scripture-helps-ex-1] }
+  - { range: [7, 13], sources: [scripture-helps-ex-7] }
+  - { range: [14, 18], sources: [scripture-helps-ex-14] }
+  - { range: [19, 34], sources: [scripture-helps-ex-19] }
+  - { range: [35, 40], sources: [scripture-helps-ex-35] }
+
+coreSources:
+  - bd-exodus
+  - gs-exodus
+  - bd-moses
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'Israel Enslaved in Egypt'
+  2: 'The Birth and Flight of Moses'
+  3: 'The Burning Bush'
+  4: 'Signs for Moses; the Return to Egypt'
+  5: 'Bricks without Straw'
+  6: 'I Am the Lord'
+  7: 'The Rod and the River of Blood'
+  8: 'Frogs, Lice, and Flies'
+  9: 'Murrain, Boils, and Hail'
+  10: 'Locusts and Darkness'
+  11: 'The Last Plague Announced'
+  12: 'The Passover'
+  13: 'The Firstborn Sanctified; the Pillar of Cloud and Fire'
+  14: 'The Crossing of the Red Sea'
+  15: 'The Song of Moses; the Waters of Marah'
+  16: 'Manna'
+  17: 'Water from the Rock; Amalek'
+  18: 'Jethro’s Counsel'
+  19: 'Israel at Mount Sinai'
+  20: 'The Ten Commandments'
+  21: 'Judgments: Servants and Injuries'
+  22: 'Judgments: Property and the Vulnerable'
+  23: 'Justice, Feasts, and the Angel Who Goes Before'
+  24: 'The Covenant Sealed'
+  25: 'The Ark, the Table, and the Candlestick'
+  26: 'The Curtains, the Boards, and the Veil'
+  27: 'The Altar and the Court'
+  28: 'The Garments of the Priests'
+  29: 'The Consecration of Aaron and His Sons'
+  30: 'The Altar of Incense, the Laver, and the Anointing Oil'
+  31: 'Bezaleel and Aholiab; the Sabbath a Sign'
+  32: 'The Golden Calf'
+  33: 'Shew Me Thy Glory'
+  34: 'New Tables; the Name of the Lord Proclaimed'
+  35: 'The Offerings for the Tabernacle'
+  36: 'More Than Enough; the Tabernacle Made'
+  37: 'The Ark, the Table, the Candlestick, and the Altar of Incense Made'
+  38: 'The Altar, the Laver, and the Court Made'
+  39: 'The Holy Garments Made'
+  40: 'The Glory of the Lord Fills the Tabernacle'
