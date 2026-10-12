@@ -44,9 +44,12 @@ const list = (items) => items.map((i) => (typeof i === 'string' ? `- ${i}` : fai
 const p = style.prompt;
 // A book's brief may allow small figures (`figures:`, the author's exception for that book); its sentence then stands
 // in place of the site's rule against people, and the rest of that rule is kept.
-const constraints = brief.figures
-  ? p.constraints.map((c) => (/^No people/.test(c) ? `${String(brief.figures).trim()} Otherwise no people, faces, literal sacred figures, text, lettering, logos, UI, or decorative frames.` : c))
-  : p.constraints;
+// A brief may also carry `look:`, one paragraph naming the medium for that book alone (first used for Exodus,
+// 2026-10-12, when the author asked for something nearer a photograph). It stands in place of the site's style,
+// and the site's rules that require a drawn, poster-like image are left out; every other rule is kept.
+const DRAWN_ONLY = /^Drawn, not photographed|^No stock-photo look|^Preserve an illustrated first impression/;
+const constraints = (brief.look ? p.constraints.filter((c) => !DRAWN_ONLY.test(c)) : p.constraints)
+  .map((c) => (brief.figures && /^No people/.test(c) ? `${String(brief.figures).trim()} Otherwise no people, faces, literal sacred figures, text, lettering, logos, UI, or decorative frames.` : c));
 const prompt = `Use case: ${p.useCase}
 Asset type: ${p.assetType}
 Aspect ratio: ${style.asset.aspectRatio}, ${style.asset.quality} quality
@@ -54,7 +57,7 @@ Book: ${book.name}
 Book summary: ${brief.summary.trim()}
 Required motifs:
 ${list(brief.motifs)}
-Style/medium: ${p.style.trim()}
+Style/medium: ${(brief.look ?? p.style).trim()}
 Composition/framing: ${(brief.composition ?? p.composition).trim()} ${brief.composition ? p.composition.trim() : ''}
 Color palette: ${p.palette.trim()}
 Constraints:
