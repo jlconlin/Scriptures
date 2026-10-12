@@ -18,10 +18,6 @@ sources: [lds-scriptures, bd-jeremiah, ot-manual-23, ot-manual-25, oshb-wlc, nel
 | Together | [[Jer. 3:18]]; [[Jer. 50:4–5]] | “they and the children of Judah together” |
 | The keys | [[D&C 110:11]] | “the keys of the gathering of Israel” |
 
-## Scattered
-
-“I will scatter them also among the heathen, whom neither they nor their fathers have known” ([[Jer. 9:16]]). “Therefore will I cast you out of this land into a land that ye know not” ([[Jer. 16:13]]).
-
 ## One of a city, and two of a family
 
 “Turn, O backsliding children, saith the LORD… I will take you one of a city, and two of a family, and I will bring you to Zion” ([[Jer. 3:14]]). This is “in the last days,”[@lds-scriptures] and it is how the gathering happens: “as Isaiah said, ‘one by one’ (Isaiah 27:12) or, as Jeremiah predicted, ‘one of a city, and two of a family.’”[@cfm-2026-thoughts-28] Elder Rasband met “members who have come to the gospel as Jeremiah prophesied long ago.”[@rasband-fulfillment] See [Jeremiah 3](/jeremiah/3/).
