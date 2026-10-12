@@ -1,15 +1,15 @@
 # Line upon Line
 
-A study companion for the scriptures, beginning with the book of Isaiah. It will be published at <https://scriptures.conlin.io>.
+A Latter-day Saint scripture study site: scripture text with sourced commentary, one book at a time, at <https://scriptures.conlin.io>.
 
 Each chapter page shows the King James text with notes on selected phrases (word meanings, context, imagery, witnesses of Christ, related scriptures, latter-day prophets, literary structure, and Book of Mormon comparisons), along with the historical setting, the thread that ties the chapter together, a plain-words paraphrase, a closing look at how the chapter points to Christ, and where to explore next. Guides and theme pages cover topics that span many chapters. The site is written for a thoughtful reader who is not a biblical specialist: it takes scholarship seriously and stays grounded in Latter-day Saint belief.
 
 ## Layout
 
-- `content/` — the writing: chapter commentary (`isaiah/chapters/*.yaml`), guides, theme pages, the About page, and the shared bibliography (`sources.yaml`).
-- `data/` — scripture text: the KJV text of Isaiah and the Book of Mormon verses that differ from it.
+- `content/` — the writing: one directory per book (`<book>/chapters/*.yaml`, `guides/`, `themes/`, `evidence/`, and the book's project notes), the About page, and the shared bibliography (`sources.yaml`).
+- `data/` — scripture text: `kjv/<book>.json` for every book on the site, and the Book of Mormon verses that differ from Isaiah's.
 - `src/` — templates, styles, and scripts for the site.
-- `scripts/` — the build, a local preview server, and checking tools.
+- `scripts/` — the build, a local preview server, the checks, and the research tools the writing agents use (`DEVELOPMENT.md`).
 - `dist/` — the generated site (not committed).
 
 ## Building

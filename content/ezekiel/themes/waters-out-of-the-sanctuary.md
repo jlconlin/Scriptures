@@ -40,7 +40,7 @@ Set side by side, the glory “departed” from the threshold of the house in [[
 
 ## The city's name
 
-The book ends with a name: “the name of the city from that day shall be, The LORD is there” ([[Ezek. 48:35]]).
+The book ends with a name: “the name of the city from that day shall be, The LORD is there” ([[Ezek. 48:35]]). [A Little Sanctuary](/ezekiel/themes/a-little-sanctuary/) follows that name to “the tabernacle of God is with men” ([[Rev. 21:3]]).
 
 ## Jesus Christ
 

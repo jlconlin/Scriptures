@@ -44,10 +44,6 @@ In vision Enoch “beheld Satan; and he had a great chain in his hand, and it ve
 
 “That which I have chosen hath plead before my face. Wherefore, he suffereth for their sins” ([[Moses 7:39]]). The word “Chosen” takes the reader back to [[Moses 4:2]], and “that” is the Savior.[@lds-scriptures] Enoch says, “the Lamb is slain from the foundation of the world” ([[Moses 7:47]]), and the Lord says, “I am Messiah, the King of Zion, the Rock of Heaven” ([[Moses 7:53]]). See [Moses 7](/moses/7/).
 
-<h2 id="son-father">Son and father</h2>
-
-The comparison here is this page’s own: the words “son” and “father,” said by Satan and said of him, set side by side. He says, “I will be thy son” ([[Moses 4:1]]) and “I am also a son of God” ([[Moses 5:13]]). The Lord names him “the father of all lies” ([[Moses 4:4]]) and says of those who follow him, “Satan shall be their father” ([[Moses 7:37]]).[@pgp-manual-moses-7-1-41] Cain is to be “the father of his lies” ([[Moses 5:24]]). (Elsewhere Satan uses these words of men: “son of man,” [[Moses 1:12]]; “thy father,” [[Moses 5:29]].) The Beloved Son’s reply begins, “Father.”
-
 <h2 id="thy-will">“Thy will be done”</h2>
 
 The Son’s words in the council are His words in Gethsemane: “not as I will, but as thou wilt… thy will be done” ([[Matt. 26:39]], [[Matt. 26:42]]). The risen Christ says He has “suffered the will of the Father in all things from the beginning” ([[3 Ne. 11:11]]). The three passages are set together to teach that He submitted to His Father’s will “in the premortal world and in mortality,” and bore witness of it after the Resurrection.[@nt-teacher-manual-matt-26] See also [The Plan of Salvation, Taught from the First Parents](/moses/themes/plan-from-the-beginning/).

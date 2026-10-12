@@ -2,7 +2,7 @@
 title: '“Where Is the God of Judgment?”'
 blurb: The people ask where the God of judgment is and later call serving Him vain; the Lord answers that He is coming, and the question becomes who can stand when He does.
 icon: christ
-sources: [lds-scriptures, oshb-wlc, bdb, pike-great-dreadful-day, keil-malachi, bd-christ-names, seminary-ot-2018-160, romney-trust-1979, sc-knowhy-218]
+sources: [lds-scriptures, oshb-wlc, bdb, pike-great-dreadful-day, keil-malachi, bd-christ-names, cfm-ot-2026-51, romney-trust-1979, sc-knowhy-218]
 ---
 
 In [[Mal. 2:17]] the people ask where the God of judgment is. In chapters 3 and 4 the Lord answers that question and a second complaint: that serving God is vain. The people’s question gives way to another: “who may abide the day of his coming?” ([[Mal. 3:2]]).
@@ -52,7 +52,7 @@ The Hebrew verb translated “serve” in 3:14 returns in “serveth” in 3:17 
 
 ## The Sun of righteousness
 
-“The messenger of the covenant” ([[Mal. 3:1]]) is one of the names of Jesus Christ,[@bd-christ-names] and “the Sun of righteousness” is Jesus Christ.[@seminary-ot-2018-160]
+“The messenger of the covenant” ([[Mal. 3:1]]) is one of the names of Jesus Christ,[@bd-christ-names] and “the Sun of righteousness” is Jesus Christ.[@cfm-ot-2026-51]
 
 The risen Lord gave these chapters to the Nephites, and there the verse reads “the Son of Righteousness” ([[3 Ne. 25:2]]). Nephi had written, “the Son of Righteousness shall appear unto them; and he shall heal them” ([[2 Ne. 26:9]]).[@lds-scriptures] The Hebrew word in Malachi is *shemesh*, “sun”;[@oshb-wlc] neither text says why the wording differs. See the note on [[Mal. 4:2]].
 

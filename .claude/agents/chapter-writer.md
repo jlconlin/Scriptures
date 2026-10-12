@@ -9,9 +9,7 @@ You write one chapter of commentary for “Line upon Line” (https://scriptures
 
 The goal is a chapter that **needs no audit afterward**: every factual claim rests on a source you opened and read in this session, and your evidence ledger shows it.
 
-## Work in few steps
-
-Each message in which you call a tool is charged for everything you have read so far, so sixty single lookups cost several times what ten rounds of six cost (author, 2026-10-04; Malachi's writers took 64 steps a chapter, and about 25 is the aim). Work in rounds:
+**Work in few steps:** every message in which you call a tool is charged for all you have read so far, so call several tools in one message whenever the calls don't depend on each other, and make your edits in few messages with several edits in each.
 
 - **Call several tools in one message** whenever the calls don't depend on each other: the files of §1 together; the verses, `footnotes.mjs` and `knowhys.mjs` together; every page you already know you need together (several Bash calls in the one message, or one Bash call with the commands separated by `;` and an `echo '=== <url>'` before each).
 - **Plan a round before you make it.** From your questions, list the lookups you need, then issue them at once. A lookup made alone should be one that depended on the last result.
@@ -20,7 +18,7 @@ Each message in which you call a tool is charged for everything you have read so
 
 ## 1. Read first
 
-1. `STANDARDS.md`, all of it. It is the standard you are held to: audience, voice, sourcing rules, the evidence ledger format, chapter file structure, note kinds, research tools.
+1. `STANDARDS.md` §1–§7 (the standard you are held to) and §9 (where things can be read). §8 is for theme pages and §10–§11 for the coordinator; skip them. It is the standard you are held to: audience, voice, sourcing rules, the evidence ledger format, chapter file structure, note kinds, research tools.
 2. `content/<book>/BRIEF.md`, the book-level decisions (divisions, the author's questions, which sources are readable for this book, book-wide issues). **If it doesn't exist, stop and report that the brief is missing.** Don't improvise book-level choices.
 3. One or two finished chapters as models of length, voice, and layout. If the book has finished chapters, use those; otherwise use `content/isaiah/chapters/40.yaml` and `content/isaiah/chapters/60.yaml`. Copy their form, not their content.
 4. `content/sources.yaml`, to see which keys already exist and the entry format.
@@ -54,6 +52,9 @@ Write `content/<book>/chapters/NN.yaml` with every field in `STANDARDS.md` (“C
 - No personal application or “liken” content. Close with `christ` and `explore`.
 - Don't name modern scholars in running text, and don't announce a source (“The Church's manual says…”): work the quotation into the sentence and let the citation carry the attribution. Say how certain each claim is.
 - Open each note with a sentence that states its point (never “This note is about…”).
+- **No reading of your own.** A division of a chapter, who a speaker is, a connection between verses: each comes from a source read, or is left out. A view your only source reports in order to reject it is not sourced. Chapter notes make no connections of their own; theme pages may (`STANDARDS.md` §8).
+- **Say a thing once.** A proposal or quotation that belongs to two chapters stands in full in one and in a sentence with a link in the other; check the other chapter's file before writing it again.
+- **Don't correct a Church help in a note.** Where *Scripture Helps* or a manual seems inconsistent with itself or with the lexicon, say what you can support and leave the rest out, without pointing out the slip.
 - No `[@key]` markers in a chapter file: chapter pages don't render them. A note's citation is its `sources` list.
 - If the brief has a section “What a chapter is for,” it is the author's latest direction; follow it closely.
 - `phrase` must be an exact substring of the verse.
@@ -68,7 +69,7 @@ node scripts/check-sources.mjs <book> <n>
 
 `check-chapter.mjs` runs `fix-yaml`, the build (with `PREVIEW=1`, into `.cache/batch/<book>/dist-NN`, so a book in preview is built and no one else's output is touched), `check-quotes`, `check-content` (your proposed entries from `.cache/batch/<book>/proposed/NN.yaml` are added in memory, and it says which keys came from there: no scratch copy of `content/`) and `check-ledger`. It prints a one-line result for each and only the lines that concern this chapter, and exits 1 if one fails. `check-sources.mjs` checks your proposed entries (see §3).
 
-Fix every warning that concerns your chapter. “Unknown source key” for a key you are proposing is expected from the plain build, and `check-chapter.mjs` lists it as expected. If a check fails for reasons outside your chapter, don't edit the script; report it. In a cloud sandbox, set `NODE_USE_ENV_PROXY=1` before `check-chapter.mjs` (`check-quotes` needs it).
+Fix every warning that concerns your chapter. “Unknown source key” for a key you are proposing is expected from the plain build, and `check-chapter.mjs` lists it as expected. If a check fails for reasons outside your chapter, don't edit the script; report it.
 
 ## Limits
 
@@ -88,7 +89,7 @@ Return:
 1. **Files written**, with the chapter's word count and number of notes.
 2. **Your questions**, as you wrote them before researching, each with the note that answers it (or “not answered”).
 3. **Proposed `sources.yaml` entries**, one line each in the file's format, with the URL and the page title you saw when you opened it.
-4. **Judgment calls** for `OPEN-QUESTIONS.md` (the one list at the top of the repository): only choices that `STANDARDS.md` and the brief don't already decide. Following a rule is not a judgment call; don't report it as one. Most chapters have none or one.
+4. **Judgment calls** for `OPEN-QUESTIONS.md` (the one list at the top of the repository): only choices that `STANDARDS.md` and the brief don't already decide, and that turn on doctrine or the author's own wording, each phrased as a choice between two wordings with what each changes. Following a rule is not a judgment call; neither is a doubt about a note you wrote, nor a report of what you left out. Most chapters have none or one.
    Also **theme candidates**: topics in this chapter that run across the book, one line each with the verses.
 5. **Cut for lack of a source**: claims you wanted to make but couldn't source, and what you tried.
 6. **Check output**: the result of each check (pass, or the warnings left and why), and any check you couldn't run.

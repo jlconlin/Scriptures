@@ -128,10 +128,6 @@ node scripts/check-ledger.mjs malachi <n>
 
 The working folder for the batch is `.cache/batch/malachi/` (not committed): `proposed/NN.yaml`, `reports/NN-writer.md`, `reports/NN-check.md`. The research files already there are the comparison scripts (`compare.mjs`, `compare2.mjs`) and their output, and the saved output of `footnotes.mjs` for each chapter (`fn1.txt` to `fn4.txt`), which writers may read instead of running it again.
 
-## Decided while writing
-
-In `content/malachi/DECIDED.md`, by chapter, so that this brief stays short enough to read whole. Search that file for a chapter when editing it.
-
 ## Reader questions no source answered
 
 *(`scripts/batch-notes.mjs` adds to the end of this file, so this stays the last section.)*

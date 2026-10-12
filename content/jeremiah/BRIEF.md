@@ -12,6 +12,8 @@ All 52 chapters were written on 2026-10-02 and the book went live the same day, 
 
 **Jeremiah is finished as written** (author, 2026-10-03: “we're done with Jeremiah”): no deepening pass is wanted.
 
+**Scattered and Gathered:** the author approved removing the standalone “Scattered” section while keeping its passage references in the overview table (2026-10-11: “Yes remove the section”). Done 2026-10-11.
+
 Remaining: the author has not yet read the chapters; the judgment calls and unanswered reader questions the checkers reported were settled on 2026-10-04 (“Decided while writing,” below), except what needs the author, which is in `OPEN-QUESTIONS.md` at the top of the repository; and the topics that run across the book are in `THEME-CANDIDATES.md`.
 
 ## What a chapter is for

@@ -7,6 +7,8 @@
 import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import { findBook } from '../src/lib/books.mjs';
+// The commit's attribution line: the model that ran the batch, from CLAUDE_MODEL_NAME (set by the coordinator), else a generic one.
+const coauthor = () => `Co-Authored-By: ${process.env.CLAUDE_MODEL_NAME ?? 'Claude Code'} <noreply@anthropic.com>`;
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const [slug, kind, ...chapters] = process.argv.slice(2);
@@ -28,7 +30,7 @@ for (const n of chapters) {
   git('add', ...files);
   if (!git('diff', '--cached', '--name-only').trim()) { console.log(`– ${book.name} ${n}: nothing to commit`); continue; }
   const msg = kind === 'written' ? `${book.unit?.singular ?? book.name} ${n}: written, checked and reviewed` : `${book.name} ${n}: language pass (Codex's findings, applied by Opus)`;
-  git('commit', '-q', '-m', `${msg}\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`, '--', ...files);
+  git('commit', '-q', '-m', `${msg}\n\n${coauthor()}`, '--', ...files);
   console.log(`✓ ${book.name} ${n}: committed${warnings.length ? `  (${warnings.join('; ')})` : ''}`);
 }
 process.exit(failed ? 1 : 0);

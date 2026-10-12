@@ -13,7 +13,7 @@ const dry = argv.includes('--dry');
 const journal = argv.find((a) => a.endsWith('.jsonl'));
 const { slug } = bookArg(argv.filter((a) => a !== journal && !a.startsWith('--')));
 const book = await findBook(ROOT, slug);
-if (!journal) throw new Error('Give the path to the workflow run’s journal.jsonl');
+if (!journal) { console.error('Usage: node scripts/batch-notes.mjs <book> <the run’s journal.jsonl> [--dry]'); process.exit(1); }
 
 // The journal has a “started” line (agent id, label such as review:12) and a “result” line for each agent.
 const lines = readFileSync(journal, 'utf8').trim().split('\n').map((l) => JSON.parse(l));

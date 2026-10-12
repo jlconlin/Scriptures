@@ -11,13 +11,11 @@ You are checking and repairing, not rewriting. Keep the writer's structure, thre
 
 **Your part is judgment.** The mechanical checking is done before you: a script has confirmed every ledger quote on its page, and a `chapter-checker` agent has reopened the sources, compared each claim with its page, and written what it found, with the source's words quoted. Work from the chapter and those findings. Don't read the ledger through: the findings quote what you need, and the checker has listed the claims with no row. Read a note's rows only when you repair that note (`grep -n -A6 'note 3:16' content/<book>/evidence/NN.yaml`), and let `check-content` tell you about a note left without a row or a row left without a note. Don't reopen sources to confirm quotes or to repeat the checker's work; open a page only when you cannot settle a finding from what it quotes, or when a repair needs a source the chapter doesn't have (with `node scripts/source.mjs '<url>' --find "words"`, which prints the paragraphs that have them; not a whole page). If you are given no findings file, do section 2 in full yourself.
 
-## Work in few steps
-
-Each message in which you call a tool is charged for everything you have read so far (author, 2026-10-04). Call several tools in one message whenever the calls don't depend on each other: the files of §1 together; any pages a repair needs, together. Decide all the findings first, then make the repairs in as few messages as you can, several Edit calls in each, and run the checks once at the end.
+**Work in few steps:** every message in which you call a tool is charged for all you have read so far, so call several tools in one message whenever the calls don't depend on each other, and make your edits in few messages with several edits in each.
 
 ## 1. Read first
 
-1. `STANDARDS.md`, all of it.
+1. `STANDARDS.md` §1–§7; §8–§11 are not for this role.
 2. `content/<book>/BRIEF.md`.
 3. The verses (`node scripts/show.mjs <book> <n>`), read through before the commentary, so you know what the text says on its own.
 4. The chapter, `content/<book>/chapters/NN.yaml`. Its ledger, `content/<book>/evidence/NN.yaml`, in full only if you are given no findings file.
@@ -39,7 +37,11 @@ With a findings file, items 1, 2 and 4 are done; decide each finding, and do ite
 - Each note opens with a sentence that says what it is about. Each says how certain its claims are.
 - `setting` is about 150–250 words. `christ` rests on scripture or a cited source, not on the writer's own typology.
 - The book's conventions in the brief are followed, and above all its section “What a chapter is for,” if it has one: each note answers a question a reader would ask, opens with its point (never “This note is about…”), rests on the most direct source rather than a stack of them, and doesn't lean on the one readable commentary. Where a note reports a commentator's view that the reader's question doesn't need, cut that part. Where a note announces its source (“the manual says…”, “one commentator notes…”), rewrite the sentence so the statement stands on its own and the note's `sources` carries the attribution; keep “one reading is…” only where the point really is one view among several.
-- **Sources in the author's order** (`STANDARDS.md` §1, and the brief): most notes rest on the Church's own sources, then BYU publications, Scripture Central and the Interpreter Foundation's journal; other commentary only where those have no answer. Where a note rests on outside commentary, look for a Church, BYU, Scripture Central or *Interpreter* source that answers the same question and use it instead; if none does and the question is real, the outside source may stay. Nothing in the chapter departs from the Church's teaching, and an outside reading is never set beside the Church's as an equal alternative.
+- **Sources in the author's order** (`STANDARDS.md` §1): where a note rests on outside commentary, look for a Church, BYU, Scripture Central or *Interpreter* source that answers the same question and use it instead; if none does and the question is real, the outside source may stay, and it is never set beside the Church's as an equal alternative.
+- **A reading no source makes is cut, not labelled.** A division of a chapter, an identification of a speaker, or a connection whose only source reports the view in order to reject it is the writer's own; “one reading is…” does not save it (`STANDARDS.md` §3, §4 rule 1). Chapter notes make no connections of their own; only theme pages may (§8).
+- **The same point is printed once.** A proposal or a quotation that two chapters of the book both carry stands in full where it belongs and in one sentence with a link in the other (§1, “say it once and link”).
+- **A note does not correct a Church help.** Where a note finds the Church's own material inconsistent with itself or with a lexicon, it says what it can support and drops the claim it can't, without pointing out the slip. An outside fact in a source the chapter already cites that weakens the note's own argument is stated, and the argument softened to what the evidence bears.
+- A Related Scriptures or Witness of Christ connection that rests only on a translation's cross-reference list says so, so the reader knows how much weight it carries.
 - No `[@key]` markers anywhere in the chapter file; remove any, making sure the key is in that note's `sources`.
 - Quotations are attributed to the right speaker (in the Book of Mormon, the person speaking, not the book's name).
 - **Depth.** The finished Isaiah chapters (`content/isaiah/chapters/53.yaml`, `60.yaml`) are the measure. If a reader's obvious question about a verse goes unanswered, say so in your report; you may add a note for it only if you research and source it as a writer would.
@@ -51,7 +53,7 @@ With a findings file, items 1, 2 and 4 are done; decide each finding, and do ite
 - An overstated claim: reword it to match the source.
 - Cut the sentence, not the note, unless the whole note rests on it. If a note is cut, remove its ledger rows; then make the chapter-level `sources` the keys the chapter still cites.
 - Don't add notes or new material of your own, and don't polish prose that already meets the standard.
-- A real judgment call (an interpretive choice the author should make) is reported, not decided.
+- An interpretive choice is made by the standard, not deferred: the Church's newest source leads, other faithful readings are given as readings, an unsourced one is cut, a speculative one is labelled. Report only a choice the standard leaves open that turns on doctrine or the author's own wording, as a choice between two named wordings with what each changes. “Is this enough?”, “keep or drop?” and a report of what you did are not questions.
 
 ## 5. Run the checks
 
@@ -79,6 +81,6 @@ Keep it short. Return:
 2. **Findings**: how many the checker reported and what you did with them; any rows you reopened yourself and why.
 3. **Changes made**: each claim reworded or cut, in one line, with the reason.
 4. **`sources.yaml` entries needed**: one line each in the file's format, for every key the chapter cites that isn't in `content/sources.yaml`, with the page title you saw at the URL.
-5. **Judgment calls** for `OPEN-QUESTIONS.md` (the one list at the top of the repository): only choices that `STANDARDS.md` and the brief don't already decide. Following a rule (citing a manual for a scholar it quotes, labelling an outside reading “one reading,” the Bible Dictionary's dates) is not a judgment call; don't report it as one. Keep the list short: most chapters have none or one.
+5. **Judgment calls** for `OPEN-QUESTIONS.md` (the one list at the top of the repository): only choices that `STANDARDS.md` and the brief don't already decide. Following a rule (citing a manual for a scholar it quotes, labelling an outside reading “one reading,” the Bible Dictionary's dates) is not a judgment call; don't report it as one. Neither is a doubt about a note you passed, nor a report of what you cut and why (that is item 3). Phrase each as a choice between two wordings with what each changes. Keep the list short: most chapters have none or one.
 6. **Theme candidates**: topics in this chapter that run across the book, one line each with the verses.
 7. **Check output**: the result of each check.

@@ -233,6 +233,6 @@ node scripts/check-chapter.mjs psalms <n>
 
 It runs `fix-yaml`, the preview build into `.cache/batch/psalms/dist-NN`, `check-quotes`, `check-content` (with the proposed entries), and `check-ledger`. The working folder for a batch is `.cache/batch/psalms/` (not committed): `proposed/NNN.yaml`, `reports/NNN-writer.md`, `reports/NNN-check.md`. Chapter files are `01.yaml` to `99.yaml` and then `100.yaml` to `150.yaml`: the scripts pad a number to two digits and leave a longer one alone.
 
-## Decided while writing; reader questions no source answered
+## Reader questions no source answered
 
-Not in this brief. `content/psalms/DECIDED.md` has what reviewers settled for Psalms 1–105 (nothing is added to it now), and `content/psalms/UNANSWERED.md` the questions no source answered. Search either for a psalm when editing it.
+`content/psalms/UNANSWERED.md`, by psalm. Reviewers' decisions are not logged (author, 2026-10-11); the psalm, its ledger and its commits are the record.

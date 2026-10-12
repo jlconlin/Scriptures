@@ -9,6 +9,8 @@ import { execFileSync } from 'node:child_process';
 import { readFileSync, writeFileSync } from 'node:fs';
 import path from 'node:path';
 import { findBook } from '../src/lib/books.mjs';
+// The commit's attribution line: the model that ran the batch, from CLAUDE_MODEL_NAME (set by the coordinator), else a generic one.
+const coauthor = () => `Co-Authored-By: ${process.env.CLAUDE_MODEL_NAME ?? 'Claude Code'} <noreply@anthropic.com>`;
 
 const ROOT = new URL('..', import.meta.url).pathname;
 const [slug, journal, prefix] = process.argv.slice(2);
@@ -28,8 +30,7 @@ const chapters = reviews.map((r) => String(r.chapter));
 const notReady = reviews.filter((r) => !r.ready);
 console.log(`${reviews.length} chapters reviewed: ${chapters.join(', ')}${notReady.length ? `\nNOT READY: ${notReady.map((r) => `${r.chapter} (${String(r.summary).slice(0, 300)})`).join('; ')}` : '; all ready'}`);
 
-// The reviewers' decisions are not logged any more (author, 2026-10-11: “We don't have to record every decision of every verse”).
-// `node scripts/batch-decided.cjs <book> <journal> --dry` still prints them for a coordinator who wants to read one.
+// The reviewers' decisions are not logged (author, 2026-10-11: “We don't have to record every decision of every verse”).
 run('batch-notes.mjs', slug, journal);
 const merged = run('merge-sources.mjs', slug, ...chapters, '--write');
 console.log(merged.split('\n').filter((l) => /^✗|^ {4}(have|new)|new source\(s\)/.test(l)).map((l) => l.slice(0, 200)).join('\n'));
@@ -44,8 +45,8 @@ for (const q of asked) console.log(q.slice(0, 420));
 
 git('add', 'content/sources.yaml', 'OPEN-QUESTIONS.md', `content/${slug}/BRIEF.md`, `content/${slug}/THEME-CANDIDATES.md`);
 try { git('add', `content/${slug}/UNANSWERED.md`); } catch { /* none written yet */ }
-if (git('diff', '--cached', '--name-only').trim()) git('commit', '-q', '-m', `${book.name} ${chapters[0]}–${chapters.at(-1)}: sources, the reviewers' decisions, questions and theme candidates\n\nCo-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>`);
+if (git('diff', '--cached', '--name-only').trim()) git('commit', '-q', '-m', `${book.name} ${chapters[0]}–${chapters.at(-1)}: sources, the reviewers' decisions, questions and theme candidates\n\n${coauthor()}`);
 console.log(run('batch-commit.mjs', slug, 'written', ...chapters).trim());
 // A brief too long to read whole is read in part: agents take its first few hundred lines (Psalms, 2026-10-11).
 const briefSize = readFileSync(path.join(ROOT, `content/${slug}/BRIEF.md`)).length;
-if (briefSize > 60000) console.log(`\n⚠ content/${slug}/BRIEF.md is ${Math.round(briefSize / 1000)} KB: too long for an agent to read whole. Move a log or a list out of it (content/${slug}/DECIDED.md) before the next batch.`);
+if (briefSize > 60000) console.log(`\n⚠ content/${slug}/BRIEF.md is ${Math.round(briefSize / 1000)} KB: too long for an agent to read whole. Cut it before the next batch (AUTHORING.md, “A brief stays brief”).`);

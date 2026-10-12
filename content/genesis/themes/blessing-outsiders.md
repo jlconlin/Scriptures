@@ -1,5 +1,5 @@
 ---
-title: 'The Covenant Blesses Those Outside the Family'
+title: 'Abram’s Promise and Those Outside His Family'
 blurb: The Lord tells Abram, “thou shalt be a blessing”; later a Philistine king, Laban, an Egyptian official and Egypt itself are set beside that promise.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, ryle-genesis, bd-abraham-covenant]

@@ -11,14 +11,14 @@ Scripture connects three of these passages with Jesus Christ: “the Messiah wil
 
 | Step | Passage | The words |
 |---|---|---|
-| A second time | [[Isa. 11:11, 16]] | “an highway for the remnant of his people… like as it was to Israel in the day that he came up out of the land of Egypt” |
-| The way of holiness | [[Isa. 35:8–10]] | “it shall be called The way of holiness” |
-| The way of the LORD | [[Isa. 40:3]] | “Prepare ye the way of the LORD, make straight in the desert a highway for our God” |
-| A new thing | [[Isa. 43:16–19]] | “Remember ye not the former things… I will even make a way in the wilderness” |
-| Out of Babylon | [[Isa. 48:20–21]] | “Go ye forth of Babylon… he caused the waters to flow out of the rock for them” |
-| Not with haste | [[Isa. 52:11–12]] | “ye shall not go out with haste… the LORD will go before you” |
-| The way of the people | [[Isa. 62:10]] | “prepare ye the way of the people; cast up, cast up the highway” |
-| Still to come | [[D&C 133:27]] | “an highway shall be cast up in the midst of the great deep” |
+| The Lord recovers His people a second time, by a road like the one out of Egypt | [[Isa. 11:11, 16]] | “an highway for the remnant of his people… like as it was to Israel in the day that he came up out of the land of Egypt” |
+| The road is named, and the redeemed walk on it | [[Isa. 35:8–10]] | “it shall be called The way of holiness” |
+| A voice calls for a road to be made ready for God Himself | [[Isa. 40:3]] | “Prepare ye the way of the LORD, make straight in the desert a highway for our God” |
+| The Lord who parted the sea promises something new: a way through the wilderness | [[Isa. 43:16–19]] | “Remember ye not the former things… I will even make a way in the wilderness” |
+| The people are told to leave Babylon, and are given water from the rock | [[Isa. 48:20–21]] | “Go ye forth of Babylon… he caused the waters to flow out of the rock for them” |
+| They go out unhurried, unlike the first Passover night, the Lord before and behind them | [[Isa. 52:11–12]] | “ye shall not go out with haste… the LORD will go before you” |
+| The call to build the road is now for the people’s own way | [[Isa. 62:10]] | “prepare ye the way of the people; cast up, cast up the highway” |
+| Latter-day revelation still looks ahead to a highway through the deep | [[D&C 133:27]] | “an highway shall be cast up in the midst of the great deep” |
 
 ## Like the day he came up out of Egypt
 

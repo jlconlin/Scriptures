@@ -12,6 +12,9 @@ All 66 chapters are written. Chapters 38–66 were written at the semi-academic 
 
 ## Book-wide conventions
 
+- **Isaiah’s World** has one historical table (dates, rulers or empires, events, passages), a short geographical introduction, the map, and a short list of nations (author, 2026-10-11). Add a ruler or an event as a row of that table; don’t start a second list.
+- **Plain words and the Church edition’s footnotes.** Where the King James wording is obscure and the Church edition’s own footnote gives the sense (“satyrs”: he-goats, 13:21; “send a blast”: put a spirit in him, 37:7), the plain-words summary uses the footnote’s sense, with a ledger row quoting the footnote and no new note, since the reader has that footnote beside the verse (`STANDARDS.md` §1, §6). A clarification with no footnote behind it needs a visible note that explains it; a disputed reading stays with the King James (19:18; 26:19). Decided by the coordinator on 2026-10-11 in the review of the flagged passages; the author may overturn it.
+
 - **Servant Songs.** Cite the full passages: 42:1–9, 49:1–13, 50:4–11, 52:13–53:12, so readers don’t miss the verses that answer each song. No separate “core vs. extended” ranges.
 - **Theme pages.** `content/isaiah/themes/`, published at `/isaiah/themes/<file name>/` with an index at `/isaiah/themes/` and cards on the Guides page (`/isaiah/guides/`). Done: **The Servant Songs**. When a chapter touches a theme that has a page, link to it instead of re-explaining the theme. Candidates are in `THEME-CANDIDATES.md`.
 
@@ -26,13 +29,15 @@ All 66 chapters are written. Chapters 38–66 were written at the semi-academic 
 
 ## Revision plan for chapters 1–37
 
-**Deepen chapters 1–37 in place, adding only** (author, 2026-10-06). Their threads, history, Restoration connections, and verified quotations are solid, but they were written before the semi-academic standard (`STANDARDS.md` §2) and lean on Delitzsch. The pass adds what an academically trained reader would still ask after reading the chapter: textual variants (MT, LXX, 1QIsaᵃ, Book of Mormon readings), fairly presented scholarly debates (for example, the date of chapters 24–27, whether chapters 13–14 postdate Isaiah, near and far fulfillments of 7:14), archaeology, and literary structure.
+**No further broad deepening pass is planned** (author, 2026-10-11). The existing research additions stand; improve individual passages when the author's study reveals an unanswered question. The passages the plain-words review flagged were reconsidered on 2026-10-11; its sample of other chapters is still to do (`OPEN-QUESTIONS.md`). The rules below govern the existing additions and any later individual deepening.
+
+**Targeted revision in place.** The earlier chapters' threads, history, Restoration connections, and verified quotations are solid, but they were written before the semi-academic standard (`STANDARDS.md` §2) and lean on Delitzsch. Later individual revisions answer what a reader still needs: textual variants (MT, LXX, 1QIsaᵃ, Book of Mormon readings), fairly presented scholarly debates, archaeology, and literary structure, where these help explain the passage.
 
 Tried on chapters 6 and 7 (2026-10-06). The writers’ first drafts overreached: the reviewers cut about a third of chapter 6’s additions and made chapter 7’s three notes one. The rules that came of it:
 
-- **Add only.** Nothing already in a chapter is cut, merged away, or rewritten (the author rejected a trimmed Isaiah 58). The earlier line here, that stronger notes should replace weaker ones, is withdrawn. Ledger rows that an old note lacks may be added, and an announced source in an old note may be reworded.
+- **The old add-only restriction is superseded** (author, 2026-10-11). Within an authorized revision, notes may be merged, moved, or rewritten to improve understanding under the current standard. Preserve useful supported explanations and distinct readings; keep the ledger and links in step. No broad revision pass is scheduled.
 - **One note per unanswered question, and no quota.** One or two strong additions to a chapter are better than four; a chapter with no unanswered question gets none. A note that lists “three points” is collecting, not answering.
-- **Look before writing.** Run `footnotes.mjs <n> --compare` and read the old notes on the verse. Add nothing the old notes, the Church’s footnotes, or *Scripture Helps* already say. Where an addition differs from an old note on the same verse, the new text says so, since the old text can’t change.
+- **Look before writing.** Run `footnotes.mjs <n> --compare` and read the old notes on the verse. Add nothing the old notes, the Church’s footnotes, or *Scripture Helps* already say. Integrate supported additions with the existing explanation and make differing readings clear.
 - **Rest the additions on the Church’s sources, BYU, Scripture Central, *Isaiah in the Book of Mormon*, and the primary texts**, not on more Delitzsch. The *Scripture Helps* endnotes are the best finder (they led to Hoskisson for chapter 6 and Combs for chapter 7); if a guessed URL for an article fails, search for its title. One outside article is the main idea of one note (`STANDARDS.md` §4 rule 11).
 - **Keep the source’s strength of wording** (“seems to,” “more likely,” “no definitive conclusion can be reached”), and don’t round off its tally.
 - **No closing line of the writer’s own.** Nearly every sentence cut in the trial was a tidy last line or a connection no source makes. A connection worth keeping goes in `THEME-CANDIDATES.md`, not in the chapter.
@@ -40,11 +45,9 @@ Tried on chapters 6 and 7 (2026-10-06). The writers’ first drafts overreached:
 - **Never “one study says” or “the Church’s study helps say”** (`STANDARDS.md` §3).
 - **A list inside a note is numbered within the sentence**, “(1)…, (2)…,” not set out as a block list (author, 2026-10-06).
 - **The Septuagint and the Great Isaiah Scroll were not readable** for chapters 6 and 7 (Bible Hub’s `/sep/` page came back garbled; Elpenor returned the wrong book; no source gives the scroll verse by verse). Don’t plan a note on them unless a readable source is found first.
-- Adding notes does not lower the share of notes that cite Delitzsch (11 of 18 in chapter 6, 12 of 15 in chapter 7); only replacing notes would, and that is not allowed.
 
 A chapter cost about 290k tokens (writer 120k, checker 85k, reviewer 85k).
 
-Order: 6 and 7 are done. Next 1, 9, 11, 14, 24–27, 29; then the rest. The oracles in 15–23 are lowest priority.
 
 ## Reducing the reliance on the Student Manual
 

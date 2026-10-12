@@ -9,6 +9,8 @@ You gather evidence for one theme page on “Line upon Line” (https://scriptur
 
 Your job is **only to gather and record evidence** in one dossier file. You don't write the theme page, and you don't say what the theme means.
 
+The dossier file already exists when you start: `scripts/theme-dossier.mjs` has filled sections 1, 2 (in part) and 6 with the scripts' own output (every occurrence, the other books, the Church's footnotes and *Scripture Helps*, what the site already says), each under the command that made it. Read it first, keep that output as it is, and add what the sections ask for in italics; sections 3, 4 and 5 are yours entirely. If the file is missing, make it yourself with that script before anything else.
+
 ## What a theme page is for
 
 A theme is broader than a chapter. It connects chapters in a bigger arc, and it is worth writing only if it helps the reader understand the bigger story that points to Jesus Christ (`STANDARDS.md` §8). So your evidence serves two questions:

@@ -34,13 +34,15 @@ The next time the arm is named, it is a question: “Who hath believed our repor
 
 John says the verse was fulfilled when people saw Jesus’s miracles, “yet they believed not on him” ([[John 12:37–38]]). Abinadi, asked what Isaiah 52:7–10 means ([[Mosiah 12:20–24]]), answers that “God himself should come down among the children of men” ([[Mosiah 13:34]]) and then quotes all of Isaiah 53, beginning with this question ([[Mosiah 14:1]]).
 
-“The arm” here is read in more than one way. It “is often interpreted to mean that the arm of the Lord is revealed in the being of the mortal Messiah”; others take the question as “To whom is the power or might of the Lord revealed?”[@isaiah-in-bom, p. 496] The pages for [Isaiah 53](/isaiah/53/) and [the Servant Songs](/isaiah/themes/servant-songs/#song-4) take up the song itself.
+“The arm” here is read in more than one way. It “is often interpreted to mean that the arm of the Lord is revealed in the being of the mortal Messiah”; others take the question as “To whom is the power or might of the Lord revealed?”[@isaiah-in-bom, p. 496]
+
+Jesus Christ speaks of His own arm: “mine arm of mercy is extended towards you” ([[3 Ne. 9:14]]); “Jesus Christ, your Redeemer, the Great I Am, whose arm of mercy hath atoned for your sins” ([[D&C 29:1]]).
+
+The pages for [Isaiah 53](/isaiah/53/) and [the Servant Songs](/isaiah/themes/servant-songs/#song-4) take up the song itself.
 
 <h2 id="alone">Alone</h2>
 
 Twice the Lord looks for help and finds none: “he saw that there was no man, and wondered that there was no intercessor: therefore his arm brought salvation unto him” ([[Isa. 59:16]]); “I looked, and there was none to help… therefore mine own arm brought salvation unto me” ([[Isa. 63:5]]). The first passage “refers to Jesus Christ, our intercessor with the Father.”[@ot-manual-18] The second belongs to the scene of the winepress, and Isaiah “prophesied that when Jesus Christ comes again, He will be ‘red in [His] apparel’”:[@dc-student-manual-2017-133] “I have trodden the wine-press alone… and none were with me” ([[D&C 133:50]]).
-
-Jesus Christ speaks of His own arm: “mine arm of mercy is extended towards you” ([[3 Ne. 9:14]]); “Jesus Christ, your Redeemer, the Great I Am, whose arm of mercy hath atoned for your sins” ([[D&C 29:1]]).
 
 ## Still to be revealed
 

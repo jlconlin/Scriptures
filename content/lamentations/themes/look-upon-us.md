@@ -18,11 +18,11 @@ Across Lamentations the Lord is asked to look. The city asks, then a man waits f
 
 ## The city asks
 
-“O LORD, behold my affliction: for the enemy hath magnified himself” ([[Lam. 1:9]]). “See, O LORD, and consider; for I am become vile” ([[Lam. 1:11]]). “Behold, O LORD; for I am in distress” ([[Lam. 1:20]]). Each gives a reason with “for.” She asks the same of passers-by, “behold, and see if there be any sorrow like unto my sorrow” ([[Lam. 1:12]]), and of “all people” ([[Lam. 1:18]]), after the adversaries “saw her, and did mock” ([[Lam. 1:7]]). One older commentary reads the first two as one sigh, “repeated in an intensified form.”[@keil-lamentations] See [Lamentations 1](/lamentations/1/).
+“O LORD, behold my affliction: for the enemy hath magnified himself” ([[Lam. 1:9]]). “See, O LORD, and consider; for I am become vile” ([[Lam. 1:11]]). “Behold, O LORD; for I am in distress” ([[Lam. 1:20]]). Each gives a reason with “for.” She asks the same of passers-by, “behold, and see if there be any sorrow like unto my sorrow” ([[Lam. 1:12]]), and of “all people” ([[Lam. 1:18]]), after the adversaries “saw her, and did mock” ([[Lam. 1:7]]). The first two are read as one sigh, “repeated in an intensified form.”[@keil-lamentations] See [Lamentations 1](/lamentations/1/).
 
 ## “To whom thou hast done this”
 
-“Behold, O LORD, and consider to whom thou hast done this” ([[Lam. 2:20]]). The two Hebrew verbs are those of “See… and consider” in 1:11, in the same order: *reʾeh*, then *habbiṭah*.[@oshb-wlc] The verse does not name the speaker; an older commentary calls it “the prayer which the city has been commanded to make” (see the note on [[Lam. 2:20]]).[@keil-lamentations] What He is asked to consider is now a person, the one “to whom” this was done.
+“Behold, O LORD, and consider to whom thou hast done this” ([[Lam. 2:20]]). The two Hebrew verbs are those of “See… and consider” in 1:11, in the same order: *reʾeh*, then *habbiṭah*.[@oshb-wlc] The verse does not name the speaker; it has been read as “the prayer which the city has been commanded to make” (see the note on [[Lam. 2:20]]).[@keil-lamentations] What He is asked to consider is now a person, the one “to whom” this was done.
 
 ## “Till the LORD look down”
 

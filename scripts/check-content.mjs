@@ -201,6 +201,25 @@ const nonStrict = []; // one line per chapter with issues
 const leaning = []; // one line per chapter that leans on the Student Manuals
 const dangling = []; // pointers to a note that isn't there, in chapters without a ledger
 const announced = []; // sources announced in the text
+const markers = []; // [@key] markers in a chapter file (chapter pages don't render them; STANDARDS.md §6)
+const openers = []; // a note whose first sentence withholds its subject (“This note is about…”; STANDARDS.md §3)
+const scholars = []; // a modern scholar named in running text (STANDARDS.md §3: the citation carries the attribution)
+const titleClash = []; // a theme page titled as a chapter is (STANDARDS.md §8)
+// Surnames of the authors of articles, books and web pages in sources.yaml: naming one in running text is the fault §3 forbids.
+// Ancient writers may be named, and a prophet or apostle is named with a title (“Elder”, “President”), which the test allows.
+const ANCIENT = /^(?:Josephus|Jerome|Philo|Eusebius|Origen|Augustine|Tertullian|Irenaeus|Rashi|Kimchi|Radak|Herodotus|Xenophon|Berossus|Tacitus|Pliny|Strabo|Maimonides|Clement|Justin|Hippolytus|Theodoret|Ephrem|Aquila|Symmachus|Theodotion|Brenton|Coverdale|Tyndale|Wycliffe|Luther|Calvin|Henry|Clarke|Gill|Wesley|Webster|Paul)$/;
+// Surnames that are also ordinary words, names in scripture, or Latter-day prophets': never flagged.
+const COMMON = /^(?:King|Smith|Young|Hill|Wood|Hall|Ball|Lord|Saints|Church|Brown|Green|White|Black|Bishop|Elder|Taylor|Mason|Baker|Hunter|Miller|Carpenter|Rich|Long|Little|Bell|Reed|Marsh|Field|Pratt|Snow|Grant|Day|Book|Press|Society|Foundation|Center|Council|Institute|University|Studies|Journal|Committee|Translation|Egyptian|Hebrew|Greek|Latin|Jewish|Central|Scripture|Staff)$/;
+// An author who also gave a talk or whose work the Church publishes is a prophet, apostle or Church writer, not a scholar to flag.
+const CHURCH_AUTHORS = new Set(Object.entries(sources).filter(([k, e]) => e?.author && (['talk', 'manual'].includes(e.type) || isChurchSource(k))).flatMap(([, e]) => String(e.author).split(/,|\band\b|&|;/)).map((a) => a.trim().split(/\s+/).at(-1)));
+const SURNAMES = [...new Set(Object.entries(sources)
+  .filter(([k, e]) => e && ['article', 'book', 'web'].includes(e.type) && e.author && !isChurchSource(k))
+  .flatMap(([, e]) => String(e.author).split(/,|\band\b|&|;/))
+  .map((a) => a.trim().replace(/\s*\(.*\)$/, '').split(/\s+/).at(-1))
+  .filter((w) => w && w.length > 3 && /^[A-Z][a-z]/.test(w) && !ANCIENT.test(w) && !COMMON.test(w) && !CHURCH_AUTHORS.has(w)))];
+const SCHOLAR = SURNAMES.length ? new RegExp(`\\b(?:${SURNAMES.map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})(?:[’']s)?\\b`, 'g') : null;
+// A prophet or apostle is named with a title in the same sentence (“Elder D. Todd Christofferson”): allowed.
+const titled = (text, i) => /\b(?:Elder|President|Bishop|Sister|Brother|Apostle)\b[^.;:]*$/.test(text.slice(Math.max(0, i - 60), i));
 const pageLength = []; // theme pages over the length they should have
 const uncitedSection = []; // a [@key] cited in a section of a guide or theme page that has no ledger row for that section
 const ownConnections = []; // theme pages' own connections (ledger rows “Connection made by this page:”): information, not a warning
@@ -223,6 +242,13 @@ for (const book of books) {
         const fm = text.match(/^---\n([\s\S]*?)\n---/);
         const where = `${book}/${sub}/${f}`;
         const listed = fm ? YAML.parse(fm[1])?.sources ?? [] : [];
+        if (sub === 'themes' && fm) {
+          const title = String(YAML.parse(fm[1])?.title ?? '').replace(/[“”‘’"']/g, '').trim().toLowerCase();
+          for (const cf of await ls(path.join(bdir, 'chapters'), '.yaml')) {
+            const ct = String((await readYaml(path.join(bdir, 'chapters', cf)))?.title ?? '').replace(/[“”‘’"']/g, '').trim().toLowerCase();
+            if (title && ct === title) titleClash.push(`${where}: titled “${title}” as chapter ${parseInt(cf, 10)} is (retitle one; STANDARDS.md §8)`);
+          }
+        }
         for (const s of listed) checkKey(where, keyOf(s));
         const cites = [...text.matchAll(CITE)];
         for (const m of cites) checkKey(where, m[1]);
@@ -287,6 +313,15 @@ for (const book of books) {
     // Pointers to a note that isn't there (an error with a ledger), announced sources, outside commentary, and the length of `setting`.
     const hasLedger = existsSync(path.join(bdir, 'evidence', f));
     const prose = [['setting', ch.setting], ['thread', ch.thread], ['christ', ch.christ], ['explore', ch.explore], ...notes.map((n) => [`note ${n.ref ?? '?'}`, n.body])];
+    for (const [where, t] of [...prose, ...(ch.sections ?? []).map((sec, i) => [`section ${i + 1} plain`, sec.plain])]) {
+      const text = String(t ?? '');
+      for (const m of new Set([...text.matchAll(CITE)].map((m) => m[0]))) markers.push(`${label} ${where}: ${m} (put the key in the note's sources; chapter pages don't render markers)`);
+      if (SCHOLAR) for (const m of new Set([...text.matchAll(SCHOLAR)].filter((m) => !titled(text, m.index)).map((m) => m[0]))) scholars.push(`${label} ${where}: “${m}” (let the note's sources carry the attribution, or confirm it is not a modern scholar)`);
+    }
+    for (const n of notes) {
+      const first = String(n.body ?? '').trim().split(/(?<=[.!?])\s/)[0] ?? '';
+      if (/^(?:This|In this|The following|Here the|Here we)\s+(?:note|section|entry)\b/i.test(first) || /^This is\b/.test(first) && /\b(?:hardest|most|question|note)\b/.test(first)) openers.push(`${noteLabel(n)}: opens “${first.slice(0, 70)}…”`);
+    }
     for (const [where, t] of prose) {
       const text = String(t ?? '');
       for (const m of text.matchAll(POINTER)) {
@@ -447,6 +482,10 @@ for (const [group, list] of [
   [`Passages in curly quotes in a note that no ledger row for the note quotes (warnings only; STANDARDS.md §5; a quotation followed by a [[reference]] is left to check-quotes): ${quoteNoRow.length}`, quoteNoRow],
   ['Pointers to a note that isn\'t there, in chapters without a ledger (warnings only; STANDARDS.md §3)', dangling],
   ['Sources announced in the text (warnings only; STANDARDS.md §3: quote with the reference, don\'t announce the source)', announced],
+  ['Modern scholars named in running text (warnings only; STANDARDS.md §3; surnames from sources.yaml, so a false match is possible)', scholars],
+  ['[@key] markers in a chapter file (warnings only; STANDARDS.md §6: chapter pages don\'t render them)', markers],
+  ['Notes whose first sentence withholds the subject (warnings only; STANDARDS.md §3: the first sentence is the preview card)', openers],
+  ['Theme pages titled as a chapter is (warnings only; STANDARDS.md §8)', titleClash],
   ['Chapters leaning on commentaries read on Bible Hub (warnings only; STANDARDS.md §1)', outside],
   ['Chapters whose setting is outside the length it should have (warnings only; STANDARDS.md §3)', settingLength],
   ['Theme pages over the length they should have (warnings only; STANDARDS.md §8)', pageLength],

@@ -32,18 +32,11 @@ In Haran the Lord appears again: “I have purposed to take thee away out of Har
 
 “Thou shalt be a blessing unto thy seed after thee, that in their hands they shall bear this ministry and Priesthood unto all nations” ([[Abr. 2:9]]). “As many as receive this Gospel shall be called after thy name, and shall be accounted thy seed, and shall rise up and bless thee, as their father” ([[Abr. 2:10]]). “In thee… and in thy seed… shall all the families of the earth be blessed, even with the blessings of the Gospel, which are the blessings of salvation, even of life eternal” ([[Abr. 2:11]]).
 
-“Gospel” (2:10, 11), “families” (2:11) and “all nations” (2:9, twice) are in the book only here; “nations” appears once before, in Abraham’s wish to be “a father of many nations” ([[Abr. 1:2]]).[@lds-scriptures] Genesis has “in thee shall all families of the earth be blessed” ([[Gen. 12:3]]);[@lds-scriptures] here the Lord says what the blessing is. He says that “this right shall continue in thee, and in thy seed after thee” ([[Abr. 2:11]]), the “right” Abraham sought in 1:2, and that those who receive the gospel are counted his seed beside “the literal seed.” See the notes on [[Abr. 2:10]] and [[Abr. 2:11]], and [The Covenant with Abraham](/genesis/themes/covenant-with-abraham/) and [The Covenant Blesses Those Outside the Family](/genesis/themes/blessing-outsiders/).
+“Gospel” (2:10, 11), “families” (2:11) and “all nations” (2:9, twice) are in the book only here; “nations” appears once before, in Abraham’s wish to be “a father of many nations” ([[Abr. 1:2]]).[@lds-scriptures] Genesis has “in thee shall all families of the earth be blessed” ([[Gen. 12:3]]);[@lds-scriptures] here the Lord says what the blessing is. He says that “this right shall continue in thee, and in thy seed after thee” ([[Abr. 2:11]]), the “right” Abraham sought in 1:2, and that those who receive the gospel are counted his seed beside “the literal seed.” See the notes on [[Abr. 2:10]] and [[Abr. 2:11]], and [The Covenant with Abraham](/genesis/themes/covenant-with-abraham/) and [Abram’s Promise and Those Outside His Family](/genesis/themes/blessing-outsiders/).
 
 ## “Now I have found thee”
 
-Abraham says in his heart, “Thy servant has sought thee earnestly; now I have found thee,” and then, “Thou didst send thine angel to deliver me… and I will do well to hearken unto thy voice” ([[Abr. 2:12–13]]).
-
-## Chapter 2 takes up words of chapter 1
-
-- “my name”: “put upon thee my name” ([[Abr. 1:18]]), “my name shall be known” ([[Abr. 1:19]]), “bear my name” ([[Abr. 2:6]]);
-- “my power shall be over thee” ([[Abr. 1:18]]) and “my hand shall be over thee” ([[Abr. 2:8]]).
-
-For “hearken,” see the thread of [chapter 2](/abraham/2/).
+Abraham says in his heart, “Thy servant has sought thee earnestly; now I have found thee,” and then, “Thou didst send thine angel to deliver me… and I will do well to hearken unto thy voice” ([[Abr. 2:12–13]]). For “hearken,” see the thread of [chapter 2](/abraham/2/).
 
 ## A comparison: “sought” and “father”
 
