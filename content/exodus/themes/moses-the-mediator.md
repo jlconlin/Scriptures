@@ -17,7 +17,7 @@ At Sinai Israel asks for someone to stand between them and God. Moses does, plea
 | Answered | [[Ex. 32:33]] | “Whosoever hath sinned against me, him will I blot out of my book” |
 | Carries | [[Ex. 28:38]] | “that Aaron may bear the iniquity of the holy things” |
 | Bears | [[Isa. 53:12]] | “he bare the sin of many, and made intercession for the transgressors” |
-| Pleads | [[D&C 45:4]] | “behold the blood of thy Son which was shed” |
+| The Advocate | [[D&C 45:4]] | “behold the blood of thy Son which was shed” |
 
 <h2 id="between">Someone between</h2>
 
@@ -37,7 +37,7 @@ The next day he says, “I will go up unto the LORD; peradventure I shall make a
 
 <h2 id="bears">Who bears</h2>
 
-A priest is “a mediator between his people and God,” while the people, “because of their sins and infirmities, must needs stand afar off.”[@bd-priests] Aaron carries Israel’s names “before the LORD upon his two shoulders” ([[Ex. 28:12]]) and “upon his heart” ([[Ex. 28:29]]), and he is to “bear the iniquity of the holy things” ([[Ex. 28:38]]), also given as “OR atone for.”[@lds-scriptures] The Hebrew verb is the book’s ordinary word for carrying (the staves “to bear the table,” [[Ex. 25:27]]). With sin or iniquity as its object it is also the verb behind “forgive” in Moses’s prayer ([[Ex. 32:32]]) and “bare” in [[Isa. 53:12]].[@oshb-wlc]
+A priest is “a mediator between his people and God,” while the people, “because of their sins and infirmities, must needs stand afar off.”[@bd-priests] Aaron carries Israel’s names “before the LORD upon his two shoulders” ([[Ex. 28:12]]) and “upon his heart” ([[Ex. 28:29]]), and he is to “bear the iniquity of the holy things” ([[Ex. 28:38]]), where the Church’s footnote gives “OR atone for.”[@lds-scriptures] The Hebrew verb is the book’s ordinary word for carrying (the staves “to bear the table,” [[Ex. 25:27]]). With sin or iniquity as its object it is also the verb behind “forgive” in Moses’s prayer ([[Ex. 32:32]]) and “bare” in [[Isa. 53:12]].[@oshb-wlc]
 
 Set side by side, these three passages, where the verb has sin or iniquity as its object, say that the priest is to bear the iniquity of Israel’s holy things, that Moses asks the Lord to forgive the people’s sin, and that Isaiah’s servant “bare the sin of many, and made intercession for the transgressors.” See the notes at [[Ex. 28:12]] and [[Ex. 28:38]].
 

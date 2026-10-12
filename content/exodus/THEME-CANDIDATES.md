@@ -1,5 +1,7 @@
 # Exodus: theme candidates
 
+**Written, 2026-10-12 (author: “go ahead and develop the themes”): the five selected themes are theme pages in `content/exodus/themes/`.** In order: `offered-at-sinai`, `that-i-may-dwell-among-them`, `moses-the-mediator`, `when-your-children-ask`, `what-israel-builds`. Each was researched, outlined, written, reviewed, repaired and read by Codex; fourteen chapter notes link to them. The author has not read them. What follows is the record of how they were chosen and framed; where a page differs from its brief or its leads below, the page is right (the brief's “State of the book” says what research changed).
+
 Arcs that run across the book and might become theme pages (`STANDARDS.md` §8). **None is written until the author chooses it.** Proposed by the coordinator on 2026-10-12, after all forty chapters were written, from the chapters and the reviewers' leads (those are working notes in `.cache/batch/exodus/theme-leads.md` and are not filed here). The test: an arc across several chapters that a reader would not see chapter by chapter and that changes how a passage is understood, above all how it points to Jesus Christ. A word or image that only recurs is not a candidate.
 
 These are development briefs checked against the text and the finished chapters, not research dossiers. Whoever writes one tests it through the four steps of §8 first; research may change an arc or show there is none.
