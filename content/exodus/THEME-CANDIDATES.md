@@ -16,7 +16,7 @@ The author selected six themes on 2026-10-12: **1, 2, 4, 7, 8, 9 from the nine-i
 | 7 | Remembering deliverance: “when your children ask” | 9 |
 | 8 and 9 | What Israel builds: Pharaoh's cities, the calf, and the Lord's dwelling (merged, below) | New selection below |
 
-**Selection only; development has not been authorized.** The author expressly instructed: “you are not to develop the themes, just note what the themes are to be developed.” No research dossier, outline, or theme page is to be started on the strength of this selection alone. The other candidates remain unselected.
+**Development authorized on 2026-10-12** (author: “go ahead and develop the themes”), after the selection had first been recorded as selection only. The five selected themes go through the four steps of `STANDARDS.md` §8. The other candidates remain unselected.
 
 ### New selection: What Israel builds: Pharaoh's cities, the calf, and the Lord's dwelling
 
