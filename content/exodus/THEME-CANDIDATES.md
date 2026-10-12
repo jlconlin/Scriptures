@@ -6,7 +6,7 @@ These are development briefs checked against the text and the finished chapters,
 
 ## Author's selection
 
-The author selected six themes on 2026-10-12: **1, 2, 4, 7, 8, 9 from the nine-item chat proposal**. Those numbers differ from the original candidate numbers below; the titles are authoritative.
+The author selected six themes on 2026-10-12: **1, 2, 4, 7, 8, 9 from the nine-item chat proposal**. Those numbers differ from the original candidate numbers below; the titles are authoritative. **The author merged chat numbers 8 and 9 into one page the same day** (“we can merge the last two”), so five pages are to be developed.
 
 | Chat number | Theme selected for later development | Candidate below |
 |---|---|---|
@@ -14,26 +14,20 @@ The author selected six themes on 2026-10-12: **1, 2, 4, 7, 8, 9 from the nine-i
 | 2 | “That I may dwell among them” | 2 |
 | 4 | Moses the mediator—and the greater Mediator | 4 |
 | 7 | Remembering deliverance: “when your children ask” | 9 |
-| 8 | From forced labor to willing service | New selection below |
-| 9 | The calf and the tabernacle: two uses of gold | New selection below |
+| 8 and 9 | What Israel builds: Pharaoh's cities, the calf, and the Lord's dwelling (merged, below) | New selection below |
 
 **Selection only; development has not been authorized.** The author expressly instructed: “you are not to develop the themes, just note what the themes are to be developed.” No research dossier, outline, or theme page is to be started on the strength of this selection alone. The other candidates remain unselected.
 
-### New selection: From forced labor to willing service
+### New selection: What Israel builds: Pharaoh's cities, the calf, and the Lord's dwelling
 
-- **Proposed passages:** 1:11–14; 5:6–9; 7:16; 25:1–8; 35:20–29; 36:4–7; then `[[Gal. 5:1, 13]]`.
-- **Proposed arc:** Israel begins by building Pharaoh's cities under compulsion and ends by freely offering possessions and skills for the Lord's dwelling, until Moses stops the offerings. “Let my people go, that they may serve me” joins the two ends.
-- **Proposed connection to Christ:** set this movement beside Paul's teaching that liberty in Christ leads to service through love.
-- **Boundary for later development:** the comparison with Galatians is the page's own proposed connection, not a claim that Paul is interpreting these Exodus passages; it must not equate willing offerings with every obligation under the law.
+Merged by the author on 2026-10-12 from two selections, “From forced labor to willing service” and “The calf and the tabernacle: two uses of gold,” which shared their closing passages. The title is the coordinator's working title.
 
-### New selection: The calf and the tabernacle: two uses of gold
+- **Proposed passages:** 1:11–14; 5:6–9; 7:16; 12:35–36; 25:1–8; 32:1–5; 33:4–6; 35:20–29; 36:4–7; 40:34–38.
+- **Proposed arc:** three things Israel makes. Bricks and cities for Pharaoh, under compulsion. A calf, on their own impulse and from their own gold, as an image of the one who brought them out. A dwelling for the Lord, commanded and made to His pattern, yet given so willingly that Moses has to stop the offerings. “Let my people go, that they may serve me” joins the first and the last; the gold and the earrings join the second and the last.
+- **Proposed connection to Christ:** see the leads below (the Savior's yoke and rest; Stephen's comparison in Acts 7; the image God gives). The connections first proposed, Galatians 5 and Hebrews 8–9, are kept as alternatives for research to weigh.
+- **Boundaries for later development:** a comparison with Paul or with Matthew is the page's own unless a source read makes it; do not equate willing offerings with every obligation under the law; do not claim the same pieces of gold were used for the calf and the sanctuary, or assign a symbolic meaning to gold itself.
 
-- **Proposed passages:** 12:35–36; 25:1–8; 32:1–5; 34:10–17; 35:20–22; 40:34–38; then Hebrews 8–9.
-- **Proposed arc:** Israel leaves Egypt with gold, gives gold for the calf, and then gives gold for the sanctuary after the covenant is renewed. Earrings appear in both offerings. Compare an image the people make of their deliverer with the dwelling the Lord commands.
-- **Proposed connection to Christ:** the sanctuary leads to Hebrews's account of Christ and the true tabernacle.
-- **Boundary for later development:** do not claim the same individual pieces of gold were used in both projects, or assign a symbolic meaning to gold itself. The comparison is the page's own proposed connection.
-
-## Leads toward Christ for the six selected
+## Leads toward Christ for the selected themes
 
 Recorded at the author's word on 2026-10-12 (“Yes”), from a conversation about how each selected theme reaches Jesus Christ. **These are leads, not findings: every one is from memory and none has been read on a page.** Whoever develops a theme tests them in research (`STANDARDS.md` §8) and drops what does not hold. Recording them authorizes no development.
 
@@ -64,26 +58,28 @@ Recorded at the author's word on 2026-10-12 (“Yes”), from a conversation abo
 - God remembers first (2:24); Zacharias says of the Savior's coming, “to remember his holy covenant” (`[[Luke 1:72]]`).
 - Remembering in both directions: `[[Isa. 49:15–16]]`.
 
-**From forced labor to willing service**
-- `[[Matt. 11:28–30]]`: labour, burden, yoke and rest, beside 1:11, 6:6 and 33:14. The best fit; it replaces Galatians 5 as the page's destination unless research prefers otherwise.
+**What Israel builds: Pharaoh's cities, the calf, and the Lord's dwelling** (one page; the leads fall under its two halves)
+
+*Whom Israel serves:*
+- `[[Matt. 11:28–30]]`: labour, burden, yoke and rest, beside 1:11, 6:6 and 33:14. The best fit for the page's destination.
 - `[[Luke 1:74]]`: “that we being delivered out of the hand of our enemies might serve him without fear.”
 - `[[John 8:31–36]]`; `[[Rom. 6:16–22]]`; `[[Lev. 25:55]]`.
 - The deliverer who serves, and gives willingly: `[[Philip. 2:7]]`; `[[Matt. 20:28]]`; `[[John 10:17–18]]`.
 - Mosiah 24 as an Exodus retold (burdens eased, then deliverance).
 - **To test first:** whether one Hebrew root stands behind Israel's “bondage,” “that they may serve me,” and the “service” of the tabernacle (`node scripts/occurrences.mjs exodus --hebrew <strongs>`). If it does, the arc rests on the text's own word.
 
-**The calf and the tabernacle**
-- `[[Acts 7:40–44]]`: Stephen sets the two side by side, “the works of their own hands” against the pattern Moses was shown. If this holds, the comparison is scripture's and not only the page's.
+*What Israel makes in order to see God:*
+- `[[Acts 7:40–44]]`: Stephen sets the calf and the tabernacle side by side, “the works of their own hands” against the pattern Moses was shown. **To test first:** if this holds, the comparison is scripture's and not only the page's.
 - The image men make and the image God gives: `[[Col. 1:15]]`; `[[John 1:14]]`.
 - “Not made with hands”: `[[Heb. 9:11]]`.
 - What gold cannot do: `[[1 Pet. 1:18–19]]`.
-- A step the proposed passages lack: 33:4–6, the ornaments stripped off after the calf.
 
-**Across the six** (the coordinator's observations, for the outlines):
-- **Give each page a different witness,** or Hebrews will carry three of them: Hebrews 12 to Sinai, John and Revelation to the dwelling, 3 Nephi and Isaiah to the mediator, Luke 22 to remembering, Matthew 11 to service, Acts 7 to the calf.
-- **Three pages pass through the golden calf.** Each owns one thing: Sinai, the law and priesthood lost; the dwelling, the presence nearly withdrawn; the calf page, the offerings and the image.
-- **Service and the calf stay two pages** (the coordinator first proposed merging them): one is about whom Israel serves, the other about what Israel makes in order to see God. The willing offering of chapters 35–36 belongs to the service page.
-- **All six have one shape** (something partial, refused or veiled in Exodus, completed in Christ). The mediator page and the calf page can break it, turning on a refusal and on a contrast.
+*For the outline:* one page under 1,000 words cannot carry all of this. The three things made are the spine; choose one destination in Christ (the yoke and rest, or the image God gives) and let the other be a sentence.
+
+**Across the five pages** (the coordinator's observations, for the outlines):
+- **Give each page a different witness,** or Hebrews will carry three of them: Hebrews 12 to Sinai, John and Revelation to the dwelling, 3 Nephi and Isaiah to the mediator, Luke 22 to remembering, Matthew 11 and Acts 7 to what Israel builds.
+- **Three pages pass through the golden calf.** Each owns one thing: Sinai, the law and priesthood lost; the dwelling, the presence nearly withdrawn; the building page, the offerings and the image.
+- **All five have one shape** (something partial, refused or veiled in Exodus, completed in Christ). The mediator page and the building page can break it, turning on a refusal and on a contrast.
 
 ## Proposed
 
