@@ -2,7 +2,6 @@
 title: Women and Marriage in the Old Testament
 blurb: What God designed for men and women, how He regarded the women of the Old Testament, what the law provided for them, the customs they lived under, the passages that are hard to read, and what latter-day revelation teaches.
 icon: key
-status: preview
 sources: [bdb, scripture-helps-proverbs, sc-knowhy-639, jwa-deborah, scripture-helps-gen-1-2, bingham-united-2020, scripture-helps-women, bibleodyssey-marriage, kawashima-could-a-woman-say-no, belnap-beginning, reynolds-hugenberger-review, byu-studies-baker-review, hilton-motherhood-ot, olson-matriarchs, shannon-models-motherhood, tilton-moses-midwife, lds-scriptures, bybee-womans-world, bd-marriage, sears-shannon-polygamy, bd-levirate-marriage, strathearn-ruth, baird-jacob-levirate, ot-manual-deuteronomy-17-33, bd-divorce, ot-manual-ex-21-24, ot-manual-numbers-13-36, bd-hagar, easton-recognizing, scripture-helps-gen-37-41, spackman-judah-tamar, scripture-helps-ex-1, bd-miriam, scripture-helps-judges, bd-hannah, scripture-helps-1-samuel-17, scripture-helps-2-kings-16-25, scripture-helps-esther, jst-gen-19, scripture-helps-gen-18-23, benson-lot, ot-manual-gen-24-36, bd-jephthah, ot-manual-judges-1-12, lxx-rahlfs, ot-manual-judges-13-21, scripture-helps-2-samuel-11, ot-manual-26, hord-not-fragile, sloane-ezekiel, schade-hosea-family, gs-eve, bd-eve, scripture-helps-gen-3-4, kimball-womanhood-1976, soares-partnership-2022, gte-plural-marriage, topics-plural-marriage, sc-knowhy-64, gte-plural-marriage-kirtland]
 ---
 
