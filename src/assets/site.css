@@ -181,6 +181,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 .site-nav .menu-panel .menu-bookhead h3 a { display: inline-flex; align-items: center; gap: 4px; font-weight: 650; color: var(--ink); }
 .site-nav .menu-panel .menu-bookhead h3 a:hover, .site-nav .menu-panel .menu-link:hover, .site-nav .menu-panel .page-link:hover { color: var(--accent-ink); text-decoration: underline; text-underline-offset: 3px; }
 .menu-bookhead .status { font-size: .8rem; color: var(--muted); }
+.site-nav .menu-panel .menu-bookhead .links { display: inline-flex; flex-wrap: wrap; gap: 4px 14px; }
 .site-nav .menu-panel .menu-bookhead .links a { color: var(--accent-ink); font-size: .85rem; font-weight: 650; }
 .menu-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(36px, 1fr)); gap: 5px; padding: 0 6px 6px; }
 .site-nav .menu-panel .cell, .picker .cell { height: 34px; border-radius: 8px; display: grid; place-items: center; font-size: .84rem; font-weight: 650; font-variant-numeric: tabular-nums; border: 1px solid transparent; text-decoration: none; }
