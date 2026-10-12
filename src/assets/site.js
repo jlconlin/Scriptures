@@ -10,6 +10,7 @@
   };
   const root = document.documentElement;
   root.classList.add('js');
+  const pinnedHeight = () => ($('.site-header')?.offsetHeight ?? 0) + ($('.section-nav')?.offsetHeight ?? 0);
 
   // ---------- theme ----------
   $('.theme-toggle')?.addEventListener('click', () => {
@@ -415,7 +416,7 @@
       items[a].top = items[a].want;
       // Keep a newly opened note on screen: slide it up the margin rather than make the reader scroll.
       if (items[a].n === lastOpened) {
-        const viewTop = ($('.section-nav')?.offsetHeight ?? 0) + 16 - base;
+        const viewTop = pinnedHeight() + 16 - base;
         const viewBottom = innerHeight - 16 - base;
         items[a].top = Math.max(viewTop, Math.min(items[a].top, viewBottom - items[a].h));
       }
@@ -442,7 +443,7 @@
       if (open && scroll && !wide.matches) {
         requestAnimationFrame(() => {
           const r = note.getBoundingClientRect();
-          if (r.bottom > innerHeight || r.top < ($('.section-nav')?.offsetHeight ?? 0) + 16) note.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest' });
+          if (r.bottom > innerHeight || r.top < pinnedHeight() + 16) note.scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block: 'nearest' });
         });
       }
     };
@@ -589,13 +590,15 @@
   });
 
   // ---------- section navigation ----------
-  // Only the section navigation stays pinned; its height sets anchor offsets.
+  // Measure the header and section navigation so anchors and notes clear both.
   const sectionNav = $('.section-nav');
+  const header = $('.site-header');
   const measureBars = () => {
+    root.style.setProperty('--header-h', `${header?.offsetHeight ?? 0}px`);
     root.style.setProperty('--section-nav-h', `${sectionNav?.offsetHeight ?? 0}px`);
   };
   const bars = new ResizeObserver(measureBars);
-  if (sectionNav) bars.observe(sectionNav);
+  [header, sectionNav].filter(Boolean).forEach((el) => bars.observe(el));
   measureBars();
   if (sectionNav) {
     const links = $$('a', sectionNav);
@@ -603,7 +606,7 @@
     let queued = false;
     const updateSection = () => {
       queued = false;
-      const top = sectionNav.offsetHeight + 24;
+      const top = pinnedHeight() + 24;
       let current = 0;
       targets.forEach((t, i) => { if (t && t.getBoundingClientRect().top <= top) current = i; });
       links.forEach((a, i) => i === current ? a.setAttribute('aria-current', 'location') : a.removeAttribute('aria-current'));
