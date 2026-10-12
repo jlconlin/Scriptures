@@ -11,7 +11,7 @@ import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { driftLine } from './check-docs.mjs';
-import { discoverBooks } from '../src/lib/books.mjs';
+import { discoverBooks, discoverVolumes } from '../src/lib/books.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const only = process.argv[2];
@@ -96,5 +96,15 @@ for (const book of await discoverBooks(root)) {
 }
 const site = waiting['the site'];
 if (!only && site) console.log(`\nThe site: for the author ${site.join(', ')}`);
+// A volume's guides (content/volumes/<slug>/guides/), and those whose front matter still says `status: preview`.
+for (const v of discoverVolumes(root)) {
+  if (!v.hasGuides || (only && only !== v.slug)) continue;
+  const names = await list(path.join(v.dir, 'guides'), '.md');
+  const preview = [];
+  for (const f of names) if (/^status:\s*preview\b/m.test((await readFile(path.join(v.dir, 'guides', f), 'utf8')).split(/\n---\n/)[0])) preview.push(f.replace(/^\d+-|\.md$/g, ''));
+  const ledgers = await list(path.join(v.dir, 'evidence/guides'), '.yaml');
+  const noLedger = names.filter((f) => !ledgers.includes(f.replace(/\.md$/, '.yaml'))).map((f) => f.replace(/^\d+-|\.md$/g, ''));
+  console.log(`\n${v.name} (volume)\n  pages         ${names.length} guide${preview.length ? `; in preview: ${preview.join(', ')}` : ''}${noLedger.length ? `; no ledger: ${noLedger.join(', ')}` : ''}`);
+}
 console.log(`\n${driftLine()}`);
 console.log('A book’s own decisions and state are in content/<book>/BRIEF.md; its history is `git log -- content/<book>`.');

@@ -1,10 +1,12 @@
 // Builds the site with preview books included and rewrites it so it works from any folder: every
 // root-absolute link, asset path, CSS url() and fetch becomes relative. This is the copy that is published
 // to the private claude.ai preview artifact (AUTHORING.md, “Showing a change”).
-// Usage: node scripts/preview-site.mjs [out dir] [--all]   (default .cache/preview/dist)
+// Usage: node scripts/preview-site.mjs [out dir] [--all] [--keep genesis/guides/,isaiah/guides/]   (default .cache/preview/dist)
 // The artifact holds at most 511 files, and the whole site passed that when Psalms was written (535). So the
 // preview carries only the books still in preview: a live book's pages are left out, and every link to one goes
 // to the live site (https://scriptures.conlin.io), where the author can already read it. --all keeps every book.
+// --keep names pages of live books that the change being shown alters (path prefixes, comma-separated, as the
+// site has them: genesis/guides/ for a live book's Guides page): they stay in the preview, and links to them stay local.
 // Writes <out dir>/../files.json: every file but index.html and the fonts, as [{ path }], for publishing.
 import { readdirSync, readFileSync, writeFileSync, statSync, rmSync, mkdirSync, existsSync } from 'node:fs';
 import { execFileSync } from 'node:child_process';
@@ -13,6 +15,8 @@ import path from 'node:path';
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const args = process.argv.slice(2);
 const all = args.includes('--all');
+const keepAt = args.indexOf('--keep');
+const keep = keepAt < 0 ? [] : args.splice(keepAt, 2)[1].split(',').map((k) => k.trim().replace(/^\//, '')).filter(Boolean);
 const dist = path.resolve(args.find((a) => !a.startsWith('--')) ?? path.join(ROOT, '.cache/preview/dist'));
 const LIVE_SITE = 'https://scriptures.conlin.io';
 rmSync(dist, { recursive: true, force: true });
@@ -24,10 +28,14 @@ console.log(built.split('\n').filter((l) => /Built|⚠/.test(l)).join('\n'));
 const live = all ? [] : readdirSync(path.join(ROOT, 'content'), { withFileTypes: true })
   .filter((e) => e.isDirectory() && existsSync(path.join(ROOT, 'content', e.name, 'book.yaml')) && !/^status:\s*preview\b/m.test(readFileSync(path.join(ROOT, 'content', e.name, 'book.yaml'), 'utf8')))
   .map((e) => e.name);
-for (const slug of live) rmSync(path.join(dist, slug), { recursive: true, force: true });
-const isLive = (p) => live.includes(p.split(/[/#?]/)[0]);
-
-const walk = (d) => readdirSync(d).flatMap((f) => { const p = path.join(d, f); return statSync(p).isDirectory() ? walk(p) : [p]; });
+const walk = (d) => (existsSync(d) ? readdirSync(d).flatMap((f) => { const p = path.join(d, f); return statSync(p).isDirectory() ? walk(p) : [p]; }) : []);
+const kept = (p) => keep.some((k) => p.startsWith(k));
+const isLive = (p) => live.includes(p.split(/[/#?]/)[0]) && !kept(p);
+for (const slug of live) {
+  if (!keep.some((k) => k.startsWith(`${slug}/`))) { rmSync(path.join(dist, slug), { recursive: true, force: true }); continue; }
+  for (const f of walk(path.join(dist, slug))) if (!kept(path.relative(dist, f).split(path.sep).join('/'))) rmSync(f);
+  if (!walk(path.join(dist, slug)).length) rmSync(path.join(dist, slug), { recursive: true, force: true }); // nothing under the kept path was built
+}
 const files = walk(dist);
 // A site path (no leading slash) as a path relative to the page: folders get their index.html.
 const fix = (p, pre) => {
@@ -53,9 +61,9 @@ for (const f of files) {
     const url = "const url = (p) => `${sm.dataset.root}${p}${sm.dataset.index}`;";
     const src = readFileSync(f, 'utf8');
     if (!src.includes(url)) throw new Error('site.js: the menu link builder was not found (the template changed)');
-    const s = `var PREVIEW_LIVE = ${JSON.stringify(live)};\n` + src
+    const s = `var PREVIEW_LIVE = ${JSON.stringify(live)}, PREVIEW_KEEP = ${JSON.stringify(keep)};\n` + src
       // a live book's links go to the live site (the menu, the home page's library and its teasers)
-      .replace(url, "const url = (p) => (PREVIEW_LIVE.includes(p.split('/')[0]) ? `" + LIVE_SITE + "/${p}` : `${sm.dataset.root}${p}${sm.dataset.index}`);")
+      .replace(url, "const url = (p) => (PREVIEW_LIVE.includes(p.split('/')[0]) && !PREVIEW_KEEP.some((k) => p.startsWith(k)) ? `" + LIVE_SITE + "/${p}` : `${sm.dataset.root}${p}${sm.dataset.index}`);")
       .replace(`fetch('/search.json')`, `fetch('../search.json')`)
       .replace('<li><a href="${d.u}">', `<li><a href="\${PREVIEW_LIVE.includes(d.b) ? '${LIVE_SITE}' + d.u : '..' + d.u.replace(/\\/(#|$)/, '/index.html$1')}">`);
     if (!s.includes(`'..' + d.u.replace`)) throw new Error('site.js: the search result link was not rewritten (the template changed)');

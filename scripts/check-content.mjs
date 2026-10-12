@@ -34,12 +34,14 @@
 //   passage of 12 or more characters in curly quotes in a note's body that no ledger row for that note quotes, that is not followed in its
 //   sentence by a [[reference]] (check-quotes.mjs checks those), and that is not a phrase of the chapter's own verses.
 // Proposed sources (STANDARDS.md §5): the entries a writer left in .cache/batch/<book>/proposed/NN.yaml are added to sources.yaml in memory,
-//   and the keys that came from there are printed; automatically when one chapter is checked and its file exists, `--proposed` also for a
+//   and the keys that came from there are printed; automatically when one chapter (or one page, from proposed/<page file name>.yaml) is checked and its file exists, `--proposed` also for a
 //   whole book (every file), `--no-proposed` never. A proposed key that gives a URL another from sources.yaml's is an error; one the chapter
 //   does not cite is a warning. (--root still works; the proposed files are read from this repository's .cache.)
 // With --repeats: passages of 12 or more words quoted in the ledgers of three or more chapters of a book, from sources
 //   other than scripture, lexicons, and dictionary entries, so the coordinator can explain one once and link it.
 //
+// A volume's guides (content/volumes/<slug>/guides/, with ledgers in evidence/guides/) are held to the same rules as a book's;
+//   `old-testament` is accepted where a book is.
 // Usage: node scripts/check-content.mjs [book [chapter | page file name]] [--quiet] [--repeats] [--proposed | --no-proposed] [--root <dir>]
 //   (a second argument that is not a number is a guide or theme page, such as cup-of-fury: only that page is checked)
 // Exit code is 1 if there are errors, 0 otherwise (warnings never fail).
@@ -114,7 +116,8 @@ console.log('Global checks');
 const proposedKeys = new Map(); // key -> 'book chapter'
 if (!args.includes('--no-proposed') && onlyBook) {
   const dir = path.dirname(proposedFile(onlyBook, 1));
-  const want = onlyChapter && !onlyPage ? [parseInt(onlyChapter, 10)] : args.includes('--proposed') && existsSync(dir) ? (await readdir(dir)).filter((f) => /^\d+\.yaml$/.test(f)).map((f) => parseInt(f, 10)) : [];
+  // A page's proposed entries are in proposed/<page file name>.yaml, as a chapter's are in proposed/NN.yaml.
+  const want = onlyPage ? [onlyPage] : onlyChapter ? [parseInt(onlyChapter, 10)] : args.includes('--proposed') && existsSync(dir) ? (await readdir(dir)).filter((f) => /^\d+\.yaml$/.test(f)).map((f) => parseInt(f, 10)) : [];
   for (const n of want.filter((n) => existsSync(proposedFile(onlyBook, n)))) {
     try {
       const merged = mergeProposed(sources, await readProposed(onlyBook, n));
@@ -173,7 +176,11 @@ const books = [];
 for (const d of await readdir(CONTENT, { withFileTypes: true }))
   if (d.isDirectory() && existsSync(path.join(CONTENT, d.name, 'chapters')) && (!onlyBook || d.name === onlyBook)) books.push(d.name);
 books.sort();
-if (onlyBook && !books.length) { console.error(`No book “${onlyBook}” with chapters/`); process.exit(1); }
+// A volume owns guides too (content/volumes/<slug>/guides/); it is checked as a book with no chapters.
+const volumes = new Set();
+for (const d of existsSync(path.join(CONTENT, 'volumes')) ? await readdir(path.join(CONTENT, 'volumes'), { withFileTypes: true }) : [])
+  if (d.isDirectory() && existsSync(path.join(CONTENT, 'volumes', d.name, 'guides')) && (!onlyBook || d.name === onlyBook)) { volumes.add(d.name); books.push(d.name); }
+if (onlyBook && !books.length) { console.error(`No book “${onlyBook}” with chapters/, and no volume of that name with guides/`); process.exit(1); }
 
 // Which book on the site a reference is in (book.yaml `abbr`, the same codes src/lib/refs.mjs uses), and which verses have a note.
 const siteBooks = new Map();
@@ -231,7 +238,7 @@ const keyNoRow = [], whereNoPart = [], noteNoRow = [], quoteNoRow = []; // per-n
 let strictCount = 0, chapterCount = 0, strictPages = 0, pageCount = 0;
 
 for (const book of books) {
-  const bdir = path.join(CONTENT, book);
+  const bdir = volumes.has(book) ? path.join(CONTENT, 'volumes', book) : path.join(CONTENT, book);
 
   // Guides and themes: keys must exist (global, only when checking the whole book or one page).
   if (!onlyChapter || onlyPage)
@@ -264,7 +271,7 @@ for (const book of books) {
           for (const phrase of new Set([...s.text.matchAll(ANNOUNCED)].map((m) => m[0]))) announced.push(`${where} ${s.heading ? `section “${s.heading}”` : 'opening'}: “${phrase}”`);
 
         // A page with a ledger is strict, like a chapter with one.
-        const lf = `${book}/evidence/${sub}/${f.replace(/\.md$/, '.yaml')}`;
+        const lf = `${path.relative(CONTENT, bdir)}/evidence/${sub}/${f.replace(/\.md$/, '.yaml')}`;
         if (!existsSync(path.join(CONTENT, lf))) continue;
         strictPages++;
         const ledger = await readYaml(path.join(CONTENT, lf));
@@ -288,7 +295,7 @@ for (const book of books) {
 
   for (const f of await ls(path.join(bdir, 'chapters'), '.yaml')) {
     const num = parseInt(f, 10);
-    if (onlyChapter && num !== parseInt(onlyChapter, 10)) continue;
+    if (onlyPage || (onlyChapter && num !== parseInt(onlyChapter, 10))) continue; // a page's file name may begin with a number (02-jeremiahs-world)
     chapterCount++;
     const label = `${book} ${num}`;
     const ch = await readYaml(path.join(bdir, 'chapters', f));
@@ -503,5 +510,5 @@ if (ownConnections.length && !quiet) {
   for (const l of ownConnections) console.log(l.startsWith('    ') ? l : `  ${l}`);
 }
 
-console.log(`\n${chapterCount} chapter(s) in ${books.length} book(s); ${strictCount} strict${pageCount ? `; ${pageCount} guide or theme page(s), ${strictPages} with a ledger` : ''}${ownConnections.length ? `; ${ownConnections.filter((l) => !l.startsWith('    ')).length} page(s) with connections of their own listed` : ''}. ${errors} error(s), ${warnings} warning(s)${quiet ? ' (hidden)' : ''}.`);
+console.log(`\n${chapterCount} chapter(s) in ${books.length - volumes.size} book(s); ${strictCount} strict${pageCount ? `; ${pageCount} guide or theme page(s), ${strictPages} with a ledger` : ''}${ownConnections.length ? `; ${ownConnections.filter((l) => !l.startsWith('    ')).length} page(s) with connections of their own listed` : ''}. ${errors} error(s), ${warnings} warning(s)${quiet ? ' (hidden)' : ''}.`);
 process.exit(errors ? 1 : 0);

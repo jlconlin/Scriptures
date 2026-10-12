@@ -64,6 +64,7 @@ What is true of the whole site:
 - Don't `git commit -a` while a batch runs (it once swept in a chapter an agent was editing): name the files.
 - `node scripts/batch-finish.mjs <book> <journal.jsonl> <question prefix>` does the coordinator's steps after a `write-chapters` run in one command; `node scripts/batch-commit.mjs <book> written|pass <chapters…>` checks and commits a batch one chapter at a time. Both print only what needs a person.
 - A shell variable holding a list of chapters is one argument in zsh; write the numbers out.
+- An agent that waits for a script with `pgrep -f scripts/check-page` waits forever: the pattern matches the agent's own shell, so the loop never sees the script end (a `write-guide` repair step hung 15 minutes this way, 2026-10-12). When a workflow stage shows no file change for ten minutes, look for a `cat` or `sleep` loop under the agent's shell and kill it; the agent carries on.
 - After a batch, list for the author where the Student Manual is still the frame (as Hosea's H9 did).
 
 ## The language pass, in a session of its own
@@ -130,6 +131,7 @@ Take a batch whole, so its chapters can also be read side by side.
 | `content/<book>/BRIEF.md` | Book-level decisions |
 | `OPEN-QUESTIONS.md` | Everything waiting for the author, for every book and the site |
 | `content/<book>/THEME-CANDIDATES.md` | Topics for future theme pages, and which were chosen |
+| `content/volumes/<volume>/GUIDES.md` | The author's decisions about a volume's guides, and which are written |
 | `DEVELOPMENT.md` | Hosting, site design, the scripts, how books are built, adding a book |
 | `IDEAS.md` | Ideas not yet planned |
 | `DECISIONS.md` | Decisions that frame the site |

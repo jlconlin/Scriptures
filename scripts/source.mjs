@@ -18,7 +18,14 @@
 //                                                       --verse is the same; a label works: --para headnote); --all prints everything
 //        node scripts/source.mjs <url> --notes          the footnotes or endnotes: marker, the paragraphs citing it, text, links
 //        --max N     most paragraphs --find prints (default 20)      --fresh   refetch
+//        node scripts/source.mjs <url> --para 12,14 --append <dossier> --key <key> [--claim "…"] [--under "4"]
+//                                                       writes those paragraphs into a research dossier as rows (claim / key / URL /
+//                                                       where on the page, then the text verbatim) and prints one line, so a quote
+//                                                       is never typed again. --under names the dossier section (“4” for “## 4. …”,
+//                                                       or words of its heading); without it the rows go at the end. With --find
+//                                                       in place of --para, every paragraph found is written (a long one as its window).
 // A long paragraph (a PDF page) is shown as a window around the match with … at a cut; the … is not on the page.
+import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { readPage } from '../src/lib/pages.mjs';
 
 process.stdout.on('error', (e) => { if (e.code === 'EPIPE') process.exit(0); }); // piped into head
@@ -27,7 +34,12 @@ const flag = (name) => { const i = argv.indexOf(name); return i < 0 ? null : (ar
 const values = (name) => { const out = []; for (let i; (i = argv.indexOf(name)) >= 0; ) { out.push(argv[i + 1] ?? ''); argv.splice(i, 2); } return out; };
 const fresh = flag('--fresh'), all = flag('--all'), notesOnly = flag('--notes');
 const finds = values('--find'), paraArg = [...values('--para'), ...values('--verse')][0] ?? null, max = Number(values('--max')[0]) || 20;
+const appendTo = values('--append')[0] ?? null, appendKey = values('--key')[0] ?? null, appendClaim = values('--claim')[0] ?? null, appendUnder = values('--under')[0] ?? null;
 const url = argv.find((a) => /^https?:\/\//.test(a));
+if (appendTo !== null && (!appendTo || !appendKey || !existsSync(appendTo))) {
+  console.error(!appendTo || !appendKey ? '--append <dossier> needs --key <source key>' : `--append: no file ${appendTo} (start the dossier with scripts/theme-dossier.mjs, or create it)`);
+  process.exit(1);
+}
 if (!url || finds.includes('') || paraArg === '') {
   console.error('Usage: node scripts/source.mjs <url> [--find "words" ... | --para 12-20 | --verse 36-39 | --all | --notes] [--max N] [--fresh]');
   process.exit(1);
@@ -71,6 +83,27 @@ function around(text, words, width = 700) {
   return `${from > 0 ? '… ' : ''}${text.slice(from, to).trim()}${to < text.length ? ' …' : ''}`;
 }
 
+// --append: the paragraphs chosen go into the dossier as rows, under the section named, and only a line is printed.
+function appendRows(picked) {
+  if (!picked.length) { console.error('Nothing to append: no paragraph matched.'); process.exit(1); }
+  const rows = picked.map(({ p, text }) => `- **${appendClaim ?? '(claim to state)'}** / ${appendKey} / ${url} / [${unit(p)}]${heading(p)}\n  > ${text.replace(/\s*\n\s*/g, ' ')}`).join('\n');
+  const lines = readFileSync(appendTo, 'utf8').split('\n');
+  let at = lines.length, where = 'at the end';
+  if (appendUnder) {
+    const want = fold(appendUnder);
+    const start = lines.findIndex((l) => /^##\s/.test(l) && (new RegExp(`^##\\s+${want.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}[.\\s]`).test(fold(l)) || fold(l).includes(want)));
+    if (start < 0) { console.error(`--under: no section “${appendUnder}” in ${appendTo}. Sections: ${lines.filter((l) => /^##\s/.test(l)).map((l) => l.replace(/^##\s+/, '')).join('; ')}`); process.exit(1); }
+    const next = lines.findIndex((l, i) => i > start && /^##\s/.test(l));
+    at = next < 0 ? lines.length : next;
+    where = `under “${lines[start].replace(/^##\s+/, '')}”`;
+  }
+  while (at > 0 && !lines[at - 1].trim()) at--; // keep one blank line before the next heading
+  lines.splice(at, 0, ...(at > 0 ? [''] : []), rows);
+  writeFileSync(appendTo, lines.join('\n'));
+  console.log(`${picked.length} row${picked.length > 1 ? 's' : ''} written to ${appendTo} ${where}: [${picked.map(({ p }) => unit(p)).join(', ')}] of ${page.title || url}, ${picked.reduce((n, { text }) => n + text.split(/\s+/).length, 0)} words.`);
+  process.exit(0);
+}
+
 const heads = `${page.title || url}${page.kind === 'knowhy' ? ` (${page.info})` : ''}\n${url}`; // a KnoWhy's number and date go with its title
 const sizeLine = `${page.kind}: ${page.chars.toLocaleString('en-US')} characters of text in ${page.paras.length} paragraphs${page.notes.length ? `, ${page.notes.length} notes` : ''} (the page is ${page.rawLength.toLocaleString('en-US')} characters raw)`;
 const searches = finds.map((f) => ({ find: f, words: fold(f).split(/\s+/).filter(Boolean) })).filter((s) => s.words.length);
@@ -90,6 +123,7 @@ if (notesOnly) {
   const hits = page.paras.map((p) => ({ p, s: searches.filter((s) => has(p.text, s)) })).filter((h) => h.s.length);
   const hitHeads = page.heads.filter((h) => searches.some((s) => has(h.text, s)));
   const quoted = (list) => list.map((s) => `“${s.find}”`).join(' or ');
+  if (appendTo) appendRows(hits.slice(0, max).map(({ p, s }) => ({ p, text: p.text.length > 1500 ? around(p.text, s[0].words) : p.text })));
   console.log(`${heads}\n${hits.length} of ${page.paras.length} paragraphs contain ${searches.map((s) => s.words.map((w) => `“${w}”`).join(' and ')).join(' or ')}${hitHeads.length ? `; ${hitHeads.length} heading${hitHeads.length > 1 ? 's do' : ' does'}` : ''}${hits.length > max ? `; first ${max} shown (--max N for more)` : ''}\n`);
   for (const h of hitHeads.slice(0, max)) console.log(`§ ${short(h.text, 120)}${range(h)}${many ? `  (heading; matches ${quoted(searches.filter((s) => has(h.text, s)))})` : '  (heading)'}`);
   if (hitHeads.length) console.log('');
@@ -106,6 +140,7 @@ if (notesOnly) {
     else words.push(part.toLowerCase());
   }
   const picked = all ? page.paras : page.paras.filter((p) => (want.has(p.n) && (!scripture || p.n > 0)) || words.some((w) => unit(p).toLowerCase().includes(w)));
+  if (appendTo) appendRows(picked.map((p) => ({ p, text: p.text })));
   console.log(`${heads}\n`);
   let last = null;
   for (const p of picked) { console.log(all && p.head === last ? `[${unit(p)}]\n${p.text}\n` : `${show(p)}\n`); last = p.head; }

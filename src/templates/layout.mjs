@@ -1,6 +1,6 @@
 import { esc } from '../lib/markdown.mjs';
 import { linkRefs } from '../lib/refs.mjs';
-import { SITE, LIBRARY } from '../site.mjs';
+import { SITE, LIBRARY, VOLUMES_WITH_GUIDES } from '../site.mjs';
 import { VOLUMES, gospelLibraryVolume } from '../lib/canon.mjs';
 
 export const logo = `<svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true">
@@ -25,9 +25,10 @@ export function layout({ title, description = SITE.description, path, body, body
   const fullTitle = title ? `${title} · ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
   const url = SITE.url + path;
   const here = book ? { vol: LIBRARY.find((b) => b.slug === book.slug)?.vol, book: book.slug, ch: chapter } : volume ? { vol: volume } : {};
+  const guidesHref = book?.hasGuides ? `/${book.slug}/guides/` : volume && VOLUMES_WITH_GUIDES.has(volume) ? `/${VOLUMES.find((v) => v.key === volume).slug}/guides/` : '';
   const nav = `<nav class="site-nav" aria-label="Main">
         ${scriptureMenu(here)}
-        ${book?.hasGuides ? `<a href="/${book.slug}/guides/">Guides</a>` : ''}
+        ${guidesHref ? `<a href="${guidesHref}">Guides</a>` : ''}
         <a class="nav-wide" href="/about/">About</a>
         <a href="/search/" class="nav-search" aria-label="Search">${icon('search')}<span>Search</span></a>
       </nav>`;

@@ -8,10 +8,12 @@
 // Sections 3, 4 and 5 (Church sources, faithful scholarship, older commentary) are left for the researcher.
 // Usage: node scripts/theme-dossier.mjs <book> <dossier path> --words "comfort,comforter" [--stem] [--hebrew H5162,H5150]
 //        [--verses "1:2,1:9,2:13"] [--site all]
+// For a volume's guide (<book> is old-testament), the words are searched in every book that has text, the site is searched
+// whole, --hebrew is left out, and each key verse names its book: --verses "genesis 16:13,exodus 21:10".
 import { execFileSync } from 'node:child_process';
 import { writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import path from 'node:path';
-import { findBook } from '../src/lib/books.mjs';
+import { findOwner } from '../src/lib/books.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const argv = process.argv.slice(2);
@@ -22,7 +24,8 @@ const words = (flag('--words') ?? '').split(',').map((w) => w.trim()).filter(Boo
 const hebrew = (flag('--hebrew') ?? '').split(',').map((w) => w.trim()).filter(Boolean);
 const verses = (flag('--verses') ?? '').split(',').map((w) => w.trim()).filter(Boolean);
 if (!slug || !out || !words.length) { console.error('Usage: node scripts/theme-dossier.mjs <book> <dossier path> --words "w1,w2" [--stem] [--hebrew H1,H2] [--verses "c:v,…"] [--site all]'); process.exit(1); }
-const book = await findBook(ROOT, slug);
+const book = await findOwner(ROOT, slug);
+const volume = book.kind === 'volume';
 
 const run = (...a) => {
   const cmd = `node scripts/${a[0]} ${a.slice(1).map((x) => (/\s/.test(x) ? `"${x}"` : x)).join(' ')}`;
@@ -32,21 +35,23 @@ const run = (...a) => {
   return `\`${cmd}\`\n\n\`\`\`\n${text.trim()}\n\`\`\``;
 };
 const stem = has('--stem') ? ['--stem'] : [];
-const site = flag('--site') === 'all' ? ['--site', 'all'] : ['--site'];
-const chapters = [...new Set(verses.map((v) => v.split(':')[0]))];
+const site = flag('--site') === 'all' || volume ? ['--site', 'all'] : ['--site'];
+// The chapters whose footnotes to print: [book slug, chapter]. A volume's key verses name their book.
+const chapters = [...new Set(verses.map((v) => v.split(':')[0].trim()))].map((c) => (c.includes(' ') ? c.split(/\s+/) : [book.slug, c]));
+if (volume && chapters.some(([b]) => b === book.slug)) { console.error('For a volume, each key verse names its book: --verses "genesis 16:13,exodus 21:10"'); process.exit(1); }
 
 const parts = [];
 parts.push(`# Dossier: ${book.name}, ${words.join(' / ')}\n\nStarted by \`scripts/theme-dossier.mjs\` on ${new Date().toISOString().slice(0, 10)}: the sections a script fills exactly are below, with the commands that made them, so a reviewer can run them again. Sections 3–5 are the researcher's. Every row the researcher adds: **claim** / source key / exact URL / verbatim quote (STANDARDS.md §8, §4).`);
-parts.push(`## 1. Every occurrence in the text\n\n${run('occurrences.mjs', book.slug, ...words, ...stem)}`);
-for (const h of hebrew) parts.push(run('occurrences.mjs', book.slug, '--hebrew', h));
+parts.push(`## 1. Every occurrence in the text\n\n${volume ? run('occurrences.mjs', 'all', ...words, ...stem, '--books') : run('occurrences.mjs', book.slug, ...words, ...stem)}`);
+if (!volume) for (const h of hebrew) parts.push(run('occurrences.mjs', book.slug, '--hebrew', h));
 parts.push(`*The researcher adds, for each occurrence that carries the theme: who speaks and who or what is described, from the verse itself; and marks the occurrences that do not fit (a literal or everyday use). Then the theme passages in book order, one neutral line each.*`);
-parts.push(`## 2. Scripture that quotes or explains these passages\n\n${run('occurrences.mjs', 'all', ...words, ...stem, '--books')}`);
-for (const c of chapters) parts.push(`### The Church's heading, footnotes and *Scripture Helps* for chapter ${c}\n\n${run('footnotes.mjs', book.slug, c)}`);
+parts.push(`## 2. Scripture that quotes or explains these passages${volume ? '' : `\n\n${run('occurrences.mjs', 'all', ...words, ...stem, '--books')}`}`);
+for (const [b, c] of chapters) parts.push(`### The Church's heading, footnotes and *Scripture Helps* for ${volume ? `${b} ` : 'chapter '}${c}\n\n${run('footnotes.mjs', b, c)}`);
 parts.push(`*The researcher adds the rest of scripture where it is plainly the background or the fulfilment, the Joseph Smith Translation notes, and Book of Mormon wording that differs (data/bom/).*`);
 parts.push(`## 3. Church sources\n\n*The researcher's.*`);
 parts.push(`## 4. Faithful scholarship\n\n*The researcher's: Scripture Central, the Religious Studies Center, BYU Studies' chapter lists, the Interpreter journal (STANDARDS.md §9).*`);
 parts.push(`## 5. Older commentary\n\n*The researcher's, from what the brief lists as readable.*`);
-parts.push(`## 6. What the site already says\n\n${words.map((w) => run('occurrences.mjs', book.slug, w, ...site)).join('\n\n')}`);
+parts.push(`## 6. What the site already says\n\n${words.map((w) => run('occurrences.mjs', volume ? 'all' : book.slug, w, ...site)).join('\n\n')}`);
 parts.push(`## Sites or sources that failed\n\n## Things I looked for and did not find\n\n## Proposed sources.yaml entries\n`);
 
 mkdirSync(path.dirname(path.resolve(ROOT, out)), { recursive: true });

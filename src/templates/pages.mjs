@@ -1,5 +1,5 @@
 import { md, mdInline, esc, plain } from '../lib/markdown.mjs';
-import { KINDS, SITE, LIBRARY, sectionTitle } from '../site.mjs';
+import { KINDS, SITE, LIBRARY, VOLUMES_WITH_GUIDES, sectionTitle } from '../site.mjs';
 import { layout, icon, logo, lastRevised } from './layout.mjs';
 import { renderSource } from './sources.mjs';
 import { gospelLibraryUrl, chapterLabel, unitPlural } from './chapter.mjs';
@@ -94,7 +94,7 @@ export function renderHome({ books, featured }) {
 }
 
 // A volume's page: its books on the site, and the Gospel Library for the rest.
-export function renderVolume({ volume, books, html = '' }) {
+export function renderVolume({ volume, books, html = '', guides = [] }) {
   const sorted = [...books].sort((a, b) => a.place.index - b.place.index);
   const status = (b) => (b.written.length < b.chapters.length ? `${b.written.length} of ${b.chapters.length} ${unitPlural(b)}` : `${b.chapters.length} ${unitPlural(b)}`);
   const body = `
@@ -104,7 +104,11 @@ export function renderVolume({ volume, books, html = '' }) {
   <p class="lede">${sorted.length ? `The books of the ${esc(volume.name)} on this site so far. The whole ${esc(volume.name)} is in the Gospel Library, with footnotes and study helps.` : `Nothing from the ${esc(volume.name)} is on this site yet. You can read it in the Gospel Library, with footnotes and study helps.`}</p>
   <p><a class="btn" href="${gospelLibraryVolume(volume)}" target="_blank" rel="noopener">Read the ${esc(volume.name)} in the Gospel Library ↗</a></p>
 </div></header>
-${html ? `<article class="wrap narrow guide prose prose-lg">${html}</article>` : ''}
+${html ? `<article class="wrap narrow guide prose prose-lg">${html}</article>` : ''}${guides.length ? `<section class="wrap narrow book-section volume-guides">
+  <h2 class="section-title">Guides</h2>
+  <p class="section-sub">${esc(sharedLede(volume))}</p>
+  <div class="guide-cards">${guides.map((g) => guideCard(volume, COLLECTIONS.guides, g)).join('')}</div>
+</section>` : ''}
 ${sorted.length ? `<section class="wrap narrow book-section"><div class="volumes volumes-stack">
   ${sorted.map((b) => `<a class="volume live" href="/${b.slug}/"><span class="volume-status">${status(b)}</span><h3>${esc(b.name)}</h3><p>${esc(b.home.blurb)}</p><span class="volume-go">Open ${icon('arrowR')}</span></a>`).join('')}
 </div></section>` : ''}`;
@@ -209,32 +213,41 @@ ${book.facsimiles?.length ? `<section class="wrap book-section" id="facsimiles">
   });
 }
 
-// Guides and theme pages share one template; these are the words that differ.
+// Guides and theme pages share one template; these are the words that differ. `o` is the page's owner:
+// a book, or a volume (kind: 'volume'), whose guides are the background its books share.
+const inTitle = (o) => (o.kind === 'volume' ? `the ${o.name}` : o.name);
+const here = (o) => (o.kind === 'volume' ? { volume: o.key } : { book: o }); // what layout() needs to place the page
 export const COLLECTIONS = {
-  guides: { path: 'guides', crumb: 'Guides', indexTitle: (b) => `Guides to ${b.name}`, lede: 'Short background essays that make the chapters easier to read.', all: 'All guides', next: 'Next guide' },
-  themes: { path: 'themes', crumb: 'Themes', indexTitle: (b) => `Themes in ${b.name}`, lede: 'Ideas that run through many chapters, gathered in one place.', all: 'All themes', next: 'Next theme' },
+  guides: { path: 'guides', crumb: 'Guides', indexTitle: (o) => `Guides to ${inTitle(o)}`, lede: 'Short background essays that make the chapters easier to read.', all: 'All guides', next: 'Next guide' },
+  themes: { path: 'themes', crumb: 'Themes', indexTitle: (o) => `Themes in ${inTitle(o)}`, lede: 'Ideas that run through many chapters, gathered in one place.', all: 'All themes', next: 'Next theme' },
 };
+const sharedLede = (volume) => `Background that holds for more than one book of the ${volume.name}.`;
+const guideCard = (o, c, g) => `<a class="guide-card" href="/${o.slug}/${c.path}/${g.slug}/"><span class="guide-icon">${icon(g.icon ?? 'book')}</span><span class="guide-title">${esc(g.title)}</span><span class="guide-blurb">${esc(g.blurb)}</span></a>`;
 
-export function renderGuidesIndex({ book, guides, collection = COLLECTIONS.guides, themes = [] }) {
+// `shared` is the owner's volume and its guides ({ volume, guides }), listed below a book's own.
+export function renderGuidesIndex({ owner, guides, collection = COLLECTIONS.guides, themes = [], shared }) {
   const c = collection;
   const t = COLLECTIONS.themes;
   const body = `
 <header class="page-hero"><div class="wrap guides-wide">
-  <nav class="crumbs"><a href="/${book.slug}/">${esc(book.name)}</a></nav>
-  <h1>${esc(c.indexTitle(book))}</h1>
-  <p class="lede">${esc(c.lede)}</p>
+  <nav class="crumbs"><a href="/${owner.slug}/">${esc(owner.name)}</a></nav>
+  <h1>${esc(c.indexTitle(owner))}</h1>
+  <p class="lede">${esc(owner.kind === 'volume' ? sharedLede(owner) : c.lede)}</p>
 </div></header>
-<div class="wrap guides-wide"><div class="guide-cards guide-cards-two">
-${guides.map((g) => `<a class="guide-card" href="/${book.slug}/${c.path}/${g.slug}/"><span class="guide-icon">${icon(g.icon ?? 'book')}</span><span class="guide-title">${esc(g.title)}</span><span class="guide-blurb">${esc(g.blurb)}</span></a>`).join('')}
-</div>
+<div class="wrap guides-wide">${guides.length ? `<div class="guide-cards guide-cards-two">
+${guides.map((g) => guideCard(owner, c, g)).join('')}
+</div>` : ''}${shared?.guides.length ? `<h2 class="section-title guides-themes-title" id="${shared.volume.slug}">${esc(shared.volume.name)} guides</h2>
+<p class="section-sub">${esc(sharedLede(shared.volume))}</p>
+<div class="guide-cards guide-cards-two">${shared.guides.map((g) => guideCard(shared.volume, COLLECTIONS.guides, g)).join('')}</div>` : ''}
 ${themes.length ? `<h2 class="section-title guides-themes-title" id="themes">Themes</h2>
 <p class="section-sub">${esc(t.lede)}</p>
-<div class="guide-cards guide-cards-two">${themes.map((g) => `<a class="guide-card" href="/${book.slug}/${t.path}/${g.slug}/"><span class="guide-icon">${icon(g.icon ?? 'book')}</span><span class="guide-title">${esc(g.title)}</span><span class="guide-blurb">${esc(g.blurb)}</span></a>`).join('')}</div>` : ''}
+<div class="guide-cards guide-cards-two">${themes.map((g) => guideCard(owner, t, g)).join('')}</div>` : ''}
 </div>`;
-  return layout({ title: c.indexTitle(book), path: `/${book.slug}/${c.path}/`, body, bodyClass: 'page-guides', book });
+  return layout({ title: c.indexTitle(owner), path: `/${owner.slug}/${c.path}/`, body, bodyClass: 'page-guides', ...here(owner) });
 }
 
-export function renderGuide({ book, guide, guides, sources, collection = COLLECTIONS.guides }) {
+export function renderGuide({ owner, guide, guides, sources, collection = COLLECTIONS.guides }) {
+  const book = owner;
   const c = collection;
   const idx = guides.findIndex((g) => g.slug === guide.slug);
   const next = guides[idx + 1];
@@ -261,9 +274,9 @@ ${refList}
 </article>
 <nav class="wrap narrow pager">
   <a class="pager-prev" href="/${book.slug}/${c.path}/">${icon('arrowL')}<span><small>Back to</small>${esc(c.all)}</span></a>
-  ${next ? `<a class="pager-next" href="/${book.slug}/${c.path}/${next.slug}/"><span><small>${esc(c.next)}</small>${esc(next.title)}</span>${icon('arrowR')}</a>` : `<a class="pager-next" href="/${book.slug}/1/"><span><small>Ready?</small>Begin with ${esc(book.name)} 1</span>${icon('arrowR')}</a>`}
+  ${next ? `<a class="pager-next" href="/${book.slug}/${c.path}/${next.slug}/"><span><small>${esc(c.next)}</small>${esc(next.title)}</span>${icon('arrowR')}</a>` : owner.kind === 'volume' ? `<a class="pager-next" href="/${owner.slug}/"><span><small>Ready?</small>Choose a book</span>${icon('arrowR')}</a>` : `<a class="pager-next" href="/${book.slug}/1/"><span><small>Ready?</small>Begin with ${esc(book.name)} 1</span>${icon('arrowR')}</a>`}
 </nav>`;
-  return layout({ title: guide.title, description: guide.blurb, path: `/${book.slug}/${c.path}/${guide.slug}/`, body, bodyClass: 'page-guide', book });
+  return layout({ title: guide.title, description: guide.blurb, path: `/${book.slug}/${c.path}/${guide.slug}/`, body, bodyClass: 'page-guide', ...here(owner) });
 }
 
 // What every chapter page contains, for any book. Built from SECTIONS and KINDS so it can't drift

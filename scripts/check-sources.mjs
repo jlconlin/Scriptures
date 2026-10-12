@@ -8,6 +8,7 @@
 // with its first paragraphs). An author whose surname is not on the page is noted, not flagged: not every page names it.
 // Exit code 1 if anything is flagged. Reading the pages still has to be done by the one who cites them.
 // Usage: node scripts/check-sources.mjs <book> <chapter numbers...>   the entries in .cache/batch/<book>/proposed/NN.yaml
+//        node scripts/check-sources.mjs <book or volume> <page file name>   a guide or theme page's, in proposed/<page file name>.yaml
 //        node scripts/check-sources.mjs --keys a,b,c                  entries of content/sources.yaml (also with a book and chapters:
 //                                                                     the proposed entries too)
 //        node scripts/check-sources.mjs --all                         every entry of content/sources.yaml (several hundred pages)
@@ -23,7 +24,8 @@ const argv = process.argv.slice(2);
 const flag = (name) => { const i = argv.indexOf(name); return i < 0 ? false : (argv.splice(i, 1), true); };
 const value = (name) => { const i = argv.indexOf(name); if (i < 0) return null; const v = argv[i + 1] ?? ''; argv.splice(i, 2); return v; };
 const fresh = flag('--fresh'), all = flag('--all'), keysArg = value('--keys');
-const book = argv.find((a) => !/^\d+$/.test(a) && !a.startsWith('--')), chapters = argv.filter((a) => /^\d+$/.test(a)).map(Number);
+// After the book: chapter numbers, or a page's file name (its entries are in proposed/<page file name>.yaml).
+const book = argv.find((a) => !/^\d+$/.test(a) && !a.startsWith('--')), chapters = argv.filter((a) => a !== book && !a.startsWith('--')).map((a) => (/^\d+$/.test(a) ? Number(a) : a.replace(/\.(?:md|yaml)$/, '')));
 if (keysArg === '' || (!all && keysArg === null && !(book && chapters.length))) {
   console.error('Usage: node scripts/check-sources.mjs <book> <chapters...> | --keys a,b,c | --all   [--fresh]');
   process.exit(1);

@@ -2,12 +2,13 @@
 // content and checks that the words actually appear in that chapter of scripture.
 // Chapters are fetched from the Gospel Library once and cached in .cache/.
 // Usage: node scripts/check-quotes.mjs [book] [chapter numbers...]   (book defaults to isaiah)
+//        node scripts/check-quotes.mjs <book or volume> <page file name>   one guide or theme page (a volume, old-testament, has only guides)
 import { readFile, writeFile, mkdir, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import YAML from 'yaml';
 import { parseRef } from '../src/lib/refs.mjs';
-import { discoverBooks, bookArg } from '../src/lib/books.mjs';
+import { discoverBooks, findOwner, bookArg } from '../src/lib/books.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const CACHE = path.join(ROOT, '.cache/scripture');
@@ -17,14 +18,13 @@ await mkdir(CACHE, { recursive: true });
 // “isa”), so a reference into any of them is checked locally instead of fetched.
 const { slug: bookSlug, rest } = bookArg(process.argv.slice(2));
 const books = await discoverBooks(ROOT);
-const book = books.find((b) => b.slug === bookSlug);
-if (!book) throw new Error(`No book “${bookSlug}”. Books: ${books.map((b) => b.slug).join(', ')}`);
+const book = await findOwner(ROOT, bookSlug); // a book, or a volume for its guides
 const localKjv = {};
 for (const b of books) {
   const file = path.join(ROOT, `data/kjv/${b.slug}.json`);
   if (existsSync(file)) localKjv[b.abbr] = JSON.parse(await readFile(file, 'utf8')).chapters;
 }
-const kjv = localKjv[book.abbr];
+const kjv = localKjv[book.abbr] ?? []; // a volume has no text of its own
 
 const norm = (s) =>
   s
@@ -56,9 +56,10 @@ async function chapterText(r) {
   return text;
 }
 
-const only = rest.map(Number);
+const only = rest.filter((a) => /^\d+$/.test(a)).map(Number);
+const pageNames = rest.filter((a) => !/^\d+$/.test(a)).map((a) => a.replace(/\.(?:md|yaml)$/, ''));
 const dir = path.join(book.dir, 'chapters');
-const files = (await readdir(dir)).filter((f) => f.endsWith('.yaml')).sort();
+const files = existsSync(dir) && !pageNames.length ? (await readdir(dir)).filter((f) => f.endsWith('.yaml')).sort() : [];
 const guideDir = path.join(book.dir, 'guides');
 const sources = [];
 for (const f of files) {
@@ -69,7 +70,7 @@ for (const f of files) {
 }
 if (!only.length)
   for (const dir of [guideDir, path.join(book.dir, 'themes')].filter(existsSync))
-    for (const f of (await readdir(dir)).filter((x) => x.endsWith('.md'))) sources.push([`${path.basename(dir)} ${f}`, await readFile(path.join(dir, f), 'utf8')]);
+    for (const f of (await readdir(dir)).filter((x) => x.endsWith('.md') && (!pageNames.length || pageNames.includes(x.replace(/\.md$/, ''))))) sources.push([`${path.basename(dir)} ${f}`, await readFile(path.join(dir, f), 'utf8')]);
 
 const allOwn = norm(kjv.flat().join(' '));
 let checked = 0;
