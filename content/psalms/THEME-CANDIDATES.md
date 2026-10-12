@@ -1,729 +1,123 @@
 # Psalms: theme candidates
 
-Topics that run across the book and might become theme pages (`STANDARDS.md` §8). **The author has selected none.** Nothing here is developed until the author says so; the list is where writers' reports are gathered as the psalms are written.
+**The author has selected none.** These are proposals for the author's choice; no theme page is developed until selected.
 
-## Noticed while setting up (2026-10-10; not yet tested against the chapters)
+Reviewed and consolidated on 2026-10-11 at the author's request. This replaces the unsorted chapter reports. The test is a connection or arc across several psalms that changes how the reader understands scripture, especially Jesus Christ. A recurring word is not enough. Connections may be the page's own; they do not need to have appeared in published commentary (`STANDARDS.md` §8).
 
-The coordinator's leads from the brief's research. Each would have to show an arc (something that changes from the first psalm to the last, and points to Christ from scripture) and not only a shared word.
+**Recommendation:** choose 1–6 first. Keep 7–10 as worthwhile alternatives, rather than generating ten pages by default. The order below is a proposed reading order, not a claim that the psalms were composed in that sequence. These are candidate outlines checked against the local scripture text and existing chapter commentary, not completed research dossiers.
 
-- **The king, from Psalm 2 to Psalm 110.** The anointed set on Zion (2), the king's wedding (45), the prayer for the king's son (72), the covenant with David and its apparent failure (89), the priest-king at the Lord's right hand (110), David's throne promised again (132). The New Testament reads each of Jesus Christ. The arc may be the Psalter's own: Book Three ends asking where the promise to David has gone, and Book Five answers.
-- **Ascending the hill of the Lord.** Who may enter (15; 24), the longing for the house (27; 42–43; 84), the gate (118:19–20), the songs of degrees (120–134). The richest Latter-day Saint writing on the book is here (Skinner; Hopkin and Hopkin; KnoWhy #437).
-- **From “why hast thou forsaken me” to “he hath done this.”** The laments that turn to praise (13; 22; 31; 69), and the Savior's use of them on the cross (22:1; 31:5; 69:21). Whether there is an arc beyond Psalm 22 itself is the test.
-- **“The LORD reigneth”** (93; 96–99), with 47 and 145–150. *Scripture Helps* reads Book Four of the millennial day.
-- **The shepherd** (23; 28:9; 78:52, 70–72; 80:1; 95:7; 100:3), with `[[Ezek. 34:11]]` and its theme page on the site, and `[[John 10:11]]`. It may belong on Ezekiel's page and not on one of its own.
-- **Mercy that endures** (*hesed*: 23:6; 51:1; 89; 103; 136). Probably one note and many links, not a page.
-- **The stone the builders refused** (118:22), with `[[Isa. 28:16]]` on the site and the Savior's use of it. Probably one note.
+## First choices
 
-## Reported by the first batch: Psalms 1, 2, 3, 8, 22, 23, 24, 51, 82, 110, 137, 150 (not yet sorted)
+### 1. The promised King and the broken crown
 
-- (1) The two ways (1:6; 2:12; 119:1; 139:24), with Deut. 30:15-20 and 2 Ne. 2:27. Probably a note and links, not a page.
-- (1) "Blessed is the man" (ashre): 1:1; 2:12; 32:1-2; 40:4; 41:1; 84:4-5; 112:1; 119:1-2; 128:1, and the Beatitudes.
-- (1) The righteous as a planted tree, and the temple: 1:3; 52:8; 92:12-14, with Jer. 17:8 and Ezek. 47:12.
-- (1) The prosperity of the wicked: 1:3-6; 37; 49; 73, with Jer. 12:1. Possibly an arc (stated, doubted, answered in the sanctuary); it was cut from this chapter as unsourced, so it would be a theme page's own connection.
-- (1) The king who keeps the law: 1 with 2; 18; 19; 119, with Deut. 17:18-20.
-- (2) The LORD's anointed, from Israel's king to the Messiah: 2:2, with 18:50; 20:6; 28:8; 84:9; 89:38, 51; 105:15; 132:10, 17.
-- (2) The king as God's son and the covenant with David: 2:7; 89:26-27; 110; 132.
-- (2) Refuge in the LORD ('put their trust'): 2:12 and often after.
-- (2) The nations and the LORD's rule to the ends of the earth: 2:8; 22:27; 72:8.
-- (2) Psalms 1 and 2 as one doorway to the book (shared words; 'Blessed' at 1:1 and 2:12): to be reconciled with Psalm 1's chapter so it is said once.
-- (3) Salvation (yeshuah) as the Lord's own: 3:2, 3:7-8, with Jonah 2:9 and Rev. 7:10.
-- (3) "Arise, O LORD" and Moses' call at the ark: 3:7 (leads not read here: 7:6, 9:19, 10:12, 68:1).
-- (3) The holy hill and prayer answered from it: 3:4, with 2:6 and 24:3.
-- (3) Morning and evening prayer: 3:5 and 4:8.
-- (3) The king who blesses or intercedes for his people: 3:8.
-- (8) What is man: human worth and divine potential (8:4-6; 82:6; 144:3-4).
-- (8) All things under His feet (8:6; 110:1; with 1 Cor. 15:25-27, Eph. 1:22, Heb. 2:8).
-- (8) Creation psalms (8; 19:1-6; 104).
-- (8) The name of the LORD in all the earth (8:1, 9, and psalms where 'thy name' carries the poem).
-- (8) Elohim and the heavenly beings (8:5; 82:1, 6; 97:7; 138:1).
-- (22) Lament that turns to praise without saying what changed (22:21; Psalm 13 by the brief).
-- (22) God's distance and nearness, 'be not far' (22:1, 11, 19).
-- (22) One man's praise widening to all nations, the dead and the unborn (22:22-31).
-- (22) Psalm 22 and Isaiah 53 as a pair: 'despised' (22:6, 24; Isa. 53:3) and 'seed' (22:30; Isa. 53:10).
-- (22) The psalms the Passion is told in (22:1, 7-8, 15, 18; Psalm 69).
-- (22) Enemies as beasts (22:12-13, 16, 20-21).
-- (23) The shepherd (23:1-4; with 28:9; 78:70-72; 80:1; 95:7; 100:3; Ezek. 34; John 10; Rev. 7:17): already on the list; this chapter links to Ezekiel's One Shepherd page.
-- (23) Dwelling in the house of the LORD (23:6; 27:4; Psalm 24): belongs under ascending the hill of the Lord.
-- (23) 'For his name's sake' (23:3; 31:3; 109:21): probably links, not a page.
-- (23) Hesed (23:6): one more pointer to 51:1.
-- (24) Seeking the face of God in His house: 24:6; 27:4, 8; 11:7; 17:15; 42:2, with Matt. 5:8 (Skinner's essay maps it).
-- (24) Who may enter (entrance psalms): 15; 24:3-6; 118:19-20.
-- (24) The LORD of hosts and the ark coming to its rest: 24:7-10; 46:7; 132:8.
-- (24) Psalms in the Book of Mormon: 24:4 in 2 Ne. 25:16 and Alma 5:19.
-- (24) Joseph Smith Translation changes that turn a psalm toward the Second Coming: 24:7-10 (LeFevre).
-- (51) Hesed as the ground of a plea (51:1; 26:1-3; 50:5; 103:17-18; 136).
-- (51) What God desires before sacrifice (40:6; 50:8-14; 51:16-19).
-- (51) The broken heart and contrite spirit (34:18; 51:17), carried to 2 Ne. 2:7 and 3 Ne. 9:20.
-- (51) David's fall in the Psalms (51 and 32, and the other penitential psalms).
-- (51) The face of God: hidden from sin, not to be cast from (51:9, 11; 24:6; 27:8).
-- (51) The Spirit given and taken (51:11; 139:7; 143:10).
-- (82) The council of God in the Psalms: 82:1; 89:5-7; with elohim at 8:5, 95:3, 97:7, 138:1.
-- (82) God as judge of the earth: 82:8, with 7:6-8; 9:7-8; 50:4-6; 58; 75; 94:2; 96:13; 98:9.
-- (82) The poor, the fatherless and the needy as the test of rule: 82:3-4, with 10:14, 18; 68:5; 72:2-4, 12-14; 146:9.
-- (82) The nations as the Lord's inheritance: 2:8; 82:8; with 22:27-28; 47; 67; 86:9.
-- (110) The right hand of God (110:1, 5; 16:8; 109:31; with Acts 2:33–36, Heb. 1:13, 10:12, D&C 49:6, 76:20–23).
-- (110) The king on Zion: Psalm 2 with Psalm 110 (2:6–9; 110:1–2, 5–6): son, throne, scepter, nations.
-- (110) King and priest (110:4; Hebrews 5–7; D&C 76:56–57; Zech. 6:13 is a connection no source read makes, so it was cut from the chapter).
-- (110) Enemies under the feet (8:6; 110:1; 1 Cor. 15:25–27; D&C 49:6).
-- (137) The cursing psalms (137:7-9; the brief's list: 35, 58, 69, 83, 109, 139:19-22).
-- (137) Zion and Jerusalem remembered and longed for (137:1, 5-6; the songs of degrees, 120-134; 48; 84; 87; 126).
-- (137) Babylon from the exile to Revelation (137:1, 8; Isa. 13, 47; Jer. 50-51; Rev. 18; D&C 133:14): mostly outside Psalms, and the Revelation link was cut from this chapter for want of a source.
-- (137) The Lord asked to remember (137:7; a lead for 74:2, 18; 89:47, 50; 132:1, not checked).
-- (137) The music of the temple: harps and the song of the LORD (137:2-4; 33:2; 150).
-- (150) Hallelujah and the closing run of praise: 104:35; 105:45; 106:1, 48; 111–113; 115–117; 135; 146–150.
-- (150) The five books and their closing doxologies: 41:13; 72:18–20; 89:52; 106:48; 150.
-- (150) Music and instruments of the temple: 33:2–3; 68:25; 81:2–3; 149:3; 150:3–5 (with 1 Chr. 15–16; 2 Chr. 5).
-- (150) Heaven and earth praising together: 148; 150:1, 6 (toward Rev. 5:13; 19:1–6).
+**Keep and rebuild** the royal-psalm candidate; absorb the separate leads on the anointed, the Son, David's oath, divine kingship, and king and priest.
 
-## Reported by chapters 4–16 (not yet sorted)
+- **Passages:** Psalms 2; 45; 72; 89; 90; 93–99; 110; 132.
+- **Arc:** God installs His king and promises a lasting throne. Psalm 72 describes the justice that kingship should bring, especially to the poor. Psalm 89 then puts the oath beside a crown thrown to the ground and asks where God's faithfulness has gone. Read beside this crisis, the prayers and declarations of Books Four and Five turn attention to the Lord's reign and renew the royal hope.
+- **Christ:** Luke 1:32–33 gives Jesus David's throne; Acts 2:30–36 joins David's oath, the Resurrection, and Psalm 110. Hebrews 7 takes up the priesthood promised in Psalm 110.
+- **Why it earns a page:** Christ answers a crisis in the promise itself, beyond fulfilling isolated royal verses.
+- **Writing boundary:** The sequence can be presented as a reading across the Psalter. Do not claim that every subsequent psalm was deliberately placed to answer Psalm 89, or that every royal psalm has the same New Testament interpretation.
 
-- (4) The shining face of the LORD and the priestly blessing: 4:6; 31:16; 44:3; 67:1; 80:3, 7, 19; 89:15 (with 3 Ne. 19:25). Psalm 4:6 carries the full note; later psalms can point to it.
-- (4) Morning and evening prayer, sleep as trust: 3:5; 4:8 (and 5:3; 127:2).
-- (4) The hasid ('godly', 'saints', 'holy one'): 4:3; 16:10; 30:4; 50:5 and on.
-- (5) Morning prayer: 3:5; 5:3 (leads not read: 59:16; 88:13; 143:8).
-- (5) The Lord's guest, who may lodge in His house: 5:4, 7; 15:1; 24:3; 61:4.
-- (5) Enemies whose weapon is the tongue: 5:6, 9 (leads: 12; 52; 64; 140), with Paul's chain in Rom. 3:10-18.
-- (5) The Lord as shield: 3:3; 5:12 (leads: 18:2; 28:7; 84:11; 91:4).
-- (5) Refuge ('put their trust'): 2:12; 5:11.
-- (5) Psalms beside Nephi's psalm: 5:8, with the brief's Psalms 25-31.
-- (6) Sheol and what the psalmist knew of life after death: 6:5; 16:10; 30:9; 49:15; 88; 115:17 (the brief already tracks it).
-- (6) 'How long?': 6:3; 13:1-2; 35:17; 74:10; 79:5; 89:46; 90:13; 94:3.
-- (6) Psalm words in the Savior's mouth: 6:3-4 (John 12:27); 6:8 (Matt. 7:23; Luke 13:27); 22:1; 31:5.
-- (6) The lament's unexplained turn: 6:8; 13:5; 22:21.
-- (7) The LORD as judge of the peoples, to whom the falsely accused appeals (7:6-11; compare 9:4-8; 26:1; 35:24; 43:1; 82; 96:13; 98:9).
-- (7) The wicked caught in their own pit or net (7:15-16; 9:15-16; 35:7-8; 57:6; 141:10).
-- (7) The God who tries hearts and reins (7:9; 17:3; 26:2; 139:23), with Jer. 11:20, 17:10 and Rev. 2:23.
-- (9) The LORD as judge of the world in righteousness: 9:4, 7-8, 16, 19; 7:8, 11; 96:13; 98:9; with Acts 17:31.
-- (9) Remembered and forgotten (the poor not forgotten; the nations that forget God): 9:12, 17-18; 10:11-12; 13:1; 42:9; 74:19.
-- (9) The poor, humble and needy as those the LORD defends: 9:9, 12, 18; 10:2, 9, 12, 14, 17-18; 12:5; 72.
-- (9) "Arise, O LORD": 3:7; 9:19; 10:12.
-- (9) Acrostic psalms: 9-10, 25, 34, 37, 111, 112, 119, 145.
-- (9) The wicked caught in his own pit or net: 7:15-16; 9:15-16; 35:7-8; 57:6.
-- (10) God hiding His face and the 'Why?' and 'How long?' laments (10:1, 11; 13:1; 22:1; 44:24; 88:14; with D&C 121).
-- (10) What the wicked say in their hearts (10:4, 6, 11, 13; 14:1; 53:1; 94:7).
-- (10) The LORD as King (10:16; 24; 29:10; 93-99).
-- (10) The poor, the humble and the fatherless as the LORD's charge (9:9, 12, 18; 10:14, 17-18; 68:5; 146:9).
-- (11) Seeing the face of God (11:7; with 17:15; 24:6; 27:4, 8; 42:2; 63:2; 105:4).
-- (11) The LORD as refuge, the verb for taking shelter (11:1; 2:12; 5:11; 7:1; 16:1).
-- (11) The temple on earth and the throne in heaven (11:4).
-- (11) The Joseph Smith Translation turning psalms to the last days ('In that day', 11:1; 12:1; Psalm 24; Psalm 46).
-- (11) The LORD who tries hearts (11:4-5; 7:9; 17:3; 26:2; 139:23).
-- (12) The LORD as champion of the poor and needy (12:5; 72:4, 12-13; 82:3-4; 86:1).
-- (12) The LORD speaking in His own voice inside a psalm (12:5; 2:6-9; later 50, 81, 91, 95).
-- (12) Joseph Smith's revision turning psalms toward the last days, 'In that day' (11:1; 12:1, 5, 8; 10:16; 46).
-- (12) The word of the LORD as refined metal (12:6; 18:30; 119:140).
-- (13) 'How long?' as the lament's question: Ps. 6:3; 13:1-2; 79:5; 89:46 (leads: 35:17; 74:10; 90:13), with D&C 121:1-3.
-- (13) The face of God hidden and shining: Ps. 13:1, 3; 31:16 (leads: 10:11; 27:9; 30:7; 80:3), with Num. 6:25 and Deut. 31:17.
-- (13) 'I shall not be moved': Ps. 13:4; 16:8 (leads: 10:6; 15:5; 30:6; 62:2).
-- (14) The fool and the wise in the Psalms (14:1-2; 53:1-2; also 39:8; 74:18, 22).
-- (14) God with the poor and the LORD as refuge (14:5-6; compare Psalms 9-10, 12).
-- (14) Zion in the Joseph Smith Translation of the Psalms (14:7; LeFevre counts added references at 14:7, 15:1, 46:5, 53:6).
-- (14) Psalms Joseph Smith read of his own experience (14; LeFevre also treats 10, 11, 27).
-- (14) The Psalms in Paul's chain of Romans 3 (14:1-3; also 5:9, 10:7, 36:1, 140:3, not checked here).
-- (15) Entrance to the LORD's dwelling: Ps. 15:1-5; 24:3-6; Isa. 33:14-16.
-- (15) The guest in the LORD's tent, dwelling in His house: Ps. 5:4; 15:1; 23:6; 27:4-5; 61:4.
-- (15) 'Shall not be moved': Ps. 10:6; 15:5; 16:8; 21:7; 30:6; 46:5; 62:2, 6; 112:6; 125:1.
-- (15) Zion added by the Joseph Smith Translation: Ps. 14:7; 15:1; 46:5; 53:6.
-- (16) The LORD as one's portion and inheritance (16:5-6; with 73:26 and 119:57).
-- (16) Hope beyond Sheol in the Psalms (16:10; with 6:5, 30:3, 49:15, 73:24).
-- (16) Seeing God's face and His presence in the temple (16:11; 17:15; 24:6; 27:4, 8).
-- (16) The right hand (16:8, 11; 110:1, 5).
-- (16) The Psalms in the apostles' preaching in Acts (Psalm 16 in Acts 2 and 13; Psalm 2 in Acts 4 and 13; Psalm 110 in Acts 2).
+### 2. The Savior enters the unanswered prayer
 
-## Reported by chapters 17–31 (not yet sorted)
+**Reframe** the lament and Passion leads; absorb hidden face, divine silence, distance, betrayal, waiting, and the widening of praise.
 
-- (17) Seeing the face of God (11:7; 16:11; 17:15; 24:6; 27:4, 8; 42:2), with Num. 12:8, Matt. 5:8, D&C 93:1 and 97:15-16; this psalm adds 'likeness' (temunah).
-- (17) The portion: the LORD as one's portion against a portion in this life (16:5; 17:14; 73:26; 119:57; 142:5).
-- (17) The prosperity of the wicked (17:14, with 37, 49 and 73).
-- (17) The shadow of His wings (17:8; 36:7; 57:1; 61:4; 63:7; 91:4), with Deut. 32:11.
-- (17) The tested heart (7:9; 11:4-5; 17:3; 26:2; 66:10; 139:23).
-- (17) Joseph Smith's revision read beside his own history (11; 12; 14; 17).
-- (18) The LORD as Rock: 18:2, 31, 46, with 19:14; 28:1; 31:2-3; 62:2, 6-7; 89:26; 95:1; Deut. 32.
-- (18) The king and the promise to David's seed: 18:50 with 2:2; 89; 132; 2 Sam. 7; Luke 1:32-33.
-- (18) The LORD's appearing in storm: 18:7-15 with 29; 50:2-3; 68:7-8; 77:16-18; 97:2-5; 144:5-7; Ex. 19; Hab. 3.
-- (18) Rescue from the waters and from Sheol: 18:4-5, 16 with 69:1-2, 14-15; 116:3; 124:4-5; 144:7.
-- (18) The bands of death in the Book of Mormon: 18:4-5; 116:3 with Mosiah 15:8; Alma 5:7-10.
-- (18) Claims of innocence beside David's story: 7:8; 17:3; 18:20-24; 26, with Psalm 51.
-- (18) Psalms that repeat or borrow: 18 and 2 Sam. 22; 18:16 and 144:7.
-- (19) Creation as God's witness: Ps. 8:1, 3; 19:1-6; 104 (with Alma 30:44 and D&C 88:45-47).
-- (19) Praise of the law: Ps. 1:2; 19:7-11; 119.
-- (19) The LORD as rock: Ps. 18:2, 31, 46; 19:14.
-- (19) The LORD as redeemer (go'el): Ps. 19:14; 69:18; 72:14; 103:4; 119:154.
-- (19) 'Thy servant': Ps. 18 title; 19:11, 13.
-- (20) The name of the LORD as protection and boast (20:1, 5, 7; compare 8:1, 9).
-- (20) The king's prayer and its answer: Psalms 20 and 21 as a pair (20:4; 21:1-2), with the royal psalms 2, 18, 110.
-- (20) Help from Zion and from heaven (20:2, 6; 3:4; 24:3).
-- (20) Trust in the LORD and not in arms (20:7; 33:16-17; 44:6; 147:10), toward Isa. 31:1.
-- (20) 'Save, LORD' and Hosanna (20:9; 118:25).
-- (21) The LORD's own attributes laid on the king or on humankind: honour and majesty (21:5; 8:5; 45:3; 96:6; 104:1).
-- (21) The face of God: joy before it (16:11; 21:6) and judgment from it (21:9; 34:16).
-- (21) Psalms 20 and 21 as a pair, prayer and thanksgiving for the king, with the other royal psalms (2, 18, 110).
-- (21) 'Shall not be moved' (13:4; 15:5; 16:8; 21:7).
-- (25) The meek and the inheritance of the land or earth: 25:9, 13; 37:9, 11, 22; with Matt. 5:5 and D&C 88:17.
-- (25) Waiting on the LORD: 25:3, 5, 21; 27:14; 37:9; 40:1; 130:5 (and Isa. 40:31 on the site).
-- (25) The acrostic psalms and what each does with the alphabet: 9-10, 25, 34, 37, 111, 112, 119, 145 (25 and 34 as a pair).
-- (25) Psalms 25-31 and Nephi's psalm (2 Ne. 4:16-35): one essay covers all seven psalms.
-- (25) 'For thy name's sake': 23:3; 25:11; 31:3; 79:9; 106:8; 109:21; 143:11.
-- (25) The LORD's council or confidence (sod): 25:14; 89:7; 111:1; with Jer. 23:18 and Amos 3:7.
-- (26) Walking in integrity while pleading for mercy: 7:8; 25:21; 26:1, 11; 41:12; 101:2.
-- (26) Entering the LORD's house and what it requires: 15; 24:3-6; 26:1-8; 27:4; 73:13-17; 118:19-20.
-- (26) Hands (clean, washed, full of bribes): 24:4; 26:6, 10; 73:13.
-- (26) The level or plain path: 26:12; 27:11; 143:10 (and 2 Ne. 4:32).
-- (26) Psalms 25-31 beside Nephi's psalm (Alford and Baker): 25:17; 26:11-12; 27:11.
-- (26) The LORD who tries the reins and heart: 7:9; 26:2 (Jer. 11:20; 17:10; Rev. 2:23).
-- (27) Seeking and seeing the face of God in His house: 27:4, 8-9, 13 (with 11:7, 17:15, 24:6, 42:2).
-- (27) The hidden face and being hidden by God, one verb (satar): 27:5, 9; 13:1; 31:20.
-- (27) Waiting on the LORD: 27:14; 25:3, 5, 21; 37:9, 34; 40:1; 130:5-6, with Isa. 40:31.
-- (27) The LORD as refuge, rock and stronghold: 27:1, 5; 18:2; 31:2-3; 61:2-4.
-- (27) Psalms 25-31 and Nephi's psalm (2 Ne. 4:16-35): Alford and Baker's study covers all seven.
-- (28) Prayer toward the sanctuary with lifted hands (5:7; 28:2; 63:4; 134:2; 141:2; with 1 Kgs. 8).
-- (28) Psalms 25-31 and the psalm of Nephi (28:1, 6-7; 2 Ne. 4:16-35).
-- (28) God's silence (28:1; 35:22; 39:12; 83:1; 109:1).
-- (28) The shepherd who carries (28:9; 23:1; 78:52; 80:1; Isa. 40:11; 63:9), already on the list.
-- (28) Laments that turn without saying what changed (28:6; 13; 22:21), already on the list.
-- (28) The LORD's anointed (28:8; 2:2), already on the list.
-- (29) The LORD enthroned as King: 29:10, with 24:7-10; 93; 96-99.
-- (29) The heavenly beings and the council: 29:1; 82:1; 89:5-7.
-- (29) The voice of the LORD in thunder and earthquake: 29:3-9; 18:13; 77:17-18; 97:4, with Hel. 12:9-11 and 3 Ne. 8:6 (KnoWhy #754).
-- (29) Lines sung twice: 29:1-2 in 96:7-9 and 1 Chr. 16:28-29.
-- (29) The waters under the LORD's rule: 29:3, 10; 74:13-14; 93:3-4; 104.
-- (30) The argument that the dead cannot praise: 6:5; 30:9; 88:10-12; 115:17, with Isa. 38:18-19 and the Joseph Smith Translation of 30:9.
-- (30) The hidden face: 13:1; 27:9; 30:7; 44:24; 88:14; 104:29.
-- (30) Night and morning: 30:5; 46:5; 90:14; 130:6; 143:8.
-- (30) "I shall never be moved", said by the wicked (10:6), by the secure (30:6) and of the righteous (15:5; 16:8; 62:2).
-- (30) Psalms 25-31 and Nephi's psalm (2 Ne. 4:16-35).
-- (31) God's hand against the enemy's hand (31:5, 8, 15).
-- (31) The face of God: shining, a hiding place, being cut off from His eyes (31:16, 20, 22; with 4:6, 24:6, 27:5).
-- (31) Psalms 25-31 and the psalm of Nephi (31:15, 19; Alford and Baker).
-- (31) Lines shared with the prophets: Jeremiah 20:10 (31:13); Jonah 2:4 and 2:8 (31:22, 31:6).
-- (31) The Savior's sayings from the cross taken from psalms (31:5 with 22:1).
+- **Passages:** Psalms 13; 22; 31; 38; 69; 88; 146–150.
+- **Arc:** Laments ask why God is absent, sometimes turn to trust, and sometimes end without relief. The Gospels put words from these prayers on Jesus' lips and describe His suffering through their images. Psalm 22's solitary cry opens into the congregation and the nations; the Psalter eventually ends in praise.
+- **Christ:** Matthew 27:46; Luke 23:46; John 19:28–30; Hebrews 2:11–12.
+- **Why it earns a page:** The Savior inhabits Israel's language of abandonment and becomes the one who declares God's name among His brethren. This can illuminate His solidarity with sufferers as well as the Passion's fulfilments.
+- **Writing boundary:** Psalm 88 must remain unanswered within its own poem. The book's ending does not mean each lament reports a happy resolution. Do not make every sufferer's confession of sin a statement about the sinless Christ.
 
-## Reported by chapters 32–43 (not yet sorted)
+### 3. Who may enter, and who brings us in?
 
-- (32) Confession and forgiveness in David's psalms: 32:1-5 with Psalm 51 (and 6, 38).
-- (32) Hesed and hasid, covenant love and the one who practises it: 32:6, 10.
-- (32) The 'Blessed' sayings of the Psalter and the Beatitudes: 32:1-2, 11.
-- (32) Paul's use of the Psalms in Romans: 32:1-2 in Romans 4.
-- (33) The new song: 33:3; 40:3; 96:1; 98:1; 144:9; 149:1, then Isa. 42:10, Rev. 5:9 and 14:3, D&C 84:98-102.
-- (33) Horses, armies and the name: 20:7; 33:16-17; 147:10-11.
-- (33) Creation by the word: 33:6, 9; 148:5 (with John 1:1-3, D&C 38:3, Jacob 4:9).
-- (33) Hesed running through a psalm (33:5, 18, 22), under the full note at 51:1.
-- (34) The broken heart and contrite spirit, into the Book of Mormon (34:18; 51:17).
-- (34) The righteous sufferer whom the LORD delivers (34:19-20; Psalm 22; Psalm 69).
-- (34) Acrostic psalms with an added last verse (25; 34).
-- (34) The angel of the LORD (34:7; 35:5-6).
-- (34) Psalms tied by title to David's flight from Saul (34; 52; 54; 56; 57; 59; 142).
-- (35) The LORD as advocate and judge, 'plead my cause' (35:1, 23-24; 43:1; 119:154).
-- (35) 'Without a cause' (35:7, 19; 69:4; 109:3; 119:161), with John 15:25.
-- (35) The trap that catches its maker (7:15; 9:15; 35:8; 57:6).
-- (35) The cursing psalms (35:4-8, 26), centred on the note at 137:8.
-- (35) 'Who is like unto thee' (35:10; 71:19; 89:8; 113:5) and Exodus 15:11.
-- (35) The angel of the LORD (34:7; 35:5-6).
-- (35) 'How long' (35:17; 13:1) and D&C 121.
-- (36) The LORD as the fountain of life and of living waters: Ps. 36:9; Jer. 2:13; 17:13.
-- (36) Light and life paired, and the Savior's title at Bountiful: Ps. 36:9; 27:1; John 1:4; 8:12; 3 Ne. 11:11.
-- (36) The feast in God's house and the river of delights: Ps. 36:8; 23:5-6; 65:4; Gen. 2:10.
-- (36) The shadow of thy wings: Ps. 17:8; 36:7; 57:1; 61:4; 63:7; 91:4.
-- (36) Paul's chain of psalm lines in Romans 3: Ps. 5:9; 10:7; 14:1-3; 36:1; 140:3.
-- (36) The fall of the wicked seen as already done: Ps. 14:5; 36:12.
-- (37) The prosperity of the wicked: Ps. 37 (answered by time), with Ps. 49, Ps. 73 and Job; already on the list from Psalm 1.
-- (37) The meek and the inheritance of the land or earth: Ps. 25:9-13; 37:9, 11, 22, 29, 34; Matt. 5:5; 3 Ne. 12:5; D&C 88:17-26.
-- (37) Waiting on the LORD: Ps. 37:7, 9, 34; 27:14; 40:1; 130:5.
-- (37) Psalms and Proverbs sharing sayings: Ps. 37:1 and Prov. 24:19; 37:5 and Prov. 16:3; 37:16 and Prov. 15:16.
-- (37) The LORD holding the hand: Ps. 37:24; 73:23.
-- (37) Psalms behind the Beatitudes (Skinner): Ps. 37:11, 21-22, 37; 24:3-4; 1:1.
-- (38) Sickness as God's hand and as a figure of sin (6:2; 32:3-4; 38:2-8; 39:10-11; 41:3-4; Isa. 1:5-6).
-- (38) Silence before those who speak against him (38:13-14; 39:1-2, 9).
-- (38) Laments that end without an answer (38; 39; 88).
-- (38) Friends and kinsmen at a distance (31:11; 38:11; 69:8; 88:8, 18; Luke 23:49).
-- (38) 'Make haste to help me' and 'be not far from me' (22:11, 19; 35:22; 38:21-22; 40:13; 70:1; 71:12).
-- (39) Strangers and sojourners with God: Ps. 39:12; 119:19 (with Lev. 25:23; 1 Chr. 29:15; Heb. 11:13-16; D&C 45:12-14).
-- (39) The shortness of life (breath, shadow, handbreadth): Ps. 39:4-6, 11; 62:9; 90:10-12; 144:4.
-- (39) Silence before God and God's silence: Ps. 38:13; 39:2, 9, 12; 62:1.
-- (39) Suffering taken as chastening: Ps. 38; 39:8-11 (with 6 and 32).
-- (40) Obedience over sacrifice: 40:6-8; 50:8-15; 51:16-17; 69:30-31 (with 1 Sam. 15:22 and Heb. 10).
-- (40) Waiting on the LORD: 25:3, 5, 21; 27:14; 37:9, 34; 40:1; 130:5.
-- (40) Telling the deliverance in 'the great congregation': 22:22, 25; 35:18; 40:9-10.
-- (40) 'The LORD be magnified' and the mockers' 'Aha': 35:21, 25, 27; 40:15-16; 70:3-4.
-- (41) Betrayal by a companion: 41:9; 55:12-14, 20-21; John 13:18; Acts 1:16-20.
-- (41) 'Blessed' (ashre) framing Book One: 1:1; 2:12; 32:1-2; 40:4; 41:1.
-- (41) The doxologies that close the five books: 41:13; 72:18-19; 89:52; 106:48; 150 (already noted at 150:6).
-- (41) Sickness, sin and healing in the laments: 6:2; 38:3-5; 41:3-4.
-- (42) Thirst for God and living water: 42:1-2; 63:1; 143:6; 36:8-9, with John 4 and 7.
-- (42) Seeing the face of God in His house: 42:2; 11:7; 17:15; 24:6; 27:4, 8; 63:2; 84:7.
-- (42) The psalms of the sons of Korah and the temple: 42-49; 84-85; 87-88.
-- (42) "Where is thy God?": 42:3, 10; 79:10; 115:2 (and 3:2; 22:8).
-- (42) A man speaking to his own soul: 42:5, 11; 43:5; 103:1; 116:7, with 2 Nephi 4.
-- (42) The flood as God's: 42:7; 69:1-2; 88:7; 124:4-5; Jonah 2.
-- (43) Longing for the sanctuary from far off (42:1-4; 43:3-4; 84; 63:1-2; 27:4).
-- (43) Mercy (hesed) and truth as a pair God sends out (43:3; 57:3; 85:10; 89:14), with Ex. 15:13 behind it.
-- (43) Speaking to one's own soul (42:5, 11; 43:5; 103:1; 116:7).
+**Keep and sharpen** ascending the hill of the Lord; absorb seeking God's face, longing for the house, temple gates, and the songs of degrees.
 
-## Reported by chapters 44–56 (not yet sorted)
+- **Passages:** Psalms 15; 24; 27; 42–43; 84; 118:19–26; selected steps in 120–134.
+- **Arc:** The psalms ask who may stand in God's presence, describe the character of His guest, and give voice to the longing of someone far away. The gates and the songs of ascent supply a movement toward worship in His house. Set beside Hebrews, the entrance question becomes a question of access through Christ.
+- **Christ:** Hebrews 6:19–20; 10:19–22; Matthew 5:8.
+- **Why it earns a page:** Holiness, longing, and entry belong together. Christ is both the one who opens access and the one through whom worshippers approach.
+- **Writing boundary:** Use selected songs of degrees as a literary journey; do not reconstruct an undocumented itinerary or modern temple ceremony. Keep the Psalms' demands for clean hands and a pure heart alongside Hebrews' promise of access.
 
-- (44) God's face shining and hidden: 44:3, 15, 24 (with 4:6; 27:8-9; 31:16; 42:2; 80:3, 7, 19).
-- (44) 'Cast off' (zanach) across the laments: 43:2; 44:9, 23; 60:1, 10; 74:1; 77:7; 88:14; 89:38; with Lam. 3:31.
-- (44) Israel as a planted vine: 44:2; 80:8-15.
-- (44) Calls on God to awake or arise: 7:6; 35:23; 44:23, 26; 59:4-5; 78:65; against 121:4.
-- (44) Suffering 'for thy sake': 44:22; 69:7; Rom. 8:36.
-- (45) The king as bridegroom and the Lord as husband: 45:10-15, with Isa. 54:5, 61:10, 62:5 and Rev. 19:7-8.
-- (45) Psalms that Hebrews 1 reads of the Son: 2:7; 45:6-7; 110:1 (also 102:25-27 and 104:4).
-- (45) 'For ever' said of a Davidic throne: 45:6; 89; 132, with 2 Sam. 7:16.
-- (45) Elohim used of someone other than God: 8:5; 45:6; 82:1, 6.
-- (46) Zion, the city of God that is not moved (46:4-5; with Psalms 48, 76, 84, 87, 122; the Joseph Smith Translation adds Zion at 14:7, 15:1, 46:5, 53:6; D&C 101:16).
-- (46) The sea and the nations described in the same words (46:2-3, 6; compare 65:7; 93:3-4; Isa. 17:12).
-- (46) 'God with us' and the LORD of hosts refrain (46:7, 11; 24:10; Isa. 7:14; 8:10; Matt. 1:23).
-- (46) The Joseph Smith Translation turning psalms toward the latter days (46:5-10; others per the study of its changes in the Psalms).
-- (47) The LORD reigneth: God as King over all the earth (47:2, 7-8; with 93:1, 96:10, 97:1, 99:1 and Isa. 52:7).
-- (47) The nations brought into the covenant people (47:1, 9; the peoples called to praise, their princes gathered as the people of the God of Abraham).
-- (47) Going up to the holy place with shout and trumpet: the ark and the Lord's ascent to His throne (47:5, 8; with 24:7-10 and 2 Sam. 6:15).
-- (49) Redemption from Sheol, the hand of the grave (49:7-9, 15; 16:10; 30:3; 86:13; 89:48; with Hosea 13:14).
-- (49) God 'taking' or 'receiving' the righteous (49:15; 73:24; Gen. 5:24).
-- (49) The prosperity of the wicked and the wisdom psalms' answer (37; 49; 73).
-- (49) Death as shepherd beside the Lord as shepherd (49:14; 23:1).
-- (50) God as judge of His own people, with heaven and earth as witnesses: 50:1-7, with 75; 82; 96:13.
-- (50) What God desires beside sacrifice: 50:8-15, 23, with 40:6; 51:16-17; 69:30-31.
-- (50) The psalms of Asaph as prophetic speech in God's voice: 50; 75; 81; 82.
-- (50) Sinai remembered in the Psalms: 50:2-7; 68:8, 17; 81:7-10.
-- (52) Trust in riches against trust in God (52:7; compare 49:6, 62:10).
-- (52) The righteous as a tree planted in God's house (1:3; 52:8; 92:12-14).
-- (52) The tongue as a weapon (52:2-4; 57:4; 64:3; 120:2-4).
-- (52) The psalms whose titles set them in David's flight from Saul (7, 34, 52, 54, 56, 57, 59, 142).
-- (52) Hesed named at a psalm's opening and at its turn (52:1, 52:8; full note at 51:1).
-- (53) Psalms that stand in the book twice (14 and 53; 40:13-17 and 70; 57 and 60 in 108).
-- (53) 'God' for 'the LORD' in Books Two and Three (53:2, 53:6 beside 14:2, 14:7), if a source for the pattern is found.
-- (54) The name of God as what saves and is praised (54:1, 6; 52:9; compare 20:1, 7).
-- (54) David's psalms from Saul's pursuit, by their titles (52, 54, 56, 57, 59, 142).
-- (54) Elohim and the divine name in Book Two (54:1-4 against 54:6; 42; 53 beside 14).
-- (56) Refrains in the Michtam psalms: 56:4, 10-11; 57:5, 11; 59:9, 17.
-- (56) 'What can man do unto me': Ps. 56:4, 11; 118:6; Heb. 13:6; D&C 122:9.
-- (56) God's book and record: Ps. 56:8; 69:28; 139:16; Mal. 3:16.
-- (56) Land or light of the living: Ps. 27:13; 56:13; 116:9; 142:5.
-- (56) Psalms tied by title to David's flight from Saul: 34, 52, 54, 56, 57, 59, 142.
+### 4. The sacrifice God desires
 
-## Reported by chapters 48–55 (not yet sorted)
+**Merge and strengthen** obedience over sacrifice, the broken heart, repentance, and forgiveness.
 
-- (48) Zion, the city of God: 46:4-5; 48:1-3, 8, 11-14 (with 76, 84, 87, 122, 125, 137), from the city God defends to the city mocked in Lam. 2:15 to Zion in latter-day revelation.
-- (48) Telling the next generation: 48:13 (with 22:30-31; 78:4-6; 102:18; 145:4).
-- (48) The LORD as King: 47:2, 7; 48:2 (with 93-99).
-- (48) Kings and nations gathered against Zion and scattered: 2:1-2; 46:6; 48:4-6 (with 76).
-- (55) The friend who betrays: Ps. 41:9; 55:12-14, 20-21, with John 13:18.
-- (55) Set times of prayer: Ps. 5:3; 55:17; 88:13; 119:164.
-- (55) Not being moved (tottering): Ps. 15:5; 16:8; 46:5; 55:22; 62:2.
-- (55) Flight to the wilderness and the wish for refuge: Ps. 11:1; 55:6-8.
-- (55) Casting care on the Lord: Ps. 37:5; 55:22, with 1 Pet. 5:7.
+- **Passages:** Psalms 32:1–5; 40:6–8; 50:7–23; 51:10–19; 69:30–31; 130:3–8.
+- **Arc:** These psalms question the sufficiency of offerings, ask for obedience and thanksgiving, and locate the acceptable sacrifice in a broken spirit. They also ask God for the cleansing and forgiveness the worshipper cannot supply. Hebrews places Psalm 40's willing obedience in Christ's mouth; Restoration scripture joins His offering to the broken heart He asks His people to bring.
+- **Christ:** Hebrews 10:1–18; 2 Nephi 2:7; 3 Nephi 9:19–20.
+- **Why it earns a page:** It distinguishes Christ's saving sacrifice from the worshipper's response while showing why the Psalms repeatedly bring sacrifice back to the heart.
+- **Writing boundary:** These psalms are not a chronological abolition of Israel's sacrificial worship; Psalm 51 itself ends with offerings. Follow the different questions each poem asks.
 
-## Reported by chapters 57–68 (not yet sorted)
+### 5. Who can ransom a life?
 
-- (57) Refrains that divide a psalm (42-43; 46; 56; 57:5, 11; 59; 80; 107).
-- (57) Night and morning in David's psalms: lying down among enemies and waking to praise (3:5; 4:8; 5:3; 57:4, 8; 59:16).
-- (57) Praise promised among the nations by one delivered man (18:49; 22:27; 57:9; 108:3), which Paul carries to the Gentiles (Rom. 15:9).
-- (57) Mercy and truth as a pair (25:10; 40:11; 57:3, 10; 61:7; 85:10; 89:14).
-- (58) Unjust judges and the God who judges (58:1, 11; 82:1-8; Mosiah 29:11-12 by the Church's footnote).
-- (58) The cursing psalms (58:6-10), already placed at 137:8.
-- (58) The enemy's teeth and lions (3:7; 57:4; 58:6).
-- (59) Morning as the hour of God's help and of praise (59:16; cf. 30:5; 46:5; 90:14; 143:8).
-- (59) The LORD's laughter (2:4; 37:13; 59:8).
-- (59) Enemies as animals: dogs (22:16, 20; 59:6, 14), lions, bulls.
-- (59) Protest of innocence in the psalms of Saul's pursuit (7:3-5; 17:3; 59:3-4).
-- (59) Punishment 'that they may know' God rules (59:13; 83:18; 9:20).
-- (60) God casts off His people and is still the only one they pray to (60:1, 10; 44:9, 23; 43:2; 74:1; 77:7; 88:14; 89:38; 108:11).
-- (60) The cup or wine from God's hand (60:3; 75:8; with Isa. 51:17–22).
-- (60) 'Vain is the help of man': rescue is God's alone (60:11; 108:12; 33:16–17; 118:8–9; 146:3).
-- (60) Psalms that reuse other psalms (60:5–12 in 108:6–13).
-- (60) Ephraim and Judah named together (60:7; 78:67–68; 108:8).
-- (61) God as rock and refuge (61:2-3; 62:2, 6-7; 18:2; 19:14; 27:5).
-- (61) Dwelling in God's tent or house for ever (61:4; 15:1; 23:6; 27:4-5; 91:1-4).
-- (61) Prayer for the king's endless life (61:6-7; 21:4; 72).
-- (61) Mercy and truth as a pair (61:7; 40:11; 85:10; 89:14; Prov. 20:28).
-- (61) Vows and praise at the close of a lament (61:5, 8; 22:25; 56:12).
-- (62) Refrains that change on their return: Ps. 62:1-2 and 5-6; 42:5, 11 and 43:5; 49:12 and 20; 56:4 and 10-11.
-- (62) The psalmist addressing his own soul: Ps. 42:5; 43:5; 62:5; 103:1; 116:7; 146:1.
-- (62) Humankind as a breath (hebel): Ps. 39:5-6, 11; 62:9; 94:11; 144:4.
-- (62) God as rock (tsur) and refuge: Ps. 18:2; 19:14; 28:1; 31:2-3; 61:2-3; 62:2, 6-7; 71:3; 89:26; 94:22.
-- (62) Judgment according to works: Ps. 28:4; 62:12; Prov. 24:12; Matt. 16:27; Rom. 2:6.
-- (62) Trust in riches: Ps. 49:6; 52:7; 62:10.
-- (63) Thirst for God and living water: 63:1 (with 42:1-2; 143:6); already listed under Psalm 42.
-- (63) Seeing God in the sanctuary: 63:2 (with 11:7; 17:15; 42:2).
-- (63) The shadow of His wings: 63:7 (with 17:8; 36:7; 61:4).
-- (63) The right hand that holds: 63:8 (with 73:23).
-- (63) Cleaving to God: 63:8 (with Deut. 10:20).
-- (63) The king in the psalms of David's flight: 61:6-7; 63:11.
-- (64) The wicked undone by their own device (64:7-8; with 7:15-16; 9:15-16; 57:6; 140:9).
-- (64) The tongue as a weapon (64:3; with 52:2-4; 55:21; 57:4; 59:7; 120:2-4).
-- (64) 'Who sees?': the claim that God does not see or hear (64:5; with 10:11; 59:7; 94:7).
-- (65) The Lord's rule over the sea, and Jesus stilling the storm (65:7; 89:9; 93:3-4; 107:23-30; Matt. 8:23-27).
-- (65) The nations as roaring waters stilled by God (65:7; 46:6; Isa. 17:12-13).
-- (65) All flesh and the ends of the earth coming to Israel's God (65:2, 5, 8; 22:27; 67; 86:9).
-- (65) Water from God: the river or channel of God (65:9; 46:4; 1:3; 36:8).
-- (65) Creation rejoicing (65:8, 12-13; 96:11-12; 98:7-8).
-- (66) The nations called to praise Israel's God: 66:1-4, 8 (with 47:1; 67; 96; 117).
-- (66) The Exodus sung again in the Psalms: 66:6 (with 74:13-15; 77:16-20; 78; 106; 114; 136).
-- (66) God as refiner: 66:10 (with 12:6; 17:3; 26:2).
-- (66) Vows paid in the Lord's house: 66:13-15 (with 22:25; 50:14; 56:12; 61:8; 65:1; 116:14-19).
-- (67) The priests' blessing prayed back and the shining face of God: 4:6; 67:1 (leads not read: 31:16; 80:3, 7, 19; 119:135), with 3 Ne. 19:25.
-- (67) Israel blessed for the nations' sake, and the nations called to praise: 67:2-5, 7; 96:10; 98:9 (leads: 47, 117).
-- (67) The Lord's judging of all peoples as a reason for joy: 67:4; 96:10-13; 98:9.
-- (68) Sinai remembered in the Psalms: 68:8, 17 (with 50:2-7; 81:7-10).
-- (68) The nations bringing gifts to Zion and called to praise: 68:29-32 (with 47; 67; 72:10; 76:11).
-- (68) Older scripture sung again in the Psalms: Num. 10:35 (68:1; 3:7), Judges 5 (68:7-8, 18, perhaps 13), Deut. 33 (68:17, 33).
-- (68) God as father of the fatherless and defender of the widow: 68:5 (with 10:14; 82:3; 146:9).
-- (68) God or the King going up to His hill: 68:16-18, 24 (with 24; 47:5).
+**Rebuild** the Sheol candidate around the need for a Redeemer; include the contrast between death and the Lord as shepherd.
 
-## Reported by chapters 69–80 (not yet sorted)
+- **Passages:** Psalms 6:5; 16:8–11; 23:4; 49:7–15; 73:23–26; 88:10–12; 115:17; 139:8.
+- **Arc:** Death threatens to end the worshipper's praise. Wealth cannot buy a life out of the grave, yet Psalm 49 entrusts that redemption to God. Other psalms speak of being received by Him or of His presence even in the depths. The contrast is especially sharp when death tends its flock in Psalm 49 and the Lord accompanies His sheep through death's shadow in Psalm 23.
+- **Christ:** Acts 2:25–32; Acts 13:35–37; Hebrews 13:20; D&C 138:11–19.
+- **Why it earns a page:** It makes resurrection the answer to a human predicament expressed across several poems, with Psalm 16's apostolic interpretation as the firm anchor.
+- **Writing boundary:** Preserve the poems' differing expressions of hope and fear. Their order is not a history of Israel discovering resurrection, and later revelation must not be put into every psalmist's mouth.
 
-- (69) Reproach borne for God's sake (69:7, 9, 10, 19, 20; with 22:6; 44:13; 89:50–51).
-- (69) The sufferer of the passion psalms as the New Testament uses them (22, 31, 35, 40, 69, 109).
-- (69) Deep waters, mire and the pit as the place of death and rescue (69:1–2, 14–15; 40:2; 18:16; 124:4–5; 130:1).
-- (69) Praise in place of sacrifice (69:30–31; 40:6; 50:13–14; 51:16–17).
-- (69) The curses and what the New Testament does with them (69:22–28 in Romans 11 and Acts 1; 109:8).
-- (70) 'Make haste' as the plea of the laments (70:1, 5; 22:19; 38:22; 40:13; 71:12; 141:1).
-- (70) 'Aha' and 'be magnified': what the mockers and the friends say (70:3-4; 35:21-27; 40:15-16).
-- (70) Psalms that stand in the book twice (70 and 40:13-17; 14 and 53; 108 with 57 and 60).
-- (70) 'Poor and needy' as the speaker's name for himself (70:5; 40:17; 86:1; 109:22; with 69:29).
-- (71) Telling the next generation: 71:17-18; 22:30-31; 78:4-6; 145:4.
-- (71) 'Forsake me not' / 'be not far': 71:9, 11-12, 18; 22:1, 11, 19; 27:9; 38:21.
-- (71) The Holy One of Israel in the Psalms: 71:22; 78:41; 89:18 (probably links, not a page).
-- (71) Psalms made from other psalms: 71 (from 31, 22, 35, 40); 70 (40:13-17); 108 (57, 60); 14 and 53.
-- (71) Old age in the Psalms: 71:9, 18; 37:25; 92:14; 90:10.
-- (72) The king and the poor: 72:2, 4, 12-14 (with Ps. 12:5; 82:3-4).
-- (72) The royal psalms and the king to come: 2, 45, 72, 89, 110, 132 (72:8 into Zech. 9:9-10 and Matt. 21:4-5).
-- (72) The promise to Abraham in the Psalms: 72:17 with Gen. 12:3; 22:18.
-- (72) "As long as the sun and moon": 72:5, 7, 17 with Ps. 89:36-37.
-- (72) The earth filled with the Lord's glory: 72:19 with Num. 14:21; Isa. 11:9; D&C 65:2.
-- (72) The five closing blessings: 41:13; 72:18-19; 89:52; 106:48; 150 (already gathered at Ps. 150:6).
-- (73) The prosperity of the wicked (Ps. 37; 49; 73; with Jer. 12:1, Job 21 and Mal. 3:13-18).
-- (73) 'Receive/take' and hope beyond Sheol (Ps. 49:15; 73:24; with 16:10).
-- (73) The LORD as portion (Ps. 16:5; 73:26; 119:57; 142:5).
-- (73) The grasped right hand (Ps. 63:8; 73:23; 139:10).
-- (73) The sanctuary as the place where things are seen rightly (Ps. 63:2; 73:17; 77:13).
-- (74) The Lord's victory over the sea monster (74:13-14; 89:9-10; 104:26; Isa. 27:1; 51:9-10; 2 Ne. 9:10).
-- (74) 'How long?' as the Psalter's question (74:9-10; 79:5; 13:1; 6:3).
-- (74) The song at the sea in later prayer (74:2; Ex. 15:13-17).
-- (74) Laments over the fallen temple (74; 79; 137; Lamentations 2).
-- (74) 'Remember' and 'forget not' addressed to God (74:2, 18-23).
-- (75) The cup of the LORD's judgment and the Savior's bitter cup: Ps. 11:6; 60:3; 75:8 (with Isa. 51:17-23, Jer. 25:15, Mark 14:36, 3 Ne. 11:11, D&C 19:18; the cup of blessing in Ps. 16:5; 23:5; 116:13).
-- (75) The horn lifted up or cut off: Ps. 18:2; 75:4-5, 10; 89:17, 24; 92:10; 112:9; 132:17; 148:14.
-- (75) God as judge in Book Three: Ps. 75:2, 7; 76:8-9; 82:1, 8.
-- (75) Hannah's song in the Psalms: Ps. 75; 113:7-8.
-- (76) Zion attacked and delivered by God: Ps. 46:6-9; 48:4-8; 76:3-6.
-- (76) 'Who shall stand?': Ps. 76:7; 130:3-4 (with 1:5; 24:3).
-- (76) The meek and poor whom God's judgment saves: Ps. 76:9 (with 25:9, 13; 37:11; 72:4).
-- (76) The fear of the LORD among the nations and their gifts: Ps. 76:11-12; 68:29; 72:10.
-- (77) Remembering the Lord's works as the answer to lament (77:3, 6, 11; 74:2, 18, 22; 78:35, 42; 105; 106).
-- (77) The Exodus and the sea retold in the Psalms (77:13-20; 74:13-15; 78; 106; 114; 136).
-- (77) The flock and the Shepherd of Israel in the psalms of Asaph (77:20; 78:52; 79:13; 80:1).
-- (77) Joseph as a name for the people (77:15; 78:67; 80:1; 81:5).
-- (78) The shepherd: 78:52, 70–72, with 77:20 and 80:1 (links Ezekiel's One Shepherd page).
-- (78) Remembering and forgetting God's works: 78:7, 11, 35, 39, 42, with 77:11; 105:5; 106:7, 13, 21.
-- (78) Israel's history retold as teaching: 78; 105; 106; 135; 136, with Deut. 32, 1 Cor. 10 and 1 Ne. 17.
-- (78) Ephraim and Judah: 78:9, 67–68; 60:7; 80:1–2, with 1 Chr. 5:1–2.
-- (78) God as rock and redeemer: 78:35, with 1 Cor. 10:4.
-- (78) The ark as God's strength: 78:61; 132:8.
-- (79) God's name as the ground of a plea: 79:9; 23:3; 25:11; 115:1-2 (with Ezek. 36:22).
-- (79) Israel as the flock in the psalms of Asaph: 74:1; 77:20; 78:52, 70-72; 79:13; 80:1.
-- (79) 'How long ... for ever': 13:1; 74:10; 79:5; 80:4; 89:46.
-- (79) The fall of Jerusalem in the Psalter: 74; 79; 137 (with Lamentations).
-- (79) 'Where is their God?': 42:3; 79:10; 115:2.
-- (80) The shepherd of Israel (80:1, with 23:1; 78:52, 70-72; 79:13; 95:7; 100:3).
-- (80) The shining face and the priests' blessing asked for in prayer (80:3, 7, 19; 4:6; 31:16; 44:3; 67:1).
-- (80) "How long" in the people's laments (80:4; 74:10; 79:5; 13:1-2; 89:46; 90:13).
-- (80) Israel as the Lord's vine or planting (80:8-16; 44:2; with Isa. 5; Jer. 2:21; Ezek. 15, 17; Matt. 21:33).
-- (80) Joseph and the northern tribes in the psalms of Asaph (77:15; 78:9, 67; 80:1-2; 81:5).
-- (80) "Turn us" and "return" as prayer (80:3, 7, 14, 19; 85:4; 90:13; Lam. 5:21).
+### 6. The law ends with a lost sheep
 
-## Reported by chapters 81–93 (not yet sorted)
+**New synthesis** of the law psalms and the shepherd leads. Keep this rather than a general page cataloguing shepherd imagery.
 
-- (81) God speaking in the first person inside a psalm at worship (Ps. 50:7-23; 81:6-16; 95:8-11).
-- (81) The exodus retold in the psalms of Asaph, with "Joseph" for the nation (77:15-20; 78; 80:1, 8; 81:5-10).
-- (81) Meribah (81:7; 95:8-9; 106:32).
-- (81) Being given up to one's own way as judgment (81:12; 78:29-31; 106:15; Rom. 1:24).
-- (83) God's silence, and prayer that He not be still (83:1; with 28:1, 35:22, 50:3, 109:1; Isa. 62:6-7).
-- (83) Punishment 'that they may know' (83:16-18; with 59:13, 9:20).
-- (83) The cursing psalms (83:9-17).
-- (83) The name of God as the psalm's goal (83:4, 16, 18).
-- (83) The divine names in the Asaph psalms: 'God' for fifteen verses, the divine name only at the end (83:16, 18).
-- (84) Longing for the sanctuary / ascending the hill of the Lord (84:1-2, 10; with 27:4; 42:1-4; 43:3-4; 63:1-2; 122).
-- (84) 'Blessed' (ashre) sayings (84:4, 5, 12; with 1:1).
-- (84) Appearing before God and seeing His face (84:7; 42:2; 17:15; 63:2; with Ex. 23:17 and Deut. 16:16).
-- (84) The psalms of the sons of Korah and the temple (42-49; 84-85; 87-88).
-- (84) God as light and sun (84:11; 27:1; 36:9; 43:3; with Mal. 4:2 and 3 Ne. 25:2).
-- (84) Desert turned to springs on the way to Zion (84:6; 107:35; with Isa. 35:6-8; 41:18).
-- (84) The LORD of hosts as the name of the temple's King (24:10; 46:7, 11; 48:8; 84:1, 3, 8, 12).
-- (84) The Lord's anointed in the Psalms (84:9; 2:2; 89; 132).
-- (85) 'Turn' (shub) as prayer, God turning and turning His people: 85:1, 3, 4, 6, 8; 80:3, 7, 19; 126:1, 4; 14:7.
-- (85) Mercy and truth (hesed and emet) as a pair and as God's messengers: 85:10; 43:3; 57:3; 61:7; 89:14 (already on the list).
-- (85) Righteousness from heaven and truth from the earth: 85:11; Isa. 45:8; Moses 7:62, ending in the Book of Mormon's witness of Christ.
-- (85) The land yielding its increase as covenant blessing: 85:12; 67:6; 72:3, 16; Lev. 26:4.
-- (85) The glory dwelling with Israel: 85:9; 26:8; 63:2.
-- (86) The LORD's description of Himself at Sinai (Ex. 34:6) as the ground of prayer: 86:5, 15; 103:8; 145:8; with Num. 14:18 and Joel 2:13.
-- (86) All nations coming to worship: 86:9; 22:27; 72:11, 17; with Rev. 15:4.
-- (86) 'None like thee among the gods' and Israel's song at the sea: 86:8; 35:10; 77:13; 89:6-8.
-- (86) The psalmist as the Lord's servant: 86:2, 4, 16; 116:16.
-- (86) Psalms that share lines with other psalms: 86; 70 and 40; 108.
-- (87) The nations brought into the covenant people, here as native-born citizens of Zion: 87:4-6 (with 22:27; 47:9; 68:31; 86:9).
-- (87) Zion, the city of God, founded and established by Him: 87:1-3, 5 (with 46:4-5; 48:8; 78:68; 132:13).
-- (87) The LORD's book or register of the living: 87:6 (with 56:8; 69:28; 139:16).
-- (87) Springs, river and fountain in God's city: 87:7 (with 36:8-9; 46:4; 65:9; 84:6).
-- (88) Sheol and the dead who cannot praise: 88:3-6, 10-12 (with 6:5; 30:9; 115:17), and what later scripture adds.
-- (88) The hidden face of God: 88:14 (with 13:1; 22:24; 27:9; 44:24).
-- (88) Laments that do not turn, or turn without saying why: 88 beside 13 and 22.
-- (88) 'Thy waves', water as God's own affliction: 88:7, 17 with 42:7 and Jonah 2:3.
-- (89) The covenant with David and its apparent failure: 89:3-4, 19-37, 38-51, with 2:7; 18:50; 72; 132:11-12 (already listed as the king from Psalm 2 to Psalm 110).
-- (89) Mercy and faithfulness as a pair (hesed and emunah): 89:1-2, 14, 24, 33, 49; leads at 36:5; 85:10; 92:2; 98:3; 100:5.
-- (89) The council of the holy ones: 89:5-7 with 82:1 (already listed).
-- (89) The sea and the monster subdued: 89:9-10 with 65:7; 74:13-14; 93:3-4; 104:26.
-- (89) "How long, LORD?": 89:46 with 6:3; 13:1; 74:10; 79:5; 90:13.
-- (89) Laments that end without an answer: 89 with 88.
-- (89) The book-ending doxologies: 89:52 (already listed).
-- (89) The Firstborn: 89:27 with Ex. 4:22; Col. 1:18; Rev. 1:5.
-- (90) Moses in Book Four: 90 (title); 99:6; 103:7; 105:26; 106:16, 23, 32 (only 90 read here), with Ex. 32 and Num. 14.
-- (90) 'How long?': 6:3; 13:1; 74:10; 79:5; 80:4; 89:46; 90:13; 94:3, with 2 Pet. 3:8-9.
-- (90) The shortness of life: 39:4-6; 89:47-48; 90:3-12; 103:14-17; 144:4, with Isa. 40:6-8.
-- (90) God as dwelling place and refuge: 71:3; 90:1; 91:1-9, with Deut. 33:27.
-- (90) The seam between Book Three and Book Four: 89:38-51 to 90.
-- (91) The shadow of His wings: 91:4 (with 17:8; 36:7; 57:1; 61:4; 63:7).
-- (91) The LORD as refuge and dwelling place: 91:1-2, 9; 90:1; 71:3.
-- (91) The LORD speaking in His own voice inside a psalm: 91:14-16 (with 12:5; 50; 81; 95).
-- (91) Angels as the LORD's guard: 91:11-12; 34:7; 103:20.
-- (91) Psalms quoted in the temptation and Passion narratives: 91:11-12 (Matt. 4:6).
-- (92) The prosperity of the wicked answered by time: 92:6-7 with 37:35-36; 73:3, 17-22; 90:5-6.
-- (92) The righteous as trees planted in the house of the LORD: 1:3; 52:8; 92:12-14.
-- (92) Psalm 90's petitions and the psalms after it: 90:14-16 with 92:2, 4 (shared Hebrew words); 91:8 with 92:11. Needs a source or a theme page's freedom to say more than shared words.
-- (92) The song of Moses in the Psalms: Deut. 32:4 in 92:15 (the Rock; also 18:2, 31; 78:35; 95:1).
-- (92) The Sabbath and the Lord's works: the title of 92 and 92:4, with Ex. 20:11, Deut. 5:15 and D&C 59.
-- (93) 'The LORD reigneth' (93:1; 96:10; 97:1; 99:1; 47:8; Isa. 52:7; Rev. 11:17; 19:6; Mosiah 3:5): 93:1 and 96:10 share five Hebrew words about the world; Isa. 52:7 shares the verb behind 'becometh' in 93:5.
-- (93) The waters under the LORD's rule (29:3, 10; 46:2-3; 65:7; 74:13-14; 89:9; 93:3-4; 107:29): the word for 'majesty' in 93:1 is the sea's 'raging' in 89:9.
-- (93) 'The voice of many waters': the floods' voice in 93:3-4; the Lord's own voice in Ezek. 43:2, Rev. 1:15, D&C 110:3 and 133:22; Rev. 19:6.
-- (93) Holiness and the LORD's house (93:5, with 15; 24:3-4; 65:4).
+- **Passages:** Psalms 1:1–3; 19:7–14; 23:1–4; 95:7–11; 119:97–112, 176.
+- **Arc:** Psalm 1 blesses the person who delights in God's law. Psalm 19 praises instruction that restores the soul, then asks for cleansing from hidden faults. Psalm 119 sustains devotion to the commandments for 176 verses, yet ends with a lost sheep asking God to seek it. Psalm 23's shepherd and Psalm 95's flock supply the counterpart: those who belong to Him need His leading and must hear His voice.
+- **Christ:** Luke 15:3–7; John 10:11, 27–28; 3 Nephi 15:5, 9.
+- **Why it earns a page:** Obedience and the need to be rescued coexist in the same prayer. The Savior is the giver of the law and the Shepherd who seeks the straying servant.
+- **Writing boundary:** This is the page's comparison of the poems, not a claim that Psalm 119 intentionally corrects Psalm 1. Do not treat the lost sheep as contempt for the law: the last line says the servant has not forgotten the commandments.
 
-## Reported by chapters 94–105 (not yet sorted)
+## Worth keeping in reserve
 
-- (94) 'How long?' and its answer: 94:3 with 13:1-2 and D&C 121:1-8.
-- (94) The LORD who sees and hears, against the boast that He does not: 94:7-9 with 10:11-14.
-- (94) Chastening as teaching: 94:10, 12 with Heb. 12:5-11, D&C 95:1 and Rev. 3:19.
-- (94) 'The LORD reigneth' psalms (93, 96-99), with 94 between them naming Him judge of the earth: 94:2.
-- (94) Vengeance left with God: 94:1 with Deut. 32:35 and Rom. 12:19 (the cursing-psalms note at 137:8).
-- (95) The rest of the Lord: Ps. 95:11; 132:8, 14 (with Heb. 3-4, Alma 12-13, D&C 84:24).
-- (95) Meribah and Massah, the wilderness as warning: Ps. 81:7; 95:8-11; 78; 106:32.
-- (95) The LORD as King above all gods: Ps. 93; 95:3; 96:4-5; 97:7, 9.
-- (95) The flock of His hand: Ps. 23; 74:1; 79:13; 95:7; 100:3.
-- (95) The Psalms in the Book of Mormon (Jacob and Alma on Ps. 95): Ps. 95:7-11.
-- (96) 'The LORD reigneth' as a message (Ps. 93:1; 96:10; 97:1; 99:1; 47:8) with Isa. 52:7.
-- (96) The new song (Ps. 33:3; 96:1; 98:1; 149:1) to D&C 84:98-102.
-- (96) The nations brought into the LORD's worship (Ps. 22:27; 47:9; 67; 86:9; 96:7-9).
-- (96) The Judge who comes, as good news (Ps. 9:8; 67:4; 96:13; 98:9) with Acts 17:31 and John 5:22.
-- (97) 'The LORD reigneth' (Ps. 93:1; 96:10; 97:1; 99:1; with 47:8 and Isa. 52:7).
-- (97) The Lord's coming in cloud, fire and melting mountains (Ps. 18:9; 50:3; 68:2; 77:18; 97:2-5).
-- (97) 'Gods' beneath the LORD (Ps. 82; 89:5-7; 95:3; 96:4-5; 97:7, 9; 138:1).
-- (98) The new song (33:3; 40:3; 96:1; 98:1; 144:9; 149:1), with Rev. 5:9, Rev. 15:3 and D&C 84:98.
-- (98) The LORD as King and coming Judge (93; 95-99; 98:6, 9), with Isa. 52:7-10 and Isa. 33:22.
-- (98) Creation joining the praise (96:11-12; 98:7-8; 148), with Isa. 55:12 and D&C 128:23.
-- (98) All the ends of the earth seeing the salvation of God (98:2-3), with Isa. 52:10, Mosiah 15:31, 3 Ne. 20:35 and D&C 133:3.
-- (99) 'The LORD reigneth' and what each psalm sets after the cry (93:1; 96:10; 97:1; 99:1; with 47:8).
-- (99) The ark as throne and footstool (80:1; 99:1, 5; 132:7-8).
-- (99) The name proclaimed at Sinai, forgiving and not clearing the guilty, in the Psalms (99:8; 86:15; 103:8; 145:8).
-- (99) Moses in the Psalms as intercessor (90 title; 99:6; 106:23).
-- (100) The shepherd and His flock (100:3, with 95:7; 79:13; 23:1; John 10): already listed.
-- (100) Mercy and faithfulness as a pair (100:5, with 89:1-2; 98:3): already listed under Psalm 89.
-- (100) The thank offering and its song (title; 100:4-5; 50:14; 107:22; 116:17; Jer. 33:11).
-- (100) The nations called to the LORD's house (100:1, 4; 96:7-8; 66:1; Isa. 2:2-3).
-- (101) The king under the King: royal psalms after 'The LORD reigneth' (93, 97, 99, then 101; also 2, 72, 110).
-- (101) Who may dwell: the tests of Ps. 15:1-3 and 24:3-4 beside the king's house (101:5-7).
-- (101) The ark coming to Jerusalem (Ps. 15, 24, 68, 101, 132; 2 Sam. 6).
-- (102) Zion built up when the Lord appears (102:13-16, with D&C 124:6 and the Second Coming).
-- (102) Psalms quoted of the Son in Hebrews 1 (102:25-27, with Psalms 2, 45 and 110).
-- (102) Human days like grass and shadow beside God's years (102:3, 11, 24-27; Psalm 90).
-- (102) A record written for a generation to come (102:18; 22:30-31).
-- (102) Ruined Jerusalem and the prisoners (102:14, 20; Psalm 79; Lamentations 5).
-- (103) The Sinai sentence (Ex. 34:6-7) in the Psalms: 86:5, 15; 103:8, 17-18; 145:8 (with 77:8-9 and Joel 2:13).
-- (103) Mercy for "them that fear him": 103:11, 13, 17; 33:18; 147:11; D&C 76:5.
-- (103) Dust and grass as the measure of man: 90:3-6; 102:4, 11; 103:14-16; Isa. 40:6-8.
-- (103) Angels and hosts called to praise: 103:20-21; 148:2; 29:1.
-- (103) Paired psalms sharing a frame: 103 and 104 ("Bless the LORD, O my soul").
-- (104) Creation psalms: 8; 19:1-6; 104 (creation as continuing work, 104:10-30).
-- (104) Psalms that Hebrews 1 quotes or sets beside the Son: 104:4 with 2:7; 45:6-7; 102:25-27; 110:1.
-- (104) The waters under the LORD's rule: 104:6-9 with 29:3, 10; 74:13-14; 93:3-4; Moses 7:51.
-- (104) Leviathan, from enemy (74:14; Isa. 27:1) to creature at play (104:26).
-- (104) Breath and spirit given and withdrawn: 104:29-30 with 146:4.
-- (104) The hidden face: 104:29.
-- (104) Hallelujah: 104:35 is the first in the Psalter (full note at 150:1).
-- (105) The covenant with Abraham remembered: 105:8-11, 42; 106:45; with Luke 1:72-73 and 1 Ne. 17:40.
-- (105) Israel's history retold (already listed at 78): 105 as the hymn, 106 as the confession.
-- (105) The LORD's anointed (already listed at 2): 105:15, plural and used of the patriarchs.
-- (105) Remembering and forgetting (already listed at 78): 105:5, 8, 42.
+### 7. From hostile nations to fellow worshippers
 
-## Reported by chapters 106–118 (not yet sorted)
+**Keep and consolidate** the nations, Abraham's blessing, Zion's citizens, and universal praise.
 
-- (106) The wilderness history retold to teach, praise, warn and confess (Psalms 78, 95, 105, 106; also 81, 90, 99).
-- (106) Remembering and forgetting, God's and Israel's (Ps. 105:5, 8, 42; 106:4, 7, 13, 21, 45; 78:11, 35, 42).
-- (106) Intercessors who stand between, pointing to the Mediator (Ps. 106:23, 30; 99:6).
-- (106) 'For his name's sake' (Ps. 106:8; 23:3; 25:11; 79:9; 109:21).
-- (107) The gathering from the four quarters and thanks for it: 106:47; 107:2-3; 147:2 (with Isa. 43:5-6; Jer. 33:11; 1 Ne. 22:25).
-- (107) 'O give thanks unto the LORD; for he is good: for his mercy endureth for ever': 106:1; 107:1; 118:1, 29; 136 (with Ezra 3:11; Jer. 33:11). Probably one note and links.
-- (107) The LORD who stills the sea: 65:7; 89:9; 93:3-4; 107:23-30, with Mark 4:35-41.
-- (107) Prisoners brought out of darkness: 68:6; 102:20; 107:10-16; 146:7, with Isa. 42:7 and Luke 1:79.
-- (107) Hesed under three English words in one psalm (107:1, 8, 43): a pointer for the mercy-that-endures candidate.
-- (108) Psalms sung twice (14/53; 40/70; 57 and 60/108; 18 and 2 Samuel 22) and what each second use changes: Ps. 108:1–13.
-- (108) Praise “among the nations”: Ps. 108:3, with 18:49 and 57:9.
-- (109) The LORD at the right hand: 109:6, 31; 110:1, 5; 16:8.
-- (109) The courtroom in the Psalms (accuser, judge, advocate): 109:6-7, 31; 35:1; 43:1.
-- (109) Peter's psalms of Judas: 69:25; 109:8; 41:9 (Acts 1:16-20).
-- (109) The curse or trap that returns on its maker: 109:17-19; 7:15-16; 9:15; 35:8.
-- (109) Prayer for enemies inside the cursing psalms: 109:4 (JST); 35:13.
-- (111) The fear of the LORD (Ps. 111:5, 9, 10; 112:1; with 19:9; 34:11; 103:11-17).
-- (111) Twin and paired psalms (111 and 112; 103 and 104; 105 and 106; 9 and 10).
-- (111) "Gracious and full of compassion": the Sinai sentence through the Psalms (111:4; 112:4; 86:15; 103:8; 145:8).
-- (111) The LORD's works for Israel rehearsed (111:4-9; 105; 106; 78; 136).
-- (112) The fear of the LORD as the beginning of wisdom, and the one fear beside which the others go (111:10; 112:1, 7-8).
-- (112) 'Merciful and gracious' (Ex. 34:6) through the Psalter: 86:15; 103:8; 111:4; 112:4; 145:8.
-- (112) The 'Blessed is the man' psalms and their endings (1:1, 6; 112:1, 10).
-- (113) The Hallel (Psalms 113-118) and the Savior's last Passover: 113:1; 114:1; 118:22-26.
-- (113) Hannah's song in the Psalms: 113:7-9, with 75:7.
-- (113) The LORD who lifts the poor and needy: 113:7-8, with 72:12-13; 107:41; 146:7-9.
-- (113) 'Who is like unto the LORD': 113:5, with 35:10; 71:19; 89:8; Ex. 15:11.
-- (113) The name praised among all nations: 113:3-4, with Mal. 1:11.
-- (114) The exodus sung again in the Psalms: 114 with 66:6; 77:16-20; 78; 81; 105; 106; 136.
-- (114) Nature before the Lord's presence: 114:3-7 with 29:6; 68:8; 77:16; 97:4-5; Hel. 12:9-16; Moses 7:13; D&C 133:40-44.
-- (114) The Hallel and the Last Supper: Psalms 113-118 with Matt. 26:30 and 118:22-26.
-- (115) The nations' taunt 'Where is their God?' and the answer 'for thy name's sake' (42:3, 10; 79:10; 115:1-2; Joel 2:17; Isa. 48:11).
-- (115) Idols that cannot speak beside the God who acts (96:5; 97:7; 115:4-8; 135:15-18; Isaiah 44, 46; Jeremiah 10).
-- (115) The dead who do not praise, and what the Restoration adds (6:5; 30:9; 88:10-12; 94:17; 115:17; D&C 128:22; D&C 138).
-- (115) Israel, the house of Aaron, and those who fear the LORD (115:9-13; 118:2-4; 135:19-20).
-- (115) The Hallel (113-118) and the Last Supper.
-- (116) The Hallel (Psalms 113-118) as the hymn of the Passover and of the Last Supper: 116:13; 118:22-26; Matt. 26:30.
-- (116) The cup in the Psalms: 11:6; 16:5; 23:5; 75:8; 116:13, and the cup of Gethsemane.
-- (116) Vows made in danger and paid in the temple: 22:25-26; 50:14; 56:12; 61:8; 66:13-15; 116:14, 17-19.
-- (116) 'The land of the living' and 'the light of the living': 27:13; 52:5; 56:13; 116:9; 142:5.
-- (117) The nations called to praise Israel's God (117:1; 18:49; 67:3; 96; 150:6), and Paul's use of these in Romans 15:9-12.
-- (117) Mercy and truth, the Sinai sentence of Ex. 34:6, in the Psalms (86:15; 103:8; 117:2; 145:8).
-- (117) The Hallel (113-118) and the hymn of the Last Supper (Matt. 26:30).
-- (118) The stone the builders refused: 118:22-23 with Isa. 28:16; Matt. 21:42; Acts 4:11; 1 Pet. 2:6-7; Jacob 4:15-17.
-- (118) Hosanna, 'Save now': 118:25 with Matt. 21:9 and the Feast of Tabernacles.
-- (118) Who may enter the gate: 118:19-20 with Ps. 15; 24:3-6; 2 Ne. 4:32.
-- (118) The song of Moses sung again: 118:14 with Ex. 15:2; Isa. 12:2.
-- (118) Israel, the house of Aaron, and those who fear the LORD: 115:9-13; 118:2-4.
-- (118) 'Blessed is he that cometh in the name of the Lord' as a word for the Second Coming: 118:26; Matt. 23:39; JS-M 1:1.
-- (118) The Hallel at the Last Supper: Psalms 113-118 with Matt. 26:30.
+- **Passages:** Psalms 2; 22:27–31; 47; 67; 72:8–17; 87; 117; 148.
+- **Arc:** Nations appear as opponents of God's anointed, then as those called to worship, blessed through the king, and counted among Zion's people. The closing praise includes the earth's rulers and peoples.
+- **Christ:** Luke 2:30–32; Romans 15:8–12; Revelation 7:9–10.
+- **Recommendation:** Strongest alternative to the first six. It shows the reach of Christ's kingdom and deserves a page if the royal theme cannot give this movement sufficient room.
+- **Writing boundary:** These are different portrayals of nations, not a claim that opposition has disappeared or every nation is already reconciled.
 
-## Reported by chapters 119–130 (not yet sorted)
+### 8. When righteousness seems unrewarded
 
-- (119) The law as God's instruction and delight: Ps. 1:2; 19:7-10; 119:97, 103, 105.
-- (119) 'Quicken me', life asked of God according to His word: Ps. 71:20; 80:18; 119:25, 50, 93, 107; 143:11.
-- (119) The lost sheep and the seeking shepherd: Ps. 23; 119:176; Isa. 53:6; Ezek. 34:16; Luke 15.
-- (119) Affliction as teaching: Ps. 94:12; 119:67, 71, 75.
-- (119) Word and light said of Jehovah and given to Jesus in John: Ps. 27:1; 36:9; 43:3; 119:105, 130.
-- (120) The songs of degrees as a going up: the far country (120:5), the hills (121:1), the gates (122:2), the house by night (134:1); belongs with 'Ascending the hill of the Lord' (24:3).
-- (120) The tongue as a weapon and its repayment in kind (120:2-4; 57:4; 64:3, 7; 140:9-10).
-- (120) Peace sought among those who hate it (120:6-7; 122:6-8).
-- (121) The LORD 'which made heaven and earth' as the ground of help: 121:2; 124:8; 134:3 (also 115:15; 146:6), toward Mosiah 3:8 and 3 Ne. 9:15.
-- (121) The keeper of Israel who does not sleep, against the cries that God awake: 121:3-4 with 44:23; 7:6; 35:23; 59:4-5; 78:65.
-- (121) The songs of degrees as a pilgrim's journey: 120 far from home, 121 on the way, 122 at Jerusalem (this chapter now states only what each psalm says; a source for the sequence would be needed).
-- (122) Going up to the house of the LORD: the pilgrim feasts (122:1-4; with 24:3, 42:4, 84:5-7, 120-134).
-- (122) Peace through the songs of degrees (120:6-7; 122:6-8; 125:5; 128:6).
-- (122) The throne of David (122:5; with Psalms 2, 18, 89, 110, 132) and Luke 1:32.
-- (122) Jerusalem or Zion as the city of God (Psalms 48, 87, 122, 137).
-- (123) Lifted eyes in the songs of degrees (121:1; 123:1-2), with 25:15, 141:8 and 145:15.
-- (123) "He that sitteth in the heavens": the LORD enthroned above (2:4; 123:1; also 11:4, 113:5).
-- (123) The scorn of the comfortable against God's people (123:3-4; 44:13; 79:4; with Neh. 2:19 and 4:4).
-- (124) The confession 'which made heaven and earth' through the songs of degrees (121:2; 124:8; 134:3; leads not read: 115:15; 146:6).
-- (124) 'May Israel now say': the people called to speak a line (118:2–4; 124:1; 129:1).
-- (124) The enemy as a flood (124:4–5; 69:1–2; Isa. 8:7–8; leads: 18:16; 144:7).
-- (124) The snare and the fowler (91:3; 124:7; leads: 140:5; 141:9; 142:3).
-- (125) Zion that cannot be moved: Ps. 46:5; 48; 125:1, beside D&C 97:19–21 and 101:17 (no source read joins them; it would be a theme page's own connection).
-- (125) 'Peace upon Israel' in the songs of degrees: Ps. 122:6–8; 125:5; 128:6, with Gal. 6:16.
-- (125) The LORD round about His people: Ps. 34:7; 121; 125:2, with Zech. 2:5.
-- (126) The turned captivity and the gathering: Ps. 14:7; 53:6; 85:1-4; 126:1, 4 (with Deut. 30:3; Jer. 30:3; Amos 9:14; Job 42:10).
-- (126) Weeping that ends in joy: Ps. 30:5, 11; 126:5-6 (with Matt. 5:4).
-- (126) The nations as witnesses of what the LORD does for Zion: Ps. 98:2-3; 126:2 (with Ezek. 36:36).
-- (127) The house the LORD builds: house as temple and as family or dynasty (127:1; 2 Sam. 7; Ps. 132:11-14; 122:1, 5; 128:3).
-- (127) The keeper and the watchman in the songs of degrees (121:3-8; 127:1; 130:6).
-- (127) Family in the songs of degrees (127:3-5; 128:3, 6; 133:1).
-- (128) Blessing out of Zion across the songs of degrees: 128:5; 133:3; 134:3 (with 20:2; 122:6).
-- (128) Peace on Israel in the songs of degrees: 120:6-7; 122:6-8; 125:5; 128:6.
-- (128) Psalms 127-128 as a pair on the house the LORD builds: 127:1-5; 128:1-4 (with 112:1).
-- (128) The covenant's blessings and curses behind the wisdom psalms: 128:2 with Lev. 26:16; Deut. 28:30-33; Isa. 65:22.
-- (129) Israel speaking as one person, with a line given to the people to say (118:2; 124:1; 129:1).
-- (129) Those who hate or fight against Zion (129:5; Isa. 29:7-8; 1 Ne. 22:14; 2 Ne. 6:12-13).
-- (129) Harvest in the songs of degrees: the sheaves that come home and the harvest that never comes (126:5-6; 129:6-8).
-- (129) Blessing out of Zion in the songs of degrees (128:5; 134:3), beside the blessing nobody says in 129:8.
-- (130) Waiting on the LORD: 130:5-6 (already listed from 25, 27, 37, 40).
-- (130) Night and morning: 130:6 (already listed from 30).
-- (130) Deep waters: 130:1 with 69:2, 14 (already listed from 69).
-- (130) "Who shall stand?": 130:3-4 with 76:7 (already listed from 76).
-- (130) Redemption from sin rather than from troubles: 130:7-8 beside 25:22.
+**Keep** the prosperity-of-the-wicked candidate; fold in true inheritance and the Lord as one's portion.
 
-## Reported by chapters 131–143 (not yet sorted)
+- **Passages:** Psalms 1; 37; 49; 73; 92.
+- **Arc:** Psalm 1's flourishing righteous person is set beside the wicked who visibly prosper. Psalm 37 asks for patience; Psalm 49 tests wealth against death; Psalm 73 questions whether purity was vain and finds a different measure in God's sanctuary: God Himself is the enduring portion.
+- **Christ:** Matthew 5:5, 8; D&C 88:14–17.
+- **Recommendation:** A good independent page. It challenges the assumption that righteousness guarantees immediate prosperity and connects the meek's inheritance to Christ's redemption.
+- **Writing boundary:** Do not make the sanctuary experience erase the complaint, or promise material success to every righteous person.
 
-- (131) 'Let Israel hope in the LORD': a single speaker's prayer handed to the whole people at the close of consecutive songs of degrees (130:7-8; 131:3).
-- (131) The stilled, waiting soul (62:1; 130:5-6; 131:2).
-- (132) The oath to David and its 'if' (Ps. 89:3-4, 28-37; 132:11-12), carried to Acts 2:30 and Luke 1:32-33.
-- (132) The LORD's rest and dwelling in Zion (Ps. 132:8, 13-14; 95:11; 78:68).
-- (132) Horn, lamp and Branch for David's line (Ps. 132:17; 18:2; 89:17, 24; Jer. 23:5; 33:15).
-- (133) Blessing out of Zion in the songs of degrees (128:5; 133:3; 134:3); already listed under 128.
-- (133) Family and brethren in the songs of degrees (127:3-5; 128:3, 6; 133:1); already listed under 127.
-- (133) Anointing oil and the anointed (2:2; 23:5; 45:7; 89:20; 133:2).
-- (133) Unity and Zion as a people of one heart (133:1, 3, with Moses 7:18; John 17:21; D&C 38:27).
-- (134) Blessing in both directions, the LORD blessed and blessing (Ps. 115:12-18; 128:5; 133:3; 134:1-3; 135:19-21), with Num. 6:24.
-- (134) The Maker of heaven and earth in the songs of degrees (Ps. 121:2; 124:8; 134:3; also 115:15; 146:6): probably links, not a page.
-- (134) The songs of degrees as a movement toward the house of the LORD (Ps. 120:5 to 134:1): no source read states it, so it was cut from this chapter; it belongs under 'Ascending the hill of the Lord' only if a source is found.
-- (135) The recital of Egypt, Sihon and Og, and the land as heritage (135:8-12; 136:10-22; also 78, 105, 106).
-- (135) Idols that cannot speak, see or hear, and their makers like them (135:15-18; 115:4-8; Jer. 10).
-- (135) Psalms built from earlier scripture (135 from Ex. 3:15, Ex. 19:5, Deut. 32:36, Jer. 10:13, Ps. 115, Ps. 134).
-- (135) The call to Israel, Aaron, Levi and those who fear the LORD (135:19-20; 115:9-11; 118:2-4).
-- (136) The refrain 'his mercy endureth for ever' across scripture: 1 Chr. 16:34; 2 Chr. 5:13; 7:3; 20:21; Ezra 3:11; Ps. 106:1; 107:1; 118:1-4; 136; Jer. 33:11.
-- (136) Israel's history retold as praise or as confession: Ps. 78, 105, 106, 135, 136; Neh. 9.
-- (138) The kings of the earth praising the LORD (138:4-5; with 2:10-12; 72:10-11; 102:15; 148:11; D&C 124:3).
-- (138) The high LORD who looks on the lowly (138:6; 113:5-7).
-- (138) God finishing what He began (138:8; 57:2; with Philip. 1:6).
-- (138) 'Gods' beneath the LORD and the council (138:1; with 8:5; 82:1; 97:7): already listed.
-- (139) God's presence in Sheol and the Psalter's range of views on the dead: 139:8 beside 6:5, 30:9, 88, 115:17, and 16:10, 49:15.
-- (139) The hand of God that leads and holds: 139:5, 10 (with 63:8; 73:23).
-- (139) God who tries the heart and reins: 139:1, 13, 23 (with 7:9; 17:3; 26:2; 44:21).
-- (139) A cursing passage followed at once by self-examination: 139:19-24.
-- (140) The tongue as a weapon and the slanderer as the enemy (140:3, 9, 11; with 5:9; 52:2-4; 57:4; 64:3-8; 120:2-4).
-- (140) The hunter's snare (140:5; 141:9; 142:3; with 9:15-16; 91:3; 124:7).
-- (140) Harm returning on the head of the one who planned it (140:9, 11; 7:15-16; 9:15-16; 57:6).
-- (140) The LORD as the judge who takes the case of the poor (140:12; 9:4; 72:2-4, 12-14; 109:31).
-- (141) Prayer as offering, and prayer at the hour of the offering: 141:2 (with lifted hands in 28:2, 63:4, 134:2; Ezra 9:5; Dan. 9:21; Luke 1:10; Rev. 5:8; 8:3-4).
-- (141) The wicked caught in their own pit or net: 141:10 (already listed from 7:15-16; 9:15-16; 35:7-8; 57:6).
-- (141) Psalms 140-143 as a group sharing the snare: 140:5; 141:9; 142:3.
-- (142) The LORD as "portion" (16:5; 73:26; 119:57; 142:5; Lam. 3:24).
-- (142) The right hand as the defender's place (16:8; 109:31; 110:5; 121:5; 142:4).
-- (142) Prison and release (107:10-14; 142:7; Isa. 42:7; 61:1).
-- (143) Justification before God: 143:2 with 130:3 (Rom. 3:20; Gal. 2:16; 2 Ne. 2:5).
-- (143) 'Thy servant' as the psalmist's standing: 143:2, 12 (already listed from 19, 86, 116).
-- (143) Night and morning: 143:3, 8 with 90:14 (already listed).
-- (143) Psalms that share lines with Lamentations 3: 143:3 and Lam. 3:6.
-- (143) God's good Spirit as guide: 143:10 with Neh. 9:20.
+### 9. The people forget; God remembers
 
-## Reported by chapters 144–149 (not yet sorted)
+**New synthesis** of history, covenant mercy, exile, gathering, and the Lord's rest. Replace the separate word studies on mercy and remembering.
 
-- (144) Psalms made from older psalms: 144:1-11 from Psalm 18, with 8:4, 33:2-3, 33:12, 39:5 and 104:32 (already listed under psalms that repeat or borrow).
-- (144) 'What is man': 8:4; 144:3-4; Job 7:17; Heb. 2:6 (already listed).
-- (144) 'Blessed/Happy is the people': 1:1; 33:12; 144:15; 146:5.
-- (144) The LORD asked to come down: 18:9; 144:5. Joining these to Isa. 64:1 and D&C 133:40 is a connection no source read makes, so it was cut from this chapter; it could only be a theme page's own connection.
-- (144) Temporal blessing and the covenant: 144:12-15; 128. Deut. 28 and Mosiah 2:41 were cut here for the same reason and would likewise be a theme page's own connection.
-- (145) The Sinai sentence (Ex. 34:6) across the Psalms: 86:15; 103:8; 145:8 (also 111:4; 116:5).
-- (145) The LORD as King and His everlasting kingdom: 145:1, 11-13, with Psalms 93-99 and 146:10.
-- (145) Psalms in the Book of Mormon: 145:9 (1 Ne. 1:20; Jacob 4:10) and 145:20 (2 Ne. 30:10); Hilton counts five allusions to this psalm, the most for any.
-- (145) God feeding every creature: 104:27-28; 136:25; 145:15-16.
-- (146) Trust not in man or princes; the arm of flesh: 146:3-4 (with 118:8-9; Jer. 17:5; 2 Ne. 4:34).
-- (146) The LORD as king for ever, at the close of the book: 146:10 (with 145:13; Ex. 15:18).
-- (146) The stranger, the fatherless and the widow: 146:9 (with 94:6; 68:5; 82:3).
-- (146) The closing hallelujahs, 146-150, each opening and closing with 'Praise ye the LORD': 146:1, 10 (with 145:21).
-- (146) The works of the LORD that Jesus named to John: 146:7-8 (with Isa. 42:7; Matt. 11:5).
-- (147) The gathering of Israel's outcasts sung as present work: 147:2 (with 106:47; 107:2–3; Isa. 11:12; 56:8; Deut. 30:3).
-- (147) The word of the LORD that acts in creation and is given as law: 147:15–19 (with 33:6; 148:8; Isa. 55:10–11).
-- (147) Creation's scale beside God's care for the one: 147:3–4 (with 8:3–4; Isa. 40:26–27; Moses 1:35).
-- (147) Trust in the LORD and not in arms: 147:10–11 (with 20:7; 33:16–18); already listed.
-- (147) Mercy for those who fear Him: 147:11 (with 33:18); already listed.
-- (148) Heaven and earth praising together: 148; 150:6; Rev. 5:13; D&C 128:23 (already listed under 150).
-- (148) The horn lifted up: 148:14, with 18:2, 75 and 132:17 (already listed under 75).
-- (148) The fixed order of the heavens as a pledge to Israel: 148:6, 14; Jer. 31:35–36.
-- (148) Creation obeying its Maker: 148:5–8; 33:9; 104; 119:89–91 — the writer's candidate; no source found carries it, so it is a lead only.
-- (149) The two-edged sword and the word of God: 149:6, with Isa. 49:2, Eph. 6:17, Heb. 4:12, D&C 6:2, Rev. 1:16; 19:15.
-- (149) The saints' share in judgment and rule: 149:9, with 2:8-9, Dan. 7:22, 1 Cor. 6:2 (no source read joins them yet).
-- (149) Clothed with salvation: 132:9, 16; 149:4, with Isa. 61:10.
-- (149) The meek lifted up: 147:6; 149:4, with 37:11 and Matt. 5:5.
-- (149) The LORD as King of Zion in the closing psalms: 146:10; 149:2.
+- **Passages:** Psalms 78; 95; 103:7–18; 105–107; 136.
+- **Arc:** Deliverance is remembered in praise and retold as warning and confession. Israel forgets God's works; God remembers His covenant. Psalm 106 asks for gathering, and Psalm 107 begins with the gathered redeemed. The wilderness warning in Psalm 95 also raises the question of entering God's rest.
+- **Christ:** 1 Corinthians 10:1–11; Hebrews 3:7–4:11; 1 Nephi 22:25.
+- **Recommendation:** Worth retaining, especially if you want an arc through Israel's collective story. Keep it focused on remembered covenant and renewed rescue; a general survey of every historical psalm would be too broad.
+- **Writing boundary:** God's remembered mercy does not remove the warnings about refusing His voice. Do not collapse every Exodus image into the same prediction.
+
+### 10. What is man? Dust, glory, and Jesus
+
+**Rebuild** the human-worth lead; fold in human frailty, the Creator's care, and all things under His feet.
+
+- **Passages:** Psalms 8:3–8; 90:3–12; 103:13–17; 144:3–4; 147:3–4; 110:1.
+- **Arc:** Psalm 8 asks what humanity is and answers with glory and dominion. Psalm 144 repeats the question and answers with passing shadow; Psalms 90 and 103 emphasize mortality and God's compassion. Hebrews takes up the gap between promised dominion and what we presently see, and answers by directing attention to Jesus.
+- **Christ:** Hebrews 2:5–18; 1 Corinthians 15:20–28.
+- **Recommendation:** A strong alternative with a clear Christological destination. The contrast between glory and frailty gives it more substance than a general creation page.
+- **Writing boundary:** Distinguish what the poems say about humanity from Hebrews' reading of Christ. Psalm 82's debated council is unnecessary to this arc.
+
+## Cut or absorbed
+
+- **Single-word and recurring-image inventories:** refuge, rock, shield, wings, horn, name, right hand, tested heart, morning prayer, repeated refrains, enemy animals, traps, and tongue imagery. These can enrich a chapter note or a selected arc but do not earn separate pages merely by recurring.
+- **Literary and source inventories:** acrostics, instruments, psalms copied twice, authorial guilds, JST changes, and lists of Psalms in the Book of Mormon, Acts, or Romans. Useful study leads; without a further argument they are guides or chapter notes.
+- **The rejected stone and Hosanna:** powerful Christ connections, but concentrated in Psalm 118. Fold into the entrance or royal page where useful.
+- **Hallel and the Last Supper:** keep relevant material under suffering, sacrifice, and entry; a separate page risks becoming a setting guide or repeating those arcs. Do not infer which psalm Jesus sang from Matthew 26:30 alone.
+- **General creation and final praise:** use the Creator's care in candidate 10 and the widening praise in candidates 2 and 7. A catalogue of creation hymns or closing doxologies adds too little.
+- **Mercy as a vocabulary page:** replaced by candidate 9, where covenant mercy does something in the story.
+- **The divine council as a standalone theme:** a substantial interpretive question, but the current leads mainly assemble disputed identities and terms. Keep the existing chapter treatment rather than forcing an arc.
+- **The cursing psalms as a standalone theme:** important questions already belong in their notes. A page would need more than a comparison with Jesus' command to love enemies; do not force a smooth progression from vengeance to forgiveness across unrelated poems.
+- **Babylon through Revelation; the king as bridegroom; cups of judgment and salvation; sea monsters and storm imagery:** hold out of this shortlist. The present leads either place most of the development outside Psalms, overlap stronger themes, or depend on making one shared image carry too much.
