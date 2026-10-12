@@ -5,6 +5,7 @@ import { findBook, bookArg } from '../src/lib/books.mjs';
 
 const root = new URL('..', import.meta.url).pathname;
 const { slug, rest } = bookArg(process.argv.slice(2));
+if (!rest.length) { console.error('Usage: node scripts/show.mjs [book] <chapter> [more chapters]   (book defaults to isaiah)'); process.exit(1); }
 const book = await findBook(root, slug);
 const { chapters } = JSON.parse(readFileSync(`${root}data/kjv/${slug}.json`));
 // The titles above the psalms, where a book has them: verse 0 on the site.
