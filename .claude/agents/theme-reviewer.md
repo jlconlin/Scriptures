@@ -23,6 +23,9 @@ Be skeptical. The page was written by a model that writes fluently, and a weak c
 - Is it broader than a chapter, and does it connect chapters in an arc? Say in one sentence what changes from the first passage to the last. If you can't, that is a finding.
 - Does it help the reader understand the bigger story that points to Jesus Christ? Is the connection to Christ carried by the sources, or asserted?
 - Would any section be better as a chapter note?
+- Is any section only a list of words two chapters share, with nothing drawn from them? Cut it. Does a connection of the page's own rest on a word the book uses everywhere (`occurrences.mjs` gives the count), or end by saying only that the passages differ? Cut it: a connection earns its place by changing what the reader sees.
+- Does the last step reach Christ, or at least point to the section or page that does? A closing step with no tie to the section on Christ gets a pointer.
+- Is the title also a chapter's title (`grep -n '^title' content/<book>/chapters/*.yaml`)? Say which should change.
 
 **2. Where does the meaning come from?** (§8, “Where the meaning comes from.”) Go through the page claim by claim.
 - Every statement of what a passage *means*, or how one passage *answers* another, or how the arc points to Christ: is it the plain words of a quoted verse, or cited to scripture, a Church source, or a scholar? Does the ledger row actually say it? Flag every sentence where the page goes further than its source, however slightly, and quote the sentence.
@@ -39,10 +42,10 @@ Be skeptical. The page was written by a model that writes fluently, and a weak c
 
 ## Report
 
-1. **Verdict**, one of: *ready for the author*; *ready after the fixes below*; *does not hold up as a theme* (say why, and what should happen to the material instead).
+1. **Verdict**, one of: *ready for the author*; *ready after the fixes below*; *does not hold up as a theme* (say why, and what should happen to the material instead). A verdict is a decision: a doubt you do not turn into a required fix (“enough of an arc, or drop the page?”, “keep this comparison?”, “holds, narrowly”) stays out of the report, because it would otherwise be filed as a question for the author, and the author has said that is not their job. Either require the fix or let the page stand.
 2. **The arc in one sentence**, as the page actually delivers it.
 3. **Required fixes**, numbered, most serious first. For each: the sentence or row, what is wrong, and what would fix it (cut, reword to what the source says, cite, mark as uncertain).
-4. **Suggestions** that are not required.
+4. **Suggestions** that are not required, for the coordinator to apply or drop; none goes to the author. Don't list what the page's own connections are: the ledger marks them, and the coordinator reads it.
 5. **Rows read**: each row you read against its page, held or not (and how many rows the script confirmed).
 6. **Check output.**
 

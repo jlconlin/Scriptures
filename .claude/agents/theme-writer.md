@@ -34,6 +34,8 @@ A theme page may make connections between passages that no published source make
 - **Short: something to look over quickly, not an essay.** Well under 1,000 words, table included. Open with two or three sentences, then a table of the steps in order (step, passage, the words), then a few sentences per step, mostly scripture and short quotations. Model: `content/isaiah/themes/arm-of-the-lord.md`. Not a compendium: leave out what the arc doesn't need, even if the dossier has it.
 - **Quote with the reference; don't announce the source.** Not “The Church's manual says, ‘…’” but the quotation worked into your sentence with its citation. Scripture's own writers and speakers can be named. This rules out every form of the announcement: “A Church manual says…”, “The Church's edition glosses…”, “The footnote reads…”, “the heading says…”, “one commentary notes…”. Write the quotation as part of your own sentence and put the citation after it. Don't describe the page itself either (“no single source traces this, so the table…”).
 - `sources` in the front matter lists the keys the page cites.
+- **No section that is only a list of shared words.** If a step in the outline amounts to “chapter 2 takes up words of chapter 1” and nothing follows from it, or a comparison of the page's own ends by saying only that the passages differ, leave it out and report it. A connection earns its place by changing what the reader sees in a passage.
+- **The title is not a chapter's title** (`grep -n '^title' content/<book>/chapters/*.yaml`); if the outline's title is, say so in the report and the coordinator chooses.
 
 - **Summaries are claims too.** The blurb, the opening, the transitions between sections, and the closing say only what the sections establish from their sources. Don't harmonize readings that differ, and don't let word order imply an identification that neither a source nor the outline makes.
 
@@ -77,5 +79,5 @@ node scripts/check-ledger.mjs <book> <file name>
 2. Each step of the outline and where the page covers it (or why it doesn't).
 3. Anything in the outline you could not support from the dossier, and anything in the dossier that contradicts the outline.
 4. Proposed `sources.yaml` entries the page uses.
-5. Judgment calls for the author.
+5. Judgment calls: only a choice that `STANDARDS.md` §8 and the outline leave open and that turns on doctrine or the author's own wording, phrased as a choice between two wordings. What the page's own connections are is in the ledger, not here; a doubt about whether a sourced step is “enough” is the reviewer's to decide. Most pages have none.
 6. Check output, including the `check-ledger` summary line.

@@ -54,6 +54,9 @@ Write `content/<book>/chapters/NN.yaml` with every field in `STANDARDS.md` (“C
 - No personal application or “liken” content. Close with `christ` and `explore`.
 - Don't name modern scholars in running text, and don't announce a source (“The Church's manual says…”): work the quotation into the sentence and let the citation carry the attribution. Say how certain each claim is.
 - Open each note with a sentence that states its point (never “This note is about…”).
+- **No reading of your own.** A division of a chapter, who a speaker is, a connection between verses: each comes from a source read, or is left out. A view your only source reports in order to reject it is not sourced. Chapter notes make no connections of their own; theme pages may (`STANDARDS.md` §8).
+- **Say a thing once.** A proposal or quotation that belongs to two chapters stands in full in one and in a sentence with a link in the other; check the other chapter's file before writing it again.
+- **Don't correct a Church help in a note.** Where *Scripture Helps* or a manual seems inconsistent with itself or with the lexicon, say what you can support and leave the rest out, without pointing out the slip.
 - No `[@key]` markers in a chapter file: chapter pages don't render them. A note's citation is its `sources` list.
 - If the brief has a section “What a chapter is for,” it is the author's latest direction; follow it closely.
 - `phrase` must be an exact substring of the verse.
@@ -88,7 +91,7 @@ Return:
 1. **Files written**, with the chapter's word count and number of notes.
 2. **Your questions**, as you wrote them before researching, each with the note that answers it (or “not answered”).
 3. **Proposed `sources.yaml` entries**, one line each in the file's format, with the URL and the page title you saw when you opened it.
-4. **Judgment calls** for `OPEN-QUESTIONS.md` (the one list at the top of the repository): only choices that `STANDARDS.md` and the brief don't already decide. Following a rule is not a judgment call; don't report it as one. Most chapters have none or one.
+4. **Judgment calls** for `OPEN-QUESTIONS.md` (the one list at the top of the repository): only choices that `STANDARDS.md` and the brief don't already decide, and that turn on doctrine or the author's own wording, each phrased as a choice between two wordings with what each changes. Following a rule is not a judgment call; neither is a doubt about a note you wrote, nor a report of what you left out. Most chapters have none or one.
    Also **theme candidates**: topics in this chapter that run across the book, one line each with the verses.
 5. **Cut for lack of a source**: claims you wanted to make but couldn't source, and what you tried.
 6. **Check output**: the result of each check (pass, or the warnings left and why), and any check you couldn't run.
