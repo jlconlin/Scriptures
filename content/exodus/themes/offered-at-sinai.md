@@ -1,6 +1,6 @@
 ---
 title: What Was Offered at Sinai
-blurb: At Sinai a whole people was invited to be a kingdom of priests and to come into the Lord’s presence, drew back, and received a lesser law; Hebrews says a promise of entering His rest remains, and that believers have come to Jesus.
+blurb: At Sinai a whole people was invited to be a kingdom of priests and to come into the Lord’s presence. They drew back and received a lesser law. Hebrews says a promise of entering His rest remains, and that believers have come to Jesus.
 icon: christ
 sources: [lds-scriptures, scripture-helps-ex-19, scripture-helps-nt-heb-7-13, jst-ex-34, jst-deut-10, bd-law-of-moses, belnap-skinner-sinai, hardison-theophany]
 ---
@@ -30,13 +30,13 @@ A few do go up. Moses, Aaron, Nadab, Abihu and seventy elders are called to “w
 
 <h2 id="tables">Not according to the first</h2>
 
-Moses “cast the tables out of his hands, and brake them” ([[Ex. 32:19]]); the act “reflected Israel’s broken covenant.”[@scripture-helps-ex-19] In Joseph Smith’s revision the Lord says of the second tables: “it shall not be according to the first, for I will take away the priesthood out of their midst” (JST Ex. 34:1).[@jst-ex-34] The first held “the everlasting covenant of the holy priesthood” (JST Deut. 10:2).[@jst-deut-10] He “took Moses out of their midst, and the Holy Priesthood also; And the lesser priesthood continued, which priesthood holdeth the key of the ministering of angels and the preparatory gospel” ([[D&C 84:25–26]]). See the note at [[Ex. 34:1]].
+Moses “cast the tables out of his hands, and brake them” ([[Ex. 32:19]]); the act “reflected Israel’s broken covenant.”[@scripture-helps-ex-19] In Joseph Smith’s revision the Lord says of the second tables: “it shall not be according to the first, for I will take away the priesthood out of their midst” (JST Ex. 34:1).[@jst-ex-34] The first tables held “the everlasting covenant of the holy priesthood” (JST Deut. 10:2).[@jst-deut-10] He “took Moses out of their midst, and the Holy Priesthood also; And the lesser priesthood continued, which priesthood holdeth the key of the ministering of angels and the preparatory gospel” ([[D&C 84:25–26]]). See the note at [[Ex. 34:1]].
 
-The law that remained was not a bad one. It “was a good law,” and “a preparatory gospel to bring its adherents to Christ.”[@bd-law-of-moses]
+The law that remained “was a good law,” and “a preparatory gospel to bring its adherents to Christ.”[@bd-law-of-moses]
 
 <h2 id="rest">A promise being left</h2>
 
-After the hardened hearts the Lord “swore that they should not enter into his rest while in the wilderness, which rest is the fulness of his glory” ([[D&C 84:24]]). Psalm 95 has the oath in nearly the same words: “Harden not your heart, as in the provocation… Unto whom I sware in my wrath that they should not enter into my rest” ([[Ps. 95:8–11]]). “The provocation” there is in Hebrew the place name Meribah, where Israel demanded water ([[Ex. 17:7]]; see [Psalm 95](/psalms/95/)); one study suggests the psalm also alludes to the people’s request at Sinai.[@belnap-skinner-sinai] Hebrews quotes it ([[Heb. 3:8]]) and says “they could not enter in because of unbelief” ([[Heb. 3:19]]). Then: “a promise being left us of entering into his rest” ([[Heb. 4:1]]). One study suggests the writer of Hebrews believed the invitation “was in effect for the early Christian community.”[@belnap-skinner-sinai]
+After the people hardened their hearts, the Lord “swore that they should not enter into his rest while in the wilderness, which rest is the fulness of his glory” ([[D&C 84:24]]). Psalm 95 has the oath in nearly the same words: “Harden not your heart, as in the provocation… Unto whom I sware in my wrath that they should not enter into my rest” ([[Ps. 95:8–11]]). “The provocation” there is in Hebrew the place name Meribah, where Israel demanded water ([[Ex. 17:7]]; see [Psalm 95](/psalms/95/)); one study suggests the psalm also alludes to the people’s request at Sinai.[@belnap-skinner-sinai] Hebrews quotes it ([[Heb. 3:8]]) and says “they could not enter in because of unbelief” ([[Heb. 3:19]]). Then: “a promise being left us of entering into his rest” ([[Heb. 4:1]]). One study suggests the writer of Hebrews believed the invitation “was in effect for the early Christian community.”[@belnap-skinner-sinai]
 
 <h2 id="sion">Another mountain</h2>
 
@@ -45,5 +45,3 @@ Hebrews describes Sinai: “ye are not come unto the mount that might be touched
 Peter writes to the Church in the words of the offer: “a royal priesthood, an holy nation, a peculiar people” ([[1 Pet. 2:9]]). “An holy nation” is the phrase of [[Ex. 19:6]], and “peculiar” the word of [[Ex. 19:5]].[@lds-scriptures] Hebrews adds: “boldness to enter into the holiest by the blood of Jesus… Let us draw near” ([[Heb. 10:19–22]]). “It is through Christ’s sacrifice that we are able to enter into God’s presence.”[@scripture-helps-nt-heb-7-13] Set beside “Let us draw near” ([[Heb. 10:22]]), the people at Sinai “stood afar off,” while “Moses drew near” ([[Ex. 20:21]]).[@lds-scriptures]
 
 The higher priesthood’s privilege is given in Hebrews’ words: “to enjoy the communion and presence of God the Father, and Jesus the mediator of the new covenant” ([[D&C 107:18–19]]).[@lds-scriptures]
-
-At Sinai the people were offered the Lord’s presence, drew back, and were given a lesser law; Hebrews tells believers to “draw near” by the blood of Jesus ([[Heb. 10:19–22]]).
