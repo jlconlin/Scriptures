@@ -1,12 +1,12 @@
 # Psalms: theme candidates
 
-**The author has selected none.** These are proposals for the author's choice; no theme page is developed until selected.
+**Selected by the author, 2026-10-11: subjects 1–8, for another writer to develop.** The author asked for the subjects to be recorded here, not for theme pages to be written in this session. Subjects 9–10 remain unselected.
 
 Reviewed and consolidated on 2026-10-11 at the author's request. This replaces the unsorted chapter reports. The test is a connection or arc across several psalms that changes how the reader understands scripture, especially Jesus Christ. A recurring word is not enough. Connections may be the page's own; they do not need to have appeared in published commentary (`STANDARDS.md` §8).
 
-**Recommendation:** choose 1–6 first. Keep 7–10 as worthwhile alternatives, rather than generating ten pages by default. The order below is a proposed reading order, not a claim that the psalms were composed in that sequence. These are candidate outlines checked against the local scripture text and existing chapter commentary, not completed research dossiers.
+Each selected subject below gives the proposed arc, starting passages, connection to Christ, and boundaries for its development. The order is a proposed reading order, not a claim that the psalms were composed in that sequence. These are development briefs checked against the local scripture text and existing chapter commentary, not completed research dossiers. The next writer should test the connections through the theme workflow in `STANDARDS.md` §8.
 
-## First choices
+## Selected subjects for development
 
 ### 1. The promised King and the broken crown
 
@@ -68,8 +68,6 @@ Reviewed and consolidated on 2026-10-11 at the author's request. This replaces t
 - **Why it earns a page:** Obedience and the need to be rescued coexist in the same prayer. The Savior is the giver of the law and the Shepherd who seeks the straying servant.
 - **Writing boundary:** This is the page's comparison of the poems, not a claim that Psalm 119 intentionally corrects Psalm 1. Do not treat the lost sheep as contempt for the law: the last line says the servant has not forgotten the commandments.
 
-## Worth keeping in reserve
-
 ### 7. From hostile nations to fellow worshippers
 
 **Keep and consolidate** the nations, Abraham's blessing, Zion's citizens, and universal praise.
@@ -77,7 +75,7 @@ Reviewed and consolidated on 2026-10-11 at the author's request. This replaces t
 - **Passages:** Psalms 2; 22:27–31; 47; 67; 72:8–17; 87; 117; 148.
 - **Arc:** Nations appear as opponents of God's anointed, then as those called to worship, blessed through the king, and counted among Zion's people. The closing praise includes the earth's rulers and peoples.
 - **Christ:** Luke 2:30–32; Romans 15:8–12; Revelation 7:9–10.
-- **Recommendation:** Strongest alternative to the first six. It shows the reach of Christ's kingdom and deserves a page if the royal theme cannot give this movement sufficient room.
+- **Development focus:** Show the reach of Christ's kingdom through the changing portrayals of the nations. Keep this distinct from subject 1, whose central question is the apparently broken promise to David.
 - **Writing boundary:** These are different portrayals of nations, not a claim that opposition has disappeared or every nation is already reconciled.
 
 ### 8. When righteousness seems unrewarded
@@ -87,8 +85,10 @@ Reviewed and consolidated on 2026-10-11 at the author's request. This replaces t
 - **Passages:** Psalms 1; 37; 49; 73; 92.
 - **Arc:** Psalm 1's flourishing righteous person is set beside the wicked who visibly prosper. Psalm 37 asks for patience; Psalm 49 tests wealth against death; Psalm 73 questions whether purity was vain and finds a different measure in God's sanctuary: God Himself is the enduring portion.
 - **Christ:** Matthew 5:5, 8; D&C 88:14–17.
-- **Recommendation:** A good independent page. It challenges the assumption that righteousness guarantees immediate prosperity and connects the meek's inheritance to Christ's redemption.
+- **Development focus:** Challenge the assumption that righteousness guarantees immediate prosperity and connect the meek's inheritance to Christ's redemption. Keep this distinct from subject 5, whose central question is redemption from death.
 - **Writing boundary:** Do not make the sanctuary experience erase the complaint, or promise material success to every righteous person.
+
+## Unselected candidates
 
 ### 9. The people forget; God remembers
 
