@@ -3,27 +3,30 @@
 Everything that waits for the author, for every book and for the site, in this one file (author, 2026-10-04: “I can't keep track of those that are in multiple places”). Nothing that needs the author is kept anywhere else.
 
 - **Answer by number** (“G1: Context note. J4: leave it out.”), here, in a session, or in a comment on the preview.
+- Resolving questions records answers only; content is changed later (author, 2026-10-11). Answered items awaiting implementation stay in the section below until their work is carried out.
 - An item is deleted once it is answered and the answer is carried out; the decision is then recorded where it applies (`STANDARDS.md`, `AUTHORING.md`, or the book's brief).
 - Only what needs the author belongs here. What the standard or a book's brief already settles is decided by whoever is writing and recorded in that book's `BRIEF.md` (“Decided while writing”), where the author can overturn it.
 - “Recommend” is Claude's suggestion where the standard points one way. No recommendation means the choice is a matter of taste or doctrine.
 
+## Answered, awaiting implementation
+
+Decisions below were made on 2026-10-11. They are recorded for later work; the content has not been changed. This section and “Work waiting, no decision needed” are the follow-up task list for this review.
+
+- **S6 — Former “Liken It” notes:** count the personal-application closing sentences that remain after the language pass, then remove those sentences while retaining the explanatory notes. The earlier claim that none remain was not established by a complete audit; this count still needs to be done.
+- **S5 — About page:** broaden the principles to cover the site's books generally; remove “the Holy Ghost is the one who opens Isaiah” and “Read with a prayer in your heart.”
+- **S5 — Mosiah's description:** use “A growing companion to the book of Mosiah, grounded in the restored gospel of Jesus Christ.”
+- **S5 — The Arm of the Lord:** move the arm-of-mercy paragraph from “Alone” to “To whom is the arm revealed?”
+- **S5 — The New Exodus:** retain “The words” column. Explain the “Step” column more clearly, using descriptions of the movements in the story rather than compressed labels.
+- **S5 — Scattered and Gathered:** remove the standalone “Scattered” section; keep its passage references in the overview table.
+- **S5 — Isaiah's World:** combine the timeline and rulers into one historical section showing dates, rulers or empires, events, and relevant passages. Keep a short geographical introduction, the map, and a shorter nations glossary.
+- **S5 — Isaiah 1–37 language-pass cuts: settled, no work required.** Keep the shortening and refinements; do not revisit those chapters to restore deleted sentences (author, 2026-10-11). This decision does not cancel the separately approved targeted review of plain-words summaries.
+- **S5 — Genesis 21:31:** restore the connection between Abraham's presence at Dan and Beer-sheba and the later boundaries of the promised land, in one concise sentence presented as the BYU study's reading. Restore its supporting ledger rows from commit `137d34d`'s parent (author, 2026-10-11: “Let’s restore it”).
+- **S5 — Abraham 3:3:** restore a short discussion of the Church's caution about the facsimiles in the Kolob note, paraphrased in the site's words, and retain the link to Abraham 1:12 for fuller discussion. The reader should understand the qualification where the facsimile is used (author approved, 2026-10-11). Earlier wording is in commit `da6be9b`'s parent.
+- **S5 — Lamentations 2: settled, no work required.** Keep the current chapter-specific explanation that the poem records no answer; do not restore the repeated book-wide sentence. The wording of the book-wide claim remains a separate question under La-C (author approved, 2026-10-11).
+- **S5 — Plain words:** use the King James as the starting point, allowing well-supported clarifications that materially improve understanding. Explain meaningful departures in a visible note with ledger support; do not present disputed alternatives as settled (`STANDARDS.md` §6). Reconsider the language-pass changes flagged in Isaiah 13–15, 18–19, 24–26, 33, 37–38, 42, 59, 61, 66; Genesis 12:6, 9, 19; Jeremiah 2:20, 6:18–19, 10:17, 15:17. Isaiah 26:15, 27:1, and 27:7–11 retained supported alternatives and should be checked for consistent treatment. Earlier wording and ledger rows are in git. The targeted review approved below determines whether a wider review is needed.
+
 ## The site
 
-- **S4. The limits on a theme page's own connections.** Your rule of 2026-10-03 is in `STANDARDS.md` §8 with three limits added to your two: the connection rests on quoted words; the facts around it stay sourced; it is worded as a comparison and marked in the ledger. Is that what you meant by “relax a little,” or too tight? The last sections of Jeremiah's cup page and root-and-plant page show it in use.
-
-- **S6. Former “Liken It” notes that still end in personal application.** When the note kinds were re-sorted on 2026-09-30, 27 notes that had been Liken It kept a closing sentence of application, which you have said belongs in *Come, Follow Me* (`STANDARDS.md` §1). You were never asked whether to trim those sentences. The language pass of 2026-10-08 cut closing lines that preach, so some may already be gone; nobody has counted since. Recommend: count what is left, then cut the sentences and keep the notes.
-
-- **S5. What Codex found on older pages that only you can decide** (the language pass of 2026-10-08; these were left as they are because they are cuts of structure or matters of taste):
-  - *About page:* its principles speak of Isaiah only, though the site now has nine books; and Codex would cut “the Holy Ghost is the one who opens Isaiah” and “Read with a prayer in your heart” as preaching. Both are your own words on your own page.
-  - *The description line of every book page* (“A phrase-by-phrase companion to the book of …”) overstates Mosiah, which has two bare chapters.
-  - *Isaiah, The Arm of the Lord:* the paragraph on the arm of mercy sits under the heading “Alone”, where it does not belong.
-  - *Isaiah, The New Exodus:* the overview table's “The words” column repeats what the sections quote.
-  - *Jeremiah, Scattered and Gathered:* the section “Scattered” repeats the table above it.
-  - *Isaiah guide 2 (Isaiah's World):* reads long, because the overview, the timeline and the lists go over the same events.
-  - *Plain words that followed the Hebrew or a modern translation now follow the King James.* Where a writer had paraphrased from the Hebrew, the Septuagint or the NIV (“the oak of Moreh”, “you broke the yoke”, “song of the ruthless”), Codex reported that the plain words say what the verses on the page do not, and the pass usually put the King James reading back; the notes still give the other reading where they had it. It is most frequent in Isaiah, whose older chapters paraphrased from modern translations: chapters 13 (the animals of verses 21–22 are “owls”, “satyrs” and “dragons” again), 14, 15, 18, 19, 24, 25, 26, 33, 37, 38, 42, 59, 61 and 66; also Genesis 12 (verses 6, 9, 19), Jeremiah 2:20, 6:18–19, 10:17 and 15:17. Some agents declined the same finding (Isaiah 26:15, 27:1 and 27:7–11 keep the NIV's reading, which has ledger rows). Say which you want: the plain words true to the King James on the page, or free to follow a better reading when a note or a ledger row supports it. The old wording and its ledger rows are in git.
-  - *Isaiah 1–37 lost sentences.* The brief's rule for those chapters was to add only, and you rejected a trimmed Isaiah 58. This pass cuts by its nature (a point made twice, a closing line that preaches), so sentences went from these chapters too, though no note and no section was removed. The agent for chapter 34 named two closing lines as the ones to look at (findings 8 and 10); in 29:11 the stop at Albany to see Luther Bradish was cut, with its ledger row.
-  - *Genesis 21:31:* the sentence on Abraham at both Dan and Beer-sheba, a sourced point from a BYU study, was cut as a digression, with its three ledger rows.
-  - *Abraham 3:3 and Lamentations 2:* the pass replaced a sentence the brief had said to keep (the Church's caution about the facsimiles; the *Scripture Helps* sentence that the Lord does not answer in the book) with a pointer to the chapter that explains it (Abraham 1:12; Lamentations 1). Say if you want either back.
 
 ## Genesis
 
@@ -156,6 +159,11 @@ All 150 psalms were written, reviewed and read by Codex on 2026-10-10 and 11, at
 ## Work waiting, no decision needed
 
 - **Psalms: a second pass over the psalms written before 2026-10-11: not now** (your answer that day: “No I dont' want a second pass right now. Maybe in a future date”). Kept here so it isn't lost. The first 116 psalms were written before the rule on Hebrew, before the table of where each shared thing is explained, and without two finders of Latter-day Saint studies (BYU Studies' psalm-by-psalm lists; the Interpreter Foundation's journal). Of them, 49 cite no Scripture Central, BYU or Interpreter source, and Delitzsch is in 28 percent of the notes. A pass would look each psalm up in the finders, cut Hebrew and Delitzsch that answer no reader's question, and turn repeated explanations into pointers; a rough guess is 150,000 to 250,000 tokens a psalm.
+
+- **Targeted review of plain-words summaries** (author approved, 2026-10-11): first reconsider the passages listed under answered S5 using their notes, existing evidence, and earlier wording in git. Then review a small sample of other chapters for whether the summaries explain difficult language, preserve meaning, and explain significant translation choices. Measure the first batch before estimating the total cost; propose a broader review only if the sample shows a recurring problem. Content edits happen in the later implementation stage.
+
+- **Historical context across the Old Testament books:** review whether each book's introduction and chapter settings give enough background to understand its people, places, and circumstances; add a historical guide where needed. The author approved context suited to the book's length and complexity, rather than an Isaiah-length guide for every book (2026-10-11; `STANDARDS.md` §8).
+
 - **Genesis 22, closing section:** Melvin J. Ballard's words are cited from the seminary manual that prints them; read and cite the original talk (“The Sacramental Covenant,” *New Era*, Jan. 1976).
 - **A leftover working copy** in `.claude/worktrees/` (from the “Show three more” branch, long merged) can be deleted.
 - **Isaiah 18:7:** Joseph Smith's statement is cited from the manual (*History of the Church* 2:132); find it in the Joseph Smith Papers and cite it there.

@@ -12,6 +12,8 @@ All 66 chapters are written. Chapters 38–66 were written at the semi-academic 
 
 ## Book-wide conventions
 
+- **Isaiah’s World:** the author approved combining rulers and events in one historical section, with a short geographical introduction, the map, and a nations glossary (2026-10-11). Implementation is pending in `OPEN-QUESTIONS.md`, S5.
+
 - **Servant Songs.** Cite the full passages: 42:1–9, 49:1–13, 50:4–11, 52:13–53:12, so readers don’t miss the verses that answer each song. No separate “core vs. extended” ranges.
 - **Theme pages.** `content/isaiah/themes/`, published at `/isaiah/themes/<file name>/` with an index at `/isaiah/themes/` and cards on the Guides page (`/isaiah/guides/`). Done: **The Servant Songs**. When a chapter touches a theme that has a page, link to it instead of re-explaining the theme. Candidates are in `THEME-CANDIDATES.md`.
 
