@@ -36,14 +36,7 @@ In Haran the Lord appears again: “I have purposed to take thee away out of Har
 
 ## “Now I have found thee”
 
-Abraham says in his heart, “Thy servant has sought thee earnestly; now I have found thee,” and then, “Thou didst send thine angel to deliver me… and I will do well to hearken unto thy voice” ([[Abr. 2:12–13]]).
-
-## Chapter 2 takes up words of chapter 1
-
-- “my name”: “put upon thee my name” ([[Abr. 1:18]]), “my name shall be known” ([[Abr. 1:19]]), “bear my name” ([[Abr. 2:6]]);
-- “my power shall be over thee” ([[Abr. 1:18]]) and “my hand shall be over thee” ([[Abr. 2:8]]).
-
-For “hearken,” see the thread of [chapter 2](/abraham/2/).
+Abraham says in his heart, “Thy servant has sought thee earnestly; now I have found thee,” and then, “Thou didst send thine angel to deliver me… and I will do well to hearken unto thy voice” ([[Abr. 2:12–13]]). For “hearken,” see the thread of [chapter 2](/abraham/2/).
 
 ## A comparison: “sought” and “father”
 
