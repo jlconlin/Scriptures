@@ -47,6 +47,8 @@ What is true of the whole site:
 - An object the tool keeps drawing wrong (Joel's ram's horn, seven times) is taken out after about five tries: change the picture, not the description (author: “Why don't we set the limit at 5”).
 - A scene that looks too regular (rows, a patchwork, even bends) is fixed by asking for fewer and larger things, not for irregularity.
 - Say in the brief where the light comes from and which way the shadows fall, and refuse a candidate with light nothing in it could cast; several natural lights (moon and stars) are fine.
+- A state the tool can't draw (Genesis's ram “caught in a thicket” came out grazing, posing, resting and playing tug of war, eleven tries) is asked for by what shows it, not by its name: the braced legs, the weight thrown back, the horns buried in the bush, the trampled ground. Keep the animal small and in the middle distance; a large one poses. Don't describe branches “drawn tight like ropes.”
+- A book with many stories gets three places with open ground between them, not one for each story (Genesis: garden, ark, altar with ram and sheaves; Babel was taken out).
 - Objects are of the book's time (a modern harp was refused); the author may allow a figure (a shepherd from behind, for Psalms) though the house style says none; never ask for a look “halfway between” two candidates, since the tool swings past both: name one concrete look, or keep the one the author liked.
 
 **Lessons for the coordinator** (each learned once; the incidents are in git):
