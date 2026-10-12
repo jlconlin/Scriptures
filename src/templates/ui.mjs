@@ -2,7 +2,7 @@
 import { esc } from '../lib/markdown.mjs';
 import { bookAliases } from '../lib/refs.mjs';
 import { VOLUMES } from '../lib/canon.mjs';
-import { KINDS, LIBRARY, sectionTitle } from '../site.mjs';
+import { KINDS, LIBRARY, VOLUMES_WITH_GUIDES, sectionTitle } from '../site.mjs';
 import { icon } from './layout.mjs';
 
 export function sectionNav(items) {
@@ -30,11 +30,7 @@ export function noteDialog() {
   return `<dialog class="note-dialog" aria-labelledby="expanded-note-title"><div class="note-dialog-bar"><span>Expanded note</span><button type="button" class="tool" data-dialog-close>Return to passage</button></div><div class="note-dialog-verse"></div><div class="note-dialog-content"></div></dialog>`;
 }
 
-export function chapterNumbers(book, chapters) {
-  return `<nav class="division-chapters" aria-label="${esc(book.name)} chapter selection">${chapters.map((c) => `<a class="${c.draft ? 'unwritten' : ''}" href="${c.draft ? `${LIBRARY.find((b) => b.slug === book.slug).gospelLibrary}/${c.chapter}?lang=eng` : `/${book.slug}/${c.chapter}/`}" ${c.draft ? 'target="_blank" rel="noopener"' : ''} aria-label="${esc(book.name)} ${c.chapter}${c.draft ? ', in Gospel Library' : ''}">${c.chapter}</a>`).join('')}</nav>`;
-}
-
 export function searchScope() {
-  const volumes = VOLUMES.map((v) => ({ name: v.name, key: v.key, books: LIBRARY.filter((b) => b.vol === v.key).sort((a, b) => a.index - b.index).map((b) => ({ slug: b.slug, name: b.name, aliases: bookAliases(b.abbr), total: b.total })) }));
+  const volumes = VOLUMES.map((v) => ({ name: v.name, key: v.key, slug: v.slug, hasGuides: VOLUMES_WITH_GUIDES.has(v.key), books: LIBRARY.filter((b) => b.vol === v.key).sort((a, b) => a.index - b.index).map((b) => ({ slug: b.slug, name: b.name, aliases: bookAliases(b.abbr), total: b.total })) }));
   return `<details class="search-scope" data-library="${esc(JSON.stringify(volumes))}" data-kinds="${esc(JSON.stringify(Object.fromEntries(Object.entries(KINDS).map(([k, v]) => [k, { label: v.label, icon: icon(k) }]))))}"><summary>${icon('book')}<span class="scope-label">All scriptures</span>${icon('chevron')}</summary><div class="scope-panel"><div class="scope-column"><h2>Volume</h2><div class="scope-volumes"></div></div><div class="scope-column"><h2 class="scope-books-heading">Book</h2><div class="scope-books"></div></div><div class="scope-footer"><button type="button" class="scope-clear">Clear filter</button><button type="button" class="tool scope-done">Done</button></div></div></details>`;
 }

@@ -36,6 +36,7 @@ export const esc = (s = '') =>
 /** Plain text (for search index / meta descriptions). */
 export const plain = (s = '') =>
   String(s)
+    .replace(/<\/?[a-z][^>]*>/gi, ' ')
     .replace(/\[\[([^\]|]+)\|?([^\]]*)\]\]/g, (_, a, b) => b || a)
     .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
     .replace(/[*_`>#]/g, '')

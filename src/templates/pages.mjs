@@ -4,7 +4,7 @@ import { layout, icon, logo, lastRevised } from './layout.mjs';
 import { renderSource } from './sources.mjs';
 import { gospelLibraryUrl, chapterLabel, unitPlural } from './chapter.mjs';
 import { VOLUMES, gospelLibraryVolume } from '../lib/canon.mjs';
-import { sectionNav, chapterNumbers, searchScope } from './ui.mjs';
+import { sectionNav, searchScope } from './ui.mjs';
 
 const ensignArt = `<svg class="hero-art" viewBox="0 0 320 220" aria-hidden="true">
   <defs>
@@ -128,7 +128,6 @@ export function renderBookIndex({ book, guides, sources }) {
     <h3>${esc(d.name)}</h3>
     <p>${mdInline(d.blurb)}</p>
   </header>
-  ${chapterNumbers(book, chs)}
   <ol class="chapter-cards">
     ${chs
       .map((c) =>

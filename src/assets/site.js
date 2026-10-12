@@ -588,7 +588,7 @@
     printedSources = [];
   });
 
-  // ---------- search ----------
+  // ---------- section navigation ----------
   // Only the section navigation stays pinned; its height sets anchor offsets.
   const sectionNav = $('.section-nav');
   const measureBars = () => {
@@ -645,6 +645,7 @@
     expandedNote.addEventListener('click', (e) => { if (e.target === expandedNote) { const r = expandedNote.getBoundingClientRect(); if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) expandedNote.close(); } });
   }
 
+  // ---------- search ----------
   const q = $('#q');
   if (q) {
     const results = $('.search-results');
@@ -658,6 +659,7 @@
     const library = JSON.parse(scope.dataset.library);
     const kinds = JSON.parse(scope.dataset.kinds);
     const allBooks = library.flatMap((v) => v.books.map((b) => ({ ...b, volume: v.key })));
+    const scopeEntries = [...allBooks, ...library.filter((v) => v.hasGuides).map((v) => ({ slug: v.slug, name: `${v.name} guides`, volume: v.key }))];
     const KIND_LABEL = { verse: 'Verse', note: 'Note', chapter: 'Chapter', guide: 'Guide' };
     const esc = (s) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
     const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[’‘]/g, "'");
@@ -698,7 +700,8 @@
       const scored = [];
       const reference = raw.match(/^(.*?)\s*(\d+)(?::\s*(\d+)(?:\s*[–-]\s*(\d+))?)?$/);
       const refBook = reference && allBooks.find((b) => [b.name, ...b.aliases].some((a) => a.toLowerCase().replace(/[.\s]/g, '') === reference[1].toLowerCase().replace(/[.\s]/g, '')));
-      const scopedBooks = volumeFilter === 'all' ? null : new Set(library.find((v) => v.key === volumeFilter).books.map((b) => b.slug));
+      const selectedVolume = library.find((v) => v.key === volumeFilter);
+      const scopedBooks = selectedVolume ? new Set([selectedVolume.slug, ...selectedVolume.books.map((b) => b.slug)]) : null;
       for (const d of idx) {
         if (filter !== 'all' && !(filter === 'chapter' ? d.t === 'chapter' || d.t === 'guide' : d.t === filter)) continue;
         if (bookFilter !== 'all' && d.b !== bookFilter) continue;
@@ -718,7 +721,7 @@
       const top = scored.slice(0, 80);
       status.textContent = scored.length ? `${scored.length} result${scored.length === 1 ? '' : 's'}${scored.length > 80 ? ' (showing the first 80)' : ''}` : volumeFilter !== 'all' || bookFilter !== 'all' ? 'Nothing found in this selection. Try a different volume or book, or clear the filter.' : 'Nothing found. Try fewer or different words.';
       results.innerHTML = top
-        .map(([, d, direct]) => `<li class="search-result${direct ? ' direct-result' : ''}"><span class="sr-meta"><span${d.t === 'note' && kinds[d.k] ? ` class="kind-chip k-${esc(d.k)}"` : ''}>${d.t === 'note' && kinds[d.k] ? `${kinds[d.k].icon}${esc(kinds[d.k].label)}` : KIND_LABEL[d.t]}</span>${d.h ? `<span>${esc(d.r)}</span>` : ''}</span><a class="sr-title" href="${d.u}">${esc(d.h || d.r)}</a><span class="sr-text">${direct && d.t === 'verse' ? esc(d.x) : snippet(d.x, terms)}</span></li>`)
+        .map(([, d, direct]) => `<li class="search-result${direct ? ' direct-result' : ''}"><span class="sr-meta"><span${d.t === 'note' && kinds[d.k] ? ` class="kind-chip k-${esc(d.k)}"` : ''}>${d.t === 'note' && kinds[d.k] ? `${kinds[d.k].icon}${esc(kinds[d.k].label)}` : KIND_LABEL[d.t]}</span>${d.h && d.r !== KIND_LABEL[d.t] ? `<span>${esc(d.r)}</span>` : ''}</span><a class="sr-title" href="${d.u}">${esc(d.h || d.r)}</a><span class="sr-text">${direct && d.t === 'verse' ? esc(d.x) : snippet(d.x, terms)}</span></li>`)
         .join('');
     };
 
@@ -749,12 +752,12 @@
       const focusAllBooks = document.activeElement === books.firstElementChild;
       $$('[data-volume]', volumes).forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.volume === volumeFilter)));
       books.replaceChildren();
-      books.append(choice('All books', bookFilter === 'all', () => { bookFilter = 'all'; renderScope(); run(); }));
-      const bs = allBooks.filter((b) => volumeFilter === 'all' || b.volume === volumeFilter);
+      books.append(choice('All books & guides', bookFilter === 'all', () => { bookFilter = 'all'; renderScope(); run(); }));
+      const bs = scopeEntries.filter((b) => volumeFilter === 'all' || b.volume === volumeFilter);
       bs.forEach((b) => books.append(choice(b.name, bookFilter === b.slug, () => { bookFilter = b.slug; volumeFilter = b.volume; renderScope(); run(); closeScope(); })));
       if (!bs.length) { const p = document.createElement('p'); p.className = 'scope-empty'; p.textContent = 'No books from this volume are on the site yet.'; books.append(p); }
-      $('.scope-label', scope).textContent = bookFilter !== 'all' ? allBooks.find((b) => b.slug === bookFilter).name : volumeFilter !== 'all' ? library.find((v) => v.key === volumeFilter).name : 'All scriptures';
-      $('.scope-books-heading', scope).textContent = volumeFilter === 'all' ? 'Book' : library.find((v) => v.key === volumeFilter).name;
+      $('.scope-label', scope).textContent = bookFilter !== 'all' ? scopeEntries.find((b) => b.slug === bookFilter).name : volumeFilter !== 'all' ? library.find((v) => v.key === volumeFilter).name : 'All scriptures';
+      $('.scope-books-heading', scope).textContent = volumeFilter === 'all' ? 'Books & guides' : library.find((v) => v.key === volumeFilter).name;
       if (focusAllBooks) books.firstElementChild.focus();
     };
     $('.scope-clear', scope).addEventListener('click', () => { volumeFilter = 'all'; bookFilter = 'all'; renderScope(); run(); closeScope(); });
