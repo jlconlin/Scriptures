@@ -12,7 +12,8 @@ All 66 chapters are written. Chapters 38–66 were written at the semi-academic 
 
 ## Book-wide conventions
 
-- **Isaiah’s World:** the author approved combining rulers and events in one historical section, with a short geographical introduction, the map, and a nations glossary (2026-10-11). Implementation is pending in `OPEN-QUESTIONS.md`, S5.
+- **Isaiah’s World** has one historical table (dates, rulers or empires, events, passages), a short geographical introduction, the map, and a short list of nations (author, 2026-10-11). Add a ruler or an event as a row of that table; don’t start a second list.
+- **Plain words and the Church edition’s footnotes.** Where the King James wording is obscure and the Church edition’s own footnote gives the sense (“satyrs”: he-goats, 13:21; “send a blast”: put a spirit in him, 37:7), the plain-words summary uses the footnote’s sense, with a ledger row quoting the footnote and no new note, since the reader has that footnote beside the verse (`STANDARDS.md` §1, §6). A clarification with no footnote behind it needs a visible note that explains it; a disputed reading stays with the King James (19:18; 26:19). Decided by the coordinator on 2026-10-11 in the review of the flagged passages; the author may overturn it.
 
 - **Servant Songs.** Cite the full passages: 42:1–9, 49:1–13, 50:4–11, 52:13–53:12, so readers don’t miss the verses that answer each song. No separate “core vs. extended” ranges.
 - **Theme pages.** `content/isaiah/themes/`, published at `/isaiah/themes/<file name>/` with an index at `/isaiah/themes/` and cards on the Guides page (`/isaiah/guides/`). Done: **The Servant Songs**. When a chapter touches a theme that has a page, link to it instead of re-explaining the theme. Candidates are in `THEME-CANDIDATES.md`.
@@ -28,9 +29,7 @@ All 66 chapters are written. Chapters 38–66 were written at the semi-academic 
 
 ## Revision plan for chapters 1–37
 
-**No further broad deepening pass is planned** (author, 2026-10-11). The existing research additions stand; improve individual passages when the author's study reveals an unanswered question. The targeted plain-words review approved in `OPEN-QUESTIONS.md` remains pending. The rules below govern the existing additions and any later individual deepening.
-
-**Four approved cleanups** (author, 2026-10-11): consolidate the overlapping explanations at 7:14, organize the two readings at 6:9, move the morning-star discussion from 14:8 to 14:12, and make the note on 29:15–17 accessible at verse 17. Preserve supported content and distinct readings; remove only overlap. Implementation is pending under I9 in `OPEN-QUESTIONS.md`.
+**No further broad deepening pass is planned** (author, 2026-10-11). The existing research additions stand; improve individual passages when the author's study reveals an unanswered question. The passages the plain-words review flagged were reconsidered on 2026-10-11; its sample of other chapters is still to do (`OPEN-QUESTIONS.md`). The rules below govern the existing additions and any later individual deepening.
 
 **Targeted revision in place.** The earlier chapters' threads, history, Restoration connections, and verified quotations are solid, but they were written before the semi-academic standard (`STANDARDS.md` §2) and lean on Delitzsch. Later individual revisions answer what a reader still needs: textual variants (MT, LXX, 1QIsaᵃ, Book of Mormon readings), fairly presented scholarly debates, archaeology, and literary structure, where these help explain the passage.
 
