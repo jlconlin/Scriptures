@@ -33,6 +33,58 @@ The author selected six themes on 2026-10-12: **1, 2, 4, 7, 8, 9 from the nine-i
 - **Proposed connection to Christ:** the sanctuary leads to Hebrews's account of Christ and the true tabernacle.
 - **Boundary for later development:** do not claim the same individual pieces of gold were used in both projects, or assign a symbolic meaning to gold itself. The comparison is the page's own proposed connection.
 
+## Leads toward Christ for the six selected
+
+Recorded at the author's word on 2026-10-12 (“Yes”), from a conversation about how each selected theme reaches Jesus Christ. **These are leads, not findings: every one is from memory and none has been read on a page.** Whoever develops a theme tests them in research (`STANDARDS.md` §8) and drops what does not hold. Recording them authorizes no development.
+
+**Sinai: what was offered, and what Christ opens again**
+- `[[Heb. 12:18–24]]`: not come to the mount that burned with fire, but to mount Sion and “to Jesus the mediator of the new covenant.” The direct answer.
+- The offer of 19:6 made again in Christ: `[[1 Pet. 2:9]]`; `[[Rev. 1:6]]`.
+- The veil: `[[Matt. 27:51]]`; `[[Heb. 10:19–20]]`.
+- The Transfiguration as Sinai again (mountain, cloud, shining face, Moses, “hear ye him”): `[[Matt. 17:1–5]]`.
+- `[[D&C 84:19–24]]`; `[[D&C 107:18–19]]`.
+
+**“That I may dwell among them”**
+- `[[John 1:14]]`: the tent and the glory together.
+- “I will be with thee” (3:12) to Emmanuel (`[[Matt. 1:23]]`) and “I am with you alway” (`[[Matt. 28:20]]`).
+- His body the temple: `[[John 2:19–21]]`.
+- `[[Rev. 21:3, 22]]`.
+- Moses's plea at 33:15 beside the sacrament's promise “that they may always have his Spirit to be with them” (`[[Moro. 4:3]]`): the page's own comparison.
+
+**Moses the mediator, and the greater Mediator**
+- `[[3 Ne. 20:23]]` on `[[Deut. 18:15]]`: “I am he of whom Moses spake.”
+- The offer refused and the offer accepted: 32:32–33 beside `[[Isa. 53:12]]` and `[[D&C 45:3–5]]`. This contrast could be the page.
+- Servant in the house, Son over it: `[[Heb. 3:1–6]]`.
+- `[[Luke 9:31]]`: Moses and Elijah speak of His “decease”; the Greek word is believed to be *exodos* (needs a lexicon page).
+- The names borne on the priest's shoulders and heart (28:12, 29) beside `[[Isa. 49:16]]`.
+
+**Remembering: “when your children ask”**
+- `[[Luke 22:19]]`, at a Passover table; `[[1 Cor. 5:7]]`.
+- The sacrament prayers: `[[Moro. 4:3]]`.
+- God remembers first (2:24); Zacharias says of the Savior's coming, “to remember his holy covenant” (`[[Luke 1:72]]`).
+- Remembering in both directions: `[[Isa. 49:15–16]]`.
+
+**From forced labor to willing service**
+- `[[Matt. 11:28–30]]`: labour, burden, yoke and rest, beside 1:11, 6:6 and 33:14. The best fit; it replaces Galatians 5 as the page's destination unless research prefers otherwise.
+- `[[Luke 1:74]]`: “that we being delivered out of the hand of our enemies might serve him without fear.”
+- `[[John 8:31–36]]`; `[[Rom. 6:16–22]]`; `[[Lev. 25:55]]`.
+- The deliverer who serves, and gives willingly: `[[Philip. 2:7]]`; `[[Matt. 20:28]]`; `[[John 10:17–18]]`.
+- Mosiah 24 as an Exodus retold (burdens eased, then deliverance).
+- **To test first:** whether one Hebrew root stands behind Israel's “bondage,” “that they may serve me,” and the “service” of the tabernacle (`node scripts/occurrences.mjs exodus --hebrew <strongs>`). If it does, the arc rests on the text's own word.
+
+**The calf and the tabernacle**
+- `[[Acts 7:40–44]]`: Stephen sets the two side by side, “the works of their own hands” against the pattern Moses was shown. If this holds, the comparison is scripture's and not only the page's.
+- The image men make and the image God gives: `[[Col. 1:15]]`; `[[John 1:14]]`.
+- “Not made with hands”: `[[Heb. 9:11]]`.
+- What gold cannot do: `[[1 Pet. 1:18–19]]`.
+- A step the proposed passages lack: 33:4–6, the ornaments stripped off after the calf.
+
+**Across the six** (the coordinator's observations, for the outlines):
+- **Give each page a different witness,** or Hebrews will carry three of them: Hebrews 12 to Sinai, John and Revelation to the dwelling, 3 Nephi and Isaiah to the mediator, Luke 22 to remembering, Matthew 11 to service, Acts 7 to the calf.
+- **Three pages pass through the golden calf.** Each owns one thing: Sinai, the law and priesthood lost; the dwelling, the presence nearly withdrawn; the calf page, the offerings and the image.
+- **Service and the calf stay two pages** (the coordinator first proposed merging them): one is about whom Israel serves, the other about what Israel makes in order to see God. The willing offering of chapters 35–36 belongs to the service page.
+- **All six have one shape** (something partial, refused or veiled in Exodus, completed in Christ). The mediator page and the calf page can break it, turning on a refusal and on a contrast.
+
 ## Proposed
 
 The original nine candidates, in the order of the book. The selection above supersedes the coordinator's original ranking at the end.
