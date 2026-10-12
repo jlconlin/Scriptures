@@ -6,11 +6,36 @@ These are development briefs checked against the text and the finished chapters,
 
 ## Author's selection
 
-None yet.
+The author selected six themes on 2026-10-12: **1, 2, 4, 7, 8, 9 from the nine-item chat proposal**. Those numbers differ from the original candidate numbers below; the titles are authoritative.
+
+| Chat number | Theme selected for later development | Candidate below |
+|---|---|---|
+| 1 | What Israel was offered at Sinai—and what Christ opens again | 1 |
+| 2 | “That I may dwell among them” | 2 |
+| 4 | Moses the mediator—and the greater Mediator | 4 |
+| 7 | Remembering deliverance: “when your children ask” | 9 |
+| 8 | From forced labor to willing service | New selection below |
+| 9 | The calf and the tabernacle: two uses of gold | New selection below |
+
+**Selection only; development has not been authorized.** The author expressly instructed: “you are not to develop the themes, just note what the themes are to be developed.” No research dossier, outline, or theme page is to be started on the strength of this selection alone. The other candidates remain unselected.
+
+### New selection: From forced labor to willing service
+
+- **Proposed passages:** 1:11–14; 5:6–9; 7:16; 25:1–8; 35:20–29; 36:4–7; then `[[Gal. 5:1, 13]]`.
+- **Proposed arc:** Israel begins by building Pharaoh's cities under compulsion and ends by freely offering possessions and skills for the Lord's dwelling, until Moses stops the offerings. “Let my people go, that they may serve me” joins the two ends.
+- **Proposed connection to Christ:** set this movement beside Paul's teaching that liberty in Christ leads to service through love.
+- **Boundary for later development:** the comparison with Galatians is the page's own proposed connection, not a claim that Paul is interpreting these Exodus passages; it must not equate willing offerings with every obligation under the law.
+
+### New selection: The calf and the tabernacle: two uses of gold
+
+- **Proposed passages:** 12:35–36; 25:1–8; 32:1–5; 34:10–17; 35:20–22; 40:34–38; then Hebrews 8–9.
+- **Proposed arc:** Israel leaves Egypt with gold, gives gold for the calf, and then gives gold for the sanctuary after the covenant is renewed. Earrings appear in both offerings. Compare an image the people make of their deliverer with the dwelling the Lord commands.
+- **Proposed connection to Christ:** the sanctuary leads to Hebrews's account of Christ and the true tabernacle.
+- **Boundary for later development:** do not claim the same individual pieces of gold were used in both projects, or assign a symbolic meaning to gold itself. The comparison is the page's own proposed connection.
 
 ## Proposed
 
-Nine, in the order of the book. The coordinator's ranking is at the end.
+The original nine candidates, in the order of the book. The selection above supersedes the coordinator's original ranking at the end.
 
 ### 1. What was offered at Sinai, and what was given
 
