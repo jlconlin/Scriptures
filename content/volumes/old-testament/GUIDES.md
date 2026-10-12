@@ -4,7 +4,7 @@ A project note (the build ignores it). It holds the author's decisions about gui
 
 ## State
 
-The code, the scripts, the agents' guide sections and the workflow are built (2026-10-12, on the branch `claude/scripture-guides-women-ot-6ec842`; the author: “Yes go and start creating”) and are described in `DEVELOPMENT.md` (“Volume guides,” “A page in preview”) and `STANDARDS.md` §8 (“How a guide is written”). No guide is written yet. `main` moves to the branch with the first guide, after the author has seen the pages in the preview. Next is the women guide: research, then the outline for the author. Everything can run on Opus; Fable is wanted only for that outline.
+The code, the scripts, the agents' guide sections and the workflow are built (2026-10-12, on the branch `claude/scripture-guides-women-ot-6ec842`; the author: “Yes go and start creating”) and are described in `DEVELOPMENT.md` (“Volume guides,” “A page in preview”) and `STANDARDS.md` §8 (“How a guide is written”). The author approved the look from screenshots of a sample page (2026-10-12: “Yes, I like the look”), and the work is on `main`, not pushed: with no guide written the live site is unchanged. No guide is written yet. Next is the women guide: the research dossier is `.cache/batch/old-testament/dossier-women.md` (a working file, not committed), then the outline for the author, saved as `.cache/batch/old-testament/outline-women.md`. Everything can run on Opus; Fable is wanted only for that outline.
 
 ## What the author decided (2026-10-12)
 
@@ -63,7 +63,7 @@ Built and described in `DEVELOPMENT.md`: `source.mjs --append`, `scripts/check-p
 
 ## Order of work
 
-1. **Done on the branch (2026-10-12):** the code change, the docs, the agents' guide sections, scripts 1, 2, 4, 5 and 6. Still to do with the first guide: `preview-site.mjs --keep genesis/guides/` and the preview artifact for the author's approval, then fast-forward `main` (a feature with nothing in it changes nothing a visitor sees).
+1. **Done on the branch (2026-10-12):** the code change, the docs, the agents' guide sections, scripts 1, 2, 4, 5 and 6. The first guide is shown in the preview artifact with `preview-site.mjs --keep genesis/guides/`, and the push waits for the author's word.
 2. **The women guide:** research, the outline for the author, writing, review, Codex, the back-links from Genesis, Hosea and Ezekiel. Go live at the author's word.
 3. **Psalms and Genesis book guides**, then the Ezekiel guide.
 4. **Volume guides 2 and 3** (the timeline and the poetry), then the rest as books need them; each ends by trimming the book-guide sections it absorbs and adding the link sentences to Daniel's and Hosea's intros. Script 3 before the next book's brief.
