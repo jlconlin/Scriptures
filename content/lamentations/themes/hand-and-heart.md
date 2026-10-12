@@ -22,7 +22,7 @@ The poet says the LORD afflicted her; she says it of herself, “wherewith the L
 
 ## As an enemy
 
-“The Lord was as an enemy” ([[Lam. 2:5]]); the Hebrew has “as” on “enemy” here and in 2:4.[@oshb-wlc] Then: “he hath fulfilled his word that he had commanded in the days of old: he hath thrown down, and hath not pitied” ([[Lam. 2:17]]). An older commentary takes that word as the warnings of Leviticus 26 and Deuteronomy 28;[@keil-lamentations] the Church edition’s footnotes at 4:10 and 4:16 lead to those chapters.[@lds-scriptures] “Not pitied” is said four times, at 2:2, 2:17, 2:21 and 3:43.[@oshb-wlc] See the note on [[Lam. 2:17]].
+“The Lord was as an enemy” ([[Lam. 2:5]]); the Hebrew has “as” on “enemy” here and in 2:4.[@oshb-wlc] Then: “he hath fulfilled his word that he had commanded in the days of old: he hath thrown down, and hath not pitied” ([[Lam. 2:17]]). That word is taken as the warnings of Leviticus 26 and Deuteronomy 28;[@keil-lamentations] the Church edition’s footnotes at 4:10 and 4:16 lead to those chapters.[@lds-scriptures] “Not pitied” is said four times, at 2:2, 2:17, 2:21 and 3:43.[@oshb-wlc] See the note on [[Lam. 2:17]].
 
 ## Against one man
 
@@ -32,7 +32,7 @@ The poet says the LORD afflicted her; she says it of herself, “wherewith the L
 
 “For the Lord will not cast off for ever: But though he cause grief, yet will he have compassion according to the multitude of his mercies. For he doth not afflict willingly nor grieve the children of men” ([[Lam. 3:31–33]]).
 
-In the Hebrew, “willingly” is *millibbo*, “from his heart,” as the ESV and an older commentary render it.[@oshb-wlc][@esv][@keil-lamentations] These verses are read as saying that the Lord does not take pleasure in punishing people.[@ot-seminary-teacher-lesson-138]
+In the Hebrew, “willingly” is *millibbo*, “from his heart,” as the ESV renders it.[@oshb-wlc][@esv][@keil-lamentations] These verses are read as saying that the Lord does not take pleasure in punishing people.[@ot-seminary-teacher-lesson-138]
 
 The verb of “hath afflicted” in 1:5 and 1:12 is used five times: of the virgins (1:4), in those two verses, and here as “cause grief” (3:32) and “grieve” (3:33). “Afflict” in 3:33 is another verb.[@oshb-wlc] Setting 3:32 beside 1:5 and 1:12 is this page’s own comparison.[@lds-scriptures] See the note on [[Lam. 3:33]].
 
@@ -54,4 +54,4 @@ These poems speak of one city, and of a word “commanded in the days of old” 
 
 ## Jehovah
 
-The LORD of these poems is Jehovah, the premortal Jesus Christ.[@bd-jehovah] The Church edition’s footnote on “afflict” in 3:33 leads to a verse about Him and His redeemed at His coming: “In all their afflictions he was afflicted… and in his love, and in his pity, he redeemed them” ([[D&C 133:53]]).[@lds-scriptures] That verse speaks of another day and is not a reply within these poems. In Lamentations “his hand” is said of the Lord in three verses (1:14; 2:8; 3:3) and His heart is named in one,[@oshb-wlc] and the last prayer is left without a written reply.
+The LORD of these poems is Jehovah, the premortal Jesus Christ.[@bd-jehovah] The Church edition’s footnote on “afflict” in 3:33 leads to a verse about Him and His redeemed at His coming: “In all their afflictions he was afflicted… and in his love, and in his pity, he redeemed them” ([[D&C 133:53]]).[@lds-scriptures] That verse speaks of another day and is not a reply within these poems. In Lamentations “his hand” is said of the Lord in three verses (1:14; 2:8; 3:3) and His heart is named in one.[@oshb-wlc]

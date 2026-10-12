@@ -11,8 +11,7 @@ Six times in the first two poems of Lamentations the word “comfort” is spoke
 |---|---|---|
 | None to comfort her | [[Lam. 1:2]], [[Lam. 1:9]], [[Lam. 1:16]], [[Lam. 1:17]], [[Lam. 1:21]] | “there is none to comfort her” |
 | Who can heal thee? | [[Lam. 2:13]] | “that I may comfort thee… who can heal thee?” |
-| Hope perished | [[Lam. 3:8]], [[Lam. 3:17–18]] | “he shutteth out my prayer”; “my hope is perished” |
-| Therefore have I hope | [[Lam. 3:21–26]] | “This I recall to my mind, therefore have I hope” |
+| Therefore have I hope | [[Lam. 3:8]], [[Lam. 3:17–18]], [[Lam. 3:21–26]] | “my hope is perished”; “therefore have I hope” |
 | Shut out, and heard | [[Lam. 3:44]], [[Lam. 3:55–57]] | “thou saidst, Fear not” |
 | No reply | [[Lam. 5:8]], [[Lam. 5:19–22]] | “Turn thou us unto thee, O LORD” |
 
@@ -24,13 +23,9 @@ Six times in the first two poems of Lamentations the word “comfort” is spoke
 
 The poet speaks to her: “what shall I equal to thee, that I may comfort thee, O virgin daughter of Zion? for thy breach is great like the sea: who can heal thee?” ([[Lam. 2:13]]). He asks how he may comfort her and gives no answer. The verb has the same root as chapter 1’s *menaḥem*, and this is the root’s sixth and last use in the book.[@oshb-wlc]
 
-## “My hope is perished”
-
-“He shutteth out my prayer” ([[Lam. 3:8]]). “Thou hast removed my soul far off from peace… And I said, My strength and my hope is perished from the LORD” ([[Lam. 3:17–18]]).
-
 ## “Therefore have I hope”
 
-“This I recall to my mind, therefore have I hope. It is of the LORD’s mercies that we are not consumed, because his compassions fail not. They are new every morning… The LORD is good unto them that wait for him… It is good that a man should both hope and quietly wait for the salvation of the LORD” ([[Lam. 3:21–26]]).
+“He shutteth out my prayer” ([[Lam. 3:8]]). “Thou hast removed my soul far off from peace… And I said, My strength and my hope is perished from the LORD” ([[Lam. 3:17–18]]). Then: “This I recall to my mind, therefore have I hope. It is of the LORD’s mercies that we are not consumed, because his compassions fail not. They are new every morning… The LORD is good unto them that wait for him… It is good that a man should both hope and quietly wait for the salvation of the LORD” ([[Lam. 3:21–26]]).
 
 The hope that perished in verse 18 is a noun, *tokhelet*; the hope of verses 21 and 24 is the verb *ʾoḥil*, from the same root.[@oshb-wlc][@biblehub-interlinear] Verses 19–20 tell of no rescue, only of remembering his affliction; the “therefore” of verse 21 follows what he recalls. He hopes and waits for a salvation, and does not say it has come.
 
