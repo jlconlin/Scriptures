@@ -17,10 +17,10 @@ The title comes from Isaiah himself: “line upon line; here a little, and there
 
 ## Principles behind the commentary
 
-1. **Christ at the center.** Nephi said he delighted in Isaiah because Isaiah saw the Redeemer ([[2 Ne. 11:2–6]]). The notes try to see him there too.
-2. **Scripture interprets scripture.** The Book of Mormon, the Doctrine and Covenants, and the Pearl of Great Price explain Isaiah in several places ([[2 Ne. 25]]; [[D&C 113]]; [[JS—H 1:40]]). Those readings come first.
+1. **Christ at the center.** The scriptures testify of Jesus Christ ([[John 5:39]]; [[Jacob 7:11]]). Each chapter closes by asking how it points to Him.
+2. **Scripture interprets scripture.** One book of scripture often quotes, explains, or fulfills another, and the Book of Mormon, the Doctrine and Covenants, and the Pearl of Great Price explain the Bible in many places ([[2 Ne. 25]]; [[D&C 113]]; [[JS—H 1:40]]). Those readings come first.
 3. **Prophets over commentators.** When modern prophets and apostles have taught plainly about a passage, the notes follow them. Scholarly views, Latter-day Saint and otherwise, are included when they help. When faithful readers see a passage differently, the notes say so.
-4. **Honest about uncertainty.** Isaiah’s Hebrew is sometimes hard, and some prophecies have more than one fulfillment. Where the answer is “we don’t know for sure,” the notes say that too.
+4. **Honest about uncertainty.** The original languages are sometimes hard, the date or setting of a passage is sometimes unknown, and some prophecies have more than one fulfillment. Where the answer is “we don’t know for sure,” the notes say that too.
 5. **Every claim is sourced.** Notes link to scriptures in the Gospel Library and cite the manuals, talks, reference works, and books they draw on.
 
 ## The text
@@ -45,7 +45,7 @@ Even so, this commentary is a study aid, not an authority. Use it the way you wo
 
 This is an independent project by a member of The Church of Jesus Christ of Latter-day Saints. It is **not** an official publication of the Church, and nothing here should be taken as the Church’s official interpretation of any passage.
 
-Above all, the Holy Ghost is the one who opens Isaiah. Nephi said the words of Isaiah are plain to “all those that are filled with the spirit of prophecy” ([[2 Ne. 25:4]]). Read with a prayer in your heart.
+Nephi said the words of Isaiah are plain to “all those that are filled with the spirit of prophecy” ([[2 Ne. 25:4]]).
 
 ## License
 
