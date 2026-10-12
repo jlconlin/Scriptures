@@ -49,4 +49,4 @@ if (git('diff', '--cached', '--name-only').trim()) git('commit', '-q', '-m', `${
 console.log(run('batch-commit.mjs', slug, 'written', ...chapters).trim());
 // A brief too long to read whole is read in part: agents take its first few hundred lines (Psalms, 2026-10-11).
 const briefSize = readFileSync(path.join(ROOT, `content/${slug}/BRIEF.md`)).length;
-if (briefSize > 60000) console.log(`\n⚠ content/${slug}/BRIEF.md is ${Math.round(briefSize / 1000)} KB: too long for an agent to read whole. Move a log or a list out of it (content/${slug}/DECIDED.md) before the next batch.`);
+if (briefSize > 60000) console.log(`\n⚠ content/${slug}/BRIEF.md is ${Math.round(briefSize / 1000)} KB: too long for an agent to read whole. Cut it before the next batch (AUTHORING.md, “A brief stays brief”).`);

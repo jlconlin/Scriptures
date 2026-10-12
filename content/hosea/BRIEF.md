@@ -153,10 +153,6 @@ node scripts/check-chapter.mjs hosea <n>
 
 It runs `fix-yaml`, the preview build into `.cache/batch/hosea/dist-NN`, `check-quotes`, `check-content` (with the proposed entries), and `check-ledger`. The working folder for the batch is `.cache/batch/hosea/` (not committed): `proposed/NN.yaml`, `reports/NN-writer.md`, `reports/NN-check.md`.
 
-## Decided while writing
-
-In `content/hosea/DECIDED.md`, by chapter, so that this brief stays short enough to read whole. Search that file for a chapter when editing it.
-
 ## Reader questions no source answered
 
 In `content/hosea/UNANSWERED.md`, by chapter, so that this brief stays short enough to read whole. Search that file for a chapter when editing it.

@@ -146,10 +146,6 @@ node scripts/check-chapter.mjs daniel <n>
 
 It runs `fix-yaml`, the preview build into `.cache/batch/daniel/dist-NN`, `check-quotes`, `check-content` (with the proposed entries), and `check-ledger`. The working folder for the batch is `.cache/batch/daniel/` (not committed): `proposed/NN.yaml`, `reports/NN-writer.md`, `reports/NN-check.md`.
 
-## Decided while writing
-
-In `content/daniel/DECIDED.md`, by chapter, so that this brief stays short enough to read whole. Search that file for a chapter when editing it.
-
 ## Reader questions no source answered
 
 In `content/daniel/UNANSWERED.md`, by chapter, so that this brief stays short enough to read whole. Search that file for a chapter when editing it.

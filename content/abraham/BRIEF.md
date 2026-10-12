@@ -116,10 +116,6 @@ node scripts/check-chapter.mjs abraham <n>
 
 The working folder for the batch is `.cache/batch/abraham/` (not committed): `proposed/NN.yaml`, `reports/NN-writer.md`, `reports/NN-check.md`, and the saved footnotes `fn1.txt` to `fn5.txt`.
 
-## Decided while writing
-
-In `content/abraham/DECIDED.md`, by chapter, so that this brief stays short enough to read whole. Search that file for a chapter when editing it.
-
 ## Reader questions no source answered
 
 *(`scripts/batch-notes.mjs` adds to the end of this file, so this stays the last section.)*
