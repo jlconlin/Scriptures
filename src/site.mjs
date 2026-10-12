@@ -14,6 +14,9 @@ export const SITE = {
 // The books on the site, filled in by the build (book.yaml: name, slug, abbr). The header nav,
 // the 404 redirects, and internal scripture links read it.
 export const LIBRARY = [];
+// The keys of the volumes that have guides of their own (content/volumes/<slug>/guides/), filled in by the build.
+// The header shows Guides on such a volume's pages.
+export const VOLUMES_WITH_GUIDES = new Set();
 
 // Headings for the parts of every chapter page. Change a heading here and it changes on every
 // chapter of every book, and wherever the site describes these sections. {chapter} becomes the

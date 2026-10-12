@@ -130,6 +130,7 @@ Take a batch whole, so its chapters can also be read side by side.
 | `content/<book>/BRIEF.md` | Book-level decisions |
 | `OPEN-QUESTIONS.md` | Everything waiting for the author, for every book and the site |
 | `content/<book>/THEME-CANDIDATES.md` | Topics for future theme pages, and which were chosen |
+| `content/volumes/<volume>/GUIDES.md` | The author's decisions about a volume's guides, and which are written |
 | `DEVELOPMENT.md` | Hosting, site design, the scripts, how books are built, adding a book |
 | `IDEAS.md` | Ideas not yet planned |
 | `DECISIONS.md` | Decisions that frame the site |

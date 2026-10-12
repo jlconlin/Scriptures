@@ -21,7 +21,7 @@ import { readFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import YAML from 'yaml';
-import { discoverBooks } from '../src/lib/books.mjs';
+import { discoverBooks, discoverVolumes } from '../src/lib/books.mjs';
 import { wlcFile, loadWlc, loadVerseMap, hebrewToKjv, parseStrongs, wordHits, WLC_NOTE } from '../src/lib/hebrew.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
@@ -175,8 +175,9 @@ const KIND_PLURAL = { note: 'notes', setting: 'settings', thread: 'threads', chr
 const sentenceHits = (text) => sentences(text).map((s) => ({ s, hits: find(s) })).filter((x) => x.hits.length);
 
 if (site) {
-  const books = (await discoverBooks(ROOT)).filter((b) => siteAll || allBooks || b.slug === bookArg.toLowerCase().replace(/\s+/g, ''));
-  if (!books.length) usage(`No book “${bookArg}” in content/.`);
+  // A volume's guides are read as a book's are: with `all`, or when the volume is named (old-testament).
+  const books = [...(await discoverBooks(ROOT)), ...discoverVolumes(ROOT).filter((v) => v.hasGuides)].filter((b) => siteAll || allBooks || b.slug === bookArg.toLowerCase().replace(/\s+/g, ''));
+  if (!books.length) usage(`No book “${bookArg}” in content/, and no volume of that name with guides.`);
   const read = async (f) => YAML.parse(await readFile(f, 'utf8'));
   const ls = async (d, ext) => (existsSync(d) ? (await readdir(d)).filter((f) => f.endsWith(ext)).sort() : []);
   console.log(`What the site already says: ${compiled.map((c) => `“${c.phrase}”`).join(', ')}${stem ? ' with its endings' : ''} in ${books.map((b) => b.name).join(', ')}\n`);
@@ -217,5 +218,5 @@ if (site) {
     grand += found.length;
     console.log(`\n${book.name}: ${plural(found.length, 'place')}${found.length ? ` (${[...kinds].map(([k, n]) => `${KIND_PLURAL[k]} ${n}`).join(', ')})` : ''}.${found.some((f) => f.kind === 'note') ? ` By chapter (notes): ${byChapter(found.filter((f) => f.kind === 'note'), (f) => +f.label.match(/ (\d+)(?::|$)/)[1])}.` : ''}\n`);
   }
-  if (books.length > 1) console.log(`All ${books.length} books: ${plural(grand, 'place')}.`);
+  if (books.length > 1) console.log(`All ${books.length} books and volumes: ${plural(grand, 'place')}.`);
 }

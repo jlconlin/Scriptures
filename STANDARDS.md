@@ -138,6 +138,8 @@ Anything new (a kind, a section, a label) gets a plain, non-clever name, and goe
 
 **Enough historical context to understand the book** (author, 2026-10-11). Every book needs background that explains the circumstances its readers encounter: who is speaking, to whom, where, and what is happening. The depth depends on the book's length and complexity; a short book may need only its introduction and chapter settings, while a longer book may need a historical guide. Combine rulers and events where that makes the history easier to follow, rather than repeating it in an overview, timeline, and separate lists. State uncertainty about dates or settings where the sources leave it open.
 
+**A guide belongs to the volume when its content is true of more than one book** (author, 2026-10-12): the kingdoms and the exile, the land, the law and the covenant, the temple, Hebrew poetry, the household and its customs are the Old Testament's background, not one book's. Such a guide is in `content/volumes/<volume>/guides/` and is linked from every book of the volume. A book's guides keep what is particular to the book and link to the volume's instead of repeating them, and a book gets guides of its own only when it has two or more topics its book page cannot hold; a single topic goes into the book page's intro or a volume guide. The author's decisions about a volume's guides are in `content/volumes/<volume>/GUIDES.md`.
+
 Markdown files in `content/<book>/guides/` and `content/<book>/themes/`, with YAML front matter (`title`, `blurb`, `icon`, `sources`) and then prose. Cite with a numbered citation right after the claim: `[@key]` or `[@key, locator]`. This is required: `check-content.mjs` fails a page that lists sources but cites none. Sources in the page's `sources` that are never cited appear under “Further reading.” Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`). The same sourcing rules apply.
 
 **The ledger for a guide or theme page** is `content/<book>/evidence/themes/<file name>.yaml` (or `evidence/guides/…`), in the format of §5 with `page: <file name>` in place of `chapter:`; `where` names the section heading (or `opening`). A page written from now on has one, committed with the page; `check-content.mjs` then holds it to the same rules as a chapter with a ledger, and warns when a theme page is over 1,000 words, when a `[@key]` is cited in a section whose ledger has no row for that key under that section (so `where` must be spelled as the heading is), and when a source is announced in the text (§3). It lists the rows whose claim begins “Connection made by this page:”, so a reviewer sees which connections are the page's own. `check-ledger.mjs <book> themes` (or `guides`, or one page's file name) reopens every row's URL, as for a chapter (§11).
@@ -175,6 +177,17 @@ Four steps, with a different model for each kind of work (the agent instructions
 
 Then the author reads it in the preview (§11). The dossier is a working file and is not kept; the ledger is.
 
+### How a guide is written
+
+The same four steps and the same three agents, each of which has a section “When the page is a guide”; `DEVELOPMENT.md` (“Writing a book in batches”) has the commands. What differs:
+
+- **A guide is background, not an arc.** It says what a period, a custom or an institution was, where the text shows it, and what scripture and the Church teach about it. Nothing has to develop, and it is not held to 1,000 words, though it is still a page to consult.
+- **§4 holds in full.** A guide makes no connections of its own: every statement is a quoted verse's plain words or is cited, and its ledger has no “Connection made by this page:” row.
+- **It explains; it doesn't argue.** No sentence defends, excuses or condemns beyond its source, an evaluative word is a claim with a row, and a hard passage is named plainly and given what the sources give it.
+- **The outline is still the session's**, on the most capable model, and for a guide the author has asked to approve, the author reads the outline before anything is written.
+- **Writing, review, repairs and the language pass are one workflow**, `.claude/workflows/write-guide.js`; the page starts with `status: preview` and every agent checks it with `node scripts/check-page.mjs <owner> <file name>`.
+- **Afterwards the chapters link to it**: one sentence at the end of each note that touches the guide's subject, pointing to the section by its id.
+
 ## 9. Research tools and access
 
 The scripts and their options are described once, in `DEVELOPMENT.md` (“Checks” and “Research scripts”); each prints its usage when run with no arguments. This section is what a writer needs to know about where things can be read.
@@ -188,7 +201,7 @@ The scripts and their options are described once, in `DEVELOPMENT.md` (“Checks
 
 ## 10. Checks
 
-`node scripts/check-chapter.mjs <book> <n>` runs every check for one chapter (`fix-yaml`, the build, `check-quotes`, `check-content` with the chapter's proposed sources, `check-ledger`) and prints only the lines that concern it; `check-content <book> <page>` and `check-ledger <book> <page>` are the checks for a theme or guide page. Fix every warning that concerns your chapter or page; a length warning on an older chapter is the author's to decide. What each check tests, and every other script, is in `DEVELOPMENT.md` (“Checks”); `node scripts/status.mjs` prints where each book stands.
+`node scripts/check-chapter.mjs <book> <n>` runs every check for one chapter (`fix-yaml`, the build, `check-quotes`, `check-content` with the chapter's proposed sources, `check-ledger`) and prints only the lines that concern it; `node scripts/check-page.mjs <book or volume> <page>` runs them for a theme or guide page (the build, `check-quotes`, `check-content <book> <page>`, `check-ledger <book> <page>`, and `check-sources` on its proposed entries). Fix every warning that concerns your chapter or page; a length warning on an older chapter is the author's to decide. What each check tests, and every other script, is in `DEVELOPMENT.md` (“Checks”); `node scripts/status.mjs` prints where each book stands.
 
 ## 11. Review process
 

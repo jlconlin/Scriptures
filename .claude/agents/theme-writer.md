@@ -1,6 +1,6 @@
 ---
 name: theme-writer
-description: Writes one theme page and its evidence ledger from an approved outline and a research dossier, adding nothing of its own. Give it the book, the page's file name, the outline, and the dossier path.
+description: Writes one theme page or guide and its evidence ledger from an approved outline and a research dossier, adding nothing of its own. Give it the book, the page's file name, the outline, and the dossier path.
 model: sonnet
 tools: Read, Write, Edit, Bash, Glob, Grep, WebSearch
 ---
@@ -63,6 +63,18 @@ node scripts/check-ledger.mjs <book> <file name>
 ```
 
 `check-content` with a file name (no `.md`) checks only your page: its sources and ledger, the length (well under 1,000 words), a source announced in the text, a `[@key]` that has no ledger row under its section, and a list of the connections of its own that the ledger marks. `check-ledger` reopens every row's URL and confirms the quote is on the page; fix or cut a row it can't confirm, and report one you can't fix. “Unknown source key” for a key the dossier proposes is expected until the orchestrator adds it. Fix every other warning that concerns your page. Check the scripture quotations with `node scripts/check-quotes.mjs <book>`: it checks every quotation on the book's pages that is followed by a `([[reference]])` against that verse's text, and a line that names `themes <file name>.md` is yours. Check by hand a quotation whose reference stands in another form (the KJV text is in `data/kjv/<book>.json`; `node scripts/show.mjs <book> <n>` prints a chapter; other scripture is on churchofjesuschrist.org).
+
+## When the page is a guide
+
+A guide is background that makes the chapters easier to read; you are told when the page is one. Everything above holds except what follows.
+
+- **Where it lives.** `content/<book>/guides/NN-<slug>.md` with its ledger `content/<book>/evidence/guides/NN-<slug>.yaml`; for a volume's guide (`old-testament`), `content/volumes/<volume>/guides/` and `content/volumes/<volume>/evidence/guides/`. The ledger's `page:` is the file name with its number. Model: `content/jeremiah/guides/02-jeremiahs-world.md`. Put `status: preview` in the front matter of a new guide: the live site leaves the page out until the author has read it.
+- **No connections of its own.** `STANDARDS.md` §4 holds in full: every statement is the plain words of a quoted verse or is cited. There is no row that begins “Connection made by this page:”. If the outline sets two passages side by side with no source for the step, leave the step out and report it.
+- **It explains; it doesn't argue.** Say what a custom or institution was, where the text shows it, and what scripture and the Church teach, as far as the sources say it. No sentence defends, excuses or condemns beyond its source, and a hard passage is named plainly and given what the sources give it. Evaluative words (“protected,” “honored,” “oppressive”) are claims and need a row.
+- **Not an arc, and not held to 1,000 words.** Sections by topic, in the outline's order; a table where one carries a list better than prose (people and where to read them, terms and what they mean). Length is what the outline needs and no more: a guide is still something to consult, not an essay.
+- **Give every section an explicit id** (`<h2 id="levirate-marriage">Levirate marriage</h2>`): chapters link to a guide by section.
+- **The proposed sources** go in `.cache/batch/<owner>/proposed/<file name>.yaml`, one per line (`key: { type, author, title, pub, url }`), not only in your report.
+- **One command for the checks:** `node scripts/check-page.mjs <owner> <file name>` runs the build, `check-quotes`, `check-content`, `check-ledger` and `check-sources` for the page and prints only what concerns it. Use it in place of the commands in section 4.
 
 ## Limits
 

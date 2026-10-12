@@ -1,7 +1,7 @@
 // Gathers the sources.yaml entries a batch of chapters proposed (.cache/batch/<book>/proposed/NN.yaml, written
 // by the writers and kept accurate by the reviewers) and reports what a person has to settle before they go in:
 // a key that exists with another URL, a key two chapters proposed for different pages, a page under two keys.
-// Usage: node scripts/merge-sources.mjs <book> <chapter numbers...> [--write]
+// Usage: node scripts/merge-sources.mjs <book> <chapter numbers... | page file name> [--write]   (<book> may be a volume)
 //   --write appends the new entries to content/sources.yaml under a comment naming the chapters.
 import { readFileSync, appendFileSync, existsSync } from 'node:fs';
 import path from 'node:path';
@@ -12,7 +12,7 @@ const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..')
 const argv = process.argv.slice(2);
 const write = argv.includes('--write');
 const { slug, rest } = bookArg(argv.filter((a) => !a.startsWith('--')));
-const chapters = rest.map(Number);
+const chapters = rest.map((a) => (/^\d+$/.test(a) ? Number(a) : a.replace(/\.(?:md|yaml)$/, ''))); // a page's file name works as a chapter number does
 const SOURCES = path.join(ROOT, 'content/sources.yaml');
 const existing = YAML.parse(readFileSync(SOURCES, 'utf8'));
 const pad = (n) => String(n).padStart(2, '0');
@@ -40,6 +40,6 @@ for (const [key, { n, entry }] of add) {
 const lines = [...add].map(([key, { entry }]) => `${key}: ${JSON.stringify(entry)}`);
 console.log(`${lines.length} new source(s) from ${chapters.length} chapter(s); ${problems} to settle by hand.`);
 if (write && lines.length) {
-  appendFileSync(SOURCES, `\n# ${slug} ${chapters[0]}–${chapters.at(-1)}\n${lines.join('\n')}\n`);
+  appendFileSync(SOURCES, `\n# ${slug} ${chapters.length > 1 ? `${chapters[0]}–${chapters.at(-1)}` : chapters[0]}\n${lines.join('\n')}\n`);
   console.log(`Appended to content/sources.yaml.`);
 } else if (lines.length) console.log(lines.join('\n'));

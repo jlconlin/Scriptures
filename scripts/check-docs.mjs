@@ -11,7 +11,7 @@ import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
-const git = (...a) => { try { return execFileSync('git', a, { cwd: ROOT, encoding: 'utf8' }); } catch { return ''; } };
+const git = (...a) => { try { return execFileSync('git', a, { cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }); } catch { return ''; } }; // quiet: a file newer than the review tag is not an error
 
 // The instruction files: what a session or an agent reads before working.
 export const DOCS = [

@@ -4,6 +4,7 @@ import { readFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import YAML from 'yaml';
+import { VOLUMES } from './canon.mjs';
 
 export const DEFAULT_BOOK = 'isaiah';
 
@@ -46,6 +47,30 @@ export async function findBook(root, slug) {
   if (!book) throw new Error(`No book “${slug}” in content/. Books: ${books.map((b) => b.slug).join(', ')}`);
   return book;
 }
+
+/**
+ * The five volumes as owners of pages. A volume's directory is content/volumes/<slug>/ (guides/, evidence/guides/,
+ * volume.md and project notes); it may not exist yet. `kind: 'volume'` tells an owner from a book, which has none.
+ */
+export function discoverVolumes(root) {
+  return VOLUMES.map((v) => {
+    const dir = path.join(root, 'content/volumes', v.slug);
+    return { ...v, kind: 'volume', dir, hasGuides: existsSync(path.join(dir, 'guides')) };
+  });
+}
+
+/** A book or a volume by slug: whatever owns pages. Scripts that take <book> for a guide or theme page use this. */
+export async function findOwner(root, slug) {
+  const volume = discoverVolumes(root).find((v) => v.slug === slug);
+  if (volume) return volume;
+  const books = await discoverBooks(root);
+  const book = books.find((b) => b.slug === slug);
+  if (!book) throw new Error(`No book or volume “${slug}” in content/. Books: ${books.map((b) => b.slug).join(', ')}. Volumes: ${VOLUMES.map((v) => v.slug).join(', ')}`);
+  return book;
+}
+
+/** Where an owner's files are, relative to the repository: content/<book> or content/volumes/<volume>. */
+export const ownerPath = (slug) => (VOLUMES.some((v) => v.slug === slug) ? `content/volumes/${slug}` : `content/${slug}`);
 
 /** Split script arguments into an optional book slug (anything non-numeric) and the rest. */
 export function bookArg(args) {

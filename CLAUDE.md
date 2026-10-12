@@ -9,6 +9,7 @@ Always read `AUTHORING.md` (how a book is written, working with the author). The
 | Writing, auditing, or reviewing commentary | `STANDARDS.md` and `content/<book>/BRIEF.md` |
 | Resolving the author's open questions, or adding one | `OPEN-QUESTIONS.md` (one file for every book and the site) |
 | Writing a theme page, or a chapter that touches a theme | `content/<book>/THEME-CANDIDATES.md` |
+| Writing a guide, for a book or for a volume | `content/volumes/<volume>/GUIDES.md` and `STANDARDS.md` §8 |
 | Changing code, styles, templates, or scripts; adding a book | `DEVELOPMENT.md` |
 | Building and previewing | `README.md` |
 

@@ -6,13 +6,14 @@
 // Usage: node scripts/check-ledger.mjs [book] [chapter numbers...]   the chapters' ledgers, content/<book>/evidence/NN.yaml
 //        node scripts/check-ledger.mjs <book> themes | guides        every ledger in content/<book>/evidence/themes/ (or guides/)
 //        node scripts/check-ledger.mjs <book> <page>                 one page's ledger, by its file name (cup-of-fury, with or without .yaml or .md)
+//        <book> may be a volume (old-testament), for its guides.
 //        With nothing after the book: every chapter, then every theme and guide ledger. Book defaults to isaiah.
 //        --fresh ignores the cache; --quiet prints only the summary lines.
 import { readFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import YAML from 'yaml';
-import { discoverBooks, bookArg } from '../src/lib/books.mjs';
+import { findOwner, bookArg } from '../src/lib/books.mjs';
 import { fetchPage, pageText, onPage, parseOrEmpty, pageProblems } from '../src/lib/pages.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
@@ -21,9 +22,7 @@ const argv = process.argv.slice(2);
 const fresh = argv.includes('--fresh');
 const quiet = argv.includes('--quiet');
 const { slug, rest } = bookArg(argv.filter((a) => !a.startsWith('--')));
-const books = await discoverBooks(ROOT);
-const book = books.find((b) => b.slug === slug);
-if (!book) throw new Error(`No book “${slug}”. Books: ${books.map((b) => b.slug).join(', ')}`);
+const book = await findOwner(ROOT, slug); // a book, or a volume (old-testament) for its guides
 
 // What was asked for: chapter numbers, themes, guides, or one page's file name; nothing means all of them.
 const chapters = rest.filter((a) => /^\d+$/.test(a)).map(Number);

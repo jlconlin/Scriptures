@@ -12,9 +12,9 @@ import { renderChapter, range, chapterLabel } from '../src/templates/chapter.mjs
 // A note's reference as a reader sees it; verse 0 is a psalm's title.
 const noteRef = (book, chapter, ref) => (String(ref) === '0' ? `${chapterLabel(book, chapter)}, title` : `${chapterLabel(book, chapter)}:${ref}`);
 import { renderFacsimile, facsimileUrl } from '../src/templates/facsimile.mjs';
-import { discoverBooks } from '../src/lib/books.mjs';
+import { discoverBooks, discoverVolumes } from '../src/lib/books.mjs';
 import { VOLUMES, placeOf } from '../src/lib/canon.mjs';
-import { LIBRARY } from '../src/site.mjs';
+import { LIBRARY, VOLUMES_WITH_GUIDES } from '../src/site.mjs';
 import { renderHome, renderVolume, renderBookIndex, renderGuidesIndex, renderGuide, renderPage, renderSearch, render404, chapterGuide, teaserText, COLLECTIONS } from '../src/templates/pages.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
@@ -97,6 +97,19 @@ async function writeBookColors(books, css) {
   );
 }
 
+// The pages of a guides/ or themes/ directory that this build publishes. A page whose front matter says
+// `status: preview` is left out of the live build, as a book in preview is.
+async function pageFiles(dir) {
+  if (!existsSync(dir)) return [];
+  const out = [];
+  for (const f of (await readdir(dir)).filter((f) => f.endsWith('.md')).sort()) {
+    const file = path.join(dir, f);
+    const page = await readMd(file);
+    if (page.status !== 'preview' || PREVIEW) out.push({ f, file, page });
+  }
+  return out;
+}
+
 export async function build({ quiet = false } = {}) {
   warnings.length = 0;
   unknownRefs.clear();
@@ -106,6 +119,11 @@ export async function build({ quiet = false } = {}) {
   const sources = await readYaml(r('content/sources.yaml'));
   const books = (await discoverBooks(ROOT)).filter((b) => (b.status ?? 'live') === 'live' || PREVIEW);
   if (!books.length) throw new Error('No books: expected content/<slug>/book.yaml and content/<slug>/chapters/');
+
+  // A volume owns the guides that are true of more than one of its books (content/volumes/<slug>/guides/).
+  const volumes = discoverVolumes(ROOT);
+  VOLUMES_WITH_GUIDES.clear();
+  for (const v of volumes) if ((await pageFiles(path.join(v.dir, 'guides'))).length) VOLUMES_WITH_GUIDES.add(v.key);
 
   // Chapters: every chapter gets a page; authored YAML fills in the commentary.
   for (const book of books) {
@@ -165,7 +183,8 @@ export async function build({ quiet = false } = {}) {
     }
     book.place = placeOf(book.abbr);
     if (!book.place) throw new Error(`content/${book.slug}/book.yaml: abbr “${book.abbr}” is not a book of the standard works (see src/lib/refs.mjs)`);
-    book.hasGuides = existsSync(path.join(book.dir, 'guides'));
+    // A book has a Guides page when it has guides of its own or its volume has some.
+    book.hasGuides = existsSync(path.join(book.dir, 'guides')) || VOLUMES_WITH_GUIDES.has(book.place.vol);
     book.hasThemes = existsSync(path.join(book.dir, 'themes'));
 
     // Validate source keys
@@ -207,6 +226,32 @@ export async function build({ quiet = false } = {}) {
 
   const search = [];
   const built = []; // { book, guides, themes } for each book, in site order
+
+  // Guides and theme pages: Markdown files with front matter, one page each. The owner is a book or a volume.
+  const buildCollection = async (owner, key, searchLabel, entries = search) => {
+    const collection = COLLECTIONS[key];
+    const pages = [];
+    for (const { f, file, page: g } of await pageFiles(path.join(owner.dir, collection.path))) {
+      g.updated = await lastRevised(file);
+      g.slug = f.replace(/^\d+-/, '').replace(/\.md$/, '');
+      const cited = applyCitations(g.body, sources, (m) => warn(`${owner.slug}/${collection.path}/${f}: ${m}`));
+      g.html = md(cited.body);
+      g.refs = cited.refs;
+      pages.push(g);
+      entries.push({ t: 'guide', b: owner.slug, r: searchLabel, h: g.title, u: `/${owner.slug}/${collection.path}/${g.slug}/`, x: plain(stripCitations(g.body)).slice(0, 3000) });
+    }
+    for (const g of pages) await write(`${owner.slug}/${collection.path}/${g.slug}/index.html`, renderGuide({ owner, guide: g, guides: pages, sources, collection }));
+    return pages;
+  };
+  // The volumes' guides first, since a book's Guides page lists them; their search entries go after the books'.
+  const volumeSearch = [];
+  const volumeGuides = []; // { volume, guides } for each volume that has guides
+  for (const volume of volumes) {
+    const guides = await buildCollection(volume, 'guides', 'Guide', volumeSearch);
+    if (!guides.length) continue;
+    await write(`${volume.slug}/guides/index.html`, renderGuidesIndex({ owner: volume, guides }));
+    volumeGuides.push({ volume, guides });
+  }
   for (const book of books) {
     const { slug, kjv } = book;
 
@@ -241,31 +286,13 @@ export async function build({ quiet = false } = {}) {
       (fac.notes ?? []).forEach((n) => search.push({ t: 'note', b: slug, k: n.kind, r: `${book.name}, Facsimile ${fac.n}, fig. ${n.ref}`, h: plain(n.title ?? n.phrase ?? ''), u: `${facsimileUrl(book, fac.n)}#${n.id}`, x: plain(n.body) }));
     }
 
-    // Guides and theme pages: Markdown files with front matter, one page each plus an index.
-    const buildCollection = async (key, searchLabel) => {
-      const collection = COLLECTIONS[key];
-      const dir = path.join(book.dir, collection.path);
-      if (!existsSync(dir)) return [];
-      const pages = [];
-      for (const f of (await readdir(dir)).filter((f) => f.endsWith('.md')).sort()) {
-        const file = path.join(dir, f);
-        const g = await readMd(file);
-        g.updated = await lastRevised(file);
-        g.slug = f.replace(/^\d+-/, '').replace(/\.md$/, '');
-        const cited = applyCitations(g.body, sources, (m) => warn(`${slug}/${collection.path}/${f}: ${m}`));
-        g.html = md(cited.body);
-        g.refs = cited.refs;
-        pages.push(g);
-        search.push({ t: 'guide', b: slug, r: searchLabel, h: g.title, u: `/${slug}/${collection.path}/${g.slug}/`, x: plain(stripCitations(g.body)).slice(0, 3000) });
-      }
-      for (const g of pages) await write(`${slug}/${collection.path}/${g.slug}/index.html`, renderGuide({ book, guide: g, guides: pages, sources, collection }));
-      if (pages.length) await write(`${slug}/${collection.path}/index.html`, renderGuidesIndex({ book, guides: pages, collection }));
-      return pages;
-    };
-    const guides = await buildCollection('guides', 'Guide');
-    const themes = await buildCollection('themes', 'Theme');
-
-    if (guides.length && themes.length) await write(`${slug}/guides/index.html`, renderGuidesIndex({ book, guides, themes }));
+    const guides = await buildCollection(book, 'guides', 'Guide');
+    const themes = await buildCollection(book, 'themes', 'Theme');
+    if (themes.length) await write(`${slug}/themes/index.html`, renderGuidesIndex({ owner: book, guides: themes, collection: COLLECTIONS.themes }));
+    // The book's Guides page: its own guides, its themes beside them, and its volume's guides below.
+    const shared = volumeGuides.find((v) => v.volume.key === book.place.vol);
+    book.guidesPage = Boolean(guides.length || shared?.guides.length);
+    if (book.guidesPage) await write(`${slug}/guides/index.html`, renderGuidesIndex({ owner: book, guides, themes: guides.length ? themes : [], shared }));
     await write(`${slug}/index.html`, renderBookIndex({ book, guides, sources }));
     built.push({ book, guides, themes });
   }
@@ -285,12 +312,15 @@ export async function build({ quiet = false } = {}) {
   }));
   await write('notes.json', JSON.stringify(noteList));
   // A page for each volume, listing its books on the site.
-  // Its introduction, when one is written, is the body of content/volumes/<slug>.md.
-  for (const v of VOLUMES) {
-    const intro = await readMd(r(`content/volumes/${v.slug}.md`)).catch(() => ({ body: '' }));
+  // Its introduction, when one is written, is the body of content/volumes/<slug>/volume.md
+  // (or content/volumes/<slug>.md, for a volume that has no directory yet).
+  for (const v of volumes) {
+    const introFile = [path.join(v.dir, 'volume.md'), r(`content/volumes/${v.slug}.md`)].find(existsSync);
+    const intro = introFile ? await readMd(introFile) : { body: '' };
     const html = intro.body.trim() ? md(intro.body) : '';
-    await write(`${v.slug}/index.html`, renderVolume({ volume: v, books: books.filter((b) => b.place.vol === v.key), html }));
+    await write(`${v.slug}/index.html`, renderVolume({ volume: v, books: books.filter((b) => b.place.vol === v.key), html, guides: volumeGuides.find((x) => x.volume.key === v.key)?.guides ?? [] }));
   }
+  search.push(...volumeSearch);
   const about = await readMd(r('content/about.md'));
   await write('about/index.html', renderPage({ title: about.title, blurb: about.blurb, html: md(about.body).replace('<!-- chapter-guide -->', chapterGuide()), path: '/about/', updated: await lastRevised(r('content/about.md')) }));
   await write('search/index.html', renderSearch());
@@ -298,8 +328,9 @@ export async function build({ quiet = false } = {}) {
   await write('search.json', JSON.stringify(search));
   const urls = [
     '/',
-    ...built.flatMap(({ book }) => [`/${book.slug}/`, `/${book.slug}/guides/`]),
+    ...built.flatMap(({ book }) => [`/${book.slug}/`, ...(book.guidesPage ? [`/${book.slug}/guides/`] : [])]),
     ...VOLUMES.map((v) => `/${v.slug}/`),
+    ...volumeGuides.flatMap(({ volume, guides }) => [`/${volume.slug}/guides/`, ...guides.map((g) => `/${volume.slug}/guides/${g.slug}/`)]),
     '/about/',
     ...built.flatMap(({ book, guides, themes }) => [
       ...guides.map((g) => `/${book.slug}/guides/${g.slug}/`),

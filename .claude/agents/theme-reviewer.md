@@ -1,6 +1,6 @@
 ---
 name: theme-reviewer
-description: Reviews one drafted theme page against the standard (the ledger check first, then the sources the script can't judge), and returns a verdict and a list of fixes. Give it the book and the page's file name (and the dossier path, if it still exists).
+description: Reviews one drafted theme page or guide against the standard (the ledger check first, then the sources the script can't judge), and returns a verdict and a list of fixes. Give it the book and the page's file name (and the dossier path, if it still exists).
 model: opus
 tools: Read, Bash, Glob, Grep, WebSearch
 ---
@@ -39,6 +39,17 @@ Be skeptical. The page was written by a model that writes fluently, and a weak c
 **4. Is it well made?** Voice and audience (§2–§3): semi-academic, a teacher's voice, no scholars named in running text, terms defined, no personal application, not a compendium. Is it short enough to look over quickly (well under 1,000 words, a table of the steps, a few sentences per step)? Are quotations given with their citation and not announced (“The Church's manual says…”)? Does it link to chapter pages instead of repeating them? Is anything padded, or missing that the arc needs? Are the headings plain?
 
 **5. The checks.** Report the `check-ledger` and `check-content` output from the start, and run `node scripts/build.mjs`; report what concerns this page.
+
+## When the page is a guide
+
+A guide is background for the chapters; you are told when the page is one. Start with `node scripts/check-page.mjs <owner> <file name>` (the build, `check-quotes`, `check-content`, `check-ledger` and `check-sources` in one result) in place of the separate commands. The page is in `content/<book>/guides/` or, for a volume's guide, `content/volumes/<volume>/guides/`, with its ledger under `evidence/guides/` beside it. Judge 2 to 5 as above, and in place of 1:
+
+- **Is it background a reader needs?** Each section should make some chapter easier to read. A section that only collects facts is cut; a topic that belongs to one chapter goes to that chapter's note. No arc is required, and the page is not held to 1,000 words, but padding is still a finding.
+- **A connection of the page's own is a finding.** `STANDARDS.md` §4 holds in full on a guide: every statement is a quoted verse's plain words or is cited, and the ledger has no “Connection made by this page:” row.
+- **Does it explain, or argue?** Flag every sentence that defends, excuses or condemns beyond its source, and every evaluative word (“protected,” “honored,” “oppressive”) with no row that says it. Flag a hard passage the outline named that the page softens, hedges or leaves out, and a summary that makes the picture tidier than the sections do.
+- **Does it follow the outline?** The outline is the coordinating session's (and, where you are told so, approved by the author). A section the outline lacks, or a claim it does not carry, is a finding; so is an outline step the page dropped without saying why.
+
+The verdict *does not hold up as a theme* becomes *does not hold up*: say what should happen to the material.
 
 ## Report
 

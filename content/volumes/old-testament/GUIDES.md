@@ -4,7 +4,7 @@ A project note (the build ignores it). It holds the author's decisions about gui
 
 ## State
 
-Planned, nothing built. The author approved the plan and set its start after the Exodus theme pages are developed (2026-10-12: “Let's wait until the Exodus themes are developed, then we can work on this”). The code change and everything after it can run on Opus; Fable is wanted only for the outline of the women guide.
+The code, the scripts, the agents' guide sections and the workflow are built (2026-10-12, on the branch `claude/scripture-guides-women-ot-6ec842`; the author: “Yes go and start creating”) and are described in `DEVELOPMENT.md` (“Volume guides,” “A page in preview”) and `STANDARDS.md` §8 (“How a guide is written”). No guide is written yet. `main` moves to the branch with the first guide, after the author has seen the pages in the preview. Next is the women guide: research, then the outline for the author. Everything can run on Opus; Fable is wanted only for that outline.
 
 ## What the author decided (2026-10-12)
 
@@ -37,14 +37,7 @@ Guides 2 to 7 are written as a book needs them, not all at once. None is started
 
 ## The code
 
-A change to how the site looks, so it goes on a branch, is shown in the preview artifact, and waits for the author's approval before `main` moves (`AUTHORING.md`, “Showing a change”). Books are discovered, never named, and the same holds here.
-
-- **Content layout.** `content/volumes/<slug>/` becomes a directory: `volume.md` (the introduction, moved from `content/volumes/<slug>.md`; the build reads either until the five are moved), `guides/NN-slug.md`, `evidence/guides/NN-slug.yaml`, and project notes at the top (this file). Markdown at the top of the directory is ignored by the build, as in a book.
-- **Discovery.** `src/lib/books.mjs` (or a `volumes.mjs` beside it) returns each volume as a page owner with `kind: 'volume'`, `slug`, `name`, `dir`, `hasGuides`, so every script that takes `<book>` accepts `old-testament` with no further change: `check-content`, `check-ledger`, `check-sources`, `codex-read`, `occurrences --site`, `status`, `ledger-context`.
-- **Pages.** `renderGuide` and `renderGuidesIndex` take an owner (a book or a volume) in place of `book`, so a volume guide looks exactly like a book guide, at `/old-testament/guides/<slug>/`. `renderVolume` shows the volume's guide cards between the introduction and the list of books. The build writes the pages, the sitemap and the search entries (`b` carries the volume slug; the search filter lists the volume).
-- **A book's Guides page lists its volume's guides below its own**, under a heading “Old Testament guides,” and a book with no guides of its own gets a Guides page when its volume has guides, so a Genesis reader finds the women guide from Genesis. The header's Guides link appears on every page of such a book and on the volume's pages (`layout.mjs`).
-- **Links.** Chapters link to a guide section as they do now, with an explicit section id. `occurrences.mjs --site all` reads volume guides too, so a writer sees what the site already says.
-- **Checks.** `check-content` holds a volume guide to the same rules as a book guide (a ledger, no announced sources, every cited key with a row under its section; no word cap on a guide). `status.mjs` prints the volume's guides under “The site.”
+Built; `DEVELOPMENT.md` (“Volume guides,” “A page in preview,” “Guides index”) describes it. Two things were added to the plan: a page whose front matter says `status: preview` stays out of the live build, so a guide can be committed to `main` and read in the preview before it is live; and `preview-site.mjs --keep` keeps a live book's Guides page in the preview.
 
 ## The workflow, and what each model does
 
@@ -64,22 +57,13 @@ Guides reuse the theme pipeline (`STANDARDS.md` §8, “How a theme page is writ
 
 Haiku is not used: the author's test found its answers thin and review did not close the gap (`AUTHORING.md`).
 
-## Scripts to add or extend, so the agents spend fewer tokens
+## Scripts
 
-Each replaces something an agent now does by hand or by retyping.
-
-1. **`source.mjs --append <dossier> --key <key>`** writes the paragraphs it found straight into the dossier as rows (key, URL, verbatim quote, where found), so the researcher never retypes a quote. Today the agent reads the script's output and emits it again, twice the tokens for every quote. The same flag serves theme research.
-2. **`scripts/check-page.mjs <owner> <file name>`**, the page analogue of `check-chapter.mjs`: `check-content` for the page, `check-ledger` for its ledger, `check-sources` on its proposed entries, the build into a scratch directory, and a word count, in one command with one short result. The writer and the reviewer run one thing instead of four, and read one output.
-3. **`scripts/search-lds.mjs "<words>"`**: one search across the sites the brief must read first (Scripture Central's archive, the Interpreter journal, the Religious Studies Center, BYU Studies), printing titles and URLs, as `knowhys.mjs` does for KnoWhys. It replaces several WebSearch calls per agent and keeps the search on the right sites. To try first: whether each site's own search answers a script; where one does not, the script falls back to a site-restricted WebSearch and says so.
-4. **`occurrences.mjs --site all`** reads volume guides (part of the code change).
-5. **`status.mjs`** lists the volume's guides (part of the code change).
-6. **`.claude/workflows/write-guide.js`** (`args`: `owner`, `file`, `dossier`, `outline`, `writerModel`) runs the writing half: writer, `check-page`, reviewer, the writer's repairs, `check-page` again, then `codex-read` and an agent to apply its findings, and returns the reviewer's verdict. Research stays a single agent call, since the outline between the two halves is the session's (and, for the women guide, the author's).
-
-Not worth a script: the outline, the back-link sentences (an agent writes a sentence that fits each note), and the author's reading.
+Built and described in `DEVELOPMENT.md`: `source.mjs --append`, `scripts/check-page.mjs`, `occurrences.mjs --site all` and `status.mjs` for volumes, `theme-dossier.mjs` for a volume, and `.claude/workflows/write-guide.js`. Still to write, before the next book's brief: **`scripts/search-lds.mjs "<words>"`**, one search across Scripture Central's archive, the *Interpreter* journal, the Religious Studies Center and BYU Studies, printing titles and URLs as `knowhys.mjs` does for KnoWhys; to try first is whether each site's own search answers a script, and where one does not, the script falls back to a site-restricted web search and says so.
 
 ## Order of work
 
-1. **Now, on this branch:** the code change, the docs (`DEVELOPMENT.md`, `STANDARDS.md` §8, `AUTHORING.md` project files table), the agents' guide sections, scripts 1, 2, 4, 5 and 6; `preview-site.mjs` and the preview artifact for the author's approval; then fast-forward `main` only with the first guide (a feature with nothing in it changes nothing a visitor sees).
+1. **Done on the branch (2026-10-12):** the code change, the docs, the agents' guide sections, scripts 1, 2, 4, 5 and 6. Still to do with the first guide: `preview-site.mjs --keep genesis/guides/` and the preview artifact for the author's approval, then fast-forward `main` (a feature with nothing in it changes nothing a visitor sees).
 2. **The women guide:** research, the outline for the author, writing, review, Codex, the back-links from Genesis, Hosea and Ezekiel. Go live at the author's word.
 3. **Psalms and Genesis book guides**, then the Ezekiel guide.
 4. **Volume guides 2 and 3** (the timeline and the poetry), then the rest as books need them; each ends by trimming the book-guide sections it absorbs and adding the link sentences to Daniel's and Hosea's intros. Script 3 before the next book's brief.

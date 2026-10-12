@@ -20,7 +20,7 @@ import { readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import YAML from 'yaml';
-import { findBook } from '../src/lib/books.mjs';
+import { findOwner, ownerPath } from '../src/lib/books.mjs';
 import { fetchPage, parseOrEmpty, pageProblems, onPage, pageText, quoteParts, letters, alnum } from '../src/lib/pages.mjs';
 import { SCRIPT_ROOT as ROOT, pad, readProposed, mergeProposed, partsOfWhere, pageSections, whereKey, headingKey, verseOf } from '../src/lib/ledger.mjs';
 
@@ -36,7 +36,7 @@ if (!slug || !what || argv.some((a) => a.startsWith('--'))) {
   console.error('Usage: node scripts/ledger-context.mjs <book> <chapter | theme page name> [--keys a,b] [--skip-keys a,b] [--types talk,article,manual,book] [--where "note 22:8"] [--fresh]');
   process.exit(1);
 }
-const book = await findBook(ROOT, slug);
+const book = await findOwner(ROOT, slug); // a book, or a volume for its guides
 const num = /^\d+$/.test(what) ? Number(what) : null;
 const name = what.replace(/\.(?:yaml|md)$/, '');
 
@@ -48,7 +48,7 @@ if (num) {
   label = `${book.name} ${num}`;
 } else {
   const sub = ['themes', 'guides'].find((s) => existsSync(path.join(book.dir, 'evidence', s, `${name}.yaml`)));
-  if (!sub) { console.error(`No ledger for “${name}” in content/${slug}/evidence/themes/ or guides/.`); process.exit(1); }
+  if (!sub) { console.error(`No ledger for “${name}” in ${ownerPath(slug)}/evidence/themes/ or guides/.`); process.exit(1); }
   ledgerFile = path.join(book.dir, 'evidence', sub, `${name}.yaml`);
   const md = (await readFile(path.join(book.dir, sub, `${name}.md`), 'utf8')).replace(/^---\n[\s\S]*?\n---\n?/, '');
   pageSecs = pageSections(md);
