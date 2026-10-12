@@ -1,11 +1,11 @@
 ---
 title: That I May Dwell among Them
-blurb: The Lord who promises to be with Moses comes to rest on a mountain and then commands a sanctuary so that He may dwell among Israel; after the calf He says He will not go up in their midst, Moses will not go without Him, and the book closes with His glory filling the tabernacle. John says the Word “dwelt among us” with a verb for living in a tent.
+blurb: The Lord promises to be with Moses, comes to rest on a mountain, and commands a sanctuary so that He may dwell among Israel. After the calf He says He will not go up in their midst; Moses will not go without Him, and the book closes with His glory filling the tabernacle. John says the Word “dwelt among us” with a verb for living in a tent.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, strongs-concordance, strongs-greek, morales-tabernacle, tg-god-presence-of, cfm-ot-2022-thoughts-19]
 ---
 
-The Lord promises to be with Moses, leads Israel in a cloud, settles on Sinai, and then asks for a sanctuary so that He may dwell among the people. After the calf He says He will not go up in their midst; Moses will not go without Him, the Lord grants it, and the book ends with His glory filling the tabernacle. John and Revelation use the verb of dwelling in a tent for the Word and for God with men.[@strongs-greek] Where the page says it sets one passage beside another, the comparison is its own.
+The Lord promises to be with Moses, leads Israel in a cloud, settles on Sinai, and then asks for a sanctuary so that He may dwell among the people. After the calf He says He will not go up in their midst; Moses will not go without Him, the Lord grants what he asks, and the book ends with His glory filling the tabernacle. John and Revelation use the verb of dwelling in a tent for the Word and for God with men.[@strongs-greek] Where the page says it sets one passage beside another, the comparison is its own.
 
 | Step | Passage | The words |
 |---|---|---|
@@ -18,7 +18,7 @@ The Lord promises to be with Moses, leads Israel in a cloud, settles on Sinai, a
 | Granted | [[Ex. 33:14]] | “My presence shall go with thee” |
 | Asked again | [[Ex. 34:9]] | “let my Lord, I pray thee, go among us” |
 | Filled | [[Ex. 40:34]] | “the glory of the LORD filled the tabernacle” |
-| Made flesh | [[John 1:14]] | “the Word was made flesh, and dwelt among us, |
+| Made flesh | [[John 1:14]] | “the Word was made flesh, and dwelt among us” |
 | The end | [[Rev. 21:3]] | “the tabernacle of God is with men, and he will dwell with them” |
 
 <h2 id="with-thee">With thee</h2>
@@ -35,7 +35,7 @@ At the bush: “Certainly I will be with thee” ([[Ex. 3:12]]). On the way out,
 
 After the calf the Lord still promises the land, but says, “I will not go up in the midst of thee; for thou art a stiffnecked people” ([[Ex. 33:3]]). Moses is told, “My presence shall go with thee, and I will give thee rest” ([[Ex. 33:14]]), and answers, “If thy presence go not with me, carry us not up hence” ([[Ex. 33:15]]). The Lord grants it: “I will do this thing also that thou hast spoken” ([[Ex. 33:17]]). On the mount Moses asks once more, “let my Lord, I pray thee, go among us; for it is a stiffnecked people” ([[Ex. 34:9]]). For the angel and the presence, see the note at [[Ex. 23:20]].
 
-“In the midst of thee” at 33:3 and “among us” at 34:9 are the same Hebrew noun, and “stiffnecked people” is the same phrase in both.[@oshb-wlc] Set beside 33:3, the prayer of 34:9 uses its words: the reason given there for not going is the reason Moses gives here for asking. See the note at [[Ex. 34:9]].
+“In the midst of thee” at 33:3 and “among us” at 34:9 are the same Hebrew noun, and “stiffnecked people” is the same phrase in both.[@oshb-wlc] Set beside 33:3, the prayer of 34:9 uses its words: the reason the Lord gives for not going is the reason Moses gives for asking Him to go. See the note at [[Ex. 34:9]].
 
 <h2 id="filled">The glory filled the tabernacle</h2>
 
