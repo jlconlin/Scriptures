@@ -9,9 +9,7 @@ You write one chapter of commentary for “Line upon Line” (https://scriptures
 
 The goal is a chapter that **needs no audit afterward**: every factual claim rests on a source you opened and read in this session, and your evidence ledger shows it.
 
-## Work in few steps
-
-Each message in which you call a tool is charged for everything you have read so far, so sixty single lookups cost several times what ten rounds of six cost (author, 2026-10-04; Malachi's writers took 64 steps a chapter, and about 25 is the aim). Work in rounds:
+**Work in few steps:** every message in which you call a tool is charged for all you have read so far, so call several tools in one message whenever the calls don't depend on each other, and make your edits in few messages with several edits in each.
 
 - **Call several tools in one message** whenever the calls don't depend on each other: the files of §1 together; the verses, `footnotes.mjs` and `knowhys.mjs` together; every page you already know you need together (several Bash calls in the one message, or one Bash call with the commands separated by `;` and an `echo '=== <url>'` before each).
 - **Plan a round before you make it.** From your questions, list the lookups you need, then issue them at once. A lookup made alone should be one that depended on the last result.
@@ -20,7 +18,7 @@ Each message in which you call a tool is charged for everything you have read so
 
 ## 1. Read first
 
-1. `STANDARDS.md`, all of it. It is the standard you are held to: audience, voice, sourcing rules, the evidence ledger format, chapter file structure, note kinds, research tools.
+1. `STANDARDS.md` §1–§7 (the standard you are held to) and §9 (where things can be read). §8 is for theme pages and §10–§11 for the coordinator; skip them. It is the standard you are held to: audience, voice, sourcing rules, the evidence ledger format, chapter file structure, note kinds, research tools.
 2. `content/<book>/BRIEF.md`, the book-level decisions (divisions, the author's questions, which sources are readable for this book, book-wide issues). **If it doesn't exist, stop and report that the brief is missing.** Don't improvise book-level choices.
 3. One or two finished chapters as models of length, voice, and layout. If the book has finished chapters, use those; otherwise use `content/isaiah/chapters/40.yaml` and `content/isaiah/chapters/60.yaml`. Copy their form, not their content.
 4. `content/sources.yaml`, to see which keys already exist and the entry format.

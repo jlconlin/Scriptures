@@ -5,6 +5,10 @@
 //   node scripts/codex-read.mjs <book> <chapter>            one chapter → .cache/batch/<book>/reports/NN-codex.md
 //   node scripts/codex-read.mjs <book> <from>-<to> --across  the chapters read together, for what repeats or
 //                                                            disagrees between them → reports/NN-NN-codex.md
+//   node scripts/codex-read.mjs <book> <from>-<to> --batch   a whole batch from the shell: the side-by-side reading,
+//                                                            then each chapter alone (--inline), skipping a findings
+//                                                            file that exists. The codex-pass workflow expects these
+//                                                            files and does not run Codex itself.
 //   node scripts/codex-read.mjs <book> book                  the book page's own words (book.yaml) → reports/book-codex.md
 //   node scripts/codex-read.mjs <book> <page file name>      a theme or guide page → reports/<name>-codex.md
 //   node scripts/codex-read.mjs <book> facsimile-<n>         a facsimile page → reports/facsimile-<n>-codex.md
@@ -24,12 +28,25 @@ const flag = (name) => { const i = args.indexOf(name); return i < 0 ? null : arg
 const has = (name) => { const i = args.indexOf(name); if (i < 0) return false; args.splice(i, 1); return true; };
 const model = flag('--model');
 const across = has('--across');
+const batch = has('--batch');
 const print = has('--print');
 const inline = has('--inline');
 const file = flag('--file');
 const [book, range] = args;
 if (!file && (!book || !range)) { console.error('usage: node scripts/codex-read.mjs <book> <chapter | from-to --across | book | page file name> | --file <path>  [--model <codex model>] [--print]'); process.exit(1); }
 const pad = (n) => String(n).padStart(2, '0');
+if (batch) {
+  const [a, b = a] = String(range).split('-').map(Number);
+  const dir = `.cache/batch/${book}/reports`;
+  const rerun = (what, out) => {
+    if (fs.existsSync(out) && fs.statSync(out).size > 0) { console.log(`${out}: exists, skipped`); return; }
+    const r = spawnSync(process.execPath, [process.argv[1], book, ...what, ...(model ? ['--model', model] : [])], { stdio: 'inherit' });
+    if (r.status !== 0) console.error(`${what.join(' ')}: failed (status ${r.status}); run it again`);
+  };
+  if (b > a) rerun([`${a}-${b}`, '--across'], `${dir}/${pad(a)}-${pad(b)}-codex.md`);
+  for (let n = a; n <= b; n++) if (fs.existsSync(`content/${book}/chapters/${pad(n)}.yaml`)) rerun([String(n), '--inline'], `${dir}/${pad(n)}-codex.md`);
+  process.exit(0);
+}
 const isChapters = !file && /^\d+(-\d+)?$/.test(range);
 const [from, to = from] = isChapters ? range.split('-').map(Number) : [];
 const files = [];

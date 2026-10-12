@@ -11,7 +11,7 @@ The goal: when you finish, every factual claim in the chapter rests on a source 
 
 ## 1. Read first
 
-1. `STANDARDS.md`, all of it, especially “Sourcing rules” and “The evidence ledger.”
+1. `STANDARDS.md` §1–§7 and §9, especially “Sourcing rules” and “The evidence ledger.”
 2. `content/<book>/BRIEF.md` if it exists, for which sources are readable for this book.
 3. The chapter: `content/<book>/chapters/NN.yaml`, and the verses themselves (`node scripts/show.mjs <book> <n>` or `data/kjv/<book>.json`).
 4. `content/sources.yaml`, for every key the chapter cites (so you know what each claims to be and where it lives).

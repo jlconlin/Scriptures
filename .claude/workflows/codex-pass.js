@@ -2,17 +2,17 @@ export const meta = {
   name: 'codex-pass',
   description: 'A language pass on reviewed chapters: Codex reads each chapter and the batch side by side, then an Opus agent applies the findings that hold up and reruns the checks',
   whenToUse: 'A batch of chapters has passed review and been committed. The fourth step of writing a chapter (author, 2026-10-07). args: { book, chapters, codexModel }',
-  phases: [{ title: 'Read' }, { title: 'Apply' }],
+  phases: [{ title: 'Apply' }],
 }
 // args:
 //   book        the book's slug
 //   chapters    the chapter numbers of one batch, e.g. [13, 14, …, 24]; they are also read together, first to last
 //   codexModel  optional Codex model, when the configured one is at capacity
-// Codex (another model family) reads for language only and edits nothing: scripts/codex-read.mjs runs it read-only
-// and saves numbered findings in .cache/batch/<book>/reports/ (NN-codex.md for a chapter, NN-NN-codex.md for the
-// chapters read side by side). A Workflow script cannot run a command itself, so a small agent runs the script.
-// Then one Opus agent per chapter decides each finding and makes the edits, adding nothing, and reruns
-// check-chapter. The Sonnet source check is not repeated: no claim is added, so none needs a page.
+// Codex (another model family) reads for language only and edits nothing: the coordinator runs
+// `node scripts/codex-read.mjs <book> <from>-<to> --batch` first, which saves numbered findings in
+// .cache/batch/<book>/reports/ (NN-codex.md for a chapter, NN-NN-codex.md for the chapters read side by side).
+// This workflow then runs one Opus agent per chapter, which decides each finding, makes the edits, adding nothing,
+// and reruns check-chapter. The Sonnet source check is not repeated: no claim is added, so none needs a page.
 const book = args.book
 const chapters = args.chapters
 const pad = (n) => String(n).padStart(2, '0')
@@ -21,14 +21,6 @@ const first = chapters[0]
 const last = chapters[chapters.length - 1]
 const acrossFile = `${scratch}/${pad(first)}-${pad(last)}-codex.md`
 const model = args.codexModel ? ` --model ${args.codexModel}` : ''
-const RAN = {
-  type: 'object',
-  properties: { ok: { type: 'boolean' }, problem: { type: 'string', description: 'The script’s last lines if it failed; empty if it worked' } },
-  required: ['ok', 'problem'],
-}
-const run = (file, command) => `If the file ${file} already exists and is not empty, report ok without running anything. Otherwise run this one command from the repository root with the Bash tool, with a timeout of 1800000 ms: ${command}
-If it fails because the Codex model is at capacity, wait a minute and run it once more. Do nothing else: don't read the findings and don't edit any file.`
-
 const APPLIED = {
   type: 'object',
   properties: {
@@ -43,7 +35,7 @@ const APPLIED = {
 }
 const applyPrompt = (n) => `Apply a second reader's findings to chapter ${n} of ${book}: content/${book}/chapters/${pad(n)}.yaml with its ledger content/${book}/evidence/${pad(n)}.yaml. The chapter has been written, source-checked and reviewed; this is a language pass only, not another review.
 
-The findings are in ${scratch}/${pad(n)}-codex.md (this chapter read alone) and ${acrossFile} (chapters ${first}–${last} read side by side; act only on the items that name chapter ${n}, and only on chapter ${n}'s part of each). They come from a copy editor that did not see the sources. Read content/${book}/BRIEF.md (its conventions and “Learned from the first twelve chapters”, if it has that section) and the chapter, then decide each finding:
+The findings are in ${scratch}/${pad(n)}-codex.md (this chapter read alone) and ${acrossFile} (chapters ${first}–${last} read side by side; act only on the items that name chapter ${n}, and only on chapter ${n}'s part of each). They come from a copy editor that did not see the sources. If the chapter's own findings file does not exist, stop: edit nothing and say so under problems. Read content/${book}/BRIEF.md (its conventions and “Learned from the first twelve chapters”, if it has that section) and the chapter, then decide each finding:
 
 - Act on it when it is right: a sentence hard to follow, a point said twice, a note whose first sentence withholds its subject, a source announced in running text, a reading stated as fact, a plain paraphrase that adds to its verses, two places that contradict each other, a slip of fact that the chapter's own verses show. The finding's suggested wording is a suggestion: write your own if it is better.
 - Decline it when it is wrong, when its fix would change what a sentence claims, or when the brief or the standard says otherwise. Say why in one line.
@@ -54,21 +46,13 @@ The findings are in ${scratch}/${pad(n)}-codex.md (this chapter read alone) and 
 
 Work in few steps, several edits in one message. Then run node scripts/check-chapter.mjs ${book} ${n} and fix what it reports about your edits (a quoted passage with no row, a “where” that names no note, a pointer to a note that is not there). A build message that names another chapter is not yours.`
 
-phase('Read')
-const across = await agent(run(acrossFile, `node scripts/codex-read.mjs ${book} ${first}-${last} --across${model}`),
-  { label: `codex:${first}-${last}`, phase: 'Read', model: 'haiku', effort: 'low', schema: RAN })
-if (!across?.ok) log(`No side-by-side findings (${across?.problem ?? 'no result'}): chapters get their own findings only`)
+// Codex's readings are made from the shell before this workflow runs (node scripts/codex-read.mjs <book> <from>-<to> --batch):
+// a Workflow script cannot run a command, and an agent spawned only to run one was a waste (2026-10-11). An apply
+// agent whose findings file is missing says so under `problems` and edits nothing.
 
-const results = await pipeline(
-  chapters,
-  (n) => agent(run(`${scratch}/${pad(n)}-codex.md`, `node scripts/codex-read.mjs ${book} ${n}${model}`),
-    { label: `codex:${n}`, phase: 'Read', model: 'haiku', effort: 'low', schema: RAN }),
-  (r, n) => {
-    if (!r?.ok) { log(`Chapter ${n}: Codex gave no findings (${r?.problem ?? 'no result'}); nothing applied`); return null }
-    return agent(applyPrompt(n), { label: `apply:${n}`, phase: 'Apply', agentType: 'chapter-reviewer', model: 'opus', schema: APPLIED })
-      .then((a) => (a ? { chapter: n, ...a } : null))
-  },
-)
+const results = await parallel(chapters.map((n) => () =>
+  agent(applyPrompt(n), { label: `apply:${n}`, phase: 'Apply', agentType: 'chapter-reviewer', model: 'opus', schema: APPLIED })
+    .then((a) => (a ? { chapter: n, ...a } : null))))
 const done = results.filter(Boolean)
 const missing = chapters.filter((n) => !done.some((d) => d.chapter === n))
 return { results: done, missing, findings: done.reduce((t, d) => t + d.findings, 0), applied: done.reduce((t, d) => t + d.applied, 0) }
