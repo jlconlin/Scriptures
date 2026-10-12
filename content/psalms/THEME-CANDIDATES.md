@@ -1,12 +1,14 @@
 # Psalms: theme candidates
 
-**Selected by the author, 2026-10-11: subjects 1–8, for another writer to develop.** The author asked for the subjects to be recorded here, not for theme pages to be written in this session. Subjects 9–10 remain unselected.
+**Selected by the author, 2026-10-11: subjects 1–6 and 8, for another writer to develop.** The author asked for the subjects to be recorded here, not for theme pages to be written in this session. Subject 7 was selected and then dropped the same day (“drop 7 and keep 8. I'm looking forward to seeing what 8 becomes”); subjects 9–10 remain unselected. The numbers are kept as they were, so 7 is missing from the selected list.
 
 Reviewed and consolidated on 2026-10-11 at the author's request. This replaces the unsorted chapter reports. The test is a connection or arc across several psalms that changes how the reader understands scripture, especially Jesus Christ. A recurring word is not enough. Connections may be the page's own; they do not need to have appeared in published commentary (`STANDARDS.md` §8).
 
 Each selected subject below gives the proposed arc, starting passages, connection to Christ, and boundaries for its development. The order is a proposed reading order, not a claim that the psalms were composed in that sequence. These are development briefs checked against the local scripture text and existing chapter commentary, not completed research dossiers. The next writer should test the connections through the theme workflow in `STANDARDS.md` §8.
 
 ## Selected subjects for development
+
+**For whoever writes them: settle which page owns a psalm that two subjects share,** so the pages don't repeat each other. Psalms 49 and 73 are in both 5 and 8; Psalm 88 in both 2 and 5; Psalm 23 in both 5 and 6. Subject 8 is the one the author most wants to see: its question is real and Psalm 73 is a true turn, but its connection to Christ is the thinnest of the seven (Matthew 5:5 quotes Psalm 37:11; the tie to D&C 88 would be the page's own), so that is where its research should begin.
 
 ### 1. The promised King and the broken crown
 
@@ -68,16 +70,6 @@ Each selected subject below gives the proposed arc, starting passages, connectio
 - **Why it earns a page:** Obedience and the need to be rescued coexist in the same prayer. The Savior is the giver of the law and the Shepherd who seeks the straying servant.
 - **Writing boundary:** This is the page's comparison of the poems, not a claim that Psalm 119 intentionally corrects Psalm 1. Do not treat the lost sheep as contempt for the law: the last line says the servant has not forgotten the commandments.
 
-### 7. From hostile nations to fellow worshippers
-
-**Keep and consolidate** the nations, Abraham's blessing, Zion's citizens, and universal praise.
-
-- **Passages:** Psalms 2; 22:27–31; 47; 67; 72:8–17; 87; 117; 148.
-- **Arc:** Nations appear as opponents of God's anointed, then as those called to worship, blessed through the king, and counted among Zion's people. The closing praise includes the earth's rulers and peoples.
-- **Christ:** Luke 2:30–32; Romans 15:8–12; Revelation 7:9–10.
-- **Development focus:** Show the reach of Christ's kingdom through the changing portrayals of the nations. Keep this distinct from subject 1, whose central question is the apparently broken promise to David.
-- **Writing boundary:** These are different portrayals of nations, not a claim that opposition has disappeared or every nation is already reconciled.
-
 ### 8. When righteousness seems unrewarded
 
 **Keep** the prosperity-of-the-wicked candidate; fold in true inheritance and the Lord as one's portion.
@@ -89,6 +81,17 @@ Each selected subject below gives the proposed arc, starting passages, connectio
 - **Writing boundary:** Do not make the sanctuary experience erase the complaint, or promise material success to every righteous person.
 
 ## Unselected candidates
+
+### 7. From hostile nations to fellow worshippers (dropped by the author, 2026-10-11)
+
+**Keep and consolidate** the nations, Abraham's blessing, Zion's citizens, and universal praise.
+
+- **Passages:** Psalms 2; 22:27–31; 47; 67; 72:8–17; 87; 117; 148.
+- **Arc:** Nations appear as opponents of God's anointed, then as those called to worship, blessed through the king, and counted among Zion's people. The closing praise includes the earth's rulers and peoples.
+- **Christ:** Luke 2:30–32; Romans 15:8–12; Revelation 7:9–10.
+- **Development focus:** Show the reach of Christ's kingdom through the changing portrayals of the nations. Keep this distinct from subject 1, whose central question is the apparently broken promise to David.
+- **Writing boundary:** These are different portrayals of nations, not a claim that opposition has disappeared or every nation is already reconciled.
+- **Why it was dropped:** its own boundary says these are “different portrayals of nations.” Nothing in the Psalms moves the nations from one state to the other, so the page would arrange passages more than follow an arc. Psalms 2 and 72 stay with subject 1.
 
 ### 9. The people forget; God remembers
 
