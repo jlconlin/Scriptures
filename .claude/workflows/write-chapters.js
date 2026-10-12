@@ -33,7 +33,7 @@ const pad = (n) => String(n).padStart(2, '0')
 // (about two rows in five; the claim is what the verse reads, and check-ledger has confirmed the words).
 const skipKeys = args.skipKeys ?? 'lds-scriptures,oshb-wlc,biblehub-interlinear'
 const models = (args.models ?? []).map((m) => `content/${book}/chapters/${pad(m)}.yaml`)
-const common = (n) => `Read content/${book}/BRIEF.md in full first: it carries the author's decisions for this book, its conventions, the approach to each contested question, the sources tested for it with their URL patterns, and the check commands for a book in preview. If the book has a CHURCH-STATEMENTS.md, it points to the Church's own statements on the contested questions (quote from the pages it points to, not from that file).${models.length ? ` ${models.join(' and ')} ${models.length > 1 ? 'are finished, reviewed chapters' : 'is a finished, reviewed chapter'} of this book: use ${models.length > 1 ? 'them' : 'it'} as the model of length, voice and layout.` : ''}
+const common = (n) => `Read content/${book}/BRIEF.md in full first: it carries the author's decisions for this book, its conventions, the approach to each contested question, the sources tested for it with their URL patterns, and the check commands for a book in preview.${models.length ? ` ${models.join(' and ')} ${models.length > 1 ? 'are finished, reviewed chapters' : 'is a finished, reviewed chapter'} of this book: use ${models.length > 1 ? 'them' : 'it'} as the model of length, voice and layout.` : ''}
 
 Work in few steps: every message in which you call a tool is charged for all you have read so far, so call several tools in one message whenever the calls don't depend on each other (your agent instructions say how).
 

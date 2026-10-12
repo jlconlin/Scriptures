@@ -71,7 +71,7 @@ node scripts/check-sources.mjs <book> <n>
 
 `check-chapter.mjs` runs `fix-yaml`, the build (with `PREVIEW=1`, into `.cache/batch/<book>/dist-NN`, so a book in preview is built and no one else's output is touched), `check-quotes`, `check-content` (your proposed entries from `.cache/batch/<book>/proposed/NN.yaml` are added in memory, and it says which keys came from there: no scratch copy of `content/`) and `check-ledger`. It prints a one-line result for each and only the lines that concern this chapter, and exits 1 if one fails. `check-sources.mjs` checks your proposed entries (see §3).
 
-Fix every warning that concerns your chapter. “Unknown source key” for a key you are proposing is expected from the plain build, and `check-chapter.mjs` lists it as expected. If a check fails for reasons outside your chapter, don't edit the script; report it. In a cloud sandbox, set `NODE_USE_ENV_PROXY=1` before `check-chapter.mjs` (`check-quotes` needs it).
+Fix every warning that concerns your chapter. “Unknown source key” for a key you are proposing is expected from the plain build, and `check-chapter.mjs` lists it as expected. If a check fails for reasons outside your chapter, don't edit the script; report it.
 
 ## Limits
 

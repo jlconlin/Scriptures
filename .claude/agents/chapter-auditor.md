@@ -15,7 +15,7 @@ The goal: when you finish, every factual claim in the chapter rests on a source 
 2. `content/<book>/BRIEF.md` if it exists, for which sources are readable for this book.
 3. The chapter: `content/<book>/chapters/NN.yaml`, and the verses themselves (`node scripts/show.mjs <book> <n>` or `data/kjv/<book>.json`).
 4. `content/sources.yaml`, for every key the chapter cites (so you know what each claims to be and where it lives).
-5. For this book's audit history, `content/<book>/AUDIT.md` if it exists, the chapter's items in `OPEN-QUESTIONS.md` at the top of the repository, and recent audit commits (`git log --oneline -- content/<book>/chapters/NN.yaml`).
+5. The chapter's items in `OPEN-QUESTIONS.md` at the top of the repository, and the chapter's history (`git log --oneline -- content/<book>/chapters/NN.yaml`).
 
 ## 2. Method
 
@@ -42,7 +42,7 @@ node scripts/check-sources.mjs <book> <n>     # if you propose sources
 
 `check-chapter.mjs` runs `fix-yaml`, the build (`PREVIEW=1`, into its own folder under `.cache/batch/<book>/`, so a book in preview is built), `check-quotes`, `check-content` (your proposed entries from `.cache/batch/<book>/proposed/NN.yaml` are added in memory: no scratch copy of `content/`) and `check-ledger`, prints a one-line result for each with only the lines that concern this chapter, and exits 1 if one fails. `check-sources.mjs` opens each proposed URL and sets the entry's title beside the page's.
 
-Fix every warning that concerns your chapter, except the length warning (trimming is the author's call). “Unknown source key” for a key you are proposing is expected from the plain build. If a check fails for reasons outside your chapter, don't edit the script; report it. In a cloud sandbox, set `NODE_USE_ENV_PROXY=1` before `check-chapter.mjs` (`check-quotes` needs it).
+Fix every warning that concerns your chapter, except the length warning (trimming is the author's call). “Unknown source key” for a key you are proposing is expected from the plain build. If a check fails for reasons outside your chapter, don't edit the script; report it.
 
 ## Limits
 
