@@ -577,17 +577,13 @@
   }
 
   // ---------- search ----------
-  // Measure shared sticky surfaces once; CSS owns their layout and anchor offsets.
+  // Only the section navigation stays pinned; its height sets anchor offsets.
   const sectionNav = $('.section-nav');
-  const header = $('.site-header');
-  const readingTools = $('.reader-bar');
   const measureBars = () => {
-    root.style.setProperty('--header-h', `${header?.offsetHeight ?? 56}px`);
     root.style.setProperty('--section-nav-h', `${sectionNav?.offsetHeight ?? 0}px`);
-    root.style.setProperty('--reader-tools-h', `${readingTools?.offsetHeight ?? 0}px`);
   };
   const bars = new ResizeObserver(measureBars);
-  [header, sectionNav, readingTools].filter(Boolean).forEach((el) => bars.observe(el));
+  if (sectionNav) bars.observe(sectionNav);
   measureBars();
   if (sectionNav) {
     const links = $$('a', sectionNav);
@@ -595,7 +591,7 @@
     let queued = false;
     const updateSection = () => {
       queued = false;
-      const top = (header?.offsetHeight ?? 56) + sectionNav.offsetHeight + (readingTools?.offsetHeight ?? 0) + 24;
+      const top = sectionNav.offsetHeight + 24;
       let current = 0;
       targets.forEach((t, i) => { if (t && t.getBoundingClientRect().top <= top) current = i; });
       links.forEach((a, i) => i === current ? a.setAttribute('aria-current', 'location') : a.removeAttribute('aria-current'));

@@ -62,9 +62,7 @@
   --v-old-testament: #c0562b; --v-new-testament: #2f7f9a; --v-book-of-mormon: #2d62a8; --v-doctrine-and-covenants: #7b3f9e; --v-pearl-of-great-price: #3d7a54;
   --gutter: 16px;
   --read-w: 540px; /* width of running text on every reading page (chapters, guides): about 55 characters a line */
-  --header-h: 56px;
   --section-nav-h: 0px;
-  --reader-tools-h: 0px;
   color-scheme: light;
 }
 
@@ -95,8 +93,7 @@
 
 /* ---------- base ---------- */
 *, *::before, *::after { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-padding-top: calc(var(--header-h) + var(--section-nav-h) + 16px); }
-html:has(body.page-chapter) { scroll-padding-top: calc(var(--header-h) + var(--section-nav-h) + var(--reader-tools-h) + 16px); }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-padding-top: calc(var(--section-nav-h) + 16px); }
 body {
   margin: 0; background: var(--bg); color: var(--ink);
   font: 400 1rem/1.6 var(--font-ui);
@@ -116,7 +113,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 
 /* ---------- header ---------- */
 .site-header {
-  position: sticky; top: 0; z-index: 20;
+  position: relative; z-index: 20;
   background: color-mix(in srgb, var(--bg) 88%, transparent);
   backdrop-filter: saturate(1.4) blur(10px); -webkit-backdrop-filter: saturate(1.4) blur(10px);
   border-bottom: 1px solid var(--line);
@@ -503,7 +500,7 @@ a.ref-internal { text-decoration-style: dotted; }
 
 /* reading toolbar */
 .reader-bar {
-  position: sticky; top: calc(var(--header-h) + var(--section-nav-h)); z-index: 10; margin: 28px calc(-1 * var(--gutter)) 0; padding: 8px var(--gutter);
+  position: relative; z-index: 10; margin: 28px calc(-1 * var(--gutter)) 0; padding: 8px var(--gutter);
   background: color-mix(in srgb, var(--bg) 94%, transparent); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line); display: grid; gap: 7px;
 }
@@ -701,7 +698,7 @@ a.ref-internal { text-decoration-style: dotted; }
 .facsimile-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; background: #e9e2d2; border-radius: 8px; margin-bottom: 6px; }
 
 /* Shared navigation and reader components (ui.mjs). */
-.section-nav { position: sticky; top: var(--header-h); z-index: 15; display: flex; align-items: center; flex-wrap: wrap; gap: 6px 20px; max-width: 1120px; margin: 0 auto 20px; padding: 9px var(--gutter); background: var(--bg); border-bottom: 1px solid var(--line); font-size: .86rem; }
+.section-nav { position: sticky; top: 0; z-index: 15; display: flex; align-items: center; flex-wrap: wrap; gap: 6px 20px; max-width: 1120px; margin: 0 auto 20px; padding: 9px var(--gutter); background: var(--bg); border-bottom: 1px solid var(--line); font-size: .86rem; }
 .section-nav > span { color: var(--muted); font-size: .75rem; }
 .section-nav a { padding: 4px 0; color: var(--ink-2); text-decoration: none; border-bottom: 2px solid transparent; }
 .section-nav a:hover, .section-nav a[aria-current='location'] { color: var(--accent-ink); border-bottom-color: var(--accent); }
