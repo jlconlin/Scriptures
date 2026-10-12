@@ -1,0 +1,550 @@
+chapter: 21
+claims:
+  # ---------- when / setting / thread ----------
+  - where: 'when'
+    claim: 'Israel came to Sinai in the third month after leaving Egypt'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/19?lang=eng'
+    quote: 'In the third month, when the children of Israel were gone forth out of the land of Egypt, the same day came they into the wilderness of Sinai.'
+  - where: 'setting'
+    claim: 'After the Ten Commandments the people stand far off and the LORD speaks to Moses'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/20?lang=eng'
+    quote: 'And the people stood afar off, and Moses drew near unto the thick darkness where God was.'
+  - where: 'setting'
+    claim: 'Moses tells the people the judgments, writes them, and reads the book of the covenant'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/24?lang=eng'
+    quote: 'And he took the book of the covenant, and read in the audience of the people: and they said, All that the Lord hath said will we do, and be obedient.'
+  - where: 'setting'
+    claim: 'Many scholars identify the book of the covenant of 24:7 with these chapters'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'This has led many scholars to suggest that the foregoing legislation constitutes the book of the covenant mentioned in Exodus 24:7'
+  - where: 'setting'
+    claim: 'The collection is Exodus 20:22–23:33, called the Covenant Code, with the Ten Commandments as its prologue'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'The first major law code in the Pentateuch, immediately after the giving of the Decalogue, is the Covenant Code (Exodus 20:22–23:33), for which the Decalogue serves as a kind of prologue.'
+  - where: 'setting'
+    claim: 'The collection is compared with Hammurabi’s laws; dependence is unclear; Exodus frames it as revelation'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'Biblical scholars have frequently compared the Covenant Code to other law codes in the ancient Near East, especially the Code of Hammurabi. Although they possess similar content, direct textual dependency remains unclear at best.'
+  - where: 'setting'
+    claim: 'Exodus frames the code as direct revelation to which the people bind themselves by covenant'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'In any case, the content of the Covenant Code is framed as a direct revelation from God to which the people would bind themselves by covenant'
+  - where: 'setting'
+    claim: 'Hammurabi’s laws have a term of service that ends in release'
+    key: hammurabi-king
+    url: 'https://avalon.law.yale.edu/ancient/hamcode.asp'
+    quote: 'they shall work for three years in the house of the man who bought them, or the proprietor, and in the fourth year they shall be set free.'
+  - where: 'setting'
+    claim: 'Hammurabi’s laws have the eye put out'
+    key: hammurabi-king
+    url: 'https://avalon.law.yale.edu/ancient/hamcode.asp'
+    quote: '196. If a man put out the eye of another man, his eye shall be put out.'
+  - where: 'setting'
+    claim: 'Hammurabi’s laws have the ox known to gore'
+    key: hammurabi-king
+    url: 'https://avalon.law.yale.edu/ancient/hamcode.asp'
+    quote: '251. If an ox be a goring ox, and it shown that he is a gorer, and he do not bind his horns, or fasten the ox up'
+  - where: 'setting'
+    claim: 'The law of Moses was inferior to the fulness of the gospel and held provisions of high ethical value'
+    key: bd-law-of-moses
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/law-of-moses?lang=eng'
+    quote: 'Although inferior to the fulness of the gospel, there were many provisions in the law of Moses of high ethical and moral value that were equal to the divine laws of any dispensation.'
+  - where: 'thread'
+    claim: 'On one view (an author the manual quotes) the case laws illustrate the principles of the Ten Commandments'
+    key: ot-manual-ex-21-24
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/exodus-21-24-31-35-the-mosaic-law-a-preparatory-gospel?lang=eng'
+    quote: 'the major portion of the law is case law, i.e., the illustration of the basic principle in terms of specific cases. These specific cases are often illustrations of the extent of the application of the law'
+  - where: 'thread'
+    claim: 'Verses 12–32 govern personal injuries and taught Israel to value life'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'This legislation thus taught the ancient Israelites to value the lives of those around them as they would their very own.'
+  - where: 'thread'
+    claim: 'The injury laws are 21:12–32'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'the casuistic laws in Exodus 21:12–32, which govern personal injuries and reparations'
+  - where: 'thread'
+    claim: 'The property laws begin at 21:33, run into chapter 22, and require restitution, which kept the peace of the community'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'The casuistic statutes of Exodus 21:33–22:14 ensured the forthcoming of some form of restitution'
+  - where: 'thread'
+    claim: 'Restitution kept the peace of the community'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'In other words, restitution ensured the šālôm—peace, integrity—of the community.'
+  - where: 'thread'
+    claim: 'The law treats servant and free differently but gives the servant rights'
+    key: cambridge-exodus
+    url: 'https://biblehub.com/commentaries/cambridge/exodus/21.htm'
+    quote: 'The penalties prescribed shew that less was thought of the life of a slave than of that of a free man,—in v. 21 he is called simply his master’s ‘money’; at the same time he has rights, and cannot be treated with entire impunity.'
+
+  # ---------- sections ----------
+  - where: 'section 1 plain'
+    claim: '“Free for nothing” is without paying compensation'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/21.htm'
+    quote: 'The Hebrew servant was to obtain his freedom without paying compensation, after six years of service.'
+  - where: 'section 1 plain'
+    claim: '“For ever” is for the rest of his life'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/21.htm'
+    quote: '"For ever," i.e., as long as he lives.'
+  - where: 'section 2 plain'
+    claim: '“Duty of marriage” is marital rights'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/21?lang=eng'
+    quote: 'OR marital rights.'
+  - where: 'section 4 plain'
+    claim: '“Keepeth his bed” is laid up in bed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/21?lang=eng'
+    quote: 'OR is laid up in bed.'
+  - where: 'section 4 plain'
+    claim: '“Continue” is remains alive'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/21?lang=eng'
+    quote: 'IE remains alive.'
+  - where: 'section 4 plain'
+    claim: '“Her fruit depart” is a miscarriage'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/21?lang=eng'
+    quote: 'IE she has a miscarriage.'
+  - where: 'section 4 plain'
+    claim: '“Mischief” is other harm'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/21?lang=eng'
+    quote: 'OR other harm.'
+  - where: 'section 5 plain'
+    claim: '“Quit” is clear'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/21?lang=eng'
+    quote: 'OR clear, innocent.'
+  - where: 'section 5 plain'
+    claim: '“Wont to push” is accustomed to gore'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/21?lang=eng'
+    quote: 'OR accustomed to gore (also vv. 32, 36).'
+
+  # ---------- notes ----------
+  - where: 'note 21:1 “What a judgment is”'
+    claim: 'The laws take two forms, unconditional and case law'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'Apodictic laws are most often familiar to readers of the King James Version of the Bible in the form of “thou shalt” or “ye shall” commandments'
+  - where: 'note 21:1 “What a judgment is”'
+    claim: 'Case laws are conditional sentences that begin with “if”'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'Casuistic laws or statutes, on the other hand, are commandments that govern behavior on a case-by-case basis. These statutes are worded as conditional sentences and often begin with the word “if.”'
+  - where: 'note 21:1 “What a judgment is”'
+    claim: 'Verse 17 is an unconditional law among the cases'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'There are some exceptions to this tendency: for example, “And he that curseth his father, or his mother, shall surely be put to death” (Exodus 21:17).'
+  - where: 'note 21:1 “What a judgment is”'
+    claim: 'Joseph’s prophecy of a judgment in writing may speak of this collection'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'Thus, it may be of this “Book of the Covenant” or “Covenant Code” that the Lord prophesied to Joseph in Egypt (as preserved on the brass plates, mentioned by Lehi, and recorded by Nephi)'
+  - where: 'note 21:1 “What a judgment is”'
+    claim: 'The collection largely consists of the judgments'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'The “Covenant Code” largely consists of the “judgments” (hammišpāṭîm)—apodictic and casuistic laws—which are both civil and religious in character.'
+  - where: 'note 21:1 “What a judgment is”'
+    claim: 'The text insists that Moses wrote'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'Perhaps a more important point is that here the text insists that Moses wrote.'
+  - where: 'note 21:1 “What a judgment is”'
+    claim: 'Lehi quotes Joseph’s prophecy of Moses and a judgment in writing'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/3?lang=eng'
+    quote: 'I will raise up a Moses; and I will give power unto him in a rod; and I will give judgment unto him in writing.'
+
+  - where: 'note 21:2 “Servants under the law”'
+    claim: 'A thief who could not repay was sold'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/22?lang=eng'
+    quote: 'if he have nothing, then he shall be sold for his theft.'
+  - where: 'note 21:2 “Servants under the law”'
+    claim: 'A poor Israelite might be sold; he is not to serve as a bondservant'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/25?lang=eng'
+    quote: 'And if thy brother that dwelleth by thee be waxen poor, and be sold unto thee; thou shalt not compel him to serve as a bondservant:'
+  - where: 'note 21:2 “Servants under the law”'
+    claim: 'The LORD’s reason: they are His servants, brought out of Egypt'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/25?lang=eng'
+    quote: 'For they are my servants, which I brought forth out of the land of Egypt: they shall not be sold as bondmen.'
+  - where: 'note 21:2 “Servants under the law”'
+    claim: 'Servants from other nations have no release'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/25?lang=eng'
+    quote: 'they shall be your bondmen for ever: but over your brethren the children of Israel, ye shall not rule one over another with rigour.'
+  - where: 'note 21:2 “Servants under the law”'
+    claim: 'Leviticus sets the poor brother’s release at the jubilee'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/25?lang=eng'
+    quote: 'and shall serve thee unto the year of jubilee'
+  - where: 'note 21:2 “Servants under the law”'
+    claim: 'Deuteronomy names the woman, forbids sending the servant away empty, and gives Egypt as the reason'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/15?lang=eng'
+    quote: 'And thou shalt remember that thou wast a bondman in the land of Egypt, and the Lord thy God redeemed thee: therefore I command thee this thing to day.'
+  - where: 'note 21:2 “Servants under the law”'
+    claim: 'Hammurabi’s laws release a debtor’s family in the fourth year'
+    key: hammurabi-king
+    url: 'https://avalon.law.yale.edu/ancient/hamcode.asp'
+    quote: '117. If any one fail to meet a claim for debt, and sell himself, his wife, his son, and daughter for money or give them away to forced labor: they shall work for three years in the house of the man who bought them'
+  - where: 'note 21:2 “Servants under the law”'
+    claim: 'Hammurabi’s law 117: free in the fourth year'
+    key: hammurabi-king
+    url: 'https://avalon.law.yale.edu/ancient/hamcode.asp'
+    quote: 'and in the fourth year they shall be set free.'
+
+  - where: 'note 21:6 “The ear pierced at the door”'
+    claim: 'One older reading on verse 4: it may appear oppressive, and the choice to stay softens the separation'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/21.htm'
+    quote: 'This may appear oppressive, but it was an equitable consequence of the possession of property in slaves at all. At the same time, in order to modify the harshness of such a separation of husband and wife, the option was given to the servant to remain'
+  - where: 'note 21:6 “The ear pierced at the door”'
+    claim: 'The Hebrew is “before God,” meaning God’s representatives'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/21?lang=eng'
+    quote: 'HEB before God; i.e., God’s representatives in judicial matters.'
+  - where: 'note 21:6 “The ear pierced at the door”'
+    claim: 'The lexicon lists elohim in Exodus 21:6 under “rulers, judges”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/430.htm'
+    quote: 'rulers, judges, either as divine representatives at sacred places or as reflecting divine majesty and power: האלהים Exodus 21:6'
+  - where: 'note 21:6 “The ear pierced at the door”'
+    claim: 'The servant was brought to the place where judgment was given in God’s name (with Deut. 1:17)'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/21.htm'
+    quote: 'to the place where judgment was given in the name of God (Deuteronomy 1:17; cf. Exodus 22:7-8, and Deuteronomy 19:17), in order that he might make a declaration there that he gave up his liberty.'
+  - where: 'note 21:6 “The ear pierced at the door”'
+    claim: 'Moses says the judgment is God’s'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/1?lang=eng'
+    quote: 'ye shall not be afraid of the face of man; for the judgment is God’s'
+  - where: 'note 21:6 “The ear pierced at the door”'
+    claim: 'The piercing fastens the servant to the house; read from Deut. 15:17, where ear and door are coordinate'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/21.htm'
+    quote: 'His ear was then to be bored with an awl against the door or lintel of the house, and by this sign, which was customary in many of the nations of antiquity, to be fastened as it were to the house for ever.'
+  - where: 'note 21:6 “The ear pierced at the door”'
+    claim: 'Deuteronomy’s wording of the piercing'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/15?lang=eng'
+    quote: 'Then thou shalt take an awl, and thrust it through his ear unto the door, and he shall be thy servant for ever.'
+  - where: 'note 21:6 “The ear pierced at the door”'
+    claim: 'One older reading takes “for ever” as for life'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/21.htm'
+    quote: '"For ever," i.e., as long as he lives.'
+
+  - where: 'note 21:7 “A daughter sold as a maidservant”'
+    claim: 'The sale is read as an arranged marriage, shown by the betrothal in verses 8–9; she kept rights'
+    key: ot-manual-ex-21-24
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/exodus-21-24-31-35-the-mosaic-law-a-preparatory-gospel?lang=eng'
+    quote: 'Although a father could arrange for the marriage of his daughter (that is the meaning of the phrase “to sell her as a maidservant” in verse 7, as is evident from the betrothal mentioned in verses 8 and 9), she too maintained certain rights.'
+  - where: 'note 21:7 “A daughter sold as a maidservant”'
+    claim: 'The husband could not use her as a slave'
+    key: ot-manual-ex-21-24
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/exodus-21-24-31-35-the-mosaic-law-a-preparatory-gospel?lang=eng'
+    quote: 'The prospective husband could not use her as a slave (“she shall not go out as the menservants do”).'
+  - where: 'note 21:7 “A daughter sold as a maidservant”'
+    claim: 'One older reading: sold as housekeeper and concubine, and so not released in the seventh year'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/21.htm'
+    quote: 'The daughter of an Israelite, who had been sold by her father as a maid-servant (לאמה), i.e., as the sequel shows, as a housekeeper and concubine, stood in a different relation to her master''s house.'
+  - where: 'note 21:7 “A daughter sold as a maidservant”'
+    claim: 'One older reading takes “not go out as the menservants do” as no release after six years'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/21.htm'
+    quote: 'She was not to go out like the men-servants, i.e., not to be sent away as free at the end of six years of service'
+  - where: 'note 21:7 “A daughter sold as a maidservant”'
+    claim: '“Duty of marriage” is marital rights'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/21?lang=eng'
+    quote: 'OR marital rights.'
+
+  - where: 'note 21:13 “Killing without lying in wait”'
+    claim: 'Ancient premeditation meant preplanning or treachery'
+    key: sc-knowhy-256
+    url: 'https://scripturecentral.org/knowhy/was-nephis-slaying-of-laban-legal'
+    quote: 'Unlike the modern definition, the ancient idea of premeditation required a murder to have been preplanned or implemented through treachery.'
+  - where: 'note 21:13 “Killing without lying in wait”'
+    claim: 'The Spirit’s words to Nephi may refer to this verse and excuse him legally'
+    key: sc-knowhy-256
+    url: 'https://scripturecentral.org/knowhy/was-nephis-slaying-of-laban-legal'
+    quote: 'The striking parallel between these texts indicates that the Spirit may have been legally excusing Nephi for slaying Laban.'
+  - where: 'note 21:13 “Killing without lying in wait”'
+    claim: 'The provision for the unintentional killer balances justice and mercy; the places of refuge are described later'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'the legislation made provision for those who had unintentionally killed (Exodus 21:13), holding divine justice and mercy in balance (Alma 34:10–26). These places of refuge are described in greater detail in Numbers and in the Deuteronomic Code.'
+  - where: 'note 21:13 “Killing without lying in wait”'
+    claim: 'Cities of refuge for one who kills unawares'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/35?lang=eng'
+    quote: 'Then ye shall appoint you cities to be cities of refuge for you; that the slayer may flee thither, which killeth any person at unawares.'
+  - where: 'note 21:13 “Killing without lying in wait”'
+    claim: 'The Church’s footnote on “flee” points to Joab at the altar'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/21?lang=eng'
+    quote: 'Deut. 19:3 (1–13); 1 Kgs. 2:28.'
+  - where: 'note 21:13 “Killing without lying in wait”'
+    claim: 'Joab caught hold of the altar and was slain there at Solomon’s order'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/2?lang=eng'
+    quote: 'And it was told king Solomon that Joab was fled unto the tabernacle of the Lord; and, behold, he is by the altar. Then Solomon sent Benaiah the son of Jehoiada, saying, Go, fall upon him.'
+  - where: 'note 21:13 “Killing without lying in wait”'
+    claim: 'Nephi went not knowing beforehand; the Spirit said the Lord had delivered Laban into his hands'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/4?lang=eng'
+    quote: 'And it came to pass that the Spirit said unto me again: Slay him, for the Lord hath delivered him into thy hands;'
+
+  - where: 'note 21:17 “Striking or cursing a parent”'
+    claim: 'Jesus quotes the verse as God’s commandment'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/15?lang=eng'
+    quote: 'For God commanded, saying, Honour thy father and mother: and, He that curseth father or mother, let him die the death.'
+  - where: 'note 21:17 “Striking or cursing a parent”'
+    claim: 'Mark introduces it as what Moses said'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/mark/7?lang=eng'
+    quote: 'For Moses said, Honour thy father and thy mother; and, Whoso curseth father or mother, let him die the death:'
+  - where: 'note 21:17 “Striking or cursing a parent”'
+    claim: 'Violence and imprecatory oaths against parents, with kidnapping, were capital offenses'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'Violence and imprecatory oaths against one’s parents, as well as kidnapping, also amounted to capital offenses (Exodus 21:15–17).'
+  - where: 'note 21:17 “Striking or cursing a parent”'
+    claim: 'If “smiteth” is an assault, verse 15 guides a judge to consider the capital penalty'
+    key: lund-ot-laws
+    url: 'https://rsc.byu.edu/vol-8-no-3-2007/teaching-old-testament-laws'
+    quote: 'If, however, smiteth was interpreted to mean a physical assault, then Exodus 21:15 acts as a guide for the ancient civil/criminal judge to consider capital punishment during the sentencing phase.'
+  - where: 'note 21:17 “Striking or cursing a parent”'
+    claim: 'The principle the law teaches is to love and honor parents'
+    key: lund-ot-laws
+    url: 'https://rsc.byu.edu/vol-8-no-3-2007/teaching-old-testament-laws'
+    quote: 'the basic principle this law teaches, which is (restated as an affirmative duty) to love and honor our parents and, of course, never smite them.'
+
+  - where: 'note 21:20 “A master who kills his servant”'
+    claim: 'JST of verse 20 reads “put to death”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/21?lang=eng'
+    quote: 'JST Ex. 21:20 … put to death.'
+  - where: 'note 21:20 “A master who kills his servant”'
+    claim: 'The JST makes the same change at “punished” in verse 21'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/21?lang=eng'
+    quote: 'JST Ex. 21:21 … put to death …'
+  - where: 'note 21:20 “A master who kills his servant”'
+    claim: 'The manual lists killing a servant among the capital crimes, with the JST of verse 20'
+    key: ot-manual-ex-21-24
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/exodus-21-24-31-35-the-mosaic-law-a-preparatory-gospel?lang=eng'
+    quote: 'Killing a servant (see vv. 20–21). The Joseph Smith Translation changes verse 20 to read, “If a man smite his servant, or his maid, with a rod, and he die under his hand; he shall surely be put to death.”'
+  - where: 'note 21:20 “A master who kills his servant”'
+    claim: 'The Hebrew is literally “avenged,” and the punishment is not stated'
+    key: cambridge-exodus
+    url: 'https://biblehub.com/commentaries/cambridge/exodus/21.htm'
+    quote: 'punished] lit. avenged; so v. 21. In what the punishment consisted, is not stated.'
+  - where: 'note 21:20 “A master who kills his servant”'
+    claim: '“His money” means his property; the loss is taken as his punishment'
+    key: cambridge-exodus
+    url: 'https://biblehub.com/commentaries/cambridge/exodus/21.htm'
+    quote: 'he is his money] i.e. his master’s property, purchased by his master’s money. His master is considered to have sufficiently punished himself by the loss of his property.'
+  - where: 'note 21:20 “A master who kills his servant”'
+    claim: 'Survival for a day or two shows there was no intent to kill'
+    key: cambridge-exodus
+    url: 'https://biblehub.com/commentaries/cambridge/exodus/21.htm'
+    quote: 'If the slave survives a day or two, his master escapes even the comparatively light penalty of v. 20; for then it is clear that he did not intend to kill him, but only to correct him.'
+  - where: 'note 21:20 “A master who kills his servant”'
+    claim: 'The servant has rights'
+    key: cambridge-exodus
+    url: 'https://biblehub.com/commentaries/cambridge/exodus/21.htm'
+    quote: 'at the same time he has rights, and cannot be treated with entire impunity.'
+
+  - where: 'note 21:22 “The woman struck in a quarrel”'
+    claim: 'The footnote: she has a miscarriage'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/21?lang=eng'
+    quote: 'IE she has a miscarriage.'
+  - where: 'note 21:22 “The woman struck in a quarrel”'
+    claim: 'The footnote: mischief is other harm'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/21?lang=eng'
+    quote: 'OR other harm.'
+  - where: 'note 21:22 “The woman struck in a quarrel”'
+    claim: 'The law is read as recognizing the value of unborn life'
+    key: lund-ot-laws
+    url: 'https://rsc.byu.edu/vol-8-no-3-2007/teaching-old-testament-laws'
+    quote: 'Mosaic laws also recognize the value of the gestation period as follows: “If men strive, and hurt a woman with child, so that her fruit depart from her, . . . he shall be surely punished” (Exodus 21:22).'
+  - where: 'note 21:22 “The woman struck in a quarrel”'
+    claim: 'The principle is honoring life in all its stages'
+    key: lund-ot-laws
+    url: 'https://rsc.byu.edu/vol-8-no-3-2007/teaching-old-testament-laws'
+    quote: 'The command not to kill nor do anything like unto it teaches the principle of honoring life in all its stages, including the gestation period of the unborn.'
+
+  - where: 'note 21:24 “An eye for an eye”'
+    claim: 'The rule expresses legal symmetry, repaying in kind'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'Biblical scholar Pamela Barmash suggests that the “Lex talionis . . . expresses a principle of legal symmetry, of repaying in kind.”'
+  - where: 'note 21:24 “An eye for an eye”'
+    claim: 'The punishment must be similar to the offense'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'The act of the punishment must be similar to the offense in aspects in which the original act was wrong.'
+  - where: 'note 21:24 “An eye for an eye”'
+    claim: 'Deuteronomy gives the rule to judges after inquiry'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/19?lang=eng'
+    quote: 'And the judges shall make diligent inquisition'
+  - where: 'note 21:24 “An eye for an eye”'
+    claim: 'Deuteronomy repeats the rule'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/19?lang=eng'
+    quote: 'And thine eye shall not pity; but life shall go for life, eye for eye, tooth for tooth, hand for hand, foot for foot.'
+  - where: 'note 21:24 “An eye for an eye”'
+    claim: 'Leviticus states the rule'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/24?lang=eng'
+    quote: 'And if a man cause a blemish in his neighbour; as he hath done, so shall it be done to him;'
+  - where: 'note 21:24 “An eye for an eye”'
+    claim: 'The principle was revealed in the Old Testament and applied across the ancient Near East'
+    key: sc-knowhy-149
+    url: 'https://scripturecentral.org/knowhy/why-and-how-did-alma-explain-the-meaning-of-the-word-restoration'
+    quote: 'Essentially, this was the famous law of an “eye for an eye” and a “tooth for a tooth” which was divinely revealed in the Old Testament and applied broadly throughout the ancient Near East (Exodus 21:24).'
+  - where: 'note 21:24 “An eye for an eye”'
+    claim: 'Alma’s explanation of restoration uses the principle'
+    key: sc-knowhy-149
+    url: 'https://scripturecentral.org/knowhy/why-and-how-did-alma-explain-the-meaning-of-the-word-restoration'
+    quote: 'Not only did Alma’s explanation to Corianton aptly utilize this ancient legal principle'
+  - where: 'note 21:24 “An eye for an eye”'
+    claim: 'Alma’s definition of restoration'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/41?lang=eng'
+    quote: 'the meaning of the word restoration is to bring back again evil for evil, or carnal for carnal, or devilish for devilish'
+  - where: 'note 21:24 “An eye for an eye”'
+    claim: 'Hammurabi’s law 196'
+    key: hammurabi-king
+    url: 'https://avalon.law.yale.edu/ancient/hamcode.asp'
+    quote: '196. If a man put out the eye of another man, his eye shall be put out.'
+  - where: 'note 21:24 “An eye for an eye”'
+    claim: 'The Savior quotes the verse in the Sermon on the Mount'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/5?lang=eng'
+    quote: 'But I say unto you, That ye resist not evil: but whosoever shall smite thee on thy right cheek, turn to him the other also.'
+  - where: 'note 21:24 “An eye for an eye”'
+    claim: 'Jesus moved His disciples to commit vengeance to Him'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'back to a “more excellent”[28] standard in which we commit all personal vengeance or justice into his hands'
+  - where: 'note 21:24 “An eye for an eye”'
+    claim: 'He perhaps restored the ethic underlying the law'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'Perhaps Jesus did not so much intend to institute a new ethic as to restore the true ethic underlying the Mosaic legislation and the true telos to which that legislation had been given'
+
+  - where: 'note 21:28 “Why the ox is stoned”'
+    claim: 'One older reading: the ox bore the guilt of murder and was unclean; Gen. 9:5'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/21.htm'
+    quote: 'The life of man is also protected against injury from cattle (cf. Genesis 9:5).'
+  - where: 'note 21:28 “Why the ox is stoned”'
+    claim: 'The ox was laden with guilt and unclean'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/21.htm'
+    quote: 'because, as the stoning already shows, it was laden with the guilt of murder, and therefore had become unclean'
+  - where: 'note 21:28 “Why the ox is stoned”'
+    claim: 'The word to Noah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/9?lang=eng'
+    quote: 'And surely your blood of your lives will I require; at the hand of every beast will I require it, and at the hand of man'
+  - where: 'note 21:28 “Why the ox is stoned”'
+    claim: 'An owner on notice is accountable'
+    key: lund-ot-laws
+    url: 'https://rsc.byu.edu/vol-8-no-3-2007/teaching-old-testament-laws'
+    quote: 'once the owner has been placed on notice that his ox has attacked others previously and fails to keep it tied up or fenced in, the owner will be held accountable for the actions of that animal (his property).'
+  - where: 'note 21:28 “Why the ox is stoned”'
+    claim: 'Hammurabi’s law 251: the owner pays half a mina'
+    key: hammurabi-king
+    url: 'https://avalon.law.yale.edu/ancient/hamcode.asp'
+    quote: 'and the ox gore a free-born man and kill him, the owner shall pay one-half a mina in money.'
+
+  - where: 'note 21:30 “The price of a life”'
+    claim: 'Kopher is the price of a life, a ransom; Exodus 21:30 is listed'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3724.htm'
+    quote: 'the price of a life, ransom'
+  - where: 'note 21:30 “The price of a life”'
+    claim: 'The lexicon lists Numbers 35:31–32 under the same word'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3724.htm'
+    quote: 'ransom for Proverbs 6:35; Proverbs 21:18; Numbers 35:31,32'
+  - where: 'note 21:30 “The price of a life”'
+    claim: 'No ransom for a murderer'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/35?lang=eng'
+    quote: 'Moreover ye shall take no satisfaction for the life of a murderer, which is guilty of death: but he shall be surely put to death.'
+
+  - where: 'note 21:32 “The price of a servant”'
+    claim: 'The Church’s footnote on “thirty” points to Matthew 26:15'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/21?lang=eng'
+    quote: 'Matt. 26:15 (14–16).'
+  - where: 'note 21:32 “The price of a servant”'
+    claim: 'Judas’s bargain'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/26?lang=eng'
+    quote: 'And they covenanted with him for thirty pieces of silver.'
+  - where: 'note 21:32 “The price of a servant”'
+    claim: 'Talmage: the price fixed by the law for a slave, and the foreseen sum'
+    key: talmage-jesus-christ-33
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-33?lang=eng'
+    quote: 'was the price fixed by the law as that of a slave; it was also the foreseen sum of the blood-money to be paid for the Lord’s betrayal.'
+  - where: 'note 21:32 “The price of a servant”'
+    claim: 'The heading of Zechariah 11'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/11?lang=eng'
+    quote: 'The Messiah will be betrayed for thirty pieces of silver'
+  - where: 'note 21:32 “The price of a servant”'
+    claim: 'Zechariah’s price'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/11?lang=eng'
+    quote: 'So they weighed for my price thirty pieces of silver.'
+  - where: 'note 21:32 “The price of a servant”'
+    claim: 'Matthew cites the prophecy when the money is returned'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/27?lang=eng'
+    quote: 'Then was fulfilled that which was spoken by Jeremy the prophet, saying, And they took the thirty pieces of silver, the price of him that was valued'
+
+  # ---------- christ / explore ----------
+  - where: 'christ'
+    claim: 'Jesus cites the law on cursing parents as what God commanded'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/15?lang=eng'
+    quote: 'For God commanded, saying, Honour thy father and mother: and, He that curseth father or mother, let him die the death.'
+  - where: 'explore'
+    claim: 'Jeremiah 34 holds Jerusalem to the law of release'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/34?lang=eng'
+    quote: 'At the end of seven years let ye go every man his brother an Hebrew, which hath been sold unto thee; and when he hath served thee six years, thou shalt let him go free from thee'
+  - where: 'explore'
+    claim: 'Bowen’s chapter treats the three law codes together'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'The Covenant Code, Holiness Code, and Deuteronomic Code can be seen as three context-based expressions of these instructions.'
