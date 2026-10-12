@@ -14,7 +14,7 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository (what waits for 
 - **What it rests on:** 350 notes, of which 60 are Language notes; 218 cite a Latter-day Saint study (BYU, Scripture Central, *Interpreter*), 84 an older commentary (Keil or the Cambridge Bible), and 23 the Student Manual. No chapter has either of the last two in more than a third of its notes.
 - **The illustration** is proposed, not approved: `visual.yaml` and one candidate (the tabernacle under the cloud, the mountain behind, the path through the sea at the far left).
 - **Theme candidates:** nine proposed in `THEME-CANDIDATES.md`; none selected.
-- **Not done:** a historical guide. The standard asks for enough background to follow a book (`STANDARDS.md` §3); here it is carried by the book page, chapter 1's notes on the date and the Pharaoh, and each chapter's `setting`. Whether Exodus wants a guide (the route, the calendar of the first year, the layout of the tabernacle) is the author's to say.
+- **Not done:** a historical guide. The standard asks for enough background to follow a book (`STANDARDS.md` §8); here it is carried by the book page, chapter 1's notes on the date and the Pharaoh, and each chapter's `setting`. Whether Exodus wants a guide (the route, the calendar of the first year, the layout of the tabernacle) is the author's to say.
 
 ## What the author has decided
 
