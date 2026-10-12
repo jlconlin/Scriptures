@@ -21,13 +21,13 @@ In Exodus remembering begins with God, who remembers His covenant. It is then bu
 
 <h2 id="first">God remembers first</h2>
 
-The first remembering in the book is God’s: “God heard their groaning, and God remembered his covenant” ([[Ex. 2:24]]). He says it of Himself: “I have remembered my covenant” ([[Ex. 6:5]]). At the bush He gives His name: “this is my name for ever, and this is my memorial unto all generations” ([[Ex. 3:15]]), or, in the Church’s footnote, “thus shall I be remembered.”[@lds-scriptures] In Hebrew “memorial” is built on the verb “remember”: both nouns behind it come from *zakar*.[@strongs-concordance][@oshb-wlc] See the note at [[Ex. 2:25]].
+The first remembering in the book is God’s: “God heard their groaning, and God remembered his covenant” ([[Ex. 2:24]]). He says it of Himself: “I have remembered my covenant” ([[Ex. 6:5]]). At the bush He gives His name: “this is my name for ever, and this is my memorial unto all generations” ([[Ex. 3:15]]), or, in the Church’s footnote, “thus shall I be remembered.”[@lds-scriptures] The two Hebrew nouns translated “memorial” both come from *zakar*, the verb “remember.”[@strongs-concordance][@oshb-wlc] See the note at [[Ex. 2:25]].
 
 <h2 id="question">A day, a question, an answer</h2>
 
 The Passover is made a memorial: “this day shall be unto you for a memorial” ([[Ex. 12:14]]). Moses tells the people, “Remember this day” ([[Ex. 13:3]]). Three times in these two chapters the text supplies what a parent is to say. “When your children shall say unto you, What mean ye by this service?… It is the sacrifice of the LORD’s passover” ([[Ex. 12:26–27]]). “Thou shalt shew thy son in that day, saying, This is done because of that which the LORD did unto me” ([[Ex. 13:8]]). “When thy son asketh thee in time to come, saying, What is this?… By strength of hand the LORD brought us out from Egypt” ([[Ex. 13:14]]).
 
-None of these verses, nor [[Ex. 10:2]] (“that thou mayest tell in the ears of thy son”), has “remember” or “memorial” in it; they say “say,” “shew” and “tell.” The word stands in the verse after the second: “it shall be for a sign unto thee upon thine hand, and for a memorial between thine eyes” ([[Ex. 13:9]]).[@lds-scriptures] In Joshua the question and the word come together: “when your children ask their fathers in time to come, saying, What mean ye by these stones?… these stones shall be for a memorial” ([[Josh. 4:6–7]]). See the notes at [[Ex. 12:14]] and [[Ex. 12:26]].
+None of these verses, nor [[Ex. 10:2]] (“that thou mayest tell in the ears of thy son”), has “remember” or “memorial” in it; they say “say,” “shew” and “tell.” “Memorial” stands in the verse after the second of them: “it shall be for a sign unto thee upon thine hand, and for a memorial between thine eyes” ([[Ex. 13:9]]).[@lds-scriptures] In Joshua the question and the word come together: “when your children ask their fathers in time to come, saying, What mean ye by these stones?… these stones shall be for a memorial” ([[Josh. 4:6–7]]). See the notes at [[Ex. 12:14]] and [[Ex. 12:26]].
 
 <h2 id="before">Before the LORD</h2>
 
@@ -43,8 +43,6 @@ At the end of the Passover meal Jesus “introduced the ordinance of the sacrame
 
 <h2 id="always">Always remember him</h2>
 
-In the sacrament prayers the remembering is witnessed to the Father: they “witness unto thee, O God, the Eternal Father, that they are willing to take upon them the name of thy Son, and always remember him” ([[Moro. 4:3]]); “they do always remember him” ([[Moro. 5:2]]). The same words stand in [[D&C 20:77]] and [[D&C 20:79]]. The risen Lord says, “it shall be a testimony unto the Father that ye do always remember me” ([[3 Ne. 18:7]]).
+The sacrament prayers include a witness to the Father: they “witness unto thee, O God, the Eternal Father, that they are willing to take upon them the name of thy Son, and always remember him” ([[Moro. 4:3]]); “they do always remember him” ([[Moro. 5:2]]). The same words stand in [[D&C 20:77]] and [[D&C 20:79]]. The risen Lord says, “it shall be a testimony unto the Father that ye do always remember me” ([[3 Ne. 18:7]]).
 
 Set beside the prayers’ “witness unto thee, O God” and the Lord’s “testimony unto the Father” are the Exodus memorials borne “before the LORD” ([[Ex. 28:29]]).
-
-In Exodus God remembers first, and then gives Israel a name, a day, a telling and a priest’s stones. Luke records “this do in remembrance of me” at a table Jesus calls “this passover,” and the sacrament prayers carry the words “always remember him.”
