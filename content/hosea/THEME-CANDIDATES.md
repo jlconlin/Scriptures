@@ -4,6 +4,9 @@ Topics that run across the book and might become theme pages (`STANDARDS.md` §8
 
 ## Selected for development (author, 2026-10-09)
 
+**Written on 2026-10-13, at the author's word for the remaining Old Testament themes (“Themes not threads… And guides”): the research lead (earlier shortlist 2) is the theme page Keep Mercy and Judgment (`content/hosea/themes/mercy-not-sacrifice.md`), which follows hesed from the betrothal to 6:6, 10:12 and 12:6 and to the Savior's two quotations of 6:6. Each was researched, outlined, written, reviewed, repaired and read by Codex, and starts with `status: preview`; the author has read none of them. The candidates the author declined earlier stay declined.**
+
+
 The author chose earlier shortlist items 1, 3, and 4, and asked for them the same day (“Please go and develop those”). All three are researched, outlined, written, reviewed, repaired, and read by Codex (`content/hosea/themes/betroth-thee.md`, `heal-their-backsliding.md`, `out-of-egypt.md`), and sixteen chapter notes link to them. Their passage anchors, Christ connections, and boundaries are in the shortlist below.
 
 1. **“I will betroth thee unto me”** — the broken marriage covenant, the children's names, and promised mercy (earlier shortlist 1).

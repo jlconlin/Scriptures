@@ -2,6 +2,9 @@
 
 ## Author's selection (2026-10-07)
 
+**Written on 2026-10-13, at the author's word for the remaining Old Testament themes (“Themes not threads… And guides”): the research lead (item 3) is the theme page Sent Before the Day (`content/malachi/themes/preparing-the-way.md`), which follows those Malachi says are sent (the priest as messenger, the one who prepares the way, the Lord who comes to His temple, Elijah) and what the Church's sources say of each, keeping the priests' failure and the refiner on the two earlier pages. Each was researched, outlined, written, reviewed, repaired and read by Codex, and starts with `status: preview`; the author has read none of them. The candidates the author declined earlier stay declined.**
+
+
 The author selected **1 and 2** below. The author found **3 good but weaker** and chose to keep it as a research lead, **not a third page assignment**. The author gave that instruction on 2026-10-08, and pages 1 and 2 are written (`content/malachi/themes/purified-offering.md`, `god-of-judgment.md`). Numbering here follows the selection conversation, not the unsorted reports below.
 
 1. **From polluted offerings to a purified offering — selected.** The priests dishonor the altar and fail as teachers (1:6–14; 2:4–8); the coming messenger of the covenant refines the sons of Levi so that the offering can again be made in righteousness (3:1–4). The Christ connection runs through the messenger of the covenant; 3 Ne. 9:19–20 may provide a later comparison, clearly distinguished from Malachi's own words. Keep verse-level details in the chapters.
