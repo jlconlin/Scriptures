@@ -1,0 +1,517 @@
+page: 06-the-land
+claims:
+  - where: 'opening'
+    claim: 'Canaan is a land bridge among three continents, "crossroads of the East"'
+    key: ogden-1980-testing-ground
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1980/09/the-testing-ground-for-the-covenant-people?lang=eng'
+    quote: 'its position as a land bridge between three continents gives it the title “crossroads of the East.”'
+  - where: 'section “The shape of the land”'
+    claim: 'Dan is the northern limit of Palestine'
+    key: bd-dan
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/dan?lang=eng'
+    quote: 'This town is well known as the northern limit of Palestine, which extended “from Dan even to Beer-sheba.” It was chosen by Jeroboam as one of the places in which to establish the calf worship for'
+  - where: 'section “The shape of the land”'
+    claim: 'Beersheba was regarded as the southern limit of Israel'
+    key: bd-beersheba
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/beersheba?lang=eng'
+    quote: 'regarded as the southern limit of Israel (Judg. 20:1; 1 Sam. 3:20). The district contained much rich pasture land.'
+  - where: 'section “The shape of the land”'
+    claim: '"From Dan even to Beer-sheba" in Judg. 20:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/20?lang=eng'
+    quote: 'Then all the children of Israel went out, and the congregation was gathered together as one man, from Dan even to Beer-sheba, with the land of Gilead, unto the Lord in Mizpeh.'
+  - where: 'section “The shape of the land”'
+    claim: 'About 150 miles Dan to Beersheba; about 75 miles wide'
+    key: ot-manual-josh
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/joshua-1-24-the-entry-into-the-promised-land?lang=eng'
+    quote: 'In dimension, Israel was roughly 150 miles from Dan to Beersheba, and at its greatest width it was about 75 miles across. The Lord promised Joshua that the original extent of the land promised to Abraham'
+  - where: 'section “The shape of the land”'
+    claim: 'The wider district between Syria and Egypt: nearly 180 miles by 85'
+    key: bd-palestine
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/palestine?lang=eng'
+    quote: 'a district nearly 180 miles long and about 85 miles in average breadth. Running from north to south is the deep Jordan valley, which at its lowest part near the Dead Sea, is 1290 feet below'
+  - where: 'section “The shape of the land”'
+    claim: 'Deut. 1:7 names five regions'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/1?lang=eng'
+    quote: 'in the plain, in the hills, and in the vale, and in the south, and by the sea side, to the land of the Canaanites, and unto Lebanon, unto the great river, the river Euphrates.'
+  - where: 'section “The shape of the land”'
+    claim: 'The Maritime Plain runs the length of the coast, including Philistia and Sharon; the Shephelah, then the hill country broken by Esdraelon'
+    key: bd-palestine
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/palestine?lang=eng'
+    quote: 'On either side of the valley is hill country, the western range being broken by the plain of Esdraelon. Proceeding further west we reach the Shephelah or Low Hills, and then the Maritime Plain, extending the whole length of the seacoast, and including the plains of Philistia and Sharon. Down in the south was the Negev, called in the KJV'
+  - where: 'section “The shape of the land”'
+    claim: 'Sharon is the plain from Carmel to Joppa'
+    key: bd-sharon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sharon?lang=eng'
+    quote: 'extending from Carmel to Joppa, celebrated for its beauty and its flowers (1 Chr. 5:16; 27:29; Song 2:1; Isa. 33:9; 35:2; 65:10; Acts 9:35).'
+  - where: 'section “The shape of the land”'
+    claim: 'The Shephelah lies between the coastal plain and the hills of Judah; more extensive agriculture'
+    key: pierce-micah
+    url: 'https://rsc.byu.edu/approaching-holiness/understanding-micahs-lament-judah-micah-110-16-through-text-archaeology-geography'
+    quote: 'Micah’s region, the Judean Shephelah, is situated between the coastal plain to the west and the hill country of Judah to the east and is composed of low hills and many valleys, allowing for more extensive'
+  - where: 'section “The shape of the land”'
+    claim: 'Esdraelon separates the hills of Samaria from Galilee and is the most fertile part of Palestine'
+    key: bd-esdraelon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/esdraelon?lang=eng'
+    quote: 'it separates the hills of Samaria from those of Galilee and is the most fertile part of Palestine. It was crossed by several important highways and for that reason often provided a battleground (Judg. 4; 5;'
+  - where: 'section “The shape of the land”'
+    claim: 'Galilee about 60 miles by 30, some of the best land'
+    key: bd-galilee
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/galilee?lang=eng'
+    quote: 'The district is about 60 miles by 30. It contained some of the best land and the busiest towns of Palestine and was thickly populated by a hardy, warlike race. It was crossed by important highways'
+  - where: 'section “The shape of the land”'
+    claim: 'The Negev is "dry or parched land," also called "south country"'
+    key: bd-negev
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/negev?lang=eng'
+    quote: 'Dry or parched land, also called “south country”; the district stretching southward from the hills of Judah toward the desert.'
+  - where: 'section “The shape of the land”'
+    claim: 'The Jordan is formed by springs on Hermon and descends to the Sea of Galilee and the Dead Sea'
+    key: bd-jordan-river
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jordan-river?lang=eng'
+    quote: 'formed by the union of several springs rising in Mount Hermon. It passes through the Huleh Valley (the waters of Merom), then descends to the Sea of Galilee, 682 feet below the level of the Mediterranean.'
+  - where: 'section “The shape of the land”'
+    claim: 'The Dead Sea lies 1290 feet below the Mediterranean with no outlet'
+    key: bd-dead-sea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/dead-sea?lang=eng'
+    quote: 'Located at the southern end of the Jordan valley, 53 miles long, with an average breadth of 9 miles, its surface being 1290 feet below the Mediterranean, and its greatest depth 1300 feet. It is fed'
+  - where: 'section “The shape of the land”'
+    claim: 'Bible Map 14 prints the Judean hill country at 2,000–3,000 ft'
+    key: bible-maps-14
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-14?lang=eng'
+    quote: '2,000–3,000 ft'
+  - where: 'section “The shape of the land”'
+    claim: 'Bashan is rich in grain production, east of Jordan'
+    key: bd-bashan
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/bashan?lang=eng'
+    quote: 'rich in grain production and known for its breed of cattle (Ps. 22:12), to which Amos made a symbolic and uncomplimentary reference (Amos 4:1–3).'
+  - where: 'section “The shape of the land”'
+    claim: 'Gilead is a wooded highland east of the Jordan'
+    key: bd-gilead
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/gilead?lang=eng'
+    quote: 'It is well wooded and crossed by deep glens that descend toward Jordan. It was assigned half to the tribe of Gad and half to Manasseh.'
+  - where: 'section “The shape of the land”'
+    claim: 'Mount Seir runs south from the Dead Sea through Edom'
+    key: bd-seir
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/seir?lang=eng'
+    quote: 'the mountain ridge that ran south from the Dead Sea through the land of Edom; originally inhabited by Horites (Gen. 14:6); Esau’s possession (Gen. 36:8–9, 30; Deut. 2:5; Josh. 24:4); passed through by Jacob (Gen. 32:3;'
+  - where: 'section “The shape of the land”'
+    claim: 'Lebanon is in the far north'
+    key: bd-lebanon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/lebanon?lang=eng'
+    quote: 'in the extreme north of Palestine, rising to a height of eight or nine thousand feet. It is still a land of forests, though the groves of cedar trees have almost disappeared. Running parallel is the'
+  - where: 'section “The shape of the land”'
+    claim: 'Hermon is 9400 feet high'
+    key: bd-hermon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hermon?lang=eng'
+    quote: 'A mountain, 9400 feet high, in the extreme northeast of the Holy Land, being the southern point of a range of hills called Anti-Libanus. It is visible not only from a great part of Galilee, but'
+  - where: 'section “The shape of the land”'
+    claim: 'Bible Map 1 labels the Valley of Jezreel (Esdraelon), the Wilderness of Judea and the other regions'
+    key: bible-maps-1
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-1?lang=eng'
+    quote: 'Valley of Jezreel (Esdraelon)'
+  - where: 'section “The shape of the land”'
+    claim: 'The land is not as Egypt and drinks the rain of heaven (Deut. 11:11)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/11?lang=eng'
+    quote: 'But the land, whither ye go to possess it, is a land of hills and valleys, and drinketh water of the rain of heaven:'
+  - where: 'section “The shape of the land”'
+    claim: 'The land is not as the land of Egypt, watered with the foot (Deut. 11:10)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/11?lang=eng'
+    quote: 'For the land, whither thou goest in to possess it, is not as the land of Egypt, from whence ye came out, where thou sowedst thy seed, and wateredst it with thy foot, as a garden of herbs:'
+  - where: 'section “The shape of the land”'
+    claim: 'In some years parts of the land may be untouched by rain'
+    key: ogden-1980-testing-ground
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1980/09/the-testing-ground-for-the-covenant-people?lang=eng'
+    quote: 'which means that in some years parts of the land may be untouched by rain. Notice in the following description of the promised land given by the Lord how trust in God and obedience to him'
+  - where: 'section “The shape of the land”'
+    claim: 'Famine in the Bible simply means it did not rain that year; thus God proved his people through climate and rainfall'
+    key: ogden-1980-testing-ground
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1980/09/the-testing-ground-for-the-covenant-people?lang=eng'
+    quote: 'simply means it didn’t rain that year. Famine generally meant no rain. Thus God proved his people even through climate and rainfall.'
+  - where: 'section “The shape of the land”'
+    claim: '"Up" and "down" usually indicated elevation; Jerusalem is high'
+    key: interpreter-halverson-geographically
+    url: 'https://interpreterfoundation.org/journal/reading-the-scriptures-geographically-some-tools-and-insights'
+    quote: 'In ancient Israel, the words “up” and “down” in geographical contexts usually indicated elevation. Jerusalem is located on one of the highest elevations in Judah. Therefore, travel toward Jerusalem typically involved ascending to a higher elevation.'
+  - where: 'section “The roads”'
+    claim: 'Israel asked Edom to go by the king’s high way (Num. 20:17)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/20?lang=eng'
+    quote: 'we will go by the king’s high way, we will not turn to the right hand nor to the left, until we have passed thy borders.'
+  - where: 'section “The roads”'
+    claim: 'Bible Map 2 marks a possible route of the Exodus; no road is labeled by name on maps 1–10 (a search of their labels)'
+    key: bible-maps-2
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-2?lang=eng'
+    quote: 'Possible route of the Exodus'
+  - where: 'section “The roads”'
+    claim: 'Galilee was crossed by important highways to Damascus, Egypt and eastern Palestine'
+    key: bd-galilee
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/galilee?lang=eng'
+    quote: 'It was crossed by important highways leading to Damascus, Egypt, and eastern Palestine. Along these roads caravans would be constantly passing, and such a place as Nazareth would be kept in close touch with what was'
+  - where: 'section “The roads”'
+    claim: 'Esdraelon was crossed by several important highways and often a battleground'
+    key: bd-esdraelon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/esdraelon?lang=eng'
+    quote: 'It was crossed by several important highways and for that reason often provided a battleground (Judg. 4; 5; 7; 1 Sam. 31; 2 Chr. 35:20–27; see also Rev. 16:16). See also Armageddon; Megiddo.'
+  - where: 'section “The roads”'
+    claim: 'Megiddo is on the caravan route from Egypt to Damascus; Josiah died there'
+    key: bd-megiddo
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/megiddo?lang=eng'
+    quote: 'and on the caravan route from Egypt to Damascus. Frequently mentioned in Israelite history. The scene of Sisera’s defeat (Judg. 5:19). Fortified by Solomon (1 Kgs. 9:15). The place where Ahaziah died of his wounds (2'
+  - where: 'section “The roads”'
+    claim: 'The Shephelah held roads by which Judah reached the coastal highway'
+    key: pierce-micah
+    url: 'https://rsc.byu.edu/approaching-holiness/understanding-micahs-lament-judah-micah-110-16-through-text-archaeology-geography'
+    quote: 'The importance of the Shephelah lay not only in its agricultural capabilities but also in the roads that allowed Judah to access the coastal plain and take part in the international commerce that traveled the coastal'
+  - where: 'section “The roads”'
+    claim: 'Bible Map 5 shows the Assyrian Empire'
+    key: bible-maps-5
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-5?lang=eng'
+    quote: '5. The Assyrian Empire'
+  - where: 'section “The roads”'
+    claim: 'The land’s story is a struggle among mightier civilizations to control this land bridge'
+    key: ogden-1980-testing-ground
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1980/09/the-testing-ground-for-the-covenant-people?lang=eng'
+    quote: 'The story of this Holy Land is essentially a history of the struggle among these mightier civilizations to control this land bridge. The history of the ancient Near East is somewhat like a complicated chess game,'
+  - where: 'section “The roads”'
+    claim: 'Matthew applies Isaiah 9 to Jesus and Galilee'
+    key: sc-knowhy-869
+    url: 'https://scripturecentral.org/knowhy/why-was-isaiah-9-important-for-defending-jesus-s-galilean-origin'
+    quote: 'Matthew applies this prophecy to Jesus and to His Galilean homeland: Matthew 4:13-14 states, “And leaving Nazareth, he came and dwelt in Capernaum, which is upon the sea coast, in the borders of Zabulon and Nephthalim:'
+  - where: 'section “The neighbors”'
+    claim: 'Goshen probably in the eastern delta of the Nile'
+    key: bd-goshen
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/goshen?lang=eng'
+    quote: 'probably in the eastern part of the delta of the Nile.'
+  - where: 'section “The neighbors”'
+    claim: 'Egypt: store cities under Ramses II built by Israelite slaves'
+    key: bd-egypt
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/egypt?lang=eng'
+    quote: 'Under Ramses Ⅱ, a king of the 19th dynasty, were built the two store cities, Pithom and Pa-Ramses, in the construction of which the Israelite slaves were employed. Pithom has been discovered and identified. The store'
+  - where: 'section “The neighbors”'
+    claim: 'Egypt: Shishak conquered Rehoboam and took Jerusalem; alliance against Assyria'
+    key: bd-egypt
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/egypt?lang=eng'
+    quote: 'but the Egyptian king Sheshonk, or, as scripture calls him, Shishak, gave a welcome to Jeroboam, Solomon’s adversary (1 Kgs. 11:40), and a few years afterwards conquered Rehoboam and took Jerusalem (1 Kgs. 14:25–26). Later on,'
+  - where: 'section “The neighbors”'
+    claim: 'Philistines: coast from Joppa to the Egyptian desert; five cities; struggle for supremacy; name Palestine'
+    key: bd-philistines
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/philistines?lang=eng'
+    quote: 'occupied before the days of Abraham (Gen. 21:32) the rich lowland on the Mediterranean coast from Joppa to the Egyptian desert. They formed a confederation of five chief cities, namely, Ashdod, Gaza, Ashkelon, Gath, and Ekron, each governed by its “lord.” For many years there was a struggle for supremacy between them and the Israelites, Philistine power being at its'
+  - where: 'section “The neighbors”'
+    claim: 'Phoenicia: coast north of Philistia; language like Hebrew; never conquered by Israel; alliances'
+    key: bd-phoenicia
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/phoenicia?lang=eng'
+    quote: 'The coastland extending from the Philistine territory to the mouth of the Orontes. The Phoenicians were a Semitic race, their language closely resembling Hebrew. They were a great commercial people, distributing the wares of Egypt and Babylon, and having trading stations all over the Mediterranean, Carthage being the most important. Their territory was never conquered by the Israelites, but many'
+  - where: 'section “The neighbors”'
+    claim: 'Syria was Aram north and northeast; same stock as the Israelites; rivals'
+    key: bd-syria
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/syria?lang=eng'
+    quote: 'Originally known as Aram (or “the highlands”), a general name for the country north and northeast of Palestine. The people were of Semitic origin (Gen. 10:22; 22:21) and were descended from the same stock as the'
+  - where: 'section “The neighbors”'
+    claim: 'Damascus fell to Tiglath-pileser about 733'
+    key: bd-aram
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/aram?lang=eng'
+    quote: 'At length, in 733 B.C., Damascus fell before Tiglath-pileser Ⅱ and the Arameans lost their political independence. But their language, which was already that of a great part of the empire of Nineveh, continued to spread'
+  - where: 'section “The neighbors”'
+    claim: 'Ammon: east of Gilead from the Jabbok; descended from Lot; bitter enemies'
+    key: bd-ammon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ammon?lang=eng'
+    quote: 'A tribe descended from Lot, the nephew of Abraham (Gen. 19:38; Deut. 2:19); worshippers of Molech or Milcom (1 Kgs. 11:7, 33); they were settled east of Mount Gilead, from the Jabbok southwards, and in the'
+  - where: 'section “The neighbors”'
+    claim: 'Ammon: bitter enemies of Israel'
+    key: bd-ammon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ammon?lang=eng'
+    quote: 'bitter enemies of Israel, till they fell under the power of Assyria and Chaldea (2 Kgs. 24:2; Ezek. 25:2–10; Amos'
+  - where: 'section “The neighbors”'
+    claim: 'Moab east of the Dead Sea; akin to Israelites; constant warfare'
+    key: bd-moab
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/moab?lang=eng'
+    quote: 'The land of Moab lay east of the Dead Sea. The Moabites were akin to the Israelites and spoke a language that closely resembled Hebrew, but there was constant warfare between the two nations (Num. 22–25;'
+  - where: 'section “The neighbors”'
+    claim: 'Edom south of the Dead Sea in Mount Seir; kin through Esau; great mutual hatred'
+    key: bd-edom
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/edom?lang=eng'
+    quote: 'This country lay south of the Dead Sea, having Moab on the north and the Dead Sea on the northwest. It was not included within the limits of the land of Israel (Deut. 2:5; Josh. 24:4).'
+  - where: 'section “The neighbors”'
+    claim: 'Edom: kinship and great mutual hatred'
+    key: bd-edom
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/edom?lang=eng'
+    quote: 'In spite of the kinship there seems to have been great mutual hatred, and wars were of constant occurrence (Num. 20:14–21; 21:4; Judg. 11:17; 1 Sam. 14:47; 2 Sam. 8:13–14;'
+  - where: 'section “The neighbors”'
+    claim: 'Amalek: desert of Paran, as far north as Mount Ephraim; war with Israel from Moses to Saul and David'
+    key: bd-amalek
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/amalek?lang=eng'
+    quote: 'An Arab tribe that lived in the desert of Paran between the Arabah and the Mediterranean and at one time seem to have ranged as far north as Mount Ephraim (Judg. 5:14; 12:15). The Amalekites were at constant war with the Hebrews from the time of Moses (Ex. 17:8, etc.) till their power was broken by Saul and David (1'
+  - where: 'section “The neighbors”'
+    claim: 'Midianites: wandering Arab tribes, akin to the Hebrews, often in conflict'
+    key: bd-midianites
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/midianites?lang=eng'
+    quote: 'A powerful confederation of wandering Arab tribes, akin to the Hebrews, but often in conflict with them. They are referred to in Gen. 37:28, 36; Ex. 2:15; 3:1; 4:19; 18:1; Num. 22:4, 7; 25; 31; Judg.'
+  - where: 'section “The neighbors”'
+    claim: 'Assyria ruled by terror and deportation'
+    key: gs-assyria
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/assyria?lang=eng'
+    quote: 'They ruled by terror, crushing their enemies by fire and sword or weakening them by deporting large portions of a population to other parts of their empire. The people who were placed under Assyrian rule constantly'
+  - where: 'section “The neighbors”'
+    claim: 'Nineveh on the Tigris'
+    key: bd-nineveh
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/nineveh?lang=eng'
+    quote: 'Capital of Assyria on the eastern bank of the Tigris, its traditional founder being Nimrod, the great hunter (Gen. 10:11–12). For several centuries Calah outstripped it in importance, but under Sennacherib it again became the capital'
+  - where: 'section “The neighbors”'
+    claim: 'Babylon on the Euphrates, Nebuchadnezzar’s capital'
+    key: bd-babylon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/babylon?lang=eng'
+    quote: 'the Euphrates ran through the middle of it. According to Herodotus the walls were 56 miles in circumference, 335 feet high, and 85 feet wide. A large part of the'
+  - where: 'section “The neighbors”'
+    claim: 'The Chebar was a canal from the Euphrates where the exiles lived'
+    key: bd-chebar
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/chebar?lang=eng'
+    quote: 'A canal or waterway that left the Euphrates River north of Babylon and flowed 60 miles southeast before reentering the Euphrates. On its banks lived many of the exiles carried from Judah by Nebuchadnezzar; here Ezekiel'
+  - where: 'section “The neighbors”'
+    claim: 'Nebuchadnezzar beat Necho at Carchemish in 605'
+    key: bd-assyria
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/assyria-and-babylonia?lang=eng'
+    quote: 'Against him Nabopolassar sent his son, Nebuchadnezzar, who in 605 smote Necho in a great battle at Carchemish (Jer. 46:2).'
+  - where: 'section “The neighbors”'
+    claim: 'Persia: east of Elam; Cyrus took Babylon in 538; Judea a province 530 to 334'
+    key: bd-persia
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/persia?lang=eng'
+    quote: 'The Persians were a tribe who in the 8th century B.C. inhabited a district east of Elam. Cyrus united the Medes and Persians, conquered Babylon (538 B.C.), and founded the Persian Empire, which extended from Afghanistan'
+  - where: 'section “Places the books name”'
+    claim: 'Ur was Abram’s original home'
+    key: bd-ur
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ur?lang=eng'
+    quote: 'Ur of the Chaldees was the original home of Abram (Gen. 11:28, 31; 15:7; Neh. 9:7). It is identified with modern Mugheir, now 150 miles from the Persian Gulf, but'
+  - where: 'section “Places the books name”'
+    claim: 'Haran near the Euphrates source, an important trading center; Abraham’s first settlement; Terah tarried there'
+    key: bd-haran
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/haran?lang=eng'
+    quote: 'The place of Abraham’s (Abram’s) first settlement on leaving Ur of the Chaldees; apparently named in memory of Abraham’s deceased brother Haran. It was a place of many flocks, and Terah, Abraham’s father, tarried there. The Lord appeared to Abraham at Haran (Gen. 11:29–32; Abr. 2:4–6). It was in the district near the source of the Euphrates and was a trading center of great importance, frequently mentioned in Assyrian inscriptions.'
+  - where: 'section “Places the books name”'
+    claim: 'Shechem: the most ancient sacred town, between Ebal and Gerizim; Abram, Jacob, Joshua, Rehoboam'
+    key: bd-shechem
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/shechem?lang=eng'
+    quote: 'The most ancient of the sacred towns of the children of Israel, situated in a beautiful plain among the mountains of Ephraim, close to the two hills Ebal and Gerizim. It was visited by Abram on his first arrival in the promised land (Gen. 12:6); Jacob bought land here (33:18–19; see also Gen. 35:4; 37:14; Acts 7:16). It was later included in the territory of Ephraim (Josh. 17:7) and became'
+  - where: 'section “Places the books name”'
+    claim: 'Bethel on the Benjamin–Ephraim border; Abraham’s altar, Jacob’s dream, Jeroboam’s calf'
+    key: bd-bethel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/bethel?lang=eng'
+    quote: 'on the border between Benjamin and Ephraim, and one of the most sacred spots in Israel. Here Abraham built his altar on his first arrival in Canaan (Gen. 12:8; 13:3); here Jacob had his dream, set up a pillar, and gave the place its name (28:19). It was a sanctuary in the days of Samuel (1 Sam. 7:16; 10:3). Jeroboam'
+  - where: 'section “Places the books name”'
+    claim: 'Hebron 20 miles south of Jerusalem; burial, refuge, David’s capital'
+    key: bd-hebron
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hebron?lang=eng'
+    quote: 'An ancient city of Judah, 3040 feet above the Mediterranean, 20 miles south of Jerusalem; known also as Mamre and Kirjath-arba (Gen. 13:18; 35:27). It was the burying place of Abraham and his family (23:2, 19;'
+  - where: 'section “Places the books name”'
+    claim: 'Beersheba the home of Abraham, Isaac and Jacob'
+    key: bd-beersheba
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/beersheba?lang=eng'
+    quote: 'The home of Abraham (Gen. 21:31), Isaac (26:23), and Jacob (28:10); so called from the covenant Abraham made here with Abimelech, king of Gerar (21:31). It was afterwards in the'
+  - where: 'section “Places the books name”'
+    claim: 'Sinai’s site much disputed; probably Jebel Musa; Ten Commandments and tabernacle'
+    key: bd-sinai
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sinai?lang=eng'
+    quote: 'Its site has been much disputed, and some scholars maintain that it was in the country of Edom. It probably was in the southern part of the peninsula between the gulfs of Suez and Aqabah and is to be identified with one of the peaks of Jebel Musa. It was an ancient sanctuary dedicated to the Babylonian moongod Sin, from whom the name is derived. Here the Ten Commandments were'
+  - where: 'section “Places the books name”'
+    claim: 'Horeb is another name for Sinai'
+    key: bd-horeb
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/horeb?lang=eng'
+    quote: 'Another name for Sinai (Ex. 3:1; Deut. 1:6; 4:10; 1 Kgs. 19:8; Mal. 4:4; 3 Ne. 25:4).'
+  - where: 'section “Places the books name”'
+    claim: 'Kadesh-barnea in the southwest; spies sent; people condemned to wander'
+    key: bd-kadesh
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/kadesh?lang=eng'
+    quote: 'a city in the southwest corner of Palestine, a well-watered and fruitful spot in the wilderness of Zin. (Not to be confused with the city of Kadesh in the north, the site of the great battle'
+  - where: 'section “Places the books name”'
+    claim: 'Jericho a walled city 800 feet below the Mediterranean near the crossing'
+    key: bd-jericho
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jericho?lang=eng'
+    quote: 'A walled city in the valley of the Jordan, 800 feet below the Mediterranean, near the place where the Israelites crossed the river on their first entry into the promised land (Josh. 2:1–3; 3:16; 6). Joshua'
+  - where: 'section “Places the books name”'
+    claim: 'Gilgal: first camp after the Jordan, twelve stones'
+    key: bd-gilgal
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/gilgal?lang=eng'
+    quote: 'The place near Jericho at which the Israelite camp was made on the first night after crossing the Jordan (Josh. 4:19; 5:10; 10). Here the 12 stones from the Jordan were set up as a monument'
+  - where: 'section “Places the books name”'
+    claim: 'Shiloh 9¼ miles north of Bethel; the tabernacle in the judges’ time'
+    key: bd-shiloh
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/shiloh?lang=eng'
+    quote: 'A sacred city of the Holy Land, 9¼ miles north from Bethel and 11½ miles south from Shechem, in the tribe of Ephraim (Josh. 18:1; Judg. 18:31). The tabernacle was here during the greater part of'
+  - where: 'section “Places the books name”'
+    claim: 'Jerusalem a Jebusite city taken by David; mountain fortress about 2600 feet'
+    key: bd-jerusalem
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jerusalem?lang=eng'
+    quote: 'a Jebusite city until it was captured by David (2 Sam. 5:6–9); for its earlier history see Josh. 10:1–5, 23; 12:10; 15:8; 18:16, 28; Judg. 1:7–8; 19:10; 1 Sam. 17:54. It lay on the frontier line between Judah and Benjamin and was chosen by David to be his capital. Until then it had been merely a mountain fortress, about 2600 feet above sea level, surrounded by deep valleys on all'
+  - where: 'section “Places the books name”'
+    claim: 'The temple on the eastern hill; dispute over the position of Zion'
+    key: bd-jerusalem
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jerusalem?lang=eng'
+    quote: 'All authorities agree in placing the temple on the eastern hill, but there has been much dispute as to the position of Zion. (See Zion.) David fortified the city, the chief feature in the fortifications being'
+  - where: 'section “Places the books name”'
+    claim: 'Solomon built his temple on Mount Zion'
+    key: bd-zion
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/zion?lang=eng'
+    quote: 'Solomon built his temple on Mount Zion (1 Kgs. 8:1; see also 2 Sam. 5:6–7); and Jackson County, Missouri, is called Zion in many of the revelations in the D&C,'
+  - where: 'section “Places the books name”'
+    claim: 'Moriah: land of Isaac’s offering; Mount Moriah the temple hill; Josephus tradition'
+    key: bd-moriah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/moriah?lang=eng'
+    quote: '(1) The land of, the district where was found the mountain on which Isaac was offered in sacrifice (Gen. 22:2); probably the same district as that in which was the “plain (or oak) of Moreh.”'
+  - where: 'section “Places the books name”'
+    claim: 'Mount Moriah, tradition first recorded by Josephus'
+    key: bd-moriah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/moriah?lang=eng'
+    quote: '(2) Mount Moriah, the hill on which Solomon built the temple (2 Chr. 3:1); a tradition first recorded by the Jewish historian Josephus, who regards this as identical with (1).'
+  - where: 'section “Places the books name”'
+    claim: 'Samaria built by Omri on a strong hill; besieged three years'
+    key: bd-samaria
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/samaria?lang=eng'
+    quote: 'a city built by Omri and made the capital of the kingdom of Israel. It occupied a strong position on a hill, and the Assyrians could not capture it until after a siege of three years (2 Kgs. 17:5–6). Herod rebuilt it and called it Sebaste. In New Testament times Samaria was the name of the whole of the central'
+  - where: 'section “Places the books name”'
+    claim: 'Dan: Danites settled Laish; northern limit; Jeroboam’s calf'
+    key: bd-dan
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/dan?lang=eng'
+    quote: 'Consequently the Danites made for themselves a settlement in the north of Palestine (Judg. 18), around Laish, to which city they gave the name of Dan. This town is well known as the northern limit of Palestine, which extended “from Dan even to Beer-sheba.” It was chosen by Jeroboam as one of the places in which to establish the calf worship for the northern tribes (1 Kgs. 12:29; 2 Kgs.'
+  - where: 'section “Places the books name”'
+    claim: 'Carmel a headland 1742 feet high, chiefly known for Elijah'
+    key: bd-carmel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/carmel?lang=eng'
+    quote: 'A hill, 1742 feet high, forming the one headland of the coast of Palestine. It is chiefly known in connection with the history of Elijah and Elisha (1 Kgs. 18; 2 Kgs. 2:25; 4:25); also frequently'
+  - where: 'section “Places the books name”'
+    claim: 'Mount Carmel: Elijah challenged the prophets of Baal'
+    key: bible-maps-10
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng'
+    quote: 'Mount Carmel Elijah challenged the prophets of Baal and opened the heavens for rain (1 Kgs. 18:17–46).'
+  - where: 'section “Places the books name”'
+    claim: 'Jezreel a city on a hill; Ahab made it his capital'
+    key: bd-jezreel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jezreel?lang=eng'
+    quote: 'A city on a hill rising out of the plain, belonging to the tribe of Issachar (Josh. 19:18). Ahab made it his capital (1 Kgs. 18:45–46; 21:1, 23; 2 Kgs. 8:29); after the fall of his'
+  - where: 'section “Places the books name”'
+    claim: 'Megiddo: Josiah’s defeat and death'
+    key: bd-megiddo
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/megiddo?lang=eng'
+    quote: 'Also the scene of the tragic defeat and death of King Josiah (23:29–30; 2 Chr. 35:22). In Zech. 12:11 the place is called “the valley of Megiddon.” See also Armageddon; Esdraelon.'
+  - where: 'section “Places the books name”'
+    claim: 'Lachish between Hebron and the coast; Sennacherib captured it; siege depicted on an Assyrian monument'
+    key: bd-lachish
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/lachish?lang=eng'
+    quote: 'A city of the Amorites, between Hebron and the coast (Josh. 10:3, 5, 23, 31–35; 12:11); afterwards included in Judah (15:39); fortified by Rehoboam (2 Chr. 11:9); here Amaziah was killed (2 Kgs. 14:19; 2 Chr. 25:27). It was captured by Sennacherib (2 Kgs. 18:17; 2 Chr. 32:9), and the siege is depicted on an Assyrian monument still in existence. After the Return Lachish was again occupied by Jews (Neh.'
+  - where: 'section “Places the books name”'
+    claim: 'Nineveh fell 606 B.C. as the Bible Dictionary prints it'
+    key: bd-nineveh
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/nineveh?lang=eng'
+    quote: 'The city fell at the downfall of the Assyrian empire, 606 B.C. See Assyria and Babylonia. For prophecies concerning Nineveh, see Jonah 1:2; 3:2–7; 4:11; Nahum 1:1; 2:8; 3:7; Zeph. 2:13. Repentant Nineveh, a sign to'
+  - where: 'section “Places the books name”'
+    claim: 'Babylon: Nebuchadnezzar’s capital; the Euphrates ran through it'
+    key: bd-babylon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/babylon?lang=eng'
+    quote: 'After the downfall of Assyria, Babylon became Nebuchadnezzar’s capital. He built an enormous city of which the ruins still remain. The city was square, and the Euphrates ran through the middle of it. According to Herodotus the walls were 56 miles in circumference, 335 feet high, and 85 feet wide. A large part of the city consisted of beautiful parks'
+  - where: 'section “Places the books name”'
+    claim: 'Chebar: exiles lived on its banks; Ezekiel saw visions'
+    key: bd-chebar
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/chebar?lang=eng'
+    quote: 'On its banks lived many of the exiles carried from Judah by Nebuchadnezzar; here Ezekiel saw his earlier visions (Ezek. 1:1, 3; 3:15, 23; 10:15, 20, 22; 43:3).'
+  - where: 'section “Places the books name”'
+    claim: 'Bible Map 10 prints notes for the places in Canaan (Dan)'
+    key: bible-maps-10
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-10?lang=eng'
+    quote: 'Dan (Laish) Jeroboam set up a golden calf for the Northern Kingdom to worship (1 Kgs. 12:26–33). Dan was the northern limit of ancient Israel.'
+  - where: 'section “Places the books name”'
+    claim: 'Zion: dispute over the position'
+    key: bd-jerusalem
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jerusalem?lang=eng'
+    quote: 'but there has been much dispute as to the position of Zion. (See Zion.) David fortified the city, the chief feature in the fortifications being a tower called the Millo.'
+  - where: 'section “Tribes, kingdoms and inheritance”'
+    claim: 'The borders of the land of Canaan (Num. 34:2)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/34?lang=eng'
+    quote: 'Command the children of Israel, and say unto them, When ye come into the land of Canaan; (this is the land that shall fall unto you for an inheritance, even the land of Canaan with the coasts thereof:)'
+  - where: 'section “Tribes, kingdoms and inheritance”'
+    claim: 'Division unto the nine tribes and half Manasseh (Josh. 13:7)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/13?lang=eng'
+    quote: 'Now therefore divide this land for an inheritance unto the nine tribes, and the half tribe of Manasseh,'
+  - where: 'section “Tribes, kingdoms and inheritance”'
+    claim: 'Reubenites and Gadites received inheritance beyond Jordan eastward (Josh. 13:8)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/13?lang=eng'
+    quote: 'With whom the Reubenites and the Gadites have received their inheritance, which Moses gave them, beyond Jordan eastward, even as Moses the servant of the Lord gave them;'
+  - where: 'section “Tribes, kingdoms and inheritance”'
+    claim: 'Levi had no inheritance in Canaan but the tithe and 48 cities'
+    key: bd-levites
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/levites?lang=eng'
+    quote: 'They had no inheritance in Canaan (18:23–24); but they had the tithe (18:21), 48 cities (35:6), and a claim on the alms of the people at feast times (Deut. 12:18–19; 14:27–29).'
+  - where: 'section “Tribes, kingdoms and inheritance”'
+    claim: 'Bible Map 3 shows early tribal boundaries'
+    key: bible-maps-3
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-3?lang=eng'
+    quote: 'Early tribal boundaries'
+  - where: 'section “Tribes, kingdoms and inheritance”'
+    claim: 'Solomon reigned from the river to the land of the Philistines (1 Kgs. 4:21)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/4?lang=eng'
+    quote: 'And Solomon reigned over all kingdoms from the river unto the land of the Philistines, and unto the border of Egypt: they brought presents, and served Solomon all the days of his life.'
+  - where: 'section “Tribes, kingdoms and inheritance”'
+    claim: 'Bible Map 4 shows the boundary of the empire at its greatest height'
+    key: bible-maps-4
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bible-maps/map-4?lang=eng'
+    quote: 'Boundary of the empire at its greatest height'
+  - where: 'section “Tribes, kingdoms and inheritance”'
+    claim: 'Division about 925 B.C.: ten tribes north at Shechem, Judah and Benjamin at Jerusalem'
+    key: bd-israel-kingdom
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/israel-kingdom-of?lang=eng'
+    quote: 'The division of the house of Israel into two kingdoms at approximately 925 B.C. had been prophesied by Ahijah (1 Kgs. 11:31–35). The immediate cause was a revolt of the people against the heavy taxes levied by Solomon and his son Rehoboam. Ten tribes formed the northern kingdom, with headquarters at Shechem in Samaria. They were known as Israel, or'
+  - where: 'section “Tribes, kingdoms and inheritance”'
+    claim: 'The northern kingdom headquartered at Shechem; southern at Jerusalem'
+    key: bd-israel-kingdom
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/israel-kingdom-of?lang=eng'
+    quote: 'Ten tribes formed the northern kingdom, with headquarters at Shechem in Samaria. They were known as Israel, or the northern kingdom, or Ephraim, since Ephraim was the dominant group among them. Their first king was Jeroboam, an Ephraimite; he was followed later by such kings as Omri and Ahab (who ruled with his Phoenician wife Jezebel). The southern kingdom, consisting'
+  - where: 'section “Tribes, kingdoms and inheritance”'
+    claim: 'The Abrahamic covenant includes certain lands as an eternal inheritance'
+    key: bd-abraham-covenant
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abraham-covenant-of?lang=eng'
+    quote: 'Abraham’s posterity would receive certain lands as an eternal inheritance (Gen. 17; 22:15–18; Gal. 3; Abr. 2). These promises taken together are called the “Abrahamic covenant.” It was renewed with Isaac (Gen. 26:1–4, 24) and again with Jacob (Gen. 28;'
+  - where: 'section “Tribes, kingdoms and inheritance”'
+    claim: 'Land among the blessings of Israel’s covenant; exile; hope of return'
+    key: keller-land-lands
+    url: 'https://rsc.byu.edu/book-mormon-authors-their-words-messages/land-lands'
+    quote: 'Since land was among the blessings of Israel’s covenant with the Lord, it is as much a matter of doctrine as a matter of society. Land plays an important role in God’s interaction with his people. Abraham was promised a land by the Lord. Moses led the children of Israel to the promised land. Joshua defeated the inhabitants of the'
+  - where: 'section “Tribes, kingdoms and inheritance”'
+    claim: 'Gather thee from all the nations (Deut. 30:3)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/30?lang=eng'
+    quote: 'That then the Lord thy God will turn thy captivity, and have compassion upon thee, and will return and gather thee from all the nations, whither the Lord thy God hath scattered thee.'
+  - where: 'section “Tribes, kingdoms and inheritance”'
+    claim: 'Bring thee into the land which thy fathers possessed (Deut. 30:5)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/30?lang=eng'
+    quote: 'And the Lord thy God will bring thee into the land which thy fathers possessed, and thou shalt possess it; and he will do thee good, and multiply thee above thy fathers.'
+  - where: 'section “Tribes, kingdoms and inheritance”'
+    claim: 'There are many promised lands'
+    key: gs-promised-land
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/promised-land?lang=eng'
+    quote: 'There are many promised lands. Often in the Book of Mormon, the promised land spoken of is the Americas.'
+  - where: 'section “Tribes, kingdoms and inheritance”'
+    claim: 'The tribe of Judah will return to Jerusalem and the area surrounding it'
+    key: gospel-principles-42
+    url: 'https://www.churchofjesuschrist.org/study/manual/gospel-principles/chapter-42-the-gathering-of-the-house-of-israel?lang=eng'
+    quote: 'The tribe of Judah will return to the city of Jerusalem and the area surrounding it. The ten lost tribes will receive from the tribe of Ephraim their promised blessings (see D&C 133:26–34).'
+  - where: 'section “The shape of the land”'
+    claim: 'A land which the Lord thy God careth for (Deut. 11:12)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/11?lang=eng'
+    quote: 'A land which the Lord thy God careth for: the eyes of the Lord thy God are always upon it, from the beginning of the year even unto the end of the year.'
+  - where: 'section “The shape of the land”'
+    claim: 'A land of wheat, and barley, and vines (Deut. 8:8)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/8?lang=eng'
+    quote: 'A land of wheat, and barley, and vines, and fig trees, and pomegranates; a land of oil olive, and honey;'
+  - where: 'section “The shape of the land”'
+    claim: 'The Shephelah (H8219) is printed in the KJV as the plain, the valley, the vale in Jer. 17:26; 32:44; 33:13'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
+    quote: 'הַ/שְּׁפֵלָ֤ה'
