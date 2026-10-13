@@ -2,7 +2,6 @@
 title: A Timeline of the Old Testament
 blurb: "Israel's story in one place: a timeline from Adam to the Persian period, the empires that shaped it, and where many of the books belong, with the story told in order beneath it."
 icon: history
-status: preview
 sources: [bd-chronicles, scripture-helps-welcome, bible-chron-intro, bible-chron-ot, bd-captivities, scripture-helps-ezra, ot-manual-kings-a, bd-abraham, bd-egypt, ot-manual-ex-11-19, muhlestein-israel-egypt, bd-exodus, bd-joshua, bd-judges, scripture-helps-judges, gs-israel, bd-ruth, ot-manual-judges-1-12, bd-samuel, bd-saul, bd-david, bd-solomon, scripture-helps-1-kings-24, bd-psalms, bd-proverbs, bd-ecclesiastes, bd-song-of-solomon, bd-rehoboam, gs-judah, bd-israel-kingdom, bd-jeroboam, scripture-helps-1-kings, gs-samaria, crapo-lehi-joseph, bd-judah-kingdom, bd-jonah, bd-amos, bd-hosea, bd-micah, bd-isaiah, gs-assyria, sc-knowhy-711, bd-assyria, ot-manual-12, matson-between-testaments, scripture-helps-2-kings, bd-hezekiah, schade-kingdom-judah, bd-josiah, bd-jeremiah, bd-zephaniah, bd-habakkuk, bd-nahum, scripture-helps-geography, ot-manual-kings-g, bd-nebuchadnezzar, scripture-helps-dan, sc-knowhy-860, bd-ezekiel, sc-knowhy-475, chadwick-lehi-departure, draper-exile, bd-lamentations, bd-obadiah, sc-knowhy-719, ot-manual-kings-j, gs-cyrus, bd-zerubbabel, bd-ezra, bd-temple-of-zerubbabel, bd-haggai, bd-zechariah, bd-dispersion, bd-esther-book, scripture-helps-esther, bd-nehemiah, bd-malachi, bd-persia, ot-manual-kings-k, sc-knowhy-861, bd-job-book, bd-joel, bd-cyrus, lds-scriptures]
 ---
 
