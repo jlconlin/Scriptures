@@ -65,7 +65,7 @@ for (const f of files) {
       // a live book's links go to the live site (the menu, the home page's library and its teasers)
       .replace(url, "const url = (p) => (PREVIEW_LIVE.includes(p.split('/')[0]) && !PREVIEW_KEEP.some((k) => p.startsWith(k)) ? `" + LIVE_SITE + "/${p}` : `${sm.dataset.root}${p}${sm.dataset.index}`);")
       .replace(`fetch('/search.json')`, `fetch('../search.json')`)
-      .replace('<li><a href="${d.u}">', `<li><a href="\${PREVIEW_LIVE.includes(d.b) ? '${LIVE_SITE}' + d.u : '..' + d.u.replace(/\\/(#|$)/, '/index.html$1')}">`);
+      .replace('<a class="sr-title" href="${d.u}">', `<a class="sr-title" href="\${PREVIEW_LIVE.includes(d.b) ? '${LIVE_SITE}' + d.u : '..' + d.u.replace(/\\/(#|$)/, '/index.html$1')}">`);
     if (!s.includes(`'..' + d.u.replace`)) throw new Error('site.js: the search result link was not rewritten (the template changed)');
     if (/fetch\('\//.test(s)) throw new Error('site.js: a root-absolute fetch is left');
     writeFileSync(f, s);
