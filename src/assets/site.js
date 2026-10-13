@@ -364,7 +364,6 @@
   // A reader who collapses “Where we are” or “The thread” keeps it collapsed on every chapter.
   const storedCollapsedIntro = store.get('collapsedIntro');
   const collapsedIntro = new Set(JSON.parse(storedCollapsedIntro || '[]'));
-  if (storedCollapsedIntro === null) collapsedIntro.add('thread');
   const intros = $$('details.intro');
   let printing = false;
   const applyIntro = () => intros.forEach((d) => { d.open = printing || !collapsedIntro.has(d.dataset.intro); });

@@ -60,12 +60,13 @@ function teaser(md) {
 }
 
 /** A collapsible introductory section. Open by default; collapsed, it shows its heading and first sentence.
- *  site.js remembers which sections a reader has collapsed. */
+ *  site.js remembers which sections a reader has collapsed. With `preview`, only the first paragraph shows until
+ *  “Continue reading” is pressed: Background from the start, and the thread too (author, 2026-10-13). */
 function introSection({ key, cls, body, prose, preview = false }) {
   return `<details class="${cls} intro" data-intro="${key}"${preview ? ' data-preview="true"' : ''} open>
   <summary><h2 class="card-title" id="${key}-h">${icon(SECTIONS[key].icon)} ${esc(sectionTitle(key))}${icon('chevron', 'intro-chevron')}</h2><span class="intro-teaser">${esc(teaser(body))}</span></summary>
   <div class="${prose}">${md(body)}</div>
-  ${preview ? '<button type="button" class="intro-more" data-expand-intro="setting">Continue reading background</button>' : ''}
+  ${preview ? `<button type="button" class="intro-more" data-expand-intro="${key}">Continue reading ${key === 'thread' ? 'the thread' : 'background'}</button>` : ''}
 </details>`;
 }
 
@@ -263,7 +264,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
     <div class="chapter-main">
       ${ch.setting ? introSection({ key: 'setting', cls: 'setting card', body: ch.setting, prose: 'prose', preview: true }) : ''}
 
-      ${ch.thread ? introSection({ key: 'thread', cls: 'thread', body: ch.thread, prose: 'prose prose-lg' }) : ''}
+      ${ch.thread ? introSection({ key: 'thread', cls: 'thread', body: ch.thread, prose: 'prose prose-lg', preview: true }) : ''}
 
       ${readingTools(kindsUsed, counts)}
       <p class="reader-hint">Tap any <span class="hint-phr">highlighted phrase</span> to open a note <span class="hint-narrow">beneath its verse</span><span class="hint-wide">in the margin</span>.</p>
