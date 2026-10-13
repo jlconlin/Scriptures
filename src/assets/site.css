@@ -430,7 +430,7 @@ a.ref-internal { text-decoration-style: dotted; }
 .cite a { color: var(--accent); text-decoration: none; padding: 0 1px; border-radius: 3px; }
 .cite a:hover { text-decoration: underline; }
 .cite a:focus-visible { outline: 2px solid var(--focus); }
-.cite + .cite::before { content: ","; color: var(--muted); }
+.cite-sep { color: var(--muted); margin-left: 0; }
 /* The source's name appears at once on hover or focus (the browser's own title tooltip waits a second; author, 2026-10-13). */
 .cite a[data-title]::after { content: attr(data-title); position: absolute; left: 50%; bottom: calc(100% + 6px); transform: translateX(-50%); width: max-content; max-width: min(280px, 80vw); padding: 6px 9px; border-radius: 8px; background: var(--ink); color: var(--bg); font: 500 .82rem/1.35 var(--font-ui); white-space: normal; text-align: left; box-shadow: var(--shadow-lg); opacity: 0; pointer-events: none; transition: opacity .08s; z-index: 30; }
 .cite a[data-title]:hover::after, .cite a[data-title]:focus-visible::after { opacity: 1; }

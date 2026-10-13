@@ -10,7 +10,9 @@ const CITE = /\[@([a-z0-9-]+)(?:,\s*([^\]]+))?\]/g;
 export function applyCitations(body, registry, warn = () => {}) {
   const refs = [];
   const bySpec = new Map();
-  const out = body.replace(CITE, (_, key, loc) => {
+  // Two citations with nothing between them get a comma between their numbers; the comma is written here, not by a
+  // CSS sibling rule, which also fired when only text separated them (author, 2026-10-13).
+  const out = body.replace(/(\]\[@)/g, ']\u0000[@').replace(CITE, (_, key, loc) => {
     if (!registry[key]) {
       warn(`unknown source in citation: [@${key}]`);
       return '';
@@ -26,7 +28,7 @@ export function applyCitations(body, registry, warn = () => {}) {
     ref.backrefs.push(id);
     const title = renderSource(spec, registry).replace(/<[^>]+>/g, '').replace(/"/g, '&quot;');
     return `<sup class="cite"><a href="#ref-${ref.n}" id="${id}" data-title="${title}" aria-label="Source ${ref.n}: ${title}">${ref.n}</a></sup>`;
-  });
+  }).replace(/<\/sup>\u0000<sup class="cite">/g, '</sup><sup class="cite cite-sep">,</sup><sup class="cite">').replace(/\u0000/g, '');
   return { body: out, refs };
 }
 
