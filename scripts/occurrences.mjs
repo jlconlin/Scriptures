@@ -85,7 +85,7 @@ const showTag = compiled.length > 1 || stem;
 // ---------- the King James text ----------
 
 const kjvDir = path.join(ROOT, 'data/kjv');
-const kjvSlugs = (await readdir(kjvDir)).filter((f) => f.endsWith('.json')).map((f) => f.slice(0, -5));
+const kjvSlugs = (await readdir(kjvDir)).filter((f) => f.endsWith('.json') && !f.slice(0, -5).includes('.')).map((f) => f.slice(0, -5)); // not psalms.titles, mosiah.edition, abraham.facsimiles
 const order = (await discoverBooks(ROOT)).map((b) => b.slug);
 kjvSlugs.sort((a, b) => (order.indexOf(a) + 1 || 1e9) - (order.indexOf(b) + 1 || 1e9) || a.localeCompare(b));
 const pickBooks = (list) => (allBooks ? list : list.filter((s) => s === bookArg.toLowerCase().replace(/\s+/g, '')));
