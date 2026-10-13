@@ -38,7 +38,7 @@ The narrator says, “When the LORD saw that Leah was hated, he opened her womb�
 
 Dying, Joseph tells his brothers, “God will surely visit you, and bring you out of this land” ([[Gen. 50:24]]), and says it again when he takes an oath of “the children of Israel” ([[Gen. 50:25]]). The Hebrew doubles the verb (*paqod yifqod*);[@oshb-wlc] see the note on [[Gen. 50:24]].
 
-Exodus gathers the verbs: “God heard their groaning, and God remembered his covenant” ([[Ex. 2:24]]); “I have surely seen the affliction of my people” ([[Ex. 3:7]]), the noun of Hagar, Leah and Jacob.[@oshb-wlc] The message to the elders, “I have surely visited you” ([[Ex. 3:16]]), doubles the verb as Joseph did (*paqod paqadti*),[@oshb-wlc] and when the people hear “that the LORD had visited the children of Israel, and that he had looked upon their affliction,” they bow and worship ([[Ex. 4:31]]). See [Genesis 50](/genesis/50/).
+Exodus gathers the verbs: “God heard their groaning, and God remembered his covenant” ([[Ex. 2:24]]); “I have surely seen the affliction of my people” ([[Ex. 3:7]]), the noun of Hagar, Leah and Jacob.[@oshb-wlc] The message to the elders, “I have surely visited you” ([[Ex. 3:16]]), doubles the verb as Joseph did (*paqod paqadti*)[@oshb-wlc], and when the people hear “that the LORD had visited the children of Israel, and that he had looked upon their affliction,” they bow and worship ([[Ex. 4:31]]). See [Genesis 50](/genesis/50/).
 
 Several of these passages use the name the King James Version prints “the LORD”: Hagar’s ([[Gen. 16:11, 13]]), Abraham’s “Jehovah-jireh” ([[Gen. 22:14]]), Leah’s ([[Gen. 29:31–33]]), and the message to the elders ([[Ex. 3:16]]). Jehovah is the premortal Jesus Christ.[@bd-jehovah]
 

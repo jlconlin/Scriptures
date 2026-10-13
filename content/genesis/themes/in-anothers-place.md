@@ -40,7 +40,7 @@ Benjamin is found with Joseph’s cup. Judah pleads: “let thy servant abide in
 
 Judah would take Benjamin’s punishment so that Benjamin could return to his father. That offer can remind a reader of Jesus Christ, who took our sins upon Himself so that we can return to our Father;[@scripture-helps-gen-42-50] the passage cited with it is [[Mosiah 15:9]], where the Son is “standing betwixt them and justice… taken upon himself their iniquity and their transgressions.”[@lds-scriptures] See the note on [[Gen. 44:33]].
 
-Setting this offer beside the ram of chapter 22 is the page’s own comparison; no source cited here draws it. “Instead of” is the ordinary Hebrew word for “under” and “in place of” (*tachat*, 31 times in Genesis),[@bdb] so the word alone proves little. It is the word at [[Gen. 22:13]] and here.[@oshb-wlc] The two scenes differ. The ram is provided by God ([[Gen. 22:8]], [[Gen. 22:14]]) and dies; Judah offers himself and is not taken, for Joseph “made himself known unto his brethren” ([[Gen. 45:1]]).
+Setting this offer beside the ram of chapter 22 is the page’s own comparison; no source cited here draws it. “Instead of” is the ordinary Hebrew word for “under” and “in place of” (*tachat*, 31 times in Genesis)[@bdb], so the word alone proves little. It is the word at [[Gen. 22:13]] and here.[@oshb-wlc] The two scenes differ. The ram is provided by God ([[Gen. 22:8]], [[Gen. 22:14]]) and dies; Judah offers himself and is not taken, for Joseph “made himself known unto his brethren” ([[Gen. 45:1]]).
 
 ## “Until Shiloh come”
 

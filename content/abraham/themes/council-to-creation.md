@@ -26,7 +26,7 @@ Abraham is shown “the intelligences that were organized before the world was; 
 
 ## “Whom shall I send?”
 
-“And the Lord said: Whom shall I send? And one answered like unto the Son of Man: Here am I, send me. And another answered and said: Here am I, send me. And the Lord said: I will send the first. And the second was angry, and kept not his first estate” ([[Abr. 3:27–28]]). The Father presented His plan of salvation,[@scripture-helps-gen-3-4] the only plan presented, and the question was who should be sent to carry it out.[@bednar-divine-nature-2026] For the rest, see [The Father’s One Plan and Satan’s Rebellion](/moses/themes/one-plan-and-rebellion/).
+“And the Lord said: Whom shall I send? And one answered like unto the Son of Man: Here am I, send me. And another answered and said: Here am I, send me. And the Lord said: I will send the first. And the second was angry, and kept not his first estate” ([[Abr. 3:27–28]]). The Father presented His plan of salvation[@scripture-helps-gen-3-4], the only plan presented, and the question was who should be sent to carry it out.[@bednar-divine-nature-2026] For the rest, see [The Father’s One Plan and Satan’s Rebellion](/moses/themes/one-plan-and-rebellion/).
 
 ## “Let us go down”
 
@@ -44,8 +44,8 @@ Abraham is shown “the intelligences that were organized before the world was; 
 
 The notes on [[Abr. 4:1]] and [[Abr. 5:4]] set the first and last of these together. The full list, gathered here: “We will go down” ([[Abr. 3:24]]), “Let us go down” ([[Abr. 4:1]], [[Abr. 4:26]]), “they went down” ([[Abr. 4:1]]), “the Gods went down” ([[Abr. 4:27]]), “the Gods came down” ([[Abr. 5:4]]); and “we will make an earth” ([[Abr. 3:24]]), “organized and formed the heavens and the earth” ([[Abr. 4:1]]), “came down and formed” ([[Abr. 5:4]]).
 
-The book’s other “go down” and “come down” are Abraham’s journey ([[Abr. 2:21]]), the Lord’s words to Abraham ([[Abr. 1:16–17]]; [[Abr. 3:21]]) and a right that “came down from the fathers” ([[Abr. 1:3]]).[@lds-scriptures] The whole Creation was planned by God before the work began,[@nelson-creation-2000] and Abraham “gives a blueprint as it were of the Creation,” then “says they performed as they had planned.”[@mcconkie-christ-creation-1982]
+The book’s other “go down” and “come down” are Abraham’s journey ([[Abr. 2:21]]), the Lord’s words to Abraham ([[Abr. 1:16–17]]; [[Abr. 3:21]]) and a right that “came down from the fathers” ([[Abr. 1:3]]).[@lds-scriptures] The whole Creation was planned by God before the work began[@nelson-creation-2000], and Abraham “gives a blueprint as it were of the Creation,” then “says they performed as they had planned.”[@mcconkie-christ-creation-1982]
 
 ## By the Son
 
-Under His Father’s direction Jesus Christ was the creator of the earth,[@living-christ] and God, working through His Son, organized the elements.[@gs-create-creation] The Father says in Moses: “by the Son I created them, which is mine Only Begotten” ([[Moses 1:33]]), and “by mine Only Begotten I created these things” ([[Moses 2:1]]).[@lds-scriptures] John says, “All things were made by him” ([[John 1:3]]). The Creator of [[Abr. 3:24]] is also the one “chosen and sent” in [[Abr. 3:27–28]], in the Church’s reading.[@pgp-manual-abr-3]
+Under His Father’s direction Jesus Christ was the creator of the earth[@living-christ], and God, working through His Son, organized the elements.[@gs-create-creation] The Father says in Moses: “by the Son I created them, which is mine Only Begotten” ([[Moses 1:33]]), and “by mine Only Begotten I created these things” ([[Moses 2:1]]).[@lds-scriptures] John says, “All things were made by him” ([[John 1:3]]). The Creator of [[Abr. 3:24]] is also the one “chosen and sent” in [[Abr. 3:27–28]], in the Church’s reading.[@pgp-manual-abr-3]

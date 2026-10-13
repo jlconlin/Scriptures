@@ -52,7 +52,7 @@ The Hebrew verb translated “serve” in 3:14 returns in “serveth” in 3:17 
 
 ## The Sun of righteousness
 
-“The messenger of the covenant” ([[Mal. 3:1]]) is one of the names of Jesus Christ,[@bd-christ-names] and “the Sun of righteousness” is Jesus Christ.[@cfm-ot-2026-51]
+“The messenger of the covenant” ([[Mal. 3:1]]) is one of the names of Jesus Christ[@bd-christ-names], and “the Sun of righteousness” is Jesus Christ.[@cfm-ot-2026-51]
 
 The risen Lord gave these chapters to the Nephites, and there the verse reads “the Son of Righteousness” ([[3 Ne. 25:2]]). Nephi had written, “the Son of Righteousness shall appear unto them; and he shall heal them” ([[2 Ne. 26:9]]).[@lds-scriptures] The Hebrew word in Malachi is *shemesh*, “sun”;[@oshb-wlc] neither text says why the wording differs. See the note on [[Mal. 4:2]].
 

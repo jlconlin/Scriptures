@@ -25,7 +25,7 @@ export function applyCitations(body, registry, warn = () => {}) {
     const id = `cite-${ref.n}-${ref.backrefs.length + 1}`;
     ref.backrefs.push(id);
     const title = renderSource(spec, registry).replace(/<[^>]+>/g, '').replace(/"/g, '&quot;');
-    return `<sup class="cite"><a href="#ref-${ref.n}" id="${id}" title="${title}" aria-label="Source ${ref.n}">${ref.n}</a></sup>`;
+    return `<sup class="cite"><a href="#ref-${ref.n}" id="${id}" data-title="${title}" aria-label="Source ${ref.n}: ${title}">${ref.n}</a></sup>`;
   });
   return { body: out, refs };
 }

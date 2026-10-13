@@ -5,7 +5,7 @@ icon: christ
 sources: [lds-scriptures, bd-hosea, bd-jehovah, oshb-wlc, griffin-matthew-portrayal, frederick-ot-in-nt-gospels, rsc-combs-ahaz-sign, vandyke-ogden-twelve]
 ---
 
-Egypt is named in thirteen verses of Hosea,[@oshb-wlc] and they are not of one kind: some remember the Exodus ([[Hos. 11:1]]; [[Hos. 13:4]]), two show Ephraim courting Egypt in the present ([[Hos. 7:11]]; [[Hos. 12:1]]), and some threaten a return ([[Hos. 8:13]]; [[Hos. 9:3]]). Read in the order of the story, not of the book, the verses say that the Lord called Israel out of Egypt as a son, that the son turned away, that the Lord will not give him up, and that He will bring His children home. Matthew says the first of these verses was fulfilled in the child Jesus ([[Matt. 2:15]]).
+Egypt is named in thirteen verses of Hosea[@oshb-wlc], and they are not of one kind: some remember the Exodus ([[Hos. 11:1]]; [[Hos. 13:4]]), two show Ephraim courting Egypt in the present ([[Hos. 7:11]]; [[Hos. 12:1]]), and some threaten a return ([[Hos. 8:13]]; [[Hos. 9:3]]). Read in the order of the story, not of the book, the verses say that the Lord called Israel out of Egypt as a son, that the son turned away, that the Lord will not give him up, and that He will bring His children home. Matthew says the first of these verses was fulfilled in the child Jesus ([[Matt. 2:15]]).
 
 | Step | Passage | The words |
 |---|---|---|

@@ -46,7 +46,7 @@ Israel is given words to say: “Asshur shall not save us… for in thee the fat
 
 <h2 id="husband">The husband</h2>
 
-The LORD of the Old Testament, Jehovah, is the premortal Jesus Christ,[@bd-jehovah] and the husband of Hosea 1–2 has been taught as a figure of Jehovah, Jesus Christ.[@ot-manual-10] Paul takes the reversed names of [[Hos. 2:23]] wider:[@lds-scriptures] “I will call them my people, which were not my people; and her beloved, which was not beloved” ([[Rom. 9:25]]), after “not of the Jews only, but also of the Gentiles” ([[Rom. 9:24]]). Those who become “children of Christ” by covenant are read as the sons of the living God ([[Mosiah 5:7]]).[@scripture-helps-hosea]
+The LORD of the Old Testament, Jehovah, is the premortal Jesus Christ[@bd-jehovah], and the husband of Hosea 1–2 has been taught as a figure of Jehovah, Jesus Christ.[@ot-manual-10] Paul takes the reversed names of [[Hos. 2:23]] wider:[@lds-scriptures] “I will call them my people, which were not my people; and her beloved, which was not beloved” ([[Rom. 9:25]]), after “not of the Jews only, but also of the Gentiles” ([[Rom. 9:24]]). Those who become “children of Christ” by covenant are read as the sons of the living God ([[Mosiah 5:7]]).[@scripture-helps-hosea]
 
 Later prophets were shaped by Hosea;[@bd-hosea] see [[Jer. 3:14]] and [[Ezek. 16:60]].
 

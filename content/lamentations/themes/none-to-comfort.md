@@ -31,7 +31,7 @@ The hope that perished in verse 18 is a noun, *tokhelet*; the hope of verses 21 
 
 ## Shut out, and heard
 
-“Thou hast covered thyself with a cloud, that our prayer should not pass through” ([[Lam. 3:44]]). Then: “I called upon thy name, O LORD, out of the low dungeon. Thou hast heard my voice… Thou drewest near in the day that I called upon thee: thou saidst, Fear not” ([[Lam. 3:55–57]]). The book quotes no other words of the Lord, and these come in the man’s own telling.[@lds-scriptures] The tenses of these verses are read two ways: as a rescue remembered (“You came near when I called”),[@niv][@esv][@nrsvue] or as present assurance, as an older commentary takes it.[@keil-lamentations] See the note on [[Lam. 3:56]]. For the appeals to be seen, see [“See, O LORD, and Consider”](/lamentations/themes/look-upon-us/).
+“Thou hast covered thyself with a cloud, that our prayer should not pass through” ([[Lam. 3:44]]). Then: “I called upon thy name, O LORD, out of the low dungeon. Thou hast heard my voice… Thou drewest near in the day that I called upon thee: thou saidst, Fear not” ([[Lam. 3:55–57]]). The book quotes no other words of the Lord, and these come in the man’s own telling.[@lds-scriptures] The tenses of these verses are read two ways: as a rescue remembered (“You came near when I called”)[@niv][@esv][@nrsvue], or as present assurance, as an older commentary takes it.[@keil-lamentations] See the note on [[Lam. 3:56]]. For the appeals to be seen, see [“See, O LORD, and Consider”](/lamentations/themes/look-upon-us/).
 
 ## No reply
 

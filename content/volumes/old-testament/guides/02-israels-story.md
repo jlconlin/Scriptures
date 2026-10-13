@@ -42,7 +42,7 @@ Under Rehoboam the division came, “mainly the result of an old” rivalry betw
 
 **The south.** The house of David held the throne “until the Exile,” and Judah outlasted Israel by 135 years.[@bd-judah-kingdom]
 
-**The prophets.** Elijah was a prophet “during the reign of Ahab”;[@scripture-helps-1-kings] the table places Elisha under Jehoram.[@bible-chron-ot] Jonah lived under Jeroboam II, who died about 750;[@bd-jonah][@bd-amos] Amos and Hosea prophesied in his reign,[@bd-jeroboam] Hosea being “the only prophet of the northern kingdom who has left written prophecies.”[@bd-hosea] Micah prophesied under Hezekiah,[@bd-micah] and Isaiah in Jerusalem “740–701 B.C.”[@bd-isaiah] See [Hosea](/hosea/) and, for the kings of Isaiah's day, [Isaiah's World](/isaiah/guides/isaiahs-world/).
+**The prophets.** Elijah was a prophet “during the reign of Ahab”;[@scripture-helps-1-kings] the table places Elisha under Jehoram.[@bible-chron-ot] Jonah lived under Jeroboam II, who died about 750;[@bd-jonah][@bd-amos] Amos and Hosea prophesied in his reign[@bd-jeroboam], Hosea being “the only prophet of the northern kingdom who has left written prophecies.”[@bd-hosea] Micah prophesied under Hezekiah[@bd-micah], and Isaiah in Jerusalem “740–701 B.C.”[@bd-isaiah] See [Hosea](/hosea/) and, for the kings of Isaiah's day, [Isaiah's World](/isaiah/guides/isaiahs-world/).
 
 <h2 id="assyria">Assyria and the fall of Samaria</h2>
 
@@ -60,7 +60,7 @@ Nineveh fell in 612 (the table: 606; the Student Manual: 609) to the Medes and B
 
 Jehoiachin reigned three months and was deposed in 597 (the table: 598); the Babylonian Chronicle dates Zedekiah's appointment to March 16, 597.[@schade-kingdom-judah][@bible-chron-ot][@sc-knowhy-860] “He carried away all Jerusalem … even ten thousand captives” ([[2 Kgs. 24:14]]).[@lds-scriptures] Ezekiel was among them.[@bd-ezekiel]
 
-Lehi's ministry is dated “in the commencement of the first year of the reign of Zedekiah” ([[1 Ne. 1:4]]).[@lds-scriptures] The Introduction to the Book of Mormon says 600 B.C.;[@lds-scriptures] proposed dates for Lehi's departure range from 605 to 588, many of them 597–596,[@sc-knowhy-475] and one is November 605.[@chadwick-lehi-departure]
+Lehi's ministry is dated “in the commencement of the first year of the reign of Zedekiah” ([[1 Ne. 1:4]]).[@lds-scriptures] The Introduction to the Book of Mormon says 600 B.C.;[@lds-scriptures] proposed dates for Lehi's departure range from 605 to 588, many of them 597–596[@sc-knowhy-475], and one is November 605.[@chadwick-lehi-departure]
 
 Zedekiah reigned 597–586; the final siege began in 587.[@schade-kingdom-judah] “In the fifth month … came Nebuzar-adan … And he burnt the house of the Lord” ([[2 Kgs. 25:8–9]]).[@lds-scriptures] The table has 587 for the capture.[@bible-chron-ot] Jeremiah counts 4,600 deported, in 597, 587 and 582.[@draper-exile] Lamentations was written “some years after the fall of the city,” and Obadiah “more probably” after 586.[@bd-lamentations][@bd-obadiah] See [Jeremiah's World](/jeremiah/guides/jeremiahs-world/), [Lamentations](/lamentations/), [Ezekiel](/ezekiel/) and [Daniel](/daniel/).
 
@@ -76,13 +76,18 @@ Persia took Babylon in 539 (the table and the Bible Dictionary: 538).[@scripture
 
 The decree came about a year later, 538 (the table: 537; Captivities: 536): “he hath charged me to build him an house at Jerusalem” ([[Ezra 1:2]]).[@scripture-helps-ezra][@matson-between-testaments][@bible-chron-ot][@bd-captivities][@lds-scriptures] Zerubbabel, Jehoiachin's grandson and governor under Cyrus, rebuilt the temple with Haggai and Zechariah despite Samaritan opposition. Work resumed in 520, and the temple was dedicated in 516 (also dated 515).[@bd-zerubbabel][@bd-ezra][@bd-temple-of-zerubbabel][@matson-between-testaments] Haggai spoke about 520; Zechariah 520–518.[@bd-haggai][@bd-zechariah] Most exiles stayed in Babylon; those who remained abroad are the Dispersion.[@ot-manual-kings-j][@bd-dispersion]
 
-Esther's story belongs to the captivity, under Ahasuerus, “commonly identified as Xerxes I, who ruled Persia from 486 to 465 BC.”[@bd-esther-book][@scripture-helps-esther] Ezra obtained Artaxerxes's edict in 458; Nehemiah, the king's cupbearer, rebuilt the walls (the table: 444); Malachi spoke about 430.[@bd-ezra][@bd-nehemiah][@bible-chron-ot][@bd-malachi] Judea was a Persian province until Alexander defeated Persia in 334.[@bd-persia][@ot-manual-kings-k] Chronicles, which runs from the Creation to Cyrus's proclamation,[@bd-chronicles] appears to address the question “Are we still God's people and does the covenant still stand?”[@sc-knowhy-861] See [Daniel](/daniel/) and [Malachi](/malachi/).
+Esther's story belongs to the captivity, under Ahasuerus, “commonly identified as Xerxes I, who ruled Persia from 486 to 465 BC.”[@bd-esther-book][@scripture-helps-esther] Ezra obtained Artaxerxes's edict in 458; Nehemiah, the king's cupbearer, rebuilt the walls (the table: 444); Malachi spoke about 430.[@bd-ezra][@bd-nehemiah][@bible-chron-ot][@bd-malachi] Judea was a Persian province until Alexander defeated Persia in 334.[@bd-persia][@ot-manual-kings-k] Chronicles, which runs from the Creation to Cyrus's proclamation[@bd-chronicles], appears to address the question “Are we still God's people and does the covenant still stand?”[@sc-knowhy-861] See [Daniel](/daniel/) and [Malachi](/malachi/).
 
 <h2 id="timeline">The timeline</h2>
 
 <figure class="tl-figure">
-<p class="tl-lead">Israel and Judah on the left, the nations on the right. Before 931 the dates are estimates, from the reign lengths the text gives and the studies the sections above cite; after it they are the dates the sections give, with the Church's Bible Chronology table's figure in parentheses where it differs. The rows are in order, not to scale.</p>
+<p class="tl-lead">Israel and Judah on the left, the nations on the right. Before Abraham the rows keep the order the text gives, with no dates. From Abraham to 931 the dates are estimates, from the reign lengths the text gives and the studies the sections above cite; after it they are the dates the sections give, with the Church's Bible Chronology table's figure in parentheses where it differs. The rows are in order, not to scale.</p>
 <ol class="tl">
+<li class="tl-era e-one"><span>From Adam to Abraham</span></li>
+<li class="tl-l c-one"><span class="tl-date">no date</span><span class="tl-text">Adam and Eve; the Fall, and the way out of Eden ([[Gen. 3]]; [[Moses 4]])</span></li>
+<li class="tl-l c-one"><span class="tl-date">no date</span><span class="tl-text">Enoch walks with God; his Zion is taken up into heaven ([[Gen. 5]]; [[Moses 7]])</span></li>
+<li class="tl-l c-one"><span class="tl-date">no date</span><span class="tl-text">Noah; the Flood ([[Gen. 6]]–[[Gen. 9]]; [[Moses 8]])</span></li>
+<li class="tl-l c-one"><span class="tl-date">no date</span><span class="tl-text">Babel; the Lord scatters the nations ([[Gen. 11]])</span></li>
 <li class="tl-era e-egypt"><span>The patriarchs, and Egypt</span></li>
 <li class="tl-l c-one"><span class="tl-date">c. 1943</span><span class="tl-text">Abraham born; the covenant with him ([[Gen. 12]]; [[Abr. 2]])</span></li>
 <li class="tl-r c-egypt"><span class="tl-date">c. 1950–1750</span><span class="tl-text">Egypt's Middle Kingdom: the Twelfth Dynasty</span></li>

@@ -26,7 +26,7 @@ Scripture connects three of these passages with Jesus Christ: “the Messiah wil
 
 <h2 id="prepare-the-way">Prepare ye the way of the LORD</h2>
 
-“The voice of him that crieth in the wilderness, Prepare ye the way of the LORD, make straight in the desert a highway for our God” ([[Isa. 40:3]]). Here the highway is “for our God.” All four Gospels apply the verse to John the Baptist ([[Matt. 3:3]]; [[Mark 1:3]]; [[Luke 3:4]]; [[John 1:23]]),[@lds-scriptures] who says, “I am the voice of one crying in the wilderness, Make straight the way of the Lord.” Lehi had foretold that one “should go forth and cry in the wilderness: Prepare ye the way of the Lord, and make his paths straight” ([[1 Ne. 10:8]]). Latter-day revelation uses the same words for the Second Coming: “Prepare ye the way of the Lord, and make his paths straight, for the hour of his coming is nigh” ([[D&C 133:17]]). See [Isaiah 40](/isaiah/40/).
+“The voice of him that crieth in the wilderness, Prepare ye the way of the LORD, make straight in the desert a highway for our God” ([[Isa. 40:3]]). Here the highway is “for our God.” All four Gospels apply the verse to John the Baptist ([[Matt. 3:3]]; [[Mark 1:3]]; [[Luke 3:4]]; [[John 1:23]])[@lds-scriptures], who says, “I am the voice of one crying in the wilderness, Make straight the way of the Lord.” Lehi had foretold that one “should go forth and cry in the wilderness: Prepare ye the way of the Lord, and make his paths straight” ([[1 Ne. 10:8]]). Latter-day revelation uses the same words for the Second Coming: “Prepare ye the way of the Lord, and make his paths straight, for the hour of his coming is nigh” ([[D&C 133:17]]). See [Isaiah 40](/isaiah/40/).
 
 ## A new thing
 

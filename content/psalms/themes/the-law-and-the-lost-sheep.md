@@ -28,7 +28,7 @@ Psalm 119 has spoken of past straying: “Before I was afflicted I went astray�
 
 > I have gone astray like a lost sheep; seek thy servant; for I do not forget thy commandments. ([[Ps. 119:176]])
 
-“Lost” occurs nowhere else in the King James Psalms (its Hebrew word is elsewhere “perish,” as at [[Ps. 1:6]]),[@oshb-wlc] and nowhere else in them is God asked to “seek” a person.[@lds-scriptures] In one older reading, the straying is not a turning away from God: the sheep’s home is still beside the Lord (see the note on [[Ps. 119:176]]).[@delitzsch-psalms]
+“Lost” occurs nowhere else in the King James Psalms (its Hebrew word is elsewhere “perish,” as at [[Ps. 1:6]])[@oshb-wlc], and nowhere else in them is God asked to “seek” a person.[@lds-scriptures] In one older reading, the straying is not a turning away from God: the sheep’s home is still beside the Lord (see the note on [[Ps. 119:176]]).[@delitzsch-psalms]
 
 <h2 id="shepherd">The shepherd who restores</h2>
 

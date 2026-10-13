@@ -25,7 +25,7 @@ Nebuchadnezzar boasts of Babylon and hears “The kingdom is departed from thee�
 
 ## What the kings say
 
-Nebuchadnezzar writes to all nations that “his kingdom is an everlasting kingdom” ([[Dan. 4:1]], [[Dan. 4:3]]); restored, he blesses Him “whose dominion is an everlasting dominion” ([[Dan. 4:34]]). Darius decrees of the God of Daniel, “his kingdom that which shall not be destroyed” ([[Dan. 6:26]]); the Church's footnote joins that phrase to [[Dan. 2:44]].[@lds-scriptures] How far the kings' own belief went the text does not settle: it is hard to know whether Nebuchadnezzar stopped worshiping other gods,[@draper-exile] and his praise does not necessarily mean conversion.[@ot-manual-28] See the notes on [[Dan. 2:47]] and [[Dan. 4:37]].
+Nebuchadnezzar writes to all nations that “his kingdom is an everlasting kingdom” ([[Dan. 4:1]], [[Dan. 4:3]]); restored, he blesses Him “whose dominion is an everlasting dominion” ([[Dan. 4:34]]). Darius decrees of the God of Daniel, “his kingdom that which shall not be destroyed” ([[Dan. 6:26]]); the Church's footnote joins that phrase to [[Dan. 2:44]].[@lds-scriptures] How far the kings' own belief went the text does not settle: it is hard to know whether Nebuchadnezzar stopped worshiping other gods[@draper-exile], and his praise does not necessarily mean conversion.[@ot-manual-28] See the notes on [[Dan. 2:47]] and [[Dan. 4:37]].
 
 ## Given to the Son of man
 

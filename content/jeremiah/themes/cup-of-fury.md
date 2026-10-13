@@ -29,7 +29,7 @@ The Lord hands Jeremiah “the wine cup of this fury” and sends him to make na
 
 <h2 id="babylon">Babylon, the cup and the drinker</h2>
 
-The list ends: “the king of Sheshach shall drink after them” ([[Jer. 25:26]]). “Sheshach” is cross-referenced to [[Jer. 51:41]],[@lds-scriptures] where Sheshach and Babylon stand side by side: “How is Sheshach taken!… how is Babylon become an astonishment among the nations!”
+The list ends: “the king of Sheshach shall drink after them” ([[Jer. 25:26]]). “Sheshach” is cross-referenced to [[Jer. 51:41]][@lds-scriptures], where Sheshach and Babylon stand side by side: “How is Sheshach taken!… how is Babylon become an astonishment among the nations!”
 
 Babylon is also the cup, “by bold metaphor”:[@bdb] “Babylon hath been a golden cup in the LORD’s hand, that made all the earth drunken: the nations have drunken of her wine; therefore the nations are mad” ([[Jer. 51:7]]). The Hebrew verb for “mad” here is the one in [[Jer. 25:16]], where the nations who drink the cup “be mad.”[@oshb-wlc]
 

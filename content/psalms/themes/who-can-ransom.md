@@ -20,7 +20,7 @@ The psalms speak of death in different voices: fear, rescue already given, hope,
 
 ## A grave where no one praises
 
-“For in death there is no remembrance of thee: in the grave who shall give thee thanks?” ([[Ps. 6:5]]). “The dead praise not the LORD, neither any that go down into silence” ([[Ps. 115:17]]). Psalm 88 asks, “shall the dead arise and praise thee?” ([[Ps. 88:10]]; see [the unanswered prayer](/psalms/themes/the-unanswered-prayer/)). The “grave” of Psalm 6:5 is Sheol,[@oshb-wlc] “the abode of departed spirits”[@bd-sheol] (explained at [Psalm 6](/psalms/6/)). Other psalms say rescue from it is already given: “thou hast brought up my soul from the grave” ([[Ps. 30:3]]).
+“For in death there is no remembrance of thee: in the grave who shall give thee thanks?” ([[Ps. 6:5]]). “The dead praise not the LORD, neither any that go down into silence” ([[Ps. 115:17]]). Psalm 88 asks, “shall the dead arise and praise thee?” ([[Ps. 88:10]]; see [the unanswered prayer](/psalms/themes/the-unanswered-prayer/)). The “grave” of Psalm 6:5 is Sheol[@oshb-wlc], “the abode of departed spirits”[@bd-sheol] (explained at [Psalm 6](/psalms/6/)). Other psalms say rescue from it is already given: “thou hast brought up my soul from the grave” ([[Ps. 30:3]]).
 
 <h2 id="price">The price no one can pay</h2>
 
@@ -28,7 +28,7 @@ Psalm 49 aims at the rich ([[Ps. 49:6]]) and says no man can pay for a life, “
 
 <h2 id="two-shepherds">Two shepherds</h2>
 
-“Like sheep they are laid in the grave; death shall feed on them” ([[Ps. 49:14]]). The Hebrew verb behind “feed” is the shepherd’s verb, the one in “The LORD is my shepherd” ([[Ps. 23:1]]),[@oshb-wlc] a contrast one older reading also draws[@delitzsch-psalms] (see [Psalm 49](/psalms/49/)).
+“Like sheep they are laid in the grave; death shall feed on them” ([[Ps. 49:14]]). The Hebrew verb behind “feed” is the shepherd’s verb, the one in “The LORD is my shepherd” ([[Ps. 23:1]])[@oshb-wlc], a contrast one older reading also draws[@delitzsch-psalms] (see [Psalm 49](/psalms/49/)).
 
 Set beside Psalm 49:14, the sheep of the other shepherd “walk through the valley of the shadow of death” and fear no evil, “for thou art with me” ([[Ps. 23:4]]). The Hebrew behind “shadow of death” can also mean darkness or gloom, and the valley stands for “times of distress or danger,”[@scripture-helps-ps-1] so the verse is not only about dying. Another psalm: “if I make my bed in hell, behold, thou art there” ([[Ps. 139:8]]). Psalm 23 is taken up at [the law and the lost sheep](/psalms/themes/the-law-and-the-lost-sheep/).
 

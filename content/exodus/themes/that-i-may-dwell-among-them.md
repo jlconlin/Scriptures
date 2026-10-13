@@ -39,7 +39,7 @@ After the calf the Lord still promises the land, but says, “I will not go up i
 
 <h2 id="filled">The glory filled the tabernacle</h2>
 
-“A cloud covered the tent of the congregation, and the glory of the LORD filled the tabernacle,” and Moses could not enter “because the cloud abode thereon” ([[Ex. 40:34–35]]). “Abode” is the verb of 24:16 again,[@oshb-wlc] and one study sets the glory filling the tent beside its dwelling on the mount.[@morales-tabernacle] The cloud was upon the tabernacle “throughout all their journeys” ([[Ex. 40:38]]). See [Exodus 40](/exodus/40/).
+“A cloud covered the tent of the congregation, and the glory of the LORD filled the tabernacle,” and Moses could not enter “because the cloud abode thereon” ([[Ex. 40:34–35]]). “Abode” is the verb of 24:16 again[@oshb-wlc], and one study sets the glory filling the tent beside its dwelling on the mount.[@morales-tabernacle] The cloud was upon the tabernacle “throughout all their journeys” ([[Ex. 40:38]]). See [Exodus 40](/exodus/40/).
 
 <h2 id="word">Dwelt among us</h2>
 

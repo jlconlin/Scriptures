@@ -22,7 +22,7 @@ Elder Bruce R. McConkie gave ten keys of his own. He urged readers to know the p
 
 ## Key 2: Read it as poetry
 
-Isaiah is written in a poetic style,[@ot-manual-e] and Hebrew poetry doesn’t rhyme sounds. It rhymes **ideas**. The basic unit is a pair of lines in which the second line echoes, sharpens, or contrasts the first. This is called *parallelism*, or “thought-rhythm.”[@ot-manual-g] Once you hear it, Isaiah becomes far easier.
+Isaiah is written in a poetic style[@ot-manual-e], and Hebrew poetry doesn’t rhyme sounds. It rhymes **ideas**. The basic unit is a pair of lines in which the second line echoes, sharpens, or contrasts the first. This is called *parallelism*, or “thought-rhythm.”[@ot-manual-g] Once you hear it, Isaiah becomes far easier.
 
 **The second line restates the first:**
 
@@ -69,7 +69,7 @@ Isaiah moves between several time periods, often without warning, because some o
 | **The Savior’s mortal ministry** | about 700 years after Isaiah[@mcconkie-keys] | the Servant, Immanuel, the Anointed One, the Man of Sorrows |
 | **The last days and the Millennium** | our day and beyond | the ensign, gathering, Zion, “in that day,” new heavens and new earth |
 
-One passage can speak to more than one horizon. In chapters 13–14, Babylon is both the nation and the wickedness of the world that the nation epitomized.[@ot-manual-e] Cyrus captured the nation,[@bd-cyrus] and the figure of Babylon also describes the downfall of “Babylon” the wicked world at the Second Coming ([[D&C 1:16]]; [[D&C 133:14]]). The Book of Mormon calls this *likening*; it is also called *dualism*.[@ot-manual-e] Nephi says “all things which have been given of God from the beginning of the world, unto man, are the typifying of him” ([[2 Ne. 11:4]]). A good question to ask of any Isaiah passage is: *Where else has this pattern happened, and where will it happen again?*
+One passage can speak to more than one horizon. In chapters 13–14, Babylon is both the nation and the wickedness of the world that the nation epitomized.[@ot-manual-e] Cyrus captured the nation[@bd-cyrus], and the figure of Babylon also describes the downfall of “Babylon” the wicked world at the Second Coming ([[D&C 1:16]]; [[D&C 133:14]]). The Book of Mormon calls this *likening*; it is also called *dualism*.[@ot-manual-e] Nephi says “all things which have been given of God from the beginning of the world, unto man, are the typifying of him” ([[2 Ne. 11:4]]). A good question to ask of any Isaiah passage is: *Where else has this pattern happened, and where will it happen again?*
 
 ## Key 4: The “prophetic perfect”
 

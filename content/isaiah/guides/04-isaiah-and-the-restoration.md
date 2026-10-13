@@ -61,7 +61,7 @@ Isaiah 29 speaks of a people who “speak out of the ground,” a sealed book de
 
 The root of Jesse is commonly identified as Joseph Smith, though the revelation doesn’t name anyone.[@isaiah-in-bom, p. 214]
 
-**Section 133**, first added to the Doctrine and Covenants as an appendix,[@lds-scriptures] draws repeatedly on Isaiah. It quotes his prayer to “rend the heavens” ([[D&C 133:40–45]]; [[Isa. 64:1–4]]) and his vision of the Lord coming in red apparel from Edom ([[D&C 133:46–53]]; [[Isa. 63:1–9]]). It also borrows his highway, his parched ground, and his pools of living water ([[D&C 133:26–29]]; [[Isa. 35]]).
+**Section 133**, first added to the Doctrine and Covenants as an appendix[@lds-scriptures], draws repeatedly on Isaiah. It quotes his prayer to “rend the heavens” ([[D&C 133:40–45]]; [[Isa. 64:1–4]]) and his vision of the Lord coming in red apparel from Edom ([[D&C 133:46–53]]; [[Isa. 63:1–9]]). It also borrows his highway, his parched ground, and his pools of living water ([[D&C 133:26–29]]; [[Isa. 35]]).
 
 Other places where modern revelation echoes Isaiah:
 

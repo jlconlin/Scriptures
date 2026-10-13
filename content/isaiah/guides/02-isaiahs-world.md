@@ -9,7 +9,7 @@ Nephi said that one reason he could understand Isaiah was that he knew “the re
 
 ## Where Isaiah stood
 
-Isaiah was a prophet in **Jerusalem**, capital of the kingdom of **Judah**, from about 740 to 701 BC.[@bd-isaiah] To the north was the kingdom of **Israel**, often called **Ephraim** ([[Isa. 7:9]]), with its capital at **Samaria**.[@bd-samaria] Both kingdoms lay between two great powers, **Egypt** to the southwest and **Assyria** to the northeast, and an alliance with Egypt against Assyria was for some time the policy of Judah’s kings.[@bd-egypt] Beyond Assyria lay **Babylon**, the later empire whose destruction of Judah Isaiah foretold,[@ot-manual-f] and beyond Babylon lay Persia, whose king **Cyrus** is named in [[Isa. 44:28]].
+Isaiah was a prophet in **Jerusalem**, capital of the kingdom of **Judah**, from about 740 to 701 BC.[@bd-isaiah] To the north was the kingdom of **Israel**, often called **Ephraim** ([[Isa. 7:9]]), with its capital at **Samaria**.[@bd-samaria] Both kingdoms lay between two great powers, **Egypt** to the southwest and **Assyria** to the northeast, and an alliance with Egypt against Assyria was for some time the policy of Judah’s kings.[@bd-egypt] Beyond Assyria lay **Babylon**, the later empire whose destruction of Judah Isaiah foretold[@ot-manual-f], and beyond Babylon lay Persia, whose king **Cyrus** is named in [[Isa. 44:28]].
 
 ## A map of Isaiah’s world
 
@@ -86,7 +86,7 @@ The empires are in the table above. [Names, Places, and Symbols](/isaiah/guides/
 | **Edom**, Idumea, Seir, Bozrah | South of the Dead Sea; descendants of Esau ([[Isa. 34]]; [[Isa. 63:1]]).[@bd-edom] |
 | **Tyre** and **Sidon** | Tyre was an important commercial seaport;[@bd-tyre] Sidon is named with it ([[Isa. 23]]). |
 | **Tarshish** | Probably Tartessus in Spain; “ships of Tarshish” came to mean ships of the largest size.[@bd-tarshish] |
-| **Media**, **Elam** | Media lay between the Caspian Sea and Elam,[@bd-media] and Elam east of Babylonia;[@bd-elam] both are named against Babylon ([[Isa. 13:17]]; [[Isa. 21:2]]). |
+| **Media**, **Elam** | Media lay between the Caspian Sea and Elam[@bd-media], and Elam east of Babylonia;[@bd-elam] both are named against Babylon ([[Isa. 13:17]]; [[Isa. 21:2]]). |
 
 ## Everyday things Isaiah assumes you know
 

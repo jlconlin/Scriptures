@@ -107,7 +107,7 @@ Some accounts “show the harsh and painful realities of living in a fallen worl
 
 **Jephthah's daughter** ([[Judg. 11]]). Jephthah makes a vow on condition that the LORD give him victory over Ammon ([[Judg. 11:30]]). One reading is that he “offered his own daughter in sacrifice”;[@bd-jephthah] another, that the vow dedicated her to lifelong virginity, since the text has her bewail her virginity and says she “knew no man.”[@ot-manual-judges-1-12]
 
-**The Levite's concubine** ([[Judg. 19]]). The King James Version says she “played the whore against him” ([[Judg. 19:2]]),[@lds-scriptures] the Septuagint only that she “departed from him.”[@lxx-rahlfs] “The man took his concubine, and brought her forth unto them; and they knew her, and abused her all the night until the morning” ([[Judg. 19:25]]).[@lds-scriptures] These chapters are “samples of Israel's worst days,” and nothing in them shows Israel doing right.[@ot-manual-judges-13-21]
+**The Levite's concubine** ([[Judg. 19]]). The King James Version says she “played the whore against him” ([[Judg. 19:2]])[@lds-scriptures], the Septuagint only that she “departed from him.”[@lxx-rahlfs] “The man took his concubine, and brought her forth unto them; and they knew her, and abused her all the night until the morning” ([[Judg. 19:25]]).[@lds-scriptures] These chapters are “samples of Israel's worst days,” and nothing in them shows Israel doing right.[@ot-manual-judges-13-21]
 
 **The unbetrothed virgin.** “Then the man that lay with her shall give unto the damsel's father fifty shekels of silver, and she shall be his wife; because he hath humbled her, he may not put her away all his days” ([[Deut. 22:29]]).[@lds-scriptures]
 

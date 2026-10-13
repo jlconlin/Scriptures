@@ -20,7 +20,7 @@ Before the world was, the Father’s plan was known, and the question was whom H
 
 In Abraham’s vision the Lord asks, “Whom shall I send?” and two answer, “Here am I, send me”; the Lord says, “I will send the first” ([[Abr. 3:27]]). Moses 4 gives the words. Satan said: “I will be thy son, and I will redeem all mankind, that one soul shall not be lost, and surely I will do it; wherefore give me thine honor” ([[Moses 4:1]]). Of His Son the Father says: “my Beloved Son, which was my Beloved and Chosen from the beginning, said unto me—Father, thy will be done, and the glory be thine forever” ([[Moses 4:2]]).
 
-The Father presented His plan of salvation,[@scripture-helps-gen-3-4] and “only one plan was presented in the premortal council—the Father’s plan.”[@bednar-divine-nature-2026] The question was who should be sent to carry it out; Lucifer presented no plan that was voted down. He rebelled.[@bednar-divine-nature-2026] The book’s one use of “plan” is “the plan of salvation unto all men, through the blood of mine Only Begotten” ([[Moses 6:62]]).[@lds-scriptures]
+The Father presented His plan of salvation[@scripture-helps-gen-3-4], and “only one plan was presented in the premortal council—the Father’s plan.”[@bednar-divine-nature-2026] The question was who should be sent to carry it out; Lucifer presented no plan that was voted down. He rebelled.[@bednar-divine-nature-2026] The book’s one use of “plan” is “the plan of salvation unto all men, through the blood of mine Only Begotten” ([[Moses 6:62]]).[@lds-scriptures]
 
 <h2 id="rebelled">Rebelled</h2>
 
