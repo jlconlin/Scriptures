@@ -41,7 +41,7 @@
   --div-comfort: #2f7f9a;
   --div-servant: #b02f4c;
   --div-zion: #3d7a54;
-  --tl-bom: #a8326f;   /* the timeline's Book of Mormon rows */
+  --tl-bom: #b4237c;   /* the timeline's Book of Mormon rows */
 
   --art-sky-1: #f9dcc2;
   --art-sky-2: #fbeee0;
@@ -73,7 +73,7 @@
     --bg: #17181f; --bg-2: #1d1f28; --surface: #20222c; --ink: #ece6da; --ink-2: #cfc8bb; --muted: #9a9aa6;
     --line: #2f3140; --line-2: #3d4050; --accent: #ec8a5e; --accent-ink: #f3a47f; --accent-soft: #3a2a24; --focus: #7aa7ff;
     --k-words: #9aa7f2; --k-history: #e0a767; --k-symbol: #6fcfc5; --k-christ: #f08aa0; --k-scripture: #d8c268; --k-prophets: #c9a0ec; --k-structure: #98d58c; --k-bom: #8fb8f2;
-    --div-judah: #ec8a5e; --div-nations: #c49ad6; --div-apocalypse: #ea7d78; --div-woes: #e2b565; --div-hezekiah: #b5c47c; --div-comfort: #74c3dc; --div-servant: #f08aa0; --div-zion: #85cc9f; --tl-bom: #e58ab8;
+    --div-judah: #ec8a5e; --div-nations: #c49ad6; --div-apocalypse: #ea7d78; --div-woes: #e2b565; --div-hezekiah: #b5c47c; --div-comfort: #74c3dc; --div-servant: #f08aa0; --div-zion: #85cc9f; --tl-bom: #ee8fc9;
     --art-sky-1: #2b2a3d; --art-sky-2: #1f2030; --art-sun: #f0c987; --art-hill-1: #3c4a33; --art-hill-2: #4d5c41; --art-pole: #c9b79e; --art-people: #d7cdb7;
     --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 8px 24px -10px rgb(0 0 0 / 60%);
     --shadow-lg: 0 2px 4px rgb(0 0 0 / 35%), 0 20px 50px -12px rgb(0 0 0 / 70%);
@@ -85,7 +85,7 @@
   --bg: #17181f; --bg-2: #1d1f28; --surface: #20222c; --ink: #ece6da; --ink-2: #cfc8bb; --muted: #9a9aa6;
   --line: #2f3140; --line-2: #3d4050; --accent: #ec8a5e; --accent-ink: #f3a47f; --accent-soft: #3a2a24; --focus: #7aa7ff;
   --k-words: #9aa7f2; --k-history: #e0a767; --k-symbol: #6fcfc5; --k-christ: #f08aa0; --k-scripture: #d8c268; --k-prophets: #c9a0ec; --k-structure: #98d58c; --k-bom: #8fb8f2;
-  --div-judah: #ec8a5e; --div-nations: #c49ad6; --div-apocalypse: #ea7d78; --div-woes: #e2b565; --div-hezekiah: #b5c47c; --div-comfort: #74c3dc; --div-servant: #f08aa0; --div-zion: #85cc9f; --tl-bom: #e58ab8;
+  --div-judah: #ec8a5e; --div-nations: #c49ad6; --div-apocalypse: #ea7d78; --div-woes: #e2b565; --div-hezekiah: #b5c47c; --div-comfort: #74c3dc; --div-servant: #f08aa0; --div-zion: #85cc9f; --tl-bom: #ee8fc9;
   --art-sky-1: #2b2a3d; --art-sky-2: #1f2030; --art-sun: #f0c987; --art-hill-1: #3c4a33; --art-hill-2: #4d5c41; --art-pole: #c9b79e; --art-people: #d7cdb7;
   --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 8px 24px -10px rgb(0 0 0 / 60%);
   --shadow-lg: 0 2px 4px rgb(0 0 0 / 35%), 0 20px 50px -12px rgb(0 0 0 / 70%);
@@ -768,7 +768,10 @@ a.ref-internal { text-decoration-style: dotted; }
 .tl::before { content: ''; position: absolute; top: 0; bottom: 0; left: 50%; width: 2px; margin-left: -1px; background: var(--line-2); }
 .tl li { display: grid; grid-template-columns: 1fr 6.5rem 1fr; align-items: start; margin: 0 0 10px; position: relative; }
 .tl .c-one { --tl-c: var(--k-scripture); } .tl .c-north { --tl-c: var(--k-structure); } .tl .c-south { --tl-c: var(--accent); }
-.tl .c-lehi { --tl-c: var(--tl-bom); } .tl .c-egypt { --tl-c: var(--k-history); } .tl .c-assyria { --tl-c: var(--k-christ); } .tl .c-babylon { --tl-c: var(--k-words); } .tl .c-persia { --tl-c: var(--k-prophets); } .tl .c-greece { --tl-c: var(--k-symbol); }
+.tl .c-lehi { --tl-c: var(--tl-bom); }
+.tl .c-lehi .tl-text { background: color-mix(in srgb, var(--tl-c) 24%, var(--surface)); border: 2px solid var(--tl-c); border-right-width: 6px; font-weight: 600; }
+.tl .c-lehi .tl-date { background: var(--tl-c); color: var(--bg); border-color: var(--tl-c); }
+.tl .c-lehi .tl-date small { color: var(--bg); opacity: .85; } .tl .c-egypt { --tl-c: var(--k-history); } .tl .c-assyria { --tl-c: var(--k-christ); } .tl .c-babylon { --tl-c: var(--k-words); } .tl .c-persia { --tl-c: var(--k-prophets); } .tl .c-greece { --tl-c: var(--k-symbol); }
 .tl .tl-date { grid-column: 2; grid-row: 1; text-align: center; font-size: .8rem; font-weight: 700; color: var(--ink-2); background: var(--bg); border: 1px solid var(--line-2); border-radius: 999px; padding: 3px 6px; line-height: 1.25; z-index: 1; }
 .tl .tl-date small { display: block; font-weight: 500; color: var(--muted); font-size: .72rem; }
 .tl .tl-text { grid-row: 1; font-size: .93rem; line-height: 1.4; padding: 6px 10px; border-radius: 10px; background: color-mix(in srgb, var(--tl-c, var(--line)) 7%, var(--surface)); border: 1px solid color-mix(in srgb, var(--tl-c, var(--line)) 35%, var(--line)); }
@@ -790,4 +793,5 @@ a.ref-internal { text-decoration-style: dotted; }
   .tl .tl-date { grid-column: 1; font-size: .74rem; }
   .tl .tl-l .tl-text, .tl .tl-r .tl-text { grid-column: 2; text-align: left; margin: 0 0 0 10px; border-right-width: 1px; border-left: 4px solid var(--tl-c, var(--line-2)); }
   .tl .tl-era { text-align: left; padding-left: 5.2rem; }
+  .tl .c-lehi .tl-text { border-right-width: 2px; border-left-width: 6px; }
 }
