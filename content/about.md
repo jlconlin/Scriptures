@@ -41,6 +41,8 @@ AI can explain a great deal, but it can also be confidently wrong. So the conten
 - **The Book of Mormon comparisons** are generated directly from the text, not written by hand.
 - **Interpretations** follow the scriptures and the teachings of latter-day prophets and apostles. Where faithful readers differ, or where a reading is speculative, the notes try to say so.
 
+None of these checks can do what the Holy Ghost does. Elder David A. Bednar taught that “artificial intelligence cannot simulate, imitate, or replace the influence of the Holy Ghost in our lives. No matter how sophisticated and elegant AI technology ultimately may become, it simply can never bear witness of the Father and the Son, reveal the truth of all things, or sanctify those who have repented and been baptized.” His promise to those who seek the companionship of the Spirit is that they will “discern the truth of all things, even ‘things as they really are’” ([“Things as They Really Are 2.0,”](https://www.churchofjesuschrist.org/study/broadcasts/worldwide-devotional-for-young-adults/2024/11/13bednar?lang=eng) worldwide devotional for young adults, November 2024). That is the reader’s part here. Where a note is true, the Spirit can confirm it; where the AI has made an error, as it sometimes will, the same Spirit can prompt a reader to notice, to check the scripture itself, and to set the note aside.
+
 Even so, this commentary is a study aid, not an authority. Use it the way you would use a thoughtful friend’s notes: as a starting point for your own study, prayer, and pondering. If you find an error, please [open an issue on GitHub](https://github.com/jlconlin/Scriptures/issues).
 
 ## A note of humility
