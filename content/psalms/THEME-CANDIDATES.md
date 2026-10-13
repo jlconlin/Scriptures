@@ -84,6 +84,9 @@ Each selected subject below gives the proposed arc, starting passages, connectio
 
 ## Unselected candidates
 
+**Written on 2026-10-13, at the author's word for the remaining Old Testament themes (“Themes not threads… And guides”): subjects 9 and 10 are theme pages in `content/psalms/themes/`: The People Forget; God Remembers (`forget-and-remember`) and Dust and Glory (`what-is-man`; retitled because Psalm 8's chapter owns the question). Each researched, outlined, written, reviewed, repaired and read by Codex; `status: preview`; the author has not read them. Subject 7 stays dropped.**
+
+
 ### 7. From hostile nations to fellow worshippers (dropped by the author, 2026-10-11)
 
 **Keep and consolidate** the nations, Abraham's blessing, Zion's citizens, and universal praise.
