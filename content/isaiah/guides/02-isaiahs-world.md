@@ -2,7 +2,7 @@
 title: Isaiah’s World
 blurb: The kings, empires, and places behind the text. A map, one table of rulers and events, and the nations Isaiah names.
 icon: map
-sources: [ot-manual-f, bd-isaiah, bd-captivities, bd-assyria, bd-persia, bd-hezekiah, bd-ahaz, bd-uzziah, bd-samaria, bd-damascus, bd-egypt, bd-ethiopia, bd-philistines, bd-moab, bd-edom, bd-tyre, bd-tarshish, bd-media, bd-elam, bd-sennacherib, bd-lachish, bd-nineveh, bd-temple-of-zerubbabel, bd-hezekiahs-tunnel, bd-gate, bd-high-places, bd-grove, gs-ensign, luckenbill-annals, great-isaiah-scroll, lds-scriptures]
+sources: [ot-manual-f, bd-isaiah, bd-captivities, bd-assyria, bd-persia, bd-hezekiah, bd-ahaz, bd-uzziah, bd-samaria, bd-damascus, bd-egypt, bd-ethiopia, bd-philistines, bd-moab, bd-edom, bd-tyre, bd-tarshish, bd-media, bd-elam, bd-sennacherib, bd-lachish, bd-hezekiahs-tunnel, bd-gate, bd-high-places, bd-grove, gs-ensign, luckenbill-annals, great-isaiah-scroll, lds-scriptures]
 ---
 
 Nephi said that one reason he could understand Isaiah was that he knew “the regions round about” ([[2 Ne. 25:6]]). Growing up in Jerusalem, he would have known why Egypt was tempting, why Assyria was terrifying, and why Babylon was a byword. This guide tries to give you some of what Nephi knew.
@@ -47,7 +47,7 @@ Isaiah was a prophet in **Jerusalem**, capital of the kingdom of **Judah**, from
 
 <h2 id="history">Kings, empires, and events</h2>
 
-All dates are approximate, and the sources differ by a year or more in places: the fall of Samaria is dated to 722[@ot-manual-f] and to 721.[@bd-captivities] Rulers of Judah are marked “Judah”; the others are the kings and empires Judah had to reckon with.
+All dates are approximate, and the sources differ by a year or more in places: the fall of Samaria is dated to 722[@ot-manual-f] and to 721.[@bd-captivities] Rulers of Judah are marked “Judah”; the others are the kings and empires Judah had to reckon with. The whole story from Abraham to the return, and why the sources' dates differ, is in [Israel's Story in One Place](/old-testament/guides/israels-story/#dates); this table keeps the rulers of Isaiah's own day and the events his prophecies name.
 
 | Date (BC) | Ruler or empire | What happened | Where to read it |
 |---|---|---|---|
@@ -66,12 +66,11 @@ All dates are approximate, and the sources differ by a year or more in places: t
 | 705–681 | Assyria: **Sennacherib**[@bd-assyria] | In 701 he **invades Judah**, takes Lachish, and besieges Jerusalem; the Lord delivers the city.[@bd-assyria][@bd-lachish][@ot-manual-f] | [[Isa. 36–37]] |
 | 681–668 | Assyria: **Esarhaddon**[@bd-assyria] | Succeeds Sennacherib, his father. | [[Isa. 37:38]] |
 | from c. 686 | Judah: **Manasseh** | Becomes sole king and leads the nation deep into apostasy and idolatry;[@ot-manual-f] by tradition Isaiah is martyred in his reign.[@bd-isaiah] | [[2 Kgs. 21:1–16]]; [[Heb. 11:37]] |
-| c. 607–606 | Babylonians and Medes | Nineveh falls.[@bd-assyria][@bd-nineveh] | [[Nahum 1–3]] |
-| c. 600 | Judah | **Lehi leaves Jerusalem**; his sons obtain the brass plates, which hold the writings of the prophets.[@lds-scriptures] | [[1 Ne. 5:10–13]]; [[1 Ne. 19:23]] |
 | 604–561 | Babylon: **Nebuchadnezzar**[@bd-assyria] | In 586 **Babylon destroys Jerusalem** and the temple; the Jews go into exile.[@bd-captivities][@bd-assyria] | [[Isa. 39:6–7]]; [[2 Kgs. 25]] |
 | 538 | Persia: **Cyrus the Great** | Having united the Medes and Persians, he takes Babylon and founds the Persian Empire.[@bd-persia][@bd-assyria] | [[Isa. 13]]; [[Isa. 45:1–4]]; [[Isa. 47]] |
 | 536 | Persia: Cyrus | Cyrus lets the Jews return and rebuild.[@bd-captivities] | [[Isa. 44:28]]; [[Ezra 1:1–4]] |
-| 516 | Persia | The second temple is dedicated.[@bd-temple-of-zerubbabel] | [[Ezra 6:15–16]] |
+
+The fall of Nineveh, Lehi's departure, the exile and the second temple are told in [Israel's Story in One Place](/old-testament/guides/israels-story/#babylon).
 
 ## The nations Isaiah names
 

@@ -9,7 +9,7 @@ Jeremiah lived through the hinge of Old Testament history: Assyria faded, Babylo
 
 ## The story in one paragraph
 
-Judah was a small kingdom caught between Egypt to the southwest and the Mesopotamian empires to the northeast. Josiah’s reform briefly renewed worship, but his successors pursued unstable alliances and resisted Babylon. Nebuchadnezzar’s armies took Jerusalem in stages; under Zedekiah, the city was besieged, breached, and destroyed. The exile that followed was the disaster Jeremiah had spent his ministry warning about.[@bd-captivities]
+Judah was a small kingdom caught between Egypt to the southwest and the Mesopotamian empires to the northeast. Josiah’s reform briefly renewed worship, but his successors pursued unstable alliances and resisted Babylon. Nebuchadnezzar’s armies took Jerusalem in stages; under Zedekiah, the city was besieged, breached, and destroyed. The exile that followed was the disaster Jeremiah had spent his ministry warning about.[@bd-captivities] How Judah came to this point, from the division of the kingdom through Assyria's conquest of the north, is told in [Israel's Story in One Place](/old-testament/guides/israels-story/#two-kingdoms).
 
 ## Timeline
 
@@ -42,7 +42,7 @@ Dates in this period sometimes vary by a year among reference works. This guide 
 
 **Egypt** is the tempting alternative. Judah repeatedly looks south for help against Babylon; Jeremiah treats that reliance as another refusal to trust the Lord ([[Jer. 37:5–10]]; [[Jer. 42:13–19]]). The survivors’ flight to Egypt is therefore more than a change of address: the book presents it as their final act of resistance.
 
-**Assyria** is mostly the empire of the previous generation. Its earlier destruction of the northern kingdom explains why Jeremiah can speak to “Israel” and “Judah” as wounded, divided siblings and still promise their reunion.[@bd-assyria]
+**Assyria** is mostly the empire of the previous generation. Its earlier destruction of the northern kingdom explains why Jeremiah can speak to “Israel” and “Judah” as wounded, divided siblings and still promise their reunion.[@bd-assyria] See [Assyria and the fall of Samaria](/old-testament/guides/israels-story/#assyria).
 
 ## Places to keep in mind
 
