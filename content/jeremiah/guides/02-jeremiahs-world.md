@@ -9,7 +9,7 @@ Jeremiah lived through the hinge of Old Testament history: Assyria faded, Babylo
 
 ## The story in one paragraph
 
-Judah was a small kingdom caught between Egypt to the southwest and the Mesopotamian empires to the northeast. Josiah’s reform briefly renewed worship, but his successors pursued unstable alliances and resisted Babylon. Nebuchadnezzar’s armies took Jerusalem in stages; under Zedekiah, the city was besieged, breached, and destroyed. The exile that followed was the disaster Jeremiah had spent his ministry warning about.[@bd-captivities] How Judah came to this point, from the division of the kingdom through Assyria's conquest of the north, is told in [Israel's Story in One Place](/old-testament/guides/israels-story/#two-kingdoms).
+Judah was a small kingdom caught between Egypt to the southwest and the Mesopotamian empires to the northeast. Josiah’s reform briefly renewed worship, but his successors pursued unstable alliances and resisted Babylon. Nebuchadnezzar’s armies took Jerusalem in stages; under Zedekiah, the city was besieged, breached, and destroyed. The exile that followed was the disaster Jeremiah had spent his ministry warning about.[@bd-captivities] How Judah came to this point, from the division of the kingdom through Assyria's conquest of the north, is told in [A Timeline of the Old Testament](/old-testament/guides/israels-story/#two-kingdoms).
 
 ## Timeline
 

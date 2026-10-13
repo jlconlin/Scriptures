@@ -47,7 +47,7 @@ Isaiah was a prophet in **Jerusalem**, capital of the kingdom of **Judah**, from
 
 <h2 id="history">Kings, empires, and events</h2>
 
-All dates are approximate, and the sources differ by a year or more in places: the fall of Samaria is dated to 722[@ot-manual-f] and to 721.[@bd-captivities] Rulers of Judah are marked “Judah”; the others are the kings and empires Judah had to reckon with. The whole story from Abraham to the return, and why the sources' dates differ, is in [Israel's Story in One Place](/old-testament/guides/israels-story/#dates); this table keeps the rulers of Isaiah's own day and the events his prophecies name.
+All dates are approximate, and the sources differ by a year or more in places: the fall of Samaria is dated to 722[@ot-manual-f] and to 721.[@bd-captivities] Rulers of Judah are marked “Judah”; the others are the kings and empires Judah had to reckon with. The whole story from Abraham to the return, and why the sources' dates differ, is in [A Timeline of the Old Testament](/old-testament/guides/israels-story/#dates); this table keeps the rulers of Isaiah's own day and the events his prophecies name.
 
 | Date (BC) | Ruler or empire | What happened | Where to read it |
 |---|---|---|---|
@@ -70,7 +70,7 @@ All dates are approximate, and the sources differ by a year or more in places: t
 | 538 | Persia: **Cyrus the Great** | Having united the Medes and Persians, he takes Babylon and founds the Persian Empire.[@bd-persia][@bd-assyria] | [[Isa. 13]]; [[Isa. 45:1–4]]; [[Isa. 47]] |
 | 536 | Persia: Cyrus | Cyrus lets the Jews return and rebuild.[@bd-captivities] | [[Isa. 44:28]]; [[Ezra 1:1–4]] |
 
-The fall of Nineveh, Lehi's departure, the exile and the second temple are told in [Israel's Story in One Place](/old-testament/guides/israels-story/#babylon).
+The fall of Nineveh, Lehi's departure, the exile and the second temple are told in [A Timeline of the Old Testament](/old-testament/guides/israels-story/#babylon).
 
 ## The nations Isaiah names
 
