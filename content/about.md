@@ -29,7 +29,9 @@ The scripture text is the King James Version, which is in the public domain. It 
 
 ## How this site was made
 
-The commentary on this site, including the chapter essays, notes, plain-words summaries, and guides, was **written with AI**. It was drafted by Claude, an AI model made by Anthropic, working under the direction of the site’s author. The site itself (its design and code) was built the same way.
+The commentary on this site, including the chapter essays, notes, plain-words summaries, and guides, was **written with AI**. It was drafted by Claude, an AI model made by Anthropic, **working under the direction of the site’s author**, who chose the books, set the standard the commentary is held to, decided what each page may and may not claim, and reads and corrects the result. The site itself (its design and code) was built the same way.
+
+What makes AI most useful here is not that it writes quickly. It is that it can hold a great deal together at once: the whole of a book, the Hebrew behind the English, the Church’s footnotes and manuals, and the studies that have been written about a passage. A reader who notices that a word in one chapter returns in another, or that a prophet is answering a question asked three books earlier, has made a connection that takes years of study to see. The AI can see such connections across everything it has read, and bring them to the page where a reader will meet them. The theme pages are where that shows most. Each one follows a thread across many chapters and says how it points to Jesus Christ, and some of the connections they draw have not, as far as we can find, been drawn before. They are offered as that: connections to test against the text, not doctrine.
 
 AI can explain a great deal, but it can also be confidently wrong. So the content was checked in several ways:
 
