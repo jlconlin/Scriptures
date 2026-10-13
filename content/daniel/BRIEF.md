@@ -6,6 +6,12 @@ Book-level decisions for Daniel. The site-wide standard is in `STANDARDS.md`; th
 
 Related files: `OPEN-QUESTIONS.md` at the top of the repository (what waits for the author, for every book); `THEME-CANDIDATES.md` in this folder. Genesis, Isaiah, Jeremiah, Lamentations, Ezekiel, Malachi, Moses, and Abraham are on the site.
 
+## State of the book
+
+`node scripts/status.mjs daniel` prints what the repository shows; the history is `git log -- content/daniel`. What a script can't see:
+
+- **A fourth theme page, 2026-10-13** (the author, overnight: “Themes not threads… And guides”): Secrets Revealed, Words Sealed (`content/daniel/themes/secrets-revealed.md`), from the research lead; in preview until read. It does not say Daniel's sealed words are the Book of Mormon's sealed portion or the book of Revelation 5 (D&C 77:6 names that one differently); the Rev. 5 step is a marked comparison; the word evidence is stated within the Aramaic chapters only.
+
 ## What the author has decided
 
 - **Daniel is the next book** (author, 2026-10-08), written in the arrangement of `AUTHORING.md`, “Plan for the next book”: an Opus writer, the ledger script, a Sonnet checker, an Opus reviewer, then Codex's language pass.

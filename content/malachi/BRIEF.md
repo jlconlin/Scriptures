@@ -6,6 +6,12 @@ Book-level decisions for Malachi. The site-wide standard is in `STANDARDS.md`; t
 
 Related files: `OPEN-QUESTIONS.md` at the top of the repository (what waits for the author, for every book). There is no `CHURCH-STATEMENTS.md` for this book; the Church's statements on the contested questions are quoted below, with their pages.
 
+## State of the book
+
+`node scripts/status.mjs malachi` prints what the repository shows; the history is `git log -- content/malachi`. What a script can't see:
+
+- **A third theme page, 2026-10-13** (the author, overnight: “Themes not threads… And guides”): Sent Before the Day (`content/malachi/themes/preparing-the-way.md`), from the research lead the author had kept as a lead; in preview until read. It does not claim that the priest of 2:7 is sent, that the 3:1 messenger is Elijah (Keil's reading; the Church's sources keep them distinct), or that John's work is apart from Malachi 4 (Luke 1:17 applies 4:6's words to him; Alford: “partial, but not complete”).
+
 ## What the author has decided
 
 - **Malachi is the next book, as a short test of the new way of working** (AUTHORING.md, “Plan for the next book”): a Sonnet writer, then the ledger script, then a Sonnet checker, then an Opus reviewer. The author gave no focus questions for this book, so writers work from the questions a careful reader would ask (`STANDARDS.md` §3).
