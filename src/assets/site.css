@@ -777,6 +777,8 @@ a.ref-internal { text-decoration-style: dotted; }
 .tl .e-one { --tl-c: var(--k-scripture); } .tl .e-egypt { --tl-c: var(--k-history); } .tl .e-assyria { --tl-c: var(--k-christ); } .tl .e-babylon { --tl-c: var(--k-words); } .tl .e-persia { --tl-c: var(--k-prophets); }
 .tl .tl-era { display: block; text-align: center; margin: 14px 0 8px; }
 .tl .tl-era span { display: inline-block; background: color-mix(in srgb, var(--tl-c, var(--muted)) 14%, var(--bg)); color: color-mix(in srgb, var(--tl-c, var(--muted)) 80%, var(--ink)); border: 1px solid color-mix(in srgb, var(--tl-c, var(--muted)) 40%, var(--line)); border-radius: 999px; padding: 3px 14px; font-size: .74rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; position: relative; z-index: 1; }
+.tl .tl-era a { color: inherit; text-decoration: none; }
+.tl .tl-era a:hover { text-decoration: underline; }
 .tl-key { display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: center; font-size: .8rem; color: var(--muted); margin-top: 14px; }
 .tl-key span::before { content: ''; display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; background: var(--tl-c); }
 .tl-key .c-one { --tl-c: var(--k-scripture); } .tl-key .c-north { --tl-c: var(--k-structure); } .tl-key .c-south { --tl-c: var(--accent); }
