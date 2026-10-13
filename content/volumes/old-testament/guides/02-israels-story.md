@@ -80,6 +80,46 @@ Esther's story belongs to the captivity, under Ahasuerus, “commonly identified
 
 <h2 id="timeline">The timeline</h2>
 
+<figure class="tl-figure">
+<p class="tl-lead">Israel and Judah on the left, the nations on the right, from the division of the kingdom to Alexander. The rows are in order, not to scale: the sixty years around the fall of Jerusalem hold more than the two centuries before them. Dates are those the sections above give; a figure in parentheses is the Church's Bible Chronology table's.</p>
+<ol class="tl">
+<li class="tl-era"><span>Two kingdoms, and the rise of Assyria</span></li>
+<li class="tl-l"><span class="tl-date">931 <small>(975)</small></span><span class="tl-text">The kingdom divides: Israel in the north, Judah in the south ([[1 Kgs. 12]])</span></li>
+<li class="tl-r"><span class="tl-date">911–612</span><span class="tl-text">The Neo-Assyrian Empire, from its rise to the fall of Nineveh</span></li>
+<li class="tl-l"><span class="tl-date">under Ahab and Jehoram</span><span class="tl-text">Elijah and Elisha in the north ([[1 Kgs. 17]]–[[2 Kgs. 13]])</span></li>
+<li class="tl-l"><span class="tl-date">c. 790–750</span><span class="tl-text">Jeroboam II; Jonah, Amos and Hosea prophesy ([[2 Kgs. 14]]; [[Hosea 1]])</span></li>
+<li class="tl-l"><span class="tl-date">740–701</span><span class="tl-text">Isaiah in Jerusalem, under Ahaz and Hezekiah; Micah ([[Isa. 6]]; [[Isa. 7]])</span></li>
+<li class="tl-r"><span class="tl-date">738–734</span><span class="tl-text">Tiglath-pileser III takes tribute from Damascus and Samaria; Judah accepts Assyrian overlordship ([[Isa. 7]])</span></li>
+<li class="tl-era"><span>Under Assyria</span></li>
+<li class="tl-r"><span class="tl-date">722–705</span><span class="tl-text">Sargon II of Assyria</span></li>
+<li class="tl-l"><span class="tl-date">722 <small>(721)</small></span><span class="tl-text">Samaria falls; the ten tribes are carried into Assyria ([[2 Kgs. 17]]; [[Hosea 13]])</span></li>
+<li class="tl-r"><span class="tl-date">705–681</span><span class="tl-text">Sennacherib of Assyria; in 701 he invades Judah and besieges Jerusalem ([[Isa. 36]])</span></li>
+<li class="tl-l"><span class="tl-date">701</span><span class="tl-text">Hezekiah trusts the Lord; Jerusalem is delivered ([[Isa. 37]])</span></li>
+<li class="tl-l"><span class="tl-date">640–609</span><span class="tl-text">Josiah's reform; the book of the law found; Zephaniah, Jeremiah (called 626), Habakkuk ([[Jer. 1]])</span></li>
+<li class="tl-r"><span class="tl-date">612 <small>(606)</small></span><span class="tl-text">Nineveh falls to the Medes and Babylonians</span></li>
+<li class="tl-era"><span>Under Babylon</span></li>
+<li class="tl-r"><span class="tl-date">609–605</span><span class="tl-text">Egypt rules Judah after Josiah's death at Megiddo; Nebuchadnezzar beats Necho at Carchemish, 605 ([[Jer. 46]])</span></li>
+<li class="tl-r"><span class="tl-date">605–562</span><span class="tl-text">Nebuchadnezzar II of Babylon <small>(604–561)</small></span></li>
+<li class="tl-l"><span class="tl-date">c. 600</span><span class="tl-text">Daniel taken to Babylon ([[Dan. 1]])</span></li>
+<li class="tl-l"><span class="tl-date">597 <small>(598)</small></span><span class="tl-text">Jehoiachin deported; Zedekiah made king; Ezekiel among the exiles; Lehi's ministry begins ([[2 Kgs. 24]]; [[Ezek. 1]]; [[1 Ne. 1]])</span></li>
+<li class="tl-l"><span class="tl-date">586 <small>(587)</small></span><span class="tl-text">Jerusalem and the temple destroyed; Lamentations, Obadiah ([[2 Kgs. 25]]; [[Jer. 52]]; [[Lam. 1]])</span></li>
+<li class="tl-l"><span class="tl-date">586–539</span><span class="tl-text">The exile; Ezekiel prophesies to 570; Daniel at the court ([[Ps. 137]]; [[Ezek. 37]])</span></li>
+<li class="tl-r"><span class="tl-date">561</span><span class="tl-text">Evil-merodach releases Jehoiachin from prison ([[2 Kgs. 25]])</span></li>
+<li class="tl-era"><span>Under Persia</span></li>
+<li class="tl-r"><span class="tl-date">539 <small>(538)</small></span><span class="tl-text">Cyrus takes Babylon; Belshazzar slain ([[Dan. 5]])</span></li>
+<li class="tl-l"><span class="tl-date">538 <small>(537)</small></span><span class="tl-text">Cyrus's decree; the first return under Zerubbabel ([[Ezra 1]]; [[Isa. 44]])</span></li>
+<li class="tl-r"><span class="tl-date">521</span><span class="tl-text">Darius I of Persia</span></li>
+<li class="tl-l"><span class="tl-date">520–516</span><span class="tl-text">The temple rebuilt; Haggai and Zechariah ([[Ezra 6]])</span></li>
+<li class="tl-r"><span class="tl-date">486–465</span><span class="tl-text">Xerxes I, the Ahasuerus of Esther ([[Esth. 1]])</span></li>
+<li class="tl-r"><span class="tl-date">465</span><span class="tl-text">Artaxerxes I of Persia</span></li>
+<li class="tl-l"><span class="tl-date">458</span><span class="tl-text">Ezra's commission ([[Ezra 7]])</span></li>
+<li class="tl-l"><span class="tl-date">444</span><span class="tl-text">Nehemiah rebuilds the walls ([[Neh. 2]])</span></li>
+<li class="tl-l"><span class="tl-date">c. 430</span><span class="tl-text">Malachi, the last prophet of the Old Testament ([[Mal. 1]])</span></li>
+<li class="tl-r"><span class="tl-date">334</span><span class="tl-text">Alexander defeats Persia</span></li>
+</ol>
+<p class="tl-key"><span class="tl-key-l">Israel and Judah</span><span class="tl-key-r">The nations</span></p>
+</figure>
+
 | Date (BC) | What happened | Read it in | Prophets and books |
 |---|---|---|---|
 | no date | Abraham called; the covenant | [[Gen. 12]]; [[Abr. 2]] | Genesis; Abraham |
