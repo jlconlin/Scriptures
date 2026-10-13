@@ -52,7 +52,7 @@ The Old Testament “is a record of God's dealings with His covenant children fr
 <li class="tl-r c-babylon"><span class="tl-date">605–562</span><span class="tl-text">Nebuchadnezzar II of Babylon <small>(604–561)</small></span></li>
 <li class="tl-l c-south"><span class="tl-date">c. 600</span><span class="tl-text">Daniel taken to Babylon ([[Dan. 1]])</span></li>
 <li class="tl-l c-south"><span class="tl-date">597 <small>(598)</small></span><span class="tl-text">Jehoiachin deported; Zedekiah made king; Ezekiel among the exiles; Lehi's ministry begins ([[2 Kgs. 24]]; [[Ezek. 1]]; [[1 Ne. 1]])</span></li>
-<li class="tl-l c-south"><span class="tl-date">after 597 <small>(600, Book of Mormon)</small></span><span class="tl-text">Lehi leaves Jerusalem for the wilderness; the Book of Mormon's story begins ([[1 Ne. 2]])</span></li>
+<li class="tl-l c-lehi"><span class="tl-date">after 597 <small>(600, Book of Mormon)</small></span><span class="tl-text">Lehi leaves Jerusalem for the wilderness; the Book of Mormon's story begins ([[1 Ne. 2]])</span></li>
 <li class="tl-l c-south"><span class="tl-date">586 <small>(587)</small></span><span class="tl-text">Jerusalem and the temple destroyed; Lamentations, Obadiah ([[2 Kgs. 25]]; [[Jer. 52]]; [[Lam. 1]])</span></li>
 <li class="tl-l c-south"><span class="tl-date">586–539</span><span class="tl-text">The exile; Ezekiel prophesies to 570; Daniel at the court ([[Ps. 137]]; [[Ezek. 37]])</span></li>
 <li class="tl-r c-babylon"><span class="tl-date">561</span><span class="tl-text">Evil-merodach releases Jehoiachin from prison ([[2 Kgs. 25]])</span></li>
@@ -68,7 +68,7 @@ The Old Testament “is a record of God's dealings with His covenant children fr
 <li class="tl-l c-south"><span class="tl-date">c. 430</span><span class="tl-text">Malachi, the last prophet of the Old Testament ([[Mal. 1]])</span></li>
 <li class="tl-r c-greece"><span class="tl-date">334</span><span class="tl-text">Alexander defeats Persia</span></li>
 </ol>
-<p class="tl-key"><span class="c-one">Israel, one people</span><span class="c-north">The northern kingdom</span><span class="c-south">Judah, and the Jews</span><span class="c-egypt">Egypt</span><span class="c-assyria">Assyria</span><span class="c-babylon">Babylon</span><span class="c-persia">Persia</span><span class="c-greece">Greece</span></p>
+<p class="tl-key"><span class="c-one">Israel, one people</span><span class="c-north">The northern kingdom</span><span class="c-south">Judah, and the Jews</span><span class="c-lehi">Lehi's family, the Book of Mormon</span><span class="c-egypt">Egypt</span><span class="c-assyria">Assyria</span><span class="c-babylon">Babylon</span><span class="c-persia">Persia</span><span class="c-greece">Greece</span></p>
 </figure>
 
 | Date (BC) | What happened | Read it in | Prophets and books |
