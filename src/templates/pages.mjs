@@ -4,7 +4,7 @@ import { layout, icon, logo, lastRevised } from './layout.mjs';
 import { renderSource } from './sources.mjs';
 import { gospelLibraryUrl, chapterLabel, unitPlural } from './chapter.mjs';
 import { VOLUMES, gospelLibraryVolume } from '../lib/canon.mjs';
-import { sectionNav, searchScope } from './ui.mjs';
+import { sectionNav, headingNav, searchScope } from './ui.mjs';
 
 const ensignArt = `<svg class="hero-art" viewBox="0 0 320 220" aria-hidden="true">
   <defs>
@@ -256,10 +256,10 @@ export function renderGuide({ owner, guide, guides, sources, collection = COLLEC
   const citedKeys = new Set(refs.map((r) => r.key));
   const further = (guide.sources ?? []).filter((s) => !citedKeys.has(String(s).split(/,\s*/)[0])).map((s) => renderSource(s, sources));
   const refList = refs.length
-    ? `<h2>${esc(sectionTitle('cited'))}</h2><ol class="source-list ref-list-num">${refs
+    ? `<h2 id="sources">${esc(sectionTitle('cited'))}</h2><ol class="source-list ref-list-num">${refs
         .map((r) => `<li id="ref-${r.n}">${renderSource(r.spec, sources)} <span class="backrefs">${r.backrefs.map((id, i) => `<a href="#${id}" aria-label="Back to citation ${r.n}${r.backrefs.length > 1 ? `, use ${i + 1}` : ''}">↩</a>`).join(' ')}</span></li>`)
         .join('')}</ol>${further.length ? `<h3>${esc(sectionTitle('further'))}</h3><ul class="source-list">${further.map((s) => `<li>${s}</li>`).join('')}</ul>` : ''}`
-    : further.length ? `<h2>${esc(sectionTitle('sources'))}</h2><ul class="source-list">${further.map((s) => `<li>${s}</li>`).join('')}</ul>` : '';
+    : further.length ? `<h2 id="sources">${esc(sectionTitle('sources'))}</h2><ul class="source-list">${further.map((s) => `<li>${s}</li>`).join('')}</ul>` : '';
   const body = `
 <header class="page-hero"><div class="wrap narrow">
   <nav class="crumbs"><a href="/${book.slug}/">${esc(book.name)}</a> <span>›</span> <a href="/${book.slug}/${c.path}/">${esc(c.crumb)}</a></nav>
@@ -267,6 +267,7 @@ export function renderGuide({ owner, guide, guides, sources, collection = COLLEC
   <p class="lede">${esc(guide.blurb)}</p>
   ${lastRevised(guide.updated)}
 </div></header>
+${c === COLLECTIONS.guides ? headingNav(guide.html, refList ? [['sources', 'Sources']] : []) : ''}
 <article class="wrap narrow guide prose prose-lg">
 ${guide.html}
 ${refList}
@@ -297,6 +298,7 @@ export function chapterGuide() {
 export function renderPage({ title, blurb, html, path, updated }) {
   const body = `
 <header class="page-hero"><div class="wrap narrow"><h1>${esc(title)}</h1>${blurb ? `<p class="lede">${esc(blurb)}</p>` : ''}${lastRevised(updated)}</div></header>
+${headingNav(html)}
 <article class="wrap narrow prose prose-lg">${html}</article>`;
   return layout({ title, description: blurb, path, body, bodyClass: 'page-plain' });
 }

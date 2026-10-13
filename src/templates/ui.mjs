@@ -11,6 +11,13 @@ export function sectionNav(items) {
   return `<nav class="section-nav" aria-label="On this page"><span>On this page</span>${links.map(([id, label]) => `<a href="#${esc(id)}">${esc(label)}</a>`).join('')}</nav>`;
 }
 
+// The same bar for a page whose sections are the <h2 id="…"> headings of rendered Markdown (guides, About).
+// Labels are the headings' own text with any markup stripped; a heading without an id is left out.
+export function headingNav(html, extra = []) {
+  const items = [...html.matchAll(/<h2 id="([^"]+)">([\s\S]*?)<\/h2>/g)].map((m) => [m[1], m[2].replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&#39;|&rsquo;/g, '’').trim()]);
+  return sectionNav([...items, ...extra]);
+}
+
 export function readingTools(kinds, counts, { plain = true } = {}) {
   return `<div class="reader-bar" id="reading" role="toolbar" aria-label="Reading tools">
   <div class="legend">${kinds.map((k) => `<button type="button" class="kind-chip k-${k} filter" aria-pressed="true" data-kind="${k}" title="${esc(KINDS[k].blurb)}">${icon(k)}${esc(KINDS[k].short)} <span class="count">${counts[k]}</span></button>`).join('')}</div>
