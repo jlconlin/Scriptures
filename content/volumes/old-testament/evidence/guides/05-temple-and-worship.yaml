@@ -1,0 +1,712 @@
+page: 05-temple-and-worship
+claims:
+  - where: 'opening'
+    claim: 'Ex. 25:8: make a sanctuary that I may dwell among them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/25?lang=eng'
+    quote: 'And let them make me a sanctuary; that I may dwell among them.'
+  - where: 'opening'
+    claim: 'The Lord has always commanded His people to build temples'
+    key: gs-temple-house-of-the-lord
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/temple-house-of-the-lord?lang=eng'
+    quote: 'The Lord has always commanded His people to build temples, holy buildings in which worthy Saints perform sacred ceremonies and ordinances of the gospel for themselves and for the dead.'
+  - where: 'opening'
+    claim: 'The tabernacle was a portable temple'
+    key: gs-temple-house-of-the-lord
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/temple-house-of-the-lord?lang=eng'
+    quote: 'The tabernacle erected by Moses and the children of Israel was a portable temple.'
+  - where: 'section “The tabernacle”'
+    claim: 'Ex. 25:9: after the pattern'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/25?lang=eng'
+    quote: 'According to all that I shew thee, after the pattern of the tabernacle, and the pattern of all the instruments thereof, even so shall ye make it.'
+  - where: 'section “The tabernacle”'
+    claim: 'The court was 100 cubits by 50'
+    key: bd-tabernacle
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/tabernacle?lang=eng'
+    quote: 'The tent stood in a court 100 cubits by 50, surrounded by a fence (Ex. 27:18) five cubits high'
+  - where: 'section “The tabernacle”'
+    claim: 'The altar of burnt offering stood in the court in front of the tent door'
+    key: bd-tabernacle
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/tabernacle?lang=eng'
+    quote: 'In the court outside the tent and in front of its door stood the altar of burnt offering, a square of five cubits, three cubits high.'
+  - where: 'section “The tabernacle”'
+    claim: 'The laver; the priests washed hands and feet'
+    key: bd-tabernacle
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/tabernacle?lang=eng'
+    quote: 'Between the altar of burnt offering and the door of the tent stood a laver of brass on a base of brass (Ex. 30:18). In it the priests washed their hands and feet when they went into the tent for any priestly purpose'
+  - where: 'section “The tabernacle”'
+    claim: 'A veil divided the tent; Holy Place with altar of incense, candlestick, table of shewbread'
+    key: bd-tabernacle
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/tabernacle?lang=eng'
+    quote: 'The tabernacle was divided into two parts by a veil of the same materials as the screen of the court, the inner roof covering of the tabernacle, and the screen of the tent (Ex. 36:35, 37). In the outer compartment (20 cubits by 10), called the Holy Place, were three things:'
+  - where: 'section “The tabernacle”'
+    claim: 'The Holy of Holies held one piece of furniture, the ark; the mercy seat was where God’s glory was manifest and His throne in Israel'
+    key: bd-tabernacle
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/tabernacle?lang=eng'
+    quote: 'The Holy of Holies contained only one piece of furniture: the Ark of the Covenant, or the Ark of the Testimony (Ex. 25:22).'
+  - where: 'section “The tabernacle”'
+    claim: 'The mercy seat was the place of the manifestation of God’s glory, God’s throne in Israel'
+    key: bd-tabernacle
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/tabernacle?lang=eng'
+    quote: 'The mercy seat was the place of the manifestation of God’s glory (Ex. 25:22). It was God’s throne in Israel.'
+  - where: 'section “The tabernacle”'
+    claim: 'Three spaces, each an increasing proximity to God'
+    key: scripture-helps-ex-35
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/16-exodus-35-40-leviticus-1-4-16-19?lang=eng'
+    quote: 'Each space represented an increasing proximity to God’s holy presence.'
+  - where: 'section “The tabernacle”'
+    claim: 'The veil symbolized separation between God and man'
+    key: scripture-helps-ex-35
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/16-exodus-35-40-leviticus-1-4-16-19?lang=eng'
+    quote: 'The veil symbolized the “separation between God and man.”'
+  - where: 'section “The tabernacle”'
+    claim: 'Heb. 10:19–20 quoted; the tabernacle a type, Christ’s flesh the veil'
+    key: sc-knowhy-698
+    url: 'https://scripturecentral.org/knowhy/how-does-the-epistle-to-the-hebrews-reflect-the-israelite-temple'
+    quote: '“boldness to enter into the holiest by the blood of Jesus, by a new and living way, which he hath consecrated for us, through the veil, that is to say, his flesh” (Hebrews 10:19–20).'
+  - where: 'section “The tabernacle”'
+    claim: '“Sanctuary” in Ex. 25:8 is miqdash'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'מִקְדָּ֑שׁ'
+  - where: 'section “The tabernacle”'
+    claim: '“Tabernacle” in Ex. 25:9 is mishkan'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'הַ/מִּשְׁכָּ֔ן'
+  - where: 'section “The tabernacle”'
+    claim: '“Tent of the congregation” in Ex. 40:34 is ohel moed'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'אֹ֣הֶל'
+  - where: 'section “The tabernacle”'
+    claim: '“Tent of the congregation” in Ex. 40:34 is ohel moed'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'מוֹעֵ֑ד'
+  - where: 'section “The tabernacle”'
+    claim: 'The Church’s edition renders the Hebrew “tent of meeting”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/40?lang=eng'
+    quote: 'tabernacle of the congregation”: HEB tent of meeting.'
+  - where: 'section “The tabernacle”'
+    claim: 'Shakan implies a nonpermanent residence; the tabernacle a meeting place'
+    key: belnap-dwell-among
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/i-may-dwell-among-them-liminality-ritual-tabernacle'
+    quote: 'the Hebrew term shakan, translated as “dwell,” implies a nonpermanent residence.'
+  - where: 'section “The tabernacle”'
+    claim: 'The tabernacle may be better viewed as a meeting place'
+    key: belnap-dwell-among
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/i-may-dwell-among-them-liminality-ritual-tabernacle'
+    quote: 'it may be more accurate to view the tabernacle as more of a meeting place rather than as a permanent dwelling place of God.'
+  - where: 'section “The tabernacle”'
+    claim: 'Ex. 40:34: cloud and glory'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/40?lang=eng'
+    quote: 'Then a cloud covered the tent of the congregation, and the glory of the LORD filled the tabernacle.'
+  - where: 'section “The tabernacle”'
+    claim: 'Tabernacle set in the precise center of the camp'
+    key: ensign-tabernacle-2018
+    url: 'https://www.churchofjesuschrist.org/study/ensign/2018/03/journey-through-the-ancient-tabernacle?lang=eng'
+    quote: 'the tabernacle was set up in the precise center of the camp'
+  - where: 'section “The tabernacle”'
+    claim: 'Tabernacle fixed at Shiloh; at Gibeon in Solomon’s reign; disappears after the temple'
+    key: bd-tabernacle
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/tabernacle?lang=eng'
+    quote: 'After the building of the temple it entirely disappears from the history.'
+  - where: 'section “The tabernacle”'
+    claim: 'Tabernacle at Shiloh, and at Gibeon in Solomon’s reign'
+    key: bd-tabernacle
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/tabernacle?lang=eng'
+    quote: 'in Solomon’s reign with its altar of burnt offering and ministered at by Zadok the high priest at Gibeon'
+  - where: 'section “The tabernacle”'
+    claim: 'Modern temples share similarities but do not match; animal sacrifice ended'
+    key: cfm-ot-2026-tabernacle
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/17-thoughts?lang=eng'
+    quote: 'Our modern temples share similarities with Israel’s tabernacle, but they certainly don’t match its description in Exodus. And we don’t kill animals in our temples—the Savior’s Atonement ended animal sacrifice almost 2,000 years ago.'
+  - where: 'section “The tabernacle”'
+    claim: 'Ark and high priest tied to Christ as God’s presence and Mediator'
+    key: cfm-ot-2026-tabernacle
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/17-thoughts?lang=eng'
+    quote: 'Just as the tabernacle, and the ark within it, represented God’s presence among His people, Jesus Christ was God’s presence among His people. Like the high priest, Jesus Christ is the Mediator between us and God the Father.'
+  - where: 'section “The tabernacle”'
+    claim: 'Temple washing, anointing, clothing, covenants, veil'
+    key: cfm-ot-2026-tabernacle
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/17-thoughts?lang=eng'
+    quote: 'To enter, we must first be washed and anointed. We wear sacred clothing. We make covenants. We pray at an altar from which prayers ascend to God. And we finally pass through a veil into God’s presence.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Tabernacle set up first day of first month of second year; no ark/glory etc.'
+    key: bd-tabernacle
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/tabernacle?lang=eng'
+    quote: 'on the first day of the first month of the second year (one year less 14 days from the Exodus) he reared it up and finished the work.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Tabernacle: ark, mercy seat'
+    key: bd-tabernacle
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/tabernacle?lang=eng'
+    quote: 'Upon the ark and forming the lid was the mercy seat.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Tabernacle had one candlestick and one table (as Herod’s temple followed)'
+    key: bd-temple-of-herod
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-herod?lang=eng'
+    quote: 'It followed the tabernacle (not Solomon’s temple) in having only one candlestick and one table of shewbread.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: '1 Kgs. 6:1: begun in Solomon’s fourth year'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/6?lang=eng'
+    quote: 'in the fourth year of Solomon’s reign over Israel, in the month Zif, which is the second month, that he began to build the house of the Lord.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: '1 Kgs. 6:38: finished in the eleventh year, seven years'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/6?lang=eng'
+    quote: 'So was he seven years in building it.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Solomon’s temple kept the old ark and mercy seat, new cherubim, ten candlesticks and tables'
+    key: bd-temple-of-solomon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-solomon?lang=eng'
+    quote: 'In the Holy of Holies stood the old Mosaic ark with the mercy seat; but the cherubim overshadowing the mercy seat were new.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Ten candlesticks and ten tables, five on each side'
+    key: bd-temple-of-solomon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-solomon?lang=eng'
+    quote: 'Instead of one golden candlestick and one table of shewbread there were ten, five on each side.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: '2 Kgs. 25:9: Nebuzar-adan burns the house of the LORD'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/25?lang=eng'
+    quote: 'And he burnt the house of the Lord, and the king’s house, and all the houses of Jerusalem'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Solomon’s temple destroyed in 587 B.C.'
+    key: bd-temple
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple?lang=eng'
+    quote: 'This was destroyed in 587 B.C. and rebuilt by Zerubbabel about 70 years later.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Zerubbabel’s temple dedicated 516 B.C.'
+    key: bd-temple-of-zerubbabel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-zerubbabel?lang=eng'
+    quote: 'in the sixth year of Darius (516 B.C.) the feast of the dedication was kept (Ezra 6:15–16).'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Zerubbabel’s temple completed around 515 BC; about Solomon’s size; no ark'
+    key: scripture-helps-ezra
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/29-ezra-1-3-7-nehemiah-2-4-6-8?lang=eng'
+    quote: 'The temple of Zerubbabel was completed around 515 BC, more than 20 years after the first group of exiles returned from Babylon. It was about the same size as Solomon’s temple and likely had a similar layout.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'The ark was not among the returned items, leaving the Holy of Holies empty'
+    key: scripture-helps-ezra
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/29-ezra-1-3-7-nehemiah-2-4-6-8?lang=eng'
+    quote: 'However, the ark of the covenant was not among these items, leaving the Holy of Holies empty.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Herod began in 17 B.C. to rebuild Zerubbabel’s temple'
+    key: bd-temple-of-herod
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-herod?lang=eng'
+    quote: 'Herod, in the 18th year (17 B.C.) of his reign, proposed to rebuild the temple of Zerubbabel.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Herod’s design not complete until A.D. 64'
+    key: bd-temple-of-herod
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-herod?lang=eng'
+    quote: 'the design was not complete till the year A.D. 64, only six years before the temple’s final destruction.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Herod’s temple had no ark'
+    key: bd-temple-of-herod
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-herod?lang=eng'
+    quote: 'The temple, like that of Zerubbabel, had no ark.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Herod’s temple destroyed by Titus’s army, A.D. 70'
+    key: bd-temple-of-herod
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-herod?lang=eng'
+    quote: 'In A.D. 70, on the evening of the anniversary of the destruction of the first temple, Herod’s temple was taken and destroyed by the army of Titus.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Herod’s temple on the exact site of Solomon’s'
+    key: bd-temple-of-herod
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-herod?lang=eng'
+    quote: 'on the exact site of the temple of Solomon'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Solomon’s temple built on the model of the tabernacle, dimensions doubled'
+    key: bd-temple-of-solomon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-solomon?lang=eng'
+    quote: 'The temple was built after the model of the tabernacle, the dimensions of each part being exactly double.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: '1 Chr. 28:11: David gave Solomon the pattern'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/28?lang=eng'
+    quote: 'Then David gave to Solomon his son the pattern of the porch'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: '2 Chr. 3:1: begun at Jerusalem in mount Moriah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/3?lang=eng'
+    quote: 'Then Solomon began to build the house of the Lord at Jerusalem in mount Moriah'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'The temple was small; only priests went within'
+    key: bd-temple-of-solomon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-solomon?lang=eng'
+    quote: 'It is sufficiently accounted for by the fact that the worshippers remained outside; only the priests went within.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Dedicated at the Feast of Tabernacles'
+    key: bd-temple-of-solomon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-solomon?lang=eng'
+    quote: 'The house was consecrated at the feast of the seventh month, the Feast of Tabernacles (1 Kgs. 8:2; 2 Chr. 5:3).'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: '1 Kgs. 8:10–11: cloud filled the house'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/8?lang=eng'
+    quote: 'So that the priests could not stand to minister because of the cloud: for the glory of the Lord had filled the house of the Lord.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: '1 Kgs. 8:27: will God indeed dwell on the earth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/8?lang=eng'
+    quote: 'But will God indeed dwell on the earth? behold, the heaven and heaven of heavens cannot contain thee; how much less this house that I have builded?'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: '1 Kgs. 8:30: pray toward this place'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/8?lang=eng'
+    quote: 'when they shall pray toward this place: and hear thou in heaven thy dwelling place'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'The Lord hallowed the house to put His name there'
+    key: scripture-helps-1-kings-24
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/24-2-samuel-11-12-1-kings-3-6-9-11?lang=eng'
+    quote: '“I have hallowed this house, which thou hast built, to put my name there for ever; and mine eyes and mine heart shall be there perpetually.”'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Often spoiled, polluted, cleansed; burned and destroyed by Nebuchadnezzar'
+    key: bd-temple-of-solomon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-solomon?lang=eng'
+    quote: 'Finally it was burned to the ground and utterly destroyed by Nebuchadnezzar (2 Kgs. 25:9), all that was valuable in it being carried to Babylon'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'It was polluted and cleansed by various kings'
+    key: bd-temple-of-solomon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-solomon?lang=eng'
+    quote: 'It was polluted by Athaliah (2 Chr. 24:7), Ahaz (29:5, 16), and above all, Manasseh (2 Kgs. 21:4–5, 7). It was cleansed by Hezekiah (2 Chr. 29:16) and Josiah (2 Kgs. 23:4, 6, 12).'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Isa. 44:28: Cyrus and the temple foundation'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/44?lang=eng'
+    quote: 'That saith of Cyrus, He is my shepherd, and shall perform all my pleasure: even saying to Jerusalem, Thou shalt be built; and to the temple, Thy foundation shall be laid.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Ezra 3:12: old men wept'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/3?lang=eng'
+    quote: 'But many of the priests and Levites and chief of the fathers, who were ancient men, that had seen the first house, when the foundation of this house was laid before their eyes, wept with a loud voice; and many shouted aloud for joy:'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Hag. 2:3: who is left that saw this house'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/2?lang=eng'
+    quote: 'Who is left among you that saw this house in her first glory?'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Hag. 2:9: glory of this latter house'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/2?lang=eng'
+    quote: 'The glory of this latter house shall be greater than of the former, saith the Lord of hosts'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Hag. 2:7: desire of all nations'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/2?lang=eng'
+    quote: 'And I will shake all nations, and the desire of all nations shall come: and I will fill this house with glory, saith the Lord of hosts.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Desire of all nations can refer to the Savior; multiple fulfillments'
+    key: scripture-helps-hag-1-2
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/48-haggai-1-2-zechariah-1-4-7-14?lang=eng'
+    quote: 'This title can refer to the Savior Jesus Christ.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'Haggai 2:7 likely has multiple fulfillments'
+    key: scripture-helps-hag-1-2
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/48-haggai-1-2-zechariah-1-4-7-14?lang=eng'
+    quote: 'Haggai’s prophecy that the “desire of all nations” would come to the temple likely has multiple fulfillments.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'One KnoWhy sets tabernacle and Solomon’s dedication as one pattern with Kirtland: God comes to His new house in glory'
+    key: sc-knowhy-806
+    url: 'https://scripturecentral.org/knowhy/how-does-the-construction-of-the-kirtland-temple-follow-ancient-patterns'
+    quote: 'Finally, after the temple is dedicated, God comes to His new house in glory.'
+  - where: 'section “Solomon''s temple, and the two after it”'
+    claim: 'President Nelson: Solomon’s dedicatory prayer provides patterns used for temples today'
+    key: sc-knowhy-814
+    url: 'https://scripturecentral.org/knowhy/how-did-the-kirtland-temple-dedication-follow-ancient-patterns'
+    quote: '“[the temple of Solomon’s] dedicatory prayer [provides] patterns that are employed for temples today.”'
+  - where: 'section “The priests and the Levites”'
+    claim: 'Ex. 28:1: Aaron and sons to minister in the priest’s office'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/28?lang=eng'
+    quote: 'that he may minister unto me in the priest’s office'
+  - where: 'section “The priests and the Levites”'
+    claim: 'Num. 3:12: Levites instead of the firstborn'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/3?lang=eng'
+    quote: 'I have taken the Levites from among the children of Israel instead of all the firstborn that openeth the matrix among the children of Israel'
+  - where: 'section “The priests and the Levites”'
+    claim: 'Num. 8:19: Levites given to Aaron and sons'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/8?lang=eng'
+    quote: 'to do the service of the children of Israel in the tabernacle of the congregation'
+  - where: 'section “The priests and the Levites”'
+    claim: 'Levites assisted the priests, were musicians, had no inheritance but the tithe and 48 cities'
+    key: bd-levites
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/levites?lang=eng'
+    quote: 'The work of the Levites was to assist the priests (Num. 3:5–10; 18:1–7). They acted as musicians'
+  - where: 'section “The priests and the Levites”'
+    claim: 'Levites had no inheritance in Canaan but the tithe and 48 cities'
+    key: bd-levites
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/levites?lang=eng'
+    quote: 'They had no inheritance in Canaan (18:23–24); but they had the tithe (18:21), 48 cities (35:6)'
+  - where: 'section “The priests and the Levites”'
+    claim: 'Only Aaron and sons could be priests; high priest from the firstborn of Aaron’s sons'
+    key: bd-aaronic-priesthood
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/aaronic-priesthood?lang=eng'
+    quote: 'within the tribe, only Aaron and his sons could hold the office of priest. And, still further, from the firstborn of Aaron’s sons (after Aaron) was selected the high priest'
+  - where: 'section “The priests and the Levites”'
+    claim: 'A priest was a mediator; offered sacrifice and incense, taught the law, blessed'
+    key: bd-priests
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/priests?lang=eng'
+    quote: 'The essential idea of a Hebrew priest was that of a mediator between his people and God by representing them officially in worship and sacrifice.'
+  - where: 'section “The priests and the Levites”'
+    claim: 'Priests offered sacrifice and incense, taught, and blessed the people'
+    key: bd-priests
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/priests?lang=eng'
+    quote: 'but also by teaching the people the law (Lev. 10:10, 11; Deut. 33:10; Mal. 2:7), by communicating to them the divine will (Num. 27:21), and by blessing them in the name of the Lord (Num. 6:22–27).'
+  - where: 'section “The priests and the Levites”'
+    claim: 'Num. 6:24 and 27: the priestly blessing'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/6?lang=eng'
+    quote: 'And they shall put my name upon the children of Israel; and I will bless them.'
+  - where: 'section “The priests and the Levites”'
+    claim: 'Num. 6:24: The LORD bless thee'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/6?lang=eng'
+    quote: 'The Lord bless thee, and keep thee:'
+  - where: 'section “The priests and the Levites”'
+    claim: 'Jesus’ blessing in 3 Nephi 19 parallels the priestly blessing'
+    key: sc-knowhy-212
+    url: 'https://scripturecentral.org/knowhy/why-did-jesus-allude-to-the-priestly-blessing-in-numbers-6'
+    quote: 'The description of what Jesus did when He blessed those gathered parallels certain words in the “Priestly Blessing” that God commanded Aaron, the high priest, to pronounce upon the people of Israel in Numbers 6:23–27.'
+  - where: 'section “The priests and the Levites”'
+    claim: 'Ex. 28:36: gold plate HOLINESS TO THE LORD'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/28?lang=eng'
+    quote: 'And thou shalt make a plate of pure gold, and grave upon it, like the engravings of a signet, HOLINESS TO THE LORD.'
+  - where: 'section “The priests and the Levites”'
+    claim: 'High priest’s main duty: Day of Atonement'
+    key: bd-high-priest
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/high-priest?lang=eng'
+    quote: 'The high priest’s main duties, in addition to the duties of a regular priest, were to perform the service of the Day of Atonement'
+  - where: 'section “The priests and the Levites”'
+    claim: 'Lev. 16:2: not at all times within the veil'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/16?lang=eng'
+    quote: 'that he come not at all times into the holy place within the veil before the mercy seat, which is upon the ark; that he die not'
+  - where: 'section “The priests and the Levites”'
+    claim: 'Hebrews: Christ the great High Priest, of whom the others were pre-figures'
+    key: bd-high-priest
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/high-priest?lang=eng'
+    quote: 'The epistle to the Hebrews discusses at some length the manner in which Jesus Christ is the great High Priest, of whom all the others were pre-figures (Heb. 5:1–10; 9:28).'
+  - where: 'section “The priests and the Levites”'
+    claim: 'Aaronic Priesthood lesser; given after Israel failed'
+    key: bd-aaronic-priesthood
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/aaronic-priesthood?lang=eng'
+    quote: 'This priesthood was of lesser power and authority than the priesthood of Melchizedek'
+  - where: 'section “The priests and the Levites”'
+    claim: 'Aaronic Priesthood given after Israel failed to observe the gospel law'
+    key: bd-aaronic-priesthood
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/aaronic-priesthood?lang=eng'
+    quote: 'As a result of the failure of the Israelites to observe the gospel law administered by Moses under the authority of the Melchizedek Priesthood, the Lord gave an additional law'
+  - where: 'section “The priests and the Levites”'
+    claim: 'Lineal restrictions lifted when the law of Moses was fulfilled'
+    key: bd-aaronic-priesthood
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/aaronic-priesthood?lang=eng'
+    quote: 'The lineal restrictions of that Aaronic (Levitical) Priesthood were lifted when the law of Moses was fulfilled'
+  - where: 'section “The priests and the Levites”'
+    claim: 'Mal. 1:8: blind for sacrifice'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/1?lang=eng'
+    quote: 'And if ye offer the blind for sacrifice, is it not evil?'
+  - where: 'section “The priests and the Levites”'
+    claim: 'Animals offered must be without blemish; priests accepted blemished sacrifices'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'the Lord commanded that all animals offered must “be perfect to be accepted; there shall be no blemish therein.”'
+  - where: 'section “The priests and the Levites”'
+    claim: 'Hos. 4:6: destroyed for lack of knowledge'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/4?lang=eng'
+    quote: 'My people are destroyed for lack of knowledge'
+  - where: 'section “The priests and the Levites”'
+    claim: 'Ezek. 22:26: no difference between holy and profane'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/22?lang=eng'
+    quote: 'they have put no difference between the holy and profane'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Ex. 29:38: two lambs day by day'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/29?lang=eng'
+    quote: 'two lambs of the first year day by day continually.'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Ex. 29:42: continual burnt offering'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/29?lang=eng'
+    quote: 'This shall be a continual burnt offering throughout your generations at the door of the tabernacle of the congregation before the LORD'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Altar sacrifices were of three kinds'
+    key: bd-sacrifices
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sacrifices?lang=eng'
+    quote: 'Altar sacrifices were of three kinds: sin offerings, burnt offerings, and peace offerings.'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Sacrifice offered in similitude of the Only Begotten Son'
+    key: bd-sacrifices
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sacrifices?lang=eng'
+    quote: 'offering the firstlings of their flocks in a similitude of the sacrifice that would be made of the Only Begotten Son of God (Moses 5:4–8)'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Deut. 16:16: three times a year'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/16?lang=eng'
+    quote: 'Three times in a year shall all thy males appear before the Lord thy God in the place which he shall choose; in the feast of unleavened bread, and in the feast of weeks, and in the feast of tabernacles'
+  - where: 'section “How Israel worshipped”'
+    claim: 'The three-times-a-year appearance was not generally observed'
+    key: bd-feasts
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/feasts?lang=eng'
+    quote: 'It was not and could not be generally or even frequently observed.'
+  - where: 'section “How Israel worshipped”'
+    claim: 'The Hallel (Ps. 113–18) sung at Passover in later times'
+    key: bd-feasts
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/feasts?lang=eng'
+    quote: 'In later times the following ceremonies were added: (1) The history of the redemption from Egypt was related by the head of the household (Ex. 12:26–27). (2) Four cups of wine mixed with water were drunk at different stages of the feast (compare Luke 22:17, 20; 1 Cor. 10:16, the cup of blessing). (3) Ps. 113–18 (the Hallel) were sung.'
+  - where: 'section “How Israel worshipped”'
+    claim: '1 Chr. 6:31: service of song'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/6?lang=eng'
+    quote: 'And these are they whom David set over the service of song in the house of the Lord, after that the ark had rest.'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Sons of Korah, Asaph: Levite temple singers; Korah psalms likely sung in temple worship'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'The psalms associated with the sons of Korah were likely sung as part of temple worship.'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Asaph a Levite; his group served as temple singers'
+    key: scripture-helps-ps-49
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/33-psalms-49-51-61-66-69-72-77-78-85-86?lang=eng'
+    quote: 'Like the sons of Korah, Asaph’s group also served as temple singers.'
+  - where: 'section “How Israel worshipped”'
+    claim: '2 Chr. 5:13: singers as one, house filled with a cloud'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/5?lang=eng'
+    quote: 'It came even to pass, as the trumpeters and singers were as one, to make one sound to be heard in praising and thanking the Lord'
+  - where: 'section “How Israel worshipped”'
+    claim: 'The singing directly led to the presence of God entering the temple'
+    key: hopkin-psalms-sung
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/psalms-sung-power-music-sacred-worship'
+    quote: 'This passage points to the music and singing itself as the behavior that directly led to the presence of God entering into the temple.'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Psalms called the hymn book of the ancient temple'
+    key: sc-knowhy-437
+    url: 'https://scripturecentral.org/knowhy/how-do-the-psalms-quoted-in-the-book-of-mormon-teach-about-the-temple'
+    quote: 'The Psalms have been called the “hymn book” of the ancient temple'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Ps. 120–134 are “song of ascents” pilgrim songs, a songbook for pilgrimage'
+    key: larsen-ascending-hill
+    url: 'https://journal.interpreterfoundation.org/ascending-into-the-hill-of-the-lord-what-the-psalms-can-tell-us-about-the-rituals-of-the-first-temple/'
+    quote: 'Psalm 122 is one of a body of psalms (Psalms 120-134) that are designated in their superscriptions as being shir ha-mmaʻalot, or a “song of ascents.” These are also frequently designated as “pilgrim songs.”'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Holladay: songbook for pilgrimage'
+    key: larsen-ascending-hill
+    url: 'https://journal.interpreterfoundation.org/ascending-into-the-hill-of-the-lord-what-the-psalms-can-tell-us-about-the-rituals-of-the-first-temple/'
+    quote: 'this group of psalms should be seen as a “songbook for pilgrimage.”'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Ps. 122:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/122?lang=eng'
+    quote: 'I was glad when they said unto me, Let us go into the house of the LORD.'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Ps. 84:1–2'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/84?lang=eng'
+    quote: 'How amiable are thy tabernacles, O LORD of hosts!'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Ps. 84:2'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/84?lang=eng'
+    quote: 'My soul longeth, yea, even fainteth for the courts of the LORD'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Ps. 24:3'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/24?lang=eng'
+    quote: 'Who shall ascend into the hill of the LORD? or who shall stand in his holy place?'
+  - where: 'section “How Israel worshipped”'
+    claim: '“Mountain of the Lord” often refers to the temple'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'In the Old Testament, the phrase “mountain of the Lord” often refers to the temple.'
+  - where: 'section “How Israel worshipped”'
+    claim: '1 Kgs. 8:48: captives pray toward the land, city and house'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/8?lang=eng'
+    quote: 'and pray unto thee toward their land, which thou gavest unto their fathers, the city which thou hast chosen, and the house which I have built for thy name'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Dan. 6:10: windows toward Jerusalem'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/6?lang=eng'
+    quote: 'his windows being open in his chamber toward Jerusalem, he kneeled upon his knees three times a day'
+  - where: 'section “How Israel worshipped”'
+    claim: '1 Sam. 15:22: to obey is better than sacrifice'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/15?lang=eng'
+    quote: 'Behold, to obey is better than sacrifice'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Ps. 51:17'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/51?lang=eng'
+    quote: 'The sacrifices of God are a broken spirit: a broken and a contrite heart'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Hos. 6:6'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/6?lang=eng'
+    quote: 'For I desired mercy, and not sacrifice; and the knowledge of God more than burnt offerings.'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Lord placed more value on heartfelt devotion and compassion; sacrifices still important'
+    key: scripture-helps-hosea
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/45-hosea-1-6-10-14-joel?lang=eng'
+    quote: 'While sacrifices were still important, the Lord placed more value on their heartfelt devotion to Him and compassion for others.'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Mic. 6:8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/micah/6?lang=eng'
+    quote: 'and what doth the Lord require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Jer. 7:4: the temple of the LORD'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/7?lang=eng'
+    quote: 'Trust ye not in lying words, saying, The temple of the LORD, The temple of the LORD, The temple of the LORD, are these.'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Jeremiah’s hearers trusted the temple as Israel trusted the ark at Shiloh'
+    key: halverson-swine
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/swines-blood-broken-serpents-rejection-rehabilitation-worship-old-testament'
+    quote: 'drawing a parallel between his people’s trust in the temple at Jerusalem and Israel’s earlier trust in the ark at Shiloh'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Synagogue: meetinghouse with ark of the scrolls, reading desk, seats'
+    key: bd-synagogue
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/synagogue?lang=eng'
+    quote: 'A Jewish meetinghouse for religious purposes. The furniture was generally simple, consisting of an ark containing the rolls of the law and other sacred writings, a reading desk, and seats for the worshippers.'
+  - where: 'section “How Israel worshipped”'
+    claim: 'Sabbath service with readings from law and prophets and a sermon'
+    key: bd-synagogue
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/synagogue?lang=eng'
+    quote: 'The Sabbath morning service was the most important in the week and included a fixed lesson'
+  - where: 'section “How Israel worshipped”'
+    claim: 'The origin of the synagogue is unknown'
+    key: cohen-temple-synagogue
+    url: 'https://rsc.byu.edu/temple-antiquity/temple-synagogue'
+    quote: 'the origin of the synagogue is unknown and, unless we are graced by some new discoveries equal in magnitude to the Dead Sea Scrolls, unknowable.'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Ezek. 40:1–2'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/40?lang=eng'
+    quote: 'In the visions of God brought he me into the land of Israel, and set me upon a very high mountain'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Ezek. 40:1: twenty-fifth year'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/40?lang=eng'
+    quote: 'In the five and twentieth year of our captivity'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Guided by an angelic figure who measures; a glorious complete temple; new name of the city'
+    key: rennaker-holiness
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/approaching-holiness-sacred-space-ezekiels-temple-vision'
+    quote: 'the Lord gave him a vision of his native Israel and a glorious, complete temple in the midst of the land (Ezekiel 40–48). [3] In this vision, Ezekiel is not alone—he is guided on a tour of the temple by an angelic figure (Ezekiel 40:3) who measures the temple’s dimensions.'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Ezek. 48:35'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/48?lang=eng'
+    quote: 'and the name of the city from that day shall be, The LORD is there.'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Ezek. 43:5'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/43?lang=eng'
+    quote: 'behold, the glory of the LORD filled the house.'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Ezek. 47:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/47?lang=eng'
+    quote: 'waters issued out from under the threshold of the house eastward'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Joseph Smith on water coming from under the temple'
+    key: scripture-helps-ezek
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/43-ezekiel-1-3-33-34-36-37?lang=eng'
+    quote: 'the temple, and water come out from under the temple, and the waters of the Dead Sea be healed'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Elder Renlund: temple blessings heal'
+    key: scripture-helps-ezek
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/43-ezekiel-1-3-33-34-36-37?lang=eng'
+    quote: 'Temple blessings can heal hearts and lives and families.'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Elder Renlund: blessings that flow from the temple grow'
+    key: scripture-helps-ezek
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/43-ezekiel-1-3-33-34-36-37?lang=eng'
+    quote: 'it grew into a mighty river, becoming wider and deeper the farther it flowed.'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Cowan links the river to the pure river of water of life'
+    key: cowan-ot-temples
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/what-old-testament-temples-can-teach-us-about-our-own-temple-activity'
+    quote: 'This vision may also be linked with the “pure river of water of life” that John the Revelator saw flowing from the throne of God (Revelation 22:1).'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Talmage: whether Ezekiel saw it as to be realized is not declared'
+    key: ot-manual-ezek-25-48
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-27?lang=eng'
+    quote: 'As to whether the prophet himself considered the design so shown as one to be subsequently realized, or as but a grand yet unattainable ideal, is not declared.'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Joseph Fielding Smith: temple for ordinance work after the gathering'
+    key: ot-manual-ezek-25-48
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-27?lang=eng'
+    quote: 'Ezekiel predicted the building of a temple in Jerusalem which will be used for ordinance work after the gathering of Israel from their long dispersion'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Joseph Fielding Smith: the law of sacrifice will have to be restored; the sons of Levi to offer such a sacrifice again'
+    key: ot-manual-ezek-25-48
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-27?lang=eng'
+    quote: 'the law of sacrifice will have to be restored, or all things which were decreed by the Lord would not be restored. It will be necessary, therefore, for the sons of Levi, who offered the blood sacrifices anciently in Israel, to offer such a sacrifice again'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Cowan, quoting Sperry: no provision for more than simple rites'
+    key: cowan-ot-temples
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/what-old-testament-temples-can-teach-us-about-our-own-temple-activity'
+    quote: 'no provision is made in it for any but the most simple rites, and these are not those of the sacred endowments as we know them.'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Animal sacrifice ended with the Atonement'
+    key: cfm-ot-2026-tabernacle
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/17-thoughts?lang=eng'
+    quote: 'the Savior’s Atonement ended animal sacrifice almost 2,000 years ago.'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Isa. 2:2'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/2?lang=eng'
+    quote: 'the mountain of the LORD’s house shall be established in the top of the mountains'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Isaiah 2 prophecy has multiple fulfillments: a temple in Jerusalem, temples throughout the world'
+    key: scripture-helps-isa-1-12
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/36-isaiah-1-12?lang=eng'
+    quote: 'Isaiah’s prophecy has multiple fulfillments. In its immediate context, it points to a time when the Lord will establish His temple in Jerusalem in the last days'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Latter-day prophets: temples throughout the world'
+    key: scripture-helps-isa-1-12
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/36-isaiah-1-12?lang=eng'
+    quote: 'Latter-day prophets have also taught that this prophecy applies to the Restoration of the Church of Jesus Christ and the establishment of temples throughout the world.'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Chadwick: a temple of Judah on Mount Moriah in the last days'
+    key: chadwick-temple-prophecy
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/great-jerusalem-temple-prophecy-latter-day-context-likening-unto-us'
+    quote: 'a temple of the people of Judah to be built in Jerusalem, upon Mount Moriah, in the last days.'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Mal. 3:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/3?lang=eng'
+    quote: 'the Lord, whom ye seek, shall suddenly come to his temple'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Mal. 3:1 likely has multiple fulfillments including Kirtland, April 3, 1836'
+    key: scripture-helps-mal
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
+    quote: 'likely has multiple fulfillments. For example, on April 3, 1836, the Savior suddenly appeared to Joseph Smith and Oliver Cowdery in the Kirtland Temple.'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Temples are houses of the Lord with covenants'
+    key: gospel-topics-temples
+    url: 'https://www.churchofjesuschrist.org/study/manual/gospel-topics/temples?lang=eng'
+    quote: 'Temples are literally houses of the Lord. They are holy places of worship where individuals make sacred covenants with God.'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Principal purpose of temples'
+    key: gospel-topics-temples
+    url: 'https://www.churchofjesuschrist.org/study/manual/gospel-topics/temples?lang=eng'
+    quote: 'Their principal purpose is to provide ordinances necessary for the children of God to enable them to return to dwell with Him.'
+  - where: 'section “The temple Ezekiel saw, and the temple to come”'
+    claim: 'Building and using a temple is a mark of the true Church'
+    key: bd-temple
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple?lang=eng'
+    quote: 'Building and properly using a temple is one of the marks of the true Church in any dispensation'
