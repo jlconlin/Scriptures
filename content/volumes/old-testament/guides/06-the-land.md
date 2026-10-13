@@ -2,7 +2,6 @@
 title: The Land
 blurb: The shape of the land from the coast to the Jordan and beyond, its rains and its size, the peoples around it, the roads that crossed it, places the books name and what happened there, and the land as the covenant's inheritance.
 icon: map
-status: preview
 sources: [ogden-1980-testing-ground, ot-manual-josh, bd-palestine, bd-sharon, bd-esdraelon, bd-jordan-river, bd-dead-sea, bd-negev, bd-galilee, bd-lebanon, bd-hermon, bd-bashan, bd-gilead, bd-seir, bd-moab, bd-edom, bd-ammon, bd-amalek, bd-midianites, bd-philistines, bd-phoenicia, bd-tyre, bd-syria, bd-aram, bd-damascus, bd-egypt, bd-goshen, gs-assyria, bd-assyria, bd-babylon, bd-persia, bd-nineveh, bd-chebar, bd-megiddo, bd-ur, bd-haran, bd-bethel, bd-shechem, bd-hebron, bd-beersheba, bd-sinai, bd-horeb, bd-kadesh, bd-jericho, bd-gilgal, bd-shiloh, bd-jerusalem, bd-zion, bd-moriah, bd-samaria, bd-dan, bd-carmel, bd-jezreel, bd-lachish, bd-israel-kingdom, bd-levites, bd-abraham-covenant, gs-promised-land, gospel-principles-42, keller-land-lands, pierce-micah, interpreter-halverson-geographically, sc-knowhy-869, bible-maps-1, bible-maps-2, bible-maps-3, bible-maps-4, bible-maps-5, bible-maps-10, bible-maps-14, oshb-wlc, lds-scriptures]
 ---
 

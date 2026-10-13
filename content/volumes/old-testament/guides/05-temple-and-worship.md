@@ -1,6 +1,5 @@
 ---
 title: The Temple and Worship
-status: preview
 blurb: The tabernacle and what it held, Solomon's temple and the two that followed, the priests and Levites, how Israel worshipped there (sacrifice, the feasts, the psalms, prayer toward the house), what the prophets said against hollow worship, and the temple Ezekiel saw.
 icon: symbol
 sources: [gs-temple-house-of-the-lord, bd-temple, bd-tabernacle, scripture-helps-ex-35, sc-knowhy-698, oshb-wlc, belnap-dwell-among, ensign-tabernacle-2018, cfm-ot-2026-tabernacle, bd-temple-of-solomon, scripture-helps-1-kings-24, bd-temple-of-zerubbabel, scripture-helps-ezra, scripture-helps-hag-1-2, bd-temple-of-herod, sc-knowhy-806, sc-knowhy-814, bd-levites, bd-high-priest, bd-priests, sc-knowhy-212, bd-aaronic-priesthood, scripture-helps-mal, bd-sacrifices, bd-feasts, hopkin-psalms-sung, scripture-helps-ps-49, sc-knowhy-437, larsen-ascending-hill, scripture-helps-ps-1, scripture-helps-hosea, halverson-swine, bd-synagogue, cohen-temple-synagogue, rennaker-holiness, scripture-helps-ezek, cowan-ot-temples, ot-manual-ezek-25-48, scripture-helps-isa-1-12, chadwick-temple-prophecy, gospel-topics-temples, lds-scriptures]

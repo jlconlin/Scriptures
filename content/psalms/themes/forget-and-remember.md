@@ -2,7 +2,6 @@
 title: 'The People Forget; God Remembers'
 blurb: 'The history psalms retell the deliverance as praise and as confession: Israel forgot His works, and God remembered His covenant. Psalm 106 ends asking to be gathered, and Psalm 107 opens with the gathered redeemed. Psalm 95’s warning not to harden the heart is taken up by Hebrews, and the rock that gave water, Paul says, was Christ.'
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, scripture-helps-ps-102, cfm-ot-2026-35, eyring-remember, belnap-hesed, ricks-psalm-105, ot-manual-psalms, sc-knowhy-533, sc-knowhy-133, delitzsch-psalms]
 ---
 

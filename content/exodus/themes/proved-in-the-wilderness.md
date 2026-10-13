@@ -2,7 +2,6 @@
 title: Proved in the Wilderness
 blurb: At Marah, with the manna and at Sinai the Lord “proves” Israel; at Massah Israel “tempts” the Lord. The King James uses two English words for one Hebrew verb. Deuteronomy reads the hunger as teaching, the Savior answers the tempter from those very chapters, and John and Paul say the bread and the rock were about Him.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, scripture-helps-ex-14, scripture-helps-dt-6, ot-manual-dt-1-16, brown-testimony-luke, christofferson-daily-bread]
 ---
 

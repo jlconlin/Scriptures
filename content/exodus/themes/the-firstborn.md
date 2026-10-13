@@ -2,7 +2,6 @@
 title: The Firstborn
 blurb: Pharaoh kills Israel’s sons; the Lord calls Israel His firstborn; Egypt’s firstborn die while Israel’s are passed over; from then on every firstborn of Israel is the Lord’s and is redeemed; the Firstborn of God was presented under that law and came to offer Himself.
 icon: christ
-status: preview
 sources: [lds-scriptures, scripture-helps-ex-7, bd-firstborn, hunter-passover, ot-manual-ex-11-19, skinner-life-jesus]
 ---
 

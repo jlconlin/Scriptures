@@ -2,7 +2,6 @@
 title: The Law and the Covenant
 blurb: "What a covenant is and the covenants in order, from Adam to the new covenant; what Torah means and what the law of Moses was for; sacrifice; the feasts and the sabbath years; clean and unclean; and the blessings, cursings and renewals of the covenant."
 icon: restoration
-status: preview
 sources: [bd-covenant, gs-covenant, hopkin-covenant, gospel-topics-covenant, scripture-helps-everlasting-covenant, bd-abraham-covenant, gs-abrahamic-covenant, bd-circumcision, scripture-helps-ex-19, scripture-helps-2-sam, scripture-helps-jer-31-33, nelson-everlasting-covenant, bd-torah, bd-pentateuch, belnap-law-moses, bd-law-of-moses, gs-law-of-moses, brandt-law-moses, ballard-sacrifice, sc-knowhy-424, bd-leviticus, bd-sacrifices, gs-sacrifice, scripture-helps-ex-35, bd-fasts, bd-feasts, bd-sabbath, gs-passover, sc-knowhy-845, sc-knowhy-90, bd-sabbatical-year, bd-jubilee-year-of, sc-knowhy-136, bd-clean-unclean, sc-knowhy-479, gs-clean-unclean, lund-ot-laws, bd-deuteronomy, scripture-helps-deut, scripture-helps-josh, sc-knowhy-369, lds-scriptures]
 ---
 

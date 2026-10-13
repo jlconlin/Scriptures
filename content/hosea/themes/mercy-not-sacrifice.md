@@ -2,7 +2,6 @@
 title: 'Keep Mercy and Judgment'
 blurb: "Hosea's word hesed, covenant loyalty, is promised in the betrothal, found missing in the land, offered back as a morning cloud, asked for more than sacrifice, promised as the harvest of righteousness, and at last something to keep. Jesus quoted the verse twice and told the Pharisees to learn what it means."
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, ot-manual-10, nelson-everlasting-covenant, sc-archive-hesed, jackson-hosea-marriage, scripture-helps-hosea, lane-hostility, lane-sabbath-synoptic, mcclellan-go-ye-learn, bd-jehovah, ensign-2002-saviors-use-ot]
 ---
 

@@ -2,7 +2,6 @@
 title: Four Rites of Blood
 blurb: 'Four times Exodus puts the blood of sacrifice on someone or something: on the door, on the altar and the people, on the priests, and on the horns of the incense altar once a year. The Savior took the words of the second for His own cup, and Hebrews speaks of entering the holiest by the blood of Jesus.'
 icon: christ
-status: preview
 sources: [lds-scriptures, scripture-helps-ex-7, scripture-helps-ex-19, scripture-helps-ex-35, scripture-helps-nt-heb-7-13, seely-sacrifice, belnap-skinner-sinai, hunter-passover]
 ---
 

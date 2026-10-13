@@ -2,7 +2,6 @@
 title: The Sabbath and the Making of the Tabernacle
 blurb: Israel keeps the Sabbath before Sinai, hears it grounded in the creation, receives it as the sign of the covenant at the end of the tabernacle’s instructions, and is told it first when the building begins. The making then ends in words the creation ended in. The Son of Man is Lord of the Sabbath because He made it.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bd-sabbath, gs-sabbath-day, scripture-helps-gen-1-2, scripture-helps-ex-19, nelson-sabbath, pike-sabbath-ot, bradshaw-moses-temple-text, belnap-dwell-among]
 ---
 

@@ -2,7 +2,6 @@
 title: Sent Before the Day
 blurb: "Malachi calls the priest the Lord’s messenger, and promises a messenger to prepare the way, the Lord who comes to His temple, and Elijah before the great and dreadful day."
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, scripture-helps-mal, bd-elias, bd-elijah, bd-christ-names, ot-manual-34, alford-elijah, gong-hosanna-hallelujah]
 ---
 

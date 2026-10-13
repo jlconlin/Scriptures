@@ -2,7 +2,6 @@
 title: “That Ye May Know That I Am the LORD”
 blurb: 'Pharaoh says he does not know the LORD. The plagues are sent that Egypt may know; the quail and the bread that Israel may know; Jethro says “Now I know”; and the last promise is that Israel will know Him as the LORD who brought them out “that I may dwell among them.” Moses asks to know Him; set beside his words are the Savior’s: “this is life eternal, that they might know thee.”'
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, scripture-helps-ex-7, scripture-helps-ex-19, bd-jehovah, gs-jehovah, gs-eternal-life, ot-minute-ex-1, ot-minute-ex-7, ot-minute-ex-18, sc-knowhy-631, hales-seeking-know]
 ---
 

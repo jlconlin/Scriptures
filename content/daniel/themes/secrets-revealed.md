@@ -2,7 +2,6 @@
 title: Secrets Revealed, Words Sealed
 blurb: In the first half of Daniel God reveals secrets and Daniel interprets; in the second an angel must make Daniel understand, and at the end he is told to seal the book and says he did not understand. In John's vision a different sealed book can be opened only by the Lamb.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bd-daniel-book, ot-manual-28, ot-seminary-daniel, ludlow-son-of-man, sc-knowhy-492, draper-exile, tpjs-2007-ch-21, nt-manual-54, tvedtnes-sealed-books]
 ---
 

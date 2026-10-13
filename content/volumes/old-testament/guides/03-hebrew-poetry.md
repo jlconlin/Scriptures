@@ -2,7 +2,6 @@
 title: Hebrew Poetry and the Prophets' Speech
 blurb: "How a Hebrew verse is built (parallelism and its kinds, chiasmus, acrostics), the kinds of psalm and the shape of a lament, and the forms the prophets speak in: “Thus saith the LORD,” the burden, the woe, the lawsuit, the call, the sign act, and the dirge. With what a reader of the King James text should know."
 icon: text
-status: preview
 sources: [barney-ot-poetry, sc-knowhy-831, ot-manual-g, parry-synonymous, parry-climactic, parry-chiasmus, fun-hebrew-poetry, scripture-helps-ps-102, bd-lamentations, scripture-helps-jer-31-33, scripture-helps-jer-1-3, bd-psalms, gs-psalm, ot-manual-psalms, hopkin-psalms-sung, sc-knowhy-438, ot-institute-manual-33, ot-institute-manual-47, bd-prophet, parry-prophetic-forms, parry-symbolic-action, scripture-helps-isa-13-14, scripture-helps-isa-1-12, sc-knowhy-870, sc-knowhy-179, jackson-hosea-marriage, ricks-heavenly-visions, scripture-helps-ezek, bd-italics, parry-isaiah-devices, bd-isaiah, lds-scriptures, oshb-wlc]
 ---
 

@@ -2,7 +2,6 @@
 title: Dust and Glory
 blurb: Psalm 8 asks what man is and answers with glory, honour and dominion. Psalm 144 asks the same question and answers with a passing shadow; Psalms 90 and 103 say dust, and a Father who pities. Hebrews reads Psalm 8 of Jesus, crowned with glory and honour, who is not ashamed to call the many sons brought to glory His brethren.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, scripture-helps-ps-1, sperry-psalm-8, delitzsch-psalms, uchtdorf-you-matter-2011, family-proclamation, nt-manual-hebrews-1-6, bowen-brethren-hebrews-2, ot-minute-psalms-1-20]
 ---
 
