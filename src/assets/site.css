@@ -438,7 +438,10 @@ a.ref-internal { text-decoration-style: dotted; }
 .ref-list-num { list-style: decimal; }
 .ref-list-num li { scroll-margin-top: 90px; }
 .ref-list-num li:target { background: color-mix(in srgb, var(--accent) 14%, transparent); border-radius: 6px; }
-.backrefs a { font-family: var(--font-ui); text-decoration: none; color: var(--accent); margin-left: 2px; }
+.backrefs { font: .85em var(--font-ui); }
+.backrefs a { display: inline-block; padding: .1em .25em; text-decoration: none; color: var(--accent); border-radius: 3px; }
+.backrefs a:hover { text-decoration: underline; }
+.backrefs a:focus-visible { outline: 2px solid var(--focus); }
 [id^="cite-"] { scroll-margin-top: 120px; }
 
 /* ---------- plain pages & guides ---------- */

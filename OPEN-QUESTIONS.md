@@ -12,11 +12,13 @@ Every theme page written from 2026-10-08 to 10-10 (Genesis, Moses, Abraham, Lame
 
 ## The site
 
-- **S7. The arrows after each source on guide and theme pages.** Under “Sources,” each entry ends with one “↩” for every place the page cites it; each arrow jumps back to that place. On Isaiah’s World the Student Manual’s entry has seventeen. You read them as new-line marks (2026-10-11: “That isn't obvious what that link is. Perhaps we should rethink how to show that”). Two ways to show it: (a) small letters, as reference works do, “↑ a b c d,” each letter a link back to one use; (b) no back links at all, since the browser’s Back button returns to the place after a citation is followed. Recommend (a): it keeps the way back and no longer looks like a line break. It is a change to how the site looks, so it goes on a branch for you to see first (`AUTHORING.md`, “Where changes go”).
+Nothing.
 
 ## Answered, awaiting implementation
 
-Nothing. The decisions of 2026-10-11 were carried out the same day; each is in its commit (`git log --since=2026-10-11`) and, where it sets a rule, in the book’s brief. Three things to know when reading the result:
+Nothing.
+
+The decisions of 2026-10-11 were carried out the same day; each is in its commit (`git log --since=2026-10-11`) and, where it sets a rule, in the book’s brief. Three things to know when reading the result:
 
 - **Hosea’s fifteen notes (H9).** Ten were revised from Latter-day Saint studies found in a new search. For seven verses (4:16; 5:2; 6:2; 7:16; 9:3; 9:7; 9:13) the search found nothing, and those notes stand as written (`content/hosea/BRIEF.md`, “State of the book”).
 - **Plain words.** Of the passages flagged, nine sentences took back a clarification that a note or the Church edition’s footnote supports; the rest keep the King James sense. Where the footnote supplies the sense, no new note was written (`content/isaiah/BRIEF.md`, “Book-wide conventions”); say so if you want a visible note in those places too.
