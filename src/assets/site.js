@@ -83,6 +83,9 @@
     const show = (link) => {
       if (restoringFocus) return;
       clearTimeout(timer);
+      // A preview opened inside an expanded note must stay within the modal's active subtree.
+      const host = link.closest('dialog[open]') ?? document.body;
+      if (popup.parentElement !== host) { hide(); host.append(popup); }
       const preview = previewFor(link);
       if (!preview) return;
       if (active !== link) {
@@ -111,7 +114,11 @@
       if (!popup.matches(':popover-open')) popup.showPopover();
       position();
     };
-    citations.forEach((link) => {
+    const enhanced = new WeakSet();
+    const enhance = (link) => {
+      if (enhanced.has(link) || link.closest('.citation-popup')) return;
+      if (!link.matches('.cite a') && !scriptureData[link.dataset.scripture]) return;
+      enhanced.add(link);
       let lastPointerType = '';
       link.addEventListener('pointerdown', (e) => { lastPointerType = e.pointerType; });
       link.setAttribute('aria-haspopup', 'dialog');
@@ -142,7 +149,16 @@
           $('a[href], button', popup).focus({ preventScroll: true });
         }
       });
-    });
+    };
+    citations.forEach(enhance);
+    // Expanded notes clone their contents, including references, after the page has loaded.
+    new MutationObserver((changes) => {
+      for (const change of changes) for (const node of change.addedNodes) {
+        if (!(node instanceof Element)) continue;
+        if (node.matches('.cite a, a[data-scripture]')) enhance(node);
+        $$('.cite a, a[data-scripture]', node).forEach(enhance);
+      }
+    }).observe(document.body, { childList: true, subtree: true });
     popup.addEventListener('pointerenter', () => clearTimeout(timer));
     popup.addEventListener('pointerleave', deferHide);
     popup.addEventListener('focusout', () => {
@@ -157,7 +173,8 @@
         hide(true);
       } else if (!e.shiftKey && document.activeElement === controls.at(-1)) {
         // Resume the passage's tab order after the citation instead of jumping to the footer.
-        const links = $$('a[href], button, input, select, textarea, summary, [tabindex="0"]').filter((el) => !popup.contains(el) && el.getClientRects().length && !el.disabled);
+        const scope = active.closest('dialog[open]') ?? document;
+        const links = $$('a[href], button, input, select, textarea, summary, [tabindex="0"]', scope).filter((el) => !popup.contains(el) && el.getClientRects().length && !el.disabled);
         const next = links[links.indexOf(active) + 1];
         if (next) { e.preventDefault(); hide(); next.focus({ preventScroll: true }); }
       }

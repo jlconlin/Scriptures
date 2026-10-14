@@ -8,6 +8,7 @@ import path from 'node:path';
 import YAML from 'yaml';
 import { md, plain, unknownRefs } from '../src/lib/markdown.mjs';
 import { applyCitations, stripCitations } from '../src/lib/citations.mjs';
+import { configureScripturePreviews } from '../src/lib/scripture-previews.mjs';
 import { renderChapter, range, chapterLabel } from '../src/templates/chapter.mjs';
 // A note's reference as a reader sees it; verse 0 is a psalm's title.
 const noteRef = (book, chapter, ref) => (String(ref) === '0' ? `${chapterLabel(book, chapter)}, title` : `${chapterLabel(book, chapter)}:${ref}`);
@@ -198,6 +199,7 @@ export async function build({ quiet = false } = {}) {
   }
 
   // Templates and reference links read LIBRARY, so it is filled before anything is rendered.
+  configureScripturePreviews(books);
   LIBRARY.length = 0;
   LIBRARY.push(
     ...books.map((b) => ({
@@ -237,18 +239,6 @@ export async function build({ quiet = false } = {}) {
       const cited = applyCitations(g.body, sources, (m) => warn(`${owner.slug}/${collection.path}/${f}: ${m}`));
       g.html = md(cited.body);
       g.refs = cited.refs;
-      // An opt-in demo in preview builds; ship only the verses this page actually references.
-      if (PREVIEW && g.scripturePreviews) {
-        g.scripturePreviewData = {};
-        for (const [, key] of g.html.matchAll(/data-scripture="([^"]+)"/g)) {
-          const [vol, abbr, chapter, range] = key.split('/');
-          const book = books.find((b) => b.abbr === abbr && b.gospelLibrary.startsWith(`${vol}/`));
-          const [first, last] = range.split('-').map(Number);
-          const verses = book?.kjv.chapters[Number(chapter) - 1]?.slice(first - 1, last);
-          if (!verses || verses.length !== last - first + 1 || verses.some((text) => !text)) continue;
-          g.scripturePreviewData[key] = { title: `${book.name} ${chapter}:${first}${last === first ? '' : `–${last}`}`, first, verses };
-        }
-      }
       pages.push(g);
       entries.push({ t: 'guide', b: owner.slug, r: searchLabel, h: g.title, u: `/${owner.slug}/${collection.path}/${g.slug}/`, x: plain(stripCitations(g.body)).slice(0, 3000) });
     }
