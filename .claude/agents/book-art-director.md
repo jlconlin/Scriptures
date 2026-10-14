@@ -21,7 +21,7 @@ Distill the finished book into a single quiet visual idea. It must help a reader
 Write or update `content/<book>/visual.yaml` with:
 
 - `summary`: two or three sentences on the book's visual theological center;
-- `motifs`: the selected primary symbol and up to two supporting motifs;
+- `motifs`: the selected primary symbol and up to two supporting motifs, each naming the verse it comes from (as `(Hosea 14:5)`), so that the “What's in this picture” key written after approval can tell the reader which verse each thing shows;
 - `composition`: a single, clear wide-landscape arrangement;
 - `alt`: proposed accessible alt text, factual rather than interpretive;
 - `status: proposed`.

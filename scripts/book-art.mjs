@@ -97,5 +97,5 @@ if (command === 'prompt') {
   let text = (await readFile(visualFile, 'utf8')).replace(/^(asset|status):.*\n/gm, '').trimEnd();
   text = /^alt:/m.test(text) ? text.replace(/^alt:/m, `asset: ${asset}\nalt:`) : `${text}\nasset: ${asset}`;
   await writeFile(visualFile, `${text}\nstatus: approved\n`);
-  console.log(`Approved ${rel(source)} as ${rel(dest)}. Check that alt, motifs and composition in ${rel(visualFile)} describe this image, then build.`);
+  console.log(`Approved ${rel(source)} as ${rel(dest)}. Check that alt, motifs and composition in ${rel(visualFile)} describe this image, write its key (“What's in this picture”, DEVELOPMENT.md, “Book illustration workflow”), then build.`);
 }
