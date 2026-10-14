@@ -16,8 +16,6 @@ Every theme page written from 2026-10-08 to 10-10 (Genesis, Moses, Abraham, Lame
 
 ## Answered, awaiting implementation
 
-- **Am1 (Amos 3:7): answered (b)** (author, 2026-10-13: “Regarding Am1. I choose option b”). The note keeps Elder Woodruff from the manuscript history and adds a sentence that *Scripture Helps* gives the words as the Prophet Joseph Smith’s and that the history it cites records them as Elder Woodruff’s.
-
 Nothing. The decisions of 2026-10-11 were carried out the same day; each is in its commit (`git log --since=2026-10-11`) and, where it sets a rule, in the book’s brief. Three things to know when reading the result:
 
 - **Hosea’s fifteen notes (H9).** Ten were revised from Latter-day Saint studies found in a new search. For seven verses (4:16; 5:2; 6:2; 7:16; 9:3; 9:7; 9:13) the search found nothing, and those notes stand as written (`content/hosea/BRIEF.md`, “State of the book”).
