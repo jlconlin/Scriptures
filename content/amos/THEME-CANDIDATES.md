@@ -2,6 +2,10 @@
 
 Topics that run across the book and might become theme pages (`STANDARDS.md` §8). **None is written until the author chooses it.** With nine chapters, a topic that lives in one chapter belongs in that chapter's notes.
 
+## Author's selection (in progress)
+
+Codex's list of 2026-10-13 (`.cache/batch/amos/reports/themes-codex.md`) was shown to the author numbered 1 to 17. **Chosen so far** (author, 2026-10-14: “Definitely want to do 9 and merge #2 into it”): **the prophet who pleads** (7:1–9; 8:1–3; 9:1, after Sears), **with “Not Utterly” merged into it** (the remnant and the hedged hope: 3:12; 5:2, 15; 6:9–10; 9:8–15, with Codex's thread from “none to raise her up” at 5:2 to “I will raise up” at 9:11). The rest of the list waits for the author.
+
 ## Noticed while setting up (2026-10-13; not yet tested against the chapters)
 
 Leads from the brief's research, for the coordinator to test once the chapters are written.
