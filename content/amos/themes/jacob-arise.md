@@ -2,7 +2,6 @@
 title: “By Whom Shall Jacob Arise?”
 blurb: The Lord shows Amos the judgment before it falls, and twice the prophet’s plea turns it back. Then the pleading is cut off, and what survives looks like loss. The question no one in the book answers is set beside the book’s last promise, with the Lord as its subject, “I will raise up.”
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, sears-intercession, spencer-remnant, bd-prayer, keil-amos, renlund-choose-you-this-day, gs-jehovah]
 ---
 
