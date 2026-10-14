@@ -12,6 +12,190 @@
   root.classList.add('js');
   const pinnedHeight = () => ($('.site-header')?.offsetHeight ?? 0) + ($('.section-nav')?.offsetHeight ?? 0);
 
+  // ---------- citation and short scripture previews ----------
+  // Ordinary fragment links remain usable when JavaScript or native popovers are unavailable.
+  const scriptureData = JSON.parse($('#scripture-preview-data')?.textContent ?? '{}');
+  const citations = [...$$('.cite a'), ...$$('a[data-scripture]').filter((link) => scriptureData[link.dataset.scripture])];
+  if (citations.length && 'showPopover' in HTMLElement.prototype) {
+    const popup = document.createElement('div');
+    popup.id = 'citation-preview';
+    popup.className = 'citation-popup';
+    popup.setAttribute('popover', 'auto');
+    popup.setAttribute('role', 'dialog');
+    popup.setAttribute('aria-labelledby', 'citation-preview-title');
+    popup.innerHTML = '<div class="citation-popup-bar"><span id="citation-preview-title"></span><button type="button" class="citation-popup-close" aria-label="Close citation">×</button></div><div class="citation-popup-body"></div><a class="citation-popup-list">View in source list</a>';
+    document.body.append(popup);
+    const closeButton = $('.citation-popup-close', popup);
+    const listLink = $('.citation-popup-list', popup);
+    const previewFor = (link) => {
+      const scripture = scriptureData[link.dataset.scripture];
+      if (scripture) {
+        const passage = document.createElement('div');
+        passage.className = 'scripture-preview-verses';
+        scripture.verses.forEach((text, i) => {
+          const verse = document.createElement('p');
+          const number = document.createElement('sup');
+          number.textContent = scripture.first + i;
+          verse.append(number, document.createTextNode(` ${text}`));
+          passage.append(verse);
+        });
+        return { content: passage, title: scripture.title, close: 'Close scripture preview', scripture: true };
+      }
+      const source = document.getElementById(link.hash.slice(1))?.querySelector('.reference-source');
+      return source ? { content: source.cloneNode(true), title: `Source ${link.textContent}`, action: 'View in source list', close: 'Close citation' } : null;
+    };
+    let active = null, pinned = false, timer, restoringFocus = false;
+    const position = () => {
+      if (!active || !popup.matches(':popover-open')) return;
+      const rect = active.getBoundingClientRect();
+      const edge = 12, gap = 8, ceiling = pinnedHeight() + edge;
+      const above = Math.max(0, rect.top - ceiling - gap);
+      const below = Math.max(0, innerHeight - rect.bottom - edge - gap);
+      // Prefer above the citation when the complete card fits there.
+      popup.style.maxHeight = `${Math.max(above, below)}px`;
+      const up = popup.offsetHeight <= above || above > below;
+      popup.style.maxHeight = `${up ? above : below}px`;
+      popup.style.left = `${Math.max(edge, Math.min(innerWidth - popup.offsetWidth - edge, rect.left + rect.width / 2 - popup.offsetWidth / 2))}px`;
+      popup.style.top = `${up ? rect.top - popup.offsetHeight - gap : rect.bottom + gap}px`;
+    };
+    const reset = () => {
+      clearTimeout(timer);
+      active?.setAttribute('aria-expanded', 'false');
+      active = null;
+      pinned = false;
+    };
+    const hide = (restore = false) => {
+      const trigger = active;
+      // Hiding a native popover may itself restore focus to its trigger.
+      // Suppress focus previews throughout that operation to avoid reopening it.
+      restoringFocus = true;
+      if (popup.matches(':popover-open')) popup.hidePopover();
+      reset();
+      if (restore && trigger) trigger.focus({ preventScroll: true });
+      restoringFocus = false;
+    };
+    const deferHide = () => {
+      clearTimeout(timer);
+      timer = setTimeout(() => {
+        if (!pinned && !popup.matches(':hover') && !popup.contains(document.activeElement) && document.activeElement !== active) hide();
+      }, 180);
+    };
+    const show = (link) => {
+      if (restoringFocus) return;
+      clearTimeout(timer);
+      // A preview opened inside an expanded note must stay within the modal's active subtree.
+      const host = link.closest('dialog[open]') ?? document.body;
+      if (popup.parentElement !== host) { hide(); host.append(popup); }
+      const preview = previewFor(link);
+      if (!preview) return;
+      if (active !== link) {
+        active?.setAttribute('aria-expanded', 'false');
+        active = link;
+        pinned = false;
+        $('.citation-popup-body', popup).replaceChildren(preview.content);
+        const heading = $('#citation-preview-title', popup);
+        if (preview.scripture) {
+          const chapterLink = document.createElement('a');
+          chapterLink.textContent = preview.title;
+          chapterLink.href = link.href;
+          chapterLink.target = link.target;
+          chapterLink.rel = link.rel;
+          heading.replaceChildren(chapterLink);
+        } else heading.textContent = preview.title;
+        popup.classList.toggle('scripture-popup', Boolean(preview.scripture));
+        closeButton.setAttribute('aria-label', preview.close);
+        listLink.hidden = Boolean(preview.scripture);
+        listLink.textContent = preview.action ?? '';
+        listLink.href = link.href;
+        listLink.target = link.target;
+        listLink.rel = link.rel;
+      }
+      link.setAttribute('aria-expanded', 'true');
+      if (!popup.matches(':popover-open')) popup.showPopover();
+      position();
+    };
+    const enhanced = new WeakSet();
+    const enhance = (link) => {
+      if (enhanced.has(link) || link.closest('.citation-popup')) return;
+      if (!link.matches('.cite a') && !scriptureData[link.dataset.scripture]) return;
+      enhanced.add(link);
+      let lastPointerType = '';
+      link.addEventListener('pointerdown', (e) => { lastPointerType = e.pointerType; });
+      link.setAttribute('aria-haspopup', 'dialog');
+      link.setAttribute('aria-controls', popup.id);
+      link.setAttribute('aria-expanded', 'false');
+      link.addEventListener('pointerenter', (e) => { if (e.pointerType === 'mouse' && !pinned) show(link); });
+      link.addEventListener('pointerleave', deferHide);
+      link.addEventListener('focus', () => { if (!pinned) show(link); });
+      link.addEventListener('blur', deferHide);
+      link.addEventListener('click', (e) => {
+        const pointer = e.pointerType || (e.detail ? lastPointerType : '');
+        lastPointerType = '';
+        if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+        // A mouse click or keyboard activation follows scripture links directly.
+        // Touch and pen need the first tap to preview, then the linked popup heading to navigate.
+        if (scriptureData[link.dataset.scripture] && pointer !== 'touch' && pointer !== 'pen') return;
+        // Leave the ordinary fragment navigation alone if the source is missing.
+        if (!previewFor(link)) return;
+        e.preventDefault();
+        if (active === link && pinned) { hide(true); return; }
+        show(link);
+        pinned = true;
+        closeButton.focus({ preventScroll: true });
+      });
+      link.addEventListener('keydown', (e) => {
+        if (e.key === 'Tab' && !e.shiftKey && active === link && popup.matches(':popover-open')) {
+          e.preventDefault();
+          $('a[href], button', popup).focus({ preventScroll: true });
+        }
+      });
+    };
+    citations.forEach(enhance);
+    // Expanded notes clone their contents, including references, after the page has loaded.
+    new MutationObserver((changes) => {
+      for (const change of changes) for (const node of change.addedNodes) {
+        if (!(node instanceof Element)) continue;
+        if (node.matches('.cite a, a[data-scripture]')) enhance(node);
+        $$('.cite a, a[data-scripture]', node).forEach(enhance);
+      }
+    }).observe(document.body, { childList: true, subtree: true });
+    popup.addEventListener('pointerenter', () => clearTimeout(timer));
+    popup.addEventListener('pointerleave', deferHide);
+    popup.addEventListener('focusout', () => {
+      clearTimeout(timer);
+      timer = setTimeout(() => { if (!popup.contains(document.activeElement) && document.activeElement !== active) hide(); }, 0);
+    });
+    popup.addEventListener('keydown', (e) => {
+      if (e.key !== 'Tab') return;
+      const controls = $$('a[href], button', popup).filter((el) => !el.hidden && el.getClientRects().length);
+      if (e.shiftKey && document.activeElement === controls[0]) {
+        e.preventDefault();
+        hide(true);
+      } else if (!e.shiftKey && document.activeElement === controls.at(-1)) {
+        // Resume the passage's tab order after the citation instead of jumping to the footer.
+        const scope = active.closest('dialog[open]') ?? document;
+        const links = $$('a[href], button, input, select, textarea, summary, [tabindex="0"]', scope).filter((el) => !popup.contains(el) && el.getClientRects().length && !el.disabled);
+        const next = links[links.indexOf(active) + 1];
+        if (next) { e.preventDefault(); hide(); next.focus({ preventScroll: true }); }
+      }
+    });
+    closeButton.addEventListener('click', () => hide(true));
+    listLink.addEventListener('click', () => hide());
+    popup.addEventListener('toggle', () => { if (!popup.matches(':popover-open')) reset(); });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && active) { e.preventDefault(); hide(true); }
+    });
+    window.addEventListener('resize', position);
+    document.addEventListener('scroll', (e) => {
+      if (active && !popup.contains(e.target)) {
+        const rect = active.getBoundingClientRect();
+        // Keyboard focus can scroll its reference into view. Keep that preview open.
+        if (rect.bottom <= pinnedHeight() || rect.top >= innerHeight) hide();
+        else position();
+      }
+    }, true);
+  }
+
   // ---------- theme ----------
   $('.theme-toggle')?.addEventListener('click', () => {
     const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;

@@ -1,5 +1,6 @@
 import { esc } from '../lib/markdown.mjs';
 import { linkRefs } from '../lib/refs.mjs';
+import { scripturePreviewData } from '../lib/scripture-previews.mjs';
 import { SITE, LIBRARY, VOLUMES_WITH_GUIDES } from '../site.mjs';
 import { VOLUMES, gospelLibraryVolume } from '../lib/canon.mjs';
 
@@ -22,6 +23,8 @@ export function lastRevised(date) {
  * @param {{title:string, description?:string, path:string, body:string, bodyClass?:string, book?:object, chapter?:number, volume?:string, head?:string}} p
  */
 export function layout({ title, description = SITE.description, path, body, bodyClass = '', book, chapter, volume, head = '' }) {
+  const linkedBody = linkRefs(body);
+  const scripturePreviews = scripturePreviewData(linkedBody);
   const fullTitle = title ? `${title} · ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
   const url = SITE.url + path;
   const here = book ? { vol: LIBRARY.find((b) => b.slug === book.slug)?.vol, book: book.slug, ch: chapter } : volume ? { vol: volume } : {};
@@ -64,8 +67,9 @@ ${head}
   </div>
 </header>
 <main id="main">
-${linkRefs(body)}
+${linkedBody}
 </main>
+${scripturePreviews ? `<script type="application/json" id="scripture-preview-data">${JSON.stringify(scripturePreviews).replace(/</g, '\\u003c')}</script>` : ''}
 <footer class="site-footer">
   <div class="wrap footer-inner">
     <div>

@@ -10,23 +10,23 @@ Everything that waits for the author, for every book and for the site, in this o
 
 Every theme page written from 2026-10-08 to 10-10 (Genesis, Moses, Abraham, Lamentations, Malachi, Ezekiel, Daniel, Hosea, Joel) passed its review and is unread by the author, as are Jeremiah's five and all of Joel and Psalms; `node scripts/status.mjs` shows what is unread. Treat every page as open to the author's correction.
 
-## Amos
-
-- **Am1. Who said “Whenever God was about to bring a judgment upon the world … the first thing he did was to raise up a Prophet”?** The note on [[Amos 3:7]] quotes it. The Church's *Scripture Helps* (2025) introduces it with “The Prophet Joseph Smith taught a similar principle” and cites the manuscript history, volume E-1, page 1727. That history's page 1726 begins the entry: “Elder Wilford Woodruff addressed the Assembly from Amos 3 ch. 7 v.” (a conference on 10 September 1843), and the words follow on page 1727. The chapter now says Elder Woodruff preached it and does not mention the difference. Two ways: (a) leave it so, naming Elder Woodruff from the manuscript; (b) add a sentence that the Church's help gives the words as Joseph Smith's and that the manuscript history records them as Elder Woodruff's. Recommend (a): the standard cites the underlying document, and the site does not set out to correct the Church's helps. Choose (b) if you would rather the reader who knows the quotation as Joseph Smith's not be puzzled.
-
 ## The site
 
-- **S7. The arrows after each source on guide and theme pages.** Under “Sources,” each entry ends with one “↩” for every place the page cites it; each arrow jumps back to that place. On Isaiah’s World the Student Manual’s entry has seventeen. You read them as new-line marks (2026-10-11: “That isn't obvious what that link is. Perhaps we should rethink how to show that”). Two ways to show it: (a) small letters, as reference works do, “↑ a b c d,” each letter a link back to one use; (b) no back links at all, since the browser’s Back button returns to the place after a citation is followed. Recommend (a): it keeps the way back and no longer looks like a line break. It is a change to how the site looks, so it goes on a branch for you to see first (`AUTHORING.md`, “Where changes go”).
+Nothing.
 
 ## Answered, awaiting implementation
 
-Nothing. The decisions of 2026-10-11 were carried out the same day; each is in its commit (`git log --since=2026-10-11`) and, where it sets a rule, in the book’s brief. Three things to know when reading the result:
+Nothing.
+
+The decisions of 2026-10-11 were carried out the same day; each is in its commit (`git log --since=2026-10-11`) and, where it sets a rule, in the book’s brief. Three things to know when reading the result:
 
 - **Hosea’s fifteen notes (H9).** Ten were revised from Latter-day Saint studies found in a new search. For seven verses (4:16; 5:2; 6:2; 7:16; 9:3; 9:7; 9:13) the search found nothing, and those notes stand as written (`content/hosea/BRIEF.md`, “State of the book”).
 - **Plain words.** Of the passages flagged, nine sentences took back a clarification that a note or the Church edition’s footnote supports; the rest keep the King James sense. Where the footnote supplies the sense, no new note was written (`content/isaiah/BRIEF.md`, “Book-wide conventions”); say so if you want a visible note in those places too.
 - **Former “Liken It” notes (S6).** All 117 were read. 112 are still on the site, and four had a sentence of personal application left (Isaiah 4:1; 44:12; 54:7; 56:5); those sentences are gone.
 
 ## Work waiting, no decision needed
+
+- **“What's in this picture” for every illustrated book, and a rule for future books** (author, 2026-10-13: “Once we are done with Amos, we should do that for all the current books and put in our rules for all the future books”). Built and approved on the branch `image-key`, with Amos as the example (a faint eye icon in the image's lower right corner opens a list below the image; author: “Yeah, that looks good”). When Amos is finished: write a `key` in each illustrated book's `visual.yaml` (one line for each thing in the picture, saying in plain words which verse it shows, from that file's `motifs`), have Codex read each, show them in the preview, merge the branch, and add the step to the illustration stage in `AUTHORING.md` (“The illustration is the last stage”), `DEVELOPMENT.md` (“Book illustration workflow”) and the `book-art-director` agent, so every future book's image gets one when it is approved.
 
 - **Psalms: a second pass over the psalms written before 2026-10-11: not now** (your answer that day: “No I dont' want a second pass right now. Maybe in a future date”). Kept here so it isn't lost. The first 116 psalms were written before the rule on Hebrew, before the table of where each shared thing is explained, and without two finders of Latter-day Saint studies (BYU Studies' psalm-by-psalm lists; the Interpreter Foundation's journal). Of them, 49 cite no Scripture Central, BYU or Interpreter source, and Delitzsch is in 28 percent of the notes. A pass would look each psalm up in the finders, cut Hebrew and Delitzsch that answer no reader's question, and turn repeated explanations into pointers; a rough guess is 150,000 to 250,000 tokens a psalm.
 

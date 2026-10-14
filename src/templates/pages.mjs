@@ -257,6 +257,15 @@ ${themes.length ? `<h2 class="section-title guides-themes-title" id="themes">The
   return layout({ title: c.indexTitle(owner), path: `/${owner.slug}/${c.path}/`, body, bodyClass: 'page-guides', ...here(owner) });
 }
 
+// Lowercase reference letters, continuing with aa, ab, … after z.
+function referenceLetter(index) {
+  let label = '';
+  for (let n = index + 1; n > 0; n = Math.floor((n - 1) / 26)) {
+    label = String.fromCharCode(97 + (n - 1) % 26) + label;
+  }
+  return label;
+}
+
 export function renderGuide({ owner, guide, guides, sources, collection = COLLECTIONS.guides }) {
   const book = owner;
   const c = collection;
@@ -269,7 +278,7 @@ export function renderGuide({ owner, guide, guides, sources, collection = COLLEC
   const further = (guide.sources ?? []).filter((s) => !citedKeys.has(String(s).split(/,\s*/)[0])).map((s) => renderSource(s, sources));
   const refList = refs.length
     ? `<h2 id="sources">${esc(sectionTitle('cited'))}</h2><ol class="source-list ref-list-num">${refs
-        .map((r) => `<li id="ref-${r.n}">${renderSource(r.spec, sources)} <span class="backrefs">${r.backrefs.map((id, i) => `<a href="#${id}" aria-label="Back to citation ${r.n}${r.backrefs.length > 1 ? `, use ${i + 1}` : ''}">↩</a>`).join(' ')}</span></li>`)
+        .map((r) => `<li id="ref-${r.n}"><span class="reference-source">${renderSource(r.spec, sources)}</span> <span class="backrefs"><span aria-hidden="true">↑</span> ${r.backrefs.map((id, i) => `<a href="#${id}" aria-label="Back to citation ${r.n}, use ${i + 1}">${referenceLetter(i)}</a>`).join(' ')}</span></li>`)
         .join('')}</ol>${further.length ? `<h3>${esc(sectionTitle('further'))}</h3><ul class="source-list">${further.map((s) => `<li>${s}</li>`).join('')}</ul>` : ''}`
     : further.length ? `<h2 id="sources">${esc(sectionTitle('sources'))}</h2><ul class="source-list">${further.map((s) => `<li>${s}</li>`).join('')}</ul>` : '';
   const body = `

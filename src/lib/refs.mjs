@@ -98,12 +98,15 @@ export const isInternal = (url) => url.startsWith('/');
 
 /** Replace every [[ref; ref|label]] in a string with <a> tags. Unknown refs are left as plain text and reported. */
 export function linkRefs(str, onUnknown = () => {}) {
-  const anchor = (r, raw) => {
+  const anchor = (r, raw, reference = raw) => {
     const url = refUrl(r);
     const text = raw.replace(/&(?!amp;)/g, '&amp;');
+    // Only an exact, contiguous range within one chapter can have a short preview.
+    const short = r.verses && /^[^:]+:\s*\d+(?:\s*[–-]\s*\d+)?$/.test(reference) && r.verses[1] >= r.verses[0] && r.verses[1] - r.verses[0] < 3;
+    const preview = short ? ` data-scripture="${r.vol}/${r.slug}/${r.chapter}/${r.verses[0]}-${r.verses[1]}"` : '';
     return isInternal(url)
-      ? `<a class="ref ref-internal" href="${url}">${text}</a>`
-      : `<a class="ref" href="${url}" target="_blank" rel="noopener">${text}</a>`;
+      ? `<a class="ref ref-internal" href="${url}"${preview}>${text}</a>`
+      : `<a class="ref" href="${url}"${preview} target="_blank" rel="noopener">${text}</a>`;
   };
   return str.replace(/\[\[([^\]]+)\]\]/g, (_, inner) => {
     const [refText, label] = inner.replace(/&amp;/g, '&').split('|');
@@ -116,7 +119,7 @@ export function linkRefs(str, onUnknown = () => {}) {
       return { p, r };
     });
     // A labelled reference links the label to the first reference.
-    if (label) return parts[0].r ? anchor(parts[0].r, label) : label;
+    if (label) return parts[0].r ? anchor(parts[0].r, label, parts[0].p) : label;
     return parts.map(({ p, r }) => (r ? anchor(r, p) : p)).join('; ');
   });
 }

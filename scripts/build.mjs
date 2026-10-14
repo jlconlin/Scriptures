@@ -8,6 +8,7 @@ import path from 'node:path';
 import YAML from 'yaml';
 import { md, plain, unknownRefs } from '../src/lib/markdown.mjs';
 import { applyCitations, stripCitations } from '../src/lib/citations.mjs';
+import { configureScripturePreviews } from '../src/lib/scripture-previews.mjs';
 import { renderChapter, range, chapterLabel } from '../src/templates/chapter.mjs';
 // A note's reference as a reader sees it; verse 0 is a psalm's title.
 const noteRef = (book, chapter, ref) => (String(ref) === '0' ? `${chapterLabel(book, chapter)}, title` : `${chapterLabel(book, chapter)}:${ref}`);
@@ -198,6 +199,7 @@ export async function build({ quiet = false } = {}) {
   }
 
   // Templates and reference links read LIBRARY, so it is filled before anything is rendered.
+  configureScripturePreviews(books);
   LIBRARY.length = 0;
   LIBRARY.push(
     ...books.map((b) => ({
