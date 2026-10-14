@@ -163,6 +163,12 @@ const LDS_SPELLINGS = [
   [/Baalpeor, and separated/g, 'Baal-peor, and separated'], // Hosea 9:10
   [/Betharbel/g, 'Beth-arbel'], // Hosea 10:14
   [/shall his LORD return unto him/g, 'shall his Lord return unto him'], // Hosea 12:14
+  // Amos: a place name, and “Lord” (adonai) where the source has LORD (found by scripts/check-kjv.mjs).
+  [/palaces of Kirioth/g, 'palaces of Kerioth'], // Amos 2:2
+  [/the LORD, saith thus;/g, 'the Lord, saith thus;'], // Amos 5:16
+  [/the LORD stood upon a wall/g, 'the Lord stood upon a wall'], // Amos 7:7
+  [/Then said the LORD, Behold, I will set a plumbline/g, 'Then said the Lord, Behold, I will set a plumbline'], // Amos 7:8
+  [/I saw the LORD standing upon the altar/g, 'I saw the Lord standing upon the altar'], // Amos 9:1
   // Joel: a comma and an old spelling (found by scripts/check-kjv.mjs).
   [/and cry unto the LORD\.$/g, 'and cry unto the LORD,'], // Joel 1:14
   [/the vats shall overflow with wine and oil/g, 'the fats shall overflow with wine and oil'], // Joel 2:24
