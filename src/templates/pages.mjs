@@ -266,7 +266,7 @@ export function renderGuide({ owner, guide, guides, sources, collection = COLLEC
   const further = (guide.sources ?? []).filter((s) => !citedKeys.has(String(s).split(/,\s*/)[0])).map((s) => renderSource(s, sources));
   const refList = refs.length
     ? `<h2 id="sources">${esc(sectionTitle('cited'))}</h2><ol class="source-list ref-list-num">${refs
-        .map((r) => `<li id="ref-${r.n}">${renderSource(r.spec, sources)} <span class="backrefs"><span aria-hidden="true">↑</span> ${r.backrefs.map((id, i) => `<a href="#${id}" aria-label="Back to citation ${r.n}, use ${i + 1}">${referenceLetter(i)}</a>`).join(' ')}</span></li>`)
+        .map((r) => `<li id="ref-${r.n}"><span class="reference-source">${renderSource(r.spec, sources)}</span> <span class="backrefs"><span aria-hidden="true">↑</span> ${r.backrefs.map((id, i) => `<a href="#${id}" aria-label="Back to citation ${r.n}, use ${i + 1}">${referenceLetter(i)}</a>`).join(' ')}</span></li>`)
         .join('')}</ol>${further.length ? `<h3>${esc(sectionTitle('further'))}</h3><ul class="source-list">${further.map((s) => `<li>${s}</li>`).join('')}</ul>` : ''}`
     : further.length ? `<h2 id="sources">${esc(sectionTitle('sources'))}</h2><ul class="source-list">${further.map((s) => `<li>${s}</li>`).join('')}</ul>` : '';
   const body = `
