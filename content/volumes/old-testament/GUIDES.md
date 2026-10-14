@@ -63,11 +63,11 @@ Haiku is not used: the author's test found its answers thin and review did not c
 
 ## Scripts
 
-Built and described in `DEVELOPMENT.md`: `source.mjs --append`, `scripts/check-page.mjs`, `occurrences.mjs --site all` and `status.mjs` for volumes, `theme-dossier.mjs` for a volume, and `.claude/workflows/write-guide.js`. Still to write, before the next book's brief: **`scripts/search-lds.mjs "<words>"`**, one search across Scripture Central's archive, the *Interpreter* journal, the Religious Studies Center and BYU Studies, printing titles and URLs as `knowhys.mjs` does for KnoWhys; to try first is whether each site's own search answers a script, and where one does not, the script falls back to a site-restricted web search and says so.
+Built and described in `DEVELOPMENT.md`: `source.mjs --append`, `scripts/check-page.mjs`, `occurrences.mjs --site all` and `status.mjs` for volumes, `theme-dossier.mjs` for a volume, and `.claude/workflows/write-guide.js`. `scripts/search-lds.mjs` was the last of them (written 2026-10-13, before Amos's brief; `DEVELOPMENT.md`, “Research scripts”).
 
 ## Order of work
 
 1. **Done on the branch (2026-10-12):** the code change, the docs, the agents' guide sections, scripts 1, 2, 4, 5 and 6. The first guide is shown in the preview artifact with `preview-site.mjs --keep genesis/guides/`, and the push waits for the author's word.
 2. **The women guide:** research, the outline for the author, writing, review, Codex, the back-links from Genesis, Hosea and Ezekiel. Go live at the author's word.
 3. **Psalms and Genesis book guides**, then the Ezekiel guide.
-4. **Volume guide 3** (the poetry; guide 2 is in preview), then the rest as books need them; each ends by trimming the book-guide sections it absorbs and adding the link sentences to Daniel's and Hosea's intros. Script 3 before the next book's brief.
+4. **Volume guide 3** (the poetry; guide 2 is in preview), then the rest as books need them; each ends by trimming the book-guide sections it absorbs and adding the link sentences to Daniel's and Hosea's intros.
