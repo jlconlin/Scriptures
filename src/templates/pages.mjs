@@ -115,9 +115,21 @@ ${sorted.length ? `<section class="wrap narrow book-section"><div class="volumes
   return layout({ title: volume.name, description: `The books of the ${volume.name} on ${SITE.name}.`, path: `/${volume.slug}/`, body, bodyClass: 'page-volume', volume: volume.key });
 }
 
+// The book's illustration, with “What's in this picture” beneath it when visual.yaml has a `key`:
+// one line for each thing in the picture, saying which verse it shows (author, 2026-10-13: “One thing I really
+// struggle with is seeing symbols in someone else's artwork”).
+function artFigure(visual) {
+  const img = `<img class="hero-art book-art" src="${esc(visual.asset)}" alt="${esc(visual.alt)}">`;
+  if (!visual.key?.length) return img;
+  return `<figure class="book-art-figure">${img}
+  <details class="art-key"><summary>${icon('symbol')}What's in this picture</summary>
+    <ul>${visual.key.map((k) => `<li>${mdInline(k)}</li>`).join('')}</ul>
+  </details></figure>`;
+}
+
 export function renderBookIndex({ book, guides, sources }) {
   const bookArt = book.visual?.status === 'approved' && book.visual.asset && book.visual.alt
-    ? `<img class="hero-art book-art" src="${esc(book.visual.asset)}" alt="${esc(book.visual.alt)}">`
+    ? artFigure(book.visual)
     : ensignArt;
   const divisions = book.divisions
     .map((d) => {
