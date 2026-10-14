@@ -10,15 +10,13 @@ Everything that waits for the author, for every book and for the site, in this o
 
 Every theme page written from 2026-10-08 to 10-10 (Genesis, Moses, Abraham, Lamentations, Malachi, Ezekiel, Daniel, Hosea, Joel) passed its review and is unread by the author, as are Jeremiah's five and all of Joel and Psalms; `node scripts/status.mjs` shows what is unread. Treat every page as open to the author's correction.
 
-## Amos
-
-- **Am1. Who said “Whenever God was about to bring a judgment upon the world … the first thing he did was to raise up a Prophet”?** The note on [[Amos 3:7]] quotes it. The Church's *Scripture Helps* (2025) introduces it with “The Prophet Joseph Smith taught a similar principle” and cites the manuscript history, volume E-1, page 1727. That history's page 1726 begins the entry: “Elder Wilford Woodruff addressed the Assembly from Amos 3 ch. 7 v.” (a conference on 10 September 1843), and the words follow on page 1727. The chapter now says Elder Woodruff preached it and does not mention the difference. Two ways: (a) leave it so, naming Elder Woodruff from the manuscript; (b) add a sentence that the Church's help gives the words as Joseph Smith's and that the manuscript history records them as Elder Woodruff's. Recommend (a): the standard cites the underlying document, and the site does not set out to correct the Church's helps. Choose (b) if you would rather the reader who knows the quotation as Joseph Smith's not be puzzled.
-
 ## The site
 
 - **S7. The arrows after each source on guide and theme pages.** Under “Sources,” each entry ends with one “↩” for every place the page cites it; each arrow jumps back to that place. On Isaiah’s World the Student Manual’s entry has seventeen. You read them as new-line marks (2026-10-11: “That isn't obvious what that link is. Perhaps we should rethink how to show that”). Two ways to show it: (a) small letters, as reference works do, “↑ a b c d,” each letter a link back to one use; (b) no back links at all, since the browser’s Back button returns to the place after a citation is followed. Recommend (a): it keeps the way back and no longer looks like a line break. It is a change to how the site looks, so it goes on a branch for you to see first (`AUTHORING.md`, “Where changes go”).
 
 ## Answered, awaiting implementation
+
+- **Am1 (Amos 3:7): answered (b)** (author, 2026-10-13: “Regarding Am1. I choose option b”). The note keeps Elder Woodruff from the manuscript history and adds a sentence that *Scripture Helps* gives the words as the Prophet Joseph Smith’s and that the history it cites records them as Elder Woodruff’s.
 
 Nothing. The decisions of 2026-10-11 were carried out the same day; each is in its commit (`git log --since=2026-10-11`) and, where it sets a rule, in the book’s brief. Three things to know when reading the result:
 
