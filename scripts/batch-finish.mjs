@@ -1,12 +1,13 @@
 // The coordinator's steps after a write-chapters run, in one command (DEVELOPMENT.md, “Writing a book in batches”):
 //   batch-notes (unanswered questions into UNANSWERED.md, theme candidates),
 //   merge-sources --write, the reviewers' questions printed for the coordinator (not filed), one commit for the documents, then
-//   batch-commit (check-chapter on each chapter; one commit for each that passes).
+//   batch-commit (check-chapter on each chapter; one commit for each that passes); and when the book's last chapter is
+//   written, codex-themes (Codex's review of the theme candidates, for the author to approve).
 // It prints one line a step and whatever needs a person: a chapter not ready, a source to settle by hand,
 // a chapter whose checks fail.
 // Usage: node scripts/batch-finish.mjs <book> <the run's journal.jsonl> <question prefix, e.g. Ps>
 import { execFileSync } from 'node:child_process';
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
 import path from 'node:path';
 import { findBook } from '../src/lib/books.mjs';
 // The commit's attribution line: the model that ran the batch, from CLAUDE_MODEL_NAME (set by the coordinator), else a generic one.
@@ -47,6 +48,11 @@ git('add', 'content/sources.yaml', 'OPEN-QUESTIONS.md', `content/${slug}/BRIEF.m
 try { git('add', `content/${slug}/UNANSWERED.md`); } catch { /* none written yet */ }
 if (git('diff', '--cached', '--name-only').trim()) git('commit', '-q', '-m', `${book.name} ${chapters[0]}–${chapters.at(-1)}: sources, the reviewers' decisions, questions and theme candidates\n\n${coauthor()}`);
 console.log(run('batch-commit.mjs', slug, 'written', ...chapters).trim());
+// The last batch of a book: Codex reviews the theme candidates and proposes its own, while the author looks at the
+// book's image (author, 2026-10-13: “We should make this an automatic step at the end of a book generation”).
+const total = JSON.parse(readFileSync(path.join(ROOT, `data/kjv/${slug}.json`), 'utf8')).chapters.length;
+const written = readdirSync(path.join(ROOT, `content/${slug}/chapters`)).filter((f) => /^\d+\.yaml$/.test(f)).length;
+if (written >= total) console.log(run('codex-themes.mjs', slug).trim());
 // A brief too long to read whole is read in part: agents take its first few hundred lines (Psalms, 2026-10-11).
 const briefSize = readFileSync(path.join(ROOT, `content/${slug}/BRIEF.md`)).length;
 if (briefSize > 60000) console.log(`\n⚠ content/${slug}/BRIEF.md is ${Math.round(briefSize / 1000)} KB: too long for an agent to read whole. Cut it before the next batch (AUTHORING.md, “A brief stays brief”).`);
