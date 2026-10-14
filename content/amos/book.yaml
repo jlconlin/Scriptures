@@ -13,12 +13,12 @@ heroQuote:
 description: A phrase-by-phrase companion to the book of Amos, grounded in the restored gospel of Jesus Christ.
 divisionsBlurb: Nine chapters in three movements. Judgment circles through Israel’s neighbors and lands on Israel. Amos then argues the case against a prosperous people and pleads with them to seek the Lord. Five visions close the book, and its last verses promise the fallen house of David raised again.
 home:
-  blurb: A herdsman from Judah sent to the prosperous northern kingdom, who charged it with crushing the poor while its shrines were full, and who taught that the Lord does nothing without revealing His secret to His servants the prophets.
+  blurb: A herdsman from Judah sent to the prosperous northern kingdom. He charged it with crushing the poor while its shrines were full, and he taught that the Lord does nothing without revealing His secret to His servants the prophets.
 
 intro: |
-  Amos was a herdsman from Tekoa, in Judah, whom the Lord “took” as he “followed the flock” and sent north to prophesy to the kingdom of Israel ([[Amos 7:15]]). His book dates itself to the reigns of Uzziah of Judah and Jeroboam II of Israel, in the eighth century B.C., a generation before Assyria ended the northern kingdom. The times were good. Samaria had winter houses and summer houses and beds of ivory, and the shrines at Beth-el and Gilgal were busy.
+  Amos was a herdsman from Tekoa, in Judah, whom the Lord “took” as he “followed the flock” and sent north to prophesy to the kingdom of Israel ([[Amos 7:15]]). His book dates itself to the reigns of Uzziah of Judah and Jeroboam II of Israel, in the eighth century B.C., a generation before Assyria ended the northern kingdom. The kingdom was prosperous. Samaria had winter houses and summer houses and beds of ivory, and the shrines at Beth-el and Gilgal were busy.
 
-  Amos said that the worship was worthless while the poor were sold “for a pair of shoes” ([[Amos 2:6]]). Israel alone had been known by the Lord, and for that reason it would answer for more ([[Amos 3:2]]). He taught that the Lord warns before He acts: “Surely the Lord GOD will do nothing, but he revealeth his secret unto his servants the prophets” ([[Amos 3:7]]). He foretold a famine “of hearing the words of the LORD” ([[Amos 8:11]]), and the book ends with the Lord raising “the tabernacle of David that is fallen” ([[Amos 9:11]]). This companion goes through all nine chapters and tries to anticipate the questions a careful reader would ask.
+  Amos said that the worship was worthless while the poor were sold “for a pair of shoes” ([[Amos 2:6]]). Israel alone had been known by the Lord, and for that reason it would be held to a stricter account ([[Amos 3:2]]). He taught that the Lord warns before He acts: “Surely the Lord GOD will do nothing, but he revealeth his secret unto his servants the prophets” ([[Amos 3:7]]). He foretold a famine “of hearing the words of the LORD” ([[Amos 8:11]]), and the book ends with the Lord raising “the tabernacle of David that is fallen” ([[Amos 9:11]]). This companion goes through all nine chapters and tries to anticipate the questions a careful reader would ask.
 
 # The three divisions follow Scripture Helps: Old Testament (2025).
 # Keys must not repeat another book’s (the colors are global variables).
@@ -38,12 +38,13 @@ divisions:
   - key: amosvisions
     range: [7, 9]
     name: Thus Hath the Lord God Shewed unto Me
-    blurb: Locusts, fire, a plumbline, a basket of summer fruit, and the Lord standing upon the altar. A priest orders Amos out of Beth-el, a famine of the word is foretold, and the Lord promises to raise the fallen house of David.
+    blurb: Visions of locusts, fire, a plumbline, a basket of summer fruit, and the Lord standing upon the altar. A priest orders Amos out of Beth-el, a famine of the word is foretold, and the Lord promises to raise the fallen house of David.
     color: '#5a7a3a'
     darkColor: '#b4d490'
 
 # Further reading attached automatically to chapters in these ranges.
-rangeSources: []
+rangeSources:
+  - { range: [1, 9], sources: [scripture-helps-amos] }
 
 beloved:
   - { chapter: 3, verse: 3, text: 'Can two walk together, except they be agreed?' }
@@ -56,6 +57,9 @@ beloved:
 
 coreSources:
   - bd-amos
+  - scripture-helps-amos
+  - matson-amos-kinship
+  - sears-intercession
 
 # Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
 titles:
