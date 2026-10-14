@@ -362,6 +362,14 @@
 
   // ---------- collapsible chapter introduction ----------
   // A reader who collapses “Where we are” or “The thread” keeps it collapsed on every chapter.
+  // “What's in this picture” (book page): the button sits in the image's lower right corner. Its list opens below
+  // the image, so while it is open the button is raised by the list's height to stay on the image.
+  document.querySelectorAll('.art-key').forEach((d) => {
+    const fig = d.closest('.book-art-figure'), list = d.querySelector('ul');
+    const place = () => fig.style.setProperty('--key-h', d.open ? `${list.offsetHeight + parseFloat(getComputedStyle(list).marginTop)}px` : '0px');
+    d.addEventListener('toggle', place);
+    addEventListener('resize', place);
+  });
   const storedCollapsedIntro = store.get('collapsedIntro');
   const collapsedIntro = new Set(JSON.parse(storedCollapsedIntro || '[]'));
   const intros = $$('details.intro');

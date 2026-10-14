@@ -302,10 +302,10 @@ a.ref-internal { text-decoration-style: dotted; }
 .book-hero .hero-art { display: block; width: 100%; max-width: none; margin-top: 32px; }
 .book-art-figure { margin: 32px 0 0; position: relative; }
 .book-hero .book-art-figure .hero-art { margin-top: 0; }
-/* “What's in this picture”: a quiet button in the image's top corner; the list opens below the image. */
-.art-key > summary { list-style: none; cursor: pointer; position: absolute; top: 12px; right: 12px; display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; background: rgba(20, 20, 24, .32); color: rgba(255, 255, 255, .92); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); transition: background .15s; }
+/* “What's in this picture”: a faint button in the image's lower right corner; the list opens below the image (site.js keeps the button on the image). */
+.art-key > summary { list-style: none; cursor: pointer; position: absolute; right: 12px; bottom: calc(var(--key-h, 0px) + 12px); display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: rgba(20, 20, 24, .16); color: rgba(255, 255, 255, .75); backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); transition: background .15s, color .15s; }
 .art-key > summary::-webkit-details-marker { display: none; }
-.art-key > summary:hover, .art-key[open] > summary { background: rgba(20, 20, 24, .55); }
+.art-key > summary:hover, .art-key[open] > summary { background: rgba(20, 20, 24, .34); color: #fff; }
 .art-key > summary:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
 .art-key > summary .icon { width: 18px; height: 18px; }
 .art-key-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
