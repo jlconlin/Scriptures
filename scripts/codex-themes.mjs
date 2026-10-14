@@ -4,7 +4,7 @@
 // the image”). batch-finish.mjs runs it once every chapter of the book is written; it can also be run by hand.
 // Codex reads STANDARDS.md §8, the book's THEME-CANDIDATES.md, the reviewers' leads (.cache/batch/<book>/theme-leads.md),
 // the brief and the chapters, read-only; judges each candidate; proposes arcs of its own, marked as its own; and returns
-// a ranked list of three to six pages with a “Not recommended” section. Nothing is chosen until the author approves:
+// a ranked list (a handful as a rule of thumb, more for a big book) with a “Not recommended” section. Nothing is chosen until the author approves:
 // the coordinator shows the list, and only the author's choice goes into THEME-CANDIDATES.md.
 // Writes .cache/batch/<book>/reports/themes-codex.md; skipped if that file exists (--force to run again).
 // Usage: node scripts/codex-themes.mjs <book> [--model <codex model>] [--force] [--print]
@@ -41,7 +41,7 @@ ${leads}
 Your task:
 1. Review the existing candidates and the reviewers' leads against the standard. For each, say briefly whether it earns a page and why: is it an arc (does something change from the first passage to the last), does it run across several chapters, and does it lead to Jesus Christ from scripture? Merge leads that are the same arc.
 2. Propose ideas of your own: arcs in ${book.name} the list above misses, including connections to Christ or to Restoration scripture that a careful reader could check in the text. Say which ideas are yours.
-3. Return a final recommended list of 3 to 6 theme pages, ranked. For each give: a short title (a phrase from the text is good); the key passages in order; the arc in two or three sentences (what changes from first to last); how it points to Christ; and why it is more than chapter notes.
+3. Return a final recommended list of theme pages, ranked: a handful, as a rule of thumb, but as many as the book truly needs (a long book may need more than six; a short one may need two or three). For each give: a short title (a phrase from the text is good); the key passages in order; the arc in two or three sentences (what changes from first to last); how it points to Christ; and why it is more than chapter notes.
 4. After the list, a short section "Not recommended" naming the leads you set aside, each with one line of reason.
 
 Write plainly and briefly. The author will read your list and choose.`;
