@@ -12,3 +12,13 @@ So readers can load the commentary into their own AI conversations. Suggested pl
 ## A question box on the site
 
 (Author, 2026-10-03.) While reading, the author wants to ask a question about a verse, have the answer found, and have it added to the site. Today that is done in a session or a comment on the preview (`AUTHORING.md`, “The author's study questions become commentary”). A question box on the live site itself would need a server behind it, which the static site doesn't have.
+
+## A theme page: the sacrifices and offerings beside today's ordinances
+
+The author's idea (2026-10-13: “I'm curious how the various prescribed sacrifices and offerings compare to and align with today's ordinances”). **A theme page, not a guide** (author, same day: “I do want to add that as a theme page, not a guide page”), so it may make connections of its own within `STANDARDS.md` §8. **Not before the five books of Moses are finished** (author: “I want to finish the other fives Books of Moses first”); Leviticus, Numbers and Deuteronomy are not started.
+
+When the time comes:
+
+- **Which book owns it is not decided.** A theme page belongs to a book. The offerings are prescribed in Lev. 1–7 (with Lev. 16 and 23), the calendar of offerings in Num. 28–29, the Passover in Ex. 12; Deuteronomy mostly assumes them. Leviticus is the likely home. Put it in that book's `THEME-CANDIDATES.md` as already chosen by the author, and ask whether it should instead span the five books.
+- **What is already on the site.** Volume guide 4, *The Law and the Covenant*, gives sacrifice two paragraphs (the three kinds of altar sacrifice, the six acts, that the sacrament replaced it); guide 5 has the daily offering and “more than sacrifice.” The theme page links to them and does not repeat them.
+- **Ask the author before the outline** what the page should carry (one gospel taught by different ordinances, or a side-by-side of each offering and its counterpart), and whether temple ordinances are in scope, within what the Church's sources say publicly.
