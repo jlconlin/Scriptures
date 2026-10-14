@@ -237,6 +237,18 @@ export async function build({ quiet = false } = {}) {
       const cited = applyCitations(g.body, sources, (m) => warn(`${owner.slug}/${collection.path}/${f}: ${m}`));
       g.html = md(cited.body);
       g.refs = cited.refs;
+      // An opt-in demo in preview builds; ship only the verses this page actually references.
+      if (PREVIEW && g.scripturePreviews) {
+        g.scripturePreviewData = {};
+        for (const [, key] of g.html.matchAll(/data-scripture="([^"]+)"/g)) {
+          const [vol, abbr, chapter, range] = key.split('/');
+          const book = books.find((b) => b.abbr === abbr && b.gospelLibrary.startsWith(`${vol}/`));
+          const [first, last] = range.split('-').map(Number);
+          const verses = book?.kjv.chapters[Number(chapter) - 1]?.slice(first - 1, last);
+          if (!verses || verses.length !== last - first + 1 || verses.some((text) => !text)) continue;
+          g.scripturePreviewData[key] = { title: `${book.name} ${chapter}:${first}${last === first ? '' : `–${last}`}`, first, verses };
+        }
+      }
       pages.push(g);
       entries.push({ t: 'guide', b: owner.slug, r: searchLabel, h: g.title, u: `/${owner.slug}/${collection.path}/${g.slug}/`, x: plain(stripCitations(g.body)).slice(0, 3000) });
     }

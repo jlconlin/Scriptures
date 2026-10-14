@@ -2,6 +2,7 @@
 title: Isaiah’s World
 blurb: The kings, empires, and places behind the text. A map, one table of rulers and events, and the nations Isaiah names.
 icon: map
+scripturePreviews: true
 sources: [ot-manual-f, bd-isaiah, bd-captivities, bd-assyria, bd-persia, bd-hezekiah, bd-ahaz, bd-uzziah, bd-samaria, bd-damascus, bd-egypt, bd-ethiopia, bd-philistines, bd-moab, bd-edom, bd-tyre, bd-tarshish, bd-media, bd-elam, bd-sennacherib, bd-lachish, bd-hezekiahs-tunnel, bd-gate, bd-high-places, bd-grove, gs-ensign, luckenbill-annals, great-isaiah-scroll, lds-scriptures]
 ---
 

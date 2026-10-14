@@ -12,9 +12,10 @@
   root.classList.add('js');
   const pinnedHeight = () => ($('.site-header')?.offsetHeight ?? 0) + ($('.section-nav')?.offsetHeight ?? 0);
 
-  // ---------- citation previews ----------
+  // ---------- citation and short scripture previews ----------
   // Ordinary fragment links remain usable when JavaScript or native popovers are unavailable.
-  const citations = $$('.cite a');
+  const scriptureData = JSON.parse($('#scripture-preview-data')?.textContent ?? '{}');
+  const citations = [...$$('.cite a'), ...$$('a[data-scripture]').filter((link) => scriptureData[link.dataset.scripture])];
   if (citations.length && 'showPopover' in HTMLElement.prototype) {
     const popup = document.createElement('div');
     popup.id = 'citation-preview';
@@ -26,6 +27,23 @@
     document.body.append(popup);
     const closeButton = $('.citation-popup-close', popup);
     const listLink = $('.citation-popup-list', popup);
+    const previewFor = (link) => {
+      const scripture = scriptureData[link.dataset.scripture];
+      if (scripture) {
+        const passage = document.createElement('div');
+        passage.className = 'scripture-preview-verses';
+        scripture.verses.forEach((text, i) => {
+          const verse = document.createElement('p');
+          const number = document.createElement('sup');
+          number.textContent = scripture.first + i;
+          verse.append(number, document.createTextNode(` ${text}`));
+          passage.append(verse);
+        });
+        return { content: passage, title: scripture.title, action: 'Open chapter', close: 'Close scripture preview', scripture: true };
+      }
+      const source = document.getElementById(link.hash.slice(1))?.querySelector('.reference-source');
+      return source ? { content: source.cloneNode(true), title: `Source ${link.textContent}`, action: 'View in source list', close: 'Close citation' } : null;
+    };
     let active = null, pinned = false, timer, restoringFocus = false;
     const position = () => {
       if (!active || !popup.matches(':popover-open')) return;
@@ -65,15 +83,20 @@
     const show = (link) => {
       if (restoringFocus) return;
       clearTimeout(timer);
-      const source = document.getElementById(link.hash.slice(1))?.querySelector('.reference-source');
-      if (!source) return;
+      const preview = previewFor(link);
+      if (!preview) return;
       if (active !== link) {
         active?.setAttribute('aria-expanded', 'false');
         active = link;
         pinned = false;
-        $('.citation-popup-body', popup).replaceChildren(source.cloneNode(true));
-        $('#citation-preview-title', popup).textContent = `Source ${link.textContent}`;
+        $('.citation-popup-body', popup).replaceChildren(preview.content);
+        $('#citation-preview-title', popup).textContent = preview.title;
+        popup.classList.toggle('scripture-popup', Boolean(preview.scripture));
+        closeButton.setAttribute('aria-label', preview.close);
+        listLink.textContent = preview.action;
         listLink.href = link.href;
+        listLink.target = link.target;
+        listLink.rel = link.rel;
       }
       link.setAttribute('aria-expanded', 'true');
       if (!popup.matches(':popover-open')) popup.showPopover();
@@ -90,7 +113,7 @@
       link.addEventListener('click', (e) => {
         if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
         // Leave the ordinary fragment navigation alone if the source is missing.
-        if (!document.getElementById(link.hash.slice(1))?.querySelector('.reference-source')) return;
+        if (!previewFor(link)) return;
         e.preventDefault();
         if (active === link && pinned) { hide(true); return; }
         show(link);

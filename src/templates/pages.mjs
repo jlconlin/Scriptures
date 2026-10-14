@@ -281,6 +281,7 @@ ${c === COLLECTIONS.guides ? headingNav(guide.html, refList ? [['sources', 'Sour
 ${guide.html}
 ${refList}
 </article>
+${guide.scripturePreviewData ? `<script type="application/json" id="scripture-preview-data">${JSON.stringify(guide.scripturePreviewData).replace(/</g, '\\u003c')}</script>` : ''}
 <nav class="wrap narrow pager">
   <a class="pager-prev" href="/${book.slug}/${c.path}/">${icon('arrowL')}<span><small>Back to</small>${esc(c.all)}</span></a>
   ${next ? `<a class="pager-next" href="/${book.slug}/${c.path}/${next.slug}/"><span><small>${esc(c.next)}</small>${esc(next.title)}</span>${icon('arrowR')}</a>` : owner.kind === 'volume' ? `<a class="pager-next" href="/${owner.slug}/"><span><small>Ready?</small>Choose a book</span>${icon('arrowR')}</a>` : `<a class="pager-next" href="/${book.slug}/1/"><span><small>Ready?</small>Begin with ${esc(book.name)} 1</span>${icon('arrowR')}</a>`}

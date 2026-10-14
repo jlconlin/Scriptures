@@ -440,6 +440,10 @@ a.ref-internal { text-decoration-style: dotted; }
 .citation-popup-body { padding: 0 16px 8px; }
 .citation-popup-list { display: inline-block; margin: 0 16px 8px; padding-block: 10px; font: 600 .85rem var(--font-ui); }
 .citation-popup a:focus-visible, .citation-popup-close:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.scripture-popup { width: min(420px, calc(100vw - 24px)); }
+.scripture-preview-verses p { margin: 0 0 .7em; }
+.scripture-preview-verses p:last-child { margin-bottom: 0; }
+.scripture-preview-verses sup { font: 700 .75em var(--font-ui); color: var(--muted); }
 @media print { .citation-popup { display: none !important; } }
 .ref-list-num { list-style: decimal; }
 .ref-list-num li { scroll-margin-top: 90px; }
