@@ -39,7 +39,7 @@
           verse.append(number, document.createTextNode(` ${text}`));
           passage.append(verse);
         });
-        return { content: passage, title: scripture.title, action: 'Open chapter', close: 'Close scripture preview', scripture: true };
+        return { content: passage, title: scripture.title, close: 'Close scripture preview', scripture: true };
       }
       const source = document.getElementById(link.hash.slice(1))?.querySelector('.reference-source');
       return source ? { content: source.cloneNode(true), title: `Source ${link.textContent}`, action: 'View in source list', close: 'Close citation' } : null;
@@ -90,10 +90,19 @@
         active = link;
         pinned = false;
         $('.citation-popup-body', popup).replaceChildren(preview.content);
-        $('#citation-preview-title', popup).textContent = preview.title;
+        const heading = $('#citation-preview-title', popup);
+        if (preview.scripture) {
+          const chapterLink = document.createElement('a');
+          chapterLink.textContent = preview.title;
+          chapterLink.href = link.href;
+          chapterLink.target = link.target;
+          chapterLink.rel = link.rel;
+          heading.replaceChildren(chapterLink);
+        } else heading.textContent = preview.title;
         popup.classList.toggle('scripture-popup', Boolean(preview.scripture));
         closeButton.setAttribute('aria-label', preview.close);
-        listLink.textContent = preview.action;
+        listLink.hidden = Boolean(preview.scripture);
+        listLink.textContent = preview.action ?? '';
         listLink.href = link.href;
         listLink.target = link.target;
         listLink.rel = link.rel;
@@ -103,6 +112,8 @@
       position();
     };
     citations.forEach((link) => {
+      let lastPointerType = '';
+      link.addEventListener('pointerdown', (e) => { lastPointerType = e.pointerType; });
       link.setAttribute('aria-haspopup', 'dialog');
       link.setAttribute('aria-controls', popup.id);
       link.setAttribute('aria-expanded', 'false');
@@ -111,7 +122,12 @@
       link.addEventListener('focus', () => { if (!pinned) show(link); });
       link.addEventListener('blur', deferHide);
       link.addEventListener('click', (e) => {
+        const pointer = e.pointerType || (e.detail ? lastPointerType : '');
+        lastPointerType = '';
         if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+        // A mouse click or keyboard activation follows scripture links directly.
+        // Touch and pen need the first tap to preview, then the linked popup heading to navigate.
+        if (scriptureData[link.dataset.scripture] && pointer !== 'touch' && pointer !== 'pen') return;
         // Leave the ordinary fragment navigation alone if the source is missing.
         if (!previewFor(link)) return;
         e.preventDefault();
@@ -123,7 +139,7 @@
       link.addEventListener('keydown', (e) => {
         if (e.key === 'Tab' && !e.shiftKey && active === link && popup.matches(':popover-open')) {
           e.preventDefault();
-          closeButton.focus({ preventScroll: true });
+          $('a[href], button', popup).focus({ preventScroll: true });
         }
       });
     });
@@ -135,10 +151,11 @@
     });
     popup.addEventListener('keydown', (e) => {
       if (e.key !== 'Tab') return;
-      if (e.shiftKey && document.activeElement === closeButton) {
+      const controls = $$('a[href], button', popup).filter((el) => !el.hidden && el.getClientRects().length);
+      if (e.shiftKey && document.activeElement === controls[0]) {
         e.preventDefault();
         hide(true);
-      } else if (!e.shiftKey && document.activeElement === listLink) {
+      } else if (!e.shiftKey && document.activeElement === controls.at(-1)) {
         // Resume the passage's tab order after the citation instead of jumping to the footer.
         const links = $$('a[href], button, input, select, textarea, summary, [tabindex="0"]').filter((el) => !popup.contains(el) && el.getClientRects().length && !el.disabled);
         const next = links[links.indexOf(active) + 1];
@@ -153,7 +170,12 @@
     });
     window.addEventListener('resize', position);
     document.addEventListener('scroll', (e) => {
-      if (active && !popup.contains(e.target)) hide();
+      if (active && !popup.contains(e.target)) {
+        const rect = active.getBoundingClientRect();
+        // Keyboard focus can scroll its reference into view. Keep that preview open.
+        if (rect.bottom <= pinnedHeight() || rect.top >= innerHeight) hide();
+        else position();
+      }
     }, true);
   }
 

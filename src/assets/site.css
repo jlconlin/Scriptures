@@ -439,6 +439,8 @@ a.ref-internal { text-decoration-style: dotted; }
 .citation-popup-close:hover { background: var(--bg-2); }
 .citation-popup-body { padding: 0 16px 8px; }
 .citation-popup-list { display: inline-block; margin: 0 16px 8px; padding-block: 10px; font: 600 .85rem var(--font-ui); }
+.citation-popup-list[hidden] { display: none; }
+.scripture-popup .citation-popup-bar a { display: inline-block; padding-block: 12px; }
 .citation-popup a:focus-visible, .citation-popup-close:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 .scripture-popup { width: min(420px, calc(100vw - 24px)); }
 .scripture-preview-verses p { margin: 0 0 .7em; }
