@@ -22,6 +22,7 @@ export const meta = {
 //   lastBatch    true when these chapters finish the book. If every reviewer then reports its chapter ready,
 //                the batch ends by running create-book-art (the book-art-director's visual brief, then one
 //                candidate image drawn by Codex); otherwise it says why not, and the coordinator runs create-book-art after the repairs.
+//                It then runs propose-themes: Fable reads the finished book and proposes theme pages.
 // Each agent works in the repository. Writers and reviewers leave two working files per chapter in
 // .cache/batch/<book>/ (not committed): proposed/NN.yaml, the sources.yaml entries the chapter needs, and
 // reports/NN-writer.md and reports/NN-check.md. Afterwards the coordinator runs scripts/merge-sources.mjs and scripts/batch-notes.mjs,
@@ -108,4 +109,11 @@ if (args.lastBatch) {
   }
   log(art?.candidate ? `Book art candidate for the author: ${art.candidate}` : next)
 }
-return { results: results.filter(Boolean), missing, art, next }
+// Theme candidates, while the author looks at the image: Fable reads the whole book and proposes arcs
+// (author, 2026-10-14: “finding the candidates, and setting the outline. Let's set Fable for that task”).
+let themes = null
+if (args.lastBatch && !missing.length) {
+  const leads = results.filter(Boolean).flatMap((r) => (r.review?.themeCandidates ?? []).map((t) => `(${r.chapter}) ${t}`))
+  try { themes = await workflow('propose-themes', { book, leads }) } catch (err) { log(`Theme proposals failed to start (${err.message}): run the propose-themes workflow with args { book: '${book}' }.`) }
+}
+return { results: results.filter(Boolean), missing, art, themes, next }
