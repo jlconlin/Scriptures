@@ -300,14 +300,16 @@ a.ref-internal { text-decoration-style: dotted; }
 .home-hero .home-hero-art { display: block; width: 100%; max-width: none; }
 .home-hero-actions .cta-row { margin-top: 24px; }
 .book-hero .hero-art { display: block; width: 100%; max-width: none; margin-top: 32px; }
-.book-art-figure { margin: 32px 0 0; }
+.book-art-figure { margin: 32px 0 0; position: relative; }
 .book-hero .book-art-figure .hero-art { margin-top: 0; }
-.art-key { margin-top: 10px; font-family: var(--font-ui); font-size: .92rem; color: var(--ink-2); }
-.art-key > summary { list-style: none; cursor: pointer; display: inline-flex; gap: 7px; align-items: center; padding: 6px 12px; border: 1px solid var(--line-2); border-radius: 100px; background: var(--surface); color: var(--ink-2); font-weight: 600; }
+/* “What's in this picture”: a quiet button in the image's top corner; the list opens below the image. */
+.art-key > summary { list-style: none; cursor: pointer; position: absolute; top: 12px; right: 12px; display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; background: rgba(20, 20, 24, .32); color: rgba(255, 255, 255, .92); backdrop-filter: blur(4px); -webkit-backdrop-filter: blur(4px); transition: background .15s; }
 .art-key > summary::-webkit-details-marker { display: none; }
-.art-key > summary .icon { width: 1.05em; height: 1.05em; }
-.art-key[open] > summary { background: var(--accent-soft); color: var(--accent-ink); }
-.art-key ul { margin: 12px 0 0; padding: 0 0 0 1.2em; display: grid; gap: 8px; font-family: var(--font-read); font-size: 1rem; line-height: 1.5; color: var(--ink); max-width: 46rem; }
+.art-key > summary:hover, .art-key[open] > summary { background: rgba(20, 20, 24, .55); }
+.art-key > summary:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+.art-key > summary .icon { width: 18px; height: 18px; }
+.art-key-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.art-key ul { margin: 14px 0 0; padding: 0 0 0 1.2em; display: grid; gap: 8px; font-family: var(--font-read); font-size: 1rem; line-height: 1.5; color: var(--ink); max-width: 46rem; }
 @media (min-width: 860px) {
   .home-hero, .book-hero { padding: 64px 0 32px; }
   .home-hero-visual { margin-top: 48px; }

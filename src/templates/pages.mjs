@@ -122,7 +122,7 @@ function artFigure(visual) {
   const img = `<img class="hero-art book-art" src="${esc(visual.asset)}" alt="${esc(visual.alt)}">`;
   if (!visual.key?.length) return img;
   return `<figure class="book-art-figure">${img}
-  <details class="art-key"><summary>${icon('symbol')}What's in this picture</summary>
+  <details class="art-key"><summary title="What's in this picture">${icon('symbol')}<span class="art-key-label">What's in this picture</span></summary>
     <ul>${visual.key.map((k) => `<li>${mdInline(k)}</li>`).join('')}</ul>
   </details></figure>`;
 }
