@@ -29,12 +29,15 @@ self.addEventListener('fetch', (e) => {
     const cache = await caches.open(CACHE);
     const hit = await cache.match(keyOf(req.url));
     if (!hit) return fetch(req).catch(async () => (req.mode === 'navigate' && (await cache.match('/404.html'))) || Response.error());
-    if (req.mode !== 'navigate' && url.pathname.startsWith('/assets/')) return hit;
+    // Fonts and images come straight from the copy. The stylesheet and script are treated as pages are, so a
+    // fresh page never runs with the copy's older site.js while the day's update hasn't run yet.
+    if (req.mode !== 'navigate' && url.pathname.startsWith('/assets/') && !/\.(css|js)$/.test(url.pathname)) return hit;
     // Pages and data: the network when it answers promptly, the saved copy when it doesn't.
     const net = fetch(req);
     const late = new Promise((r) => setTimeout(r, 4000, null));
     const res = await Promise.race([net.catch(() => null), late]);
-    return res && res.ok ? res : hit;
+    // A server error falls back to the saved copy; any other answer (a page since removed, say) stands.
+    return res && res.status < 500 ? res : hit;
   })());
 });
 

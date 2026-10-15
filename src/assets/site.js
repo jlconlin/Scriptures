@@ -985,7 +985,7 @@
       const removeBtn = $('[data-offline="remove"]', panel);
       const mb = (n) => `${Math.round(n / 1e6)} MB`;
       const when = (d) => new Date(`${d}T12:00`).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' });
-      fetch('/offline.json').then((r) => r.json()).then((l) => { $$('.offline-size').forEach((s) => { s.textContent = mb(l.bytes); }); }).catch(() => {});
+      fetch('../offline.json').then((r) => r.json()).then((l) => { $$('.offline-size').forEach((s) => { s.textContent = mb(l.bytes); }); }).catch(() => {});
       const show = (s, running) => {
         if (running) return;
         bar.hidden = true;
@@ -1008,7 +1008,7 @@
         } else if (m.type === 'status') show(m.status, m.running);
         else if (m.type === 'error') { show(null); status.textContent = `The copy could not be saved (${m.message}).`; }
       });
-      navigator.serviceWorker.register('/sw.js').then(() => navigator.serviceWorker.ready).then((reg) => {
+      navigator.serviceWorker.register('../sw.js', { scope: '../' }).then(() => navigator.serviceWorker.ready).then((reg) => {
         const send = (msg) => reg.active.postMessage(msg);
         send({ do: 'status' });
         saveBtn.addEventListener('click', () => {

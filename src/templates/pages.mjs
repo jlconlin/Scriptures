@@ -19,7 +19,7 @@ const ensignArt = `<svg class="hero-art" viewBox="0 0 320 220" aria-hidden="true
   <g fill="var(--art-people)"><circle cx="40" cy="200" r="3"/><circle cx="54" cy="196" r="3"/><circle cx="286" cy="206" r="3"/><circle cx="272" cy="202" r="3"/><circle cx="118" cy="186" r="3"/></g>
 </svg>`;
 
-const homeHeroArt = `<img class="hero-art home-hero-art" src="/assets/home-hero-concept.png" alt="An open book before a path winding toward light at the base of a mountain.">`;
+const homeHeroArt = `<img class="hero-art home-hero-art" src="/assets/home-hero-concept.jpg" alt="An open book before a path winding toward light at the base of a mountain.">`;
 
 // The home page's teaser cards. The “Show three more” button draws others in the browser from
 // notes.json, which carries teaserText for every note; site.js builds the same card, taking each
@@ -368,7 +368,7 @@ export function renderOffline() {
   <h2 id="how-it-works">How it works</h2>
   <p>The copy is about <span class="offline-size">100 MB</span> and is kept by your browser for this site only. While you are online the site still loads its newest pages; when you are not, the saved ones open instead. Each time you visit with a connection, only what has changed since is fetched again.</p>
   <h2 id="ipad-and-iphone">On an iPad or iPhone</h2>
-  <p>Safari may clear a site's saved data after a few weeks without a visit. A site added to the Home Screen keeps it. So first tap the Share button, then <strong>Add to Home Screen</strong>; open <em>Line upon Line</em> from its new icon, come back to this page, and save the copy there.</p>
+  <p>Safari may clear a site's saved data when the site hasn't been visited for a week or so. A site added to the Home Screen keeps it. So first tap the Share button, then <strong>Add to Home Screen</strong>; open <em>Line upon Line</em> from its new icon, come back to this page, and save the copy there.</p>
   <h2 id="what-stays-online">What still needs a connection</h2>
   <p>Links that leave the site: the Gospel Library, the sources each note cites, and chapters not yet written here, which open in the Gospel Library.</p>
 </article>`;
