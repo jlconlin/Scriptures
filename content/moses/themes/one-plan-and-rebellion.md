@@ -5,7 +5,7 @@ icon: christ
 sources: [lds-scriptures, bednar-divine-nature-2026, scripture-helps-gen-3-4, mathews-satans-rebellion, pgp-manual-moses-4, pgp-manual-moses-1-12-23, pgp-manual-moses-7-1-41, schade-bowen-council, nt-teacher-manual-matt-26]
 ---
 
-Before the world was, the Father’s plan was known, and the question was whom He would send. The Beloved Son answered, “Father, thy will be done, and the glory be thine forever”; Satan demanded the Father’s honor and rebelled. The book then follows both: Satan claims the Son’s title before Moses, lies to the first family, and holds a chain over the earth, while the Chosen is shown to Enoch suffering for sins and as King of Zion. The table starts with the council, though Moses recounts it in chapter 4. That chapter’s first verse looks back to chapter 1: “Satan, whom thou hast commanded in the name of mine Only Begotten.”[@schade-bowen-council]
+Before the world was, the Father’s plan was known, and the question was whom He would send. The Beloved Son answered, “Father, thy will be done, and the glory be thine forever”; Satan demanded the Father’s honor and rebelled. The book follows Satan’s rebellion and the Chosen Son’s work. Satan claims the Son’s title when he appears to Moses, lies to the first family, and holds a chain over the earth. Enoch sees the Chosen suffering for sins and as King of Zion. The table begins with the council, which Moses recounts in chapter 4. That chapter’s first verse looks back to chapter 1: “Satan, whom thou hast commanded in the name of mine Only Begotten.”[@schade-bowen-council]
 
 | Step | Passage | The words |
 |---|---|---|
@@ -26,7 +26,7 @@ The Father presented His plan of salvation[@scripture-helps-gen-3-4], and “onl
 
 The Lord gives the reason Satan was cast down: “Satan rebelled against me, and sought to destroy the agency of man, which I, the Lord God, had given him, and also, that I should give unto him mine own power” ([[Moses 4:3]]). So “he became Satan, yea, even the devil, the father of all lies, to deceive and to blind men, and to lead them captive at his will” ([[Moses 4:4]]).
 
-These verses say what Satan sought and do not clearly say how he proposed to do it.[@mathews-satans-rebellion] One Church manual describes his proposal as “based on compulsion”;[@pgp-manual-moses-4] the note on [[Moses 4:3]] gives a second possibility, and says that what he proposed was a lie that would not have worked.[@mathews-satans-rebellion]
+These verses say what Satan sought and do not clearly say how he proposed to do it.[@mathews-satans-rebellion] His proposal has been described as “based on compulsion”;[@pgp-manual-moses-4] the note on [[Moses 4:3]] gives a second possibility. It also explains why his proposal was a lie that would not have worked.[@mathews-satans-rebellion]
 
 <h2 id="only-begotten">Satan claims the Son’s title</h2>
 
@@ -38,11 +38,11 @@ Satan “sought also to beguile Eve, for he knew not the mind of God” ([[Moses
 
 <h2 id="chain">A chain over the earth</h2>
 
-In vision Enoch “beheld Satan; and he had a great chain in his hand, and it veiled the whole face of the earth with darkness; and he looked up and laughed” ([[Moses 7:26]]). Of the people Enoch is shown the Lord says, “Satan shall be their father, and misery shall be their doom” ([[Moses 7:37]]). The chain and the fatherhood are both tied to “lead them captive at his will” ([[Moses 4:4]]).[@pgp-manual-moses-7-1-41]
+In vision Enoch “beheld Satan; and he had a great chain in his hand, and it veiled the whole face of the earth with darkness; and he looked up and laughed” ([[Moses 7:26]]). Of the people Enoch is shown the Lord says, “Satan shall be their father, and misery shall be their doom” ([[Moses 7:37]]). The chain and Satan’s fatherhood are both tied to “lead them captive at his will” ([[Moses 4:4]]).[@pgp-manual-moses-7-1-41]
 
 <h2 id="chosen">The Chosen</h2>
 
-“That which I have chosen hath plead before my face. Wherefore, he suffereth for their sins” ([[Moses 7:39]]). The word “Chosen” takes the reader back to [[Moses 4:2]], and “that” is the Savior.[@lds-scriptures] Enoch says, “the Lamb is slain from the foundation of the world” ([[Moses 7:47]]), and the Lord says, “I am Messiah, the King of Zion, the Rock of Heaven” ([[Moses 7:53]]). See [Moses 7](/moses/7/).
+“That which I have chosen hath plead before my face. Wherefore, he suffereth for their sins” ([[Moses 7:39]]). “Chosen” recalls [[Moses 4:2]]; here, “that” refers to the Savior.[@lds-scriptures] Enoch says, “the Lamb is slain from the foundation of the world” ([[Moses 7:47]]), and the Lord says, “I am Messiah, the King of Zion, the Rock of Heaven” ([[Moses 7:53]]). See [Moses 7](/moses/7/).
 
 <h2 id="thy-will">“Thy will be done”</h2>
 
