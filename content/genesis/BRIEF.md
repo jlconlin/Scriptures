@@ -174,7 +174,7 @@ Judgment calls the coordinator, writers, and reviewers settled by the standard a
 **Chapter 22**
 - **Moriah (22:2):** the note keeps both the tradition that Moriah is the temple mount (the Church's sources call it a tradition) and a BYU scholar's doubt. It is a question of place, not doctrine.
 - **The angel of the LORD (22:11):** a second reading (a messenger bearing the Lord's name), which no source applies to this chapter, was cut.
-- **Melvin J. Ballard's words in `christ`** are cited from the seminary manual that prints them; the original talk is to be read and cited when the chapter is next touched.
+- **Melvin J. Ballard's words in `christ`** are cited to the 1976 *New Era* reprint, “The Sacramental Covenant.”
 
 **Sources**
 - **Two ancient texts readable only in user uploads on archive.org** (L. W. King's *Seven Tablets of Creation*, 1902; R. Campbell Thompson's *Epic of Gilgamish*, 1928) are not cited (`STANDARDS.md` §4 rule 8). The flood story is quoted from the British Museum's 1920 booklet and Rogers (1912); the creation epic only through an article that quotes it.

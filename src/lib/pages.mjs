@@ -103,15 +103,23 @@ async function knowhyDoc(slug) {
   const info = `KnoWhy #${a.number}, published ${a.publicationDate}. Main reference: ${a.mainReference ?? 'none'}.`;
   return `${KNOWHY_DOC}<html><head><title>${esc(a.title)}</title></head><body><h1>${esc(a.title)}</h1><p class="knowhy-info">${esc(info)}</p><p class="knowhy-summary">${esc(a.summary)}</p>${a.scriptureQuote ? `<blockquote>${esc(a.scriptureQuote)}</blockquote>` : ''}${a.body}</body></html>`;
 }
-const memo = new Map(); // url -> { raw } | { error }
+const memo = new Map(); // URL and fetch options -> { raw } | { error }
 /** The page at `url` as kept in the cache: `{ raw }` (HTML, a file as it is, a PDF's text, or a KnoWhy) or `{ error }`. */
-export async function fetchPage(url, { fresh = false, tries = 3, wait = 1500 } = {}) {
-  if (memo.has(url)) return memo.get(url);
-  const file = path.join(CACHE, createHash('sha1').update(url).digest('hex'));
+export async function fetchPage(url, { fresh = false, tries = 3, wait = 1500, offline = false, cacheDir = CACHE } = {}) {
+  if (offline && fresh) return { error: '--offline and --fresh cannot be combined' };
+  if (!offline && path.resolve(cacheDir) !== CACHE) return { error: '--cache-dir requires --offline' };
+  const memoKey = JSON.stringify([url, offline, fresh, path.resolve(cacheDir)]);
+  if (memo.has(memoKey)) return memo.get(memoKey);
+  const file = path.join(cacheDir, createHash('sha1').update(url).digest('hex'));
   const knowhy = url.match(/^https?:\/\/(?:www\.)?scripturecentral\.org\/knowhy\/([^/?#]+)/);
   let raw = null;
-  if (!fresh && existsSync(file) && Date.now() - statSync(file).mtimeMs < 86400e3) raw = await readFile(file, 'utf8');
+  if (!fresh && existsSync(file) && (offline || Date.now() - statSync(file).mtimeMs < 86400e3)) raw = await readFile(file, 'utf8');
   if (raw !== null && (raw.length <= 200 || raw.startsWith('%PDF-') || raw.startsWith(OLD_PDF) || (knowhy && !raw.startsWith(KNOWHY_DOC)))) raw = null; // an empty page, or one cached in a form this script no longer reads
+  if (offline) {
+    const result = raw === null ? { error: 'no readable cached snapshot (offline; no fetch attempted)' } : { raw, cachedAt: statSync(file).mtime.toISOString() };
+    memo.set(memoKey, result);
+    return result; // Reading a snapshot never refreshes its timestamp or writes to the cache.
+  }
   for (let attempt = 0; raw === null && attempt < tries; attempt++) {
     try {
       if (knowhy) { try { raw = await knowhyDoc(knowhy[1]); } catch {} }
@@ -127,7 +135,7 @@ export async function fetchPage(url, { fresh = false, tries = 3, wait = 1500 } =
   // being written saw the first part of it and found no Psalm 119. So the page goes to a file of its own and is renamed.
   if (raw !== null) { const tmp = `${file}.${process.pid}.tmp`; await writeFile(tmp, raw); await rename(tmp, file); }
   const result = raw === null ? { error: `could not fetch (tried ${tries} times)` } : { raw };
-  memo.set(url, result);
+  memo.set(memoKey, result);
   return result;
 }
 
@@ -369,7 +377,7 @@ export async function readPage(url, opts = {}) {
   const got = await fetchPage(url, { tries: 5, wait: 4000, ...opts }); // the Church's site drops out for a minute now and then
   if (got.error) return { url, error: got.error };
   const page = parseOrEmpty(got.raw, url);
-  return { url, ...page, chars: page.paras.reduce((n, p) => n + p.text.length, 0), rawLength: got.raw.length, problems: pageProblems(got.raw, page) };
+  return { url, ...page, ...(got.cachedAt ? { cachedAt: got.cachedAt } : {}), chars: page.paras.reduce((n, p) => n + p.text.length, 0), rawLength: got.raw.length, problems: pageProblems(got.raw, page) };
 }
 
 // ---------- is it the page that was meant? ----------

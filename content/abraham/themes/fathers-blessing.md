@@ -5,7 +5,7 @@ icon: christ
 sources: [lds-scriptures, bd-jehovah, nelson-teachings-abrahamic-covenant, bednar-becoming-missionary]
 ---
 
-Abraham begins by seeking “the blessings of the fathers” in a house that has turned to other gods. In Haran he hears that “all the families of the earth” will be blessed through him. The one who says “my name is Jehovah” at the altar says it again when He sends him out.
+Abraham begins by seeking “the blessings of the fathers” in a house that has turned to other gods. In Haran he hears that “all the families of the earth” will be blessed through him. The Lord says “my name is Jehovah” both when He delivers Abraham at the altar and when He sends him out.
 
 | Step | Passage | The words |
 |---|---|---|
@@ -40,8 +40,10 @@ Abraham says in his heart, “Thy servant has sought thee earnestly; now I have 
 
 ## A comparison: “sought” and “father”
 
-Set beside each other, “I sought for the blessings of the fathers” ([[Abr. 1:2]]) and “Thy servant has sought thee earnestly; now I have found thee” ([[Abr. 2:12]]) share a verb, and “a father of many nations” ([[Abr. 1:2]]) and “bless thee, as their father” ([[Abr. 2:10]]) share a noun. The objects differ: in 1:2 he seeks blessings and a right; in 2:12 it is the Lord he has sought and found. This comparison is the page’s own, and it says nothing of what Abraham intended. Its limits: “sought” is at 1:2, 1:4 and 2:12 only, but Pharaoh too is “seeking earnestly to imitate that order established by the fathers” ([[Abr. 1:26]]). “Fathers” is in chapter 1 only (1:2–5, 26, 31; the Church’s current text has it at 1:1 as well) and includes those who “turned from their righteousness” ([[Abr. 1:5]]). “Father” is in fifteen verses: Abraham’s own father in nine, Adam (1:3), Noah (1:26), “the Priesthood of thy father” (1:18) and 5:18; of Abraham himself only at 1:2 and 2:10.[@lds-scriptures]
+Set beside each other, “I sought for the blessings of the fathers” ([[Abr. 1:2]]) and “Thy servant has sought thee earnestly; now I have found thee” ([[Abr. 2:12]]) share a verb. Likewise, “a father of many nations” ([[Abr. 1:2]]) and “bless thee, as their father” ([[Abr. 2:10]]) share a noun. In 1:2 Abraham seeks blessings and a right; in 2:12 it is the Lord he has sought and found. This comparison is the page’s own, and it says nothing of what Abraham intended.
+
+The words have limits: Pharaoh too is “seeking earnestly to imitate that order established by the fathers” ([[Abr. 1:26]]), and the fathers include those who “turned from their righteousness” ([[Abr. 1:5]]). “Father” refers to Abraham himself only at 1:2 and 2:10.[@lds-scriptures]
 
 ## Jehovah, and the seed
 
-Jehovah is the premortal Jesus Christ[@bd-jehovah] (see the note on [[Abr. 1:16]]). “Jesus Christ—Jehovah of the Old Testament—made remarkable promises to Abraham.”[@nelson-teachings-abrahamic-covenant] Of the seed, Paul writes: “as many of you as have been baptized into Christ have put on Christ… if ye be Christ’s, then are ye Abraham’s seed, and heirs according to the promise” ([[Gal. 3:27, 29]]), which the footnotes on 2:10 cite with [[Gal. 3:8]].[@lds-scriptures] To bear “this ministry and Priesthood unto all nations” is the charge to take the gospel of Jesus Christ to everyone and offer its saving ordinances by priesthood authority.[@bednar-becoming-missionary]
+Jehovah is Jesus Christ before His mortal life[@bd-jehovah] (see the note on [[Abr. 1:16]]). “Jesus Christ—Jehovah of the Old Testament—made remarkable promises to Abraham.”[@nelson-teachings-abrahamic-covenant] Of the seed, Paul writes: “as many of you as have been baptized into Christ have put on Christ… if ye be Christ’s, then are ye Abraham’s seed, and heirs according to the promise” ([[Gal. 3:27, 29]]), which the footnotes on 2:10 cite with [[Gal. 3:8]].[@lds-scriptures] To bear “this ministry and Priesthood unto all nations” is the charge to take the gospel of Jesus Christ to everyone and offer its saving ordinances by priesthood authority.[@bednar-becoming-missionary]

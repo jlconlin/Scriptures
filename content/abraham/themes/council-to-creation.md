@@ -1,11 +1,11 @@
 ---
 title: 'From Council to Creation'
-blurb: In Abraham 3 the earth is first something said, “We will go down”; in chapters 4 and 5 the Gods go down and form it “according to all that which they had said.”
+blurb: In Abraham 3 the earth is planned; in chapters 4 and 5 the Gods go down and form it “according to all that which they had said.”
 icon: christ
 sources: [lds-scriptures, pgp-manual-abr-3, scripture-helps-gen-1-2, scripture-helps-gen-3-4, bednar-divine-nature-2026, mcconkie-christ-creation-1982, smoot-pgp-study-edition-abr-4, smoot-divine-council, nelson-creation-2000, living-christ, gs-create-creation]
 ---
 
-In Abraham 3 the earth is first something said: “We will go down… we will make an earth whereon these may dwell” ([[Abr. 3:24]]). Chapter 4 opens in nearly the same words, “Let us go down… And they went down” ([[Abr. 4:1]]), and chapter 5 looks back: the Gods “came down and formed” the heavens and the earth “according to all that which they had said” ([[Abr. 5:4–5]]). In the Church’s reading, the one “like unto God” who speaks in 3:24 is Jesus Christ.
+In Abraham 3 the earth is first planned: “We will go down… we will make an earth whereon these may dwell” ([[Abr. 3:24]]). Chapter 4 opens in nearly the same words, “Let us go down… And they went down” ([[Abr. 4:1]]), and chapter 5 looks back: the Gods “came down and formed” the heavens and the earth “according to all that which they had said” ([[Abr. 5:4–5]]). In the Church’s reading, the one “like unto God” who speaks in 3:24 is Jesus Christ.
 
 | Step | Passage | The words |
 |---|---|---|
@@ -44,7 +44,7 @@ Abraham is shown “the intelligences that were organized before the world was; 
 
 The notes on [[Abr. 4:1]] and [[Abr. 5:4]] set the first and last of these together. The full list, gathered here: “We will go down” ([[Abr. 3:24]]), “Let us go down” ([[Abr. 4:1]], [[Abr. 4:26]]), “they went down” ([[Abr. 4:1]]), “the Gods went down” ([[Abr. 4:27]]), “the Gods came down” ([[Abr. 5:4]]); and “we will make an earth” ([[Abr. 3:24]]), “organized and formed the heavens and the earth” ([[Abr. 4:1]]), “came down and formed” ([[Abr. 5:4]]).
 
-The book’s other “go down” and “come down” are Abraham’s journey ([[Abr. 2:21]]), the Lord’s words to Abraham ([[Abr. 1:16–17]]; [[Abr. 3:21]]) and a right that “came down from the fathers” ([[Abr. 1:3]]).[@lds-scriptures] The whole Creation was planned by God before the work began[@nelson-creation-2000], and Abraham “gives a blueprint as it were of the Creation,” then “says they performed as they had planned.”[@mcconkie-christ-creation-1982]
+The whole Creation was planned by God before the work began[@nelson-creation-2000], and Abraham “gives a blueprint as it were of the Creation,” then “says they performed as they had planned.”[@mcconkie-christ-creation-1982]
 
 ## By the Son
 
