@@ -347,6 +347,34 @@ export function renderSearch() {
   return layout({ title: 'Search', path: '/search/', body, bodyClass: 'page-search' });
 }
 
+// The page that saves the whole site on the reader's device (public/sw.js; DEVELOPMENT.md, “Reading offline”).
+// site.js fills in the status and drives the buttons; without a service worker it says the browser can't.
+export function renderOffline() {
+  const body = `
+<header class="page-hero"><div class="wrap narrow">
+  <h1>Read offline</h1>
+  <p class="lede">Save the whole site on this device, so every chapter, note, guide and search works without a connection.</p>
+</div></header>
+<article class="wrap narrow prose offline-page">
+  <div class="offline-panel" hidden>
+    <p class="offline-status" aria-live="polite">Checking what is saved…</p>
+    <progress class="offline-progress" max="1" value="0" hidden></progress>
+    <p class="offline-actions">
+      <button type="button" class="btn btn-primary" data-offline="save">Save for offline</button>
+      <button type="button" class="btn" data-offline="remove" hidden>Remove the saved copy</button>
+    </p>
+  </div>
+  <p class="offline-unsupported">This browser can't keep a copy of the site. Try Safari, Chrome, Edge or Firefox.</p>
+  <h2 id="how-it-works">How it works</h2>
+  <p>The copy is about <span class="offline-size">100 MB</span> and is kept by your browser for this site only. While you are online the site still loads its newest pages; when you are not, the saved ones open instead. Each time you visit with a connection, only what has changed since is fetched again.</p>
+  <h2 id="ipad-and-iphone">On an iPad or iPhone</h2>
+  <p>Safari may clear a site's saved data after a few weeks without a visit. A site added to the Home Screen keeps it. So first tap the Share button, then <strong>Add to Home Screen</strong>; open <em>Line upon Line</em> from its new icon, come back to this page, and save the copy there.</p>
+  <h2 id="what-stays-online">What still needs a connection</h2>
+  <p>Links that leave the site: the Gospel Library, the sources each note cites, and chapters not yet written here, which open in the Gospel Library.</p>
+</article>`;
+  return layout({ title: 'Read offline', description: 'Save Line upon Line on this device to read it without a connection.', path: '/offline/', body, bodyClass: 'page-plain' });
+}
+
 export function render404() {
   const body = `
 <header class="page-hero"><div class="wrap narrow">

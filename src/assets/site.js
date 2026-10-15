@@ -963,4 +963,65 @@
     const initial = new URL(location).searchParams.get('q');
     if (initial) { q.value = initial; run(); }
   }
+
+  // The offline copy (public/sw.js; DEVELOPMENT.md, “Reading offline”). The service worker is registered only
+  // when a reader opens /offline/, so a reader who never asks for a copy has nothing installed. Once a copy is
+  // saved, any page opened online brings it up to date at most once a day; only changed files are fetched.
+  const panel = $('.offline-panel');
+  if ('serviceWorker' in navigator && 'caches' in window) {
+    const day = 864e5;
+    if (!panel && store.get('offline') && navigator.onLine && Date.now() - Number(store.get('offlineChecked') ?? 0) > day) {
+      navigator.serviceWorker.ready.then((reg) => {
+        store.set('offlineChecked', String(Date.now()));
+        reg.active?.postMessage({ do: 'save' });
+      });
+    }
+    if (panel) {
+      panel.hidden = false;
+      $('.offline-unsupported').hidden = true;
+      const status = $('.offline-status', panel);
+      const bar = $('.offline-progress', panel);
+      const saveBtn = $('[data-offline="save"]', panel);
+      const removeBtn = $('[data-offline="remove"]', panel);
+      const mb = (n) => `${Math.round(n / 1e6)} MB`;
+      const when = (d) => new Date(`${d}T12:00`).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' });
+      fetch('/offline.json').then((r) => r.json()).then((l) => { $$('.offline-size').forEach((s) => { s.textContent = mb(l.bytes); }); }).catch(() => {});
+      const show = (s, running) => {
+        if (running) return;
+        bar.hidden = true;
+        saveBtn.disabled = false;
+        removeBtn.hidden = !s;
+        saveBtn.textContent = s ? 'Check for changes' : 'Save for offline';
+        status.textContent = s
+          ? `Saved on this device: ${Object.keys(s.files).length} pages and files (${mb(s.bytes)}), the site as of ${when(s.built)}.`
+          : 'Nothing is saved on this device yet.';
+        if (s) store.set('offline', '1'); else store.del('offline');
+      };
+      navigator.serviceWorker.addEventListener('message', ({ data: m }) => {
+        if (m.type === 'progress') {
+          bar.hidden = false; bar.max = m.total || 1; bar.value = m.done;
+          status.textContent = m.total ? `Saving… ${m.done} of ${m.total}` : 'Already up to date.';
+        } else if (m.type === 'saved') {
+          show(m.status);
+          if (m.failed) status.textContent += ` ${m.failed} could not be fetched; press the button again to finish.`;
+          else if (m.fetched) status.textContent += ` (${m.fetched} fetched just now.)`;
+        } else if (m.type === 'status') show(m.status, m.running);
+        else if (m.type === 'error') { show(null); status.textContent = `The copy could not be saved (${m.message}).`; }
+      });
+      navigator.serviceWorker.register('/sw.js').then(() => navigator.serviceWorker.ready).then((reg) => {
+        const send = (msg) => reg.active.postMessage(msg);
+        send({ do: 'status' });
+        saveBtn.addEventListener('click', () => {
+          if (!navigator.onLine) { status.textContent = 'You are offline; connect to save or update the copy.'; return; }
+          saveBtn.disabled = true;
+          status.textContent = 'Starting…';
+          // Ask the browser not to clear the copy when space runs low (granted silently or not at all).
+          navigator.storage?.persist?.();
+          store.set('offlineChecked', String(Date.now()));
+          send({ do: 'save' });
+        });
+        removeBtn.addEventListener('click', () => send({ do: 'remove' }));
+      }).catch((e) => { status.textContent = `This browser would not install the offline copy (${e.message}).`; });
+    }
+  }
 })();

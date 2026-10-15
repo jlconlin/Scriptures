@@ -820,3 +820,8 @@ a.ref-internal { text-decoration-style: dotted; }
   .tl .tl-era { text-align: left; padding-left: 5.2rem; }
   .tl .c-lehi .tl-text { border-right-width: 2px; border-left-width: 6px; }
 }
+
+/* Read offline (/offline/; site.js drives it). .btn sets a display, which would otherwise override [hidden]. */
+.offline-panel [hidden], .offline-panel[hidden], .offline-unsupported[hidden] { display: none; }
+.offline-progress { width: 100%; height: 0.5rem; accent-color: var(--accent); }
+.offline-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; }

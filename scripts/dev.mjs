@@ -12,6 +12,7 @@ const PORT = Number(process.env.PORT ?? 4321);
 const TYPES = {
   '.html': 'text/html; charset=utf-8', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json',
   '.svg': 'image/svg+xml', '.woff2': 'font/woff2', '.png': 'image/png', '.xml': 'application/xml', '.txt': 'text/plain',
+  '.webmanifest': 'application/manifest+json', '.jpg': 'image/jpeg',
 };
 
 const build = () => {
