@@ -1,0 +1,295 @@
+chapter: 6
+claims:
+  # ---------- when / setting / thread ----------
+  - where: 'when'
+    claim: 'The tabernacle was set up in the first month of the second year'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/40?lang=eng'
+    quote: 'And it came to pass in the first month in the second year, on the first day of the month, that the tabernacle was reared up.'
+  - where: 'when'
+    claim: 'The laws of the offerings were commanded in mount Sinai'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/7?lang=eng'
+    quote: 'Which the Lord commanded Moses in mount Sinai, in the day that he commanded the children of Israel to offer their oblations unto the Lord, in the wilderness of Sinai.'
+  - where: 'setting'
+    claim: 'In the Hebrew Bible, King James 6:1–7 is 5:20–26, and Hebrew chapter 6 begins at King James 6:8'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'Lev.5.26'
+  - where: 'setting'
+    claim: 'From 6:8 to 7:38 the laws are concerned mainly with the priests'' duties and dues'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/6.htm'
+    quote: 'In the main they are concerned with priestly duties and dues.'
+  - where: 'setting'
+    claim: 'The instructions are given through Moses to Aaron and his sons, each introduced by “This is the law of”'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/6.htm'
+    quote: 'The instructions under eight heads are given through Moses to Aaron and his sons, here and in Leviticus 6:25. … The regulations for each sacrifice are introduced by this formula.'
+  - where: 'setting'
+    claim: 'The series closes with its own summary of the laws of the offerings'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/7?lang=eng'
+    quote: 'This is the law of the burnt offering, of the meat offering, and of the sin offering, and of the trespass offering, and of the consecrations, and of the sacrifice of the peace offerings;'
+  - where: 'setting'
+    claim: 'The lost thing found of 6:3 is a case also treated in Exodus 22:8–9'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/6.htm'
+    quote: '3. that which was lost] See Exodus 22:8-9.'
+  - where: 'thread'
+    claim: 'The chapter treats restitution in 6:1–7, then the perpetual fire and the priests eating the offerings'
+    key: ot-minute-lev
+    url: 'https://scripturecentral.org/archive/books/book/old-testament-minute-leviticus'
+    quote: 'Sacrifices are to be carried out with precision, and so the administrative order of how to perform these sacrifices is stated in considerable detail.'
+  - where: 'thread'
+    claim: 'The wrong is repaid first, and then the offender brings a sacrifice'
+    key: ot-minute-lev
+    url: 'https://scripturecentral.org/archive/books/book/old-testament-minute-leviticus'
+    quote: 'After the wrong has been repaid with interest (verses 1–5), the offender is instructed to bring a sacrifice to the priest (verses 6–7).'
+  - where: 'thread'
+    claim: 'The garment spattered with blood is washed in the holy place so that the most holy blood is not carried into common life'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/6.htm'
+    quote: 'in order that the most holy blood might not be carried out of the sanctuary into common life along with the sprinkled clothes, and thereby be profaned.'
+
+  # ---------- notes ----------
+  - where: 'note 6:2 “Cheating a neighbour is a trespass against the LORD”'
+    claim: 'The Hebrew of “commit a trespass” is maʿal'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'וּ/מָעֲלָ֥ה'
+  - where: 'note 6:2 “Cheating a neighbour is a trespass against the LORD”'
+    claim: 'Maʿal is an unfaithful, treacherous act, against man and elsewhere against God'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4604.htm'
+    quote: 'I. מַ֫עַל noun masculineEzra 9:2 unfaithful, treacherous act'
+  - where: 'note 6:2 “Cheating a neighbour is a trespass against the LORD”'
+    claim: 'Wrongs against God or against another person were both breaches of the covenant requiring compensation'
+    key: bd-sacrifices
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sacrifices?lang=eng'
+    quote: 'or (b) man directly (whether Israelite or foreigner), by depriving him of some just claim and right. In either case these sins were regarded as breaches of the covenant between Jehovah and His people, requiring compensation.'
+  - where: 'note 6:2 “Cheating a neighbour is a trespass against the LORD”'
+    claim: 'Theft was among the sins for which atonement could be made, after punishment; high-handed sins were not'
+    key: bd-sacrifices
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sacrifices?lang=eng'
+    quote: 'Sins committed with a high hand, and for which the punishment was death, did not admit of expiation under the Mosaic law (Num. 15:30–31). Atonement could be made for … (2) noncapital crimes (such as theft), after punishment had been endured (Lev. 6:2, 6; 19:20–22)'
+
+  - where: 'note 6:2 “A pledge, not fellowship”'
+    claim: 'The Hebrew behind “in fellowship” is tesumet (yad)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'בִ/תְשׂ֤וּמֶת'
+  - where: 'note 6:2 “A pledge, not fellowship”'
+    claim: 'The lexicon defines tesumet as deposit, and with yad as pledge, security'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8667.htm'
+    quote: 'תְּשׂ֫וּמֶת noun feminine (deposit, then, construct ׳יַד ׳ת pledge; security, Leviticus 5:21'
+  - where: 'note 6:2 “A pledge, not fellowship”'
+    claim: 'A modern translation reads deposit or pledge'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Leviticus+6%3A2&version=NRSVUE'
+    quote: 'by deceiving a neighbor in a matter of a deposit or a pledge or by robbery or if you have defrauded a neighbor'
+
+  - where: 'note 6:5 “Restitution first, then the ram”'
+    claim: 'Compensation was made ethically by the offering and materially by restitution with a fifth added'
+    key: bd-sacrifices
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sacrifices?lang=eng'
+    quote: 'This compensation was made (1) ethically, by the trespass offering (Lev. 5:15); (2) materially, by making restitution.'
+  - where: 'note 6:5 “Restitution first, then the ram”'
+    claim: 'Forgiveness after repentance and the law of restitution, 20 percent added; Numbers 5 cited'
+    key: ot-manual-lev-1-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/leviticus-1-10-a-law-of-performances-and-ordinances-part-1-sacrifices-and-offerings?lang=eng'
+    quote: 'This was possible after repentance (Lev. 26:40–45) and after fulfilling the law of restitution that required, where possible, that the guilty individual restore completely the wrong and an additional 20 percent (Lev. 5:16; 6:5–17; 27:13, 15, 19, 27, 31; Num. 5:6–10).'
+  - where: 'note 6:5 “Restitution first, then the ram”'
+    claim: 'Numbers 5:7 adds confession to the same law'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/5?lang=eng'
+    quote: 'Then they shall confess their sin which they have done: and he shall recompense his trespass with the principal thereof, and add unto it the fifth part thereof, and give it unto him against whom he hath trespassed.'
+  - where: 'note 6:5 “Restitution first, then the ram”'
+    claim: 'Which sins the offering covered is debated'
+    key: lane-whole-meaning
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/whole-meaning-law'
+    quote: 'others see it limited to “unintentional, inadvertent transgressions,” but another sees it as “atonement for intentional sins,” while some see it as a “fine” or “restitution”'
+
+  - where: 'note 6:11 “Changing clothes to carry out the ashes”'
+    claim: 'The priestly garments were worn only at the altar and in the tabernacle; compare Ezekiel 44:19 for the reason'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/6.htm'
+    quote: 'put off his garments] Cp. Ezekiel 44:19 for the reason. … put on other garments] The priestly garments were worn only at the altar and in the tabernacle. On going without the sacred precincts they were removed.'
+  - where: 'note 6:11 “Changing clothes to carry out the ashes”'
+    claim: 'Ezekiel 44:19 gives the same rule and its reason'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/44?lang=eng'
+    quote: 'they shall put off their garments wherein they ministered, and lay them in the holy chambers, and they shall put on other garments; and they shall not sanctify the people with their garments.'
+  - where: 'note 6:11 “Changing clothes to carry out the ashes”'
+    claim: 'The place outside the camp is where the sin offering of the anointed priest and the congregation was taken'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/6.htm'
+    quote: 'without the camp] to the place whither parts of the Sin-Offering for ‘the anointed priest’ and for ‘the whole congregation’ were taken (Leviticus 4:12; Leviticus 4:21).'
+  - where: 'note 6:11 “Changing clothes to carry out the ashes”'
+    claim: 'Leviticus 4:12: the bullock burned at the clean place where the ashes are poured out'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/4?lang=eng'
+    quote: 'Even the whole bullock shall he carry forth without the camp unto a clean place, where the ashes are poured out, and burn him on the wood with fire'
+
+  - where: 'note 6:13 “A fire that never goes out”'
+    claim: 'The two lambs day by day continually'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/29?lang=eng'
+    quote: 'Now this is that which thou shalt offer upon the altar; two lambs of the first year day by day continually.'
+  - where: 'note 6:13 “A fire that never goes out”'
+    claim: 'The word for “ever” in 6:13 is tamid'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'תָּמִ֛יד'
+  - where: 'note 6:13 “A fire that never goes out”'
+    claim: 'Tamid is continually, of regular repetition, of ritual, Exodus 29:38; most often the continual burnt offering, Exodus 29:42'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8548.htm'
+    quote: 'b. of regular repetition: … of ritual: sacrifice, לַיּוֺם תָּמִיד Exodus 29:38'
+  - where: 'note 6:13 “A fire that never goes out”'
+    claim: 'Tamid most often of the continual burnt offering'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8548.htm'
+    quote: 'especially of ritual: ׳קְטֹרֶת ת Exodus 30:8 (P); most often ׳עֹלַת ת Ezekiel 46:15 (every morning), Exodus 29:42 (morning and evening, so)'
+  - where: 'note 6:13 “A fire that never goes out”'
+    claim: 'The manual: the first fire kindled by Jehovah; keeping it symbolized the covenant; the fire symbolized the Holy Spirit'
+    key: ot-manual-lev-1-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/leviticus-1-10-a-law-of-performances-and-ordinances-part-1-sacrifices-and-offerings?lang=eng'
+    quote: 'It was the duty of the priest to keep this fire burning, symbolizing the continuation of the covenant which made the ordinance of sacrifice everlastingly valid. Also, as explained in Reading D-5, the fire symbolized the cleansing power of the Holy Spirit, which is never extinguished.'
+  - where: 'note 6:13 “A fire that never goes out”'
+    claim: 'The manual: the first fire on the altar was kindled by Jehovah'
+    key: ot-manual-lev-1-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/leviticus-1-10-a-law-of-performances-and-ordinances-part-1-sacrifices-and-offerings?lang=eng'
+    quote: 'The first fire on the first altar made under Moses’ direction was kindled by direct action of Jehovah (see Leviticus 9:23–24).'
+
+  - where: 'note 6:18 “Holiness that passes by touch”'
+    claim: 'The words do not mean only purified priests may touch; anyone who touches becomes holy, dedicated to God; no rule given for such persons'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/6.htm'
+    quote: 'This does not mean that only priests who have properly purified themselves may touch the most holy things, but that anyone, priest or layman, who inadvertently comes in contact with anything that is ‘most holy,’ becomes holy (i.e. dedicated to God, and put at His disposal)'
+  - where: 'note 6:18 “Holiness that passes by touch”'
+    claim: 'No rule is given about such persons; Haggai 2:12 limits the contact'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/6.htm'
+    quote: 'No rule is given here about the treatment of such persons; for inanimate things which are brought into contact with the ‘most holy,’ see Leviticus 6:27-28. According to Haggai 2:12, the garment in which ‘holy flesh’ is carried, does not communicate holiness to the food'
+  - where: 'note 6:18 “Holiness that passes by touch”'
+    claim: 'One older reading: the layman who touched them became holy and had to guard against defilement like the priests; the same words of the altar, Exodus 29:37'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/6.htm'
+    quote: 'every layman who touched these most holy things became holy through the contact, so that henceforth he had to guard against defilement in the same manner as the sanctified priests (Leviticus 21:1-8), though without sharing the priestly rights and prerogatives.'
+  - where: 'note 6:18 “Holiness that passes by touch”'
+    claim: 'The same provision applies to the altar of burnt offering (Exodus 29:37)'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/6.htm'
+    quote: 'In this provision, which was equally applicable to the sin-offering (Leviticus 6:27), to the altar of the burnt-offering (Exodus 29:37), and to the most holy vessels of the tabernacle (Exodus 30:29)'
+  - where: 'note 6:18 “Holiness that passes by touch”'
+    claim: 'Haggai 2:12: holy flesh in a garment does not make bread holy'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/2?lang=eng'
+    quote: 'If one bear holy flesh in the skirt of his garment, and with his skirt do touch bread, or pottage, or wine, or oil, or any meat, shall it be holy? And the priests answered and said, No.'
+  - where: 'note 6:18 “Holiness that passes by touch”'
+    claim: 'Washing in the holy place kept the most holy blood from common life'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/6.htm'
+    quote: 'in order that the most holy blood might not be carried out of the sanctuary into common life along with the sprinkled clothes, and thereby be profaned.'
+  - where: 'note 6:18 “Holiness that passes by touch”'
+    claim: 'The clay pot was broken because it was absorbent; bronze could be scoured'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/6.htm'
+    quote: 'The reason for breaking the earthen vessel was that, not being glazed as in modern fashion, it was absorbent; a brazen pot could be scoured, and all trace of the substance with which it had been in contact removed'
+  - where: 'note 6:18 “Holiness that passes by touch”'
+    claim: 'Defiled earthen vessels were also broken, for the opposite reason'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/6.htm'
+    quote: 'On the other hand, earthen vessels that had been defiled were also ordered to be broken to pieces, though for the very opposite reason (see Leviticus 11:33, Leviticus 11:35).'
+
+  - where: 'note 6:20 “The high priest’s own grain offering”'
+    claim: 'One older reading: the day is the seven days; offered every morning and evening during his term; testimony of Sirach and Josephus'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/6.htm'
+    quote: 'It then continued to be offered, as "a perpetual minchah," every morning and evening during the whole term of his office, according to the testimony of the book of Wis. (45:14, where we cannot suppose the daily burnt-offering to be intended) and also of Josephus'
+  - where: 'note 6:20 “The high priest’s own grain offering”'
+    claim: 'The day of anointing taken as the seven days'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/6.htm'
+    quote: '"In the day of his anointing:" when the anointing was finished, the seven were designated as "the day," like the seven days of creation in Genesis 2:4.'
+  - where: 'note 6:20 “The high priest’s own grain offering”'
+    claim: 'In the second temple the high priest offered it every day at his own expense'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/6.htm'
+    quote: 'According to Jewish practice in the second temple, the high priest offered a minḥah every day during his tenure of office (Sir 45:14) at his own expense (Jos. Ant. iii. 10. 7).'
+  - where: 'note 6:20 “The high priest’s own grain offering”'
+    claim: 'Most modern commentators reject the phrase as a later gloss; some who keep it read “in the day when” as “from the time that”'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/6.htm'
+    quote: 'Most modern commentators reject the words, considering them as a later gloss, and inconsistent with the description of the offering as perpetual. Some who retain them interpret ‘in the day when’ as ‘from the time that,’ i.e. in the day when and after.'
+  - where: 'note 6:20 “The high priest’s own grain offering”'
+    claim: '“Perpetual” in 6:20 is tamid'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/6.htm'
+    quote: 'perpetually] Heb. tâmîd, a term applied to the daily Burnt-Offering'
+
+  - where: 'note 6:27 “Garments washed in the holy place, and in His blood”'
+    claim: 'Welch reads 3 Nephi 27:19 as an inverted quotation and fulfilling allusion to Leviticus 6:27'
+    key: ot-minute-lev
+    url: 'https://scripturecentral.org/archive/books/book/old-testament-minute-leviticus'
+    quote: 'Another instance of inverted quotation is found in 3 Nephi 27:19, where Jesus says that “no unclean thing can enter into [the Father’s] kingdom . . . save it be those who have washed their garments in my blood.” This appears to be a fulfilling allusion to Leviticus 6:27'
+  - where: 'note 6:27 “Garments washed in the holy place, and in His blood”'
+    claim: 'Text of 3 Nephi 27:19'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/27?lang=eng'
+    quote: 'And no unclean thing can enter into his kingdom; therefore nothing entereth into his rest save it be those who have washed their garments in my blood, because of their faith, and the repentance of all their sins, and their faithfulness unto the end.'
+
+  - where: 'note 6:30 “Eaten by the priests, or burned outside the camp”'
+    claim: 'Hebrews: the beasts whose blood is brought into the sanctuary are burned without the camp'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/13?lang=eng'
+    quote: 'For the bodies of those beasts, whose blood is brought into the sanctuary by the high priest for sin, are burned without the camp.'
+  - where: 'note 6:30 “Eaten by the priests, or burned outside the camp”'
+    claim: 'The priest''s sin offering bull is burned outside the camp'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/4?lang=eng'
+    quote: 'Even the whole bullock shall he carry forth without the camp unto a clean place, where the ashes are poured out, and burn him on the wood with fire'
+  - where: 'note 6:30 “Eaten by the priests, or burned outside the camp”'
+    claim: 'Leviticus 10:17 gives why the priests eat the sin offering'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/10?lang=eng'
+    quote: 'Wherefore have ye not eaten the sin offering in the holy place, seeing it is most holy, and God hath given it you to bear the iniquity of the congregation, to make atonement for them before the Lord?'
+  - where: 'note 6:30 “Eaten by the priests, or burned outside the camp”'
+    claim: '“To reconcile” in 6:30 is kipper'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'לְ/כַפֵּ֥ר'
+  - where: 'note 6:30 “Eaten by the priests, or burned outside the camp”'
+    claim: 'Milgrom: a room can be the object of kipper (citing Lev 6:23 Hebrew = KJV 6:30)'
+    key: milgrom-temple
+    url: 'https://rsc.byu.edu/reflections-mormonism/temple-biblical-israel'
+    quote: 'or it can be said that the entire room (‘et) is kipper -ed (cf. also Exodus 30:10; Leviticus 6:23; 16:33).'
+  - where: 'note 6:30 “Eaten by the priests, or burned outside the camp”'
+    claim: 'Milgrom: the blood purges the sanctuary on behalf of the one who contaminated it'
+    key: milgrom-temple
+    url: 'https://rsc.byu.edu/reflections-mormonism/temple-biblical-israel'
+    quote: 'the priest purges the most sacred objects and areas of the sanctuary on behalf of the person who caused their contamination by his physical impurity or inadvertent offense.'
+
+  # ---------- christ / explore ----------
+  - where: 'christ'
+    claim: 'Asham, the trespass offering, is the Hebrew behind Isaiah 53:10 “an offering for sin”'
+    key: lane-whole-meaning
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/whole-meaning-law'
+    quote: 'The Hebrew text behind the translation “an offering for sin” is asham, the name of a sacrifice under the law of Moses discussed in Leviticus 5–7'
+  - where: 'christ'
+    claim: 'Gee: the servant''s soul made an atonement for deliberate sins'
+    key: gee-last-sacrifice
+    url: 'https://rsc.byu.edu/behold-lamb-god/great-last-sacrifice'
+    quote: 'so it is specifically the trespass offering which is made for intentional sins that is mentioned. His soul is made as an atonement for deliberate sins consciously committed.'
+  - where: 'christ'
+    claim: 'Hebrews 13:12 Jesus suffered without the gate'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/13?lang=eng'
+    quote: 'For the bodies of those beasts, whose blood is brought into the sanctuary by the high priest for sin, are burned without the camp.'
+  - where: 'explore'
+    claim: 'Numbers 5 repeats the law of restitution with confession'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/5?lang=eng'
+    quote: 'Then they shall confess their sin which they have done: and he shall recompense his trespass with the principal thereof'
