@@ -9,6 +9,7 @@
 //        <book> may be a volume (old-testament), for its guides.
 //        With nothing after the book: every chapter, then every theme and guide ledger. Book defaults to isaiah.
 //        --fresh ignores the cache; --quiet prints only the summary lines.
+//        --offline checks saved snapshots only; --cache-dir <path> may select another checkout's cache (read-only).
 import { readFile, readdir } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
@@ -19,8 +20,16 @@ import { fetchPage, pageText, onPage, parseOrEmpty, pageProblems } from '../src/
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 
 const argv = process.argv.slice(2);
+const cacheAt = argv.indexOf('--cache-dir');
+const cacheDir = cacheAt < 0 ? undefined : argv.splice(cacheAt, 2)[1];
 const fresh = argv.includes('--fresh');
 const quiet = argv.includes('--quiet');
+const offline = argv.includes('--offline');
+if ((offline && fresh) || (cacheAt >= 0 && (!offline || !cacheDir))) {
+  console.error('--offline cannot be combined with --fresh; --cache-dir <path> requires --offline.'); process.exit(1);
+}
+const fetchOptions = { fresh, offline, ...(cacheDir ? { cacheDir } : {}) };
+if (offline) console.log('Offline: quotes are checked against saved snapshots; current availability was not checked.');
 const { slug, rest } = bookArg(argv.filter((a) => !a.startsWith('--')));
 const book = await findOwner(ROOT, slug); // a book, or a volume (old-testament) for its guides
 
@@ -34,7 +43,7 @@ const everything = !rest.length;
 const pages = new Map(); // url -> { text, num } | { error }
 async function checkPage(url) {
   if (!pages.has(url)) {
-    const got = await fetchPage(url, { fresh });
+    const got = await fetchPage(url, fetchOptions);
     pages.set(url, got.error ? got : pageText(got.raw));
   }
   return pages.get(url);
@@ -62,7 +71,7 @@ for (const { label, file } of todo) {
     if (onPage(page, row.quote)) ok++;
     else {
       // A page that is blocked, not there, or empty is that, not a quote that is missing from the page.
-      const got = await fetchPage(row.url, { fresh }), bad = got.error ? [] : pageProblems(got.raw, parseOrEmpty(got.raw, row.url));
+      const got = await fetchPage(row.url, fetchOptions), bad = got.error ? [] : pageProblems(got.raw, parseOrEmpty(got.raw, row.url));
       if (bad.length) { unfetched++; if (!quiet) console.log(`  ? ${label} ${row.where} [${row.key}]: ${bad.join("; ")}: ${row.url}`); continue; }
       missing++; if (!quiet) console.log(`  ✗ ${label} ${row.where} [${row.key}]: quote not on page: “${String(row.quote).slice(0, 80)}” ${row.url}`);
     }
