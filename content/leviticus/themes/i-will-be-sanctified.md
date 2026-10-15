@@ -2,7 +2,6 @@
 title: I Will Be Sanctified
 blurb: Twice in Leviticus the LORD says He Himself will be sanctified, once over two dead priests and once in the same verse as “I am the LORD which hallow you.” Between them Israel is told to sanctify itself, and seven times the LORD says He is the one who sanctifies. Hebrews and Moroni say how.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, keil-leviticus, bowen-law-codes, strathearn-holiness-lord, gs-sanctification, tg-sanctification, gs-jehovah]
 ---
 

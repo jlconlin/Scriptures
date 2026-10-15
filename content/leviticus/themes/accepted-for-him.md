@@ -2,7 +2,6 @@
 title: Accepted for Him
 blurb: From an offering “accepted for him” to a scattered people with no altar who “accept of the punishment of their iniquity,” and the Lord who says He will not cast them away.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, scripture-helps-ex-35, bd-sacrifices, lane-whole-meaning, ot-minute-lev, gs-broken-heart]
 ---
 

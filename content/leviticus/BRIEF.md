@@ -10,7 +10,8 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository; `THEME-CANDIDAT
 
 `node scripts/status.mjs leviticus` prints what the repository shows; the history is `git log -- content/leviticus`. What a script can't see:
 
-- **The book is in preview.** It goes live at the author's word.
+- **The book is live** (2026-10-15; author: “go live, if everything is working”), with all 27 chapters written, reviewed and read by Codex, and the author has read almost none of it. Four theme pages (`content/leviticus/themes/`) were written from the author's selection; the fifth, the offerings beside today's ordinances, waits for the five books of Moses (`THEME-CANDIDATES.md`).
+- **The illustration is approved** (2026-10-15, the ninth candidate; author: “thats fine”): the bronze altar with tall horns inside the long linen court, the tent at its far end, and the scapegoat going out. The author found a flat poster version “too flat” and a realistic one “too photo-realistic”; the kept look is candidate 4's, between them. The altar is bronze, not stone (Ex. 27:1–2), and stands inside the court (Ex. 40:6); no grain field (Israel had no fields at Sinai).
 - **The text is imported and checked** (“The text,” below). The Church's footnotes for every chapter are saved in `.cache/batch/leviticus/fn1.txt` to `fn27.txt`; read them instead of running `footnotes.mjs` again. Scripture Central's KnoWhys for each chapter are saved in `.cache/batch/leviticus/reports/knowhys/<n>.txt`.
 - **One theme page is already chosen**: the sacrifices and offerings beside today's ordinances (`IDEAS.md`; `THEME-CANDIDATES.md`). The notes on chapters 1–7, 16 and 23 should name each offering exactly and say what it was for, so that page can link to them.
 

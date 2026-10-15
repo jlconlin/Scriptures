@@ -2,7 +2,6 @@
 title: Them That Come Nigh Me
 blurb: The same fire that accepts Israel's offering consumes two priests who come near as they were not commanded; the unclean are kept outside the camp; and one man goes within the veil once a year with blood, so that the people are “clean … before the LORD.” Hebrews reads that one way in as a sign that the way was not yet open, until Christ entered “by his own blood.”
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bd-nadab, bd-clean-unclean, gs-clean-unclean, sc-knowhy-479, cfm-ot-2026-tabernacle, scripture-helps-ex-35, bd-fasts, tanner-advocate]
 ---
 

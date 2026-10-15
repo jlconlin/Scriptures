@@ -2,7 +2,6 @@
 title: One of His Brethren May Redeem Him
 blurb: A brother who falls and sells himself, even to a stranger, can be bought back by his own kin at a counted price, or goes free at the jubilee; scripture and the Church name Jesus Christ the Redeemer who paid the price.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, bd-redemption, gs-redeem, gs-redeemer, curtis-redemption, lane-redemption-gaal, spackman-atonement, keil-leviticus]
 ---
 
