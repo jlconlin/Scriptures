@@ -23,7 +23,6 @@ Nothing.
 - **Psalms: a second pass over the psalms written before 2026-10-11: not now** (your answer that day: “No I dont' want a second pass right now. Maybe in a future date”). Kept here so it isn't lost. The first 116 psalms were written before the rule on Hebrew, before the table of where each shared thing is explained, and without two finders of Latter-day Saint studies (BYU Studies' psalm-by-psalm lists; the Interpreter Foundation's journal). Of them, 49 cite no Scripture Central, BYU or Interpreter source, and Delitzsch is in 28 percent of the notes. A pass would look each psalm up in the finders, cut Hebrew and Delitzsch that answer no reader's question, and turn repeated explanations into pointers; a rough guess is 150,000 to 250,000 tokens a psalm.
 
 - **2 Nephi 19:1, “Red Sea”** (Isaiah 9:1): a note was written and cut because Skousen's *Analysis of Textual Variants* was read on an unauthorized site. Write it when an authorized copy and E. Jan Wilson’s “Joseph Smith and the ‘Red Sea’ in 2 Nephi 19:1” can both be read. Wilson’s article was read from *Interpreter*’s official PDF on 2026-10-15; it expressly calls its proposal speculative. The two official links tried for Skousen (the old PDF address and the edition linked by Scripture Central’s archive) both returned 404, so the note still waits for a readable authorized copy.
-- **Isaiah chapters with no evidence ledger:** 1, 40–44, 56–66 (`content/isaiah/BRIEF.md`, “State of the book”).
 
 ## Notes waiting for a Book of Mormon home
 
