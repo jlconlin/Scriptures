@@ -110,6 +110,8 @@ hymn-high-mountain: { type: hymn, title: High on the Mountain Top, pub: '*Hymns*
 hymn-how-firm: { type: hymn, title: How Firm a Foundation, pub: '*Hymns*, no. 85', url: 'https://www.churchofjesuschrist.org/study/manual/hymns/how-firm-a-foundation?lang=eng' }
 
 # ---------- Latter-day Saint scholarship (BYU and elsewhere) ----------
+mcconkie-premortal-councils: { type: article, author: Joseph Fielding McConkie, title: 'Premortal Existence, Foreordinations, and Heavenly Councils', pub: 'In *Apocryphal Writings and the Latter-day Saints*, ed. C. Wilfred Griggs (Religious Studies Center, 1986), 174–98', url: 'https://rsc.byu.edu/apocryphal-writings-latter-day-saints/premortal-existence-foreordinations-heavenly-councils' }
+jackson-isaiah-reason-faith: { type: article, author: Kent P. Jackson, title: 'Isaiah in the Book of Mormon', pub: 'In *A Reason for Faith: Navigating LDS Doctrine & Church History*, ed. Laura Harris Hales (Religious Studies Center and Deseret Book, 2016), 69–78', url: 'https://rsc.byu.edu/reason-faith/isaiah-book-mormon' }
 ludlow: { type: book, author: Victor L. Ludlow, title: 'Isaiah: Prophet, Seer, and Poet', pub: 'Salt Lake City: Deseret Book, 1982' }
 parry-understanding: { type: book, author: 'Donald W. Parry, Jay A. Parry, and Tina M. Peterson', title: Understanding Isaiah, pub: 'Salt Lake City: Deseret Book, 1998' }
 ball-winn: { type: book, author: Terry B. Ball and Nathan Winn, title: 'Making Sense of Isaiah: Insights and Modern Applications', pub: 'Salt Lake City: Deseret Book, 2009' }
@@ -203,7 +205,7 @@ jst-rev-12: { type: entry, title: 'Joseph Smith Translation, Revelation 12', pub
 jst-ex-4-footnote: { type: entry, title: 'Exodus 4:21, footnote c (JST Ex. 4:21)', pub: 'Latter-day Saint edition of the King James Version', url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/4?lang=eng' }
 luckenbill-annals: { type: book, author: Daniel David Luckenbill, title: 'The Annals of Sennacherib', pub: 'Oriental Institute Publications 2. Chicago: University of Chicago Press, 1924 (includes the Oriental Institute prism’s account of the siege of Jerusalem and the Bavian inscription on the destruction of Babylon)', url: 'https://archive.org/details/annalsofsennache00senn_0' }
 seitz-divine-council: { type: article, author: Christopher R. Seitz, title: 'The Divine Council: Temporal Transition and New Prophecy in the Book of Isaiah', pub: '*Journal of Biblical Literature* 109, no. 2 (1990): 229–247', url: 'https://doi.org/10.2307/3267015' }
-jst-lk-3: { type: entry, title: 'Joseph Smith Translation, Luke 3 (summary)', pub: 'Joseph Smith Translation Appendix, Gospel Library', url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-lk/3?lang=eng' }
+jst-lk-3: { type: entry, title: 'Joseph Smith Translation, Luke 3 (summary)', pub: 'Joseph Smith Translation Appendix, Gospel Library', url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-luke/3?lang=eng' }
 sc-knowhy-24: { type: article, author: Scripture Central, title: 'Who is the Servant of Isaiah 49/1 Nephi 21?', pub: 'KnoWhy #24', url: 'https://scripturecentral.org/knowhy/who-is-the-servant-of-isaiah-491-nephi-21' }
 bd-let: { type: entry, title: Let, pub: '*Bible Dictionary*', url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/let?lang=eng' }
 nelson-exodus-repeated: { type: article, author: Russell M. Nelson, title: The Exodus Repeated, pub: '*Ensign*, July 1999', url: 'https://www.churchofjesuschrist.org/study/ensign/1999/07/the-exodus-repeated?lang=eng' }
