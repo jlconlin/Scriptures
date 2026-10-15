@@ -1,0 +1,27 @@
+name: Leviticus
+slug: leviticus
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 0.6
+abbr: lev                # [[Lev. 19:18]] links here
+gospelLibrary: ot/lev
+eyebrow: The Old Testament
+heroQuote:
+  text: '“Ye shall be holy: for I the LORD your God am holy.”'
+  cite: 'The Lord to Moses, [[Lev. 19:2]]'
+description: A phrase-by-phrase companion to the book of Leviticus, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: DRAFT
+home:
+  blurb: DRAFT
+
+intro: |
+  DRAFT
+
+divisions:
+  - key: levofferings
+    range: [1, 7]
+    name: DRAFT
+    blurb: DRAFT
+    color: '#8a3a2a'
+    darkColor: '#e0a090'

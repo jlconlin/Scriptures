@@ -221,6 +221,13 @@ const LDS_SPELLINGS = [
   [/and the Lord talked with Moses/g, 'and the LORD talked with Moses'], // Ex. 33:9
   [/in thy sight, O LORD, let my LORD, I pray thee/g, 'in thy sight, O Lord, let my Lord, I pray thee'], // Ex. 34:9
   [/all your menchildren appear before the LORD God, the God of Israel/g, 'all your men children appear before the Lord GOD, the God of Israel'], // Ex. 34:23
+  // Leviticus: old spellings, “LORD” where the source has “Lord”, and a missing space (found by scripts/check-kjv.mjs).
+  [/\bplaistered\b/g, 'plastered'], // Lev. 14:42, 43, 48
+  [/nor honor the person/g, 'nor honour the person'], // Lev. 19:15
+  [/blasphemed the name of the Lord, and cursed/g, 'blasphemed the name of the LORD, and cursed'], // Lev. 24:11
+  [/blasphemeth the name of the Lord, shall be/g, 'blasphemeth the name of the LORD, shall be'], // Lev. 24:16
+  [/\bjubile\b/g, 'jubilee'], // Lev. 25; 27
+  [/thy God:for I am/g, 'thy God: for I am'], // Lev. 25:17
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 
