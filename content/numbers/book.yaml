@@ -1,0 +1,27 @@
+name: Numbers
+slug: numbers
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 0.7
+abbr: num                # [[Num. 21:8]] links here
+gospelLibrary: ot/num
+eyebrow: The Old Testament
+heroQuote:
+  text: '“The LORD bless thee, and keep thee: the LORD make his face shine upon thee, and be gracious unto thee: the LORD lift up his countenance upon thee, and give thee peace.”'
+  cite: 'The priestly blessing, [[Num. 6:24–26]]'
+description: A phrase-by-phrase companion to the book of Numbers, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: DRAFT
+home:
+  blurb: DRAFT
+
+intro: |
+  DRAFT
+
+divisions:
+  - key: numwild
+    range: [1, 36]
+    name: DRAFT
+    blurb: DRAFT
+    color: '#5a6a3a'
+    darkColor: '#c8d4a0'
