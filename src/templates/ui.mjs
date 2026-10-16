@@ -12,9 +12,10 @@ export function sectionNav(items) {
 }
 
 // The same bar for a page whose sections are the <h2 id="…"> headings of rendered Markdown (guides, About).
-// Labels are the headings' own text with any markup stripped; a heading without an id is left out.
+// Labels are the headings' own text with any markup stripped, cut at a colon (“The first song: the gentle servant”
+// is “The first song”) so the bar stays short (author, 2026-10-16); a heading without an id is left out.
 export function headingNav(html, extra = []) {
-  const items = [...html.matchAll(/<h2 id="([^"]+)">([\s\S]*?)<\/h2>/g)].map((m) => [m[1], m[2].replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&#39;|&rsquo;/g, '’').trim()]);
+  const items = [...html.matchAll(/<h2 id="([^"]+)">([\s\S]*?)<\/h2>/g)].map((m) => [m[1], m[2].replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&#39;|&rsquo;/g, '’').split(':')[0].trim()]);
   return sectionNav([...items, ...extra]);
 }
 
