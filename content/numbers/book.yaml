@@ -8,20 +8,116 @@ abbr: num                # [[Num. 21:8]] links here
 gospelLibrary: ot/num
 eyebrow: The Old Testament
 heroQuote:
-  text: '“The LORD bless thee, and keep thee: the LORD make his face shine upon thee, and be gracious unto thee: the LORD lift up his countenance upon thee, and give thee peace.”'
+  text: '“The LORD bless thee, and keep thee: The LORD make his face shine upon thee, and be gracious unto thee: The LORD lift up his countenance upon thee, and give thee peace.”'
   cite: 'The priestly blessing, [[Num. 6:24–26]]'
 description: A phrase-by-phrase companion to the book of Numbers, grounded in the restored gospel of Jesus Christ.
-divisionsBlurb: DRAFT
+divisionsBlurb: Thirty-six chapters in five parts. Israel is counted and ordered at Sinai, then sets out and refuses the land at Kadesh. Through the wilderness years the people rebel and are rescued, and the first generation dies. On the plains of Moab, Balaam blesses the camp he was hired to curse, and a new generation is counted and readied for the land.
 home:
-  blurb: DRAFT
+  blurb: Israel's forty years between Sinai and the Jordan. The people are counted twice, a generation that will not enter the land is replaced by its children, and the Lord leads them by the cloud. The book holds the priestly blessing, the brass serpent the Savior compared to Himself, and Balaam's star out of Jacob.
 
 intro: |
-  DRAFT
+  Numbers takes Israel from Sinai to the edge of the promised land. Its Hebrew name is “In the wilderness,” from its first verse, “the LORD spake unto Moses in the wilderness of Sinai” ([[Num. 1:1]]). Its English name comes from the two times the people are counted, at Sinai and again forty years later on the plains of Moab. Between the two counts a whole generation dies. At Kadesh the people believed the spies who said the land could not be taken, and the Lord said of them, “They shall surely die in the wilderness” ([[Num. 26:65]]). Only Caleb and Joshua, who said “the LORD is with us: fear them not” ([[Num. 14:9]]), outlived the sentence.
 
+  The book is full of murmuring, and of the Lord's answers to it. Manna falls every morning, the cloud lifts and settles over the tabernacle, and Moses intercedes again and again. When the people are bitten by fiery serpents, Moses lifts up a serpent of brass, so “that every one that is bitten, when he looketh upon it, shall live” ([[Num. 21:8]]). The Savior used that serpent to describe His own lifting up ([[John 3:14–15]]), and Book of Mormon prophets used it to teach faith in Him ([[Alma 33:19–22]]; [[Hel. 8:14–15]]). Numbers also holds the blessing Aaron's sons were to speak over Israel ([[Num. 6:24–26]]), Moses' wish “that all the LORD’s people were prophets” ([[Num. 11:29]]), and Balaam's “Star out of Jacob” ([[Num. 24:17]]). This companion goes through all thirty-six chapters and tries to anticipate the questions a careful reader would ask, the hard ones included: how many came out of Egypt, why Moses was barred from the land, and what is to be made of Balaam.
+
+  For the priests and the Levites, see [The Temple and Worship](/old-testament/guides/temple-and-worship/#priests); for the land the tribes were given on both sides of the Jordan, see [The Land](/old-testament/guides/the-land/#inheritance).
+
+# The divisions follow the Bible Dictionary (“Numbers”: 1:1–10:10; 10:11–14:45; 15–19; 20–36) and
+# Scripture Helps (1–10; 10–21; 22–36): Sinai; Kadesh; the wilderness years to Sihon and Og; and the plains of Moab,
+# split at chapter 26, the second census, where the new generation begins.
+# Keys must not repeat another book’s (the colors are global variables).
 divisions:
-  - key: numwild
-    range: [1, 36]
-    name: DRAFT
-    blurb: DRAFT
-    color: '#5a6a3a'
-    darkColor: '#c8d4a0'
+  - key: numsinai
+    range: [1, 10]
+    name: Ordered at Sinai
+    blurb: The men of war are counted, the tribes are set around the tabernacle, and the Levites are taken in place of the firstborn. The princes bring their offerings, the priests are given a blessing to speak over Israel, and the cloud lifts. In the second year after Egypt, Israel sets out.
+    color: '#7a5230'
+    darkColor: '#e3b48a'
+  - key: numkadesh
+    range: [11, 14]
+    name: The Refusal at Kadesh
+    blurb: The people complain of the manna, and seventy elders receive the spirit that was on Moses. Miriam and Aaron speak against him, and the Lord defends His servant. Twelve men search the land, ten bring an evil report, and the people refuse to go up. The Lord pardons them, but that generation will die in the wilderness.
+    color: '#a3482e'
+    darkColor: '#f0a487'
+  - key: numyears
+    range: [15, 21]
+    name: The Wilderness Years
+    blurb: Laws for the land to come, a rebellion against Moses and Aaron, and Aaron's rod that budded. The ashes of a red heifer cleanse those defiled by the dead. Miriam dies, Moses strikes the rock at Meribah and is told he will not enter the land, and Aaron dies on mount Hor. The brass serpent is lifted up, and Sihon and Og fall.
+    color: '#5c6e2a'
+    darkColor: '#c9d98c'
+  - key: nummoab
+    range: [22, 25]
+    name: Balaam and Baal-peor
+    blurb: The king of Moab hires Balaam to curse Israel, and the Lord turns each curse into a blessing, the last of them a star out of Jacob. Then, at Baal-peor, Israel joins itself to Moab's god, and Phinehas stays the plague.
+    color: '#6e3f6e'
+    darkColor: '#d4a6d4'
+  - key: numnewgen
+    range: [26, 36]
+    name: The New Generation
+    blurb: A second census finds none of the first generation left but Caleb and Joshua. The daughters of Zelophehad receive their father's inheritance, and Joshua is set before the congregation. Then come the offerings for the year, the law of vows, the war on Midian, the tribes east of Jordan, the journeys, the borders, and the cities of refuge.
+    color: '#28627a'
+    darkColor: '#86c8e0'
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [11, 14], sources: [scripture-helps-num] }
+  - { range: [20, 24], sources: [scripture-helps-num] }
+  - { range: [27, 27], sources: [scripture-helps-num] }
+  - { range: [22, 24], sources: [pike-balaam] }
+
+beloved:
+  - { chapter: 6, verse: 24, text: 'The LORD bless thee, and keep thee' }
+  - { chapter: 6, verse: 26, text: 'The LORD lift up his countenance upon thee, and give thee peace' }
+  - { chapter: 11, verse: 29, text: 'would God that all the LORD’s people were prophets, and that the LORD would put his spirit upon them' }
+  - { chapter: 12, verse: 3, text: 'the man Moses was very meek, above all the men which were upon the face of the earth' }
+  - { chapter: 14, verse: 9, text: 'rebel not ye against the LORD, neither fear ye the people of the land' }
+  - { chapter: 14, verse: 24, text: 'my servant Caleb, because he had another spirit with him, and hath followed me fully' }
+  - { chapter: 21, verse: 8, text: 'every one that is bitten, when he looketh upon it, shall live' }
+  - { chapter: 23, verse: 19, text: 'God is not a man, that he should lie' }
+  - { chapter: 24, verse: 17, text: 'there shall come a Star out of Jacob, and a Sceptre shall rise out of Israel' }
+  - { chapter: 32, verse: 23, text: 'be sure your sin will find you out' }
+
+coreSources:
+  - bd-numbers
+  - scripture-helps-num
+  - pike-balaam
+  - ot-minute-num
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'Take Ye the Sum of All the Congregation'
+  2: 'Pitch by His Own Standard'
+  3: 'The Levites Shall Be Mine'
+  4: 'Every One according to His Service'
+  5: 'In the Midst Whereof I Dwell'
+  6: 'The Lord Bless Thee, and Keep Thee'
+  7: 'The Voice of One Speaking unto Him'
+  8: 'Thus Shalt Thou Separate the Levites'
+  9: 'At the Commandment of the Lord'
+  10: 'Rise Up, Lord'
+  11: 'Would God That All the Lord’s People Were Prophets'
+  12: 'Now the Man Moses Was Very Meek'
+  13: 'We Are Well Able to Overcome It'
+  14: 'Rebel Not Ye against the Lord'
+  15: 'That Ye May Remember, and Do All My Commandments'
+  16: 'He Stood between the Dead and the Living'
+  17: 'Bloomed Blossoms, and Yielded Almonds'
+  18: 'I Am Thy Part and Thine Inheritance'
+  19: 'A Red Heifer without Spot'
+  20: 'Speak Ye unto the Rock before Their Eyes'
+  21: 'When He Looketh upon It, Shall Live'
+  22: 'The Lord Opened the Eyes of Balaam'
+  23: 'What Hath God Wrought'
+  24: 'There Shall Come a Star out of Jacob'
+  25: 'My Covenant of Peace'
+  26: 'They Shall Surely Die in the Wilderness'
+  27: 'As Sheep Which Have No Shepherd'
+  28: 'In Their Due Season'
+  29: 'A Day of Blowing the Trumpets'
+  30: 'He Shall Not Break His Word'
+  31: 'There Lacketh Not One Man of Us'
+  32: 'Be Sure Your Sin Will Find You Out'
+  33: 'These Are the Journeys of the Children of Israel'
+  34: 'When Ye Come into the Land of Canaan'
+  35: 'Cities to Be Cities of Refuge'
+  36: 'Let Them Marry to Whom They Think Best'
