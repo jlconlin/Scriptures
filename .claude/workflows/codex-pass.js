@@ -8,7 +8,7 @@ export const meta = {
 //   book        the book's slug
 //   chapters    the chapter numbers of one batch, e.g. [13, 14, …, 24]; they are also read together, first to last
 //   codexModel  optional Codex model, when the configured one is at capacity
-//   applyModel  'opus' (default) or 'sonnet', for the agents that apply the findings (author, 2026-10-15: a trial of Sonnet 5.5, “Yes let’s try that”)
+//   applyModel  'opus' (default) or 'sonnet', for the agents that apply the findings (Sonnet 5.5 was tried on Deuteronomy, 2026-10-15, and did harm: AUTHORING.md, “Why these models”; keep opus)
 // Codex (another model family) reads for language only and edits nothing: the coordinator runs
 // `node scripts/codex-read.mjs <book> <from>-<to> --batch` first, which saves numbered findings in
 // .cache/batch/<book>/reports/ (NN-codex.md for a chapter, NN-NN-codex.md for the chapters read side by side).
