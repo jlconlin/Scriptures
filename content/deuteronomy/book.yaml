@@ -1,0 +1,27 @@
+name: Deuteronomy
+slug: deuteronomy
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 0.8
+abbr: deut               # [[Deut. 6:5]] links here
+gospelLibrary: ot/deut
+eyebrow: The Old Testament
+heroQuote:
+  text: '“Thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might.”'
+  cite: 'Moses to Israel, [[Deut. 6:5]]'
+description: A phrase-by-phrase companion to the book of Deuteronomy, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: DRAFT
+home:
+  blurb: DRAFT
+
+intro: |
+  DRAFT
+
+divisions:
+  - key: deutreview
+    range: [1, 34]
+    name: DRAFT
+    blurb: DRAFT
+    color: '#6a5a2a'
+    darkColor: '#d8c890'
