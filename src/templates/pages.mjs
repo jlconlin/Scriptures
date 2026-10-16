@@ -127,6 +127,9 @@ function artFigure(visual) {
   </details></figure>`;
 }
 
+// A division's chapters as a label: “1–12”, or “1” for a division of one chapter (Joel's).
+const span = (d) => (d.range[0] === d.range[1] ? `${d.range[0]}` : `${d.range[0]}–${d.range[1]}`);
+
 export function renderBookIndex({ book, guides, themes = [], sources }) {
   const bookArt = book.visual?.status === 'approved' && book.visual.asset && book.visual.alt
     ? artFigure(book.visual)
@@ -136,7 +139,7 @@ export function renderBookIndex({ book, guides, themes = [], sources }) {
       const chs = book.chapters.filter((c) => c.chapter >= d.range[0] && c.chapter <= d.range[1]);
       return `<section class="division" id="${d.key}" style="--div:var(--div-${d.key})">
   <header class="division-head">
-    <span class="division-range">${esc(book.name)} ${d.range[0]}–${d.range[1]}</span>
+    <span class="division-range">${esc(book.name)} ${span(d)}</span>
     <h3>${esc(d.name)}</h3>
     <p>${mdInline(d.blurb)}</p>
   </header>
@@ -189,7 +192,7 @@ ${sectionNav([['chapters', 'Chapters'], book.facsimiles?.length && ['facsimiles'
   <h2 class="section-title">The ${esc(unitPlural(book))}</h2>
   <p class="section-sub">${esc(book.divisionsBlurb)}</p>
   <div class="dial-wrap division-map-wrap"><div class="dial-label" aria-hidden="true" hidden></div><div class="division-map" role="navigation" aria-label="Book sections">
-    ${book.divisions.map((d) => `<a href="#${d.key}" style="--div:var(--div-${d.key});--c:var(--div-${d.key});flex:${d.range[1] - d.range[0] + 1}" aria-label="${esc(book.name)} ${d.range[0]}–${d.range[1]}: ${esc(d.name)}" data-label="${esc(d.name)}" data-div="${esc(book.name)} ${d.range[0]}–${d.range[1]}"><span>${d.range[0]}–${d.range[1]}</span></a>`).join('')}
+    ${book.divisions.map((d) => `<a href="#${d.key}" style="--div:var(--div-${d.key});--c:var(--div-${d.key});flex:${d.range[1] - d.range[0] + 1}" aria-label="${esc(book.name)} ${span(d)}: ${esc(d.name)}" data-label="${esc(d.name)}" data-div="${esc(book.name)} ${span(d)}"><span>${span(d)}</span></a>`).join('')}
   </div></div>
   ${divisions}
 </section>
