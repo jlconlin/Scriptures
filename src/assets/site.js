@@ -436,13 +436,27 @@
         ? { vol: remembered.slug, book: store.get('library') }
         : { vol: firstVol.slug, book: wide() ? firstVol.books[0]?.slug ?? null : null };
       const picked = { [ps.vol]: ps.book };
+      // The chapter last opened on this device: marked in its book's grid and offered as “Continue”.
+      let last = null;
+      try { last = JSON.parse(store.get('lastRead') || 'null'); } catch {}
+      const lastBook = last && volWith(last.book) && bookOf(volWith(last.book), last.book);
+      if (!lastBook || !isWritten(lastBook, last.chapter)) last = null;
+      const cont = $('.home-continue');
+      if (cont && last) {
+        const link = document.createElement('a');
+        link.href = url(`${last.book}/${last.chapter}/`);
+        link.textContent = `${lastBook.name} ${last.chapter}${last.title ? `, ${last.title}` : ''}`;
+        cont.replaceChildren('Continue · ', link);
+        cont.hidden = false;
+      }
 
       const pane = (v, b) => {
         const w = count(b);
         const cells = Array.from({ length: b.total }, (_, i) => {
           const n = i + 1;
+          const here = last && last.book === b.slug && last.chapter === n;
           return isWritten(b, n)
-            ? `<a class="cell written" href="${url(`${b.slug}/${n}/`)}" aria-label="${esc(b.name)} ${n}">${n}</a>`
+            ? `<a class="cell written${here ? ' current' : ''}" href="${url(`${b.slug}/${n}/`)}" aria-label="${esc(b.name)} ${n}${here ? ', last opened' : ''}">${n}</a>`
             : `<a class="cell unwritten" href="${b.gl}/${n}?lang=eng" target="_blank" rel="noopener" aria-label="${esc(b.name)} ${n}, in the Gospel Library">${n}</a>`;
         }).join('');
         return `<div class="picker-pane" style="--vc:var(--v-${v.slug})">
@@ -591,6 +605,13 @@
   // ---------- chapter reader ----------
   const reader = $('.reader');
   if (reader) {
+    // Remember this chapter on this device, so the home page can offer it again (author, 2026-10-16: “I may be
+    // studying Isaiah 53 for several days in a row”). Nothing leaves the browser.
+    const article = $('article.chapter');
+    if (article?.dataset.book) {
+      store.set('lastRead', JSON.stringify({ book: article.dataset.book, chapter: Number(article.dataset.chapter), title: $('.chapter-hero h1')?.textContent.trim() ?? '' }));
+      store.set('library', article.dataset.book);
+    }
     const triggersFor = (id) => $$(`[data-note="${id}"]`);
     const kindOf = (el) => [...el.classList].find((c) => c.startsWith('k-'))?.slice(2);
     const hidden = new Set(JSON.parse(store.get('hiddenKinds') || '[]'));

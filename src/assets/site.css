@@ -784,6 +784,10 @@ a.ref-internal { text-decoration-style: dotted; }
 .chapter-grid > .section-nav { padding-inline: 0; }
 .chapter-steps a { display: inline-flex; gap: 5px; align-items: center; min-height: 32px; text-decoration: none; }
 .home-about { align-self: center; font-size: .9rem; }
+/* The chapter last opened on this device (site.js fills it from local storage; hidden for a first visit). */
+.home-continue { margin: 0; font: 600 .95rem var(--font-ui); color: var(--ink-2); }
+.home-continue a { display: inline-flex; align-items: center; min-height: 32px; font-family: var(--font-display); font-size: 1.05rem; }
+@media (pointer: coarse) { .home-continue a { min-height: 44px; } }
 .note-expand { border: 0; background: none; padding: 4px 0; color: var(--accent-ink); font: 600 .78rem var(--font-ui); cursor: pointer; }
 .note.is-card .note-expand { display: none; }
 .note-sources summary { cursor: pointer; font-weight: 700; }
