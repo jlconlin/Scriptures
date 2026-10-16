@@ -10,7 +10,8 @@
   };
   const root = document.documentElement;
   root.classList.add('js');
-  const pinnedHeight = () => ($('.site-header')?.offsetHeight ?? 0) + ($('.section-nav')?.offsetHeight ?? 0);
+  // The header counts only while it is showing: on pages with an Outline bar it slides away while reading (below).
+  const pinnedHeight = () => (root.classList.contains('header-away') ? 0 : $('.site-header')?.offsetHeight ?? 0) + ($('.section-nav')?.offsetHeight ?? 0);
 
   // ---------- citation and short scripture previews ----------
   // Ordinary fragment links remain usable when JavaScript or native popovers are unavailable.
@@ -841,6 +842,17 @@
     });
     addEventListener('scroll', () => { if (!queued) { queued = true; requestAnimationFrame(updateSection); } }, { passive: true });
     updateSection();
+
+    // The header slides away while the reader scrolls down (once past the top of the page) and comes back on a
+    // scroll up, so only the Outline bar stays pinned while reading. It stays while one of its menus is open or holds focus.
+    let lastY = scrollY;
+    addEventListener('scroll', () => {
+      const y = scrollY, dy = y - lastY;
+      if (Math.abs(dy) < 8) return;
+      lastY = y;
+      const busy = header && (header.contains(document.activeElement) || header.querySelector('details[open]'));
+      root.classList.toggle('header-away', dy > 0 && y > 160 && !busy);
+    }, { passive: true });
   }
 
   // A native dialog keeps long notes readable without moving the passage or duplicating IDs.

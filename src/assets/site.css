@@ -95,7 +95,7 @@
 
 /* ---------- base ---------- */
 *, *::before, *::after { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-padding-top: calc(var(--header-h) + var(--section-nav-h) + 16px); }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-padding-top: calc(var(--header-shown, var(--header-h)) + var(--section-nav-h) + 16px); }
 body {
   margin: 0; background: var(--bg); color: var(--ink);
   font: 400 1rem/1.6 var(--font-ui);
@@ -114,8 +114,13 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 .icon { width: 1.15em; height: 1.15em; flex: none; vertical-align: -0.2em; }
 
 /* ---------- header ---------- */
+/* On a page with an Outline bar the header slides away while reading down and returns on a scroll up; the Outline bar
+   then pins to the top (site.js sets .header-away; author, 2026-10-16). */
+.header-away { --header-shown: 0px; }
+.header-away .site-header { transform: translateY(-100%); }
+@media (prefers-reduced-motion: reduce) { .site-header, .section-nav { transition: none; } }
 .site-header {
-  position: sticky; top: 0; z-index: 20;
+  position: sticky; top: 0; z-index: 20; transition: transform .25s cubic-bezier(.2, .8, .2, 1);
   background: color-mix(in srgb, var(--bg) 88%, transparent);
   backdrop-filter: saturate(1.4) blur(10px); -webkit-backdrop-filter: saturate(1.4) blur(10px);
   border-bottom: 1px solid var(--line);
@@ -647,7 +652,7 @@ a.ref-internal { text-decoration-style: dotted; }
   .reader { position: relative; }
   .reader .note {
     position: absolute; left: calc(100% + var(--margin-gap)); width: var(--margin-w); margin: 0;
-    max-height: calc(100vh - var(--header-h) - var(--section-nav-h) - 32px); max-height: calc(100dvh - var(--header-h) - var(--section-nav-h) - 32px); overflow-y: auto; overscroll-behavior: contain;
+    max-height: calc(100vh - var(--header-shown, var(--header-h)) - var(--section-nav-h) - 32px); max-height: calc(100dvh - var(--header-shown, var(--header-h)) - var(--section-nav-h) - 32px); overflow-y: auto; overscroll-behavior: contain;
     font-size: calc(.94rem * var(--reader-scale));
   }
   .hint-wide { display: inline; }
@@ -744,7 +749,7 @@ a.ref-internal { text-decoration-style: dotted; }
 .facsimile-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; background: #e9e2d2; border-radius: 8px; margin-bottom: 6px; }
 
 /* Shared navigation and reader components (ui.mjs). */
-.section-nav { position: sticky; top: var(--header-h); z-index: 15; display: flex; align-items: center; flex-wrap: wrap; gap: 6px 20px; max-width: 1120px; margin: 0 auto 20px; padding: 9px var(--gutter); background: var(--bg); border-bottom: 1px solid var(--line); font-size: .86rem; }
+.section-nav { position: sticky; top: var(--header-shown, var(--header-h)); transition: top .25s cubic-bezier(.2, .8, .2, 1); z-index: 15; display: flex; align-items: center; flex-wrap: wrap; gap: 6px 20px; max-width: 1120px; margin: 0 auto 20px; padding: 9px var(--gutter); background: var(--bg); border-bottom: 1px solid var(--line); font-size: .86rem; }
 /* The bar's label: the display face, a step heavier and darker than the links, set off by a hairline */
 .section-nav-label { flex: none; font: 600 .92rem/1 var(--font-display); color: var(--ink); padding-right: 14px; border-right: 1px solid var(--line-2); }
 .section-nav a { padding: 4px 0; color: var(--ink-2); text-decoration: none; border-bottom: 2px solid transparent; }
