@@ -2,7 +2,6 @@
 title: For He Is Thy Life
 blurb: "At Horeb the LORD wishes Israel had a heart to fear Him. Moses commands Israel to circumcise it, says the LORD has not given it, then promises the LORD will circumcise it Himself, “for thy life.” His covenant speech in Moab closes: the life is Him."
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, scripture-helps-deut, muhlestein-love-neighbor, gs-born-again, christofferson-first-commandment]
 ---
 

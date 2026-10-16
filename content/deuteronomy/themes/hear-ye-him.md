@@ -2,7 +2,6 @@
 title: Hear Ye Him
 blurb: "At Horeb Israel asked to hear God through a man: “speak thou unto us… and we will hear it, and do it.” The LORD approved and promised a prophet with His words in his mouth; the Church's footnotes carry the scene to the mount where the Father says of His Son, “hear ye him.”"
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, scripture-helps-deut, nelson-hear-him, gs-hearken]
 ---
 

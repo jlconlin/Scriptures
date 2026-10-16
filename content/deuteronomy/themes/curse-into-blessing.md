@@ -2,7 +2,6 @@
 title: He Turned the Curse into a Blessing
 blurb: Deuteronomy sets the curse before Israel as a choice, gives it twelve Amens, lets it overtake them, and then ends Moses' words with nothing but blessing; one verse in the laws says how a curse becomes a blessing, "because the LORD thy God loved thee," and Paul says who bore it.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, gs-curse, bd-balaam]
 ---
 

@@ -2,7 +2,6 @@
 title: Let It Suffice Thee
 blurb: The LORD hearkened to Moses when he prayed for Israel and would not hear him when he prayed for himself; he was given the sight of the land, and stood on the mount with the Savior, who in Gethsemane prayed a prayer the Father did not grant and was strengthened to finish His work.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, scripture-helps-num, cfm-ot-2026-20, oaks-1994-faith, oaks-2006-heals, hales-2019-answers, faust-2002-lifeline]
 ---
 

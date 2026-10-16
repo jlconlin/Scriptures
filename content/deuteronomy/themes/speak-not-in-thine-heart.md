@@ -2,7 +2,6 @@
 title: Speak Not Thou in Thine Heart
 blurb: Four times Moses gives Israel a sentence it might say in its heart, and each time the answer comes from outside it; in the Hebrew the one he forbids outright is “For my righteousness the LORD hath brought me in,” and in the Greek, Paul's righteousness of faith opens with the clause that forbids it, “Say not in thine heart.”
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, swete-lxx-deut, greek-nt, ludlow-paul-ot, bd-grace, renlund-goodness-greatness]
 ---
 
