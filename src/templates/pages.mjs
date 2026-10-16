@@ -243,7 +243,7 @@ const inTitle = (o) => (o.kind === 'volume' ? `the ${o.name}` : o.name);
 const here = (o) => (o.kind === 'volume' ? { volume: o.key } : { book: o }); // what layout() needs to place the page
 export const COLLECTIONS = {
   guides: { path: 'guides', crumb: 'Guides', indexTitle: (o) => `Guides to ${inTitle(o)}`, lede: 'Short background essays that make the chapters easier to read.', all: 'All guides', next: 'Next guide' },
-  themes: { path: 'themes', crumb: 'Themes', indexTitle: (o) => `Themes in ${inTitle(o)}`, lede: 'Ideas that run through many chapters, gathered in one place.', all: 'All themes', next: 'Next theme' },
+  themes: { path: 'themes', crumb: 'Themes', indexTitle: (o) => `Themes in ${inTitle(o)}`, lede: 'Ideas that run through many chapters, gathered in one place.', all: 'All themes' },
 };
 const sharedLede = (volume) => `Background that holds for more than one book of the ${volume.name}.`;
 const guideCard = (o, c, g) => `<a class="guide-card" href="/${o.slug}/${c.path}/${g.slug}/"><span class="guide-icon">${icon(g.icon ?? 'book')}</span><span class="guide-title">${esc(g.title)}</span><span class="guide-blurb">${esc(g.blurb)}</span></a>`;
@@ -283,7 +283,10 @@ export function renderGuide({ owner, guide, guides, sources, collection = COLLEC
   const book = owner;
   const c = collection;
   const idx = guides.findIndex((g) => g.slug === guide.slug);
-  const next = guides[idx + 1];
+  // Guides are read in order; themes have none, so a theme page has no “next” (author, 2026-10-16: “there really
+  // isn't an order to themes… Probably should drop next”).
+  const ordered = c !== COLLECTIONS.themes;
+  const next = ordered ? guides[idx + 1] : null;
   // Pages with [@key] citations get a numbered source list plus “Further reading” for the rest;
   // pages without citations keep a single list.
   const refs = guide.refs ?? [];
@@ -308,7 +311,7 @@ ${refList}
 </article>
 <nav class="wrap narrow pager">
   <a class="pager-prev" href="/${book.slug}/${c.path}/">${icon('arrowL')}<span><small>Back to</small>${esc(c.all)}</span></a>
-  ${next ? `<a class="pager-next" href="/${book.slug}/${c.path}/${next.slug}/"><span><small>${esc(c.next)}</small>${esc(next.title)}</span>${icon('arrowR')}</a>` : owner.kind === 'volume' ? `<a class="pager-next" href="/${owner.slug}/"><span><small>Ready?</small>Choose a book</span>${icon('arrowR')}</a>` : `<a class="pager-next" href="/${book.slug}/1/"><span><small>Ready?</small>Begin with ${esc(book.name)} 1</span>${icon('arrowR')}</a>`}
+  ${!ordered ? '' : next ? `<a class="pager-next" href="/${book.slug}/${c.path}/${next.slug}/"><span><small>${esc(c.next)}</small>${esc(next.title)}</span>${icon('arrowR')}</a>` : owner.kind === 'volume' ? `<a class="pager-next" href="/${owner.slug}/"><span><small>Ready?</small>Choose a book</span>${icon('arrowR')}</a>` : `<a class="pager-next" href="/${book.slug}/1/"><span><small>Ready?</small>Begin with ${esc(book.name)} 1</span>${icon('arrowR')}</a>`}
 </nav>`;
   return layout({ title: guide.title, description: guide.blurb, path: `/${book.slug}/${c.path}/${guide.slug}/`, body, bodyClass: 'page-guide', ...here(owner) });
 }
