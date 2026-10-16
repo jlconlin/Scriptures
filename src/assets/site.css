@@ -865,7 +865,7 @@ a.ref-internal { text-decoration-style: dotted; }
 .tl .tl-era span { display: inline-block; background: color-mix(in srgb, var(--tl-c, var(--muted)) 14%, var(--bg)); color: color-mix(in srgb, var(--tl-c, var(--muted)) 80%, var(--ink)); border: 1px solid color-mix(in srgb, var(--tl-c, var(--muted)) 40%, var(--line)); border-radius: 999px; padding: 3px 14px; font-size: .74rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; position: relative; z-index: 1; }
 .tl .tl-era a { color: inherit; text-decoration: none; }
 .tl .tl-era a:hover { text-decoration: underline; }
-.tl-key { display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: center; font-size: .8rem; color: var(--muted); margin-top: 14px; }
+.tl-key { display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: center; font-size: .8rem; color: var(--muted); margin: 0 0 16px; } /* above the timeline, so the colours are known before reading (author, 2026-10-16) */
 .tl-key span::before { content: ''; display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; background: var(--tl-c); }
 .tl-key .c-one { --tl-c: var(--k-scripture); } .tl-key .c-north { --tl-c: var(--k-structure); } .tl-key .c-south { --tl-c: var(--accent); }
 .tl-key .c-lehi { --tl-c: var(--tl-bom); } .tl-key .c-egypt { --tl-c: var(--k-history); } .tl-key .c-assyria { --tl-c: var(--k-christ); } .tl-key .c-babylon { --tl-c: var(--k-words); } .tl-key .c-persia { --tl-c: var(--k-prophets); } .tl-key .c-greece { --tl-c: var(--k-symbol); }
