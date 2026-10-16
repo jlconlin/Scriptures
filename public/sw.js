@@ -1,5 +1,5 @@
 // Line upon Line — the offline copy (DEVELOPMENT.md, “Reading offline”).
-// Nothing is saved until a reader asks for it on /offline/. Then every file of the site is fetched into one
+// Nothing is saved until a reader asks for it in the About page's “Reading offline” section. Then every file of the site is fetched into one
 // cache, and the build's offline.json (each file's URL and a hash of its contents) is kept beside it, so that
 // a later visit with a connection fetches only what has changed since. While online, pages still come from
 // the network first, so a saved copy never hides a newer page; offline, they come from the cache.
@@ -41,7 +41,7 @@ self.addEventListener('fetch', (e) => {
   })());
 });
 
-// Messages from /offline/: { do: 'save' } fetches what is missing or changed; { do: 'remove' } deletes the copy;
+// Messages from the About page: { do: 'save' } fetches what is missing or changed; { do: 'remove' } deletes the copy;
 // { do: 'status' } reports what is saved. Progress goes back to every open page as { type: 'progress', done, total }.
 const tell = async (msg) => (await self.clients.matchAll()).forEach((c) => c.postMessage(msg));
 let running = null;

@@ -1,4 +1,4 @@
-// Tests the offline copy (DEVELOPMENT.md, “Reading offline”) in a real browser: saves the site from /offline/,
+// Tests the offline copy (DEVELOPMENT.md, “Reading offline”) in a real browser: saves the site from the About page,
 // checks that a second save fetches nothing, that a page changed on the server is shown fresh while online, and
 // then stops the server and opens pages, an illustration, the fonts, search and a missing page with no network.
 // Playwright's own offline switch doesn't reach a service worker's requests, so the server is stopped instead.
@@ -42,10 +42,10 @@ const about = path.join(DIST, 'about/index.html');
 const original = await readFile(about, 'utf8');
 
 try {
-  await page.goto(`${B}/psalms/23/`);
-  check(!(await page.evaluate(() => navigator.serviceWorker.getRegistrations().then((r) => r.length))), 'nothing installed before /offline/ is opened');
-  await page.goto(`${B}/offline/`);
+  const installed = () => page.evaluate(() => navigator.serviceWorker.getRegistrations().then((r) => r.length));
+  await page.goto(`${B}/about/#reading-offline`);
   await until(/Nothing is saved|Saved on/);
+  check(!(await installed()), 'nothing installed by opening the About page', await status());
   await page.click('[data-offline="save"]');
   await until(/Saved on/);
   check(true, 'saved', await status());
@@ -75,6 +75,14 @@ try {
   check((await page.locator('.search-results li').count()) > 0, 'offline: search');
   await page.goto(`${B}/nowhere/`);
   check(/not found/i.test(await page.title()), 'offline: a page not on the site gets the saved 404 page');
+
+  server.listen(PORT);
+  await page.goto(`${B}/about/`);
+  await until(/Saved on/);
+  await page.click('[data-offline="remove"]');
+  await until(/Nothing is saved/);
+  await page.waitForTimeout(500);
+  check(!(await installed()) && !(await page.evaluate(() => caches.keys())).length, 'removing the copy deletes it and uninstalls the worker');
 } catch (e) {
   check(false, 'the test ran to the end', e.message);
 } finally {

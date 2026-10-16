@@ -17,7 +17,7 @@ import { renderFacsimile, facsimileUrl } from '../src/templates/facsimile.mjs';
 import { discoverBooks, discoverVolumes } from '../src/lib/books.mjs';
 import { VOLUMES, placeOf } from '../src/lib/canon.mjs';
 import { SITE, LIBRARY, VOLUMES_WITH_GUIDES } from '../src/site.mjs';
-import { renderHome, renderVolume, renderBookIndex, renderGuidesIndex, renderGuide, renderPage, renderSearch, renderOffline, render404, chapterGuide, teaserText, COLLECTIONS } from '../src/templates/pages.mjs';
+import { renderHome, renderVolume, renderBookIndex, renderGuidesIndex, renderGuide, renderPage, renderSearch, render404, chapterGuide, offlinePanel, teaserText, COLLECTIONS } from '../src/templates/pages.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 // BUILD_OUT=<dir> writes the site somewhere other than dist/, so several agents can each run the
@@ -346,9 +346,8 @@ export async function build({ quiet = false } = {}) {
   }
   search.push(...volumeSearch);
   const about = await readMd(r('content/about.md'));
-  await write('about/index.html', renderPage({ title: about.title, blurb: about.blurb, html: md(about.body).replace('<!-- chapter-guide -->', chapterGuide()), path: '/about/', updated: await lastRevised(r('content/about.md')) }));
+  await write('about/index.html', renderPage({ title: about.title, blurb: about.blurb, html: md(about.body).replace('<!-- chapter-guide -->', chapterGuide()).replace('<!-- offline -->', offlinePanel()), path: '/about/', updated: await lastRevised(r('content/about.md')) }));
   await write('search/index.html', renderSearch());
-  await write('offline/index.html', renderOffline());
   await write('404.html', render404());
   await write('search.json', JSON.stringify(search));
   const urls = [
