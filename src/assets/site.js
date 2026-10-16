@@ -822,7 +822,17 @@
       let current = 0;
       targets.forEach((t, i) => { if (t && t.getBoundingClientRect().top <= top) current = i; });
       links.forEach((a, i) => i === current ? a.setAttribute('aria-current', 'location') : a.removeAttribute('aria-current'));
+      // When the bar is one line that scrolls sideways, keep the current section in view (scrolling the bar only, not the page).
+      const a = links[current];
+      if (a && sectionNav.scrollWidth > sectionNav.clientWidth && current !== shown) {
+        shown = current;
+        const left = a.getBoundingClientRect().left - sectionNav.getBoundingClientRect().left + sectionNav.scrollLeft, right = left + a.offsetWidth;
+        if (left < sectionNav.scrollLeft + 16 || right > sectionNav.scrollLeft + sectionNav.clientWidth - 16) {
+          sectionNav.scrollTo({ left: Math.max(0, left - 24), behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+        }
+      }
     };
+    let shown = -1;
     sectionNav.addEventListener('click', (e) => {
       const a = e.target.closest('a');
       const target = a && document.getElementById(a.hash.slice(1));
