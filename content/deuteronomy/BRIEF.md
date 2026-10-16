@@ -10,7 +10,7 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository; `THEME-CANDIDAT
 
 `node scripts/status.mjs deuteronomy` prints what the repository shows; the history is `git log -- content/deuteronomy`. What a script can't see:
 
-- **The book is in preview**, with no chapter written. `book.yaml` is complete (divisions, intro, titles for all 34 chapters).
+- **The book is in preview** (2026-10-16), with all 34 chapters written, reviewed and read by Codex; the author has read none of it. Chapters 13–24 were reviewed by Sonnet 5.5 and chapters 13–34 had Codex's findings applied by Sonnet 5.5, a trial the author approved (2026-10-15: “Yes let’s try that”); the rest is Opus's. The illustration's first candidate and both theme lists wait for the author.
 - **The text is imported and checked** (“The text,” below). The Church's footnotes for every chapter are saved in `.cache/batch/deuteronomy/fn1.txt` to `fn34.txt`; read them instead of running `footnotes.mjs` again. Scripture Central's KnoWhys for each chapter are saved in `.cache/batch/deuteronomy/reports/knowhys/<n>.txt`.
 - **Numbers is not on the site** (“Numbers, told from Deuteronomy,” below).
 
