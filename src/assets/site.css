@@ -267,7 +267,9 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 .prose table { width: 100%; border-collapse: collapse; font-family: var(--font-ui); font-size: .92rem; margin: 1em 0 1.4em; display: block; overflow-x: auto; }
 .prose th, .prose td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
 .prose th { font-weight: 700; color: var(--ink-2); background: var(--bg-2); }
-.prose td.kjv { font: 1rem/1.5 var(--font-read); } /* quoted King James words, set like scripture elsewhere */
+/* A theme's arc table: its steps and quoted King James words are prose, in the reading serif; headings and references keep the interface face */
+.prose table.arc td { font: 1rem/1.5 var(--font-read); }
+.prose table.arc td.refs { font: .92rem/1.5 var(--font-ui); }
 .prose em { font-style: italic; }
 .prose strong { font-weight: 650; }
 .prose code { font-size: .9em; }
