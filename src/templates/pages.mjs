@@ -301,7 +301,7 @@ export function renderGuide({ owner, guide, guides, sources, collection = COLLEC
   <p class="lede">${esc(guide.blurb)}</p>
   ${lastRevised(guide.updated)}
 </div></header>
-${c === COLLECTIONS.guides ? headingNav(guide.html, refList ? [['sources', 'Sources']] : []) : ''}
+${headingNav(guide.html, refList ? [['sources', 'Sources']] : [])}
 <article class="wrap narrow guide prose prose-lg">
 ${guide.html}
 ${refList}
