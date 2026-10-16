@@ -51,6 +51,23 @@ This is an independent project by a member of The Church of Jesus Christ of Latt
 
 Nephi said the words of Isaiah are plain to “all those that are filled with the spirit of prophecy” ([[2 Ne. 25:4]]).
 
+## Reading offline
+
+You can save the whole site on your device, so that every chapter, note, guide and search works without a connection.
+
+Where your device can install the site as an app, do that first, open the app, and save the copy there:
+
+- **iPad or iPhone:** in Safari, tap the Share button, then *Add to Home Screen*.
+- **Mac:** in Safari, *File → Add to Dock*; in Chrome or Edge, the install button at the right end of the address bar.
+- **Android:** in Chrome, the ⋮ menu, then *Add to Home screen* or *Install app*.
+- **Windows, Chromebook or Linux:** in Chrome or Edge, the install button at the right end of the address bar.
+
+On an iPad or iPhone, and in Safari on a Mac, installing matters: Safari may clear a site’s saved data when it hasn’t been visited for a while, but it keeps an installed app’s. Elsewhere, saving in an ordinary browser tab is enough, and installing only gives the site its own icon and window; Firefox on a computer can’t install the site, but the copy works there in a tab.
+
+<!-- offline -->
+
+The copy is kept by your browser for this site only. While you are online, the site still loads its newest pages; when you are not, the saved ones open instead. Each time you visit with a connection, only what has changed is fetched again. Links that leave the site, such as the Gospel Library, the sources a note cites, and chapters not yet written here, still need a connection.
+
 ## License
 
 Commentary is shared under a [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. The code is MIT-licensed. The scripture text is in the public domain.

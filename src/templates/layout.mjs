@@ -43,7 +43,7 @@ export function layout({ title, description = SITE.description, path, body, body
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(fullTitle)}</title>
 <meta name="description" content="${esc(description)}">
-<link rel="canonical" href="${url}">
+${SITE.noindex ? '<meta name="robots" content="noindex">\n' : ''}<link rel="canonical" href="${url}">
 <meta property="og:title" content="${esc(fullTitle)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${url}">
@@ -52,6 +52,9 @@ export function layout({ title, description = SITE.description, path, body, body
 <meta name="theme-color" content="#f7f1e6" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#17181f" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/icon-180.png">
+<meta name="apple-mobile-web-app-title" content="${esc(SITE.name)}">
 <link rel="preload" href="/assets/fonts/literata.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/site.css?v=${SITE.version}">
 <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t;var f=localStorage.getItem('fontScale');if(f)document.documentElement.style.setProperty('--reader-scale',f)}catch(e){}</script>
@@ -79,7 +82,7 @@ ${scripturePreviews ? `<script type="application/json" id="scripture-preview-dat
     <div class="footer-small">
       <p>The commentary on this site was written with AI (Anthropic’s Claude) and checked against the scriptures. <a href="/about/#how-this-site-was-made">How it was made</a>.</p>
       <p>An independent study companion created by a member of The Church of Jesus Christ of Latter-day Saints. It is not an official publication of the Church. For the Church’s official resources, visit <a href="https://www.churchofjesuschrist.org/study?lang=eng" target="_blank" rel="noopener">churchofjesuschrist.org</a>.</p>
-      <p>Scripture text: King James Version (public domain), the Book of Mormon, 1920 edition (public domain), and the Pearl of Great Price, 1921 edition (public domain). Commentary © ${SITE.year} ${esc(SITE.author)}, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. <a href="/about/">About this site</a> · <a href="${SITE.repo}" target="_blank" rel="noopener">Source</a></p>
+      <p>Scripture text: King James Version (public domain), the Book of Mormon, 1920 edition (public domain), and the Pearl of Great Price, 1921 edition (public domain). Commentary © ${SITE.year} ${esc(SITE.author)}, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. <a href="/about/">About this site</a> · <a href="/about/#reading-offline">Read offline</a> · <a href="${SITE.repo}" target="_blank" rel="noopener">Source</a></p>
     </div>
   </div>
 </footer>

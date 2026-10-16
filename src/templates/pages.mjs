@@ -19,7 +19,7 @@ const ensignArt = `<svg class="hero-art" viewBox="0 0 320 220" aria-hidden="true
   <g fill="var(--art-people)"><circle cx="40" cy="200" r="3"/><circle cx="54" cy="196" r="3"/><circle cx="286" cy="206" r="3"/><circle cx="272" cy="202" r="3"/><circle cx="118" cy="186" r="3"/></g>
 </svg>`;
 
-const homeHeroArt = `<img class="hero-art home-hero-art" src="/assets/home-hero-concept.png" alt="An open book before a path winding toward light at the base of a mountain.">`;
+const homeHeroArt = `<img class="hero-art home-hero-art" src="/assets/home-hero-concept.jpg" alt="An open book before a path winding toward light at the base of a mountain.">`;
 
 // The home page's teaser cards. The “Show three more” button draws others in the browser from
 // notes.json, which carries teaserText for every note; site.js builds the same card, taking each
@@ -345,6 +345,21 @@ export function renderSearch() {
 </div></header>
 <div class="wrap narrow"><p class="search-status" aria-live="polite"></p><ol class="search-results"></ol></div>`;
   return layout({ title: 'Search', path: '/search/', body, bodyClass: 'page-search' });
+}
+
+// The Save button, status and progress of the offline copy (public/sw.js; DEVELOPMENT.md, “Reading offline”). The
+// About page places it where content/about.md has <!-- offline -->; site.js shows it and drives it, and without a
+// service worker the page says the browser can't keep a copy.
+export function offlinePanel() {
+  return `<div class="offline-panel" hidden>
+  <p class="offline-status" aria-live="polite">Checking what is saved…</p>
+  <progress class="offline-progress" max="1" value="0" hidden></progress>
+  <p class="offline-actions">
+    <button type="button" class="btn btn-primary" data-offline="save">Save for offline</button>
+    <button type="button" class="btn" data-offline="remove" hidden>Remove the saved copy</button>
+  </p>
+</div>
+<p class="offline-unsupported">This browser can’t keep a copy of the site. Try Safari, Chrome, Edge or Firefox.</p>`;
 }
 
 export function render404() {

@@ -10,7 +10,9 @@
 //                                                for when the configured one is at capacity
 //   node scripts/book-art.mjs approve <book> [--from <candidate.png>] [--force]
 //                                                after the author approves: copies the candidate (the
-//                                                newest one by default) to src/assets/<book>-book-art.png
+//                                                newest one by default) to src/assets/<book>-book-art.jpg
+//                                                (a JPEG at quality 85: a tenth of the PNG's size and no visible
+//                                                difference; made with sips on a Mac, ImageMagick elsewhere)
 //                                                and sets asset and status: approved in visual.yaml
 import { copyFile, mkdir, readFile, readdir, stat, writeFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
@@ -23,6 +25,16 @@ import { findBook } from '../src/lib/books.mjs';
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const rel = (f) => path.relative(ROOT, f);
 const fail = (m) => { console.error(`book-art: ${m}`); process.exit(1); };
+
+// Every book image is saved as a JPEG, which the offline copy of the site (DEVELOPMENT.md, “Reading offline”)
+// and every visitor download; a PNG from the image tool is ten times the size.
+const toJpeg = (src, dest) => {
+  const tries = process.platform === 'darwin'
+    ? [['sips', ['-s', 'format', 'jpeg', '-s', 'formatOptions', '85', src, '--out', dest]]]
+    : [['magick', [src, '-quality', '85', '-sampling-factor', '4:2:0', '-strip', dest]], ['convert', [src, '-quality', '85', '-sampling-factor', '4:2:0', '-strip', dest]]];
+  for (const [cmd, args] of tries) if (spawnSync(cmd, args, { stdio: 'ignore' }).status === 0 && existsSync(dest)) return;
+  fail(`could not convert ${rel(src)} to JPEG (needs sips on a Mac, or ImageMagick)`);
+};
 
 const argv = process.argv.slice(2);
 const opt = (name) => argv.includes(name) ? argv[argv.indexOf(name) + 1] : null;
@@ -89,10 +101,10 @@ if (command === 'prompt') {
   const source = from ? path.resolve(from) : (await candidates()).map((f) => path.join(outDir, f)).at(-1);
   if (!source || !existsSync(source)) fail(from ? `no file ${from}` : `no candidate in ${rel(outDir)}: run generate first`);
   if (!brief.alt) fail(`${rel(visualFile)} needs alt text that describes the approved image`);
-  const asset = `/assets/${slug}-book-art.png`;
+  const asset = `/assets/${slug}-book-art.jpg`;
   const dest = path.join(ROOT, 'src', asset);
   if (existsSync(dest) && !argv.includes('--force')) fail(`${rel(dest)} exists: pass --force to replace it`);
-  await copyFile(source, dest);
+  toJpeg(source, dest);
   // Edited as text so the brief's wording and layout stay as the director wrote them.
   let text = (await readFile(visualFile, 'utf8')).replace(/^(asset|status):.*\n/gm, '').trimEnd();
   text = /^alt:/m.test(text) ? text.replace(/^alt:/m, `asset: ${asset}\nalt:`) : `${text}\nasset: ${asset}`;

@@ -963,4 +963,86 @@
     const initial = new URL(location).searchParams.get('q');
     if (initial) { q.value = initial; run(); }
   }
+
+  // The offline copy (public/sw.js; DEVELOPMENT.md, “Reading offline”), saved from the About page's “Reading
+  // offline” section. The service worker is installed only when a reader presses Save, so a reader who never asks
+  // for a copy has nothing installed, and it is removed with the copy. Once a copy is saved, any page opened online
+  // brings it up to date at most once a day; only changed files are fetched.
+  const panel = $('.offline-panel');
+  if ('serviceWorker' in navigator && 'caches' in window) {
+    const day = 864e5;
+    if (!panel && store.get('offline') && navigator.onLine && Date.now() - Number(store.get('offlineChecked') ?? 0) > day) {
+      navigator.serviceWorker.ready.then((reg) => {
+        store.set('offlineChecked', String(Date.now()));
+        reg.active?.postMessage({ do: 'save' });
+      });
+    }
+    if (panel) {
+      panel.hidden = false;
+      $('.offline-unsupported').hidden = true;
+      const status = $('.offline-status', panel);
+      const bar = $('.offline-progress', panel);
+      const saveBtn = $('[data-offline="save"]', panel);
+      const removeBtn = $('[data-offline="remove"]', panel);
+      const mb = (n) => `${Math.round(n / 1e6)} MB`;
+      const when = (d) => new Date(`${d}T12:00`).toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' });
+      let size = null, saved = null, removing = false;
+      const show = (s, running) => {
+        if (running) return;
+        saved = s;
+        bar.hidden = true;
+        saveBtn.disabled = false;
+        removeBtn.hidden = !s;
+        saveBtn.textContent = s ? 'Check for changes' : 'Save for offline';
+        status.textContent = s
+          ? `Saved on this device: ${Object.keys(s.files).length} pages and files (${mb(s.bytes)}), the site as of ${when(s.built)}.`
+          : `Nothing is saved on this device yet.${size ? ` The copy takes about ${mb(size)}.` : ''}`;
+        if (s) store.set('offline', '1'); else store.del('offline');
+      };
+      fetch('../offline.json').then((r) => r.json()).then((l) => { size = l.bytes; if (!saved && !saveBtn.disabled) show(null); }).catch(() => {});
+      // The page's own worker, installing it first only when asked to.
+      const worker = async (install) => {
+        if (!(await navigator.serviceWorker.getRegistration('../'))) {
+          if (!install) return null;
+          await navigator.serviceWorker.register('../sw.js', { scope: '../' });
+        }
+        return (await navigator.serviceWorker.ready).active;
+      };
+      navigator.serviceWorker.addEventListener('message', async ({ data: m }) => {
+        if (m.type === 'progress') {
+          bar.hidden = false; bar.max = m.total || 1; bar.value = m.done;
+          status.textContent = m.total ? `Saving… ${m.done} of ${m.total}` : 'Already up to date.';
+        } else if (m.type === 'saved') {
+          show(m.status);
+          if (m.failed) status.textContent += ` ${m.failed} could not be fetched; press the button again to finish.`;
+          else if (m.fetched) status.textContent += ` (${m.fetched} fetched just now.)`;
+        } else if (m.type === 'status') {
+          show(m.status, m.running);
+          if (removing) { removing = false; (await navigator.serviceWorker.getRegistration('../'))?.unregister(); }
+        } else if (m.type === 'error') { show(null); status.textContent = `The copy could not be saved (${m.message}).`; }
+      });
+      worker(false).then((w) => (w ? w.postMessage({ do: 'status' }) : show(null)));
+      saveBtn.addEventListener('click', async () => {
+        if (!navigator.onLine) { status.textContent = 'You are offline; connect to save or update the copy.'; return; }
+        saveBtn.disabled = true;
+        status.textContent = 'Starting…';
+        try {
+          const w = await worker(true);
+          // Ask the browser not to clear the copy when space runs low (granted silently or not at all).
+          navigator.storage?.persist?.();
+          store.set('offlineChecked', String(Date.now()));
+          w.postMessage({ do: 'save' });
+        } catch (e) {
+          show(null);
+          status.textContent = `This browser would not keep a copy (${e.message}).`;
+        }
+      });
+      removeBtn.addEventListener('click', async () => {
+        const w = await worker(false);
+        if (!w) return show(null);
+        removing = true;
+        w.postMessage({ do: 'remove' });
+      });
+    }
+  }
 })();
