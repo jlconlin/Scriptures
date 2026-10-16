@@ -29,7 +29,7 @@ The chapter reviewers reported these leads; most are topics, not arcs, and you n
 ${leads}
 
 Write, plainly and briefly:
-1. Your proposals, ranked, as many as the book truly earns (a handful is a rule of thumb; a big book may need more, a small one fewer; one strong page beats several thin ones). For each: a short title (a phrase from the text is good); the passages in order; the arc in two or three sentences, saying what changes from the first to the last; how it leads to Christ, naming the scripture or Church source that makes the link and marking any link that would be the page's own; and what the reader would see that the chapter notes don't already show.
+1. Your proposals, ranked, as many as the book truly earns (a handful is a rule of thumb; a big book may need more, a small one fewer; one strong page beats several thin ones). For each: a short title (a phrase from the text is good); the passages in order; the arc in two or three sentences, saying what changes from the first to the last; how it leads to Christ, naming the scripture or Church source that makes the link and marking any link that would be the page's own; how it applies to the reader (STANDARDS.md section 8, "It applies the arc to the reader": where the same principle reaches a disciple's life now, as scripture and the prophets state it, never as a question to the reader); and what the reader would see that the chapter notes don't already show.
 2. "Considered and set aside": the other arcs you tested, one line each with the reason.
 
 Your final response is a short summary: how many you propose and their titles.`
