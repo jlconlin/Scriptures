@@ -228,6 +228,22 @@ const LDS_SPELLINGS = [
   [/blasphemeth the name of the Lord, shall be/g, 'blasphemeth the name of the LORD, shall be'], // Lev. 24:16
   [/\bjubile\b/g, 'jubilee'], // Lev. 25; 27
   [/thy God:for I am/g, 'thy God: for I am'], // Lev. 25:17
+  // Deuteronomy: hyphens in names, spellings, punctuation, and capitals (found by scripts/check-kjv.mjs).
+  [/\bKadeshbarnea\b/g, 'Kadesh-barnea'], // Deut. 1:2, 19; 2:14; 9:23
+  [/\bEziongaber\b/g, 'Ezion-gaber'], // Deut. 2:8
+  [/\bBashanhavothjair\b/g, 'Bashan-havoth-jair'], // Deut. 3:14
+  [/\bAshdothpisgah\b/g, 'Ashdoth-pisgah'], // Deut. 3:17
+  [/\bBethpeor\b/g, 'Beth-peor'], // Deut. 3:29; 4:46; 34:6
+  [/\bBaalpeor\b/g, 'Baal-peor'], // Deut. 4:3
+  [/\bKibrothhattaavah\b/g, 'Kibroth-hattaavah'], // Deut. 9:22
+  [/\bMeribahKadesh\b/g, 'Meribah-Kadesh'], // Deut. 32:51
+  [/of anything that dieth/g, 'of any thing that dieth'], // Deut. 14:21
+  [/take an aul, and thrust/g, 'take an awl, and thrust'], // Deut. 15:17
+  [/and enquired diligently, and,/g, 'and inquired diligently, and,'], // Deut. 17:4
+  [/or a witch\./g, 'or a witch,'], // Deut. 18:10
+  [/no might in thine hand:/g, 'no might in thine hand.'], // Deut. 28:32
+  [/When the Most High divided/g, 'When the most High divided'], // Deut. 32:8
+  [/and the Lord shall cover him/g, 'and the LORD shall cover him'], // Deut. 33:12
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 
