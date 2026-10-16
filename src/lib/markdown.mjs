@@ -24,8 +24,21 @@ marked.use({
 export const unknownRefs = new Set();
 const report = (r) => unknownRefs.add(r);
 
+// A table column headed “The words” quotes the King James text, so its cells are set in the reading serif like
+// scripture everywhere else (class "kjv"; author, 2026-10-16).
+const markScriptureColumns = (html) =>
+  html.replace(/<table>([\s\S]*?)<\/table>/g, (table, inner) => {
+    const heads = [...(inner.match(/<thead>([\s\S]*?)<\/thead>/)?.[1] ?? '').matchAll(/<th[^>]*>([\s\S]*?)<\/th>/g)].map((m) => m[1].replace(/<[^>]+>/g, '').trim());
+    const col = heads.indexOf('The words');
+    if (col < 0) return table;
+    return table.replace(/<tr>([\s\S]*?)<\/tr>/g, (row, cells) => {
+      let i = -1;
+      return `<tr>${cells.replace(/<td([^>]*)>/g, (td, attrs) => (++i === col ? `<td${attrs} class="kjv">` : td))}</tr>`;
+    });
+  });
+
 /** Render block markdown, with [[scripture refs]] linked. */
-export const md = (s = '') => marked.parse(linkRefs(String(s).trim(), report));
+export const md = (s = '') => markScriptureColumns(marked.parse(linkRefs(String(s).trim(), report)));
 
 /** Render inline markdown (no wrapping <p>). */
 export const mdInline = (s = '') => marked.parseInline(linkRefs(String(s).trim(), report));
