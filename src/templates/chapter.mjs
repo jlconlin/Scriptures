@@ -80,7 +80,7 @@ export function noteHtml(n, sources) {
     <button type="button" class="note-expand" data-expand-note="${n.id}">Expand</button>
     <button type="button" class="note-close" aria-label="Close note" data-close="${n.id}">×</button>
   </div>
-  <h4 class="note-title">${mdInline(n.title ?? (n.phrase ? `“${n.phrase}”` : 'A closer look'))}</h4>
+  <h3 class="note-title">${mdInline(n.title ?? (n.phrase ? `“${n.phrase}”` : 'A closer look'))}</h3>
   <p class="note-teaser">${esc(teaser(n.body))}</p>
   <div class="note-body prose">${md(n.body)}</div>
   ${noteSources(src)}
@@ -97,7 +97,7 @@ function bomNoteHtml(b, sources) {
     <button type="button" class="note-expand" data-expand-note="${b.id}">Expand</button>
     <button type="button" class="note-close" aria-label="Close" data-close="${b.id}">×</button>
   </div>
-  <h4 class="note-title">${mdInline(`[[${b.ref}]]`)} reads differently</h4>
+  <h3 class="note-title">${mdInline(`[[${b.ref}]]`)} reads differently</h3>
   <p class="bom-text">${b.html}</p>
   <p class="bom-legend"><ins>added or changed in the Book of Mormon</ins> <del>in the King James Version only</del></p>
   ${x ? `<h5 class="bom-explain-title">${mdInline(x.title ?? 'Why it matters')}</h5>
@@ -245,17 +245,14 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
       <p class="eyebrow">${esc(book.unit?.singular ?? book.name)} <span class="ch-num">${n}</span></p>
       <h1>${mdInline(ch.title)}</h1>
       ${ch.tagline ? `<p class="tagline">${mdInline(ch.tagline)}</p>` : ''}
-      ${lastRevised(ch.updated)}
-      <div class="dial-wrap"><div class="dial-context"><span>${book.unit ? `The ${esc(unitPlural(book))}` : `${esc(book.name)} chapters`}</span><strong>${esc(book.unit?.singular ?? 'Chapter')} ${n} of ${book.chapters.length}</strong></div><div class="dial-label" aria-hidden="true" hidden></div><div class="dial" style="--n:${book.chapters.length}" aria-label="${book.unit ? `The ${esc(unitPlural(book))}` : `Chapters of ${esc(book.name)}`}">${dial}</div></div>
-      <nav class="chapter-steps" aria-label="Adjacent chapters">${prev ? `<a href="/${book.slug}/${prev.chapter}/">${icon('arrowL')}${esc(chapterLabel(book, prev.chapter))}</a>` : '<span></span>'}${next ? `<a href="/${book.slug}/${next.chapter}/">${esc(chapterLabel(book, next.chapter))}${icon('arrowR')}</a>` : ''}</nav>
+      <div class="dial-wrap"><nav class="dial-context chapter-steps" aria-label="Adjacent chapters">${prev ? `<a href="/${book.slug}/${prev.chapter}/">${icon('arrowL')}${esc(chapterLabel(book, prev.chapter))}</a>` : '<span></span>'}<strong>${esc(book.unit?.singular ?? 'Chapter')} ${n} of ${book.chapters.length}</strong>${next ? `<a href="/${book.slug}/${next.chapter}/">${esc(chapterLabel(book, next.chapter))}${icon('arrowR')}</a>` : '<span></span>'}</nav><div class="dial-label" aria-hidden="true" hidden></div><div class="dial" style="--n:${book.chapters.length}" aria-label="${book.unit ? `The ${esc(unitPlural(book))}` : `Chapters of ${esc(book.name)}`}">${dial}</div></div>
       <div class="hero-meta">
         ${ch.when ? `<span>${icon('history')} ${mdInline(ch.when)}</span>` : ''}
         ${ch.parallels?.some((p) => p.primary) ? `<span>${icon('restoration')} Also in ${mdInline(ch.parallels.filter((p) => p.primary).map((p) => `[[${p.ref}]]`).join(', '))}</span>` : ''}
         ${(book.facsimiles ?? []).filter((f) => f.with === n).map((f) => `<span>${icon('symbol')} <a href="/${book.slug}/facsimile-${f.n}/">Facsimile ${f.n}</a></span>`).join('')}
         <span>${icon('book')} <a href="${churchUrl}" target="_blank" rel="noopener">Read with footnotes in Gospel Library</a></span>
+        ${lastRevised(ch.updated, 'span')}
       </div>
-
-      <a class="chapter-start" href="#reading">Start reading ${icon('arrowR')}</a>
     </div>
   </header>
 

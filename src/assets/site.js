@@ -621,11 +621,20 @@
     if ('ResizeObserver' in window) new ResizeObserver(scheduleLayout).observe(reader);
     document.fonts?.ready.then(scheduleLayout);
 
-    const setNote = (note, open, { scroll = false } = {}) => {
+    // In the margin only one note is open at a time: opening another shrinks the earlier ones to cards (title and
+    // first sentence), so the stack stays short enough for every note to sit beside its phrase. A card reopens on a
+    // tap; its × or a second tap on the phrase puts it away. Narrow screens open notes beneath their verses, all at once.
+    const kept = new Set();
+    const setNote = (note, open, { scroll = false, dismiss = false } = {}) => {
       if (!note) return;
-      const asCard = !open && related && !hidden.has(kindOf(note));
+      if (open) kept.add(note);
+      else if (dismiss) kept.delete(note);
+      const asCard = !open && !hidden.has(kindOf(note)) && (related || (wide.matches && kept.has(note)));
       note.hidden = !open && !asCard;
       note.classList.toggle('is-card', asCard);
+      note.classList.toggle('is-kept', asCard && !related);
+      if (asCard) note.tabIndex = 0;
+      else note.removeAttribute('tabindex');
       triggersFor(note.id).forEach((b) => b.setAttribute('aria-expanded', String(open)));
       if (open) lastOpened = note;
       else if (lastOpened === note) lastOpened = null;
@@ -640,6 +649,11 @@
     };
 
     const collapseOthers = (keep) => $$('.note', reader).forEach((n) => { if (n !== keep && isOpen(n)) setNote(n, false); });
+    // Crossing the margin breakpoint: cards belong to the margin, so they appear or go away with it.
+    wide.addEventListener('change', () => {
+      if (wide.matches && lastOpened && isOpen(lastOpened)) collapseOthers(lastOpened);
+      $$('.note', reader).forEach((n) => { if (!isOpen(n)) setNote(n, false); });
+    });
 
     // Hovering a note highlights the phrase it belongs to.
     $$('.note', reader).forEach((n) => {
@@ -652,21 +666,29 @@
       if (trig) {
         const note = document.getElementById(trig.dataset.note);
         const open = !isOpen(note);
-        if (open && related) collapseOthers(note);
-        setNote(note, open, { scroll: true });
+        if (open && (related || wide.matches)) collapseOthers(note);
+        setNote(note, open, { scroll: true, dismiss: !open });
+        return;
+      }
+      const close = e.target.closest('[data-close]');
+      if (close) {
+        const note = document.getElementById(close.dataset.close);
+        setNote(note, false, { dismiss: true });
+        triggersFor(note.id)[0]?.focus();
         return;
       }
       const card = e.target.closest('.note.is-card');
       if (card && !e.target.closest('a')) {
         collapseOthers(card);
         setNote(card, true);
-        return;
       }
-      const close = e.target.closest('[data-close]');
-      if (close) {
-        const note = document.getElementById(close.dataset.close);
-        setNote(note, false);
-        triggersFor(note.id)[0]?.focus();
+    });
+    // A card is reachable from the keyboard too.
+    reader.addEventListener('keydown', (e) => {
+      if ((e.key === 'Enter' || e.key === ' ') && e.target.matches('.note.is-card')) {
+        e.preventDefault();
+        collapseOthers(e.target);
+        setNote(e.target, true);
       }
     });
     // Phrases are spans with role="button"; give them a button's keyboard behavior.
@@ -679,7 +701,7 @@
     reader.addEventListener('keydown', (e) => {
       if (e.key !== 'Escape') return;
       const note = e.target.closest?.('.note');
-      if (note) { setNote(note, false); triggersFor(note.id)[0]?.focus(); }
+      if (note) { setNote(note, false, { dismiss: true }); triggersFor(note.id)[0]?.focus(); }
     });
 
     // Deep links: #n53-4 opens that note; #v5 flashes the verse.
@@ -712,9 +734,8 @@
       store.set('hiddenKinds', JSON.stringify([...hidden]));
       if (notesResetBtn) {
         const allVisible = kindFilters.every((b) => !hidden.has(b.dataset.kind));
-        const label = allVisible ? 'Hide all note kinds' : 'Show all note kinds';
-        notesResetBtn.setAttribute('aria-label', label);
-        notesResetBtn.setAttribute('title', label);
+        notesResetBtn.querySelector('span').textContent = allVisible ? 'Hide all' : 'Show all';
+        notesResetBtn.setAttribute('title', allVisible ? 'Hide every kind of note, for the text alone' : 'Show every kind of note');
       }
     };
     kindFilters.forEach((b) =>

@@ -14,7 +14,7 @@
   --surface: #fffcf6;
   --ink: #232634;
   --ink-2: #464a5c;
-  --muted: #6b6f80;
+  --muted: #5a5e70; /* 4.5:1 or better on --bg, --bg-2 and the tinted chapter hero */
   --line: #e2d7c4;
   --line-2: #d3c5ad;
   --accent: #c0562b;
@@ -284,7 +284,7 @@ a.ref-internal { text-decoration-style: dotted; }
 .k-bom { --k: var(--k-bom); }
 .kind-chip {
   display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px 4px 8px; border-radius: 999px;
-  font: 650 .78rem/1.2 var(--font-ui); color: var(--k); background: color-mix(in srgb, var(--k) 12%, transparent);
+  font: 650 .78rem/1.2 var(--font-ui); color: color-mix(in srgb, var(--k) 82%, var(--ink)); background: color-mix(in srgb, var(--k) 12%, transparent);
   border: 1px solid color-mix(in srgb, var(--k) 25%, transparent); white-space: nowrap;
 }
 .kind-chip .icon { width: 15px; height: 15px; }
@@ -479,9 +479,8 @@ a.ref-internal { text-decoration-style: dotted; }
 .ch-num { font: 600 1rem var(--font-display); letter-spacing: 0; }
 .chapter-hero h1 { font-size: clamp(2rem, 7.5vw, 3.2rem); font-weight: 600; margin-bottom: .25em; max-width: 22ch; }
 .tagline { font: italic 1.12rem/1.5 var(--font-read); color: var(--ink-2); margin: 0 0 18px; max-width: 60ch; }
-.chapter-hero .last-revised { margin: -8px 0 18px; }
 .dial-wrap { position: relative; max-width: 640px; margin: 0 0 16px; }
-.dial-context { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 7px; font-size: .78rem; color: var(--muted); }
+.dial-context { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 7px; font-size: .82rem; color: var(--muted); }
 .dial-context strong { color: var(--ink-2); font-weight: 700; font-variant-numeric: tabular-nums; }
 .dial { display: grid; grid-template-columns: repeat(var(--n, 66), 1fr); gap: 2px; height: 14px; }
 .dial-label { position: absolute; bottom: calc(100% + 10px); left: 0; transform: translateX(-50%); white-space: nowrap; pointer-events: none; z-index: 5;
@@ -495,8 +494,8 @@ a.ref-internal { text-decoration-style: dotted; }
 .hero-meta { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: .88rem; color: var(--ink-2); }
 .hero-meta span { display: inline-flex; gap: 6px; align-items: center; }
 .hero-meta .icon { color: var(--div); }
-.chapter-start { display: inline-flex; align-items: center; gap: 5px; margin-top: 12px; color: var(--accent-ink); font-weight: 700; font-size: .92rem; text-decoration: none; }
-.chapter-start:hover { text-decoration: underline; text-underline-offset: 3px; }
+.hero-meta { margin-bottom: 6px; }
+.hero-meta .last-revised { margin: 0; color: var(--muted); font-size: .82rem; }
 
 .page-chapter { --main-w: var(--read-w); }
 .chapter-hero .wrap, .chapter-grid { max-width: calc(var(--main-w) + 2 * var(--gutter)); }
@@ -534,6 +533,8 @@ a.ref-internal { text-decoration-style: dotted; }
   background: color-mix(in srgb, var(--bg) 94%, transparent); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line); display: grid; gap: 7px;
 }
+.tool-group { display: flex; align-items: flex-start; gap: 10px; min-width: 0; }
+.group-label { flex: none; width: 3.1rem; font: 700 .78rem/36px var(--font-ui); color: var(--muted); }
 .legend { display: flex; flex-wrap: wrap; gap: 6px; min-width: 0; padding: 1px 0; }
 .legend::-webkit-scrollbar { display: none; }
 .legend .filter { cursor: pointer; min-height: 34px; font-size: .8rem; }
@@ -541,14 +542,17 @@ a.ref-internal { text-decoration-style: dotted; }
 .legend .count { opacity: .7; font-weight: 600; }
 .reader-actions { display: flex; flex-wrap: wrap; gap: 6px; }
 .tool { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line-2); background: var(--surface); color: var(--ink-2); font: 600 .82rem var(--font-ui); cursor: pointer; }
-.tool[aria-pressed='true'] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.tool .icon { width: 15px; height: 15px; }
+/* A setting that is on shows a check on a tint of the accent; off keeps the check's space so the button doesn't move. */
+.reader-actions .tool[aria-pressed] .icon { opacity: 0; transition: opacity .15s; }
+.reader-actions .tool[aria-pressed] { padding-left: 9px; }
+.tool[aria-pressed='true'] { background: color-mix(in srgb, var(--accent) 11%, var(--surface)); color: var(--accent-ink); border-color: color-mix(in srgb, var(--accent) 45%, var(--line-2)); }
+.reader-actions .tool[aria-pressed='true'] .icon { opacity: 1; }
 .tool .aa { font-family: var(--font-read); font-weight: 600; font-size: .95rem; }
-.reader-actions .tool span:not(.aa) { display: none; }
-.reader-actions .tool { padding: 6px 9px; min-width: 36px; justify-content: center; }
+.tool-quiet { background: transparent; border-color: transparent; color: var(--accent-ink); }
+.tool-quiet:hover { border-color: var(--line-2); }
 @media (min-width: 720px) {
   .reader-bar { margin-left: 0; margin-right: 0; border-radius: 0 0 12px 12px; }
-  .reader-actions .tool span:not(.aa) { display: inline; }
-  .reader-actions .tool { padding: 6px 12px; }
 }
 .reader-hint { font-size: .85rem; color: var(--muted); margin: 10px 0 0; }
 
@@ -600,7 +604,7 @@ a.ref-internal { text-decoration-style: dotted; }
 @keyframes noteIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
 .note-head { display: flex; align-items: center; gap: 6px; margin-bottom: 8px; }
 .note-link { margin-left: auto; color: var(--muted); text-decoration: none; font-weight: 700; width: 32px; height: 32px; display: grid; place-items: center; border-radius: 8px; }
-.note-close { border: 0; background: transparent; font-size: 1.5rem; line-height: 1; color: var(--muted); width: 36px; height: 36px; border-radius: 8px; cursor: pointer; }
+.note-close { border: 0; background: transparent; font: 400 1.5rem/1 var(--font-ui); line-height: 1; color: var(--muted); width: 36px; height: 36px; border-radius: 8px; cursor: pointer; }
 .note-close:hover, .note-link:hover { background: var(--bg-2); }
 .note-title { font-size: 1.12rem; margin: 0 0 6px; }
 .note-body { font-size: 1em; }
@@ -618,6 +622,11 @@ a.ref-internal { text-decoration-style: dotted; }
 .note.is-card .note-body, .note.is-card .note-sources, .note.is-card .bom-text, .note.is-card .bom-legend, .note.is-card .bom-explain-title { display: none; }
 .note.is-card .note-title { font-size: .98rem; margin: 0 0 2px; }
 .note.is-card .note-teaser { display: block; margin: 0; font-size: .86em; line-height: 1.45; color: var(--ink-2); }
+/* A note set aside in the margin (one opened after it) keeps its × so it can be put away without reopening it. */
+.note.is-card.is-kept .note-close { display: grid; place-items: center; width: 32px; height: 32px; margin: -6px -6px -6px auto; font-size: 1.3rem; }
+.note.is-card.is-kept .note-teaser { display: none; } /* already read; the title is enough to find it again */
+.note.is-card.is-kept .note-title { margin: 0; }
+.note.is-card:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
 .phr.is-linked:not([aria-expanded='true']) { background: linear-gradient(to top, color-mix(in srgb, var(--k) 32%, transparent) 38%, transparent 38%); }
 .phr.is-linked[aria-expanded='true'] { background: color-mix(in srgb, var(--k) 20%, transparent); }
 .marker.is-linked { outline: 2px solid var(--k); outline-offset: 1px; }
@@ -626,7 +635,8 @@ a.ref-internal { text-decoration-style: dotted; }
    site.js sets each open note's `top` and keeps them from overlapping. */
 @media (min-width: 880px) {
   /* The notes column and gap shrink with the window; the text column takes what is left, up to --main-w. */
-  .page-chapter { --margin-gap: clamp(24px, 3vw, 40px); --margin-w: clamp(260px, 24vw, 340px); }
+  /* The notes column takes the room the window has to spare, up to 420px, so a long note needs less height. */
+  .page-chapter { --margin-gap: clamp(24px, 3vw, 40px); --margin-w: clamp(260px, 100vw - var(--main-w) - var(--margin-gap) - 2 * var(--gutter) - 96px, 420px); }
   .chapter-hero .wrap, .chapter-grid { max-width: calc(var(--main-w) + var(--margin-gap) + var(--margin-w) + 2 * var(--gutter)); }
   .chapter-main { max-width: min(var(--main-w), 100% - var(--margin-gap) - var(--margin-w)); }
   .reader { position: relative; }
@@ -700,7 +710,7 @@ a.ref-internal { text-decoration-style: dotted; }
 .map-figure figcaption { font-size: .88rem; color: var(--muted); margin-top: 8px; font-family: var(--font-ui); }
 
 /* ---------- Book of Mormon readings ---------- */
-.bom-mark { width: auto; height: 22px; padding: 0 7px; border-radius: 6px; font: 800 .62rem/22px var(--font-ui); letter-spacing: .04em; vertical-align: 2px; }
+.bom-mark { width: auto; height: 24px; padding: 0 7px; border-radius: 6px; font: 800 .7rem/24px var(--font-ui); letter-spacing: .04em; vertical-align: 2px; }
 .bom-text { font-family: var(--font-read); font-size: 1.05em; line-height: 1.75; margin: 0; }
 .bom-text ins, .bom-legend ins { text-decoration: none; background: color-mix(in srgb, var(--k-structure) 22%, transparent); border-bottom: 2px solid var(--k-structure); border-radius: 3px; padding: 0 2px; }
 .bom-text del, .bom-legend del { color: var(--muted); text-decoration-color: color-mix(in srgb, var(--k-christ) 70%, transparent); text-decoration-thickness: 1.5px; }
@@ -734,10 +744,10 @@ a.ref-internal { text-decoration-style: dotted; }
 .section-nav { position: sticky; top: var(--header-h); z-index: 15; display: flex; align-items: center; flex-wrap: wrap; gap: 6px 20px; max-width: 1120px; margin: 0 auto 20px; padding: 9px var(--gutter); background: var(--bg); border-bottom: 1px solid var(--line); font-size: .86rem; }
 .section-nav > span { color: var(--muted); font-size: .75rem; }
 .section-nav a { padding: 4px 0; color: var(--ink-2); text-decoration: none; border-bottom: 2px solid transparent; }
-.section-nav a:hover, .section-nav a[aria-current='location'] { color: var(--accent-ink); border-bottom-color: var(--accent); }
+@media (hover: hover) { .section-nav a:hover { color: var(--accent-ink); border-bottom-color: var(--accent); } } /* on touch a tapped link would keep :hover and look current */
+.section-nav a[aria-current='location'] { color: var(--accent-ink); border-bottom-color: var(--accent); }
 .chapter-grid > .section-nav { padding-inline: 0; }
-.chapter-steps { display: flex; justify-content: space-between; gap: 16px; max-width: 640px; margin: 10px 0 16px; font-size: .82rem; }
-.chapter-steps a { display: inline-flex; gap: 5px; align-items: center; text-decoration: none; }
+.chapter-steps a { display: inline-flex; gap: 5px; align-items: center; min-height: 32px; text-decoration: none; }
 .home-about { align-self: center; font-size: .9rem; }
 .note-expand { border: 0; background: none; padding: 4px 0; color: var(--accent-ink); font: 600 .78rem var(--font-ui); cursor: pointer; }
 .note.is-card .note-expand { display: none; }
@@ -784,6 +794,22 @@ a.ref-internal { text-decoration-style: dotted; }
   .note-dialog { padding: 18px; }
 }
 @media print { .section-nav, .chapter-steps, .note-expand, .note-dialog { display: none !important; } }
+
+/* Touch screens (the iPad): every control a finger uses gets a 44px target. Small inline controls in the text
+   (verse numbers, markers) keep their look and get an invisible larger hit area instead, so the lines don't spread. */
+@media (pointer: coarse) {
+  .tool, .legend .filter { min-height: 44px; }
+  .group-label { line-height: 44px; }
+  .note-link, .note-close { width: 44px; height: 44px; }
+  .note-expand { min-height: 44px; padding: 0 10px; }
+  .note.is-card.is-kept .note-close { width: 44px; height: 44px; margin-block: -12px; }
+  .chapter-steps a { min-height: 44px; }
+  .section-nav a { padding: 9px 0; } /* the bar stays pinned while reading, so it grows only a little */
+  .dial { height: 22px; }
+  .vnum, .marker { position: relative; }
+  .vnum::after { content: ''; position: absolute; inset: -12px -2px -12px -10px; }
+  .marker::after { content: ''; position: absolute; inset: -10px -4px; }
+}
 
 /* A two-sided timeline (Israel's Story in One Place): Israel on the left, the nations on the right, a date rail between;
    color says which kingdom or empire (c-one, c-north, c-south; c-egypt, c-assyria, c-babylon, c-persia, c-greece), and an era band takes its power's color. */

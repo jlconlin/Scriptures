@@ -18,14 +18,19 @@ export function headingNav(html, extra = []) {
   return sectionNav([...items, ...extra]);
 }
 
+// Two labelled groups, so a reader can tell the filters from the view settings without hovering (iPad has no hover):
+// “Notes” holds one chip per kind and a button that hides or shows them all; “View” holds the page's display settings.
 export function readingTools(kinds, counts, { plain = true } = {}) {
   return `<div class="reader-bar" id="reading" role="toolbar" aria-label="Reading tools">
-  <div class="legend">${kinds.map((k) => `<button type="button" class="kind-chip k-${k} filter" aria-pressed="true" data-kind="${k}" title="${esc(KINDS[k].blurb)}">${icon(k)}${esc(KINDS[k].short)} <span class="count">${counts[k]}</span></button>`).join('')}</div>
-  <div class="reader-actions">
-    <button type="button" class="tool tool-notes" data-action="notes-reset" aria-label="Hide all note kinds" title="Hide all note kinds">${icon('symbol')}</button>
-    ${plain ? `<button type="button" class="tool" data-action="toggle-plain" aria-pressed="true" title="Show or hide the ${esc(sectionTitle('plain'))} summaries" aria-label="Show or hide the ${esc(sectionTitle('plain'))} summaries">${icon('text')}</button>` : ''}
-    <button type="button" class="tool" data-action="related" aria-pressed="false" title="Show every note as a card beside the text">${icon('panel')}<span>Related</span></button>
-    <button type="button" class="tool" data-action="font" title="Text size" aria-label="Change text size"><span class="aa">Aa</span></button>
+  <div class="tool-group" role="group" aria-labelledby="tools-notes"><span class="group-label" id="tools-notes">Notes</span>
+    <div class="legend">${kinds.map((k) => `<button type="button" class="kind-chip k-${k} filter" aria-pressed="true" data-kind="${k}" title="${esc(KINDS[k].blurb)}">${icon(k)}${esc(KINDS[k].short)} <span class="count">${counts[k]}</span></button>`).join('')}<button type="button" class="tool tool-quiet" data-action="notes-reset"><span>Hide all</span></button></div>
+  </div>
+  <div class="tool-group" role="group" aria-labelledby="tools-view"><span class="group-label" id="tools-view">View</span>
+    <div class="reader-actions">
+    ${plain ? `<button type="button" class="tool" data-action="toggle-plain" aria-pressed="true" title="Show or hide the ${esc(sectionTitle('plain'))} summaries">${icon('check')}<span>Plain words</span></button>` : ''}
+    <button type="button" class="tool" data-action="related" aria-pressed="false" title="Show every note as a card beside the text">${icon('check')}<span>Related</span></button>
+    <button type="button" class="tool" data-action="font" title="Text size"><span class="aa" aria-hidden="true">Aa</span><span>Text size</span></button>
+    </div>
   </div></div>`;
 }
 

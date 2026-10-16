@@ -12,10 +12,10 @@ export const logo = `<svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="tru
 </svg>`;
 
 /** A quiet content timestamp. Dates are ISO strings from the source file's last content commit. */
-export function lastRevised(date) {
+export function lastRevised(date, tag = 'p') {
   if (!date) return '';
   const display = new Intl.DateTimeFormat('en-US', { dateStyle: 'long', timeZone: 'UTC' }).format(new Date(`${date}T00:00:00Z`));
-  return `<p class="last-revised">Last revised <time datetime="${date}">${display}</time></p>`;
+  return `<${tag} class="last-revised">Last revised <time datetime="${date}">${display}</time></${tag}>`;
 }
 
 /**
