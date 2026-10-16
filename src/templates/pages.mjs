@@ -279,7 +279,20 @@ function referenceLetter(index) {
   return label;
 }
 
-export function renderGuide({ owner, guide, guides, sources, collection = COLLECTIONS.guides }) {
+// A paragraph that opens with a bold term (“**Rabshakeh.** …”, a glossary entry) gets an id from the term, so a
+// chapter or search can link straight to it (#rabshakeh; author, 2026-10-16). An id already on the page is not reused.
+function anchorEntries(html) {
+  const used = new Set([...html.matchAll(/\bid="([^"]+)"/g)].map((m) => m[1]));
+  return html.replace(/<p><strong>([^<]+?)<\/strong>/g, (p, term) => {
+    const id = term.toLowerCase().replace(/&[a-z]+;|[’'“”"]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    if (!id || used.has(id)) return p;
+    used.add(id);
+    return `<p id="${id}"><strong>${term}</strong>`;
+  });
+}
+
+export function renderGuide({ owner, guide: page, guides, sources, collection = COLLECTIONS.guides }) {
+  const guide = { ...page, html: anchorEntries(page.html) };
   const book = owner;
   const c = collection;
   const idx = guides.findIndex((g) => g.slug === guide.slug);
