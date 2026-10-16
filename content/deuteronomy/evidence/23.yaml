@@ -135,11 +135,26 @@ claims:
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/26?lang=eng'
     quote: 'And I will walk among you, and will be your God, and ye shall be my people.'
+  - where: 'note 23:14 “Why a war camp must be clean”'
+    claim: 'The verb “walketh” in 23:14 (Hebrew 23:15) is halak (lemma 1980) in the hithpael participle'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'מִתְהַלֵּ֣ךְ'
+  - where: 'note 23:14 “Why a war camp must be clean”'
+    claim: 'The same verb in the same (hithpael) stem in Lev. 26:12'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'וְ/הִתְהַלַּכְתִּי֙'
   - where: 'note 23:15 “Refuge for a runaway slave”'
     claim: 'One older reading: a slave fled from a foreign country and a harsh heathen master'
     key: keil-deuteronomy
     url: 'https://biblehub.com/commentaries/kad/deuteronomy/23.htm'
     quote: 'The reference is to a slave who had fled to them from a foreign country, on account of the harsh treatment which he had received from his heathen master.'
+  - where: 'note 23:18 “The hire of a whore and the price of a dog”'
+    claim: 'BDB: dog was the name given to male temple prostitutes in this verse'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3611.htm'
+    quote: '׳כ was name given to male temple-prostitutes Deuteronomy 23:19 (see Dr; compare קָדֵשׁ).'
   - where: 'note 23:18 “The hire of a whore and the price of a dog”'
     claim: 'BDB: qadesh, temple-prostitute (man), in Deut. 23:18 (Hebrew numbering)'
     key: bdb
