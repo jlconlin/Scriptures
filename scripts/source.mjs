@@ -18,6 +18,7 @@
 //                                                       --verse is the same; a label works: --para headnote); --all prints everything
 //        node scripts/source.mjs <url> --notes          the footnotes or endnotes: marker, the paragraphs citing it, text, links
 //        --max N     most paragraphs --find prints (default 20)      --fresh   refetch
+//        --offline   read a saved snapshot without fetching or refreshing it; --cache-dir <path> may select another checkout's cache
 //        node scripts/source.mjs <url> --para 12,14 --append <dossier> --key <key> [--claim "…"] [--under "4"]
 //                                                       writes those paragraphs into a research dossier as rows (claim / key / URL /
 //                                                       where on the page, then the text verbatim) and prints one line, so a quote
@@ -33,6 +34,10 @@ const argv = process.argv.slice(2);
 const flag = (name) => { const i = argv.indexOf(name); return i < 0 ? null : (argv.splice(i, 1), true); };
 const values = (name) => { const out = []; for (let i; (i = argv.indexOf(name)) >= 0; ) { out.push(argv[i + 1] ?? ''); argv.splice(i, 2); } return out; };
 const fresh = flag('--fresh'), all = flag('--all'), notesOnly = flag('--notes');
+const offline = flag('--offline'), cacheDir = values('--cache-dir')[0];
+if ((offline && fresh) || (cacheDir !== undefined && (!offline || !cacheDir))) {
+  console.error('--offline cannot be combined with --fresh; --cache-dir <path> requires --offline.'); process.exit(1);
+}
 const finds = values('--find'), paraArg = [...values('--para'), ...values('--verse')][0] ?? null, max = Number(values('--max')[0]) || 20;
 const appendTo = values('--append')[0] ?? null, appendKey = values('--key')[0] ?? null, appendClaim = values('--claim')[0] ?? null, appendUnder = values('--under')[0] ?? null;
 const url = argv.find((a) => /^https?:\/\//.test(a));
@@ -45,8 +50,9 @@ if (!url || finds.includes('') || paraArg === '') {
   process.exit(1);
 }
 
-const page = await readPage(url, { fresh });
+const page = await readPage(url, { fresh, offline, ...(cacheDir ? { cacheDir } : {}) });
 if (page.error) { console.error(`${page.error}: ${url}`); process.exit(1); }
+if (offline) console.error(`Offline snapshot saved ${page.cachedAt}; current availability was not checked.`);
 const named = page.title || page.heads?.[0]?.text || '';
 if (page.problems?.some((p) => /not-found/.test(p))) { console.error(`Not found: ${url} is the site's own not-found page (“${named}”), not the page.`); process.exit(1); }
 if (page.problems?.some((p) => /block or challenge/.test(p))) { console.error(`Blocked: ${url} answered with a block or challenge page (“${named}”); a script can't read it. Open it in a browser, or cite only what its abstract page says.`); process.exit(1); }

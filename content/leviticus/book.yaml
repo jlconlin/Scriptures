@@ -1,0 +1,106 @@
+name: Leviticus
+slug: leviticus
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 0.6
+abbr: lev                # [[Lev. 19:18]] links here
+gospelLibrary: ot/lev
+eyebrow: The Old Testament
+heroQuote:
+  text: '“Ye shall be holy: for I the LORD your God am holy.”'
+  cite: 'The Lord to the children of Israel, [[Lev. 19:2]]'
+description: A phrase-by-phrase companion to the book of Leviticus, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Twenty-seven chapters in five parts. The offerings come first, then the priests who offer them. Next are the laws of clean and unclean, which govern daily life, and the Day of Atonement, which cleanses the whole people once a year. The book closes with the call to be holy, carried into family, field, market and calendar.
+home:
+  blurb: The law given from the tabernacle at Sinai. It covers the offerings and the priests, the clean and the unclean, and the Day of Atonement, and it calls Israel to be holy because the Lord is holy. Its offerings pointed to the sacrifice of Jesus Christ.
+
+intro: |
+  Leviticus opens where Exodus ends. The tabernacle has been raised and the glory of the Lord has filled it, and from that tent “the LORD called unto Moses” ([[Lev. 1:1]]). There is almost no story in the book. It is law, given at Sinai: what to bring to the altar and why, how the priests were consecrated, what made a person clean or unclean, and how once a year the high priest passed through the veil into the Holy of Holies to make atonement for all Israel ([[Lev. 16:30]]).
+
+  Its center is a command: “Ye shall be holy: for I the LORD your God am holy” ([[Lev. 19:2]]). That command reaches the harvest and the marketplace and the treatment of the stranger, and the same chapter gives the commandment the Savior called second only to the first: “thou shalt love thy neighbour as thyself” ([[Lev. 19:18]]). Latter-day scripture reads the whole law as “pointing to that great and last sacrifice” ([[Alma 34:14]]). This companion goes through all twenty-seven chapters and tries to anticipate the questions a careful reader would ask, beginning with the most common one: why any of this was commanded.
+
+  For the offerings, the feasts and clean and unclean as a whole, see [The Law and the Covenant](/old-testament/guides/law-and-covenant/#sacrifice); for the tabernacle and its priests, see [The Temple and Worship](/old-testament/guides/temple-and-worship/#priests).
+
+# The divisions follow the Bible Dictionary's outline (“Leviticus”), with 11–12 joined to 13–15 and 27 to 17–26.
+# Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: levofferings
+    range: [1, 7]
+    name: The Offerings
+    blurb: The burnt offering, the meat offering, the peace offering, the sin offering and the trespass offering. The law says who brings each offering, what is done with its blood and fat, and who eats what.
+    color: '#8a3a2a'
+    darkColor: '#e0a090'
+  - key: levpriests
+    range: [8, 10]
+    name: The Priests Consecrated
+    blurb: Moses washes, robes and anoints Aaron and his sons, and they offer their first sacrifices. Fire comes from before the Lord and consumes the offering. Then Nadab and Abihu offer strange fire, which the Lord had not commanded, and die.
+    color: '#6a4a8a'
+    darkColor: '#c4a8e8'
+  - key: levclean
+    range: [11, 15]
+    name: Clean and Unclean
+    blurb: Which animals may be eaten, what a mother does after childbirth, how the priest judges leprosy in skin, cloth and walls, and how a body's discharges are made clean. In each case the way back to the sanctuary is washing, time and an offering.
+    color: '#3f6f6a'
+    darkColor: '#90d0c8'
+  - key: levatonement
+    range: [16, 16]
+    name: The Day of Atonement
+    blurb: Once a year the high priest enters the Holy of Holies with blood and incense. One goat is offered for the Lord, and the other carries Israel's sins into the wilderness, so that the people may be clean from all their sins before the Lord.
+    color: '#9a7a2a'
+    darkColor: '#e8cc84'
+  - key: levholiness
+    range: [17, 27]
+    name: Ye Shall Be Holy
+    blurb: The life of the flesh is in the blood. Israel must not live as Egypt and Canaan did, and must love its neighbor and the stranger. The law covers the priests, the feasts of the year, the land's sabbath and jubilee, and the covenant's blessings and cursings; it ends with vows.
+    color: '#3a5a8a'
+    darkColor: '#94b4e4'
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [1, 7], sources: [scripture-helps-ex-35] }
+  - { range: [16, 16], sources: [scripture-helps-ex-35] }
+
+beloved:
+  - { chapter: 1, verse: 4, text: 'it shall be accepted for him to make atonement for him' }
+  - { chapter: 16, verse: 30, text: 'that ye may be clean from all your sins before the LORD' }
+  - { chapter: 17, verse: 11, text: 'For the life of the flesh is in the blood' }
+  - { chapter: 19, verse: 2, text: 'Ye shall be holy: for I the LORD your God am holy' }
+  - { chapter: 19, verse: 18, text: 'thou shalt love thy neighbour as thyself' }
+  - { chapter: 25, verse: 10, text: 'proclaim liberty throughout all the land unto all the inhabitants thereof' }
+  - { chapter: 26, verse: 12, text: 'I will walk among you, and will be your God, and ye shall be my people' }
+
+coreSources:
+  - bd-leviticus
+  - scripture-helps-ex-35
+  - ot-minute-lev
+  - belnap-dwell-among
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'A Burnt Offering, of a Sweet Savour'
+  2: 'The Meat Offering'
+  3: 'The Peace Offering'
+  4: 'If a Soul Shall Sin through Ignorance'
+  5: 'He Shall Confess That He Hath Sinned'
+  6: 'The Fire Shall Ever Be Burning upon the Altar'
+  7: 'The Law of the Offerings'
+  8: 'Aaron and His Sons Consecrated'
+  9: 'The Glory of the Lord Appeared'
+  10: 'Strange Fire'
+  11: 'Be Holy, for I Am Holy'
+  12: 'The Days of Her Purifying'
+  13: 'The Plague of Leprosy'
+  14: 'The Law of the Leper in the Day of His Cleansing'
+  15: 'Separate the Children of Israel from Their Uncleanness'
+  16: 'Clean from All Your Sins before the Lord'
+  17: 'The Life of the Flesh Is in the Blood'
+  18: 'After the Doings of the Land of Canaan Shall Ye Not Do'
+  19: 'Thou Shalt Love Thy Neighbour as Thyself'
+  20: 'I Have Severed You from Other People'
+  21: 'They Shall Be Holy unto Their God'
+  22: 'I the Lord Do Sanctify Them'
+  23: 'The Feasts of the Lord'
+  24: 'The Lamps, the Shewbread, and the Blasphemer'
+  25: 'Proclaim Liberty throughout All the Land'
+  26: 'I Will Walk among You'
+  27: 'Holy unto the Lord'
