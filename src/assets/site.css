@@ -722,6 +722,8 @@ a.ref-internal { text-decoration-style: dotted; }
 /* book page: the book's guides and themes by title, side by side when there is room */
 .book-helps { display: grid; gap: 24px 48px; margin-top: 28px; }
 @media (min-width: 720px) { .book-helps { grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); } }
+/* one list alone (a book with themes but no guides of its own) runs in two columns instead of one long one */
+@media (min-width: 720px) { .helps-single .helps-list { columns: 2; column-gap: 48px; } .helps-single .helps-list li { break-inside: avoid; } }
 .helps-title { font-size: 1.25rem; margin: 0 0 6px; }
 .helps-list { list-style: none; margin: 0; padding: 0; border-bottom: 1px solid var(--line); }
 .helps-list li { border-top: 1px solid var(--line); }

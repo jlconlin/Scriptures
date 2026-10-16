@@ -127,7 +127,7 @@ function artFigure(visual) {
   </details></figure>`;
 }
 
-export function renderBookIndex({ book, guides, themes = [], shared, sources }) {
+export function renderBookIndex({ book, guides, themes = [], sources }) {
   const bookArt = book.visual?.status === 'approved' && book.visual.asset && book.visual.alt
     ? artFigure(book.visual)
     : ensignArt;
@@ -162,19 +162,16 @@ export function renderBookIndex({ book, guides, themes = [], shared, sources }) 
     .join('');
 
   // The book's guides and themes by title, so a reader opening the book sees what the site offers beside the chapters
-  // (author, 2026-10-15). The volume's shared guides are on the Guides page, which “All guides” opens.
-  // `owner` is the book, or for a book with no guides of its own, its volume, whose shared guides the Guides page shows.
-  const helpList = (title, owner, c, items, all) => `<div class="helps-col"><h2 class="helps-title">${esc(title)}</h2>
-    <ul class="helps-list">${items.map((g) => `<li><a href="/${owner.slug}/${c.path}/${g.slug}/">${esc(g.title)}</a></li>`).join('')}</ul>
+  // (author, 2026-10-15). Only the book's own: the volume's guides don't belong with them (author, 2026-10-15).
+  const helpList = (c, items, all) => `<div class="helps-col"><h2 class="helps-title">${c.crumb}</h2>
+    <ul class="helps-list">${items.map((g) => `<li><a href="/${book.slug}/${c.path}/${g.slug}/">${esc(g.title)}</a></li>`).join('')}</ul>
     ${all ? `<a class="helps-all" href="/${book.slug}/${c.path}/">${all} ${icon('arrowR')}</a>` : ''}</div>`;
   const G = COLLECTIONS.guides, T = COLLECTIONS.themes;
-  const guideList = guides.length
-    ? helpList(G.crumb, book, G, guides, G.all)
-    : shared?.guides.length ? helpList(`${shared.volume.name} guides`, shared.volume, G, shared.guides, '') : '';
-  const helps = guideList || themes.length
-    ? `<section class="wrap book-helps" id="helps" aria-label="Guides and themes">
-  ${guideList}
-  ${themes.length ? helpList(T.crumb, book, T, themes, themes.length > 1 ? T.all : '') : ''}
+  const helpsLabel = guides.length && themes.length ? 'Guides and themes' : guides.length ? 'Guides' : 'Themes';
+  const helps = guides.length || themes.length
+    ? `<section class="wrap book-helps${guides.length && themes.length ? '' : ' helps-single'}" id="helps" aria-label="${helpsLabel}">
+  ${guides.length ? helpList(G, guides, G.all) : ''}
+  ${themes.length ? helpList(T, themes, themes.length > 1 ? T.all : '') : ''}
 </section>`
     : '';
 
@@ -191,7 +188,7 @@ export function renderBookIndex({ book, guides, themes = [], shared, sources }) 
   </div>
 </section>
 
-${sectionNav([themes.length && ['helps', 'Themes'], ['chapters', 'Chapters'], book.facsimiles?.length && ['facsimiles', 'Facsimiles'], ['beloved', 'Beloved passages'], ['book-sources', 'Sources']])}
+${sectionNav([(guides.length || themes.length) && ['helps', themes.length ? 'Themes' : 'Guides'], ['chapters', 'Chapters'], book.facsimiles?.length && ['facsimiles', 'Facsimiles'], ['beloved', 'Beloved passages'], ['book-sources', 'Sources']])}
 
 ${helps}
 
