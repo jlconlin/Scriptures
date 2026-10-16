@@ -730,6 +730,20 @@ a.ref-internal { text-decoration-style: dotted; }
 .map .m-home-label { font-weight: 800; fill: var(--accent-ink); font-size: 13px; }
 .map .m-small { font-size: 10.5px; fill: var(--muted); }
 .map-figure figcaption { font-size: .88rem; color: var(--muted); margin: 8px auto 0; max-width: var(--read-w); font-family: var(--font-ui); }
+/* The Land's map runs north to south, so it is narrower and taller (author, 2026-10-16). Inland water is filled,
+   the roads scripture names are dashed, and labels carry a halo in the land's colour so a road or river behind
+   them doesn't cut through them. */
+.map-figure-tall { width: min(100vw - 2 * var(--gutter), 560px); }
+.map .m-water { fill: color-mix(in srgb, var(--div-comfort) 38%, var(--surface)); stroke: color-mix(in srgb, var(--div-comfort) 55%, transparent); stroke-width: 1; }
+.map .m-road { fill: none; stroke: color-mix(in srgb, var(--k-history) 70%, transparent); stroke-width: 2; stroke-dasharray: 6 5; stroke-linecap: round; }
+.map .m-water-label { font-style: italic; fill: color-mix(in srgb, var(--div-comfort) 75%, var(--ink)); font-size: 11.5px; }
+.map .m-road-label { font-style: italic; fill: color-mix(in srgb, var(--k-history) 80%, var(--ink)); font-size: 11.5px; }
+.map .m-peak { fill: color-mix(in srgb, var(--k-history) 55%, var(--surface)); }
+.map-land text { font-size: 12.5px; paint-order: stroke; stroke: color-mix(in srgb, var(--k-history) 10%, var(--surface)); stroke-width: 4px; stroke-linejoin: round; }
+.map-land .m-sea-label { stroke: none; font-size: 14px; }
+.map-land .m-region text { font-size: 10.5px; }
+.map-land .m-small, .map-land .m-water-label, .map-land .m-road-label { font-size: 11.5px; }
+.map-land .m-home-label { font-size: 13.5px; }
 
 /* ---------- Book of Mormon readings ---------- */
 .bom-mark { width: auto; height: 24px; padding: 0 7px; border-radius: 6px; font: 800 .7rem/24px var(--font-ui); letter-spacing: .04em; vertical-align: 2px; }
