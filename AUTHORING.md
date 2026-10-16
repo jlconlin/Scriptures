@@ -70,6 +70,7 @@ What is true of the whole site:
 - A shell variable holding a list of chapters is one argument in zsh; write the numbers out.
 - An agent that waits for a script with `pgrep -f scripts/check-page` waits forever: the pattern matches the agent's own shell, so the loop never sees the script end (a `write-guide` repair step hung 15 minutes this way, 2026-10-12). When a workflow stage shows no file change for ten minutes, look for a `cat` or `sleep` loop under the agent's shell and kill it; the agent carries on.
 - After a batch, list for the author where the Student Manual is still the frame (as Hosea's H9 did).
+- A workflow run by name from a worktree session runs the main checkout's copy of the script, not the worktree's: a change to a workflow made on the branch is run with `scriptPath` until it reaches `main` (Deuteronomy's first language pass ran on Opus though `applyModel: "sonnet"` was passed, 2026-10-15). `batch-usage.cjs` shows which model each role actually ran on.
 
 ## The language pass, in a session of its own
 
