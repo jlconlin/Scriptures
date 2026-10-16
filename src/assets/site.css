@@ -750,8 +750,8 @@ a.ref-internal { text-decoration-style: dotted; }
 
 /* Shared navigation and reader components (ui.mjs). */
 .section-nav { position: sticky; top: var(--header-shown, var(--header-h)); transition: top .25s cubic-bezier(.2, .8, .2, 1); z-index: 15; display: flex; align-items: center; flex-wrap: wrap; gap: 6px 20px; max-width: 1120px; margin: 0 auto 20px; padding: 9px var(--gutter); background: var(--bg); border-bottom: 1px solid var(--line); font-size: .86rem; }
-/* The bar's label: the display face, a step heavier and darker than the links, set off by a hairline */
-.section-nav-label { flex: none; font: 600 .92rem/1 var(--font-display); color: var(--ink); padding-right: 14px; border-right: 1px solid var(--line-2); }
+/* The bar's label: the links' own face, bold and darker, set off by a hairline */
+.section-nav-label { flex: none; font: 700 1em/1 var(--font-ui); color: var(--ink); padding-right: 14px; border-right: 1px solid var(--line-2); }
 .section-nav a { padding: 4px 0; color: var(--ink-2); text-decoration: none; border-bottom: 2px solid transparent; }
 @media (hover: hover) { .section-nav a:hover { color: var(--accent-ink); border-bottom-color: var(--accent); } } /* on touch a tapped link would keep :hover and look current */
 .section-nav a[aria-current='location'] { color: var(--accent-ink); border-bottom-color: var(--accent); }
