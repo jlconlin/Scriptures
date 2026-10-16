@@ -8,3 +8,4 @@ Questions a reader would ask that no source read answered, by chapter: a list fo
 - **10:** Whether Mosera (Deut. 10:6) and Moseroth (Num. 33:30–31) are the same place, and why Numbers puts Aaron's death on mount Hor: no source read settles either.
 - **11:** 11:21 'as the days of heaven upon the earth': no source beyond footnote 21b's alternative reading was used (the writer left it to the footnote); 11:29: whether an altar has been found on Mount Ebal; the writer found no Latter-day Saint source.
 - **12:** What does it mean for the LORD to 'cause his name to dwell' in a place (12:5, 11)? The only source read was Keil, and the note built on it was cut. A Latter-day Saint source on the name in the temple would let a note return.
+- **14:** Why the clean-animal list names seven wild game animals (14:5) and how they are identified: the only source read was Cambridge, so the note was cut.
