@@ -416,7 +416,8 @@ a.ref-internal { text-decoration-style: dotted; }
 .division-head { border-left: 5px solid var(--div); padding: 2px 0 2px 14px; margin-bottom: 14px; }
 .division-range { font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--div); }
 .division-head h3 { font-size: 1.45rem; margin: 2px 0 4px; }
-.division-head p { margin: 0; color: var(--ink-2); max-width: 70ch; }
+.division-head p { margin: 0; color: var(--ink-2); max-width: 36rem; } /* about 65 characters a line */
+.book-hero .lede { max-width: 36rem; } /* the book's introduction reads at about the chapter text's width (author, 2026-10-15) */
 .chapter-cards { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; grid-template-columns: 1fr; }
 @media (min-width: 600px) { .chapter-cards { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 960px) { .chapter-cards { grid-template-columns: repeat(3, 1fr); } }
