@@ -8,7 +8,8 @@ import { icon } from './layout.mjs';
 export function sectionNav(items) {
   const links = items.filter(Boolean);
   if (!links.length) return '';
-  return `<nav class="section-nav" aria-label="On this page"><span>On this page</span>${links.map(([id, label]) => `<a href="#${esc(id)}">${esc(label)}</a>`).join('')}</nav>`;
+  // “Outline” names the bar so a reader knows what the line is (author, 2026-10-16).
+  return `<nav class="section-nav" aria-label="Outline of this page"><span class="section-nav-label">Outline</span>${links.map(([id, label]) => `<a href="#${esc(id)}">${esc(label)}</a>`).join('')}</nav>`;
 }
 
 // The same bar for a page whose sections are the <h2 id="…"> headings of rendered Markdown (guides, About).
