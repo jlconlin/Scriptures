@@ -25,9 +25,10 @@ const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..')
 const OUT = process.env.BUILD_OUT ? path.resolve(process.env.BUILD_OUT) : path.join(ROOT, 'dist');
 const r = (...p) => path.join(ROOT, ...p);
 
-// PREVIEW=1 (set by npm run dev, and for the claude.ai preview) also builds books whose
-// book.yaml says `status: preview`. The live site leaves them out entirely.
-const PREVIEW = process.env.PREVIEW === '1';
+// PREVIEW=1 (set by npm run dev) also builds books whose book.yaml says `status: preview`, and so
+// does a Cloudflare build of any branch but main (the dev site, scriptures-dev.conlin.io). The live
+// site leaves them out entirely.
+const PREVIEW = process.env.PREVIEW === '1' || (!!process.env.WORKERS_CI_BRANCH && process.env.WORKERS_CI_BRANCH !== 'main');
 const run = promisify(execFile);
 
 const warnings = [];
