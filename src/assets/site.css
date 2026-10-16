@@ -289,6 +289,8 @@ a.ref-internal { text-decoration-style: dotted; }
 }
 .kind-chip .icon { width: 15px; height: 15px; }
 
+/* Division colours used for small text are blended toward the ink (30%; the map's fills 20%) so every division reaches
+   4.5:1 for small text; fills, rules and icons keep the colour itself (author, 2026-10-15). */
 /* ---------- home ---------- */
 .home-hero, .book-hero { padding: 32px 0 16px; }
 .home-hero-inner, .book-hero-inner { display: block; }
@@ -408,13 +410,13 @@ a.ref-internal { text-decoration-style: dotted; }
 .hint-phr { background: color-mix(in srgb, var(--accent) 16%, transparent); border-bottom: 2px solid var(--accent); padding: 0 2px; border-radius: 3px; }
 
 .division-map { display: flex; height: 36px; border-radius: 10px; overflow: hidden; margin: 0 0 28px; gap: 2px; }
-.division-map a { background: var(--div); display: grid; place-items: center; color: #fff; text-decoration: none; font-size: .7rem; font-weight: 700; min-width: 0; overflow: hidden; }
+.division-map a { background: color-mix(in srgb, var(--div) 80%, var(--ink)); display: grid; place-items: center; color: #fff; text-decoration: none; font-size: .7rem; font-weight: 700; min-width: 0; overflow: hidden; }
 .division-map a span { white-space: nowrap; overflow: hidden; }
 :root[data-theme='dark'] .division-map a { color: #15161c; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme='light']) .division-map a { color: #15161c; } }
 .division { margin-bottom: 36px; }
 .division-head { border-left: 5px solid var(--div); padding: 2px 0 2px 14px; margin-bottom: 14px; }
-.division-range { font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--div); }
+.division-range { font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: color-mix(in srgb, var(--div) 70%, var(--ink)); }
 .division-head h3 { font-size: 1.45rem; margin: 2px 0 4px; }
 .division-head p { margin: 0; color: var(--ink-2); max-width: 36rem; } /* about 65 characters a line */
 .book-hero .lede { max-width: 36rem; } /* the book's introduction reads at about the chapter text's width (author, 2026-10-15) */
@@ -423,7 +425,7 @@ a.ref-internal { text-decoration-style: dotted; }
 @media (min-width: 960px) { .chapter-cards { grid-template-columns: repeat(3, 1fr); } }
 .chapter-card { position: relative; display: grid; grid-template-columns: auto 1fr; gap: 0 12px; padding: 12px 14px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); text-decoration: none; color: var(--ink); height: 100%; transition: border-color .15s; }
 .chapter-card:hover { border-color: var(--div); }
-.cc-num { grid-row: span 2; font: 600 1.6rem/1 var(--font-display); color: var(--div); min-width: 1.6em; padding-top: 2px; }
+.cc-num { grid-row: span 2; font: 600 1.6rem/1 var(--font-display); color: color-mix(in srgb, var(--div) 70%, var(--ink)); min-width: 1.6em; padding-top: 2px; }
 .cc-title { font: 600 1rem/1.3 var(--font-display); padding-right: 22px; }
 .cc-tag { font-size: .84rem; color: var(--muted); line-height: 1.4; }
 .chapter-card.unwritten { background: transparent; border-style: dashed; color: var(--ink-2); }
@@ -476,7 +478,7 @@ a.ref-internal { text-decoration-style: dotted; }
 
 /* ---------- chapter page ---------- */
 .chapter-hero { padding: 26px 0 8px; background: linear-gradient(180deg, color-mix(in srgb, var(--div) 12%, var(--bg)) 0%, var(--bg) 100%); }
-.chapter-hero .eyebrow { color: var(--div); font-size: .85rem; }
+.chapter-hero .eyebrow { color: color-mix(in srgb, var(--div) 70%, var(--ink)); font-size: .85rem; }
 .ch-num { font: 600 1rem var(--font-display); letter-spacing: 0; }
 .chapter-hero h1 { font-size: clamp(2rem, 7.5vw, 3.2rem); font-weight: 600; margin-bottom: .25em; max-width: 22ch; }
 .tagline { font: italic 1.12rem/1.5 var(--font-read); color: var(--ink-2); margin: 0 0 18px; max-width: 60ch; }
@@ -560,12 +562,12 @@ a.ref-internal { text-decoration-style: dotted; }
 /* passages */
 .passage { margin-top: 34px; }
 .passage-head { margin-bottom: 12px; }
-.passage-range { font-size: .75rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--div); }
+.passage-range { font-size: .75rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: color-mix(in srgb, var(--div) 70%, var(--ink)); }
 .passage-head h2 { font-size: 1.35rem; margin: 2px 0 0; }
 .plain { background: color-mix(in srgb, var(--div) 7%, var(--surface)); border: 1px solid color-mix(in srgb, var(--div) 20%, var(--line)); border-radius: 12px; padding: 12px 14px; margin-bottom: 16px; font-size: .97rem; color: var(--ink-2); }
 .plain p { margin: 0 0 .5em; }
 .plain p:last-child { margin: 0; }
-.plain-label { display: block; font-size: .7rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--div); margin-bottom: 4px; }
+.plain-label { display: block; font-size: .7rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: color-mix(in srgb, var(--div) 70%, var(--ink)); margin-bottom: 4px; }
 .hide-plain .plain { display: none; }
 
 .verses { font-family: var(--font-read); font-size: calc(1.14rem * var(--reader-scale)); line-height: 1.85; }
@@ -574,9 +576,9 @@ a.ref-internal { text-decoration-style: dotted; }
 @keyframes flash { 0%, 30% { background: color-mix(in srgb, var(--accent) 22%, transparent); } 100% { background: transparent; } }
 /* The line above verse 1 of a psalm (“A Psalm of David, …”), and the Hebrew letter that heads a stanza of Psalm 119. */
 .verse.psalm-title { font-style: italic; color: var(--ink-2); padding-bottom: 10px; }
-.stanza-letter { margin: 18px 0 2px; font: 600 .72em var(--font-ui); letter-spacing: .08em; text-transform: uppercase; color: var(--div); }
+.stanza-letter { margin: 18px 0 2px; font: 600 .72em var(--font-ui); letter-spacing: .08em; text-transform: uppercase; color: color-mix(in srgb, var(--div) 70%, var(--ink)); }
 .stanza-letter span { font-size: 1.5em; font-weight: 400; letter-spacing: 0; margin-right: 4px; }
-.vnum { font: 700 .7em var(--font-ui); color: var(--div); text-decoration: none; vertical-align: .35em; margin-right: 2px; padding: 2px; }
+.vnum { font: 700 .7em var(--font-ui); color: color-mix(in srgb, var(--div) 70%, var(--ink)); text-decoration: none; vertical-align: .35em; margin-right: 2px; padding: 2px; }
 .phr {
   all: unset; cursor: pointer; border-radius: 3px; padding: 0 1px;
   background: linear-gradient(transparent 62%, color-mix(in srgb, var(--k) 22%, transparent) 62%);
