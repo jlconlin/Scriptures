@@ -11,7 +11,7 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository; `THEME-CANDIDAT
 `node scripts/status.mjs numbers` prints what the repository shows; the history is `git log -- content/numbers`. What a script can't see:
 
 - **In preview, no chapter written.** The text is imported and checked against the Gospel Library (“The text,” below). The Church's footnotes for every chapter are saved in `.cache/batch/numbers/fn1.txt` to `fn36.txt`; read them instead of running `footnotes.mjs` again. Scripture Central's KnoWhys for each chapter are saved in `.cache/batch/numbers/reports/knowhys/<n>.txt` (none has a Numbers verse as its main reference except #850, on 31:16).
-- **The first chapters written will be a writer test** (author, 2026-10-16, approving it: Opus and Sonnet 5.5 each write the same two or three chapters, judged blind against a reader's questions; the better version goes on the site).
+- **Chapters 13, 19 and 21 were the writer test** (2026-10-16): Opus and Sonnet 5.5 each wrote them, judged blind against a reader's questions, and Opus's versions are the book's (author: “We stay with opus”; `AUTHORING.md`, “Why these models”).
 
 ## What the author has decided
 
