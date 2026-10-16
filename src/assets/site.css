@@ -297,8 +297,9 @@ a.ref-internal { text-decoration-style: dotted; }
 }
 .kind-chip .icon { width: 15px; height: 15px; }
 
-/* Division colours used for small text are blended toward the ink (30%; the map's fills 20%) so every division reaches
-   4.5:1 for small text; fills, rules and icons keep the colour itself (author, 2026-10-15). */
+/* Any colour used for small text (a division's colour, the accent of citation numbers and back-links) is blended
+   toward the ink (30%; the division map's fills 20%) so it reaches 4.5:1; fills, rules and icons keep the colour itself
+   (author, 2026-10-15; “It should apply everywhere on the site”, 2026-10-16). */
 /* ---------- home ---------- */
 .home-hero, .book-hero { padding: 32px 0 16px; }
 .home-hero-inner, .book-hero-inner { display: block; }
@@ -451,7 +452,7 @@ a.ref-internal { text-decoration-style: dotted; }
 .source-list li { margin: .45em 0; }
 /* Numbered citations on guide and theme pages: a small superscript number linking to the source list. */
 .cite { font: 700 .66em/0 var(--font-ui); vertical-align: super; margin-left: 1px; position: relative; }
-.cite a { color: var(--accent); text-decoration: none; padding: 0 1px; border-radius: 3px; }
+.cite a { color: color-mix(in srgb, var(--accent) 70%, var(--ink)); text-decoration: none; padding: 0 1px; border-radius: 3px; }
 .cite a:hover { text-decoration: underline; }
 .cite a:focus-visible { outline: 2px solid var(--focus); }
 .cite-sep { color: var(--muted); margin-left: 0; }
@@ -479,7 +480,7 @@ a.ref-internal { text-decoration-style: dotted; }
 .ref-list-num li { scroll-margin-top: 90px; }
 .ref-list-num li:target { background: color-mix(in srgb, var(--accent) 14%, transparent); border-radius: 6px; }
 .backrefs { font: .85em var(--font-ui); }
-.backrefs a { display: inline-block; padding: .1em .25em; text-decoration: none; color: var(--accent); border-radius: 3px; }
+.backrefs a { display: inline-block; padding: .1em .25em; text-decoration: none; color: color-mix(in srgb, var(--accent) 70%, var(--ink)); border-radius: 3px; }
 .backrefs a:hover { text-decoration: underline; }
 .backrefs a:focus-visible { outline: 2px solid var(--focus); }
 [id^="cite-"] { scroll-margin-top: 120px; }
