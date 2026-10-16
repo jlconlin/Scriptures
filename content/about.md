@@ -55,7 +55,14 @@ Nephi said the words of Isaiah are plain to “all those that are filled with th
 
 You can save the whole site on your device, so that every chapter, note, guide and search works without a connection.
 
-**On an iPad or iPhone,** first add the site to your Home Screen (the Share button, then *Add to Home Screen*), open it from the new icon, and save the copy there. Safari may clear a site’s saved data when it hasn’t been visited for a while, but it keeps a Home Screen app’s. **On a Mac,** Safari’s *File → Add to Dock* does the same.
+Where your device can install the site as an app, do that first, open the app, and save the copy there:
+
+- **iPad or iPhone:** in Safari, tap the Share button, then *Add to Home Screen*.
+- **Mac:** in Safari, *File → Add to Dock*; in Chrome or Edge, the install button at the right end of the address bar.
+- **Android:** in Chrome, the ⋮ menu, then *Add to Home screen* or *Install app*.
+- **Windows, Chromebook or Linux:** in Chrome or Edge, the install button at the right end of the address bar.
+
+On an iPad or iPhone, and in Safari on a Mac, installing matters: Safari may clear a site’s saved data when it hasn’t been visited for a while, but it keeps an installed app’s. Elsewhere, saving in an ordinary browser tab is enough, and installing only gives the site its own icon and window; Firefox on a computer can’t install the site, but the copy works there in a tab.
 
 <!-- offline -->
 
