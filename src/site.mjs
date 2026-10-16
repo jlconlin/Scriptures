@@ -9,6 +9,9 @@ export const SITE = {
   year: new Date().getFullYear(),
   // The ?v= stamp on CSS and JS. BUILD_VERSION pins it, so two builds can be compared byte for byte.
   version: process.env.BUILD_VERSION ?? Date.now().toString(36),
+  // Built by Cloudflare from a branch other than main (the dev site, scriptures-dev.conlin.io; DEVELOPMENT.md,
+  // “Hosting”): every page says noindex and robots.txt disallows all, so search engines list only the live site.
+  noindex: !!process.env.WORKERS_CI_BRANCH && process.env.WORKERS_CI_BRANCH !== 'main',
 };
 
 // The books on the site, filled in by the build (book.yaml: name, slug, abbr). The header nav,

@@ -43,7 +43,7 @@ export function layout({ title, description = SITE.description, path, body, body
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(fullTitle)}</title>
 <meta name="description" content="${esc(description)}">
-<link rel="canonical" href="${url}">
+${SITE.noindex ? '<meta name="robots" content="noindex">\n' : ''}<link rel="canonical" href="${url}">
 <meta property="og:title" content="${esc(fullTitle)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${url}">

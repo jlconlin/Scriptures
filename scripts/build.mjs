@@ -368,7 +368,7 @@ export async function build({ quiet = false } = {}) {
     'sitemap.xml',
     `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `<url><loc>https://scriptures.conlin.io${u}</loc></url>`).join('\n')}\n</urlset>\n`,
   );
-  await write('robots.txt', 'User-agent: *\nAllow: /\nSitemap: https://scriptures.conlin.io/sitemap.xml\n');
+  await write('robots.txt', SITE.noindex ? 'User-agent: *\nDisallow: /\n' : 'User-agent: *\nAllow: /\nSitemap: https://scriptures.conlin.io/sitemap.xml\n');
   await writeOfflineList();
 
   for (const u of unknownRefs) warn(`unrecognized scripture reference: [[${u}]]`);
