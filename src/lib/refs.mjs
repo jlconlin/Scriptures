@@ -101,9 +101,12 @@ export function linkRefs(str, onUnknown = () => {}) {
   const anchor = (r, raw, reference = raw) => {
     const url = refUrl(r);
     const text = raw.replace(/&(?!amp;)/g, '&amp;');
-    // Only an exact, contiguous range within one chapter can have a short preview.
-    const short = r.verses && /^[^:]+:\s*\d+(?:\s*[–-]\s*\d+)?$/.test(reference) && r.verses[1] >= r.verses[0] && r.verses[1] - r.verses[0] < 3;
-    const preview = short ? ` data-scripture="${r.vol}/${r.slug}/${r.chapter}/${r.verses[0]}-${r.verses[1]}"` : '';
+    // A verse or a contiguous passage, of any length, has a preview, including one that runs into the next chapter
+    // (“Isa. 52:13–53:12”): the popup scrolls (author, 2026-10-16). A whole chapter (“Isa. 38”) has none.
+    const cross = r.verses && reference.match(/^[^:]+:\s*(\d+)\s*[–-]\s*(\d+):\s*(\d+)$/);
+    const within = r.verses && /^[^:]+:\s*\d+(?:\s*[–-]\s*\d+)?$/.test(reference) && r.verses[1] >= r.verses[0];
+    const key = cross && Number(cross[2]) > r.chapter ? `${r.chapter}/${cross[1]}-${cross[2]}:${cross[3]}` : within ? `${r.chapter}/${r.verses[0]}-${r.verses[1]}` : '';
+    const preview = key ? ` data-scripture="${r.vol}/${r.slug}/${key}"` : '';
     return isInternal(url)
       ? `<a class="ref ref-internal" href="${url}"${preview}>${text}</a>`
       : `<a class="ref" href="${url}"${preview} target="_blank" rel="noopener">${text}</a>`;

@@ -28,17 +28,29 @@
     document.body.append(popup);
     const closeButton = $('.citation-popup-close', popup);
     const listLink = $('.citation-popup-list', popup);
+    // A scrolling passage loses its bottom fade once the reader reaches the end.
+    const markEnd = () => { const b = $('.citation-popup-body', popup); b.classList.toggle('at-end', b.scrollTop + b.clientHeight >= b.scrollHeight - 4); };
+    $('.citation-popup-body', popup).addEventListener('scroll', markEnd, { passive: true });
     const previewFor = (link) => {
       const scripture = scriptureData[link.dataset.scripture];
       if (scripture) {
         const passage = document.createElement('div');
         passage.className = 'scripture-preview-verses';
-        scripture.verses.forEach((text, i) => {
-          const verse = document.createElement('p');
-          const number = document.createElement('sup');
-          number.textContent = scripture.first + i;
-          verse.append(number, document.createTextNode(` ${text}`));
-          passage.append(verse);
+        // A passage that runs into the next chapter is marked where the chapter changes.
+        scripture.parts.forEach((part, p) => {
+          if (p) {
+            const label = document.createElement('p');
+            label.className = 'scripture-preview-chapter';
+            label.textContent = `${scripture.book} ${part.chapter}`;
+            passage.append(label);
+          }
+          part.verses.forEach((text, i) => {
+            const verse = document.createElement('p');
+            const number = document.createElement('sup');
+            number.textContent = part.first + i;
+            verse.append(number, document.createTextNode(` ${text}`));
+            passage.append(verse);
+          });
         });
         return { content: passage, title: scripture.title, close: 'Close scripture preview', scripture: true };
       }
@@ -93,7 +105,10 @@
         active?.setAttribute('aria-expanded', 'false');
         active = link;
         pinned = false;
-        $('.citation-popup-body', popup).replaceChildren(preview.content);
+        const body = $('.citation-popup-body', popup);
+        body.replaceChildren(preview.content);
+        body.scrollTop = 0;
+        requestAnimationFrame(markEnd);
         const heading = $('#citation-preview-title', popup);
         if (preview.scripture) {
           const chapterLink = document.createElement('a');
