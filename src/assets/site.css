@@ -719,8 +719,18 @@ a.ref-internal { text-decoration-style: dotted; }
 .bom-summary { font-size: .92rem; color: var(--ink-2); display: flex; gap: 8px; align-items: flex-start; flex-wrap: wrap; }
 .bom-summary .icon { color: var(--k-bom); margin-top: 3px; }
 
-.start-callout { display: flex; gap: 10px; align-items: center; margin-block: 24px 0; font-size: 1rem; color: var(--ink-2); }
-.start-callout .icon { color: var(--accent); flex: none; }
+/* book page: the book's guides and themes by title, side by side when there is room */
+.book-helps { display: grid; gap: 24px 48px; margin-top: 28px; }
+@media (min-width: 720px) { .book-helps { grid-auto-flow: column; grid-auto-columns: minmax(0, 1fr); } }
+.helps-title { font-size: 1.25rem; margin: 0 0 6px; }
+.helps-list { list-style: none; margin: 0; padding: 0; border-bottom: 1px solid var(--line); }
+.helps-list li { border-top: 1px solid var(--line); }
+.helps-list a { display: flex; align-items: center; min-height: 42px; padding: 6px 0; color: var(--ink); text-decoration: none; font: 500 1.02rem/1.3 var(--font-display); }
+.helps-list a:hover { color: var(--accent-ink); }
+.helps-all { display: inline-flex; align-items: center; gap: 4px; min-height: 40px; font: 600 .9rem var(--font-ui); text-decoration: none; }
+.helps-all .icon { width: 15px; height: 15px; }
+.helps-all:hover { text-decoration: underline; text-underline-offset: 3px; }
+@media (pointer: coarse) { .helps-list a, .helps-all { min-height: 44px; } }
 .guides-themes-title { margin-top: 48px; }
 .division-map-wrap { max-width: none; margin: 0; }
 .guides-wide { max-width: calc(860px + 2 * var(--gutter)); }
