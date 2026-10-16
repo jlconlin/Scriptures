@@ -161,19 +161,14 @@ export function renderBookIndex({ book, guides, themes = [], sources }) {
     })
     .join('');
 
-  // The book's guides and themes by title, so a reader opening the book sees what the site offers beside the chapters
-  // (author, 2026-10-15). Only the book's own: the volume's guides don't belong with them (author, 2026-10-15).
-  const helpList = (c, items, all) => `<div class="helps-col"><h2 class="helps-title">${c.crumb}</h2>
-    <ul class="helps-list">${items.map((g) => `<li><a href="/${book.slug}/${c.path}/${g.slug}/">${esc(g.title)}</a></li>`).join('')}</ul>
-    ${all ? `<a class="helps-all" href="/${book.slug}/${c.path}/">${all} ${icon('arrowR')}</a>` : ''}</div>`;
+  // The book's guides and themes as cards after the chapters, like the chapter cards (author, 2026-10-15).
+  // Only the book's own: the volume's guides don't belong with them (author, 2026-10-15).
+  const cardSection = (c, items) => `<section class="wrap book-section" id="${c.path}">
+  <h2 class="section-title">${c.crumb}</h2>
+  <p class="section-sub">${esc(c.lede)}</p>
+  <div class="guide-cards">${items.map((g) => guideCard(book, c, g)).join('')}</div>
+</section>`;
   const G = COLLECTIONS.guides, T = COLLECTIONS.themes;
-  const helpsLabel = guides.length && themes.length ? 'Guides and themes' : guides.length ? 'Guides' : 'Themes';
-  const helps = guides.length || themes.length
-    ? `<section class="wrap book-helps${guides.length && themes.length ? '' : ' helps-single'}" id="helps" aria-label="${helpsLabel}">
-  ${guides.length ? helpList(G, guides, G.all) : ''}
-  ${themes.length ? helpList(T, themes, themes.length > 1 ? T.all : '') : ''}
-</section>`
-    : '';
 
   const body = `
 <section class="book-hero">
@@ -188,9 +183,7 @@ export function renderBookIndex({ book, guides, themes = [], sources }) {
   </div>
 </section>
 
-${sectionNav([(guides.length || themes.length) && ['helps', themes.length ? 'Themes' : 'Guides'], ['chapters', 'Chapters'], book.facsimiles?.length && ['facsimiles', 'Facsimiles'], ['beloved', 'Beloved passages'], ['book-sources', 'Sources']])}
-
-${helps}
+${sectionNav([['chapters', 'Chapters'], book.facsimiles?.length && ['facsimiles', 'Facsimiles'], guides.length && [G.path, G.crumb], themes.length && [T.path, T.crumb], ['beloved', 'Beloved passages'], ['book-sources', 'Sources']])}
 
 <section class="wrap book-section" id="chapters">
   <h2 class="section-title">The ${esc(unitPlural(book))}</h2>
@@ -213,6 +206,9 @@ ${book.facsimiles?.length ? `<section class="wrap book-section" id="facsimiles">
     </a></li>`).join('')}
   </ol>
 </section>` : ''}
+
+${guides.length ? cardSection(G, guides) : ''}
+${themes.length ? cardSection(T, themes) : ''}
 
 
 <section class="wrap book-section" id="beloved">

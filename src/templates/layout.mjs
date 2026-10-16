@@ -32,6 +32,7 @@ export function layout({ title, description = SITE.description, path, body, body
   const nav = `<nav class="site-nav" aria-label="Main">
         ${scriptureMenu(here)}
         ${guidesHref ? `<a href="${guidesHref}">Guides</a>` : ''}
+        ${book?.hasThemes ? `<a href="/${book.slug}/themes/">Themes</a>` : ''}
         <a class="nav-wide" href="/about/">About</a>
         <a href="/search/" class="nav-search" aria-label="Search">${icon('search')}<span>Search</span></a>
       </nav>`;
