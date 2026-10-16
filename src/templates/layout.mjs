@@ -77,11 +77,14 @@ ${scripturePreviews ? `<script type="application/json" id="scripture-preview-dat
       <a class="brand brand-small" href="/">${logo}<span>${esc(SITE.name)}</span></a>
       <p class="footer-verse">“For he will give unto the faithful line upon line, precept upon precept.” <a href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/98?lang=eng&amp;id=p12#p12" target="_blank" rel="noopener">D&amp;C 98:12</a></p>
     </div>
-    <div class="footer-small">
-      <p>The commentary on this site was written with AI (Anthropic’s Claude) and checked against the scriptures. <a href="/about/#how-this-site-was-made">How it was made</a>.</p>
-      <p>An independent study companion created by a member of The Church of Jesus Christ of Latter-day Saints. It is not an official publication of the Church. For the Church’s official resources, visit <a href="https://www.churchofjesuschrist.org/study?lang=eng" target="_blank" rel="noopener">churchofjesuschrist.org</a>.</p>
-      <p>Scripture text: King James Version (public domain), the Book of Mormon, 1920 edition (public domain), and the Pearl of Great Price, 1921 edition (public domain). Commentary © ${SITE.year} ${esc(SITE.author)}, <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a>. <a href="/about/">About this site</a> · <a href="${SITE.repo}" target="_blank" rel="noopener">Source</a></p>
-    </div>
+    <!-- One statement and three links (author, 2026-10-16: the footer “is too long”); the About page carries how the
+         site was made, the scripture texts and the licence in full. -->
+    <p class="footer-statement">An independent study companion directed by the author, and written with AI. Not an official publication of <a href="https://churchofjesuschrist.org" target="_blank" rel="noopener">The Church of Jesus Christ of Latter-day Saints</a>.</p>
+    <ul class="footer-links">
+      <li><a href="/about/">About this site</a></li>
+      <li><a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noopener">CC BY-SA 4.0</a></li>
+      <li><a href="${SITE.repo}" target="_blank" rel="noopener">Source</a></li>
+    </ul>
   </div>
 </footer>
 <script src="/assets/site.js?v=${SITE.version}" defer></script>

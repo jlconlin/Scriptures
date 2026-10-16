@@ -223,13 +223,15 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 @media (min-width: 680px) { .nav-wide { display: inline-flex !important; } }
 
 /* ---------- footer ---------- */
-.site-footer { margin-top: 64px; border-top: 1px solid var(--line); background: var(--bg-2); padding: 32px 0 40px; }
-.footer-inner { display: grid; gap: 20px; }
+.site-footer { margin-top: 64px; border-top: 1px solid var(--line); background: var(--bg-2); padding: 28px 0 32px; }
+.footer-inner { display: grid; gap: 14px; }
 .brand-small span { display: inline; }
-.footer-verse { font-family: var(--font-read); font-style: italic; color: var(--ink-2); margin: 10px 0 0; max-width: 34ch; }
-.footer-small { font-size: .85rem; color: var(--muted); }
-.footer-small p { margin: 0 0 8px; }
-@media (min-width: 800px) { .footer-inner { grid-template-columns: 1fr 1.6fr; } }
+.footer-verse { font-family: var(--font-read); font-style: italic; color: var(--ink-2); margin: 6px 0 0; }
+.footer-statement { margin: 0; font-size: .9rem; color: var(--ink-2); max-width: 62ch; }
+.footer-links { display: flex; flex-wrap: wrap; margin: 0; padding: 0; list-style: none; font-size: .85rem; }
+.footer-links li + li::before { content: '·'; color: var(--muted); padding: 0 10px; }
+.footer-links a { display: inline-flex; align-items: center; min-height: 32px; }
+@media (pointer: coarse) { .footer-links a { min-height: 44px; } }
 
 /* ---------- common pieces ---------- */
 .eyebrow { font: 700 .78rem/1 var(--font-ui); letter-spacing: .12em; text-transform: uppercase; color: var(--accent-ink); margin: 0 0 10px; display: flex; align-items: center; gap: 8px; }
