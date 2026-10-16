@@ -4,7 +4,9 @@ Topics that run across the book and might become theme pages (`STANDARDS.md` §8
 
 ## Author's selection
 
-None yet. The list is proposed at the end of the book (`propose-themes` by Fable, then Codex's review; `AUTHORING.md`, “Theme candidates at the end of a book”), and only the author's choice is recorded here.
+None yet. The list is proposed at the end of the book (`propose-themes` by Fable, then Codex's review; `AUTHORING.md`, “Theme candidates at the end of a book”), and only the author's choice is recorded here. Fable's and Codex's lists of 2026-10-16 are in `.cache/batch/deuteronomy/reports/themes-fable.md` and `themes-codex.md`; shown to the author as nine proposals, not yet judged.
+
+**The author's reading of proposal 4, “Thou shalt not go over this Jordan”** (2026-10-16, not yet a selection): the arc is the righteous prayer refused. “There are many times in life when we want something … and are righteous enough to reasonably expect to receive it. However, in God's wisdom, He is not going to give it to us… This is similar to Moses' experience.” So, if chosen, the page is about the prayer: Moses heard for Israel (9:19; 10:10) and refused for himself (3:23–26), the reason the text gives (32:51; Num. 20:12; “for your sakes,” 1:37), shown the land (34:1–4), and standing in it with the Savior (Matt. 17:3). Its witness of Christ is Gethsemane, “nevertheless not as I will, but as thou wilt” (Matt. 26:39), and Heb. 5:7–8; beside it 2 Cor. 12:9 and D&C 122:7. It applies the arc to anyone who righteously asks for what the Lord does not give (`STANDARDS.md` §8, “It applies the arc to the reader”). Psalms' *The Savior Enters the Unanswered Prayer* is linked, not repeated.
 
 ## Leads seen while drafting the brief (2026-10-15)
 
