@@ -11,17 +11,110 @@ heroQuote:
   text: '“Thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might.”'
   cite: 'Moses to Israel, [[Deut. 6:5]]'
 description: A phrase-by-phrase companion to the book of Deuteronomy, grounded in the restored gospel of Jesus Christ.
-divisionsBlurb: DRAFT
+divisionsBlurb: Thirty-four chapters in five parts. Moses first retells the forty years, then repeats the Ten Commandments and the call to love the Lord. Next come the statutes for life in the land, and the covenant renewed with its blessings and cursings. The book closes with Moses' last days, his song, his blessing on the tribes, and his departure.
 home:
-  blurb: DRAFT
+  blurb: Moses' farewell to Israel on the plains of Moab. He retells the journey, repeats the law, and renews the covenant with a new generation. The book holds the commandment the Savior called the first and great one, and Moses' promise of a prophet like unto him.
 
 intro: |
-  DRAFT
+  Deuteronomy is Moses' farewell. Israel is camped “on this side Jordan” ([[Deut. 1:1]]) in the land of Moab, forty years after Sinai, and the generation that came out of Egypt has died in the wilderness. Before he leaves them, Moses speaks to their children. He retells the journey, repeats the Ten Commandments, and sets out again the statutes they are to keep in the land. The name means “repetition of the law.”
 
+  Its center is a confession and a command: “Hear, O Israel: The LORD our God is one LORD: And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might” ([[Deut. 6:4–5]]). The Savior called that the first and great commandment, and He answered each of the devil's temptations with a verse of this book. Moses promised that the Lord would raise up “a Prophet … like unto me” ([[Deut. 18:15]]), and the risen Lord told the Nephites, “I am he of whom Moses spake” ([[3 Ne. 20:23]]). The book ends with the covenant renewed and a choice set before the people, “therefore choose life” ([[Deut. 30:19]]); then a song, a blessing on each tribe, and Moses on the mountain looking at the land he would not enter. The Book of Mormon says that “the Lord took Moses unto himself” ([[Alma 45:19]]). This companion goes through all thirty-four chapters and tries to anticipate the questions a careful reader would ask, the hard ones included: why the Canaanites were to be destroyed, and why some of the laws seem so severe.
+
+  For the covenant and its renewal, see [The Law and the Covenant](/old-testament/guides/law-and-covenant/#renewals); for the conquest that follows Moses' death, see [A Timeline of the Old Testament](/old-testament/guides/israels-story/#judges).
+
+# The divisions follow Moses' discourses as the Bible Dictionary (“Deuteronomy”) and Scripture Helps divide them:
+# 1–4 the first discourse; 5–26 the second (5–11 the commandments and their exposition, 12–26 the code of laws);
+# 27–30 the covenant renewed; 31–34 Moses' last days.
+# Keys must not repeat another book’s (the colors are global variables).
 divisions:
-  - key: deutreview
-    range: [1, 34]
-    name: DRAFT
-    blurb: DRAFT
-    color: '#6a5a2a'
-    darkColor: '#d8c890'
+  - key: deutjourney
+    range: [1, 4]
+    name: Remember the Way
+    blurb: Moses retells the forty years, from Horeb to the plains of Moab. He recalls the spies and the people's refusal at Kadesh-barnea, the long wandering, the victories over Sihon and Og, and his own plea to cross the Jordan. He ends by urging Israel to keep the law and to worship no image.
+    color: '#7d6b3c'
+    darkColor: '#d9c58e'
+  - key: deutlove
+    range: [5, 11]
+    name: Hear, O Israel
+    blurb: The Ten Commandments repeated, and what they ask. Love the Lord with all thy heart, teach thy children, and do not forget Him when the land is full. Israel was chosen not for its righteousness, as the golden calf showed, but because the Lord loved it and kept His oath.
+    color: '#2f6d7a'
+    darkColor: '#88cbd8'
+  - key: deutstatutes
+    range: [12, 26]
+    name: The Statutes and Judgments
+    blurb: The code of laws for life in the land. It covers one place of worship, false prophets, clean food and the tithe, and the year of release. It also covers the feasts, judges, kings, priests and the coming Prophet, then war, family and neighbor, and ends with the basket of firstfruits.
+    color: '#5e4a7c'
+    darkColor: '#c2afe0'
+  - key: deutcovenant
+    range: [27, 30]
+    name: Blessing and Cursing
+    blurb: The covenant renewed on the plains of Moab. The law is to be written on stones at Mount Ebal and the curses spoken there, and the blessings of obedience and the cursings of disobedience are set out. Moses promises a gathering after the scattering and sets before Israel life and death.
+    color: '#8c3d4f'
+    darkColor: '#e6a2b2'
+  - key: deutfarewell
+    range: [31, 34]
+    name: The Last Days of Moses
+    blurb: Moses charges Joshua and gives the law to the priests, to be read every seventh year. He teaches Israel a song as a witness against them, blesses each tribe, and climbs Mount Nebo to see the land. The Lord takes him, and no man knows his sepulchre.
+    color: '#456b3d'
+    darkColor: '#a6d29a'
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [6, 8], sources: [scripture-helps-deut] }
+  - { range: [15, 15], sources: [scripture-helps-deut] }
+  - { range: [18, 18], sources: [scripture-helps-deut] }
+  - { range: [29, 30], sources: [scripture-helps-deut] }
+  - { range: [34, 34], sources: [scripture-helps-deut] }
+
+beloved:
+  - { chapter: 6, verse: 4, text: 'Hear, O Israel: The LORD our God is one LORD' }
+  - { chapter: 6, verse: 5, text: 'thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might' }
+  - { chapter: 8, verse: 3, text: 'man doth not live by bread only, but by every word that proceedeth out of the mouth of the LORD doth man live' }
+  - { chapter: 10, verse: 12, text: 'what doth the LORD thy God require of thee' }
+  - { chapter: 18, verse: 15, text: 'The LORD thy God will raise up unto thee a Prophet from the midst of thee, of thy brethren, like unto me; unto him ye shall hearken' }
+  - { chapter: 30, verse: 19, text: 'I have set before you life and death, blessing and cursing: therefore choose life' }
+  - { chapter: 31, verse: 6, text: 'Be strong and of a good courage' }
+  - { chapter: 33, verse: 27, text: 'The eternal God is thy refuge, and underneath are the everlasting arms' }
+
+coreSources:
+  - bd-deuteronomy
+  - scripture-helps-deut
+  - bowen-law-codes
+  - horton-jst-pentateuch
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'Ye Have Dwelt Long Enough in This Mount'
+  2: 'Ye Have Compassed This Mountain Long Enough'
+  3: 'Thou Shalt Not Go Over This Jordan'
+  4: 'Keep Thy Soul Diligently'
+  5: 'The Lord Talked with You Face to Face'
+  6: 'Hear, O Israel'
+  7: 'A Special People unto Himself'
+  8: 'Man Doth Not Live by Bread Only'
+  9: 'Not for Thy Righteousness'
+  10: 'What Doth the Lord Thy God Require of Thee'
+  11: 'A Blessing and a Curse'
+  12: 'The Place Which the Lord Your God Shall Choose'
+  13: 'The Lord Your God Proveth You'
+  14: 'Ye Are the Children of the Lord Your God'
+  15: 'Thou Shalt Open Thine Hand Wide'
+  16: 'Three Times in a Year'
+  17: 'That His Heart Be Not Lifted Up above His Brethren'
+  18: 'A Prophet from among Their Brethren, Like unto Thee'
+  19: 'That Innocent Blood Be Not Shed'
+  20: 'Be Not Afraid of Them'
+  21: 'He That Is Hanged Is Accursed of God'
+  22: 'Thou Mayest Not Hide Thyself'
+  23: 'The Curse into a Blessing'
+  24: 'Thou Wast a Bondman in Egypt'
+  25: 'Thou Shalt Not Muzzle the Ox'
+  26: 'A Syrian Ready to Perish Was My Father'
+  27: 'This Day Thou Art Become the People of the Lord'
+  28: 'All These Blessings Shall Come on Thee'
+  29: 'The Secret Things Belong unto the Lord'
+  30: 'Therefore Choose Life'
+  31: 'Be Strong and of a Good Courage'
+  32: 'He Is the Rock'
+  33: 'Underneath Are the Everlasting Arms'
+  34: 'There Arose Not a Prophet Since in Israel like unto Moses'
