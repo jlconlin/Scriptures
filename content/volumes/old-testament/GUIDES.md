@@ -16,6 +16,7 @@ The code, the scripts, the agents' guide sections and the workflow are built and
 - **Volume guides do not wait for the volume to be finished.** They describe the world, not the books, so they can be written now and linked from every book as it comes.
 - **The first volume guide is on the women of the Old Testament** and the marriage customs they lived under. The author's wife reads the Old Testament's women as objects, and the site has nothing to answer that. The guide is sourced like any guide (`STANDARDS.md` §4 in full; a guide makes no connections of its own). It does not argue that the customs promoted women; it says what the customs did, where the law protected women, where the narrator takes the women's side, what the hard texts are, and what the Restoration teaches.
 - **A book gets guides of its own only when it has two or more topics a book page cannot hold**, each needing sections, a table or a map. A single topic goes into the book page's intro, lengthened a little if it must, or into a volume guide. Daniel's and Hosea's intros already carry their setting in about 200 words each; when volume guide 2 exists, each gets one sentence linking to its period.
+- **Every book gets a glossary of its own: its names, places and images** (author, 2026-10-16: “Need to have it one per book. One for the whole volume would not help me understand the name and place. Well, I suppose there could be one for the volume *and* additional ones for the books”). It is the exception to the rule above. Isaiah's (*Names, Places & Symbols*) and Jeremiah's (*Names, Places & Images*) are the models: a bold term opening each entry, a sentence or two sourced like any guide, and an arrow to the chapter that explains it. Each entry's bold term gives it an anchor (`#rabshakeh`), so the book's chapters can link to it; once a glossary exists, a pass over that book's chapters adds those links. A glossary for the whole volume may come as well.
 - **The author approves the outline of the women guide before it is written.** Other guides follow the usual course (outline by the coordinating session, the page shown in the preview).
 
 ## The guides
@@ -34,6 +35,7 @@ Guides 2 to 7 were to be written as a book needed them; the author asked for the
 
 **Book guides still worth writing:**
 
+- **A glossary for every book that has none** (all but Isaiah and Jeremiah), and then the pass over Isaiah's and Jeremiah's chapters that links their notes to the glossary entries.
 - **Psalms** (the largest gap, 150 chapters with none): *How to read the Psalms* (the five books, the titles and their terms, the kinds of psalm, Davidic authorship) and *The Psalms in Israel's worship* (or fold that into volume guide 5). Christ in the Psalms is already carried by the theme pages.
 - **Genesis**: *The patriarchs' world* (the household, inheritance, the birthright, nomadic life, Mesopotamia to Egypt) and *Genesis beside Moses and Abraham* (the JST and the Pearl of Great Price, chapter by chapter).
 - **Ezekiel**: *Ezekiel's exile and his temple* (the deportations, the priestly background, the visions' architecture).
