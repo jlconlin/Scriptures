@@ -11,10 +11,24 @@ Questions a reader would ask that no source read answered, by chapter: a list fo
 - 2:3–31 why the tribes are grouped by their mothers (Leah, Rachel, the handmaids).
 - 2:10 why Reuben, the firstborn, leads only the second camp.
 
+## Numbers 3
+
+- 3:12 whether the Levites' own firstborn were counted or exchanged (3:40–45).
+- 3:41 why the Levites' cattle were not matched head for head, as the sons were.
+
 ## Numbers 4
 
 - 4:6 why only the ark has its colored cloth outside (only an older commentary).
 - 4:3 with 8:24, why two starting ages (only older readings).
+
+## Numbers 5
+
+- 5:17 why dust from the tabernacle floor and why a clay vessel (only Keil's symbolism).
+- 5:22 what the woman's "Amen, amen" does.
+
+## Numbers 6
+
+- 6:2 why a woman could take the vow, and how often women did.
 
 ## Numbers 7
 
@@ -25,6 +39,11 @@ Questions a reader would ask that no source read answered, by chapter: a list fo
 
 - 9:6 who the men defiled by a dead body were, and whose body.
 - 9:5–14 whether Israel kept any Passover between Sinai and Gilgal (Josh. 5:10).
+
+## Numbers 10
+
+- 10:21 whether the ark on the march was among "the sanctuary" the Kohathites carried or went apart from it (10:33); only Keil harmonizes.
+- 10:2 a Latter-day Saint reading of the silver trumpets (none found).
 
 ## Numbers 11
 
