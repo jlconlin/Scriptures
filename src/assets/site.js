@@ -462,7 +462,7 @@
         return `<div class="picker-pane" style="--vc:var(--v-${v.slug})">
           <div class="picker-bookhead"><h3><a href="${url(`${b.slug}/`)}">${esc(b.name)} ${chev}</a></h3>
             <p>${esc(info[b.slug]?.blurb ?? '')}</p>
-            <span class="links"><span>${w < b.total ? `Commentary on ${w} of ${b.total} chapters` : `${b.total} chapters`}</span><a href="${url(`${b.slug}/`)}">Open ${esc(b.name)}</a>${b.guides ? `<a href="${url(`${b.slug}/guides/`)}">Guides</a>` : ''}${info[b.slug]?.themes ? `<a href="${url(`${b.slug}/themes/`)}">Themes</a>` : ''}</span>
+            <span class="links"><span>${w < b.total ? `Commentary on ${w} of ${b.total} chapters` : `${b.total} chapters`}</span>${b.guides ? `<a href="${url(`${b.slug}/guides/`)}">Guides</a>` : ''}${info[b.slug]?.themes ? `<a href="${url(`${b.slug}/themes/`)}">Themes</a>` : ''}</span>
           </div>
           <div class="menu-grid">${cells}</div>
           ${w < b.total ? '<div class="menu-legend"><span><i class="lw"></i>Commentary</span><span><i class="lu"></i>Opens the Gospel Library</span></div>' : ''}
