@@ -21,7 +21,7 @@ Nothing.
 
 ## Work waiting, no decision needed
 
-- **S3. The design branch `worktree-ui-design`** holds the design work of 2026-10-15 and 10-16 (chapter, book, theme and guide pages, the header and footer, passage previews, The Land's map). The author: don't merge to `main` “until we've done all the impeccable upgrades”; the home page is the last page type under review. After the merge, pushing changes the live site, so it waits for the author's word.
+- **S3. The design branch `worktree-ui-design`** holds the design work of 2026-10-15 to 10-17 (chapter, book, theme, guide, home and volume pages, the header and footer, passage previews, The Land's map), finished on 2026-10-17. The author: don't merge to `main` “until we've done all the impeccable upgrades”. `main` has been merged into it (2026-10-17). To be seen whole, it goes to the `dev` branch and the dev site (https://scriptures-dev.conlin.io); after the author approves it there, `main` is fast-forwarded to it and pushed, which changes the live site, so each push waits for the author's word.
 
 ## Notes waiting for a Book of Mormon home
 

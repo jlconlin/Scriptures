@@ -38,7 +38,7 @@ A focused companion to the scriptures: one clear reading of each chapter, deeper
 - Every book shares one codebase with no book-specific code; books are found from `content/*/book.yaml`.
 - Page types: home, book page, chapter, theme page, guide (book and volume), facsimile, About, search, 404.
 - Note kinds and section names are the site's vocabulary (for example “BoM Comparison,” chosen knowingly by the author).
-- **Changes to how the site looks wait for the author's approval on a separate branch** (`DECISIONS.md`), shown first in the private claude.ai preview (`AUTHORING.md`, “Showing a change”).
+- **Changes to how the site looks wait for the author's approval on a separate branch** (`DECISIONS.md`), shown first on the dev site, https://scriptures-dev.conlin.io (`AUTHORING.md`, “Showing a change”).
 
 ## Brand Commitments
 
