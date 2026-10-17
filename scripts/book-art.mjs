@@ -93,6 +93,9 @@ if (command === 'prompt') {
   const dest = path.join(ROOT, 'src', asset);
   if (existsSync(dest) && !argv.includes('--force')) fail(`${rel(dest)} exists: pass --force to replace it`);
   await copyFile(source, dest);
+  // The pages serve a WebP copy of the approved PNG (scripts/webp.mjs); make it now so the book never ships the PNG.
+  const webp = spawnSync(process.execPath, [path.join(ROOT, 'scripts', 'webp.mjs')], { stdio: 'inherit' });
+  if (webp.status !== 0) console.warn('No WebP made: the page will serve the PNG until `node scripts/webp.mjs` runs.');
   // Edited as text so the brief's wording and layout stay as the director wrote them.
   let text = (await readFile(visualFile, 'utf8')).replace(/^(asset|status):.*\n/gm, '').trimEnd();
   text = /^alt:/m.test(text) ? text.replace(/^alt:/m, `asset: ${asset}\nalt:`) : `${text}\nasset: ${asset}`;
