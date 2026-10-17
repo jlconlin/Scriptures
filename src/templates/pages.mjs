@@ -3,7 +3,7 @@ import { KINDS, SITE, LIBRARY, VOLUMES_WITH_GUIDES, sectionTitle } from '../site
 import { layout, icon, logo, lastRevised } from './layout.mjs';
 import { renderSource } from './sources.mjs';
 import { gospelLibraryUrl, chapterLabel, unitPlural } from './chapter.mjs';
-import { VOLUMES, gospelLibraryVolume } from '../lib/canon.mjs';
+import { VOLUMES, gospelLibraryVolume, divisionOf } from '../lib/canon.mjs';
 import { sectionNav, headingNav, searchScope } from './ui.mjs';
 
 const ensignArt = `<svg class="hero-art" viewBox="0 0 320 220" aria-hidden="true">
@@ -89,7 +89,20 @@ export function renderHome({ books, featured }) {
   return layout({ title: '', path: '/', body, bodyClass: 'page-home' });
 }
 
-// A volume's page: its books on the site, and the Gospel Library for the rest.
+// A volume's books, first and grouped by the volume's divisions (the Law, the prophets…), as rows with a two-line
+// description: [division name or null, books]. One group without a heading when they all fall in one division.
+function bookGroups(sorted, volume) {
+  const groups = [];
+  for (const b of sorted) {
+    const name = divisionOf(volume.key, b.place.index);
+    if (groups.at(-1)?.[0] === name) groups.at(-1)[1].push(b);
+    else groups.push([name, [b]]);
+  }
+  return groups.length > 1 ? groups : [[null, sorted]];
+}
+
+// A volume's page: its books on the site first (author, 2026-10-16: “Definitely books first”), then its guides,
+// and the Gospel Library for the rest.
 export function renderVolume({ volume, books, html = '', guides = [] }) {
   const sorted = [...books].sort((a, b) => a.place.index - b.place.index);
   const status = (b) => (b.written.length < b.chapters.length ? `${b.written.length} of ${b.chapters.length} ${unitPlural(b)}` : `${b.chapters.length} ${unitPlural(b)}`);
@@ -100,14 +113,15 @@ export function renderVolume({ volume, books, html = '', guides = [] }) {
   <p class="lede">${sorted.length ? `The books of the ${esc(volume.name)} on this site so far. The whole ${esc(volume.name)} is in the Gospel Library, with footnotes and study helps.` : `Nothing from the ${esc(volume.name)} is on this site yet. You can read it in the Gospel Library, with footnotes and study helps.`}</p>
   <p><a class="btn" href="${gospelLibraryVolume(volume)}" target="_blank" rel="noopener">Read the ${esc(volume.name)} in the Gospel Library ↗</a></p>
 </div></header>
-${html ? `<article class="wrap narrow guide prose prose-lg">${html}</article>` : ''}${guides.length ? `<section class="wrap narrow book-section volume-guides">
+${html ? `<article class="wrap narrow guide prose prose-lg">${html}</article>` : ''}${sorted.length ? `<section class="wrap book-section volume-books" aria-labelledby="books-h">
+  <h2 class="section-title" id="books-h">Books</h2>
+  ${bookGroups(sorted, volume).map(([name, bs]) => `${name ? `<h3 class="book-group">${esc(name)}</h3>` : ''}<ul class="book-rows">${bs.map((b) => `<li><a class="book-row" href="/${b.slug}/"><span class="book-row-name">${esc(b.name)}</span><span class="book-row-status">${status(b)}</span><span class="book-row-blurb">${esc(b.home.blurb)}</span></a></li>`).join('')}</ul>`).join('\n  ')}
+</section>` : ''}
+${guides.length ? `<section class="wrap narrow book-section volume-guides">
   <h2 class="section-title">Guides</h2>
   <p class="section-sub">${esc(sharedLede(volume))}</p>
   <div class="guide-cards">${guides.map((g) => guideCard(volume, COLLECTIONS.guides, g)).join('')}</div>
-</section>` : ''}
-${sorted.length ? `<section class="wrap narrow book-section"><div class="volumes volumes-stack">
-  ${sorted.map((b) => `<a class="volume live" href="/${b.slug}/"><span class="volume-status">${status(b)}</span><h3>${esc(b.name)}</h3><p>${esc(b.home.blurb)}</p><span class="volume-go">Open ${icon('arrowR')}</span></a>`).join('')}
-</div></section>` : ''}`;
+</section>` : ''}`;
   return layout({ title: volume.name, description: `The books of the ${volume.name} on ${SITE.name}.`, path: `/${volume.slug}/`, body, bodyClass: 'page-volume', volume: volume.key });
 }
 

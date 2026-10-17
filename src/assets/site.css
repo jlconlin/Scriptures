@@ -781,6 +781,26 @@ section.home-hero { padding-bottom: 0; }
 .guides-wide { max-width: calc(860px + 2 * var(--gutter)); }
 /* A volume's guides on its page sit in the reading column, one to a row. */
 .volume-guides .guide-cards { grid-template-columns: 1fr; }
+/* A volume page's books: a list under the volume's divisions, one row per book with its count and a two-line
+   description; tight rows, and two columns on wide screens (author, 2026-10-16: “tighter rows and two columns for
+   wide screens”). The page widens to 900px there so the columns read; the guides keep the reading width. */
+.volume-books { max-width: calc(var(--read-w) + 2 * var(--gutter)); }
+.book-group { margin: 16px 0 6px; font: 700 .8rem var(--font-ui); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.volume-books .section-title + .book-group { margin-top: 4px; }
+.book-rows { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.book-rows li { border-bottom: 1px solid var(--line); }
+.book-row { display: grid; grid-template-columns: 1fr auto; gap: 2px 16px; padding: 7px 4px; color: var(--ink); text-decoration: none; min-height: 44px; }
+.book-row:hover { background: color-mix(in srgb, var(--accent) 6%, transparent); }
+.book-row-name { font: 600 1.2rem/1.3 var(--font-display); }
+.book-row-status { font-size: .82rem; color: var(--muted); align-self: center; font-variant-numeric: tabular-nums; }
+.book-row-blurb { grid-column: 1 / -1; color: var(--ink-2); font-size: .93rem; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+@media (min-width: 820px) {
+  .page-volume .page-hero .wrap.narrow, .page-volume .volume-guides, .volume-books { max-width: calc(900px + 2 * var(--gutter)); }
+  .page-volume .volume-guides .guide-cards, .page-volume .volume-guides .section-sub { max-width: var(--read-w); }
+  .book-rows { display: grid; grid-template-columns: 1fr 1fr; column-gap: 32px; border-top: 0; }
+  .book-rows li { border-top: 1px solid var(--line); border-bottom: 0; }
+  .book-rows li:last-child, .book-rows li:nth-last-child(2):nth-child(odd) { border-bottom: 1px solid var(--line); }
+}
 
 /* Facsimile pages (the Book of Abraham): a plate from an old printing, then its explanation by figure. */
 .plate { margin: 26px 0 8px; }
