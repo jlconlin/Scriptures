@@ -31,8 +31,6 @@ export const teaserText = (note) => plain(note.body).slice(0, 150);
 // is the Scriptures menu's picker, open on the page: site.js draws it from the menu's data plus the
 // blurbs in data-books. Without JavaScript it is the list of volumes and books written here.
 export function renderHome({ books, featured }) {
-  const exampleBook = books.find((b) => b.written.length);
-  const exampleChapter = exampleBook?.written[0];
   const inVolume = (v) => books.filter((b) => b.place.vol === v.key).sort((a, b) => a.place.index - b.place.index);
   const info = Object.fromEntries(books.map((b) => [b.slug, { blurb: b.home.blurb, themes: b.hasThemes }]));
   const fallback = VOLUMES.map((v) => {
@@ -48,11 +46,9 @@ export function renderHome({ books, featured }) {
       <p class="lede">Some passages of scripture make you stop and read them three times. This site is for those passages. It goes phrase by phrase, the way a patient religion teacher might, with the history, the language, the imagery, and the witness of Jesus Christ that sits underneath them.</p>
     </div>
   </div>
-  <div class="wrap home-hero-actions"><p class="home-continue" hidden></p><div class="cta-row">
-    <a class="btn btn-primary" href="#library">Choose a book</a>
-    ${exampleChapter ? `<a class="btn" href="/${exampleBook.slug}/${exampleChapter.chapter}/#reading">Try the reading experience</a>` : ''}
-    <a class="home-about" href="/about/">How this site works</a>
-  </div></div>
+  <!-- No buttons under the introduction (author, 2026-10-16: “Let's remove the buttons”): the library follows the
+       picture, and About is in the header. The “Continue” line stays, filled by site.js on a return visit. -->
+  <div class="wrap home-hero-actions"><p class="home-continue" hidden></p></div>
   <div class="wrap home-hero-visual">${homeHeroArt}</div>
 </section>
 
