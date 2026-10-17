@@ -133,3 +133,36 @@ Questions a reader would ask that no source read answered, by chapter: a list fo
 ## Numbers 27
 
 - 27:8 why the law of 27:8–11 gives a widow no place.
+
+## Numbers 28
+
+- 28:9 why the Sabbath has no sin offering when the new moon does (only Keil's guess).
+- 28:3 why Ezekiel's offerings (Ezek. 45–46) differ in amount from these.
+
+## Numbers 30
+
+- 30:2 why the law makes no matching provision for anyone to overrule a man's vow.
+
+## Numbers 31
+
+- 31:18 why the girls were spared, and what became of them beyond the count in verses 35 and 40–41.
+- 31:17 why the boys were killed (the text gives no reason; only Keil offers one).
+
+## Numbers 32
+
+- 32:38 why the Reubenites renamed Nebo and Baal-meon (only older commentaries, as proposals).
+
+## Numbers 33
+
+- 33:3 what "with an high hand" adds beyond Ex.
+- 14:8.
+- 33:40 why verse 40 interrupts the list.
+
+## Numbers 35
+
+- 35:24 where the congregation heard the slayer's case, at his own town or at the city of refuge (only Cambridge, "presumably").
+- 35:25 why the slayer's term ends at the high priest's death (only the two older readings).
+
+## Numbers 36
+
+- 36:11 why the daughters' names come in a different order from 26:33 and 27:1.
