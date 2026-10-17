@@ -351,6 +351,14 @@ a.ref-internal { text-decoration-style: dotted; }
 .picker-bookhead .links a { color: var(--accent-ink); font-weight: 650; text-decoration: none; }
 .picker-bookhead h3 a:hover, .picker-bookhead .links a:hover, .picker .page-link:hover, .picker .menu-link:hover { color: var(--accent-ink); text-decoration: underline; text-underline-offset: 3px; }
 .picker .cell { height: 36px; }
+/* On touch screens the home picker's chapter squares, books and links are finger-sized, and the book column lists
+   every book instead of scrolling inside itself (author, 2026-10-16). */
+@media (pointer: coarse) {
+  .picker .cell { height: 44px; font-size: .92rem; }
+  .picker .menu-item { min-height: 44px; }
+  .picker-col { max-height: none; overflow: visible; }
+  .picker-bookhead .links a { display: inline-flex; align-items: center; min-height: 44px; }
+}
 .picker .menu-link { color: var(--accent-ink); font-size: .88rem; font-weight: 650; margin: 0 10px; text-decoration: none; }
 .picker-list { padding: 6px 10px 10px; }
 .picker-vol { padding: 10px 0 8px; border-top: 1px solid var(--line); }
