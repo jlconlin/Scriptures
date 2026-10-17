@@ -1,13 +1,14 @@
 export const meta = {
   name: 'codex-pass',
   description: 'A language pass on reviewed chapters: Codex reads each chapter and the batch side by side, then an Opus agent applies the findings that hold up and reruns the checks',
-  whenToUse: 'A batch of chapters has passed review and been committed. The fourth step of writing a chapter (author, 2026-10-07). args: { book, chapters, codexModel }',
+  whenToUse: 'A batch of chapters has passed review and been committed. The fourth step of writing a chapter (author, 2026-10-07). args: { book, chapters, codexModel, applyModel }',
   phases: [{ title: 'Apply' }],
 }
 // args:
 //   book        the book's slug
 //   chapters    the chapter numbers of one batch, e.g. [13, 14, …, 24]; they are also read together, first to last
 //   codexModel  optional Codex model, when the configured one is at capacity
+//   applyModel  'opus' (default) or 'sonnet', for the agents that apply the findings (Sonnet 5.5 was tried on Deuteronomy, 2026-10-15, and did harm: AUTHORING.md, “Why these models”; keep opus)
 // Codex (another model family) reads for language only and edits nothing: the coordinator runs
 // `node scripts/codex-read.mjs <book> <from>-<to> --batch` first, which saves numbered findings in
 // .cache/batch/<book>/reports/ (NN-codex.md for a chapter, NN-NN-codex.md for the chapters read side by side).
@@ -51,7 +52,7 @@ Work in few steps, several edits in one message. Then run node scripts/check-cha
 // agent whose findings file is missing says so under `problems` and edits nothing.
 
 const results = await parallel(chapters.map((n) => () =>
-  agent(applyPrompt(n), { label: `apply:${n}`, phase: 'Apply', agentType: 'chapter-reviewer', model: 'opus', schema: APPLIED })
+  agent(applyPrompt(n), { label: `apply:${n}`, phase: 'Apply', agentType: 'chapter-reviewer', model: args.applyModel ?? 'opus', schema: APPLIED })
     .then((a) => (a ? { chapter: n, ...a } : null))))
 const done = results.filter(Boolean)
 const missing = chapters.filter((n) => !done.some((d) => d.chapter === n))

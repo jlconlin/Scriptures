@@ -10,7 +10,7 @@ Nephi wrote of Isaiah that “he verily saw my Redeemer, even as I have seen him
 Isaiah is full of testimony of Christ.[@isaiah-in-bom, p. 2] This guide collects the main ways he testifies of Jesus Christ.
 
 <figure class="guide-illustration">
-  <img src="/assets/isaiah-cornerstone.png" alt="A pale cornerstone set into a stone foundation, illuminated by a warm beam of light.">
+  <img src="/assets/isaiah-cornerstone.jpg" alt="A pale cornerstone set into a stone foundation, illuminated by a warm beam of light.">
   <figcaption>A visual meditation on Isaiah’s “precious corner stone” ([[Isa. 28:16]]).</figcaption>
 </figure>
 

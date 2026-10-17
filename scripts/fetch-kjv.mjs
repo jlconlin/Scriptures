@@ -228,6 +228,46 @@ const LDS_SPELLINGS = [
   [/blasphemeth the name of the Lord, shall be/g, 'blasphemeth the name of the LORD, shall be'], // Lev. 24:16
   [/\bjubile\b/g, 'jubilee'], // Lev. 25; 27
   [/thy God:for I am/g, 'thy God: for I am'], // Lev. 25:17
+  // Deuteronomy: hyphens in names, spellings, punctuation, and capitals (found by scripts/check-kjv.mjs).
+  [/\bKadeshbarnea\b/g, 'Kadesh-barnea'], // Deut. 1:2, 19; 2:14; 9:23
+  [/\bEziongaber\b/g, 'Ezion-gaber'], // Deut. 2:8
+  [/\bBashanhavothjair\b/g, 'Bashan-havoth-jair'], // Deut. 3:14
+  [/\bAshdothpisgah\b/g, 'Ashdoth-pisgah'], // Deut. 3:17
+  [/\bBethpeor\b/g, 'Beth-peor'], // Deut. 3:29; 4:46; 34:6
+  [/\bBaalpeor\b/g, 'Baal-peor'], // Deut. 4:3
+  [/\bKibrothhattaavah\b/g, 'Kibroth-hattaavah'], // Deut. 9:22
+  [/\bMeribahKadesh\b/g, 'Meribah-Kadesh'], // Deut. 32:51
+  [/of anything that dieth/g, 'of any thing that dieth'], // Deut. 14:21
+  [/take an aul, and thrust/g, 'take an awl, and thrust'], // Deut. 15:17
+  [/and enquired diligently, and,/g, 'and inquired diligently, and,'], // Deut. 17:4
+  [/or a witch\./g, 'or a witch,'], // Deut. 18:10
+  [/no might in thine hand:/g, 'no might in thine hand.'], // Deut. 28:32
+  [/When the Most High divided/g, 'When the most High divided'], // Deut. 32:8
+  [/and the Lord shall cover him/g, 'and the LORD shall cover him'], // Deut. 33:12
+  // Numbers: hyphens in names, old spellings, and capitals (found by scripts/check-kjv.mjs).
+  [/the mixt multitude/g, 'the mixed multitude'], // Num. 11:4
+  [/by daytime in a pillar/g, 'by day time in a pillar'], // Num. 14:14 (after the general rule above)
+  [/let the power of my LORD be great/g, 'let the power of my Lord be great'], // Num. 14:17
+  [/valley\.\) Tomorrow turn/g, 'valley.) To morrow turn'], // Num. 14:25
+  [/for everything of the altar/g, 'for every thing of the altar'], // Num. 18:7
+  [/trespass offering of theirs which they/g, 'trespass offering of theirs, which they'], // Num. 18:9
+  [/without doing anything else/g, 'without doing any thing else'], // Num. 20:19
+  [/\bIjeabarim\b/g, 'Ije-abarim'], // Num. 21:11; 33:44
+  [/\bKirjathhuzoth\b/g, 'Kirjath-huzoth'], // Num. 22:39
+  [/a tribute unto the Lord of the men of war/g, 'a tribute unto the LORD of the men of war'], // Num. 31:28
+  [/\bBethnimrah\b/g, 'Beth-nimrah'], // Num. 32:36
+  [/\bBethharan\b/g, 'Beth-haran'], // Num. 32:36
+  [/\bBaalmeon\b/g, 'Baal-meon'], // Num. 32:38
+  [/\bHavothjair\b/g, 'Havoth-jair'], // Num. 32:41
+  [/\bRimmonparez\b/g, 'Rimmon-parez'], // Num. 33:19–20
+  [/\bBenejaakan\b/g, 'Bene-jaakan'], // Num. 33:31–32
+  [/\bHorhagidgad\b/g, 'Hor-hagidgad'], // Num. 33:32–33
+  [/\bDibongad\b/g, 'Dibon-gad'], // Num. 33:45–46
+  [/\bAlmondiblathaim\b/g, 'Almon-diblathaim'], // Num. 33:46–47
+  [/\bBethjesimoth\b/g, 'Beth-jesimoth'], // Num. 33:49
+  [/\bHazaraddar\b/g, 'Hazar-addar'], // Num. 34:4
+  [/\bHazarenan\b/g, 'Hazar-enan'], // Num. 34:9–10
+  [/\bAbelshittim\b/g, 'Abel-shittim'], // Num. 33:49
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 

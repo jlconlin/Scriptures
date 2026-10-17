@@ -2,6 +2,7 @@
 // Reads content/ and data/, writes a complete static site to dist/.
 import { readFile, writeFile, mkdir, readdir, cp, rm, stat } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { execFile } from 'node:child_process';
 import { promisify } from 'node:util';
 import path from 'node:path';
@@ -15,8 +16,8 @@ const noteRef = (book, chapter, ref) => (String(ref) === '0' ? `${chapterLabel(b
 import { renderFacsimile, facsimileUrl } from '../src/templates/facsimile.mjs';
 import { discoverBooks, discoverVolumes } from '../src/lib/books.mjs';
 import { VOLUMES, placeOf } from '../src/lib/canon.mjs';
-import { LIBRARY, VOLUMES_WITH_GUIDES } from '../src/site.mjs';
-import { renderHome, renderVolume, renderBookIndex, renderGuidesIndex, renderGuide, renderPage, renderSearch, render404, chapterGuide, teaserText, COLLECTIONS } from '../src/templates/pages.mjs';
+import { SITE, LIBRARY, VOLUMES_WITH_GUIDES } from '../src/site.mjs';
+import { renderHome, renderVolume, renderBookIndex, renderGuidesIndex, renderGuide, renderPage, renderSearch, render404, chapterGuide, offlinePanel, teaserText, COLLECTIONS } from '../src/templates/pages.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 // BUILD_OUT=<dir> writes the site somewhere other than dist/, so several agents can each run the
@@ -24,9 +25,10 @@ const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..')
 const OUT = process.env.BUILD_OUT ? path.resolve(process.env.BUILD_OUT) : path.join(ROOT, 'dist');
 const r = (...p) => path.join(ROOT, ...p);
 
-// PREVIEW=1 (set by npm run dev, and for the claude.ai preview) also builds books whose
-// book.yaml says `status: preview`. The live site leaves them out entirely.
-const PREVIEW = process.env.PREVIEW === '1';
+// PREVIEW=1 (set by npm run dev) also builds books whose book.yaml says `status: preview`, and so
+// does a Cloudflare build of any branch but main (the dev site, scriptures-dev.conlin.io). The live
+// site leaves them out entirely.
+const PREVIEW = process.env.PREVIEW === '1' || (!!process.env.WORKERS_CI_BRANCH && process.env.WORKERS_CI_BRANCH !== 'main');
 const run = promisify(execFile);
 
 const warnings = [];
@@ -50,6 +52,27 @@ async function lastRevised(file) {
     // A source archive may omit Git history; use the source file's timestamp in that case.
   }
   return (await stat(file)).mtime.toISOString().slice(0, 10);
+}
+
+// The offline copy (DEVELOPMENT.md, “Reading offline”): every file a reader's device saves, as its URL and a
+// hash of its contents, so that the service worker (public/sw.js) fetches only what changed since the last save.
+// A page's ?v= stamp changes with every build, so it is left out of the hash: the saved copy answers assets
+// without their query, and an unchanged page is not fetched again for a new stamp.
+const OFFLINE_SKIP = /^(sw\.js|offline\.json|sitemap\.xml|robots\.txt|manifest\.webmanifest)$/;
+async function writeOfflineList() {
+  const walk = async (d) => (await Promise.all((await readdir(d, { withFileTypes: true })).map((e) => (e.isDirectory() ? walk(path.join(d, e.name)) : [path.join(d, e.name)])))).flat();
+  const files = {};
+  let bytes = 0;
+  for (const f of (await walk(OUT)).sort()) {
+    const rel = path.relative(OUT, f).split(path.sep).join('/');
+    if (OFFLINE_SKIP.test(rel)) continue;
+    let body = await readFile(f);
+    bytes += body.length;
+    if (rel.endsWith('.html')) body = body.toString('utf8').replaceAll(`?v=${SITE.version}`, '');
+    const url = `/${rel}`.replace(/(^|\/)index\.html$/, '$1');
+    files[url] = createHash('sha1').update(body).digest('hex').slice(0, 12);
+  }
+  await write('offline.json', JSON.stringify({ built: new Date().toISOString().slice(0, 10), bytes, files }));
 }
 
 const readYaml = async (p) => {
@@ -324,7 +347,7 @@ export async function build({ quiet = false } = {}) {
   }
   search.push(...volumeSearch);
   const about = await readMd(r('content/about.md'));
-  await write('about/index.html', renderPage({ title: about.title, blurb: about.blurb, html: md(about.body).replace('<!-- chapter-guide -->', chapterGuide()), path: '/about/', updated: await lastRevised(r('content/about.md')) }));
+  await write('about/index.html', renderPage({ title: about.title, blurb: about.blurb, html: md(about.body).replace('<!-- chapter-guide -->', chapterGuide()).replace('<!-- offline -->', offlinePanel()), path: '/about/', updated: await lastRevised(r('content/about.md')) }));
   await write('search/index.html', renderSearch());
   await write('404.html', render404());
   await write('search.json', JSON.stringify(search));
@@ -345,7 +368,8 @@ export async function build({ quiet = false } = {}) {
     'sitemap.xml',
     `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map((u) => `<url><loc>https://scriptures.conlin.io${u}</loc></url>`).join('\n')}\n</urlset>\n`,
   );
-  await write('robots.txt', 'User-agent: *\nAllow: /\nSitemap: https://scriptures.conlin.io/sitemap.xml\n');
+  await write('robots.txt', SITE.noindex ? 'User-agent: *\nDisallow: /\n' : 'User-agent: *\nAllow: /\nSitemap: https://scriptures.conlin.io/sitemap.xml\n');
+  await writeOfflineList();
 
   for (const u of unknownRefs) warn(`unrecognized scripture reference: [[${u}]]`);
   if (!quiet) {

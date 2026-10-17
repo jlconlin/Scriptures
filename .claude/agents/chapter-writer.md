@@ -49,7 +49,7 @@ Build `content/<book>/evidence/NN.yaml` (two-digit chapter number) in the format
 Write `content/<book>/chapters/NN.yaml` with every field in `STANDARDS.md` (“Chapter file structure”). Work from the ledger: every factual claim you write has a row, and every source key you cite has a row. Then re-read your chapter against the ledger and remove anything that has no row.
 
 - No length target, but no note that is mostly a chain of cross-references or a curiosity; `setting` 150–250 words.
-- No personal application or “liken” content. Close with `christ` and `explore`.
+- Close with `christ` and `explore`. `christ` points to Jesus Christ and then says, in one to three plain sentences, where that principle reaches a disciple's life now, grounded in the scripture and prophets it cites (`STANDARDS.md` §1, “Apply scripture to the reader”): statements only, no questions to the reader, invitations or exhortation.
 - Don't name modern scholars in running text, and don't announce a source (“The Church's manual says…”): work the quotation into the sentence and let the citation carry the attribution. Say how certain each claim is.
 - Open each note with a sentence that states its point (never “This note is about…”).
 - **No reading of your own.** A division of a chapter, who a speaker is, a connection between verses: each comes from a source read, or is left out. A view your only source reports in order to reject it is not sourced. Chapter notes make no connections of their own; theme pages may (`STANDARDS.md` §8).

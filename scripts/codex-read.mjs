@@ -89,7 +89,7 @@ Read ${files[0]} and report, in the order of the file:
 5. A claim worded more firmly than the words around it support (“clearly”, “certainly”, “the point is”), or a reading presented as fact.
 6. Two notes, or a note and the setting, thread, christ or explore, that say the same thing; two places that contradict each other.
 7. A “plain” paraphrase that says something its verses do not, or adds an interpretation.
-8. Anything preachy, or an application to the reader's life made in the writer's own voice.
+8. Anything preachy; an application to the reader's life put as a question, an invitation or an exhortation, or one that does not follow from the scripture it cites (an application stated plainly is wanted, in a chapter's christ section and on a theme page).
 9. Typos, grammar, inconsistent names or terms.
 
 For each finding give: where (the field, and the verse and note title for a note), the words quoted exactly, what is wrong in one sentence, and a suggested wording when one helps. Number them. Put the ten that matter most first under “Most worth fixing”, then the rest. If a category has nothing, don't mention it. End with one line: how the chapter reads as a whole, and whether it is too long for what it says.`;
@@ -110,7 +110,7 @@ const rules = `1. A sentence that is hard to follow, ambiguous, or longer than i
 3. A technical term or Hebrew word used without being explained the first time.
 4. A claim worded more firmly than the words around it support, or a reading presented as fact.
 5. Two places that say the same thing, or that contradict each other.
-6. Anything preachy, or an application to the reader's life made in the writer's own voice.
+6. Anything preachy; an application to the reader's life put as a question, an invitation or an exhortation, or one that does not follow from the scripture it cites (an application stated plainly is wanted, in a chapter's christ section and on a theme page).
 7. Typos, grammar, inconsistent names or terms.`;
 const report = `For each finding give: where (the heading or field), the words quoted exactly, what is wrong in one sentence, and a suggested wording when one helps. Number them, the ones that matter most first. If a category has nothing, don't mention it. End with one line on how the page reads as a whole and whether it is too long for what it says.`;
 const pageAsk = page && (page.kind === 'book'

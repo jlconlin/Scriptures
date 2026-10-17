@@ -3,16 +3,6 @@ import { linkRefs } from '../lib/refs.mjs';
 import { scripturePreviewData } from '../lib/scripture-previews.mjs';
 import { SITE, LIBRARY, VOLUMES_WITH_GUIDES } from '../site.mjs';
 import { VOLUMES, gospelLibraryVolume } from '../lib/canon.mjs';
-import { existsSync } from 'node:fs';
-
-// Illustrations are served as WebP where one sits beside the approved PNG in src/assets: at the PNG's full resolution
-// and a tenth or less of its weight (author, 2026-10-17, comparing them on the iPad: “I really can't see a difference”).
-// The PNGs stay as the approved masters; scripts/webp.mjs makes the WebP copies.
-const webpCache = new Map();
-const preferWebp = (html) => html.replace(/\/assets\/([\w-]+)\.png\b/g, (m, name) => {
-  if (!webpCache.has(name)) webpCache.set(name, existsSync(new URL(`../assets/${name}.webp`, import.meta.url)));
-  return webpCache.get(name) ? `/assets/${name}.webp` : m;
-});
 
 export const logo = `<svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true">
   <rect x="3" y="6" width="26" height="3.2" rx="1.6" fill="currentColor" opacity=".35"/>
@@ -33,7 +23,7 @@ export function lastRevised(date, tag = 'p') {
  * @param {{title:string, description?:string, path:string, body:string, bodyClass?:string, book?:object, chapter?:number, volume?:string, head?:string}} p
  */
 export function layout({ title, description = SITE.description, path, body, bodyClass = '', book, chapter, volume, head = '' }) {
-  const linkedBody = preferWebp(linkRefs(body));
+  const linkedBody = linkRefs(body);
   const scripturePreviews = scripturePreviewData(linkedBody);
   const fullTitle = title ? `${title} · ${SITE.name}` : `${SITE.name} — ${SITE.tagline}`;
   const url = SITE.url + path;
@@ -54,7 +44,7 @@ export function layout({ title, description = SITE.description, path, body, body
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(fullTitle)}</title>
 <meta name="description" content="${esc(description)}">
-<link rel="canonical" href="${url}">
+${SITE.noindex ? '<meta name="robots" content="noindex">\n' : ''}<link rel="canonical" href="${url}">
 <meta property="og:title" content="${esc(fullTitle)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:url" content="${url}">
@@ -63,6 +53,9 @@ export function layout({ title, description = SITE.description, path, body, body
 <meta name="theme-color" content="#f7f1e6" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#17181f" media="(prefers-color-scheme: dark)">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/icon-180.png">
+<meta name="apple-mobile-web-app-title" content="${esc(SITE.name)}">
 <link rel="preload" href="/assets/fonts/literata.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/site.css?v=${SITE.version}">
 <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t;var f=localStorage.getItem('fontScale');if(f)document.documentElement.style.setProperty('--reader-scale',f)}catch(e){}</script>
