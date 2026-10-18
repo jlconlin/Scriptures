@@ -1,6 +1,17 @@
 # Numbers: theme candidates
 
-Topics that run across the book and might become theme pages (`STANDARDS.md` §8). **None is written until the author chooses it.** The author has chosen none yet; Fable's and Codex's lists come at the end of the book (`AUTHORING.md`, “Theme candidates at the end of a book”).
+Topics that run across the book and might become theme pages (`STANDARDS.md` §8). **None is written until the author chooses it.**
+
+## Author's selection (2026-10-18)
+
+Fable's list and Codex's (`.cache/batch/numbers/reports/themes-fable.md`, `themes-codex.md`) were shown to the author numbered 1 to 11. **Four pages are chosen** (author, 2026-10-18: “1-4”), all in Fable's form:
+
+1. **“Pray unto the LORD, That He Take Away the Serpents” (21:7).** Moses' intercessions (11:1–3; 11:10–17; 12:10–15; 14:11–23; 16:20–27, 41–50; 21:4–9), answered first by removal and last by a remedy that leaves the thing asked against in place; to Christ the Intercessor (Heb. 7:25) and the One lifted up to be looked upon (John 3:14–15); applied with 2 Cor. 12:8–9 and Mosiah 24:14–15. **A page about intercession, not about the serpent** (author, 2026-10-18: “I don't want the theme to be about serpents… If it really only belongs in one chapter, then we don't need to fold it in”): the serpent is the answer to the last prayer, and Codex's “Look, and live” stays in chapter 21's notes.
+2. **“Seek Not after Your Own Eyes” (15:39).** The eye from unbelief to faith: the spies (13; 14:22–23), the fringe (15:37–40), the serpent (21:8–9), Balaam's opened eyes (22:22–35; 24:2–4, 15–17), Moses shown the land (27:12–13); *tûr* at 15:39 and *nābaṭ* at 12:8 and 21:9.
+3. **“There Lacketh Not One Man of Us” (31:49).** The counts turn from the roll of the dead (14:29) to the roll of heirs (26) to none missing (31:49–50), joined by *pāqad* and the census ransom (Ex. 30:12–16); to the Good Shepherd who loses none (John 10; 17:12). Codex's “Two counts, two generations” is the same arc and is folded into it. The counts are used as the text gives them (brief).
+4. **“Between the Dead and the Living” (16:48).** Atonement (*kipper*) by Levites, priest, incense, spear and gold (8:19; 15:25–28; 16:46–48; 25:7–13; 31:48–50), then the law that takes no ransom for a life (35:30–34), which Amulek reasons from to the infinite Atonement (Alma 34:11–12). Phinehas is applied to no one today (brief).
+
+Not chosen: water (“Spring Up, O Well” / “The LORD gives water”), and Codex's “Look, and live,” “Who may come near,” “The blessing the LORD will not revoke,” “The new generation's inheritance,” “A case brought before the LORD” and “The shepherd after Moses."
 
 ## Leads seen while drafting the brief (2026-10-16)
 
