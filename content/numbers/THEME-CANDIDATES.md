@@ -11,7 +11,7 @@ Fable's list and Codex's (`.cache/batch/numbers/reports/themes-fable.md`, `theme
 3. **“There Lacketh Not One Man of Us” (31:49).** The counts turn from the roll of the dead (14:29) to the roll of heirs (26) to none missing (31:49–50), joined by *pāqad* and the census ransom (Ex. 30:12–16); to the Good Shepherd who loses none (John 10; 17:12). Codex's “Two counts, two generations” is the same arc and is folded into it. The counts are used as the text gives them (brief).
 4. **“Between the Dead and the Living” (16:48).** Atonement (*kipper*) by Levites, priest, incense, spear and gold (8:19; 15:25–28; 16:46–48; 25:7–13; 31:48–50), then the law that takes no ransom for a life (35:30–34), which Amulek reasons from to the infinite Atonement (Alma 34:11–12). Phinehas is applied to no one today (brief).
 
-Not chosen: water (“Spring Up, O Well” / “The LORD gives water”), and Codex's “Look, and live,” “Who may come near,” “The blessing the LORD will not revoke,” “The new generation's inheritance,” “A case brought before the LORD” and “The shepherd after Moses."
+Not chosen: water (“Spring Up, O Well” / “The LORD gives water”), and Codex's “Look, and live,” “Who may come near,” “The blessing the LORD will not revoke,” “The new generation's inheritance,” “A case brought before the LORD” and “The shepherd after Moses.”
 
 ## Leads seen while drafting the brief (2026-10-16)
 
