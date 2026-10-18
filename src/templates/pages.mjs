@@ -3,7 +3,7 @@ import { KINDS, SITE, LIBRARY, VOLUMES_WITH_GUIDES, sectionTitle } from '../site
 import { layout, icon, logo, lastRevised } from './layout.mjs';
 import { renderSource } from './sources.mjs';
 import { gospelLibraryUrl, chapterLabel, unitPlural } from './chapter.mjs';
-import { VOLUMES, gospelLibraryVolume } from '../lib/canon.mjs';
+import { VOLUMES, gospelLibraryVolume, divisionOf } from '../lib/canon.mjs';
 import { sectionNav, headingNav, searchScope } from './ui.mjs';
 
 const ensignArt = `<svg class="hero-art" viewBox="0 0 320 220" aria-hidden="true">
@@ -31,8 +31,6 @@ export const teaserText = (note) => plain(note.body).slice(0, 150);
 // is the Scriptures menu's picker, open on the page: site.js draws it from the menu's data plus the
 // blurbs in data-books. Without JavaScript it is the list of volumes and books written here.
 export function renderHome({ books, featured }) {
-  const exampleBook = books.find((b) => b.written.length);
-  const exampleChapter = exampleBook?.written[0];
   const inVolume = (v) => books.filter((b) => b.place.vol === v.key).sort((a, b) => a.place.index - b.place.index);
   const info = Object.fromEntries(books.map((b) => [b.slug, { blurb: b.home.blurb, themes: b.hasThemes }]));
   const fallback = VOLUMES.map((v) => {
@@ -48,11 +46,9 @@ export function renderHome({ books, featured }) {
       <p class="lede">Some passages of scripture make you stop and read them three times. This site is for those passages. It goes phrase by phrase, the way a patient religion teacher might, with the history, the language, the imagery, and the witness of Jesus Christ that sits underneath them.</p>
     </div>
   </div>
-  <div class="wrap home-hero-actions"><div class="cta-row">
-    <a class="btn btn-primary" href="#library">Choose a book</a>
-    ${exampleChapter ? `<a class="btn" href="/${exampleBook.slug}/${exampleChapter.chapter}/#reading">Try the reading experience</a>` : ''}
-    <a class="home-about" href="/about/">How this site works</a>
-  </div></div>
+  <!-- No buttons under the introduction (author, 2026-10-16: “Let's remove the buttons”): the library follows the
+       picture, and About is in the header. The “Continue” line stays, filled by site.js on a return visit. -->
+  <div class="wrap home-hero-actions"><p class="home-continue" hidden></p></div>
   <div class="wrap home-hero-visual">${homeHeroArt}</div>
 </section>
 
@@ -93,7 +89,20 @@ export function renderHome({ books, featured }) {
   return layout({ title: '', path: '/', body, bodyClass: 'page-home' });
 }
 
-// A volume's page: its books on the site, and the Gospel Library for the rest.
+// A volume's books, first and grouped by the volume's divisions (the Law, the prophets…), as rows with a two-line
+// description: [division name or null, books]. One group without a heading when they all fall in one division.
+function bookGroups(sorted, volume) {
+  const groups = [];
+  for (const b of sorted) {
+    const name = divisionOf(volume.key, b.place.index);
+    if (groups.at(-1)?.[0] === name) groups.at(-1)[1].push(b);
+    else groups.push([name, [b]]);
+  }
+  return groups.length > 1 ? groups : [[null, sorted]];
+}
+
+// A volume's page: its books on the site first (author, 2026-10-16: “Definitely books first”), then its guides,
+// and the Gospel Library for the rest.
 export function renderVolume({ volume, books, html = '', guides = [] }) {
   const sorted = [...books].sort((a, b) => a.place.index - b.place.index);
   const status = (b) => (b.written.length < b.chapters.length ? `${b.written.length} of ${b.chapters.length} ${unitPlural(b)}` : `${b.chapters.length} ${unitPlural(b)}`);
@@ -104,14 +113,15 @@ export function renderVolume({ volume, books, html = '', guides = [] }) {
   <p class="lede">${sorted.length ? `The books of the ${esc(volume.name)} on this site so far. The whole ${esc(volume.name)} is in the Gospel Library, with footnotes and study helps.` : `Nothing from the ${esc(volume.name)} is on this site yet. You can read it in the Gospel Library, with footnotes and study helps.`}</p>
   <p><a class="btn" href="${gospelLibraryVolume(volume)}" target="_blank" rel="noopener">Read the ${esc(volume.name)} in the Gospel Library ↗</a></p>
 </div></header>
-${html ? `<article class="wrap narrow guide prose prose-lg">${html}</article>` : ''}${guides.length ? `<section class="wrap narrow book-section volume-guides">
+${html ? `<article class="wrap narrow guide prose prose-lg">${html}</article>` : ''}${sorted.length ? `<section class="wrap book-section volume-books" aria-labelledby="books-h">
+  <h2 class="section-title" id="books-h">Books</h2>
+  ${bookGroups(sorted, volume).map(([name, bs]) => `${name ? `<h3 class="book-group">${esc(name)}</h3>` : ''}<ul class="book-rows">${bs.map((b) => `<li><a class="book-row" href="/${b.slug}/"><span class="book-row-name">${esc(b.name)}</span><span class="book-row-status">${status(b)}</span><span class="book-row-blurb">${esc(b.home.blurb)}</span></a></li>`).join('')}</ul>`).join('\n  ')}
+</section>` : ''}
+${guides.length ? `<section class="wrap narrow book-section volume-guides">
   <h2 class="section-title">Guides</h2>
   <p class="section-sub">${esc(sharedLede(volume))}</p>
   <div class="guide-cards">${guides.map((g) => guideCard(volume, COLLECTIONS.guides, g)).join('')}</div>
-</section>` : ''}
-${sorted.length ? `<section class="wrap narrow book-section"><div class="volumes volumes-stack">
-  ${sorted.map((b) => `<a class="volume live" href="/${b.slug}/"><span class="volume-status">${status(b)}</span><h3>${esc(b.name)}</h3><p>${esc(b.home.blurb)}</p><span class="volume-go">Open ${icon('arrowR')}</span></a>`).join('')}
-</div></section>` : ''}`;
+</section>` : ''}`;
   return layout({ title: volume.name, description: `The books of the ${volume.name} on ${SITE.name}.`, path: `/${volume.slug}/`, body, bodyClass: 'page-volume', volume: volume.key });
 }
 
@@ -127,7 +137,10 @@ function artFigure(visual) {
   </details></figure>`;
 }
 
-export function renderBookIndex({ book, guides, sources }) {
+// A division's chapters as a label: “1–12”, or “1” for a division of one chapter (Joel's).
+const span = (d) => (d.range[0] === d.range[1] ? `${d.range[0]}` : `${d.range[0]}–${d.range[1]}`);
+
+export function renderBookIndex({ book, guides, themes = [], sources }) {
   const bookArt = book.visual?.status === 'approved' && book.visual.asset && book.visual.alt
     ? artFigure(book.visual)
     : ensignArt;
@@ -136,7 +149,7 @@ export function renderBookIndex({ book, guides, sources }) {
       const chs = book.chapters.filter((c) => c.chapter >= d.range[0] && c.chapter <= d.range[1]);
       return `<section class="division" id="${d.key}" style="--div:var(--div-${d.key})">
   <header class="division-head">
-    <span class="division-range">${esc(book.name)} ${d.range[0]}–${d.range[1]}</span>
+    <span class="division-range">${esc(book.name)} ${span(d)}</span>
     <h3>${esc(d.name)}</h3>
     <p>${mdInline(d.blurb)}</p>
   </header>
@@ -161,6 +174,15 @@ export function renderBookIndex({ book, guides, sources }) {
     })
     .join('');
 
+  // The book's guides and themes as cards after the chapters, like the chapter cards (author, 2026-10-15).
+  // Only the book's own: the volume's guides don't belong with them (author, 2026-10-15).
+  const cardSection = (c, items) => `<section class="wrap book-section" id="${c.path}">
+  <h2 class="section-title">${c.crumb}</h2>
+  <p class="section-sub">${esc(c.lede)}</p>
+  <div class="guide-cards">${items.map((g) => guideCard(book, c, g)).join('')}</div>
+</section>`;
+  const G = COLLECTIONS.guides, T = COLLECTIONS.themes;
+
   const body = `
 <section class="book-hero">
   <div class="wrap book-hero-inner">
@@ -174,15 +196,13 @@ export function renderBookIndex({ book, guides, sources }) {
   </div>
 </section>
 
-${sectionNav([['chapters', 'Chapters'], book.facsimiles?.length && ['facsimiles', 'Facsimiles'], ['beloved', 'Beloved passages'], ['book-sources', 'Sources']])}
-
-${guides.length ? `<p class="wrap start-callout">${icon('key')}<span>New to ${esc(book.name)}? Start with <a href="/${book.slug}/guides/">Guides</a>.</span></p>` : ''}
+${sectionNav([['chapters', 'Chapters'], book.facsimiles?.length && ['facsimiles', 'Facsimiles'], guides.length && [G.path, G.crumb], themes.length && [T.path, T.crumb], ['beloved', 'Beloved passages'], ['book-sources', 'Sources']])}
 
 <section class="wrap book-section" id="chapters">
   <h2 class="section-title">The ${esc(unitPlural(book))}</h2>
   <p class="section-sub">${esc(book.divisionsBlurb)}</p>
   <div class="dial-wrap division-map-wrap"><div class="dial-label" aria-hidden="true" hidden></div><div class="division-map" role="navigation" aria-label="Book sections">
-    ${book.divisions.map((d) => `<a href="#${d.key}" style="--div:var(--div-${d.key});--c:var(--div-${d.key});flex:${d.range[1] - d.range[0] + 1}" aria-label="${esc(book.name)} ${d.range[0]}–${d.range[1]}: ${esc(d.name)}" data-label="${esc(d.name)}" data-div="${esc(book.name)} ${d.range[0]}–${d.range[1]}"><span>${d.range[0]}–${d.range[1]}</span></a>`).join('')}
+    ${book.divisions.map((d) => `<a href="#${d.key}" style="--div:var(--div-${d.key});--c:var(--div-${d.key});flex:${d.range[1] - d.range[0] + 1}" aria-label="${esc(book.name)} ${span(d)}: ${esc(d.name)}" data-label="${esc(d.name)}" data-div="${esc(book.name)} ${span(d)}"><span>${span(d)}</span></a>`).join('')}
   </div></div>
   ${divisions}
 </section>
@@ -199,6 +219,9 @@ ${book.facsimiles?.length ? `<section class="wrap book-section" id="facsimiles">
     </a></li>`).join('')}
   </ol>
 </section>` : ''}
+
+${guides.length ? cardSection(G, guides) : ''}
+${themes.length ? cardSection(T, themes) : ''}
 
 
 <section class="wrap book-section" id="beloved">
@@ -230,7 +253,7 @@ const inTitle = (o) => (o.kind === 'volume' ? `the ${o.name}` : o.name);
 const here = (o) => (o.kind === 'volume' ? { volume: o.key } : { book: o }); // what layout() needs to place the page
 export const COLLECTIONS = {
   guides: { path: 'guides', crumb: 'Guides', indexTitle: (o) => `Guides to ${inTitle(o)}`, lede: 'Short background essays that make the chapters easier to read.', all: 'All guides', next: 'Next guide' },
-  themes: { path: 'themes', crumb: 'Themes', indexTitle: (o) => `Themes in ${inTitle(o)}`, lede: 'Ideas that run through many chapters, gathered in one place.', all: 'All themes', next: 'Next theme' },
+  themes: { path: 'themes', crumb: 'Themes', indexTitle: (o) => `Themes in ${inTitle(o)}`, lede: 'Ideas that run through many chapters, gathered in one place.', all: 'All themes' },
 };
 const sharedLede = (volume) => `Background that holds for more than one book of the ${volume.name}.`;
 const guideCard = (o, c, g) => `<a class="guide-card" href="/${o.slug}/${c.path}/${g.slug}/"><span class="guide-icon">${icon(g.icon ?? 'book')}</span><span class="guide-title">${esc(g.title)}</span><span class="guide-blurb">${esc(g.blurb)}</span></a>`;
@@ -266,11 +289,27 @@ function referenceLetter(index) {
   return label;
 }
 
-export function renderGuide({ owner, guide, guides, sources, collection = COLLECTIONS.guides }) {
+// A paragraph that opens with a bold term (“**Rabshakeh.** …”, a glossary entry) gets an id from the term, so a
+// chapter or search can link straight to it (#rabshakeh; author, 2026-10-16). An id already on the page is not reused.
+function anchorEntries(html) {
+  const used = new Set([...html.matchAll(/\bid="([^"]+)"/g)].map((m) => m[1]));
+  return html.replace(/<p><strong>([^<]+?)<\/strong>/g, (p, term) => {
+    const id = term.toLowerCase().replace(/&[a-z]+;|[’'“”"]/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+    if (!id || used.has(id)) return p;
+    used.add(id);
+    return `<p id="${id}"><strong>${term}</strong>`;
+  });
+}
+
+export function renderGuide({ owner, guide: page, guides, sources, collection = COLLECTIONS.guides }) {
+  const guide = { ...page, html: anchorEntries(page.html) };
   const book = owner;
   const c = collection;
   const idx = guides.findIndex((g) => g.slug === guide.slug);
-  const next = guides[idx + 1];
+  // Guides are read in order; themes have none, so a theme page has no “next” (author, 2026-10-16: “there really
+  // isn't an order to themes… Probably should drop next”).
+  const ordered = c !== COLLECTIONS.themes;
+  const next = ordered ? guides[idx + 1] : null;
   // Pages with [@key] citations get a numbered source list plus “Further reading” for the rest;
   // pages without citations keep a single list.
   const refs = guide.refs ?? [];
@@ -288,14 +327,14 @@ export function renderGuide({ owner, guide, guides, sources, collection = COLLEC
   <p class="lede">${esc(guide.blurb)}</p>
   ${lastRevised(guide.updated)}
 </div></header>
-${c === COLLECTIONS.guides ? headingNav(guide.html, refList ? [['sources', 'Sources']] : []) : ''}
+${headingNav(guide.html, refList ? [['sources', 'Sources']] : [])}
 <article class="wrap narrow guide prose prose-lg">
 ${guide.html}
 ${refList}
 </article>
 <nav class="wrap narrow pager">
   <a class="pager-prev" href="/${book.slug}/${c.path}/">${icon('arrowL')}<span><small>Back to</small>${esc(c.all)}</span></a>
-  ${next ? `<a class="pager-next" href="/${book.slug}/${c.path}/${next.slug}/"><span><small>${esc(c.next)}</small>${esc(next.title)}</span>${icon('arrowR')}</a>` : owner.kind === 'volume' ? `<a class="pager-next" href="/${owner.slug}/"><span><small>Ready?</small>Choose a book</span>${icon('arrowR')}</a>` : `<a class="pager-next" href="/${book.slug}/1/"><span><small>Ready?</small>Begin with ${esc(book.name)} 1</span>${icon('arrowR')}</a>`}
+  ${!ordered ? '' : next ? `<a class="pager-next" href="/${book.slug}/${c.path}/${next.slug}/"><span><small>${esc(c.next)}</small>${esc(next.title)}</span>${icon('arrowR')}</a>` : owner.kind === 'volume' ? `<a class="pager-next" href="/${owner.slug}/"><span><small>Ready?</small>Choose a book</span>${icon('arrowR')}</a>` : `<a class="pager-next" href="/${book.slug}/1/"><span><small>Ready?</small>Begin with ${esc(book.name)} 1</span>${icon('arrowR')}</a>`}
 </nav>`;
   return layout({ title: guide.title, description: guide.blurb, path: `/${book.slug}/${c.path}/${guide.slug}/`, body, bodyClass: 'page-guide', ...here(owner) });
 }

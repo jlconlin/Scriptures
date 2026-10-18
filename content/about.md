@@ -25,7 +25,7 @@ The title comes from Isaiah himself: “line upon line; here a little, and there
 
 ## The text
 
-The scripture text is the King James Version, which is in the public domain. It matches the text in the Latter-day Saint edition of the Bible, though that edition’s footnotes, chapter headings, and study aids are not reproduced here. Each chapter links to the Gospel Library so you can read it with those helps.
+The scripture text is the King James Version, which is in the public domain. It matches the text in the Latter-day Saint edition of the Bible, though that edition’s footnotes, chapter headings, and study aids are not reproduced here. Each chapter links to the Gospel Library so you can read it with those helps. The Book of Mormon text is the 1920 edition and the Pearl of Great Price text the 1921 edition, both also in the public domain.
 
 ## How this site was made
 
@@ -70,4 +70,4 @@ The copy is kept by your browser for this site only. While you are online, the s
 
 ## License
 
-Commentary is shared under a [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. The code is MIT-licensed. The scripture text is in the public domain.
+Commentary © 2026 Jeremy Lloyd Conlin, shared under a [Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license. The code is MIT-licensed. The scripture text is in the public domain.

@@ -22,13 +22,15 @@ Where each song begins is agreed, but not always where it ends, because the vers
 
 Read in order, the songs tell a story. The servant’s lot grows harder from song to song: in the first he is gentle and unbroken; in the second he is discouraged; in the third he is beaten and spat upon; in the fourth he dies. His mission grows at the same time: justice for the nations, then the gathering of Israel and light to the Gentiles, then a word for the weary, and finally bearing “the sin of many.” And the songs move from speaking *about* the servant to letting him speak for himself, and then to the confession of those who finally understand him.
 
-<h2 id="song-1">The first song: the gentle servant</h2>
+<h2 id="the-songs">The four songs</h2>
+
+<h3 id="song-1">The first song: the gentle servant</h3>
 
 **[[Isa. 42:1–9]].** The Lord presents His chosen one: “Behold my servant, whom I uphold; mine elect, in whom my soul delighteth; I have put my spirit upon him.” His mission is to “bring forth judgment to the Gentiles,” but his manner is quiet. He won’t shout in the street, and “a bruised reed shall he not break.” He is also persistent: “He shall not fail nor be discouraged, till he have set judgment in the earth.”
 
 The contrast later in the same chapter is deliberate. There the Lord asks, “Who is blind, but my servant? or deaf, as my messenger that I sent?” ([[Isa. 42:19]]). Israel, the servant nation, has failed at its calling; the servant of the song will not.[@oswalt] Matthew quotes the song in full as fulfilled in Jesus’s quiet ministry of healing ([[Matt. 12:15–21]]).
 
-<h2 id="song-2">The second song: a light to the Gentiles</h2>
+<h3 id="song-2">The second song: a light to the Gentiles</h3>
 
 **[[Isa. 49:1–13]].** Now the servant speaks, to the whole world: “Listen, O isles, unto me.” The Lord called him before birth and hid him like a sharpened arrow in a quiver. For the first time the servant admits discouragement: “I have laboured in vain, I have spent my strength for nought” (verse 4). The Lord answers by enlarging his task. Restoring Israel is “a light thing”; he will also be “a light to the Gentiles… my salvation unto the end of the earth” (verse 6).
 
@@ -36,11 +38,11 @@ This song holds the puzzle at the center of the whole debate. The Lord calls the
 
 Nephi’s text opens with lines not in the King James Version, addressed to “ye that are broken off and are driven out… that are scattered abroad” ([[1 Ne. 21:1]]), and Nephi read the chapter to his brothers as a prophecy of the scattering and gathering of their own family ([[1 Ne. 22]]).[@isaiah-in-bom] Simeon echoed verse 6 over the infant Jesus: “A light to lighten the Gentiles” ([[Luke 2:32]]). And Paul and Barnabas applied the same verse to their own mission: “so hath the Lord commanded us, saying, I have set thee to be a light of the Gentiles” ([[Acts 13:47]]).
 
-<h2 id="song-3">The third song: the servant who listens</h2>
+<h3 id="song-3">The third song: the servant who listens</h3>
 
 **[[Isa. 50:4–11]].** The servant has “the tongue of the learned,” literally of a disciple, because every morning the Lord wakes his ear to listen. What he hears leads him into suffering: “I gave my back to the smiters, and my cheeks to them that plucked off the hair: I hid not my face from shame and spitting” (verse 6). He does not turn back. He sets his face like flint and trusts that the God who vindicates him is near. The word “servant” doesn’t appear in these verses, but verse 10 refers back to “the voice of his servant.” Jacob read the chapter to the Nephites ([[2 Ne. 7]]), and the Gospels describe Jesus being struck and spat upon in the same terms ([[Matt. 26:67]]).
 
-<h2 id="song-4">The fourth song: the suffering servant</h2>
+<h3 id="song-4">The fourth song: the suffering servant</h3>
 
 **[[Isa. 52:13–53:12]].** The longest song begins with the Lord announcing the servant’s exaltation, in words Isaiah elsewhere reserves for God: he will be “exalted and extolled, and be very high” (compare [[Isa. 6:1]]). Then a chorus confesses that they despised the servant and took his suffering as God’s punishment, only to realize “he was wounded for our transgressions.” He goes silently “as a lamb to the slaughter,” dies, and is buried; yet afterward “he shall see his seed” and “make intercession for the transgressors.”
 

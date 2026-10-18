@@ -11,6 +11,7 @@ The Old Testament “is a record of God's dealings with His covenant children fr
 
 <figure class="tl-figure">
 <p class="tl-lead">Israel and Judah on the left, the nations on the right. Before Abraham the rows keep the order the text gives, with no dates. From Abraham to 931 the dates are estimates, from the reign lengths the text gives and the studies the sections below cite; after it they are the dates the sections below give, with the Church's Bible Chronology table's figure in parentheses where it differs. The rows are in order, not to scale.</p>
+<p class="tl-key"><span class="c-one">Israel, one people</span><span class="c-north">The northern kingdom</span><span class="c-south">Judah, and the Jews</span><span class="c-lehi">Book of Mormon</span><span class="c-egypt">Egypt</span><span class="c-assyria">Assyria</span><span class="c-babylon">Babylon</span><span class="c-persia">Persia</span><span class="c-greece">Greece</span></p>
 <ol class="tl">
 <li class="tl-era e-one"><span><a href="#patriarchs">From Adam to Abraham</a></span></li>
 <li class="tl-l c-one"><span class="tl-date">no date</span><span class="tl-text">Adam and Eve; the Fall, and the way out of Eden ([[Gen. 3]]; [[Moses 4]])</span></li>
@@ -67,7 +68,6 @@ The Old Testament “is a record of God's dealings with His covenant children fr
 <li class="tl-l c-south"><span class="tl-date">c. 430</span><span class="tl-text">Malachi, the last prophet of the Old Testament ([[Mal. 1]])</span></li>
 <li class="tl-r c-greece"><span class="tl-date">334</span><span class="tl-text">Alexander defeats Persia</span></li>
 </ol>
-<p class="tl-key"><span class="c-one">Israel, one people</span><span class="c-north">The northern kingdom</span><span class="c-south">Judah, and the Jews</span><span class="c-lehi">Lehi's family, the Book of Mormon</span><span class="c-egypt">Egypt</span><span class="c-assyria">Assyria</span><span class="c-babylon">Babylon</span><span class="c-persia">Persia</span><span class="c-greece">Greece</span></p>
 </figure>
 
 | Date (BC) | What happened | Read it in | Prophets and books |

@@ -24,8 +24,23 @@ marked.use({
 export const unknownRefs = new Set();
 const report = (r) => unknownRefs.add(r);
 
+// A table with a column headed “The words” traces an arc through the scriptures (a theme's table). Its quoted King
+// James words and its steps are prose, set in the reading serif like the rest of the page; its “Passage” column of
+// references stays in the interface face, as references do elsewhere (classes "arc", "kjv", "refs"; author, 2026-10-16).
+const markScriptureColumns = (html) =>
+  html.replace(/<table>([\s\S]*?)<\/table>/g, (table, inner) => {
+    const heads = [...(inner.match(/<thead>([\s\S]*?)<\/thead>/)?.[1] ?? '').matchAll(/<th[^>]*>([\s\S]*?)<\/th>/g)].map((m) => m[1].replace(/<[^>]+>/g, '').trim());
+    const words = heads.indexOf('The words'), refs = heads.indexOf('Passage');
+    if (words < 0) return table;
+    const body = table.replace(/<tr>([\s\S]*?)<\/tr>/g, (row, cells) => {
+      let i = -1;
+      return `<tr>${cells.replace(/<td([^>]*)>/g, (td, attrs) => { i++; return i === words ? `<td${attrs} class="kjv">` : i === refs ? `<td${attrs} class="refs">` : td; })}</tr>`;
+    });
+    return body.replace('<table>', '<table class="arc">');
+  });
+
 /** Render block markdown, with [[scripture refs]] linked. */
-export const md = (s = '') => marked.parse(linkRefs(String(s).trim(), report));
+export const md = (s = '') => markScriptureColumns(marked.parse(linkRefs(String(s).trim(), report)));
 
 /** Render inline markdown (no wrapping <p>). */
 export const mdInline = (s = '') => marked.parseInline(linkRefs(String(s).trim(), report));

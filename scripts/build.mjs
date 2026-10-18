@@ -318,7 +318,7 @@ export async function build({ quiet = false } = {}) {
     const shared = volumeGuides.find((v) => v.volume.key === book.place.vol);
     book.guidesPage = Boolean(guides.length || shared?.guides.length);
     if (book.guidesPage) await write(`${slug}/guides/index.html`, renderGuidesIndex({ owner: book, guides, themes: guides.length ? themes : [], shared }));
-    await write(`${slug}/index.html`, renderBookIndex({ book, guides, sources }));
+    await write(`${slug}/index.html`, renderBookIndex({ book, guides, themes, sources }));
     built.push({ book, guides, themes });
   }
 
