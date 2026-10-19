@@ -35,8 +35,9 @@ A reader needs the period a chapter belongs to (who ruled, which nations, where 
 
 ## Where the work stands (2026-10-19)
 
-- **The panel** is on the branch `claude/reading-panel` (worktree `.claude/worktrees/reading-panel`), merged with the live site. The dev site has it up to the portrait card and the scrolling fix (`31900d80`); the last commit, the “Context” label and the notes relabelled “History” (`b9328bb9`), is not yet on the dev site. It still opens *Isaiah's World* from every Isaiah chapter (`period:` in `content/isaiah/book.yaml`, one guide for the whole book).
+- **The panel** is on the branch `claude/reading-panel` (worktree `.claude/worktrees/reading-panel`), merged with the live site, and all of it is on the dev site; not live.
 - **The glossary mockups** (set aside) are on `claude/glossary-mockup`: the volume maps folder (`content/volumes/<volume>/maps/`, shown with `<!-- map: … -->`, `embedMaps` in `scripts/build.mjs`) is the part worth keeping, for the period guides' maps.
 - **Step 1a is done** (on `claude/reading-panel` and the dev site): `content/volumes/old-testament/periods.yaml` names the six periods, each Old Testament book's `book.yaml` its chapter ranges (`periods:`), and every chapter in a period has the Context link, which opens the timeline guide at the era's section until the period's guide is written; Isaiah and Jeremiah open their World guides meanwhile. No link on Genesis 1–11, Moses, Joel, and the Psalms (a psalm's period is mostly unknown; the plan's “many Psalms” in period 3 would need a list of which).
-- **Next, step 1b**: the Context link where a phone finds it (the far end of the Outline bar now). The search page in the panel already loses its large title, by the rule that trims a guide's.
+- **Step 1b is done**: under 900px, where the Outline bar is swiped, Context comes first, after the label. The search page in the panel loses its large title, by the rule that trims a guide's.
+- **Next: the author looks at the dev site**, then the panel can go live (fast-forward `main`).
 - **Then** guide 4 from *Isaiah's World*, guide 5 from *Jeremiah's World*, then guides 1, 2, 3 and 6, each outline shown to the author first, and the first one's cost measured before the rest.
