@@ -42,8 +42,11 @@ export function renderHome({ books, featured }) {
   <div class="wrap home-hero-inner">
     <div class="home-hero-copy">
       <p class="eyebrow">${logo} A scripture study companion</p>
-      <h1>“What does <em>that</em> mean?”</h1>
-      <p class="lede">Some passages of scripture make you stop and read them three times. This site is for those passages. It goes phrase by phrase, the way a patient religion teacher might, with the history, the language, the imagery, and the witness of Jesus Christ that sits underneath them.</p>
+      <!-- The site's name and the verse it comes from, set as every book page sets its verse; no hook (author,
+           2026-10-18, of the earlier “What does that mean?”: it sounded “click-baity and that's not what I want”). -->
+      <h1>Line upon Line</h1>
+      <blockquote class="hero-quote">“Line upon line … here a little, and there a little.” <cite>[[Isa. 28:10]]</cite></blockquote>
+      <p class="lede">A commentary on the scriptures that goes phrase by phrase, the way a patient religion teacher might, with the history, the language, the imagery, and the witness of Jesus Christ that sits underneath them.</p>
     </div>
   </div>
   <!-- No buttons under the introduction (author, 2026-10-16: “Let's remove the buttons”): the library follows the
