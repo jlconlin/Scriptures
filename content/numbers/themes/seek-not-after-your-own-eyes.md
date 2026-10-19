@@ -2,7 +2,6 @@
 title: Seek Not after Your Own Eyes
 blurb: Twelve men were sent to “see the land” and came back with what they were “in our own sight”; after the sentence, the sights the LORD gives run from a tassel and a serpent on a pole to a Star and the land Moses is shown.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, scripture-helps-num, gs-serpent-brazen, christofferson-look]
 ---
 

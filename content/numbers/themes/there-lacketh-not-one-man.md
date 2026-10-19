@@ -2,7 +2,6 @@
 title: There Lacketh Not One Man of Us
 blurb: Israel is numbered man by man at Sinai, sentenced at Kadesh, numbered again with the first roll gone, and the army back from Midian is counted with not one man missing; the Good Shepherd says of His own, “none of them is lost.”
 icon: christ
-status: preview
 sources: [bd-numbers, ot-manual-numbers-1-12, pike-balaam, gs-good-shepherd, ot-seminary-teacher-num-67, cordon-becoming-shepherd, lds-scriptures, oshb-wlc, bdb]
 ---
 

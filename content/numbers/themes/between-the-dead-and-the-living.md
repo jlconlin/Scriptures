@@ -2,7 +2,6 @@
 title: Between the Dead and the Living
 blurb: Numbers makes atonement by a Levite’s service, a priest’s offering, Aaron’s incense, a zealous deed and the officers’ gold, then in the verb’s last use names what could not be bought, the life of one who shed blood; Amulek reasons from that law to an infinite atonement, made by the one Mediator.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, seminary-2018-num-67, gs-atone-atonement, sc-knowhy-142, gee-last-sacrifice]
 ---
 

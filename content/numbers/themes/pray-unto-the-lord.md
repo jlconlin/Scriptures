@@ -2,7 +2,6 @@
 title: Pray unto the LORD, That He Take Away the Serpents
 blurb: Five times in Numbers, when a judgment falls or threatens, Moses pleads with the LORD for others, and the answers change shape, from a fire quenched to a remedy raised among the people; the pattern reaches Christ, who “ever liveth to make intercession.”
 icon: christ
-status: preview
 sources: [oshb-wlc, lds-scriptures, keil-numbers, ot-manual-numbers-13-36, ot-stories-brass-serpent, sears-intercession, bd-serpent-brazen, bednar-bear-up-burdens]
 ---
 
