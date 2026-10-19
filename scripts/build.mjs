@@ -207,8 +207,8 @@ export async function build({ quiet = false } = {}) {
     }
     book.place = placeOf(book.abbr);
     if (!book.place) throw new Error(`content/${book.slug}/book.yaml: abbr “${book.abbr}” is not a book of the standard works (see src/lib/refs.mjs)`);
-    // A book has a Guides page when it has guides of its own or its volume has some.
-    book.hasGuides = existsSync(path.join(book.dir, 'guides')) || VOLUMES_WITH_GUIDES.has(book.place.vol);
+    // A book has a Guides page only when it has guides of its own; it does not inherit its volume's (author, 2026-10-18).
+    book.hasGuides = existsSync(path.join(book.dir, 'guides'));
     book.hasThemes = existsSync(path.join(book.dir, 'themes'));
 
     // Validate source keys
@@ -316,7 +316,7 @@ export async function build({ quiet = false } = {}) {
     if (themes.length) await write(`${slug}/themes/index.html`, renderGuidesIndex({ owner: book, guides: themes, collection: COLLECTIONS.themes }));
     // The book's Guides page: its own guides, its themes beside them, and its volume's guides below.
     const shared = volumeGuides.find((v) => v.volume.key === book.place.vol);
-    book.guidesPage = Boolean(guides.length || shared?.guides.length);
+    book.guidesPage = Boolean(guides.length);
     if (book.guidesPage) await write(`${slug}/guides/index.html`, renderGuidesIndex({ owner: book, guides, themes: guides.length ? themes : [], shared }));
     await write(`${slug}/index.html`, renderBookIndex({ book, guides, themes, sources }));
     built.push({ book, guides, themes });
