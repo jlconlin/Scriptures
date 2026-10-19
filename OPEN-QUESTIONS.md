@@ -16,11 +16,12 @@ Nothing.
 
 ## Answered, awaiting implementation
 
-Nothing.
+- **S1. A glossary for every book** (author, 2026-10-16: “Need to have it one per book… there could be one for the volume *and* additional ones for the books”). Every book without one (all but Isaiah and Jeremiah) gets a guide of its names, places and images on the model of theirs; a volume glossary may follow. The rule is in `content/volumes/old-testament/GUIDES.md`. Written after the design branch (S3) is merged, through the usual guide workflow.
+- **S2. Link the chapters to their book's glossary.** Glossary entries now have anchors (`#rabshakeh`). A pass over Isaiah's and Jeremiah's chapters, and each book's once its glossary exists, adds links from notes that name a term to its entry (author, 2026-10-16: “we'd have to make a pass on all the chapters too to utilize that”). A script can propose the links; each chapter then goes through its checks.
 
 ## Work waiting, no decision needed
 
-Nothing.
+- **S3. The design branch `worktree-ui-design`** holds the design work of 2026-10-15 to 10-17 (chapter, book, theme, guide, home and volume pages, the header and footer, passage previews, The Land's map), finished on 2026-10-17. The author: don't merge to `main` “until we've done all the impeccable upgrades”. `main` has been merged into it (2026-10-17). To be seen whole, it goes to the `dev` branch and the dev site (https://scriptures-dev.conlin.io); after the author approves it there, `main` is fast-forwarded to it and pushed, which changes the live site, so each push waits for the author's word.
 
 ## Notes waiting for a Book of Mormon home
 

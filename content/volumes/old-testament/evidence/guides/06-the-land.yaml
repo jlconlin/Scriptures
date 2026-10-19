@@ -1,6 +1,106 @@
 page: 06-the-land
 claims:
   - where: 'opening'
+    claim: 'The map places Jerusalem at its modern identification'
+    key: openbible-geo
+    url: 'https://www.openbible.info/geo/modern/m66c5b8/jerusalem'
+    quote: 'Latitude, Longitude 31.776667, 35.234167'
+  - where: 'opening'
+    claim: 'The map places Dan at its modern identification'
+    key: openbible-geo
+    url: 'https://www.openbible.info/geo/modern/mb61c67/tel-dan'
+    quote: 'Latitude, Longitude 33.249000, 35.652000'
+  - where: 'opening'
+    claim: 'The map places Beersheba at its modern identification'
+    key: openbible-geo
+    url: 'https://www.openbible.info/geo/modern/m14a95e/bir-es-seba'
+    quote: 'Latitude, Longitude 31.237225, 34.793078'
+  - where: 'opening'
+    claim: 'The map places Hebron at its modern identification'
+    key: openbible-geo
+    url: 'https://www.openbible.info/geo/modern/m86f941/tel-rumeida'
+    quote: 'Latitude, Longitude 31.525087, 35.102220'
+  - where: 'opening'
+    claim: 'The map places Bethel at its modern identification'
+    key: openbible-geo
+    url: 'https://www.openbible.info/geo/modern/me58522/beitin'
+    quote: 'Latitude, Longitude 31.922778, 35.241389'
+  - where: 'opening'
+    claim: 'The map places Shiloh at its modern identification'
+    key: openbible-geo
+    url: 'https://www.openbible.info/geo/modern/m12f296/khirbet-seilun'
+    quote: 'Latitude, Longitude 32.055703, 35.289536'
+  - where: 'opening'
+    claim: 'The map places Shechem at its modern identification'
+    key: openbible-geo
+    url: 'https://www.openbible.info/geo/modern/m657590/tell-balatah'
+    quote: 'Latitude, Longitude 32.213611, 35.281944'
+  - where: 'opening'
+    claim: 'The map places Samaria at its modern identification'
+    key: openbible-geo
+    url: 'https://www.openbible.info/geo/modern/me64af8/samaria'
+    quote: 'Latitude, Longitude 32.276111, 35.195000'
+  - where: 'opening'
+    claim: 'The map places Megiddo at its modern identification'
+    key: openbible-geo
+    url: 'https://www.openbible.info/geo/modern/mf52435/tel-megiddo'
+    quote: 'Latitude, Longitude 32.585278, 35.184444'
+  - where: 'opening'
+    claim: 'The map places Jezreel at its modern identification'
+    key: openbible-geo
+    url: 'https://www.openbible.info/geo/modern/mda3bc1/tel-yizreel'
+    quote: 'Latitude, Longitude 32.557853, 35.327953'
+  - where: 'opening'
+    claim: 'The map places Jericho at its modern identification'
+    key: openbible-geo
+    url: 'https://www.openbible.info/geo/modern/m95349d/tell-es-sultan'
+    quote: 'Latitude, Longitude 31.871719, 35.444564'
+  - where: 'opening'
+    claim: 'The map places Gilgal at its modern identification'
+    key: openbible-geo
+    url: 'https://www.openbible.info/geo/modern/ma342c0/khirbet-el-mefjir'
+    quote: 'Latitude, Longitude 31.881883, 35.459969'
+  - where: 'opening'
+    claim: 'The map places Lachish at its modern identification'
+    key: openbible-geo
+    url: 'https://www.openbible.info/geo/modern/m31bdd9/tell-ed-duweir'
+    quote: 'Latitude, Longitude 31.565278, 34.849167'
+  - where: 'opening'
+    claim: 'The map places Joppa at its modern identification'
+    key: openbible-geo
+    url: 'https://www.openbible.info/geo/modern/mcb49f3/jaffa'
+    quote: 'Latitude, Longitude 32.054481, 34.753039'
+  - where: 'opening'
+    claim: 'The map places Gaza at its modern identification'
+    key: openbible-geo
+    url: 'https://www.openbible.info/geo/modern/mb5cfe4/tell-harube'
+    quote: 'Latitude, Longitude 31.504000, 34.464400'
+  - where: 'opening'
+    claim: 'The map places Tyre at its modern identification'
+    key: openbible-geo
+    url: 'https://www.openbible.info/geo/modern/m11c602/tyre'
+    quote: 'Latitude, Longitude 33.270833, 35.196111'
+  - where: 'opening'
+    claim: 'The map places Sidon at its modern identification'
+    key: openbible-geo
+    url: 'https://www.openbible.info/geo/modern/mfccaed/sandikli-archaeological-site-in-sidon'
+    quote: 'Latitude, Longitude 33.560985, 35.371944'
+  - where: 'opening'
+    claim: 'The map places Damascus at its modern identification'
+    key: openbible-geo
+    url: 'https://www.openbible.info/geo/modern/m878978/damascus'
+    quote: 'Latitude, Longitude 33.511112, 36.306390'
+  - where: 'opening'
+    claim: 'The map places Mount Hermon at its modern identification'
+    key: openbible-geo
+    url: 'https://www.openbible.info/geo/modern/mc78c4d/mount-hermon'
+    quote: 'Latitude, Longitude 33.400000, 35.850000'
+  - where: 'opening'
+    claim: 'The map places Mount Carmel at its modern identification'
+    key: openbible-geo
+    url: 'https://www.openbible.info/geo/modern/mf9b7d7/mount-carmel'
+    quote: 'Latitude, Longitude 32.672500, 35.023333'
+  - where: 'opening'
     claim: 'Canaan is a land bridge among three continents, "crossroads of the East"'
     key: ogden-1980-testing-ground
     url: 'https://www.churchofjesuschrist.org/study/ensign/1980/09/the-testing-ground-for-the-covenant-people?lang=eng'

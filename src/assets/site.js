@@ -10,7 +10,8 @@
   };
   const root = document.documentElement;
   root.classList.add('js');
-  const pinnedHeight = () => ($('.site-header')?.offsetHeight ?? 0) + ($('.section-nav')?.offsetHeight ?? 0);
+  // The header counts only while it is showing: on pages with an Outline bar it slides away while reading (below).
+  const pinnedHeight = () => (root.classList.contains('header-away') ? 0 : $('.site-header')?.offsetHeight ?? 0) + ($('.section-nav')?.offsetHeight ?? 0);
 
   // ---------- citation and short scripture previews ----------
   // Ordinary fragment links remain usable when JavaScript or native popovers are unavailable.
@@ -27,17 +28,29 @@
     document.body.append(popup);
     const closeButton = $('.citation-popup-close', popup);
     const listLink = $('.citation-popup-list', popup);
+    // A scrolling passage loses its bottom fade once the reader reaches the end.
+    const markEnd = () => { const b = $('.citation-popup-body', popup); b.classList.toggle('at-end', b.scrollTop + b.clientHeight >= b.scrollHeight - 4); };
+    $('.citation-popup-body', popup).addEventListener('scroll', markEnd, { passive: true });
     const previewFor = (link) => {
       const scripture = scriptureData[link.dataset.scripture];
       if (scripture) {
         const passage = document.createElement('div');
         passage.className = 'scripture-preview-verses';
-        scripture.verses.forEach((text, i) => {
-          const verse = document.createElement('p');
-          const number = document.createElement('sup');
-          number.textContent = scripture.first + i;
-          verse.append(number, document.createTextNode(` ${text}`));
-          passage.append(verse);
+        // A passage that runs into the next chapter is marked where the chapter changes.
+        scripture.parts.forEach((part, p) => {
+          if (p) {
+            const label = document.createElement('p');
+            label.className = 'scripture-preview-chapter';
+            label.textContent = `${scripture.book} ${part.chapter}`;
+            passage.append(label);
+          }
+          part.verses.forEach((text, i) => {
+            const verse = document.createElement('p');
+            const number = document.createElement('sup');
+            number.textContent = part.first + i;
+            verse.append(number, document.createTextNode(` ${text}`));
+            passage.append(verse);
+          });
         });
         return { content: passage, title: scripture.title, close: 'Close scripture preview', scripture: true };
       }
@@ -92,7 +105,10 @@
         active?.setAttribute('aria-expanded', 'false');
         active = link;
         pinned = false;
-        $('.citation-popup-body', popup).replaceChildren(preview.content);
+        const body = $('.citation-popup-body', popup);
+        body.replaceChildren(preview.content);
+        body.scrollTop = 0;
+        requestAnimationFrame(markEnd);
         const heading = $('#citation-preview-title', popup);
         if (preview.scripture) {
           const chapterLink = document.createElement('a');
@@ -251,7 +267,7 @@
       return `<div class="menu-col menu-book" style="--vc:var(--v-${v.slug})">${volLink(v, drill)}${v.books
         .map((b) => {
           const w = count(b);
-          return `<button type="button" class="menu-item${b.slug === here.book ? ' here' : ''}" data-book="${b.slug}"${b.slug === state.book && !drill ? ' aria-current="true"' : ''}><span class="name">${esc(b.name)}</span><span class="sub">${w < b.total ? `${w} of ${b.total}` : b.total}</span>${chev}</button>`;
+          return `<button type="button" class="menu-item${b.slug === here.book ? ' here' : ''}" data-book="${b.slug}"${b.slug === state.book && !drill ? ' aria-current="true"' : ''}><span class="name">${esc(b.name)}</span>${w < b.total ? `<span class="sub">${w} of ${b.total}</span>` : ''}${chev}</button>`;
         })
         .join('')}</div>`;
     };
@@ -420,19 +436,33 @@
         ? { vol: remembered.slug, book: store.get('library') }
         : { vol: firstVol.slug, book: wide() ? firstVol.books[0]?.slug ?? null : null };
       const picked = { [ps.vol]: ps.book };
+      // The chapter last opened on this device: marked in its book's grid and offered as “Continue”.
+      let last = null;
+      try { last = JSON.parse(store.get('lastRead') || 'null'); } catch {}
+      const lastBook = last && volWith(last.book) && bookOf(volWith(last.book), last.book);
+      if (!lastBook || !isWritten(lastBook, last.chapter)) last = null;
+      const cont = $('.home-continue');
+      if (cont && last) {
+        const link = document.createElement('a');
+        link.href = url(`${last.book}/${last.chapter}/`);
+        link.textContent = `${lastBook.name} ${last.chapter}${last.title ? `, ${last.title}` : ''}`;
+        cont.replaceChildren('Continue · ', link);
+        cont.hidden = false;
+      }
 
       const pane = (v, b) => {
         const w = count(b);
         const cells = Array.from({ length: b.total }, (_, i) => {
           const n = i + 1;
+          const here = last && last.book === b.slug && last.chapter === n;
           return isWritten(b, n)
-            ? `<a class="cell written" href="${url(`${b.slug}/${n}/`)}" aria-label="${esc(b.name)} ${n}">${n}</a>`
+            ? `<a class="cell written${here ? ' current' : ''}" href="${url(`${b.slug}/${n}/`)}" aria-label="${esc(b.name)} ${n}${here ? ', last opened' : ''}">${n}</a>`
             : `<a class="cell unwritten" href="${b.gl}/${n}?lang=eng" target="_blank" rel="noopener" aria-label="${esc(b.name)} ${n}, in the Gospel Library">${n}</a>`;
         }).join('');
         return `<div class="picker-pane" style="--vc:var(--v-${v.slug})">
           <div class="picker-bookhead"><h3><a href="${url(`${b.slug}/`)}">${esc(b.name)} ${chev}</a></h3>
             <p>${esc(info[b.slug]?.blurb ?? '')}</p>
-            <span class="links"><span>${w < b.total ? `Commentary on ${w} of ${b.total} chapters` : `${b.total} chapters`}</span><a href="${url(`${b.slug}/`)}">Open ${esc(b.name)}</a>${b.guides ? `<a href="${url(`${b.slug}/guides/`)}">Guides</a>` : ''}${info[b.slug]?.themes ? `<a href="${url(`${b.slug}/themes/`)}">Themes</a>` : ''}</span>
+            <span class="links"><span>${w < b.total ? `Commentary on ${w} of ${b.total} chapters` : `${b.total} chapters`}</span>${b.guides ? `<a href="${url(`${b.slug}/guides/`)}">Guides</a>` : ''}${info[b.slug]?.themes ? `<a href="${url(`${b.slug}/themes/`)}">Themes</a>` : ''}</span>
           </div>
           <div class="menu-grid">${cells}</div>
           ${w < b.total ? '<div class="menu-legend"><span><i class="lw"></i>Commentary</span><span><i class="lu"></i>Opens the Gospel Library</span></div>' : ''}
@@ -440,7 +470,7 @@
       };
       const bookItem = (b, attr) => {
         const w = count(b);
-        return `<button type="button" class="menu-item" data-book="${b.slug}" ${attr}><span class="name">${esc(b.name)}</span><span class="sub">${w < b.total ? `${w} of ${b.total}` : b.total}</span>${chev}</button>`;
+        return `<button type="button" class="menu-item" data-book="${b.slug}" ${attr}><span class="name">${esc(b.name)}</span>${w < b.total ? `<span class="sub">${w} of ${b.total}</span>` : ''}${chev}</button>`;
       };
       const empty = (v) => `<p class="menu-empty">Nothing from the ${esc(v.name)} is on the site yet.</p><a class="menu-link" href="${v.gl}" target="_blank" rel="noopener">Read it in the Gospel Library ↗</a>`;
 
@@ -575,6 +605,13 @@
   // ---------- chapter reader ----------
   const reader = $('.reader');
   if (reader) {
+    // Remember this chapter on this device, so the home page can offer it again (author, 2026-10-16: “I may be
+    // studying Isaiah 53 for several days in a row”). Nothing leaves the browser.
+    const article = $('article.chapter');
+    if (article?.dataset.book) {
+      store.set('lastRead', JSON.stringify({ book: article.dataset.book, chapter: Number(article.dataset.chapter), title: $('.chapter-hero h1')?.textContent.trim() ?? '' }));
+      store.set('library', article.dataset.book);
+    }
     const triggersFor = (id) => $$(`[data-note="${id}"]`);
     const kindOf = (el) => [...el.classList].find((c) => c.startsWith('k-'))?.slice(2);
     const hidden = new Set(JSON.parse(store.get('hiddenKinds') || '[]'));
@@ -621,11 +658,20 @@
     if ('ResizeObserver' in window) new ResizeObserver(scheduleLayout).observe(reader);
     document.fonts?.ready.then(scheduleLayout);
 
-    const setNote = (note, open, { scroll = false } = {}) => {
+    // In the margin only one note is open at a time: opening another shrinks the earlier ones to cards (title and
+    // first sentence), so the stack stays short enough for every note to sit beside its phrase. A card reopens on a
+    // tap; its × or a second tap on the phrase puts it away. Narrow screens open notes beneath their verses, all at once.
+    const kept = new Set();
+    const setNote = (note, open, { scroll = false, dismiss = false } = {}) => {
       if (!note) return;
-      const asCard = !open && related && !hidden.has(kindOf(note));
+      if (open) kept.add(note);
+      else if (dismiss) kept.delete(note);
+      const asCard = !open && !hidden.has(kindOf(note)) && (related || (wide.matches && kept.has(note)));
       note.hidden = !open && !asCard;
       note.classList.toggle('is-card', asCard);
+      note.classList.toggle('is-kept', asCard && !related);
+      if (asCard) note.tabIndex = 0;
+      else note.removeAttribute('tabindex');
       triggersFor(note.id).forEach((b) => b.setAttribute('aria-expanded', String(open)));
       if (open) lastOpened = note;
       else if (lastOpened === note) lastOpened = null;
@@ -640,6 +686,11 @@
     };
 
     const collapseOthers = (keep) => $$('.note', reader).forEach((n) => { if (n !== keep && isOpen(n)) setNote(n, false); });
+    // Crossing the margin breakpoint: cards belong to the margin, so they appear or go away with it.
+    wide.addEventListener('change', () => {
+      if (wide.matches && lastOpened && isOpen(lastOpened)) collapseOthers(lastOpened);
+      $$('.note', reader).forEach((n) => { if (!isOpen(n)) setNote(n, false); });
+    });
 
     // Hovering a note highlights the phrase it belongs to.
     $$('.note', reader).forEach((n) => {
@@ -652,21 +703,29 @@
       if (trig) {
         const note = document.getElementById(trig.dataset.note);
         const open = !isOpen(note);
-        if (open && related) collapseOthers(note);
-        setNote(note, open, { scroll: true });
+        if (open && (related || wide.matches)) collapseOthers(note);
+        setNote(note, open, { scroll: true, dismiss: !open });
+        return;
+      }
+      const close = e.target.closest('[data-close]');
+      if (close) {
+        const note = document.getElementById(close.dataset.close);
+        setNote(note, false, { dismiss: true });
+        triggersFor(note.id)[0]?.focus();
         return;
       }
       const card = e.target.closest('.note.is-card');
       if (card && !e.target.closest('a')) {
         collapseOthers(card);
         setNote(card, true);
-        return;
       }
-      const close = e.target.closest('[data-close]');
-      if (close) {
-        const note = document.getElementById(close.dataset.close);
-        setNote(note, false);
-        triggersFor(note.id)[0]?.focus();
+    });
+    // A card is reachable from the keyboard too.
+    reader.addEventListener('keydown', (e) => {
+      if ((e.key === 'Enter' || e.key === ' ') && e.target.matches('.note.is-card')) {
+        e.preventDefault();
+        collapseOthers(e.target);
+        setNote(e.target, true);
       }
     });
     // Phrases are spans with role="button"; give them a button's keyboard behavior.
@@ -679,7 +738,7 @@
     reader.addEventListener('keydown', (e) => {
       if (e.key !== 'Escape') return;
       const note = e.target.closest?.('.note');
-      if (note) { setNote(note, false); triggersFor(note.id)[0]?.focus(); }
+      if (note) { setNote(note, false, { dismiss: true }); triggersFor(note.id)[0]?.focus(); }
     });
 
     // Deep links: #n53-4 opens that note; #v5 flashes the verse.
@@ -712,9 +771,8 @@
       store.set('hiddenKinds', JSON.stringify([...hidden]));
       if (notesResetBtn) {
         const allVisible = kindFilters.every((b) => !hidden.has(b.dataset.kind));
-        const label = allVisible ? 'Hide all note kinds' : 'Show all note kinds';
-        notesResetBtn.setAttribute('aria-label', label);
-        notesResetBtn.setAttribute('title', label);
+        notesResetBtn.querySelector('span').textContent = allVisible ? 'Hide all' : 'Show all';
+        notesResetBtn.setAttribute('title', allVisible ? 'Hide every kind of note, for the text alone' : 'Show every kind of note');
       }
     };
     kindFilters.forEach((b) =>
@@ -801,7 +859,17 @@
       let current = 0;
       targets.forEach((t, i) => { if (t && t.getBoundingClientRect().top <= top) current = i; });
       links.forEach((a, i) => i === current ? a.setAttribute('aria-current', 'location') : a.removeAttribute('aria-current'));
+      // When the bar is one line that scrolls sideways, keep the current section in view (scrolling the bar only, not the page).
+      const a = links[current];
+      if (a && sectionNav.scrollWidth > sectionNav.clientWidth && current !== shown) {
+        shown = current;
+        const left = a.getBoundingClientRect().left - sectionNav.getBoundingClientRect().left + sectionNav.scrollLeft, right = left + a.offsetWidth;
+        if (left < sectionNav.scrollLeft + 16 || right > sectionNav.scrollLeft + sectionNav.clientWidth - 16) {
+          sectionNav.scrollTo({ left: Math.max(0, left - 24), behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+        }
+      }
     };
+    let shown = -1;
     sectionNav.addEventListener('click', (e) => {
       const a = e.target.closest('a');
       const target = a && document.getElementById(a.hash.slice(1));
@@ -810,6 +878,17 @@
     });
     addEventListener('scroll', () => { if (!queued) { queued = true; requestAnimationFrame(updateSection); } }, { passive: true });
     updateSection();
+
+    // The header slides away while the reader scrolls down (once past the top of the page) and comes back on a
+    // scroll up, so only the Outline bar stays pinned while reading. It stays while one of its menus is open or holds focus.
+    let lastY = scrollY;
+    addEventListener('scroll', () => {
+      const y = scrollY, dy = y - lastY;
+      if (Math.abs(dy) < 8) return;
+      lastY = y;
+      const busy = header && (header.contains(document.activeElement) || header.querySelector('details[open]'));
+      root.classList.toggle('header-away', dy > 0 && y > 160 && !busy);
+    }, { passive: true });
   }
 
   // A native dialog keeps long notes readable without moving the passage or duplicating IDs.
