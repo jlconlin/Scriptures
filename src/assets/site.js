@@ -792,7 +792,7 @@
   [header, sectionNav].filter(Boolean).forEach((el) => bars.observe(el));
   measureBars();
   if (sectionNav) {
-    const links = $$('a', sectionNav);
+    const links = $$('a[href^="#"]', sectionNav); // not a link that opens the reading panel
     const targets = links.map((a) => document.getElementById(a.hash.slice(1)));
     let queued = false;
     const updateSection = () => {
@@ -837,6 +837,80 @@
     $('[data-dialog-close]', expandedNote).addEventListener('click', () => expandedNote.close());
     expandedNote.addEventListener('close', () => { opener?.focus(); });
     expandedNote.addEventListener('click', (e) => { if (e.target === expandedNote) { const r = expandedNote.getBoundingClientRect(); if (e.clientX < r.left || e.clientX > r.right || e.clientY < r.top || e.clientY > r.bottom) expandedNote.close(); } });
+  }
+
+  // ---------- reading panel (a mockup, 2026-10-18) ----------
+  // On a chapter, the “when” line (a[data-panel]) and the header's Search open their page in a panel over the
+  // chapter, so the reader keeps their place. The page in the panel is the ordinary page in a frame, marked
+  // .in-panel (layout.mjs's head script) so its header and footer are hidden. In the panel, a link to a guide, a
+  // theme or search stays in the panel; any other link closes the panel and opens in the reader's page.
+  const inPanel = window.top !== window;
+  if (inPanel) {
+    document.addEventListener('click', (e) => {
+      const a = e.target.closest('a[href]');
+      if (!a || e.defaultPrevented || e.metaKey || e.ctrlKey || e.shiftKey || a.target === '_blank') return;
+      const u = new URL(a.href, location.href);
+      if (u.origin !== location.origin || u.pathname === location.pathname || /\/(guides|themes)\/|^\/search\//.test(u.pathname)) return;
+      e.preventDefault();
+      window.top.postMessage({ panel: 'go', href: u.href }, location.origin);
+    });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !e.defaultPrevented) window.top.postMessage({ panel: 'close' }, location.origin); });
+  } else if ($('article.chapter')) {
+    let panel, opener, pages = 0;
+    // On a wide screen the chapter narrows beside the panel and its lines reflow, which would carry the reader's
+    // verse away. So the verse at the top of the screen is put back where it was after the page changes width.
+    const keepPlace = (change) => {
+      const top = pinnedHeight() + 8;
+      const here = $$('.verse[id], .chapter-grid h2[id]').find((v) => v.getBoundingClientRect().bottom > top);
+      const before = here?.getBoundingClientRect().top;
+      change();
+      if (here) scrollBy(0, here.getBoundingClientRect().top - before);
+    };
+    const close = () => {
+      if (!panel || panel.hidden) return;
+      panel.hidden = true;
+      keepPlace(() => document.documentElement.classList.remove('panel-open'));
+      opener?.focus({ preventScroll: true }); // back to the link without moving the page: the reader keeps their place
+    };
+    const open = (href, from) => {
+      opener = from;
+      if (!panel) {
+        panel = document.createElement('aside');
+        panel.className = 'reading-panel';
+        panel.setAttribute('aria-label', 'Reading panel');
+        panel.innerHTML = '<div class="rp-bar"><button type="button" class="rp-back" aria-label="Back" hidden>‹</button><span class="rp-title"></span><a class="rp-full" href="/">Open as a page</a><button type="button" class="rp-close" aria-label="Close the panel">×</button></div><iframe class="rp-frame" title="Reading panel"></iframe>';
+        document.body.append(panel);
+        $('.rp-close', panel).addEventListener('click', close);
+        const frame = $('.rp-frame', panel);
+        $('.rp-back', panel).addEventListener('click', () => { pages -= 2; frame.contentWindow.history.back(); });
+        frame.addEventListener('load', () => {
+          pages += 1;
+          $('.rp-back', panel).hidden = pages < 2; // pages opened in the panel since it was opened from the chapter
+          try {
+            const w = frame.contentWindow;
+            $('.rp-title', panel).textContent = w.document.title.split(' · ')[0];
+            $('.rp-full', panel).href = w.location.pathname + w.location.search + w.location.hash;
+          } catch {}
+        });
+      }
+      pages = 0;
+      $('.rp-frame', panel).src = href;
+      panel.hidden = false;
+      keepPlace(() => document.documentElement.classList.add('panel-open'));
+      $('.rp-close', panel).focus();
+    };
+    document.addEventListener('click', (e) => {
+      const a = e.target.closest('a[data-panel], a.nav-search');
+      if (!a || e.metaKey || e.ctrlKey || e.shiftKey) return;
+      e.preventDefault();
+      open(a.getAttribute('href'), a);
+    });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
+    addEventListener('message', (e) => {
+      if (e.origin !== location.origin || !e.data?.panel) return;
+      if (e.data.panel === 'close') close();
+      if (e.data.panel === 'go') { close(); location.href = e.data.href; }
+    });
   }
 
   // ---------- search ----------
@@ -962,6 +1036,7 @@
     renderScope();
     const initial = new URL(location).searchParams.get('q');
     if (initial) { q.value = initial; run(); }
+    if (inPanel) q.focus();
   }
 
   // The offline copy (public/sw.js; DEVELOPMENT.md, “Reading offline”), saved from the About page's “Reading

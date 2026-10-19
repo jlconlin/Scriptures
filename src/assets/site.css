@@ -825,3 +825,29 @@ a.ref-internal { text-decoration-style: dotted; }
 .offline-panel [hidden], .offline-panel[hidden], .offline-unsupported[hidden] { display: none; }
 .offline-progress { width: 100%; height: 0.5rem; accent-color: var(--accent); }
 .offline-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+
+/* ---------- reading panel (a mockup, 2026-10-18; site.js “reading panel”) ---------- */
+/* Beside the chapter on a wide screen; a sheet from the bottom on a phone or an upright iPad. */
+.reading-panel { position: fixed; z-index: 60; display: flex; flex-direction: column; background: var(--bg); border: 1px solid var(--line); box-shadow: 0 10px 40px color-mix(in srgb, var(--ink) 18%, transparent); }
+.reading-panel[hidden] { display: none; }
+.rp-bar { display: flex; align-items: center; gap: 12px; padding: 8px 10px 8px 16px; border-bottom: 1px solid var(--line); background: var(--bg-2); font-family: var(--font-ui); font-size: .9rem; }
+.rp-title { flex: 1; min-width: 0; font-weight: 700; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.rp-full { color: var(--muted); font-size: .82rem; white-space: nowrap; }
+.rp-back { border: 0; background: none; color: var(--ink-2); font-size: 1.5rem; line-height: 1; width: 32px; height: 36px; margin-left: -8px; border-radius: 8px; cursor: pointer; }
+.rp-back[hidden] { display: none; }
+.rp-close { border: 0; background: none; color: var(--ink-2); font-size: 1.5rem; line-height: 1; width: 36px; height: 36px; border-radius: 8px; cursor: pointer; }
+.rp-close:hover, .rp-close:focus-visible { background: var(--bg); }
+.rp-frame { flex: 1; width: 100%; border: 0; background: var(--bg); }
+@media (min-width: 1000px) {
+  .reading-panel { top: 0; right: 0; bottom: 0; width: min(560px, 44vw); border-width: 0 0 0 1px; padding-top: env(safe-area-inset-top, 0px); }
+  /* The chapter narrows to sit beside the panel, so no verse is hidden under it. */
+  html.panel-open body { margin-right: min(560px, 44vw); }
+}
+@media (max-width: 999.98px) {
+  .reading-panel { left: 0; right: 0; bottom: 0; height: 82vh; height: 82dvh; border-radius: 16px 16px 0 0; overflow: hidden; padding-bottom: env(safe-area-inset-bottom, 0px); }
+}
+/* The page inside the panel: no site header or footer. */
+.in-panel .site-header, .in-panel .site-footer, .in-panel .skip { display: none; }
+.in-panel body { background: var(--bg); }
+.section-nav .nav-period { margin-left: auto; display: inline-flex; align-items: center; gap: 5px; color: var(--accent-ink); }
+.section-nav .nav-period svg { width: 15px; height: 15px; }

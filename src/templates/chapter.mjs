@@ -249,7 +249,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
       <div class="dial-wrap"><div class="dial-context"><span>${book.unit ? `The ${esc(unitPlural(book))}` : `${esc(book.name)} chapters`}</span><strong>${esc(book.unit?.singular ?? 'Chapter')} ${n} of ${book.chapters.length}</strong></div><div class="dial-label" aria-hidden="true" hidden></div><div class="dial" style="--n:${book.chapters.length}" aria-label="${book.unit ? `The ${esc(unitPlural(book))}` : `Chapters of ${esc(book.name)}`}">${dial}</div></div>
       <nav class="chapter-steps" aria-label="Adjacent chapters">${prev ? `<a href="/${book.slug}/${prev.chapter}/">${icon('arrowL')}${esc(chapterLabel(book, prev.chapter))}</a>` : '<span></span>'}${next ? `<a href="/${book.slug}/${next.chapter}/">${esc(chapterLabel(book, next.chapter))}${icon('arrowR')}</a>` : ''}</nav>
       <div class="hero-meta">
-        ${ch.when ? `<span>${icon('history')} ${mdInline(ch.when)}</span>` : ''}
+        ${ch.when ? `<span>${icon('history')} ${book.period ? `<a href="${book.period.href}" data-panel title="${esc(book.period.title)}">${mdInline(ch.when)}</a>` : mdInline(ch.when)}</span>` : ''}
         ${ch.parallels?.some((p) => p.primary) ? `<span>${icon('restoration')} Also in ${mdInline(ch.parallels.filter((p) => p.primary).map((p) => `[[${p.ref}]]`).join(', '))}</span>` : ''}
         ${(book.facsimiles ?? []).filter((f) => f.with === n).map((f) => `<span>${icon('symbol')} <a href="/${book.slug}/facsimile-${f.n}/">Facsimile ${f.n}</a></span>`).join('')}
         <span>${icon('book')} <a href="${churchUrl}" target="_blank" rel="noopener">Read with footnotes in Gospel Library</a></span>
@@ -260,7 +260,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
   </header>
 
   <div class="wrap chapter-grid">
-    ${sectionNav([ch.setting && ['setting-h', sectionTitle('setting')], ['reading', 'Scripture & notes'], ch.christ && ['christ-h', 'Seeing Christ'], srcList.length && ['src-h', 'Sources']])}
+    ${sectionNav([ch.setting && ['setting-h', sectionTitle('setting')], ['reading', 'Scripture & notes'], ch.christ && ['christ-h', 'Seeing Christ'], srcList.length && ['src-h', 'Sources']], book.period ? `<a class="nav-period" href="${book.period.href}" data-panel>${icon('history')}${esc(book.period.title)}</a>` : '')}
     <div class="chapter-main">
       ${ch.setting ? introSection({ key: 'setting', cls: 'setting card', body: ch.setting, prose: 'prose', preview: true }) : ''}
 

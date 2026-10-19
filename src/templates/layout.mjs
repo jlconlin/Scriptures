@@ -57,7 +57,7 @@ ${SITE.noindex ? '<meta name="robots" content="noindex">\n' : ''}<link rel="cano
 <meta name="apple-mobile-web-app-title" content="${esc(SITE.name)}">
 <link rel="preload" href="/assets/fonts/literata.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/site.css?v=${SITE.version}">
-<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t;var f=localStorage.getItem('fontScale');if(f)document.documentElement.style.setProperty('--reader-scale',f)}catch(e){}</script>
+<script>if(window.top!==window)document.documentElement.classList.add('in-panel');try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t;var f=localStorage.getItem('fontScale');if(f)document.documentElement.style.setProperty('--reader-scale',f)}catch(e){}</script>
 ${head}
 </head>
 <body class="${bodyClass}">

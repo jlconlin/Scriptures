@@ -5,10 +5,10 @@ import { VOLUMES } from '../lib/canon.mjs';
 import { KINDS, LIBRARY, VOLUMES_WITH_GUIDES, sectionTitle } from '../site.mjs';
 import { icon } from './layout.mjs';
 
-export function sectionNav(items) {
+export function sectionNav(items, after = '') {
   const links = items.filter(Boolean);
   if (!links.length) return '';
-  return `<nav class="section-nav" aria-label="On this page"><span>On this page</span>${links.map(([id, label]) => `<a href="#${esc(id)}">${esc(label)}</a>`).join('')}</nav>`;
+  return `<nav class="section-nav" aria-label="On this page"><span>On this page</span>${links.map(([id, label]) => `<a href="#${esc(id)}">${esc(label)}</a>`).join('')}${after}</nav>`;
 }
 
 // The same bar for a page whose sections are the <h2 id="…"> headings of rendered Markdown (guides, About).
