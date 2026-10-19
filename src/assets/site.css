@@ -973,3 +973,8 @@ section.home-hero { padding-bottom: 0; }
 .in-panel, .in-panel body { overscroll-behavior: contain; }
 .section-nav .nav-period { margin-left: auto; display: inline-flex; align-items: center; gap: 5px; color: var(--accent-ink); }
 .section-nav .nav-period svg { width: 15px; height: 15px; }
+/* Where the Outline bar must be swiped (a phone, an iPad held upright), Context comes first, after the label. */
+@media (max-width: 899.98px) {
+  .section-nav .section-nav-label { order: -2; }
+  .section-nav .nav-period { order: -1; margin-left: 0; }
+}
