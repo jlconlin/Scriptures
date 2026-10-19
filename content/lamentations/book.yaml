@@ -5,6 +5,9 @@ slug: lamentations
 order: 3
 abbr: lam                # [[Lam. 3:22]] links here
 gospelLibrary: ot/lam
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-5, period: babylon }
 eyebrow: The Old Testament
 heroQuote:
   text: '“They are new every morning: great is thy faithfulness.”'

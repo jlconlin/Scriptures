@@ -5,6 +5,9 @@ slug: amos
 order: 13
 abbr: amos               # [[Amos 3:7]] links here
 gospelLibrary: ot/amos
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-9, period: assyria }
 eyebrow: The Old Testament
 heroQuote:
   text: '“Seek the LORD, and ye shall live.”'

@@ -5,6 +5,9 @@ slug: deuteronomy
 order: 0.8
 abbr: deut               # [[Deut. 6:5]] links here
 gospelLibrary: ot/deut
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-34, period: wilderness }
 eyebrow: The Old Testament
 heroQuote:
   text: '“Thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might.”'

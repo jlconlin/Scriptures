@@ -5,6 +5,9 @@ slug: hosea
 order: 10
 abbr: hosea              # [[Hosea 6:6]] links here
 gospelLibrary: ot/hosea
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-14, period: assyria }
 eyebrow: The Old Testament
 heroQuote:
   text: '“I will heal their backsliding, I will love them freely.”'

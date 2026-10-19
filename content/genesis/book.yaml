@@ -5,6 +5,9 @@ slug: genesis
 order: 0
 abbr: gen                # [[Gen. 1:1]] links here
 gospelLibrary: ot/gen
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 12-50, period: patriarchs }
 eyebrow: The Old Testament
 heroQuote:
   text: '“In thee shall all families of the earth be blessed.”'

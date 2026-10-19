@@ -141,6 +141,8 @@ export async function build({ quiet = false } = {}) {
   const rand = random();
 
   const sources = await readYaml(r('content/sources.yaml'));
+  // The Old Testament's periods, which a chapter's Context link opens (content/volumes/old-testament/CONTEXT.md).
+  const periods = await readYaml(r('content/volumes/old-testament/periods.yaml'));
   const books = (await discoverBooks(ROOT)).filter((b) => (b.status ?? 'live') === 'live' || PREVIEW);
   if (!books.length) throw new Error('No books: expected content/<slug>/book.yaml and content/<slug>/chapters/');
 
@@ -206,6 +208,14 @@ export async function build({ quiet = false } = {}) {
       }
     }
     book.place = placeOf(book.abbr);
+    // A chapter's period, from the ranges in book.yaml's `periods:`: the guide its Context link opens. A range may name
+    // a guide of its own (`guide:`); otherwise the period's guide, or until that is written the timeline at its era.
+    for (const p of book.periods ?? []) if (!periods[p.period]) book.warn(`periods: unknown period “${p.period}” (content/volumes/old-testament/periods.yaml)`);
+    book.periodOf = (n) => {
+      const p = (book.periods ?? []).find((x) => { const [a, b = a] = String(x.chapters).split(/[-–]/).map(Number); return n >= a && n <= b; });
+      const era = p && periods[p.period];
+      return era ? { title: era.title, href: p.guide ?? era.guide ?? `/old-testament/guides/israels-story/#${era.timeline}` } : null;
+    };
     if (!book.place) throw new Error(`content/${book.slug}/book.yaml: abbr “${book.abbr}” is not a book of the standard works (see src/lib/refs.mjs)`);
     // A book has a Guides page only when it has guides of its own; it does not inherit its volume's (author, 2026-10-18).
     book.hasGuides = existsSync(path.join(book.dir, 'guides'));

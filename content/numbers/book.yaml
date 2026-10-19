@@ -5,6 +5,9 @@ slug: numbers
 order: 0.7
 abbr: num                # [[Num. 21:8]] links here
 gospelLibrary: ot/num
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-36, period: wilderness }
 eyebrow: The Old Testament
 heroQuote:
   text: '“The LORD bless thee, and keep thee: The LORD make his face shine upon thee, and be gracious unto thee: The LORD lift up his countenance upon thee, and give thee peace.”'

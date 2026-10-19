@@ -5,6 +5,9 @@ slug: daniel
 order: 9
 abbr: dan                # [[Dan. 2:44]] links here
 gospelLibrary: ot/dan
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-12, period: babylon }
 eyebrow: The Old Testament
 heroQuote:
   text: '“There is a God in heaven that revealeth secrets.”'

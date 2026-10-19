@@ -1,0 +1,9 @@
+# The Old Testament's periods, for the Context link on a chapter (content/volumes/old-testament/CONTEXT.md).
+# A book names its chapters' period in its book.yaml (`periods:`). `guide` is the period guide once it is written;
+# until then the link opens the timeline guide at `timeline`, the era's section.
+patriarchs: { title: The Patriarchs, timeline: patriarchs }
+wilderness: { title: Egypt and the Wilderness, timeline: patriarchs }
+kingdom: { title: The Conquest, the Judges, and One Kingdom, timeline: judges }
+assyria: { title: Two Kingdoms and Assyria, timeline: two-kingdoms }
+babylon: { title: Babylon and the Exile, timeline: babylon }
+persia: { title: Persia and the Return, timeline: return }

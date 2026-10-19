@@ -5,8 +5,9 @@ slug: isaiah
 order: 1                 # position in the nav and on the home page
 abbr: isa                # Gospel Library / scripture-reference abbreviation; [[Isa. 53:4]] links here
 gospelLibrary: ot/isa    # path under churchofjesuschrist.org/study/scriptures/
-# The guide a chapter's “when” line opens in the reading panel (a mockup, 2026-10-18; a volume's period guide later).
-period: { href: /isaiah/guides/isaiahs-world/, title: Isaiah’s World }
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-66, period: assyria, guide: /isaiah/guides/isaiahs-world/ }   # until guide 4 is written
 eyebrow: The Old Testament
 heroQuote:
   text: '“Great are the words of Isaiah.”'

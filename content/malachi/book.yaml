@@ -5,6 +5,9 @@ slug: malachi
 order: 4
 abbr: mal                # [[Mal. 3:1]] links here
 gospelLibrary: ot/mal
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-4, period: persia }
 eyebrow: The Old Testament
 heroQuote:
   text: '“Behold, I will send my messenger, and he shall prepare the way before me.”'

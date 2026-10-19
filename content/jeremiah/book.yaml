@@ -5,6 +5,9 @@ slug: jeremiah
 order: 2
 abbr: jer                # [[Jer. 1:5]] links here
 gospelLibrary: ot/jer
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-52, period: babylon, guide: /jeremiah/guides/jeremiahs-world/ }   # until guide 5 is written
 eyebrow: The Old Testament
 heroQuote:
   text: '“Before I formed thee in the belly I knew thee.”'

@@ -5,6 +5,9 @@ slug: leviticus
 order: 0.6
 abbr: lev                # [[Lev. 19:18]] links here
 gospelLibrary: ot/lev
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-27, period: wilderness }
 eyebrow: The Old Testament
 heroQuote:
   text: '“Ye shall be holy: for I the LORD your God am holy.”'

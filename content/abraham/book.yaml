@@ -5,6 +5,9 @@ slug: abraham
 order: 6
 abbr: abr                # [[Abr. 3:22]] links here
 gospelLibrary: pgp/abr
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-5, period: patriarchs }
 eyebrow: The Pearl of Great Price
 heroQuote:
   text: '“Abraham, thou art one of them; thou wast chosen before thou wast born.”'

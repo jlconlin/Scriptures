@@ -5,6 +5,9 @@ slug: ezekiel
 order: 8
 abbr: ezek               # [[Ezek. 37:16]] links here
 gospelLibrary: ot/ezek
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-48, period: babylon }
 eyebrow: The Old Testament
 heroQuote:
   text: '“A new heart also will I give you, and a new spirit will I put within you.”'
