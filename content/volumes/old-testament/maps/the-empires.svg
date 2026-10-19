@@ -1,0 +1,28 @@
+<svg viewBox="0 0 600 420" role="img" class="map">
+  <title>A sketch map of the ancient Near East in the age of Assyria, Babylon and Persia</title>
+  <rect width="600" height="420" rx="16" class="m-land"/>
+  <path d="M0 40 C40 50 90 60 140 70 C165 90 178 140 182 180 C186 210 176 240 168 262 C160 280 150 292 120 300 C80 306 40 300 0 296 Z" class="m-sea"/>
+  <path d="M470 330 C510 320 560 330 600 350 L600 420 L520 420 C500 390 480 360 470 330 Z" class="m-sea"/>
+  <path d="M232 258 C236 270 238 290 234 300" class="m-lake"/>
+  <path d="M140 420 C136 390 134 360 132 330 C130 318 126 308 118 300" class="m-river"/>
+  <path d="M320 70 C340 110 360 140 400 180 C430 210 460 240 480 270 C495 290 505 310 510 330" class="m-river"/>
+  <path d="M400 60 C415 80 425 95 432 110 C445 150 460 190 478 230 C490 260 500 290 508 325" class="m-river"/>
+  <path d="M222 120 C225 170 228 220 232 258" class="m-river"/>
+  <text x="60" y="190" class="m-sea-label">Great Sea</text>
+  <text x="530" y="390" class="m-sea-label">Persian Gulf</text>
+  <g class="m-empire"><text x="120" y="360">EGYPT</text><text x="420" y="60">ASSYRIA</text><text x="470" y="300">BABYLONIA</text><text x="540" y="160">MEDIA</text><text x="555" y="250">ELAM</text><text x="300" y="360">ARABIA</text></g>
+  <g class="m-city">
+    <circle cx="210" cy="262" r="5" class="m-home"/><text x="220" y="266" class="m-home-label">Jerusalem</text>
+    <circle cx="205" cy="226" r="3.5"/><text x="150" y="222">Samaria</text>
+    <circle cx="247" cy="170" r="3.5"/><text x="256" y="174">Damascus</text>
+    <circle cx="190" cy="176" r="3.5"/><text x="130" y="170">Tyre</text>
+    <circle cx="432" cy="104" r="3.5"/><text x="442" y="108">Nineveh</text>
+    <circle cx="470" cy="236" r="3.5"/><text x="420" y="232">Babylon</text>
+    <circle cx="540" cy="228" r="3.5"/><text x="552" y="232">Susa</text>
+    <circle cx="182" cy="276" r="3"/><text x="118" y="290">Philistia</text>
+    <circle cx="192" cy="284" r="3"/><text x="198" y="300" class="m-small">Lachish</text>
+  </g>
+  <g class="m-region"><text x="244" y="292">MOAB</text><text x="222" y="336">EDOM</text><text x="200" y="206">ISRAEL</text><text x="190" y="250">JUDAH</text><text x="262" y="208">ARAM</text><text x="252" y="246">AMMON</text></g>
+  <text x="138" y="410" class="m-small">↓ Cush (Ethiopia)</text>
+  <text x="548" y="340" class="m-small">Persia →</text>
+</svg>

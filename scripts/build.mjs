@@ -90,6 +90,22 @@ async function readMd(p) {
   return m ? { ...YAML.parse(m[1]), body: m[2] } : { body: raw };
 }
 
+// A volume's maps are SVG drawings in content/volumes/<volume slug>/maps/<name>.svg, kept apart from the pages so that
+// several guides can show the same map. A page puts one in with `<!-- map: old-testament/the-empires -->` on a line of
+// its own; the page's own <figure> and caption go around the marker, so each page cites what its caption says.
+async function embedMaps(body, where) {
+  const out = [];
+  let last = 0;
+  for (const m of body.matchAll(/<!--\s*map:\s*([a-z0-9-]+)\/([a-z0-9-]+)\s*-->/g)) {
+    const file = r('content/volumes', m[1], 'maps', `${m[2]}.svg`);
+    out.push(body.slice(last, m.index));
+    if (existsSync(file)) out.push((await readFile(file, 'utf8')).trim());
+    else { warn(`${where}: no map ${path.relative(ROOT, file)}`); out.push(m[0]); }
+    last = m.index + m[0].length;
+  }
+  return out.join('') + body.slice(last);
+}
+
 // BUILD_SEED makes the home page's random teasers repeatable (for comparing two builds).
 function random() {
   let a = process.env.BUILD_SEED === undefined ? null : Number(process.env.BUILD_SEED) >>> 0;
@@ -269,6 +285,7 @@ export async function build({ quiet = false } = {}) {
     for (const { f, file, page: g } of await pageFiles(path.join(owner.dir, collection.path))) {
       g.updated = await lastRevised(file);
       g.slug = f.replace(/^\d+-/, '').replace(/\.md$/, '');
+      g.body = await embedMaps(g.body, `${owner.slug}/${collection.path}/${f}`);
       const cited = applyCitations(g.body, sources, (m) => warn(`${owner.slug}/${collection.path}/${f}: ${m}`));
       g.html = md(cited.body);
       g.refs = cited.refs;
