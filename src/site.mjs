@@ -40,7 +40,7 @@ export const sectionTitle = (key, chapter = '') => SECTIONS[key].title.replace('
 // How each kind of note is labelled and colored throughout the site. The same set serves every book.
 export const KINDS = {
   words: { label: 'Language', short: 'Language', blurb: 'What a word or phrase meant in its original language or in 1611 English.' },
-  history: { label: 'Context', short: 'Context', blurb: 'The people, places, and events behind the text.' },
+  history: { label: 'History', short: 'History', blurb: 'The people, places, and events behind the text.' },
   symbol: { label: 'Imagery', short: 'Imagery', blurb: 'What the text’s images would have meant to its first hearers.' },
   christ: { label: 'Witness of Christ', short: 'Christ', blurb: 'Where the passage points to Jesus Christ and His Atonement.' },
   scripture: { label: 'Related Scriptures', short: 'Scriptures', blurb: 'Other scripture that quotes, explains, or fulfills the passage.' },
