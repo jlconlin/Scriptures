@@ -14,7 +14,7 @@
   --surface: #fffcf6;
   --ink: #232634;
   --ink-2: #464a5c;
-  --muted: #6b6f80;
+  --muted: #5a5e70; /* 4.5:1 or better on --bg, --bg-2 and the tinted chapter hero */
   --line: #e2d7c4;
   --line-2: #d3c5ad;
   --accent: #c0562b;
@@ -95,7 +95,7 @@
 
 /* ---------- base ---------- */
 *, *::before, *::after { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-padding-top: calc(var(--header-h) + var(--section-nav-h) + 16px); }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; scroll-padding-top: calc(var(--header-shown, var(--header-h)) + var(--section-nav-h) + 16px); }
 body {
   margin: 0; background: var(--bg); color: var(--ink);
   font: 400 1rem/1.6 var(--font-ui);
@@ -114,8 +114,13 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 .icon { width: 1.15em; height: 1.15em; flex: none; vertical-align: -0.2em; }
 
 /* ---------- header ---------- */
+/* On a page with an Outline bar the header slides away while reading down and returns on a scroll up; the Outline bar
+   then pins to the top (site.js sets .header-away; author, 2026-10-16). */
+.header-away { --header-shown: 0px; }
+.header-away .site-header { transform: translateY(-100%); }
+@media (prefers-reduced-motion: reduce) { .site-header, .section-nav { transition: none; } }
 .site-header {
-  position: sticky; top: 0; z-index: 20;
+  position: sticky; top: 0; z-index: 20; transition: transform .25s cubic-bezier(.2, .8, .2, 1);
   background: color-mix(in srgb, var(--bg) 88%, transparent);
   backdrop-filter: saturate(1.4) blur(10px); -webkit-backdrop-filter: saturate(1.4) blur(10px);
   border-bottom: 1px solid var(--line);
@@ -218,13 +223,15 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 @media (min-width: 680px) { .nav-wide { display: inline-flex !important; } }
 
 /* ---------- footer ---------- */
-.site-footer { margin-top: 64px; border-top: 1px solid var(--line); background: var(--bg-2); padding: 32px 0 40px; }
-.footer-inner { display: grid; gap: 20px; }
+.site-footer { margin-top: 64px; border-top: 1px solid var(--line); background: var(--bg-2); padding: 28px 0 32px; }
+.footer-inner { display: grid; gap: 14px; }
 .brand-small span { display: inline; }
-.footer-verse { font-family: var(--font-read); font-style: italic; color: var(--ink-2); margin: 10px 0 0; max-width: 34ch; }
-.footer-small { font-size: .85rem; color: var(--muted); }
-.footer-small p { margin: 0 0 8px; }
-@media (min-width: 800px) { .footer-inner { grid-template-columns: 1fr 1.6fr; } }
+.footer-verse { font-family: var(--font-read); font-style: italic; color: var(--ink-2); margin: 6px 0 0; }
+.footer-statement { margin: 0; font-size: .9rem; color: var(--ink-2); max-width: 62ch; }
+.footer-links { display: flex; flex-wrap: wrap; margin: 0; padding: 0; list-style: none; font-size: .85rem; }
+.footer-links li + li::before { content: '·'; color: var(--muted); padding: 0 10px; }
+.footer-links a { display: inline-flex; align-items: center; min-height: 32px; }
+@media (pointer: coarse) { .footer-links a { min-height: 44px; } }
 
 /* ---------- common pieces ---------- */
 .eyebrow { font: 700 .78rem/1 var(--font-ui); letter-spacing: .12em; text-transform: uppercase; color: var(--accent-ink); margin: 0 0 10px; display: flex; align-items: center; gap: 8px; }
@@ -262,6 +269,9 @@ h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 600; line-height
 .prose table { width: 100%; border-collapse: collapse; font-family: var(--font-ui); font-size: .92rem; margin: 1em 0 1.4em; display: block; overflow-x: auto; }
 .prose th, .prose td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--line); vertical-align: top; }
 .prose th { font-weight: 700; color: var(--ink-2); background: var(--bg-2); }
+/* A theme's arc table: its steps and quoted King James words are prose, in the reading serif; headings and references keep the interface face */
+.prose table.arc td { font: 1rem/1.5 var(--font-read); }
+.prose table.arc td.refs { font: .92rem/1.5 var(--font-ui); }
 .prose em { font-style: italic; }
 .prose strong { font-weight: 650; }
 .prose code { font-size: .9em; }
@@ -284,11 +294,14 @@ a.ref-internal { text-decoration-style: dotted; }
 .k-bom { --k: var(--k-bom); }
 .kind-chip {
   display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px 4px 8px; border-radius: 999px;
-  font: 650 .78rem/1.2 var(--font-ui); color: var(--k); background: color-mix(in srgb, var(--k) 12%, transparent);
+  font: 650 .78rem/1.2 var(--font-ui); color: color-mix(in srgb, var(--k) 82%, var(--ink)); background: color-mix(in srgb, var(--k) 12%, transparent);
   border: 1px solid color-mix(in srgb, var(--k) 25%, transparent); white-space: nowrap;
 }
 .kind-chip .icon { width: 15px; height: 15px; }
 
+/* Any colour used for small text (a division's colour, the accent of citation numbers and back-links) is blended
+   toward the ink (30%; the division map's fills 20%) so it reaches 4.5:1; fills, rules and icons keep the colour itself
+   (author, 2026-10-15; “It should apply everywhere on the site”, 2026-10-16). */
 /* ---------- home ---------- */
 .home-hero, .book-hero { padding: 32px 0 16px; }
 .home-hero-inner, .book-hero-inner { display: block; }
@@ -298,13 +311,27 @@ a.ref-internal { text-decoration-style: dotted; }
 .hero-art { width: 100%; max-width: 420px; height: auto; justify-self: center; border-radius: 24px; }
 .home-hero-visual { margin-top: 32px; }
 .home-hero .home-hero-art { display: block; width: 100%; max-width: none; }
-.home-hero-actions .cta-row { margin-top: 24px; }
+/* 32px between the picture and the library at every width (author, 2026-10-16). */
+section.home-hero { padding-bottom: 0; }
+.home-hero + #library { margin-top: 32px; }
+/* On wide screens (the iPad held sideways, a computer) the picture sits beside the heading and introduction and
+   fills their height, trimmed only on its left so the book and the mountain stay whole (author, 2026-10-16). */
+@media (min-width: 860px) {
+  section.home-hero { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); grid-template-rows: auto auto; column-gap: 40px; max-width: calc(1120px + 2 * var(--gutter)); margin-inline: auto; padding-inline: var(--gutter); }
+  .home-hero > .wrap { max-width: none; margin: 0; padding-inline: 0; }
+  .home-hero-inner { grid-column: 1; grid-row: 1; }
+  .home-hero-actions { grid-column: 1; grid-row: 2; align-self: start; }
+  .home-hero-visual { grid-column: 2; grid-row: 1 / 3; margin-top: 0; align-self: stretch; display: flex; }
+  .home-hero .home-hero-art { height: 100%; object-fit: cover; object-position: right center; }
+  .home-hero h1 { font-size: clamp(2.6rem, 5vw, 3.6rem); }
+}
 .book-hero .hero-art { display: block; width: 100%; max-width: none; margin-top: 32px; }
 .book-art-figure { margin: 32px 0 0; position: relative; }
 .book-hero .book-art-figure .hero-art { margin-top: 0; }
 /* “What's in this picture”: a faint button in the image's lower right corner; the list opens below the image (site.js keeps the button on the image). */
 .art-key > summary { list-style: none; cursor: pointer; position: absolute; right: 12px; bottom: calc(var(--key-h, 0px) + 12px); display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: rgba(20, 20, 24, .16); color: rgba(255, 255, 255, .75); backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); transition: background .15s, color .15s; }
 .art-key > summary::-webkit-details-marker { display: none; }
+.art-key > summary::before { content: ''; position: absolute; inset: -6px; } /* a 44px target; the button keeps its faint 32px look (author, 2026-10-13) */
 .art-key > summary:hover, .art-key[open] > summary { background: rgba(20, 20, 24, .34); color: #fff; }
 .art-key > summary:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
 .art-key > summary .icon { width: 18px; height: 18px; }
@@ -337,6 +364,14 @@ a.ref-internal { text-decoration-style: dotted; }
 .picker-bookhead .links a { color: var(--accent-ink); font-weight: 650; text-decoration: none; }
 .picker-bookhead h3 a:hover, .picker-bookhead .links a:hover, .picker .page-link:hover, .picker .menu-link:hover { color: var(--accent-ink); text-decoration: underline; text-underline-offset: 3px; }
 .picker .cell { height: 36px; }
+/* On touch screens the home picker's chapter squares, books and links are finger-sized, and the book column lists
+   every book instead of scrolling inside itself (author, 2026-10-16). */
+@media (pointer: coarse) {
+  .picker .cell { height: 44px; font-size: .92rem; }
+  .picker .menu-item { min-height: 44px; }
+  .picker-col { max-height: none; overflow: visible; }
+  .picker-bookhead .links a { display: inline-flex; align-items: center; min-height: 44px; }
+}
 .picker .menu-link { color: var(--accent-ink); font-size: .88rem; font-weight: 650; margin: 0 10px; text-decoration: none; }
 .picker-list { padding: 6px 10px 10px; }
 .picker-vol { padding: 10px 0 8px; border-top: 1px solid var(--line); }
@@ -408,21 +443,23 @@ a.ref-internal { text-decoration-style: dotted; }
 .hint-phr { background: color-mix(in srgb, var(--accent) 16%, transparent); border-bottom: 2px solid var(--accent); padding: 0 2px; border-radius: 3px; }
 
 .division-map { display: flex; height: 36px; border-radius: 10px; overflow: hidden; margin: 0 0 28px; gap: 2px; }
-.division-map a { background: var(--div); display: grid; place-items: center; color: #fff; text-decoration: none; font-size: .7rem; font-weight: 700; min-width: 0; overflow: hidden; }
+.division-map a { background: color-mix(in srgb, var(--div) 80%, var(--ink)); display: grid; place-items: center; color: #fff; text-decoration: none; font-size: .7rem; font-weight: 700; min-width: 0; overflow: hidden; }
 .division-map a span { white-space: nowrap; overflow: hidden; }
 :root[data-theme='dark'] .division-map a { color: #15161c; }
 @media (prefers-color-scheme: dark) { :root:not([data-theme='light']) .division-map a { color: #15161c; } }
 .division { margin-bottom: 36px; }
 .division-head { border-left: 5px solid var(--div); padding: 2px 0 2px 14px; margin-bottom: 14px; }
-.division-range { font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--div); }
+.division-range { font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: color-mix(in srgb, var(--div) 70%, var(--ink)); }
 .division-head h3 { font-size: 1.45rem; margin: 2px 0 4px; }
-.division-head p { margin: 0; color: var(--ink-2); max-width: 70ch; }
+.division-head p { margin: 0; color: var(--ink-2); max-width: 36rem; } /* about 65 characters a line */
+.book-hero .lede { max-width: 36rem; } /* the book's introduction reads at about the chapter text's width (author, 2026-10-15) */
 .chapter-cards { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; grid-template-columns: 1fr; }
 @media (min-width: 600px) { .chapter-cards { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 960px) { .chapter-cards { grid-template-columns: repeat(3, 1fr); } }
 .chapter-card { position: relative; display: grid; grid-template-columns: auto 1fr; gap: 0 12px; padding: 12px 14px; border-radius: 12px; background: var(--surface); border: 1px solid var(--line); text-decoration: none; color: var(--ink); height: 100%; transition: border-color .15s; }
 .chapter-card:hover { border-color: var(--div); }
-.cc-num { grid-row: span 2; font: 600 1.6rem/1 var(--font-display); color: var(--div); min-width: 1.6em; padding-top: 2px; }
+.chapter-card:focus-visible { border-color: var(--div); border-radius: 12px; } /* the global focus style would square the corners */
+.cc-num { grid-row: span 2; font: 600 1.6rem/1 var(--font-display); color: color-mix(in srgb, var(--div) 70%, var(--ink)); min-width: 1.6em; padding-top: 2px; }
 .cc-title { font: 600 1rem/1.3 var(--font-display); padding-right: 22px; }
 .cc-tag { font-size: .84rem; color: var(--muted); line-height: 1.4; }
 .chapter-card.unwritten { background: transparent; border-style: dashed; color: var(--ink-2); }
@@ -438,7 +475,7 @@ a.ref-internal { text-decoration-style: dotted; }
 .source-list li { margin: .45em 0; }
 /* Numbered citations on guide and theme pages: a small superscript number linking to the source list. */
 .cite { font: 700 .66em/0 var(--font-ui); vertical-align: super; margin-left: 1px; position: relative; }
-.cite a { color: var(--accent); text-decoration: none; padding: 0 1px; border-radius: 3px; }
+.cite a { color: color-mix(in srgb, var(--accent) 70%, var(--ink)); text-decoration: none; padding: 0 1px; border-radius: 3px; }
 .cite a:hover { text-decoration: underline; }
 .cite a:focus-visible { outline: 2px solid var(--focus); }
 .cite-sep { color: var(--muted); margin-left: 0; }
@@ -452,7 +489,12 @@ a.ref-internal { text-decoration-style: dotted; }
 .citation-popup-list[hidden] { display: none; }
 .scripture-popup .citation-popup-bar a { display: inline-block; padding-block: 12px; }
 .citation-popup a:focus-visible, .citation-popup-close:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
-.scripture-popup { width: min(420px, calc(100vw - 24px)); }
+.scripture-popup { width: min(380px, calc(100vw - 24px)); }
+/* A long passage scrolls inside the popup; a soft fade at the bottom says there is more (site.js marks the end). */
+.scripture-popup .citation-popup-body { max-height: min(46vh, 380px); overflow-y: auto; overscroll-behavior: contain; padding-bottom: 12px;
+  -webkit-mask-image: linear-gradient(#000 calc(100% - 28px), transparent); mask-image: linear-gradient(#000 calc(100% - 28px), transparent); }
+.scripture-popup .citation-popup-body.at-end { -webkit-mask-image: none; mask-image: none; }
+.scripture-preview-chapter { margin: .9em 0 .5em !important; font: 700 .76rem var(--font-ui); letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
 .scripture-preview-verses p { margin: 0 0 .7em; }
 .scripture-preview-verses p:last-child { margin-bottom: 0; }
 .scripture-preview-verses sup { font: 700 .75em var(--font-ui); color: var(--muted); }
@@ -461,7 +503,7 @@ a.ref-internal { text-decoration-style: dotted; }
 .ref-list-num li { scroll-margin-top: 90px; }
 .ref-list-num li:target { background: color-mix(in srgb, var(--accent) 14%, transparent); border-radius: 6px; }
 .backrefs { font: .85em var(--font-ui); }
-.backrefs a { display: inline-block; padding: .1em .25em; text-decoration: none; color: var(--accent); border-radius: 3px; }
+.backrefs a { display: inline-block; padding: .1em .25em; text-decoration: none; color: color-mix(in srgb, var(--accent) 70%, var(--ink)); border-radius: 3px; }
 .backrefs a:hover { text-decoration: underline; }
 .backrefs a:focus-visible { outline: 2px solid var(--focus); }
 [id^="cite-"] { scroll-margin-top: 120px; }
@@ -475,13 +517,12 @@ a.ref-internal { text-decoration-style: dotted; }
 
 /* ---------- chapter page ---------- */
 .chapter-hero { padding: 26px 0 8px; background: linear-gradient(180deg, color-mix(in srgb, var(--div) 12%, var(--bg)) 0%, var(--bg) 100%); }
-.chapter-hero .eyebrow { color: var(--div); font-size: .85rem; }
+.chapter-hero .eyebrow { color: color-mix(in srgb, var(--div) 70%, var(--ink)); font-size: .85rem; }
 .ch-num { font: 600 1rem var(--font-display); letter-spacing: 0; }
 .chapter-hero h1 { font-size: clamp(2rem, 7.5vw, 3.2rem); font-weight: 600; margin-bottom: .25em; max-width: 22ch; }
 .tagline { font: italic 1.12rem/1.5 var(--font-read); color: var(--ink-2); margin: 0 0 18px; max-width: 60ch; }
-.chapter-hero .last-revised { margin: -8px 0 18px; }
 .dial-wrap { position: relative; max-width: 640px; margin: 0 0 16px; }
-.dial-context { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 7px; font-size: .78rem; color: var(--muted); }
+.dial-context { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 7px; font-size: .82rem; color: var(--muted); }
 .dial-context strong { color: var(--ink-2); font-weight: 700; font-variant-numeric: tabular-nums; }
 .dial { display: grid; grid-template-columns: repeat(var(--n, 66), 1fr); gap: 2px; height: 14px; }
 .dial-label { position: absolute; bottom: calc(100% + 10px); left: 0; transform: translateX(-50%); white-space: nowrap; pointer-events: none; z-index: 5;
@@ -495,8 +536,8 @@ a.ref-internal { text-decoration-style: dotted; }
 .hero-meta { display: flex; flex-wrap: wrap; gap: 8px 18px; font-size: .88rem; color: var(--ink-2); }
 .hero-meta span { display: inline-flex; gap: 6px; align-items: center; }
 .hero-meta .icon { color: var(--div); }
-.chapter-start { display: inline-flex; align-items: center; gap: 5px; margin-top: 12px; color: var(--accent-ink); font-weight: 700; font-size: .92rem; text-decoration: none; }
-.chapter-start:hover { text-decoration: underline; text-underline-offset: 3px; }
+.hero-meta { margin-bottom: 6px; }
+.hero-meta .last-revised { margin: 0; color: var(--muted); font-size: .82rem; }
 
 .page-chapter { --main-w: var(--read-w); }
 .chapter-hero .wrap, .chapter-grid { max-width: calc(var(--main-w) + 2 * var(--gutter)); }
@@ -534,6 +575,8 @@ a.ref-internal { text-decoration-style: dotted; }
   background: color-mix(in srgb, var(--bg) 94%, transparent); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--line); display: grid; gap: 7px;
 }
+.tool-group { display: flex; align-items: flex-start; gap: 10px; min-width: 0; }
+.group-label { flex: none; width: 3.1rem; font: 700 .78rem/36px var(--font-ui); color: var(--muted); }
 .legend { display: flex; flex-wrap: wrap; gap: 6px; min-width: 0; padding: 1px 0; }
 .legend::-webkit-scrollbar { display: none; }
 .legend .filter { cursor: pointer; min-height: 34px; font-size: .8rem; }
@@ -541,26 +584,29 @@ a.ref-internal { text-decoration-style: dotted; }
 .legend .count { opacity: .7; font-weight: 600; }
 .reader-actions { display: flex; flex-wrap: wrap; gap: 6px; }
 .tool { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 6px 12px; border-radius: 999px; border: 1px solid var(--line-2); background: var(--surface); color: var(--ink-2); font: 600 .82rem var(--font-ui); cursor: pointer; }
-.tool[aria-pressed='true'] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.tool .icon { width: 15px; height: 15px; }
+/* A setting that is on shows a check on a tint of the accent; off keeps the check's space so the button doesn't move. */
+.reader-actions .tool[aria-pressed] .icon { opacity: 0; transition: opacity .15s; }
+.reader-actions .tool[aria-pressed] { padding-left: 9px; }
+.tool[aria-pressed='true'] { background: color-mix(in srgb, var(--accent) 11%, var(--surface)); color: var(--accent-ink); border-color: color-mix(in srgb, var(--accent) 45%, var(--line-2)); }
+.reader-actions .tool[aria-pressed='true'] .icon { opacity: 1; }
 .tool .aa { font-family: var(--font-read); font-weight: 600; font-size: .95rem; }
-.reader-actions .tool span:not(.aa) { display: none; }
-.reader-actions .tool { padding: 6px 9px; min-width: 36px; justify-content: center; }
+.tool-quiet { background: transparent; border-color: transparent; color: var(--accent-ink); }
+.tool-quiet:hover { border-color: var(--line-2); }
 @media (min-width: 720px) {
   .reader-bar { margin-left: 0; margin-right: 0; border-radius: 0 0 12px 12px; }
-  .reader-actions .tool span:not(.aa) { display: inline; }
-  .reader-actions .tool { padding: 6px 12px; }
 }
 .reader-hint { font-size: .85rem; color: var(--muted); margin: 10px 0 0; }
 
 /* passages */
 .passage { margin-top: 34px; }
 .passage-head { margin-bottom: 12px; }
-.passage-range { font-size: .75rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--div); }
+.passage-range { font-size: .75rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: color-mix(in srgb, var(--div) 70%, var(--ink)); }
 .passage-head h2 { font-size: 1.35rem; margin: 2px 0 0; }
 .plain { background: color-mix(in srgb, var(--div) 7%, var(--surface)); border: 1px solid color-mix(in srgb, var(--div) 20%, var(--line)); border-radius: 12px; padding: 12px 14px; margin-bottom: 16px; font-size: .97rem; color: var(--ink-2); }
 .plain p { margin: 0 0 .5em; }
 .plain p:last-child { margin: 0; }
-.plain-label { display: block; font-size: .7rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: var(--div); margin-bottom: 4px; }
+.plain-label { display: block; font-size: .7rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; color: color-mix(in srgb, var(--div) 70%, var(--ink)); margin-bottom: 4px; }
 .hide-plain .plain { display: none; }
 
 .verses { font-family: var(--font-read); font-size: calc(1.14rem * var(--reader-scale)); line-height: 1.85; }
@@ -569,9 +615,9 @@ a.ref-internal { text-decoration-style: dotted; }
 @keyframes flash { 0%, 30% { background: color-mix(in srgb, var(--accent) 22%, transparent); } 100% { background: transparent; } }
 /* The line above verse 1 of a psalm (“A Psalm of David, …”), and the Hebrew letter that heads a stanza of Psalm 119. */
 .verse.psalm-title { font-style: italic; color: var(--ink-2); padding-bottom: 10px; }
-.stanza-letter { margin: 18px 0 2px; font: 600 .72em var(--font-ui); letter-spacing: .08em; text-transform: uppercase; color: var(--div); }
+.stanza-letter { margin: 18px 0 2px; font: 600 .72em var(--font-ui); letter-spacing: .08em; text-transform: uppercase; color: color-mix(in srgb, var(--div) 70%, var(--ink)); }
 .stanza-letter span { font-size: 1.5em; font-weight: 400; letter-spacing: 0; margin-right: 4px; }
-.vnum { font: 700 .7em var(--font-ui); color: var(--div); text-decoration: none; vertical-align: .35em; margin-right: 2px; padding: 2px; }
+.vnum { font: 700 .7em var(--font-ui); color: color-mix(in srgb, var(--div) 70%, var(--ink)); text-decoration: none; vertical-align: .35em; margin-right: 2px; padding: 2px; }
 .phr {
   all: unset; cursor: pointer; border-radius: 3px; padding: 0 1px;
   background: linear-gradient(transparent 62%, color-mix(in srgb, var(--k) 22%, transparent) 62%);
@@ -600,7 +646,7 @@ a.ref-internal { text-decoration-style: dotted; }
 @keyframes noteIn { from { opacity: 0; transform: translateY(-4px); } to { opacity: 1; transform: none; } }
 .note-head { display: flex; align-items: center; gap: 6px; margin-bottom: 8px; }
 .note-link { margin-left: auto; color: var(--muted); text-decoration: none; font-weight: 700; width: 32px; height: 32px; display: grid; place-items: center; border-radius: 8px; }
-.note-close { border: 0; background: transparent; font-size: 1.5rem; line-height: 1; color: var(--muted); width: 36px; height: 36px; border-radius: 8px; cursor: pointer; }
+.note-close { border: 0; background: transparent; font: 400 1.5rem/1 var(--font-ui); line-height: 1; color: var(--muted); width: 36px; height: 36px; border-radius: 8px; cursor: pointer; }
 .note-close:hover, .note-link:hover { background: var(--bg-2); }
 .note-title { font-size: 1.12rem; margin: 0 0 6px; }
 .note-body { font-size: 1em; }
@@ -618,6 +664,11 @@ a.ref-internal { text-decoration-style: dotted; }
 .note.is-card .note-body, .note.is-card .note-sources, .note.is-card .bom-text, .note.is-card .bom-legend, .note.is-card .bom-explain-title { display: none; }
 .note.is-card .note-title { font-size: .98rem; margin: 0 0 2px; }
 .note.is-card .note-teaser { display: block; margin: 0; font-size: .86em; line-height: 1.45; color: var(--ink-2); }
+/* A note set aside in the margin (one opened after it) keeps its × so it can be put away without reopening it. */
+.note.is-card.is-kept .note-close { display: grid; place-items: center; width: 32px; height: 32px; margin: -6px -6px -6px auto; font-size: 1.3rem; }
+.note.is-card.is-kept .note-teaser { display: none; } /* already read; the title is enough to find it again */
+.note.is-card.is-kept .note-title { margin: 0; }
+.note.is-card:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; }
 .phr.is-linked:not([aria-expanded='true']) { background: linear-gradient(to top, color-mix(in srgb, var(--k) 32%, transparent) 38%, transparent 38%); }
 .phr.is-linked[aria-expanded='true'] { background: color-mix(in srgb, var(--k) 20%, transparent); }
 .marker.is-linked { outline: 2px solid var(--k); outline-offset: 1px; }
@@ -626,13 +677,14 @@ a.ref-internal { text-decoration-style: dotted; }
    site.js sets each open note's `top` and keeps them from overlapping. */
 @media (min-width: 880px) {
   /* The notes column and gap shrink with the window; the text column takes what is left, up to --main-w. */
-  .page-chapter { --margin-gap: clamp(24px, 3vw, 40px); --margin-w: clamp(260px, 24vw, 340px); }
+  /* The notes column takes the room the window has to spare, up to 420px, so a long note needs less height. */
+  .page-chapter { --margin-gap: clamp(24px, 3vw, 40px); --margin-w: clamp(260px, 100vw - var(--main-w) - var(--margin-gap) - 2 * var(--gutter) - 96px, 420px); }
   .chapter-hero .wrap, .chapter-grid { max-width: calc(var(--main-w) + var(--margin-gap) + var(--margin-w) + 2 * var(--gutter)); }
   .chapter-main { max-width: min(var(--main-w), 100% - var(--margin-gap) - var(--margin-w)); }
   .reader { position: relative; }
   .reader .note {
     position: absolute; left: calc(100% + var(--margin-gap)); width: var(--margin-w); margin: 0;
-    max-height: calc(100vh - var(--header-h) - var(--section-nav-h) - 32px); max-height: calc(100dvh - var(--header-h) - var(--section-nav-h) - 32px); overflow-y: auto; overscroll-behavior: contain;
+    max-height: calc(100vh - var(--header-shown, var(--header-h)) - var(--section-nav-h) - 32px); max-height: calc(100dvh - var(--header-shown, var(--header-h)) - var(--section-nav-h) - 32px); overflow-y: auto; overscroll-behavior: contain;
     font-size: calc(.94rem * var(--reader-scale));
   }
   .hint-wide { display: inline; }
@@ -683,7 +735,8 @@ a.ref-internal { text-decoration-style: dotted; }
 }
 
 /* ---------- map (Isaiah’s World) ---------- */
-.map-figure { margin: 1.5em 0; }
+/* A map widens past the text column like the timeline, so its labels are readable (author, 2026-10-16). */
+.map-figure { margin: 1.5em 0; width: min(100vw - 2 * var(--gutter), 820px); position: relative; left: 50%; transform: translateX(-50%); }
 .map { width: 100%; height: auto; display: block; font-family: var(--font-ui); }
 .map .m-land { fill: color-mix(in srgb, var(--k-history) 10%, var(--surface)); stroke: var(--line); }
 .map .m-sea { fill: color-mix(in srgb, var(--div-comfort) 22%, var(--surface)); }
@@ -697,10 +750,24 @@ a.ref-internal { text-decoration-style: dotted; }
 .map .m-home { fill: var(--accent) !important; }
 .map .m-home-label { font-weight: 800; fill: var(--accent-ink); font-size: 13px; }
 .map .m-small { font-size: 10.5px; fill: var(--muted); }
-.map-figure figcaption { font-size: .88rem; color: var(--muted); margin-top: 8px; font-family: var(--font-ui); }
+.map-figure figcaption { font-size: .88rem; color: var(--muted); margin: 8px auto 0; max-width: var(--read-w); font-family: var(--font-ui); }
+/* The Land's map runs north to south, so it is narrower and taller (author, 2026-10-16). Inland water is filled,
+   the roads scripture names are dashed, and labels carry a halo in the land's colour so a road or river behind
+   them doesn't cut through them. */
+.map-figure-tall { width: min(100vw - 2 * var(--gutter), 560px); }
+.map .m-water { fill: color-mix(in srgb, var(--div-comfort) 38%, var(--surface)); stroke: color-mix(in srgb, var(--div-comfort) 55%, transparent); stroke-width: 1; }
+.map .m-road { fill: none; stroke: color-mix(in srgb, var(--k-history) 70%, transparent); stroke-width: 2; stroke-dasharray: 6 5; stroke-linecap: round; }
+.map .m-water-label { font-style: italic; fill: color-mix(in srgb, var(--div-comfort) 75%, var(--ink)); font-size: 11.5px; }
+.map .m-road-label { font-style: italic; fill: color-mix(in srgb, var(--k-history) 80%, var(--ink)); font-size: 11.5px; }
+.map .m-peak { fill: color-mix(in srgb, var(--k-history) 55%, var(--surface)); }
+.map-land text { font-size: 12.5px; paint-order: stroke; stroke: color-mix(in srgb, var(--k-history) 10%, var(--surface)); stroke-width: 4px; stroke-linejoin: round; }
+.map-land .m-sea-label { stroke: none; font-size: 14px; }
+.map-land .m-region text { font-size: 10.5px; }
+.map-land .m-small, .map-land .m-water-label, .map-land .m-road-label { font-size: 11.5px; }
+.map-land .m-home-label { font-size: 13.5px; }
 
 /* ---------- Book of Mormon readings ---------- */
-.bom-mark { width: auto; height: 22px; padding: 0 7px; border-radius: 6px; font: 800 .62rem/22px var(--font-ui); letter-spacing: .04em; vertical-align: 2px; }
+.bom-mark { width: auto; height: 24px; padding: 0 7px; border-radius: 6px; font: 800 .7rem/24px var(--font-ui); letter-spacing: .04em; vertical-align: 2px; }
 .bom-text { font-family: var(--font-read); font-size: 1.05em; line-height: 1.75; margin: 0; }
 .bom-text ins, .bom-legend ins { text-decoration: none; background: color-mix(in srgb, var(--k-structure) 22%, transparent); border-bottom: 2px solid var(--k-structure); border-radius: 3px; padding: 0 2px; }
 .bom-text del, .bom-legend del { color: var(--muted); text-decoration-color: color-mix(in srgb, var(--k-christ) 70%, transparent); text-decoration-thickness: 1.5px; }
@@ -709,13 +776,31 @@ a.ref-internal { text-decoration-style: dotted; }
 .bom-summary { font-size: .92rem; color: var(--ink-2); display: flex; gap: 8px; align-items: flex-start; flex-wrap: wrap; }
 .bom-summary .icon { color: var(--k-bom); margin-top: 3px; }
 
-.start-callout { display: flex; gap: 10px; align-items: center; margin-block: 24px 0; font-size: 1rem; color: var(--ink-2); }
-.start-callout .icon { color: var(--accent); flex: none; }
 .guides-themes-title { margin-top: 48px; }
 .division-map-wrap { max-width: none; margin: 0; }
 .guides-wide { max-width: calc(860px + 2 * var(--gutter)); }
 /* A volume's guides on its page sit in the reading column, one to a row. */
 .volume-guides .guide-cards { grid-template-columns: 1fr; }
+/* A volume page's books: a list under the volume's divisions, one row per book with its count and a two-line
+   description; tight rows, and two columns on wide screens (author, 2026-10-16: “tighter rows and two columns for
+   wide screens”). The page widens to 900px there so the columns read; the guides keep the reading width. */
+.volume-books { max-width: calc(var(--read-w) + 2 * var(--gutter)); }
+.book-group { margin: 16px 0 6px; font: 700 .8rem var(--font-ui); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+.volume-books .section-title + .book-group { margin-top: 4px; }
+.book-rows { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.book-rows li { border-bottom: 1px solid var(--line); }
+.book-row { display: grid; grid-template-columns: 1fr auto; gap: 2px 16px; padding: 7px 4px; color: var(--ink); text-decoration: none; min-height: 44px; }
+.book-row:hover { background: color-mix(in srgb, var(--accent) 6%, transparent); }
+.book-row-name { font: 600 1.2rem/1.3 var(--font-display); }
+.book-row-status { font-size: .82rem; color: var(--muted); align-self: center; font-variant-numeric: tabular-nums; }
+.book-row-blurb { grid-column: 1 / -1; color: var(--ink-2); font-size: .93rem; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+@media (min-width: 820px) {
+  .page-volume .page-hero .wrap.narrow, .page-volume .volume-guides, .volume-books { max-width: calc(900px + 2 * var(--gutter)); }
+  .page-volume .volume-guides .guide-cards, .page-volume .volume-guides .section-sub { max-width: var(--read-w); }
+  .book-rows { display: grid; grid-template-columns: 1fr 1fr; column-gap: 32px; border-top: 0; }
+  .book-rows li { border-top: 1px solid var(--line); border-bottom: 0; }
+  .book-rows li:last-child, .book-rows li:nth-last-child(2):nth-child(odd) { border-bottom: 1px solid var(--line); }
+}
 
 /* Facsimile pages (the Book of Abraham): a plate from an old printing, then its explanation by figure. */
 .plate { margin: 26px 0 8px; }
@@ -731,14 +816,18 @@ a.ref-internal { text-decoration-style: dotted; }
 .facsimile-card img { width: 100%; aspect-ratio: 4 / 3; object-fit: contain; background: #e9e2d2; border-radius: 8px; margin-bottom: 6px; }
 
 /* Shared navigation and reader components (ui.mjs). */
-.section-nav { position: sticky; top: var(--header-h); z-index: 15; display: flex; align-items: center; flex-wrap: wrap; gap: 6px 20px; max-width: 1120px; margin: 0 auto 20px; padding: 9px var(--gutter); background: var(--bg); border-bottom: 1px solid var(--line); font-size: .86rem; }
-.section-nav > span { color: var(--muted); font-size: .75rem; }
+.section-nav { position: sticky; top: var(--header-shown, var(--header-h)); transition: top .25s cubic-bezier(.2, .8, .2, 1); z-index: 15; display: flex; align-items: center; flex-wrap: wrap; gap: 6px 20px; max-width: 1120px; margin: 0 auto 20px; padding: 9px var(--gutter); background: var(--bg); border-bottom: 1px solid var(--line); font-size: .86rem; }
+/* The bar's label: the links' own face, bold and darker, set off by a hairline */
+.section-nav-label { flex: none; font: 700 1em/1 var(--font-ui); color: var(--ink); padding-right: 14px; border-right: 1px solid var(--line-2); }
 .section-nav a { padding: 4px 0; color: var(--ink-2); text-decoration: none; border-bottom: 2px solid transparent; }
-.section-nav a:hover, .section-nav a[aria-current='location'] { color: var(--accent-ink); border-bottom-color: var(--accent); }
+@media (hover: hover) { .section-nav a:hover { color: var(--accent-ink); border-bottom-color: var(--accent); } } /* on touch a tapped link would keep :hover and look current */
+.section-nav a[aria-current='location'] { color: var(--accent-ink); border-bottom-color: var(--accent); }
 .chapter-grid > .section-nav { padding-inline: 0; }
-.chapter-steps { display: flex; justify-content: space-between; gap: 16px; max-width: 640px; margin: 10px 0 16px; font-size: .82rem; }
-.chapter-steps a { display: inline-flex; gap: 5px; align-items: center; text-decoration: none; }
-.home-about { align-self: center; font-size: .9rem; }
+.chapter-steps a { display: inline-flex; gap: 5px; align-items: center; min-height: 32px; text-decoration: none; }
+/* The chapter last opened on this device (site.js fills it from local storage; hidden for a first visit). */
+.home-continue { margin: 16px 0 0; font: 600 .95rem var(--font-ui); color: var(--ink-2); }
+.home-continue a { display: inline-flex; align-items: center; min-height: 32px; font-family: var(--font-display); font-size: 1.05rem; }
+@media (pointer: coarse) { .home-continue a { min-height: 44px; } }
 .note-expand { border: 0; background: none; padding: 4px 0; color: var(--accent-ink); font: 600 .78rem var(--font-ui); cursor: pointer; }
 .note.is-card .note-expand { display: none; }
 .note-sources summary { cursor: pointer; font-weight: 700; }
@@ -772,10 +861,16 @@ a.ref-internal { text-decoration-style: dotted; }
 .search-results .direct-result { border-left: 4px solid var(--accent); }
 .search-results .sr-title { display: inline; padding: 0; background: none; border: 0; color: var(--ink); }
 .search-results .sr-title:hover { color: var(--accent-ink); text-decoration: underline; }
+/* The section bar is always one line, swiped sideways when it doesn't fit (site.js keeps the current section in view);
+   its label stays at the left edge. A pinned bar of two or more lines covered too much of the page (author, 2026-10-16),
+   on the iPad held upright and, on long guides, sideways and on a computer too. Narrow screens tighten the gaps. */
+.section-nav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+.section-nav::-webkit-scrollbar { display: none; }
+.section-nav-label { position: sticky; left: calc(-1 * var(--gutter)); z-index: 1; background: var(--bg); padding-block: 6px; margin-left: calc(-1 * var(--gutter)); padding-left: var(--gutter); }
+.chapter-grid > .section-nav .section-nav-label { left: 0; margin-left: 0; padding-left: 0; }
+.section-nav a { flex: none; white-space: nowrap; }
+@media (max-width: 820px) { .section-nav { gap: 5px 14px; } }
 @media (max-width: 600px) {
-  .section-nav { gap: 5px 14px; flex-wrap: nowrap; overflow-x: auto; }
-  .section-nav > span { display: none; }
-  .section-nav a { flex: none; white-space: nowrap; }
   .scope-panel { grid-template-columns: 1fr; }
   .scope-column + .scope-column { border-left: 0; border-top: 1px solid var(--line); }
   .scope-volumes, .scope-books { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -784,6 +879,27 @@ a.ref-internal { text-decoration-style: dotted; }
   .note-dialog { padding: 18px; }
 }
 @media print { .section-nav, .chapter-steps, .note-expand, .note-dialog { display: none !important; } }
+
+/* Touch screens (the iPad): every control a finger uses gets a 44px target. Small inline controls in the text
+   (verse numbers, markers) keep their look and get an invisible larger hit area instead, so the lines don't spread. */
+@media (pointer: coarse) {
+  .tool, .legend .filter { min-height: 44px; }
+  .group-label { line-height: 44px; }
+  .note-link, .note-close { width: 44px; height: 44px; }
+  .note-expand { min-height: 44px; padding: 0 10px; }
+  .note.is-card.is-kept .note-close { width: 44px; height: 44px; margin-block: -12px; }
+  .chapter-steps a { min-height: 44px; }
+  .section-nav a { padding: 9px 0; } /* the bar stays pinned while reading, so it grows only a little */
+  .dial { height: 22px; }
+  .division-map { height: 44px; }
+  .vnum, .marker { position: relative; }
+  .vnum::after { content: ''; position: absolute; inset: -12px -2px -12px -10px; }
+  .marker::after { content: ''; position: absolute; inset: -10px -4px; }
+  /* citation numbers on guides and themes, and the source list's back-links: same look, a finger-sized target */
+  .cite a, .backrefs a { position: relative; }
+  .cite a::after { content: ''; position: absolute; inset: -16px -5px; }
+  .backrefs a::after { content: ''; position: absolute; inset: -13px -8px; }
+}
 
 /* A two-sided timeline (Israel's Story in One Place): Israel on the left, the nations on the right, a date rail between;
    color says which kingdom or empire (c-one, c-north, c-south; c-egypt, c-assyria, c-babylon, c-persia, c-greece), and an era band takes its power's color. */
@@ -808,7 +924,7 @@ a.ref-internal { text-decoration-style: dotted; }
 .tl .tl-era span { display: inline-block; background: color-mix(in srgb, var(--tl-c, var(--muted)) 14%, var(--bg)); color: color-mix(in srgb, var(--tl-c, var(--muted)) 80%, var(--ink)); border: 1px solid color-mix(in srgb, var(--tl-c, var(--muted)) 40%, var(--line)); border-radius: 999px; padding: 3px 14px; font-size: .74rem; font-weight: 800; letter-spacing: .1em; text-transform: uppercase; position: relative; z-index: 1; }
 .tl .tl-era a { color: inherit; text-decoration: none; }
 .tl .tl-era a:hover { text-decoration: underline; }
-.tl-key { display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: center; font-size: .8rem; color: var(--muted); margin-top: 14px; }
+.tl-key { display: flex; flex-wrap: wrap; gap: 8px 16px; justify-content: center; font-size: .8rem; color: var(--muted); margin: 0 0 16px; } /* above the timeline, so the colours are known before reading (author, 2026-10-16) */
 .tl-key span::before { content: ''; display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 6px; vertical-align: -1px; background: var(--tl-c); }
 .tl-key .c-one { --tl-c: var(--k-scripture); } .tl-key .c-north { --tl-c: var(--k-structure); } .tl-key .c-south { --tl-c: var(--accent); }
 .tl-key .c-lehi { --tl-c: var(--tl-bom); } .tl-key .c-egypt { --tl-c: var(--k-history); } .tl-key .c-assyria { --tl-c: var(--k-christ); } .tl-key .c-babylon { --tl-c: var(--k-words); } .tl-key .c-persia { --tl-c: var(--k-prophets); } .tl-key .c-greece { --tl-c: var(--k-symbol); }
