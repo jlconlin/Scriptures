@@ -19,14 +19,16 @@ A reader needs the period a chapter belongs to (who ruled, which nations, where 
   5. Babylon and the exile: 2 Kings 21–25, Jeremiah, Lamentations, Ezekiel, Daniel, Habakkuk, Nahum, Zephaniah, Obadiah.
   6. Persia and the return: Ezra, Nehemiah, Esther, Haggai, Zechariah, Malachi.
 
+- **Every period guide has the same five parts** (author, 2026-10-19: “That outline looks good”): where the period sits (its dates and what changed, linked to its section of the timeline); the map (drawn once, in the volume's maps folder); rulers and events (a table: date, ruler, what happened, where to read); the nations (a table: who, where, how they stood toward Israel, where to read); the books of this period (each book or chapter range, with a line on where it falls). About 1,000–1,500 words, to read in the panel; sourced like any guide (`STANDARDS.md` §8).
+- ***Isaiah's World* gives its map, rulers and nations to guide 4 and keeps what is Isaiah's own** (author, 2026-10-19: everyday things and archaeology “sound like things that become a Guide for Isaiah. (not sure I care about an archaeology guide.)”): a shorter *Isaiah's World* with “Everyday things Isaiah assumes you know” and its four archaeological finds, which are about Isaiah's events and already sourced; no archaeology guide of its own.
+- **A chapter's period is named in its book's `book.yaml`**, as chapter ranges (Isaiah 1–39 → period 4), and a chapter may name its own (the coordinator's choice, 2026-10-19).
+
   Genesis 1–11 and Moses get none (their chapters' Background carries them); a chapter that cannot be dated (Joel) shows no Context link. Until a period's guide is written, its Context link opens the timeline guide at that era's section.
 
 ## Still to decide, in order
 
-1. **What every period guide holds**, one outline for all six.
-2. **How a chapter names its period** (by chapter, since a book can span periods: a range in `book.yaml`, or a field in each chapter).
-3. **Isaiah 40–66**: the guide of Isaiah's own day or of the exiles it addresses; it touches the “Second Isaiah” question (the Church holds that Isaiah wrote the book). A question for the author, with a recommendation.
-4. **What becomes of *Isaiah's World* and *Jeremiah's World*** (period guides 4 and 5 grown from them, or cut to what is the book's own).
-5. **The other volumes** (later): the New Testament; the Book of Mormon, which has no real-world map; the Doctrine and Covenants; the Pearl of Great Price.
-6. **Finishing the panel**: the Context link where a phone can find it (it is at the far end of the Outline bar), a compact search page in the panel, the link on every book's chapters.
-7. **Writing it into the standing documents**, together with the glossary decision the author is settling in another session (2026-10-19).
+1. **Isaiah 40–66**: the guide of Isaiah's own day or of the exiles it addresses; it touches the “Second Isaiah” question (the Church holds that Isaiah wrote the book). A question for the author, with a recommendation.
+2. **What becomes of *Jeremiah's World*** (presumably as Isaiah's: its map, rulers and nations to guide 5, and it keeps its last-forty-years timeline).
+3. **The other volumes** (later): the New Testament; the Book of Mormon, which has no real-world map; the Doctrine and Covenants; the Pearl of Great Price.
+4. **Finishing the panel**: the Context link where a phone can find it (it is at the far end of the Outline bar), a compact search page in the panel, the link on every book's chapters.
+5. **Writing it into the standing documents**, together with the glossary decision the author is settling in another session (2026-10-19).
