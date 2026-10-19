@@ -27,6 +27,18 @@ A reader needs the period a chapter belongs to (who ruled, which nations, where 
 
   Genesis 1–11 and Moses get none (their chapters' Background carries them); a chapter that cannot be dated (Joel) shows no Context link. Until a period's guide is written, its Context link opens the timeline guide at that era's section.
 
+## Guide 4's outline (approved by the author, 2026-10-19: “Sounds good”)
+
+**Two Kingdoms and Assyria** (file `08-two-kingdoms-and-assyria`; 1 Kings 12 to 2 Kings 20; about 1,200–1,500 words; `status: preview`).
+
+1. **Where this period sits.** From the division under Rehoboam and Jeroboam to the end of Hezekiah's reign. The north (Samaria; 19 kings, over 200 years) fell to Assyria in 722 or 721; Judah kept David's line, paid Assyria tribute, and survived Sennacherib in 701. The sources date the division 975, 931 or about 925, and the page says so (as the timeline does, `#two-kingdoms`). Links to the timeline's `#two-kingdoms` and `#assyria`.
+2. **The map**: the sketch of the Near East now in *Isaiah's World*, from the volume's maps folder (`old-testament/the-empires`), with its own caption.
+3. **Rulers and events** (date, ruler, what happened, where to read): from *Isaiah's World*'s table, already sourced, Uzziah, Jotham, Tiglath-pileser III, Ahaz, the Syro-Ephraimite war, Damascus taken, Shalmaneser V and Sargon II, Samaria's fall, Hezekiah, Merodach-baladan, Sennacherib's invasion of 701, Esarhaddon; from the timeline guide, already sourced, the division, Jeroboam's calves at Dan and Bethel, the deportations of 740–734; **new, to research**: Ahab with Elijah and Elisha, Jehu, Jeroboam II (Jonah, Amos, Hosea). Not Manasseh, Nebuchadnezzar or Cyrus (guides 5 and 6).
+4. **The nations** (who, where, how they stood toward Israel, where to read): Assyria (a row of its own); from *Isaiah's World*'s table Syria (Aram), Egypt, Cush, the Philistines, Moab, Edom, Tyre and Sidon; Babylon as Assyria's rebel under Merodach-baladan. Not Tarshish, Media or Elam.
+5. **The books of this period**: 1 Kings 12–22, 2 Kings 1–20, 2 Chronicles 10–32; Jonah, Amos and Hosea under Jeroboam II; Micah under Jotham, Ahaz and Hezekiah; Isaiah, the whole book (the author's decision above), in Jerusalem 740–701. A book on the site links to its page.
+
+How: a short research pass (`theme-researcher`) for the three new rows, a dossier from the two pages' existing rows and their sources, then `write-guide.js` (writer, reviewer, repairs, Codex) on the branch `claude/reading-panel`; then *Isaiah's World* cut to its everyday things and archaeology, Isaiah's `periods:` pointed at the new guide and `periods.yaml` given its `guide:`. Measure the cost (`scripts/batch-usage.cjs`) before guide 5.
+
 ## Still to decide, in order
 
 1. **The other volumes** (later): the New Testament; the Book of Mormon, which has no real-world map; the Doctrine and Covenants; the Pearl of Great Price.
