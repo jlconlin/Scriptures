@@ -844,7 +844,8 @@
   // chapter, so the reader keeps their place. The page in the panel is the ordinary page in a frame, marked
   // .in-panel (layout.mjs's head script) so its header and footer are hidden. In the panel, a link to a guide, a
   // theme or search stays in the panel; any other link closes the panel and opens in the reader's page.
-  const inPanel = window.top !== window;
+  let inPanel = false; // this page is the one shown in a chapter's reading panel
+  try { inPanel = Boolean(window.frameElement?.classList.contains('rp-frame')); } catch {}
   if (inPanel) {
     document.addEventListener('click', (e) => {
       const a = e.target.closest('a[href]');
@@ -852,9 +853,9 @@
       const u = new URL(a.href, location.href);
       if (u.origin !== location.origin || u.pathname === location.pathname || /\/(guides|themes)\/|^\/search\//.test(u.pathname)) return;
       e.preventDefault();
-      window.top.postMessage({ panel: 'go', href: u.href }, location.origin);
+      window.parent.postMessage({ panel: 'go', href: u.href }, location.origin);
     });
-    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !e.defaultPrevented) window.top.postMessage({ panel: 'close' }, location.origin); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !e.defaultPrevented) window.parent.postMessage({ panel: 'close' }, location.origin); });
   } else if ($('article.chapter')) {
     let panel, opener, pages = 0;
     // On a wide screen the chapter narrows beside the panel and its lines reflow, which would carry the reader's
