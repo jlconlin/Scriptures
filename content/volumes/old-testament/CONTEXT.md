@@ -32,3 +32,9 @@ A reader needs the period a chapter belongs to (who ruled, which nations, where 
 1. **The other volumes** (later): the New Testament; the Book of Mormon, which has no real-world map; the Doctrine and Covenants; the Pearl of Great Price.
 2. **Finishing the panel**: the Context link where a phone can find it (it is at the far end of the Outline bar), a compact search page in the panel, the link on every book's chapters.
 3. **Writing it into the standing documents**, together with the glossary decision the author is settling in another session (2026-10-19).
+
+## Where the work stands (2026-10-19)
+
+- **The panel** is on the branch `claude/reading-panel` (worktree `.claude/worktrees/reading-panel`), merged with the live site. The dev site has it up to the portrait card and the scrolling fix (`31900d80`); the last commit, the “Context” label and the notes relabelled “History” (`b9328bb9`), is not yet on the dev site. It still opens *Isaiah's World* from every Isaiah chapter (`period:` in `content/isaiah/book.yaml`, one guide for the whole book).
+- **The glossary mockups** (set aside) are on `claude/glossary-mockup`: the volume maps folder (`content/volumes/<volume>/maps/`, shown with `<!-- map: … -->`, `embedMaps` in `scripts/build.mjs`) is the part worth keeping, for the period guides' maps.
+- **Next, step 1** (author approved the order, 2026-10-19; not started, to be done in one sitting): chapter ranges and their period in every Old Testament `book.yaml`; the Context link on every chapter, opening the timeline guide at the era's section until the period's guide exists; the link where a phone finds it; a compact search page in the panel; then the dev site for the author. **Then** guide 4 from *Isaiah's World*, guide 5 from *Jeremiah's World*, then guides 1, 2, 3 and 6, each outline shown to the author first, and the first one's cost measured before the rest.
