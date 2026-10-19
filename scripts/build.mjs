@@ -314,10 +314,9 @@ export async function build({ quiet = false } = {}) {
     const guides = await buildCollection(book, 'guides', 'Guide');
     const themes = await buildCollection(book, 'themes', 'Theme');
     if (themes.length) await write(`${slug}/themes/index.html`, renderGuidesIndex({ owner: book, guides: themes, collection: COLLECTIONS.themes }));
-    // The book's Guides page: its own guides, its themes beside them, and its volume's guides below.
-    const shared = volumeGuides.find((v) => v.volume.key === book.place.vol);
+    // The book's Guides page: its own guides and its themes beside them; never its volume's (author, 2026-10-18).
     book.guidesPage = Boolean(guides.length);
-    if (book.guidesPage) await write(`${slug}/guides/index.html`, renderGuidesIndex({ owner: book, guides, themes: guides.length ? themes : [], shared }));
+    if (book.guidesPage) await write(`${slug}/guides/index.html`, renderGuidesIndex({ owner: book, guides, themes: guides.length ? themes : [] }));
     await write(`${slug}/index.html`, renderBookIndex({ book, guides, themes, sources }));
     built.push({ book, guides, themes });
   }

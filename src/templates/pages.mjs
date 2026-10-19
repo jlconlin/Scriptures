@@ -261,8 +261,7 @@ export const COLLECTIONS = {
 const sharedLede = (volume) => `Background that holds for more than one book of the ${volume.name}.`;
 const guideCard = (o, c, g) => `<a class="guide-card" href="/${o.slug}/${c.path}/${g.slug}/"><span class="guide-icon">${icon(g.icon ?? 'book')}</span><span class="guide-title">${esc(g.title)}</span><span class="guide-blurb">${esc(g.blurb)}</span></a>`;
 
-// `shared` is the owner's volume and its guides ({ volume, guides }), listed below a book's own.
-export function renderGuidesIndex({ owner, guides, collection = COLLECTIONS.guides, themes = [], shared }) {
+export function renderGuidesIndex({ owner, guides, collection = COLLECTIONS.guides, themes = [] }) {
   const c = collection;
   const t = COLLECTIONS.themes;
   const body = `
@@ -273,9 +272,7 @@ export function renderGuidesIndex({ owner, guides, collection = COLLECTIONS.guid
 </div></header>
 <div class="wrap guides-wide">${guides.length ? `<div class="guide-cards guide-cards-two">
 ${guides.map((g) => guideCard(owner, c, g)).join('')}
-</div>` : ''}${shared?.guides.length ? `<h2 class="section-title guides-themes-title" id="${shared.volume.slug}">${esc(shared.volume.name)} guides</h2>
-<p class="section-sub">${esc(sharedLede(shared.volume))}</p>
-<div class="guide-cards guide-cards-two">${shared.guides.map((g) => guideCard(shared.volume, COLLECTIONS.guides, g)).join('')}</div>` : ''}
+</div>` : ''}
 ${themes.length ? `<h2 class="section-title guides-themes-title" id="themes">Themes</h2>
 <p class="section-sub">${esc(t.lede)}</p>
 <div class="guide-cards guide-cards-two">${themes.map((g) => guideCard(owner, t, g)).join('')}</div>` : ''}
