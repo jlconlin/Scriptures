@@ -857,49 +857,77 @@
     });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !e.defaultPrevented) window.parent.postMessage({ panel: 'close' }, location.origin); });
   } else if ($('article.chapter')) {
-    let panel, opener, pages = 0;
-    // On a wide screen the chapter narrows beside the panel and its lines reflow, which would carry the reader's
-    // verse away. So the verse at the top of the screen is put back where it was after the page changes width.
+    // Each page the panel shows keeps its own frame, so going back to it is instant, and the chapter's guide is
+    // loaded quietly once the chapter has settled, so the panel opens already drawn. The panel slides in.
+    let panel, opener;
+    const frames = new Map(); // href -> iframe
+    const wide = matchMedia('(min-width: 1400px)'); // room for the chapter beside the panel (site.css)
+    // Beside the panel the chapter narrows and its lines reflow, which would carry the reader's verse away;
+    // so the verse at the top of the screen is put back where it was.
     const keepPlace = (change) => {
+      if (!wide.matches) return change();
       const top = pinnedHeight() + 8;
       const here = $$('.verse[id], .chapter-grid h2[id]').find((v) => v.getBoundingClientRect().bottom > top);
       const before = here?.getBoundingClientRect().top;
       change();
       if (here) scrollBy(0, here.getBoundingClientRect().top - before);
     };
+    const shown = () => [...frames.values()].find((f) => !f.hidden);
+    const label = () => {
+      const f = shown();
+      try {
+        const w = f.contentWindow;
+        $('.rp-title', panel).textContent = w.document.title.split(' · ')[0];
+        $('.rp-full', panel).href = w.location.pathname + w.location.search + w.location.hash;
+      } catch {}
+      $('.rp-back', panel).hidden = Number(f?.dataset.pages ?? 0) < 2;
+    };
+    const build = () => {
+      if (panel) return;
+      panel = document.createElement('aside');
+      panel.className = 'reading-panel';
+      panel.setAttribute('aria-label', 'Reading panel');
+      panel.inert = true;
+      panel.innerHTML = '<div class="rp-bar"><button type="button" class="rp-back" aria-label="Back" hidden>‹</button><span class="rp-title"></span><a class="rp-full" href="/">Open as a page</a><button type="button" class="rp-close" aria-label="Close the panel">×</button></div><div class="rp-frames"></div>';
+      document.body.append(panel);
+      $('.rp-close', panel).addEventListener('click', close);
+      $('.rp-back', panel).addEventListener('click', () => { const f = shown(); f.dataset.pages -= 2; f.contentWindow.history.back(); });
+    };
+    const frameFor = (href) => {
+      build();
+      if (frames.has(href)) return frames.get(href);
+      const f = document.createElement('iframe');
+      f.className = 'rp-frame';
+      f.title = 'Reading panel';
+      f.hidden = true;
+      f.dataset.pages = 0;
+      f.addEventListener('load', () => { f.dataset.pages = Number(f.dataset.pages) + 1; if (!f.hidden) label(); });
+      f.src = href;
+      $('.rp-frames', panel).append(f);
+      frames.set(href, f);
+      return f;
+    };
     const close = () => {
-      if (!panel || panel.hidden) return;
-      panel.hidden = true;
+      if (!panel?.classList.contains('open')) return;
+      panel.classList.remove('open');
+      panel.inert = true;
       keepPlace(() => document.documentElement.classList.remove('panel-open'));
       opener?.focus({ preventScroll: true }); // back to the link without moving the page: the reader keeps their place
     };
     const open = (href, from) => {
       opener = from;
-      if (!panel) {
-        panel = document.createElement('aside');
-        panel.className = 'reading-panel';
-        panel.setAttribute('aria-label', 'Reading panel');
-        panel.innerHTML = '<div class="rp-bar"><button type="button" class="rp-back" aria-label="Back" hidden>‹</button><span class="rp-title"></span><a class="rp-full" href="/">Open as a page</a><button type="button" class="rp-close" aria-label="Close the panel">×</button></div><iframe class="rp-frame" title="Reading panel"></iframe>';
-        document.body.append(panel);
-        $('.rp-close', panel).addEventListener('click', close);
-        const frame = $('.rp-frame', panel);
-        $('.rp-back', panel).addEventListener('click', () => { pages -= 2; frame.contentWindow.history.back(); });
-        frame.addEventListener('load', () => {
-          pages += 1;
-          $('.rp-back', panel).hidden = pages < 2; // pages opened in the panel since it was opened from the chapter
-          try {
-            const w = frame.contentWindow;
-            $('.rp-title', panel).textContent = w.document.title.split(' · ')[0];
-            $('.rp-full', panel).href = w.location.pathname + w.location.search + w.location.hash;
-          } catch {}
-        });
-      }
-      pages = 0;
-      $('.rp-frame', panel).src = href;
-      panel.hidden = false;
+      const f = frameFor(href);
+      frames.forEach((x) => { x.hidden = x !== f; });
+      label();
+      panel.inert = false;
       keepPlace(() => document.documentElement.classList.add('panel-open'));
-      $('.rp-close', panel).focus();
+      void panel.offsetWidth; // lay the panel out where it starts, so the slide runs from there
+      panel.classList.add('open');
+      $('.rp-close', panel).focus({ preventScroll: true });
     };
+    // The chapter's guide, loaded once the chapter is idle.
+    const first = $('a[data-panel]');
+    if (first) (window.requestIdleCallback ?? ((fn) => setTimeout(fn, 1500)))(() => frameFor(first.getAttribute('href')));
     document.addEventListener('click', (e) => {
       const a = e.target.closest('a[data-panel], a.nav-search');
       if (!a || e.metaKey || e.ctrlKey || e.shiftKey) return;
