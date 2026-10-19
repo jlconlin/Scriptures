@@ -267,7 +267,7 @@
       return `<div class="menu-col menu-book" style="--vc:var(--v-${v.slug})">${volLink(v, drill)}${v.books
         .map((b) => {
           const w = count(b);
-          return `<button type="button" class="menu-item${b.slug === here.book ? ' here' : ''}" data-book="${b.slug}"${b.slug === state.book && !drill ? ' aria-current="true"' : ''}><span class="name">${esc(b.name)}</span><span class="sub">${w < b.total ? `${w} of ${b.total}` : b.total}</span>${chev}</button>`;
+          return `<button type="button" class="menu-item${b.slug === here.book ? ' here' : ''}" data-book="${b.slug}"${b.slug === state.book && !drill ? ' aria-current="true"' : ''}><span class="name">${esc(b.name)}</span>${w < b.total ? `<span class="sub">${w} of ${b.total}</span>` : ''}${chev}</button>`;
         })
         .join('')}</div>`;
     };
@@ -470,7 +470,7 @@
       };
       const bookItem = (b, attr) => {
         const w = count(b);
-        return `<button type="button" class="menu-item" data-book="${b.slug}" ${attr}><span class="name">${esc(b.name)}</span><span class="sub">${w < b.total ? `${w} of ${b.total}` : b.total}</span>${chev}</button>`;
+        return `<button type="button" class="menu-item" data-book="${b.slug}" ${attr}><span class="name">${esc(b.name)}</span>${w < b.total ? `<span class="sub">${w} of ${b.total}</span>` : ''}${chev}</button>`;
       };
       const empty = (v) => `<p class="menu-empty">Nothing from the ${esc(v.name)} is on the site yet.</p><a class="menu-link" href="${v.gl}" target="_blank" rel="noopener">Read it in the Gospel Library ↗</a>`;
 
