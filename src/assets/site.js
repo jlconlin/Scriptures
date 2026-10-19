@@ -938,7 +938,7 @@
   } else if ($('article.chapter')) {
     // Each page the panel shows keeps its own frame, so going back to it is instant, and the chapter's guide is
     // loaded quietly once the chapter has settled, so the panel opens already drawn. The panel slides in.
-    let panel, opener;
+    let panel, opener, backdrop;
     const frames = new Map(); // href -> iframe
     // Beside the verses when there is room for the panel to the right of them (it covers the margin notes, never
     // the text: an iPad mini held sideways has about 530px); otherwise a sheet from the bottom. Nothing reflows,
@@ -950,6 +950,8 @@
       const side = room >= 400;
       panel.classList.toggle('rp-side', side);
       panel.classList.toggle('rp-sheet', !side);
+      const card = !side && panel.classList.contains('open');
+      backdrop.classList.toggle('show', card);
       panel.style.setProperty('--rp-w', `${Math.min(600, Math.floor(room))}px`);
     };
     addEventListener('resize', place);
@@ -970,7 +972,10 @@
       panel.setAttribute('aria-label', 'Reading panel');
       panel.inert = true;
       panel.innerHTML = '<div class="rp-bar"><button type="button" class="rp-back" aria-label="Back" hidden>‹</button><span class="rp-title"></span><a class="rp-full" href="/">Open as a page</a><button type="button" class="rp-close" aria-label="Close the panel">×</button></div><div class="rp-frames"></div>';
-      document.body.append(panel);
+      backdrop = document.createElement('div');
+      backdrop.className = 'rp-backdrop';
+      backdrop.addEventListener('click', () => close());
+      document.body.append(backdrop, panel);
       $('.rp-close', panel).addEventListener('click', close);
       $('.rp-back', panel).addEventListener('click', () => { const f = shown(); f.dataset.pages -= 2; f.contentWindow.history.back(); });
     };
@@ -992,6 +997,7 @@
       if (!panel?.classList.contains('open')) return;
       panel.classList.remove('open');
       panel.inert = true;
+      place();
       opener?.focus({ preventScroll: true }); // back to the link without moving the page: the reader keeps their place
     };
     const open = (href, from) => {
@@ -1003,6 +1009,7 @@
       place();
       void panel.offsetWidth; // lay the panel out where it starts, so the slide runs from there
       panel.classList.add('open');
+      place();
       $('.rp-close', panel).focus({ preventScroll: true });
     };
     // The chapter's guide, loaded once the chapter is idle.

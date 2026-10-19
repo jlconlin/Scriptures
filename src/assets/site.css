@@ -946,7 +946,7 @@ section.home-hero { padding-bottom: 0; }
 /* Beside the verses where there is room to their right (.rp-side, over the margin notes), else a sheet from the bottom (.rp-sheet); site.js chooses. */
 .reading-panel { position: fixed; z-index: 60; display: flex; flex-direction: column; background: var(--bg); border: 1px solid var(--line); box-shadow: 0 10px 40px color-mix(in srgb, var(--ink) 18%, transparent); visibility: hidden; transition: transform .32s cubic-bezier(.2, .8, .2, 1), visibility 0s linear .32s; }
 .reading-panel.open { visibility: visible; transform: none; transition: transform .32s cubic-bezier(.2, .8, .2, 1), visibility 0s; }
-.rp-bar { display: flex; align-items: center; gap: 12px; padding: 8px 10px 8px 16px; border-bottom: 1px solid var(--line); background: var(--bg-2); font-family: var(--font-ui); font-size: .9rem; }
+.rp-bar { touch-action: none; display: flex; align-items: center; gap: 12px; padding: 8px 10px 8px 16px; border-bottom: 1px solid var(--line); background: var(--bg-2); font-family: var(--font-ui); font-size: .9rem; }
 .rp-title { flex: 1; min-width: 0; font-weight: 700; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .rp-full { color: var(--muted); font-size: .82rem; white-space: nowrap; }
 .rp-back, .rp-close { border: 0; background: none; color: var(--ink-2); font-size: 1.5rem; line-height: 1; height: 36px; border-radius: 8px; cursor: pointer; }
@@ -954,16 +954,22 @@ section.home-hero { padding-bottom: 0; }
 .rp-close { width: 36px; }
 .rp-back[hidden] { display: none; }
 .rp-back:hover, .rp-close:hover, .rp-back:focus-visible, .rp-close:focus-visible { background: var(--bg); }
-.rp-frames { flex: 1; position: relative; }
+.rp-frames { flex: 1; position: relative; overscroll-behavior: contain; }
 .rp-frame { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; background: var(--bg); }
 .rp-frame[hidden] { display: block; visibility: hidden; }
 .reading-panel.rp-side { top: 0; right: 0; bottom: 0; width: var(--rp-w, 480px); border-width: 0 0 0 1px; padding-top: env(safe-area-inset-top, 0px); transform: translateX(100%); }
-.reading-panel.rp-sheet { left: 0; right: 0; bottom: 0; height: 78vh; height: 78dvh; border-radius: 16px 16px 0 0; overflow: hidden; padding-bottom: env(safe-area-inset-bottom, 0px); transform: translateY(100%); }
+.reading-panel.rp-sheet { left: 0; right: 0; bottom: 16px; margin-inline: auto; width: min(620px, calc(100% - 32px)); height: min(78vh, 780px); height: min(78dvh, 780px); border-radius: 16px; overflow: hidden; transform: translateY(calc(100% + 24px)); }
+@media (max-width: 600px) { .reading-panel.rp-sheet { bottom: 0; width: 100%; height: 82vh; height: 82dvh; border-radius: 16px 16px 0 0; padding-bottom: env(safe-area-inset-bottom, 0px); } }
+/* Behind the card, the chapter is dimmed; a swipe there does nothing (touch-action) and a tap closes the panel. */
+.rp-backdrop { position: fixed; inset: 0; z-index: 59; background: color-mix(in srgb, var(--ink) 28%, transparent); opacity: 0; visibility: hidden; touch-action: none; transition: opacity .32s ease, visibility 0s linear .32s; }
+.rp-backdrop.show { opacity: 1; visibility: visible; transition: opacity .32s ease, visibility 0s; }
 .reading-panel.rp-side.open, .reading-panel.rp-sheet.open { transform: none; }
-@media (prefers-reduced-motion: reduce) { .reading-panel, .reading-panel.open { transition: none; } }
+@media (prefers-reduced-motion: reduce) { .reading-panel, .reading-panel.open, .rp-backdrop { transition: none; } }
 /* The page inside the panel: no site header or footer, and no page title, which the panel's bar shows. */
 .in-panel .site-header, .in-panel .site-footer, .in-panel .skip, .in-panel .page-hero .crumbs, .in-panel .page-hero h1, .in-panel .page-hero .last-revised { display: none; }
 .in-panel .page-hero { padding-top: 14px; padding-bottom: 4px; }
 .in-panel body { background: var(--bg); }
+/* A scroll that reaches the end of the page in the panel stops there and does not move the chapter. */
+.in-panel, .in-panel body { overscroll-behavior: contain; }
 .section-nav .nav-period { margin-left: auto; display: inline-flex; align-items: center; gap: 5px; color: var(--accent-ink); }
 .section-nav .nav-period svg { width: 15px; height: 15px; }
