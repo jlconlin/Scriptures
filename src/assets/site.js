@@ -940,17 +940,19 @@
     // loaded quietly once the chapter has settled, so the panel opens already drawn. The panel slides in.
     let panel, opener;
     const frames = new Map(); // href -> iframe
-    const wide = matchMedia('(min-width: 1400px)'); // room for the chapter beside the panel (site.css)
-    // Beside the panel the chapter narrows and its lines reflow, which would carry the reader's verse away;
-    // so the verse at the top of the screen is put back where it was.
-    const keepPlace = (change) => {
-      if (!wide.matches) return change();
-      const top = pinnedHeight() + 8;
-      const here = $$('.verse[id], .chapter-grid h2[id]').find((v) => v.getBoundingClientRect().bottom > top);
-      const before = here?.getBoundingClientRect().top;
-      change();
-      if (here) scrollBy(0, here.getBoundingClientRect().top - before);
+    // Beside the verses when there is room for the panel to the right of them (it covers the margin notes, never
+    // the text: an iPad mini held sideways has about 530px); otherwise a sheet from the bottom. Nothing reflows,
+    // so the reader's verse stays where it is.
+    const place = () => {
+      if (!panel) return;
+      const width = document.documentElement.clientWidth; // not counting a scrollbar
+      const room = width - ($('.chapter-main')?.getBoundingClientRect().right ?? width) - 24;
+      const side = room >= 400;
+      panel.classList.toggle('rp-side', side);
+      panel.classList.toggle('rp-sheet', !side);
+      panel.style.setProperty('--rp-w', `${Math.min(600, Math.floor(room))}px`);
     };
+    addEventListener('resize', place);
     const shown = () => [...frames.values()].find((f) => !f.hidden);
     const label = () => {
       const f = shown();
@@ -990,7 +992,6 @@
       if (!panel?.classList.contains('open')) return;
       panel.classList.remove('open');
       panel.inert = true;
-      keepPlace(() => document.documentElement.classList.remove('panel-open'));
       opener?.focus({ preventScroll: true }); // back to the link without moving the page: the reader keeps their place
     };
     const open = (href, from) => {
@@ -999,7 +1000,7 @@
       frames.forEach((x) => { x.hidden = x !== f; });
       label();
       panel.inert = false;
-      keepPlace(() => document.documentElement.classList.add('panel-open'));
+      place();
       void panel.offsetWidth; // lay the panel out where it starts, so the slide runs from there
       panel.classList.add('open');
       $('.rp-close', panel).focus({ preventScroll: true });

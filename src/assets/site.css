@@ -943,7 +943,7 @@ section.home-hero { padding-bottom: 0; }
 .offline-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; }
 
 /* ---------- reading panel (a mockup, 2026-10-18; site.js “reading panel”) ---------- */
-/* A sheet that slides up over the chapter; beside the chapter only where there is room for both (1400px). */
+/* Beside the verses where there is room to their right (.rp-side, over the margin notes), else a sheet from the bottom (.rp-sheet); site.js chooses. */
 .reading-panel { position: fixed; z-index: 60; display: flex; flex-direction: column; background: var(--bg); border: 1px solid var(--line); box-shadow: 0 10px 40px color-mix(in srgb, var(--ink) 18%, transparent); visibility: hidden; transition: transform .32s cubic-bezier(.2, .8, .2, 1), visibility 0s linear .32s; }
 .reading-panel.open { visibility: visible; transform: none; transition: transform .32s cubic-bezier(.2, .8, .2, 1), visibility 0s; }
 .rp-bar { display: flex; align-items: center; gap: 12px; padding: 8px 10px 8px 16px; border-bottom: 1px solid var(--line); background: var(--bg-2); font-family: var(--font-ui); font-size: .9rem; }
@@ -957,14 +957,9 @@ section.home-hero { padding-bottom: 0; }
 .rp-frames { flex: 1; position: relative; }
 .rp-frame { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; background: var(--bg); }
 .rp-frame[hidden] { display: block; visibility: hidden; }
-@media (min-width: 1400px) {
-  .reading-panel { top: 0; right: 0; bottom: 0; width: 560px; border-width: 0 0 0 1px; padding-top: env(safe-area-inset-top, 0px); transform: translateX(100%); }
-  /* The chapter narrows to sit beside the panel, so no verse is hidden under it. */
-  html.panel-open body { margin-right: 560px; }
-}
-@media (max-width: 1399.98px) {
-  .reading-panel { left: 0; right: 0; bottom: 0; height: 78vh; height: 78dvh; border-radius: 16px 16px 0 0; overflow: hidden; padding-bottom: env(safe-area-inset-bottom, 0px); transform: translateY(100%); }
-}
+.reading-panel.rp-side { top: 0; right: 0; bottom: 0; width: var(--rp-w, 480px); border-width: 0 0 0 1px; padding-top: env(safe-area-inset-top, 0px); transform: translateX(100%); }
+.reading-panel.rp-sheet { left: 0; right: 0; bottom: 0; height: 78vh; height: 78dvh; border-radius: 16px 16px 0 0; overflow: hidden; padding-bottom: env(safe-area-inset-bottom, 0px); transform: translateY(100%); }
+.reading-panel.rp-side.open, .reading-panel.rp-sheet.open { transform: none; }
 @media (prefers-reduced-motion: reduce) { .reading-panel, .reading-panel.open { transition: none; } }
 /* The page inside the panel: no site header or footer, and no page title, which the panel's bar shows. */
 .in-panel .site-header, .in-panel .site-footer, .in-panel .skip, .in-panel .page-hero .crumbs, .in-panel .page-hero h1, .in-panel .page-hero .last-revised { display: none; }
