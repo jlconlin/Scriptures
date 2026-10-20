@@ -3,7 +3,7 @@ title: Two Kingdoms and Assyria
 blurb: The divided kingdoms of Israel and Judah from Rehoboam to Hezekiah, the Assyrian empire that ended the north, the nations around them, and the books written in those years.
 icon: history
 status: preview
-sources: [bd-israel-kingdom, ot-manual-12, bd-judah-kingdom, scripture-helps-2-kings, bd-assyria, lds-scriptures, bd-hezekiah, bible-chron-ot, ot-manual-kings-a, bd-egypt, bd-rehoboam, bd-jeroboam, ot-manual-6, ot-manual-10, bd-jonah, ot-manual-f, bd-captivities, bd-damascus, gs-samaria, bd-sennacherib, bd-lachish, bd-merodach-baladan, gs-assyria, bd-ethiopia, bd-philistines, bd-moab, bd-edom, bd-tyre, bd-babylon, scripture-helps-1-kings, bd-isaiah]
+sources: [pike-recovering-world-bible, bd-israel-kingdom, ot-manual-12, bd-judah-kingdom, scripture-helps-2-kings, bd-assyria, lds-scriptures, bd-hezekiah, bible-chron-ot, ot-manual-kings-a, bd-egypt, bd-rehoboam, bd-jeroboam, ot-manual-6, ot-manual-10, bd-jonah, ot-manual-f, bd-captivities, bd-damascus, gs-samaria, bd-sennacherib, bd-lachish, bd-merodach-baladan, gs-assyria, bd-ethiopia, bd-philistines, bd-moab, bd-edom, bd-tyre, bd-babylon, scripture-helps-1-kings, bd-isaiah]
 ---
 
 This guide covers the years from the division of David's kingdom, under Rehoboam and Jeroboam, to the end of Hezekiah's reign. The northern kingdom, Israel, with its capital at Samaria, lasted over 200 years[@bd-israel-kingdom] and fell to Assyria in 721 BC, though the date may be 722.[@ot-manual-12] Judah, where David's house held the throne,[@bd-judah-kingdom] paid Assyria tribute until Hezekiah rebelled;[@scripture-helps-2-kings] Sennacherib came to Palestine in 701.[@bd-assyria] “Now in the fourteenth year of king Hezekiah did Sennacherib king of Assyria come up against all the fenced cities of Judah, and took them” ([[2 Kgs. 18:13]]), yet Jerusalem was at length delivered.[@bd-hezekiah]
@@ -41,6 +41,11 @@ All dates are approximate; where they differ, the table gives each.
 | 701 | Assyria: Sennacherib (705–681) | Hezekiah has refused tribute;[@ot-manual-f] Sennacherib takes 46 cities, sets his headquarters at Lachish and besieges Jerusalem;[@ot-manual-f][@bd-lachish] the Assyrian host is destroyed and he goes home to Nineveh[@bd-sennacherib][@bd-assyria] | [[2 Kgs. 18–19]]; [[Isa. 36–37]] |
 | 681–668 | Assyria: Esarhaddon | Sennacherib is killed by his sons; Esarhaddon conquers Egypt[@bd-sennacherib][@bd-assyria] | [[2 Kgs. 19:36–37]] |
 | c. 686 | Judah: Hezekiah's reign ends (715–686) | Manasseh, joint king from 697, rules alone.[@ot-manual-kings-a] By another reckoning, Hezekiah died a year after Jerusalem's deliverance in 701,[@bd-hezekiah] about 700 | [[2 Kgs. 20:21]] |
+
+<figure class="photo-figure">
+<img src="/assets/figures/jehu-black-obelisk.webp" width="1200" height="797" loading="lazy" alt="A carved panel on a dark stone pillar: a man kneels with his face to the ground before a standing king and his attendants.">
+<figcaption>The Black Obelisk of Shalmaneser III, which depicts Jehu, king of Israel;[@pike-recovering-world-bible] in 842 Shalmaneser “took tribute from Jehu, king of Israel.”[@bd-assyria] Photograph: Osama Shukir Muhammed Amin, <a href="https://commons.wikimedia.org/wiki/File:Jehu_of_the_House_of_Omri_bows_before_the_Assyrian_king_Shalmaneser_III,_The_Black_Obelisk..JPG">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>; resized.</figcaption>
+</figure>
 
 <h2 id="nations">The nations</h2>
 

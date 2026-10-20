@@ -755,6 +755,10 @@ section.home-hero { padding-bottom: 0; }
 .map .m-lakefill { fill: color-mix(in srgb, var(--div-comfort) 30%, var(--surface)); }
 .map .m-river-label { font-style: italic; font-size: 10.5px; fill: color-mix(in srgb, var(--div-comfort) 85%, var(--ink)); }
 .map .m-credit { font-size: 8.5px; fill: var(--muted); opacity: .8; }
+/* A photograph in a guide (an artifact), with its source and credit in the caption. */
+.photo-figure { margin: 1.5em 0; }
+.photo-figure img { display: block; width: 100%; height: auto; border-radius: 10px; background: var(--bg-2); }
+.photo-figure figcaption { font-size: .88rem; color: var(--muted); margin-top: 8px; font-family: var(--font-ui); }
 .map-figure figcaption { font-size: .88rem; color: var(--muted); margin: 8px auto 0; max-width: var(--read-w); font-family: var(--font-ui); }
 /* The Land's map runs north to south, so it is narrower and taller (author, 2026-10-16). Inland water is filled,
    the roads scripture names are dashed, and labels carry a halo in the land's colour so a road or river behind
