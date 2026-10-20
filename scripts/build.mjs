@@ -91,7 +91,7 @@ async function readMd(p) {
 }
 
 // A volume's maps are SVG drawings in content/volumes/<volume slug>/maps/<name>.svg, kept apart from the pages so that
-// several guides can show the same map. A page puts one in with `<!-- map: old-testament/the-empires -->` on a line of
+// several guides can show the same map. A page puts one in with `<!-- map: old-testament/two-kingdoms-and-assyria -->` on a line of
 // its own; the page's own <figure> and caption go around the marker, so each page cites what its caption says.
 async function embedMaps(body, where) {
   const out = [];

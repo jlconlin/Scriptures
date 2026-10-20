@@ -13,8 +13,8 @@ The division is dated 975,[@bible-chron-ot] 931[@ot-manual-kings-a] or about 925
 <h2 id="map">The map</h2>
 
 <figure class="map-figure">
-<!-- map: old-testament/the-empires -->
-<figcaption>A simplified sketch, not to scale. Assyria and Egypt were rival powers,[@bd-egypt] and after 734 there was no independent state between them.[@bd-assyria]</figcaption>
+<!-- map: old-testament/two-kingdoms-and-assyria -->
+<figcaption>Each place is shown at its modern identification. Assyria and Egypt were rival powers,[@bd-egypt] and after 734 there was no independent state between them.[@bd-assyria]</figcaption>
 </figure>
 
 For the land itself, see [The Land](/old-testament/guides/the-land/).

@@ -750,6 +750,11 @@ section.home-hero { padding-bottom: 0; }
 .map .m-home { fill: var(--accent) !important; }
 .map .m-home-label { font-weight: 800; fill: var(--accent-ink); font-size: 13px; }
 .map .m-small { font-size: 10.5px; fill: var(--muted); }
+.map .m-desert { fill: color-mix(in srgb, var(--k-history) 16%, var(--surface)); }
+.map .m-mountain { fill: color-mix(in srgb, var(--ink) 9%, transparent); }
+.map .m-lakefill { fill: color-mix(in srgb, var(--div-comfort) 30%, var(--surface)); }
+.map .m-river-label { font-style: italic; font-size: 10.5px; fill: color-mix(in srgb, var(--div-comfort) 85%, var(--ink)); }
+.map .m-credit { font-size: 8.5px; fill: var(--muted); opacity: .8; }
 .map-figure figcaption { font-size: .88rem; color: var(--muted); margin: 8px auto 0; max-width: var(--read-w); font-family: var(--font-ui); }
 /* The Land's map runs north to south, so it is narrower and taller (author, 2026-10-16). Inland water is filled,
    the roads scripture names are dashed, and labels carry a halo in the land's colour so a road or river behind
