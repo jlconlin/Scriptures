@@ -58,7 +58,7 @@ Matthew applies Isaiah’s Zebulun, Naphtali and “Galilee of the nations” ([
 | Babylon | The Euphrates; Chebar, a canal where exiles lived[@bd-babylon][@bd-chebar] | Nebuchadnezzar beat Necho at Carchemish in 605[@bd-assyria] | [[Jer. 25]]; [[Dan. 1]] |
 | Persia | East of Elam[@bd-persia] | Cyrus took Babylon in 538; Judea a province until 334[@bd-persia] | [[Dan. 8]] |
 
-For the dates, see the [timeline](/old-testament/guides/israels-story/); for these nations in their own periods, see [Isaiah's World](/isaiah/guides/isaiahs-world/) and [Jeremiah's World](/jeremiah/guides/jeremiahs-world/).
+For the dates, see the [timeline](/old-testament/guides/israels-story/); for these nations in their own periods, see [Two Kingdoms and Assyria](/old-testament/guides/two-kingdoms-and-assyria/) and [Jeremiah's World](/jeremiah/guides/jeremiahs-world/).
 
 <h2 id="places">Places the books name</h2>
 

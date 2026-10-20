@@ -7,7 +7,7 @@ abbr: isa                # Gospel Library / scripture-reference abbreviation; [[
 gospelLibrary: ot/isa    # path under churchofjesuschrist.org/study/scriptures/
 # The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
 periods:
-  - { chapters: 1-66, period: assyria, guide: /isaiah/guides/isaiahs-world/ }   # until guide 4 is written
+  - { chapters: 1-66, period: assyria }
 eyebrow: The Old Testament
 heroQuote:
   text: '“Great are the words of Isaiah.”'
@@ -22,7 +22,7 @@ intro: |
 
   This companion goes through all sixty-six chapters and tries to anticipate the questions a careful reader asks: *Who is he talking to? What does that image mean? Where is Christ in this?*
 
-  For the historical setting, begin with [Isaiah’s World](/isaiah/guides/isaiahs-world/) and [A Timeline of the Old Testament](/old-testament/guides/israels-story/#assyria).
+  For the historical setting, begin with [Two Kingdoms and Assyria](/old-testament/guides/two-kingdoms-and-assyria/) and [A Timeline of the Old Testament](/old-testament/guides/israels-story/#assyria); [Isaiah’s World](/isaiah/guides/isaiahs-world/) has the everyday things Isaiah assumes and what archaeology has found.
 
 # The large movements of the book. `key` sets the color used throughout the site.
 divisions:

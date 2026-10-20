@@ -136,7 +136,7 @@ Under Rehoboam the division came, “mainly the result of an old” rivalry betw
 
 **The south.** The house of David held the throne “until the Exile,” and Judah outlasted Israel by 135 years.[@bd-judah-kingdom]
 
-**The prophets.** Elijah was a prophet “during the reign of Ahab”;[@scripture-helps-1-kings] the table places Elisha under Jehoram.[@bible-chron-ot] Jonah lived under Jeroboam II, who died about 750;[@bd-jonah][@bd-amos] Amos and Hosea prophesied in his reign[@bd-jeroboam], Hosea being “the only prophet of the northern kingdom who has left written prophecies.”[@bd-hosea] Micah prophesied under Hezekiah[@bd-micah], and Isaiah in Jerusalem “740–701 B.C.”[@bd-isaiah] See [Hosea](/hosea/) and, for the kings of Isaiah's day, [Isaiah's World](/isaiah/guides/isaiahs-world/).
+**The prophets.** Elijah was a prophet “during the reign of Ahab”;[@scripture-helps-1-kings] the table places Elisha under Jehoram.[@bible-chron-ot] Jonah lived under Jeroboam II, who died about 750;[@bd-jonah][@bd-amos] Amos and Hosea prophesied in his reign[@bd-jeroboam], Hosea being “the only prophet of the northern kingdom who has left written prophecies.”[@bd-hosea] Micah prophesied under Hezekiah[@bd-micah], and Isaiah in Jerusalem “740–701 B.C.”[@bd-isaiah] See [Hosea](/hosea/) and, for the kings and nations of this period, [Two Kingdoms and Assyria](/old-testament/guides/two-kingdoms-and-assyria/).
 
 <h2 id="assyria">Assyria and the fall of Samaria</h2>
 
@@ -144,7 +144,7 @@ Assyria was a major power “from the mid-12th century B.C. until the close of t
 
 The Assyrians “brought men from Babylon … and placed them in the cities of Samaria” ([[2 Kgs. 17:24]]).[@lds-scriptures] The later history of the captives “cannot be followed with certainty”;[@bd-captivities] “Since their captivity they have never yet returned,” but the prophecies speak of their return.[@bd-israel-kingdom]
 
-Judah paid Assyria tribute from Ahaz's treaty through Hezekiah “until around 705 BC.”[@scripture-helps-2-kings] Sennacherib (705–681) came to Palestine in 701;[@bd-assyria] Hezekiah, a reformer, had Isaiah's help.[@bd-hezekiah] Sennacherib king of Assyria did “come up against all the fenced cities of Judah” ([[2 Kgs. 18:13]]).[@lds-scriptures] [Isaiah's World](/isaiah/guides/isaiahs-world/) tells the crisis in detail; see also [[Isa. 36–37]].
+Judah paid Assyria tribute from Ahaz's treaty through Hezekiah “until around 705 BC.”[@scripture-helps-2-kings] Sennacherib (705–681) came to Palestine in 701;[@bd-assyria] Hezekiah, a reformer, had Isaiah's help.[@bd-hezekiah] Sennacherib king of Assyria did “come up against all the fenced cities of Judah” ([[2 Kgs. 18:13]]).[@lds-scriptures] [Two Kingdoms and Assyria](/old-testament/guides/two-kingdoms-and-assyria/#rulers) tells the crisis in detail; see also [[Isa. 36–37]].
 
 <h2 id="babylon">Josiah, Babylon, and the fall of Jerusalem</h2>
 

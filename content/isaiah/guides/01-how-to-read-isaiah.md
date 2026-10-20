@@ -14,7 +14,7 @@ This guide gathers the keys that help most. None of them are secret. They are ha
 In [[2 Ne. 25:1–8]], Nephi explains why Isaiah is hard and what makes him plain. Read those verses slowly; they are a good introduction to Isaiah. Nephi names four things:
 
 1. **“The manner of prophesying among the Jews”** (verse 1). Isaiah writes in the forms of ancient Hebrew prophecy: poetic style, imagery and figurative language, allusions to the law of Moses, and phrases with more than one meaning.[@ot-manual-e] Nephi’s people, raised far from Jerusalem, didn’t know those forms. Keys 2–5 below are about learning them.
-2. **“The regions round about”** (verse 6). Nephi had lived in Jerusalem and knew the geography and the nations Isaiah names. We have to learn them, because Isaiah uses places both literally and as figures.[@ot-manual-e] See [Isaiah’s World](/isaiah/guides/isaiahs-world/).
+2. **“The regions round about”** (verse 6). Nephi had lived in Jerusalem and knew the geography and the nations Isaiah names. We have to learn them, because Isaiah uses places both literally and as figures.[@ot-manual-e] See [Two Kingdoms and Assyria](/old-testament/guides/two-kingdoms-and-assyria/#nations).
 3. **“The spirit of prophecy”** (verse 4). Isaiah’s words “are plain unto all those that are filled with the spirit of prophecy.” John defines that spirit: “the testimony of Jesus is the spirit of prophecy” ([[Rev. 19:10]]). Isaiah’s writings must be interpreted under the influence of that same spirit.[@ot-manual-e]
 4. **Living in the last days** (verses 7–8). Nephi promised that “in the last days… shall they understand them.” Many of Isaiah’s prophecies concern our time: the gathering of Israel, the coming forth of a book, an ensign to the nations, the temple in the tops of the mountains.[@mcconkie-keys]
 
@@ -141,4 +141,4 @@ If you’re new to Isaiah, don’t start at chapter 1 and grind forward. Try thi
 6. **Isaiah 61**: the chapter Jesus read in Nazareth ([[Luke 4:16–21]]).
 7. **Isaiah 2**: the mountain of the Lord’s house.
 
-Then read [Isaiah’s World](/isaiah/guides/isaiahs-world/) and begin with [Isaiah 1](/isaiah/1/).
+Then read [Two Kingdoms and Assyria](/old-testament/guides/two-kingdoms-and-assyria/) and begin with [Isaiah 1](/isaiah/1/).

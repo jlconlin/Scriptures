@@ -1,65 +1,13 @@
 ---
 title: Isaiah’s World
-blurb: The kings, empires, and places behind the text. A map, one table of rulers and events, and the nations Isaiah names.
+blurb: The everyday things Isaiah assumes you know, and what archaeology has found of the events he lived through. His kings, empires and map are in the period’s guide.
 icon: map
-sources: [ot-manual-f, bd-isaiah, bd-captivities, bd-assyria, bd-persia, bd-hezekiah, bd-ahaz, bd-uzziah, bd-samaria, bd-damascus, bd-egypt, bd-ethiopia, bd-philistines, bd-moab, bd-edom, bd-tyre, bd-tarshish, bd-media, bd-elam, bd-sennacherib, bd-lachish, bd-hezekiahs-tunnel, bd-gate, bd-high-places, bd-grove, gs-ensign, luckenbill-annals, great-isaiah-scroll, lds-scriptures]
+sources: [bd-gate, ot-manual-f, bd-hezekiahs-tunnel, bd-high-places, bd-grove, gs-ensign, luckenbill-annals, bd-lachish, great-isaiah-scroll]
 ---
 
 Nephi said that one reason he could understand Isaiah was that he knew “the regions round about” ([[2 Ne. 25:6]]). Growing up in Jerusalem, he would have known why Egypt was tempting, why Assyria was terrifying, and why Babylon was a byword. This guide tries to give you some of what Nephi knew.
 
-## Where Isaiah stood
-
-Isaiah was a prophet in **Jerusalem**, capital of the kingdom of **Judah**, from about 740 to 701 BC.[@bd-isaiah] To the north was the kingdom of **Israel**, often called **Ephraim** ([[Isa. 7:9]]), with its capital at **Samaria**.[@bd-samaria] Both kingdoms lay between two great powers, **Egypt** to the southwest and **Assyria** to the northeast, and an alliance with Egypt against Assyria was for some time the policy of Judah’s kings.[@bd-egypt] Beyond Assyria lay **Babylon**, the later empire whose destruction of Judah Isaiah foretold[@ot-manual-f], and beyond Babylon lay Persia, whose king **Cyrus** is named in [[Isa. 44:28]].
-
-## A map of Isaiah’s world
-
-<figure class="map-figure">
-<!-- map: old-testament/the-empires -->
-<figcaption>A simplified sketch, not to scale. Judah lay between Egypt and the Mesopotamian empires, and Assyrian, Egyptian, and Babylonian armies all marched through Palestine.[@bd-assyria]</figcaption>
-</figure>
-
-<h2 id="history">Kings, empires, and events</h2>
-
-All dates are approximate, and the sources differ by a year or more in places: the fall of Samaria is dated to 722[@ot-manual-f] and to 721.[@bd-captivities] Rulers of Judah are marked “Judah”; the others are the kings and empires Judah had to reckon with. The whole story from Abraham to the return, and why the sources' dates differ, is in [A Timeline of the Old Testament](/old-testament/guides/israels-story/#dates); this table keeps the rulers of Isaiah's own day and the events his prophecies name.
-
-| Date (BC) | Ruler or empire | What happened | Where to read it |
-|---|---|---|---|
-| c. 792–740 | Judah: **Uzziah** (Azariah) | A long reign in which Judah became a strong military power; he was struck with leprosy after he assumed the right to officiate in the temple.[@ot-manual-f][@bd-uzziah] | [[2 Chr. 26]] |
-| 753–732 | Israel: six kings | The northern kingdom went through six kings in these years, and at least two of them were assassinated.[@ot-manual-f] The one who appears in Isaiah is **Pekah**, “the son of Remaliah.” | [[Isa. 7:1–9]] |
-| c. 750–732 | Judah: **Jotham** | Enlarged the temple gate and strengthened Judah’s fortifications.[@ot-manual-f] | [[2 Kgs. 15:32–38]] |
-| 745–727 | Assyria: **Tiglath-pileser III** | Assyria begins to bring Syria into its empire.[@bd-assyria] | [[Isa. 7:17–20]] |
-| c. 740 | Judah | King Uzziah dies; Isaiah sees the Lord in the temple.[@ot-manual-f][@bd-isaiah] | [[Isa. 6]] |
-| c. 735–715 | Judah: **Ahaz** | Idolatrous; he refused Isaiah’s counsel, sought an alliance with Assyria, and paid it tribute from the temple and the throne.[@ot-manual-f][@bd-ahaz] | [[Isa. 7]]; [[2 Kgs. 16]] |
-| 735–732 | Syria and Israel | **Syro-Ephraimite war**: Syria and Israel, allied against Assyria, try to subjugate Judah; Ahaz seeks an alliance with Assyria.[@ot-manual-f][@bd-assyria] | [[Isa. 7–8]]; [[2 Kgs. 16]] |
-| c. 733 | Assyria | Assyria conquers Damascus.[@bd-damascus] | [[Isa. 17]] |
-| 727–722 | Assyria: **Shalmaneser V**[@bd-assyria] | **Samaria falls** (722–721); the ten tribes are deported.[@ot-manual-f][@bd-captivities] | [[Isa. 9:8–10:4]]; [[2 Kgs. 17]] |
-| 722–705 | Assyria: **Sargon II**[@bd-assyria] | In 711 Assyria puts down a Philistine revolt at Ashdod; Isaiah walks barefoot as a sign.[@bd-assyria] | [[Isa. 20]] |
-| c. 715–686 | Judah: **Hezekiah** | A religious and political reformer who trusted the Lord in the Assyrian crisis, and whose chief adviser was Isaiah.[@bd-hezekiah][@ot-manual-f][@bd-isaiah] His reforms begin about 715.[@ot-manual-f] | [[2 Kgs. 18:1–7]]; [[Isa. 36–39]] |
-| c. 703 | Babylon: **Merodach-baladan** | A Babylonian prince who rebelled against Assyria;[@ot-manual-f] his envoys visit Hezekiah (some place the embassy earlier or later).[@luckenbill-annals, p. 10] | [[Isa. 39]] |
-| 705–681 | Assyria: **Sennacherib**[@bd-assyria] | In 701 he **invades Judah**, takes Lachish, and besieges Jerusalem; the Lord delivers the city.[@bd-assyria][@bd-lachish][@ot-manual-f] | [[Isa. 36–37]] |
-| 681–668 | Assyria: **Esarhaddon**[@bd-assyria] | Succeeds Sennacherib, his father. | [[Isa. 37:38]] |
-| from c. 686 | Judah: **Manasseh** | Becomes sole king and leads the nation deep into apostasy and idolatry;[@ot-manual-f] by tradition Isaiah is martyred in his reign.[@bd-isaiah] | [[2 Kgs. 21:1–16]]; [[Heb. 11:37]] |
-| 604–561 | Babylon: **Nebuchadnezzar**[@bd-assyria] | In 586 **Babylon destroys Jerusalem** and the temple; the Jews go into exile.[@bd-captivities][@bd-assyria] | [[Isa. 39:6–7]]; [[2 Kgs. 25]] |
-| 538 | Persia: **Cyrus the Great** | Having united the Medes and Persians, he takes Babylon and founds the Persian Empire.[@bd-persia][@bd-assyria] | [[Isa. 13]]; [[Isa. 45:1–4]]; [[Isa. 47]] |
-| 536 | Persia: Cyrus | Cyrus lets the Jews return and rebuild.[@bd-captivities] | [[Isa. 44:28]]; [[Ezra 1:1–4]] |
-
-The fall of Nineveh, Lehi's departure, the exile and the second temple are told in [A Timeline of the Old Testament](/old-testament/guides/israels-story/#babylon).
-
-## The nations Isaiah names
-
-The empires are in the table above. [Names, Places, and Symbols](/isaiah/guides/names-places-and-symbols/) says what several of these names stand for.
-
-| Name in Isaiah | Who they were, and where Isaiah speaks of them |
-|---|---|
-| **Syria**, Aram, Damascus | The kingdom centered on Damascus, under king Rezin;[@bd-damascus][@ot-manual-f] allied with Ephraim against Judah ([[Isa. 7]]).[@ot-manual-f] |
-| **Egypt** | Ruled by Ethiopian (Cushite) kings in Isaiah’s day;[@bd-assyria][@ot-manual-f] the tempting ally Isaiah warned against ([[Isa. 30:1–7]]; [[Isa. 31:1]]).[@bd-egypt] |
-| **Cush**, Ethiopia | The land south of Egypt, including modern Nubia;[@bd-ethiopia] its king Tirhakah marched against Sennacherib ([[Isa. 37:9]]). |
-| **Philistia**, Palestina | Five coastal cities: Ashdod, Gaza, Ashkelon, Gath, and Ekron ([[Isa. 14:29–32]]).[@bd-philistines] |
-| **Moab** | East of the Dead Sea; kin to Israel, though often at war with it ([[Isa. 15–16]]).[@bd-moab] |
-| **Edom**, Idumea, Seir, Bozrah | South of the Dead Sea; descendants of Esau ([[Isa. 34]]; [[Isa. 63:1]]).[@bd-edom] |
-| **Tyre** and **Sidon** | Tyre was an important commercial seaport;[@bd-tyre] Sidon is named with it ([[Isa. 23]]). |
-| **Tarshish** | Probably Tartessus in Spain; “ships of Tarshish” came to mean ships of the largest size.[@bd-tarshish] |
-| **Media**, **Elam** | Media lay between the Caspian Sea and Elam[@bd-media], and Elam east of Babylonia;[@bd-elam] both are named against Babylon ([[Isa. 13:17]]; [[Isa. 21:2]]). |
+The kings and empires of Isaiah's day, the nations he names, and a map of his world are in [Two Kingdoms and Assyria](/old-testament/guides/two-kingdoms-and-assyria/), the guide to the whole period. This guide keeps two things that belong to Isaiah himself: the everyday things he assumes you know, and what archaeology has found of the events he lived through.
 
 ## Everyday things Isaiah assumes you know
 
