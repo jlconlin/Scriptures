@@ -1,11 +1,13 @@
 ---
 title: Jeremiah’s World
-blurb: 'The final decades of Judah: its kings, the rise of Babylon, Jerusalem’s fall, and the places that make the book legible.'
+blurb: 'Jeremiah’s forty years: the timeline of his ministry, the kings he knew, and the places that make the book legible. The empires of the period are in its own guide.'
 icon: map
-sources: [bd-jeremiah, bd-assyria, bd-captivities]
+sources: [bd-jeremiah, bd-captivities]
 ---
 
 Jeremiah lived through the hinge of Old Testament history: Assyria faded, Babylon rose, and Judah lost Jerusalem and the temple. The disaster he warned of was not distant: he preached through the final forty years before Jerusalem’s fall.[@bd-jeremiah]
+
+The empires of Jeremiah's day (Babylon, Egypt, the last of Assyria), the nations around Judah, and a map of the period are in [Babylon and the Exile](/old-testament/guides/babylon-and-the-exile/), the guide to the whole period. This guide keeps what is Jeremiah's own.
 
 ## The story in one paragraph
 
@@ -35,14 +37,6 @@ Dates in this period sometimes vary by a year among reference works. This guide 
 **Jehoiachin** (also Jeconiah or Coniah) rules only three months before Babylon carries him away. The names change; the person does not.
 
 **Zedekiah**, Jehoiachin’s uncle, is placed on the throne when Jehoiachin is deposed ([[2 Kgs. 24:17]]). He repeatedly asks Jeremiah for a word, but cannot bring himself to act on it. His reign supplies much of Jeremiah’s narrative drama.
-
-## The empires at the edges
-
-**Babylon** is the immediate military power in Jeremiah. Nebuchadnezzar, its great king, ruled 604–561 B.C.;[@bd-assyria] Jeremiah calls him the Lord’s servant in the particular work of judging Judah ([[Jer. 25:9]]). That does not make Babylon righteous: Jeremiah’s final prophecies announce Babylon’s own judgment.
-
-**Egypt** is the tempting alternative. Judah repeatedly looks south for help against Babylon; Jeremiah treats that reliance as another refusal to trust the Lord ([[Jer. 37:5–10]]; [[Jer. 42:13–19]]). The survivors’ flight to Egypt is therefore more than a change of address: the book presents it as their final act of resistance.
-
-**Assyria** is mostly the empire of the previous generation. Its earlier destruction of the northern kingdom explains why Jeremiah can speak to “Israel” and “Judah” as wounded, divided siblings and still promise their reunion.[@bd-assyria] See [Assyria and the fall of Samaria](/old-testament/guides/israels-story/#assyria).
 
 ## Places to keep in mind
 

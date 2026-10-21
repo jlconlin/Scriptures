@@ -156,7 +156,7 @@ Jehoiachin reigned three months and was deposed in 597 (the table: 598); the Bab
 
 Lehi's ministry is dated “in the commencement of the first year of the reign of Zedekiah” ([[1 Ne. 1:4]]).[@lds-scriptures] The Introduction to the Book of Mormon says 600 B.C.;[@lds-scriptures] proposed dates for Lehi's departure range from 605 to 588, many of them 597–596[@sc-knowhy-475], and one is November 605.[@chadwick-lehi-departure]
 
-Zedekiah reigned 597–586; the final siege began in 587.[@schade-kingdom-judah] “In the fifth month … came Nebuzar-adan … And he burnt the house of the Lord” ([[2 Kgs. 25:8–9]]).[@lds-scriptures] The table has 587 for the capture.[@bible-chron-ot] Jeremiah counts 4,600 deported, in 597, 587 and 582.[@draper-exile] Lamentations was written “some years after the fall of the city,” and Obadiah “more probably” after 586.[@bd-lamentations][@bd-obadiah] See [Jeremiah's World](/jeremiah/guides/jeremiahs-world/), [Lamentations](/lamentations/), [Ezekiel](/ezekiel/) and [Daniel](/daniel/).
+Zedekiah reigned 597–586; the final siege began in 587.[@schade-kingdom-judah] “In the fifth month … came Nebuzar-adan … And he burnt the house of the Lord” ([[2 Kgs. 25:8–9]]).[@lds-scriptures] The table has 587 for the capture.[@bible-chron-ot] Jeremiah counts 4,600 deported, in 597, 587 and 582.[@draper-exile] Lamentations was written “some years after the fall of the city,” and Obadiah “more probably” after 586.[@bd-lamentations][@bd-obadiah] See [Babylon and the Exile](/old-testament/guides/babylon-and-the-exile/), [Jeremiah's World](/jeremiah/guides/jeremiahs-world/), [Lamentations](/lamentations/), [Ezekiel](/ezekiel/) and [Daniel](/daniel/).
 
 <h2 id="exile">The exile</h2>
 
