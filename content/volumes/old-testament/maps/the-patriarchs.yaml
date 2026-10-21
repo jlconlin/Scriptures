@@ -1,0 +1,27 @@
+# The map of guide 1, The Patriarchs (scripts/map.mjs; DEVELOPMENT.md, “Maps”).
+# Ur is marked at its traditional site (Tell el-Muqayyar); the northern proposals (the plain of Olishem, near Haran)
+# name a region, not a point, so they are a label. Beersheba is given by position (Tel Beer Sheva).
+title: The lands of Abraham, Isaac, Jacob and Joseph
+box: [30.8, 29.8, 47.0, 37.6]   # west, south, east, north
+width: 600
+riverRank: 9
+places:
+  - { name: Ur, find: Ur 1, label: Ur (traditional site), dx: -6, dy: 12 }
+  - { name: Haran, dx: 7, dy: 4 }
+  - { name: Damascus }
+  - { name: Shechem, dx: 7, dy: 2, small: true }
+  - { name: Bethel, find: Bethel 1, dx: -6, dy: 2, small: true }
+  - { name: Hebron, dx: 7, dy: 6, small: true }
+  - { name: Beersheba, at: [34.8406, 31.2453], dx: -6, dy: 8, small: true }
+  - { name: Rameses, label: Goshen, dx: 7, dy: 4 }
+labels:
+  - { text: Great Sea, at: [33.0, 33.9], class: m-sea-label }
+  - { text: EGYPT, at: [31.7, 30.25], class: m-empire }
+  - { text: CANAAN, at: [34.4, 32.6], class: m-region }
+  - { text: ARAM, at: [37.6, 34.3], class: m-region }
+  - { text: PADAN-ARAM, at: [39.9, 36.4], class: m-region }
+  - { text: Northern proposals for Ur, at: [38.2, 37.3], class: m-small }
+  - { text: CHALDEA, at: [45.3, 31.6], class: m-empire }
+  - { text: Euphrates, at: [40.6, 35.2], class: m-river-label }
+  - { text: Tigris, at: [44.3, 34.6], class: m-river-label }
+  - { text: Syrian Desert, at: [39.6, 32.6], class: m-small }
