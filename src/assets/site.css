@@ -758,6 +758,7 @@ section.home-hero { padding-bottom: 0; }
 /* A photograph in a guide (an artifact), with its source and credit in the caption. */
 .photo-figure { margin: 1.5em 0; }
 .photo-figure img { display: block; width: 100%; height: auto; border-radius: 10px; background: var(--bg-2); }
+.photo-figure.portrait img { max-width: 420px; margin-inline: auto; } /* a photograph taller than wide */
 .photo-figure figcaption { font-size: .88rem; color: var(--muted); margin-top: 8px; font-family: var(--font-ui); }
 .map-figure figcaption { font-size: .88rem; color: var(--muted); margin: 8px auto 0; max-width: var(--read-w); font-family: var(--font-ui); }
 /* The Land's map runs north to south, so it is narrower and taller (author, 2026-10-16). Inland water is filled,

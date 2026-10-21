@@ -1,0 +1,29 @@
+# The map of guide 5, Babylon and the Exile (scripts/map.mjs; DEVELOPMENT.md, “Maps”).
+title: Judah between Egypt and Babylon, about 650–539 BC
+box: [30.6, 29.4, 49.6, 37.6]   # west, south, east, north
+width: 600
+riverRank: 9
+places:
+  - { name: Jerusalem, home: true, dx: 8, dy: 6 }
+  - { name: Megiddo, dx: -6, dy: -3, small: true }
+  - { name: Tyre, dx: -6, dy: 4 }
+  - { name: Riblah, find: Riblah 1 }
+  - { name: Carchemish }
+  - { name: Nineveh }
+  - { name: Babylon, find: Babylon 1, dx: -6 }
+  - { name: Tel-abib, label: Tel-abib (by the Chebar), dx: 6, dy: 12, small: true }
+  - { name: Susa }
+  - { name: Tahpanhes, dx: 7, dy: 4 }
+labels:
+  - { text: Great Sea, at: [32.6, 34.2], class: m-sea-label }
+  - { text: EGYPT, at: [31.6, 29.8], class: m-empire }
+  - { text: ASSYRIA, at: [43.2, 37.15], class: m-empire }
+  - { text: BABYLONIA, at: [45.6, 31.0], class: m-empire }
+  - { text: MEDIA, at: [47.8, 35.6], class: m-empire }
+  - { text: ELAM, at: [48.3, 32.9], class: m-region }
+  - { text: JUDAH, at: [35.3, 31.0], class: m-region }
+  - { text: EDOM, at: [35.7, 30.3], class: m-region }
+  - { text: AMMON, at: [36.6, 31.95], class: m-region }
+  - { text: Euphrates, at: [40.4, 35.15], class: m-river-label }
+  - { text: Tigris, at: [44.4, 34.6], class: m-river-label }
+  - { text: Syrian Desert, at: [39.6, 32.6], class: m-small }
