@@ -5,6 +5,9 @@ slug: psalms
 order: 12
 abbr: ps                 # [[Ps. 23:1]] links here
 gospelLibrary: ot/ps
+# Chapters with no period, and why (the build warns about any other Old Testament chapter without one)
+noPeriod:
+  - { chapters: 1-150, why: most psalms can't be placed in a period }
 eyebrow: The Old Testament
 # What one chapter is called on the pages (“Psalm 23 of 150”); the default is “Chapter”.
 unit: { singular: Psalm, plural: psalms }

@@ -227,6 +227,13 @@ export async function build({ quiet = false } = {}) {
     // A chapter's period, from the ranges in book.yaml's `periods:`: the guide its Context link opens. A range may name
     // a guide of its own (`guide:`); otherwise the period's guide, or until that is written the timeline at its era.
     for (const p of book.periods ?? []) if (!periods[p.period]) book.warn(`periods: unknown period “${p.period}” (content/volumes/old-testament/periods.yaml)`);
+    // An Old Testament chapter with no period, and no `noPeriod:` range saying why, is warned about, so a new book
+    // is not left without its Context link (DEVELOPMENT.md, “Adding a new book”).
+    const inRange = (list, n) => (list ?? []).find((x) => { const [a, b = a] = String(x.chapters).split(/[-–]/).map(Number); return n >= a && n <= b; });
+    if (book.place.vol === 'ot') {
+      const missing = book.chapters.map((c) => c.chapter ?? c).filter((n) => typeof n === 'number' && !inRange(book.periods, n) && !inRange(book.noPeriod, n));
+      if (missing.length) book.warn(`chapters with no period for their Context link (give \`periods:\` or \`noPeriod:\` in book.yaml): ${missing.length > 6 ? `${missing.slice(0, 6).join(', ')}…` : missing.join(', ')}`);
+    }
     book.periodOf = (n) => {
       const p = (book.periods ?? []).find((x) => { const [a, b = a] = String(x.chapters).split(/[-–]/).map(Number); return n >= a && n <= b; });
       const era = p && periods[p.period];

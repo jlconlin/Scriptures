@@ -8,6 +8,9 @@ gospelLibrary: ot/gen
 # The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
 periods:
   - { chapters: 12-50, period: patriarchs }
+# Chapters with no period, and why (the build warns about any other Old Testament chapter without one)
+noPeriod:
+  - { chapters: 1-11, why: before the patriarchs; the chapters' Background carries them }
 eyebrow: The Old Testament
 heroQuote:
   text: '“In thee shall all families of the earth be blessed.”'
