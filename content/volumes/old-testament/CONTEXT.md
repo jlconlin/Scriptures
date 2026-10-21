@@ -39,6 +39,18 @@ A reader needs the period a chapter belongs to (who ruled, which nations, where 
 
 How: a short research pass (`theme-researcher`) for the three new rows, a dossier from the two pages' existing rows and their sources, then `write-guide.js` (writer, reviewer, repairs, Codex) on the branch `claude/reading-panel`; then *Isaiah's World* cut to its everyday things and archaeology, Isaiah's `periods:` pointed at the new guide and `periods.yaml` given its `guide:`. Measure the cost (`scripts/batch-usage.cjs`) before guide 5.
 
+## Guide 5's outline (approved by the author, 2026-10-21: “yes”)
+
+**Babylon and the Exile** (file `09-babylon-and-the-exile`; 2 Kings 21–25, 2 Chronicles 33–36; about 1,200–1,500 words; `status: preview`). The same five parts as guide 4.
+
+1. **Where this period sits.** From Manasseh to Cyrus's taking of Babylon (539): Assyria collapses (Nineveh 612, also dated 609 and 606), Judah is caught between Egypt and Babylon, Nebuchadnezzar takes Jerusalem in stages (597, 587 or 586), the exiles live in Babylon. The return is guide 6's. Where the sources' dates differ the page says so (Nebuchadnezzar 605–562 or 604–561), as the timeline does. Links to the timeline's `#babylon` and `#exile`.
+2. **The map**, a new spec for `scripts/map.mjs`, wider to the east (Babylon, Susa): Jerusalem, Megiddo, Carchemish, Riblah, Babylon, Nineveh, the Chebar (Tel-abib), Tahpanhes.
+3. **Rulers and events**, mostly from the timeline guide's sourced sections `#babylon` and `#exile` (its ledger): Manasseh; Josiah's reform and death at Megiddo; Nineveh's fall; Carchemish 605; Nebuchadnezzar II; Daniel taken; Jehoiakim; Jehoiachin and the deportation of 597 (Ezekiel among them); Zedekiah, and Lehi's departure; the siege and the fall; the deportations of 597, 587 and 582; Gedaliah and the flight to Egypt; Jehoiachin released (561); Cyrus takes Babylon (539).
+4. **The nations**: Babylon (the Chaldeans), Egypt (Necho at Megiddo and Carchemish, Hophra in the siege), Assyria as it fades, Media (with Babylon at Nineveh), Edom (glad at the fall; Obadiah), Ammon and Moab, Tyre (Nebuchadnezzar's siege; Ezekiel 26–28), Persia at the end.
+5. **The books of this period**: 2 Kings 21–25 and 2 Chronicles 33–36; Zephaniah, Nahum and Habakkuk before the fall; Jeremiah and Lamentations; Ezekiel and Daniel among the exiles; Obadiah; and the Book of Mormon's beginning, Lehi leaving Jerusalem in Zedekiah's first year (1 Nephi 1). A book on the site links to its page.
+
+**A photograph**: the Babylonian Chronicle (British Museum), which records Nebuchadnezzar's taking of Jerusalem in 597 (author: “find that picture”). ***Jeremiah's World*** afterwards keeps what is Jeremiah's own (his forty-year timeline, the kings he knew, Anathoth and Ramah); its “empires at the edges” goes to guide 5.
+
 ## Still to decide, in order
 
 1. **The other volumes** (later): the New Testament; the Book of Mormon, which has no real-world map; the Doctrine and Covenants; the Pearl of Great Price.
