@@ -116,6 +116,8 @@ The Bible Chronology table lists Abram through Joshua with no date and places th
 
 Read it in [Genesis](/genesis/), [Exodus](/exodus/), [Abraham](/abraham/) and [Moses](/moses/).
 
+For Israel in Egypt, the Exodus and the wilderness, see [Egypt and the Wilderness](/old-testament/guides/egypt-and-the-wilderness/).
+
 <h2 id="judges">The conquest and the judges</h2>
 
 Joshua, Moses's successor and one of the twelve spies, led the conquest of Palestine and died at 110.[@bd-joshua] Judges and Ruth hold “all the Jewish history that has been preserved to us of the times between the death of Joshua and the birth of Samuel.”[@bd-judges] The conquest is dated “between 1250 and 1200 B.C.”[@ot-manual-judges-1-12]
