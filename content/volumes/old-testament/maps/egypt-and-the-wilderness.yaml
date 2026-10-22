@@ -10,10 +10,10 @@ places:
   - { name: Rameses, dx: -6, dy: -4 }
   - { name: Pithom, dx: -6, dy: 12, small: true }
   - { name: Succoth, find: Succoth 2, dx: 7, dy: 12, small: true }
-  - { name: Mount Sinai, label: Mount Sinai (traditional site), at: [33.9733, 28.5397], dx: 7, dy: 4 }
-  - { name: Kadesh-barnea, at: [34.4222, 30.6483] }
-  - { name: Mount Nebo, at: [35.75, 31.7667], dx: 7, dy: 10, small: true }
-  - { name: Jericho, at: [35.444, 31.871], dx: 7, dy: -3, small: true }
+  - { name: Mount Sinai, bd: sinai, label: Mount Sinai (traditional site), at: [33.9733, 28.5397], dx: 7, dy: 4 }
+  - { name: Kadesh-barnea, bd: kadesh, at: [34.4222, 30.6483] }
+  - { name: Mount Nebo, bd: nebo, at: [35.75, 31.7667], dx: 7, dy: 10, small: true }
+  - { name: Jericho, ancient: Jericho 1, at: [35.444, 31.871], dx: 7, dy: -3, small: true }
   - { name: Jerusalem, home: true, dx: -8, dy: 5 }
 labels:
   - { text: Great Sea, at: [32.6, 31.85], class: m-sea-label }

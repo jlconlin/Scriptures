@@ -8,10 +8,10 @@ places:
   - { name: Jerusalem, home: true, dx: 8, dy: 6 }
   - { name: Samaria, find: Samaria 1, dx: -6, dy: 2, small: true }
   - { name: Babylon, find: Babylon 1, dx: -6 }
-  - { name: Susa, label: Susa (Shushan) }
-  - { name: Ecbatana, label: Ecbatana (Achmetha) }
-  - { name: Persepolis, at: [52.89, 29.935], dx: -6, dy: -5 }
-  - { name: Memphis, dx: 7, dy: 4 }
+  - { name: Susa, bd: shushan, label: Susa (Shushan) }
+  - { name: Ecbatana, bd: none, label: Ecbatana (Achmetha) }
+  - { name: Persepolis, bd: none, ancient: none, at: [52.89, 29.935], dx: -6, dy: -5 }
+  - { name: Memphis, bd: noph, dx: 7, dy: 4 }
 labels:
   - { text: Great Sea, at: [32.8, 34.6], class: m-sea-label }
   - { text: Persian Gulf, at: [49.7, 29.15], class: m-sea-label }

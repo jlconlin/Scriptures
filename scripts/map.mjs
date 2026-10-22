@@ -12,9 +12,17 @@
 // when it differs, `at` a [lon, lat] that overrides it), and labels for regions and seas (`labels:` each
 // `{ text, at: [lon, lat], class }`, class one of m-empire, m-region, m-sea-label, m-river-label, m-small).
 // The SVG uses the classes of `.map` in site.css, so it follows the site's light and dark colours.
+// Beside the SVG it writes <name>.places.json, which the build gives the page so a chapter's Context map can show the
+// places that chapter names (site.js “chapter map”): for each place, the verses where OpenBible's ancient-places data
+// (ancient.jsonl, also in .cache/geo/ as openbible-ancient.jsonl) says the King James text means that place, and the
+// first sentence of its Bible Dictionary entry. A place gives `ancient:` when its OpenBible entry's name differs from
+// `find`/`name` (a place given by `at`), and `bd:` when its entry's address differs from its name in lower case;
+// `bd: none` for none. `scan: [abraham]` and a place's `also: [Luz]` are for books OpenBible doesn't cover (below); a name search
+// can find a person of the same name, so `skip: [Abraham.2.1]` leaves out a verse that means someone else.
 import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import YAML from 'yaml';
+import { readPage } from '../src/lib/pages.mjs';
 
 const ROOT = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const [volume, name] = process.argv.slice(2);
@@ -110,13 +118,15 @@ function where(place) {
   return best.lonlat.split(',').map(Number);
 }
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
+const keyOf = (p) => p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 const placeMarks = (spec.places ?? []).map((p) => {
   const [x, y] = px(where(p));
   const lx = x + (p.dx ?? 7), ly = y + (p.dy ?? 4);
   const anchor = (p.dx ?? 7) < 0 ? ' text-anchor="end"' : '';
-  return p.home
+  const mark = p.home
     ? `<circle cx="${r1(x)}" cy="${r1(y)}" r="4.5" class="m-home"/><text x="${r1(lx)}" y="${r1(ly)}" class="m-home-label"${anchor}>${esc(p.label ?? p.name)}</text>`
     : `<circle cx="${r1(x)}" cy="${r1(y)}" r="3"/><text x="${r1(lx)}" y="${r1(ly)}"${p.small ? ' class="m-small"' : ''}${anchor}>${esc(p.label ?? p.name)}</text>`;
+  return `<g class="pl" data-place="${keyOf(p)}">${mark}</g>`;
 }).join('\n    ');
 const labels = (spec.labels ?? []).map((l) => { const [x, y] = px(l.at); return `<text x="${r1(x)}" y="${r1(y)}" class="${l.class ?? 'm-region'}" text-anchor="middle">${esc(l.text)}</text>`; }).join('\n  ');
 
@@ -136,4 +146,64 @@ const svg = `<svg viewBox="0 0 ${width} ${height}" role="img" class="map">
 </svg>
 `;
 await writeFile(path.join(dir, `${name}.svg`), svg);
+
+// ---------- the places' data: the verses that mean each place, and its Bible Dictionary sentence ----------
+const ancient = new Map((await readFile(geo('openbible-ancient.jsonl'), 'utf8')).trim().split('\n').map((l) => JSON.parse(l)).map((a) => [a.friendly_id, a]));
+// The Bible Dictionary sentence that says what a place is. An entry that covers several things (“(1) Son of Terah …
+// (3) …”) gives the numbered part about a place; a sentence ends at a period outside parentheses (“(Gen. 12:8)” is
+// inside one); a first sentence that is only the name's meaning (“House of God.”) is joined to the next.
+const PLACE_WORDS = /\b(city|cities|town|place|land|district|country|region|mountain|mount|valley|plain|river|province|kingdom|well|wilderness)\b/i;
+function bdSentence(text) {
+  const parts = text.split(/\(\d+\)\s*/);
+  if (parts.length > 2) text = parts.slice(1).find((t) => PLACE_WORDS.test(t)) ?? parts[1];
+  const sentences = [];
+  let depth = 0, start = 0;
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (c === '(') depth++;
+    else if (c === ')') depth = Math.max(0, depth - 1);
+    else if ((c === '.' || c === ';') && depth === 0 && (i + 1 === text.length || text[i + 1] === ' ') && !/\b[A-Z]\.[A-Z]$/.test(text.slice(Math.max(0, i - 3), i))) {
+      sentences.push(text.slice(start, i + 1).trim());
+      start = i + 1;
+    }
+  }
+  if (start < text.length) sentences.push(text.slice(start).trim());
+  let out = sentences.shift() ?? '';
+  while (out.length < 40 && sentences.length) out += ' ' + sentences.shift();
+  return out.replace(/;$/, '.').replace(/^\(\d+\)\s*/, '').replace(/^([^.]{1,30}\.) \(\d+\)\s*/, '$1 ');
+}
+const placesData = {};
+for (const p of spec.places ?? []) {
+  // `ancient:` may list more than one entry where OpenBible splits one dot on the map (Beersheba 1 and 2).
+  const ids = [p.ancient ?? p.find ?? p.name].flat();
+  const verses = [];
+  for (const id of ids) {
+    const a = ancient.get(id);
+    if (!a && id !== 'none') console.warn(`  ${p.name}: no OpenBible ancient place “${id}” (give \`ancient:\`); no verses`);
+    for (const v of a?.verses ?? []) if ((v.translations ?? []).includes('kjv') && !verses.includes(v.osis)) verses.push(v.osis);
+  }
+  // Books OpenBible doesn't cover (the Pearl of Great Price), named in the spec's `scan:`, are searched for the place's
+  // name and its other names (`also:`), as "<Book>.<chapter>.<verse>".
+  for (const book of spec.scan ?? []) {
+    const kjv = JSON.parse(await readFile(path.join(ROOT, 'data/kjv', `${book}.json`), 'utf8'));
+    const re = new RegExp(`\\b(${[p.name, ...(p.also ?? [])].map((n) => n.replace(/[-]/g, '[- ]?')).join('|')})\\b`);
+    const bookName = kjv.book ?? book.replace(/^./, (c) => c.toUpperCase());
+    kjv.chapters.forEach((c, ci) => (c.verses ?? c).forEach((v, vi) => {
+      const ref = `${bookName}.${c.chapter ?? ci + 1}.${v.verse ?? vi + 1}`;
+      if (re.test(typeof v === 'string' ? v : v.text) && !(p.skip ?? []).includes(ref)) verses.push(ref);
+    }));
+  }
+  let bd = null;
+  if (p.bd !== 'none') {
+    const url = `https://www.churchofjesuschrist.org/study/scriptures/bd/${p.bd ?? p.name.toLowerCase().replace(/\s+/g, '-')}?lang=eng`;
+    const page = await readPage(url);
+    const paras = page.error || page.paras.length > 60 ? [] : page.paras.filter((q) => q.text.length > 25 && !/^(Bible Dictionary|See also)/.test(q.text)).slice(0, 6);
+    const para = paras.find((q) => PLACE_WORDS.test(q.text)) ?? paras[0];
+    const sentence = para && bdSentence(para.text);
+    if (sentence) bd = { url, text: sentence.trim() };
+    else console.warn(`  ${p.name}: no Bible Dictionary entry at ${url} (give \`bd:\`, or \`bd: none\`)`);
+  }
+  placesData[keyOf(p)] = { name: p.name, ...(p.label ? { label: p.label } : {}), ...(bd ? { bd } : {}), verses };
+}
+await writeFile(path.join(dir, `${name}.places.json`), JSON.stringify(placesData, null, 1) + '\n');
 console.log(`${name}.svg: ${width}×${height}, ${(svg.length / 1024).toFixed(1)} KB (${land.length} land, ${lakes.length} lakes, ${rivers.length} rivers, ${deserts.length} deserts, ${mountains.length} ranges, ${(spec.places ?? []).length} places)`);

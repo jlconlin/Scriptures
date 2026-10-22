@@ -7,13 +7,13 @@ places:
   - { name: Jerusalem, home: true, dx: 8, dy: 6 }
   - { name: Megiddo, dx: -6, dy: -3, small: true }
   - { name: Tyre, dx: -6, dy: 4 }
-  - { name: Riblah, find: Riblah 1 }
+  - { name: Riblah, bd: none, find: Riblah 1 }
   - { name: Carchemish }
   - { name: Nineveh }
   - { name: Babylon, find: Babylon 1, dx: -6 }
-  - { name: Tel-abib, label: Tel-abib (by the Chebar), dx: 6, dy: 12, small: true }
-  - { name: Susa }
-  - { name: Tahpanhes, dx: 7, dy: 4 }
+  - { name: Tel-abib, bd: none, label: Tel-abib (by the Chebar), dx: 6, dy: 12, small: true }
+  - { name: Susa, bd: shushan }
+  - { name: Tahpanhes, bd: none, dx: 7, dy: 4 }
 labels:
   - { text: Great Sea, at: [32.6, 34.2], class: m-sea-label }
   - { text: EGYPT, at: [31.6, 29.8], class: m-empire }

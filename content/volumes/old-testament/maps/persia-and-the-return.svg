@@ -20,13 +20,13 @@
   <text x="345.4" y="112" class="m-river-label" text-anchor="middle">Tigris</text>
   <text x="226.9" y="187.7" class="m-small" text-anchor="middle">Syrian Desert</text>
   <g class="m-city">
-    <circle cx="116.8" cy="206.5" r="4.5" class="m-home"/><text x="124.8" y="212.5" class="m-home-label">Jerusalem</text>
-    <circle cx="115.8" cy="191.4" r="3"/><text x="109.8" y="193.4" class="m-small" text-anchor="end">Samaria</text>
-    <circle cx="348.5" cy="183.3" r="3"/><text x="342.5" y="187.3" text-anchor="end">Babylon</text>
-    <circle cx="445.2" cy="194" r="3"/><text x="452.2" y="198">Susa (Shushan)</text>
-    <circle cx="451.7" cy="114.8" r="3"/><text x="458.7" y="118.8">Ecbatana (Achmetha)</text>
-    <circle cx="561.9" cy="262.3" r="3"/><text x="555.9" y="257.3" text-anchor="end">Persepolis</text>
-    <circle cx="16.5" cy="264.9" r="3"/><text x="23.5" y="268.9">Memphis</text>
+    <g class="pl" data-place="jerusalem"><circle cx="116.8" cy="206.5" r="4.5" class="m-home"/><text x="124.8" y="212.5" class="m-home-label">Jerusalem</text></g>
+    <g class="pl" data-place="samaria"><circle cx="115.8" cy="191.4" r="3"/><text x="109.8" y="193.4" class="m-small" text-anchor="end">Samaria</text></g>
+    <g class="pl" data-place="babylon"><circle cx="348.5" cy="183.3" r="3"/><text x="342.5" y="187.3" text-anchor="end">Babylon</text></g>
+    <g class="pl" data-place="susa"><circle cx="445.2" cy="194" r="3"/><text x="452.2" y="198">Susa (Shushan)</text></g>
+    <g class="pl" data-place="ecbatana"><circle cx="451.7" cy="114.8" r="3"/><text x="458.7" y="118.8">Ecbatana (Achmetha)</text></g>
+    <g class="pl" data-place="persepolis"><circle cx="561.9" cy="262.3" r="3"/><text x="555.9" y="257.3" text-anchor="end">Persepolis</text></g>
+    <g class="pl" data-place="memphis"><circle cx="16.5" cy="264.9" r="3"/><text x="23.5" y="268.9">Memphis</text></g>
   </g>
   <text x="594" y="297" class="m-credit" text-anchor="end">Natural Earth · OpenBible.info (CC BY 4.0)</text>
 </svg>

@@ -13,7 +13,7 @@ places:
   - { name: Lachish, dx: 5, dy: 12, small: true }
   - { name: Nineveh }
   - { name: Babylon, find: Babylon 1, dx: -6 }
-  - { name: Memphis, dx: 7, dy: 4 }
+  - { name: Memphis, bd: noph, dx: 7, dy: 4 }
 labels:
   - { text: Great Sea, at: [33.0, 34.2], class: m-sea-label }
   - { text: EGYPT, at: [32.0, 30.4], class: m-empire }

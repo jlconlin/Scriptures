@@ -20,14 +20,14 @@
   <text x="25" y="236.7" class="m-river-label" text-anchor="middle">Nile</text>
   <text x="485" y="17.3" class="m-river-label" text-anchor="middle">Jordan</text>
   <g class="m-city">
-    <circle cx="93.4" cy="173.3" r="3"/><text x="87.4" y="169.3" text-anchor="end">Rameses</text>
-    <circle cx="106.4" cy="202.4" r="3"/><text x="100.4" y="214.4" class="m-small" text-anchor="end">Pithom</text>
-    <circle cx="119.9" cy="201.8" r="3"/><text x="126.9" y="213.8" class="m-small">Succoth</text>
-    <circle cx="307.3" cy="434.2" r="3"/><text x="314.3" y="438.2">Mount Sinai (traditional site)</text>
-    <circle cx="352.2" cy="190.7" r="3"/><text x="359.2" y="194.7">Kadesh-barnea</text>
-    <circle cx="485" cy="61.6" r="3"/><text x="492" y="71.6" class="m-small">Mount Nebo</text>
-    <circle cx="454.4" cy="49.5" r="3"/><text x="461.4" y="46.5" class="m-small">Jericho</text>
-    <circle cx="433.4" cy="60.4" r="4.5" class="m-home"/><text x="425.4" y="65.4" class="m-home-label" text-anchor="end">Jerusalem</text>
+    <g class="pl" data-place="rameses"><circle cx="93.4" cy="173.3" r="3"/><text x="87.4" y="169.3" text-anchor="end">Rameses</text></g>
+    <g class="pl" data-place="pithom"><circle cx="106.4" cy="202.4" r="3"/><text x="100.4" y="214.4" class="m-small" text-anchor="end">Pithom</text></g>
+    <g class="pl" data-place="succoth"><circle cx="119.9" cy="201.8" r="3"/><text x="126.9" y="213.8" class="m-small">Succoth</text></g>
+    <g class="pl" data-place="mount-sinai"><circle cx="307.3" cy="434.2" r="3"/><text x="314.3" y="438.2">Mount Sinai (traditional site)</text></g>
+    <g class="pl" data-place="kadesh-barnea"><circle cx="352.2" cy="190.7" r="3"/><text x="359.2" y="194.7">Kadesh-barnea</text></g>
+    <g class="pl" data-place="mount-nebo"><circle cx="485" cy="61.6" r="3"/><text x="492" y="71.6" class="m-small">Mount Nebo</text></g>
+    <g class="pl" data-place="jericho"><circle cx="454.4" cy="49.5" r="3"/><text x="461.4" y="46.5" class="m-small">Jericho</text></g>
+    <g class="pl" data-place="jerusalem"><circle cx="433.4" cy="60.4" r="4.5" class="m-home"/><text x="425.4" y="65.4" class="m-home-label" text-anchor="end">Jerusalem</text></g>
   </g>
   <text x="594" y="525" class="m-credit" text-anchor="end">Natural Earth · OpenBible.info (CC BY 4.0)</text>
 </svg>

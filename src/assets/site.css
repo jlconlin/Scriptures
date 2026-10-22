@@ -988,3 +988,26 @@ section.home-hero { padding-bottom: 0; }
   .section-nav .section-nav-label { order: -2; }
   .section-nav .nav-period { order: -1; margin-left: 0; }
 }
+
+/* ---------- chapter map (a mockup, 2026-10-22; site.js “chapter map”) ---------- */
+.map .pl { cursor: pointer; transition: opacity .25s; }
+.map .pl:focus { outline: none; }
+.map .pl:focus-visible circle { stroke: var(--accent); stroke-width: 2; }
+.map.focused .pl:not(.hit) { opacity: .3; }
+.map .pl.hit circle { fill: var(--accent); r: 5.5px; }
+.map .pl.hit text { fill: var(--accent-ink); font-weight: 800; font-size: 13px; }
+.map .pl.sel circle { stroke: var(--ink); stroke-width: 2; }
+.map-named { font-family: var(--font-ui); font-size: .9rem; color: var(--ink-2); margin: -.6em 0 1em; }
+.map-named b { color: var(--ink); }
+.map-card { font-family: var(--font-ui); font-size: .88rem; border: 1px solid var(--line); background: var(--surface); border-radius: 12px; padding: 12px 14px; margin: 0 0 1.4em; }
+.map-card[hidden] { display: none; }
+.map-card h3 { font: 700 .98rem var(--font-ui); margin: 0 0 4px; }
+.map-card .map-bd { margin: 0 0 8px; color: var(--ink-2); }
+.map-card .map-bd a { font-size: .82rem; }
+.map-card .map-sub { margin: 0 0 4px; color: var(--muted); font-size: .8rem; }
+.map-bk { display: flex; flex-wrap: wrap; gap: 4px 8px; align-items: baseline; margin: 3px 0; }
+.map-bk span { color: var(--muted); min-width: 5.5em; }
+.map-bk a, .map-bk i { font-variant-numeric: tabular-nums; font-style: normal; }
+.map-bk a { font-weight: 600; }
+.map-bk i { color: var(--muted); }
+.map-bk a.here { background: var(--accent); color: #fff; border-radius: 4px; padding: 0 5px; text-decoration: none; }

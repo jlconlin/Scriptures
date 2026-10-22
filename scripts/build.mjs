@@ -99,11 +99,45 @@ async function embedMaps(body, where) {
   for (const m of body.matchAll(/<!--\s*map:\s*([a-z0-9-]+)\/([a-z0-9-]+)\s*-->/g)) {
     const file = r('content/volumes', m[1], 'maps', `${m[2]}.svg`);
     out.push(body.slice(last, m.index));
-    if (existsSync(file)) out.push((await readFile(file, 'utf8')).trim());
+    if (existsSync(file)) {
+      out.push((await readFile(file, 'utf8')).trim());
+      // The places' data goes in after the Markdown is rendered (mapPlaces), so it stays out of search and plain text.
+      if (existsSync(file.replace(/\.svg$/, '.places.json'))) out.push(`<template class="map-places" data-map="${m[1]}/${m[2]}"></template>`);
+    }
     else { warn(`${where}: no map ${path.relative(ROOT, file)}`); out.push(m[0]); }
     last = m.index + m[0].length;
   }
   return out.join('') + body.slice(last);
+}
+
+// A map's places (content/volumes/<volume>/maps/<name>.places.json, written by scripts/map.mjs): for each place its Bible
+// Dictionary sentence and the verses that mean it, which become chapters, linked where the chapter is on the site. The
+// page's script uses them to show the places the reader's chapter names (site.js, “chapter map”).
+const OSIS = { Gen: 'Genesis', Exod: 'Exodus', Lev: 'Leviticus', Num: 'Numbers', Deut: 'Deuteronomy', Josh: 'Joshua', Judg: 'Judges', Ruth: 'Ruth', '1Sam': '1 Samuel', '2Sam': '2 Samuel', '1Kgs': '1 Kings', '2Kgs': '2 Kings', '1Chr': '1 Chronicles', '2Chr': '2 Chronicles', Ezra: 'Ezra', Neh: 'Nehemiah', Esth: 'Esther', Job: 'Job', Ps: 'Psalms', Prov: 'Proverbs', Eccl: 'Ecclesiastes', Song: 'Song of Solomon', Isa: 'Isaiah', Jer: 'Jeremiah', Lam: 'Lamentations', Ezek: 'Ezekiel', Dan: 'Daniel', Hos: 'Hosea', Joel: 'Joel', Amos: 'Amos', Obad: 'Obadiah', Jonah: 'Jonah', Mic: 'Micah', Nah: 'Nahum', Hab: 'Habakkuk', Zeph: 'Zephaniah', Hag: 'Haggai', Zech: 'Zechariah', Mal: 'Malachi', Matt: 'Matthew', Mark: 'Mark', Luke: 'Luke', John: 'John', Acts: 'Acts', Rom: 'Romans', '1Cor': '1 Corinthians', '2Cor': '2 Corinthians', Gal: 'Galatians', Eph: 'Ephesians', Phil: 'Philippians', Col: 'Colossians', '1Thess': '1 Thessalonians', '2Thess': '2 Thessalonians', '1Tim': '1 Timothy', '2Tim': '2 Timothy', Titus: 'Titus', Phlm: 'Philemon', Heb: 'Hebrews', Jas: 'James', '1Pet': '1 Peter', '2Pet': '2 Peter', '1John': '1 John', '2John': '2 John', '3John': '3 John', Jude: 'Jude', Rev: 'Revelation' };
+let siteBooks = []; // set by build(): the books on the site, for linking a place's chapters
+async function mapPlaces(html) {
+  const out = [];
+  let last = 0;
+  for (const m of html.matchAll(/<template class="map-places" data-map="([a-z0-9-]+)\/([a-z0-9-]+)"><\/template>/g)) {
+    out.push(html.slice(last, m.index));
+    const places = JSON.parse(await readFile(r('content/volumes', m[1], 'maps', `${m[2]}.places.json`), 'utf8'));
+    for (const p of Object.values(places)) {
+      const chapters = new Map(); // "Genesis 28" -> { b, s, c, v: [verses] }
+      for (const osis of p.verses) {
+        const [code, c, v] = osis.split('.');
+        const b = OSIS[code] ?? code;
+        const book = siteBooks.find((x) => x.name === b);
+        const k = `${b} ${c}`;
+        if (!chapters.has(k)) chapters.set(k, { b, ...(book && book.chapters.some((x) => x.chapter === Number(c) && !x.draft) ? { s: book.slug } : {}), c: Number(c), v: [] });
+        chapters.get(k).v.push(Number(v));
+      }
+      p.chapters = [...chapters.values()];
+      delete p.verses;
+    }
+    out.push(`<script type="application/json" class="map-places">${JSON.stringify(places).replace(/</g, '\\u003c')}</script>`);
+    last = m.index + m[0].length;
+  }
+  return out.join('') + html.slice(last);
 }
 
 // BUILD_SEED makes the home page's random teasers repeatable (for comparing two builds).
@@ -160,6 +194,7 @@ export async function build({ quiet = false } = {}) {
   // The Old Testament's periods, which a chapter's Context link opens (content/volumes/old-testament/CONTEXT.md).
   const periods = await readYaml(r('content/volumes/old-testament/periods.yaml'));
   const books = (await discoverBooks(ROOT)).filter((b) => (b.status ?? 'live') === 'live' || PREVIEW);
+  siteBooks = books;
   if (!books.length) throw new Error('No books: expected content/<slug>/book.yaml and content/<slug>/chapters/');
 
   // A volume owns the guides that are true of more than one of its books (content/volumes/<slug>/guides/).
@@ -294,7 +329,7 @@ export async function build({ quiet = false } = {}) {
       g.slug = f.replace(/^\d+-/, '').replace(/\.md$/, '');
       g.body = await embedMaps(g.body, `${owner.slug}/${collection.path}/${f}`);
       const cited = applyCitations(g.body, sources, (m) => warn(`${owner.slug}/${collection.path}/${f}: ${m}`));
-      g.html = md(cited.body);
+      g.html = await mapPlaces(md(cited.body));
       g.refs = cited.refs;
       pages.push(g);
       entries.push({ t: 'guide', b: owner.slug, r: searchLabel, h: g.title, u: `/${owner.slug}/${collection.path}/${g.slug}/`, x: plain(stripCitations(g.body)).slice(0, 3000) });

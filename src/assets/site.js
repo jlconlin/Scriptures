@@ -1012,14 +1012,21 @@
       place();
       $('.rp-close', panel).focus({ preventScroll: true });
     };
+    // A period guide is told which chapter it was opened from, so its map can show the places that chapter names.
+    const panelHref = (a) => {
+      const href = a.getAttribute('href'), art = $('article.chapter');
+      if (!a.hasAttribute('data-panel') || !art) return href;
+      const [pathPart, hash = ''] = href.split('#');
+      return `${pathPart}?from=${art.dataset.book}/${art.dataset.chapter}${hash ? `#${hash}` : ''}`;
+    };
     // The chapter's guide, loaded once the chapter is idle.
     const first = $('a[data-panel]');
-    if (first) (window.requestIdleCallback ?? ((fn) => setTimeout(fn, 1500)))(() => frameFor(first.getAttribute('href')));
+    if (first) (window.requestIdleCallback ?? ((fn) => setTimeout(fn, 1500)))(() => frameFor(panelHref(first)));
     document.addEventListener('click', (e) => {
       const a = e.target.closest('a[data-panel], a.nav-search');
       if (!a || e.metaKey || e.ctrlKey || e.shiftKey) return;
       e.preventDefault();
-      open(a.getAttribute('href'), a);
+      open(panelHref(a), a);
     });
     document.addEventListener('keydown', (e) => { if (e.key === 'Escape') close(); });
     addEventListener('message', (e) => {
@@ -1028,6 +1035,54 @@
       if (e.data.panel === 'go') { close(); location.href = e.data.href; }
     });
   }
+
+  // ---------- chapter map (a mockup, 2026-10-22) ----------
+  // A period guide's map comes with its places' data (script.map-places, from build.mjs's mapPlaces): each place's Bible
+  // Dictionary sentence and the chapters that name it. Opened from a chapter (?from=genesis/28), the map shows the
+  // places that chapter names, says which they are under the map, and opens at the map; tapping a place shows its
+  // sentence and every chapter that names it.
+  $$('script.map-places').forEach((data) => {
+    const fig = data.closest('figure') ?? data.parentElement;
+    const svg = $('svg.map', fig);
+    if (!svg) return;
+    const places = JSON.parse(data.textContent);
+    const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
+    const from = new URLSearchParams(location.search).get('from');
+    const [slug, chap] = from ? from.split('/') : [];
+    const card = document.createElement('div');
+    card.className = 'map-card';
+    card.hidden = true;
+    fig.after(card);
+    const show = (key) => {
+      const p = places[key];
+      if (!p) return;
+      $$('.pl', svg).forEach((g) => g.classList.toggle('sel', g.dataset.place === key));
+      const byBook = new Map();
+      for (const c of p.chapters) (byBook.get(c.b) ?? byBook.set(c.b, []).get(c.b)).push(c);
+      card.innerHTML = `<h3>${esc(p.label ?? p.name)}</h3>`
+        + (p.bd ? `<p class="map-bd">“${esc(p.bd.text)}” <a href="${esc(p.bd.url)}" target="_blank" rel="noopener">Bible Dictionary</a></p>` : '')
+        + (byBook.size ? `<p class="map-sub">The chapters that name it:</p>` + [...byBook].map(([b, cs]) => `<div class="map-bk"><span>${esc(b)}</span>${cs.map((c) => (c.s ? `<a href="/${c.s}/${c.c}/"${c.s === slug && String(c.c) === chap ? ' class="here" aria-current="page"' : ''}>${c.c}</a>` : `<i>${c.c}</i>`)).join('')}</div>`).join('') : '');
+      card.hidden = false;
+    };
+    svg.addEventListener('click', (e) => { const g = e.target.closest('.pl'); if (g) show(g.dataset.place); });
+    $$('.pl', svg).forEach((g) => {
+      g.setAttribute('tabindex', '0');
+      g.setAttribute('role', 'button');
+      g.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); show(g.dataset.place); } });
+    });
+    if (!slug) return;
+    const hits = Object.entries(places).map(([key, p]) => [key, p, p.chapters.find((c) => c.s === slug && String(c.c) === chap)]).filter(([, , c]) => c).sort((x, y) => x[2].v[0] - y[2].v[0]); // in the order the chapter names them
+    const bookName = Object.values(places).flatMap((p) => p.chapters).find((c) => c.s === slug)?.b ?? slug.replace(/^./, (x) => x.toUpperCase());
+    const named = document.createElement('p');
+    named.className = 'map-named';
+    if (hits.length) {
+      svg.classList.add('focused');
+      hits.forEach(([key]) => $(`.pl[data-place="${key}"]`, svg)?.classList.add('hit'));
+      named.innerHTML = `<b>Named in ${esc(bookName)} ${esc(chap)}:</b> ` + hits.map(([, p, c]) => `${esc(p.name)} (${c.v.map((v) => `<a href="/${slug}/${chap}/#v${v}">${chap}:${v}</a>`).join(', ')})`).join(', ') + '.';
+    } else named.innerHTML = `<b>${esc(bookName)} ${esc(chap)}</b> names no place on this map.`;
+    fig.after(named);
+    requestAnimationFrame(() => fig.scrollIntoView({ block: 'start' }));
+  });
 
   // ---------- search ----------
   const q = $('#q');

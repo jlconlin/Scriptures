@@ -5,15 +5,16 @@ title: The lands of Abraham, Isaac, Jacob and Joseph
 box: [30.8, 29.8, 47.0, 37.6]   # west, south, east, north
 width: 600
 riverRank: 9
+scan: [abraham]   # the book of Abraham is not in OpenBible's data: search it by name
 places:
   - { name: Ur, find: Ur 1, label: Ur (traditional site), dx: -6, dy: 12 }
-  - { name: Haran, dx: 7, dy: 4 }
+  - { name: Haran, skip: [Abraham.2.1, Abraham.2.2], dx: 7, dy: 4 }   # 2:1–2: Haran, Abraham's brother
   - { name: Damascus }
   - { name: Shechem, dx: 7, dy: 2, small: true }
-  - { name: Bethel, find: Bethel 1, dx: -6, dy: 2, small: true }
+  - { name: Bethel, find: Bethel 1, also: [Beth-el], dx: -6, dy: 2, small: true }
   - { name: Hebron, dx: 7, dy: 6, small: true }
-  - { name: Beersheba, at: [34.8406, 31.2453], dx: -6, dy: 8, small: true }
-  - { name: Rameses, label: Goshen, dx: 7, dy: 4 }
+  - { name: Beersheba, ancient: [Beersheba 1, Beersheba 2], at: [34.8406, 31.2453], dx: -6, dy: 8, small: true }
+  - { name: Goshen, find: Goshen 1, dx: 7, dy: 4 }
 labels:
   - { text: Great Sea, at: [33.0, 33.9], class: m-sea-label }
   - { text: EGYPT, at: [31.7, 30.25], class: m-empire }
