@@ -1009,6 +1009,7 @@
       place();
       void panel.offsetWidth; // lay the panel out where it starts, so the slide runs from there
       panel.classList.add('open');
+      f.contentWindow?.postMessage({ panel: 'shown' }, location.origin); // the page in it may scroll to what it was opened for
       place();
       $('.rp-close', panel).focus({ preventScroll: true });
     };
@@ -1049,26 +1050,44 @@
     const esc = (t) => String(t).replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]);
     const from = new URLSearchParams(location.search).get('from');
     const [slug, chap] = from ? from.split('/') : [];
+    // The card is a popover over the map, beside the place tapped, so it is seen without scrolling.
+    fig.classList.add('has-map-card');
     const card = document.createElement('div');
     card.className = 'map-card';
     card.hidden = true;
-    fig.after(card);
-    const show = (key) => {
+    card.setAttribute('role', 'dialog');
+    $('svg.map', fig).after(card);
+    const hide = () => { card.hidden = true; $$('.pl', svg).forEach((g) => g.classList.remove('sel')); };
+    const show = (key, g) => {
       const p = places[key];
       if (!p) return;
-      $$('.pl', svg).forEach((g) => g.classList.toggle('sel', g.dataset.place === key));
-      const byBook = new Map();
-      for (const c of p.chapters) (byBook.get(c.b) ?? byBook.set(c.b, []).get(c.b)).push(c);
-      card.innerHTML = `<h3>${esc(p.label ?? p.name)}</h3>`
+      $$('.pl', svg).forEach((x) => x.classList.toggle('sel', x === g));
+      const onSite = new Map(), elsewhere = [];
+      for (const c of p.chapters) {
+        if (c.s) (onSite.get(c.b) ?? onSite.set(c.b, []).get(c.b)).push(c);
+        else if (!elsewhere.includes(c.b)) elsewhere.push(c.b);
+      }
+      card.innerHTML = `<button type="button" class="map-card-x" aria-label="Close">×</button><h3>${esc(p.label ?? p.name)}</h3>`
         + (p.bd ? `<p class="map-bd">“${esc(p.bd.text)}” <a href="${esc(p.bd.url)}" target="_blank" rel="noopener">Bible Dictionary</a></p>` : '')
-        + (byBook.size ? `<p class="map-sub">The chapters that name it:</p>` + [...byBook].map(([b, cs]) => `<div class="map-bk"><span>${esc(b)}</span>${cs.map((c) => (c.s ? `<a href="/${c.s}/${c.c}/"${c.s === slug && String(c.c) === chap ? ' class="here" aria-current="page"' : ''}>${c.c}</a>` : `<i>${c.c}</i>`)).join('')}</div>`).join('') : '');
+        + [...onSite].map(([b, cs]) => `<div class="map-bk"><span>${esc(b)}</span>${cs.map((c) => `<a href="/${c.s}/${c.c}/"${c.s === slug && String(c.c) === chap ? ' class="here" aria-current="page"' : ''}>${c.c}</a>`).join('')}</div>`).join('')
+        + (elsewhere.length ? `<p class="map-sub">Also named in ${esc(elsewhere.join(', '))}.</p>` : '');
+      $('.map-card-x', card).addEventListener('click', hide);
       card.hidden = false;
+      // Beside the dot: below it when there is room in the map, otherwise above; kept inside the map's width.
+      const f = fig.getBoundingClientRect(), dot = ($('circle', g) ?? g).getBoundingClientRect(), m = svg.getBoundingClientRect();
+      const w = card.offsetWidth, h = card.offsetHeight;
+      const x = Math.min(Math.max(dot.left + dot.width / 2 - f.left - w / 2, 4), f.width - w - 4);
+      const below = dot.bottom - f.top + 8, above = dot.top - f.top - h - 8;
+      card.style.left = `${x}px`;
+      card.style.top = `${below + h <= m.bottom - f.top || above < 0 ? below : above}px`;
     };
-    svg.addEventListener('click', (e) => { const g = e.target.closest('.pl'); if (g) show(g.dataset.place); });
+    svg.addEventListener('click', (e) => { const g = e.target.closest('.pl'); if (g) show(g.dataset.place, g); else hide(); });
+    document.addEventListener('click', (e) => { if (!card.hidden && !e.composedPath().includes(card) && !e.composedPath().includes(svg)) hide(); });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && !card.hidden) { e.preventDefault(); hide(); } }, true); // before the panel's own Escape
     $$('.pl', svg).forEach((g) => {
       g.setAttribute('tabindex', '0');
       g.setAttribute('role', 'button');
-      g.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); show(g.dataset.place); } });
+      g.addEventListener('keydown', (e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); show(g.dataset.place, g); } });
     });
     if (!slug) return;
     const hits = Object.entries(places).map(([key, p]) => [key, p, p.chapters.find((c) => c.s === slug && String(c.c) === chap)]).filter(([, , c]) => c).sort((x, y) => x[2].v[0] - y[2].v[0]); // in the order the chapter names them
@@ -1081,7 +1100,11 @@
       named.innerHTML = `<b>Named in ${esc(bookName)} ${esc(chap)}:</b> ` + hits.map(([, p, c]) => `${esc(p.name)} (${c.v.map((v) => `<a href="/${slug}/${chap}/#v${v}">${chap}:${v}</a>`).join(', ')})`).join(', ') + '.';
     } else named.innerHTML = `<b>${esc(bookName)} ${esc(chap)}</b> names no place on this map.`;
     fig.after(named);
-    requestAnimationFrame(() => fig.scrollIntoView({ block: 'start' }));
+    // Open at the map: now, and each time the panel shows this page (a page loaded in the background, while the panel
+    // was hidden, can't scroll then).
+    const toMap = () => fig.scrollIntoView({ block: 'start' });
+    setTimeout(toMap, 0);
+    addEventListener('message', (e) => { if (e.origin === location.origin && e.data?.panel === 'shown') toMap(); });
   });
 
   // ---------- search ----------

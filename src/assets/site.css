@@ -999,9 +999,11 @@ section.home-hero { padding-bottom: 0; }
 .map .pl.sel circle { stroke: var(--ink); stroke-width: 2; }
 .map-named { font-family: var(--font-ui); font-size: .9rem; color: var(--ink-2); margin: -.6em 0 1em; }
 .map-named b { color: var(--ink); }
-.map-card { font-family: var(--font-ui); font-size: .88rem; border: 1px solid var(--line); background: var(--surface); border-radius: 12px; padding: 12px 14px; margin: 0 0 1.4em; }
+.map-figure.has-map-card { position: relative; }
+.map-card { position: absolute; z-index: 3; width: min(300px, calc(100% - 8px)); max-height: 60%; overflow-y: auto; overscroll-behavior: contain; font-family: var(--font-ui); font-size: .85rem; border: 1px solid var(--line); background: var(--surface); border-radius: 12px; padding: 10px 12px; box-shadow: 0 8px 28px color-mix(in srgb, var(--ink) 22%, transparent); }
 .map-card[hidden] { display: none; }
-.map-card h3 { font: 700 .98rem var(--font-ui); margin: 0 0 4px; }
+.map-card h3 { font: 700 .95rem var(--font-ui); margin: 0 26px 4px 0; }
+.map-card-x { position: absolute; top: 4px; right: 4px; border: 0; background: none; color: var(--ink-2); font-size: 1.3rem; line-height: 1; width: 28px; height: 28px; border-radius: 6px; cursor: pointer; }
 .map-card .map-bd { margin: 0 0 8px; color: var(--ink-2); }
 .map-card .map-bd a { font-size: .82rem; }
 .map-card .map-sub { margin: 0 0 4px; color: var(--muted); font-size: .8rem; }
