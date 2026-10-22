@@ -42,7 +42,7 @@ For the regions and roads, see [The Land](/old-testament/guides/the-land/).
 
 <figure class="photo-figure">
 <img src="/assets/figures/beni-hasan-aamu.webp" width="1200" height="944" loading="lazy" alt="An Egyptian wall painting of two bearded men in patterned robes, each leading a gazelle, with hieroglyphs above them.">
-<figcaption>“One finds evidence for the Hyksos from as early as 1890 BC in the tomb of a 12th-dynasty official Khnumhotep II, at Beni Hasan in Egypt.” “This was around the time that Abraham also was in Egypt.”[@sc-knowhy-844] Leaders of the Aamu, in that tomb, in a copy by Norman de Garis Davies; <a href="https://commons.wikimedia.org/wiki/File:Leaders_of_the_Aamu_of_Shu_MET_DT272586.jpg">Metropolitan Museum of Art</a>, CC0; resized.</figcaption>
+<figcaption>“One finds evidence for the Hyksos from as early as 1890 BC in the tomb of a 12th-dynasty official Khnumhotep II, at Beni Hasan in Egypt. A wall relief in this tomb shows a picture of a number of individuals from Canaan, and refers to one of them as Abisha the Hyksos. This was around the time that Abraham also was in Egypt.”[@sc-knowhy-844] (Who the Hyksos were: <a href="#nations">The peoples</a>.) Leaders of the Aamu, in that tomb, in a copy by Norman de Garis Davies; <a href="https://commons.wikimedia.org/wiki/File:Leaders_of_the_Aamu_of_Shu_MET_DT272586.jpg">Metropolitan Museum of Art</a>, CC0; resized.</figcaption>
 </figure>
 
 <h2 id="nations">The peoples</h2>
@@ -53,6 +53,7 @@ For the regions and roads, see [The Land](/old-testament/guides/the-land/).
 | Canaanites and Amorites | The name Canaan sometimes serves as “a general name for all the non-Israelite inhabitants of the country west of Jordan”;[@bd-canaan] the Amorites were “northwest Semitic-speaking peoples who lived about the time of Abraham”[@bd-amorites] | “the iniquity of the Amorites is not yet full” ([[Gen. 15:16]]) |
 | Philistines | The Philistines held “the rich lowland on the Mediterranean coast”;[@bd-philistines] Gerar is “near Gaza”[@bd-gerar] | “Abimelech king of the Philistines unto Gerar” ([[Gen. 26:1]]) |
 | Egypt | Known to the Hebrews as Mizraim;[@bd-egypt] Pharaoh means “Great House”[@bd-pharaoh] | “the Egyptians might not eat bread with the Hebrews” ([[Gen. 43:32]]) |
+| The Hyksos | Canaanites in Egypt: by 1650 BC “there were so many of these Canaanites living in Egypt that they took over the northern part of that land”;[@sc-knowhy-844] “Egyptianized Semites” who “ruled the eastern part of the Nile Delta as Egyptian kings,”[@muhlestein-israel-egypt] until “around 1550 BC” the rulers of Thebes threw off “Hyksos control”[@muhlestein-israel-egypt] | Abraham's Pharaoh was “probably one of the Hyksos or Shepherd kings”;[@bd-pharaoh] for Joseph, see the events above |
 | Ishmaelites and Midianites | The Ishmaelites were “a wandering race”;[@bd-ishmael] the Midianites, “wandering Arab tribes, akin to the Hebrews”[@bd-midianites] | Both carry Joseph to Egypt ([[Gen. 37:28]]; [[Gen. 37:36]]) |
 | Edom | “Red,” the name of Esau, of his descendants and of their country in Mount Seir[@bd-edom] | “Thus dwelt Esau in mount Seir” ([[Gen. 36:8]]) |
 | Moab and Ammon | Lot “was the ancestor of Moab and Ammon”[@bd-lot] | [[Gen. 19:37–38]] |
