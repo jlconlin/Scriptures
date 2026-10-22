@@ -334,6 +334,13 @@ export async function build({ quiet = false } = {}) {
       pages.push(g);
       entries.push({ t: 'guide', b: owner.slug, r: searchLabel, h: g.title, u: `/${owner.slug}/${collection.path}/${g.slug}/`, x: plain(stripCitations(g.body)).slice(0, 3000) });
     }
+    // A volume's period guides (periods.yaml: the guides the chapters' Context links open) come after its other guides,
+    // in the order of the periods, so their “next” runs through time; the Guides pages list them as a group (pages.mjs).
+    if (owner.kind === 'volume') {
+      const periodOrder = Object.values(periods).map((p) => p.guide?.split('/').filter(Boolean).pop()).filter(Boolean);
+      for (const g of pages) { const i = periodOrder.indexOf(g.slug); if (i >= 0) g.period = i + 1; }
+      pages.sort((a, b) => (a.period ?? 0) - (b.period ?? 0));
+    }
     for (const g of pages) await write(`${owner.slug}/${collection.path}/${g.slug}/index.html`, renderGuide({ owner, guide: g, guides: pages, sources, collection }));
     return pages;
   };

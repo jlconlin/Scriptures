@@ -123,7 +123,7 @@ ${html ? `<article class="wrap narrow guide prose prose-lg">${html}</article>` :
 ${guides.length ? `<section class="wrap narrow book-section volume-guides">
   <h2 class="section-title">Guides</h2>
   <p class="section-sub">${esc(sharedLede(volume))}</p>
-  <div class="guide-cards">${guides.map((g) => guideCard(volume, COLLECTIONS.guides, g)).join('')}</div>
+  ${volumeGuideGroups(volume, guides, 'guide-cards')}
 </section>` : ''}`;
   return layout({ title: volume.name, description: `The books of the ${volume.name} on ${SITE.name}.`, path: `/${volume.slug}/`, body, bodyClass: 'page-volume', volume: volume.key });
 }
@@ -259,6 +259,16 @@ export const COLLECTIONS = {
   themes: { path: 'themes', crumb: 'Themes', indexTitle: (o) => `Themes in ${inTitle(o)}`, lede: 'Ideas that run through many chapters, gathered in one place.', all: 'All themes' },
 };
 const sharedLede = (volume) => `Background that holds for more than one book of the ${volume.name}.`;
+// A volume's guides in two groups: its other guides, then the period guides that chapters' Context links open, in the
+// order of the periods (build.mjs marks them `period`; author, 2026-10-22: “Add a Context group on the Guides pages,
+// in period order”).
+function volumeGuideGroups(volume, guides, cardsClass) {
+  const others = guides.filter((g) => !g.period), periods = guides.filter((g) => g.period);
+  return `${others.length ? `<div class="${cardsClass}">${others.map((g) => guideCard(volume, COLLECTIONS.guides, g)).join('')}</div>` : ''}
+${periods.length ? `<h2 class="section-title" id="context">Context</h2>
+<p class="section-sub">The world of each period, from the patriarchs to the return from exile: its map, its rulers and events, and the nations around Israel. Each chapter's Context link opens its period.</p>
+<div class="${cardsClass}">${periods.map((g) => guideCard(volume, COLLECTIONS.guides, g)).join('')}</div>` : ''}`;
+}
 const guideCard = (o, c, g) => `<a class="guide-card" href="/${o.slug}/${c.path}/${g.slug}/"><span class="guide-icon">${icon(g.icon ?? 'book')}</span><span class="guide-title">${esc(g.title)}</span><span class="guide-blurb">${esc(g.blurb)}</span></a>`;
 
 export function renderGuidesIndex({ owner, guides, collection = COLLECTIONS.guides, themes = [] }) {
@@ -270,7 +280,7 @@ export function renderGuidesIndex({ owner, guides, collection = COLLECTIONS.guid
   <h1>${esc(c.indexTitle(owner))}</h1>
   <p class="lede">${esc(owner.kind === 'volume' ? sharedLede(owner) : c.lede)}</p>
 </div></header>
-<div class="wrap guides-wide">${guides.length ? `<div class="guide-cards guide-cards-two">
+<div class="wrap guides-wide">${owner.kind === 'volume' && c === COLLECTIONS.guides ? volumeGuideGroups(owner, guides, 'guide-cards guide-cards-two') : guides.length ? `<div class="guide-cards guide-cards-two">
 ${guides.map((g) => guideCard(owner, c, g)).join('')}
 </div>` : ''}
 ${themes.length ? `<h2 class="section-title guides-themes-title" id="themes">Themes</h2>
