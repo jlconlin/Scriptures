@@ -258,7 +258,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
   </header>
 
   <div class="wrap chapter-grid">
-    ${sectionNav([ch.setting && ['setting-h', sectionTitle('setting')], ['reading', 'Scripture & notes'], ch.christ && ['christ-h', 'Seeing Christ'], srcList.length && ['src-h', 'Sources']], period ? `<a class="nav-period" href="${period.href}" data-panel title="${esc(period.title)}">${icon('compass')}Context</a>` : '')}
+    ${sectionNav([ch.setting && ['setting-h', sectionTitle('setting')], ['reading', 'Scripture & notes'], ch.christ && ['christ-h', 'Seeing Christ'], srcList.length && ['src-h', 'Sources']], period ? `<a class="nav-period" href="${period.href}" data-panel title="${esc(period.title)}">Context</a>` : '')}
     <div class="chapter-main">
       ${ch.setting ? introSection({ key: 'setting', cls: 'setting card', body: ch.setting, prose: 'prose', preview: true }) : ''}
 
