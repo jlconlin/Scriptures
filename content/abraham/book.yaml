@@ -7,7 +7,10 @@ abbr: abr                # [[Abr. 3:22]] links here
 gospelLibrary: pgp/abr
 # The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
 periods:
-  - { chapters: 1-5, period: patriarchs }
+  - { chapters: 1-3, period: patriarchs }
+# Chapters with no period, and why (the build warns about any other Old Testament chapter without one)
+noPeriod:
+  - { chapters: 4-5, why: "the Creation, like Genesis 1–11 (author, 2026-10-22)" }
 eyebrow: The Pearl of Great Price
 heroQuote:
   text: '“Abraham, thou art one of them; thou wast chosen before thou wast born.”'
