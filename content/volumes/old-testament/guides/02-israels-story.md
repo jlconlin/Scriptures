@@ -116,7 +116,7 @@ The Bible Chronology table lists Abram through Joshua with no date and places th
 
 Read it in [Genesis](/genesis/), [Exodus](/exodus/), [Abraham](/abraham/) and [Moses](/moses/).
 
-For Israel in Egypt, the Exodus and the wilderness, see [Egypt and the Wilderness](/old-testament/guides/egypt-and-the-wilderness/).
+For Abraham, Isaac, Jacob and Joseph, see [The Patriarchs](/old-testament/guides/the-patriarchs/); for Israel in Egypt, the Exodus and the wilderness, see [Egypt and the Wilderness](/old-testament/guides/egypt-and-the-wilderness/).
 
 <h2 id="judges">The conquest and the judges</h2>
 
