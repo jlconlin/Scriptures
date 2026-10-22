@@ -1,0 +1,45 @@
+# The map of guide 3, The Conquest, the Judges, and One Kingdom (scripts/map.mjs; DEVELOPMENT.md, “Maps”).
+# A close-up of the land, where nearly all of this period happens. Mount Gilboa is a natural feature in OpenBible,
+# which the script's lookup skips, so its position is given (`at`, Jebel Faqqu'a).
+title: The land of Israel from Joshua to Solomon
+box: [34.15, 31.05, 36.6, 33.35]   # west, south, east, north
+width: 600
+riverRank: 9
+places:
+  - { name: Jerusalem, home: true, ancient: [Jerusalem, Zion, Mount Zion], dx: 8, dy: 18 }
+  - { name: Jericho, find: Jericho 1, dx: 8, dy: -4 }
+  - { name: Gilgal, find: Gilgal 1, dx: 8, dy: 11, small: true }
+  - { name: Ai, bd: none, find: Ai 1, dx: 8, dy: 7, small: true }
+  - { name: Bethel, find: Bethel 1, ancient: [Bethel 1, Luz 1], dx: 8, dy: -6, small: true }
+  - { name: Gibeon, dx: -8, dy: 3, small: true }
+  - { name: Gibeah, bd: none, find: Gibeah 1, dx: 8, dy: 9, small: true }
+  - { name: Mizpah, find: Mizpah 3, dx: -8, dy: -1, small: true }
+  - { name: Ramah, find: Ramah 4, dx: 8, dy: 5, small: true }
+  - { name: Shiloh, dx: 7, dy: 4, small: true }
+  - { name: Shechem, dx: 7, dy: 4 }
+  - { name: Bethlehem, find: Bethlehem 1, dx: -7, dy: 9, small: true }
+  - { name: Hebron, dx: 7, dy: 4 }
+  - { name: Beersheba, ancient: [Beersheba 1, Beersheba 2], at: [34.8406, 31.2453], dx: 7, dy: 4 }
+  - { name: Megiddo, dx: -6, dy: 4 }
+  - { name: Mount Gilboa, at: [35.40, 32.47], bd: gilboa, dx: 7, dy: 4, small: true }
+  - { name: Hazor, bd: none, find: Hazor 1, dx: 7, dy: 4 }
+  - { name: Dan, dx: 7, dy: 4 }
+  - { name: Gaza, dx: -6, dy: 4 }
+  - { name: Ashkelon, dx: -6, dy: 4, small: true }
+  - { name: Ashdod, dx: -6, dy: 4, small: true }
+  - { name: Ekron, dx: 7, dy: 4, small: true }
+  - { name: Gath, find: Gath 1, dx: 7, dy: 4, small: true }
+  - { name: Ziklag, dx: -6, dy: 4, small: true }
+  - { name: Tyre, dx: -6, dy: 4 }
+  - { name: Mahanaim, bd: none, dx: 7, dy: 4, small: true }
+  - { name: Jabesh-gilead, bd: jabesh, dx: 7, dy: 4, small: true }
+labels:
+  - { text: Great Sea, at: [34.45, 32.45], class: m-sea-label }
+  - { text: PHILISTIA, ancient: Philistia, bd: philistines, at: [34.45, 31.6], class: m-region }
+  - { text: GILEAD, ancient: Gilead 1, at: [36.05, 32.25], class: m-region }
+  - { text: AMMON, ancient: Ammon, at: [36.25, 31.85], class: m-region }
+  - { text: MOAB, ancient: [Moab 1, Moab 2], at: [35.95, 31.35], class: m-region }
+  - { text: BASHAN, ancient: Bashan, at: [36.2, 32.85], class: m-region }
+  - { text: Jordan, ancient: Jordan, bd: jordan-river, at: [35.68, 32.1], class: m-river-label }
+  - { text: Salt Sea, ancient: Salt Sea, bd: dead-sea, at: [35.47, 31.25], class: m-sea-label }
+  - { text: Chinnereth, ancient: [Chinnereth, Sea of Galilee], bd: galilee-sea-of, at: [35.6, 32.95], class: m-sea-label }
