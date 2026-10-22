@@ -106,6 +106,21 @@ function bookGroups(sorted, volume) {
 
 // A volume's page: its books on the site first (author, 2026-10-16: “Definitely books first”), then its guides,
 // and the Gospel Library for the rest.
+// On a volume's page its guides and its period guides (Context) stand in two columns where there is room, each with
+// its heading (author, 2026-10-22: “make two columns (when there is space) on the volume page”).
+function volumeGuidesSection(volume, guides) {
+  const others = guides.filter((g) => !g.period), periods = guides.filter((g) => g.period);
+  const column = (id, title, lede, list) => `<div class="volume-guides-col">
+    <h2 class="section-title" id="${id}">${title}</h2>
+    <p class="section-sub">${esc(lede)}</p>
+    <div class="guide-cards">${list.map((g) => guideCard(volume, COLLECTIONS.guides, g)).join('')}</div>
+  </div>`;
+  return `<section class="wrap book-section volume-guides${others.length && periods.length ? ' volume-guides-split' : ' narrow'}">
+  ${others.length ? column('guides', 'Guides', sharedLede(volume), others) : ''}
+  ${periods.length ? column('context', 'Context', CONTEXT_LEDE, periods) : ''}
+</section>`;
+}
+
 export function renderVolume({ volume, books, html = '', guides = [] }) {
   const sorted = [...books].sort((a, b) => a.place.index - b.place.index);
   const status = (b) => (b.written.length < b.chapters.length ? `${b.written.length} of ${b.chapters.length} ${unitPlural(b)}` : `${b.chapters.length} ${unitPlural(b)}`);
@@ -120,11 +135,7 @@ ${html ? `<article class="wrap narrow guide prose prose-lg">${html}</article>` :
   <h2 class="section-title" id="books-h">Books</h2>
   ${bookGroups(sorted, volume).map(([name, bs]) => `${name ? `<h3 class="book-group">${esc(name)}</h3>` : ''}<ul class="book-rows">${bs.map((b) => `<li><a class="book-row" href="/${b.slug}/"><span class="book-row-name">${esc(b.name)}</span><span class="book-row-status">${status(b)}</span><span class="book-row-blurb">${esc(b.home.blurb)}</span></a></li>`).join('')}</ul>`).join('\n  ')}
 </section>` : ''}
-${guides.length ? `<section class="wrap narrow book-section volume-guides">
-  <h2 class="section-title">Guides</h2>
-  <p class="section-sub">${esc(sharedLede(volume))}</p>
-  ${volumeGuideGroups(volume, guides, 'guide-cards')}
-</section>` : ''}`;
+${guides.length ? volumeGuidesSection(volume, guides) : ''}`;
   return layout({ title: volume.name, description: `The books of the ${volume.name} on ${SITE.name}.`, path: `/${volume.slug}/`, body, bodyClass: 'page-volume', volume: volume.key });
 }
 
@@ -262,11 +273,12 @@ const sharedLede = (volume) => `Background that holds for more than one book of 
 // A volume's guides in two groups: its other guides, then the period guides that chapters' Context links open, in the
 // order of the periods (build.mjs marks them `period`; author, 2026-10-22: “Add a Context group on the Guides pages,
 // in period order”).
+const CONTEXT_LEDE = "The world of each period, from the patriarchs to the return from exile: its map, its rulers and events, and the nations around Israel. Each chapter's Context link opens its period.";
 function volumeGuideGroups(volume, guides, cardsClass) {
   const others = guides.filter((g) => !g.period), periods = guides.filter((g) => g.period);
   return `${others.length ? `<div class="${cardsClass}">${others.map((g) => guideCard(volume, COLLECTIONS.guides, g)).join('')}</div>` : ''}
 ${periods.length ? `<h2 class="section-title" id="context">Context</h2>
-<p class="section-sub">The world of each period, from the patriarchs to the return from exile: its map, its rulers and events, and the nations around Israel. Each chapter's Context link opens its period.</p>
+<p class="section-sub">${esc(CONTEXT_LEDE)}</p>
 <div class="${cardsClass}">${periods.map((g) => guideCard(volume, COLLECTIONS.guides, g)).join('')}</div>` : ''}`;
 }
 const guideCard = (o, c, g) => `<a class="guide-card" href="/${o.slug}/${c.path}/${g.slug}/"><span class="guide-icon">${icon(g.icon ?? 'book')}</span><span class="guide-title">${esc(g.title)}</span><span class="guide-blurb">${esc(g.blurb)}</span></a>`;

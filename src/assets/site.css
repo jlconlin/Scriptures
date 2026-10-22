@@ -790,6 +790,9 @@ section.home-hero { padding-bottom: 0; }
 .division-map-wrap { max-width: none; margin: 0; }
 .guides-wide { max-width: calc(860px + 2 * var(--gutter)); }
 /* A volume's guides on its page sit in the reading column, one to a row. */
+/* With period guides too, the volume's guides and its Context stand in two columns where there is room. */
+.volume-guides-split { display: grid; gap: 8px 48px; align-items: start; }
+@media (min-width: 900px) { .volume-guides-split { grid-template-columns: 1fr 1fr; } }
 .volume-guides .guide-cards { grid-template-columns: 1fr; }
 /* A volume page's books: a list under the volume's divisions, one row per book with its count and a two-line
    description; tight rows, and two columns on wide screens (author, 2026-10-16: “tighter rows and two columns for
