@@ -11,18 +11,25 @@ places:
   - { name: Haran, skip: [Abraham.2.1, Abraham.2.2], dx: 7, dy: 4 }   # 2:1–2: Haran, Abraham's brother
   - { name: Damascus }
   - { name: Shechem, dx: 7, dy: 2, small: true }
-  - { name: Bethel, find: Bethel 1, also: [Beth-el], dx: -6, dy: 2, small: true }
-  - { name: Hebron, dx: 7, dy: 6, small: true }
+  - { name: Bethel, find: Bethel 1, ancient: [Bethel 1, Luz 1], also: [Beth-el], dx: -6, dy: 2, small: true }
+  - { name: Hebron, ancient: [Hebron, Mamre, Machpelah], also: [Mamre, Machpelah], dx: 7, dy: 6, small: true }
   - { name: Beersheba, ancient: [Beersheba 1, Beersheba 2], at: [34.8406, 31.2453], dx: -6, dy: 8, small: true }
+  - { name: Gerar, dx: -6, dy: -4, small: true }
+  - { name: Beer-lahai-roi, bd: none, dx: 7, dy: 8, small: true }
+  - { name: Bethlehem, find: Bethlehem 1, ancient: [Bethlehem 1, Ephrath], dx: 6, dy: 2, small: true }
   - { name: Goshen, find: Goshen 1, dx: 7, dy: 4 }
 labels:
   - { text: Great Sea, at: [33.0, 33.9], class: m-sea-label }
-  - { text: EGYPT, at: [31.7, 30.25], class: m-empire }
-  - { text: CANAAN, at: [34.4, 32.6], class: m-region }
-  - { text: ARAM, at: [37.6, 34.3], class: m-region }
-  - { text: PADAN-ARAM, at: [39.9, 36.4], class: m-region }
+  - { text: EGYPT, at: [31.7, 30.0], class: m-empire, ancient: Egypt }
+  - { text: CANAAN, at: [34.4, 32.6], class: m-region, ancient: Canaan }
+  - { text: ARAM, at: [37.6, 34.3], class: m-region, ancient: [Aram, Aram-naharaim, Mesopotamia] }
+  - { text: PADAN-ARAM, at: [39.9, 36.4], class: m-region, ancient: Paddan-aram, name: Padan-aram, bd: none }
   - { text: Northern proposals for Ur, at: [38.2, 37.3], class: m-small }
-  - { text: CHALDEA, at: [45.3, 31.6], class: m-empire }
+  - { text: CHALDEA, at: [45.3, 31.6], class: m-empire, ancient: Chaldea }
+  - { text: EDOM, at: [35.6, 30.3], class: m-region, ancient: [Edom, Mount Seir 1] }
+  - { text: Negev, at: [34.1, 30.45], class: m-small, ancient: Negeb }
+  - { text: Shur, at: [33.2, 30.0], class: m-small, ancient: Shur, bd: none }
+  - { text: GILEAD, at: [37.6, 32.1], class: m-region, ancient: Gilead 1 }
   - { text: Euphrates, at: [40.6, 35.2], class: m-river-label }
   - { text: Tigris, at: [44.3, 34.6], class: m-river-label }
   - { text: Syrian Desert, at: [39.6, 32.6], class: m-small }

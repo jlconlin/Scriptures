@@ -5,24 +5,28 @@ box: [30.6, 28.6, 54.4, 38.6]   # west, south, east, north
 width: 600
 riverRank: 9
 places:
-  - { name: Jerusalem, home: true, dx: 8, dy: 6 }
+  - { name: Jerusalem, ancient: [Jerusalem, Zion, Mount Zion], home: true, dx: 8, dy: 6 }
   - { name: Samaria, find: Samaria 1, dx: -6, dy: 2, small: true }
   - { name: Babylon, find: Babylon 1, dx: -6 }
-  - { name: Susa, bd: shushan, label: Susa (Shushan) }
-  - { name: Ecbatana, bd: none, label: Ecbatana (Achmetha) }
+  - { name: Susa, ancient: Susa, bd: shushan, label: Susa (Shushan) }
+  - { name: Ecbatana, ancient: Ecbatana, bd: none, label: Ecbatana (Achmetha) }
   - { name: Persepolis, bd: none, ancient: none, at: [52.89, 29.935], dx: -6, dy: -5 }
   - { name: Memphis, bd: noph, dx: 7, dy: 4 }
+  - { name: Tyre, dx: -5, dy: -2, small: true }
+  - { name: Gaza, dx: -5, dy: 2, small: true }
 labels:
   - { text: Great Sea, at: [32.8, 34.6], class: m-sea-label }
   - { text: Persian Gulf, at: [49.7, 29.15], class: m-sea-label }
   - { text: Caspian Sea, at: [51.4, 38.1], class: m-sea-label }
-  - { text: EGYPT, at: [32.3, 29.0], class: m-empire }
-  - { text: BABYLONIA, at: [45.2, 31.3], class: m-empire }
-  - { text: MEDIA, at: [48.4, 36.3], class: m-empire }
-  - { text: PERSIA, at: [53.0, 31.2], class: m-empire }
+  - { text: EGYPT, ancient: Egypt, at: [32.3, 29.0], class: m-empire }
+  - { text: BABYLONIA, ancient: [Babylonia, Chaldea], bd: chaldea, at: [45.2, 31.3], class: m-empire }
+  - { text: MEDIA, ancient: Media, at: [48.4, 36.3], class: m-empire }
+  - { text: PERSIA, ancient: Persia, at: [53.0, 31.2], class: m-empire }
   - { text: JUDAH, at: [35.3, 30.95], class: m-region }
-  - { text: EDOM, at: [35.7, 30.15], class: m-region }
-  - { text: AMMON, at: [36.7, 32.05], class: m-region }
-  - { text: Euphrates, at: [40.4, 35.15], class: m-river-label }
-  - { text: Tigris, at: [44.3, 34.9], class: m-river-label }
+  - { text: EDOM, ancient: Edom, at: [35.7, 30.15], class: m-region }
+  - { text: AMMON, ancient: Ammon, at: [36.7, 32.05], class: m-region }
+  - { text: Euphrates, ancient: Euphrates, bd: euphrates, at: [40.4, 35.15], class: m-river-label }
+  - { text: Tigris, ancient: Tigris, bd: none, at: [44.3, 34.9], class: m-river-label }
+  - { text: ← GREECE, name: Greece, ancient: Greece, at: [32.45, 37.3], class: m-empire }
+  - { text: ELAM, ancient: Elam, at: [49.6, 33.4], class: m-region }
   - { text: Syrian Desert, at: [39.6, 32.4], class: m-small }

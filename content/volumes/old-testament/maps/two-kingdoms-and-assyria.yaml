@@ -4,27 +4,36 @@ box: [31.0, 29.3, 47.5, 37.8]   # west, south, east, north
 width: 600
 riverRank: 9
 places:
-  - { name: Jerusalem, home: true, dx: 8, dy: 5 }
+  - { name: Jerusalem, home: true, dx: 7, dy: 17, ancient: [Jerusalem, Zion, Mount Zion] }
   - { name: Samaria, find: Samaria 1, dx: -6, dy: 4 }
   - { name: Damascus }
   - { name: Tyre, dx: -6, dy: 4 }
   - { name: Sidon, dx: -6, dy: 0 }
   - { name: Ashdod, dx: -6, dy: -4, small: true }
-  - { name: Lachish, dx: 5, dy: 12, small: true }
+  - { name: Lachish, dx: -4, dy: 17, small: true }
+  - { name: Bethel, find: Bethel 1, dx: -6, dy: -4, small: true }
+  - { name: Gilgal, find: Gilgal 1, dx: 6, dy: -2, small: true }
+  - { name: Gaza, dx: -6, dy: 0, small: true }
+  - { name: Mount Carmel, at: [35.03, 32.73], ancient: Mount Carmel, bd: carmel, dx: -6, dy: 0, small: true }
+  - { name: Hamath, find: Hamath 1 }
+  - { name: Arpad, dx: -6, dy: -3, small: true, bd: none }
   - { name: Nineveh }
   - { name: Babylon, find: Babylon 1, dx: -6 }
   - { name: Memphis, bd: noph, dx: 7, dy: 4 }
 labels:
   - { text: Great Sea, at: [33.0, 34.2], class: m-sea-label }
-  - { text: EGYPT, at: [32.0, 30.4], class: m-empire }
-  - { text: ASSYRIA, at: [43.4, 37.3], class: m-empire }
-  - { text: BABYLONIA, at: [45.6, 31.9], class: m-empire }
-  - { text: ARAM, at: [37.4, 34.5], class: m-region }
-  - { text: ISRAEL, at: [36.0, 32.75], class: m-region }
+  - { ancient: Egypt, text: EGYPT, at: [32.0, 30.4], class: m-empire }
+  - { ancient: Assyria, bd: none, text: ASSYRIA, at: [43.4, 37.3], class: m-empire }
+  - { ancient: [Babylonia, Chaldea], bd: babylon, text: BABYLONIA, at: [45.6, 31.9], class: m-empire }
+  - { ancient: [Aram, Syria 1], text: ARAM, at: [37.4, 34.5], class: m-region }
+  - { text: ISRAEL, at: [36.15, 32.95], class: m-region }
   - { text: JUDAH, at: [35.3, 30.95], class: m-region }
-  - { text: MOAB, at: [36.8, 31.3], class: m-region }
-  - { text: EDOM, at: [35.75, 30.35], class: m-region }
-  - { text: PHILISTIA, at: [33.55, 31.3], class: m-region }
+  - { ancient: [Moab 1, Moab 2], text: MOAB, at: [37.0, 31.05], class: m-region }
+  - { ancient: Edom, text: EDOM, at: [35.75, 30.35], class: m-region }
+  - { ancient: Philistia, bd: philistines, text: PHILISTIA, at: [33.55, 30.8], class: m-region }
+  - { text: LEBANON, ancient: Lebanon, at: [36.0, 34.0], class: m-region }
+  - { text: AMMON, ancient: Ammon, at: [37.15, 31.95], class: m-region }
+  - { text: GILEAD, ancient: Gilead 1, at: [36.1, 32.4], class: m-region }
   - { text: Euphrates, at: [40.4, 35.15], class: m-river-label }
   - { text: Tigris, at: [44.5, 34.6], class: m-river-label }
   - { text: Jordan, at: [35.95, 32.15], class: m-river-label }

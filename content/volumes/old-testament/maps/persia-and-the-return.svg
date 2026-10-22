@@ -9,15 +9,17 @@
   <text x="55.5" y="121.1" class="m-sea-label" text-anchor="middle">Great Sea</text>
   <text x="481.5" y="286" class="m-sea-label" text-anchor="middle">Persian Gulf</text>
   <text x="524.4" y="15.1" class="m-sea-label" text-anchor="middle">Caspian Sea</text>
-  <text x="42.9" y="290.6" class="m-empire" text-anchor="middle">EGYPT</text>
-  <text x="368.1" y="220.9" class="m-empire" text-anchor="middle">BABYLONIA</text>
-  <text x="448.7" y="69.6" class="m-empire" text-anchor="middle">MEDIA</text>
-  <text x="564.7" y="224" class="m-empire" text-anchor="middle">PERSIA</text>
+  <g class="pl region" data-place="egypt"><text x="42.9" y="290.6" class="m-empire" text-anchor="middle">EGYPT</text></g>
+  <g class="pl region" data-place="babylonia"><text x="368.1" y="220.9" class="m-empire" text-anchor="middle">BABYLONIA</text></g>
+  <g class="pl region" data-place="media"><text x="448.7" y="69.6" class="m-empire" text-anchor="middle">MEDIA</text></g>
+  <g class="pl region" data-place="persia"><text x="564.7" y="224" class="m-empire" text-anchor="middle">PERSIA</text></g>
   <text x="118.5" y="231.5" class="m-region" text-anchor="middle">JUDAH</text>
-  <text x="128.6" y="255.8" class="m-region" text-anchor="middle">EDOM</text>
-  <text x="153.8" y="198.2" class="m-region" text-anchor="middle">AMMON</text>
-  <text x="247.1" y="104.4" class="m-river-label" text-anchor="middle">Euphrates</text>
-  <text x="345.4" y="112" class="m-river-label" text-anchor="middle">Tigris</text>
+  <g class="pl region" data-place="edom"><text x="128.6" y="255.8" class="m-region" text-anchor="middle">EDOM</text></g>
+  <g class="pl region" data-place="ammon"><text x="153.8" y="198.2" class="m-region" text-anchor="middle">AMMON</text></g>
+  <g class="pl region" data-place="euphrates"><text x="247.1" y="104.4" class="m-river-label" text-anchor="middle">Euphrates</text></g>
+  <g class="pl region" data-place="tigris"><text x="345.4" y="112" class="m-river-label" text-anchor="middle">Tigris</text></g>
+  <g class="pl region" data-place="greece"><text x="46.6" y="39.3" class="m-empire" text-anchor="middle">← GREECE</text></g>
+  <g class="pl region" data-place="elam"><text x="479" y="157.4" class="m-region" text-anchor="middle">ELAM</text></g>
   <text x="226.9" y="187.7" class="m-small" text-anchor="middle">Syrian Desert</text>
   <g class="m-city">
     <g class="pl" data-place="jerusalem"><circle cx="116.8" cy="206.5" r="4.5" class="m-home"/><text x="124.8" y="212.5" class="m-home-label">Jerusalem</text></g>
@@ -27,6 +29,8 @@
     <g class="pl" data-place="ecbatana"><circle cx="451.7" cy="114.8" r="3"/><text x="458.7" y="118.8">Ecbatana (Achmetha)</text></g>
     <g class="pl" data-place="persepolis"><circle cx="561.9" cy="262.3" r="3"/><text x="555.9" y="257.3" text-anchor="end">Persepolis</text></g>
     <g class="pl" data-place="memphis"><circle cx="16.5" cy="264.9" r="3"/><text x="23.5" y="268.9">Memphis</text></g>
+    <g class="pl" data-place="tyre"><circle cx="115.9" cy="161.3" r="3"/><text x="110.9" y="159.3" class="m-small" text-anchor="end">Tyre</text></g>
+    <g class="pl" data-place="gaza"><circle cx="97.4" cy="214.8" r="3"/><text x="92.4" y="216.8" class="m-small" text-anchor="end">Gaza</text></g>
   </g>
   <text x="594" y="297" class="m-credit" text-anchor="end">Natural Earth · OpenBible.info (CC BY 4.0)</text>
 </svg>
