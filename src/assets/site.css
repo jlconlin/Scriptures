@@ -997,6 +997,8 @@ section.home-hero { padding-bottom: 0; }
 .map .pl.hit circle { fill: var(--accent); r: 5.5px; }
 .map .pl.hit text { fill: var(--accent-ink); font-weight: 800; font-size: 13px; }
 .map .pl.sel circle { stroke: var(--ink); stroke-width: 2; }
+.map .pl.region.hit text { fill: var(--accent-ink); opacity: 1; }
+.map .pl.region.sel text { text-decoration: underline; }
 .map-named { font-family: var(--font-ui); font-size: .9rem; color: var(--ink-2); margin: -.6em 0 1em; }
 .map-named b { color: var(--ink); }
 .map-figure.has-map-card { position: relative; }

@@ -118,7 +118,6 @@ function where(place) {
   return best.lonlat.split(',').map(Number);
 }
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
-const keyOf = (p) => p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 const placeMarks = (spec.places ?? []).map((p) => {
   const [x, y] = px(where(p));
   const lx = x + (p.dx ?? 7), ly = y + (p.dy ?? 4);
@@ -128,7 +127,16 @@ const placeMarks = (spec.places ?? []).map((p) => {
     : `<circle cx="${r1(x)}" cy="${r1(y)}" r="3"/><text x="${r1(lx)}" y="${r1(ly)}"${p.small ? ' class="m-small"' : ''}${anchor}>${esc(p.label ?? p.name)}</text>`;
   return `<g class="pl" data-place="${keyOf(p)}">${mark}</g>`;
 }).join('\n    ');
-const labels = (spec.labels ?? []).map((l) => { const [x, y] = px(l.at); return `<text x="${r1(x)}" y="${r1(y)}" class="${l.class ?? 'm-region'}" text-anchor="middle">${esc(l.text)}</text>`; }).join('\n  ');
+const keyOf = (p) => p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+// A region's label (EGYPT, MOAB) takes part in a chapter's map, as a place does, when it names its OpenBible entry
+// (`ancient:`); its name is `name:`, or the label's text in title case.
+const regionName = (l) => l.name ?? l.text.toLowerCase().replace(/(^|[\s-])\S/g, (c) => c.toUpperCase());
+const isRegion = (l) => l.ancient !== undefined;
+const labels = (spec.labels ?? []).map((l) => {
+  const [x, y] = px(l.at);
+  const text = `<text x="${r1(x)}" y="${r1(y)}" class="${l.class ?? 'm-region'}" text-anchor="middle">${esc(l.text)}</text>`;
+  return isRegion(l) ? `<g class="pl region" data-place="${keyOf({ name: regionName(l) })}">${text}</g>` : text;
+}).join('\n  ');
 
 const svg = `<svg viewBox="0 0 ${width} ${height}" role="img" class="map">
   <title>${esc(spec.title)}</title>
@@ -173,7 +181,7 @@ function bdSentence(text) {
   return out.replace(/;$/, '.').replace(/^\(\d+\)\s*/, '').replace(/^([^.]{1,30}\.) \(\d+\)\s*/, '$1 ');
 }
 const placesData = {};
-for (const p of spec.places ?? []) {
+for (const p of [...(spec.places ?? []), ...(spec.labels ?? []).filter(isRegion).map((l) => ({ ...l, name: regionName(l) }))]) {
   // `ancient:` may list more than one entry where OpenBible splits one dot on the map (Beersheba 1 and 2).
   const ids = [p.ancient ?? p.find ?? p.name].flat();
   const verses = [];
