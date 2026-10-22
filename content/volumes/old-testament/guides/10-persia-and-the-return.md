@@ -1,7 +1,7 @@
 ---
 title: Persia and the Return
 blurb: "Judah under the Persian kings, from Cyrus's decree to Malachi: the return, the rebuilt temple and walls, and the books written in those years."
-icon: history
+icon: compass
 status: preview
 sources: [bd-alexander, bd-captivities, bd-chronicles, bd-cyrus, bd-darius, bd-dispersion, bd-edom, bd-esther-book, bd-ezra, bd-haggai, bd-malachi, bd-nehemiah, bd-persia, bd-samaritans, bd-shushan, bd-temple-of-zerubbabel, bd-zechariah, bd-zerubbabel, bible-chron-ot, gs-cyrus, lds-scriptures, matson-between-testaments, ot-manual-29, ot-manual-kings-j, ot-manual-kings-k, scripture-helps-esther, scripture-helps-ezra, scripture-helps-mal, tiemeyer-cyrus-cylinder]
 ---

@@ -1,7 +1,7 @@
 ---
 title: The Patriarchs
 blurb: "Abraham, Isaac, Jacob and Joseph, from Ur and Haran through Canaan to Egypt, and the books that tell their story."
-icon: history
+icon: compass
 status: preview
 sources: [bd-abraham, bd-abraham-covenant, bd-aram, bd-amorites, bd-canaan, bd-chaldea, bd-edom, bd-egypt, bd-gerar, bd-genesis, bd-goshen, bd-ishmael, bd-laban, bd-lot, bd-melchizedek, bd-midianites, bd-moriah, bd-pharaoh, bd-philistines, bd-ur, bible-chron-intro, bible-chron-ot, gee-wanderings, hoskisson-ur, muhlestein-israel-egypt, ot-manual-gen-24-36, sc-knowhy-844, scripture-helps-gen-12-17, lds-scriptures]
 ---

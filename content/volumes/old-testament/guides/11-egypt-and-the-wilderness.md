@@ -1,7 +1,7 @@
 ---
 title: Egypt and the Wilderness
 blurb: "Israel in Egypt, the Exodus, Sinai and forty years in the wilderness, to the plains of Moab, and the four books that tell it."
-icon: history
+icon: compass
 status: preview
 sources: [bd-ammon, bd-amalek, bd-balaam, bd-canaan, bd-edom, bd-egypt, bd-moab, bd-midianites, bd-og, bd-pharaoh, bd-sihon, bd-sinai, bd-deuteronomy, bd-leviticus, bd-numbers, gs-exodus, bible-maps-2, muhlestein-egypt-bible, muhlestein-israel-egypt, ot-manual-ex-11-19, ot-manual-numbers-13-36, sc-knowhy-847, scripture-helps-deut, scripture-helps-ex-1, scripture-helps-ex-7, scripture-helps-ex-14, scripture-helps-ex-19, scripture-helps-ex-35, scripture-helps-num]
 ---
