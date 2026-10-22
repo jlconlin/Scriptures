@@ -130,6 +130,8 @@ Samuel, born in answer to Hannah's prayers, became “the great prophet and judg
 
 By the text's reckoning each king reigned forty years: Saul ([[Acts 13:21]]), David ([[2 Sam. 5:4]]) and Solomon ([[1 Kgs. 11:42]]).[@lds-scriptures] 1 Kings begins with David's death “around 968 BC”; the Church's table prints Saul 1095, David 1055 at Hebron and 1047 at Jerusalem, and Solomon 1015.[@scripture-helps-1-kings-24][@bible-chron-ot] Seventy-three psalms are ascribed to David.[@bd-psalms] Proverbs 25–29 are Solomon's proverbs that “the men of Hezekiah … copied out.”[@bd-proverbs] The author of Ecclesiastes describes himself as “son of David, king in Jerusalem.”[@bd-ecclesiastes] Whether Solomon wrote the Song of Solomon “is doubtful.”[@bd-song-of-solomon] Read the [Psalms](/psalms/).
 
+For Joshua, the judges, and the kingdom of Saul, David and Solomon, see [The Conquest, the Judges, and One Kingdom](/old-testament/guides/the-conquest-judges-and-kingdom/).
+
 <h2 id="two-kingdoms">Two kingdoms: Israel and Judah</h2>
 
 Under Rehoboam the division came, “mainly the result of an old” rivalry between Ephraim and Judah.[@bd-rehoboam][@gs-judah] The people answered, “What portion have we in David? … to your tents, O Israel” ([[1 Kgs. 12:16]]).[@lds-scriptures] Ahijah had prophesied the division; the immediate cause was revolt against the taxes of Solomon and Rehoboam, “at approximately 925 B.C.”[@bd-israel-kingdom] It is also dated 931 (Jeroboam I 931–909; Rehoboam 931–913); the table prints 975.[@ot-manual-kings-a][@bible-chron-ot]
