@@ -117,6 +117,8 @@ function where(place) {
   if (!best) throw new Error(`${name}.yaml: OpenBible has no place named “${want}” (give \`find:\` or \`at:\`)`);
   return best.lonlat.split(',').map(Number);
 }
+// A place's key in the SVG (data-place) and in <name>.places.json.
+const keyOf = (p) => p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;');
 const placeMarks = (spec.places ?? []).map((p) => {
   const [x, y] = px(where(p));
@@ -127,7 +129,6 @@ const placeMarks = (spec.places ?? []).map((p) => {
     : `<circle cx="${r1(x)}" cy="${r1(y)}" r="3"/><text x="${r1(lx)}" y="${r1(ly)}"${p.small ? ' class="m-small"' : ''}${anchor}>${esc(p.label ?? p.name)}</text>`;
   return `<g class="pl" data-place="${keyOf(p)}">${mark}</g>`;
 }).join('\n    ');
-const keyOf = (p) => p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-');
 // A region's label (EGYPT, MOAB) takes part in a chapter's map, as a place does, when it names its OpenBible entry
 // (`ancient:`); its name is `name:`, or the label's text in title case.
 const regionName = (l) => l.name ?? l.text.toLowerCase().replace(/(^|[\s-])\S/g, (c) => c.toUpperCase());
