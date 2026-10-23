@@ -7,7 +7,7 @@
 // a chapter whose checks fail.
 // Usage: node scripts/batch-finish.mjs <book> <the run's journal.jsonl> <question prefix, e.g. Ps>
 import { execFileSync } from 'node:child_process';
-import { readFileSync, writeFileSync, readdirSync } from 'node:fs';
+import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
 import path from 'node:path';
 import { findBook } from '../src/lib/books.mjs';
 // The commit's attribution line: the model that ran the batch, from CLAUDE_MODEL_NAME (set by the coordinator), else a generic one.
@@ -44,8 +44,9 @@ const asked = reviews.flatMap((r) => (r.authorQuestions ?? []).map((q) => `  ${b
 console.log(`${asked.length} question(s) the reviewers raised, for the coordinator to settle or pass on (${prefix}…):`);
 for (const q of asked) console.log(q.slice(0, 420));
 
-git('add', 'content/sources.yaml', 'OPEN-QUESTIONS.md', `content/${slug}/BRIEF.md`, `content/${slug}/THEME-CANDIDATES.md`);
-try { git('add', `content/${slug}/UNANSWERED.md`); } catch { /* none written yet */ }
+git('add', 'content/sources.yaml', 'OPEN-QUESTIONS.md', `content/${slug}/BRIEF.md`);
+// A new book has neither file until its first batch (THEME-CANDIDATES.md waits for the author's choice).
+for (const f of ['THEME-CANDIDATES.md', 'UNANSWERED.md']) if (existsSync(path.join(ROOT, `content/${slug}/${f}`))) git('add', `content/${slug}/${f}`);
 if (git('diff', '--cached', '--name-only').trim()) git('commit', '-q', '-m', `${book.name} ${chapters[0]}–${chapters.at(-1)}: sources, the reviewers' decisions, questions and theme candidates\n\n${coauthor()}`);
 console.log(run('batch-commit.mjs', slug, 'written', ...chapters).trim());
 // The last batch of a book: Codex reviews the theme candidates and proposes its own, while the author looks at the
