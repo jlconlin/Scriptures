@@ -44,8 +44,8 @@ For the land's regions, see [The Land](/old-testament/guides/the-land/).
 | 975, 931[@bible-chron-ot][@ot-manual-kings-a] | Solomon's end | “king Solomon loved many strange women” ([[1 Kgs. 11:1]]); “I will rend it out of the hand of thy son” ([[1 Kgs. 11:12]]). His building and forced labor bred resentment, especially in the north[@ot-manual-kings-1] | [[1 Kgs. 11]] |
 
 <figure class="photo-figure">
-<img src="/assets/figures/merneptah-israel.webp" width="938" height="704" loading="lazy" alt="Carved hieroglyphs on dark stone, with one group of signs traced in red.">
-<figcaption>The stele of the Pharaoh Merneptah, dated 1207 BC, has the first mention of Israel in ancient archaeology.[@bailey-science-religion] It mentions battle with Israelites in Canaan,[@muhlestein-israel-egypt] naming Israel with the sign for a group of people, not a place.[@muhlestein-israel-egypt] The signs for “Israel” are marked in red by the photographer. Photograph: Darer101, <a href="https://commons.wikimedia.org/wiki/File:Closeup_of_Merneptah_Stele,_with_%22ysrir%22_reference_in_red.png">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>.</figcaption>
+<img src="/assets/figures/merneptah-stele.webp" width="1200" height="899" loading="lazy" alt="The rounded top of a dark granite stele: carved figures of Pharaoh and Egyptian gods above rows of hieroglyphs.">
+<figcaption>The stele of the Pharaoh Merneptah, dated 1207 BC, has the first mention of Israel in ancient archaeology.[@bailey-science-religion] It mentions battle with Israelites in Canaan,[@muhlestein-israel-egypt] naming Israel with the sign for a group of people, not a place.[@muhlestein-israel-egypt] The carving at its top shows Pharaoh with the gods; the name is in the inscription below. Photograph: Onceinawhile, <a href="https://commons.wikimedia.org/wiki/File:Merneptah_Stele_2022_09_(crop2).jpg">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>; resized.</figcaption>
 </figure>
 
 <h2 id="nations">The nations</h2>
