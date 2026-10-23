@@ -575,7 +575,7 @@
   });
 
   // ---------- collapsible chapter introduction ----------
-  // A reader who collapses “Where we are” or “The thread” keeps it collapsed on every chapter.
+  // Remember each chapter introduction's open or closed state on this device.
   // “What's in this picture” (book page): the button sits in the image's lower right corner. Its list opens below
   // the image, so while it is open the button is raised by the list's height to stay on the image.
   document.querySelectorAll('.art-key').forEach((d) => {
@@ -584,15 +584,17 @@
     d.addEventListener('toggle', place);
     addEventListener('resize', place);
   });
-  const storedCollapsedIntro = store.get('collapsedIntro');
-  const collapsedIntro = new Set(JSON.parse(storedCollapsedIntro || '[]'));
   const intros = $$('details.intro');
+  const introStateKey = 'introState';
+  const savedIntroState = store.get(introStateKey);
+  const introState = savedIntroState ? JSON.parse(savedIntroState) : {};
   let printing = false;
-  const applyIntro = () => intros.forEach((d) => { d.open = printing || !collapsedIntro.has(d.dataset.intro); });
+  const applyIntro = () => intros.forEach((d) => { d.open = printing || introState[d.dataset.intro] === true; });
+  intros.forEach((d) => { d.open = introState[d.dataset.intro] === true; });
   intros.forEach((d) => d.addEventListener('toggle', () => {
     if (printing) return; // printing opens everything without changing the reader's preference
-    d.open ? collapsedIntro.delete(d.dataset.intro) : collapsedIntro.add(d.dataset.intro);
-    store.set('collapsedIntro', JSON.stringify([...collapsedIntro]));
+    introState[d.dataset.intro] = d.open;
+    store.set(introStateKey, JSON.stringify(introState));
   }));
   applyIntro();
   $$('[data-expand-intro]').forEach((button) => button.addEventListener('click', () => {

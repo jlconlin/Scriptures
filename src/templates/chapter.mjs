@@ -59,11 +59,11 @@ function teaser(md) {
   return x;
 }
 
-/** A collapsible introductory section. Open by default; collapsed, it shows its heading and first sentence.
- *  site.js remembers which sections a reader has collapsed. With `preview`, only the first paragraph shows until
+/** A collapsible introductory section. Closed by default; it shows its heading and first sentence.
+ *  site.js remembers each section's open or closed state. With `preview`, only the first paragraph shows until
  *  “Continue reading” is pressed: Background from the start, and the thread too (author, 2026-10-13). */
 function introSection({ key, cls, body, prose, preview = false }) {
-  return `<details class="${cls} intro" data-intro="${key}"${preview ? ' data-preview="true"' : ''} open>
+  return `<details class="${cls} intro" data-intro="${key}"${preview ? ' data-preview="true"' : ''}>
   <summary><h2 class="card-title" id="${key}-h">${icon(SECTIONS[key].icon)} ${esc(sectionTitle(key))}${icon('chevron', 'intro-chevron')}</h2><span class="intro-teaser">${esc(teaser(body))}</span></summary>
   <div class="${prose}">${md(body)}</div>
   ${preview ? `<button type="button" class="intro-more" data-expand-intro="${key}">Continue reading ${key === 'thread' ? 'the thread' : 'background'}</button>` : ''}
