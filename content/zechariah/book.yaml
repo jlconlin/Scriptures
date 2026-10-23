@@ -1,0 +1,102 @@
+name: Zechariah
+slug: zechariah
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 3.7               # after Haggai (3.6), before Malachi (4)
+abbr: zech               # [[Zech. 9:9]] links here
+gospelLibrary: ot/zech
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml).
+# All fourteen are Persian: the Bible Dictionary dates the prophet 520–518 B.C., and chapters 9–14 are read with him (BRIEF.md, “Contested”).
+periods:
+  - { chapters: 1-14, period: persia }
+eyebrow: The Old Testament
+heroQuote:
+  text: '“Not by might, nor by power, but by my spirit, saith the LORD of hosts.”'
+  cite: 'The Lord to Zerubbabel, [[Zech. 4:6]]'
+description: A phrase-by-phrase companion to the book of Zechariah, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Fourteen chapters in four parts. Eight visions in one night, while the temple is being rebuilt; the Lord's answer to a question about fasting; and two burdens, the first about a king and a rejected shepherd, the second about the day the Lord stands on the Mount of Olives.
+home:
+  blurb: A priest and prophet of the return, who urged the rebuilding of the temple, saw eight visions in one night, and foretold the King riding upon an ass, the thirty pieces of silver, and the Lord's feet upon the Mount of Olives.
+
+intro: |
+  Zechariah, “the son of Berechiah, the son of Iddo the prophet” ([[Zech. 1:1]]), was of a priestly family that came back from Babylon with Zerubbabel ([[Neh. 12:4]]; [[Neh. 12:16]]). He began to prophesy in “the eighth month, in the second year of Darius” ([[Zech. 1:1]]), two months after Haggai, and with Haggai he urged the returned exiles to finish the house of the Lord ([[Ezra 5:1–2]]; [[Ezra 6:14]]). His dated prophecies run from 520 to 518 B.C.
+
+  The first half of the book is a night of visions: horsemen among the myrtle trees, four horns and four carpenters, a man with a measuring line, Joshua the high priest in filthy garments with Satan at his right hand, a candlestick between two olive trees, a flying roll, a woman in an ephah, and four chariots. An angel explains each one, and they end with crowns set on Joshua's head and the promise of “the man whose name is The BRANCH” ([[Zech. 6:12]]). Then the Lord answers a question about fasting: “Execute true judgment, and shew mercy and compassions every man to his brother” ([[Zech. 7:9]]).
+
+  The second half looks further ahead. The Gospels found Jesus in it: the King “lowly, and riding upon an ass” ([[Zech. 9:9]]; [[Matt. 21:4–5]]), the “thirty pieces of silver” ([[Zech. 11:12]]; [[Matt. 27:9]]), the one “whom they have pierced” ([[Zech. 12:10]]; [[John 19:37]]), and the smitten shepherd ([[Zech. 13:7]]; [[Matt. 26:31]]). In the Doctrine and Covenants the Lord takes up its last chapters to describe His coming, when He sets His foot on the Mount of Olives and the Jews ask, “What are these wounds in thine hands and in thy feet?” ([[D&C 45:48–53]]). This companion goes through all fourteen chapters and tries to anticipate the questions a careful reader would ask.
+
+  For the return from exile and the rebuilding of the temple, see [A Timeline of the Old Testament](/old-testament/guides/israels-story/#return) and [Persia and the Return](/old-testament/guides/persia-and-the-return/#rulers).
+
+# Proposed (BRIEF.md, “Divisions”): the Bible Dictionary's two halves (1–8, 9–14), each split where the book itself turns:
+# the date at 7:1, and the second “burden of the word of the LORD” at 12:1.
+# Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: zechvisions
+    range: [1, 6]
+    name: Eight Visions in the Night
+    blurb: The Lord calls His people to turn to Him. In one night Zechariah sees horsemen, horns and carpenters, a measuring line, Joshua the high priest made clean, a golden candlestick between two olive trees, a flying roll, a woman in an ephah and four chariots. The night ends with crowns for Joshua and the promise of the BRANCH, who shall build the temple of the Lord.
+    color: '#3f6f8f'
+    darkColor: '#9cc6e3'
+  - key: zechfasts
+    range: [7, 8]
+    name: Fasts Turned to Feasts
+    blurb: Men come to ask whether they should still weep and fast for the burned temple. The Lord asks whether they fasted to Him at all, calls for true judgment and mercy, and promises a Jerusalem full of old men and children playing, where the fasts become cheerful feasts and the nations come to seek the Lord.
+    color: '#a0612a'
+    darkColor: '#e8b183'
+  - key: zechshepherd
+    range: [9, 11]
+    name: The King and the Shepherd
+    blurb: The first burden. The Lord defends His house, and Zion's King comes to her lowly, riding upon an ass. He gathers Judah and Joseph, and sets the prisoners free. Then the prophet shepherds a flock doomed to slaughter, breaks his two staves, and is weighed his wages, thirty pieces of silver, cast to the potter in the house of the Lord.
+    color: '#6a4c8c'
+    darkColor: '#c3a8e6'
+  - key: zechthatday
+    range: [12, 14]
+    name: In That Day
+    blurb: The second burden. The nations gather against Jerusalem; the Lord pours out a spirit of grace, and they look on Him whom they pierced and mourn. A fountain is opened for sin, the shepherd is smitten, and a third part is refined as silver. The Lord's feet stand on the Mount of Olives, He is king over all the earth, and even the bells of the horses read Holiness unto the Lord.
+    color: '#8c3a46'
+    darkColor: '#e69aa5'
+
+# Further reading attached automatically to chapters in these ranges (Scripture Helps covers 1–4 and 7–14, not 5–6).
+rangeSources:
+  - { range: [1, 4], sources: [scripture-helps-hag-1-2] }
+  - { range: [7, 14], sources: [scripture-helps-hag-1-2] }
+
+beloved:
+  - { chapter: 1, verse: 3, text: 'Turn ye unto me, saith the LORD of hosts, and I will turn unto you' }
+  - { chapter: 2, verse: 5, text: 'I, saith the LORD, will be unto her a wall of fire round about' }
+  - { chapter: 2, verse: 8, text: 'he that toucheth you toucheth the apple of his eye' }
+  - { chapter: 3, verse: 2, text: 'is not this a brand plucked out of the fire?' }
+  - { chapter: 4, verse: 6, text: 'Not by might, nor by power, but by my spirit, saith the LORD of hosts' }
+  - { chapter: 4, verse: 10, text: 'who hath despised the day of small things?' }
+  - { chapter: 8, verse: 5, text: 'the streets of the city shall be full of boys and girls playing in the streets thereof' }
+  - { chapter: 9, verse: 9, text: 'behold, thy King cometh unto thee: he is just, and having salvation; lowly, and riding upon an ass' }
+  - { chapter: 9, verse: 12, text: 'Turn you to the strong hold, ye prisoners of hope' }
+  - { chapter: 12, verse: 10, text: 'they shall look upon me whom they have pierced' }
+  - { chapter: 13, verse: 6, text: 'What are these wounds in thine hands?' }
+  - { chapter: 14, verse: 9, text: 'And the LORD shall be king over all the earth' }
+  - { chapter: 14, verse: 20, text: 'HOLINESS UNTO THE LORD' }
+
+coreSources:
+  - bd-zechariah
+  - scripture-helps-hag-1-2
+  - vandyke-ogden-twelve
+  - frederick-old-wine
+  - sc-knowhy-790
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'Turn unto Me, and I Will Turn unto You'
+  2: 'A Wall of Fire Round About'
+  3: 'A Brand Plucked out of the Fire'
+  4: 'Not by Might, nor by Power, but by My Spirit'
+  5: 'The Flying Roll and the Ephah'
+  6: 'The Man Whose Name Is The BRANCH'
+  7: 'Did Ye at All Fast unto Me?'
+  8: 'Jerusalem, a City of Truth'
+  9: 'Behold, Thy King Cometh unto Thee'
+  10: 'I Will Strengthen the House of Judah'
+  11: 'Thirty Pieces of Silver'
+  12: 'They Shall Look upon Me Whom They Have Pierced'
+  13: 'A Fountain Opened; the Shepherd Smitten'
+  14: 'His Feet Shall Stand upon the Mount of Olives'

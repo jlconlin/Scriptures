@@ -278,6 +278,14 @@ const LDS_SPELLINGS = [
   [/at the noonday, and Ekron/g, 'at the noon day, and Ekron'], // Zeph. 2:4 (after the general rule above)
   // Nahum
   [/spoileth, and fleeth away/g, 'spoileth, and flieth away'], // Nahum 3:16
+  // Haggai
+  [/for much, and lo, it came to little/g, 'for much, and, lo, it came to little'], // Hag. 1:9
+  // Zechariah: “Lord” (adonai) where the source has LORD, and a hyphen in a name
+  [/stand by the LORD of the whole earth/g, 'stand by the Lord of the whole earth'], // Zech. 4:14
+  [/standing before the LORD of all the earth/g, 'standing before the Lord of all the earth'], // Zech. 6:5
+  [/\bRegemmelech\b/g, 'Regem-melech'], // Zech. 7:2
+  [/Behold, the LORD will cast her out/g, 'Behold, the Lord will cast her out'], // Zech. 9:4
+  [/lightning: and the LORD God shall blow/g, 'lightning: and the Lord GOD shall blow'], // Zech. 9:14
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 
