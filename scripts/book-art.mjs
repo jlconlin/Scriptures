@@ -8,6 +8,10 @@
 //                                                in), saved as .cache/book-art/<book>/candidate-N.png;
 //                                                --model picks the Codex model that calls the image tool,
 //                                                for when the configured one is at capacity
+//   node scripts/book-art.mjs edit <book> --from <candidate.png> --change "<the one change>"
+//                                                a new candidate made from an existing one, with only that change
+//                                                (author, 2026-10-23: “Just shrinking the lamp and keeping everything
+//                                                else the same would have been perfect”); `generate` redraws everything
 //   node scripts/book-art.mjs approve <book> [--from <candidate.png>] [--force]
 //                                                after the author approves: copies the candidate (the
 //                                                newest one by default) to src/assets/<book>-book-art.jpg
@@ -38,9 +42,10 @@ const toJpeg = (src, dest) => {
 
 const argv = process.argv.slice(2);
 const opt = (name) => argv.includes(name) ? argv[argv.indexOf(name) + 1] : null;
-const from = opt('--from'), model = opt('--model');
-const [command, slug] = argv.filter((a) => !a.startsWith('--') && a !== from && a !== model);
-if (!['prompt', 'generate', 'approve'].includes(command) || !slug) fail('usage: node scripts/book-art.mjs prompt|generate|approve <book> [--model <codex model>] [--from <candidate.png>] [--force]');
+const from = opt('--from'), model = opt('--model'), change = opt('--change');
+const [command, slug] = argv.filter((a) => !a.startsWith('--') && a !== from && a !== model && a !== change);
+if (!['prompt', 'generate', 'edit', 'approve'].includes(command) || !slug) fail('usage: node scripts/book-art.mjs prompt|generate|edit|approve <book> [--model <codex model>] [--from <candidate.png>] [--change "<the one change>"] [--force]');
+if (command === 'edit' && !(from && change)) fail('edit needs --from <candidate.png> and --change "<the one change>"');
 
 const book = await findBook(ROOT, slug).catch((e) => fail(e.message));
 const visualFile = path.join(book.dir, 'visual.yaml');
@@ -77,7 +82,7 @@ ${list(constraints)}`;
 
 if (command === 'prompt') {
   console.log(prompt);
-} else if (command === 'generate') {
+} else if (command === 'generate' || command === 'edit') {
   // Codex's built-in image tool saves under $CODEX_HOME/generated_images and takes no destination,
   // so the new file is found there by its time and copied; Codex itself writes nothing in the repository.
   const home = path.join(process.env.CODEX_HOME ?? path.join(os.homedir(), '.codex'), 'generated_images');
@@ -87,8 +92,10 @@ if (command === 'prompt') {
   }))).flat();
   const before = new Set((await pngs(home)).map((x) => x.f));
   await mkdir(outDir, { recursive: true });
-  const ask = `Generate exactly one image with your built-in image generation tool, from the brief below, used as it stands. Do not read or change any file, do not run commands, and do not use the image CLI or an API key. It is a candidate for the author's review. When the image exists, reply with one line saying so.\n\n${prompt}`;
-  const run = spawnSync('codex', ['exec', ...(model ? ['-m', model] : []), '--skip-git-repo-check', '--sandbox', 'read-only', '--ephemeral', '-C', outDir, '-'], { input: ask, stdio: ['pipe', 'inherit', 'inherit'], timeout: 15 * 60 * 1000 });
+  const ask = command === 'edit'
+    ? `Edit the attached image with your built-in image generation tool, making exactly one change: ${change} Keep everything else exactly as it is: the composition, every object and its position, the light, the colours, the sky, the brushwork and the framing. Do not read or change any file, do not run commands, and do not use the image CLI or an API key. It is a candidate for the author's review. When the image exists, reply with one line saying so.`
+    : `Generate exactly one image with your built-in image generation tool, from the brief below, used as it stands. Do not read or change any file, do not run commands, and do not use the image CLI or an API key. It is a candidate for the author's review. When the image exists, reply with one line saying so.\n\n${prompt}`;
+  const run = spawnSync('codex', ['exec', ...(model ? ['-m', model] : []), '--skip-git-repo-check', '--sandbox', 'read-only', '--ephemeral', '-C', outDir, ...(command === 'edit' ? ['-i', path.resolve(from)] : []), '-'], { input: ask, stdio: ['pipe', 'inherit', 'inherit'], timeout: 15 * 60 * 1000 });
   if (run.error) fail(run.error.code === 'ENOENT' ? 'the codex CLI is not installed or not on PATH' : run.error.message);
   if (run.status !== 0) fail(`codex exec ended with status ${run.status}; if its model is at capacity, wait and run again, or pass --model <another>`);
   const made = (await pngs(home)).filter((x) => !before.has(x.f)).sort((a, b) => b.t - a.t);
