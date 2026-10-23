@@ -11,7 +11,10 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository (what waits for 
 `node scripts/status.mjs obadiah` prints what the repository shows; the history is `git log -- content/obadiah`. What a script can't see:
 
 - **The book is in preview.** It goes live at the author's word.
-- **One chapter of 21 verses: the first one-chapter book on the site.** The preview build of 2026-10-22 makes the book page and its one-bar division map without error; the chapter page is read from the template until the chapter exists. What reads oddly is under “Checks while the book is in preview.”
+- **The chapter is written, reviewed, and read by Codex** (2026-10-22), and the author has not read it: 15 notes, 89 ledger rows. Verse 21 follows wording B of OB1 (`OPEN-QUESTIONS.md`).
+- **The book page was read by Codex** and two of its six findings applied; the description and the closing sentence of the intro keep the wording every book page shares.
+- **The illustration is proposed, not approved** (`visual.yaml`; `.cache/book-art/obadiah/candidate-1.png`): Edom's crag with its empty nest under the stars, facing Mount Zion in dawn light with a path climbing to its summit (1:3–4, 17, 21).
+- **One chapter of 21 verses: the first one-chapter book on the site.** The book page, its one-bar division map and the chapter page build without error; the volume page now says “1 chapter.” What still reads oddly is under “Checks while the book is in preview."
 - **This brief's research began with the Religious Studies Center, BYU Studies, Scripture Central and the Interpreter Foundation** (`AUTHORING.md`, “A book's first research”); the Student Manual and Keil were opened last. What was searched and read is under “Sources for Obadiah.” Latter-day Saint writing on Obadiah is mostly about its last verse. One study is the frame for the whole chapter: Dana M. Pike's “Obadiah 1:21: Context, Text, Interpretation, and Application” (RSC, 2017), which *Scripture Helps* itself cites three times.
 
 ## What the author has decided
@@ -116,7 +119,7 @@ node scripts/check-chapter.mjs obadiah 1
 
 It runs `fix-yaml`, the preview build into `.cache/batch/obadiah/dist-01`, `check-quotes`, `check-content` (with the proposed entries), and `check-ledger`. The working folder is `.cache/batch/obadiah/` (not committed): `proposed/01.yaml`, `reports/01-writer.md`, `reports/01-check.md`.
 
-How the site shows a one-chapter book (2026-10-22, nothing changed; the chapter page from `src/templates/chapter.mjs`, the rest from the build): the chapter page will say “Chapter 1 of 1” over a dial of one tick, and its pager and the steps beside the dial are empty on both sides; the eyebrow reads “Obadiah 1”; the book page heads its list “The chapters” over one card, and the division map is one bar labelled “1”; the Old Testament volume page says “0 of 1 chapters” now and will say “1 chapters” once the chapter is written (`renderVolume` in `src/templates/pages.mjs` doesn't make the unit singular). These are the coordinator's to raise with the author; no chapter works around them.
+How the site shows a one-chapter book (2026-10-22; the chapter page from `src/templates/chapter.mjs`, the rest from the build): the chapter page will say “Chapter 1 of 1” over a dial of one tick, and its pager and the steps beside the dial are empty on both sides; the eyebrow reads “Obadiah 1”; the book page heads its list “The chapters” over one card, and the division map is one bar labelled “1”; the Old Testament volume page said “1 chapters” until `renderVolume` in `src/templates/pages.mjs` was taught the singular (2026-10-22). The rest is a design question for the author, shown with a mockup if it is raised; no chapter works around it.
 
 ## Reader questions no source answered
 
