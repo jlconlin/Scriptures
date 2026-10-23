@@ -10,6 +10,14 @@ Everything that waits for the author, for every book and for the site, in this o
 
 Every theme page written from 2026-10-08 to 10-10 (Genesis, Moses, Abraham, Lamentations, Malachi, Ezekiel, Daniel, Hosea, Joel) passed its review and is unread by the author, as are Jeremiah's five and all of Joel and Psalms; `node scripts/status.mjs` shows what is unread. Treat every page as open to the author's correction.
 
+## Obadiah
+
+- **OB1. How the note on verse 21 joins Obadiah's meaning to the Restoration's.** The note gives what “saviours shall come up on mount Zion” meant (deliverers, like the judges), then the Bible Dictionary (“refers to the doctrine of salvation for the dead”) and Joseph Smith's words that the Saints are “fulfilling the words of Obadiah.” Either (A) it stops there, or (B) it adds one sentence that one Latter-day Saint scholar (Dana Pike) compares this to Peter's use of Joel at Pentecost: an ancient prophecy applied to the work of a later day, its fullest fulfillment still ahead. B answers the reader's question “did Obadiah know of temple work?”, but it could read as “only an application” beside the Bible Dictionary's “refers to.” Recommend B, as Pike's reading placed after the Church's; the chapter is written that way (`content/obadiah/BRIEF.md`).
+
+## Jonah
+
+- **JN1. Whether chapter 1's setting says the story happened.** Either (a) “The book tells these events as having happened to the prophet of 2 Kings 14:25, and the Saviour made them a sign of His own death and Resurrection; the book does not name its author, and some scholars read it as a parable,” or (b) “The book is history, as the Saviour's use of it shows,” leaving the parable reading out. (a) says what the sources establish and keeps the Bible Dictionary's later writer; (b) follows Elder Joseph Fielding Smith and the 1982 Student Manual and claims more than *Scripture Helps* (2025) does. Recommend (a); the chapter is written that way (`content/jonah/BRIEF.md`, “History or parable”).
+
 ## The site
 
 Nothing.

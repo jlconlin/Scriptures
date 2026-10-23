@@ -1,0 +1,70 @@
+name: Jonah
+slug: jonah
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 15
+abbr: jonah              # [[Jonah 1:17]] links here
+gospelLibrary: ot/jonah
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-4, period: assyria }
+eyebrow: The Old Testament
+heroQuote:
+  text: '“I knew that thou art a gracious God, and merciful, slow to anger, and of great kindness.”'
+  cite: 'Jonah to the Lord, [[Jonah 4:2]]'
+description: A phrase-by-phrase companion to the book of Jonah, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Four chapters, told as two calls. In the first, Jonah runs from the Lord, is thrown into the sea and prays from the belly of a great fish. In the second, he preaches in Nineveh, the city repents and is spared, and the Lord teaches His angry prophet with a gourd.
+home:
+  blurb: A prophet of Israel sent to preach to Nineveh, the city of Israel’s enemies. He ran, was swallowed by a great fish, and was angry when the city repented, and the Lord asked him why He should not spare it.
+
+intro: |
+  Jonah the son of Amittai was a prophet of the northern kingdom of Israel, from Gath-hepher in Galilee, who foretold that Jeroboam II would restore Israel’s borders ([[2 Kgs. 14:25]]). The book that bears his name is not a collection of his prophecies but a story about him. The Lord told him to “go to Nineveh, that great city, and cry against it” ([[Jonah 1:2]]), a great city of Assyria, the empire that would end the kingdom of Israel. Jonah “rose up to flee unto Tarshish from the presence of the LORD” ([[Jonah 1:3]]), and the book follows him through a storm at sea, three days and three nights in the belly of a great fish, and a second call to Nineveh.
+
+  The pagan sailors and the people of Nineveh turn to the Lord more readily than His prophet does. When Nineveh repents and is spared, Jonah finally says why he fled: “I knew that thou art a gracious God, and merciful” ([[Jonah 4:2]]). The Saviour made Jonah’s three days a sign of His own death and Resurrection ([[Matt. 12:39–41]]), and the book ends with a question the Lord asks His prophet, which the prophet does not answer: “should not I spare Nineveh, that great city?” ([[Jonah 4:11]]). This companion goes through all four chapters and tries to anticipate the questions a careful reader would ask.
+
+  For the wider setting of the northern kingdom under Jeroboam II and of Assyria, see [A Timeline of the Old Testament](/old-testament/guides/israels-story/#two-kingdoms) and [Two Kingdoms and Assyria](/old-testament/guides/two-kingdoms-and-assyria/#nations).
+
+# Proposed (BRIEF.md, “Divisions”): two divisions, one for each call (1:1; 3:1).
+# Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: jonahflight
+    range: [1, 2]
+    name: Jonah Rose Up to Flee
+    blurb: The Lord sends Jonah to Nineveh, and he takes ship for Tarshish instead. A storm, the sailors’ prayers and the casting of lots bring him overboard, where a great fish swallows him. From its belly he gives thanks that salvation is of the Lord.
+    color: '#2f6a73'
+    darkColor: '#8ccbd3'
+  - key: jonahnineveh
+    range: [3, 4]
+    name: The Second Time
+    blurb: The word of the Lord comes to Jonah a second time. He warns Nineveh that it will be overthrown in forty days, and the city fasts and turns from its violence. The Lord spares it, and Jonah is angry. A gourd that grows and withers in a night becomes the Lord’s lesson about His mercy.
+    color: '#9a6a1e'
+    darkColor: '#e3b66a'
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [1, 4], sources: [scripture-helps-amos] }
+
+beloved:
+  - { chapter: 1, verse: 3, text: 'Jonah rose up to flee unto Tarshish from the presence of the LORD' }
+  - { chapter: 1, verse: 17, text: 'the LORD had prepared a great fish to swallow up Jonah' }
+  - { chapter: 2, verse: 2, text: 'out of the belly of hell cried I, and thou heardest my voice' }
+  - { chapter: 2, verse: 8, text: 'They that observe lying vanities forsake their own mercy' }
+  - { chapter: 2, verse: 9, text: 'Salvation is of the LORD' }
+  - { chapter: 3, verse: 5, text: 'the people of Nineveh believed God' }
+  - { chapter: 4, verse: 2, text: 'thou art a gracious God, and merciful, slow to anger, and of great kindness' }
+  - { chapter: 4, verse: 11, text: 'should not I spare Nineveh, that great city' }
+
+coreSources:
+  - bd-jonah
+  - scripture-helps-amos
+  - holland-forsake-mercy
+  - davies-jonah
+  - scott-jonah
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'Jonah Rose Up to Flee unto Tarshish'
+  2: 'Salvation Is of the Lord'
+  3: 'The People of Nineveh Believed God'
+  4: 'Should Not I Spare Nineveh?'
