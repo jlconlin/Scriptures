@@ -10,7 +10,7 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository (what waits for 
 
 `node scripts/status.mjs obadiah` prints what the repository shows; the history is `git log -- content/obadiah`. What a script can't see:
 
-- **The book is in preview.** It goes live at the author's word.
+- **The book is live** (2026-10-23; author: “Yes push and go live”).
 - **The chapter is written, reviewed, and read by Codex** (2026-10-22), and the author has not read it: 15 notes, 89 ledger rows. Verse 21 follows wording B of OB1 (`OPEN-QUESTIONS.md`).
 - **The book page was read by Codex** and two of its six findings applied; the description and the closing sentence of the intro keep the wording every book page shares.
 - **The illustration is approved** (2026-10-23, the first candidate; author: “Obadiah is approved”): Edom's crag with its empty nest under the stars, facing Mount Zion in dawn light with a path climbing to its summit (1:3–4, 17, 21).

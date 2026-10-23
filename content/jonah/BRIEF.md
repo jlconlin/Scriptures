@@ -10,7 +10,7 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository (what waits for 
 
 `node scripts/status.mjs jonah` prints what the repository shows; the history is `git log -- content/jonah`. What a script can't see:
 
-- **The book is in preview.** It goes live at the author's word.
+- **The book is live** (2026-10-23; author: “Yes push and go live”).
 - **All four chapters are written, reviewed, and read by Codex** (2026-10-22), and the author has read none of them: 38 notes. Keil is in 12 and the Student Manual in 8, both under the one-third guide. Chapter 1's setting follows wording (a) of JN1 (`OPEN-QUESTIONS.md`), without the clause “some scholars read it as a parable,” since no source read makes that claim except to reject it.
 - **The book page was read by Codex** and one of its three findings applied (“gourd” keeps the scripture's word).
 - **The illustration is approved** (2026-10-23, the fifth candidate; author: “Approved”). The first, the booth and gourd alone, was set aside because it had no fish (author: “shouldn't we have something about a great fish?”). The approved image: Nineveh large in the light as a storm draws back from it (3:10), the path to its gate, the booth and gourd on the near hill (4:5–6), and the fish small and far out at sea, drawn as a whale (author: “The ‘fish’ can still be a whale”).
