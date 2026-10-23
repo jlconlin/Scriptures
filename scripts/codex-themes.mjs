@@ -32,7 +32,7 @@ const prompt = `You are helping choose theme pages for the book of ${book.name} 
 Read first:
 - STANDARDS.md section 8, "Guides and theme pages", especially "What earns a theme page" and "Where the meaning comes from". A theme page is an arc across several chapters that points to Jesus Christ; it is short (well under 1,000 words); a book gets a handful; a topic that lives in one chapter belongs in that chapter's notes; a theme page may make connections of its own, but they must rest on words a reader can check, and must add no doctrine.
 - ${dir}/THEME-CANDIDATES.md: the candidates proposed so far, and any the author has already chosen or written (don't propose those again).
-- The chapters themselves: ${dir}/chapters/*.yaml (the text is in data/kjv/${book.slug}.json). Read them, so your judgment rests on what the book and the site's notes actually say. Pages already written are in ${dir}/themes/.
+- The chapters themselves: ${dir}/chapters/*.yaml (the text is in data/kjv/${book.slug}.json). Read them, so your judgment rests on what the book and the site's notes actually say. List the folder: the chapters are there even if the brief's “State of the book” says none is written (it may not yet have been updated; Zechariah's first review, 2026-10-23, believed it and judged without the chapters). Pages already written are in ${dir}/themes/.
 - Skim ${dir}/BRIEF.md for the book's approach.
 
 Here are further leads the chapter reviewers reported (unsorted, many overlap):
