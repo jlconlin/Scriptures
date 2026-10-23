@@ -2,7 +2,6 @@
 title: Babylon and the Exile
 blurb: Judah from Manasseh to its fall to Babylon, the exile, and the books written in those years.
 icon: compass
-status: preview
 sources: [bd-ammon, bd-assyria, bd-babylon, bd-chaldea, bd-cyrus, bd-edom, bd-ezekiel, bd-habakkuk, bd-jehoiachin, bd-jeremiah, bd-josiah, bd-lamentations, bd-media, bd-moab, bd-nahum, bd-nebuchadnezzar, bd-necho, bd-obadiah, bd-persia, bd-tyre, bd-zephaniah, bible-chron-ot, draper-exile, lds-scriptures, ot-manual-kings-a, ot-manual-kings-g, sc-knowhy-860, schade-kingdom-judah, scripture-helps-2-kings, scripture-helps-dan, scripture-helps-ezek, scripture-helps-ezra, scripture-helps-geography, tolley-imprisonment]
 ---
 

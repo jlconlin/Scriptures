@@ -2,7 +2,6 @@
 title: Two Kingdoms and Assyria
 blurb: The divided kingdoms of Israel and Judah from Rehoboam to Hezekiah, the Assyrian empire that ended the north, the nations around them, and the books written in those years.
 icon: compass
-status: preview
 sources: [pike-recovering-world-bible, bd-israel-kingdom, ot-manual-12, bd-judah-kingdom, scripture-helps-2-kings, bd-assyria, lds-scriptures, bd-hezekiah, bible-chron-ot, ot-manual-kings-a, bd-egypt, bd-rehoboam, bd-jeroboam, ot-manual-6, ot-manual-10, bd-jonah, ot-manual-f, bd-captivities, bd-damascus, gs-samaria, bd-sennacherib, bd-lachish, bd-merodach-baladan, gs-assyria, bd-ethiopia, bd-philistines, bd-moab, bd-edom, bd-tyre, bd-babylon, scripture-helps-1-kings, bd-isaiah]
 ---
 

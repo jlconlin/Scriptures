@@ -2,7 +2,6 @@
 title: The Conquest, the Judges, and One Kingdom
 blurb: Israel's settlement of the land under Joshua and the judges, the united kingdom of Saul, David and Solomon, the nations around them, and the books that tell it.
 icon: compass
-status: preview
 sources: [lds-scriptures, scripture-helps-1-kings-24, bible-chron-ot, ot-manual-judges-1-12, ot-manual-2-samuel-1, ot-manual-kings-a, scripture-helps-josh, cfm-ot-2026-21, sc-knowhy-852, bd-judges, cfm-ot-2026-22, scripture-helps-judges, bd-jephthah, bd-samson, scripture-helps-ruth-samuel, bd-eli, bd-samuel, scripture-helps-1-samuel-8, bd-saul, bd-jebus, seely-messiah, scripture-helps-1-samuel-17, cfm-ot-2026-25, ot-manual-kings-1, bailey-science-religion, muhlestein-israel-egypt, bd-amorites, chadwick-gath, bd-philistines, bd-moab, bd-ammon, bd-edom, bd-midianites, bd-amalek, bd-syria, bd-hiram, bd-egypt, bd-joshua-book, bd-ruth, bd-samuel-books, bd-chronicles, bd-psalms]
 ---
 
