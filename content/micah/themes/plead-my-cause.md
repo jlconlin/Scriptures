@@ -21,7 +21,7 @@ Micah opens with the Lord as “witness against you” ([[Micah 1:2]]), and chap
 
 <h2 id="witness">Witness against, and no answer</h2>
 
-“Hear” opens each of the book’s three blocks ([[Micah 1:2]]; [[Micah 3:1]]; [[Micah 6:1]]).[@correa-jonah] Legal words run through the book.[@pierce-micah] The rulers should “know judgment” but “abhor judgment, and pervert all equity” ([[Micah 3:1]]; [[Micah 3:9]]). So when “they cry unto the LORD, but he will not hear them: he will even hide his face” ([[Micah 3:4]]). The Hebrew is literally “will not answer them.”[@oshb-wlc] Compare [[Mosiah 11:24]], where the next verse sets the condition: “except they repent … I will not hear their prayers” ([[Mosiah 11:25]]).[@lds-scriptures] Yet the rulers “lean upon the LORD, and say, Is not the LORD among us?” ([[Micah 3:11]]).
+“Hear” opens each of the book’s three blocks ([[Micah 1:2]]; [[Micah 3:1]]; [[Micah 6:1]]).[@correa-jonah] Legal words run through the book.[@pierce-micah] The rulers should “know judgment” but “abhor judgment, and pervert all equity” ([[Micah 3:1]]; [[Micah 3:9]]). So “they cry unto the LORD, but he will not hear them: he will even hide his face” ([[Micah 3:4]]). The Hebrew is literally “will not answer them.”[@oshb-wlc] Compare [[Mosiah 11:24]], where the next verse sets the condition: “except they repent … I will not hear their prayers” ([[Mosiah 11:25]]).[@lds-scriptures] Yet the rulers “lean upon the LORD, and say, Is not the LORD among us?” ([[Micah 3:11]]).
 
 <h2 id="controversy">The controversy, and what He requires</h2>
 
