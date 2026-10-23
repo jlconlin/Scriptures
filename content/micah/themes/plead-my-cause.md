@@ -2,7 +2,6 @@
 title: “Until He Plead My Cause”
 blurb: The Lord opens Micah as the witness against His people and brings His controversy before the mountains. The book’s one other use of that word is “my cause,” in the mouth of a fallen one who has confessed, and the Lord is the one who pleads it.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, pierce-micah, pike-micah, correa-jonah, keil-micah, ot-manual-11, renlund-do-justly, scripture-helps-micah, gs-advocate, gs-justice, ensign-2014-advocate]
 ---
 
