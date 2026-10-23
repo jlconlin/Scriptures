@@ -55,7 +55,7 @@ How: a short research pass (`theme-researcher`) for the three new rows, a dossie
 
 1. **The other volumes** (later): the New Testament; the Book of Mormon, which has no real-world map; the Doctrine and Covenants; the Pearl of Great Price.
 2. **Finishing the panel**: the Context link where a phone can find it (it is at the far end of the Outline bar), a compact search page in the panel, the link on every book's chapters.
-3. **Writing it into the standing documents**, together with the glossary decision the author is settling in another session (2026-10-19).
+3. **Writing it into the standing documents**, together with the glossary decision (settled 2026-10-23: no glossaries beyond Isaiah's and Jeremiah's; `GUIDES.md`).
 
 ## Where the work stands (2026-10-19)
 
