@@ -123,7 +123,9 @@ function volumeGuidesSection(volume, guides) {
 
 export function renderVolume({ volume, books, html = '', guides = [] }) {
   const sorted = [...books].sort((a, b) => a.place.index - b.place.index);
-  const status = (b) => (b.written.length < b.chapters.length ? `${b.written.length} of ${b.chapters.length} ${unitPlural(b)}` : `${b.chapters.length} ${unitPlural(b)}`);
+  // A one-chapter book (Obadiah) says “1 chapter”, not “1 chapters”.
+  const unit = (b) => (b.chapters.length === 1 ? (b.unit?.singular?.toLowerCase() ?? 'chapter') : unitPlural(b));
+  const status = (b) => (b.written.length < b.chapters.length ? `${b.written.length} of ${b.chapters.length} ${unit(b)}` : `${b.chapters.length} ${unit(b)}`);
   const body = `
 <header class="page-hero"><div class="wrap narrow">
   <p class="eyebrow">The standard works</p>

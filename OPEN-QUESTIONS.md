@@ -16,7 +16,7 @@ Every theme page written from 2026-10-08 to 10-10 (Genesis, Moses, Abraham, Lame
 
 ## Jonah
 
-- **JN1. Whether chapter 1's setting says the story happened.** Either (a) “The book tells these events as having happened to the prophet of 2 Kings 14:25, and the Saviour made them a sign of His own death and Resurrection; the book does not name its author, and some scholars read it as a parable,” or (b) “The book is history, as the Saviour's use of it shows,” leaving the parable reading out. (a) says what the sources establish and keeps the Bible Dictionary's later writer; (b) follows Elder Joseph Fielding Smith and the 1982 Student Manual and claims more than *Scripture Helps* (2025) does. Recommend (a); the chapter is written that way (`content/jonah/BRIEF.md`, “History or parable”).
+- **JN1. Whether chapter 1's setting says the story happened.** Either (a) “The book tells these events as having happened to the prophet of 2 Kings 14:25, and the Saviour made them a sign of His own death and Resurrection; the book does not name its author, and some scholars read it as a parable,” or (b) “The book is history, as the Saviour's use of it shows,” leaving the parable reading out. (a) says what the sources establish and keeps the Bible Dictionary's later writer; (b) follows Elder Joseph Fielding Smith and the 1982 Student Manual and claims more than *Scripture Helps* (2025) does. Recommend (a); the chapter is written that way, except that the reviewer left out “some scholars read it as a parable,” since no source read makes that claim except to reject it, and wrote instead that “Whether the story is literal history has been much debated. Nothing in these notes depends on settling the question” (`content/jonah/BRIEF.md`, “History or parable”).
 
 ## The site
 
