@@ -25,6 +25,8 @@ What is true of the whole site:
 
 **First the brief** (`content/<book>/BRIEF.md`): divisions and intro, which sources are readable online, the book-wide questions and how the Church's sources answer them, theme candidates, Restoration connections. Its research follows “A book's first research” under “Working with the author” below. Jeremiah's brief is the model, including its section “What a chapter is for”; “What the author has decided” links to the standing rules and does not copy them. Then set the book up (`DEVELOPMENT.md`, “Adding a new book”), in preview, and save the Church's footnotes for every chapter (`node scripts/footnotes.mjs <book> <n>` into `.cache/batch/<book>/fn<n>.txt`).
 
+**Choosing a book is the go-ahead for all of it** (author, 2026-10-23, when asked whether to start Haggai's and Zechariah's chapters after their briefs: “Of course run the chapters. Why are you even asking?”): the brief, the setup, and the chapters follow without stopping to ask; the author reads the briefs at leisure, and a doctrinal choice in one is settled by the standard and recorded there, where the author can overturn it.
+
 **Then the chapters, about twelve to a batch**, each through five steps. The Workflow script is `.claude/workflows/write-chapters.js`, and the coordinator's steps around it are scripts too (`DEVELOPMENT.md`, “Writing a book in batches”). The agents' instructions are in `.claude/agents/`.
 
 1. **An Opus writer** researches and writes the chapter and its ledger (`chapter-writer`).
@@ -47,6 +49,7 @@ What is true of the whole site:
 
 **The illustration is the last stage.** Run the book's final batch with `lastBatch: true` and it ends by running `.claude/workflows/create-book-art.js`: a `book-art-director` writes a proposed visual brief from the finished book, and `scripts/book-art.mjs generate <book>` has Codex draw one candidate. Show it to the author; only after approval run `node scripts/book-art.mjs approve <book>` (`DEVELOPMENT.md`, “Book illustration workflow”). What the first eleven books taught about the image tool (the author's rulings of 2026-10-06 to 10-11): When the author approves it, the image gets a “What's in this picture” key, one line for each thing in it and the verse it shows (author, 2026-10-13: “we should do that for all the current books and put in our rules for all the future books”; `DEVELOPMENT.md`, “Book illustration workflow”).
 
+- **A candidate the author likes but for one thing is edited, not redrawn**: `book-art.mjs edit` (`DEVELOPMENT.md`, “Book illustration workflow”). Each `generate` changes the whole scene (Zechariah, 2026-10-23: asked only for a smaller lampstand, it moved the trees and added a third).
 - When a detailed brief keeps missing, try a generic prompt that leaves the subject to Codex (what worked for Daniel).
 - An object the tool keeps drawing wrong (Joel's ram's horn, seven times) is taken out after about five tries: change the picture, not the description (author: “Why don't we set the limit at 5”).
 - A scene that looks too regular (rows, a patchwork, even bends) is fixed by asking for fewer and larger things, not for irregularity.
