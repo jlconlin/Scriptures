@@ -11,7 +11,9 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository (what waits for 
 `node scripts/status.mjs jonah` prints what the repository shows; the history is `git log -- content/jonah`. What a script can't see:
 
 - **The book is in preview.** It goes live at the author's word.
-- **No chapter is written.** `book.yaml` has the divisions, intro, beloved verses and chapter titles; the Church's footnotes for all four chapters are saved in `.cache/batch/jonah/fn1.txt` to `fn4.txt`.
+- **All four chapters are written, reviewed, and read by Codex** (2026-10-22), and the author has read none of them: 38 notes. Keil is in 12 and the Student Manual in 8, both under the one-third guide. Chapter 1's setting follows wording (a) of JN1 (`OPEN-QUESTIONS.md`), without the clause “some scholars read it as a parable,” since no source read makes that claim except to reject it.
+- **The book page was read by Codex** and one of its three findings applied (“gourd” keeps the scripture's word).
+- **The illustration is proposed, not approved** (`visual.yaml`; `.cache/book-art/jonah/candidate-1.png`): Jonah's booth under the gourd on the hill east of Nineveh at sunset (4:5–6), with no figure.
 - **This brief's research began with the Religious Studies Center, BYU Studies, Scripture Central and the Interpreter Foundation** (`AUTHORING.md`, “A book's first research”); the Student Manual and Keil were opened last. What was searched and read is under “Sources for Jonah.” Latter-day Saint writing on Jonah is thinner than on Amos and mostly devotional: two studies of Jonah as a type of Christ (Davies, 1984; Scott, 2014) and a KnoWhy built on them, with shorter treatments. The newest Church voice is Elder Matthew S. Holland's conference talk on 2:8 (October 2025).
 - **The site already has much to link** (Exodus 34:6, Joel 2:13, eight Psalms notes, Isaiah 38:5 and 45:7, Genesis 10:9; each named below where it applies). A chapter links with a `[[reference]]` and does not repeat them.
 
