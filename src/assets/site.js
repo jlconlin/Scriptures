@@ -578,11 +578,17 @@
   // Remember each chapter introduction's open or closed state on this device.
   // “What's in this picture” (book page): the button sits in the image's lower right corner. Its list opens below
   // the image, so while it is open the button is raised by the list's height to stay on the image.
+  // On wide screens the list is always open beside the introduction (site.css), and its button is only a heading.
+  const wideKey = matchMedia('(min-width: 860px)');
   document.querySelectorAll('.art-key').forEach((d) => {
     const fig = d.closest('.book-art-figure'), list = d.querySelector('ul');
-    const place = () => fig.style.setProperty('--key-h', d.open ? `${list.offsetHeight + parseFloat(getComputedStyle(list).marginTop)}px` : '0px');
+    const place = () => fig.style.setProperty('--key-h', d.open && !wideKey.matches ? `${list.offsetHeight + parseFloat(getComputedStyle(list).marginTop)}px` : '0px');
+    const fit = () => { d.open = wideKey.matches; place(); };
+    d.querySelector('summary').addEventListener('click', (e) => { if (wideKey.matches) e.preventDefault(); });
     d.addEventListener('toggle', place);
+    wideKey.addEventListener('change', fit);
     addEventListener('resize', place);
+    fit();
   });
   const intros = $$('details.intro');
   const introStateKey = 'introState';
