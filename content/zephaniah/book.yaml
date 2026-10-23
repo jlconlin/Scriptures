@@ -1,0 +1,75 @@
+name: Zephaniah
+slug: zephaniah
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 19
+abbr: zeph               # [[Zeph. 3:17]] links here
+gospelLibrary: ot/zeph
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-3, period: babylon }
+eyebrow: The Old Testament
+heroQuote:
+  text: '“The LORD thy God in the midst of thee is mighty; he will save, he will rejoice over thee with joy.”'
+  cite: 'Zephaniah, [[Zeph. 3:17]]'
+description: A phrase-by-phrase companion to the book of Zephaniah, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Three chapters, from judgment to joy. The great day of the LORD comes on all the earth and on idolatrous Judah. The meek are called to seek the Lord, and the nations on every side are judged. Then Jerusalem is rebuked, the peoples are given a pure language, and the Lord rejoices over the remnant of Zion with singing.
+home:
+  blurb: A prophet of Judah in the reign of Josiah who foretold the great day of the LORD, called the meek to seek Him, and ended with the Lord rejoicing over Zion with singing.
+
+intro: |
+  Zephaniah prophesied in Judah “in the days of Josiah the son of Amon, king of Judah” ([[Zeph. 1:1]]), the king who purged the land of the idols his grandfather Manasseh had brought in. His book traces his family back four generations, to “Hizkiah,” which may mean King Hezekiah. His name means “the Lord hides.” Nothing else is known of him.
+
+  The book is three chapters long and moves from judgment to joy. It opens with “the great day of the LORD” ([[Zeph. 1:14]]), “a day of wrath, a day of trouble and distress” ([[Zeph. 1:15]]), on Judah and on the whole earth, and with one call to escape it: “Seek ye the LORD, all ye meek of the earth … it may be ye shall be hid in the day of the LORD’s anger” ([[Zeph. 2:3]]). It judges the nations on every side of Judah, from the Philistines to Nineveh, and then Jerusalem itself. Its last verses promise a pure language to the peoples, a humble remnant, and a Lord who “will rejoice over thee with joy; he will rest in his love, he will joy over thee with singing” ([[Zeph. 3:17]]). The Church reads the destruction of Judah as a type of the judgments before the Second Coming. This companion goes through all three chapters and tries to anticipate the questions a careful reader would ask.
+
+  For the reign of Josiah and the last years of Judah, see [A Timeline of the Old Testament](/old-testament/guides/israels-story/#babylon) and [Babylon and the Exile](/old-testament/guides/babylon-and-the-exile/#rulers).
+
+# Proposed (BRIEF.md, “Divisions”): three divisions, one for each chapter; divisions are chapter ranges,
+# so the turn at 3:9 (the Bible Dictionary's two halves) is told in chapter 3's setting.
+# Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: zephday
+    range: [1, 1]
+    name: The Great Day of the LORD
+    blurb: The Lord will consume all things from off the land. His day comes on the idolaters of Judah, its princes and merchants, and the men settled on their lees who say He will do neither good nor evil. It is a day of wrath, of darkness and of the trumpet, when silver and gold cannot deliver.
+    color: '#7a2f3a'
+    darkColor: '#e39aa6'
+  - key: zephnations
+    range: [2, 2]
+    name: Seek Ye the LORD, All Ye Meek
+    blurb: Before the day comes, the meek are called to seek righteousness and meekness, that they may be hid. Then the nations on every side are judged, the Philistines to the west, Moab and Ammon to the east, the Ethiopians to the south, and Assyria and Nineveh to the north, and the remnant of Judah inherits their lands.
+    color: '#5b6a2e'
+    darkColor: '#bfcf8a'
+  - key: zephzion
+    range: [3, 3]
+    name: The LORD in the Midst of Thee
+    blurb: Woe to Jerusalem, whose princes, judges, prophets and priests have all failed, though the just Lord is in her midst. Then the Lord turns to the peoples a pure language, leaves an afflicted and poor people who trust in Him, and rejoices over Zion with singing as He gathers her scattered children home.
+    color: '#2f5a8c'
+    darkColor: '#9cc0e8'
+
+# Further reading attached automatically to chapters in these ranges (proposed key; BRIEF.md, “Sources for Zephaniah”).
+rangeSources:
+  - { range: [1, 3], sources: [scripture-helps-micah] }
+
+beloved:
+  - { chapter: 1, verse: 14, text: 'The great day of the LORD is near' }
+  - { chapter: 1, verse: 15, text: 'That day is a day of wrath, a day of trouble and distress' }
+  - { chapter: 2, verse: 3, text: 'Seek ye the LORD, all ye meek of the earth' }
+  - { chapter: 3, verse: 9, text: 'then will I turn to the people a pure language' }
+  - { chapter: 3, verse: 14, text: 'Sing, O daughter of Zion; shout, O Israel' }
+  - { chapter: 3, verse: 15, text: 'the king of Israel, even the LORD, is in the midst of thee' }
+  - { chapter: 3, verse: 17, text: 'he will rejoice over thee with joy; he will rest in his love, he will joy over thee with singing' }
+
+coreSources:
+  - bd-zephaniah
+  - scripture-helps-micah
+  - vandyke-ogden-twelve
+  - ball-prophets-names
+  - bowen-ominous-onomastics
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'The Great Day of the LORD Is Near'
+  2: 'Seek Ye the LORD, All Ye Meek of the Earth'
+  3: 'He Will Joy over Thee with Singing'

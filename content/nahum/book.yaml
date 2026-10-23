@@ -1,0 +1,74 @@
+status: preview
+name: Nahum
+slug: nahum
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 17
+abbr: nahum              # [[Nahum 1:7]] links here
+gospelLibrary: ot/nahum
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-3, period: babylon }
+eyebrow: The Old Testament
+heroQuote:
+  text: '“The LORD is good, a strong hold in the day of trouble; and he knoweth them that trust in him.”'
+  cite: 'Nahum, [[Nahum 1:7]]'
+description: A phrase-by-phrase companion to the book of Nahum, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Three chapters, three poems. The first is a hymn to the Lord who is slow to anger but will not clear the guilty, with a promise to Judah that its yoke will be broken. The second sees Nineveh besieged, taken and plundered. The third is a woe on “the bloody city,” which will fall as Egyptian Thebes fell.
+home:
+  blurb: A prophet of Judah who foretold the fall of Nineveh, the capital of Assyria, a century after Jonah preached there. His name means “comforter,” and his comfort to Judah was that its oppressor would trouble it no more.
+
+intro: |
+  Nahum the Elkoshite is known only from the first verse of his book, which calls itself “the burden of Nineveh” ([[Nahum 1:1]]). His name means “comforter.” Nineveh was the capital of Assyria, the empire that had carried Israel's northern tribes into exile and had overrun Judah. More than a century earlier the city had repented at Jonah's preaching and been spared. By Nahum's day it had returned to its violence, and he foretold its end. He wrote after Assyria had sacked Egyptian Thebes ([[Nahum 3:8]]), probably not long before Nineveh fell to the Medes and Babylonians in 612 B.C.
+
+  The book opens with a hymn to the Lord who is “slow to anger, and great in power, and will not at all acquit the wicked” ([[Nahum 1:3]]), and who is “a strong hold in the day of trouble” to those who trust Him ([[Nahum 1:7]]). It then sees the city's siege and fall in quick, vivid poetry, and ends on a question to the king of Assyria: “for upon whom hath not thy wickedness passed continually?” ([[Nahum 3:19]]). For Judah the news is good: “Behold upon the mountains the feet of him that bringeth good tidings, that publisheth peace!” ([[Nahum 1:15]]). The Church's chapter headings read Nineveh's fall as a symbol of what will come in the last days. This companion goes through all three chapters and tries to anticipate the questions a careful reader would ask.
+
+  For Assyria's last years and the books of this period, see [Babylon and the Exile](/old-testament/guides/babylon-and-the-exile/#rulers) and [A Timeline of the Old Testament](/old-testament/guides/israels-story/#babylon).
+
+# Proposed (BRIEF.md, “Divisions”): one division for each of the three poems, which the chapters follow.
+# Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: nahumjealous
+    range: [1, 1]
+    name: The LORD Is Slow to Anger, and Great in Power
+    blurb: A hymn to the Lord who avenges and who shelters, built on the letters of the Hebrew alphabet. Then the word turns between Nineveh and Judah. The oppressor will be cut off, Judah's yoke broken, and a messenger comes over the mountains with good tidings of peace.
+    color: '#7a3b52'
+    darkColor: '#d9a0b8'
+  - key: nahumsiege
+    range: [2, 2]
+    name: He That Dasheth in Pieces Is Come Up
+    blurb: The attackers come against Nineveh in scarlet with flashing chariots. The river gates open, the palace dissolves, and the city is plundered. The lions' den, once filled with prey, is empty, and the Lord of hosts says, “I am against thee.”
+    color: '#3f5f7a'
+    darkColor: '#9cc0dd'
+  - key: nahumwoe
+    range: [3, 3]
+    name: Woe to the Bloody City
+    blurb: A woe on the city “full of lies and robbery.” Its sins bring it to public shame. It is no better than Egyptian Thebes, which also fell, and its defenders scatter like locusts in the sun. All who hear the news of its fall clap their hands.
+    color: '#8a5a1c'
+    darkColor: '#e0b06e'
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [1, 3], sources: [scripture-helps-micah] }
+
+beloved:
+  - { chapter: 1, verse: 3, text: 'The LORD is slow to anger, and great in power, and will not at all acquit the wicked' }
+  - { chapter: 1, verse: 6, text: 'Who can stand before his indignation?' }
+  - { chapter: 1, verse: 7, text: 'The LORD is good, a strong hold in the day of trouble; and he knoweth them that trust in him' }
+  - { chapter: 1, verse: 15, text: 'Behold upon the mountains the feet of him that bringeth good tidings, that publisheth peace!' }
+  - { chapter: 2, verse: 13, text: 'Behold, I am against thee, saith the LORD of hosts' }
+  - { chapter: 3, verse: 1, text: 'Woe to the bloody city! it is all full of lies and robbery' }
+  - { chapter: 3, verse: 19, text: 'for upon whom hath not thy wickedness passed continually?' }
+
+coreSources:
+  - bd-nahum
+  - scripture-helps-micah
+  - vandyke-ogden-twelve
+  - rasmussen-nahum-1962
+  - ball-prophets-names
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'The LORD Is Good, a Strong Hold'
+  2: 'Behold, I Am against Thee'
+  3: 'Woe to the Bloody City'

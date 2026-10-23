@@ -172,6 +172,10 @@ const LDS_SPELLINGS = [
   // Joel: a comma and an old spelling (found by scripts/check-kjv.mjs).
   [/and cry unto the LORD\.$/g, 'and cry unto the LORD,'], // Joel 1:14
   [/the vats shall overflow with wine and oil/g, 'the fats shall overflow with wine and oil'], // Joel 2:24
+  // Micah: hyphens in names, and “Lord” (adonai) where the source has LORD (found by scripts/check-kjv.mjs).
+  [/the LORD from his holy temple/g, 'the Lord from his holy temple'], // Micah 1:2
+  [/Bethezel/g, 'Beth-ezel'], // Micah 1:11
+  [/Moreshethgath/g, 'Moresheth-gath'], // Micah 1:14
   // Psalms: the divine name at the head of a psalm and elsewhere, the source's capitals on a
   // psalm's first words, punctuation and old spellings (found by scripts/check-kjv.mjs).
   [/the LORD shall have them in derision/g, 'the Lord shall have them in derision'], // Ps. 2:4
@@ -268,6 +272,12 @@ const LDS_SPELLINGS = [
   [/\bHazaraddar\b/g, 'Hazar-addar'], // Num. 34:4
   [/\bHazarenan\b/g, 'Hazar-enan'], // Num. 34:9–10
   [/\bAbelshittim\b/g, 'Abel-shittim'], // Num. 33:49
+  // Zephaniah
+  [/and the stumbling blocks with the wicked:/g, 'and the stumblingblocks with the wicked;'], // Zeph. 1:3
+  [/nor enquired for him/g, 'nor inquired for him'], // Zeph. 1:6
+  [/at the noonday, and Ekron/g, 'at the noon day, and Ekron'], // Zeph. 2:4 (after the general rule above)
+  // Nahum
+  [/spoileth, and fleeth away/g, 'spoileth, and flieth away'], // Nahum 3:16
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 

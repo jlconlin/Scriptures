@@ -1,0 +1,80 @@
+name: Micah
+slug: micah
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 16
+abbr: micah              # [[Micah 5:2]] links here
+gospelLibrary: ot/micah
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-7, period: assyria }
+eyebrow: The Old Testament
+heroQuote:
+  text: '“What doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?”'
+  cite: 'Micah, [[Micah 6:8]]'
+description: A phrase-by-phrase companion to the book of Micah, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Seven chapters in three movements, each passing from judgment to hope. Micah warns that Samaria and Jerusalem will fall for their idols and their injustice; he sees the house of the Lord raised in the last days and a ruler coming out of Bethlehem; and he hears the Lord’s case against His people, which ends in praise of the God who pardons.
+home:
+  blurb: A prophet from the Judean countryside, Isaiah’s contemporary, who warned that Jerusalem would be plowed as a field, foretold a ruler born in Bethlehem, and summed up what the Lord requires.
+
+intro: |
+  Micah the Morasthite, from Moresheth-gath in the low hills southwest of Jerusalem, prophesied “in the days of Jotham, Ahaz, and Hezekiah, kings of Judah” ([[Micah 1:1]]), the same years as Isaiah. He foretold the fall of Samaria to Assyria and mourned the towns of Judah’s countryside, his own among them, before the Assyrian armies came ([[Micah 1:6]]; [[Micah 1:10–16]]). His charges are against the powerful in Jerusalem: men who “covet fields, and take them by violence” ([[Micah 2:2]]), rulers who “judge for reward,” priests who “teach for hire,” and prophets who “divine for money” ([[Micah 3:11]]). A century later the elders of Judah remembered his warning that “Zion shall be plowed as a field” and that King Hezekiah had heeded it ([[Jer. 26:18–19]]).
+
+  Each of the book’s three parts turns from judgment to hope. Micah sees the mountain of the Lord’s house raised “in the last days,” in words nearly the same as Isaiah’s ([[Micah 4:1–3]]); he names Bethlehem as the town from which a ruler would come “whose goings forth have been from of old, from everlasting” ([[Micah 5:2]]), the prophecy the chief priests gave Herod ([[Matt. 2:4–6]]); and he answers the question of what the Lord wants from His people with “do justly, and … love mercy, and … walk humbly with thy God” ([[Micah 6:8]]). The resurrected Saviour quoted Micah to the Nephites ([[3 Ne. 20:16–19]]; [[3 Ne. 21:12–18]]), and the book ends with the question its prophet’s name asks: “Who is a God like unto thee, that pardoneth iniquity?” ([[Micah 7:18]]). This companion goes through all seven chapters and tries to anticipate the questions a careful reader would ask.
+
+  For the wider setting of Judah under Ahaz and Hezekiah and of Assyria, see [A Timeline of the Old Testament](/old-testament/guides/israels-story/#two-kingdoms) and [Two Kingdoms and Assyria](/old-testament/guides/two-kingdoms-and-assyria/#rulers).
+
+# Proposed (BRIEF.md, “Divisions”): the three divisions of the Bible Dictionary and Scripture Helps.
+# Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: micahjudgment
+    range: [1, 3]
+    name: Zion Shall Be Plowed
+    blurb: The Lord comes down from His holy temple against Samaria and Jerusalem. Micah laments the towns of his own countryside, condemns those who seize fields and houses, and turns on the rulers, priests and prophets who sell judgment and prophecy, until Zion is plowed as a field. In the middle, a promise that the Lord will gather the remnant of Israel like sheep.
+    color: '#8a3b2b'
+    darkColor: '#e3a090'
+  - key: micahlastdays
+    range: [4, 5]
+    name: In the Last Days
+    blurb: The mountain of the Lord’s house is raised above the hills, the nations come to learn His ways, and swords become plowshares. Zion will travail and go to Babylon, and be delivered there. Out of little Bethlehem comes a ruler whose goings forth are from everlasting, and the remnant of Jacob stands among the nations as dew and as a lion.
+    color: '#3d6b45'
+    darkColor: '#94cf9f'
+  - key: micahrequire
+    range: [6, 7]
+    name: What Doth the Lord Require
+    blurb: The Lord calls the mountains to hear His case against His people and reminds them what He has done for them. Not rams or rivers of oil, but to do justly, love mercy and walk humbly. Micah mourns a land where no one can be trusted, waits for the God of his salvation, and ends in praise of the God who pardons and casts sins into the sea.
+    color: '#4b4f8f'
+    darkColor: '#aeb2ea'
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [1, 7], sources: [scripture-helps-micah] }
+
+beloved:
+  - { chapter: 3, verse: 8, text: 'I am full of power by the spirit of the LORD' }
+  - { chapter: 4, verse: 2, text: 'for the law shall go forth of Zion, and the word of the LORD from Jerusalem' }
+  - { chapter: 4, verse: 3, text: 'they shall beat their swords into plowshares, and their spears into pruninghooks' }
+  - { chapter: 4, verse: 4, text: 'they shall sit every man under his vine and under his fig tree; and none shall make them afraid' }
+  - { chapter: 5, verse: 2, text: 'But thou, Beth-lehem Ephratah, though thou be little among the thousands of Judah' }
+  - { chapter: 6, verse: 8, text: 'what doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God' }
+  - { chapter: 7, verse: 7, text: 'I will look unto the LORD; I will wait for the God of my salvation' }
+  - { chapter: 7, verse: 18, text: 'Who is a God like unto thee, that pardoneth iniquity' }
+  - { chapter: 7, verse: 19, text: 'thou wilt cast all their sins into the depths of the sea' }
+
+coreSources:
+  - bd-micah
+  - scripture-helps-micah
+  - renlund-do-justly
+  - pike-micah
+  - spencer-remnant
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'The Lord Cometh Forth out of His Place'
+  2: 'I Will Surely Gather the Remnant of Israel'
+  3: 'Zion Shall Be Plowed as a Field'
+  4: 'The Mountain of the House of the Lord'
+  5: 'But Thou, Beth-lehem Ephratah'
+  6: 'What Doth the Lord Require of Thee?'
+  7: 'Who Is a God like unto Thee?'

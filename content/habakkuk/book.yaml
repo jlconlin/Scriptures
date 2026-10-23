@@ -1,0 +1,72 @@
+status: preview
+name: Habakkuk
+slug: habakkuk
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 18
+abbr: hab                # [[Hab. 2:4]] links here
+gospelLibrary: ot/hab
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-3, period: babylon }
+eyebrow: The Old Testament
+heroQuote:
+  text: '“The just shall live by his faith.”'
+  cite: 'The Lord to Habakkuk, [[Hab. 2:4]]'
+description: A phrase-by-phrase companion to the book of Habakkuk, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Three chapters in two parts. In the first, the prophet asks the Lord how long violence will go unpunished, and how He can use the cruel Chaldeans against His people; the Lord answers him twice. The second is the prophet's prayer, a psalm of the Lord's coming in power and of joy in Him when every harvest fails.
+home:
+  blurb: A prophet who questioned the Lord. Why does violence go unpunished, and why use the Babylonians to punish Judah? The answer was “the just shall live by his faith,” and the book ends in a psalm of joy when the fig tree does not blossom.
+
+intro: |
+  Habakkuk was a prophet in Judah about 600 B.C., probably in the reign of Josiah or Jehoiakim, when Babylon was rising; nothing more is known of him. His book is unlike the other prophets. It is not the Lord's word to the people but a conversation between the prophet and the Lord. “O LORD, how long shall I cry, and thou wilt not hear!” he begins ([[Hab. 1:2]]), troubled by the violence and broken law around him. The Lord answers that He is raising up the Chaldeans, “that bitter and hasty nation” ([[Hab. 1:6]]). That troubles Habakkuk more: how can a holy God use a nation more wicked than Judah?
+
+  The prophet takes his stand on his watchtower to wait for the answer ([[Hab. 2:1]]). It comes as a vision to be written plainly: the proud will not endure, “but the just shall live by his faith” ([[Hab. 2:4]]), a line Paul made one of the New Testament's great statements of the gospel. Five woes on the conqueror follow, and the promise that “the earth shall be filled with the knowledge of the glory of the LORD” ([[Hab. 2:14]]). The book closes with the prophet's prayer, a psalm of the Lord coming to save His people, and its ending: though the fig tree does not blossom and the fields yield nothing, “Yet I will rejoice in the LORD” ([[Hab. 3:18]]). This companion goes through all three chapters and tries to anticipate the questions a careful reader would ask.
+
+  For the rise of Babylon and the last kings of Judah, see [Babylon and the Exile](/old-testament/guides/babylon-and-the-exile/#rulers).
+
+# Proposed (BRIEF.md, “Divisions”): two parts, the exchange (1–2) and the prayer (3), which has its own heading (3:1).
+# Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: habquestion
+    range: [1, 2]
+    name: How Long Shall I Cry?
+    blurb: The prophet asks why violence goes unpunished, and the Lord answers that He is raising up the Chaldeans. The prophet asks how a holy God can use them, and waits on his watchtower. The Lord answers that the proud will not endure, that the just shall live by faith, and that woe will come on the conqueror.
+    color: '#8a4b2f'
+    darkColor: '#e3a07e'
+  - key: habprayer
+    range: [3, 3]
+    name: A Prayer of Habakkuk
+    blurb: The prophet's psalm. He asks the Lord to revive His work and in wrath remember mercy, sees Him come from Teman and Paran as He came to deliver Israel of old, and ends in joy in the God of his salvation, though every harvest fail.
+    color: '#3f6a52'
+    darkColor: '#94cfae'
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [1, 3], sources: [scripture-helps-micah] }
+
+beloved:
+  - { chapter: 1, verse: 2, text: 'O LORD, how long shall I cry, and thou wilt not hear!' }
+  - { chapter: 1, verse: 13, text: 'Thou art of purer eyes than to behold evil' }
+  - { chapter: 2, verse: 1, text: 'I will stand upon my watch, and set me upon the tower' }
+  - { chapter: 2, verse: 2, text: 'Write the vision, and make it plain upon tables, that he may run that readeth it' }
+  - { chapter: 2, verse: 3, text: 'though it tarry, wait for it; because it will surely come' }
+  - { chapter: 2, verse: 4, text: 'the just shall live by his faith' }
+  - { chapter: 2, verse: 14, text: 'the earth shall be filled with the knowledge of the glory of the LORD, as the waters cover the sea' }
+  - { chapter: 2, verse: 20, text: 'the LORD is in his holy temple: let all the earth keep silence before him' }
+  - { chapter: 3, verse: 2, text: 'in wrath remember mercy' }
+  - { chapter: 3, verse: 18, text: 'Yet I will rejoice in the LORD, I will joy in the God of my salvation' }
+  - { chapter: 3, verse: 19, text: 'he will make my feet like hinds’ feet' }
+
+coreSources:
+  - bd-habakkuk
+  - scripture-helps-micah
+  - vandyke-ogden-twelve
+  - rasmussen-habakkuk-1962
+  - strathearn-faith-christ
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'O Lord, How Long Shall I Cry?'
+  2: 'The Just Shall Live by His Faith'
+  3: 'Yet I Will Rejoice in the Lord'

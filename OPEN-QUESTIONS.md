@@ -10,6 +10,10 @@ Everything that waits for the author, for every book and for the site, in this o
 
 Every theme page written from 2026-10-08 to 10-10 (Genesis, Moses, Abraham, Lamentations, Malachi, Ezekiel, Daniel, Hosea, Joel) passed its review and is unread by the author, as are Jeremiah's five and all of Joel and Psalms; `node scripts/status.mjs` shows what is unread. Treat every page as open to the author's correction.
 
+## Zephaniah
+
+- **ZP1. How the note on 3:9, “a pure language,” ends.** The note gives what the Hebrew says (“a purified lip”: speech made clean, so that the peoples “call upon the name of the LORD”), then either (a) “Latter-day Saints have also read the verse as a promise that a pure language will be restored, as the chapter heading puts it; Restoration scripture speaks of the first language as ‘pure and undefiled’ (Moses 6:6), but no revelation says this verse refers to it,” or (b) “The verse foretells the restoration of the pure language of Adam, lost at Babel.” (a) says what the Church's sources say; (b) takes Oliver Cowdery's (1834) and Monte Nyman's reading as the site's own, which no Church source read says. Recommend (a); the chapter will be written that way (`content/zephaniah/BRIEF.md`).
+
 ## The site
 
 Nothing.
