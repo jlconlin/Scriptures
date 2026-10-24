@@ -14,10 +14,6 @@ Every theme page written from 2026-10-08 to 10-10 (Genesis, Moses, Abraham, Lame
 
 Nothing.
 
-## Zechariah
-
-- **ZC1. Who is the Zacharias of Matthew 23:35?** The note on Zech. 1:1 says the prophet is not the martyr Jesus names, “Zacharias son of Barachias, whom ye slew between the temple and the altar.” The Church's sources point two ways on who the martyr was: the *Old Testament Student Manual* (33-2) cites *Teachings of the Prophet Joseph Smith*, p. 261, an 1842 *Times and Seasons* editorial that makes him John the Baptist's father; Wilson (Religious Studies Center) argues Joseph Smith did not write that editorial, which follows an apocryphal gospel, and reports that most scholars take him to be Zechariah son of Jehoiada (2 Chr. 24:20–21). **A:** keep the note's second sentence, the scholars' view, labelled as theirs (it does not mention the editorial). **B:** cut it, so the note says only that the prophet is not the martyr and takes no side. Recommend B: the point of the note is who the prophet is, and A sides against a source the Student Manual attributes to Joseph Smith without saying so.
-
 ## Answered, awaiting implementation
 
 Nothing.
