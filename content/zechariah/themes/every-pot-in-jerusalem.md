@@ -2,7 +2,6 @@
 title: Every Pot in Jerusalem
 blurb: In Zechariah one priest's filthy garments are taken away; by the last verse every pot in Jerusalem is as holy as the bowls before the altar. What widens is what the Lord removes, and from whom.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bd-zechariah, scripture-helps-hag-1-2, cfm-ot-2026-50, ot-manual-33, keil-zechariah, christofferson-living-bread, liahona-2022-12-holy]
 ---
 

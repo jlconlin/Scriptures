@@ -2,7 +2,6 @@
 title: “I Am Returned with Mercies”
 blurb: One verb stands on both sides of the promise “Turn ye unto me, and I will turn unto you.” By chapter 1's vision the Lord says He is returned, and the verb follows Him to the verse where the sword is called against His Shepherd.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, keil-zechariah, ot-manual-33, scripture-helps-hag-1-2, olmstead-saviors-use]
 ---
 

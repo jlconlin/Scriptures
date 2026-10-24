@@ -2,7 +2,6 @@
 title: '“Shall It Be Holy?”'
 blurb: Haggai's priests rule that holiness does not spread by touch and uncleanness does. The book's own order shows the Lord's presence, Spirit, glory and blessing coming before the harvest, and the Gospels show the Holy One touching the unclean.
 icon: christ
-status: preview
 sources: [oshb-wlc, huntington-consider-ways, bd-clean-unclean, keil-haggai, breitenstein-haggai-minute, ot-manual-30, schmeil-consider-ways, bd-hem-of-garment, nt-student-manual-11, brown-testimony-luke, ot-seminary-resource-haggai]
 ---
 
