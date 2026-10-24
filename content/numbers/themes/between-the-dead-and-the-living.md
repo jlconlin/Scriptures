@@ -46,6 +46,6 @@ Amulek asks, “if a man murdereth, behold will our law, which is just, take the
 
 Hebrews sets the many priests, “not suffered to continue by reason of death,” against the one who “ever liveth to make intercession” ([[Heb. 7:23–25]]), and says “it is not possible that the blood of bulls and of goats should take away sins” ([[Heb. 10:4]]). “There is one God, and one mediator between God and men, the man Christ Jesus; who gave himself a ransom for all” ([[1 Tim. 2:5–6]]). “Jesus Christ was the only one capable of making a perfect atonement for all mankind.”[@gs-atone-atonement] He pleads, “behold the blood of thy Son which was shed… Father, spare these my brethren that believe on my name” ([[D&C 45:4–5]]). See also [Moses the Mediator](/exodus/themes/moses-the-mediator/#mediator).
 
-## Where this reaches now
+## Through the merits of the Holy Messiah
 
 A disciple, like those in [[Ps. 49:7]], has no ransom to give for himself or his brother, for “there is no flesh that can dwell in the presence of God, save it be through the merits, and mercy, and grace of the Holy Messiah” ([[2 Ne. 2:8]]). The Atonement’s blessings come to an accountable person “only if he has faith in Jesus Christ, repents of his sins, receives the ordinances of salvation, and obeys the commandments of God.”[@gs-atone-atonement]

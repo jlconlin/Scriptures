@@ -53,6 +53,6 @@ Rahab “perished not with them that believed not, when she had received the spi
 
 Rahab was brought from outside the camp into the midst by an oath Israel kept; the stranger at Ebal heard the covenant but, on one reading, did not share full membership in it; Gibeon lived as servants. Set beside them Paul's words: “strangers from the covenants of promise … far off … made nigh by the blood of Christ … no more strangers and foreigners, but fellowcitizens with the saints, and of the household of God” ([[Eph. 2:12–19]]).[@lds-scriptures]
 
-## Where this reaches now
+## Gathered into his family
 
 The promised blessings go to “the literal seed of Abraham and those who are gathered into his family by adoption,” “predicated upon acceptance of the Lord and obedience to his commandments.”[@nelson-1995-children-of-the-covenant] Being brought in carries an obligation not to oppress the stranger: “Thou shalt neither vex a stranger, nor oppress him: for ye were strangers in the land of Egypt” ([[Ex. 22:21]]).[@muhlestein-ruth]

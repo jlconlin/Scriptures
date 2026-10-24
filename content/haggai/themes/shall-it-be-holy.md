@@ -48,7 +48,7 @@ Set beside the priests' answers, the Gospels show the same two kinds of contact 
 
 In Haggai the people fear the Lord; He is with them, stirs them to build, promises to fill the house, and blesses; in the Gospels the unclean are made clean by contact with Him. Moroni gives the condition first: “if ye shall deny yourselves of all ungodliness… then is his grace sufficient for you” ([[Moro. 10:32]]); “sanctified in Christ by the grace of God, through the shedding of the blood of Christ… that ye become holy, without spot” ([[Moro. 10:33]]).
 
-## Where this reaches now
+## “Consider your ways”
 
 A holy place does not make someone holy: “attending the temple does not sanctify someone who is unworthy.”[@ot-seminary-resource-haggai] The Lord's latter-day house keeps the order of clean first, then His presence: “do not suffer any unclean thing to come into it… my glory shall rest upon it; yea, and my presence shall be there” ([[D&C 97:15–16]]). The Lord magnifies the efforts of those who consider their ways: “He will magnify our efforts as we consider our ways and make the proper adjustments to make and keep covenants with Him.”[@schmeil-consider-ways]
 

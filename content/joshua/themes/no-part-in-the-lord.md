@@ -49,6 +49,6 @@ Christ “is the mediator of the new testament, that by means of death… they w
 
 Set beside [[Josh. 18:7]] are the Lord's words in 1832: “all they who receive this priesthood receive me… and he that receiveth my Father receiveth my Father’s kingdom; therefore all that my Father hath shall be given unto him” ([[D&C 84:35–38]]). Joshua gives the priesthood as the inheritance of the tribe with no ground; the revelation ties receiving the priesthood to receiving “all that my Father hath.” The section names “the sons of Moses and of Aaron” ([[D&C 84:34]]).[@lds-scriptures] See also [My Portion for Ever](/psalms/themes/my-portion-for-ever/).
 
-## Where this reaches now
+## “The LORD is my portion”
 
 “The LORD is my portion, saith my soul; therefore will I hope in him” ([[Lam. 3:24]]). “The blessings of the oath and covenant of the priesthood are not just for priesthood holders. God’s greatest blessings come to men and women who are sealed to each other in the temple.”[@dc-student-manual-2017-84] President Nelson: “no earthly reward—no other success—could compensate for the bounties the Lord will bestow upon those who love Him, keep His commandments… and endure to the end.”[@dc-student-manual-2017-84]
