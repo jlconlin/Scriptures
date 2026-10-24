@@ -369,6 +369,8 @@ const LDS_SPELLINGS = [
   [/and after vows to make enquiry/g, 'and after vows to make inquiry'], // Prov. 20:25
   [/old men is the grey head/g, 'old men is the gray head'], // Prov. 20:29
   [/^A GOOD name is rather/g, 'A good name is rather'], // Prov. 22:1
+  // Ecclesiastes (found by scripts/check-kjv.mjs).
+  [/yea farther; though a wise man/g, 'yea further; though a wise man'], // Eccl. 8:17
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 

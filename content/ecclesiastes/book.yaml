@@ -1,0 +1,63 @@
+name: Ecclesiastes
+slug: ecclesiastes
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 12.6              # after Proverbs (12.5), before Amos (13)
+abbr: eccl               # [[Eccl. 12:13]] links here
+gospelLibrary: ot/eccl
+# Chapters with no period, and why (the build warns about any other Old Testament chapter without one)
+noPeriod:
+  - { chapters: 1-12, why: "a book of reflection with no historical setting in the text, beside Proverbs, which has none either (brief, “Book-wide conventions”)" }
+eyebrow: The Old Testament
+heroQuote:
+  text: '“Let us hear the conclusion of the whole matter: Fear God, and keep his commandments: for this is the whole duty of man.”'
+  cite: '[[Eccl. 12:13]]'
+description: A phrase-by-phrase companion to the book of Ecclesiastes, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Twelve chapters in three parts, as Scripture Helps arranges them. The Preacher tries pleasure, great works and wisdom and finds them passing; he weighs toil, riches, injustice and death through many examples; and he ends by calling the young to remember their Creator before the judgment of God.
+home:
+  blurb: 'The Preacher''s search for what lasts “under the sun.” Pleasure, great works, riches and wisdom all pass like a breath, and the book ends with “the whole duty of man”: fear God, and keep His commandments.'
+
+intro: |
+  Ecclesiastes is “the words of the Preacher, the son of David, king in Jerusalem” ([[Eccl. 1:1]]). He never gives his name, and tradition has called him Solomon. His word for everything he sees is “vanity,” a breath or a vapor, something fleeting that cannot be held, and his frame is the world “under the sun,” life as it looks from the earth alone. He tries pleasure, great works and wisdom, and finds that the wise man dies like the fool. Yet the same voice says that a man's joy in his labor “was from the hand of God” ([[Eccl. 2:24]]), that God “hath set the world in their heart” ([[Eccl. 3:11]]), and that “God will bring thee into judgment” ([[Eccl. 11:9]]).
+
+  After *Proverbs*, which says that wisdom leads to a good life, Ecclesiastes says that it is not that simple. The righteous sometimes perish and the wicked live long, and the one certain end is death. The book closes with the dust returning to the earth, “the spirit” returning “unto God who gave it” ([[Eccl. 12:7]]), and “the conclusion of the whole matter: Fear God, and keep his commandments: for this is the whole duty of man” ([[Eccl. 12:13]]). This companion goes through all twelve chapters and tries to anticipate the questions a careful reader would ask, the hard ones included: who the Preacher was, what “vanity” means, whether the dead “know not any thing,” and what returns to God at death.
+
+  For how Hebrew poetry is built, see [Hebrew Poetry and the Prophets' Speech](/old-testament/guides/hebrew-poetry/#parallelism); for Solomon's reign, under whose name the book has come down, [A Timeline of the Old Testament](/old-testament/guides/israels-story/#united-kingdom).
+
+# The divisions are Scripture Helps' three parts (scripture-helps-proverbs [31]–[33]), the newest Church source;
+# the names are the King James' words (1:2; 3:1; 12:1). Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: ecclsearch
+    range: [1, 2]
+    name: Vanity of Vanities
+    blurb: The Preacher, speaking as king in Jerusalem, sets out to find what lasts. Generations come and go, nothing is new under the sun, and pleasure, great works, gardens, gold and wisdom all prove a breath, though joy in one's labor comes from the hand of God.
+    color: '#6a6a4a'
+    darkColor: '#cfcf9e'
+  - key: ecclseason
+    range: [3, 10]
+    name: A Time to Every Purpose
+    blurb: A time to be born and a time to die, and God's work that no man can find out. The oppressed with no comforter, riches that cannot satisfy, vows to keep, the righteous who perish, time and chance, and a chapter of proverbs about the fool.
+    color: '#4a6a7a'
+    darkColor: '#a6c8d8'
+  - key: eccljudge
+    range: [11, 12]
+    name: Remember Now Thy Creator
+    blurb: Bread cast upon the waters, and youth to be enjoyed before God's judgment. Old age and death in images, the dust returning to the earth and the spirit to God, and the conclusion of the whole matter.
+    color: '#7a4a5a'
+    darkColor: '#e0a8b8'
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [1, 3], sources: [scripture-helps-proverbs] }
+  - { range: [11, 12], sources: [scripture-helps-proverbs] }
+
+beloved:
+  - { chapter: 1, verse: 2, text: 'Vanity of vanities; all is vanity' }
+  - { chapter: 3, verse: 1, text: 'To every thing there is a season, and a time to every purpose under the heaven' }
+  - { chapter: 12, verse: 1, text: 'Remember now thy Creator in the days of thy youth' }
+  - { chapter: 12, verse: 13, text: 'Fear God, and keep his commandments: for this is the whole duty of man' }
+
+coreSources:
+  - bd-ecclesiastes
+  - scripture-helps-proverbs
