@@ -2,7 +2,6 @@
 title: No Part in the LORD
 blurb: In Joshua a “part” is a share of ground, and one tribe gets none, because “the LORD God of Israel was their inheritance.” Then two and a half tribes with land of their own build an altar for fear of hearing “Ye have no part in the LORD.”
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, bd-jehovah, bd-levites, keil-joshua, ot-minute-josh-21, dc-student-manual-2017-84]
 ---
 

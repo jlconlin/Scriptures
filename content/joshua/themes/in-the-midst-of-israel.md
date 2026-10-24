@@ -2,7 +2,6 @@
 title: In the Midst of Israel
 blurb: Rahab's household is left outside Israel's camp, and two verses later she dwells “in the midst of Israel.” From there the book follows what Israel gives the outsider in its midst, from the stranger at Ebal to the men of Gibeon and the cities of refuge.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, fisher-rahab, scripture-helps-josh, bd-achan, bd-stranger, bd-adoption, muhlestein-ruth, seely-cry-widow, ot-manual-josh, brandt-conquest, nelson-1995-children-of-the-covenant]
 ---
 
