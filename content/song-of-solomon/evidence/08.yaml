@@ -38,11 +38,6 @@ claims:
     quote: 'הַ/יוֹשֶׁ֣בֶת'
 
   # thread
-  - where: thread
-    claim: 'The last verse echoes 2:17'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/song/2?lang=eng'
-    quote: 'turn, my beloved, and be thou like a roe or a young hart upon the mountains of Bether.'
 
   # 8:1
   - where: 'note 8:1 “If only you were my brother”'
@@ -182,11 +177,6 @@ claims:
     url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+8&version=ESV'
     quote: 'flame of the Lord.'
   - where: 'note 8:6 “A flame of the Lord?”'
-    claim: 'The edition of the Leningrad Codex divides the one word into two for exegesis, the second being yah'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Song.xml'
-    quote: 'A single word in the text has been divided for exegesis.'
-  - where: 'note 8:6 “A flame of the Lord?”'
     claim: 'The second part is yah'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Song.xml'
@@ -288,11 +278,6 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/song/2?lang=eng'
     quote: 'be thou like a roe or a young hart upon the mountains of Bether.'
   - where: christ
-    claim: 'The Song speaks of love equal to death, not surpassing it'
-    key: delitzsch-song
-    url: 'https://biblehub.com/commentaries/kad/songs/8.htm'
-    quote: 'But the text does not speak of surpassing, but of equality'
-  - where: christ
     claim: 'Charity is the pure love of Christ and endures forever; it is bestowed on true followers (Moro. 7:47–48)'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng'
@@ -312,11 +297,6 @@ claims:
     key: bdb
     url: 'https://biblehub.com/hebrew/1272.htm'
     quote: 'flee = hasten, come quickly Songs 8:14.'
-  - where: 'note 8:6 “A flame of the Lord?”'
-    claim: 'The lexicon records that others explain the -yah as a particle'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/7957.htm'
-    quote: 'explains יָֿה here as encl. particle'
   - where: 'note 8:6 “A seal on the heart and on the arm”'
     claim: 'The right-hand custom is marked as perhaps later'
     key: bdb
