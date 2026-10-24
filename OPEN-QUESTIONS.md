@@ -10,17 +10,13 @@ Everything that waits for the author, for every book and for the site, in this o
 
 Every theme page written from 2026-10-08 to 10-10 (Genesis, Moses, Abraham, Lamentations, Malachi, Ezekiel, Daniel, Hosea, Joel) passed its review and is unread by the author, as are Jeremiah's five and all of Joel and Psalms; `node scripts/status.mjs` shows what is unread. Treat every page as open to the author's correction.
 
-## Ecclesiastes
-
-- **EC1: Ecclesiastes 12:7, “the spirit shall return unto God who gave it.”** The Church's sources read “the spirit” as the person's spirit, and President Harold B. Lee used the verse to teach premortal life (“we could not return to a place where we had never been”; Student Manual 2-59). The chapter heading, the seminary guide, and the Topical Guide and Guide to the Scriptures under premortal life read it the same way. Dana Pike (BYU) argues from the Hebrew that the word is *ruach*, the “one breath” that 3:19 says men and beasts share. On his reading the verse says the breath of life returns to God, and the doctrine of premortal life “must be sought elsewhere.” *Choices:* (a) the note gives the Church's reading first, with President Lee's words; then Pike's reading of the Hebrew, as his; then the scriptures that teach premortal life plainly (Abr. 3:22–23; D&C 93:29), without choosing between the two readings; (b) the note gives only the Church's reading, and Pike's goes in `explore` as further reading. **Recommend (a):** a reader who sees “breath” in a modern translation will ask, and the note keeps the doctrine on the scriptures that teach it. The chapter will be written to (a) unless you say otherwise.
-
 ## The site
 
 Nothing.
 
 ## Answered, awaiting implementation
 
-Nothing.
+- **EC1: Ecclesiastes 12:7** (author, 2026-10-24: “Just in the note is fine”). The note gives both readings, the Church's first (the chapter heading, President Lee), then Pike's reading of the Hebrew as his, then the scriptures that teach premortal life plainly; Pike is not added to `explore`. Recorded in `content/ecclesiastes/BRIEF.md`. To do: check chapter 12 against it once its batch is reviewed, then delete this line.
 
 ## Notes waiting for a Book of Mormon home
 
