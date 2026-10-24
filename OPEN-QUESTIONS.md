@@ -16,7 +16,7 @@ Nothing.
 
 ## Answered, awaiting implementation
 
-- **EC1: Ecclesiastes 12:7** (author, 2026-10-24: “Just in the note is fine”). The note gives both readings, the Church's first (the chapter heading, President Lee), then Pike's reading of the Hebrew as his, then the scriptures that teach premortal life plainly; Pike is not added to `explore`. Recorded in `content/ecclesiastes/BRIEF.md`. To do: check chapter 12 against it once its batch is reviewed, then delete this line.
+Nothing.
 
 ## Notes waiting for a Book of Mormon home
 
