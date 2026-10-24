@@ -1,0 +1,255 @@
+chapter: 4
+claims:
+  # setting
+  - where: 'setting'
+    claim: 'A modern translation heads verses 1–15 “He” and verse 16 “She”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+4&version=NIV'
+    quote: '§ She 16 Awake, north wind, and come, south wind! Blow on my garden,'
+  - where: 'setting'
+    claim: 'The head-to-foot descriptions are in 4:1–7; 5:10–16; 6:4–7; 7:1–7'
+    key: pike-reading-song
+    url: 'https://rsc.byu.edu/vol-15-no-2-2014/reading-song-solomon-latter-day-saint'
+    quote: 'Such descriptions, found in Song 4:1–7; 5:10–16; 6:4–7; and 7:1–7 (moving in this last passage in reverse order from foot to head), and which involve metaphorical analogies'
+
+  - where: 'setting'
+    claim: 'The Hebrew addresses a woman in verse 1 (second person feminine)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Song.xml'
+    quote: 'הִנָּ֨/ךְ'
+  - where: 'setting'
+    claim: 'In verse 16 the speaker says “my beloved,” a masculine noun'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Song.xml'
+    quote: 'דוֹדִ/י֙'
+
+  # thread
+  - where: 'thread'
+    claim: 'Verse 16 is the woman’s, in a modern translation’s headings'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+4&version=NIV'
+    quote: '§ She 16 Awake, north wind, and come, south wind!'
+
+  # note 4:1 praise
+  - where: 'note 4:1 “Praise from head to foot”'
+    claim: 'The man’s description of the woman from her head downward is a trait shared with Egyptian love poetry'
+    key: pike-reading-song
+    url: 'https://rsc.byu.edu/vol-15-no-2-2014/reading-song-solomon-latter-day-saint'
+    quote: 'The second shared trait, evident between this passage of Egyptian love poetry and the Song, is the male’s poetic description of the female, beginning with features of her head and moving down her body.'
+  - where: 'note 4:1 “Praise from head to foot”'
+    claim: 'The closest Egyptian parallels date to about 1300–1150 BC'
+    key: pike-reading-song
+    url: 'https://rsc.byu.edu/vol-15-no-2-2014/reading-song-solomon-latter-day-saint'
+    quote: 'Egyptian texts from the nineteenth and early twentieth dynasties (ca. 1300–1150 BC) of the New Kingdom period currently provide the closest non-Israelite parallels to this love poetry.'
+  - where: 'note 4:1 “Praise from head to foot”'
+    claim: 'The Egyptian text quoted is Papyrus Chester Beatty I'
+    key: pike-reading-song
+    url: 'https://rsc.byu.edu/vol-15-no-2-2014/reading-song-solomon-latter-day-saint'
+    quote: 'Some similarities between the Song and Egyptian love poetry can easily be illustrated with these excerpts from the Egyptian text known as Papyrus Chester Beatty I:'
+  - where: 'note 4:1 “Praise from head to foot”'
+    claim: 'Such descriptions recur in 5:10–16; 6:4–7; 7:1–7, the last from foot to head, and involve metaphorical analogies'
+    key: pike-reading-song
+    url: 'https://rsc.byu.edu/vol-15-no-2-2014/reading-song-solomon-latter-day-saint'
+    quote: 'Such descriptions, found in Song 4:1–7; 5:10–16; 6:4–7; and 7:1–7 (moving in this last passage in reverse order from foot to head), and which involve metaphorical analogies'
+  - where: 'note 4:1 “Praise from head to foot”'
+    claim: 'One older reading: the eyes are compared to doves in colour, motion and lustre'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/4.htm'
+    quote: 'her eyes gleam out, which, without needing to be supplemented by `עיני, are compared, as to their colour, motion, and lustre, to a pair of doves.'
+  - where: 'note 4:1 “Praise from head to foot”'
+    claim: 'One older reading: goats in Syria and Palestine were mostly black'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/4.htm'
+    quote: 'sheep in Syria and Palestine are for the most part white; but goats, for the most part, black, or at least dark coloured'
+  - where: 'note 4:1 “Praise from head to foot”'
+    claim: 'One older reading: the goats lying on the mountainside picture the locks hanging over her shoulders'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/4.htm'
+    quote: 'Solomon likens to this the appearance of the locks of his beloved, which hang down over her shoulders.'
+  - where: 'note 4:1 “Praise from head to foot”'
+    claim: 'One older reading: shorn sheep for smoothness, washed for whiteness, twins for the teeth matched in pairs'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/4.htm'
+    quote: 'With shorn (not to be shorn) sheep, the teeth in regard to their smoothness, and with washed sheep in regard to their whiteness, are compared … in respect of their full number, in which in pairs they correspond to one another, the one above to the one below'
+  - where: 'note 4:1 “Praise from head to foot”'
+    claim: 'The word behind “builded for an armoury” is doubtful; one proposal is weapons, with many other conjectures'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8530.htm'
+    quote: 'Ges (in Thes) exitialia, fatal things (√ תלף = Arabic perish); — poet for weapons; many other conjectures in Commentaries: ׳כְּ מִגְדַּל דָּוִיד צַוָּאדֵךְ בָּנוּי לְת Songs 4:4 a, doubtful'
+  - where: 'note 4:1 “Praise from head to foot”'
+    claim: 'A modern translation reads “built with courses of stone” and says the Hebrew is uncertain'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+4&version=NIV'
+    quote: 'Song of Songs 4:4 The meaning of the Hebrew for this phrase is uncertain.'
+  - where: 'note 4:1 “Praise from head to foot”'
+    claim: 'The modern translation’s rendering of verse 4'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+4&version=NIV'
+    quote: 'Your neck is like the tower(H) of David, built with courses of stone; on it hang a thousand shields,(I) all of them shields of warriors.'
+
+  # note 4:1 veil
+  - where: 'note 4:1 “Behind thy veil”'
+    claim: 'Tsammah means a woman’s veil, in Isa. 47:2 and Song 4:1, 3; 6:7'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6777.htm'
+    quote: 'צַמָּה noun feminine woman''s veil; suffix צַמָּתֵךְ; — Isaiah 47:2; Songs 4:1,3; Songs 6:7.'
+  - where: 'note 4:1 “Behind thy veil”'
+    claim: 'The Hebrew of 4:1 has “from behind your veil”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Song.xml'
+    quote: 'לְ/צַמָּתֵ֑/ךְ'
+  - where: 'note 4:1 “Behind thy veil”'
+    claim: 'A modern translation reads “behind your veil” in verses 1 and 3'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+4&version=NIV'
+    quote: 'Your eyes behind your veil(A) are doves.(B)'
+  - where: 'note 4:1 “Behind thy veil”'
+    claim: 'A modern translation reads “behind your veil” in verse 3'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+4&version=NIV'
+    quote: 'Your temples behind your veil are like the halves of a pomegranate.(G)'
+
+  # note 4:8
+  - where: 'note 4:8 “The mountains of the north”'
+    claim: 'Amana is a river flowing down from the Anti-Lebanon to Damascus, and the region it flows from'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/549.htm'
+    quote: '1 a river (constant ? compare Isaiah 33:16) flowing down from Antilebanon into the plain of Damascus 2 Kings 5:12 (Qr; אֲבָנָה Kt), the Greek Chrysorrhoas, modern Arabic Nahr Barad''. 2. the region from which it flows'
+  - where: 'note 4:8 “The mountains of the north”'
+    claim: 'Shenir is the Amorite name of Hermon, probably its northern peaks'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8149.htm'
+    quote: 'שְׂנִיר proper name, of a mountain Σανειρ: Amorite name of Hermon Deuteronomy 3:9, whence came cypress-trees Ezekiel 27:5, probably northern peak(s) of Hermon 1 Chronicles 5:23; Songs 4:8 (where + חֶרְמוֺן)'
+  - where: 'note 4:8 “The mountains of the north”'
+    claim: 'Deuteronomy names Shenir as the Amorite name of Hermon'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/3?lang=eng'
+    quote: '(Which Hermon the Sidonians call Sirion; and the Amorites call it Shenir;)'
+  - where: 'note 4:8 “The mountains of the north”'
+    claim: 'The land Israel took east of the Jordan reached to Mount Hermon'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/3?lang=eng'
+    quote: 'the land that was on this side Jordan, from the river of Arnon unto mount Hermon;'
+
+  # note 4:9
+  - where: 'note 4:9 “My sister, my spouse”'
+    claim: 'Egyptian lovers call each other “my sister” and “my brother”; the Song does the same'
+    key: pike-reading-song
+    url: 'https://rsc.byu.edu/vol-15-no-2-2014/reading-song-solomon-latter-day-saint'
+    quote: 'The first shared trait illustrated here is that the male and female lovers refer to each other in the Egyptian text as “my sister” and “my brother,” respectively.'
+  - where: 'note 4:9 “My sister, my spouse”'
+    claim: 'A modern translation of 4:9–10, and the other places “my sister” and “brother” occur'
+    key: pike-reading-song
+    url: 'https://rsc.byu.edu/vol-15-no-2-2014/reading-song-solomon-latter-day-saint'
+    quote: '“You have captivated my heart, my sister, my bride; . . . How beautiful is your love, my sister, my bride!” (ESV; see also 4:12; 5:1, 2, for “my sister”; and Song 8:1 for “brother”).'
+  - where: 'note 4:9 “My sister, my spouse”'
+    claim: 'The terms are expressions of endearment, not incest, found elsewhere in the ancient Near East'
+    key: pike-reading-song
+    url: 'https://rsc.byu.edu/vol-15-no-2-2014/reading-song-solomon-latter-day-saint'
+    quote: 'Clearly, the language in both Egyptian and Israelite texts does not refer to incestuous activity; rather, these are expressions of endearment, and similar usage appears sporadically in other ancient Near Eastern texts.'
+  - where: 'note 4:9 “My sister, my spouse”'
+    claim: 'Kallah means daughter-in-law or bride'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3618.htm'
+    quote: 'כַּלָּה noun feminine daughter-in-law, bride'
+  - where: 'note 4:9 “My sister, my spouse”'
+    claim: 'The verb of “ravished my heart” is read by some as “encouraged me,” by the AV and others as “ravished my heart”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3823.htm'
+    quote: 'Pi`el encourage; Perfect לִבַּבְתִּנִי בְּאַחַד֯ מֵעֵינַיִךְ . . . . לִבַּבִתִּנִי Songs 4:9 (twice in verse) thou hast encouraged me, thou hast encouraged me with one of thine eyes Ew Gi Gr RV m (AV RV Ges Hi De Öttli (compare Songs 5:6) ravished my heart'
+  - where: 'note 4:9 “My sister, my spouse”'
+    claim: 'A modern translation: “You have stolen my heart … with one glance of your eyes”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+4&version=NIV'
+    quote: '9 You have stolen my heart, my sister, my bride;(T) you have stolen my heart with one glance of your eyes, with one jewel of your necklace.(U)'
+
+  # note 4:12
+  - where: 'note 4:12 “A garden locked, a fountain sealed”'
+    claim: 'A modern translation: a garden locked up, a spring enclosed, a sealed fountain'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+4&version=NIV'
+    quote: '12 You are a garden(AB) locked up, my sister, my bride;(AC) you are a spring enclosed, a sealed fountain.(AD)'
+  - where: 'note 4:12 “A garden locked, a fountain sealed”'
+    claim: 'One older reading: no one has access to a locked garden but the rightful owner'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/4.htm'
+    quote: 'To a locked garden and spring no one has access but the rightful owner, and a sealed fountain is shut against all impurity.'
+  - where: 'note 4:12 “A garden locked, a fountain sealed”'
+    claim: 'Pardes is a loanword meaning preserve or park, from the Zend word for enclosure; whence Greek paradeisos'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6508.htm'
+    quote: 'מַּרְדֵּס noun [masculine] preserve, park (loan-word from Zend pairi-daêza, enclosure'
+  - where: 'note 4:12 “A garden locked, a fountain sealed”'
+    claim: 'BDB gives Greek paradeisos among the word’s relatives and glosses Song 4:13 as fruit trees and costly plants'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6508.htm'
+    quote: 'Greek παράδεισος; compare also DlPa 95 ff. DiGenesis 2:8); — ׳הַמּ Nehemiah 2:8 (containing trees); construct מַּרְדֵּס רִמּוֺנִים Songs 4:13 (fruit-trees and costly plants)'
+  - where: 'note 4:12 “A garden locked, a fountain sealed”'
+    claim: 'One older reading: most of the plants named are exotics; the flowers and fruits are figures of what the beloved offers'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/4.htm'
+    quote: 'the flowers and fruits named are figures of all that the amata offers to the amator. Most of the plants here named are exotics'
+  - where: 'note 4:12 “A garden locked, a fountain sealed”'
+    claim: 'One older reading: myrrh and frankincense did not grow in Palestine; frankincense was bought from Sheba'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/4.htm'
+    quote: 'the Israelites bought it from Sheba (Isaiah 60:6; Jeremiah 6:20). The myrrh tree as well as the frankincense tree were thus exotics in Palestine'
+  - where: 'note 4:12 “A garden locked, a fountain sealed”'
+    claim: 'One older reading: verse 12 compares the sealing up, verse 15 the inner life and its outward activity'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/4.htm'
+    quote: 'The tertium compar. in Sol 4:12 was the collecting and sealing up; here, it is the inner life and its outward activity. A fountain in gardens (גּנּים, categ. pl.) is put to service for the benefit of the beds of plants round about'
+
+  # note 4:16
+  - where: 'note 4:16 “My garden becomes his”'
+    claim: 'A modern translation gives verse 16 to “She”'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+4&version=NIV'
+    quote: '§ She 16 Awake, north wind, and come, south wind! Blow on my garden,(AM) that its fragrance(AN) may spread everywhere. Let my beloved(AO) come into his garden and taste its choice fruits.(AP)'
+  - where: 'note 4:16 “My garden becomes his”'
+    claim: 'The modern translation’s margin allows that verse 15 may be hers'
+    key: niv
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+4&version=NIV'
+    quote: 'Song of Songs 4:15 Or I am (spoken by She)'
+  - where: 'note 4:16 “My garden becomes his”'
+    claim: 'The Hebrew has “my garden” in the first half of verse 16'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Song.xml'
+    quote: 'גַנִּ֖/י'
+  - where: 'note 4:16 “My garden becomes his”'
+    claim: 'The Hebrew has “his garden” in the second half of verse 16'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Song.xml'
+    quote: 'לְ/גַנּ֔/וֹ'
+  - where: 'note 4:16 “My garden becomes his”'
+    claim: 'The one called “my beloved” is a masculine noun'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Song.xml'
+    quote: 'דוֹדִ/י֙'
+  - where: 'note 4:16 “My garden becomes his”'
+    claim: 'He answers in 5:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/song/5?lang=eng'
+    quote: 'I am come into my garden, my sister, my spouse'
+
+  # christ
+  - where: 'christ'
+    claim: 'Kallah is the word in Isaiah’s similes, among them 62:5'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3618.htm'
+    quote: 'a. just before marriage Isaiah 49:18; Isaiah 61:10; Isaiah 62:5; Jeremiah 2:32 (all in simile, etc.)'
+  - where: 'christ'
+    claim: 'The powers of procreation are to be used only between husband and wife'
+    key: family-proclamation
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/the-family-a-proclamation-to-the-world/the-family-a-proclamation-to-the-world?lang=eng'
+    quote: 'We further declare that God has commanded that the sacred powers of procreation are to be employed only between man and woman, lawfully wedded as husband and wife.'
+  - where: 'christ'
+    claim: 'Elder Holland: intimacy in marriage is a symbol of total union that demands special sanctity'
+    key: holland-souls-symbols
+    url: 'https://speeches.byu.edu/talks/jeffrey-r-holland_souls-symbols-sacraments/'
+    quote: 'human intimacy, that sacred, physical union ordained of God for a married couple, deals with a symbol that demands special sanctity. Such an act of love between a man and a woman is—or certainly was ordained to be—a symbol of total union'
+  - where: 'christ'
+    claim: 'Elder Holland points those with scars to the Atonement of Christ'
+    key: holland-souls-symbols
+    url: 'https://speeches.byu.edu/talks/jeffrey-r-holland_souls-symbols-sacraments/'
+    quote: 'I wish to extend to you the special peace and promise available through the atoning sacrifice of the Lord Jesus Christ.'
