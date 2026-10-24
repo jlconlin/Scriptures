@@ -371,6 +371,10 @@ const LDS_SPELLINGS = [
   [/^A GOOD name is rather/g, 'A good name is rather'], // Prov. 22:1
   // Ecclesiastes (found by scripts/check-kjv.mjs).
   [/yea farther; though a wise man/g, 'yea further; though a wise man'], // Eccl. 8:17
+  // Song of Solomon (found by scripts/check-kjv.mjs).
+  [/my well-beloved unto me;/g, 'my wellbeloved unto me;'], // Song 1:13
+  [/of Bathrabbim: thy nose/g, 'of Bath-rabbim: thy nose'], // Song 7:4
+  [/at Baalhamon; he let/g, 'at Baal-hamon; he let'], // Song 8:11
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 

@@ -23,6 +23,7 @@ export const meta = {
 //                the batch ends by running create-book-art (the book-art-director's visual brief, then one
 //                candidate image drawn by Codex); otherwise it says why not, and the coordinator runs create-book-art after the repairs.
 //                It then runs propose-themes: Fable reads the finished book and proposes theme pages.
+//   themes       false for a book the author has said needs no theme pages: propose-themes is not run (Song of Solomon, 2026-10-24).
 // Each agent works in the repository. Writers and reviewers leave two working files per chapter in
 // .cache/batch/<book>/ (not committed): proposed/NN.yaml, the sources.yaml entries the chapter needs, and
 // reports/NN-writer.md and reports/NN-check.md. Afterwards the coordinator runs scripts/merge-sources.mjs and scripts/batch-notes.mjs,
@@ -112,7 +113,7 @@ if (args.lastBatch) {
 // Theme candidates, while the author looks at the image: Fable reads the whole book and proposes arcs
 // (author, 2026-10-14: “finding the candidates, and setting the outline. Let's set Fable for that task”).
 let themes = null
-if (args.lastBatch && !missing.length) {
+if (args.lastBatch && !missing.length && args.themes !== false) {
   const leads = results.filter(Boolean).flatMap((r) => (r.review?.themeCandidates ?? []).map((t) => `(${r.chapter}) ${t}`))
   try { themes = await workflow('propose-themes', { book, leads }) } catch (err) { log(`Theme proposals failed to start (${err.message}): run the propose-themes workflow with args { book: '${book}' }.`) }
 }
