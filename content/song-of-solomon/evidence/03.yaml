@@ -9,16 +9,6 @@ claims:
 
   # note 3:1
   - where: 'note 3:1 “A search by night”'
-    claim: 'A modern translation heads verses 1–5 “Love’s Dream”'
-    key: nrsvue
-    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+3&version=NRSVUE'
-    quote: 'Love’s Dream'
-  - where: 'note 3:1 “A search by night”'
-    claim: 'One older reading: she relates a dream'
-    key: delitzsch-song
-    url: 'https://biblehub.com/commentaries/kad/songs/3.htm'
-    quote: 'It is thus a dream which she relates.'
-  - where: 'note 3:1 “A search by night”'
     claim: 'One older reading: the question to the watchmen, and finding him at once, belong to the nature of a dream, with inner truth if not outward reality'
     key: delitzsch-song
     url: 'https://biblehub.com/commentaries/kad/songs/3.htm'
@@ -78,16 +68,6 @@ claims:
     url: 'https://biblehub.com/hebrew/4296.htm'
     quote: 'מִטָּה noun feminine couch, bed … seat of King Solomon Songs 3:7; … sometimes portable'
   - where: 'note 3:7 “Solomon’s litter”'
-    claim: 'A modern translation reads “litter” in 3:7 and “palanquin” in 3:9'
-    key: nrsvue
-    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+3&version=NRSVUE'
-    quote: 'Look, it is the litter of Solomon! … King Solomon made himself a palanquin'
-  - where: 'note 3:7 “Solomon’s litter”'
-    claim: 'BDB: appiryon means sedan, litter, palanquin; origin dubious; perhaps Sanskrit or Greek; the Septuagint has phoreion'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/668.htm'
-    quote: 'noun [masculine] sedan, litter, palanquin (so Late Hebrew; origin dubious; no plausible Shemitic etymology; perhaps … Sanskrit paryanka, litter-bed … perhaps (if poem be late) Greek φορεῖον; — ᵐ5 has φορεῖον'
-  - where: 'note 3:7 “Solomon’s litter”'
     claim: 'The Hebrew of 3:9 has appiryon'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Song.xml'
@@ -131,13 +111,6 @@ claims:
     key: bdb
     url: 'https://biblehub.com/hebrew/2861.htm'
     quote: 'noun feminine marriage, wedding … — only בְּיוֺם חֲתֻנָּתו Songs 3:11 on the day of his marriage.'
-  - where: 'note 3:11 “A wedding crown”'
-    claim: 'The Hebrew of 3:11 has chatunnato, “his wedding”'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Song.xml'
-    quote: 'חֲתֻנָּת֔/וֹ'
-
-  # christ
   - where: 'christ'
     claim: 'One older reading: 3:6–11 pictures the bringing-home of the bride'
     key: delitzsch-song
