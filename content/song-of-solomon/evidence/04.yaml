@@ -7,12 +7,6 @@ claims:
     url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+4&version=NIV'
     quote: '§ She 16 Awake, north wind, and come, south wind! Blow on my garden,'
   - where: 'setting'
-    claim: 'The head-to-foot descriptions are in 4:1–7; 5:10–16; 6:4–7; 7:1–7'
-    key: pike-reading-song
-    url: 'https://rsc.byu.edu/vol-15-no-2-2014/reading-song-solomon-latter-day-saint'
-    quote: 'Such descriptions, found in Song 4:1–7; 5:10–16; 6:4–7; and 7:1–7 (moving in this last passage in reverse order from foot to head), and which involve metaphorical analogies'
-
-  - where: 'setting'
     claim: 'The Hebrew addresses a woman in verse 1 (second person feminine)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Song.xml'
@@ -98,18 +92,6 @@ claims:
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Song.xml'
     quote: 'לְ/צַמָּתֵ֑/ךְ'
-  - where: 'note 4:1 “Behind thy veil”'
-    claim: 'A modern translation reads “behind your veil” in verses 1 and 3'
-    key: niv
-    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+4&version=NIV'
-    quote: 'Your eyes behind your veil(A) are doves.(B)'
-  - where: 'note 4:1 “Behind thy veil”'
-    claim: 'A modern translation reads “behind your veil” in verse 3'
-    key: niv
-    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+4&version=NIV'
-    quote: 'Your temples behind your veil are like the halves of a pomegranate.(G)'
-
-  # note 4:8
   - where: 'note 4:8 “The mountains of the north”'
     claim: 'Amana is a river flowing down from the Anti-Lebanon to Damascus, and the region it flows from'
     key: bdb
@@ -174,11 +156,6 @@ claims:
     key: delitzsch-song
     url: 'https://biblehub.com/commentaries/kad/songs/4.htm'
     quote: 'To a locked garden and spring no one has access but the rightful owner, and a sealed fountain is shut against all impurity.'
-  - where: 'note 4:12 “A garden locked, a fountain sealed”'
-    claim: 'Pardes is a loanword meaning preserve or park, from the Zend word for enclosure; whence Greek paradeisos'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/6508.htm'
-    quote: 'מַּרְדֵּס noun [masculine] preserve, park (loan-word from Zend pairi-daêza, enclosure'
   - where: 'note 4:12 “A garden locked, a fountain sealed”'
     claim: 'BDB gives Greek paradeisos among the word’s relatives and glosses Song 4:13 as fruit trees and costly plants'
     key: bdb
