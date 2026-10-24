@@ -1,0 +1,324 @@
+chapter: 8
+claims:
+  # setting
+  - where: setting
+    claim: 'The Church’s chapter heading for Song 8 is “Many waters cannot quench love.”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/song/8?lang=eng'
+    quote: 'Many waters cannot quench love.'
+  - where: setting
+    claim: 'Verse 3 repeats 2:6, the embrace'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/song/2?lang=eng'
+    quote: 'His left hand is under my head, and his right hand doth embrace me.'
+  - where: setting
+    claim: 'The last verse echoes 2:17, the roe or young hart on the mountains'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/song/2?lang=eng'
+    quote: 'be thou like a roe or a young hart upon the mountains of Bether.'
+  - where: setting
+    claim: 'The question of 8:5 was asked at 3:6'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/8.htm'
+    quote: 'The third Acts; Sol 3:6, began with a similar question to that with which the sixth here commences.'
+  - where: setting
+    claim: 'Verses 8–9 are presumably the comments of the woman’s brothers, their only passage'
+    key: pike-reading-song
+    url: 'https://rsc.byu.edu/vol-15-no-2-2014/reading-song-solomon-latter-day-saint'
+    quote: 'one short passage presumably representing the comments of the female’s brothers (8:8–9).'
+  - where: setting
+    claim: 'The Hebrew of 8:6 “Set me” is addressed to a man (masculine imperative), so the woman speaks'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Song.xml'
+    quote: 'שִׂימֵ֨/נִי'
+  - where: setting
+    claim: 'The Hebrew of 8:13 “thou that dwellest” is feminine, so the man speaks to the woman'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Song.xml'
+    quote: 'הַ/יוֹשֶׁ֣בֶת'
+
+  # thread
+  - where: thread
+    claim: 'The last verse echoes 2:17'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/song/2?lang=eng'
+    quote: 'turn, my beloved, and be thou like a roe or a young hart upon the mountains of Bether.'
+
+  # 8:1
+  - where: 'note 8:1 “If only you were my brother”'
+    claim: '“Brother” and “sister” are words of endearment between lovers, in the Egyptian love poems and the Song (8:1 for “brother”)'
+    key: pike-reading-song
+    url: 'https://rsc.byu.edu/vol-15-no-2-2014/reading-song-solomon-latter-day-saint'
+    quote: 'and Song 8:1 for “brother”). Clearly, the language in both Egyptian and Israelite texts does not refer to incestuous activity; rather, these are expressions of endearment'
+  - where: 'note 8:1 “If only you were my brother”'
+    claim: 'The Hebrew of “who would instruct me” can be “she” or “you will teach me”; a modern translation follows the Greek and Syriac'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+8&version=NRSVUE'
+    quote: 'Gk Syr: Heb my mother; she (or you) will teach me'
+  - where: 'note 8:1 “If only you were my brother”'
+    claim: 'The Greek has “and into the chamber of her that conceived me”'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/songs/8.htm'
+    quote: 'I would bring thee into my mother''s house, and into the chamber of her that conceived me'
+  - where: 'note 8:1 “If only you were my brother”'
+    claim: 'The Greek’s added phrase is the wording of 3:4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/song/3?lang=eng'
+    quote: 'into the chamber of her that conceived me.'
+
+  # 8:5
+  - where: 'note 8:5 “She wakes him under the apple tree”'
+    claim: 'In 8:5 “I raised thee” has a masculine “thee”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Song.xml'
+    quote: 'עֽוֹרַרְתִּ֔י/ךָ'
+  - where: 'note 8:5 “She wakes him under the apple tree”'
+    claim: '“Thy mother” in 8:5 is masculine “thy”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Song.xml'
+    quote: 'אִמֶּ֔/ךָ'
+  - where: 'note 8:5 “She wakes him under the apple tree”'
+    claim: 'The “awake” of the refrain in 8:4 is the same verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Song.xml'
+    quote: 'תְּעֹֽרְר֛וּ'
+  - where: 'note 8:5 “She wakes him under the apple tree”'
+    claim: 'A modern translation: “Under the apple tree I awakened you. There your mother was in labor with you”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+8&version=ESV'
+    quote: 'Under the apple tree I awakened you.'
+  - where: 'note 8:5 “She wakes him under the apple tree”'
+    claim: 'The same modern translation: There your mother was in labor with you'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+8&version=ESV'
+    quote: 'There your mother was in labor with you;'
+  - where: 'note 8:5 “She wakes him under the apple tree”'
+    claim: 'Another modern translation has the same'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+8&version=NRSVUE'
+    quote: 'There your mother was in labor with you;'
+  - where: 'note 8:6 “A seal on the heart and on the arm”'
+    claim: 'A seal or signet-ring was hung by a cord about the neck (Gen. 38:18)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2368.htm'
+    quote: 'seal, signet-ring, hung by a cord (מָּתִיל) about the neck Genesis 38:18'
+  - where: 'note 8:6 “A seal on the heart and on the arm”'
+    claim: 'Or worn on the right hand (Jer. 22:24); Song 8:6 apparently combines the two'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2368.htm'
+    quote: 'worn on (finger of) right hand Jeremiah 22:24, (BenzArchäol. 106); the two customs apparently combined Songs 8:6'
+  - where: 'note 8:6 “A seal on the heart and on the arm”'
+    claim: 'A seal attested a royal letter (1 Kgs. 21:8) and was a precious article (Hag. 2:23)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2368.htm'
+    quote: 'used to attest a royal missive 1 Kings 21:8 (instrumental of verb חתם); a precious article Haggai 2:23 (simile of Zerubbabel)'
+  - where: 'note 8:6 “A seal on the heart and on the arm”'
+    claim: 'It has been suggested that Joseph Smith’s Liberty Jail words “seal them together in love” echo Song 8:6; the study offers it as a “perhaps”'
+    key: pike-reading-song
+    url: 'https://rsc.byu.edu/vol-15-no-2-2014/reading-song-solomon-latter-day-saint'
+    quote: 'Perhaps language from the Song of Songs lies behind two other expressions attributed to Joseph Smith: (1) Richard C. Galbraith (STPJS, 149, n. 13) suggests connecting Joseph Smith’s statement “that every species of wickedness and cruelty practiced upon us will only tend to bind our hearts together and seal them together in love” with Song 8:6'
+  - where: 'note 8:6 “A seal on the heart and on the arm”'
+    claim: 'The statement is from the letter written from Liberty Jail'
+    key: pike-reading-song
+    url: 'https://rsc.byu.edu/vol-15-no-2-2014/reading-song-solomon-latter-day-saint'
+    quote: 'These statements from Joseph Smith occur, respectively, in (1) a letter written from Liberty Jail'
+
+  # 8:6 strong as death
+  - where: 'note 8:6 “As strong as death”'
+    claim: '“The grave” is Sheol in the Hebrew'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+8&version=ESV'
+    quote: 'Hebrew as Sheol'
+  - where: 'note 8:6 “As strong as death”'
+    claim: '“Jealousy” (qinʾah) here is ardent love; elsewhere a husband’s jealousy'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7068.htm'
+    quote: 'ardour of jealousy of husband Proverbs 6:34'
+  - where: 'note 8:6 “As strong as death”'
+    claim: 'BDB gives “ardent love” for Song 8:6'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7068.htm'
+    quote: 'ardent love'
+  - where: 'note 8:6 “As strong as death”'
+    claim: 'A modern translation: “passion fierce as the grave”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+8&version=NRSVUE'
+    quote: 'passion fierce as the grave.'
+  - where: 'note 8:6 “As strong as death”'
+    claim: 'Death is pictured as the assailant nothing escapes; love seizes people with the same force'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/8.htm'
+    quote: 'Death is obviously thought of as the assailer (Jeremiah 9:20), against which nothing can hold its ground, from which nothing can escape'
+  - where: 'note 8:6 “As strong as death”'
+    claim: 'Sheol holds fast those it has swallowed; so the jealousy of love holds what it has'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/8.htm'
+    quote: 'holds them fast when once they are swallowed up by him. So the jealousy of love wholly takes possession of the beloved object'
+  - where: 'note 8:6 “As strong as death”'
+    claim: 'No adversity puts out true love, as waters put out fire'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/8.htm'
+    quote: 'no heaping up of adverse circumstances can extinguish true love, as many waters extinguish elemental fire'
+  - where: 'note 8:6 “As strong as death”'
+    claim: 'Love cannot be bought; the attempt would be scorned'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/8.htm'
+    quote: 'Nor can this love be bought; any attempt to buy it would be scorned and counted madness.'
+
+  # 8:6 flame
+  - where: 'note 8:6 “A flame of the Lord?”'
+    claim: 'BDB: shalhebetyah in Song 8:6 is “Yahweh-flame = powerful flame”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7957.htm'
+    quote: 'Songs 8:6 i.e. Yahweh-flame = powerful flame'
+  - where: 'note 8:6 “A flame of the Lord?”'
+    claim: 'A modern translation: “a raging flame”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+8&version=NRSVUE'
+    quote: 'a raging flame.'
+  - where: 'note 8:6 “A flame of the Lord?”'
+    claim: 'Another modern translation: “the very flame of the Lord”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+8&version=ESV'
+    quote: 'flame of the Lord.'
+  - where: 'note 8:6 “A flame of the Lord?”'
+    claim: 'The edition of the Leningrad Codex divides the one word into two for exegesis, the second being yah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Song.xml'
+    quote: 'A single word in the text has been divided for exegesis.'
+  - where: 'note 8:6 “A flame of the Lord?”'
+    claim: 'The second part is yah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Song.xml'
+    quote: 'יָֽה'
+  - where: 'note 8:6 “A flame of the Lord?”'
+    claim: 'The Song is devoid of the name of God'
+    key: pike-reading-song
+    url: 'https://rsc.byu.edu/vol-15-no-2-2014/reading-song-solomon-latter-day-saint'
+    quote: 'the Song is devoid of the name of God'
+
+  # 8:9 brothers
+  - where: 'note 8:9 “The little sister”'
+    claim: 'Verses 8–9 presumably represent the brothers’ comments'
+    key: pike-reading-song
+    url: 'https://rsc.byu.edu/vol-15-no-2-2014/reading-song-solomon-latter-day-saint'
+    quote: 'one short passage presumably representing the comments of the female’s brothers (8:8–9).'
+  - where: 'note 8:9 “The little sister”'
+    claim: '“Spoken for” is used of courting a wife (1 Sam. 25:39)'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/8.htm'
+    quote: 'that day when she will be spoken for, i.e., will attract the attention of a suitor'
+  - where: 'note 8:9 “The little sister”'
+    claim: 'The sense of courting a wife, as in 1 Samuel 25:39'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/8.htm'
+    quote: 'is modified in the sense of courting a wife, 1 Samuel 25:39'
+  - where: 'note 8:9 “The little sister”'
+    claim: 'Brothers were a sister’s guardians, especially in marriage (Gen. 24:50, 55; 34:6–8)'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/8.htm'
+    quote: 'The brothers are the nearest guardians and counsellors of the sister, and, particularly in the matter of marriage, have the precedence even of the father and mother, Genesis 24:50, Genesis 24:55; Genesis 34:6-8'
+  - where: 'note 8:9 “The little sister”'
+    claim: 'A wall stands firm'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/8.htm'
+    quote: 'A wall stands firm and withstands every assault'
+  - where: 'note 8:9 “The little sister”'
+    claim: 'A door is accessible; the cedar boards mean watching her so no one can approach'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/8.htm'
+    quote: 'Is she a door, i.e., accessible to seduction? They will enclose this door around with a cedar plank, i.e., watch her in such a manner that no seducer or lover will be able to approach her.'
+  - where: 'note 8:9 “The little sister”'
+    claim: 'A modern translation: “a battlement of silver”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+8&version=ESV'
+    quote: 'battlement of silver,'
+  - where: 'note 8:9 “The little sister”'
+    claim: 'The Hebrew of 8:10 “found favour” is shalom, peace'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7965.htm'
+    quote: '6 peace from war'
+  - where: 'note 8:9 “The little sister”'
+    claim: 'A modern translation: “as one who finds peace”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+8&version=ESV'
+    quote: 'as one who finds peace.'
+  - where: 'note 8:9 “The little sister”'
+    claim: 'Another: “as one who brings peace”'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Song+of+Songs+8&version=NRSVUE'
+    quote: 'as one who brings peace.'
+  - where: 'note 8:9 “The little sister”'
+    claim: 'The phrase varies “find favour in his eyes,” used of a woman winning a man’s affection (Esth. 2:17)'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/8.htm'
+    quote: 'which is used especially of a woman gaining the affections of a man, Esther 2:17'
+
+  # 8:12 vineyards
+  - where: 'note 8:12 “Two vineyards”'
+    claim: 'Solomon’s vineyard is let to keepers for a money rent'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/8.htm'
+    quote: 'the vine-plants of that region are entrusted to the "keepers" for a rent, which they have to pay, not in fruits but in money'
+  - where: 'note 8:12 “Two vineyards”'
+    claim: '“Before me” means under my direction'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/8.htm'
+    quote: 'can mean nothing else than: it stands under my direction'
+  - where: 'note 8:12 “Two vineyards”'
+    claim: 'Her vineyard is herself, hers to dispose of as Solomon disposes of his'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/8.htm'
+    quote: 'Shulamith also has a vineyard, which she is as free to dispose of as Solomon of his at Baal-hamon. It is the totality of her personal and mental endowments.'
+  - where: 'note 8:12 “Two vineyards”'
+    claim: 'The same reading takes the keepers of her vineyard to be her brothers'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/8.htm'
+    quote: 'These are her brothers, the true keepers and protectors of her innocence.'
+
+  # 8:14 ending
+  - where: 'note 8:14 “The last line”'
+    claim: 'In 8:13 “thou that dwellest” is feminine'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Song.xml'
+    quote: 'הַ/יוֹשֶׁ֣בֶת'
+  - where: 'note 8:14 “The last line”'
+    claim: 'The line repeats 2:17 with “mountains of Bether”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/song/2?lang=eng'
+    quote: 'be thou like a roe or a young hart upon the mountains of Bether.'
+  - where: christ
+    claim: 'The Song speaks of love equal to death, not surpassing it'
+    key: delitzsch-song
+    url: 'https://biblehub.com/commentaries/kad/songs/8.htm'
+    quote: 'But the text does not speak of surpassing, but of equality'
+  - where: christ
+    claim: 'Charity is the pure love of Christ and endures forever; it is bestowed on true followers (Moro. 7:47–48)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng'
+    quote: 'But charity is the pure love of Christ, and it endureth forever'
+  - where: christ
+    claim: 'The Father bestows charity on true followers of Christ; Mormon tells disciples to pray with all the energy of heart to be filled with it (Moro. 7:48)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng'
+    quote: 'pray unto the Father with all the energy of heart, that ye may be filled with this love, which he hath bestowed upon all who are true followers of his Son, Jesus Christ'
+  - where: 'note 8:14 “The last line”'
+    claim: 'The imperative בְּרַח, “flee,” is the form of Gen. 27:43'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1272.htm'
+    quote: 'Imperative בְּרַח Genesis 27:43'
+  - where: 'note 8:14 “The last line”'
+    claim: 'In Song 8:14 the verb has the sense “hasten, come quickly”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1272.htm'
+    quote: 'flee = hasten, come quickly Songs 8:14.'
+  - where: 'note 8:6 “A flame of the Lord?”'
+    claim: 'The lexicon records that others explain the -yah as a particle'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7957.htm'
+    quote: 'explains יָֿה here as encl. particle'
+  - where: 'note 8:6 “A seal on the heart and on the arm”'
+    claim: 'The right-hand custom is marked as perhaps later'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2368.htm'
+    quote: 'or (later ?) worn on (finger of) right hand Jeremiah 22:24'
