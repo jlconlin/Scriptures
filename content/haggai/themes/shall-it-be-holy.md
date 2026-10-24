@@ -52,3 +52,5 @@ In Haggai the people fear the Lord; He is with them, stirs them to build, promis
 ## Where this reaches now
 
 A holy place does not make someone holy: “attending the temple does not sanctify someone who is unworthy.”[@ot-seminary-resource-haggai] The Lord's latter-day house keeps the order of clean first, then His presence: “do not suffer any unclean thing to come into it… my glory shall rest upon it; yea, and my presence shall be there” ([[D&C 97:15–16]]). The Lord magnifies the efforts of those who consider their ways: “He will magnify our efforts as we consider our ways and make the proper adjustments to make and keep covenants with Him.”[@schmeil-consider-ways]
+
+Zechariah's visions carry the question on: the theme page [“Every Pot in Jerusalem”](/zechariah/themes/every-pot-in-jerusalem/) follows the Lord's removal of iniquity from one priest to a fountain for all Jerusalem and to the day when every pot is holy.
