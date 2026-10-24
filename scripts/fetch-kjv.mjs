@@ -362,6 +362,13 @@ const LDS_SPELLINGS = [
   [/\bBethpazzez\b/g, 'Beth-pazzez'], // Josh. 19:21
   [/\bEndor\b/g, 'En-dor'], // Josh. 17:11
   [/\bRemmonmethoar\b/g, 'Remmon-methoar'], // Josh. 19:13
+  [/sharp as a two-edged sword/g, 'sharp as a twoedged sword'], // Prov. 5:4
+  [/riches shall fall; but the righteous/g, 'riches shall fall: but the righteous'], // Prov. 11:28
+  [/righteousness is life: and in the pathway/g, 'righteousness is life; and in the pathway'], // Prov. 12:28
+  [/The poor useth intreaties/g, 'The poor useth entreaties'], // Prov. 18:23
+  [/and after vows to make enquiry/g, 'and after vows to make inquiry'], // Prov. 20:25
+  [/old men is the grey head/g, 'old men is the gray head'], // Prov. 20:29
+  [/^A GOOD name is rather/g, 'A good name is rather'], // Prov. 22:1
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 

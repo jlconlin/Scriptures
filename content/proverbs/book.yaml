@@ -1,0 +1,84 @@
+name: Proverbs
+slug: proverbs
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 12.5              # after Psalms (12), before Amos (13)
+abbr: prov               # [[Prov. 3:5]] links here
+gospelLibrary: ot/prov
+# Chapters with no period, and why (the build warns about any other Old Testament chapter without one)
+noPeriod:
+  - { chapters: 1-31, why: "a collection gathered over centuries, with no setting of its own in the text (author, 2026-10-21: “No context for psalms and possibly for proverbs (when we get there)”; brief, “Book-wide conventions”)" }
+eyebrow: The Old Testament
+heroQuote:
+  text: '“Trust in the LORD with all thine heart; and lean not unto thine own understanding. In all thy ways acknowledge him, and he shall direct thy paths.”'
+  cite: '[[Prov. 3:5–6]]'
+description: A phrase-by-phrase companion to the book of Proverbs, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Thirty-one chapters in five collections, each with its own heading. A father's discourses and the call of Wisdom come first, then the proverbs of Solomon, the words of the wise, the proverbs Hezekiah's men copied out, and the words of Agur and of King Lemuel, which end with the woman who fears the Lord.
+home:
+  blurb: Israel's book of wisdom, gathered over centuries under Solomon's name. A father teaches his son, Wisdom calls in the streets, and hundreds of two-line sayings weigh the wise against the fool, all resting on “the fear of the LORD.”
+
+intro: |
+  Proverbs is Israel's book of wisdom. It opens with “The proverbs of Solomon the son of David, king of Israel” ([[Prov. 1:1]]), but its own headings name other hands as well: “the wise” ([[Prov. 22:17]]), “the men of Hezekiah king of Judah” who copied out more of Solomon's proverbs ([[Prov. 25:1]]), Agur ([[Prov. 30:1]]), and King Lemuel, who passed on what his mother taught him ([[Prov. 31:1]]). Under all of it is one premise: “The fear of the LORD is the beginning of knowledge” ([[Prov. 1:7]]).
+
+  The first nine chapters are a father's counsel to his son and the speeches of Wisdom herself, who calls in the streets and was with the Lord before the earth was made. Chapters 10 to 29 are short sayings, most of them two lines set side by side, about the tongue, work, wealth, anger, friendship and the king; they say how life usually goes, not what is promised in every case. The book ends with an acrostic poem on “a virtuous woman,” a woman of strength who “feareth the LORD” ([[Prov. 31:30]]). This companion goes through all thirty-one chapters and tries to anticipate the questions a careful reader would ask, the hard ones included: who wrote the sayings, who Wisdom is, what the “strange woman” stands for, and what to make of the rod.
+
+  For how a two-line saying is built, see [Hebrew Poetry and the Prophets' Speech](/old-testament/guides/hebrew-poetry/#parallelism); for Solomon's reign, [A Timeline of the Old Testament](/old-testament/guides/israels-story/#united-kingdom); for the woman of strength, [Women and Marriage](/old-testament/guides/women-and-marriage/#valued).
+
+# The divisions are the book's own headings (1:1; 10:1; 22:17; 25:1; 30:1 and 31:1), as Davis lists the
+# collections (ot-minute-proverbs [8]–[18]). Division ranges are whole chapters, so the words of the wise,
+# which begin at 22:17, open the third division at chapter 23; chapter 22's thread says where they begin (brief, “Divisions”).
+# Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: provfather
+    range: [1, 9]
+    name: Hear, My Son
+    blurb: A father's ten discourses to his son, and Wisdom crying in the streets. Trust in the Lord, get wisdom, keep away from the strange woman; Wisdom tells how she was with the Lord before the mountains were settled, and builds her house and spreads her table.
+    color: '#3f6a8a'
+    darkColor: '#9cc4e4'
+  - key: provsolomon
+    range: [10, 22]
+    name: The Proverbs of Solomon
+    blurb: Hundreds of two-line sayings, most of them setting the righteous against the wicked and the wise against the fool. A soft answer, pride before a fall, the lot cast into the lap, and a child trained in the way he should go. At 22:17 the words of the wise begin.
+    color: '#7a5a2a'
+    darkColor: '#dcbf8a'
+  - key: provwise
+    range: [23, 24]
+    name: The Words of the Wise
+    blurb: Longer counsels, closer to the father's discourses. Manners at a ruler's table, the ancient landmark, the drunkard's red eyes, rescuing those drawn toward death, and the field of the slothful overgrown with thorns.
+    color: '#5f7a3a'
+    darkColor: '#b8d494'
+  - key: provhezekiah
+    range: [25, 29]
+    name: Which the Men of Hezekiah Copied Out
+    blurb: More proverbs of Solomon, gathered under King Hezekiah. Comparisons drawn from weather, animals and the farm, apples of gold, coals of fire on an enemy's head, answering a fool, and the king and the people who perish where there is no vision.
+    color: '#8a4a4a'
+    darkColor: '#e4a6a6'
+  - key: provagur
+    range: [30, 31]
+    name: The Words of Agur and of Lemuel
+    blurb: Agur, who confesses he lacks understanding and asks for neither poverty nor riches, and his sayings in numbers. Then a mother's counsel to King Lemuel, and an acrostic on the woman of strength whose price is far above rubies.
+    color: '#6b4a7a'
+    darkColor: '#cbb0dc'
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [1, 4], sources: [scripture-helps-proverbs] }
+  - { range: [15, 16], sources: [scripture-helps-proverbs] }
+  - { range: [22, 22], sources: [scripture-helps-proverbs] }
+  - { range: [31, 31], sources: [scripture-helps-proverbs] }
+
+beloved:
+  - { chapter: 1, verse: 7, text: 'The fear of the LORD is the beginning of knowledge' }
+  - { chapter: 3, verse: 5, text: 'Trust in the LORD with all thine heart; and lean not unto thine own understanding' }
+  - { chapter: 4, verse: 7, text: 'Wisdom is the principal thing; therefore get wisdom' }
+  - { chapter: 15, verse: 1, text: 'A soft answer turneth away wrath' }
+  - { chapter: 16, verse: 18, text: 'Pride goeth before destruction, and an haughty spirit before a fall' }
+  - { chapter: 22, verse: 6, text: 'Train up a child in the way he should go' }
+  - { chapter: 29, verse: 18, text: 'Where there is no vision, the people perish' }
+  - { chapter: 31, verse: 10, text: 'Who can find a virtuous woman? for her price is far above rubies' }
+
+coreSources:
+  - bd-proverbs
+  - scripture-helps-proverbs
+  - gs-proverb
