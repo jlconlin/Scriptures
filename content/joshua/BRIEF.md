@@ -10,7 +10,7 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository; `THEME-CANDIDAT
 
 `node scripts/status.mjs joshua` prints what the repository shows; the history is `git log -- content/joshua`. What a script can't see:
 
-- **In preview, no chapter written.** `book.yaml` has the divisions below, the period `kingdom` for every chapter, and `scripture-helps-josh` attached to 1–8 and 23–24. The Church's footnotes for every chapter are saved in `.cache/batch/joshua/fn1.txt` to `fn24.txt`; read them instead of running `footnotes.mjs` again. Scripture Central's KnoWhys for each chapter are saved in `.cache/batch/joshua/reports/knowhys/<n>.txt`: none has a Joshua verse as its main reference except #852 (24:11). The pages read for this brief are cached as text in `.cache/batch/joshua/research/` (search them first; reopen the URL with `source.mjs` for a ledger row).
+- **In preview, all 24 chapters written** (2026-10-23), each by an Opus writer, checked by Sonnet and reviewed by Opus; chapters 1–12 have had Codex's language pass. `book.yaml` has the divisions below, the period `kingdom` for every chapter, and `scripture-helps-josh` attached to 1–8 and 23–24. The Church's footnotes for every chapter are saved in `.cache/batch/joshua/fn1.txt` to `fn24.txt`; read them instead of running `footnotes.mjs` again. Scripture Central's KnoWhys for each chapter are saved in `.cache/batch/joshua/reports/knowhys/<n>.txt`: none has a Joshua verse as its main reference except #852 (24:11). The pages read for this brief are cached as text in `.cache/batch/joshua/research/` (search them first; reopen the URL with `source.mjs` for a ledger row). No theme page is chosen yet.
 
 ## What the author has decided
 
