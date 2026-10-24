@@ -48,6 +48,6 @@ Joshua “was a type of Jesus Christ, the great High Priest.”[@ot-manual-33] T
 
 Haggai's priests answered “No”: holy flesh in a garment does not make bread holy, while one unclean by the dead makes what he touches unclean ([[Hag. 2:12–13]]). Zechariah's “uncleanness” in [[Zech. 13:1]] is the Hebrew word of the “water of separation” of [[Num. 19:9]],[@oshb-wlc] the water without which one who touched the dead “shall be unclean” ([[Num. 19:13]]), the uncleanness of [[Hag. 2:13]]. Set side by side, the holy pots come after the fountain, not instead of it: holiness is not caught from holy things, and the Lord makes a people holy by taking their sin away. See [“Shall It Be Holy?”](/haggai/themes/shall-it-be-holy/).
 
-## Where this reaches now
+## Engraved on every heart
 
 “If we repent, Jesus Christ can take away our sins. We are forgiven and can become more holy,”[@liahona-2022-12-holy] and the condition of [[Zech. 3:7]] stands. The inscription reaches the common things of a day: “We seek it even in the details of daily living: our speech, our dress, our thoughts.”[@christofferson-living-bread] It “must be engraved not just on a temple wall, or even on ‘the bells of the horses’ and ‘every pot in Jerusalem’… They must also be engraved on every heart.”[@cfm-ot-2026-50]

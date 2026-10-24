@@ -43,6 +43,6 @@ From chapter 9 the Lord's verb is the causative form each time, the form that ma
 
 In this book His turning is given before the exiles' own is finished.[@keil-zechariah] To a scattered people He promises that they shall be “as though I had not cast them off.”
 
-## Where this reaches now
+## “Draw near unto me”
 
 The Lord who promised the exiles “I will turn unto you” gives the same two-sided promise to the Saints: “Draw near unto me and I will draw near unto you; seek me diligently and ye shall find me” ([[D&C 88:63]]), the verse the Church's footnote gives at 1:3.[@lds-scriptures] Of Saints who, like the fathers of 1:4 and 7:11–13, were slow to hearken: “They were slow to hearken unto the voice of the Lord their God… I will not utterly cast them off; and in the day of wrath I will remember mercy” ([[D&C 101:7–9]]). Set beside 10:6, “as though I had not cast them off,” the words are the Lord's in both places.

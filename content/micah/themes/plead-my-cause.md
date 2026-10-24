@@ -46,6 +46,6 @@ Other prophets say it: “thy God that pleadeth the cause of his people” ([[Is
 
 If the sinner repents, “the Savior pays the penalty through the Atonement, invoking mercy.”[@gs-justice] In Micah the One with the controversy is the One who pleads. In D&C 45 the Advocate says: “Father, spare these my brethren that believe on my name” ([[D&C 45:5]]).
 
-<h2 id="disciple">Where this reaches now</h2>
+<h2 id="disciple">“Unto those who confess”</h2>
 
 A cry that presumes on the Lord’s presence while refusing what He requires goes unheard: “except they repent … I will not hear their prayers” ([[Mosiah 11:25]]). He hears the one who confesses: “I, the Lord, forgive sins unto those who confess their sins before me and ask forgiveness” ([[D&C 64:7]]); in the Joseph Smith Translation, “if any man sin and repent, we have an advocate with the Father” (JST, [[1 Jn. 2:1]]).[@lds-scriptures] Doing justly includes that: a just person “repents when falling short, and keeps on trying.”[@renlund-do-justly] A disciple can say that “my Advocate, him who did no sin, whose blood was shed, will plead my cause.”[@ensign-2014-advocate]

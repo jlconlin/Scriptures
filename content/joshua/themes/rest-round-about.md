@@ -2,7 +2,6 @@
 title: Rest Round About
 blurb: Joshua says the LORD gave Israel rest, and the book sets beside it what remained or what could be lost. Hebrews, where “Jesus” in 4:8 is Joshua, says another rest remains; Alma and the Doctrine and Covenants say who enters it.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, scripture-helps-josh, nt-manual-hebrews-1-6, jfs-teachings-48, gs-rest, nelson-overcome-world]
 ---
 
@@ -47,6 +46,6 @@ Joshua’s last word on the rest is how it could be lost; Hebrews’ first word 
 
 Alma says who enters: “whosoever repenteth, and hardeneth not his heart, he shall have claim on mercy through mine Only Begotten Son, unto a remission of his sins; and these shall enter into my rest” ([[Alma 12:34]]; see [[D&C 84:24]]).[@lds-scriptures] “Many, exceedingly great many… were made pure and entered into the rest of the Lord their God” ([[Alma 13:12]]), and the ordinances were given that people “might look forward to him for a remission of their sins, that they might enter into the rest of the Lord” ([[Alma 13:16]]). To enter the Lord’s rest is to be “won over to Him, so that I can feel at rest in Christ.”[@jfs-teachings-48]
 
-## Where this reaches now
+## “I will give you rest”
 
 “Come unto me, all ye that labour and are heavy laden, and I will give you rest” ([[Matt. 11:28]]): the rest is offered now and is His to give. “The Lord has promised such rest to His faithful followers during this life. He has also prepared a place of rest for them in the next life.”[@gs-rest] Joshua’s charge was to “cleave unto the LORD your God” ([[Josh. 23:8]]); the rest from “the intensity, uncertainty, and anguish of this world” is found “by overcoming the world through your covenants with God.”[@nelson-overcome-world]

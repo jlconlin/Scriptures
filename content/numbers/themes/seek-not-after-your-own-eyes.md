@@ -40,6 +40,6 @@ Bitten Israelites are told, “every one that is bitten, when he looketh upon it
 
 Set beside the sentence at Kadesh ([[Num. 14:22–23]]), the next things Israel is told to see are objects the LORD commands to be looked upon ([[Num. 15:39]]; [[Num. 21:8]]). Jesus taught that the serpent was lifted up as He would be ([[John 3:14–15]]); and in Numbers the Messiah is foreseen by a man whose eyes the LORD opened ([[Num. 24:17]]).
 
-## Where this reaches now
+## “Look unto me in every thought”
 
 A disciple whose own eyes report the walls and the giants stands where the ten stood, and what Numbers offers that eye is something else to look at: “Look unto me in every thought; doubt not, fear not” ([[D&C 6:36]]), and to look to God is “to keep His commandments, cry unto Him continually for His support, counsel with Him in all your doings, and let your heart be full of thanks unto Him day and night.”[@christofferson-look]
