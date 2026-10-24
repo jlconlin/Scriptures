@@ -286,6 +286,82 @@ const LDS_SPELLINGS = [
   [/\bRegemmelech\b/g, 'Regem-melech'], // Zech. 7:2
   [/Behold, the LORD will cast her out/g, 'Behold, the Lord will cast her out'], // Zech. 9:4
   [/lightning: and the LORD God shall blow/g, 'lightning: and the Lord GOD shall blow'], // Zech. 9:14
+  // Joshua: “Lord” (adonai) where the source has LORD, a few readings and marks of punctuation, and the
+  // hyphenated place names (found by scripts/check-kjv.mjs)
+  [/covenant of the LORD of all the earth/g, 'covenant of the Lord of all the earth'], // Josh. 3:11
+  [/ark of the LORD, the LORD of all the earth/g, 'ark of the LORD, the Lord of all the earth'], // Josh. 3:13
+  [/and take you up every man of you a stone/g, 'and take ye up every man of you a stone'], // Josh. 4:5
+  [/until everything was finished that the LORD commanded Joshua/g, 'until every thing was finished that the LORD commanded Joshua'], // Josh. 4:10
+  [/view the country\.\s+And the men went up/g, 'view the country. And the men went up'], // Josh. 7:2
+  [/Alas, O LORD God, wherefore hast thou/g, 'Alas, O Lord GOD, wherefore hast thou'], // Josh. 7:7
+  [/^O LORD, what shall I say, when Israel/g, 'O Lord, what shall I say, when Israel'], // Josh. 7:8
+  [/\bAdonizedec\b/g, 'Adoni-zedek'], // Josh. 10:1, 3
+  [/beside the Sidonians unto Aphek/g, 'beside the Sidonians, unto Aphek'], // Josh. 13:4
+  [/^And Jahaza, and Kedemoth/g, 'And Jahazah, and Kedemoth'], // Josh. 13:18
+  [/put the Canaanites to tribute, but did not utterly/g, 'put the Canaanites to tribute; but did not utterly'], // Josh. 17:13
+  [/Beer-sheba, and Sheba, and Moladah/g, 'Beer-sheba, or Sheba, and Moladah'], // Josh. 19:2
+  [/^And Haphraim, and Shihon,/g, 'And Hapharaim, and Shion,'], // Josh. 19:19
+  [/and to Gezer; and the goings out thereof/g, 'and to Gezer: and the goings out thereof'], // Josh. 16:3
+  [/\bAtarothadar\b/g, 'Ataroth-adar'], // Josh. 18:13
+  [/\bAtarothaddar\b/g, 'Ataroth-addar'], // Josh. 16:5
+  [/\bAznothtabor\b/g, 'Aznoth-tabor'], // Josh. 19:34
+  [/\bBaalathbeer\b/g, 'Baalath-beer'], // Josh. 19:8
+  [/\bBaalgad\b/g, 'Baal-gad'], // Josh. 11:17, 12:7, 13:5
+  [/\bBamothbaal\b/g, 'Bamoth-baal'], // Josh. 13:17
+  [/\bBeeshterah\b/g, 'Beesh-terah'], // Josh. 21:27
+  [/\bBeneberak\b/g, 'Bene-berak'], // Josh. 19:45
+  [/\bBethanoth\b/g, 'Beth-anoth'], // Josh. 15:59
+  [/\bBetharabah\b/g, 'Beth-arabah'], // Josh. 15:61, 18:22
+  [/\bBetharam\b/g, 'Beth-aram'], // Josh. 13:27
+  [/\bBethbaalmeon\b/g, 'Beth-baal-meon'], // Josh. 13:17
+  [/\bBethdagon\b/g, 'Beth-dagon'], // Josh. 15:41, 19:27
+  [/\bBethhogla\b/g, 'Beth-hogla'], // Josh. 15:6
+  [/\bBethhoglah\b/g, 'Beth-hoglah'], // Josh. 18:19, 18:21
+  [/\bBethhoron\b/g, 'Beth-horon'], // Josh. 10:10, 10:11, 16:3, 16:5, 18:14, 21:22
+  [/\bBethjeshimoth\b/g, 'Beth-jeshimoth'], // Josh. 12:3, 13:20
+  [/\bBethlebaoth\b/g, 'Beth-lebaoth'], // Josh. 19:6
+  [/\bBethmarcaboth\b/g, 'Beth-marcaboth'], // Josh. 19:5
+  [/\bBethshean\b/g, 'Beth-shean'], // Josh. 17:11, 17:16
+  [/\bBethtappuah\b/g, 'Beth-tappuah'], // Josh. 15:53
+  [/\bBethzur\b/g, 'Beth-zur'], // Josh. 15:58
+  [/\bChepharhaammonai\b/g, 'Chephar-haammonai'], // Josh. 18:24
+  [/\bChislothtabor\b/g, 'Chisloth-tabor'], // Josh. 19:12
+  [/\bEngannim\b/g, 'En-gannim'], // Josh. 15:34, 19:21, 21:29
+  [/\bEngedi\b/g, 'En-gedi'], // Josh. 15:62
+  [/\bEnhaddah\b/g, 'En-haddah'], // Josh. 19:21
+  [/\bEnhazor\b/g, 'En-hazor'], // Josh. 19:37
+  [/\bEnrogel\b/g, 'En-rogel'], // Josh. 18:16
+  [/\bEnshemesh\b/g, 'En-shemesh'], // Josh. 15:7, 18:17
+  [/\bEntappuah\b/g, 'En-tappuah'], // Josh. 17:7
+  [/\bGathrimmon\b/g, 'Gath-rimmon'], // Josh. 19:45, 21:24, 21:25
+  [/\bGittahhepher\b/g, 'Gittah-hepher'], // Josh. 19:13
+  [/\bHammothdor\b/g, 'Hammoth-dor'], // Josh. 21:32
+  [/\bHazargaddah\b/g, 'Hazar-gaddah'], // Josh. 15:27
+  [/\bHazarshual\b/g, 'Hazar-shual'], // Josh. 15:28, 19:3
+  [/\bHazarsusah\b/g, 'Hazar-susah'], // Josh. 19:5
+  [/\bIrshemesh\b/g, 'Ir-shemesh'], // Josh. 19:41
+  [/\bIttahkazin\b/g, 'Ittah-kazin'], // Josh. 19:13
+  [/\bJiphthahel\b/g, 'Jiphthah-el'], // Josh. 19:14
+  [/\bKirjathbaal\b/g, 'Kirjath-baal'], // Josh. 15:60
+  [/\bKirjathsannah\b/g, 'Kirjath-sannah'], // Josh. 15:49
+  [/\bKirjathsepher\b/g, 'Kirjath-sepher'], // Josh. 15:15, 15:16
+  [/\bMaalehacrabbim\b/g, 'Maaleh-acrabbim'], // Josh. 15:3
+  [/\bMejarkon\b/g, 'Me-jarkon'], // Josh. 19:46
+  [/\bMigdalel\b/g, 'Migdal-el'], // Josh. 19:38
+  [/\bMigdalgad\b/g, 'Migdal-gad'], // Josh. 15:37
+  [/\bMisrephothmaim\b/g, 'Misrephoth-maim'], // Josh. 11:8, 13:6
+  [/\bRamathmizpeh\b/g, 'Ramath-mizpeh'], // Josh. 13:26
+  [/\bShihorlibnath\b/g, 'Shihor-libnath'], // Josh. 19:26
+  [/\bShimronmeron\b/g, 'Shimron-meron'], // Josh. 12:20
+  [/\bTaanathshiloh\b/g, 'Taanath-shiloh'], // Josh. 16:6
+  [/\bTimnathserah\b/g, 'Timnath-serah'], // Josh. 19:50, 24:30
+  [/\bZarethshahar\b/g, 'Zareth-shahar'], // Josh. 13:19
+  [/\bBethanath\b/g, 'Beth-anath'], // Josh. 19:38
+  [/\bBethemek\b/g, 'Beth-emek'], // Josh. 19:27
+  [/\bBethpalet\b/g, 'Beth-palet'], // Josh. 15:27
+  [/\bBethpazzez\b/g, 'Beth-pazzez'], // Josh. 19:21
+  [/\bEndor\b/g, 'En-dor'], // Josh. 17:11
+  [/\bRemmonmethoar\b/g, 'Remmon-methoar'], // Josh. 19:13
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 
