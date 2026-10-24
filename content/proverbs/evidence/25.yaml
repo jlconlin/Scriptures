@@ -41,12 +41,6 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/prov/25?lang=eng'
     quote: '“Come”: Luke 14:10 (7–14).'
 
-  - where: thread
-    claim: 'Paul quotes the saying about feeding an enemy'
-    key: delitzsch-proverbs
-    url: 'https://biblehub.com/commentaries/kad/proverbs/25.htm'
-    quote: 'Paul cites therefrom Romans 12:20.'
-
   - where: 'section 2 plain'
     claim: 'With the dross removed, the smith has material for a vessel'
     key: delitzsch-proverbs
@@ -104,16 +98,6 @@ claims:
     url: 'https://rsc.byu.edu/give-ear-my-words/words-wise-alma-36-39-through-lens-proverbs-1-9'
     quote: 'Since Lehi did not leave Jerusalem until around 600 BC, it is plausible that some proverbs were recorded on the brass plates.'
   - where: 'note 25:1 “Copied out by Hezekiah’s men”'
-    claim: 'The Hebrew verb in 25:1 is he‘tiqu'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Prov.xml'
-    quote: 'הֶ֝עְתִּ֗יקוּ'
-  - where: 'note 25:1 “Copied out by Hezekiah’s men”'
-    claim: 'The verb means move, proceed, advance'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/6275.htm'
-    quote: '[עָתֵק] verb move, proceed, advance'
-  - where: 'note 25:1 “Copied out by Hezekiah’s men”'
     claim: 'In 25:1, a very late use, it means to transcribe from one roll to another'
     key: bdb
     url: 'https://biblehub.com/hebrew/6275.htm'
@@ -166,16 +150,6 @@ claims:
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Proverbs%2025&version=NRSVUE'
     quote: 'is like apples of gold in a setting of silver.'
-  - where: section 3 plain
-    claim: 'One older reading: the cold of snow is snow-cooled drink, not a snowfall, which at harvest would be a calamity'
-    key: delitzsch-proverbs
-    url: 'https://biblehub.com/commentaries/kad/proverbs/25.htm'
-    quote: 'The coolness (צנּה from צנן, צנן, to be cool) of snow is not that of a fall of snow, which in the time of harvest would be a calamity, but of drink cooled with snow, which was brought from Lebanon or elsewhere'
-  - where: 'note 25:20 “Vinegar on soda”'
-    claim: 'The Hebrew word for “nitre” is neter'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Prov.xml'
-    quote: 'נָ֑תֶר'
   - where: 'note 25:20 “Vinegar on soda”'
     claim: 'Neter is natron, carbonate of soda; vinegar on it is a figure of the incompatible'
     key: bdb
@@ -228,11 +202,6 @@ claims:
     quote: 'but if this doing of good proceed from a revengeful aim, and is intended sensibly to humble an adversary, then it loses all its moral worth'
 
   - where: 'note 25:23 “The wind that brings rain”'
-    claim: 'The Hebrew verb is techolel'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Prov.xml'
-    quote: 'תְּח֣וֹלֵֽל'
-  - where: 'note 25:23 “The wind that brings rain”'
     claim: 'The root means writhe in travail, bear, bring forth'
     key: bdb
     url: 'https://biblehub.com/hebrew/2342.htm'
@@ -279,11 +248,6 @@ claims:
     url: 'https://www.biblegateway.com/passage/?search=Proverbs%2025&version=NRSVUE'
     quote: 'It is not good to eat much honey or to seek honor on top of honor.'
 
-  - where: christ
-    claim: 'Luke 14:11, the law under the parable of the seats'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/14?lang=eng'
-    quote: 'For whosoever exalteth himself shall be abased; and he that humbleth himself shall be exalted.'
   - where: christ
     claim: 'The Church’s footnote at “enemy” in 25:21 points to 3 Ne. 12:44'
     key: lds-scriptures
