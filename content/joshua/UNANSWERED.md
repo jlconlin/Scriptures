@@ -1,0 +1,10 @@
+# Joshua: reader questions no source answered
+
+Questions a reader would ask that no source read answered, by chapter: a list for a later deepening pass. Kept out of `BRIEF.md` so the brief stays brief.
+
+- **1:** 1:18: why do the people set death as the penalty for rebellion? Keil's link to Deut. 17:12 was cut to stay within the older-commentary limit, and no Latter-day Saint source read explains it; 1:11: why prepare food ('victuals') while the manna still fell (5:12)? The older commentaries' answer conflicts with 5:12.
+- **3:** 3:4: why exactly two thousand cubits (any Latter-day Saint source on the distance); 3:16: where the town of Adam was, and any natural mechanism for the damming; no Church or LDS source read addresses either.
+- **5:** Why must the men be circumcised before the Passover? Ex. 12:48 bars the uncircumcised from the feast, but no source read for this chapter ties that law to Gilgal (Wessel cites 12:48 only for strangers); Footnote 11a says 'old corn' is grain from the previous year, while Keil and Cambridge read it as the new produce. No note takes this up.
+- **7:** 7:2: Beth-aven, named beside Ai. No source read for this chapter explains it; 7:13: why "Sanctify yourselves" before the lot. The footnote points to 3:5, and no source read adds anything; 7:21: whether Achan's "saw… coveted… took… hid" echoes another passage. No source read makes the connection; 7:3–4: why the scouts were so confident and why three thousand men fled. The chapter answers this only through Scripture Helps' point that the Lord's protection was lost.
+- **8:** 8:34: what exactly was read, the curses of Deut. 27 or the whole law? The writer cut a note from Keil to stay within the limit on outside commentaries; no Latter-day Saint source was found.
+- **12:** Hormah and Arad (12:14): how these kings relate to Num. 21:1–3 is not answered; the Church's footnote is beside the verse; Whether listed kings such as those of Jerusalem (12:10) and Gezer (12:12) mean their cities were held (compare 15:63; 16:10): no source read connects them.
