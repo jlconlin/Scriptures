@@ -351,13 +351,14 @@ section.home-hero { padding-bottom: 0; }
    “What's in this picture” is listed open under it, filling the column beside the introduction; the eye button
    becomes the list's heading and site.js keeps the list open (author, 2026-10-23, option E of the mockup). */
 @media (min-width: 860px) {
-  .book-hero-inner { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); column-gap: 40px; align-items: start; }
+  .book-hero-inner, .chapter-hero-inner { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); column-gap: 40px; align-items: start; }
   .book-hero .book-art-figure, .book-hero-inner > .hero-art { margin-top: 8px; }
-  .book-hero .art-key > summary { position: static; display: block; width: auto; height: auto; margin-top: 18px; border-radius: 0; background: none; backdrop-filter: none; -webkit-backdrop-filter: none; color: var(--muted); cursor: default; pointer-events: none; transition: none; }
-  .book-hero .art-key > summary::before { content: none; }
-  .book-hero .art-key > summary .icon { display: none; }
-  .book-hero .art-key-label { position: static; width: auto; height: auto; overflow: visible; clip: auto; white-space: normal; font: 700 .72rem/1 var(--font-ui); letter-spacing: .12em; text-transform: uppercase; }
-  .book-hero .art-key ul { margin-top: 10px; }
+  .chapter-hero-inner .chapter-art { margin-top: 8px; max-width: none; }
+  .book-hero .art-key > summary, .chapter-art .art-key > summary { position: static; display: block; width: auto; height: auto; margin-top: 18px; border-radius: 0; background: none; backdrop-filter: none; -webkit-backdrop-filter: none; color: var(--muted); cursor: default; pointer-events: none; transition: none; }
+  .book-hero .art-key > summary::before, .chapter-art .art-key > summary::before { content: none; }
+  .book-hero .art-key > summary .icon, .chapter-art .art-key > summary .icon { display: none; }
+  .book-hero .art-key-label, .chapter-art .art-key-label { position: static; width: auto; height: auto; overflow: visible; clip: auto; white-space: normal; font: 700 .72rem/1 var(--font-ui); letter-spacing: .12em; text-transform: uppercase; }
+  .book-hero .art-key ul, .chapter-art .art-key ul { margin-top: 10px; }
 }
 .home-section, .book-section { margin-top: 48px; }
 /* The library on the home page: the Scriptures menu's three columns, open on the page (site.js).

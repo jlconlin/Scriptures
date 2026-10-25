@@ -252,7 +252,8 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
   const body = `
 <article class="chapter${single ? ' single-chapter' : ''}" data-book="${book.slug}" data-chapter="${n}" style="--div:var(--div-${division.key})">
   <header class="chapter-hero">
-    <div class="wrap">
+    <div class="wrap${art ? ' chapter-hero-inner' : ''}">
+      ${art ? '<div class="chapter-hero-text">' : ''}
       ${single ? `<p class="eyebrow"><a href="/${volumeSlug}/">${esc(book.eyebrow)}</a></p>
       <h1>${esc(book.name)}</h1>
       <p class="chapter-subtitle">${mdInline(ch.title)}</p>` : `<nav class="crumbs" aria-label="Breadcrumb"><a href="/${book.slug}/">${esc(book.name)}</a> <span>›</span> <a href="/${book.slug}/#${division.key}">${esc(division.name)}</a></nav>
@@ -267,7 +268,8 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
         <span>${icon('book')} <a href="${churchUrl}" target="_blank" rel="noopener">Read with footnotes in Gospel Library</a></span>
         ${lastRevised(ch.updated, 'span')}
       </div>
-      ${art ? `<div class="chapter-art">${art}</div>` : ''}
+      ${art ? `</div>
+      <div class="chapter-art">${art}</div>` : ''}
     </div>
   </header>
 
