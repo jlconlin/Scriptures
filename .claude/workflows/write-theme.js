@@ -1,6 +1,6 @@
 export const meta = {
   name: 'write-theme',
-  description: 'Write one theme page from the session’s outline and a research dossier: a writer, a reviewer, the writer’s repairs, then Codex’s reading applied',
+  description: 'Write one theme page (an essay that argues its thesis) from the session’s outline and a research dossier: a writer, a reviewer, the writer’s repairs, then Codex’s reading applied',
   whenToUse: 'A theme’s dossier is gathered and the coordinating session has written its outline (STANDARDS.md §8). args: { book, file, dossier, outline, writerModel, codexModel }',
   phases: [{ title: 'Write' }, { title: 'Review' }, { title: 'Repair' }, { title: 'Language' }],
 }
@@ -10,7 +10,7 @@ export const meta = {
 //   file         the page's file name without .md: 'the-firstborn'
 //   dossier      path of the research dossier (theme-researcher's; verbatim quotes with their URLs)
 //   outline      path of the outline: the arc step by step, which dossier row carries each step, and which connections are the page's own
-//   writerModel  'sonnet' (default) or 'opus'
+//   writerModel  'opus' (default since 2026-10-25: a theme page is an essay that argues its thesis, STANDARDS.md §8) or 'sonnet'
 //   codexModel   optional Codex model, when the configured one is at capacity
 const { book, file, dossier, outline } = args
 const base = `content/${book}`
@@ -70,12 +70,12 @@ First have a copy editor of another model family read it: run node scripts/codex
 
 Then decide each finding. Act on it when it is right: a sentence hard to follow, a point said twice, a source announced in running text, a reading stated as fact, two places that contradict each other. Decline it when it is wrong, when its fix would change what a sentence claims, or when the standard says otherwise, and say why in one line. **Add nothing**: no new fact, reference, quotation or connection; cut, merge, reorder and reword only, and a reworded sentence claims no more than the old one. Leave every passage inside quotation marks exactly as it is, or cut the whole quotation. Keep each heading unless a finding is about it; if you change one, change the “where” of its ledger rows to match. Delete a ledger row that now supports nothing; never add one. Touch only the page and its ledger. Then run ${check} and fix what it reports about your edits.`
 
-const written = await agent(writePrompt, { label: `write:${file}`, phase: 'Write', agentType: 'theme-writer', model: args.writerModel ?? 'sonnet' })
+const written = await agent(writePrompt, { label: `write:${file}`, phase: 'Write', agentType: 'theme-writer', model: args.writerModel ?? 'opus' })
 const review = await agent(reviewPrompt, { label: `review:${file}`, phase: 'Review', agentType: 'theme-reviewer', model: 'opus', schema: REVIEW })
 if (!review) return { file, writer: String(written).slice(0, 1500), review: null, next: 'The reviewer returned nothing: run the workflow again (finished agents are not repeated with resumeFromRunId).' }
 if (review.verdict === 'does not hold up as a theme') return { file, writer: String(written).slice(0, 1500), review, next: 'The reviewer says the theme does not hold up: read its summary, and rework the outline or drop the page.' }
 let repair = null
-if (review.fixes.length) repair = await agent(repairPrompt(review), { label: `repair:${file}`, phase: 'Repair', agentType: 'theme-writer', model: args.writerModel ?? 'sonnet' })
+if (review.fixes.length) repair = await agent(repairPrompt(review), { label: `repair:${file}`, phase: 'Repair', agentType: 'theme-writer', model: args.writerModel ?? 'opus' })
 const language = await agent(languagePrompt, { label: `language:${file}`, phase: 'Language', agentType: 'theme-writer', model: 'opus', schema: APPLIED })
 return {
   file, page, ledger, proposed,

@@ -24,7 +24,7 @@
 // Other rules, warnings only, each under its own heading (STANDARDS.md §3, §1): a source announced in a note, `setting`, `thread`,
 //   `christ`, or `explore`, or in a section of a guide or theme page (“the manual says”, “one commentator notes”); more than a third of a chapter's notes citing a
 //   commentary read on Bible Hub; a `setting` under 120 or over 280 words (the guideline is 150–250).
-// Guide and theme pages (STANDARDS.md §8), warnings only: a theme page over 1,000 words (a guide is not held to it); a `[@key]` cited in a
+// Guide and theme pages (STANDARDS.md §8), warnings only: a theme page over 4,000 words (not a limit; a guide is not held to it); a `[@key]` cited in a
 //   section whose ledger has no row for that key under that section (`where` “section “Heading”” or “opening”). Information, listed
 //   and not counted as a warning: the page's own connections, the ledger rows whose claim begins “Connection made by this page:”.
 // Per-note ledger coverage (STANDARDS.md §5), warnings only, each under its own heading, in a chapter with a ledger: a key in a note's
@@ -80,7 +80,7 @@ const ANNOUNCE_VERBS = [
 const ANNOUNCED = new RegExp(`\\b(?:${ANNOUNCERS.join('|')})\\s+(?:also |then |here |likewise )?(?:${ANNOUNCE_VERBS.join('|')})\\b`, 'gi');
 const OUTSIDE_COMMENTARY_SHARE = 1 / 3; // of a chapter's notes, citing a commentary read on Bible Hub
 const SETTING_WORDS = [120, 280]; // the guideline is 150–250
-const PAGE_WORDS = 1000; // a theme page: “well under 1,000 words” (STANDARDS.md §8)
+const PAGE_WORDS = 4000; // a theme page is an essay with no limit (STANDARDS.md §8, 2026-10-25); past this it is reread for padding
 // What --repeats leaves out: scripture, lexicons, and dictionary entries are meant to be quoted again.
 const REFERENCE_KEY = /^(?:lds-scriptures|greek-nt|biblehub-interlinear|lxx-|nrsv|niv$|esv$|kjv|oshb|tahot|bdb|halot|strongs|webster|thayer|jst-|mt-sefaria|.*-heading$)/;
 const REPEAT_WORDS = 12, REPEAT_CHAPTERS = 3;
@@ -266,7 +266,7 @@ for (const book of books) {
         const sections = pageSections(text.replace(/^---\n[\s\S]*?\n---\n?/, ''));
         // A theme page is short; a source announced in the running text is the same fault as in a chapter.
         const words = sections.reduce((n, s) => n + wordCount(s.text), 0);
-        if (sub === 'themes' && words > PAGE_WORDS) pageLength.push(`${where}: ${words} words (STANDARDS.md §8: well under ${PAGE_WORDS}, the table included)`);
+        if (sub === 'themes' && words > PAGE_WORDS) pageLength.push(`${where}: ${words} words (STANDARDS.md §8: no limit, but past ${PAGE_WORDS} the page is reread for paragraphs that don't advance the argument)`);
         for (const s of sections)
           for (const phrase of new Set([...s.text.matchAll(ANNOUNCED)].map((m) => m[0]))) announced.push(`${where} ${s.heading ? `section “${s.heading}”` : 'opening'}: “${phrase}”`);
 
