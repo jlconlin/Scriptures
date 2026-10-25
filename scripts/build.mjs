@@ -10,7 +10,7 @@ import YAML from 'yaml';
 import { md, plain, unknownRefs } from '../src/lib/markdown.mjs';
 import { applyCitations, stripCitations } from '../src/lib/citations.mjs';
 import { configureScripturePreviews } from '../src/lib/scripture-previews.mjs';
-import { renderChapter, range, chapterLabel } from '../src/templates/chapter.mjs';
+import { renderChapter, range, chapterLabel, chapterPath, singleChapter } from '../src/templates/chapter.mjs';
 // A note's reference as a reader sees it; verse 0 is a psalm's title.
 const noteRef = (book, chapter, ref) => (String(ref) === '0' ? `${chapterLabel(book, chapter)}, title` : `${chapterLabel(book, chapter)}:${ref}`);
 import { renderFacsimile, facsimileUrl } from '../src/templates/facsimile.mjs';
@@ -59,6 +59,12 @@ async function lastRevised(file) {
 // A page's ?v= stamp changes with every build, so it is left out of the hash: the saved copy answers assets
 // without their query, and an unchanged page is not fetched again for a new stamp.
 const OFFLINE_SKIP = /^(sw\.js|offline\.json|sitemap\.xml|robots\.txt|manifest\.webmanifest)$/;
+// A page that only forwards to another address on the site, keeping the #anchor (a verse or a note).
+const forwardPage = (to) => `<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Moved</title>
+<link rel="canonical" href="https://scriptures.conlin.io${to}"><meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0; url=${to}"><script>location.replace(${JSON.stringify(to)} + location.hash)</script></head>
+<body><p><a href="${to}">This page has moved.</a></p></body></html>
+`;
 async function writeOfflineList() {
   const walk = async (d) => (await Promise.all((await readdir(d, { withFileTypes: true })).map((e) => (e.isDirectory() ? walk(path.join(d, e.name)) : [path.join(d, e.name)])))).flat();
   const files = {};
@@ -371,12 +377,15 @@ export async function build({ quiet = false } = {}) {
         title: kjv.titles[ch.chapter],
         stanzas: kjv.stanzas[ch.chapter],
       });
-      search.push({ t: 'chapter', b: slug, r: chapterLabel(book, ch.chapter), h: plain(ch.title), u: `/${slug}/${ch.chapter}/`, x: plain(`${ch.tagline ?? ''} ${ch.setting ?? ''} ${ch.thread ?? ''}`).slice(0, 1200) });
-      if (kjv.titles[ch.chapter]) search.push({ t: 'verse', b: slug, r: `${chapterLabel(book, ch.chapter)}, title`, u: `/${slug}/${ch.chapter}/#v0`, x: kjv.titles[ch.chapter] });
-      verses.forEach((v, j) => search.push({ t: 'verse', b: slug, r: `${chapterLabel(book, ch.chapter)}:${j + 1}`, u: `/${slug}/${ch.chapter}/#v${j + 1}`, x: v }));
+      const u = chapterPath(book, ch.chapter);
+      search.push({ t: 'chapter', b: slug, r: chapterLabel(book, ch.chapter), h: plain(ch.title), u, x: plain(`${ch.tagline ?? ''} ${ch.setting ?? ''} ${ch.thread ?? ''}`).slice(0, 1200) });
+      if (kjv.titles[ch.chapter]) search.push({ t: 'verse', b: slug, r: `${chapterLabel(book, ch.chapter)}, title`, u: `${u}#v0`, x: kjv.titles[ch.chapter] });
+      verses.forEach((v, j) => search.push({ t: 'verse', b: slug, r: `${chapterLabel(book, ch.chapter)}:${j + 1}`, u: `${u}#v${j + 1}`, x: v }));
       (ch.notes ?? []).forEach((n) =>
-        search.push({ t: 'note', b: slug, k: n.kind, r: noteRef(book, ch.chapter, n.ref), h: plain(n.title ?? n.phrase ?? ''), u: `/${slug}/${ch.chapter}/#${n.id}`, x: plain(n.body) }),
+        search.push({ t: 'note', b: slug, k: n.kind, r: noteRef(book, ch.chapter, n.ref), h: plain(n.title ?? n.phrase ?? ''), u: `${u}#${n.id}`, x: plain(n.body) }),
       );
+      // A book of one chapter has one page, at the book's address; the chapter's old address forwards there, anchor and all.
+      if (singleChapter(book)) return Promise.all([write(`${slug}/index.html`, html), write(`${slug}/${ch.chapter}/index.html`, forwardPage(u))]);
       return write(`${slug}/${ch.chapter}/index.html`, html);
     });
     await Promise.all(chapterWrites);
@@ -393,7 +402,7 @@ export async function build({ quiet = false } = {}) {
     // The book's Guides page: its own guides and its themes beside them; never its volume's (author, 2026-10-18).
     book.guidesPage = Boolean(guides.length);
     if (book.guidesPage) await write(`${slug}/guides/index.html`, renderGuidesIndex({ owner: book, guides, themes: guides.length ? themes : [] }));
-    await write(`${slug}/index.html`, renderBookIndex({ book, guides, themes, sources }));
+    if (!(singleChapter(book) && book.written.length)) await write(`${slug}/index.html`, renderBookIndex({ book, guides, themes, sources }));
     built.push({ book, guides, themes });
   }
 
@@ -435,7 +444,7 @@ export async function build({ quiet = false } = {}) {
     ...built.flatMap(({ book, guides, themes }) => [
       ...guides.map((g) => `/${book.slug}/guides/${g.slug}/`),
       ...(themes.length ? [`/${book.slug}/themes/`, ...themes.map((t) => `/${book.slug}/themes/${t.slug}/`)] : []),
-      ...book.written.map((c) => `/${book.slug}/${c.chapter}/`),
+      ...(singleChapter(book) ? [] : book.written.map((c) => `/${book.slug}/${c.chapter}/`)),
       ...book.facsimiles.map((f) => facsimileUrl(book, f.n)),
     ]),
   ];

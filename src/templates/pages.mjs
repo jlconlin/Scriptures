@@ -144,7 +144,7 @@ ${guides.length ? volumeGuidesSection(volume, guides) : ''}`;
 // The book's illustration, with “What's in this picture” beneath it when visual.yaml has a `key`:
 // one line for each thing in the picture, saying which verse it shows (author, 2026-10-13: “One thing I really
 // struggle with is seeing symbols in someone else's artwork”).
-function artFigure(visual) {
+export function artFigure(visual) {
   const img = `<img class="hero-art book-art" src="${esc(visual.asset)}" alt="${esc(visual.alt)}">`;
   if (!visual.key?.length) return img;
   return `<figure class="book-art-figure">${img}

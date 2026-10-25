@@ -328,6 +328,12 @@ section.home-hero { padding-bottom: 0; }
 .book-hero .hero-art { display: block; width: 100%; max-width: none; margin-top: 32px; }
 .book-art-figure { margin: 32px 0 0; position: relative; }
 .book-hero .book-art-figure .hero-art { margin-top: 0; }
+/* A book of one chapter has one page: the book's name, the chapter's title under it, and the book's picture below
+   the hero's details (author, 2026-10-24: “Single page.”). */
+.chapter-hero .chapter-subtitle { font: 500 clamp(1.2rem, 3.6vw, 1.5rem)/1.3 var(--font-display); color: var(--ink-2); margin: 0 0 .5em; max-width: 30ch; text-wrap: balance; }
+.chapter-art { margin-top: 24px; max-width: 46rem; }
+.chapter-art .book-art-figure { margin: 0; }
+.chapter-art .hero-art { display: block; width: 100%; max-width: none; margin: 0; }
 /* “What's in this picture”: a faint button in the image's lower right corner; the list opens below the image (site.js keeps the button on the image). */
 .art-key > summary { list-style: none; cursor: pointer; position: absolute; right: 12px; bottom: calc(var(--key-h, 0px) + 12px); display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: rgba(20, 20, 24, .16); color: rgba(255, 255, 255, .75); backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); transition: background .15s, color .15s; }
 .art-key > summary::-webkit-details-marker { display: none; }

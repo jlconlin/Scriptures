@@ -4,6 +4,13 @@ import { layout, icon, lastRevised } from './layout.mjs';
 import { renderSource } from './sources.mjs';
 import { sectionNav, readingTools, noteSources, noteDialog } from './ui.mjs';
 import { compareVerse } from '../lib/bomdiff.mjs';
+import { VOLUMES } from '../lib/canon.mjs';
+import { artFigure } from './pages.mjs';
+
+// A book of one chapter (Obadiah) has one page, at the book's own address: the book's title and picture head the
+// chapter (author, 2026-10-24: “Single page.”). Every other chapter is at /<book>/<n>/.
+export const singleChapter = (book) => book.chapters.length === 1;
+export const chapterPath = (book, n) => (singleChapter(book) ? `/${book.slug}/` : `/${book.slug}/${n}/`);
 
 /** A chapter in the Gospel Library, where unwritten chapters send readers. */
 export const gospelLibraryUrl = (book, n) => `https://www.churchofjesuschrist.org/study/scriptures/${book.gospelLibrary}/${n}?lang=eng`;
@@ -225,7 +232,9 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
     .join('');
 
   const rangeSources = (book.rangeSources ?? []).filter((x) => n >= x.range[0] && n <= x.range[1]).flatMap((x) => x.sources);
-  const chapterSources = [...new Set([...(ch.sources ?? []), ...rangeSources])];
+  const single = singleChapter(book);
+  // The one page carries the book page's sources too.
+  const chapterSources = [...new Set([...(ch.sources ?? []), ...rangeSources, ...(single ? book.coreSources ?? [] : [])])];
   const srcList = chapterSources.map((s) => renderSource(s, sources)).filter(Boolean);
 
   const dial = book.chapters
@@ -237,16 +246,20 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
     .join('');
 
   const churchUrl = gospelLibraryUrl(book, n);
+  const art = single && book.visual?.status === 'approved' && book.visual.asset && book.visual.alt ? artFigure(book.visual) : '';
+  const volumeSlug = VOLUMES.find((v) => v.key === book.place?.vol)?.slug;
 
   const body = `
-<article class="chapter" data-book="${book.slug}" data-chapter="${n}" style="--div:var(--div-${division.key})">
+<article class="chapter${single ? ' single-chapter' : ''}" data-book="${book.slug}" data-chapter="${n}" style="--div:var(--div-${division.key})">
   <header class="chapter-hero">
     <div class="wrap">
-      <nav class="crumbs" aria-label="Breadcrumb"><a href="/${book.slug}/">${esc(book.name)}</a> <span>›</span> <a href="/${book.slug}/#${division.key}">${esc(division.name)}</a></nav>
+      ${single ? `<p class="eyebrow"><a href="/${volumeSlug}/">${esc(book.eyebrow)}</a></p>
+      <h1>${esc(book.name)}</h1>
+      <p class="chapter-subtitle">${mdInline(ch.title)}</p>` : `<nav class="crumbs" aria-label="Breadcrumb"><a href="/${book.slug}/">${esc(book.name)}</a> <span>›</span> <a href="/${book.slug}/#${division.key}">${esc(division.name)}</a></nav>
       <p class="eyebrow">${esc(book.unit?.singular ?? book.name)} <span class="ch-num">${n}</span></p>
-      <h1>${mdInline(ch.title)}</h1>
+      <h1>${mdInline(ch.title)}</h1>`}
       ${ch.tagline ? `<p class="tagline">${mdInline(ch.tagline)}</p>` : ''}
-      <div class="dial-wrap"><nav class="dial-context chapter-steps" aria-label="Adjacent chapters">${prev ? `<a href="/${book.slug}/${prev.chapter}/">${icon('arrowL')}${esc(chapterLabel(book, prev.chapter))}</a>` : '<span></span>'}<strong>${esc(book.unit?.singular ?? 'Chapter')} ${n} of ${book.chapters.length}</strong>${next ? `<a href="/${book.slug}/${next.chapter}/">${esc(chapterLabel(book, next.chapter))}${icon('arrowR')}</a>` : '<span></span>'}</nav><div class="dial-label" aria-hidden="true" hidden></div><div class="dial" style="--n:${book.chapters.length}" aria-label="${book.unit ? `The ${esc(unitPlural(book))}` : `Chapters of ${esc(book.name)}`}">${dial}</div></div>
+      ${single ? '' : `<div class="dial-wrap"><nav class="dial-context chapter-steps" aria-label="Adjacent chapters">${prev ? `<a href="/${book.slug}/${prev.chapter}/">${icon('arrowL')}${esc(chapterLabel(book, prev.chapter))}</a>` : '<span></span>'}<strong>${esc(book.unit?.singular ?? 'Chapter')} ${n} of ${book.chapters.length}</strong>${next ? `<a href="/${book.slug}/${next.chapter}/">${esc(chapterLabel(book, next.chapter))}${icon('arrowR')}</a>` : '<span></span>'}</nav><div class="dial-label" aria-hidden="true" hidden></div><div class="dial" style="--n:${book.chapters.length}" aria-label="${book.unit ? `The ${esc(unitPlural(book))}` : `Chapters of ${esc(book.name)}`}">${dial}</div></div>`}
       <div class="hero-meta">
         ${ch.when ? `<span>${icon('history')} ${period ? `<a href="${period.href}" data-panel title="${esc(period.title)}">${mdInline(ch.when)}</a>` : mdInline(ch.when)}</span>` : ''}
         ${ch.parallels?.some((p) => p.primary) ? `<span>${icon('restoration')} Also in ${mdInline(ch.parallels.filter((p) => p.primary).map((p) => `[[${p.ref}]]`).join(', '))}</span>` : ''}
@@ -254,6 +267,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
         <span>${icon('book')} <a href="${churchUrl}" target="_blank" rel="noopener">Read with footnotes in Gospel Library</a></span>
         ${lastRevised(ch.updated, 'span')}
       </div>
+      ${art ? `<div class="chapter-art">${art}</div>` : ''}
     </div>
   </header>
 
@@ -280,19 +294,19 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
       </div>
 
 
-      <nav class="pager" aria-label="Chapter navigation">
+      ${single ? '' : `<nav class="pager" aria-label="Chapter navigation">
         ${prev ? `<a class="pager-prev" href="/${book.slug}/${prev.chapter}/">${icon('arrowL')}<span><small>${esc(chapterLabel(book, prev.chapter))}</small>${esc(prev.title)}</span></a>` : '<span></span>'}
         ${next ? `<a class="pager-next" href="/${book.slug}/${next.chapter}/"><span><small>${esc(chapterLabel(book, next.chapter))}</small>${esc(next.title)}</span>${icon('arrowR')}</a>` : '<span></span>'}
-      </nav>
+      </nav>`}
     </div>
   </div>
 </article>
 ${noteDialog()}`;
 
   return layout({
-    title: `${chapterName}: ${plain(ch.title)}`,
+    title: `${single ? book.name : chapterName}: ${plain(ch.title)}`,
     description: plain(ch.tagline ?? ch.thread ?? '').slice(0, 200),
-    path: `/${book.slug}/${n}/`,
+    path: chapterPath(book, n),
     body,
     bodyClass: 'page-chapter',
     book,

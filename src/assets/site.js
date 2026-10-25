@@ -280,7 +280,7 @@
         const n = i + 1;
         const cur = b.slug === here.book && n === here.ch;
         return isWritten(b, n)
-          ? `<a class="cell written${cur ? ' current' : ''}" href="${url(`${b.slug}/${n}/`)}"${cur ? ' aria-current="page"' : ''}>${n}</a>`
+          ? `<a class="cell written${cur ? ' current' : ''}" href="${url(b.total === 1 ? `${b.slug}/` : `${b.slug}/${n}/`)}"${cur ? ' aria-current="page"' : ''}>${n}</a>`
           : `<a class="cell unwritten" href="${b.gl}/${n}?lang=eng" target="_blank" rel="noopener" aria-label="${esc(b.name)} ${n}, in the Gospel Library">${n}</a>`;
       }).join('');
       return `<div class="menu-col menu-ch" style="--vc:var(--v-${v.slug})">
@@ -444,7 +444,7 @@
       const cont = $('.home-continue');
       if (cont && last) {
         const link = document.createElement('a');
-        link.href = url(`${last.book}/${last.chapter}/`);
+        link.href = url(lastBook.total === 1 ? `${last.book}/` : `${last.book}/${last.chapter}/`);
         link.textContent = `${lastBook.name} ${last.chapter}${last.title ? `, ${last.title}` : ''}`;
         cont.replaceChildren('Continue · ', link);
         cont.hidden = false;
@@ -456,7 +456,7 @@
           const n = i + 1;
           const here = last && last.book === b.slug && last.chapter === n;
           return isWritten(b, n)
-            ? `<a class="cell written${here ? ' current' : ''}" href="${url(`${b.slug}/${n}/`)}" aria-label="${esc(b.name)} ${n}${here ? ', last opened' : ''}">${n}</a>`
+            ? `<a class="cell written${here ? ' current' : ''}" href="${url(b.total === 1 ? `${b.slug}/` : `${b.slug}/${n}/`)}" aria-label="${esc(b.name)} ${n}${here ? ', last opened' : ''}">${n}</a>`
             : `<a class="cell unwritten" href="${b.gl}/${n}?lang=eng" target="_blank" rel="noopener" aria-label="${esc(b.name)} ${n}, in the Gospel Library">${n}</a>`;
         }).join('');
         return `<div class="picker-pane" style="--vc:var(--v-${v.slug})">
