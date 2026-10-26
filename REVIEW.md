@@ -51,11 +51,11 @@ The insight has stakes, needs the Hebrew or the setting or another book to carry
 - deuteronomy / speak-not-in-thine-heart (four sayings of the heart; Romans 10)
 - hosea / out-of-egypt (how Matthew reads Hosea 11:1)
 
-### B. A single insight, worth stating at the new pace in a shorter page (24)
+### B. A single insight, worth stating at the new pace in a shorter page (25)
 
 Real, but one move. Rewrite so the page says what it concludes and argues it in a page of ordinary length, not an essay.
 
-amos / jacob-arise · daniel / but-if-not · deuteronomy / curse-into-blessing · deuteronomy / for-he-is-thy-life · exodus / proved-in-the-wilderness · exodus / that-ye-may-know · exodus / the-firstborn · exodus / what-israel-builds · ezekiel / a-little-sanctuary · ezekiel / new-heart-new-spirit · hosea / heal-their-backsliding · jeremiah / cup-of-fury · joel / overflowing-vats · joshua / in-the-midst-of-israel · joshua / no-part-in-the-lord · leviticus / i-will-be-sanctified · leviticus / them-that-come-nigh-me · malachi / god-of-judgment · numbers / pray-unto-the-lord · numbers / seek-not-after-your-own-eyes · psalms / my-portion-for-ever · psalms / the-broken-crown · psalms / who-can-ransom · zechariah / every-pot-in-jerusalem · zechariah / i-am-returned-with-mercies
+amos / jacob-arise · daniel / but-if-not · deuteronomy / curse-into-blessing · deuteronomy / for-he-is-thy-life · exodus / proved-in-the-wilderness · exodus / that-ye-may-know · exodus / the-firstborn · exodus / what-israel-builds · ezekiel / a-little-sanctuary · ezekiel / new-heart-new-spirit · genesis / brothers-reconciled (from bin D, 2026-10-26: reconciliation comes only when the wrong is named) · hosea / heal-their-backsliding · jeremiah / cup-of-fury · joel / overflowing-vats · joshua / in-the-midst-of-israel · joshua / no-part-in-the-lord · leviticus / i-will-be-sanctified · leviticus / them-that-come-nigh-me · malachi / god-of-judgment · numbers / pray-unto-the-lord · numbers / seek-not-after-your-own-eyes · psalms / my-portion-for-ever · psalms / the-broken-crown · psalms / who-can-ransom · zechariah / every-pot-in-jerusalem · zechariah / i-am-returned-with-mercies
 
 Two merges proposed: exodus / offered-at-sinai + exodus / moses-the-mediator + deuteronomy / hear-ye-him into one page on Sinai's refusal and the Mediator (they tell one story three times); the three Lamentations pages (hand-and-heart, look-upon-us, none-to-comfort) into one, since each ends on the same unrecorded reply.
 
@@ -72,7 +72,9 @@ Gone over with the author on 2026-10-26, one page at a time, each described with
 - abraham / council-to-creation — **deleted** (author: “Yes”)
 - abraham / fathers-blessing — **deleted** (author: “this theme isn't needed because this isn't a new connection”). Abraham now has no theme page.
 - genesis / blessing-outsiders — **deleted** (author: “Delete the page”); the author asked whether to merge it into the covenant page, and the answer was no (nothing to carry over; the covenant page follows one line, and is in bin C awaiting decision 2)
-- genesis / brothers-reconciled (three brother pairs, no step to Christ) — the session proposed moving it to bin B instead: the arc runs the whole book (blood; an embrace with the wrong unspoken; a reunion where the wronged brother names the wrong and forgives), and the step to Christ is the Savior revealing himself with the wounds shown. Not yet decided.
+- genesis / brothers-reconciled — **moved to bin B** (author: “Move to B”). Triaged as “three brother pairs, no step to Christ,” but the arc runs the whole book (blood; an embrace with the wrong unspoken; a reunion where the wronged brother names the wrong and forgives), and the step to Christ is the Savior revealing himself with the wounds shown. If the research does not bear that out, it is deleted then.
+
+Bin D is closed.
 
 ## The guides
 
