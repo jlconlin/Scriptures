@@ -24,7 +24,7 @@
 // Other rules, warnings only, each under its own heading (STANDARDS.md §3, §1): a source announced in a note, `setting`, `thread`,
 //   `christ`, or `explore`, or in a section of a guide or theme page (“the manual says”, “one commentator notes”); more than a third of a chapter's notes citing a
 //   commentary read on Bible Hub; a `setting` under 120 or over 280 words (the guideline is 150–250).
-// Guide and theme pages (STANDARDS.md §8), warnings only: a theme page over 4,000 words (the upper limit; a guide is not held to it); a `[@key]` cited in a
+// Guide and theme pages (STANDARDS.md §8), warnings only: a theme page over 4,000 words (the upper limit; a guide is not held to it); a source announced in a guide's text (a theme page, an essay, may name its sources); a `[@key]` cited in a
 //   section whose ledger has no row for that key under that section (`where` “section “Heading”” or “opening”). Information, listed
 //   and not counted as a warning: the page's own connections, the ledger rows whose claim begins “Connection made by this page:”.
 // Per-note ledger coverage (STANDARDS.md §5), warnings only, each under its own heading, in a chapter with a ledger: a key in a note's
@@ -264,11 +264,12 @@ for (const book of books) {
 
         // The page's sections: the text before the first heading is the opening (the ledger's `where` for it).
         const sections = pageSections(text.replace(/^---\n[\s\S]*?\n---\n?/, ''));
-        // A theme page is short; a source announced in the running text is the same fault as in a chapter.
+        // A theme page is an essay and may name a source in running text (STANDARDS.md §8, 2026-10-26); a guide may not (§3).
         const words = sections.reduce((n, s) => n + wordCount(s.text), 0);
         if (sub === 'themes' && words > PAGE_WORDS) pageLength.push(`${where}: ${words} words (STANDARDS.md §8: the upper limit is ${PAGE_WORDS}; cut what doesn't advance the argument)`);
-        for (const s of sections)
-          for (const phrase of new Set([...s.text.matchAll(ANNOUNCED)].map((m) => m[0]))) announced.push(`${where} ${s.heading ? `section “${s.heading}”` : 'opening'}: “${phrase}”`);
+        if (sub === 'guides')
+          for (const s of sections)
+            for (const phrase of new Set([...s.text.matchAll(ANNOUNCED)].map((m) => m[0]))) announced.push(`${where} ${s.heading ? `section “${s.heading}”` : 'opening'}: “${phrase}”`);
 
         // A page with a ledger is strict, like a chapter with one.
         const lf = `${path.relative(CONTENT, bdir)}/evidence/${sub}/${f.replace(/\.md$/, '.yaml')}`;
