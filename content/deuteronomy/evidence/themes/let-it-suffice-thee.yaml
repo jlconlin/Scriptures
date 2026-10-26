@@ -1,13 +1,6 @@
 page: let-it-suffice-thee
 claims:
   # ---------- opening ----------
-  - where: 'opening'
-    claim: 'Connection made by this page: read together, Moses refused at Pisgah (Deut. 3:23–28) and Jesus in Gethsemane show that a righteous prayer refused is one of the ways God answers, not a sign that He has not heard; Moses, kept for the mount, spoke with Jesus of His death'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/9?lang=eng'
-    quote: 'Who appeared in glory, and spake of his decease which he should accomplish at Jerusalem.'
-
-  # ---------- “The LORD hearkened unto me” ----------
   - where: 'section “Heard, and not heard”'
     claim: '“Would not hear me” (3:26) is the verb H8085 shamaʿ, negated'
     key: oshb-wlc
@@ -61,11 +54,6 @@ claims:
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
     quote: 'תַעֲבֹ֖ר'
   - where: 'section “Half a yes”'
-    claim: 'One older reading: the Hithpael at 3:26 means literally “to exceed bounds”'
-    key: cambridge-deuteronomy
-    url: 'https://biblehub.com/commentaries/cambridge/deuteronomy/3.htm'
-    quote: 'Heb. hith‘abber (lit. to exceed bounds) was enraged, a stronger term than that in Deuteronomy 1:37'
-  - where: 'section “Half a yes”'
     claim: 'BDB files the Hithpael as a verb of its own (denominative), “infuriate oneself,” and lists only Deut. 3:26 in the Pentateuch, with Psalms and Proverbs'
     key: bdb
     url: 'https://biblehub.com/hebrew/5674.htm'
@@ -80,92 +68,61 @@ claims:
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
     quote: 'וּ/רְאֵ֣ה'
-  - where: 'section “Half a yes”'
-    claim: 'Connection made by this page: the root ʿ-b-r frames the refusal (request, anger, denial), and the answer divides Moses’ two verbs, refusing “go over” and granting “see” in the verb of the request; the refusal is half a yes'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/3?lang=eng'
-    quote: 'Get thee up into the top of Pisgah, and lift up thine eyes westward, and northward, and southward, and eastward, and behold it with thine eyes: for thou shalt not go over this Jordan.'
-
-  # ---------- “For your sakes” ----------
-  - where: 'section “Whose fault”'
+  - where: 'section “For your sakes”'
     claim: '“For your sakes” in 1:37 is bigllalkhem (H1558)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
     quote: 'בִּ/גְלַלְ/כֶ֖ם'
-  - where: 'section “Whose fault”'
+  - where: 'section “For your sakes”'
     claim: '“For your sakes” in 3:26 is lemaʿankhem (H4616)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
     quote: 'לְמַ֣עַנְ/כֶ֔ם'
-  - where: 'section “Whose fault”'
+  - where: 'section “For your sakes”'
     claim: '“For your sakes” in 4:21 is ʿal-divrekhem (H1697)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
     quote: 'דִּבְרֵי/כֶ֑ם'
-  - where: 'section “Whose fault”'
+  - where: 'section “For your sakes”'
     claim: 'At Meribah Moses struck the rock twice instead of speaking to it, and asked, “Must we fetch you water out of this rock?”'
     key: scripture-helps-num
     url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/17-numbers-11-14-20-24-27?lang=eng'
     quote: 'However, instead of following God’s command to speak to the rock, Moses struck it twice with his staff. Additionally, Moses and Aaron failed to give credit to the Lord for this miracle. Before Moses struck the rock, he asked, “Must we fetch you water out of this rock?”'
-  - where: 'section “Whose fault”'
+  - where: 'section “For your sakes”'
     claim: 'The scriptures do not fully explain the reasons'
     key: scripture-helps-num
     url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/17-numbers-11-14-20-24-27?lang=eng'
     quote: 'Although the scriptures do not fully explain the reasons for this consequence'
-  - where: 'section “Whose fault”'
+  - where: 'section “For your sakes”'
     claim: 'Two passages indicate that Moses sinned; “for your sakes” could imply other reasons'
     key: ot-manual-numbers-13-36
     url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/numbers-13-36-wilderness-wanderings-part-2?lang=eng'
     quote: 'At least two other Old Testament passages indicate that Moses did sin in striking the rock at Meribah (see Numbers 27:12–14; Deuteronomy 32:51–52).'
-  - where: 'section “Whose fault”'
+  - where: 'section “For your sakes”'
     claim: '“For your sakes” could imply reasons other than Moses’ error'
     key: ot-manual-numbers-13-36
     url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/numbers-13-36-wilderness-wanderings-part-2?lang=eng'
     quote: 'This statement could imply that there were reasons other than the error of Moses for the prohibition.'
-  - where: 'section “Whose fault”'
+  - where: 'section “For your sakes”'
     claim: 'A proposal, with “perhaps”: Deuteronomy’s own context for the exclusion is the spies (1:22–23)'
     key: ot-minute-deut-3
     url: 'https://scripturecentral.org/archive/books/book-chapter/deuteronomy-3'
     quote: 'Considering the only Deuteronomic context for Moses’s exclusion is the incident with the spies, it suggests Moses may have displeased the Lord by capitulating to the people’s suggestion to send spies (Deuteronomy 1:22–23).'
-  - where: 'section “Whose fault”'
+  - where: 'section “For your sakes”'
     claim: 'The proposal is offered with “perhaps”'
     key: ot-minute-deut-3
     url: 'https://scripturecentral.org/archive/books/book-chapter/deuteronomy-3'
     quote: 'perhaps the exclusion was because Moses added instructions for the spies to qualitatively judge the land and its people'
-  - where: 'section “Whose fault”'
-    claim: 'Connection made by this page: every account of the refusal (for your sakes; Meribah “in the eyes of the children of Israel”; D&C 84, what the people could not endure) binds it to the people; the mediator’s lot was tied to the people’s'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/20?lang=eng'
-    quote: 'Because ye believed me not, to sanctify me in the eyes of the children of Israel, therefore ye shall not bring this congregation into the land which I have given them.'
-
-  # ---------- “Let it suffice thee” ----------
   - where: 'section “Enough”'
     claim: 'rav lakh at 3:26 is “enough!” with implication of excess, like rav lakhem at Num. 16:3, 7 “ye assume too much”; at 1:6 and 2:3 “it is enough for you to” (you have done it enough)'
     key: bdb
     url: 'https://biblehub.com/hebrew/7227.htm'
     quote: 'רַבלָֿךְ (with implication of excess) Deuteronomy 3:26 (let it) suffice thee! so רַבלָֿכֶם Ezekiel 45:9, also Numbers 16:3,7= ye assume too much ! + infinitive it is enough for you to Deuteronomy 1:6; Deuteronomy 2:3 (i.e. you have done it enough)'
   - where: 'section “Enough”'
-    claim: 'rav lakhem, plural, at 1:6 and 2:3'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'לָ/כֶ֥ם'
-  - where: 'section “Enough”'
-    claim: 'rav lakh, singular, at 3:26'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'לָ֔/ךְ'
-  - where: 'section “Enough”'
     claim: 'A Latter-day Saint reading: the Lord kindly acknowledged Moses’ yearning'
     key: ot-minute-deut-3
     url: 'https://scripturecentral.org/archive/books/book-chapter/deuteronomy-3'
     quote: '3:26. “let it suffice thee.” The Lord kindly acknowledged Moses’s yearning to enter the promised land with his people.'
-  - where: 'section “Enough”'
-    claim: 'Connection made by this page: in Deuteronomy “enough” is a word of direction (1:6–7; 2:3, each followed by “turn you”), and 3:26 is read the same way: the asking is finished and the next thing is given at once (3:27–28)'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/1?lang=eng'
-    quote: 'Ye have dwelt long enough in this mount:'
-
-  # ---------- “I have caused thee to see it” ----------
   - where: 'section “What he was given”'
     claim: 'Joshua means “Jehovah is salvation”'
     key: scripture-helps-num
@@ -191,13 +148,6 @@ claims:
     key: ot-manual-numbers-13-36
     url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/numbers-13-36-wilderness-wanderings-part-2?lang=eng'
     quote: 'And, Moses was translated—hardly a punishment for sinning against God.'
-  - where: 'section “What he was given”'
-    claim: 'Connection made by this page: what Moses was given in place of Canaan (the land seen whole, a successor charged, a life kept for a work beyond Jordan) was neither nothing nor a consolation; the refusal was the shape his next assignment took'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/3?lang=eng'
-    quote: 'But charge Joshua, and encourage him, and strengthen him: for he shall go over before this people, and he shall cause them to inherit the land which thou shalt see.'
-
-  # ---------- “Spake of his decease” ----------
   - where: 'section “The mountain”'
     claim: 'The Greek of “decease” in Luke 9:31 is exodos'
     key: thayer
@@ -213,13 +163,6 @@ claims:
     key: nt-student-manual-6
     url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/introduction-to-matthew/chapter-6?lang=eng'
     quote: 'Apparently Jesus himself was strengthened and encouraged by Moses and Elijah so as to be prepared for the infinite sufferings and agony ahead of him'
-  - where: 'section “The mountain”'
-    claim: 'Connection made by this page: the same thing happens to the servant and to the Son: Moses, refused “for your sakes,” stood with the Savior to speak of His death and (apparently) strengthen Him for an agony in which His own plea would be refused; the man refused Canaan was the man the Lord preserved, and he stood on the mount in the Savior’s company'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/9?lang=eng'
-    quote: 'And, behold, there talked with him two men, which were Moses and Elias:'
-
-  # ---------- “Not as I will” ----------
   - where: 'section “The garden”'
     claim: 'The Father denied the Son’s plea; the Atonement had to be worked out; His prayer was answered'
     key: oaks-1994-faith
@@ -235,11 +178,6 @@ claims:
     key: hales-waiting
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2011/10/waiting-upon-the-lord-thy-will-be-done?lang=eng'
     quote: 'He waited upon His Father, saying, “Thy will be done,” and He humbly trod the winepress alone.'
-  - where: 'section “The garden”'
-    claim: 'Because of His love for His Father and for us, He endured'
-    key: christofferson-abide-2016
-    url: 'https://www.churchofjesuschrist.org/study/general-conference/2016/10/abide-in-my-love?lang=eng'
-    quote: 'Nevertheless, because of His love for His Father and for us, He endured'
   - where: 'section “The garden”'
     claim: 'The Church’s edition ties Heb. 5:7 “prayers” to the Gethsemane prayers (Matt. 26:39, 42, 44)'
     key: lds-scriptures
@@ -280,7 +218,6 @@ claims:
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/15?lang=eng'
     quote: 'Behold, I am he that gave the law, and I am he who covenanted with my people Israel'
-
   - where: 'section “Enough”'
     claim: 'One older reading hears “Let it suffice thee” at 3:26 as the “enough” of 1:6'
     key: keil-deuteronomy
@@ -288,58 +225,100 @@ claims:
     quote: 'Let it suffice thee (satis sit tibi, as in Deuteronomy 1:6)'
 
   # ---------- “My grace is sufficient for thee” ----------
-  - where: 'section “Sufficient”'
+  - where: 'section “The disciple”'
     claim: 'One older reading draws the equivalence between “Let it suffice thee” and 2 Cor. 12:9'
     key: keil-deuteronomy
     url: 'https://biblehub.com/commentaries/kad/deuteronomy/3.htm'
     quote: 'substantially equivalent to 2 Corinthians 12:8, "My grace is sufficient for thee" (Schultz)'
-  - where: 'section “Sufficient”'
+  - where: 'section “The disciple”'
     claim: 'The Lord declined to heal Paul'
     key: oaks-2006-heals
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2006/10/he-heals-the-heavy-laden?lang=eng'
     quote: 'when the Apostle Paul sought to be healed from the “thorn in the flesh” that buffeted him (2 Corinthians 12:7), the Lord declined to heal him.'
-  - where: 'section “Sufficient”'
+  - where: 'section “The disciple”'
     claim: 'Sometimes we are healed by being given strength, understanding or patience to bear burdens'
     key: oaks-2006-heals
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2006/10/he-heals-the-heavy-laden?lang=eng'
     quote: 'But sometimes we are “healed” by being given strength or understanding or patience to bear the burdens placed upon us.'
-  - where: 'section “Sufficient”'
+  - where: 'section “The disciple”'
     claim: 'Some challenges will not be resolved here; the Lord gave Paul strength; the Redeemer will support you'
     key: nt-student-manual-42
     url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/2-corinthians/chapter-42-2-corinthians-6-13?lang=eng'
     quote: 'Recognize that some challenges in life will not be resolved here on earth.'
-  - where: 'section “Sufficient”'
+  - where: 'section “The disciple”'
     claim: 'The Lord gave Paul strength; in either case the Redeemer will support you'
     key: nt-student-manual-42
     url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/2-corinthians/chapter-42-2-corinthians-6-13?lang=eng'
     quote: 'He gave Paul strength to compensate so he could live a most meaningful life.'
-  - where: 'section “Sufficient”'
+  - where: 'section “The disciple”'
     claim: 'In either case the Redeemer will support you'
     key: nt-student-manual-42
     url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/2-corinthians/chapter-42-2-corinthians-6-13?lang=eng'
     quote: 'In either case the Redeemer will support you'
-  - where: 'section “Sufficient”'
+  - where: 'section “The disciple”'
     claim: 'Sometimes righteous desires are not granted in this life'
     key: hales-2019-answers
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2019/04/13hales?lang=eng'
     quote: 'And sometimes our righteous desires are not granted in this life.'
-  - where: 'section “Sufficient”'
+  - where: 'section “The disciple”'
     claim: 'The prayers for his health and his wife’s were heard and answered, though not as he asked'
     key: holland-hidden-fire-2024
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2024/04/13holland?lang=eng'
     quote: 'I testify that both of those prayers were heard and answered by a divinely compassionate Heavenly Father, even if the prayers for Pat were not answered the way I asked.'
-  - where: 'section “Sufficient”'
+  - where: 'section “The disciple”'
     claim: 'The prayers were for his own health and his wife’s'
     key: holland-hidden-fire-2024
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2024/04/13holland?lang=eng'
     quote: 'at roughly the same time so many were praying for the restoration of my health, an equal number—including me—were praying for the restoration of my wife’s health.'
-  - where: 'section “Sufficient”'
+  - where: 'section “The disciple”'
     claim: 'The object of prayer is not to change the will of God'
     key: bd-prayer
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/prayer?lang=eng'
     quote: 'The object of prayer is not to change the will of God but to secure for ourselves and for others blessings that God is already willing to grant'
-  - where: 'section “Sufficient”'
+  - where: 'section “The disciple”'
     claim: 'D&C 122 was the word of the Lord to Joseph Smith while a prisoner in the jail at Liberty'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/122?lang=eng'
     quote: 'The word of the Lord to Joseph Smith the Prophet, while a prisoner in the jail at Liberty, Missouri.'
+  - where: 'opening'
+    claim: 'Connection made by this page: read together, Moses refused at Pisgah (Deut. 3:23–28) and Jesus in Gethsemane show that a righteous prayer refused is one of the ways God answers, not a sign that He has not heard; Moses, kept for the mount, spoke with Jesus of His death'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/9?lang=eng'
+    quote: 'Who appeared in glory, and spake of his decease which he should accomplish at Jerusalem.'
+
+  # ---------- “The LORD hearkened unto me” ----------
+  - where: 'section “Half a yes”'
+    claim: 'Connection made by this page: the root ʿ-b-r frames the refusal (request, anger, denial), and the answer divides Moses’ two verbs, refusing “go over” and granting “see” in the verb of the request; the refusal is half a yes'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/3?lang=eng'
+    quote: 'Get thee up into the top of Pisgah, and lift up thine eyes westward, and northward, and southward, and eastward, and behold it with thine eyes: for thou shalt not go over this Jordan.'
+
+  # ---------- “For your sakes” ----------
+  - where: 'section “For your sakes”'
+    claim: 'Connection made by this page: every account of the refusal (for your sakes; Meribah “in the eyes of the children of Israel”; D&C 84, what the people could not endure) binds it to the people; the mediator’s lot was tied to the people’s'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/20?lang=eng'
+    quote: 'Because ye believed me not, to sanctify me in the eyes of the children of Israel, therefore ye shall not bring this congregation into the land which I have given them.'
+
+  # ---------- “Let it suffice thee” ----------
+  - where: 'section “Enough”'
+    claim: 'Connection made by this page: in Deuteronomy “enough” is a word of direction (1:6–7; 2:3, each followed by “turn you”), and 3:26 is read the same way: the asking is finished and the next thing is given at once (3:27–28)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/1?lang=eng'
+    quote: 'Ye have dwelt long enough in this mount:'
+
+  # ---------- “I have caused thee to see it” ----------
+  - where: 'section “What he was given”'
+    claim: 'Connection made by this page: what Moses was given in place of Canaan (the land seen whole, a successor charged, a life kept for a work beyond Jordan) was neither nothing nor a consolation; the refusal was the shape his next assignment took'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/3?lang=eng'
+    quote: 'But charge Joshua, and encourage him, and strengthen him: for he shall go over before this people, and he shall cause them to inherit the land which thou shalt see.'
+
+  # ---------- “Spake of his decease” ----------
+  - where: 'section “The mountain”'
+    claim: 'Connection made by this page: the same thing happens to the servant and to the Son: Moses, refused “for your sakes,” stood with the Savior to speak of His death and (apparently) strengthen Him for an agony in which His own plea would be refused; the man refused Canaan was the man the Lord preserved, and he stood on the mount in the Savior’s company'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/9?lang=eng'
+    quote: 'And, behold, there talked with him two men, which were Moses and Elias:'
+
+  # ---------- “Not as I will” ----------
