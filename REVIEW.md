@@ -16,7 +16,7 @@ The cause was found over two days and three drafts of the same two essays. The f
 
 ## Decisions still open (the author's)
 
-1. **The triage below.** It was made on 2026-10-25 from each page's opening and table, before the standard changed, and never approved; only the two test pages were chosen from it. The bins need the author's eye, above all the four proposed for deletion.
+1. **The triage below.** Made on 2026-10-25 from each page's opening and table, before the standard changed. Being gone over with the author on 2026-10-26: bin D is closed (three deleted, one moved to B) and bin A is approved; bins B and C are still to be gone over.
 2. **What happens to the “leave” bin.** The standard now says a theme page without an insight is not written. The pages in bin C are sound and carry arcs the manuals already teach; whether they stay in the old form, are rewritten last, or are deleted is the author's call.
 3. **Guides.** Proposed, not yet made: new guides get the essay's deal minus the license to make readings of their own (sourcing rules, no own readings, the pacing paragraph, one writer start to finish); existing guides are not rewritten until there is a reason to open one. And a sentence in §4–§5 that the ledger documents the page and the page is not written to the ledger (paraphrase the default, one row may stand behind a paragraph), which would reach chapters, guides and essays alike.
 4. **Chapter notes.** Not checked. The author's standing rule is to bring a volume up to every new rule at its full review; read a few chapters then with this question in mind.
@@ -24,7 +24,7 @@ The cause was found over two days and three drafts of the same two essays. The f
 
 ## How a page is done
 
-1. Start the dossier (`node scripts/theme-dossier.mjs …`) and run one `theme-researcher` (Sonnet) with the old page's ledger as verified evidence to carry in and the questions the essay needs answered beyond it.
+1. Start the dossier (`node scripts/theme-dossier.mjs …`) and run one `theme-researcher` (Sonnet) with the old page's ledger as verified evidence to carry in and the questions the essay needs answered beyond it. **Sonnet stays the researcher** (author, 2026-10-26, asked whether a more capable model was needed: “approved” the arrangement): the judgment sits at both ends with the Fable session, which frames the questions and reads the dossier whole; Sonnet finds, reads and verifies. Its known limit is that it answers what it is asked and does not notice what it was not asked, so the session's questions always include the adversarial ones: *who has already made this connection*, and *what in the text or the Hebrew works against it*. A dossier thin at the page's crux is finished by the session itself, not written around; the researcher is promoted to Opus only by exception, for a page whose crux is hard (how the New Testament reads the book, say), and a first Opus run is measured against a Sonnet one before the switch is adopted.
 2. The Fable session reads the dossier whole, decides whether there is an insight, and writes the essay and its ledger under the six instructions (`STANDARDS.md` §8). The old page and ledger are removed from the working tree first (git keeps them) so nothing of the old form is inherited.
 3. One `theme-reviewer` (Opus). The session makes the repairs and applies Codex's reading without compressing.
 4. `check-page.mjs`, `merge-sources.mjs`, commit with `status: preview`; the chapter notes that point to the page are reworded to say what it argues; the author reads it in the preview or in the artifact page.
@@ -36,7 +36,7 @@ The cause was found over two days and three drafts of the same two essays. The f
 
 ### A. An argument worth an essay (12)
 
-The insight has stakes, needs the Hebrew or the setting or another book to carry it, and a reader could object at several points.
+The insight has stakes, needs the Hebrew or the setting or another book to carry it, and a reader could object at several points. **Approved as the list of essays to write** (author, 2026-10-26: “All right, approved,” after the ten remaining were shown with the insight each argues). The session's note at the time: Hosea is the one most carried by existing scholarship on Matthew's use of the Old Testament, and Daniel's ending leans furthest beyond its book; neither weak enough to cut.
 
 - deuteronomy / let-it-suffice-thee — **done**
 - leviticus / accepted-for-him — **done**
@@ -98,4 +98,4 @@ Proposed: no guide is rewritten in this review. Each narrative guide is read onc
 
 ## Where it stands
 
-- 2026-10-26: standard changed; two essays done and in preview; the triage above awaiting the author; guides read (the newest and the oldest) and the finding recorded; decisions 1–5 open. Nothing pushed.
+- 2026-10-26: standard changed; two essays done and in preview; guides read (the newest and the oldest) and the finding recorded. The triage is being gone over with the author: bin D closed, bin A approved as the essays to write, Sonnet confirmed as researcher; bins B and C and decisions 2–5 still open. Nothing pushed.
