@@ -46,7 +46,7 @@ Build `content/<book>/evidence/NN.yaml` (two-digit chapter number) in the format
 
 ## 4. Write the chapter from the ledger
 
-Write `content/<book>/chapters/NN.yaml` with every field in `STANDARDS.md` (“Chapter file structure”). Work from the ledger: every factual claim you write has a row, and every source key you cite has a row. Then re-read your chapter against the ledger and remove anything that has no row.
+Write `content/<book>/chapters/NN.yaml` with every field in `STANDARDS.md` (“Chapter file structure”). Every factual claim you write has a row, and every source key you cite has a row; but the ledger documents the note, and the note is not written to the ledger (`STANDARDS.md` §5). Write the note as an argument that uses the sources as evidence, in your own words by default, quoting where the words are the point; one row may stand behind a whole paragraph. A note that goes “one reading… another reading… the text does not say,” a quotation on every clause, or one sentence per source, is the failure to avoid. Then re-read your chapter against the ledger and remove anything that has no row.
 
 - No length target, but no note that is mostly a chain of cross-references or a curiosity; `setting` 150–250 words.
 - Close with `christ` and `explore`. `christ` points to Jesus Christ and then says, in one to three plain sentences, where that principle reaches a disciple's life now, grounded in the scripture and prophets it cites (`STANDARDS.md` §1, “Apply scripture to the reader”): statements only, no questions to the reader, invitations or exhortation.
