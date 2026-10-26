@@ -54,7 +54,8 @@ add('jst', [['jst,isa|jstisa', 'jst-isa'], ['jst,gen|jstgen', 'jst-gen'], ['jst,
 
 // Chapters with study pages on this site: the Gospel Library slug above (book.yaml `abbr`) and a
 // chapter -> site path. Unwritten chapters of a book on the site still link to the Gospel Library.
-const internalPath = (abbr, chapter) => { const b = LIBRARY.find((x) => x.abbr === abbr); return b?.written.has(chapter) && `/${b.slug}/${chapter}`; };
+// A book of one chapter has its page at the book's own address.
+const internalPath = (abbr, chapter) => { const b = LIBRARY.find((x) => x.abbr === abbr); return b?.written.has(chapter) && (b.total === 1 ? `/${b.slug}` : `/${b.slug}/${chapter}`); };
 
 const norm = (b) => b.toLowerCase().replace(/[.\s]/g, '');
 

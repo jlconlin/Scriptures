@@ -328,6 +328,12 @@ section.home-hero { padding-bottom: 0; }
 .book-hero .hero-art { display: block; width: 100%; max-width: none; margin-top: 32px; }
 .book-art-figure { margin: 32px 0 0; position: relative; }
 .book-hero .book-art-figure .hero-art { margin-top: 0; }
+/* A book of one chapter has one page: the book's name, the chapter's title under it, and the book's picture below
+   the hero's details (author, 2026-10-24: “Single page.”). */
+.chapter-hero .chapter-subtitle { font: 500 clamp(1.2rem, 3.6vw, 1.5rem)/1.3 var(--font-display); color: var(--ink-2); margin: 0 0 .5em; max-width: 30ch; text-wrap: balance; }
+.chapter-art { margin-top: 24px; max-width: 46rem; }
+.chapter-art .book-art-figure { margin: 0; }
+.chapter-art .hero-art { display: block; width: 100%; max-width: none; margin: 0; }
 /* “What's in this picture”: a faint button in the image's lower right corner; the list opens below the image (site.js keeps the button on the image). */
 .art-key > summary { list-style: none; cursor: pointer; position: absolute; right: 12px; bottom: calc(var(--key-h, 0px) + 12px); display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: rgba(20, 20, 24, .16); color: rgba(255, 255, 255, .75); backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); transition: background .15s, color .15s; }
 .art-key > summary::-webkit-details-marker { display: none; }
@@ -345,13 +351,14 @@ section.home-hero { padding-bottom: 0; }
    “What's in this picture” is listed open under it, filling the column beside the introduction; the eye button
    becomes the list's heading and site.js keeps the list open (author, 2026-10-23, option E of the mockup). */
 @media (min-width: 860px) {
-  .book-hero-inner { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); column-gap: 40px; align-items: start; }
+  .book-hero-inner, .chapter-hero-inner { display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, .9fr); column-gap: 40px; align-items: start; }
   .book-hero .book-art-figure, .book-hero-inner > .hero-art { margin-top: 8px; }
-  .book-hero .art-key > summary { position: static; display: block; width: auto; height: auto; margin-top: 18px; border-radius: 0; background: none; backdrop-filter: none; -webkit-backdrop-filter: none; color: var(--muted); cursor: default; pointer-events: none; transition: none; }
-  .book-hero .art-key > summary::before { content: none; }
-  .book-hero .art-key > summary .icon { display: none; }
-  .book-hero .art-key-label { position: static; width: auto; height: auto; overflow: visible; clip: auto; white-space: normal; font: 700 .72rem/1 var(--font-ui); letter-spacing: .12em; text-transform: uppercase; }
-  .book-hero .art-key ul { margin-top: 10px; }
+  .chapter-hero-inner .chapter-art { margin-top: 8px; max-width: none; }
+  .book-hero .art-key > summary, .chapter-art .art-key > summary { position: static; display: block; width: auto; height: auto; margin-top: 18px; border-radius: 0; background: none; backdrop-filter: none; -webkit-backdrop-filter: none; color: var(--muted); cursor: default; pointer-events: none; transition: none; }
+  .book-hero .art-key > summary::before, .chapter-art .art-key > summary::before { content: none; }
+  .book-hero .art-key > summary .icon, .chapter-art .art-key > summary .icon { display: none; }
+  .book-hero .art-key-label, .chapter-art .art-key-label { position: static; width: auto; height: auto; overflow: visible; clip: auto; white-space: normal; font: 700 .72rem/1 var(--font-ui); letter-spacing: .12em; text-transform: uppercase; }
+  .book-hero .art-key ul, .chapter-art .art-key ul { margin-top: 10px; }
 }
 .home-section, .book-section { margin-top: 48px; }
 /* The library on the home page: the Scriptures menu's three columns, open on the page (site.js).
