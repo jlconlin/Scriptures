@@ -67,10 +67,12 @@ daniel / desolate-sanctuary · daniel / kingdom-never-destroyed · exodus / bloo
 
 ### D. No insight beyond the chapter notes: delete (4)
 
-- abraham / council-to-creation
-- abraham / fathers-blessing
-- genesis / blessing-outsiders (the page itself says Genesis never shows the promise coming to pass in these scenes)
-- genesis / brothers-reconciled (three brother pairs, no step to Christ)
+Gone over with the author on 2026-10-26, one page at a time, each described with the reason before the decision.
+
+- abraham / council-to-creation — **deleted** (author: “Yes”)
+- abraham / fathers-blessing — **deleted** (author: “this theme isn't needed because this isn't a new connection”). Abraham now has no theme page.
+- genesis / blessing-outsiders — **deleted** (author: “Delete the page”); the author asked whether to merge it into the covenant page, and the answer was no (nothing to carry over; the covenant page follows one line, and is in bin C awaiting decision 2)
+- genesis / brothers-reconciled (three brother pairs, no step to Christ) — the session proposed moving it to bin B instead: the arc runs the whole book (blood; an embrace with the wrong unspoken; a reunion where the wronged brother names the wrong and forgives), and the step to Christ is the Savior revealing himself with the wounds shown. Not yet decided.
 
 ## The guides
 
