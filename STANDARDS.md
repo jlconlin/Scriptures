@@ -83,6 +83,7 @@ claims:
 - `quote` is copied from that page, not paraphrased or recalled: from the page text as `scripts/source.mjs` prints it, or as `curl` returns it with the tags stripped (§9), never from a tool's summary of the page. Keep it short; for a lexicon or interlinear, quote the relevant line. Mark an elision with “…”.
 - **Rules:**
   - Every factual claim in the chapter has at least one row. A claim with no row does not go in the chapter.
+  - **The ledger documents the page; the page is not written to the ledger** (author, 2026-10-26, from the review of the theme pages, which found that when every sentence must have a row, writers write one sentence per row in the source's words and the prose takes the shape of the evidence file). Paraphrase is the default and a quotation is used where the words are the point; one row may stand behind a whole paragraph, and a paragraph may rest on one row. This holds for chapters, guides and theme pages alike.
   - Every source key cited anywhere in the chapter appears in the ledger at least once.
   - What the chapter's own verses say, and scripture quoted with a `[[reference]]` (checked by `check-quotes.mjs`), need no row. A claim *about* a scripture beyond its plain words (its date, its Hebrew, a variant, how a tradition reads it) does. So does a plain-words rendering that departs from the KJV's sense.
   - The ledger is committed with the chapter, in the same commit.
@@ -195,13 +196,13 @@ Then the author reads it in the preview (§11). The dossier is a working file an
 
 ### How a guide is written
 
-The same four steps and the same three agents, each of which has a section “When the page is a guide”; `DEVELOPMENT.md` (“Writing a book in batches”) has the commands. What differs:
+**A guide written from 2026-10-26 on gets the essay's deal, minus the license to make readings of its own** (author, 2026-10-26, from the review of the theme pages, which found the older guides had the same one-sentence-per-source voice as the old theme pages): research by a `theme-researcher` into a dossier; then one mind writes it, the Fable session that read the dossier, start to finish, at the pace of “How it reads” above, short paragraphs with one idea each and the reasoning written out between the sources; then one `theme-reviewer`, Codex's reading, and the author in the preview. The guides written before that date stand as they are until their turn in the review (`REVIEW.md`). What differs from a theme page:
 
 - **A guide is background, not an arc and not an argument.** It says what a period, a custom or an institution was, where the text shows it, and what scripture and the Church teach about it. Nothing has to develop and no thesis is argued, and though a theme page is now an essay of any length a guide is still a page to consult: “long enough to cover the subject, but short enough to still be interesting” (author, 2026-10-12, of a 4,000-word first draft of the women guide that was too long to read; about 2,000 words is the measure). Detail goes in the chapter notes the guide links to.
 - **§4 holds in full.** A guide makes no connections of its own: every statement is a quoted verse's plain words or is cited, and its ledger has no “Connection made by this page:” row.
 - **It explains; it doesn't argue.** No sentence defends, excuses or condemns beyond its source, an evaluative word is a claim with a row, and a hard passage is named plainly and given what the sources give it.
-- **The outline is still the session's**, on the most capable model, and for a guide the author has asked to approve, the author reads the outline before anything is written.
-- **Writing, review, repairs and the language pass are one workflow**, `.claude/workflows/write-guide.js`; the page starts with `status: preview` and every agent checks it with `node scripts/check-page.mjs <owner> <file name>`.
+- **For a guide the author has asked to approve, the author reads the outline before anything is written.** Otherwise the session that writes it needs no outline but its own.
+- **The page starts with `status: preview`** and is checked with `node scripts/check-page.mjs <owner> <file name>` before the reviewer sees it. (`.claude/workflows/write-guide.js`, the four-agent workflow, wrote the guides before 2026-10-26 and is kept for the record.)
 - **Afterwards the chapters link to it**: one sentence at the end of each note that touches the guide's subject, pointing to the section by its id.
 
 ## 9. Research tools and access
