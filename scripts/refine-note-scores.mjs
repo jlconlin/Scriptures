@@ -83,7 +83,7 @@ async function originalRecords() {
     for (const f of files.filter((v) => /^\d+\.json$/.test(v)).sort()) {
       const cp = await json(path.join(dir, book, 'checkpoints', book, f));
       const s = await source(book, cp.chapter);
-      if (cp.rubric_version !== 'prose-v1-calibrated-1' || cp.status !== 'complete' || cp.chapter_sha256 !== s.hash || cp.notes.length !== (s.ch.notes ?? []).length) throw Error(`${book} ${f}: original review stale or incomplete`);
+      if (cp.book !== book || Number(f.replace('.json', '')) !== cp.chapter || cp.model !== 'gpt-6-luna' || cp.reasoning !== 'high' || cp.rubric_version !== 'prose-v1-calibrated-1' || cp.status !== 'complete' || cp.chapter_sha256 !== s.hash || !Array.isArray(cp.notes) || cp.notes.length !== (s.ch.notes ?? []).length || new Set(cp.notes.map((n) => n.index)).size !== cp.notes.length) throw Error(`${book} ${f}: original review stale or incomplete`);
       for (const n of cp.notes) {
         const actual = s.ch.notes[n.index];
         if (!actual || ['ref', 'title', 'kind'].some((k) => n[k] !== actual[k]) || !Number.isInteger(n.rating) || n.rating < 0 || n.rating > 3) throw Error('Invalid original note');
@@ -194,11 +194,12 @@ async function report() {
   const render = (list) => table(['Book', 'Ch.', 'Ref', 'Note', 'Rating', 'Evidence', 'Needed repair / judgment'], list.map(({ n, cp }) => [n.book, n.chapter, n.ref, n.title, cp.adjudication.rating, cp.adjudication.evidence, cp.adjudication.revision_needed || cp.adjudication.reason]));
   const byBook = [...new Set(candidates.map(({ n }) => n.book))].sort().map((book) => { const list = candidates.filter(({ n }) => n.book === book), completed = list.filter(({ cp }) => cp); return [book, `${completed.length}/${list.length}`, group(completed, 'clear_revision').length, group(completed, 'polish_keep').length, group(completed, 'unresolved').length]; });
   const changes = done.filter(({ cp }) => cp.reading.rating !== undefined && (cp.reading.rating >= 2) !== (cp.adjudication.rating >= 2));
+  const newChanges = changes.filter(({ cp }) => cp.provenance === 'two-stage-second-pass');
   const md = ['# Second pass on chapter-note revision candidates', '', `Generated ${new Date().toISOString()}. Model ${MODEL}, High. Protocol ${PROTOCOL}.`, '',
     `Candidate coverage: **${done.length}/${candidates.length}**. Clear revision recommendations: **${retained.length}**; polish/keep: **${dropped.length}**; unresolved: **${unresolved.length}**. Unreviewed: ${candidates.length - done.length}.`, '',
     `Fresh unflagged audit: ${auditDone.length}/${audits.length}; newly recommended revisions: ${group(auditDone, 'clear_revision').length}; unresolved: ${group(auditDone, 'unresolved').length}. Audit findings are separate from the original 289 candidates.`, '',
     'Editorial judgments, not verified defects or rewrite authorization. Original corpus ratings remain unchanged. Each new batch has a calibrated independent reading with the original objection withheld, followed by adjudication after that objection is revealed. Matching completed trial judgments are reused with their distinct conditions recorded. Agreement after revelation is not independent validation. The small stratified audit cannot estimate a site-wide omission rate. No commentary edits, source audit, setting/thread re-review, or volume drift check are included.', '',
-    `Threshold changes between first reading and adjudication among completed candidates: ${changes.length}. Imported trial controls are known author judgments; reproducing them is not validation. See manifest.json, raw/, checkpoints/ and HANDOFF.md for provenance and resuming.`, '',
+    `Threshold changes between calibrated first reading and adjudication in new candidate readings: ${newChanges.length}. Changes among reused trial readings, whose first phase lacked author verdicts: ${changes.length - newChanges.length}. Imported trial controls are known author judgments; reproducing them is not validation. See manifest.json, raw/, checkpoints/ and HANDOFF.md for provenance and resuming.`, '',
     '## Clear revision recommendations', '', render(retained), '',
     '## Polish or keep', '', render(dropped), '',
     '## Unresolved cases, grouped by issue', '',
@@ -211,7 +212,7 @@ async function report() {
   const chapters = new Map();
   for (const { n, cp } of candidates) { const id = `${n.book}/${n.chapter}`; if (!chapters.has(id)) chapters.set(id, { book: n.book, chapter: n.chapter, total: 0, reviewed: 0, clear: 0, polish: 0, unresolved: 0 }); const c = chapters.get(id); c.total++; if (cp) { c.reviewed++; if (cp.adjudication.decision === 'clear_revision') c.clear++; else if (cp.adjudication.decision === 'polish_keep') c.polish++; else c.unresolved++; } }
   await atomic(path.join(OUT, 'chapter-priorities.csv'), csv([['book', 'chapter', 'original_candidates', 'candidates_reviewed', 'clear_revision', 'polish_keep', 'unresolved'], ...[...chapters.values()].map((c) => [c.book, c.chapter, c.total, c.reviewed, c.clear, c.polish, c.unresolved])]));
-  const summary = { candidate_total: candidates.length, candidate_complete: done.length, clear_revision: retained.length, polish_keep: dropped.length, unresolved: unresolved.length, audit_total: audits.length, audit_complete: auditDone.length, audit_new_flags: group(auditDone, 'clear_revision').length, audit_unresolved: group(auditDone, 'unresolved').length, threshold_changes: changes.length, updated_at: new Date().toISOString() };
+  const summary = { candidate_total: candidates.length, candidate_complete: done.length, clear_revision: retained.length, polish_keep: dropped.length, unresolved: unresolved.length, audit_total: audits.length, audit_complete: auditDone.length, audit_new_flags: group(auditDone, 'clear_revision').length, audit_unresolved: group(auditDone, 'unresolved').length, threshold_changes: changes.length, new_threshold_changes: newChanges.length, trial_threshold_changes: changes.length - newChanges.length, updated_at: new Date().toISOString() };
   await atomic(path.join(OUT, 'summary.json'), summary);
   return summary;
 }
