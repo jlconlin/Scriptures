@@ -1,106 +1,366 @@
 page: between-the-dead-and-the-living
 claims:
+  # ---------- opening ----------
   - where: 'opening'
-    claim: 'kipper (H3722) occurs 16 times in 15 verses of Numbers'
+    claim: 'kipper (H3722) occurs 16 times in 15 verses of Numbers, the last at 35:33'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
-    quote: 'וּ/לְ/כַפֵּ֖ר'
+    quote: 'יְכֻפַּ֗ר'
   - where: 'opening'
-    claim: 'The Hebrew behind “atonement” at Num. 8:19 is kipper (H3722)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
-    quote: 'וּ/לְ/כַפֵּ֖ר'
+    claim: 'Belnap counts at least four recognized ways of enacting atonement in Numbers 16, 25 and 31 and the altar; in the three narratives blood played no role'
+    key: belnap-dwell-among
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/i-may-dwell-among-them-liminality-ritual-tabernacle'
+    quote: 'Unlike in the rituals of animal sacrifices, blood played no role whatsoever in the atonement process of these narratives, yet atonement was still achieved… there were at least four recognized ways of enacting atonement: the offering of blood sacrifice upon the altar, the use of incense, the killing of those who profaned sacred space, and the presentation of gold.'
   - where: 'opening'
-    claim: 'The Hebrew behind “atonement” at Num. 15:25 is kipper (H3722)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
-    quote: 'וְ/כִפֶּ֣ר'
-  - where: 'opening'
-    claim: 'The Hebrew behind “atonement” at Num. 16:46 is kipper (H3722)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
-    quote: 'וְ/כַפֵּ֣ר'
-  - where: 'opening'
-    claim: 'The Hebrew behind “atonement” at Num. 25:13 is kipper (H3722)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
-    quote: 'וַ/יְכַפֵּ֖ר'
-  - where: 'opening'
-    claim: 'The Hebrew behind “atonement” at Num. 31:50 is kipper (H3722)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
-    quote: 'לְ/כַפֵּ֥ר'
-  - where: 'opening'
-    claim: 'Connection made by this page: the verses where Numbers makes atonement (8:19; 16:46–47; 25:13; 31:50) read as a line of means, ending at 35:31–33 where blood shed has no ransom and the land is atoned for only by the blood of the shedder'
+    claim: 'Connection made by this page: Numbers sets two limits on atonement, one shown (the atonements without an altar, 8:19; 16:46–48; 25:13; 31:50, are each made against a plague, for the living, and the dead of 16:49 stay dead) and one stated (no ransom for blood shed, 35:31–33); the page joins them, since Amulek reasons from the second to an infinite atonement (Alma 34:11–12) and an infinite atonement is the one that reaches the dead'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/35?lang=eng'
     quote: 'and the land cannot be cleansed of the blood that is shed therein, but by the blood of him that shed it.'
-  - where: 'section “Between the dead and the living”'
-    claim: 'The verb kipper is in Num. 16:46 and 16:47 (Hebrew 17:11–12); 16:48 has no form of it'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
-    quote: 'וַ/יְכַפֵּ֖ר'
-  - where: 'section “Between the dead and the living”'
+
+  # ---------- Four atonements and no altar ----------
+  - where: 'section “Four atonements and no altar”'
+    claim: 'Cambridge on Num. 8:19: not propitiation for past sins but the averting of God’s anger; the Levites are substitutes for the laity and a cordon'
+    key: cambridge-numbers
+    url: 'https://biblehub.com/commentaries/cambridge/numbers/8.htm'
+    quote: 'atonement] Not in this case propitiation for past sins, but the averting of God’s anger by preventing sin from being committed… The Levites are both substitutes for the laity, and at the same time a cordon to keep them at a distance.'
+  - where: 'section “Four atonements and no altar”'
+    claim: 'BDB files Num. 8:19 under atonement for persons “by the substitution of the Levites for the firstborn”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'by the substitution of the Levites for the firstborn Numbers 8:19. Underlying all these offerings there is the conception that the persons offering are covered by that which is regarded as sufficient and satisfactory by Yahweh.'
+  - where: 'section “Four atonements and no altar”'
+    claim: 'Cambridge on Num. 16:46: incense was an unusual way of making atonement; the shedding of blood was generally required'
+    key: cambridge-numbers
+    url: 'https://biblehub.com/commentaries/cambridge/numbers/16.htm'
+    quote: 'The offering of incense was an unusual way of making atonement; the shedding of blood was generally required.'
+  - where: 'section “Four atonements and no altar”'
+    claim: 'Keil on Num. 16:46–48: Moses’ earlier pleas were exhausted; what remained was the offering of incense which embodied the high-priestly prayer'
+    key: keil-numbers
+    url: 'https://biblehub.com/commentaries/kad/numbers/16.htm'
+    quote: 'All the motives which he had hitherto pleaded, in his repeated intercession that this evil congregation might be spared, were now exhausted… the offering of incense which embodied the high-priestly prayer'
+  - where: 'section “Four atonements and no altar”'
     claim: 'Aaron’s actions with the censer and incense represented Christ’s Atonement'
     key: seminary-2018-num-67
     url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-student-material-2018/numbers/lesson-67?lang=eng'
     quote: 'These actions represented Jesus Christ’s Atonement for us, in which His actions redeem us from our sins.'
-  - where: 'section “A deed, and gold”'
-    claim: 'Phinehas killed the two in the tent and the plague was stayed (Num. 25:7–8)'
+  - where: 'section “Four atonements and no altar”'
+    claim: 'The verb kipper is in Num. 16:46 and 16:47 (Hebrew 17:11–12); 16:48 (Hebrew 17:13) has no form of it, and reads “he stood between the dead and between the living”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'וַ/יְכַפֵּ֖ר'
+  - where: 'section “Four atonements and no altar”'
+    claim: 'BDB groups 2 Sam. 21:3 (David, the bloodguilt of Saul’s house), Ex. 32:30 (Moses, by intercession), Num. 17:11–12 (KJV 16:46–47, “by incense”) and Num. 25:13 (“when Phinehas slays the ringleaders”) under “atone for sin, without sacrifice”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'a. man as subject, בַּמָּה אֲכַמֵּר 2 Samuel 21:3, with what shall I cover over (namely, the bloodguiltiness of the house of Saul, says David The answer is by a death penalty of seven sons of the guilty house); חטאתכםבְּעַד Exodus 32:30 on behalf of your sins (J E; Moses, by intercession); with על of persons Numbers 17:11; Numbers 17:12 (P; by incense), Numbers 25:13 (P when Phinehas slays the ringleaders).'
+  - where: 'section “Four atonements and no altar”'
+    claim: 'The Church’s footnotes at Num. 31:50 point to Ex. 30:12 and 30:15, and the footnote at Ex. 30:12 “ransom” points to Num. 31:50'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/25?lang=eng'
-    quote: 'So the plague was stayed from the children of Israel.'
-  - where: 'section “No ransom for a life”'
-    claim: 'kōper (H3724) is the word behind “satisfaction” at 35:31–32; BDB glosses it “a price for ransom of a life,” listing Ex. 21:30, Num. 35:31, 32 and Ps. 49:8 under that sense'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/30?lang=eng'
+    quote: '12b “ransom”: Num. 31:50 (44–54); 2 Kgs. 12:4.'
+  - where: 'section “Four atonements and no altar”'
+    claim: 'Num. 31:49 “have taken the sum” is nāśʾû ʾet-rōʾš (H5375 + H7218), the census idiom of Ex. 30:12'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'נָֽשְׂא֗וּ'
+  - where: 'section “Four atonements and no altar”'
+    claim: 'Ex. 30:12 “When thou takest the sum” is tiśśāʾ ʾet-rōʾš (H5375 + H7218)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'תִשָּׂ֞א'
+  - where: 'section “Four atonements and no altar”'
+    claim: 'The Church’s footnotes at Num. 31:50: “oblation”: Ex. 30:12 (11–16); “atonement”: Ex. 30:15 (12, 15–16)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/31?lang=eng'
+    quote: '50a “oblation”: Ex. 30:12 (11–16). … 50c “atonement”: Ex. 30:15 (12, 15–16).'
+  - where: 'section “Four atonements and no altar”'
+    claim: '“The plague was stayed” is the Niphal of ʿāṣar (H6113, “was restrained”) with maggēphāh (H4046, “plague”) at Num. 16:48, 16:50, 25:8 and Ps. 106:30'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'וַ/תֵּעָצַ֖ר הַ/מַּגֵּפָֽה'
+  - where: 'section “Four atonements and no altar”'
+    claim: 'Ps. 106:30 has the same verb and noun, wattēʿāṣar hammaggēphāh, “and the plague was stayed”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וַ֝/תֵּעָצַ֗ר הַ/מַּגֵּפָֽה'
+  - where: 'section “Four atonements and no altar”'
+    claim: 'Connection made by this page: the four atonements without an altar (8:19; 16:46–48; 25:8, 13; 31:50 with Ex. 30:12) are each made against a plague, for the living'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/8?lang=eng'
+    quote: 'to make an atonement for the children of Israel: that there be no plague among the children of Israel'
+
+  # ---------- What the line could not cross ----------
+  - where: 'section “What the line could not cross”'
+    claim: 'Num. 16:48 (Hebrew 17:13) reads bên hammētîm ûbên haḥayyîm, “between the dead ones and between the living ones”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'בֵּֽין הַ/מֵּתִ֖ים וּ/בֵ֣ין הַֽ/חַיִּ֑ים'
+
+  # ---------- The last use of the verb ----------
+  - where: 'section “The last use of the verb”'
+    claim: 'The Church’s footnote at Num. 35:31 “satisfaction”: HEB ransom, fine (also v. 32)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/35?lang=eng'
+    quote: '31a “satisfaction”: HEB ransom, fine (also v. 32).'
+  - where: 'section “The last use of the verb”'
+    claim: 'BDB defines kōper (H3724) as “the price of a life, ransom,” listing Ex. 21:30, Num. 35:31, 32 and Ps. 49:8 under that sense'
     key: bdb
     url: 'https://biblehub.com/hebrew/3724.htm'
-    quote: 'עַל ׳כ Exodus 21:30 (Covt. code; "" מִּדְיֹן נַפְשׁוֺ); נפשׁ ׳כ Proverbs 13:8; לְ ׳כ ransom for Proverbs 6:35; Proverbs 21:18; Numbers 35:31,32 (P); כָּפְרוֺ his ransom Psalm 49:8'
-  - where: 'section “No ransom for a life”'
-    claim: 'The Hebrew behind “satisfaction” at Num. 35:31 is kōper (H3724)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
-    quote: 'כֹ֨פֶר֙'
-  - where: 'section “No ransom for a life”'
-    claim: 'Connection made by this page: Ex. 21:30 allows “the ransom of his life” where Num. 35:31 refuses a ransom for a murderer'
+    quote: 'I. כֹּפֶר noun masculine the price of a life, ransom (ποινή, wergild); — ׳כ Exodus 21:30 10t.'
+  - where: 'section “The last use of the verb”'
+    claim: 'Ex. 21:29–30: the owner of a goring ox that killed a man is to be put to death, but if a kōper (“sum of money”) is laid on him he gives it for the ransom of his life'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/21?lang=eng'
-    quote: 'If there be laid on him a sum of money, then he shall give for the ransom of his life whatsoever is laid upon him.'
-  - where: 'section “No ransom for a life”'
-    claim: 'The ox in Ex. 21:29–30 had killed a man or a woman'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/21?lang=eng'
-    quote: 'but that he hath killed a man or a woman; the ox shall be stoned, and his owner also shall be put to death.'
-  - where: 'section “No ransom for a life”'
-    claim: 'Num. 35:33 is the last use of kipper (Pual) in Numbers'
+    quote: 'the ox shall be stoned, and his owner also shall be put to death. If there be laid on him a sum of money, then he shall give for the ransom of his life whatsoever is laid upon him.'
+  - where: 'section “The last use of the verb”'
+    claim: 'Num. 35:31 reads kōper le-nefesh rōṣēaḥ, a ransom for the life of a murderer (H3724 + H5315)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
-    quote: 'יְכֻפַּ֗ר'
-  - where: 'section “No ransom for a life”'
-    claim: 'Connection made by this page: Ps. 49:7 (no man can give God a ransom for his brother) set beside Num. 35:31–33'
+    quote: 'כֹ֨פֶר֙ לְ/נֶ֣פֶשׁ רֹצֵ֔חַ'
+  - where: 'section “The last use of the verb”'
+    claim: 'Ex. 30:12 reads kōper nafšô, a ransom for his soul (H3724 + H5315)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'כֹּ֧פֶר נַפְשׁ֛/וֹ'
+  - where: 'section “The last use of the verb”'
+    claim: 'Connection made by this page: the kōper for a nefesh that every man gave at the census (Ex. 30:12) is the kōper for a nefesh that Num. 35:31 refuses for a murderer'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng'
-    quote: 'None of them can by any means redeem his brother, nor give to God a ransom for him:'
-  - where: 'section “The life of him who hath murdered”'
-    claim: 'Connection made by this page: Alma 34:12, the law requires the life of him who hath murdered, set beside Num. 35:31, 33 as the same requirement'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/35?lang=eng'
+    quote: 'Moreover ye shall take no satisfaction for the life of a murderer, which is guilty of death: but he shall be surely put to death.'
+  - where: 'section “The last use of the verb”'
+    claim: 'Welch: the ban on kofer in Numbers 35:31–32, debated as to its date, was in place by Lehi’s time'
+    key: welch-punishments
+    url: 'https://scripturecentral.org/archive/books/book-chapter/judicial-punishmentstypesandrationals'
+    quote: 'even that escape route was “banned at a late stage in the development of biblical literature (represented by Numbers 35),” as Bernard Jackson explains and allows. In any event, by the time of Lehi and the Book of Mormon the ban on kofer in Numbers 35:31–32 may have already been in place'
+  - where: 'section “The last use of the verb”'
+    claim: 'The Church’s footnote at Num. 35:33: HEB atonement cannot be made for blood shed in the land except by the blood of him who shed it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/35?lang=eng'
+    quote: '33b “the”: HEB atonement cannot be made for blood shed in the land except by the blood of him who shed it. TG Accountability.'
+  - where: 'section “The last use of the verb”'
+    claim: 'BDB on the Pual of kipper at Num. 35:33: for the land atonement cannot be made, in view of the blood shed in it, except by the blood of the shedder of blood'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'לארץ לא יכפר לדם Numbers 35:33 for the land atonement cannot be made, in view of the blood shed in it, except by the blood of the shedder of blood'
+  - where: 'section “The last use of the verb”'
+    claim: 'Keil on Num. 35:33: no expiation to the land for the blood shed in it except through the blood of the man who shed it, the execution of the murderer, by which justice would be satisfied'
+    key: keil-numbers
+    url: 'https://biblehub.com/commentaries/kad/numbers/35.htm'
+    quote: 'there was no expiation (יכפּר) to the land for the blood that was shed in it, except through the blood of the man who had shed it, i.e., through the execution of the murderer, by which justice would be satisfied.'
+  - where: 'section “The last use of the verb”'
+    claim: 'Of the 16 occurrences of kipper in Numbers, 15 are Piel (active) and only 35:33 is Pual (passive); the Piel forms are at 5:8; 6:11; 8:12, 19, 21; 15:25, 28 (twice); 16:46, 47; 25:13; 28:22, 30; 29:5; 31:50'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'לְ/כַפֵּ֥ר'
+  - where: 'section “The last use of the verb”'
+    claim: 'Connection made by this page: read in order, the fifteen active uses of kipper in Numbers each have something brought or done, and the sixteenth, the only negated one, allows nothing but the shedder’s own blood; Num. 15:30–31 set a limit earlier without the verb'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/35?lang=eng'
+    quote: 'and the land cannot be cleansed of the blood that is shed therein, but by the blood of him that shed it.'
+  - where: 'section “The last use of the verb”'
+    claim: 'Belnap names the bloodless atonements of Numbers 16, 25 and 31 and does not mention Num. 35:33'
+    key: belnap-dwell-among
+    url: 'https://rsc.byu.edu/ascending-mountain-lord/i-may-dwell-among-them-liminality-ritual-tabernacle'
+    quote: 'In Numbers 16:46–47, Aaron made atonement between God and Israel by burning incense, while in Numbers 25, the priest Phinehas made an atonement for the children of Israel by killing (not upon the altar) an Israelite man and a Midianitish woman who profaned the sanctuary. Similarly, in Numbers 31'
+
+  # ---------- Where the law bends, and where it does not ----------
+  - where: 'section “Where the law bends, and where it does not”'
+    claim: 'The Church’s footnote at Deut. 21:8 “Be merciful”: HEB Let atonement be made for'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/21?lang=eng'
+    quote: '8a “Be merciful”: HEB Let atonement be made for.'
+  - where: 'section “Where the law bends, and where it does not”'
+    claim: 'Deut. 21:8 has kipper twice: kappēr (Piel imperative, “Be merciful”) and wenikkappēr (Niphal, “shall be forgiven”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'כַּפֵּר֩'
+  - where: 'section “Where the law bends, and where it does not”'
+    claim: 'The Niphal form at Deut. 21:8, “shall be forgiven them the blood”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'וְ/נִכַּפֵּ֥ר'
+  - where: 'section “Where the law bends, and where it does not”'
+    claim: 'Keil on Deut. 21:1–9: the heifer was substituted for the murderer and bore the punishment that should have been borne by him; if the murderer were later found the death penalty would still fall on him'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/21.htm'
+    quote: 'it was a symbolical infliction of the punishment that should have been borne by the murderer, upon the animal which was substituted for him.'
+  - where: 'section “Where the law bends, and where it does not”'
+    claim: 'Keil: in this way Israel wiped away the innocent blood from its midst (cf. Num. 35:33); if the murderer were discovered afterwards the punishment of death would still fall upon him'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/21.htm'
+    quote: 'In this way Israel was to wipe away the innocent blood (the bloodshed) from its midst (cf. Numbers 35:33). If the murderer were discovered afterwards, of course the punishment of death which had been inflicted vicariously upon the animal, simply because the criminal himself could not be found, would still fall upon him.'
+  - where: 'section “Where the law bends, and where it does not”'
+    claim: '2 Sam. 21:1–3: a famine for Saul and his bloody house; David asks the Gibeonites “wherewith shall I make the atonement”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/21?lang=eng'
+    quote: 'Wherefore David said unto the Gibeonites, What shall I do for you? and wherewith shall I make the atonement, that ye may bless the inheritance of the Lord?'
+  - where: 'section “Where the law bends, and where it does not”'
+    claim: '2 Sam. 21:4–6: the Gibeonites refuse silver and gold and ask for seven of Saul’s sons; David gives them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/21?lang=eng'
+    quote: 'We will have no silver nor gold of Saul, nor of his house; neither for us shalt thou kill any man in Israel.'
+  - where: 'section “Where the law bends, and where it does not”'
+    claim: 'BDB lists 2 Sam. 21:3 under atonement without sacrifice and glosses the answer as a death penalty of seven sons of the guilty house'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'with what shall I cover over (namely, the bloodguiltiness of the house of Saul, says David The answer is by a death penalty of seven sons of the guilty house)'
+  - where: 'section “Where the law bends, and where it does not”'
+    claim: 'BDB, kipper with God as subject: Deut. 32:43 (Yahweh’s land) and Deut. 21:8; God in his sovereignty may himself provide an atonement which could not be provided by men'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3722.htm'
+    quote: 'with God as subject, with accusative of person, cover, i.e. treat as covered, view propitiously, Yahweh’s land Deuteronomy 32:43 (song); לְ person Deuteronomy 21:8 (bloodguiltiness flows away in the stream)… It is conceived that God in his sovereignty may himself provide an atonement or covering for men and their sins which could not be provided by men.'
+  - where: 'section “Where the law bends, and where it does not”'
+    claim: 'kipper (H3722) occurs in Deuteronomy only at 21:8 (twice) and 32:43 (3 occurrences in 2 verses)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'וְ/כִפֶּ֥ר'
+  - where: 'section “Where the law bends, and where it does not”'
+    claim: 'Connection made by this page: Numbers says what men cannot do about shed blood, and Deuteronomy’s two uses of the verb, both with God as the one asked or said to atone, have Israel ask the one who can'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/21?lang=eng'
+    quote: 'Be merciful, O Lord, unto thy people Israel, whom thou hast redeemed, and lay not innocent blood unto thy people of Israel’s charge. And the blood shall be forgiven them.'
+
+  # ---------- Amulek’s law ----------
+  - where: 'section “Amulek’s law”'
+    claim: 'The Church’s footnote at Alma 34:11 “just” points to Deut. 24:16 and Mosiah 29:25'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=eng'
+    quote: 'Deut. 24:16; Mosiah 29:25.'
+  - where: 'section “Amulek’s law”'
+    claim: 'KnoWhy #142: Amulek’s statement rests on the symbolism of the law of Moses which prohibited the taking of one mortal life in punishment for the wrongdoing of another'
+    key: sc-knowhy-142
+    url: 'https://scripturecentral.org/knowhy/why-must-there-be-an-infinite-and-eternal-sacrifice'
+    quote: 'Not only does logic work against the Zoramite view, but so did the symbolism of the law of Moses which prohibited the taking of one mortal life in punishment for the wrongdoing of another.'
+  - where: 'section “Amulek’s law”'
+    claim: 'Welch reads Alma’s sentence on Nehor against Num. 35:31 and cites Alma 34:12 as showing that Nephite law after Mosiah still required the life of him who hath murdered'
+    key: welch-nehor
+    url: 'https://scripturecentral.org/archive/books/book-chapter/the-trialofnehor'
+    quote: 'In homicide cases after Mosiah’s reign, Nephite law clearly continued to require “the life of him who hath murdered” (Alma 34:12; see 1:18; 30:10).'
+  - where: 'section “Amulek’s law”'
+    claim: 'Welch quotes Num. 35:31 as the law behind Alma’s sentence on Nehor'
+    key: welch-nehor
+    url: 'https://scripturecentral.org/archive/books/book-chapter/the-trialofnehor'
+    quote: '“Ye shall take no satisfaction [i.e., money] for the life of a murderer, which is guilty of death: but he shall be surely put to death” (Numbers 35:31; emphasis added).'
+  - where: 'section “Amulek’s law”'
+    claim: 'Gardner on Alma 34:12: the murderer died for his own sin, and that did not absolve any other person'
+    key: gardner-bom-minute-alma
+    url: 'https://scripturecentral.org/archive/books/book-chapter/alma-34-1'
+    quote: 'The law required that one who murdered should pay with his own life, but that, in itself, did not absolve any other person. Although the murderer died, he died for his own sin.'
+  - where: 'section “Amulek’s law”'
+    claim: 'Rasmussen on Alma 34:11–12: only the life of the man who committed the murder can atone for his crime, though even that falls short'
+    key: rasmussen-dilemma
+    url: 'https://rsc.byu.edu/celebrating-easter/dilemma-incomprehensible-atonement'
+    quote: 'As Amulek taught, if a man murders, the life of someone else cannot pay for the murder; only the life of the man who committed the murder can atone for his crime, though even that falls short (see Alma 34:11–12).'
+  - where: 'section “Amulek’s law”'
+    claim: 'Connection made by this page: Amulek’s premise, “the law requireth the life of him who hath murdered” (Alma 34:12), rests on the same ground as Num. 35:31, 33, and his conclusion, an infinite atonement not of man, follows from the limit that verse states; the murderer’s death cleansed the land and nothing more'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=eng'
     quote: 'But the law requireth the life of him who hath murdered; therefore there can be nothing which is short of an infinite atonement which will suffice for the sins of the world.'
-  - where: 'section “The life of him who hath murdered”'
-    claim: 'One reading sets Amulek’s words (Alma 34:11) beside Israelite law that every man be put to death for his own sin (Deut. 24:16)'
-    key: sc-knowhy-142
-    url: 'https://scripturecentral.org/knowhy/why-must-there-be-an-infinite-and-eternal-sacrifice'
-    quote: 'In contrast to some practices of their neighbors, Israelite law did not allow for vicarious punishment, but insisted “every man shall be put to death for his own sin” (Deuteronomy 24:16; cf. Ezekiel 18:20).'
-  - where: 'section “The life of him who hath murdered”'
-    claim: 'Another reading: the notion that no man can sacrifice his blood for another’s sins is not found in the law of Moses but present in Mesoamerica'
-    key: gee-last-sacrifice
-    url: 'https://rsc.byu.edu/behold-lamb-god/great-last-sacrifice'
-    quote: 'a notion not found in the law of Moses but present in Mesoamerica'
-  - where: 'section “One Mediator”'
-    claim: 'Christ alone could make a perfect atonement'
+
+  # ---------- One who could ----------
+  - where: 'section “One who could”'
+    claim: 'President Nelson, quoted in the Book of Mormon Student Manual on Alma 34:9–12: Jesus was the only one who could offer an infinite atonement, born of a mortal mother and an immortal Father, an infinite Being'
+    key: bom-student-manual-30
+    url: 'https://www.churchofjesuschrist.org/study/manual/book-of-mormon-student-manual/chapter-30-alma-32-35?lang=eng'
+    quote: '“Jesus was the only one who could offer such an infinite atonement, since He was born of a mortal mother and an immortal Father. Because of that unique birthright, Jesus was an infinite Being”'
+  - where: 'section “One who could”'
+    claim: 'Bible Dictionary: Jesus Christ was the only one capable of making an atonement for mankind'
+    key: bd-atonement
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/atonement?lang=eng'
+    quote: 'Jesus Christ, as the Only Begotten Son of God and the only sinless person to live on this earth, was the only one capable of making an atonement for mankind.'
+  - where: 'section “One who could”'
+    claim: 'Thayer: lytron is the Septuagint’s word passim for kōper, as for the ransom of a life at Ex. 21:30 and Num. 35:31f; Matt. 20:28 and Mark 10:45'
+    key: thayer
+    url: 'https://biblehub.com/greek/3083.htm'
+    quote: 'λύτρον, λύτρου, τό (λύω), the Sept. passim for כֹּפֶר, גְּאֻלָּה, פִּדְיון, etc.; the price for redeeming, ransom (paid for slaves, Leviticus 19:20; for captives, Isaiah 45:13; for the ransom of a life, Exodus 21:30; Numbers 35:31f): ἀντί πολλῶν… Matthew 20:28; Mark 10:45.'
+  - where: 'section “One who could”'
+    claim: 'Thayer on ἀντίλυτρον (1 Tim. 2:6): what is given in exchange for another as the price of his redemption, ransom'
+    key: thayer
+    url: 'https://biblehub.com/greek/487.htm'
+    quote: 'ἀντίλυτρον, ἀντιλυτρου, τό, what is given in exchange for another as the price of his redemption, ransom: 1 Timothy 2:6.'
+  - where: 'section “One who could”'
+    claim: 'The Church’s footnote at 1 Tim. 2:6 “ransom” points to Job 33:24'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-tim/2?lang=eng'
+    quote: 'Job 33:24. TG Jesus Christ, Atonement through; Jesus Christ, Redeemer.'
+  - where: 'section “One who could”'
+    claim: 'BDB lists Job 33:24 under kōper, “a price for ransom of a life”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3724.htm'
+    quote: '1 a price for ransom of a life Job 33:24; Job 36:18; עַל ׳כ Exodus 21:30'
+  - where: 'section “One who could”'
+    claim: 'Connection made by this page: the ransom the law would not take for a murderer (Num. 35:31, kōper; lytron in the Septuagint per Thayer) is what Christ is said to have given, lytron for many (Mark 10:45) and antilytron for all (1 Tim. 2:6)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-tim/2?lang=eng'
+    quote: 'Who gave himself a ransom for all, to be testified in due time.'
+  - where: 'section “One who could”'
+    claim: 'Aaron’s actions with the censer and incense represented Christ’s Atonement'
+    key: seminary-2018-num-67
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-student-material-2018/numbers/lesson-67?lang=eng'
+    quote: 'These actions represented Jesus Christ’s Atonement for us, in which His actions redeem us from our sins.'
+  - where: 'section “One who could”'
+    claim: 'The Church’s footnote at Alma 34:10 “infinite” points to 2 Ne. 9:7'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/34?lang=eng'
+    quote: '2 Ne. 9:7.'
+  - where: 'section “One who could”'
+    claim: 'President Nelson, in the Book of Mormon Student Manual: the Atonement was infinite in that all humankind would be saved from never-ending death'
+    key: bom-student-manual-30
+    url: 'https://www.churchofjesuschrist.org/study/manual/book-of-mormon-student-manual/chapter-30-alma-32-35?lang=eng'
+    quote: 'It was also infinite in that all humankind would be saved from never-ending death.'
+  - where: 'section “One who could”'
+    claim: 'Guide to the Scriptures: because of the Atonement, all people will rise from the dead with immortal bodies'
     key: gs-atone-atonement
     url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/atone-atonement?lang=eng'
-    quote: 'Jesus Christ was the only one capable of making a perfect atonement for all mankind.'
-  - where: 'section “Through the merits of the Holy Messiah”'
+    quote: 'Because of the Atonement, all people will rise from the dead with immortal bodies (1 Cor. 15:22).'
+  - where: 'section “One who could”'
+    claim: 'Connection made by this page: Aaron’s atonement reached the living and stopped at the dead (Num. 16:48–49); the infinite atonement, which Jacob says had to be infinite so that corruption could put on incorruption (2 Ne. 9:7), is the one that reaches the dead, who are among those it is for'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/9?lang=eng'
+    quote: 'Wherefore, it must needs be an infinite atonement—save it should be an infinite atonement this corruption could not put on incorruption.'
+
+  # ---------- Where we stand ----------
+  - where: 'section “Where we stand”'
+    claim: 'Ps. 49:7 (Hebrew 49:8) “ransom” is kōper (H3724), kāfrô, “his ransom”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כָּפְרֽ/וֹ'
+  - where: 'section “Where we stand”'
+    claim: 'Connection made by this page: what Num. 35:31 says of a murderer’s life, Ps. 49:7–8 says of every soul, that no man has the ransom'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng'
+    quote: 'None of them can by any means redeem his brother, nor give to God a ransom for him:'
+  - where: 'section “Where we stand”'
+    claim: 'President Packer’s parable: the friend stepped between the debtor and the creditor and offered to pay'
+    key: packer-mediator
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1977/04/the-mediator?lang=eng'
+    quote: 'He stepped between them, faced the creditor, and made this offer.'
+  - where: 'section “Where we stand”'
+    claim: 'President Packer: because there was a mediator, justice had claimed its full share and mercy was fully satisfied'
+    key: packer-mediator
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1977/04/the-mediator?lang=eng'
+    quote: 'Because there was a mediator, justice had claimed its full share, and mercy was fully satisfied.'
+  - where: 'section “Where we stand”'
+    claim: 'President Packer: by eternal law, mercy cannot be extended save there be one who is both willing and able to assume our debt and pay the price'
+    key: packer-mediator
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1977/04/the-mediator?lang=eng'
+    quote: 'And, by eternal law, mercy cannot be extended save there be one who is both willing and able to assume our debt and pay the price and arrange the terms for our redemption.'
+  - where: 'section “Where we stand”'
+    claim: 'President Packer: the mediator tells the debtor he will pay the debt to him and the mediator will set the terms'
+    key: packer-mediator
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1977/04/the-mediator?lang=eng'
+    quote: '“Then,” said the benefactor, “you will pay the debt to me and I will set the terms. It will not be easy, but it will be possible. I will provide a way. You need not go to prison.”'
+  - where: 'section “Where we stand”'
+    claim: 'Elder Christofferson: redeem means to pay off an obligation or a debt, or to rescue or set free as by paying a ransom'
+    key: christofferson-redemption
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2013/04/redemption?lang=eng'
+    quote: 'the word redeem means to pay off an obligation or a debt. Redeem can also mean to rescue or set free as by paying a ransom.'
+  - where: 'section “Where we stand”'
+    claim: 'Elder Christofferson: the Savior’s suffering redeems us from sin by satisfying the demands that justice has upon us'
+    key: christofferson-redemption
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2013/04/redemption?lang=eng'
+    quote: 'The Savior’s suffering in Gethsemane and His agony on the cross redeem us from sin by satisfying the demands that justice has upon us.'
+  - where: 'section “Where we stand”'
     claim: 'An accountable person receives the Atonement’s blessings only through faith, repentance, ordinances and obedience'
     key: gs-atone-atonement
     url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/atone-atonement?lang=eng'
