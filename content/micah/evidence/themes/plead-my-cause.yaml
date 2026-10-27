@@ -1,137 +1,332 @@
 page: plead-my-cause
 claims:
+  # ---------- opening ----------
   - where: 'opening'
-    claim: 'The rîb of 7:9 is the judicial conflict between Israel and the heathen power; the Lord conducts it'
-    key: keil-micah
-    url: 'https://biblehub.com/commentaries/kad/micah/7.htm'
-    quote: 'ריבי is the judicial conflict between Israel and the heathen power of the world. … This the church will bear, till the Lord conducts its conflict and secures its rights.'
-  - where: 'opening'
-    claim: 'Micah 6–7 is called a covenant lawsuit (Hebrew ryb)'
-    key: pike-micah
-    url: 'https://rsc.byu.edu/they-shall-grow-together/passages-book-micah-book-mormon'
-    quote: 'chapters 6–7 contain Jehovah’s indictment of his people for violating their covenant with him and the resulting consequences (thus, a covenant lawsuit; Hebrew ryb)'
-  - where: 'section “Witness against, and no answer”'
-    claim: 'Each of the three blocks begins with a call: 1:2; 3:1; 6:1'
-    key: correa-jonah
-    url: 'https://archive.bookofmormoncentral.org/sites/default/files/archive-files/pdf/correa/2022-11-23/jonah_micah.pdf'
-    quote: 'The book can be divided into three blocks, each beginning with a call to action (Micah 1:2; 3:1; 6:1).'
-  - where: 'section “Witness against, and no answer”'
-    claim: 'The book uses legal words (witness 1:2, justice, judgment, indictment 6:1–2)'
+    claim: 'Pierce: words with legal connotation run through Micah (justice, judgment, judge, witness, indictment)'
     key: pierce-micah
     url: 'https://rsc.byu.edu/approaching-holiness/understanding-micahs-lament-judah-micah-110-16-through-text-archaeology-geography'
     quote: 'Words with legal connotation are used throughout the book, such as justice (3:1, 8–9; 6:8), judgment (3:11, 7:9), judge (4:3, 5:1, 7:3), witness (1:2), and indictment (6:1–2).'
-  - where: 'section “Witness against, and no answer”'
-    claim: '“Will not hear them” in 3:4 is the verb ʿānâ, “answer” (H6030; also 6:3, 6:5)'
+  - where: 'opening'
+    claim: 'Pike: Micah 6–7 is a covenant lawsuit, Hebrew ryb'
+    key: pike-micah
+    url: 'https://rsc.byu.edu/they-shall-grow-together/passages-book-micah-book-mormon'
+    quote: 'chapters 6–7 contain Jehovah’s indictment of his people for violating their covenant with him and the resulting consequences (thus, a covenant lawsuit; Hebrew ryb)'
+  - where: 'opening'
+    claim: '“He will plead with Israel” in Micah 6:2 is yitwakkāḥ (H3198, yākaḥ), not rîb; “controversy” in the same verse is rîb (H7379)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mic.xml'
+    quote: 'יִתְוַכָּֽח'
+  - where: 'opening'
+    claim: 'Connection made by this page: Micah shows the Lord as the injured party who brings the case (6:2), refuses to answer those who presume on Him (3:4), and, when the accused answers with a confession instead of a charge (7:9), takes up her cause; the Judge becomes the Advocate, and the Restoration names Him so'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/micah/7?lang=eng'
+    quote: 'I will bear the indignation of the Lord, because I have sinned against him, until he plead my cause, and execute judgment for me'
+
+  # ---------- The Lord's case ----------
+  - where: 'section “The Lord’s case”'
+    claim: '“Will not hear them” in Micah 3:4 is the verb ʿānâ (H6030, “answer”), negated'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mic.xml'
     quote: 'יַעֲנֶ֖ה'
-  - where: 'section “Witness against, and no answer”'
-    claim: 'The Church’s note on “cry” (3:4) goes to Mosiah 11:24 (23–25)'
+  - where: 'section “The Lord’s case”'
+    claim: 'BDB lists Micah 3:4 under ʿānâ “of God answering (graciously)”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6030.htm'
+    quote: 'b. of God answering (graciously): usually with accusative of person; by oracle 1 Samuel 14:37; 1 Samuel 28:6,15 +, figurative Habakkuk 2:11; by deed 1 Samuel 7:9; 1 Kings 18:37 (twice in verse), compare בָּאֵשׁ 1 Kings 18:24; 1 Chronicles 21:26, and especially Hosea 2:23; Hosea 2:24; Hosea 14:9, see also Micah 3:4'
+  - where: 'section “The Lord’s case”'
+    claim: 'The Church’s footnote at Micah 3:4 “cry” points to Mosiah 11:24 (23–25)'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/micah/3?lang=eng'
-    quote: 'Mosiah 11:24'
-  - where: 'section “Witness against, and no answer”'
-    claim: 'Mosiah 11:25: the Lord will not hear unless they repent'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/11?lang=eng'
-    quote: 'And except they repent in sackcloth and ashes, and cry mightily to the Lord their God, I will not hear their prayers'
-  - where: 'section “The controversy, and what He requires”'
-    claim: 'The mountains are called to bear witness on behalf of the Lord and against Israel'
+    quote: 'Mosiah 11:24 (23–25). TG God, Access to.'
+  - where: 'section “The Lord’s case”'
+    claim: 'Keil on Micah 6:1–2: the mountains are witnesses, to bear witness on behalf of the Lord and against Israel'
     key: keil-micah
     url: 'https://biblehub.com/commentaries/kad/micah/6.htm'
     quote: 'to bear witness on behalf of the Lord, and against Israel.'
-  - where: 'section “The controversy, and what He requires”'
-    claim: '“Testify against me” is “answer against me, i.e., accuse me”'
+  - where: 'section “The Lord’s case”'
+    claim: 'The institute manual: Micah 6 describes an imagined conversation between the Lord and the people of Judah'
+    key: ot-institute-manual-47
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-institute-teacher-manual-2026/47-micah-nahum-habakkuk-zephaniah?lang=eng'
+    quote: 'explain that this chapter describes an imagined conversation between the Lord and the people of Judah.'
+
+  # ---------- Answer against me ----------
+  - where: 'section “Answer against me”'
+    claim: 'Keil: “testify against me” (6:3) is ʿănēh bî, answer against me, i.e., accuse me'
     key: keil-micah
     url: 'https://biblehub.com/commentaries/kad/micah/6.htm'
     quote: 'ענה בי, answer against me, i.e., accuse me.'
-  - where: 'section “The controversy, and what He requires”'
-    claim: 'Salvation is not earned'
+  - where: 'section “Answer against me”'
+    claim: '“Testify against me” in Micah 6:3 is ʿănēh (H6030), the verb of 3:4'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mic.xml'
+    quote: 'עֲנֵ֥ה'
+  - where: 'section “Answer against me”'
+    claim: 'Connection made by this page: the Lord who would not answer (ʿānâ) the rulers’ cry in 3:4 invites His people to answer (ʿānâ) against Him in 6:3; the same verb'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/micah/6?lang=eng'
+    quote: 'O my people, what have I done unto thee? and wherein have I wearied thee? testify against me.'
+  - where: 'section “Answer against me”'
+    claim: 'Elder Renlund: good deeds are not sufficient; salvation is not earned; not even the vast sacrifices Micah knew were impossible can redeem the smallest sin'
     key: renlund-do-justly
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2020/10/55renlund?lang=eng'
-    quote: 'The answer is no. Good deeds are not sufficient. Salvation is not earned.'
-  - where: 'section “Until he plead my cause”'
-    claim: 'Micah speaks on behalf of the people in 7:8–13'
-    key: correa-jonah
-    url: 'https://archive.bookofmormoncentral.org/sites/default/files/archive-files/pdf/correa/2022-11-23/jonah_micah.pdf'
-    quote: '7:8–13 Micah appeared to be speaking on behalf of the people.'
-  - where: 'section “Until he plead my cause”'
-    claim: 'The cause is Israel’s conflict with the world power; the Lord conducts it and secures its rights'
-    key: keil-micah
-    url: 'https://biblehub.com/commentaries/kad/micah/7.htm'
-    quote: 'ריבי is the judicial conflict between Israel and the heathen power of the world. … This the church will bear, till the Lord conducts its conflict and secures its rights.'
-  - where: 'section “Until he plead my cause”'
-    claim: 'The Student Manual reads 7:7–9 as Israel’s restoration: the Lord will plead her cause'
-    key: ot-manual-11
-    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-11?lang=eng'
-    quote: 'He will plead her cause and bring her “forth to the light” (vv. 8–9).'
-  - where: 'section “Until he plead my cause”'
-    claim: 'Connection made by this page: the verb rîb (H7378) stands in Micah only at 6:1 and 7:9 (6:1 “contend”; 7:9 “plead”); the noun rîb (H7379) only at 6:2 (twice) and 7:9 (“my cause”); the Lord’s controversy in 6:2 and the cause He pleads in 7:9 are the same word'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mic.xml'
-    quote: 'יָרִ֤יב'
-  - where: 'section “Until he plead my cause”'
-    claim: 'Connection made by this page (noun): rîb in 7:9 “my cause” (H7379: 6:2 twice, 7:9)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mic.xml'
-    quote: 'רִיבִ/י֙'
-  - where: 'section “Until he plead my cause”'
-    claim: 'Connection made by this page: “to do justly” (6:8, ʿăśôt mišpāṭ) and “execute judgment for me” (7:9, wĕʿāśâ mišpāṭî) both join ʿāśâ and mišpāṭ; mišpāṭ (H4941) stands five times, 3:1, 3:8, 3:9, 6:8, 7:9, and only 6:8 and 7:9 have it with “do”'
+    quote: 'The answer is no. Good deeds are not sufficient. Salvation is not earned. Not even the vast sacrifices Micah knew were impossible can redeem the smallest sin.'
+  - where: 'section “Answer against me”'
+    claim: 'Micah 6:8 “to do justly” is ʿăśôt mišpāṭ (H6213 + H4941) and “to love mercy” is ʾahăbat ḥesed (H2617)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mic.xml'
     quote: 'עֲשׂ֤וֹת'
-  - where: 'section “Until he plead my cause”'
-    claim: 'Connection made by this page (second half): 7:9 mišpāṭ with ʿāśâ'
+  - where: 'section “Answer against me”'
+    claim: 'Micah 6:8 “mercy” is ḥesed (H2617)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mic.xml'
+    quote: 'חֶ֔סֶד'
+  - where: 'section “Answer against me”'
+    claim: 'BDB files Micah 6:8 under mišpāṭ as what God requires that man should do, and Micah 3:1 and 3:9 as what rulers should know and the wicked ruler abhors'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4941.htm'
+    quote: 'God requires that man should do it Micah 6:8; Isaiah 1:17; Isaiah 56:1, compare Isaiah 61:8; it is the joy of the righteous Proverbs 21:15; rulers should know it Micah 3:1, compare Proverbs 29:4; wicked ruler ׳שׂוֺנֵא מ Job 34:17; abhors it Micah 3:9'
+
+  # ---------- I have sinned against him ----------
+  - where: 'section “I have sinned against him”'
+    claim: 'Keil: the prophet answers the threatening of 6:9–16 in the name of the believing church with a penitential prayer, which confesses its rebellion and rises to the hope that the Lord will cause the light of His grace to rise again'
+    key: keil-micah
+    url: 'https://biblehub.com/commentaries/kad/micah/7.htm'
+    quote: 'The prophet responds to the threatening of the Lord (Micah 6:9-16) in the name of the believing church with a penitential prayer, in which it sorrowfully confesses the universality of the deep moral corruption, and painfully bemoans the necessity for the visitation of God (Micah 7:1-6); after which it rises, through belief in the fidelity of God, to the confidential hope that the Lord will cause the light of His grace to rise again upon the church'
+  - where: 'section “I have sinned against him”'
+    claim: 'Keil: in 7:1ff. the prophet speaks in the name of the church, which confesses and bemoans its rebellion against the Lord'
+    key: keil-micah
+    url: 'https://biblehub.com/commentaries/kad/micah/7.htm'
+    quote: 'not in his own name, but in the name of the church, which confesses and bemoans its rebellion against the Lord'
+  - where: 'section “I have sinned against him”'
+    claim: 'The Student Manual reads 7:7–9 as Israel: she has learned to look unto the Lord, the God of her salvation; He will plead her cause and bring her forth to the light'
+    key: ot-manual-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-11?lang=eng'
+    quote: 'that day when Israel has learned to “look unto the Lord, … the God of [her] salvation” (Micah 7:7). Though her enemies have prevailed against her because of her wickedness, “the Lord shall be her light.” He will plead her cause and bring her “forth to the light” (vv. 8–9).'
+  - where: 'section “I have sinned against him”'
+    claim: 'Correa: in 7:8–13 Micah appeared to be speaking on behalf of the people'
+    key: correa-jonah
+    url: 'https://archive.bookofmormoncentral.org/sites/default/files/archive-files/pdf/correa/2022-11-23/jonah_micah.pdf'
+    quote: '7:8–13 Micah appeared to be speaking on behalf of the people.'
+  - where: 'section “I have sinned against him”'
+    claim: '“My God will hear me” in Micah 7:7 is yišmāʿēnî (H8085, šāmaʿ), a different verb from 3:4'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mic.xml'
+    quote: 'יִשְׁמָעֵ֖/נִי'
+  - where: 'section “I have sinned against him”'
+    claim: 'BDB lists Micah 7:7 under šāmaʿ, hear favourably, with accusative of person'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/8085.htm'
+    quote: 'favourably, with accusative of person Micah 7:7'
+  - where: 'section “I have sinned against him”'
+    claim: 'Keil: the rîb of 7:9 is the judicial conflict between Israel and the heathen power of the world, which the church bears till the Lord conducts its conflict and secures its rights'
+    key: keil-micah
+    url: 'https://biblehub.com/commentaries/kad/micah/7.htm'
+    quote: 'This the church will bear, till the Lord conducts its conflict and secures its rights. ריבי is the judicial conflict between Israel and the heathen power of the world.'
+  - where: 'section “I have sinned against him”'
+    claim: 'Keil: the righteousness of 7:9 is the righteousness of God revealing itself in the forgiveness and restoration of Israel to favour'
+    key: keil-micah
+    url: 'https://biblehub.com/commentaries/kad/micah/7.htm'
+    quote: 'Tsedâqâh is the righteousness of God revealing itself in the forgiveness and restoration of Israel to favour'
+  - where: 'section “I have sinned against him”'
+    claim: 'The verb rîb (H7378) stands in Micah only at 6:1 and 7:9, and the noun rîb (H7379) only at 6:2 (twice) and 7:9; 7:9 reads yārîb rîbî'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mic.xml'
+    quote: 'יָרִ֤יב'
+  - where: 'section “I have sinned against him”'
+    claim: 'The noun rîb in Micah 7:9, “my cause,” rîbî'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mic.xml'
+    quote: 'רִיבִ/י֙'
+  - where: 'section “I have sinned against him”'
+    claim: 'The noun rîb in Micah 6:2, the Lord’s “controversy”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mic.xml'
+    quote: 'רִ֣יב'
+  - where: 'section “I have sinned against him”'
+    claim: 'BDB lists Micah 7:9 under rîb, conduct a legal case, with cognate accusative “in good sense, = take one’s part,” beside 1 Sam. 24:15 and Jer. 50:34'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7378.htm'
+    quote: 'with accusative of congnate meaning with verb רִיב in good sense, = take one''s part, 1 Samuel 24:15 (Gi; v.1 Samuel 24:16 van d. H. Baer; "" שָׁפַט), Micah 7:9; Jeremiah 50:34'
+  - where: 'section “I have sinned against him”'
+    claim: 'BDB lists the noun rîb of the Lord at Micah 6:2 (twice) and, as cognate accusative, “case, cause” at Micah 7:9'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7379.htm'
+    quote: '(of ׳י) Hosea 4:1; Hosea 12:3; Micah 6:2 (twice in verse); Jeremiah 25:31; Ezekiel 44:24; Lamentations 3:36; as accusative of congnate meaning with verb, case, cause Micah 7:9'
+  - where: 'section “I have sinned against him”'
+    claim: '“Execute judgment for me” in Micah 7:9 is wĕʿāśâ mišpāṭî (H6213 + H4941); 6:8 and 7:9 are the only places in Micah where ʿāśâ and mišpāṭ meet (mišpāṭ stands at 3:1, 3:8, 3:9, 6:8, 7:9)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mic.xml'
     quote: 'מִשְׁפָּטִ֔/י'
-  - where: 'section “He delighteth in mercy”'
-    claim: 'The book ends with the Lord’s willingness to forgive all who repent'
-    key: scripture-helps-micah
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/47-micah-nahum-habakkuk-zephaniah?lang=eng'
-    quote: 'The book ends with Micah’s testimony of Jehovah’s compassion and His willingness to forgive all who repent.'
-  - where: 'section “He delighteth in mercy”'
-    claim: 'To love mercy as God does is inseparably connected to dealing justly'
-    key: renlund-do-justly
-    url: 'https://www.churchofjesuschrist.org/study/general-conference/2020/10/55renlund?lang=eng'
-    quote: 'To love mercy as God does is inseparably connected to dealing justly with others and not mistreating them.'
-  - where: 'section “The Advocate”'
-    claim: 'Isa. 51:22 uses the verb of Micah 7:9 (H7378)'
+  - where: 'section “I have sinned against him”'
+    claim: 'BDB lists Micah 7:9 under mišpāṭ, execution of judgment “in favour of”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4941.htm'
+    quote: 'in favour of, עשׂה משׁפטִי Micah 7:9; Psalm 9:5'
+  - where: 'section “I have sinned against him”'
+    claim: 'Micah 7:18 “mercy” is ḥesed (H2617), the word of 6:8'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mic.xml'
+    quote: 'חֶ֖סֶד'
+  - where: 'section “I have sinned against him”'
+    claim: 'Connection made by this page: the case (rîb, 6:2 → 7:9), the judgment (ʿāśâ mišpāṭ, 6:8 → 7:9) and the mercy (ḥesed, 6:8 → 7:18) each appear first as the Lord’s demand and last as the Lord’s gift, and between them stands the confession “I have sinned against him,” the only answer the book gives to the Lord’s “testify against me,” an accusation the speaker brings against herself; the speaker is taken, as the page’s own reading, to be the defendant of chapter 6 brought to repentance'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/micah/7?lang=eng'
+    quote: 'Who is a God like unto thee, that pardoneth iniquity, and passeth by the transgression of the remnant of his heritage? he retaineth not his anger for ever, because he delighteth in mercy.'
+
+  # ---------- Pleads, and judges ----------
+  - where: 'section “Pleads, and judges”'
+    claim: 'The Church’s footnote at Micah 6:2 “plead” points to Isa. 3:13 (12–13)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/micah/6?lang=eng'
+    quote: 'Isa. 3:13 (12–13).'
+  - where: 'section “Pleads, and judges”'
+    claim: 'The Church’s chapter heading for Isaiah 3 reads “The Lord pleads for and judges His people”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/3?lang=eng'
+    quote: 'The Lord pleads for and judges His people'
+  - where: 'section “Pleads, and judges”'
+    claim: 'Isa. 3:13 “to plead” is lārîb (H7378) and “to judge” lādîn (H1777)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
-    quote: 'יָרִ֣יב'
-  - where: 'section “The Advocate”'
-    claim: 'Jer. 50:34 uses the verb and noun of Micah 7:9 (H7378, H7379)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
-    quote: 'יָרִ֖יב'
-  - where: 'section “The Advocate”'
-    claim: 'Connection made by this page: “plead my cause” (Micah 7:9) set beside “pleading your cause” (D&C 45:3), the same English, the Lord the one who pleads; no note in D&C 45 cites Micah'
+    quote: 'לָ/רִ֖יב'
+  - where: 'section “Pleads, and judges”'
+    claim: 'Elder Holland: the Messiah will be our mediator, our intercessor, defending our case in the courts of heaven; he quotes Isa. 3:13 and D&C 45:3–5'
+    key: isaiah-in-bom
+    url: 'https://storage.googleapis.com/scripturecentral-prod-strapi-uploads/ry_and_welch_isaiah_in_the_book_of_mormon_1998_184195e137/ry_and_welch_isaiah_in_the_book_of_mormon_1998_184195e137.pdf'
+    quote: 'he will be our mediator, our intercessor, de - fending our case in the courts of heaven. "The Lord standeth up to plead, and standeth to judge the people," Isaiah had written earlier (Isaiah 3:13, parallel to 2 Nephi 13:13).'
+  - where: 'section “Pleads, and judges”'
+    claim: 'Jackson: the verb rîb never describes an appeal or call to repentance, but always a hostile confrontation, an accusation'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'The verb rib never describes an appeal or call to repentance, but always a hostile confrontation, an accusation.'
+  - where: 'section “Pleads, and judges”'
+    claim: 'BDB lists Micah 7:9 with Jer. 50:34 under rîb “in good sense, = take one’s part,” and in the same paragraph lists Isa. 50:8 as a case “against whom”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7378.htm'
+    quote: 'Micah 7:9; Jeremiah 50:34 (רִיב יָרִיב אֶתרִֿיבָם, infinitive construct = infinitive absolute, see above), Jeremiah 51:36 ("" נקם), Lamentations 3:58; Proverbs 22:23; Psalm 43:1 (+ מִגּוֺי; "" שָׁפַט), Psalm 119:154 (+ גָּאַל), also Psalm 74:22 (God, his own cause); + מִיַּד person against whom 1 Samuel 25:39 (of vengeance); + אֵת person against whom Proverbs 23:11, so (without accusative of congnate meaning with verb) Isaiah 50:8'
+  - where: 'section “Pleads, and judges”'
+    claim: 'Connection made by this page: what changes between Micah 6:2 and 7:9 is not the sharpness of the word rîb but whom it is pointed at; in chapter 6 the Lord’s rîb is against Israel, in chapter 7 it is on her side'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/45?lang=eng'
-    quote: 'Listen to him who is the advocate with the Father, who is pleading your cause before him—'
-  - where: 'section “The Advocate”'
-    claim: 'Jesus Christ is our Advocate and pleads our cause with the Father'
-    key: gs-advocate
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/advocate?lang=eng'
-    quote: 'Jesus Christ is our Advocate with the Father (Moro. 7:28) and pleads our cause with Him.'
-  - where: 'section “The Advocate”'
-    claim: 'If the sinner repents, the Savior pays the penalty through the Atonement, invoking mercy'
-    key: gs-justice
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/justice?lang=eng'
-    quote: 'If he does repent, the Savior pays the penalty through the Atonement, invoking mercy (Alma 34:16).'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/micah/6?lang=eng'
+    quote: 'for the Lord hath a controversy with his people, and he will plead with Israel.'
+
+  # ---------- Who will contend with me? ----------
+  - where: 'section “Who will contend with me?”'
+    claim: 'Isa. 50:8 “who will contend with me” is yārîb (H7378), the form of Micah 7:9, and “mine adversary” is baʿal mišpāṭî (H1167 + H4941), with mišpāṭî spelled as in Micah 7:9'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'יָרִ֥יב'
+  - where: 'section “Who will contend with me?”'
+    claim: 'Isa. 50:8 mišpāṭî'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'מִשְׁפָּטִ֖/י'
+  - where: 'section “Who will contend with me?”'
+    claim: 'Delitzsch: baʿal mišpāṭî means he who has a judicial cause of lawsuit against me; mî hûʾ (50:9) is the emphatic τίς of Rom. 8:34'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/50.htm'
+    quote: 'Ba‛al mishpâtı̄ means, "he who has a judicial cause of lawsuit against me," just as in Roman law the dominus litis is distinguished from the procurator, i.e., from the person who represents him in court (syn. ba‛al debhârı̄m, Exodus 24:14, and ''ı̄sh rı̄bhı̄ in Job 31:35; compare Isaiah 41:11). מי־הוּא are connected, and form an emphatic τίς, Romans 8:34'
+  - where: 'section “Who will contend with me?”'
+    claim: 'The Church’s chapter heading for Isaiah 50 reads “Isaiah speaks as the Messiah”; its footnote at 50:8 “justifieth” points to Rom. 8:32 (32–34)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/50?lang=eng'
+    quote: 'Isaiah speaks as the Messiah—He will have the tongue of the learned—He will give His back to the smiters—He will not be confounded—Compare 2 Nephi 7.'
+  - where: 'section “Who will contend with me?”'
+    claim: 'The Old Testament Student Manual reads Isa. 50:7–8 as Israel speaking: “Israel is represented as saying… He is near that justifieth me; who will contend with me?”'
+    key: ot-manual-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-17?lang=eng'
+    quote: 'Still, Israel is represented as saying that “the Lord will help me; … I know I shall not be ashamed” (Isaiah 50:7). Israel’s confidence and trust in God appears unbounded. “He is near that justifieth me; who will contend with me?” (v. 8).'
+  - where: 'section “Who will contend with me?”'
+    claim: 'President Benson: He can simultaneously plead our cause and judge our destiny'
+    key: benson-savior-redeemer-1983
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1983/10/jesus-christ-our-savior-and-redeemer?lang=eng'
+    quote: 'He can simultaneously plead our cause and judge our destiny.'
+  - where: 'section “Who will contend with me?”'
+    claim: 'The Church’s footnote at Isa. 50:8 “justifieth” points to Rom. 8:32 (32–34)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/50?lang=eng'
+    quote: 'Rom. 8:32 (32–34).'
+  - where: 'section “Who will contend with me?”'
+    claim: 'The Church’s footnote at Rom. 8:32 “delivered” points back to Isa. 50:8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/8?lang=eng'
+    quote: 'Isa. 50:8.'
+  - where: 'section “Who will contend with me?”'
+    claim: 'Connection made by this page: Micah’s penitent (7:9) and Isaiah’s Servant (50:8) speak the same courtroom words, yārîb and mišpāṭî, she as one who has sinned and waits for the Lord to take up her cause, He as one who has done no wrong and dares any adversary; Paul (Rom. 8:33–34), whom the Church’s footnotes join to Isa. 50:8, answers “who is he that condemneth?” by naming the Christ who intercedes; since all judgment is committed to the Son (John 5:22), the page reads Paul’s answer as putting the Judge in the advocate’s seat, which President Benson states outright'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/8?lang=eng'
+    quote: 'Who is he that condemneth? It is Christ that died, yea rather, that is risen again, who is even at the right hand of God, who also maketh intercession for us.'
+
+  # ---------- Judge and Advocate ----------
+  - where: 'section “Judge and Advocate”'
+    claim: 'Bible Dictionary: an advocate is one who pleads another’s cause; Jesus Christ is the Advocate with the Father'
+    key: bd-advocate
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/advocate?lang=eng'
+    quote: 'One who pleads another’s cause. Jesus Christ is the Advocate with the Father, on behalf of the righteous (1 Jn. 2:1; Moro. 7:28; D&C 45:3–5; 110:4).'
+  - where: 'section “Judge and Advocate”'
+    claim: 'President Benson: He is our Advocate, Mediator, and Judge; He can simultaneously plead our cause and judge our destiny'
+    key: benson-savior-redeemer-1983
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1983/10/jesus-christ-our-savior-and-redeemer?lang=eng'
+    quote: 'He is our Advocate, Mediator, and Judge.'
+  - where: 'section “Judge and Advocate”'
+    claim: 'President Benson: because He is God, He is perfectly equitable with justice and mercy; He can simultaneously plead our cause and judge our destiny'
+    key: benson-savior-redeemer-1983
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1983/10/jesus-christ-our-savior-and-redeemer?lang=eng'
+    quote: 'Because He is God, He is perfectly equitable with justice and mercy. He can simultaneously plead our cause and judge our destiny.'
+  - where: 'section “Judge and Advocate”'
+    claim: 'The institute manual: Jesus Christ is not only our judge but also our advocate with the Father'
+    key: jcgospel-2023-lesson-24
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-christ-and-his-everlasting-gospel-teacher-material-2023/unit-5/lesson-24-class-prep?lang=eng'
+    quote: 'Thankfully, Jesus Christ is not only our judge but also is our “advocate with the Father” (Doctrine and Covenants 110:4; see also 1 John 2:1).'
+  - where: 'section “Judge and Advocate”'
+    claim: 'Tanner: the Father is not our accuser; just as the Son is both our merciful advocate and our just judge, so the Father possesses both justice and mercy in perfect fullness'
+    key: tanner-advocate-high-priest
+    url: 'https://rsc.byu.edu/celebrating-easter/christ-our-advocate-high-priest'
+    quote: 'Just as the Son is both our merciful advocate and our just judge, so the Father possesses in Himself the qualities of both justice and mercy in perfect fullness.'
+  - where: 'section “Judge and Advocate”'
+    claim: 'Elder Renlund: Christ’s advocacy with the Father is not adversarial; He would not champion anything other than what the Father has wanted all along'
+    key: renlund-choose-2018
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2018/10/choose-you-this-day?lang=eng'
+    quote: 'Christ’s advocacy with the Father in our behalf is not adversarial. Jesus Christ, who allowed His will to be swallowed up in the will of the Father, would not champion anything other than what the Father has wanted all along.'
+  - where: 'section “Judge and Advocate”'
+    claim: 'Elder Renlund: Christ’s advocacy is, at least in part, to remind us that He has paid for our sins'
+    key: renlund-choose-2018
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2018/10/choose-you-this-day?lang=eng'
+    quote: 'Christ’s advocacy is, at least in part, to remind us that He has paid for our sins and that no one is excluded from the reach of God’s mercy.'
+  - where: 'section “Judge and Advocate”'
+    claim: 'Connection made by this page: Micah 7:9 is not a prophecy of Christ’s advocacy and its court is not drawn as D&C 45’s is; what Micah shows is the thing itself before it had a name, the one with the case against the sinner becoming, on her confession, the one who takes up her cause; the Restoration names Him Judge and Advocate in one person'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/27?lang=eng'
+    quote: 'him will I hold guiltless before my Father at that day when I shall stand to judge the world.'
+
+  # ---------- Unto those who confess ----------
   - where: 'section “Unto those who confess”'
     claim: 'JST 1 Jn. 2:1: if any man sin and repent, we have an advocate with the Father'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-jn/2?lang=eng'
     quote: 'But if any man sin and repent, we have an advocate'
   - where: 'section “Unto those who confess”'
-    claim: 'A just person repents when falling short and keeps on trying'
+    claim: 'Elder Renlund: for those who believe in Jesus Christ, repent, are baptized, and endure to the end, the Savior forgives, heals, and advocates'
+    key: renlund-choose-2018
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2018/10/choose-you-this-day?lang=eng'
+    quote: 'For those who believe in Jesus Christ, repent, are baptized, and endure to the end—a process that leads to reconciliation—the Savior forgives, heals, and advocates.'
+  - where: 'section “Unto those who confess”'
+    claim: 'Elder Renlund: a just person repents when falling short and keeps on trying'
     key: renlund-do-justly
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2020/10/55renlund?lang=eng'
     quote: 'A just person chooses to obey the commandments of God, repents when falling short, and keeps on trying.'
   - where: 'section “Unto those who confess”'
-    claim: 'Elder Christofferson: my Advocate … will plead my cause'
-    key: ensign-2014-advocate
-    url: 'https://www.churchofjesuschrist.org/study/ensign/2014/07/the-divine-mission-of-jesus-christ-advocate?lang=eng'
-    quote: 'that my Advocate, him who did no sin, whose blood was shed, will plead my cause.'
+    claim: 'Bowen: Micah 7:18 plays on the prophet’s name; God, not least in his mercy, is incomparable'
+    key: bowen-ominous-onomastics
+    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/ominous-onomastics'
+    quote: 'Here again, we see the prophet’s name constituting a part of the prophet’s message: God, not least in his mercy, is incomparable.'
+  - where: 'section “Unto those who confess”'
+    claim: 'Elder Holland: surely the thing God enjoys most about being God is the thrill of being merciful, especially to those who don’t expect it'
+    key: holland-laborers
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2012/04/the-laborers-in-the-vineyard?lang=eng'
+    quote: 'surely the thing God enjoys most about being God is the thrill of being merciful, especially to those who don’t expect it and often feel they don’t deserve it.'
+  - where: 'section “Unto those who confess”'
+    claim: 'Connection made by this page: the line between the cry the Lord will not answer (3:4, 3:11) and the cry He hears (7:7, 7:9) is the confession in it, and the Restoration keeps the line where Micah put it (JST 1 Jn. 2:1; D&C 64:7; 58:43)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/micah/3?lang=eng'
+    quote: 'yet will they lean upon the Lord, and say, Is not the Lord among us? none evil can come upon us.'
