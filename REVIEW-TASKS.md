@@ -9,7 +9,7 @@ One line per page, no prose; the reasons are in `REVIEW.md` and in git. A sessio
 | deuteronomy / let-it-suffice-thee | done | Moses refused the land, given the Lord |
 | leviticus / accepted-for-him | done | accepted, for the offerer's sake |
 | numbers / between-the-dead-and-the-living | done | every atonement without an altar is made against a plague, for the living; kipper’s last use faces a death done; Amulek’s infinite atonement |
-| haggai / shall-it-be-holy | todo | holiness does not pass by touch; the Holy One touches the unclean |
+| haggai / shall-it-be-holy | done | holiness passes one step by touch and stops; presence came down first; the Holy One’s garment’s corner heals the contagious |
 | micah / plead-my-cause | todo | the Judge becomes the Advocate |
 | psalms / the-unanswered-prayer | todo | Psalm 88 never turns; the Savior prayed Psalm 22 |
 | psalms / the-law-and-the-lost-sheep | todo | the longest praise of the law ends as a lost sheep |
