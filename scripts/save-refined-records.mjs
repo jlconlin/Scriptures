@@ -13,6 +13,7 @@ const phase = process.argv[2] === '--phase' ? process.argv[3] : null;
 const checkOnly = process.argv[4] === '--check';
 if (!['reading', 'adjudicated'].includes(phase) || process.argv.length !== (checkOnly ? 5 : 4)) throw Error('Use --phase reading|adjudicated [--check] and supply a JSON array on stdin');
 let input = '';
+process.stdin.setEncoding('utf8');
 for await (const chunk of process.stdin) input += chunk;
 const records = JSON.parse(input);
 if (!Array.isArray(records) || !records.length) throw Error('Expected a nonempty JSON array');
