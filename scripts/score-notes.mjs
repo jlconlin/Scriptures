@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Aggregate reader judgments; this script never assigns prose-quality ratings.
-// node scripts/score-notes.mjs [book ...] [--out .cache/review]
+// node scripts/score-notes.mjs [book ...] [--out .cache/review] [--rubric prose-v1]
 // Checkpoints: <out>/checkpoints/<book>/NN.json. See REVIEW-codex-scoring.md.
 import { readdir, readFile, mkdir, writeFile, rename } from 'node:fs/promises';
 import path from 'node:path';
@@ -10,15 +10,18 @@ import YAML from 'yaml';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2), books = new Set();
-let out = path.join(ROOT, '.cache/review');
+let out = path.join(ROOT, '.cache/review'), rubric = 'prose-v1';
 for (let i = 0; i < args.length; i++) {
   if (args[i] === '--out') {
     if (!args[i + 1] || args[i + 1].startsWith('--')) throw new Error('--out needs a directory');
     out = path.resolve(args[++i]);
+  } else if (args[i] === '--rubric') {
+    if (!['prose-v1', 'prose-v1-calibrated-1'].includes(args[i + 1])) throw new Error('--rubric needs prose-v1 or prose-v1-calibrated-1');
+    rubric = args[++i];
   } else if (/^[a-z0-9-]+$/.test(args[i])) books.add(args[i]);
   else throw new Error(`Unknown argument: ${args[i]}`);
 }
-const RUBRIC = 'prose-v1';
+const RUBRIC = rubric;
 const hash = (bytes) => createHash('sha256').update(bytes).digest('hex');
 const list = async (dir) => {
   try { return await readdir(dir, { withFileTypes: true }); }
