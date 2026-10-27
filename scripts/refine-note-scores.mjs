@@ -13,11 +13,12 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, '.cache/review/second-pass');
 const MODEL = 'gpt-6.1-sol', PROTOCOL = 'calibrated-adjudication-v1';
 const args = process.argv.slice(2);
-let prepareOnly = false, reportOnly = false, shard = { index: 1, count: 1 }, batchSize = 8, maxBatches = Infinity, retryAt = null;
+let prepareOnly = false, reportOnly = false, printOnly = false, shard = { index: 1, count: 1 }, batchSize = 8, maxBatches = Infinity, retryAt = null;
 for (let i = 0; i < args.length; i++) {
   const arg = args[i];
   if (arg === '--prepare') prepareOnly = true;
   else if (arg === '--report') reportOnly = true;
+  else if (arg === '--print') printOnly = true;
   else if (arg === '--shard') {
     const m = String(args[++i]).match(/^(\d+)\/(\d+)$/);
     if (!m || +m[1] < 1 || +m[1] > +m[2]) throw Error('--shard needs index/count');
@@ -29,10 +30,11 @@ for (let i = 0; i < args.length; i++) {
     else if (arg === '--max-batches') maxBatches = n;
     else retryAt = n * 1000;
   } else if (arg === '--help') {
-    console.log('Usage: node scripts/refine-note-scores.mjs [--prepare | --report] [--shard 1/3] [--batch-size 8] [--max-batches N] [--retry-at <verified reset epoch seconds>]');
+    console.log('Usage: node scripts/refine-note-scores.mjs [--prepare | --report | --print] [--shard 1/3] [--batch-size 8] [--max-batches N] [--retry-at <verified reset epoch seconds>]');
     process.exit(0);
   } else throw Error(`Unknown argument ${arg}`);
 }
+if (printOnly && (prepareOnly || reportOnly)) throw Error('--print cannot be combined with --prepare or --report');
 const text = (f) => readFile(f, 'utf8');
 const json = async (f) => JSON.parse(await text(f));
 const sha = (v) => createHash('sha256').update(v).digest('hex');
@@ -267,6 +269,19 @@ async function callModel(prompt, phase, batch) {
     child.on('error', reject); child.on('close', resolve); child.stdin.on('error', () => {}); child.stdin.end(prompt);
   }).finally(() => new Promise((resolve) => fd.end(resolve)));
   return { code, log: path.relative(ROOT, log), seconds: Math.round((Date.now() - start) / 1000) };
+}
+
+if (printOnly) {
+  const pending = [];
+  for (const n of selected) if (!await complete(n)) pending.push(n);
+  if (!pending.length) { console.log('No pending assigned notes.'); process.exit(0); }
+  const batch = pending.filter((n) => n.book === pending[0].book).slice(0, batchSize), readings = new Map();
+  for (const n of batch) { const r = await validRaw('reading', n); if (r) readings.set(key(n), r); }
+  const phase = readings.size === batch.length ? 'adjudicated' : 'reading';
+  const assigned = [];
+  for (const n of batch) if (phase === 'reading' ? !readings.has(key(n)) : !await validRaw('adjudicated', n, readings.get(key(n)))) assigned.push(n);
+  console.log(assigned.length ? await buildPrompt(phase, assigned, readings) : 'Saved raw adjudications are ready to publish without a model call.');
+  process.exit(0);
 }
 
 let batches = 0;
