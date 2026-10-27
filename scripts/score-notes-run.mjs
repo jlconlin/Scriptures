@@ -15,7 +15,7 @@ const RUBRIC_VERSION = 'prose-v1-calibrated-1';
 const MODEL = 'gpt-6-luna';
 const REASONING = 'high';
 const args = process.argv.slice(2);
-let selectedBook = null, batchSize = 5, maxBatches = Infinity, printOnly = false, shard = null;
+let selectedBook = null, batchSize = 5, maxBatches = Infinity, printOnly = false, shard = null, retryAt = null;
 for (let i = 0; i < args.length; i++) {
   const arg = args[i];
   if (arg === '--book') {
@@ -29,9 +29,11 @@ for (let i = 0; i < args.length; i++) {
     const match = String(args[++i] ?? '').match(/^(\d+)\/(\d+)$/);
     if (!match || +match[1] < 1 || +match[1] > +match[2]) throw new Error('--shard needs an index/count such as 1/3');
     shard = { index: +match[1], count: +match[2] };
+  } else if (arg === '--retry-at') {
+    retryAt = positiveInteger(args[++i], '--retry-at') * 1000;
   } else if (arg === '--print') printOnly = true;
   else if (arg === '--help' || arg === '-h') {
-    console.log('Usage: node scripts/score-notes-run.mjs [--book <slug>] [--batch-size 5] [--max-batches N] [--shard 1/3] [--print]');
+    console.log('Usage: node scripts/score-notes-run.mjs [--book <slug>] [--batch-size 5] [--max-batches N] [--shard 1/3] [--retry-at <reset epoch seconds>] [--print]');
     process.exit(0);
   } else throw new Error(`Unknown argument: ${arg}`);
 }
@@ -122,9 +124,10 @@ async function checkpointState(book, chapter) {
 // fragment's added final punctuation. Never change words or ratings; retain
 // the original excerpt for audit. Unmatched revision evidence fails validation;
 // keep/polish records may instead carry a labeled source opening for reference.
-function normalizedSpan(text) {
+function normalizedSpan(text, ignoreQuotes = false) {
   let normalized = '', offsets = [], ends = [], offset = 0;
   for (const char of text) {
+    if (ignoreQuotes && /['"‘’“”]/u.test(char)) { offset += char.length; continue; }
     let next = (/\s/u.test(char) ? ' ' : char.replace(/[‘’]/u, "'").replace(/[“”]/u, '"')).toLowerCase();
     if (!(next === ' ' && normalized.endsWith(' '))) {
       normalized += next;
@@ -144,14 +147,17 @@ async function repairEvidence(cp, ch, file) {
     if (!item || !body) continue;
     if (typeof item.evidence !== 'string') item.evidence = '';
     if (item.evidence.trim() && body.includes(item.evidence)) continue;
-    const source = normalizedSpan(body);
     let replacement = null;
-    for (const fragment of [item.evidence, item.evidence.replace(/[.!?;:…“”"'‘’()[\]]+$/u, '').trimEnd()]) {
-      const target = normalizedSpan(fragment).normalized;
-      const at = source.normalized.indexOf(target);
-      if (target.length < 24 || at < 0 || at !== source.normalized.lastIndexOf(target)) continue;
-      replacement = body.slice(source.offsets[at], source.ends[at + target.length - 1]);
-      break;
+    for (const ignoreQuotes of [false, true]) {
+      const source = normalizedSpan(body, ignoreQuotes);
+      for (const fragment of [item.evidence, item.evidence.replace(/[.!?;:…“”"'‘’()[\]]+$/u, '').trimEnd()]) {
+        const target = normalizedSpan(fragment, ignoreQuotes).normalized;
+        const at = source.normalized.indexOf(target);
+        if (target.length < 24 || at < 0 || at !== source.normalized.lastIndexOf(target)) continue;
+        replacement = body.slice(source.offsets[at], source.ends[at + target.length - 1]);
+        break;
+      }
+      if (replacement) break;
     }
     if (!replacement && item.rating < 2) {
       // Only revision findings require reviewer-selected supporting evidence.
@@ -316,7 +322,7 @@ for (const item of books) {
   if (result.error || result.status !== 0) throw new Error(`Cannot refresh ${item.book}: ${result.stderr || result.error?.message}`);
 }
 
-let batches = 0;
+let batches = 0, retriedLimit = false;
 await mkdir(RUN_DIR, { recursive: true });
 await writeFile(path.join(RUN_DIR, 'calibration.json'), calibrationBytes);
 while (batches < maxBatches) {
@@ -332,6 +338,15 @@ while (batches < maxBatches) {
   console.log(`Starting ${batchName} (${batches + 1}${Number.isFinite(maxBatches) ? `/${maxBatches}` : ''})`);
   const run = await runCodex(prompt, book, chapters).catch((error) => ({ error: error.message, code: null }));
   if (run.error || run.code !== 0) {
+    const logText = run.log ? await readText(run.log) : '';
+    if (!retriedLimit && retryAt && retryAt + 30000 > Date.now() && /(?:hit your usage limit|usage_limit_reached)/i.test(logText)) {
+      const target = retryAt + 30000;
+      await saveQueue(books, { outcome: 'waiting-for-usage-reset', batch: batchName, retry_at: new Date(target).toISOString(), log: run.log });
+      console.log(`Usage limit reached; saved checkpoints retained. Waiting until ${new Date(target).toISOString()} to resume once.`);
+      while (Date.now() < target) await new Promise((resolve) => setTimeout(resolve, Math.min(60000, target - Date.now())));
+      retriedLimit = true;
+      continue;
+    }
     const state = { outcome: 'stopped', batch: batchName, error: run.error ?? `codex exited ${run.code ?? run.signal}`, log: run.log ?? null, elapsed_seconds: run.elapsedSeconds ?? null };
     await saveQueue(books, state);
     console.error(`Stopped on ${batchName}: ${state.error}${run.log ? ` (log: ${path.relative(ROOT, run.log)})` : ''}`);
