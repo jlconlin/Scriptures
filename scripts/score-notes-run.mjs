@@ -15,7 +15,7 @@ const RUBRIC_VERSION = 'prose-v1-calibrated-1';
 const MODEL = 'gpt-6-luna';
 const REASONING = 'high';
 const args = process.argv.slice(2);
-let selectedBook = null, batchSize = 5, maxBatches = Infinity, printOnly = false;
+let selectedBook = null, batchSize = 5, maxBatches = Infinity, printOnly = false, shard = null;
 for (let i = 0; i < args.length; i++) {
   const arg = args[i];
   if (arg === '--book') {
@@ -25,12 +25,18 @@ for (let i = 0; i < args.length; i++) {
     batchSize = positiveInteger(args[++i], '--batch-size');
   } else if (arg === '--max-batches') {
     maxBatches = positiveInteger(args[++i], '--max-batches');
+  } else if (arg === '--shard') {
+    const match = String(args[++i] ?? '').match(/^(\d+)\/(\d+)$/);
+    if (!match || +match[1] < 1 || +match[1] > +match[2]) throw new Error('--shard needs an index/count such as 1/3');
+    shard = { index: +match[1], count: +match[2] };
   } else if (arg === '--print') printOnly = true;
   else if (arg === '--help' || arg === '-h') {
-    console.log('Usage: node scripts/score-notes-run.mjs [--book <slug>] [--batch-size 5] [--max-batches N] [--print]');
+    console.log('Usage: node scripts/score-notes-run.mjs [--book <slug>] [--batch-size 5] [--max-batches N] [--shard 1/3] [--print]');
     process.exit(0);
   } else throw new Error(`Unknown argument: ${arg}`);
 }
+if (shard && selectedBook) throw new Error('--book and --shard cannot be combined');
+const RUN_DIR = path.join(ROOT, '.cache/review/run', ...(shard ? [`shard-${shard.index}-of-${shard.count}`] : []));
 function positiveInteger(value, flag) {
   const n = Number(value);
   if (!Number.isInteger(n) || n < 1) throw new Error(`${flag} needs a positive integer`);
@@ -73,7 +79,7 @@ async function booksToReview() {
   }
   if (selectedBook && !books.length) throw new Error(`No existing chapter YAML files found for ${selectedBook}`);
   books.sort((a, b) => a.chapters.length - b.chapters.length || a.book.localeCompare(b.book));
-  return books;
+  return shard ? books.filter((_, index) => index % shard.count === shard.index - 1) : books;
 }
 
 async function readSource(book, chapter) {
@@ -112,9 +118,21 @@ async function checkpointState(book, chapter) {
   return { file, done: false, existing: cp };
 }
 
-// Readers sometimes end a verbatim sentence fragment with a period where the
-// source continues with a colon or reference. Trim only trailing punctuation;
-// never change words or ratings, and retain the original excerpt for audit.
+// Recover the unique source span for typography/whitespace differences or a
+// fragment's added final punctuation. Never change words or ratings; retain
+// the original excerpt for audit and let unmatched words fail validation.
+function normalizedSpan(text) {
+  let normalized = '', offsets = [], ends = [], offset = 0;
+  for (const char of text) {
+    let next = /\s/u.test(char) ? ' ' : char.replace(/[‘’]/u, "'").replace(/[“”]/u, '"');
+    if (!(next === ' ' && normalized.endsWith(' '))) {
+      normalized += next;
+      for (let i = 0; i < next.length; i++) { offsets.push(offset); ends.push(offset + char.length); }
+    }
+    offset += char.length;
+  }
+  return { normalized, offsets, ends };
+}
 async function repairEvidence(cp, ch, file) {
   let changed = false;
   const items = [
@@ -123,10 +141,18 @@ async function repairEvidence(cp, ch, file) {
   ];
   for (const [item, body] of items) {
     if (!item || typeof item.evidence !== 'string' || body.includes(item.evidence)) continue;
-    const trimmed = item.evidence.replace(/[.!?;:…“”"'‘’()[\]]+$/u, '').trimEnd();
-    if (trimmed.length < 24 || !body.includes(trimmed) || body.indexOf(trimmed) !== body.lastIndexOf(trimmed)) continue;
+    const source = normalizedSpan(body);
+    let replacement = null;
+    for (const fragment of [item.evidence, item.evidence.replace(/[.!?;:…“”"'‘’()[\]]+$/u, '').trimEnd()]) {
+      const target = normalizedSpan(fragment).normalized;
+      const at = source.normalized.indexOf(target);
+      if (target.length < 24 || at < 0 || at !== source.normalized.lastIndexOf(target)) continue;
+      replacement = body.slice(source.offsets[at], source.ends[at + target.length - 1]);
+      break;
+    }
+    if (!replacement) continue;
     item.evidence_original ??= item.evidence;
-    item.evidence = trimmed;
+    item.evidence = replacement;
     changed = true;
   }
   if (changed) await atomicJson(file, cp);
@@ -247,13 +273,13 @@ async function runCodex(prompt, book, chapters) {
 }
 
 async function saveQueue(books, state) {
-  const queueFile = path.join(ROOT, '.cache/review/run/queue.json');
+  const queueFile = path.join(RUN_DIR, 'queue.json');
   const remaining = [];
   for (const item of books) {
     const chapters = await pendingForBook(item.book, item.chapters);
     if (chapters.length) remaining.push({ book: item.book, chapters });
   }
-  await atomicJson(queueFile, { rubric_version: RUBRIC_VERSION, calibration_sha256: calibrationSha, updated_at: new Date().toISOString(), state, remaining });
+  await atomicJson(queueFile, { rubric_version: RUBRIC_VERSION, calibration_sha256: calibrationSha, shard, updated_at: new Date().toISOString(), state: remaining.length ? state : { ...state, outcome: 'complete' }, remaining });
   return remaining;
 }
 
@@ -271,8 +297,8 @@ if (printOnly) {
 }
 
 let batches = 0;
-await mkdir(path.join(ROOT, '.cache/review/run'), { recursive: true });
-await writeFile(path.join(ROOT, '.cache/review/run/calibration.json'), calibrationBytes);
+await mkdir(RUN_DIR, { recursive: true });
+await writeFile(path.join(RUN_DIR, 'calibration.json'), calibrationBytes);
 while (batches < maxBatches) {
   let picked = null;
   for (const item of books) {
@@ -319,4 +345,4 @@ while (batches < maxBatches) {
 }
 const remaining = await saveQueue(books, { outcome: 'paused-at-limit', batches_run: batches, max_batches: Number.isFinite(maxBatches) ? maxBatches : null });
 const total = remaining.reduce((sum, x) => sum + x.chapters.length, 0);
-console.log(total ? `Stopped at batch limit; ${total} chapters remain. Queue: .cache/review/run/queue.json` : 'All existing chapter files have matching calibrated checkpoints.');
+console.log(total ? `Stopped at batch limit; ${total} chapters remain. Queue: ${path.relative(ROOT, path.join(RUN_DIR, 'queue.json'))}` : 'All selected chapter files have matching calibrated checkpoints.');
