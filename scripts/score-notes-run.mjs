@@ -102,6 +102,7 @@ async function checkpointState(book, chapter) {
   const acceptedLegacyHaggai = book === 'haggai' && cp.calibration_sha256 === undefined;
   if (commonMatch && (cp.calibration_sha256 === calibrationSha || acceptedLegacyHaggai)) {
     try {
+      await repairEvidence(cp, chapterYaml, file);
       validateCheckpoint(cp, chapterYaml, file, { calibrationRequired: !acceptedLegacyHaggai });
       return { file, done: true, legacy: acceptedLegacyHaggai };
     } catch (error) {
@@ -109,6 +110,26 @@ async function checkpointState(book, chapter) {
     }
   }
   return { file, done: false, existing: cp };
+}
+
+// Readers sometimes end a verbatim sentence fragment with a period where the
+// source continues with a colon or reference. Trim only trailing punctuation;
+// never change words or ratings, and retain the original excerpt for audit.
+async function repairEvidence(cp, ch, file) {
+  let changed = false;
+  const items = [
+    ...(cp.notes ?? []).map((n) => [n, String(ch.notes?.[n.index]?.body ?? '')]),
+    ...['setting', 'thread'].map((field) => [cp.sections?.[field], String(ch[field] ?? '')]),
+  ];
+  for (const [item, body] of items) {
+    if (!item || typeof item.evidence !== 'string' || body.includes(item.evidence)) continue;
+    const trimmed = item.evidence.replace(/[.!?;:…“”"'‘’()[\]]+$/u, '').trimEnd();
+    if (trimmed.length < 24 || !body.includes(trimmed) || body.indexOf(trimmed) !== body.lastIndexOf(trimmed)) continue;
+    item.evidence_original ??= item.evidence;
+    item.evidence = trimmed;
+    changed = true;
+  }
+  if (changed) await atomicJson(file, cp);
 }
 
 function validateCheckpoint(cp, ch, file, { calibrationRequired = true } = {}) {
@@ -278,6 +299,7 @@ while (batches < maxBatches) {
       if (cp.book !== book || cp.chapter !== chapter || cp.chapter_sha256 !== hash(source.bytes)) throw new Error(`${book} ${chapter}: checkpoint identity or source fingerprint mismatch`);
       if (cp.calibration_sha256 !== calibrationSha) throw new Error(`${book} ${chapter}: checkpoint calibration fingerprint mismatch`);
       if (cp.model !== MODEL || cp.reasoning !== REASONING) throw new Error(`${book} ${chapter}: unexpected model provenance`);
+      await repairEvidence(cp, source.chapterYaml, file);
       validateCheckpoint(cp, source.chapterYaml, file);
     }
     const outDir = path.join(CHECKPOINT_ROOT, book);
