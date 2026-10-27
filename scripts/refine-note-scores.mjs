@@ -155,7 +155,7 @@ async function validRaw(phase, n, reading = null) {
 async function complete(n) {
   const cp = await optional(cpPath(n));
   if (!cp) return null;
-  if (cp.protocol_version !== PROTOCOL || cp.calibration_sha256 !== calibrationSha || cp.original_sha256 !== n.original_sha256 || cp.chapter_sha256 !== n.chapter_sha256 || key(cp) !== key(n) || cp.status !== 'complete') throw Error(`${key(n)}: stale completed checkpoint`);
+  if (cp.protocol_version !== PROTOCOL || cp.calibration_sha256 !== calibrationSha || cp.original_sha256 !== n.original_sha256 || cp.chapter_sha256 !== n.chapter_sha256 || key(cp) !== key(n) || cp.status !== 'complete' || cp.model !== MODEL || cp.reasoning !== 'high' || ['ref', 'title', 'kind'].some((field) => cp[field] !== n[field])) throw Error(`${key(n)}: stale or invalid completed checkpoint`);
   validateJudgment(cp.adjudication, n, await source(n.book, n.chapter), true);
   if (cp.provenance === 'sol-trial') return cp;
   const reading = await validRaw('reading', n), final = reading && await validRaw('adjudicated', n, reading);
@@ -165,6 +165,8 @@ async function complete(n) {
 async function importTrial() {
   const trial = await optional(path.join(ROOT, '.cache/review/sol-trial/comparison.json'));
   if (!trial) return;
+  const trialPrompt = await text(path.join(ROOT, '.cache/review/sol-trial/prompt-adjudicated-1.txt'));
+  if (!trialPrompt.includes(JSON.stringify(anchors, null, 2))) throw Error('Trial did not use the current complete author anchors; do not import it');
   for (const n of manifest.targets.filter((v) => v.scope === 'candidate')) {
     if (await optional(cpPath(n))) continue;
     const t = trial.notes.find((v) => key(v) === key(n) && v.chapter_sha256 === n.chapter_sha256);
