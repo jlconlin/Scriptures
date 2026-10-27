@@ -101,8 +101,12 @@ async function checkpointState(book, chapter) {
   // original three anchors and retained after the author confirmed the new revision candidate.
   const acceptedLegacyHaggai = book === 'haggai' && cp.calibration_sha256 === undefined;
   if (commonMatch && (cp.calibration_sha256 === calibrationSha || acceptedLegacyHaggai)) {
-    validateCheckpoint(cp, chapterYaml, file, { calibrationRequired: !acceptedLegacyHaggai });
-    return { file, done: true, legacy: acceptedLegacyHaggai };
+    try {
+      validateCheckpoint(cp, chapterYaml, file, { calibrationRequired: !acceptedLegacyHaggai });
+      return { file, done: true, legacy: acceptedLegacyHaggai };
+    } catch (error) {
+      return { file, done: false, existing: cp, invalid: error.message };
+    }
   }
   return { file, done: false, existing: cp };
 }
