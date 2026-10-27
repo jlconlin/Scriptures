@@ -10,7 +10,7 @@ import YAML from 'yaml';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const args = process.argv.slice(2), books = new Set();
-let out = path.join(ROOT, '.cache/review'), rubric = 'prose-v1';
+let out = path.join(ROOT, '.cache/review'), rubric = 'prose-v1', bookReviews = null;
 for (let i = 0; i < args.length; i++) {
   if (args[i] === '--out') {
     if (!args[i + 1] || args[i + 1].startsWith('--')) throw new Error('--out needs a directory');
@@ -18,6 +18,9 @@ for (let i = 0; i < args.length; i++) {
   } else if (args[i] === '--rubric') {
     if (!['prose-v1', 'prose-v1-calibrated-1'].includes(args[i + 1])) throw new Error('--rubric needs prose-v1 or prose-v1-calibrated-1');
     rubric = args[++i];
+  } else if (args[i] === '--from-book-reviews') {
+    if (!args[i + 1] || args[i + 1].startsWith('--')) throw new Error('--from-book-reviews needs a directory');
+    bookReviews = path.resolve(args[++i]);
   } else if (/^[a-z0-9-]+$/.test(args[i])) books.add(args[i]);
   else throw new Error(`Unknown argument: ${args[i]}`);
 }
@@ -35,12 +38,23 @@ const rate = (r, body, file, label) => {
   if (r.rating >= 2 && (typeof r.revision_needed !== 'string' || !r.revision_needed.trim())) fail(file, `${label}: missing revision needed`);
 };
 const checkpoints = [], pending = [];
-const dirs = await list(path.join(out, 'checkpoints'));
+const dirs = await list(bookReviews ?? path.join(out, 'checkpoints'));
 for (const dir of dirs.filter((d) => d.isDirectory()).sort((a, b) => a.name.localeCompare(b.name))) {
   if (books.size && !books.has(dir.name)) continue;
-  for (const entry of (await list(path.join(out, 'checkpoints', dir.name))).sort((a, b) => a.name.localeCompare(b.name))) {
+  let ready = null;
+  if (bookReviews) {
+    // Consume only chapters already published by the strict per-book validator,
+    // not checkpoints another worker may still be writing or repairing.
+    try {
+      const csvText = await readFile(path.join(bookReviews, dir.name, 'chapter-priorities.csv'), 'utf8');
+      ready = new Set([...csvText.matchAll(/^"[a-z0-9-]+","(\d+)",/gm)].map((m) => Number(m[1])));
+    } catch (e) { if (e.code === 'ENOENT') continue; throw e; }
+  }
+  const inputDir = bookReviews ? path.join(bookReviews, dir.name, 'checkpoints', dir.name) : path.join(out, 'checkpoints', dir.name);
+  for (const entry of (await list(inputDir)).sort((a, b) => a.name.localeCompare(b.name))) {
     if (!entry.isFile() || !/^\d+\.json$/.test(entry.name)) continue;
-    const file = path.join(out, 'checkpoints', dir.name, entry.name);
+    if (ready && !ready.has(Number(entry.name.replace('.json', '')))) continue;
+    const file = path.join(inputDir, entry.name);
     const r = JSON.parse(await readFile(file, 'utf8'));
     if (r.book !== dir.name || !Number.isInteger(r.chapter) || r.chapter < 1 || Number(entry.name.replace('.json', '')) !== r.chapter) fail(file, 'chapter identity mismatch');
     if (r.schema_version !== 1 || r.rubric_version !== RUBRIC) fail(file, 'schema or rubric version mismatch; reassess before aggregating');
@@ -109,7 +123,7 @@ const atomic = async (name, data) => {
   const dest = path.join(out, name), temp = `${dest}.${process.pid}.tmp`;
   await writeFile(temp, data); await rename(temp, dest);
 };
-const fields = ['book', 'chapter', 'index', 'ref', 'title', 'kind', 'rating', 'evidence', 'reason', 'revision_needed', 'model', 'reasoning', 'rubric_version'];
+const fields = ['book', 'chapter', 'index', 'ref', 'title', 'kind', 'rating', 'evidence', 'reason', 'revision_needed', 'model', 'reasoning', 'rubric_version', 'evidence_basis', 'evidence_original'];
 await atomic('note-scores.md', report);
 await atomic('note-scores.csv', csv([fields, ...notes.map((n) => fields.map((f) => n[f]))]));
 await atomic('chapter-priorities.csv', csv([chapterHeaders, ...chapterRows]));

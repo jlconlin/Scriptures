@@ -120,11 +120,12 @@ async function checkpointState(book, chapter) {
 
 // Recover the unique source span for typography/whitespace differences or a
 // fragment's added final punctuation. Never change words or ratings; retain
-// the original excerpt for audit and let unmatched words fail validation.
+// the original excerpt for audit. Unmatched revision evidence fails validation;
+// keep/polish records may instead carry a labeled source opening for reference.
 function normalizedSpan(text) {
   let normalized = '', offsets = [], ends = [], offset = 0;
   for (const char of text) {
-    let next = /\s/u.test(char) ? ' ' : char.replace(/[‘’]/u, "'").replace(/[“”]/u, '"');
+    let next = (/\s/u.test(char) ? ' ' : char.replace(/[‘’]/u, "'").replace(/[“”]/u, '"')).toLowerCase();
     if (!(next === ' ' && normalized.endsWith(' '))) {
       normalized += next;
       for (let i = 0; i < next.length; i++) { offsets.push(offset); ends.push(offset + char.length); }
@@ -140,7 +141,9 @@ async function repairEvidence(cp, ch, file) {
     ...['setting', 'thread'].map((field) => [cp.sections?.[field], String(ch[field] ?? '')]),
   ];
   for (const [item, body] of items) {
-    if (!item || typeof item.evidence !== 'string' || body.includes(item.evidence)) continue;
+    if (!item || !body) continue;
+    if (typeof item.evidence !== 'string') item.evidence = '';
+    if (item.evidence.trim() && body.includes(item.evidence)) continue;
     const source = normalizedSpan(body);
     let replacement = null;
     for (const fragment of [item.evidence, item.evidence.replace(/[.!?;:…“”"'‘’()[\]]+$/u, '').trimEnd()]) {
@@ -149,6 +152,15 @@ async function repairEvidence(cp, ch, file) {
       if (target.length < 24 || at < 0 || at !== source.normalized.lastIndexOf(target)) continue;
       replacement = body.slice(source.offsets[at], source.ends[at + target.length - 1]);
       break;
+    }
+    if (!replacement && item.rating < 2) {
+      // Only revision findings require reviewer-selected supporting evidence.
+      // Keep/polish records can carry a clearly labeled opening for reference;
+      // do not spend another model run repairing a nonessential quotation.
+      const opening = body.trimStart();
+      const limit = opening.length > 200 ? opening.lastIndexOf(' ', 200) : opening.length;
+      replacement = opening.slice(0, limit > 0 ? limit : Math.min(200, opening.length));
+      item.evidence_basis = 'Coordinator-supplied opening excerpt for reference, not reviewer-selected support';
     }
     if (!replacement) continue;
     item.evidence_original ??= item.evidence;
@@ -294,6 +306,14 @@ if (printOnly) {
   }
   console.log('No pending chapters.');
   process.exit(0);
+}
+
+// A previous batch may have saved valid chapters before a later item failed.
+// Refresh their book report on resume even when no new model call is needed.
+for (const item of books) {
+  if ((await pendingForBook(item.book, item.chapters)).length) continue;
+  const result = spawnSync(process.execPath, [path.join(ROOT, 'scripts/score-notes.mjs'), item.book, '--out', path.join(CHECKPOINT_ROOT, item.book), '--rubric', RUBRIC_VERSION], { cwd: ROOT, encoding: 'utf8' });
+  if (result.error || result.status !== 0) throw new Error(`Cannot refresh ${item.book}: ${result.stderr || result.error?.message}`);
 }
 
 let batches = 0;
