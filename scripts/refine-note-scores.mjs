@@ -187,6 +187,7 @@ const table = (heads, rows) => [heads, heads.map(() => '---'), ...rows].map((r) 
 async function report() {
   const all = [];
   for (const n of manifest.targets) all.push({ n, cp: await complete(n) });
+  all.sort((a, b) => (a.n.scope === 'audit') - (b.n.scope === 'audit') || a.n.book.localeCompare(b.n.book) || a.n.chapter - b.n.chapter || a.n.index - b.n.index);
   const candidates = all.filter(({ n }) => n.scope === 'candidate'), audits = all.filter(({ n }) => n.scope === 'audit');
   const done = candidates.filter(({ cp }) => cp), auditDone = audits.filter(({ cp }) => cp);
   const group = (list, decision) => list.filter(({ cp }) => cp?.adjudication.decision === decision);
@@ -212,8 +213,8 @@ async function report() {
   await atomic(path.join(OUT, 'results.csv'), csv([heads, ...rows]));
   await atomic(path.join(OUT, 'REPORT.md'), md);
   const chapters = new Map();
-  for (const { n, cp } of candidates) { const id = `${n.book}/${n.chapter}`; if (!chapters.has(id)) chapters.set(id, { book: n.book, chapter: n.chapter, total: 0, reviewed: 0, clear: 0, polish: 0, unresolved: 0 }); const c = chapters.get(id); c.total++; if (cp) { c.reviewed++; if (cp.adjudication.decision === 'clear_revision') c.clear++; else if (cp.adjudication.decision === 'polish_keep') c.polish++; else c.unresolved++; } }
-  await atomic(path.join(OUT, 'chapter-priorities.csv'), csv([['book', 'chapter', 'original_candidates', 'candidates_reviewed', 'clear_revision', 'polish_keep', 'unresolved'], ...[...chapters.values()].map((c) => [c.book, c.chapter, c.total, c.reviewed, c.clear, c.polish, c.unresolved])]));
+  for (const { n, cp } of candidates) { const id = `${n.book}/${n.chapter}`; if (!chapters.has(id)) chapters.set(id, { book: n.book, chapter: n.chapter, notes: (await source(n.book, n.chapter)).ch.notes.length, total: 0, reviewed: 0, clear: 0, polish: 0, unresolved: 0 }); const c = chapters.get(id); c.total++; if (cp) { c.reviewed++; if (cp.adjudication.decision === 'clear_revision') c.clear++; else if (cp.adjudication.decision === 'polish_keep') c.polish++; else c.unresolved++; } }
+  await atomic(path.join(OUT, 'chapter-priorities.csv'), csv([['book', 'chapter', 'chapter_notes_total', 'original_candidates', 'candidates_reviewed', 'clear_revision', 'polish_keep', 'unresolved', 'retained_candidate_percent_of_chapter_notes', 'coverage'], ...[...chapters.values()].map((c) => [c.book, c.chapter, c.notes, c.total, c.reviewed, c.clear, c.polish, c.unresolved, (100 * c.clear / c.notes).toFixed(1), c.reviewed === c.total ? 'all original candidates rereviewed; other notes not rereviewed' : 'partial candidate review; other notes not rereviewed'])]));
   const summary = { candidate_total: candidates.length, candidate_complete: done.length, clear_revision: retained.length, polish_keep: dropped.length, unresolved: unresolved.length, audit_total: audits.length, audit_complete: auditDone.length, audit_new_flags: group(auditDone, 'clear_revision').length, audit_unresolved: group(auditDone, 'unresolved').length, threshold_changes: changes.length, new_threshold_changes: newChanges.length, trial_threshold_changes: changes.length - newChanges.length, updated_at: new Date().toISOString() };
   await atomic(path.join(OUT, 'summary.json'), summary);
   return summary;
