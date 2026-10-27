@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // Aggregate reader judgments; this script never assigns prose-quality ratings.
 // node scripts/score-notes.mjs [book ...] [--out .cache/review] [--rubric prose-v1]
-// Checkpoints: <out>/checkpoints/<book>/NN.json. See REVIEW-codex-scoring.md.
+// Checkpoints: <out>/checkpoints/<book>/NN.json. Archived rubric: .cache/review/SCORING-BRIEF.md.
 import { readdir, readFile, mkdir, writeFile, rename } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -102,6 +102,24 @@ const csv = (rows) => rows.map((row) => row.map((s) => `"${String(s ?? '').repla
 const chapterHeaders = ['Book', 'Ch.', 'Notes reviewed / total', 'Revise (2)', 'Rebuild (3)', 'Needs revision (2–3)', 'Needs revision %', 'Setting', 'Thread'];
 const bookHeaders = ['Book', 'Chapters reviewed / available', 'Chapters remaining', 'Notes reviewed', 'Keep (0)', 'Polish (1)', 'Revise (2)', 'Rebuild (3)', 'Needs revision %'];
 const flagged = notes.filter((n) => n.rating >= 2).sort((a, b) => b.rating - a.rating || a.book.localeCompare(b.book) || a.chapter - b.chapter || a.index - b.index);
+let validation = [];
+try {
+  const sample = JSON.parse(await readFile(path.join(out, 'validation/comparison.json'), 'utf8'));
+  if (!Array.isArray(sample.notes) || !sample.notes.length) throw new Error('Independent sample has no notes');
+  const current = sample.notes.every((n) => {
+    const cp = checkpoints.find((c) => c.book === n.book && c.chapter === n.chapter);
+    return cp?.chapter_sha256 === n.chapter_sha256 && cp.notes.find((v) => v.index === n.index)?.rating === n.initial_rating;
+  });
+  const agree = sample.notes.filter((n) => (n.rating >= 2) === (n.initial_rating >= 2)).length;
+  const flags = sample.notes.filter((n) => n.initial_rating >= 2);
+  const retained = flags.filter((n) => n.rating >= 2).length;
+  const newFlags = sample.notes.filter((n) => n.initial_rating < 2 && n.rating >= 2).length;
+  validation = ['## Independent sample', '', current
+    ? `Fresh readings agreed on the revision threshold for ${agree}/${sample.notes.length} sampled notes, retained ${retained}/${flags.length} original revision flags, and newly flagged ${newFlags}/${sample.notes.length - flags.length} previously unflagged notes. These disagreements prevent treating the flags as a dependable repair count; neither reading is established as correct. The small stratified sample cannot establish a corrected population total. Original scores remain unchanged. See [sample results](validation/RESULTS.md) for the method, passages, and disagreements.`
+    : 'The saved independent sample does not match the current sources and initial ratings; its validation is stale. Recheck before using these totals to plan repairs.', ''];
+} catch (error) {
+  if (error.code !== 'ENOENT') throw error;
+}
 const report = [
   '# Chapter prose review', '',
   `Generated ${new Date().toISOString()}. Rubric ${RUBRIC}.`, '',
@@ -110,6 +128,7 @@ const report = [
   '## Coverage', '', `Completed chapters: ${checkpoints.length}; notes: ${notes.length}; needs revision: ${flagged.length} (${notes.length ? (flagged.length * 100 / notes.length).toFixed(1) : 'N/A'}%).`, '',
   pending.length ? `Partial/unreviewed checkpoints: ${pending.join('; ')}.` : 'No partial checkpoints found. Chapters without checkpoints remain unreviewed.', '',
   'Pilot decisions, validation status, remaining chapters, and the next-stage handoff are recorded in HANDOFF.md alongside this report.', '',
+  ...validation,
   '## Notes needing revision', '',
   table(['Book', 'Ch.', 'Ref', 'Note (title)', 'Kind', 'Rating', 'Evidence passage', 'Revision needed'], flagged.map((n) => [n.book, n.chapter, n.ref, n.title, n.kind, n.rating, n.evidence, n.revision_needed])), '',
   '## Chapters', '', table(chapterHeaders, chapterRows), '',

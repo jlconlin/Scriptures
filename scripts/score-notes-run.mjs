@@ -216,7 +216,10 @@ async function buildPrompt(book, chapters) {
     readText(path.join(ROOT, 'AUTHORING.md')),
     readText(path.join(ROOT, 'STANDARDS.md')),
     readText(path.join(ROOT, 'content', book, 'BRIEF.md')),
-    readText(path.join(ROOT, 'REVIEW-codex-scoring.md')),
+    readText(path.join(ROOT, 'REVIEW-codex-scoring.md')).catch((error) => {
+      if (error.code !== 'ENOENT') throw error;
+      return readText(path.join(ROOT, '.cache/review/SCORING-BRIEF.md'));
+    }),
   ]);
   const anchorNotes = [];
   for (const anchor of calibration.anchors) {
