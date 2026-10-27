@@ -323,6 +323,7 @@ for (const item of books) {
 }
 
 let batches = 0, retriedLimit = false;
+const repairAttempts = new Map();
 await mkdir(RUN_DIR, { recursive: true });
 await writeFile(path.join(RUN_DIR, 'calibration.json'), calibrationBytes);
 while (batches < maxBatches) {
@@ -374,6 +375,16 @@ while (batches < maxBatches) {
     console.log(`Saved ${book} ${chapters.map(pad).join(', ')}; ${run.elapsedSeconds}s${usage}; ${remaining.reduce((sum, x) => sum + x.chapters.length, 0)} chapters remain.`);
   } catch (error) {
     await saveQueue(books, { outcome: 'stopped', batch: batchName, log: path.relative(ROOT, run.log), elapsed_seconds: run.elapsedSeconds, error: error.message });
+    const invalid = [];
+    for (const chapter of chapters) if (!(await checkpointState(book, chapter)).done) invalid.push(chapter);
+    if (invalid.length && invalid.every((chapter) => (repairAttempts.get(`${book}/${chapter}`) ?? 0) < 2)) {
+      for (const chapter of invalid) {
+        const key = `${book}/${chapter}`;
+        repairAttempts.set(key, (repairAttempts.get(key) ?? 0) + 1);
+      }
+      console.log(`Validation failed for ${book} ${invalid.join(', ')}; keeping valid chapters and scheduling a fresh reading (at most two repair attempts per chapter).`);
+      continue;
+    }
     console.error(`Stopped after ${batchName}: ${error.message}. Valid checkpoints are retained; see ${path.relative(ROOT, run.log)}.`);
     process.exit(1);
   }
