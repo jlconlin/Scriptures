@@ -1,177 +1,477 @@
 page: brothers-reconciled
 claims:
-  - where: 'section “Cain and Abel”'
-    claim: 'Cain kills Abel; the Lord says the voice of his brother’s blood cries from the ground'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/4?lang=eng'
-    quote: 'the voice of thy brother’s blood crieth unto me from the ground.'
-  - where: 'section “Cain and Abel”'
-    claim: 'Cain went out from the presence of the LORD and dwelt in Nod; no reconciliation is recorded'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/4?lang=eng'
-    quote: 'And Cain went out from the presence of the LORD, and dwelt in the land of Nod'
-  - where: 'section “Esau and Jacob”'
-    claim: 'Esau resolves to kill Jacob'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/27?lang=eng'
-    quote: 'then will I slay my brother Jacob.'
-  - where: 'section “Esau and Jacob”'
-    claim: 'Jacob had spent twenty years in Laban’s house'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
-    quote: 'Thus have I been twenty years in thy house'
-  - where: 'section “Esau and Jacob”'
-    claim: 'Esau runs to meet Jacob and embraces him; in Genesis 33 neither brother speaks of the blessing or the birthright, and Jacob urges his present on Esau (33:8–11)'
+  # ---------- opening ----------
+  - where: 'opening'
+    claim: 'Gen. 27:41; 37:20, 28; 33:4; 45:14–15 as quoted'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/33?lang=eng'
     quote: 'And Esau ran to meet him, and embraced him, and fell on his neck, and kissed him: and they wept.'
-  - where: 'section “Esau and Jacob”'
-    claim: 'Jacob sent the present to appease Esau'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/32?lang=eng'
-    quote: 'I will appease him with the present that goeth before me'
-  - where: 'section “Esau and Jacob”'
-    claim: 'Esau’s generosity could be linked to Joseph’s later generosity toward his brothers'
-    key: maxwell-teaching-opportunities
-    url: 'https://www.churchofjesuschrist.org/study/ensign/1981/04/teaching-opportunities-from-the-old-testament?lang=eng'
-    quote: 'This episode on generosity could be linked to the later generosity of Joseph toward his brothers.'
-  - where: 'section “Hated and sold”'
-    claim: 'Connection made by this page: Cain’s “thy brother’s blood” (4:10) set beside Judah’s “slay our brother, and conceal his blood” (37:26); the Hebrew verb for “slay” (harag, H2026) is at 4:8 and 37:26; dam (H1818, 10 verses, 11 occurrences in Genesis) and ach (H251) stand in one verse at 4:10, 4:11, 9:5 and 37:26, and in adjoining verses at 42:21–22; at 9:5 “brother” is “every man’s brother”'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/37?lang=eng'
-    quote: 'What profit is it if we slay our brother, and conceal his blood?'
-  - where: 'section “Hated and sold”'
-    claim: 'Hebrew “slew” (harag, H2026) at 4:8'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
-    quote: 'וַ/יַּהַרְגֵֽ/הוּ'
-  - where: 'section “Hated and sold”'
-    claim: 'Hebrew “slay” (harag, H2026) at 37:26'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
-    quote: 'נַהֲרֹג֙'
-  - where: 'section “Hated and sold”'
-    claim: 'Hebrew “brother” (ach, H251) at 4:10 and 37:26'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
-    quote: 'אָחִ֔י/נוּ'
-  - where: 'section “Hated and sold”'
-    claim: 'Hebrew “blood” (dam) at 4:10'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
-    quote: 'דְּמֵ֣י'
-  - where: 'section “Hated and sold”'
-    claim: 'Hebrew “blood” (dam) at 37:26'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
-    quote: 'דָּמֽ/וֹ'
-  - where: 'section “Guilt found out”'
-    claim: 'Reuben’s remorse and Judah’s offer are given as indications that the brothers had changed'
-    key: scripture-helps-gen-42-50
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/11-genesis-42-50?lang=eng'
-    quote: 'Throughout this account, we see indications that Joseph’s brothers had indeed changed.'
-  - where: 'section “Guilt found out”'
-    claim: 'Reuben says Joseph’s blood is required'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
-    quote: 'therefore, behold, also his blood is required'
-  - where: 'section “Sold, and sent”'
-    claim: 'Hebrew “sold” (makar, H4376) at 45:5'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
-    quote: 'מְכַרְתֶּ֥ם'
-  - where: 'section “Sold, and sent”'
-    claim: 'Hebrew “sent” (shalach, H7971) at 45:5; makar and shalach occur in the same verse of Genesis only at 45:5 (makar at 25:31, 33; 31:15; 37:27, 28, 36; 45:4, 5; 47:20, 22; shalach at 37:13, 14, 22, 32; 45:5 and elsewhere, never in those verses)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
-    quote: 'שְׁלָחַ֥/נִי'
-  - where: 'section “Sold, and sent”'
-    claim: 'Ps. 105:17 says God sent a man before them, Joseph, who was sold for a servant'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/105?lang=eng'
-    quote: 'He sent a man before them, even Joseph, who was sold for a servant'
-  - where: 'section “Sold, and sent”'
-    claim: 'Ps. 105:17 has both Hebrew verbs: shalach (H7971, “sent”) and makar (H4376, “sold”)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'נִמְכַּ֥ר'
-  - where: 'section “Sold, and sent”'
-    claim: 'Joseph’s words do not mean God caused the sale; they recognize God’s omniscience and His ability to bring good out of it'
-    key: scripture-helps-gen-42-50
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/11-genesis-42-50?lang=eng'
-    quote: 'Joseph’s words should not be misunderstood to mean that God caused Joseph’s brothers to sell him into slavery. Rather, Joseph was recognizing God’s omniscience and His ability to bring good out of difficult situations.'
-  - where: 'section “Brothers again”'
-    claim: 'Connection made by this page: “could not speak peaceably unto him” (37:4) set beside “his brethren talked with him” (45:15); the same Hebrew verb for speaking (dabar, H1696), the ordinary verb, 73 occurrences in Genesis, also at 42:7, 42:30, 44:16, 44:18 and 45:12 between the two'
+  - where: 'opening'
+    claim: 'Gen. 45:14–15 as quoted'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/45?lang=eng'
-    quote: 'Moreover he kissed all his brethren, and wept upon them: and after that his brethren talked with him.'
-  - where: 'section “Brothers again”'
-    claim: 'Hebrew verb for speaking at 37:4 (dabar, H1696)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
-    quote: 'דַּבְּר֥/וֹ'
-  - where: 'section “Brothers again”'
-    claim: 'Hebrew verb for speaking at 45:15 (dabar, H1696)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
-    quote: 'דִּבְּר֥וּ'
-  - where: 'section “Brothers again”'
-    claim: 'Connection made by this page: Esau’s meeting with Jacob (33:4) set beside Joseph and Benjamin and his brothers (45:14–15); the same Hebrew verbs for falling on the neck, kissing and weeping; falling on the neck is in Genesis at 33:4, 45:14 and 46:29 (Joseph and his father); all three acts together only at 33:4 and 45:14–15; at 50:1 Joseph falls on his father’s face, weeps and kisses him (the three verbs, with “face” for “neck”)'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/33?lang=eng'
-    quote: 'And Esau ran to meet him, and embraced him, and fell on his neck, and kissed him: and they wept.'
-  - where: 'section “Brothers again”'
-    claim: 'Hebrew “wept” (bakah, H1058) at 33:4'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
-    quote: 'וַ/יִּבְכּֽוּ'
-  - where: 'section “Brothers again”'
-    claim: 'Hebrew “fell on the neck” (nafal, al tsavvar) at 33:4'
+    quote: 'And he fell upon his brother Benjamin’s neck, and wept; and Benjamin wept upon his neck.'
+  - where: 'opening'
+    claim: '“fell on the neck” (ṣawwār, H6677) in Genesis only at 33:4, 45:14 (twice) and 46:29; the three embraces share nāpal ʿal-ṣawwār, nāšaq, bākâ'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
     quote: 'צַוָּארָ֖/ו'
-  - where: 'section “Brothers again”'
-    claim: 'Hebrew “kissed” (nashaq, H5401a) and “wept” (bakah) at 45:15'
+  - where: 'opening'
+    claim: 'ʾāšēm “guilty” (H818) once in Genesis, 42:21 ʾăšēmîm'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
-    quote: 'וַ/יְנַשֵּׁ֥ק'
-  - where: 'section “Brothers again”'
-    claim: 'Hebrew “fell on the neck” at 45:14'
+    quote: 'אֲשֵׁמִ֣ים'
+  - where: 'opening'
+    claim: 'nāśāʾ (H5375) rendered “forgive” only at 50:17 (śāʾ nāʾ, twice); pešaʿ “trespass” (H6588) in Genesis only at 31:36 and 50:17 (twice)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
-    quote: 'צַוְּארֵ֥י'
-  - where: 'section “Brothers again”'
-    claim: '“Thought” and “meant” at 50:20 are one Hebrew verb, chashav (H2803)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
-    quote: 'חֲשַׁבְתֶּ֥ם'
-  - where: 'section “Brothers again”'
-    claim: 'Second occurrence of chashav at 50:20'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
-    quote: 'חֲשָׁבָ֣/הּ'
-  - where: 'section “Joseph and the Savior”'
-    claim: 'The Bible does not represent Joseph as typical of Christ in the way it does Israel’s guidance into and out of Egypt'
-    key: keil-genesis
-    url: 'https://biblehub.com/commentaries/kad/genesis/37.htm'
-    quote: 'neither Joseph nor his career is represented, either by the prophets or by Christ and His apostles, as typical of Christ, - in anything like the same way, for example, as the guidance of Israel into and out of Egypt'
-  - where: 'section “Joseph and the Savior”'
-    claim: 'Believing commentators of all centuries have read Joseph’s life as a type of the life of Christ'
-    key: keil-genesis
-    url: 'https://biblehub.com/commentaries/kad/genesis/37.htm'
-    quote: 'of all centuries have done, as a type of the life of Christ'
-  - where: 'section “Joseph and the Savior”'
-    claim: 'Likeness: sold for the price of a slave (Joseph twenty pieces of silver, Christ thirty)'
-    key: scripture-helps-gen-37-41
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/10-genesis-37-41?lang=eng'
-    quote: 'They were sold for the price of a slave in their day—Joseph for 20 pieces of silver and Christ for 30.'
-  - where: 'section “Joseph and the Savior”'
-    claim: 'Likeness: saviors to their people, providing lifesaving bread'
-    key: scripture-helps-gen-37-41
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/10-genesis-37-41?lang=eng'
-    quote: 'They were saviors to their people and provided them with lifesaving bread.'
-  - where: 'section “Joseph and the Savior”'
-    claim: 'Likeness: willingly forgave those who repented'
+    quote: 'פֶּ֣שַׁע'
+  - where: 'opening'
+    claim: 'Gen. 31:36 “What is my trespass? what is my sin”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/31?lang=eng'
+    quote: 'What is my trespass? what is my sin, that thou hast so hotly pursued after me?'
+  - where: 'opening'
+    claim: 'Scripture Helps table “How was Joseph similar to Jesus Christ?”: Gen. 45:3–5, “They willingly forgave those who repented,” Mosiah 26:30'
     key: scripture-helps-gen-37-41
     url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/10-genesis-37-41?lang=eng'
     quote: 'They willingly forgave those who repented.'
+  - where: 'opening'
+    claim: 'Connection made by this page: Genesis distinguishes the three brother stories by what is said of the wrong (denied, covered and unspoken, spoken three times), and gives its words for guilt, trespass and forgiveness only to the third; no commentary read sets the three apart in this way'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/50?lang=eng'
+    quote: 'Forgive, I pray thee now, the trespass of thy brethren, and their sin'
+  # ---------- section “Where is Abel thy brother?” ----------
+  - where: 'section “Where is Abel thy brother?”'
+    claim: 'Skinner: the Lord’s question “intended to elicit a confession of guilt,” as Rashi judged'
+    key: skinner-cain-abel
+    url: 'https://rsc.byu.edu/creation-sinai/cain-abel-genesis-4-moses-5'
+    quote: 'it seems the question was intended to elicit a confession of guilt. This also was the judgment of the great medieval Jewish biblical exegete Rashi.'
+  - where: 'section “Where is Abel thy brother?”'
+    claim: 'Gen. 4:9, 13, 15, 16 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/4?lang=eng'
+    quote: 'And he said, I know not: Am I my brother’s keeper?'
+  - where: 'section “Where is Abel thy brother?”'
+    claim: 'Keil on 4:9: “Adam and Eve fear before God, and acknowledge their sin; Cain boldly denies it”'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/4.htm'
+    quote: 'Adam and Eve fear before God, and acknowledge their sin; Cain boldly denies it'
+  - where: 'section “Where is Abel thy brother?”'
+    claim: 'Cambridge on 4:9: “a statement which is a falsehood” and “a question which is defiance”; “The first words of the first murderer renounce the obligations of brotherhood.”'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/4.htm'
+    quote: 'The first words of the first murderer renounce the obligations of brotherhood.'
+  - where: 'section “Where is Abel thy brother?”'
+    claim: 'Student Manual 4-4: “the Moses account explains that the Lord warned Cain that if he did not repent, he would rule over Satan”'
+    key: ot-manual-gen-4-11
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-4-11-the-patriarchs?lang=eng'
+    quote: 'the Moses account explains that the Lord warned Cain that if he did not repent, he would rule over Satan'
+  - where: 'section “Where is Abel thy brother?”'
+    claim: 'Church footnote 4:13a “My”: “OR My iniquity is too great to be forgiven.”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/4?lang=eng'
+    quote: 'My iniquity is too great to be forgiven'
+  - where: 'section “Where is Abel thy brother?”'
+    claim: 'ʿāwōn (H5771) at 4:13 and 44:16 (also 15:16; 19:15); 4:13 “bear” is nāśāʾ (H5375, minnĕśōʾ), the verb rendered “forgive” at 50:17'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'מִ/נְּשֹֽׂא'
+  - where: 'section “Where is Abel thy brother?”'
+    claim: 'Cambridge on 4:13: “not that of repentance for his sin, but of entreaty for the mitigation of his doom”'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/4.htm'
+    quote: 'is not that of repentance for his sin, but of entreaty for the mitigation of his doom'
+  - where: 'section “Where is Abel thy brother?”'
+    claim: 'Keil on 4:13: ʿāwōn nāśāʾ “signifies to take away and bear sin or guilt”; “God takes guilt away by forgiving it”; “man carries it away and bears it, by enduring its punishment”; the context sustains the second'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/4.htm'
+    quote: 'God takes guilt away by forgiving it (Exodus 34:7); man carries it away and bears it, by enduring its punishment'
+  - where: 'section “Where is Abel thy brother?”'
+    claim: 'Connection made by this page: the root nāśāʾ runs through the three stories, 4:7 śĕʾēt “accepted” (H7613, a noun from the root), 4:13 “bear,” 32:20 yiśśāʾ pānāy “accept of me” (lift my face), 50:17 “forgive”: Cain speaks of guilt as a weight he must carry, Jacob hopes to have his face lifted by a gift, the brothers ask the one they wronged to carry what they did; no commentary read joins the verses'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'שָׂ֣א'
+  - where: 'section “Where is Abel thy brother?”'
+    claim: 'Moses 5:33, 34, 38, 39, 40–41 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/5?lang=eng'
+    quote: 'Satan tempted me because of my brother’s flocks. And I was wroth also; for his offering thou didst accept and not mine'
+  - where: 'section “Where is Abel thy brother?”'
+    claim: 'Moses 5:39 “because of mine iniquities”; 5:41 “shut out from the presence of the Lord”; 5:33 “I am free”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/5?lang=eng'
+    quote: 'And Cain was shut out from the presence of the Lord'
+  - where: 'section “Where is Abel thy brother?”'
+    claim: 'Cambridge on 4:15: “on account of Cain’s entreaty, Jehovah’s mercy is shewn to the first murderer”'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/4.htm'
+    quote: 'on account of Cain’s entreaty, Jehovah’s mercy is shewn to the first murderer'
+  # ---------- section “I will appease him” ----------
+  - where: 'section “I will appease him”'
+    claim: 'Gen. 27:41, 42, 45 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/27?lang=eng'
+    quote: 'then will I slay my brother Jacob'
+  - where: 'section “I will appease him”'
+    claim: 'śāṭam (H7852) in Genesis only at 27:41 (wayyiśṭōm), 49:23 and 50:15 (yiśṭĕmēnû); the ordinary “hate” śānēʾ (H8130) is 37:4, 5, 8'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'וַ/יִּשְׂטֹ֤ם'
+  - where: 'section “I will appease him”'
+    claim: 'Gen. 32:11, 20 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/32?lang=eng'
+    quote: 'I will appease him with the present that goeth before me, and afterward I will see his face; peradventure he will accept of me.'
+  - where: 'section “I will appease him”'
+    claim: '32:20 ʾăkapprâ pānāyw (kipper, H3722); kipper in Genesis only here and 6:14 (pitch)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אֲכַפְּרָ֣ה'
+  - where: 'section “I will appease him”'
+    claim: 'Cambridge on 32:20: “Lit. ‘I will cover his face,’ in the sense of ‘I will propitiate.’ The present will so ‘cover his face,’ that Esau cannot look upon Jacob’s offence”'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/32.htm'
+    quote: 'The present will so “cover his face,” that Esau cannot look upon Jacob’s offence'
+  - where: 'section “I will appease him”'
+    claim: 'Ellicott on 32:20: the covering of the offended face “became the usual legal word for making an atonement (Leviticus 9:7, &c)”'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/32.htm'
+    quote: 'became the usual legal word for making an atonement'
+  - where: 'section “I will appease him”'
+    claim: 'Bible Dictionary, Atonement: “the setting ‘at one’ of those who have been estranged”'
+    key: bd-atonement
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/atonement?lang=eng'
+    quote: 'The word describes the setting “at one” of those who have been estranged and denotes the reconciliation of man to God.'
+  - where: 'section “I will appease him”'
+    claim: 'Bowen: Gen. 33 “describes Jacob’s ‘reconciliation’ or ‘at-one-ment’ with his estranged brother Esau”'
+    key: bowen-wrestled-man
+    url: 'https://journal.interpreterfoundation.org/and-there-wrestled-a-man-with-him-genesis-3224-enoss-adaptations-of-the-onomastic-wordplay-of-genesis/'
+    quote: 'the very next pericope describes Jacob’s “reconciliation” or “at-one-ment” with his estranged brother Esau'
+  - where: 'section “I will appease him”'
+    claim: 'Keil on 33:3: Jacob “humbled himself before him as the elder, with the feeling that he had formerly sinned against him”'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/33.htm'
+    quote: 'He humbled himself before him as the elder, with the feeling that he had formerly sinned against him.'
+  - where: 'section “I will appease him”'
+    claim: 'Gen. 33:4, 11, 16–17 as quoted; chapter heading “Jacob and Esau meet and are reconciled”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/33?lang=eng'
+    quote: 'Jacob and Esau meet and are reconciled'
+  - where: 'section “I will appease him”'
+    claim: '33:11 birkātî (H1293) is the form of 27:36 birkātî “my blessing”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'בִּרְכָתִ/י֙'
+  - where: 'section “I will appease him”'
+    claim: 'Gen. 27:36 “he hath taken away my blessing”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/27?lang=eng'
+    quote: 'he took away my birthright; and, behold, now he hath taken away my blessing'
+  - where: 'section “I will appease him”'
+    claim: 'Cambridge on 33:11: “The “gift” is the material side of the “blessing”; and the word “blessing” is thus used for a gift”'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/33.htm'
+    quote: 'is the material side of the “blessing”; and the word “blessing” is thus used for a gift'
+  - where: 'section “I will appease him”'
+    claim: 'Connection made by this page: Jacob’s “my blessing” (33:11) echoes Esau’s “my blessing” (27:36); the Cambridge commentary explains the word as a gift and does not cite 27:36'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'בִּרְכָתִ֑/י'
+  - where: 'section “I will appease him”'
+    claim: 'Come, Follow Me 2026 (Gen. 24–33): “What do you learn about forgiveness from Esau’s example?”'
+    key: cfm-ot-2026-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/10?lang=eng'
+    quote: 'What do you learn about forgiveness from Esau’s example?'
+  - where: 'section “I will appease him”'
+    claim: 'Maxwell: “Notice how not only Jacob but Esau has grown.”'
+    key: maxwell-teaching-opportunities
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1981/04/teaching-opportunities-from-the-old-testament?lang=eng'
+    quote: 'Notice how not only Jacob but Esau has grown.'
+  - where: 'section “I will appease him”'
+    claim: 'Cambridge on 33:4: “Esau’s conduct on this occasion is that of a good-natured and forgiving disposition”; sets “fell on his neck” beside 45:14 and 46:29'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/33.htm'
+    quote: 'Esau’s conduct on this occasion is that of a good-natured and forgiving disposition.'
+  - where: 'section “I will appease him”'
+    claim: 'Keil on 33:10: Jacob “must have discerned the work of God in the unexpected change in his brother’s disposition towards him”'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/33.htm'
+    quote: 'must have discerned the work of God in the unexpected change in his brother’s disposition towards him'
+  - where: 'section “I will appease him”'
+    claim: 'Gen. 35:29 “his sons Esau and Jacob buried him”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/35?lang=eng'
+    quote: 'and his sons Esau and Jacob buried him'
+  - where: 'section “We are verily guilty concerning our brother”'
+    claim: 'Gen. 42:21–24 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/42?lang=eng'
+    quote: 'We are verily guilty concerning our brother, in that we saw the anguish of his soul, when he besought us, and we would not hear'
+  - where: 'section “We are verily guilty concerning our brother”'
+    claim: 'ʾāšēm (H818) only at 42:21'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'אֲשֵׁמִ֣ים'
+  - where: 'section “We are verily guilty concerning our brother”'
+    claim: 'Ellicott on 42:21: “the fact that it was so fresh in their memories is a sign of the reality of their repentance”; on 42:24: “There was no bitterness in Joseph’s heart, and at their first word of regret he melted.”'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/42.htm'
+    quote: 'There was no bitterness in Joseph’s heart, and at their first word of regret he melted.'
+  - where: 'section “We are verily guilty concerning our brother”'
+    claim: 'Ellicott on 42:21: “a sign of the reality of their repentance”'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/42.htm'
+    quote: 'is a sign of the reality of their repentance'
+  - where: 'section “We are verily guilty concerning our brother”'
+    claim: 'Cambridge on 42:21: “the vitality of conscience after a long interval of years”'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/42.htm'
+    quote: 'represent the vitality of conscience after a long interval of years'
+  - where: 'section “We are verily guilty concerning our brother”'
+    claim: 'Gen. 44:16, 33 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/44?lang=eng'
+    quote: 'God hath found out the iniquity of thy servants'
+  - where: 'section “We are verily guilty concerning our brother”'
+    claim: '44:16 ʿăwōn (H5771), the word of 4:13'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'עֲוֺ֣ן'
+  - where: 'section “We are verily guilty concerning our brother”'
+    claim: 'Cambridge on 44:16: “Judah confesses the wrong-doing of himself and his brothers (Genesis 42:21).”'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/44.htm'
+    quote: 'Judah confesses the wrong-doing of himself and his brothers'
+  - where: 'section “We are verily guilty concerning our brother”'
+    claim: 'Keil on 44:16: God “is now punishing the crime committed against our brother, cf. Genesis 42:21”'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/44.htm'
+    quote: 'He is now punishing the crime committed against our brother'
+  - where: 'section “We are verily guilty concerning our brother”'
+    claim: 'Student Manual 8-16: “There does seem to be evidence of sincere repentance on the brothers’ part, and Joseph’s stratagem allowed them to demonstrate this repentance.”'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'There does seem to be evidence of sincere repentance on the brothers’ part, and Joseph’s stratagem allowed them to demonstrate this repentance.'
+  - where: 'section “We are verily guilty concerning our brother”'
+    claim: 'Scripture Helps: Joseph “seemed to be giving his brothers opportunities to prove that they had changed”'
+    key: scripture-helps-gen-42-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/11-genesis-42-50?lang=eng'
+    quote: 'Joseph seemed to be giving his brothers opportunities to prove that they had changed and would not betray Benjamin as they had betrayed him.'
+  - where: 'section “We are verily guilty concerning our brother”'
+    claim: 'Gen. 50:16–17 as quoted; the plea is put in the dead father’s mouth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/50?lang=eng'
+    quote: 'and now, we pray thee, forgive the trespass of the servants of the God of thy father. And Joseph wept when they spake unto him.'
+  - where: 'section “We are verily guilty concerning our brother”'
+    claim: '50:17 śāʾ nāʾ twice (nāśāʾ, H5375, the only KJV “forgive” in Genesis); pešaʿ (H6588) twice, elsewhere only 31:36'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'לְ/פֶ֥שַׁע'
+  - where: 'section “We are verily guilty concerning our brother”'
+    claim: 'Keil on 50:17: “There is no reason whatever for regarding the appeal to their father’s wish as a mere pretence.”'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/50.htm'
+    quote: 'There is no reason whatever for regarding the appeal to their father’s wish as a mere pretence.'
+  - where: 'section “We are verily guilty concerning our brother”'
+    claim: 'Gen. 45:4–5 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/45?lang=eng'
+    quote: 'I am Joseph your brother, whom ye sold into Egypt.'
+  - where: 'section “We are verily guilty concerning our brother”'
+    claim: 'Come, Follow Me 2026 (Gen. 42–50): “he helped them see divine purpose in his suffering”'
+    key: cfm-ot-2026-12
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/12?lang=eng'
+    quote: 'Not only that, but he helped them see divine purpose in his suffering.'
+  - where: 'section “We are verily guilty concerning our brother”'
+    claim: 'Gee: “He does forgive his brothers, but not at first”; “He needed to see fruits meet for repentance”'
+    key: gee-clothes-cups
+    url: 'https://rsc.byu.edu/creation-sinai/clothes-cups'
+    quote: 'He does forgive his brothers, but not at first.'
+  - where: 'section “We are verily guilty concerning our brother”'
+    claim: 'Gee: “He needed to see fruits meet for repentance—that is, evidence of their repentance.”'
+    key: gee-clothes-cups
+    url: 'https://rsc.byu.edu/creation-sinai/clothes-cups'
+    quote: 'He needed to see fruits meet for repentance'
+  # ---------- section “Am I in the place of God?” ----------
+  - where: 'section “Am I in the place of God?”'
+    claim: 'Gen. 50:15–21 as quoted; footnote 50:15a “OR If Joseph bears a grudge against us he will certainly repay us …”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/50?lang=eng'
+    quote: 'Joseph will peradventure hate us, and will certainly requite us all the evil which we did unto him.'
+  - where: 'section “Am I in the place of God?”'
+    claim: 'Church footnote 50:15a: “If Joseph bears a grudge against us”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/50?lang=eng'
+    quote: 'If Joseph bears a grudge against us'
+  - where: 'section “Am I in the place of God?”'
+    claim: 'Connection made by this page: the brothers’ fear at 50:15 (yiśṭĕmēnû, śāṭam, H7852) uses Esau’s verb of 27:41, so they fear Joseph will be to them what Esau was to Jacob; no source read links the verses'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'יִשְׂטְמֵ֖/נוּ'
+  - where: 'section “Am I in the place of God?”'
+    claim: 'Cambridge on 50:15: “Their conscience cannot leave them alone.”'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/50.htm'
+    quote: 'Their conscience cannot leave them alone.'
+  - where: 'section “Am I in the place of God?”'
+    claim: 'Maxwell: “Of course, their fears were groundless.”'
+    key: maxwell-teaching-opportunities
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1981/04/teaching-opportunities-from-the-old-testament?lang=eng'
+    quote: 'Of course, their fears were groundless.'
+  - where: 'section “Am I in the place of God?”'
+    claim: 'Keil on 50:17: Joseph wept that they “could impute anything so bad to him”'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/50.htm'
+    quote: 'impute anything so bad to him'
+  - where: 'section “Am I in the place of God?”'
+    claim: 'Cambridge on 50:19: “am I the person to punish for wrongdoing? God alone knows the hearts”; “the same words in Genesis 30:2”'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/50.htm'
+    quote: 'am I the person to punish for wrongdoing? God alone knows the hearts'
+  - where: 'section “Am I in the place of God?”'
+    claim: 'Gen. 30:2 “Am I in God’s stead”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/30?lang=eng'
+    quote: 'Am I in God’s stead, who hath withheld from thee the fruit of the womb?'
+  - where: 'section “Am I in the place of God?”'
+    claim: 'Ellicott on 50:20: “The verb in the Heb. is the same, and contrasts man’s purpose with God’s purpose.”'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/50.htm'
+    quote: 'The verb in the Heb. is the same, and contrasts man’s purpose with God’s purpose.'
+  - where: 'section “Am I in the place of God?”'
+    claim: '50:21 wayĕdabbēr ʿal-libbām “spake to their heart” (KJV “spake kindly”); 37:4 lōʾ yākĕlû dabbĕrô lĕšālôm'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'לִבָּֽ/ם'
+  - where: 'section “Am I in the place of God?”'
+    claim: 'Gen. 37:4 “could not speak peaceably unto him”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/37?lang=eng'
+    quote: 'they hated him, and could not speak peaceably unto him'
+  # ---------- section “They willingly forgave those who repented” ----------
+  - where: 'section “They willingly forgave those who repented”'
+    claim: 'Scripture Helps table: Gen. 45:3–5 | They willingly forgave those who repented. | Mosiah 26:30'
+    key: scripture-helps-gen-37-41
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/10-genesis-37-41?lang=eng'
+    quote: 'They willingly forgave those who repented.'
+  - where: 'section “They willingly forgave those who repented”'
+    claim: 'Mosiah 26:29–30 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/26?lang=eng'
+    quote: 'and if he confess his sins before thee and me, and repenteth in the sincerity of his heart, him shall ye forgive, and I will forgive him also.'
+  - where: 'section “They willingly forgave those who repented”'
+    claim: 'Mosiah 26:30 “as often as my people repent will I forgive them their trespasses against me”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/26?lang=eng'
+    quote: 'Yea, and as often as my people repent will I forgive them their trespasses against me.'
+  - where: 'section “They willingly forgave those who repented”'
+    claim: 'Seminary teacher manual 2026 chart “Joseph as a type of Christ”: Gen. 45:3–5 (Joseph forgave those who wronged him) | Mosiah 26:30'
+    key: ot-seminary-2026-gen-42-45
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-manual-2026/12-genesis-42-50/121-genesis-42-45?lang=eng'
+    quote: 'Joseph forgave those who wronged him'
+  - where: 'section “They willingly forgave those who repented”'
+    claim: 'Student Manual 8-19 “Joseph—A Type of Christ”: “He forgave without bitterness, extended love when undeserved, and saw the Lord’s hand in all that happened.”'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'He forgave without bitterness, extended love when undeserved, and saw the Lord’s hand in all that happened.'
+  - where: 'section “They willingly forgave those who repented”'
+    claim: 'Come, Follow Me 2026: “In many ways, Joseph was like Jesus Christ”; “Joseph’s example points us to the Savior, the true source of healing and reconciliation.”'
+    key: cfm-ot-2026-12
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/12?lang=eng'
+    quote: 'Joseph’s example points us to the Savior, the true source of healing and reconciliation.'
+  - where: 'section “They willingly forgave those who repented”'
+    claim: 'Come, Follow Me 2026: “In many ways, Joseph was like Jesus Christ.”'
+    key: cfm-ot-2026-12
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/12?lang=eng'
+    quote: 'In many ways, Joseph was like Jesus Christ.'
+  - where: 'section “They willingly forgave those who repented”'
+    claim: 'Keil on Joseph as a type: “believing commentators of all centuries” have read his life as a type of the life of Christ; “typological trifling”; “neither Joseph nor his career is represented, either by the prophets or by Christ and His apostles, as typical of Christ”'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/37.htm'
+    quote: 'neither Joseph nor his career is represented, either by the prophets or by Christ and His apostles, as typical of Christ'
+  - where: 'section “They willingly forgave those who repented”'
+    claim: 'Keil: “as believing commentators of all centuries have done, as a type of the life of Christ”; “typological trifling”'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/37.htm'
+    quote: 'we must not overlook the fact'
+  - where: 'section “They willingly forgave those who repented”'
+    claim: 'Luke 15:20–21 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/15?lang=eng'
+    quote: 'his father saw him, and had compassion, and ran, and fell on his neck, and kissed him.'
+  - where: 'section “They willingly forgave those who repented”'
+    claim: 'Luke 15:21 “Father, I have sinned against heaven, and in thy sight”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/15?lang=eng'
+    quote: 'Father, I have sinned against heaven, and in thy sight, and am no more worthy to be called thy son.'
+  - where: 'section “They willingly forgave those who repented”'
+    claim: 'Bowen sets Gen. 33:4 beside Luke 15:20 (“He knows the Lord will embrace him (cf. … Luke 15:20 …)”)'
+    key: bowen-wrestled-man
+    url: 'https://journal.interpreterfoundation.org/and-there-wrestled-a-man-with-him-genesis-3224-enoss-adaptations-of-the-onomastic-wordplay-of-genesis/'
+    quote: 'just as when Jacob “saw” Esau’s “face” and was finally reconciled to him (Genesis 33:1–4)'
+  - where: 'section “They willingly forgave those who repented”'
+    claim: 'Connection made by this page: in Luke 15:20–21 the father’s embrace does not wait for the confession and the confession is still spoken, the two halves of Genesis’s brother stories (Esau’s unasked embrace; the brothers’ spoken wrong); Bowen joins only v. 20 to 33:4, and no source read sets v. 21 beside Genesis'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/15?lang=eng'
+    quote: 'And the son said unto him, Father, I have sinned'
+  - where: 'section “They willingly forgave those who repented”'
+    claim: 'D&C 64:10 “of you it is required to forgive all men”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/64?lang=eng'
+    quote: 'I, the Lord, will forgive whom I will forgive, but of you it is required to forgive all men.'
+  - where: 'section “They willingly forgave those who repented”'
+    claim: 'Holland: “forgiving and forsaking offenses, old or new, is central to the grandeur of the Atonement of Jesus Christ”'
+    key: holland-ministry-reconciliation
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2018/10/the-ministry-of-reconciliation?lang=eng'
+    quote: 'forgiving and forsaking offenses, old or new, is central to the grandeur of the Atonement of Jesus Christ'
+  - where: 'section “They willingly forgave those who repented”'
+    claim: 'Come, Follow Me 2026: name someone who may need your forgiveness “whether or not they have asked for forgiveness”'
+    key: cfm-ot-2026-12
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/12?lang=eng'
+    quote: 'whether or not they have asked for forgiveness'
+  - where: 'section “They willingly forgave those who repented”'
+    claim: 'Seminary teacher resource manual quotes Kimball: “Forgiveness and recovery are dependent upon the offender’s repentance, which begins with recognition of the sin and acceptance of personal responsibility for it”'
+    key: ot-seminary-resource-gen-42-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-resource-manual/the-books-of-genesis-moses-and-abraham/genesis-42-50?lang=eng'
+    quote: 'Forgiveness and recovery are dependent upon the offender’s repentance, which begins with recognition of the sin and acceptance of personal responsibility for it'
+  - where: 'section “Where is Abel thy brother?”'
+    claim: '32:20 yiśśāʾ pānāy (nāśāʾ, H5375) “he will accept of me”; 4:7 śĕʾēt (H7613) “accepted”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'יִשָּׂ֥א'
+  - where: 'section “Where is Abel thy brother?”'
+    claim: '4:7 śĕʾēt (H7613), a noun from the root nāśāʾ'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'שְׂאֵ֔ת'
+  - where: 'section “Where is Abel thy brother?”'
+    claim: 'Ellicott on 32:20 renders “peradventure he will lift up my face” and sends the reader to Genesis 4:7 for “the lifting up of the face”'
+    key: ellicott-genesis
+    url: 'https://biblehub.com/commentaries/ellicott/genesis/32.htm'
+    quote: 'and for “the lifting up of the face,” Genesis 4:7'
+  - where: 'section “Where is Abel thy brother?”'
+    claim: 'Gen. 4:7 “shalt thou not be accepted?”; 32:20 “peradventure he will accept of me”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/4?lang=eng'
+    quote: 'If thou doest well, shalt thou not be accepted?'
+  - where: 'opening'
+    claim: 'Maxwell: “This episode on generosity could be linked to the later generosity of Joseph toward his brothers.”'
+    key: maxwell-teaching-opportunities
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1981/04/teaching-opportunities-from-the-old-testament?lang=eng'
+    quote: 'This episode on generosity could be linked to the later generosity of Joseph toward his brothers.'
+  - where: 'section “I will appease him”'
+    claim: 'Gen. 33:12 Esau: “Let us take our journey, and let us go, and I will go before thee”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/33?lang=eng'
+    quote: 'Let us take our journey, and let us go, and I will go before thee.'
+  - where: 'section “We are verily guilty concerning our brother”'
+    claim: 'Gen. 50:16 “Thy father did command before he died, saying”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/50?lang=eng'
+    quote: 'Thy father did command before he died, saying'
+  - where: 'section “They willingly forgave those who repented”'
+    claim: 'D&C 64:10 first half, “I, the Lord, will forgive whom I will forgive”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/64?lang=eng'
+    quote: 'I, the Lord, will forgive whom I will forgive'
