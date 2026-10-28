@@ -27,7 +27,7 @@ One line per page, no prose; the reasons are in `REVIEW.md` and in git. A sessio
 
 | Page | State | Thesis |
 |---|---|---|
-| amos / jacob-arise | todo | “arise” is the verb of 5:2 and 9:11 |
+| amos / jacob-arise | done | the song’s verbs (fallen; none to raise her up, Hiphil qûm, 5:2) return with the Lord as subject in 9:11; 7:2 asks in Hebrew whether Jacob can stand (the KJV “by whom” is the Septuagint’s); James reads 9:11 of Christ (Acts 15:16); shorter page under §8, 2026-10-28 |
 | daniel / but-if-not | todo | rescue, no rescue, waking; the link is in the English, say so |
 | deuteronomy / curse-into-blessing | todo | one noun for curse, to “the blessing” |
 | deuteronomy / for-he-is-thy-life | todo | the heart not given is circumcised by the Lord |
