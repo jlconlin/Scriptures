@@ -4,7 +4,7 @@
 import { readFile, writeFile, mkdir, rename, readdir } from 'node:fs/promises';
 import { createWriteStream } from 'node:fs';
 import { createHash } from 'node:crypto';
-import { spawn } from 'node:child_process';
+import { spawn, execFileSync } from 'node:child_process';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import YAML from 'yaml';
@@ -13,12 +13,16 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, '.cache/review/second-pass');
 const MODEL = 'gpt-6.1-sol', PROTOCOL = 'calibrated-adjudication-v1';
 const args = process.argv.slice(2);
-let prepareOnly = false, reportOnly = false, printOnly = false, shard = { index: 1, count: 1 }, batchSize = 8, maxBatches = Infinity, retryAt = null;
+let prepareOnly = false, reportOnly = false, printOnly = false, guidanceRef = null, shard = { index: 1, count: 1 }, batchSize = 8, maxBatches = Infinity, retryAt = null;
 for (let i = 0; i < args.length; i++) {
   const arg = args[i];
   if (arg === '--prepare') prepareOnly = true;
   else if (arg === '--report') reportOnly = true;
   else if (arg === '--print') printOnly = true;
+  else if (arg === '--guidance-ref') {
+    guidanceRef = args[++i];
+    if (!guidanceRef || guidanceRef.startsWith('-')) throw Error('--guidance-ref needs a Git revision');
+  }
   else if (arg === '--shard') {
     const m = String(args[++i]).match(/^(\d+)\/(\d+)$/);
     if (!m || +m[1] < 1 || +m[1] > +m[2]) throw Error('--shard needs index/count');
@@ -30,11 +34,12 @@ for (let i = 0; i < args.length; i++) {
     else if (arg === '--max-batches') maxBatches = n;
     else retryAt = n * 1000;
   } else if (arg === '--help') {
-    console.log('Usage: node scripts/refine-note-scores.mjs [--prepare | --report | --print] [--shard 1/3] [--batch-size 8] [--max-batches N] [--retry-at <verified reset epoch seconds>]');
+    console.log('Usage: node scripts/refine-note-scores.mjs [--prepare | --report [--guidance-ref <revision>] | --print] [--shard 1/3] [--batch-size 8] [--max-batches N] [--retry-at <verified reset epoch seconds>]');
     process.exit(0);
   } else throw Error(`Unknown argument ${arg}`);
 }
 if (printOnly && (prepareOnly || reportOnly)) throw Error('--print cannot be combined with --prepare or --report');
+if (guidanceRef && (!reportOnly || prepareOnly || printOnly)) throw Error('--guidance-ref is only for reproducing a report, never starting model calls');
 const text = (f) => readFile(f, 'utf8');
 const json = async (f) => JSON.parse(await text(f));
 const sha = (v) => createHash('sha256').update(v).digest('hex');
@@ -48,10 +53,13 @@ const atomic = async (file, value) => {
   await rename(tmp, file);
 };
 const optional = async (f) => { try { return await json(f); } catch (e) { if (e.code === 'ENOENT') return null; throw e; } };
-const calibrationBytes = await readFile(path.join(ROOT, '.cache/review/calibration.json'));
+const guidanceText = (file) => guidanceRef
+  ? Promise.resolve(execFileSync('git', ['show', `${guidanceRef}:${file}`], { cwd: ROOT, encoding: 'utf8', maxBuffer: 1 << 26 }))
+  : text(path.join(ROOT, file));
+const calibrationBytes = await readFile(guidanceRef ? path.join(OUT, 'calibration.json') : path.join(ROOT, '.cache/review/calibration.json'));
 const calibration = JSON.parse(calibrationBytes.toString());
 const calibrationSha = sha(calibrationBytes);
-const [authoring, standards] = await Promise.all(['AUTHORING.md', 'STANDARDS.md'].map((f) => text(path.join(ROOT, f))));
+const [authoring, standards] = await Promise.all(['AUTHORING.md', 'STANDARDS.md'].map(guidanceText));
 const sources = new Map(), briefs = new Map();
 async function source(book, chapter) {
   const id = `${book}/${chapter}`;
@@ -64,7 +72,7 @@ async function source(book, chapter) {
   return sources.get(id);
 }
 async function brief(book) {
-  if (!briefs.has(book)) briefs.set(book, await text(path.join(ROOT, 'content', book, 'BRIEF.md')));
+  if (!briefs.has(book)) briefs.set(book, await guidanceText(`content/${book}/BRIEF.md`));
   return briefs.get(book);
 }
 const anchors = [];
@@ -161,7 +169,10 @@ async function complete(n) {
   validateJudgment(cp.adjudication, n, await source(n.book, n.chapter), true);
   if (cp.provenance === 'sol-trial') return cp;
   const reading = await validRaw('reading', n), final = reading && await validRaw('adjudicated', n, reading);
-  if (!reading || !final || sha(JSON.stringify(final)) !== cp.final_sha256) return null;
+  if (!reading || !final || sha(JSON.stringify(final)) !== cp.final_sha256) {
+    if (reportOnly) throw Error(`${key(n)}: completed review no longer matches its stored guidance/input. Restore its raw records or reproduce with --report --guidance-ref <review baseline>; do not silently overwrite it as unreviewed.`);
+    return null;
+  }
   return cp;
 }
 async function importTrial() {
@@ -202,6 +213,7 @@ async function report() {
     `Candidate coverage: **${done.length}/${candidates.length}**. Clear revision recommendations: **${retained.length}**; polish/keep: **${dropped.length}**; unresolved: **${unresolved.length}**. Unreviewed: ${candidates.length - done.length}.`, '',
     `Fresh unflagged audit: ${auditDone.length}/${audits.length}; newly recommended revisions: ${group(auditDone, 'clear_revision').length}; unresolved: ${group(auditDone, 'unresolved').length}. Audit findings are separate from the original 289 candidates.`, '',
     'Editorial judgments, not verified defects or rewrite authorization. Original corpus ratings remain unchanged. Each new batch has a calibrated independent reading with the original objection withheld, followed by adjudication after that objection is revealed. Matching completed trial judgments are reused with their distinct conditions recorded. Agreement after revelation is not independent validation. The small stratified audit cannot estimate a site-wide omission rate. No commentary edits, source audit, setting/thread re-review, or volume drift check are included.', '',
+    ...(guidanceRef ? [`Historical authoring, standards and book guidance: ${guidanceRef}. Current chapter text and original judgments must still match the recorded fingerprints.`, ''] : []),
     `Threshold changes between calibrated first reading and adjudication in new candidate readings: ${newChanges.length}. Changes among reused trial readings, whose first phase lacked author verdicts: ${changes.length - newChanges.length}. Imported trial controls are known author judgments; reproducing them is not validation. See manifest.json, raw/, checkpoints/ and HANDOFF.md for provenance and resuming.`, '',
     '## Clear revision recommendations', '', render(retained), '',
     '## Polish or keep', '', render(dropped), '',

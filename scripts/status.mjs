@@ -12,6 +12,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { driftLine } from './check-docs.mjs';
 import { discoverBooks, discoverVolumes } from '../src/lib/books.mjs';
+import { parseProseReviews, proseSourceHash, PROSE_REVIEW_VERSION } from './prose-review.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const only = process.argv[2];
@@ -60,6 +61,7 @@ const ranges = (nums) => {
 };
 
 const pushed = git('rev-parse', '--verify', '-q', 'origin/main').trim();
+const proseReviews = parseProseReviews(git('log', '--format=%B%x00', '--grep=^Prose-Review:'));
 
 for (const book of await discoverBooks(root)) {
   if (only && book.slug !== only) continue;
@@ -76,6 +78,18 @@ for (const book of await discoverBooks(root)) {
   const guides = await list(path.join(book.dir, 'guides'), '.md');
   const facsimiles = await list(path.join(book.dir, 'facsimiles'), '.yaml');
   const done = passed(book);
+  const proseDone = [], proseStale = [];
+  for (const n of written) {
+    const record = proseReviews.get(`${book.slug}/${n}`);
+    if (!record) continue; // Historical passes are not retroactively certified.
+    if (record.version === PROSE_REVIEW_VERSION && record.source === proseSourceHash(path.join(book.dir, 'chapters', `${String(n).padStart(2, '0')}.yaml`))) {
+      done.add(n);
+      proseDone.push(n);
+    } else {
+      done.delete(n);
+      proseStale.push(n);
+    }
+  }
   const noPass = written.filter((n) => !done.has(n));
   const noLedger = written.filter((n) => !ledgers.has(n));
   const unpushed = pushed ? git('log', '--oneline', `${pushed}..HEAD`, '--', `content/${book.slug}`).trim().split('\n').filter(Boolean).length : 0;
@@ -89,6 +103,7 @@ for (const book of await discoverBooks(root)) {
   }
   console.log(`  ledgers       ${noLedger.length ? `none for ${ranges(noLedger)}` : 'every chapter'}`);
   console.log(`  language pass ${noPass.length ? `not recorded for ${ranges(noPass)}` : 'every chapter'}`);
+  if (proseDone.length || proseStale.length) console.log(`  prose check v${PROSE_REVIEW_VERSION} ${proseDone.length ? `recorded for ${ranges(proseDone)}` : 'none current'}${proseStale.length ? `; not current for ${ranges(proseStale)}` : ''}`);
   console.log(`  pages         ${themes.length} theme, ${guides.length} guide${facsimiles.length ? `, ${facsimiles.length} facsimile` : ''}`);
   console.log(`  illustration  ${book.visual ? book.visual.status ?? 'no status' : 'none'}`);
   console.log(`  for the author ${(waiting[book.name.toLowerCase()] ?? []).join(', ') || 'nothing'}`);

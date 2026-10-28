@@ -34,7 +34,7 @@ What is true of the whole site:
 2. **The script checks the ledger** (`scripts/check-ledger.mjs`): every quote confirmed on its page.
 3. **A Sonnet checker** reopens the sources, compares each claim with its page, tests the checkable rules, and writes its findings with the sources quoted (`chapter-checker`).
 4. **An Opus reviewer** decides the findings and repairs the chapter, reading for sense and for the standard, without reopening the sources (`chapter-reviewer`).
-5. **Codex reads for language, and Opus applies what holds up** (next section).
+5. **Codex reads for connected prose and language; Opus applies what holds up and returns substantive gaps to the writer** (next section).
 
 **Why these models** (the author's decisions):
 
@@ -83,16 +83,15 @@ What is true of the whole site:
 
 Step 5 may run in a separate session from the one writing chapters (author, 2026-10-07). That session works **in the writing session's worktree, on the book's branch**, where a committed chapter is finished and ready for the pass. Neither session merges into `main` until the author says to (“Where changes go,” below).
 
-**What is waiting.** A chapter has had the pass when a commit says so:
+**What is waiting.** Use `node scripts/status.mjs <book>`: historical language-pass commits remain visible, while new completion commits carry `Prose-Review: 1`, `Reviewed-Chapter` and a `Reviewed-Source` SHA-256. The status script includes a review that needed no edits and marks that new review not current when its source changes. Older language-pass subjects do not certify the new prose criteria. Do not keep another per-chapter checklist.
 
-```sh
-git log --format=%s --grep "language pass" -- content/<book>/chapters | sort -V   # done
-ls content/<book>/chapters                                                          # written
-```
+**The completed corpus review has a source cutoff.** The annotated Git tag `chapter-prose-review-2026-10-28` records the reviewed versions and preserves the outstanding 33 note and two thread repair diagnoses. It means reviewed, not repaired or independently source-audited. `git diff --name-status chapter-prose-review-2026-10-28 -- 'content/*/chapters/*.yaml'` identifies added or changed chapter files; the current per-chapter completion records distinguish later completed passes. New chapters get the prose check in their normal workflow. Test the first new batch against the calibrated examples (`REVIEW-TASKS.md`); another corpus-wide scoring campaign is not automatic. The later book/volume coherence check remains separate.
 
 Take a batch whole, so its chapters can also be read side by side.
 
-**Run it.** First Codex's readings, from the shell: `node scripts/codex-read.mjs <book> <from>-<to> --batch` (the `codex` CLI signed in: `codex login status`). Codex reads the batch side by side, then each chapter alone, read-only: it edits nothing and judges no citation, and writes numbered findings to `.cache/batch/<book>/reports/`; a reading that exists is skipped, so a cut-off run is simply run again. Then say “run the codex-pass workflow on Ezekiel 25–36” (or call it: `Workflow({ name: "codex-pass", args: { book: "ezekiel", chapters: [25, …, 36] } })`): one Opus agent per chapter decides each finding, edits only that chapter's two files, cutting, merging and rewording but adding nothing, and reruns `check-chapter`. The Sonnet source check is not repeated, since no claim is added.
+**Run it.** First Codex's readings, from the shell: `node scripts/codex-read.mjs <book> <from>-<to> --batch` (the `codex` CLI signed in: `codex login status`). Codex reads the batch side by side, then each chapter alone, read-only: it edits nothing and judges no citation. Alongside language, it checks answer, progression and integration under `STANDARDS.md` §3, quoting the obstruction and naming the needed repair rather than inventing a connection. Findings go to `.cache/batch/<book>/reports/`. A cached reading is skipped only when its source context, reader, criteria and report fingerprints still match; a changed chapter or older report without metadata is reread when that batch is requested. `--force` requests a fresh reading explicitly.
+
+Then run the `codex-pass` workflow on the batch: one Opus agent per chapter decides the findings, applies repairs that preserve existing meaning, and reruns `check-chapter`. A real gap needing added reasoning, an interpretation or a connection goes in `needsWriter`, not in `declined` merely because the language applier cannot fix it. The workflow returns `readyChapters` and `notReady`; only chapters with no outstanding writer work or execution/check problem can be recorded as complete. The reader's `[prose]` label is provisional: reject an objection when the explanation already works, preserve helpful symbolic repetition and legitimate uncertainty, and do not demand every inference be explicit.
 
 **Codex's own limit** is the ChatGPT plan's, not Claude's. It ran out after about 70 readings a window when Codex opened the files itself; `--batch` reads each chapter `--inline` (the chapter's text in the prompt), which takes about a third less, and a smaller Codex model less again, with somewhat fewer findings (`--model`, and `codexModel` for the workflow). A reading that hangs is killed and the batch run again; it skips what is done.
 
@@ -100,13 +99,14 @@ Take a batch whole, so its chapters can also be read side by side.
 
 **Then, as coordinator:**
 
-1. `node scripts/check-pass.mjs <book> <chapters…>`: what the edits added, beside the last commit. New references should only be pointers to another chapter's note; no ledger row should have been added; a “new or changed quotation” is usually an old one whose closing punctuation moved, so look at any that is not.
-2. `node scripts/check-chapter.mjs <book> <n>` for each chapter. Warnings about commentaries read on Bible Hub were there before the pass and stay.
-3. Read each agent's `declined` list in the workflow's result: a finding declined because applying it would change doctrine or an author's own wording goes to `OPEN-QUESTIONS.md`, as a choice between the two wordings; a finding declined for taste the coordinator settles here (apply it or not, by the standard); the rest need nothing. Don't forward a declined list.
-4. Commit one chapter at a time, the chapter with its ledger: `Ezekiel 25: language pass (Codex's findings, applied by Opus)`. Commit to the book's branch, not to `main`; don't push a book in preview.
-5. Touch nothing but those chapters' files. The writing session owns `content/sources.yaml`, the brief, `THEME-CANDIDATES.md`, and the chapters not yet committed.
+1. Resolve every `needsWriter` item through a focused Opus writer repair, the Sonnet source check and Opus review. Preserve the chapter's notes and structure; research and ledger any necessary added claim under the normal sourcing rules. This is not permission to invent the missing connection. Commit the sourced repair separately, then rerun the affected Codex readings and the application stage. Source fingerprints invalidate the stale readings, including the side-by-side report. Do not record a completed pass while substantive work or an author decision remains open.
+2. `node scripts/check-pass.mjs <book> <chapters…>` on the local application edits: new references should only be pointers to another chapter's note, no ledger row should have been added, and a “new or changed quotation” is usually an old one whose closing punctuation moved. Sourced writer repairs are already committed, so this check remains a check on meaning-preserving edits rather than being bypassed for new material.
+3. `node scripts/check-chapter.mjs <book> <n>` for each chapter. Warnings about commentaries read on Bible Hub were there before the pass and stay.
+4. Read `declined` and `problems` as well as `needsWriter`. Settle taste by the standard. Only a genuine doctrine or author-wording choice goes to `OPEN-QUESTIONS.md`, as concrete alternatives with a recommendation; an accurate finding needing writer work remains open rather than becoming a declined copy edit.
+5. Record only `readyChapters` with `node scripts/batch-commit.mjs <book> pass <chapters…>`. It keeps the familiar “language pass” subject, adds the prose-review version and exact source fingerprint, and creates a completion commit even when no edit was needed. Do not substitute a hand-written subject without the completion trailers. Commit to the book's branch, not to `main`; do not merge or push until authorized.
+6. The language application touches only the assigned chapters and ledgers. The writing session owns `content/sources.yaml`, the brief, `THEME-CANDIDATES.md` and other chapters; new source entries from a focused writer repair are handled through the normal proposed-source process.
 
-**Other pages** (a theme or guide page, a book page, a facsimile page, the About page) are read one at a time, with no workflow: `node scripts/codex-read.mjs <book> <page file name>`, `<book> book`, `<book> facsimile-<n>`, or `--file <path>`; apply the findings that hold up, adding nothing, and rerun that page's checks (`check-content <book> <page>` and `check-ledger <book> <page>` for a theme page; the build for a book page).
+**Other pages** (a theme or guide page, a book page, a facsimile page, the About page) are read one at a time: `node scripts/codex-read.mjs <book> <page file name>`, `<book> book`, `<book> facsimile-<n>`, or `--file <path>`. Apply supported language findings without adding claims. A substantive gap goes back to that page's writer and source/review checks before a fresh reading; do not invent the bridge in a copy edit. Rerun the page's checks (`check-content <book> <page>` and `check-ledger <book> <page>` for a theme page; the build for a book page).
 
 ## Working with the author
 

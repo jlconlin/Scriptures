@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// A second reader from another model family, for language only (author, 2026-10-07, as a trial): Codex reads
+// A second reader from another model family, for prose and language: Codex reads
 // finished, reviewed chapters and writes a list of findings. It edits nothing (the sandbox is read-only), opens
 // no source, and does not judge the citations; whoever coordinates decides the findings and reruns the checks.
 //   node scripts/codex-read.mjs <book> <chapter>            one chapter → .cache/batch/<book>/reports/NN-codex.md
@@ -7,7 +7,7 @@
 //                                                            disagrees between them → reports/NN-NN-codex.md
 //   node scripts/codex-read.mjs <book> <from>-<to> --batch   a whole batch from the shell: the side-by-side reading,
 //                                                            then each chapter alone (--inline), skipping a findings
-//                                                            file that exists. The codex-pass workflow expects these
+//                                                            file whose source/criteria fingerprints still match. The codex-pass workflow expects these
 //                                                            files and does not run Codex itself.
 //   node scripts/codex-read.mjs <book> book                  the book page's own words (book.yaml) → reports/book-codex.md
 //   node scripts/codex-read.mjs <book> <page file name>      a theme or guide page → reports/<name>-codex.md
@@ -16,13 +16,15 @@
 //   node scripts/codex-read.mjs --file <path>                any other page (content/about.md, content/volumes/…)
 //                                                            → .cache/codex/<name>-codex.md
 // Every page the site gains is read this way before the author sees it (author, 2026-10-07).
-//   --model <codex model>   --print (the prompt only)
+//   --model <codex model>   --print (the prompt only)   --force (reread even a current batch cache)
 //   --inline   one chapter only: the standard's two sections, the chapter's verses and the chapter file are put in
 //              the prompt, so Codex opens nothing. A reading then costs about a third of Codex's allowance
 //              (it took some 34,000 tokens a page when Codex opened the files itself; author's limit, 2026-10-08).
 import { spawnSync } from 'node:child_process';
 import fs from 'node:fs';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
+import { PROSE_REVIEW_VERSION } from './prose-review.mjs';
 
 const args = process.argv.slice(2);
 const flag = (name) => { const i = args.indexOf(name); return i < 0 ? null : args.splice(i, 2)[1]; };
@@ -32,21 +34,42 @@ const across = has('--across');
 const batch = has('--batch');
 const print = has('--print');
 const inline = has('--inline');
+const force = has('--force');
 const file = flag('--file');
 const [book, range] = args;
 if (!file && (!book || !range)) { console.error('usage: node scripts/codex-read.mjs <book> <chapter | from-to --across | book | page file name> | --file <path>  [--model <codex model>] [--print]'); process.exit(1); }
 const pad = (n) => String(n).padStart(2, '0');
+const hash = (s) => createHash('sha256').update(s).digest('hex');
+const readingFingerprint = (range) => {
+  const [a, b = a] = String(range).split('-').map(Number);
+  const chapters = [];
+  for (let n = a; n <= b; n++) {
+    const file = `content/${book}/chapters/${pad(n)}.yaml`;
+    if (fs.existsSync(file)) chapters.push([file, hash(fs.readFileSync(file))]);
+  }
+  const standard = fs.readFileSync('STANDARDS.md', 'utf8');
+  return hash(JSON.stringify({ version: PROSE_REVIEW_VERSION, reader: hash(fs.readFileSync(new URL(import.meta.url))), model: model ?? 'configured', chapters,
+    scripture: hash(fs.readFileSync(`data/kjv/${book}.json`)),
+    titles: fs.existsSync(`data/kjv/${book}.titles.json`) ? hash(fs.readFileSync(`data/kjv/${book}.titles.json`)) : null,
+    standard: standard.slice(standard.indexOf('\n## 2.'), standard.indexOf('\n## 4.')) }));
+};
 if (batch) {
   const [a, b = a] = String(range).split('-').map(Number);
   const dir = `.cache/batch/${book}/reports`;
+  let failures = 0;
   const rerun = (what, out) => {
-    if (fs.existsSync(out) && fs.statSync(out).size > 0) { console.log(`${out}: exists, skipped`); return; }
-    const r = spawnSync(process.execPath, [process.argv[1], book, ...what, ...(model ? ['--model', model] : [])], { stdio: 'inherit' });
-    if (r.status !== 0) console.error(`${what.join(' ')}: failed (status ${r.status}); run it again`);
+    let current = false;
+    try {
+      const meta = JSON.parse(fs.readFileSync(`${out}.meta.json`, 'utf8'));
+      current = fs.statSync(out).size > 0 && meta.fingerprint === readingFingerprint(what[0]) && meta.report_sha256 === hash(fs.readFileSync(out));
+    } catch { /* Missing or stale metadata requires a new reading when requested. */ }
+    if (current && !force && !print) { console.log(`${out}: current, skipped`); return; }
+    const r = spawnSync(process.execPath, [process.argv[1], book, ...what, ...(model ? ['--model', model] : []), ...(print ? ['--print'] : [])], { stdio: 'inherit' });
+    if (r.status !== 0) { failures++; console.error(`${what.join(' ')}: failed (status ${r.status}); run it again`); }
   };
   if (b > a) rerun([`${a}-${b}`, '--across'], `${dir}/${pad(a)}-${pad(b)}-codex.md`);
   for (let n = a; n <= b; n++) if (fs.existsSync(`content/${book}/chapters/${pad(n)}.yaml`)) rerun([String(n), '--inline'], `${dir}/${pad(n)}-codex.md`);
-  process.exit(0);
+  process.exit(failures ? 1 : 0);
 }
 const isChapters = !file && /^\d+(-\d+)?$/.test(range);
 const [from, to = from] = isChapters ? range.split('-').map(Number) : [];
@@ -73,15 +96,19 @@ if (isChapters) {
   page = { path: found, kind: found.endsWith('.yaml') ? 'facsimile' : 'page', name };
 }
 
-const shared = `You are a careful copy editor reading commentary on scripture for a study site. You change no file: you write a list of findings and nothing else. Read STANDARDS.md sections 2 and 3 (audience and voice) first; they are the rules. The chapter files are YAML: verses are in data/kjv/<book>.json, and the commentary is in the fields setting, thread, christ, explore, each section's plain, and each note's title and body.
+const shared = `You are a careful second reader for prose and language, reading commentary on scripture for a study site. You change no file: you write a list of findings and nothing else. Read STANDARDS.md sections 2 and 3 (audience and voice) first; they are the rules. The chapter files are YAML: verses are in data/kjv/<book>.json, and the commentary is in the fields setting, thread, christ, explore, each section's plain, and each note's title and body.
 
 Out of scope, do not report: whether a claim is true or its citation right (others have checked every source); the choice of which verses have notes; YAML layout; [[references]] and their format; spelling the King James text uses.
 
-Never suggest adding a fact, a cross-reference, an interpretation, or a connection: the writers may say only what a source they read says. A suggested wording must say exactly what the sentence already says, in fewer or plainer words, and must leave every passage inside quotation marks untouched.`;
+Never invent a fact, cross-reference, interpretation or explanatory connection. You may identify missing reasoning and name what needs explaining, without supplying it as an established claim. A suggested replacement must preserve the existing meaning and leave every passage inside quotation marks untouched. When a necessary repair would add meaning, describe the repair needed instead of inventing replacement prose.`;
 
 const one = `${shared}
 
-Read ${files[0]} and report, in the order of the file:
+Read ${files[0]} together with its scripture context (data/kjv/${book}.json, chapter ${from}). Before copyediting, check answer, progression and integration: does each note answer its question, do sentences and paragraphs develop that explanation, and is the role of quotations and alternative readings explained? Check whether an allegedly missing link is already present or reasonably implied. Apply STANDARDS.md's connected-explanation guidance: do not penalize useful repetition, uncertainty, multiple witnesses or length alone, or demand every inference be explicit. Judge setting and thread by their broader purposes rather than a single note's topic.
+
+For a substantive missing answer, relationship, or relevance problem, report a numbered finding marked [prose]. Quote the exact obstructing passage and name what repair must accomplish. Distinguish it from local wording or a slight transition in an explanation that already works. Do not force legitimate alternatives into a conclusion. The applier will decide whether the repair can preserve existing meaning or needs a writer and source review; a provisional [prose] finding is not an instruction to add an unsupported claim. If the explanation works, leave it alone.
+
+Then report, in the order of the file:
 1. A sentence that is hard to follow, ambiguous, or longer than it needs to be; a paragraph that says the same thing twice.
 2. A note whose first sentence does not say what the note is about (the site shows it as the note's preview), or that opens with a hook or a label.
 3. A source announced in running text (“the manual says”, “one commentator notes”) or a modern scholar named.
@@ -153,8 +180,22 @@ if (print) { console.log(ask); process.exit(0); }
 const outDir = file ? '.cache/codex' : `.cache/batch/${book}/reports`;
 fs.mkdirSync(outDir, { recursive: true });
 const out = path.resolve(outDir, page ? `${page.name}-codex.md` : across ? `${pad(from)}-${pad(to)}-codex.md` : `${pad(from)}-codex.md`);
+const fingerprint = isChapters ? readingFingerprint(range) : null;
+const archive = (label) => {
+  const saved = `${out}.${label}-${Date.now()}`;
+  if (fs.existsSync(out)) fs.renameSync(out, saved);
+  if (fs.existsSync(`${out}.meta.json`)) fs.renameSync(`${out}.meta.json`, `${saved}.meta.json`);
+};
+archive('previous');
+fs.rmSync(`${out}.meta.json`, { force: true });
 const run = spawnSync('codex', ['exec', ...(model ? ['-m', model] : []), '--sandbox', 'read-only', '--ephemeral', '-C', process.cwd(), '-o', out, '-'],
   { input: ask, stdio: ['pipe', 'ignore', 'inherit'], timeout: 30 * 60 * 1000 });
-if (run.error) { console.error(run.error.code === 'ENOENT' ? 'the codex CLI is not installed or not on PATH' : run.error.message); process.exit(1); }
-if (run.status !== 0 || !fs.existsSync(out)) { console.error(`codex exec ended with status ${run.status} and ${fs.existsSync(out) ? 'a' : 'no'} findings file`); process.exit(1); }
+if (run.error) { archive('failed'); console.error(run.error.code === 'ENOENT' ? 'the codex CLI is not installed or not on PATH' : run.error.message); process.exit(1); }
+if (run.status !== 0 || !fs.existsSync(out) || fs.statSync(out).size === 0) { const usable = fs.existsSync(out) && fs.statSync(out).size > 0; archive('failed'); console.error(`codex exec ended with status ${run.status} and ${usable ? 'a nonempty' : 'no usable'} findings file`); process.exit(1); }
+if (isChapters) {
+  if (readingFingerprint(range) !== fingerprint) { archive('unverified'); console.error('Chapter context changed during the reading; rerun before applying findings.'); process.exit(1); }
+  const temp = `${out}.meta.json.${process.pid}.tmp`;
+  fs.writeFileSync(temp, `${JSON.stringify({ version: PROSE_REVIEW_VERSION, fingerprint, report_sha256: hash(fs.readFileSync(out)) }, null, 2)}\n`);
+  fs.renameSync(temp, `${out}.meta.json`);
+}
 console.log(`${path.relative(process.cwd(), out)}: ${fs.readFileSync(out, 'utf8').length} characters`);

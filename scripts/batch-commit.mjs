@@ -7,6 +7,7 @@
 import { execFileSync } from 'node:child_process';
 import path from 'node:path';
 import { findBook } from '../src/lib/books.mjs';
+import { proseReviewTrailers } from './prose-review.mjs';
 // The commit's attribution line: the model that ran the batch, from CLAUDE_MODEL_NAME (set by the coordinator), else a generic one.
 const coauthor = () => `Co-Authored-By: ${process.env.CLAUDE_MODEL_NAME ?? 'Claude Code'} <noreply@anthropic.com>`;
 
@@ -31,9 +32,11 @@ for (const n of chapters) {
   const warnings = out.split('\n').filter((l) => /⚠/.test(l)).map((l) => l.trim().slice(0, 160));
   const files = [`content/${slug}/chapters/${pad(n)}.yaml`, `content/${slug}/evidence/${pad(n)}.yaml`];
   git('add', ...files);
-  if (!git('diff', '--cached', '--name-only').trim()) { console.log(`– ${book.name} ${n}: nothing to commit`); continue; }
+  const changed = git('diff', '--cached', '--name-only', '--', ...files).trim();
+  if (!changed && kind !== 'pass') { console.log(`– ${book.name} ${n}: nothing to commit`); continue; }
   const msg = kind === 'written' ? `${book.unit?.singular ?? book.name} ${n}: written, checked and reviewed` : `${book.name} ${n}: language pass (Codex's findings, applied by ${appliedBy})`;
-  git('commit', '-q', '-m', `${msg}\n\n${coauthor()}`, '--', ...files);
-  console.log(`✓ ${book.name} ${n}: committed${warnings.length ? `  (${warnings.join('; ')})` : ''}`);
+  const review = kind === 'pass' ? `${proseReviewTrailers(slug, Number(n), path.join(ROOT, files[0]))}\n\n` : '';
+  git('commit', '-q', ...(kind === 'pass' ? ['--allow-empty'] : []), '-m', `${msg}\n\n${review}${coauthor()}`, '--', ...files);
+  console.log(`✓ ${book.name} ${n}: ${changed ? 'committed' : 'review recorded; no content changes'}${warnings.length ? `  (${warnings.join('; ')})` : ''}`);
 }
 process.exit(failed ? 1 : 0);
