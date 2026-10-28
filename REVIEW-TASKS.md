@@ -11,7 +11,7 @@ One line per page, no prose; the reasons are in `REVIEW.md` and in git. A sessio
 | numbers / between-the-dead-and-the-living | done | every atonement without an altar is made against a plague, for the living; kipper’s last use faces a death done; Amulek’s infinite atonement |
 | haggai / shall-it-be-holy | done | holiness passes one step by touch and stops; presence came down first; the Holy One’s garment’s corner heals the contagious |
 | micah / plead-my-cause | done | the Lord’s rîb against Israel (6:2) becomes the rîb He pleads for her (7:9) once she confesses; Isa. 50:8, Rom. 8:33–34; Judge and Advocate in one |
-| psalms / the-unanswered-prayer | todo | Psalm 88 never turns; the Savior prayed Psalm 22 |
+| psalms / the-unanswered-prayer | done | the hidden face (sātar + pānîm) is the laments’ question; Psalm 88 asks it and never turns; Psalm 22, whose first line the Savior prayed, negates it for its sufferer (22:24) with Psalm 88:13’s cry heard; 22:22 “declare” is 88:11’s verb, and on Hopkin’s D&C 138 reading the congregation is the faithful dead |
 | psalms / the-law-and-the-lost-sheep | todo | the longest praise of the law ends as a lost sheep |
 | genesis / in-anothers-place | todo | a substitute provided, then offered, and he is Judah |
 | ezekiel / stand-in-the-gap | todo | no man found; “I will seek” |
