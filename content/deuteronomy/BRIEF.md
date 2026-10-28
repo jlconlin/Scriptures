@@ -93,7 +93,7 @@ Each batch is written without sight of the others, so the same explanation retur
 | Judges and justice | `[[Deut. 16:18]]` | 1:16–17; 24:17 point |
 | **The king** | `[[Deut. 17:14]]` | point |
 | Divination and necromancy | `[[Deut. 18:10]]` (Isa. 8:19 on the site) | point |
-| **The prophet like unto Moses** | `[[Deut. 18:15]]`. Exodus's theme *Moses the Mediator*, section “A prophet like unto me” (`/exodus/themes/moses-the-mediator/#prophet`): agree, link | 18:18–19 and 34:10 say their own |
+| **The prophet like unto Moses** | `[[Deut. 18:15]]`. Exodus's theme *Speak Thou with Us* (`/exodus/themes/speak-thou-with-us/`, the 2026-10-28 merge of *Moses the Mediator* and *Hear Ye Him*): agree, link | 18:18–19 and 34:10 say their own |
 | Two or three witnesses; eye for eye | `[[Deut. 19:15]]`; `[[Ex. 21:24]]` | 17:6; 19:21 point |
 | “Hanged on a tree … accursed” | `[[Deut. 21:23]]` (Gal. 3:13) | point |
 | **Women: captive, firstborn, virginity, rape, divorce, levirate** | the guide *Women and Marriage* (`#divorce`, `#levirate-marriage`, `#the-law`, `#hard-passages`); then `[[Deut. 21:10]]`, `[[Deut. 21:15]]`, `[[Deut. 22:13]]`, `[[Deut. 24:1]]`, `[[Deut. 25:5]]` | link the guide's section at the end of the note |

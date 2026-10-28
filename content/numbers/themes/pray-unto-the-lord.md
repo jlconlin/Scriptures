@@ -36,7 +36,7 @@ Moses and Aaron ask, “shall one man sin, and wilt thou be wroth with all the c
 
 <h2 id="intercessor">The Intercessor lifted up</h2>
 
-Of Christ: “he ever liveth to make intercession” ([[Heb. 7:25]]). Of the serpent: “as Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up” ([[John 3:14]]). In Numbers 21 Moses prays, and a serpent is raised for the people to look upon. Set beside these, Hebrews and John say both of one Person. Latter-day Saints may read prophetic intercession “as typological for the role of Jesus,”[@sears-intercession] and the lifting up of the serpent is “a type of His own ‘lifting up’ upon the cross.”[@bd-serpent-brazen] For Moses as mediator, see [Moses the Mediator](/exodus/themes/moses-the-mediator/#mediator).
+Of Christ: “he ever liveth to make intercession” ([[Heb. 7:25]]). Of the serpent: “as Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up” ([[John 3:14]]). In Numbers 21 Moses prays, and a serpent is raised for the people to look upon. Set beside these, Hebrews and John say both of one Person. Latter-day Saints may read prophetic intercession “as typological for the role of Jesus,”[@sears-intercession] and the lifting up of the serpent is “a type of His own ‘lifting up’ upon the cross.”[@bd-serpent-brazen] For Moses as mediator, see [Speak Thou with Us](/exodus/themes/speak-thou-with-us/).
 
 <h2 id="borne">Not removed, but borne</h2>
 

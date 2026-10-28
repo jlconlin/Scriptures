@@ -34,9 +34,9 @@ One line per page, no prose; the reasons are in `REVIEW.md` and in git. A sessio
 | exodus / that-ye-may-know | done | yādaʿ 45× in 43 verses; “that I am the LORD” after “know” 10×, five of Egypt and five of Israel: Egypt’s add where (8:22), Israel’s add whose (“your God,” 6:7, 16:12; “their God… that I may dwell among them,” 29:46; “sanctify you,” 31:13); Jethro’s is the only “Now I know”; Moses asks to know *thee* (33:13) after “I know thee by name” (33:12); own join to John 17:3 |
 | exodus / the-firstborn | done | bĕkôr 20× in 11 verses: Israel named the Lord’s firstborn (4:22) before Egypt’s die; “it is mine” (13:2, lî hûʾ) the morning after, with a price (13:13, pādâ) and a stand-in (Num. 3); Luke sets Jesus under 13:2 and names no price; own join: the redeemed son and the offered firstling of 13:15 meet in the Firstborn (Col. 1; D&C 93:21) |
 | exodus / offered-at-sinai | done | Sinai told in distance words: a kingdom of priests to see the Lord come down (19:6, 11); the people “afar off” (20:18, 21; 24:1), Moses alone “drew near” (20:21; 24:2); after the calf the Lord “will not go up in the midst” (33:3) and JST 34:1 withdraws priesthood and presence in one sentence (D&C 84:23–26); Hebrews 12 recalls 20:19 and 10:22 says “let us draw near” (own join) |
-| exodus / (the Mediator, merged; name when written) | todo | Israel asked for a man between, got one, then the One |
-| exodus / moses-the-mediator | merged → the Mediator | |
-| deuteronomy / hear-ye-him | merged → the Mediator | |
+| exodus / speak-thou-with-us (the Mediator merge) | done | one request followed through both books: Israel asks for a man between (Ex. 20:19; Deut. 5:27), the Lord says “well said” and with the same verb (hêṭîbû, 5:28; 18:17) promises a prophet like Moses; Moses “stood between” (5:5), offers himself (32:32, nāśāʾ with sin as object) and is refused (32:33); none like him (34:10); scripture names the one Mediator (JST Gal. 3; Heb. 8–12; 1 Tim. 2:5); own join: 32:32–33 beside D&C 45:3–5, the same scene with a different outcome |
+| exodus / moses-the-mediator | merged → speak-thou-with-us | 2026-10-28 |
+| deuteronomy / hear-ye-him | merged → speak-thou-with-us | 2026-10-28 |
 | ezekiel / a-little-sanctuary | todo | the glory goes far off and meets the exiles |
 | ezekiel / new-heart-new-spirit | todo | differ from the Deuteronomy heart page |
 | genesis / brothers-reconciled | todo | reconciliation only when the wrong is named |
