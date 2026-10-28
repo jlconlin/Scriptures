@@ -37,8 +37,8 @@ One line per page, no prose; the reasons are in `REVIEW.md` and in git. A sessio
 | exodus / speak-thou-with-us (the Mediator merge) | done | one request followed through both books: Israel asks for a man between (Ex. 20:19; Deut. 5:27), the Lord says “well said” and with the same verb (hêṭîbû, 5:28; 18:17) promises a prophet like Moses; Moses “stood between” (5:5), offers himself (32:32, nāśāʾ with sin as object) and is refused (32:33); none like him (34:10); scripture names the one Mediator (JST Gal. 3; Heb. 8–12; 1 Tim. 2:5); own join: 32:32–33 beside D&C 45:3–5, the same scene with a different outcome |
 | exodus / moses-the-mediator | merged → speak-thou-with-us | 2026-10-28 |
 | deuteronomy / hear-ye-him | merged → speak-thou-with-us | 2026-10-28 |
-| ezekiel / a-little-sanctuary | todo | the glory goes far off and meets the exiles |
-| ezekiel / new-heart-new-spirit | todo | differ from the Deuteronomy heart page |
+| ezekiel / a-little-sanctuary | done | the verb rāḥaq 5× tells the story: the Lord goes far from His house (8:6), Jerusalem says “get far” (11:15), He says He is the exiles’ sanctuary where He sent them (11:16, the one “sanctuary” in the book that is not a house), and asks Israel to put its sin far from Him so He can dwell in their midst (43:9; 44:10); 11:16’s “little” (time/degree) and tense reported, not chosen; Isa. 8:14 the one other verse by the Church’s footnote |
+| ezekiel / new-heart-new-spirit | done | Ezekiel’s own: the heart replaced (stone for flesh), not circumcised (Deut.) or written on (Jer.); promised (11:19), commanded (18:31, the one imperative) and given (36:26) with ʿāśâ in the command, the gift and the people’s “do them” (own join); “a new spirit” becomes “my spirit” (36:27; 37:14; 39:29, šāpak only there of spirit); “not for your sakes… for mine holy name’s sake” against Deuteronomy’s “for thy life” |
 | genesis / brothers-reconciled | todo | reconciliation only when the wrong is named |
 | hosea / heal-their-backsliding | todo | five “heal”s, Assyria to the Lord |
 | jeremiah / cup-of-fury | todo | Babylon was the cup and drinks it |

@@ -1,87 +1,278 @@
 page: a-little-sanctuary
 claims:
-  - where: 'section “Among the captives”'
-    claim: 'The vision gave assurance that the Lord could still be with the exiled people'
+  # ---------- opening ----------
+  - where: 'opening'
+    claim: '“Get you far” (11:15, raḥăqû, Qal imperative), “cast them far off” (11:16, hirḥaqtîm, Hiphil) and “go far off” (8:6, lĕrāḥŏqâ, Qal infinitive) are one root, rāḥaq (H7368)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'הִרְחַקְתִּי/ם֙'
+  - where: 'opening'
+    claim: 'rāḥaq (H7368) occurs 5 times in Ezekiel: 8:6; 11:15; 11:16; 43:9 (yĕraḥăqû, “put away … far from me”); 44:10 (rāḥăqû, the Levites “gone away far from me”). Connection made by this page: the five read as one sequence of the Lord’s presence; the commentaries note the root only at 8:6 and 11:15–16.'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'יְרַחֲק֧וּ'
+  - where: 'opening'
+    claim: '44:10 rāḥăqû'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'רָֽחֲקוּ֙'
+  - where: 'opening'
+    claim: 'miqdāš (H4720): 30 tokens in 28 verses of Ezekiel; 15 are “my sanctuary” (the Lord’s house), 12 “the sanctuary” (the temple vision), 2 plural (21:2; 28:18); 11:16 lĕmiqdāš is the only token with lĕ- and no possessive or article, the Lord Himself becoming a sanctuary “for them”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'לְ/מִקְדָּ֣שׁ'
+
+  # ---------- section “Among the captives by the river of Chebar” ----------
+  - where: 'section “Among the captives by the river of Chebar”'
+    claim: 'Ezek. 1:1–2 (fifth year), 1:28, 3:23, 8:1 (sixth year), 8:3, 9:3, 10:4, 10:18–19, 11:23, 11:24–25 as quoted; footnote 11:23a “glory” → Ezek. 43:2 (1–6)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/11?lang=eng'
+    quote: 'And the glory of the Lord went up from the midst of the city, and stood upon the mountain which is on the east side of the city.'
+  - where: 'section “Among the captives by the river of Chebar”'
+    claim: 'Ezek. 1:28 “the appearance of the likeness of the glory of the Lord”; 1:1 “among the captives by the river of Chebar”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/1?lang=eng'
+    quote: 'This was the appearance of the likeness of the glory of the Lord.'
+  - where: 'section “Among the captives by the river of Chebar”'
+    claim: 'Come, Follow Me 2026 (Ezekiel 1–3; 33–34; 36–37; 47): Ezekiel saw “the glory of the Lord” not in the temple but in Babylon among the exiles; God’s presence was no longer in Jerusalem'
+    key: cfm-ot-2026-45
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/45?lang=eng'
+    quote: 'not back in the temple at Jerusalem but there in Babylon among the exiles. The wickedness in Jerusalem, he learned, had become so severe that God’s presence was no longer there'
+  - where: 'section “Among the captives by the river of Chebar”'
+    claim: 'Scripture Helps (Ezekiel 1): the vision “likely deepened his understanding of God’s majesty and provided assurance that the Lord could still be with the people, even though they had been exiled to Babylon”'
     key: scripture-helps-ezek
     url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/43-ezekiel-1-3-33-34-36-37?lang=eng'
-    quote: 'provided assurance that the Lord could still be with the people, even though they had been exiled to Babylon.'
-  - where: 'section “Among the captives”'
-    claim: 'Jehovah is the premortal Jesus Christ'
-    key: bd-jehovah
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
-    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
-  - where: 'section “Get you far from the LORD”'
-    claim: '“Get you far” (11:15) and “cast far off” (11:16) are one Hebrew root, H7368'
+    quote: 'likely deepened his understanding of God’s majesty and provided assurance that the Lord could still be with the people, even though they had been exiled to Babylon'
+  - where: 'section “Among the captives by the river of Chebar”'
+    claim: 'KnoWhy 719: “God’s presence is mobile and not confined to the temple in Jerusalem.”'
+    key: sc-knowhy-719
+    url: 'https://scripturecentral.org/knowhy/how-did-jacobs-and-ezekiels-peoples-each-respond-to-exile'
+    quote: 'God’s presence is mobile and not confined to the temple in Jerusalem.'
+  - where: 'section “Among the captives by the river of Chebar”'
+    claim: 'Shannon (RSC): “Ezekiel explains that the reason he could see this vision of Jehovah from his standpoint in exile is that Jehovah has left his house in Jerusalem”; “The divine presence then traveled to the Jews who were living in the Babylonian exile.”'
+    key: shannon-location
+    url: 'https://rsc.byu.edu/jacob/location-location-location'
+    quote: 'Ezekiel explains that the reason he could see this vision of Jehovah from his standpoint in exile is that Jehovah has left his house in Jerusalem.'
+  - where: 'section “Among the captives by the river of Chebar”'
+    claim: 'Shannon: “The divine presence then traveled to the Jews who were living in the Babylonian exile.”'
+    key: shannon-location
+    url: 'https://rsc.byu.edu/jacob/location-location-location'
+    quote: 'The divine presence then traveled to the Jews who were living in the Babylonian exile.'
+  - where: 'section “Among the captives by the river of Chebar”'
+    claim: 'Heal (Maxwell Institute podcast): the opening vision read alongside chs. 10–11 “as a sign that the Lord’s presence has departed the Jerusalem temple”'
+    key: heal-abide-ezekiel
+    url: 'https://mi.byu.edu/podcasts/abide-ezekiel-1-3-33-34-36-37-47'
+    quote: 'as a sign that the Lord’s presence has departed the Jerusalem temple'
+  - where: 'section “Among the captives by the river of Chebar”'
+    claim: '11:23 ends with the glory on the mountain east of the city; 11:24 has the Spirit (rûaḥ) carry Ezekiel to Chaldea and “the vision … went up from me” (wayyaʿal mēʿālay); the glory is not said to go to Babylon'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'רַֽחֲקוּ֙'
-  - where: 'section “Get you far from the LORD”'
-    claim: '“Cast far off” (11:16) is the same root, H7368'
+    quote: 'כַּשְׂדִּ֙ימָה֙'
+
+  # ---------- section “That I should go far off from my sanctuary” ----------
+  - where: 'section “That I should go far off from my sanctuary”'
+    claim: 'Ellicott on 8:6: the infinitive has no subject expressed, “and may therefore be understood either of the removing of the people or of the Divine abandonment of the sanctuary”; he judges the latter more probable'
+    key: ellicott-ezekiel
+    url: 'https://biblehub.com/commentaries/ellicott/ezekiel/8.htm'
+    quote: 'and may therefore be understood either of the removing of the people or of the Divine abandonment of the sanctuary'
+  - where: 'section “That I should go far off from my sanctuary”'
+    claim: 'Keil on 8:6: “The subject to לרחקה is not the house of Israel, but Jehovah”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/8.htm'
+    quote: 'is not the house of Israel, but Jehovah'
+  - where: 'section “That I should go far off from my sanctuary”'
+    claim: 'Cambridge on 8:6: “i.e. withdraw. These abominations defiled Jehovah’s sanctuary, the place of his abode, causing him to abandon it.”'
+    key: cambridge-ezekiel
+    url: 'https://biblehub.com/commentaries/cambridge/ezekiel/8.htm'
+    quote: 'These abominations defiled Jehovah’s sanctuary, the place of his abode, causing him to abandon it.'
+  - where: 'section “That I should go far off from my sanctuary”'
+    claim: 'Draper (RSC): “It was not the temple but righteousness that would be Judah’s only shield.”'
+    key: draper-exile
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/prophets-exile'
+    quote: 'It was not the temple but righteousness that would be Judah’s only shield.'
+  - where: 'section “That I should go far off from my sanctuary”'
+    claim: 'Footnote 11:15a “the men”: Septuagint and Syriac: thy fellow exiles; Keil renders “the people of thy proxy” (gĕʾullâ, the kinsman-redeemer’s duty)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/11?lang=eng'
+    quote: 'Get you far from the Lord: unto us is this land given in possession.'
+  - where: 'section “That I should go far off from my sanctuary”'
+    claim: 'Keil’s rendering of 11:15: “thy brethren, thy brethren are the people of thy proxy”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/11.htm'
+    quote: 'the people of thy proxy'
+
+  # ---------- section “Yet will I be to them as a little sanctuary” ----------
+  - where: 'section “Yet will I be to them as a little sanctuary”'
+    claim: '11:16 “yet will I be” is wāʾĕhî, Qal wayyiqtol 1cs of hāyâ (“and I was/became”), after two Hiphil perfects; KJV and LXX render it future, Keil, Cambridge, BDB, NRSVue, ESV past'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'הִרְחַקְתִּים֙'
-  - where: 'section “Get you far from the LORD”'
-    claim: 'Connection made by this page: “go far off” (8:6) is the same Hebrew root, H7368, as “get you far” and “cast far off” (11:15–16)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'רָֽחֳקָה֙'
-  - where: 'section “Get you far from the LORD”'
-    claim: 'The Hebrew verb in 11:16 is a past narrative form'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'וָאֱהִ֤י'
-  - where: 'section “Get you far from the LORD”'
-    claim: 'NRSVUE reads “for a little while,” margin “a little sanctuary”'
+    quote: 'וָ/אֱהִ֤י'
+  - where: 'section “Yet will I be to them as a little sanctuary”'
+    claim: 'NRSVue Ezek. 11:16: “yet I have been a sanctuary to them for a little while in the countries where they have gone”'
     key: nrsvue
     url: 'https://www.biblegateway.com/passage/?search=Ezekiel%2011%3A3%2C15-16%2C19&version=NRSVUE'
     quote: 'yet I have been a sanctuary to them for a little while in the countries where they have gone'
-  - where: 'section “For evermore”'
-    claim: 'The Church reads Ezek. 37:26–28 of a temple in the reunification of Israel'
+  - where: 'section “Yet will I be to them as a little sanctuary”'
+    claim: 'Keil’s rendering of 11:16: “but I have become to them a sanctuary for a little while in the lands whither they have come”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/11.htm'
+    quote: 'I have become to them a sanctuary for a little while in the lands whither they have come'
+  - where: 'section “Yet will I be to them as a little sanctuary”'
+    claim: 'meʿaṭ (H4592) follows lĕmiqdāš, “for a sanctuary, a little”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'מְעַ֔ט'
+  - where: 'section “Yet will I be to them as a little sanctuary”'
+    claim: 'Cambridge on 11:16: “and have been to them for a sanctuary but little”; “he had not been to the exiles in great measure that which a “sanctuary” is, viz. a presence of Jehovah, a sanctification, and a religious joy”'
+    key: cambridge-ezekiel
+    url: 'https://biblehub.com/commentaries/cambridge/ezekiel/11.htm'
+    quote: 'he had not been to the exiles in great measure that which a “sanctuary” is, viz. a presence of Jehovah, a sanctification, and a religious joy'
+  - where: 'section “Yet will I be to them as a little sanctuary”'
+    claim: 'BDB on mĕʿaṭ: adverbial accusative of degree, Ezek. 11:16 “and have been to them for a sanctuary but little”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4592.htm'
+    quote: 'and have been to them for a sanctuary but little'
+  - where: 'section “Yet will I be to them as a little sanctuary”'
+    claim: 'Ellicott on 11:16: “for a little while, during the term of their captivity, God’s presence with them spiritually would be instead of the outward symbolical presence in His Temple”'
+    key: ellicott-ezekiel
+    url: 'https://biblehub.com/commentaries/ellicott/ezekiel/11.htm'
+    quote: 'for a little while, during the term of their captivity, God’s presence with them spiritually would be instead of the outward symbolical presence in His Temple'
+  - where: 'section “Yet will I be to them as a little sanctuary”'
+    claim: 'Keil on 11:16: “It is difficult to decide between these two renderings”; the context of v. 17 favours “that this substitution was only a provisional one”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/11.htm'
+    quote: 'It is difficult to decide between these two renderings'
+  - where: 'section “Yet will I be to them as a little sanctuary”'
+    claim: 'Keil, same paragraph: “that this substitution was only a provisional one”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/11.htm'
+    quote: 'that this substitution was only a provisional one'
+  - where: 'section “Yet will I be to them as a little sanctuary”'
+    claim: 'Keil on 11:16: “Jehovah is their sanctuary even in their dispersion”; “the Lord Himself had become their temple”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/11.htm'
+    quote: 'the Lord Himself had become their temple'
+  - where: 'section “Yet will I be to them as a little sanctuary”'
+    claim: 'Keil: “Jehovah is their sanctuary even in their dispersion”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/11.htm'
+    quote: 'Jehovah is their sanctuary even in their dispersion'
+  - where: 'section “Yet will I be to them as a little sanctuary”'
+    claim: 'Footnote 11:16a “sanctuary”: Isa. 8:14. TG Refuge'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/11?lang=eng'
+    quote: 'yet will I be to them as a little sanctuary in the countries where they shall come.'
+  - where: 'section “Yet will I be to them as a little sanctuary”'
+    claim: 'Lund (RSC): after chs. 7–11 the Lord “with two simple words, changes the tone” at 11:16'
+    key: lund-ezekiel
+    url: 'https://rsc.byu.edu/isaiah-prophets/ezekiel-prophet-judgment-prophet-promise'
+    quote: 'changes the tone'
+  - where: 'section “Yet will I be to them as a little sanctuary”'
+    claim: 'Cambridge on 11:16: “It is doubtful if “sanctuary” has anywhere (even Isaiah 8:14) the meaning of asylum, protection; the sanctuary is the abode of Jehovah, and his presence there sanctifies those in the midst of whom he dwells.”'
+    key: cambridge-ezekiel
+    url: 'https://biblehub.com/commentaries/cambridge/ezekiel/11.htm'
+    quote: 'the sanctuary is the abode of Jehovah, and his presence there sanctifies those in the midst of whom he dwells'
+
+  # ---------- section “I will dwell in the midst of them for ever” ----------
+  - where: 'section “I will dwell in the midst of them for ever”'
+    claim: 'Ezek. 24:21; 33:21; 34:30; 37:26–27 as quoted; footnote 37:26d “sanctuary”: TG God, Presence of; Temple'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/37?lang=eng'
+    quote: 'My tabernacle also shall be with them: yea, I will be their God, and they shall be my people.'
+  - where: 'section “I will dwell in the midst of them for ever”'
+    claim: 'Ezek. 34:30 “I the Lord their God am with them”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/34?lang=eng'
+    quote: 'Thus shall they know that I the Lord their God am with them'
+  - where: 'section “I will dwell in the midst of them for ever”'
+    claim: 'Keil on 37:26–27: the sentence formed on Lev. 26:11, miqdāš for miškān and “for ever” added; the Hebrew ʿălêhem “over them”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/37.htm'
+    quote: 'Leviticus 26:11'
+  - where: 'section “I will dwell in the midst of them for ever”'
+    claim: 'Cambridge on 37:27: “over them … but this has little probability”; “The sanctuary, however, does not protect, it sanctifies”'
+    key: cambridge-ezekiel
+    url: 'https://biblehub.com/commentaries/cambridge/ezekiel/37.htm'
+    quote: 'The sanctuary, however, does not protect, it sanctifies'
+  - where: 'section “I will dwell in the midst of them for ever”'
+    claim: 'Student Manual (27-23): “Ezekiel prophesied in 37:26–28 about a holy sanctuary or temple that would be part of the great reunification of Israel.”'
     key: ot-manual-27
     url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-27?lang=eng'
     quote: 'Ezekiel prophesied in 37:26–28 about a holy sanctuary or temple that would be part of the great reunification of Israel.'
-  - where: 'section “Jesus Christ”'
-    claim: 'At Ezek. 48:35 the temple is said to be built as a symbol that the Lord is with His people'
+  - where: 'section “I will dwell in the midst of them for ever”'
+    claim: 'Ezek. 43:2, 4, 5 as quoted; footnote 43:2a “glory”: Ezek. 11:23; Rev. 21:11'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/43?lang=eng'
+    quote: 'And the glory of the Lord came into the house by the way of the gate whose prospect is toward the east.'
+  - where: 'section “I will dwell in the midst of them for ever”'
+    claim: 'Cambridge on ch. 43: “the prophet sees Jehovah return to it by the E. gate, by which he had seen him leave it (ch. 11)”'
+    key: cambridge-ezekiel
+    url: 'https://biblehub.com/commentaries/cambridge/ezekiel/43.htm'
+    quote: 'the prophet sees Jehovah return to it by the E. gate, by which he had seen him leave it (ch. 11)'
+  - where: 'section “I will dwell in the midst of them for ever”'
+    claim: 'Ezek. 43:7, 9 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/43?lang=eng'
+    quote: 'Now let them put away their whoredom, and the carcases of their kings, far from me, and I will dwell in the midst of them for ever.'
+  - where: 'section “I will dwell in the midst of them for ever”'
+    claim: 'Ezek. 48:35 and JST footnote 35a: “and the name of the city from that day shall be called, Holy; for the Lord shall be there. Rev. 21:3.”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/48?lang=eng'
+    quote: 'and the name of the city from that day shall be, The Lord is there.'
+  - where: 'section “I will dwell in the midst of them for ever”'
+    claim: 'Student Manual (27-37): “The temple will be built as a symbol to Israel that the Lord is with His people.”'
     key: ot-manual-27
     url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-27?lang=eng'
     quote: 'The temple will be built as a symbol to Israel that the Lord is with His people.'
-  - where: 'section “For evermore”'
-    claim: 'Presence not limited to one place does not make temples unnecessary'
-    key: sc-knowhy-719
-    url: 'https://scripturecentral.org/knowhy/how-did-jacobs-and-ezekiels-peoples-each-respond-to-exile'
-    quote: 'However, Ezekiel does not imply that because God’s presence is not limited to one location, temples or promised lands are unnecessary or simply symbolic.'
-  - where: 'section “Jesus Christ”'
-    claim: 'Isa. 8:14 “for a sanctuary” uses the same Hebrew word, miqdash'
+
+  # ---------- section “He shall be for a sanctuary” ----------
+  - where: 'section “He shall be for a sanctuary”'
+    claim: 'Isa. 8:14 lĕmiqdāš (H4720), the same word and preposition as Ezek. 11:16'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
-    quote: 'מִקְדָּ֑שׁ'
-  - where: 'section “Jesus Christ”'
-    claim: 'The footnote at Isa. 8:14 glosses “sanctuary” and points to Ezek. 11:16'
+    quote: 'לְ/מִקְדָּ֑שׁ'
+  - where: 'section “He shall be for a sanctuary”'
+    claim: 'Isa. 8:14 as quoted; footnote 14a “sanctuary”: IE security for those who trust Him, but dismay and suffering for unbelievers. Ezek. 11:16 (15–21)'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/8?lang=eng'
-    quote: 'IE security for those who trust Him, but dismay and suffering for unbelievers. Ezek. 11:16 (15–21).'
-  - where: 'section “Jesus Christ”'
-    claim: 'The Isaiah 8 chapter heading names Christ'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/8?lang=eng'
-    quote: 'Christ will be as a stone of stumbling and a rock of offense'
-  - where: 'section “Jesus Christ”'
-    claim: 'JST Ezek. 48:35 footnote joins the city’s name to Rev. 21:3'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/48?lang=eng'
-    quote: 'and the name of the city from that day shall be called, Holy; for the Lord shall be there. Rev. 21:3.'
-  - where: 'section “Jesus Christ”'
-    claim: 'Connection made by this page: Ezek. 11:16 (“yet will I be to them as a little sanctuary”) set beside Rev. 21:22, where the Lord God Almighty and the Lamb are the temple; in both the Lord Himself is spoken of as the sanctuary or temple'
+    quote: 'And he shall be for a sanctuary; but for a stone of stumbling and for a rock of offence to both the houses of Israel'
+  - where: 'section “He shall be for a sanctuary”'
+    claim: 'Bible Dictionary: “Jehovah is the premortal Jesus Christ”; footnote Ezek. 1:26b “appearance”: TG Jesus Christ, Appearances, Antemortal'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ'
+  - where: 'section “He shall be for a sanctuary”'
+    claim: 'Keil on 11:16: the provisional sanctuary of exile looks to what “will be fully realized in the heavenly Jerusalem, where the Lord God Almighty and the Lamb will be a temple to the redeemed (Revelation 21:22)”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/11.htm'
+    quote: 'fully realized in the heavenly Jerusalem, where the Lord God Almighty and the Lamb will be a temple to the redeemed (Revelation 21:22)'
+  - where: 'section “He shall be for a sanctuary”'
+    claim: 'Rev. 21:22 as quoted'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rev/21?lang=eng'
     quote: 'And I saw no temple therein: for the Lord God Almighty and the Lamb are the temple of it.'
-  - where: opening
-    claim: 'Connection made by this page: the promise of 11:16 (“a little sanctuary”) and that of 37:26 (“my sanctuary in the midst of them”) share the word “sanctuary” (miqdash, H4720)'
+  - where: 'section “He shall be for a sanctuary”'
+    claim: 'Ellicott on 37:27 joins the promise to 2 Cor. 6:16, John 1:14 (“He dwelt (literally, tabernacled) among us”) and Rev. 21:3, 22; Cambridge on 48:35 cites Rev. 21:3; Keil on 37:26–27 John 1:14 and Rev. 21:3, 22. The Church’s edition joins 48:35 to Rev. 21:3 (JST footnote) and makes no John 1:14 join.'
+    key: ellicott-ezekiel
+    url: 'https://biblehub.com/commentaries/ellicott/ezekiel/37.htm'
+    quote: 'He dwelt (literally, tabernacled) among us'
+  - where: 'section “He shall be for a sanctuary”'
+    claim: 'KnoWhy 719: Ezekiel “does not imply that because God’s presence is not limited to one location, temples or promised lands are unnecessary or simply symbolic”'
+    key: sc-knowhy-719
+    url: 'https://scripturecentral.org/knowhy/how-did-jacobs-and-ezekiels-peoples-each-respond-to-exile'
+    quote: 'does not imply that because God’s presence is not limited to one location, temples or promised lands are unnecessary or simply symbolic'
+  - where: 'section “He shall be for a sanctuary”'
+    claim: 'Footnotes Isa. 8:14 “stumbling” → Luke 2:34; Rom. 9:32; TG Cornerstone (the Church’s own carrying of the verse to Christ)'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/37?lang=eng'
-    quote: 'will set my sanctuary in the midst of them for evermore'
-  - where: 'section “The house lost, the Lord with them”'
-    claim: 'The Lord says of the gathered flock that they shall know He is with them'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/8?lang=eng'
+    quote: 'but for a stone of stumbling and for a rock of offence'
+  - where: 'section “He shall be for a sanctuary”'
+    claim: 'Come, Follow Me 2026 §45: “Despite how far the covenant people had fallen, God had not totally abandoned them.”'
+    key: cfm-ot-2026-45
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/45?lang=eng'
+    quote: 'Despite how far the covenant people had fallen, God had not totally abandoned them.'
+  - where: 'section “That I should go far off from my sanctuary”'
+    claim: 'Ezek. 11:17 the land given to the exiles: “I will even gather you from the people … and I will give you the land of Israel”'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/34?lang=eng'
-    quote: 'Thus shall they know that I the LORD their God am with them'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/11?lang=eng'
+    quote: 'and I will give you the land of Israel.'
