@@ -32,7 +32,7 @@ One line per page, no prose; the reasons are in `REVIEW.md` and in git. A sessio
 | deuteronomy / curse-into-blessing | done | qĕlālâ in eleven verses, nine the covenant’s (11:26–30:19) and two in the laws, borne by one man (21:23) and turned for love (23:5); none after 30:19, and the farewell is “the blessing”; Paul quotes 21:23 and 27:26; Keil grounds 23:5 and 30:7 on Gen. 12:3, Paul’s starting point (Gal. 3:8); shorter page under §8, 2026-10-28 |
 | deuteronomy / for-he-is-thy-life | done | the heart wished for by the Lord (5:29, mî yittēn), commanded (10:16), not given (29:4, nātan), given by Him (30:6) “for thy life”; Jer. 24:7 repeats 29:4’s three words in the first person; 30:20 “he is thy life” given with both readings, the KJV’s followed as a reading; shorter page under §8, 2026-10-28 |
 | exodus / that-ye-may-know | todo | Egypt knows by His hand, Israel by His dwelling; kept whatever the research adds |
-| exodus / the-firstborn | todo | the oppressor's firstborn dies and God's goes free; then God's Firstborn dies |
+| exodus / the-firstborn | done | bĕkôr 20× in 11 verses: Israel named the Lord’s firstborn (4:22) before Egypt’s die; “it is mine” (13:2, lî hûʾ) the morning after, with a price (13:13, pādâ) and a stand-in (Num. 3); Luke sets Jesus under 13:2 and names no price; own join: the redeemed son and the offered firstling of 13:15 meet in the Firstborn (Col. 1; D&C 93:21) |
 | exodus / offered-at-sinai | todo | priesthood and presence offered and withdrawn |
 | exodus / (the Mediator, merged; name when written) | todo | Israel asked for a man between, got one, then the One |
 | exodus / moses-the-mediator | merged → the Mediator | |
