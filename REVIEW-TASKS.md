@@ -28,7 +28,7 @@ One line per page, no prose; the reasons are in `REVIEW.md` and in git. A sessio
 | Page | State | Thesis |
 |---|---|---|
 | amos / jacob-arise | done | the song’s verbs (fallen; none to raise her up, Hiphil qûm, 5:2) return with the Lord as subject in 9:11; 7:2 asks in Hebrew whether Jacob can stand (the KJV “by whom” is the Septuagint’s); James reads 9:11 of Christ (Acts 15:16); shorter page under §8, 2026-10-28 |
-| daniel / but-if-not | todo | rescue, no rescue, waking; the link is in the English, say so |
+| daniel / but-if-not | done | two endings for the faithful, rescue (3; 6, šêzib) and no rescue (11:33–35), held by “but if not” (3:18, the king’s own “if not” returned) and joined under one promise at 12:1–3 (Keil’s join) and 12:13; Hebrews 11:33–35 and Alma 14 hold the same pair; the šêzib/mālaṭ link is English only, said; shorter page under §8, 2026-10-28 |
 | deuteronomy / curse-into-blessing | todo | one noun for curse, to “the blessing” |
 | deuteronomy / for-he-is-thy-life | todo | the heart not given is circumcised by the Lord |
 | exodus / that-ye-may-know | todo | Egypt knows by His hand, Israel by His dwelling; kept whatever the research adds |

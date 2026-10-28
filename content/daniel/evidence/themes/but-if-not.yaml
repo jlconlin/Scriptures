@@ -1,142 +1,248 @@
 page: but-if-not
 claims:
+  # ---------- opening ----------
   - where: 'opening'
-    claim: 'The book illustrates the blessings of the Lord upon the faithful'
-    key: bd-daniel-book
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/daniel-book-of?lang=eng'
-    quote: 'The book of Daniel teaches its readers the important duty of being true to the God of Israel at all cost and illustrates the blessings of the Lord upon the faithful.'
+    claim: 'Dan. 3:18 “But if not” is Aramaic wĕhēn lāʾ (H2006a + H3809), the same two words as the king’s “but if ye worship not” at 3:15'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'וְ/הֵ֣ן'
   - where: 'opening'
-    claim: 'A testimony of mankind’s resurrection is given in Dan. 12'
-    key: bd-daniel-book
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/daniel-book-of?lang=eng'
-    quote: 'A testimony of mankind''s resurrection is given in Dan. 12.'
-  - where: 'section ““He will deliver us… But if not””'
-    claim: 'The three said God could save them but even if He chose not to they would not bow to the king’s gods'
-    key: scripture-helps-dan
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/44-daniel-1-7?lang=eng'
-    quote: 'Shadrach, Meshach, and Abed-nego boldly stated that they knew God could save them from the punishment of death, but even if He chose not to, they still would not bow down to the king''s gods.'
-  - where: 'section ““He will deliver us… But if not””'
-    claim: 'Elder Simmons calls the “But if not” sentence a statement of true faith'
+    claim: '3:18 “not,” lāʾ'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'לָ֔א'
+  - where: 'opening'
+    claim: 'Ellicott on 3:17: no ground for supposing they expected a miraculous deliverance; their language implies faithful obedience'
+    key: ellicott-daniel
+    url: 'https://biblehub.com/commentaries/ellicott/daniel/3.htm'
+    quote: 'There is not the slightest ground for supposing that they expected a miraculous deliverance. Their language implies no more than faithful obedience.'
+  - where: 'opening'
+    claim: 'The Cambridge Bible on 3:18: but even if He cannot, or will not, do this, still we can never fall down and worship thy gods'
+    key: cambridge-daniel
+    url: 'https://biblehub.com/commentaries/cambridge/daniel/3.htm'
+    quote: 'But even if He cannot, or will not, do this, still we can never fall down and worship thy gods.'
+  - where: 'opening'
+    claim: 'Elder Simmons: “But if not” is a statement of true faith'
     key: simmons-but-if-not
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2004/04/but-if-not?lang=eng'
     quote: 'That is a statement of true faith.'
-  - where: 'section “The furnace and the den”'
-    claim: 'The Aramaic verb shezib (H7804) occurs nine times in seven verses: 3:15, 17, 28; 6:14, 16, 20, 27 (hebrew.mjs daniel --word 7804)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
-    quote: 'יְשֵֽׁיזְבִנְ/כ֖וֹן'
-  - where: 'section “The furnace and the den”'
-    claim: 'shezib also occurs in 6:27 (twice)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
-    quote: 'מְשֵׁיזִ֣ב'
-  - where: 'section “The furnace and the den”'
-    claim: 'A second Aramaic verb (H5338) rendered “deliver” stands in 3:29'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
-    quote: 'לְ/הַצָּלָ֖ה'
-  - where: 'section “The furnace and the den”'
-    claim: 'The second Aramaic verb (H5338) stands in 6:14'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
-    quote: 'לְ/הַצָּלוּתֵֽ/הּ'
-  - where: 'section “The furnace and the den”'
-    claim: 'The second Aramaic verb (H5338) stands in 6:27'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
-    quote: 'וּ/מַצִּ֗ל'
-  - where: 'section “Those who fall”'
-    claim: 'Connection made by this page: the “flame” by which the faithful fall (11:33) is set beside the furnace of chapter 3'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/11?lang=eng'
-    quote: 'yet they shall fall by the sword, and by flame, by captivity, and by spoil, many days.'
-  - where: 'section “Those who fall”'
-    claim: 'Connection made by this page: “the flame of the fire” of the furnace (3:22) is set beside the flame of 11:33'
+  - where: 'opening'
+    claim: 'President Jones: the three were not basing their obedience upon being delivered; keeping covenants is independent of situation'
+    key: jones-sin-resistant
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2017/04/a-sin-resistant-generation?lang=eng'
+    quote: 'These three young men were not basing their obedience upon being delivered. Even if they were not delivered, they would keep their promise to the Lord because they said they would. Keeping our covenants is always independent of our situation.'
+  - where: 'opening'
+    claim: 'Connection made by this page: the three answer the king’s condition with his own “if not” (3:15, 18); the book keeps both halves of their sentence, rescue (3, 6) and no rescue (11:33–35), under one promise (12:1–3); the reading of the two endings as one argument, and the pairing of Alma 14 with it, are the page’s own'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/3?lang=eng'
-    quote: 'the flame of the fire slew those men that took up Shadrach, Meshach, and Abed-nego.'
-  - where: 'section “Those who fall”'
-    claim: 'Some of the faithful fall but are “holpen with a little help” (11:34)'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/11?lang=eng'
-    quote: 'Now when they shall fall, they shall be holpen with a little help'
-  - where: 'section “Those who fall”'
-    claim: 'Chapter 3 is Aramaic (shevivah, “flame,” 3:22, H7631) and 11:33 Hebrew (lehavah, “flame,” H3852)'
+    quote: 'But if not, be it known unto thee, O king, that we will not serve thy gods'
+
+  # ---------- He will deliver ----------
+  - where: 'section “He will deliver”'
+    claim: 'šêzib (H7804), Aramaic “deliver,” occurs nine times in seven verses, all in chapters 3 and 6: 3:15, 3:17 (twice), 3:28, 6:14, 6:16, 6:20, 6:27 (twice)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
-    quote: 'וּ/בְ/לֶהָבָ֛ה'
-  - where: 'section “Those who fall”'
-    claim: 'The Aramaic “flame” of 3:22 is a different word (H7631)'
+    quote: 'יְשֵׁיזִֽב'
+  - where: 'section “He will deliver”'
+    claim: '6:20 “is… able to deliver thee,” hăyĕkil (H3202) + lĕšêzābûtāk; 3:17 “is able,” yākil, the same verb'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
-    quote: 'שְׁבִיבָ֖/א'
-  - where: 'section “Delivered, and the dead awake”'
-    claim: 'The Hebrew verb in 12:1 is malat (H4422), not the Aramaic shezib of chapters 3 and 6'
+    quote: 'לְ/שֵׁיזָבוּתָ֖/ךְ'
+  - where: 'section “He will deliver”'
+    claim: '3:17 “is able,” yākil'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'יָכִ֗ל'
+
+  # ---------- They shall fall ----------
+  - where: 'section “They shall fall”'
+    claim: 'hammaśkîlîm (H7919) names the faithful at 11:33, 11:35, 12:3, 12:10; the root is “skilful” at 1:4'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'הַ/מַּשְׂכִּילִ֗ים'
+  - where: 'section “They shall fall”'
+    claim: 'The Cambridge Bible reads 11:33–35 of the martyrs under Antiochus (1 Macc. 1:60, 63; 2:31–38; 2 Macc. 6–7) and 3:18 of the Jews who died rather than eat what the king commanded (1 Macc. 1:62–63; 2 Macc. 6:18 ff.), citing the same chapters under both without joining them'
+    key: cambridge-daniel
+    url: 'https://biblehub.com/commentaries/cambridge/daniel/11.htm'
+    quote: '2Ma 6:18'
+  - where: 'section “They shall fall”'
+    claim: 'The Cambridge Bible on 3:18 compares the three men’s courage with that of the loyal Jews in the age of the Maccabees'
+    key: cambridge-daniel
+    url: 'https://biblehub.com/commentaries/cambridge/daniel/3.htm'
+    quote: 'the loyal Jews in the age of the Maccabees'
+  - where: 'section “They shall fall”'
+    claim: '12:1 “delivered” is Hebrew yimmālēṭ (H4422 mālaṭ), not Aramaic šêzib; 11:33 “flame” is lehābâ (H3852), not the Aramaic šĕbîbāʾ of 3:22; the link between the rescues and the falling is in the English'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
     quote: 'יִמָּלֵ֣ט'
-  - where: 'section “Delivered, and the dead awake”'
-    claim: 'Daniel is told he will rest and stand in his lot (12:13)'
+  - where: 'section “They shall fall”'
+    claim: '11:33 “flame,” lehābâ'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'וּ/בְ/לֶהָבָ֥ה'
+  - where: 'section “They shall fall”'
+    claim: 'Connection made by this page: the second ending (11:33–35) is told of the same kind of people as the rescues, the maśkîlîm, and the argument rests on the shape of the book, not on a shared word'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/11?lang=eng'
+    quote: 'yet they shall fall by the sword, and by flame, by captivity, and by spoil, many days.'
+
+  # ---------- Delivered, and awake ----------
+  - where: 'section “Delivered, and awake”'
+    claim: 'Keil reads 12:2 as the sequel required by 11:33–35: since many of the maśkîlîm lose their life, the promise of deliverance had to disclose the lot of those who sealed their fidelity with their blood'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/12.htm'
+    quote: 'a disclosure of the lot awaiting those who sealed with their blood their fidelity to God was not to be avoided'
+  - where: 'section “Delivered, and awake”'
+    claim: 'Keil reads 12:1–2 over both groups: a part of the people outlive the tribulation, those who lose their lives rise again from the dead'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/12.htm'
+    quote: 'a part of the people shall outlive the tribulation, but those who lose their lives in the persecution shall rise again from the dead.'
+  - where: 'section “Delivered, and awake”'
+    claim: 'Keil: many of the maśkîlîm who know their God (11:33) lose their life in the persecution'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/12.htm'
+    quote: 'lose their life in the persecution'
+  - where: 'section “Delivered, and awake”'
+    claim: 'The three roots of 11:35 (ṣārap H6884, bārar H1305, lābān H3835) return at 12:10 and each stands in Daniel only in those two verses; hammaśkîlîm also at 12:10'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'וְ/יִֽתְלַבְּנ֤וּ'
+  - where: 'section “Delivered, and awake”'
+    claim: '11:35 “make them white,” wĕlalbēn'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Dan.xml'
+    quote: 'וְ/לַ/לְבֵּ֖ן'
+  - where: 'section “Delivered, and awake”'
+    claim: 'The Church’s footnote at 11:35 “try” leads to Dan. 12:10, and at 12:10 “tried” back to 11:35'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/11?lang=eng'
+    quote: 'Dan. 12:10'
+  - where: 'section “Delivered, and awake”'
+    claim: 'Keil on 12:13: thou shalt rest, namely, in the grave, and rise again'
+    key: keil-daniel
+    url: 'https://biblehub.com/commentaries/kad/daniel/12.htm'
+    quote: 'thou shalt rest, namely, in the grave, and rise again'
+  - where: 'section “Delivered, and awake”'
+    claim: 'The Church’s edition gives “rise unto your destiny” as an alternative for “stand in thy lot” (12:13)'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/12?lang=eng'
-    quote: 'thou shalt rest, and stand in thy lot at the end of the days.'
-  - where: 'section “Delivered, and the dead awake”'
-    claim: 'Connection made by this page: the deliverance of 12:1–2 is set beside the “but if not” of 3:18 and the fall of 11:33–35; the sequence begins with rescue and ends with a promise of deliverance and, in the next verse, of the dead awaking'
+    quote: 'OR rise unto your destiny'
+  - where: 'section “Delivered, and awake”'
+    claim: 'The Church’s footnote at 12:2 “sleep” leads to John 5:28 (28–29); Morm. 9:13; D&C 43:18'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/12?lang=eng'
-    quote: 'at that time thy people shall be delivered, every one that shall be found written in the book.'
-  - where: 'section “Through Jesus Christ”'
-    claim: 'Heb. 11:33–34 lists faith that stopped the mouths of lions and quenched fire'
+    quote: 'John 5:28 (28–29)'
+  - where: 'section “Delivered, and awake”'
+    claim: 'Scripture Helps: the Lord showed Daniel the ultimate deliverance of God’s faithful people through Jesus Christ'
+    key: scripture-helps-dan
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/44-daniel-1-7?lang=eng'
+    quote: 'the ultimate deliverance of God’s faithful people through Jesus Christ'
+  - where: 'section “Delivered, and awake”'
+    claim: 'Connection made by this page: Keil’s join of 11:33–35 to 12:1–3 is his; that Daniel himself is given the second ending’s promise (12:13) and that the book thereby puts both endings under one promise is the page’s framing; Michael’s standing up is the setting of the promise'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
-    quote: 'Quenched the violence of fire, escaped the edge of the sword, out of weakness were made strong'
-  - where: 'section “Through Jesus Christ”'
-    claim: 'The Church footnote at Heb. 11:33 “lions” gives Dan. 6:22 and at 11:34 “fire” gives Dan. 3:27'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/12?lang=eng'
+    quote: 'for thou shalt rest, and stand in thy lot at the end of the days.'
+
+  # ---------- The same two endings elsewhere ----------
+  - where: 'section “The same two endings elsewhere”'
+    claim: 'The Church’s footnotes at Heb. 11:33 “lions” and 11:34 “fire” lead to Dan. 6:22 and Dan. 3:27'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
     quote: 'Dan. 6:22'
-  - where: 'section “Through Jesus Christ”'
-    claim: 'The Church footnote at Heb. 11:34 “fire” gives Dan. 3:27'
+  - where: 'section “The same two endings elsewhere”'
+    claim: 'The Church’s footnote at Heb. 11:34 leads to Dan. 3:27'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
-    quote: '“fire”: Dan. 3:27.'
-  - where: 'section “Through Jesus Christ”'
-    claim: 'The Church footnote at Heb. 11:35 gives the Joseph Smith Translation “the first resurrection”'
+    quote: 'Dan. 3:27'
+  - where: 'section “The same two endings elsewhere”'
+    claim: 'The Joseph Smith Translation at Heb. 11:35 gives “the first resurrection”'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
-    quote: 'JST Heb. 11:35 … the first resurrection;'
-  - where: 'section “Through Jesus Christ”'
-    claim: 'Heb. 11:35 reads “others were tortured, not accepting deliverance; that they might obtain a better resurrection”; the Church footnote gives the JST “the first resurrection”'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/11?lang=eng'
-    quote: 'Women received their dead raised to life again: and others were tortured, not accepting deliverance; that they might obtain a better resurrection:'
-  - where: 'section “Through Jesus Christ”'
-    claim: 'Elder Simmons: besides the glorious outcomes there were always the but if nots'
+    quote: 'the first resurrection'
+  - where: 'section “The same two endings elsewhere”'
+    claim: 'The Cambridge Bible on Heb. 11:35: the special reference may be to 2 Macc. 6–7, Eleazar the scribe and the seven brothers'
+    key: cambridge-hebrews
+    url: 'https://biblehub.com/commentaries/cambridge/hebrews/11.htm'
+    quote: 'the tortures of Eleazer the Scribe, and of the Seven Brothers'
+  - where: 'section “The same two endings elsewhere”'
+    claim: 'The Cambridge Bible on “a better resurrection”: an everlasting reawakening of life (2 Macc. 7:9)'
+    key: cambridge-hebrews
+    url: 'https://biblehub.com/commentaries/cambridge/hebrews/11.htm'
+    quote: 'an everlasting reawakening of life'
+  - where: 'section “The same two endings elsewhere”'
+    claim: 'Ellicott on Heb. 11:35: the record changes from the victories of faith in action to the triumph of faith over suffering'
+    key: ellicott-hebrews
+    url: 'https://biblehub.com/commentaries/ellicott/hebrews/11.htm'
+    quote: 'hitherto we have heard of the victories of faith in action, now it is of the triumph of faith over suffering that the writer speaks.'
+  - where: 'section “The same two endings elsewhere”'
+    claim: 'Ellicott: those who escaped the sword and those who were slain with it alike exemplified the power of faith'
+    key: ellicott-hebrews
+    url: 'https://biblehub.com/commentaries/ellicott/hebrews/11.htm'
+    quote: 'alike exemplified the power of faith.'
+  - where: 'section “The same two endings elsewhere”'
+    claim: 'Elder Simmons on Heb. 11: amid the glorious outcomes there were always the but if nots'
     key: simmons-but-if-not
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2004/04/but-if-not?lang=eng'
-    quote: 'But in the midst of all those glorious outcomes hoped for and expected by the participants, there were always the but if nots:'
-  - where: 'section “Through Jesus Christ”'
-    claim: 'Elder Simmons closes that we will in His time and in His way be delivered'
-    key: simmons-but-if-not
-    url: 'https://www.churchofjesuschrist.org/study/general-conference/2004/04/but-if-not?lang=eng'
-    quote: 'we will have faith in the Lord Jesus Christ, knowing that if we do all we can do, we will, in His time and in His way, be delivered and receive all that He has.'
-  - where: 'section “Through Jesus Christ”'
-    claim: 'Elder Wickman speaks to bereaved parents'
-    key: wickman-but-if-not
-    url: 'https://www.churchofjesuschrist.org/study/general-conference/2002/10/but-if-not?lang=eng'
-    quote: 'in particular to those bereaved, burdened, and grieving parents who beseechingly ask, “Why?”'
-  - where: 'section “Through Jesus Christ”'
-    claim: 'Elder Wickman says faith is a confidence in the Lord'
+    quote: 'there were always the but if nots'
+  - where: 'section “The same two endings elsewhere”'
+    claim: 'Come, Follow Me 2026 (Daniel 1–7) asks “What if your faith doesn’t lead to the miracles you seek?” and sends the reader to Alma 14:8–13 beside Dan. 3:13–18'
+    key: cfm-ot-2026-46
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/46?lang=eng'
+    quote: 'What if your faith doesn’t lead to the miracles you seek? (for an example, see Alma 14:8–13).'
+  - where: 'section “The same two endings elsewhere”'
+    claim: 'The seminary teacher resource manual asks whether the refusal to worship would have been worth the three men’s lives if the Lord had not saved them, citing Alma 14:8–11 and 60:13 (the Church’s manual joins Alma 60:13 to Daniel 3)'
+    key: ot-seminary-daniel
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-resource-manual/the-book-of-daniel/daniel-1-12?lang=eng'
+    quote: 'have been worth the three men’s lives if the Lord had not saved them from the flames'
+  - where: 'section “The same two endings elsewhere”'
+    claim: 'The Book of Mormon Student Manual on Alma 14:7–11: the Lord did not permit Alma to deliver the believers'
+    key: bom-student-manual-26
+    url: 'https://www.churchofjesuschrist.org/study/manual/book-of-mormon-student-manual/chapter-26-alma-13-16?lang=eng'
+    quote: 'The Lord did not permit him to do so, however (see Alma 14:11).'
+  - where: 'section “The same two endings elsewhere”'
+    claim: 'KnoWhy #351: in each of these Book of Mormon stories (Abinadi, the Anti-Nephi-Lehies, Ammonihah) salvation is stated or implied for those who willingly suffered martyrdom'
+    key: sc-knowhy-351
+    url: 'https://scripturecentral.org/knowhy/why-does-god-sometimes-allow-his-saints-to-be-martyred'
+    quote: 'it is stated or implied that Salvation would be given to those who willingly suffered martyrdom for their beliefs'
+  - where: 'section “The same two endings elsewhere”'
+    claim: 'Connection made by this page: Hebrews 11:33–35 sets the lions and fire (footnoted to Daniel 6 and 3) beside martyrs who refused deliverance for a better resurrection, and Ellicott and Simmons hold both as one faith; reading that as the pattern of Daniel 3, 6 and 11–12 is the page’s own; Alma 14 holds the two endings in one chapter (the Church pairs Dan. 3 with Alma 14:8–13 and 60:13; the pairing of the prison rescue 14:26–28 with the fire as Daniel’s pattern, over many days, is the page’s own)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/14?lang=eng'
+    quote: 'The Spirit constraineth me that I must not stretch forth mine hand; for behold the Lord receiveth them up unto himself, in glory'
+
+  # ---------- Faith in the Lord Jesus Christ ----------
+  - where: 'section “Faith in the Lord Jesus Christ”'
+    claim: 'Scripture Helps, summing up Daniel 1–7: the Lord showed Daniel a series of visions about the ultimate deliverance of God’s faithful people through Jesus Christ'
+    key: scripture-helps-dan
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/44-daniel-1-7?lang=eng'
+    quote: 'the ultimate deliverance of God’s faithful people through Jesus Christ.'
+  - where: 'section “Faith in the Lord Jesus Christ”'
+    claim: 'McClellan: the three leaned for repose on Jesus, not on outcomes'
+    key: mcclellan-thy-troubles
+    url: 'https://rsc.byu.edu/vol-20-no-1-2019/thy-troubles-bless'
+    quote: 'leaned for repose on Jesus, not on outcomes'
+  - where: 'section “Faith in the Lord Jesus Christ”'
+    claim: 'Elder Wickman, to grieving parents: faith is a confidence in the Lord'
     key: wickman-but-if-not
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2002/10/but-if-not?lang=eng'
     quote: 'Faith is, quite simply, a confidence in the Lord.'
-  - where: 'section “Through Jesus Christ”'
-    claim: 'The Church footnote at Dan. 12:2 gives John 5:28 (28–29) and Morm. 9:13; Morm. 9:13 says the death of Christ brings to pass the resurrection'
+  - where: 'section “Faith in the Lord Jesus Christ”'
+    claim: 'The Bible Dictionary “Daniel, book of”: a testimony of mankind’s resurrection is given in Dan. 12'
+    key: bd-daniel-book
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/daniel-book-of?lang=eng'
+    quote: 'A testimony of mankind’s resurrection is given in Dan. 12.'
+  - where: 'section “Faith in the Lord Jesus Christ”'
+    claim: 'The Old Testament Student Manual (28-53) quotes President Kimball: the promises of eternal life supersede all promises of men to greatness, comfort, immunities; the men were saying, We do not have to live, but we must be true to ourselves and God'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'The promises of eternal life from God supersede all promises of men to greatness, comfort, immunities.'
+  - where: 'section “Faith in the Lord Jesus Christ”'
+    claim: 'Kimball: We do not have to live, but we must be true to ourselves and God'
+    key: ot-manual-28
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-28?lang=eng'
+    quote: 'We do not have to live, but we must be true to ourselves and God'
+  - where: 'section “Faith in the Lord Jesus Christ”'
+    claim: 'Connection made by this page: both endings are the Lord’s; Alma 14:26 is Alma’s prayer for his own release, and reading the believers’ end (14:11) as the same deliverance in its other form is the page’s; that the testimony of 12:2 lets “but if not” be faith rather than resignation is the page’s reading, tied to Kimball’s sentence; Alma 60:13 is joined to Daniel 3 by the seminary manual'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/morm/9?lang=eng'
-    quote: 'the death of Christ bringeth to pass the resurrection, which bringeth to pass a redemption from an endless sleep'
-  - where: 'section “Through Jesus Christ”'
-    claim: 'The Church footnote 2a at Dan. 12:2 joins it to John 5:28 (28–29), Morm. 9:13 and D&C 43:18'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/dan/12?lang=eng'
-    quote: 'John 5:28 (28–29); Morm. 9:13 (13–14); D&C 43:18.'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/60?lang=eng'
+    quote: 'ye need not suppose that the righteous are lost because they are slain; but behold, they do enter into the rest of the Lord their God.'
