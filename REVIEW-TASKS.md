@@ -18,10 +18,10 @@ One line per page, no prose; the reasons are in `REVIEW.md` and in git. A sessio
 | daniel / secrets-revealed | done | the revealer of secrets is always God (gālēʾ rāzîn, 2:28, 29, 47), never Daniel, who “makes known” (hôdaʿ); the interpreter becomes the one made to understand (7:16; 8:16) and ends not understanding and sealing (12:4, 8–9); “the wise” who will understand (12:10) is Daniel’s own title from 1:4; Rev. 1:1 (JST: given of Jesus Christ) and the Lamb who opens the sealed book (Rev. 5; D&C 77:6, a different book, marked comparison); 9:24’s Messiah “seals up” vision in the sense of making it sure |
 | deuteronomy / speak-not-in-thine-heart | done | the heart says five sentences (7:17; 8:17; 9:4; 18:21; 29:19) and only “my righteousness” (9:4) is forbidden outright; Paul’s “Say not in thine heart” (Rom. 10:6) is the Septuagint’s wording of 8:17 and 9:4, and the heart forbidden to claim righteousness “believeth unto righteousness” (10:10); essay under §8, 2026-10-27 |
 | hosea / out-of-egypt | done | the thirteen Egypt verses ask whether the Exodus can be undone; “return to Egypt” (8:13; 9:3) is refused in 11:5 (Keil) and the Exodus done again in 11:11 with 11:1’s “out of Egypt”; Matthew quotes the Hebrew’s “my son,” not the Septuagint’s “his children”; essay under §8, 2026-10-27 |
-| lamentations / (one essay, name when written) | todo | asks three things, answered from outside the book |
-| lamentations / hand-and-heart | merged → the essay | |
-| lamentations / look-upon-us | merged → the essay | |
-| lamentations / none-to-comfort | merged → the essay | |
+| lamentations / asked-of-the-lord | done | “Three Things Asked of the Lord”: the poems ask to be seen (1:9; 2:20; 5:1), for a comforter (“none to comfort,” 1:2–21; 2:13) and to be remembered and turned (5:20–21), and record no reply; each is answered elsewhere in the Lord’s voice and the book’s own Hebrew (Ex. 3:7; Isa. 51:12; Isa. 49:15; Jer. 31:18–20; D&C 101:7–9 by the footnote at 1:2), and 3:32–33 glimpses it; essay under §8, 2026-10-27 |
+| lamentations / hand-and-heart | merged → the essay | asked-of-the-lord, 2026-10-27 |
+| lamentations / look-upon-us | merged → the essay | asked-of-the-lord, 2026-10-27 |
+| lamentations / none-to-comfort | merged → the essay | asked-of-the-lord, 2026-10-27 |
 
 ## B. Shorter pages at the new pace
 
