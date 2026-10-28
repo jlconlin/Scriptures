@@ -2,6 +2,10 @@
 
 Not planned work; nothing here should be started without the author.
 
+## A book or volume check for drift
+
+(Author, 2026-10-26: “At some point in the future, we should do a book or volume check to ensure we are not getting to afar off.”) Read a book or volume as a whole to check that the commentary still serves the site's purpose and stays aligned with scripture, Latter-day Saint doctrine, and the author's standards. This is broader than the note-by-note prose review: individually sound notes may still accumulate into an unbalanced or distracting treatment. The scope, timing, and method remain to be agreed when the author takes it up; no check or recurring schedule is authorized yet.
+
 ## An MCP server for the content corpus
 
 So readers can load the commentary into their own AI conversations. Suggested plan:

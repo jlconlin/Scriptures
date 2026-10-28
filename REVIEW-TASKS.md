@@ -127,6 +127,8 @@ One line per page, no prose; the reasons are in `REVIEW.md` and in git. A sessio
 
 | Task | State |
 |---|---|
-| Codex: score every chapter note (`REVIEW-codex-scoring.md`) | author runs it in Codex |
-| Chapter notes: rewrite the flagged notes, a volume at a time | after the count; successor project |
+| Codex: score every chapter note | complete 2026-10-27: 677 chapters, 6,515 notes; reports in `.cache/review/calibrated/`. Blind sample retained only 1 of 8 revision flags; 289 flags are candidates, not a dependable revision count. |
+| Codex: adjudicate the 289 revision candidates | complete 2026-10-27: calibrated Sol High retained 33 revision recommendations (32 chapters), with 225 Keep, 31 Polish and no unresolved author choices; fresh 16-note audit found no new flags. Focused list: `.cache/review/second-pass/REVISION-LIST.md`; original ratings preserved. |
+| Codex: adjudicate the seven remaining setting/thread flags | complete 2026-10-27: retain the Isaiah 21 and Numbers 20 threads for revision; five sections Keep, no unresolved author choice. Findings: `.cache/review/section-pass/RESULTS.md`. Section counts remain separate from note counts. |
+| Chapter prose: repair the refined list, a volume at a time | successor project: 33 notes plus two threads, within the volume the author chooses; use the specific repair diagnoses and verify any added source claims; no site-wide rewrite authorized. Overview: `.cache/review/REFINED-REVIEW.md`. |
 | One batch of chapters under the new writer's instruction, read against the spot check | before the next book |
