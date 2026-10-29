@@ -1,127 +1,654 @@
 page: who-can-ransom
 claims:
-  - where: 'section “A grave where no one praises”'
-    claim: 'Sheol is the Hebrew name for the abode of departed spirits, rendered “grave,” “pit,” “hell”'
-    key: bd-sheol
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sheol?lang=eng'
-    quote: 'The Hebrew name for the abode of departed spirits (corresponding to the Greek Hades), translated in the KJV “grave,” “pit,” and “hell,” depending on the context'
-  - where: 'section “A grave where no one praises”'
-    claim: '“Grave” in Psalm 6:5 and 30:3 is Sheol (H7585)'
+  # ---------- opening ----------
+  - where: 'opening'
+    claim: 'Ps. 49:6 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng'
+    quote: 'They that trust in their wealth, and boast themselves in the multitude of their riches;'
+  - where: 'opening'
+    claim: 'Ps. 49:7–9 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng'
+    quote: 'None of them can by any means redeem his brother, nor give to God a ransom for him:'
+  - where: 'opening'
+    claim: 'Ps. 49:8 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng'
+    quote: '(For the redemption of their soul is precious, and it ceaseth for ever:)'
+  - where: 'opening'
+    claim: 'Ps. 49:9 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng'
+    quote: 'That he should still live for ever, and not see corruption.'
+  - where: 'opening'
+    claim: 'Ps. 49:15 as quoted (also the table)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng'
+    quote: 'But God will redeem my soul from the power of the grave: for he shall receive me.'
+  - where: 'opening'
+    claim: 'The language of Ps. 49:7–8 is borrowed from the law of Ex. 21:30, the ransom of a life forfeited through a goring ox'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/49.htm'
+    quote: 'The language of this verse and the next is borrowed from the ancient law in Exodus 21:30'
+  - where: 'opening'
+    claim: 'Keil and Delitzsch explain the ransom of Ps. 49:7 by Ex. 21:30'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/49.htm'
+    quote: 'Exodus 21:30 and frequently) can be given to God'
+  - where: 'opening'
+    claim: 'pādâ: redemption for an assessed price, the law of the firstborn (Ex. 13:13, 15; 34:20; Num. 18:15–17)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6299.htm'
+    quote: '1 for an assessed price Exodus 13:13,15; Exodus 34:20 (J), Leviticus 27:27; Numbers 3:46,48,49,51; Numbers 18:15,16,17 (P).'
+  - where: 'opening'
+    claim: 'kōper at Ex. 30:12: the half shekel paid by each male counted at the census, to the LORD'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3724.htm'
+    quote: 'is a half shekel of the sanctuary paid by each male above twenty years at the census in order that there might be no plague upon them. It was offered to Yahweh'
+  - where: 'opening'
+    claim: 'Ex. 30:12 as quoted (“for his soul unto the LORD”)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/30?lang=eng'
+    quote: 'then shall they give every man a ransom for his soul unto the Lord'
+  - where: 'opening'
+    claim: 'The Church’s chapter heading of Psalm 49 sets man’s inability against God’s redemption'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng'
+    quote: 'Men cannot be ransomed or redeemed by wealth—God alone can redeem a soul from the grave'
+  - where: 'opening'
+    claim: '1 Pet. 1:18–19 as quoted (also the table)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/1?lang=eng'
+    quote: 'But with the precious blood of Christ, as of a lamb without blemish and without spot:'
+  - where: 'opening'
+    claim: 'Table: Ps. 6:5 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/6?lang=eng'
+    quote: 'in the grave who shall give thee thanks?'
+  - where: 'opening'
+    claim: 'Table: Ps. 49:14 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng'
+    quote: 'Like sheep they are laid in the grave; death shall feed on them'
+  - where: 'opening'
+    claim: 'Table: Ps. 16:10 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/16?lang=eng'
+    quote: 'For thou wilt not leave my soul in hell'
+  - where: 'opening'
+    claim: 'Table: Acts 2:31 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/2?lang=eng'
+    quote: 'that his soul was not left in hell, neither his flesh did see corruption.'
+  - where: 'opening'
+    claim: 'Curtis: the price having been paid by our Redeemer'
+    key: curtis-redemption
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2011/10/redemption?lang=eng'
+    quote: 'the price having been paid by our Redeemer'
+  # ---------- section “In the grave who shall give thee thanks?” ----------
+  - where: 'section “In the grave who shall give thee thanks?”'
+    claim: 'Ps. 6:5 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/6?lang=eng'
+    quote: 'For in death there is no remembrance of thee: in the grave who shall give thee thanks?'
+  - where: 'section “In the grave who shall give thee thanks?”'
+    claim: 'Ps. 115:17 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/115?lang=eng'
+    quote: 'The dead praise not the Lord, neither any that go down into silence.'
+  - where: 'section “In the grave who shall give thee thanks?”'
+    claim: '“The grave” in Ps. 6:5 is sheol (H7585)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'בִּ֝/שְׁא֗וֹל'
-  - where: 'section “The price no one can pay”'
-    claim: '“Corruption” in 49:9 is the Hebrew word shachath (H7845), as in 16:10'
+  - where: 'section “In the grave who shall give thee thanks?”'
+    claim: 'Sheol is the Hebrew name for the abode of departed spirits'
+    key: bd-sheol
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/sheol?lang=eng'
+    quote: 'The Hebrew name for the abode of departed spirits'
+  - where: 'section “In the grave who shall give thee thanks?”'
+    claim: 'Sheol is where all people go after death and was viewed as inescapable'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'This refers to the place where all people go after death, regardless of their moral character. It is also sometimes translated as “grave” or “pit.” Sheol was generally viewed as inescapable.'
+  - where: 'section “In the grave who shall give thee thanks?”'
+    claim: 'Ps. 30:3 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/30?lang=eng'
+    quote: 'thou hast kept me alive, that I should not go down to the pit.'
+  - where: 'section “In the grave who shall give thee thanks?”'
+    claim: 'Ps. 89:48 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/89?lang=eng'
+    quote: 'What man is he that liveth, and shall not see death? shall he deliver his soul from the hand of the grave?'
+  - where: 'section “In the grave who shall give thee thanks?”'
+    claim: 'The Church’s footnote 49:9a (“live”) sends to Ps. 89:48 (footnotes.mjs psalms 49)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng'
+    quote: 'That he should still live for ever, and not see corruption.'
+  - where: 'section “In the grave who shall give thee thanks?”'
+    claim: '“The power of the grave” in Ps. 49:15 is miyyad šĕʾôl, “from the hand of Sheol”, the phrase of Ps. 89:48 (hebrew.mjs psalms 49:15; 89:48)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'הַ/שָּֽׁחַת'
-  - where: 'section “The price no one can pay”'
-    claim: '“Corruption” in 16:10 is the same word (H7845)'
+    quote: 'מִֽ/יַּד'
+  - where: 'section “In the grave who shall give thee thanks?”'
+    claim: 'Ps. 89:48 miyyad šĕʾôl'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'שָֽׁחַת'
-  - where: 'section “Two shepherds”'
-    claim: '“Feed” in 49:14 is the verb ra‘ah (H7462)'
+    quote: 'מִ/יַּד'
+  # ---------- section “Nor give to God a ransom for him” ----------
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'The rich make a god of their wealth, which cannot deliver from death'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/49.htm'
+    quote: 'These men make a god of their wealth. They trust in it and glory in it, as the godly man trusts in Jehovah and glories in Him (Psalm 32:10; Psalm 34:2). But how powerless it is! It cannot deliver anyone from death.'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'Ex. 21:30: an owner whose ox was known to gore forfeited his life and might pay a ransom instead'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/49.htm'
+    quote: 'If a man’s neglect to keep a dangerous ox under proper control had been the cause of another man’s death, his life was forfeit. But he might redeem his life by paying a ransom'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'Ex. 21:30 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/21?lang=eng'
+    quote: 'If there be laid on him a sum of money, then he shall give for the ransom of his life whatsoever is laid upon him.'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'kōper is “the price of a life, ransom”; at Ex. 21:30 it stands parallel to pidyôn napšô'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3724.htm'
+    quote: 'noun masculine the price of a life, ransom (ποινή, wergild)'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'Ex. 21:30 has kōper and pidyôn (H6306b) napšô'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'פִּדְיֹ֣ן'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'Ps. 49:8 has pidyôn napšām, “the redemption of their soul” (hebrew.mjs psalms 49:8)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פִּדְי֥וֹן'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'The psalm’s language is borrowed from Ex. 21:30, where ransom and redemption of life occur together'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/49.htm'
+    quote: 'The language of this verse and the next is borrowed from the ancient law in Exodus 21:30, where the words ransom and redemption of life (or soul) occur together'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'kōper (H3724) stands once in Psalms, at 49:7 (occurrences.mjs psalms --hebrew 3724: 1 occurrence in 1 verse)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'כָּפְרֽ/וֹ'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'pādâ: first sense, redemption for an assessed price, with the law of the firstborn'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6299.htm'
+    quote: '1 for an assessed price Exodus 13:13,15; Exodus 34:20 (J), Leviticus 27:27; Numbers 3:46,48,49,51; Numbers 18:15,16,17 (P).'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'Ex. 13:2 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/13?lang=eng'
+    quote: 'both of man and of beast: it is mine.'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'Ex. 13:13 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/13?lang=eng'
+    quote: 'and all the firstborn of man among thy children shalt thou redeem.'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'Ex. 34:20 repeats the law of redeeming the firstborn'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/34?lang=eng'
+    quote: 'All the firstborn of thy sons thou shalt redeem.'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'Num. 18:16 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/18?lang=eng'
+    quote: 'for the money of five shekels, after the shekel of the sanctuary, which is twenty gerahs.'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'Ex. 30:12 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/30?lang=eng'
+    quote: 'When thou takest the sum of the children of Israel after their number, then shall they give every man a ransom for his soul unto the Lord, when thou numberest them; that there be no plague among them'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'The census ransom of Ex. 30:12 was half a shekel paid by each male counted'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3724.htm'
+    quote: 'is a half shekel of the sanctuary paid by each male above twenty years at the census in order that there might be no plague upon them.'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'Ex. 30:15 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/30?lang=eng'
+    quote: 'The rich shall not give more, and the poor shall not give less than half a shekel'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'Num. 35:31: the law takes no ransom for a murderer’s life (the clause linking to Between the Dead and the Living)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/35?lang=eng'
+    quote: 'Moreover ye shall take no satisfaction for the life of a murderer'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'The lexicon lists the Qal infinitive absolute of pādâ at Num. 18:15 and Ps. 49:8 (KJV 49:7) only'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6299.htm'
+    quote: 'Infinitive absolute מָּדֹה Numbers 18:15; Psalm 49:8'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'Ps. 49:7 pādōh yipdeh: infinitive absolute (HVqa) with the imperfect (hebrew.mjs psalms 49:7)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'פָדֹ֣ה'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'Num. 18:15 pādōh tipdeh, “shalt thou surely redeem”: infinitive absolute (HVqa) with the imperfect (hebrew.mjs numbers 18:15)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'פָּדֹ֣ה'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'Num. 18:15 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/18?lang=eng'
+    quote: 'nevertheless the firstborn of man shalt thou surely redeem'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'Ex. 30:12 has nātan “give” (וְ/נָ֨תְנ֜וּ), ʾîš “man” (אִ֣ישׁ) and kōper (כֹּ֧פֶר) to the LORD (hebrew.mjs exodus 30:12)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'כֹּ֧פֶר'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'Ps. 49:7 has ʾîš “man” (אִ֑ישׁ), nātan “give” (יִתֵּ֖ן) and kōper (כָּפְרֽ/וֹ) to God (hebrew.mjs psalms 49:7)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יִתֵּ֖ן'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'Connection made by this page: Ps. 49:7 stands in two of the places where the law set a fixed price on Israelite lives, the redemption of the firstborn and the census ransom. Its “by any means redeem” (pādōh yipdeh) is the Qal infinitive with the imperfect, as in the firstborn law (pādōh tipdeh, Num. 18:15), and its “give to God a ransom” has the verb, the “man” and the kōper of Ex. 30:12, given in both to God. So the psalm turns the law’s small, payable prices into a price no man can pay against death. Cambridge and Keil and Delitzsch make the link to Ex. 21:30; none of the commentaries read on 49:7–8 names Ex. 30:12 or the firstborn law, and BDB files 49:7’s kōper with Ex. 21:30, not with the census ransom'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/30?lang=eng'
+    quote: 'then shall they give every man a ransom for his soul unto the Lord'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'ESV renders Ps. 49:8 “the ransom of their life is costly and can never suffice”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+49%3A7-15&version=ESV'
+    quote: 'for (D)the ransom of their life is costly and can never suffice'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'šaḥat in Ps. 49:9 (BDB’s 49:10) is the “pit of Sheol”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7845.htm'
+    quote: 'Psalm 16:10 ("" שִׁאוֺל), Psalm 49:10'
+  - where: 'section “Nor give to God a ransom for him”'
+    claim: 'At Ex. 21:30 the ransom was paid to the relatives of the dead man'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/49.htm'
+    quote: 'his life by paying a ransom to the relatives of the deceased person'
+  # ---------- section “Death shall feed on them” ----------
+  - where: 'section “Death shall feed on them”'
+    claim: 'Ps. 49:12 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng'
+    quote: 'Nevertheless man being in honour abideth not: he is like the beasts that perish.'
+  - where: 'section “Death shall feed on them”'
+    claim: 'Ps. 49:14 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng'
+    quote: 'Like sheep they are laid in the grave; death shall feed on them'
+  - where: 'section “Death shall feed on them”'
+    claim: 'rāʿâ I: pasture, tend; Ps. 49:15 (KJV 49:14) under its metaphorical use'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7462.htm'
+    quote: 'metaphor גֹּרֶן וָיֶקֶב לֹא יִרְעֵם Hosea 9:2, but read יֵדָעֵם ᵐ5 We Now GASm; מָוֶת יִרְעֵם Psalm 49:15.'
+  - where: 'section “Death shall feed on them”'
+    claim: 'Ps. 49:14 yirʿēm and 23:1 rōʿî are the same lemma, H7462b (hebrew.mjs psalms 49:14; 23:1)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'יִ֫רְעֵ֥/ם'
-  - where: 'section “Two shepherds”'
-    claim: '“My shepherd” in 23:1 is a form of the same verb (H7462)'
+  - where: 'section “Death shall feed on them”'
+    claim: 'Ps. 23:1 rōʿî “my shepherd”'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'רֹ֝עִ֗'
-  - where: 'section “Two shepherds”'
-    claim: 'One older reading contrasts Death with the good Shepherd of Psalm 23'
+    quote: 'רֹ֝עִ֗/י'
+  - where: 'section “Death shall feed on them”'
+    claim: 'ESV: “death shall be their shepherd”'
+    key: esv
+    url: 'https://www.biblegateway.com/passage/?search=Psalm+49%3A7-15&version=ESV'
+    quote: 'Like sheep they are appointed for Sheol; death shall be their shepherd'
+  - where: 'section “Death shall feed on them”'
+    claim: 'Sheol is their fold; Keil and Delitzsch set Death the shepherd against the good Shepherd of Ps. 23:1'
     key: delitzsch-psalms
     url: 'https://biblehub.com/commentaries/kad/psalms/49.htm'
-    quote: 'Not the good Shepherd (Psalm 23:1), whose pasture is the land of the living, but Death, into whose power they have fallen irrecoverably, shall pasture them.'
-  - where: 'section “Two shepherds”'
-    claim: 'Connection made by this page: Psalm 49:14 (death feeds the sheep) set beside Psalm 23:4 (the sheep of the LORD fear no evil in death’s shadow), on the shepherd verb shared with 23:1'
+    quote: 'so that they are shut up in it like sheep in their fold'
+  - where: 'section “Death shall feed on them”'
+    claim: 'Keil and Delitzsch: not the good Shepherd of Ps. 23:1, whose pasture is the land of the living'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/49.htm'
+    quote: 'Not the good Shepherd (Psalm 23:1), whose pasture is the land of the living, but Death'
+  - where: 'section “Death shall feed on them”'
+    claim: 'Ps. 49:20 as quoted'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/23?lang=eng'
-    quote: 'Yea, though I walk through the valley of the shadow of death, I will fear no evil: for thou art with me'
-  - where: 'section “Two shepherds”'
-    claim: 'The “valley of the shadow of death” can mean darkness or gloom, representing times of distress or danger'
-    key: scripture-helps-ps-1
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
-    quote: 'The Hebrew word translated as “shadow of death” can also mean “darkness” or “gloom.” The “valley of the shadow of death” represents times of distress or danger.'
-  - where: 'section “But God”'
-    claim: '“Redeem” in 49:15 is the verb of 49:7 (H6299)'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng'
+    quote: 'Man that is in honour, and understandeth not, is like the beasts that perish.'
+  - where: 'section “Death shall feed on them”'
+    claim: 'Keil and Delitzsch on the second refrain: the prospect belongs to the worldly rich man'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/49.htm'
+    quote: 'The gloomy prospect of the future does not belong to the rich man as such, but to the worldly and carnally minded rich man.'
+  - where: 'section “Death shall feed on them”'
+    claim: 'Ps. 49:6 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng'
+    quote: 'They that trust in their wealth'
+  # ---------- section “But God will redeem my soul” ----------
+  - where: 'section “But God will redeem my soul”'
+    claim: 'Ps. 49:15 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng'
+    quote: 'But God will redeem my soul from the power of the grave: for he shall receive me.'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'Ps. 49:15 yipdeh with ʾĕlōhîm as subject, the same Qal imperfect 3ms as yipdeh ʾîš in 49:7 (hebrew.mjs psalms 49:7; 49:15)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'יִפְדֶּ֣ה'
-  - where: 'section “But God”'
-    claim: '“Receive” in 49:15 is laqach (H3947)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'יִקָּחֵ֣/נִי'
-  - where: 'section “But God”'
-    claim: '“Receive” in 73:24 is the same verb (H3947)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'תִּקָּחֵֽ/נִי'
-  - where: 'section “But God”'
-    claim: 'Hosea 13:14 has the verb “ransom” (H6299) beside “from the hand of Sheol”'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
-    quote: 'אֶפְדֵּ֔/ם'
-  - where: 'section “But God”'
-    claim: 'Hosea 13:14 text'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
-    quote: 'I will ransom them from the power of the grave; I will redeem them from death'
-  - where: 'section “The one who was not left, and the ransom”'
-    claim: 'Peter on David and Psalm 16'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/2?lang=eng'
-    quote: 'he seeing this before spake of the resurrection of Christ, that his soul was not left in hell, neither his flesh did see corruption.'
-  - where: 'section “The one who was not left, and the ransom”'
-    claim: 'Connection made by this page: Psalm 49:7 (“give to God a ransom”) set beside Matthew 20:28 (“a ransom for many”), on the shared English word'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/20?lang=eng'
-    quote: 'Even as the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many.'
-  - where: 'section “The one who was not left, and the ransom”'
-    claim: 'To redeem is to deliver, purchase or ransom; the Atonement redeems all from physical death'
-    key: gs-redeem
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/redeem-redeemed-redemption?lang=eng'
-    quote: 'To deliver, to purchase, or to ransom, such as to free a person from bondage by payment.'
-  - where: 'section “The one who was not left, and the ransom”'
-    claim: 'The Atonement redeems all mankind from physical death'
-    key: gs-redeem
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/redeem-redeemed-redemption?lang=eng'
-    quote: 'Jesus’ Atonement redeems all mankind from physical death.'
-  - where: 'section “The one who was not left, and the ransom”'
-    claim: 'Curtis reads Psalm 49:15 as the Atonement, not bought by corruptible things'
-    key: curtis-redemption
-    url: 'https://www.churchofjesuschrist.org/study/general-conference/2011/10/redemption?lang=eng'
-    quote: 'this redemption does not come by “corruptible things, as silver and gold” (1 Peter 1:18)'
-  - where: 'section “The one who was not left, and the ransom”'
-    claim: 'Connection made by this page: Psalm 49:14 (death shepherds the sheep) set beside Hebrews 13:20 (“that great shepherd of the sheep”)'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/13?lang=eng'
-    quote: 'that brought again from the dead our Lord Jesus, that great shepherd of the sheep'
-  - where: 'section “The one who was not left, and the ransom”'
-    claim: 'D&C 128:22 calls on the dead to praise the King Immanuel'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/128?lang=eng'
-    quote: 'Let the dead speak forth anthems of eternal praise to the King Immanuel'
-  - where: 'section “The one who was not left, and the ransom”'
-    claim: 'Connection made by this page: Psalm 115:17 (“The dead praise not the LORD”) set beside D&C 138:23 (the dead acknowledge the Son of God as Redeemer)'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/138?lang=eng'
-    quote: 'acknowledged the Son of God as their Redeemer and Deliverer from death and the chains of hell'
-  - where: 'section “The one who was not left, and the ransom”'
-    claim: 'The Church’s footnote on “dead” in Psalm 115:17 points to D&C 128:22'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/115?lang=eng'
-    quote: 'D&C 128:22.'
-  - where: 'section “The one who was not left, and the ransom”'
-    claim: 'Curtis quotes Psalm 49:15 and says its redemption is the Atonement'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'BDB files Ps. 49:8 (KJV 49:7) under redemption from violence and death'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6299.htm'
+    quote: '2 from violence and death 1 Samuel 14:45; Job 6:23; Psalm 49:8.'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'BDB: sense 3, God subject, with the underlying thought of payment'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6299.htm'
+    quote: '3 God subject (underlying thought of payment):'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'BDB lists Ps. 49:16 (KJV 49:15) and Hos. 13:14, “from the hand of Sheol”, under God subject'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6299.htm'
+    quote: 'מיד שׁאול Psalm 49:16; Hosea 13:14'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'Cambridge: 49:15 corresponds to 49:7–8; wealth cannot avert death, God will deliver'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/49.htm'
+    quote: 'The verse corresponds to Psalm 49:7-8. While wealth is powerless to avert death, God can and will deliver His servant.'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'Pulpit: the souls of the righteous redeemed not by themselves but by God'
+    key: pulpit-psalms
+    url: 'https://biblehub.com/commentaries/pulpit/psalms/49.htm'
+    quote: 'The souls of the righteous will be redeemed, not by themselves, but by God'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'Come, Follow Me 2026 heads its section on Psalm 49 “Redemption comes only through Jesus Christ”'
+    key: cfm-ot-2026-35
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/35?lang=eng'
+    quote: 'Redemption comes only through Jesus Christ'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'Keil and Delitzsch: a “bold flight” of faith'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/49.htm'
+    quote: 'is for the present only a "bold flight" of faith'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'Cambridge: deliverance from premature and penal death, not resurrection'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/49.htm'
+    quote: 'the Psalmist looks with confidence for deliverance from the premature and penal death of the wicked, but does not anticipate escape from death or express his belief in a resurrection'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'Cambridge: yet the words contain the germ of the doctrine of the Resurrection'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/49.htm'
+    quote: 'his words contain the germ and principle of the doctrine of the Resurrection'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'Ellicott: a dim foreshadowing of a better hope'
+    key: ellicott-psalms
+    url: 'https://biblehub.com/commentaries/ellicott/psalms/49.htm'
+    quote: 'we must see here the dim foreshadowing of a better hope'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'Pulpit: immortality not a revealed doctrine here but a presentiment'
+    key: pulpit-psalms
+    url: 'https://biblehub.com/commentaries/pulpit/psalms/49.htm'
+    quote: 'not here stated as a revealed doctrine, but as a presentiment'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'Curtis quotes Ps. 49:15 and teaches that the redemption it speaks of is the Atonement of Jesus Christ'
     key: curtis-redemption
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2011/10/redemption?lang=eng'
     quote: 'The redemption referred to in these three scriptures, of course, is the Atonement of Jesus Christ.'
-  - where: 'section “The one who was not left, and the ransom”'
-    claim: '“Corruption” in Acts 2:31 renders the word of Psalm 16:10, which Psalm 49:9 also has (H7845)'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'Curtis quotes Ps. 49:15 as one of the three scriptures'
+    key: curtis-redemption
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2011/10/redemption?lang=eng'
+    quote: 'The Psalmist wrote, “But God will redeem my soul from the power of the grave” (Psalm 49:15).'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'Footnote 49:15b “receive”: TG Eternal Life; footnote 49:15a “redeem” sends to Hosea 13:14 (footnotes.mjs psalms 49)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng'
+    quote: 'But God will redeem my soul from the power of the grave: for he shall receive me.'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'Hos. 13:14 as quoted; footnote 14a “ransom” sends to Ps. 49:15'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
+    quote: 'I will ransom them from the power of the grave; I will redeem them from death'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'Hos. 13:14 has pādâ (ʾepdēm) and miyyad šĕʾôl (hebrew.mjs hosea 13:14)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אֶפְדֵּ֔/ם'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'Ps. 16:10 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/16?lang=eng'
+    quote: 'For thou wilt not leave my soul in hell; neither wilt thou suffer thine Holy One to see corruption.'
+  - where: 'section “But God will redeem my soul”'
+    claim: '“Corruption” in Ps. 16:10 and 49:9 is the same noun šaḥat (H7845) (hebrew.mjs psalms 16:10; 49:9)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָֽׁחַת'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'Ps. 49:9 haššaḥat'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'הַ/שָּֽׁחַת'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'BDB lists Ps. 16:10 and 49:10 (KJV 49:9) together under “pit of Sheol”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7845.htm'
+    quote: 'Psalm 16:10 ("" שִׁאוֺל), Psalm 49:10'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'Connection made by this page: Ps. 49:9 and 16:10 meet at the pit (šaḥat in both Hebrew verses). Psalm 49:9 names what no man’s ransom can buy, not to “see corruption,” and 16:10 says God will not let His Holy One see it; neither says how. The Greek words are related, not identical (49:9 kataphthora, 16:10 diaphthora); the apostles quote 16:10, never 49:9, so the step from 49:9 to the Resurrection is the page’s own; no source read joins 49:9 to 16:10 beyond the lexicon listing them together'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/16?lang=eng'
+    quote: 'neither wilt thou suffer thine Holy One to see corruption.'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'Pulpit: the righteous released to enter upon a higher life'
+    key: pulpit-psalms
+    url: 'https://biblehub.com/commentaries/pulpit/psalms/49.htm'
+    quote: 'they will be released, and enter upon a higher life'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'BDB files kōper at Ps. 49:8 (KJV 49:7) under sense 1, the price of a life, with Ex. 21:30'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3724.htm'
+    quote: 'כָּפְרוֺ his ransom Psalm 49:8'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'BDB lists the census ransom of Ex. 30:12 apart, under sense 2'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3724.htm'
+    quote: '2 in the ritual of P'
+  - where: 'section “But God will redeem my soul”'
+    claim: 'The KJV renders pādâ in Hos. 13:14 “ransom”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
+    quote: 'I will ransom them from the power of the grave'
+  # ---------- section “Not redeemed with corruptible things” ----------
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'Acts 2:29 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/2?lang=eng'
+    quote: 'that he is both dead and buried, and his sepulchre is with us unto this day.'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'Acts 2:31 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/2?lang=eng'
+    quote: 'He seeing this before spake of the resurrection of Christ, that his soul was not left in hell, neither his flesh did see corruption.'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'Acts 2:32 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/2?lang=eng'
+    quote: 'This Jesus hath God raised up, whereof we all are witnesses.'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'Acts 13:36–37 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/13?lang=eng'
+    quote: 'But he, whom God raised again, saw no corruption.'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'Acts 13:36 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/13?lang=eng'
+    quote: 'and was laid unto his fathers, and saw corruption:'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'The Savior did not remain in the world of spirits after His death; God raised Him'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'the Savior did not remain in the world of spirits after His death. Instead, Jesus Christ was “raised up” by God.'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'Acts 2:31 “corruption” is Greek diaphthora, “decay”'
+    key: greek-nt
+    url: 'https://biblehub.com/interlinear/acts/2-31.htm'
+    quote: 'diaphthoran διαφθοράν . decay'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'The Hebrew of 16:10 and 49:9 is šaḥat, “pit of Sheol”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7845.htm'
+    quote: 'Psalm 16:10 ("" שִׁאוֺל), Psalm 49:10'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: '1 Pet. 1:18 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/1?lang=eng'
+    quote: 'ye were not redeemed with corruptible things, as silver and gold, from your vain conversation received by tradition from your fathers;'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: '1 Pet. 1:19 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/1?lang=eng'
+    quote: 'But with the precious blood of Christ, as of a lamb without blemish and without spot:'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'Curtis, after quoting Ps. 49:15, contrasts this redemption with those under the law of Moses: not by corruptible things (1 Pet. 1:18)'
+    key: curtis-redemption
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2011/10/redemption?lang=eng'
+    quote: 'Unlike the redemptions under the law of Moses or in modern legal arrangements, this redemption does not come by “corruptible things, as silver and gold” (1 Peter 1:18).'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: '1 Pet. 1:18 “redeemed” is Greek lytroō (elytrōthēte)'
+    key: greek-nt
+    url: 'https://biblehub.com/interlinear/1_peter/1-18.htm'
+    quote: 'elytrōthēte ἐλυτρώθητε you were redeemed'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'Connection made by this page: 1 Pet. 1:18–19 read against Ps. 49:6–8. The psalm says those who trust in “the multitude of their riches” cannot redeem a life; Peter says the redeemed were not bought with silver and gold but with the precious blood of Christ. Peter’s verb lytroō is the verb of the Septuagint at Ps. 48:8 and 48:16 (KJV 49:7, 15), so he answers the psalm in its Greek word. Curtis sets 1 Pet. 1:18 beside Ps. 49:15, not 49:6–8; reading Peter against 49:6–8 is the page’s own'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/1?lang=eng'
+    quote: 'ye were not redeemed with corruptible things, as silver and gold'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'Ps. 49:6 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng'
+    quote: 'boast themselves in the multitude of their riches;'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'Bible Dictionary “Redemption”: He redeemed us with His blood (citing 1 Pet. 1:18–19)'
+    key: bd-redemption
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/redemption?lang=eng'
+    quote: 'He redeemed us with His blood (Acts 20:28; Eph. 1:7, 14; Col. 1:14; Heb. 9:11–15; 1 Pet. 1:18–19; 3:18; Rev. 5:9).'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'Mark 10:45 as quoted; footnote 45a “ransom” sends to Rom. 4:25, not to Ps. 49 (and Matt. 20:28c to D&C 138:2)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/mark/10?lang=eng'
+    quote: 'and to give his life a ransom for many.'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'lytron (G3083): a redemption price; the word of Mark 10:45 and Matt. 20:28'
+    key: strongs-greek
+    url: 'https://biblehub.com/greek/3083.htm'
+    quote: 'From luo; something to loosen with, i.e. A redemption price (figuratively, atonement) -- ransom.'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'New Testament Student Manual: His suffering, death and Resurrection were the price He paid to redeem all mankind'
+    key: nt-manual-mark-8-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/introduction-to-mark/chapter-13?lang=eng'
+    quote: 'is one of the clearest statements in the Gospels about the meaning and purpose of Jesus Christ’s suffering, death, and Resurrection—they were the price He paid to redeem all mankind.'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: '1 Tim. 2:6 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-tim/2?lang=eng'
+    quote: 'Who gave himself a ransom for all'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'Heb. 13:20 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/13?lang=eng'
+    quote: 'Now the God of peace, that brought again from the dead our Lord Jesus, that great shepherd of the sheep, through the blood of the everlasting covenant,'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'Connection made by this page: Heb. 13:20 read against Ps. 49:14. In the psalm the flock is driven into Sheol with Death for its shepherd; in Hebrews the Shepherd of the sheep went down among the dead Himself and was brought again from them through the blood. Hebrews does not cite the psalm; the join is the image (the shepherd and the dead), not a shared word; no source read makes it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/13?lang=eng'
+    quote: 'that brought again from the dead our Lord Jesus, that great shepherd of the sheep'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'Guide “Redeemer”: Jesus Christ paid the price for sins and made possible the resurrection of all'
+    key: gs-redeemer
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/redeemer?lang=eng'
+    quote: 'Jesus Christ is the great Redeemer of mankind because He, through His Atonement, paid the price for the sins of mankind and made possible the resurrection of all people.'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'Ps. 6:5 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/6?lang=eng'
+    quote: 'in the grave who shall give thee thanks?'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'D&C 138:23 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/138?lang=eng'
+    quote: 'And the saints rejoiced in their redemption, and bowed the knee and acknowledged the Son of God as their Redeemer and Deliverer from death and the chains of hell.'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'Septuagint Ps. 48:8 (KJV 49:7): the verb lytroō, no man redeems his brother'
+    key: lxx-rahlfs
+    url: 'https://www.ellopos.net/elpenor/greek-texts/septuagint/chapter.asp?book=24&page=48'
+    quote: 'ἀδελφὸς οὐ λυτροῦται, λυτρώσεται ἄνθρωπος'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'Septuagint Ps. 48:16 (KJV 49:15): God shall redeem (lytrōsetai) my soul'
+    key: lxx-rahlfs
+    url: 'https://www.ellopos.net/elpenor/greek-texts/septuagint/chapter.asp?book=24&page=48'
+    quote: 'πλὴν ὁ Θεὸς λυτρώσεται τὴν ψυχήν μου'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'Septuagint Ps. 48:8: the psalm’s “ransom” is exilasma, a different word from lytron'
+    key: lxx-rahlfs
+    url: 'https://www.ellopos.net/elpenor/greek-texts/septuagint/chapter.asp?book=24&page=48'
+    quote: 'ἐξίλασμα ἑαυτοῦ'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'lytroō (G3084) is from lytron'
+    key: strongs-greek
+    url: 'https://biblehub.com/greek/3084.htm'
+    quote: 'From lutron; to ransom (literally or figuratively) -- redeem.'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'Septuagint Ps. 48:10 (KJV 49:9): kataphthora “corruption”'
+    key: lxx-rahlfs
+    url: 'https://www.ellopos.net/elpenor/greek-texts/septuagint/chapter.asp?book=24&page=48'
+    quote: 'οὐκ ὄψεται καταφθοράν'
+  - where: 'section “Not redeemed with corruptible things”'
+    claim: 'Septuagint Ps. 15:10 (KJV 16:10): diaphthora, the word Peter quotes'
+    key: lxx-rahlfs
+    url: 'https://www.ellopos.net/elpenor/greek-texts/septuagint/chapter.asp?book=24&page=15'
+    quote: 'ἰδεῖν διαφθοράν'
+  # ---------- section “Be not thou afraid when one is made rich” ----------
+  - where: 'section “Be not thou afraid when one is made rich”'
+    claim: 'Ps. 49:16–17 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng'
+    quote: 'Be not thou afraid when one is made rich, when the glory of his house is increased;'
+  - where: 'section “Be not thou afraid when one is made rich”'
+    claim: 'Ps. 49:17 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng'
+    quote: 'For when he dieth he shall carry nothing away'
+  - where: 'section “Be not thou afraid when one is made rich”'
+    claim: 'Come, Follow Me 2026 names the temptation to trust something other than God for redemption (Ps. 49:6–7)'
+    key: cfm-ot-2026-35
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/35?lang=eng'
+    quote: 'Reading these psalms might inspire you to ponder the ways we are tempted to trust something other than God for redemption (see Psalm 49:6–7).'
+  - where: 'section “Be not thou afraid when one is made rich”'
+    claim: 'Footnote 49:8a “soul”: TG Worth of Souls (footnotes.mjs psalms 49)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/49?lang=eng'
+    quote: '(For the redemption of their soul is precious, and it ceaseth for ever:)'
+  - where: 'section “Be not thou afraid when one is made rich”'
+    claim: 'Goaslind joins Ps. 49:8 to the worth of souls and to God’s sending His Son to loose the bands of death and atone'
+    key: goaslind-ends-earth
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1983/10/our-responsibility-to-take-the-gospel-to-the-ends-of-the-earth?lang=eng'
+    quote: 'To our Father in Heaven, “the worth of souls is great” (D&C 18:10), and “the redemption of their soul is precious.” (Ps. 49:8.) Therefore, God sent his Son, the Savior and Redeemer, to loose the bands of death and atone for the sins of carnal, fallen men.'
+  - where: 'section “Be not thou afraid when one is made rich”'
+    claim: 'Curtis: the effects of this redemption include the resurrection of all, and Christ paid for sins on condition of repentance'
+    key: curtis-redemption
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2011/10/redemption?lang=eng'
+    quote: 'That is, temporal death is overcome, and all will be resurrected. Another aspect of this redemption by Christ is the victory over spiritual death. Through His suffering and death, Christ paid for the sins of all mankind on condition of individual repentance.'
+  - where: 'section “Be not thou afraid when one is made rich”'
+    claim: 'Guide “Redeem”: those who have faith and repent are redeemed from spiritual death'
+    key: gs-redeem
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/redeem-redeemed-redemption?lang=eng'
+    quote: 'Through His Atonement, those who have faith in Him and who repent are also redeemed from spiritual death.'
