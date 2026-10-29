@@ -43,7 +43,9 @@ const commits = [];
 for (const line of log.split('\n')) {
   if (!line) continue;
   const [date, subject] = line.split('\t');
-  if (!/theme page|essay/i.test(subject) || /codex['’]s reading applied/i.test(subject)) continue;
+  // Codex's follow-up readings ("X theme page: Codex's reading applied to …") are not page commits; since
+  // 2026-10-29 a page commit itself ends "Codex’s reading applied", so match only the follow-up's form.
+  if (!/theme page|essay/i.test(subject) || /: codex['’]s readings? applied/i.test(subject)) continue;
   const m = subject.match(/^(\w+) theme page: [“"](.+?)[”"]/);
   if (!m) continue; // the plan's own commits (REVIEW.md) are not page commits
   // Before 2026-10-27 the subjects did not say "essay"; every rewritten page then was a bin A essay.
