@@ -1,127 +1,382 @@
 page: new-heart-new-spirit
 claims:
-  - where: opening
-    claim: 'The LORD of the Old Testament is the premortal Jesus Christ'
-    key: bd-jehovah
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
-    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
-  - where: 'section “Given”'
-    claim: 'The recovery is for the Lord''s reasons, not earned by Israel (36:32)'
-    key: ot-manual-27
-    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-27?lang=eng'
-    quote: 'will be done for the Lord''s reasons, not because Israel has earned it (see v. 32).'
-  - where: 'section “Given”'
-    claim: 'Verses 26–27 read as conversion and receiving the Lord''s Spirit'
-    key: ot-manual-27
-    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-27?lang=eng'
-    quote: 'They are to be converted to the Lord and receive His Spirit (see vv. 26–27).'
-  - where: 'section “Given”'
-    claim: 'Connection made by this page: Ezek. 18:31 “make” and 36:27 “cause” are the same Hebrew verb (asah), the ordinary verb for do or make; 18:31 text'
+  # ---------- opening ----------
+  - where: 'opening'
+    claim: 'Deut. 30:6 “will circumcise thine heart”; Jer. 31:33 “write it in their hearts”; Ezek. 11:19 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/31?lang=eng'
+    quote: 'I will put my law in their inward parts, and write it in their hearts'
+  - where: 'opening'
+    claim: 'Deut. 30:6 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/30?lang=eng'
+    quote: 'And the Lord thy God will circumcise thine heart'
+  - where: 'opening'
+    claim: 'Keil on 11:19: stone and flesh are “figures, which are peculiar to Ezekiel”; the promise “has for its basis the prediction in Deuteronomy 30:6”; “for the substance of the prophecy, Jeremiah 31:33”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/11.htm'
+    quote: 'where these figures, which are peculiar to Ezekiel, recur; and for the substance of the prophecy, Jeremiah 31:33'
+  - where: 'opening'
+    claim: 'Keil: “The promise in Ezekiel 11:19 has for its basis the prediction in Deuteronomy 30:6.”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/11.htm'
+    quote: 'The promise in Ezekiel 11:19 has for its basis the prediction in Deuteronomy 30:6.'
+  - where: 'opening'
+    claim: 'ḥādāš (H2319) occurs in Ezekiel only at 11:19, 18:31, 36:26 (5 tokens in 3 verses); “new heart” (lēb ḥādāš) only 18:31 and 36:26; 11:19 has lēb ʾeḥād “one heart”'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'וַ/עֲשׂ֥וּ לָ/כֶ֛ם לֵ֥ב חָדָ֖שׁ וְ/ר֣וּחַ חֲדָשָׁ֑ה'
-  - where: 'section “Given”'
-    claim: 'Connection made by this page: Ezek. 36:27 “cause you to walk in my statutes” uses the same verb (asah), which 36:27 uses a second time with the people as subject'
+    quote: 'חָדָ֖שׁ'
+  - where: 'opening'
+    claim: 'ʿāśâ (H6213a): 18:31 waʿăśû lākem (imperative 2mp, “make you”); 36:27 wĕʿāśîtî ʾēt ʾăšer … tēlēkû (“I will do/make that … ye walk,” KJV “cause you to walk”; no causative of “walk”); 36:27 waʿăśîtem (“and do them,” 2mp). Connection made by this page: in 36:27 the Lord takes the verb of the command (18:31 “make”) for the walking, not the heart (which He gives, nātan), and the verse ends with the verb in Israel’s hands as 11:20 did; the command and the gift read through that verb.'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'וְ/עָשִׂ֗יתִי אֵ֤ת אֲשֶׁר בְּ/חֻקַּ/י֙ תֵּלֵ֔כוּ'
-  - where: 'section “Poured out”'
-    claim: 'Connection made by this page: shafakh “pour” of the Lord''s fury at 36:18'
+    quote: 'וְ/עָשִׂ֗יתִי'
+  - where: 'opening'
+    claim: '18:31 “make you,” waʿăśû'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'וָ/אֶשְׁפֹּ֤ךְ'
-  - where: 'section “Poured out”'
-    claim: 'Connection made by this page: shafakh “pour” of the Lord''s spirit at 39:29 (the only use of the verb with the spirit in Ezekiel)'
+    quote: 'וַ/עֲשׂ֥וּ'
+  - where: 'opening'
+    claim: '“my spirit” (rûḥî) of the Lord’s own at 36:27, 37:14, 39:29 only (3:14 is the prophet’s); šāpak (H8210) 33 occurrences in Ezekiel, with spirit as object only at 39:29'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
     quote: 'שָׁפַ֤כְתִּי'
-  - where: 'section “Given”'
-    claim: 'Connection made by this page: the command of 18:31 set beside the gift of 36:27'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/18?lang=eng'
-    quote: 'make you a new heart and a new spirit'
-  - where: 'section “Given”'
-    claim: 'Connection made by this page: 36:27 “cause you to walk in my statutes”'
+  - where: 'opening'
+    claim: 'Ezek. 36:22 “not for your sakes … but for mine holy name’s sake”'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/36?lang=eng'
-    quote: 'cause you to walk in my statutes'
-  - where: 'section “Poured out”'
-    claim: 'Connection made by this page: 36:18 “I poured my fury upon them” set beside 39:29'
+    quote: 'I do not this for your sakes, O house of Israel, but for mine holy name’s sake'
+
+  # ---------- section “Stiffhearted” ----------
+  - where: 'section “Stiffhearted”'
+    claim: 'Ezek. 2:4; 3:7; 6:9; 14:3; 20:16; 33:31 as quoted'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/36?lang=eng'
-    quote: 'Wherefore I poured my fury upon them'
-  - where: 'section “Poured out”'
-    claim: 'Connection made by this page: 39:29 “I have poured out my spirit”'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/6?lang=eng'
+    quote: 'because I am broken with their whorish heart, which hath departed from me'
+  - where: 'section “Stiffhearted”'
+    claim: 'Cambridge on 36:26: formerly the heart was “strong, obdurate, unimpressible and rebellious (Ezekiel 2:4, Ezekiel 3:7)”'
+    key: cambridge-ezekiel
+    url: 'https://biblehub.com/commentaries/cambridge/ezekiel/36.htm'
+    quote: 'strong, obdurate, unimpressible and rebellious'
+  - where: 'section “Stiffhearted”'
+    claim: 'Cambridge on 11:19: “The old stony heart, unimpressible and obstinate, shall be taken away, and a heart of “flesh,” sensitive and responsive to the touch of Jehovah, shall be given them.”'
+    key: cambridge-ezekiel
+    url: 'https://biblehub.com/commentaries/cambridge/ezekiel/11.htm'
+    quote: 'sensitive and responsive to the touch of Jehovah, shall be given them'
+
+  # ---------- section “I will give them one heart” ----------
+  - where: 'section “I will give them one heart”'
+    claim: 'Ezek. 11:19–20 as quoted; footnotes 11:19b “heart”: TG Conversion; 19c “new”: TG Man, New, Spiritually Reborn; 19e “heart”: 2 Cor. 3:3 (2–3)'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/39?lang=eng'
-    quote: 'I have poured out my spirit upon the house of Israel'
-  - where: 'section “Promised, then commanded”'
-    claim: 'The covenant sentence of Ezek. 11:20 is also in Jer. 31:33'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/11?lang=eng'
+    quote: 'And I will give them one heart, and I will put a new spirit within you; and I will take the stony heart out of their flesh, and will give them an heart of flesh'
+  - where: 'section “I will give them one heart”'
+    claim: '11:19 lēb ʾeḥād, “one heart”; Jer. 32:39 lēb ʾeḥād'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'אֶחָ֔ד'
+  - where: 'section “I will give them one heart”'
+    claim: 'Jer. 32:39 “I will give them one heart, and one way”'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/31?lang=eng'
-    quote: 'and will be their God, and they shall be my people'
-  - where: 'section “Jesus Christ”'
-    claim: 'Ezekiel''s stony heart as conversion (11:19–20), and King Benjamin''s people (endnote)'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/32?lang=eng'
+    quote: 'And I will give them one heart, and one way, that they may fear me for ever'
+  - where: 'section “I will give them one heart”'
+    claim: 'Keil on 11:19: defends “one heart” (against the LXX “another”) from Jer. 32:39; God gives one heart “when He causes all hearts and minds to become one. This can only be effected by His giving a “new spirit,” taking away the stone-heart, and giving a heart of flesh instead.”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/11.htm'
+    quote: 'God gives one heart, when He causes all hearts and minds to become one.'
+  - where: 'section “I will give them one heart”'
+    claim: 'Keil, same paragraph: “This can only be effected by His giving a “new spirit,” taking away the stone-heart, and giving a heart of flesh instead.”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/11.htm'
+    quote: 'taking away the stone-heart, and giving a heart of flesh instead'
+  - where: 'section “I will give them one heart”'
+    claim: 'Cambridge on 11:19: LXX “another” heart; some MSS., Targ. and Syr. “new”; “Both “another” and “new” form a better antithesis to “stony heart” than “one” does.”'
+    key: cambridge-ezekiel
+    url: 'https://biblehub.com/commentaries/cambridge/ezekiel/11.htm'
+    quote: 'form a better antithesis to “stony heart” than “one” does'
+  - where: 'section “I will give them one heart”'
+    claim: '2 Cor. 3:3 “not in tables of stone, but in fleshy tables of the heart”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/2-cor/3?lang=eng'
+    quote: 'not in tables of stone, but in fleshy tables of the heart'
+  - where: 'section “I will give them one heart”'
+    claim: 'Christofferson, “When Thou Art Converted” (Apr. 2004): “Surely this is what happened to the people of King Benjamin when they said their hearts had been changed” (endnote 1 cites Ezek. 11:19–20)'
     key: christofferson-converted
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2004/04/when-thou-art-converted?lang=eng'
     quote: 'Surely this is what happened to the people of King Benjamin when they said their hearts had been changed'
-  - where: 'section “Jesus Christ”'
-    claim: 'The change comes through the Atonement of Christ; quotes Ezek. 36:26'
+
+  # ---------- section “Make you a new heart and a new spirit” ----------
+  - where: 'section “Make you a new heart and a new spirit”'
+    claim: 'Ezek. 18:30–31 as quoted; footnotes 18:31b “heart”: TG Conversion; Heart; 31c “new spirit”: TG Man, New, Spiritually Reborn'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/18?lang=eng'
+    quote: 'and make you a new heart and a new spirit: for why will ye die, O house of Israel?'
+  - where: 'section “Make you a new heart and a new spirit”'
+    claim: 'Keil on 18:31: “The appeal in Ezekiel 18:31 points back to the promise in Ezekiel 11:18–19.”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/18.htm'
+    quote: 'The appeal in Ezekiel 18:31 points back to the promise in Ezekiel 11:18-19.'
+  - where: 'section “Make you a new heart and a new spirit”'
+    claim: 'Keil on 18:31: “a man cannot, indeed, create either of these by his own power; God alone can give them (Ezekiel 11:19). But a man both can and should come to God to receive them: in other words, he can turn to God, and let both heart and spirit be renewed by the Spirit of God.”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/18.htm'
+    quote: 'But a man both can and should come to God to receive them: in other words, he can turn to God, and let both heart and spirit be renewed by the Spirit of God.'
+  - where: 'section “Make you a new heart and a new spirit”'
+    claim: 'Keil: “a man cannot, indeed, create either of these by his own power; God alone can give them (Ezekiel 11:19)”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/18.htm'
+    quote: 'a man cannot, indeed, create either of these by his own power; God alone can give them (Ezekiel 11:19)'
+  - where: 'section “Make you a new heart and a new spirit”'
+    claim: 'Ellicott on 18:30–31: “it is not meant to say that this can ever be the work of any other than God’s Holy Spirit; but that Spirit is ever given to them that ask Him, and the question of salvation is still one which each man must decide for himself before God.”'
+    key: ellicott-ezekiel
+    url: 'https://biblehub.com/commentaries/ellicott/ezekiel/18.htm'
+    quote: 'it is not meant to say that this can ever be the work of any other than God’s Holy Spirit; but that Spirit is ever given to them that ask Him, and the question of salvation is still one which each man must decide for himself before God.'
+  - where: 'section “Make you a new heart and a new spirit”'
+    claim: 'Cambridge on 18:31: “The words are those of practical exhortation; to charge the prophet with assigning to man a power greater than that which Scripture in general allows to him is to distort his language.”'
+    key: cambridge-ezekiel
+    url: 'https://biblehub.com/commentaries/cambridge/ezekiel/18.htm'
+    quote: 'The words are those of practical exhortation; to charge the prophet with assigning to man a power greater than that which Scripture in general allows to him is to distort his language.'
+
+  # ---------- section “A new heart also will I give you” ----------
+  - where: 'section “A new heart also will I give you”'
+    claim: 'Ezek. 36:24–27 as quoted; footnotes 36:26b “heart”: 3 Ne. 10:6; 27a “spirit”: Isa. 44:3; Acts 2:17; D&C 46:28 (28, 30); 84:46; 95:4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/36?lang=eng'
+    quote: 'And I will put my spirit within you, and cause you to walk in my statutes, and ye shall keep my judgments, and do them.'
+  - where: 'section “A new heart also will I give you”'
+    claim: 'Keil on 36:25–28: cleansing “is followed by renewal with the Holy Spirit, which takes away the old heart of stone and puts within a new heart of flesh, so that the man can fulfil the commandments of God”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/36.htm'
+    quote: 'is followed by renewal with the Holy Spirit, which takes away the old heart of stone and puts within a new heart of flesh, so that the man can fulfil the commandments of God'
+  - where: 'section “A new heart also will I give you”'
+    claim: 'Cambridge on 36:26: “The heart is more passive and receptive and but responds to influences, the spirit is active and regulative.”'
+    key: cambridge-ezekiel
+    url: 'https://biblehub.com/commentaries/cambridge/ezekiel/36.htm'
+    quote: 'The heart is more passive and receptive and but responds to influences, the spirit is active and regulative.'
+  - where: 'section “A new heart also will I give you”'
+    claim: 'Student Manual (27-19): “They are to be converted to the Lord and receive His Spirit (see vv. 26–27).”; the recovery “will be done for the Lord’s reasons, not because Israel has earned it (see v. 32)”'
+    key: ot-manual-27
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-27?lang=eng'
+    quote: 'They are to be converted to the Lord and receive His Spirit (see vv. 26–27).'
+  - where: 'section “A new heart also will I give you”'
+    claim: 'Student Manual: “will be done for the Lord’s reasons, not because Israel has earned it (see v. 32)”'
+    key: ot-manual-27
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-27?lang=eng'
+    quote: 'will be done for the Lord’s reasons, not because Israel has earned it (see v. 32)'
+  - where: 'section “A new heart also will I give you”'
+    claim: 'Come, Follow Me 2026 (Nov. 2–8, titled “A New Spirit Will I Put within You”): “What additional insights do you find in Ezekiel 36:26–27 and Alma 7:14–16?”'
+    key: cfm-ot-2026-45
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/45?lang=eng'
+    quote: 'What additional insights do you find in Ezekiel 36:26–27 and Alma 7:14–16?'
+  - where: 'section “A new heart also will I give you”'
+    claim: 'Alma 7:14 “ye must repent, and be born again”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/7?lang=eng'
+    quote: 'ye must repent, and be born again'
+  - where: 'section “A new heart also will I give you”'
+    claim: 'Seminary teacher manual, Lesson 141: “If we follow Jesus Christ, He can change our hearts”; students read Mosiah 5:2 and may write the reference beside Ezek. 36:26'
+    key: ot-seminary-teacher-141
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-ezekiel/lesson-141-ezekiel-33-36?lang=eng'
+    quote: 'If we follow Jesus Christ, He can change our hearts.'
+  - where: 'section “A new heart also will I give you”'
+    claim: 'Renlund, “Preserving the Heart’s Mighty Change” (Oct. 2009): “Through the Atonement of Christ and by obedience to the laws and ordinances of the gospel, we undergo this ultimate operation”; “The Lord explained the operation that we all need,” quoting Ezek. 36:26'
     key: renlund-mighty-change
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2009/10/preserving-the-hearts-mighty-change?lang=eng'
-    quote: 'Through the Atonement of Christ and by obedience to the laws and ordinances of the gospel, we undergo this ultimate operation, this spiritual change of heart.'
-  - where: 'section “Given”'
-    claim: '36:27 ends with the verb again, the people as subject (“do them”)'
+    quote: 'The Lord explained the operation that we all need'
+  - where: 'section “A new heart also will I give you”'
+    claim: 'Renlund: “Through the Atonement of Christ and by obedience to the laws and ordinances of the gospel”'
+    key: renlund-mighty-change
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2009/10/preserving-the-hearts-mighty-change?lang=eng'
+    quote: 'Through the Atonement of Christ and by obedience to the laws and ordinances of the gospel'
+  - where: 'section “A new heart also will I give you”'
+    claim: 'Ellicott on 36:25: “It was the same symbolism which led in later ages to the use of baptism”; the Church sources read (Student Manual, Seminary, Scripture Helps) do not name baptism at 36:25'
+    key: ellicott-ezekiel
+    url: 'https://biblehub.com/commentaries/ellicott/ezekiel/36.htm'
+    quote: 'It was the same symbolism which led in later ages to the use of baptism'
+  - where: 'section “A new heart also will I give you”'
+    claim: 'Keil on 36:27 ʿāśâ ʾet ʾăšer: “to make or effect your walking”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/36.htm'
+    quote: 'to make or effect your walking'
+  - where: 'section “A new heart also will I give you”'
+    claim: '36:27 waʿăśîtem, “and do them,” the people as subject'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
     quote: 'וַ/עֲשִׂיתֶֽם'
-  - where: 'section “Given”'
-    claim: 'The future Israel must be spiritually worthy and submit to the Lord’s will'
-    key: ot-manual-27
-    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-27?lang=eng'
-    quote: 'The Israel of the future must be spiritually worthy and must submit themselves to the Lord’s will.'
-  - where: 'section “Poured out”'
-    claim: 'shafakh is also used of shedding blood in 36:18 (second verb)'
+
+  # ---------- section “My spirit” ----------
+  - where: 'section “My spirit”'
+    claim: 'rûḥî at 36:27, 37:14, 39:29; 3:14 “my spirit” is the prophet’s own'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'שָׁפְכ֣וּ'
-  - where: 'section “Poured out”'
-    claim: '36:18 speaks of the blood they had shed'
+    quote: 'רוּחִ֖/י'
+  - where: 'section “My spirit”'
+    claim: 'Ezek. 37:11, 14 as quoted; footnote 37:14a “spirit”: Alma 40:23 (16–24); D&C 88:15 (15–17); 37:7a “bone”: D&C 138:17 (11–17, 43)'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/36?lang=eng'
-    quote: 'for the blood that they had shed upon the land'
-  - where: 'section “Poured out”'
-    claim: 'shafakh is used of casting a siege mound (4:2)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'וְ/שָׁפַכְתָּ֥'
-  - where: 'section “Poured out”'
-    claim: '4:2 “cast a mount against it”'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/4?lang=eng'
-    quote: 'cast a mount against it'
-  - where: 'section “Poured out”'
-    claim: 'The Church’s footnote 29b on “poured” points to Zechariah 12:10'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/37?lang=eng'
+    quote: 'And shall put my spirit in you, and ye shall live'
+  - where: 'section “My spirit”'
+    claim: 'Cambridge on 37:14: “merely the life-giving spirit, and not the regenerating spirit, as in Ezekiel 36:27—though the distinction is merely part of the figure. The resuscitation of the dead nation could come about only through their moral regeneration”'
+    key: cambridge-ezekiel
+    url: 'https://biblehub.com/commentaries/cambridge/ezekiel/37.htm'
+    quote: 'though the distinction is merely part of the figure. The resuscitation of the dead nation could come about only through their moral regeneration'
+  - where: 'section “My spirit”'
+    claim: 'Keil on 37:14: not “the communication of the Holy Spirit as distinguished from the imparting of the breath of life”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/37.htm'
+    quote: 'the communication of the Holy Spirit as distinguished from the imparting of the breath of life'
+  - where: 'section “My spirit”'
+    claim: 'Ezek. 39:29 as quoted; footnote 39:29b “poured”: Zech. 12:10'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/39?lang=eng'
-    quote: 'Zech. 12:10'
-  - where: 'section “Poured out”'
-    claim: 'Zech. 12:10 text'
+    quote: 'for I have poured out my spirit upon the house of Israel'
+  - where: 'section “My spirit”'
+    claim: 'šāpak (H8210) 33 occurrences: fury (7:8; 9:8; 14:19; 20:8, 13, 21, 33, 34; 21:31; 22:22, 31; 30:15; 36:18), blood (16:38; 18:10; 22:3, 4, 6, 9, 12, 27; 23:45; 24:7; 33:25; 36:18), siege mound (4:2; 17:17; 21:22; 26:8), whoredom (16:15, 36; 23:8), spirit (39:29 only). Fact of the text; no source remarks on it.'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'וָ/אֶשְׁפֹּ֤ךְ'
+  - where: 'section “My spirit”'
+    claim: 'Ezek. 36:18 “I poured my fury upon them for the blood that they had shed”; 4:2 “cast a mount against it”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/36?lang=eng'
+    quote: 'Wherefore I poured my fury upon them for the blood that they had shed upon the land'
+  - where: 'section “My spirit”'
+    claim: 'Cambridge on 39:29: “This states in brief all the regenerating influences more fully dwelt upon in Ezekiel 36:25-31. Cf. Joel 2:28; Zechariah 12:10.”'
+    key: cambridge-ezekiel
+    url: 'https://biblehub.com/commentaries/cambridge/ezekiel/39.htm'
+    quote: 'This states in brief all the regenerating influences more fully dwelt upon in Ezekiel 36:25-31.'
+  - where: 'section “My spirit”'
+    claim: 'Zech. 12:10 as quoted'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/12?lang=eng'
     quote: 'the spirit of grace and of supplications: and they shall look upon me whom they have pierced'
-  - where: 'section “To the hopeless”'
-    claim: 'The speakers are the whole house of Israel (37:11)'
+
+  # ---------- section “Not for your sakes” ----------
+  - where: 'section “Not for your sakes”'
+    claim: 'Ezek. 36:22, 32 as quoted; “for my name’s sake” at 20:9, 14, 22, 44; footnote 36:22a “sakes”: Deut. 9:5'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/37?lang=eng'
-    quote: 'these bones are the whole house of Israel'
-  - where: 'section “To the hopeless”'
-    claim: 'The Church reads Ezekiel’s vision as the Resurrection (D&C 138:43)'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/36?lang=eng'
+    quote: 'Not for your sakes do I this, saith the Lord God, be it known unto you: be ashamed and confounded for your own ways'
+  - where: 'section “Not for your sakes”'
+    claim: 'Deut. 9:5 “Not for thy righteousness, or for the uprightness of thine heart”'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/138?lang=eng'
-    quote: 'Ezekiel, who was shown in vision the great valley of dry bones, which were to be clothed upon with flesh, to come forth again in the resurrection of the dead'
-  - where: 'section “Jesus Christ”'
-    claim: 'Mosiah 5:7: hearts changed through faith on his name'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/9?lang=eng'
+    quote: 'Not for thy righteousness, or for the uprightness of thine heart'
+  - where: 'section “Not for your sakes”'
+    claim: 'Keil on 36:22: “not because you have any claim to deliverance on account of your behaviour”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/36.htm'
+    quote: 'not because you have any claim to deliverance on account of your behaviour'
+  - where: 'section “Not for your sakes”'
+    claim: 'Keil on Deut. 30:6: the Lord “would take away the stony heart out of their flesh, and give them a heart of flesh, a new heart and a new spirit” (citing Ezek. 11:19; 36:26; Jer. 31:33)'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/30.htm'
+    quote: 'would take away the stony heart out of their flesh, and give them a heart of flesh, a new heart and a new spirit'
+  - where: 'section “Not for your sakes”'
+    claim: 'Bible Dictionary, Circumcision: separation “from sin (Deut. 10:16; 30:6; Jer. 4:4; 9:25–26; Ezek. 44:7)”'
+    key: bd-circumcision
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/circumcision?lang=eng'
+    quote: 'from sin (Deut. 10:16; 30:6; Jer. 4:4; 9:25–26; Ezek. 44:7)'
+  - where: 'section “Not for your sakes”'
+    claim: 'Ezekiel has no occurrence of mûl (H4135) or ʿorlâ (H6190); ʿārēl lēb “uncircumcised in heart” at 44:7, 9'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'עַרְלֵי'
+  - where: 'section “Not for your sakes”'
+    claim: 'Ezek. 44:7, 9 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/44?lang=eng'
+    quote: 'No stranger, uncircumcised in heart, nor uncircumcised in flesh, shall enter into my sanctuary'
+  - where: 'section “Not for your sakes”'
+    claim: 'Keil on 44:9: “not only the uncircumcised heathen, but also Israelites who were circumcised in flesh, were to keep at a distance from the sanctuary if they failed to possess circumcision of heart”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/44.htm'
+    quote: 'but also Israelites who were circumcised in flesh, were to keep at a distance from the sanctuary if they failed to possess circumcision of heart'
+
+  # ---------- section “Have ye experienced this mighty change in your hearts?” ----------
+  - where: 'section “Have ye experienced this mighty change in your hearts?”'
+    claim: 'Footnote 36:26b “heart”: 3 Ne. 10:6; Mosiah 5:2, 7 and Alma 5:14 as quoted'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/5?lang=eng'
-    quote: 'your hearts are changed through faith on his name'
+    quote: 'for ye say that your hearts are changed through faith on his name'
+  - where: 'section “Have ye experienced this mighty change in your hearts?”'
+    claim: 'Mosiah 5:2 “no more disposition to do evil, but to do good continually”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/5?lang=eng'
+    quote: 'that we have no more disposition to do evil, but to do good continually'
+  - where: 'section “Have ye experienced this mighty change in your hearts?”'
+    claim: 'Alma 5:14 “Have ye experienced this mighty change in your hearts?”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/5?lang=eng'
+    quote: 'Have ye experienced this mighty change in your hearts?'
+  - where: 'section “Have ye experienced this mighty change in your hearts?”'
+    claim: 'Bible Dictionary: “Jehovah is the premortal Jesus Christ”'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ'
+  - where: 'section “Have ye experienced this mighty change in your hearts?”'
+    claim: 'Renlund: “Through the Atonement of Christ”'
+    key: renlund-mighty-change
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2009/10/preserving-the-hearts-mighty-change?lang=eng'
+    quote: 'Through the Atonement of Christ'
+  - where: 'section “Have ye experienced this mighty change in your hearts?”'
+    claim: 'Wilson (RSC): “a new heart—not merely circumcised—but a full transplant for whole-hearted obedience”'
+    key: wilson-holy-spirit
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/holy-spirit'
+    quote: 'a new heart—not merely circumcised—but a full transplant for whole-hearted obedience'
+  - where: 'section “My spirit”'
+    claim: 'Keil on 37:14: the spirit “is the creative principle both of the physical and of the ethical or spiritual life”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/37.htm'
+    quote: 'the creative principle both of the physical and of the ethical or spiritual life'
+  - where: 'section “A new heart also will I give you”'
+    claim: 'Keil on 36:25: “the lustrations prescribed by the law”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/36.htm'
+    quote: 'lustrations prescribed by the law'
+  - where: 'section “A new heart also will I give you”'
+    claim: 'Alma 7:14 “come and be baptized unto repentance, that ye may be washed from your sins”; “the Lamb of God”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/7?lang=eng'
+    quote: 'come and be baptized unto repentance, that ye may be washed from your sins'
+  - where: 'section “Not for your sakes”'
+    claim: 'Deut. 30:6 “that thou mayest live” is lĕmaʿan ḥayyeykā, “for the sake of thy life” (H4616 + H2416e)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'חַיֶּֽי/ךָ'
+  - where: 'section “Not for your sakes”'
+    claim: 'Ezek. 18:32 “turn yourselves, and live ye”; 20:44 “not according to your wicked ways”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/18?lang=eng'
+    quote: 'wherefore turn yourselves, and live ye.'
+  - where: 'section “Not for your sakes”'
+    claim: 'Ezek. 20:44 “not according to your wicked ways”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/20?lang=eng'
+    quote: 'not according to your wicked ways'
+  - where: 'section “Have ye experienced this mighty change in your hearts?”'
+    claim: 'Connection made by this page: Alma 5:14 set beside Ezekiel’s three sentences; no source joins them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/5?lang=eng'
+    quote: 'Have ye experienced this mighty change in your hearts?'
+  - where: 'section “Have ye experienced this mighty change in your hearts?”'
+    claim: 'Seminary teacher manual Lesson 141 sets Mosiah 5:2 beside Ezek. 36:26'
+    key: ot-seminary-teacher-141
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-ezekiel/lesson-141-ezekiel-33-36?lang=eng'
+    quote: 'read Mosiah 5:2'
+  - where: 'section “Have ye experienced this mighty change in your hearts?”'
+    claim: 'Keil on 11:19–20: the newness of heart “only commenced with the Baptist’s preaching of repentance, and with the coming of Christ”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/11.htm'
+    quote: 'with the coming of Christ'
+  - where: 'section “Have ye experienced this mighty change in your hearts?”'
+    claim: 'Ellicott on 18:31: “that Spirit is ever given to them that ask Him” (cited in the close)'
+    key: ellicott-ezekiel
+    url: 'https://biblehub.com/commentaries/ellicott/ezekiel/18.htm'
+    quote: 'that Spirit is ever given to them that ask Him'
+  - where: 'section “My spirit”'
+    claim: 'Footnote 36:27a “spirit” → Isa. 44:3; Acts 2:17; D&C 46:28; 84:46; 95:4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/36?lang=eng'
+    quote: 'And I will put my spirit within you'

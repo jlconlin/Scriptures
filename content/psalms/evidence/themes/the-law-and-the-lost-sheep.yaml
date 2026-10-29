@@ -1,157 +1,375 @@
 page: the-law-and-the-lost-sheep
 claims:
-  - where: 'section “Delight, and a plea”'
-    claim: 'Praise of the law’s perfection in Psalm 19 turns the psalmist’s thoughts inward and he pleads with the Lord to help him do better'
-    key: ot-minute-psalms-1-20
-    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
-    quote: 'cause him to turn his thoughts inward as he considers how his own life measures up to the standard of that law and pleads with the Lord to help him do better'
-  - where: 'section “The last verse”'
-    claim: '“Lost” is in one verse of the King James Psalms (occurrences.mjs psalms "lost"); of the 36 verses with “seek,” God is asked to seek only at 10:15 (wickedness) and here (a person)'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/119?lang=eng'
-    quote: 'I have gone astray like a lost sheep; seek thy servant; for I do not forget thy commandments.'
-  - where: 'section “The last verse”'
-    claim: 'Straying is a past event in 119:67'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/119?lang=eng'
-    quote: 'Before I was afflicted I went astray: but now have I kept thy word.'
-  - where: 'section “The last verse”'
-    claim: 'Straying is a danger in 119:10'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/119?lang=eng'
-    quote: 'With my whole heart have I sought thee: O let me not wander from thy commandments.'
-  - where: 'section “The last verse”'
-    claim: 'One older reading: the going astray is no apostasy; the sheep’s home is beside the Lord'
-    key: delitzsch-psalms
-    url: 'https://biblehub.com/commentaries/kad/psalms/119.htm'
-    quote: 'his going astray is no apostasy; his home, to which he longs to return when he has been betrayed into by-ways, is beside the Lord.'
-  - where: 'section “The last verse”'
-    claim: 'The Hebrew word behind “lost” in 119:176 (H6)'
+  # ---------- opening ----------
+  - where: 'opening'
+    claim: '“Lost” in Ps. 119:176 is ʾābad (H6), the verb of Ps. 1:6 “shall perish”'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'אֹ֭בֵד'
-  - where: 'section “The last verse”'
-    claim: 'The same word (H6) is “perish” in 1:6'
+  - where: 'opening'
+    claim: 'Ps. 1:6 “shall perish” is ʾābad (H6), tōʾbēd'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'תֹּאבֵֽד'
-  - where: 'section “The shepherd who restores”'
-    claim: 'The Hebrew noun “soul” (nephesh) with the root “turn back” stands in 19:7'
+  - where: 'opening'
+    claim: 'ʾābad (H6) in Psalms: 26 verses; most often of the wicked, enemies and nations (1:6; 2:12; 5:6; 9:3, 5, 6; 10:16; 21:10; 37:20; 68:2; 73:27; 83:17; 92:9; 112:10; 143:12); where it touches the speaker (31:12; 41:5; 119:92, 95; 142:4) he is in danger from enemies or affliction; 119:176 leaves the kind of perishing open'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יֹאבֵ֑דוּ'
+  - where: 'opening'
+    claim: '“Seek” in Ps. 119:176 is bāqaš (H1245), the only verse in Psalms (27 occurrences) where the LORD is asked to seek a person; elsewhere enemies seek the psalmist, the faithful seek the LORD'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּקֵּ֣שׁ'
+  - where: 'opening'
+    claim: 'Connection made by this page: the word Psalm 1 uses for the way of the ungodly (ʾābad) is the word the law-lover ends on; the praise of the law turns in Psalms 19 and 119 to the law-lover’s need; the law restores the soul (19:7) and the shepherd restores the soul (23:3), and only a shepherd can seek; Ezek. 34:16, Luke 19:10 and 3 Ne. 15:5 name the shepherd as the lawgiver'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/119?lang=eng'
+    quote: 'I have gone astray like a lost sheep; seek thy servant; for I do not forget thy commandments.'
+
+  # ---------- The way of the ungodly shall perish ----------
+  - where: 'section “The way of the ungodly shall perish”'
+    claim: 'Larsen (Old Testament Minute) reads the tree of Ps. 1:3 as the Messiah'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'Psalm 1:3 compares the Messiah to “a tree planted by the rivers of water, that bringeth forth his fruit in his season.”'
+  - where: 'section “The way of the ungodly shall perish”'
+    claim: 'Ps. 31:12 “broken” (vessel) is ʾābad, the participle ʾōbēd, the form of 119:176'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֹבֵֽד'
+  - where: 'section “The way of the ungodly shall perish”'
+    claim: 'Ps. 119:92 “I should then have perished” is ʾābad, ʾābadtî'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אָבַ֥דְתִּי'
+  - where: 'section “The way of the ungodly shall perish”'
+    claim: 'Ps. 119:95 “to destroy me” is the Piel of ʾābad'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ/אַבְּדֵ֑/נִי'
+  - where: 'section “The way of the ungodly shall perish”'
+    claim: 'The Cambridge Bible on Ps. 1:6 “knoweth”: divine knowledge involves approval, care, guidance'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/1.htm'
+    quote: 'Divine knowledge cannot be abstract or ineffectual. It involves approval, care, guidance; or abandonment, judgement.'
+  - where: 'section “The way of the ungodly shall perish”'
+    claim: 'The Cambridge Bible on “lost” in 119:176: the word means strayed and in danger of perishing'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/119.htm'
+    quote: 'lost] The word means ‘strayed and in danger of perishing.’'
+  - where: 'section “The way of the ungodly shall perish”'
+    claim: 'Connection made by this page: Ps. 1:6 and Ps. 119:176 are set side by side on the shared verb ʾābad; no commentary read does so'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/1?lang=eng'
+    quote: 'but the way of the ungodly shall perish.'
+
+  # ---------- The law restores the soul, and then the plea ----------
+  - where: 'section “The law restores the soul, and then the plea”'
+    claim: 'Ps. 19:7 “converting the soul” is the Hiphil participle of šûb (H7725) with nepeš (H5315), mĕšîbat nāpeš'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'מְשִׁ֣יבַת'
-  - where: 'section “The shepherd who restores”'
-    claim: 'The same root and noun stand in 23:3 (“restoreth my soul”)'
+  - where: 'section “The law restores the soul, and then the plea”'
+    claim: 'Delitzsch on 19:7: restoring, bringing back, imparting newness of life, quickening the soul, with a cross-reference to Ps. 23:3'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'restoring, bringing back, i.e., imparting newness of life, quickening the soul (cf. Pil. שׁובב, Psalm 23:3)'
+  - where: 'section “The law restores the soul, and then the plea”'
+    claim: 'Larsen: the psalmist’s reflections on the law’s perfection turn his thoughts inward to how his life measures up, and he pleads for help'
+    key: ot-minute-psalms-1-20
+    url: 'https://scripturecentral.org/archive/books/book-chapter/psalm-1-20'
+    quote: 'cause him to turn his thoughts inward as he considers how his own life measures up to the standard of that law and pleads with the Lord to help him do better'
+  - where: 'section “The law restores the soul, and then the plea”'
+    claim: 'Delitzsch on 19:12: the law is a mirror of self-knowledge; the prayer is for forgiveness of the sins of infirmity to which even the pardoned one succumbs'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: 'a mirror of self-knowledge, in which a man may behold and come to know himself, he prays for forgiveness in respect of the many sins of infirmity, - though for the most part unperceived by him, - to which, even the pardoned one succumbs.'
+  - where: 'section “The law restores the soul, and then the plea”'
+    claim: '“I erred not” (119:110) and “I have gone astray” (119:176) are the same Hebrew verb, tāʿâ (H8582); 119:10, 21, 118 use šāgâ and 119:67 šāgag'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'יְשׁוֹבֵ֑ב'
-  - where: 'section “The shepherd who restores”'
-    claim: 'Connection made by this page: what Psalm 19 says the law does (converting the soul), Psalm 23 says the shepherd does'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/19?lang=eng'
-    quote: 'The law of the LORD is perfect, converting the soul'
-  - where: 'section “The shepherd who restores”'
-    claim: 'Ps. 23:3 wording'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/23?lang=eng'
-    quote: 'He restoreth my soul'
-  - where: 'section “The shepherd who restores”'
-    claim: 'The verb of “err” in 95:10 (H8582)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'תֹּעֵ֣י'
-  - where: 'section “The shepherd who restores”'
-    claim: 'The verb of “I have gone astray” in 119:176 is the same (H8582); six occurrences in Psalms'
+    quote: 'תָעִֽיתִי'
+  - where: 'section “The law restores the soul, and then the plea”'
+    claim: 'Ps. 119:176 “I have gone astray,” tāʿîtî'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'תָּעִ֗יתִי'
-  - where: 'section “The shepherd who restores”'
-    claim: 'Connection made by this page: Ps. 95:10 and 119:176 set side by side on the shared verb'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/95?lang=eng'
-    quote: 'It is a people that do err in their heart, and they have not known my ways'
-  - where: 'section “I will seek that which was lost”'
-    claim: 'The Hebrew word for “lost” in Ezek. 34:16 is the same as in Ps. 119:176 (H6)'
+  - where: 'section “The law restores the soul, and then the plea”'
+    claim: 'The Septuagint has the same Greek verb, eplanēthēn, at Ps. 118:110 and 118:176'
+    key: lxx-rahlfs
+    url: 'https://www.ellopos.net/elpenor/greek-texts/septuagint/chapter.asp?book=24&page=118'
+    quote: 'ἐπλανήθην ὡς πρόβατον ἀπολωλός· ζήτησον τὸν δοῦλόν σου, ὅτι τὰς ἐντολάς σου οὐκ ἐπελαθόμην.'
+  - where: 'section “The law restores the soul, and then the plea”'
+    claim: 'Septuagint Ps. 118:110, eplanēthēn'
+    key: lxx-rahlfs
+    url: 'https://www.ellopos.net/elpenor/greek-texts/septuagint/chapter.asp?book=24&page=118'
+    quote: 'καὶ ἐκ τῶν ἐντολῶν σου οὐκ ἐπλανήθην.'
+  - where: 'section “The law restores the soul, and then the plea”'
+    claim: 'The Cambridge Bible on 119:176: after his professions of fidelity, including 119:110, the psalmist concludes with a confession of weakness and failure; the confession of failure is not inconsistent with the profession of devotion'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/119.htm'
+    quote: 'after all his professions of fidelity and constancy, even including an explicit declaration that in spite of intimidation he had not gone astray from God’s commandments (Psalm 119:110), the Psalmist concludes with a confession of weakness and failure, actual or possible'
+  - where: 'section “The law restores the soul, and then the plea”'
+    claim: 'The Cambridge Bible: the confession of failure is not inconsistent with the profession of devotion; Ps. 19:12–14 may have been in the psalmist’s mind'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/119.htm'
+    quote: 'The confession of failure is not inconsistent with the profession of devotion. As in Psalm 19:12-14, which may have been in the Psalmist’s mind, the thought of the law naturally leads up to the thought of his own frailty and need to be brought back when he wanders.'
+  - where: 'section “The law restores the soul, and then the plea”'
+    claim: 'Delitzsch: the accents may read 119:176 as “If I have gone astray, seek Thou like a lost sheep Thy servant”; on that reading his going astray is no apostasy; his home is beside the Lord'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/119.htm'
+    quote: 'perhaps the accentuation is correct when it does not allow itself to be determined by Isaiah 53:6, but interprets: If I have gone astray - seek Thou like a lost sheep Thy servant.'
+  - where: 'section “The law restores the soul, and then the plea”'
+    claim: 'Delitzsch: his going astray is no apostasy; his home, to which he longs to return when he has been betrayed into by-ways, is beside the Lord'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/119.htm'
+    quote: 'his going astray is no apostasy; his home, to which he longs to return when he has been betrayed into by-ways, is beside the Lord.'
+  - where: 'section “The law restores the soul, and then the plea”'
+    claim: 'The Cambridge Bible prefers a second reading as more in accordance with the general spirit of the Psalm: the psalmist describes his outward circumstances rather than his spiritual state, like a sheep separated from the flock and exposed to constant dangers'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/119.htm'
+    quote: 'It seems however more in accordance with the general spirit of the Psalm to suppose that the Psalmist is describing his outward circumstances rather than his spiritual state, the helplessness of his condition rather than his moral failures. He is a wanderer in the wilderness of the world; like a sheep that has been separated from the flock he is exposed to constant dangers'
+  - where: 'section “The law restores the soul, and then the plea”'
+    claim: 'bāqaš in Psalms: enemies seek the psalmist’s soul (35:4; 38:12; 40:14; 54:3; 63:9; 70:2; 71:13; 86:14), the faithful seek the LORD or His face (24:6; 27:4, 8; 40:16; 69:6; 70:4; 105:3–4), the wicked seeks to slay the righteous (37:32); only 119:176 asks the LORD to seek a man'
     key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'הָ/אֹבֶ֤דֶת'
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'מְבַקְשֵׁ֪י'
+  - where: 'section “The law restores the soul, and then the plea”'
+    claim: 'Jer. 50:6 has “lost” (ʾābad, ʾōbĕdôt) of the sheep and “forgotten” (šākaḥ, H7911) of their resting place; 119:176 has ʾābad and “I do not forget” (šākaḥ)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
+    quote: 'אֹֽבְדוֹת֙'
+  - where: 'section “The law restores the soul, and then the plea”'
+    claim: 'Jer. 50:6 “they have forgotten,” šākĕḥû'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
+    quote: 'שָׁכְח֖וּ'
+  - where: 'section “The law restores the soul, and then the plea”'
+    claim: 'Ps. 119:176 “I do not forget,” šākāḥtî negated'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁכָֽחְתִּי'
+  - where: 'section “The law restores the soul, and then the plea”'
+    claim: 'Connection made by this page: the Cambridge Bible sends the reader from 119:176 to Jer. 50:6; the contrast is the page’s own: Jeremiah’s lost sheep have forgotten their resting place, Psalm 119’s has not forgotten the commandments and gives that as the reason God should come'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/50?lang=eng'
+    quote: 'My people hath been lost sheep: their shepherds have caused them to go astray, they have turned them away on the mountains: they have gone from mountain to hill, they have forgotten their restingplace.'
+
+  # ---------- He restoreth my soul ----------
+  - where: 'section “The law restores the soul, and then the plea”'
+    claim: 'The Cambridge Bible on 119:176 compares Israel in the Dispersion as a strayed sheep, Jer. 50:6, 17'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/119.htm'
+    quote: 'So Israel in the Dispersion is compared to a strayed sheep, Jeremiah 50:6; Jeremiah 50:17'
+  - where: 'section “He restoreth my soul”'
+    claim: 'Ps. 23:3 “He restoreth my soul” is the Polel of šûb (H7725), yĕšôbēb, with nepeš (H5315), the verb and noun of 19:7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'יְשׁוֹבֵ֑ב'
+  - where: 'section “He restoreth my soul”'
+    claim: 'Six verses in Psalms have šûb and nepeš together (6:4; 19:7; 23:3; 35:13; 35:17; 116:7); in 19:7 the law is the subject, in 23:3 the LORD'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'נַפְשִׁ֥/י'
+  - where: 'section “He restoreth my soul”'
+    claim: 'Delitzsch at 19:7 cross-references Ps. 23:3'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/19.htm'
+    quote: '(cf. Pil. שׁובב, Psalm 23:3)'
+  - where: 'section “He restoreth my soul”'
+    claim: 'The Cambridge Bible on 19:7: restoring the soul, cp. Psalm 23:3'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/19.htm'
+    quote: 'converting the soul] Rather, as R.V., restoring the soul; refreshing and invigorating man’s true self (cp. Psalm 23:3)'
+  - where: 'section “He restoreth my soul”'
+    claim: 'The Cambridge Bible on 23:3: He restoreth my soul, cp. Psalm 19:7, note'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/23.htm'
+    quote: 'He restoreth my soul] Renews and sustains my life. Cp. Psalm 19:7, note.'
+  - where: 'section “He restoreth my soul”'
+    claim: 'The Septuagint uses epistrephō at both Ps. 18:8 (19:7) and 22:3 (23:3)'
+    key: lxx-rahlfs
+    url: 'https://www.ellopos.net/elpenor/greek-texts/septuagint/chapter.asp?book=24&page=18'
+    quote: 'ὁ νόμος τοῦ Κυρίου ἄμωμος, ἐπιστρέφων ψυχάς'
+  - where: 'section “He restoreth my soul”'
+    claim: 'Septuagint Ps. 22:3 (23:3), tēn psychēn mou epestrepsen'
+    key: lxx-rahlfs
+    url: 'https://www.ellopos.net/elpenor/greek-texts/septuagint/chapter.asp?book=24&page=22'
+    quote: 'τὴν ψυχήν μου ἐπέστρεψεν'
+  - where: 'section “He restoreth my soul”'
+    claim: 'Connection made by this page: the lost sheep of 119:176 asks for the shepherd of Psalm 23, who restores the soul as the law does (19:7) and also seeks, which a law cannot; the Psalter places the answer before the question; the commentaries join 19:7 and 23:3 as wording only'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/23?lang=eng'
+    quote: 'He restoreth my soul: he leadeth me in the paths of righteousness for his name’s sake.'
+
+  # ---------- I will seek that which was lost ----------
   - where: 'section “I will seek that which was lost”'
-    claim: 'Ezek. 34:16 “I will seek” is the same verb as “seek” in Ps. 119:176 (H1245)'
+    claim: 'Ezek. 34:16 “I will seek” is bāqaš (H1245), ʾăbaqqēš, and “that which was lost” is ʾābad (H6), hāʾōbedet: the two words of Ps. 119:176'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
     quote: 'אֲבַקֵּשׁ֙'
   - where: 'section “I will seek that which was lost”'
-    claim: 'The Hebrew “seek” of 119:176 (H1245)'
+    claim: 'Ezek. 34:16 “that which was lost,” hāʾōbedet'
     key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'בַּקֵּ֣שׁ'
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'הָ/אֹבֶ֤דֶת'
   - where: 'section “I will seek that which was lost”'
-    claim: 'Connection made by this page: the psalmist’s request (Ps. 119:176) and the LORD’s promise (Ezek. 34:16) are in the same two Hebrew words'
+    claim: 'The Cambridge Bible reads 119:176 as beseeching God, in accordance with His promise in Ezek. 34:11 ff., to seek for him'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/119.htm'
+    quote: 'in accordance with His promise (Ezekiel 34:11 ff.) to seek for him'
+  - where: 'section “I will seek that which was lost”'
+    claim: 'Ezek. 34:16 “bring again” is the Hiphil of šûb (H7725), ʾāšîb, the stem of 19:7’s mĕšîbat'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'אָשִׁ֔יב'
+  - where: 'section “I will seek that which was lost”'
+    claim: 'Septuagint Ezek. 34:16: to apolōlos zētēsō, the two words of Luke 19:10 and of LXX Ps. 118:176'
+    key: lxx-rahlfs
+    url: 'https://www.ellopos.net/elpenor/greek-texts/septuagint/chapter.asp?book=48&page=34'
+    quote: 'τὸ ἀπολωλὸς ζητήσω καὶ τὸ πλανώμενον ἐπιστρέψω'
+  - where: 'section “I will seek that which was lost”'
+    claim: 'The Church’s footnote at Ezek. 34:16 “lost” points to Luke 15:4; 19:10'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/34?lang=eng'
-    quote: 'I will seek that which was lost, and bring again that which was driven away'
+    quote: 'Luke 15:4; 19:10.'
   - where: 'section “I will seek that which was lost”'
-    claim: 'Isa. 53:6 uses the verb “gone astray” of Ps. 119:176'
+    claim: 'Luke 19:10 Greek: zētēsai … to apolōlos'
+    key: greek-nt
+    url: 'https://biblehub.com/interlinear/luke/19.htm'
+    quote: 'ζητῆσαι'
+  - where: 'section “I will seek that which was lost”'
+    claim: 'Luke 19:10 Greek, apolōlos'
+    key: greek-nt
+    url: 'https://biblehub.com/interlinear/luke/19.htm'
+    quote: 'ἀπολωλός'
+  - where: 'section “I will seek that which was lost”'
+    claim: 'Septuagint Ps. 118:176: zētēson ton doulon sou … probaton apolōlos, the two words of Luke 19:10'
+    key: lxx-rahlfs
+    url: 'https://www.ellopos.net/elpenor/greek-texts/septuagint/chapter.asp?book=24&page=118'
+    quote: 'ζήτησον τὸν δοῦλόν σου'
+  - where: 'section “I will seek that which was lost”'
+    claim: 'Connection made by this page: Luke 19:10 carries the two Greek words of Septuagint Ezek. 34:16, and the same two words stand in Septuagint Ps. 118:176; the Church’s footnotes join Luke 19:10 to Ezekiel, not to the psalm; the step to Psalm 119 is the page’s own'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/19?lang=eng'
+    quote: 'For the Son of man is come to seek and to save that which was lost.'
+  - where: 'section “I will seek that which was lost”'
+    claim: 'John 10:28 “they shall never perish” is apollymi (apolōntai), the root of apolōlos (Luke 19:10; LXX Ps. 118:176) and of LXX Ps. 1:6 apoleitai'
+    key: greek-nt
+    url: 'https://biblehub.com/interlinear/john/10.htm'
+    quote: 'ἀπόλωνται'
+  - where: 'section “I will seek that which was lost”'
+    claim: 'Septuagint Ps. 1:6, the way of the ungodly apoleitai'
+    key: lxx-rahlfs
+    url: 'https://www.ellopos.net/elpenor/greek-texts/septuagint/chapter.asp?book=24&page=1'
+    quote: 'καὶ ὁδὸς ἀσεβῶν ἀπολεῖται.'
+  - where: 'section “I will seek that which was lost”'
+    claim: 'Isa. 53:6 “have gone astray” is tāʿâ (H8582), tāʿînû, the verb of Ps. 119:176'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
     quote: 'תָּעִ֔ינוּ'
   - where: 'section “I will seek that which was lost”'
-    claim: 'Isa. 53:6 wording'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/53?lang=eng'
-    quote: 'the Lord hath laid on him the iniquity of us all'
-  - where: 'section “I will seek that which was lost”'
-    claim: 'The Topical Guide “Sheep” lists 119:176 with Isa. 53:6, 1 Pet. 2:25 and Alma 5:37'
+    claim: 'The Topical Guide “Sheep” lists Ps. 119:176 with Isa. 53:6, 1 Pet. 2:25, Mosiah 14:6 and Alma 5:37'
     key: tg-sheep
     url: 'https://www.churchofjesuschrist.org/study/scriptures/tg/sheep?lang=eng'
     quote: 'gone astray like a lost sheep, Ps. 119:176 (Isa. 53:6; 1 Pet. 2:25; Mosiah 14:6; Alma 5:37).'
-  - where: 'section “The lawgiver and the shepherd”'
-    claim: 'Luke 15:4 wording'
+  - where: 'section “I will seek that which was lost”'
+    claim: 'Rytting: Latter-day Saint teaching has primarily read the parables of Luke 15 as a call to missionary work and reactivation'
+    key: rytting-lost-sheep
+    url: 'https://byustudies.byu.edu/article/lost-sheep-lost-coins-and-lost-meanings'
+    quote: 'these parables (especially the first two) have primarily been interpreted as a call for missionary work, particularly reactivation.'
+  - where: 'section “I will seek that which was lost”'
+    claim: 'Rytting recovers the older reading with Christ as the shepherd and humankind as the sheep, which accords with Church teachings about the universality of Christ’s Atonement'
+    key: rytting-lost-sheep
+    url: 'https://byustudies.byu.edu/article/lost-sheep-lost-coins-and-lost-meanings'
+    quote: 'seeing the lost sheep as humankind as a whole accords with Church teachings about the universality of Christ’s Atonement'
+  - where: 'section “I will seek that which was lost”'
+    claim: 'Rytting: the older reading erases the false distinction between the righteous and sinners; all are in need of being found by the Shepherd'
+    key: rytting-lost-sheep
+    url: 'https://byustudies.byu.edu/article/lost-sheep-lost-coins-and-lost-meanings'
+    quote: 'The medieval interpretation also erases the false distinction among those who are accountable, between those who are “righteous” and those who are “sinners.”'
+  - where: 'section “I will seek that which was lost”'
+    claim: 'Rytting: all are in need of being found by the Shepherd'
+    key: rytting-lost-sheep
+    url: 'https://byustudies.byu.edu/article/lost-sheep-lost-coins-and-lost-meanings'
+    quote: 'Recognizing that all are in need of being found by the Shepherd recenters the parable’s focus on the Savior’s rescuing mission.'
+  - where: 'section “I will seek that which was lost”'
+    claim: 'President Uchtdorf: is it possible that the Savior’s message was that God is fully aware of those who are lost, and that He will find them, reach out to them, and rescue them?'
+    key: uchtdorf-shoulders
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2016/04/he-will-place-you-on-his-shoulders-and-carry-you-home?lang=eng'
+    quote: 'Is it possible that the Savior’s message was that God is fully aware of those who are lost—and that He will find them, that He will reach out to them, and that He will rescue them?'
+  - where: 'section “I will seek that which was lost”'
+    claim: 'President Uchtdorf: it matters not how you became lost, whether by your own poor choices or by circumstances beyond your control'
+    key: uchtdorf-shoulders
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2016/04/he-will-place-you-on-his-shoulders-and-carry-you-home?lang=eng'
+    quote: 'It matters not how you became lost—whether because of your own poor choices or because of circumstances beyond your control.'
+  - where: 'section “I will seek that which was lost”'
+    claim: 'Connection made by this page: no Latter-day Saint source found comments on Ps. 119:176 or says a commandment-keeping disciple can be the lost sheep; the page gives Luke 15:7 (the ninety and nine need no repentance) against it and Rytting’s “all are in need of being found” for it, and claims only that the psalm says it'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/15?lang=eng'
-    quote: 'go after that which is lost, until he find it'
-  - where: 'section “The lawgiver and the shepherd”'
-    claim: '1 Pet. 2:25 wording'
+    quote: 'go after that which is lost, until he find it?'
+
+  # ---------- He that gave the law ----------
+  - where: 'section “He that gave the law”'
+    claim: 'Shannon and Shannon on 3 Ne. 15:5: as the giver of the law, it is his law, not really the law of Moses but the law of Jehovah'
+    key: shannon-i-am-law
+    url: 'https://rsc.byu.edu/i-glory-my-jesus/i-am-law'
+    quote: 'reminding the Nephites that as the giver of the law, it is his law, and not really the law of Moses at all but rather the law of Jehovah.'
+  - where: 'section “He that gave the law”'
+    claim: 'S. Kent Brown: Moses was chiefly the transmitter of the Law; Jesus was its giver, its author'
+    key: brown-old-adorns-new
+    url: 'https://rsc.byu.edu/book-mormon-3-nephi-9-30-my-gospel/moses-jesus-old-adorns-new'
+    quote: 'Moses was chiefly the transmitter of the Law, its recipient. Jesus on the other hand was its giver, its author.'
+  - where: 'section “He that gave the law”'
+    claim: 'Connection made by this page: the LORD whose law the psalmist loved is the LORD he asked to seek him; 3 Ne. 15 has Him say both “I am he that gave the law” (15:5) and “ye are my sheep” (15:24); the sources read name Him the giver of the law and none joins that title to the shepherd’s; the law in 3 Ne. 15 is the law of Moses, the psalmist’s torah is wider, but the giver is the same; Psalm 19’s law section ends “my redeemer” (19:14) and Psalm 119 ends in a plea to be sought, and on the page’s reading both turn from the law to its giver, who is the shepherd'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/2?lang=eng'
-    quote: 'For ye were as sheep going astray; but are now returned unto the Shepherd and Bishop of your souls.'
-  - where: 'section “The lawgiver and the shepherd”'
-    claim: 'The Topical Guide “Jesus Christ, Good Shepherd” lists Ps. 95:7 with John 10:14'
-    key: tg-jesus-christ-good-shepherd
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/tg/jesus-christ-good-shepherd?lang=eng'
-    quote: 'people of his pasture, and the sheep of his hand, Ps. 95:7.'
-  - where: 'section “The lawgiver and the shepherd”'
-    claim: 'Connection made by this page: “sheep… hear… voice” in John 10:27 and Ps. 95:7 (King James wording)'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/15?lang=eng'
+    quote: 'Behold, I am he that gave the law, and I am he who covenanted with my people Israel; therefore, the law in me is fulfilled, for I have come to fulfil the law; therefore it hath an end.'
+  - where: 'section “He that gave the law”'
+    claim: '3 Ne. 15:21 “one fold, and one shepherd”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/15?lang=eng'
+    quote: 'and there shall be one fold, and one shepherd.'
+  - where: 'section “He that gave the law”'
+    claim: '3 Ne. 15:24 “ye are my sheep”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/15?lang=eng'
+    quote: 'ye are my sheep, and ye are numbered among those whom the Father hath given me.'
+
+  # ---------- The disciple who has not forgotten ----------
+  - where: 'section “The disciple who has not forgotten”'
+    claim: 'Come, Follow Me 2026 on Psalm 119: look for words like walk, path, way, feet and wander; its phrases compare our lives to a journey back to Heavenly Father'
+    key: cfm-ot-2026-36
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/36?lang=eng'
+    quote: 'Psalm 119 contains many phrases that compare our lives to a journey back to Heavenly Father. As you read, look for words like “walk,” “path,” “way,” “feet,” and “wander.”'
+  - where: 'section “The disciple who has not forgotten”'
+    claim: 'President Uchtdorf: God will not rescue us against our will; turning to Him is how we show Him we want to be rescued'
+    key: uchtdorf-shoulders
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2016/04/he-will-place-you-on-his-shoulders-and-carry-you-home?lang=eng'
+    quote: 'This is how we show Him that we want to be rescued.'
+  - where: 'section “The disciple who has not forgotten”'
+    claim: 'President Nelson: because God has hesed for those who have covenanted with Him, He will love them; should they stray, He will help them find their way back'
+    key: nelson-everlasting-covenant
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/10/04-the-everlasting-covenant?lang=eng'
+    quote: 'Because God has hesed for those who have covenanted with Him, He will love them. He will continue to work with them and offer them opportunities to change. He will forgive them when they repent. And should they stray, He will help them find their way back to Him.'
+  - where: 'section “The disciple who has not forgotten”'
+    claim: 'Scripture Helps prints President Nelson’s hesed sentence at Psalm 26'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'And should they stray, He will help them find their way back to Him.'
+  - where: 'section “The disciple who has not forgotten”'
+    claim: 'Scripture Helps quotes President Holland on the shepherd’s staff of Psalm 23: the great scriptural instrument of rescue and redemption'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'It is the great scriptural instrument of rescue and redemption.'
+  - where: 'section “The disciple who has not forgotten”'
+    claim: 'Scripture Helps quotes President Holland: whether in threatening confrontations or routine wandering, we are blessed and protected by God’s vigilant care'
+    key: scripture-helps-ps-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
+    quote: 'Whether it be in threatening confrontations or routine wandering, we are blessed and protected by God’s vigilant care.'
+  - where: 'section “The disciple who has not forgotten”'
+    claim: 'Connection made by this page: Psalm 1’s “shall perish,” the law-lover’s “lost,” and John 10:28’s “never perish” are one word in the Greek; the one who gave the law seeks the sheep; the shepherd’s seeking rests on covenant love (Nelson) and “seek thy servant” is the asking (Uchtdorf); the psalm’s last words in Hebrew are “I do not forget”'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/10?lang=eng'
-    quote: 'My sheep hear my voice, and I know them, and they follow me'
-  - where: 'section “The lawgiver and the shepherd”'
-    claim: 'Ps. 95:7 wording'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/95?lang=eng'
-    quote: 'we are the people of his pasture, and the sheep of his hand. To day if ye will hear his voice'
-  - where: 'section “The lawgiver and the shepherd”'
-    claim: 'Connection made by this page: the Lord who says He gave the law (3 Ne. 15:5) set beside the Son of man who came to seek the lost (Luke 19:10)'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/15?lang=eng'
-    quote: 'Behold, I am he that gave the law, and I am he who covenanted with my people Israel; therefore, the law in me is fulfilled'
-  - where: 'section “The lawgiver and the shepherd”'
-    claim: '3 Ne. 15:9 wording'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/15?lang=eng'
-    quote: 'Behold, I am the law, and the light.'
-  - where: 'section “The lawgiver and the shepherd”'
-    claim: 'Luke 19:10 wording'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/19?lang=eng'
-    quote: 'For the Son of man is come to seek and to save that which was lost.'
-  - where: 'section “The lawgiver and the shepherd”'
-    claim: 'The Church’s footnote at Ezek. 34:16 (“lost”) refers to Luke 15:4 and 19:10'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/34?lang=eng'
-    quote: 'Luke 15:4; 19:10'
-  - where: 'section “The lawgiver and the shepherd”'
-    claim: '3 Ne. 15:10 wording'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/15?lang=eng'
-    quote: 'I have given unto you the commandments; therefore keep my commandments.'
+    quote: 'and they shall never perish'

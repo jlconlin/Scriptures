@@ -1,117 +1,330 @@
 page: that-ye-may-know
 claims:
-  - where: opening
-    claim: 'The Hebrew verb behind “know” is one verb, yada‘ (H3045), in 5:2 and 7:5 (and throughout the run)'
+  # ---------- opening ----------
+  - where: 'opening'
+    claim: 'yādaʿ (H3045) occurs 45 times in 43 verses of Exodus; kî ʾănî YHWH (“that I am the LORD”) 11 times (6:7, 7:5, 7:17, 8:22, 10:2, 14:4, 14:18, 15:26, 16:12, 29:46, 31:13), 10 of them after a form of yādaʿ (15:26 is the one without); 5 of Egypt or Pharaoh (7:5, 7:17, 8:22, 14:4, 14:18), 5 of Israel (6:7, 10:2, 16:12, 29:46, 31:13)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
     quote: 'וְ/יָדְע֤וּ'
-  - where: opening
-    claim: 'The Hebrew verb behind “know” in 5:2'
+  - where: 'opening'
+    claim: '5:2 “I know not” is lōʾ yādaʿtî (Qal perfect 1cs)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
     quote: 'יָדַ֨עְתִּי֙'
-  - where: opening
-    claim: 'Connection made by this page: after a first promise to Israel (6:7), the verses turn to Egypt (to know by plague and sea) and back to Israel (by rescue, bread, and at last His dwelling), and Moses asks to know Him; the words set side by side are 7:5 and 29:46'
+  - where: 'opening'
+    claim: 'Connection made by this page: the object of the ten “know” clauses changes from Egypt’s (place and extent: 8:22, 9:14, 9:29) to Israel’s (relation: “your God,” “their God,” “that doth sanctify you”) to Moses’s “know thee” (33:13), read as the book’s answer to 5:2; and the comparison of 33:13 with John 17:3. No commentator traces the change or makes the John 17:3 comparison.'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/7?lang=eng'
-    quote: 'And the Egyptians shall know that I am the LORD, when I stretch forth mine hand upon Egypt, and bring out the children of Israel from among them.'
-  - where: section “Who is the LORD?”
-    claim: 'Jehovah is the premortal Jesus Christ'
-    key: bd-jehovah
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
-    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
-  - where: section “Who is the LORD?”
-    claim: 'Jehovah is the premortal Jesus Christ; “Lord” in the Old Testament usually means Jehovah'
-    key: gs-jehovah
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
-    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary'
-  - where: section “Egypt, by plague and by the sea”
-    claim: 'The frogs (8:10) and the firstborn (11:7) are also verses of knowing; 11:7 form is plural “ye may know”'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
-    quote: 'תֵּֽדְע֔וּ/ן'
-  - where: section “Egypt, by plague and by the sea”
-    claim: 'The Church’s edition cross-references 7:5 “know” to 14:4'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/5?lang=eng'
+    quote: 'I know not the Lord, neither will I let Israel go.'
+
+  # ---------- section “I know not the LORD” ----------
+  - where: 'section “I know not the LORD”'
+    claim: 'Ellicott on 5:2: Pharaoh means that Jehovah “can have no authority over him, as He is not one of his gods”'
+    key: ellicott-exodus
+    url: 'https://biblehub.com/commentaries/ellicott/exodus/5.htm'
+    quote: 'He can have no authority over him, as He is not one of his gods'
+  - where: 'section “I know not the LORD”'
+    claim: 'Keil on 5:2: “There was a certain truth in these last words. The God of Israel had not yet made Himself known to him. But this was no justification.”'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/5.htm'
+    quote: 'There was a certain truth in these last words. The God of Israel had not yet made Himself known to him. But this was no justification.'
+  - where: 'section “I know not the LORD”'
+    claim: 'Scripture Helps on 6:3: the text suggests the name was unknown to the patriarchs, which “contradicts earlier Old Testament accounts”; the JST makes it a rhetorical question “Was not my name known unto them?”'
+    key: scripture-helps-ex-1
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/12-exodus-1-6?lang=eng'
+    quote: 'contradicts earlier Old Testament accounts which state that the name of the Lord was known to earlier people'
+  - where: 'section “I know not the LORD”'
+    claim: 'Student Manual on 6:3: the verse can be read as a question; quotes JST Ex. 6:3 “And was not my name known unto them?”; “The answer is yes!”'
+    key: ot-manual-ex-1-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/exodus-1-10-let-my-people-go?lang=eng'
+    quote: 'And was not my name known unto them?” (JST, Exodus 6:3.) The answer is yes!'
+  - where: 'section “I know not the LORD”'
+    claim: 'Ex. 6:3 footnote 3c → JST Ex. 6:3 (the question); the KJV reading'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/7?lang=eng'
-    quote: '5a “know”: Ex. 14:4.'
-  - where: section “Who is the LORD?”
-    claim: 'Pharaoh admitted he did not know the Lord; the Lord assured Egypt they shall know (7:5)'
-    key: ot-minute-ex-1
-    url: 'https://scripturecentral.org/archive/books/book-chapter/exodus-1-6'
-    quote: 'He admitted that he did not know the Lord. We will see later that the Lord assured Egypt that “[they] shall know that I am the Lord, when I stretch forth mine hand upon Egypt, and bring out the children of Israel from among them” (7:5).'
-  - where: section “Egypt, by plague and by the sea”
-    claim: 'The Egyptians’ knowing at the sea: 14:4 and 14:18 (the last verse with Egypt as the one to know)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
-    quote: 'וְ/יָדְע֥וּ'
-  - where: section “Egypt, by plague and by the sea”
-    claim: 'The plagues’ stated purposes: that Pharaoh and the Egyptians shall know, and that there is none like the LORD'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/6?lang=eng'
+    quote: 'but by my name JEHOVAH was I not known to them.'
+  - where: 'section “I know not the LORD”'
+    claim: 'Ellicott on 6:3: “Rather, was I not made manifest to them”; the name was known to the patriarchs but its full meaning was not'
+    key: ellicott-exodus
+    url: 'https://biblehub.com/commentaries/ellicott/exodus/6.htm'
+    quote: 'Rather, was I not made manifest to them.'
+  - where: 'section “I know not the LORD”'
+    claim: 'Cambridge on 6:3: “Or (cf. Ezekiel 20:5), made I not myself known.”'
+    key: cambridge-exodus
+    url: 'https://biblehub.com/commentaries/cambridge/exodus/6.htm'
+    quote: 'made I not myself known'
+  - where: 'section “I know not the LORD”'
+    claim: 'Keil on 6:3: the patriarchs knew Him as El Shaddai; now He was about to reveal Himself to Israel as Jehovah, the absolute Being working in the performance of His promises'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/6.htm'
+    quote: 'but now He was about to reveal Himself to Israel as Jehovah, as the absolute Being working with unbounded freedom in the performance of His promises.'
+  - where: 'section “I know not the LORD”'
+    claim: 'Cambridge on 6:7: “ye shall know” = “learn by what you witness and experience that I am Jehovah, your Deliverer”; lists 7:5, 14:4, 14:18, 16:12, 29:46; the sentence type “extremely common in Ezek.… (more than 50 times altogether)”'
+    key: cambridge-exodus
+    url: 'https://biblehub.com/commentaries/cambridge/exodus/6.htm'
+    quote: 'learn by what you witness and experience that I am Jehovah, your Deliverer; so Exodus 7:5; Exodus 14:4; Exodus 14:18; Exodus 16:12; Exodus 29:46'
+  - where: 'section “I know not the LORD”'
+    claim: 'Cambridge on 6:7, same note: “extremely common in Ezek.” … “(more than 50 times altogether)”'
+    key: cambridge-exodus
+    url: 'https://biblehub.com/commentaries/cambridge/exodus/6.htm'
+    quote: 'more than 50 times altogether'
+  - where: 'section “I know not the LORD”'
+    claim: 'Footnote 6:7c “know” → 1 Ne. 17:13; footnote 6:7b “God” → Gen. 17:8; Ex. 29:45 (45–46); Deut. 29:13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/6?lang=eng'
+    quote: 'and ye shall know that I am the Lord your God, which bringeth you out from under the burdens of the Egyptians.'
+  - where: 'section “I know not the LORD”'
+    claim: '1 Ne. 17:13 “ye shall know that it is by me that ye are led”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/17?lang=eng'
+    quote: 'ye shall know that it is by me that ye are led'
+
+  # ---------- section “The Egyptians shall know” ----------
+  - where: 'section “The Egyptians shall know”'
+    claim: 'Ellicott on 7:5: “one of the main lessons intended to be taught by the whole series of miraculous events connected with the Exodus”'
+    key: ellicott-exodus
+    url: 'https://biblehub.com/commentaries/ellicott/exodus/7.htm'
+    quote: 'one of the main lessons intended to be taught by the whole series of miraculous events connected with the Exodus'
+  - where: 'section “The Egyptians shall know”'
+    claim: 'Scripture Helps on Ex. 7–11: the plagues “clearly demonstrated that Jehovah was more powerful than the gods of Egypt, including Pharaoh, who was seen by the Egyptians as a god”'
     key: scripture-helps-ex-7
     url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/13-exodus-7-13?lang=eng'
-    quote: 'The Lord said that through the plagues He would send, Pharaoh and the Egyptians “shall know that I am the Lord” and that “there is none like me in all the earth.”'
-  - where: section “Egypt, by plague and by the sea”
-    claim: 'The plagues demonstrate the Lord’s superior status as the true God'
-    key: sc-knowhy-631
-    url: 'https://scripturecentral.org/knowhy/why-were-particular-plagues-sent-against-egypt'
-    quote: 'a series of ten plagues is brought down upon Egypt to compel Pharaoh’s hand and demonstrate the Lord’s superior status as the true God (Exodus 7–12).'
-  - where: section “Israel, by rescue and bread”
-    claim: 'The purpose of the signs, “ye may know how that I am the Lord,” was also passed on to Israel'
-    key: ot-minute-ex-7
-    url: 'https://scripturecentral.org/archive/books/book-chapter/exodus-7-13'
-    quote: 'This purpose, that “ye may know how that I am the Lord,” was also passed on to the children of Israel.'
-  - where: section “Now I know”
-    claim: '18:11 is the only verse in which someone says he has come to know the LORD; Pharaoh’s “I know not” (5:2) is the same verb form (yada‘ qal perfect, yāda‘tî), with a negative; no later verse has a foreigner as the one to know'
+    quote: 'The plagues clearly demonstrated that Jehovah was more powerful than the gods of Egypt, including Pharaoh, who was seen by the Egyptians as a god.'
+  - where: 'section “The Egyptians shall know”'
+    claim: 'Keil on the plagues: first three, “that He, the God of Israel, was Jehovah (Exodus 7:17), i.e., that He ruled as Lord and King over the occurrences and powers of nature, which the Egyptians for the most part honoured as divine”'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/7.htm'
+    quote: 'that He, the God of Israel, was Jehovah (Exodus 7:17), i.e., that He ruled as Lord and King over the occurrences and powers of nature, which the Egyptians for the most part honoured as divine'
+  - where: 'section “The Egyptians shall know”'
+    claim: 'Keil: the fourth plague proved “that the God of Israel was Jehovah in the midst of the land (Exodus 8:22)”; from the last three “he had to learn … that there was no god in the whole earth like Jehovah”'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/7.htm'
+    quote: 'he had to learn from the last three that there was no god in the whole earth like Jehovah'
+  - where: 'section “The Egyptians shall know”'
+    claim: 'Keil, same paragraph: “proving to Pharaoh that the God of Israel was Jehovah in the midst of the land (Exodus 8:22)”'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/7.htm'
+    quote: 'that the God of Israel was Jehovah in the midst of the land (Exodus 8:22)'
+  - where: 'section “The Egyptians shall know”'
+    claim: 'Cambridge on 9:16: Paul quotes the verse at Rom. 9:17'
+    key: cambridge-exodus
+    url: 'https://biblehub.com/commentaries/cambridge/exodus/9.htm'
+    quote: 'St Paul quotes this verse in Romans 9:17'
+  - where: 'section “The Egyptians shall know”'
+    claim: 'Connection made by this page: 7:5 “when I stretch forth mine hand upon Egypt” and 6:7 “which bringeth you out” are one act read from two sides, teaching two different things'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/7?lang=eng'
+    quote: 'And the Egyptians shall know that I am the Lord, when I stretch forth mine hand upon Egypt'
+  - where: 'section “The Egyptians shall know”'
+    claim: 'Muhlestein: the contest would “make it clear to the Israelites that he alone was divine; not Pharaoh, not the gods Pharaoh was one of or interacted with, but only Jehovah”'
+    key: muhlestein-pharaoh
+    url: 'https://rsc.byu.edu/creation-sinai/what-i-will-do-pharaoh'
+    quote: 'Jehovah would make it clear to the Israelites that he alone was divine; not Pharaoh, not the gods Pharaoh was one of or interacted with, but only Jehovah.'
+  - where: 'section “The Egyptians shall know”'
+    claim: 'Muhlestein: “A fervent knowledge of the divine kingship of Jehovah, so forcefully demonstrated throughout the plagues narrative” made the Sinai covenant “more meaningful and powerful”'
+    key: muhlestein-pharaoh
+    url: 'https://rsc.byu.edu/creation-sinai/what-i-will-do-pharaoh'
+    quote: 'A fervent knowledge of the divine kingship of Jehovah, so forcefully demonstrated throughout the plagues narrative, would play another important role soon thereafter.'
+  - where: 'section “The Egyptians shall know”'
+    claim: 'Pharaoh’s and Egypt’s recorded words after 5:2 (8:8, 9:27, 10:16, 12:32, 14:25) contain no form of yādaʿ; the one use of the verb of him after 5:2 is his servants’ question at 10:7 (tēdaʿ); 14:31 “believed” is Hiphil of ʾmn (H539), not yādaʿ; after 14:18 no form of yādaʿ in Exodus has Egypt or Pharaoh as knower'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
-    quote: 'יָדַ֔עְתִּי'
-  - where: section “Now I know”
-    claim: 'Jethro’s “Now I know” is exactly the point God made to Israel during the plagues'
+    quote: 'וַ/יַּֽאֲמִ֔ינוּ'
+  - where: 'section “The Egyptians shall know”'
+    claim: '10:7 “knowest thou not yet” is tēdaʿ, Pharaoh’s servants speaking'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'תֵּדַ֔ע'
+  - where: 'section “The Egyptians shall know”'
+    claim: 'Keil on 14:31: the deliverance “produced so wholesome a fear of the Lord, that they believed in Jehovah, and His servant Moses”'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/14.htm'
+    quote: 'produced so wholesome a fear of the Lord, that they believed in Jehovah, and His servant Moses.'
+
+  # ---------- section “Now I know” ----------
+  - where: 'section “Now I know”'
+    claim: 'Ellicott on 18:10–11: Jethro “adopted” the name from Moses “and expressed his conviction that Jehovah was exalted above all other gods”'
+    key: ellicott-exodus
+    url: 'https://biblehub.com/commentaries/ellicott/exodus/18.htm'
+    quote: 'adopted it from him, blessed His name, and expressed his conviction that Jehovah was exalted above all other gods.'
+  - where: 'section “Now I know”'
+    claim: 'Keil on ch. 18: in Jethro “the first-fruits of the heathen” entered the camp; his words relate to “all the plagues inflicted upon Egypt down to the destruction of Pharaoh and his army in the Red Sea”'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/18.htm'
+    quote: 'all the plagues inflicted upon Egypt down to the destruction of Pharaoh and his army in the Red Sea.'
+  - where: 'section “Now I know”'
+    claim: 'Keil, ch. 18 introduction: “in the person of Jethro the first-fruits of the heathen”'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/18.htm'
+    quote: 'in the person of Jethro the first-fruits of the heathen'
+  - where: 'section “Now I know”'
+    claim: 'Old Testament Minute on 18:7–12: Jethro’s “Now I know” was “exactly the point that God made to the Israelites during the plagues,” quoting 6:7'
     key: ot-minute-ex-18
     url: 'https://scripturecentral.org/archive/books/book-chapter/exodus-18-20'
     quote: 'This was exactly the point that God made to the Israelites during the plagues'
-  - where: section “By His dwelling, and by His sign”
-    claim: 'The Church’s edition cross-references 29:45 to 6:7'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/29?lang=eng'
-    quote: 'Ex. 6:7.'
-  - where: section “By His dwelling, and by His sign”
-    claim: 'Connection made by this page: the words “they shall know that I am the LORD,” said three times of the Egyptians (7:5; 14:4, 14:18), are said once of Israel, at 29:46'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/29?lang=eng'
-    quote: 'And they shall know that I am the LORD their God, that brought them forth out of the land of Egypt, that I may dwell among them: I am the LORD their God.'
-  - where: section “By His dwelling, and by His sign”
-    claim: 'The Hebrew form wĕyādĕ‘û, “they shall know that I am the LORD,” occurs only at 7:5, 14:4 and 14:18 (of the Egyptians) and 29:46 (its only use of Israel)'
+  - where: 'section “That I may dwell among them”'
+    claim: 'wĕyādĕʿû (waw + Qal perfect 3cp, “and they shall know”) occurs in Exodus only at 7:5, 14:4, 14:18 (Egypt) and 29:46 (Israel)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
     quote: 'וְ/יָדְע֗וּ'
-  - where: section “By His dwelling, and by His sign”
-    claim: 'The Sabbath is a sign of the covenant relationship'
+  - where: 'section “Now I know”'
+    claim: '18:11 “Now I know” is yādaʿtî, the only first-person human “I know” of the LORD in the book'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'יָדַ֔עְתִּי'
+
+  # ---------- section “That I may dwell among them” ----------
+  - where: 'section “That I may dwell among them”'
+    claim: 'Cambridge on 29:46: “they shall know” “by the evidences of His presence in their midst (cf. Exodus 16:6; Exodus 16:12)”'
+    key: cambridge-exodus
+    url: 'https://biblehub.com/commentaries/cambridge/exodus/29.htm'
+    quote: 'by the evidences of His presence in their midst (cf. Exodus 16:6; Exodus 16:12)'
+  - where: 'section “That I may dwell among them”'
+    claim: 'Ellicott on 29:46: “My after care of them will prove me the same loving and all-powerful God whose help effected their deliverance from the bondage of Egypt.”'
+    key: ellicott-exodus
+    url: 'https://biblehub.com/commentaries/ellicott/exodus/29.htm'
+    quote: 'My after care of them will prove me the same loving and all-powerful God whose help effected their deliverance from the bondage of Egypt.'
+  - where: 'section “That I may dwell among them”'
+    claim: 'Morales: the building of the tabernacle “may be seen as a major goal of the exodus”; 25:8 and 29:45–46 are “not merely incidental but programmatic”'
+    key: morales-tabernacle
+    url: 'https://journal.interpreterfoundation.org/the-tabernacle-mountain-of-god-in-the-cultus-of-israel/'
+    quote: 'may be seen as a major goal of the exodus'
+  - where: 'section “That I may dwell among them”'
+    claim: 'Morales, same introduction: “not merely incidental but programmatic”'
+    key: morales-tabernacle
+    url: 'https://journal.interpreterfoundation.org/the-tabernacle-mountain-of-god-in-the-cultus-of-israel/'
+    quote: 'not merely incidental but programmatic'
+  - where: 'section “That I may dwell among them”'
+    claim: 'Footnote 29:45a “I” → Ex. 6:7; footnote 6:7b → Ex. 29:45 (45–46): the Church’s edition joins the first promise and the dwelling in both directions'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/29?lang=eng'
+    quote: 'And they shall know that I am the Lord their God, that brought them forth out of the land of Egypt, that I may dwell among them: I am the Lord their God.'
+  - where: 'section “That I may dwell among them”'
+    claim: 'Connection made by this page: Egypt was to know the LORD by what He did to Egypt; Israel is to know the LORD their God by His living among them (29:46) and sanctifying them (31:13). No commentator reads 29:46 as the goal of the plagues’ clauses, and the page does not.'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/31?lang=eng'
+    quote: 'that ye may know that I am the Lord that doth sanctify you.'
+  - where: 'section “That I may dwell among them”'
+    claim: 'Scripture Helps on 31:12–17: the Sabbath a “sign” of their covenant relationship; “As they observed His Sabbath, the Lord promised to make His covenant people holy.”'
     key: scripture-helps-ex-19
     url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/15-exodus-19-20-24-31-34?lang=eng'
-    quote: 'The Lord taught the Israelites that He gave the Sabbath day to them as a “sign” of their covenant relationship with Him.'
-  - where: section “That I may know thee”
-    claim: 'The Church’s edition points 33:12 “know” to John 10:14'
+    quote: 'As they observed His Sabbath, the Lord promised to make His covenant people holy.'
+  - where: 'section “That I may dwell among them”'
+    claim: 'Cambridge on 31:13: Hebrew “simply to know”; “that all the world may recognize, by means of the sabbath, that it is Jehovah who ‘sanctifies’ Israel”'
+    key: cambridge-exodus
+    url: 'https://biblehub.com/commentaries/cambridge/exodus/31.htm'
+    quote: 'that all the world may recognize, by means of the sabbath, that it is Jehovah who ‘sanctifies’ Israel'
+
+  # ---------- section “That I may know thee” ----------
+  - where: 'section “That I may know thee”'
+    claim: 'Keil on 33:12: “though it has not been mentioned before, Jehovah had said to Moses, ‘I have known thee by name,’ – i.e., I have recognised thee as Mine, and chosen and called thee”'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/33.htm'
+    quote: 'I have recognised thee as Mine, and chosen and called thee'
+  - where: 'section “That I may know thee”'
+    claim: 'Cambridge on 33:12: “know thee by name] i.e. know thee individually, more intimately than the other Israelites”'
+    key: cambridge-exodus
+    url: 'https://biblehub.com/commentaries/cambridge/exodus/33.htm'
+    quote: 'know thee individually, more intimately than the other Israelites'
+  - where: 'section “That I may know thee”'
+    claim: 'Cambridge on 33:13: “shew] lit. make me to know”; “that I may know thee, &c.] understand what Thy nature and character is, and shape my petitions accordingly”; for “ways” it points to Deut. 32:4 and “see Exodus 34:6 f.”'
+    key: cambridge-exodus
+    url: 'https://biblehub.com/commentaries/cambridge/exodus/33.htm'
+    quote: 'understand what Thy nature and character is, and shape my petitions accordingly'
+  - where: 'section “That I may know thee”'
+    claim: 'Cambridge on 33:13, same note: “lit. make me to know”; “ways] His ways of dealing with men, Deuteronomy 32:4 : see Exodus 34:6 f.”'
+    key: cambridge-exodus
+    url: 'https://biblehub.com/commentaries/cambridge/exodus/33.htm'
+    quote: 'see Exodus 34:6 f.'
+  - where: 'section “That I may know thee”'
+    claim: '33:12 has hôdaʿtanî (Hiphil, “thou hast not made me know”) and yĕdaʿtîkā (Qal, “I have known thee”); 33:13 hôdiʿēnî (Hiphil imperative, KJV “shew me”) and wĕʾēdāʿăkā (“that I may know thee”); 33:17 wāʾēdāʿăkā (“I know thee”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'הוֹדִעֵ֤/נִי'
+  - where: 'section “That I may know thee”'
+    claim: '33:13 “that I may know thee,” wĕʾēdāʿăkā, the only clause in the book where a human asks to know the LORD Himself rather than “that I am the LORD”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'וְ/אֵדָ֣עֲ/ךָ֔'
+  - where: 'section “That I may know thee”'
+    claim: 'Keil on 33:13: “do not leave me in uncertainty as to Thine intentions concerning the people … that I may know Thee, that is to say, that my finding grace in Thine eyes may become a reality”'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/33.htm'
+    quote: 'that my finding grace in Thine eyes may become a reality'
+  - where: 'section “That I may know thee”'
+    claim: 'Cambridge on 33:17: “this thing also] i.e., as the text stands, accompany you personally to Canaan (v. 16)”; Keil: Jehovah assured him “that this request also should be granted” (vv. 15–16)'
+    key: cambridge-exodus
+    url: 'https://biblehub.com/commentaries/cambridge/exodus/33.htm'
+    quote: 'as the text stands, accompany you personally to Canaan (v. 16)'
+  - where: 'section “That I may know thee”'
+    claim: 'Keil on 33:17: the assurance answers vv. 15–16'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/33.htm'
+    quote: 'For this reason Jehovah assured him that this request also should be granted (Exodus 33:17).'
+  - where: 'section “That I may know thee”'
+    claim: 'Ex. 34:6, the name proclaimed; 33:17 closes “I know thee by name”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/34?lang=eng'
+    quote: 'The Lord, The Lord God, merciful and gracious, longsuffering, and abundant in goodness and truth'
+  - where: 'section “That I may know thee”'
+    claim: 'Footnote 33:12b “know” → John 10:14 (the marker sits on “I know thee by name”)'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/33?lang=eng'
-    quote: '12b “know”: John 10:14'
-  - where: section “That I may know thee”
-    claim: 'John 10:14 text'
+    quote: 'for thou hast found grace in my sight, and I know thee by name.'
+  - where: 'section “That I may know thee”'
+    claim: 'John 10:14 “I am the good shepherd, and know my sheep, and am known of mine.”'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/10?lang=eng'
     quote: 'I am the good shepherd, and know my sheep, and am known of mine.'
-  - where: section “That I may know thee”
-    claim: 'Connection made by this page: Moses’s “that I may know thee” (33:13) set beside John 17:3, “that they might know thee”'
+  - where: 'section “That I may know thee”'
+    claim: 'Bible Dictionary: “Jehovah is the premortal Jesus Christ”'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
+
+  # ---------- section “And this is life eternal” ----------
+  - where: 'section “And this is life eternal”'
+    claim: 'Connection made by this page: John 17:3 “that they might know thee” set beside Ex. 33:13 “that I may know thee” for the shared object; no source read makes the comparison (the Church’s edition links 33:12 to John 10:14 and 33:13 “way” to John 14:6)'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/17?lang=eng'
     quote: 'And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent.'
-  - where: section “That I may know thee”
-    claim: 'Eternal life is to live forever as families in God’s presence'
-    key: gs-eternal-life
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/eternal-life?lang=eng'
-    quote: 'To live forever as families in God’s presence (D&C 132:19–20, 24, 55).'
-  - where: section “That I may know thee”
-    claim: 'Without God there would be no mortal or eternal life'
+  - where: 'section “And this is life eternal”'
+    claim: 'Elder Hales, speaking on John 17:3: “I testify that the way to know the truth about God is through the Holy Ghost.”'
     key: hales-seeking-know
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2009/10/seeking-to-know-god-our-heavenly-father-and-his-son-jesus-christ?lang=eng'
-    quote: 'Indeed, without God, there would be no mortal or eternal life.'
+    quote: 'I testify that the way to know the truth about God is through the Holy Ghost.'
+  - where: 'section “And this is life eternal”'
+    claim: 'Elder Hales: “Why did the Savior say, “And this is life eternal, that they might know thee the only true God, and Jesus Christ, whom thou hast sent”?”'
+    key: hales-seeking-know
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2009/10/seeking-to-know-god-our-heavenly-father-and-his-son-jesus-christ?lang=eng'
+    quote: 'Why did the Savior say'
+  - where: 'section “And this is life eternal”'
+    claim: 'NT Student Manual on John 17:3: knowing God “means more than believing that He exists or having an intellectual understanding about Him; it means becoming acquainted with Him through personal experience and living His teachings”'
+    key: nt-student-manual-27
+    url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/introduction-to-the-gospel-according-to-st-john/chapter-27-john-17-19?lang=eng'
+    quote: 'means more than believing that He exists or having an intellectual understanding about Him; it means becoming acquainted with Him through personal experience and living His teachings'
+  - where: 'section “And this is life eternal”'
+    claim: 'NT Student Manual quoting Elder McConkie: “To know God is to think what he thinks, to feel what he feels, to have the power he possesses, to comprehend the truths he understands, and to do what he does.”'
+    key: nt-student-manual-27
+    url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/introduction-to-the-gospel-according-to-st-john/chapter-27-john-17-19?lang=eng'
+    quote: 'To know God is to think what he thinks, to feel what he feels, to have the power he possesses, to comprehend the truths he understands, and to do what he does.'
+  - where: 'section “And this is life eternal”'
+    claim: 'Cambridge on 6:7: “learn by what you witness and experience”'
+    key: cambridge-exodus
+    url: 'https://biblehub.com/commentaries/cambridge/exodus/6.htm'
+    quote: 'learn by what you witness and experience'
+  - where: 'section “And this is life eternal”'
+    claim: 'Elder Grow: “God knows you and invites you to know Him. Pray to the Father, study the scriptures, seek to do God’s will, strive to become like the Savior, and follow righteous mentors. As you do, you will come to know God and Jesus Christ, and you will inherit eternal life.” (Grow never mentions Moses.)'
+    key: grow-life-eternal-2017
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2017/04/and-this-is-life-eternal?lang=eng'
+    quote: 'God knows you and invites you to know Him. Pray to the Father, study the scriptures, seek to do God’s will, strive to become like the Savior, and follow righteous mentors. As you do, you will come to know God and Jesus Christ, and you will inherit eternal life.'
+  - where: 'section “And this is life eternal”'
+    claim: 'Connection made by this page: Elder Grow’s “God knows you and invites you to know Him” read as the order of Ex. 33:12–13 (the Lord’s “I know thee by name” before Moses’s “that I may know thee”); Grow does not mention Moses'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/33?lang=eng'
+    quote: 'Thou hast said, I know thee by name, and thou hast also found grace in my sight.'
+  - where: 'section “I know not the LORD”'
+    claim: 'Ellicott on 6:3: the name “was ancient, and known to the patriarchs”'
+    key: ellicott-exodus
+    url: 'https://biblehub.com/commentaries/ellicott/exodus/6.htm'
+    quote: 'the name was ancient, and known to the patriarchs'

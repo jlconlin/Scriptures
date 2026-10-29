@@ -1,152 +1,443 @@
 page: my-portion-for-ever
 claims:
-  - where: 'section “The promise, and the sight”'
-    claim: 'The Church’s cross-reference at “prosper” in Psalm 1:3 is Gen. 39:3 (Joseph)'
+  # ---------- opening ----------
+  - where: 'opening'
+    claim: 'Ps. 1:3 as quoted'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/1?lang=eng'
-    quote: '“prosper”: Gen. 39:3 (2–3); Mosiah 1:7; Alma 50:20'
-  - where: 'section “The promise, and the sight”'
-    claim: 'Joseph as a slave: the LORD made all that he did to prosper (Gen. 39:3)'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/39?lang=eng'
-    quote: 'And his master saw that the Lord was with him, and that the Lord made all that he did to prosper in his hand.'
-  - where: 'section “The promise, and the sight”'
-    claim: '“Prosper” in Psalm 1:3 is a Hebrew verb (H6743, tsalach)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'יַצְלִֽיחַ'
-  - where: 'section “The promise, and the sight”'
-    claim: '“Prospereth” in Psalm 37:7 is the same verb (H6743)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'בְּ/מַצְלִ֣יחַ'
-  - where: 'section “The promise, and the sight”'
-    claim: 'Connection made by this page: Psalm 1:3 (“whatsoever he doeth shall prosper”) set beside Psalm 37:7 (“him who prospereth in his way”), on the shared verb: what Psalm 1 promises the righteous, Psalm 37 admits of a wicked man'
+    quote: 'And he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season; his leaf also shall not wither; and whatsoever he doeth shall prosper.'
+  - where: 'opening'
+    claim: 'The Cambridge Bible’s introduction to Psalm 1 contrasts its simple confidence with the questionings of Psalms 37 and 73, where the prosperity of the wicked is a trial of faith (the pairing of 37 and 73 is the commentary’s)'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/1.htm'
+    quote: 'contrast with its simple confidence the questionings of 37 and 73, in which the problem of the prosperity of the wicked is treated as a trial of faith.'
+  - where: 'opening'
+    claim: 'Ps. 37:37 as quoted'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/37?lang=eng'
-    quote: 'fret not thyself because of him who prospereth in his way'
-  - where: 'section “I was envious”'
-    claim: '“Envious” in Psalm 37:1 is the Hebrew verb qana (H7065)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'תְּ֝קַנֵּ֗א'
-  - where: 'section “I was envious”'
-    claim: '“Envious” in Psalm 73:3 is the same verb (H7065)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'קִ֭נֵּאתִי'
-  - where: 'section “I was envious”'
-    claim: '“Prosperity” in Psalm 73:3 is shalom (H7965), “peace”'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'שְׁל֖וֹם'
-  - where: 'section “I was envious”'
-    claim: '“Peace” in Psalm 37:11 is the same word (H7965)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'שָׁלֽוֹם'
-  - where: 'section “I was envious”'
-    claim: 'Connection made by this page: Psalm 73:3 set beside Psalm 37:1 and 37:11: the speaker is envious, as 37:1 forbade, and sees the wicked holding the word (peace) that Psalm 37:11 gave the meek'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/73?lang=eng'
-    quote: 'For I was envious at the foolish, when I saw the prosperity of the wicked.'
-  - where: 'section “The sanctuary, and the portion”'
-    claim: '“Part” in Numbers 18:20 is the Hebrew heleq (H2506), the noun translated “portion” in Psalm 73:26'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
-    quote: 'חֶלְקְ/ךָ֙'
-  - where: 'section “The sanctuary, and the portion”'
-    claim: '“Portion” in Psalm 73:26 is heleq (H2506)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'וְ/חֶלְקִ֗/י'
-  - where: 'section “The sanctuary, and the portion”'
-    claim: '“Portion” in Psalm 17:14 (“their portion in this life”) is the same noun (H2506)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'חֶלְקָ֥/ם'
-  - where: 'section “The sanctuary, and the portion”'
-    claim: 'Connection made by this page: Psalm 17:14 (“their portion in this life”) set beside Psalm 73:26 (“my portion for ever”), on the shared noun: the two verses have a portion in this life and a portion for ever'
+    quote: 'Mark the perfect man, and behold the upright: for the end of that man is peace.'
+  - where: 'opening'
+    claim: 'Ps. 73:17 and 73:26 as quoted'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/73?lang=eng'
     quote: 'My flesh and my heart faileth: but God is the strength of my heart, and my portion for ever.'
-  - where: 'section “The sanctuary, and the portion”'
-    claim: 'Connection made by this page: Psalm 1:3 (“prosper”), Psalm 37:11 (“inherit the earth”) and Psalm 73:26 (“God is… my portion for ever”) read as a sequence in what is offered: how a man’s work fares, where he lives, whom he has'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/73?lang=eng'
-    quote: 'But God is the strength of my heart, and my portion for ever.'
-  - where: 'section “Planted in the house”'
-    claim: '“Planted” in Psalm 92:13 is the Hebrew shatal (H8362)'
+  - where: 'opening'
+    claim: 'The word for what Psalm 73 envied (73:3, “prosperity”) is šālôm, the word of 37:37 “peace”'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'שְׁ֭תוּלִים'
-  - where: 'section “Planted in the house”'
-    claim: '“Planted” (of the tree) in Psalm 1:3 is the same verb (H8362)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'שָׁת֪וּל'
-  - where: 'section “Planted in the house”'
-    claim: 'Connection made by this page: the tree of Psalm 1:3 set beside the righteous “planted in the house of the LORD” (92:13), the place where Psalm 73 turned (73:17)'
+    quote: 'שְׁל֖וֹם'
+  - where: 'opening'
+    claim: 'Num. 18:20 as quoted: the LORD to Aaron, “I am thy part”'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/92?lang=eng'
-    quote: 'Those that be planted in the house of the LORD shall flourish in the courts of our God.'
-  - where: 'section “The meek, the earth, and the Redemption”'
-    claim: '3 Nephi 12:5 has the same promise'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/12?lang=eng'
-    quote: 'And blessed are the meek, for they shall inherit the earth.'
-  - where: 'section “The meek, the earth, and the Redemption”'
-    claim: 'D&C 88:14, 17: the resurrection comes through the redemption made for us, and the redemption of the soul is through him that quickeneth all things, in whose bosom the poor and the meek shall inherit the earth'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/18?lang=eng'
+    quote: 'Thou shalt have no inheritance in their land, neither shalt thou have any part among them: I am thy part and thine inheritance among the children of Israel.'
+  - where: 'opening'
+    claim: 'Latter-day revelation sets the meek’s inheritance of the earth within the redemption (D&C 88:17)'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
     quote: 'And the redemption of the soul is through him that quickeneth all things, in whose bosom it is decreed that the poor and the meek of the earth shall inherit it.'
-  - where: 'section “The meek, the earth, and the Redemption”'
-    claim: 'D&C 88:14: through the redemption made for you comes the resurrection from the dead'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
-    quote: 'Now, verily I say unto you, that through the redemption which is made for you is brought to pass the resurrection from the dead.'
-  - where: 'section “The meek, the earth, and the Redemption”'
-    claim: 'The Church’s cross-reference at “meek” in D&C 88:17 includes Matt. 5:5'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
-    quote: '“meek”: Zeph. 2:3 (1–3); Matt. 5:5; D&C 38:20.'
-  - where: 'section “The meek, the earth, and the Redemption”'
-    claim: 'To inherit the earth means to inherit the celestial kingdom'
-    key: dc-student-manual-2017-88
-    url: 'https://www.churchofjesuschrist.org/study/manual/doctrine-and-covenants-student-manual-2017/chapter-33-doctrine-and-covenants-88-1-69?lang=eng'
-    quote: 'To inherit the earth means to inherit the celestial kingdom.'
-  - where: 'section “The meek, the earth, and the Redemption”'
-    claim: 'What the Father offers is Himself and His Son'
-    key: christofferson-relationship-god
-    url: 'https://www.churchofjesuschrist.org/study/general-conference/2022/04/41christofferson?lang=eng'
-    quote: 'What our Heavenly Father offers us is Himself and His Son, a close and enduring relationship with Them through the grace and mediation of Jesus Christ, our Redeemer.'
-  - where: 'section “The meek, the earth, and the Redemption”'
-    claim: 'The talk quotes “joint-heirs with Christ”; it does not cite the psalm'
-    key: christofferson-relationship-god
-    url: 'https://www.churchofjesuschrist.org/study/general-conference/2022/04/41christofferson?lang=eng'
-    quote: 'Recalling Paul’s expression, we are “joint-heirs with Christ; if so be that we suffer with him, that we may be also glorified together.”'
-  - where: 'section “The meek, the earth, and the Redemption”'
-    claim: 'Romans 8:17: heirs of God and joint-heirs with Christ, if we suffer with him'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/8?lang=eng'
-    quote: 'heirs of God, and joint-heirs with Christ; if so be that we suffer with him'
-  - where: 'section “The meek, the earth, and the Redemption”'
-    claim: 'Connection made by this page: Elder Christofferson’s “What our Heavenly Father offers us is Himself and His Son” set beside “God is… my portion for ever” (Ps. 73:26): each names God Himself as what is given; the words differ, and the talk does not cite the psalm'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/73?lang=eng'
-    quote: 'But God is the strength of my heart, and my portion for ever.'
-  - where: 'section “The sanctuary, and the portion”'
-    claim: '“Their end” in Psalm 73:17 is the Hebrew acharit (H319)'
+  # ---------- section “Whatsoever he doeth shall prosper” ----------
+  - where: 'section “Whatsoever he doeth shall prosper”'
+    claim: '“Prosper” in Ps. 1:3 is the verb ṣālaḥ (H6743)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'לְ/אַחֲרִיתָֽ/ם'
-  - where: 'section “The sanctuary, and the portion”'
-    claim: '“The end” in Psalm 37:37 and 37:38 is the same noun (H319)'
+    quote: 'יַצְלִֽיחַ'
+  - where: 'section “Whatsoever he doeth shall prosper”'
+    claim: 'The literal meaning of “prosper” in 1:3 is to carry through to a successful result'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/1.htm'
+    quote: 'The literal meaning of the word rendered prosper is to carry through to a successful result.'
+  - where: 'section “Whatsoever he doeth shall prosper”'
+    claim: 'Ps. 1:2, 1:4 and 1:6 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/1?lang=eng'
+    quote: 'For the Lord knoweth the way of the righteous: but the way of the ungodly shall perish.'
+  - where: 'section “Whatsoever he doeth shall prosper”'
+    claim: 'Cambridge calls Psalm 1 an appropriate prologue to the Psalter, which records the experiences of the godly'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/1.htm'
+    quote: 'The Psalm forms an appropriate prologue to the Psalter, which records the manifold experiences of the godly.'
+  # ---------- section “Fret not thyself because of him who prospereth” ----------
+  - where: 'section “Fret not thyself because of him who prospereth”'
+    claim: 'Ps. 37:1 and 37:7 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/37?lang=eng'
+    quote: 'Rest in the Lord, and wait patiently for him: fret not thyself because of him who prospereth in his way, because of the man who bringeth wicked devices to pass.'
+  - where: 'section “Fret not thyself because of him who prospereth”'
+    claim: '“Prospereth” in Ps. 37:7 is the verb of Ps. 1:3, ṣālaḥ (H6743; 4 occurrences in Psalms: 1:3, 37:7, 45:4, 118:25)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/מַצְלִ֣יחַ'
+  - where: 'section “Fret not thyself because of him who prospereth”'
+    claim: 'BDB files Ps. 37:7 and (probably) Ps. 1:3 together under the Hiphil of ṣālaḥ with a human subject'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6743.htm'
+    quote: 'Psalm 37:7, so probably Psalm 1:3'
+  - where: 'section “Fret not thyself because of him who prospereth”'
+    claim: 'Ps. 37:9, 11, 16, 18, 39 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/37?lang=eng'
+    quote: 'The Lord knoweth the days of the upright: and their inheritance shall be for ever.'
+  - where: 'section “Fret not thyself because of him who prospereth”'
+    claim: 'Delitzsch: the everlasting inheritance of 37:18 is not yet thought of as reaching into the future world'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/37.htm'
+    quote: 'The αἰώνιος κληρονομία is not as yet thought of as extending into the future world, as in the New Testament.'
+  - where: 'section “Fret not thyself because of him who prospereth”'
+    claim: 'Ps. 37:37–38 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/37?lang=eng'
+    quote: 'But the transgressors shall be destroyed together: the end of the wicked shall be cut off.'
+  - where: 'section “Fret not thyself because of him who prospereth”'
+    claim: '“End” in 37:37 and 37:38 is ʾaḥărît (H319)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'אַחֲרִ֖ית'
-  - where: 'section “The meek, the earth, and the Redemption”'
-    claim: 'God’s plan is not a cosmic vending machine that delivers a chosen blessing for a sum of good works'
+  - where: 'section “Fret not thyself because of him who prospereth”'
+    claim: 'The Church’s footnote at “end” in 37:38: HEB future'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/37?lang=eng'
+    quote: 'HEB future'
+  - where: 'section “Fret not thyself because of him who prospereth”'
+    claim: '“Peace” in 37:37 is šālôm (H7965)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁלֽוֹם'
+  - where: 'section “Fret not thyself because of him who prospereth”'
+    claim: 'BDB files ʾaḥărît at 37:37–38 under “posterity,” possibly not more than “a future”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/319.htm'
+    quote: 'concrete posterity (extension of usage noted above in Proverbs 24:20) Psalm 37:37; Psalm 37:38 (possibly not more than ''a future'' here)'
+  - where: 'section “Fret not thyself because of him who prospereth”'
+    claim: '“Peace” in 37:11 (“the abundance of peace”) is šālôm (H7965)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁלֽוֹם'
+  - where: 'section “Fret not thyself because of him who prospereth”'
+    claim: 'Pulpit at 37:1: faith in God’s retributive justice lets us calmly await “the end” (Psalm 73:17)'
+    key: pulpit-psalms
+    url: 'https://biblehub.com/commentaries/pulpit/psalms/37.htm'
+    quote: 'Faith in God''s retributive justice will enable us calmly to await "the end" (Psalm 73:17)'
+  # ---------- section “I was envious at the foolish” ----------
+  - where: 'section “I was envious at the foolish”'
+    claim: 'Ps. 73:2–3 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/73?lang=eng'
+    quote: 'For I was envious at the foolish, when I saw the prosperity of the wicked.'
+  - where: 'section “I was envious at the foolish”'
+    claim: '“Envious” in 73:3 is the verb of 37:1, qānāʾ (H7065)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'קִ֭נֵּאתִי'
+  - where: 'section “I was envious at the foolish”'
+    claim: '“Be thou envious” in 37:1 is qānāʾ (H7065)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תְּ֝קַנֵּ֗א'
+  - where: 'section “I was envious at the foolish”'
+    claim: 'Delitzsch at 73:3 points back to 37:1 for the verb'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/73.htm'
+    quote: 'קנּא with Beth of the object ion which the zeal or warmth of feeling is kindled (Psalm 37:1; Proverbs 3:31) here refers to the warmth of envious ill-feeling.'
+  - where: 'section “I was envious at the foolish”'
+    claim: 'Cambridge at 73:3 points back to 37:1, and gives “prosperity” as literally “the peace”'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/73.htm'
+    quote: 'I was envious] Cp. Psalm 37:1'
+  - where: 'section “I was envious at the foolish”'
+    claim: '“Prosperity” in 73:3 is literally “the peace”'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/73.htm'
+    quote: 'the prosperity] Lit. the peace.'
+  - where: 'section “I was envious at the foolish”'
+    claim: '“Prosperity” in 73:3 is šālôm (H7965), the word of 37:37'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שְׁל֖וֹם'
+  - where: 'section “I was envious at the foolish”'
+    claim: '“Prosper” in 73:12 is another word (H7961, its one occurrence in Psalms); Psalm 73 never uses ṣālaḥ (H6743 in Psalms only at 1:3, 37:7, 45:4, 118:25)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/שַׁלְוֵ֥י'
+  - where: 'section “I was envious at the foolish”'
+    claim: 'Connection made by this page: Psalm 73 names what it saw and envied with the word Psalm 37 joins to the righteous: the meek’s “abundance of peace” (šālôm, 37:11) and, as the King James Version reads 37:37, the upright man’s end of peace (73:3); so what Psalm 37 promised as the end of the righteous, the speaker of Psalm 73 saw as the present possession of the wicked, and his trouble is that the promise itself seemed to have gone to the wrong people'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/73?lang=eng'
+    quote: 'For I was envious at the foolish, when I saw the prosperity of the wicked.'
+  - where: 'section “I was envious at the foolish”'
+    claim: 'A Church article reads Asaph as feeling the wicked always prospered'
+    key: lds-bible-verses-strength
+    url: 'https://www.churchofjesuschrist.org/learn/articles/bible-verses-about-strength?lang=eng'
+    quote: 'who felt like the wicked were always prospering while the righteous were left to flounder with no obvious help from above.'
+  - where: 'section “I was envious at the foolish”'
+    claim: 'The same article: his problem was a temporal and temporary perspective'
+    key: lds-bible-verses-strength
+    url: 'https://www.churchofjesuschrist.org/learn/articles/bible-verses-about-strength?lang=eng'
+    quote: 'he finally realized that his problem was his inclination to see things from a temporal and temporary perspective.'
+  - where: 'section “I was envious at the foolish”'
+    claim: 'Ps. 73:13–14 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/73?lang=eng'
+    quote: 'Verily I have cleansed my heart in vain, and washed my hands in innocency.'
+  - where: 'section “I was envious at the foolish”'
+    claim: 'Job 21:7 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/job/21?lang=eng'
+    quote: 'Wherefore do the wicked live, become old, yea, are mighty in power?'
+  - where: 'section “I was envious at the foolish”'
+    claim: 'Jer. 12:1 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/12?lang=eng'
+    quote: 'Wherefore doth the way of the wicked prosper?'
+  - where: 'section “I was envious at the foolish”'
+    claim: '“Prosper” in Jer. 12:1 is ṣālaḥ (H6743), the verb of Ps. 1:3'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
+    quote: 'צָלֵ֔חָה'
+  - where: 'section “I was envious at the foolish”'
+    claim: 'Mal. 3:14 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/3?lang=eng'
+    quote: 'Ye have said, It is vain to serve God'
+  - where: 'section “I was envious at the foolish”'
+    claim: 'Ellicott reads Psalm 49 with 37 and 73 on the same question'
+    key: ellicott-psalms
+    url: 'https://biblehub.com/commentaries/ellicott/psalms/73.htm'
+    quote: 'Two psalms have already dealt with the question at some length, viz., Psalms 37, 49'
+  - where: 'section “I was envious at the foolish”'
+    claim: 'Delitzsch reads Psalm 73 with Psalms 37 and 49 and Job'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/73.htm'
+    quote: 'the doubts respecting the moral order of the world are set at rest in exactly the same way as in Psalm 37; Psalm 49, and in the Book of Job.'
+  - where: 'section “I was envious at the foolish”'
+    claim: 'Ps. 73:16–17 and 73:19 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/73?lang=eng'
+    quote: 'Until I went into the sanctuary of God; then understood I their end.'
+  - where: 'section “I was envious at the foolish”'
+    claim: '“Their end” in 73:17 is ʾaḥărît (H319), the word of 37:37–38'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לְ/אַחֲרִיתָֽ/ם'
+  - where: 'section “I was envious at the foolish”'
+    claim: 'BDB gives ʾaḥărît at 73:17 the sense “final lot”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/319.htm'
+    quote: '= final lot Deuteronomy 32:20,29; Jeremiah 12:4; Jeremiah 31:17; Psalm 73:17'
+  - where: 'section “I was envious at the foolish”'
+    claim: 'BDB files Psalm 37’s two occurrences (37:37–38) under “posterity” or “a future”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/319.htm'
+    quote: 'concrete posterity (extension of usage noted above in Proverbs 24:20) Psalm 37:37; Psalm 37:38 (possibly not more than ''a future'' here)'
+  - where: 'section “I was envious at the foolish”'
+    claim: 'Connection made by this page: in the sanctuary Psalm 73 is given Psalm 37’s other word (ʾaḥărît, 37:37–38; 73:17); Psalm 37 put the end and the peace in one line, Psalm 73 has them apart, the peace seen first (73:3) and the end understood only in the sanctuary (73:17), and once the end is understood the wicked’s peace loses its hold (73:19)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/73?lang=eng'
+    quote: 'How are they brought into desolation, as in a moment!'
+  - where: 'section “I was envious at the foolish”'
+    claim: 'Ellicott reads the end of 73:17 as consequences still in this world'
+    key: ellicott-psalms
+    url: 'https://biblehub.com/commentaries/ellicott/psalms/73.htm'
+    quote: 'but still consequences in this world, the thought of a hereafter not having established itself sufficiently to have an ethical force.'
+  - where: 'section “I was envious at the foolish”'
+    claim: 'The Church’s heading to Psalm 73: the wicked will be consumed with terrors hereafter'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/73?lang=eng'
+    quote: 'They will be consumed with terrors hereafter'
+  # ---------- section “My portion for ever” ----------
+  - where: 'section “My portion for ever”'
+    claim: 'Ps. 73:23–26 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/73?lang=eng'
+    quote: 'Whom have I in heaven but thee? and there is none upon earth that I desire beside thee.'
+  - where: 'section “My portion for ever”'
+    claim: 'The Church’s heading reads 73:24 of the life to come'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/73?lang=eng'
+    quote: 'Those who trust in the Lord will be received up unto glory.'
+  - where: 'section “My portion for ever”'
+    claim: 'Cambridge: the meaning of 73:24 is much disputed, and it reads “glory” as honour within this life'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/73.htm'
+    quote: 'The meaning of this verse is much disputed.'
+  - where: 'section “My portion for ever”'
+    claim: 'Cambridge reads the psalmist as looking for honour and deliverance in this world'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/73.htm'
+    quote: 'so he looks for such a deliverance and advancement in this world as will visibly demonstrate that he is the object of God’s loving favour'
+  - where: 'section “My portion for ever”'
+    claim: '“Strength” in 73:26 is literally “rock”'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/73.htm'
+    quote: 'God is the strength of my heart] Lit., the rock of my heart.'
+  - where: 'section “My portion for ever”'
+    claim: 'Cambridge reads 73:26 concessively, of failing bodily and mental powers; God is the possession that cannot be taken; he will not envy those whose portion is of the world (17:14)'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/73.htm'
+    quote: 'Though bodily and mental powers fail, God is his sure refuge in every danger (Psalm 62:2; Psalm 62:6-7), the possession which cannot be taken from him'
+  - where: 'section “My portion for ever”'
+    claim: 'Cambridge at 73:26: he will not envy those whose portion in life is of the world (Ps. 17:14)'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/73.htm'
+    quote: 'or envy those “whose portion in life is of the world” (Psalm 17:14).'
+  - where: 'section “My portion for ever”'
+    claim: 'Cambridge at 16:5: the word rendered share (ḥēleq) denotes a portion assigned, of land, property or food'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/16.htm'
+    quote: 'The word rendered share denotes a portion assigned, whether of land or property or food.'
+  - where: 'section “My portion for ever”'
+    claim: 'Delitzsch reads 73:26 of the outward and inward man perishing, God remaining the rock of his heart'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/73.htm'
+    quote: 'Though his outward and inward man perish, nevertheless God remains ever the rock of his heart'
+  - where: 'section “My portion for ever”'
+    claim: '“Portion” in 73:26 is ḥēleq (H2506); in Psalms it occurs at 16:5, 17:14, 50:18, 73:26, 119:57, 142:5, never in Psalm 37'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ/חֶלְקִ֗/י'
+  - where: 'section “My portion for ever”'
+    claim: 'Ps. 37:29 (and 37:18) as quoted: Psalm 37’s words for what the righteous receive are the inheritance and the land'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/37?lang=eng'
+    quote: 'The righteous shall inherit the land, and dwell therein for ever.'
+  - where: 'section “My portion for ever”'
+    claim: 'Num. 18:20 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/18?lang=eng'
+    quote: 'Thou shalt have no inheritance in their land, neither shalt thou have any part among them: I am thy part and thine inheritance among the children of Israel.'
+  - where: 'section “My portion for ever”'
+    claim: '“Part” in Num. 18:20 (“I am thy part”) is ḥēleq (H2506)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'חֶלְקְ/ךָ֙'
+  - where: 'section “My portion for ever”'
+    claim: '“Inheritance” in Num. 18:20 (“thine inheritance”) is naḥălâ (H5159)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'וְ/נַחֲלָ֣תְ/ךָ֔'
+  - where: 'section “My portion for ever”'
+    claim: '“Inheritance” in Ps. 37:18 is naḥălâ (H5159), the noun of Num. 18:20'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ֝/נַחֲלָתָ֗/ם'
+  - where: 'section “My portion for ever”'
+    claim: 'BDB files Num. 18:20 and Ps. 73:26 (with 119:57, Lam. 3:24, Ps. 16:5, 142:6) under one sense, the LORD as possession of his servants'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2506.htm'
+    quote: 'of ׳י as possession of his servants: of priests, as enjoying perquisites of altar Numbers 18:20 (P; "" נחלה), in spiritual sense Psalm 73:26; Psalm 119:57; Lamentations 3:24'
+  - where: 'section “My portion for ever”'
+    claim: 'Cambridge at Ps. 16:5: the language recalls the Levites, whose portion was Jehovah; spiritually He is the portion of individual Israelites, citing 73:26'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/16.htm'
+    quote: 'The language used here reminds us of the Levites, who had no portion or inheritance, but Jehovah was their portion'
+  - where: 'section “My portion for ever”'
+    claim: 'Cambridge at Ps. 16:5: and of individual Israelites (Psalm 73:26 …)'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/16.htm'
+    quote: 'and of individual Israelites (Psalm 73:26; Psalm 119:57; Psalm 142:5; Lamentations 3:24)'
+  - where: 'section “My portion for ever”'
+    claim: 'Asaph, named in the title of Psalm 73, was a Levite'
+    key: bd-asaph
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/asaph?lang=eng'
+    quote: 'A cymbal-playing Levite appointed leader of David’s choir.'
+  - where: 'section “My portion for ever”'
+    claim: 'Connection made by this page: Psalm 73’s speaker, given Psalm 37’s word “end” in the sanctuary, does not close by claiming Psalm 37’s land (37:18, 29) but names God as his ḥēleq, as the LORD was Aaron’s ḥēleq and naḥălâ in place of land (Num. 18:20); so the man who envied the wicked their peace ends with the portion that was never land, and the everlasting thing in Psalm 73 is not a possession that lasts but the One possessed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/73?lang=eng'
+    quote: 'but God is the strength of my heart, and my portion for ever.'
+  - where: 'section “My portion for ever”'
+    claim: 'Ps. 92:7, 12–13 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/92?lang=eng'
+    quote: 'Those that be planted in the house of the Lord shall flourish in the courts of our God.'
+  - where: 'section “My portion for ever”'
+    claim: '“Planted” in 92:13 is šātal (H8362), in Psalms only at 1:3 and 92:13'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שְׁ֭תוּלִים'
+  - where: 'section “My portion for ever”'
+    claim: '“Planted” in 1:3 is šātal (H8362)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁת֪וּל'
+  - where: 'section “My portion for ever”'
+    claim: 'Delitzsch: the soil in which the righteous are planted (92:13) is the LORD’s holy Temple'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/92.htm'
+    quote: 'a planting of the Lord, for His praise, is His holy Temple'
+  - where: 'section “My portion for ever”'
+    claim: 'Cambridge’s introduction to Psalm 92: the problems of Psalms 37 and 73 will receive a triumphant solution'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/92.htm'
+    quote: 'The problems which perplexed the authors of Psalms 37, 73 will ultimately receive a triumphant solution, of which an earnest has been already experienced.'
+  # ---------- section “Blessed are the meek” ----------
+  - where: 'section “Blessed are the meek”'
+    claim: 'Matt. 5:5 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/5?lang=eng'
+    quote: 'Blessed are the meek: for they shall inherit the earth.'
+  - where: 'section “Blessed are the meek”'
+    claim: '3 Ne. 12:5: the beatitude said again to the Nephites'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/12?lang=eng'
+    quote: 'And blessed are the meek, for they shall inherit the earth.'
+  - where: 'section “Blessed are the meek”'
+    claim: 'New Testament Student Manual: Jesus was quoting Ps. 37:11; to inherit the earth means to inherit the celestial kingdom'
+    key: nt-student-manual-3
+    url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/introduction-to-matthew/chapter-3?lang=eng'
+    quote: 'When Jesus promised that the meek would inherit the earth, He was quoting from Psalm 37:11. To “inherit the earth” (Matthew 5:5) means to inherit the celestial kingdom.'
+  - where: 'section “Blessed are the meek”'
+    claim: 'D&C 88:14 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'that through the redemption which is made for you is brought to pass the resurrection from the dead.'
+  - where: 'section “Blessed are the meek”'
+    claim: 'D&C 88:17 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'And the redemption of the soul is through him that quickeneth all things, in whose bosom it is decreed that the poor and the meek of the earth shall inherit it.'
+  - where: 'section “Blessed are the meek”'
+    claim: 'D&C Student Manual on D&C 88:17–20: to inherit the earth means to inherit the celestial kingdom'
+    key: dc-student-manual-2017-88
+    url: 'https://www.churchofjesuschrist.org/study/manual/doctrine-and-covenants-student-manual-2017/chapter-33-doctrine-and-covenants-88-1-69?lang=eng'
+    quote: 'To inherit the earth means to inherit the celestial kingdom.'
+  - where: 'section “Blessed are the meek”'
+    claim: 'Christofferson: what the Father offers is Himself and His Son, through the grace and mediation of Jesus Christ'
     key: christofferson-relationship-god
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2022/04/41christofferson?lang=eng'
-    quote: 'We ought not to think of God’s plan as a cosmic vending machine'
+    quote: 'What our Heavenly Father offers us is Himself and His Son, a close and enduring relationship with Them through the grace and mediation of Jesus Christ, our Redeemer.'
+  - where: 'section “Blessed are the meek”'
+    claim: 'The talk goes on to quote Rom. 8:17 (it cites no psalm: 0 hits for “psalm” and “portion”, dossier)'
+    key: christofferson-relationship-god
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2022/04/41christofferson?lang=eng'
+    quote: 'Recalling Paul’s expression, we are “joint-heirs with Christ; if so be that we suffer with him, that we may be also glorified together.”'
+  - where: 'section “Blessed are the meek”'
+    claim: 'Rom. 8:17 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/8?lang=eng'
+    quote: 'heirs of God, and joint-heirs with Christ; if so be that we suffer with him, that we may be also glorified together.'
+  - where: 'section “Blessed are the meek”'
+    claim: 'Connection made by this page: Elder Christofferson’s “What our Heavenly Father offers us is Himself and His Son” set beside Ps. 73:26: the portion Asaph claims at the psalm’s close, God Himself, is what the Father offers through His Son; Asaph claimed it though his flesh and heart should fail, as Paul’s heirs suffer with Christ (Rom. 8:17); the talk does not cite the psalm'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/73?lang=eng'
+    quote: 'My flesh and my heart faileth: but God is the strength of my heart, and my portion for ever.'
+  - where: 'section “Blessed are the meek”'
+    claim: 'Christofferson: not every blessing predicated on obedience is shaped and timed according to our expectations'
+    key: christofferson-relationship-god
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2022/04/41christofferson?lang=eng'
+    quote: 'not every blessing predicated on obedience to law is shaped, designed, and timed according to our expectations.'
+  - where: 'section “Blessed are the meek”'
+    claim: 'Christofferson: the atoning power of Jesus Christ ensures that God can and will fulfill His promises'
+    key: christofferson-relationship-god
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2022/04/41christofferson?lang=eng'
+    quote: 'ensures that God can and will fulfill His promises.'
+  - where: 'section “Blessed are the meek”'
+    claim: 'Kimball, as the Student Manual prints him: an ancient question, the complaint of Job and Jeremiah'
+    key: ot-manual-34
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-34?lang=eng'
+    quote: 'Yours is an ancient question. Job and Jeremiah made the same complaint.'
+  - where: 'section “Blessed are the meek”'
+    claim: 'Kimball: for many rewards one need not wait until the judgment day'
+    key: ot-manual-34
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-34?lang=eng'
+    quote: 'But for many rewards you need not wait until the judgment day.'

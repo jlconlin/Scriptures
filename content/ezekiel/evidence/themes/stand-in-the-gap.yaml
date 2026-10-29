@@ -1,167 +1,310 @@
 page: stand-in-the-gap
 claims:
-  - where: opening
-    claim: 'Moses stood before the Lord in the breach (Ps. 106:23)'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/106?lang=eng'
-    quote: 'Therefore he said that he would destroy them, had not Moses his chosen stood before him in the breach, to turn away his wrath, lest he should destroy them.'
-  - where: opening
-    claim: 'The figure, used in Ezek. 13:5 and 22:30 and compared with Ps. 106:23, means averting calamity by instruction and intercession'
+  # ---------- opening ----------
+  - where: 'opening'
+    claim: 'BDB on pereṣ: figurative of effect to avert calamity, Ezek. 13:5 and 22:30, compare Ps. 106:23, by instruction and (especially) intercession'
     key: bdb
     url: 'https://biblehub.com/hebrew/6556.htm'
     quote: 'figurative of effect to avert calamity, עָלָה בַּמְּרָצוֺת Ezekiel 13:5 ("" גָּדַר), עָמַד בַּמֶּרֶץ Ezekiel 22:30 ("" id.), compare Psalm 106:23, by instruction and (especially) intercession.'
-  - where: 'section “The prophet, the prophets, the righteous”'
-    claim: 'Ezekiel’s pleas at 9:8'
+  - where: 'opening'
+    claim: 'The Church’s footnote at Ezek. 22:30 gives only Gen. 18:26 and Jer. 5:1'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/9?lang=eng'
-    quote: 'that I fell upon my face, and cried, and said, Ah Lord GOD! wilt thou destroy all the residue of Israel in thy pouring out of thy fury upon Jerusalem?'
-  - where: 'section “The prophet, the prophets, the righteous”'
-    claim: 'Ezekiel’s plea at 11:13'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/11?lang=eng'
-    quote: 'Then fell I down upon my face, and cried with a loud voice, and said, Ah Lord GOD! wilt thou make a full end of the remnant of Israel?'
-  - where: 'section “The prophet, the prophets, the righteous”'
-    claim: 'The Church edition glosses “gaps” in 13:5'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/13?lang=eng'
-    quote: 'IE breaks in the wall.'
-  - where: 'section “The prophet, the prophets, the righteous”'
-    claim: 'Noah, Daniel and Job would deliver only themselves'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/14?lang=eng'
-    quote: 'Though these three men, Noah, Daniel, and Job, were in it, they should deliver but their own souls by their righteousness, saith the Lord GOD.'
-  - where: 'section “No man found”'
-    claim: 'Ezek. 22:30 text'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/22?lang=eng'
+    quote: 'Gen. 18:26; Jer. 5:1.'
+  - where: 'opening'
+    claim: 'Connection made by this page: the verb of the Lord’s search (bāqaš) runs through Ezekiel in the Lord’s own mouth (3:18, 20; 22:30; 33:8; 34:16), and the book answers its failed search for a man with “I will seek”; Isaiah tells the same story (59:16), the commentators join Ezek. 22:30 to it, the Church’s footnotes join it to Heb. 7:25 and D&C 45:3–5; the step from Ezekiel’s empty gap to the advocate is the page’s own; Ezek. 22:30 names no one and the man it sought is not Christ, who is the speaker; the claim is that where He found no man He came Himself (Cambridge on 22:31; Student Manual on Isa. 59:16)'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/22?lang=eng'
     quote: 'And I sought for a man among them, that should make up the hedge, and stand in the gap before me for the land, that I should not destroy it: but I found none.'
-  - where: 'section “No man found”'
-    claim: 'The root perets (gap) in 22:30, as in 13:5'
+
+  # ---------- Moses his chosen stood before him in the breach ----------
+  - where: 'section “Moses his chosen stood before him in the breach”'
+    claim: 'Ps. 106:23 “in the breach” is bappereṣ (H6556), the noun of Ezek. 13:5 and 22:30; “stood before him” is ʿāmad (H5975) with lĕpānāyw, the verb and preposition of Ezek. 22:30’s “stand… before me”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַּ/פֶּ֣רֶץ'
+  - where: 'section “Moses his chosen stood before him in the breach”'
+    claim: 'Ps. 106:23 “stood,” ʿāmad'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עָמַ֣ד'
+  - where: 'section “Moses his chosen stood before him in the breach”'
+    claim: 'Ezek. 22:30 “stand in the gap before me,” ʿōmēd bappereṣ lĕpānay'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'בַּ/פֶּ֧רֶץ'
-  - where: 'section “No man found”'
-    claim: 'The same root perets in 13:5'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'בַּ/פְּרָצ֔וֹת'
-  - where: 'section ““I will seek””'
-    claim: 'baqash in 22:30'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'אֲבַקֵּ֣שׁ'
-  - where: 'section ““I will seek””'
-    claim: 'baqash in 34:6'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'מְבַקֵּֽשׁ'
-  - where: 'section ““I will seek””'
-    claim: 'Connection made by this page: the verb of 22:30 “I sought” is the verb of 34:6 “seek after”, 34:4 and 34:16 “I will seek”; one Hebrew root (baqash)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'אֲבַקֵּשׁ֙'
-  - where: 'section ““I will seek””'
-    claim: 'Connection made by this page: 34:6 and 34:16, English words'
+    quote: 'וְ/עֹמֵ֨ד'
+  - where: 'section “Moses his chosen stood before him in the breach”'
+    claim: 'The Cambridge Bible on Ps. 106:23: a military metaphor; Moses confronted God with intercession like the warrior who stands in the breach; cp. Ezek. 22:30'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/106.htm'
+    quote: 'A military metaphor. Moses confronted God with intercession like the warrior who stands in the breach of the city wall to repel the enemy at the risk of his life. Cp. Ezekiel 22:30; Jeremiah 18:20.'
+  - where: 'section “Moses his chosen stood before him in the breach”'
+    claim: 'Delitzsch on Ps. 106:23: Moses stepped into the gap and exposed his own life; on the expression, Ezek. 22:30'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/106.htm'
+    quote: 'Then Moses stepped into the gap (before the gap), i.e., as it were covered the breach, inasmuch as he placed himself in it and exposed his own life; cf. on the fact, besides Exodus 32, also Deuteronomy 9:18., Psalm 10:10, and on the expression, Ezekiel 22:30 and also Jeremiah 18:20.'
+  - where: 'section “Moses his chosen stood before him in the breach”'
+    claim: 'The Church’s heading to Psalm 106: Moses mediated between Israel and the Lord'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/34?lang=eng'
-    quote: 'and none did search or seek after them.'
-  - where: 'section ““I will seek””'
-    claim: 'Ezek. 34:16 “I will seek that which was lost”'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/106?lang=eng'
+    quote: 'Moses mediated between Israel and the Lord'
+  - where: 'section “Moses his chosen stood before him in the breach”'
+    claim: 'The Church’s footnote at Ps. 106:23 “destroy” points to Ex. 32:10 (10–11, 32)'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/34?lang=eng'
-    quote: 'I will seek that which was lost, and bring again that which was driven away, and will bind up that which was broken'
-  - where: 'section “The intercessor”'
-    claim: 'The LORD of Ezekiel is understood to be the premortal Jesus Christ'
-    key: bd-jehovah
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
-    quote: 'Jehovah is the premortal Jesus Christ'
-  - where: 'section “The intercessor”'
-    claim: 'Isa. 59:16 text'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/106?lang=eng'
+    quote: 'Ex. 32:10 (10–11, 32).'
+  - where: 'section “Moses his chosen stood before him in the breach”'
+    claim: 'The Church’s heading to Exodus 32: Moses serves as a mediator between God and rebellious Israel; Moses pleads and intercedes'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/59?lang=eng'
-    quote: 'And he saw that there was no man, and wondered that there was no intercessor: therefore his arm brought salvation unto him'
-  - where: 'section “The intercessor”'
-    claim: 'Isa. 59 chapter heading names the Messiah as intercessor'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/32?lang=eng'
+    quote: 'Moses serves as a mediator between God and rebellious Israel—Moses breaks the tablets of stone—The Levites slay about 3,000 rebels—Moses pleads and intercedes for the people.'
+  - where: 'section “Moses his chosen stood before him in the breach”'
+    claim: 'The Student Manual: Moses became their mediator with God, pleaded their cause and offered his own life; like Christ whom he emulated, he loved his people'
+    key: ot-manual-ex-21-24
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/exodus-21-24-31-35-the-mosaic-law-a-preparatory-gospel?lang=eng'
+    quote: 'Moses became their mediator with God. He pleaded their cause and even offered his own life to appease the divine justice (see Exodus 32:31–32).'
+  - where: 'section “Moses his chosen stood before him in the breach”'
+    claim: 'The Student Manual: he interceded in their behalf and saved them, but only on the condition of their repentance'
+    key: ot-manual-ex-21-24
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/exodus-21-24-31-35-the-mosaic-law-a-preparatory-gospel?lang=eng'
+    quote: 'He interceded in their behalf and saved them, but only on the condition of their repentance.'
+  - where: 'section “Moses his chosen stood before him in the breach”'
+    claim: 'The Student Manual: Moses, like Christ whom he emulated, loved his people in spite of their hardheartedness'
+    key: ot-manual-ex-21-24
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/exodus-21-24-31-35-the-mosaic-law-a-preparatory-gospel?lang=eng'
+    quote: 'But Moses, like Christ whom he emulated, loved his people in spite of their hardheartedness and wickedness.'
+  - where: 'section “Moses his chosen stood before him in the breach”'
+    claim: 'The Church’s footnote at Gen. 18:26 “righteous” points to Jer. 5:1, Ezek. 22:30 and 3 Ne. 9:13'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/59?lang=eng'
-    quote: 'The Messiah will intercede, come to Zion, and redeem the repentant.'
-  - where: 'section “The intercessor”'
-    claim: 'Footnote 16b on “intercessor” gives Heb. 7:25 and D&C 45:3'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/59?lang=eng'
-    quote: 'Jer. 27:18; Heb. 7:25 (25–26); D&C 45:3 (3–5).'
-  - where: 'section “The intercessor”'
-    claim: 'Isaiah’s “intercessor” is a different Hebrew word (mapgia) from Ezekiel’s gap words'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/6293.htm'
-    quote: 'Participle מַפְגִּיעַ Isaiah 59:16 one interposing.'
-  - where: 'section “The intercessor”'
-    claim: 'Prophetic intercession has been read as typological for the role of Jesus'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/18?lang=eng'
+    quote: 'Jer. 5:1; Ezek. 22:30; 3 Ne. 9:13.'
+  - where: 'section “Moses his chosen stood before him in the breach”'
+    claim: 'Keil on Ezek. 22:30: the concluding words contain an obvious allusion to Gen. 18:28; Abraham’s intercession for Sodom was before Ezekiel’s mind'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/22.htm'
+    quote: 'the intercession of Abraham for Sodom (Genesis 18:13.) was floating before the mind of Ezekiel, since the concluding words of the verse contain an obvious allusion to Genesis 18:28.'
+
+  # ---------- Ye have not gone up into the gaps ----------
+  - where: 'section “Ye have not gone up into the gaps”'
+    claim: 'Keil on 13:5: the sins of the people had made gaps and breaches in the walls; the prophets had not stood in the way of this decay by reproving the sins of the people'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/13.htm'
+    quote: 'The sins of the people had made gaps and breaches in the walls of Jerusalem; in other words, had caused the moral decay of the city. But they had not stood in the way of this decay and its causes, as the calling and duty of prophets demanded, by reproving the sins of the people'
+  - where: 'section “Ye have not gone up into the gaps”'
+    claim: 'JFB on 13:5: those who would advise the people to repentance are the restorers of the breach (Ezek. 22:30; Ps. 106:23, 30)'
+    key: jfb-ezekiel
+    url: 'https://biblehub.com/commentaries/jfb/ezekiel/13.htm'
+    quote: 'Those who would advise the people to repentance are the restorers of the breach (Eze 22:30; Ps 106:23, 30).'
+  - where: 'section “Ye have not gone up into the gaps”'
+    claim: 'JFB on 13:5: the hedge is the law of God'
+    key: jfb-ezekiel
+    url: 'https://biblehub.com/commentaries/jfb/ezekiel/13.htm'
+    quote: 'hedge—the law of God (Ps 80:12; Isa 5:2, 5)'
+  - where: 'section “Ye have not gone up into the gaps”'
+    claim: 'Keil on Ezek. 14:14–20: the word takes from the people the hope that the Lord would spare for the sake of the righteous, as He had promised Abraham for Sodom'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/14.htm'
+    quote: 'This hope, which might be cherished by the people and by the elders who had come to the prophet, is now to be taken from the people by the word of God which follows'
+  - where: 'section “Ye have not gone up into the gaps”'
+    claim: 'Sears lists Ezek. 14:14, 20 among the places where God explicitly forbids prophetic intercession'
     key: sears-intercession
     url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/o-lord-god-forgive'
-    quote: 'understands prophetic intercession as typological for the role of Jesus.'
-  - where: 'section “The intercessor”'
-    claim: 'Connection made by this page: Ezek. 22:30 set beside Mosiah 15:9, English words'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/15?lang=eng'
-    quote: 'standing betwixt them and justice'
-  - where: opening
-    claim: 'These verses have been listed together as texts of prophetic intercession'
-    key: sears-intercession
-    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/o-lord-god-forgive'
-    quote: 'Other biblical texts involving prophetic intercession include'
-  - where: opening
-    claim: 'Ezek. 9:8; 11:13; 13:5; 14:14, 20; 22:30 are in that list'
-    key: sears-intercession
-    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/o-lord-god-forgive'
-    quote: 'Ezekiel 9:8; 11:13; 13:5; 14:14, 20; 22:30'
-  - where: 'section “The prophet, the prophets, the righteous”'
-    claim: 'The first plea is answered with the reason for the judgment (9:9–10)'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/9?lang=eng'
-    quote: 'The iniquity of the house of Israel and Judah is exceeding great, and the land is full of blood'
-  - where: 'section “The prophet, the prophets, the righteous”'
-    claim: 'The second plea is answered with a promise (11:16)'
+    quote: 'God explicitly forbids prophetic intercession elsewhere in scripture; see Exodus 32:10; Deuteronomy 9:14; Jeremiah 7:16; 11:14; 14:11; 15:1; Ezekiel 14:14, 20; Alma 14:11; 30:54–55; and Moroni 9:21.'
+  - where: 'section “Ye have not gone up into the gaps”'
+    claim: 'Keil heads his note on 9:8 “Intercession of the Prophet, and the Answer of the Lord”'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/9.htm'
+    quote: 'Intercession of the Prophet, and the Answer of the Lord'
+  - where: 'section “Ye have not gone up into the gaps”'
+    claim: 'Connection made by this page: Ezekiel, whose charge is to warn, pleads twice (9:8; 11:13); the first plea is answered with judgment (9:9–10), the second with a remnant (11:16); his standing before the Lord is answered but does not save Jerusalem and is not what 22:30 seeks'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/11?lang=eng'
     quote: 'yet will I be to them as a little sanctuary in the countries where they shall come.'
-  - where: 'section “The prophet, the prophets, the righteous”'
-    claim: 'Ezek. 14:16'
+
+  # ---------- I sought for a man, but I found none ----------
+  - where: 'section “I sought for a man, but I found none”'
+    claim: 'Keil on 22:30: “among them” refers not merely to the prophets of 13:5 but to all the classes previously mentioned; not a man could enter the gap as a righteous man or avert the judgment by his intercession'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/22.htm'
+    quote: 'The corruption is so universal, that not a man is to be found who could enter into the gap as a righteous man, or avert the judgment of destruction by his intercession. מהם refers not merely to the prophets, who did not enter into the gap according to Ezekiel 13:5, but to all the classes previously mentioned.'
+  - where: 'section “I sought for a man, but I found none”'
+    claim: 'Keil: the seeking and not finding cannot be understood in a chronological sense; it depicts the existing moral condition of the people'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/22.htm'
+    quote: 'The seeking, therefore, with the result of not having found, cannot be understood in a chronological sense, i.e., as an event belonging to the past, for the simple reason that the preceding words do not record the chronological order of events. It merely depicts the existing moral condition of the people'
+  - where: 'section “I sought for a man, but I found none”'
+    claim: 'The Cambridge Bible on 22:30: not a man to intercede, but a man to interpose, to stem the tide of ruin; the nation could no more put forth a saviour out of itself'
+    key: cambridge-ezekiel
+    url: 'https://biblehub.com/commentaries/cambridge/ezekiel/22.htm'
+    quote: 'A “man” here is not a man to intercede, but a man to interpose, to stem the tide of ruin and turn the fortunes of the people. The moral energies of the nation were wholly exhausted; it could no more put forth out of itself a saviour to retrieve its fortunes.'
+  - where: 'section “I sought for a man, but I found none”'
+    claim: 'Connection made by this page: Keil’s intercede and Cambridge’s interpose are both true of Moses in Exodus 32, who prayed and acted; whoever stands in the gap must do both; the page does not claim the Lord found no one in every age'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/14?lang=eng'
-    quote: 'they shall deliver neither sons nor daughters'
-  - where: 'section “No man found”'
-    claim: 'The root gader (hedge) in 22:30'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/32?lang=eng'
+    quote: 'And Moses besought the Lord his God'
+
+  # ---------- I will seek ----------
+  - where: 'section “I will seek”'
+    claim: 'bāqaš (H1245) in Ezekiel: ten verses; in the Lord’s first person at 3:18, 3:20, 33:8 (“will I require”), 22:30 (“I sought”) and 34:16 (“I will seek”); of the shepherds at 34:4 and 34:6'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'גָּדֵר֩'
-  - where: 'section “No man found”'
-    claim: 'The root gader (hedge) in 13:5'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'גָדֵ֖ר'
-  - where: 'section ““I will seek””'
-    claim: 'baqash in 34:4'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
-    quote: 'בִקַּשְׁתֶּ֑ם'
-  - where: 'section ““I will seek””'
-    claim: 'baqash is in ten verses of Ezekiel (3:18, 3:20, 7:25, 7:26, 22:30, 26:21, 33:8, 34:4, 34:6, 34:16); in 3:18, 3:20, 33:8 “his blood will I require”'
+    quote: 'וָ/אֲבַקֵּ֣שׁ'
+  - where: 'section “I will seek”'
+    claim: 'Ezek. 3:18 “will I require,” ʾăbaqqēš'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
     quote: 'אֲבַקֵּֽשׁ'
-  - where: 'section ““I will seek””'
-    claim: 'Ezek. 34:4 “neither have ye sought that which was lost”'
+  - where: 'section “I will seek”'
+    claim: 'Ezek. 34:16 “I will seek,” ʾăbaqqēš'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'אֲבַקֵּשׁ֙'
+  - where: 'section “I will seek”'
+    claim: 'Ezek. 34:4 “neither have ye sought,” biqqaštem; 34:6 “seek after,” mĕbaqqēš'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'בִקַּשְׁתֶּ֑ם'
+  - where: 'section “I will seek”'
+    claim: 'Scripture Helps: the Lord would deliver the people from the unfaithful shepherds and personally gather and care for His flock; the one shepherd, my servant David, is a reference to Jesus Christ, the Good Shepherd'
+    key: scripture-helps-ezek
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/43-ezekiel-1-3-33-34-36-37?lang=eng'
+    quote: 'The Lord declared that He would deliver the people from these unfaithful shepherds and personally gather and care for His flock.'
+  - where: 'section “I will seek”'
+    claim: 'Scripture Helps: my servant David is a reference to Jesus Christ, the Good Shepherd'
+    key: scripture-helps-ezek
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/43-ezekiel-1-3-33-34-36-37?lang=eng'
+    quote: 'Rather, it is a reference to Jesus Christ, the Good Shepherd, who was a descendant of David.'
+  - where: 'section “I will seek”'
+    claim: 'The Church’s footnote at Ezek. 34:16 “lost” points to Luke 15:4; 19:10, not to chapter 22'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/34?lang=eng'
-    quote: 'neither have ye sought that which was lost'
-  - where: 'section “The intercessor”'
-    claim: 'Connection made by this page: Ezek. 22:30 “I found none” set beside Isa. 59:16 “no man… no intercessor” (Ezekiel verse)'
+    quote: 'Luke 15:4; 19:10.'
+  - where: 'section “I will seek”'
+    claim: 'Connection made by this page: 22:30 “I sought… I found none” and 34:16 “I will seek” share the verb bāqaš in the Lord’s mouth; a search for a man fails, a charge is laid against those who did not seek, and the Lord says “I will”; no commentary read makes the connection; what is sought differs'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/22?lang=eng'
-    quote: 'And I sought for a man among them, that should make up the hedge, and stand in the gap before me for the land, that I should not destroy it: but I found none.'
-  - where: 'section “The intercessor”'
-    claim: 'Connection made by this page: Ezek. 22:30 set beside Isa. 59:16 (Isaiah verse)'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/34?lang=eng'
+    quote: 'I will seek that which was lost, and bring again that which was driven away'
+
+  # ---------- No intercessor, therefore his arm ----------
+  - where: 'section “No intercessor, therefore his arm”'
+    claim: 'JFB on Isa. 59:16: no representative man able to retrieve the cause of fallen men, citing Isa. 63:5–6, Jer. 5:1 and Ezek. 22:30'
+    key: jfb-isaiah
+    url: 'https://biblehub.com/commentaries/jfb/isaiah/59.htm'
+    quote: 'no representative man able to retrieve the cause of fallen men (Isa 41:28; 63:5, 6; Jer 5:1; Eze 22:30).'
+  - where: 'section “No intercessor, therefore his arm”'
+    claim: 'The Cambridge Bible on Isa. 59:16: none to interpose, cf. Ezek. 22:30; Isa. 63:5 is the closely parallel passage'
+    key: cambridge-isaiah
+    url: 'https://biblehub.com/commentaries/cambridge/isaiah/59.htm'
+    quote: 'no intercessor] Better none to interpose, i.e. on behalf of truth and right (cf. Ezekiel 22:30).'
+  - where: 'section “No intercessor, therefore his arm”'
+    claim: 'The Cambridge Bible on Ezek. 22:30 cites Isa. 59:16 and 63:5'
+    key: cambridge-ezekiel
+    url: 'https://biblehub.com/commentaries/cambridge/ezekiel/22.htm'
+    quote: 'Cf. Isaiah 59:16, “and he saw that there was no man, and wondered that there was none to interpose” (Isaiah 63:5).'
+  - where: 'section “No intercessor, therefore his arm”'
+    claim: 'The Church’s heading to Isaiah 59: the Messiah will intercede'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/59?lang=eng'
-    quote: 'And he saw that there was no man, and wondered that there was no intercessor'
+    quote: 'The Messiah will intercede, come to Zion, and redeem the repentant.'
+  - where: 'section “No intercessor, therefore his arm”'
+    claim: 'The Student Manual: Isa. 59:16–21 refers to Jesus Christ, our intercessor with the Father; He came to earth because there was no man and no intercessor'
+    key: ot-manual-18
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-18?lang=eng'
+    quote: 'refers to Jesus Christ, our intercessor with the Father. He came to earth because “there was no man” and “there was no intercessor” (v. 16) for the people.'
+  - where: 'section “No intercessor, therefore his arm”'
+    claim: 'The Church’s footnote at Isa. 59:16 “intercessor” points to Jer. 27:18; Heb. 7:25 (25–26); D&C 45:3 (3–5)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/59?lang=eng'
+    quote: 'Jer. 27:18; Heb. 7:25 (25–26); D&C 45:3 (3–5).'
+  - where: 'section “No intercessor, therefore his arm”'
+    claim: 'The Church’s footnote at Heb. 7:25 “intercession” points to Isa. 59:16 and Rom. 8:34'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/7?lang=eng'
+    quote: 'Isa. 59:16; Rom. 8:34.'
+  - where: 'section “No intercessor, therefore his arm”'
+    claim: 'The Church’s footnote at D&C 45:3 “advocate” points to Isa. 59:16 and D&C 62:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/45?lang=eng'
+    quote: 'Isa. 59:16; D&C 62:1.'
+  - where: 'section “No intercessor, therefore his arm”'
+    claim: 'The Bible Dictionary: an advocate is one who pleads another’s cause; Jesus Christ is the Advocate with the Father'
+    key: bd-advocate
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/advocate?lang=eng'
+    quote: 'One who pleads another’s cause. Jesus Christ is the Advocate with the Father, on behalf of the righteous (1 Jn. 2:1; Moro. 7:28; D&C 45:3–5; 110:4).'
+  - where: 'section “No intercessor, therefore his arm”'
+    claim: 'The Bible Dictionary: Jehovah is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ'
+  - where: 'section “No intercessor, therefore his arm”'
+    claim: 'The Cambridge Bible on Ezek. 22:31: in the passages cited from Isaiah the Lord himself interposes as saviour, there being none else'
+    key: cambridge-ezekiel
+    url: 'https://biblehub.com/commentaries/cambridge/ezekiel/22.htm'
+    quote: 'In the passages cited from Isaiah, written later and at a different juncture, the Lord himself interposes as saviour, there being none else.'
+  - where: 'section “No intercessor, therefore his arm”'
+    claim: 'Connection made by this page: the man Ezek. 22:30 sought was to stand before the Lord for the land that He should not destroy it; the advocate of D&C 45:3–5 stands before the Father pleading “spare”; the Lord of Ezekiel is Jehovah, whom Paul calls “the man Christ Jesus” (1 Tim. 2:5); the step from Ezekiel’s empty gap to that advocate is the page’s own, made as Isaiah makes it and as Cambridge and the Student Manual say of Isaiah, by watching what the Lord did when there was no man; Ezek. 22:30 names no one, and the man it sought is not the Lord who speaks'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/45?lang=eng'
+    quote: 'Listen to him who is the advocate with the Father, who is pleading your cause before him'
+  - where: 'section “No intercessor, therefore his arm”'
+    claim: 'Connection made by this page: Keil’s intercede and Cambridge’s interpose are both true of the Savior, who pleads (Isa. 59 heading) and who stood between the people and justice and took their iniquity upon Himself (Mosiah 15:9)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/15?lang=eng'
+    quote: 'standing betwixt them and justice; having broken the bands of death, taken upon himself their iniquity and their transgressions, having redeemed them, and satisfied the demands of justice.'
+
+  # ---------- The repairer of the breach ----------
+  - where: 'section “The repairer of the breach”'
+    claim: 'Isa. 58:12 “The repairer of the breach” is gōdēr pereṣ, the participle gōdēr (H1443) and the noun pereṣ (H6556) of Ezek. 22:30, there side by side; in Ezek. 22:30 they stand apart (gōdēr gādēr … ʿōmēd bappereṣ)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'גֹּדֵ֣ר'
+  - where: 'section “The repairer of the breach”'
+    claim: 'Isa. 58:12 “breach,” pereṣ'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'פֶּ֔רֶץ'
+  - where: 'section “The repairer of the breach”'
+    claim: 'Ezek. 22:30 “make up the hedge,” gōdēr gādēr'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: 'גֹּֽדֵר'
+  - where: 'section “The repairer of the breach”'
+    claim: 'Delitzsch on Isa. 58:12: Israel restored to its fatherland receives the honourable title of builder of breaches'
+    key: delitzsch
+    url: 'https://biblehub.com/commentaries/kad/isaiah/58.htm'
+    quote: 'therefore Israel restored to its fatherland receives the honourable title of "builder of breaches," "restorer of streets'
+  - where: 'section “The repairer of the breach”'
+    claim: 'The Student Manual quotes Bishop John H. Vandenberg on Isa. 58:12: a promise to those working with members in need, who help them overcome weaknesses, restore their souls, bridge the gap'
+    key: ot-manual-18
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-18?lang=eng'
+    quote: 'To me this is a promise to those working with the members of the Church who are in need physically and spiritually'
+  - where: 'section “The repairer of the breach”'
+    claim: 'Bishop Vandenberg: you have helped them overcome their weaknesses, to restore their souls, to bridge the gap'
+    key: ot-manual-18
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-18?lang=eng'
+    quote: 'In other words, you have helped them overcome their weaknesses, to restore their souls, to bridge the gap through reactivating, rehabilitation, and ‘restoring’ the path for them to walk in.'
+  - where: 'section “The repairer of the breach”'
+    claim: 'JFB on 13:5: those who would advise the people to repentance are the restorers of the breach'
+    key: jfb-ezekiel
+    url: 'https://biblehub.com/commentaries/jfb/ezekiel/13.htm'
+    quote: 'Those who would advise the people to repentance are the restorers of the breach'
+  - where: 'section “The repairer of the breach”'
+    claim: 'The Student Manual: Moses was in the similitude of the Only Begotten; he saved them only on the condition of their repentance'
+    key: ot-manual-ex-21-24
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/exodus-21-24-31-35-the-mosaic-law-a-preparatory-gospel?lang=eng'
+    quote: 'Moses was told that he was “in the similitude” of the Only Begotten Son (Moses 1:6). That similitude is shown clearly here.'
+  - where: 'section “The repairer of the breach”'
+    claim: 'Elder Christofferson: the duty to warn is shared by others as well; every man who hath been warned is to warn his neighbor'
+    key: christofferson-warning
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2017/04/the-voice-of-warning?lang=eng'
+    quote: 'While the duty to warn is felt especially keenly by prophets, it is a duty shared by others as well. In fact, “it becometh every man who hath been warned to warn his neighbor.”'
+  - where: 'section “The repairer of the breach”'
+    claim: 'Belnap and Skinner: Jesus Christ, the Great Intercessor, continually stands before God the Father and pleads the cause of the entire human family (D&C 45:3–5); the intercessory roles of both Moses and Jesus Christ are highlighted in scripture'
+    key: belnap-skinner-sinai
+    url: 'https://rsc.byu.edu/creation-sinai/promise-provocation'
+    quote: 'Jesus Christ, the Great Intercessor, continually stands before God the Father and pleads the cause of the entire human family (see Doctrine and Covenants 45:3–5). Thus, the meekness and intercessory roles of both Moses and Jesus Christ are highlighted in scripture across the ages.'
+  - where: 'section “The repairer of the breach”'
+    claim: 'Connection made by this page: Moses stood in the breach once as a likeness of the Only Begotten and the people were spared on condition of repentance; in Ezekiel’s Jerusalem no man could; the one who stands there now is the Savior (D&C 45:3); what the sources leave a disciple is calling to repentance and restoring those in need (JFB on 13:5; Vandenberg on Isa. 58:12), the shared duty to warn (Christofferson; D&C 88:81), and prayer for one another as Ezekiel’s'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/58?lang=eng'
+    quote: 'and thou shalt be called, The repairer of the breach, The restorer of paths to dwell in.'

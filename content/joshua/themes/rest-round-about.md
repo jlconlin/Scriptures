@@ -40,7 +40,7 @@ Three times the rest is followed at once by what remains or by a condition ([[Jo
 
 <h2 id="christ">If Jesus had given them rest</h2>
 
-“For if Jesus had given them rest, then would he not afterward have spoken of another day. There remaineth therefore a rest to the people of God” ([[Heb. 4:8–9]]). “Jesus” is Joshua ([[Acts 7:45]]).[@lds-scriptures] Hebrews reasons from the Psalm’s later “To day,” spoken “in David” ([[Heb. 4:7]]).[@lds-scriptures] The rest Israel failed to enter “was symbolically represented by the land of Canaan,”[@nt-manual-hebrews-1-6] and Joshua “can remind us of Jesus Christ leading all the faithful into the ultimate land of promise, the celestial kingdom”;[@scripture-helps-josh] [Psalm 95:11](/psalms/95/) and [what was offered at Sinai](/exodus/themes/offered-at-sinai/#rest) take up the oath that Israel would not enter the rest.
+“For if Jesus had given them rest, then would he not afterward have spoken of another day. There remaineth therefore a rest to the people of God” ([[Heb. 4:8–9]]). “Jesus” is Joshua ([[Acts 7:45]]).[@lds-scriptures] Hebrews reasons from the Psalm’s later “To day,” spoken “in David” ([[Heb. 4:7]]).[@lds-scriptures] The rest Israel failed to enter “was symbolically represented by the land of Canaan,”[@nt-manual-hebrews-1-6] and Joshua “can remind us of Jesus Christ leading all the faithful into the ultimate land of promise, the celestial kingdom”;[@scripture-helps-josh] [Psalm 95:11](/psalms/95/) and [what was offered at Sinai](/exodus/themes/offered-at-sinai/) take up the oath that Israel would not enter the rest.
 
 Joshua’s last word on the rest is how it could be lost; Hebrews’ first word on the rest that remains is the same fear: “any of you should seem to come short of it” ([[Heb. 4:1]]).
 

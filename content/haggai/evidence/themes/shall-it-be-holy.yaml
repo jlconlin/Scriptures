@@ -1,152 +1,285 @@
 page: shall-it-be-holy
 claims:
-  - where: 'section “What their own things could not do”'
-    claim: 'The rebuilt altar’s sacrifices could not transmit holiness to the Jews (Huntington’s reading, “may have been alluding”)'
+  # ---------- opening ----------
+  - where: 'opening'
+    claim: 'Connection made by this page: the priests’ two rulings (holiness stops at the first thing it touches, uncleanness passes further) are the key to the book: nothing Israel held could by itself make Israel holy; presence, Spirit, glory and blessing are given from the Lord’s side when the people turn, before the work is done and before the harvest; the Gospels show the same presence in person, the Holy One to whom uncleanness does not pass and from whom cleansing goes out to the unclean who reach for Him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/2?lang=eng'
+    quote: 'If one bear holy flesh in the skirt of his garment, and with his skirt do touch bread, or pottage, or wine, or oil, or any meat, shall it be holy? And the priests answered and said, No.'
+
+  # ---------- One step, and no further ----------
+  - where: 'section “One step, and no further”'
+    claim: 'Keil on Lev. 6:18 (with 6:27, Ex. 29:37, 30:29): every layman who touched the most holy things became holy through the contact and had thereafter to guard against defilement as the priests did'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/6.htm'
+    quote: 'every layman who touched these most holy things became holy through the contact, so that henceforth he had to guard against defilement in the same manner as the sanctified priests (Leviticus 21:1-8), though without sharing the priestly rights and prerogatives.'
+  - where: 'section “One step, and no further”'
+    claim: 'Keil on Ezek. 44:19: the holiness of the priests’ garments passed to whoever touched them, as with the offerings, altar and vessels, so the priests were forbidden to move among the people in them'
+    key: keil-ezekiel
+    url: 'https://biblehub.com/commentaries/kad/ezekiel/44.htm'
+    quote: 'The same thing which applied to these vessels - namely, that their holiness passed from them to any one who touched them - is here predicated of the holy dresses of the priests; and the moving of the priests among the people in their holy clothes is forbidden'
+  - where: 'section “One step, and no further”'
+    claim: 'Keil on Hag. 2:12: the priests answer quite correctly; by Lev. 6:20 (KJV 6:27) the lappet was made holy by the holy flesh but could not communicate this holiness any further'
+    key: keil-haggai
+    url: 'https://biblehub.com/commentaries/kad/haggai/2.htm'
+    quote: 'The priests answer the question laid before them quite correctly with "No;" for, according to Leviticus 6:20, the lappet of the dress itself was made holy by the holy flesh, but it could not communicate this holiness any further.'
+  - where: 'section “One step, and no further”'
+    claim: 'Cambridge Bible on Hag. 2:10–19: the sanctifying influence of holy flesh could only extend to that with which it came into first and immediate contact; beyond that limit its efficacy did not reach'
+    key: cambridge-haggai
+    url: 'https://biblehub.com/commentaries/cambridge/haggai/2.htm'
+    quote: 'The sanctifying influence of flesh, which by being offered to God in sacrifice had become holy, could only extend, so the priests on the authority of the law declared, to that with which it came into first and immediate contact. Beyond that limit its efficacy did not reach.'
+  - where: 'section “One step, and no further”'
+    claim: 'The verb nāgaʿ (H5060, “touch”) stands in Hag. 2:12 (wĕnāgaʿ) and 2:13 (yiggaʿ)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hag.xml'
+    quote: 'וְ/נָגַ֣ע'
+  - where: 'section “One step, and no further”'
+    claim: 'The same verb nāgaʿ (H5060) is “touch” in Lev. 6:27, yiggaʿ, with yiqdāš, “shall be holy” (H6942)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'יִגַּ֥ע'
+  - where: 'section “One step, and no further”'
+    claim: 'The same verb nāgaʿ (H5060) is “toucheth” in Num. 19:22, with yiṭmāʾ, “shall be unclean” (H2930)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'יִטְמָ֑א'
+  - where: 'section “One step, and no further”'
+    claim: 'Huntington: the garment could not transmit holiness to a third or fourth object, while anything touched by an unclean individual became unclean; uncleanness is much more easily transmitted than holiness'
     key: huntington-consider-ways
     url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/consider-your-ways'
-    quote: 'the Jews’ sacrifices and offerings on the rebuilt altar of the temple could not transmit holiness to them'
-  - where: 'section “What their own things could not do”'
-    claim: 'Hag. 2:14 “every work of their hands” (H4639 + H3027 in 2:14, 2:17); 1:11’s “labour of the hands” is a different Hebrew phrase (yĕgîaʿ kappayim)'
+    quote: 'however, the garment itself could not transmit that holiness to a third or fourth object. Moreover, anything touched by an unclean individual would become unclean (see Numbers 19:11–13, 22). Thus, uncleanness is much more easily transmitted than holiness.'
+  - where: 'section “One step, and no further”'
+    claim: 'Bible Dictionary: the leper was unclean and communicated uncleanness to everything he touched'
+    key: bd-clean-unclean
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/clean-and-unclean?lang=eng'
+    quote: 'The leper was unclean and communicated uncleanness to everything he touched (Lev. 13:1–46; 14).'
+
+  # ---------- So is this people ----------
+  - where: 'section “So is this people”'
+    claim: 'Huntington: Haggai may have been alluding to the fact that the sacrifices on the rebuilt altar could not transmit holiness to the Jews, and the consecrated land alone could not make them a holy people; the only way was to rebuild the temple and worthily participate in the temple service'
+    key: huntington-consider-ways
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/consider-your-ways'
+    quote: 'Haggai may have been alluding to the fact that the Jews’ sacrifices and offerings on the rebuilt altar of the temple could not transmit holiness to them nor absolve them of their failure to continue rebuilding the temple. Furthermore, even though the Jews had returned to a promised land consecrated by the Lord, that fact alone could not make them a holy people. The only way for them to become a holy people was to rebuild the temple and worthily participate in the temple service.'
+  - where: 'section “So is this people”'
+    claim: 'Cambridge Bible: the blessing was promised now that the people had put away that sin and were honestly giving themselves to the work'
+    key: cambridge-haggai
+    url: 'https://biblehub.com/commentaries/cambridge/haggai/2.htm'
+    quote: 'now that they had put away that sin, and were honestly giving themselves to the work of restoration, the blessing of God should rest upon them.'
+  - where: 'section “So is this people”'
+    claim: 'Keil, as the Student Manual prints him: no food is sanctified by being planted in the soil of the land that encloses the sanctuary, any more than by a sanctified garment; Israel is unclean through neglect of the house like a man who touched a corpse, and everything it takes hold of is affected with the curse of uncleanness'
+    key: ot-manual-30
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-30?lang=eng'
+    quote: 'so will all this not be rendered holy by the fact that it is planted in the soil of the land which surrounds and encloses the sanctuary of Jehovah. … For Israel is utterly unclean on account of its neglect of the house of Jehovah, like a man who has become unclean through touching a corpse. Everything that Israel takes hold of, or upon which it lays its hand, everything that it plants and cultivates, is from the very first affected with the curse of uncleanness'
+  - where: 'section “So is this people”'
+    claim: 'Bible Dictionary, Haggai: as the touch of the unclean pollutes all about it, so the worldly spirit of the people had brought a curse on all their labor and increase'
+    key: bd-haggai
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/haggai?lang=eng'
+    quote: 'just as the touch of the unclean pollutes all about it, so the worldly spirit of the people had brought a curse on all their labor and increase.'
+  - where: 'section “So is this people”'
+    claim: '“Every work of their hands” (2:14) and “all the labours of your hands” (2:17) are one Hebrew phrase, maʿăśēh yādayim (H4639 + H3027)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hag.xml'
     quote: 'מַעֲשֵׂ֣ה'
-  - where: 'section “What their own things could not do”'
-    claim: 'Hag. 1:11 “labour” is yĕgîaʿ (H3018), a different word'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hag.xml'
-    quote: 'יְגִ֥יעַ'
-  - where: 'section “What their own things could not do”'
-    claim: 'Connection made by this page: the works called unclean in Hag. 2:14 set beside the works smitten in 2:17, the same Hebrew phrase maʿăśēh yādayim (1:11 uses a different one)'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/2?lang=eng'
-    quote: 'every work of their hands; and that which they offer there is unclean'
-  - where: 'section “What their own things could not do”'
-    claim: 'Connection made by this page: (second half): Hag. 2:17'
+  - where: 'section “So is this people”'
+    claim: 'Connection made by this page: the works called unclean in Hag. 2:14 are the works smitten in 2:17; the same Hebrew phrase joins them'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/2?lang=eng'
     quote: 'I smote you with blasting and with mildew and with hail in all the labours of your hands'
-  - where: 'section “Before a stone was laid”'
-    claim: 'Keil on 1:13–14: the promise fulfilled by giving a willingness to work'
-    key: keil-haggai
-    url: 'https://biblehub.com/commentaries/kad/haggai/1.htm'
-    quote: 'This promise Jehovah fulfilled, first of all by giving to Zerubbabel, Joshua, and the people, a willingness to carry out the work.'
-  - where: 'section “Before a stone was laid”'
-    claim: 'The Minute on 1:12–15: stirred by the Lord’s spirit, and they obeyed'
+  - where: 'section “So is this people”'
+    claim: 'The Student Manual: when the Jews had repented and begun the work on the temple, the curse was to be lifted and the Lord promised His blessing'
+    key: ot-manual-30
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-30?lang=eng'
+    quote: 'but when the Jews had repented and begun the work on the temple (see v. 18), the curse was to be lifted and the Lord promised His blessing (see v. 19).'
+  - where: 'section “So is this people”'
+    claim: 'Scripture Central’s Minute on 2:10–14: just working on or touching a holy site would not cleanse the people; they themselves needed to work on becoming clean'
     key: breitenstein-haggai-minute
     url: 'https://scripturecentral.org/archive/books/book/old-testament-minute-haggai-volume-2'
-    quote: 'the people and Zerubbabel and Joshua were “stirred” by the spirit of the Lord and the message that Haggai delivered— and they obeyed.'
+    quote: 'Just working on (or even just touching) a holy site would not cleanse the people or the nation; they themselves needed to work on becoming clean.'
+
+  # ---------- Before a stone was laid ----------
   - where: 'section “Before a stone was laid”'
-    claim: 'Connection made by this page: (b): the Lord’s “I am with you” at 1:13 stands before the work at 1:14'
+    claim: 'Connection made by this page: in the book’s order the Lord’s “I am with you” (1:13) answers the people’s obedience and fear (1:12) and stands before the work (1:14); His Spirit standing among them (2:5) and His glory (2:7) are promised before the house is finished, and His blessing (2:19), after they had begun to build, before any harvest; presence, Spirit, glory and blessing come from His side first'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/1?lang=eng'
     quote: 'Then spake Haggai the LORD’s messenger in the LORD’s message unto the people, saying, I am with you, saith the LORD.'
   - where: 'section “Before a stone was laid”'
-    claim: 'Connection made by this page: (b), second half: 1:14'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/1?lang=eng'
-    quote: 'and they came and did work in the house of the LORD of hosts, their God'
-  - where: 'section “His Spirit standing, His glory coming”'
-    claim: '“Remaineth” in 2:5 is the participle ʿōmedet (H5975), “standing”'
+    claim: 'Keil on Hag. 1:13–14: the Lord met the people’s penitence with the promise of His assistance, to elevate this disposition into determination and deed, and fulfilled it first by giving a willingness to carry out the work'
+    key: keil-haggai
+    url: 'https://biblehub.com/commentaries/kad/haggai/1.htm'
+    quote: 'This penitential state of mind on the part of the people and their rulers was met by the Lord with the promise of His assistance, in order to elevate this disposition into determination and deed.'
+  - where: 'section “Before a stone was laid”'
+    claim: 'Keil: this promise Jehovah fulfilled first of all by giving to Zerubbabel, Joshua and the people a willingness to carry out the work'
+    key: keil-haggai
+    url: 'https://biblehub.com/commentaries/kad/haggai/1.htm'
+    quote: 'This promise Jehovah fulfilled, first of all by giving to Zerubbabel, Joshua, and the people, a willingness to carry out the work.'
+  - where: 'section “Before a stone was laid”'
+    claim: '“Remaineth” in Hag. 2:5 is the participle ʿōmedet (H5975), “standing”'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hag.xml'
     quote: 'עֹמֶ֣דֶת'
-  - where: 'section “His Spirit standing, His glory coming”'
-    claim: 'Huntington on 2:7: the Lord Himself would visit the temple and fill it with His glory'
+  - where: 'section “Before a stone was laid”'
+    claim: 'Huntington on Hag. 2:7: Jehovah Himself would personally visit the temple and fill it with His glory'
     key: huntington-consider-ways
     url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/consider-your-ways'
     quote: 'Jehovah Himself would personally visit the temple and fill it with His glory'
-  - where: 'section “From this day”'
-    claim: 'The Student Manual joins the uncleanness, repentance and work, and the promise of blessing'
-    key: ot-manual-30
-    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-30?lang=eng'
-    quote: 'The uncleanness was the reason the land was so unproductive (see Haggai 2:15–17), but when the Jews had repented and begun the work on the temple (see v. 18), the curse was to be lifted and the Lord promised His blessing (see v. 19).'
-  - where: 'section “From this day”'
-    claim: 'The Minute on 2:19: blessings might not come at once'
+  - where: 'section “Before a stone was laid”'
+    claim: 'The Church’s chapter heading for Haggai 2 reads the chapter of the Messiah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/2?lang=eng'
+    quote: 'Haggai speaks about the Messiah—The Desire of All Nations will come—The Lord will give peace in His temple.'
+  - where: 'section “Before a stone was laid”'
+    claim: 'Keil on Hag. 2:19: the day is clearly described as the commencement of a new era'
+    key: keil-haggai
+    url: 'https://biblehub.com/commentaries/kad/haggai/2.htm'
+    quote: 'in the last clause of Haggai 2:19 this day is clearly described as the commencement of a new era'
+  - where: 'section “Before a stone was laid”'
+    claim: 'The Minute on 2:19: the blessings perhaps would not come immediately'
     key: breitenstein-haggai-minute
     url: 'https://scripturecentral.org/archive/books/book/old-testament-minute-haggai-volume-2'
-    quote: 'Those blessings perhaps would not come immediately (“the seed [is not] yet in the barn” [verse 19]). The people would have to prove themselves.'
-  - where: 'section “From this day”'
-    claim: 'Connection made by this page: (b), second half: the blessing at 2:19 stands before any harvest'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/2?lang=eng'
-    quote: 'Is the seed yet in the barn? yea, as yet the vine, and the fig tree, and the pomegranate, and the olive tree, hath not brought forth: from this day will I bless you.'
-  - where: 'section “The Holy One who touches”'
-    claim: 'Hebrews sets the ashes of the heifer beside the blood of Christ'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/9?lang=eng'
-    quote: 'the ashes of an heifer sprinkling the unclean, sanctifieth to the purifying of the flesh'
-  - where: 'section “The Holy One who touches”'
-    claim: 'Bible Dictionary: the rules of clean and unclean fulfilled by the Atonement'
-    key: bd-clean-unclean
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/clean-and-unclean?lang=eng'
-    quote: 'being fulfilled by the Atonement of Jesus Christ, they are no longer required of the believers.'
-  - where: 'section “The Holy One who touches”'
-    claim: 'Connection made by this page: the priests’ two rulings (Hag. 2:12–13) set beside Jesus touching the leper, the bier and the border of a garment, with the opposite result'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/mark/1?lang=eng'
-    quote: 'And Jesus, moved with compassion, put forth his hand, and touched him, and saith unto him, I will; be thou clean.'
-  - where: 'section “The Holy One who touches”'
-    claim: 'Connection made by this page: (second): Luke 7:14–15'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/7?lang=eng'
-    quote: 'And he came and touched the bier: and they that bare him stood still.'
-  - where: 'section “The Holy One who touches”'
-    claim: 'Connection made by this page: (third): Luke 8:44, the border of a garment'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/8?lang=eng'
-    quote: 'Came behind him, and touched the border of his garment: and immediately her issue of blood stanched.'
-  - where: 'section “The Holy One who touches”'
-    claim: 'Connection made by this page: (third, other side): Hag. 2:12, the skirt of the garment'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/2?lang=eng'
-    quote: 'If one bear holy flesh in the skirt of his garment, and with his skirt do touch bread, or pottage, or wine, or oil, or any meat, shall it be holy? And the priests answered and said, No.'
-  - where: 'section “The Holy One who touches”'
-    claim: 'Lepers were considered to spread uncleanness; Jesus’ touch was remarkable'
+    quote: 'Those blessings perhaps would not come immediately (“the seed [is not] yet in the barn” [verse 19]).'
+
+  # ---------- The Holy One of God ----------
+  - where: 'section “The Holy One of God”'
+    claim: 'BDB on kānāp (H3671) of a garment, “skirt, corner, or loose flowing end,” lists Hag. 2:12, Zech. 8:23 and Num. 15:38'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3671.htm'
+    quote: 'a. of garment = skirt, corner, or loose flowing end, 1 Samuel 15:27; 1 Samuel 24:5; 1 Samuel 24:6; 1 Samuel 24:12 (twice in verse); Deuteronomy 22:12; Deuteronomy 23:1; Deuteronomy 27:20; Jeremiah 2:34 (figurative), Ezekiel 5:3; Ezekiel 16:8 (in figurative), Haggai 2:12 (twice in verse); Zechariah 8:23; Numbers 15:38 (twice in verse)'
+  - where: 'section “The Holy One of God”'
+    claim: 'The New Testament Student Manual: lepers were considered to spread their uncleanness to anyone who came in contact with them; it is remarkable that Jesus touched this leper'
     key: nt-student-manual-11
     url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/introduction-to-mark/chapter-11?lang=eng'
-    quote: 'were considered to spread their uncleanness to anyone who came in contact with them'
-  - where: 'section “The Holy One who touches”'
-    claim: 'Brown on Luke 7: the stain of ritual uncleanness does not adhere to Him'
-    key: brown-testimony-luke
+    quote: 'were considered to spread their uncleanness to anyone who came in contact with them (see Leviticus 13:45–46). It is therefore remarkable that Jesus touched this leper while healing him (see Mark 1:41).'
+  - where: 'section “The Holy One of God”'
+    claim: 'Elder González on the leper: the Savior’s simple touch must have felt like a caress to his entire soul'
+    key: gonzalez-saviors-touch
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2019/10/44gonzalez?lang=eng'
+    quote: 'Thus, the Savior’s simple touch must have felt like a caress unto his entire soul.'
+  - where: 'section “The Holy One of God”'
+    claim: 'Keil: uncleanness from a corpse was one of the strongest kinds, lasting seven days'
+    key: keil-haggai
+    url: 'https://biblehub.com/commentaries/kad/haggai/2.htm'
+    quote: 'This uncleanness was one of the strongest kinds; it lasted seven days, and could only be removed by his being twice purified with sprinkling water'
+  - where: 'section “The Holy One of God”'
+    claim: 'Brown on Luke 7: touching the dead brings ritual uncleanness upon Him, but the stain does not adhere to Him as it does to others'
+    key: brown-nt-minute-luke
     url: 'https://scripturecentral.org/archive/books/book-chapter/luke-7'
     quote: 'Although His act of touching the dead brings ritual uncleanness upon Him, He sees the deeper need to bring relief and wholeness to the widow. Besides, as His actions show, the stain of ritual uncleanness does not adhere to Him as it does to others.'
-  - where: 'section “The Holy One who touches”'
-    claim: 'Brown on Luke 8: the woman is made clean by a touch of the holy'
-    key: brown-testimony-luke
-    url: 'https://scripturecentral.org/archive/books/book-chapter/luke-8'
-    quote: 'she is made clean, as the prophet is, by a touch of the holy'
-  - where: 'section “The Holy One who touches”'
+  - where: 'section “The Holy One of God”'
+    claim: 'The Church’s footnote at Luke 8:43 “blood” points to Lev. 15:25'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/8?lang=eng'
+    quote: 'Lev. 15:25.'
+  - where: 'section “The Holy One of God”'
+    claim: 'Thayer on κράσπεδον (Luke 8:44; Matt. 9:20; 14:36; Mark 6:56): in the New Testament for the Hebrew ṣîṣit, the tassel the Jews attached to their mantles according to Num. 15:37f'
+    key: thayer
+    url: 'https://biblehub.com/greek/2899.htm'
+    quote: 'in the N. T. for Hebrew צִיצִית, i. e. a little appendage hanging down from the edge of the mantle or cloak, made of twisted wool; a tassel, tuft: Matthew 9:20; Matthew 14:36; Matthew 23:5; Mark 6:56; Luke 8:44. The Jews had such appendages attached to their mantles to remind them of the law, according to Numbers 15:37f.'
+  - where: 'section “The Holy One of God”'
     claim: 'The hem was a tassel at each “wing” or corner of the mantle'
     key: bd-hem-of-garment
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hem-of-garment?lang=eng'
     quote: 'It was really a tassel at each “wing” or corner of the tallith or mantle (Matt. 14:36).'
-  - where: 'section “The Holy One who touches”'
-    claim: 'The “borders” of Num. 15:38 and the “skirt” of Hag. 2:12 are the same Hebrew word kānāp (H3671)'
+  - where: 'section “The Holy One of God”'
+    claim: 'Num. 15:38 “borders” is kanpê (H3671), the word of Hag. 2:12’s “skirt”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'כַּנְפֵ֥י'
+  - where: 'section “The Holy One of God”'
+    claim: 'Hag. 2:12 “skirt” is kānāp (H3671), bikhnaf'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hag.xml'
-    quote: 'בִּכְנַף'
-  - where: 'section “The Holy One who touches”'
-    claim: 'Num. 15:38 fringes in the borders of garments'
+    quote: 'בִּ/כְנַ֣ף'
+  - where: 'section “The Holy One of God”'
+    claim: 'Julie M. Smith: the hemorrhaging woman’s touch, which under the law of Moses should have rendered Jesus ritually unclean, instead renders the woman healed'
+    key: smith-marks-unique-contribution
+    url: 'https://rsc.byu.edu/vol-17-no-2-2016/marks-unique-contribution'
+    quote: 'The touch of the hemorrhaging woman, which under the law of Moses should have rendered Jesus ritually unclean, instead renders the woman healed (see Mark 5:34).'
+  - where: 'section “The Holy One of God”'
+    claim: 'Brown on Luke 8: the hem of Jesus’ garment beside the hem of God’s garment in Isaiah’s vision; the woman is made clean, as the prophet is, by a touch of the holy'
+    key: brown-nt-minute-luke
+    url: 'https://scripturecentral.org/archive/books/book-chapter/luke-8'
+    quote: 'In Isaiah’s vision, the hem is the part of God’s garment that graces the temple as He moves through it to His throne (Isaiah 6:1). Second, in that sacred setting, Isaiah expresses his sense of uncleanness in the presence of God and His entourage (Isaiah 6:5). So too the woman is unclean… Third, she is made clean, as the prophet is, by a touch of the holy (Isaiah 6:6–7).'
+  - where: 'section “The Holy One of God”'
+    claim: 'Connection made by this page: the priests’ two questions (a garment’s fold; the dead) set beside Jesus touching the leper and the bier and the woman reaching for the corner of His garment; in each the uncleanness that should have passed to Him did not, and cleansing went the other way, drawn by faith and coming from Him, not from the garment'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/15?lang=eng'
-    quote: 'that they make them fringes in the borders of their garments'
-  - where: 'section “The Holy One who touches”'
-    claim: 'Moroni: grace sufficient on the condition of denying ungodliness, then sanctified'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/8?lang=eng'
+    quote: 'Came behind him, and touched the border of his garment: and immediately her issue of blood stanched.'
+
+  # ---------- What the touch shows ----------
+  - where: 'section “What the touch shows”'
+    claim: 'The New Testament Student Manual on Mark 5:34: the Savior’s response helped the woman and others avoid the misconception that the miracle had resulted from any miraculous power in His garment itself'
+    key: nt-student-manual-12
+    url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/introduction-to-mark/chapter-12?lang=eng'
+    quote: 'The Savior’s response helped the woman and others present avoid the misconception that the miracle had resulted from any miraculous power in His garment itself—“Daughter, thy faith hath made thee whole”'
+  - where: 'section “What the touch shows”'
+    claim: 'The New Testament Student Manual: God’s power can restore both purity and wholeness'
+    key: nt-student-manual-12
+    url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/introduction-to-mark/chapter-12?lang=eng'
+    quote: 'God’s power can restore both purity and wholeness.'
+  - where: 'section “What the touch shows”'
+    claim: 'Brown on Luke 7: the stain of ritual uncleanness does not adhere to Him as it does to others'
+    key: brown-nt-minute-luke
+    url: 'https://scripturecentral.org/archive/books/book-chapter/luke-7'
+    quote: 'the stain of ritual uncleanness does not adhere to Him as it does to others.'
+  - where: 'section “What the touch shows”'
+    claim: 'Bible Dictionary: the regulations of clean and unclean were introduced in the law of carnal commandments and, being fulfilled by the Atonement of Jesus Christ, are no longer required of the believers'
+    key: bd-clean-unclean
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/clean-and-unclean?lang=eng'
+    quote: 'were introduced in the law of carnal commandments (of performances and ordinances) of the law of Moses; being fulfilled by the Atonement of Jesus Christ, they are no longer required of the believers.'
+  - where: 'section “What the touch shows”'
+    claim: 'Brown on Luke 5:13: Jesus respects and honors the law, but it does not exercise any claim on Him; His divine authority overpowers aspects of ritual uncleanness'
+    key: brown-nt-minute-luke
+    url: 'https://scripturecentral.org/archive/books/book-chapter/luke-5'
+    quote: 'He respects and honors the law (Luke 16:16–17), but it does not exercise any claim on Him. Instead, His divine authority simply overpowers aspects of ritual uncleanness and dietary concerns'
+  - where: 'section “What the touch shows”'
+    claim: 'Connection made by this page: the priests’ rule describes what holy things can do; the law has no claim on Him (Brown), and the page takes the reason to be that He is not a holy thing but the Holy One (Mark 1:24), so uncleanness does not adhere to Him and what goes out of Him to the unclean is cleansing; Haggai’s book had shown the same direction, presence coming to a people who had turned, before they had built'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10?lang=eng'
-    quote: 'then are ye sanctified in Christ by the grace of God'
-  - where: 'section “Consider your ways”'
-    claim: 'Seminary manual: attending the temple does not sanctify someone who is unworthy'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/mark/1?lang=eng'
+    quote: 'I know thee who thou art, the Holy One of God.'
+
+  # ---------- Where holiness comes from ----------
+  - where: 'section “Where holiness comes from”'
+    claim: 'The Seminary manual’s heading on Hag. 2:10–19: the Lord requires us to be worthy to participate in temple ordinances'
+    key: ot-seminary-resource-haggai
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-resource-manual/the-book-of-haggai/haggai-1-2?lang=eng'
+    quote: 'The Lord requires us to be worthy to participate in temple ordinances.'
+  - where: 'section “Where holiness comes from”'
+    claim: 'Seminary manual on Hag. 2:10–19: attending the temple does not sanctify someone who is unworthy'
     key: ot-seminary-resource-haggai
     url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-resource-manual/the-book-of-haggai/haggai-1-2?lang=eng'
     quote: 'attending the temple does not sanctify someone who is unworthy'
-  - where: 'section “Consider your ways”'
-    claim: 'D&C 97:15–16: the house kept clean, then the Lord’s glory and presence'
+  - where: 'section “Where holiness comes from”'
+    claim: 'Elder Bednar: all our worthy desires and good works can never produce clean hands and a pure heart; it is the Atonement of Jesus Christ that provides both a cleansing and redeeming power'
+    key: bednar-clean-hands
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2007/10/clean-hands-and-a-pure-heart?lang=eng'
+    quote: 'All of our worthy desires and good works, as necessary as they are, can never produce clean hands and a pure heart. It is the Atonement of Jesus Christ that provides both a cleansing and redeeming power'
+  - where: 'section “Where holiness comes from”'
+    claim: 'Elder Bednar: the Atonement provides a sanctifying and strengthening power that helps us become better than we could by our own strength'
+    key: bednar-clean-hands
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2007/10/clean-hands-and-a-pure-heart?lang=eng'
+    quote: 'a sanctifying and strengthening power that helps us to become better than we ever could by relying only upon our own strength.'
+  - where: 'section “Where holiness comes from”'
+    claim: 'Connection made by this page: the cleansing that came to the leper and the woman from Christ is read as the picture of the holiness that comes to a person from Him, the step Haggai himself takes from the law’s rule to the state of “this people” before the Lord'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/97?lang=eng'
-    quote: 'my glory shall rest upon it;'
-  - where: 'section “Consider your ways”'
-    claim: 'Schmeil: the Lord will magnify efforts as we consider our ways and make covenants'
-    key: schmeil-consider-ways
-    url: 'https://www.churchofjesuschrist.org/study/general-conference/2026/10/48schmeil?lang=eng'
-    quote: 'He will magnify our efforts as we consider our ways and make the proper adjustments to make and keep covenants with Him.'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/2?lang=eng'
+    quote: 'So is this people, and so is this nation before me, saith the LORD; and so is every work of their hands; and that which they offer there is unclean.'
+  - where: 'section “Where holiness comes from”'
+    claim: 'Huntington: the Lord’s anticipated personal visits to the temple would glorify the current edifice beyond Solomon’s'
+    key: huntington-consider-ways
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-old-testament/consider-your-ways'
+    quote: 'the Lord’s anticipated personal visits to the temple would glorify the current edifice beyond that of Solomon’s temple (Haggai 2:9).'
+  - where: 'section “Where holiness comes from”'
+    claim: 'Guide to the Scriptures: sanctification is the process of becoming free from sin, pure, clean, and holy through the Atonement of Jesus Christ'
+    key: gs-sanctification
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/sanctification?lang=eng'
+    quote: 'The process of becoming free from sin, pure, clean, and holy through the Atonement of Jesus Christ (Moses 6:59–60).'
+  - where: 'section “Where holiness comes from”'
+    claim: 'The Church’s chapter heading for Haggai 2 reads the chapter of the Messiah and His coming'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/2?lang=eng'
+    quote: 'Haggai speaks about the Messiah—The Desire of All Nations will come—The Lord will give peace in His temple.'
+  - where: 'section “Where holiness comes from”'
+    claim: 'President Nelson: every sincere seeker of Jesus Christ will find Him in the temple'
+    key: nelson-come-again
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2024/10/57nelson?lang=eng'
+    quote: 'Here is my promise to you: Every sincere seeker of Jesus Christ will find Him in the temple.'

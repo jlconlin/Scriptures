@@ -1,82 +1,344 @@
 page: no-part-in-the-lord
 claims:
-  - where: 'section “A part of the ground”'
-    claim: 'ḥēleq (H2506) is in Joshua nine times in nine verses (14:4; 15:13; 18:5, 6, 7, 9; 19:9; 22:25, 27); 18:5, 6, 9 are the plural, ''seven parts'''
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Josh.xml'
-    quote: 'חֲלָקִ֑ים'
-  - where: 'section “No part, because the LORD is their inheritance”'
-    claim: '''As he said unto them'' (13:14) points to Num. 18:20; the Church''s footnote at 13:14 is Num. 18:20'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/18?lang=eng'
-    quote: 'Thou shalt have no inheritance in their land, neither shalt thou have any part among them: I am thy part and thine inheritance among the children of Israel.'
-  - where: 'section “No part, because the LORD is their inheritance”'
-    claim: 'The Levites had no inheritance in Canaan but the tithe, 48 cities and a claim on alms'
-    key: bd-levites
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/levites?lang=eng'
-    quote: 'They had no inheritance in Canaan (18:23–24); but they had the tithe (18:21), 48 cities (35:6), and a claim on the alms of the people at feast times (Deut. 12:18–19; 14:27–29).'
-  - where: 'section “Out of their inheritance”'
-    claim: 'The Levite heads came to Eleazar the priest, not to Joshua'
-    key: ot-minute-josh-21
-    url: 'https://scripturecentral.org/archive/books/book-chapter/joshua-21'
-    quote: 'Appropriately, the heads of the Levitical families came not to Joshua, the military commander, but rather to Eleazar, the priest (effectively their chief).'
-  - where: 'section “Ye have no part in the LORD”'
-    claim: 'The eastern tribes'' answer: what have ye to do with the LORD, one older reading: ''He does not concern you; He is our God'''
-    key: keil-joshua
-    url: 'https://biblehub.com/commentaries/kad/joshua/22.htm'
-    quote: 'i.e., He does not concern you; He is our God.'
-  - where: 'section “Ye have no part in the LORD”'
-    claim: 'The lexicon lists Josh. 22:25, 27 under ''share or interest in'', of right (privilege) in the LORD, apart from the distributive sense (share of land)'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/2506.htm'
-    quote: 'of right (privilege) in ביהוה ׳ח Joshua 22:25,27 (P)'
-  - where: 'section “Ye have no part in the LORD”'
-    claim: 'Josh. 18:7 has ʾên + ḥēleq (''no part'') of the Levites; 22:25 has ʾên + ḥēleq of the eastern tribes in the LORD (same noun, same negative)'
+  # ---------- opening ----------
+  - where: 'opening'
+    claim: 'ḥēleq (H2506) 9 occurrences in 9 verses of Joshua: 14:4; 15:13; 18:5, 6, 7, 9; 19:9; 22:25, 27'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Josh.xml'
     quote: 'חֵ֤לֶק'
-  - where: 'section “Ye have no part in the LORD”'
-    claim: 'Connection made by this page: Josh. 18:7 (“the Levites have no part among you”) set beside Josh. 22:25 (“ye have no part in the LORD”), on the same negative and noun, the object changed from the tribes'' midst to the LORD'
+  - where: 'opening'
+    claim: 'Josh. 15:13; 19:9; 18:5–9; 14:4; 18:7 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/18?lang=eng'
+    quote: 'But the Levites have no part among you; for the priesthood of the Lord is their inheritance'
+  - where: 'opening'
+    claim: 'Josh. 14:4 “they gave no part unto the Levites in the land”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/14?lang=eng'
+    quote: 'therefore they gave no part unto the Levites in the land, save cities to dwell in'
+  - where: 'opening'
+    claim: 'Josh. 22:24–25, 27 as quoted; no footnote at 22:25 or 22:27'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/22?lang=eng'
-    quote: 'ye have no part in the LORD'
-  - where: 'section “The inheritance that is the Lord Himself”'
-    claim: 'Psalm 16 uses the same noun as the Levites'' (not a claim of deliberate allusion): ''portion'' in Ps. 16:5 is ḥēleq (H2506)'
+    quote: 'ye have no part in the Lord: so shall your children make our children cease from fearing the Lord.'
+  - where: 'opening'
+    claim: 'BDB files Josh. 22:25, 27 under 1c “share or interest in … of right (privilege) in YHWH,” and 14:4; 15:13; 18:5–7, 9; 19:9 under 2a “portion, tract, of land”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2506.htm'
+    quote: 'of right (privilege) in ביהוה ׳ח Joshua 22:25,27'
+  - where: 'opening'
+    claim: 'BDB 2a: “portion, tract, of land”; “as distributive at conquest Joshua 19:9, seven portions Joshua 18:5,6,9”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2506.htm'
+    quote: 'as distributive at conquest Joshua 19:9, seven portions Joshua 18:5,6,9'
+  - where: 'opening'
+    claim: 'Connection made by this page: Joshua uses ḥēleq of a share of the land and of a share in the LORD, and gives them to different tribes: Levi has no part in the land and has the LORD; the eastern tribes have land and fear having no part in the LORD; so a part in the LORD is not located where the ground is. No commentary read pairs 18:7 with 22:25; the lexicon’s two senses are the warrant'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2506.htm'
+    quote: 'share or interest in'
+  # ---------- section “Seven parts” ----------
+  - where: 'section “Seven parts”'
+    claim: 'Josh. 18:5–9, 15:13, 19:9 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/18?lang=eng'
+    quote: 'and described it by cities into seven parts in a book'
+  - where: 'section “Seven parts”'
+    claim: 'Josh. 15:13 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/15?lang=eng'
+    quote: 'he gave a part among the children of Judah, according to the commandment of the Lord to Joshua'
+  - where: 'section “Seven parts”'
+    claim: 'Josh. 19:9 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/19?lang=eng'
+    quote: 'for the part of the children of Judah was too much for them'
+  - where: 'section “Seven parts”'
+    claim: 'naḥălâ (H5159) 50 occurrences in 43 verses of Joshua; almost every tribe’s section closes “This is the inheritance of the children of …” (not Manasseh’s, 13:29–31; 17:1–13)'
     key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'חֶלְקִ֥/י'
-  - where: 'section “The inheritance that is the Lord Himself”'
-    claim: 'Psalm 16 is headed ''A messianic psalm of David'''
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Josh.xml'
+    quote: 'נַחֲלָ֑ה'
+  # ---------- section “The LORD God of Israel was their inheritance” ----------
+  - where: 'section “The LORD God of Israel was their inheritance”'
+    claim: 'Josh. 13:14, 33 as quoted; footnote 13:14a “inheritance”: Num. 18:20'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/13?lang=eng'
+    quote: 'the Lord God of Israel was their inheritance, as he said unto them.'
+  - where: 'section “The LORD God of Israel was their inheritance”'
+    claim: 'Josh. 13:14 “the sacrifices of the Lord God of Israel made by fire are their inheritance”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/13?lang=eng'
+    quote: 'the sacrifices of the Lord God of Israel made by fire are their inheritance, as he said unto them.'
+  - where: 'section “The LORD God of Israel was their inheritance”'
+    claim: 'Cambridge on 18:7: “Notice the change here as compared with ch. Joshua 13:14. There “the sacrifices of Jehovah” are said to be the portion of Levi, and in Joshua 13:33, “Jehovah, God of Israel” is said to be their portion. Here we have “the priesthood of Jehovah””'
+    key: cambridge-joshua
+    url: 'https://biblehub.com/commentaries/cambridge/joshua/18.htm'
+    quote: 'Here we have “the priesthood of Jehovah,” as in Numbers 3:10'
+  - where: 'section “The LORD God of Israel was their inheritance”'
+    claim: 'Num. 18:20 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/18?lang=eng'
+    quote: 'Thou shalt have no inheritance in their land, neither shalt thou have any part among them: I am thy part and thine inheritance among the children of Israel.'
+  - where: 'section “The LORD God of Israel was their inheritance”'
+    claim: 'Keil on 13:14: “so that the God of Israel himself is called the inheritance of Levi in Joshua 13:33 as in Numbers 18:20”'
+    key: keil-joshua
+    url: 'https://biblehub.com/commentaries/kad/joshua/13.htm'
+    quote: 'so that the God of Israel himself is called the inheritance of Levi in Joshua 13:33 as in Numbers 18:20'
+  - where: 'section “The LORD God of Israel was their inheritance”'
+    claim: 'Student Manual (Numbers 18): “They were not given land as the other tribes were because their inheritance was the priesthood instead (see v. 20).”'
+    key: ot-manual-numbers-13-36
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/numbers-13-36-wilderness-wanderings-part-2?lang=eng'
+    quote: 'They were not given land as the other tribes were because their inheritance was the priesthood instead'
+  - where: 'section “The LORD God of Israel was their inheritance”'
+    claim: 'Bible Dictionary, Levites: “They had no inheritance in Canaan (18:23–24); but they had the tithe (18:21), 48 cities”; “a claim on the alms of the people”'
+    key: bd-levites
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/levites?lang=eng'
+    quote: 'but they had the tithe'
+  - where: 'section “The LORD God of Israel was their inheritance”'
+    claim: 'Bible Dictionary, Levites: “a claim on the alms of the people”'
+    key: bd-levites
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/levites?lang=eng'
+    quote: 'a claim on the alms of the people'
+  - where: 'section “The LORD God of Israel was their inheritance”'
+    claim: 'Deut. 12:12; 14:27, 29 “no part nor inheritance”; Deut. 10:9 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/12?lang=eng'
+    quote: 'forasmuch as he hath no part nor inheritance with you.'
+  - where: 'section “The LORD God of Israel was their inheritance”'
+    claim: 'Deut. 10:9 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/10?lang=eng'
+    quote: 'Wherefore Levi hath no part nor inheritance with his brethren; the Lord is his inheritance'
+  - where: 'section “The LORD God of Israel was their inheritance”'
+    claim: 'Deut. 12:12 ʾên lô ḥēleq wĕnaḥălâ: the ʾên + ḥēleq construction of Josh. 18:7 and 22:25, 27, with naḥălâ beside it in 18:7 and in every Levite verse of Deuteronomy, and absent in 22:25, 27 (Josh. 14:4 has ḥēleq without naḥălâ)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'חֵ֥לֶק'
+  # ---------- section “Out of their inheritance” ----------
+  - where: 'section “Out of their inheritance”'
+    claim: 'Josh. 21:3 as quoted; Levite cities east of Jordan at 21:27, 36–39'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/21?lang=eng'
+    quote: 'And the children of Israel gave unto the Levites out of their inheritance, at the commandment of the Lord, these cities and their suburbs.'
+  - where: 'section “Out of their inheritance”'
+    claim: 'Josh. 21:27 Golan in Manasseh; 21:36–39 Bezer, Jahazah, Kedemoth, Mephaath in Reuben, Ramoth, Mahanaim, Heshbon, Jazer in Gad'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/21?lang=eng'
+    quote: 'out of the tribe of Reuben, Bezer with her suburbs'
+  - where: 'section “Out of their inheritance”'
+    claim: 'Old Testament Minute on ch. 21: “the heads of the Levitical families came not to Joshua, the military commander, but rather to Eleazar, the priest”; “assigned not their own territory but rather certain cities within the territories given to the other tribes of Israel”'
+    key: ot-minute-josh-21
+    url: 'https://scripturecentral.org/archive/books/book-chapter/joshua-21'
+    quote: 'came not to Joshua, the military commander, but rather to Eleazar, the priest'
+  - where: 'section “Out of their inheritance”'
+    claim: 'Old Testament Minute: “the Levites were assigned not their own territory but rather certain cities within the territories given to the other tribes of Israel”'
+    key: ot-minute-josh-21
+    url: 'https://scripturecentral.org/archive/books/book-chapter/joshua-21'
+    quote: 'assigned not their own territory but rather certain cities within the territories given to the other tribes of Israel'
+  # ---------- section “Ye have no part in the LORD” ----------
+  - where: 'section “Ye have no part in the LORD”'
+    claim: 'Num. 32:5, 7, 19 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/32?lang=eng'
+    quote: 'For we will not inherit with them on yonder side Jordan, or forward; because our inheritance is fallen to us on this side Jordan eastward.'
+  - where: 'section “Ye have no part in the LORD”'
+    claim: 'Num. 32:7 “wherefore discourage ye the heart of the children of Israel”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/32?lang=eng'
+    quote: 'And wherefore discourage ye the heart of the children of Israel from going over into the land which the Lord hath given them?'
+  - where: 'section “Ye have no part in the LORD”'
+    claim: 'Pulpit on 22:24: “For their own advantage these tribes had chosen to remain in the trans-Jordanic territory conquered by Moses.”'
+    key: pulpit-joshua
+    url: 'https://biblehub.com/commentaries/pulpit/joshua/22.htm'
+    quote: 'For their own advantage these tribes had chosen to remain in the trans-Jordanic territory conquered by Moses.'
+  - where: 'section “Ye have no part in the LORD”'
+    claim: 'Josh. 22:1–6, 10, 12, 24–25 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/22?lang=eng'
+    quote: 'What have ye to do with the Lord God of Israel?'
+  - where: 'section “Ye have no part in the LORD”'
+    claim: 'Josh. 22:10 “a great altar to see to”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/22?lang=eng'
+    quote: 'a great altar to see to'
+  - where: 'section “Ye have no part in the LORD”'
+    claim: '22:24 mah-lākem wĕla-YHWH, “what to you and to the LORD”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Josh.xml'
+    quote: 'וְ/לַֽ/יהוָ֖ה'
+  - where: 'section “Ye have no part in the LORD”'
+    claim: 'Keil on 22:24: “What have ye to do with Jehovah, the God of Israel?” i.e., He does not concern you; He is our God'
+    key: keil-joshua
+    url: 'https://biblehub.com/commentaries/kad/joshua/22.htm'
+    quote: 'He does not concern you; He is our God'
+  - where: 'section “Ye have no part in the LORD”'
+    claim: 'Keil on 22:24–25: “There was some reason for this anxiety. For, inasmuch as in all the promises and laws Canaan alone … is always mentioned as the land which Jehovah would give to His people for their inheritance, it was quite a possible thing that at some future time the false conclusion might be drawn from this, that only the tribes who dwelt in Canaan proper were the true people of Jehovah.”'
+    key: keil-joshua
+    url: 'https://biblehub.com/commentaries/kad/joshua/22.htm'
+    quote: 'the false conclusion might be drawn from this, that only the tribes who dwelt in Canaan proper were the true people of Jehovah'
+  - where: 'section “Ye have no part in the LORD”'
+    claim: 'Keil: “There was some reason for this anxiety.”'
+    key: keil-joshua
+    url: 'https://biblehub.com/commentaries/kad/joshua/22.htm'
+    quote: 'There was some reason for this anxiety.'
+  - where: 'section “Ye have no part in the LORD”'
+    claim: 'Pulpit on 22:24–25: “It was quite possible that in future ages they might be regarded as outside the blessings and privileges of the Mosaic covenant.”'
+    key: pulpit-joshua
+    url: 'https://biblehub.com/commentaries/pulpit/joshua/22.htm'
+    quote: 'It was quite possible that in future ages they might be regarded as outside the blessings and privileges of the Mosaic covenant.'
+  - where: 'section “Ye have no part in the LORD”'
+    claim: '18:7 kî ʾên ḥēleq lal-lĕwiyyim bĕqirbĕkem; 22:25, 27 ʾên lākem ḥēleq ba-YHWH: the same ʾên + ḥēleq, different order and preposition, and no naḥălâ in 22:25, 27'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Josh.xml'
+    quote: 'אֵין'
+  - where: 'section “Ye have no part in the LORD”'
+    claim: 'Connection made by this page: Joshua sets Levi beside the eastern tribes four times (13:8–14; 13:32–33; 14:3; 18:7); carrying the pairing to the fear of 22:25, 27 is the page’s: Levi has no part in the land and has the LORD, the eastern tribes have land and fear having no part in the LORD, and what they feared losing is what the tribe without ground was given; BDB’s two senses of ḥēleq are the warrant'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/22?lang=eng'
+    quote: 'that your children may not say to our children in time to come, Ye have no part in the Lord.'
+  # ---------- section “Behold the pattern of the altar of the LORD” ----------
+  - where: 'section “Behold the pattern of the altar of the LORD”'
+    claim: 'Josh. 22:26–28, 31, 34 as quoted; footnote 22:31a “among”: Lev. 26:12 (11–12); D&C 101:18'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/22?lang=eng'
+    quote: 'Behold the pattern of the altar of the Lord, which our fathers made, not for burnt offerings, nor for sacrifices; but it is a witness between us and you.'
+  - where: 'section “Behold the pattern of the altar of the LORD”'
+    claim: 'Josh. 22:31 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/22?lang=eng'
+    quote: 'This day we perceive that the Lord is among us, because ye have not committed this trespass against the Lord'
+  - where: 'section “Behold the pattern of the altar of the LORD”'
+    claim: 'Josh. 22:34 “a witness between us that the Lord is God”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/22?lang=eng'
+    quote: 'for it shall be a witness between us that the Lord is God.'
+  - where: 'section “Behold the pattern of the altar of the LORD”'
+    claim: 'Keil on 22:26–27: “before His face (i.e., before the tabernacle in which Jehovah was enthroned)”'
+    key: keil-joshua
+    url: 'https://biblehub.com/commentaries/kad/joshua/22.htm'
+    quote: 'before the tabernacle in which Jehovah was enthroned'
+  - where: 'section “Behold the pattern of the altar of the LORD”'
+    claim: 'Cambridge on 22:27: “a monument to future ages of the connection between the tribes divided by the river”; if Israel should “declare that the people beyond the river “had no part in the Lord,” this monument might be pointed to”'
+    key: cambridge-joshua
+    url: 'https://biblehub.com/commentaries/cambridge/joshua/22.htm'
+    quote: 'a monument to future ages of the connection between the tribes divided by the river'
+  - where: 'section “Behold the pattern of the altar of the LORD”'
+    claim: 'Cambridge on 22:27: “declare that the people beyond the river “had no part in the Lord,” this monument might be pointed to in evidence of the fact”'
+    key: cambridge-joshua
+    url: 'https://biblehub.com/commentaries/cambridge/joshua/22.htm'
+    quote: 'this monument might be pointed to in evidence of the fact'
+  - where: 'section “Behold the pattern of the altar of the LORD”'
+    claim: 'Lev. 26:12 “I will walk among you, and will be your God”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/26?lang=eng'
+    quote: 'And I will walk among you, and will be your God, and ye shall be my people.'
+  - where: 'section “Behold the pattern of the altar of the LORD”'
+    claim: 'Student Manual 21-28: “This chapter demonstrates the critical balance between true worship and apostate idolatry.”'
+    key: ot-manual-josh
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/joshua-1-24-the-entry-into-the-promised-land?lang=eng'
+    quote: 'This chapter demonstrates the critical balance between true worship and apostate idolatry.'
+  - where: 'section “Behold the pattern of the altar of the LORD”'
+    claim: 'Old Testament Minute on ch. 22: “After hearing out the issue, Phinehas determined that the altar was legitimate.”'
+    key: ot-minute-josh-22
+    url: 'https://scripturecentral.org/archive/books/book-chapter/joshua-22-0'
+    quote: 'After hearing out the issue, Phinehas determined that the altar was legitimate.'
+  # ---------- section “The LORD is the portion of mine inheritance” ----------
+  - where: 'section “The LORD is the portion of mine inheritance”'
+    claim: 'Bible Dictionary, Jehovah: “Jehovah is the premortal Jesus Christ”'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ'
+  - where: 'section “The LORD is the portion of mine inheritance”'
+    claim: 'Ps. 16:5 as quoted; heading “A messianic psalm of David”; footnote 16:5b → Deut. 18:2'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/16?lang=eng'
+    quote: 'The Lord is the portion of mine inheritance and of my cup: thou maintainest my lot.'
+  - where: 'section “The LORD is the portion of mine inheritance”'
+    claim: 'Ps. 16 heading: “A messianic psalm of David”'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/16?lang=eng'
     quote: 'A messianic psalm of David'
-  - where: 'section “The inheritance that is the Lord Himself”'
-    claim: 'Peter quotes Psalm 16:8–11 in Acts 2 (the Church''s footnote at 2:25 is Ps. 16:8 (8–11)) and says David spoke of the resurrection of Christ'
+  - where: 'section “The LORD is the portion of mine inheritance”'
+    claim: 'Ps. 16:5 ḥelqî (H2506)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'חֶלְקִ֥/י'
+  - where: 'section “The LORD is the portion of mine inheritance”'
+    claim: 'Footnote Deut. 18:2a “inheritance”: Ps. 16:5'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/2?lang=eng'
-    quote: 'He seeing this before spake of the resurrection of Christ, that his soul was not left in hell, neither his flesh did see corruption.'
-  - where: 'section “The inheritance that is the Lord Himself”'
-    claim: 'Connection made by this page: Josh. 18:7 (“the priesthood of the LORD is their inheritance”) set beside D&C 84:35–38 (“all they who receive this priesthood receive me… all that my Father hath shall be given unto him”); D&C 84:34 names “the sons of Moses and of Aaron”'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/18?lang=eng'
+    quote: 'the Lord is their inheritance, as he hath said unto them.'
+  - where: 'section “The LORD is the portion of mine inheritance”'
+    claim: 'BDB 3b: the LORD as possession of his servants, “of priests, as enjoying perquisites of altar Numbers 18:20,” “in spiritual sense Psalm 73:26; Psalm 119:57; Lamentations 3:24; מְנָת חֶלְקִי ׳י Psalm 16:5”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/2506.htm'
+    quote: 'in spiritual sense Psalm 73:26; Psalm 119:57; Lamentations 3:24'
+  - where: 'section “The LORD is the portion of mine inheritance”'
+    claim: 'Josh. 18:7 footnote 7a “Levites”: TG Priesthood, Aaronic; 7b “inheritance”: TG Priesthood, History of'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/18?lang=eng'
+    quote: 'for the priesthood of the Lord is their inheritance'
+  - where: 'section “The LORD is the portion of mine inheritance”'
+    claim: 'D&C 84:34–38 as quoted'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/84?lang=eng'
     quote: 'And he that receiveth my Father receiveth my Father’s kingdom; therefore all that my Father hath shall be given unto him.'
-  - where: 'section “The inheritance that is the Lord Himself”'
-    claim: 'The LORD of the Old Testament, who was Levi''s inheritance, is Jehovah, the premortal Jesus Christ'
-    key: bd-jehovah
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
-    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
-  - where: 'section “The LORD is my portion”'
-    claim: 'The blessings of the oath and covenant of the priesthood are not just for priesthood holders'
+  - where: 'section “The LORD is the portion of mine inheritance”'
+    claim: 'D&C 84:34 “the sons of Moses and of Aaron”; 84:35 “all they who receive this priesthood receive me, saith the Lord”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/84?lang=eng'
+    quote: 'And also all they who receive this priesthood receive me, saith the Lord'
+  - where: 'section “The LORD is the portion of mine inheritance”'
+    claim: 'Connection made by this page: Joshua 18:7 and D&C 84:35–38 name the same thing in place of ground, the Lord Himself (Levi’s inheritance “the priesthood of the LORD”; those who receive the priesthood “receive me, saith the Lord”); the page does not say the Levites held the promise of D&C 84:38; the Church’s footnotes at D&C 84 do not go to Joshua and no source read makes the pairing'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/84?lang=eng'
+    quote: 'They become the sons of Moses and of Aaron and the seed of Abraham'
+  - where: 'section “The LORD is the portion of mine inheritance”'
+    claim: 'D&C Student Manual on 84:33–44: “the blessings of the oath and covenant of the priesthood are not just for priesthood holders”'
     key: dc-student-manual-2017-84
     url: 'https://www.churchofjesuschrist.org/study/manual/doctrine-and-covenants-student-manual-2017/chapter-31-doctrine-and-covenants-84?lang=eng'
-    quote: 'Therefore, the blessings of the oath and covenant of the priesthood are not just for priesthood holders.'
-  - where: 'section “The LORD is my portion”'
-    claim: '''All that my Father hath'' is for men and women sealed in the temple'
+    quote: 'the blessings of the oath and covenant of the priesthood are not just for priesthood holders'
+  - where: 'section “The LORD is the portion of mine inheritance”'
+    claim: 'D&C Student Manual quoting President Nelson: “no earthly reward—no other success—could compensate for the bounties the Lord will bestow upon those who love Him, keep His commandments (see Moro. 4:3), and endure to the end (see D&C 14:7)”'
     key: dc-student-manual-2017-84
     url: 'https://www.churchofjesuschrist.org/study/manual/doctrine-and-covenants-student-manual-2017/chapter-31-doctrine-and-covenants-84?lang=eng'
-    quote: 'God’s greatest blessings come to men and women who are sealed to each other in the temple.'
-  - where: 'section “The LORD is my portion”'
-    claim: 'President Nelson (quoted in the manual): no earthly reward could compensate for what the Lord will bestow on those who love Him, keep His commandments and endure to the end'
-    key: dc-student-manual-2017-84
-    url: 'https://www.churchofjesuschrist.org/study/manual/doctrine-and-covenants-student-manual-2017/chapter-31-doctrine-and-covenants-84?lang=eng'
-    quote: 'It means that no earthly reward—no other success—could compensate for the bounties the Lord will bestow upon those who love Him, keep His commandments (see Moro. 4:3), and endure to the end (see D&C 14:7)”'
+    quote: 'no earthly reward—no other success—could compensate for the bounties the Lord will bestow upon those who love Him, keep His commandments'
+  - where: 'opening'
+    claim: 'Footnote Josh. 18:7c “Reuben”: Josh. 22:1 (1–6); 22:1a “Reubenites”: Josh. 18:7; 13:8a → 14:3; 14:3a → 13:8'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/22?lang=eng'
+    quote: 'Then Joshua called the Reubenites, and the Gadites, and the half tribe of Manasseh'
+  - where: 'section “The LORD God of Israel was their inheritance”'
+    claim: 'Josh. 18:7 in full; 13:8–14, 13:32–33, 14:3 set Levi beside the eastern tribes'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/18?lang=eng'
+    quote: 'and Gad, and Reuben, and half the tribe of Manasseh, have received their inheritance beyond Jordan on the east, which Moses the servant of the Lord gave them.'
+  - where: 'section “The LORD God of Israel was their inheritance”'
+    claim: 'Josh. 14:3 “but unto the Levites he gave none inheritance among them”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/14?lang=eng'
+    quote: 'but unto the Levites he gave none inheritance among them.'
+  - where: 'section “The LORD God of Israel was their inheritance”'
+    claim: 'Deut. 18:1 “shall have no part nor inheritance with Israel”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/18?lang=eng'
+    quote: 'shall have no part nor inheritance with Israel'
+  - where: 'section “Behold the pattern of the altar of the LORD”'
+    claim: 'Josh. 22:19 as quoted; 22:31, 33 Phinehas and Israel accept the eastern tribes in their land'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/22?lang=eng'
+    quote: 'if the land of your possession be unclean, then pass ye over unto the land of the possession of the Lord'
+  - where: 'section “Behold the pattern of the altar of the LORD”'
+    claim: 'Keil on 22:26–28: “they had built the altar according to the pattern of the altar before the tabernacle … as a witness that they worshipped one and the same God with the tribes on this side”'
+    key: keil-joshua
+    url: 'https://biblehub.com/commentaries/kad/joshua/22.htm'
+    quote: 'as a witness that they worshipped one and the same God with the tribes on this side'
+  - where: 'section “The LORD is the portion of mine inheritance”'
+    claim: 'D&C 84:33 “whoso is faithful unto the obtaining these two priesthoods … and the magnifying their calling”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/84?lang=eng'
+    quote: 'For whoso is faithful unto the obtaining these two priesthoods of which I have spoken, and the magnifying their calling'
+  - where: 'section “The LORD is the portion of mine inheritance”'
+    claim: 'Keil on 22:24–25: “the false conclusion … that only the tribes who dwelt in Canaan proper were the true people of Jehovah”'
+    key: keil-joshua
+    url: 'https://biblehub.com/commentaries/kad/joshua/22.htm'
+    quote: 'the false conclusion might be drawn from this'

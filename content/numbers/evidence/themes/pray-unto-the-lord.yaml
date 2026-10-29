@@ -1,92 +1,523 @@
 page: pray-unto-the-lord
 claims:
-  - where: 'section “Quenched”'
-    claim: 'The Hebrew verb for “prayed” (H6419) occurs in Numbers only at 11:2 and 21:7 (3 occurrences in 2 verses)'
+  # ---------- opening ----------
+  - where: 'opening'
+    claim: 'Num. 11:2 as quoted; “pray” stands in 13 verses of the Numbers KJV, and in all but 11:2 and 21:7 it is “I pray thee” / “I pray you” of a request (occurrences.mjs numbers pray prayed --stem)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/11?lang=eng'
+    quote: 'And the people cried unto Moses; and when Moses prayed unto the Lord, the fire was quenched.'
+  - where: 'opening'
+    claim: 'Num. 21:7 as quoted; the LORD sent fiery serpents (21:6)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/21?lang=eng'
+    quote: 'pray unto the Lord, that he take away the serpents from us. And Moses prayed for the people.'
+  - where: 'opening'
+    claim: 'H6419 (hitpallēl) in Numbers only at 11:2 and 21:7, 3 occurrences in 2 verses, hitpael each time (occurrences.mjs numbers --hebrew 6419); 11:2 wayyitpallēl'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
     quote: 'וַ/יִּתְפַּלֵּ֤ל'
-  - where: 'section “Quenched”'
-    claim: 'The same verb at 21:7'
+  - where: 'opening'
+    claim: '21:7 the people’s imperative hitpallēl (HVtv2ms) and Moses’ wayyitpallēl (HC/Vtw3ms), same stem'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
-    quote: 'וַ/יִּתְפַּלֵּ֥ל'
-  - where: 'section “Quenched”'
-    claim: 'Connection made by this page: 11:2 and 21:7 set side by side have one shape, the people come to Moses and Moses prays to the LORD; the first ends with the fire quenched, the last with a serpent set on a pole'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/11?lang=eng'
-    quote: 'And the people cried unto Moses; and when Moses prayed unto the LORD, the fire was quenched.'
-  - where: 'section “Quenched”'
-    claim: 'The fire was extinguished very quickly at the intercession of Moses'
-    key: keil-numbers
-    url: 'https://biblehub.com/commentaries/kad/numbers/11.htm'
-    quote: 'was extinguished very quickly, at the intercession of Moses'
-  - where: 'section “Granted, in another shape”'
-    claim: 'Israel was spared destruction but lost the privilege of entering the land at once'
-    key: ot-manual-numbers-13-36
-    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/numbers-13-36-wilderness-wanderings-part-2?lang=eng'
-    quote: 'Israel was spared destruction but lost the privilege of immediately entering the promised land.'
-  - where: 'section “Granted, in another shape”'
-    claim: 'The LORD says the people shall not see the land'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/14?lang=eng'
-    quote: 'Surely they shall not see the land which I sware unto their fathers'
-  - where: 'section “Get you up”'
-    claim: 'The answer narrows the judgment to the tents of Korah, Dathan and Abiram, and Moses tells the congregation to depart from them'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/16?lang=eng'
-    quote: 'Depart, I pray you, from the tents of these wicked men'
-  - where: 'section “Get you up”'
-    claim: 'At 16:45 the congregation fell on their faces'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/16?lang=eng'
-    quote: 'Get you up from among this congregation, that I may consume them as in a moment. And they fell upon their faces.'
-  - where: 'section “Get you up”'
-    claim: 'Moses’ earlier motives for intercession were exhausted by Num. 16:46–48'
-    key: keil-numbers
-    url: 'https://biblehub.com/commentaries/kad/numbers/16.htm'
-    quote: 'All the motives which he had hitherto pleaded, in his repeated intercession that this evil congregation might be spared, were now exhausted.'
-  - where: 'section “Not taken away”'
-    claim: 'The text of Numbers 21 says nothing of the serpents leaving; the next verse says those bitten lived when they beheld the serpent of brass'
+    quote: 'הִתְפַּלֵּל֙'
+  - where: 'opening'
+    claim: 'In Numbers the people never ask the LORD in words to lift a judgment; the one time the LORD is said to hearken to Israel’s own voice is the vow of 21:2–3'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/21?lang=eng'
-    quote: 'if a serpent had bitten any man, when he beheld the serpent of brass, he lived.'
-  - where: 'section “Not taken away”'
-    claim: 'The Lord did not take the serpents away but made a way for the people to be saved'
-    key: ot-stories-brass-serpent
-    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-stories-2022/moses-and-the-brass-serpent?lang=eng'
-    quote: 'The Lord did not take the serpents away. But He did make a way for the people to be saved if they were bitten.'
-  - where: 'section “The Intercessor lifted up”'
-    claim: 'Connection made by this page: Hebrews says of Christ that he ever lives to make intercession, and John 3 says the Son of man must be lifted up as Moses lifted up the serpent; in Numbers 21 the one who prays and the thing lifted up are two, in the two verses together both are said of one Person'
+    quote: 'And the Lord hearkened to the voice of Israel, and delivered up the Canaanites'
+  - where: 'opening'
+    claim: 'Num. 25:6: under the plague of Baal-peor the congregation weeps before the tabernacle; no plea is recorded'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/25?lang=eng'
+    quote: 'who were weeping before the door of the tabernacle of the congregation.'
+  - where: 'opening'
+    claim: 'Num. 20:6: at Meribah Moses and Aaron fall on their faces over the people’s thirst, with no judgment fallen'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/20?lang=eng'
+    quote: 'and they fell upon their faces: and the glory of the Lord appeared unto them.'
+  - where: 'opening'
+    claim: 'Bible Dictionary “Moses” lists among his intercessions Taberah (Num. 11:2), the return of the spies (14:13–19) and Korah (16:22); not 12:13, 16:46–48 or 21:7'
+    key: bd-moses
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/moses?lang=eng'
+    quote: 'also at Taberah (Num. 11:2); on the return of the spies (Num. 14:13–19); on the rebellion of Korah (Num. 16:22)'
+  - where: 'opening'
+    claim: 'Bible Dictionary “Moses” lists the brazen serpent as a separate item'
+    key: bd-moses
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/moses?lang=eng'
+    quote: 'the brazen serpent (Num. 21:8–9; John 3:14)'
+  - where: 'opening'
+    claim: 'Connection made by this page: the six pleas of Numbers (11:2; 12:13; 14:13–19; 16:22; 16:45–48; 21:7) read as one sequence in which what changes is what the answer asks of the people, from nothing at Taberah to a figure each bitten person must look at; so the intercessor’s prayer is heard and what it obtains reaches each person through his own look; no source reads the pleas together as a sequence'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/21?lang=eng'
+    quote: 'every one that is bitten, when he looketh upon it, shall live.'
+  - where: 'opening'
+    claim: 'Heb. 7:25 as quoted'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/7?lang=eng'
     quote: 'seeing he ever liveth to make intercession for them.'
-  - where: 'section “The Intercessor lifted up”'
-    claim: 'John 3:14 ties the serpent to the Son of man lifted up'
+  - where: 'opening'
+    claim: 'John 3:14 as quoted'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=eng'
     quote: 'And as Moses lifted up the serpent in the wilderness, even so must the Son of man be lifted up:'
-  - where: 'section “The Intercessor lifted up”'
-    claim: 'Latter-day Saints may read prophetic intercession as typological for the role of Jesus'
+  - where: 'opening'
+    claim: 'Table: Num. 12:13–14 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/12?lang=eng'
+    quote: 'let her be shut out from the camp seven days, and after that let her be received in again.'
+  - where: 'opening'
+    claim: 'Table: Num. 14:19–20 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/14?lang=eng'
+    quote: 'And the Lord said, I have pardoned according to thy word:'
+  - where: 'opening'
+    claim: 'Table: Num. 16:22, 24, 48 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/16?lang=eng'
+    quote: 'And he stood between the dead and the living; and the plague was stayed.'
+  # ---------- section “When Moses prayed unto the LORD, the fire was quenched” ----------
+  - where: 'section “When Moses prayed unto the LORD, the fire was quenched”'
+    claim: '11:2 the people “cried,” ṣāʿaq (H6817), a different verb from Moses’ hitpallēl'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'וַ/יִּצְעַ֥ק'
+  - where: 'section “When Moses prayed unto the LORD, the fire was quenched”'
+    claim: '11:2 as quoted; no words of the prayer are given'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/11?lang=eng'
+    quote: 'And the people cried unto Moses; and when Moses prayed unto the Lord, the fire was quenched.'
+  - where: 'section “When Moses prayed unto the LORD, the fire was quenched”'
+    claim: 'Keil: the fire broke out at one end of the camp and was extinguished very quickly at Moses’ intercession'
+    key: keil-numbers
+    url: 'https://biblehub.com/commentaries/kad/numbers/11.htm'
+    quote: 'merely broke out at one end of it, and sank down again, i.e., was extinguished very quickly, at the intercession of Moses'
+  - where: 'section “When Moses prayed unto the LORD, the fire was quenched”'
+    claim: 'Pulpit on 11:2: the people’s only hope was in their mediator, who had saved them by intercession before (Ex. 32:30–34)'
+    key: pulpit-numbers
+    url: 'https://biblehub.com/commentaries/pulpit/numbers/11.htm'
+    quote: 'they knew that their only hope was in their mediator, who had already saved them by his intercession from a worse destruction (Exodus 32:30-34)'
+  # ---------- section “Heal her now” and “Pardon, I beseech thee” ----------
+  - where: 'section “Heal her now” and “Pardon, I beseech thee”'
+    claim: 'Num. 12:11 Aaron asks Moses, as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/12?lang=eng'
+    quote: 'And Aaron said unto Moses, Alas, my lord, I beseech thee, lay not the sin upon us'
+  - where: 'section “Heal her now” and “Pardon, I beseech thee”'
+    claim: 'Pulpit on 12:13: Moses, though appealed to himself, can only appeal to God'
+    key: pulpit-numbers
+    url: 'https://biblehub.com/commentaries/pulpit/numbers/12.htm'
+    quote: 'Moses, although directly appealed to himself, can only appeal to God.'
+  - where: 'section “Heal her now” and “Pardon, I beseech thee”'
+    claim: 'Num. 12:13 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/12?lang=eng'
+    quote: 'And Moses cried unto the Lord, saying, Heal her now, O God, I beseech thee.'
+  - where: 'section “Heal her now” and “Pardon, I beseech thee”'
+    claim: 'Num. 12:14–15 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/12?lang=eng'
+    quote: 'and the people journeyed not till Miriam was brought in again.'
+  - where: 'section “Heal her now” and “Pardon, I beseech thee”'
+    claim: 'Keil on 12:14: healing promised after seven days’ punishment'
+    key: keil-numbers
+    url: 'https://biblehub.com/commentaries/kad/numbers/12.htm'
+    quote: 'Thus restoration and purification from her leprosy were promised to her after the endurance of seven days'' punishment.'
+  - where: 'section “Heal her now” and “Pardon, I beseech thee”'
+    claim: 'Keil: the purification followed as a matter of course from Leviticus 13–14'
+    key: keil-numbers
+    url: 'https://biblehub.com/commentaries/kad/numbers/12.htm'
+    quote: 'The latter followed as a matter of course, from Leviticus 13 and 14, and did not need to be specially referred to here.'
+  - where: 'section “Heal her now” and “Pardon, I beseech thee”'
+    claim: 'Num. 14:10, 12 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/14?lang=eng'
+    quote: 'I will smite them with the pestilence, and disinherit them, and will make of thee a greater nation and mightier than they.'
+  - where: 'section “Heal her now” and “Pardon, I beseech thee”'
+    claim: 'The Church’s footnotes 14:12a (“nation”: Ex. 32:10) and 14:13a (“Egyptians”: Ex. 32:12); 14:13 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/14?lang=eng'
+    quote: 'And Moses said unto the Lord, Then the Egyptians shall hear it'
+  - where: 'section “Heal her now” and “Pardon, I beseech thee”'
+    claim: 'Keil on 14:11–19: Moses stood in the breach again (Ps. 106:23), with a prayer like that at Horeb, but pleading God’s honour among the heathen'
+    key: keil-numbers
+    url: 'https://biblehub.com/commentaries/kad/numbers/14.htm'
+    quote: 'stood in the breach on this occasion also (Psalm 106:23), with a similar intercessory prayer to that which he had presented at Horeb, except that on this occasion he pleaded the honour of God among the heathen'
+  - where: 'section “Heal her now” and “Pardon, I beseech thee”'
+    claim: 'Keil on 14:17–18: Moses pleads the word in which God revealed His being to him at Sinai (Ex. 34:6–7)'
+    key: keil-numbers
+    url: 'https://biblehub.com/commentaries/kad/numbers/14.htm'
+    quote: 'the word in which God Himself had revealed His inmost being to him at Sinai (Exodus 34:6-7)'
+  - where: 'section “Heal her now” and “Pardon, I beseech thee”'
+    claim: 'Num. 14:18–19 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/14?lang=eng'
+    quote: 'Pardon, I beseech thee, the iniquity of this people according unto the greatness of thy mercy'
+  - where: 'section “Heal her now” and “Pardon, I beseech thee”'
+    claim: 'Student Manual calls Moses’ plea at 14:13–14 “a great intercessory prayer”'
+    key: ot-manual-numbers-13-36
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/numbers-13-36-wilderness-wanderings-part-2?lang=eng'
+    quote: 'In a great intercessory prayer, Moses pleaded for mercy for his people (see Numbers 14:13–14).'
+  - where: 'section “Heal her now” and “Pardon, I beseech thee”'
+    claim: 'Num. 14:20–23 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/14?lang=eng'
+    quote: 'Surely they shall not see the land which I sware unto their fathers'
+  - where: 'section “Shall one man sin?”'
+    claim: 'Num. 16:21–22 as quoted; a question, no request'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/16?lang=eng'
+    quote: 'O God, the God of the spirits of all flesh, shall one man sin, and wilt thou be wroth with all the congregation?'
+  - where: 'section “Shall one man sin?”'
+    claim: 'Num. 16:24, 26 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/16?lang=eng'
+    quote: 'Depart, I pray you, from the tents of these wicked men, and touch nothing of theirs, lest ye be consumed in all their sins.'
+  - where: 'section “Shall one man sin?”'
+    claim: 'Cambridge on 16:20–24: at Moses’ intercession He relents'
+    key: cambridge-numbers
+    url: 'https://biblehub.com/commentaries/cambridge/numbers/16.htm'
+    quote: 'but at Moses’ intercession He relents, and commands them to depart from the Tabernacle'
+  - where: 'section “Shall one man sin?”'
+    claim: 'Num. 16:41, 45 as quoted; no words follow the falling on their faces'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/16?lang=eng'
+    quote: 'Get you up from among this congregation, that I may consume them as in a moment. And they fell upon their faces.'
+  - where: 'section “Shall one man sin?”'
+    claim: 'Keil on 16:46: all the motives Moses had pleaded were exhausted'
+    key: keil-numbers
+    url: 'https://biblehub.com/commentaries/kad/numbers/16.htm'
+    quote: 'All the motives which he had hitherto pleaded, in his repeated intercession that this evil congregation might be spared, were now exhausted.'
+  - where: 'section “Shall one man sin?”'
+    claim: 'Keil: he could not plead as at 16:22, the whole congregation having taken part with the rebels'
+    key: keil-numbers
+    url: 'https://biblehub.com/commentaries/kad/numbers/16.htm'
+    quote: 'seeing that the whole congregation had taken part with the rebels'
+  - where: 'section “Shall one man sin?”'
+    claim: 'Num. 16:46–48 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/16?lang=eng'
+    quote: 'and he put on incense, and made an atonement for the people.'
+  - where: 'section “Shall one man sin?”'
+    claim: 'Student Manual: burning incense a symbol of prayer'
+    key: ot-manual-numbers-13-36
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/numbers-13-36-wilderness-wanderings-part-2?lang=eng'
+    quote: 'Other scriptures indicate that the burning of incense was a symbol of prayer'
+  - where: 'section “Shall one man sin?”'
+    claim: 'Ellicott on 16:46: incense an emblem of prayer and figure of Christ’s intercession'
+    key: ellicott-numbers
+    url: 'https://biblehub.com/commentaries/ellicott/numbers/16.htm'
+    quote: 'Incense was an emblem of prayer, and a figure of the intercession and mediation of Christ.'
+  - where: 'section “Shall one man sin?”'
+    claim: 'Ellicott on 16:48: Aaron a striking type of Christ'
+    key: ellicott-numbers
+    url: 'https://biblehub.com/commentaries/ellicott/numbers/16.htm'
+    quote: 'Aaron was, in this respect, a striking type of Christ'
+  - where: 'section “Shall one man sin?”'
+    claim: 'Keil: the incense embodied the high-priestly prayer, and did not depend on subjective faith'
+    key: keil-numbers
+    url: 'https://biblehub.com/commentaries/kad/numbers/16.htm'
+    quote: 'the offering of incense which embodied the high-priestly prayer, and the strength and operation of which were not dependent upon the sincerity and earnestness of subjective faith'
+  - where: 'section “Shall one man sin?”'
+    claim: 'Keil, continued'
+    key: keil-numbers
+    url: 'https://biblehub.com/commentaries/kad/numbers/16.htm'
+    quote: 'but had a firm and immovable foundation in the objective force of the divine appointment'
+  # ---------- section “That he take away the serpents from us” ----------
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Pulpit on 21:7: the first and only recorded occasion the people directly asked for Moses’ intercession; Pharaoh did so several times, never in vain'
+    key: pulpit-numbers
+    url: 'https://biblehub.com/commentaries/pulpit/numbers/21.htm'
+    quote: 'This is the first and only (recorded) occasion on which the people directly asked for the intercession of Moses (cf., however, chapter Numbers 11:2)'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Pulpit on 21:7: Pharaoh had asked Moses’ intercession several times, never in vain'
+    key: pulpit-numbers
+    url: 'https://biblehub.com/commentaries/pulpit/numbers/21.htm'
+    quote: 'although Pharaoh had done so several times, and never in vain'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Num. 21:7 as quoted; the only verse in Numbers where the people say “We have sinned” and ask for prayer (occurrences.mjs numbers "have sinned": 12:11 Aaron, 14:40, 21:7, 22:34, 32:23)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/21?lang=eng'
+    quote: 'We have sinned, for we have spoken against the Lord, and against thee; pray unto the Lord, that he take away the serpents from us.'
+  - where: 'section “That he take away the serpents from us”'
+    claim: '21:7 the request names the serpent, nāḥāš (H5175)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'הַ/נָּחָ֑שׁ'
+  - where: 'section “That he take away the serpents from us”'
+    claim: '21:7 “that he take away,” wĕyāsēr, hiphil jussive of sûr (H5493)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'וְ/יָסֵ֥ר'
+  - where: 'section “That he take away the serpents from us”'
+    claim: '21:7 Moses prays with the verb of 11:2, wayyitpallēl (H6419)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'וַ/יִּתְפַּלֵּ֥ל'
+  - where: 'section “That he take away the serpents from us”'
+    claim: '21:8 the serpent Moses is to make is a śārāf (H8314a)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'שָׂרָ֔ף'
+  - where: 'section “That he take away the serpents from us”'
+    claim: '21:6 the LORD sent hannĕḥāšîm haśśĕrāpîm, “fiery serpents” (H5175, H8314a)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'הַ/שְּׂרָפִ֔ים'
+  - where: 'section “That he take away the serpents from us”'
+    claim: '21:9 Moses makes a nĕḥaš nĕḥōšet, “serpent of brass” (H5175)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'נְחַ֣שׁ'
+  - where: 'section “That he take away the serpents from us”'
+    claim: '21:9 nĕḥōšet, “brass” (H5178a)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'נְחֹ֔שֶׁת'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Num. 21:6 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/21?lang=eng'
+    quote: 'And the Lord sent fiery serpents among the people'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Num. 21:8 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/21?lang=eng'
+    quote: 'Make thee a fiery serpent, and set it upon a pole: and it shall come to pass, that every one that is bitten, when he looketh upon it, shall live.'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Ellicott on 21:8: saraph, a seraph or burning one'
+    key: ellicott-numbers
+    url: 'https://biblehub.com/commentaries/ellicott/numbers/21.htm'
+    quote: 'The single Hebrew word which is here employed is saraph (a seraph), or burning one'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Keil on 21:8–9: a figurative representation of the poisonous serpents rendered harmless'
+    key: keil-numbers
+    url: 'https://biblehub.com/commentaries/kad/numbers/21.htm'
+    quote: 'It was rather intended as a figurative representation of the poisonous serpents, rendered harmless by the mercy of God.'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Keil, continued: the poison overcome in the brazen serpent'
+    key: keil-numbers
+    url: 'https://biblehub.com/commentaries/kad/numbers/21.htm'
+    quote: 'as a sign that the deadly poison of the fiery serpents was overcome in this brazen serpent'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Num. 21:9 as quoted; Numbers does not say whether the serpents left (“serpent” occurs only at 21:6–9)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/21?lang=eng'
+    quote: 'if a serpent had bitten any man, when he beheld the serpent of brass, he lived.'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Pulpit on 21:9: the record tells nothing but the bare facts'
+    key: pulpit-numbers
+    url: 'https://biblehub.com/commentaries/pulpit/numbers/21.htm'
+    quote: 'The record is brief and simple in the extreme, and tells nothing but the bare facts.'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Student Manual on 21:4–9: nothing more is told'
+    key: ot-manual-numbers-13-36
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/numbers-13-36-wilderness-wanderings-part-2?lang=eng'
+    quote: 'Nothing more is told of the story.'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Old Testament Stories: the Lord did not take the serpents away but made a way for the bitten to be saved'
+    key: ot-stories-brass-serpent
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-stories-2022/moses-and-the-brass-serpent?lang=eng'
+    quote: 'The Lord did not take the serpents away. But He did make a way for the people to be saved if they were bitten.'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Jenson (Ensign, Mar. 2002): rather than taking the serpents away the Lord taught faith and salvation through Christ'
+    key: jenson-look-and-live
+    url: 'https://www.churchofjesuschrist.org/study/ensign/2002/03/look-and-live?lang=eng'
+    quote: 'Rather than simply taking the serpents away, the Lord chose to teach His people about faith and salvation through Christ.'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Ex. 8:8 wĕyāsēr, the same form (hiphil jussive of sûr, H5493) as Num. 21:7'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'וְ/יָסֵר֙'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Ex. 8:8 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/8?lang=eng'
+    quote: 'Entreat the Lord, that he may take away the frogs from me, and from my people'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Ex. 8:13 the frogs died'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/8?lang=eng'
+    quote: 'and the frogs died out of the houses, out of the villages, and out of the fields.'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Ex. 10:17 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/10?lang=eng'
+    quote: 'that he may take away from me this death only.'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Ex. 10:19 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/10?lang=eng'
+    quote: 'And the Lord turned a mighty strong west wind, which took away the locusts'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Keil on 16:46: the incense worked by the objective force of the divine appointment'
+    key: keil-numbers
+    url: 'https://biblehub.com/commentaries/kad/numbers/16.htm'
+    quote: 'but had a firm and immovable foundation in the objective force of the divine appointment'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Keil on 21:7: the reception of help was made to depend upon the faith of the people'
+    key: keil-numbers
+    url: 'https://biblehub.com/commentaries/kad/numbers/21.htm'
+    quote: 'And the Lord helped them; in such a way, however, that the reception of help was made to depend upon the faith of the people.'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Connection made by this page: Keil’s two readings set against each other show the turn of the sequence: Aaron’s incense worked by divine appointment, not by any faith (Keil [105]), in a congregation that did nothing (16:47–48), while the serpent of 21:8–9 is made to depend on each bitten person’s looking; Keil does not compare them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/21?lang=eng'
+    quote: 'when he beheld the serpent of brass, he lived.'
+  - where: 'section “That he take away the serpents from us”'
+    claim: '1 Ne. 17:41 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/17?lang=eng'
+    quote: 'and the labor which they had to perform was to look; and because of the simpleness of the way, or the easiness of it, there were many who perished.'
+  - where: 'section “That he take away the serpents from us”'
+    claim: 'Alma 33:20 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/33?lang=eng'
+    quote: 'Now the reason they would not look is because they did not believe that it would heal them.'
+  # ---------- section “He ever liveth to make intercession” ----------
+  - where: 'section “He ever liveth to make intercession”'
+    claim: 'Isa. 53:12 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/53?lang=eng'
+    quote: 'and made intercession for the transgressors.'
+  - where: 'section “He ever liveth to make intercession”'
+    claim: 'Isa. 53:12 “poured out his soul unto death” as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/53?lang=eng'
+    quote: 'because he hath poured out his soul unto death: and he was numbered with the transgressors; and he bare the sin of many'
+  - where: 'section “He ever liveth to make intercession”'
+    claim: 'Rom. 8:34 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/8?lang=eng'
+    quote: 'It is Christ that died, yea rather, that is risen again, who is even at the right hand of God, who also maketh intercession for us.'
+  - where: 'section “He ever liveth to make intercession”'
+    claim: 'D&C 45:4 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/45?lang=eng'
+    quote: 'Father, behold the sufferings and death of him who did no sin, in whom thou wast well pleased'
+  - where: 'section “He ever liveth to make intercession”'
+    claim: '2 Ne. 2:9 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng'
+    quote: 'inasmuch as he shall make intercession for all the children of men; and they that believe in him shall be saved.'
+  - where: 'section “He ever liveth to make intercession”'
+    claim: 'Heb. 7:25 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/7?lang=eng'
+    quote: 'Wherefore he is able also to save them to the uttermost that come unto God by him, seeing he ever liveth to make intercession for them.'
+  - where: 'section “He ever liveth to make intercession”'
+    claim: 'D&C 45:3 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/45?lang=eng'
+    quote: 'Listen to him who is the advocate with the Father, who is pleading your cause before him'
+  - where: 'section “He ever liveth to make intercession”'
+    claim: 'D&C 45:5 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/45?lang=eng'
+    quote: 'Wherefore, Father, spare these my brethren that believe on my name, that they may come unto me and have everlasting life.'
+  - where: 'section “He ever liveth to make intercession”'
+    claim: 'Guide to the Scriptures “Mediator”'
+    key: gs-mediator
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/mediator?lang=eng'
+    quote: 'An intercessor or intermediary. Jesus Christ is the mediator between God and man.'
+  - where: 'section “He ever liveth to make intercession”'
+    claim: 'Scripture Helps on Ex. 32: Moses’ pleading can remind us of Jesus Christ, our advocate'
+    key: scripture-helps-ex-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/15-exodus-19-20-24-31-34?lang=eng'
+    quote: 'Moses’s pleading with the Lord on behalf of his people can remind us of Jesus Christ, who is our advocate with the Father.'
+  - where: 'section “He ever liveth to make intercession”'
+    claim: 'Scripture Helps (Numbers 11–14), endnote 21 on Num. 14:11–19: Moses’ intercession similar to Christ’s'
+    key: scripture-helps-num
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/17-numbers-11-14-20-24-27?lang=eng'
+    quote: 'His intercession for his people was similar to Jesus Christ’s intercession for us'
+  - where: 'section “He ever liveth to make intercession”'
+    claim: 'Student Manual on Ex. 32: Moses, like Christ whom he emulated, interceded and saved them on condition of repentance'
+    key: ot-manual-ex-21-24
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/exodus-21-24-31-35-the-mosaic-law-a-preparatory-gospel?lang=eng'
+    quote: 'But Moses, like Christ whom he emulated, loved his people in spite of their hardheartedness and wickedness. He interceded in their behalf and saved them, but only on the condition of their repentance.'
+  - where: 'section “He ever liveth to make intercession”'
+    claim: 'Sears: prophetic intercession read as typological for the role of Jesus'
     key: sears-intercession
     url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/o-lord-god-forgive'
-    quote: 'understands prophetic intercession as typological for the role of Jesus'
-  - where: 'section “The Intercessor lifted up”'
-    claim: 'The lifting up of the serpent is a type of the Lord’s lifting up upon the cross'
+    quote: 'a doctrinal lens that understands prophetic intercession as typological for the role of Jesus'
+  - where: 'section “He ever liveth to make intercession”'
+    claim: 'John 3:14–15 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=eng'
+    quote: 'That whosoever believeth in him should not perish, but have eternal life.'
+  - where: 'section “He ever liveth to make intercession”'
+    claim: 'Bible Dictionary “Serpent, brazen”: the lifting up a type of His own lifting up on the cross'
     key: bd-serpent-brazen
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/serpent-brazen?lang=eng'
     quote: 'The “lifting up” of the serpent in the wilderness is referred to by the Lord as a type of His own “lifting up” upon the cross (John 3:14–15).'
-  - where: 'section “Not removed, but borne”'
-    claim: 'Connection made by this page: Paul’s request that a thing “depart” and the answer of grace, and Alma’s people’s burdens eased in bondage, set beside the request to “take away” the serpents and the answer of a remedy; in each the answer was not removal'
+  - where: 'section “He ever liveth to make intercession”'
+    claim: 'Hel. 8:15 as quoted'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/2-cor/12?lang=eng'
-    quote: 'For this thing I besought the Lord thrice, that it might depart from me.'
-  - where: 'section “Not removed, but borne”'
-    claim: 'The burdens of Alma’s people were eased while they remained in bondage'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/hel/8?lang=eng'
+    quote: 'even so as many as should look upon the Son of God with faith, having a contrite spirit, might live, even unto that life which is eternal.'
+  - where: 'section “He ever liveth to make intercession”'
+    claim: 'Renlund (Oct. 2023) says in one paragraph that Christ is our Advocate and that we must cast about our eyes (Alma 33:22); cited as a further witness'
+    key: renlund-treasure
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2023/10/57renlund?lang=eng'
+    quote: 'He is our Advocate with the Father and champions what the Father has wanted all along'
+  - where: 'section “He ever liveth to make intercession”'
+    claim: 'Renlund, same paragraph: the source to whom we should look for a remission of sins'
+    key: renlund-treasure
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2023/10/57renlund?lang=eng'
+    quote: 'He is the ultimate “source [to whom we should] look for a remission of [our] sins.”'
+  - where: 'section “He ever liveth to make intercession”'
+    claim: 'Renlund, same paragraph'
+    key: renlund-treasure
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2023/10/57renlund?lang=eng'
+    quote: 'cast about [our] eyes and begin to believe in the Son of God'
+  - where: 'section “He ever liveth to make intercession”'
+    claim: 'Connection made by this page: Numbers 21 enacts in one scene what Isa. 53:12 and D&C 45:3–5 join, the intercession and the death or lifting up of the one who intercedes: the answer to Moses’ prayer (21:7) is the thing lifted up (21:8–9), so read with Heb. 7:25 and John 3:14 the one who pleads for us and the one we must look to are one Person, and His plea rests on His having been lifted up'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/21?lang=eng'
+    quote: 'And Moses prayed for the people.'
+  # ---------- section “Every one that is bitten” ----------
+  - where: 'section “Every one that is bitten”'
+    claim: 'Oaks: healing comes in many ways; sometimes the burden is lifted, sometimes strength is given to bear it'
+    key: oaks-2006-heals
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2006/10/he-heals-the-heavy-laden?lang=eng'
+    quote: 'Sometimes a “healing” cures our illness or lifts our burden. But sometimes we are “healed” by being given strength or understanding or patience to bear the burdens placed upon us.'
+  - where: 'section “Every one that is bitten”'
+    claim: 'Oaks (Oct. 2006): the Lord declined to heal Paul; “My grace is sufficient”'
+    key: oaks-2006-heals
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2006/10/he-heals-the-heavy-laden?lang=eng'
+    quote: 'the Lord declined to heal him. Paul later wrote that the Lord explained, “My grace is sufficient for thee: for my strength is made perfect in weakness”'
+  - where: 'section “Every one that is bitten”'
+    claim: 'Oaks: Alma’s people would be delivered eventually; meanwhile their burdens eased, not removed'
+    key: oaks-2006-heals
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2006/10/he-heals-the-heavy-laden?lang=eng'
+    quote: 'the Lord told them He would deliver them eventually, but in the meantime He would ease their burdens'
+  - where: 'section “Every one that is bitten”'
+    claim: 'Oaks, same paragraph'
+    key: oaks-2006-heals
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2006/10/he-heals-the-heavy-laden?lang=eng'
+    quote: 'In that case the people did not have their burdens removed, but the Lord strengthened them'
+  - where: 'section “Every one that is bitten”'
+    claim: 'Mosiah 24:16–17: the deliverance came'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/24?lang=eng'
-    quote: 'And I will also ease the burdens which are put upon your shoulders, that even you cannot feel them upon your backs, even while you are in bondage'
-  - where: 'section “Not removed, but borne”'
-    claim: 'The challenges were not immediately removed; the people were strengthened'
-    key: bednar-bear-up-burdens
-    url: 'https://www.churchofjesuschrist.org/study/general-conference/2014/04/bear-up-their-burdens-with-ease?lang=eng'
-    quote: 'The challenges and difficulties were not immediately removed from the people. But Alma and his followers were strengthened, and their increased capacity made the burdens lighter.'
+    quote: 'Be of good comfort, for on the morrow I will deliver you out of bondage.'
+  - where: 'section “Every one that is bitten”'
+    claim: 'Connection made by this page: Num. 21:7–9 set beside Paul’s thorn (2 Cor. 12:8–9) and Alma’s people (Mosiah 24:14–15) as prayers for relief answered with a way to live; Oaks sets the two later cases together, and no source sets either beside Numbers 21'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/21?lang=eng'
+    quote: 'pray unto the Lord, that he take away the serpents from us.'
+  - where: 'section “Every one that is bitten”'
+    claim: 'Alonso (Liahona, Apr. 2022; “By Elder Jose L. Alonso”): the snakes were not the problem'
+    key: alonso-look-to-god
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/04/united-states-and-canada-section/to-live-look-to-god-and-trust-in-him?lang=eng'
+    quote: 'The Lord did not take the snakes away, because the snakes were not the problem. The real problem was the Israelites’ lack of faith and tendency to constantly complain'
+  - where: 'section “Every one that is bitten”'
+    claim: 'Christofferson (Oct. 2025): many looked and lived, others would not look'
+    key: christofferson-look
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2025/10/45christofferson?lang=eng'
+    quote: 'Many did look and live, but others were, in Alma’s words, “so hardened” that they simply would not look and perished.'
+  - where: 'section “Every one that is bitten”'
+    claim: 'Heb. 7:25 “ever liveth”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/7?lang=eng'
+    quote: 'seeing he ever liveth to make intercession for them.'

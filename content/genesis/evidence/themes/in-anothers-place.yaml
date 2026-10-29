@@ -1,107 +1,274 @@
 page: in-anothers-place
 claims:
+  # ---------- opening ----------
   - where: 'opening'
-    claim: 'Judah’s offer can remind us of Jesus Christ, Judah’s descendant'
-    key: scripture-helps-gen-42-50
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/11-genesis-42-50?lang=eng'
-    quote: 'Judah’s actions can remind us of Jesus Christ, who was Judah’s descendant.'
-  - where: 'section “Discern, I pray thee”'
-    claim: 'The brothers’ words at 37:32 and Tamar’s at 38:25 are the same Hebrew form (hakker, imperative of nakar, H5234, with na)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
-    quote: 'הַכֶּר'
-  - where: 'section “Discern, I pray thee”'
-    claim: 'The same Hebrew phrase is used in 37:32 and 38:25'
-    key: sc-knowhy-841
-    url: 'https://scripturecentral.org/knowhy/why-is-the-judah-and-tamar-story-in-the-middle-of-the-joseph-story'
-    quote: 'This is the exact same Hebrew phrase used in Genesis 38:25, when Tamar asks Judah to “please recognize” the items he had left with her.'
-  - where: 'section “Discern, I pray thee”'
-    claim: 'The Tamar story is the only one in Genesis that might explain Judah’s transformation'
-    key: olson-matriarchs
-    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
-    quote: 'The only story included in the Genesis narrative to possibly explain Judah’s transformation is the story of Tamar.'
-  - where: 'section “I will be surety for him”'
-    claim: 'The verb arav (H6148, “be surety”) occurs in Genesis only at 43:9 and 44:32; the noun eravon (H6162, “pledge”) only at 38:17, 18, 20'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
-    quote: 'עֵרָב֖וֹן'
-  - where: 'section “I will be surety for him”'
-    claim: 'Judah progresses from leaving tokens as a pledge to offering himself as a pledge'
-    key: spackman-judah-tamar
-    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
-    quote: 'Judah progresses from selfishness (offering tokens of himself as a pledge to pay a prostitute) to selflessness and redemption in the Joseph story'
-  - where: 'section “I will be surety for him”'
-    claim: 'The verb arav is glossed “take on pledge, give in pledge”'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/6148.htm'
-    quote: 'take on pledge, give in pledge, exchange'
-  - where: 'section “I will be surety for him”'
-    claim: 'The same verb is used of God at Psalm 119:122'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/6148.htm'
-    quote: 'of God Isaiah 38:14 go surety for me , Psalm 119:122'
-  - where: 'section “I will be surety for him”'
-    claim: 'Psalm 119:122 asks God to be surety'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/119?lang=eng'
-    quote: 'Be surety for thy servant for good'
-  - where: 'section “Instead of the lad”'
-    claim: 'Judah’s offer likened to Christ taking our sins upon Himself'
-    key: scripture-helps-gen-42-50
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/11-genesis-42-50?lang=eng'
-    quote: 'As Judah offered to take Benjamin’s punishment so that Benjamin could return to his father, so Jesus Christ took our sins upon Himself so that we can return to our Heavenly Father.'
-  - where: 'section “Instead of the lad”'
-    claim: 'Mosiah 15:9 is the passage cited with that paragraph (its endnote 13)'
-    key: scripture-helps-gen-42-50
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/11-genesis-42-50?lang=eng'
-    quote: 'See Mosiah 15:9.'
-  - where: 'section “Instead of the lad”'
-    claim: 'Mosiah 15:9 wording'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/15?lang=eng'
-    quote: 'standing betwixt them and justice; having broken the bands of death, taken upon himself their iniquity and their transgressions'
-  - where: 'section “Until Shiloh come”'
-    claim: '“Praise” in 49:8 is the verb yadah (H3034) of Judah’s naming (29:35); the verb occurs in Genesis only in these two verses'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
-    quote: 'יוֹד֣וּ/ךָ'
-  - where: 'section “Until Shiloh come”'
-    claim: 'Shiloh as a prophecy of the Messiah, confirmed by JST Gen. 50:24; read as “He to whom it belongs”'
-    key: bd-shiloh
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/shiloh?lang=eng'
-    quote: 'This interpretation is confirmed by JST Gen. 50:24 (Appendix)'
-  - where: 'section “Until Shiloh come”'
-    claim: 'Shiloh can be read as a short form of “He to whom it belongs”'
-    key: bd-shiloh
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/shiloh?lang=eng'
-    quote: 'Shiloh can be read as a short form for “He to whom it belongs.”'
-  - where: 'section “Until Shiloh come”'
-    claim: 'Heb. 7:14, our Lord sprang out of Juda'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/7?lang=eng'
-    quote: 'For it is evident that our Lord sprang out of Juda'
-  - where: 'opening'
-    claim: 'Connection made by this page: Gen. 22:13 ram “in the stead of his son” set beside Gen. 44:33 “instead of the lad”'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/22?lang=eng'
-    quote: 'offered him up for a burnt offering in the stead of his son'
-  - where: 'section “In the stead of his son”'
-    claim: 'Scripture Helps pairs Abraham’s promised lamb with Jesus the Lamb offered up for us'
-    key: scripture-helps-gen-18-23
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/08-genesis-18-23?lang=eng'
-    quote: 'Abraham said God would provide a lamb (see Genesis 22:8 ). … Jesus was the Lamb offered up for us (see 1 Peter 1:19 ).'
-  - where: 'section “In the stead of his son”'
-    claim: 'Jacob 4:5 calls Abraham’s offering of Isaac a similitude of God and his Only Begotten Son'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/jacob/4?lang=eng'
-    quote: 'offering up his son Isaac, which is a similitude of God and his Only Begotten Son'
-  - where: 'section “Instead of the lad”'
-    claim: 'Connection made by this page: “instead of the lad” (Gen. 44:33) and “in the stead of his son” (Gen. 22:13) use the same Hebrew word, tachat; tachat (H8478) is the ordinary preposition, 31 occurrences in Genesis; a comparison of the words only'
+    claim: '“In the stead of” (22:13) and “instead of” (44:33) are the same Hebrew preposition, taḥat (H8478)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
     quote: 'תַּ֥חַת'
-  - where: 'section “Instead of the lad”'
-    claim: 'tachat means underneath, below, instead of'
+  - where: 'opening'
+    claim: 'taḥat occurs 31 times in Genesis (30 verses), most often “under”; where it means “instead of” it is Seth for Abel (4:25), seven Edomite kings who reigned in a dead king’s stead (36:33–39), the ram (22:13) and Judah (44:33); only in 22:13 and 44:33 does the one put in another’s place take on what the other faced (death on the altar; bondage) so that the other goes free'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'תַּ֣חַת'
+  - where: 'opening'
+    claim: 'Hopkin: God does not require Abraham to offer from his own herds; the offering God himself provided was a ram in the place of Isaac'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'God, in the end, does not require Abraham to offer an animal sacrifice from his own herds at all. In this case, the offering God himself provided was that of a ram in the place of Isaac.'
+  - where: 'opening'
+    claim: 'Scripture Helps sets Judah’s proposal of the sale beside his offer to take Benjamin’s place'
+    key: scripture-helps-gen-42-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/11-genesis-42-50?lang=eng'
+    quote: 'was the one who suggested selling Joseph into slavery. But many years later in Egypt, Judah offered to take Benjamin’s place as a servant or slave.'
+  - where: 'opening'
+    claim: 'Connection made by this page: Moriah gives a substitute provided by God that chooses nothing and dies; Egypt gives a man who provides himself and is not taken; the Savior is both, the Lamb God provided and the one who offered Himself and was accepted; Genesis gives the second picture to the brother who sold a brother; no source read sets 22:13 and 44:33 together'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/44?lang=eng'
+    quote: 'let thy servant abide instead of the lad a bondman to my lord; and let the lad go up with his brethren.'
+
+  # ---------- In the stead of his son ----------
+  - where: 'section “In the stead of his son”'
+    claim: 'Hopkin: the offering God himself provided was that of a ram in the place of Isaac'
+    key: hopkin-covenant
+    url: 'https://rsc.byu.edu/creation-sinai/covenant-among-covenants'
+    quote: 'the offering God himself provided was that of a ram in the place of Isaac.'
+  - where: 'section “In the stead of his son”'
+    claim: 'Keil on 22:13: as an offering provided by God Himself, Abraham sacrificed the ram instead of his son'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/22.htm'
+    quote: 'as an offering provided by God Himself, he sacrificed it instead of his son.'
+  - where: 'section “In the stead of his son”'
+    claim: 'Elder Maxwell (Oct. 1981): there was no ram in the thicket at Calvary to spare Him'
+    key: maxwell-1981-divine-redeemer
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1981/10/o-divine-redeemer?lang=eng'
+    quote: 'There was no ram in the thicket at Calvary to spare Him, this Friend of Abraham and Isaac.'
+  - where: 'section “In the stead of his son”'
+    claim: 'Elder Oaks (Oct. 1992) first gives the Jacob 4:5 reading: the experience of Abraham and Isaac was what the scriptures call a type, a similitude of God and his Only Begotten Son'
+    key: oaks-1992-bible-stories
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1992/10/bible-stories-and-personal-protection?lang=eng'
+    quote: 'I learned that the experience of Abraham and Isaac was what the scriptures call a type, which is a likeness or reminder of something else.'
+  - where: 'section “In the stead of his son”'
+    claim: 'Elder Oaks (Oct. 1992): we, like Isaac, are condemned to death; our Father in Heaven provides the Lamb of God'
+    key: oaks-1992-bible-stories
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1992/10/bible-stories-and-personal-protection?lang=eng'
+    quote: 'Because of our sins and our mortality, we, like Isaac, are condemned to death. When all other hope is gone, our Father in Heaven provides the Lamb of God, and we are saved by his sacrifice.'
+  - where: 'section “In the stead of his son”'
+    claim: 'Scripture Helps pairs Abraham’s promise that God would provide a lamb with Jesus as the Lamb offered up for us'
+    key: scripture-helps-gen-18-23
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/08-genesis-18-23?lang=eng'
+    quote: 'Jesus was the Lamb offered up for us (see 1 Peter 1:19).'
+  - where: 'section “In the stead of his son”'
+    claim: 'Connection made by this page: the Church reads Moriah two ways (Isaac as the Son who had no ram at Calvary; Isaac as us, with the Lamb of God provided), and Elder Oaks gives both a paragraph apart; the page holds both: the Son who had no substitute is the substitute God provided'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/jacob/4?lang=eng'
+    quote: 'offering up his son Isaac, which is a similitude of God and his Only Begotten Son.'
+
+  # ---------- Let us sell him ----------
+  - where: 'section “Let us sell him”'
+    claim: 'The Student Manual: Judah proposed the sale of Joseph; Judas (the Greek spelling of Judah) was the one who actually sold Jesus'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'Judah, the head of the tribe of Judah, proposed the sale of Joseph. Certain leaders of the Jews in Jesus’ day turned Jesus over to the Romans. Judas (the Greek spelling of Judah) was the one who actually sold Jesus.'
+  - where: 'section “Let us sell him”'
+    claim: 'Scripture Helps (Gen 37–41) pairs Gen 37:26 with Matt 27:3: Joseph and Jesus were betrayed by men named Judah'
+    key: scripture-helps-gen-37-41
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/10-genesis-37-41?lang=eng'
+    quote: 'They were betrayed by men named Judah (“Judas” is the Greek form of the Hebrew name Judah).'
+  - where: 'section “Let us sell him”'
+    claim: 'Scripture Helps (Gen 42–50): Judah’s actions can remind us of Jesus Christ, who was Judah’s descendant'
+    key: scripture-helps-gen-42-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/11-genesis-42-50?lang=eng'
+    quote: 'Judah’s actions can remind us of Jesus Christ, who was Judah’s descendant.'
+
+  # ---------- She hath been more righteous than I ----------
+  - where: 'section “She hath been more righteous than I”'
+    claim: 'KnoWhy #841: the Hebrew phrase of 38:25 is the phrase of 37:32, and these are the only two places it appears in the Hebrew Bible'
+    key: sc-knowhy-841
+    url: 'https://scripturecentral.org/knowhy/why-is-the-judah-and-tamar-story-in-the-middle-of-the-joseph-story'
+    quote: 'This is the exact same Hebrew phrase used in Genesis 38:25, when Tamar asks Judah to “please recognize” the items he had left with her. These are the only two places this phrase appears in the Hebrew Bible'
+  - where: 'section “She hath been more righteous than I”'
+    claim: 'Olson: Judah, the betrayer, offered his own life to redeem his victim’s successor; the Tamar story is the only one that possibly explains his transformation'
+    key: olson-matriarchs
+    url: 'https://rsc.byu.edu/creation-sinai/matriarchs'
+    quote: 'Judah, the betrayer, offered his own life to redeem his victim’s successor. The only story included in the Genesis narrative to possibly explain Judah’s transformation is the story of Tamar.'
+  - where: 'section “She hath been more righteous than I”'
+    claim: '“Pledge” in 38:17, 18, 20 is ʿērābôn (H6162), Genesis’s only occurrences; the verb ʿārab (H6148) occurs in Genesis only at 43:9 and 44:32'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'עֵרָב֖וֹן'
+  - where: 'section “She hath been more righteous than I”'
+    claim: 'Spackman: Judah progresses from selfishness (tokens of himself as a pledge to pay a prostitute) to selflessness (himself as a pledge for his family)'
+    key: spackman-judah-tamar
+    url: 'https://rsc.byu.edu/vol-11-no-1-2010/story-judah-tamar'
+    quote: 'Judah progresses from selfishness (offering tokens of himself as a pledge to pay a prostitute) to selflessness and redemption in the Joseph story (offering himself as a pledge for the good of his family, redeeming Benjamin and sparing Israel pain).'
+  - where: 'section “She hath been more righteous than I”'
+    claim: 'Connection made by this page: the shared root of ʿērābôn (38) and ʿārab (43–44) is the site’s observation, not Spackman’s, who works with the English “pledge”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/38?lang=eng'
+    quote: 'Wilt thou give me a pledge, till thou send it?'
+  - where: 'section “She hath been more righteous than I”'
+    claim: 'KnoWhy #841: it is impossible to know for sure how to understand Judah’s actions'
+    key: sc-knowhy-841
+    url: 'https://scripturecentral.org/knowhy/why-is-the-judah-and-tamar-story-in-the-middle-of-the-joseph-story'
+    quote: 'It is impossible to know for sure how to understand Judah’s actions in the narrative'
+
+  # ---------- I will be surety for him ----------
+  - where: 'section “I will be surety for him”'
+    claim: 'The Cambridge Bible on 43:9: Reuben pledged the lives of his two sons; here Judah is ready to pledge his own life'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/43.htm'
+    quote: 'In Genesis 42:37 Reuben had been ready to pledge the lives of his two sons for Benjamin’s safety. Here Judah is ready to pledge his own life; see Genesis 44:32.'
+  - where: 'section “I will be surety for him”'
+    claim: 'BDB on ʿārab with accusative of person: go surety for the safety of, Gen. 43:9 and 44:32'
     key: bdb
-    url: 'https://biblehub.com/hebrew/8478.htm'
-    quote: 'preposition underneath, below, instead of'
+    url: 'https://biblehub.com/hebrew/6148.htm'
+    quote: 'with accusative of person taken on pledge, i.e. go surety for the safety of, Genesis 43:9 (J), Genesis 44:32 (J; + מֵעִם person)'
+  - where: 'section “I will be surety for him”'
+    claim: 'The Cambridge Bible: “let me bear the blame” is literally “I shall have sinned against thee for ever”'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/43.htm'
+    quote: 'let me bear the blame for ever] R.V. marg. gives the literal rendering I shall have sinned against thee for ever'
+  - where: 'section “I will be surety for him”'
+    claim: 'The Student Manual: it is significant that Judah, who suggested the sale, became the surety for Benjamin; his change of heart was shown complete at 44:33'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'It is significant that Judah, who suggested that Joseph be sold (see Genesis 37:26–27), became the one who was willing to become “the surety” for Benjamin.'
+  - where: 'section “I will be surety for him”'
+    claim: 'The Student Manual: when the pressure was on, Judah’s change of heart was shown to be complete'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'When the pressure was on, Judah’s change of heart was shown to be complete (see Genesis 44:33).'
+
+  # ---------- Instead of the lad ----------
+  - where: 'section “Instead of the lad”'
+    claim: '“Instead of” in 44:33 is taḥat, the word of 22:13'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'תַּ֣חַת'
+  - where: 'section “Instead of the lad”'
+    claim: '“A bondman” in 44:33 is ʿebed (H5650), the word of Joseph’s penalty in 44:17'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'עֶ֖בֶד'
+  - where: 'section “Instead of the lad”'
+    claim: 'Connection made by this page: Joseph was sold and bought into Egypt (37:28; 39:1) and Judah asks to stay in Egypt as a bondman (44:33, the penalty word of 44:17): he offers to become what his proposal made Joseph; no source says so, and ʿebed can mean servant as well as slave'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/39?lang=eng'
+    quote: 'And Joseph was brought down to Egypt; and Potiphar, an officer of Pharaoh, captain of the guard, an Egyptian, bought him of the hands of the Ishmeelites'
+  - where: 'section “Instead of the lad”'
+    claim: 'The Septuagint uses anti for “instead of” at both 22:13 and 44:33, as it does wherever taḥat means “in place of” (4:25; 30:2; 30:15)'
+    key: swete-lxx-genesis
+    url: 'https://biblehub.com/sepd/genesis/44.htm'
+    quote: 'παραμενῶ σοι παῖς ἀντὶ τοῦ παιδίου'
+  - where: 'section “Instead of the lad”'
+    claim: 'Septuagint Gen. 22:13, anti Isaak'
+    key: swete-lxx-genesis
+    url: 'https://biblehub.com/sepd/genesis/22.htm'
+    quote: 'ἀντὶ Ἰσαὰκ τοῦ υἱοῦ αὐτοῦ'
+  - where: 'section “Instead of the lad”'
+    claim: 'The Cambridge Bible on 44:33: the offer to remain as substitute for Benjamin forms the noble climax of the appeal'
+    key: ryle-genesis
+    url: 'https://biblehub.com/commentaries/cambridge/genesis/44.htm'
+    quote: 'This offer on the part of Judah to remain in Egypt in the bond-service of Joseph, as substitute for Benjamin (LXX ἀντὶ τοῦ παιδίου), forms the noble climax of the generous appeal to Joseph’s feelings.'
+  - where: 'section “Instead of the lad”'
+    claim: 'Gen. 30:2 “Am I in God’s stead” and 50:19 “am I in the place of God” are both hă-taḥat ʾĕlōhîm; Jacob (to Rachel’s demand) and Joseph (to his brothers’ fear) each refuse God’s place'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'הֲ/תַ֥חַת'
+  - where: 'section “Instead of the lad”'
+    claim: 'Gen. 30:2, hătaḥat'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Gen.xml'
+    quote: 'הֲ/תַ֤חַת'
+  - where: 'section “Instead of the lad”'
+    claim: 'Connection made by this page: Moriah and Egypt reverse every term (provided/offered; no will/all will; dies/not taken); Jacob and Joseph refuse God’s place with the same word while Judah takes a man’s; no man in Genesis is both the one who offers and the one who is provided'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/50?lang=eng'
+    quote: 'Fear not: for am I in the place of God?'
+
+  # ---------- The one who is both ----------
+  - where: 'section “The one who is both”'
+    claim: 'Scripture Helps: as Judah offered to take Benjamin’s punishment so Benjamin could return to his father, so Jesus Christ took our sins upon Himself so we can return to our Heavenly Father'
+    key: scripture-helps-gen-42-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/11-genesis-42-50?lang=eng'
+    quote: 'As Judah offered to take Benjamin’s punishment so that Benjamin could return to his father, so Jesus Christ took our sins upon Himself so that we can return to our Heavenly Father.'
+  - where: 'section “The one who is both”'
+    claim: 'Scripture Helps’ endnote beside 44:32–34 cites Mosiah 15:9'
+    key: scripture-helps-gen-42-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/11-genesis-42-50?lang=eng'
+    quote: 'See Mosiah 15:9.'
+  - where: 'section “The one who is both”'
+    claim: 'The Student Manual heads its section “Joseph—A Type of Christ”'
+    key: ot-manual-gen-37-50
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-37-50-joseph-the-power-of-preparation?lang=eng'
+    quote: 'Genesis 45:4–8. Joseph—A Type of Christ'
+  - where: 'section “The one who is both”'
+    claim: 'Scripture Helps (Gen 37–41) sets Judah’s name beside Judas’s'
+    key: scripture-helps-gen-37-41
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/10-genesis-37-41?lang=eng'
+    quote: 'They were betrayed by men named Judah'
+  - where: 'section “The one who is both”'
+    claim: 'Elder Oaks: our Father in Heaven provides the Lamb of God'
+    key: oaks-1992-bible-stories
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1992/10/bible-stories-and-personal-protection?lang=eng'
+    quote: 'our Father in Heaven provides the Lamb of God, and we are saved by his sacrifice.'
+  - where: 'section “The one who is both”'
+    claim: 'Connection made by this page: the Savior is what the ram was (provided by God) and did what Judah offered to do (stand before the judge in another’s place), the willing substitute God provided whose offer was accepted; Genesis shows this in two pieces and nowhere in one; no source read makes the connection'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/10?lang=eng'
+    quote: 'No man taketh it from me, but I lay it down of myself.'
+  - where: 'section “The one who is both”'
+    claim: 'The New Testament Student Manual on Heb. 7:22: surety refers to one who guarantees another person’s financial debt; Christ paid our spiritual debt'
+    key: nt-manual-hebrews-7-13
+    url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/hebrews/chapter-49-hebrews-7-13?lang=eng'
+    quote: 'The word “surety” in Hebrews 7:22 refers to one who guarantees another person’s financial debt.'
+  - where: 'section “The one who is both”'
+    claim: 'The New Testament Student Manual: through taking upon Himself our sins and giving His life, Christ paid our spiritual debt'
+    key: nt-manual-hebrews-7-13
+    url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/hebrews/chapter-49-hebrews-7-13?lang=eng'
+    quote: 'Through taking upon Himself our sins and giving His life, Christ paid our spiritual debt, guaranteeing salvation and the promises of the covenant for all who would come unto Him.'
+  - where: 'section “The one who is both”'
+    claim: 'The Septuagint renders Judah’s “I will be surety” (43:9) with ekdechomai, not the engyos of Heb. 7:22'
+    key: swete-lxx-genesis
+    url: 'https://biblehub.com/sepd/genesis/43.htm'
+    quote: 'ἐγὼ δὲ ἐκδέχομαι αὐτόν'
+  - where: 'section “The one who is both”'
+    claim: 'Connection made by this page: Heb. 7:22’s surety (a debt guaranteed) and Judah’s surety (a person’s safety) are joined by idea and by the King James word, not by a shared Greek word; the office Judah took for one brother Hebrews gives to the Lord of Judah’s tribe for all'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/7?lang=eng'
+    quote: 'By so much was Jesus made a surety of a better testament.'
+
+  # ---------- Until Shiloh come ----------
+  - where: 'section “Until Shiloh come”'
+    claim: 'The Bible Dictionary: Gen. 49:10’s Shiloh is a prophecy of the Messiah, confirmed by JST Gen. 50:24; a short form for “He to whom it belongs”'
+    key: bd-shiloh
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/shiloh?lang=eng'
+    quote: 'This interpretation is confirmed by JST Gen. 50:24 (Appendix) and was fulfilled in Jesus Christ’s being literally of the lineage so as to be the heir to the throne of David. Shiloh can be read as a short form for “He to whom it belongs”'
+  - where: 'section “Until Shiloh come”'
+    claim: 'Keil on 49:8 ties Judah’s blessing to his pledge for Benjamin and his plea to Joseph, and counts even the proposal to sell Joseph rather than kill him as a sign of noble character'
+    key: keil-genesis
+    url: 'https://biblehub.com/commentaries/kad/genesis/49.htm'
+    quote: 'Judah had already shown to a certain extent a strong and noble character, when he proposed to sell Joseph rather than shed his blood (Genesis 37:26.); but still more in the manner in which he offered himself to his father as a pledge for Benjamin, and pleaded with Joseph on his behalf (Genesis 43:9-10; Genesis 44:16.)'
+  - where: 'section “Until Shiloh come”'
+    claim: 'Connection made by this page: Genesis does not say the blessing answers the offer (Keil alone ties them); the Messiah’s line runs through the brother who proposed the sale and then offered himself, and through Tamar; Genesis gave the offer of oneself to Judah, not to Joseph the type'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/1?lang=eng'
+    quote: 'And Judas begat Phares and Zara of Thamar'
+
+  # ---------- In another’s place ----------
+  - where: 'section “In another’s place”'
+    claim: 'Elder Oaks: we, like Isaac, are condemned to death; our Father provides the Lamb of God'
+    key: oaks-1992-bible-stories
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1992/10/bible-stories-and-personal-protection?lang=eng'
+    quote: 'we, like Isaac, are condemned to death.'
+  - where: 'section “In another’s place”'
+    claim: 'The Church’s chapter heading for Genesis 22: both father and son yield to the will of God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/22?lang=eng'
+    quote: 'Abraham is commanded to sacrifice Isaac, his son—Both father and son yield to the will of God.'
+  - where: 'section “In another’s place”'
+    claim: 'Connection made by this page: the disciple stands in Isaac’s place (yielding, then set free by a substitute he did not provide) and then in Judah’s (offering himself for a brother, having once proposed selling one), as John 15:12–13 asks; Judah’s offer was not taken, the disciple’s is still asked by the one who has stood in his place'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/gen/45?lang=eng'
+    quote: 'I am Joseph your brother, whom ye sold into Egypt.'

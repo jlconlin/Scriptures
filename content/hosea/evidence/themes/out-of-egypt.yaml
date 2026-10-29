@@ -1,162 +1,465 @@
 page: out-of-egypt
 claims:
+  # ---------- opening ----------
   - where: 'opening'
-    claim: 'Egypt (Mitsrayim, H4714) is named in thirteen verses of Hosea (occurrences.mjs hosea --hebrew 4714: 13 occurrences in 13 verses: 2:15; 7:11, 16; 8:13; 9:3, 6; 11:1, 5, 11; 12:1, 9, 13; 13:4)'
+    claim: 'Egypt (H4714) is named in thirteen verses of Hosea: 2:15; 7:11; 7:16; 8:13; 9:3; 9:6; 11:1; 11:5; 11:11; 12:1; 12:9; 12:13; 13:4'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
-    quote: 'מִצְרַ֥יִם'
+    quote: 'וּ/מִ/מִּצְרַ֖יִם'
   - where: 'opening'
-    claim: 'Hosea 12:1 names a present alliance: a covenant with the Assyrians and oil carried into Egypt'
+    claim: 'Connection made by this page: the thirteen Egypt verses are one argument about whether the Exodus can be undone, remembered in three voices (husband, father, covenant name), threatened with reversal, refused in chapter 11 and promised again; reading them as one argument is the page’s own'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/11?lang=eng'
+    quote: 'They shall tremble as a bird out of Egypt, and as a dove out of the land of Assyria: and I will place them in their houses, saith the Lord.'
+
+  # ---------- From the land of Egypt ----------
+  - where: 'section “From the land of Egypt”'
+    claim: '12:9 and 13:4 have no verb between “thy God” and “from the land of Egypt” (ʾĕlōheykā mēʾereṣ miṣrayim), unlike Ex. 20:2 (ʾăšer hôṣēʾtîkā)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אֱלֹהֶ֖י/ךָ'
+  - where: 'section “From the land of Egypt”'
+    claim: 'Ex. 20:2 carries the verb hôṣēʾtîkā, “brought thee out”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'הוֹצֵאתִ֛י/ךָ'
+  - where: 'section “From the land of Egypt”'
+    claim: 'The Septuagint supplies “I brought thee up out of the land of Egypt” (ἀνήγαγόν σε ἐκ γῆς Αἰγύπτου) at 12:9'
+    key: swete-lxx-hosea
+    url: 'https://biblehub.com/sepd/hosea/12.htm'
+    quote: 'ἀνήγαγόν σε ἐκ γῆς Αἰγύπτου'
+  - where: 'section “From the land of Egypt”'
+    claim: 'The Septuagint supplies the same clause at 13:4'
+    key: swete-lxx-hosea
+    url: 'https://biblehub.com/sepd/hosea/13.htm'
+    quote: 'καὶ ἐγὼ ἀνήγαγόν σε ἐκ γῆς Αἰγύπτου'
+  - where: 'section “From the land of Egypt”'
+    claim: 'Keil on 13:4: “From Egypt hither Israel has known no other God than Jehovah, i.e., has found no other God to be a helper and Saviour”'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/13.htm'
+    quote: 'From Egypt hither Israel has known no other God than Jehovah, i.e., has found no other God to be a helper and Saviour.'
+  - where: 'section “From the land of Egypt”'
+    claim: 'Jackson reads 13:4–5 as the covenant in the vocabulary of marriage; Egypt is where Jehovah found Israel, his bride'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'expressed in the vocabulary of marriage'
+  - where: 'section “From the land of Egypt”'
+    claim: 'Jackson: Egypt is where Jehovah found Israel, his bride'
+    key: jackson-hosea-marriage
+    url: 'https://rsc.byu.edu/isaiah-prophets/marriage-hosea-jehovahs-covenant-israel'
+    quote: 'Egypt is where Jehovah found Israel, his bride.'
+  - where: 'section “From the land of Egypt”'
+    claim: 'Keil on 2:3: the wife’s birth is the bondage in Egypt, the deliverance the courtship, the covenant the marriage'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/2.htm'
+    quote: 'The deliverance out of this bondage was the time of the divine courtship; and the conclusion of the covenant with the nation that had been brought out of Egypt, the time of the marriage.'
+  - where: 'section “From the land of Egypt”'
+    claim: 'Keil on 2:15: Israel answered the Lord after its redemption by the song at the Red Sea and its willingness to covenant at Sinai'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/2.htm'
+    quote: 'Israel then answered the Lord, after its redemption from Egypt, by the song of praise and thanksgiving at the Red Sea (Exodus 15), and by its willingness to conclude the covenant with the Lord at Sinai'
+  - where: 'section “From the land of Egypt”'
+    claim: 'Keil on 2:14: what took place in the olden time is to be repeated in the time to come; Egypt, the desert and Canaan are types'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/2.htm'
+    quote: 'What took place in the olden time is to be repeated, in all that is essential, in the time to come. Egypt, the Arabian desert, and Canaan are types.'
+  - where: 'section “From the land of Egypt”'
+    claim: 'Hosea never uses yāṣāʾ (H3318) of Egypt (its two uses are 6:5 and 9:13); his Exodus verbs are ʿālâ (2:15 qal “came up”; 12:13 hiphil “brought up”) and qārāʾ (11:1)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'הֶעֱלָ֧ה'
+  - where: 'section “From the land of Egypt”'
+    claim: '2:15 “came up,” ʿălōtāh'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'עֲלֹתָ֥/הּ'
+  - where: 'section “From the land of Egypt”'
+    claim: 'Keil on 12:13: “by a prophet” is Moses'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/12.htm'
+    quote: 'out of Egypt by a prophet, i.e., by Moses'
+  - where: 'section “From the land of Egypt”'
+    claim: 'The Cambridge Bible on 12:13: “by a prophet” is Moses'
+    key: cambridge-hosea
+    url: 'https://biblehub.com/commentaries/cambridge/hosea/12.htm'
+    quote: '13. by a prophet] i.e. Moses (comp. Deuteronomy 34:10).'
+  - where: 'section “From the land of Egypt”'
+    claim: 'The Church’s footnote at Hos. 12:13 “prophet” leads to 1 Ne. 17:24 (24–26), Moses commanded to lead Israel out'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/12?lang=eng'
-    quote: 'they do make a covenant with the Assyrians, and oil is carried into Egypt.'
-  - where: 'opening'
-    claim: 'Hosea 7:11 names a present alliance: the dove that calls to Egypt and goes to Assyria'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
-    quote: 'Ephraim also is like a silly dove without heart: they call to Egypt, they go to Assyria.'
-  - where: 'section ““I loved him, and called my son””'
-    claim: 'The LORD tells Moses to say to Pharaoh that Israel is His son, His firstborn (the Church footnote at Hos. 11:1 “son” gives Ex. 4:22 (22–23))'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/4?lang=eng'
-    quote: 'And thou shalt say unto Pharaoh, Thus saith the Lord, Israel is my son, even my firstborn:'
-  - where: 'section ““I loved him, and called my son””'
-    claim: 'The immediate context of Hosea 11:1 is the relationship between Jehovah and Israel'
-    key: frederick-ot-in-nt-gospels
-    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/use-old-testament-new-testament-gospels'
-    quote: 'The immediate context of Hosea 11:1 is the relationship between Jehovah and Israel.'
-  - where: 'section ““I loved him, and called my son””'
-    claim: 'In love God redeemed them from Egypt (Hosea 11:1)'
-    key: bd-hosea
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng'
-    quote: 'In love God redeemed them from Egypt (Hosea 11:1)'
-  - where: 'section ““I loved him, and called my son””'
-    claim: 'The picture of a father and a son is drawn by “my son” (11:1) and by what the LORD does in 11:1–4 (teaches to go, heals, draws with bands of love)'
+    quote: '1 Ne. 17:24 (24–26).'
+
+  # ---------- Called my son ----------
+  - where: 'section “Called my son”'
+    claim: 'The Church’s footnote at Hos. 11:1 “son” leads to Ex. 4:22 (22–23)'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/11?lang=eng'
-    quote: 'I taught Ephraim also to go, taking them by their arms; but they knew not that I healed them.'
-  - where: 'section “Back toward Egypt”'
-    claim: 'Deuteronomy 28:68, the last curse, is the Church footnote at Hos. 8:13 “Egypt” (which also gives Hos. 9:3 and 11:5)'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/28?lang=eng'
-    quote: 'And the Lord shall bring thee into Egypt again with ships, by the way whereof I spake unto thee, Thou shalt see it no more again'
-  - where: 'section “Back toward Egypt”'
-    claim: 'Hosea 8:13 and the footnote chain: 8:13 footnote 13c gives Deut. 28:68, Hosea 9:3 and 11:5'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/8?lang=eng'
-    quote: '13c ‘Egypt’: Deut. 28:68 (58–59, 68); Hosea 9:3 (1–3); 11:5.'
-  - where: 'section “Back toward Egypt”'
-    claim: 'Connection made by this page: the verb “called” in 11:1 (qara, H7121) is the verb of “they call” in 7:11 (same lemma, plural form)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
-    quote: 'קָרָ֥אתִי'
-  - where: 'section “Back toward Egypt”'
-    claim: 'Connection made by this page: the same verb in 7:11 (qara, “they call to Egypt”); it is also in 11:2 and 11:7 (occurrences.mjs hosea --hebrew 7121)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
-    quote: 'קָרָ֖אוּ'
-  - where: 'section “Back toward Egypt”'
-    claim: 'Hosea 11:5 says he shall not return into the land of Egypt but the Assyrian shall be his king'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/11?lang=eng'
-    quote: 'He shall not return into the land of Egypt, but the Assyrian shall be his king, because they refused to return.'
-  - where: 'section ““How shall I give thee up?””'
-    claim: 'The picture of a loving parent holding a toddler’s arms to teach her to walk'
-    key: vandyke-ogden-twelve
-    url: 'https://rsc.byu.edu/vol-4-no-3-2003/amos-through-malachi-major-teachings-twelve-prophets'
-    quote: 'First, He is like a loving parent of Israel who, bent over and anxious, holds on to the arms of His toddler to teach her to walk.'
-  - where: 'section ““How shall I give thee up?””'
-    claim: 'The Joseph Smith Translation of Hosea 11:8 reads “my mercies are extended to gather thee” (Church footnote 8b)'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/11?lang=eng'
-    quote: 'JST Hosea 11:8 … toward thee, and my mercies are extended to gather thee.'
-  - where: 'section ““How shall I give thee up?””'
-    claim: 'Hosea 11:3–4, 8–9 as quoted: bands of love; How shall I give thee up; I am God, and not man'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/11?lang=eng'
-    quote: 'How shall I give thee up, Ephraim? how shall I deliver thee, Israel?'
-  - where: 'section “Called home”'
-    claim: 'Connection made by this page: “children” in 11:10 (banim) is the plural of the noun (ben, H1121) for “son” in 11:1; ben stands in chapter 11 only at verses 1 and 10 (occurrences.mjs hosea --hebrew 1121)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
-    quote: 'בָנִ֖ים'
-  - where: 'section “Called home”'
-    claim: 'Connection made by this page: the noun for “son” in 11:1 (ben, H1121, with the preposition l-)'
+    quote: 'Ex. 4:22 (22–23).'
+  - where: 'section “Called my son”'
+    claim: 'Keil: Hos. 11:1 rests upon Ex. 4:22–23'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/11.htm'
+    quote: 'Hosea 11:1 rests upon Exodus 4:22-23, where the Lord directs Moses to say to Pharaoh, "Israel is my first-born son; let my son go, that he may serve me."'
+  - where: 'section “Called my son”'
+    claim: 'naʿar (H5288), “child,” occurs in Hosea only at 11:1; “my son” is lĕbĕnî, preposition + bēn + 1cs suffix'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
     quote: 'לִ/בְנִֽ/י'
-  - where: 'section “Called home”'
-    claim: 'Connection made by this page: the dove (yonah) of 7:11 that calls to Egypt and goes to Assyria (occurrences.mjs hosea --hebrew 3123: 2 occurrences in 2 verses)'
+  - where: 'section “Called my son”'
+    claim: 'Bowen glosses libĕnî “as my son” and reads being called God’s son as becoming such'
+    key: bowen-benjamin-addendum
+    url: 'https://interpreterfoundation.org/journal/becoming-men-and-women-of-understanding-wordplay-on-benjamin-an-addendum'
+    quote: 'To be “called” God’s “son”/“daughter”/“child” was to become such'
+  - where: 'section “Called my son”'
+    claim: 'Keil: the adoption of Israel as son began with the deliverance from Egypt, was completed at Sinai, and forms the first stage of the work of salvation completed in the incarnation of the Son of God'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/11.htm'
+    quote: 'began with its deliverance out of the bondage of Egypt, and was completed in the conclusion of the covenant at Sinai'
+  - where: 'section “Called my son”'
+    claim: 'Keil: the first stage of the divine work of salvation, completed in the incarnation of the Son of God'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/11.htm'
+    quote: 'forms the first stage in the carrying out of the divine work of salvation, which was completed in the incarnation of the Son of God'
+  - where: 'section “Called my son”'
+    claim: 'Keil on 11:3: Deut. 1:31 was before the prophet’s mind; “healed” points back to Ex. 15:26'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/11.htm'
+    quote: 'in the wilderness the Lord thy God bare thee, as a man doth bear his son'
+  - where: 'section “Called my son”'
+    claim: 'qārāʾ (H7121) stands at 11:1 (qārāʾtî, “I called”), 11:2 (qārĕʾû, “they called”) and 7:11 (qārāʾû, “they call” to Egypt)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
-    quote: 'כְּ/יוֹנָ֥ה'
-  - where: 'section “Called home”'
-    claim: 'Connection made by this page: the dove (yonah) of 11:11 comes out of the land of Assyria, the bird (tsippor) out of Egypt'
+    quote: 'קָרָ֥אתִי'
+  - where: 'section “Called my son”'
+    claim: '11:2 “they called,” qārĕʾû'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'קָרְא֖וּ'
+  - where: 'section “Called my son”'
+    claim: '7:11 “they call” to Egypt, qārāʾû'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'קָרָ֖אוּ'
+  - where: 'section “Called my son”'
+    claim: 'Connection made by this page (carried from the old catalog page): the verb “called” of 11:1 is the verb of 7:11, the son who was called out of Egypt calling back to it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'Ephraim also is like a silly dove without heart: they call to Egypt, they go to Assyria.'
+
+  # ---------- They shall return to Egypt ----------
+  - where: 'section “They shall return to Egypt”'
+    claim: 'The Church’s footnote at Hos. 8:13 “Egypt” leads to Deut. 28:68 (58–59, 68); Hosea 9:3; 11:5'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/8?lang=eng'
+    quote: 'Deut. 28:68 (58–59, 68)'
+  - where: 'section “They shall return to Egypt”'
+    claim: 'Deut. 28:68 “bring thee into Egypt again” is wehĕšîbĕkā, hiphil of šûb, the causative of Hosea’s “return”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'וֶֽ/הֱשִֽׁיבְ/ךָ֨'
+  - where: 'section “They shall return to Egypt”'
+    claim: 'Deut. 17:16 “cause the people to return to Egypt,” yāšîb, hiphil of šûb; “return no more that way,” lāšûb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'יָשִׁ֤יב'
+  - where: 'section “They shall return to Egypt”'
+    claim: 'Keil on 8:13: return to Egypt means being driven into the land of bondage; a special application of Deut. 28:68; Egypt a type'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/8.htm'
+    quote: 'These words are simply a special application of the threat, held out by Moses in Deuteronomy 28:68, to the degenerate ten tribes. Egypt is merely a type of the land of bondage, as in Hosea 9:3, Hosea 9:6.'
+  - where: 'section “They shall return to Egypt”'
+    claim: 'Keil on 9:3: Egypt is a type of the land of captivity, so that Assyria is represented as a new Egypt'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/9.htm'
+    quote: 'simply as a type of the land of captivity, so that Assyria is represented as a new Egypt'
+  - where: 'section “They shall return to Egypt”'
+    claim: 'The Old Testament Student Manual on 8:13; 9:3, 6: Egypt refers to captivity in general; Assyria is the new Egypt'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'The word here refers to captivity or bondage in general; thus, Assyria is the new Egypt.'
+  - where: 'section “They shall return to Egypt”'
+    claim: 'The Cambridge Bible on 8:13: the figurative reading is a most unnatural supposition; a people oscillating between alliances could be threatened with an Egyptian captivity; “return” is pointed with the associations of the house of bondage'
+    key: cambridge-hosea
+    url: 'https://biblehub.com/commentaries/cambridge/hosea/8.htm'
+    quote: 'Some think this is a kind of poetical expression for being carried into captivity—a most unnatural supposition.'
+  - where: 'section “They shall return to Egypt”'
+    claim: 'The Cambridge Bible: “return” is pointed with the terrible associations of the house of bondage'
+    key: cambridge-hosea
+    url: 'https://biblehub.com/commentaries/cambridge/hosea/8.htm'
+    quote: 'The word ‘return’ is pointed with the terrible associations of the ‘house of bondage’; comp. Deuteronomy 28:68.'
+  - where: 'section “They shall return to Egypt”'
+    claim: 'šûb (H7725) occurs 22 times in 21 verses of Hosea; Egypt is its destination only at 8:13, 9:3 and 11:5'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'יָשֽׁוּבוּ'
+  - where: 'section “They shall return to Egypt”'
+    claim: '9:3 “Ephraim shall return,” wĕšāb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'וְ/שָׁ֤ב'
+  - where: 'section “They shall return to Egypt”'
+    claim: 'The Septuagint of 11:5 reads “Ephraim dwelt in Egypt,” κατῴκησεν Ἐφράιμ ἐν Αἰγύπτῳ'
+    key: swete-lxx-hosea
+    url: 'https://biblehub.com/sepd/hosea/11.htm'
+    quote: 'κατῴκησεν Ἐφράιμ ἐν Αἰγύπτῳ'
+  - where: 'section “They shall return to Egypt”'
+    claim: 'The Cambridge Bible on 11:5: the negative is pointless; the sense required is “He shall return into the land of Egypt”'
+    key: cambridge-hosea
+    url: 'https://biblehub.com/commentaries/cambridge/hosea/11.htm'
+    quote: 'At any rate, the sense required is, ‘He shall return into the land of Egypt.’'
+  - where: 'section “They shall return to Egypt”'
+    claim: 'The Cambridge Bible on 11:5: the negative is inconsistent with 8:13, 9:3, 9:6 and 11:11 (so for Cambridge 11:11 presumes a return to Egypt)'
+    key: cambridge-hosea
+    url: 'https://biblehub.com/commentaries/cambridge/hosea/11.htm'
+    quote: 'is also inconsistent with the statements in Hosea 8:13, Hosea 9:3; Hosea 9:6, Hosea 11:11'
+  - where: 'section “They shall return to Egypt”'
+    claim: 'The Cambridge Bible on 11:5 calls the negative pointless'
+    key: cambridge-hosea
+    url: 'https://biblehub.com/commentaries/cambridge/hosea/11.htm'
+    quote: 'This however is pointless; why should Egypt be mentioned except as the land of bondage?'
+  - where: 'section “They shall return to Egypt”'
+    claim: 'Keil on 11:5: in 8:13 and 9:3 Egypt is a type, but here the typical interpretation is precluded by the contrast to Asshur and the correspondence to 11:1'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/11.htm'
+    quote: 'the typical interpretation is precluded partly by the contrast to Asshur, and still more by the correspondence in which the words stand to Hosea 11:1.'
+  - where: 'section “They shall return to Egypt”'
+    claim: 'Keil on 11:5: Israel shall not return to the land Jehovah called it from, lest the object of the Exodus appear frustrated; it is to be brought into another bondage'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/11.htm'
+    quote: 'Into the land from which Jehovah called His people, Israel shall not return, lest it should appear as though the object, for which it had been brought out of Egypt and conducted miraculously through the desert, had been frustrated by the impenitence of the people. But it is to be brought into another bondage.'
+  - where: 'section “They shall return to Egypt”'
+    claim: '11:5 has šûb twice (yāšûb, lāšûb); 11:9 “I will not return,” ʾāšûb, the Lord the subject'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'לָ/שֽׁוּב'
+  - where: 'section “They shall return to Egypt”'
+    claim: '11:9 ʾāšûb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אָשׁ֖וּב'
+  - where: 'section “They shall return to Egypt”'
+    claim: 'Connection made by this page: Keil does not take the threat back (Egypt in 8:13 and 9:3 is Assyria under a type; 11:5 withholds only the literal land); on Cambridge’s reading 11:11 brings Israel out of an Egypt it was sent to; the page does not claim 11:5’s text is settled, only that on either reading the chapter’s last word on Egypt is “out” (11:11)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/11?lang=eng'
+    quote: 'He shall not return into the land of Egypt, but the Assyrian shall be his king, because they refused to return.'
+
+  # ---------- Out of Egypt again ----------
+  - where: 'section “Out of Egypt again”'
+    claim: 'min + miṣrayim (“out of Egypt,” without ʾereṣ) stands in Hosea only at 11:1, 11:11 and 12:13'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'מִ/מִּצְרַ֔יִם'
+  - where: 'section “Out of Egypt again”'
+    claim: 'bēn (H1121) in chapter 11 only at 11:1 (singular, “my son”) and 11:10 (plural, “children,” bānîm)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'בָנִ֖ים'
+  - where: 'section “Out of Egypt again”'
+    claim: 'yônâ (H3123), “dove,” is in Hosea only at 7:11 and 11:11'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
     quote: 'וּ/כְ/יוֹנָ֖ה'
-  - where: 'section “Called home”'
-    claim: 'Hosea 2:15: she shall sing there as in the day when she came up out of the land of Egypt'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/2?lang=eng'
-    quote: 'and she shall sing there, as in the days of her youth, and as in the day when she came up out of the land of Egypt.'
-  - where: 'section “The Son called out of Egypt”'
-    claim: 'Matthew 2:13–15: the flight into Egypt, and the quotation “Out of Egypt have I called my son”'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/2?lang=eng'
-    quote: 'And was there until the death of Herod: that it might be fulfilled which was spoken of the Lord by the prophet, saying, Out of Egypt have I called my son.'
-  - where: 'section “The Son called out of Egypt”'
-    claim: 'The Church’s chapter heading for Hosea 11: Israel was called out of Egypt in similitude of our Lord'
+  - where: 'section “Out of Egypt again”'
+    claim: 'The Cambridge Bible on 11:11: “tremble” means a thrill of eagerness doubling the speed of motion; “place them” is rather “cause them to dwell”'
+    key: cambridge-hosea
+    url: 'https://biblehub.com/commentaries/cambridge/hosea/11.htm'
+    quote: 'a thrill of eagerness doubling the speed of motion'
+  - where: 'section “Out of Egypt again”'
+    claim: 'The Cambridge Bible: place them, rather cause them to dwell'
+    key: cambridge-hosea
+    url: 'https://biblehub.com/commentaries/cambridge/hosea/11.htm'
+    quote: 'place them] Rather, cause them to dwell.'
+  - where: 'section “Out of Egypt again”'
+    claim: '11:11 wĕhôšabtîm and 12:9 ʾôšîbĕkā are both hiphil of yāšab (H3427)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'וְ/הוֹשַׁבְתִּ֥י/ם'
+  - where: 'section “Out of Egypt again”'
+    claim: '12:9 ʾôšîbĕkā, hiphil'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אוֹשִֽׁיבְ/ךָ֥'
+  - where: 'section “Out of Egypt again”'
+    claim: 'Keil on 12:9: the Lord will repeat the leading through the wilderness; not utter rejection but only temporary banishment'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/12.htm'
+    quote: 'so that they are not threatened with utter rejection on the part of God, but only with temporary banishment into the desert.'
+  - where: 'section “Out of Egypt again”'
+    claim: 'The Cambridge Bible on 12:9: a threat and not a promise'
+    key: cambridge-hosea
+    url: 'https://biblehub.com/commentaries/cambridge/hosea/12.htm'
+    quote: 'this prediction is a threat and not (as St Jerome, Kimchi, and Calvin would have it) a promise.'
+  - where: 'section “Out of Egypt again”'
+    claim: 'Keil on 11:10–11: Egypt, Assyria and the sea stand for all quarters of the globe (cf. Isa. 11:11); the fulfilment is in the last days when Israel as a nation enters the kingdom of God'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/11.htm'
+    quote: 'These three regions are simply a special form of the idea, "out of all quarters of the globe;" compare the more complete enumeration of the several remote countries in Isaiah 11:11.'
+  - where: 'section “Out of Egypt again”'
+    claim: 'Keil: the fulfilment takes place in the last days (the page prints “last says”)'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/11.htm'
+    quote: 'The fulfilment takes place in the last says, when Israel as a nation shall enter the kingdom of God.'
+  - where: 'section “Out of Egypt again”'
+    claim: 'The Cambridge Bible on 11:10–11: the return of the dispersed is one of the most characteristic features of the Messianic age'
+    key: cambridge-hosea
+    url: 'https://biblehub.com/commentaries/cambridge/hosea/11.htm'
+    quote: 'one of the most characteristic features of the Messianic age'
+  - where: 'section “Out of Egypt again”'
+    claim: 'The Joseph Smith Translation of Hos. 11:8 adds “my mercies are extended to gather thee”'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/11?lang=eng'
-    quote: 'Israel, as a child, was called out of Egypt in similitude of our Lord, as a child, coming out of Egypt'
-  - where: 'section “The Son called out of Egypt”'
-    claim: 'Matthew chooses to interpret the Hosea passage typologically'
+    quote: 'my mercies are extended to gather thee'
+  - where: 'section “Out of Egypt again”'
+    claim: 'Connection made by this page: 11:11 is a second Exodus in Hosea’s own words (the “out of Egypt” of 11:1, children for son, the dove of 7:11 flying home); Keil already reads 2:14–15 and 12:9 as the Exodus repeated; no source read says it of 11:11 by name; joining the JST of 11:8 to the roar of 11:10 is also the page’s step'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/11?lang=eng'
+    quote: 'shall set his hand again the second time to recover the remnant of his people'
+
+  # ---------- Out of Egypt have I called my son ----------
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'The Septuagint (Swete) of Hos. 11:1 reads τὰ τέκνα αὐτοῦ, “his children,” with μετεκάλεσα'
+    key: swete-lxx-hosea
+    url: 'https://biblehub.com/sepd/hosea/11.htm'
+    quote: 'ἐξ Αἰγύπτου μετεκάλεσα τὰ τέκνα αὐτοῦ'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'Matt. 2:15 in Greek: Ἐξ Αἰγύπτου ἐκάλεσα τὸν υἱόν μου, “my son,” in the Hebrew’s order'
+    key: biblehub-interlinear
+    url: 'https://biblehub.com/interlinear/matthew/2-15.htm'
+    quote: 'υἱόν'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'The Hebrew of 11:1 has “my son,” lĕbĕnî, singular with the first-person suffix, where the Septuagint has “his children”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'לִ/בְנִֽ/י'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'Ellicott on Matt. 2:15: Matthew translated from the Hebrew instead of reproducing the Septuagint'
+    key: ellicott-matthew
+    url: 'https://biblehub.com/commentaries/ellicott/matthew/2.htm'
+    quote: 'he translated from the Hebrew instead of reproducing the Greek version of the LXX.'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'The Cambridge Bible on Matt. 2:15: the quotation is from the Hebrew; the LXX differs considerably'
+    key: cambridge-matthew
+    url: 'https://biblehub.com/commentaries/cambridge/matthew/2.htm'
+    quote: 'the LXX. differs considerably.'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'Combs: Matthew says Hos. 11:1 was fulfilled when the family returned from Egypt (placement at the return)'
+    key: rsc-combs-ahaz-sign
+    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/king-ahazs-sign-christ-jesus'
+    quote: 'Matthew says that Hosea 11:1 was fulfilled when Mary, Joseph, and Jesus returned from their refuge in Egypt'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'Griffin: Matthew interprets Hosea typologically, consummated in the journey to and later from Egypt (placement at both)'
     key: griffin-matthew-portrayal
     url: 'https://rsc.byu.edu/thou-art-christ-son-living-god/matthews-portrayal-jesus-son-david-new-moses-son-god'
     quote: 'Matthew chooses to interpret the Hosea passage typologically, seeing Hosea’s statement as being consummated in the story of Joseph’s taking Jesus and Mary to (and later from) Egypt (see Matthew 2:13–15).'
-  - where: 'section “The Son called out of Egypt”'
-    claim: 'Matthew’s interpretation is an example of typological prophecy'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'The Cambridge Bible on Matt. 2:15: Matthew recognises in this incident an analogy to the call of Israel from Egypt (placement in the analogy)'
+    key: cambridge-matthew
+    url: 'https://biblehub.com/commentaries/cambridge/matthew/2.htm'
+    quote: 'recognises in this incident an analogy to the call of Israel from Egypt.'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'Ellicott: in Hosea the words refer beyond the shadow of a doubt to the history of Israel'
+    key: ellicott-matthew
+    url: 'https://biblehub.com/commentaries/ellicott/matthew/2.htm'
+    quote: 'they refer, beyond the shadow of a doubt, to the history of Israel'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'Keil on Matt. 2:15: quoted as a prophecy of Christ not because the words refer directly to Christ, but because the sojourn in Egypt and return had the same significance for the life of Christ as for Israel'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/11.htm'
+    quote: 'not because the words of the prophet refer directly and immediately to Christ, but because the sojourn in Egypt, and return out of that land, had the same significance in relation to the development of the life of Jesus Christ, as it had to the nation of Israel.'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'The Cambridge Bible on Hos. 11:1: the national ideal never realized in the nation was realized in the Christ'
+    key: cambridge-hosea
+    url: 'https://biblehub.com/commentaries/cambridge/hosea/11.htm'
+    quote: 'The national ideal never realized in the nation was realized in the Christ.'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'The Old Testament Student Manual: Matthew saw Israel’s emergence from Egypt as a type or pattern of Jesus’ coming out of Egypt'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'Matthew saw the emergence of Israel from Egypt as a type or pattern of Jesus’ coming out of Egypt (see Matthew 2:15).'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'Frederick: Matthew’s interpretation is typological prophecy'
     key: frederick-ot-in-nt-gospels
     url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/use-old-testament-new-testament-gospels'
-    quote: 'As for the Hosea passage, Matthew’s interpretation can be seen as an example of typological prophecy'
-  - where: 'section “The Son called out of Egypt”'
-    claim: 'For Matthew, Jesus does not simply fulfill a prediction from Hosea'
+    quote: 'Matthew’s interpretation can be seen as an example of typological prophecy'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'Combs: Jesus does not simply fulfill a prediction from Hosea; he fills out the divine message Hosea conveyed about Israel’s deliverance'
     key: rsc-combs-ahaz-sign
     url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/king-ahazs-sign-christ-jesus'
-    quote: 'For Matthew, Jesus does not simply fulfill a prediction from Hosea rather, he fills out the divine message that Hosea had conveyed about Israel’s deliverance.'
-  - where: 'section “The Son called out of Egypt”'
-    claim: 'Matthew’s use depends on the reader’s recognition of the original sense (Richard Hays, as Combs quotes him)'
-    key: rsc-combs-ahaz-sign
-    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/king-ahazs-sign-christ-jesus'
-    quote: 'Matthew’s use of the quotation depends upon the reader’s recognition of its original sense'
-  - where: 'section “The Son called out of Egypt”'
-    claim: 'Hosea 13:4: the LORD thy God from the land of Egypt; no saviour beside me'
+    quote: 'Jesus does not simply fulfill a prediction from Hosea rather, he fills out the divine message that Hosea had conveyed about Israel’s deliverance.'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'Talmage places the fulfilment at the return from Egypt and calls Hosea’s words a prophetic vision of what should be'
+    key: talmage-jesus-christ-9
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-9?lang=eng'
+    quote: 'In the return of the family from Egypt the evangelist finds a fulfillment of Hosea’s prophetic vision of what should be'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'The chapter heading of Hosea 11 in the Church’s edition: called out of Egypt in similitude of our Lord'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
-    quote: 'Yet I am the LORD thy God from the land of Egypt, and thou shalt know no god but me: for there is no saviour beside me.'
-  - where: 'section “The Son called out of Egypt”'
-    claim: 'Jehovah is the premortal Jesus Christ'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/11?lang=eng'
+    quote: 'Israel, as a child, was called out of Egypt in similitude of our Lord, as a child, coming out of Egypt'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'The Church’s footnote at Matt. 2:15 “Egypt” leads to TG Jesus Christ, Prophecies about, not to Hosea 11:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/2?lang=eng'
+    quote: 'TG Jesus Christ, Prophecies about.'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'The Church’s footnote at Hos. 11:1 “Egypt” leads to the same Topical Guide entry'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/11?lang=eng'
+    quote: 'TG Jesus Christ, Prophecies about.'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'The Bible Dictionary: Jehovah is the premortal Jesus Christ'
     key: bd-jehovah
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
     quote: 'Jehovah is the premortal Jesus Christ'
-  - where: 'section “The Son called out of Egypt”'
-    claim: 'Connection made by this page: Hosea 13:4 (the LORD from the land of Egypt) set beside Matthew 2:15 (the child called out of Egypt)'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'The Church’s footnote at Hos. 13:4 “saviour” leads to 2 Ne. 25:20'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/2?lang=eng'
-    quote: 'Out of Egypt have I called my son.'
-  - where: 'section “The Son called out of Egypt”'
-    claim: 'Nephi swears by the Lord God who brought Israel up out of Egypt; none other name save Jesus Christ (Church footnote 4b at Hos. 13:4 gives 2 Ne. 25:20)'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
+    quote: '2 Ne. 25:20'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'Ellicott: Israel was the one representative instance of the Fatherhood of God; now there was a higher representative in the only begotten Son'
+    key: ellicott-matthew
+    url: 'https://biblehub.com/commentaries/ellicott/matthew/2.htm'
+    quote: 'Now there was a higher representative in the person of the only begotten Son.'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'Ellicott: the one representative instance of the Fatherhood of God'
+    key: ellicott-matthew
+    url: 'https://biblehub.com/commentaries/ellicott/matthew/2.htm'
+    quote: 'the one representative instance of the Fatherhood of God'
+  - where: 'section “Out of Egypt have I called my son”'
+    claim: 'Connection made by this page: in Matthew the voice is the Father’s (Ellicott); the speaker of Hos. 13:4, identified by the Bible Dictionary as Jesus Christ (2 Ne. 25:20; D&C 136:22, given in 1847), is the child Matthew sees brought out of Egypt (Matt. 2:21), and the arm stretched out to save Israel is the roar of 11:10 in another figure; setting 13:4 and D&C 136:22 beside Matthew 2 is the page’s own step, carried from the old page'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/25?lang=eng'
-    quote: 'And as the Lord God liveth that brought Israel up out of the land of Egypt'
-  - where: 'section ““I loved him, and called my son””'
-    claim: 'H1 (ab, father) occurs once in Hosea, at 9:10, of the ancestors (occurrences.mjs hosea --hebrew 1: 1 occurrence in 1 verse); the LORD is nowhere called father in the book'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/136?lang=eng'
+    quote: 'I am he who led the children of Israel out of the land of Egypt; and my arm is stretched out in the last days, to save my people Israel.'
+
+  # ---------- Not back to Egypt ----------
+  - where: 'section “Not back to Egypt”'
+    claim: 'The Bible Dictionary “Hosea”: all His chastisements are inflicted in love; restoration due to His love'
+    key: bd-hosea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng'
+    quote: 'all His chastisements are inflicted in love (2:14; 3); and their restoration shall be due to His love (2:19; 14:4).'
+  - where: 'section “Not back to Egypt”'
+    claim: 'Keil: lest the object of the Exodus appear frustrated (back-reference)'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/11.htm'
+    quote: 'had been frustrated by the impenitence of the people'
+  - where: 'section “Not back to Egypt”'
+    claim: 'Van Dyke and Ogden: Hosea’s lion, unlike Amos’s, defends the returning prodigal and escorts her to safety (reported as their sentence, not as the page’s refusal-to-undo reading)'
+    key: vandyke-ogden-twelve
+    url: 'https://rsc.byu.edu/vol-4-no-3-2003/amos-through-malachi-major-teachings-twelve-prophets'
+    quote: 'Hosea’s lion defends the returning prodigal and escorts her to a haven of safety.'
+  - where: 'section “Not back to Egypt”'
+    claim: 'Alma 36:28–29: the God who brought our fathers out of Egypt has delivered them from bondage from time to time; Alma retained their captivity in remembrance and tells Helaman to do the same'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/36?lang=eng'
+    quote: 'I have always retained in remembrance their captivity; yea, and ye also ought to retain in remembrance, as I have done, their captivity.'
+  - where: 'section “Not back to Egypt”'
+    claim: 'šûb in Hosea: the last four occurrences are 14:1 (šûbâ), 14:2 (wĕšûbû), 14:4 (šāb, “is turned away”), 14:7 (yāšubû)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
-    quote: 'אֲבֽוֹתֵי/כֶ֑ם'
-  - where: 'section “The Son called out of Egypt”'
-    claim: 'On the typological reading Matthew sees Jesus retracing Israel’s being called by God out of Egypt'
-    key: frederick-ot-in-nt-gospels
-    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/use-old-testament-new-testament-gospels'
-    quote: 'Understood typologically, Matthew understands Jesus retracing'
+    quote: 'שׁ֚וּבָ/ה'
+  - where: 'section “Not back to Egypt”'
+    claim: 'Connection made by this page: “How shall I give thee up” read as a refusal to undo, not to punish, is the page’s reading; the move to the disciple rests on Alma 36:28–29; that the God “from the land of Egypt” does not go back on the day He is named from is the page’s reading of the Egypt verses'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/17?lang=eng'
+    quote: 'he loved our fathers, and he covenanted with them'

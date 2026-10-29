@@ -1,162 +1,325 @@
 page: heal-their-backsliding
 claims:
+  # ---------- opening ----------
   - where: 'opening'
-    claim: 'The Hebrew verb rapha (H7495) stands in exactly five verses of Hosea (5:13; 6:1; 7:1; 11:3; 14:4); at 5:13 the subject is Assyria (infinitive, "to heal")'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
-    quote: 'לִ/רְפֹּ֣א'
-  - where: 'opening'
-    claim: 'rapha at 6:1 (the people: he will heal us)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
-    quote: 'וְ/יִרְפָּאֵ֑/נוּ'
-  - where: 'opening'
-    claim: 'rapha at 7:1 (the Lord: when I would have healed)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
-    quote: 'כְּ/רָפְאִ֣/י'
-  - where: 'opening'
-    claim: 'rapha at 11:3 (the Lord: I healed them)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
-    quote: 'רְפָאתִֽי/ם'
-  - where: 'opening'
-    claim: 'rapha at 14:4 (the Lord: I will heal)'
+    claim: 'rāpāʾ (H7495) occurs 5 times in Hosea in 5 forms: 5:13 lirpōʾ (infinitive, Assyria/Jareb “could not”), 6:1 wĕyirpāʾēnû (the people, “he will heal us”), 7:1 kĕrāpĕʾî (the LORD, infinitive), 11:3 rĕpāʾtîm (the LORD, perfect), 14:4 ʾerpāʾ (the LORD, imperfect)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
     quote: 'אֶרְפָּא֙'
-  - where: 'section “The wound, and where Ephraim took it”'
-    claim: 'The images of 5:10–15 sit inside a familiar message of prophetic warning and future assurance of hope in a God who seeks to gather his people'
-    key: hord-not-fragile
-    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
-    quote: 'a conscientious reading of these passages reveals a familiar message of prophetic warning and future assurance of hope in a God who seeks to gather his people to him.'
-  - where: 'section ““He hath torn, and he will heal us””'
-    claim: 'The lion of chapter 5 becomes a healer in 6:1–3; judgment in 5:10–15, redemption in 6:1–3'
-    key: hord-not-fragile
-    url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
-    quote: 'the lion becomes a healer instead of a tearer (or terror), sickness is reversed in revival'
-  - where: 'section ““He hath torn, and he will heal us””'
-    claim: 'The Church footnote at 6:2 gives “revive us” the alternative reading “restore us to life; i.e., resurrect us”'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/6?lang=eng'
-    quote: 'OR restore us to life; i.e., resurrect us.'
-  - where: 'section ““They knew not that I healed them””'
-    claim: 'The Church footnote at 11:3 “healed” gives 1 Ne. 17:41 and Alma 33:20'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/11?lang=eng'
-    quote: '1 Ne. 17:41 (40–41); Alma 33:20 (18–23).'
-  - where: 'section ““They knew not that I healed them””'
-    claim: '1 Ne. 17:41: after they were bitten he prepared a way that they might be healed'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/17?lang=eng'
-    quote: 'after they were bitten he prepared a way that they might be healed'
-  - where: 'section ““They knew not that I healed them””'
-    claim: 'Alma 33:20: they did not believe that it would heal them'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/33?lang=eng'
-    quote: 'they did not believe that it would heal them.'
-  - where: 'section ““They knew not that I healed them””'
-    claim: 'Connection made by this page: 11:3, “they knew not that I healed them,” is set beside 5:13, where Ephraim went to the Assyrian, “yet could he not heal you”: Ephraim goes to another for healing without knowing who had been healing him'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/11?lang=eng'
-    quote: 'but they knew not that I healed them.'
-  - where: 'section ““They knew not that I healed them””'
-    claim: 'Connection made by this page (5:13 side): Ephraim went to the Assyrian, “yet could he not heal you”'
+  - where: 'opening'
+    claim: 'Footnote Hosea 5:13d “heal” → Hosea 14:3 (1–3); footnote 14:3b “save” → Hosea 5:13'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/5?lang=eng'
     quote: 'yet could he not heal you, nor cure you of your wound.'
-  - where: 'section ““They knew not that I healed them””'
-    claim: 'shuv is the root meaning to turn back or return; meshuvah (“backsliding”) is a noun from it with the exact opposite meaning, turned away from God'
-    key: spendlove-turning-whole-heart
-    url: 'https://interpreterfoundation.org/journal/turning-to-the-lord-with-the-whole-heart-the-doctrine-of-repentance-in-the-bible-and-the-book-of-mormon'
-    quote: 'Meshuvah (משובה), also derived from the root shuv (שוב), is a Hebrew noun with the exact opposite meaning from teshuvah.'
-  - where: 'section ““They knew not that I healed them””'
-    claim: 'The root-verb shuv generally means to turn back or to return'
-    key: spendlove-turning-whole-heart
-    url: 'https://interpreterfoundation.org/journal/turning-to-the-lord-with-the-whole-heart-the-doctrine-of-repentance-in-the-bible-and-the-book-of-mormon'
-    quote: 'The root-verb שוב (shub) generally means to turn back or to return.'
-  - where: 'section ““Take with you words””'
-    claim: 'The Church footnote at 5:13 “heal” gives Hosea 14:3'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/5?lang=eng'
-    quote: '“heal”: Hosea 14:3 (1–3).'
-  - where: 'section ““Take with you words””'
-    claim: 'The Church footnote at 14:3 “save” gives Hosea 5:13'
+  - where: 'opening'
+    claim: 'Cambridge on 11:3: “The same figure as in Hosea 5:13, Hosea 6:1, Hosea 7:1.”'
+    key: cambridge-hosea
+    url: 'https://biblehub.com/commentaries/cambridge/hosea/11.htm'
+    quote: 'The same figure as in Hosea 5:13, Hosea 6:1, Hosea 7:1.'
+  - where: 'opening'
+    claim: 'Bowen and Spendlove, note 35, quote 5:13, 6:1, 7:1 and 11:3 in sequence for the Ephraim/rpʾ wordplay'
+    key: bowen-fruit-of-loins
+    url: 'https://interpreterfoundation.org/journal/thou-art-the-fruit-of-my-loins-the-interrelated-symbolism-and-meanings-of-the-names-joseph-and-ephraim-in-ancient-scripture'
+    quote: 'but they knew not that I healed them [rĕpāʾtîm]'
+  - where: 'opening'
+    claim: 'Connection made by this page: the five uses of rāpāʾ read as the book’s one argument about where healing comes from; 6:1 (answered by complaint) against 14:1–4 (answered by “I will heal”), the difference being the confession that names Assyria; the object of 14:4 being the backsliding itself. Cambridge draws the 6:1/14:2 contrast; no source reads the five as a sequence.'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/14?lang=eng'
-    quote: '“save”: Hosea 5:13.'
-  - where: 'section ““I will heal their backsliding””'
-    claim: 'Hebrew meshuvah, “backsliding” (14:4), is glossed turning back, apostasy'
-    key: bdb
-    url: 'https://biblehub.com/hebrew/4878.htm'
-    quote: 'noun feminine turning back, apostasy'
-  - where: 'section ““I will heal their backsliding””'
-    claim: 'The verb of 14:4 is “I will heal” and its object is meshuvah'
+    quote: 'I will heal their backsliding, I will love them freely: for mine anger is turned away from him.'
+
+  # ---------- section “Yet could he not heal you” ----------
+  - where: 'section “Yet could he not heal you”'
+    claim: 'māzôr (H4205) twice at 5:13, elsewhere only Jer. 30:13'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'מָזֽוֹר'
+  - where: 'section “Yet could he not heal you”'
+    claim: 'Keil on 5:13: māzôr “a festering wound, an abscess” (also Jer. 30:13); “The real disease of the two kingdoms was apostasy from the Lord”'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/5.htm'
+    quote: 'The real disease of the two kingdoms was apostasy from the Lord'
+  - where: 'section “Yet could he not heal you”'
+    claim: 'Keil: “a festering wound, an abscess”'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/5.htm'
+    quote: 'a festering wound, an abscess'
+  - where: 'section “Yet could he not heal you”'
+    claim: 'Cambridge on 5:13: “Both states are conscious of the destroying cancer, but neither of them adopts the only possible means of arresting its progress.”'
+    key: cambridge-hosea
+    url: 'https://biblehub.com/commentaries/cambridge/hosea/5.htm'
+    quote: 'Both states are conscious of the destroying cancer, but neither of them adopts the only possible means of arresting its progress.'
+  - where: 'section “Yet could he not heal you”'
+    claim: 'Student Manual 10-24 (quoting Sperry): “Political alliances would not remedy the real cause of their trouble—moral disease and rebellion against God.”'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'Political alliances would not remedy the real cause of their trouble—moral disease and rebellion against God.'
+  - where: 'section “Yet could he not heal you”'
+    claim: 'Asshur (H804) 9 verses in Hosea: 5:13; 7:11; 8:9; 9:3; 10:6; 11:5; 11:11; 12:1; 14:3; sought as help at 5:13, 7:11, 8:9, 12:1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'אַשּׁ֔וּר'
+  - where: 'section “Yet could he not heal you”'
+    claim: 'Hosea 5:14–15 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/5?lang=eng'
+    quote: 'till they acknowledge their offence, and seek my face'
+
+  # ---------- section “He hath torn, and he will heal us” ----------
+  - where: 'section “He hath torn, and he will heal us”'
+    claim: '6:1 wĕyirpāʾēnû, first person plural speech with no speaker named'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'וְ/יִרְפָּאֵ֑/נוּ'
+  - where: 'section “He hath torn, and he will heal us”'
+    claim: 'Keil on 6:1: “The Assyrian cannot heal (Hosea 5:13); but the Lord, who manifested Himself as Israel’s physician in the time of Moses (Exodus 15:26), and promised His people healing in the future also (Deuteronomy 32:39), surely can.”'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/6.htm'
+    quote: 'The Assyrian cannot heal (Hosea 5:13); but the Lord, who manifested Himself as Israel''s physician in the time of Moses (Exodus 15:26), and promised His people healing in the future also (Deuteronomy 32:39), surely can.'
+  - where: 'section “He hath torn, and he will heal us”'
+    claim: 'Barnes on 6:1: “They are words put into their mouth by God Himself”'
+    key: barnes-hosea
+    url: 'https://biblehub.com/commentaries/barnes/hosea/6.htm'
+    quote: 'They are words put into their mouth by God Himself'
+  - where: 'section “He hath torn, and he will heal us”'
+    claim: 'Cambridge on 6:1–3: “the only too quickly repentant Israelites”; “a hasty resolution, from which a full and free confession of sin was fatally absent (contrast penitent Israel’s words in Hosea 14:2). Hence the complaint of the omniscient Holy One which follows in Hosea 6:4.”'
+    key: cambridge-hosea
+    url: 'https://biblehub.com/commentaries/cambridge/hosea/6.htm'
+    quote: 'a hasty resolution, from which a full and free confession of sin was fatally absent (contrast penitent Israel’s words in Hosea 14:2). Hence the complaint of the omniscient Holy One which follows in Hosea 6:4.'
+  - where: 'section “He hath torn, and he will heal us”'
+    claim: 'Cambridge: “the only too quickly repentant Israelites”'
+    key: cambridge-hosea
+    url: 'https://biblehub.com/commentaries/cambridge/hosea/6.htm'
+    quote: 'the only too quickly repentant Israelites'
+  - where: 'section “He hath torn, and he will heal us”'
+    claim: 'Ellicott on ch. 6: “The words of imperfect penitence (Hosea 6:1-3) are put by the prophet into the lips of those who are in trouble, and are counting too soon on the boundless compassion of Jehovah.”'
+    key: ellicott-hosea
+    url: 'https://biblehub.com/commentaries/ellicott/hosea/6.htm'
+    quote: 'are put by the prophet into the lips of those who are in trouble, and are counting too soon on the boundless compassion of Jehovah'
+  - where: 'section “He hath torn, and he will heal us”'
+    claim: 'Keil on 6:4: “The verse does not contain an answer from Jehovah”; “God has already tried all kinds of punishment to bring the people back to fidelity to Himself, but all in vain”'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/6.htm'
+    quote: 'God has already tried all kinds of punishment to bring the people back to fidelity to Himself, but all in vain'
+  - where: 'section “He hath torn, and he will heal us”'
+    claim: 'Keil: “The verse does not contain an answer from Jehovah”'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/6.htm'
+    quote: 'The verse does not contain an answer from Jehovah'
+
+  # ---------- section “When I would have healed Israel” ----------
+  - where: 'section “When I would have healed Israel”'
+    claim: '7:1 kĕrāpĕʾî, kĕ- + infinitive + 1cs suffix; no “would” in the Hebrew'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
+    quote: 'כְּ/רָפְאִ֣/י'
+  - where: 'section “When I would have healed Israel”'
+    claim: 'Keil on 7:1: “As the dangerous nature of a wound is often first brought out by the attempt to heal it, so was the corruption of Israel only brought truly to light by the effort to stem it.”'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/7.htm'
+    quote: 'As the dangerous nature of a wound is often first brought out by the attempt to heal it, so was the corruption of Israel only brought truly to light by the effort to stem it.'
+  - where: 'section “When I would have healed Israel”'
+    claim: 'Keil, same paragraph: “the preaching of repentance and the reproofs of the prophets, and partly by chastisements designed to promote reformation”'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/7.htm'
+    quote: 'the preaching of repentance and the reproofs of the prophets, and partly by chastisements designed to promote reformation'
+  - where: 'section “When I would have healed Israel”'
+    claim: 'Cambridge on 7:1, an emendation: “it is expedient to read thus, with Ewald, When I turn the fortunes of my people, when I heal Israel, then will be manifest Ephraim’s guilt and Samaria’s wickedness”'
+    key: cambridge-hosea
+    url: 'https://biblehub.com/commentaries/cambridge/hosea/7.htm'
+    quote: 'it is expedient to read thus, with Ewald, When I turn the fortunes of my people, when I heal Israel'
+  - where: 'section “When I would have healed Israel”'
+    claim: 'Ellicott on 7:1: “Translate, When I heal Israel (referring to a cessation in the attacks of the menacing foe, or to such a thrill of finer feeling as that which is recorded in 2Chronicles 28:8-15), then is revealed the iniquity of Ephraim”'
+    key: ellicott-hosea
+    url: 'https://biblehub.com/commentaries/ellicott/hosea/7.htm'
+    quote: 'referring to a cessation in the attacks of the menacing foe, or to such a thrill of finer feeling as that which is recorded in 2Chronicles 28:8-15'
+  - where: 'section “When I would have healed Israel”'
+    claim: 'Hosea 7:11, 16 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/7?lang=eng'
+    quote: 'They return, but not to the most High'
+
+  # ---------- section “They knew not that I healed them” ----------
+  - where: 'section “They knew not that I healed them”'
+    claim: 'Keil on 11:3: rĕpāʾtîm “pointing back to Exodus 15:26, where the Lord showed Himself as the physician of Israel, by making the bitter water at Marah drinkable”; Cambridge: “Comp. Exodus 15:26, ‘for I am Jehovah thy healer.’”'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/11.htm'
+    quote: 'pointing back to Exodus 15:26, where the Lord showed Himself as the physician of Israel, by making the bitter water at Marah drinkable'
+  - where: 'section “They knew not that I healed them”'
+    claim: 'Cambridge on 11:3: “Comp. Exodus 15:26, ‘for I am Jehovah thy healer.’”'
+    key: cambridge-hosea
+    url: 'https://biblehub.com/commentaries/cambridge/hosea/11.htm'
+    quote: 'for I am Jehovah thy healer'
+  - where: 'section “They knew not that I healed them”'
+    claim: 'Ex. 15:26 “I am the Lord that healeth thee”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/15?lang=eng'
+    quote: 'for I am the Lord that healeth thee.'
+  - where: 'section “They knew not that I healed them”'
+    claim: 'Footnote Hosea 11:3a “healed” → 1 Ne. 17:41 (40–41); Alma 33:20 (18–23)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/11?lang=eng'
+    quote: 'but they knew not that I healed them.'
+  - where: 'section “They knew not that I healed them”'
+    claim: 'Alma 33:20 “many … would not look”; 1 Ne. 17:41 the way prepared “that they might be healed”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/33?lang=eng'
+    quote: 'But there were many who were so hardened that they would not look'
+  - where: 'section “They knew not that I healed them”'
+    claim: 'KnoWhy 646 on 1 Ne. 17:41: “This same blessing of healing and protection through Jesus Christ’s Atonement remains available to all today who look to the Lord and follow Him.”'
+    key: sc-knowhy-646
+    url: 'https://scripturecentral.org/knowhy/were-there-fiery-flying-serpents-along-lehis-trail'
+    quote: 'This same blessing of healing and protection through Jesus Christ’s Atonement remains available to all today who look to the Lord and follow Him.'
+
+  # ---------- section “Take with you words” ----------
+  - where: 'section “Take with you words”'
+    claim: 'Hosea 14:1–3 as quoted; footnote 14:3b “save” → Hosea 5:13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/14?lang=eng'
+    quote: 'Asshur shall not save us; we will not ride upon horses: neither will we say any more to the work of our hands, Ye are our gods'
+  - where: 'section “Take with you words”'
+    claim: 'Keil on 14:3: “Rebellious Israel placed its reliance upon Assyria and Egypt (Hosea 5:13; Hosea 7:11; Hosea 8:9). It will do this no longer.”'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/14.htm'
+    quote: 'Rebellious Israel placed its reliance upon Assyria and Egypt (Hosea 5:13; Hosea 7:11; Hosea 8:9). It will do this no longer.'
+  - where: 'section “Take with you words”'
+    claim: 'Keil on 14:1–3: “if the conversion is to be of the right kind, it must begin with a prayer for the forgiveness of sin, and attest itself by the renunciation of earthly help and simple trust in the mercy of God”'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/14.htm'
+    quote: 'it must begin with a prayer for the forgiveness of sin, and attest itself by the renunciation of earthly help and simple trust in the mercy of God'
+  - where: 'section “Take with you words”'
+    claim: 'Cambridge on 14:2: the prophet “cherishes the belief that Israel’s repentance will after all not be as superficial as he once feared”'
+    key: cambridge-hosea
+    url: 'https://biblehub.com/commentaries/cambridge/hosea/14.htm'
+    quote: 'cherishes the belief that Israel’s repentance will after all not be as superficial as he once feared'
+  - where: 'section “Take with you words”'
+    claim: 'Student Manual 10-38 on 14:2: “To present the sincere prayers of one’s lips as an offering to the Lord was as precious as the best offerings in the Mosaic law”'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'To present the sincere prayers of one’s lips as an offering to the Lord was as precious as the best offerings in the Mosaic law'
+  - where: 'section “Take with you words”'
+    claim: 'Bowen and Spendlove: “Asshur will not save us” plays on the name Hosea'
+    key: bowen-fruit-of-loins
+    url: 'https://interpreterfoundation.org/journal/thou-art-the-fruit-of-my-loins-the-interrelated-symbolism-and-meanings-of-the-names-joseph-and-ephraim-in-ancient-scripture'
+    quote: 'the phrases “Asshur will not save us” and “in thee the fatherless find mercy” play on the names Hosea and Lo-ruhamah, respectively'
+  - where: 'section “Take with you words”'
+    claim: '14:4 ʾerpāʾ mĕšûbātām: the object is mĕšûbâ (H4878), “their backsliding,” not the people; mĕšûbâ also at 11:7'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
     quote: 'מְשׁ֣וּבָתָ֔/ם'
-  - where: 'section ““I will heal their backsliding””'
-    claim: 'Chapter 14 looks forward to the return of Ephraim to the Lord and its healing'
-    key: bowen-fruit-of-loins
-    url: 'https://interpreterfoundation.org/journal/thou-art-the-fruit-of-my-loins-the-interrelated-symbolism-and-meanings-of-the-names-joseph-and-ephraim-in-ancient-scripture'
-    quote: 'Still another of Hosea’s prophecies, one that looks forward to the return of Ephraim (tribe and nation) to the Lord and its healing'
-  - where: 'section ““I will heal their backsliding””'
-    claim: 'Bowen and Spendlove’s note 35 gives 5:13 as the example of wordplay between Ephraim and “heal” and goes on to quote 6:1, 7:1 and 11:3 (the page no longer makes the claim; row kept for the reviewer)'
-    key: bowen-fruit-of-loins
-    url: 'https://interpreterfoundation.org/journal/thou-art-the-fruit-of-my-loins-the-interrelated-symbolism-and-meanings-of-the-names-joseph-and-ephraim-in-ancient-scripture'
-    quote: 'The pun here emphasizes Ephraim’s sickness.'
-  - where: 'section ““I will heal their backsliding””'
-    claim: 'Israel’s restoration shall be due to His love (2:19; 14:4)'
-    key: bd-hosea
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng'
-    quote: 'their restoration shall be due to His love (2:19; 14:4).'
-  - where: 'section ““I will heal their backsliding””'
-    claim: 'Connection made by this page: Jer. 3:22, “Return, ye backsliding children, and I will heal your backslidings,” is set beside Hosea 14:4'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/3?lang=eng'
-    quote: 'Return, ye backsliding children, and I will heal your backslidings.'
-  - where: 'section ““I will heal their backsliding””'
-    claim: 'Jer. 3:22 has the same Hebrew verb (rapha, first person) and noun (meshuvah) as Hosea 14:4'
+  - where: 'section “Take with you words”'
+    claim: 'Spendlove: mĕšûbâ “a Hebrew noun with the exact opposite meaning from teshuvah”; “used twelve times in the Old Testament, and Jeremiah is responsible for nine of those”'
+    key: spendlove-turning-whole-heart
+    url: 'https://interpreterfoundation.org/journal/turning-to-the-lord-with-the-whole-heart-the-doctrine-of-repentance-in-the-bible-and-the-book-of-mormon'
+    quote: 'a Hebrew noun with the exact opposite meaning from teshuvah'
+  - where: 'section “Take with you words”'
+    claim: 'Spendlove: “This word is used twelve times in the Old Testament, and Jeremiah is responsible for nine of those.”'
+    key: spendlove-turning-whole-heart
+    url: 'https://interpreterfoundation.org/journal/turning-to-the-lord-with-the-whole-heart-the-doctrine-of-repentance-in-the-bible-and-the-book-of-mormon'
+    quote: 'This word is used twelve times in the Old Testament, and Jeremiah is responsible for nine of those.'
+  - where: 'section “Take with you words”'
+    claim: 'BDB on mĕšûbâ (H4878): “turning back, apostasy”; Hosea 14:5 and Jer. 3:22 in one entry'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4878.htm'
+    quote: 'turning back, apostasy'
+  - where: 'section “Take with you words”'
+    claim: 'Keil on 14:4: “The Lord promises first of all to heal their apostasy, i.e., all the injuries which have been inflicted by their apostasy from Him, and to love them with perfect spontaneity”'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/14.htm'
+    quote: 'The Lord promises first of all to heal their apostasy, i.e., all the injuries which have been inflicted by their apostasy from Him, and to love them with perfect spontaneity'
+  - where: 'section “Take with you words”'
+    claim: 'Cambridge on 14:4: “the damage which their ‘backsliding’ has brought upon them”'
+    key: cambridge-hosea
+    url: 'https://biblehub.com/commentaries/cambridge/hosea/14.htm'
+    quote: 'the damage which their ‘backsliding’ has brought upon them'
+  - where: 'section “Take with you words”'
+    claim: 'Barnes on 14:4: “that wound of their souls, from where every other evil came, their fickleness and unsteadfastness”; “In healing that disease of unsteadfastness, God healed all besides”'
+    key: barnes-hosea
+    url: 'https://biblehub.com/commentaries/barnes/hosea/14.htm'
+    quote: 'In healing that disease of unsteadfastness, God healed all besides'
+  - where: 'section “Take with you words”'
+    claim: 'Barnes: “that wound of their souls, from where every other evil came, their fickleness and unsteadfastness”'
+    key: barnes-hosea
+    url: 'https://biblehub.com/commentaries/barnes/hosea/14.htm'
+    quote: 'from where every other evil came, their fickleness and unsteadfastness'
+  - where: 'section “Take with you words”'
+    claim: 'Ellicott on 14:4: “If the foregoing be the offering of penitent lips, then the majestic reply of Jehovah is full of superlative grace.”'
+    key: ellicott-hosea
+    url: 'https://biblehub.com/commentaries/ellicott/hosea/14.htm'
+    quote: 'If the foregoing be the offering of penitent lips, then the majestic reply of Jehovah is full of superlative grace.'
+  - where: 'section “Take with you words”'
+    claim: 'Seminary teacher manual: the Lord “would heal them of their backsliding, or apostasy, when the people of Israel return to Him”'
+    key: ot-seminary-teacher-148
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-hosea/lesson-148-hosea?lang=eng'
+    quote: 'the Lord would heal them of their backsliding, or apostasy, when the people of Israel return to Him'
+
+  # ---------- section “Return unto me … that I may heal you” ----------
+  - where: 'section “Return unto me … that I may heal you”'
+    claim: 'Jer. 3:22 ʾerpâ mĕšûbōtêkem: the same verb (rāpāʾ, 1cs) and noun (mĕšûbâ) as Hosea 14:4; BDB files Hosea 14:5 and Jer. 3:22 under one entry'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
     quote: 'מְשׁוּבֹֽתֵי/כֶ֑ם'
-  - where: 'section ““I will heal their backsliding””'
-    claim: 'The Church footnote at Jer. 3:22 “heal” gives 3 Ne. 9:13; 18:32 (a footnote at Jeremiah, not at Hosea)'
+  - where: 'section “Return unto me … that I may heal you”'
+    claim: 'Connection made by this page: Jeremiah 3:22 repeats Hosea 14:4’s promise in the same verb and noun, and the Church’s footnote carries it to Christ’s voice in 3 Ne. 9:13 (no commentary read makes the join; BDB files the two verses under one entry)'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/3?lang=eng'
-    quote: '“heal”: 3 Ne. 9:13; 18:32.'
-  - where: 'section ““I will heal their backsliding””'
-    claim: 'Connection made by this page (3 Ne. 9:13 side): the risen Savior says, will ye not now return unto me … that I may heal you'
+    quote: 'and I will heal your backslidings'
+  - where: 'section “Return unto me … that I may heal you”'
+    claim: 'Jer. 3:22 as quoted; footnote 3:22 “heal” → 3 Ne. 9:13; 18:32'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/3?lang=eng'
+    quote: 'Return, ye backsliding children, and I will heal your backslidings.'
+  - where: 'section “Return unto me … that I may heal you”'
+    claim: 'Bible Dictionary, Hosea: Jer. 2–3 among the writings Hosea influenced; “Hosea’s fundamental idea is the love of God for His people”; restoration “due to His love (2:19; 14:4)”'
+    key: bd-hosea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng'
+    quote: 'Jer. 2–3'
+  - where: 'section “Return unto me … that I may heal you”'
+    claim: 'Bible Dictionary, Hosea: “Hosea’s fundamental idea is the love of God for His people.”'
+    key: bd-hosea
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/hosea?lang=eng'
+    quote: 'Hosea’s fundamental idea is the love of God for His people.'
+  - where: 'section “Return unto me … that I may heal you”'
+    claim: '3 Ne. 9:13 “will ye not now return unto me, and repent of your sins, and be converted, that I may heal you?”'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/9?lang=eng'
     quote: 'will ye not now return unto me, and repent of your sins, and be converted, that I may heal you?'
-  - where: 'section “Through Jesus Christ”'
-    claim: 'Jehovah is the premortal Jesus Christ'
+  - where: 'section “Return unto me … that I may heal you”'
+    claim: 'Bible Dictionary: “Jehovah is the premortal Jesus Christ”; Hosea 13:4 “no saviour beside me,” footnote 4b → Acts 4:12; 2 Ne. 25:20'
     key: bd-jehovah
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
-    quote: 'Jehovah is the premortal Jesus Christ and came to earth being born of Mary'
-  - where: 'section “Through Jesus Christ”'
-    claim: 'The Church footnote at Hosea 13:4 “saviour” gives Acts 4:12 and 2 Ne. 25:20'
+    quote: 'Jehovah is the premortal Jesus Christ'
+  - where: 'section “Return unto me … that I may heal you”'
+    claim: 'Hosea 13:4 as quoted, footnote 4b “saviour” → Acts 4:12; 2 Ne. 25:20'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/13?lang=eng'
-    quote: '“saviour”: Acts 4:12; 2 Ne. 25:20.'
-  - where: 'section “Through Jesus Christ”'
-    claim: '2 Ne. 25:20 joins the healing of the serpent-bitten with none other name save it be this Jesus Christ'
+    quote: 'for there is no saviour beside me.'
+  - where: 'section “Return unto me … that I may heal you”'
+    claim: '2 Ne. 25:20 “there is none other name given under heaven save it be this Jesus Christ … whereby man can be saved”; the healing of those who looked at the serpent'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/25?lang=eng'
     quote: 'there is none other name given under heaven save it be this Jesus Christ'
-  - where: 'section “Through Jesus Christ”'
-    claim: 'The book’s ending shows the redemption and reconciliation of God’s people through Jesus Christ'
+  - where: 'section “Return unto me … that I may heal you”'
+    claim: 'Come, Follow Me 2026 (Hosea): “I will heal their backsliding, I will love them freely” (Hosea 14:4). This is the same message He gives us today as we seek to live our covenants with love and devotion.'
+    key: cfm-ot-2026-47
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/47?lang=eng'
+    quote: 'This is the same message He gives us today as we seek to live our covenants with love and devotion.'
+  - where: 'section “Return unto me … that I may heal you”'
+    claim: 'Hord: “God is not fragile and can heal his people if they will turn to him and seek him out by coming to know him, his work, and his ways.”'
     key: hord-not-fragile
     url: 'https://rsc.byu.edu/vol-23-no-1-2022/god-not-fragile'
-    quote: 'seeing the future redemption and reconciliation of God’s people to him through Jesus Christ'
-  - where: 'section ““He hath torn, and he will heal us””'
-    claim: 'Connection made by this page: 6:1, “he will heal us” (the people, of the Lord), is set beside 14:4, “I will heal” (the Lord, of Himself), the same Hebrew verb; 6:4 and 7:1 stand between them'
+    quote: 'God is not fragile and can heal his people if they will turn to him and seek him out'
+  - where: 'section “Yet could he not heal you”'
+    claim: 'Keil on 6:1 ties it to 5:15: “As the endurance of punishment impels to seek the Lord (Hosea 5:15), so the motive to return to the Lord is founded upon the knowledge of the fact that the Lord can, and will, heal the wounds which He inflicts.”'
+    key: keil-hosea
+    url: 'https://biblehub.com/commentaries/kad/hosea/6.htm'
+    quote: 'As the endurance of punishment impels to seek the Lord (Hosea 5:15), so the motive to return to the Lord is founded upon the knowledge of the fact that the Lord can, and will, heal the wounds which He inflicts.'
+  - where: 'section “Take with you words”'
+    claim: 'Student Manual 10-3 (quoting Sperry): “The Hebrew name of the prophet, Hoshea, signifies ‘help,’ ‘deliverance,’ and ‘salvation,’ and is derived from the same root as the names of Joshua and Jesus.”'
+    key: ot-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-10?lang=eng'
+    quote: 'signifies ‘help,’ ‘deliverance,’ and ‘salvation,’ and is derived from the same root as the names of Joshua and Jesus'
+  - where: 'section “Return unto me … that I may heal you”'
+    claim: 'The voice of 3 Ne. 9 is heard during the three days of darkness; the darkness disperses only at 3 Ne. 10:9'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/14?lang=eng'
-    quote: 'I will heal their backsliding'
-  - where: 'section ““I will heal their backsliding””'
-    claim: 'meshuvah (H4878) is in Hosea only at 11:7 and 14:4 (occurrences.mjs hosea --hebrew 4878: 2 occurrences); 11:7 “bent to backsliding from me”'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hos.xml'
-    quote: 'לִ/מְשֽׁוּבָתִ֑/י'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/10?lang=eng'
+    quote: 'the darkness dispersed from off the face of the land'

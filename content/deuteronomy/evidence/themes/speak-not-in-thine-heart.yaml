@@ -1,157 +1,318 @@
 page: speak-not-in-thine-heart
 claims:
+  # ---------- opening ----------
   - where: 'opening'
-    claim: 'The clause “say in thine heart” (ʾamar + bilĕbāb-ekā) stands at 7:17'
+    claim: '7:17, 8:17, 9:4 and 18:21 share the Hebrew clause ʾāmar (H559) + bilbābĕkā (H3824), “say in thine heart”; 7:17 tōʾmar bilbābĕkā'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
     quote: 'תֹאמַר֙'
   - where: 'opening'
-    claim: 'Same clause at 8:17 (perfect with waw)'
+    claim: '8:17 wĕʾāmartā bilbābekā'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
     quote: 'וְ/אָמַרְתָּ֖'
   - where: 'opening'
-    claim: 'Same clause at 9:4, as the negative command “speak not” (ʾal + jussive)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'אַל'
-  - where: 'opening'
-    claim: 'Same clause at 18:21'
+    claim: '18:21 tōʾmar bilbābekā'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
     quote: 'תֹאמַ֖ר'
   - where: 'opening'
-    claim: 'Connection made by this page: 7:17, 8:17, 9:4 and 18:21 read as one sequence, each with an answer from outside the heart, only 9:4 forbidden outright in the Hebrew, closing at 30:12–14'
+    claim: '29:19 is a different idiom, hitbārēk bilbābô lēʾmōr, “bless himself in his heart, saying,” with “his” heart'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'וְ/הִתְבָּרֵ֨ךְ'
+  - where: 'opening'
+    claim: 'Only 9:4 is a direct prohibition, ʾal tōʾmar (jussive with ʾal); 7:17 (kî) and 18:21 (wĕkî) are conditions; 8:17 and 15:9 are “lest” (pen) warnings (8:11–12; 15:9); 29:19 is a description'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'תֹּאמַ֣ר'
+  - where: 'opening'
+    claim: '15:9 is a saying in the heart in another idiom: pen yihyeh dābār ʿim-lĕbābĕkā… lēʾmōr, “lest there be a thought with thy heart… saying”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'לְבָבְ/ךָ֨'
+  - where: 'opening'
+    claim: '8:12 “Lest” is pen (H6435), governing 8:17'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'פֶּן'
+  - where: 'opening'
+    claim: 'Connection made by this page: Deuteronomy’s heart has two grammars, what it says to itself (7:17; 8:17; 9:4; 15:9; 18:21; 29:19), a claim or question of its own making and answered from outside, and what is put into it or given it (6:6; 11:18; 30:14; 29:4; 30:6); reading the six sayings as one sequence, and closing the frame at Rom. 10:10, are the page’s own; the pairing of Paul’s clause with 9:4 is Ludlow’s'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/9?lang=eng'
-    quote: 'Speak not thou in thine heart, after that the LORD thy God hath cast them out from before thee'
+    quote: 'Speak not thou in thine heart, after that the Lord thy God hath cast them out from before thee, saying, For my righteousness the Lord hath brought me in to possess this land'
+
+  # ---------- If thou shalt say in thine heart ----------
   - where: 'section “If thou shalt say in thine heart”'
-    claim: '7:18 and 8:18 answer with the same verb, zakar (“remember”)'
+    claim: 'Keil on 7:17–18: to suppress the thought rising in their heart the Israelites were to remember what the Lord had done in Egypt'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/7.htm'
+    quote: 'To suppress the thought that was rising up in their heart, how could it be possible for them to destroy these nations which were more numerous than they, the Israelites were to remember what the Lord had done in Egypt and to Pharaoh'
+  - where: 'section “If thou shalt say in thine heart”'
+    claim: '“Remember” in 7:18 and 8:18 is the same verb, zākar (H2142)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'זָכֹ֣ר'
+    quote: 'וְ/זָֽכַרְתָּ֖'
   - where: 'section “If thou shalt say in thine heart”'
-    claim: 'The verb zakar at 8:18'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'וְ/זָֽכַרְתָּ֙'
+    claim: 'The Cambridge Bible on 8:17: whether or not thou sayest this with thy lips, thou feelest and behavest as if thine own power had gotten thee this wealth'
+    key: cambridge-deuteronomy
+    url: 'https://biblehub.com/commentaries/cambridge/deuteronomy/8.htm'
+    quote: 'whether or not thou sayest this expressly with thy lips, thou feelest and practically behavest as if thine own power and might had gotten thee this wealth.'
   - where: 'section “If thou shalt say in thine heart”'
-    claim: 'Connection made by this page: 7:17 and 8:17 set beside each other by the shared clause and the shared answer “remember”; what the heart speaks of moves from the enemy to itself'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/8?lang=eng'
-    quote: 'And thou say in thine heart, My power and the might of mine hand hath gotten me this wealth.'
+    claim: 'Lane reads 8:17–19 as the metaphorical sense of idolatry, putting their trust in their material resources and their own power'
+    key: lane-redemption
+    url: 'https://rsc.byu.edu/covenant-compassion/remembering-redemption-avoiding-idolatry'
+    quote: 'can also be understood more metaphorically as putting their trust in their material resources and their own power (8:19).'
   - where: 'section “If thou shalt say in thine heart”'
-    claim: '18:21 is a question spoken as “we”, answered in 18:22 by a test (plain words of the verses)'
+    claim: 'Rappleye: forgetting the Lord’s role in their prosperity undoes their memory of the wilderness blessings; the end result is believing they created their own power and might'
+    key: ot-minute-deut-rappleye
+    url: 'https://scripturecentral.org/archive/books/book-chapter/deuteronomy-1-6-8-15-18-29-30-34'
+    quote: 'Israel’s forgetting the Lord’s role in their prosperity in the promised land undoes their memory of the Lord’s blessings in the wilderness. The end result is their believing that they created their own “power and might” (verse 17).'
+  - where: 'section “If thou shalt say in thine heart”'
+    claim: 'Keil on 18:21–22: the occurrence of what had been predicted is made the criterion of true prophecy, not signs and wonders'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/18.htm'
+    quote: 'By this injunction the occurrence of what had been predicted is made the criterion of true prophecy, and not signs and wonders, which false prophets could also perform'
+  - where: 'section “If thou shalt say in thine heart”'
+    claim: 'KnoWhy #546, citing Spencer: the Hebrew behind “imagination” (29:19) is a kind of idolatrous self-reliance'
+    key: sc-knowhy-546
+    url: 'https://scripturecentral.org/knowhy/what-is-the-significance-of-the-great-and-spacious-building'
+    quote: 'Spencer explains that shereeroth is a kind of idolatrous self-reliance rendered “imagination” in our King James Bibles and in other translations as “stubbornness.”'
+  - where: 'section “If thou shalt say in thine heart”'
+    claim: 'Keil on 29:19: to bless himself in his heart is to congratulate himself'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/29.htm'
+    quote: 'To bless himself in his heart is to congratulate himself.'
+  - where: 'section “If thou shalt say in thine heart”'
+    claim: 'Connection made by this page: 18:21 is the one saying of the six Moses does not rebuke, and its answer is still from outside the heart; 15:9 is answered by the poor man’s cry reaching the Lord'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/18?lang=eng'
-    quote: 'And if thou say in thine heart, How shall we know the word which the LORD hath not spoken?'
+    quote: 'if the thing follow not, nor come to pass, that is the thing which the Lord hath not spoken'
+
+  # ---------- Speak not thou in thine heart ----------
   - where: 'section “Speak not thou in thine heart”'
-    claim: '9:4 is the negative command ʾal tōʾmar; 7:17 and 18:21 are “if thou say”, 8:17 “and thou say”'
+    claim: '9:4 ʾal tōʾmar bilbābĕkā, the only negative among the four'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'אַל'
+    quote: 'בִּ/לְבָבְ/ךָ֗'
   - where: 'section “Speak not thou in thine heart”'
-    claim: 'The noun ṣedaqah (H6666) at 9:4, “my” (bĕṣidqātî); six occurrences in the book, three at 9:4–6'
+    claim: 'The Cambridge Bible on 9:4 sends the reader to its note on 8:17'
+    key: cambridge-deuteronomy
+    url: 'https://biblehub.com/commentaries/cambridge/deuteronomy/9.htm'
+    quote: 'Speak … in thine heart] See on Deuteronomy 8:17.'
+  - where: 'section “Speak not thou in thine heart”'
+    claim: 'Keil on Deuteronomy 9: besides the more vulgar pride that attributes success to its own power, there is a more refined pride that sees God’s blessings as proofs of its own righteousness'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/9.htm'
+    quote: 'Besides the more vulgar pride which entirely forgets God, and attributes success and prosperity to its own power and exertion, there is one of a more refined character, which very easily spreads-namely, pride which acknowledges the blessings of God; but instead of receiving them gratefully, as unmerited gifts of the grace of the Lord, sees in them nothing but proofs of its own righteousness and virtue.'
+  - where: 'section “Speak not thou in thine heart”'
+    claim: 'Keil: the reason for giving Canaan was simply the promise of God, nothing but the free grace of God, not any merit on the part of the Israelites'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/9.htm'
+    quote: 'The reason for giving Canaan to the Israelites was simply the promise of God, the word which the Lord had spoken to the patriarchs on oath (cf. Deuteronomy 7:8), and therefore nothing but the free grace of God, - not any merit on the part of the Israelites who were then living'
+  - where: 'section “Speak not thou in thine heart”'
+    claim: 'ṣĕdāqâ (H6666) occurs six times in Deuteronomy (6:25; 9:4; 9:5; 9:6; 24:13; 33:21); at 9:4–6 each has a possessive suffix (my, thy, thy) and each is denied'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
     quote: 'בְּ/צִדְקָתִ/י֙'
   - where: 'section “Speak not thou in thine heart”'
-    claim: 'ṣedaqah at 9:5, “thy”'
+    claim: '9:5 “thy righteousness,” biṣdāqātĕkā'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
     quote: 'בְ/צִדְקָתְ/ךָ֗'
   - where: 'section “Speak not thou in thine heart”'
-    claim: 'ṣedaqah at 9:6, “thy”'
+    claim: '33:21 ṣĕdāqâ (KJV “the justice of the LORD”), the sixth occurrence'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'בְ/צִדְקָֽתְ/ךָ֙'
+    quote: 'צִדְקַ֤ת'
   - where: 'section “Speak not thou in thine heart”'
-    claim: 'ṣedaqah at 6:25, “our righteousness”'
+    claim: '6:25 ṣĕdāqâ, without suffix'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
     quote: 'וּ/צְדָקָ֖ה'
   - where: 'section “Speak not thou in thine heart”'
-    claim: 'Connection made by this page: across 7:17, 8:17, 9:4 the heart''s sentence moves from the enemy to Israel''s hand to Israel''s righteousness, the last the only prohibition in the Hebrew'
+    claim: 'Keil on 6:25: this righteousness is not really the gospel righteousness of faith, but there is no opposition, since it rests on striving to love God with all the heart, impossible without living faith'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/6.htm'
+    quote: 'This righteousness before Jehovah, it is true, is not really the gospel "righteousness of faith;" but there is no opposition between the two, as the righteousness mentioned here is not founded upon the outward (pharisaic) righteousness of works, but upon an earnest striving after the fulfilment of the law, to love God with all the heart; and this love is altogether impossible without living faith.'
+  - where: 'section “Speak not thou in thine heart”'
+    claim: 'The Cambridge Bible on 6:25: righteousness here means justification, vindication, the right to live'
+    key: cambridge-deuteronomy
+    url: 'https://biblehub.com/commentaries/cambridge/deuteronomy/6.htm'
+    quote: 'righteousness here does not mean goodness, uprightness, but rather justification, vindication, the right to live, and by consequence their life itself.'
+  - where: 'section “Speak not thou in thine heart”'
+    claim: 'The Cambridge Bible on 9:4 “For my righteousness”: here ethical, contrast 6:25'
+    key: cambridge-deuteronomy
+    url: 'https://biblehub.com/commentaries/cambridge/deuteronomy/9.htm'
+    quote: 'For my righteousness] Here ethical: contr. Deuteronomy 6:25.'
+  - where: 'section “Speak not thou in thine heart”'
+    claim: 'Connection made by this page: Keil’s first pride is 8:17 (he gives no verse); Keil and Cambridge relate 6:25 to 9:4 in two different ways, and the page holds both verses as saying different things'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/9?lang=eng'
-    quote: 'Not for thy righteousness, or for the uprightness of thine heart, dost thou go to possess their land'
-  - where: 'section “In thy mouth, and in thy heart”'
-    claim: 'Deut. 29:19 has “bless himself” (hitbarek) with “in his heart”, third person, not the clause “say in thine heart”'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/6?lang=eng'
+    quote: 'And it shall be our righteousness, if we observe to do all these commandments before the Lord our God, as he hath commanded us.'
+
+  # ---------- The word in thy heart ----------
+  - where: 'section “The word in thy heart”'
+    claim: '6:6 “in thine heart” is ʿal lĕbābekā, “upon thy heart”; 11:18 also ʿal lĕbabkem'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'וְ/הִתְבָּרֵ֨ךְ'
-  - where: 'section “In thy mouth, and in thy heart”'
-    claim: 'Connection made by this page: 30:12–14 set beside the four sayings by their shape, something Israel might “say” and an answer'
+    quote: 'לְבָבֶֽ/ךָ'
+  - where: 'section “The word in thy heart”'
+    claim: '11:18 ʿal (H5921) + lĕbabkem'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'לְבַבְ/כֶ֖ם'
+  - where: 'section “The word in thy heart”'
+    claim: '30:12–13 have only lēʾmōr, “saying,” with no heart; 30:14 has ûbilbābĕkā, “and in thy heart,” with no saying verb'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'וּ/בִֽ/לְבָבְ/ךָ֖'
+  - where: 'section “The word in thy heart”'
+    claim: '30:12 “that thou shouldest say,” lēʾmōr'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'לֵ/אמֹ֗ר'
+  - where: 'section “The word in thy heart”'
+    claim: 'Connection made by this page: in chapters 7–9 the heart speaks and is corrected; in chapter 30 it is spoken into; 29:4 and 30:6 say the heart to perceive is not yet given and will be; the heart that said “my power” and “my righteousness” is told to remember, given words from outside, and promised a remade heart; the pattern is the page’s own'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/30?lang=eng'
     quote: 'But the word is very nigh unto thee, in thy mouth, and in thy heart, that thou mayest do it.'
-  - where: 'section “The righteousness of faith speaks”'
-    claim: 'Rom. 10:6 in the interlinear: “Say not in thine heart”'
-    key: greek-nt
-    url: 'https://biblehub.com/interlinear/romans/10-6.htm'
-    quote: 'Romans 10:6 Interlinear: But the righteousness which is of faith speaketh on this wise, Say not in thine heart'
-  - where: 'section “The righteousness of faith speaks”'
-    claim: 'Rom. 10:6 Greek: εἴπῃς (“You should say”)'
-    key: greek-nt
-    url: 'https://biblehub.com/interlinear/romans/10-6.htm'
-    quote: 'εἴπῃς'
-  - where: 'section “The righteousness of faith speaks”'
-    claim: 'Septuagint Deut. 9:4 has the same clause'
-    key: swete-lxx-deut
-    url: 'https://biblehub.com/sepd/deuteronomy/9.htm'
-    quote: 'μὴ εἴπῃς ἐν τῇ καρδίᾳ σου'
-  - where: 'section “The righteousness of faith speaks”'
-    claim: 'Septuagint Deut. 8:17 has the same clause'
+
+  # ---------- The righteousness of faith speaketh ----------
+  - where: 'section “The righteousness of faith speaketh”'
+    claim: 'The New Testament Student Manual: Paul quoted Deut. 30:12–14 to make the point that one need not ascend into heaven or descend into the deep to find Christ; all people can find the Savior within their own hearts'
+    key: nt-student-manual-37
+    url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/romans/chapter-37-romans-9-16?lang=eng'
+    quote: 'Paul quoted Deuteronomy 30:12–14 to make the point that one need not “ascend into heaven” or “descend into the deep” to find Christ (Romans 10:6–7). Instead, all people—whether Jew or Greek—can find the Savior within their own hearts'
+  - where: 'section “The righteousness of faith speaketh”'
+    claim: 'Keil on 30:14: the declaration “the word is in thy heart” only attains its full realization through the preaching of the gospel and the righteousness that is by faith; to this Paul applies the passage in Rom. 10:8'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/30.htm'
+    quote: 'the declaration, "the word is in thy heart," only attains its full realization through the preaching of the gospel of the grace of God, and the righteousness that is by faith; and to this the Apostle Paul applies the passage in Romans 10:8.'
+  - where: 'section “The righteousness of faith speaketh”'
+    claim: 'The Cambridge Bible on Rom. 11:8: Paul combines Isa. 29:10 and Deut. 29:4'
+    key: cambridge-romans
+    url: 'https://biblehub.com/commentaries/cambridge/romans/11.htm'
+    quote: 'according as it is written] Isaiah 29:10, and Deuteronomy 29:4.'
+  - where: 'section “The righteousness of faith speaketh”'
+    claim: 'The Cambridge Bible on Rom. 10:6: the original is Deut. 30:12–14; “in thine heart” is not in the Hebrew or Septuagint of that passage'
+    key: cambridge-romans
+    url: 'https://biblehub.com/commentaries/cambridge/romans/10.htm'
+    quote: 'in thine heart] Words not in Heb. or LXX., but meaning what the Heb. (“that thou shouldest say”) means; the “speaking” of thought.'
+  - where: 'section “The righteousness of faith speaketh”'
+    claim: 'Septuagint Deut. 8:17: μὴ εἴπῃς ἐν τῇ καρδίᾳ σου'
     key: swete-lxx-deut
     url: 'https://biblehub.com/sepd/deuteronomy/8.htm'
     quote: 'μὴ εἴπῃς ἐν τῇ καρδίᾳ σου'
-  - where: 'section “The righteousness of faith speaks”'
-    claim: 'Septuagint Deut. 30:12 has “λέγων Τίς ἀναβήσεται”, not the clause'
+  - where: 'section “The righteousness of faith speaketh”'
+    claim: 'Septuagint Deut. 9:4: μὴ εἴπῃς ἐν τῇ καρδίᾳ σου'
+    key: swete-lxx-deut
+    url: 'https://biblehub.com/sepd/deuteronomy/9.htm'
+    quote: 'μὴ εἴπῃς ἐν τῇ καρδίᾳ σου'
+  - where: 'section “The righteousness of faith speaketh”'
+    claim: 'Septuagint Deut. 18:21 has the same words without the negative, ἐὰν δὲ εἴπῃς ἐν τῇ καρδίᾳ σου; the Greek turns the Hebrew “lest” of 8:17 into μὴ εἴπῃς, the same as 9:4; 7:17 differs (ἐν τῇ διανοίᾳ)'
+    key: swete-lxx-deut
+    url: 'https://biblehub.com/sepd/deuteronomy/18.htm'
+    quote: 'ἐὰν δὲ εἴπῃς ἐν τῇ καρδίᾳ σου'
+  - where: 'section “The righteousness of faith speaketh”'
+    claim: 'Septuagint Deut. 30:12 has only λέγων, no heart'
     key: swete-lxx-deut
     url: 'https://biblehub.com/sepd/deuteronomy/30.htm'
-    quote: 'οὐκ ἐν τῷ οὐρανῷ ἄνω ἐστὶν λέγων Τίς ἀναβήσεται ἡμῖν εἰς τὸν οὐρανὸν'
-  - where: 'section “The righteousness of faith speaks”'
-    claim: 'Connection made by this page: Rom. 10:6''s opening clause is letter for letter the Septuagint''s clause at Deut. 9:4 and 8:17, not its wording at 30:12; Moses forbade the heart''s claim of righteousness, the righteousness of faith forbids the thought that Christ must be brought down or up'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/10?lang=eng'
-    quote: 'Say not in thine heart, Who shall ascend into heaven?'
-  - where: 'section “The righteousness of faith speaks”'
-    claim: 'Rom. 10:6–8 is listed with Deuteronomy 9:4; 30:12–14'
+    quote: 'λέγων Τίς ἀναβήσεται'
+  - where: 'section “The righteousness of faith speaketh”'
+    claim: 'Rom. 10:6 Greek: Μὴ εἴπῃς ἐν τῇ καρδίᾳ σου'
+    key: greek-nt
+    url: 'https://biblehub.com/interlinear/romans/10-6.htm'
+    quote: 'εἴπῃς'
+  - where: 'section “The righteousness of faith speaketh”'
+    claim: 'Ludlow, listing the Old Testament passages Paul quoted, gives Deut. 9:4 and 30:12–14 as the passages quoted in Rom. 10:6–8; the pairing of Paul’s clause with 9:4 is his, unexplained'
     key: ludlow-paul-ot
     url: 'https://rsc.byu.edu/how-new-testament-came-be/pauls-use-old-testament-scripture'
-    quote: '(see Romans 10:6–8; Deuteronomy 9:4; 30:12–14)'
-  - where: 'section “The righteousness of faith speaks”'
-    claim: 'The Church''s footnote at Rom. 10:4 “end” is 2 Ne. 2:7'
+    quote: 'he gave a small explanatory section wherein he quoted an Old Testament phrase then gave its meaning as it applied to Christ and the righteousness which came from faith (see Romans 10:6–8; Deuteronomy 9:4; 30:12–14).'
+  - where: 'section “The righteousness of faith speaketh”'
+    claim: 'Connection made by this page: Ludlow pairs Paul’s clause with 9:4; the page adds 8:17, where the same six Greek words stand, so that Paul’s opening is the Septuagint’s wording for both sayings of pride and nothing else in Deuteronomy; Cambridge reads Paul’s “Who shall ascend?” as the anxiety of procuring one’s own salvation; setting that reading beside 9:4 and Rom. 10:3 is the page’s step'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/10?lang=eng'
-    quote: '“end”: 2 Ne. 2:7 (7–10)'
-  - where: 'section “The righteousness of faith speaks”'
-    claim: 'The Church''s footnote at 2 Ne. 2:7 “ends” is Rom. 10:4'
+    quote: 'But the righteousness which is of faith speaketh on this wise, Say not in thine heart, Who shall ascend into heaven?'
+  - where: 'section “The righteousness of faith speaketh”'
+    claim: 'The Cambridge Bible on Rom. 10:6: “Who shall ascend” comes of anxiety, have I to procure Incarnation and Resurrection; no, all is done, thy part is to accept and own His Son as thy Justification'
+    key: cambridge-romans
+    url: 'https://biblehub.com/commentaries/cambridge/romans/10.htm'
+    quote: '“In order to be saved, have I to bring the necessary Manifestation of God’s will from Heaven or Hades? Have I to procure Incarnation and Resurrection?” “No; all is now done; the Person and the Work are complete, and ready. As at Sinai, so in the Gospel, God has done His part unasked; and now thy part is to accept and own His Son as thy Justification.”'
+  - where: 'section “The righteousness of faith speaketh”'
+    claim: 'The Cambridge Bible on Rom. 10:9: confession is put before believing because in Deuteronomy the mouth had been named before the heart'
+    key: cambridge-romans
+    url: 'https://biblehub.com/commentaries/cambridge/romans/10.htm'
+    quote: '“Confession” is here put before “believing,” because in Deuteronomy “the mouth” had been named before “the heart.”'
+  - where: 'section “The righteousness of faith speaketh”'
+    claim: 'Connection made by this page: Rom. 10:9–10’s heart that believes unto righteousness closes Deuteronomy’s frame, the heart forbidden to claim righteousness (9:4) receiving it by faith; no commentator read pairs 9:4 and 10:10; righteousness is Paul’s subject through 10:3–10, not an echo of Deut. 9; that Paul names what the word is and whose the righteousness is the page’s reading'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/10?lang=eng'
+    quote: 'For with the heart man believeth unto righteousness; and with the mouth confession is made unto salvation.'
+  - where: 'section “The righteousness of faith speaketh”'
+    claim: 'The Church’s footnotes at Rom. 10:6–8 lead to no verse of Deuteronomy; Rom. 10:4 “end” leads to 2 Ne. 2:7'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/10?lang=eng'
+    quote: '2 Ne. 2:7 (7–10).'
+  - where: 'section “The righteousness of faith speaketh”'
+    claim: 'The Church’s footnote at 2 Ne. 2:7 “ends” leads to Rom. 10:4'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng'
-    quote: '“ends”: Rom. 10:4'
-  - where: 'section “The same sentence now”'
-    claim: 'Alma 38:9, no other way or means than in and through Christ'
+    quote: 'Rom. 10:4.'
+  - where: 'section “The righteousness of faith speaketh”'
+    claim: 'The Church’s footnotes in Deuteronomy 9 and 30 lead to no verse of Romans (9:4 “brought” leads to 1 Ne. 17:38; 30:11 to 1 Ne. 20:16; D&C 84:23; 93:31)'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/38?lang=eng'
-    quote: 'there is no other way or means whereby man can be saved, only in and through Christ'
-  - where: 'section “The same sentence now”'
-    claim: 'Alma 38:11, two verses later'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/9?lang=eng'
+    quote: '1 Ne. 17:38 (32–38).'
+  - where: 'section “The righteousness of faith speaketh”'
+    claim: 'Connection made by this page: Lehi says of salvation (2 Ne. 2:5, 8) what Deuteronomy 9 says of the land, that it is not earned; the analogy is the page’s own'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/38?lang=eng'
-    quote: 'See that ye are not lifted up unto pride; yea, see that ye do not boast in your own wisdom, nor of your much strength.'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/2?lang=eng'
+    quote: 'by the law no flesh is justified'
+  - where: 'section “The righteousness of faith speaketh”'
+    claim: 'Elder Christofferson, commenting on 2 Ne. 2:6–7: Christ can answer the ends of the law on our behalf; we are pardoned and placed in a condition of righteousness with Him'
+    key: christofferson-justification
+    url: 'https://www.churchofjesuschrist.org/study/ensign/2001/06/justification-and-sanctification?lang=eng'
+    quote: 'Jesus Christ can satisfy or “answer the ends of the law” on our behalf. Pardon comes by the grace of Him who has satisfied the demands of justice by His own suffering, “the just for the unjust, that he might bring us to God” (1 Pet. 3:18). He removes our condemnation without removing the law. We are pardoned and placed in a condition of righteousness with Him.'
+
+  # ---------- The same sentence now ----------
   - where: 'section “The same sentence now”'
-    claim: 'Elder Renlund on what remembering God''s goodness does'
+    claim: 'Elder Renlund quotes D&C 59:21 and says God is not insulted but deeply disappointed when we forget Him'
     key: renlund-goodness-greatness
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2020/04/26renlund?lang=eng'
-    quote: 'By reflecting on Their compassion, we become more humble, prayerful, and steadfast.'
+    quote: 'In contrast, the Savior warned, “In nothing doth man offend God, or against none is his wrath kindled, save those who confess not his hand in all things.” I do not think that God is insulted when we forget Him. Rather, I think He is deeply disappointed.'
   - where: 'section “The same sentence now”'
-    claim: 'Bible Dictionary: through faith in the Atonement people receive strength to do good works'
+    claim: 'Keil’s “more refined” pride sees God’s blessings as proofs of its own righteousness (back-reference; quoted in full in the section “Speak not thou in thine heart”)'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/9.htm'
+    quote: 'there is one of a more refined character'
+  - where: 'section “The same sentence now”'
+    claim: 'The New Testament Student Manual quotes President Ballard: no matter how much we obey it would not be enough without Christ’s grace; some in the Church are so preoccupied with good works that they forget those works are hollow without complete dependence on Christ'
+    key: nt-student-manual-37
+    url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/romans/chapter-37-romans-9-16?lang=eng'
+    quote: 'No matter how hard we work, no matter how much we obey, no matter how many good things we do in this life, it would not be enough were it not for Jesus Christ and His loving grace. On our own we cannot earn the kingdom of God—no matter what we do. Unfortunately, there are some within the Church who have become so preoccupied with performing good works that they forget that those works—as good as they may be—are hollow unless they are accompanied by a complete dependence on Christ'
+  - where: 'section “The same sentence now”'
+    claim: 'President Uchtdorf on 2 Ne. 25:23: “after” does not equal “because”; we are not saved because of all that we can do'
+    key: uchtdorf-gift-of-grace
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2015/04/the-gift-of-grace?lang=eng'
+    quote: 'We must understand that “after” does not equal “because.”'
+  - where: 'section “The same sentence now”'
+    claim: 'President Uchtdorf: we are not saved because of all that we can do'
+    key: uchtdorf-gift-of-grace
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2015/04/the-gift-of-grace?lang=eng'
+    quote: 'We are not saved “because” of all that we can do.'
+  - where: 'section “The same sentence now”'
+    claim: 'The Bible Dictionary “Grace”: grace is an enabling power; grace cannot suffice without total effort on the part of the recipient'
     key: bd-grace
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/grace?lang=eng'
-    quote: 'receive strength and assistance to do good works that they otherwise would not be able to maintain if left to their own means'
+    quote: 'This grace is an enabling power that allows men and women to lay hold on eternal life and exaltation after they have expended their own best efforts.'
   - where: 'section “The same sentence now”'
-    claim: 'Bible Dictionary: grace and total effort'
+    claim: 'The Bible Dictionary: grace cannot suffice without total effort on the part of the recipient'
     key: bd-grace
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/grace?lang=eng'
-    quote: 'grace cannot suffice without total effort on the part of the recipient'
+    quote: 'However, grace cannot suffice without total effort on the part of the recipient.'
+  - where: 'section “The same sentence now”'
+    claim: 'Connection made by this page: Deuteronomy asks for all the heart (6:5) and forbids one sentence about that effort, that it is the reason; Paul, using Moses’ words, sets the same refusal before a people who had Christ, in the page’s reading; the land was the Lord’s to give and the saving righteousness is Christ’s; a disciple may keep every commandment and still not say 9:4, since Moses forbade it to a people with the commandments and Paul, in the same words, to a people with Christ'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/38?lang=eng'
+    quote: 'see that ye do not boast in your own wisdom, nor of your much strength.'

@@ -1,167 +1,257 @@
 page: curse-into-blessing
 claims:
+  # ---------- opening ----------
   - where: 'opening'
-    claim: 'The noun qelalah (curse) occurs in eleven verses of the book, including 21:23 (construct qilelat) and 23:5 (haqqelalah)'
+    claim: 'qĕlālâ (H7045) stands in exactly eleven verses of Deuteronomy: 11:26, 28, 29; 21:23; 23:5; 27:13; 28:15, 45; 29:27; 30:1, 19'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'כִּֽי־קִלְלַ֥ת'
+    quote: 'וּ/קְלָלָֽה'
   - where: 'opening'
-    claim: 'Connection made by this page: 11:26–29, 27:15–26, 28:15–45, 30:1–7 and 33 set beside one another as one movement of the curse; no source treats them as a sequence'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/30?lang=eng'
-    quote: 'when all these things are come upon thee, the blessing and the curse, which I have set before thee'
-  - where: 'opening'
-    claim: 'Moses sets “a blessing and a curse” before Israel'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/11?lang=eng'
-    quote: 'Behold, I set before you this day a blessing and a curse'
-  - where: 'opening'
-    claim: 'Moses’ last word is “the blessing” (33:1); after 30:19 none of the book’s curse words occurs (chapter 33 has no word for curse)'
+    claim: 'No curse root (H7045, H779, H423, H7043) occurs in Deuteronomy 31–34; 33:1 “the blessing,” habbĕrākâ'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'וְ/זֹ֣את הַ/בְּרָכָ֗ה'
+    quote: 'הַ/בְּרָכָ֗ה'
   - where: 'opening'
-    claim: 'Paul quotes the hanged man as a curse (Gal. 3:13)'
+    claim: '21:23 “accursed of God” is the construct qilĕlat ʾĕlōhîm, “the curse of God”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'קִלְלַ֥ת'
+  - where: 'opening'
+    claim: 'Connection made by this page: the two legal uses of the noun (21:23; 23:5) are the book’s picture of how a curse ends, one resting on a man and one turned into a blessing for love; setting them beside each other and beside Gal. 3 is the page’s own'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/23?lang=eng'
+    quote: 'but the Lord thy God turned the curse into a blessing unto thee, because the Lord thy God loved thee.'
+
+  # ---------- The curse chosen ----------
+  - where: 'section “The curse chosen”'
+    claim: '“Amen” (H543) occurs in Deuteronomy only at 27:15–26, twelve times'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'אָמֵֽן'
+  - where: 'section “The curse chosen”'
+    claim: 'Keil adopts the Berleburger Bible’s explanation of why only curses were said at Ebal: to awaken a desire for the Messiah'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/27.htm'
+    quote: 'to awaken a desire for the Messiah, who was to take away the curse and bring the true blessing instead'
+  - where: 'section “The curse chosen”'
+    claim: 'Keil: the truth pointed out is that the law primarily and chiefly brings a curse upon man because of the sinfulness of his nature (31:16–17)'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/27.htm'
+    quote: 'the law primarily and chiefly brings a curse upon man because of the sinfulness of his nature'
+  - where: 'section “The curse chosen”'
+    claim: 'Keil quotes O. v. Gerlach on 27:26: every transgression subjects the sinner to the curse of God, from which none but He who has become a curse for us can deliver (Gal. 3:10, 13)'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/27.htm'
+    quote: 'Every conscious act of transgression subjects the sinner to the curse of God, from which none but He who has become a curse for us can possibly deliver us'
+  - where: 'section “The curse chosen”'
+    claim: 'Uriona: Mormon’s wording reflects the Deuteronomic framework of “life and death, blessing and cursing” (Deut. 30:19)'
+    key: uriona-curses
+    url: 'https://byustudies.byu.edu/article/the-curse-of-the-covenant-the-deuteronomic-curses-in-the-book-of-mormon'
+    quote: 'In wording that reflects the Deuteronomic framework of “life and death, blessing and cursing” (Deut. 30:19)'
+
+  # ---------- The curse on one man ----------
+  - where: 'section “The curse on one man”'
+    claim: 'Keil on 21:23: “the hanged man is a curse of God”'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/21.htm'
+    quote: 'the hanged man is a curse of God'
+  - where: 'section “The curse on one man”'
+    claim: 'Keil on 21:23: the hanged man, being a curse of God, defiled the land'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/21.htm'
+    quote: 'because the hanged man, being a curse of God, defiled the land.'
+  - where: 'section “The curse on one man”'
+    claim: 'The Cambridge Bible on 21:23: lit. a curse of God; two explanations, God’s wrath heaped upon the corpse, or doubly unclean'
+    key: cambridge-deuteronomy
+    url: 'https://biblehub.com/commentaries/cambridge/deuteronomy/21.htm'
+    quote: 'God’s wrath was heaped upon it; or it became doubly unclean'
+  - where: 'section “The curse on one man”'
+    claim: 'The Church’s footnote at 21:23 “body” reports the rabbinic reading: leaving a body hanging was a degradation of the human body and an affront to God'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/21?lang=eng'
+    quote: 'According to Rabbinical commentaries, to leave a body hanging was a degradation of the human body and therefore an affront to God, in whose image man’s body was made.'
+  - where: 'section “The curse on one man”'
+    claim: 'Belnap: the construct is read two ways (subjective, cursed by God: LXX, Vulgate, Targum Neofiti; objective, an affront to God: Josephus, Symmachus, Pseudo-Jonathan); in any case the hanged person is understood as cursed'
+    key: belnap-fell-tree
+    url: 'https://rsc.byu.edu/they-shall-grow-together/they-did-fell-tree'
+    quote: 'In any case the hanged person is understood as cursed.'
+  - where: 'section “The curse on one man”'
+    claim: 'The Church’s footnotes at 21:23 “tree” and “accursed” both lead to Gal. 3:13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/21?lang=eng'
+    quote: 'Gal. 3:13. TG Jesus Christ, Crucifixion of.'
+  - where: 'section “The curse on one man”'
+    claim: 'The Bible Dictionary “Deuteronomy” lists Gal. 3:13 with Deut. 21:23 among the New Testament’s references to the book (it says the book is “referenced frequently”)'
+    key: bd-deuteronomy
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/deuteronomy?lang=eng'
+    quote: 'Gal. 3:13, Deut. 21:23'
+  - where: 'section “The curse on one man”'
+    claim: 'The Septuagint of 21:23: κεκαταραμένος ὑπὸ θεοῦ πᾶς κρεμάμενος ἐπὶ ξύλου, “cursed by God”'
+    key: swete-lxx-deut
+    url: 'https://biblehub.com/sepd/deuteronomy/21.htm'
+    quote: 'κεκαταραμένος ὑπὸ θεοῦ'
+  - where: 'section “The curse on one man”'
+    claim: 'Gal. 3:13 Greek: ἐπικατάρατος πᶶς ὁ κρεμάμενος ἐπὶ ξύλου, without ὑπὸ θεοῦ and with a different adjective'
+    key: greek-nt
+    url: 'https://biblehub.com/interlinear/galatians/3-13.htm'
+    quote: 'ἐπικατάρατος'
+  - where: 'section “The curse on one man”'
+    claim: 'The Cambridge Bible on Gal. 3:13: “of God” omitted not as inconsistent with but as unnecessary for Paul’s purpose'
+    key: cambridge-galatians
+    url: 'https://biblehub.com/commentaries/cambridge/galatians/3.htm'
+    quote: 'not as inconsistent with, but as unnecessary for his purpose.'
+  - where: 'section “The curse on one man”'
+    claim: 'The Cambridge Bible on Gal. 3:13: He, though sinless, bore, nay became the curse, that on us might come the blessing'
+    key: cambridge-galatians
+    url: 'https://biblehub.com/commentaries/cambridge/galatians/3.htm'
+    quote: 'He, though sinless, bore, nay became the curse, that on us might come the blessing.'
+  - where: 'section “The curse on one man”'
+    claim: 'The New Testament Student Manual (ch. 43): some Jews held a crucified man could not be the Messiah because of Deut. 21:22–23; Paul showed Jesus willingly took our sins and became cursed in our place'
+    key: nt-student-manual-43
+    url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/galatians/chapter-43-galatians?lang=eng'
+    quote: 'Paul showed another way of looking at the concept of being “cursed” as applied to the Savior. He explained that Jesus willingly took our sins upon Himself in order to perform the work of redemption, thus becoming “cursed” in our place'
+  - where: 'section “The curse on one man”'
+    claim: 'Millet: on the Jewish reading, God had cursed Himself'
+    key: millet-glorying-cross
+    url: 'https://rsc.byu.edu/behold-lamb-god/glorying-cross-christ'
+    quote: 'God had cursed Himself'
+  - where: 'section “The curse on one man”'
+    claim: 'Ludlow: Paul introduced an ironic argument that Christ became a curse in order to redeem from the curse of the law'
+    key: ludlow-paul-ot
+    url: 'https://rsc.byu.edu/how-new-testament-came-be/pauls-use-old-testament-scripture'
+    quote: 'an ironic argument that Christ became a “curse” in order to redeem from “the curse of the law”'
+  - where: 'section “The curse on one man”'
+    claim: 'Ellicott on Gal. 3:13: being treated as if He were accursed'
+    key: ellicott-galatians
+    url: 'https://biblehub.com/commentaries/ellicott/galatians/3.htm'
+    quote: 'Being treated as if He were accursed.'
+  - where: 'section “The curse on one man”'
+    claim: 'Ellicott’s dissent: the curse which fell upon Christ was not the same curse as the consequence of human guilt under the Law, but an incidental defilement from the manner of His death'
+    key: ellicott-galatians
+    url: 'https://biblehub.com/commentaries/ellicott/galatians/3.htm'
+    quote: 'was not the same curse as that described above as the consequence of human guilt in failing to keep the requirements of the Law'
+  - where: 'section “The curse on one man”'
+    claim: 'Ellicott: an incidental defilement'
+    key: ellicott-galatians
+    url: 'https://biblehub.com/commentaries/ellicott/galatians/3.htm'
+    quote: 'an incidental defilement'
+  - where: 'section “The curse on one man”'
+    claim: 'The Cambridge Bible on Gal. 3:13 joins 3:10 to 3:13: to rescue us from that terrible malediction, Christ submitted to an accursed death; if in any true sense Christ became a curse for us, it was the curse of God'
+    key: cambridge-galatians
+    url: 'https://biblehub.com/commentaries/cambridge/galatians/3.htm'
+    quote: 'To rescue us from that terrible malediction, Christ submitted to an accursed death.'
+  - where: 'section “The curse on one man”'
+    claim: 'Cambridge: if in any true sense Christ became a curse for us, it was the curse of God'
+    key: cambridge-galatians
+    url: 'https://biblehub.com/commentaries/cambridge/galatians/3.htm'
+    quote: 'if in any true sense Christ became a curse for us, it was the curse of God.'
+  - where: 'section “The curse on one man”'
+    claim: 'Ellicott on Gal. 3:10: the quotation is Deut. 27:26, the conclusion of the series of curses pronounced from Mount Ebal'
+    key: ellicott-galatians
+    url: 'https://biblehub.com/commentaries/ellicott/galatians/3.htm'
+    quote: 'The quotation is from Deuteronomy 27:26, where it forms the conclusion of the series of curses to be pronounced from Mount Ebal.'
+  - where: 'section “The curse on one man”'
+    claim: 'Connection made by this page: the page follows Cambridge, the Student Manual and Gerlach (in Keil) in joining Gal. 3:10 (Deut. 27:26) to 3:13 (Deut. 21:23), and gives Ellicott’s dissent; the join itself is theirs, not the page’s'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/gal/3?lang=eng'
-    quote: 'Christ hath redeemed us from the curse of the law, being made a curse for us'
-  - where: 'section “In the laws: the curse of God, and the curse turned”'
-    claim: '21:23 reads in Hebrew “the curse of God” (qilelat ʾelohim), the book’s noun'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'כִּֽי־קִלְלַ֥ת'
-  - where: 'section “In the laws: the curse of God, and the curse turned”'
-    claim: '23:5 uses the same noun (haqqelalah); “turned” is hapak'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'הַ/קְּלָלָ֖ה לִ/בְרָכָ֑ה'
-  - where: 'section “In the laws: the curse of God, and the curse turned”'
-    claim: 'Balaam was bribed to curse Israel and the curse turned to blessing'
+    quote: 'Christ hath redeemed us from the curse of the law, being made a curse for us: for it is written, Cursed is every one that hangeth on a tree'
+
+  - where: 'section “The curse on one man”'
+    claim: 'KnoWhy #752: the ambiguity of “a curse of God” has remained'
+    key: sc-knowhy-752
+    url: 'https://scripturecentral.org/knowhy/why-was-zemnarihah-executed-by-hanging'
+    quote: 'the ambiguity has remained'
+
+  # ---------- The curse turned ----------
+  - where: 'section “The curse turned”'
+    claim: 'Pike: Balaam could only pronounce blessings; based on Gen. 12:2–3 God did not permit others to curse Israel collectively, though He allowed them to bring curses on themselves'
+    key: pike-balaam
+    url: 'https://rsc.byu.edu/creation-sinai/balaam-book-numbers'
+    quote: 'Based on the promise in Genesis 12:2–3, the Israelites’ God did not permit others to curse them collectively (although he obviously allowed them to bring curses upon themselves).'
+  - where: 'section “The curse turned”'
+    claim: 'Pike: Balaam could only pronounce blessings on them'
+    key: pike-balaam
+    url: 'https://rsc.byu.edu/creation-sinai/balaam-book-numbers'
+    quote: 'Balaam could only pronounce blessings on them.'
+  - where: 'section “The curse turned”'
+    claim: 'Keil on 23:3–6: Moab brought on itself the curse that falls on all who curse Israel (Gen. 12:3), although out of love to Israel the Lord turned Balaam’s curse into a blessing'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/23.htm'
+    quote: 'brought upon themselves the curse which falls upon all those who curse Israel, according to the infallible word of God (Genesis 12:3), the truth of which even Balaam was obliged to attest in the presence of Balak (Numbers 24:9); although out of love to Israel the Lord turned the curse of Balaam into a blessing'
+  - where: 'section “The curse turned”'
+    claim: 'Neh. 13:2 repeats Deut. 23:4–5: our God turned the curse into a blessing'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/neh/13?lang=eng'
+    quote: 'our God turned the curse into a blessing'
+  - where: 'section “The curse turned”'
+    claim: 'The Bible Dictionary “Balaam”: the curse turned to blessing, Num. 23–24; Deut. 23:4–5; Josh. 24:9–10; Neh. 13:2'
     key: bd-balaam
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/balaam?lang=eng'
-    quote: 'bribed by Balak, king of Moab, to curse the Israelites'
-  - where: 'section “In the laws: the curse of God, and the curse turned”'
-    claim: 'Balaam: “the curse turned to blessing”'
-    key: bd-balaam
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/balaam?lang=eng'
-    quote: 'the curse turned to blessing'
-  - where: 'section “In the laws: the curse of God, and the curse turned”'
-    claim: 'Connection made by this page: 21:23 and 23:5 set beside each other by the shared noun qelalah, both name God (21:23 “of God”; 23:5 the LORD turns it)'
+    quote: 'the curse turned to blessing, 23–24; Deut. 23:4–5; Josh. 24:9–10; Neh. 13:2'
+  - where: 'section “The curse turned”'
+    claim: '30:7 “curses” is ʾālôt (H423), the oath-curse of chapter 29, not qĕlālâ'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'הַ/קְּלָלָ֖ה לִ/בְרָכָ֑ה'
-  - where: 'section “In the laws: the curse of God, and the curse turned”'
-    claim: 'Connection made by this page (21:23 half): “the curse of God”'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/21?lang=eng'
-    quote: 'for he that is hanged is accursed of God'
-  - where: 'section “Spoken twelve times”'
-    claim: '“Amen” (ʾamen) occurs twelve times in the book, once in each of 27:15–26'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'וְ/אָמַ֥ר כָּל־הָ/עָ֖ם אָמֵֽן'
-  - where: 'section “Spoken twelve times”'
-    claim: 'Chapter 27 records no sentence of blessing (27:12 names the tribes on Gerizim “to bless the people”)'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/27?lang=eng'
-    quote: 'These shall stand upon mount Gerizim to bless the people'
-  - where: 'section “Spoken twelve times”'
-    claim: 'The blessing’s words are in 28:3–6'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/28?lang=eng'
-    quote: 'Blessed shalt thou be in the city, and blessed shalt thou be in the field.'
-  - where: 'section “Come upon thee, and overtake thee”'
-    claim: 'A curse is the application of divine law … a manifestation of God’s love and justice'
-    key: gs-curse
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/curse-curses?lang=eng'
-    quote: 'Curses are a manifestation of God''s divine love and justice.'
-  - where: 'section “Come upon thee, and overtake thee”'
-    claim: 'Definition of a curse in the Guide to the Scriptures'
-    key: gs-curse
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/curse-curses?lang=eng'
-    quote: 'a curse is the application of divine law that allows or brings judgments and their consequences upon a thing, person, or people primarily because of unrighteousness'
-  - where: 'section “Come upon thee, and overtake thee”'
-    claim: 'The “curses” of 30:7 is ʾalah (H423), not qelalah; the oath-curse of chapter 29'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'כָּל־הָ/אָל֖וֹת'
-  - where: 'section “Come upon thee, and overtake thee”'
-    claim: 'Connection made by this page (30:1 half): 30:1 repeats 11:26’s pair in the same words, come'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/11?lang=eng'
-    quote: 'a blessing and a curse'
-  - where: 'section “The last word”'
-    claim: 'Chapter 33 has no word for curse (33:1 “the blessing”)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'אֲשֶׁ֨ר בֵּרַ֥ךְ מֹשֶׁ֛ה'
-  - where: 'section “The last word”'
-    claim: 'Connection made by this page: chapter 27’s curse, given words with no recorded blessing, set beside chapter 33’s blessing, given words with no word for curse'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/33?lang=eng'
-    quote: 'Happy art thou, O Israel: who is like unto thee, O people saved by the LORD'
-  - where: 'section “Made a curse for us”'
-    claim: 'The Church’s footnotes at Deut. 21:23 “tree” and “accursed” point to Gal. 3:13'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/21?lang=eng'
-    quote: 'Gal. 3:13'
-  - where: 'section “Made a curse for us”'
-    claim: 'Gal. 3:13–14 text'
+    quote: 'הָ/אָל֖וֹת'
+  - where: 'section “The curse turned”'
+    claim: 'The Septuagint of 30:7 uses ἀράς, a different noun from the κατάρα of 11:26 and 30:19'
+    key: swete-lxx-deut
+    url: 'https://biblehub.com/sepd/deuteronomy/30.htm'
+    quote: 'τὰς ἀρὰς ταύτας'
+  - where: 'section “The curse turned”'
+    claim: 'Keil on 30:7: after Israel’s conversion the curses would fall on its enemies according to the promise in Gen. 12:3'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/30.htm'
+    quote: 'would fall upon its enemies and haters, according to the promise in Genesis 12:3.'
+  - where: 'section “The curse turned”'
+    claim: 'The Cambridge Bible on Gal. 3:8: the quotation combines Gen. 12:3 and Gen. 18:18'
+    key: cambridge-galatians
+    url: 'https://biblehub.com/commentaries/cambridge/galatians/3.htm'
+    quote: 'The quotation combines a reference to two distinct promises, that in Genesis 12:3, “And in thee shall the tribes of the earth be blessed”; and in Genesis 18:18'
+  - where: 'section “The curse turned”'
+    claim: 'The Cambridge Bible on Gal. 3:13–14: the curse borne and removed, the blessing remains and descends on the Gentiles through faith'
+    key: cambridge-galatians
+    url: 'https://biblehub.com/commentaries/cambridge/galatians/3.htm'
+    quote: 'The curse has been borne, and the Law is silent. The curse has been removed, and the blessing remains; descending in all its fulness on the Gentiles, as well as the Jews, through faith.'
+  - where: 'section “The curse turned”'
+    claim: 'The New Testament Student Manual: because of the Atonement all who accept His gospel are entitled to the blessings of Abraham'
+    key: nt-student-manual-43
+    url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/galatians/chapter-43-galatians?lang=eng'
+    quote: 'Because of the Atonement of Jesus Christ, all who accept His gospel are entitled to the blessings of Abraham'
+  - where: 'section “The curse turned”'
+    claim: 'Connection made by this page: the two turnings of a curse in Deuteronomy rest on the promise to Abraham, 23:5 on Pike’s reading and 30:7 on Keil’s, and Paul’s argument in Gal. 3 builds on that promise (3:8, Gen. 12:3 with 18:18) through the curse (3:10, 13) to the blessing of Abraham (3:14); observing that all three stand on the one promise is the page’s own'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/gal/3?lang=eng'
     quote: 'That the blessing of Abraham might come on the Gentiles through Jesus Christ'
-  - where: 'section “Made a curse for us”'
-    claim: 'The Lord may remove curses by faith in Christ'
-    key: gs-curse
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/curse-curses?lang=eng'
-    quote: 'The Lord may remove curses because of the individual''s or people''s faith in Jesus Christ and obedience to the laws and ordinances of the gospel'
-  - where: 'section “Made a curse for us”'
-    claim: 'Connection made by this page: Deut. 23:5 set beside Gal. 3:13–14 and John 3:16 as the same act, a curse turned to blessing because He loved'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=eng'
-    quote: 'For God so loved the world, that he gave his only begotten Son'
-  - where: 'section “Made a curse for us”'
-    claim: 'Footnote at “loved” in Deut. 23:5 is headed Topical Guide “God, Love of”'
+
+  # ---------- For love ----------
+  - where: 'section “For love”'
+    claim: 'The Church’s footnote at Deut. 23:5 “loved” leads to TG God, Love of; the footnote at John 3:16 includes TG God, Love of'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/23?lang=eng'
-    quote: 'God, Love of'
-  - where: 'section “All things for your good”'
-    claim: 'Gal. 3:10: those of the works of the law are under the curse'
+    quote: 'TG God, Love of.'
+  - where: 'section “For love”'
+    claim: 'John 3:16 footnote includes TG God, Love of'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/gal/3?lang=eng'
-    quote: 'For as many as are of the works of the law are under the curse'
-  - where: 'section “All things for your good”'
-    claim: 'Footnote at Deut. 23:5 “blessing” is D&C 90:24'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=eng'
+    quote: 'God, Love of'
+  - where: 'section “For love”'
+    claim: 'The Guide to the Scriptures “Curse”: a curse is the application of divine law that brings judgments because of unrighteousness; the Lord may remove curses because of faith in Jesus Christ and obedience'
+    key: gs-curse
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/curse-curses?lang=eng'
+    quote: 'a curse is the application of divine law that allows or brings judgments and their consequences upon a thing, person, or people primarily because of unrighteousness'
+  - where: 'section “For love”'
+    claim: 'The Guide to the Scriptures: the Lord may remove curses because of faith in Jesus Christ and obedience'
+    key: gs-curse
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/curse-curses?lang=eng'
+    quote: 'The Lord may remove curses because of the individual’s or people’s faith in Jesus Christ and obedience to the laws and ordinances of the gospel'
+  - where: 'section “For love”'
+    claim: 'The Church’s footnote at Deut. 23:5 “blessing” leads to D&C 90:24'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/23?lang=eng'
     quote: 'D&C 90:24'
-  - where: 'section “All things for your good”'
-    claim: 'D&C 90:24 text'
+  - where: 'section “For love”'
+    claim: 'Connection made by this page: the two legal verses are kept apart (the law’s curse vs. a foreigner’s hired curse); the covenant curse is lifted only after it falls and Israel returns (30:1–7); Paul joins a curse borne by one Man to the blessing (Gal. 3:13–14) and John gives the reason in Deuteronomy’s word (3:16); 23:5 does not speak of the cross and speaks only of a curse against Israel; the application rests on D&C 90:24’s condition'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/90?lang=eng'
     quote: 'all things shall work together for your good, if ye walk uprightly and remember the covenant'
-  - where: 'section “All things for your good”'
-    claim: 'Footnote on “all” in D&C 90:24 returns to Deut. 23:5 and adds Rom. 8:28'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/90?lang=eng'
-    quote: 'Deut. 23:5'
-  - where: 'section “All things for your good”'
-    claim: 'Rom. 8:28 text'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/8?lang=eng'
-    quote: 'all things work together for good to them that love God'
-  - where: 'section “Made a curse for us”'
-    claim: 'Footnote at “loved” in John 3:16 includes Topical Guide “God, Love of”'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=eng'
-    quote: 'God, Love of'
-  - where: 'section “The last word”'
-    claim: 'Deut. 31:17 still foretells many evils and troubles befalling Israel'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/31?lang=eng'
-    quote: 'many evils and troubles shall befall them'
-  - where: 'section “All things for your good”'
-    claim: 'Gal. 3:11: no man is justified by the law in the sight of God'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/gal/3?lang=eng'
-    quote: 'no man is justified by the law in the sight of God'

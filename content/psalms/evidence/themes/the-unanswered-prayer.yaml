@@ -1,77 +1,348 @@
 page: the-unanswered-prayer
 claims:
-  - where: 'section “How long, and why”'
-    claim: 'The Church edition’s footnote 1b at Ps. 13:1, on “hide”, points to D&C 121:1 (1–2)'
+  # ---------- opening ----------
+  - where: 'opening'
+    claim: '“Hide thy face” in Ps. 13:1, 44:24, 102:2 and 88:14 is the Hiphil of sātar (H5641) with pānîm; 13:1 and 88:14 have the same form tastîr'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תַּסְתִּ֖יר'
+  - where: 'opening'
+    claim: 'BDB files Ps. 13:2, 22:25 and 88:15 (Hebrew numbering; KJV 13:1, 22:24, 88:14) together under Yahweh hiding his face, i.e. withdraws his favour'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5641.htm'
+    quote: 'hides his face from (מִן person), i.e. withdraws his favour, Micah 3:4; Isaiah 8:17; Isaiah 54:8; Isaiah 64:6; Deuteronomy 31:17; Deuteronomy 32:20; Jeremiah 33:5; Ezekiel 39:23,24,29; Psalm 13:2; Psalm 22:25; Psalm 27:9; Psalm 69:18; Psalm 88:15; Psalm 102:3; Psalm 143:7'
+  - where: 'opening'
+    claim: 'Rosalynde Welch, after Westermann: the laments move from distress to petition to praise, the transitions usually with no explanation; the rescue itself is unseen'
+    key: welch-psalm-102
+    url: 'https://mi.byu.edu/old-testament-reflections/a-lesson-in-praise-for-advanced-discipleship'
+    quote: 'Westermann noted that the transitions between these phases usually happen with no explanation: the psalmist begs for rescue from the jaws of death and then, in the next breath, praises God as if the rescue has already occurred. But the rescue itself is unseen.'
+  - where: 'opening'
+    claim: 'Connection made by this page: the hidden face is the laments’ question; Psalm 88 shows it unanswered to its last word; Psalm 22, which opens as Psalm 88 does and which the Savior prayed, answers it in the question’s own words for its sufferer (22:24); the one who entered the unanswered prayer is the one in whom it was answered; Hebrews gives 22:22 to Christ, and on Hopkin’s reading through D&C 138 the congregation is the faithful dead, the company Psalm 88 believed God could not reach'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/22?lang=eng'
+    quote: 'neither hath he hid his face from him; but when he cried unto him, he heard.'
+
+  - where: 'opening'
+    claim: 'Connection made by this page: Psalm 44 ends in a plea rather than praise (44:26), but a plea for mercy; Psalm 88 does not reach even that; the uniqueness claim rests on Delitzsch and Cambridge'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/44?lang=eng'
+    quote: 'Arise for our help, and redeem us for thy mercies’ sake.'
+
+  # ---------- How long wilt thou hide thy face ----------
+  - where: 'section “How long wilt thou hide thy face”'
+    claim: 'BDB’s list of Yahweh hiding his face outside the Psalms: in most (Deut. 31:17–18; 32:20; Isa. 57:17; 59:2; 64:7; Jer. 33:5; Ezek. 39:23–24; Micah 3:4) the people’s sin is named as the cause; Isa. 8:17; 54:8; Ezek. 39:29; Job 13:24; 34:29 name none; Job 13:24 asks the laments’ question'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5641.htm'
+    quote: 'absolute Deuteronomy 31:18; Job 13:24; Job 34:29; Psalm 30:8; compare Psalm 104:29; Psalm 44:25'
+  - where: 'section “How long wilt thou hide thy face”'
+    claim: 'Job 13:24 “hidest thou thy face” is the same Hiphil of sātar with pānîm'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Job.xml'
+    quote: 'תַסְתִּ֑יר'
+  - where: 'section “How long wilt thou hide thy face”'
+    claim: 'The Church’s footnote at Ps. 88:14 “hidest” points to 2 Sam. 11:27; 12:11; 1 Chr. 21:8 (David’s sin with Bathsheba and his census), though the psalm itself confesses no sin'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/88?lang=eng'
+    quote: '2 Sam. 11:27 (1–27); 12:11 (1–25); 1 Chr. 21:8 (1–8).'
+  - where: 'section “How long wilt thou hide thy face”'
+    claim: 'Connection made by this page: reading Psalms 13 and 88 as they stand, confessing no sin, the psalmists have taken the Lord’s word for judgment (Deut. 31:17–18) and used it for what His silence feels like from the inside; the page notes the edition’s footnote to David’s sin and reads the psalm as it stands'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/31?lang=eng'
+    quote: 'I will hide my face from them, and they shall be devoured'
+  - where: 'section “How long wilt thou hide thy face”'
+    claim: 'The Church’s footnote at Ps. 13:1 “hide” points to D&C 121:1 (1–2)'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/13?lang=eng'
     quote: 'D&C 121:1 (1–2).'
-  - where: 'section “How long, and why”'
-    claim: 'D&C 121:1 reads “O God, where art thou? And where is the pavilion that covereth thy hiding place?”'
+  - where: 'section “How long wilt thou hide thy face”'
+    claim: '“Thou hearest not” in Ps. 22:2 is the verb ʿānâ (H6030), negated; the last word of 22:21, “thou hast heard me,” is the same verb, ʿănîtānî'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'עֲנִיתָֽ/נִי'
+  - where: 'section “How long wilt thou hide thy face”'
+    claim: 'The negated form in 22:2'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תַעֲנֶ֑ה'
+  - where: 'section “How long wilt thou hide thy face”'
+    claim: 'Delitzsch on Ps. 22:21: a perfect of confidence; in the very midst of his supplication there springs up the assurance of being heard and answered'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/22.htm'
+    quote: 'it must be regarded as perf. confidentiae, inasmuch as in the very midst of his supplication there springs up in the mind of the suppliant the assurance of being heard and answered.'
+
+  # ---------- The psalm that does not turn ----------
+  - where: 'section “The psalm that does not turn”'
+    claim: 'The Church’s chapter heading for Psalm 88'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/88?lang=eng'
+    quote: 'A prayer of one who feels forsaken and who asks whether the Lord’s loving kindness will be declared in the grave.'
+  - where: 'section “The psalm that does not turn”'
+    claim: 'Delitzsch: Psalm 88 is the darkest, gloomiest, of all the plaintive Psalms; the gloom does not brighten up to become a hope; it dies away in Job-like lamentation'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/88.htm'
+    quote: 'this Psalm 88 is the darkest, gloomiest, of all the plaintive Psalms; for it is true the name "God of my salvation," with which the praying one calls upon God, and his praying itself, show that the spark of faith within him is not utterly extinguished; but as to the rest, it is all one pouring forth of deep lament in the midst of the severest conflict of temptation in the presence of death, the gloom of melancholy does not brighten up to become a hope, the Psalm dies away in Job-like lamentation.'
+  - where: 'section “The psalm that does not turn”'
+    claim: 'The Cambridge Bible: the saddest Psalm in the Psalter; in other Psalms the light breaks through at last, here the gloom is deepest at the close; the last word is darkness'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/88.htm'
+    quote: 'In other Psalms the light breaks through the clouds at last: here the gloom is deepest at the close. It is characteristic that the last word is darkness.'
+  - where: 'section “The psalm that does not turn”'
+    claim: 'Ps. 88:3 “the grave” is Sheol (H7585)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לִ/שְׁא֥וֹל'
+  - where: 'section “The psalm that does not turn”'
+    claim: 'Delitzsch on Ps. 88:10–12: the Old Testament pictured the state beyond as uniform darkness; in the New Testament not merely the conception of the state after death, but this state itself, is become a different one'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/88.htm'
+    quote: 'for that which lies beyond this life is uniform darkness, devoid of any progressive history… for in the New Testament not merely the conception of the state after death, but this state itself, is become a different one.'
+  - where: 'section “The psalm that does not turn”'
+    claim: '“Cried” in Ps. 88:13 is šāwaʿ (H7768), šiwwaʿtî; the same verb stands in 22:24 and in 18:6, where it is followed by “he heard my voice”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שִׁוַּ֑עְתִּי'
+  - where: 'section “The psalm that does not turn”'
+    claim: 'Connection made by this page: where a psalmist uses šāwaʿ of his own cry and says what followed, he was heard (18:6; 22:24; 30:2; 31:22); the one cry the Psalter says went unanswered is the enemies’ (18:41); 28:2 and 119:147 report no outcome; Psalm 88:13 reports none'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/88?lang=eng'
+    quote: 'But unto thee have I cried, O Lord; and in the morning shall my prayer prevent thee.'
+  - where: 'section “The psalm that does not turn”'
+    claim: 'Ps. 88:14 “hidest thou thy face” is tastîr pānêkā, the form of 13:1'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'תַּסְתִּ֖יר'
+  - where: 'section “The psalm that does not turn”'
+    claim: 'Delitzsch on the end of Psalm 88: the harp falls from the poet’s hands; he waits on God to solve the riddle; Delitzsch infers from Job that God appeared to him, an answer from outside the poem'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/88.htm'
+    quote: 'With this complaint the harp falls from the poet''s hands. He is silent, and waits on God, that He may solve this riddle of affliction. From the Book of Job we might infer that He also actually appeared to him.'
+  - where: 'section “The psalm that does not turn”'
+    claim: 'The Cambridge Bible: Psalm 88 is a Proper Psalm for Good Friday because the Ancient Fathers interpreted it, like Psalm 22, as the utterance of the suffering Christ, though it reads the psalm as the experience of a heavily afflicted saint'
+    key: cambridge-psalms
+    url: 'https://biblehub.com/commentaries/cambridge/psalms/88.htm'
+    quote: 'The Psalm is appointed as a Proper Psalm for Good Friday, doubtless because the Ancient Fathers interpreted it, like Psalms 22, as the utterance of the suffering Christ.'
+
+  # ---------- Prayed from the cross ----------
+  - where: 'section “Prayed from the cross”'
+    claim: 'Ps. 88:1 and 22:2 share the address to God and the day-and-night pairing (laylâ, H3915, in both); the verbs for “cry” differ (ṣāʿaq in 88:1, qārāʾ in 22:2)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בַ/לַּ֣יְלָה'
+  - where: 'section “Prayed from the cross”'
+    claim: 'Ps. 22:2 “in the night season,” wĕlaylâ'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וְ֝/לַ֗יְלָה'
+  - where: 'section “Prayed from the cross”'
+    claim: 'The Church’s chapter heading for Psalm 22: a messianic psalm; the Messiah will say, My God, my God, why hast Thou forsaken me?'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/22?lang=eng'
+    quote: 'A messianic psalm of David—He foretells events in the Messiah’s life—The Messiah will say, My God, my God, why hast Thou forsaken me?—They will pierce His hands and feet—He will yet govern among all nations.'
+  - where: 'section “Prayed from the cross”'
+    claim: 'The Church’s footnote at Matt. 27:46 “forsaken” points to D&C 121:1 (1–8)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/27?lang=eng'
+    quote: 'D&C 121:1 (1–8).'
+  - where: 'section “Prayed from the cross”'
+    claim: 'The Church’s footnote at Matt. 27:46 “My” points to Ps. 22:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/27?lang=eng'
+    quote: 'Ps. 22:1.'
+  - where: 'section “Prayed from the cross”'
+    claim: 'The Church’s footnote at D&C 121:1 “hiding place” points to Ps. 13:1 (1–2); 18:11; 102:2; Isa. 45:15'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121?lang=eng'
+    quote: 'Ps. 13:1 (1–2); 18:11; 102:2; Isa. 45:15.'
+  - where: 'section “Prayed from the cross”'
+    claim: 'Connection made by this page: the Church’s footnotes join Ps. 13:1’s hidden face and Matt. 27:46’s cry to D&C 121:1; the page adds Psalm 88, which asks Psalm 13’s question and gets no answer'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/121?lang=eng'
     quote: 'O God, where art thou? And where is the pavilion that covereth thy hiding place?'
   - where: 'section “Prayed from the cross”'
-    claim: 'The cry showed Christ had descended below all things so as to succor his people'
+    claim: 'Elder Holland: a perfect Father did not forsake His Son in that hour, yet the Father briefly withdrew the comfort of His Spirit, so that the Son had to feel what it was like to die spiritually'
+    key: holland-none-with-him
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2009/04/none-were-with-him?lang=eng'
+    quote: 'a perfect Father did not forsake His Son in that hour. Indeed, it is my personal belief that in all of Christ’s mortal ministry the Father may never have been closer to His Son than in these agonizing final moments of suffering. Nevertheless, that the supreme sacrifice of His Son might be as complete as it was voluntary and solitary, the Father briefly withdrew from Jesus the comfort of His Spirit, the support of His personal presence.'
+  - where: 'section “Prayed from the cross”'
+    claim: 'Elder Holland: He had to feel what it was like to die not only physically but spiritually'
+    key: holland-none-with-him
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2009/04/none-were-with-him?lang=eng'
+    quote: 'He had to feel what it was like to die not only physically but spiritually, to sense what it was like to have the divine Spirit withdraw, leaving one feeling totally, abjectly, hopelessly alone.'
+  - where: 'section “Prayed from the cross”'
+    claim: 'The New Testament Student Manual: the cry was prefigured in Psalm 22; the Savior experienced that separation on our behalf'
+    key: nt-student-manual-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/new-testament-student-manual/introduction-to-matthew/chapter-10?lang=eng'
+    quote: 'The Savior’s cry of forsakenness was prefigured centuries earlier in the 22nd Psalm (see verse 1). Though the Savior had never sinned and had never been separated from the Father because of His own actions, He experienced that separation on our behalf during the Atonement.'
+  - where: 'section “Prayed from the cross”'
+    claim: 'Hopkin: the cry showed that Christ had descended below all things so that he could understand and succor his people'
     key: hopkin-psalm-22
     url: 'https://byustudies.byu.edu/article/my-god-my-god-why-hast-thou-forsaken-me-psalm-22-and-the-mission-of-christ'
     quote: 'that cry showed that Christ had truly “descended below all things” (D&C 88:6), so that he could understand and succor his people (Alma 7:12)'
   - where: 'section “Prayed from the cross”'
-    claim: 'Hopkin ties Joseph Smith’s question (D&C 121:1) to Jesus’s cry'
+    claim: 'Hopkin: because the cry is the opening line of a psalm, Christ was still lovingly teaching his people the concepts of Psalm 22, including his final victory, in one short phrase'
     key: hopkin-psalm-22
     url: 'https://byustudies.byu.edu/article/my-god-my-god-why-hast-thou-forsaken-me-psalm-22-and-the-mission-of-christ'
-    quote: 'Joseph Smith wrote a letter expressing sentiments connected to Jesus’s cry, penning the phrase “O God, where art thou?” (D&C 121:1)'
-  - where: 'section “Prayed from the cross”'
-    claim: 'Hopkin gives D&C 122:8 as God’s response recorded later in the same letter'
-    key: hopkin-psalm-22
-    url: 'https://byustudies.byu.edu/article/my-god-my-god-why-hast-thou-forsaken-me-psalm-22-and-the-mission-of-christ'
-    quote: 'Later in the letter, Joseph recorded God’s response, teaching him that even if Joseph had felt alone, he needed to remember that Christ had descended even lower'
-  - where: 'section “Prayed from the cross”'
-    claim: 'D&C 122:8 reads “The Son of Man hath descended below them all”'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/122?lang=eng'
-    quote: 'The Son of Man hath descended below them all.'
+    quote: 'was still lovingly teaching his people by communicating to them the many concepts contained in Psalm 22—including his final victory over suffering—while uttering only one short phrase.'
+
+  # ---------- Neither hath he hid his face ----------
   - where: 'section “Neither hath he hid his face”'
-    claim: '“Hide thy face” in 13:1 is the same Hebrew verb and phrase as “hidest thou thy face” in 88:14 (H5641 hiphil + “face”)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
-    quote: 'תַּסְתִּ֖יר'
-  - where: 'section “Neither hath he hid his face”'
-    claim: 'Verses 23–25 look back on the trial as past; the one heard in 22:24 is the psalm’s sufferer'
-    key: hopkin-psalm-22
-    url: 'https://byustudies.byu.edu/article/my-god-my-god-why-hast-thou-forsaken-me-psalm-22-and-the-mission-of-christ'
-    quote: 'Verses 23–25 speak of the trial as already having passed, declaring that God has already “heard” and responded to the cry of the sufferer (Ps. 22:24)'
-  - where: 'section “Neither hath he hid his face”'
-    claim: '“Hid” in Psalm 22:24 is the same Hebrew verb (H5641 hiphil) as in 13:1 and 88:14'
+    claim: '“Hid” in Ps. 22:24 is the Hiphil of sātar (H5641), histîr, a perfect, negated, with pānîm; 13:1 and 88:14 have the same verb and stem in the imperfect, tastîr'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
     quote: 'הִסְתִּ֣יר'
   - where: 'section “Neither hath he hid his face”'
-    claim: 'Connection made by this page: Psalm 13:1 and 88:14 ask why God hides His face, and Psalm 22:24 says of its own sufferer that He has not hid his face; set beside each other on the shared verb, comparison only'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/22?lang=eng'
-    quote: 'neither hath he hid his face from him; but when he cried unto him, he heard.'
+    claim: '“When he cried” in Ps. 22:24 is šāwaʿ (H7768), the verb of 88:13, followed by šāmēaʿ, “he heard” (H8085)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'וּֽ/בְ/שַׁוְּע֖/וֹ'
   - where: 'section “Neither hath he hid his face”'
-    claim: 'Hebrews gives Psalm 22:22 to Christ, who is not ashamed to call them brethren'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/2?lang=eng'
-    quote: 'he is not ashamed to call them brethren, Saying, I will declare thy name unto my brethren, in the midst of the church will I sing praise unto thee.'
+    claim: 'Ps. 22:24 “he heard,” šāmēaʿ'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שָׁמֵֽעַ'
   - where: 'section “Neither hath he hid his face”'
-    claim: 'Hebrews quotes the final section of the psalm to stress the victorious nature of the Atonement'
+    claim: 'Delitzsch on Ps. 22:24: the sufferer felt the wrath of God, but this has changed into a love that sends help; God did not long keep His countenance hidden, He hearkened to him'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/22.htm'
+    quote: 'the sufferer felt the wrath of God, but this has changed into a love that sends help; God did not long keep His countenance hidden, He hearkened to him, for his prayer was well-pleasing to Him.'
+  - where: 'section “Neither hath he hid his face”'
+    claim: 'Hopkin: vv. 23–25 speak of the trial as already past, declaring that God has already heard the sufferer; read of Christ they can only refer to events after His death'
+    key: hopkin-psalm-22
+    url: 'https://byustudies.byu.edu/article/my-god-my-god-why-hast-thou-forsaken-me-psalm-22-and-the-mission-of-christ'
+    quote: 'Verses 23–25 speak of the trial as already having passed, declaring that God has already “heard” and responded to the cry of the sufferer (Ps. 22:24), a very different image than that found in the first two sections of the psalm. As connected to Christ’s sacrifice and subsequent victory over death and sin, these triumphant lines can only refer to events subsequent to Christ’s sacrifice and death on the cross.'
+  - where: 'section “Neither hath he hid his face”'
+    claim: 'Connection made by this page: the question of 13:1 and 88:14, “why hidest thou thy face,” and the answer of 22:24, “neither hath he hid his face from him,” are built on the same two Hebrew words, and the cry (šāwaʿ) that fell silent in 88:13 is the cry heard in 22:24; Psalm 30:7 and 2 and Psalm 31:22 record hidden faces and cries that ended in hearing, but only 22:24 answers the hidden face in the question’s own words as a thing that did not happen; the laments’ question is answered inside the lament whose first line the Savior prayed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/88?lang=eng'
+    quote: 'Lord, why castest thou off my soul? why hidest thou thy face from me?'
+  - where: 'section “Neither hath he hid his face”'
+    claim: 'BDB groups 13:1, 22:24 and 88:14 under one heading without comment on their relation'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5641.htm'
+    quote: 'Psalm 13:2; Psalm 22:25; Psalm 27:9; Psalm 69:18; Psalm 88:15'
+
+  - where: 'section “Neither hath he hid his face”'
+    claim: 'Delitzsch at Ps. 22:21 compares the answer from the horns to Heb. 5:7, with “perhaps”'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/22.htm'
+    quote: 'To answer from the horns of the antilope is equivalent to hearing and rescuing from them; cf. the equally pregnant expression ענה בּ Psalm 118:5, perhaps also Hebrews 5:7.'
+  - where: 'section “Neither hath he hid his face”'
+    claim: 'Ps. 30:7 “thou didst hide thy face” is the Hiphil perfect of sātar, histartā, a hidden face that ended'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הִסְתַּ֥רְתָּ'
+  - where: 'section “Neither hath he hid his face”'
+    claim: 'Ps. 31:22 “when I cried” is šāwaʿ (H7768), followed by “thou heardest” (šāmaʿtā, H8085)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'בְּ/שַׁוְּעִ֥/י'
+  - where: 'section “Neither hath he hid his face”'
+    claim: 'Connection made by this page: Hebrews 5:7’s “was heard,” which Delitzsch himself links to Ps. 22:21, is set beside Ps. 22:24 as the far side of the same hearing; the Deuteronomy essay Let It Suffice Thee already notes that the cup did not pass and Hebrews still calls Him heard'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/5?lang=eng'
+    quote: 'and was heard in that he feared;'
+
+  # ---------- My brethren ----------
+  - where: 'section “My brethren”'
+    claim: 'Hopkin: the author of Hebrews chose to emphasize the victorious nature of Jesus’s Atonement by quoting from the final section of the psalm'
     key: hopkin-psalm-22
     url: 'https://byustudies.byu.edu/article/my-god-my-god-why-hast-thou-forsaken-me-psalm-22-and-the-mission-of-christ'
     quote: 'the author of Hebrews chose to emphasize the victorious nature of Jesus’s Atonement by quoting from the final section of the psalm'
-  - where: 'section “The book called Praises”'
-    claim: 'The Hebrew name of the book is Tehillim, “Praises”'
+  - where: 'section “My brethren”'
+    claim: 'Hopkin reads the congregation of Ps. 22:22 as Christ’s witness in the spirit world (D&C 138:12–19), and “he heard” (22:24) as fitting the congregation waiting for Christ, whose cries God had also heard'
+    key: hopkin-psalm-22
+    url: 'https://byustudies.byu.edu/article/my-god-my-god-why-hast-thou-forsaken-me-psalm-22-and-the-mission-of-christ'
+    quote: 'beautifully reflects Christ’s important witness immediately after his death when visiting those waiting for him in the spirit world. Doctrine and Covenants 138 describes this gathering in terms reminiscent of the “congregation” mentioned in Psalm 22.'
+  - where: 'section “My brethren”'
+    claim: 'Hopkin: 22:24 not only refers to God hearing Christ but fits the congregation assembled waiting for Christ, whose cries God had also heard'
+    key: hopkin-psalm-22
+    url: 'https://byustudies.byu.edu/article/my-god-my-god-why-hast-thou-forsaken-me-psalm-22-and-the-mission-of-christ'
+    quote: 'not only refers to God hearing Christ in the midst of his affliction but also fits Joseph F. Smith’s description of the congregation assembled waiting for Christ, whose cries God had also heard.'
+  - where: 'section “My brethren”'
+    claim: 'Delitzsch on 88:10–12: in the New Testament the state after death itself is become a different one'
+    key: delitzsch-psalms
+    url: 'https://biblehub.com/commentaries/kad/psalms/88.htm'
+    quote: 'in the New Testament not merely the conception of the state after death, but this state itself, is become a different one.'
+  - where: 'section “My brethren”'
+    claim: 'Connection made by this page: Psalm 88’s six questions ask whether anything of God can reach the dead; within the psalm there is no answer; the one who prayed Psalm 22’s first line went to the dead (1 Pet. 3:19; 4:6; D&C 138:30), and the congregation in which He declared the Father’s name, on Hopkin’s reading, is the faithful dead; “declared” in 88:11 and “I will declare” in 22:22 are the same verb, sāpar; the join between Psalm 88’s question and that congregation is the page’s own'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/138?lang=eng'
+    quote: 'and thus was the gospel preached to the dead.'
+
+  - where: 'section “My brethren”'
+    claim: '“Declared” in Ps. 88:11 is the Pual of sāpar (H5608), yĕsuppar'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'הַ/יְסֻפַּ֣ר'
+  - where: 'section “My brethren”'
+    claim: '“I will declare” in Ps. 22:22 is the Piel of sāpar (H5608), ʾăsappĕrâ'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'אֲסַפְּרָ֣ה'
+  - where: 'section “My brethren”'
+    claim: 'Ps. 139:8 “hell” is Sheol (H7585), the word of 88:3'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'שְּׁא֣וֹל'
+
+  # ---------- The disciple's Psalm 88 ----------
+  - where: 'section “The disciple’s Psalm 88”'
+    claim: 'KnoWhy #438: the laments’ fixed form let them be reused by others; these ancient petitions may become the readers’ own prayers to a merciful Father'
+    key: sc-knowhy-438
+    url: 'https://scripturecentral.org/knowhy/why-do-biblical-psalms-of-lament-show-up-in-the-book-of-mormon'
+    quote: 'These ancient petitions may become the readers’ own prayers to a merciful Father as they learn to internalize them and apply them to their own situations.'
+  - where: 'section “The disciple’s Psalm 88”'
+    claim: 'KnoWhy #438: the structure was most likely established so that once recorded, a lament could be reused by others'
+    key: sc-knowhy-438
+    url: 'https://scripturecentral.org/knowhy/why-do-biblical-psalms-of-lament-show-up-in-the-book-of-mormon'
+    quote: 'The specific form or structure for these laments that has been described here was most likely established so that once recorded, a lament could be reused by others.'
+  - where: 'section “The disciple’s Psalm 88”'
+    claim: 'Hopkin: the cry showed Christ descended below all things so as to succor his people'
+    key: hopkin-psalm-22
+    url: 'https://byustudies.byu.edu/article/my-god-my-god-why-hast-thou-forsaken-me-psalm-22-and-the-mission-of-christ'
+    quote: 'that cry showed that Christ had truly “descended below all things” (D&C 88:6), so that he could understand and succor his people (Alma 7:12), giving them a sense of comfort in their moments of aloneness.'
+  - where: 'section “The disciple’s Psalm 88”'
+    claim: 'Hopkin: Joseph Smith in Liberty Jail wrote “O God, where art thou?” in sentiments connected to Jesus’s cry, and recorded God’s response that Christ had descended even lower'
+    key: hopkin-psalm-22
+    url: 'https://byustudies.byu.edu/article/my-god-my-god-why-hast-thou-forsaken-me-psalm-22-and-the-mission-of-christ'
+    quote: 'Joseph Smith wrote a letter expressing sentiments connected to Jesus’s cry, penning the phrase “O God, where art thou?” (D&C 121:1). Later in the letter, Joseph recorded God’s response, teaching him that even if Joseph had felt alone, he needed to remember that Christ had descended even lower'
+  - where: 'section “The disciple’s Psalm 88”'
+    claim: 'Elder Holland: because Jesus walked such a long, lonely path utterly alone, we do not have to; we will never be left alone nor unaided, even if sometimes we may feel that we are'
+    key: holland-none-with-him
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2009/04/none-were-with-him?lang=eng'
+    quote: 'because Jesus walked such a long, lonely path utterly alone, we do not have to do so.'
+  - where: 'section “The disciple’s Psalm 88”'
+    claim: 'Elder Holland: we will never be left alone nor unaided, even if sometimes we may feel that we are'
+    key: holland-none-with-him
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2009/04/none-were-with-him?lang=eng'
+    quote: 'Trumpeted from the summit of Calvary is the truth that we will never be left alone nor unaided, even if sometimes we may feel that we are.'
+  - where: 'section “The disciple’s Psalm 88”'
+    claim: 'Elder Hales: in Gethsemane the Savior was ultimately without the presence of His Father; in my Gethsemane and yours, we are not alone'
+    key: hales-waiting
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2011/10/waiting-upon-the-lord-thy-will-be-done?lang=eng'
+    quote: 'Without the companionship of these disciples and ultimately without the presence of His Father, the Savior chose to suffer our “pains and afflictions and temptations of every kind.”'
+  - where: 'section “The disciple’s Psalm 88”'
+    claim: 'Elder Hales: in my Gethsemane and yours, we are not alone'
+    key: hales-waiting
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2011/10/waiting-upon-the-lord-thy-will-be-done?lang=eng'
+    quote: 'I express gratitude that “in my Gethsemane” and yours, we are not alone.'
+  - where: 'section “The disciple’s Psalm 88”'
+    claim: 'Elder Holland (2024): prayers are heard and answered according to His unfailing love and cosmic timetable, even when not the way I asked'
+    key: holland-hidden-fire-2024
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2024/04/13holland?lang=eng'
+    quote: 'even if the prayers for Pat were not answered the way I asked. It is for reasons known only to God why prayers are answered differently than we hope—but I promise you they are heard and they are answered according to His unfailing love and cosmic timetable.'
+  - where: 'section “The disciple’s Psalm 88”'
+    claim: 'The Hebrew name of the book is Tehillim, Praises'
     key: bd-psalms
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/psalms?lang=eng'
     quote: 'The Psalms collectively are called in Hebrew Tehillim or “Praises,”'
-  - where: 'section “The book called Praises”'
-    claim: 'The last section (Psalms 107–150) praises God for delivering Israel through the Messiah'
+  - where: 'section “The disciple’s Psalm 88”'
+    claim: 'Scripture Helps: Psalms 107–150 praise God for delivering Israel through the Messiah'
     key: scripture-helps-ps-1
     url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/32-psalms-1-2-3-19-33-40-46?lang=eng'
     quote: 'Psalms 107–150: These psalms praise God for delivering Israel through the Messiah.'
-  - where: 'section “The book called Praises”'
-    claim: 'Connection made by this page: the book that keeps Psalm 88 as it is also ends in praise; the praise at the end does not answer each lament'
+  - where: 'section “The disciple’s Psalm 88”'
+    claim: 'Connection made by this page: the book that ends in praise keeps Psalm 88 unturned; on the page’s reading the praise is possible for everyone who prays Psalm 88, and for the dead, because the one who prayed Psalm 22’s first line lived its last'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/150?lang=eng'
-    quote: 'Let every thing that hath breath praise the LORD.'
+    quote: 'Let every thing that hath breath praise the Lord.'

@@ -1,107 +1,514 @@
 page: i-will-be-sanctified
 claims:
-  - where: opening
-    claim: 'Lev. 10:3 is a Niphal first-person singular of qadash, the LORD speaking'
+  # ---------- opening ----------
+  - where: 'opening'
+    claim: 'qādaš (H6942) stands 31 times in Leviticus: qal 2 (6:18, 27), piel 15, hitpael 2 (11:44; 20:7), niphal 2 (10:3; 22:32), hiphil 10 (22:2–3; 27:14–26); 10:3 ʾeqqādēš is niphal 1cs (HVNi1cs)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
     quote: 'אֶקָּדֵ֔שׁ'
-  - where: opening
-    claim: 'Lev. 22:32 is the only other Niphal first-person form (waw + perfect)'
+  - where: 'opening'
+    claim: '22:32 wĕniqdaštî, niphal 1cs (HC/VNq1cs), the only other niphal with the LORD as subject in Leviticus; the two stand at 10:3 and 22:32'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
     quote: 'וְ/נִ֨קְדַּשְׁתִּ֔י'
-  - where: opening
-    claim: 'The participle "the LORD who sanctifies you/him/them" stands seven times (20:8; 21:8, 15, 23; 22:9, 16, 32)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
-    quote: 'מְקַדִּשְׁ/כֶֽם'
-  - where: opening
-    claim: 'Connection made by this page: Lev. 10:3 and Lev. 22:32 set beside each other as the two places where the LORD says He will be sanctified/hallowed'
+  - where: 'opening'
+    claim: 'Lev. 20:8 as quoted, the first of the seven participles “I am the LORD which sanctify you”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/20?lang=eng'
+    quote: 'And ye shall keep my statutes, and do them: I am the Lord which sanctify you.'
+  - where: 'opening'
+    claim: 'Lev. 22:32 as quoted; footnote 32a “hallowed”: HEB sanctified'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/22?lang=eng'
-    quote: 'but I will be hallowed among the children of Israel: I am the LORD which hallow you'
-  - where: 'section “Made holy by another''s hand”'
-    claim: 'The verb in chapter 8 is Piel with Moses as subject'
+    quote: 'but I will be hallowed among the children of Israel: I am the Lord which hallow you'
+  - where: 'opening'
+    claim: 'Connection made by this page: 10:3 and 22:32, the book’s two “I will be sanctified,” read together, the first over the dead priests on the priesthood’s first day, before the refrain, the second in one sentence with “I am the LORD which hallow you”; Bowen treats both verses (paras 38, 41) but reads each toward the hallowing of God’s name, not toward each other'
+    key: bowen-thy-will
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/thy-will-be-done'
+    quote: 'His prophecy may allude to Leviticus 22:32'
+  - where: 'opening'
+    claim: 'The remaining occurrences: qal 6:18, 27 (what touches the offerings becomes holy); hiphil 22:2–3; 27:14–26 (a man sanctifies house, field, firstlings); piel 25:10 (Israel hallows the jubilee); piel 16:19 (Aaron hallows the altar); 22:2 maqdišîm hiphil participle'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
-    quote: 'וַֽיְקַדֵּ֖שׁ'
-  - where: 'section “Made holy by another''s hand”'
-    claim: 'Holiness is extrinsic because its source is Yahweh'
-    key: bowen-law-codes
-    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
-    quote: 'is extrinsic rather than intrinsic because it has its ultimate source in Yahweh.'
-  - where: 'section “I will be sanctified”'
-    claim: 'Keil reads 10:3 as the LORD sanctifying Himself by judgment where the priests neglected the anointing sanctification'
+    quote: 'מַקְדִּשִׁ֛ים'
+  - where: 'opening'
+    claim: 'Lev. 16:19 as quoted; 6:18, 27; 25:10; 27:14 as summarized'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/16?lang=eng'
+    quote: 'and hallow it from the uncleanness of the children of Israel'
+  # ---------- section “Anointed him, to sanctify him” ----------
+  - where: 'section “Anointed him, to sanctify him”'
+    claim: 'Lev. 8:12, 30 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/8?lang=eng'
+    quote: 'And he poured of the anointing oil upon Aaron’s head, and anointed him, to sanctify him.'
+  - where: 'section “Anointed him, to sanctify him”'
+    claim: 'Piel with Moses as subject five times in ch. 8 (8:10, 11, 12, 15, 30); 8:12 lĕqaddĕšô (HR/Vpc/Sp3ms), 8:30 wayqaddēš (HC/Vpw3ms)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'לְ/קַדְּשֽׁ/וֹ'
+  - where: 'section “Anointed him, to sanctify him”'
+    claim: 'Lev. 8:1, 5, 36 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/8?lang=eng'
+    quote: 'So Aaron and his sons did all things which the Lord commanded by the hand of Moses.'
+  - where: 'section “Anointed him, to sanctify him”'
+    claim: 'Ex. 29:43–44 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/29?lang=eng'
+    quote: 'I will sanctify also both Aaron and his sons, to minister to me in the priest’s office.'
+  - where: 'section “Anointed him, to sanctify him”'
+    claim: 'Keil on Ex. 29:43: the subject is Israel, “and it (Israel) shall be sanctified through My glory”; the Lord would manifest Himself to them at the altar they could approach'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/29.htm'
+    quote: 'and it (Israel) shall be sanctified through My glory'
+  - where: 'section “Anointed him, to sanctify him”'
+    claim: 'Cambridge on Ex. 29:43: tent, altar and priests hallowed by the power of Jehovah’s sanctifying presence'
+    key: cambridge-exodus
+    url: 'https://biblehub.com/commentaries/cambridge/exodus/29.htm'
+    quote: 'Tent, altar, and priests (v. 44) will alike be hallowed by the power of Jehovah’s sanctifying presence.'
+  - where: 'section “Anointed him, to sanctify him”'
+    claim: 'Student Manual 14-22 on Lev. 8–9'
+    key: ot-manual-lev-1-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/leviticus-1-10-a-law-of-performances-and-ordinances-part-1-sacrifices-and-offerings?lang=eng'
+    quote: 'These chapters record the actual setting apart of Aaron and his sons and the sanctification of the tabernacle that were commanded in Exodus 28–29.'
+  - where: 'section “Anointed him, to sanctify him”'
+    claim: 'Keil, introduction to Lev. 8–10: consecration (8), entrance on office (9), “the sanctification of their priesthood by the judgment of God” (10)'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/8.htm'
+    quote: 'the sanctification of their priesthood by the judgment of God'
+  # ---------- section “I will be sanctified in them that come nigh me” ----------
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'Lev. 10:1–3 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/10?lang=eng'
+    quote: 'This is it that the Lord spake, saying, I will be sanctified in them that come nigh me, and before all the people I will be glorified. And Aaron held his peace.'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'Keil on 10:3: the LORD had not communicated the words by revelation but made the fact known by the position assigned to Aaron and his sons; sanctified them by anointing that they might sanctify Him; if they neglected it, He sanctified Himself in them by a penal judgment'
     key: keil-leviticus
     url: 'https://biblehub.com/commentaries/kad/leviticus/10.htm'
-    quote: 'that they might sanctify Him in their office and life. If they neglected this sanctification, He sanctified Himself in them by a penal judgment'
-  - where: 'section “I will be sanctified”'
-    claim: 'The Church footnote on "held" (Lev. 10:3) sends to D&C 101:5'
+    quote: 'sanctified them to Himself by anointing (Leviticus 8:10, Leviticus 8:12; Exodus 29:1, Exodus 29:44; Exodus 40:13, Exodus 40:15), that they might sanctify Him in their office and life. If they neglected this sanctification, He sanctified Himself in them by a penal judgment'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'Keil on 10:3: “had not communicated to Moses by revelation the words” / “had made the fact known by the position assigned to Aaron and his sons”'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/10.htm'
+    quote: 'Jehovah had not communicated to Moses by revelation the words which he spoke here, but had made the fact known by the position assigned to Aaron and his sons'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'Cambridge on 10:3: quotation in poetical parallelism; He shews Himself holy in punishing those who approach improperly'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/10.htm'
+    quote: 'The words seem to be a quotation and are in poetical parallelism: “In them that come nigh me I will shew myself holy, And before all the people I will glorify myself.” The sense is that the priests are those who have the right to approach God, and He shews Himself holy in punishing those who do it improperly.'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'Pulpit on 10:3: sanctified either by the obedience or by the punishment of those that come nigh him'
+    key: pulpit-leviticus
+    url: 'https://biblehub.com/commentaries/pulpit/leviticus/10.htm'
+    quote: 'God will be sanctified either by the obedience or by the punishment of those that come nigh him, that is, his priests.'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'Keil on 10:3: the niphal is reflexive, not passive, “I will sanctify Myself in him that is nigh to Me”'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/10.htm'
+    quote: 'consequently אקּדשׁ is to be taken in a reflective and not in a passive sense'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'Ellicott on 10:3: “Better. I will sanctify myself in them that come near to me”'
+    key: ellicott-leviticus
+    url: 'https://biblehub.com/commentaries/ellicott/leviticus/10.htm'
+    quote: 'I will sanctify myself in them that come near to me'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'BDB niphal sense 2, “be honoured or treated as sacred”: Lev. 10:3 (parallel nikbad) and 22:32 (opposed to profaning the name); sense 1 “shew oneself sacred, majestic” for Isa. 5:16; Ezek. 20:41; 28:22, 25; 36:23; 38:16; 39:27'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6942.htm'
+    quote: 'be honoured or treated as sacred'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'BDB niphal sense 1 “shew oneself sacred, majestic”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6942.htm'
+    quote: 'shew oneself sacred, majestic'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'Bowen’s translation of 10:3 in two parallel lines, and the near-synonymy of sanctify and glorify here and in Ezek. 28:22'
+    key: bowen-thy-will
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/thy-will-be-done'
+    quote: 'Through those who come unto me I will be sanctified / and before all the people I will be glorified'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'Bowen: 10:3 and Ezek. 28:22 suggest some equivalence between “sanctify” and “glorify”'
+    key: bowen-thy-will
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/thy-will-be-done'
+    quote: 'suggest some equivalence between the terms “sanctify” (i.e., to make holy) and “glorify.”'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'Num. 20:12–13 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/20?lang=eng'
+    quote: 'because the children of Israel strove with the Lord, and he was sanctified in them'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'Num. 20:13 wayyiqqādēš, niphal (HC/VNw3ms); 20:12 lĕhaqdîšēnî, hiphil infinitive “to sanctify me”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'וַ/יִּקָּדֵ֖שׁ'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'Keil on Num. 20:13'
+    key: keil-numbers
+    url: 'https://biblehub.com/commentaries/kad/numbers/20.htm'
+    quote: 'God sanctified Himself on them, by the fact that, on the one hand, He put their unbelief to shame by the miraculous gift of water, and on the other hand punished Moses and Aaron for the weakness of their faith.'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'Student Manual 18-13 on Num. 20:12: the Lord chided Moses and Aaron for their failure to sanctify Him in the eyes of the people'
+    key: ot-manual-numbers-13-36
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/numbers-13-36-wilderness-wanderings-part-2?lang=eng'
+    quote: 'failure to sanctify Him in the eyes of the people'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'Connection made by this page: Num. 20:12–13 set beside Lev. 10:3 (20:12 hiphil “to sanctify me,” 20:13 niphal as 10:3): in both the LORD is sanctified when those set nearest fail to sanctify Him before the people, and in both the failure is Aaron’s; at the rock the people also received water; BDB files 20:13 under sense 1, not with 10:3; no source read sets the two together'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/20?lang=eng'
+    quote: 'Because ye believed me not, to sanctify me in the eyes of the children of Israel'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'Footnote 10:3a is on “held” → D&C 101:5; there is no footnote on “sanctified”; D&C 101:5 as quoted'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/101?lang=eng'
     quote: 'For all those who will not endure chastening, but deny me, cannot be sanctified.'
-  - where: 'section “Sanctify yourselves”'
-    claim: 'At 11:44 and 20:7 the verb is Hitpael (reflexive) with Israel as subject'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
-    quote: 'וְ/הִֽתְקַדִּשְׁתֶּ֔ם'
-  - where: 'section “Sanctify yourselves”'
-    claim: 'Strathearn on Lev. 11:43-44'
-    key: strathearn-holiness-lord
-    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/holiness-lord-personal-temple-worship'
-    quote: 'God’s greatest desire for his people is that they become as he is.'
-  - where: 'section “I am the LORD which sanctify you”'
-    claim: 'The sevenfold participle'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
-    quote: 'מְקַדְּשָׁ/ם'
-  - where: 'section “I am the LORD which sanctify you”'
-    claim: 'Elsewhere Israel hallows the priest (21:8) and a man sanctifies (Hiphil) his own house or field (27:14–26)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
-    quote: 'יַקְדִּישׁ'
-  - where: 'section “I am the LORD which sanctify you”'
-    claim: 'Israel hallows the priest (21:8), the holy things (22:2–3), the jubilee year (25:10); the high priest hallows the altar (16:19)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
-    quote: 'וְ/קִדַּשְׁתֶּ֗ם'
-  - where: 'section “I am the LORD which sanctify you”'
-    claim: 'God is the source of holiness and primary agent of sanctification'
-    key: strathearn-holiness-lord
-    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/holiness-lord-personal-temple-worship'
-    quote: 'the primary agent of sanctification'
-  - where: 'section “I am the LORD which sanctify you”'
-    claim: 'JST Lev. 22:9 adds a condition (Bowen)'
-    key: bowen-law-codes
-    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
-    quote: 'the addition emphasizes that the blessing of sanctification is conditional upon obedience'
-  - where: 'section “I will be hallowed”'
-    claim: 'Phrases after the verb differ: b-qrovai vs b-tokh bnei Yisrael'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
-    quote: 'וְ/נִ֨קְדַּשְׁתִּ֔י'
-  - where: 'section “I will be hallowed”'
-    claim: 'Connection made by this page: Lev. 22:32 set beside Lev. 10:3; same speaker says it of Himself, and in the same verse "I am the LORD which hallow you"'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'Connection made by this page: the footnote on “held” → D&C 101:5 read from Aaron’s side, the one who holds his peace under the judgment is the one in whom the sanctifying can go on (the inference is the page’s; the footnote only cross-references)'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/10?lang=eng'
-    quote: 'I will be sanctified in them that come nigh me, and before all the people I will be glorified. And Aaron held his peace.'
-  - where: 'section “Sanctified by His offering”'
-    claim: 'Topical Guide lists Lev. 10:3 and 11:44 in one entry with Heb. 10:10, 13:12, Moro. 10:33, D&C 20:31, 76:41'
-    key: tg-sanctification
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/tg/sanctification?lang=eng'
-    quote: 'sanctify yourselves, and ye shall be holy'
-  - where: 'section “Sanctified by His offering”'
-    claim: 'Guide to the Scriptures defines sanctification'
+    quote: 'And Aaron held his peace.'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'Christofferson (Apr. 2011) quotes D&C 101:5 of the chastening that refines and prepares'
+    key: christofferson-chasten
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2011/04/as-many-as-i-love-i-rebuke-and-chasten?lang=eng'
+    quote: 'the very experience of enduring chastening can refine us and prepare us for greater spiritual privileges'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'Keil on 10:3: an admonition to the whole nation to sanctify God continually'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/10.htm'
+    quote: 'an admonition to all who heard it, not to Aaron only but to the whole nation, to sanctify God continually in the proper way'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'Pulpit on 10:3 lists Ex. 19:22; 28:41; 29:44; Lev. 8:33 for “This is that the Lord spake”'
+    key: pulpit-leviticus
+    url: 'https://biblehub.com/commentaries/pulpit/leviticus/10.htm'
+    quote: 'This is that the Lord spake (see Exodus 19:22; Exodus 28:41; Exodus 29:44; Leviticus 8:33)'
+  - where: 'section “I will be sanctified in them that come nigh me”'
+    claim: 'BDB files Num. 20:13 under niphal sense 1 (“shew oneself sacred”), not with 10:3'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6942.htm'
+    quote: 'compare Numbers 20:13 (P)'
+  # ---------- section “Sanctify yourselves … I am the LORD which sanctify you” ----------
+  - where: 'section “Sanctify yourselves … I am the LORD which sanctify you”'
+    claim: 'Lev. 11:44 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/11?lang=eng'
+    quote: 'ye shall therefore sanctify yourselves, and ye shall be holy; for I am holy'
+  - where: 'section “Sanctify yourselves … I am the LORD which sanctify you”'
+    claim: 'Lev. 20:7–8 as quoted; footnote 20:7a “Sanctify”: Lev. 21:8; 22:32; D&C 88:74'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/20?lang=eng'
+    quote: 'Sanctify yourselves therefore, and be ye holy: for I am the Lord your God.'
+  - where: 'section “Sanctify yourselves … I am the LORD which sanctify you”'
+    claim: 'Cambridge on 20:7: “Almost verbally identical with Leviticus 11:44 a”'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/20.htm'
+    quote: 'Almost verbally identical with Leviticus 11:44 a.'
+  - where: 'section “Sanctify yourselves … I am the LORD which sanctify you”'
+    claim: 'BDB hithpael sense 1 for Lev. 11:44; 20:7'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6942.htm'
+    quote: 'keep oneself apart from unclean things Leviticus 11:44; Leviticus 20:7'
+  - where: 'section “Sanctify yourselves … I am the LORD which sanctify you”'
+    claim: 'Hitpael at 11:44 and 20:7 (HC/Vtq2mp); 20:8 mĕqaddišĕkem, piel participle (HVprmsc/Sp2mp), the first in Leviticus of seven (20:8; 21:8, 15, 23; 22:9, 16, 32)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'וְ/הִתְקַדִּשְׁתֶּם֙'
+  - where: 'section “Sanctify yourselves … I am the LORD which sanctify you”'
+    claim: 'Pulpit on 11:44–47'
+    key: pulpit-leviticus
+    url: 'https://biblehub.com/commentaries/pulpit/leviticus/11.htm'
+    quote: 'They were to sanctify themselves, that is, to avoid uncleanness, because God is holy, and they were God’s. They were thus taught that ceremonial cleanness of the body was a symbol of holiness of heart, and a means of attaining to the latter.'
+  - where: 'section “Sanctify yourselves … I am the LORD which sanctify you”'
+    claim: 'Bible Dictionary “Holiness” cites Lev. 11:44; 19:2; 21:8 for holy as moral character'
+    key: bd-holiness
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/holiness?lang=eng'
+    quote: 'The word holy therefore came to refer to moral character (Lev. 11:44; 19:2; 21:8; Isa. 6:3–8).'
+  - where: 'section “Sanctify yourselves … I am the LORD which sanctify you”'
+    claim: 'BDB piel 4d, “of God, keeping his people pure and sacred”: Ex. 31:13; Lev. 20:8; 21:8, 15, 23; 22:9, 16, 32; Ezek. 20:12; 37:28'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6942.htm'
+    quote: 'of God, keeping his people pure and sacred'
+  - where: 'section “Sanctify yourselves … I am the LORD which sanctify you”'
+    claim: 'Keil on 20:7–8: both agents in one sentence'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/20.htm'
+    quote: 'to sanctify themselves, i.e., to keep themselves pure from all idolatrous abominations, to be holy because Jehovah was holy (Leviticus 11:44; Leviticus 19:2), and to keep the statutes of their God who sanctified them (Exodus 31:13).'
+  - where: 'section “Sanctify yourselves … I am the LORD which sanctify you”'
+    claim: 'Ellicott on 20:7–8'
+    key: ellicott-leviticus
+    url: 'https://biblehub.com/commentaries/ellicott/leviticus/20.htm'
+    quote: 'It is only by keeping the Divine ordinances that the Israelites will attain to that state of holiness which will not only arm them to resist the abominable rites and idolatrous practices denounced in the foregoing verses, but which will enable them to reflect the holiness of their Lord.'
+  - where: 'section “Sanctify yourselves … I am the LORD which sanctify you”'
+    claim: 'D&C 88:74 as quoted (the verse footnote 20:7a points to)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'sanctify yourselves; yea, purify your hearts, and cleanse your hands and your feet before me, that I may make you clean'
+  - where: 'section “Sanctify yourselves … I am the LORD which sanctify you”'
+    claim: 'Student Manual 16-7 on Lev. 20'
+    key: ot-manual-lev-19-27
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/leviticus-19-27-a-law-of-performances-and-ordinances-part-3-laws-of-mercy-and-righteousness?lang=eng'
+    quote: 'so that they could be sanctified and become holy unto God (see vv. 7–8, 24, 26)'
+  - where: 'section “Sanctify yourselves … I am the LORD which sanctify you”'
+    claim: 'Seminary student material 2018, lesson 64: the principle from Lev. 20:7–8, 26'
+    key: ot-seminary-student-2018-lev-64
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-student-material-2018/leviticus/lesson-64?lang=eng'
+    quote: 'if we obey the Lord’s commandments, then we can be holy like the Lord is holy'
+  - where: 'section “Sanctify yourselves … I am the LORD which sanctify you”'
+    claim: 'Seminary student material 2018, lesson 64: obedience so that He can sanctify you'
+    key: ot-seminary-student-2018-lev-64
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-student-material-2018/leviticus/lesson-64?lang=eng'
+    quote: 'What can you do to be more obedient to the Lord so that He can sanctify you and make you holy?'
+  - where: 'section “Sanctify yourselves … I am the LORD which sanctify you”'
+    claim: 'Lund on the command to sanctify ourselves (D&C 43:11, 16)'
+    key: lund-sanctification
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-new-testament/sanctification-justification-are-just-true'
+    quote: 'It does not suggest that we can make ourselves holy but only suggests that we must initiate the process for ourselves.'
+  - where: 'section “Sanctify yourselves … I am the LORD which sanctify you”'
+    claim: 'Strathearn: God the ultimate source of the power to sanctify'
+    key: strathearn-holiness-lord
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/holiness-lord-personal-temple-worship'
+    quote: 'Although God is the ultimate source of the power to sanctify, at times he also uses certain people or places to sanctify'
+  - where: 'section “Sanctify yourselves … I am the LORD which sanctify you”'
+    claim: 'Strathearn: He desires all Israel to become qadōš, but they have to want it'
+    key: strathearn-holiness-lord
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/holiness-lord-personal-temple-worship'
+    quote: 'he desires all Israel to become qadōš, but they have to want it'
+  # ---------- section “I the LORD, which sanctify you, am holy” ----------
+  - where: 'section “I the LORD, which sanctify you, am holy”'
+    claim: 'Cambridge, introduction to Lev. 21: the refrain “I am the Lord which sanctify (hallow)” at 21:8, 15, 23; 22:9, 16, 32 indicates H'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/21.htm'
+    quote: 'the refrain, ‘I am the Lord which sanctify (hallow)’ (Leviticus 21:8; Leviticus 21:15; Leviticus 21:23, Leviticus 22:9; Leviticus 22:16; Leviticus 22:32) indicate H'
+  - where: 'section “I the LORD, which sanctify you, am holy”'
+    claim: 'Lev. 21:8, 15, 23 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/21?lang=eng'
+    quote: 'Thou shalt sanctify him therefore; for he offereth the bread of thy God: he shall be holy unto thee: for I the Lord, which sanctify you, am holy.'
+  - where: 'section “I the LORD, which sanctify you, am holy”'
+    claim: 'Lev. 22:9, 16 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/22?lang=eng'
+    quote: 'They shall therefore keep mine ordinance, lest they bear sin for it, and die therefore, if they profane it: I the Lord do sanctify them.'
+  - where: 'section “I the LORD, which sanctify you, am holy”'
+    claim: 'Cambridge on 21:23 “my sanctuaries”: the plural may refer to the sacred building and its surroundings'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/21.htm'
+    quote: 'The plural may have reference to the sacred building and its surroundings, as in Jeremiah 51:51.'
+  - where: 'section “I the LORD, which sanctify you, am holy”'
+    claim: 'Keil on 22:15–16: the subject of “profane” and “bear” is indefinite; “them” are the laymen who eat the sanctified gifts unawares'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/22.htm'
+    quote: 'the subject to יחלּלוּ (profane) and השּׂאוּ (bear) is indefinite'
+  - where: 'section “I the LORD, which sanctify you, am holy”'
+    claim: 'Participle objects: 21:8 mĕqaddišĕkem “you”; 21:15 mĕqaddĕšô “him”; 21:23, 22:9, 22:16 mĕqaddĕšām “them”; 21:8 wĕqiddaštô, piel perfect 2ms “thou shalt sanctify him”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'מְקַדְּשָֽׁ/ם'
+  - where: 'section “I the LORD, which sanctify you, am holy”'
+    claim: 'Lev. 21:8 wĕqiddaštô (HC/Vpq2ms/Sp3ms)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'וְ/קִדַּשְׁתּ֔/וֹ'
+  - where: 'section “I the LORD, which sanctify you, am holy”'
+    claim: 'Keil on 21:8: the nation addressed in its chiefs; not merely respect his dignity but take care he does not desecrate his office'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/21.htm'
+    quote: 'The Israelites as a nation are addressed in the persons of their chiefs.'
+  - where: 'section “I the LORD, which sanctify you, am holy”'
+    claim: 'Keil on 21:8, the sense of “Thou shalt sanctify him”'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/21.htm'
+    quote: 'not merely "respect his holy dignity" (Knobel), but take care that he did not desecrate his office by a marriage so polluted'
+  - where: 'section “I the LORD, which sanctify you, am holy”'
+    claim: 'Ellicott on 21:8: addressed to the Jewish community; the priest under the supervision of the people'
+    key: ellicott-leviticus
+    url: 'https://biblehub.com/commentaries/ellicott/leviticus/21.htm'
+    quote: 'The Jewish priest is thus placed under the supervision of the people.'
+  - where: 'section “I the LORD, which sanctify you, am holy”'
+    claim: 'Ellicott on 21:8: “This is addressed to the Jewish community.”'
+    key: ellicott-leviticus
+    url: 'https://biblehub.com/commentaries/ellicott/leviticus/21.htm'
+    quote: 'This is addressed to the Jewish community.'
+  - where: 'section “I the LORD, which sanctify you, am holy”'
+    claim: 'Cambridge on 21:8: has all the air of an insertion; Who is addressed?'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/21.htm'
+    quote: 'This v. has all the air of an insertion.'
+  - where: 'section “I the LORD, which sanctify you, am holy”'
+    claim: 'Cambridge on 21:8: “Who is addressed?”'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/21.htm'
+    quote: 'Who is addressed?'
+  - where: 'section “I the LORD, which sanctify you, am holy”'
+    claim: 'Bible Dictionary “Holiness” cites 21:8 with 11:44; 19:2'
+    key: bd-holiness
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/holiness?lang=eng'
+    quote: '(Lev. 11:44; 19:2; 21:8; Isa. 6:3–8)'
+  - where: 'section “I the LORD, which sanctify you, am holy”'
+    claim: 'Bowen: priestly holiness a beachhead for the hallowing of the community'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'such priestly holiness would necessarily serve as a kind of beachhead for the broader hallowing (or sanctification) of the entire community'
+  - where: 'section “I the LORD, which sanctify you, am holy”'
+    claim: 'Ex. 31:13 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/31?lang=eng'
+    quote: 'that ye may know that I am the Lord that doth sanctify you'
+  - where: 'section “I the LORD, which sanctify you, am holy”'
+    claim: 'Ex. 31:13 mĕqaddišĕkem, the same piel participle (HVprmsc/Sp2mp)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'מְקַדִּשְׁ/כֶֽם'
+  - where: 'section “I the LORD, which sanctify you, am holy”'
+    claim: 'Nelson (Apr. 2015): the Sabbath a perpetual covenant, a constant reminder that the Lord may sanctify His people'
+    key: nelson-sabbath
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2015/04/the-sabbath-is-a-delight?lang=eng'
+    quote: 'the Sabbath was given as a perpetual covenant, a constant reminder that the Lord may sanctify His people'
+  - where: 'section “I the LORD, which sanctify you, am holy”'
+    claim: 'Bowen: JST Lev. 22:9 adds a condition; three of six JST changes in Leviticus are in chs. 21–22; “divine reciprocity”'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'if they profane not mine ordinances, I the Lord will sanctify them'
+  - where: 'section “I the LORD, which sanctify you, am holy”'
+    claim: 'Bowen reads JST 22:9 as divine reciprocity'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'divine reciprocity'
+  # ---------- section “I will be hallowed among the children of Israel” ----------
+  - where: 'section “I will be hallowed among the children of Israel”'
+    claim: 'Lev. 22:31–32 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/22?lang=eng'
+    quote: 'Therefore shall ye keep my commandments, and do them: I am the Lord.'
+  - where: 'section “I will be hallowed among the children of Israel”'
+    claim: '22:32 has the verb twice, niphal wĕniqdaštî and participle mĕqaddišĕkem; the same lemma H6942 as 10:3 ʾeqqādēš'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'מְקַדִּשְׁ/כֶֽם'
+  - where: 'section “I will be hallowed among the children of Israel”'
+    claim: 'BDB niphal sense 2: 22:32 opposed to ḥillēl šēm (profaning the name)'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/6942.htm'
+    quote: 'opposed to חלּלשׁם Leviticus 22:32'
+  - where: 'section “I will be hallowed among the children of Israel”'
+    claim: 'Keil’s only note at 22:32 is a cross-reference to 18:21 and 11:44–45'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/22.htm'
+    quote: '(On Leviticus 22:32, cf. Leviticus 18:21 and Leviticus 11:44-45.)'
+  - where: 'section “I will be hallowed among the children of Israel”'
+    claim: 'Ellicott at 22:32: translation and cross-reference to 18:21 only'
+    key: ellicott-leviticus
+    url: 'https://biblehub.com/commentaries/ellicott/leviticus/22.htm'
+    quote: 'For the manner in which God’s name is profaned when His commandments are violated, see Leviticus 18:21.'
+  - where: 'section “I will be hallowed among the children of Israel”'
+    claim: 'Bowen: Ezek. 36:23 may allude to Lev. 22:32; the hallowing of the divine name is also the hallowing of Israel; the prayer a plea that God will hallow Israel and Israel its God'
+    key: bowen-thy-will
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/thy-will-be-done'
+    quote: 'Thus the hallowing of the divine name is also the hallowing of Israel (see Leviticus 22:32), [17] and the divine passive “hallowed be thy name” is a plea that God will hallow Israel and that Israel will hallow its God'
+  - where: 'section “I will be hallowed among the children of Israel”'
+    claim: 'Bowen on Ezek. 36:23–27: the hallowing followed by gathering, clean water and a new heart'
+    key: bowen-thy-will
+    url: 'https://rsc.byu.edu/sermon-mount-latter-day-scripture/thy-will-be-done'
+    quote: 'Thus the hallowing of the divine name connotes the gathering of Israel, Israel’s reception of the blessings of the Atonement, and the healing of the land.'
+  - where: 'section “I will be hallowed among the children of Israel”'
+    claim: 'Ezek. 36:23 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/36?lang=eng'
+    quote: 'when I shall be sanctified in you before their eyes'
+  - where: 'section “I will be hallowed among the children of Israel”'
+    claim: 'Connection made by this page: in 10:3 the LORD is sanctified in near ones who had not sanctified Him and nothing in the verse says the sanctifying is His to give (in Leviticus the participle has not yet been said); in 22:32, after the refrain six times, His being hallowed and His hallowing of Israel are one sentence; what the book adds between them is the refrain; no source read draws this'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/22?lang=eng'
+    quote: 'I am the Lord which hallow you'
+  # ---------- section “He that sanctifieth and they who are sanctified” ----------
+  - where: 'section “He that sanctifieth and they who are sanctified”'
+    claim: 'Guide to the Scriptures: Jehovah is the premortal Jesus Christ'
+    key: gs-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ'
+  - where: 'section “He that sanctifieth and they who are sanctified”'
+    claim: 'Heb. 2:11 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/2?lang=eng'
+    quote: 'For both he that sanctifieth and they who are sanctified are all of one: for which cause he is not ashamed to call them brethren'
+  - where: 'section “He that sanctifieth and they who are sanctified”'
+    claim: 'Bowen (2022): Heb. 2:11 recalls LXX Lev. 11:44–45'
+    key: bowen-brethren-hebrews-2
+    url: 'https://rsc.byu.edu/household-god/he-not-ashamed-call-them-brethren'
+    quote: 'recalls such temple-related passages as LXX Leviticus 11:44–45, where God commands “being holy” or “being consecrated” (hagiasthēsesthe) and to be “consecrated beings” (hagioi esesthe) “because I the Lord am holy”'
+  - where: 'section “He that sanctifieth and they who are sanctified”'
+    claim: 'Heb. 10:10 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/10?lang=eng'
+    quote: 'we are sanctified through the offering of the body of Jesus Christ once for all'
+  - where: 'section “He that sanctifieth and they who are sanctified”'
+    claim: 'Heb. 13:12 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/13?lang=eng'
+    quote: 'Wherefore Jesus also, that he might sanctify the people with his own blood, suffered without the gate.'
+  - where: 'section “He that sanctifieth and they who are sanctified”'
+    claim: 'Moro. 10:33 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/10?lang=eng'
+    quote: 'then are ye sanctified in Christ by the grace of God, through the shedding of the blood of Christ'
+  - where: 'section “He that sanctifieth and they who are sanctified”'
+    claim: 'Bowen’s note 49: Moro. 10:33 perhaps the best statement on holiness, perfection, the source of both in Yahweh'
+    key: bowen-law-codes
+    url: 'https://rsc.byu.edu/creation-sinai/i-will-give-judgment-unto-him-writing'
+    quote: 'Perhaps the best statement on holiness, perfection, the source of both in Yahweh'
+  - where: 'section “He that sanctifieth and they who are sanctified”'
+    claim: 'Guide to the Scriptures, Sanctification'
     key: gs-sanctification
     url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/sanctification?lang=eng'
     quote: 'The process of becoming free from sin, pure, clean, and holy through the Atonement of Jesus Christ'
-  - where: 'section “Sanctified by His offering”'
-    claim: 'Jehovah is the premortal Jesus Christ'
-    key: gs-jehovah
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/jehovah?lang=eng'
-    quote: 'Jehovah is the premortal Jesus Christ and came to earth as a son of Mary (Mosiah 3:8; 15:1; 3 Ne. 15:1–5). Usually, when the word Lord appears in the Old Testament, it means “Jehovah.”'
-  - where: 'section “Sanctified by His offering”'
-    claim: 'Footnote on "without" at Heb. 13:12 sends to Lev. 4:12'
+  - where: 'section “He that sanctifieth and they who are sanctified”'
+    claim: 'D&C 20:31 as quoted'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/13?lang=eng'
-    quote: 'Jesus also, that he might sanctify the people with his own blood, suffered without the gate.'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/20?lang=eng'
+    quote: 'sanctification through the grace of our Lord and Savior Jesus Christ is just and true, to all those who love and serve God with all their mights, minds, and strength'
+  - where: 'section “He that sanctifieth and they who are sanctified”'
+    claim: 'D&C 88:74 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'that I may make you clean'
+  - where: 'section “He that sanctifieth and they who are sanctified”'
+    claim: 'D&C 60:7 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/60?lang=eng'
+    quote: 'For I am able to make you holy, and your sins are forgiven you.'
+  - where: 'section “He that sanctifieth and they who are sanctified”'
+    claim: 'Come, Follow Me 2026, lesson 18: tabernacle, covenants and sacrifices meant to point toward the Savior, the true path to holiness; it quotes D&C 60:7'
+    key: cfm-ot-2026-18
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/18?lang=eng'
+    quote: 'All of this was meant to point their minds, hearts, and lives toward the Savior. He is the true path to holiness, for the Israelites and for us.'
+  - where: 'section “He that sanctifieth and they who are sanctified”'
+    claim: 'McConkie (Apr. 2017) quotes Lev. 11:44, then Christofferson “He proposes to make us holy,” then: He has provided all that is required'
+    key: mcconkie-beauty-holiness
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2017/04/the-beauty-of-holiness?lang=eng'
+    quote: 'He has provided for us all that is required so that we can become holy as He is holy.'
+  - where: 'section “He that sanctifieth and they who are sanctified”'
+    claim: 'McConkie quoting Christofferson'
+    key: mcconkie-beauty-holiness
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2017/04/the-beauty-of-holiness?lang=eng'
+    quote: 'He proposes to make us holy'
+  - where: 'section “He that sanctifieth and they who are sanctified”'
+    claim: 'Lund: the Holy Ghost’s power makes us holy'
+    key: lund-sanctification
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-new-testament/sanctification-justification-are-just-true'
+    quote: 'It is His power and influence that actually purges out the dross, cleanses us from sin, and makes us holy.'
+  - where: 'section “He that sanctifieth and they who are sanctified”'
+    claim: 'Lund: initiate the process for ourselves (application statement)'
+    key: lund-sanctification
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-new-testament/sanctification-justification-are-just-true'
+    quote: 'we must initiate the process for ourselves'
+  - where: 'section “He that sanctifieth and they who are sanctified”'
+    claim: 'Strathearn: they have to want it (application statement)'
+    key: strathearn-holiness-lord
+    url: 'https://rsc.byu.edu/gospel-jesus-christ-old-testament/holiness-lord-personal-temple-worship'
+    quote: 'but they have to want it'
+  - where: 'section “He that sanctifieth and they who are sanctified”'
+    claim: 'Bowen on Heb. 2:11: the consecrator is “ambiguously, Jesus or the Father”'
+    key: bowen-brethren-hebrews-2
+    url: 'https://rsc.byu.edu/household-god/he-not-ashamed-call-them-brethren'
+    quote: 'the consecrator (ambiguously, Jesus or the Father)'

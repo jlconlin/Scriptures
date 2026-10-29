@@ -1,222 +1,295 @@
 page: for-he-is-thy-life
 claims:
+  # ---------- opening ----------
   - where: 'opening'
-    claim: 'The verb “circumcise” (mul) stands in the book at Deut. 10:16 (imperative) ...'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'וּ/מַלְתֶּ֕ם'
-  - where: 'opening'
-    claim: '... and at Deut. 30:6, with the LORD as subject; only these two places'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'וּ/מָ֨ל'
-  - where: 'opening'
-    claim: 'Deut. 30:6 ends with the noun “thy life” (ḥayyekha), rendered in the KJV “that thou mayest live”'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'חַיֶּֽי/ךָ'
-  - where: 'opening'
-    claim: 'Deut. 30:20 has the same noun, with “he” as subject'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'חַיֶּ֨י/ךָ֙'
-  - where: 'opening'
-    claim: 'Connection made by this page: Deut. 5:29, 10:16, 29:4 and 30:6 read as one sequence (wished for, commanded, not given, given)'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/5?lang=eng'
-    quote: 'O that there were such an heart in them'
-  - where: 'section “Wished for”'
-    claim: '“O that” in Deut. 5:29 is mi yitten, literally “who will give” (mi, “who”)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'מִֽי'
-  - where: 'section “Wished for”'
-    claim: '“O that” in Deut. 5:29 is mi yitten; yitten is a form of the verb natan, “give”'
+    claim: '5:29 “O that” is mî yittēn (H4310 + H5414), “who will give”; in Deuteronomy only at 5:29 and 28:67 (twice)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
     quote: 'יִתֵּ֡ן'
+  - where: 'opening'
+    claim: 'Ellicott on 5:29: literally “Who will give that there shall be this heart in them”; He who asked the question has also supplied the answer, “I will put my laws in their hearts” (Heb. 8:10)'
+    key: ellicott-deuteronomy
+    url: 'https://biblehub.com/commentaries/ellicott/deuteronomy/5.htm'
+    quote: 'He who asked the question has also supplied the, answer: “I will put my laws in their hearts, and in their minds will I write them.”'
+  - where: 'opening'
+    claim: 'Ellicott renders the idiom “Who will give that there shall be this heart in them”'
+    key: ellicott-deuteronomy
+    url: 'https://biblehub.com/commentaries/ellicott/deuteronomy/5.htm'
+    quote: 'Who will give that there shall be this heart in them'
+  - where: 'opening'
+    claim: 'Keil on Jer. 31:33: the law’s circumcision of heart and love of God (Deut. 6:5; 10:12, 16) are impossibilities unless the law be received into the heart; what was commanded in the old covenant is given in the new'
+    key: keil-jeremiah
+    url: 'https://biblehub.com/commentaries/kad/jeremiah/31.htm'
+    quote: 'are impossibilities, unless the law be received into the heart.'
+  - where: 'opening'
+    claim: 'Keil: what was commanded and applied to the heart in the old is given in the new'
+    key: keil-jeremiah
+    url: 'https://biblehub.com/commentaries/kad/jeremiah/31.htm'
+    quote: 'what was commanded and applied to the heart in the old is given in the new'
+  - where: 'opening'
+    claim: 'The Cambridge Bible on 30:6: see 10:16, and in contrast 29:4; compare Jer. 31:33'
+    key: cambridge-deuteronomy
+    url: 'https://biblehub.com/commentaries/cambridge/deuteronomy/30.htm'
+    quote: 'See on Deuteronomy 10:16, and in contrast Deuteronomy 29:4; and cp. Jeremiah 31:33.'
+  - where: 'opening'
+    claim: 'Ellicott on 29:13: the covenant of Deut. 29 is brought into the closest similarity with the New Covenant of Jer. 31:31 and Heb. 8:8; its second part appears in 30:6–8'
+    key: ellicott-deuteronomy
+    url: 'https://biblehub.com/commentaries/ellicott/deuteronomy/29.htm'
+    quote: 'the covenant of Deuteronomy 29 is brought into the closest similarity with that which is called the New Covenant in Jeremiah 31:31, Hebrews 8:8'
+  - where: 'opening'
+    claim: 'Connection made by this page: the heart runs through four steps, wished (5:29), commanded (6:5; 10:16), not given (29:4), given (30:6) for life, and the four as one line are the page’s reading; Keil (on Jer. 31:33) comes nearest with command, impossibility, promise and gift'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/30?lang=eng'
+    quote: 'And the Lord thy God will circumcise thine heart, and the heart of thy seed, to love the Lord thy God with all thine heart, and with all thy soul, that thou mayest live.'
+
+  # ---------- Commanded ----------
   - where: 'section “Commanded”'
-    claim: 'Deut. 6:5 is the central and greatest commandment, and Moses reiterates it at 30:6, 10, 16 and 20'
+    claim: 'Muhlestein: Deut. 6:5 is the central and greatest commandment, reiterated at 30:6, 10, 16, 20'
     key: muhlestein-love-neighbor
     url: 'https://rsc.byu.edu/covenant-compassion/covenantal-command'
-    quote: 'the central and greatest commandment within the covenantal laws'
+    quote: 'the central and greatest commandment'
   - where: 'section “Commanded”'
-    claim: 'Deut. 10:16 is an imperative (“and you shall circumcise”), Israel the subject'
+    claim: 'mûl (H4135), “circumcise,” occurs in Deuteronomy only at 10:16 (ûmaltem, 2mp, Israel the subject) and 30:6 (ûmāl, 3ms, the LORD the subject)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
     quote: 'וּ/מַלְתֶּ֕ם'
+  - where: 'section “Commanded”'
+    claim: 'The Bible Dictionary “Circumcision” lists Deut. 10:16; 30:6; Jer. 4:4 among texts for circumcision as dedication from sin'
+    key: bd-circumcision
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/circumcision?lang=eng'
+    quote: 'Deut. 10:16; 30:6; Jer. 4:4'
+  - where: 'section “Commanded”'
+    claim: 'The Old Testament Student Manual: the Lord speaks of true circumcision as the circumcision of the heart (Deut. 10:16; 30:6; Jer. 4:4; Acts 7:51; Rom. 2:25–29; Col. 2:11)'
+    key: ot-manual-genesis-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-12-17-abraham-father-of-the-faithful?lang=eng'
+    quote: 'the Lord speaks of true circumcision as being the circumcision of the heart'
+  - where: 'section “Commanded”'
+    claim: 'Wessel: Deuteronomy uses circumcision to invite Israel to internalize their commitment to God'
+    key: wessel-circumcision
+    url: 'https://rsc.byu.edu/vol-20-no-3-2019/circumcision-old-testament'
+    quote: 'to internalize their commitment to God'
+
+  # ---------- Not given ----------
   - where: 'section “Not given”'
-    claim: 'The noun in Deut. 29:4 is lev (H3820), not levav'
+    claim: '29:4 “hath not given,” nātan (H5414) negated, the LORD the subject, with lēb (H3820) and lādaʿat; the verb of 5:29’s mî yittēn'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'לֵב֙'
+    quote: 'נָתַן֩'
   - where: 'section “Not given”'
-    claim: 'Deut. 5:29 and 30:6 use levav (H3824)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'לְבָבְ/ךָ֖'
+    claim: 'Keil on 29:4: Jehovah had not given them a heart, i.e., understanding; Moses does not excuse the people but explains the need to keep recalling God’s acts'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/29.htm'
+    quote: 'Moses does not intend to excuse the previous want of susceptibility on the part of the nation'
   - where: 'section “Not given”'
-    claim: 'Connection made by this page: Deut. 5:29 (the heart wished for at Horeb) set beside Deut. 29:4 (the LORD has not given an heart, unto this day), by the two verses plain words'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/29?lang=eng'
-    quote: 'Yet the LORD hath not given you an heart to perceive'
-  - where: 'section “Given”'
-    claim: 'A circumcised heart conveys a change in their nature'
-    key: scripture-helps-deut
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/18-deuteronomy-6-8-15-18-29-30-34?lang=eng'
-    quote: 'The imagery of a circumcised heart conveys the idea that one’s covenant with the Lord has become a fundamental part of them and that they have experienced a change in their nature.'
-  - where: 'section “Given”'
-    claim: 'The manual’s endnote joins Deut. 30:6 to 10:16, Jer. 4:4 and 31:33'
-    key: scripture-helps-deut
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/18-deuteronomy-6-8-15-18-29-30-34?lang=eng'
-    quote: 'See Deuteronomy 10:16; Jeremiah 4:4; 31:33.'
-  - where: 'section “Given”'
-    claim: '“That ye may live” in 4:1 is the verb (ḥayah)'
+    claim: 'Keil on 29:4: the Lord had not yet given an understanding heart because the people had not yet asked for it, the need not being felt'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/29.htm'
+    quote: 'because the people had not yet asked for it, simply because the need of it was not felt'
+  - where: 'section “Not given”'
+    claim: 'The Cambridge Bible on 29:4: the inward power to recognize the deeds is also of the gift of God; the sentence expresses the grace of God and the responsibility of man'
+    key: cambridge-deuteronomy
+    url: 'https://biblehub.com/commentaries/cambridge/deuteronomy/29.htm'
+    quote: 'is also, equally with them, of the gift of God'
+  - where: 'section “Not given”'
+    claim: 'Cambridge: the grace of God and the responsibility of man'
+    key: cambridge-deuteronomy
+    url: 'https://biblehub.com/commentaries/cambridge/deuteronomy/29.htm'
+    quote: 'the grace of God and the responsibility of man'
+
+  # ---------- Given, for thy life ----------
+  - where: 'section “Given, for thy life”'
+    claim: '30:6 ûmāl, the LORD the subject; lĕʾahăbâ, infinitive “to love”; lĕmaʿan ḥayyeykā, preposition + noun “for thy life”'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'תִּֽחְי֗וּ'
-  - where: 'section “Given”'
-    claim: 'The same verb at 8:1'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'תִּֽחְי֜וּ/ן'
-  - where: 'section “Given”'
-    claim: 'The same verb at 30:16'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'וְ/חָיִ֣יתָ'
-  - where: 'section “Given”'
-    claim: 'The same verb at 30:19'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'תִּחְיֶ֖ה'
-  - where: 'section “Given”'
-    claim: 'The same verb clause at 5:33'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'תִּֽחְיוּ/ן'
-  - where: 'section “Given”'
-    claim: 'The same verb clause at 16:20'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'תִּֽחְיֶה'
-  - where: 'section “Given”'
-    claim: 'Deut. 30:6 ends with the noun “thy life” (lemaʿan ḥayyekha), not the verb'
+    quote: 'וּ/מָ֨ל'
+  - where: 'section “Given, for thy life”'
+    claim: '30:6 “that thou mayest live” is lĕmaʿan + the noun ḥayyeykā (H2416e), where 4:1, 30:16, 30:19 have the verb ḥāyâ (H2421)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
     quote: 'חַיֶּֽי/ךָ'
-  - where: 'section “He is thy life”'
-    claim: 'Deut. 30:20 “he is thy life”: ki hu ḥayyekha, the noun of 30:6 with “he” as subject'
+  - where: 'section “Given, for thy life”'
+    claim: 'Keil on 30:6: when Israel turns to the Lord He will take away the stony heart and give a heart of flesh, a new heart and a new spirit (Ezek. 11:19; 36:26; Jer. 31:33); the fulfilment began at the return from Babylon and at the appearance of Christ'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/30.htm'
+    quote: 'would take away the stony heart out of their flesh, and give them a heart of flesh, a new heart and a new spirit'
+  - where: 'section “Given, for thy life”'
+    claim: 'Keil: the fulfilment began at the appearance of Christ'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/30.htm'
+    quote: 'at the appearance of Christ'
+  - where: 'section “Given, for thy life”'
+    claim: 'Scripture Helps on 30:6: the circumcised heart conveys a change in their nature'
+    key: scripture-helps-deut
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/18-deuteronomy-6-8-15-18-29-30-34?lang=eng'
+    quote: 'they have experienced a change in their nature'
+  - where: 'section “Given, for thy life”'
+    claim: 'The Cambridge Bible on 30:6: “that thou mayest live” is lit. for the sake of thy life'
+    key: cambridge-deuteronomy
+    url: 'https://biblehub.com/commentaries/cambridge/deuteronomy/30.htm'
+    quote: 'lit. for the sake of thy life'
+  - where: 'section “Given, for thy life”'
+    claim: 'Jer. 24:7 “I will give them an heart to know me,” wĕnātattî… lēb lādaʿat, the three words of Deut. 29:4 (nātan, lēb H3820, lādaʿat), there negated'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
+    quote: 'וְ/נָתַתִּי֩'
+  - where: 'section “Given, for thy life”'
+    claim: 'Jer. 32:39 “I will give them one heart… that they may fear me for ever, for the good of them, and of their children”: nātan + lēb + lĕyirʾâ, with lĕṭôb lāhem (the lĕṭôb of Deut. 6:24) and “fear me all the days” (Deut. 4:10)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Jer.xml'
+    quote: 'לְ/יִרְאָ֥ה'
+  - where: 'section “Given, for thy life”'
+    claim: 'Keil on Jer. 32:39: the sentence is derived from Deut. 4:10, and “for their good” points to Deut. 6:24 (Bible Hub prints the references as Jeremiah 4:10 and 6:24; the context, “as often in Deut.,” and the Hebrew show Deuteronomy)'
+    key: keil-jeremiah
+    url: 'https://biblehub.com/commentaries/kad/jeremiah/32.htm'
+    quote: 'from which the whole sentence has been derived'
+  - where: 'section “Given, for thy life”'
+    claim: 'Deut. 4:10 lĕyirʾâ ʾōtî kol-hayyāmîm, “to fear me all the days,” with “their children”; 6:24 lĕṭôb lānû, “for our good”'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'כִּ֣י'
-  - where: 'section “He is thy life”'
-    claim: '... with the pronoun hu (“he”)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'ה֤וּא'
-  - where: 'section “He is thy life”'
-    claim: '... and the noun ḥayyekha'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'חַיֶּ֨י/ךָ֙'
-  - where: 'section “He is thy life”'
-    claim: 'Connection made by this page: Deut. 30:6 “for thy life” (lemaʿan ḥayyekha) beside 30:20 “he is thy life” (ki hu ḥayyekha), the same noun'
+    quote: 'לְ/ט֥וֹב'
+  - where: 'section “Given, for thy life”'
+    claim: 'Keil on Jer. 31:33: in the old covenant the law was laid before the people to receive; he sets Moses’ promise (30:6) beside the commands (6:5; 10:12, 16) and says what was commanded in the old is given in the new'
+    key: keil-jeremiah
+    url: 'https://biblehub.com/commentaries/kad/jeremiah/31.htm'
+    quote: 'in the old the law was laid before the people that they might accept it and follow it'
+  - where: 'section “Given, for thy life”'
+    claim: 'Connection made by this page: Jer. 24:7 repeats the three Hebrew words of Deut. 29:4 in the first person (no commentator read pairs them); Keil derives Jer. 32:39 from Deut. 4:10 and 6:24, and the page adds that its “I will give them… heart” answers the Horeb wish of 5:29; the renewal of the withheld heart is the page’s framing'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/30?lang=eng'
-    quote: 'for he is thy life, and the length of thy days'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/24?lang=eng'
+    quote: 'And I will give them an heart to know me, that I am the Lord'
+
+  # ---------- He is thy life ----------
   - where: 'section “He is thy life”'
-    claim: 'The noun also stands at 4:9 (“all the days of thy life”)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'חַיֶּ֑י/ךָ'
-  - where: 'section “He is thy life”'
-    claim: '... and at 6:2'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'חַיֶּ֑י/ךָ'
-  - where: 'section “He is thy life”'
-    claim: '... and at 16:3'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'חַיֶּֽי/ךָ'
-  - where: 'section “He is thy life”'
-    claim: 'The noun also stands at 28:66 (twice)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'בְּ/חַיֶּֽי/ךָ'
-  - where: 'section “He is thy life”'
-    claim: 'The noun stands in the plural at 32:47 (ḥayyekhem), “it is your life”'
+    claim: '30:20 kî hûʾ ḥayyeykā: hûʾ (H1931, 3ms pronoun) + the noun of 30:6; the same clause with a plural suffix at 32:47, kî hûʾ ḥayyêkem, is said of the word of the law'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
     quote: 'חַיֵּי/כֶ֑ם'
   - where: 'section “He is thy life”'
-    claim: 'Deut. 28:66 and 32:47 in the KJV'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/32?lang=eng'
-    quote: 'because it is your life'
+    claim: 'BDB on hûʾ (H1931): pronoun of the 3rd person singular, he, she, used also for the neuter it'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/1931.htm'
+    quote: 'he, she, used also (in both Genders) for the neuter it'
   - where: 'section “He is thy life”'
-    claim: 'The Church’s footnote at Deut. 30:20 “life” reads Acts 17:28 and D&C 88:13'
+    claim: '30:20 hûʾ'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
+    quote: 'ה֤וּא'
+  - where: 'section “He is thy life”'
+    claim: 'The Septuagint of 30:20: ὅτι τοῦτο ἡ ζωή σου, “this is thy life”'
+    key: swete-lxx-deut
+    url: 'https://biblehub.com/sepd/deuteronomy/30.htm'
+    quote: 'ὅτι τοῦτο ἡ ζωή σου'
+  - where: 'section “He is thy life”'
+    claim: 'Keil on 30:20: for that (namely, to love the Lord) is thy life'
+    key: keil-deuteronomy
+    url: 'https://biblehub.com/commentaries/kad/deuteronomy/30.htm'
+    quote: 'for that (namely, to love the Lord) is thy life'
+  - where: 'section “He is thy life”'
+    claim: 'The Cambridge Bible on 30:20: for that is thy life, a variant of 4:1; 4:40'
+    key: cambridge-deuteronomy
+    url: 'https://biblehub.com/commentaries/cambridge/deuteronomy/30.htm'
+    quote: 'for that is thy life, etc.] Variant from Deuteronomy 4:1; Deuteronomy 4:40'
+  - where: 'section “He is thy life”'
+    claim: 'NRSVUE 30:20: for that means life to you'
+    key: nrsvue
+    url: 'https://www.biblegateway.com/passage/?search=Deuteronomy+30%3A20&version=NRSVUE'
+    quote: 'for that means life to you and length of days'
+  - where: 'section “He is thy life”'
+    claim: 'ESV 30:20: for he is your life'
+    key: esv
+    url: 'https://biblehub.com/deuteronomy/30-20.htm'
+    quote: 'for he is your life and length of days'
+  - where: 'section “He is thy life”'
+    claim: 'NIV 30:20: For the LORD is your life'
+    key: niv
+    url: 'https://biblehub.com/deuteronomy/30-20.htm'
+    quote: 'For the LORD is your life'
+  - where: 'section “He is thy life”'
+    claim: 'Ellicott on 30:20: the Old Testament form of John 11:25–26'
+    key: ellicott-deuteronomy
+    url: 'https://biblehub.com/commentaries/ellicott/deuteronomy/30.htm'
+    quote: 'This is the Old Testament form of a well-known saying in the New Testament'
+  - where: 'section “He is thy life”'
+    claim: 'Elaine L. Jack (1993): the Lord is indeed your life, and the length of thy days'
+    key: jack-get-a-life
+    url: 'https://www.churchofjesuschrist.org/study/church-historians-press/at-the-pulpit/part-4/chapter-45?lang=eng'
+    quote: 'the Lord is indeed your “life, and the length of thy days.”'
+  - where: 'section “He is thy life”'
+    claim: 'The Church’s footnote at 30:20 “life” leads to Acts 17:28 and D&C 88:13'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/30?lang=eng'
-    quote: 'Acts 17:28; D&C 88:13'
+    quote: 'Acts 17:28'
   - where: 'section “He is thy life”'
-    claim: 'Deut. 4:4 has the adjective “cleaving” (davek), same root as the verb “cleave” (davaq) at 30:20'
+    claim: '4:4 “cleave” is the adjective haddĕbēqîm (H1695) and “alive” the adjective ḥayyîm (H2416a); 30:20 has the verb dābaq (H1692) and the noun ḥayyîm (H2416e): different forms'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
     quote: 'הַ/דְּבֵקִ֔ים'
   - where: 'section “He is thy life”'
-    claim: '... the verb davaq at 30:20'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'וּ/לְ/דָבְקָה'
-  - where: 'section “He is thy life”'
-    claim: '“Alive” at 4:4 (ḥayyim) is the lexeme (H2416) of “thy life”'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Deut.xml'
-    quote: 'חַיִּ֥ים'
-  - where: 'section “He is thy life”'
-    claim: 'Connection made by this page: Deut. 4:4 and 30:20 set beside each other by the root dvq (cleave) and ḥay (alive, life); cleaving and being alive as act and outcome in 4:4, cleaving and “he is thy life” in 30:20'
+    claim: 'Connection made by this page: the page follows the King James “he” (with ESV, NIV, Ellicott, Jack) against the Septuagint, Keil, Cambridge and NRSVUE’s “that,” on the antecedent “him” and the Church’s footnotes, and says the argument stands on either reading; 4:4 beside 30:20 (cleaving and life as act and outcome, then act and reason) is a join by sense, the page’s own'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/4?lang=eng'
-    quote: 'ye that did cleave unto the LORD your God are alive every one of you this day'
-  - where: 'section “The heart He changes, the life He is”'
-    claim: 'Being born again is to have the Spirit of the Lord cause a mighty change in a person’s heart'
+    quote: 'ye that did cleave unto the Lord your God are alive every one of you this day.'
+
+  # ---------- The heart He gives, the life He is ----------
+  - where: 'section “The heart He gives, the life He is”'
+    claim: 'The Bible Dictionary: Jehovah is the premortal Jesus Christ'
+    key: bd-jehovah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/jehovah?lang=eng'
+    quote: 'Jehovah is the premortal Jesus Christ'
+  - where: 'section “The heart He gives, the life He is”'
+    claim: 'The Church’s footnotes at Deut. 10:16: “Circumcise” glossed “IE Purify your hearts”; “heart” leads to Mosiah 4:2'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/10?lang=eng'
+    quote: 'IE Purify your hearts.'
+  - where: 'section “The heart He gives, the life He is”'
+    claim: 'Mosiah 4:2: apply the atoning blood of Christ that we may receive forgiveness of our sins, and our hearts may be purified'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/4?lang=eng'
+    quote: 'apply the atoning blood of Christ that we may receive forgiveness of our sins, and our hearts may be purified'
+  - where: 'section “The heart He gives, the life He is”'
+    claim: 'Mosiah 5:7: Benjamin speaks, their hearts are changed through faith on his name, because of the covenant which ye have made'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/5?lang=eng'
+    quote: 'for ye say that your hearts are changed through faith on his name'
+  - where: 'section “The heart He gives, the life He is”'
+    claim: 'The Guide to the Scriptures “Born Again”: to have the Spirit of the Lord cause a mighty change in a person’s heart'
     key: gs-born-again
     url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/born-again-born-of-god?lang=eng'
-    quote: 'To have the Spirit of the Lord cause a mighty change in a person’s heart'
-  - where: 'section “The heart He changes, the life He is”'
-    claim: 'Benjamin’s people: the Spirit has wrought a mighty change in their hearts'
+    quote: 'to have the Spirit of the Lord cause a mighty change in a person’s heart'
+  - where: 'section “The heart He gives, the life He is”'
+    claim: 'The Old Testament Student Manual: the heart is the organ of spiritual rebirth'
+    key: ot-manual-genesis-12-17
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/genesis-12-17-abraham-father-of-the-faithful?lang=eng'
+    quote: 'the organ of spiritual rebirth'
+  - where: 'section “The heart He gives, the life He is”'
+    claim: 'Connection made by this page: the Church’s footnote joins 10:16 to Mosiah 4:2 (hearts purified through the Atonement); reading Mosiah 5:2, 7 as Deuteronomy’s fourth step told from inside is the page’s; the step from the Giver to the life is Ellicott’s reading of 30:20 (John 11:25), taken with him as a reading'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/5?lang=eng'
-    quote: 'which has wrought a mighty change in us, or in our hearts'
-  - where: 'section “The heart He changes, the life He is”'
-    claim: 'Mosiah 5:7: hearts changed through faith on his name'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/5?lang=eng'
-    quote: 'your hearts are changed through faith on his name'
-  - where: 'section “The heart He changes, the life He is”'
-    claim: 'Connection made by this page: Deut. 30:6 “the LORD thy God will circumcise” beside Col. 2:11 “circumcision made without hands… the circumcision of Christ”, each naming an agent other than the one circumcised'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/col/2?lang=eng'
-    quote: 'the circumcision made without hands'
-  - where: 'section “The heart a disciple is given”'
-    claim: 'Mormon: pray with all the energy of heart to be filled with this love, which he hath bestowed'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng'
-    quote: 'pray unto the Father with all the energy of heart, that ye may be filled with this love, which he hath bestowed upon all who are true followers of his Son'
-  - where: 'section “The heart a disciple is given”'
-    claim: 'Connection made by this page: Deut. 30:6 “to love… with all thine heart” (love commanded, the LORD circumcising) beside Moro. 7:48 “this love, which he hath bestowed” (love bestowed)'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng'
-    quote: 'filled with this love, which he hath bestowed'
-  - where: 'section “The heart a disciple is given”'
-    claim: 'God commands us to love Him because of what He knows it will do for us'
-    key: christofferson-first-commandment
-    url: 'https://www.churchofjesuschrist.org/study/liahona/2023/02/digital-only/the-first-commandment-first?lang=eng'
-    quote: 'God commands us to love Him because of what He knows it will do for us.'
-  - where: 'section “The heart a disciple is given”'
-    claim: 'The Church’s footnote at Deut. 30:15 “life” cites 2 Ne. 2:27 (free to choose liberty and eternal life through the great Mediator)'
+    quote: 'has wrought a mighty change in us, or in our hearts, that we have no more disposition to do evil'
+
+  # ---------- Choose life ----------
+  - where: 'section “Choose life”'
+    claim: 'The Church’s footnote at Deut. 30:15 “life” leads to Jer. 21:8 and 2 Ne. 2:27'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/30?lang=eng'
     quote: '2 Ne. 2:27'
+  - where: 'section “Choose life”'
+    claim: 'Come, Follow Me 2026 compares Deut. 29:9; 30:15–20 with Lehi (2 Ne. 2:26–29) and asks what inspires the reader to choose life'
+    key: cfm-ot-2026-20
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/20?lang=eng'
+    quote: '2 Nephi 2:26–29'
+  - where: 'section “Choose life”'
+    claim: 'KnoWhy #287: Lehi’s statement strongly echoes Deuteronomy 30:19'
+    key: sc-knowhy-287
+    url: 'https://scripturecentral.org/knowhy/why-did-lehi-teach-about-the-two-ways'
+    quote: 'Lehi’s statement strongly echoes Deuteronomy'
+  - where: 'section “Choose life”'
+    claim: 'Elder Christofferson: God commands us to love Him because of what He knows it will do for us'
+    key: christofferson-first-commandment
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2023/02/digital-only/the-first-commandment-first?lang=eng'
+    quote: 'God commands us to love Him because of what He knows it will do for us.'
+  - where: 'section “Choose life”'
+    claim: 'Connection made by this page: a disciple with the first commandment beyond his heart stands between 10:16 and 30:6, and the book answers with the promise of 30:6 to those who return (30:2); Moro. 7:47–48’s charity bestowed set beside 6:5’s love commanded is the page’s pairing, not an identity; the choosing (30:19) stays the disciple’s, open through the Mediator (2 Ne. 2:27, the Church’s footnote at 30:15)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/moro/7?lang=eng'
+    quote: 'pray unto the Father with all the energy of heart, that ye may be filled with this love, which he hath bestowed upon all who are true followers of his Son'

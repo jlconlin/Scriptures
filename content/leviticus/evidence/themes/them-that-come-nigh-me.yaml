@@ -1,117 +1,358 @@
 page: them-that-come-nigh-me
 claims:
-  - where: opening
-    claim: 'Hebrews reads the single yearly entry as a sign that the way into the holiest was not yet made manifest'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/9?lang=eng'
-    quote: 'The Holy Ghost this signifying, that the way into the holiest of all was not yet made manifest, while as the first tabernacle was yet standing:'
-  - where: opening
-    claim: 'Come, Follow Me on the goats: God provided another way'
-    key: cfm-ot-2026-tabernacle
-    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/17-thoughts?lang=eng'
-    quote: 'Sin must not be allowed in God’s presence. But rather than destroy or drive out the sinners, God provided another way—a goat would be killed or driven out instead.'
-  - where: 'section “The fire that accepts, and the fire that devours”'
-    claim: 'The strange fire is explained as fire not taken from the altar'
-    key: bd-nadab
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/nadab?lang=eng'
-    quote: 'struck dead for offering “strange” fire (fire not taken from the altar)'
-  - where: 'section “The fire that accepts, and the fire that devours”'
-    claim: 'qarab (H7126) occurs 102 times in Leviticus; 9:5 "drew near" is wayyiqrebu'
+  # ---------- opening ----------
+  - where: 'opening'
+    claim: 'qārab (H7126) 102 occurrences in 91 verses of Leviticus; 9:5 wayyiqrĕbû (qal); 10:1 wayyaqrîbû (hiphil, “offered”)'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
-    quote: 'וַֽ/יִּקְרְבוּ'
-  - where: 'section “The fire that accepts, and the fire that devours”'
-    claim: '10:1 "offered" is wayyaqribu, from the same root H7126'
+    quote: 'וַֽ/יִּקְרְבוּ֙'
+  - where: 'opening'
+    claim: 'Lev. 9:5, 6, 24 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/9?lang=eng'
+    quote: 'and all the congregation drew near and stood before the Lord.'
+  - where: 'opening'
+    claim: 'Lev. 9:6 “This is the thing which the Lord commanded that ye should do: and the glory of the Lord shall appear unto you.”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/9?lang=eng'
+    quote: 'This is the thing which the Lord commanded that ye should do: and the glory of the Lord shall appear unto you.'
+  - where: 'opening'
+    claim: 'Lev. 10:1–3 as quoted; footnote 10:2a ↔ 9:24a'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/10?lang=eng'
+    quote: 'and offered strange fire before the Lord, which he commanded them not.'
+  - where: 'opening'
+    claim: '9:24 and 10:2 open with the same five words, wattēṣēʾ ʾēš millipnê YHWH wattōʾkal (H3318, H784, H6440, H3068, H398); the objects differ'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'וַ/תֹּ֨אכַל֙'
+  - where: 'opening'
+    claim: '10:2 wattōʾkal, the same verb (H398)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'וַ/תֹּ֣אכַל'
+  - where: 'opening'
+    claim: '10:3 biqrōbay is the adjective qārôb (H7138), “the near ones,” from the root of qārab'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'בִּ/קְרֹבַ֣/י'
+  - where: 'opening'
+    claim: 'Cambridge on 10:3: “the priests are those who have the right to approach God, and He shews Himself holy in punishing those who do it improperly”'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/10.htm'
+    quote: 'the priests are those who have the right to approach God, and He shews Himself holy in punishing those who do it improperly'
+  - where: 'opening'
+    claim: 'Lev. 15:31; 16:2; 16:30 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/16?lang=eng'
+    quote: 'that he come not at all times into the holy place within the veil before the mercy seat, which is upon the ark; that he die not'
+  - where: 'opening'
+    claim: 'Heb. 9:7–8, 12 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/9?lang=eng'
+    quote: 'that the way into the holiest of all was not yet made manifest, while as the first tabernacle was yet standing'
+  - where: 'opening'
+    claim: 'Keil on 9:24: the fire gave “a divine consecration to the altar, or sacrificial service of Aaron and his sons, through which a way was to be opened for the people to His throne of grace”'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/9.htm'
+    quote: 'through which a way was to be opened for the people to His throne of grace'
+  - where: 'opening'
+    claim: 'Keil on 16:34: the yearly repetition “could not fail to awaken a longing for the perfect sacrifice of the eternal High Priest, who has obtained eternal redemption by entering once, through His own blood, into the holiest of all (Hebrews 9:7-12)”'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/16.htm'
+    quote: 'could not fail to awaken a longing for the perfect sacrifice of the eternal High Priest'
+  - where: 'opening'
+    claim: 'Connection made by this page: Leviticus’s approaches read as one rule, nearness commanded and given, never taken (9:5–6 “as the LORD commanded” accepted by fire; 10:1 “which he commanded them not” consumed by the same five words; 16:2 “not at all times”; Heb. 10:22 “let us draw near” by the way He consecrated); the sources read each passage in its place'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/9?lang=eng'
+    quote: 'and offer the offering of the people, and make an atonement for them; as the Lord commanded.'
+  # ---------- section “All the congregation drew near” ----------
+  - where: 'section “All the congregation drew near”'
+    claim: 'Lev. 9:5, 6, 7, 23, 24 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/9?lang=eng'
+    quote: 'And there came a fire out from before the Lord, and consumed upon the altar the burnt offering and the fat: which when all the people saw, they shouted, and fell on their faces.'
+  - where: 'section “All the congregation drew near”'
+    claim: 'Cambridge on 9:24: the glory and the fire are a further sign of approval; similar manifestations at Judg. 6:21; 1 Kgs 18:38; 1 Chr. 21:26'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/9.htm'
+    quote: 'Similar manifestations of approval are recorded'
+  - where: 'section “All the congregation drew near”'
+    claim: 'Student Manual 14-19: the first altar fire “was kindled by direct action of Jehovah (see Leviticus 9:23–24)”'
+    key: ot-manual-lev-1-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/leviticus-1-10-a-law-of-performances-and-ordinances-part-1-sacrifices-and-offerings?lang=eng'
+    quote: 'was kindled by direct action of Jehovah'
+  - where: 'section “All the congregation drew near”'
+    claim: 'Keil on 9:24: “to give a divine consecration to the altar, or sacrificial service of Aaron and his sons, through which a way was to be opened for the people to His throne of grace”'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/9.htm'
+    quote: 'to give a divine consecration to the altar, or sacrificial service of Aaron and his sons'
+  # ---------- section “Which he commanded them not” ----------
+  - where: 'section “Which he commanded them not”'
+    claim: 'Lev. 10:1–4 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/10?lang=eng'
+    quote: 'And there went out fire from the Lord, and devoured them, and they died before the Lord.'
+  - where: 'section “Which he commanded them not”'
+    claim: '10:1 wayyaqrîbû hiphil “offered”; 9:5 wayyiqrĕbû qal “drew near”; 10:4 qirbû “Come near” (qal) of the men who carry the bodies'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
     quote: 'וַ/יַּקְרִ֜בוּ'
-  - where: 'section “The fire that accepts, and the fire that devours”'
-    claim: 'Connection made by this page: the people "drew near" (9:5) and the priests "offered" (10:1) are the same verb'
+  - where: 'section “Which he commanded them not”'
+    claim: 'Bible Dictionary, Nadab: “struck dead for offering “strange” fire (fire not taken from the altar)”'
+    key: bd-nadab
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/nadab?lang=eng'
+    quote: 'fire not taken from the altar'
+  - where: 'section “Which he commanded them not”'
+    claim: 'Student Manual 14-23: “these two sons of Aaron engaged in an unauthorized form of worship”; whether the coals or the incense “is not clear from the account”'
+    key: ot-manual-lev-1-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/leviticus-1-10-a-law-of-performances-and-ordinances-part-1-sacrifices-and-offerings?lang=eng'
+    quote: 'is not clear from the account'
+  - where: 'section “Which he commanded them not”'
+    claim: 'Student Manual 14-23: “an unauthorized form of worship”'
+    key: ot-manual-lev-1-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/leviticus-1-10-a-law-of-performances-and-ordinances-part-1-sacrifices-and-offerings?lang=eng'
+    quote: 'these two sons of Aaron engaged in an unauthorized form of worship'
+  - where: 'section “Which he commanded them not”'
+    claim: 'Seminary Teacher Resource Manual prints McConkie (The Millennial Messiah, 80): “ordinances of their own devising”; “a type and a shadow of the spiritual destruction awaiting all who pervert the right ways of the Lord with ordinances of their own”'
+    key: ot-seminary-teacher-resource-lev-1-16
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-resource-manual/the-book-of-leviticus/leviticus-1-16?lang=eng'
+    quote: 'a type and a shadow of the spiritual destruction awaiting all who pervert the right ways of the Lord with ordinances of their own'
+  - where: 'section “Which he commanded them not”'
+    claim: 'McConkie as printed: “ordinances of their own devising”'
+    key: ot-seminary-teacher-resource-lev-1-16
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-resource-manual/the-book-of-leviticus/leviticus-1-16?lang=eng'
+    quote: 'ordinances of their own devising'
+  - where: 'section “Which he commanded them not”'
+    claim: 'Footnote 9:24a ↔ 10:2a (the Church’s edition joins the two fires)'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/10?lang=eng'
-    quote: 'offered strange fire before the LORD, which he commanded them not.'
-  - where: 'section “Put outside, that they die not”'
-    claim: 'Bible Dictionary: uncleanness was ceremonial, not morally evil; the unclean were cut off from the congregation'
-    key: bd-clean-unclean
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/clean-and-unclean?lang=eng'
-    quote: 'Uncleanness referred to being ceremonially or ritually unclean and should not be taken to mean that the touching of a dead body or the bearing of children was morally evil.'
-  - where: 'section “Put outside, that they die not”'
-    claim: 'Bible Dictionary: the unclean were cut off from the congregation'
-    key: bd-clean-unclean
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/clean-and-unclean?lang=eng'
-    quote: 'So long as a person was unclean he was cut off from the congregation.'
-  - where: 'section “Put outside, that they die not”'
-    claim: 'Guide to the Scriptures: spiritual sense of clean'
-    key: gs-clean-unclean
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/clean-and-unclean?lang=eng'
-    quote: 'In a spiritual sense, to be clean is to be free from sin and sinful desires.'
-  - where: 'section “Put outside, that they die not”'
-    claim: 'KnoWhy 479 joins physical and spiritual uncleanness'
-    key: sc-knowhy-479
-    url: 'https://scripturecentral.org/knowhy/how-is-the-day-of-atonement-understood-in-the-book-of-mormon'
-    quote: 'then they would be cut off spiritually from God Himself for being spiritually unclean until that condition of impurity was removed.'
-  - where: 'section “One way in, once a year”'
-    claim: 'The day was the only occasion the high priest could enter the Holy of Holies'
-    key: scripture-helps-ex-35
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/16-exodus-35-40-leviticus-1-4-16-19?lang=eng'
-    quote: 'This day was unique because it was the only occasion when the high priest could enter the Holy of Holies, the most sacred area of the tabernacle.'
-  - where: 'section “One way in, once a year”'
-    claim: '16:16 "remaineth" is shoken (H7931 participle)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
-    quote: 'הַ/שֹּׁכֵ֣ן'
-  - where: 'section “One way in, once a year”'
-    claim: '15:31 "tabernacle" is mishkan (H4908)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
-    quote: 'מִשְׁכָּנִ֖/י'
-  - where: 'section “One way in, once a year”'
-    claim: 'Ex. 25:8 "dwell" is from the same verb H7931'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
-    quote: 'וְ/שָׁכַנְתִּ֖י'
-  - where: 'section “One way in, once a year”'
-    claim: 'Connection made by this page: 16:16 names "uncleanness" and "transgressions", and the tent "that remaineth among them" answers "my tabernacle that is among them" (15:31)'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/16?lang=eng'
-    quote: 'because of the uncleanness of the children of Israel, and because of their transgressions in all their sins: and so shall he do for the tabernacle of the congregation, that remaineth among them in the midst of their uncleanness.'
-  - where: 'section “The way into the holiest”'
-    claim: 'Scripture Helps: the high priest who took blood through the veil foreshadowed Christ'
-    key: scripture-helps-ex-35
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/16-exodus-35-40-leviticus-1-4-16-19?lang=eng'
-    quote: 'the high priest who took the sacrificial blood through the veil foreshadowed Jesus Christ'
-  - where: 'section “The way into the holiest”'
-    claim: 'Tanner: Christ opened the sanctuary to all believers'
-    key: tanner-advocate
-    url: 'https://rsc.byu.edu/celebrating-easter/christ-our-advocate-high-priest'
-    quote: 'Christ’s atoning sacrifice has opened the sanctuary of God to all believers.'
-  - where: 'section “The way into the holiest”'
-    claim: 'Come, Follow Me: the goats symbolized Christ, and God provided another way'
-    key: cfm-ot-2026-tabernacle
-    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/17-thoughts?lang=eng'
-    quote: 'the goats symbolized Jesus Christ, taking the place of the sinful people. Sin must not be allowed in God’s presence.'
-  - where: 'section “The way into the holiest”'
-    claim: 'Connection made by this page: the manual’s "destroy" and "drive out" set beside "devoured"/"that they die not" and "without the camp"'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/9?lang=eng'
+    quote: 'And there came a fire out from before the Lord'
+  - where: 'section “Which he commanded them not”'
+    claim: 'Ellicott on 10:2: “The word consume, however, is used here to keep up the connection between this verse and chap 9:24.”'
+    key: ellicott-leviticus
+    url: 'https://biblehub.com/commentaries/ellicott/leviticus/10.htm'
+    quote: 'The word consume, however, is used here to keep up the connection between this verse and chap 9:24.'
+  - where: 'section “Which he commanded them not”'
+    claim: 'Keil on 10:1–2: “The fire of the holy God (Exodus 19:18), which had just sanctified the service of Aaron as well-pleasing to God, brought destruction upon his two eldest sons”'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/10.htm'
+    quote: 'which had just sanctified the service of Aaron as well-pleasing to God, brought destruction upon his two eldest sons'
+  - where: 'section “Which he commanded them not”'
+    claim: 'Pulpit on 10:3: “If they have greater privileges, they have greater perils”'
+    key: pulpit-leviticus
+    url: 'https://biblehub.com/commentaries/pulpit/leviticus/10.htm'
+    quote: 'If they have greater privileges, they have greater perils'
+  - where: 'section “Which he commanded them not”'
+    claim: 'Cambridge on 10:3 (see opening row): the priests are those who have the right to approach God'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/10.htm'
+    quote: 'The sense is that the priests are those who have the right to approach God'
+  # ---------- section “That they die not” ----------
+  - where: 'section “That they die not”'
+    claim: 'Lev. 13:46 as quoted'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/13?lang=eng'
     quote: 'he shall dwell alone; without the camp shall his habitation be.'
-  - where: 'section “The way into the holiest”'
-    claim: 'Bible Dictionary: uncleanness was not moral evil'
+  - where: 'section “That they die not”'
+    claim: 'Lev. 15:31 as quoted; wĕlōʾ yāmutû'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/15?lang=eng'
+    quote: 'that they die not in their uncleanness, when they defile my tabernacle that is among them.'
+  - where: 'section “That they die not”'
+    claim: '15:31 yāmutû and 16:2 yāmût (H4191), the formula wĕlōʾ yāmût'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'יָמֻ֨תוּ֙'
+  - where: 'section “That they die not”'
+    claim: 'Cambridge on 16:2: “The expression ‘that he die not’ is used generally in connexion with infringement of rules by priests, Levites, and people, and its use here does not imply any reference to the story of Nadab and Abihu.”'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/16.htm'
+    quote: 'is used generally in connexion with infringement of rules by priests, Levites, and people, and its use here does not imply any reference to the story of Nadab and Abihu'
+  - where: 'section “That they die not”'
+    claim: 'Bible Dictionary, Clean and unclean: “ceremonially or ritually unclean and should not be taken to mean that the touching of a dead body or the bearing of children was morally evil”; “So long as a person was unclean he was cut off from the congregation.”'
     key: bd-clean-unclean
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/clean-and-unclean?lang=eng'
-    quote: 'should not be taken to mean that the touching of a dead body or the bearing of children was morally evil'
-  - where: 'section “One way in, once a year”'
-    claim: 'The annual ceremony allowed God’s presence to remain among the people (what the shoken/mishkan connection shows)'
+    quote: 'Uncleanness referred to being ceremonially or ritually unclean and should not be taken to mean that the touching of a dead body or the bearing of children was morally evil.'
+  - where: 'section “That they die not”'
+    claim: 'Bible Dictionary: “So long as a person was unclean he was cut off from the congregation.”'
+    key: bd-clean-unclean
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/clean-and-unclean?lang=eng'
+    quote: 'So long as a person was unclean he was cut off from the congregation.'
+  - where: 'section “That they die not”'
+    claim: 'Lev. 16:16 as quoted: atonement for the holy place “because of the uncleanness of the children of Israel”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/16?lang=eng'
+    quote: 'because of the uncleanness of the children of Israel'
+  # ---------- section “That he come not at all times” ----------
+  - where: 'section “That he come not at all times”'
+    claim: 'Lev. 16:1–2, 16, 17, 30, 34 as quoted; footnote 16:1a ↔ 10:1a; 16:2a → Heb. 9:12; 10:19'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/16?lang=eng'
+    quote: 'And the Lord spake unto Moses after the death of the two sons of Aaron, when they offered before the Lord, and died'
+  - where: 'section “That he come not at all times”'
+    claim: '16:1 bĕqorbātām, qal infinitive of qārab, “in their drawing near”'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'בְּ/קָרְבָתָ֥/ם'
+  - where: 'section “That he come not at all times”'
+    claim: 'Keil on 16:1–2: “The death of Aaron’s sons, as a punishment for wilfully “drawing near before Jehovah,” was to be a solemn warning to Aaron himself … but only at the time to be appointed by Jehovah, and for the purposes instituted by Him”'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/16.htm'
+    quote: 'was to be a solemn warning to Aaron himself'
+  - where: 'section “That he come not at all times”'
+    claim: 'Keil: “but only at the time to be appointed by Jehovah, and for the purposes instituted by Him”'
+    key: keil-leviticus
+    url: 'https://biblehub.com/commentaries/kad/leviticus/16.htm'
+    quote: 'but only at the time to be appointed by Jehovah, and for the purposes instituted by Him'
+  - where: 'section “That he come not at all times”'
+    claim: 'Pulpit on 16:2: “Nadab and Abihu having died for their rash presumption in venturing unbidden into the tabernacle, it was natural that Aaron … should be struck with fear”'
+    key: pulpit-leviticus
+    url: 'https://biblehub.com/commentaries/pulpit/leviticus/16.htm'
+    quote: 'Nadab and Abihu having died for their rash presumption in venturing unbidden into the tabernacle'
+  - where: 'section “That he come not at all times”'
+    claim: 'Lev. 16:17 “there shall be no man in the tabernacle of the congregation when he goeth in”; 16:30 as quoted; 16:34 “once a year”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/16?lang=eng'
+    quote: 'And there shall be no man in the tabernacle of the congregation when he goeth in to make an atonement in the holy place, until he come out'
+  - where: 'section “That he come not at all times”'
+    claim: 'Lev. 16:30 “that ye may be clean from all your sins before the Lord”; 16:34 “once a year”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/16?lang=eng'
+    quote: 'to make an atonement for the children of Israel for all their sins once a year.'
+  - where: 'section “That he come not at all times”'
+    claim: 'Scripture Helps (Lev. 16): “it was the only occasion when the high priest could enter the Holy of Holies”'
+    key: scripture-helps-ex-35
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/16-exodus-35-40-leviticus-1-4-16-19?lang=eng'
+    quote: 'it was the only occasion when the high priest could enter the Holy of Holies'
+  - where: 'section “That he come not at all times”'
+    claim: 'Come, Follow Me 2026 (tabernacle): “This allowed God’s presence to remain among the people.”; “Sin must not be allowed in God’s presence. But rather than destroy or drive out the sinners, God provided another way—a goat would be killed or driven out instead.”'
+    key: cfm-ot-2026-tabernacle
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/17-thoughts?lang=eng'
+    quote: 'But rather than destroy or drive out the sinners, God provided another way—a goat would be killed or driven out instead.'
+  - where: 'section “That he come not at all times”'
+    claim: 'Come, Follow Me: “This allowed God’s presence to remain among the people.”'
     key: cfm-ot-2026-tabernacle
     url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/17-thoughts?lang=eng'
     quote: 'This allowed God’s presence to remain among the people.'
-  - where: 'section “The way into the holiest”'
-    claim: 'The live goat was driven out of the camp of Israel'
+  - where: 'section “That he come not at all times”'
+    claim: 'Connection made by this page: the manual’s “destroy” is read as the fire of 10:2, the book’s answer to a sin committed in the LORD’s presence; the manual speaks of sinners and names no chapter; the day gives the people cleansing (16:30) without their coming in'
     key: cfm-ot-2026-tabernacle
     url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/17-thoughts?lang=eng'
-    quote: 'The goat was then driven out of the camp of Israel.'
-  - where: 'section “The fire that accepts, and the fire that devours”'
-    claim: 'Connection made by this page: chapter 9 brings "that which Moses commanded" (9:5); the sons bring fire "which he commanded them not" (10:1)'
+    quote: 'Sin must not be allowed in God’s presence.'
+  - where: 'section “That he come not at all times”'
+    claim: 'Lev. 21:21, 23; 22:3 as quoted; 21:21, 23 use nāgaš (H5066) “come nigh”'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/9?lang=eng'
-    quote: 'And they brought that which Moses commanded before the tabernacle of the congregation: and all the congregation drew near and stood before the LORD.'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/21?lang=eng'
+    quote: 'Only he shall not go in unto the veil, nor come nigh unto the altar, because he hath a blemish; that he profane not my sanctuaries'
+  - where: 'section “That he come not at all times”'
+    claim: '21:21 yiggaš, nāgaš (H5066), a second verb for coming near'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lev.xml'
+    quote: 'יִגַּ֔שׁ'
+  - where: 'section “That he come not at all times”'
+    claim: 'Lev. 22:3 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/22?lang=eng'
+    quote: 'having his uncleanness upon him, that soul shall be cut off from my presence: I am the Lord.'
+  - where: 'section “That he come not at all times”'
+    claim: 'Num. 18:7 “the stranger that cometh nigh shall be put to death”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/18?lang=eng'
+    quote: 'and the stranger that cometh nigh shall be put to death.'
+  - where: 'section “That he come not at all times”'
+    claim: 'Lane: the law outlined “strict boundaries about who could officiate and approach the presence of God”; “the law’s symbolism of that which is imperfect being separated from the presence of the Lord”'
+    key: lane-presence-panim
+    url: 'https://rsc.byu.edu/finding-christ-covenant-path/presence-lord-panim'
+    quote: 'strict boundaries about who could officiate and approach the presence of God'
+  - where: 'section “That he come not at all times”'
+    claim: 'Lane: “the law’s symbolism of that which is imperfect being separated from the presence of the Lord”'
+    key: lane-presence-panim
+    url: 'https://rsc.byu.edu/finding-christ-covenant-path/presence-lord-panim'
+    quote: 'the law’s symbolism of that which is imperfect being separated from the presence of the Lord'
+  - where: 'section “That he come not at all times”'
+    claim: 'Cambridge on 16:2 (restated here): the formula “that he die not” is general and does not itself point to the story of Nadab and Abihu'
+    key: cambridge-leviticus
+    url: 'https://biblehub.com/commentaries/cambridge/leviticus/16.htm'
+    quote: 'its use here does not imply any reference to the story of Nadab and Abihu'
+  - where: 'section “That he come not at all times”'
+    claim: 'Lev. 16:1 as quoted (“when they offered”); footnote 16:1a ↔ 10:1a joins the chapters'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/16?lang=eng'
+    quote: 'after the death of the two sons of Aaron, when they offered before the Lord, and died'
+  # ---------- section “The way into the holiest of all was not yet made manifest” ----------
+  - where: 'section “The way into the holiest of all was not yet made manifest”'
+    claim: 'Heb. 9:7–8, 12 as quoted; footnotes Heb. 9:12b, 10:19b → Lev. 16:2; Lev. 16:2a → Heb. 9:12; 10:19'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/9?lang=eng'
+    quote: 'but by his own blood he entered in once into the holy place, having obtained eternal redemption for us.'
+  - where: 'section “The way into the holiest of all was not yet made manifest”'
+    claim: 'Heb. 9:7 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/9?lang=eng'
+    quote: 'But into the second went the high priest alone once every year, not without blood'
+  - where: 'section “The way into the holiest of all was not yet made manifest”'
+    claim: 'Cambridge on Heb. 9:8: “Entrance into the Holiest symbolised direct access to God, and the “way” into it had not been made evident until He came who is “the way, the truth, and the life””'
+    key: cambridge-hebrews
+    url: 'https://biblehub.com/commentaries/cambridge/hebrews/9.htm'
+    quote: 'Entrance into the Holiest symbolised direct access to God'
+  - where: 'section “The way into the holiest of all was not yet made manifest”'
+    claim: 'Scripture Helps (Lev. 16): “the high priest who took the sacrificial blood through the veil foreshadowed Jesus Christ, the “great high priest” who passed through the veil to make intercession for us through His Atonement”'
+    key: scripture-helps-ex-35
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/16-exodus-35-40-leviticus-1-4-16-19?lang=eng'
+    quote: 'the high priest who took the sacrificial blood through the veil foreshadowed Jesus Christ'
+  - where: 'section “The way into the holiest of all was not yet made manifest”'
+    claim: 'Scripture Helps (Hebrews 7–13): “Just as the veil of the temple gave the high priest access to the Holy of Holies, the Atonement of Jesus Christ gives us access to God’s presence.”'
+    key: scripture-helps-nt-heb-7-13
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-new-testament/46-hebrews-7-13?lang=eng'
+    quote: 'Just as the veil of the temple gave the high priest access to the Holy of Holies, the Atonement of Jesus Christ gives us access to God’s presence.'
+  - where: 'section “The way into the holiest of all was not yet made manifest”'
+    claim: 'Come, Follow Me 2026 (tabernacle): “God wants all of His children to enter into His presence”; “no unclean thing can dwell with God” (1 Nephi 10:21); “He parts the veil for us”'
+    key: cfm-ot-2026-tabernacle
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/17-thoughts?lang=eng'
+    quote: 'God wants all of His children to enter into His presence'
+  - where: 'section “The way into the holiest of all was not yet made manifest”'
+    claim: 'Come, Follow Me: “He parts the veil for us”'
+    key: cfm-ot-2026-tabernacle
+    url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/17-thoughts?lang=eng'
+    quote: 'He parts the veil for us'
+  - where: 'section “The way into the holiest of all was not yet made manifest”'
+    claim: 'Student Manual 15-8 prints Lund: “Through the shedding of his blood he became capable of entering the heavenly Holy of Holies where he offered his own blood as payment for the sins of those who would believe in him and obey his commandments”'
+    key: ot-manual-lev-11-18
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/leviticus-11-18-a-law-of-performances-and-ordinances-part-2-the-clean-and-the-unclean?lang=eng'
+    quote: 'Through the shedding of his blood he became capable of entering the heavenly Holy of Holies where he offered his own blood as payment for the sins of those who would believe in him and obey his commandments.'
+  - where: 'section “The way into the holiest of all was not yet made manifest”'
+    claim: 'Heb. 10:19–22 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/10?lang=eng'
+    quote: 'Let us draw near with a true heart in full assurance of faith'
+  - where: 'section “The way into the holiest of all was not yet made manifest”'
+    claim: 'Heb. 10:19–20 “boldness to enter into the holiest by the blood of Jesus, By a new and living way, which he hath consecrated for us, through the veil, that is to say, his flesh”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/10?lang=eng'
+    quote: 'By a new and living way, which he hath consecrated for us, through the veil, that is to say, his flesh'
+  - where: 'section “The way into the holiest of all was not yet made manifest”'
+    claim: 'Tanner: “In ancient Israel only the high priest could pass through the second veil into this inner sanctuary where stood the mercy seat. Christ’s atoning sacrifice has opened the sanctuary of God to all believers.”'
+    key: tanner-advocate
+    url: 'https://rsc.byu.edu/celebrating-easter/christ-our-advocate-high-priest'
+    quote: 'Christ’s atoning sacrifice has opened the sanctuary of God to all believers.'
+  - where: 'section “The way into the holiest of all was not yet made manifest”'
+    claim: 'Elder Kearon (Apr. 2024): “The veil of the temple was rent in twain when Jesus died upon the cross, symbolising that access back to the presence of the Father had been ripped wide open—to all who will turn to Him, trust Him, cast their burdens on Him, and take His yoke upon them in a covenant bond.”'
+    key: kearon-gods-intent
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2024/04/45kearon?lang=eng'
+    quote: 'symbolising that access back to the presence of the Father had been ripped wide open—to all who will turn to Him, trust Him, cast their burdens on Him, and take His yoke upon them in a covenant bond.'
+  - where: 'section “The way into the holiest of all was not yet made manifest”'
+    claim: 'Connection made by this page: Hebrews’s “let us draw near” is the drawing near of Lev. 9:5 (with what He commanded) and not of 10:1, so the principle stands (nearness given, not taken) while the priesthood and the law change (Heb. 7:12) and the high priest who opens the way changes; no source read sets Heb. 10:22 against the two approaches of Lev. 9 and 10'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/10?lang=eng'
+    quote: 'Having therefore, brethren, boldness to enter into the holiest by the blood of Jesus'
+  - where: 'section “The way into the holiest of all was not yet made manifest”'
+    claim: 'McConkie as printed in the Seminary Teacher Resource Manual (closing statement): “ordinances of their own devising”'
+    key: ot-seminary-teacher-resource-lev-1-16
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-resource-manual/the-book-of-leviticus/leviticus-1-16?lang=eng'
+    quote: 'ordinances of their own devising'
+  - where: 'section “The way into the holiest of all was not yet made manifest”'
+    claim: 'Heb. 7:12 as quoted: the priesthood changed, and of necessity the law'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/7?lang=eng'
+    quote: 'For the priesthood being changed, there is made of necessity a change also of the law.'

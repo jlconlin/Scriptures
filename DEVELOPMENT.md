@@ -10,6 +10,8 @@ The site is served at https://scriptures.conlin.io by Cloudflare, which rebuilds
 
 ## Checks
 
+`scripts/review-dashboard.mjs [outDir]` exports theme-review task rows and page commits as `review-tasks.json` and `review-commits.json` (default `.cache/batch/dashboard`), for the dashboard described in `REVIEW.md`.
+
 What each script does. `scripts/dev.mjs` (`npm run dev`) is the local preview: it builds the site with the books in preview, serves `dist/` on port 4321, and rebuilds when content or source changes. It serves the checkout its own file is in, and `.claude/launch.json` starts the main checkout's; to look at a worktree, run that worktree's `scripts/dev.mjs` on another port (`PORT=4324`). `STANDARDS.md` §9–10 says when to use them; the commands are listed there. Shared code: `src/lib/pages.mjs` (fetching, the page cache, comparing a quote with a page, `pageProblems`, `parseOrEmpty`), `src/lib/ledger.mjs` (proposed sources, a row's `where`, wiki hosts, a theme page's sections) and `src/lib/hebrew.mjs`. None of the checks is part of `npm run build`, so an unaudited chapter can't break the Cloudflare build.
 
 ### The checks
