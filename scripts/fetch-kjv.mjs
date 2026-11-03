@@ -375,6 +375,34 @@ const LDS_SPELLINGS = [
   [/my well-beloved unto me;/g, 'my wellbeloved unto me;'], // Song 1:13
   [/of Bathrabbim: thy nose/g, 'of Bath-rabbim: thy nose'], // Song 7:4
   [/at Baalhamon; he let/g, 'at Baal-hamon; he let'], // Song 8:11
+  // Judges (found by scripts/check-kjv.mjs).
+  [/\bAdonibezek\b/g, 'Adoni-bezek'], // Judg. 1:5–7
+  [/\bTimnathheres\b/g, 'Timnath-heres'], // Judg. 2:9
+  [/\bBaalhermon\b/g, 'Baal-hermon'], // Judg. 3:3
+  [/\bChushanrishathaim\b/g, 'Chushan-rishathaim'], // Judg. 3:8, 10
+  [/\bKedeshnaphtali\b/g, 'Kedesh-naphtali'], // Judg. 4:6
+  [/\bAbiezr/g, 'Abi-ezr'], // Judg. 6:11; 8:32
+  [/\bAbiezer\b/g, 'Abi-ezer'], // Judg. 6:34; 8:2
+  [/Alas, O LORD God! for because/g, 'Alas, O Lord GOD! for because'], // Judg. 6:22
+  [/\bJehovahshalom\b/g, 'Jehovah-shalom'], // Judg. 6:24
+  [/they enquired and asked/g, 'they inquired and asked'], // Judg. 6:29
+  [/round about the camp; and all the host/g, 'round about the camp: and all the host'], // Judg. 7:21
+  [/\bBethshittah\b/g, 'Beth-shittah'], // Judg. 7:22
+  [/\bBethbarah\b/g, 'Beth-barah'], // Judg. 7:24
+  [/\bAbelmeholah\b/g, 'Abel-meholah'], // Judg. 7:22
+  [/and enquired of him: and he described/g, 'and inquired of him: and he described'], // Judg. 8:14
+  [/\bBaalberith\b/g, 'Baal-berith'], // Judg. 8:33; 9:4
+  [/the angel did wonderously/g, 'the angel did wondrously'], // Judg. 13:19
+  [/than honey\? And what is stronger/g, 'than honey? and what is stronger'], // Judg. 14:18
+  [/\bRamathlehi\b/g, 'Ramath-lehi'], // Judg. 15:17
+  [/\bEnhakkore\b/g, 'En-hakkore'], // Judg. 15:19
+  [/O Lord God, remember me/g, 'O Lord GOD, remember me'], // Judg. 16:28
+  [/\bBeth-lehemjudah\b/g, 'Beth-lehem-judah'], // Judg. 17:7–9; 19:1, 2, 18
+  [/\bMahanehdan\b/g, 'Mahaneh-dan'], // Judg. 18:12
+  [/\bBethrehob\b/g, 'Beth-rehob'], // Judg. 18:28
+  [/children of Israel enquired of the LORD/g, 'children of Israel inquired of the LORD'], // Judg. 20:27
+  [/\bBaaltamar\b/g, 'Baal-tamar'], // Judg. 20:33
+  [/\bJabeshgilead\b/g, 'Jabesh-gilead'], // Judg. 21:8–14
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 
