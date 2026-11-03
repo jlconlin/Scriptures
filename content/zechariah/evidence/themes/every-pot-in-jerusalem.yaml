@@ -1,157 +1,450 @@
 page: every-pot-in-jerusalem
 claims:
-  - where: 'section “One man, and he does nothing”'
-    claim: 'The filthy garment represents sin'
-    key: ot-manual-33
-    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-33?lang=eng'
-    quote: 'The garment of filthiness represents sin.'
-  - where: 'section “One man, and he does nothing”'
-    claim: 'Keil reads the clean turban as the base for the golden plate of Ex. 28:36–38'
+  # ---------- opening ----------
+  - where: 'opening'
+    claim: 'Ex. 28:36 “HOLINESS TO THE LORD” is qōdeš laYHWH'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'קֹ֖דֶשׁ'
+  - where: 'opening'
+    claim: 'Zech. 14:20 “HOLINESS UNTO THE LORD” is the same two words, qōdeš laYHWH (hebrew.mjs zechariah 14:20)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'לַֽ/יהוָ֑ה'
+  - where: 'opening'
+    claim: 'The Church’s footnote at Ex. 28:36 “Holiness” points to Zech. 14:20 (and 14:20a points back to Ex. 28:36)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/28?lang=eng'
+    quote: 'Jer. 2:3 (1–4); Zech. 14:20.'
+  - where: 'opening'
+    claim: 'The Church’s footnote at Zech. 14:20 “Holiness” points to Ex. 28:36'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/14?lang=eng'
+    quote: 'Ex. 28:36.'
+  - where: 'opening'
+    claim: 'ʿāwōn (H5771), the noun of Ex. 28:38, occurs in Zechariah only at 3:4 and 3:9 (occurrences.mjs zechariah --hebrew H5771: 2 occurrences); 13:1–2 use ḥaṭṭāʾt, niddâ and ṭumʾâ; 14:20–21 has none of these'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'עֲוֺ֥ן'
+  - where: 'opening'
+    claim: 'The distinction between holy and profane can cease only when the sin that evoked it has been entirely removed (the sourced step the page builds on)'
+    key: keil-zechariah
+    url: 'https://biblehub.com/commentaries/kad/zechariah/14.htm'
+    quote: 'The distinction between holy and profane can only cease, however, when the sin and moral defilement which first evoked this distinction, and made it necessary that the things intended for the service of God should be set apart'
+  - where: 'opening'
+    claim: 'Keil places the removal of sin, and the end of the holy/profane distinction, at the judgment'
+    key: keil-zechariah
+    url: 'https://biblehub.com/commentaries/kad/zechariah/14.htm'
+    quote: 'and sin with all its consequences be cleansed away by the judgment. In the perfected kingdom of God there will be no more sinners'
+  - where: 'opening'
+    claim: 'Connection made by this page: between the plate of Ex. 28:36–38 and the pots of Zech. 14:20–21, Zechariah shows the high priest made clean before the turban that carried the plate is set on him (3:4–5), the land’s iniquity removed in one day (3:9) and a fountain opened for sin (13:1); so the words that one man wore to bear the iniquity of the people’s holy things can stand on everything, because the iniquity the plate was worn to bear has been removed. The commentators tie 3:5 and 14:20 to the plate separately; none read joins them. Keil places the removal at the judgment; the page adds the forgiveness and cleansing of chapters 3 and 13 as the way his condition is met'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/14?lang=eng'
+    quote: 'every pot in Jerusalem and in Judah shall be holiness unto the Lord of hosts'
+  # ---------- section “That Aaron may bear the iniquity of the holy things” ----------
+  - where: 'section “That Aaron may bear the iniquity of the holy things”'
+    claim: 'In Ex. 28:38 “bear” is nāśāʾ'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'וְ/נָשָׂ֨א'
+  - where: 'section “That Aaron may bear the iniquity of the holy things”'
+    claim: 'In Ex. 28:38 “iniquity” is ʿāwōn'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'עֲוֺ֣ן'
+  - where: 'section “That Aaron may bear the iniquity of the holy things”'
+    claim: 'BDB lists nāśāʾ ʿāwōn at Ex. 28:38 with Lev. 10:17 under “bear the punishment for iniquity of others”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5771.htm'
+    quote: 'bear the punishment for iniquity of others Exodus 28:38; Leviticus 10:17'
+  - where: 'section “That Aaron may bear the iniquity of the holy things”'
+    claim: 'The Church’s footnote at Ex. 28:38 gives “atone for” for “bear”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/28?lang=eng'
+    quote: 'OR atone for.'
+  - where: 'section “That Aaron may bear the iniquity of the holy things”'
+    claim: 'One reading: the high priest an atoning mediator, given power to exterminate the sin clinging to the people’s holy offerings'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/28.htm'
+    quote: 'endowed with the power to exterminate the sin which clung to the holy offerings of the people on account of the unholiness of their nature'
+  - where: 'section “That Aaron may bear the iniquity of the holy things”'
+    claim: 'Keil: the high priest an atoning mediator of the whole nation'
+    key: keil-exodus
+    url: 'https://biblehub.com/commentaries/kad/exodus/28.htm'
+    quote: 'The high priest was exalted into an atoning mediator of the whole nation'
+  - where: 'section “That Aaron may bear the iniquity of the holy things”'
+    claim: 'Another reading: the guilt of accidental ritual error; the plate marks him the people’s specially holy representative, so their offerings are accepted'
+    key: cambridge-exodus
+    url: 'https://biblehub.com/commentaries/cambridge/exodus/28.htm'
+    quote: 'take upon himself the guilt of any ritual error or mistake made accidentally in offering the holy things'
+  - where: 'section “That Aaron may bear the iniquity of the holy things”'
+    claim: 'Cambridge: the plate marks him the people’s specially holy representative'
+    key: cambridge-exodus
+    url: 'https://biblehub.com/commentaries/cambridge/exodus/28.htm'
+    quote: 'marks him out as the people’s specially holy representative before God'
+  - where: 'section “That Aaron may bear the iniquity of the holy things”'
+    claim: 'The removal of sin by the typical priesthood had to be continually repeated'
     key: keil-zechariah
     url: 'https://biblehub.com/commentaries/kad/zechariah/3.htm'
-    quote: 'the clean turban was the substratum for the golden plate that was fastened upon it'
-  - where: 'section “The land, in one day; wickedness carried out”'
-    claim: 'The Bible Dictionary reads the removal of the land’s iniquity as through the Branch (Messiah)'
-    key: bd-zechariah
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/zechariah?lang=eng'
-    quote: 'when through the Branch (Messiah) the Lord will remove the iniquity of the land in one day (Jer. 23:5; 33:15)'
-  - where: 'section “The land, in one day; wickedness carried out”'
-    claim: 'Scripture Helps reads the coming Branch as the one who removes the iniquity in a single day'
+    quote: 'will not resemble that effected by the typical priesthood, which had to be continually repeated, but will be all finished at once.'
+  - where: 'section “That Aaron may bear the iniquity of the holy things”'
+    claim: 'Heb. 10:11: every priest offers oftentimes the same sacrifices, which can never take away sins'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/10?lang=eng'
+    quote: 'offering oftentimes the same sacrifices, which can never take away sins'
+  # ---------- section “I have caused thine iniquity to pass from thee” ----------
+  - where: 'section “I have caused thine iniquity to pass from thee”'
+    claim: 'The Church’s footnote at Zech. 3:1 gives the Hebrew sense of “Satan”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/3?lang=eng'
+    quote: 'HEB the Adversary or Accuser'
+  - where: 'section “I have caused thine iniquity to pass from thee”'
+    claim: 'Joshua stands for the nation; the dirt is sin'
+    key: keil-zechariah
+    url: 'https://biblehub.com/commentaries/kad/zechariah/3.htm'
+    quote: 'The high priest, and the nation in him, are not only to be cleansed from sin, and justified, but to be sanctified and glorified as well.'
+  - where: 'section “I have caused thine iniquity to pass from thee”'
+    claim: 'The priest’s vesture symbolically defiled through the sins of the people'
+    key: barnes-zechariah
+    url: 'https://biblehub.com/commentaries/barnes/zechariah/3.htm'
+    quote: 'symbolically defiled through the sins of the people'
+  - where: 'section “I have caused thine iniquity to pass from thee”'
+    claim: '“Thine iniquity” in Zech. 3:4 is ʿāwōn, the noun of Ex. 28:38'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'עֲוֺנֶ֔/ךָ'
+  - where: 'section “I have caused thine iniquity to pass from thee”'
+    claim: '“I have caused … to pass” is heʿĕbartî, Hiphil of ʿābar'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'הֶעֱבַ֤רְתִּי'
+  - where: 'section “I have caused thine iniquity to pass from thee”'
+    claim: 'BDB lists the Hiphil “cause to pass away, take away” with an accusative of sin at 2 Sam. 12:13 and with “from” a person at Zech. 3:4: the idiom is common'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5674.htm'
+    quote: 'Cause to pass away, take away'
+  - where: 'section “I have caused thine iniquity to pass from thee”'
+    claim: 'BDB lists heʿĕbîr ʿāwōn at Zech. 3:4 (and mûš at 3:9) among phrases “of forgiveness or removal”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5771.htm'
+    quote: 'of forgiveness or removal'
+  - where: 'section “I have caused thine iniquity to pass from thee”'
+    claim: 'The verb has figurative meanings, one of which is forgiving sin, with 2 Sam. 12:13 and Zech. 3:4 as examples'
+    key: sears-intercession
+    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/o-lord-god-forgive'
+    quote: 'The word ‘br also has a number of figurative meanings, one of which is the forgiving of sin (for examples, see 2 Samuel 12:13, 24:10, Micah 7:18, Job 7:21, or Zechariah 3:4).'
+  - where: 'section “I have caused thine iniquity to pass from thee”'
+    claim: 'Keil: “I have caused thy guilt to pass away” means I have forgiven thy sin'
+    key: keil-zechariah
+    url: 'https://biblehub.com/commentaries/kad/zechariah/3.htm'
+    quote: 'I have forgiven thy sin, and justified thee (cf. 2 Samuel 12:13; 2 Samuel 24:10)'
+  - where: 'section “I have caused thine iniquity to pass from thee”'
+    claim: 'The Church’s footnote at Zech. 3:5: HEB a clean (pure) cap'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/3?lang=eng'
+    quote: 'HEB a clean (pure) cap.'
+  - where: 'section “I have caused thine iniquity to pass from thee”'
+    claim: '“Mitre” in Zech. 3:5 is ṣānîp'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'צָנִ֥יף'
+  - where: 'section “I have caused thine iniquity to pass from thee”'
+    claim: 'Zechariah’s word is not Exodus’s, but the same headdress is meant'
+    key: cambridge-zechariah
+    url: 'https://biblehub.com/commentaries/cambridge/zechariah/3.htm'
+    quote: 'The word is not the same (though from the same root) as that used in Exodus 28:4; Exodus 28:36-38; but there is no doubt that the same thing is intended.'
+  - where: 'section “I have caused thine iniquity to pass from thee”'
+    claim: 'Keil: tsânîph synonymous with mitsnepheth, the high priest’s tiara'
+    key: keil-zechariah
+    url: 'https://biblehub.com/commentaries/kad/zechariah/3.htm'
+    quote: 'is synonymous with mitsnepheth, the technical word for the tiara prescribed for the high priest in the law'
+  - where: 'section “I have caused thine iniquity to pass from thee”'
+    claim: 'Keil: the clean turban was the base for the golden plate, by which he was called to bear the guilt of Israel (Ex. 28:38)'
+    key: keil-zechariah
+    url: 'https://biblehub.com/commentaries/kad/zechariah/3.htm'
+    quote: 'the clean turban was the substratum for the golden plate that was fastened upon it, and by which he was described as holy to the Lord, and called to bear the guilt of the children of Israel (Exodus 28:38)'
+  - where: 'section “I have caused thine iniquity to pass from thee”'
+    claim: 'Pulpit: the mitre bore the plate and showed him qualified to intercede for the people; probably a synonym of Exodus’s word'
+    key: pulpit-zechariah
+    url: 'https://biblehub.com/commentaries/pulpit/zechariah/3.htm'
+    quote: 'For the fair linen mitre, or tiara, was that which bore upon its front the golden plate inscribed, "Holiness unto the Lord" (Exodus 28:36-38), and therefore showed that he was qualified to intercede for the people.'
+  - where: 'section “I have caused thine iniquity to pass from thee”'
+    claim: 'Connection made by this page: the order of Zech. 3:3–5 is that the Lord removes the high priest’s iniquity first, and only then is the turban that carried “HOLINESS TO THE LORD” set on his head; the plate did not make its wearer clean, it was set on a man the Lord had already cleansed, and nothing is asked of him until 3:7. The commentators tie the turban to the plate; none draws this conclusion from the order'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/3?lang=eng'
+    quote: 'Behold, I have caused thine iniquity to pass from thee, and I will clothe thee with change of raiment.'
+  # ---------- section “I will remove the iniquity of that land in one day” ----------
+  - where: 'section “I will remove the iniquity of that land in one day”'
+    claim: 'Joshua and his fellow priests symbolic of the coming Branch who would remove the iniquity of the land in a single day'
     key: scripture-helps-hag-1-2
     url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/48-haggai-1-2-zechariah-1-4-7-14?lang=eng'
-    quote: 'Joshua and his fellow priests were symbolic of the coming Branch, who would remove the iniquity of the land in a single day.'
-  - where: 'section “The land, in one day; wickedness carried out”'
-    claim: 'The Church’s edition reads the removal of iniquity in one day as at the Second Coming'
+    quote: 'Zechariah said that Joshua and his fellow priests were symbolic of the coming Branch, who would remove the iniquity of the land in a single day.'
+  - where: 'section “I will remove the iniquity of that land in one day”'
+    claim: '“Engrave the graving” is pittēaḥ pittûḥāh (Zech. 3:9)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'מְפַתֵּ֣חַ'
+  - where: 'section “I will remove the iniquity of that land in one day”'
+    claim: 'Ex. 28:36 “engravings of a signet” has the same verb and noun (ûpittaḥtā … pittûḥê)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'פִּתּוּחֵ֣י'
+  - where: 'section “I will remove the iniquity of that land in one day”'
+    claim: 'The engraving verb occurs three times in Exodus 28, once of the golden plate'
+    key: cambridge-zechariah
+    url: 'https://biblehub.com/commentaries/cambridge/zechariah/3.htm'
+    quote: 'The word here used for “engrave” occurs three times in Exodus 28, in the expression “engravings of a signet;” twice of the jewels in the High Priest’s dress (11, 21), once of the golden plate on his mitre (36).'
+  - where: 'section “I will remove the iniquity of that land in one day”'
+    claim: '“The iniquity of that land” in 3:9 is ʿāwōn again'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'עֲוֺ֥ן'
+  - where: 'section “I will remove the iniquity of that land in one day”'
+    claim: 'BDB lists ʿāwōn at Zech. 3:4 and 3:9 under forgiveness or removal'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5771.htm'
+    quote: 'of forgiveness or removal'
+  - where: 'section “I will remove the iniquity of that land in one day”'
+    claim: 'The Church’s chapter heading reads 3:9 of the Second Coming'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/3?lang=eng'
     quote: 'At the Second Coming, iniquity will be removed in one day.'
-  - where: 'section “The land, in one day; wickedness carried out”'
-    claim: 'The Bible Dictionary reads the ephah vision as the removing of the people’s sin to Shinar'
-    key: bd-zechariah
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/zechariah?lang=eng'
-    quote: 'Zech. 5:5–11, seventh vision, symbol of the removing of the sin of the people to Shinar, the land of their foes (Lev. 16:21).'
-  - where: 'section “A fountain for the city”'
-    claim: 'John 19:37 quotes Zech. 12:10'
+  - where: 'section “I will remove the iniquity of that land in one day”'
+    claim: 'Elder McConkie: the wicked destroyed and the millennial era begun'
+    key: ot-seminary-teacher-156
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-seminary-teacher-manual/introduction-to-the-book-of-zechariah/lesson-156-zechariah-3-8?lang=eng'
+    quote: 'meaning that the wicked shall be destroyed and the millennial era of peace and righteousness commence'
+  - where: 'section “I will remove the iniquity of that land in one day”'
+    claim: 'Keil: “in one day” is the ephapax of Hebrews; not repeated like the typical priesthood’s; the day of Golgotha'
+    key: keil-zechariah
+    url: 'https://biblehub.com/commentaries/kad/zechariah/3.htm'
+    quote: 'will not resemble that effected by the typical priesthood, which had to be continually repeated, but will be all finished at once. This one day is the day of Golgotha.'
+  - where: 'section “I will remove the iniquity of that land in one day”'
+    claim: 'Cambridge: the Day of Atonement possibly glanced at; the goal is the day of Golgotha'
+    key: cambridge-zechariah
+    url: 'https://biblehub.com/commentaries/cambridge/zechariah/3.htm'
+    quote: 'It is possible that the renewal of the typical expiation of sin in “one day,” the Day of Atonement (Leviticus 16:21; Leviticus 16:30; Leviticus 16:34), consequent upon the re-building of the Temple and the resumption of its services, is here glanced at.'
+  - where: 'section “I will remove the iniquity of that land in one day”'
+    claim: 'Cambridge: the goal of the prophecy is the day of Golgotha'
+    key: cambridge-zechariah
+    url: 'https://biblehub.com/commentaries/cambridge/zechariah/3.htm'
+    quote: 'But the goal of the prophecy is “the day of Golgotha.”'
+  - where: 'section “I will remove the iniquity of that land in one day”'
+    claim: 'Barnes: the yearly Day of Atonement’s repetition showed nothing lasting was effected; the one day is the day Jesus died'
+    key: barnes-zechariah
+    url: 'https://biblehub.com/commentaries/barnes/zechariah/3.htm'
+    quote: 'Year by year came the day of atonement: its yearly repetition showed that nothing lasting was effected.'
+  - where: 'section “I will remove the iniquity of that land in one day”'
+    claim: 'Barnes: the day iniquity was removed is the day Jesus died'
+    key: barnes-zechariah
+    url: 'https://biblehub.com/commentaries/barnes/zechariah/3.htm'
+    quote: 'On the day when Jesus died.'
+  # ---------- section “For sin and for uncleanness” ----------
+  - where: 'section “For sin and for uncleanness”'
+    claim: '“For sin” in 13:1 is ḥaṭṭāʾt'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'לְ/חַטַּ֖את'
+  - where: 'section “For sin and for uncleanness”'
+    claim: '“For uncleanness” in 13:1 is niddâ'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'וּ/לְ/נִדָּֽה'
+  - where: 'section “For sin and for uncleanness”'
+    claim: 'Num. 19:9 has both nouns in one verse (mê niddâ … ḥaṭṭāʾt)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'נִדָּ֖ה'
+  - where: 'section “For sin and for uncleanness”'
+    claim: 'Num. 19:9 ḥaṭṭāʾt'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
+    quote: 'חַטָּ֥את'
+  - where: 'section “For sin and for uncleanness”'
+    claim: 'The Church’s footnote at Num. 19:9 explains “water of separation”'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/19?lang=eng'
-    quote: 'And again another scripture saith, They shall look on him whom they pierced.'
-  - where: 'section “A fountain for the city”'
-    claim: 'The Lord says the Jews will weep because of their iniquities'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/45?lang=eng'
-    quote: 'And then shall they weep because of their iniquities; then shall they lament because they persecuted their king.'
-  - where: 'section “A fountain for the city”'
-    claim: 'The Bible Dictionary groups the Spirit poured out and the fountain as one movement (12:10–13:6)'
-    key: bd-zechariah
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/zechariah?lang=eng'
-    quote: 'The Spirit poured out on Jerusalem, and a fountain opened for sin and uncleanness (12:10–13:6).'
-  - where: 'section “A fountain for the city”'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/19?lang=eng'
+    quote: 'IE water for removal of impurity.'
+  - where: 'section “For sin and for uncleanness”'
+    claim: 'The law’s lustral waters, contained and renewed, give way to a fountain opened once and remaining open'
+    key: cambridge-zechariah
+    url: 'https://biblehub.com/commentaries/cambridge/zechariah/13.htm'
+    quote: 'which were contained and renewed in bowl or laver, and which did but “sanctify to the purifying of the flesh,” shall be substituted the living fountain of the Gospel, opened once but remaining open ever'
+  - where: 'section “For sin and for uncleanness”'
     claim: 'The Church’s footnote on “fountain” points to baptism'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/13?lang=eng'
     quote: '“fountain”: TG Baptism.'
-  - where: 'section “A fountain for the city”'
-    claim: 'Connection made by this page: Zech. 3:4 “I have caused thine iniquity to pass from thee” (Hiphil of ʿbr, heʿĕbartî) and 13:2 “I will cause the prophets and the unclean spirit to pass out” (ʾaʿăbîr) are the same verb in the same stem, the Lord the subject, sin or uncleanness the object'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
-    quote: 'הֶעֱבַ֤רְתִּי'
-  - where: 'section “A fountain for the city”'
-    claim: 'Connection made by this page (second verse): 13:2 ʾaʿăbîr'
+  - where: 'section “For sin and for uncleanness”'
+    claim: 'The Church’s heading to Zechariah 13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/13?lang=eng'
+    quote: 'The Jews will gain forgiveness at the Second Coming'
+  - where: 'section “For sin and for uncleanness”'
+    claim: '“I will cause … to pass” in 13:2 is ʾaʿăbîr, the Hiphil of ʿābar as in 3:4'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
     quote: 'אַעֲבִ֥יר'
-  - where: 'section “Every pot”'
-    claim: 'Zech. 14:20 has the same two Hebrew words (qōdeš laYHWH) as the plate of Ex. 28:36'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
-    quote: 'קֹ֖דֶשׁ'
-  - where: 'section “Every pot”'
-    claim: 'Ex. 28:36 has the same two words (qōdeš laYHWH)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
-    quote: 'קֹ֖דֶשׁ'
-  - where: 'section “Every pot”'
-    claim: 'The clean turban is read as the base for the plate (Keil)'
-    key: keil-zechariah
-    url: 'https://biblehub.com/commentaries/kad/zechariah/3.htm'
-    quote: 'the clean turban was the substratum for the golden plate that was fastened upon it'
-  - where: 'section “Every pot”'
-    claim: 'Connection made by this page: the clean mitre asked for in Zech. 3:5 set beside the words of the plate on the horses’ bells and every pot in 14:20–21'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/3?lang=eng'
-    quote: 'Let them set a fair mitre upon his head.'
-  - where: 'section “Every pot”'
-    claim: 'Connection made by this page (second end): 14:20–21'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/14?lang=eng'
-    quote: 'every pot in Jerusalem and in Judah shall be holiness unto the LORD of hosts'
-  - where: 'section “Every pot”'
-    claim: 'The distinction between holy and profane ceases only when sin and moral defilement are entirely removed (Keil)'
+  - where: 'section “For sin and for uncleanness”'
+    claim: 'BDB lists Zech. 13:2 with Zech. 3:4 under the Hiphil sense “cause to pass away, take away”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5674.htm'
+    quote: 'Cause to pass away, take away'
+  # ---------- section “Upon the bells of the horses” ----------
+  - where: 'section “Upon the bells of the horses”'
+    claim: 'The bells will resemble the high priest’s head-dress in holiness'
     key: keil-zechariah
     url: 'https://biblehub.com/commentaries/kad/zechariah/14.htm'
-    quote: 'The distinction between holy and profane can only cease, however, when the sin and moral defilement which first evoked this distinction, and made it necessary that the things intended for the service of God should be set apart, and receive a special consecration, have been entirely removed and wiped away.'
-  - where: 'section “Every pot”'
-    claim: 'The Church’s manual reads “the Canaanite” as the wicked'
+    quote: 'the meaning is, that the bells of the horses will resemble the head-dress of the high priest in holiness'
+  - where: 'section “Upon the bells of the horses”'
+    claim: 'The pots were vessels of inferior sanctity for boiling sacrificial meat; the bowls held the blood; now the lower equal to the highest'
+    key: pulpit-zechariah
+    url: 'https://biblehub.com/commentaries/pulpit/zechariah/14.htm'
+    quote: 'The prophet announces that now all shall be holy, the lower equal to the highest.'
+  - where: 'section “Upon the bells of the horses”'
+    claim: 'Pulpit: the pots are of inferior sanctity, for boiling the meat of the sacrifice'
+    key: pulpit-zechariah
+    url: 'https://biblehub.com/commentaries/pulpit/zechariah/14.htm'
+    quote: 'The "pots" are vessels of inferior sanctity used for boiling the meat of the sacrifice'
+  - where: 'section “Upon the bells of the horses”'
+    claim: 'The Church’s reading: in the Millennium everything, symbolized by horse trappings and jars, holy and pure; the Canaanite is the wicked'
     key: ot-manual-33
     url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-33?lang=eng'
-    quote: '“there shall be no more the Canaanite [the wicked] in the house of the Lord of hosts” (v. 21).'
-  - where: 'section “For the whole city”'
-    claim: 'Joshua was a type of Jesus Christ, the great High Priest'
+    quote: 'everything (symbolized by such trifles as the trappings on horses and earthen jars) shall be holy and pure and where “there shall be no more the Canaanite [the wicked] in the house of the Lord of hosts”'
+  - where: 'section “Upon the bells of the horses”'
+    claim: 'Cambridge: all distinction between sacred and secular at an end'
+    key: cambridge-zechariah
+    url: 'https://biblehub.com/commentaries/cambridge/zechariah/14.htm'
+    quote: 'All distinction between sacred and secular shall be at an end, because all shall now be alike holy.'
+  - where: 'section “Upon the bells of the horses”'
+    claim: 'Barnes: he uplifts ordinary things'
+    key: barnes-zechariah
+    url: 'https://biblehub.com/commentaries/barnes/zechariah/14.htm'
+    quote: 'He does not bring down what is sacred to a level with common things, but he uplifts ordinary things'
+  - where: 'section “Upon the bells of the horses”'
+    claim: 'BDB: kĕnaʿănî at Zech. 14:21 probably “trader, merchant”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3669.htm'
+    quote: 'noun masculine trader, merchant'
+  - where: 'section “Upon the bells of the horses”'
+    claim: 'Cambridge gives the merchant reading and prefers any unclean person; names Rev. 21:27 as the true scope'
+    key: cambridge-zechariah
+    url: 'https://biblehub.com/commentaries/cambridge/zechariah/14.htm'
+    quote: 'The whole scope of the passage, however, is in favour of the view that “the Canaanite” here means any unclean person'
+  - where: 'section “Upon the bells of the horses”'
+    claim: 'Cambridge: the true scope is the city of Rev. 21:27'
+    key: cambridge-zechariah
+    url: 'https://biblehub.com/commentaries/cambridge/zechariah/14.htm'
+    quote: 'The true scope of the prophecy is that city of which it is written, “There shall in no wise enter into it any thing that defileth'
+  - where: 'section “Upon the bells of the horses”'
+    claim: 'Barnes: full fulfilment in the time of the end, Rev. 21:27'
+    key: barnes-zechariah
+    url: 'https://biblehub.com/commentaries/barnes/zechariah/14.htm'
+    quote: 'This shall have its full fulfillment in the time of the end.'
+  - where: 'section “Upon the bells of the horses”'
+    claim: 'The line between holy and profane ceases only when the sin that evoked it has been entirely removed and wiped away'
+    key: keil-zechariah
+    url: 'https://biblehub.com/commentaries/kad/zechariah/14.htm'
+    quote: 'have been entirely removed and wiped away'
+  - where: 'section “Upon the bells of the horses”'
+    claim: 'Keil: the goal reached when sin is cleansed away by the judgment; no more sinners in the perfected kingdom'
+    key: keil-zechariah
+    url: 'https://biblehub.com/commentaries/kad/zechariah/14.htm'
+    quote: 'In the perfected kingdom of God there will be no more sinners, but only such as are righteous and holy.'
+  - where: 'section “Upon the bells of the horses”'
+    claim: 'Keil: the Canaanites a people under the curse exterminated by the judgment; the term denotes the godless members of the covenant nation'
+    key: keil-zechariah
+    url: 'https://biblehub.com/commentaries/kad/zechariah/14.htm'
+    quote: 'which has been exterminated by the judgment. In this sense, as the expression לא עוד implies, the term Canaanite is used to denote the godless members of the covenant nation'
+  - where: 'section “Upon the bells of the horses”'
+    claim: 'Connection made by this page: the plate’s purpose (Ex. 28:38, that one man bear the iniquity of the holy things so the people’s gifts be accepted) is finished at Zech. 14:20–21, because Zechariah’s own book has shown the iniquity removed (3:4, 3:9, 13:1–2). The words stand on every pot because no iniquity is left in the people’s holy things for anyone to bear; the pots are holy because what kept them common has been taken away. Keil places the removal at the judgment, when sin is cleansed away and there are no more sinners; the page adds the forgiveness and cleansing of chapters 3 and 13 as the way the condition is met. He does not join it to chapter 3'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/14?lang=eng'
+    quote: 'In that day shall there be upon the bells of the horses, HOLINESS UNTO THE LORD'
+  # ---------- section “A great high priest” ----------
+  - where: 'section “A great high priest”'
+    claim: 'Joshua a type of Jesus Christ, the great High Priest; the chapter messianic'
     key: ot-manual-33
     url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-33?lang=eng'
-    quote: 'Joshua (Hebrew Yeshua, Greek Hee-ay-sous, English Jesus) was a type of Jesus Christ, the great High Priest (see Hebrews 4:14).'
-  - where: 'section “For the whole city”'
-    claim: 'The Lord who spoke in D&C 45 says “I am Jesus that was crucified” of the wounds'
+    quote: 'was a type of Jesus Christ, the great High Priest (see Hebrews 4:14). The chapter is messianic.'
+  - where: 'section “A great high priest”'
+    claim: 'Hebrews shows Christ the great High Priest, of whom all others were prefigures'
+    key: bd-high-priest
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/high-priest?lang=eng'
+    quote: 'the manner in which Jesus Christ is the great High Priest, of whom all the others were pre-figures'
+  - where: 'section “A great high priest”'
+    claim: 'The ministries of Zech. 3 are types of a more perfect one, through the Branch'
+    key: bd-zechariah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/zechariah?lang=eng'
+    quote: 'these ministries are but types of a more perfect one, when through the Branch (Messiah) the Lord will remove the iniquity of the land in one day'
+  - where: 'section “A great high priest”'
+    claim: 'Keil sets Heb. 7:27; 9:12; 10:10 beside “in one day”'
+    key: keil-zechariah
+    url: 'https://biblehub.com/commentaries/kad/zechariah/3.htm'
+    quote: 'is substantially the same as ἐφάπαξ in Hebrews 7:27; Hebrews 9:12; Hebrews 10:10'
+  - where: 'section “A great high priest”'
+    claim: 'Keil cites Rev. 7:14 for the garments of Zech. 3:3–4'
+    key: keil-zechariah
+    url: 'https://biblehub.com/commentaries/kad/zechariah/3.htm'
+    quote: 'Dirt is a figurative representation of sin; so that dirty clothes represent defilement with sin and guilt (cf. Isaiah 64:5; Isaiah 4:4; Proverbs 30:12; Revelation 3:4; Revelation 7:14).'
+  - where: 'section “A great high priest”'
+    claim: 'Correa: the clean attire symbolizes forgiveness (compare Ex. 28:36–39), with Rev. 7:14'
+    key: ot-minute-zech
+    url: 'https://archive.bookofmormoncentral.org/content/old-testament-minute-zechariah'
+    quote: 'which symbolizes the forgiveness of his sins (compare Exodus 28:36–39)'
+  - where: 'section “A great high priest”'
+    claim: 'The inscription signified that Christ, the Great High Priest, would be perfectly holy before God'
+    key: ot-manual-ex-25-30
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/exodus-25-30-35-40-the-house-of-the-lord-in-the-wilderness?lang=eng'
+    quote: 'second that Christ, the Great High Priest, would be perfectly holy before God'
+  - where: 'section “A great high priest”'
+    claim: 'Connection made by this page: Joshua’s own iniquity had to be taken away before the turban was set on him (Zech. 3:4–5); the High Priest of Heb. 7:27 needed no offering for His own sins, and offered once. So the One the plate’s words describe, perfectly holy, is the One who removes the iniquity the plate was worn to bear: Aaron’s bearing had to go on always, Jesus Christ’s offering was made once. The Student Manual gives the type; the contrast is the page’s'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/45?lang=eng'
-    quote: 'I am he who was lifted up. I am Jesus that was crucified. I am the Son of God.'
-  - where: 'section “For the whole city”'
-    claim: 'Zech. 13:1’s “uncleanness” (niddâ) is the word of the “water of separation” in Num. 19:9'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
-    quote: 'וּ/לְ/נִדָּֽה'
-  - where: 'section “For the whole city”'
-    claim: 'Num. 19:9 has the same word niddâ'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Num.xml'
-    quote: 'נִדָּ֖ה'
-  - where: 'section “For the whole city”'
-    claim: 'Num. 19:13: without the water of separation one who touched the dead is unclean'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/19?lang=eng'
-    quote: 'because the water of separation was not sprinkled upon him, he shall be unclean'
-  - where: 'section “For the whole city”'
-    claim: 'Hag. 2:13: one unclean by a dead body makes what he touches unclean'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/2?lang=eng'
-    quote: 'If one that is unclean by a dead body touch any of these, shall it be unclean?'
-  - where: 'section “For the whole city”'
-    claim: 'Connection made by this page: Haggai’s priests’ ruling (Hag. 2:12–13) set beside the fountain for “uncleanness” (13:1), niddâ, the word of Num. 19:9’s water of separation'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/2?lang=eng'
-    quote: 'shall it be holy? And the priests answered and said, No.'
-  - where: 'section “For the whole city”'
-    claim: 'Connection made by this page (Num. 19:9)'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/num/19?lang=eng'
-    quote: 'it shall be kept for the congregation of the children of Israel for a water of separation: it is a purification for sin.'
-  - where: 'section “For the whole city”'
-    claim: 'Connection made by this page (Zech. 13:1)'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/13?lang=eng'
-    quote: 'for sin and for uncleanness'
-  - where: 'section “Engraved on every heart”'
-    claim: 'If we repent, Jesus Christ can take away our sins (on Zech. 3:3–7)'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/7?lang=eng'
+    quote: 'Who needeth not daily, as those high priests, to offer up sacrifice, first for his own sins, and then for the people’s: for this he did once, when he offered up himself.'
+  # ---------- section “If thou wilt walk in my ways” ----------
+  - where: 'section “If thou wilt walk in my ways”'
+    claim: 'As Joshua’s dirty clothes were replaced, if we repent Jesus Christ can take away our sins'
     key: liahona-2022-12-holy
     url: 'https://www.churchofjesuschrist.org/study/liahona/2022/12/come-follow-me/23-how-does-the-lord-make-us-holy?lang=eng'
-    quote: 'if we repent, Jesus Christ can take away our sins. We are forgiven and can become more holy.'
-  - where: 'section “Engraved on every heart”'
-    claim: 'Elder Christofferson: holiness sought in the details of daily living'
+    quote: 'Similarly, if we repent, Jesus Christ can take away our sins. We are forgiven and can become more holy.'
+  - where: 'section “If thou wilt walk in my ways”'
+    claim: 'We become more holy as we exercise faith, obey, repent, sacrifice, receive ordinances and keep covenants'
+    key: liahona-2022-12-holy
+    url: 'https://www.churchofjesuschrist.org/study/liahona/2022/12/come-follow-me/23-how-does-the-lord-make-us-holy?lang=eng'
+    quote: 'we can be sanctified or become more holy when we exercise faith in Christ, demonstrate our obedience, repent, sacrifice for Him, receive sacred ordinances, and keep our covenants with Him'
+  - where: 'section “If thou wilt walk in my ways”'
+    claim: 'Forgiveness is the springboard for discipleship'
+    key: ot-minute-zech
+    url: 'https://archive.bookofmormoncentral.org/content/old-testament-minute-zechariah'
+    quote: 'forgiveness is the springboard for discipleship'
+  - where: 'section “If thou wilt walk in my ways”'
+    claim: 'Pioneer Saints put “Holiness to the Lord” on sacrament cups, ordination certificates, a hammer and doorknobs; how pervasive holiness needs to be'
+    key: christofferson-living-bread
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-living-bread-which-came-down-from-heaven?lang=eng'
+    quote: 'It was found on the head of a hammer and on a drum. “Holiness to the Lord” was cast on the metal doorknobs of President Brigham Young’s home.'
+  - where: 'section “If thou wilt walk in my ways”'
+    claim: 'Christofferson: how pervasive and constant our focus on holiness needs to be'
+    key: christofferson-living-bread
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-living-bread-which-came-down-from-heaven?lang=eng'
+    quote: 'but they suggest just how pervasive and constant our focus on holiness needs to be'
+  - where: 'section “If thou wilt walk in my ways”'
+    claim: 'Christofferson: inscribed on sacrament cups and certificates of ordination'
+    key: christofferson-living-bread
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-living-bread-which-came-down-from-heaven?lang=eng'
+    quote: 'It was inscribed on sacrament cups and plates and printed on certificates of ordination of Seventies'
+  - where: 'section “If thou wilt walk in my ways”'
+    claim: 'Holiness sought even in the details of daily living'
     key: christofferson-living-bread
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2017/10/the-living-bread-which-came-down-from-heaven?lang=eng'
     quote: 'We seek it even in the details of daily living: our speech, our dress, our thoughts.'
-  - where: 'section “Engraved on every heart”'
-    claim: 'Come, Follow Me: the inscription must be engraved on every heart'
+  - where: 'section “If thou wilt walk in my ways”'
+    claim: 'The inscription must also be engraved on every heart'
     key: cfm-ot-2026-50
     url: 'https://www.churchofjesuschrist.org/study/manual/come-follow-me-for-home-and-church-old-testament-2026/50?lang=eng'
-    quote: 'It means the inscription “Holiness unto the Lord” must be engraved not just on a temple wall, or even on “the bells of the horses” and “every pot in Jerusalem” (Zechariah 14:20–21). They must also be engraved on every heart.'
+    quote: 'They must also be engraved on every heart.'
+  - where: 'section “If thou wilt walk in my ways”'
+    claim: 'Connection made by this page: Haggai’s priests ruled that holy flesh carried in a garment’s skirt does not make holy the bread the garment touches (Hag. 2:12): holiness does not pass the second step. Read together, holiness carried in a garment’s fold does not reach the bread, and Zechariah’s pots (14:20–21) are holy because the Lord has taken sin away. The Haggai essay does not cite Zechariah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/2?lang=eng'
+    quote: 'If one bear holy flesh in the skirt of his garment, and with his skirt do touch bread'
