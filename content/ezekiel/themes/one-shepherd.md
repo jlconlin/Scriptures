@@ -3,6 +3,7 @@ title: One Shepherd
 blurb: Judah's crown is taken off, and the Lord sets one shepherd over a people made one.
 icon: christ
 sources: [lds-scriptures, bd-jehovah, ot-manual-26, scripture-helps-ezek, seely-messiah, pike-shepherd, oshb-wlc]
+review: old-form
 ---
 
 In Ezekiel the rulers of Judah fail. The crown is taken off “until he come whose right it is”; later in the book, after word comes that the city has fallen ([[Ezek. 33:21]]), the Lord charges Israel's shepherds, says He will do their work Himself, and sets one shepherd over a flock made one. Jeremiah has a shorter prophecy against the shepherds, with the Branch: see [The Shepherds and the Branch](/jeremiah/themes/shepherds-and-the-branch/). Ezekiel never uses Jeremiah's title “Branch” for the promised king; the noun (*tsemach*) comes three times, of a bud and of a vine's growth ([[Ezek. 16:7]]; [[Ezek. 17:9–10]]).[@oshb-wlc]

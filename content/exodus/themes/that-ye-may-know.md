@@ -3,6 +3,7 @@ title: That Ye May Know That I Am the LORD
 blurb: Ten times Exodus says that someone shall “know that I am the LORD,” five of Egypt and five of Israel, and what each is to know is not the same. Then Moses asks to know God Himself, which none of those promises had offered.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, keil-exodus, cambridge-exodus, ellicott-exodus, scripture-helps-ex-1, scripture-helps-ex-7, scripture-helps-ex-19, ot-manual-ex-1-10, ot-minute-ex-18, muhlestein-pharaoh, morales-tabernacle, bd-jehovah, hales-seeking-know, grow-life-eternal-2017, nt-student-manual-27]
+review: unread
 ---
 
 Pharaoh’s first words about the God of Israel are a refusal to know Him: “Who is the LORD, that I should obey his voice to let Israel go? I know not the LORD, neither will I let Israel go” (5:2). The rest of the book answers him, and it answers in his own verb. The Hebrew verb “know,” *yādaʿ*, occurs forty-five times in Exodus, and the sentence “that I am the LORD,” *kî ʾănî YHWH*, eleven times. Ten of the eleven follow a form of “know.”[@oshb-wlc] Five of the ten are said of Egypt or Pharaoh (7:5, 7:17, 8:22, 14:4, 14:18) and five of Israel (6:7, 10:2, 16:12, 29:46, 31:13).

@@ -3,6 +3,7 @@ title: Waters out of the Sanctuary
 blurb: From the house the Lord's glory leaves to the house from which water goes out and everything lives.
 icon: christ
 sources: [lds-scriptures, bd-jehovah, bd-ezekiel, scripture-helps-ezek, ttp-joseph-smith-21, gs-living-water, seminary-ezek-47, oshb-wlc]
+review: old-form
 ---
 
 In Ezekiel's first temple vision the Lord's house is defiled and His glory goes out of it by the threshold. In the last, a measured house is set apart and the glory comes back and fills it. From under its threshold water goes out, grows into a river, and brings life wherever it comes.

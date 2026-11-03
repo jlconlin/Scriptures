@@ -3,6 +3,7 @@ title: Every Pot in Jerusalem
 blurb: The words on every pot at the end of Zechariah, “HOLINESS UNTO THE LORD,” are the words of the gold plate the high priest wore so that he could bear the iniquity of the people's holy things. Between the plate and the pots, Zechariah shows the high priest made clean before the turban that carried it is set on his head, the Lord promising to remove the land's iniquity in one day, and a fountain opened for sin. Read in that order, the words can stand on everything because the iniquity the plate was worn to bear has been taken away.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bdb, keil-exodus, cambridge-exodus, ot-manual-ex-25-30, keil-zechariah, cambridge-zechariah, pulpit-zechariah, barnes-zechariah, sears-intercession, scripture-helps-hag-1-2, ot-seminary-teacher-156, ot-manual-33, bd-high-priest, bd-zechariah, ot-minute-zech, liahona-2022-12-holy, christofferson-living-bread, cfm-ot-2026-50]
+review: unread
 ---
 
 The words come from the law. Moses was told to make “a plate of pure gold, and grave upon it, like the engravings of a signet, HOLINESS TO THE LORD” ([[Ex. 28:36]]), and to tie it to the front of Aaron's mitre. Verse 38 gives the reason: “And it shall be upon Aaron’s forehead, that Aaron may bear the iniquity of the holy things, which the children of Israel shall hallow in all their holy gifts; and it shall be always upon his forehead, that they may be accepted before the LORD” ([[Ex. 28:38]]).

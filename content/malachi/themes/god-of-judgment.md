@@ -3,6 +3,7 @@ title: '“Where Is the God of Judgment?”'
 blurb: The people ask where the God of judgment is and later call serving Him vain; the Lord answers that He is coming, and the question becomes who can stand when He does.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bdb, pike-great-dreadful-day, keil-malachi, bd-christ-names, cfm-ot-2026-51, romney-trust-1979, sc-knowhy-218]
+review: old-form
 ---
 
 In [[Mal. 2:17]] the people ask where the God of judgment is. In chapters 3 and 4 the Lord answers that question and a second complaint: that serving God is vain. The people’s question gives way to another: “who may abide the day of his coming?” ([[Mal. 3:2]]).

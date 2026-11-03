@@ -3,6 +3,7 @@ title: Isaiah’s World
 blurb: The everyday things Isaiah assumes you know, and what archaeology has found of the events he lived through. His kings, empires and map are in the period’s guide.
 icon: map
 sources: [bd-gate, ot-manual-f, bd-hezekiahs-tunnel, bd-high-places, bd-grove, gs-ensign, luckenbill-annals, bd-lachish, great-isaiah-scroll]
+review: old-form
 ---
 
 Nephi said that one reason he could understand Isaiah was that he knew “the regions round about” ([[2 Ne. 25:6]]). Growing up in Jerusalem, he would have known why Egypt was tempting, why Assyria was terrifying, and why Babylon was a byword. This guide tries to give you some of what Nephi knew.

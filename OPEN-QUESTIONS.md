@@ -1,6 +1,6 @@
 # Open questions for the author
 
-Everything that waits for the author, for every book and for the site, in this one file (author, 2026-10-04: “I can't keep track of those that are in multiple places”). Nothing that needs the author is kept anywhere else.
+Everything that waits for the author, for every book and for the site, in this one file (author, 2026-10-04: “I can't keep track of those that are in multiple places”). Nothing that needs the author is kept anywhere else, and **work that waits its turn is listed here too, under “Work waiting its turn,” never in a list of its own** (author, 2026-11-03: “I don't want a list of things to do from this review as well as a separate list of things to do from other areas. We could end up with a dozen different todo lists and not know which one is which”).
 
 - **Answer by number** (“G1: Context note. J4: leave it out.”), here, in a session, or in a comment on the preview.
 - Resolving questions records answers only; content is changed later (author, 2026-10-11). Answered items awaiting implementation stay in their own section until their work is carried out.
@@ -8,15 +8,24 @@ Everything that waits for the author, for every book and for the site, in this o
 - Only what needs the author belongs here. What the standard or a book's brief already settles is decided by whoever is writing and recorded in that book's `BRIEF.md` (“Decided while writing”), where the author can overturn it. A reviewer's doubt about a page that passed its review is not a question for the author: the verdict stands, and the author overturns it on reading (settled 2026-10-11, when most of this file was such doubts).
 - “Recommend” is Claude's suggestion where the standard points one way. No recommendation means the choice is a matter of taste or doctrine.
 
-Every theme page written from 2026-10-08 to 10-10 (Genesis, Moses, Abraham, Lamentations, Malachi, Ezekiel, Daniel, Hosea, Joel) passed its review and is unread by the author, as are Jeremiah's five and all of Joel and Psalms; `node scripts/status.mjs` shows what is unread. Treat every page as open to the author's correction.
+The author has read almost none of the site. A theme page or guide the author has not read carries `review: unread` in its front matter, and one still in the form of before 2026-10-25 carries `review: old-form`; `node scripts/status.mjs` lists both. Treat every page as open to the author's correction.
 
 ## The site
 
-Nothing.
+- **S1. The form of an old-form theme page when its turn comes.** Thirty-eight theme pages (and the narrative guides) carry `review: old-form`: their connection is sound and already made by the Church's sources, so they were kept, but they have the table-and-steps form of before 2026-10-25. They are rewritten when the author's study reaches their book, or sooner when the author reads one and finds it flat (author, 2026-11-03). What form they take is not decided. **Recommend** the guide's deal (`STANDARDS.md` §8, “How a guide is written”): a short page that states the known connection with the reasoning written out, no readings of its own, on a narrow research brief (the old ledger, the Church's footnotes and *Scripture Helps* at the key verses, one commentary, and what works against the manual's reading), one reviewer and Codex; a page the research shows has a real insight gets the full theme-page treatment instead. No answer is needed until the first such page is opened.
 
 ## Answered, awaiting implementation
 
 Nothing.
+
+## Work waiting its turn
+
+Not questions: work the author has decided on that is done when its time comes. An item is deleted when the work is done. Where the work is a page at a time, the page's own front matter says where it stands and `node scripts/status.mjs` lists them, so no page is listed here.
+
+- **Read the 38 rewritten theme pages** (the review of 2026-10-25; `STANDARDS.md` §8, “Where a page stands”). Each carries `review: unread` until the author has read it; the author reads a few each week (2026-11-03) and tells a session, which changes the line to `review: read`. A page the author finds flat is rewritten before the next.
+- **Rewrite the old-form theme pages and guides when their book's turn comes.** Thirty-nine theme pages and seventeen guides carry `review: old-form`: their connection is sound but already made by the manuals, and they keep the form of before 2026-10-25. A page is rewritten when the author's study reaches its book, or sooner when the author reads one and finds it flat (author, 2026-11-03: “Lets leave bin C live. We need to update them in the future, maybe near future”). The form is S1 above. Isaiah's *servant-songs* is really a guide and is rewritten as one.
+- **Repair the 33 chapter notes and two threads the chapter-note check found** (Codex, 2026-10-27, calibrated and adjudicated). The list, with each note's diagnosis, is the annotated tag `chapter-prose-review-2026-10-28` (`git tag -n400 chapter-prose-review-2026-10-28`). The repairs are made within the volume the author chooses to study, in the language pass's shape (Codex reads, Opus applies), with any added source claim verified; no site-wide rewrite is authorized.
+- **Before the next book, read one batch of chapters against the chapter-note check's worst examples.** The first batch written under the writer's current instruction (`.claude/agents/chapter-writer.md`, with `STANDARDS.md` §5's rule that the ledger documents the page) is read against the disconnected-source findings of 2026-10-27, to see whether the instruction prevents them, before the rest of the book is written.
 
 ## Notes waiting for a Book of Mormon home
 

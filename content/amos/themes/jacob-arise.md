@@ -3,6 +3,7 @@ title: “By Whom Shall Jacob Arise?”
 blurb: Amos’s funeral song says Israel is fallen, will not rise, and has none to raise her up. Amos asks whether Jacob can stand, and the reprieve he wins is withdrawn. The only one in the book who raises up what has fallen is the Lord, “I will raise up the tabernacle of David that is fallen,” and James quoted that promise at the Jerusalem council, and Ellicott hears Christ’s work in it.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bdb, swete-lxx-amos, biblehub-interlinear, keil-amos, cambridge-amos, ellicott-amos, ellicott-acts, cambridge-acts, sears-intercession, spencer-remnant, bd-amos, gs-jehovah, gs-david, nt-student-manual-32, judd-jerusalem-conference, mcclellan-ot-in-nt]
+review: unread
 ---
 
 Amos has one funeral song, and it is sung over a nation that is still standing. “Hear ye this word which I take up against you, even a lamentation, O house of Israel. The virgin of Israel is fallen; she shall no more rise: she is forsaken upon her land; there is none to raise her up” ([[Amos 5:1–2]]). The song has three verbs. She is fallen; she will not rise; no one will raise her. Keil renders the last two, “she does not rise up again… no one sets her up,” and the Cambridge commentary pictures her “unable to rise by her own efforts (having none to assist her).”[@keil-amos][@cambridge-amos] In Hebrew the second and third verbs are one root, *qûm*, in two forms: she herself will not “rise,” and there is no “raiser,” no one to make her rise.[@oshb-wlc] “Fallen” is *nāpal*.[@oshb-wlc]

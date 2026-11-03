@@ -3,6 +3,7 @@ title: The Sacrifice God Desires
 blurb: The psalms speak of offerings God does not need, a broken heart He desires, and a cleansing only He can give; Hebrews and the Book of Mormon name the offering that takes away sin.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, lxx-rahlfs, sc-knowhy-198, sc-knowhy-275, bd-sacrifices]
+review: old-form
 ---
 
 Three psalms come at sacrifice from three sides: whether God needs feeding (Psalm 50), what He wants of the worshipper (Psalm 40), and what a guilty man can bring (Psalm 51). The answers keep returning to the heart without throwing out the altar, and the Psalms also ask God for what the worshipper cannot bring. The table’s order is the page’s own, not a sequence in time, and so is any comparison it makes without a citation. Hebrews then gives Psalm 40’s words to Christ, and the Book of Mormon joins His sacrifice to the broken heart He asks of His people.

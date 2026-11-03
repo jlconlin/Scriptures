@@ -3,6 +3,7 @@ title: The Stranger’s Inheritance
 blurb: The law told Israel to love the resident stranger; Ezekiel charges Jerusalem with oppressing him, and the last vision gives him an inheritance among the tribes.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bdb, bd-stranger, bd-jehovah, ot-manual-27, keil-ezekiel, gill-exposition, jfb-ezekiel]
+review: old-form
 ---
 
 The law told Israel not to vex the stranger and to love him. Ezekiel charges Jerusalem with oppressing him, and at the end of the book, where the land is divided again, the stranger who has settled and raised children in a tribe receives an inheritance there. The word matters: the King James “stranger” stands for several Hebrew words in Ezekiel, and only one of them is the stranger the law told Israel to love.[@bdb]

@@ -3,6 +3,7 @@ title: Jeremiah’s Witness of Christ
 blurb: 'The Lord who speaks in Jeremiah is Jehovah: shepherd, fountain of living waters, righteous Branch, and maker of the covenant of the heart.'
 icon: sparkle
 sources: [bd-jehovah, bd-messiah, ot-manual-23, ot-manual-25, gs-shepherd]
+review: old-form
 ---
 
 Jeremiah’s book spends far more time on a city that will not hear than on explicit messianic prediction. Yet its central speaker is the Lord of Israel. For Latter-day Saints, that is already a witness of Christ: Jehovah of the Old Testament is Jesus Christ in His premortal role.[@bd-jehovah]

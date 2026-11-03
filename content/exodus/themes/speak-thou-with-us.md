@@ -3,6 +3,7 @@ title: Speak Thou with Us
 blurb: At Sinai Israel asked for a man to stand between them and God. The Lord said they had well said, gave them Moses, and promised a prophet like him; Moses stood between, offered himself and was refused. Scripture names the Mediator the Lord promised.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, keil-exodus, cambridge-exodus, ellicott-exodus, keil-deuteronomy, cambridge-deuteronomy, ellicott-deuteronomy, bd-priests, scripture-helps-ex-19, scripture-helps-deut, ot-manual-ex-21-24, ot-manual-deuteronomy-17-33, ot-minute-ex-24, ot-minute-deut-rappleye, jst-gal-3, nt-student-manual-43, nt-manual-hebrews-7-13, cambridge-hebrews, bowen-law-codes, seely-prophet-like-moses, millet-mediator-new-covenant, nelson-hear-him]
+review: unread
 ---
 
 When the Ten Commandments had been spoken, Israel asked for a man. “Speak thou with us, and we will hear: but let not God speak with us, lest we die” (Ex. 20:19). Deuteronomy gives the request in full, “Go thou near, and hear all that the LORD our God shall say: and speak thou unto us all that the LORD our God shall speak unto thee; and we will hear it, and do it,” and gives the Lord’s answer, which Exodus does not: “They have well said all that they have spoken” (Deut. 5:27–28). Moses describes what he became that day in one sentence: “I stood between the LORD and you” (Deut. 5:5).

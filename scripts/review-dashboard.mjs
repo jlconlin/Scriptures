@@ -1,48 +1,38 @@
 #!/usr/bin/env node
-// Exports the data behind the theme-page review dashboard (REVIEW.md):
-//   review-tasks.json    one row per line of REVIEW-TASKS.md
-//   review-commits.json  one row per commit since 2026-10-25 that wrote an essay or a shorter page
+// Exports the data behind the author's dashboard “Theme page review” (DEVELOPMENT.md; STANDARDS.md §8, “Where a page stands”):
+//   review-tasks.json    one row per theme page or guide whose front matter carries `review:` (unread, read or old-form)
+//   review-commits.json  one row per commit since 2026-10-25 that rewrote or deleted a theme page
 // Usage: node scripts/review-dashboard.mjs [outDir]   (default .cache/batch/dashboard)
-// The dashboard itself is a claude.ai Artifact; after running this, the session uploads the two
-// files as the artifact's blobs and points its `datasets/tasks` and `datasets/commits` documents at them.
-import { readFileSync, mkdirSync, writeFileSync } from 'node:fs';
+// After running it, the session uploads the two files as the artifact's blobs and points its `datasets/tasks` and
+// `datasets/commits` documents at them. Nothing here records history: a page's state is in its own front matter, and
+// the commits come from git.
+import { readFileSync, readdirSync, mkdirSync, writeFileSync, existsSync } from 'node:fs';
 import { execSync } from 'node:child_process';
 import { join } from 'node:path';
+import { discoverBooks, discoverVolumes } from '../src/lib/books.mjs';
 
+const ROOT = new URL('..', import.meta.url).pathname;
 const outDir = process.argv[2] || '.cache/batch/dashboard';
 mkdirSync(outDir, { recursive: true });
 
-// ---- tasks
-const md = readFileSync('REVIEW-TASKS.md', 'utf8').split('\n');
+// ---- pages: every theme page and guide with a `review:` line
 const tasks = [];
-let section = '', bin = '';
-const binOf = (h) => /^A\b/.test(h) ? 'A' : /^B\b/.test(h) ? 'B' : /^C\b/.test(h) ? 'C' : /^D\b/.test(h) ? 'D' : /^Guides/.test(h) ? 'Guides' : 'Other';
-const stateOf = (t) => {
-  const s = t.toLowerCase();
-  if (s === 'done' || s === 'todo' || s === 'later' || s === 'deleted') return s;
-  if (s.startsWith('live')) return 'live';
-  if (s.startsWith('merged')) return 'merged';
-  if (s.startsWith('author')) return 'author';
-  if (s.startsWith('after')) return 'after';
-  if (s.startsWith('before')) return 'before';
-  return 'other';
+const scan = (owner, kind, dir) => {
+  if (!existsSync(dir)) return;
+  for (const f of readdirSync(dir).filter((x) => x.endsWith('.md')).sort()) {
+    const head = readFileSync(join(dir, f), 'utf8').split(/\n---\n/)[0];
+    const m = head.match(/^review:\s*(unread|read|old-form)\b/m);
+    if (!m) continue;
+    const title = (head.match(/^title:\s*(.+)$/m) || [])[1]?.replace(/^["“']|["”']$/g, '') ?? f;
+    tasks.push({ kind, owner, item: `${owner} / ${f.replace(/\.md$/, '')}`, title, state: m[1] });
+  }
 };
-for (const line of md) {
-  const h = line.match(/^## (.+)/);
-  if (h) { section = h[1].trim(); bin = binOf(section); continue; }
-  if (!line.startsWith('| ') || /^\|\s*(Page|Task)\s*\|/.test(line) || /^\|---/.test(line)) continue;
-  const cells = line.split('|').slice(1, -1).map((c) => c.trim());
-  if (cells.length < 2) continue;
-  const [item, stateText, thesis = ''] = cells;
-  const state = stateOf(stateText);
-  // A live page is `live, unread` until the author has read it (REVIEW.md decision 7).
-  const read = state === 'live' ? (/\bread\b/i.test(stateText) && !/unread/i.test(stateText) ? 'read' : 'unread') : '';
-  tasks.push({ bin, section, item, book: item.split(' / ')[0], state, state_text: stateText, read, thesis });
-}
+for (const b of await discoverBooks(ROOT)) { scan(b.slug, 'theme page', join(b.dir, 'themes')); scan(b.slug, 'guide', join(b.dir, 'guides')); }
+for (const v of await discoverVolumes(ROOT)) scan(v.slug, 'guide', join(v.dir, 'guides'));
 writeFileSync(join(outDir, 'review-tasks.json'), JSON.stringify(tasks, null, 1));
 
 // ---- commits
-const log = execSync("git log --since=2026-10-25 --format='%ad%x09%s' --date=short", { encoding: 'utf8' });
+const log = execSync("git log --since=2026-10-25 --format='%ad%x09%s' --date=short", { encoding: 'utf8', cwd: ROOT });
 const commits = [];
 for (const line of log.split('\n')) {
   if (!line) continue;
@@ -51,14 +41,13 @@ for (const line of log.split('\n')) {
   // 2026-10-29 a page commit itself ends "Codex’s reading applied", so match only the follow-up's form.
   if (!/theme page|essay/i.test(subject) || /: codex['’]s readings? applied/i.test(subject)) continue;
   const m = subject.match(/^(\w+) theme page: [“"](.+?)[”"]/);
-  if (!m) continue; // the plan's own commits (REVIEW.md) are not page commits
-  // Before 2026-10-27 the subjects did not say "essay"; every rewritten page then was a bin A essay.
+  if (!m) continue; // commits about the plan or the files are not page commits
+  // Before 2026-10-27 the subjects did not say "essay"; every rewritten page then was an essay.
   const kind = /deleted/i.test(subject) ? 'deleted' : /shorter page/i.test(subject) ? 'shorter page' : 'essay';
   commits.push({ date, book: m[1], title: m[2], kind });
 }
 writeFileSync(join(outDir, 'review-commits.json'), JSON.stringify(commits, null, 1));
 
-const n = (b, s) => tasks.filter((r) => r.bin === b && r.state === s).length;
-const r = (b, v) => tasks.filter((x) => x.bin === b && x.read === v).length;
-console.log(`${tasks.length} task rows → ${join(outDir, 'review-tasks.json')}; A live ${n('A', 'live')} (read ${r('A', 'read')}) merged ${n('A', 'merged')}; B live ${n('B', 'live')} (read ${r('B', 'read')}) todo ${n('B', 'todo')} merged ${n('B', 'merged')}; C later ${n('C', 'later')}`);
+const n = (k, s) => tasks.filter((r) => r.kind === k && r.state === s).length;
+console.log(`${tasks.length} pages with a review line → ${join(outDir, 'review-tasks.json')}; theme pages unread ${n('theme page', 'unread')}, read ${n('theme page', 'read')}, old form ${n('theme page', 'old-form')}; guides old form ${n('guide', 'old-form')}`);
 console.log(`${commits.length} page commits → ${join(outDir, 'review-commits.json')}`);

@@ -3,6 +3,7 @@ title: The New Exodus and the Highway
 blurb: A second deliverance like the one from Egypt, and the road the Lord prepares for it, followed through Isaiah.
 icon: christ
 sources: [lds-scriptures, oshb-wlc]
+review: old-form
 ---
 
 Isaiah promises a second deliverance. At first the deliverance is like the exodus, with a highway “like as it was to Israel in the day that he came up out of the land of Egypt” ([[Isa. 11:16]]). Then the LORD “which maketh a way in the sea” says, “Remember ye not the former things… I will do a new thing” ([[Isa. 43:16–19]]), and then the going out is unlike the exodus: “ye shall not go out with haste” ([[Isa. 52:12]]). The road is first for “the remnant of his people,” then “for our God” ([[Isa. 40:3]]), then “the way of the people” ([[Isa. 62:10]]).

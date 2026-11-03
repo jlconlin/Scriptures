@@ -3,6 +3,7 @@ title: A Little Sanctuary
 blurb: One Hebrew root for “far” runs through Ezekiel, and it tells the exiles’ story. The Lord goes far from His house, Jerusalem tells the exiles to get far from Him, He says He is their sanctuary where He sent them, and at the end He asks Israel to put its sin far from Him so He can dwell in their midst.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bdb, nrsvue, keil-ezekiel, cambridge-ezekiel, ellicott-ezekiel, scripture-helps-ezek, ot-manual-27, cfm-ot-2026-45, sc-knowhy-719, shannon-location, lund-ezekiel, draper-exile, heal-abide-ezekiel, bd-jehovah]
+review: unread
 ---
 
 Those left in Jerusalem had a sentence for the exiles: “Get you far from the LORD: unto us is this land given in possession” (11:15). The Lord’s reply accepts the distance and rejects their conclusion. “Although I have cast them far off among the heathen, and although I have scattered them among the countries, yet will I be to them as a little sanctuary in the countries where they shall come” (11:16). “Get you far” and “cast them far off” are one Hebrew root, *rāḥaq*, and the Lord had already used it of Himself, asking Ezekiel in the temple whether he saw the abominations “that I should go far off from my sanctuary” (8:6).[@oshb-wlc]

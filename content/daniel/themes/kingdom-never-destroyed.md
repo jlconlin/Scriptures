@@ -3,6 +3,7 @@ title: The Kingdom That Shall Never Be Destroyed
 blurb: In Daniel kingdoms are given to kings and taken away again; one kingdom is set up that shall never be destroyed, and in chapter 7 the same words are used of the dominion given to the Son of man.
 icon: christ
 sources: [lds-scriptures, bd-daniel-book, ot-manual-28, draper-exile, scripture-helps-dan, jsp-discourse-1839-a-richards, kimball-stone, christofferson-why-church, oshb-wlc]
+review: old-form
 ---
 
 In Daniel 2–5 God gives kingdoms and takes them away. Beside them stands a kingdom God sets up that “shall never be destroyed”; two kings say in their own decrees that God's kingdom lasts; and in chapter 7 dominion, described in the kings' words, is given to “one like the Son of man” and to the saints.

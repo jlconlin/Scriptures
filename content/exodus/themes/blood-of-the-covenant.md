@@ -3,6 +3,7 @@ title: Four Rites of Blood
 blurb: 'Four times Exodus puts the blood of sacrifice on someone or something: on the door, on the altar and the people, on the priests, and on the horns of the incense altar once a year. The Savior took the words of the second for His own cup, and Hebrews speaks of entering the holiest by the blood of Jesus.'
 icon: christ
 sources: [lds-scriptures, scripture-helps-ex-7, scripture-helps-ex-19, scripture-helps-ex-35, scripture-helps-nt-heb-7-13, seely-sacrifice, belnap-skinner-sinai, hunter-passover]
+review: old-form
 ---
 
 Exodus puts the blood of sacrifice in four places, in this order: on a door, on an altar and a people, on the priests, and on the horns of the incense altar. Set side by side, they are four things blood does in the text: the house is passed over, the people are bound to the covenant, the priests are hallowed, and atonement is made once a year. The headings below (protection, belonging, service, access) are this page’s names for them, not the text’s. The blood of the covenant and the yearly atonement are then carried to Jesus Christ.

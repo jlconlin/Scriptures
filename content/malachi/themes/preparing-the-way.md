@@ -3,6 +3,7 @@ title: Sent Before the Day
 blurb: "Malachi calls the priest the Lord’s messenger, and promises a messenger to prepare the way, the Lord who comes to His temple, and Elijah before the great and dreadful day."
 icon: christ
 sources: [lds-scriptures, oshb-wlc, scripture-helps-mal, bd-elias, bd-elijah, bd-christ-names, ot-manual-34, alford-elijah, gong-hosanna-hallelujah]
+review: old-form
 ---
 
 Malachi calls the priest the Lord’s messenger, and promises a messenger to prepare the way, the Lord who comes to His temple, and Elijah before the day. The arc runs in the book’s order and ends at the Kirtland Temple, where the Lord came first and Elijah after.

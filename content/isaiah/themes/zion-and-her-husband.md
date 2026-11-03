@@ -3,6 +3,7 @@ title: Zion and Her Husband
 blurb: "Zion as a woman in Isaiah: forsaken, captive and barren, then married and rejoiced over."
 icon: christ
 sources: [lds-scriptures, gs-redeemer, ot-manual-17, ot-manual-18, isaiah-in-bom, sc-knowhy-550, bd-beulah]
+review: old-form
 ---
 
 Isaiah pictures Zion as a woman in several ways: a faithful city turned harlot, a mother who thinks herself forsaken, a captive, a barren woman told to sing, and at last one over whom her God rejoices. Her complaint, “The LORD hath forsaken me” ([[Isa. 49:14]]), is answered at the end: “Thou shalt no more be termed Forsaken” ([[Isa. 62:4]]). Her husband and Redeemer is read as Jesus Christ. Isaiah 49 and 54 use the “imagery of Christ as the Bridegroom and His covenant people as His bride,”[@ot-manual-17] and “thy redeemer, the Holy One of Israel” is “the great Redeemer of mankind,” who “paid the price for the sins of mankind.”[@gs-redeemer]

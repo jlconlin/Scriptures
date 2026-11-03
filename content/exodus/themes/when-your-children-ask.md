@@ -3,6 +3,7 @@ title: When Your Children Ask
 blurb: In Exodus remembering begins with God, who remembers His covenant, and is then built into Israel’s calendar, its children’s questions and its priest’s clothing; at a Passover table the Savior gives a new memorial.
 icon: christ
 sources: [lds-scriptures, strongs-concordance, oshb-wlc, keil-exodus, scripture-helps-ex-7, sc-knowhy-845]
+review: old-form
 ---
 
 In Exodus remembering begins with God, who remembers His covenant. It is then built into Israel’s calendar, its children’s questions and its high priest’s clothing. At a Passover table the Savior gives a new memorial. Where the page says it sets one passage beside another, the comparison is its own.

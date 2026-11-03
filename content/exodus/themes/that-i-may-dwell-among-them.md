@@ -3,6 +3,7 @@ title: That I May Dwell among Them
 blurb: The Lord promises to be with Moses, comes to rest on a mountain, and commands a sanctuary so that He may dwell among Israel. After the calf He says He will not go up in their midst; Moses will not go without Him, and the book closes with His glory filling the tabernacle. John says the Word “dwelt among us” with a verb for living in a tent.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, strongs-concordance, strongs-greek, morales-tabernacle, tg-god-presence-of, cfm-ot-2022-thoughts-19]
+review: old-form
 ---
 
 The Lord promises to be with Moses, leads Israel in a cloud, settles on Sinai, and then asks for a sanctuary so that He may dwell among the people. After the calf He says He will not go up in their midst; Moses will not go without Him, the Lord grants what he asks, and the book ends with His glory filling the tabernacle. John and Revelation use the verb of dwelling in a tent for the Word and for God with men.[@strongs-greek] Where the page says it sets one passage beside another, the comparison is its own.

@@ -3,6 +3,7 @@ title: '“I Will Betroth Thee unto Me”'
 blurb: Two of Hosea's children are named “not having obtained mercy” and “not my people”; the Lord takes back what He gave, leads Israel into the wilderness, and betroths her to Himself “in mercies”; the names are reversed, and the book's last prayer says that in Him “the fatherless findeth mercy.”
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bdb, bd-hosea, bd-jehovah, scripture-helps-hosea, bowen-fruit-of-loins, ot-manual-10]
+review: old-form
 ---
 
 Hosea's daughter is named Lo-ruhamah, “not having obtained mercy,” and his second son Lo-ammi, “not my people.” In chapter 2 the Lord betroths Israel to Himself “in mercies” and reverses both names. The last chapter's prayer returns to the verb of the daughter's name, Hebrew *racham*, “to have mercy.”[@scripture-helps-hosea][@oshb-wlc]

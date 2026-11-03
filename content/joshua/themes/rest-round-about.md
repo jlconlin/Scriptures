@@ -3,6 +3,7 @@ title: Rest Round About
 blurb: Joshua says the LORD gave Israel rest, and the book sets beside it what remained or what could be lost. Hebrews, where “Jesus” in 4:8 is Joshua, says another rest remains; Alma and the Doctrine and Covenants say who enters it.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, scripture-helps-josh, nt-manual-hebrews-1-6, jfs-teachings-48, gs-rest, nelson-overcome-world]
+review: old-form
 ---
 
 The book of Joshua says several times that the LORD gave Israel rest, and sets beside it what remained or what could be lost. Hebrews, where “Jesus” in 4:8 is Joshua, reasons that the rest Joshua gave was not the last, and Alma says who enters the rest that remains and through whom.

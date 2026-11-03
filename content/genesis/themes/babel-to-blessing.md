@@ -3,6 +3,7 @@ title: 'From Babel’s Scattering to the Blessing of All Families'
 blurb: Genesis 10 counts the families of the earth as they divide, Babel scatters them, and the next thing the Lord does is call one man and say that in him all the families of the earth will be blessed.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, scripture-helps-gen-6-11, donaldson-babel-1994, keil-genesis]
+review: old-form
 ---
 
 At Babel the people build to make themselves a name and to avoid being scattered, and they are scattered. The Lord’s next act in the record is to call one man, from one of the families Genesis 10 lists, and promise to make his name great and to bless “all families of the earth.” Paul calls that promise the gospel preached beforehand. This page follows the scattering of the nations and the promise that comes after it; the covenant’s renewals are in [The Covenant with Abraham](/genesis/themes/covenant-with-abraham/).

@@ -3,6 +3,7 @@ title: Pray unto the LORD, That He Take Away the Serpents
 blurb: Under the judgments of Numbers the people never pray to the LORD themselves. They come to Moses and he prays, and the Hebrew verb translated “pray” appears in only two verses, at the first of his pleas and the last. At Taberah his prayer alone puts out the fire. At the serpents the answer to his prayer is a figure lifted up, and the bitten live only by looking at it. Hebrews names Christ the one who “ever liveth to make intercession,” and John names Him the one lifted up like the serpent.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bd-moses, keil-numbers, pulpit-numbers, ot-manual-numbers-13-36, scripture-helps-num, cambridge-numbers, ellicott-numbers, alonso-look-to-god, ot-stories-brass-serpent, jenson-look-and-live, gs-mediator, scripture-helps-ex-19, ot-manual-ex-21-24, sears-intercession, bd-serpent-brazen, renlund-treasure, oaks-2006-heals, christofferson-look]
+review: unread
 ---
 
 Twice in Numbers the people come to Moses under a judgment and Moses prays. At Taberah “the people cried unto Moses; and when Moses prayed unto the LORD, the fire was quenched” (11:2). Near the end of the wilderness years the LORD sent fiery serpents, and the people said to Moses, “We have sinned, for we have spoken against the LORD, and against thee; pray unto the LORD, that he take away the serpents from us. And Moses prayed for the people” (21:7).

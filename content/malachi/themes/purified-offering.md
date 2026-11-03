@@ -3,6 +3,7 @@ title: 'From Polluted Offerings to an Offering in Righteousness'
 blurb: Priests bring the blind and the lame to the Lord’s altar; the messenger of the covenant will purify the sons of Levi to offer “an offering in righteousness.”
 icon: christ
 sources: [lds-scriptures, oshb-wlc, scripture-helps-mal, bd-christ-names, bd-refiner, jsp-history-c1-addenda-18, keil-malachi]
+review: old-form
 ---
 
 In Malachi 1 priests offer the blind and the lame at the Lord’s altar and call His table contemptible. In Malachi 3 “the messenger of the covenant” will “purify the sons of Levi… that they may offer unto the LORD an offering in righteousness” ([[Mal. 3:1, 3]]). The men who bring the offering are changed first, and then the offering; the one who purifies them, in the Church’s reading, is Jesus Christ.[@bd-christ-names][@bd-refiner]

@@ -3,6 +3,7 @@ title: How to Read Isaiah
 blurb: Nephi’s keys, Hebrew poetry, prophetic time, and a handful of habits that make Isaiah much easier to understand.
 icon: key
 sources: [mcconkie-keys, ot-manual-e, ot-manual-g, bd-isaiah, bd-captivities, bd-cyrus, bd-let, gs-ensign, delitzsch, isaiah-in-bom, webster-1828]
+review: old-form
 ---
 
 If Isaiah has ever made your eyes glaze over, you’re in good company. Nephi’s own people found him hard: “Isaiah spake many things which were hard for many of my people to understand” ([[2 Ne. 25:1]]). Nephi didn’t respond by skipping Isaiah. He gave them **keys**. The Savior, for His part, commanded us to “search these things diligently; for great are the words of Isaiah” ([[3 Ne. 23:1]]).

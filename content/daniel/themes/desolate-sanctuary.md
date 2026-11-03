@@ -3,6 +3,7 @@ title: The Desolate Sanctuary and the Messiah
 blurb: The house of God is plundered, profaned, and laid desolate more than once in Daniel; when Daniel prays for it, the answer speaks of the Messiah.
 icon: christ
 sources: [lds-scriptures, bd-temple-of-zerubbabel, bd-abomination-of-desolation, ot-manual-28, oshb-wlc]
+review: old-form
 ---
 
 Daniel tells of the house of God lost in several ways: vessels carried off and profaned, an offering taken away, the sanctuary and city destroyed. The passages describe events at different times and do not use one Hebrew word for all of them. In chapter 9 Daniel prays for “thy sanctuary that is desolate,” and the answer he is given speaks of iniquity reconciled and of the Messiah.

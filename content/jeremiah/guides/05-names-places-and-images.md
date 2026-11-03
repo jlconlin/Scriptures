@@ -3,6 +3,7 @@ title: Names, Places & Images
 blurb: A quick-reference guide to the people, places, and recurring images in Jeremiah.
 icon: symbol
 sources: [bd-jeremiah, bd-ramah]
+review: old-form
 ---
 
 Use this as a lookup page while you read. The entries point to the chapter where the person, place, or image receives fuller treatment.

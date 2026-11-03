@@ -3,6 +3,7 @@ title: 'The Plan of Salvation, Taught from the First Parents'
 blurb: An angel tells Adam what his sacrifice means, Adam and Eve teach it, and Enoch and Noah later preach it in the same name.
 icon: christ
 sources: [lds-scriptures, bd-dispensations, maxwell-from-the-beginning-1993, jsp-letter-1834-03, tpjs-2007-ch-3]
+review: old-form
 ---
 
 In Moses the gospel is taught from the beginning. Its teachers change: an angel and God’s own voice teach Adam; Adam and Eve teach their children; Enoch repeats to his generation what God said to Adam; and Noah preaches “even as our fathers.”

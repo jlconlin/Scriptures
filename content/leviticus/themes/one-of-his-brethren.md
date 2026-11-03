@@ -3,6 +3,7 @@ title: One of His Brethren May Redeem Him
 blurb: A brother who falls and sells himself, even to a stranger, can be bought back by his own kin at a counted price, or goes free at the jubilee; scripture and the Church name Jesus Christ the Redeemer who paid the price.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bdb, bd-redemption, gs-redeem, gs-redeemer, curtis-redemption, lane-redemption-gaal, spackman-atonement, keil-leviticus]
+review: old-form
 ---
 
 Leviticus 25 provides for a brother who sells himself, even to a stranger: “After that he is sold he may be redeemed again; one of his brethren may redeem him” ([[Lev. 25:48]]). Only his family, or he himself, may buy him back, at a counted price, and if none does, the jubilee frees him. Jesus Christ is the Redeemer who “paid the price.”[@gs-redeemer] Where this page sets one passage beside another, the comparison is the page’s own.

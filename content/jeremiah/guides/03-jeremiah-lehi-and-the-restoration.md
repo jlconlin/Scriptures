@@ -3,6 +3,7 @@ title: Jeremiah, Lehi, and the Restoration
 blurb: Two prophets in one doomed city, the brass plates, Mulek, and how restored scripture reads Jeremiah.
 icon: restoration
 sources: [bd-jeremiah, sc-knowhy-650, sc-knowhy-463]
+review: old-form
 ---
 
 Jeremiah is an Old Testament prophet whose ministry overlaps the Book of Mormon’s opening. Lehi began to prophesy “in the commencement of the first year of the reign of Zedekiah” ([[1 Ne. 1:4]]); Jeremiah’s long ministry was already under way. They are not the same voice, but they speak from the same endangered city.

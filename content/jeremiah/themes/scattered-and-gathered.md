@@ -3,6 +3,7 @@ title: Scattered and Gathered
 blurb: The Lord who scatters Judah promises to gather Israel from every place He drove them; Church sources read the gathering as larger than the return from Babylon.
 icon: christ
 sources: [lds-scriptures, bd-jeremiah, ot-manual-23, ot-manual-25, oshb-wlc, nelson-gathering, cfm-2026-thoughts-28, rasband-fulfillment]
+review: old-form
 ---
 
 “The scattering of Israel, however, is only half the story.”[@cfm-2026-thoughts-28] The Lord announces the scattering, and promises to gather Israel “out of all countries whither I have driven them” ([[Jer. 23:3]]). The gathering comes “one of a city, and two of a family,” and brings Israel and Judah back together; Church sources read it as larger than the return from Babylon.

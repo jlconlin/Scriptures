@@ -3,6 +3,7 @@ title: Light Rising on Zion
 blurb: Light and darkness through Isaiah, from the people who walked in darkness to the Lord as an everlasting light.
 icon: christ
 sources: [lds-scriptures, ot-manual-16, ot-manual-18, nt-student-manual-32]
+review: old-form
 ---
 
 The house of Jacob is invited to “walk in the light of the LORD” ([[Isa. 2:5]]). Isaiah then describes a people in darkness, and comes at last to a Zion whose light is the LORD Himself. Scripture and the Church read several of these passages as speaking of Jesus Christ.

@@ -3,6 +3,7 @@ title: To Root Out and to Plant
 blurb: Jeremiah is called to tear down and to build. The tearing down comes, the Lord says He will watch over His people to build and to plant, and a Branch grows up.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bdb, keil-jeremiah, cfm-ot-2026-44, lxx-rahlfs, greek-nt]
+review: old-form
 ---
 
 Jeremiah is called with six verbs: four of tearing down, then “to build, and to plant” ([[Jer. 1:10]]). At the potter’s house they come with a condition, and then the tearing down comes. The Lord says that as He has watched over His people “to pluck up,” so He will watch over them “to build, and to plant” ([[Jer. 31:28]]).

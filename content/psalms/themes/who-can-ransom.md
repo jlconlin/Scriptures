@@ -3,6 +3,7 @@ title: Who Can Ransom a Life?
 blurb: Psalm 49 says no man can “redeem his brother, nor give to God a ransom for him.” Both words belong to the law’s pricing of a life. The verb is the one the law used for buying back a firstborn son at a set price, and the noun names the price of a forfeited life and the half shekel every man gave “for his soul” when Israel was numbered. The psalm says no man can pay them to escape death, and then gives the same verb to God. Peter names what the redemption cost, “the precious blood of Christ.”
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bdb, cambridge-psalms, delitzsch-psalms, bd-sheol, scripture-helps-ps-1, esv, pulpit-psalms, cfm-ot-2026-35, ellicott-psalms, curtis-redemption, lxx-rahlfs, greek-nt, bd-redemption, strongs-greek, nt-manual-mark-8-10, gs-redeemer, goaslind-ends-earth, gs-redeem]
+review: unread
 ---
 
 Psalm 49 asks why the singer should fear those “that trust in their wealth, and boast themselves in the multitude of their riches” (49:6), and answers with a price: “None of them can by any means redeem his brother, nor give to God a ransom for him: (For the redemption of their soul is precious, and it ceaseth for ever:) That he should still live for ever, and not see corruption” (49:7–9). Then he speaks of himself: “But God will redeem my soul from the power of the grave: for he shall receive me” (49:15).

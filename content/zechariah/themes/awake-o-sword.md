@@ -3,6 +3,7 @@ title: '“Awake, O Sword, against My Shepherd”'
 blurb: The flock that had no shepherd prices the one sent to it at a slave's wage, and the covenant staff breaks. Then the Lord calls the sword against His own Shepherd, and after that stroke He says again, “It is my people.”
 icon: christ
 sources: [lds-scriptures, oshb-wlc, scripture-helps-hag-1-2, seminary-ot-teacher-157, ot-manual-33, ot-manual-kings-i, keil-zechariah, nt-student-manual-9, huntsman-peters-denial, cfm-ot-2026-50, pike-shepherd]
+review: old-form
 ---
 
 A flock without a shepherd prices the one sent to it, and the covenant is broken. What changes is who the sword falls on: first a worthless shepherd, then the Lord's own. After that stroke the Lord again names them His people. Jesus quoted 13:7 on the night of His arrest, and the covenant blood of 9:11 stands beside the cup He gave that night.

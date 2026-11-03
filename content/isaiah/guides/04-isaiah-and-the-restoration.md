@@ -3,6 +3,7 @@ title: Isaiah and the Restoration
 blurb: How the Book of Mormon, the Doctrine and Covenants, and the Prophet Joseph Smith quote, correct, and explain Isaiah, and the latter-day events Isaiah foresaw.
 icon: restoration
 sources: [isaiah-in-bom, mcconkie-keys, lds-scriptures, nelson-hope-israel, gs-stake]
+review: old-form
 ---
 
 Latter-day Saints have an extraordinary advantage in reading Isaiah. The Restoration didn’t just quote Isaiah. It **explained** him, sometimes by revelation. This guide gathers that light.

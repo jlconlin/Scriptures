@@ -3,6 +3,7 @@ title: The Shepherds and the Branch
 blurb: Judah's shepherds scatter the flock and its kings lose David's throne; the Lord says He will gather the flock and raise a righteous Branch to David.
 icon: christ
 sources: [lds-scriptures, bd-jeremiah, bd-zedekiah, ot-manual-13, ot-manual-23, ot-manual-24, ot-manual-25, oshb-wlc, bowen-ominous-onomastics]
+review: old-form
 ---
 
 In the KJV of Jeremiah, every “pastor” translates the Hebrew word for shepherd.[@oshb-wlc] Chapters 21–23 are “on pastors or rulers of the people, with promise of the king Messiah (23:1–6).”[@bd-jeremiah] The shepherds fail, the house of David is weighed, and the Lord promises to gather the flock and raise a Branch to David, whom the Church’s chapter headings name as the Messiah.[@lds-scriptures]

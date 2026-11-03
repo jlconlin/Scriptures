@@ -3,6 +3,7 @@ title: The Covenant Written in the Heart
 blurb: Israel and Judah break the covenant made at the Exodus; the Lord promises a new covenant written in the heart, and Hebrews names Jesus its mediator.
 icon: christ
 sources: [lds-scriptures, bd-jeremiah, oshb-wlc, ot-manual-23, ot-manual-25, ot-seminary-teacher-135, nt-student-manual-9, nt-student-manual-41, nt-student-manual-49, jst-gal-3, smith-saxton-letter]
+review: old-form
 ---
 
 The Lord tells Judah what the covenant asks: “Obey my voice, and I will be your God, and ye shall be my people” ([[Jer. 7:23]]). Israel and Judah break it. Then the Lord promises a new covenant, in which He will put His law in their inward parts and write it in their hearts, and Hebrews says of Jesus that “he is the mediator of a better covenant” ([[Heb. 8:6]]).

@@ -3,6 +3,7 @@ title: Isaiah’s Witness of Christ
 blurb: Isaiah’s names for the Savior, the four Servant Songs, and the prophecies the New Testament and Book of Mormon say He fulfilled.
 icon: sparkle
 sources: [bd-christ-names, bd-jehovah, bd-messiah, bd-holy-one, bdb, holland-none-with-him, isaiah-in-bom]
+review: old-form
 ---
 
 Nephi wrote of Isaiah that “he verily saw my Redeemer, even as I have seen him” ([[2 Ne. 11:2]]). Jacob said he read Isaiah to his people so they might “glorify the name of your God” ([[2 Ne. 6:4]]). Abinadi used Isaiah 53 to preach Christ to a hostile court ([[Mosiah 14–15]]). The Savior Himself, after His resurrection, told the Nephites to search Isaiah, and then quoted and explained him ([[3 Ne. 20–23]]).

@@ -3,6 +3,7 @@ title: The Servant Songs
 blurb: Four poems about the Lord’s servant, how each builds on the last, and who the servant is.
 icon: christ
 sources: [oshb-wlc, delitzsch, duhm, westermann, childs, oswalt, blenkinsopp, paul-40-66, isaiah-in-bom, sc-knowhy-648, sc-knowhy-215, holland-cnc, origen-celsum, chilton-targum]
+review: old-form
 ---
 
 Chapters 40–55 of Isaiah speak often of the Lord’s **servant** (*ʿebed*). Usually the servant is plainly the nation of Israel: “thou, Israel, art my servant, Jacob whom I have chosen” ([[Isa. 41:8]]). But four passages describe a servant who seems to be an individual, with a mission *to* Israel as well as to the nations, and who suffers for others. Since the end of the nineteenth century these passages have been called the **Servant Songs**.[@duhm] The name is modern; nothing in the text marks them off. But the songs do form a sequence, which reading them one at a time can hide.

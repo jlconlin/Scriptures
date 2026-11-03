@@ -3,6 +3,7 @@ title: The Firstborn
 blurb: Exodus names the firstborn twenty times. The Lord calls Israel His before Egypt’s die, says “it is mine” the morning after and sets a price; Luke then brings a child to the temple under that law.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bdb, keil-exodus, cambridge-exodus, scripture-helps-ex-7, ot-manual-ex-11-19, ot-manual-numbers-1-12, bd-firstborn, bd-levites, gs-firstborn, gong-hosanna-hallelujah, hunter-passover, cambridge-luke, ellicott-luke, nt-student-manual-15, cambridge-colossians, skinner-life-jesus]
+review: unread
 ---
 
 The word “firstborn” stands twenty times in Exodus, in eleven verses, and most of the twenty are Egypt’s. Twelve name the firstborn the Lord smote at midnight, “from the firstborn of Pharaoh that sat on his throne unto the firstborn of the captive that was in the dungeon” (12:29). Five name Israel’s, and every one of the five is about the Lord claiming them or Israel buying them back (13:2, 13, 15; 22:29; 34:20). One names Reuben (6:14).[@oshb-wlc] The two that are left come before all the others, and the page turns on them: “Israel is my son, even my firstborn … if thou refuse to let him go, behold, I will slay thy son, even thy firstborn” (4:22–23).

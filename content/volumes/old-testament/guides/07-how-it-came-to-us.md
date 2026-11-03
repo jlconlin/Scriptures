@@ -3,6 +3,7 @@ title: How the Old Testament Came to Us
 blurb: How the books were written and kept, the Hebrew Bible and its order, the Septuagint and the Dead Sea Scrolls, the King James Version and why the Church uses it, the Joseph Smith Translation, and the study helps in the Church's edition.
 icon: book
 sources: [scripture-helps-ot-welcome, scripture-helps-ot-studying, bd-bible, bd-canon, bd-scribe, bd-writing, bd-bible-english, bd-dead-sea-scrolls, bd-septuagint, bd-apocrypha, bd-lost-books, bd-samaritans, bd-introduction, bd-jst, bible-chron-intro, gs-introduction, tg-introduction, bible-maps-intro, jst-appendix-intro, gospel-topics-bible, church-history-topics-jst, about-scriptures-adjustments, approved-adjustments-2013, ballard-miracle-bible, holland-words-never-cease, nelson-scriptural-witnesses, lambert-mays-kjv-400, church-news-1992-kjv, pinnock-kjv-1987, jackson-new-discoveries, jackson-kjv-jst, woods-lds-edition, blumell-whitchurch-coming-forth, pike-parry-dss-2014, dss-roundtable-2007, spackman-translations-differ, seely-masada, lds-scriptures]
+review: old-form
 ---
 
 The Old Testament “is a record of God's dealings with His covenant children from the Creation until about four hundred years before the birth of Jesus Christ.”[@scripture-helps-ot-welcome] The Eighth Article of Faith adds: “We believe the Bible to be the word of God as far as it is translated correctly” ([[A of F 1:8]]).[@lds-scriptures] This guide says how that record was written, kept, translated and printed.

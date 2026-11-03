@@ -3,6 +3,7 @@ title: Let It Suffice Thee
 blurb: God heard Moses twice for Israel and refused him once for himself. Deuteronomy ties that refusal to the people, answers it with a word that had always meant “now the next thing,” and keeps Moses alive for a mountain where he spoke with Jesus of a death whose cup would not pass. A righteous prayer refused is one of the ways God answers.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bdb, scripture-helps-num, ot-manual-numbers-13-36, ot-minute-deut-3, keil-deuteronomy, scripture-helps-deut, bd-moses, ot-manual-deuteronomy-17-33, thayer, nt-student-manual-6, oaks-1994-faith, holland-none-with-him, hales-waiting, bd-jehovah, gs-jehovah, oaks-2006-heals, nt-student-manual-42, hales-2019-answers, holland-hidden-fire-2024, bd-prayer]
+review: unread
 ---
 
 Three times in Deuteronomy Moses tells Israel that the Lord was angry with him “for your sakes” and would not let him cross the Jordan. The usual way to read those verses is as a footnote to the book of Numbers. Moses struck the rock at Meribah when he had been told to speak to it, and being kept out of the land was the price. That reading is not wrong, but it is not what Deuteronomy itself does with the story.

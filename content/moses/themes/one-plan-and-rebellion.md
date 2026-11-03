@@ -3,6 +3,7 @@ title: 'The Father’s One Plan and Satan’s Rebellion'
 blurb: Before the world was, the Father’s plan was known and the question was whom to send; the Beloved Son said “thy will be done,” and Satan demanded the Father’s honor and rebelled.
 icon: christ
 sources: [lds-scriptures, bednar-divine-nature-2026, scripture-helps-gen-3-4, mathews-satans-rebellion, pgp-manual-moses-4, pgp-manual-moses-1-12-23, pgp-manual-moses-7-1-41, schade-bowen-council, nt-teacher-manual-matt-26]
+review: old-form
 ---
 
 Before the world was, the Father’s plan was known, and the question was whom He would send. The Beloved Son answered, “Father, thy will be done, and the glory be thine forever”; Satan demanded the Father’s honor and rebelled. The book follows Satan’s rebellion and the Chosen Son’s work. Satan claims the Son’s title when he appears to Moses, lies to the first family, and holds a chain over the earth. Enoch sees the Chosen suffering for sins and as King of Zion. The table begins with the council, which Moses recounts in chapter 4. That chapter’s first verse looks back to chapter 1: “Satan, whom thou hast commanded in the name of mine Only Begotten.”[@schade-bowen-council]

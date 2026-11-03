@@ -76,6 +76,7 @@ for (const book of await discoverBooks(root)) {
   }
   const themes = await list(path.join(book.dir, 'themes'), '.md');
   const guides = await list(path.join(book.dir, 'guides'), '.md');
+  const review = await reviewOf([[path.join(book.dir, 'themes'), themes], [path.join(book.dir, 'guides'), guides]]);
   const facsimiles = await list(path.join(book.dir, 'facsimiles'), '.yaml');
   const done = passed(book);
   const proseDone = [], proseStale = [];
@@ -104,13 +105,30 @@ for (const book of await discoverBooks(root)) {
   console.log(`  ledgers       ${noLedger.length ? `none for ${ranges(noLedger)}` : 'every chapter'}`);
   console.log(`  language pass ${noPass.length ? `not recorded for ${ranges(noPass)}` : 'every chapter'}`);
   if (proseDone.length || proseStale.length) console.log(`  prose check v${PROSE_REVIEW_VERSION} ${proseDone.length ? `recorded for ${ranges(proseDone)}` : 'none current'}${proseStale.length ? `; not current for ${ranges(proseStale)}` : ''}`);
-  console.log(`  pages         ${themes.length} theme, ${guides.length} guide${facsimiles.length ? `, ${facsimiles.length} facsimile` : ''}`);
+  console.log(`  pages         ${themes.length} theme, ${guides.length} guide${facsimiles.length ? `, ${facsimiles.length} facsimile` : ''}${review}`);
   console.log(`  illustration  ${book.visual ? book.visual.status ?? 'no status' : 'none'}`);
   console.log(`  for the author ${(waiting[book.name.toLowerCase()] ?? []).join(', ') || 'nothing'}`);
   if (unpushed || dirty) console.log(`  not pushed    ${unpushed} commit${unpushed === 1 ? '' : 's'}${dirty ? `; ${dirty} file${dirty === 1 ? '' : 's'} changed and not committed` : ''}`);
 }
 const site = waiting['the site'];
 if (!only && site) console.log(`\nThe site: for the author ${site.join(', ')}`);
+// Where a theme page or guide stands in the review of the pages written before 2026-10-25 (STANDARDS.md §8,
+// “Where a page stands”): `review: unread` (rewritten, live, not yet read by the author), `review: read`,
+// `review: old-form` (kept, rewritten when the author's study reaches the book). Returns the text for a pages line.
+async function reviewOf(dirs) {
+  const by = { unread: [], read: [], 'old-form': [] };
+  for (const [dir, files] of dirs) for (const f of files) {
+    const head = (await readFile(path.join(dir, f), 'utf8')).split(/\n---\n/)[0];
+    const m = head.match(/^review:\s*(unread|read|old-form)\b/m);
+    if (m) by[m[1]].push(f.replace(/^\d+-|\.md$/g, ''));
+  }
+  const parts = [];
+  if (by.unread.length) parts.push(`unread by the author: ${by.unread.join(', ')}`);
+  if (by['old-form'].length) parts.push(`old form: ${by['old-form'].join(', ')}`);
+  if (by.read.length) parts.push(`read: ${by.read.length}`);
+  return parts.length ? `; ${parts.join('; ')}` : '';
+}
+
 // A volume's guides (content/volumes/<slug>/guides/), and those whose front matter still says `status: preview`.
 for (const v of discoverVolumes(root)) {
   if (!v.hasGuides || (only && only !== v.slug)) continue;
@@ -119,7 +137,8 @@ for (const v of discoverVolumes(root)) {
   for (const f of names) if (/^status:\s*preview\b/m.test((await readFile(path.join(v.dir, 'guides', f), 'utf8')).split(/\n---\n/)[0])) preview.push(f.replace(/^\d+-|\.md$/g, ''));
   const ledgers = await list(path.join(v.dir, 'evidence/guides'), '.yaml');
   const noLedger = names.filter((f) => !ledgers.includes(f.replace(/\.md$/, '.yaml'))).map((f) => f.replace(/^\d+-|\.md$/g, ''));
-  console.log(`\n${v.name} (volume)\n  pages         ${names.length} guide${preview.length ? `; in preview: ${preview.join(', ')}` : ''}${noLedger.length ? `; no ledger: ${noLedger.join(', ')}` : ''}`);
+  const review = await reviewOf([[path.join(v.dir, 'guides'), names]]);
+  console.log(`\n${v.name} (volume)\n  pages         ${names.length} guide${preview.length ? `; in preview: ${preview.join(', ')}` : ''}${noLedger.length ? `; no ledger: ${noLedger.join(', ')}` : ''}${review}`);
 }
 console.log(`\n${driftLine()}`);
 console.log('A book’s own decisions and state are in content/<book>/BRIEF.md; its history is `git log -- content/<book>`.');

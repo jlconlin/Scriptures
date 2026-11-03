@@ -3,6 +3,7 @@ title: The Law and the Lost Sheep
 blurb: Psalm 1 says the way of the ungodly shall perish. Psalm 119 praises God’s law for 176 verses and then its singer calls himself by that word, a perishing sheep, and asks God, as no other psalm does, to seek him. The law restores the soul, Psalm 19 says; so does the shepherd, Psalm 23 says in the same words; and only a shepherd can seek. Ezekiel’s Lord promises to, Jesus says He came to, and in 3 Nephi the one who gave the law calls His people His sheep.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, lxx-rahlfs, greek-nt, delitzsch-psalms, cambridge-psalms, ot-minute-psalms-1-20, tg-sheep, uchtdorf-shoulders, rytting-lost-sheep, shannon-i-am-law, brown-old-adorns-new, nelson-everlasting-covenant, scripture-helps-ps-1, cfm-ot-2026-36]
+review: unread
 ---
 
 The book of Psalms opens with a man who loves the law. “Blessed is the man… his delight is in the law of the LORD; and in his law doth he meditate day and night” ([[Ps. 1:1–2]]). The psalm ends by dividing the world in two: “the LORD knoweth the way of the righteous: but the way of the ungodly shall perish” ([[Ps. 1:6]]). A hundred and eighteen psalms later the book's longest poem takes up the first psalm's subject and holds it for 176 verses. “O how love I thy law! it is my meditation all the day” ([[Ps. 119:97]]). Few in scripture say as much, or as often, about loving God's commandments as the singer of Psalm 119. And this is his last line:

@@ -3,6 +3,7 @@ title: Names, Places & Symbols
 blurb: A quick-reference glossary of the people, places, and images that recur throughout Isaiah.
 icon: symbol
 sources: [bd-captivities, bd-isaiah, bd-ahaz, bd-hezekiah, bd-cyrus, bd-eliakim, bd-immanuel, bd-lucifer, bd-merodach-baladan, bd-sennacherib, bd-uzziah, bd-assyria, bd-babylon, bd-bashan, bd-sharon, bd-edom, bd-idumea, bd-ephraim, bd-lebanon, bd-moab, bd-tarshish, bd-tyre, bd-ariel, bd-egypt, ot-manual-e, isaiah-in-bom, bdb, gee-hand-lord, gs-ensign, gs-stake]
+review: old-form
 ---
 
 Use this page as a lookup table while you read. Most entries point to the chapter where the name or image is explained in depth. The site search is also a good way to find every place a word appears.

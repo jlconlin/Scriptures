@@ -3,6 +3,7 @@ title: 'The God Who Sees, Hears, and Remembers'
 blurb: God remembers Noah, hears Hagar, sees Leah’s affliction, and at the end Joseph says of a whole people, “God will surely visit you.”
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bdb, bd-hagar, easton-hagar, bd-jehovah, ryle-genesis]
+review: old-form
 ---
 
 In Genesis God remembers, sees and hears, and something follows: the waters go down, a well appears, a ram is found, a child is born. From the Flood on the narrator says this of God, and God says it of himself ([[Gen. 7:1]]; [[Gen. 9:15–16]]). Hagar is the first person in Genesis to say that God sees her; Leah and Jacob say it of their own “affliction,” the word first used of hers. Each looks back on what God has done for one person. Joseph’s last words look ahead, and to a people: “God will surely visit you.” Exodus repeats his words, and in Luke the people say “God hath visited his people” when Jesus raises the dead.

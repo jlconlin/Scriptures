@@ -3,6 +3,7 @@ title: The Arm of the Lord
 blurb: The arm that brought Israel out of Egypt, followed through Isaiah and into latter-day scripture.
 icon: christ
 sources: [bdb, delitzsch, isaiah-in-bom, ot-manual-17, ot-manual-18, ot-seminary-lesson-130, bom-student-manual-6, dc-student-manual-2017-133]
+review: old-form
 ---
 
 “An arm is a symbol of power.”[@bom-student-manual-6] In Isaiah the Lord’s arm is His “instrument of deliverance and judgment,”[@bdb] and it has a story. The arm of the exodus is promised again, called on to wake, and made bare before the nations. Then comes the question to whom it is revealed, and twice it brings salvation alone. Other scripture and Church manuals apply several of these passages to Jesus Christ.

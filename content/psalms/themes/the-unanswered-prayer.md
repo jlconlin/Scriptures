@@ -3,6 +3,7 @@ title: The Savior Enters the Unanswered Prayer
 blurb: The laments ask why God hides His face, and one of them, Psalm 88, never gets an answer; its last word is darkness. On the cross Jesus prayed the first line of Psalm 22, a lament that opens as Psalm 88 does, crying day and night to a God who does not answer, and then turns, and says of its sufferer that God did not hide His face but heard him. The one who prayed the unanswered cry is the one in whom it was answered, and on one Latter-day Saint reading He declared the answer to a congregation of the faithful dead.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bdb, delitzsch-psalms, cambridge-psalms, hopkin-psalm-22, holland-none-with-him, nt-student-manual-10, sc-knowhy-438, welch-psalm-102, ot-minute-psalms-1-20, hales-waiting, holland-hidden-fire-2024, bd-psalms, scripture-helps-ps-1]
+review: unread
 ---
 
 The psalms are not shy about asking God where He is. “How long wilt thou forget me, O LORD? for ever? how long wilt thou hide thy face from me?” ([[Ps. 13:1]]). “Wherefore hidest thou thy face, and forgettest our affliction?” ([[Ps. 44:24]]). “Hide not thy face from me in the day when I am in trouble” ([[Ps. 102:2]]). The Hebrew behind every one of these is the same phrase, a verb meaning to hide with the noun for face[@oshb-wlc], and the lexicon files them together under what it means for God to do this: He “withdraws his favour.”[@bdb] A reader who prays the psalms learns the question quickly. The harder thing to learn is what the book does with it.

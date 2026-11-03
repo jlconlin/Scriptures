@@ -3,6 +3,7 @@ title: Who May Enter?
 blurb: The psalms ask who may stand in God’s holy place, long for it from far off, and say that God Himself brings the worshipper near; set beside them, Hebrews says Jesus entered “for us.”
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bd-degrees-songs-of, jst-ps-24, bednar-clean-hands, sc-knowhy-51, scripture-helps-nt-heb-7-13]
+review: old-form
 ---
 
 Two psalms ask who may enter God’s presence, and both describe the person who may. Around them the Psalms long for the house from far off and say that God purges, chooses and brings the worshipper near. In Psalm 24 the one who comes in at the gates is the King of glory. Set beside these psalms, Hebrews says that Jesus entered “for us.” Where the page sets two passages side by side without a citation, the comparison is its own.

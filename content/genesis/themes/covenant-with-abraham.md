@@ -3,6 +3,7 @@ title: 'The Covenant with Abraham: Promise, Oath, and Joseph’s Bones'
 blurb: What the Lord promises Abraham becomes a covenant, a sign, and an oath, and is repeated to Isaac and Jacob. The one piece of the land Abraham comes to hold is a grave, and Genesis ends with an oath about bones.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, hopkin-covenant, scripture-helps-gen-12-17, keil-genesis, bd-abraham-covenant, bd-machpelah, nelson-everlasting-covenant]
+review: old-form
 ---
 
 One reading takes chapters 12, 15, 17 and 22 in order as promise, formal initiation, expansion and formal confirmation.[@hopkin-covenant] The covenant is then repeated to Isaac and Jacob, and Genesis ends with the family owning a grave and swearing to carry a body home. The land remains a promise; the New Testament names the seed as Christ.

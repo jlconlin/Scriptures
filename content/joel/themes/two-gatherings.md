@@ -3,6 +3,7 @@ title: '“Sanctify a Fast,” “Prepare War”'
 blurb: The same two Hebrew verbs summon Judah to the house of the Lord and the nations to the valley. The Lord pities His people, judges the nations, and is His people's hope.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bdb, nrsvue, vandyke-ogden-twelve, bd-jehovah]
+review: old-form
 ---
 
 The King James uses two English verbs for one Hebrew verb. “Sanctify a fast” ([[Joel 1:14]]; [[Joel 2:15]]), “sanctify the congregation” ([[Joel 2:16]]) and “Prepare war” ([[Joel 3:9]]) all have the same Hebrew verb, in the same form, and these four verses are its only uses in Joel.[@oshb-wlc] Three of the four pair it with the verb “call”: “call a solemn assembly” (1:14; 2:15) and “Proclaim ye this” (3:9).[@oshb-wlc] The objects differ. For the fast the verb means keeping a thing sacred; for the congregation and the war it means consecrating, the war “from custom of opening campaign by sacrifice”.[@bdb] A modern translation keeps one verb: “consecrate a fast” and “Consecrate yourselves for war.”[@nrsvue]

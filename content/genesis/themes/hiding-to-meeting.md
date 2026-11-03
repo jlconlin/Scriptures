@@ -3,6 +3,7 @@ title: 'From Hiding from God to Meeting Him'
 blurb: A man and a woman “hid themselves from the presence of the LORD God”; Jacob says, “I have seen God face to face, and my life is preserved.”
 icon: christ
 sources: [lds-scriptures, oshb-wlc, scripture-helps-gen-24-33, ot-manual-gen-24-36, romney-temples-1971, frederick-use-of-ot]
+review: old-form
 ---
 
 Genesis begins this theme with a man and a woman who “hid themselves from the presence of the LORD God” ([[Gen. 3:8]]) and a brother who “went out from the presence of the LORD” ([[Gen. 4:16]]). It goes on to tell of God appearing, of a ladder and “the gate of heaven,” and of Jacob’s words, “I have seen God face to face” ([[Gen. 32:30]]). Restoration scripture says what was lost in Eden and through whom it is regained; John sets the ladder’s angels upon the Son of man.

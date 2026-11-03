@@ -3,6 +3,7 @@ title: How to Read Jeremiah
 blurb: Jeremiah is not in chronological order. These few habits make its sermons, signs, prayers, and promises cohere.
 icon: key
 sources: [bd-jeremiah, lds-scriptures]
+review: old-form
 ---
 
 Jeremiah is hard less because it is obscure than because it is **out of order**. A sermon from Jehoiakim’s reign can sit next to a story from Zedekiah’s. A promise of a new covenant can arrive while Babylon is outside the city walls. The book asks us to hear a prophet’s long ministry as a whole, not as a diary.

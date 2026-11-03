@@ -3,6 +3,7 @@ title: I Am Returned with Mercies
 blurb: Zechariah opens with a promise in which the people turn first and the Lord second, “Turn ye unto me … and I will turn unto you.” Three months later the Lord says “I am returned,” though the people's turning is not yet complete, and gives His own jealous love as the ground; His verb becomes one of bringing them back; and the call He once refused to hear is answered. Read so, the Shepherd smitten in chapter 13 is the same Lord, who promises Galilee before His disciples flee.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bdb, keil-zechariah, cambridge-zechariah, pulpit-zechariah, barnes-zechariah, ot-manual-33, olmstead-saviors-use, scripture-helps-hag-1-2, curtis-he-ran]
+review: unread
 ---
 
 The first word of the Lord in Zechariah is a promise with two halves: “Turn ye unto me, saith the LORD of hosts, and I will turn unto you, saith the LORD of hosts” ([[Zech. 1:3]]). One Hebrew verb, *šûb*, stands in both halves. It is a command to the people and then a promise in the Lord's own voice.[@oshb-wlc] The same sentence in the Lord's own voice, “unto me … unto you” with the same verb on both sides, stands in one other place in the Old Testament, in Malachi: “Return unto me, and I will return unto you, saith the LORD of hosts” ([[Mal. 3:7]]).[@oshb-wlc]

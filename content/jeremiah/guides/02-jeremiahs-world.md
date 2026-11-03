@@ -3,6 +3,7 @@ title: Jeremiah’s World
 blurb: 'Jeremiah’s forty years: the timeline of his ministry, the kings he knew, and the places that make the book legible. The empires of the period are in its own guide.'
 icon: map
 sources: [bd-jeremiah, bd-captivities]
+review: old-form
 ---
 
 Jeremiah lived through the hinge of Old Testament history: Assyria faded, Babylon rose, and Judah lost Jerusalem and the temple. The disaster he warned of was not distant: he preached through the final forty years before Jerusalem’s fall.[@bd-jeremiah]

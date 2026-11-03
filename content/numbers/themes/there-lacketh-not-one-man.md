@@ -3,6 +3,7 @@ title: There Lacketh Not One Man of Us
 blurb: Israel is numbered man by man at Sinai, sentenced at Kadesh, numbered again with the first roll gone, and the army back from Midian is counted with not one man missing; the Good Shepherd says of His own, “none of them is lost.”
 icon: christ
 sources: [bd-numbers, ot-manual-numbers-1-12, pike-balaam, gs-good-shepherd, ot-seminary-teacher-num-67, cordon-becoming-shepherd, lds-scriptures, oshb-wlc, bdb]
+review: old-form
 ---
 
 Israel is counted at Sinai, sentenced at Kadesh in the count’s own terms, and counted again in Moab without the first roll; the officers back from Midian report that “there lacketh not one man of us.” The book is “so called from the double numbering or census of the people (Num. 1–4; 26).”[@bd-numbers] The text itself joins the first three: Moab’s count names Sinai and Kadesh ([[Num. 26:64–65]]), and the footnote there points to [[Num. 14:29]].[@lds-scriptures] The page sets the fourth beside them. It closes with what scripture says of the Good Shepherd.

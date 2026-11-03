@@ -3,6 +3,7 @@ title: Shall It Be Holy?
 blurb: Haggai’s priests rule that holiness stops at the first thing it touches and uncleanness does not, so nothing Israel held could make Israel holy. The book’s answer comes from the Lord’s side, “I am with you,” before a stone was laid. In the Gospels a woman the law called contagious touches the corner of His garment, and power goes out of Him.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bdb, thayer, keil-haggai, keil-leviticus, keil-ezekiel, cambridge-haggai, huntington-consider-ways, breitenstein-haggai-minute, ot-manual-30, bd-haggai, bd-clean-unclean, bd-hem-of-garment, nt-student-manual-11, nt-student-manual-12, brown-nt-minute-luke, smith-marks-unique-contribution, gonzalez-saviors-touch, gs-sanctification, bednar-clean-hands, ot-seminary-resource-haggai, nelson-come-again]
+review: unread
 ---
 
 In the ninth month of the second year of Darius, three months into the rebuilding of the temple, Haggai was told to put two questions to the priests. The first: if a man carries holy flesh in the fold of his garment and the fold brushes bread, or stew, or wine, or oil, does the food become holy? The priests said no. The second: if a man unclean from a corpse touches any of those, does it become unclean? The priests said yes ([[Hag. 2:11–13]]). Then Haggai turned the two answers on the people. “So is this people, and so is this nation before me, saith the LORD; and so is every work of their hands; and that which they offer there is unclean” ([[Hag. 2:14]]).
