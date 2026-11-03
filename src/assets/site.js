@@ -1110,7 +1110,9 @@
     fig.after(named);
     // Open at the map: now, and each time the panel shows this page (a page loaded in the background, while the panel
     // was hidden, can't scroll then).
-    const toMap = () => fig.scrollIntoView({ block: 'start' });
+    // scrollTo, not scrollIntoView: in Safari the latter also scrolls the chapter that holds this page's frame, which
+    // preloads it, so the chapter jumped to the bottom as it loaded.
+    const toMap = () => scrollTo(0, Math.max(0, fig.getBoundingClientRect().top + scrollY - (parseFloat(getComputedStyle(root).scrollPaddingTop) || 0)));
     setTimeout(toMap, 0);
     addEventListener('message', (e) => { if (e.origin === location.origin && e.data?.panel === 'shown') toMap(); });
   });
