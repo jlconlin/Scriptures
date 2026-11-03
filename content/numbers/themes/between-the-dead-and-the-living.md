@@ -2,7 +2,6 @@
 title: Between the Dead and the Living
 blurb: Numbers makes atonement with a tribe’s service, a censer of incense, a javelin and a heap of gold, each of them to stop or prevent a plague, and none of them reaches the dead. The verb’s last use in the book refuses every ransom for blood shed. Amulek reasons from that law to an atonement that must be infinite, and an infinite atonement is the one that reaches the dead.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, belnap-dwell-among, cambridge-numbers, keil-numbers, seminary-2018-num-67, welch-punishments, welch-nehor, keil-deuteronomy, sc-knowhy-142, gardner-bom-minute-alma, rasmussen-dilemma, bom-student-manual-30, bd-atonement, thayer, packer-mediator, christofferson-redemption, gs-atone-atonement]
 ---
 

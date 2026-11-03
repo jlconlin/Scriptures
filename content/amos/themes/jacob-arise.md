@@ -2,7 +2,6 @@
 title: “By Whom Shall Jacob Arise?”
 blurb: Amos’s funeral song says Israel is fallen, will not rise, and has none to raise her up. Amos asks whether Jacob can stand, and the reprieve he wins is withdrawn. The only one in the book who raises up what has fallen is the Lord, “I will raise up the tabernacle of David that is fallen,” and James quoted that promise at the Jerusalem council, and Ellicott hears Christ’s work in it.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, swete-lxx-amos, biblehub-interlinear, keil-amos, cambridge-amos, ellicott-amos, ellicott-acts, cambridge-acts, sears-intercession, spencer-remnant, bd-amos, gs-jehovah, gs-david, nt-student-manual-32, judd-jerusalem-conference, mcclellan-ot-in-nt]
 ---
 

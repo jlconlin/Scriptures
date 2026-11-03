@@ -2,7 +2,6 @@
 title: “I Will Heal Their Backsliding”
 blurb: Hosea says “heal” five times. Assyria cannot heal. On one reading, the people expect the Lord to heal them too soon. The Lord says He tried, and had healed them without their knowing it. Only when Israel is given words that name Assyria and give it up does He say “I will heal,” and what He heals, on the reading this page follows, is the turning away itself.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, sc-knowhy-646, keil-hosea, cambridge-hosea, ellicott-hosea, barnes-hosea, ot-manual-10, cfm-ot-2026-47, ot-seminary-teacher-148, bd-hosea, bd-jehovah, hord-not-fragile, bowen-fruit-of-loins, spendlove-turning-whole-heart]
 ---
 

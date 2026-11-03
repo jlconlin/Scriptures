@@ -2,7 +2,6 @@
 title: '“Out of Egypt Have I Called My Son”'
 blurb: Egypt is named in thirteen verses of Hosea, and it is three places at once. It is where the Lord found Israel and called a son out, where Ephraim now runs for help, and where the book threatens to send him back. The threat is carried out in Assyria, but on one reading chapter 11 will not send him to the land he was called from, and its last word on Egypt is “out,” the Exodus done again. Matthew quotes its first verse of the child Jesus, in the Hebrew’s words, not the Greek’s.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, swete-lxx-hosea, biblehub-interlinear, keil-hosea, cambridge-hosea, cambridge-matthew, ellicott-matthew, bd-hosea, bd-jehovah, ot-manual-10, talmage-jesus-christ-9, frederick-ot-in-nt-gospels, griffin-matthew-portrayal, rsc-combs-ahaz-sign, jackson-hosea-marriage, bowen-benjamin-addendum, vandyke-ogden-twelve]
 ---
 

@@ -2,7 +2,6 @@
 title: A New Heart and a New Spirit
 blurb: Deuteronomy circumcises the heart and Jeremiah writes on it; Ezekiel alone takes it out and puts in another. The Lord promises the new heart, commands Israel to make it, and then gives it, for His own name’s sake rather than Israel’s, so the heart a people is told to make can only be received.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, keil-ezekiel, cambridge-ezekiel, ellicott-ezekiel, keil-deuteronomy, ot-manual-27, cfm-ot-2026-45, ot-seminary-teacher-141, renlund-mighty-change, christofferson-converted, bd-circumcision, wilson-holy-spirit, bd-jehovah]
 ---
 

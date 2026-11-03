@@ -2,7 +2,6 @@
 title: '“But If Not”'
 blurb: Daniel gives the faithful two endings. In the furnace and the den God sends His angel and they walk out; in 11:33–35 those who understand fall by sword and flame, and no angel comes to them. The three friends’ “But if not” is the faith that holds for either ending, and the book’s last chapter gives both endings one promise, deliverance beside the dead awaking. Hebrews 11 and Alma 14 hold the same two endings together.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, keil-daniel, cambridge-daniel, cambridge-hebrews, ellicott-daniel, ellicott-hebrews, scripture-helps-dan, simmons-but-if-not, wickman-but-if-not, jones-sin-resistant, ot-manual-28, cfm-ot-2026-46, ot-seminary-daniel, bom-student-manual-26, sc-knowhy-351, mcclellan-thy-troubles, bd-daniel-book]
 ---
 

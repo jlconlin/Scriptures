@@ -2,7 +2,6 @@
 title: I Will Be Sanctified
 blurb: One Hebrew verb stands behind “sanctify,” “hallow” and “consecrate” in Leviticus, and the book gives it several subjects, Moses, the high priest, Israel and the LORD. Twice the LORD says it of Himself, once over two dead priests and once in the same breath as “I am the LORD which hallow you.” The book never lets the verb rest with one subject, and Hebrews gives the one who sanctifies to Christ.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, keil-leviticus, keil-exodus, keil-numbers, cambridge-leviticus, cambridge-exodus, ellicott-leviticus, pulpit-leviticus, ot-manual-lev-1-10, ot-manual-lev-19-27, ot-manual-numbers-13-36, ot-seminary-student-2018-lev-64, cfm-ot-2026-18, bd-holiness, gs-sanctification, gs-jehovah, christofferson-chasten, nelson-sabbath, mcconkie-beauty-holiness, bowen-law-codes, bowen-thy-will, bowen-brethren-hebrews-2, strathearn-holiness-lord, lund-sanctification]
 ---
 

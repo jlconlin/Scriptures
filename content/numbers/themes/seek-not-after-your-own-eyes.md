@@ -2,7 +2,6 @@
 title: Seek Not after Your Own Eyes
 blurb: The law of the fringe answers the spies of Kadesh in their own words. Twelve men were sent to “search” and “see” the land, and ten came back with what they were “in our own sight.” The fringe is given to be looked upon as a reminder, “that ye seek not after your own heart and your own eyes.” Numbers has one other thing the LORD gives all Israel to look upon, the serpent on the pole, and Jesus named Himself the one lifted up as it was.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, keil-numbers, rashi-numbers, bazak-explore, ot-manual-numbers-13-36, duncan-rebel-not, scripture-helps-num, gs-serpent-brazen, sc-knowhy-657, sc-knowhy-721, jenson-look-and-live, christofferson-look, clark-look-unto-jesus, holland-and-now-i-see]
 ---
 

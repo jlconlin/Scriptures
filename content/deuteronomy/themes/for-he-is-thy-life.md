@@ -2,7 +2,6 @@
 title: For He Is Thy Life
 blurb: At Horeb the Lord wishes aloud for a heart Israel does not have. Moses commands Israel to circumcise its heart, tells it the Lord has not given it one, and then promises that the Lord will circumcise it Himself, “for thy life.” Jeremiah later hears the Lord promise to give a heart, and this page reads that promise as the answer to the heart Moses said the Lord had not given. The book’s last word on the matter, “he is thy life,” is read two ways, and this page says which it follows and why.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, bd-jehovah, swete-lxx-deut, keil-deuteronomy, cambridge-deuteronomy, ellicott-deuteronomy, keil-jeremiah, scripture-helps-deut, bd-circumcision, ot-manual-genesis-12-17, wessel-circumcision, muhlestein-love-neighbor, gs-born-again, christofferson-first-commandment, cfm-ot-2026-20, sc-knowhy-287, jack-get-a-life, nrsvue, niv, esv]
 ---
 

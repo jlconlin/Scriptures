@@ -2,7 +2,6 @@
 title: Three Things Asked of the Lord
 blurb: Lamentations asks the Lord to look, says five times that there is none to comfort, and ends by asking Him to remember and to turn His people back. The book records no reply. But each thing it asks is answered elsewhere, to others, in the book’s own Hebrew words and in the Lord’s own voice, in Exodus, Isaiah, Jeremiah and the Doctrine and Covenants, and the book itself glimpses the answer once, in a line about His heart.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, swete-lxx-lamentations, swete-lxx-isaiah, keil-lamentations, keil-jeremiah, delitzsch, cambridge-lamentations, cambridge-isaiah, ellicott-lamentations, ellicott-jeremiah, scripture-helps-jer-31-33, ot-manual-24, cfm-ot-2026-44, ot-seminary-teacher-lesson-138, bd-jehovah, hinckley-work-of-the-master, gong-always-remember-him, andersen-repent-heal-you, hopkin-caph, nrsvue, esv, niv, cambridge-jeremiah]
 ---
 

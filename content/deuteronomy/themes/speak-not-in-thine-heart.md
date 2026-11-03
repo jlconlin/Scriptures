@@ -2,7 +2,6 @@
 title: Speak Not Thou in Thine Heart
 blurb: Deuteronomy listens to what Israel says to itself. Six times Moses gives the heart a sentence, and the one he forbids outright is “For my righteousness the LORD hath brought me in.” He answers the heart’s sayings with a word put into the heart from outside, and promises a heart God will give. Paul opens the righteousness of faith with the Greek clause of that forbidden sentence, “Say not in thine heart,” and ends with a heart that believes unto righteousness.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, swete-lxx-deut, greek-nt, keil-deuteronomy, cambridge-deuteronomy, cambridge-romans, ludlow-paul-ot, lane-redemption, ot-minute-deut-rappleye, sc-knowhy-546, nt-student-manual-37, bd-grace, uchtdorf-gift-of-grace, christofferson-justification, renlund-goodness-greatness]
 ---
 

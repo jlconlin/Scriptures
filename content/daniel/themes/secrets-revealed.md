@@ -2,7 +2,6 @@
 title: Secrets Revealed, Words Sealed
 blurb: Daniel is never called a revealer of secrets. God is. Daniel makes known what God made known; later he needs help to understand his own visions; at the end he hears how long the end will be, does not understand, and is told to seal the book. The understanding is promised, at the time of the end, to “the wise,” the word the book used of Daniel’s company at its start. The revealer of secrets is the Lord, and John names Him in the Revelation of Jesus Christ, where the Lamb alone opens a sealed book.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bd-daniel-book, bd-jehovah, bd-mystery, ot-manual-28, ot-seminary-daniel, nt-manual-53, nt-manual-54, nt-student-manual-5, draper-exile, draper-apocalyptic, ludlow-son-of-man, halverson-apocalyptic, tvedtnes-sealed-books, sc-knowhy-492, keil-daniel, cambridge-daniel, ellicott-revelation, tpjs-2007-ch-21, gs-mysteries-of-god]
 ---
 

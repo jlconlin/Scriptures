@@ -2,7 +2,6 @@
 title: “Ye Shall Certainly Drink”
 blurb: In Jeremiah the cup of fury is only ever handed on. Judah drinks first, the nations who refuse drink anyway, and Babylon, the Lord’s instrument and in one verse the cup itself, drinks last of all. The one hand that never drinks is the Lord’s, and the Restoration says that He, calling the cup His own, drank the bitter cup “that they might not suffer if they would repent.”
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, keil-jeremiah, cambridge-jeremiah, ellicott-jeremiah, barnes-jeremiah, barnes-habakkuk, ot-manual-24, ot-manual-17, bd-babylon, nt-student-manual-56, bowen-ominous-onomastics, parry-symbolic-action, tolley-christ-cup, lane-winepress, sc-knowhy-341, jaggi-humble-souls]
 ---
 

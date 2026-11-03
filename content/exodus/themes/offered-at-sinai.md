@@ -2,7 +2,6 @@
 title: What Was Offered at Sinai
 blurb: Exodus measures Sinai in distance. A whole people is to be priests and to see the Lord come down; they stand afar off, Moses alone draws near, and by the second tables the Lord will not go up in their midst. Hebrews says “let us draw near.”
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, jst-ex-34, jst-deut-10, scripture-helps-ex-19, ot-manual-ex-11-19, ot-manual-ex-21-24, bd-melchizedek-priesthood, gs-aaronic-priesthood, tpjs-2007-ch-22, dc-student-manual-31, hardison-theophany, belnap-skinner-sinai, eubank-kingdom-priests, muhlestein-exodus-deliverance, keil-exodus, cambridge-exodus, ellicott-exodus, ellicott-hebrews, ellicott-1-peter, scripture-helps-nt-heb-7-13]
 ---
 

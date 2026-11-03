@@ -2,7 +2,6 @@
 title: A Man to Stand in the Gap
 blurb: The Lord of Ezekiel uses the verb “seek” of Himself five times. He will require blood of a watchman who does not warn; He sought a man to stand in the breach before Him for the land, and found none; and then, of sheep no one sought, He says, “I will seek.” Isaiah’s search ends the same way, and the Church’s footnotes carry it to the one who “ever liveth to make intercession” and is “pleading your cause.” On this reading, where Ezekiel’s Lord found no man, He came Himself.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, keil-ezekiel, jfb-ezekiel, cambridge-ezekiel, jfb-isaiah, cambridge-isaiah, delitzsch, delitzsch-psalms, cambridge-psalms, ot-manual-18, ot-manual-ex-21-24, belnap-skinner-sinai, sears-intercession, scripture-helps-ezek, bd-advocate, bd-jehovah, christofferson-warning]
 ---
 

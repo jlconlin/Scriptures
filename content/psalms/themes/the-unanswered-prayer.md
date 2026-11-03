@@ -2,7 +2,6 @@
 title: The Savior Enters the Unanswered Prayer
 blurb: The laments ask why God hides His face, and one of them, Psalm 88, never gets an answer; its last word is darkness. On the cross Jesus prayed the first line of Psalm 22, a lament that opens as Psalm 88 does, crying day and night to a God who does not answer, and then turns, and says of its sufferer that God did not hide His face but heard him. The one who prayed the unanswered cry is the one in whom it was answered, and on one Latter-day Saint reading He declared the answer to a congregation of the faithful dead.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, delitzsch-psalms, cambridge-psalms, hopkin-psalm-22, holland-none-with-him, nt-student-manual-10, sc-knowhy-438, welch-psalm-102, ot-minute-psalms-1-20, hales-waiting, holland-hidden-fire-2024, bd-psalms, scripture-helps-ps-1]
 ---
 

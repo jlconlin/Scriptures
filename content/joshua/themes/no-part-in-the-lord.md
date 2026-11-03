@@ -2,7 +2,6 @@
 title: “Ye Have No Part in the LORD”
 blurb: The Hebrew word for a tribe’s “part” stands nine times in Joshua. Seven times it is a share of ground, and the tribe that has none is told the LORD Himself is its inheritance. The last two are a fear spoken by tribes with ground of their own, that their children will one day be told they have no part in the LORD.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, keil-joshua, cambridge-joshua, pulpit-joshua, ot-minute-josh-21, ot-minute-josh-22, ot-manual-josh, ot-manual-numbers-13-36, bd-levites, bd-jehovah, dc-student-manual-2017-84]
 ---
 

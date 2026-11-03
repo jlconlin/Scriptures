@@ -2,7 +2,6 @@
 title: Accepted for Him
 blurb: One Hebrew verb opens and closes the covenant of Leviticus, “accepted” of an offering in the first chapter and “accept” of a punishment in the last. Between them the offering shrinks at every confession, until the exiles have nothing left to bring but a humbled heart. Lehi names the offering that answers for them.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, bd-sacrifices, lane-whole-meaning, sc-knowhy-545, scripture-helps-ex-35, ot-manual-lev-1-10, ot-seminary-lev-57, ot-manual-lev-11-18, keil-leviticus, ot-minute-lev, cfm-ot-2026-tabernacle, bom-teacher-resource-2ne, bom-gospel-doctrine-lesson-6, seely-sacrifice, porter-broken-heart, gee-last-sacrifice, ballard-sacrifice, christofferson-converted, gs-broken-heart]
 ---
 

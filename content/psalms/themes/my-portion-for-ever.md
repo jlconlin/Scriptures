@@ -2,7 +2,6 @@
 title: My Portion for Ever
 blurb: Psalm 1 promises that whatsoever the righteous man does shall prosper. Psalm 37 grants that the wicked prosper and promises the meek “the abundance of peace”. Psalm 73 confesses envy of the wicked’s peace, understands their end in the sanctuary, and closes by naming God his portion, as the LORD was the portion of the tribe that had no land, “my portion for ever.”
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, cambridge-psalms, delitzsch-psalms, pulpit-psalms, lds-bible-verses-strength, ellicott-psalms, ot-manual-34, bd-asaph, nt-student-manual-3, dc-student-manual-2017-88, christofferson-relationship-god]
 ---
 

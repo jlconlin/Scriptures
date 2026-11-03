@@ -2,7 +2,6 @@
 title: He Turned the Curse into a Blessing
 blurb: Deuteronomy’s word for the curse stands in eleven verses. Nine of them hang the curse over the covenant, from the two ways set before Israel to the day it comes. The other two, in the laws, concern a curse borne by one man and a curse turned into a blessing, and this page reads them alongside Paul. A hanged man is “the curse of God,” and a hired curse is turned into a blessing “because the LORD thy God loved thee.” Paul takes the first of those to Christ, and the second rests on the promise Paul builds the whole argument on.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, swete-lxx-deut, greek-nt, keil-deuteronomy, cambridge-deuteronomy, cambridge-galatians, ellicott-galatians, nt-student-manual-43, bd-deuteronomy, bd-balaam, gs-curse, sc-knowhy-752, belnap-fell-tree, pike-balaam, ludlow-paul-ot, millet-glorying-cross, uriona-curses]
 ---
 

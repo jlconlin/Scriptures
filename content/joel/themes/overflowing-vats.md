@@ -2,7 +2,6 @@
 title: “The Press Is Full”
 blurb: Joel’s vats overflow twice, in the same two Hebrew words, and the verb is found nowhere else in that form. Once they overflow because the Lord repays the years the locust ate, and once because the nations’ wickedness is full. This page reads them as one measure, of mercy and then of judgment.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, keil-joel, cambridge-joel, ellicott-joel, barnes-joel, gill-joel, ot-manual-7, ot-minute-joel, ot-minute-isaiah-63, nt-student-manual-55, bd-winefat-winepress, gs-harvest, muhlestein-savior-sword, lane-winepress, holland-none-with-him]
 ---
 

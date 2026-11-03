@@ -2,7 +2,6 @@
 title: That Ye May Know That I Am the LORD
 blurb: Ten times Exodus says that someone shall “know that I am the LORD,” five of Egypt and five of Israel, and what each is to know is not the same. Then Moses asks to know God Himself, which none of those promises had offered.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, keil-exodus, cambridge-exodus, ellicott-exodus, scripture-helps-ex-1, scripture-helps-ex-7, scripture-helps-ex-19, ot-manual-ex-1-10, ot-minute-ex-18, muhlestein-pharaoh, morales-tabernacle, bd-jehovah, hales-seeking-know, grow-life-eternal-2017, nt-student-manual-27]
 ---
 

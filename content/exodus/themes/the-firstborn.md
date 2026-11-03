@@ -2,7 +2,6 @@
 title: The Firstborn
 blurb: Exodus names the firstborn twenty times. The Lord calls Israel His before Egypt’s die, says “it is mine” the morning after and sets a price; Luke then brings a child to the temple under that law.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, keil-exodus, cambridge-exodus, scripture-helps-ex-7, ot-manual-ex-11-19, ot-manual-numbers-1-12, bd-firstborn, bd-levites, gs-firstborn, gong-hosanna-hallelujah, hunter-passover, cambridge-luke, ellicott-luke, nt-student-manual-15, cambridge-colossians, skinner-life-jesus]
 ---
 

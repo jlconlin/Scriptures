@@ -2,7 +2,6 @@
 title: One in Another’s Place
 blurb: Genesis puts a substitute in another’s place twice. On Moriah God provides a ram “in the stead of” Isaac, and the ram chooses nothing. In Egypt Judah offers to stay “instead of” Benjamin, and his offer is never taken. Neither picture is whole. The Savior is both at once, the Lamb God provided and the man who offered Himself. Genesis gives the second picture to the brother who had sold a brother, and from whose line the Savior came.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, swete-lxx-genesis, scripture-helps-gen-42-50, scripture-helps-gen-18-23, scripture-helps-gen-37-41, ot-manual-gen-37-50, hopkin-covenant, keil-genesis, ryle-genesis, oaks-1992-bible-stories, maxwell-1981-divine-redeemer, sc-knowhy-841, spackman-judah-tamar, olson-matriarchs, nt-manual-hebrews-7-13, bd-shiloh]
 ---
 

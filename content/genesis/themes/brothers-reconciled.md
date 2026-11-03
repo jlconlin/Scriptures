@@ -2,7 +2,6 @@
 title: “Forgive, I Pray Thee Now”
 blurb: Three stories in Genesis concern brothers who kill a brother or mean to. Cain denies knowing where Abel is. Esau embraces Jacob while the old wrong stays covered and unspoken. Joseph’s brothers say the wrong three times and ask to be forgiven, and theirs is the one brother story in which the book’s only “guilty” and its only “forgive” are spoken.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, keil-genesis, ryle-genesis, ellicott-genesis, skinner-cain-abel, ot-manual-gen-4-11, ot-manual-gen-37-50, scripture-helps-gen-37-41, scripture-helps-gen-42-50, cfm-ot-2026-10, cfm-ot-2026-12, ot-seminary-2026-gen-42-45, ot-seminary-resource-gen-42-50, maxwell-teaching-opportunities, gee-clothes-cups, bowen-wrestled-man, bd-atonement, holland-ministry-reconciliation]
 ---
 

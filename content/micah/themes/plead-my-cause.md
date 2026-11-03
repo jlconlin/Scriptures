@@ -2,7 +2,6 @@
 title: Until He Plead My Cause
 blurb: Micah is a courtroom book. The Lord is the witness against His people, refuses to answer the rulers, and brings His case before the mountains, inviting Israel to accuse Him. When Israel finally answers, the answer is “I have sinned against him,” and the next thing said of the Lord is that He will plead her cause. The Judge who brought the case becomes the Advocate of the one who confessed, and the Restoration names Him.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, keil-micah, pike-micah, pierce-micah, correa-jonah, ot-manual-11, ot-manual-17, ot-institute-manual-47, renlund-do-justly, delitzsch, isaiah-in-bom, jackson-hosea-marriage, gs-advocate, bd-advocate, benson-savior-redeemer-1983, jcgospel-2023-lesson-24, tanner-advocate-high-priest, renlund-choose-2018, holland-laborers, bowen-ominous-onomastics]
 ---
 

@@ -2,7 +2,6 @@
 title: In the Midst of Israel
 blurb: Joshua keeps asking what is in Israel’s midst. The living God is there; Rahab the Canaanite, set outside the camp, comes to dwell there; Achan of Judah puts an accursed thing there and is carried out; and at the end Israel is told to put away the strange gods that are there. Birth neither kept Achan in Israel’s midst nor kept Rahab out of it; what the midst holds decides whether the LORD stays in it.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bd-jehovah, keil-joshua, cambridge-joshua, pulpit-joshua, scripture-helps-josh, ot-manual-josh, cfm-ot-2026-21, bd-adoption, morgan-achan, nelson-1995-children-of-the-covenant, fisher-rahab, calabro-herem, muhlestein-ruth, seely-cry-widow, ot-minute-josh-7, ot-minute-josh-9]
 ---
 

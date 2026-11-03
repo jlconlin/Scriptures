@@ -2,7 +2,6 @@
 title: I Am Returned with Mercies
 blurb: Zechariah opens with a promise in which the people turn first and the Lord second, “Turn ye unto me … and I will turn unto you.” Three months later the Lord says “I am returned,” though the people's turning is not yet complete, and gives His own jealous love as the ground; His verb becomes one of bringing them back; and the call He once refused to hear is answered. Read so, the Shepherd smitten in chapter 13 is the same Lord, who promises Galilee before His disciples flee.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, keil-zechariah, cambridge-zechariah, pulpit-zechariah, barnes-zechariah, ot-manual-33, olmstead-saviors-use, scripture-helps-hag-1-2, curtis-he-ran]
 ---
 

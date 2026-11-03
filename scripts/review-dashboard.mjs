@@ -20,6 +20,7 @@ const binOf = (h) => /^A\b/.test(h) ? 'A' : /^B\b/.test(h) ? 'B' : /^C\b/.test(h
 const stateOf = (t) => {
   const s = t.toLowerCase();
   if (s === 'done' || s === 'todo' || s === 'later' || s === 'deleted') return s;
+  if (s.startsWith('live')) return 'live';
   if (s.startsWith('merged')) return 'merged';
   if (s.startsWith('author')) return 'author';
   if (s.startsWith('after')) return 'after';
@@ -33,7 +34,10 @@ for (const line of md) {
   const cells = line.split('|').slice(1, -1).map((c) => c.trim());
   if (cells.length < 2) continue;
   const [item, stateText, thesis = ''] = cells;
-  tasks.push({ bin, section, item, book: item.split(' / ')[0], state: stateOf(stateText), state_text: stateText, thesis });
+  const state = stateOf(stateText);
+  // A live page is `live, unread` until the author has read it (REVIEW.md decision 7).
+  const read = state === 'live' ? (/\bread\b/i.test(stateText) && !/unread/i.test(stateText) ? 'read' : 'unread') : '';
+  tasks.push({ bin, section, item, book: item.split(' / ')[0], state, state_text: stateText, read, thesis });
 }
 writeFileSync(join(outDir, 'review-tasks.json'), JSON.stringify(tasks, null, 1));
 
@@ -55,5 +59,6 @@ for (const line of log.split('\n')) {
 writeFileSync(join(outDir, 'review-commits.json'), JSON.stringify(commits, null, 1));
 
 const n = (b, s) => tasks.filter((r) => r.bin === b && r.state === s).length;
-console.log(`${tasks.length} task rows → ${join(outDir, 'review-tasks.json')}; A done ${n('A', 'done')} merged ${n('A', 'merged')}; B done ${n('B', 'done')} todo ${n('B', 'todo')} merged ${n('B', 'merged')}; C later ${n('C', 'later')}`);
+const r = (b, v) => tasks.filter((x) => x.bin === b && x.read === v).length;
+console.log(`${tasks.length} task rows → ${join(outDir, 'review-tasks.json')}; A live ${n('A', 'live')} (read ${r('A', 'read')}) merged ${n('A', 'merged')}; B live ${n('B', 'live')} (read ${r('B', 'read')}) todo ${n('B', 'todo')} merged ${n('B', 'merged')}; C later ${n('C', 'later')}`);
 console.log(`${commits.length} page commits → ${join(outDir, 'review-commits.json')}`);

@@ -2,7 +2,6 @@
 title: Them That Come Nigh Me
 blurb: In Leviticus nearness to the LORD is commanded and given, never taken. The congregation draws near with what Moses commanded and fire accepts the offering; two priests offer a fire He commanded not and the same five Hebrew words say the fire consumed them. After their deaths one man is given one way in, once a year, with blood. Hebrews reads that single entry as the sign the way was not yet open, until Christ entered by His own blood.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, keil-leviticus, cambridge-leviticus, ellicott-leviticus, pulpit-leviticus, cambridge-hebrews, ot-manual-lev-1-10, ot-manual-lev-11-18, scripture-helps-ex-35, scripture-helps-nt-heb-7-13, cfm-ot-2026-tabernacle, bd-nadab, bd-clean-unclean, ot-seminary-teacher-resource-lev-1-16, kearon-gods-intent, tanner-advocate, lane-presence-panim]
 ---
 

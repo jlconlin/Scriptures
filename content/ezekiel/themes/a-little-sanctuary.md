@@ -2,7 +2,6 @@
 title: A Little Sanctuary
 blurb: One Hebrew root for “far” runs through Ezekiel, and it tells the exiles’ story. The Lord goes far from His house, Jerusalem tells the exiles to get far from Him, He says He is their sanctuary where He sent them, and at the end He asks Israel to put its sin far from Him so He can dwell in their midst.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, nrsvue, keil-ezekiel, cambridge-ezekiel, ellicott-ezekiel, scripture-helps-ezek, ot-manual-27, cfm-ot-2026-45, sc-knowhy-719, shannon-location, lund-ezekiel, draper-exile, heal-abide-ezekiel, bd-jehovah]
 ---
 

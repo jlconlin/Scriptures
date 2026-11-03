@@ -2,7 +2,6 @@
 title: The Promised King and the Broken Crown
 blurb: Psalm 89 holds both the oath to David, the LORD’s “Thy seed will I establish for ever,” and the singer’s complaint, “thou hast profaned his crown,” and its question is not answered inside the psalm. I read the later psalms as answering Psalm 89 in its own words, of a throne that is the LORD’s and of a crown that flourishes in Psalm 132. In the New Testament both belong to Jesus, raised to sit on David’s throne.
 icon: christ
-status: preview
 sources: [lds-scriptures, oshb-wlc, bdb, cambridge-psalms, delitzsch-psalms, pulpit-psalms, ellicott-psalms, taggart-sworn-david, seely-messiah, ot-manual-psalms, scripture-helps-ps-1, bd-david]
 ---
 
