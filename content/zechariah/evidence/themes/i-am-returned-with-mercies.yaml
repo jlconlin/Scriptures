@@ -1,147 +1,459 @@
 page: i-am-returned-with-mercies
 claims:
-  - where: "opening"
-    claim: "The verb šûb (H7725) is in Zechariah 18 times; the Lord is its subject eight times (1:3, 1:16, 8:3, 8:15, 9:12, 10:6, 10:10, 13:7), in book order (occurrences.mjs zechariah --hebrew H7725; hebrew.mjs for each verse)"
+  # ---------- opening ----------
+  - where: 'opening'
+    claim: 'Zech. 1:3 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/1?lang=eng'
+    quote: 'Turn ye unto me, saith the Lord of hosts, and I will turn unto you, saith the Lord of hosts.'
+  - where: 'opening'
+    claim: 'Zech. 1:3 has šûb (H7725) in both halves: Qal imperative 2mp for the people, Qal imperfect 1cs for the Lord (hebrew.mjs zechariah 1:3)'
     key: oshb-wlc
-    url: "https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml"
-    quote: "שַׁ֤בְתִּי"
-  - where: "section “One verb, two sides”"
-    claim: "The one verb stands in both halves of 1:3: imperative (people) and imperfect (Lord) (hebrew.mjs zechariah 1:3)"
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'וְ/אָשׁ֣וּב'
+  - where: 'opening'
+    claim: 'Mal. 3:7 has the same sentence: Qal imperative of šûb to the people, Qal cohortative of šûb for the Lord (hebrew.mjs malachi 3:7). The two-clause formula in the Lord''s own voice, first person (“unto me … unto you”), with the same verb on both sides, occurs in the Old Testament only at Zech. 1:3 and Mal. 3:7; 2 Chr. 30:6 has šûb on both sides in the third person (occurrences.mjs all "return unto me" / "turn unto you" / "return unto you"; Ezek. 36:9 “I will turn unto you” is pānâ, H6437)'
     key: oshb-wlc
-    url: "https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml"
-    quote: "שׁ֣וּבוּ"
-  - where: "section “One verb, two sides”"
-    claim: "Keil on 1:3: the return was not perfect; Jehovah had also turned to the people again"
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
+    quote: 'וְ/אָשׁ֣וּבָה'
+  - where: 'opening'
+    claim: 'Mal. 3:7 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/3?lang=eng'
+    quote: 'Return unto me, and I will return unto you, saith the Lord of hosts.'
+  # ---------- section “Turn ye unto me, and I will turn unto you” ----------
+  - where: 'section “Turn ye unto me, and I will turn unto you”'
+    claim: 'Zech. 1:3: the people''s “Turn ye” is a Qal imperative; the Lord''s “I will turn” a Qal imperfect (hebrew.mjs zechariah 1:3)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'שׁ֣וּבוּ'
+  - where: 'section “Turn ye unto me, and I will turn unto you”'
+    claim: 'Zech. 1:4 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/1?lang=eng'
+    quote: 'Turn ye now from your evil ways, and from your evil doings: but they did not hear, nor hearken unto me, saith the Lord.'
+  - where: 'section “Turn ye unto me, and I will turn unto you”'
+    claim: 'Zech. 1:6 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/1?lang=eng'
+    quote: 'and they returned and said, Like as the Lord of hosts thought to do unto us, according to our ways, and according to our doings, so hath he dealt with us.'
+  - where: 'section “Turn ye unto me, and I will turn unto you”'
+    claim: '“They returned” in 1:6 is the Qal of šûb, the verb of 1:3 and 1:4 (hebrew.mjs zechariah 1:6)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'וַ/יָּשׁ֣וּבוּ'
+  - where: 'section “Turn ye unto me, and I will turn unto you”'
+    claim: 'Cambridge: 1:6 “returned” should be “turned,” as in 1:3–4; the fathers were brought at last to do what they had refused to do (1:4), and what the hearers are now asked to do (1:3)'
+    key: cambridge-zechariah
+    url: 'https://biblehub.com/commentaries/cambridge/zechariah/1.htm'
+    quote: 'returned] Rather turned, as the word is rendered in Zechariah 1:3-4. They were brought at last to do, what before they had refused to do, Zechariah 1:4, and what you are now intreated to be wise in time to do, Zechariah 1:3'
+  - where: 'section “Turn ye unto me, and I will turn unto you”'
+    claim: 'Keil on 1:6: the fathers, overtaken by the prophets'' threats, were obliged to confess that God had done what He threatened'
     key: keil-zechariah
-    url: "https://biblehub.com/commentaries/kad/zechariah/1.htm"
-    quote: "but simply that the return to the Lord was not a perfect one, not a thorough conversion of heart. So had Jehovah also turned to the people again"
-  - where: "section “Returned with mercies”"
-    claim: "1:16 “I am returned” is the verb of 1:3 in the Qal perfect (hebrew.mjs zechariah 1:16)"
-    key: oshb-wlc
-    url: "https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml"
-    quote: "שַׁ֤בְתִּי"
-  - where: "section “Returned with mercies”"
-    claim: "Connection made by this page: the mercy asked in 1:12 (“how long wilt thou not have mercy on Jerusalem”), returned with in 1:16, and given as the reason in 10:6, set side by side"
-    key: lds-scriptures
-    url: "https://www.churchofjesuschrist.org/study/scriptures/ot/zech/1?lang=eng"
-    quote: "how long wilt thou not have mercy on Jerusalem and on the cities of Judah"
-  - where: "section “Returned with mercies”"
-    claim: "Connection made by this page: 1:16 “I am returned to Jerusalem with mercies,” set beside the plea of 1:12 and the reason of 10:6"
-    key: lds-scriptures
-    url: "https://www.churchofjesuschrist.org/study/scriptures/ot/zech/1?lang=eng"
-    quote: "I am returned to Jerusalem with mercies"
-  - where: "section “Returned with mercies”"
-    claim: "1:16 has the noun raḥămîm (H7356); 7:9 has the same noun (occurrences.mjs zechariah mercy mercies: 1:12, 1:16, 7:9, 10:6)"
-    key: oshb-wlc
-    url: "https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml"
-    quote: "בְּֽ/רַחֲמִ֔ים"
-  - where: "section “Returned with mercies”"
-    claim: "7:9: “shew mercy and compassions every man to his brother,” the people’s duty to each other"
-    key: lds-scriptures
-    url: "https://www.churchofjesuschrist.org/study/scriptures/ot/zech/7?lang=eng"
-    quote: "Execute true judgment, and shew mercy and compassions every man to his brother"
-  - where: "section “Returned with mercies”"
-    claim: "The call to turn is dated the eighth month (1:1)"
-    key: lds-scriptures
-    url: "https://www.churchofjesuschrist.org/study/scriptures/ot/zech/1?lang=eng"
-    quote: "In the eighth month, in the second year of Darius"
-  - where: "section “Returned with mercies”"
-    claim: "The vision is dated the eleventh month (1:7)"
-    key: lds-scriptures
-    url: "https://www.churchofjesuschrist.org/study/scriptures/ot/zech/1?lang=eng"
-    quote: "Upon the four and twentieth day of the eleventh month"
-  - where: "section “I will bring them again”"
-    claim: "9:12 “I will render double” is the Hiphil (causative) of šûb; the people’s “Turn you” is the imperative (hebrew.mjs zechariah 9:12)"
-    key: oshb-wlc
-    url: "https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml"
-    quote: "אָשִׁ֥יב"
-  - where: "section “I will bring them again”"
-    claim: "10:6 “I will bring them again” is the Hiphil of šûb (hebrew.mjs zechariah 10:6)"
-    key: oshb-wlc
-    url: "https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml"
-    quote: "וְ/הֽוֹשְׁבוֹתִי/ם֙"
-  - where: "section “I will bring them again”"
-    claim: "10:10 “I will bring them again” is the Hiphil of šûb (hebrew.mjs zechariah 10:10)"
-    key: oshb-wlc
-    url: "https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml"
-    quote: "וַ/הֲשִֽׁיבוֹתִי/ם֙"
-  - where: "section “His hand brought back”"
-    claim: "13:7’s last clause is the Hiphil (causative) of šûb, the stem of 10:6 and 10:10, not the Qal of 1:3 (hebrew.mjs zechariah 13:7)"
-    key: oshb-wlc
-    url: "https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml"
-    quote: "וַ/הֲשִׁבֹתִ֥י"
-  - where: "section “His hand brought back”"
-    claim: "Connection made by this page: the last clause of the sword’s verse, “I will turn mine hand upon the little ones,” set beside “I will bring them again” (10:6, 10:10), the same causative verb"
-    key: lds-scriptures
-    url: "https://www.churchofjesuschrist.org/study/scriptures/ot/zech/13?lang=eng"
-    quote: "Awake, O sword, against my shepherd, and against the man that is my fellow, saith the LORD of hosts: smite the shepherd, and the sheep shall be scattered: and I will turn mine hand upon the little ones."
-  - where: "section “His hand brought back”"
-    claim: "The Church’s footnote on 13:7 “scattered” sends to Zech. 10:9"
-    key: lds-scriptures
-    url: "https://www.churchofjesuschrist.org/study/scriptures/ot/zech/13?lang=eng"
-    quote: "“scattered”: Zech. 10:9."
-  - where: "section “His hand brought back”"
-    claim: "Keil: the bringing back of the hand is to be understood in a good sense; the Lord soon brought back His hand over the disciples"
+    url: 'https://biblehub.com/commentaries/kad/zechariah/1.htm'
+    quote: 'The words and decrees of God uttered by the prophets did reach the fathers, so that they were obliged to confess that God had really done to them what He threatened, i.e., had carried out the threatened punishment.'
+  - where: 'section “Turn ye unto me, and I will turn unto you”'
+    claim: 'The Student Manual (33-3) prints Keil''s reading of 1:6'
     key: ot-manual-33
-    url: "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-33?lang=eng"
-    quote: "But the Lord soon brought back His hand over the disciples. The promise, ‘But after my resurrection I will go before you into Galilee,’ is a practical exposition of the bringing back of the hand over the small ones, which shows that the expression is to be understood here in a good sense"
-  - where: "section “His hand brought back”"
-    claim: "Keil joins 13:7 to 13:9"
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-33?lang=eng'
+    quote: 'The words and decrees of God uttered by the prophets did reach the fathers, so that they were obliged to confess that God had really done to them what He threatened'
+  - where: 'section “Turn ye unto me, and I will turn unto you”'
+    claim: '2 Chr. 30:6 as quoted: the Lord''s return follows the people''s'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/30?lang=eng'
+    quote: 'turn again unto the Lord God of Abraham, Isaac, and Israel, and he will return to the remnant of you'
+  - where: 'section “Turn ye unto me, and I will turn unto you”'
+    claim: 'Deut. 30:2 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/30?lang=eng'
+    quote: 'And shalt return unto the Lord thy God, and shalt obey his voice'
+  - where: 'section “Turn ye unto me, and I will turn unto you”'
+    claim: 'Deut. 30:3 as quoted: the Lord''s return is stated after the people''s'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/deut/30?lang=eng'
+    quote: 'That then the Lord thy God will turn thy captivity, and have compassion upon thee, and will return and gather thee'
+  - where: 'section “Turn ye unto me, and I will turn unto you”'
+    claim: 'Pulpit on 1:3: God promises His favour on their repentance; it cites Mal. 3:7 and 2 Chr. 30:6'
+    key: pulpit-zechariah
+    url: 'https://biblehub.com/commentaries/pulpit/zechariah/1.htm'
+    quote: 'And I will turn (return) unto you (Malachi 3:7). God promises his favour on their repentance and better conduct'
+  - where: 'section “Turn ye unto me, and I will turn unto you”'
+    claim: 'Pulpit on 1:3 sends the reader to 2 Chr. 30:6'
+    key: pulpit-zechariah
+    url: 'https://biblehub.com/commentaries/pulpit/zechariah/1.htm'
+    quote: 'They were called now to attend to the pure worship of the Lord, as the sole condition of prosperity (comp. 2 Chronicles 30:6; James 4:8).'
+  # ---------- section “I am returned to Jerusalem with mercies” ----------
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: 'Zech. 1:1 and 1:7 as quoted (eighth month; twenty-fourth day of the eleventh month)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/1?lang=eng'
+    quote: 'Upon the four and twentieth day of the eleventh month, which is the month Sebat, in the second year of Darius'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: 'The visions came three months after the call to repentance of 1:1–6'
+    key: cambridge-zechariah
+    url: 'https://biblehub.com/commentaries/cambridge/zechariah/1.htm'
+    quote: 'It was three months since Zechariah had uttered the call to repentance with which his Book opens (Zechariah 1:1)'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: 'Zech. 1:12 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/1?lang=eng'
+    quote: 'how long wilt thou not have mercy on Jerusalem and on the cities of Judah, against which thou hast had indignation these threescore and ten years?'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: 'Zech. 1:13 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/1?lang=eng'
+    quote: 'And the Lord answered the angel that talked with me with good words and comfortable words.'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: 'Zech. 1:16 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/1?lang=eng'
+    quote: 'Therefore thus saith the Lord; I am returned to Jerusalem with mercies: my house shall be built in it'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: 'Keil: the “Therefore” of 1:16 rests on the Lord''s jealous love and His anger at the nations (1:14–15); the perfect describes the return as already begun and continuing'
     key: keil-zechariah
-    url: "https://biblehub.com/commentaries/kad/zechariah/13.htm"
-    quote: "Zechariah 13:9 shows how the bringing back of the hand upon the small ones will be realized in the remnant of the nation."
-  - where: "section “Before They Had Finished Turning”"
-    claim: "Jesus Christ and Jehovah are the same person"
+    url: 'https://biblehub.com/commentaries/kad/zechariah/1.htm'
+    quote: 'Therefore (lâkhēn, Zechariah 1:16), because Jehovah is jealous with love for His people, and very angry with the heathen, He has now turned with compassion towards Jerusalem. The perfect שׁבתּי is not purely prophetic, but describes the event as having already commenced, and as still continuing.'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: 'Cambridge: “Therefore” in 1:16 means because the Lord is jealous for His people and angry with their enemies'
+    key: cambridge-zechariah
+    url: 'https://biblehub.com/commentaries/cambridge/zechariah/1.htm'
+    quote: '16. Therefore] because I am thus jealous for my people and angry with their enemies.'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: 'Pulpit: “Therefore” in 1:16 is because God loved His people and was incensed with the heathen; “I am returned” is according to the promise in 1:3'
+    key: pulpit-zechariah
+    url: 'https://biblehub.com/commentaries/pulpit/zechariah/1.htm'
+    quote: 'Therefore. Because God loved his people and was incensed with the heathen. I am returned; I return. According to the promise in ver. 3 (see note on Zechariah 8:3).'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: '“I am returned” in 1:16 is šabtî, Qal perfect 1cs of šûb (hebrew.mjs zechariah 1:16)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'שַׁ֤בְתִּי'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: 'Barnes on 1:16: God says “I am returned” although the effects of His return were yet to come'
+    key: barnes-zechariah
+    url: 'https://biblehub.com/commentaries/barnes/zechariah/1.htm'
+    quote: '"I am returned," God says, although the effects of His return were yet to come.'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: 'Cambridge: the visions unfold God''s purposes of mercy on the basis of the repentance the people were proving by rebuilding the temple'
+    key: cambridge-zechariah
+    url: 'https://biblehub.com/commentaries/cambridge/zechariah/1.htm'
+    quote: 'On the basis of the repentance, of which the people were giving practical proof in their honest endeavours to rebuild the Temple'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: 'Barnes on 1:3: in some degree the people had turned (renewing the temple work under Haggai); a more inward, more complete turning was needed'
+    key: barnes-zechariah
+    url: 'https://biblehub.com/commentaries/barnes/zechariah/1.htm'
+    quote: 'In some degree they had turned to God, for whose sake they had returned to their land; and again when, after some negligence Haggai 1:2-11, they renewed the building of the temple'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: 'Barnes on 1:3: “a more inward, more complete turning” was needed'
+    key: barnes-zechariah
+    url: 'https://biblehub.com/commentaries/barnes/zechariah/1.htm'
+    quote: 'But there needed yet a more inward, more complete turning, whereon God promises a yet nearer presence'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: 'Keil on 1:3: the people''s return was not perfect, and the Lord had already turned to the people again'
+    key: keil-zechariah
+    url: 'https://biblehub.com/commentaries/kad/zechariah/1.htm'
+    quote: 'simply that the return to the Lord was not a perfect one, not a thorough conversion of heart. So had Jehovah also turned to the people again'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: 'Connection made by this page: read against 1:3, 1:16 shows the Lord turning before His people''s turning is complete. The promise made the Lord''s turning depend on the people''s; three months later, with the people''s turning begun but not yet complete (Keil, Barnes, Cambridge), the Lord answers the plea of 1:12 and gives His own jealous love (1:14–15) as the ground, not a finished repentance, saying in the perfect that His return has already begun. Pulpit and Cambridge read 1:16 as the promise of 1:3 kept on a begun repentance; the page''s reading rests on the stated ground and the perfect tense. Keil (the Lord had turned though the people''s return was imperfect) and Barnes (“I am returned” before its effects) are the nearest sources'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/1?lang=eng'
+    quote: 'I am returned to Jerusalem with mercies'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: 'Zech. 8:3 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/8?lang=eng'
+    quote: 'I am returned unto Zion, and will dwell in the midst of Jerusalem'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: '“I am returned” in 8:3 is šabtî, Qal perfect 1cs, as in 1:16 (hebrew.mjs zechariah 8:3)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'שַׁ֚בְתִּי'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: 'Zech. 8:14–15 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/8?lang=eng'
+    quote: 'So again have I thought in these days to do well unto Jerusalem and to the house of Judah: fear ye not.'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: 'Zech. 8:14 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/8?lang=eng'
+    quote: 'As I thought to punish you, when your fathers provoked me to wrath, saith the Lord of hosts, and I repented not:'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: 'The KJV “again” of 8:15 is šabtî, Qal perfect 1cs of šûb (H7725), followed by zāmamtî (H2161), “I have purposed” (hebrew.mjs zechariah 8:15)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'זָמַ֨מְתִּי֙'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: '“I thought” in 8:14 is zāmamtî (H2161), the verb of 8:15 (hebrew.mjs zechariah 8:14)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'זָמַמְ֜תִּי'
+  - where: 'section “I am returned to Jerusalem with mercies”'
+    claim: 'Pulpit on 8:11: God''s attitude had already changed in consequence of the people''s diligence in the work of restoration'
+    key: pulpit-zechariah
+    url: 'https://biblehub.com/commentaries/pulpit/zechariah/8.htm'
+    quote: 'God''s attitude towards the people had already changed in consequence of their diligence in the work of restoration.'
+  # ---------- section “I will bring them again” ----------
+  - where: 'section “I will bring them again”'
+    claim: 'Zech. 9:12 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/9?lang=eng'
+    quote: 'Turn you to the strong hold, ye prisoners of hope: even to day do I declare that I will render double unto thee;'
+  - where: 'section “I will bring them again”'
+    claim: '9:12: the people''s “Turn you” is the Qal imperative 2mp of šûb; the Lord''s “I will render” is the Hiphil imperfect 1cs, “I will cause to return” (hebrew.mjs zechariah 9:12)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'אָשִׁ֥יב'
+  - where: 'section “I will bring them again”'
+    claim: 'Zech. 10:10 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/10?lang=eng'
+    quote: 'I will bring them again also out of the land of Egypt, and gather them out of Assyria'
+  - where: 'section “I will bring them again”'
+    claim: '“I will bring them again” in 10:10 is the Hiphil perfect 1cs of šûb with suffix (hebrew.mjs zechariah 10:10)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'וַ/הֲשִֽׁיבוֹתִי/ם֙'
+  - where: 'section “I will bring them again”'
+    claim: 'Zech. 13:7 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/13?lang=eng'
+    quote: 'and I will turn mine hand upon the little ones.'
+  - where: 'section “I will bring them again”'
+    claim: '“I will turn” in 13:7 is the Hiphil perfect 1cs of šûb (waw-consecutive), with “mine hand” as object (hebrew.mjs zechariah 13:7)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'וַ/הֲשִׁבֹתִ֥י'
+  - where: 'section “I will bring them again”'
+    claim: 'The Lord is the subject of šûb seven times in the book (setting aside the disputed 10:6): Qal at 1:3, 1:16, 8:3, 8:15; Hiphil at 9:12, 10:10, 13:7 (hebrew.mjs on each of the 16 verses with H7725; the other occurrences have the people, the fathers, the prophet, the angel or travelers as subject)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'שַׁ֤בְתִּי'
+  - where: 'section “I will bring them again”'
+    claim: 'The OSHB tags 10:6 wĕhôšabtîm as a Hiphil of šûb (H7725) (hebrew.mjs zechariah 10:6)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'וְ/הֽוֹשְׁבוֹתִי/ם֙'
+  - where: 'section “I will bring them again”'
+    claim: 'BDB lists 10:6 under yāšab (“dwell”), Hiphil, as probably a text error for the form of 10:10'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/3427.htm'
+    quote: 'Zechariah 10:6 (Köi, 413; but probably text error, see Thes and GesLgb 464; read probably וַהֲשִׁבוֺתִים as Zechariah 10:10'
+  - where: 'section “I will bring them again”'
+    claim: 'Keil reads 10:6 as “I make them dwell,” a Hiphil of yāšab, not of šûb'
+    key: keil-zechariah
+    url: 'https://biblehub.com/commentaries/kad/zechariah/10.htm'
+    quote: 'and is the hiphil of ישׁב for הושׁבתּים (lxx, Maurer, Hengstenberg; comp. Olshausen, Grammat. p. 559), and not a hiphil of שׁוּב'
+  - where: 'section “I will bring them again”'
+    claim: 'Pulpit on 10:6: one Hebrew word, “I bring them again” or “I make them dwell”; the AV unwarrantably combines both'
+    key: pulpit-zechariah
+    url: 'https://biblehub.com/commentaries/pulpit/zechariah/10.htm'
+    quote: 'This is one word in Hebrew, which may mean either "I bring them again," or "I make them dwell." The Authorized Version unwarrantably combines both significations.'
+  - where: 'section “I will bring them again”'
+    claim: 'Zech. 10:6 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/10?lang=eng'
+    quote: 'for I have mercy upon them: and they shall be as though I had not cast them off: for I am the Lord their God, and will hear them.'
+  - where: 'section “I will bring them again”'
+    claim: '“I have mercy upon them” in 10:6 is riḥamtîm, Piel of rāḥam (H7355); 1:12 “have mercy” is tĕraḥēm, the same verb (hebrew.mjs zechariah 10:6; 1:12)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'רִֽחַמְתִּ֔י/ם'
+  - where: 'section “I will bring them again”'
+    claim: '1:12 tĕraḥēm (H7355)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'תְרַחֵ֣ם'
+  - where: 'section “I will bring them again”'
+    claim: 'BDB lists Zech. 1:12 and 10:6 together under the Piel of rāḥam, “usually of God”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/7355.htm'
+    quote: 'Micah 7:19; Zechariah 1:12; Zechariah 10:6; Psalm 102:14'
+  - where: 'section “I will bring them again”'
+    claim: 'Zech. 10:9 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/10?lang=eng'
+    quote: 'they shall remember me in far countries; and they shall live with their children, and turn again.'
+  - where: 'section “I will bring them again”'
+    claim: 'The Church''s footnote 10:9b (“remember”) sends to Deut. 30:2 (1–3) (footnotes.mjs zechariah 10)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/10?lang=eng'
+    quote: 'And I will sow them among the people: and they shall remember me in far countries'
+  - where: 'section “I will bring them again”'
+    claim: 'Lam. 5:21 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lam/5?lang=eng'
+    quote: 'Turn thou us unto thee, O Lord, and we shall be turned'
+  - where: 'section “I will bring them again”'
+    claim: 'Lam. 5:21 “Turn thou us” is the Hiphil imperative of šûb, the causative stem (hebrew.mjs lamentations 5:21)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Lam.xml'
+    quote: 'הֲשִׁיבֵ֨/נוּ'
+  # ---------- section “They shall call on my name, and I will hear them” ----------
+  - where: 'section “They shall call on my name, and I will hear them”'
+    claim: 'Zech. 7:13 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/7?lang=eng'
+    quote: 'as he cried, and they would not hear; so they cried, and I would not hear, saith the Lord of hosts:'
+  - where: 'section “They shall call on my name, and I will hear them”'
+    claim: 'Pulpit on 7:13: rather, “so they shall cry, and I will not hear”'
+    key: pulpit-zechariah
+    url: 'https://biblehub.com/commentaries/pulpit/zechariah/7.htm'
+    quote: 'So they cried, and I would not hear; rather, so they shall cry, and I will not hear.'
+  - where: 'section “They shall call on my name, and I will hear them”'
+    claim: 'Keil on 7:13: a divine talio; as they did not hearken, God will not hear when they call in distress'
+    key: keil-zechariah
+    url: 'https://biblehub.com/commentaries/kad/zechariah/7.htm'
+    quote: 'The infliction of the punishment is expressed in Zechariah 7:13 in the form of a divine talio. As they have not hearkened to the word of God, so will God, when they call upon Him, namely in distress'
+  - where: 'section “They shall call on my name, and I will hear them”'
+    claim: 'Zech. 13:9 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/13?lang=eng'
+    quote: 'they shall call on my name, and I will hear them: I will say, It is my people: and they shall say, The Lord is my God.'
+  - where: 'section “They shall call on my name, and I will hear them”'
+    claim: '7:13: “cried” is qārāʾ (H7121); “hear” is šāmaʿ (H8085), the second half in the imperfect (hebrew.mjs zechariah 7:13)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'אֶשְׁמָ֔ע'
+  - where: 'section “They shall call on my name, and I will hear them”'
+    claim: '13:9: “they shall call” is qārāʾ (H7121) (hebrew.mjs zechariah 13:9)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'יִקְרָ֣א'
+  - where: 'section “They shall call on my name, and I will hear them”'
+    claim: '13:9: “I will hear” is ʿānâ (H6030b), “answer” (hebrew.mjs zechariah 13:9)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'אֶעֱנֶ֣ה'
+  - where: 'section “They shall call on my name, and I will hear them”'
+    claim: '10:6 “will hear them” is ʿānâ (H6030b) (hebrew.mjs zechariah 10:6)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'וְ/אֶעֱנֵֽ/ם'
+  - where: 'section “They shall call on my name, and I will hear them”'
+    claim: '1:13 “the LORD answered” is ʿānâ (H6030b) (hebrew.mjs zechariah 1:13)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Zech.xml'
+    quote: 'וַ/יַּ֣עַן'
+  - where: 'section “They shall call on my name, and I will hear them”'
+    claim: 'The Church''s footnote 10:6a (“hear”): OR answer (footnotes.mjs zechariah 10)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/10?lang=eng'
+    quote: 'for I am the Lord their God, and will hear them.'
+  - where: 'section “They shall call on my name, and I will hear them”'
+    claim: 'Connection made by this page: Zech. 13:9 reverses 7:13. The fathers'' cry that the Lord would not hear (7:13) becomes the third part''s call that He hears (13:9). The verb of calling is the same (qārāʾ); the verb of hearing differs (7:13 šāmaʿ, 13:9 ʿānâ, “answer”), so the join rests on the calling verb and the sense. ʿĀnâ is the verb of the Lord''s answering at 1:13, 10:6 and 13:9, against the one refusal of 7:13. No source read joins 13:9 to 7:13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/13?lang=eng'
+    quote: 'they shall call on my name, and I will hear them'
+  - where: 'section “They shall call on my name, and I will hear them”'
+    claim: 'Hos. 2:23 as quoted; the Church''s footnote 23d (“people”) sends to Zech. 13:9, and 13:9d (“people”) sends to Hosea 2:23 (footnotes.mjs hosea 2; zechariah 13)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hosea/2?lang=eng'
+    quote: 'I will say to them which were not my people, Thou art my people; and they shall say, Thou art my God.'
+  - where: 'section “They shall call on my name, and I will hear them”'
+    claim: 'Keil on 13:9: for the thought of the whole verse compare Hos. 2:23'
+    key: keil-zechariah
+    url: 'https://biblehub.com/commentaries/kad/zechariah/13.htm'
+    quote: 'For the expression in Zechariah 13:9, compare Isaiah 65:24; and for the thought of the whole verse, Zechariah 8:8, Hosea 2:23, Jeremiah 24:7; Jeremiah 30:22.'
+  - where: 'section “They shall call on my name, and I will hear them”'
+    claim: 'Zech. 13:9 as quoted (“I will bring the third part through the fire, and will refine them”)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/13?lang=eng'
+    quote: 'And I will bring the third part through the fire, and will refine them as silver is refined'
+  # ---------- section “After I am risen again, I will go before you” ----------
+  - where: 'section “After I am risen again, I will go before you”'
+    claim: 'Jesus Christ and Jehovah, the Lord God of the Old Testament, are the same person'
     key: olmstead-saviors-use
-    url: "https://www.churchofjesuschrist.org/study/ensign/2002/07/the-saviors-use-of-the-old-testament?lang=eng"
-    quote: "Jesus Christ and Jehovah, the Lord God of the Old Testament, are, in fact, the same person"
-  - where: "section “Before They Had Finished Turning”"
-    claim: "The Shepherd of Israel is Jesus Christ"
-    key: ot-manual-33
-    url: "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-33?lang=eng"
-    quote: "The Shepherd of Israel is Jesus Christ."
-  - where: "section “Before They Had Finished Turning”"
-    claim: "Keil: the 13:7 promise began to be fulfilled in the gathering of the disciples by the risen Saviour"
-    key: ot-manual-33
-    url: "https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-33?lang=eng"
-    quote: "it began to be fulfilled in the gathering together of the disciples by the risen Saviour"
-  - where: "section “Before They Had Finished Turning”"
-    claim: "Jesus quoted the verse “this night” and promised Galilee (Matt. 26:31–32)"
-    key: lds-scriptures
-    url: "https://www.churchofjesuschrist.org/study/scriptures/nt/matt/26?lang=eng"
-    quote: "Then saith Jesus unto them, All ye shall be offended because of me this night: for it is written, I will smite the shepherd, and the sheep of the flock shall be scattered abroad."
-  - where: "section “Before They Had Finished Turning”"
-    claim: "Jesus Christ will reign as “king over all the earth” (14:9)"
+    url: 'https://www.churchofjesuschrist.org/study/ensign/2002/07/the-saviors-use-of-the-old-testament?lang=eng'
+    quote: 'And since Jesus Christ and Jehovah, the Lord God of the Old Testament, are, in fact, the same person, when Jesus quoted the words of the prophets He was often actually quoting Himself!'
+  - where: 'section “After I am risen again, I will go before you”'
+    claim: 'Scripture Helps: Zechariah 9–14 are prophecies concerning the ministry of Jesus Christ and the Second Coming'
     key: scripture-helps-hag-1-2
-    url: "https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/48-haggai-1-2-zechariah-1-4-7-14?lang=eng"
-    quote: "Jesus Christ will reign as “king over all the earth.”"
-  - where: "section “Before They Had Finished Turning”"
-    claim: "Keil on 1:3: Jehovah had already turned to the people"
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/48-haggai-1-2-zechariah-1-4-7-14?lang=eng'
+    quote: 'Zechariah 9–14: Prophecies concerning the ministry of Jesus Christ and the events surrounding the last days and the Savior’s Second Coming.'
+  - where: 'section “After I am risen again, I will go before you”'
+    claim: 'Student Manual 33-46: the Shepherd of Israel (13:7) is Jesus Christ'
+    key: ot-manual-33
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-33?lang=eng'
+    quote: 'The Shepherd of Israel is Jesus Christ.'
+  - where: 'section “After I am risen again, I will go before you”'
+    claim: 'Matt. 26:31 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/26?lang=eng'
+    quote: 'All ye shall be offended because of me this night: for it is written, I will smite the shepherd, and the sheep of the flock shall be scattered abroad.'
+  - where: 'section “After I am risen again, I will go before you”'
+    claim: 'Matt. 26:32 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/26?lang=eng'
+    quote: 'But after I am risen again, I will go before you into Galilee.'
+  - where: 'section “After I am risen again, I will go before you”'
+    claim: 'Keil on 13:7: to bring back the hand over a person is to make him the object of active care once more, here in the good sense (Isa. 1:25)'
     key: keil-zechariah
-    url: "https://biblehub.com/commentaries/kad/zechariah/1.htm"
-    quote: "So had Jehovah also turned to the people again, and had not only put an end to the sufferings of exile"
-  - where: "section “Draw near unto me”"
-    claim: "D&C 88:63 is the Church’s footnote 3a at Zech. 1:3"
-    key: lds-scriptures
-    url: "https://www.churchofjesuschrist.org/study/scriptures/ot/zech/1?lang=eng"
-    quote: "“Turn”: D&C 88:63."
-  - where: "section “Draw near unto me”"
-    claim: "D&C 101:7: the Saints slow to hearken; the Lord slow to hearken"
-    key: lds-scriptures
-    url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/101?lang=eng"
-    quote: "They were slow to hearken unto the voice of the Lord their God; therefore, the Lord their God is slow to hearken unto their prayers, to answer them in the day of their trouble."
-  - where: "section “Draw near unto me”"
-    claim: "Connection made by this page: D&C 101:7–9 “slow to hearken… I will not utterly cast them off” set beside Zech. 1:4, 7:11–13 (“would not hear”) and 10:6 (“as though I had not cast them off”)"
-    key: lds-scriptures
-    url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/101?lang=eng"
-    quote: "I will not utterly cast them off; and in the day of wrath I will remember mercy."
-  - where: "section “Draw near unto me”"
-    claim: "Connection made by this page: D&C 88:63 “I will draw near unto you,” set beside Zech. 1:3 “I will turn unto you”"
-    key: lds-scriptures
-    url: "https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng"
-    quote: "Draw near unto me and I will draw near unto you; seek me diligently and ye shall find me"
-  - where: "section “One verb, two sides”"
-    claim: "Keil on 1:3: the more thoroughly the people turn, the more He gives"
+    url: 'https://biblehub.com/commentaries/kad/zechariah/13.htm'
+    quote: 'i.e., make him the object of his active care once more, is used to express the employment of the hand upon a person either for judgment or salvation. It occurs in the latter sense in Isaiah 1:25'
+  - where: 'section “After I am risen again, I will go before you”'
+    claim: 'The Student Manual (33-46) prints Keil: the disciples fled when Jesus was taken; the Lord soon brought back His hand over them; the promise of Galilee is a practical exposition of 13:7''s last clause'
+    key: ot-manual-33
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-33?lang=eng'
+    quote: 'The offending of the disciples took place when Jesus was taken prisoner, and they all fled. This flight was a prelude to the dispersion of the flock at the death of the shepherd. But the Lord soon brought back His hand over the disciples.'
+  - where: 'section “After I am risen again, I will go before you”'
+    claim: 'The Student Manual (33-46), printing Keil: the promise of Galilee is a practical exposition of the bringing back of the hand'
+    key: ot-manual-33
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-33?lang=eng'
+    quote: 'The promise, ‘But after my resurrection I will go before you into Galilee,’ is a practical exposition of the bringing back of the hand over the small ones'
+  - where: 'section “After I am risen again, I will go before you”'
+    claim: 'Keil: 13:8–9 show how the bringing back of the hand is realized in the remnant of the nation'
     key: keil-zechariah
-    url: "https://biblehub.com/commentaries/kad/zechariah/1.htm"
-    quote: "but the more earnestly and the more thoroughly the people turned to Him, the more faithfully and the more gloriously would He bestow upon them"
+    url: 'https://biblehub.com/commentaries/kad/zechariah/13.htm'
+    quote: 'Zechariah 13:9 shows how the bringing back of the hand upon the small ones will be realized in the remnant of the nation.'
+  - where: 'section “After I am risen again, I will go before you”'
+    claim: 'Connection made by this page: the night of Matt. 26:31–32 shows the order of Zech. 1:3 and 1:16 in small. The smitten Shepherd is the Lord of the opening promise, turning before His people''s turning is complete: the promise of Galilee, the bringing back of the hand (Keil, in the Student Manual), is given first, before the disciples flee, so the scattered little ones are gathered by a turning He began before theirs. Keil reads the hand''s return as fulfilled in the gathering of the disciples; joining it to 1:3 and 1:16 is the page''s own'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/26?lang=eng'
+    quote: 'But after I am risen again, I will go before you into Galilee.'
+  - where: 'section “After I am risen again, I will go before you”'
+    claim: 'Barnes on 1:14: God pursues the sinner in love; but for His love and grace, while the sinner is yet impenitent, he could not turn'
+    key: barnes-zechariah
+    url: 'https://biblehub.com/commentaries/barnes/zechariah/1.htm'
+    quote: 'He pursues the sinner with chastisements and scourges in His love, that he may yet be converted and live . But for God''s love to him and the solicitations of His grace, while yet impenitent and displeasing Him, he could not turn and please Him.'
+  # ---------- section “Draw near unto me and I will draw near unto you” ----------
+  - where: 'section “Draw near unto me and I will draw near unto you”'
+    claim: 'D&C 88:63 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'Draw near unto me and I will draw near unto you; seek me diligently and ye shall find me'
+  - where: 'section “Draw near unto me and I will draw near unto you”'
+    claim: 'The Church''s footnote D&C 88:63a (“Draw”) sends to Zech. 1:3 (3–4) and James 4:8; Zech. 1:3a (“Turn”) sends to D&C 88:63 (source.mjs --notes; footnotes.mjs zechariah 1)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/88?lang=eng'
+    quote: 'Draw near unto me and I will draw near unto you'
+  - where: 'section “Draw near unto me and I will draw near unto you”'
+    claim: 'James 4:8 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/james/4?lang=eng'
+    quote: 'Draw nigh to God, and he will draw nigh to you.'
+  - where: 'section “Draw near unto me and I will draw near unto you”'
+    claim: 'Keil on 1:3: the more earnestly and thoroughly the people turned to Him, the more He would bestow His grace'
+    key: keil-zechariah
+    url: 'https://biblehub.com/commentaries/kad/zechariah/1.htm'
+    quote: 'but the more earnestly and the more thoroughly the people turned to Him, the more faithfully and the more gloriously would He bestow upon them His grace and the promised salvation.'
+  - where: 'section “Draw near unto me and I will draw near unto you”'
+    claim: 'Elder Curtis quotes Mal. 3:7 in his piece on the father who ran'
+    key: curtis-he-ran
+    url: 'https://www.churchofjesuschrist.org/study/ensign/2015/01/he-ran-and-fell-on-his-neck-and-kissed-him?lang=eng'
+    quote: 'Through the prophet Malachi, the Lord said, “Return unto me, and I will return unto you” (Malachi 3:7).'
+  - where: 'section “Draw near unto me and I will draw near unto you”'
+    claim: 'Curtis: the parable''s most important aspect is the Father''s reaction when we turn toward Him: He runs to embrace us'
+    key: curtis-he-ran
+    url: 'https://www.churchofjesuschrist.org/study/ensign/2015/01/he-ran-and-fell-on-his-neck-and-kissed-him?lang=eng'
+    quote: 'For me, the most important aspect of this parable is what it tells us of our Heavenly Father’s reaction when we turn toward Him: He runs to embrace us.'
+  - where: 'section “Draw near unto me and I will draw near unto you”'
+    claim: 'Luke 15:20 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/15?lang=eng'
+    quote: 'But when he was yet a great way off, his father saw him, and had compassion, and ran, and fell on his neck, and kissed him.'
+  - where: 'section “Draw near unto me and I will draw near unto you”'
+    claim: 'Connection made by this page: Elder Curtis sets Mal. 3:7 beside the father who ran (Luke 15:20); the page carries that reading to Zechariah, whose telling has the same order: the Lord who set the condition (1:3) says “I am returned” (1:16) while His people''s turning is begun but not yet complete, as the father ran while the son was “yet a great way off.” Curtis does not mention Zechariah'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/15?lang=eng'
+    quote: 'But when he was yet a great way off, his father saw him, and had compassion, and ran'
