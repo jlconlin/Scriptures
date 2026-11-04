@@ -44,7 +44,7 @@ const writePrompt = (n) => `Write chapter ${n} of ${book} (book: ${book}, chapte
 
 ${common(n)}
 
-Check content/sources.yaml for the sources you can already cite; propose an entry only for one that is not there.
+Find whether a source already has a key with grep -n on content/sources.yaml (it is 500 KB: never read it whole); propose an entry only for one that is not there.
 
 An earlier run may have been cut off partway: if content/${book}/chapters/${pad(n)}.yaml or its ledger content/${book}/evidence/${pad(n)}.yaml already exists, it is an unfinished draft of this chapter by a writer like you, not a reviewed chapter. Read both, keep what is sound, and finish the work from there rather than starting over; every claim still needs its ledger row, and the two working files below are still yours to write.
 
