@@ -375,6 +375,10 @@ const LDS_SPELLINGS = [
   [/my well-beloved unto me;/g, 'my wellbeloved unto me;'], // Song 1:13
   [/of Bathrabbim: thy nose/g, 'of Bath-rabbim: thy nose'], // Song 7:4
   [/at Baalhamon; he let/g, 'at Baal-hamon; he let'], // Song 8:11
+  // Ruth (found by scripts/check-kjv.mjs).
+  [/Beth-lehemjudah/g, 'Beth-lehem-judah'], // Ruth 1:1, 2 (after the Bethlehem rule above)
+  [/said, Intreat me not/g, 'said, Entreat me not'], // Ruth 1:16
+  [/was stedfastly minded/g, 'was steadfastly minded'], // Ruth 1:18
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 
