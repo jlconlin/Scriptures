@@ -72,8 +72,8 @@ export async function findOwner(root, slug) {
 /** Where an owner's files are, relative to the repository: content/<book> or content/volumes/<volume>. */
 export const ownerPath = (slug) => (VOLUMES.some((v) => v.slug === slug) ? `content/volumes/${slug}` : `content/${slug}`);
 
-/** Split script arguments into an optional book slug (anything non-numeric) and the rest. */
+/** Split script arguments into an optional book slug (anything but a chapter number, range or list, so 1-samuel is a book) and the rest. */
 export function bookArg(args) {
-  const slug = args.find((a) => !/^\d/.test(a) && !a.includes('/') && !a.startsWith('-'));
+  const slug = args.find((a) => !/^\d+(?:[-–,:]\d+)*$/.test(a) && !a.includes('/') && !a.startsWith('-'));
   return { slug: slug ?? DEFAULT_BOOK, rest: args.filter((a) => a !== slug) };
 }

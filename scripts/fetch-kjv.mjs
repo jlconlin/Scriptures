@@ -385,7 +385,7 @@ const LDS_SPELLINGS = [
   [/\bChushanrishathaim\b/g, 'Chushan-rishathaim'], // Judg. 3:8, 10
   [/\bKedeshnaphtali\b/g, 'Kedesh-naphtali'], // Judg. 4:6
   [/\bAbiezr/g, 'Abi-ezr'], // Judg. 6:11; 8:32
-  [/\bAbiezer\b/g, 'Abi-ezer'], // Judg. 6:34; 8:2
+  [/\bAbiezer\b(?! the Anethothite)/g, 'Abi-ezer'], // Judg. 6:34; 8:2 (not the man of 2 Sam. 23:27)
   [/Alas, O LORD God! for because/g, 'Alas, O Lord GOD! for because'], // Judg. 6:22
   [/\bJehovahshalom\b/g, 'Jehovah-shalom'], // Judg. 6:24
   [/they enquired and asked/g, 'they inquired and asked'], // Judg. 6:29
@@ -406,6 +406,50 @@ const LDS_SPELLINGS = [
   [/children of Israel enquired of the LORD/g, 'children of Israel inquired of the LORD'], // Judg. 20:27
   [/\bBaaltamar\b/g, 'Baal-tamar'], // Judg. 20:33
   [/\bJabeshgilead\b/g, 'Jabesh-gilead'], // Judg. 21:8–14
+  // 1 and 2 Samuel (found by scripts/check-kjv.mjs).
+  [/\bRamathaimzophim\b/g, 'Ramathaim-zophim'],
+  [/\bEbenezer\b/g, 'Eben-ezer'],
+  [/\bIchabod\b/g, 'I-chabod'],
+  [/\bBethshemite\b/g, 'Beth-shemite'],
+  [/\bBethcar\b/g, 'Beth-car'],
+  [/\bMelchishua\b/g, 'Melchi-shua'],
+  [/\bEphesdammim\b/g, 'Ephes-dammim'],
+  [/\bSelahammahlekoth\b/g, 'Sela-hammahlekoth'],
+  [/\bChorashan\b/g, 'Chor-ashan'],
+  [/\bBethshan\b/g, 'Beth-shan'],
+  [/\bIshbosheth\b/g, 'Ish-bosheth'],
+  [/\bHelkathhazzurim\b/g, 'Helkath-hazzurim'],
+  [/\bBaalperazim\b/g, 'Baal-perazim'],
+  [/\bPerezuzzah\b/g, 'Perez-uzzah'],
+  [/\bObededom\b/g, 'Obed-edom'],
+  [/\bLodebar\b/g, 'Lo-debar'],
+  [/\bIshtob\b/g, 'Ish-tob'],
+  [/\bBathsheba\b/g, 'Bath-sheba'],
+  [/\bBaalhazor\b/g, 'Baal-hazor'],
+  [/\bBethmaachah\b/g, 'Beth-maachah'],
+  [/\bIshbibenob\b/g, 'Ishbi-benob'],
+  [/\bJaareoregim\b/g, 'Jaare-oregim'],
+  [/\bAbialbon\b/g, 'Abi-albon'],
+  [/\bTahtimhodshi\b/g, 'Tahtim-hodshi'],
+  [/\benquired\b/g, 'inquired'], // 1 Sam. 10:22; 22:10–13; 23:2–4; 28:6; 30:8; 2 Sam. 2:1; 5:19, 23; 11:3; 16:23; 21:1
+  [/and Melchi-shua, Saul’s sons/g, 'and Malchi-shua, Saul’s sons'], // 1 Sam. 31:2
+  [/hand that smote us: it was a chance/g, 'hand that smote us; it was a chance'], // 1 Sam. 6:9
+  [/passed on\), but stand/g, 'passed on,) but stand'], // 1 Sam. 9:27
+  [/run to the camp to thy brethren\./g, 'run to the camp to thy brethren;'], // 1 Sam. 17:17
+  [/and came, and drew nigh to meet David/g, 'and came and drew nigh to meet David'], // 1 Sam. 17:48
+  [/to the wall with the javelin, but he slipped/g, 'to the wall with the javelin; but he slipped'], // 1 Sam. 19:10
+  [/priests of the LORD: because their hand/g, 'priests of the LORD; because their hand'], // 1 Sam. 22:17
+  [/and his faithfulness; for the LORD/g, 'and his faithfulness: for the LORD'], // 1 Sam. 26:23
+  [/reckoned to Benjamin\./g, 'reckoned to Benjamin:'], // 2 Sam. 4:2
+  [/\bShammuah, and Shobab/g, 'Shammua, and Shobab'], // 2 Sam. 5:14
+  [/And after this it came to pass that David smote/g, 'And after this it came to pass, that David smote'], // 2 Sam. 8:1
+  [/that David hastened, and ran/g, 'that David hasted, and ran'], // 1 Sam. 17:48
+  [/\bMethegammah\b/g, 'Metheg-ammah'], // 2 Sam. 8:1
+  [/\bDanjaan\b/g, 'Dan-jaan'], // 2 Sam. 24:6
+  [/brick-kiln/g, 'brickkiln'], // 2 Sam. 12:31
+  [/for him to do anything to her/g, 'for him to do any thing to her'], // 2 Sam. 13:2
+  [/son of Shimeah the brother of David slew/g, 'son of Shimea the brother of David slew'], // 2 Sam. 21:21
+  [/Nahari the Beerothite/g, 'Naharai the Beerothite'], // 2 Sam. 23:37
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
 
