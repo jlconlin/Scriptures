@@ -1,0 +1,82 @@
+name: Judges
+slug: judges
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 0.95
+abbr: judg               # [[Judg. 2:16]] links here
+gospelLibrary: ot/judg
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-21, period: kingdom }
+eyebrow: The Old Testament
+heroQuote:
+  text: '“Nevertheless the LORD raised up judges, which delivered them out of the hand of those that spoiled them.”'
+  cite: '[[Judg. 2:16]]'
+description: A phrase-by-phrase companion to the book of Judges, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Twenty-one chapters in five parts. A new generation forgets the Lord, and the land is only partly taken. Then come the deliverers from Othniel to Gideon, Gideon's house and the judges after him, and Samson. Two closing stories show what Israel became when every man did that which was right in his own eyes.
+home:
+  blurb: Israel in the land after Joshua. The people forget the Lord and fall to their enemies, cry to Him, and are delivered by judges such as Deborah, Gideon, Jephthah and Samson, again and again, until there is no king in Israel and every man does what is right in his own eyes.
+
+intro: |
+  Judges begins after the death of Joshua, with the land only partly taken: tribe by tribe, Israel “did not drive out” the Canaanites ([[Judg. 1:21]]). A generation arose “which knew not the LORD” ([[Judg. 2:10]]), and the book sets out the pattern of what followed. Israel served other gods and fell into the hands of its enemies. When the people cried to the Lord, “the LORD raised up judges, which delivered them” ([[Judg. 2:16]]), and when the judge died they turned away again.
+
+  The stories run through that pattern a dozen times. Ehud, Deborah and Barak, and Gideon with his three hundred bring the land rest. After Gideon the deliverers grow more troubled: his son Abimelech makes himself king, Jephthah makes a vow that costs him his daughter, and Samson, a Nazarite from birth, follows his own desires until the Philistines blind him. The book closes with two stories from the same years, Micah's idol and the Danites, and the crime at Gibeah and the war on Benjamin that followed. Its last words are “In those days there was no king in Israel: every man did that which was right in his own eyes” ([[Judg. 21:25]]). This companion goes through all twenty-one chapters and tries to anticipate the questions a careful reader would ask, the hard ones included: what a judge was, what Jephthah did, where Samson's strength came from, and why the book ends where it does.
+
+  For the period, see [The Conquest, the Judges, and One Kingdom](/old-testament/guides/the-conquest-judges-and-kingdom/) and [A Timeline of the Old Testament](/old-testament/guides/israels-story/#judges); for the women of these stories, see [Women and Marriage in the Old Testament](/old-testament/guides/women-and-marriage/#the-women).
+
+# The divisions follow the Bible Dictionary (“Judges, book of”): 1:1–3:6 the introduction, 3:7–16:31 the twelve
+# judges, 17–21 two closing narratives. The introduction is kept to chapters 1–2 (chapter 3 goes with Othniel and
+# Ehud), and the judges are split at Gideon's death and at Samson's birth (brief, “Divisions”).
+# Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: judgknewnot
+    range: [1, 2]
+    name: Another Generation Which Knew Not the LORD
+    blurb: After Joshua's death the tribes fight on, but town after town is left to the Canaanites. The angel of the Lord rebukes Israel at Bochim, a generation arises that does not know the Lord, and the book sets out the pattern of its stories. Israel turns to Baal, falls to its enemies, cries to the Lord, and is delivered by a judge.
+    color: '#8a6d2a'
+    darkColor: '#e0c27e'
+  - key: judgdeliverer
+    range: [3, 8]
+    name: The LORD Raised Up a Deliverer
+    blurb: Othniel delivers Israel from Mesopotamia, and left-handed Ehud from Moab. Deborah the prophetess sends Barak against Sisera, and Jael kills Sisera in her tent; Deborah and Barak sing of the victory. The Lord calls Gideon, who tears down his father's altar to Baal, asks for the sign of the fleece, and routs Midian with three hundred men. He refuses to be king, but the ephod he makes becomes a snare.
+    color: '#2e6b5e'
+    darkColor: '#8fd1c2'
+  - key: judgforsaken
+    range: [9, 12]
+    name: Ye Have Forsaken Me
+    blurb: Gideon's son Abimelech kills his brothers and is made king at Shechem; Jotham's fable of the trees foretells his end. After Tola and Jair, Israel serves other gods, and the Lord tells them to cry to the gods they have chosen. Jephthah, an outcast, delivers Israel from Ammon and keeps a vow that costs him his daughter, and Ephraim's men are known by “Shibboleth.”
+    color: '#9b3d3d'
+    darkColor: '#eba3a3'
+  - key: judgbegin
+    range: [13, 16]
+    name: He Shall Begin to Deliver Israel
+    blurb: The angel of the Lord promises Manoah's wife a son who will be a Nazarite from the womb. Samson kills a lion, marries a Philistine, and wars on the Philistines by fire and with a jawbone. Delilah learns the secret of his strength; he is shaved, blinded and set to grind in Gaza, and in his death he pulls down the house of Dagon.
+    color: '#3d5a99'
+    darkColor: '#a9bbe8'
+  - key: judgnoking
+    range: [17, 21]
+    name: No King in Israel
+    blurb: Micah makes an image and hires a Levite as his priest, and the Danites, seeking land, carry off both and take Laish. A Levite's concubine is abused to death at Gibeah, and all Israel goes to war against Benjamin, which is nearly destroyed. To keep the tribe alive, Israel finds it wives at Jabesh-gilead and Shiloh. Every man did that which was right in his own eyes.
+    color: '#6e6a4f'
+    darkColor: '#cfcaa6'
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [2, 4], sources: [scripture-helps-judges] }
+  - { range: [6, 8], sources: [scripture-helps-judges] }
+  - { range: [13, 16], sources: [scripture-helps-judges] }
+
+beloved:
+  - { chapter: 2, verse: 16, text: 'Nevertheless the LORD raised up judges, which delivered them out of the hand of those that spoiled them' }
+  - { chapter: 4, verse: 14, text: 'is not the LORD gone out before thee?' }
+  - { chapter: 5, verse: 31, text: 'let them that love him be as the sun when he goeth forth in his might' }
+  - { chapter: 6, verse: 12, text: 'The LORD is with thee, thou mighty man of valour' }
+  - { chapter: 7, verse: 20, text: 'The sword of the LORD, and of Gideon' }
+  - { chapter: 8, verse: 23, text: 'the LORD shall rule over you' }
+  - { chapter: 10, verse: 16, text: 'his soul was grieved for the misery of Israel' }
+  - { chapter: 21, verse: 25, text: 'In those days there was no king in Israel: every man did that which was right in his own eyes' }
+
+coreSources:
+  - bd-judges
+  - scripture-helps-judges
+  - scripture-helps-violence
