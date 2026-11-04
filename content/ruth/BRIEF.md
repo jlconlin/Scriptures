@@ -10,7 +10,10 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository; `THEME-CANDIDAT
 
 `node scripts/status.mjs ruth` prints what the repository shows; the history is `git log -- content/ruth`. What a script can't see:
 
-- **In preview; no chapter is written yet** (2026-11-03). `book.yaml` has the two divisions below, the period `kingdom` for all four chapters, and the core and range sources. The Church's footnotes and chapter headings are saved in `.cache/batch/ruth/fn1.txt` to `fn4.txt`; read them instead of running `footnotes.mjs` again. The pages read for this brief are cached as text in `.cache/batch/ruth/research/` (the *Old Testament Minute* in `otminute/`, the Bible Dictionary in `bd/`, the KnoWhy searches in `knowhys/`, the Latter-day Saint searches in `q/`); search them first, and reopen the URL with `source.mjs` for a ledger row. Proposed source entries are in `.cache/batch/ruth/brief-sources.yaml`.
+- **In preview; all four chapters are written, checked and reviewed** (2026-11-03), and the author has read none of them. Chapters 1 and 3 have had the language pass; 2 and 4 each had one writer repair from it (2:20, what a *gōʾēl* could do; chapter 4's `christ`, Muhlestein's first reason).
+- **The illustration is proposed, not approved**: `visual.yaml` (barley let fall on the stubble, 2:16; a bird sheltering chicks under its wings, 2:12; the gate of Bethlehem far off, 4:1), first candidate in `.cache/book-art/ruth/`.
+- **Theme pages wait for the author's choice**: Fable's and Codex's lists are in `.cache/batch/ruth/reports/themes-*.md`; the combined list was shown to the author.
+- **Setup notes** (2026-11-03). `book.yaml` has the two divisions below, the period `kingdom` for all four chapters, and the core and range sources. The Church's footnotes and chapter headings are saved in `.cache/batch/ruth/fn1.txt` to `fn4.txt`; read them instead of running `footnotes.mjs` again. The pages read for this brief are cached as text in `.cache/batch/ruth/research/` (the *Old Testament Minute* in `otminute/`, the Bible Dictionary in `bd/`, the KnoWhy searches in `knowhys/`, the Latter-day Saint searches in `q/`); search them first, and reopen the URL with `source.mjs` for a ledger row. Proposed source entries are in `.cache/batch/ruth/brief-sources.yaml`.
 
 ## What the author has decided
 
