@@ -18,10 +18,10 @@ The goal is a chapter that **needs no audit afterward**: every factual claim res
 
 ## 1. Read first
 
-1. `STANDARDS.md` §1–§7 (the standard you are held to) and §9 (where things can be read). §8 is for theme pages and §10–§11 for the coordinator; skip them. It is the standard you are held to: audience, voice, sourcing rules, the evidence ledger format, chapter file structure, note kinds, research tools.
+1. `STANDARDS.md` §1–§7 (the standard you are held to: audience, voice, sourcing rules, the evidence ledger, chapter file structure, note kinds) and §9 (where things can be read). §8 is for theme pages and §10–§11 for the coordinator; skip them.
 2. `content/<book>/BRIEF.md`, the book-level decisions (divisions, the author's questions, which sources are readable for this book, book-wide issues). **If it doesn't exist, stop and report that the brief is missing.** Don't improvise book-level choices.
 3. One or two finished chapters as models of length, voice, and layout. If the book has finished chapters, use those; otherwise use `content/isaiah/chapters/40.yaml` and `content/isaiah/chapters/60.yaml`. Copy their form, not their content.
-4. `content/sources.yaml`, to see which keys already exist and the entry format.
+4. `content/sources.yaml` is 500 KB: don't read it. Its first lines show the entry format, and `grep -n '<a word of the author or title>' content/sources.yaml` finds whether a work already has a key.
 
 ## 2. Read, ask, then seek
 
@@ -49,7 +49,7 @@ Build `content/<book>/evidence/NN.yaml` (two-digit chapter number) in the format
 Write `content/<book>/chapters/NN.yaml` with every field in `STANDARDS.md` (“Chapter file structure”). Every factual claim you write has a row, and every source key you cite has a row; but the ledger documents the note, and the note is not written to the ledger (`STANDARDS.md` §5). Write the note as an argument that uses the sources as evidence, in your own words by default, quoting where the words are the point; one row may stand behind a whole paragraph. A note that goes “one reading… another reading… the text does not say,” a quotation on every clause, or one sentence per source, is the failure to avoid. Then re-read your chapter against the ledger and remove anything that has no row.
 
 - No length target, but no note that is mostly a chain of cross-references or a curiosity; `setting` 150–250 words.
-- A comparison you bring into a note (another passage's Joseph Smith Translation, a Book of Mormon or modern parallel, an image quoted from a nearby verse) says, in the note, what it shows about this verse, and a source says so too; if none does, leave it out. Two of the three notes Judges 1–11 sent back to the writer were this (author's open item, 2026-11-03: the batch read against the chapter-note check of 2026-10-27).
+- A comparison you bring into a note (another passage's Joseph Smith Translation, a Book of Mormon or modern parallel, an image quoted from a nearby verse) says, in the note, what it shows about this verse, and a source says so too; if none does, leave it out. A comparison that doesn't say what it shows is the commonest thing the prose check sends back to the writer.
 - Close with `christ` and `explore`. `christ` points to Jesus Christ and then says, in one to three plain sentences, where that principle reaches a disciple's life now, grounded in the scripture and prophets it cites (`STANDARDS.md` §1, “Apply scripture to the reader”): statements only, no questions to the reader, invitations or exhortation.
 - Don't name modern scholars in running text, and don't announce a source (“The Church's manual says…”): work the quotation into the sentence and let the citation carry the attribution. Say how certain each claim is.
 - Open each note with a sentence that states its point (never “This note is about…”).

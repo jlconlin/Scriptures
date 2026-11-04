@@ -1,7 +1,8 @@
 // Checks the project's own documents against the repository, so that an instruction file can't quietly go
 // stale: every `scripts/<name>` a document names exists; every `STANDARDS.md` §n it cites exists; every quoted
-// path under content/, data/, scripts/, src/ or .claude/ exists; every script is named in some document;
-// AGENTS.md is a copy of CLAUDE.md. Then it says how far the instruction files have drifted since the last
+// path under content/, data/, scripts/, src/, tests/ or .claude/ exists; every quoted `NAME.md` in capitals
+// exists at the top of the repository or somewhere under content/ (a book's BRIEF.md); every script is named
+// in some document; AGENTS.md is a copy of CLAUDE.md. Then it says how far the instruction files have drifted since the last
 // review (a tag `review-YYYY-MM-DD`): commits that touched them and their change in size, so that an expensive
 // review is run when the drift warrants one and not on a calendar (author, 2026-10-11).
 // Run by `npm run check` (exit 1 on a stale reference) and by status.mjs for the drift line (`--drift`).
@@ -25,6 +26,8 @@ export function staleReferences() {
   const scripts = new Set(readdirSync(path.join(ROOT, 'scripts')));
   const sections = new Set([...readFileSync(path.join(ROOT, 'STANDARDS.md'), 'utf8').matchAll(/^## (\d+)\./gm)].map((m) => m[1]));
   const named = new Set();
+  // The project notes a document may name bare, by file name: at the top of the repository, or in a book's or a volume's directory.
+  const notes = new Set(readdirSync(path.join(ROOT, 'content'), { recursive: true }).map((f) => path.basename(String(f))).filter((f) => /^[A-Z][A-Z-]*\.md$/.test(f)));
   for (const doc of DOCS) {
     const text = readFileSync(path.join(ROOT, doc), 'utf8');
     for (const m of text.matchAll(/scripts\/([\w-]+\.(?:mjs|cjs|js|sh))/g)) {
@@ -33,9 +36,13 @@ export function staleReferences() {
     }
     for (const m of text.matchAll(/§(\d+)/g)) if (!sections.has(m[1])) problems.push(`${doc}: cites STANDARDS.md §${m[1]}, which does not exist`);
     // A quoted path with no placeholder (<book>, NN, *) must exist.
-    for (const m of text.matchAll(/`((?:content|data|scripts|src|\.claude)\/[\w./-]+)`/g)) {
+    for (const m of text.matchAll(/`((?:content|data|scripts|src|tests|\.claude)\/[\w./-]+)`/g)) {
       if (/[<>*]|NN/.test(m[1])) continue;
       if (!existsSync(path.join(ROOT, m[1]))) problems.push(`${doc}: names ${m[1]}, which does not exist`);
+    }
+    // A quoted `NAME.md` in capitals (REVIEW.md, BRIEF.md) must exist at the top of the repository or under content/.
+    for (const m of text.matchAll(/`([A-Z][A-Z-]*\.md)`/g)) {
+      if (!existsSync(path.join(ROOT, m[1])) && !notes.has(m[1])) problems.push(`${doc}: names ${m[1]}, which does not exist`);
     }
   }
   for (const s of scripts) if (!named.has(s) && !/^\./.test(s)) problems.push(`scripts/${s} is named in no document (DEVELOPMENT.md should say what it is for)`);

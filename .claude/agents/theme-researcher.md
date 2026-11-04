@@ -24,7 +24,7 @@ Record what the text and the sources say about those two questions. Where no sou
 
 1. `STANDARDS.md`: §1, §4 (sourcing rules), §5 (evidence ledger), §8 (theme pages), §9 (research tools and access).
 2. `content/<book>/BRIEF.md`: which sources are readable for this book.
-3. One finished theme page in `content/*/themes/` and `content/sources.yaml` (existing keys).
+3. One finished theme page in `content/*/themes/`. For existing keys, `grep -n '<a word of the author or title>' content/sources.yaml` (the file is 500 KB; don't read it through).
 4. What the site already says about the theme: `node scripts/occurrences.mjs <book> "<word>" --site` lists every note, chapter section, theme page and guide that has the word, with the sentence. Open a chapter file (`content/<book>/chapters/NN.yaml`) only for a note you need to read whole.
 
 ## Scripts that do the mechanical reading
