@@ -1,0 +1,66 @@
+status: preview
+name: 2 Samuel
+slug: 2-samuel
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 0.99              # after 1 Samuel (0.98), before Isaiah (1)
+abbr: 2-sam              # [[2 Sam. 1:1]] links here
+gospelLibrary: ot/2-sam
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-24, period: kingdom }
+eyebrow: The Old Testament
+heroQuote:
+  text: '“And thine house and thy kingdom shall be established for ever before thee: thy throne shall be established for ever.”'
+  cite: 'The LORD to David, by Nathan, [[2 Sam. 7:16]]'
+description: A phrase-by-phrase companion to the second book of Samuel, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: "Twenty-four chapters in three parts. David becomes king over Judah and then all Israel, takes Jerusalem, brings up the ark, and receives the LORD's promise of a house for ever. He takes Bath-sheba and has Uriah killed, and Nathan tells him, “Thou art the man.” Then the sword never departs from his house: Amnon, Absalom's revolt, and the last troubles of his reign."
+home:
+  blurb: David reigns over all Israel, receives the promise of a throne for ever, falls with Bath-sheba and Uriah, and lives to see his sin's cost in his own house.
+
+intro: |
+  The second book of Samuel is the reign of David. It opens with the news of Saul's death and David's lament for Saul and Jonathan, and for seven years David reigns over Judah at Hebron while the house of Saul holds the other tribes. Then all the tribes come to him, and he takes the Jebusite stronghold of Jerusalem, brings the ark of the covenant up to it, and asks to build the LORD a house. Through Nathan the prophet the LORD answers that He will build David a house instead, a line of kings, and that “thy throne shall be established for ever” ([[2 Sam. 7:16]]): the promise the prophets and the New Testament read as fulfilled in Jesus Christ, the Son of David.
+
+  At the height of his power David takes Bath-sheba, the wife of one of his own soldiers, and has her husband Uriah killed in battle. Nathan tells him a parable and then says, “Thou art the man” ([[2 Sam. 12:7]]), and that “the sword shall never depart from thine house” ([[2 Sam. 12:10]]). The rest of the book carries it out: his son Amnon's violence against his sister Tamar, Absalom's revenge and revolt, David's flight from Jerusalem, and his grief, “O my son Absalom” ([[2 Sam. 18:33]]). The book ends with a famine, David's song of deliverance, his last words, and a census that brings a plague and leads him to buy the threshing floor where the temple will stand. This companion goes through all twenty-four chapters and tries to anticipate the questions a careful reader would ask: why Uzzah died, what the covenant with David promised, what latter-day revelation says of David's wives and his sin, and who moved David to number Israel.
+
+  For the period, see [The Conquest, the Judges, and One Kingdom](/old-testament/guides/the-conquest-judges-and-kingdom/#rulers) and [A Timeline of the Old Testament](/old-testament/guides/israels-story/#judges); for Bath-sheba, Tamar and David's wives, see [Women and Marriage in the Old Testament](/old-testament/guides/women-and-marriage/#plural-marriage).
+
+# Proposed (BRIEF.md, "Divisions"): the seminary manual's three parts. Keys must not repeat another book's
+# (the colors are global variables).
+divisions:
+  - key: samreign
+    range: [1, 10]
+    name: The LORD God of Hosts Was with Him
+    blurb: David mourns Saul and Jonathan and is anointed king of Judah at Hebron. Abner and Ish-bosheth are killed, and all Israel anoints David. He takes Jerusalem, brings up the ark, and the LORD promises him a house and a throne for ever. He shows kindness to Jonathan's son and subdues his enemies.
+    color: '#8a6a2a'
+    darkColor: '#e6c88a'
+  - key: samnathan
+    range: [11, 12]
+    name: Thou Art the Man
+    blurb: David takes Bath-sheba and arranges the death of her husband, Uriah. Nathan tells him the parable of the ewe lamb, and David confesses. The child dies, and Solomon is born.
+    color: '#7a3a4a'
+    darkColor: '#e0a0b2'
+  - key: samsword
+    range: [13, 24]
+    name: The Sword Shall Never Depart from Thine House
+    blurb: Amnon forces Tamar, and Absalom kills him, returns, and steals the hearts of Israel. David flees, Absalom is killed, and David weeps for him. Then Sheba's revolt, the Gibeonites, David's song and last words, his mighty men, and the census that ends at the threshing floor of Araunah.
+    color: '#3a5a7a'
+    darkColor: '#a0c0e0'
+
+beloved:
+  - { chapter: 1, verse: 19, text: 'The beauty of Israel is slain upon thy high places: how are the mighty fallen!' }
+  - { chapter: 7, verse: 16, text: 'thy throne shall be established for ever' }
+  - { chapter: 12, verse: 7, text: 'Thou art the man' }
+  - { chapter: 18, verse: 33, text: 'O my son Absalom, my son, my son Absalom! would God I had died for thee' }
+  - { chapter: 24, verse: 24, text: 'neither will I offer burnt offerings unto the LORD my God of that which doth cost me nothing' }
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [5, 7], sources: [scripture-helps-1-samuel-17] }
+  - { range: [11, 12], sources: [scripture-helps-2-samuel-11] }
+
+coreSources:
+  - bd-samuel-books
+  - bd-david
+  - taggart-sworn-david
+  - nyman-jst-historical

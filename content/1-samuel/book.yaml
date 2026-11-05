@@ -1,0 +1,69 @@
+status: preview
+name: 1 Samuel
+slug: 1-samuel
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 0.98              # after Ruth (0.97), before Isaiah (1)
+abbr: 1-sam              # [[1 Sam. 1:1]] links here
+gospelLibrary: ot/1-sam
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-31, period: kingdom }
+eyebrow: The Old Testament
+heroQuote:
+  text: '“For the LORD seeth not as man seeth; for man looketh on the outward appearance, but the LORD looketh on the heart.”'
+  cite: 'The LORD to Samuel, [[1 Sam. 16:7]]'
+description: A phrase-by-phrase companion to the first book of Samuel, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Thirty-one chapters in three parts. Samuel is born in answer to his mother's prayer and called as a boy at Shiloh, and the ark is lost and returned. Israel asks for a king, and Saul is anointed and then rejected. The LORD chooses David, who kills Goliath, flees from Saul, and will not lift his hand against the LORD's anointed.
+home:
+  blurb: Hannah's son becomes the prophet who anoints Israel's first two kings, Saul, who is rejected, and David, the shepherd the LORD chose for his heart.
+
+intro: |
+  The first book of Samuel opens at the end of the days of the judges, at the tabernacle in Shiloh, with a childless woman praying so hard that the priest thinks she is drunk. Hannah's son Samuel grows up in the LORD's house, hears the LORD call him in the night, and becomes the prophet and judge who leads Israel back from the gods of Canaan after the Philistines take the ark of the covenant. When he is old, the elders ask him for “a king to judge us like all the nations” ([[1 Sam. 8:5]]), and the LORD tells him, “they have not rejected thee, but they have rejected me” ([[1 Sam. 8:7]]).
+
+  Samuel anoints Saul, a young man of Benjamin taller than all the people, and the Spirit of God comes upon him. But Saul offers the sacrifice himself rather than wait for Samuel, and spares what the LORD told him to destroy, and Samuel tells him that “to obey is better than sacrifice” ([[1 Sam. 15:22]]). The LORD then sends Samuel to Bethlehem to anoint the youngest son of Jesse, because “the LORD looketh on the heart” ([[1 Sam. 16:7]]). The rest of the book is David's rise and Saul's fall: Goliath, Jonathan's covenant with David, Saul's jealousy, David's years as an outlaw, his refusal to kill “the LORD's anointed,” Abigail, the woman of Endor, and Saul's death on Mount Gilboa. This companion goes through all thirty-one chapters and tries to anticipate the questions a careful reader would ask: who Samuel was and how he could offer sacrifice, whether asking for a king was wrong, why Saul was rejected, what the evil spirit was, and what happened at Endor.
+
+  For the period, see [The Conquest, the Judges, and One Kingdom](/old-testament/guides/the-conquest-judges-and-kingdom/#rulers) and [A Timeline of the Old Testament](/old-testament/guides/israels-story/#judges).
+
+# Proposed (BRIEF.md, "Divisions"): the seminary manual's three parts. Keys must not repeat another book's
+# (the colors are global variables).
+divisions:
+  - key: samprophet
+    range: [1, 7]
+    name: Speak; for Thy Servant Heareth
+    blurb: Hannah prays for a son and gives him to the LORD, and her song speaks of the LORD's anointed. The LORD calls the boy Samuel while Eli's sons corrupt the priesthood. The Philistines take the ark, which brings plagues on them until they send it back, and Samuel leads Israel to put away their idols.
+    color: '#6a5a8a'
+    darkColor: '#bfb0e0'
+  - key: samking
+    range: [8, 15]
+    name: Make Us a King
+    blurb: Israel asks for a king like all the nations. Samuel anoints Saul, who saves Jabesh-gilead and is made king at Gilgal. Saul offers the sacrifice himself, and later spares Agag and the best of Amalek's flocks, and the LORD rejects him, for to obey is better than sacrifice.
+    color: '#8a4a3a'
+    darkColor: '#e3a898'
+  - key: samdavid
+    range: [16, 31]
+    name: The LORD Looketh on the Heart
+    blurb: Samuel anoints David, and the Spirit leaves Saul. David kills Goliath, Jonathan makes a covenant with him, and Saul tries to kill him. David flees and twice spares Saul's life. Samuel dies, Saul seeks him through the woman of Endor, and Saul and Jonathan fall on Mount Gilboa.
+    color: '#3a6a5a'
+    darkColor: '#9fd6c2'
+
+beloved:
+  - { chapter: 1, verse: 27, text: 'For this child I prayed; and the LORD hath given me my petition which I asked of him' }
+  - { chapter: 3, verse: 10, text: 'Speak; for thy servant heareth' }
+  - { chapter: 15, verse: 22, text: 'Behold, to obey is better than sacrifice, and to hearken than the fat of rams' }
+  - { chapter: 16, verse: 7, text: 'for man looketh on the outward appearance, but the LORD looketh on the heart' }
+  - { chapter: 17, verse: 47, text: 'for the battle is the LORD’s, and he will give you into our hands' }
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [1, 7], sources: [scripture-helps-ruth-samuel] }
+  - { range: [8, 16], sources: [scripture-helps-1-samuel-8] }
+  - { range: [17, 18], sources: [scripture-helps-1-samuel-17] }
+  - { range: [24, 26], sources: [scripture-helps-1-samuel-17] }
+
+coreSources:
+  - bd-samuel-books
+  - bd-samuel
+  - bd-saul
+  - bd-david
+  - nyman-jst-historical
