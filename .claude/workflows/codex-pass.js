@@ -1,13 +1,14 @@
 export const meta = {
   name: 'codex-pass',
   description: 'A prose and language pass: Opus applies supported wording repairs and returns substantive findings for focused writer/source review before completion',
-  whenToUse: 'A batch of chapters has passed review and been committed; the final prose/language step before completion. args: { book, chapters, codexModel, applyModel }',
+  whenToUse: 'A batch of chapters has passed review and been committed; the final prose/language step before completion. args: { book, chapters, across, codexModel, applyModel }',
   phases: [{ title: 'Apply' }],
 }
 // args:
 //   book        the book's slug
 //   chapters    the chapter numbers of one batch, e.g. [13, 14, …, 24]; they are also read together, first to last
 //   codexModel  optional Codex model, when the configured one is at capacity
+//   across      optional, e.g. '1-12': the batch read side by side, when chapters is only part of it (a rerun)
 //   applyModel  'opus' (default) or 'sonnet', for the agents that apply the findings (Sonnet 5.5 was tried on Deuteronomy, 2026-10-15, and did harm: AUTHORING.md, “Why these models”; keep opus)
 // Codex (another model family) reads prose and language and edits nothing: the coordinator runs
 // `node scripts/codex-read.mjs <book> <from>-<to> --batch` first, which saves numbered findings in
@@ -21,7 +22,10 @@ const pad = (n) => String(n).padStart(2, '0')
 const scratch = `.cache/batch/${book}/reports`
 const first = chapters[0]
 const last = chapters[chapters.length - 1]
-const acrossFile = `${scratch}/${pad(first)}-${pad(last)}-codex.md`
+// args.across ('1-12'): the batch whose side-by-side reading applies, when only some of its chapters are run again
+const acrossFile = args.across
+  ? `${scratch}/${args.across.split('-').map(Number).map(pad).join('-')}-codex.md`
+  : `${scratch}/${pad(first)}-${pad(last)}-codex.md`
 const model = args.codexModel ? ` --model ${args.codexModel}` : ''
 const APPLIED = {
   type: 'object',
@@ -40,7 +44,7 @@ const APPLIED = {
 }
 const applyPrompt = (n) => `Decide a second reader's prose and language findings for chapter ${n} of ${book}: content/${book}/chapters/${pad(n)}.yaml with its ledger content/${book}/evidence/${pad(n)}.yaml. The chapter has been written, source-checked and reviewed. In this stage apply only repairs that preserve existing meaning; return any correct substantive gap that needs added meaning for focused writer/source review.
 
-The findings are in ${scratch}/${pad(n)}-codex.md (this chapter read alone) and ${acrossFile} (chapters ${first}–${last} read side by side; act only on the items that name chapter ${n}, and only on chapter ${n}'s part of each). The second reader did not see the sources. If the chapter's own findings file is missing or empty, stop: edit nothing and say so under problems. The coordinator must have completed the reader batch successfully for the current source before this workflow runs. Read STANDARDS.md sections 2 and 3, content/${book}/BRIEF.md (its conventions and “Learned from the first twelve chapters”, if it has that section) and the chapter, then decide each finding:
+The findings are in ${scratch}/${pad(n)}-codex.md (this chapter read alone) and ${acrossFile} (chapters ${args.across ? args.across.replace('-', '–') : `${first}–${last}`} read side by side; act only on the items that name chapter ${n}, and only on chapter ${n}'s part of each). The second reader did not see the sources. If the chapter's own findings file is missing or empty, stop: edit nothing and say so under problems. The coordinator must have completed the reader batch successfully for the current source before this workflow runs. Read STANDARDS.md sections 2 and 3, content/${book}/BRIEF.md (its conventions and “Learned from the first twelve chapters”, if it has that section) and the chapter, then decide each finding:
 
 - Act on it when it is right: a sentence hard to follow, a point said twice, a note whose first sentence withholds its subject, a source announced in running text, a reading stated as fact, a plain paraphrase that adds to its verses, two places that contradict each other, a slip of fact that the chapter's own verses show. The finding's suggested wording is a suggestion: write your own if it is better.
 - Decline a finding when the supposed gap is already explained or reasonably implied, the objection is wrong, or the brief or standard settles it otherwise. A suggested fix may be wrong even when the underlying problem is real: decide the problem separately from the suggested wording. Preserve useful symbolic repetition, legitimate uncertainty and alternative readings; do not require every inferential step to be explicit.
