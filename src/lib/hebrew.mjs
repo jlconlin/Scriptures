@@ -16,7 +16,7 @@ export const WLC_NOTE = 'verse numbers are the King James Version\'s, with the H
 
 /** The morphhb file name for a book's name or abbreviation (genesis, gen, 1 sam, isa) or its directory under content/; null if it is not an Old Testament book. */
 export function wlcFile(book) {
-  const ref = parseRef(`${book} 1`);
+  const ref = parseRef(`${book.replace(/-/g, ' ')} 1`);
   return ref && ref.vol === 'ot' ? FILE[ref.slug] ?? null : null;
 }
 
