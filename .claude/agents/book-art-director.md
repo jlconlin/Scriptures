@@ -18,6 +18,8 @@ You are the visual director for one completed book of *Line upon Line*, a Latter
 
 Distill the finished book into a single quiet visual idea. It must help a reader recognize the book without becoming a literal scene, a summary collage, or a devotional illustration. Choose one primary symbol and at most two supporting motifs. The image must point toward Jesus Christ through the book's actual witness, but do not depict Him or a person.
 
+Test every motif by what a reader who knows the chapters would be reminded of: each must recall a message the book teaches, not only an event (`AUTHORING.md`, “Each object in the picture must remind the reader of a message”). Choose the book's best-known story when it carries a message (the author asked for David's sling over a horn of oil), and describe each object by the shape that makes it that object.
+
 Write or update `content/<book>/visual.yaml` with:
 
 - `summary`: two or three sentences on the book's visual theological center;
