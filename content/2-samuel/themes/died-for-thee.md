@@ -4,7 +4,6 @@ blurb: Twice David's men refuse to let the king risk a life worth ten thousand o
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bdb, hinckley-what-god-hath-joined, faust-father-come-home, scripture-helps-2-samuel-11, keil-1-samuel, taggart-sworn-david, madsen-roberts-atonement, ot-manual-2-samuel-13, cambridge-1-samuel, bd-atonement, bowen-mount-lord-provided, bd-moriah, oaks-1992-bible-stories, faust-dear-sheep, holland-laborers, maxwell-swallowed-up]
 review: unread
-status: preview
 ---
 
 Near the end of Absalom's revolt the king of Israel sits between the gates of Mahanaim and asks the two runners from the battle the same question: “Is the young man Absalom safe?” The second runner answers with a wish that the king's enemies might be as that young man is, and David goes up into the chamber over the gate. “O my son Absalom, my son, my son Absalom! would God I had died for thee, O Absalom, my son, my son!” ([[2 Sam. 18:33]])
