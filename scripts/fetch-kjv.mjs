@@ -450,15 +450,57 @@ const LDS_SPELLINGS = [
   [/for him to do anything to her/g, 'for him to do any thing to her'], // 2 Sam. 13:2
   [/son of Shimeah the brother of David slew/g, 'son of Shimea the brother of David slew'], // 2 Sam. 21:21
   [/Nahari the Beerothite/g, 'Naharai the Beerothite'], // 2 Sam. 23:37
+  // 1 and 2 Kings (found by scripts/check-kjv.mjs).
+  [/\bRamothgilead\b/g, 'Ramoth-gilead'],
+  [/\bEziongeber\b/g, 'Ezion-geber'],
+  [/\bElonbethhanan\b/g, 'Elon-beth-hanan'],
+  [/\bAbelbethmaachah\b/g, 'Abel-beth-maachah'],
+  [/\bBethelite\b/g, 'Beth-elite'],
+  [/\bBaalzebub\b/g, 'Baal-zebub'],
+  [/\bKirharaseth\b/g, 'Kir-haraseth'],
+  [/\bBaalshalisha\b/g, 'Baal-shalisha'],
+  [/\bGathhepher\b/g, 'Gath-hepher'],
+  [/\bTiglathpileser\b/g, 'Tiglath-pileser'],
+  [/\bSuccothbenoth\b/g, 'Succoth-benoth'],
+  [/\bBerodachbaladan\b/g, 'Berodach-baladan'],
+  [/\bNathanmelech\b/g, 'Nathan-melech'],
+  [/\bJe hoshaphat\b/g, 'Jehoshaphat'], // 2 Kgs. 8:16
+  [/the priest came; and Adonijah/g, 'the priest came: and Adonijah'], // 1 Kgs. 1:42
+  [/swear unto me today that he/g, 'swear unto me to day that he'], // 1 Kgs. 1:51
+  [/barest the ark of the LORD God before David/g, 'barest the ark of the Lord GOD before David'], // 1 Kgs. 2:26
+  [/And the speech pleased the LORD, that Solomon/g, 'And the speech pleased the Lord, that Solomon'], // 1 Kgs. 3:10
+  [/out of Egypt, O LORD God\./g, 'out of Egypt, O Lord GOD.'], // 1 Kgs. 8:53
+  [/man of God, Intreat now the face/g, 'man of God, Entreat now the face'], // 1 Kgs. 13:6
+  [/of the which the Lord did say to thee/g, 'of the which the LORD did say to thee'], // 1 Kgs. 13:22
+  [/horses, and chariots; and he went up and besieged Samaria/g, 'horses, and chariots: and he went up and besieged Samaria'], // 1 Kgs. 20:1
+  [/said, Go up; for the LORD shall deliver it/g, 'said, Go up; for the Lord shall deliver it'], // 1 Kgs. 22:6
+  [/For the LORD had made the host of the Syrians/g, 'For the Lord had made the host of the Syrians'], // 2 Kgs. 7:6
+  [/countenance stedfastly/g, 'countenance steadfastly'], // 2 Kgs. 8:11
+  [/rebuke, and blasphemy; for the children/g, 'rebuke, and blasphemy: for the children'], // 2 Kgs. 19:3
+  [/hast reproached the LORD, and hast said, With the multitude/g, 'hast reproached the Lord, and hast said, With the multitude'], // 2 Kgs. 19:23
+  [/the grass on the house tops/g, 'the grass on the housetops'], // 2 Kgs. 19:26
+  [/made to provoke the Lord to anger, Josiah/g, 'made to provoke the LORD to anger, Josiah'], // 2 Kgs. 23:19
   [/\s+([?!;:,.])/g, '$1'], // stray spaces before punctuation in the source
 ];
+
+// Spellings that differ between books of the Gospel Library edition, applied after LDS_SPELLINGS
+// (Isaiah has “Rabshakeh” and “Esar-haddon” where 2 Kings has “Rab-shakeh” and “Esarhaddon”).
+const BOOK_SPELLINGS = {
+  '2-kings': [
+    [/\bRabshakeh\b/g, 'Rab-shakeh'],
+    [/Tartan and Rab-saris and/g, 'Tartan and Rabsaris and'], // 2 Kgs. 18:17
+    [/And Esar-haddon his son reigned/g, 'And Esarhaddon his son reigned'], // 2 Kgs. 19:37
+  ],
+};
 
 const res = await fetch(url);
 if (!res.ok) throw new Error(`${res.status} fetching ${url}`);
 const src = await res.json();
 
 const chapters = src.chapters.map((c) =>
-  c.verses.map((v) => LDS_SPELLINGS.reduce((t, [re, s]) => t.replace(re, s), v.text.trim())),
+  c.verses.map((v) =>
+    [...LDS_SPELLINGS, ...(BOOK_SPELLINGS[slug] ?? [])].reduce((t, [re, s]) => t.replace(re, s), v.text.trim()),
+  ),
 );
 
 await mkdir('data/kjv', { recursive: true });

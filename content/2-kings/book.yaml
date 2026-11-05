@@ -1,0 +1,67 @@
+name: 2 Kings
+slug: 2-kings
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 0.996             # after 1 Kings (0.993), before Isaiah (1)
+abbr: 2-kgs              # [[2 Kgs. 1:1]] links here
+gospelLibrary: ot/2-kgs
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-20, period: assyria }
+  - { chapters: 21-25, period: babylon }
+eyebrow: The Old Testament
+heroQuote:
+  text: '“Fear not: for they that be with us are more than they that be with them.”'
+  cite: 'Elisha to his servant, [[2 Kgs. 6:16]]'
+description: A phrase-by-phrase companion to the second book of Kings, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: "Twenty-five chapters in three parts. Elijah is taken up in a whirlwind and his mantle falls on Elisha, whose miracles heal and feed and raise the dead. The kingdoms decline until Assyria carries Israel away. Then Hezekiah trusts the LORD against Sennacherib, Josiah finds the book of the law, and Babylon burns the temple and carries Judah captive."
+home:
+  blurb: Elisha takes up Elijah's mantle, Assyria carries the ten tribes away, Hezekiah and Josiah turn Judah back to the LORD, and Babylon destroys Jerusalem.
+
+intro: |
+  The second book of Kings continues the first without a break. Elijah is taken up “by a whirlwind into heaven” ([[2 Kgs. 2:11]]), and his mantle falls on Elisha, who asks for a double portion of his spirit. Elisha's miracles fill the first chapters: oil that does not run out, a Shunammite's son raised, a hundred men fed, the Syrian captain Naaman told to wash in Jordan seven times and made clean. When his servant fears the army around them, Elisha prays that his eyes be opened, and the mountain is “full of horses and chariots of fire” ([[2 Kgs. 6:17]]). Then Jehu wipes out the house of Ahab, and the northern kingdom declines, king after king, until Assyria takes Samaria and carries Israel away, “as he had said by all his servants the prophets” ([[2 Kgs. 17:23]]).
+
+  Judah lasts a century and a half longer. Hezekiah breaks the brazen serpent, trusts the LORD when Sennacherib besieges Jerusalem, and the city is spared. His son Manasseh undoes his reforms. Josiah's workmen find “the book of the law” in the temple ([[2 Kgs. 22:8]]), and he reads it to the people and makes a covenant before the LORD. But the judgment stands, and Nebuchadnezzar takes Jerusalem, sets Zedekiah on the throne (in whose first year Lehi was prophesying at Jerusalem), and at last burns the temple and carries the people to Babylon. This companion goes through all twenty-five chapters and tries to anticipate the questions a careful reader would ask: what Elijah's translation and keys mean in latter-day revelation, why bears came out against the youths of Bethel, where the ten tribes went, what Josiah's book was, and what the Book of Mormon adds to the fall of Jerusalem.
+
+  For the period, see [Two Kingdoms and Assyria](/old-testament/guides/two-kingdoms-and-assyria/#rulers), [Babylon and the Exile](/old-testament/guides/babylon-and-the-exile/#rulers) and [A Timeline of the Old Testament](/old-testament/guides/israels-story/#assyria).
+
+# Proposed (BRIEF.md, "Divisions"): Scripture Helps' three parts. Keys must not repeat another book's
+# (the colors are global variables).
+divisions:
+  - key: kgselisha
+    range: [1, 9]
+    name: There Is a Prophet in Israel
+    blurb: Elijah calls down fire on Ahaziah's captains and is taken up into heaven, and his mantle falls on Elisha. Elisha heals waters, multiplies oil, raises the Shunammite's son, cleanses Naaman, makes iron swim, and opens his servant's eyes to the horses and chariots of fire. Jehu is anointed and kills Joram and Jezebel.
+    color: '#2a5a6a'
+    darkColor: '#98c8d8'
+  - key: kgsremoved
+    range: [10, 17]
+    name: Until the LORD Removed Israel out of His Sight
+    blurb: Jehu destroys Ahab's house and the worship of Baal, but keeps Jeroboam's calves. Athaliah seizes Judah's throne, and the boy Joash is hidden in the temple and crowned. Elisha dies. Kings follow one another in the north until Assyria takes Samaria, carries Israel away, and settles strangers in its cities.
+    color: '#6a4a2a'
+    darkColor: '#d8b898'
+  - key: kgstrusted
+    range: [18, 25]
+    name: He Trusted in the LORD God of Israel
+    blurb: Hezekiah trusts the LORD, and the Assyrian host is struck down before Jerusalem. Manasseh fills the city with idols. Josiah finds the book of the law, renews the covenant and cleanses the land. Then Babylon takes Jerusalem twice, burns the temple, and carries Judah captive; in Babylon, Jehoiachin is lifted up.
+    color: '#3a4a6a'
+    darkColor: '#a8b8e0'
+
+beloved:
+  - { chapter: 2, verse: 11, text: 'and Elijah went up by a whirlwind into heaven' }
+  - { chapter: 5, verse: 14, text: 'his flesh came again like unto the flesh of a little child, and he was clean' }
+  - { chapter: 6, verse: 16, text: 'Fear not: for they that be with us are more than they that be with them' }
+  - { chapter: 18, verse: 5, text: 'He trusted in the LORD God of Israel' }
+  - { chapter: 23, verse: 25, text: 'that turned to the LORD with all his heart, and with all his soul, and with all his might' }
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [2, 7], sources: [scripture-helps-2-kings-2] }
+  - { range: [16, 25], sources: [scripture-helps-2-kings-16-25] }
+
+coreSources:
+  - bd-kings-books-of
+  - bd-elisha
+  - bd-israel-kingdom
+  - bd-judah-kingdom

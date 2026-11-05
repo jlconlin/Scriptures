@@ -1,0 +1,67 @@
+name: 1 Kings
+slug: 1-kings
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 0.993             # after 2 Samuel (0.99), before Isaiah (1)
+abbr: 1-kgs              # [[1 Kgs. 1:1]] links here
+gospelLibrary: ot/1-kgs
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-11, period: kingdom }
+  - { chapters: 12-22, period: assyria }
+eyebrow: The Old Testament
+heroQuote:
+  text: '“Give therefore thy servant an understanding heart to judge thy people, that I may discern between good and bad.”'
+  cite: 'Solomon at Gibeon, [[1 Kgs. 3:9]]'
+description: A phrase-by-phrase companion to the first book of Kings, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: "Twenty-two chapters in three parts. Solomon asks for an understanding heart, builds the temple, and dedicates it, and the LORD puts His name there; then his heart is turned away. The kingdom is torn in two, and Jeroboam sets up golden calves in the north. Then Elijah shuts the heavens, calls down fire on Carmel, and hears the still small voice."
+home:
+  blurb: Solomon builds and dedicates the temple and turns from the LORD, the kingdom divides, and Elijah stands against Ahab and Baal.
+
+intro: |
+  The first book of Kings opens with David old and his sons contending for his throne, and with Solomon anointed king. At Gibeon Solomon asks the LORD for “an understanding heart” ([[1 Kgs. 3:9]]) and is given wisdom, riches and honor besides. He builds the temple his father had wanted to build, and at its dedication the cloud of the LORD's glory fills the house, and Solomon prays that whoever prays toward it will be heard. The LORD answers, “I have hallowed this house … to put my name there for ever” ([[1 Kgs. 9:3]]), and sets a condition on it. Then Solomon's many wives turn his heart “after other gods” ([[1 Kgs. 11:4]]), and the prophet Ahijah tears a new garment into twelve pieces.
+
+  Under Solomon's son Rehoboam ten tribes break away and make Jeroboam their king, and Jeroboam sets up golden calves at Bethel and Dan. From then on the book judges every king by one measure: whether he walked as David did, or in “the sins of Jeroboam.” In the north King Ahab marries Jezebel and serves Baal, and the prophet Elijah shuts the heavens, raises a widow's son, calls down fire on Mount Carmel, and hears the LORD in “a still small voice” ([[1 Kgs. 19:12]]): the prophet who, latter-day revelation teaches, held the keys of the sealing power. This companion goes through all twenty-two chapters and tries to anticipate the questions a careful reader would ask: who wrote Kings, why Solomon's temple matters to Latter-day Saints, what latter-day revelation says of Solomon's wives, why the man of God from Judah died, and what the lying spirit in Micaiah's vision was.
+
+  For the period, see [The Conquest, the Judges, and One Kingdom](/old-testament/guides/the-conquest-judges-and-kingdom/#rulers), [Two Kingdoms and Assyria](/old-testament/guides/two-kingdoms-and-assyria/#rulers) and [A Timeline of the Old Testament](/old-testament/guides/israels-story/#united-kingdom); for the temple, see [Temple and Worship](/old-testament/guides/temple-and-worship/#temples).
+
+# Proposed (BRIEF.md, "Divisions"): Scripture Helps' three parts. Keys must not repeat another book's
+# (the colors are global variables).
+divisions:
+  - key: kgswisdom
+    range: [1, 11]
+    name: An Understanding Heart
+    blurb: Solomon is anointed and secures his throne, asks for an understanding heart, builds the temple and his palace, and dedicates the house where the LORD puts His name. The queen of Sheba comes to hear his wisdom. Then his wives turn his heart, and the LORD raises adversaries against him.
+    color: '#7a5a1a'
+    darkColor: '#e2c27a'
+  - key: kgsdivided
+    range: [12, 16]
+    name: To Your Tents, O Israel
+    blurb: Rehoboam answers the people roughly, and ten tribes make Jeroboam king. Jeroboam sets up golden calves at Bethel and Dan, a man of God from Judah cries against his altar, and Ahijah foretells the end of his house. Kings rise and fall in the north until Omri builds Samaria and Ahab marries Jezebel.
+    color: '#5a3a6a'
+    darkColor: '#c8a8d8'
+  - key: kgselijah
+    range: [17, 22]
+    name: If the LORD Be God, Follow Him
+    blurb: Elijah shuts the heavens and is fed by ravens and a widow of Zarephath. On Carmel the fire falls, and the rain comes. He flees to Horeb and hears the still small voice, and calls Elisha. Ahab spares Ben-hadad, takes Naboth's vineyard, and dies at Ramoth-gilead as Micaiah foretold.
+    color: '#8a3a2a'
+    darkColor: '#e8a898'
+
+beloved:
+  - { chapter: 3, verse: 9, text: 'Give therefore thy servant an understanding heart' }
+  - { chapter: 8, verse: 27, text: 'behold, the heaven and heaven of heavens cannot contain thee; how much less this house that I have builded?' }
+  - { chapter: 9, verse: 3, text: 'I have hallowed this house, which thou hast built, to put my name there for ever' }
+  - { chapter: 18, verse: 21, text: 'How long halt ye between two opinions? if the LORD be God, follow him' }
+  - { chapter: 19, verse: 12, text: 'and after the fire a still small voice' }
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [3, 11], sources: [scripture-helps-2-samuel-11] }
+  - { range: [12, 22], sources: [scripture-helps-1-kings] }
+
+coreSources:
+  - bd-kings-books-of
+  - bd-solomon
+  - bd-elijah
+  - nyman-jst-historical
