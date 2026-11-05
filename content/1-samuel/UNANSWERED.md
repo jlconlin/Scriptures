@@ -24,3 +24,4 @@ Questions a reader would ask that no source read answered, by chapter: a list fo
 - **29:** Where was Aphek? There is no Bible Dictionary entry, and only the older commentaries' guesses were found; Did David really mean to fight Israel? No Latter-day Saint source comments on 29:8.
 - **30:** Where is the brook Besor (only the Cambridge Bible guesses)?; Why does the narrative dwell on the Egyptian slave's three days and nights without food?.
 - **31:** Why Chronicles says Saul 'inquired not of the LORD' (1 Chr. 10:14) when 1 Sam. 28:6 says he did: only Keil answers this; Why the list of Saul's sons here has Abinadab where 14:49 has Ishui: no source was read.
+- **31:** How Chronicles' “all his house died together” (1 Chr. 10:6) fits Abner's and Ish-bosheth's surviving: only Keil and the Cambridge Bible answer (the household that fought in the battle); cut 2026-11-05 to keep the older commentaries under a third
