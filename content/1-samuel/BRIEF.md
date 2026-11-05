@@ -10,7 +10,9 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository; `THEME-CANDIDAT
 
 `node scripts/status.mjs 1-samuel` prints what the repository shows; the history is `git log -- content/1-samuel`. What a script can't see:
 
-- **In preview; no chapter is written yet** (2026-11-04). The text is imported and matches the Gospel Library (“The text,” below).
+- **In preview; all 31 chapters are written, checked and reviewed** (2026-11-04), and the author has read none of them. Chapters 4, 6, 7 and 9–11 were then reworked to rest less on Keil and the Cambridge Bible (author: “cutting back is probably a good idea”). No chapter has had the language pass yet.
+- **The illustration is not yet drawn**: the art director's proposed brief is in `content/1-samuel/visual.yaml`, and `node scripts/book-art.mjs generate 1-samuel` failed on Codex's usage limit (2026-11-04); run it again.
+- **Theme pages wait for the author's choice**: Fable's proposals are in `.cache/batch/1-samuel/reports/themes-fable.md`; Codex's review (`scripts/codex-themes.mjs 1-samuel`) waits on the same limit.
 - **Research for this brief is cached** in `.cache/batch/samuel/research/` (shared with 2 Samuel): `church.md` (the Church's sources, with every JST reading in Samuel and each chapter's heading), `byu.md` (BYU, the Religious Studies Center, BYU Studies), `sc-interpreter.md` (Scripture Central and *Interpreter*), with the pages behind them in `knowhys/`, `otminute/` and `interpreter/`. Search them first; reopen the URL with `source.mjs` for a ledger row. The Church's footnotes and chapter headings for every chapter are in `.cache/batch/1-samuel/fn<n>.txt`.
 
 ## What the author has decided
