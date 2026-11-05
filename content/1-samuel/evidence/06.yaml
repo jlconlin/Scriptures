@@ -7,14 +7,14 @@ claims:
     quote: 'The Lord then sent a plague of emerods (possibly tumors or boils) and mice upon the Philistines, which ceased only when the ark was returned to the Israelites. These events demonstrated Jehovah’s superiority over Dagon.'
   - where: setting
     claim: 'Beth-shemesh was a priestly city on the border of Judah, about twelve miles southeast of Ekron'
-    key: cambridge-1-samuel
-    url: 'https://biblehub.com/commentaries/cambridge/1_samuel/6.htm'
-    quote: 'It was a priestly city (Joshua 21:16) on the border of the tribe of Judah (Joshua 15:10), about 12 miles S.E. of Ekron.'
+    key: bd-beth-shemesh
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/beth-shemesh?lang=eng'
+    quote: 'a priestly city on the border of Judah (Josh. 15:10), about 12 miles southeast of Ekron'
   - where: setting
-    claim: 'Kirjath-jearim lay in the hills, higher than Beth-shemesh; why the ark was not returned to Shiloh is not said'
-    key: cambridge-1-samuel
-    url: 'https://biblehub.com/commentaries/cambridge/1_samuel/6.htm'
-    quote: 'The Ark was probably taken to Kirjath-jearim, which was neither a priestly nor Levitical city, as being the nearest place of importance on the road to Shiloh, but why it was not restored to its old resting-place does not appear.'
+    claim: 'Kirjath-jearim lay above Beth-shemesh: its people were to come down and fetch the ark up'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/6?lang=eng'
+    quote: 'The Philistines have brought again the ark of the LORD; come ye down, and fetch it up to you.'
   - where: setting
     claim: 'Beth-shemesh was given to the children of Aaron the priest'
     key: lds-scriptures
@@ -76,20 +76,35 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/4?lang=eng'
     quote: 'Woe unto us! who shall deliver us out of the hand of these mighty Gods? these are the Gods that smote the Egyptians with all the plagues in the wilderness.'
   - where: 'note 6:7 “A test the cows should have failed”'
-    claim: 'The test was complete: untrained cows, leaving their calves, without guidance, straight to Israel'
-    key: cambridge-1-samuel
-    url: 'https://biblehub.com/commentaries/cambridge/1_samuel/6.htm'
-    quote: 'If cows unaccustomed to the yoke drew the cart quietly; if in spite of their natural instincts they deserted their calves; if without human guidance they went straight to the nearest Israelite town; the obvious conclusion must be that they were controlled by a supernatural power'
+    claim: 'Milch kine never yoked; their calves taken home from them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/6?lang=eng'
+    quote: 'take two milch kine, on which there hath come no yoke, and tie the kine to the cart, and bring their calves home from them'
   - where: 'note 6:7 “A test the cows should have failed”'
-    claim: 'The cows lowed for their calves'
-    key: cambridge-1-samuel
-    url: 'https://biblehub.com/commentaries/cambridge/1_samuel/6.htm'
-    quote: 'lowing as they went] For their lost calves.'
+    claim: 'The calves were shut up at home'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/6?lang=eng'
+    quote: 'took two milch kine, and tied them to the cart, and shut up their calves at home'
+  - where: 'note 6:7 “A test the cows should have failed”'
+    claim: 'The cart was sent off to go by itself'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/6?lang=eng'
+    quote: 'send it away, that it may go.'
+  - where: 'note 6:7 “A test the cows should have failed”'
+    claim: 'The priests named the outcome: Beth-shemesh meant his hand, otherwise chance'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/6?lang=eng'
+    quote: 'if it goeth up by the way of his own coast to Beth-shemesh, then he hath done us this great evil: but if not, then we shall know that it is not his hand that smote us; it was a chance that happened to us.'
+  - where: 'note 6:7 “A test the cows should have failed”'
+    claim: 'The cows went straight to Beth-shemesh, lowing, turning neither way'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/6?lang=eng'
+    quote: 'the kine took the straight way to the way of Beth-shemesh, and went along the highway, lowing as they went, and turned not aside to the right hand or to the left'
   - where: 'note 6:18 “The great stone”'
-    claim: 'Abel (lamentation) as a name of the stone is unattested and the sentence ungrammatical; the Targum and Septuagint read "stone"'
-    key: cambridge-1-samuel
-    url: 'https://biblehub.com/commentaries/cambridge/1_samuel/6.htm'
-    quote: 'If the present Heb. text is correct, Abel (= “lamentation”) must be regarded as a proper name … But there is no mention of such a name having been given to it … It seems best to follow the Targum and Sept. in reading “stone” instead of Abel'
+    claim: 'BDB counts 6:18 with 6:14–15 as the great stone where the ark rested, noting the Masoretic text has Abel'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/68.htm'
+    quote: ';גדולה ׳א where ark rested 1 Samuel 6:14,15 also 1 Samuel 6:18 (ᵑ0 אבל q. v.)'
   - where: 'note 6:18 “The great stone”'
     claim: 'The Septuagint has "the great stone" at 6:18'
     key: lxx-rahlfs
@@ -105,11 +120,6 @@ claims:
     key: ot-manual-1-samuel-1
     url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-genesis-2-samuel/1-samuel-1-15-the-prophet-samuel-and-saul-king-of-israel?lang=eng'
     quote: 'it is possible that these residents of Beth-shemesh looked upon the ark with covetous eyes, or at least upon the golden emerods and mice that were sent with it.'
-  - where: 'note 6:19 “What the men of Beth-shemesh did”'
-    claim: 'Better "gazed upon" with profane curiosity; they left the ark exposed instead of covering it; not punished for the unavoidable sight'
-    key: cambridge-1-samuel
-    url: 'https://biblehub.com/commentaries/cambridge/1_samuel/6.htm'
-    quote: 'instead of hastening to cover it with befitting reverence, they left it exposed to the public gaze, and brought down a judgment which was intended to vindicate the holiness of Jehovah. Certainly they were not punished for the unavoidable sight of the Ark'
   - where: 'note 6:19 “What the men of Beth-shemesh did”'
     claim: 'Josephus: those struck were not priests and so not worthy to touch the ark'
     key: josephus-antiquities
@@ -161,10 +171,10 @@ claims:
     url: 'https://biblehub.com/hebrew/2914.htm'
     quote: '[טְחוֺר] noun masculine1Samuel 6:4 only plural tumours, result of dysentery'
   - where: 'section 3 plain'
-    claim: 'The stone of 6:18 is read as the great stone, following the Septuagint'
-    key: cambridge-1-samuel
-    url: 'https://biblehub.com/commentaries/cambridge/1_samuel/6.htm'
-    quote: 'It seems best to follow the Targum and Sept. in reading “stone” instead of Abel'
+    claim: 'The stone of 6:18 is read as the great stone where the ark rested'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/68.htm'
+    quote: ';גדולה ׳א where ark rested 1 Samuel 6:14,15 also 1 Samuel 6:18 (ᵑ0 אבל q. v.)'
   - where: christ
     claim: 'BDB: the Messianic servant offers himself as an asham, as their substitute (Isa. 53:10), the same word as the Philistines'' gift'
     key: bdb
