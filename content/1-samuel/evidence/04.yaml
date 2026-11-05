@@ -11,10 +11,15 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/3?lang=eng'
     quote: 'And all Israel from Dan even to Beer-sheba knew that Samuel was established to be a prophet of the Lord.'
   - where: setting
-    claim: 'The Philistines last appear in Judges 13–16; one older reading places the battle in the middle of the forty years of Judg. 13:1, with Eli a civil judge at Shiloh contemporary with Samson'
-    key: cambridge-1-samuel
-    url: 'https://biblehub.com/commentaries/cambridge/1_samuel/4.htm'
-    quote: 'The last mention of the Philistines was in Judges 13-16. … we are now at the middle of this period of Philistine oppression. … Eli, who was a civil judge during this time and permanently resident at Shiloh, was contemporaneous with Samson'
+    claim: 'The footnote to verse 9 points to Judg. 13:1'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/4?lang=eng'
+    quote: '9c “servants”: Judg. 13:1.'
+  - where: setting
+    claim: 'The LORD delivered Israel into the hand of the Philistines forty years'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/judg/13?lang=eng'
+    quote: 'the Lord delivered them into the hand of the Philistines forty years'
   - where: setting
     claim: 'Shiloh held the tabernacle through most of the judges and stayed the religious center until the ark was lost at Ebenezer'
     key: bd-shiloh
@@ -26,25 +31,20 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/philistines?lang=eng'
     quote: 'occupied before the days of Abraham (Gen. 21:32) the rich lowland on the Mediterranean coast from Joppa to the Egyptian desert. … For many years there was a struggle for supremacy between them and the Israelites'
   - where: thread
-    claim: 'The later victory was won on the same battlefield, twenty years on'
-    key: keil-1-samuel
-    url: 'https://biblehub.com/commentaries/kad/1_samuel/4.htm'
-    quote: 'to commemorate a victory that was gained over the Philistines upon the same chosen battle-field after the lapse of twenty years (1 Samuel 7:12).'
+    claim: 'The later victory was won at the place the chapter already calls Eben-ezer'
+    key: bd-ebenezer
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ebenezer?lang=eng'
+    quote: 'The place had previously been the scene of two defeats (1 Sam. 4:1; 5:1); and in the account of these defeats it is called by the name it received later on.'
   - where: setting
     claim: 'The ark stayed twenty years at Kirjath-jearim'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/7?lang=eng'
     quote: 'while the ark abode in Kirjath-jearim, that the time was long; for it was twenty years'
   - where: thread
-    claim: 'The elders were right that the LORD had withdrawn His help, wrong in the means they chose instead of repentance'
-    key: keil-1-samuel
-    url: 'https://biblehub.com/commentaries/kad/1_samuel/4.htm'
-    quote: 'the reason for their defeat could only be that the Lord, their covenant God, had withdrawn His help. This was no doubt a correct conclusion; but the means which they adopted to secure the help of their God in continuing the war were altogether wrong.'
-  - where: thread
-    claim: 'Israel was to learn that deliverance was impossible without inward conversion to God'
-    key: keil-1-samuel
-    url: 'https://biblehub.com/commentaries/kad/1_samuel/4.htm'
-    quote: 'the deliverance of Israel from the oppression and dominion of its foes was absolutely impossible without its inward conversion to its God.'
+    claim: 'The elders were right that the LORD was not with them; they sent for the ark to save them'
+    key: scripture-helps-ruth-samuel
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/21-ruth-1-samuel-1-7?lang=eng'
+    quote: 'Because the Lord was not with them, the Israelites were defeated'
   - where: thread
     claim: 'Scripture Helps points from chapter 4 to 7:2–3'
     key: scripture-helps-ruth-samuel
@@ -96,27 +96,42 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ark-of-the-covenant?lang=eng'
     quote: 'It was the oldest and most sacred of the religious symbols of the Israelites, and the Mercy Seat which formed its covering was regarded as the earthly dwelling place of Jehovah (Ex. 25:22).'
   - where: 'note 4:3 “Why the ark went into battle”'
-    claim: 'One older reading: instead of repentance they fetched the ark, thinking God had bound His presence to it; the title in verse 4 shows why they fetched it'
-    key: keil-1-samuel
-    url: 'https://biblehub.com/commentaries/kad/1_samuel/4.htm'
-    quote: 'Instead of feeling remorse and seeking the help of the Lord their God by a sincere repentance and confession of their apostasy from Him, they resolved to fetch the ark … with the delusive idea that God had so inseparably bound up His gracious presence'
+    claim: 'Their wickedness prevented them from receiving the Lord’s strength and protection'
+    key: scripture-helps-ruth-samuel
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/21-ruth-1-samuel-1-7?lang=eng'
+    quote: 'Their wickedness prevented them from receiving the Lord’s strength and protection.'
   - where: 'note 4:3 “Why the ark went into battle”'
-    claim: 'They did not enquire the cause; they may have remembered Num. 10:35 and Jericho; superstition confused symbol with presence'
-    key: cambridge-1-samuel
-    url: 'https://biblehub.com/commentaries/cambridge/1_samuel/4.htm'
-    quote: 'But instead of enquiring the cause of His displeasure, they fancy that His aid can be secured by the presence of the Ark. … The superstition which confused the Symbol with the Presence was the natural result of the decay of religion.'
+    claim: 'The elders’ question is followed at once by “Let us fetch the ark”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-sam/4?lang=eng'
+    quote: 'Wherefore hath the Lord smitten us to day before the Philistines? Let us fetch the ark of the covenant of the Lord out of Shiloh unto us'
   - where: 'note 4:3 “Why the ark went into battle”'
     claim: 'The Jericho march was by the LORD’s command'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/josh/6?lang=eng'
     quote: 'And the Lord said unto Joshua, See, I have given into thine hand Jericho'
   - where: 'note 4:8 “The Philistines’ many gods”'
-    claim: 'The Philistines speak of Israel’s God in the plural, as heathen who knew only gods; they feared the might of other nations’ gods'
-    key: keil-1-samuel
-    url: 'https://biblehub.com/commentaries/kad/1_samuel/4.htm'
-    quote: 'The Philistines spoke of the God of Israel in the plural., האדּירים האלהים, as heathen who only knew of gods, and not of one Almighty God. Just as all the heathen feared the might of the gods of other nations in a certain degree'
+    claim: 'BDB lists 1 Sam. 4:8 under ʾĕlōhîm in the sense “gods”'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/430.htm'
+    quote: 'd. gods האלהים Exodus 18:11; Exodus 22:19 (E) 1 Samuel 4:8'
   - where: 'note 4:8 “The Philistines’ many gods”'
-    claim: '“All the plagues” is better “every kind of smiting,” the word of verse 10, alluding to the Red Sea, whose shores are called wilderness, not the ten plagues; Ex. 15:14 and Josh. 2:9–11'
+    claim: 'BDB: the adjective “mighty” used of gods at 1 Sam. 4:8'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/117.htm'
+    quote: 'nations Ezekiel 32:18; gods 1 Samuel 4:8'
+  - where: 'note 4:8 “The Philistines’ many gods”'
+    claim: 'BDB: makkāh is “slaughter” at 4:10 and a plague as punishment at 4:8'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4347.htm'
+    quote: '4 plague, especially disease, as punishment (of ׳י), 1 Samuel 4:8'
+  - where: 'note 4:8 “The Philistines’ many gods”'
+    claim: 'BDB: makkāh as slaughter at 1 Sam. 4:10'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/4347.htm'
+    quote: '2 = slaughter 1 Samuel 4:10'
+  - where: 'note 4:8 “The Philistines’ many gods”'
+    claim: 'One older reading: “in the wilderness” alludes to the Red Sea, not the ten plagues'
     key: cambridge-1-samuel
     url: 'https://biblehub.com/commentaries/cambridge/1_samuel/4.htm'
     quote: 'with all the plagues] Better, with an utter overthrow, lit. ‘with every kind of smiting.’ The word used is the same as that rendered slaughter in 1 Samuel 4:10, and the allusion is to the overthrow of Pharaoh in the Red Sea, the shores of which are called wilderness in Exodus 13:20, not to the ten plagues'
@@ -161,15 +176,10 @@ claims:
     url: 'https://biblehub.com/hebrew/1540.htm'
     quote: '3 go into exile Judges 18:30; 2 Kings 17:23; … גלה כבוד 1 Samuel 4:21,22'
   - where: 'note 4:21 “I-chabod: the glory gone into exile”'
-    claim: 'The glory of the LORD is the visible manifestation of His presence, connected with the ark by Lev. 16:2; with the ark the glory had departed'
-    key: cambridge-1-samuel
-    url: 'https://biblehub.com/commentaries/cambridge/1_samuel/4.htm'
-    quote: '“the glory of the Lord” denotes the visible manifestation of the Presence and Majesty of Jehovah … connects this manifestation specially with the Ark, and though it does not appear that the Cloud rested continually between the Cherubim, yet along with the Ark the Glory which was the pledge of Jehovah’s Presence ‘had departed from Israel.’'
-  - where: 'note 4:21 “I-chabod: the glory gone into exile”'
-    claim: 'One older reading: the repetition shows how deeply Phinehas’ wife felt the loss of the ark; the ark was the visible pledge of the covenant'
-    key: keil-1-samuel
-    url: 'https://biblehub.com/commentaries/kad/1_samuel/4.htm'
-    quote: 'The repetition of these words shows how deeply the wife of the godless Phinehas had taken to heart the carrying off of the ark, and how in her estimation the glory of Israel had departed with it.'
+    claim: 'The mercy seat was the covering of the ark'
+    key: bd-ark-of-the-covenant
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/ark-of-the-covenant?lang=eng'
+    quote: 'the Mercy Seat which formed its covering was regarded as the earthly dwelling place of Jehovah'
   - where: christ
     claim: 'The ark represented the presence of the Lord'
     key: scripture-helps-ruth-samuel
