@@ -11,7 +11,7 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository; `THEME-CANDIDAT
 `node scripts/status.mjs 2-samuel` prints what the repository shows; the history is `git log -- content/2-samuel`. What a script can't see:
 
 - **In preview; all 24 chapters are written, checked and reviewed** (2026-11-04), and the author has read none of them. Chapters 18, 19 and 24 were then reworked to rest less on Keil and the Cambridge Bible, as 1 Samuel's were (author: “cutting back is probably a good idea”).
-- **The language pass has not started** (the author paused before it, 2026-11-05). Start with `node scripts/codex-read.mjs 2-samuel 1-12 --batch`, then the `codex-pass` workflow (run it with `scriptPath`, the worktree's copy), as `AUTHORING.md` describes; then 13–24.
+- **The language pass is recorded for every chapter** (2026-11-05). Chapters 1 and 3 have 3 of 8 and 4 of 9 notes on Bible Hub commentaries: Keil is the only source found that says what 1:26's comparison with the love of women means, and the Cambridge Bible the only one that explains 3:29's spindle reading.
 - **The illustration is approved** (2026-11-05): David's altar on Araunah's floor, the temple's stones and cedar waiting at its edge, Nathan's ewe lamb, the Kidron path.
 - **The theme page “Would God I Had Died for Thee”** (`themes/died-for-thee.md`) is written, reviewed and read by Codex, in preview with `review: unread`; notes 18:33 and 24:17 link to it.
 - **Research** is shared with 1 Samuel, in `.cache/batch/samuel/research/` (1 Samuel's brief, “State of the book”). The Church's footnotes and chapter headings for every chapter are in `.cache/batch/2-samuel/fn<n>.txt`.

@@ -11,7 +11,7 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository; `THEME-CANDIDAT
 `node scripts/status.mjs 1-samuel` prints what the repository shows; the history is `git log -- content/1-samuel`. What a script can't see:
 
 - **In preview; all 31 chapters are written, checked and reviewed** (2026-11-04), and the author has read none of them. Chapters 4, 6, 7 and 9–11 were then reworked to rest less on Keil and the Cambridge Bible (author: “cutting back is probably a good idea”).
-- **The language pass** is recorded for 23 chapters (`node scripts/status.mjs 1-samuel` lists the rest). Chapters 6, 9, 11, 13, 18, 19, 21 and 31 have their writer repairs committed and wait only for Codex to reread them (`node scripts/codex-read.mjs 1-samuel <n>`), then the `codex-pass` workflow on those chapters and `batch-commit.mjs 1-samuel pass`.
+- **The language pass is recorded for every chapter** (2026-11-05).
 - **The illustration is approved** (2026-11-05): the sling and five stones, Saul's armor cast off, Eben-ezer, the cut robe by the cave.
 - **No theme page** (the author's choice, `THEME-CANDIDATES.md`).
 - **Research for this brief is cached** in `.cache/batch/samuel/research/` (shared with 2 Samuel): `church.md` (the Church's sources, with every JST reading in Samuel and each chapter's heading), `byu.md` (BYU, the Religious Studies Center, BYU Studies), `sc-interpreter.md` (Scripture Central and *Interpreter*), with the pages behind them in `knowhys/`, `otminute/` and `interpreter/`. Search them first; reopen the URL with `source.mjs` for a ledger row. The Church's footnotes and chapter headings for every chapter are in `.cache/batch/1-samuel/fn<n>.txt`.
