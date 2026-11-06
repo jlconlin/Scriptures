@@ -11,7 +11,9 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository; `THEME-CANDIDAT
 `node scripts/status.mjs 2-kings` prints what the repository shows; the history is `git log -- content/2-kings`. What a script can't see:
 
 - **In preview; all 25 chapters are written, checked and reviewed** (2026-11-05), and the author has read none of them. Chapters 13, 16 and 22 have 3 of 7 or 8 notes on Keil or the Cambridge Bible, where no higher source answers (the arrows and the bones, 13:19, 21).
-- **The language pass is not yet run; no theme page and no illustration yet.**
+- **The language pass is recorded for every chapter** (2026-11-06). Six chapters had a gap Codex found go back to a writer first.
+- **The illustration is approved** (2026-11-06): Elijah's hairy mantle and leather girdle at the Jordan, Josiah's scroll and David's lamp on a temple stone.
+- **Two theme pages** (the author's choice), written by Fable, reviewed by Opus and read by Codex, with `review: unread`: “Out of His Sight” (`themes/out-of-his-sight.md`; notes 13:23, 17:23, 25:27 link to it) and “Innocent Blood” (`themes/innocent-blood.md`; notes 9:7, 21:16, 24:3). Their reviews set two guidelines for any later page on these chapters: Kings states terms for staying before the LORD's face (1 Kgs. 9:4–7; 2 Kgs. 21:8), so no page says reprieve never depends on conduct; and no page says Christ's blood answers for the blood Manasseh shed (the murderer's pardon: Num. 35:31; Alma 34:12; D&C 42:18). 21's `christ` section says only what Chronicles says of Manasseh's being heard.
 - **The Joseph Smith Papers page for the 10 March 1844 discourse** that `jsp-discourse-1844-03-10` names (…/8) no longer exists; the discourse runs pages 205–211 (`…/1` to `…/7`). For Elijah's keys read `…/3` and `…/4`, and give the ledger row that page.
 - **Research** is shared with 1 Kings, in `.cache/batch/kings/research/` (1 Kings' brief, “State of the book”). The Church's footnotes and chapter headings for every chapter are in `.cache/batch/2-kings/fn<n>.txt`.
 
