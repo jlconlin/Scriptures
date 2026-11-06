@@ -11,8 +11,9 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository; `THEME-CANDIDAT
 `node scripts/status.mjs 1-kings` prints what the repository shows; the history is `git log -- content/1-kings`. What a script can't see:
 
 - **In preview; all 22 chapters are written, checked and reviewed** (2026-11-05), and the author has read none of them. Chapters 4, 7 and 10 were then reworked to rest less on Keil and the Cambridge Bible, as Samuel's were.
-- **The language pass is not yet run** (Codex's limit was reached on 2026-11-05).
-- **No theme page and no illustration yet.**
+- **The language pass is recorded for every chapter** (2026-11-06). Ten chapters had a gap Codex found go back to a writer first.
+- **The illustration is approved** (2026-11-05): the cave at Horeb, Carmel's altar of twelve stones, Ahijah's torn garment (in place of the temple pillars, which read as nothing more than columns).
+- **One theme page, “A Hearing Heart”** (`themes/hearing-heart.md`, the author's choice), written by Fable, reviewed by Opus and read by Codex, with `review: unread`; notes 3:9, 8:47, 11:4 and 21:29 link to it.
 - **Research for this brief is cached** in `.cache/batch/kings/research/` (shared with 2 Kings): `church.md` (the Church's sources, with every Joseph Smith Translation reading in Kings and each chapter's heading), `byu.md` (BYU, the Religious Studies Center, BYU Studies, the Maxwell Institute, the *Encyclopedia of Mormonism*), `sc-interpreter.md` (Scripture Central and *Interpreter*, with a list of the slips in their pages, §10), with the pages behind them in `knowhys/`, `otminute/`, `interpreter/` and `archive/`. Search them first; reopen the URL with `source.mjs` for a ledger row. The Church's footnotes and chapter headings for every chapter are in `.cache/batch/1-kings/fn<n>.txt`.
 
 ## What the author has decided
