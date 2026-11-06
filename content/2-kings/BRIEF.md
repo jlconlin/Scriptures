@@ -10,7 +10,9 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository; `THEME-CANDIDAT
 
 `node scripts/status.mjs 2-kings` prints what the repository shows; the history is `git log -- content/2-kings`. What a script can't see:
 
-- **In preview; no chapter is written yet** (2026-11-05). The book page and division map are set up.
+- **In preview; all 25 chapters are written, checked and reviewed** (2026-11-05), and the author has read none of them. Chapters 13, 16 and 22 have 3 of 7 or 8 notes on Keil or the Cambridge Bible, where no higher source answers (the arrows and the bones, 13:19, 21).
+- **The language pass is not yet run; no theme page and no illustration yet.**
+- **The Joseph Smith Papers page for the 10 March 1844 discourse** that `jsp-discourse-1844-03-10` names (…/8) no longer exists; the discourse runs pages 205–211 (`…/1` to `…/7`). For Elijah's keys read `…/3` and `…/4`, and give the ledger row that page.
 - **Research** is shared with 1 Kings, in `.cache/batch/kings/research/` (1 Kings' brief, “State of the book”). The Church's footnotes and chapter headings for every chapter are in `.cache/batch/2-kings/fn<n>.txt`.
 
 ## What the author has decided
