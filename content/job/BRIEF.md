@@ -10,7 +10,7 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository; `THEME-CANDIDAT
 
 `node scripts/status.mjs job` prints what the repository shows; the history is `git log -- content/job`. What a script can't see:
 
-- **In preview. Chapters 1–12 are written, checked and reviewed** (2026-11-10, the first batch), each committed with its ledger; the author has read none of them. Chapters 5 and 6 rest on Delitzsch in 3 of 8 and 4 of 6 notes, where nothing higher answered (“Settled without the author”). `book.yaml` has the six divisions below, `noPeriod` for every chapter, and `rangeSources` for the chapters *Scripture Helps* covers.
+- **In preview. Chapters 1–36 are written, checked, reviewed and given the language pass** (2026-11-10, three batches), each committed with its ledger; 37–42 are the last batch. The author has read none of them. The friends' and Elihu's speeches rest on Delitzsch in up to two-thirds of their notes (6, 13, 15, 24, 31, 33, 34), where no Latter-day Saint source comments verse by verse (“Settled without the author”). `book.yaml` has the six divisions below, `noPeriod` for every chapter, and `rangeSources` for the chapters *Scripture Helps* covers.
 - **Research for the brief** is in `.cache/batch/job/research/` (not committed): three dossiers of quotations copied from the pages with their paragraph numbers (`dossier-church.md`, `dossier-byu.md`, `dossier-interpreter.md`), *Scripture Helps* with its endnotes, the Bible Dictionary and the Guide, the searches. Search them first; reopen the URL with `source.mjs` for a ledger row. The Church's footnotes and chapter headings for every chapter are in `.cache/batch/job/fn1.txt` to `fn42.txt`; read them instead of running `footnotes.mjs` again.
 
 ## What the author has decided
