@@ -56,18 +56,21 @@ const checkPrompt = (n) => `Check chapter ${n} of ${book} (book: ${book}, chapte
 
 ${common(n)}
 
-The writer's report is at ${scratch}/reports/${pad(n)}-writer.md and its proposed sources.yaml entries at ${scratch}/proposed/${pad(n)}.yaml; keep that proposed file accurate. Write your findings to ${scratch}/reports/${pad(n)}-check.md.
+The writer's report is at ${scratch}/reports/${pad(n)}-writer.md and its proposed sources.yaml entries at ${scratch}/proposed/${pad(n)}.yaml; keep that proposed file accurate. Write your findings to ${scratch}/reports/${pad(n)}-check.md. That file is required working output, the reviewer's input in this pipeline, not a report or documentation file: write it. If the write fails, put the full findings in your final message instead, since the reviewer is given that message too.
 
 Do the reading with the scripts, not one fetch at a time: start the source comparison from node scripts/ledger-context.mjs ${book} ${n} --skip-keys ${skipKeys} (each ledger row with the paragraph that holds its quote and the paragraphs around it, under the chapter text it supports; the rows that quote the scripture and Hebrew text themselves are left out, and you compare a sample of those in the ledger file; use source.mjs only to read further), check the proposed entries with node scripts/check-sources.mjs ${book} ${n}, compare the notes with the Gospel Library with node scripts/footnotes.mjs ${book} ${n} --compare, and run the checks with node scripts/check-chapter.mjs ${book} ${n}.`
-const reviewPrompt = (n) => `Review chapter ${n} of ${book} (book: ${book}, chapter: ${n}): content/${book}/chapters/${pad(n)}.yaml with its ledger content/${book}/evidence/${pad(n)}.yaml. You did not write it.
+const reviewPrompt = (n, checkerMessage = '') => `Review chapter ${n} of ${book} (book: ${book}, chapter: ${n}): content/${book}/chapters/${pad(n)}.yaml with its ledger content/${book}/evidence/${pad(n)}.yaml. You did not write it.
 
 ${common(n)}
 
-The checker's findings are at ${scratch}/reports/${pad(n)}-check.md, the writer's report at ${scratch}/reports/${pad(n)}-writer.md, and the proposed sources.yaml entries at ${scratch}/proposed/${pad(n)}.yaml. The script has confirmed the ledger's quotes and the checker has reopened the sources, so work from the chapter and the findings, without reading the ledger through (read a note's rows when you repair that note): decide every finding, and open a page yourself only when a finding can't be settled from what it quotes. Make the repairs in as few messages as you can, several edits in each.
+The checker's findings are at ${scratch}/reports/${pad(n)}-check.md, the writer's report at ${scratch}/reports/${pad(n)}-writer.md, and the proposed sources.yaml entries at ${scratch}/proposed/${pad(n)}.yaml. The script has confirmed the ledger's quotes and the checker has reopened the sources, so work from the chapter and the findings, without reading the ledger through (read a note's rows when you repair that note): decide every finding, and open a page yourself only when a finding can't be settled from what it quotes. Make the repairs in as few messages as you can, several edits in each. If the findings file is missing, the checker's findings are in its final message, below: work from that, and don't redo the source check.
 
 Test in particular: no note only repeats what the Gospel Library puts beside the verse (a footnote, the chapter heading, the JST, Scripture Helps); a note goes further or is cut. Where a note starts from Scripture Helps, the work its endnote cites was looked for and is cited if it is readable and used. The contested questions follow the brief. No reading of the chapter's own: a connection or interpretation no source applies to this verse is cut. An outside reading is never set beside the Church's as an equal. The Student Manual limits and the brief's limits on outside commentaries hold. No modern scholar is named in running text and no source is announced. Every note opens with a sentence that says what it is about and answers a question a reader would ask. Overlaps between notes, christ and explore are merged or cut.
 
-Decide, don't defer: repair what fails, and settle what the standard and the brief settle. Only a matter that is truly the author's goes to the open questions. Keep ${scratch}/proposed/${pad(n)}.yaml accurate (add an entry you introduce, delete one no longer cited, correct a wrong detail) and run node scripts/check-sources.mjs ${book} ${n} after you change it. Rerun node scripts/check-chapter.mjs ${book} ${n} after your edits (fix-yaml, build, check-quotes, check-content with the proposed entries added in memory, and check-ledger: no scratch copy of content/).`
+Decide, don't defer: repair what fails, and settle what the standard and the brief settle. Only a matter that is truly the author's goes to the open questions. Keep ${scratch}/proposed/${pad(n)}.yaml accurate (add an entry you introduce, delete one no longer cited, correct a wrong detail) and run node scripts/check-sources.mjs ${book} ${n} after you change it. Rerun node scripts/check-chapter.mjs ${book} ${n} after your edits (fix-yaml, build, check-quotes, check-content with the proposed entries added in memory, and check-ledger: no scratch copy of content/).
+
+The checker's final message:
+${String(checkerMessage).slice(0, 20000)}`
 const REVIEW_SCHEMA = {
   type: 'object',
   properties: {
@@ -87,7 +90,7 @@ const results = await pipeline(
   chapters,
   (n) => agent(writePrompt(n), { label: `write:${n}`, phase: 'Write', agentType: 'chapter-writer', model: args.writerModel ?? 'opus' }),
   (w, n) => agent(checkPrompt(n), { label: `check:${n}`, phase: 'Check', agentType: 'chapter-checker', model: 'sonnet' }).then((c) => ({ w, c })),
-  ({ w, c }, n) => agent(reviewPrompt(n), { label: `review:${n}`, phase: 'Review', agentType: 'chapter-reviewer', model: args.reviewerModel ?? 'opus', schema: REVIEW_SCHEMA })
+  ({ w, c }, n) => agent(reviewPrompt(n, c), { label: `review:${n}`, phase: 'Review', agentType: 'chapter-reviewer', model: args.reviewerModel ?? 'opus', schema: REVIEW_SCHEMA })
     .then((r) => ({ chapter: n, writer: String(w).slice(0, 600), checker: String(c).slice(0, 600), review: r })),
 )
 const missing = chapters.filter((n, i) => !results[i])
