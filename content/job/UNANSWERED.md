@@ -22,3 +22,5 @@ Questions a reader would ask that no source read answered, by chapter: a list fo
 - **33:** 33:28: why does the written Hebrew have the man speaking in the first person ('my soul… my life') where the King James has the third? No Latter-day Saint source was found on it.
 - **34:** 34:3 'the ear trieth words': whether Elihu is echoing Job 12:11. No source read makes the link; 34:29 'when he hideth his face': whether it answers Job 13:24. No source read makes the link; 34:36 'My desire' (Hebrew ʾābî, possibly 'my father'): only Delitzsch discusses it.
 - **35:** Why a modern translation reads 'strength in the night' at 35:10 where the KJV has 'songs' (no source read explains the difference).
+- **40:** Why the Jordan (40:23) in a creature's description: only Delitzsch and a KnoWhy endnote touch it, and the writer left it out as a curiosity.
+- **41:** Is Job 41:11 the verse Paul quotes in Romans 11:35? No source read ties the two; Does 'eyelids of the morning' (41:18) echo Job 3:9, which uses the same Hebrew words? No source says what the echo would show.
