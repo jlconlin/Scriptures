@@ -106,11 +106,6 @@ claims:
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Job.xml'
     quote: 'וָ֭/חֶסֶד'
   - where: 'note 10:12 “The care that kept him now watches him”'
-    claim: '“Visitation” in 10:12 is pĕquddāh'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Job.xml'
-    quote: 'וּ֝/פְקֻדָּתְ/ךָ֗'
-  - where: 'note 10:12 “The care that kept him now watches him”'
     claim: '“Preserved” in 10:12 is šāmar'
     key: oshb-wlc
     url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Job.xml'
@@ -160,6 +155,16 @@ claims:
     key: ot-minute-job-4
     url: 'https://scripturecentral.org/archive/books/book-chapter/job-4-25'
     quote: 'Job expresses to God that he wishes that he had not been born (verses 18–19; see chapter 3) and feels that life is short and hard enough that God should let up on him (verses 20–22).'
+  - where: 'note 10:21 “A land without order”'
+    claim: '“Without any order” in 10:22 is lōʾ sĕdārîm, “no” with the plural of seder; the noun occurs only here in Job (hebrew.mjs --word 5468: 1 occurrence)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Job.xml'
+    quote: 'סְדָרִ֗ים'
+  - where: 'note 10:21 “A land without order”'
+    claim: 'Seder means arrangement, order; it occurs only in Job 10:22, where “not orders” means disorder, confusion, of the dark underworld'
+    key: bdb
+    url: 'https://biblehub.com/hebrew/5468.htm'
+    quote: '[סֵ֫דֶר] noun [masculine] arrangement, order … - only plural לֹא סְדָרִים Job 10:22 = disorder, confusion, of the dark underworld.'
   - where: christ
     claim: 'The Church''s footnote to “made” in 10:8 points to the Topical Guide, “Jesus Christ, Creator”'
     key: lds-scriptures
