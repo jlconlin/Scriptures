@@ -1,0 +1,89 @@
+name: Job
+slug: job
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 11.9              # before Psalms (12)
+abbr: job                # [[Job 19:25]] links here
+gospelLibrary: ot/job
+# Chapters with no period, and why (the build warns about any other Old Testament chapter without one)
+noPeriod:
+  - { chapters: 1-42, why: "the text names no king or event, and the Church's sources say the date and place are unknown; the volume timeline gives Job no period (brief, “Book-wide conventions”)" }
+eyebrow: The Old Testament
+heroQuote:
+  text: '“For I know that my redeemer liveth, and that he shall stand at the latter day upon the earth.”'
+  cite: '[[Job 19:25]]'
+description: A phrase-by-phrase companion to the book of Job, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Forty-two chapters in six parts. A righteous man loses everything; he curses the day he was born and argues with three friends who are sure he has sinned; a fourth speaker rebukes them all; and the LORD answers out of the whirlwind.
+home:
+  blurb: 'A righteous man loses his children, his wealth and his health, and his friends are sure it is punishment for sin. Job will not say so, and from the ash heap he testifies, “I know that my redeemer liveth.”'
+
+intro: |
+  Job was “perfect and upright, and one that feared God, and eschewed evil” ([[Job 1:1]]), and in a single day he lost his flocks, his servants and all ten of his children; then his body broke out in sores. Three friends came to comfort him and sat with him in silence for seven days. When at last he spoke, it was to curse the day he was born ([[Job 3:3]]), and the long argument that follows is the heart of the book: the friends insist that God punishes only the wicked, so Job must have sinned; Job insists that he has not, and demands a hearing with God.
+
+  Most of the book is poetry, some of the hardest Hebrew in the Bible, framed by a prose story at the beginning and the end. It does not explain why the righteous suffer, but it makes clear that suffering is not proof of sin, and the LORD Himself says the friends “have not spoken of me the thing that is right” ([[Job 42:7]]). In the middle of his darkness Job testifies, “I know that my redeemer liveth” ([[Job 19:25]]), and when the LORD answers out of the whirlwind He asks where Job was “when the morning stars sang together, and all the sons of God shouted for joy” ([[Job 38:7]]). The Lord reminded Joseph Smith of Job in Liberty Jail: “Thou art not yet as Job” ([[D&C 121:10]]).
+
+  This companion goes through all forty-two chapters and tries to anticipate the questions a careful reader would ask: who Job was and when he lived, whether God really spoke with Satan, what the friends got wrong, what Job meant by his Redeemer, and what he repented of at the end. For how Hebrew poetry is built, see [Hebrew Poetry and the Prophets' Speech](/old-testament/guides/hebrew-poetry/#parallelism); for why the book is given no date, [A Timeline of the Old Testament](/old-testament/guides/israels-story/#timeline).
+
+# The divisions follow the Guide to the Scriptures' four parts (gs-job [3]: 1–2, 3–31, 32–37, 38–42), with the dialogue
+# split into its three rounds as Cornwall does (cornwall-old-dead-book [11]–[16]: 3–14, 15–21, 22–31). Names are the King James' words.
+# Keys must not repeat another book's (the colors are global variables).
+divisions:
+  - key: jobtrial
+    range: [1, 2]
+    name: Hast Thou Considered My Servant Job?
+    blurb: In a prose prologue, Job is perfect and upright and greatly blessed. Satan says Job serves God only for what he gets; Job loses his wealth, his children and his health, and still he does not curse God.
+    color: '#6b5a3a'
+    darkColor: '#d8c49a'
+  - key: joblament
+    range: [3, 14]
+    name: Let the Day Perish
+    blurb: Job curses the day he was born. Eliphaz, Bildad and Zophar each answer that God punishes only the wicked, and Job answers each in turn, longing for a daysman between himself and God and asking, “If a man die, shall he live again?”
+    color: '#5a4a6b'
+    darkColor: '#c4b2dc'
+  - key: jobredeemer
+    range: [15, 21]
+    name: I Know That My Redeemer Liveth
+    blurb: In the second round the friends describe the fate of the wicked ever more darkly. Job, abandoned by family and friends, says his witness is in heaven, and testifies that his Redeemer lives and that in his flesh he shall see God.
+    color: '#3a5a6b'
+    darkColor: '#9ec4d8'
+  - key: jobwisdom
+    range: [22, 31]
+    name: Where Shall Wisdom Be Found?
+    blurb: The third round breaks down. Job says that when God has tried him he shall come forth as gold, asks where wisdom can be found and answers that it is the fear of the Lord, remembers his former days, and swears to his innocence.
+    color: '#4a6b4a'
+    darkColor: '#a8d4a8'
+  - key: jobelihu
+    range: [32, 37]
+    name: Great Men Are Not Always Wise
+    blurb: A young man, Elihu, angry with Job for justifying himself and with the friends for finding no answer, speaks at length of God's justice and His greatness in the storm. No one answers him.
+    color: '#6b4a3a'
+    darkColor: '#e0b49e'
+  - key: jobwhirl
+    range: [38, 42]
+    name: Out of the Whirlwind
+    blurb: The LORD answers Job out of the whirlwind with questions about the creation, the animals, behemoth and leviathan. Job says, “Now mine eye seeth thee,” and repents; the LORD rebukes the friends, accepts Job's prayer for them, and blesses his latter end more than his beginning.
+    color: '#3a4a6b'
+    darkColor: '#a8b8e0'
+
+# Further reading attached automatically to chapters in these ranges (the chapters Scripture Helps covers).
+rangeSources:
+  - { range: [1, 3], sources: [scripture-helps-job] }
+  - { range: [12, 14], sources: [scripture-helps-job] }
+  - { range: [19, 19], sources: [scripture-helps-job] }
+  - { range: [21, 24], sources: [scripture-helps-job] }
+  - { range: [38, 40], sources: [scripture-helps-job] }
+  - { range: [42, 42], sources: [scripture-helps-job] }
+
+beloved:
+  - { chapter: 1, verse: 21, text: 'The LORD gave, and the LORD hath taken away; blessed be the name of the LORD' }
+  - { chapter: 13, verse: 15, text: 'Though he slay me, yet will I trust in him' }
+  - { chapter: 14, verse: 14, text: 'If a man die, shall he live again?' }
+  - { chapter: 19, verse: 25, text: 'I know that my redeemer liveth' }
+  - { chapter: 23, verse: 10, text: 'When he hath tried me, I shall come forth as gold' }
+  - { chapter: 38, verse: 7, text: 'When the morning stars sang together, and all the sons of God shouted for joy' }
+
+coreSources:
+  - bd-job-book
+  - gs-job
+  - scripture-helps-job

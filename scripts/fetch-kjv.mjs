@@ -491,6 +491,19 @@ const BOOK_SPELLINGS = {
     [/Tartan and Rab-saris and/g, 'Tartan and Rabsaris and'], // 2 Kgs. 18:17
     [/And Esar-haddon his son reigned/g, 'And Esarhaddon his son reigned'], // 2 Kgs. 19:37
   ],
+  job: [
+    [/\benquirest\b/g, 'inquirest'], // 10:6
+    [/\bstedfast\b/g, 'steadfast'], // 11:15
+    [/the noonday: thou shalt/g, 'the noonday; thou shalt'], // 11:17
+    [/\basswage\b/g, 'assuage'], // 16:5
+    [/the fear of the LORD, that is wisdom/g, 'the fear of the Lord, that is wisdom'], // 28:28
+    [/the cliffs of the valleys/g, 'the clifts of the valleys'], // 30:6
+    [/even balance that God/g, 'even balance, that God'], // 31:6
+    [/^The spirit of God hath made me/g, 'The Spirit of God hath made me'], // 33:4
+    [/hast anything to say/g, 'hast any thing to say'], // 33:32
+    [/unto me ye men of understanding/g, 'unto me, ye men of understanding'], // 34:10
+    [/Kerenhappuch/g, 'Keren-happuch'], // 42:14
+  ],
 };
 
 const res = await fetch(url);
