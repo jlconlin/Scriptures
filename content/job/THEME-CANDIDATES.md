@@ -40,6 +40,6 @@ Three pages. The author, of the combined list: “#2 and #3 are good. I also lik
 
 **The reading is the page's to make** (author, 2026-11-10: “It is just a reading, but it isn't against church doctrine. Remember, these themes are opportunities to introduce new connections. This may be new to the LDS community, but it isn't contrary to the doctrine”). The essay argues Job as a type plainly, as its own reading under `STANDARDS.md` §8 (said once, then argued, not hedged); a likeness Parry, Farley or Stirling already drew is credited to them, and the shortfall argument is the page's own. The brief's rule that a chapter gives each parallel “as that author's, in a clause” is for chapter notes, not this page.
 
-**Must not claim:** that the Church's manuals teach Job as a type (none read does; the page owns the reading instead); that Job's suffering atoned or accomplished anything for others; that Job was sinless; that his restoration is the promised result of faithful suffering.
+**Must not claim:** that Job's suffering atoned or accomplished anything for others; that Job was sinless; that his restoration is the promised result of faithful suffering.
 
 **Not chosen:** “For Nought” (1:9; 2:3; 9:17; 22:6; 41:11; author: “rather obvious and already covered in recent General Conference addresses”); “To Mourn with Him and to Comfort Him” (its 2:11/42:11 pair goes in page 1 as a sentence); and the rest of both lists.
