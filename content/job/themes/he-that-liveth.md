@@ -6,11 +6,11 @@ sources: [lds-scriptures, oshb-wlc, bdb, nrsvue, strongs-concordance, delitzsch-
 review: unread
 ---
 
-Near the end of his answer to Zophar, Job asks the question that every mourner has asked since: “If a man die, shall he live again?” ([[Job 14:14]]). Five chapters later he says the sentence for which his book is best known: “For I know that my redeemer liveth, and that he shall stand at the latter day upon the earth” ([[Job 19:25]]).
+Near the end of his answer to Zophar, Job asks a question that mourners have asked ever since: “If a man die, shall he live again?” ([[Job 14:14]]). Five chapters later he says the sentence for which his book is best known: “For I know that my redeemer liveth, and that he shall stand at the latter day upon the earth” ([[Job 19:25]]).
 
 Latter-day Saints have long read the second sentence as the answer to the first. Elder Russell M. Nelson quoted the question, said of Job, “In faith, he answered his own question,” and went straight on to the testimony of chapter 19.[@nelson-life-after-life] A seminary lesson has students mark Job's questions in chapter 14 and then read chapter 19 “looking for the answer Job gives to his questions.”[@ot-seminary-2026-job-14-19]
 
-I think that reading is right, and this essay is about something strange in it. The answer does not answer the question that was asked. Job asked about a man, whether he will live when he has died. He answers about someone else, who lives. In Hebrew the mismatch is plainer than in English. In chapter 14 Job said that man “riseth not,” and asked whether a dead man “shall live.” To live and to rise are the two things he says in chapter 19 that his Redeemer does. The Hebrew roots are the same, and only the subject has changed.
+I think that reading is right, and this essay is about something strange in it. The answer does not answer the question that was asked. Job asked about a man, whether he will live when he has died. He answers about someone else, who lives. In Hebrew the mismatch is plainer than in English. In chapter 14 Job said that man “riseth not,” and asked whether a dead man “shall live.” To live and to rise are the two things he says in chapter 19 that his Redeemer does. The Hebrew roots are the same, and the subject has changed.
 
 My claim is that the change of subject is the answer. From chapter 3 to chapter 19 Job looks for some ground of hope in the face of death. He looks in himself and in the nature of things and finds none, and then he looks to what God feels for the creature He made. What he comes to know at last is not a fact about dead men. It is a fact about a living Person. The gospel of Jesus Christ teaches that this is the right shape for the answer, and it adds what Job's sentence leaves unsaid. Reading the two verses by their shared words is my own doing, and I will make the case from the text.
 
@@ -26,7 +26,7 @@ He also says why no better hope is open to him. “What is my strength, that I s
 
 And death, as he sees it then, is the end. “As the cloud is consumed and vanisheth away: so he that goeth down to the grave shall come up no more” ([[Job 7:9]]). (The note “No coming up from Sheol” on [chapter 7](/job/7/) explains the grave as Job understood it.)
 
-Yet the last line of that same speech has an odd thought in it. “For now shall I sleep in the dust; and thou shalt seek me in the morning, but I shall not be” ([[Job 7:21]]). Job expects that God will come looking for him. He only expects to be gone when it happens. That thought, that God might want him, is the one he builds on next.
+Yet the last line of that same speech has an odd thought in it. “For now shall I sleep in the dust; and thou shalt seek me in the morning, but I shall not be” ([[Job 7:21]]). As I read it, Job expects that God will come looking for him. He only expects to be gone when it happens. That thought, that God might want him, is the one I see him build on next.
 
 ## The work of thine hands
 
@@ -42,9 +42,9 @@ Then, with no warning, Job says this:
 
 Two things in the wish are taken from what Job has already said. The first is the call. One chapter earlier he had demanded a hearing from God in these words: “Then call thou, and I will answer” ([[Job 13:22]]). The two verbs are the same in both places.[@oshb-wlc] In chapter 13 the summons was to a court, in this life. Now Job imagines the same summons reaching him in the grave, and himself answering from there.
 
-The second is the hands. “The work of thine hands” looks back to “thine hands have made me,” and the word for “thine hands” is the same.[@oshb-wlc] The complaint of chapter 10 has become the ground of a wish. God will want back what His hands have made.
+The second is the hands. “The work of thine hands” looks back to “thine hands have made me,” and the word for “thine hands” is the same.[@oshb-wlc] The complaint of chapter 10 has become the ground of a wish, that God will want back what His hands have made.
 
-Notice what has moved. Nothing in these verses says that a man is more than verse 12 said he was. Job has learned no new fact about human beings. What he has found is a thought about God, that God's attachment to His creature might outlast His anger and outlast the creature's death. In these three verses hope rests on what God desires and not on what man is.
+Notice what has moved. Nothing in these verses says that a man is more than verse 12 said he was. The passage offers no new fact about human beings. What it offers is a thought about God, that God's attachment to His creature might outlast His anger and outlast the creature's death. In these three verses hope rests on what God desires and not on what man is.
 
 How much Job is claiming here has been read in more than one way. The Church's chapter heading reads the passage as “the guarantee of a resurrection,” with Job waiting for “the Lord’s call to come forth from the grave.”[@lds-scriptures] Mack Stirling, a Latter-day Saint reader of the book, calls it the first of Job's great insights, a glimpse of “the possibility of renewal of life in a resurrection,” and adds that the vision “is not immediately sustained.”[@stirling-job] Franz Delitzsch, in the nineteenth century, heard only a wish, “a craving of his heart,” and no conviction.[@delitzsch-job]
 
@@ -58,7 +58,7 @@ Latter-day Saint readers hear these lines differently. Stirling hears defiance. 
 
 I do not need to choose between them, and I would not say that Job has stopped hoping. He has told us that he will trust, and that he will wait ([[Job 13:15]]; [[Job 14:14]]). What I notice is something both readings can grant, because it is in the question. “Who shall see it?” Whatever hope Job still has, there is nothing in sight for it to stand on. Everything he can see leads to the house in the dark.
 
-In the speech after that, the tree returns. “He hath destroyed me on every side, and I am gone: and mine hope hath he removed like a tree” ([[Job 19:10]]). “Hope” and “tree” are the two nouns of 14:7.[@oshb-wlc] I read the line as Job's reply to his own comparison. In chapter 14 the tree was the thing that had hope, because when it is cut down the root stays in the earth. Here the tree is not cut down. The lexicon gives the verb as “remove,”[@bdb] and a modern translation has “he has uprooted my hope like a tree.”[@nrsvue] An uprooted tree has no stump left to sprout from. Job is saying that even the hope he allowed to the tree is not his.
+In the speech after that, the tree returns. “He hath destroyed me on every side, and I am gone: and mine hope hath he removed like a tree” ([[Job 19:10]]). “Hope” and “tree” are the two nouns of 14:7.[@oshb-wlc] I read the line as Job's reply to his own comparison. In chapter 14 the tree was the thing that had hope, because when it is cut down the root stays in the earth. Here the tree is spoken of differently. The lexicon gives the verb as “remove,”[@bdb] and a modern translation has “he has uprooted my hope like a tree.”[@nrsvue] An uprooted tree has no stump left to sprout from. Job is saying that even the hope he allowed to the tree is not his.
 
 This is where Job stands, fifteen verses before the best-known sentence in the book. He has no strength to hope with, and his hope has been uprooted.
 
@@ -80,9 +80,9 @@ What I do claim is this. Job said in chapter 14 that man “riseth not,” and a
 
 That matters because of what has not changed. Job still expects to die. In the next breath he speaks of his body destroyed. Eleven chapters later he will say so again, and begin the sentence the same way: “For I know that thou wilt bring me to death, and to the house appointed for all living” ([[Job 30:23]]). “I know” is the same word in the same form, and “living” is the word translated “liveth.”[@oshb-wlc] So Job knows two things and holds them together. Every living thing is on its way to the house of death, and his Redeemer is living.
 
-He has not found a reason for hope in man after all. He has stopped looking for one there. The hope that was uprooted in verse 10 is not planted again in Job. In its place is knowledge of another, and what Job expects beyond death, to see God, depends on that other: “whom I shall see for myself, and mine eyes shall behold, and not another” ([[Job 19:27]]).
+He has not found a reason for hope in man after all. As I read the passage, he has stopped looking for one there. The hope that was uprooted in verse 10 is not planted again in Job. In its place is knowledge of another, and what Job expects beyond death, to see God, depends on that other: “whom I shall see for myself, and mine eyes shall behold, and not another” ([[Job 19:27]]).
 
-I think this is what Stirling's phrase “a new kind of hope” describes, which he ties to Job's plea for a pledge in chapter 17,[@stirling-job] and I would say that what is new is where the hope rests. Davis says that because of the redeemer Job is confident “that his earlier hope will come true,” the hope of being taken out of the grave.[@ot-minute-job-4] The wish of chapter 14 had wanted a reason. The reason, when it comes, is a person.
+Stirling ties his phrase “a new kind of hope” to Job's plea for a pledge in chapter 17.[@stirling-job] I think the phrase describes this passage as well, and I would say that what is new is where the hope rests. Davis says that because of the redeemer Job is confident “that his earlier hope will come true,” the hope of being taken out of the grave.[@ot-minute-job-4] The wish of chapter 14 had wanted a reason. The reason, when it comes, is a person.
 
 Nor do I say that Job understood the Resurrection as later revelation sets it out. He “does not say who this redeemer is.”[@ot-minute-job-4] The Hebrew of verse 26 says “from my flesh,” which, in words the Old Testament Student Manual quotes, “can be interpreted in either sense,” in the body or apart from it; and Latter-day Saints “do not depend upon this passage to establish their belief in a literal resurrection, but point to it as one more glorious affirmation of it.”[@ot-manual-job] (The notes on [chapter 19](/job/19/) set out the Hebrew.) My claim is smaller than that. Job moved his hope to the right place.
 
@@ -90,7 +90,7 @@ Nor do I say that Job understood the Resurrection as later revelation sets it ou
 
 Job says two things about his Redeemer for certain, that he is a redeemer and that he lives. There may be a third. What the King James renders “at the latter day” is in Hebrew the one word “last.”[@oshb-wlc] It can be read of time, as the King James reads it and as a modern translation does with “in the end,”[@nrsvue] or of the Redeemer, as Delitzsch reads it: He “will rise up as the last One.”[@delitzsch-job] (The note “At the last, upon the dust” on [chapter 19](/job/19/) gives both.) The next step depends on Delitzsch's reading.
 
-On that reading, Isaiah puts two of Job's words into the mouth of God. “Thus saith the LORD the King of Israel, and his redeemer the LORD of hosts; I am the first, and I am the last; and beside me there is no God” ([[Isa. 44:6]]). “Redeemer” and “last” are the words of Job 19:25,[@oshb-wlc] and Delitzsch explains Job's “last” from this verse.[@delitzsch-job] In Isaiah the Redeemer who is the Last is the LORD Himself, and the Church's footnote there sends the reader to the Topical Guide's “Jesus Christ, Jehovah.”[@lds-scriptures]
+On that reading, two of Job's words appear in Isaiah as God's own. “Thus saith the LORD the King of Israel, and his redeemer the LORD of hosts; I am the first, and I am the last; and beside me there is no God” ([[Isa. 44:6]]). “Redeemer” and “last” are the words of Job 19:25,[@oshb-wlc] and Delitzsch explains Job's “last” from this verse.[@delitzsch-job] In Isaiah the Redeemer who is the Last is the LORD Himself, and the Church's footnote there sends the reader to the Topical Guide's “Jesus Christ, Jehovah.”[@lds-scriptures]
 
 Then, on Patmos, John sees the risen Lord and falls at His feet as dead, and hears this:
 
