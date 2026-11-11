@@ -14,7 +14,7 @@ In his answer to Bildad, Job says what is wrong with his case against God. He do
 
 That complaint is the beginning of a line of thought. Three more times in the next ten chapters Job comes back to the one who is missing, and each time he says a little more about who it would have to be.
 
-The notes on the chapters take these passages one at a time. Read together they make an argument, and my claim is this. Job, with nothing to go on but his own need, works out what a mediator between God and man would have to be. The book does not answer by telling him who that is. It answers by bringing the LORD to him in person, and then by making Job, for three friends, the thing he had asked for. The New Testament and the revelations of the Restoration name the One whom Job's description fits. Job himself names no one, and nothing in the book suggests he knew whom he was describing. The line from his pleas to Jesus Christ is mine to draw, and I will draw it from the words.
+Read together, these passages make an argument, and my claim is this. Job, with nothing to go on but his own need, works out what a mediator between God and man would have to be. The book does not answer by telling him who that is. It answers by bringing the LORD to him in person, and then by making Job, for three friends, a likeness of the one he had asked for. The New Testament and the revelations of the Restoration name the One whom Job's description fits. Job himself names no one, and nothing in the book suggests he knew whom he was describing. The line from his pleas to Jesus Christ is mine to draw, and I will draw it from the words.
 
 ## The man who stood between
 
@@ -24,7 +24,7 @@ By the end of that chapter the children are dead, and by the end of the next Job
 
 Eliphaz tells him as much in the first speech any of the friends makes: “Call now, if there be any that will answer thee; and to which of the saints wilt thou turn?” ([[Job 5:1]]). The “saints” here are the holy ones of heaven, not good people on earth.[@lds-scriptures][@bdb] Eliphaz means that no one in heaven is going to take Job's side.
 
-In chapter 9 Job agrees with him. He does charge God with injustice in that chapter ([[Job 9:22–24]]). But what he says he lacks, when he comes to the end of it, is a court. God is too great to be argued with. A man “cannot answer him one of a thousand” ([[Job 9:3]]). The two parties are not the same kind of being, and so they cannot “come together in judgment.” Franz Delitzsch, a commentator of the nineteenth century, states the difficulty in a phrase: God is “accuser and judge in one person,” and there is no arbitrator between them.[@delitzsch-job]
+In chapter 9 Job agrees with him. He does charge God with injustice in that chapter ([[Job 9:22–24]]). But what he says he lacks, when he comes to the end of it, is a court. God is too great for Job to answer on equal terms. A man “cannot answer him one of a thousand” ([[Job 9:3]]). The two parties are not the same kind of being, and so they cannot “come together in judgment.” Franz Delitzsch, a commentator of the nineteenth century, states the difficulty in a phrase: God is “accuser and judge in one person,” and there is no arbitrator between them.[@delitzsch-job]
 
 Look at what the missing daysman would have to do. He would “lay his hand upon us both.” That takes someone who can reach both parties, who can put a hand on God and a hand on Job. And Job has just said why there is no such person. God is not a man. So the first thing Job says about a mediator is that he has none, and even that tells us something about the one he needs. He would have to belong to both sides. (The note “No daysman between us” on [chapter 9](/job/9/) has the word itself.)
 
@@ -40,7 +40,7 @@ Two things have changed since chapter 9. The first is where Job looks. Eliphaz h
 
 The second is what this one does. The daysman of chapter 9 was a judge between two parties. This one has taken a side. He pleads “for a man with God.”
 
-It is the same figure all the same. The Hebrew verb behind “plead” is the verb from which the word for “daysman” is formed,[@oshb-wlc] and the lexicon lists the two verses side by side under one meaning.[@bdb] An English reader cannot see it, but Job is still talking about the arbiter he said he did not have.
+I take it to be the same figure all the same. The Hebrew verb behind “plead” is the verb from which the word for “daysman” is formed,[@oshb-wlc] and the lexicon lists the two verses side by side under one meaning.[@bdb] An English reader cannot see it, but the shared word suggests that Job is still talking about the arbiter he said he did not have.
 
 The Hebrew of verse 21 differs from the King James in two places. There is no “one” in it. The verb is simply “that he may plead,” and the nearest “he” is God, to whom Job's eye has just poured out its tears. Delitzsch reads it that way. Job weeps to God that God would decide for a man against God: “Job appeals from God to God.”[@delitzsch-job] And where the King James has “as a man pleadeth for his neighbour,” the Hebrew has “and,”[@oshb-wlc] which modern translations that print “as” acknowledge in a footnote.[@nrsvue] Read as it stands, the verse asks for two decisions, one for a man with God and one for a son of man with his neighbour. “Neighbour” is the word of the line before, where it is translated “friends.”[@oshb-wlc] On that reading Job wants his case settled with God, and he wants it settled with Eliphaz, Bildad and Zophar. Both things will happen.
 
@@ -48,13 +48,13 @@ The next plea is a single verse, spoken to God: “Lay down now, put me in a sur
 
 What matters here is “with thee.” The pledge is to be lodged with God, and the one asked to lodge it is God. “Who is he that will strike hands with me?” There is nobody else. What Delitzsch heard in 16:21, Job says outright in 17:3. There is no one else who will stand good for him.
 
-This is where the argument turns. In chapter 9 the trouble was that God was both parties' judge and one party's opponent, with no third person above them. Job does not solve that by finding a third person. He asks the One to stand on both sides. He is not doing theology when he says it. He is a dying man ([[Job 17:1]]) with no one else to ask.
+This is where the argument turns. In chapter 9 the trouble was that God was both parties' judge and one party's opponent, with no third person above them. Job does not solve that by finding a third person. He asks the One to stand on both sides. He says it as a dying man ([[Job 17:1]]) with no one else to ask.
 
 The last plea is the best known sentence in the book: “For I know that my redeemer liveth, and that he shall stand at the latter day upon the earth” ([[Job 19:25]]). Its witness of the Resurrection is another subject, and the notes on [chapter 19](/job/19/) take it up. Here it is one plea among four, and it adds three things to the others.
 
 The first is kinship. A redeemer in Old Testament times “was someone—usually a relative—who was responsible for restoring a person's possessions, status in society, or personal freedom.”[@scripture-helps-job] Job has just finished saying that his brothers, his kinsfolk and his own household have abandoned him ([[Job 19:13–19]]). He has a kinsman left. The second is that this kinsman lives. Job expects to die with his case unheard, and the one who takes it up will be alive when he is not. The third is where the redeemer will stand. The witness of chapter 16 was in heaven. This one will stand “upon the earth.”
 
-Now put the four beside each other. Job never does this himself; the assembling is mine. Taken one at a time, each plea is a cry. Taken together they describe a person, and a very particular one. He can lay a hand on God and on a man. He is in heaven, and he will stand on the ground. He is the God to whom Job prays, and he is next of kin. Job began by saying that there could be no daysman because God is not a man. Ten chapters later he is asking for one who is somehow both, though he never puts it in those words and, as one Latter-day Saint commentator says of 19:25, he “does not say who this redeemer is.”[@ot-minute-job-4]
+Now put the four beside each other. Job never does this himself; the assembling is mine. Taken one at a time, each plea is a cry. Taken together, as I read them, they describe a person, and a very particular one. He can lay a hand on God and on a man. He is in heaven, and he will stand on the ground. The surety Job asks for is the God to whom he prays, and the redeemer he expects is next of kin. Job began by saying that there could be no daysman because God is not a man. Ten chapters later he is asking for one who is somehow both, though he never puts it in those words and, as one Latter-day Saint commentator says of 19:25, he “does not say who this redeemer is.”[@ot-minute-job-4]
 
 ## The other thing Job wanted
 
@@ -76,7 +76,7 @@ But Elihu does supply a word that Job never used. Job wanted an advocate because
 
 ## He that reproveth God
 
-Then the LORD answers, and the first thing to notice is who does not come. There is no witness, no interpreter, no angel who is one in a thousand. “Then the LORD answered Job out of the whirlwind” ([[Job 38:1]]). Stirling is right about this. Job gets his hearing, and no one stands between.
+Then the LORD answers, and the first thing to notice is who does not come. There is no witness, no interpreter, no angel who is one in a thousand. “Then the LORD answered Job out of the whirlwind” ([[Job 38:1]]). Job gets his hearing, and no one stands between.
 
 But listen to what the LORD calls him when the first speech is over: “Shall he that contendeth with the Almighty instruct him? he that reproveth God, let him answer it” ([[Job 40:2]]).
 
@@ -86,7 +86,7 @@ He cannot. “Behold, I am vile; what shall I answer thee? I will lay mine hand 
 
 The LORD presses the point to its end. If Job can clothe himself in majesty and bring down every proud man, “Then will I also confess unto thee that thine own right hand can save thee” ([[Job 40:14]]). He cannot do that either.
 
-So the hearing Job demanded teaches him what his pleas had already half seen. He cannot be his own advocate. The unmediated meeting does not show that Job needed no mediator. It shows from the other direction why he had asked for one.
+So the hearing Job demanded teaches him what his pleas had already half seen. He can argue his case, and has. He cannot answer God, and he cannot save himself. The unmediated meeting does not show that Job needed no mediator. It shows from the other direction why he had asked for one.
 
 ## My servant Job shall pray for you
 
@@ -94,19 +94,19 @@ When the LORD has finished with Job He turns to Eliphaz. His wrath is kindled ag
 
 > Therefore take unto you now seven bullocks and seven rams, and go to my servant Job, and offer up for yourselves a burnt offering; and my servant Job shall pray for you: for him will I accept. ([[Job 42:8]])
 
-The verdict comes first. Job had asked in 16:21 for a decision between a son of man and his neighbour, and here it is. Delitzsch ties the two verses together: God now decides between Job and the friends “according to his previous supplicatory wish,” and the “heavenly Witness makes Himself heard on earth.”[@delitzsch-job]
+The verdict comes first. If 16:21 asks, as its Hebrew can be read, for a decision between a son of man and his neighbour, here it is. Delitzsch ties the two verses together: God now decides between Job and the friends “according to his previous supplicatory wish,” and the “heavenly Witness makes Himself heard on earth.”[@delitzsch-job]
 
 Then comes the offering and the prayer. There are only two burnt offerings in the book of Job, the ones Job offered for his children and this one,[@oshb-wlc] and the Church's footnotes send each verse to the other.[@lds-scriptures] The lexicon files “pray” here under the verb's sense “specifically intercede,”[@bdb] and in Job it appears only here and two verses later.[@oshb-wlc] So Job is back where he started, standing between God and people who have sinned. Donald Parry sets the two scenes together and calls Job in both “a mediator”;[@parry-job-type] Stirling says that he acts “in a priestly intercessory role.”[@stirling-job]
 
-Now the step that is mine. The LORD answers “neither is there any daysman” by making a daysman out of the man who said it.
+Now the step that is mine. The LORD answers “neither is there any daysman” by setting the man who said it between Himself and three others, and the scene is a likeness of the thing Job asked for.
 
 Consider how He words it: “for him will I accept.” The friends are not heard on their own account. They are told plainly what they deserve, “lest I deal with you after your folly,” and they are spared because the LORD accepts someone else and that someone will ask for them.
 
-Job can now do the thing he said in chapter 9 that no one could do. He can lay his hand on both. He is a man as Eliphaz is a man; the narrator calls the three “his friends” in the very word of 16:21 ([[Job 42:10]]).[@oshb-wlc] And the LORD calls him “my servant” four times in two verses. He belongs to both sides.
+Job now does for the friends something like what he said in chapter 9 that no one could do for him. In their case he can lay his hand on both. He is a man as Eliphaz is a man; the narrator calls the three “his friends” in the very word of 16:21 ([[Job 42:10]]).[@oshb-wlc] And the LORD calls him “my servant” four times in two verses.
 
-Consider, too, who he is to them. He is the man they wronged. They came to comfort him and stayed to accuse him. The LORD does not send them to some neutral party to have their case put. He sends them to the injured man, and the injured man prays. At the scale of four men and an altar, the book has shown what a daysman is.
+Consider, too, who he is to them. He is the man they wronged. They came to comfort him and stayed to accuse him. The LORD does not send them to some neutral party to have their case put. He sends them to the injured man, and the injured man prays. At the scale of four men and an altar, the book has shown what a daysman would be like.
 
-What Job cannot do matters just as much. He brings no ransom; the bullocks and rams are the friends' own. And nobody did for Job what Job does for them. He can do for three friends what no man could do for him, and the book ends with his question answered in an act and still open in words. Who lays a hand on God and on all of us?
+It is a likeness and not the thing itself, and what Job cannot do matters just as much. He brings no ransom; the bullocks and rams are the friends' own. And nobody did for Job what Job does for them. He can do for three friends what no man could do for him, and the book ends with his question answered in an act and still open in words. Who lays a hand on God and on all of us?
 
 ## The man Christ Jesus
 
@@ -114,7 +114,7 @@ Paul answers in one sentence: “For there is one God, and one mediator between 
 
 Job said, “he is not a man, as I am.” Paul says, “the man Christ Jesus.” Elihu spoke of a ransom found, and the Church's footnote at that word sends the reader to this verse.[@lds-scriptures]
 
-Each thing Job asked for has its own line in the New Testament. He asked for a witness in heaven who would plead for a man with God: “we have an advocate with the Father, Jesus Christ the righteous” ([[1 Jn. 2:1]]). He asked for a surety: “By so much was Jesus made a surety of a better testament” ([[Heb. 7:22]]), where a surety is one who guarantees another's debt, and “Christ paid our spiritual debt.”[@nt-student-manual-49] He said that his redeemer lives: “he ever liveth to make intercession for them” ([[Heb. 7:25]]). He called him kinsman: “in all things it behoved him to be made like unto his brethren” ([[Heb. 2:17]]).
+Each thing Job asked for has its own line in the New Testament. He asked for a witness in heaven who would plead for a man with God: “we have an advocate with the Father, Jesus Christ the righteous” ([[1 Jn. 2:1]]). He asked for a surety: “By so much was Jesus made a surety of a better testament” ([[Heb. 7:22]]), where a surety is one who guarantees another's debt, and “Christ paid our spiritual debt.”[@nt-student-manual-49] He said that his redeemer lives: “he ever liveth to make intercession for them” ([[Heb. 7:25]]). He spoke of a redeemer, a kinsman's office: “in all things it behoved him to be made like unto his brethren” ([[Heb. 2:17]]).
 
 The notes on Job's chapters set each of those verses beside its plea. What they cannot show one at a time is that it is the same Person every time, and that Job's reasoning explains why it had to be. Need drove Job toward someone on both sides of the gap. Hebrews states one side of it as a necessity: “it behoved him” to be made like his brethren. Abinadi states the other: “God himself shall come down among the children of men, and shall redeem his people,” and “because he dwelleth in flesh he shall be called the Son of God” ([[Mosiah 15:1–2]]). I read Job's complaint in 9:32 as the reason the two belong together. Nothing less than One who is both could lay a hand on both.
 
@@ -141,7 +141,5 @@ Setting those two verses together is my own doing, but I think Hebrews describes
 The second is that the one who is pleaded for is sent to plead. The LORD did not only vindicate Job. He gave him the friends to pray for. The Church's footnote at “prayed” in 42:10 points to the Sermon on the Mount:[@lds-scriptures] “pray for them which despitefully use you, and persecute you” ([[Matt. 5:44]]). A seminary manual draws its principle from the LORD's instruction to the friends: “The Lord wants us to pray for those who misjudge us.”[@seminary-ot-teacher-109]
 
 The book dates what follows. “And the LORD turned the captivity of Job, when he prayed for his friends” ([[Job 42:10]]). The turn is not dated to the LORD's verdict in Job's favor, or to Job's repentance in dust and ashes. It is dated to the prayer.
-
-And only then, in the next verse, do his kin come and do what the three friends had set out to do in chapter 2, in the same two verbs:[@oshb-wlc] “they bemoaned him, and comforted him” ([[Job 42:11]]).
 
 The disciple stands first where Eliphaz stood, spared because Another is accepted, and then where Job stood, with someone to pray for.
