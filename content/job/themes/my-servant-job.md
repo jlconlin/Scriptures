@@ -18,7 +18,7 @@ This essay takes them at their word and asks what the type teaches. My claim is 
 
 The title alone proves little. The LORD calls Abraham “my servant” ([[Gen. 26:24]]), and Moses ([[Num. 12:7]]), and David ([[2 Sam. 7:5]]). If Job is a likeness of the Servant of Isaiah 53, it has to be shown from what happens to him between the first “my servant” and the last.
 
-It helps to say first what a type is. Nephi's statement is the broadest: “all things which have been given of God from the beginning of the world, unto man, are the typifying of him” ([[2 Ne. 11:4]]). Farley says what it means of a man: to call Job's life a type “is not to say he was manipulated to make an example”; it is to say that “his endurance and faith were so significant that they prefigure the endurance and faith of the Savior.”[@farley-job-parallels]
+It helps to say first what a type is. Nephi's statement is the broadest: “all things which have been given of God from the beginning of the world, unto man, are the typifying of him” ([[2 Ne. 11:4]]). Farley says what that means when the type is a man. To call Job's life a type “is not to say he was manipulated to make an example”; it is to say that “his endurance and faith were so significant that they prefigure the endurance and faith of the Savior.”[@farley-job-parallels]
 
 One thing about types matters for what follows. A type is always less than the thing it figures. The lambs of the altar were animals, and “it is not possible that the blood of bulls and of goats should take away sins” ([[Heb. 10:4]]). The high priest of Israel had to offer “first for his own sins, and then for the people's” ([[Heb. 7:27]]).
 
@@ -45,13 +45,13 @@ A list like this can be read as ten coincidences. I think it is one portrait, an
 
 One of his examples is closer in Hebrew than in English. The King James has “injustice” in Job and “violence” in Isaiah, but the word is the same, and so are the two small words in front of it.[@oshb-wlc] Job says of himself, very nearly in Isaiah’s words, what Isaiah says of the Servant.
 
-I would add a line to the portrait. In chapter 19 Job begs, “Have pity upon me, have pity upon me, O ye my friends; for the hand of God hath touched me” ([[Job 19:21]]). In Isaiah the onlookers say of the Servant, “we did esteem him stricken, smitten of God, and afflicted” ([[Isa. 53:4]]). “Touched” and “stricken” are one Hebrew verb,[@oshb-wlc] and the lexicon lists the two verses under a single sense, together with Satan's “touch all that he hath” at the beginning of the book.[@bdb] The Church's footnote at 19:21 points back to that same request.[@lds-scriptures]
+I would add a line to the portrait. In chapter 19 Job begs, “Have pity upon me, have pity upon me, O ye my friends; for the hand of God hath touched me” ([[Job 19:21]]). In Isaiah the onlookers say of the Servant, “we did esteem him stricken, smitten of God, and afflicted” ([[Isa. 53:4]]). “Touched” and “stricken” are one Hebrew verb,[@oshb-wlc] and the lexicon lists the two verses under a single sense, together with Satan's “touch all that he hath” at the beginning of the book.[@bdb]
 
 Isaiah's “we” are onlookers. They saw a man struck by God and drew the natural conclusion about him, and in the next breath they are confessing that they had it wrong. Job has such onlookers, and we know their names. “Remember, I pray thee,” Eliphaz says, “who ever perished, being innocent?” ([[Job 4:7]]). By his third speech he is past asking: “Is not thy wickedness great?” ([[Job 22:5]]).
 
 Isaiah gives the onlookers' mistake one line. Job gives it a book. Speech after speech, three devout men look at a blameless sufferer and reason from the blow to the guilt, and the sufferer has to listen. As I read it, this is the largest thing the likeness has to show. The book of Job is what “we did esteem him stricken” sounds like to the man it is said about.
 
-The Gospels show that it was said about Jesus. The chief priests at the cross use the friends' reasoning: “He trusted in God; let him deliver him now, if he will have him” ([[Matt. 27:43]]). Eliphaz could have said it.
+The Gospels show that it was said about Jesus. The chief priests at the cross use the friends' reasoning: “He trusted in God; let him deliver him now, if he will have him” ([[Matt. 27:43]]).
 
 In both books the onlookers learn that they were wrong, and in both it is through the man they misjudged that they are spared. The LORD says to Eliphaz, “ye have not spoken of me the thing that is right” ([[Job 42:7]]), and sends him to Job. Delitzsch says of that moment that God will accept only the man “whom they regarded as one punished of God.”[@delitzsch-job]
 
@@ -63,7 +63,7 @@ Then: “After this opened Job his mouth, and cursed his day” ([[Job 3:1]]). O
 
 > He was oppressed, and he was afflicted, yet he opened not his mouth: he is brought as a lamb to the slaughter, and as a sheep before her shearers is dumb, so he openeth not his mouth. ([[Isa. 53:7]])
 
-The verb and the noun are the same in both verses.[@oshb-wlc] It is an ordinary phrase, and I build nothing on its being rare. But the two books use it to say opposite things at the same moment, when the innocent man has been struck and the question is what he will do.
+The verb and the noun are the same in both verses.[@oshb-wlc] It is an ordinary phrase, and I build nothing on its being rare. But the two books use it to say opposite things when the innocent man has been struck and the question is what he will do.
 
 Once Job's mouth is open it stays open. “Therefore I will not refrain my mouth” ([[Job 7:11]]). His speeches run to the end of chapter 31, and when the LORD has spoken his answer is “I will lay mine hand upon my mouth” ([[Job 40:4]]).
 
@@ -79,7 +79,7 @@ The difference shows in the grammar of the two verses that Delitzsch joined. The
 
 Nobody asked Job. The raiders, the fire and the great wind came on him in one day ([[Job 1:13–19]]), and the sores after them ([[Job 2:7]]), and he chose none of it. The Servant hands Himself over. “No man taketh it from me,” Jesus said of His life, “but I lay it down of myself” ([[John 10:18]]). President Dieter F. Uchtdorf's word for it is that the Savior “willingly took upon Himself the pain and sickness and suffering of us all.”[@uchtdorf-you-are-my-hands]
 
-That is the first thing the broken likeness shows. Job's suffering happened to him. Christ's was chosen, and His silence before His accusers is how the choosing looked from outside. (Where He does plead His innocence, and for whom, is the subject of [A Daysman Betwixt Us](/job/themes/daysman-betwixt-us/).)
+That is the first thing the broken likeness shows. Job's suffering happened to him. Christ's was chosen, and His silence before His accusers is how the choosing looked from outside.
 
 ## The iniquities of my youth
 
@@ -89,7 +89,7 @@ Job does not claim to be sinless. Zophar and Elihu say that he did ([[Job 11:4]]
 
 The line the two books share makes the same point. Job says, “Not for any injustice in mine hands.” Isaiah says of the Servant, “he had done no violence,” and goes on, “neither was any deceit in his mouth” ([[Isa. 53:9]]). Peter quotes that verse of Jesus and widens it: “Who did no sin, neither was guile found in his mouth” ([[1 Pet. 2:22]]). The Church's footnote in Isaiah sends the reader there.[@lds-scriptures]
 
-Job could say the first half. He could not have said the second, because by the end of the book he is withdrawing things his mouth had said: “therefore have I uttered that I understood not; things too wonderful for me, which I knew not” ([[Job 42:3]]). Three verses later comes “Wherefore I abhor myself, and repent in dust and ashes” ([[Job 42:6]]), and faithful readers hear it differently. *Scripture Helps* notes that “myself” was supplied by the translators and that Job may have been saying, “Therefore do I recant.”[@scripture-helps-job] Delitzsch hears a man who “has penitently acknowledged his error.”[@delitzsch-job] Stirling hears no repentance for sin at all, only Job “changing his mind.”[@stirling-job] (The note “What Job repented of” on [chapter 42](/job/42/) sets these out.) I do not need to choose. On every one of these readings Job has something to take back. Of the Servant, Isaiah says there was nothing.
+Job could say the first half. The second half Peter gives as “did no sin,” and Job does not claim that. Nor is his mouth beyond reproach. It was not deceit that he spoke, but by the end of the book he is withdrawing things he had said: “therefore have I uttered that I understood not; things too wonderful for me, which I knew not” ([[Job 42:3]]). Three verses later comes “Wherefore I abhor myself, and repent in dust and ashes” ([[Job 42:6]]), and faithful readers hear it differently. *Scripture Helps* notes that “myself” was supplied by the translators and that Job may have been saying, “Therefore do I recant.”[@scripture-helps-job] Delitzsch hears a man who “has penitently acknowledged his error.”[@delitzsch-job] Stirling hears no repentance for sin at all, only Job “changing his mind.”[@stirling-job] (The note “What Job repented of” on [chapter 42](/job/42/) sets these out.) On every one of these readings Job has something to take back. Nothing of the kind is said of the Servant.
 
 Then there is the plainest fact of all. The type needed the One he typifies. Job is the man who said “my redeemer” ([[Job 19:25]]), and the other two essays on this book, [A Daysman Betwixt Us](/job/themes/daysman-betwixt-us/) and [He That Liveth, and Was Dead](/job/themes/he-that-liveth/), follow what he asked for. A lamb on the altar does not need the sacrifice it stands for. Job does.
 
@@ -117,19 +117,19 @@ Set that beside the last “my servant” in Isaiah's poem: “by his knowledge 
 
 Amulek gives the reason as doctrine. “Now there is not any man that can sacrifice his own blood which will atone for the sins of another” ([[Alma 34:11]]). So the great and last sacrifice “shall not be a human sacrifice; but it must be an infinite and eternal sacrifice” ([[Alma 34:10]]), and it “will be the Son of God, yea, infinite and eternal” ([[Alma 34:14]]).
 
-I read Job as the test of Amulek's sentence. Take the most upright man on earth and let him suffer, innocently, as much as a book can hold. What it purchases for anyone else is nothing. That is no failing in Job. It is what a man is. Farley says that Job “had but a foretaste” of what the Savior suffered,[@farley-job-parallels] and the difference of degree is real. But degree is not the whole of it. Innocence and depth alone do not redeem. Amulek says that the sacrifice must be infinite and eternal, the Son of God.
+I read Job as the test of Amulek's sentence. Take the most upright man on earth and let him suffer, innocently, as much as a book can hold. His suffering purchases nothing for anyone else. That is no failing in Job. It is what a man is. Farley says that Job “had but a foretaste” of what the Savior suffered,[@farley-job-parallels] and the difference of degree is real. But degree is not the whole of it. Innocence and depth alone do not redeem. Amulek says that the sacrifice must be infinite and eternal, the Son of God.
 
 ## For him will I accept
 
-One thing does pass from the type to Christ without falling short, and it is not anything Job did.
+One thing does pass from the type to Christ without falling short.
 
 The LORD called Job “my servant” before the first messenger came, and He calls him “my servant” when it is over. Nothing in between revokes the title. Delitzsch thought this the point of the ending: “The principal thing is not that Job is doubly blessed, but that God acknowledges him as His servant.”[@delitzsch-job]
 
-On that acknowledgment other people are spared. “My servant Job shall pray for you: for him will I accept.” Delitzsch again: “the servant of Jehovah is not only favoured himself, but he also becomes the instrument of grace to sinners.”[@delitzsch-job] How that scene is a likeness of Christ's advocacy is the argument of [A Daysman Betwixt Us](/job/themes/daysman-betwixt-us/), and I will not make it twice.
+On that acknowledgment other people are spared. “My servant Job shall pray for you: for him will I accept.” How that scene is a likeness of Christ's advocacy is the argument of [A Daysman Betwixt Us](/job/themes/daysman-betwixt-us/), and I will not make it twice.
 
-What belongs here is where the acceptance sits among the differences. It is the one part of the type that is not Job's doing at all, and it is the part that holds.
+What belongs here is why this part holds when the others gave out. Job's speech, his uprightness and his suffering were his own, and each was a man's. The acceptance is the LORD's act, and in Job's book it already does what that other essay shows it doing in the gospel. Others are spared because the LORD accepts His servant.
 
-The restoration should be read in that light. The book does not present the doubled flocks as wages. “The LORD gave Job twice as much as he had before” ([[Job 42:10]]), and a gift is not a payment. Tanner says, “Righteousness does not insulate us from suffering or assure us of material rewards.”[@tanner-considered-job]
+The restoration should be read in that light, and I do not read the doubled flocks as wages. Satan's charge was that Job served God for pay, and Job answered it by serving when there was none. An ending that paid him for his suffering would concede the charge. What the text says is that “the LORD gave Job twice as much as he had before” ([[Job 42:10]]). Tanner says, “Righteousness does not insulate us from suffering or assure us of material rewards.”[@tanner-considered-job]
 
 ## Thou art not yet as Job
 
@@ -139,11 +139,11 @@ Peter once wrote to servants who did well and suffered for it ([[1 Pet. 2:18–2
 
 The sinless mouth, the silence and the stripes are all from Isaiah 53. Some of it Peter holds out as “an example, that ye should follow.” Some of it no one follows: “his own self bare our sins.”
 
-The example lies in the places where Job stopped short of the Servant: no sin, no guile in the mouth, no reviling in return. Peter asks a disciple to follow Christ further than Job went.
+The example lies where Job stopped short of the Servant, in a life without sin and in not answering back. Peter asks a disciple to follow Christ further than Job went.
 
 What Job and the disciple share with Christ is the wrongful suffering itself, and Peter says of it, “this is acceptable with God” ([[1 Pet. 2:20]]). The blow is not a verdict. The friends thought it was, and so did the men at the foot of the cross. President Uchtdorf has said, “It is unworthy of us as Christians to think that those who suffer deserve their suffering.”[@uchtdorf-you-are-my-hands] Anyone who looks at a stricken neighbour and works backward to a sin has taken Eliphaz's seat.
 
-In the bearing of sins the disciple does not follow at all, and that is a mercy. A disciple's suffering is not asked to atone for anything, his own sins or another's. Job's did not. “For behold, I, God, have suffered these things for all, that they might not suffer if they would repent” ([[D&C 19:16]]).
+In the bearing of sins the disciple does not follow at all, and that is a mercy. The suffering that answers for sin has been borne already: “For behold, I, God, have suffered these things for all, that they might not suffer if they would repent” ([[D&C 19:16]]). What a disciple suffers wrongfully, as Job did, is not payment for anything, his own sins or another's.
 
 And one who has cried out as Job did is not cast off for it. Job took back what he had said amiss, and God called him “my servant” afterward.
 
