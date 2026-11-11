@@ -18,7 +18,7 @@ Three pages. The author, of the combined list: “#2 and #3 are good. I also lik
 
 **Must not claim:** that Job names Christ or knew whom he asked for (the brief: comparison; “Job does not name Him”); that 17:3 teaches anything of the Godhead beyond [[Heb. 7:22]]; that Job is a type of Christ (that argument is page 3's).
 
-### 2. “Where Is Now My Hope?” (from [[Job 17:15]])
+### 2. “Upon the Dust” (from [[Job 19:25]]; first proposed as “Where Is Now My Hope?”, which is chapter 17's title)
 
 **The arc.** Job first wants death as rest (3:11–22), then sees it as a land of no return (7:9–10; 10:21–22), then wishes it were a hiding place God would call him out of: “Thou shalt call, and I will answer thee” (14:13–15, the summons of 13:22, grounded in 10:8: “thou wilt have a desire to the work of thine hands”). “Hope” (*tiqwāh*, H8615, 13 times in 12 verses) is the friends' word for the reward of the upright (4:6; 5:16; 8:13; 11:18, 20); Job uses it to lose it: 7:6; “there is hope of a tree” (14:7); “thou destroyest the hope of man” (14:19); “where is now my hope?” (17:15, twice); “mine hope hath he removed like a tree” (19:10). After 19:10 he never says it of himself again (27:8 is of the hypocrite), and fifteen verses later comes “I know that my redeemer liveth.” The hope goes down to rest “in the dust” (17:16); the Redeemer stands “upon the dust” (19:25), the same two words (to confirm in the dossier). The LORD's “Have the gates of death been opened unto thee?” (38:17) shows how little Job could see; he dies “full of days” (42:17).
 
