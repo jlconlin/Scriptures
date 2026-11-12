@@ -494,6 +494,20 @@ const BOOK_SPELLINGS = {
     [/\bAsnapper\b/g, 'Asnappar'], // 4:10
     [/Shetharboznai/g, 'Shethar-boznai'], // 5:3, 6; 6:6, 13
   ],
+  nehemiah: [
+    // Where the Gospel Library has “Lord” (adonai) and the source LORD (found by scripts/check-kjv.mjs)
+    [/^O LORD, I beseech thee, let now/g, 'O Lord, I beseech thee, let now'], // 1:11
+    [/the work of their LORD\./g, 'the work of their Lord.'], // 3:5
+    [/remember the LORD, which is great/g, 'remember the Lord, which is great'], // 4:14
+    [/holy unto our LORD: neither/g, 'holy unto our Lord: neither'], // 8:10
+    [/Pahathmoab/g, 'Pahath-moab'], // 3:11; 7:11; 10:14
+    [/Colhozeh/g, 'Col-hozeh'], // 3:15; 11:5
+    [/Bethazmaveth/g, 'Beth-azmaveth'], // 7:28
+    [/and Gaba, six hundred/g, 'and Geba, six hundred'], // 7:30
+    [/Telmelah, Telharesha/g, 'Tel-melah, Tel-haresha'], // 7:61
+    [/Bethphelet/g, 'Beth-phelet'], // 11:26
+    [/Enrimmon/g, 'En-rimmon'], // 11:29
+  ],
   '2-kings': [
     [/\bRabshakeh\b/g, 'Rab-shakeh'],
     [/Tartan and Rab-saris and/g, 'Tartan and Rabsaris and'], // 2 Kgs. 18:17

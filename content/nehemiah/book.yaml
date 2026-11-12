@@ -1,0 +1,86 @@
+name: Nehemiah
+slug: nehemiah
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+# `order` is the nav and home-page position (lowest first), and it is not canonical. Ezra is 0.9985 and Isaiah 1;
+# 0.999 follows Ezra and leaves room for Esther after it (0.9995).
+order: 0.999
+abbr: neh                # [[Neh. 1:1]] links here
+gospelLibrary: ot/neh
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-13, period: persia }
+eyebrow: The Old Testament
+heroQuote:
+  text: '“I am doing a great work, so that I cannot come down.”'
+  cite: '[[Neh. 6:3]]'
+description: A phrase-by-phrase companion to the book of Nehemiah, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: The king’s cupbearer rebuilds the wall of Jerusalem in fifty-two days; then the people hear the law read, confess, and bind themselves by covenant; then the city is filled, the wall dedicated, and the covenant tested.
+home:
+  blurb: The cupbearer who wept over Jerusalem’s broken wall, rebuilt it with a tool in one hand and a weapon in the other, and stood by while Ezra read the law to a people who learned that “the joy of the LORD is your strength.”
+
+intro: |
+  The book of Nehemiah opens in the Persian palace at Shushan, “in the twentieth year” of King Artaxerxes ([[Neh. 1:1]]; [[Neh. 2:1]]), some thirteen years after Ezra came to Jerusalem. Nehemiah, “the king’s cupbearer” ([[Neh. 1:11]]), hears that “the wall of Jerusalem also is broken down, and the gates thereof are burned with fire” ([[Neh. 1:3]]), and he sits down and weeps, fasts, and prays. The king sends him to Judah as governor, and he tells the people, “come, and let us build up the wall of Jerusalem, that we be no more a reproach” ([[Neh. 2:17]]). They build with their enemies mocking and plotting, “every one with one of his hands wrought in the work, and with the other hand held a weapon” ([[Neh. 4:17]]), and when those enemies invite Nehemiah to a meeting he answers, “I am doing a great work, so that I cannot come down” ([[Neh. 6:3]]). The wall is finished “in fifty and two days” ([[Neh. 6:15]]).
+
+  Then the book turns from the wall to the people inside it. Ezra reads the law from a pulpit of wood, and the Levites “gave the sense, and caused them to understand the reading” ([[Neh. 8:8]]); the people weep, and are told, “neither be ye sorry; for the joy of the LORD is your strength” ([[Neh. 8:10]]). They keep the Feast of Tabernacles, confess the whole history of Israel before a God “ready to pardon, gracious and merciful, slow to anger, and of great kindness” ([[Neh. 9:17]]), and “make a sure covenant, and write it” ([[Neh. 9:38]]). The last chapters fill the city, dedicate the wall so that “the joy of Jerusalem was heard even afar off” ([[Neh. 12:43]]), and then show Nehemiah, back from the king, finding the covenant already broken and setting it right again. Most of the book is told in his own voice, and it ends on his own prayer: “Remember me, O my God, for good” ([[Neh. 13:31]]). This companion goes through all thirteen chapters and tries to anticipate the questions a careful reader would ask.
+
+  For the Persian kings, the return and the rebuilding of Jerusalem, see [A Timeline of the Old Testament](/old-testament/guides/israels-story/#return) and [Persia and the Return](/old-testament/guides/persia-and-the-return/#rulers).
+
+# BRIEF.md, “Divisions”. Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: nehwall
+    range: [1, 7]
+    name: The Wall Rebuilt
+    blurb: Nehemiah weeps and prays in Shushan, comes to Jerusalem with the king’s letters, and sets every family to build its part of the wall. He answers mockery, threats and plots with prayer and a guard, stops the nobles from taking usury of their brethren, finishes the wall in fifty-two days, and finds the register of those who first came back.
+    color: '#7a5c3a'
+    darkColor: '#d9b98f'
+  - key: nehlaw
+    range: [8, 10]
+    name: The Law Read and the Covenant Made
+    blurb: Ezra reads the law to all who can understand, and the people weep, rejoice, and keep the Feast of Tabernacles. They confess their fathers’ sins and God’s mercies from the Creation on, and seal a written covenant to keep the law, the Sabbath and the house of God.
+    color: '#2e6a8a'
+    darkColor: '#8fc6e3'
+  - key: nehcity
+    range: [11, 13]
+    name: The City Filled and the Covenant Kept
+    blurb: A tenth of the people come to live in Jerusalem, and the wall is dedicated with two companies singing along its top. Nehemiah returns from the king to find Tobiah lodged in the temple, the Levites unpaid, the Sabbath sold and the marriages mixed again, and he sets each right.
+    color: '#6b4a7a'
+    darkColor: '#c9a8dc'
+
+# Further reading attached automatically to chapters in these ranges (Scripture Helps covers Nehemiah 2; 4–6; 8).
+rangeSources:
+  - { range: [2, 2], sources: [scripture-helps-ezra] }
+  - { range: [4, 6], sources: [scripture-helps-ezra] }
+  - { range: [8, 8], sources: [scripture-helps-ezra] }
+
+beloved:
+  - { chapter: 1, verse: 4, text: 'I sat down and wept, and mourned certain days, and fasted, and prayed' }
+  - { chapter: 2, verse: 4, text: 'So I prayed to the God of heaven' }
+  - { chapter: 2, verse: 18, text: 'Let us rise up and build' }
+  - { chapter: 4, verse: 6, text: 'for the people had a mind to work' }
+  - { chapter: 6, verse: 3, text: 'I am doing a great work, so that I cannot come down' }
+  - { chapter: 8, verse: 10, text: 'the joy of the LORD is your strength' }
+  - { chapter: 9, verse: 17, text: 'thou art a God ready to pardon, gracious and merciful, slow to anger, and of great kindness' }
+  - { chapter: 13, verse: 31, text: 'Remember me, O my God, for good' }
+
+coreSources:
+  - bd-nehemiah
+  - scripture-helps-ezra
+  - bd-ezra
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'Nehemiah’s Prayer in Shushan'
+  2: 'The King’s Letters and the Night Ride'
+  3: 'Every Family Builds Its Part'
+  4: 'A Tool in One Hand, a Weapon in the Other'
+  5: 'The Cry of the Poor'
+  6: 'The Wall Finished'
+  7: 'The Register of the People'
+  8: 'Ezra Reads the Law'
+  9: 'The Great Confession'
+  10: 'The Sure Covenant'
+  11: 'Who Dwelt in Jerusalem'
+  12: 'The Dedication of the Wall'
+  13: 'Nehemiah’s Last Reforms'
