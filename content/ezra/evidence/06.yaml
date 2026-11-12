@@ -1,0 +1,249 @@
+chapter: 6
+claims:
+  # ---- when / setting / thread ----
+  - where: 'when'
+    claim: 'The work resumed in the second year of Darius Hystaspes, 520 B.C.; the dedication was kept in his sixth year, 516 B.C.'
+    key: bd-temple-of-zerubbabel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-zerubbabel?lang=eng'
+    quote: 'In the second year of Darius Hystaspes (520 B.C.) the people, exhorted by the prophets Haggai and Zechariah, resumed their task, and in the sixth year of Darius (516 B.C.) the feast of the dedication was kept (Ezra 6:15–16).'
+  - where: 'when'
+    claim: 'Scripture Helps dates the finished temple to 515 BC'
+    key: scripture-helps-ezra
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/29-ezra-1-3-7-nehemiah-2-4-6-8?lang=eng'
+    quote: 'The temple was finished and dedicated in 515 BC.'
+  - where: 'setting'
+    claim: 'The Darius of Ezra 6 is the son of Hystaspes, founder of the Persian dynasty'
+    key: bd-darius
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/darius?lang=eng'
+    quote: '(2) The son of Hystaspes and founder of the Persian dynasty (Ezra 4:5, 24; 5:5–7; 6:1–15; Hag. 1:1, 15; 2:10; Zech. 1:1, 7; 7:1).'
+  - where: 'setting'
+    claim: 'Ezra 4:8–6:18 is written in Aramaic, an official language of the Persian Empire'
+    key: bd-aramaic
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/aramaic?lang=eng'
+    quote: 'An official language of the Persian Empire, spoken widely throughout the Near East. Certain portions of the Old Testament are written in Aramaic (Ezra 4:8–6:18; 7:12–26; Jer. 10:11; Dan. 2:4–7:28).'
+  - where: 'setting'
+    claim: 'The last word of 6:18 is Aramaic (morphology code A); 6:19 begins in Hebrew (code H)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezra.xml'
+    quote: '<w lemma="c/6213 a" morph="HC/Vqw3mp" id="15Vak">וַ/יַּעֲשׂ֥וּ</w>'
+  - where: 'setting'
+    claim: 'The dedication was in 516 B.C. (Bible Dictionary)'
+    key: bd-temple-of-zerubbabel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-zerubbabel?lang=eng'
+    quote: 'in the sixth year of Darius (516 B.C.) the feast of the dedication was kept (Ezra 6:15–16).'
+  - where: 'setting'
+    claim: 'Scripture Helps: finished and dedicated 515 BC'
+    key: scripture-helps-ezra
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/29-ezra-1-3-7-nehemiah-2-4-6-8?lang=eng'
+    quote: 'The temple was finished and dedicated in 515 BC. About 60 years later, King Artaxerxes of Persia appointed Ezra to lead another group of exiled Jews to Judah.'
+  - where: 'note 6:22 “The king of Assyria”'
+    claim: 'Ezra–Nehemiah teaches readers that God’s protective hand is behind Cyrus’s proclamation'
+    key: welch-religious-authority
+    url: 'https://mi.byu.edu/old-testament-reflections/once-lost-religious-authority-is-hard-to-rebuild'
+    quote: 'Readers are taught that God''s protective hand is behind Cyrus''s proclamation.'
+  - where: 'thread'
+    claim: 'The record interprets postexilic history as God’s hand working behind the scenes'
+    key: welch-religious-authority
+    url: 'https://mi.byu.edu/old-testament-reflections/once-lost-religious-authority-is-hard-to-rebuild'
+    quote: 'interpreting postexilic history as the benevolent hand of God working behind the scenes.'
+
+  # ---- notes ----
+  - where: 'note 6:2 “Found at Ecbatana, not Babylon”'
+    claim: 'Achmetha is Ecbatana, capital of the Medes, now Hamadan'
+    key: bd-assyria
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/assyria-and-babylonia?lang=eng'
+    quote: 'with Ecbatana (Achmetha, Ezra 6:2, now Hamadan) as capital'
+  - where: 'note 6:2 “Found at Ecbatana, not Babylon”'
+    claim: 'With the change of kings the edict of Cyrus was forgotten'
+    key: vandyke-ogden-twelve
+    url: 'https://rsc.byu.edu/vol-4-no-3-2003/amos-through-malachi-major-teachings-twelve-prophets'
+    quote: 'Cyrus died and was replaced by his son Cambyses (530–522 BC), and as the years passed the edict of Cyrus was eventually forgotten altogether (see Ezra 5:17–6:1).'
+  - where: 'note 6:2 “Found at Ecbatana, not Babylon”'
+    claim: 'Darius had the archives searched for earlier orders about Jerusalem and its temple'
+    key: ludlow-ezra-minute
+    url: 'https://archive.bookofmormoncentral.org/sites/default/files/archive-files/pdf/ludlow/2022-07-15/ezra_ludlow.pdf'
+    quote: 'At the order of King Darius, the archives were searched for any previous orders regarding Jerusalem and its temple.'
+
+  - where: 'note 6:3 “Sixty cubits”'
+    claim: 'Solomon’s house was sixty cubits long, twenty broad, thirty high'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/6?lang=eng'
+    quote: 'the length thereof was threescore cubits, and the breadth thereof twenty cubits, and the height thereof thirty cubits.'
+  - where: 'note 6:3 “Sixty cubits”'
+    claim: 'Few definite statements survive on the dimensions of the house actually built'
+    key: bd-temple-of-zerubbabel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-zerubbabel?lang=eng'
+    quote: 'There are few definite statements concerning the dimensions and arrangements of the temple of Zerubbabel.'
+  - where: 'note 6:3 “Sixty cubits”'
+    claim: 'The dimensions were prescribed in the Persian decrees (6:3–4)'
+    key: bd-temple-of-zerubbabel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-zerubbabel?lang=eng'
+    quote: 'The dimensions and principles of construction were prescribed in decrees of the Persian kings (6:3–4). They also provided the materials, which came from Sidon (3:7; 6:4, 8).'
+  - where: 'note 6:3 “Sixty cubits”'
+    claim: 'Scripture Helps: about the same size as Solomon’s, likely a similar layout'
+    key: scripture-helps-ezra
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/29-ezra-1-3-7-nehemiah-2-4-6-8?lang=eng'
+    quote: 'It was about the same size as Solomon’s temple and likely had a similar layout.'
+  - where: 'note 6:3 “Sixty cubits”'
+    claim: 'The book shows the temple built in the likeness of Solomon’s (Ezra 5:11)'
+    key: welch-religious-authority
+    url: 'https://mi.byu.edu/old-testament-reflections/once-lost-religious-authority-is-hard-to-rebuild'
+    quote: 'The temple is constructed in the likeness of Solomon''s (Ezra 5:11).'
+
+  - where: 'note 6:10 “Prayers for the king”'
+    claim: 'Darius recognized God’s role in human affairs, probably thought his own god wanted the temple rebuilt, and kings often honored predecessors’ decrees'
+    key: ot-manual-29
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-29?lang=eng'
+    quote: 'Darius recognized the role of God in human affairs. During his reign, Darius adopted the religion of Zoroastrianism for the Persian Empire. Darius probably thought that the god he worshiped also wanted the temple of Judah rebuilt. And, the decrees of one king were often honored by his successors.'
+  - where: 'note 6:10 “Prayers for the king”'
+    claim: 'Darius owned the God of the Jews as God of heaven and wanted His blessing on himself and his dynasty'
+    key: keil-ezra
+    url: 'https://biblehub.com/commentaries/kad/ezra/6.htm'
+    quote: 'Darius was treading in his footsteps by also owning the God of the Jews as the God of heaven, and desiring that the blessing of this God might rest upon himself and his dynasty.'
+  - where: 'note 6:10 “Prayers for the king”'
+    claim: 'A Persian king could make that acknowledgment without renouncing his other gods'
+    key: keil-ezra
+    url: 'https://biblehub.com/commentaries/kad/ezra/6.htm'
+    quote: 'Such an acknowledgment it was possible for the Persian kings to make without a renunciation of their polytheism.'
+  - where: 'note 6:10 “Prayers for the king”'
+    claim: 'The Jews could pray for the king God had set over them, as Jeremiah 29:7 told the exiles'
+    key: keil-ezra
+    url: 'https://biblehub.com/commentaries/kad/ezra/6.htm'
+    quote: 'while the Jews could also, in the interest of their own welfare, pray and offer sacrifices in the temple of the Lord for the life of the king to whom God had caused them to be subject (comp. Jeremiah 29:7).'
+
+  - where: 'note 6:14 “Through the prophesying of Haggai and Zechariah”'
+    claim: 'Poverty, politics and animosity had halted the work; the Lord raised up Haggai and Zechariah, and they succeeded'
+    key: vandyke-ogden-twelve
+    url: 'https://rsc.byu.edu/vol-4-no-3-2003/amos-through-malachi-major-teachings-twelve-prophets'
+    quote: 'It was under these circumstances that the Lord raised up Haggai and Zechariah to spur on his beleaguered people.'
+  - where: 'note 6:14 “Through the prophesying of Haggai and Zechariah”'
+    claim: 'The prophets were successful; the second temple was completed in 515 BC'
+    key: vandyke-ogden-twelve
+    url: 'https://rsc.byu.edu/vol-4-no-3-2003/amos-through-malachi-major-teachings-twelve-prophets'
+    quote: 'In the final analysis, these prophets were successful. The second temple was completed in 515 BC, and against all odds, Israel survived as a distinct people.'
+  - where: 'note 6:14 “Through the prophesying of Haggai and Zechariah”'
+    claim: 'Crop failures, drought and poverty hindered the work'
+    key: vandyke-ogden-twelve
+    url: 'https://rsc.byu.edu/vol-4-no-3-2003/amos-through-malachi-major-teachings-twelve-prophets'
+    quote: 'Progress was slow, however, as a series of setbacks such as crop failures, drought, and the onset of extreme poverty hindered their efforts (see Haggai 1).'
+  - where: 'note 6:14 “Through the prophesying of Haggai and Zechariah”'
+    claim: 'Poverty, political disruption and animosities halted the construction'
+    key: vandyke-ogden-twelve
+    url: 'https://rsc.byu.edu/vol-4-no-3-2003/amos-through-malachi-major-teachings-twelve-prophets'
+    quote: 'the weight of poverty, political disruption, animosities, and a backbreaking need to survive brought the construction to a halt with no new beginning in sight.'
+  - where: 'note 6:14 “Through the prophesying of Haggai and Zechariah”'
+    claim: 'The builders were spurred on by the prophets until they finished in Darius’s sixth year'
+    key: ludlow-ezra-minute
+    url: 'https://archive.bookofmormoncentral.org/sites/default/files/archive-files/pdf/ludlow/2022-07-15/ezra_ludlow.pdf'
+    quote: 'They were also spurred on by the encouragement and prophecies of the prophets Haggai and Zechariah until they finished the temple in the sixth year of King Darius’s reign.'
+
+  - where: 'note 6:14 “Artaxerxes among the builders”'
+    claim: 'Artaxerxes Longimanus reigned 465–425 B.C.; the Bible Dictionary lists 6:14 with his commission to Ezra'
+    key: bd-artaxerxes
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/artaxerxes?lang=eng'
+    quote: 'Longimanus. Son of Xerxes and king of Persia, 465–425 B.C.; hinders Jews from building (Ezra 4:7–23); gives commission to Ezra (6:14; 7:1–21; 8:1)'
+
+  - where: 'note 6:15 “Finished in the sixth year of Darius”'
+    claim: 'Adar is the twelfth month'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/esth/3?lang=eng'
+    quote: 'to the twelfth month, that is, the month Adar.'
+  - where: 'note 6:15 “Finished in the sixth year of Darius”'
+    claim: 'The Bible Dictionary dates the dedication to 516 B.C.'
+    key: bd-temple-of-zerubbabel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-zerubbabel?lang=eng'
+    quote: 'in the sixth year of Darius (516 B.C.) the feast of the dedication was kept (Ezra 6:15–16).'
+  - where: 'note 6:15 “Finished in the sixth year of Darius”'
+    claim: 'Scripture Helps: completed around 515 BC, more than twenty years after the first return'
+    key: scripture-helps-ezra
+    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/29-ezra-1-3-7-nehemiah-2-4-6-8?lang=eng'
+    quote: 'The temple of Zerubbabel was completed around 515 BC, more than 20 years after the first group of exiles returned from Babylon.'
+  - where: 'note 6:15 “Finished in the sixth year of Darius”'
+    claim: 'Van Dyke and Ogden: completed 515 BC'
+    key: vandyke-ogden-twelve
+    url: 'https://rsc.byu.edu/vol-4-no-3-2003/amos-through-malachi-major-teachings-twelve-prophets'
+    quote: 'The second temple was completed in 515 BC'
+  - where: 'note 6:15 “Finished in the sixth year of Darius”'
+    claim: 'The Student Manual counts seventy years from the destruction in 586 to the completion in 516 as Jeremiah’s prophecy fulfilled'
+    key: ot-manual-29
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-29?lang=eng'
+    quote: 'The second temple in Jerusalem was completed in 516 B.C., exactly seventy years after the temple was destroyed by Nebuchadnezzar in 586 B.C. Thus, Jeremiah’s prophecy was fulfilled (see Jeremiah 29:10–14).'
+
+  - where: 'note 6:17 “Twelve goats for twelve tribes”'
+    claim: 'The twelve goats were offered because the temple was for the whole covenant people, whose return the prophets gave them to hope for (Ezek. 37:15 ff.; Jer. 31:27)'
+    key: keil-ezra
+    url: 'https://biblehub.com/commentaries/kad/ezra/6.htm'
+    quote: 'because the temple was intended for the entire covenant people, whose return to the Lord and to the land of their fathers, according to the predictions of the prophets, was hoped for (comp. e.g., Ezekiel 37:15., Jeremiah 31:27.)'
+
+  - where: 'note 6:18 “As it is written in the book of Moses”'
+    claim: 'The writers show every act of restored temple worship as a recovery of past practice; Moses is the legitimating forerunner'
+    key: welch-religious-authority
+    url: 'https://mi.byu.edu/old-testament-reflections/once-lost-religious-authority-is-hard-to-rebuild'
+    quote: 'Moses is the legitimating forerunner for the entire postexilic project. The writers are careful to show that every act in the reestablishment of temple worship is a recovery of past practices, not solely an invention of their own.'
+
+  - where: 'explore'
+    claim: 'The Kirtland Temple was dedicated around Passover time in 1836'
+    key: ludlow-ezra-minute
+    url: 'https://archive.bookofmormoncentral.org/sites/default/files/archive-files/pdf/ludlow/2022-07-15/ezra_ludlow.pdf'
+    quote: 'The dedication of the Kirtland Temple also happened … around Passover time in 1836.'
+
+  - where: 'note 6:21 “Those who had separated themselves”'
+    claim: 'Older interpreters (Aben Ezra, Rashi, Clericus) took them for proselytes'
+    key: keil-ezra
+    url: 'https://biblehub.com/commentaries/kad/ezra/6.htm'
+    quote: 'are not proselytes from heathenism (Aben Ezra, Rashi, Clericus, and others)'
+  - where: 'note 6:21 “Those who had separated themselves”'
+    claim: 'Some read those who separated themselves as Israelites left in the land who had mingled with the heathen'
+    key: keil-ezra
+    url: 'https://biblehub.com/commentaries/kad/ezra/6.htm'
+    quote: 'but Israelites, who had till now lived in Palestine, and mingled with the heathen inhabitants of the land.'
+  - where: 'note 6:21 “Those who had separated themselves”'
+    claim: 'They had combined heathen worship with Jehovah’s and now joined the community to worship by the law of Moses'
+    key: keil-ezra
+    url: 'https://biblehub.com/commentaries/kad/ezra/6.htm'
+    quote: 'who now, after the erection of the temple, joined themselves to the new community, for the purpose of worshipping with them the God of their fathers in His temple, according to the law of Moses.'
+  - where: 'note 6:21 “Those who had separated themselves”'
+    claim: 'To separate from the uncleanness of the nations is to renounce intermarriage and other ties with them'
+    key: keil-ezra
+    url: 'https://biblehub.com/commentaries/kad/ezra/6.htm'
+    quote: 'To separate from the uncleanness of the nations means to renounce intermarriage and other connection with them.'
+
+  - where: 'note 6:22 “The king of Assyria”'
+    claim: 'The king of Assyria is the Persian king, ruler of former Assyrian territory'
+    key: ot-manual-29
+    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-29?lang=eng'
+    quote: 'The king of Assyria was the Persian monarch, the king of what was once Assyrian territory.'
+  - where: 'note 6:22 “The king of Assyria”'
+    claim: 'Cyrus, taking Babylon, entered on the whole inheritance of its empire'
+    key: bd-assyria
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/assyria-and-babylonia?lang=eng'
+    quote: 'Cyrus, king of Persia, who was welcomed not only by the captive Jews (Isa. 45:1) but even by the people of Babylon and at once entered on the whole inheritance of the empire.'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'Paul calls Christ our passover'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/5?lang=eng'
+    quote: 'Christ, our passover, was sacrificed for us.'
+  - where: 'christ'
+    claim: 'Scripture associates joy with building and entering the temple; in the temple one may receive a fullness of joy'
+    key: sc-knowhy-372
+    url: 'https://scripturecentral.org/knowhy/why-is-joy-associated-with-temple-work-in-the-scriptures'
+    quote: 'When we enter the Lord’s presence in the temple, we can receive a “fullness of joy.”'
+  - where: 'christ'
+    claim: 'KnoWhy 372 sets Ezra 6:16 beside David’s joy at the people’s willingness to build'
+    key: sc-knowhy-372
+    url: 'https://scripturecentral.org/knowhy/why-is-joy-associated-with-temple-work-in-the-scriptures'
+    quote: 'King David spoke of the joy that he felt at merely witnessing his people’s willingness to help build God’s temple (1 Chronicles 29:17; cf. Ezra 6:16).'
+  - where: 'christ'
+    claim: 'Prophets today still direct the building of temples'
+    key: ludlow-ezra-minute
+    url: 'https://archive.bookofmormoncentral.org/sites/default/files/archive-files/pdf/ludlow/2022-07-15/ezra_ludlow.pdf'
+    quote: 'Prophets today still have the role of planning and managing the construction of new temples as efforts are made to bring temples to more communities of Saints across the world.'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'The Kirtland Temple dedication (D&C 109) came around Passover 1836'
+    key: ludlow-ezra-minute
+    url: 'https://archive.bookofmormoncentral.org/sites/default/files/archive-files/pdf/ludlow/2022-07-15/ezra_ludlow.pdf'
+    quote: 'Early Saints celebrated the dedication of the Kirtland Temple with great rejoicing'
