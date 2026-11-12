@@ -10,7 +10,7 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository (what waits for 
 
 `node scripts/status.mjs ezra` prints what the repository shows; the history is `git log -- content/ezra`. What a script can't see:
 
-- **This brief was drafted on 2026-11-12**, the day the author chose the book (“Start Ezra”); the author has not read it, and no chapter is written. The book is in preview, on the branch `worktree-ezra`.
+- **This brief was drafted on 2026-11-12**, the day the author chose the book (“Start Ezra”); the author has not read it. **All ten chapters are written and reviewed** (2026-11-12), and the author has read none. The book is in preview, on the branch `worktree-ezra`.
 
 ## What the author has decided
 
