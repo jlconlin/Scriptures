@@ -10,7 +10,7 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository (what waits for 
 
 `node scripts/status.mjs nehemiah` prints what the repository shows; the history is `git log -- content/nehemiah`. What a script can't see:
 
-- **This brief was drafted on 2026-11-12/13**, the day the author chose the book; the author has not read it. **No chapter is written.** The text is imported and checked (“The text,” below); `book.yaml` has three divisions, titles, `beloved` verses and an intro whose every quotation matches `data/kjv/nehemiah.json`. The book is in preview, on the branch `worktree-nehemiah`.
+- **This brief was drafted on 2026-11-12**, the day the author chose the book; the author has not read it. **All thirteen chapters are written, checked and reviewed** (2026-11-12, one batch), and the author has read none; the language pass has not run. The illustration is a first candidate awaiting the author, and no theme page is chosen. The book is in preview, on the branch `worktree-nehemiah`.
 
 ## What the author has decided
 
