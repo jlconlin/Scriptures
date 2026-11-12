@@ -486,6 +486,14 @@ const LDS_SPELLINGS = [
 // Spellings that differ between books of the Gospel Library edition, applied after LDS_SPELLINGS
 // (Isaiah has “Rabshakeh” and “Esar-haddon” where 2 Kings has “Rab-shakeh” and “Esarhaddon”).
 const BOOK_SPELLINGS = {
+  ezra: [
+    [/\bMizpar\b/g, 'Mispar'], // 2:2
+    [/Pahathmoab/g, 'Pahath-moab'], // 2:6; 8:4; 10:30
+    [/Kirjatharim/g, 'Kirjath-arim'], // 2:25
+    [/Telmelah, Telharsa/g, 'Tel-melah, Tel-harsa'], // 2:59
+    [/\bAsnapper\b/g, 'Asnappar'], // 4:10
+    [/Shetharboznai/g, 'Shethar-boznai'], // 5:3, 6; 6:6, 13
+  ],
   '2-kings': [
     [/\bRabshakeh\b/g, 'Rab-shakeh'],
     [/Tartan and Rab-saris and/g, 'Tartan and Rabsaris and'], // 2 Kgs. 18:17

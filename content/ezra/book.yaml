@@ -1,0 +1,75 @@
+name: Ezra
+slug: ezra
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+# `order` is the nav and home-page position (lowest first), and it is not canonical. 2 Kings is 0.996 and Isaiah 1;
+# 0.9985 leaves room for 1 and 2 Chronicles before Ezra (0.997, 0.998) and for Nehemiah and Esther after it (0.999, 0.9995).
+order: 0.9985
+abbr: ezra               # [[Ezra 1:1]] links here
+gospelLibrary: ot/ezra
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-10, period: persia }
+eyebrow: The Old Testament
+heroQuote:
+  text: '“For Ezra had prepared his heart to seek the law of the LORD, and to do it, and to teach in Israel statutes and judgments.”'
+  cite: '[[Ezra 7:10]]'
+description: A phrase-by-phrase companion to the book of Ezra, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Two returns from Babylon, some eighty years apart. In the first the exiles rebuild the altar and the house of the Lord against long opposition; in the second Ezra the scribe brings the law of Moses back to Jerusalem and finds a people who have not kept it.
+home:
+  blurb: The return from Babylon, the rebuilding of the Lord’s house in Jerusalem, and the scribe who “prepared his heart to seek the law of the LORD, and to do it, and to teach” it.
+
+intro: |
+  The book of Ezra begins where 2 Kings and Jeremiah end, with Judah in exile, and tells how the exile was undone. In “the first year of Cyrus king of Persia,” about 538 B.C., “the LORD stirred up the spirit of Cyrus” to send the Jews home and to rebuild the temple that Nebuchadnezzar had burned ([[Ezra 1:1]]), and those “whose spirit God had raised” went up ([[Ezra 1:5]]). They set the altar on its old base and laid the foundation of the house, and the old men who had seen Solomon’s temple wept while the young shouted, “so that the people could not discern the noise of the shout of joy from the noise of the weeping” ([[Ezra 3:13]]). Then their neighbours opposed them, and the work “ceased unto the second year of the reign of Darius” ([[Ezra 4:24]]). It began again at the word of the prophets Haggai and Zechariah ([[Ezra 5:1–2]]), and the house was finished and dedicated “with joy” in the sixth year of Darius, 516 or 515 B.C. ([[Ezra 6:15–16]]).
+
+  Ezra himself does not appear until chapter 7, about sixty years later. He was a priest of Aaron’s line and “a ready scribe in the law of Moses” ([[Ezra 7:6]]), sent from Babylon in 458 B.C. with a letter from King Artaxerxes, and the book says of him what it says of no one else: he “had prepared his heart to seek the law of the LORD, and to do it, and to teach in Israel statutes and judgments” ([[Ezra 7:10]]). From [[Ezra 7:27]] he tells the story himself: the fast at the river Ahava, when he was ashamed to ask the king for soldiers after saying that “the hand of our God is upon all them for good that seek him” ([[Ezra 8:22]]); the report that the people, their leaders first, had married into the nations around them; and his prayer of confession, in which the return is “a little space” of grace and “a nail in his holy place” ([[Ezra 9:8]]). The book ends with the hardest thing in it, the covenant to put away the foreign wives. Latter-day Saints meet Ezra in the Doctrine and Covenants, where the Prophet Joseph Smith cites the priests of [[Ezra 2:61–62]], whose names were not found in the register ([[D&C 85:11–12]]). This companion goes through all ten chapters and tries to anticipate the questions a careful reader would ask.
+
+  For the Persian kings, the return and the rebuilding of the temple, see [A Timeline of the Old Testament](/old-testament/guides/israels-story/#return) and [Persia and the Return](/old-testament/guides/persia-and-the-return/#rulers).
+
+# BRIEF.md, “Divisions”. Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: ezrahouse
+    range: [1, 6]
+    name: The House Rebuilt
+    blurb: Cyrus sends the exiles home with the temple’s vessels. They are counted by family, build the altar and lay the foundation of the house; their adversaries stop the work until Haggai and Zechariah prophesy, Darius confirms Cyrus’s decree, and the temple is finished and dedicated with joy.
+    color: '#8a5a2b'
+    darkColor: '#e0b88a'
+  - key: ezralaw
+    range: [7, 10]
+    name: Ezra and the Law
+    blurb: About sixty years later Ezra, a priest and scribe, comes from Babylon with the king’s letter, fasting for a safe journey instead of asking for soldiers. In Jerusalem he learns that the people have married into the nations around them; he confesses the sin as his own, and the people covenant to put away their foreign wives.
+    color: '#2f6f73'
+    darkColor: '#8fd0d3'
+
+# Further reading attached automatically to chapters in these ranges (Scripture Helps covers Ezra 1 and 3–7).
+rangeSources:
+  - { range: [1, 7], sources: [scripture-helps-ezra] }
+
+beloved:
+  - { chapter: 1, verse: 3, text: 'his God be with him, and let him go up to Jerusalem' }
+  - { chapter: 3, verse: 11, text: 'because he is good, for his mercy endureth for ever toward Israel' }
+  - { chapter: 3, verse: 13, text: 'the people could not discern the noise of the shout of joy from the noise of the weeping' }
+  - { chapter: 6, verse: 22, text: 'the LORD had made them joyful' }
+  - { chapter: 7, verse: 10, text: 'Ezra had prepared his heart to seek the law of the LORD, and to do it, and to teach' }
+  - { chapter: 8, verse: 22, text: 'The hand of our God is upon all them for good that seek him' }
+  - { chapter: 9, verse: 8, text: 'to give us a nail in his holy place' }
+
+coreSources:
+  - bd-ezra
+  - scripture-helps-ezra
+  - bd-temple-of-zerubbabel
+  - bd-cyrus
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'The Proclamation of Cyrus'
+  2: 'The People Who Returned'
+  3: 'The Altar and the Foundation'
+  4: 'The Work Is Stopped'
+  5: 'Haggai, Zechariah, and the Governor’s Letter'
+  6: 'The House Finished'
+  7: 'Ezra the Scribe'
+  8: 'The Journey from Ahava'
+  9: 'Ezra’s Prayer'
+  10: 'The Covenant to Put Away the Wives'
