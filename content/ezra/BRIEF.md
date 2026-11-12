@@ -10,7 +10,7 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository (what waits for 
 
 `node scripts/status.mjs ezra` prints what the repository shows; the history is `git log -- content/ezra`. What a script can't see:
 
-- **This brief was drafted on 2026-11-12**, the day the author chose the book (“Start Ezra”); the author has not read it. **All ten chapters are written and reviewed** (2026-11-12), and the author has read none. The book is in preview, on the branch `worktree-ezra`.
+- **This brief was drafted on 2026-11-12**, the day the author chose the book (“Start Ezra”); the author has not read it. **All ten chapters are written, reviewed and through the language pass** (2026-11-12), and the author has read none. In that pass four sourced sentences the applier had cut were put back with their ledger rows (the Hosanna Shout at 3:10, the Bible Chronology’s pairing at 4:6, the honoring of earlier decrees at 6:10, the one Aramaic word for both laws at 7:26). **No theme is chosen and the illustration is not approved:** Fable’s and Codex’s theme proposals and one candidate image wait for the author. The book is in preview, on the branch `worktree-ezra`.
 
 ## What the author has decided
 
