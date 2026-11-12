@@ -145,7 +145,9 @@
       link.addEventListener('focus', () => { if (!pinned) show(link); });
       link.addEventListener('blur', deferHide);
       link.addEventListener('click', (e) => {
-        const pointer = e.pointerType || (e.detail ? lastPointerType : '');
+        // Trust the pointerdown that began the tap before the click's own type: Safari (18.2 on) reports
+        // a touch tap's click as "mouse" (WebKit bug 282988), which sent taps straight to the chapter.
+        const pointer = (e.detail ? lastPointerType : '') || e.pointerType;
         lastPointerType = '';
         if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
         // A mouse click or keyboard activation follows scripture links directly.
