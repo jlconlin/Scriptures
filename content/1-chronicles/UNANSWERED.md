@@ -10,3 +10,9 @@ Questions a reader would ask that no source read answered, by chapter: a list fo
 - **7:** Why does 1 Chr. 7:15 call Zelophehad 'the second' when Num. 26:29–33 places him three generations below Machir? No source read for this chapter explains it; Whose wife is 'she' in 'Ashriel, whom she bare' (7:14)? The verse does not say, and no source was read for it.
 - **8:** Where was Manahath? Keil says the place is not known. The chapter does not answer it.
 - **10:** 10:13: no Church, BYU, Scripture Central or Interpreter source found that says which 'word of the LORD' Saul did not keep. Only the Cambridge Bible names 1 Sam. 13 and 15.
+- **16:** Who served as priest before the ark in Jerusalem while Zadok was at Gibeon (Abiathar?): only Keil and the Cambridge Bible guess, and the writer left it out.
+- **17:** Why Chronicles words the promise of 17:11–14 differently from 2 Sam. 7 ("of thy sons", no rod, "mine house and my kingdom"): no Church, BYU, Scripture Central or Interpreter source explains it. The only explanation found was Keil's Messianic reading, which I cut.
+- **19:** Why the hired army camped at Medeba (19:7): no source says; Why Chronicles reads 'came upon them' (19:17) where Samuel has 'came to Helam': no source explains the difference in the Hebrew.
+- **23:** Why 38,000 Levites here, against the 8,580 of Num. 4:48 (the writer left this out); What the Levites' 'officers and judges' (23:4) did.
+- **26:** What Samuel and Saul dedicated (26:28): no source read says.
+- **27:** Why is Benaiah called 'a chief priest' (27:5)?; Why are an Ishmaelite and a Hagerite over the king's camels and flocks (27:30–31)?; Was Jonathan, 'David's uncle' (27:32), an uncle or a nephew?; Why do Gad and Asher have no prince (27:16–22)?.
