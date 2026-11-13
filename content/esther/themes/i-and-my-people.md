@@ -3,7 +3,6 @@ title: I and My People
 blurb: Esther enters her book with her people and kindred hidden and comes to plead for “my people” and “my kindred,” having said “if I perish, I perish” in the decree’s own verb and “we are sold, I and my people.” Read beside what scripture says of Christ the Advocate, the three things her story cannot do (she does not perish, what she pleads first is the king’s favour, and the enemy, not the advocate, hangs on the tree) measure what He did.
 icon: christ
 sources: [lds-scriptures, oshb-wlc, scripture-helps-esther, ot-manual-31, ensign-2014-advocate, bd-advocate]
-status: preview
 review: unread
 ---
 
