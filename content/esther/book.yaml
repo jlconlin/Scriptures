@@ -1,0 +1,83 @@
+status: preview
+name: Esther
+slug: esther
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+# `order` is the nav and home-page position (lowest first), and it is not canonical. Nehemiah is 0.999 and Isaiah 1.
+order: 0.9995
+abbr: esth               # [[Esth. 1:1]] links here
+gospelLibrary: ot/esth
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-10, period: persia }
+eyebrow: The Old Testament
+heroQuote:
+  text: '“Who knoweth whether thou art come to the kingdom for such a time as this?”'
+  cite: '[[Esth. 4:14]]'
+description: A phrase-by-phrase companion to the book of Esther, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: A Jewish orphan becomes queen of Persia; a decree is sealed to destroy her people, and she fasts and goes in to the king unbidden; in one sleepless night the plot begins to turn; and the day appointed for death becomes the days of Purim.
+home:
+  blurb: The queen who hid her people until the day she had to name them, the decree that could not be revoked, and a book that never names God yet shows His hand in a sleepless night and a fast of three days.
+
+intro: |
+  The book of Esther is set in the Persian palace at Shushan, “in the days of Ahasuerus” ([[Esth. 1:1]]), the king the Greeks called Xerxes, a generation after the first exiles went home to Jerusalem and before Ezra and Nehemiah followed them. It opens with a king’s feast and a queen deposed: “the queen Vashti refused to come at the king’s commandment” ([[Esth. 1:12]]). In her place the king chooses an orphan raised by her cousin Mordecai, “Hadassah, that is, Esther” ([[Esth. 2:7]]), who does as Mordecai tells her and does not make known who her people are ([[Esth. 2:10]]).
+
+  Then Haman the Agagite is raised above all the princes, and “Mordecai bowed not, nor did him reverence” ([[Esth. 3:2]]). Haman casts the lot, Pur, and obtains a decree sealed with the king’s ring to destroy every Jew in the empire on one day ([[Esth. 3:7]]; [[Esth. 3:13]]). Mordecai sends word to the queen: “who knoweth whether thou art come to the kingdom for such a time as this?” ([[Esth. 4:14]]). She asks her people to fast three days with her, and answers, “so will I go in unto the king, which is not according to the law: and if I perish, I perish” ([[Esth. 4:16]]).
+
+  From there the story turns. “On that night could not the king sleep” ([[Esth. 6:1]]); Mordecai is honored in the street by the man who meant to hang him, and Haman is hanged “on the gallows that he had prepared for Mordecai” ([[Esth. 7:10]]). The first decree cannot be revoked, so a second lets the Jews stand for their lives, and the day their enemies “hoped to have power over them” is “turned to the contrary” ([[Esth. 9:1]]). The book ends by founding the feast of Purim, kept for the month “turned unto them from sorrow to joy” ([[Esth. 9:22]]). God is never named in it, yet the Church’s sources read it as a striking witness of His providence. This companion goes through all ten chapters and tries to anticipate the questions a careful reader would ask.
+
+  For the Persian kings and the Jews who stayed in the east, see [A Timeline of the Old Testament](/old-testament/guides/israels-story/#return) and [Persia and the Return](/old-testament/guides/persia-and-the-return/#rulers).
+
+# BRIEF.md, “Divisions” (Scripture Helps' outline of the book). Keys must not repeat another book's (the colors are global variables).
+divisions:
+  - key: esthqueen
+    range: [1, 2]
+    name: A Queen in Shushan
+    blurb: King Ahasuerus feasts his princes for half a year and deposes Queen Vashti when she will not come at his word. The maidens of the empire are gathered to the palace, and the king makes Esther, the orphan Mordecai raised, his queen; Mordecai, sitting in the king’s gate, uncovers a plot against the king’s life.
+    color: '#8a3b5c'
+    darkColor: '#e3a6c0'
+  - key: esthdecree
+    range: [3, 5]
+    name: The Decree and the Fast
+    blurb: Mordecai will not bow to Haman the Agagite, and Haman casts the lot and buys a decree to destroy every Jew in the empire. The Jews mourn and fast, Mordecai tells Esther she may have come to the kingdom for this, and she goes in to the king unbidden and invites him and Haman to a banquet, while Haman builds a gallows for Mordecai.
+    color: '#4b4f7a'
+    darkColor: '#b4b8e6'
+  - key: esthturn
+    range: [6, 8]
+    name: The Night the King Could Not Sleep
+    blurb: The sleepless king hears how Mordecai saved his life, and Haman must lead Mordecai through the city in the king’s own robe. At the second banquet Esther names her people and her enemy, and Haman is hanged on his own gallows. The first decree cannot be revoked, so Mordecai writes a second, and the Jews have light and gladness.
+    color: '#2f6b4f'
+    darkColor: '#94d1b3'
+  - key: esthpurim
+    range: [9, 10]
+    name: The Days of Purim
+    blurb: On the thirteenth of Adar the Jews stand for their lives against those who would destroy them, and lay no hand on the spoil. Mordecai and Esther write that the fourteenth and fifteenth be kept every year as days of feasting, gifts and remembrance, and the book closes on Mordecai, next to the king, seeking the good of his people.
+    color: '#a0622a'
+    darkColor: '#e6b583'
+
+beloved:
+  - { chapter: 2, verse: 17, text: 'she obtained grace and favour in his sight' }
+  - { chapter: 4, verse: 14, text: 'who knoweth whether thou art come to the kingdom for such a time as this?' }
+  - { chapter: 4, verse: 16, text: 'and if I perish, I perish' }
+  - { chapter: 6, verse: 1, text: 'On that night could not the king sleep' }
+  - { chapter: 8, verse: 16, text: 'The Jews had light, and gladness, and joy, and honour.' }
+  - { chapter: 9, verse: 22, text: 'the month which was turned unto them from sorrow to joy' }
+  - { chapter: 10, verse: 3, text: 'seeking the wealth of his people, and speaking peace to all his seed' }
+
+coreSources:
+  - bd-esther-book
+  - scripture-helps-esther
+  - bd-ahasuerus
+
+# Titles shown on the book page until a chapter is written; the chapter file’s own title then takes over.
+titles:
+  1: 'The King’s Feast and Vashti’s Refusal'
+  2: 'Esther Made Queen'
+  3: 'Mordecai Bows Not, and Haman’s Decree'
+  4: 'For Such a Time as This'
+  5: 'Esther Goes In unto the King'
+  6: 'The Night the King Could Not Sleep'
+  7: 'Haman on His Own Gallows'
+  8: 'The Second Decree'
+  9: 'The Days of Purim'
+  10: 'Mordecai Next unto the King'
