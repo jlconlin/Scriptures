@@ -1,0 +1,63 @@
+status: preview
+name: 1 Chronicles
+slug: 1-chronicles
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 0.997             # after 2 Kings (0.996), before 2 Chronicles (0.998) and Ezra (0.9985)
+abbr: 1-chr              # [[1 Chr. 1:1]] links here
+gospelLibrary: ot/1-chr
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 9, period: persia }
+  - { chapters: 10-29, period: kingdom }
+noPeriod:
+  - { chapters: 1-8, why: "genealogies from Adam to the exile, which no one period holds; the chapters' Background carries them (brief, “Divisions”)" }
+eyebrow: The Old Testament
+heroQuote:
+  text: '“Seek the LORD and his strength, seek his face continually.”'
+  cite: 'David’s psalm when the ark came to Jerusalem, [[1 Chr. 16:11]]'
+description: A phrase-by-phrase companion to the first book of Chronicles, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: "Twenty-nine chapters in three parts. Nine chapters of genealogies run from Adam to the families who came back from Babylon. Then David is made king over all Israel, brings the ark to Jerusalem with the Levites singing before it, and is told that his son will build the house. Last, David gathers gold, silver and cedar, orders the priests, Levites and singers, and gives Solomon the pattern of the temple."
+home:
+  blurb: The history from Adam to David retold for the people who came back from exile, with the ark brought to Jerusalem and David preparing the temple.
+
+intro: |
+  First Chronicles opens with nine chapters of names, from “Adam, Sheth, Enosh” ([[1 Chr. 1:1]]) to the families who lived again in Jerusalem after the exile, and then tells the reign of David. Much of it is already told in Samuel, and the Chronicler assumes his readers know that telling: he leaves out David's years as a fugitive from Saul and his sin with Bath-sheba, and he dwells instead on the ark, the Levites and their songs, and the temple David was not allowed to build but spent his last years preparing. When the ark comes to Jerusalem, David gives the Levites a psalm of thanksgiving: “Seek the LORD and his strength, seek his face continually” ([[1 Chr. 16:11]]). At the end he gives Solomon the pattern of the house, which “the LORD made me understand in writing by his hand upon me” ([[1 Chr. 28:19]]), and the people give willingly for it.
+
+  The two books of Chronicles were one book in Hebrew, written after the exile for a people asking whether they were still the LORD's. This companion goes through all twenty-nine chapters and tries to anticipate the questions a careful reader would ask: why the book begins with genealogies, who Jabez was and why his prayer is there, why Chronicles says that Satan moved David to number Israel where Samuel says the LORD did, why its numbers differ from Samuel's, and what David's preparations for the temple teach. Where a story is already told in 1 and 2 Samuel, the notes say what Chronicles adds or changes and point to the notes there.
+
+  For the period, see [The Conquest, the Judges, and One Kingdom](/old-testament/guides/the-conquest-judges-and-kingdom/#rulers), [Persia and the Return](/old-testament/guides/persia-and-the-return/#books) and [A Timeline of the Old Testament](/old-testament/guides/israels-story/#united-kingdom); for the temple and the Levites, see [Temple and Worship](/old-testament/guides/temple-and-worship/#priests).
+
+# Proposed (BRIEF.md, "Divisions"). Keys must not repeat another book's (the colors are global variables).
+divisions:
+  - key: chrgenealogies
+    range: [1, 9]
+    name: All Israel Were Reckoned by Genealogies
+    blurb: The generations from Adam to Abraham, Israel's sons, and then the tribes, Judah's line of David first and Levi's priests and singers at the center, down to the families who came back from Babylon and lived again in Jerusalem.
+    color: '#6a5a3a'
+    darkColor: '#d6c49a'
+  - key: chrseek
+    range: [10, 21]
+    name: Seek the LORD and His Strength
+    blurb: Saul dies for his transgression, and all Israel makes David king. David brings the ark to Jerusalem, carried this time by the Levites as the law required, with singers and a psalm of thanks. The LORD promises him a house, and David numbers Israel and buys Ornan's threshing floor, where the angel was stayed.
+    color: '#2a5a6a'
+    darkColor: '#9ccbd8'
+  - key: chrbuild
+    range: [22, 29]
+    name: Arise, and Be Doing
+    blurb: David gathers the materials for the house and charges Solomon to build it. He orders the priests and Levites into their courses, the singers, the porters and the officers, gives Solomon the pattern of the temple, and the people offer willingly. David blesses the LORD before the congregation and dies full of days.
+    color: '#7a3a4a'
+    darkColor: '#e0a8b4'
+
+beloved:
+  - { chapter: 4, verse: 10, text: 'Oh that thou wouldest bless me indeed, and enlarge my coast, and that thine hand might be with me' }
+  - { chapter: 16, verse: 11, text: 'Seek the LORD and his strength, seek his face continually' }
+  - { chapter: 16, verse: 29, text: 'worship the LORD in the beauty of holiness' }
+  - { chapter: 28, verse: 9, text: 'serve him with a perfect heart and with a willing mind: for the LORD searcheth all hearts' }
+  - { chapter: 29, verse: 14, text: 'for all things come of thee, and of thine own have we given thee' }
+
+coreSources:
+  - bd-chronicles
+  - gs-chronicles
+  - ot-seminary-chronicles-intro
+  - sc-knowhy-861

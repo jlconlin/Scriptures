@@ -1,0 +1,68 @@
+status: preview
+name: 2 Chronicles
+slug: 2-chronicles
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 0.998             # after 1 Chronicles (0.997), before Ezra (0.9985)
+abbr: 2-chr              # [[2 Chr. 1:1]] links here
+gospelLibrary: ot/2-chr
+# The period of the chapters, which their Context link opens (content/volumes/old-testament/periods.yaml)
+periods:
+  - { chapters: 1-9, period: kingdom }
+  - { chapters: 10-32, period: assyria }
+  - { chapters: 33-36, period: babylon }
+eyebrow: The Old Testament
+heroQuote:
+  text: '“If my people, which are called by my name, shall humble themselves, and pray, and seek my face, and turn from their wicked ways; then will I hear from heaven, and will forgive their sin, and will heal their land.”'
+  cite: 'The LORD to Solomon, [[2 Chr. 7:14]]'
+description: A phrase-by-phrase companion to the second book of Chronicles, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: "Thirty-six chapters in three parts. Solomon builds the temple, and at its dedication the glory of the LORD fills the house. The kingdom divides, and the kings of Judah are measured by whether they seek the LORD: Asa, Jehoshaphat, Joash, Uzziah, Ahaz. Then Hezekiah cleanses the temple and invites all Israel to the Passover, Manasseh repents in chains, Josiah keeps the Passover again, and after the fall of Jerusalem Cyrus proclaims the return."
+home:
+  blurb: Solomon's temple and the kings of Judah, from the glory that filled the house to its burning, Manasseh's repentance, and Cyrus's word to go up and build again.
+
+intro: |
+  Second Chronicles begins with Solomon's temple. At its dedication the singers and trumpeters are “as one, to make one sound” and the house is filled with a cloud, “for the glory of the LORD had filled the house of God” ([[2 Chr. 5:13–14]]), and the LORD answers Solomon's prayer with a promise: “If my people, which are called by my name, shall humble themselves, and pray, and seek my face, and turn from their wicked ways; then will I hear from heaven” ([[2 Chr. 7:14]]). The rest of the book follows the kings of Judah, and leaves the northern kingdom aside except where it touches Judah, judging each king by whether he sought the LORD. Asa relies on the LORD and then on Syria; Jehoshaphat, surrounded by three armies, prays, “our eyes are upon thee” ([[2 Chr. 20:12]]), and tells his people, “Believe in the LORD your God, so shall ye be established; believe his prophets, so shall ye prosper” ([[2 Chr. 20:20]]); Uzziah grows proud and is struck with leprosy in the temple.
+
+  Then Hezekiah cleanses the house and invites all Israel, north and south, to keep the Passover, and prays for those who came unprepared, and “the LORD hearkened to Hezekiah, and healed the people” ([[2 Chr. 30:20]]). Manasseh, carried to Babylon in chains, humbles himself and is heard, which Kings does not tell. Josiah keeps another Passover, and then the city falls, until Cyrus of Persia proclaims, “Who is there among you of all his people? The LORD his God be with him, and let him go up” ([[2 Chr. 36:23]]). This companion goes through all thirty-six chapters and tries to anticipate the questions a careful reader would ask: why Chronicles retells Kings, what it adds, why its kings are rewarded or punished in their own lifetimes, what the Joseph Smith Translation says of the lying spirit, and what Manasseh's repentance means. Where a story is already told in 1 and 2 Kings or in Isaiah, the notes say what Chronicles adds or changes and point to the notes there.
+
+  For the period, see [The Conquest, the Judges, and One Kingdom](/old-testament/guides/the-conquest-judges-and-kingdom/#rulers), [Two Kingdoms and Assyria](/old-testament/guides/two-kingdoms-and-assyria/#rulers), [Babylon and the Exile](/old-testament/guides/babylon-and-the-exile/#rulers) and [A Timeline of the Old Testament](/old-testament/guides/israels-story/#two-kingdoms); for the temple, see [Temple and Worship](/old-testament/guides/temple-and-worship/#temples).
+
+# Proposed (BRIEF.md, "Divisions"). Keys must not repeat another book's (the colors are global variables).
+divisions:
+  - key: chrglory
+    range: [1, 9]
+    name: The Glory of the LORD Filled the House
+    blurb: Solomon asks for wisdom at Gibeon, builds the temple on mount Moriah with Huram's help, and brings up the ark. The singers praise, the cloud fills the house, Solomon prays, and fire comes down from heaven. The LORD answers with a promise and a warning, and the queen of Sheba comes to hear his wisdom.
+    color: '#8a6a1a'
+    darkColor: '#e6cc80'
+  - key: chrbelieve
+    range: [10, 28]
+    name: Believe in the LORD Your God
+    blurb: The kingdom divides, and the kings of Judah are told one by one. Abijah, Asa and Jehoshaphat seek the LORD and are helped; Jehoram, Ahaziah and Athaliah follow Ahab's house; Joash, Amaziah and Uzziah begin well and end badly; and Ahaz shuts the doors of the house of the LORD.
+    color: '#3a5a2a'
+    darkColor: '#b0d498'
+  - key: chrreturn
+    range: [29, 36]
+    name: If Ye Return unto Him
+    blurb: Hezekiah opens and cleanses the temple and calls all Israel to the Passover, and the LORD delivers Jerusalem from Sennacherib. Manasseh fills the city with idols, then repents in Babylon and is restored. Josiah finds the book of the law and keeps a great Passover. The city and the house are burned, and Cyrus proclaims that the house shall be built again.
+    color: '#3a3a7a'
+    darkColor: '#b4b4ec'
+
+beloved:
+  - { chapter: 5, verse: 13, text: 'the trumpeters and singers were as one, to make one sound to be heard in praising and thanking the LORD' }
+  - { chapter: 7, verse: 14, text: 'If my people, which are called by my name, shall humble themselves, and pray, and seek my face' }
+  - { chapter: 16, verse: 9, text: 'For the eyes of the LORD run to and fro throughout the whole earth, to shew himself strong in the behalf of them whose heart is perfect toward him' }
+  - { chapter: 20, verse: 12, text: 'neither know we what to do: but our eyes are upon thee' }
+  - { chapter: 20, verse: 20, text: 'Believe in the LORD your God, so shall ye be established; believe his prophets, so shall ye prosper' }
+
+# Further reading attached automatically to chapters in these ranges.
+rangeSources:
+  - { range: [14, 20], sources: [scripture-helps-2-chronicles] }
+  - { range: [26, 26], sources: [scripture-helps-2-chronicles] }
+  - { range: [30, 30], sources: [scripture-helps-2-chronicles] }
+
+coreSources:
+  - bd-chronicles
+  - gs-chronicles
+  - ot-seminary-chronicles-intro
+  - sc-knowhy-861

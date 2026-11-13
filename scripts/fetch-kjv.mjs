@@ -526,6 +526,66 @@ const BOOK_SPELLINGS = {
     [/unto me ye men of understanding/g, 'unto me, ye men of understanding'], // 34:10
     [/Kerenhappuch/g, 'Keren-happuch'], // 42:14
   ],
+  // 1 and 2 Chronicles: spellings, hyphens and punctuation found by scripts/check-kjv.mjs (2026-11-13)
+  '1-chronicles': [
+    [/and Dishon, and Ezar, and Dishan/g, 'and Dishon, and Ezer, and Dishan'], // 1:38
+    [/daughter in law bore him/g, 'daughter in law bare him'], // 2:4
+    [/Calebephratah/g, 'Caleb-ephratah'], // 2:24
+    [/and Gesham, and Pelet/g, 'and Geshan, and Pelet'], // 2:47
+    [/was Achsa\./g, 'was Achsah.'], // 2:49
+    [/Bethgader/g, 'Beth-gader'], // 2:51
+    [/Bathshua/g, 'Bath-shua'], // 3:5
+    [/Jushabhesed/g, 'Jushab-hesed'], // 3:20
+    [/Bethrapha/g, 'Beth-rapha'], // 4:12
+    [/Benhanan/g, 'Ben-hanan'], // 4:20
+    [/Jashubilehem/g, 'Jashubi-lehem'], // 4:22
+    [/Hazarsusim/g, 'Hazar-susim'], // 4:31
+    [/and Joshah, the son of Amaziah/g, 'and Joshah the son of Amaziah'], // 4:34
+    [/Tilgathpilneser/g, 'Tilgath-pilneser'], // 5:6, 26
+    [/unto Salcah:/g, 'unto Salchah:'], // 5:11
+    [/and Shimrom, four/g, 'and Shimron, four'], // 7:1
+    [/Abi-ezer, and Mahalah/g, 'Abiezer, and Mahalah'], // 7:18
+    [/was Abi-ezer the Anetothite/g, 'was Abiezer the Anetothite'], // 27:12
+    [/of Shemidah were/g, 'of Shemida were'], // 7:19
+    [/Uzzensherah/g, 'Uzzen-sherah'], // 7:24
+    [/Jehoshuah his son,/g, 'Jehoshua his son.'], // 7:27
+    [/Malchishua/g, 'Malchi-shua'], // 8:33; 9:39; 10:2
+    [/Meribbaal/g, 'Merib-baal'], // 8:34; 9:40
+    [/whose wife’s name was Maachah,$/g, 'whose wife’s name was Maachah:'], // 9:35
+    [/Pasdammim/g, 'Pas-dammim'], // 11:13
+    [/Perezuzza/g, 'Perez-uzza'], // 13:11
+    [/against the Philistines\? And wilt thou/g, 'against the Philistines? and wilt thou'], // 14:10
+    [/that Michal, the daughter of Saul/g, 'that Michal the daughter of Saul'], // 15:29
+    [/Syriadamascus/g, 'Syria-damascus'], // 18:6
+    [/Syriamaachah/g, 'Syria-maachah'], // 19:6
+    [/six on each foot and he/g, 'six on each foot: and he'], // 20:6
+    [/Uzziel; Micah the first/g, 'Uzziel; Michah the first'], // 23:20
+    [/The ninth to Jeshuah/g, 'The ninth to Jeshua'], // 24:11
+    [/sons of Heman: Bukkiah/g, 'sons of Heman; Bukkiah'], // 25:4
+    [/Romamtiezer/g, 'Romamti-ezer'], // 25:4, 31
+    [/every bason\b/g, 'every basin'], // 28:17
+    [/Irnahash/g, 'Ir-nahash'], // 4:12
+    [/Benzoheth/g, 'Ben-zoheth'], // 4:20
+    [/Bethbirei/g, 'Beth-birei'], // 4:31
+    [/Eshbaal/g, 'Esh-baal'], // 8:33; 9:39
+  ],
+  '2-chronicles': [
+    [/where the Lord appeared unto David/g, 'where the LORD appeared unto David'], // 3:1
+    [/brasen scaffold of five/g, 'brasen scaffold, of five'], // 6:13
+    [/Hamathzobah/g, 'Hamath-zobah'], // 8:3
+    [/for ye shall not prosper\?/g, 'for ye shall not prosper.'], // 13:12
+    [/Abelmaim/g, 'Abel-maim'], // 16:4
+    [/But sought to the Lord God of his father/g, 'But sought to the LORD God of his father'], // 17:4
+    [/Benhail/g, 'Ben-hail'], // 17:7
+    [/Tobadonijah/g, 'Tob-adonijah'], // 17:8
+    [/And the Lord said, Thou shalt entice him/g, 'And the LORD said, Thou shalt entice him'], // 18:21
+    [/Hazazontamar/g, 'Hazazon-tamar'], // 20:2
+    [/Ezion-gaber/g, 'Ezion-geber'], // 20:36
+    [/Gurbaal/g, 'Gur-baal'], // 26:7
+    [/Tilgathpilneser/g, 'Tilgath-pilneser'], // 28:20
+    [/and all his sins, and his trespass/g, 'and all his sin, and his trespass'], // 33:19
+    [/Charchemish/g, 'Carchemish'], // 35:20
+  ],
 };
 
 const res = await fetch(url);
