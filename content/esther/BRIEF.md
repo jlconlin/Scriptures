@@ -8,7 +8,7 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository (what waits for 
 
 ## State of the book
 
-`node scripts/status.mjs esther` prints what the repository shows; the history is `git log -- content/esther`. What a script can't see: **this brief was drafted on 2026-11-12**, the day the author chose the book, and no chapter is written. The book is set up in preview (`book.yaml` complete, all ten titles given). The research notes are in `.cache/batch/esther/` (not committed): `search-lds.txt`, `breitenstein.txt`, `sh.txt`, `cfm.txt`, `inst.txt`, `otsm31.txt`, `fn1.txt`–`fn10.txt`, and `brief-sources.yaml` (the proposed source entries).
+`node scripts/status.mjs esther` prints what the repository shows; the history is `git log -- content/esther`. What a script can't see: **the author has read neither this brief nor the chapters.** All ten chapters were written, checked, reviewed and given the language pass on 2026-11-12, in one batch; the book is in preview. Fable and Codex each proposed one theme page and the two agree (Esther as the advocate who takes her people's sentence on herself, 4:13–16; 7:3–4; 8:3–6); it waits for the author's choice, and nothing is in `THEME-CANDIDATES.md` until then. The illustration is a proposed candidate, not approved. `bingham-gardner-role-models` (“the literal saviors of others”) is now cited only in chapter 2; the language pass cut it from chapter 7's `christ`, where nothing in the chapter carried it.
 
 ## What the author has decided
 
