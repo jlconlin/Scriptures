@@ -10,7 +10,8 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository; `THEME-CANDIDAT
 
 `node scripts/status.mjs 2-chronicles` prints what the repository shows; the history is `git log -- content/2-chronicles`. What a script can't see:
 
-- **In preview; no chapter is written** (2026-11-13). The book page, divisions and text are set up and checked.
+- **In preview; all 36 chapters are written, checked and reviewed** (2026-11-13), and the author has read none of them. The language pass has not been run. Chapters 15, 19 and 31 were then reworked to rest less on Keil and the Cambridge Bible, as Kings' were; 34 and 35 cite them in half their notes, where no higher source answers.
+- **No illustration yet** (the author will ask for it). Theme candidates are gathered with 1 Chronicles' and have not been shown to the author.
 - **Research** is shared with 1 Chronicles, in `.cache/batch/chronicles/research/` (1 Chronicles' brief, “State of the book”). The Church's footnotes and chapter headings for every chapter are in `.cache/batch/2-chronicles/fn<n>.txt`.
 
 ## What the author has decided

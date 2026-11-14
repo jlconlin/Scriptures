@@ -10,7 +10,8 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository; `THEME-CANDIDAT
 
 `node scripts/status.mjs 1-chronicles` prints what the repository shows; the history is `git log -- content/1-chronicles`. What a script can't see:
 
-- **In preview; no chapter is written** (2026-11-13). The book page, divisions and text are set up and checked.
+- **In preview; all 29 chapters are written, checked and reviewed** (2026-11-13), and the author has read none of them. The language pass has not been run. Chapter 14 cites Keil or the Cambridge Bible in 2 of its 3 notes, where no higher source answers.
+- **The illustration is proposed, not approved**: candidate 1 (the ark on its poles, a lyre, a tied scroll) is with the author. Theme candidates are being gathered and have not been shown to the author (author, 2026-11-13: “do not present them to me until I ask”).
 - **Research for this brief is cached** in `.cache/batch/chronicles/research/` (shared with 2 Chronicles): `church.md` (the Church's sources, with every Joseph Smith Translation reading in Chronicles), `byu.md` (BYU Studies' bibliography, the Religious Studies Center, the Maxwell Institute), `sc-interpreter.md` (Scripture Central and *Interpreter*, with a slip in a KnoWhy), with the pages behind them in `knowhys/`, `rsc/`, `mi/`, `interpreter/` and `search/`. Search them first; reopen the URL with `source.mjs` for a ledger row. The Church's footnotes and chapter headings for every chapter are in `.cache/batch/1-chronicles/fn<n>.txt` and `.cache/batch/2-chronicles/fn<n>.txt`.
 
 ## What the author has decided
