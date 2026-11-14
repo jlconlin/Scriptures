@@ -1,0 +1,437 @@
+page: with-him
+claims:
+  - where: 'opening'
+    claim: '2 Chr. 1:1 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/1?lang=eng'
+    quote: 'And Solomon the son of David was strengthened in his kingdom, and the Lord his God was with him, and magnified him exceedingly.'
+  - where: 'opening'
+    claim: '2 Chr. 36:23 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/36?lang=eng'
+    quote: 'Who is there among you of all his people? The Lord his God be with him, and let him go up.'
+  - where: 'opening'
+    claim: '2 Chr. 1:1 has wa-YHWH ʾĕlōhāyw ʿimmô with no verb (words 7–9; node scripts/hebrew.mjs "2 Chronicles" 1:1); 36:23 has YHWH ʾĕlōhāyw ʿimmô with no verb (words 27–29; node scripts/hebrew.mjs "2 Chronicles" 36:23): the same three words'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/2Chr.xml'
+    quote: 'עִמּ֖/וֹ'
+  - where: 'opening'
+    claim: 'The same three words stand at 2 Chr. 15:9, of Asa (words 18–20, kî-YHWH ʾĕlōhāyw ʿimmô; node scripts/hebrew.mjs "2 Chronicles" 15:9), seven verses after 15:2'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/2Chr.xml'
+    quote: 'עִמּֽ/וֹ'
+  - where: 'opening'
+    claim: 'Connection made by this page: 1:1, 15:2 (with 15:9), 32:8 and 36:23 are one line: the presence stated of David’s son, the terms on which it is kept, its confession under siege, and its return as a wish over a people who had lost it. No source found in the Church’s materials and Latter-day Saint scholarship searched joins 1:1, 15:2 and 36:23 or reads the book’s last wish as answered in Immanuel (Combs ties Hezekiah’s reign and 2 Chr. 32 to Isaiah’s Immanuel, not 36:23).'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/15?lang=eng'
+    quote: 'The Lord is with you, while ye be with him'
+  - where: 'opening'
+    claim: 'Connection made by this page: the open wish of 36:23 is answered in Jesus Christ, Immanuel, in whom the LORD did not wait for His people to be with Him but came to be with them and save them from their sins; the terms of 15:2 stand, and what changes is who moves first.'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/1?lang=eng'
+    quote: 'they shall call his name Emmanuel, which being interpreted is, God with us.'
+  - where: 'opening'
+    claim: 'Combs: God is “with” David’s house, and the name Immanuel is appropriate to it'
+    key: rsc-combs-ahaz-sign
+    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/king-ahazs-sign-christ-jesus'
+    quote: 'The name is appropriate since the house of David is often described in terms of its special relationship with God—God is “with” David’s house'
+  - where: 'opening'
+    claim: 'Combs: Matthew concludes his Gospel as he began it, “God with us” (1:23) and “I am with you alway” (28:20)'
+    key: rsc-combs-ahaz-sign
+    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/king-ahazs-sign-christ-jesus'
+    quote: 'Matthew demonstrates the eternality of Jesus’s Davidic reign by concluding his Gospel the same way he began it.'
+  - where: 'section “While ye be with him”'
+    claim: '1 Chr. 22:11 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/22?lang=eng'
+    quote: 'Now, my son, the Lord be with thee; and prosper thou, and build the house of the Lord thy God'
+  - where: 'section “While ye be with him”'
+    claim: '1 Chr. 22:11 has the verb yĕhî, jussive of “be” (word 3, H1961 HVqj3ms; node scripts/hebrew.mjs "1 Chronicles" 22:11)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/1Chr.xml'
+    quote: 'יְהִ֥י'
+  - where: 'section “While ye be with him”'
+    claim: '2 Chr. 15:2 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/15?lang=eng'
+    quote: 'The Lord is with you, while ye be with him; and if ye seek him, he will be found of you; but if ye forsake him, he will forsake you.'
+  - where: 'section “While ye be with him”'
+    claim: '2 Chr. 15:9 as quoted: strangers out of Ephraim, Manasseh and Simeon'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/15?lang=eng'
+    quote: 'for they fell to him out of Israel in abundance, when they saw that the Lord his God was with him.'
+  - where: 'section “While ye be with him”'
+    claim: 'Most “with him/you/us” in 2 Chronicles is everyday: node scripts/occurrences.mjs 2-chronicles "with him" "with you" "with us" "with me" "with thee" prints 43 verses, 52 occurrences, mostly a congregation or troops with a king (e.g. 1:3)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/1?lang=eng'
+    quote: 'So Solomon, and all the congregation with him, went to the high place that was at Gibeon'
+  - where: 'section “While ye be with him”'
+    claim: 'Every statement in 2 Chronicles that God or the LORD is “with” someone uses ʿim (H5973); ʾēt (H854) occurs 19 times in 15 verses and never in a statement that God is with someone; its one use of God dwelling with men is Solomon’s question at 6:18 (node scripts/occurrences.mjs 2-chronicles --hebrew H854)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/2Chr.xml'
+    quote: 'אִתָּ/ם֙'
+  - where: 'section “While ye be with him”'
+    claim: '2 Chr. 17:3 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/17?lang=eng'
+    quote: 'And the Lord was with Jehoshaphat, because he walked in the first ways of his father David'
+  - where: 'section “While ye be with him”'
+    claim: '2 Chr. 19:11 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/19?lang=eng'
+    quote: 'the Lord shall be with the good.'
+  - where: 'section “While ye be with him”'
+    claim: '2 Chr. 13:8 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/13?lang=eng'
+    quote: 'there are with you golden calves'
+  - where: 'section “While ye be with him”'
+    claim: '2 Chr. 13:12 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/13?lang=eng'
+    quote: 'God himself is with us for our captain'
+  - where: 'section “While ye be with him”'
+    claim: '2 Chr. 25:7 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/25?lang=eng'
+    quote: 'for the Lord is not with Israel'
+  - where: 'section “While ye be with him”'
+    claim: '2 Chr. 12:5 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/12?lang=eng'
+    quote: 'Ye have forsaken me, and therefore have I also left you'
+  - where: 'section “While ye be with him”'
+    claim: '2 Chr. 24:20 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/24?lang=eng'
+    quote: 'because ye have forsaken the Lord, he hath also forsaken you.'
+  - where: 'section “With us is the LORD our God”'
+    claim: '2 Chr. 28:16, 20 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/28?lang=eng'
+    quote: 'At that time did king Ahaz send unto the kings of Assyria to help him.'
+  - where: 'section “With us is the LORD our God”'
+    claim: '2 Chr. 28:20 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/28?lang=eng'
+    quote: 'came unto him, and distressed him, but strengthened him not.'
+  - where: 'section “With us is the LORD our God”'
+    claim: 'Edom and the Philistines pressed Ahaz (2 Chr. 28:17–18)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/28?lang=eng'
+    quote: 'For again the Edomites had come and smitten Judah, and carried away captives.'
+  - where: 'section “With us is the LORD our God”'
+    claim: 'Isa. 7:11, 12, 14 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/7?lang=eng'
+    quote: 'But Ahaz said, I will not ask, neither will I tempt the Lord.'
+  - where: 'section “With us is the LORD our God”'
+    claim: 'Isa. 7:14 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/7?lang=eng'
+    quote: 'Therefore the Lord himself shall give you a sign; Behold, a virgin shall conceive, and bear a son, and shall call his name Immanuel.'
+  - where: 'section “With us is the LORD our God”'
+    claim: 'Footnote at Isa. 7:14: Immanuel means “With us is God”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/7?lang=eng'
+    quote: 'HEB With us is God.'
+  - where: 'section “With us is the LORD our God”'
+    claim: 'Bowen: Immanuel denotes “With us is God”'
+    key: bowen-ominous-onomastics
+    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/ominous-onomastics'
+    quote: 'The name Immanuel transparently denotes “With us is God” or “God with us.”'
+  - where: 'section “With us is the LORD our God”'
+    claim: 'Combs: the name Immanuel is fitting in David’s house, with which God is said to be'
+    key: rsc-combs-ahaz-sign
+    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/king-ahazs-sign-christ-jesus'
+    quote: 'The name is appropriate since the house of David is often described in terms of its special relationship with God—God is “with” David’s house'
+  - where: 'section “With us is the LORD our God”'
+    claim: '2 Chr. 32:7–8 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/32?lang=eng'
+    quote: 'With him is an arm of flesh; but with us is the Lord our God to help us, and to fight our battles.'
+  - where: 'section “With us is the LORD our God”'
+    claim: '2 Chr. 32:7 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/32?lang=eng'
+    quote: 'there be more with us than with him'
+  - where: 'section “With us is the LORD our God”'
+    claim: '2 Chr. 32:8 is wĕʿimmānû YHWH ʾĕlōhênû (words 4–6; node scripts/hebrew.mjs "2 Chronicles" 32:8); Isa. 7:14 has ʿimmānû ʾēl as one name (H6005, words 14–15; node scripts/hebrew.mjs Isaiah 7:14), Isa. 8:10 ʿimmānû ʾēl (H5973 + H410; node scripts/hebrew.mjs Isaiah 8:10): “with us” shared, the divine names differ'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/2Chr.xml'
+    quote: 'וְ/עִמָּ֜/נוּ'
+  - where: 'section “With us is the LORD our God”'
+    claim: 'Isa. 8:8 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/8?lang=eng'
+    quote: 'shall fill the breadth of thy land, O Immanuel.'
+  - where: 'section “With us is the LORD our God”'
+    claim: 'Isa. 8:10 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/8?lang=eng'
+    quote: 'speak the word, and it shall not stand: for God is with us.'
+  - where: 'section “With us is the LORD our God”'
+    claim: 'Combs: under Ahaz’s son Hezekiah Judah was invaded by Assyria (2 Chr. 32)'
+    key: rsc-combs-ahaz-sign
+    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/king-ahazs-sign-christ-jesus'
+    quote: 'And under the reign of King Ahaz’s son Hezekiah, the land of Judah was indeed invaded by Assyria (see Isaiah 36–37, 2 Kings 18–19, and 2 Chronicles 32).'
+  - where: 'section “With us is the LORD our God”'
+    claim: 'Combs: there are good reasons to think Isaiah’s Immanuel was Hezekiah (the sign for Ahaz and the house of David)'
+    key: rsc-combs-ahaz-sign
+    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/king-ahazs-sign-christ-jesus'
+    quote: 'There are good reasons to think that Immanuel referred to a particular son of King Ahaz, the future king, Hezekiah.'
+  - where: 'section “With us is the LORD our God”'
+    claim: 'Combs: 2 Kings says of Hezekiah “the Lord was with him” (18:7)'
+    key: rsc-combs-ahaz-sign
+    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/king-ahazs-sign-christ-jesus'
+    quote: 'the author of 2 Kings praises Hezekiah, King Ahaz’s son, when he ascends to the throne by writing that “the Lord was with him” (18:7).'
+  - where: 'section “With us is the LORD our God”'
+    claim: '2 Kgs. 18:7 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-kgs/18?lang=eng'
+    quote: 'And the Lord was with him'
+  - where: 'section “With us is the LORD our God”'
+    claim: 'Combs: Isa. 8:8 states that the Kingdom of Judah belongs to Immanuel, and Judah was invaded under Hezekiah'
+    key: rsc-combs-ahaz-sign
+    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/king-ahazs-sign-christ-jesus'
+    quote: 'In fact, Isaiah 8:8 states explicitly that the Kingdom of Judah belongs to Immanuel.'
+  - where: 'section “With us is the LORD our God”'
+    claim: 'Combs: who Immanuel was in Isaiah’s day cannot be settled'
+    key: rsc-combs-ahaz-sign
+    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/king-ahazs-sign-christ-jesus'
+    quote: 'Ultimately, no definitive conclusion can be reached regarding the precise identity of Immanuel in the time of Isaiah.'
+  - where: 'section “With us is the LORD our God”'
+    claim: 'Connection made by this page: Hezekiah’s “with us is the LORD our God” (32:8) is the confidence of Isa. 8:8–10 on a king’s lips in the Assyrian invasion Isaiah spoke of; Hezekiah does not say the name Immanuel or quote Isaiah, and the page does not make him that child. The Immanuel sign given to Ahaz, who had not been with the LORD and would not ask (Isa. 7:12–14), shows the order later seen at 36:22–23.'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/32?lang=eng'
+    quote: 'but with us is the Lord our God to help us'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: '2 Chr. 35:21 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/35?lang=eng'
+    quote: 'forbear thee from meddling with God, who is with me, that he destroy thee not.'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: '2 Chr. 35:22 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/35?lang=eng'
+    quote: 'the words of Necho from the mouth of God'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: '2 Chr. 34:25 as quoted (Huldah)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/34?lang=eng'
+    quote: 'Because they have forsaken me'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: '2 Chr. 36:16 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/36?lang=eng'
+    quote: 'But they mocked the messengers of God, and despised his words, and misused his prophets, until the wrath of the Lord arose against his people, till there was no remedy.'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: '2 Chr. 15:4 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/15?lang=eng'
+    quote: 'But when they in their trouble did turn unto the Lord God of Israel, and sought him, he was found of them.'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: '2 Chr. 21:10 as quoted (Jehoram)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/21?lang=eng'
+    quote: 'because he had forsaken the Lord God of his fathers.'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: '2 Chr. 21:7 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/21?lang=eng'
+    quote: 'the Lord would not destroy the house of David, because of the covenant that he had made with David'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: 'The word of Jeremiah in 2 Chr. 36:21–22 is the seventy years of Jer. 25:11 and 29:10'
+    key: cambridge-chronicles
+    url: 'https://biblehub.com/commentaries/cambridge/2_chronicles/36.htm'
+    quote: 'by the mouth of Jeremiah] Cp. Jeremiah 25:11; Jeremiah 29:10.'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: 'Jer. 29:10 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/29?lang=eng'
+    quote: 'after seventy years be accomplished at Babylon I will visit you, and perform my good word toward you, in causing you to return to this place.'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: 'Jer. 29:12–14 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/29?lang=eng'
+    quote: 'And ye shall seek me, and find me, when ye shall search for me with all your heart. And I will be found of you, saith the Lord'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: 'Jer. 29:12 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/jer/29?lang=eng'
+    quote: 'Then shall ye call upon me, and ye shall go and pray unto me, and I will hearken unto you.'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: '2 Chr. 36:22 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/36?lang=eng'
+    quote: 'that the word of the Lord spoken by the mouth of Jeremiah might be accomplished, the Lord stirred up the spirit of Cyrus king of Persia'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: 'Ezra 1:3 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezra/1?lang=eng'
+    quote: 'his God be with him'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: 'Ezra 1:3 has yĕhî ʾĕlōhāyw ʿimmô, with the verb (word 5, H1961 jussive) and without YHWH (node scripts/hebrew.mjs Ezra 1:3); 2 Chr. 36:23 has the name and no verb (node scripts/hebrew.mjs "2 Chronicles" 36:23)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezra.xml'
+    quote: 'יְהִ֤י'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: 'The difference between Ezra 1:3 and 2 Chr. 36:23 has been put down to errors of transcription'
+    key: cambridge-ezra
+    url: 'https://biblehub.com/commentaries/cambridge/ezra/1.htm'
+    quote: 'The very slight differences clearly arise from errors of transcription.'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: 'In the Hebrew order Chronicles is last, so 36:23 is the last words of the Old Testament'
+    key: cambridge-chronicles
+    url: 'https://biblehub.com/commentaries/cambridge/2_chronicles/36.htm'
+    quote: 'Since Chronicles is the last book of the Old Testament (according to the Hebrew order), these words are to be reckoned the last words of the Old Testament.'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: 'Connection made by this page: the terms of 15:2 do not end in forsaking (15:4; 21:7); the word of Jeremiah that 36:22 says was being accomplished orders the LORD’s visit and the return first (Jer. 29:10) and the calling, seeking and finding after (Jer. 29:12–14), where “I will be found of you” is Azariah’s “he will be found of you” in the LORD’s own voice; so the wish of 36:23, at the LORD’s stirring and over anyone of the people, is mercy that moves first, the same order as the sign given to Ahaz unasked, and the terms stand. The page does not say the exiles had repented or that the judgment of 36:16 was softened.'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/36?lang=eng'
+    quote: 'the Lord stirred up the spirit of Cyrus king of Persia'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: 'Hag. 1:12 as quoted: the remnant obeyed the voice of the LORD before Hag. 1:13'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/1?lang=eng'
+    quote: 'with all the remnant of the people, obeyed the voice of the Lord their God'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: 'Hag. 1:14 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/1?lang=eng'
+    quote: 'and they came and did work in the house of the Lord of hosts, their God'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: 'Connection made by this page: the LORD’s “I am with you” (Hag. 1:13) answered the wish of 36:23 for a remnant already gone up and obedient, on the terms of 15:2; what the page reads in Immanuel is the LORD coming to a people not yet with Him.'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/1?lang=eng'
+    quote: 'I am with you, saith the Lord.'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: 'Hag. 1:13 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/hag/1?lang=eng'
+    quote: 'I am with you, saith the Lord.'
+  - where: 'section “Who is there among you of all his people?”'
+    claim: 'Hag. 1:13 “with you” is ʾittĕkem, the ʾēt form (word 10, H854; node scripts/hebrew.mjs Haggai 1:13)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Hag.xml'
+    quote: 'אִתְּ/כֶ֖ם'
+  - where: 'section “God with us”'
+    claim: 'Matt. 1:1 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/1?lang=eng'
+    quote: 'The book of the generation of Jesus Christ, the son of David, the son of Abraham.'
+  - where: 'section “God with us”'
+    claim: 'Matt. 1:21 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/1?lang=eng'
+    quote: 'thou shalt call his name Jesus: for he shall save his people from their sins.'
+  - where: 'section “God with us”'
+    claim: 'Matt. 1:23 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/1?lang=eng'
+    quote: 'they shall call his name Emmanuel, which being interpreted is, God with us.'
+  - where: 'section “God with us”'
+    claim: 'Immanuel is one of the names of Jesus Christ'
+    key: gs-immanuel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/immanuel?lang=eng'
+    quote: 'One of the names for Jesus Christ. It comes from words in Hebrew that mean “God with us.”'
+  - where: 'section “God with us”'
+    claim: 'The name signifies that Christ as God will be born into mortality and be among the people to save and redeem them'
+    key: bd-immanuel
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/immanuel?lang=eng'
+    quote: 'It signifies that Christ as God will be born into mortality of a virgin and will be among the people to save and redeem them.'
+  - where: 'section “God with us”'
+    claim: 'Mosiah 15:1 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/15?lang=eng'
+    quote: 'that God himself shall come down among the children of men, and shall redeem his people.'
+  - where: 'section “God with us”'
+    claim: 'Rom. 5:8 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/rom/5?lang=eng'
+    quote: 'But God commendeth his love toward us, in that, while we were yet sinners, Christ died for us.'
+  - where: 'section “God with us”'
+    claim: 'Connection made by this page: the open wish of 36:23 is answered in Jesus Christ, Immanuel: what Chronicles says of David’s sons (the LORD was with them) is in this Son of David said of who He is, and He comes on the far side of the forsaking to save His people from their sins (Matt. 1:21–23; Mosiah 15:1; Rom. 5:8), so that the order of 15:2 is not undone but preceded. What those verses and the Bible Dictionary say of Him is theirs; the joining to Chronicles is the page’s.'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/1?lang=eng'
+    quote: 'for he shall save his people from their sins.'
+  - where: 'section “God with us”'
+    claim: '2 Chr. 6:18 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/6?lang=eng'
+    quote: 'But will God in very deed dwell with men on the earth?'
+  - where: 'section “God with us”'
+    claim: '2 Chr. 6:18 “with men” is ʾet-hāʾādām, H854 (node scripts/occurrences.mjs 2-chronicles --hebrew H854), not ʿim'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/2Chr.xml'
+    quote: 'אֶת'
+  - where: 'section “God with us”'
+    claim: 'John 1:14 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/1?lang=eng'
+    quote: 'And the Word was made flesh, and dwelt among us'
+  - where: 'section “God with us”'
+    claim: 'Connection made by this page: Solomon’s question at 6:18, whether God will dwell with men on the earth, is read as answered by John 1:14 (with a different Hebrew preposition from the book’s sentences of presence).'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/1?lang=eng'
+    quote: 'And the Word was made flesh, and dwelt among us'
+  - where: 'section “God with us”'
+    claim: 'Combs: Matthew ends his Gospel as he began it'
+    key: rsc-combs-ahaz-sign
+    url: 'https://rsc.byu.edu/prophets-prophecies-old-testament/king-ahazs-sign-christ-jesus'
+    quote: 'Matthew demonstrates the eternality of Jesus’s Davidic reign by concluding his Gospel the same way he began it.'
+  - where: 'section “God with us”'
+    claim: 'Matt. 28:20 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/28?lang=eng'
+    quote: 'lo, I am with you alway, even unto the end of the world.'
+  - where: 'section “God with us”'
+    claim: 'Matt. 28:18–19 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/28?lang=eng'
+    quote: 'All power is given unto me in heaven and in earth.'
+  - where: 'section “God with us”'
+    claim: 'Matt. 28:19 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/28?lang=eng'
+    quote: 'Go ye therefore'
+  - where: 'section “God with us”'
+    claim: '2 Chr. 36:23 as quoted: all the kingdoms of the earth given to Cyrus'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/36?lang=eng'
+    quote: 'All the kingdoms of the earth hath the Lord God of heaven given me'
+  - where: 'section “God with us”'
+    claim: 'Connection made by this page: the two endings (2 Chr. 36:23 and Matt. 28:18–20) are alike in their words: a king given all the kingdoms of the earth sends whoever will to go up with a wish for God’s presence; the Lord given all power sends His disciples and promises His own presence. Likeness of words only; nothing is claimed about what Matthew drew on, and Cyrus is not made a figure of Christ.'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/28?lang=eng'
+    quote: 'lo, I am with you alway, even unto the end of the world.'
+  - where: 'section “That they may always have his Spirit to be with them”'
+    claim: 'D&C 20:77 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/20?lang=eng'
+    quote: 'always remember him and keep his commandments which he has given them; that they may always have his Spirit to be with them.'
+  - where: 'section “That they may always have his Spirit to be with them”'
+    claim: 'Oaks: the gift of the Holy Ghost includes the right to constant companionship'
+    key: oaks-always-have-his-spirit
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1996/10/always-have-his-spirit?lang=eng'
+    quote: 'The gift of the Holy Ghost includes the right to constant companionship'
+  - where: 'section “That they may always have his Spirit to be with them”'
+    claim: 'Oaks: partaking of the sacrament renews our qualification for the promise'
+    key: oaks-always-have-his-spirit
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1996/10/always-have-his-spirit?lang=eng'
+    quote: 'we renew our qualification for the promise'
+  - where: 'section “That they may always have his Spirit to be with them”'
+    claim: 'Oaks: the right is real, and the Spirit dwells with us only when we keep the commandments'
+    key: oaks-always-have-his-spirit
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1996/10/always-have-his-spirit?lang=eng'
+    quote: 'Even though we have a right to His constant companionship, the Spirit of the Lord will dwell with us only when we keep the commandments.'
+  - where: 'section “That they may always have his Spirit to be with them”'
+    claim: 'John 14:23 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/14?lang=eng'
+    quote: 'If a man love me, he will keep my words: and my Father will love him, and we will come unto him, and make our abode with him.'
+  - where: 'section “That they may always have his Spirit to be with them”'
+    claim: 'Connection made by this page: the sacrament prayer (D&C 20:77) and John 14:23 are read as keeping the two-sided form of 15:2 (the people with Him, He with them), with the condition put first rather than in 15:2’s order; He came first; a disciple who has not been with Him stands where the people of 36:23 stood.'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/20?lang=eng'
+    quote: 'that they may always have his Spirit to be with them.'
