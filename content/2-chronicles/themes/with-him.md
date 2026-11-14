@@ -4,7 +4,6 @@ blurb: '2 Chronicles opens by saying that the LORD his God was with David’s so
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bd-immanuel, gs-immanuel, rsc-combs-ahaz-sign, bowen-ominous-onomastics, cambridge-chronicles, cambridge-ezra, oaks-always-have-his-spirit]
 review: unread
-status: preview
 ---
 
 The second book of Chronicles begins, “And Solomon the son of David was strengthened in his kingdom, and the LORD his God was with him, and magnified him exceedingly” ([[2 Chr. 1:1]]). It ends with the proclamation of Cyrus king of Persia: “Who is there among you of all his people? The LORD his God be with him, and let him go up” ([[2 Chr. 36:23]]). “The LORD his God with him” is the same three Hebrew words in both, *YHWH ʾĕlōhāyw ʿimmô*, and neither sentence has a verb: “was” and “be” are the translators’, supplied from the setting, a narrator reporting in the one and a king proclaiming in the other.[@oshb-wlc] The phrase is not only at the two ends. It stands once between, of Asa ([[2 Chr. 15:9]]), seven verses after a prophet states the terms on which the LORD is with anyone at all.[@oshb-wlc]

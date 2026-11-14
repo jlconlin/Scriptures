@@ -4,7 +4,6 @@ blurb: 'In the LORD’s word to David, one house has two men: “a man of war,�
 icon: christ
 sources: [lds-scriptures, oshb-wlc, keil-chronicles, cambridge-chronicles, bd-solomon, bd-temple-of-solomon, sc-knowhy-865, nelson-overcome-world]
 review: unread
-status: preview
 ---
 
 Twice in 1 Chronicles David repeats what the LORD told him about the house he wanted to build, and the two sayings give two men two names. Of himself: “Thou shalt not build an house for my name, because thou hast been a man of war, and hast shed blood” ([[1 Chr. 28:3]]). Of the son to come: “Behold, a son shall be born to thee, who shall be a man of rest; and I will give him rest from all his enemies round about” ([[1 Chr. 22:9]]). There is one house. The man who wanted it, dedicated his spoil to it and planned it may not build it, and the man who builds it is given a peace he did not win.

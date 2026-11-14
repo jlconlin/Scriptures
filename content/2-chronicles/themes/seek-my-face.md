@@ -4,7 +4,6 @@ blurb: 'The LORD’s promise to Solomon joins seeking His face to being healed, 
 icon: christ
 sources: [lds-scriptures, oshb-wlc, bdb, davis-bended-rules, scripture-helps-2-chronicles, keil-chronicles, tg-heal, bd-jehovah]
 review: unread
-status: preview
 ---
 
 After the temple was dedicated, the LORD appeared to Solomon by night and gave him a promise in one sentence: “If my people, which are called by my name, shall humble themselves, and pray, and seek my face, and turn from their wicked ways; then will I hear from heaven, and will forgive their sin, and will heal their land” ([[2 Chr. 7:14]]). Four things the people do, three things the LORD does (the note at [7:14](/2-chronicles/7/)). One of the things asked, seek, runs through both books of Chronicles. The last thing promised, heal, is the second book’s word alone: its Hebrew root does not occur in 1 Chronicles.[@oshb-wlc]
