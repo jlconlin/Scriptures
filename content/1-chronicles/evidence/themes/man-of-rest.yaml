@@ -1,0 +1,417 @@
+page: man-of-rest
+claims:
+  - where: 'opening'
+    claim: '1 Chr. 28:3 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/28?lang=eng'
+    quote: 'Thou shalt not build an house for my name, because thou hast been a man of war, and hast shed blood.'
+  - where: 'opening'
+    claim: '1 Chr. 22:9 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/22?lang=eng'
+    quote: 'Behold, a son shall be born to thee, who shall be a man of rest; and I will give him rest from all his enemies round about'
+  - where: 'opening'
+    claim: 'Connection made by this page: “man of war” (28:3) and “man of rest” (22:9), set in one speech at 22:8–9, are a pair that divides one work between two men: the one whose wars won the rest and furnished the house may not build it, and the one who builds it is given a peace he did not win'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/22?lang=eng'
+    quote: 'thou shalt not build an house unto my name, because thou hast shed much blood upon the earth in my sight. Behold, a son shall be born to thee, who shall be a man of rest'
+  - where: 'opening'
+    claim: 'Connection made by this page: the two halves Chronicles divides between David and Solomon meet in Jesus Christ, who made peace by blood and builds a temple on it, the blood being His own (argued in section “The blood of his cross”)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/col/1?lang=eng'
+    quote: 'And, having made peace through the blood of his cross, by him to reconcile all things unto himself'
+  - where: 'opening'
+    claim: 'No Church, Scripture Central, RSC or Interpreter source found (as searched) calls Solomon a type of Christ in this respect, treats “man of war” and “man of rest” as a pair, or ties the bar on David to Christ; what was searched: BD, Guide to the Scriptures, seminary manuals, Come, Follow Me 2026, KnoWhys, RSC, Interpreter. The one Bible Dictionary entry on Solomon names no such reading'
+    key: bd-solomon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/solomon?lang=eng'
+    quote: 'Peaceable. Son of David and Bathsheba.'
+  - where: 'opening'
+    claim: 'Ps. 132:14 as quoted: the LORD calls the rest “my rest”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/132?lang=eng'
+    quote: 'This is my rest for ever: here will I dwell; for I have desired it.'
+
+  - where: 'section ““I will subdue all thine enemies””'
+    claim: '2 Sam. 7:1 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/7?lang=eng'
+    quote: 'And it came to pass, when the king sat in his house, and the Lord had given him rest round about from all his enemies;'
+  - where: 'section ““I will subdue all thine enemies””'
+    claim: '2 Sam. 7:11 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-sam/7?lang=eng'
+    quote: 'and have caused thee to rest from all thine enemies'
+  - where: 'section ““I will subdue all thine enemies””'
+    claim: '1 Chr. 17:1 has David sitting in his house with no clause of rest'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/17?lang=eng'
+    quote: 'Now it came to pass, as David sat in his house, that David said to Nathan the prophet'
+  - where: 'section ““I will subdue all thine enemies””'
+    claim: '1 Chr. 17:10 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/17?lang=eng'
+    quote: 'Moreover I will subdue all thine enemies.'
+  - where: 'section ““I will subdue all thine enemies””'
+    claim: '2 Sam. 7:1 hēnîaḥ and 7:11 wahănîḥōtî are both H5117 (node scripts/hebrew.mjs 2-samuel 7:1, 7:11; occurrences.mjs 2-samuel --hebrew H5117: 7:1, 7:11, 17:12, 21:10)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/2Sam.xml'
+    quote: 'וַ/הֲנִיחֹ֥תִי'
+  - where: 'section ““I will subdue all thine enemies””'
+    claim: '1 Chr. 17:10 “I will subdue” is wĕhiknaʿtî (H3665), and 1 Chr. 17 has no H5117 (node scripts/hebrew.mjs 1-chronicles 17:1, 17:10)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/1Chr.xml'
+    quote: 'וְ/הִכְנַ֖עְתִּי'
+  - where: 'section ““I will subdue all thine enemies””'
+    claim: 'Cambridge: the Chronicler omits Samuel’s words of rest probably because chapters 18–20 are devoted to wars'
+    key: cambridge-chronicles
+    url: 'https://biblehub.com/commentaries/cambridge/1_chronicles/17.htm'
+    quote: 'The Chronicler omits these words probably because his next three chapters (18–20) are devoted to wars (cp. 2 Samuel 8, 10).'
+  - where: 'section ““I will subdue all thine enemies””'
+    claim: 'Keil: the clause is omitted to avoid an apparent contradiction, since the greatest wars are narrated in the following chapter'
+    key: keil-chronicles
+    url: 'https://biblehub.com/commentaries/kad/1_chronicles/17.htm'
+    quote: 'has been omitted by the chronicler to avoid the apparent contradiction which would have arisen in case the narrative were taken chronologically, seeing that the greatest of David''s wars'
+  - where: 'section ““I will subdue all thine enemies””'
+    claim: 'H5117 (nûaḥ, give rest) occurs three times in 1 Chronicles, at 22:9, 22:18 and 23:25, each with the LORD as giver (node scripts/occurrences.mjs 1-chronicles --hebrew H5117: “Total: 3 occurrences in 3 verses”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/1Chr.xml'
+    quote: 'וְ/הֵנִ֥יחַ'
+  - where: 'section ““I will subdue all thine enemies””'
+    claim: 'Connection made by this page: the result of Chronicles’ wording (17:1, 10 against 2 Sam. 7:1, 11) is a David to whom the LORD’s rest is never said to be given; it is given in his days, to Solomon, to the leaders and to the people. Stated as the result, not the writer’s purpose'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/23?lang=eng'
+    quote: 'The Lord God of Israel hath given rest unto his people, that they may dwell in Jerusalem for ever'
+  - where: 'section ““I will subdue all thine enemies””'
+    claim: '1 Chr. 18:8 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/18?lang=eng'
+    quote: 'brought David very much brass, wherewith Solomon made the brasen sea, and the pillars, and the vessels of brass.'
+  - where: 'section ““I will subdue all thine enemies””'
+    claim: '1 Chr. 18:11 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/18?lang=eng'
+    quote: 'Them also king David dedicated unto the Lord, with the silver and the gold that he brought from all these nations; from Edom, and from Moab, and from the children of Ammon, and from the Philistines, and from Amalek.'
+
+  - where: 'section ““Thou shalt not build””'
+    claim: '1 Chr. 22:8 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/22?lang=eng'
+    quote: 'Thou hast shed blood abundantly, and hast made great wars: thou shalt not build an house unto my name, because thou hast shed much blood upon the earth in my sight.'
+  - where: 'section ““Thou shalt not build””'
+    claim: '1 Chr. 22:9 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/22?lang=eng'
+    quote: 'for his name shall be Solomon, and I will give peace and quietness unto Israel in his days.'
+  - where: 'section ““Thou shalt not build””'
+    claim: 'In 1 Chr. 22:9 the clause that gives the name Šĕlōmōh (H8010; šĕlōmōh yihyeh šĕmô, “Solomon shall be his name”) goes straight on with wĕšālôm (H7965), “and peace”; “a man of rest” is ʾîš mĕnûḥâ (H376, H4496) (node scripts/hebrew.mjs 1-chronicles 22:9)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/1Chr.xml'
+    quote: 'וְ/שָׁל֥וֹם'
+  - where: 'section ““Thou shalt not build””'
+    claim: 'The name Solomon means “Peaceable”'
+    key: bd-solomon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/solomon?lang=eng'
+    quote: 'Peaceable. Son of David and Bathsheba.'
+  - where: 'section ““Thou shalt not build””'
+    claim: 'H4496 mĕnûḥâ occurs in 1 Chronicles twice, at 22:9 (ʾîš mĕnûḥâ) and 28:2 (bêt mĕnûḥâ) (node scripts/occurrences.mjs 1-chronicles --hebrew H4496: “Total: 2 occurrences in 2 verses”; hebrew.mjs 1-chronicles 28:2)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/1Chr.xml'
+    quote: 'מְנוּחָ֜ה'
+  - where: 'section ““Thou shalt not build””'
+    claim: '1 Chr. 28:2 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/28?lang=eng'
+    quote: 'I had in mine heart to build an house of rest for the ark of the covenant of the Lord, and for the footstool of our God, and had made ready for the building'
+  - where: 'section ““Thou shalt not build””'
+    claim: '1 Chr. 28:3 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/28?lang=eng'
+    quote: 'because thou hast been a man of war, and hast shed blood.'
+  - where: 'section ““Thou shalt not build””'
+    claim: '1 Chr. 22:18 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/22?lang=eng'
+    quote: 'Is not the Lord your God with you? and hath he not given you rest on every side? for he hath given the inhabitants of the land into mine hand; and the land is subdued before the Lord, and before his people.'
+  - where: 'section ““Thou shalt not build””'
+    claim: '1 Chr. 23:25 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/23?lang=eng'
+    quote: 'The Lord God of Israel hath given rest unto his people'
+  - where: 'section ““Thou shalt not build””'
+    claim: '1 Chr. 22:14 as quoted and summarized (gold, silver, brass, iron, timber, stone)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/22?lang=eng'
+    quote: 'in my trouble I have prepared for the house of the Lord an hundred thousand talents of gold, and a thousand thousand talents of silver; and of brass and iron without weight'
+  - where: 'section ““Thou shalt not build””'
+    claim: '1 Chr. 28:19 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/28?lang=eng'
+    quote: 'the Lord made me understand in writing by his hand upon me, even all the works of this pattern.'
+  - where: 'section ““Thou shalt not build””'
+    claim: 'David collected the temple’s materials and planned the house and its furniture'
+    key: bd-temple-of-solomon
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/temple-of-solomon?lang=eng'
+    quote: 'had been collected by David (1 Chr. 22:14). He had also planned the house and its furniture to its details (1 Chr. 28:11–20)'
+  - where: 'section ““Thou shalt not build””'
+    claim: 'Keil: wars are unavoidable and necessary for the kingdom of God but not consonant with its nature as embodied in the temple; the kingdom is in essence a kingdom of peace'
+    key: keil-chronicles
+    url: 'https://biblehub.com/commentaries/kad/1_chronicles/22.htm'
+    quote: 'are unavoidable and necessary in this earth for the establishment of the kingdom of God in opposition to its enemies, but are not consonant with its nature, as it was to receive a visible embodiment and expression in the temple.'
+  - where: 'section ““Thou shalt not build””'
+    claim: 'Keil: the kingdom of God is in its essence a kingdom of peace'
+    key: keil-chronicles
+    url: 'https://biblehub.com/commentaries/kad/1_chronicles/22.htm'
+    quote: 'For the kingdom of God is in its essence a kingdom of peace'
+  - where: 'section ““Thou shalt not build””'
+    claim: '1 Chr. 22:16 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/22?lang=eng'
+    quote: 'Arise therefore, and be doing, and the Lord be with thee.'
+  - where: 'section ““Thou shalt not build””'
+    claim: '1 Kgs. 11:9 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/11?lang=eng'
+    quote: 'And the Lord was angry with Solomon, because his heart was turned from the Lord God of Israel'
+  - where: 'section ““Thou shalt not build””'
+    claim: '1 Kgs. 11:14 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/11?lang=eng'
+    quote: 'And the Lord stirred up an adversary unto Solomon'
+  - where: 'section ““Thou shalt not build””'
+    claim: '1 Kgs. 11:23 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-kgs/11?lang=eng'
+    quote: 'And God stirred him up another adversary'
+  - where: 'section ““Thou shalt not build””'
+    claim: 'Solomon’s reign was not wholly peaceful'
+    key: cambridge-chronicles
+    url: 'https://biblehub.com/commentaries/cambridge/1_chronicles/22.htm'
+    quote: 'Solomon’s reign was not wholly peaceful; cp. 1 Kings 11:14; 1 Kings 11:23; 1 Kings 11:26.'
+
+  - where: 'section ““The LORD is a man of war””'
+    claim: 'Ex. 15:3 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/15?lang=eng'
+    quote: 'The Lord is a man of war: the Lord is his name.'
+  - where: 'section ““The LORD is a man of war””'
+    claim: 'The Church’s heading to Exodus 15: Israel extols the Lord as a man of war'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ex/15?lang=eng'
+    quote: 'They extol the Lord as a man of war'
+  - where: 'section ““The LORD is a man of war””'
+    claim: 'Ex. 15:3 ʾîš milḥāmâ (H376 + H4421 singular) and 1 Chr. 28:3 ʾîš milḥāmôt (H376 + H4421 plural) are the same two nouns (node scripts/hebrew.mjs exodus 15:3; 1-chronicles 28:3)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: 'מִלְחָמָ֑ה'
+  - where: 'section ““The LORD is a man of war””'
+    claim: '1 Chr. 28:3 ʾîš milḥāmôt, plural (node scripts/hebrew.mjs 1-chronicles 28:3)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/1Chr.xml'
+    quote: 'מִלְחָמ֛וֹת'
+  - where: 'section ““The LORD is a man of war””'
+    claim: 'Connection made by this page: Ex. 15:3 and 1 Chr. 28:3 share the title “man of war” (no source read links them), and what Chronicles divides between David and Solomon is the LORD’s: Israel sang Him a man of war, and the rest is His (He gives it, 22:9, 18; 23:25, and calls it “my rest”) (Ps. 132:14 with 28:2 and 2 Chr. 6:41); so the bar on David is not read as saying war is foreign to Him, and the division is in the men, not in Him'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/132?lang=eng'
+    quote: 'This is my rest for ever: here will I dwell; for I have desired it.'
+  - where: 'section ““The LORD is a man of war””'
+    claim: '2 Chr. 6:41 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/2-chr/6?lang=eng'
+    quote: 'Now therefore arise, O Lord God, into thy resting place, thou, and the ark of thy strength'
+  - where: 'section ““The LORD is a man of war””'
+    claim: 'Ps. 132:8 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/132?lang=eng'
+    quote: 'Arise, O Lord, into thy rest; thou, and the ark of thy strength.'
+  - where: 'section ““The LORD is a man of war””'
+    claim: 'Ps. 132:14 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/132?lang=eng'
+    quote: 'This is my rest for ever: here will I dwell; for I have desired it.'
+  - where: 'section ““The LORD is a man of war””'
+    claim: 'Ps. 132:8 limnûḥātekā and 132:14 mĕnûḥātî are H4496, the word of 1 Chr. 22:9 and 28:2 (node scripts/hebrew.mjs psalms 132:8, 132:14)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ps.xml'
+    quote: 'לִ/מְנוּחָתֶ֑/ךָ'
+  - where: 'section ““The LORD is a man of war””'
+    claim: '2 Chr. 6:41 “resting place” is lĕnûḥekā, H5118 (nôaḥ), not H4496 (node scripts/hebrew.mjs 2-chronicles 6:41; occurrences.mjs 2-chronicles --hebrew H4496: “Total: 0 occurrences in 0 verses”)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/2Chr.xml'
+    quote: 'לְֽ/נוּחֶ֔/ךָ'
+  - where: 'section ““The LORD is a man of war””'
+    claim: '1 Chr. 6:31 “had rest” is mimmĕnôaḥ, H4494 (mānôaḥ) (node scripts/hebrew.mjs 1-chronicles 6:31; occurrences.mjs 1-chronicles --hebrew H4494: 6:31 only)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/1Chr.xml'
+    quote: 'מִ/מְּנ֖וֹחַ'
+  - where: 'section ““The LORD is a man of war””'
+    claim: 'Every verse of 1 Chronicles with H5117 has the LORD as giver of rest (22:9, 22:18, 23:25; occurrences.mjs 1-chronicles --hebrew H5117)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/1Chr.xml'
+    quote: 'וַ/הֲנִח֥וֹתִי'
+  - where: 'section ““The LORD is a man of war””'
+    claim: '1 Chr. 23:25–26 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/23?lang=eng'
+    quote: 'they shall no more carry the tabernacle, nor any vessels of it for the service thereof.'
+  - where: 'section ““The LORD is a man of war””'
+    claim: '1 Chr. 23:25 “that they may dwell” is wayyiškōn, singular, “and he dwelt” (H7931, HC/Vqw3ms; node scripts/hebrew.mjs 1-chronicles 23:25)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/1Chr.xml'
+    quote: 'וַ/יִּשְׁכֹּ֥ן'
+  - where: 'section ““The LORD is a man of war””'
+    claim: '1 Chr. 23:30 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/23?lang=eng'
+    quote: 'And to stand every morning to thank and praise the Lord, and likewise at even;'
+  - where: 'section ““The LORD is a man of war””'
+    claim: '1 Chr. 6:31 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/6?lang=eng'
+    quote: 'And these are they whom David set over the service of song in the house of the Lord, after that the ark had rest.'
+
+  - where: 'section ““The blood of his cross””'
+    claim: 'Heb. 1:5 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/1?lang=eng'
+    quote: 'I will be to him a Father, and he shall be to me a Son?'
+  - where: 'section ““The blood of his cross””'
+    claim: 'The Church’s footnote 1 Chr. 17:13a (“father”) goes to Heb. 1:5 (source.mjs --notes)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/17?lang=eng'
+    quote: 'Heb. 1:5'
+  - where: 'section ““The blood of his cross””'
+    claim: '“I will be his father” at 1 Chr. 17:13, 22:10 and 28:6'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/22?lang=eng'
+    quote: 'he shall be my son, and I will be his father'
+  - where: 'section ““The blood of his cross””'
+    claim: '1 Chr. 28:6 is among the verses in which God declares the king of Israel His son'
+    key: sc-knowhy-865
+    url: 'https://scripturecentral.org/knowhy/why-does-god-declare-jesus-to-be-his-son'
+    quote: 'In several verses of the Old Testament, God declares the king of Israel to be his son'
+  - where: 'section ““The blood of his cross””'
+    claim: 'KnoWhy 865 cites 1 Chr. 28:6'
+    key: sc-knowhy-865
+    url: 'https://scripturecentral.org/knowhy/why-does-god-declare-jesus-to-be-his-son'
+    quote: '1 Chronicles 28:6 similarly states, “I have chosen him to be my son, and I will be his father.”'
+  - where: 'section ““The blood of his cross””'
+    claim: 'Matt. 12:42 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/12?lang=eng'
+    quote: 'a greater than Solomon is here.'
+  - where: 'section ““The blood of his cross””'
+    claim: 'Matt. 12:6 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/12?lang=eng'
+    quote: 'in this place is one greater than the temple.'
+  - where: 'section ““The blood of his cross””'
+    claim: 'Isa. 9:6 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/9?lang=eng'
+    quote: 'his name shall be called Wonderful, Counsellor, The mighty God, The everlasting Father, The Prince of Peace.'
+  - where: 'section ““The blood of his cross””'
+    claim: 'Isa. 9:7 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/9?lang=eng'
+    quote: 'Of the increase of his government and peace there shall be no end, upon the throne of David'
+  - where: 'section ““The blood of his cross””'
+    claim: 'The Church’s footnote Isa. 9:7c (“David”) goes to TG Jesus Christ, Davidic Descent of (source.mjs --notes)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/9?lang=eng'
+    quote: 'Jesus Christ, Davidic Descent of'
+  - where: 'section ““The blood of his cross””'
+    claim: '“Prince of Peace” is śar šālôm (H8269, H7965), the noun of the clause that gives Solomon’s name at 1 Chr. 22:9 (wĕšālôm, after yihyeh šĕmô) (node scripts/hebrew.mjs isaiah 9:6, Hebrew 9:5)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: 'שָׁלֽוֹם'
+  - where: 'section ““The blood of his cross””'
+    claim: 'Zech. 6:12 as quoted: the Branch shall build the temple'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/6?lang=eng'
+    quote: 'he shall build the temple of the Lord'
+  - where: 'section ““The blood of his cross””'
+    claim: 'The Church’s heading to Zechariah 6 reads Joshua’s crowning in similitude of Christ, the Branch'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/zech/6?lang=eng'
+    quote: 'Zechariah crowns Joshua, the high priest, in similitude of Christ, the Branch, who will come'
+  - where: 'section ““The blood of his cross””'
+    claim: 'Col. 1:20 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/col/1?lang=eng'
+    quote: 'having made peace through the blood of his cross'
+  - where: 'section ““The blood of his cross””'
+    claim: 'Eph. 2:13–14 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/eph/2?lang=eng'
+    quote: 'ye who sometimes were far off are made nigh by the blood of Christ. For he is our peace'
+  - where: 'section ““The blood of his cross””'
+    claim: 'Eph. 2:16–17 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/eph/2?lang=eng'
+    quote: 'unto God in one body by the cross, having slain the enmity thereby: And came and preached peace'
+  - where: 'section ““The blood of his cross””'
+    claim: 'Eph. 2:21 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/eph/2?lang=eng'
+    quote: 'all the building fitly framed together groweth unto an holy temple in the Lord'
+  - where: 'section ““The blood of his cross””'
+    claim: 'Heb. 9:12 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/9?lang=eng'
+    quote: 'by his own blood he entered in once into the holy place'
+  - where: 'section ““The blood of his cross””'
+    claim: 'Connection made by this page: Col. 1:20 and Eph. 2:13–21 hold together in Jesus Christ what 1 Chr. 22:8–9 divides between David and Solomon, peace made by blood and the temple built; what differs from David is that the blood was His own and the thing slain was the enmity. What the verses say of Christ is theirs; only the joining to David and Solomon is the page’s'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/eph/2?lang=eng'
+    quote: 'having slain the enmity thereby'
+
+  - where: 'section ““Arise therefore, and build””'
+    claim: 'Matt. 11:28–29 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/11?lang=eng'
+    quote: 'Come unto me, all ye that labour and are heavy laden, and I will give you rest. Take my yoke upon you, and learn of me'
+  - where: 'section ““Arise therefore, and build””'
+    claim: 'John 14:27 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/14?lang=eng'
+    quote: 'my peace I give unto you: not as the world giveth, give I unto you.'
+  - where: 'section ““Arise therefore, and build””'
+    claim: '1 Chr. 22:19 as quoted, the verse after 22:18'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/22?lang=eng'
+    quote: 'arise therefore, and build ye the sanctuary of the Lord God'
+  - where: 'section ““Arise therefore, and build””'
+    claim: '1 Chr. 23:32 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/1-chr/23?lang=eng'
+    quote: 'in the service of the house of the Lord.'
+  - where: 'section ““Arise therefore, and build””'
+    claim: 'Connection made by this page: the Levites’ change from carrying the tabernacle to standing morning and evening to praise (1 Chr. 23:26, 30, 32) is a likeness of the easy yoke and light burden of Matt. 11:28–30: the carrying ends and the service includes praise. Said as a likeness, with no source behind it'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/11?lang=eng'
+    quote: 'For my yoke is easy, and my burden is light.'
+  - where: 'section ““Arise therefore, and build””'
+    claim: '1 Cor. 3:16 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-cor/3?lang=eng'
+    quote: 'ye are the temple of God'
+  - where: 'section ““Arise therefore, and build””'
+    claim: '1 Pet. 2:5 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-pet/2?lang=eng'
+    quote: 'Ye also, as lively stones, are built up a spiritual house'
+  - where: 'section ““Arise therefore, and build””'
+    claim: 'Eph. 2:22 as quoted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/eph/2?lang=eng'
+    quote: 'In whom ye also are builded together for an habitation of God through the Spirit.'
+  - where: 'section ““Arise therefore, and build””'
+    claim: 'President Nelson: the direct connection between a temple covenant and the Savior’s promise of rest (Matt. 11:28–30)'
+    key: nelson-overcome-world
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2022/10/47nelson?lang=eng'
+    quote: 'the direct connection between making a covenant with God in the temple and the Savior’s stunning promise'
+  - where: 'section ““Arise therefore, and build””'
+    claim: 'President Nelson: covenant keepers are entitled to a special kind of rest'
+    key: nelson-overcome-world
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2022/10/47nelson?lang=eng'
+    quote: 'covenant keepers are entitled to a special kind of rest that comes to them through their covenantal relationship with God.'
