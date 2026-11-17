@@ -62,7 +62,7 @@ node scripts/check-chapter.mjs <book> <n>
 node scripts/check-sources.mjs <book> <n>     # after you add or change an entry in the proposed file
 ```
 
-`check-chapter.mjs` runs `fix-yaml`, the build (`PREVIEW=1`, into its own folder under `.cache/batch/<book>/`, so a book in preview is built), `check-quotes`, `check-content` (the proposed entries added in memory, so no scratch copy of `content/`) and `check-ledger`, prints a one-line result for each with only the lines that concern this chapter, and exits 1 if one fails. Fix every warning that concerns this chapter. “Unknown source key” for a proposed key is expected from the plain build.
+`check-chapter.mjs` runs every check for the chapter (the build, the scripture quotations, the content rules with the proposed entries added, and the ledger's quotes on their pages), prints a one-line result for each with only the lines that concern this chapter, and exits 1 if one fails. Fix every warning that concerns this chapter. “Unknown source key” for a proposed key is expected.
 
 ## Limits
 

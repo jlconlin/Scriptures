@@ -4,7 +4,7 @@ export const meta = {
   whenToUse: 'A theme’s dossier is gathered and the coordinating session has written its outline (STANDARDS.md §8). args: { book, file, dossier, outline, writerModel, codexModel }',
   phases: [{ title: 'Write' }, { title: 'Review' }, { title: 'Repair' }, { title: 'Language' }],
 }
-// The theme twin of write-guide.js (same four agents, the theme instructions instead of the guide ones).
+// Four agents: writer, reviewer, the writer again for repairs, then Codex's reading applied.
 // args:
 //   book         the book's slug
 //   file         the page's file name without .md: 'the-firstborn'
