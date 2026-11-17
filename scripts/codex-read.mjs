@@ -189,7 +189,9 @@ const archive = (label) => {
 archive('previous');
 fs.rmSync(`${out}.meta.json`, { force: true });
 const run = spawnSync('codex', ['exec', ...(model ? ['-m', model] : []), '--sandbox', 'read-only', '--ephemeral', '-C', process.cwd(), '-o', out, '-'],
-  { input: ask, stdio: ['pipe', 'ignore', 'inherit'], timeout: 30 * 60 * 1000 });
+  // A reading takes a minute or two (a whole batch side by side, a few); one that hangs is killed early so the batch can be run
+  // again, which skips what is done (2026-11-17: a hung reading held the Nehemiah trial for the old limit of thirty minutes).
+  { input: ask, stdio: ['pipe', 'ignore', 'inherit'], timeout: (inline ? 10 : 20) * 60 * 1000 });
 if (run.error) { archive('failed'); console.error(run.error.code === 'ENOENT' ? 'the codex CLI is not installed or not on PATH' : run.error.message); process.exit(1); }
 if (run.status !== 0 || !fs.existsSync(out) || fs.statSync(out).size === 0) { const usable = fs.existsSync(out) && fs.statSync(out).size > 0; archive('failed'); console.error(`codex exec ended with status ${run.status} and ${usable ? 'a nonempty' : 'no usable'} findings file`); process.exit(1); }
 if (isChapters) {
