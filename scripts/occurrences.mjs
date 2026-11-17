@@ -1,5 +1,5 @@
 // Every place a word, a phrase, or a Hebrew word occurs in a book, so a theme page starts from the full list and not from what a
-// reader happened to notice (STANDARDS.md §8: “List every occurrence, including those that don't fit, before calling something a
+// reader happened to notice (PAGES.md: “List every occurrence, including those that don't fit, before calling something a
 // pattern, and check a repeated English word in the original language”).
 // Usage: node scripts/occurrences.mjs <book> "<word or phrase>" ["more words" …] [--stem] [--books]
 //          every verse of the book's King James text (data/kjv/<book>.json) that has the phrase (case-insensitive, whole words),

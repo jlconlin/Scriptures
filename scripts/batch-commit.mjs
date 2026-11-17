@@ -1,11 +1,15 @@
 // The coordinator's last step for a batch: run every check on each chapter and commit the ones that pass,
-// one commit a chapter with its ledger (STANDARDS.md §11, step 8). A chapter that fails is left uncommitted
+// one commit a chapter with its ledger (STANDARDS.md §11). A chapter that fails is left uncommitted
 // and its failing lines are printed.
-// Usage: node scripts/batch-commit.mjs <book> written|pass <chapters…> [--applied-by Sonnet]   (the model that applied Codex's findings; Opus by default)
-//   written  “<Unit> <n>: written, checked and reviewed”
+// Usage: node scripts/batch-commit.mjs <book> reviewed|written|pass <chapters…> [--applied-by Sonnet]   (the model that applied Codex's findings; Opus by default)
+//   reviewed “<Unit> <n>: written, checked and reviewed, with the language pass (Codex's reading, decided by Opus)”, with the
+//            prose-review trailers: a chapter whose reviewer decided Codex's reading of the draft (review-chapters). A chapter
+//            with no Codex reading in .cache/batch/<book>/reports/ is committed as “written”, and its pass stays open.
+//   written  “<Unit> <n>: written, checked and reviewed”   (no language pass recorded)
 //   pass     “<Book> <n>: language pass (Codex's findings, applied by Opus)”   (the wording status.mjs reads)
 import { execFileSync } from 'node:child_process';
 import path from 'node:path';
+import { existsSync, statSync } from 'node:fs';
 import { findBook } from '../src/lib/books.mjs';
 import { proseReviewTrailers } from './prose-review.mjs';
 // The commit's attribution line: the model that ran the batch, from CLAUDE_MODEL_NAME (set by the coordinator), else a generic one.
@@ -16,7 +20,7 @@ const argv = process.argv.slice(2);
 const byAt = argv.indexOf('--applied-by');
 const appliedBy = byAt >= 0 ? argv.splice(byAt, 2)[1] : 'Opus';
 const [slug, kind, ...chapters] = argv;
-if (!slug || !['written', 'pass'].includes(kind) || !chapters.length) { console.error('Usage: node scripts/batch-commit.mjs <book> written|pass <chapters…>'); process.exit(1); }
+if (!slug || !['reviewed', 'written', 'pass'].includes(kind) || !chapters.length) { console.error('Usage: node scripts/batch-commit.mjs <book> reviewed|written|pass <chapters…>'); process.exit(1); }
 const book = await findBook(ROOT, slug);
 const pad = (n) => String(n).padStart(2, '0');
 const git = (...a) => execFileSync('git', a, { cwd: ROOT, encoding: 'utf8' });
@@ -34,8 +38,13 @@ for (const n of chapters) {
   git('add', ...files);
   const changed = git('diff', '--cached', '--name-only', '--', ...files).trim();
   if (!changed && kind !== 'pass') { console.log(`– ${book.name} ${n}: nothing to commit`); continue; }
-  const msg = kind === 'written' ? `${book.unit?.singular ?? book.name} ${n}: written, checked and reviewed` : `${book.name} ${n}: language pass (Codex's findings, applied by ${appliedBy})`;
-  const review = kind === 'pass' ? `${proseReviewTrailers(slug, Number(n), path.join(ROOT, files[0]))}\n\n` : '';
+  const reading = path.join(ROOT, `.cache/batch/${slug}/reports/${pad(n)}-codex.md`);
+  const read = kind === 'reviewed' && existsSync(reading) && statSync(reading).size > 0;
+  if (kind === 'reviewed' && !read) console.log(`  ${book.name} ${n}: no Codex reading found; committed as written, language pass still open`);
+  const unit = book.unit?.singular ?? book.name;
+  const msg = read ? `${unit} ${n}: written, checked and reviewed, with the language pass (Codex's reading, decided by ${appliedBy})`
+    : kind === 'pass' ? `${book.name} ${n}: language pass (Codex's findings, applied by ${appliedBy})` : `${unit} ${n}: written, checked and reviewed`;
+  const review = kind === 'pass' || read ? `${proseReviewTrailers(slug, Number(n), path.join(ROOT, files[0]))}\n\n` : '';
   git('commit', '-q', ...(kind === 'pass' ? ['--allow-empty'] : []), '-m', `${msg}\n\n${review}${coauthor()}`, '--', ...files);
   console.log(`✓ ${book.name} ${n}: ${changed ? 'committed' : 'review recorded; no content changes'}${warnings.length ? `  (${warnings.join('; ')})` : ''}`);
 }

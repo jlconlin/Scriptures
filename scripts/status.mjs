@@ -43,7 +43,7 @@ const passed = (book) => {
   const subjects = git('log', '--format=%s', '-i', '--grep=language pass', '--', `content/${book.slug}/chapters`);
   const done = new Set();
   for (const s of subjects.split('\n')) {
-    const m = s.match(/^[\w ]+? (\d+)(?:[–-](\d+))?: language pass/i);
+    const m = s.match(/^[\w ]+? (\d+)(?:[–-](\d+))?: (?:written, checked and reviewed, with the )?language pass/i);
     if (!m) continue;
     for (let n = +m[1]; n <= +(m[2] ?? m[1]); n++) done.add(n);
   }
@@ -112,7 +112,7 @@ for (const book of await discoverBooks(root)) {
 }
 const site = waiting['the site'];
 if (!only && site) console.log(`\nThe site: for the author ${site.join(', ')}`);
-// Where a theme page or guide stands in the review of the pages written before 2026-10-25 (STANDARDS.md §8,
+// Where a theme page or guide stands in the review of the pages written before 2026-10-25 (PAGES.md,
 // “Where a page stands”): `review: unread` (rewritten, live, not yet read by the author), `review: read`,
 // `review: old-form` (kept, rewritten when the author's study reaches the book). Returns the text for a pages line.
 async function reviewOf(dirs) {

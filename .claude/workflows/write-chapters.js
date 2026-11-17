@@ -1,33 +1,27 @@
 export const meta = {
   name: 'write-chapters',
-  description: 'Write and review a batch of chapters of one book: a writer, a checker that reopens the sources, then a reviewer',
-  whenToUse: 'A book has an approved BRIEF.md and the author wants chapters written. args: { book, chapters, writerModel, models, focus, lastBatch }',
-  phases: [{ title: 'Write' }, { title: 'Check' }, { title: 'Review' }],
+  description: 'Write a batch of chapters of one book and check each against its sources: a writer, then a checker that reopens the sources. Codex reads the drafts next, then review-chapters',
+  whenToUse: 'A book has an approved BRIEF.md and the author wants chapters written. args: { book, chapters, writerModel, models, focus }',
+  phases: [{ title: 'Write' }, { title: 'Check' }],
 }
 // args:
 //   book         the book's slug (the directory under content/), e.g. 'genesis'
 //   chapters     chapter numbers to write, e.g. [27, 28, 29]; about twelve at a time is a good batch
 //   writerModel  'opus' (default; author, 2026-10-07, after the test on Jeremiah 19 and 45) or 'sonnet'.
-//   reviewerModel 'opus' (default) or 'sonnet', for the last step
 //   focus        optional: the author's focus questions, keyed by chapter number
 //   skipKeys     optional: source keys whose rows the checker reads in the ledger only, without page context
 //                (default 'lds-scriptures,oshb-wlc,biblehub-interlinear')
-// Three agents per chapter, none of which sees another's conversation:
+//   models       optional chapter numbers of finished chapters of this book to use as models, e.g. [1, 22]
+// Two agents per chapter, neither of which sees the other's conversation:
 //   chapter-writer (Opus)     researches and writes the chapter and its ledger
 //   chapter-checker (Sonnet)  the mechanical half of the review: reopens the sources, compares each claim with
 //                             its page, tests the checkable rules, and writes its findings with the sources quoted
-//   chapter-reviewer (Opus, or Sonnet if asked)  the judgment: decides each finding and repairs the chapter, without reopening sources
-// Opus writes and reviews; the checking between them is Sonnet's (author, 2026-10-04: Opus need not be the one to see that pages exist).
-//   models       optional chapter numbers of finished chapters of this book to use as models, e.g. [1, 22]
-//   lastBatch    true when these chapters finish the book. If every reviewer then reports its chapter ready,
-//                the batch ends by running create-book-art (the book-art-director's visual brief, then one
-//                candidate image drawn by Codex); otherwise it says why not, and the coordinator runs create-book-art after the repairs.
-//                It then runs propose-themes: Fable reads the finished book and proposes theme pages.
-//   themes       false for a book the author has said needs no theme pages: propose-themes is not run (Song of Solomon, 2026-10-24).
-// Each agent works in the repository. Writers and reviewers leave two working files per chapter in
-// .cache/batch/<book>/ (not committed): proposed/NN.yaml, the sources.yaml entries the chapter needs, and
-// reports/NN-writer.md and reports/NN-check.md. Afterwards the coordinator runs scripts/merge-sources.mjs and scripts/batch-notes.mjs,
-// then the checks, and commits one chapter at a time (DEVELOPMENT.md, “Writing a book in batches”: batch-finish.mjs does all three).
+// Then, from the shell, Codex reads the drafts (node scripts/codex-read.mjs <book> <from>-<to> --batch), and the
+// review-chapters workflow has an Opus reviewer decide both lists of findings and repair each chapter once
+// (PROCESS.md, “Writing a book in batches”). Until 2026-11-17 the reviewer ran here and Codex read afterwards,
+// with a separate apply stage (codex-pass); that arrangement is this file at commit 584c7225.
+// Each agent works in the repository and leaves working files in .cache/batch/<book>/ (not committed):
+// proposed/NN.yaml, the sources.yaml entries the chapter needs, reports/NN-writer.md and reports/NN-check.md.
 const book = args.book
 const scratch = `.cache/batch/${book}`
 const pad = (n) => String(n).padStart(2, '0')
@@ -52,68 +46,18 @@ const checkPrompt = (n) => `Check chapter ${n} of ${book} (book: ${book}, chapte
 
 ${common(n)}
 
-The writer's report is at ${scratch}/reports/${pad(n)}-writer.md and its proposed sources.yaml entries at ${scratch}/proposed/${pad(n)}.yaml; keep that proposed file accurate. Write your findings to ${scratch}/reports/${pad(n)}-check.md. That file is required working output, the reviewer's input in this pipeline, not a report or documentation file: write it. If the write fails, put the full findings in your final message instead, since the reviewer is given that message too.
+The writer's report is at ${scratch}/reports/${pad(n)}-writer.md and its proposed sources.yaml entries at ${scratch}/proposed/${pad(n)}.yaml; keep that proposed file accurate. Write your findings to ${scratch}/reports/${pad(n)}-check.md. That file is required working output, the reviewer's input in this pipeline, not a report or documentation file: write it. If the write fails, save your full findings anywhere under ${scratch}/reports/ and say where in your final message.
 
 Do the reading with the scripts your instructions name, not one fetch at a time. The skip list for this book: node scripts/ledger-context.mjs ${book} ${n} --skip-keys ${skipKeys}.`
-const reviewPrompt = (n, checkerMessage = '') => `Review chapter ${n} of ${book} (book: ${book}, chapter: ${n}): content/${book}/chapters/${pad(n)}.yaml with its ledger content/${book}/evidence/${pad(n)}.yaml. You did not write it.
-
-${common(n)}
-
-The checker's findings are at ${scratch}/reports/${pad(n)}-check.md, the writer's report at ${scratch}/reports/${pad(n)}-writer.md, and the proposed sources.yaml entries at ${scratch}/proposed/${pad(n)}.yaml. The script has confirmed the ledger's quotes and the checker has reopened the sources, so work from the chapter and the findings, without reading the ledger through (read a note's rows when you repair that note): decide every finding, and open a page yourself only when a finding can't be settled from what it quotes. Make the repairs in as few messages as you can, several edits in each. If the findings file is missing, the checker's findings are in its final message, below: work from that, and don't redo the source check.
-
-Test in particular: no note only repeats what the Gospel Library puts beside the verse (a footnote, the chapter heading, the JST, Scripture Helps); a note goes further or is cut. Where a note starts from Scripture Helps, the work its endnote cites was looked for and is cited if it is readable and used. The contested questions follow the brief. No reading of the chapter's own: a connection or interpretation no source applies to this verse is cut. An outside reading is never set beside the Church's as an equal. The Student Manual limits and the brief's limits on outside commentaries hold. No modern scholar is named in running text and no source is announced. Every note opens with a sentence that says what it is about and answers a question a reader would ask. Overlaps between notes, christ and explore are merged or cut.
-
-Decide, don't defer: repair what fails, and settle what the standard and the brief settle. Only a matter that is truly the author's goes to the open questions. Keep ${scratch}/proposed/${pad(n)}.yaml accurate (add an entry you introduce, delete one no longer cited, correct a wrong detail) and run node scripts/check-sources.mjs ${book} ${n} after you change it. Rerun node scripts/check-chapter.mjs ${book} ${n} after your edits.
-
-The checker's final message:
-${String(checkerMessage).slice(0, 20000)}`
-const REVIEW_SCHEMA = {
-  type: 'object',
-  properties: {
-    ready: { type: 'boolean', description: 'true if the chapter is ready for the author to read' },
-    summary: { type: 'string', description: 'Three or four sentences: what you changed, how many of the checker\'s findings you acted on, and the final note and ledger-row counts' },
-    checks: { type: 'string', description: 'Final one-line results of check-chapter.mjs: fix-yaml, build, check-quotes, check-content, and check-ledger' },
-    authorQuestions: { type: 'array', items: { type: 'string' }, description: 'Almost always empty. Only a reading that touches doctrine where the Church\'s own sources pull two ways, or a faithful scholar\'s speculation the author may not want. Never a request for leave to do what the standard or the brief already settles (an outside reading given as one reading; shared words set side by side; following the King James; a short christ section): decide those and say so under decided' },
-    decided: { type: 'array', items: { type: 'string' }, description: 'Judgment calls you or the writer settled, one line each with the verse' },
-    unanswered: { type: 'array', items: { type: 'string' }, description: 'Reader questions no source answered' },
-    themeCandidates: { type: 'array', items: { type: 'string' } },
-    problems: { type: 'string', description: 'Anything that blocked you or the checker (a site that would not load, rows left unverified); empty if none' },
-  },
-  required: ['ready', 'summary', 'checks', 'authorQuestions', 'decided', 'unanswered', 'themeCandidates', 'problems'],
-}
 const chapters = args.chapters
 const results = await pipeline(
   chapters,
   (n) => agent(writePrompt(n), { label: `write:${n}`, phase: 'Write', agentType: 'chapter-writer', model: args.writerModel ?? 'opus' }),
-  (w, n) => agent(checkPrompt(n), { label: `check:${n}`, phase: 'Check', agentType: 'chapter-checker', model: 'sonnet' }).then((c) => ({ w, c })),
-  ({ w, c }, n) => agent(reviewPrompt(n, c), { label: `review:${n}`, phase: 'Review', agentType: 'chapter-reviewer', model: args.reviewerModel ?? 'opus', schema: REVIEW_SCHEMA })
-    .then((r) => ({ chapter: n, writer: String(w).slice(0, 600), checker: String(c).slice(0, 600), review: r })),
+  (w, n) => agent(checkPrompt(n), { label: `check:${n}`, phase: 'Check', agentType: 'chapter-checker', model: 'sonnet' })
+    .then((c) => ({ chapter: n, writer: String(w).slice(0, 600), checker: String(c).slice(0, 600) })),
 )
 const missing = chapters.filter((n, i) => !results[i])
 if (missing.length) log(`No result for chapters: ${missing.join(', ')}`)
-// The book's illustration is the last stage of writing a book (DEVELOPMENT.md, “Book illustration workflow”).
-let art = null
-let next = null
-if (args.lastBatch) {
-  const notReady = results.filter((r) => r && !r.review?.ready).map((r) => r.chapter)
-  const runArt = `run the create-book-art workflow with args { book: '${book}' }`
-  if (missing.length || notReady.length) {
-    next = `Book art not started: ${[missing.length ? `no result for ${missing.join(', ')}` : '', notReady.length ? `not ready: ${notReady.join(', ')}` : ''].filter(Boolean).join('; ')}. Once those chapters pass review, ${runArt}.`
-  } else {
-    try {
-      art = await workflow('create-book-art', { book })
-      next = art.next
-    } catch (err) {
-      next = `Book art failed to start (${err.message}): ${runArt}.`
-    }
-  }
-  log(art?.candidate ? `Book art candidate for the author: ${art.candidate}` : next)
-}
-// Theme candidates, while the author looks at the image: Fable reads the whole book and proposes arcs
-// (author, 2026-10-14: “finding the candidates, and setting the outline. Let's set Fable for that task”).
-let themes = null
-if (args.lastBatch && !missing.length && args.themes !== false) {
-  const leads = results.filter(Boolean).flatMap((r) => (r.review?.themeCandidates ?? []).map((t) => `(${r.chapter}) ${t}`))
-  try { themes = await workflow('propose-themes', { book, leads }) } catch (err) { log(`Theme proposals failed to start (${err.message}): run the propose-themes workflow with args { book: '${book}' }.`) }
-}
-return { results: results.filter(Boolean), missing, art, themes, next }
+const range = `${chapters[0]}-${chapters[chapters.length - 1]}`
+return { results: results.filter(Boolean), missing,
+  next: `${missing.length ? `Run this workflow again with only chapters ${missing.join(', ')}. Then, from` : 'From'} the shell: node scripts/codex-read.mjs ${book} ${range} --batch. Then run the review-chapters workflow with args { book: '${book}', chapters: [${chapters.join(', ')}] }.` }

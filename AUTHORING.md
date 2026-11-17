@@ -1,6 +1,6 @@
 # Authoring guide
 
-How a book is written and how to work with the author. The writing and sourcing standard is [`STANDARDS.md`](STANDARDS.md); the scripts, and the steps a coordinating session runs around them, are in `DEVELOPMENT.md`; `CLAUDE.md` (and its copy, `AGENTS.md`) lists which file to read for which task.
+How a book is written and how to work with the author. The writing and sourcing standard is [`STANDARDS.md`](STANDARDS.md); theme pages and guides have their own, `PAGES.md`; the steps a coordinating session runs are in `PROCESS.md`, and how the site's code and scripts work in `DEVELOPMENT.md`; `CLAUDE.md` (and its copy, `AGENTS.md`) lists which file to read for which task.
 
 This file says what is true now. A date in parentheses marks a rule as the author's and says when it was given. The author's words and the incident behind each rule are in git, not here (`DECISIONS.md`, “Process notes are temporary”): when something changes, replace the line; don't add to it.
 
@@ -20,7 +20,7 @@ What is true of the whole site:
 - **Live books are open to change** (2026-10-12). Work that improves a finished book proceeds without asking: deepening a note, trimming a guide a volume guide has absorbed, correcting what the author's study turns up. A new rule is applied to an older book when there is a reason to open it, not as a campaign (2026-10-07), and `check-content` warnings on older books are information, not a to-do list. The full review comes with the author's study (2026-10-16): when the author returns to a volume, every couple of years, its books are brought up to every rule made since.
 - **Which book is next is the author's choice.** No more Book of Mormon content for now (2026-10-07); Isaiah notes with a passage that belongs under a Book of Mormon verse wait in `OPEN-QUESTIONS.md` (“Notes waiting for a Book of Mormon home”).
 - **Theme pages are the author's choice.** Each book's `THEME-CANDIDATES.md` opens with the pages the author selected; a candidate is not developed until the author says so.
-- **Each theme page and guide says where it stands in its own front matter** (`STANDARDS.md` §8, “Where a page stands”): `review: unread` until the author has read it, `review: old-form` for a page still in the form of before 2026-10-25. `status.mjs` lists both; what waits is in `OPEN-QUESTIONS.md`, “Work waiting its turn.”
+- **Each theme page and guide says where it stands in its own front matter** (`PAGES.md`, “Where a page stands”): `review: unread` until the author has read it, `review: old-form` for a page still in the form of before 2026-10-25. `status.mjs` lists both; what waits is in `OPEN-QUESTIONS.md`, “Work waiting its turn.”
 
 ## Plan for the next book
 
@@ -28,25 +28,27 @@ What is true of the whole site:
 
 **Choosing a book is the go-ahead for all of it** (2026-10-23): the brief, the setup and the chapters follow without stopping to ask. The author reads the brief at leisure; a doctrinal choice in it is settled by the standard and recorded there, where the author can overturn it.
 
-**Then the chapters, about twelve to a batch**, each through five steps. The workflow is `.claude/workflows/write-chapters.js`, the agents' instructions are in `.claude/agents/`, and the coordinator's steps around them are in `DEVELOPMENT.md` (“Writing a book in batches”).
+**Then the chapters, about twelve to a batch**, each through five steps. The workflow is `.claude/workflows/write-chapters.js`, the agents' instructions are in `.claude/agents/`, and the coordinator's steps around them are in `PROCESS.md` (“Writing a book in batches”).
 
 1. **An Opus writer** researches and writes the chapter and its ledger (`chapter-writer`).
 2. **The script checks the ledger** (`scripts/check-ledger.mjs`): every quote confirmed on its page.
 3. **A Sonnet checker** reopens the sources, compares each claim with its page, tests the checkable rules, and writes its findings with the sources quoted (`chapter-checker`).
-4. **An Opus reviewer** decides the findings and repairs the chapter, reading for sense and for the standard, without reopening the sources (`chapter-reviewer`).
-5. **Codex reads for connected prose and language; Opus applies what holds up and returns substantive gaps to the writer** (`DEVELOPMENT.md`, “The language pass”).
+4. **Codex reads the draft** for connected prose and language and writes its findings; it edits nothing and sees no sources (`PROCESS.md`, “The second reader”).
+5. **An Opus reviewer** decides both lists of findings and repairs the chapter once, reading for sense and for the standard; what a real gap needs it adds only from a source it reads (`chapter-reviewer`).
 
-**Why these models.** Opus writes, reviews and applies Codex's findings; Sonnet does the mechanical checking; Codex is the last reader because it is a model of another family. Each choice is the author's, made after a trial; the trials and their results are in `DECISIONS.md` (“Why these models”). Don't change a model without a trial of the same kind.
+Steps 4 and 5 are in this order on trial (`DECISIONS.md`, “Codex reads before the reviewer”): through Chronicles the reviewer came first and Codex's findings were applied in a separate language pass.
 
-**What it costs** (measured over 145 chapters, November 2026). A batch of twelve takes about half an hour to write, check and review. Of the agents' spend on a chapter, the writer is about three fifths, the reviewer a fifth, the checker an eighth and the language pass the rest; a writer takes about 27 steps and reads some 165,000 tokens. Measure a batch with `node scripts/batch-usage.cjs <the run's transcript folder> --calls`. Two things keep the count down, and both are in the agents' instructions: each agent works in few steps (every step is sent the whole session again), and nobody reads more than the step needs.
+**Why these models.** Opus writes and reviews; Sonnet does the mechanical checking; Codex is the last reader because it is a model of another family. Each choice is the author's, made after a trial; the trials and their results are in `DECISIONS.md` (“Why these models”). Don't change a model without a trial of the same kind.
 
-**Theme candidates at the end of a book** (2026-10-13 to 10-23) are found automatically, while the author looks at the image. The last batch of `write-chapters` runs `propose-themes`, in which Fable reads the whole book and proposes arcs (`.cache/batch/<book>/reports/themes-fable.md`); then `batch-finish.mjs` runs `scripts/codex-themes.mjs <book>`, Codex's review of the candidates with ideas of its own (`themes-codex.md`); both files stay there for the author to read if asked. Update the brief's “State of the book” before Codex's review runs: Codex believes the brief. What a candidate must be is in `STANDARDS.md` §8 (“What earns a theme page”).
+**What it costs** (measured over 145 chapters, November 2026). A batch of twelve takes about half an hour to write, check and review. Of the agents' spend on a chapter, the writer was about three fifths, the reviewer a fifth, the checker an eighth and the separate language pass the rest; a writer takes about 27 steps and reads some 165,000 tokens. Measure a batch with `node scripts/batch-usage.cjs <the run's transcript folder> --calls`. Two things keep the count down, and both are in the agents' instructions: each agent works in few steps (every step is sent the whole session again), and nobody reads more than the step needs.
+
+**Theme candidates at the end of a book** (2026-10-13 to 10-23) are found automatically, while the author looks at the image. The last batch of `write-chapters` runs `propose-themes`, in which Fable reads the whole book and proposes arcs (`.cache/batch/<book>/reports/themes-fable.md`); then `batch-finish.mjs` runs `scripts/codex-themes.mjs <book>`, Codex's review of the candidates with ideas of its own (`themes-codex.md`); both files stay there for the author to read if asked. Update the brief's “State of the book” before Codex's review runs: Codex believes the brief. What a candidate must be is in `PAGES.md` (“What earns a theme page”).
 
 - **Show the author one list, combined and cut down.** Merge the arcs the two lists share or that fit one page, drop those only one list supports weakly or that the chapters already carry, and number what is left: a handful, more for a big book. Each entry says which proposals it combines, what it follows in plain steps with the verses quoted, how it leads to Christ, and how it applies to the reader, at enough length to judge. Then one line each for what was left out and why, and the coordinator's recommendation.
 - **Only the author's choice goes into `THEME-CANDIDATES.md`**, and no page is written before it.
 - **A chosen theme is approved once.** Its outline goes straight to the writer. The research may cut or soften steps, but the outline keeps the theme the author chose: a step that fails is dropped, not replaced by a different arc. Tell the author afterwards, in a line, what the research changed. Only if the chosen theme itself does not survive does it go back to the author, as one question.
 
-**The illustration is the last stage.** Run the book's final batch with `lastBatch: true` and it ends with one candidate image for the author. Approving it, writing its “What's in this picture” key, and what the image tool has taught are in `DEVELOPMENT.md` (“Book illustration workflow”).
+**The illustration is the last stage.** Run the book's final batch with `lastBatch: true` and it ends with one candidate image for the author. Approving it, writing its “What's in this picture” key, and what the image tool has taught are in `PROCESS.md` (“Book illustration workflow”).
 
 ## Working with the author
 
@@ -73,12 +75,12 @@ What is true of the whole site:
 - **Keep a chapter's structure and its notes** (2026-09-29). Don't cut sections or notes, or propose a broad trim, unless the author asks; if they do, ask which sections they skip before cutting.
 - **The author's study questions become commentary** (2026-10-04). When the author asks about a verse while studying, answer from sources read in the session, then add the answer to that verse's note with ledger rows: deepen the note; don't restructure the chapter.
 - **In a study conversation, answer plainly** (2026-10-05), without sourcing caveats; what is then added to the site keeps the standard. Before saying the site lacks something, search the chapter files (`content/<book>/chapters/*.yaml`) as well as the Markdown pages.
-- **Codex reads every new page** (2026-10-07). A chapter, a theme or guide page, a book's landing page, a facsimile page, a volume introduction, the About page: once it has passed its own review it gets the language pass before the author is shown it.
+- **Codex reads every new page** (2026-10-07). A chapter, a theme or guide page, a book's landing page, a facsimile page, a volume introduction, the About page: it is read by Codex and the findings decided before the author is shown it (`PROCESS.md`, “The second reader”).
 
 **Time and tokens**
 
 - **Tokens matter** (2026-10-04). The author reaches usage limits. Mechanical work goes to a script or a smaller model, coding included; the most capable model is for judgment and for how the text reads. Don't recommend a costlier arrangement on a hunch: say whose recommendation it is, and give the cost before starting.
-- **One stage at a time** (2026-11-10). Don't overlap a batch with the language pass of the last one, or a writer repair with Codex's readings; finish each step before starting the next, so the author has tokens for other things.
+- **One stage at a time** (2026-11-10). Don't overlap one batch with the review of the last, or a writer repair with Codex's readings; finish each step before starting the next, so the author has tokens for other things.
 - **Offload to scripts what a script can do exactly** (2026-10-04). A step an agent repeats mechanically is a reason to write a script before the next batch. A script saves tokens only when the model never sees its output, so say whether it reduces steps or reading, and measure it. When a check fails in bulk, look for the script's own fault first. Anything that will be run again is committed under `scripts/` or `.claude/workflows/` the first time it is written.
 - **Use the hours the author is away.** When the author signs off, carry the approved work through to something they can read in the preview without stopping on questions, and hold only what they have not approved. Don't start a batch while the plan is still being discussed.
 - **Few permission prompts** (2026-10-02). Prefer the file-editing tools and the repository's own scripts to shell one-liners, and gather git operations into few commands.
@@ -95,11 +97,13 @@ What is true of the whole site:
 
 | File | Holds |
 |---|---|
-| `STANDARDS.md` | Audience, voice, sourcing rules, evidence ledger, chapter structure, theme pages and guides, where things can be read |
+| `STANDARDS.md` | Audience, voice, sourcing rules, evidence ledger, chapter structure, where things can be read |
+| `PAGES.md` | The standard for theme pages and guides, and how each is written |
+| `PROCESS.md` | The coordinator's steps: a batch, the second reader, theme-page scripts, the illustration, reviewing these instructions |
 | `content/<book>/BRIEF.md` | Book-level decisions |
 | `OPEN-QUESTIONS.md` | Everything waiting for the author, for every book and the site |
 | `content/<book>/THEME-CANDIDATES.md` | Topics for future theme pages, and which were chosen |
 | `content/volumes/<volume>/GUIDES.md` | The author's decisions about a volume's guides, and which are written |
-| `DEVELOPMENT.md` | Hosting, the scripts, the coordinator's steps for a batch, the language pass, the illustration, site design, adding a book |
+| `DEVELOPMENT.md` | Hosting, what each check and research script does, site design, adding a book |
 | `DECISIONS.md` | Decisions that frame the site, and the model trials |
 | `IDEAS.md` | Ideas not yet planned |

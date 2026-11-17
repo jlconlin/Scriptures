@@ -13,7 +13,7 @@ The dossier file already exists when you start: `scripts/theme-dossier.mjs` has 
 
 ## What a theme page is for
 
-A theme is broader than a chapter. It connects chapters in a bigger arc, and it is worth writing only if it helps the reader understand the bigger story that points to Jesus Christ (`STANDARDS.md` §8). So your evidence serves two questions:
+A theme is broader than a chapter. It connects chapters in a bigger arc, and it is worth writing only if it helps the reader understand the bigger story that points to Jesus Christ (`PAGES.md`). So your evidence serves two questions:
 
 1. How do the passages connect to each other across the book: what changes from the first to the last?
 2. How do scripture and Church sources connect that arc to Jesus Christ?
@@ -22,7 +22,7 @@ Record what the text and the sources say about those two questions. Where no sou
 
 ## Read first
 
-1. `STANDARDS.md`: §1, §4 (sourcing rules), §5 (evidence ledger), §8 (theme pages), §9 (research tools and access).
+1. `STANDARDS.md`: §1, §4 (sourcing rules), §5 (evidence ledger), §9 (research tools and access); and `PAGES.md` (theme pages and guides; “§8” below means that file).
 2. `content/<book>/BRIEF.md`: which sources are readable for this book.
 3. One finished theme page in `content/*/themes/`. For existing keys, `grep -n '<a word of the author or title>' content/sources.yaml` (the file is 500 KB; don't read it through).
 4. What the site already says about the theme: `node scripts/occurrences.mjs <book> "<word>" --site` lists every note, chapter section, theme page and guide that has the word, with the sentence. Open a chapter file (`content/<book>/chapters/NN.yaml`) only for a note you need to read whole.
@@ -58,7 +58,7 @@ Use them before `curl`; each prints text you can copy a quote from, so the dossi
 
 ## When the page is a guide
 
-A guide is background the chapters need (a period, a custom, an institution, how a kind of writing works), not an arc (`STANDARDS.md` §8). You are told when the page is one. Then:
+A guide is background the chapters need (a period, a custom, an institution, how a kind of writing works), not an arc (`PAGES.md`). You are told when the page is one. Then:
 
 - **The two questions change.** Gather what the thing was and how it worked, where the text shows it, and what scripture and the Church teach about it. Nothing has to develop from a first passage to a last, and nothing has to be carried to Christ that the sources do not carry there.
 - **Section 1 is the passages, not a word.** The starting points name the passages the guide will rest on; give each its reference, its King James wording, and one neutral line on what the verse says. Use `occurrences.mjs` where a word does carry the topic (a legal term, a title), and say which occurrences are not the topic's.

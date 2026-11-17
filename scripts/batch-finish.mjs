@@ -1,7 +1,8 @@
-// The coordinator's steps after a write-chapters run, in one command (DEVELOPMENT.md, “Writing a book in batches”):
+// The coordinator's steps after a review-chapters run, in one command (PROCESS.md, “Writing a book in batches”):
 //   batch-notes (unanswered questions into UNANSWERED.md, theme candidates),
 //   merge-sources --write, the reviewers' questions printed for the coordinator (not filed), one commit for the documents, then
-//   batch-commit (check-chapter on each chapter; one commit for each that passes); and when the book's last chapter is
+//   batch-commit (check-chapter on each chapter; one commit for each that passes, a ready chapter with the record of
+//   its prose review, one not ready without it); and when the book's last chapter is
 //   written, codex-themes (Codex's review of the theme candidates, for the author to approve).
 // It prints one line a step and whatever needs a person: a chapter not ready, a source to settle by hand,
 // a chapter whose checks fail.
@@ -30,7 +31,7 @@ const reviews = lines
   .sort((a, b) => a.chapter - b.chapter);
 if (!reviews.length) throw new Error('No reviewer results in that journal');
 const chapters = reviews.map((r) => String(r.chapter));
-const notReady = reviews.filter((r) => !r.ready);
+const notReady = reviews.filter((r) => !r.ready || r.open?.length);
 console.log(`${reviews.length} chapters reviewed: ${chapters.join(', ')}${notReady.length ? `\nNOT READY: ${notReady.map((r) => `${r.chapter} (${String(r.summary).slice(0, 300)})`).join('; ')}` : '; all ready'}`);
 
 // The reviewers' decisions are not logged (author, 2026-10-11: “We don't have to record every decision of every verse”).
@@ -50,7 +51,12 @@ git('add', 'content/sources.yaml', 'OPEN-QUESTIONS.md', `content/${slug}/BRIEF.m
 // A new book has neither file until its first batch (THEME-CANDIDATES.md waits for the author's choice).
 for (const f of ['THEME-CANDIDATES.md', 'UNANSWERED.md']) if (existsSync(path.join(ROOT, `content/${slug}/${f}`))) git('add', `content/${slug}/${f}`);
 if (git('diff', '--cached', '--name-only').trim()) git('commit', '-q', '-m', `${book.name} ${chapters[0]}–${chapters.at(-1)}: sources, the reviewers' decisions, questions and theme candidates\n\n${coauthor()}`);
-console.log(run('batch-commit.mjs', slug, 'written', ...chapters).trim());
+// A ready chapter's reviewer decided Codex's reading with the checker's findings, so its commit records the language pass.
+const open = new Set(notReady.map((r) => String(r.chapter)));
+const ready = chapters.filter((c) => !open.has(c));
+for (const r of notReady) for (const o of r.open ?? []) console.log(`  open, ${r.chapter}: ${tidy(o).slice(0, 420)}`);
+if (ready.length) console.log(run('batch-commit.mjs', slug, 'reviewed', ...ready).trim());
+if (open.size) console.log(run('batch-commit.mjs', slug, 'written', ...open).trim());
 // The last batch of a book: Codex reviews the theme candidates and proposes its own, while the author looks at the
 // book's image (author, 2026-10-13: “We should make this an automatic step at the end of a book generation”).
 const total = JSON.parse(readFileSync(path.join(ROOT, `data/kjv/${slug}.json`), 'utf8')).chapters.length;

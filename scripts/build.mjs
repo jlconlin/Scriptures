@@ -239,7 +239,7 @@ export async function build({ quiet = false } = {}) {
       return authored.get(n) ?? { chapter: n, title: book.titles?.[n], draft: true };
     });
     book.written = book.chapters.filter((c) => !c.draft);
-    // A book with every chapter written is due its illustration (DEVELOPMENT.md, “Book illustration workflow”).
+    // A book with every chapter written is due its illustration (PROCESS.md, “Book illustration workflow”).
     if (book.written.length === book.chapters.length) {
       const v = book.visual;
       if (!v) book.warn('every chapter is written but there is no visual.yaml: run .claude/workflows/create-book-art.js');

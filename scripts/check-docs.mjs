@@ -16,7 +16,7 @@ const git = (...a) => { try { return execFileSync('git', a, { cwd: ROOT, encodin
 
 // The instruction files: what a session or an agent reads before working.
 export const DOCS = [
-  'CLAUDE.md', 'AGENTS.md', 'AUTHORING.md', 'STANDARDS.md', 'DEVELOPMENT.md', 'README.md', 'DECISIONS.md', 'IDEAS.md', 'OPEN-QUESTIONS.md',
+  'CLAUDE.md', 'AGENTS.md', 'AUTHORING.md', 'STANDARDS.md', 'PAGES.md', 'PROCESS.md', 'DEVELOPMENT.md', 'README.md', 'DECISIONS.md', 'IDEAS.md', 'OPEN-QUESTIONS.md',
   ...readdirSync(path.join(ROOT, '.claude/agents')).filter((f) => f.endsWith('.md')).map((f) => `.claude/agents/${f}`),
   ...readdirSync(path.join(ROOT, '.claude/workflows')).filter((f) => f.endsWith('.js')).map((f) => `.claude/workflows/${f}`),
 ].filter((f) => existsSync(path.join(ROOT, f)));
@@ -45,7 +45,7 @@ export function staleReferences() {
       if (!existsSync(path.join(ROOT, m[1])) && !notes.has(m[1])) problems.push(`${doc}: names ${m[1]}, which does not exist`);
     }
   }
-  for (const s of scripts) if (!named.has(s) && !/^\./.test(s)) problems.push(`scripts/${s} is named in no document (DEVELOPMENT.md should say what it is for)`);
+  for (const s of scripts) if (!named.has(s) && !/^\./.test(s)) problems.push(`scripts/${s} is named in no document (DEVELOPMENT.md or PROCESS.md should say what it is for)`);
   if (existsSync(path.join(ROOT, 'AGENTS.md')) && readFileSync(path.join(ROOT, 'AGENTS.md'), 'utf8') !== readFileSync(path.join(ROOT, 'CLAUDE.md'), 'utf8')) problems.push('AGENTS.md differs from CLAUDE.md (it is meant to be a copy)');
   // package.json scripts must exist too.
   const pkg = JSON.parse(readFileSync(path.join(ROOT, 'package.json'), 'utf8'));
@@ -72,7 +72,7 @@ export function driftLine() {
   if (!d.last) return 'Instruction files: no review tag yet (git tag review-YYYY-MM-DD after a review).';
   const grown = d.before ? Math.round(((d.now - d.before) / d.before) * 100) : 0;
   const due = d.commits >= 40 || grown >= 25 || d.chapters >= 50;
-  return `Instruction files since ${d.last}: ${d.commits} commit${d.commits === 1 ? '' : 's'}, ${grown >= 0 ? '+' : ''}${grown}% in size, ${d.chapters} chapters written.${due ? ' A review is due (DEVELOPMENT.md, “Reviewing the instructions”).' : ''}`;
+  return `Instruction files since ${d.last}: ${d.commits} commit${d.commits === 1 ? '' : 's'}, ${grown >= 0 ? '+' : ''}${grown}% in size, ${d.chapters} chapters written.${due ? ' A review is due (PROCESS.md, “Reviewing the instructions”).' : ''}`;
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === path.resolve(new URL(import.meta.url).pathname)) {

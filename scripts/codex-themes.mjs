@@ -2,7 +2,7 @@
 // Ask it to review the list, propose some ideas of its own then return that list. I will review and approve the final
 // list”; and “We should make this an automatic step at the end of a book generation. It can happen while I'm approving
 // the image”). batch-finish.mjs runs it once every chapter of the book is written; it can also be run by hand.
-// Codex reads STANDARDS.md §8, the book's THEME-CANDIDATES.md, the reviewers' leads (.cache/batch/<book>/theme-leads.md),
+// Codex reads PAGES.md, the book's THEME-CANDIDATES.md, the reviewers' leads (.cache/batch/<book>/theme-leads.md),
 // the brief and the chapters, read-only; judges each candidate; proposes arcs of its own, marked as its own; and returns
 // a ranked list (a handful as a rule of thumb, more for a big book) with a “Not recommended” section. Nothing is chosen until the author approves:
 // the coordinator shows the list, and only the author's choice goes into THEME-CANDIDATES.md.

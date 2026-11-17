@@ -1,7 +1,7 @@
 export const meta = {
   name: 'write-theme',
   description: 'Write one theme page (an essay that argues its thesis) from the session’s outline and a research dossier: a writer, a reviewer, the writer’s repairs, then Codex’s reading applied',
-  whenToUse: 'A theme’s dossier is gathered and the coordinating session has written its outline (STANDARDS.md §8). args: { book, file, dossier, outline, writerModel, codexModel }',
+  whenToUse: 'A theme’s dossier is gathered and the coordinating session has written its outline (PAGES.md). args: { book, file, dossier, outline, writerModel, codexModel }',
   phases: [{ title: 'Write' }, { title: 'Review' }, { title: 'Repair' }, { title: 'Language' }],
 }
 // Four agents: writer, reviewer, the writer again for repairs, then Codex's reading applied.
@@ -10,7 +10,7 @@ export const meta = {
 //   file         the page's file name without .md: 'the-firstborn'
 //   dossier      path of the research dossier (theme-researcher's; verbatim quotes with their URLs)
 //   outline      path of the outline: the arc step by step, which dossier row carries each step, and which connections are the page's own
-//   writerModel  'opus' (default since 2026-10-25: a theme page is an essay that argues its thesis, STANDARDS.md §8) or 'sonnet'
+//   writerModel  'opus' (default since 2026-10-25: a theme page is an essay that argues its thesis, PAGES.md) or 'sonnet'
 //   codexModel   optional Codex model, when the configured one is at capacity
 const { book, file, dossier, outline } = args
 const base = `content/${book}`
@@ -50,7 +50,7 @@ ${r.fixes.map((f, i) => `${i + 1}. ${f}`).join('\n')}
 
 ${common}
 
-Make every fix: cut, reword to what the source says, cite, or mark as uncertain; a connection of the page's own that fails the limits in STANDARDS.md §8 is cut, not defended. Add nothing the outline and the dossier do not carry; where a fix would need a source the dossier lacks, cut the sentence and say so. Keep the ledger in step (a row for every claim, no row that supports nothing), then run ${check}. Report each fix and what you did.`
+Make every fix: cut, reword to what the source says, cite, or mark as uncertain; a connection of the page's own that fails the limits in PAGES.md is cut, not defended. Add nothing the outline and the dossier do not carry; where a fix would need a source the dossier lacks, cut the sentence and say so. Keep the ledger in step (a row for every claim, no row that supports nothing), then run ${check}. Report each fix and what you did.`
 const APPLIED = {
   type: 'object',
   properties: {

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// Exports the data behind the author's dashboard “Theme page review” (DEVELOPMENT.md; STANDARDS.md §8, “Where a page stands”):
+// Exports the data behind the author's dashboard “Theme page review” (DEVELOPMENT.md; PAGES.md, “Where a page stands”):
 //   review-tasks.json    one row per theme page or guide whose front matter carries `review:` (unread, read or old-form)
 //   review-commits.json  one row per commit since 2026-10-25 that rewrote or deleted a theme page
 // Usage: node scripts/review-dashboard.mjs [outDir]   (default .cache/batch/dashboard)

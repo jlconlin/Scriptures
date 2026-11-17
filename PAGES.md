@@ -1,0 +1,72 @@
+# Theme pages and guides
+
+The standard for a theme page (an essay that argues one insight across a book's chapters) and for a guide (background a reader consults). It was `STANDARDS.md` §8 until 2026-11-17, and a reference to “§8” anywhere means this file, its sections under the same names. The rest of the standard applies to these pages too: `STANDARDS.md` §1–§4 (what the site is, audience, voice, sourcing), §5 (the ledger) and §9 (where things can be read). A bare § number below is a section of `STANDARDS.md`. The scripts and workflows are in `PROCESS.md`.
+
+## Files and ledger
+
+**Files.** Markdown in `content/<book>/guides/` and `content/<book>/themes/` (a volume's guides in `content/volumes/<volume>/guides/`), with YAML front matter (`title`, `blurb`, `icon`, `sources`) and then prose. Cite with `[@key]` or `[@key, locator]` right after the claim: before a comma, after a period or semicolon. A page that lists sources must cite at least one (`check-content.mjs` fails it otherwise); sources never cited appear under “Further reading.” Give sections that chapters link to an explicit id (`<h2 id="song-2">…</h2>`).
+
+**The ledger** is `content/<book>/evidence/themes/<file name>.yaml` (or `evidence/guides/…`), in the format of §5 with `page: <file name>` in place of `chapter:`; `where` names the section heading as it is spelled (or `opening`). It is committed with the page. `node scripts/check-page.mjs <book or volume> <file name>` runs the page's checks.
+
+## What earns a theme page
+
+A theme page connects chapters in a bigger arc and is the one place on the site that argues: it has a thesis, a connection the reader would not see chapter by chapter, and makes the case for it from the text (2026-10-25: themes “identify new connections across multiple chapters,” to “help the reader make connections that will help them draw closer to Jesus Christ”). **A theme page without an insight is not written.** A book may have none.
+
+- **The insight is about Christ's work, not a link to His words** (2026-10-15). A page earns its place by what the arc teaches about the Savior, His Atonement, His mercy and His redemption. An arc whose only way to Christ is that He or an apostle quoted a verse, or that a later passage shares a word or an image, is the weak kind. The measure is Elder D. Todd Christofferson's statement: “the central purpose of all scripture is to fill our souls with faith in God the Father and in His Son, Jesus Christ—faith that They exist; faith in the Father's plan for our immortality and eternal life; faith in the Atonement and Resurrection of Jesus Christ, which animates this plan of happiness; faith to make the gospel of Jesus Christ our way of life” (“The Blessing of Scripture,” April 2010, `https://www.churchofjesuschrist.org/study/general-conference/2010/04/the-blessing-of-scripture?lang=eng&id=p16#p16`). Every proposer says of each candidate what it teaches of Christ's work.
+- **A principle of how the Lord deals with us is not enough; the arc must show the reader Christ Himself** (2026-11-05). The test is whether the reader comes away knowing the Savior better, who He is and what He did. Word-chains to New Testament verses are “too disconnected.”
+- **It applies the arc to the reader** (2026-10-16). After the arc and its witness of Christ, the page names where the same principle reaches a disciple's life now, as a statement grounded in scripture and the words of prophets, not in the page's own counsel (§1, “Apply scripture to the reader”). A proposed theme says how it applies as well as how it leads to Christ.
+- **It is an arc, not a list.** The page says what changes from the first passage to the last. If the passages only share a word or an image and nothing develops, it is not a theme page.
+- **A topic that lives in one chapter or a few neighboring verses belongs in that chapter's notes.** A one-chapter book has no theme pages.
+- **Few, not many** (2026-10-11). `THEME-CANDIDATES.md` is a short list of proposed arcs, about ten at most, proposed after the book is written (Psalms' file is the model), each with its passages, its arc, where it reaches Christ in scripture, and what it must not claim; it is not a record of everything noticed. A word, image or kind of passage that merely recurs is not a candidate.
+- **The page links, it doesn't repeat.** Verse-level detail that is not part of the argument stays in the chapter notes, and the page points to them; what the argument needs, the page carries itself, so the essay can be read whole without following a link. When a chapter touches a theme that has a page, the chapter links to it.
+
+## How a theme page is written
+
+**Six instructions, and no rules about form** (2026-10-26). The writer of a theme page is given these:
+
+1. **Argue one insight.** The essay makes one claim about what a book, read across its chapters, shows of Jesus Christ's work, and argues it from the text in an order a reader can follow and check. If the claim cannot be stated in a sentence, there is no essay.
+2. **Write it as yourself.** A careful, believing scholar writing for an educated reader of scripture. Carry the argument in your own prose. Bring a source in at the point where it is evidence, cite it, and quote only words that matter as words; paraphrase the rest. Name a scholar or a manual when the sentence wants a name.
+3. **Facts rest on sources you have read.** What a Hebrew word means, what a passage's setting is, what a prophet or a manual said: cited, and in the ledger (§4, §5). This is the one rule that cannot bend.
+4. **Your own readings are yours.** Say once that a connection is your reading, then argue it plainly. Do not attribute it to the prophet or to the Church, and do not state it as doctrine. No new doctrine, and nothing against what is revealed.
+5. **Apply it to the reader in statements**, grounded in scripture and the prophets. No questions, no invitations.
+6. **Stop when the argument is made.** No length target. Four thousand words is a ceiling, not a goal.
+
+**How it reads.** The voice is a scholar's: plain assertion by default, “I” at the few points where a reading has to be owned, “we” only when walking the reader through a passage. The pace is unhurried: short paragraphs, one idea each, and the reasoning written out between the exhibits, so that a quotation is followed by a sentence that says what it shows and why the next one is coming. What has failed: a quotation and a citation on nearly every clause; the essay calling itself “the page”; a hedge after each of its own readings; a summary at the end of every section; several ideas packed into one long, terse paragraph. Deuteronomy's *Let It Suffice Thee* and Leviticus's *Accepted for Him* are the models.
+
+**One mind writes it** (2026-10-26). An essay is written start to finish by the Fable session that chose the arc and read the dossier, not relayed through an outline to another writer. The steps:
+
+1. **Research** (`theme-researcher`, Sonnet). The coordinator starts the dossier with `node scripts/theme-dossier.mjs`, so the list of occurrences is the script's. The researcher adds the scripture that quotes or explains the passages, what Church sources and faithful scholarship say, and what the site already says, with verbatim quotes, and records what it looked for and did not find. It does not interpret.
+2. **Writing** (the coordinating Fable session). It reads the whole dossier, decides whether there is an insight at all, and writes the essay and its ledger under the six instructions. If no claim survives the dossier, the page is not written and the author is told in a line.
+3. **Review** (`theme-reviewer`, Opus). It runs `check-ledger` first, reads the passages around the quotes the script can't judge, tests the thesis, the sourcing and the doctrine (every connection of the page's own against instruction 4), and returns required fixes, or says the insight does not hold. It does not judge form.
+4. **Repairs and Codex's reading** are applied by the session that wrote the page. A repair changes what a sentence claims, not how the essay is paced; a language finding is applied only where it keeps the pace, never by compressing.
+
+**A shorter page** (one insight worth a page, not an essay; 2026-10-29): Sonnet researches as above; the Fable session reads the dossier's analytic sections, decides whether the insight holds, and writes a one-page outline (the thesis in a sentence, the honest findings the page must state, the sections, the ledger rules), removing any old page and ledger from the tree first so nothing of the old form is inherited. The `write-theme` workflow then has an Opus `theme-writer` write the page and ledger, an Opus `theme-reviewer` review, the writer repair, and Codex's reading applied. The Fable session reads the draft once, decides what else of Codex's to apply, rewords the chapter notes that point to the page to say what it argues, and commits.
+
+**Where a page stands** is in its own front matter, not in a file (2026-11-03). A rewritten page goes live with its commit and carries `review: unread` until the author has read it, when a session changes the line to `review: read`; one the author finds flat is rewritten before the next. A page in the form of before 2026-10-25 carries `review: old-form` and is rewritten when the author's study reaches its book, or sooner if the author finds it flat. `node scripts/status.mjs` lists both kinds. The dossier and the outline are working files and are not kept; the ledger is.
+
+## Where the meaning comes from
+
+- **The text supplies the pattern.** That a word recurs, that the speaker changes, that one passage answers another in the same words: a reader can check these in the text, and the text is the source (§4 rule 5). List every occurrence, including those that don't fit, before calling something a pattern (`scripts/occurrences.mjs`), and check a repeated English word in the original language.
+- **Scripture and the Church supply the meaning.** What a passage means is said as far as scripture, a Church source, or a scholar says it, and is cited. Where faithful sources read a passage differently, say so.
+- **A theme page may make connections of its own** (2026-10-03; theme pages only: chapters and guides keep §4). A candidate is not dropped only because no source carries it to Christ. The limits:
+  - **The connection rests on words the reader can check.** Both passages are quoted, and what joins them is in the text: a shared word or image, the same act, one verse answering another.
+  - **Facts are still sourced.** Only the step from one passage to another may be the page's own.
+  - **No new doctrine, and nothing against what is revealed.** Each side of a connection says what scripture and the Church already teach about it. A connection that would need a doctrine no scripture or Church source states is cut. Where a Church source reads a passage one way, the page does not read it another.
+  - **The reader can tell which is which.** A sourced reading carries its citation; the writer's own is introduced once as the writer's and then argued, not hedged after every move. The ledger gives it a row with `key: lds-scriptures` (or the text's key) whose claim begins “Connection made by this page:” and states the conclusion; `check-content` lists those rows for the reviewer.
+  - **The arc still has to point to Christ from scripture.** What a passage says about the Savior comes from the passage and the Church's sources.
+- **Summaries are claims too.** The blurb, the opening, the transitions and the closing say only what the body establishes. A summary that goes past the body, by harmonizing readings that differ or by adding a tidy line no section supports, is the error most often caught in review.
+
+## How a guide is written
+
+**Every book needs enough historical context to be understood** (2026-10-11): who is speaking, to whom, where, and what is happening. A short book may need only its introduction and chapter settings; a longer one a guide. Combine rulers and events where that makes the history easier to follow, and state uncertainty about dates where the sources leave it open.
+
+**A guide belongs to the volume when its content is true of more than one book** (2026-10-12): the kingdoms and the exile, the land, the law and the covenant, the temple, Hebrew poetry, the household. It is listed on the volume's pages, never on a book's, and no book inherits it (2026-10-18): a book with no guides of its own has no Guides page, though its chapters still link to a volume guide's sections. A book's guides keep what is particular to the book and link to the volume's instead of repeating them. A book gets guides of its own only when it has two or more topics its book page cannot hold; a single topic goes into the book page's intro or a volume guide. The author's decisions about a volume's guides are in `content/volumes/<volume>/GUIDES.md`.
+
+**A guide is written as an essay is, minus the license to make readings of its own** (2026-10-26): research by a `theme-researcher` into a dossier; then the Fable session that read the dossier writes it start to finish, at the pace of “How it reads”; then one `theme-reviewer`, Codex's reading, and the author in the preview. What differs from a theme page:
+
+- **A guide is background, not an arc and not an argument.** It says what a period, a custom or an institution was, where the text shows it, and what scripture and the Church teach about it. It is a page to consult: “long enough to cover the subject, but short enough to still be interesting” (2026-10-12); about 2,000 words is the measure. Detail goes in the chapter notes the guide links to.
+- **§4 holds in full.** A guide makes no connections of its own, and its ledger has no “Connection made by this page:” row. Sources are not announced in its text (§3).
+- **It explains; it doesn't argue.** No sentence defends, excuses or condemns beyond its source, an evaluative word is a claim with a row, and a hard passage is named plainly and given what the sources give it.
+- **For a guide the author has asked to approve, the author reads the outline before anything is written.** Otherwise the session that writes it needs no outline but its own.
+- **The page starts with `status: preview`** and passes `node scripts/check-page.mjs <owner> <file name>` before the reviewer sees it.
+- **Afterwards the chapters link to it**: one sentence at the end of each note that touches the guide's subject, pointing to the section by its id.

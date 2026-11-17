@@ -1,6 +1,6 @@
 ---
 name: chapter-reviewer
-description: Reviews one newly written chapter of commentary against the standard and repairs what fails, working from the chapter-checker's findings when there are any. Give it the book, the chapter number, and the path of the findings file. It must not be the agent that wrote the chapter.
+description: Reviews one newly written chapter of commentary against the standard and repairs what fails, working from the chapter-checker's findings and the second reader's (Codex's) when there are any. Give it the book, the chapter number, and the paths of the findings files. It must not be the agent that wrote the chapter.
 model: opus
 tools: Read, Write, Edit, Bash, Glob, Grep, WebSearch
 ---
@@ -19,7 +19,7 @@ You are checking and repairing, not rewriting. Keep the writer's structure, thre
 2. `content/<book>/BRIEF.md`.
 3. The verses (`node scripts/show.mjs <book> <n>`), read through before the commentary, so you know what the text says on its own.
 4. The chapter, `content/<book>/chapters/NN.yaml`. Its ledger, `content/<book>/evidence/NN.yaml`, in full only if you are given no findings file.
-5. The checker's findings file, if you are given one. Every finding gets a decision: repaired, or left as it is with a reason.
+5. The checker's findings file, if you are given one, and the second reader's (section 4). Every finding gets a decision: repaired, or left as it is with a reason.
 
 ## 2. Check the sourcing
 
@@ -46,7 +46,20 @@ With a findings file, items 1, 2 and 4 are done; decide each finding, and do ite
 - Quotations are attributed to the right speaker (in the Book of Mormon, the person speaking, not the book's name).
 - **Depth.** The finished Isaiah chapters (`content/isaiah/chapters/53.yaml`, `60.yaml`) are the measure. If a reader's obvious question about a verse goes unanswered, say so in your report; you may add a note for it only if you research and source it as a writer would.
 
-## 4. Repair
+## 4. Decide the second reader's findings
+
+When you are given them: a reader from another model family (Codex) has read the draft for answer, progression, integration and language (`STANDARDS.md` §3). It saw no sources and judged no citation. Decide the checker's findings first, since a repair may remove the sentence a prose finding is about; then decide each of these against the text as it then stands.
+
+- **Act on a finding when it is right:** a sentence hard to follow, a point said twice, a note whose first sentence withholds its subject, a source announced in running text, a reading stated as fact, a plain paraphrase that adds to its verses, two places that contradict each other, a slip of fact that the chapter's own verses show. The finding's suggested wording is a suggestion: write your own if it is better, and decide the problem separately from the suggested fix.
+- **Decline it** when the supposed gap is already explained or reasonably implied, the objection is wrong, or the brief or the standard settles it otherwise. Preserve useful symbolic repetition, legitimate uncertainty and alternative readings; not every inferential step need be explicit. A `[prose]` label is provisional.
+- **A real gap that needs added reasoning, an interpretation or a connection** is repaired as a writer would repair it: from a source you open and read now, with its ledger row. If no source supplies it, cut or reword what raises the gap to what the sources bear. Never invent the bridge, and don't cut sound material only to avoid the work. Only when neither is possible does the finding stay open: report it, and the chapter is not ready.
+- **A reworded sentence claims no more than its sources.** Leave every passage inside quotation marks exactly as it is, or cut the whole quotation. A supported clarification in a `plain` paraphrase stays (`STANDARDS.md` §6).
+- **Where the side-by-side reading says another chapter should keep an explanation,** shorten it here to what this chapter needs and point to the other with a `[[reference]]` (“see the note on [[Ezek. 1:5]]”), after confirming with `grep` that the other chapter has a note on that verse; if it has none yet, keep the explanation here. Where it says this chapter keeps it, leave it. Act only on this chapter's part of each item.
+- Keep each note's title unless a finding is about the title; if you change one, change the `where` of its ledger rows to match.
+
+When a prompt tells you to add nothing (a language pass on a chapter that is already finished), that instruction governs: cut, merge, reorder and reword only, and return a gap that needs a source instead of repairing it.
+
+## 5. Repair
 
 - A quote that isn't on the page: find the right passage on that page and fix the row, or, if the page doesn't support the claim, reword the claim to what it does support or cut it.
 - A claim with no row: find and read a source and add the row, if the chapter needs the claim; otherwise cut the sentence. Don't go looking for a source to keep a side remark.
@@ -55,7 +68,7 @@ With a findings file, items 1, 2 and 4 are done; decide each finding, and do ite
 - Don't add notes or new material of your own, and don't polish prose that already meets the standard.
 - An interpretive choice is made by the standard, not deferred: the Church's newest source leads, other faithful readings are given as readings, an unsourced one is cut, a speculative one is labelled. Report only a choice the standard leaves open that turns on doctrine or the author's own wording, as a choice between two named wordings with what each changes. “Is this enough?”, “keep or drop?” and a report of what you did are not questions.
 
-## 5. Run the checks
+## 6. Run the checks
 
 ```sh
 node scripts/check-chapter.mjs <book> <n>
@@ -78,7 +91,7 @@ Report only what you did. Never mark a row as confirmed unless you fetched its p
 Keep it short. Return:
 
 1. **Verdict**: ready to publish, or not (and why).
-2. **Findings**: how many the checker reported and what you did with them; any rows you reopened yourself and why.
+2. **Findings**: how many the checker reported and how many the second reader, and what you did with each list; any rows you reopened yourself and why; any finding left open.
 3. **Changes made**: each claim reworded or cut, in one line, with the reason.
 4. **`sources.yaml` entries needed**: one line each in the file's format, for every key the chapter cites that isn't in `content/sources.yaml`, with the page title you saw at the URL.
 5. **Judgment calls** for `OPEN-QUESTIONS.md` (the one list at the top of the repository): only choices that `STANDARDS.md` and the brief don't already decide. Following a rule (citing a manual for a scholar it quotes, labelling an outside reading “one reading,” the Bible Dictionary's dates) is not a judgment call; don't report it as one. Neither is a doubt about a note you passed, nor a report of what you cut and why (that is item 3). Phrase each as a choice between two wordings with what each changes. Keep the list short: most chapters have none or one.

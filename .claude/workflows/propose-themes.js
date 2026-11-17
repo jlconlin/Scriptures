@@ -11,7 +11,7 @@ export const meta = {
 //   model   optional; 'fable' by default (author, 2026-10-14: finding the candidates and setting the outline are the
 //           steps that need the bigger thinking: “Let's set Fable for that task”)
 // One agent reads the whole book and proposes theme pages. It looks for what a reader would not see chapter by chapter:
-// an arc in which something changes, across chapters, that leads to Jesus Christ (STANDARDS.md §8). Codex's
+// an arc in which something changes, across chapters, that leads to Jesus Christ (PAGES.md). Codex's
 // independent list (scripts/codex-themes.mjs, run by batch-finish) comes afterwards; the coordinator shows the author
 // both, every candidate numbered (AUTHORING.md, “Theme candidates at the end of a book”), and only the author's
 // choice goes into THEME-CANDIDATES.md.

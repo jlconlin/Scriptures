@@ -23,7 +23,7 @@ const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replac
 const git = (...a) => execFileSync('git', a, { cwd: ROOT, encoding: 'utf8' });
 
 const committed = new Set(git('ls-files', `content/${slug}/chapters`).split('\n').map((f) => +path.basename(f, '.yaml')).filter(Boolean));
-const passed = new Set([...git('log', '--format=%s', '--grep', 'language pass', '--', `content/${slug}/chapters`).matchAll(/^\S+ (\d+): language pass/gm)].map((m) => +m[1]));
+const passed = new Set([...git('log', '--format=%s', '--grep', 'language pass', '--', `content/${slug}/chapters`).matchAll(/^\S+ (\d+): (?:written, checked and reviewed, with the )?language pass/gm)].map((m) => +m[1]));
 const writing = new Set(list(opt('--writing'))), inPass = new Set(list(opt('--pass')));
 const unit = book.unit?.singular ?? 'Chapter', units = book.unit?.plural ?? 'chapters';
 

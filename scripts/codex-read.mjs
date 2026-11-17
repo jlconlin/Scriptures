@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // A second reader from another model family, for prose and language: Codex reads
-// finished, reviewed chapters and writes a list of findings. It edits nothing (the sandbox is read-only), opens
+// written chapters (before their review, since 2026-11-17) and writes a list of findings. It edits nothing (the sandbox is read-only), opens
 // no source, and does not judge the citations; whoever coordinates decides the findings and reruns the checks.
 //   node scripts/codex-read.mjs <book> <chapter>            one chapter → .cache/batch/<book>/reports/NN-codex.md
 //   node scripts/codex-read.mjs <book> <from>-<to> --across  the chapters read together, for what repeats or
@@ -123,7 +123,7 @@ For each finding give: where (the field, and the verse and note title for a note
 
 const many = `${shared}
 
-Read these chapters of one book together: ${files.join(', ')}. Each was written and reviewed by agents that saw only its own chapter. Report only what can be seen by reading them side by side:
+Read these chapters of one book together: ${files.join(', ')}. Each was written by an agent that saw only its own chapter. Report only what can be seen by reading them side by side:
 1. The same thing explained in two or more chapters (a term, a person, a place, a custom, a date, a refrain) where one explanation and a pointer would do. Say which chapter should keep it.
 2. Two chapters that disagree: a date, an identification, the meaning given for a word or an image, how a name is spelled or a term is used.
 3. The same sentence, quotation, or near-identical paragraph in more than one chapter.

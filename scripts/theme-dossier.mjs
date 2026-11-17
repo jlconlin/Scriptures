@@ -1,5 +1,5 @@
 // Starts a theme page's research dossier with the parts a script can fill exactly, so that the researcher
-// (STANDARDS.md §8, step 1) begins from them instead of running the same commands one at a time:
+// (PAGES.md, step 1) begins from them instead of running the same commands one at a time:
 //   1. every occurrence of the key words in the King James text (occurrences.mjs, with --stem if asked) and,
 //      for each Strong's number given, every verse where that Hebrew word occurs with the King James beside it;
 //   2. the same phrases in every other book on the site (occurrences.mjs --books);
@@ -41,7 +41,7 @@ const chapters = [...new Set(verses.map((v) => v.split(':')[0].trim()))].map((c)
 if (volume && chapters.some(([b]) => b === book.slug)) { console.error('For a volume, each key verse names its book: --verses "genesis 16:13,exodus 21:10"'); process.exit(1); }
 
 const parts = [];
-parts.push(`# Dossier: ${book.name}, ${words.join(' / ')}\n\nStarted by \`scripts/theme-dossier.mjs\` on ${new Date().toISOString().slice(0, 10)}: the sections a script fills exactly are below, with the commands that made them, so a reviewer can run them again. Sections 3–5 are the researcher's. Every row the researcher adds: **claim** / source key / exact URL / verbatim quote (STANDARDS.md §8, §4).`);
+parts.push(`# Dossier: ${book.name}, ${words.join(' / ')}\n\nStarted by \`scripts/theme-dossier.mjs\` on ${new Date().toISOString().slice(0, 10)}: the sections a script fills exactly are below, with the commands that made them, so a reviewer can run them again. Sections 3–5 are the researcher's. Every row the researcher adds: **claim** / source key / exact URL / verbatim quote (PAGES.md, §4).`);
 parts.push(`## 1. Every occurrence in the text\n\n${volume ? run('occurrences.mjs', 'all', ...words, ...stem, '--books') : run('occurrences.mjs', book.slug, ...words, ...stem)}`);
 if (!volume) for (const h of hebrew) parts.push(run('occurrences.mjs', book.slug, '--hebrew', h));
 parts.push(`*The researcher adds, for each occurrence that carries the theme: who speaks and who or what is described, from the verse itself; and marks the occurrences that do not fit (a literal or everyday use). Then the theme passages in book order, one neutral line each.*`);

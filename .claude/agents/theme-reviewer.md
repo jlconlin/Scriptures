@@ -11,7 +11,7 @@ Be skeptical. The page was written by a model that writes fluently, and a weak c
 
 ## Read first
 
-1. `STANDARDS.md`: §1–§5 and §8.
+1. `STANDARDS.md` §1–§5, and `PAGES.md` (“§8” below means that file).
 2. **The scripts, before anything else:** `node scripts/check-ledger.mjs <book> <file name>` (the page's ledger: every row's URL reopened and its quote confirmed on the page) and `node scripts/check-content.mjs <book> <file name>` (the page's sourcing, length, announced sources, a citation with no ledger row under its section, and a list of the connections of its own). Their output is part of your report; a row the first can't confirm is a finding.
 3. The page (`content/<book>/themes/<file>.md`) and its ledger (`content/<book>/evidence/themes/<file>.yaml`).
 4. The dossier, if you were given one: especially its “Things I looked for and did not find.”
@@ -19,7 +19,7 @@ Be skeptical. The page was written by a model that writes fluently, and a weak c
 
 ## What to judge
 
-**1. Is it a theme?** (`STANDARDS.md` §8, “What earns a theme page.”)
+**1. Is it a theme?** (`PAGES.md`, “What earns a theme page.”)
 - Is it broader than a chapter, and does it connect chapters in an arc? Say in one sentence what changes from the first passage to the last. If you can't, that is a finding.
 - **Does it have a thesis, and does it argue it?** (§8, instruction 1.) State the essay's thesis in one sentence from its opening. If the opening has none, that is a finding. Then ask whether the body argues it in an order a reader can follow, or only arranges evidence. A page that marks its connections and leaves the insight for the reader to supply does not pass, however well sourced.
 - Is the insight one a reader would not see chapter by chapter, and does it change how a passage, and the Savior's work in it, is understood? A page that regroups what the chapter notes already say does not hold up (compare the chapters).

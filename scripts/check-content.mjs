@@ -24,7 +24,7 @@
 // Other rules, warnings only, each under its own heading (STANDARDS.md §3, §1): a source announced in a note, `setting`, `thread`,
 //   `christ`, or `explore`, or in a section of a guide or theme page (“the manual says”, “one commentator notes”); more than a third of a chapter's notes citing a
 //   commentary read on Bible Hub; a `setting` under 120 or over 280 words (the guideline is 150–250).
-// Guide and theme pages (STANDARDS.md §8), warnings only: a theme page over 4,000 words (the upper limit; a guide is not held to it); a source announced in a guide's text (a theme page, an essay, may name its sources); a `[@key]` cited in a
+// Guide and theme pages (PAGES.md), warnings only: a theme page over 4,000 words (the upper limit; a guide is not held to it); a source announced in a guide's text (a theme page, an essay, may name its sources); a `[@key]` cited in a
 //   section whose ledger has no row for that key under that section (`where` “section “Heading”” or “opening”). Information, listed
 //   and not counted as a warning: the page's own connections, the ledger rows whose claim begins “Connection made by this page:”.
 // Per-note ledger coverage (STANDARDS.md §5), warnings only, each under its own heading, in a chapter with a ledger: a key in a note's
@@ -80,7 +80,7 @@ const ANNOUNCE_VERBS = [
 const ANNOUNCED = new RegExp(`\\b(?:${ANNOUNCERS.join('|')})\\s+(?:also |then |here |likewise )?(?:${ANNOUNCE_VERBS.join('|')})\\b`, 'gi');
 const OUTSIDE_COMMENTARY_SHARE = 1 / 3; // of a chapter's notes, citing a commentary read on Bible Hub
 const SETTING_WORDS = [120, 280]; // the guideline is 150–250
-const PAGE_WORDS = 4000; // a theme page is an essay; this is its upper limit, not a target (STANDARDS.md §8, 2026-10-25)
+const PAGE_WORDS = 4000; // a theme page is an essay; this is its upper limit, not a target (PAGES.md, 2026-10-25)
 // What --repeats leaves out: scripture, lexicons, and dictionary entries are meant to be quoted again.
 const REFERENCE_KEY = /^(?:lds-scriptures|greek-nt|biblehub-interlinear|lxx-|nrsv|niv$|esv$|kjv|oshb|tahot|bdb|halot|strongs|webster|thayer|jst-|mt-sefaria|.*-heading$)/;
 const REPEAT_WORDS = 12, REPEAT_CHAPTERS = 3;
@@ -211,7 +211,7 @@ const announced = []; // sources announced in the text
 const markers = []; // [@key] markers in a chapter file (chapter pages don't render them; STANDARDS.md §6)
 const openers = []; // a note whose first sentence withholds its subject (“This note is about…”; STANDARDS.md §3)
 const scholars = []; // a modern scholar named in running text (STANDARDS.md §3: the citation carries the attribution)
-const titleClash = []; // a theme page titled as a chapter is (STANDARDS.md §8)
+const titleClash = []; // a theme page titled as a chapter is (PAGES.md)
 // Surnames of the authors of articles, books and web pages in sources.yaml: naming one in running text is the fault §3 forbids.
 // Ancient writers may be named, and a prophet or apostle is named with a title (“Elder”, “President”), which the test allows.
 const ANCIENT = /^(?:Josephus|Jerome|Philo|Eusebius|Origen|Augustine|Tertullian|Irenaeus|Rashi|Kimchi|Radak|Herodotus|Xenophon|Berossus|Tacitus|Pliny|Strabo|Maimonides|Clement|Justin|Hippolytus|Theodoret|Ephrem|Aquila|Symmachus|Theodotion|Brenton|Coverdale|Tyndale|Wycliffe|Luther|Calvin|Henry|Clarke|Gill|Wesley|Webster|Paul)$/;
@@ -253,20 +253,20 @@ for (const book of books) {
           const title = String(YAML.parse(fm[1])?.title ?? '').replace(/[“”‘’"']/g, '').trim().toLowerCase();
           for (const cf of await ls(path.join(bdir, 'chapters'), '.yaml')) {
             const ct = String((await readYaml(path.join(bdir, 'chapters', cf)))?.title ?? '').replace(/[“”‘’"']/g, '').trim().toLowerCase();
-            if (title && ct === title) titleClash.push(`${where}: titled “${title}” as chapter ${parseInt(cf, 10)} is (retitle one; STANDARDS.md §8)`);
+            if (title && ct === title) titleClash.push(`${where}: titled “${title}” as chapter ${parseInt(cf, 10)} is (retitle one; PAGES.md)`);
           }
         }
         for (const s of listed) checkKey(where, keyOf(s));
         const cites = [...text.matchAll(CITE)];
         for (const m of cites) checkKey(where, m[1]);
-        if (listed.length && !cites.length) err(`${where}: lists sources but has no numbered citations ([@key] after the claims; STANDARDS.md §8)`);
+        if (listed.length && !cites.length) err(`${where}: lists sources but has no numbered citations ([@key] after the claims; PAGES.md)`);
         pageCount++;
 
         // The page's sections: the text before the first heading is the opening (the ledger's `where` for it).
         const sections = pageSections(text.replace(/^---\n[\s\S]*?\n---\n?/, ''));
-        // A theme page is an essay and may name a source in running text (STANDARDS.md §8, 2026-10-26); a guide may not (§3).
+        // A theme page is an essay and may name a source in running text (PAGES.md, 2026-10-26); a guide may not (§3).
         const words = sections.reduce((n, s) => n + wordCount(s.text), 0);
-        if (sub === 'themes' && words > PAGE_WORDS) pageLength.push(`${where}: ${words} words (STANDARDS.md §8: the upper limit is ${PAGE_WORDS}; cut what doesn't advance the argument)`);
+        if (sub === 'themes' && words > PAGE_WORDS) pageLength.push(`${where}: ${words} words (PAGES.md: the upper limit is ${PAGE_WORDS}; cut what doesn't advance the argument)`);
         if (sub === 'guides')
           for (const s of sections)
             for (const phrase of new Set([...s.text.matchAll(ANNOUNCED)].map((m) => m[0]))) announced.push(`${where} ${s.heading ? `section “${s.heading}”` : 'opening'}: “${phrase}”`);
@@ -289,7 +289,7 @@ for (const book of books) {
           for (const k of new Set([...s.text.matchAll(CITE)].map((m) => m[1])))
             if (ledgerKeys.has(k) && !here.has(k)) uncitedSection.push(`${where} ${s.heading ? `section “${s.heading}”` : 'opening'}: cites [@${k}], but ${lf} has no row for ${k} under that section`);
         }
-        // The page's own connections (STANDARDS.md §8), listed so a reviewer sees them at once.
+        // The page's own connections (PAGES.md), listed so a reviewer sees them at once.
         const own = rows.filter((r) => /^\s*Connection made by this page:/i.test(String(r?.claim ?? '')));
         if (own.length) ownConnections.push(`${where}: ${own.length} connection${own.length > 1 ? 's' : ''} of its own`, ...own.map((r) => `    ${r.where}: ${String(r.claim).replace(/^\s*Connection made by this page:\s*/i, '')}`));
       }
@@ -493,11 +493,11 @@ for (const [group, list] of [
   ['Modern scholars named in running text (warnings only; STANDARDS.md §3; surnames from sources.yaml, so a false match is possible)', scholars],
   ['[@key] markers in a chapter file (warnings only; STANDARDS.md §6: chapter pages don\'t render them)', markers],
   ['Notes whose first sentence withholds the subject (warnings only; STANDARDS.md §3: the first sentence is the preview card)', openers],
-  ['Theme pages titled as a chapter is (warnings only; STANDARDS.md §8)', titleClash],
+  ['Theme pages titled as a chapter is (warnings only; PAGES.md)', titleClash],
   ['Chapters leaning on commentaries read on Bible Hub (warnings only; STANDARDS.md §1)', outside],
   ['Chapters whose setting is outside the length it should have (warnings only; STANDARDS.md §3)', settingLength],
-  ['Theme pages over the length they should have (warnings only; STANDARDS.md §8)', pageLength],
-  ['Citations in a section of a guide or theme page with no ledger row for that key under that section (warnings only; STANDARDS.md §8)', uncitedSection],
+  ['Theme pages over the length they should have (warnings only; PAGES.md)', pageLength],
+  ['Citations in a section of a guide or theme page with no ledger row for that key under that section (warnings only; PAGES.md)', uncitedSection],
   ['Passages quoted in the ledgers of three or more chapters (--repeats; warnings only): explain one once and link it', repeatedQuotes],
 ])
   if (list.length && !quiet) {
@@ -507,7 +507,7 @@ for (const [group, list] of [
 
 // Information, not a warning: the connections a theme page makes itself, so a reviewer sees at once which they are.
 if (ownConnections.length && !quiet) {
-  console.log(`\nConnections the pages make themselves (information; STANDARDS.md §8, ledger rows that begin “Connection made by this page:”):`);
+  console.log(`\nConnections the pages make themselves (information; PAGES.md, ledger rows that begin “Connection made by this page:”):`);
   for (const l of ownConnections) console.log(l.startsWith('    ') ? l : `  ${l}`);
 }
 
