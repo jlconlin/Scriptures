@@ -21,7 +21,7 @@ export const meta = {
 // It decides every finding, repairs the chapter, and may add what a real gap needs only from a source it reads,
 // with a ledger row. Afterwards the coordinator runs scripts/batch-finish.mjs on this run's journal, which commits
 // each chapter with the record of its prose review (PROCESS.md, “Writing a book in batches”).
-// On trial from 2026-11-17 (DECISIONS.md, “Codex reads before the reviewer”): before then the reviewer saw only the
+// Since 2026-11-17 (DECISIONS.md, “Codex reads before the reviewer”); before then the reviewer saw only the
 // checker's findings and a separate apply stage (codex-pass) handled Codex's.
 const book = args.book
 const scratch = `.cache/batch/${book}`
