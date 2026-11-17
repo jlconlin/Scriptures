@@ -1,7 +1,7 @@
 // Finding the books on the site. A book is a directory content/<slug>/ that has a book.yaml
 // and a chapters/ directory. Used by the build and by the scripts, so they agree on what exists.
 import { readFile, readdir } from 'node:fs/promises';
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import path from 'node:path';
 import YAML from 'yaml';
 import { VOLUMES } from './canon.mjs';
@@ -50,12 +50,22 @@ export async function findBook(root, slug) {
 
 /**
  * The five volumes as owners of pages. A volume's directory is content/volumes/<slug>/ (guides/, evidence/guides/,
- * volume.md and project notes); it may not exist yet. `kind: 'volume'` tells an owner from a book, which has none.
+ * volume.md, visual.yaml for the volume page's picture, and project notes); it may not exist yet. `kind: 'volume'`
+ * tells an owner from a book, which has none.
  */
 export function discoverVolumes(root) {
   return VOLUMES.map((v) => {
     const dir = path.join(root, 'content/volumes', v.slug);
-    return { ...v, kind: 'volume', dir, hasGuides: existsSync(path.join(dir, 'guides')) };
+    const visualFile = path.join(dir, 'visual.yaml');
+    let visual;
+    if (existsSync(visualFile)) {
+      try {
+        visual = YAML.parse(readFileSync(visualFile, 'utf8'));
+      } catch (err) {
+        throw new Error(`${path.relative(root, visualFile)}: ${err.message}`);
+      }
+    }
+    return { ...v, kind: 'volume', dir, hasGuides: existsSync(path.join(dir, 'guides')), visual };
   });
 }
 

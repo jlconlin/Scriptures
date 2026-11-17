@@ -104,6 +104,21 @@ function bookGroups(sorted, volume) {
   return groups.length > 1 ? groups : [[null, sorted]];
 }
 
+// A volume division's key, for its anchor and its color (--vol-<key> in site.css): “The major prophets” → major-prophets.
+const volDivKey = (name) => name.toLowerCase().replace(/^the /, '').replace(/\s+/g, '-');
+// The bar's label: the division's name without “The”, and only its first word where its segment is too narrow (“Poetry”, “Major”), so the
+// narrow segments still read.
+const volDivLabel = (name) => { const s = name.replace(/^The /, ''); return s[0].toUpperCase() + s.slice(1); };
+
+// A volume's divisions as a bar of colored segments above its books, as a book's sections are above its chapters,
+// each sized by its books and linking to its group (author, 2026-11-17: “almost exactly like we have for Isaiah”).
+function volumeDivisionMap(groups, volume) {
+  if (groups.length < 2) return '';
+  return `<div class="dial-wrap division-map-wrap"><div class="dial-label" aria-hidden="true" hidden></div><div class="division-map" role="navigation" aria-label="Divisions of the ${esc(volume.name)}">
+    ${groups.map(([name, bs]) => { const k = volDivKey(name), range = bs.length > 1 ? `${bs[0].name}–${bs.at(-1).name}` : bs[0].name; return `<a href="#${k}" style="--div:var(--vol-${k});--c:var(--vol-${k});flex:${bs.length}" aria-label="${esc(name)}: ${esc(range)}" data-label="${esc(name)}" data-div="${esc(range)}"><span class="full">${esc(volDivLabel(name))}</span><span class="short">${esc(volDivLabel(name).split(' ')[0])}</span></a>`; }).join('')}
+  </div></div>`;
+}
+
 // A volume's page: its books on the site first (author, 2026-10-16: “Definitely books first”), then its guides,
 // and the Gospel Library for the rest.
 // On a volume's page its guides and its period guides (Context) stand in two columns where there is room, each with
@@ -126,6 +141,10 @@ export function renderVolume({ volume, books, html = '', guides = [] }) {
   // A one-chapter book (Obadiah) says “1 chapter”, not “1 chapters”.
   const unit = (b) => (b.chapters.length === 1 ? (b.unit?.singular?.toLowerCase() ?? 'chapter') : unitPlural(b));
   const status = (b) => (b.written.length < b.chapters.length ? `${b.written.length} of ${b.chapters.length} ${unit(b)}` : `${b.chapters.length} ${unit(b)}`);
+  // The volume's picture (content/volumes/<slug>/visual.yaml), full width under the heading at every size, with its
+  // “What's in this picture” behind the eye button (first used for the Old Testament's mosaic, author, 2026-11-17).
+  const v = volume.visual;
+  const volumeArt = v?.status === 'approved' && v.asset && v.alt ? `<div class="wrap volume-art">${artFigure(v)}</div>\n` : '';
   const body = `
 <header class="page-hero"><div class="wrap narrow">
   <p class="eyebrow">The standard works</p>
@@ -133,9 +152,10 @@ export function renderVolume({ volume, books, html = '', guides = [] }) {
   <p class="lede">${sorted.length ? `The books of the ${esc(volume.name)} on this site so far. The whole ${esc(volume.name)} is in the Gospel Library, with footnotes and study helps.` : `Nothing from the ${esc(volume.name)} is on this site yet. You can read it in the Gospel Library, with footnotes and study helps.`}</p>
   <p><a class="btn" href="${gospelLibraryVolume(volume)}" target="_blank" rel="noopener">Read the ${esc(volume.name)} in the Gospel Library ↗</a></p>
 </div></header>
-${html ? `<article class="wrap narrow guide prose prose-lg">${html}</article>` : ''}${sorted.length ? `<section class="wrap book-section volume-books" aria-labelledby="books-h">
+${volumeArt}${html ? `<article class="wrap narrow guide prose prose-lg">${html}</article>` : ''}${sorted.length ? `<section class="wrap book-section volume-books" aria-labelledby="books-h">
   <h2 class="section-title" id="books-h">Books</h2>
-  ${bookGroups(sorted, volume).map(([name, bs]) => `${name ? `<h3 class="book-group">${esc(name)}</h3>` : ''}<ul class="book-rows">${bs.map((b) => `<li><a class="book-row" href="/${b.slug}/"><span class="book-row-name">${esc(b.name)}</span><span class="book-row-status">${status(b)}</span><span class="book-row-blurb">${esc(b.home.blurb)}</span></a></li>`).join('')}</ul>`).join('\n  ')}
+  ${volumeDivisionMap(bookGroups(sorted, volume), volume)}
+  ${bookGroups(sorted, volume).map(([name, bs]) => `${name ? `<h3 class="book-group" id="${volDivKey(name)}" style="--div:var(--vol-${volDivKey(name)})">${esc(name)}</h3>` : ''}<ul class="book-rows"${name ? ` style="--div:var(--vol-${volDivKey(name)})"` : ''}>${bs.map((b) => `<li><a class="book-row" href="/${b.slug}/"><span class="book-row-name">${esc(b.name)}</span><span class="book-row-status">${status(b)}</span><span class="book-row-blurb">${esc(b.home.blurb)}</span></a></li>`).join('')}</ul>`).join('\n  ')}
 </section>` : ''}
 ${guides.length ? volumeGuidesSection(volume, guides) : ''}`;
   return layout({ title: volume.name, description: `The books of the ${volume.name} on ${SITE.name}.`, path: `/${volume.slug}/`, body, bodyClass: 'page-volume', volume: volume.key });

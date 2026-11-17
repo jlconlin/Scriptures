@@ -582,11 +582,13 @@
   // the image, so while it is open the button is raised by the list's height to stay on the image.
   // On wide screens the list is always open beside the introduction (site.css), and its button is only a heading.
   const wideKey = matchMedia('(min-width: 860px)');
+  // A volume's picture spans the page, so its list stays behind the button at every width.
   document.querySelectorAll('.art-key').forEach((d) => {
     const fig = d.closest('.book-art-figure'), list = d.querySelector('ul');
-    const place = () => fig.style.setProperty('--key-h', d.open && !wideKey.matches ? `${list.offsetHeight + parseFloat(getComputedStyle(list).marginTop)}px` : '0px');
-    const fit = () => { d.open = wideKey.matches; place(); };
-    d.querySelector('summary').addEventListener('click', (e) => { if (wideKey.matches) e.preventDefault(); });
+    const beside = () => wideKey.matches && !d.closest('.volume-art');
+    const place = () => fig.style.setProperty('--key-h', d.open && !beside() ? `${list.offsetHeight + parseFloat(getComputedStyle(list).marginTop)}px` : '0px');
+    const fit = () => { d.open = beside(); place(); };
+    d.querySelector('summary').addEventListener('click', (e) => { if (beside()) e.preventDefault(); });
     d.addEventListener('toggle', place);
     wideKey.addEventListener('change', fit);
     addEventListener('resize', place);

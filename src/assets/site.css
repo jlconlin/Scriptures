@@ -41,6 +41,16 @@
   --div-comfort: #2f7f9a;
   --div-servant: #b02f4c;
   --div-zion: #3d7a54;
+
+  /* divisions of a volume, for the bar and book groups on its page (author, 2026-11-17) */
+  --vol-law: #c0562b;
+  --vol-history: #b7802a;
+  --vol-poetry-and-wisdom: #8a5a9e;
+  --vol-major-prophets: #2f7f9a;
+  --vol-minor-prophets: #3d7a54;
+  --vol-gospels-and-acts: #b02f4c;
+  --vol-epistles: #2f7f9a;
+  --vol-revelation: #b7802a;
   --tl-bom: #3a3d4a;   /* the timeline's Book of Mormon rows: dark grey, a people apart (author, 2026-10-13) */
 
   --art-sky-1: #f9dcc2;
@@ -73,7 +83,7 @@
     --bg: #17181f; --bg-2: #1d1f28; --surface: #20222c; --ink: #ece6da; --ink-2: #cfc8bb; --muted: #9a9aa6;
     --line: #2f3140; --line-2: #3d4050; --accent: #ec8a5e; --accent-ink: #f3a47f; --accent-soft: #3a2a24; --focus: #7aa7ff;
     --k-words: #9aa7f2; --k-history: #e0a767; --k-symbol: #6fcfc5; --k-christ: #f08aa0; --k-scripture: #d8c268; --k-prophets: #c9a0ec; --k-structure: #98d58c; --k-bom: #8fb8f2;
-    --div-judah: #ec8a5e; --div-nations: #c49ad6; --div-apocalypse: #ea7d78; --div-woes: #e2b565; --div-hezekiah: #b5c47c; --div-comfort: #74c3dc; --div-servant: #f08aa0; --div-zion: #85cc9f; --tl-bom: #c9ccd8;
+    --div-judah: #ec8a5e; --div-nations: #c49ad6; --div-apocalypse: #ea7d78; --div-woes: #e2b565; --div-hezekiah: #b5c47c; --div-comfort: #74c3dc; --div-servant: #f08aa0; --div-zion: #85cc9f; --vol-law: #ec8a5e; --vol-history: #e2b565; --vol-poetry-and-wisdom: #c49ad6; --vol-major-prophets: #74c3dc; --vol-minor-prophets: #85cc9f; --vol-gospels-and-acts: #f08aa0; --vol-epistles: #74c3dc; --vol-revelation: #e2b565; --tl-bom: #c9ccd8;
     --art-sky-1: #2b2a3d; --art-sky-2: #1f2030; --art-sun: #f0c987; --art-hill-1: #3c4a33; --art-hill-2: #4d5c41; --art-pole: #c9b79e; --art-people: #d7cdb7;
     --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 8px 24px -10px rgb(0 0 0 / 60%);
     --shadow-lg: 0 2px 4px rgb(0 0 0 / 35%), 0 20px 50px -12px rgb(0 0 0 / 70%);
@@ -85,7 +95,7 @@
   --bg: #17181f; --bg-2: #1d1f28; --surface: #20222c; --ink: #ece6da; --ink-2: #cfc8bb; --muted: #9a9aa6;
   --line: #2f3140; --line-2: #3d4050; --accent: #ec8a5e; --accent-ink: #f3a47f; --accent-soft: #3a2a24; --focus: #7aa7ff;
   --k-words: #9aa7f2; --k-history: #e0a767; --k-symbol: #6fcfc5; --k-christ: #f08aa0; --k-scripture: #d8c268; --k-prophets: #c9a0ec; --k-structure: #98d58c; --k-bom: #8fb8f2;
-  --div-judah: #ec8a5e; --div-nations: #c49ad6; --div-apocalypse: #ea7d78; --div-woes: #e2b565; --div-hezekiah: #b5c47c; --div-comfort: #74c3dc; --div-servant: #f08aa0; --div-zion: #85cc9f; --tl-bom: #c9ccd8;
+  --div-judah: #ec8a5e; --div-nations: #c49ad6; --div-apocalypse: #ea7d78; --div-woes: #e2b565; --div-hezekiah: #b5c47c; --div-comfort: #74c3dc; --div-servant: #f08aa0; --div-zion: #85cc9f; --vol-law: #ec8a5e; --vol-history: #e2b565; --vol-poetry-and-wisdom: #c49ad6; --vol-major-prophets: #74c3dc; --vol-minor-prophets: #85cc9f; --vol-gospels-and-acts: #f08aa0; --vol-epistles: #74c3dc; --vol-revelation: #e2b565; --tl-bom: #c9ccd8;
   --art-sky-1: #2b2a3d; --art-sky-2: #1f2030; --art-sun: #f0c987; --art-hill-1: #3c4a33; --art-hill-2: #4d5c41; --art-pole: #c9b79e; --art-people: #d7cdb7;
   --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 8px 24px -10px rgb(0 0 0 / 60%);
   --shadow-lg: 0 2px 4px rgb(0 0 0 / 35%), 0 20px 50px -12px rgb(0 0 0 / 70%);
@@ -334,6 +344,9 @@ section.home-hero { padding-bottom: 0; }
 .chapter-art { margin-top: 24px; max-width: 46rem; }
 .chapter-art .book-art-figure { margin: 0; }
 .chapter-art .hero-art { display: block; width: 100%; max-width: none; margin: 0; }
+/* A volume's picture spans the page under its heading (author, 2026-11-17). */
+.volume-art .book-art-figure { margin: 8px 0 0; }
+.volume-art .hero-art { display: block; width: 100%; max-width: none; }
 /* “What's in this picture”: a faint button in the image's lower right corner; the list opens below the image (site.js keeps the button on the image). */
 .art-key > summary { list-style: none; cursor: pointer; position: absolute; right: 12px; bottom: calc(var(--key-h, 0px) + 12px); display: grid; place-items: center; width: 32px; height: 32px; border-radius: 50%; background: rgba(20, 20, 24, .16); color: rgba(255, 255, 255, .75); backdrop-filter: blur(3px); -webkit-backdrop-filter: blur(3px); transition: background .15s, color .15s; }
 .art-key > summary::-webkit-details-marker { display: none; }
@@ -819,6 +832,14 @@ section.home-hero { padding-bottom: 0; }
 .volume-books { max-width: calc(var(--read-w) + 2 * var(--gutter)); }
 .book-group { margin: 16px 0 6px; font: 700 .8rem var(--font-ui); letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
 .volume-books .section-title + .book-group { margin-top: 4px; }
+/* A division's heading takes its color from the bar above (--vol-<key>): a bar at its left, its text blended toward
+   the ink so it reads (author, 2026-11-17). */
+.book-group[style] { color: color-mix(in srgb, var(--div) 70%, var(--ink)); border-left: 5px solid var(--div); padding: 3px 0 3px 10px; margin-top: 24px; }
+.book-rows[style] .book-row:hover { background: color-mix(in srgb, var(--div) 8%, transparent); }
+/* A volume's bar: a segment too narrow for its division's name shows only the first word (“Poetry”, “Major”). */
+.division-map a:has(.short) { container-type: inline-size; }
+.division-map .short { display: none; }
+@container (max-width: 105px) { .division-map .full { display: none; } .division-map .short { display: inline; } }
 .book-rows { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
 .book-rows li { border-bottom: 1px solid var(--line); }
 .book-row { display: grid; grid-template-columns: 1fr auto; gap: 2px 16px; padding: 7px 4px; color: var(--ink); text-decoration: none; min-height: 44px; }
@@ -827,7 +848,7 @@ section.home-hero { padding-bottom: 0; }
 .book-row-status { font-size: .82rem; color: var(--muted); align-self: center; font-variant-numeric: tabular-nums; }
 .book-row-blurb { grid-column: 1 / -1; color: var(--ink-2); font-size: .93rem; line-height: 1.45; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
 @media (min-width: 820px) {
-  .page-volume .page-hero .wrap.narrow, .page-volume .volume-guides, .volume-books { max-width: calc(900px + 2 * var(--gutter)); }
+  .page-volume .page-hero .wrap.narrow, .page-volume .volume-guides, .volume-books, .volume-art { max-width: calc(900px + 2 * var(--gutter)); }
   .page-volume .volume-guides .guide-cards, .page-volume .volume-guides .section-sub { max-width: var(--read-w); }
   .book-rows { display: grid; grid-template-columns: 1fr 1fr; column-gap: 32px; border-top: 0; }
   .book-rows li { border-top: 1px solid var(--line); border-bottom: 0; }
