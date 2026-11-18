@@ -11,6 +11,7 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository (what waits for 
 `node scripts/status.mjs daniel` prints what the repository shows; the history is `git log -- content/daniel`. What a script can't see:
 
 - **A fourth theme page, 2026-10-13** (the author, overnight: “Themes not threads… And guides”): Secrets Revealed, Words Sealed (`content/daniel/themes/secrets-revealed.md`), from the research lead; in preview until read. It does not say Daniel's sealed words are the Book of Mormon's sealed portion or the book of Revelation 5 (D&C 77:6 names that one differently); the Rev. 5 step is a marked comparison; the word evidence is stated within the Aramaic chapters only.
+- **The old-form pages, 2026-11-18** (author: “Go ahead” on the sorting of the old-form pages): `desolate-sanctuary` was deleted; its material is in the notes on 1:2, 5:3, 8:11, 9:24–27 and 11:31. `kingdom-never-destroyed` is now a reading path (`review: unread`).
 
 ## What the author has decided
 

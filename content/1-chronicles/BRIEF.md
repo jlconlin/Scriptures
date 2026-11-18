@@ -130,7 +130,7 @@ No key collides with another book's (`grep key: content/*/book.yaml`, 2026-11-13
 | **Why David could not build** | `[[1 Chr. 22:8]]`; `[[2 Sam. 7:5]]` (“Why David was not to build”) and `[[1 Kgs. 5:3]]` on the site: agree, link | 28:3 points |
 | **The courses of the priests; Abijah's course and Luke 1:5** | `[[1 Chr. 24:10]]`; `[[Neh. 12:7]]` on the site: agree, link | nothing |
 | **The singers who prophesy** | `[[1 Chr. 25:1]]`; `[[1 Sam. 10:5]]` (“A company of prophets”) on the site: agree, link | 2 Chr. 29:25, 30 point |
-| **The pattern of the temple, given in writing** | `[[1 Chr. 28:11]]`–19 (`cowan-ot-temples` [14]); `[[1 Kgs. 6:2]]` (“The plan of the house”) and the *Temple and Worship* guide (`#temples`) on the site: agree, link | nothing |
+| **The pattern of the temple, given in writing** | `[[1 Chr. 28:11]]`–19 (`cowan-ot-temples` [14]); `[[1 Kgs. 6:2]]` (“The plan of the house”) and the *Law, the Covenant and the Temple* guide (`#temples`) on the site: agree, link | nothing |
 | **The willing offering; “of thine own have we given thee”** | `[[1 Chr. 29:14]]` | `[[Ezra 6]]`'s `christ` already quotes 29:17: agree |
 | **The books of Samuel, Nathan and Gad; the Chronicler's sources** | `[[1 Chr. 29:29]]` (`bd-lost-books` [1]; `bd-chronicles` [1]); `[[1 Sam. 22:5]]` (“Gad the seer”) and `[[1 Kgs. 14:19]]` (“The book of the chronicles”) on the site: agree, link | every “written in the book of …” in 2 Chronicles points |
 

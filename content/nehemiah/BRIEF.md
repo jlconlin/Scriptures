@@ -125,11 +125,11 @@ From `occurrences.mjs all … --site all` (`.cache/batch/nehemiah/site.txt`; `ne
 
 - **1–2:** `[[Ezra 4:21]]`, `[[Gen. 40:1]]` and Genesis 43's `explore` (1:11), `[[Dan. 8:2]]`, `[[Ps. 147:2]]` (1:9), `[[Ezra 8:22]]` (2:8–9), `[[Ps. 123:4]]` (2:19), `[[Zech. 2:5]]` and Zechariah 2's setting (2:17), `[[Ps. 45:10]]` (2:6, the queen).
 - **3–6:** `[[Jer. 31:38]]` (3:1), `[[Jer. 35:2]]` (3:14), `[[Ps. 102:14]]`, `[[Isa. 62:8]]`, `[[Isa. 50:1]]`, `[[Mal. 1:8]]`, `[[Ezra 9:9]]` and Psalm 147's `explore` (6:15–16).
-- **7–8:** Ezra 2's setting and notes; `[[Deut. 31:10]]`, `[[Lev. 23:36]]`, `[[Lev. 23:40]]`, `[[Lev. 23:43]]`, Numbers 29's and Hosea 12's `explore`; `[[Ezra 7:6]]`, `[[Ezra 7:10]]`, `[[Ezra 8:15]]`; the guide [How It Came to Us](/old-testament/guides/how-it-came-to-us/) (8:8).
+- **7–8:** Ezra 2's setting and notes; `[[Deut. 31:10]]`, `[[Lev. 23:36]]`, `[[Lev. 23:40]]`, `[[Lev. 23:43]]`, Numbers 29's and Hosea 12's `explore`; `[[Ezra 7:6]]`, `[[Ezra 7:10]]`, `[[Ezra 8:15]]`.
 - **9–10:** Genesis 15, Exodus 13 and 15 settings; `[[Ex. 18:11]]`, `[[Ex. 32:4]]`, `[[Ex. 34:6]]`, `[[Judg. 3:9]]`, `[[Obad. 1:21]]`, `[[Ezek. 20:11]]`, `[[Ps. 143:10]]`, `[[Jer. 36:9]]`; Psalms 106 and 136, Zechariah 7, Ezra 9, Deuteronomy 29 and Joshua 24 in `explore`; `[[Ex. 30:15]]`, `[[Num. 15:20]]`, `[[Num. 18:26]]`, `[[Mal. 3:10]]`; the guide [Law and Covenant](/old-testament/guides/law-and-covenant/) (10:29).
 - **11–12:** `[[Isa. 49:20]]`, `[[Zech. 1:1]]`, Psalm 147's setting (12:27), `[[Ezra 3:10]]`.
 - **13:** listed under the question above, plus `[[Jer. 17:21]]`, `[[Mal. 3:8]]`, Malachi 2 and 3 settings, `[[Isa. 38:2]]` (13:31), and Ezra 9 and 10 settings.
-- **Guides:** [Persia and the Return](/old-testament/guides/persia-and-the-return/) (`#rulers`; `#nations` already names Tobiah and quotes 2:19), [A Timeline of the Old Testament](/old-testament/guides/israels-story/#return), [Temple and Worship](/old-testament/guides/temple-and-worship/).
+- **Guides:** [Persia and the Return](/old-testament/guides/persia-and-the-return/) (`#rulers`; `#nations` already names Tobiah and quotes 2:19), [A Timeline of the Old Testament](/old-testament/guides/israels-story/#return), [The Law, the Covenant and the Temple](/old-testament/guides/law-and-covenant/).
 - **Left to Esther and Chronicles:** Esther, the court at Shushan before Nehemiah; Chronicles, the priestly and Levitical lists that Nehemiah 11–12 continue (Ludlow, 53, 59).
 
 ## What the reader already has (don't repeat)

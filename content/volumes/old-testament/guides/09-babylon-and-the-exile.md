@@ -5,7 +5,7 @@ icon: compass
 sources: [bd-ammon, bd-assyria, bd-babylon, bd-chaldea, bd-cyrus, bd-edom, bd-ezekiel, bd-habakkuk, bd-jehoiachin, bd-jeremiah, bd-josiah, bd-lamentations, bd-media, bd-moab, bd-nahum, bd-nebuchadnezzar, bd-necho, bd-obadiah, bd-persia, bd-tyre, bd-zephaniah, bible-chron-ot, draper-exile, lds-scriptures, ot-manual-kings-a, ot-manual-kings-g, sc-knowhy-860, schade-kingdom-judah, scripture-helps-2-kings, scripture-helps-dan, scripture-helps-ezek, scripture-helps-ezra, scripture-helps-geography, tolley-imprisonment]
 ---
 
-This guide covers Judah from Manasseh to Cyrus's taking of Babylon. Judah had been tributary to Assyria in Manasseh's day.[@ot-manual-kings-a] Assyria fell,[@bd-assyria] and Judah was “caught in the power struggle between Egypt and Babylonia.”[@ot-manual-kings-g] Nebuchadnezzar took Jerusalem in stages and carried its people to Babylon, where they lived until Persia conquered the empire in 539 BC.[@scripture-helps-ezra] The return from exile belongs to the next period. For the whole sweep see [A Timeline of the Old Testament](/old-testament/guides/israels-story/#babylon) and its section on [the exile](/old-testament/guides/israels-story/#exile).
+This guide covers Judah from Manasseh to Cyrus's taking of Babylon. Judah had been tributary to Assyria in Manasseh's day.[@ot-manual-kings-a] Assyria fell,[@bd-assyria] and Judah was “caught in the power struggle between Egypt and Babylonia.”[@ot-manual-kings-g] Nebuchadnezzar took Jerusalem in stages and carried its people to Babylon, where they lived until Persia conquered the empire in 539 BC.[@scripture-helps-ezra] The return from exile belongs to the next period. For the whole sweep see [A Timeline of the Old Testament](/old-testament/guides/israels-story/#timeline).
 
 <h2 id="map">The map</h2>
 
@@ -57,7 +57,7 @@ All dates are approximate; where they differ, the table gives each.
 
 - [[2 Kgs. 21–25]] and [[2 Chr. 33–36]]: the history from Manasseh to the fall and Cyrus's decree.
 - Zephaniah in Josiah's reign,[@bd-zephaniah] Nahum, probably written between the fall of Thebes (about 660) and the fall of Nineveh,[@bd-nahum] and Habakkuk, whose date is uncertain, possibly Josiah's or Jehoiakim's.[@bd-habakkuk]
-- [Jeremiah](/jeremiah/), 626–586 BC;[@bd-jeremiah] [Lamentations](/lamentations/), written some years after the fall.[@bd-lamentations] For Jeremiah's own setting, see [Jeremiah's World](/jeremiah/guides/jeremiahs-world/).
+- [Jeremiah](/jeremiah/), 626–586 BC;[@bd-jeremiah] [Lamentations](/lamentations/), written some years after the fall.[@bd-lamentations] For reading Jeremiah, see [How to Read Jeremiah](/jeremiah/guides/how-to-read-jeremiah/).
 - [Ezekiel](/ezekiel/), a priest carried to Babylon in about 597 who prophesied there from about 592 to 570;[@scripture-helps-ezek] [Daniel](/daniel/), who “prophesied within the royal courts of Babylon.”[@scripture-helps-ezek]
 - Obadiah, dated either to Jehoram's day or, more probably, after 586.[@bd-obadiah]
 - [[1 Ne. 1]]: “in the commencement of the first year of the reign of Zedekiah” ([[1 Ne. 1:4]]). The Lord warned Lehi to flee before the city was destroyed.[@scripture-helps-2-kings]

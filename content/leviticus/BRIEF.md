@@ -10,7 +10,7 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository; `THEME-CANDIDAT
 
 `node scripts/status.mjs leviticus` prints what the repository shows; the history is `git log -- content/leviticus`. What a script can't see:
 
-- **The book is live** (2026-10-15; author: “go live, if everything is working”), with all 27 chapters written, reviewed and read by Codex, and the author has read almost none of it. Four theme pages (`content/leviticus/themes/`) were written from the author's selection; the fifth, the offerings beside today's ordinances, waits for the five books of Moses (`THEME-CANDIDATES.md`).
+- **The book is live** (2026-10-15; author: “go live, if everything is working”), with all 27 chapters written, reviewed and read by Codex, and the author has read almost none of it. Four theme pages (`content/leviticus/themes/`) were written from the author's selection; the fifth, the offerings beside today's ordinances, waits for the five books of Moses (`THEME-CANDIDATES.md`). `one-of-his-brethren` was deleted on 2026-11-18 (author: “Go ahead” on the sorting of the old-form pages): its material is in the notes on Lev. 25:25 and 25:39 and a new note at 25:48.
 - **The illustration is approved** (2026-10-15, the ninth candidate; author: “thats fine”): the bronze altar with tall horns inside the long linen court, the tent at its far end, and the scapegoat going out. The author found a flat poster version “too flat” and a realistic one “too photo-realistic”; the kept look is candidate 4's, between them. The altar is bronze, not stone (Ex. 27:1–2), and stands inside the court (Ex. 40:6); no grain field (Israel had no fields at Sinai).
 - **The text is imported and checked** (“The text,” below). The Church's footnotes for every chapter are saved in `.cache/batch/leviticus/fn1.txt` to `fn27.txt`; read them instead of running `footnotes.mjs` again. Scripture Central's KnoWhys for each chapter are saved in `.cache/batch/leviticus/reports/knowhys/<n>.txt`.
 - **One theme page is already chosen**: the sacrifices and offerings beside today's ordinances (`IDEAS.md`; `THEME-CANDIDATES.md`). The notes on chapters 1–7, 16 and 23 should name each offering exactly and say what it was for, so that page can link to them.
@@ -84,7 +84,7 @@ Each batch is written without sight of the others, so the same explanation retur
 | Bodily discharges | chapter 15, briefly | nothing |
 | **The Day of Atonement** and its parts; the two goats; Azazel; “afflict your souls” | chapter 16 | `[[Lev. 23:27]]` and `[[Lev. 25:9]]` say their own in a sentence and point |
 | The high priest entering the veil once a year; Hebrews 9–10 | `[[Lev. 16:2]]` (the veil itself at `[[Ex. 26:31]]`) | point |
-| Blood and life: “the life of the flesh is in the blood” | `[[Lev. 17:11]]` | point. Exodus's theme page *Four Rites of Blood* is on the blood rites: link, don't retell |
+| Blood and life: “the life of the flesh is in the blood” | `[[Lev. 17:11]]` | point. Exodus's theme page *Four Rites of Blood* was deleted on 2026-11-18; the blood rites are in Exodus's notes (12:13; 24:8; 29:20; 30:10) |
 | “The Holiness Code” (the scholars' name for 17–26) | chapter 17 `setting` | point |
 | “Be holy, for I am holy” | `[[Lev. 19:2]]`, the full note; `[[Lev. 11:44]]` has it first and says what is its own (holiness and the animals) | `[[Lev. 20:7]]`, `[[Lev. 20:26]]`, `[[Lev. 21:8]]` point |
 | “I am the LORD” as the refrain of the law | chapter 19 `thread` (the footnote at 19:14 says it is “a seal of authority”) | point |

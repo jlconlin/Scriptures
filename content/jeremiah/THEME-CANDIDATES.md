@@ -4,14 +4,14 @@ Topics that run across several chapters, collected for possible theme pages (`co
 
 **Written (2026-10-02), at the author's request to choose a handful and write them up:**
 
-- **The Shepherds and the Branch** (`themes/shepherds-and-the-branch.md`): the failed shepherds and kings, then the Lord gathering the flock and raising the Branch. Linked from the notes at 3:15, 23:5 and 33:15.
-- **Scattered and Gathered** (`themes/scattered-and-gathered.md`): the scattering, “one of a city, and two of a family,” the gathering greater than the Exodus, Israel and Judah together. Linked from the notes at 3:14, 16:14, 23:7 and 30:3.
-- **The Covenant Written in the Heart** (`themes/new-covenant.md`): the covenant broken, what is written on the heart, the new covenant, its mediator, and when. Linked from the notes at 11:10, 17:1 and 31:31.
+- **The Shepherds and the Branch** (`themes/shepherds-and-the-branch.md`): the failed shepherds and kings, then the Lord gathering the flock and raising the Branch. Linked from the notes at 3:15, 23:5 and 33:15. `shepherds-and-the-branch` was deleted on 2026-11-18 (author: “Go ahead” on the sorting of the old-form pages): its material is in the notes on 23:5 and 23:6.
+- **Scattered and Gathered** (`themes/scattered-and-gathered.md`): the scattering, “one of a city, and two of a family,” the gathering greater than the Exodus, Israel and Judah together. Linked from the notes at 3:14, 16:14, 23:7 and 30:3. `scattered-and-gathered` became a reading path on 2026-11-18 (author: “Go ahead” on the sorting of the old-form pages).
+- **The Covenant Written in the Heart** (`themes/new-covenant.md`): the covenant broken, what is written on the heart, the new covenant, its mediator, and when. Linked from the notes at 11:10, 17:1 and 31:31. `new-covenant` was deleted on 2026-11-18 (author: “Go ahead” on the sorting of the old-form pages): its material is in the notes on 31:31 and 31:33.
 
 **Written on 2026-10-03, after the author allowed theme pages to make connections of their own** (`STANDARDS.md` §8; the author: the cup and root-out-and-plant “sound like reasonable additions”):
 
 - **The Cup of the Lord's Fury** (`themes/cup-of-fury.md`): Judah, the nations, then Babylon, who had been the cup; the Church's footnotes from Jer. 25:15 to the cup of the wrath of God and D&C 19; and, as the page's own comparison, the cup no nation may refuse beside the bitter cup the Savior drank. Linked from the notes at 25:15 and 51:7.
-- **To Root Out and to Plant** (`themes/root-and-plant.md`): the six verbs of 1:10 through the book, the Lord watching, and what is planted (the Branch and the new covenant, from *Come, Follow Me*); the page's own comparisons are the Branch as a sprout, 31:27–28 beside 31:31, and the Savior's “planted… rooted up” and “true vine.” Linked from the notes at 1:10 and 45:4.
+- **To Root Out and to Plant** (`themes/root-and-plant.md`): the six verbs of 1:10 through the book, the Lord watching, and what is planted (the Branch and the new covenant, from *Come, Follow Me*); the page's own comparisons are the Branch as a sprout, 31:27–28 beside 31:31, and the Savior's “planted… rooted up” and “true vine.” Linked from the notes at 1:10 and 45:4. `root-and-plant` was deleted on 2026-11-18 (author: “Go ahead” on the sorting of the old-form pages): its material is in the notes on 1:10 and 45:4.
 
 **Not researched:** Lehi and Jeremiah in the same city is the book's main Restoration connection, but it is a comparison of two prophets, not an arc through Jeremiah; it would suit a guide better than a theme page. The rest of the list below are images or refrains that recur without developing, or live in one or two chapters.
 

@@ -2,8 +2,8 @@
 title: Women and Marriage in the Old Testament
 blurb: What God designed for men and women, how He regarded the women of the Old Testament, what the law provided for them, the customs they lived under, the passages that are hard to read, and what latter-day revelation teaches.
 icon: key
-sources: [bdb, scripture-helps-proverbs, sc-knowhy-639, jwa-deborah, scripture-helps-gen-1-2, bingham-united-2020, scripture-helps-women, bibleodyssey-marriage, kawashima-could-a-woman-say-no, belnap-beginning, reynolds-hugenberger-review, byu-studies-baker-review, hilton-motherhood-ot, olson-matriarchs, shannon-models-motherhood, tilton-moses-midwife, lds-scriptures, bybee-womans-world, bd-marriage, sears-shannon-polygamy, bd-levirate-marriage, strathearn-ruth, baird-jacob-levirate, ot-manual-deuteronomy-17-33, bd-divorce, ot-manual-ex-21-24, ot-manual-numbers-13-36, bd-hagar, easton-recognizing, scripture-helps-gen-37-41, spackman-judah-tamar, scripture-helps-ex-1, bd-miriam, scripture-helps-judges, bd-hannah, scripture-helps-1-samuel-17, scripture-helps-2-kings-16-25, scripture-helps-esther, jst-gen-19, scripture-helps-gen-18-23, benson-lot, ot-manual-gen-24-36, bd-jephthah, ot-manual-judges-1-12, lxx-rahlfs, ot-manual-judges-13-21, scripture-helps-2-samuel-11, ot-manual-26, hord-not-fragile, sloane-ezekiel, schade-hosea-family, gs-eve, bd-eve, scripture-helps-gen-3-4, kimball-womanhood-1976, soares-partnership-2022, gte-plural-marriage, topics-plural-marriage, sc-knowhy-64, gte-plural-marriage-kirtland]
-review: old-form
+sources: [bdb, scripture-helps-proverbs, sc-knowhy-639, jwa-deborah, scripture-helps-gen-1-2, bingham-united-2020, scripture-helps-women, bibleodyssey-marriage, kawashima-could-a-woman-say-no, belnap-beginning, reynolds-hugenberger-review, byu-studies-baker-review, hilton-motherhood-ot, olson-matriarchs, shannon-models-motherhood, tilton-moses-midwife, lds-scriptures, bybee-womans-world, bd-marriage, sears-shannon-polygamy, bd-levirate-marriage, strathearn-ruth, baird-jacob-levirate, ot-manual-deuteronomy-17-33, bd-divorce, ot-manual-ex-21-24, ot-manual-numbers-13-36, bd-hagar, easton-recognizing, scripture-helps-gen-37-41, spackman-judah-tamar, scripture-helps-ex-1, scripture-helps-judges, bd-hannah, scripture-helps-1-samuel-17, scripture-helps-2-kings-16-25, jst-gen-19, scripture-helps-gen-18-23, benson-lot, ot-manual-gen-24-36, bd-jephthah, ot-manual-judges-1-12, lxx-rahlfs, ot-manual-judges-13-21, scripture-helps-2-samuel-11, ot-manual-26, hord-not-fragile, sloane-ezekiel, schade-hosea-family, gs-eve, bd-eve, scripture-helps-gen-3-4, kimball-womanhood-1976, soares-partnership-2022, gte-plural-marriage, topics-plural-marriage, sc-knowhy-64, gte-plural-marriage-kirtland]
+review: unread
 ---
 
 God created man and woman in His image ([[Gen. 1:27]]) and “commanded Adam and Eve to have children and to be equal partners as husband and wife.”[@scripture-helps-gen-1-2] Over the years that understanding “largely disappeared. Females in many societies became subservient to males rather than side-by-side partners.”[@bingham-united-2020] The words “help meet” ([[Gen. 2:18]]) come from two Hebrew words “that mean helper, ally, or rescuer in an equal relation or role”: a help meet “was a companion who would walk shoulder to shoulder with Adam in full partnership.”[@scripture-helps-gen-1-2] The Old Testament shows both: women who “often suffered under the inequity of their time,” and a God who “still saw them, spoke to them, and worked through them in powerful ways.”[@scripture-helps-women] This guide covers the women's standing, the customs of marriage, what the law provided, the women the text names, the hard passages, and what the Restoration teaches.
@@ -48,15 +48,11 @@ The law of Moses included guidelines “to protect and support women, especially
 
 **Sarah.** God tells Abraham, “in all that Sarah hath said unto thee, hearken unto her voice” ([[Gen. 21:12]]); this suggests the Lord was working through Sarah.[@olson-matriarchs]
 
-**Hagar.** An Egyptian handmaid of Sarah.[@bd-hagar] She is the first woman in the Old Testament to hear a birth announced, and the only person in it to name a divine messenger or, perhaps, the LORD: “Thou God seest me” ([[Gen. 16:13]]).[@easton-recognizing] See [The God Who Sees, Hears, and Remembers](/genesis/themes/god-who-sees/).
-
-**Rebekah.** Troubled by the struggle in her womb, “she went to inquire of the LORD” and is answered ([[Gen. 25:22–23]]).
+**Hagar.** An Egyptian handmaid of Sarah.[@bd-hagar] She is the first woman in the Old Testament to hear a birth announced, and the only person in it to name a divine messenger or, perhaps, the LORD: “Thou God seest me” ([[Gen. 16:13]]).[@easton-recognizing] See [Genesis 16](/genesis/16/).
 
 **Tamar** ([[Gen. 38]]). Told she is with child, Judah orders her burned, then says, “She hath been more righteous than I” ([[Gen. 38:24–26]]). One reading allows that her motives may have been good while the deceptive means were wrong;[@scripture-helps-gen-37-41] another, that by the standards of her day she had justifiably made Judah do what he had shirked.[@spackman-judah-tamar]
 
 **The midwives.** Shiphrah and Puah “feared God, and did not as the king of Egypt commanded them” ([[Ex. 1:17]]), and “he made them houses” ([[Ex. 1:21]]).[@scripture-helps-ex-1] The women of Exodus “are active participants in the salvation of Israel.”[@tilton-moses-midwife]
-
-**Miriam.** “Miriam the prophetess” leads the women with timbrels ([[Ex. 15:20]]).[@bd-miriam]
 
 **Deborah.** “A prophetess” who “judged Israel” ([[Judg. 4:4]]), the only female judge in the Old Testament;[@scripture-helps-judges] in her song she arose “a mother in Israel” ([[Judg. 5:7]]).[@lds-scriptures]
 
@@ -67,8 +63,6 @@ The law of Moses included guidelines “to protect and support women, especially
 **Abigail.** “A woman of good understanding” ([[1 Sam. 25:3]]);[@lds-scriptures] she “can be seen as a powerful type or symbol of Jesus Christ.”[@scripture-helps-1-samuel-17]
 
 **Huldah.** The priest and the king's officers go to “Huldah the prophetess,” who answers, “Thus saith the LORD God of Israel” ([[2 Kgs. 22:14–15]]).[@lds-scriptures] Their going shows her spiritual stature.[@scripture-helps-2-kings-16-25]
-
-**Esther.** She risked her life to go before the king unsummoned.[@scripture-helps-esther] “If I perish, I perish” ([[Esth. 4:16]]).[@lds-scriptures]
 
 | Woman | Read it in |
 |---|---|
@@ -116,7 +110,7 @@ Some accounts “show the harsh and painful realities of living in a fallen worl
 
 **Tamar, David's daughter** ([[2 Sam. 13]]). She says, “do not force me; for no such thing ought to be done in Israel” ([[2 Sam. 13:12]]); Amnon, “being stronger than she, forced her” ([[2 Sam. 13:14]]). The event is called by its name, rape.[@easton-recognizing] She “remained desolate” in her brother's house ([[2 Sam. 13:20]]).[@lds-scriptures] One reading finds that the narrator sides with Tamar as a woman of wisdom.[@easton-recognizing]
 
-**The unfaithful wife of the prophets** ([[Hosea 1–3]]; [[Ezek. 16]]; [[Ezek. 23]]). The imagery of Ezekiel 16:30–34 is “some of the most scathing in all the scriptures,” and all the sexual references in Ezekiel 23 are metaphorical.[@ot-manual-26] Of Ezekiel 16 and 23: “They are violent and offensive texts, but that violence is not directed against women.”[@sloane-ezekiel] The images of violence against women in [[Hosea 13:16]] personify cities and “are not justifications of violence against women.”[@hord-not-fragile] Whether Hosea's marriage was literal or not, the message is fidelity to the Lord.[@schade-hosea-family] See [“I Will Betroth Thee unto Me”](/hosea/themes/betroth-thee/).
+**The unfaithful wife of the prophets** ([[Hosea 1–3]]; [[Ezek. 16]]; [[Ezek. 23]]). The imagery of Ezekiel 16:30–34 is “some of the most scathing in all the scriptures,” and all the sexual references in Ezekiel 23 are metaphorical.[@ot-manual-26] Of Ezekiel 16 and 23: “They are violent and offensive texts, but that violence is not directed against women.”[@sloane-ezekiel] The images of violence against women in [[Hosea 13:16]] personify cities and “are not justifications of violence against women.”[@hord-not-fragile] Whether Hosea's marriage was literal or not, the message is fidelity to the Lord.[@schade-hosea-family] See [Hosea 2](/hosea/2/).
 
 <h2 id="restoration">What the Restoration teaches</h2>
 

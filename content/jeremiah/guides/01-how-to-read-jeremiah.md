@@ -2,8 +2,8 @@
 title: How to Read Jeremiah
 blurb: Jeremiah is not in chronological order. These few habits make its sermons, signs, prayers, and promises cohere.
 icon: key
-sources: [bd-jeremiah, lds-scriptures]
-review: old-form
+sources: [bd-jeremiah, bd-jehoiachin, lds-scriptures]
+review: unread
 ---
 
 Jeremiah is hard less because it is obscure than because it is **out of order**. A sermon from Jehoiakim’s reign can sit next to a story from Zedekiah’s. A promise of a new covenant can arrive while Babylon is outside the city walls. The book asks us to hear a prophet’s long ministry as a whole, not as a diary.
@@ -27,9 +27,18 @@ When a chapter feels discontinuous, first ask: *Where is it in that movement, an
 
 Jeremiah served from Josiah’s thirteenth year until after Jerusalem fell—a ministry of more than forty years, dated 626–586 B.C. in the Bible Dictionary.[@bd-jeremiah] He therefore speaks through reform, collapse, siege, exile, and the first uncertain days afterward. The sequence of kings matters more than the page order:
 
-1. **Josiah**: reform, but deep-rooted apostasy remains (chapters 1–6).
-2. **Jehoiakim**: the temple sermon, Jeremiah’s conflict with the court, and the burned scroll (7–20; 26; 35–36).
-3. **Zedekiah**: Babylon’s siege, warnings to surrender, and Jerusalem’s fall (most of 21–38, then 39–45).
+| Date (BC) | Event | Read it in |
+|---|---|---|
+| 626 | Jeremiah is called in Josiah’s thirteenth year | [[Jer. 1]] |
+| 609 | Josiah dies; Jehoahaz’s brief reign follows | [[2 Kgs. 23]] |
+| 608–597 | Jehoiakim reigns; Jeremiah preaches at the temple and dictates a scroll | [[Jer. 7]], [[Jer. 26]], [[Jer. 36]] |
+| 597 | Babylon takes Jehoiachin; Zedekiah is installed | [[2 Kgs. 24]]; [[Jer. 24]] |
+| c. 597 | Lehi leaves Jerusalem early in Zedekiah’s reign | [[1 Ne. 1]] |
+| 588–586 | Babylon besieges Jerusalem; Jeremiah is imprisoned | [[Jer. 32]], [[Jer. 37–38]] |
+| 586 | Jerusalem falls; Zedekiah is taken to Babylon | [[Jer. 39]], [[Jer. 52]] |
+| after 586 | The remaining community takes Jeremiah to Egypt | [[Jer. 40–44]] |
+
+Dates in this period sometimes vary by a year among reference works. This guide uses 626–586 for Jeremiah and 597–586 for Zedekiah.[@bd-jeremiah] Two names vary as well: Jehoiachin is also called Jeconiah and Coniah,[@bd-jehoiachin] and the book names Babylon’s king both Nebuchadrezzar and Nebuchadnezzar, one ruler under two spellings ([[Jer. 25:9]]; [[Jer. 27:6]]).
 
 Chapter 25 is a useful landmark: it names Jehoiakim’s fourth year and Nebuchadnezzar’s first. Chapter 52 is not another turn in the narrative; it is the book’s historical conclusion.[@bd-jeremiah]
 
@@ -55,10 +64,8 @@ They also prevent a shallow reading of judgment. Jeremiah is not a spectator ple
 
 The book’s opening commission has six verbs: to root out, pull down, destroy, throw down, build, and plant ([[Jer. 1:10]]). The first four explain much of its warning; the final two keep warning from being its final word. The Lord scatters, but He also gathers. He exposes a broken covenant, then promises one written in the heart.
 
-The existing theme pages trace those arcs: [To Root Out and to Plant](/jeremiah/themes/root-and-plant/), [Scattered and Gathered](/jeremiah/themes/scattered-and-gathered/), and [The Covenant Written in the Heart](/jeremiah/themes/new-covenant/).
+Two theme pages follow the book’s arcs: [Scattered and Gathered](/jeremiah/themes/scattered-and-gathered/) and [“Ye Shall Certainly Drink”](/jeremiah/themes/cup-of-fury/), on the cup of the Lord’s fury.
 
 ## Read Jeremiah beside Lehi
 
-Lehi and Jeremiah preached in the same Jerusalem. Jeremiah’s writings are the fullest surviving account of that world, and some of his prophecies were on the brass plates.[@bd-jeremiah] That shared setting gives the Book of Mormon’s references to Jeremiah unusual force, but it does not make every line in Jeremiah a prediction of Nephi’s family. Let the two records illuminate the same crisis where they genuinely meet.
-
-For the connections, start with [Jeremiah, Lehi, and the Restoration](/jeremiah/guides/jeremiah-lehi-and-the-restoration/), then begin at [Jeremiah 1](/jeremiah/1/).
+Lehi preached in the same Jerusalem, and how his record and Jeremiah’s meet in that period is in [Babylon and the Exile](/old-testament/guides/babylon-and-the-exile/); then begin at [Jeremiah 1](/jeremiah/1/).

@@ -2,6 +2,8 @@
 
 **Written, 2026-10-11 (author: “Go ahead and develop the themes for Psalms”): subjects 1–6 and 8 are theme pages in `content/psalms/themes/`.** In order: `the-broken-crown`, `the-unanswered-prayer`, `who-may-enter`, `the-sacrifice-god-desires`, `who-can-ransom`, `the-law-and-the-lost-sheep`, `my-portion-for-ever`. The author has not read them. What follows is the record of how they were chosen and framed; where a page differs from its brief below, the page is right (research changed several arcs: see the brief’s “State of the book”).
 
+`who-may-enter` and `the-sacrifice-god-desires` were deleted on 2026-11-18 (author: “Go ahead” on the sorting of the old-form pages): their material is in the notes on Psalms 15 and 24, and on Psalms 40, 50 and 51.
+
 **Selected by the author, 2026-10-11: subjects 1–6 and 8, for another writer to develop.** The author asked for the subjects to be recorded here, not for theme pages to be written in this session. Subject 7 was selected and then dropped the same day (“drop 7 and keep 8. I'm looking forward to seeing what 8 becomes”); subjects 9–10 remain unselected. The numbers are kept as they were, so 7 is missing from the selected list.
 
 Reviewed and consolidated on 2026-10-11 at the author's request. This replaces the unsorted chapter reports. The test is a connection or arc across several psalms that changes how the reader understands scripture, especially Jesus Christ. A recurring word is not enough. Connections may be the page's own; they do not need to have appeared in published commentary (`STANDARDS.md` §8).
@@ -85,6 +87,8 @@ Each selected subject below gives the proposed arc, starting passages, connectio
 ## Unselected candidates
 
 **Written on 2026-10-13, at the author's word for the remaining Old Testament themes (“Themes not threads… And guides”): subjects 9 and 10 are theme pages in `content/psalms/themes/`: The People Forget; God Remembers (`forget-and-remember`) and Dust and Glory (`what-is-man`; retitled because Psalm 8's chapter owns the question). Each researched, outlined, written, reviewed, repaired and read by Codex; `status: preview`; the author has not read them. Subject 7 stays dropped.**
+
+`forget-and-remember` and `what-is-man` were deleted on 2026-11-18 (author: “Go ahead” on the sorting of the old-form pages): their material is in the notes on Psalms 78, 95, 105 and 106, and on Psalms 8, 90, 103 and 144.
 
 
 ### 7. From hostile nations to fellow worshippers (dropped by the author, 2026-10-11)

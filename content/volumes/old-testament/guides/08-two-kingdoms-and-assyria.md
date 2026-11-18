@@ -2,12 +2,12 @@
 title: Two Kingdoms and Assyria
 blurb: The divided kingdoms of Israel and Judah from Rehoboam to Hezekiah, the Assyrian empire that ended the north, the nations around them, and the books written in those years.
 icon: compass
-sources: [pike-recovering-world-bible, bd-israel-kingdom, ot-manual-12, bd-judah-kingdom, scripture-helps-2-kings, bd-assyria, lds-scriptures, bd-hezekiah, bible-chron-ot, ot-manual-kings-a, bd-egypt, bd-rehoboam, bd-jeroboam, ot-manual-6, ot-manual-10, bd-jonah, ot-manual-f, bd-captivities, bd-damascus, gs-samaria, bd-sennacherib, bd-lachish, bd-merodach-baladan, gs-assyria, bd-ethiopia, bd-philistines, bd-moab, bd-edom, bd-tyre, bd-babylon, scripture-helps-1-kings, bd-isaiah]
+sources: [pike-recovering-world-bible, bd-israel-kingdom, ot-manual-12, bd-judah-kingdom, scripture-helps-2-kings, bd-assyria, lds-scriptures, bd-hezekiah, bible-chron-ot, ot-manual-kings-a, bd-egypt, bd-rehoboam, bd-jeroboam, ot-manual-6, ot-manual-10, bd-jonah, ot-manual-f, bd-captivities, bd-damascus, gs-samaria, bd-sennacherib, bd-lachish, luckenbill-annals, bd-hezekiahs-tunnel, bd-merodach-baladan, gs-assyria, bd-ethiopia, bd-philistines, bd-moab, bd-edom, bd-tyre, bd-babylon, scripture-helps-1-kings, bd-isaiah]
 ---
 
 This guide covers the years from the division of David's kingdom, under Rehoboam and Jeroboam, to the end of Hezekiah's reign. The northern kingdom, Israel, with its capital at Samaria, lasted over 200 years[@bd-israel-kingdom] and fell to Assyria in 721 BC, though the date may be 722.[@ot-manual-12] Judah, where David's house held the throne,[@bd-judah-kingdom] paid Assyria tribute until Hezekiah rebelled;[@scripture-helps-2-kings] Sennacherib came to Palestine in 701.[@bd-assyria] “Now in the fourteenth year of king Hezekiah did Sennacherib king of Assyria come up against all the fenced cities of Judah, and took them” ([[2 Kgs. 18:13]]), yet Jerusalem was at length delivered.[@bd-hezekiah]
 
-The division is dated 975,[@bible-chron-ot] 931[@ot-manual-kings-a] or about 925 BC.[@bd-israel-kingdom] For the whole sweep see [A Timeline of the Old Testament](/old-testament/guides/israels-story/#two-kingdoms) and its section on [Assyria](/old-testament/guides/israels-story/#assyria).
+The division is dated 975,[@bible-chron-ot] 931[@ot-manual-kings-a] or about 925 BC.[@bd-israel-kingdom] For the whole sweep see [A Timeline of the Old Testament](/old-testament/guides/israels-story/#timeline).
 
 <h2 id="map">The map</h2>
 
@@ -46,6 +46,12 @@ All dates are approximate; where they differ, the table gives each.
 <figcaption>The Black Obelisk of Shalmaneser III, which depicts Jehu, king of Israel;[@pike-recovering-world-bible] in 842 Shalmaneser “took tribute from Jehu, king of Israel.”[@bd-assyria] Photograph: Osama Shukir Muhammed Amin, <a href="https://commons.wikimedia.org/wiki/File:Jehu_of_the_House_of_Omri_bows_before_the_Assyrian_king_Shalmaneser_III,_The_Black_Obelisk..JPG">Wikimedia Commons</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>; resized.</figcaption>
 </figure>
 
+<h2 id="archaeology">What archaeology has found</h2>
+
+- **Sennacherib’s annals** give the Assyrian king’s own account of 701. He boasts of taking forty-six of Hezekiah’s strong cities and of shutting Hezekiah up “like a caged bird” in Jerusalem,[@luckenbill-annals, p. 11] but he does not claim to have taken the city,[@luckenbill-annals, p. 11] which fits [[Isa. 37:33–37]]. Hezekiah’s tribute was sent after him to Nineveh.[@luckenbill-annals, pp. 11–12]
+- **The Lachish reliefs** depict the siege of Lachish ([[Isa. 36:2]]) on an Assyrian monument still in existence;[@bd-lachish] their inscription shows Sennacherib on a throne while “the booty of Lachish passed before him.”[@luckenbill-annals, epigraph XXV, pp. 156–57]
+- **Hezekiah’s Tunnel** runs about 1,770 feet through limestone rock, bringing the Gihon spring inside the walls to the pool of Siloam ([[2 Kgs. 20:20]]). The **Siloam Inscription**, carved near the Siloam end, tells how the workmen digging from both ends met; it is now in the museum at Istanbul.[@bd-hezekiahs-tunnel]
+
 <h2 id="nations">The nations</h2>
 
 | Nation | Who and where | With Israel and Judah |
@@ -65,4 +71,4 @@ All dates are approximate; where they differ, the table gives each.
 - [[1 Kgs. 12–22]], [[2 Kgs. 1–20]] and [[2 Chr. 10–32]]: the two kingdoms' history; 1 Kings 12 tells of the division.[@scripture-helps-1-kings]
 - Jonah, [Amos](/amos/) and [Hosea](/hosea/), under Jeroboam II.[@bd-jonah][@bd-jeroboam]
 - Micah, in the days of Jotham, Ahaz and Hezekiah ([[Micah 1:1]]); his ministry continued through Ahaz's reign and into Hezekiah's.[@ot-manual-kings-a]
-- [Isaiah](/isaiah/), a prophet in Jerusalem 740–701 BC.[@bd-isaiah] For his own setting, see [Isaiah's World](/isaiah/guides/isaiahs-world/).
+- [Isaiah](/isaiah/), a prophet in Jerusalem 740–701 BC.[@bd-isaiah] For reading him, see [How to Read Isaiah](/isaiah/guides/how-to-read-isaiah/).

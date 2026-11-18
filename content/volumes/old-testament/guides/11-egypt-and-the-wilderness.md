@@ -5,7 +5,7 @@ icon: compass
 sources: [bd-ammon, bd-amalek, bd-balaam, bd-canaan, bd-edom, bd-egypt, bd-moab, bd-midianites, bd-og, bd-pharaoh, bd-sihon, bd-sinai, bd-deuteronomy, bd-leviticus, bd-numbers, gs-exodus, bible-maps-2, muhlestein-egypt-bible, muhlestein-israel-egypt, ot-manual-ex-11-19, ot-manual-numbers-13-36, sc-knowhy-847, scripture-helps-deut, scripture-helps-ex-1, scripture-helps-ex-7, scripture-helps-ex-14, scripture-helps-ex-19, scripture-helps-ex-35, scripture-helps-num]
 ---
 
-This guide covers Israel's descendants in Egypt and their bondage, the Lord's deliverance through Moses, the covenant at Sinai, the forty years in the wilderness, and Moses's death on the plains of Moab. Exodus opens the account in Egypt, and Deuteronomy closes it. For where this period sits in the whole Old Testament, see [A Timeline of the Old Testament](/old-testament/guides/israels-story/#patriarchs).
+This guide covers Israel's descendants in Egypt and their bondage, the Lord's deliverance through Moses, the covenant at Sinai, the forty years in the wilderness, and Moses's death on the plains of Moab. Exodus opens the account in Egypt, and Deuteronomy closes it. For where this period sits in the whole Old Testament, see [A Timeline of the Old Testament](/old-testament/guides/israels-story/#timeline).
 
 No date is certain. One reading makes Seti I and Ramses II the Pharaohs of oppression; Merneptah is generally believed to have been the Pharaoh of the Exodus, though later discoveries have thrown doubt on this.[@bd-pharaoh] “The question of the date of the Exodus cannot be settled decisively. Yet the weight of evidence is strong, and almost all scholars today agree upon Ramses II or possibly his father.”[@ot-manual-ex-11-19] The text never names the Pharaoh; Ramesses II “may well have been” that Pharaoh, though it is “difficult to be completely sure.”[@sc-knowhy-847]
 
@@ -61,4 +61,4 @@ For the regions and roads, see [The Land](/old-testament/guides/the-land/).
 - [Numbers](/numbers/): Sinai to the plains of Moab, named for its two censuses.[@bd-numbers]
 - [Deuteronomy](/deuteronomy/): the last discourses of Moses; its name means “repetition of the law.”[@bd-deuteronomy]
 
-For the covenant and the worship, see [The Law and the Covenant](/old-testament/guides/law-and-covenant/) and [The Temple and Worship](/old-testament/guides/temple-and-worship/).
+For the covenant and the worship, see [The Law and the Covenant](/old-testament/guides/law-and-covenant/) and [The Law, the Covenant and the Temple](/old-testament/guides/law-and-covenant/).

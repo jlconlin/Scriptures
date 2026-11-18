@@ -275,6 +275,21 @@ claims:
     key: 'keil-ezekiel'
     url: 'https://biblehub.com/commentaries/kad/ezekiel/43.htm'
     quote: 'between Jehovah and the carcase-gods'
+  - where: 'note 43:7 “What the “carcases of their kings” were”'
+    claim: 'Ezek. 8:6 and 43:9 use the same Hebrew root rachaq (“far”); 8:6'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: '<w lemma="l/7368" n="0.2.0" morph="HR/Vqc" id="26oMP">לְ/רָֽחֳקָה֙</w>'
+  - where: 'note 43:7 “What the “carcases of their kings” were”'
+    claim: 'Ezek. 8:6 and 43:9 use the same Hebrew root rachaq (“far”); 43:9'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Ezek.xml'
+    quote: '<w lemma="7368" morph="HVpj3mp" id="26zs3">יְרַחֲק֧וּ</w>'
+  - where: 'note 43:7 “What the “carcases of their kings” were”'
+    claim: 'Ezek. 8:6: the abominations were such that the Lord should go far off from His sanctuary'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ezek/8?lang=eng'
+    quote: 'the great abominations that the house of Israel committeth here, that I should go far off from my sanctuary?'
 
   # ---- note 43:10 ----
   - where: 'note 43:10 “Why a plan should make them ashamed”'

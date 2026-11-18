@@ -5,7 +5,7 @@ icon: compass
 sources: [bd-abraham, bd-abraham-covenant, bd-aram, bd-amorites, bd-canaan, bd-chaldea, bd-edom, bd-egypt, bd-gerar, bd-genesis, bd-goshen, bd-ishmael, bd-laban, bd-lot, bd-melchizedek, bd-midianites, bd-moriah, bd-pharaoh, bd-philistines, bd-ur, bible-chron-intro, bible-chron-ot, gee-wanderings, hoskisson-ur, muhlestein-israel-egypt, ot-manual-gen-24-36, sc-knowhy-844, scripture-helps-gen-12-17, lds-scriptures]
 ---
 
-This guide covers Abraham's call and journey from Ur and Haran into Canaan, the covenant with him and his seed, Isaac, Jacob (Israel) and his twelve sons, Joseph in Egypt, and the family's going down to Goshen. For the period's place in the whole Old Testament, see [A Timeline of the Old Testament](/old-testament/guides/israels-story/#patriarchs).
+This guide covers Abraham's call and journey from Ur and Haran into Canaan, the covenant with him and his seed, Isaac, Jacob (Israel) and his twelve sons, Joseph in Egypt, and the family's going down to Goshen. For the period's place in the whole Old Testament, see [A Timeline of the Old Testament](/old-testament/guides/israels-story/#timeline).
 
 No date is certain. The Church's Bible Chronology gives no B.C. date from Abram to Joshua,[@bible-chron-ot] and for the earliest history “we rely entirely on the scripture itself.”[@bible-chron-intro] Isaac's birth is estimated at “approximately 1900 B.C.”[@ot-manual-gen-24-36] Abraham's life is “usually” placed in the Middle Bronze Age, about 2100–1750 B.C.;[@gee-wanderings] one scheme has him born “in about 1943 BC.”[@muhlestein-israel-egypt] This guide chooses none.
 

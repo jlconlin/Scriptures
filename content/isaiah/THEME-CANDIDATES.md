@@ -6,11 +6,13 @@ What earns a theme page is in `STANDARDS.md` §8: an arc across chapters that po
 
 **Chosen for pages (2026-10-01), in order:** the arm of the Lord (done, `content/isaiah/themes/arm-of-the-lord.md`; the notes on 51:5, 52:10, 53:1 and 59:16 link to it); the new exodus and the highway (`themes/new-exodus.md`); Zion as a woman, and the Lord as her husband and Redeemer (`themes/zion-and-her-husband.md`); light rising on Zion (`themes/light.md`); from servant to servants (the `#servants` section of the Servant Songs page). All are live (2026-10-02), and the chapter notes at their key verses link to them. “Awake, awake” was tried as a pilot and is a chapter note, not a theme; it becomes a step in the arm of the Lord.
 
+`arm-of-the-lord`, `new-exodus`, `zion-and-her-husband` and `light` were deleted on 2026-11-18 (author: “Go ahead” on the sorting of the old-form pages): their material is in the notes on 51:5, 52:10, 53:1, 59:16 (the arm); 11:15, 35:8, 40:3, 43:19, 48:20, 52:12, 62:10 (the exodus and the highway); 49:15, 50:1, 52:2, 54:1, 54:5, 62:4 and Isaiah 54’s Christ section (Zion and her husband); and 9:2, 42:6, 49:6, 59:10, 60:1, 60:19 (light).
+
 This file lives outside `themes/` because the build publishes every Markdown file there as a page.
 
 - **The arm of the Lord:** [[Isa. 40:10]], [[Isa. 51:5]], [[Isa. 51:9]], [[Isa. 52:10]], [[Isa. 53:1]], [[Isa. 59:16]], [[Isa. 63:5]]; [[3 Ne. 20:35]].
 - **“Awake, awake”** (and doubled imperatives): [[Isa. 51:9]], [[Isa. 51:17]], [[Isa. 52:1–2]]; [[D&C 113:7–10]]; [[Moro. 10:31]].
-- ~~The Servant Songs~~: done (`content/isaiah/themes/servant-songs.md`). Chapters 42, 49, 50, 52, 53 and the Christ guide link to it. Chapter 61 links to the page’s “A fifth song?” section (`#fifth-song`).
+- ~~The Servant Songs~~: done, and moved on 2026-11-18 to the guides (`content/isaiah/guides/02-servant-songs.md`). Chapters 42, 49, 50, 52, 53 and the Christ guide link to it. Chapter 61 links to the page’s “A fifth song?” section (`#fifth-song`).
 - **The new exodus:** 40:3–5, 43:16–21, 48:20–21, 51:9–11, 52:11–12.
 - **“High and lifted up”:** 2:12–17, 6:1, 52:13, 57:15 (where the high God also dwells with the “crushed,” the root of “bruised” in 53:5); John 12:32–41.
 - **The cup of wrath:** 51:17–23; Jer. 25:15–29; Matt. 26:39; D&C 19:18.

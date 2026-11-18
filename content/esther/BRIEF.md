@@ -104,7 +104,7 @@ From `grep '\[\[Esth\.' content` and the notes' titles (2026-11-12). Beyond the 
 - **3–5:** `[[1 Sam. 15:3]]` and `[[1 Sam. 15:33]]` (Amalek; Agag; its `explore` points to 3:1), `[[Ex. 17:14]]` (“The decree against Amalek”), `[[Deut. 25:17]]` (“Why Amalek is remembered”), `[[Gen. 41:42]]` (3:10; 8:2), `[[Ezra 6:15]]` (3:7), Ezra 8's `explore` (4:16), the Women and Marriage guide's Esther (`#the-women`, 4:16).
 - **6–8:** `[[2 Sam. 15:30]]` (6:12, the covered head), `[[Gen. 45:7]]` (“A remnant and a great deliverance”: the footnote at 4:14), `[[Prov. 21:18]]` (7:10), `[[Dan. 6:8]]` and Daniel 6's `explore` (8:3–11).
 - **9–10:** `[[Neh. 8:10]]` (sending portions, the footnote at 9:19), `[[Gen. 41:40]]` and `[[Dan. 6:3]]` (10:3).
-- **Guides:** [Persia and the Return](/old-testament/guides/persia-and-the-return/) (`#rulers`; `#books` already says the book shows “His overruling providence”), [A Timeline of the Old Testament](/old-testament/guides/israels-story/#return), [How It Came to Us](/old-testament/guides/how-it-came-to-us/) (`#dead-sea-scrolls`; the Apocrypha), [Women and Marriage](/old-testament/guides/women-and-marriage/#the-women).
+- **Guides:** [Persia and the Return](/old-testament/guides/persia-and-the-return/) (`#rulers`; `#books` already says the book shows “His overruling providence”), [A Timeline of the Old Testament](/old-testament/guides/israels-story/#return), [Women and Marriage](/old-testament/guides/women-and-marriage/#the-women).
 - **Not on the site yet:** Chronicles; the Apocrypha itself.
 
 ## What the reader already has (don't repeat)

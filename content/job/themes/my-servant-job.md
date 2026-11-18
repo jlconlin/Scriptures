@@ -41,7 +41,7 @@ Here are the likenesses that have been drawn. Parry sets his out in a chart, Far
 | He prays for the friends who accused him ([[Job 42:10]]) | The “one mediator” ([[1 Tim. 2:5]]); the prayer from the cross | Parry; Farley; Stirling |
 | “The LORD blessed the latter end of Job more than his beginning” ([[Job 42:12]]) | Raised and exalted; the Firstborn, whose is the double portion | Farley; Stirling; Parry |
 
-A list like this can be read as ten coincidences. I think it is one portrait, and three of its rows say whose. The smitten cheek is Isaiah 50. The man of sorrows and the hands that did no violence are Isaiah 53. These are the poems about the LORD's Servant (see [The Servant Songs](/isaiah/themes/servant-songs/)), and Franz Delitzsch, a commentator of the nineteenth century, noticed that “in the description of the Servant of Jehovah, one is here and there involuntarily reminded of the book of Job.”[@delitzsch-job]
+A list like this can be read as ten coincidences. I think it is one portrait, and three of its rows say whose. The smitten cheek is Isaiah 50. The man of sorrows and the hands that did no violence are Isaiah 53. These are the poems about the LORD's Servant (see [The Servant Songs](/isaiah/guides/servant-songs/)), and Franz Delitzsch, a commentator of the nineteenth century, noticed that “in the description of the Servant of Jehovah, one is here and there involuntarily reminded of the book of Job.”[@delitzsch-job]
 
 One of his examples is closer in Hebrew than in English. The King James has “injustice” in Job and “violence” in Isaiah, but the word is the same, and so are the two small words in front of it.[@oshb-wlc] Job says of himself, very nearly in Isaiah’s words, what Isaiah says of the Servant.
 

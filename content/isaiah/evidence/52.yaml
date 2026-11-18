@@ -151,6 +151,16 @@ claims:
     key: dc-101-heading
     url: https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/101?lang=eng
     quote: At this time the Saints who had gathered in Missouri were suffering great persecution.
+  - where: note 52:12 “A slow exodus”
+    claim: '“Haste” in Isa. 52:12 is chippazon (lemma 2649), its only occurrence in Isaiah'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
+    quote: '<w lemma="b/2649" n="1.1.0" morph="HR/Ncmsa" id="23ynw">בְ/חִפָּזוֹן֙</w>'
+  - where: note 52:12 “A slow exodus”
+    claim: '“Haste” in Ex. 12:11 is the same word, chippazon (lemma 2649)'
+    key: oshb-wlc
+    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Exod.xml'
+    quote: '<w lemma="b/2649" n="0.1" morph="HR/Ncmsa" id="02gUj">בְּ/חִפָּז֔וֹן</w>'
   - where: note 52:13 “High and lifted up”
     claim: "Hiphil of śākal: act circumspectly, prudently; prosper, have success"
     key: bdb

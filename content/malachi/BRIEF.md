@@ -11,6 +11,7 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository (what waits for 
 `node scripts/status.mjs malachi` prints what the repository shows; the history is `git log -- content/malachi`. What a script can't see:
 
 - **A third theme page, 2026-10-13** (the author, overnight: “Themes not threads… And guides”): Sent Before the Day (`content/malachi/themes/preparing-the-way.md`), from the research lead the author had kept as a lead; in preview until read. It does not claim that the priest of 2:7 is sent, that the 3:1 messenger is Elijah (Keil's reading; the Church's sources keep them distinct), or that John's work is apart from Malachi 4 (Luke 1:17 applies 4:6's words to him; Alford: “partial, but not complete”).
+- **Theme pages deleted, 2026-11-18** (author: “Go ahead” on the sorting of the old-form pages): `god-of-judgment`, `purified-offering` and `preparing-the-way` were deleted, and Malachi has no theme pages. Their material is in the notes on 3:2 (D&C 38:8, 45:57), 3:3 (“Who the sons of Levi are”: Levi named in three verses; Keil on “in righteousness”), 3:16 (Romney) and 4:5 (“Elijah, Elias, and John the Baptist”: Joseph Smith's sermon of March 10, 1844); their URLs redirect to chapters 3 and 4.
 
 ## What the author has decided
 

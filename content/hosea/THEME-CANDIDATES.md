@@ -9,6 +9,8 @@ Topics that run across the book and might become theme pages (`STANDARDS.md` §8
 
 The author chose earlier shortlist items 1, 3, and 4, and asked for them the same day (“Please go and develop those”). All three are researched, outlined, written, reviewed, repaired, and read by Codex (`content/hosea/themes/betroth-thee.md`, `heal-their-backsliding.md`, `out-of-egypt.md`), and sixteen chapter notes link to them. Their passage anchors, Christ connections, and boundaries are in the shortlist below.
 
+`betroth-thee` was deleted on 2026-11-18 (author: “Go ahead” on the sorting of the old-form pages): its material is in the notes on 1:6, 1:9, 2:19, 2:23, 3:1 and 14:3. `mercy-not-sacrifice` was made a reading path the same day.
+
 1. **“I will betroth thee unto me”** — the broken marriage covenant, the children's names, and promised mercy (earlier shortlist 1).
 2. **“I will heal their backsliding”** — false helps, return, and the Lord's promised healing (earlier shortlist 3).
 3. **“Out of Egypt have I called my son”** — the Exodus remembered and undone, the father calling His children home, and Matthew's use of Hosea 11:1 (earlier shortlist 4).

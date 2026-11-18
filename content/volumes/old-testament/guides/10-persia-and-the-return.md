@@ -5,7 +5,7 @@ icon: compass
 sources: [bd-alexander, bd-captivities, bd-chronicles, bd-cyrus, bd-darius, bd-dispersion, bd-edom, bd-esther-book, bd-ezra, bd-haggai, bd-malachi, bd-nehemiah, bd-persia, bd-samaritans, bd-shushan, bd-temple-of-zerubbabel, bd-zechariah, bd-zerubbabel, bible-chron-ot, gs-cyrus, lds-scriptures, matson-between-testaments, ot-manual-29, ot-manual-kings-j, ot-manual-kings-k, scripture-helps-esther, scripture-helps-ezra, scripture-helps-mal, tiemeyer-cyrus-cylinder]
 ---
 
-This guide covers Judah under the Persian kings, from Cyrus's taking of Babylon (539 or 538 BC) to Malachi's time (about 430). Persia conquered the Babylonian kingdom,[@scripture-helps-ezra] and Judah remained a Persian province until 334, when it passed to Alexander the Great.[@bd-persia] For the whole sweep see [A Timeline of the Old Testament](/old-testament/guides/israels-story/#return). The exile before it is in [Babylon and the Exile](/old-testament/guides/babylon-and-the-exile/).
+This guide covers Judah under the Persian kings, from Cyrus's taking of Babylon (539 or 538 BC) to Malachi's time (about 430). Persia conquered the Babylonian kingdom,[@scripture-helps-ezra] and Judah remained a Persian province until 334, when it passed to Alexander the Great.[@bd-persia] For the whole sweep see [A Timeline of the Old Testament](/old-testament/guides/israels-story/#timeline). The exile before it is in [Babylon and the Exile](/old-testament/guides/babylon-and-the-exile/).
 
 <h2 id="map">The map</h2>
 

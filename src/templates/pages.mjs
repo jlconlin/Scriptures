@@ -5,6 +5,11 @@ import { renderSource } from './sources.mjs';
 import { gospelLibraryUrl, chapterLabel, unitPlural } from './chapter.mjs';
 import { VOLUMES, gospelLibraryVolume, divisionOf } from '../lib/canon.mjs';
 import { sectionNav, headingNav, searchScope } from './ui.mjs';
+import { readFileSync, existsSync } from 'node:fs';
+import YAML from 'yaml';
+
+// Removed pages and where their addresses now go (content/redirects.yaml; the 404 page applies them).
+const REDIRECTS = existsSync('content/redirects.yaml') ? YAML.parse(readFileSync('content/redirects.yaml', 'utf8')) ?? {} : {};
 
 const ensignArt = `<svg class="hero-art" viewBox="0 0 320 220" aria-hidden="true">
   <defs>
@@ -454,9 +459,10 @@ export function render404() {
 </div></header>
 <script>
 // Friendly redirects: /Isaiah → /isaiah/, /isaiah/53 → /isaiah/53/, /isa/53 → /isaiah/53/.
-// An unwritten chapter (/jeremiah/5/) goes to the Gospel Library.
+// An unwritten chapter (/jeremiah/5/) goes to the Gospel Library; a removed page goes where content/redirects.yaml says.
 (function(){var p=location.pathname,l=p.toLowerCase()${LIBRARY.filter((b) => b.abbr !== b.slug).map((b) => `.replace(/^\\/${b.abbr}(\\/|$)/,'/${b.slug}$1')`).join('')};if(!/\\/$/.test(l)&&!/\\.[a-z0-9]+$/.test(l))l+='/';
 var gl=${JSON.stringify(Object.fromEntries(LIBRARY.filter((b) => b.written.size < b.total).map((b) => [b.slug, [b.gospelLibrary, Array.from({ length: b.total }, (_, i) => i + 1).filter((n) => !b.written.has(n))]])))},m=l.match(/^\\/([a-z0-9-]+)\\/(\\d+)\\/$/),b=m&&gl[m[1]];
+var rd=${JSON.stringify(REDIRECTS)};if(rd[l]){location.replace(rd[l]+location.search+location.hash);return}
 if(b&&b[1].indexOf(+m[2])>=0){location.replace(b[0]+'/'+(+m[2])+'?lang=eng');return}
 if(l!==p)location.replace(l+location.search+location.hash);})();
 </script>`;

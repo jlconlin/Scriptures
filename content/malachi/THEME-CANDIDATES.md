@@ -1,5 +1,7 @@
 # Malachi: theme candidates
 
+**`god-of-judgment`, `purified-offering` and `preparing-the-way` were deleted on 2026-11-18 (author: “Go ahead” on the sorting of the old-form pages): their material is in the notes on 3:2, 3:3, 3:16 and 4:5, and Malachi has no theme pages.**
+
 ## Author's selection (2026-10-07)
 
 **Written on 2026-10-13, at the author's word for the remaining Old Testament themes (“Themes not threads… And guides”): the research lead (item 3) is the theme page Sent Before the Day (`content/malachi/themes/preparing-the-way.md`), which follows those Malachi says are sent (the priest as messenger, the one who prepares the way, the Lord who comes to His temple, Elijah) and what the Church's sources say of each, keeping the priests' failure and the refiner on the two earlier pages. Each was researched, outlined, written, reviewed, repaired and read by Codex, and starts with `status: preview`; the author has read none of them. The candidates the author declined earlier stay declined.**

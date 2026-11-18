@@ -87,6 +87,8 @@ Recorded at the author's word on 2026-10-12 (“Yes”), from a conversation abo
 
 **Written on 2026-10-13, at the author's word for the remaining Old Testament themes (“Themes not threads… And guides”): the five proposed candidates not in the author's selection are theme pages in `content/exodus/themes/`: The Firstborn (`the-firstborn`, candidate 3), Four Rites of Blood (`blood-of-the-covenant`, 5), Proved in the Wilderness (`proved-in-the-wilderness`, 6), “That Ye May Know That I Am the LORD” (`that-ye-may-know`, 7) and The Sabbath and the Making of the Tabernacle (`sabbath-and-tabernacle`, 8). Each was researched, outlined, written, reviewed, repaired and read by Codex, and starts with `status: preview`; the author has read none of them. The candidates the author declined earlier stay declined.**
 
+`blood-of-the-covenant`, `proved-in-the-wilderness`, `sabbath-and-tabernacle` and `when-your-children-ask` were deleted on 2026-11-18 (author: “Go ahead” on the sorting of the old-form pages): their material is in the chapter notes (the brief's “State of the book” names which). `that-i-may-dwell-among-them` was rewritten the same day as a reading path.
+
 
 The original nine candidates, in the order of the book. The selection above supersedes the coordinator's original ranking at the end.
 
