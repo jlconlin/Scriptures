@@ -1,122 +1,167 @@
 page: preparing-the-way
 claims:
-  - where: 'section “The priest, a messenger”'
-    claim: '“Messenger” in 2:7 is glossed “teacher, tool, representative”'
-    key: ot-manual-34
-    url: 'https://www.churchofjesuschrist.org/study/manual/old-testament-student-manual-kings-malachi/chapter-34?lang=eng'
-    quote: 'He is the messenger [teacher, tool, representative] of the Lord of hosts” (v. 7).'
-  - where: 'section “The priest, a messenger”'
-    claim: 'The Hebrew word malʾak is the “messenger” of 2:7 (and “my messenger” of 3:1)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
-    quote: 'מַלְאַ֥ךְ'
-  - where: 'section “The priest, a messenger”'
-    claim: 'Same word in 3:1: “my messenger”'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
-    quote: 'מַלְאָכִ֔'
-  - where: 'section “The priest, a messenger”'
-    claim: 'The name Malachi means “my messenger”'
-    key: scripture-helps-mal
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
-    quote: 'The name Malachi means “my messenger” in Hebrew.'
-  - where: 'section “My messenger”'
-    claim: '“Prepare the way” in Mal. 3:1 uses the same verb and noun as Isa. 40:3'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
-    quote: 'פִנָּה'
-  - where: 'section “My messenger”'
-    claim: 'Isa. 40:3 has the same verb (panah) and noun (derek)'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Isa.xml'
-    quote: 'פַּנּ֖וּ'
-  - where: 'section “My messenger”'
-    claim: 'Matthew 11:10 reads “before thy face” where Malachi has “before me”; Jesus applies it to John'
+  - where: opening
+    claim: 'Elijah appeared in the Kirtland Temple on April 3, 1836, after the vision of the Lord had closed'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/11?lang=eng'
-    quote: 'For this is he, of whom it is written, Behold, I send my messenger before thy face, which shall prepare thy way before thee.'
-  - where: 'section “My messenger”'
-    claim: 'John fulfilled the prophecy; Joseph Smith was sent to prepare the way for the Second Coming'
-    key: scripture-helps-mal
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
-    quote: 'The Savior declared that John the Baptist fulfilled this prophecy by preparing the way before Christ’s mortal ministry. In our dispensation, the Prophet Joseph Smith was sent as a messenger to prepare the way for the Savior’s Second Coming.'
-  - where: 'section “The Lord Himself”'
-    claim: '“Messenger of the covenant” is a title of Jesus Christ with multiple fulfillments (Kirtland, Second Coming)'
-    key: scripture-helps-mal
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
-    quote: '“Messenger of the covenant” is a title of Jesus Christ.'
-  - where: 'section “The Lord Himself”'
-    claim: 'The prophecy likely has multiple fulfillments, including April 3, 1836 and the Second Coming'
-    key: scripture-helps-mal
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
-    quote: 'likely has multiple fulfillments. For example, on April 3, 1836, the Savior suddenly appeared to Joseph Smith and Oliver Cowdery in the Kirtland Temple. It will also likely be further fulfilled as part of the events associated with the Second Coming of Jesus Christ.'
-  - where: 'section “The Lord Himself”'
-    claim: 'The Bible Dictionary lists the Messenger of the covenant among the names of Jesus'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/110?lang=eng'
+    quote: 'Visions manifested to Joseph Smith the Prophet and Oliver Cowdery in the temple at Kirtland, Ohio, April 3, 1836.'
+  - where: opening
+    claim: 'Elijah came after the vision of the Lord had closed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/110?lang=eng'
+    quote: 'After this vision had closed, another great and glorious vision burst upon us; for Elijah the prophet, who was taken to heaven without tasting death, stood before us, and said:'
+  - where: opening
+    claim: 'Joseph Smith, as reported: the forerunner, then Elijah, then the Messiah last'
+    key: rsc-words-js-1844-03-10
+    url: 'https://rsc.byu.edu/words-joseph-smith/10-march-1844-sunday-temple'
+    quote: 'the spirit of Elias is first Elijah second, & Masiah last. Elias is a fore runner to prepare the way, & the spirit & power of Elijah is to come after'
+  - where: opening
+    claim: 'Elijah’s coming at Kirtland was in preparation for the coming of the Lord'
+    key: bd-elijah
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/elijah?lang=eng'
+    quote: 'He appeared again, in company with Moses and others, on April 3, 1836, in the Kirtland (Ohio) Temple and conferred the same keys upon Joseph Smith and Oliver Cowdery. All of this was in preparation for the coming of the Lord, as spoken of in Mal. 4:5–6 (D&C 110:13–16).'
+  - where: 'section ““My messenger””'
+    claim: 'The “behold I send” of 3:1 keeps the messenger from meaning the priests; the priests had failed as ordinary ambassadors, so an extraordinary messenger is sent'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/3.htm'
+    quote: 'It is true that in Malachi 2:7 the priest is also called a messenger of Jehovah; but the expression הנני שׁלח (behold I send) prevents our understanding the term maleâkh as referring to the priests … it was because the priests did not fulfil their duty as the ordinary ambassadors of God that the Lord was about to send an extraordinary messenger.'
+  - where: 'section ““My messenger””'
+    claim: 'In the Joseph Smith Translation Jesus quotes Malachi 3:1 of the Elias who has come already, and calls him the Elias sent to prepare the way'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-matt/17?lang=eng'
+    quote: 'Elias has come already, concerning whom it is written, Behold, I will send my messenger, and he shall prepare the way before me'
+  - where: 'section ““My messenger””'
+    claim: 'JST Matt. 17:13: this is Elias, sent to prepare the way'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-matt/17?lang=eng'
+    quote: 'this is Elias, whom I send to prepare the way before me.'
+  - where: 'section ““My messenger””'
+    claim: 'The announcement of the messenger rests on Isaiah 40:3'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/3.htm'
+    quote: 'The announcement of this messenger rests upon the prophecy in Isaiah 40:3., as the expression וּפנּה דרך, which is borrowed from that passage, clearly shows.'
+  - where: 'section “The Lord who comes to His temple”'
+    claim: '“The Messenger of the covenant” (Mal. 3:1) is among the Bible Dictionary’s names of Christ in the Old Testament'
     key: bd-christ-names
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/christ-names-of?lang=eng'
-    quote: 'the Messenger of the covenant, Mal. 3:1'
-  - where: 'section “The Lord Himself”'
-    claim: 'Jesus had the Nephites write Malachi’s words, including 3:1'
+    quote: 'Names, titles, and concepts of the Lord Jesus in the Old Testament: … the Messenger of the covenant, Mal. 3:1'
+  - where: 'section “The Lord who comes to His temple”'
+    claim: 'The messenger of the covenant is a different figure from “my messenger,” mentioned afterwards'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/3.htm'
+    quote: 'nor the angel of Jehovah κατ ̓ ἐξοχήν, who is mentioned afterwards and called maleakh habberı̄th'
+  - where: 'section “The Lord who comes to His temple”'
+    claim: 'D&C 36 is dated December 9, 1830'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/24?lang=eng'
-    quote: 'Thus said the Father unto Malachi—Behold, I will send my messenger, and he shall prepare the way before me'
-  - where: 'section “Elijah, before the day”'
-    claim: 'Connection made by this page: the verb “turn” (heshiv) is the same in 2:6 (Levi) and 4:6 (Elijah); both are set beside each other'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/36?lang=eng'
+    quote: 'Revelation given through Joseph Smith the Prophet to Edward Partridge, near Fayette, New York, December 9, 1830'
+  - where: 'section “The Lord who comes to His temple”'
+    claim: 'D&C 133 is dated November 3, 1831'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/2?lang=eng'
-    quote: 'and did turn many away from iniquity'
-  - where: 'section “Elijah, before the day”'
-    claim: 'Connection made by this page: Elijah “shall turn the heart of the fathers to the children”, same verb as Levi in 2:6'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/133?lang=eng'
+    quote: 'Revelation given through Joseph Smith the Prophet, at Hiram, Ohio, November 3, 1831.'
+  - where: 'section “The Lord who comes to His temple”'
+    claim: 'D&C 110 is dated April 3, 1836, in the Kirtland Temple, and records Joseph Smith and Oliver Cowdery'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/4?lang=eng'
-    quote: 'And he shall turn the heart of the fathers to the children'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/110?lang=eng'
+    quote: 'Visions manifested to Joseph Smith the Prophet and Oliver Cowdery in the temple at Kirtland, Ohio, April 3, 1836.'
+  - where: 'section “The Lord who comes to His temple”'
+    claim: 'Read as fulfilled once, the coming to the temple is the first advent'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/4.htm'
+    quote: 'as the prophet Elijah predicted by Malachi appeared in John the Baptist, so did the Lord come to His temple in the appearing of Jesus Christ.'
   - where: 'section “Elijah, before the day”'
-    claim: 'The Hebrew verb is the same in 2:6'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
-    quote: 'הֵשִׁ֥יב'
+    claim: 'Moroni gave Mal. 4:5 to Joseph Smith in other words'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng'
+    quote: 'Behold, I will reveal unto you the Priesthood, by the hand of Elijah the prophet, before the coming of the great and dreadful day of the Lord.'
   - where: 'section “Elijah, before the day”'
-    claim: 'The Hebrew verb is the same in 4:6'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
-    quote: 'הֵשִׁ֤יב'
+    claim: 'JST John 1:22: John is not that Elias who was to restore all things'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-john/1?lang=eng'
+    quote: 'I am not that Elias who was to restore all things.'
   - where: 'section “Elijah, before the day”'
-    claim: '“I will send” (sholeach) is the same form in 3:1 and 4:5'
-    key: oshb-wlc
-    url: 'https://raw.githubusercontent.com/openscriptures/morphhb/master/wlc/Mal.xml'
-    quote: 'שֹׁלֵחַ'
+    claim: 'The JST John 1 heading names Jesus Christ as the Elias who restores all things'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-john/1?lang=eng'
+    quote: 'John the Baptist is the Elias who prepares the way for Christ, and Jesus Christ is the Elias who restores all things and through whom salvation comes.'
   - where: 'section “Elijah, before the day”'
-    claim: 'Elias is a title for a forerunner; two Eliases, a preparer and a restorer'
-    key: bd-elias
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/elias?lang=eng'
-    quote: 'anciently two Eliases were spoken of, one as a preparer and the other a restorer.'
+    claim: 'JST Matt. 17:14: the disciples understood He spoke of John and of another who should restore all things'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-matt/17?lang=eng'
+    quote: 'Then the disciples understood that he spake unto them of John the Baptist, and also of another who should come and restore all things, as it is written by the prophets.'
   - where: 'section “Elijah, before the day”'
-    claim: 'John served as an Elias in partial fulfillment'
+    claim: 'John served as an Elias in partial, but not complete, fulfillment of Malachi’s prophecy'
     key: alford-elijah
     url: 'https://rsc.byu.edu/you-shall-have-my-word/i-will-send-you-elijah-prophet'
     quote: 'John the Baptist, serving as the forerunner of the Messiah, most certainly served as an Elias—in partial, but not complete, fulfillment of Malachi’s prophecy.'
   - where: 'section “Elijah, before the day”'
-    claim: 'The site’s note at Mal. 4:5 treats Elijah, Elias and John the Baptist'
+    claim: 'Alford, after JST Matt. 17:14, takes Malachi’s prophecy as double: fulfilled in the Baptist, and yet to be fulfilled in Elijah himself'
+    key: alford-elijah
+    url: 'https://rsc.byu.edu/you-shall-have-my-word/i-will-send-you-elijah-prophet'
+    quote: 'a double sense,—a sense applicable, on the one hand, to the Baptist, and which has been fulfilled in him;—and, on the other, to Elijah himself, and which remains yet to be fulfilled.'
+  - where: 'section “A preparer and a restorer”'
+    claim: 'Two Eliases, a preparer and a restorer: John prepared the way for Jesus, Jesus being the Restorer'
+    key: bd-elias
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/elias?lang=eng'
+    quote: 'anciently two Eliases were spoken of, one as a preparer and the other a restorer. John was sent to prepare the way for Jesus, Jesus Himself being the Restorer'
+  - where: 'section “A preparer and a restorer”'
+    claim: 'The Bible’s information on the term Elias is fragmentary'
+    key: bd-elias
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/elias?lang=eng'
+    quote: 'the fragmentary information in our current Bibles is not sufficient to give an adequate understanding of what was involved in use of the term.'
+  - where: 'section “A preparer and a restorer”'
+    claim: 'JST Matt. 17: Jesus teaches of two Eliases, one to prepare and another to restore'
     key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/mal/4?lang=eng'
-    quote: 'Behold, I will send you Elijah the prophet before the coming of the great and dreadful day of the LORD:'
-  - where: 'section “The Lord and Elijah at Kirtland”'
-    claim: 'Elijah and Moses and Elias came after the Lord appeared'
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-matt/17?lang=eng'
+    quote: 'Jesus teaches of two Eliases—one to prepare and another to restore.'
+  - where: 'section “A preparer and a restorer”'
+    claim: 'Joseph Smith, 10 March 1844, as a hearer recorded: Elias first, Elijah second, Messiah last; the forerunner prepares the way, Elijah’s power comes after'
+    key: rsc-words-js-1844-03-10
+    url: 'https://rsc.byu.edu/words-joseph-smith/10-march-1844-sunday-temple'
+    quote: 'the spirit of Elias is first Elijah second, & Masiah last. Elias is a fore runner to prepare the way, & the spirit & power of Elijah is to come after'
+  - where: 'section “A preparer and a restorer”'
+    claim: 'Joseph Smith, as recorded: then the Messiah comes to His temple, last of all'
+    key: rsc-words-js-1844-03-10
+    url: 'https://rsc.byu.edu/words-joseph-smith/10-march-1844-sunday-temple'
+    quote: 'making all things ready then Mesiah comes to his Temple which is last of all.'
+  - where: 'section “A preparer and a restorer”'
+    claim: 'Differing reading: the messenger of 3:1 is the Elijah of 4:5, sent in John the Baptist'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/3.htm'
+    quote: 'an earthly messenger of the Lord, and indeed the same who is called the prophet Elijah in Malachi 4:5 … a messenger who was really sent to the nation in John the Baptist immediately before the coming of the Lord.'
+  - where: 'section “A preparer and a restorer”'
+    claim: 'Differing reading: the Elijah of 4:5 can only be a prophet in Elijah’s spirit and power'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/4.htm'
+    quote: 'the Elijah to be sent can only be a prophet with the spirit or power of Elijah the Tishbite.'
+  - where: 'section “A preparer and a restorer”'
+    claim: 'Differing reading: the prophet Elijah was sent in the person of John the Baptist'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/4.htm'
+    quote: 'The prophet Elijah, whom the Lord would send before His own coming, was sent in the person of John the Baptist.'
+  - where: 'section “A preparer and a restorer”'
+    claim: 'Differing reading: a still-future fulfilment has no tenable foundation in the prophecy'
+    key: keil-malachi
+    url: 'https://biblehub.com/commentaries/kad/malachi/4.htm'
+    quote: 'that our prophecy was only provisionally fulfilled in the coming of John the Baptist and the incarnation of the Son of God in Jesus Christ, and that its true fulfilment will only take place at the second coming of Christ … is not only at variance with the statements of the Lord concerning John the Baptist … but as no tenable foundation in our prophecy itself.'
+  - where: 'section “At Kirtland”'
+    claim: 'The vision of the Lord in D&C 110 was in the Kirtland Temple'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/110?lang=eng'
+    quote: 'Visions manifested to Joseph Smith the Prophet and Oliver Cowdery in the temple at Kirtland, Ohio, April 3, 1836.'
+  - where: 'section “At Kirtland”'
+    claim: 'After the appearance of Jesus Christ, Moses, Elias and Elijah came'
     key: gong-hosanna-hallelujah
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2020/04/31gong?lang=eng'
-    quote: 'Following the appearance of Jesus Christ, Moses, Elias, and Elijah also came.'
-  - where: 'section “The Lord and Elijah at Kirtland”'
-    claim: 'Elijah’s return was fulfilled in our dispensation; the sealing power restored by Elijah seals families'
-    key: scripture-helps-mal
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
-    quote: 'Malachi’s prophecy that Elijah would return to the earth before the Second Coming was fulfilled in our dispensation.'
-  - where: 'section “The Lord and Elijah at Kirtland”'
-    claim: 'The sealing power seals families eternally '
-    key: scripture-helps-mal
-    url: 'https://www.churchofjesuschrist.org/study/manual/scripture-helps-old-testament/49-malachi?lang=eng'
-    quote: 'President Russell M. Nelson explained that the sealing power restored by Elijah “authorized Joseph Smith—and all succeeding Presidents of the Lord’s Church—to … place a ratifying seal on priesthood ordinances and covenants, and to seal families eternally.”'
-  - where: 'section “The Lord and Elijah at Kirtland”'
-    claim: 'Elijah conferred the keys in preparation for the coming of the Lord'
+    quote: 'Following the appearance of Jesus Christ, Moses, Elias, and Elijah also came. By divine direction, these great prophets of old restored priesthood keys and authority.'
+  - where: 'section “At Kirtland”'
+    claim: 'Elijah’s coming at Kirtland was in preparation for the coming of the Lord, as Mal. 4:5–6 says'
     key: bd-elijah
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/elijah?lang=eng'
-    quote: 'conferred the same keys upon Joseph Smith and Oliver Cowdery. All of this was in preparation for the coming of the Lord, as spoken of in Mal. 4:5–6'
+    quote: 'He appeared again, in company with Moses and others, on April 3, 1836, in the Kirtland (Ohio) Temple and conferred the same keys upon Joseph Smith and Oliver Cowdery. All of this was in preparation for the coming of the Lord, as spoken of in Mal. 4:5–6 (D&C 110:13–16).'
+  - where: 'section “At Kirtland”'
+    claim: 'President Nelson: the keys given at Kirtland authorize sealing ordinances and families now'
+    key: nelson-priesthood-keys-2024
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2024/04/57nelson?lang=eng'
+    quote: 'to place a ratifying seal on priesthood ordinances and covenants, and to seal families eternally'

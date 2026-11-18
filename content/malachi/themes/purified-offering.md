@@ -1,54 +1,45 @@
 ---
 title: 'From Polluted Offerings to an Offering in Righteousness'
-blurb: Priests bring the blind and the lame to the Lord’s altar; the messenger of the covenant will purify the sons of Levi to offer “an offering in righteousness.”
+blurb: 'Priests bring the blind and the lame to the Lord’s altar. The Lord promises to purify the sons of Levi, so that they offer “an offering in righteousness.”'
 icon: christ
-sources: [lds-scriptures, oshb-wlc, scripture-helps-mal, bd-christ-names, bd-refiner, jsp-history-c1-addenda-18, keil-malachi]
-review: old-form
+sources: [lds-scriptures, keil-malachi, bd-sacrifices, bd-refiner, bd-christ-names, jsp-history-c1-addenda-18, rsc-line-upon-line-eternal-family]
+review: unread
 ---
 
-In Malachi 1 priests offer the blind and the lame at the Lord’s altar and call His table contemptible. In Malachi 3 “the messenger of the covenant” will “purify the sons of Levi… that they may offer unto the LORD an offering in righteousness” ([[Mal. 3:1, 3]]). The men who bring the offering are changed first, and then the offering; the one who purifies them, in the Church’s reading, is Jesus Christ.[@bd-christ-names][@bd-refiner]
+Malachi's first charge is against the priests: “Ye offer polluted bread upon mine altar” ([[Mal. 1:7]]). His promise in chapter 3 is also about the priests. The Lord “shall purify the sons of Levi, and purge them as gold and silver, that they may offer unto the LORD an offering in righteousness” ([[Mal. 3:3]]).
 
-| Step | Passage | The words |
-|---|---|---|
-| Polluted | [[Mal. 1:6–8, 13]] | “Ye offer polluted bread upon mine altar” |
-| Refused | [[Mal. 1:10]] | “neither will I accept an offering at your hand” |
-| Pure | [[Mal. 1:11]] | “in every place incense shall be offered… and a pure offering” |
-| Levi | [[Mal. 2:4–8]] | “ye have corrupted the covenant of Levi” |
-| Refiner | [[Mal. 3:1–3]] | “he shall purify the sons of Levi” |
-| Righteousness | [[Mal. 3:3–4]] | “an offering in righteousness” |
+What is set right at the end is not first the animal on the altar but the men who bring it, and the one who refines them is Jesus Christ.[@bd-refiner] The thread to follow is that one group of men, the priests, from the rebuke to the promise, and then into the latter-day scripture that takes the promise up.
 
-## Polluted bread
+## What the priests brought
 
-The Lord addresses “O priests, that despise my name,” and names the offence: “Ye offer polluted bread upon mine altar,” while they say, “The table of the LORD is contemptible” ([[Mal. 1:6–7]]). They offer “the blind… the lame and sick” ([[Mal. 1:8]]) and say of the service, “what a weariness is it!” ([[Mal. 1:13]]). The note on [[Mal. 1:7]] explains the “bread” and the “table.” See [Malachi 1](/malachi/1/).
+The rebuke of chapter 1 is addressed “O priests, that despise my name” ([[Mal. 1:6]]), and it is about what they lay on the altar: “the blind for sacrifice,” “the lame and sick” ([[Mal. 1:8]]). The Lord's answer is a refusal: “I have no pleasure in you, saith the LORD of hosts, neither will I accept an offering at your hand” ([[Mal. 1:10]]).
 
-## Refused
+The law had said what an acceptable animal was: “it shall be perfect to be accepted; there shall be no blemish therein” ([[Lev. 22:21]]). The blind, the lame and the sick were blemished animals of the kind [[Lev. 22:20–25]] shuts out.[@keil-malachi]
 
-“I have no pleasure in you, saith the LORD of hosts, neither will I accept an offering at your hand” ([[Mal. 1:10]]). The Church edition’s footnote on “accept” points to [[3 Ne. 9:19]].[@lds-scriptures]
+Scripture says from Adam's day what sacrifice stood for. The angel told him, “This thing is a similitude of the sacrifice of the Only Begotten of the Father” ([[Moses 5:7]]), and Peter speaks of “the precious blood of Christ, as of a lamb without blemish and without spot” ([[1 Pet. 1:19]]). From then until the death of Jesus Christ, “whenever there were true believers on the earth, with priesthood authority, sacrifices were offered in that manner and for that purpose.”[@bd-sacrifices] Malachi does not make that connection himself, but it is what the Church's scriptures say the offering at such an altar stood for, and so what the priests were treating with contempt.
 
-## A pure offering
+Chapter 2 turns from the animals to the priests' covenant. The Lord had made His covenant “with Levi” ([[Mal. 2:4]]), and of the priests of Malachi's day He says, “ye are departed out of the way; ye have caused many to stumble at the law; ye have corrupted the covenant of Levi” ([[Mal. 2:8]]). The nation's sacrifices displeased God “chiefly on account of the badness of the sacrificing priests.”[@keil-malachi] By the end of chapter 2 the fault lies in the men who stand at the altar. The verses are taken one at a time in the notes on [chapter 1](/malachi/1/) and [chapter 2](/malachi/2/).
 
-“In every place incense shall be offered unto my name, and a pure offering” ([[Mal. 1:11]]). One older commentary takes “pure” to mean offered as the law requires, in contrast to the faulty animals of Malachi’s day.[@keil-malachi] The verse does not say who the nations are or when; see the note on [[Mal. 1:11]].
+## The refiner begins with the sons of Levi
 
-## The covenant with Levi
+Chapter 3 says what the Lord will do when He comes: “for he is like a refiner’s fire, and like fullers’ soap: And he shall sit as a refiner and purifier of silver: and he shall purify the sons of Levi” ([[Mal. 3:2–3]]). The one who comes is “the messenger of the covenant” of verse 1, which is a name of Jesus Christ in the Old Testament;[@bd-christ-names] who He is and how He comes to His temple are on [Sent Before the Day](/malachi/themes/preparing-the-way/). “Christ is the great Refiner.”[@bd-refiner] How a refiner and a fuller worked is in the note on [Mal. 3:2](/malachi/3/), and the question the image answers, “who may abide the day of his coming?”, is on [The God of Judgment](/malachi/themes/god-of-judgment/).
 
-“My covenant was with him of life and peace,” the Lord says of Levi; “For the priest’s lips should keep knowledge, and they should seek the law at his mouth: for he is the messenger of the LORD of hosts. But ye are departed out of the way… ye have corrupted the covenant of Levi” ([[Mal. 2:5–8]]). See [Malachi 2](/malachi/2/).
+The text itself joins this promise to the rebuke. Malachi names Levi in three verses only:[@lds-scriptures] “my covenant might be with Levi” ([[Mal. 2:4]]), “ye have corrupted the covenant of Levi” ([[Mal. 2:8]]), and “he shall purify the sons of Levi” ([[Mal. 3:3]]). The first names the covenant the Lord made, the second says the priests corrupted it, and the third promises that He will cleanse the sons of Levi. In the same way, the “offering” the Lord would not accept from them ([[Mal. 1:10]], [[Mal. 1:13]]) is the word of the promise, “an offering in righteousness.”
 
-## The refiner
-
-“The messenger of the covenant” is a title of Jesus Christ, and Christ is “the great Refiner.”[@scripture-helps-mal][@bd-refiner] The next verses say of Him, “he is like a refiner’s fire, and like fullers’ soap: And he shall sit as a refiner and purifier of silver: and he shall purify the sons of Levi, and purge them as gold and silver” ([[Mal. 3:2–3]]). See [Malachi 3](/malachi/3/).
-
-Malachi uses “messenger” (Hebrew *mal’ak*) three times, and not of one person: of the priest in [[Mal. 2:7]], and in [[Mal. 3:1]] of “my messenger,” who “shall prepare the way,” and of “the messenger of the covenant.”[@oshb-wlc] One older commentary says that the “I will send” of 3:1 keeps “my messenger” from meaning the priests, and that he is not the messenger of the covenant, who is “mentioned afterwards.”[@keil-malachi] See the notes on [[Mal. 2:7]] and [[Mal. 3:1]].
+Why the refining starts with them has a straightforward explanation: “Since they, the supporters and promoters of the religious life of the nation, were quite corrupt, the renovation of the national life must begin with their purification.”[@keil-malachi]
 
 ## An offering in righteousness
 
-The purpose follows: “that they may offer unto the LORD an offering in righteousness. Then shall the offering of Judah and Jerusalem be pleasant unto the LORD, as in the days of old” ([[Mal. 3:3–4]]). The sons of Levi rebuked in Malachi’s day for improper sacrifices are promised a purifying, so that their offerings will be acceptable again.[@scripture-helps-mal]
+The refining has a purpose: “that they may offer unto the LORD an offering in righteousness” ([[Mal. 3:3]]). The remedy Malachi names is not first sound animals but sound offerers: “in righteousness” describes not the sacrifices but the moral character of those who bring them, who will offer with a right heart.[@keil-malachi]
 
-“Offering” is one Hebrew word (*minchah*) in [[Mal. 1:10]], [[Mal. 1:11]], [[Mal. 1:13]] and 3:3–4, and also in 2:12–13. The verb “offer” (*nagash*) in 3:3 is the verb of “Ye offer polluted bread” in 1:7, and also of 1:8, 1:11 and 2:12.[@oshb-wlc] The words that describe the offering are not shared: “polluted,” “pure” and “in righteousness” differ.
+That is the change from chapter 1 to chapter 3. The priests' offering was refused because of what they were, and it becomes acceptable because of what the Refiner makes them. The rest of the nation follows: “Then shall the offering of Judah and Jerusalem be pleasant unto the LORD, as in the days of old” ([[Mal. 3:4]]), once the priests offer in righteousness again.[@keil-malachi] The “pure offering” among the Gentiles in [[Mal. 1:11]] is a different matter, “pure” there meaning “according to the requirements of the law,”[@keil-malachi] and its question is taken up in the note “Present or future?” on [chapter 1](/malachi/1/).
 
-John the Baptist used Malachi’s words when he conferred the Aaronic Priesthood: it “shall never be taken again from the earth, until the sons of Levi do offer again an offering unto the Lord in righteousness” ([[D&C 13:1]]).[@lds-scriptures]
+Latter-day scripture does not leave the promise in Malachi's day. When John the Baptist ordained Joseph Smith and Oliver Cowdery to the Aaronic Priesthood in 1829,[@lds-scriptures] he said that it “shall never be taken again from the earth, until the sons of Levi do offer again an offering unto the Lord in righteousness” ([[D&C 13:1]]). A later revelation says that “the sons of Moses and also the sons of Aaron shall offer an acceptable offering and sacrifice in the house of the Lord” ([[D&C 84:31]]), and it says who they are: those “faithful unto the obtaining these two priesthoods” and “the magnifying their calling” “become the sons of Moses and of Aaron and the seed of Abraham” ([[D&C 84:33–34]]).
 
-Church teaching gives the offering two readings, side by side.[@scripture-helps-mal] Joseph Smith taught that sacrifice would be restored when the temple is built and the sons of Levi are purified, and he cited Mal. 3:3–4 for it.[@jsp-history-c1-addenda-18] In a letter that is now scripture he also applied the phrase to the Saints, who are to “offer unto the Lord an offering in righteousness” and present in the temple a book of the records of their dead ([[D&C 128:24]]).[@lds-scriptures] See the note on [[Mal. 3:3]].
+What the offering is has two answers in the Church's sources, a book of the records of the dead and an acceptable sacrifice, and neither sets the other aside. In a letter of September 1842 to the Church, Joseph Smith quoted Malachi 3:2–3 and went on,[@lds-scriptures] “Let us, therefore, as a church and a people, and as Latter-day Saints, offer unto the Lord an offering in righteousness; and let us present in his holy temple, when it is finished, a book containing the records of our dead” ([[D&C 128:24]]). He also taught that all things held under the priesthood in former times would be had again, and that “then shall the Sons of Levi offer an acceptable sacrifice to the Lord,” citing these verses.[@jsp-history-c1-addenda-18] When Moroni quoted part of Malachi 3 to him in 1823, “we have no indication that Joseph understood what that offering was to be at that time”; by 1842 he linked it with the record of the dead.[@rsc-line-upon-line-eternal-family] The note on [Mal. 3:3](/malachi/3/) sets out his teaching more fully.
 
-## A later comparison
+Another reading, which differs from the teaching that sacrifice will be restored, takes Malachi's words not as a promise that the old worship would continue, but as the prophets' way of “using the forms of the Old Testament worship to depict the reverence for God which would characterize the new covenant.”[@keil-malachi]
 
-The footnote at [[Mal. 1:10]] leads to words the Lord spoke to the Nephites after His death: “ye shall offer up unto me no more the shedding of blood… ye shall offer for a sacrifice unto me a broken heart and a contrite spirit” ([[3 Ne. 9:19–20]]).[@lds-scriptures] These are not Malachi’s words: he speaks of the sons of Levi and the offering of Judah and Jerusalem, and the Lord in 3 Nephi speaks to the Nephites. Setting His words beside “an offering in righteousness” ([[Mal. 3:3]]) is this page’s own comparison; it does not say that 3 Nephi 9 fulfils Mal. 3:3 or explains its phrase.
+Of the time, scripture says only this much. The 1842 letter introduces Malachi's refiner with “the great day of the Lord is at hand” ([[D&C 128:24]]), and John the Baptist's words hold the Aaronic Priesthood on the earth “until” the sons of Levi offer again ([[D&C 13:1]]).
+
+Joseph Smith's “let us” makes the offering in righteousness the work of “a church and a people” ([[D&C 128:24]]), and in that verse the Refiner's work and the Saints' offering stand together: He shall “purify the sons of Levi,” and the Saints are to present a book of their dead “which shall be worthy of all acceptation” ([[D&C 128:24]]).
