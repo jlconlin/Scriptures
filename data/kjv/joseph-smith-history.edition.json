@@ -4,6 +4,8 @@
   "note": "Where the Church's current edition differs in wording from this public-domain edition, the site prints the older wording. scripts/fetch-gl.mjs applies these after importing; scripts/check-kjv.mjs undoes them before comparing with the Gospel Library.",
   "changes": [
     { "ref": "1:18", "current": "which of all the sects was right (for at this time it had never entered into my heart that all were wrong)—and which I should join", "edition": "which of all the sects was right—and which I should join" },
+    { "ref": "1:75+", "current": "as the prophet said it would be", "edition": "as the prophet said would be", "from": "1902 edition (Oliver Cowdery's account is not in the 1921)" },
+    { "ref": "1:75+", "current": "it was as easy to be seen that amid", "edition": "it was easy to be seen, that amid", "from": "1902 edition (Oliver Cowdery's account is not in the 1921)" },
     { "ref": "1:66", "current": "the circumstances of my having received the plates", "edition": "the circumstance of my having received the plates" }
   ]
 }

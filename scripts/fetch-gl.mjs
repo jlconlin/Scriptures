@@ -58,6 +58,14 @@ const editionFile = `data/kjv/${slug}.edition.json`;
 if (existsSync(editionFile)) {
   const { changes } = JSON.parse(await readFile(editionFile, 'utf8'));
   for (const ch of changes) {
+    // “1:75+” is a paragraph after verse 75 that is not a verse (Oliver Cowdery's account, from the 1902 edition).
+    if (ch.ref.endsWith('+')) {
+      const [c, v] = ch.ref.slice(0, -1).split(':').map(Number);
+      const para = extra[c]?.find((x) => x.after === v && x.text.includes(ch.current));
+      if (!para) throw new Error(`${editionFile}: “${ch.current}” is not in a paragraph after ${ch.ref.slice(0, -1)}`);
+      para.text = para.text.replace(ch.current, ch.edition);
+      continue;
+    }
     const [c, v] = ch.ref.split(':').map(Number);
     if (!chapters[c - 1]?.[v - 1]?.includes(ch.current)) throw new Error(`${editionFile}: “${ch.current}” is not in ${ch.ref}`);
     chapters[c - 1][v - 1] = chapters[c - 1][v - 1].replace(ch.current, ch.edition);
