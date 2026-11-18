@@ -1,0 +1,37 @@
+name: Joseph Smith—Matthew
+slug: joseph-smith-matthew
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 6.1               # after Abraham (6), before Joseph Smith—History (6.2)
+abbr: js-m               # [[JS—M 1:37]] links here
+gospelLibrary: pgp/js-m
+eyebrow: The Pearl of Great Price
+heroQuote:
+  text: '“Whoso treasureth up my word, shall not be deceived.”'
+  cite: 'Joseph Smith—Matthew, [[JS—M 1:37]]'
+description: A phrase-by-phrase companion to Joseph Smith—Matthew, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: One chapter of fifty-five verses, Joseph Smith’s inspired translation of the Savior’s words on the Mount of Olives in Matthew 24.
+home:
+  blurb: The Savior’s words on the Mount of Olives as Joseph Smith’s inspired translation gives them, with the fall of Jerusalem and the signs of His coming set apart.
+
+intro: |
+  Joseph Smith—Matthew is the Savior’s teaching on the Mount of Olives, from Matthew 23:39 and 24, as it stands in Joseph Smith’s inspired translation of the Bible.
+
+# One division: divisions are chapter ranges, and the book has one chapter. Its structure is in the chapter's sections.
+# Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: olivet
+    range: [1, 1]
+    name: The Mount of Olives
+    blurb: The Savior foretells the destruction of the temple and Jerusalem, then the signs of His coming and the end of the wicked.
+    color: '#7a5c9e'
+    darkColor: '#c3a8e6'
+
+beloved:
+  - { chapter: 1, verse: 37, text: 'whoso treasureth up my word, shall not be deceived' }
+
+coreSources: []
+
+titles:
+  1: 'The Signs of His Coming'

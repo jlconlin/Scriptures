@@ -47,7 +47,7 @@ add('bofm', [
 ]);
 add('dc-testament', [['d&c|dc|doctrineandcovenants', 'dc'], ['od', 'od']]);
 add('pgp', [
-  ['moses', 'moses'], ['abr|abraham', 'abr'], ['js—m|js-m|jsm', 'js-m'], ['js—h|js-h|jsh', 'js-h'],
+  ['moses', 'moses'], ['abr|abraham', 'abr'], ['js—m|js-m|jsm|josephsmith—matthew|josephsmith-matthew', 'js-m'], ['js—h|js-h|jsh|josephsmith—history|josephsmith-history', 'js-h'],
   ['aofF|aoff|articlesoffaith', 'a-of-f'],
 ]);
 add('jst', [['jst,isa|jstisa', 'jst-isa'], ['jst,gen|jstgen', 'jst-gen'], ['jst,matt|jstmatt', 'jst-matt']]);

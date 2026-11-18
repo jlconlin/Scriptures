@@ -54,7 +54,7 @@ for (let c = 1; c <= kjv.length; c++) {
     await new Promise((r) => setTimeout(r, 3000 * (attempt + 1)));
   }
   if (!existsSync(file)) { diffs++; console.log(`!! ${book.name} ${c}: could not fetch the Gospel Library page`); continue; }
-  const verses = existsSync(file) ? [...readFileSync(file, 'utf8').matchAll(/<p[^>]*\bid="p(\d+)"[^>]*>(.*?)<\/p>/gs)].map((m) => [+m[1], clean(m[2])]) : [];
+  const verses = existsSync(file) ? [...readFileSync(file, 'utf8').matchAll(/<p([^>]*\bid="p\d+"[^>]*)>(.*?)<\/p>/gs)].filter((m) => /\bclass="[^"]*\bverse\b/.test(m[1])).map((m, i) => [i + 1, clean(m[2])]) : [];
   if (verses.length !== kjv[c - 1].length) console.log(`!! ${book.name} ${c}: ${verses.length} verses in the Gospel Library, ${kjv[c - 1].length} in the file`);
   for (const [v, theirs] of verses) {
     const a = norm(theirs).split(' '), b = norm(kjv[c - 1][v - 1] ?? '').split(' ');

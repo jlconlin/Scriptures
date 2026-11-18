@@ -1,0 +1,35 @@
+name: Articles of Faith
+slug: articles-of-faith
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 6.3               # after Joseph Smith—History (6.2)
+abbr: a-of-f             # [[A of F 1:13]] links here
+gospelLibrary: pgp/a-of-f
+eyebrow: The Pearl of Great Price
+heroQuote:
+  text: '“We believe in God, the Eternal Father, and in His Son, Jesus Christ, and in the Holy Ghost.”'
+  cite: 'Articles of Faith, [[A of F 1:1]]'
+description: A companion to the Articles of Faith, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Thirteen statements of belief, from Joseph Smith’s letter of 1842 to John Wentworth.
+home:
+  blurb: Thirteen statements of belief that Joseph Smith wrote in 1842 for a Chicago newspaper editor, with where each comes from in scripture.
+
+intro: |
+  The Articles of Faith are thirteen statements of belief that Joseph Smith included in a letter of 1842 to John Wentworth.
+
+divisions:
+  - key: webelieve
+    range: [1, 1]
+    name: We Believe
+    blurb: Thirteen statements of belief.
+    color: '#3f7f8c'
+    darkColor: '#8fcbd6'
+
+beloved:
+  - { chapter: 1, verse: 1, text: 'We believe in God, the Eternal Father, and in His Son, Jesus Christ, and in the Holy Ghost' }
+
+coreSources: []
+
+titles:
+  1: 'We Believe'

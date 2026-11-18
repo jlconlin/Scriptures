@@ -1,0 +1,9 @@
+{
+  "edition": "The Pearl of Great Price (Salt Lake City: The Church of Jesus Christ of Latter-day Saints, 1921; 1929 printing)",
+  "source": "https://archive.org/details/pearlofgreatpric0000jose_d8d6",
+  "note": "Where the Church's current edition differs in wording from this public-domain edition, the site prints the older wording. scripts/fetch-gl.mjs applies these after importing; scripts/check-kjv.mjs undoes them before comparing with the Gospel Library.",
+  "changes": [
+    { "ref": "1:8", "current": "and shall betray one another, and shall hate one another;", "edition": "and shall betray one another;" },
+    { "ref": "1:30", "current": "the love of men shall wax cold", "edition": "the love of many shall wax cold" }
+  ]
+}

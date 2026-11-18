@@ -218,6 +218,10 @@ export async function build({ quiet = false } = {}) {
     const titleData = existsSync(titlesFile) ? JSON.parse(await readFile(titlesFile, 'utf8')) : {};
     book.kjv.titles = titleData.titles ?? {};
     book.kjv.stanzas = titleData.stanzas ?? {};
+    // Paragraphs of a chapter that are not verses, with the verse each follows (scripts/fetch-gl.mjs): Oliver
+    // Cowdery's account after Joseph Smith—History 1:75, the signature under the Articles of Faith; optional.
+    const extraFile = r(`data/kjv/${book.slug}.extra.json`);
+    book.kjv.extra = existsSync(extraFile) ? JSON.parse(await readFile(extraFile, 'utf8')) : {};
     // Book of Mormon comparison data is optional; chapters without it simply have no BoM panel.
     const bomFile = r(`data/bom/${book.slug}-parallels.json`);
     book.bomParallels = existsSync(bomFile) ? JSON.parse(await readFile(bomFile, 'utf8')).chapters : {};
@@ -376,6 +380,7 @@ export async function build({ quiet = false } = {}) {
         bom: book.bomParallels[ch.chapter],
         title: kjv.titles[ch.chapter],
         stanzas: kjv.stanzas[ch.chapter],
+        extra: kjv.extra[ch.chapter],
       });
       const u = chapterPath(book, ch.chapter);
       search.push({ t: 'chapter', b: slug, r: chapterLabel(book, ch.chapter), h: plain(ch.title), u, x: plain(`${ch.tagline ?? ''} ${ch.setting ?? ''} ${ch.thread ?? ''}`).slice(0, 1200) });

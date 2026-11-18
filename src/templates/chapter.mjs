@@ -124,8 +124,10 @@ export const unitPlural = (book) => book.unit?.plural ?? 'chapters';
  * `title` is the line above verse 1 of a psalm (“A Psalm of David, …”), shown before the first verse
  * with no number; a note with `ref: 0` hangs on its words. `stanzas` maps a verse to the Hebrew
  * letter that heads the stanza it opens (Psalm 119). Both come from data/kjv/<slug>.titles.json.
+ * `extra` lists paragraphs of the chapter that are not verses, each with the verse it follows (Oliver
+ * Cowdery's account after Joseph Smith—History 1:75), from data/kjv/<slug>.extra.json; they have no number.
  */
-export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom, title, stanzas }) {
+export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom, title, stanzas, extra = [] }) {
   const n = ch.chapter;
   const chapterName = chapterLabel(book, n);
   const division = book.divisions.find((d) => n >= d.range[0] && n <= d.range[1]);
@@ -205,6 +207,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
   ${notes.map((x) => noteHtml(x, sources)).join('\n')}
   ${variant ? bomNoteHtml(variant, sources) : ''}
 </div>`);
+        for (const x of extra.filter((x) => x.after === v)) vs.push(`<p class="verse verse-extra">${esc(x.text)}</p>`);
       }
       const label = a === b ? `Verse ${a}` : `Verses ${a}–${b}`;
       return `<section class="passage" id="s${si + 1}" aria-labelledby="s${si + 1}h">

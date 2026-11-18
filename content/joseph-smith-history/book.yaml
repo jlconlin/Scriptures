@@ -1,0 +1,36 @@
+name: Joseph Smith—History
+slug: joseph-smith-history
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+order: 6.2               # after Joseph Smith—Matthew (6.1), before the Articles of Faith (6.3)
+abbr: js-h               # [[JS—H 1:17]] links here
+gospelLibrary: pgp/js-h
+eyebrow: The Pearl of Great Price
+heroQuote:
+  text: '“This is My Beloved Son. Hear Him!”'
+  cite: 'Joseph Smith—History, [[JS—H 1:17]]'
+description: A phrase-by-phrase companion to Joseph Smith—History, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: One chapter of seventy-five verses, extracts from the history Joseph Smith began in 1838.
+home:
+  blurb: Joseph Smith’s own account of the First Vision, the visits of Moroni, the coming forth of the Book of Mormon, and the restoring of the priesthood.
+
+intro: |
+  Joseph Smith—History is taken from the history of the Church that Joseph Smith began in 1838.
+
+# One division: divisions are chapter ranges, and the book has one chapter. Its structure is in the chapter's sections.
+divisions:
+  - key: firstvision
+    range: [1, 1]
+    name: The Rise of the Church
+    blurb: The First Vision, Moroni’s visits, the plates and their translation, and the restoring of the priesthood.
+    color: '#b5813a'
+    darkColor: '#e9bf7e'
+
+beloved:
+  - { chapter: 1, verse: 17, text: 'This is My Beloved Son. Hear Him!' }
+
+coreSources: []
+
+titles:
+  1: 'Hear Him'

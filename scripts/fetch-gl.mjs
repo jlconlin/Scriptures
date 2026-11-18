@@ -27,6 +27,7 @@ const clean = (s) =>
     .replace(/¶\s*/g, '').replace(/\s+/g, ' ').trim();
 
 const chapters = [];
+const extra = {};
 for (let c = 1; c <= Number(count); c++) {
   const url = `https://www.churchofjesuschrist.org/study/scriptures/${glPath}/${c}?lang=eng`;
   let verses = [];
@@ -34,12 +35,20 @@ for (let c = 1; c <= Number(count); c++) {
   for (let attempt = 0; !verses.length && attempt < 4; attempt++) {
     try {
       const html = execFileSync('curl', ['-sL', '-m', '60', '-A', UA, url], { maxBuffer: 64e6 }).toString();
-      verses = [...html.matchAll(/<p[^>]*\bid="p(\d+)"[^>]*>(.*?)<\/p>/gs)].map((m) => [+m[1], clean(m[2])]);
+      // A numbered verse has class="verse". Other numbered paragraphs (Oliver Cowdery's account after
+      // Joseph Smith—History 1:75, the signature under the Articles of Faith) are not verses: they are kept apart.
+      const paras = [...html.matchAll(/<p([^>]*\bid="p(\d+)"[^>]*)>(.*?)<\/p>/gs)];
+      verses = paras.filter((m) => /\bclass="[^"]*\bverse\b/.test(m[1])).map((m, i) => [i + 1, clean(m[3])]);
+      extra[c] = [];
+      let before = 0;
+      for (const m of paras) {
+        if (/\bclass="[^"]*\bverse\b/.test(m[1])) before++;
+        else extra[c].push({ after: before, text: clean(m[3]) });
+      }
     } catch {}
     if (!verses.length) await new Promise((r) => setTimeout(r, 3000 * (attempt + 1)));
   }
   if (!verses.length) throw new Error(`No verses read from ${url}`);
-  verses.forEach(([n], i) => { if (n !== i + 1) throw new Error(`${url}: verse ${i + 1} is numbered ${n}`); });
   chapters.push(verses.map(([, text]) => text));
 }
 
@@ -57,6 +66,12 @@ if (existsSync(editionFile)) {
 }
 
 await mkdir('data/kjv', { recursive: true });
+// Paragraphs of the chapter that are not verses, with the verse each follows: data/kjv/<slug>.extra.json.
+const extras = Object.fromEntries(Object.entries(extra).filter(([, list]) => list.length));
+if (Object.keys(extras).length) {
+  await writeFile(`data/kjv/${slug}.extra.json`, JSON.stringify(extras, null, 1));
+  console.log(`Wrote data/kjv/${slug}.extra.json: ${Object.values(extras).flat().length} paragraph(s) that are not verses`);
+}
 const bookName = name ?? slug[0].toUpperCase() + slug.slice(1);
 await writeFile(`data/kjv/${slug}.json`, JSON.stringify({ book: bookName, source: `https://www.churchofjesuschrist.org/study/scriptures/${glPath}?lang=eng`, chapters }));
 console.log(`Wrote data/kjv/${slug}.json: ${chapters.length} chapters, ${chapters.reduce((n, c) => n + c.length, 0)} verses`);

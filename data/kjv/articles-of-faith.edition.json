@@ -1,0 +1,10 @@
+{
+  "edition": "The Pearl of Great Price (Salt Lake City: The Church of Jesus Christ of Latter-day Saints, 1921; 1929 printing)",
+  "source": "https://archive.org/details/pearlofgreatpric0000jose_d8d6",
+  "note": "Where the Church's current edition differs in wording from this public-domain edition, the site prints the older wording. scripts/fetch-gl.mjs applies these after importing; scripts/check-kjv.mjs undoes them before comparing with the Gospel Library.",
+  "changes": [
+    { "ref": "1:6", "current": "Primitive Church, namely, apostles, prophets, pastors, teachers, evangelists, and so forth.", "edition": "Primitive Church, viz., apostles, prophets, pastors, teachers, evangelists, etc." },
+    { "ref": "1:7", "current": "interpretation of tongues, and so forth.", "edition": "interpretation of tongues, etc." },
+    { "ref": "1:10", "current": "that Zion (the New Jerusalem) will be built upon the American continent", "edition": "that Zion will be built upon this [the American] continent" }
+  ]
+}

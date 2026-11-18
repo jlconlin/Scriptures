@@ -647,6 +647,8 @@ section.home-hero { padding-bottom: 0; }
 @keyframes flash { 0%, 30% { background: color-mix(in srgb, var(--accent) 22%, transparent); } 100% { background: transparent; } }
 /* The line above verse 1 of a psalm (“A Psalm of David, …”), and the Hebrew letter that heads a stanza of Psalm 119. */
 .verse.psalm-title { font-style: italic; color: var(--ink-2); padding-bottom: 10px; }
+/* A paragraph of the chapter that is not a verse (Oliver Cowdery's account after Joseph Smith—History 1:75). */
+.verse.verse-extra { color: var(--ink-2); }
 .stanza-letter { margin: 18px 0 2px; font: 600 .72em var(--font-ui); letter-spacing: .08em; text-transform: uppercase; color: color-mix(in srgb, var(--div) 70%, var(--ink)); }
 .stanza-letter span { font-size: 1.5em; font-weight: 400; letter-spacing: 0; margin-right: 4px; }
 .vnum { font: 700 .7em var(--font-ui); color: color-mix(in srgb, var(--div) 70%, var(--ink)); text-decoration: none; vertical-align: .35em; margin-right: 2px; padding: 2px; }

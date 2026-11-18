@@ -64,7 +64,8 @@ if (!compare)
 // ---------- Scripture Helps ----------
 if (!compare) console.log('\n--- Scripture Helps ---');
 // The Books of Moses and Abraham are treated in Scripture Helps: Old Testament (“Moses 1; Abraham 3”, “Moses 7”).
-const vol = book.gospelLibrary.split('/')[0], manual = MANUAL[vol] ?? (['moses', 'abr'].includes(book.abbr) ? MANUAL.ot : undefined);
+// Joseph Smith—Matthew is in Scripture Helps: New Testament (“Joseph Smith—Matthew 1; Matthew 24–25; …”).
+const vol = book.gospelLibrary.split('/')[0], manual = MANUAL[vol] ?? (['moses', 'abr'].includes(book.abbr) ? MANUAL.ot : book.abbr === 'js-m' ? MANUAL.nt : undefined);
 let helps = []; // the Scripture Helps chapters that cover this one, read: { e, man }
 const none = (msg) => { if (!compare) console.log(msg); else console.log(`\nScripture Helps: ${msg}`); };
 async function findHelps() {
