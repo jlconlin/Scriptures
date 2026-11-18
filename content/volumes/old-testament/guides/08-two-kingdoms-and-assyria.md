@@ -2,10 +2,10 @@
 title: Two Kingdoms and Assyria
 blurb: The divided kingdoms of Israel and Judah from Rehoboam to Hezekiah, the Assyrian empire that ended the north, the nations around them, and the books written in those years.
 icon: compass
-sources: [pike-recovering-world-bible, bd-israel-kingdom, ot-manual-12, bd-judah-kingdom, scripture-helps-2-kings, bd-assyria, lds-scriptures, bd-hezekiah, bible-chron-ot, ot-manual-kings-a, bd-egypt, bd-rehoboam, bd-jeroboam, ot-manual-6, ot-manual-10, bd-jonah, ot-manual-f, bd-captivities, bd-damascus, gs-samaria, bd-sennacherib, bd-lachish, luckenbill-annals, bd-hezekiahs-tunnel, bd-merodach-baladan, gs-assyria, bd-ethiopia, bd-philistines, bd-moab, bd-edom, bd-tyre, bd-babylon, scripture-helps-1-kings, bd-isaiah]
+sources: [pike-recovering-world-bible, bd-israel-kingdom, ot-manual-12, bd-judah-kingdom, scripture-helps-2-kings, bd-assyria, lds-scriptures, bd-hezekiah, bible-chron-ot, ot-manual-kings-a, bd-egypt, bd-rehoboam, bd-jeroboam, ot-manual-6, ot-manual-10, bd-jonah, ot-manual-f, bd-captivities, bd-damascus, gs-samaria, bd-sennacherib, bd-lachish, luckenbill-annals, bd-hezekiahs-tunnel, bd-merodach-baladan, gs-assyria, sc-knowhy-711, bd-ethiopia, bd-philistines, bd-moab, bd-edom, bd-tyre, bd-babylon, scripture-helps-1-kings, bd-isaiah]
 ---
 
-This guide covers the years from the division of David's kingdom, under Rehoboam and Jeroboam, to the end of Hezekiah's reign. The northern kingdom, Israel, with its capital at Samaria, lasted over 200 years[@bd-israel-kingdom] and fell to Assyria in 721 BC, though the date may be 722.[@ot-manual-12] Judah, where David's house held the throne,[@bd-judah-kingdom] paid Assyria tribute until Hezekiah rebelled;[@scripture-helps-2-kings] Sennacherib came to Palestine in 701.[@bd-assyria] “Now in the fourteenth year of king Hezekiah did Sennacherib king of Assyria come up against all the fenced cities of Judah, and took them” ([[2 Kgs. 18:13]]), yet Jerusalem was at length delivered.[@bd-hezekiah]
+This guide covers the years from the division of David's kingdom, under Rehoboam and Jeroboam, to the end of Hezekiah's reign. The northern kingdom, Israel, with its capital at Samaria, lasted over 200 years[@bd-israel-kingdom] and fell to Assyria in 721 BC, though the date may be 722.[@ot-manual-12] Judah, where David's house held the throne and which outlasted Israel by 135 years,[@bd-judah-kingdom] paid Assyria tribute until Hezekiah rebelled;[@scripture-helps-2-kings] Sennacherib came to Palestine in 701.[@bd-assyria] “Now in the fourteenth year of king Hezekiah did Sennacherib king of Assyria come up against all the fenced cities of Judah, and took them” ([[2 Kgs. 18:13]]), yet Jerusalem was at length delivered.[@bd-hezekiah]
 
 The division is dated 975,[@bible-chron-ot] 931[@ot-manual-kings-a] or about 925 BC.[@bd-israel-kingdom] For the whole sweep see [A Timeline of the Old Testament](/old-testament/guides/israels-story/#timeline).
 
@@ -56,7 +56,7 @@ All dates are approximate; where they differ, the table gives each.
 
 | Nation | Who and where | With Israel and Judah |
 |---|---|---|
-| Assyria | The Tigris valley, centered on Nineveh;[@bd-assyria] “ruled by terror,” and deported whole populations[@gs-assyria] | Took the north and laid Judah under tribute; “the rod of mine anger” ([[Isa. 10:5]]); [[2 Kgs. 17]]; [[2 Kgs. 18–19]] |
+| Assyria | The Tigris valley, centered on Nineveh;[@bd-assyria] a major power from the mid-12th century to the close of the 7th,[@gs-assyria] its Neo-Assyrian Empire lasting from about 911 to the fall of Nineveh in 612;[@sc-knowhy-711] “ruled by terror,” and deported whole populations[@gs-assyria] | Took the north and laid Judah under tribute; “the rod of mine anger” ([[Isa. 10:5]]); [[2 Kgs. 17]]; [[2 Kgs. 18–19]] |
 | Syria | Aram; its capital Damascus[@bd-damascus] | Allied with Israel against Assyria in Ahab's day;[@ot-manual-kings-a] Rezin and Pekah threatened Judah;[@scripture-helps-2-kings] [[2 Kgs. 16:5–9]] |
 | Egypt | Shishak took Jerusalem under Rehoboam[@bd-egypt] | Assyria's rival; allying with it against Assyria was Judah's policy, which Isaiah opposed;[@bd-egypt] [[1 Kgs. 14:25–26]]; [[Isa. 30:1–5]] |
 | Cush | South of Egypt, including modern Nubia[@bd-ethiopia] | The Ethiopian So made himself lord of Egypt and stirred up revolt;[@bd-assyria] [[2 Kgs. 17:4]]; [[2 Kgs. 19:9]] |
