@@ -30,7 +30,7 @@ A reader does not stop at “We believe in God, the Eternal Father” and ask wh
 
 **Which kinds of note.** Related Scriptures (kind 1), Context (kind 2, and the history of the wording), Language (a word in 1842 English), Latter-day Prophets (kind 4), Witness of Christ where the article is about Him. No Imagery, Literary Structure or BoM Comparison notes are expected.
 
-**Balance.** Thirteen verses, so the chapter is short in verses and should not be long in notes: about two or three notes an article, more where the questions are real (Articles 2, 6, 8, 10), fewer where an article is plain (Articles 3, 7). The `plain` paraphrase of each section says what the article affirms, in plain words, without arguing it.
+**Balance.** Thirteen verses, so the chapter is short in verses and should not be long in notes: about two or three notes an article, more where the questions are real (Articles 2, 6, 8, 10), fewer where an article is plain (Articles 3, 7). The sections have no `plain` paraphrase: the articles are already in plain words, and restating them adds nothing (author, 2026-11-18).
 
 **What it is not.** Not an essay on each doctrine: the Gospel Library's Topics and Questions do that, and a doctrine large enough for an essay is a theme page, chosen by the author. Not proof-texting against other churches: say what another church taught only where it explains Joseph Smith's wording, in a source's words, without disparagement (`STANDARDS.md` §3). Not a record of every commentary on the Articles.
 

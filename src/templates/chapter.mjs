@@ -283,7 +283,7 @@ export function renderChapter({ book, ch, verses, sources, prev, next, warn, bom
 
       ${ch.thread ? introSection({ key: 'thread', cls: 'thread', body: ch.thread, prose: 'prose prose-lg', preview: true }) : ''}
 
-      ${readingTools(kindsUsed, counts)}
+      ${readingTools(kindsUsed, counts, { plain: sections.some((s) => s.plain) })}
       <p class="reader-hint">Tap any <span class="hint-phr">highlighted phrase</span> to open a note <span class="hint-narrow">beneath its verse</span><span class="hint-wide">in the margin</span>.</p>
 
       <div class="reader">
