@@ -244,7 +244,8 @@ export async function build({ quiet = false } = {}) {
     });
     book.written = book.chapters.filter((c) => !c.draft);
     // A book with every chapter written is due its illustration (PROCESS.md, “Book illustration workflow”).
-    if (book.written.length === book.chapters.length) {
+    // `art: none` in book.yaml (with `artWhy:`) is the author's decision that the book has no illustration.
+    if (book.written.length === book.chapters.length && book.art !== 'none') {
       const v = book.visual;
       if (!v) book.warn('every chapter is written but there is no visual.yaml: run .claude/workflows/create-book-art.js');
       else if (v.status !== 'approved') book.warn(`visual.yaml is “${v.status ?? 'without a status'}”: the book page shows the placeholder until the author approves an image`);

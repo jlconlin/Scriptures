@@ -26,6 +26,11 @@ divisions:
     color: '#3f7f8c'
     darkColor: '#8fcbd6'
 
+# No illustration (author, 2026-11-17: “I agree no image for the articles”): thirteen statements of belief, not a story or a
+# place, so a picture could show only the occasion or symbols that need a key. A one-chapter page shows no art without one.
+art: none
+artWhy: statements of belief, not a story or a place
+
 beloved:
   - { chapter: 1, verse: 1, text: 'We believe in God, the Eternal Father, and in His Son, Jesus Christ, and in the Holy Ghost' }
 
