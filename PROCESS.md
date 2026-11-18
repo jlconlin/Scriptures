@@ -93,6 +93,7 @@ The author reviews the candidate. Only after approval does the coordinator run `
 - **A scene that looks too regular** (rows, a patchwork, even bends) is fixed by asking for fewer and larger things, not for irregularity.
 - **Say where the light comes from and which way the shadows fall**, and refuse a candidate with light nothing in it could cast; several natural lights (moon and stars) are fine.
 - *(a lesson)* **A book with many stories may do well with a few places and open ground between them**, not one for each story: Genesis's approved image (2026-10-12) follows a river through three places, after a tower for Babel was tried and taken out as too prominent.
+- **Draw one book at a time.** `book-art.mjs generate` takes the newest image in Codex's folder, so two run at once can both save the same picture (2026-11-17); look at each candidate before showing it.
 - **Objects are of the book's time.** The author may allow a figure though the house style says none (`figures:`). Never ask for a look “halfway between” two candidates, since the tool swings past both: name one concrete look, or keep the one the author liked.
 
 ## Reviewing the instructions
