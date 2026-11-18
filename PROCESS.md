@@ -70,7 +70,7 @@ Every new page is read by Codex, a model of another family, before the author se
 
 **Other pages** (a theme or guide page, a book page, a facsimile page, the About page) are read one at a time: `node scripts/codex-read.mjs <book> <page file name>`, `<book> book`, `<book> facsimile-<n>`, or `--file <path>` (reports to `.cache/codex/`); `<book>` may be a volume. Apply supported language findings without adding claims. A substantive gap goes back to that page's writer and its source and review checks before a fresh reading. Rerun the page's checks (`check-page.mjs` for a theme or guide page; the build for a book page).
 
-**The chapter-note check of 2026-10-27** (Codex read every chapter's notes, calibrated and adjudicated) is complete: the annotated tag `chapter-prose-review-2026-10-28` holds the reviewed versions and the 33 notes and two threads it diagnosed, which are repaired within the volume the author chooses to study (`OPEN-QUESTIONS.md`, “Work waiting its turn”). Reviewed means reviewed, not repaired. No further corpus-wide campaign runs unless the author asks.
+**The chapter-note check of 2026-10-27** (Codex read every chapter's notes, calibrated and adjudicated) is complete: the annotated tag `chapter-prose-review-2026-10-28` holds the reviewed versions and the 33 notes and two threads it diagnosed, all of them in the Old Testament; they were repaired on 2026-11-18 (writer repair, source check, review, then Codex's reading and the language pass). No further corpus-wide campaign runs unless the author asks.
 
 ## Book illustration workflow
 
