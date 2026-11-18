@@ -45,7 +45,7 @@ Write your findings to the path you are given, for the reviewer. One entry per f
 - **The source says:** the passage from the page, quoted with enough around it to judge (the sentence before and after if they bear on it), and the URL.
 - **The difference:** one plain line. No recommendation unless the fix is mechanical.
 
-End the file with: the rows you reopened (how many of how many) and any page that would not load; the counts for the Student Manual and outside-commentary limits; the result of each check (what `check-chapter.mjs` printed); what you changed yourself.
+End the file with: the rows you reopened (how many of how many) and any page that would not load; every Church teaching manual the chapter cites (`STANDARDS.md` §1: a manual is a finder, never a source; each is a finding, with the work the manual cites for that statement if it names one); the count for the outside-commentary limit; the result of each check (what `check-chapter.mjs` printed); what you changed yourself.
 
 ## Honesty
 

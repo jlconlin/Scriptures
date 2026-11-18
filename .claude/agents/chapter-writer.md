@@ -55,6 +55,7 @@ Write `content/<book>/chapters/NN.yaml` with every field in `STANDARDS.md` (“C
 - Open each note with a sentence that states its point (never “This note is about…”).
 - **No reading of your own.** A division of a chapter, who a speaker is, a connection between verses: each comes from a source read, or is left out. A view your only source reports in order to reject it is not sourced. Chapter notes make no connections of their own; theme pages may (`PAGES.md`).
 - **Say a thing once.** A proposal or quotation that belongs to two chapters stands in full in one and in a sentence with a link in the other; check the other chapter's file before writing it again.
+- **A Church teaching manual is a finder, never a source** (`STANDARDS.md` §1): *Come, Follow Me*, *Scripture Helps*, the seminary and institute manuals and the Student Manuals are read for what they cite, and that work is read and cited instead. A manual's statement with nothing behind it is cited from scripture or a prophet who says the same, or left out. Never restate a lesson's application in `christ`.
 - **Don't correct a Church help in a note.** Where *Scripture Helps* or a manual seems inconsistent with itself or with the lexicon, say what you can support and leave the rest out, without pointing out the slip.
 - No `[@key]` markers in a chapter file: chapter pages don't render them. A note's citation is its `sources` list.
 - If the brief has a section “What a chapter is for,” it is the author's latest direction; follow it closely.

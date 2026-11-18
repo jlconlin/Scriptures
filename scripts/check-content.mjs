@@ -14,9 +14,10 @@
 //   ledger rows are complete (where, claim, key, url, quote); works that cannot be read
 //   online need a quoted ledger row.
 //
-// Student Manuals (warnings only, every chapter; STANDARDS.md §1): a chapter where more than
-//   about a third of the notes cite a Student Manual, and notes that cite one with nothing
-//   from beyond the Church's own publications beside it.
+// Church teaching manuals (warnings only, every chapter; STANDARDS.md §1, 2026-11-17): a manual is a finder,
+//   never a source, so every key a chapter cites whose pub is Come, Follow Me, Scripture Helps, a seminary or
+//   institute manual, a Student Manual, a Gospel Doctrine manual or a study guide is listed. Warnings, so the
+//   chapters written before the rule pass until the books are revised; in new writing each is a fault.
 //
 // Pointers (STANDARDS.md §3): “see the note on [[Gen. 11:3]]” or “the note on verse 5” must land on a verse that has a note in
 //   that chapter, when that chapter is written (resolved with the reference table the site uses, src/lib/refs.mjs; a book not
@@ -58,12 +59,10 @@ import { SCRIPT_ROOT, readProposed, mergeProposed, proposedFile, isWiki, pageSec
 const NOT_READABLE = ['oswalt', 'blenkinsopp', 'childs', 'paul-40-66', 'westermann', 'halot', 'parry-understanding', 'williamson-book-called', 'tov-textual', 'matthews-plainer'];
 
 
-// The Church's Student Manuals are a starting point, not the spine of a chapter (author,
-// 2026-10-03). A chapter should have at most about a third of its notes citing one, and a note
-// that cites one should also rest on something from beyond the Church's own publications
-// (judged by the host of the source's URL in sources.yaml).
+// The Church's teaching manuals are finders, never sources (author, 2026-11-17: “all those manuals are finders
+// not primary source material”). A source is one when its pub in sources.yaml names one of these.
+const FINDER_PUB = /Come, Follow Me|Scripture Helps|Seminary|Institute|Student Manual|Gospel Doctrine|Study Guide/i;
 const CHURCH_HOSTS = ['churchofjesuschrist.org', 'josephsmithpapers.org', 'speeches.byu.edu'];
-const STUDENT_MANUAL_SHARE = 1 / 3;
 
 // Notes that point to another note: “the note on [[Gen. 11:3]]”, “notes at [[Jer. 25:15]]”, “the note on verse 5” (this chapter).
 const POINTER = /\bnotes?\s+(?:on|at|to|for)\s+(?:(?:verses?|vv?\.)\s*(\d+)(?:\s*[–-]\s*(\d+))?|\[\[([^\]]+)\]\])/gi;
@@ -138,7 +137,7 @@ const seen = new Map();
 for (const [k, s] of Object.entries(sources))
   if (s?.url && isWiki(s.url)) err(`sources.yaml: “${k}” has a wiki or popular-site URL (${s.url}); not a source`);
 
-const isStudentManual = (k) => /Student Manual/.test(sources[k]?.pub ?? '');
+const isFinder = (k) => FINDER_PUB.test(sources[k]?.pub ?? '');
 const isChurchSource = (k) => {
   try {
     const host = new URL(sources[k].url).hostname.toLowerCase();
@@ -205,7 +204,7 @@ const versesWithNotes = async (book, chapter) => {
 };
 
 const nonStrict = []; // one line per chapter with issues
-const leaning = []; // one line per chapter that leans on the Student Manuals
+const leaning = []; // one line per chapter that cites a Church teaching manual
 const dangling = []; // pointers to a note that isn't there, in chapters without a ledger
 const announced = []; // sources announced in the text
 const markers = []; // [@key] markers in a chapter file (chapter pages don't render them; STANDARDS.md §6)
@@ -310,13 +309,9 @@ for (const book of books) {
     for (const t of [ch.setting, ch.thread, ch.christ, ch.explore, ...notes.map((n) => n.body)])
       for (const m of String(t ?? '').matchAll(CITE)) { cited.add(m[1]); checkKey(label, m[1]); }
 
-    // Student Manual reliance (warnings only). A note's `sources` list is its citation.
-    const manualNotes = notes.filter((n) => (n.sources ?? []).some((s) => isStudentManual(keyOf(s))));
-    const manualOnly = manualNotes.filter((n) => (n.sources ?? []).every((s) => isChurchSource(keyOf(s))));
-    const leans = [];
-    if (manualNotes.length > notes.length * STUDENT_MANUAL_SHARE) leans.push(`${manualNotes.length}/${notes.length} notes cite a Student Manual`);
-    if (manualOnly.length) leans.push(`note${manualOnly.length > 1 ? 's' : ''} ${manualOnly.map((n) => n.ref ?? '?').join(', ')} ha${manualOnly.length > 1 ? 've' : 's'} nothing from beyond the Church's publications beside the manual`);
-    if (leans.length) leaning.push(`${label}: ${leans.join('; ')}`);
+    // Church teaching manuals cited (warnings only): every finder key the chapter cites anywhere.
+    const finders = [...cited].filter(isFinder).sort();
+    if (finders.length) leaning.push(`${label}: cites ${finders.join(', ')}`);
 
     // Pointers to a note that isn't there (an error with a ledger), announced sources, outside commentary, and the length of `setting`.
     const hasLedger = existsSync(path.join(bdir, 'evidence', f));
@@ -478,7 +473,7 @@ if (nonStrict.length && !quiet) {
   for (const l of nonStrict) console.warn(`  ⚠ ${l}`);
 }
 if (leaning.length && !quiet) {
-  console.log(`\nChapters leaning on the Student Manuals (warnings only; STANDARDS.md §1):`);
+  console.log(`\nChapters citing a Church teaching manual, a finder and never a source (warnings only; STANDARDS.md §1; the pages before 2026-11-17 wait for the books' revision):`);
   for (const l of leaning) console.warn(`  ⚠ ${l}`);
 }
 
