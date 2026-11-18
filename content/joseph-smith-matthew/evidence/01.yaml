@@ -1,0 +1,603 @@
+chapter: 1
+claims:
+  # ---- when ----
+  - where: 'when'
+    claim: 'The Church’s heading dates the translation to 1831'
+    key: jackson-moses-jsm
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/book-moses-joseph-smith-matthew'
+    quote: 'That narrative also included a subheading that identifies it as “an extract from the translation of the Bible as revealed to Joseph Smith the Prophet in 1831.”'
+  - where: 'when'
+    claim: 'Matthew 24 was revised between mid-April and mid-June 1831'
+    key: jackson-jst-new-testament
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/joseph-smiths-translation-new-testament'
+    quote: 'Sometime between mid-April and mid-June 1831, the Prophet and his scribe Sidney Rigdon revised the chapter, which contains Jesus’s great prophecy of future events.'
+  - where: 'when'
+    claim: 'The sermon was given in the last week of Jesus’s ministry, on the Mount of Olives'
+    key: jackson-sign-thy-coming
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/what-sign-thy-coming'
+    quote: 'he received a revelation that reflects a sermon Jesus gave to his disciples during the last week of his ministry. In a sermon referred to as the Olivet Discourse because it took place on the Mount of Olives'
+
+  # ---- setting ----
+  - where: 'setting'
+    claim: 'Last week of His ministry; Olivet Discourse; D&C 45 is in large part a fourth narration; the next day, 8 March 1831, the New Testament was begun'
+    key: jackson-sign-thy-coming
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/what-sign-thy-coming'
+    quote: 'is, in large part, a fourth narration of the Olivet Discourse. … the next day, March 8, 1831, the Prophet put the Old Testament translation on hold—in the middle of a verse, Genesis 24:41—and began revising the New Testament.'
+  - where: 'setting'
+    claim: 'Matthew closes the discourse two days before the Passover'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/26?lang=eng'
+    quote: 'Ye know that after two days is the feast of the passover, and the Son of man is betrayed to be crucified.'
+  - where: 'setting'
+    claim: 'D&C 45 was given at Kirtland on 7 March 1831'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/45?lang=eng'
+    quote: 'Revelation given through Joseph Smith the Prophet to the Church, at Kirtland, Ohio, March 7, 1831.'
+  - where: 'setting'
+    claim: 'Herod’s temple was begun in 20 B.C.'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: 'The Temple of Herod was constructed beginning in 20 B.C. with the help of ten thousand workmen.'
+  - where: 'setting'
+    claim: 'Date of the revision: between mid-April and mid-June 1831'
+    key: jackson-jst-new-testament
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/joseph-smiths-translation-new-testament'
+    quote: 'Sometime between mid-April and mid-June 1831, the Prophet and his scribe Sidney Rigdon revised the chapter'
+  - where: 'setting'
+    claim: 'Joseph Smith heavily revised Matthew 24, adding phrases and rearranging verses'
+    key: church-history-topics-jst
+    url: 'https://www.churchofjesuschrist.org/study/history/topics/joseph-smith-translation-of-the-bible?lang=eng'
+    quote: 'Joseph heavily revised some passages, such as Matthew 24, adding phrases, rearranging verses, and making other significant changes.'
+  - where: 'setting'
+    claim: 'The revision has a third more material than Matthew 24'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: 'This revision contains 33 percent more material than Matthew 24 in the Bible.'
+  - where: 'setting'
+    claim: 'The broadside’s place and date are uncertain, tentatively Kirtland 1835'
+    key: crawley-bibliography-1
+    url: 'https://rsc.byu.edu/descriptive-bibliography-mormon-church-volume-1/entries-1-100'
+    quote: 'It is not at all clear where or when this broadside was printed. … item 25 is tentatively assigned as an 1835 Kirtland imprint.'
+  - where: 'setting'
+    claim: 'Published as a broadside as early as 1835; Richards included it in 1851; canonized 1880'
+    key: jackson-jst-new-testament
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/joseph-smiths-translation-new-testament'
+    quote: 'When he compiled his mission booklet that year, The Pearl of Great Price, he included it among the other selections. In 1880, when a newly revised edition was canonized, Joseph Smith’s translation of Matthew 24 was accepted'
+  - where: 'setting'
+    claim: 'Titled Joseph Smith—Matthew in 1981'
+    key: jackson-sign-thy-coming
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/what-sign-thy-coming'
+    quote: 'In the 1981 edition of the Pearl of Great Price it was given the title “Joseph Smith—Matthew.”'
+
+  - where: 'setting'
+    claim: 'Sometime in the following weeks he arrived at Matthew 24'
+    key: jackson-sign-thy-coming
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/what-sign-thy-coming'
+    quote: 'Sometime in the following weeks he arrived at Matthew 24.'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'In Matthew the words can be read as answering both questions at once'
+    key: jackson-sign-thy-coming
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/what-sign-thy-coming'
+    quote: 'In all three synoptic accounts, Jesus’s words can be understood as answering both questions simultaneously, treating the two questions almost as one.'
+  - where: 'thread'
+    claim: 'The two questions are answered separately and consecutively, the first half on the first century and the second on the end times'
+    key: jackson-sign-thy-coming
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/what-sign-thy-coming'
+    quote: 'Jesus’s answer responds to the two questions separately and consecutively, with roughly the first half of the chapter dealing with circumstances of the first century AD and the second half dealing with the end times.'
+  - where: 'thread'
+    claim: 'The primary message is positive: the signs point to the Second Coming, and those who treasure His word avoid deception'
+    key: jackson-sign-thy-coming
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/what-sign-thy-coming'
+    quote: 'its primary message is a positive one for the Lord’s Saints: all of the signs point to the crowning event—the Second Coming of Jesus.'
+
+  # ---- sections ----
+  - where: 'section 8 plain'
+    claim: '“Meat” means food'
+    key: ellicott-matthew
+    url: 'https://biblehub.com/commentaries/ellicott/matthew/24.htm'
+    quote: 'To give them meat in due season.—Better, to give them their food.'
+
+  # ---- notes ----
+  - where: 'note 1:1 “Why the chapter begins with Matthew 23:39”'
+    claim: 'The early broadside began with the last verse of Matthew 23 to show the connection'
+    key: crawley-bibliography-1
+    url: 'https://rsc.byu.edu/descriptive-bibliography-mormon-church-volume-1/entries-1-100'
+    quote: 'Extract from the new translation of the Bible, It being the 24th chapter of Matthew; but in order to show the connection we will commence with the last verse of the 23rd chapter'
+  - where: 'note 1:1 “Why the chapter begins with Matthew 23:39”'
+    claim: 'The broadside included the final verse of chapter 23, which helps introduce the discourse'
+    key: jackson-jst-new-testament
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/joseph-smiths-translation-new-testament'
+    quote: 'Included in it was the entirety of Matthew 24 from the New Translation, along with the final verse of chapter 23 which helps introduce it.'
+  - where: 'note 1:1 “Why the chapter begins with Matthew 23:39”'
+    claim: 'The second half of the verse is new; “Blessed is he that cometh” refers to His coming in glory'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: 'The first half of this verse comes from Matthew 23:39, with the Prophet Joseph Smith’s addition. The second half of the verse, beginning with the words “in the clouds of heaven,” is new material.'
+
+  - where: 'note 1:1 “Why the chapter begins with Matthew 23:39”'
+    claim: 'Matthew 23:39 text'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/23?lang=eng'
+    quote: 'For I say unto you, Ye shall not see me henceforth, till ye shall say, Blessed is he that cometh in the name of the Lord.'
+  - where: 'note 1:1 “Why the chapter begins with Matthew 23:39”'
+    claim: '“Blessed is he that cometh” refers to His coming in glory with the holy ones'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: '“Blessed is he that cometh in the name of the Lord” refers to His coming in glory at the end of the world—in the clouds of heaven with all the holy ones (the Saints) accompanying him.'
+
+  - where: 'note 1:3 “Not one stone upon this temple”'
+    claim: 'Herod’s temple, begun 20 B.C., was unmatched in the Greco-Roman world'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: 'No other temple complex in the Greco-Roman world compared with its expansiveness and magnificence.'
+  - where: 'note 1:3 “Not one stone upon this temple”'
+    claim: '“Upon this temple” was added; the prophecy concerns the temple proper, not the retaining walls'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: 'The last phrase was added by the Prophet Joseph Smith. The Lord was not referring to the massive retaining walls around the Temple Mount—the eastern, southern, and western parts of which are still standing—but to the temple proper.'
+  - where: 'note 1:3 “Not one stone upon this temple”'
+    claim: 'Fire set to the temple gates led to the destruction of the sanctuary in A.D. 70'
+    key: ludlow-first-jewish-revolt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/first-jewish-revolt-against-rome'
+    quote: 'Fire was finally set to the temple gates, leading to the eventual destruction of the magnificent sanctuary in AD 70.'
+  - where: 'note 1:3 “Not one stone upon this temple”'
+    claim: 'Matthew 24:2 lacks “upon this temple”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/24?lang=eng'
+    quote: 'There shall not be left here one stone upon another, that shall not be thrown down.'
+
+  - where: 'note 1:4 “Two questions, answered one after the other”'
+    claim: 'In Matthew the two questions can be read as answered at once; the challenge is whether the events were to be at the same time'
+    key: jackson-sign-thy-coming
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/what-sign-thy-coming'
+    quote: 'In all three synoptic accounts, Jesus’s words can be understood as answering both questions simultaneously, treating the two questions almost as one.'
+  - where: 'note 1:4 “Two questions, answered one after the other”'
+    claim: 'The dividing line is in the middle of verse 21; the manuscript has a paragraph break there'
+    key: jackson-sign-thy-coming
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/what-sign-thy-coming'
+    quote: 'in the middle of verse 21 in Joseph Smith—Matthew, between “concerning the Jews” and “and again.” In modern editions of the Pearl of Great Price, prepared before Latter-day Saints had access to the original manuscripts, the break is in the middle of a sentence.'
+  - where: 'note 1:4 “Two questions, answered one after the other”'
+    claim: 'The first answer is verses 5–21a, the second 21b–55'
+    key: jackson-jst-new-testament
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/joseph-smiths-translation-new-testament'
+    quote: 'The first, dealing primarily with circumstances in the first century AD, is answered in verses 5–21a. The second, dealing with the end times, is answered in verses 21b–55.'
+  - where: 'note 1:4 “Two questions, answered one after the other”'
+    claim: 'The apostles seem to have wondered whether the two events went together'
+    key: ludlow-first-jewish-revolt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/first-jewish-revolt-against-rome'
+    quote: 'It seems they wondered if the two events went together: the destruction of the temple and Jesus’s return leading to the end of the world.'
+  - where: 'note 1:4 “Two questions, answered one after the other”'
+    claim: 'Matthew 24:3 reads the questions without naming the temple and the Jews'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/24?lang=eng'
+    quote: 'Tell us, when shall these things be? and what shall be the sign of thy coming, and of the end of the world?'
+
+  - where: 'note 1:4 “The end of the world”'
+    claim: 'Joseph Smith wrote in December 1835 that the end of the world means the destruction of the wicked'
+    key: jsp-letter-elders-1835-12
+    url: 'https://www.josephsmithpapers.org/paper-summary/letter-to-the-elders-of-the-church-30-november-1-december-1835/3'
+    quote: 'therefore it is better to let them grow together until the harvest, or the end of the world, which means the destruction of the wicked; which is not yet fulfilled'
+  - where: 'note 1:4 “The end of the world”'
+    claim: 'The letter was published in the Messenger and Advocate, December 1835'
+    key: jsp-letter-elders-1835-12
+    url: 'https://www.josephsmithpapers.org/paper-summary/letter-to-the-elders-of-the-church-30-november-1-december-1835/1'
+    quote: 'Letter to the Elders of the Church, 30 November–1 December 1835, Page 225'
+  - where: 'note 1:4 “The end of the world”'
+    claim: 'The end of the wicked is the end of the world; the end of the earth is a different matter'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: 'The end of the wicked—that is, those who will be cut off from among the people—is the end of the world, this telestial world (refer back to verse 4). The end of the earth itself is a different matter.'
+
+  - where: 'note 1:8 “A clause restored in today’s edition”'
+    claim: 'The 1921 edition reads “and shall betray one another;” in verse 8'
+    key: pgp-1921
+    url: 'https://archive.org/download/pearlofgreatpric0000jose_d8d6/pearlofgreatpric0000jose_d8d6_djvu.txt'
+    quote: 'And then shall many be of- fended, and shall betray one an- other;'
+  - where: 'note 1:8 “A clause restored in today’s edition”'
+    claim: 'The current edition adds “and shall hate one another”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-m/1?lang=eng'
+    quote: 'And then shall many be offended, and shall betray one another, and shall hate one another;'
+  - where: 'note 1:8 “A clause restored in today’s edition”'
+    claim: 'The 1981 edition restored a clause lost when John Whitmer copied NT2, his eye skipping from “another” to “another”'
+    key: jackson-moses-jsm
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/book-moses-joseph-smith-matthew'
+    quote: 'The 1981 Joseph Smith—Matthew also restored a clause that was lost in 1831, correcting a haplography. When John Whitmer copied the dictated text while creating NT2, his eyes skipped from the word another to the same word later in the line'
+  - where: 'note 1:8 “A clause restored in today’s edition”'
+    claim: 'Matthew 24:10 has the clause'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/24?lang=eng'
+    quote: 'And then shall many be offended, and shall betray one another, and shall hate one another.'
+
+  - where: 'note 1:9 “False prophets in besieged Jerusalem”'
+    claim: 'Jesus may be alluding to Zealot leaders and others who misled the people'
+    key: ludlow-first-jewish-revolt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/first-jewish-revolt-against-rome'
+    quote: 'Perhaps here he is alluding to the leaders of the Zealots and others who led the people astray through their charismatic but misguided leadership.'
+  - where: 'note 1:9 “False prophets in besieged Jerusalem”'
+    claim: 'Josephus: a false prophet caused the death of those in the burning cloister; many false prophets were suborned by the tyrants'
+    key: josephus-war
+    url: 'http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0148%3Abook%3D6%3Awhiston+chapter%3D5%3Awhiston+section%3D2'
+    quote: 'A false prophet 1 was the occasion of these people''s destruction, who had made a public proclamation in the city that very day, that God commanded them to get upon the temple, and that there they should receive miraculous signs of their deliverance.'
+  - where: 'note 1:9 “False prophets in besieged Jerusalem”'
+    claim: 'About six thousand had fled to the cloister; none escaped'
+    key: josephus-war
+    url: 'http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0148%3Abook%3D6%3Awhiston+chapter%3D5%3Awhiston+section%3D2'
+    quote: 'whither the women and children, and a great mixed multitude of the people, fled, in number about six thousand.'
+  - where: 'note 1:9 “False prophets in besieged Jerusalem”'
+    claim: 'The false prophets were put up to keep people from deserting'
+    key: josephus-war
+    url: 'http://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0148%3Abook%3D6%3Awhiston+chapter%3D5%3Awhiston+section%3D2'
+    quote: 'Now there was then a great number of false prophets suborned by the tyrants to impose on the people, who denounced this to them, that they should wait for deliverance from God; and this was in order to keep them from deserting'
+  - where: 'note 1:9 “False prophets in besieged Jerusalem”'
+    claim: 'The factions’ cruelty to their own people witnesses that the love of many waxed cold'
+    key: ludlow-first-jewish-revolt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/first-jewish-revolt-against-rome'
+    quote: 'the violent actions and cruel treatment of even their fellow Jews surely witness that the love of many waxed cold as Jesus said it would (see Joseph Smith—Matthew 1:10).'
+
+  - where: 'note 1:12 “The abomination, and where the disciples stand”'
+    claim: 'In Matthew 24:15 the abomination stands in the holy place'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/24?lang=eng'
+    quote: 'When ye therefore shall see the abomination of desolation, spoken of by Daniel the prophet, stand in the holy place, (whoso readeth, let him understand:)'
+  - where: 'note 1:12 “The abomination, and where the disciples stand”'
+    claim: 'First fulfillment: the Roman siege under Titus, A.D. 70; second: Jerusalem again under siege'
+    key: bd-abomination-of-desolation
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abomination-of-desolation?lang=eng'
+    quote: 'Conditions of desolation, born of abomination and wickedness, were to occur twice in fulfillment of Daniel’s words. The first was to be when the Roman legions under Titus, in A.D. 70, laid siege to Jerusalem'
+  - where: 'note 1:12 “The abomination, and where the disciples stand”'
+    claim: 'The second fulfillment (JS—M 1:32): Jerusalem again under siege'
+    key: bd-abomination-of-desolation
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abomination-of-desolation?lang=eng'
+    quote: 'That is, Jerusalem again will be under siege.'
+  - where: 'note 1:12 “The abomination, and where the disciples stand”'
+    claim: 'The holy place is not the temple but places God designates for refuge'
+    key: ludlow-first-jewish-revolt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/first-jewish-revolt-against-rome'
+    quote: 'The only way to avoid the impending destruction, Jesus taught, is to stand in the holy place—not the Jerusalem temple, because it will be destroyed, but places designated by God for spiritual and physical refuge.'
+  - where: 'note 1:12 “The abomination, and where the disciples stand”'
+    claim: 'The added phrase defines the abomination as the destruction of Jerusalem'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: 'The Prophet Joseph Smith added a defining statement into the verse: the abomination of desolation refers to the destruction of Jerusalem.'
+
+  - where: 'note 1:13 “The flight from Judea”'
+    claim: 'Early Christian tradition: the Jerusalem Christians fled around the beginning of the revolt to Pella, a city of the Decapolis'
+    key: ludlow-first-jewish-revolt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/first-jewish-revolt-against-rome'
+    quote: 'the Christian inhabitants of Jerusalem fled around the beginning of the revolt and made their way east across the Jordan River and north to Pella, one of the cities of the Decapolis.'
+  - where: 'note 1:13 “The flight from Judea”'
+    claim: 'The tradition says they were warned by revelation'
+    key: ludlow-first-jewish-revolt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/first-jewish-revolt-against-rome'
+    quote: 'The members of the Jerusalem church, by means of an oracle given by revelation to acceptable persons there, were ordered to leave the City before the war began and settle in a town in Peraea called Pella.'
+  - where: 'note 1:13 “The flight from Judea”'
+    claim: 'The move is believed to have been in A.D. 66, almost four years before the fall'
+    key: horton-jsm
+    url: 'https://rsc.byu.edu/pearl-great-price-revelations-god/joseph-smith-matthew-profiting-prophecy'
+    quote: 'Believed to have taken place in A.D. 66, the move to Pella occurred almost four years before the fall of Jerusalem.'
+  - where: 'note 1:13 “The flight from Judea”'
+    claim: 'The flight could have answered Jesus’s injunction; some scholars question the tradition'
+    key: ludlow-first-jewish-revolt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/first-jewish-revolt-against-rome'
+    quote: 'This flight could have been in response to Jesus’s prophetic injunction to flee during the destruction of Jerusalem (Matthew 24:16). While these early Christian sources were earlier deemed reliable, some scholars today question their veracity.'
+  - where: 'note 1:13 “The flight from Judea”'
+    claim: 'They doubt Christians could move freely during the suppression'
+    key: ludlow-first-jewish-revolt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/first-jewish-revolt-against-rome'
+    quote: 'They doubt that the Christians were able to move freely through the land when the Romans were suppressing a rebellion'
+
+  - where: 'note 1:18 “The siege of Jerusalem”'
+    claim: 'A seven-month siege by four legions under Titus; the inhabitants starved'
+    key: ludlow-first-jewish-revolt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/first-jewish-revolt-against-rome'
+    quote: 'During the seven-month siege by four Roman legions, the Zealots became more desperate in their efforts to turn their compatriots to their cause and even resorted to burning the city’s food supply to force others to join the fight.'
+  - where: 'note 1:18 “The siege of Jerusalem”'
+    claim: 'The inhabitants starved, tried to escape, or waited'
+    key: ludlow-first-jewish-revolt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/first-jewish-revolt-against-rome'
+    quote: 'With little food and under siege, the inhabitants of Jerusalem starved, tried to escape, or waited for the inevitable end.'
+  - where: 'note 1:18 “The siege of Jerusalem”'
+    claim: 'The revolt was an enormously tragic event for the Jewish people'
+    key: ludlow-first-jewish-revolt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/first-jewish-revolt-against-rome'
+    quote: 'The First Jewish Revolt in ca. AD 66 was an enormously tragic event for the Jewish people and the city of Jerusalem, resulting in the loss of many lives and the destruction of the temple.'
+  - where: 'note 1:18 “The siege of Jerusalem”'
+    claim: 'The Lord shortens the days for the elect’s sake so not everyone is destroyed'
+    key: ludlow-first-jewish-revolt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/first-jewish-revolt-against-rome'
+    quote: 'But as terrible as those sorrows will be, the Lord will shorten their days for the elect’s sake according to the covenant so not everyone will be destroyed (1:19–20).'
+  - where: 'note 1:18 “The siege of Jerusalem”'
+    claim: 'Matthew 24:21 reads “since the beginning of the world”; 24:8 “the beginning of sorrows” follows the wars and famines'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/24?lang=eng'
+    quote: 'For then shall be great tribulation, such as was not since the beginning of the world to this time, no, nor ever shall be.'
+
+  - where: 'note 1:22 “The elect according to the covenant”'
+    claim: 'The elect are those who love God with all their hearts'
+    key: gs-elect
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/gs/elect?lang=eng'
+    quote: 'The elect are those who love God with all their hearts and live lives that are pleasing to Him.'
+  - where: 'note 1:22 “The elect according to the covenant”'
+    claim: 'D&C 29:7 and 33:6 describe the elect; the footnote to “covenant” in verse 20 points to 2 Ne. 30:2'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/33?lang=eng'
+    quote: 'And even so will I gather mine elect from the four quarters of the earth, even as many as will believe in me, and hearken unto my voice.'
+  - where: 'note 1:22 “The elect according to the covenant”'
+    claim: 'The Church’s footnote on “covenant” in verse 20 points to 2 Ne. 30:2'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-m/1?lang=eng'
+    quote: '20b “covenant”: 2 Ne. 30:2; 3 Ne. 21:22–24.'
+  - where: 'note 1:22 “The elect according to the covenant”'
+    claim: 'The Lord covenants with those who repent and believe in his Son'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/30?lang=eng'
+    quote: 'for the Lord covenanteth with none save it be with them that repent and believe in his Son, who is the Holy One of Israel.'
+  - where: 'note 1:22 “The elect according to the covenant”'
+    claim: 'He taught these things for the sake of His Saints, the elect, the covenant people'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: 'Jesus taught all these things for the sake of His Saints, the elect, the covenant people.'
+  - where: 'note 1:22 “The elect according to the covenant”'
+    claim: 'Matthew 24:22, 24 lack “according to the covenant”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/24?lang=eng'
+    quote: 'And except those days should be shortened, there should no flesh be saved: but for the elect’s sake those days shall be shortened.'
+
+  - where: 'note 1:27 “The eagles and the gathering”'
+    claim: 'Matthew leaves the lesson of the saying to be surmised; the translation explains it as the gathering of the elect'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: 'The King James text leaves the reader to surmise what the lesson of this analogy might be, but Joseph Smith—Matthew includes a simple explanation'
+  - where: 'note 1:27 “The eagles and the gathering”'
+    claim: 'Matthew 24:28 has the saying alone'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/24?lang=eng'
+    quote: 'For wheresoever the carcase is, there will the eagles be gathered together.'
+  - where: 'note 1:27 “The eagles and the gathering”'
+    claim: 'JST Luke 17:37 explains the saying of the gathering of the saints'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-luke/17?lang=eng'
+    quote: 'Wheresoever the body is gathered; or, in other words, whithersoever the saints are gathered, thither will the eagles be gathered together; or, thither will the remainder be gathered together.'
+  - where: 'note 1:27 “The eagles and the gathering”'
+    claim: 'One reading: the carcase is the church, the eagles the saints, gathered in holy places'
+    key: horton-jsm
+    url: 'https://rsc.byu.edu/pearl-great-price-revelations-god/joseph-smith-matthew-profiting-prophecy'
+    quote: 'holy places are found wherever righteous saints gather together. In the words of the prophecy, “wheresoever the carcase [the church] is, there will the eagles [the saints] be gathered together”'
+
+  - where: 'note 1:29 “Signs moved to the last days, and signs given twice”'
+    claim: 'Relocation and repetition: wars, famines, pestilences, earthquakes moved later; abounding iniquity repeated'
+    key: jackson-sign-thy-coming
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/what-sign-thy-coming'
+    quote: 'Thus “wars and rumors of wars,” kingdoms fighting against kingdoms, famines, pestilences, and earthquakes are moved from early in the chapter to later, giving them a last-days setting.'
+  - where: 'note 1:29 “Signs moved to the last days, and signs given twice”'
+    claim: 'Repetition shows them to be characteristics of both periods'
+    key: jackson-sign-thy-coming
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/what-sign-thy-coming'
+    quote: 'Abounding iniquity and the preaching of the gospel to the world are repeated, showing them to be characteristics of both periods.'
+  - where: 'note 1:29 “Signs moved to the last days, and signs given twice”'
+    claim: 'Wars and the elect’s sake are repeated within the second answer'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: 'Foreshadowing of wars and rumors of wars is a repetition. So also is the Lord’s declaration that He is speaking for the elect’s sake.'
+  - where: 'note 1:29 “Signs moved to the last days, and signs given twice”'
+    claim: 'In Matthew 24:6–7 wars and famines come early'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/24?lang=eng'
+    quote: 'For nation shall rise against nation, and kingdom against kingdom: and there shall be famines, and pestilences, and earthquakes, in divers places.'
+  - where: 'note 1:29 “Signs moved to the last days, and signs given twice”'
+    claim: 'The abomination is fulfilled twice'
+    key: bd-abomination-of-desolation
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/abomination-of-desolation?lang=eng'
+    quote: 'Conditions of desolation, born of abomination and wickedness, were to occur twice in fulfillment of Daniel’s words.'
+
+  - where: 'note 1:30 “Many or men”'
+    claim: 'The manuscripts read “men”; the 1878–1921 editions “many”; 1981 restored “men”'
+    key: jackson-moses-jsm
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/book-moses-joseph-smith-matthew'
+    quote: 'It corrected an error that came into the text in the 1878 edition:'
+  - where: 'note 1:30 “Many or men”'
+    claim: 'NT1 and NT2 read “the love of men shall wax cold”'
+    key: jackson-moses-jsm
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/book-moses-joseph-smith-matthew'
+    quote: 'JST (NT1, NT2) “the love of men shall wax cold” (Joseph Smith—Matthew 1:30)'
+  - where: 'note 1:30 “Many or men”'
+    claim: 'The 1921 edition reads “many” in verse 30'
+    key: pgp-1921
+    url: 'https://archive.org/download/pearlofgreatpric0000jose_d8d6/pearlofgreatpric0000jose_d8d6_djvu.txt'
+    quote: 'the love of many shall wax cold; but he that shall not be overcome, the same shall be saved.'
+  - where: 'note 1:30 “Many or men”'
+    claim: 'The current edition reads “men”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-m/1?lang=eng'
+    quote: 'And again, because iniquity shall abound, the love of men shall wax cold; but he that shall not be overcome, the same shall be saved.'
+
+  - where: 'note 1:34 “Which generation”'
+    claim: 'The ancient generation passed; some explained it as John not dying or as a dispensation'
+    key: horton-jsm
+    url: 'https://rsc.byu.edu/pearl-great-price-revelations-god/joseph-smith-matthew-profiting-prophecy'
+    quote: 'The problem is explicit—that ancient generation has long since passed and some of these things (prophecies) have not yet come to pass.'
+  - where: 'note 1:34 “Which generation”'
+    claim: '“This generation” refers to the generation in which the events transpire'
+    key: horton-jsm
+    url: 'https://rsc.byu.edu/pearl-great-price-revelations-god/joseph-smith-matthew-profiting-prophecy'
+    quote: 'This clearly indicates that “this generation” refers to the generation in which the particular events are to transpire, i.e., the last days.'
+  - where: 'note 1:34 “Which generation”'
+    claim: 'Matthew 24:34 reads without the qualifying clause'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/24?lang=eng'
+    quote: 'Verily I say unto you, This generation shall not pass, till all these things be fulfilled.'
+  - where: 'note 1:34 “Which generation”'
+    claim: 'D&C 45:21 and 45:30 speak of “this generation of Jews” and “that generation”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/45?lang=eng'
+    quote: 'And it shall come to pass, that this generation of Jews shall not pass away until every desolation which I have told you concerning them shall come to pass.'
+
+  - where: 'note 1:36 “The sign of the Son of Man”'
+    claim: 'Joseph Smith in 1843: one grand sign; the world will say it is a planet or comet; the Son of Man will come as the sign, as the light of the morning'
+    key: jsp-discourse-1843-04-06-b
+    url: 'https://www.josephsmithpapers.org/paper-summary/discourse-6-april-1843-b-as-reported-by-willard-richards/13'
+    quote: 'then one grand sign of the Son of the son of man in heaven.—18 but what will the world. do? they will say it is a planet. a comet. &c— consequently the son of man will come as the sign of coming of the son of man.'
+  - where: 'note 1:36 “The sign of the Son of Man”'
+    claim: 'The report closes with the light of the morning out of the East'
+    key: jsp-discourse-1843-04-06-b
+    url: 'https://www.josephsmithpapers.org/paper-summary/discourse-6-april-1843-b-as-reported-by-willard-richards/13'
+    quote: 'the son of man will come as the sign of coming of the son of man. is as the light of the morning cometh out of the East.'
+  - where: 'note 1:36 “The sign of the Son of Man”'
+    claim: 'Matthew 24:27 reads “lightning”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/24?lang=eng'
+    quote: 'For as the lightning cometh out of the east, and shineth even unto the west; so shall also the coming of the Son of man be.'
+  - where: 'note 1:36 “The sign of the Son of Man”'
+    claim: 'The verse itself defines the sign: they shall see the Son of Man coming'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: 'the verse itself as expanded by the Lord through the Prophet Joseph Smith defines and clarifies the subject of the sign: “They shall see the Son of Man coming in the clouds of heaven, with power and great glory.”'
+
+  - where: 'note 1:36 “The sign of the Son of Man”'
+    claim: 'The one grand sign, Joseph Smith taught, is the Lord Himself'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: 'The one grand sign, Joseph Smith taught, is the Lord Himself.'
+
+  - where: 'note 1:37 “Treasuring up His word”'
+    claim: 'Matthew 24:31 has no promise against deception'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/24?lang=eng'
+    quote: 'And he shall send his angels with a great sound of a trumpet, and they shall gather together his elect from the four winds, from one end of heaven to the other.'
+  - where: 'note 1:37 “Treasuring up His word”'
+    claim: 'Those who treasure up Christ’s word will avoid deception because they will recognize the signs'
+    key: jackson-sign-thy-coming
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/what-sign-thy-coming'
+    quote: 'those who would prepare themselves for that event by treasuring up Christ’s word, by being wise, receiving the truth, standing in holy places, and taking the Holy Spirit for their guide will avoid deception because they will recognize the signs of his coming and will know that he is near.'
+  - where: 'note 1:37 “Treasuring up His word”'
+    claim: 'Treasuring is more than reading or studying; it is a promise'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: 'In fact, He puts it in the form of a promise: “Whoso treasureth up [not just reads, or even studies, but treasures up] my word, shall not be deceived.”'
+
+  - where: 'note 1:38 “The fig tree tells the season, not the day”'
+    claim: 'The fig tree puts out its first leaves in late winter, signaling the warm season'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: 'During late winter (usually in March), the fig tree issues its first tiny leaves, signaling the beginning of the warm season.'
+  - where: 'note 1:38 “The fig tree tells the season, not the day”'
+    claim: 'The Lord has not revealed when, but has revealed the signs'
+    key: topics-second-coming
+    url: 'https://www.churchofjesuschrist.org/study/manual/gospel-topics/second-coming-of-jesus-christ?lang=eng'
+    quote: 'The Lord has not revealed exactly when He will come again'
+  - where: 'note 1:38 “The fig tree tells the season, not the day”'
+    claim: 'D&C 45:37–38 gives the parable in the last days'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/45?lang=eng'
+    quote: 'Even so it shall be in that day when they shall see all these things, then shall they know that the hour is nigh.'
+  - where: 'note 1:38 “The fig tree tells the season, not the day”'
+    claim: 'Matthew 24:33 reads “ye … know that it is near”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/24?lang=eng'
+    quote: 'So likewise ye, when ye shall see all these things, know that it is near, even at the doors.'
+  - where: 'note 1:38 “The fig tree tells the season, not the day”'
+    claim: 'He wants us ready always, not for a date'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: 'He does not want us to be prepared for a certain date; He wants us to be ready always.'
+
+  - where: 'note 1:44 “As in the days of Noah: taken and left”'
+    claim: 'Gross wickedness before the world is cleansed; people caught suddenly'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: 'The comparison with the last days of Noah is most appropriate—gross wickedness before the world is cleansed—back then by water'
+  - where: 'note 1:44 “As in the days of Noah: taken and left”'
+    claim: 'One reading: those taken are the Saints caught up to meet Him (D&C 88:96)'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: 'Fortunately, there is a clear and specific answer to the query about which situation is preferred. Doctrine & Covenants 88:96 indicates that “the Saints that are upon the earth, who are alive, shall be quickened and be caught up to meet him.”'
+
+  - where: 'note 1:54 “Meat in due season, and a servant cut asunder”'
+    claim: '“Meat” means food; the servant’s work is giving the household its food at the right time'
+    key: ellicott-matthew
+    url: 'https://biblehub.com/commentaries/ellicott/matthew/24.htm'
+    quote: 'To give them meat in due season.—Better, to give them their food.'
+  - where: 'note 1:54 “Meat in due season, and a servant cut asunder”'
+    claim: 'The wise servant must know the right food and the right season'
+    key: ellicott-matthew
+    url: 'https://biblehub.com/commentaries/ellicott/matthew/24.htm'
+    quote: 'The wise servant will seek to discover not only the right kind of food, but the right season for giving it.'
+  - where: 'note 1:54 “Meat in due season, and a servant cut asunder”'
+    claim: 'Cutting asunder was literally a punishment of Eastern kings; it seems chosen for its figurative fitness to a double-minded hypocrite'
+    key: ellicott-matthew
+    url: 'https://biblehub.com/commentaries/ellicott/matthew/24.htm'
+    quote: 'The form of punishment (one which, in its literal sense, belongs to the inventive cruelty of Eastern kings) would seem here to have been chosen for its figurative fitness. The man had been a hypocrite, double-minded, trying to serve two masters'
+  - where: 'note 1:54 “Meat in due season, and a servant cut asunder”'
+    claim: 'The faithful servants feed the Lord’s flock'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: 'They are the chosen servants who are feeding the flock and giving meat to the sheep of the Good Shepherd.'
+
+  - where: 'note 1:55 “The end of the wicked, and the prophecy of Moses”'
+    claim: 'Verse 55 is new and includes a prophecy of Moses'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: 'This is a new verse added by the Prophet Joseph Smith, and it includes a prophecy of Moses.'
+  - where: 'note 1:55 “The end of the wicked, and the prophecy of Moses”'
+    claim: 'In 3 Nephi Jesus quotes Moses: “cut off from among the people”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/3-ne/20?lang=eng'
+    quote: 'Behold, I am he of whom Moses spake, saying: A prophet shall the Lord your God raise up unto you of your brethren, like unto me; him shall ye hear in all things whatsoever he shall say unto you. And it shall come to pass that every soul who will not hear that prophet shall be cut off from among the people.'
+  - where: 'note 1:55 “The end of the wicked, and the prophecy of Moses”'
+    claim: 'Moroni quoted Acts 3:22–23, said that prophet was Christ, and that the cutting off was soon to come'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng'
+    quote: 'He said that that prophet was Christ; but the day had not yet come when “they who would not hear his voice should be cut off from among the people,” but soon would come.'
+  - where: 'note 1:55 “The end of the wicked, and the prophecy of Moses”'
+    claim: 'Acts 3:23 reads “destroyed from among the people”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/3?lang=eng'
+    quote: 'And it shall come to pass, that every soul, which will not hear that prophet, shall be destroyed from among the people.'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'All the signs point to the Second Coming'
+    key: jackson-sign-thy-coming
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/what-sign-thy-coming'
+    quote: 'all of the signs point to the crowning event—the Second Coming of Jesus.'
+  - where: 'christ'
+    claim: 'The wise who have the Spirit as guide and are not deceived abide the day'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/45?lang=eng'
+    quote: 'For they that are wise and have received the truth, and have taken the Holy Spirit for their guide, and have not been deceived—verily I say unto you, they shall not be hewn down and cast into the fire, but shall abide the day.'
+  - where: 'christ'
+    claim: 'The righteous need not fear the Second Coming or its signs'
+    key: topics-second-coming
+    url: 'https://www.churchofjesuschrist.org/study/manual/gospel-topics/second-coming-of-jesus-christ?lang=eng'
+    quote: 'The righteous need not fear the Second Coming or the signs that precede it.'
+
+  - where: 'christ'
+    claim: 'When all these things come to pass the promises will be fulfilled'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/45?lang=eng'
+    quote: 'Be not troubled, for, when all these things shall come to pass, ye may know that the promises which have been made unto you shall be fulfilled.'
+
+  # ---- explore ----
+  - where: 'explore'
+    claim: 'D&C 45, 29:9–27 and 88:87–97 parallel and add to the chapter'
+    key: ogden-prophecies-jsm
+    url: 'https://rsc.byu.edu/vol-3-no-1-2002/prophecies-promises-joseph-smith-matthew'
+    quote: '(See also D&C 45 for a parallel account of much of what appears in this chapter; D&C 29:9–27 and 88:87–97 provide additional details.)'
+  - where: 'explore'
+    claim: 'JST Luke 21 divides the sermon the same way, between verses 24 and 25'
+    key: jackson-sign-thy-coming
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/what-sign-thy-coming'
+    quote: 'A paragraph break and added text between verses 24 and 25 show the dividing line:'
+  - where: 'explore'
+    claim: 'The JST of Mark 13 copies the revised Matthew 24'
+    key: jackson-sign-thy-coming
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/what-sign-thy-coming'
+    quote: 'When the Prophet and his scribe arrived at that chapter, they did not revise the existing text but simply copied the revised text of Matthew 24 into the place of Mark 13 on the manuscript.'
+  - where: 'explore'
+    claim: 'After a few sentences unique to Mark, most of the Matthew account was inserted'
+    key: jackson-sign-thy-coming
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/what-sign-thy-coming'
+    quote: 'After some introductory sentences unique to Mark, Sidney Rigdon inserted all but the first and last passages of the Matthew account.'
