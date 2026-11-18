@@ -10,7 +10,7 @@ Related files: `OPEN-QUESTIONS.md` (what waits for the author, for every book).
 
 `node scripts/status.mjs joseph-smith-history` prints what the repository shows. What a script can't see:
 
-- **The book is in preview** (`status: preview` in `book.yaml`), written on the branch `worktree-pearl-of-great-price` with Joseph Smith—Matthew and the Articles of Faith. The author wants the three on the dev site, and inspected there, before they go to `main` (2026-11-17).
+- **The book is live** (2026-11-18, author: “Let's go live”), after the author inspected it on the dev site with Joseph Smith—Matthew, Joseph Smith—History and the Articles of Faith. **No theme pages:** each of the three books is one chapter, and a theme page follows an idea across many (author, 2026-11-18: “theme pages don't make sense for these books”); a theme that runs through them belongs to a page for the Pearl of Great Price volume.
 - **The chapter is not yet written.** It is written in three parts (see “How the chapter is written”).
 
 ## What the author has decided
@@ -57,7 +57,7 @@ Then one checker, one Codex reading and one reviewer, for the whole chapter, as 
 - **Places and people.** Church History Topics are readable for most (`…/study/history/topics/<slug>`): `palmyra-and-manchester`, `sacred-grove-and-smith-family-farm`, `joseph-sr-and-lucy-mack-smith-family` (with a section on Alvin), `emma-hale-smith`, `oliver-cowdery`, `angel-moroni`, `gold-plates`, `martin-harriss-consultations-with-scholars`, `treasure-seeking`, `seer-stones`, `joseph-smiths-1826-trial`, `awakenings-and-revivals`, `christian-churches-in-joseph-smiths-day`, `restoration-of-the-aaronic-priesthood`, `restoration-of-the-melchizedek-priesthood`. There is no topic for Harmony, Cumorah, Josiah Stowell or Alvin by name. *Saints*, volume 1, chapters 1–7, at `…/study/history/saints-v1/<slug>` (`01-ask-in-faith` to `07-fellow-servants`; the `…/history/saints/…` path does not load), are the Church's narrative; cite them for a fact, and follow their notes to the documents.
 - **Persecution.** Say what the text says and what a source read adds; name no person or church beyond the text, and say nothing against a denomination today (`STANDARDS.md` §3). The Methodist preacher of 1:21 is not named by the text; a historian's identification comes in only as that historian's.
 - **The site's other books.** Moroni's quotations: `[[Mal. 3:1]]` and the Malachi 4 notes (Malachi's brief has a table of the wording; link, don't copy); `[[Joel 2:28]]` (“Peter's day and Moroni's”); `[[Isa. 11:1]]`; `[[Deut. 18:15]]` for the prophet like unto Moses (Acts 3 is not on the site). Isaiah 29:11–12, the sealed book, is on the site: link it at 1:65. Run `node scripts/occurrences.mjs all "JS—H" --site` before writing, and don't say again what a note elsewhere says.
-- **Theme candidates.** Report what runs across the book (asking of God and the answer; being prepared; the testimony that persecution could not change; light). The coordinator adds them to `THEME-CANDIDATES.md` after the author chooses.
+- **Theme candidates.** None: the book has no theme pages (above).
 
 ## Contested and sensitive questions
 
@@ -98,7 +98,7 @@ Searched 2026-11-17 for this brief: the Joseph Smith Papers, the Church's histor
 
 Copy every quoted phrase from `data/kjv/joseph-smith-history.json` or the extra file.
 
-## Checks while the book is in preview
+## Checks on a chapter
 
 ```sh
 node scripts/check-chapter.mjs joseph-smith-history 1

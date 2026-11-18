@@ -10,7 +10,7 @@ Related files: `OPEN-QUESTIONS.md` (what waits for the author, for every book).
 
 `node scripts/status.mjs joseph-smith-matthew` prints what the repository shows. What a script can't see:
 
-- **The book is in preview** (`status: preview` in `book.yaml`), written on the branch `worktree-pearl-of-great-price` with Joseph Smith—History and the Articles of Faith. The author wants the three on the dev site, and inspected there, before they go to `main` (2026-11-17: “I want these pushed to dev and inspected before going to main”).
+- **The book is live** (2026-11-18, author: “Let's go live”), after the author inspected it on the dev site with Joseph Smith—Matthew, Joseph Smith—History and the Articles of Faith. **No theme pages:** each of the three books is one chapter, and a theme page follows an idea across many (author, 2026-11-18: “theme pages don't make sense for these books”); a theme that runs through them belongs to a page for the Pearl of Great Price volume.
 - **The chapter is not yet written.**
 
 ## What the author has decided
@@ -85,7 +85,7 @@ Searched 2026-11-17 for this brief: the Religious Studies Center, BYU Studies (n
 
 Both are among the repairs the 1981 edition made from the manuscripts: the clause in 1:8 had been lost in copying, and 1:30 restored the manuscript's “men” (Jackson, “The Book of Moses and Joseph Smith—Matthew,” paragraphs 84–89; read them before writing). **Proposed:** each verse gets a short Context note saying what today's edition reads, that it restores the manuscript, and where the source says so, as the Moses notes on 1:14 and 1:19 do. The 1902 printing (`.cache/pgp/pearlgreatprice00unkngoog.txt`) agrees with 1921 in both. Copy every quoted phrase from `data/kjv/joseph-smith-matthew.json`.
 
-## Checks while the book is in preview
+## Checks on a chapter
 
 ```sh
 node scripts/check-chapter.mjs joseph-smith-matthew 1

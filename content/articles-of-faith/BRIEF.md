@@ -10,7 +10,7 @@ Related files: `OPEN-QUESTIONS.md` (what waits for the author, for every book).
 
 `node scripts/status.mjs articles-of-faith` prints what the repository shows. What a script can't see:
 
-- **The book is in preview** (`status: preview` in `book.yaml`), written on the branch `worktree-pearl-of-great-price` with Joseph Smith—Matthew and Joseph Smith—History.
+- **The book is live** (2026-11-18, author: “Let's go live”), after the author inspected it on the dev site with Joseph Smith—Matthew, Joseph Smith—History and the Articles of Faith. **No theme pages:** each of the three books is one chapter, and a theme page follows an idea across many (author, 2026-11-18: “theme pages don't make sense for these books”); a theme that runs through them belongs to a page for the Pearl of Great Price volume.
 - **The chapter is not yet written.**
 
 ## What the author has decided
@@ -91,7 +91,7 @@ Searched 2026-11-17 for this brief: the Religious Studies Center, BYU Studies, S
 
 Copy every quoted phrase from `data/kjv/articles-of-faith.json`. The 1842 wording is on the Joseph Smith Papers pages; see “The wording since 1842” above.
 
-## Checks while the book is in preview
+## Checks on a chapter
 
 ```sh
 node scripts/check-chapter.mjs articles-of-faith 1
