@@ -1,0 +1,560 @@
+chapter: 1
+claims:
+  # ---- when ----
+  - where: 'when'
+    claim: 'The Articles were published in the Times and Seasons on 1 March 1842 with the Wentworth Letter'
+    key: pgp-introduction
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/introduction?lang=eng'
+    quote: 'A statement by Joseph Smith published in the Times and Seasons March 1, 1842, in company with a short history of the Church that was popularly known as the Wentworth Letter.'
+  - where: 'when'
+    claim: 'The letter was written from Nauvoo'
+    key: jsp-church-history-1842
+    url: 'https://www.josephsmithpapers.org/paper-summary/church-history-1-march-1842/4'
+    quote: 'We have commenced to build a city called “Nauvoo” in Hancock co., we number from six to eight thousand here'
+
+  # ---- setting ----
+  - where: 'setting'
+    claim: 'Wentworth asked for the sketch to give to Barstow, who was writing a history of New Hampshire; Joseph asked that it be published entire'
+    key: jsp-church-history-1842
+    url: 'https://www.josephsmithpapers.org/paper-summary/church-history-1-march-1842/1'
+    quote: 'At the request of Mr. John Wentworth, Editor, and Proprietor of the “Chicago Democrat,” I have written the following sketch of the rise, progress, persecution, and faith of the Latter-Day Saints … who is writing the history of New Hampshire … ungarnished, and without misrepresentation.'
+  - where: 'setting'
+    claim: 'The letter gave his experiences, the Book of Mormon, a history of the Church, and closed with thirteen unnumbered statements'
+    key: benson-articles-faith
+    url: 'https://rsc.byu.edu/joseph-smith-doctrinal-restoration/articles-faith'
+    quote: 'Joseph Smith gave a brief overview of his own religious experiences, the contents of the Book of Mormon, and a general history of the Church … The document, called by Latter-day Saints the Wentworth Letter, concluded with a list of thirteen unnumbered statements'
+  - where: 'setting'
+    claim: 'Written for a nonmember audience familiar with the Bible'
+    key: underwood-same-organization
+    url: 'https://rsc.byu.edu/go-ye-all-world/same-organization-existed-primitive-church'
+    quote: 'these statements were written for a nonmember audience, one familiar with the Bible and exposed to the primitivist sentiment of the day.'
+  - where: 'setting'
+    claim: 'Richards included them in the 1851 Pearl of Great Price; accepted as standard works in October 1880; sustained alone in October 1890 before the Manifesto'
+    key: gardner-articles-faith
+    url: 'https://rsc.byu.edu/foundations-restoration/articles-faith'
+    quote: 'In the October 1880 general conference of the Church, a revised form of Richards’s document was accepted by the membership of the Church as part of the standard works … Orson F. Whitney again presented the Articles of Faith by themselves for a sustaining vote just prior to reading a revelation'
+  - where: 'setting'
+    claim: 'Talmage’s study was commissioned and reviewed by the First Presidency'
+    key: gardner-articles-faith
+    url: 'https://rsc.byu.edu/foundations-restoration/articles-faith'
+    quote: 'in 1899, Elder James E. Talmage of the Quorum of Twelve Apostles published a series of lectures commissioned and reviewed by the First Presidency of the Church and other General Authorities'
+
+  # ---- thread ----
+  - where: 'thread'
+    claim: 'The Articles are declarative and make no effort to justify their principles'
+    key: welch-whittaker-1979
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1979/09/we-believe-development-of-the-articles-of-faith?lang=eng'
+    quote: 'Joseph Smith’s approach is declarative and affirmative. He makes no effort to justify these principles—they are firm statements which stand on their own merit.'
+  - where: 'thread'
+    claim: 'Several articles state beliefs that contrasted with commonly held doctrines of the day'
+    key: benson-articles-faith
+    url: 'https://rsc.byu.edu/joseph-smith-doctrinal-restoration/articles-faith'
+    quote: 'in the first ten articles of faith, Latter-day Saint beliefs contrast sharply with commonly held Christian doctrine like the nature of the Trinity, original sin, total depravity'
+  - where: 'thread'
+    claim: 'Most articles use words and phrases from Paul, making them accessible to Bible readers'
+    key: sc-knowhy-828
+    url: 'https://scripturecentral.org/knowhy/why-are-the-origins-of-the-articles-of-faith-important'
+    quote: 'most of these Articles of Faith make use of words and phrases that are found in the New Testament letters of the Apostle Paul, making these declarations accessible to readers of the Bible everywhere.'
+
+  # ---- note 1:1 Earlier lists ----
+  - where: 'note 1:1 “Earlier lists, and a plainer one”'
+    claim: 'Cowdery 1834, Joseph Young 1836, Orson Pratt 1840 and Orson Hyde 1842 had published summaries'
+    key: sc-knowhy-828
+    url: 'https://scripturecentral.org/knowhy/why-are-the-origins-of-the-articles-of-faith-important'
+    quote: 'Oliver Cowdery, Joseph Young, Orson Pratt, and Orson Hyde had each written such statements outlining the basic beliefs of the church'
+  - where: 'note 1:1 “Earlier lists, and a plainer one”'
+    claim: 'Hyde’s were essays; Pratt’s more verbose'
+    key: sc-knowhy-828
+    url: 'https://scripturecentral.org/knowhy/why-are-the-origins-of-the-articles-of-faith-important'
+    quote: 'Each article is an essay of some length, rather than a sentence or a paragraph'
+  - where: 'note 1:1 “Earlier lists, and a plainer one”'
+    claim: 'Joseph Smith probably stood behind the earlier formulations; not spontaneous'
+    key: welch-whittaker-1979
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1979/09/we-believe-development-of-the-articles-of-faith?lang=eng'
+    quote: 'it is equally necessary to recognize that the Prophet himself probably already stood closely behind those earlier formulations.'
+  - where: 'note 1:1 “Earlier lists, and a plainer one”'
+    claim: 'Reading the Articles as a reply to controversies is doubtful because they lack argumentative language'
+    key: welch-whittaker-1979
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1979/09/we-believe-development-of-the-articles-of-faith?lang=eng'
+    quote: 'This is doubtful, however, because Joseph Smith’s Articles lack the argumentative language commonly found in the earlier articles of faith. Apparently, he did not feel this was either the time or the place for pointing out the errors of other denominations.'
+  - where: 'note 1:1 “Earlier lists, and a plainer one”'
+    claim: 'Many of the articles state beliefs long debated in Christianity'
+    key: benson-articles-faith
+    url: 'https://rsc.byu.edu/joseph-smith-doctrinal-restoration/articles-faith'
+    quote: 'The Articles of Faith briefly outline central beliefs, many long debated in Christianity, and provide a starting point for pronouncing Latter-day Saint doctrine.'
+
+  # ---- note 1:1 Three named ----
+  - where: 'note 1:1 “Three named one by one”'
+    claim: 'Pratt’s 1840 list opened with the same words'
+    key: sc-knowhy-828
+    url: 'https://scripturecentral.org/knowhy/why-are-the-origins-of-the-articles-of-faith-important'
+    quote: 'First, We believe in God the Eternal Father, and in his Son Jesus Christ, and in the Holy Ghost [compare A of F 1], who bears record of them'
+  - where: 'note 1:1 “Three named one by one”'
+    claim: 'Joseph Young’s 1836 list did not identify God as the Father or the Holy Ghost as a member of the Godhead'
+    key: sc-knowhy-828
+    url: 'https://scripturecentral.org/knowhy/why-are-the-origins-of-the-articles-of-faith-important'
+    quote: 'God is not explicitly identified here as the eternal heavenly Father, and the Holy Ghost is not referred to as a member of the Godhead, as in the current Articles of Faith.'
+  - where: 'note 1:1 “Three named one by one”'
+    claim: 'The article professes faith in Christ’s Sonship; Latter-day Saints read it in light of the First Vision and D&C 130:22 as three separate beings, though the wording does not emphasize it'
+    key: benson-articles-faith
+    url: 'https://rsc.byu.edu/joseph-smith-doctrinal-restoration/articles-faith'
+    quote: 'Latter-day Saints familiar with First Vision accounts and other revelations received by Joseph Smith (see D&C 20:17–29; 130:22) understand this article to define the Godhead as three separate beings; in the wording, however, Joseph did not emphasize this fact.'
+  - where: 'note 1:1 “Three named one by one”'
+    claim: 'D&C 130:22 on the Father, Son and Holy Ghost'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/130?lang=eng'
+    quote: 'The Father has a body of flesh and bones as tangible as man’s; the Son also; but the Holy Ghost has not a body of flesh and bones, but is a personage of Spirit.'
+
+  # ---- note 1:2 ----
+  - where: 'note 1:2 “Our own sins, not Adam’s guilt”'
+    claim: 'Original sin defined; generally credited to Augustine; Article 2 rejects it'
+    key: benson-articles-faith
+    url: 'https://rsc.byu.edu/joseph-smith-doctrinal-restoration/articles-faith'
+    quote: 'Article 2 rejects the traditions of original sin, total depravity, and predestination. [9] The imputations of the sin of Adam to his posterity is called original sin. [10] This idea, generally credited to Augustine, teaches that all are born sinful and guilty'
+  - where: 'note 1:2 “Our own sins, not Adam’s guilt”'
+    claim: 'Pratt’s 1840 wording: all mankind brought under the curse by their first parents’ transgression, not their own sins'
+    key: sc-knowhy-828
+    url: 'https://scripturecentral.org/knowhy/why-are-the-origins-of-the-articles-of-faith-important'
+    quote: 'We believe that all mankind, by the transgression of their first parents, and not by their own sins, were brought under the curse and penalty of that transgression'
+  - where: 'note 1:2 “Our own sins, not Adam’s guilt”'
+    claim: 'Joseph Smith held to the fallenness of man; humans inherit a fallen nature but each is responsible for his own choices; Moses 6:55 read of mortal children in a fallen world'
+    key: benson-articles-faith
+    url: 'https://rsc.byu.edu/joseph-smith-doctrinal-restoration/articles-faith'
+    quote: 'Instead of original sin, the Prophet Joseph taught that while humans inherit a fallen nature, each individual is responsible for his or her own choices.'
+  - where: 'note 1:2 “Our own sins, not Adam’s guilt”'
+    claim: 'Moses 6:54–55 text'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/moses/6?lang=eng'
+    quote: 'the Son of God hath atoned for original guilt, wherein the sins of the parents cannot be answered upon the heads of the children'
+
+  # ---- note 1:3 ----
+  - where: 'note 1:3 “Saved from the Fall, and from our own sins”'
+    claim: 'Talmage: twofold effect of the atonement, general salvation and individual salvation conditioned on obedience'
+    key: talmage-articles-faith
+    url: 'https://archive.org/download/studyofarticleso0000jame/studyofarticleso0000jame_djvu.txt'
+    quote: 'The first effect is to secure to all man- kind alike, exemption from the penalty of the fall, thus providing a plan of General Salvation. The second effect is to open a way for Individual Salvation whereby mankind may secure remission of personal sins.'
+  - where: 'note 1:3 “Saved from the Fall, and from our own sins”'
+    claim: 'Talmage was one of the Twelve Apostles when the 1924 edition was published'
+    key: talmage-articles-faith
+    url: 'https://archive.org/download/studyofarticleso0000jame/studyofarticleso0000jame_djvu.txt'
+    quote: 'By JAMES E. TALMAGE One of the Twelve Apostles of the Church'
+  - where: 'note 1:3 “Saved from the Fall, and from our own sins”'
+    claim: '“All mankind may be saved” rejects limited atonement; grace preeminent, yet covenants required'
+    key: benson-articles-faith
+    url: 'https://rsc.byu.edu/joseph-smith-doctrinal-restoration/articles-faith'
+    quote: 'a rejection of Calvin’s notions of the predestination of the elect and a limited atonement. By uniting the two phrases … the grace of Christ and His work of salvation is preeminent. Humankind, however, must make and keep covenants with Christ in order to be saved.'
+
+  # ---- note 1:4 ----
+  - where: 'note 1:4 “Why the list stops at four”'
+    claim: '1842 wording of the fourth article'
+    key: jsp-church-history-1842
+    url: 'https://www.josephsmithpapers.org/paper-summary/church-history-1-march-1842/4'
+    quote: 'We believe that these ordinances are 1st, Faith in the Lord Jesus Christ; 2d, Repentance; 3d, Baptism by immersion for the remission of sins; 4th, Laying on of hands for the gift of the Holy Ghost.'
+  - where: 'note 1:4 “Why the list stops at four”'
+    claim: 'Minor changes since 1842, particularly in the fourth, fifth, sixth and tenth articles'
+    key: welch-whittaker-1979
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1979/09/we-believe-development-of-the-articles-of-faith?lang=eng'
+    quote: 'Except for certain minor changes, particularly in the fourth, fifth, sixth, and tenth articles, we still use these statements today as they originally appeared on 1 March 1842.'
+  - where: 'note 1:4 “Why the list stops at four”'
+    claim: 'Compare A of F 4 with Heb. 6:1–4'
+    key: welch-whittaker-1979
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1979/09/we-believe-development-of-the-articles-of-faith?lang=eng'
+    quote: 'or excerpting Pauline passages from the New Testament (compare A of F 1:4 with Heb. 6:1–4'
+  - where: 'note 1:4 “Why the list stops at four”'
+    claim: 'Pratt’s 1840 list called them the first conditions'
+    key: sc-knowhy-828
+    url: 'https://scripturecentral.org/knowhy/why-are-the-origins-of-the-articles-of-faith-important'
+    quote: 'These are the first conditions of the gospel… [compare A of F 4]'
+  - where: 'note 1:4 “Why the list stops at four”'
+    claim: 'Enduring to the end was not in article 4 but is mentioned in article 13; earlier lists had it'
+    key: reynolds-fifth-principle
+    url: 'https://rsc.byu.edu/vol-15-no-3-2014/fifth-principle-gospel'
+    quote: 'While enduring to the end was not recognized therein as a basic gospel principle in article 4, it did receive a mention in article 13: “We have endured many things, and we hope to be able to endure all things.”'
+  - where: 'note 1:4 “Why the list stops at four”'
+    claim: 'Nephi takes enduring to the end as a basic gospel requirement (2 Ne. 31:15–16)'
+    key: reynolds-fifth-principle
+    url: 'https://rsc.byu.edu/vol-15-no-3-2014/fifth-principle-gospel'
+    quote: 'Recognizing the supreme authority of the speaker, Nephi immediately states his own understanding of this principle as a basic gospel requirement'
+  - where: 'note 1:4 “Why the list stops at four”'
+    claim: 'The gift of the Holy Ghost by laying on of hands set the Saints apart from other churches of the day'
+    key: benson-articles-faith
+    url: 'https://rsc.byu.edu/joseph-smith-doctrinal-restoration/articles-faith'
+    quote: 'the fourth point, receipt of the gift of the Holy Ghost by the laying on of hands, provides a clear contrast. The Prophet Joseph declared that the gift of the Holy Ghost does not automatically follow baptism or hopeful prayers but is instead a priesthood ordinance'
+  - where: 'note 1:4 “Why the list stops at four”'
+    claim: 'Heb. 6:1–2 and 2 Ne. 31:15–16 text'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/31?lang=eng'
+    quote: 'He that endureth to the end, the same shall be saved.'
+
+  # ---- note 1:5 ----
+  - where: 'note 1:5 “Called by prophecy”'
+    claim: '1842 text puts “prophesy, and by laying on of hands” in quotation marks; endnote 30 gives 1 Tim. 4:14'
+    key: jsp-church-history-1842
+    url: 'https://www.josephsmithpapers.org/paper-summary/church-history-1-march-1842/4'
+    quote: 'We believe that a man must be called of God by “prophesy, and by laying on of hands”30 by those who are in authority'
+  - where: 'note 1:5 “Called by prophecy”'
+    claim: 'A month later the Times and Seasons glossed it: prophesy (revelation), a divine communication and a divinely appointed ordinance'
+    key: jsp-times-seasons-1842-04-01
+    url: 'https://www.josephsmithpapers.org/paper-summary/times-and-seasons-1-april-1842/10'
+    quote: 'And how were apostles, prophets, pastors, teachers, and evangelists chosen? by “prophesy (revelation) and by laying on of hands:”30—by a divine communication, and a divinely appointed ordinance'
+  - where: 'note 1:5 “Called by prophecy”'
+    claim: 'Benson: three requirements; set Saints apart from priesthood of all believers and self-anointed preachers'
+    key: benson-articles-faith
+    url: 'https://rsc.byu.edu/joseph-smith-doctrinal-restoration/articles-faith'
+    quote: '(1) an individual must be called prophetically, meaning by inspiration of the Holy Spirit; (2) this calling must be certified by a particular priesthood ordinance, the laying on of hands; and (3) the individual announcing the calling to the one called must have authority form God.'
+  - where: 'note 1:5 “Called by prophecy”'
+    claim: 'Democratization promoted self-anointed preachers and a priesthood of all believers'
+    key: benson-articles-faith
+    url: 'https://rsc.byu.edu/joseph-smith-doctrinal-restoration/articles-faith'
+    quote: 'The democratization of American Christianity, the expansion of popular sovereignty and egalitarian convictions, promoted self-anointed preachers and a “priesthood of all believers'
+  - where: 'note 1:5 “Called by prophecy”'
+    claim: '1 Tim. 4:14 text'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/1-tim/4?lang=eng'
+    quote: 'Neglect not the gift that is in thee, which was given thee by prophecy, with the laying on of the hands of the presbytery.'
+
+  # ---- note 1:6 same organization ----
+  - where: 'note 1:6 “The same organization, in what sense”'
+    claim: 'The list is Eph. 4:11 (JSP endnote 31)'
+    key: jsp-church-history-1842
+    url: 'https://www.josephsmithpapers.org/paper-summary/church-history-1-march-1842/4'
+    quote: 'We believe in the same organization that existed in the primitive church, viz: apostles, prophets, pastors, teachers, evangelists &c.31'
+  - where: 'note 1:6 “The same organization, in what sense”'
+    claim: 'Much claimed, perhaps too much; the purpose is to show how it can be the same'
+    key: underwood-same-organization
+    url: 'https://rsc.byu.edu/go-ye-all-world/same-organization-existed-primitive-church'
+    quote: 'In missionary work over the years, much has been claimed, perhaps too much, in the name of this article of faith.'
+  - where: 'note 1:6 “The same organization, in what sense”'
+    claim: 'Bible readers would recognize Paul’s words; “and so forth” suggestive, not exhaustive; terms best understood by function'
+    key: underwood-same-organization
+    url: 'https://rsc.byu.edu/go-ye-all-world/same-organization-existed-primitive-church'
+    quote: 'Yet the “and so forth” at the end of the article indicates he was being suggestive rather than exhaustive in his list. As will be seen, the terms used in Ephesians 4:11 and the sixth article of faith are generally best understood in terms of function rather than position.'
+  - where: 'note 1:6 “The same organization, in what sense”'
+    claim: 'The same letter said the Book of Mormon peoples had pastors and evangelists, which it does not name'
+    key: underwood-same-organization
+    url: 'https://rsc.byu.edu/go-ye-all-world/same-organization-existed-primitive-church'
+    quote: 'in the Book of Mormon, no ancient American servants of the Lord are designated “pastors” or “evangelists.” [5] The Prophet seems more concerned with affirming the nature of the organization in the primitive Church than with its nomenclature.'
+  - where: 'note 1:6 “The same organization, in what sense”'
+    claim: 'What is the same is function: authorized servants, inspired, shepherding, teaching, spreading the good news'
+    key: underwood-same-organization
+    url: 'https://rsc.byu.edu/go-ye-all-world/same-organization-existed-primitive-church'
+    quote: 'He continues to send forth authorized servants of various kinds (as apostles) who act under the inspiration of the Holy Ghost (as prophets) to shepherd His Saints (as pastors), to instruct them in the word of life (as teachers), and to spread the good news'
+  - where: 'note 1:6 “The same organization, in what sense”'
+    claim: 'The Lord is free to adjust the outer garment'
+    key: underwood-same-organization
+    url: 'https://rsc.byu.edu/go-ye-all-world/same-organization-existed-primitive-church'
+    quote: 'A loving Lord is thus free to constantly adjust the Church’s outer garment so that it best serves its unchanging inner commitment'
+  - where: 'note 1:6 “The same organization, in what sense”'
+    claim: 'Today’s text reads “namely … and so forth” where the 1921 has “viz. … etc.”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/a-of-f/1?lang=eng'
+    quote: 'We believe in the same organization that existed in the Primitive Church, namely, apostles, prophets, pastors, teachers, evangelists, and so forth.'
+
+  # ---- note 1:6 pastors and evangelists ----
+  - where: 'note 1:6 “Pastors and evangelists”'
+    claim: 'Pastor = poimen, shepherd; appears only in Eph. 4:11; no office by that title in NT or LDS church; shepherding function'
+    key: underwood-same-organization
+    url: 'https://rsc.byu.edu/go-ye-all-world/same-organization-existed-primitive-church'
+    quote: 'The word pastor, as a translation of the Greek poimen, appears only once in the New Testament, in Ephesians 4:11. In every other instance, the KJV renders poimen as “shepherd(s).”'
+  - where: 'note 1:6 “Pastors and evangelists”'
+    claim: 'No pastor office; shepherding abounds'
+    key: underwood-same-organization
+    url: 'https://rsc.byu.edu/go-ye-all-world/same-organization-existed-primitive-church'
+    quote: 'no office by that tide is attested in either the New Testament or Latter-day Saint churches. [24] Yet pastors and pastoring, in the sense of “shepherding” (feeding, nourishing, caring for) God’s flock, have abounded in both dispensations.'
+  - where: 'note 1:6 “Pastors and evangelists”'
+    claim: 'Episcopos, overseer, translated bishop; 1 Pet. 2:25 Shepherd and Bishop'
+    key: underwood-same-organization
+    url: 'https://rsc.byu.edu/go-ye-all-world/same-organization-existed-primitive-church'
+    quote: 'First Peter 2:25 calls Christ “the Shepherd and Bishop of your souls,”'
+  - where: 'note 1:6 “Pastors and evangelists”'
+    claim: 'The Church’s footnote on “pastors” points to the Topical Guide’s “Bishop,” on “evangelists” to “Patriarch”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/a-of-f/1?lang=eng'
+    quote: '6c “pastors”: TG Bishop. … 6e “evangelists”: TG Patriarch.'
+  - where: 'note 1:6 “Pastors and evangelists”'
+    claim: 'Evangelist: one who proclaims the good news; three NT occurrences; missionary'
+    key: underwood-same-organization
+    url: 'https://rsc.byu.edu/go-ye-all-world/same-organization-existed-primitive-church'
+    quote: 'In other words, an “evangelist” is one who proclaims the good news (gospel) of Christ’s atoning sacrifice and is, therefore, a missionary or a preacher.'
+  - where: 'note 1:6 “Pastors and evangelists”'
+    claim: 'Joseph Smith, 1839: an evangelist is a patriarch'
+    key: jsp-discourse-1839-evangelist
+    url: 'https://www.josephsmithpapers.org/paper-summary/discourse-between-circa-26-june-and-circa-2-july-1839-as-reported-by-willard-richards/8'
+    quote: 'Is a patriarch even the oldest man of the Blood of Joseph or of the seed of Abraham, whereever the Church of Christ is established in the earth, there should be a patriarch for the benefit of the posterity of the Saints as it was with Jacob.'
+  - where: 'note 1:6 “Pastors and evangelists”'
+    claim: 'D&C 107:39–40 on evangelical ministers; the patriarch as bearer of good news to individuals'
+    key: underwood-same-organization
+    url: 'https://rsc.byu.edu/go-ye-all-world/same-organization-existed-primitive-church'
+    quote: 'Some Latter-day Saints find it fitting to call a patriarch an evangelist since the blessings he dispenses are indeed proclamations of “good news” for the lives of individual Saints.'
+
+  # ---- note 1:7 ----
+  - where: 'note 1:7 “Gifts that had not ceased”'
+    claim: 'The Articles answer whether spiritual gifts were present or had ceased'
+    key: benson-articles-faith
+    url: 'https://rsc.byu.edu/joseph-smith-doctrinal-restoration/articles-faith'
+    quote: 'The Articles of Faith also answer questions regarding church organization, priesthood authority, and the presence or cessation of spiritual gifts, prophecy, seership, and revelation.'
+  - where: 'note 1:7 “Gifts that had not ceased”'
+    claim: 'Mormon 9:7–8; Moroni 10:19 text; footnote 7g to 1 Cor. 12:10 and Morm. 9:7'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/morm/9?lang=eng'
+    quote: 'And again I speak unto you who deny the revelations of God, and say that they are done away, that there are no revelations, nor prophecies, nor gifts, nor healing, nor speaking with tongues, and the interpretation of tongues;'
+
+  # ---- note 1:8 ----
+  - where: 'note 1:8 “As far as it is translated correctly”'
+    claim: 'JSP endnote 32: 1 Ne. 13:28; New Translation 1830–1833, about 3,400 verses'
+    key: jsp-church-history-1842
+    url: 'https://www.josephsmithpapers.org/paper-summary/church-history-1-march-1842/4'
+    quote: 'Between 1830 and 1833 JS made revelatory revisions to about thirty-four hundred verses contained in the King James Version of the Bible, a project then referred to as the “New Translation.”'
+  - where: 'note 1:8 “As far as it is translated correctly”'
+    claim: 'Joseph Smith, October 1843: I believe the Bible as it came from the pen of the original writers'
+    key: jsp-discourse-1843-10-15
+    url: 'https://www.josephsmithpapers.org/paper-summary/discourse-15-october-1843/2'
+    quote: 'I believe the bible, as it ought to be, as it came from the pen of the original writers.'
+  - where: 'note 1:8 “As far as it is translated correctly”'
+    claim: 'Talmage: reservation covers errors of translation and transcription; biblical scholars admit them; original records the word of God'
+    key: talmage-articles-faith
+    url: 'https://archive.org/download/studyofarticleso0000jame/studyofarticleso0000jame_djvu.txt'
+    quote: 'the Church announces a reservation in the case of erroneous translation, which may occur as a result of human incapacity; and even in this measure of caution we are not alone, for Biblical scholars generally admit the presence of errors of the kind—both of translation and: of transcription of the text.'
+  - where: 'note 1:8 “As far as it is translated correctly”'
+    claim: '1 Ne. 13:28 text'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/13?lang=eng'
+    quote: 'there are many plain and precious things taken away from the book, which is the book of the Lamb of God.'
+
+  # ---- note 1:9 ----
+  - where: 'note 1:9 “Not a closed creed”'
+    claim: 'Talmage: the Saints announce no creed as a complete code of faith; the Articles are not a complete exposition, as Article 9 says'
+    key: talmage-articles-faith
+    url: 'https://archive.org/download/studyofarticleso0000jame/studyofarticleso0000jame_djvu.txt'
+    quote: 'The Latter-day Saints announce no such creed as a complete code of faith; for they accept the principle of continuous revelation as an essential feature of their belief.'
+  - where: 'note 1:9 “Not a closed creed”'
+    claim: 'Joseph Smith, 1843: creeds set up stakes'
+    key: jsp-discourse-1843-10-15
+    url: 'https://www.josephsmithpapers.org/paper-summary/discourse-15-october-1843/2'
+    quote: 'presence of Good [God] & learn all things. but the creeds set up stakes & say hitherto shalt thou come & no further.— which I cannot subscribe to.'
+  - where: 'note 1:9 “Not a closed creed”'
+    claim: 'Joseph Smith, 1843: all creeds have some truth'
+    key: jsp-discourse-1843-10-15
+    url: 'https://www.josephsmithpapers.org/paper-summary/discourse-15-october-1843/1'
+    quote: 'I cannot beleive in any of the creeds of the different denomination. because they all have some things in them I cannot subscribe to though all of them have some thuth [truth].'
+  - where: 'note 1:9 “Not a closed creed”'
+    claim: 'Unlike creeds, the Articles are living and open'
+    key: welch-whittaker-1979
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1979/09/we-believe-development-of-the-articles-of-faith?lang=eng'
+    quote: 'Unlike creeds which are delimiting and dogmatic, the Articles of Faith are living and open. They invite further thought.'
+
+  # ---- note 1:10 gathering ----
+  - where: 'note 1:10 “The gathering, then and now”'
+    claim: 'D&C 110:11 keys of the gathering and of the ten tribes'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/110?lang=eng'
+    quote: 'Moses appeared before us, and committed unto us the keys of the gathering of Israel from the four parts of the earth, and the leading of the ten tribes from the land of the north.'
+  - where: 'note 1:10 “The gathering, then and now”'
+    claim: 'Nelson: gathering not a matter of location; now in each nation; every nation the gathering place for its own people'
+    key: nelson-gathering
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2006/10/the-gathering-of-scattered-israel?lang=eng'
+    quote: 'True, in the early days of the Church, conversion often meant emigration as well. But now the gathering takes place in each nation. … “Every nation is the gathering place for its own people.”'
+  - where: 'note 1:10 “The gathering, then and now”'
+    claim: 'Nelson: the choice to come unto Christ not a matter of physical location; Zion is the pure in heart'
+    key: nelson-gathering
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2006/10/the-gathering-of-scattered-israel?lang=eng'
+    quote: 'The choice to come unto Christ is not a matter of physical location; it is a matter of individual commitment.'
+
+  # ---- note 1:10 three wordings ----
+  - where: 'note 1:10 “Three wordings of one line”'
+    claim: '1842: “That Zion will be built upon this continent.”'
+    key: jsp-church-history-1842
+    url: 'https://www.josephsmithpapers.org/paper-summary/church-history-1-march-1842/5'
+    quote: 'We believe in the literal gathering of Israel and in the restoration of the Ten Tribes. That Zion will be built upon this continent.'
+  - where: 'note 1:10 “Three wordings of one line”'
+    claim: 'The 1924 printing of Talmage gives the bracketed form'
+    key: talmage-articles-faith
+    url: 'https://archive.org/download/studyofarticleso0000jame/studyofarticleso0000jame_djvu.txt'
+    quote: 'that Zion will be built upon this [the American] continent'
+  - where: 'note 1:10 “Three wordings of one line”'
+    claim: 'Today’s wording'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/a-of-f/1?lang=eng'
+    quote: 'that Zion (the New Jerusalem) will be built upon the American continent'
+  - where: 'note 1:10 “Three wordings of one line”'
+    claim: 'Tenth article among those with minor changes'
+    key: welch-whittaker-1979
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1979/09/we-believe-development-of-the-articles-of-faith?lang=eng'
+    quote: 'Except for certain minor changes, particularly in the fourth, fifth, sixth, and tenth articles'
+  - where: 'note 1:10 “Three wordings of one line”'
+    claim: 'D&C 57:1–3: Missouri, Independence, the place for the city of Zion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/57?lang=eng'
+    quote: 'Wherefore, this is the land of promise, and the place for the city of Zion.'
+
+  # ---- note 1:10 paradisiacal ----
+  - where: 'note 1:10 “Paradisiacal glory”'
+    claim: 'Church footnote glosses paradisiacal as a condition like the Garden of Eden'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/a-of-f/1?lang=eng'
+    quote: '10f “paradisiacal”: IE a condition like the Garden of Eden; see Isa. 11:1–9; 35; 51:1–3; 65:17–25'
+  - where: 'note 1:10 “Paradisiacal glory”'
+    claim: 'The earth when created was paradisiacal before the Fall; Joseph Smith said it would be renovated'
+    key: matthews-restoration-all-things
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-doctrine-covenants/restoration-all-things-0'
+    quote: 'Furthermore, the earth when created was paradisiacal, before the Fall of Adam. The promise is that “the earth will be renewed and receive its paradisiacal glory” (Articles of Faith 1:10). The Prophet Joseph Smith said the earth is to be renovated.'
+  - where: 'note 1:10 “Paradisiacal glory”'
+    claim: 'Latter-day Saints premillennialists; Christ returns at beginning of Millennium; paradise like Eden established then'
+    key: benson-articles-faith
+    url: 'https://rsc.byu.edu/joseph-smith-doctrinal-restoration/articles-faith'
+    quote: 'Latter-day Saints are premillennialists in that they believe that Christ will return to the earth at the beginning of the Millennium to usher in a peaceful reign for one thousand years'
+  - where: 'note 1:10 “Paradisiacal glory”'
+    claim: 'Many things must be done before; paradise like Eden'
+    key: benson-articles-faith
+    url: 'https://rsc.byu.edu/joseph-smith-doctrinal-restoration/articles-faith'
+    quote: 'our belief has the flavor of postmillennialism because many things much be done by humankind with help from God before that great day can come. [53] Additionally, Joseph taught that paradise, similar to the Edenic state lost at the Fall of Adam, would be established on earth at this time.'
+
+  # ---- note 1:11 ----
+  - where: 'note 1:11 “The same privilege for others”'
+    claim: 'Cowdery’s 1834 list: no man or government may compel religion'
+    key: sc-knowhy-828
+    url: 'https://scripturecentral.org/knowhy/why-are-the-origins-of-the-articles-of-faith-important'
+    quote: 'We believe that all men are born free and equal; that no man, combination of men, or government of men, have power or authority to compel or force others to embrace any system of religion'
+  - where: 'note 1:11 “The same privilege for others”'
+    claim: 'D&C 134:4, 7 text; footnotes 11a and 11d point to them'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/134?lang=eng'
+    quote: 'the civil magistrate should restrain crime, but never control conscience; should punish guilt, but never suppress the freedom of the soul.'
+
+  # ---- note 1:12 ----
+  - where: 'note 1:12 “Subject to the law”'
+    claim: 'JSP endnote 33 points to the 1835 Declaration on Government and Law (D&C 134)'
+    key: jsp-church-history-1842
+    url: 'https://www.josephsmithpapers.org/paper-summary/church-history-1-march-1842/5'
+    quote: '33: See Declaration on Government and Law, ca. Aug. 1835 [D&C 134].'
+  - where: 'note 1:12 “Subject to the law”'
+    claim: 'Talmage cites Titus 3:1 and Paul on civil authorities as ministers of God'
+    key: talmage-articles-faith
+    url: 'https://archive.org/download/studyofarticleso0000jame/studyofarticleso0000jame_djvu.txt'
+    quote: 'Paul, writing to Titus … urged him to teach them to be orderly and law-abiding: “Put them in mind to be subject to principalities and powers, to obey magistrates, to be ready to every good work.’”'
+  - where: 'note 1:12 “Subject to the law”'
+    claim: 'Wood: Article 12 restates the NT view that the state is legitimate and owed general deference'
+    key: wood-international-diplomacy
+    url: 'https://rsc.byu.edu/lengthening-our-stride/international-diplomacy-church'
+    quote: 'In a fundamental way, this restates the New Testament understanding that the state is in fact legitimate and is owed general deference. It recognized, as Jesus did, that there are both divine obligations and temporal political obligations incumbent upon us.'
+  - where: 'note 1:12 “Subject to the law”'
+    claim: 'Wood: for over a century the pressing issue was the relation with the United States; Article 12 and D&C 134 its ground principles'
+    key: wood-international-diplomacy
+    url: 'https://rsc.byu.edu/lengthening-our-stride/international-diplomacy-church'
+    quote: 'Although the universal implications of the Restoration and the relation of the Church to foreign governments were early recognized, for over a century, the most pressing issue was to establish such a solid and durable relation with the United States'
+  - where: 'note 1:12 “Subject to the law”'
+    claim: 'D&C 134:5 text'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/134?lang=eng'
+    quote: 'We believe that all men are bound to sustain and uphold the respective governments in which they reside, while protected in their inherent and inalienable rights by the laws of such governments'
+
+  # ---- note 1:13 ----
+  - where: 'note 1:13 “Paul’s admonition, made our own”'
+    claim: 'JSP endnotes 34 and 35: 1 Cor. 13:7 and Phil. 4:8'
+    key: jsp-church-history-1842
+    url: 'https://www.josephsmithpapers.org/paper-summary/church-history-1-march-1842/5'
+    quote: 'we follow the admonition of Paul “we believe all things we hope all things,”34 we have endured many things and hope to be able to endure all things. If there is any thing virtuous, lovely, or of good report or praise worthy we seek after these things.35'
+  - where: 'note 1:13 “Paul’s admonition, made our own”'
+    claim: '1 Cor. 13:7 describes charity; Saints filled with this love would do these things'
+    key: sc-knowhy-693
+    url: 'https://scripturecentral.org/knowhy/how-often-do-the-articles-of-faith-track-sayings-of-paul'
+    quote: 'In 1 Corinthians 13:7, Paul declares that charity, the greatest spiritual gift that Saints should seek, “beareth all things, believeth all things, hopeth all things, endureth all things.” According to both Joseph Smith and Paul, Saints filled with this love would then be able to perform these very actions.'
+  - where: 'note 1:13 “Paul’s admonition, made our own”'
+    claim: 'Phil. 4:8 text'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/philip/4?lang=eng'
+    quote: 'if there be any virtue, and if there be any praise, think on these things.'
+
+  # ---- christ ----
+  - where: 'christ'
+    claim: 'Talmage: obedience to the laws and ordinances is the condition of individual salvation'
+    key: talmage-articles-faith
+    url: 'https://archive.org/download/studyofarticleso0000jame/studyofarticleso0000jame_djvu.txt'
+    quote: 'As these sins are the result of individual acts it is just that forgiveness for them should be conditioned on individual compliance with pre- scribed requirements—“obedience to the laws and ordinances of the Gospel.”'
+  - where: 'christ'
+    claim: '2 Ne. 31:20 text'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/31?lang=eng'
+    quote: 'Wherefore, ye must press forward with a steadfastness in Christ, having a perfect brightness of hope, and a love of God and of all men.'
+
+  # ---- added rows ----
+  - where: 'setting'
+    claim: 'Talmage’s study went through more than fifty English editions'
+    key: gardner-articles-faith
+    url: 'https://rsc.byu.edu/foundations-restoration/articles-faith'
+    quote: 'This work, titled A Study of the Articles of Faith, has been translated into thirteen different languages and been through more than fifty English editions.'
+  - where: 'setting'
+    claim: 'First edition April 1899; Talmage an apostle by the 1924 edition'
+    key: talmage-articles-faith
+    url: 'https://archive.org/download/studyofarticleso0000jame/studyofarticleso0000jame_djvu.txt'
+    quote: 'N April, 1899, the first edition of the author’s work, The Articles of Faith, appeared.'
+  - where: 'note 1:1 “Earlier lists, and a plainer one”'
+    claim: 'Hyde wrote in Frankfurt, Germany, in 1842'
+    key: sc-knowhy-828
+    url: 'https://scripturecentral.org/knowhy/why-are-the-origins-of-the-articles-of-faith-important'
+    quote: 'The Apostle Orson Hyde published yet another summary of beliefs while serving a mission in Frankfurt, Germany, in 1842. He included sixteen points which were called “Articles of Faith and Points of Doctrine.”'
+  - where: 'note 1:1 “Earlier lists, and a plainer one”'
+    claim: 'Pratt’s first article nearly matches Article 1'
+    key: sc-knowhy-828
+    url: 'https://scripturecentral.org/knowhy/why-are-the-origins-of-the-articles-of-faith-important'
+    quote: 'First, We believe in God the Eternal Father, and in his Son Jesus Christ, and in the Holy Ghost [compare A of F 1]'
+  - where: 'note 1:2 “Our own sins, not Adam’s guilt”'
+    claim: 'Pratt then says all are redeemed through Christ from Adam’s transgression'
+    key: sc-knowhy-828
+    url: 'https://scripturecentral.org/knowhy/why-are-the-origins-of-the-articles-of-faith-important'
+    quote: 'all mankind, without one exception, are to be completely, and fully redeemed, both body and spirit from the endless banishment and curse, to which they were consigned, by Adam’s transgression.'
+  - where: 'note 1:3 “Saved from the Fall, and from our own sins”'
+    claim: 'Talmage ties the general effect to Adam’s transgression and inherited sin'
+    key: talmage-articles-faith
+    url: 'https://archive.org/download/studyofarticleso0000jame/studyofarticleso0000jame_djvu.txt'
+    quote: 'whereby all men are redeemed from the effects of Adam’s transgression both with respect to the death of the body and inherited sin, there is application of the same great sacrifice as a means of propitiation for individual sins'
+  - where: 'note 1:4 “Why the list stops at four”'
+    claim: 'Earlier statements (Joseph Young 1836, Parley P. Pratt 1840) included enduring to the end'
+    key: reynolds-fifth-principle
+    url: 'https://rsc.byu.edu/vol-15-no-3-2014/fifth-principle-gospel'
+    quote: 'clearly acknowledged the Book of Mormon requirement that Christ’s followers endure to the end: “to ensure eternal life, a strict obedience to all the commandments of God, must be observed, to the end.”'
+  - where: 'note 1:4 “Why the list stops at four”'
+    claim: 'The first three points agreed with some other churches'
+    key: benson-articles-faith
+    url: 'https://rsc.byu.edu/joseph-smith-doctrinal-restoration/articles-faith'
+    quote: 'While the first three statements in this article of faith agree with some coreligionists on conversion and the mode of baptism'
+  - where: 'note 1:6 “The same organization, in what sense”'
+    claim: 'The Primitive Church: the Church Christ established in the meridian of time, continued after his ascension'
+    key: talmage-articles-faith
+    url: 'https://archive.org/download/studyofarticleso0000jame/studyofarticleso0000jame_djvu.txt'
+    quote: 'The Primitive Church—In the dispensation of the meridian of time* Jesus Christ established His Church upon the earth, appointing therein the officers necessary for the carrying out of the Father’s purposes.'
+  - where: 'note 1:6 “Pastors and evangelists”'
+    claim: 'Poimen in John 10:14'
+    key: underwood-same-organization
+    url: 'https://rsc.byu.edu/go-ye-all-world/same-organization-existed-primitive-church'
+    quote: 'in John 10, Christ declares, “I am the good [poimen] . . . and there shall be one fold and one [poimen] (John 10:14, 16).'
+  - where: 'note 1:7 “Gifts that had not ceased”'
+    claim: 'Article 7 echoes Paul’s list in 1 Corinthians 12'
+    key: welch-whittaker-1979
+    url: 'https://www.churchofjesuschrist.org/study/ensign/1979/09/we-believe-development-of-the-articles-of-faith?lang=eng'
+    quote: 'or excerpting Pauline passages from the New Testament (compare A of F 1:4 with Heb. 6:1–4, A of F 1:6 with Eph. 4:11, A of F 1:7 with 1 Cor. 12:22'
+  - where: 'note 1:8 “As far as it is translated correctly”'
+    claim: 'Original records the word of God; correct translations equally authentic'
+    key: talmage-articles-faith
+    url: 'https://archive.org/download/studyofarticleso0000jame/studyofarticleso0000jame_djvu.txt'
+    quote: 'The Latter-day Saints believe the original records to be the word of God unto man, and, as far as these records have been translated correctly, the trans- lations are regarded as equally authentic.'
+  - where: 'note 1:10 “The gathering, then and now”'
+    claim: 'Joseph Young’s 1836 list: God will gather the literal descendants of Jacob'
+    key: sc-knowhy-828
+    url: 'https://scripturecentral.org/knowhy/why-are-the-origins-of-the-articles-of-faith-important'
+    quote: 'That God will, in the last days, gather the literal descendants of Jacob [compare A of F 10] to the lands anciently possessed by their fathers'
+  - where: 'note 1:10 “Paradisiacal glory”'
+    claim: 'Gathering, Ten Tribes and Zion are events leading up to the Millennium'
+    key: benson-articles-faith
+    url: 'https://rsc.byu.edu/joseph-smith-doctrinal-restoration/articles-faith'
+    quote: 'Regarding the events of this last dispensation and the events leading up to the Millennium, Joseph Smith prophesied there would be a literal gathering of Israel, a restoration of the ten tribes, and the building of Zion.'
+  - where: 'note 1:1 “Three named one by one”'
+    claim: 'JS—H 1:17: two Personages, one pointing to the other'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-h/1?lang=eng'
+    quote: 'I saw two Personages, whose brightness and glory defy all description, standing above me in the air. One of them spake unto me, calling me by name and said, pointing to the other—This is My Beloved Son. Hear Him!'
+  - where: 'note 1:13 “Paul’s admonition, made our own”'
+    claim: 'Phil. 4:8 opening'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/philip/4?lang=eng'
+    quote: 'Finally, brethren, whatsoever things are true, whatsoever things are honest, whatsoever things are just'
