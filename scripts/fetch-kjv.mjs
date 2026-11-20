@@ -486,6 +486,25 @@ const LDS_SPELLINGS = [
 // Spellings that differ between books of the Gospel Library edition, applied after LDS_SPELLINGS
 // (Isaiah has “Rabshakeh” and “Esar-haddon” where 2 Kings has “Rab-shakeh” and “Esarhaddon”).
 const BOOK_SPELLINGS = {
+  matthew: [
+    [/the angel of the LORD appeared unto him in a dream, saying, Joseph/g, 'the angel of the Lord appeared unto him in a dream, saying, Joseph'], // 1:20
+    [/Beth-lehem/g, 'Bethlehem'], // 2:1, 5, 6, 8, 16
+    [/Judaea/g, 'Judæa'],
+    [/Caesar/g, 'Cæsar'], // and Cæsarea, 16:13
+    [/Alphaeus, and Lebbaeus/g, 'Alphæus, and Lebbæus'], // 10:3
+    [/Arimathaea/g, 'Arimathæa'], // 27:57
+    [/Thaddaeus/g, 'Thaddæus'], // 10:3
+    [/\blunatick\b/g, 'lunatic'], // 4:24; 17:15
+    [/Thou son of David,/g, 'Thou Son of David,'], // 9:27 (not 1:20, “thou son of David, fear not”)
+    [/thou son of David([;.])/g, 'thou Son of David$1'], // 15:22; 20:30, 31
+    [/Hosanna to the son of David/g, 'Hosanna to the Son of David'], // 21:9, 15
+    [/The son of David\./g, 'The Son of David.'], // 22:42
+    [/their eyes and hear/g, 'their eyes, and hear'], // 13:15
+    [/Barjona/g, 'Bar-jona'], // 16:17
+    [/a little farther, and fell/g, 'a little further, and fell'], // 26:39
+    [/\bplatted\b/g, 'plaited'], // 27:29
+    [/\bspunge\b/g, 'sponge'], // 27:48
+  ],
   ezra: [
     [/\bMizpar\b/g, 'Mispar'], // 2:2
     [/Pahathmoab/g, 'Pahath-moab'], // 2:6; 8:4; 10:30

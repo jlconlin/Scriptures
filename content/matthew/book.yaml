@@ -1,0 +1,91 @@
+status: preview
+name: Matthew
+slug: matthew
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+# After Zephaniah (19), the highest number in use; the volume a book is listed under comes from abbr.
+order: 20
+abbr: matt               # [[Matt. 1:23]] links here
+gospelLibrary: nt/matt
+eyebrow: The New Testament
+heroQuote:
+  text: '“Thou art the Christ, the Son of the living God.”'
+  cite: 'Peter to Jesus, [[Matt. 16:16]]'
+description: A phrase-by-phrase companion to the Gospel of Matthew, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Matthew gathers Jesus’s teaching into five long sermons, each ending “when Jesus had ended these sayings,” between the story of His birth and the story of His death and resurrection.
+home:
+  blurb: The testimony of a publican called to be an Apostle, written to show that Jesus is the Messiah of whom the prophets spoke.
+
+# Sources for the intro: Bible Dictionary, “Matthew” (Levi, son of Alphaeus; tax gatherer at Capernaum; written for
+# Jewish persons; many Old Testament quotations; chief object to show Jesus is the Messiah); the Gospel Library's
+# footnote on the title of Matthew (JST title); Griffin, “Matthew's Portrayal of Jesus,” para. 25 (five discourses).
+# The last paragraph must point to a New Testament volume guide once one exists (DEVELOPMENT.md, step 2); none is
+# written yet (content/volumes/new-testament/GUIDES.md), so the pointer is left out of this draft.
+intro: |
+  Matthew was a publican, a tax gatherer at Capernaum, known before his call as Levi, son of Alphaeus ([[Matt. 9:9]]; [[Mark 2:14]]), and one of the Twelve ([[Matt. 10:3]]). His Gospel was written for Jewish readers, and it quotes the Old Testament again and again, to show that Jesus is the Messiah of whom the prophets spoke. Joseph Smith’s translation calls it “The Testimony of St. Matthew.”
+
+  Between the story of Jesus’s birth and the story of His death and resurrection, Matthew gathers His teaching into five long sermons, beginning with the Sermon on the Mount. This companion goes through all twenty-eight chapters and tries to anticipate the questions a careful reader asks: *Which prophecy is fulfilled here? What did Jesus mean? What does the Joseph Smith Translation or the Book of Mormon add? Where is this in my life?*
+
+# Matthew's own shape: five discourses, each closing with “when Jesus had ended these sayings” or the like
+# (7:28; 11:1; 13:53; 19:1; 26:1), framed by the birth and the passion (Griffin para. 25; Strathearn para. 22).
+# Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: mattbirth
+    range: [1, 2]
+    name: The Birth of the King
+    blurb: Jesus’s descent from Abraham and David, His birth of a virgin, the wise men who come to worship the King of the Jews, and the flight into Egypt.
+    color: '#a0682e'
+    darkColor: '#dfa56b'
+  - key: mattsermon
+    range: [3, 7]
+    name: The Kingdom at Hand, and the Sermon on the Mount
+    blurb: John baptizes Jesus, Jesus is tempted in the wilderness and calls His first disciples, and on a mountain He teaches the higher law, from the Beatitudes to the house built on a rock.
+    color: '#3f7f5f'
+    darkColor: '#82c7a2'
+  - key: mattmiracles
+    range: [8, 10]
+    name: Miracles, and the Twelve Sent Out
+    blurb: Jesus heals the leper, the centurion’s servant and many more, calms the sea, calls Matthew, and sends the Twelve to the lost sheep of the house of Israel.
+    color: '#3a6a9a'
+    darkColor: '#88b3e0'
+  - key: mattparables
+    range: [11, 13]
+    name: Opposition, and the Parables of the Kingdom
+    blurb: John’s question from prison, the invitation “Come unto me,” the Pharisees’ growing opposition, and the parables of the sower, the wheat and tares, and the pearl of great price.
+    color: '#7a5296'
+    darkColor: '#bf9adc'
+  - key: mattchurch
+    range: [14, 18]
+    name: Peter’s Witness, the Mount, and the Church
+    blurb: The feeding of the five thousand and Jesus walking on the sea, Peter’s witness that Jesus is the Christ, the promise of the keys, the Transfiguration, and how disciples are to treat one another.
+    color: '#9a4f3e'
+    darkColor: '#e19785'
+  - key: mattjerusalem
+    range: [19, 25]
+    name: To Jerusalem, and the Last Teachings
+    blurb: On the road to Jerusalem and in its temple, Jesus teaches of marriage, riches and service, enters the city as its King, rebukes the scribes and Pharisees, and on the Mount of Olives foretells the end and His coming.
+    color: '#8a7a2e'
+    darkColor: '#d4c47a'
+  - key: mattpassion
+    range: [26, 28]
+    name: The Passion and the Resurrection
+    blurb: The Last Supper, Gethsemane, the trials and the crucifixion, the empty tomb, and the risen Lord’s charge to teach all nations.
+    color: '#5a6478'
+    darkColor: '#a9b4c9'
+
+beloved:
+  - { chapter: 1, verse: 23, text: 'they shall call his name Emmanuel, which being interpreted is, God with us' }
+  - { chapter: 5, verse: 3, text: 'Blessed are the poor in spirit: for theirs is the kingdom of heaven' }
+  - { chapter: 5, verse: 14, text: 'Ye are the light of the world' }
+  - { chapter: 5, verse: 48, text: 'Be ye therefore perfect, even as your Father which is in heaven is perfect' }
+  - { chapter: 6, verse: 33, text: 'seek ye first the kingdom of God, and his righteousness' }
+  - { chapter: 11, verse: 28, text: 'Come unto me, all ye that labour and are heavy laden, and I will give you rest' }
+  - { chapter: 16, verse: 16, text: 'Thou art the Christ, the Son of the living God' }
+  - { chapter: 22, verse: 37, text: 'Thou shalt love the Lord thy God with all thy heart' }
+  - { chapter: 25, verse: 40, text: 'Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me' }
+  - { chapter: 26, verse: 39, text: 'nevertheless not as I will, but as thou wilt' }
+  - { chapter: 28, verse: 6, text: 'He is not here: for he is risen, as he said' }
+  - { chapter: 28, verse: 20, text: 'lo, I am with you alway, even unto the end of the world' }
+
+coreSources:
+  - griffin-matthew-portrayal
