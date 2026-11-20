@@ -13,7 +13,7 @@ Planned on 2026-11-20; nothing is written.
 - **The question is answered in the note; the guide is for going further.** A reader's question arises at a verse (“why is this question a trap?”) and its answer is in that verse's note, in a sentence or two. The guide holds the general description once, and the note links to its section.
 - **A group's motives belong in the notes, not in a guide.** A guide makes no connections of its own (`PAGES.md`), and the Gospels give motives scene by scene (envy, the fear of Rome in [[John 11:48]]).
 - **Guides are added as the chapters show the need** (author: “We can add them as we feel we need”). The five below are where to start. A guide is split, or one added, when a section has outgrown its guide or the notes keep explaining something no guide holds, not on a forecast.
-- **A harmony is one of the volume's guides.** It is built from the table of parallels the writers work from (`GOSPELS.md`). The precise order of events is not the point (author: “Frankly, the precise chronology doesn't matter that much”); the author has a chronology of their own, mostly the Church's. A doctrinal harmony (what the four teach on a subject) is a different guide and is not planned.
+- **A harmony is one of the volume's guides.** It is built from the table of parallels the writers work from (`GOSPELS.md`). The precise order of events is not the point (author: “Frankly, the precise chronology doesn't matter that much”); the order is the author's own chronology, which is mostly the Church's (`GOSPELS.md` says where it is). A doctrinal harmony (what the four teach on a subject) is a different guide and is not planned.
 
 ## The guides
 
