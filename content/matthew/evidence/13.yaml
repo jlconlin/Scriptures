@@ -1,0 +1,566 @@
+chapter: 13
+claims:
+  - where: setting
+    claim: 'Matthew 13 is the third of five discourses, the Sermon in Parables, closing with 13:53'
+    key: griffin-matthew-portrayal
+    url: 'https://rsc.byu.edu/thou-art-christ-son-living-god/matthews-portrayal-jesus-son-david-new-moses-son-god'
+    quote: 'each of these sections concludes with a major discourse, each of which ends with phrases such as, “When Jesus had ended these sayings” (see Matthew 7:28; 11:1; 13:53; 19:1; 26:1): the Sermon on the Mount (chapters 5–7); the Mission Sermon (chapter 10); the Sermon in Parables (chapter 13)'
+  - where: setting
+    claim: 'The accusations and sign-seeking of Matthew 12 and the parables came on the same day'
+    key: halverson-soils-souls
+    url: 'https://rsc.byu.edu/vol-9-no-3-2008/soils-souls-parable-sower'
+    quote: 'As Matthew recounted, the accusations of the Pharisees (see Matthew 12:2, 10, 14, 24), the sign seeking of the scribes (see Matthew 12:38–39), and the pronouncement of these parables all occurred on “the same day” (Matthew 13:1).'
+  - where: setting
+    claim: 'Jesus usually taught by the lake from a boat a short way off shore'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'it was usual with Him to sit in the boat a short distance off shore, and preach to the people'
+  - where: setting
+    claim: 'The treasure, the pearl and the net are recorded by Matthew only, spoken to the disciples in the house'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'This and the two parables following are recorded by Matthew only; and the place assigned them in his narrative indicates that they were spoken to the disciples alone, in the house, after the multitude had departed.'
+  - where: thread
+    claim: 'The seed is the same; the parable turns on the condition of the soil'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'Observe that the prominent feature of the story is that of the prepared or unprepared condition of the soil. The seed was the same, whether it fell on good ground or bad'
+  - where: thread
+    claim: 'Joseph Smith read the parables of Matthew 13 as one connected history of the kingdom'
+    key: halverson-soils-souls
+    url: 'https://rsc.byu.edu/vol-9-no-3-2008/soils-souls-parable-sower'
+    quote: 'By explaining—and connecting—these parables in this way, the Prophet showed them to be one cohesive narrative rather than a collection of separate stories.'
+  - where: thread
+    claim: 'Joseph Smith: the parables trace the kingdom from its setting up in that age to the end of the world'
+    key: jsp-letter-elders-1835-12
+    url: 'https://www.josephsmithpapers.org/paper-summary/letter-to-the-elders-of-the-church-30-november-1-december-1835/2'
+    quote: 'we believe that it has an allusion directly, to the commencement, or the setting up of the kingdom in that age: therefore, we shall continue to trace his sayings concerning this kingdom from that time forth, even unto the end of the world.'
+  - where: section 1 plain
+    claim: '“Stony places”: rocky ground under a thin layer of soil (footnote 5a)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/13?lang=eng'
+    quote: 'rocky land over which a thin layer of soil is spread.'
+  - where: section 3 plain
+    claim: '“He is offended”: he stumbles, falls away (footnote 21c)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/13?lang=eng'
+    quote: 'he stumbles, falls away.'
+  - where: section 4 plain
+    claim: 'Tares: the bearded darnel'
+    key: ball-plants-nt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/plants-new-testament'
+    quote: 'Tares (zizanion, ζιζάνιον, 8x): The bearded darnel, Lolium temulentum.'
+  - where: section 5 plain
+    claim: 'Leaven: yeast (footnote 33a)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/13?lang=eng'
+    quote: 'GR yeast.'
+  - where: section 7 plain
+    claim: '“Instructed unto”: which has become a disciple in (footnote 52b)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/13?lang=eng'
+    quote: 'GR which has become a disciple in.'
+
+  - where: 'note 13:3 “Why parables, and why now”'
+    claim: 'Parables had not been characteristic of Jesus’s teaching before this occasion'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'On one such occasion He employed a means of instruction, which, prior to that time, had not been characteristic of His teaching; this consisted in the use of parables'
+  - where: 'note 13:3 “Why parables, and why now”'
+    claim: 'Parables began when opposition was strong; they were common among Jewish teachers'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'It is noticeable that the introduction of parables occurred when opposition to Jesus was strong, and when scribes, Pharisees, and rabbis were alert in maintaining a close watch upon His movements and His works … The use of parables was common among Jewish teachers'
+  - where: 'note 13:3 “Why parables, and why now”'
+    claim: 'Same day as the accusations and sign-seeking of chapter 12'
+    key: halverson-soils-souls
+    url: 'https://rsc.byu.edu/vol-9-no-3-2008/soils-souls-parable-sower'
+    quote: 'the accusations of the Pharisees (see Matthew 12:2, 10, 14, 24), the sign seeking of the scribes (see Matthew 12:38–39), and the pronouncement of these parables all occurred on “the same day” (Matthew 13:1).'
+  - where: 'note 13:3 “Why parables, and why now”'
+    claim: 'Opposition led to a form of teaching more attractive, less open to attack, and a test of character'
+    key: ellicott-matthew
+    url: 'https://biblehub.com/commentaries/ellicott/matthew/13.htm'
+    quote: 'this led to His presenting that teaching in a form which was at once more attractive, less open to attack, better as an intellectual and spiritual training for His disciples, better also as a test of character'
+  - where: 'note 13:3 “Why parables, and why now”'
+    claim: 'Jesus had used similitudes before (Matt. 7:24–27), but now first speaks to the multitude in a parable without explanation'
+    key: ellicott-matthew
+    url: 'https://biblehub.com/commentaries/ellicott/matthew/13.htm'
+    quote: 'There had been illustrations and similitudes before, as in that of the houses built on the sand and on the rock in Matthew 7:24-27, and that of the unclean spirit in Matthew 12:43-45, but now for the first time He speaks to the multitude in a parable, without an explanation.'
+
+  - where: 'note 13:11 “Mysteries given to those who trust”'
+    claim: 'mystērion: a hidden thing, not obvious to the understanding; in Greek religion secrets confided to the initiated'
+    key: thayer
+    url: 'https://biblehub.com/greek/3466.htm'
+    quote: 'plural generally mysteries, religious secrets, confided only to the initiated and not to be communicated by them to ordinary mortals … 1. a hidden or secret thing, not obvious to the understanding'
+  - where: 'note 13:11 “Mysteries given to those who trust”'
+    claim: 'Joseph Smith: the multitude received no explanation because of unbelief; the disciples because of faith and confidence'
+    key: jsp-letter-elders-1835-12
+    url: 'https://www.josephsmithpapers.org/paper-summary/letter-to-the-elders-of-the-church-30-november-1-december-1835/2'
+    quote: 'the very reason why the multitude, or the world, as they were designated by the Savior, did not receive an explanation upon his parables, was, because of unbelief. … and why? because of the faith and confidence which they had in him.'
+  - where: 'note 13:11 “Mysteries given to those who trust”'
+    claim: 'Joseph Smith against the cry “all is mystery”; the Savior expounded it plainly'
+    key: jsp-letter-elders-1835-12
+    url: 'https://www.josephsmithpapers.org/paper-summary/letter-to-the-elders-of-the-church-30-november-1-december-1835/2'
+    quote: 'Men are in the habit, when the truth is exhibited by the servants of God, of saying, all is mystery, they are spoken in parables, and, therefore, are not to be understood'
+
+  - where: 'note 13:12 “Whosoever receiveth”'
+    claim: 'JST Matt. 13:10–11: whosoever receiveth … continueth not to receive'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/13?lang=eng'
+    quote: 'For whosoever receiveth, to him shall be given, and he shall have more abundance; but whosoever continueth not to receive, from him shall be taken away even that he hath.'
+  - where: 'note 13:12 “Whosoever receiveth”'
+    claim: 'Two men hear the same words; one listens with intent and acts, the other neglects'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'Two men may hear the same words; one of them listens in indolence and indifference, the other with active mind intent on learning all that the words can possibly convey'
+  - where: 'note 13:12 “Whosoever receiveth”'
+    claim: 'To those who had accepted the first principles more would be given; from those who rejected it, what they had would be taken'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'To the disciples who had already gladly accepted the first principles of the gospel of Christ, more should be given; while from those who had rejected the proffered boon, even what they had theretofore possessed should be taken away.'
+
+  - where: 'note 13:14 “Isaiah’s hard commission”'
+    claim: 'Isaiah 6:10 has the Lord’s command to “shut their eyes”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/isa/6?lang=eng'
+    quote: 'Make the heart of this people fat, and make their ears heavy, and shut their eyes; lest they see with their eyes, and hear with their ears, and understand with their heart, and convert, and be healed.'
+  - where: 'note 13:14 “Isaiah’s hard commission”'
+    claim: 'Joseph Smith: the multitude was condemned because unwilling to see, not unable'
+    key: jsp-letter-elders-1835-12
+    url: 'https://www.josephsmithpapers.org/paper-summary/letter-to-the-elders-of-the-church-30-november-1-december-1835/1'
+    quote: 'the condemnation which rested upon the multitude, which received not his saying, was because they were not willing to see with their eyes and hear with their ears; not because they could not and were not privileged to see, and hear'
+  - where: 'note 13:14 “Isaiah’s hard commission”'
+    claim: 'Mercy in parables: rejecting the truth with full understanding would bring condemnation'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'There is plainly shown an element of mercy in the parabolic mode of instruction … while had they rejected the truth with full understanding, stern Justice would surely demand their condemnation.'
+  - where: 'note 13:14 “Isaiah’s hard commission”'
+    claim: 'The story lives in the memory until experience prepares the hearer for its meaning'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'And then, when time and experience, including suffering perhaps, had prepared them for deeper thought, they would find the living kernel of gospel truth within the husk of the simple tale.'
+
+  - where: 'note 13:19 “One seed, four hearers”'
+    claim: 'The seed is the word; the soils are the ways people receive it'
+    key: oaks-parable-sower
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2015/04/the-parable-of-the-sower?lang=eng'
+    quote: 'The different soils on which the seeds fell represent different ways in which mortals receive and follow these teachings.'
+  - where: 'note 13:19 “One seed, four hearers”'
+    claim: 'The wayside: trodden paths through the fields; the hardened heart, and Satan steals the seed'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'Running through the Galilean fields were pathways, hard trodden by feet of men and beasts. … So with the seed of truth falling upon the hardened heart; ordinarily it cannot take root, and Satan, as a marauding crow, steals it away'
+  - where: 'note 13:19 “One seed, four hearers”'
+    claim: 'Joseph Smith on the wayside hearer: no desire for righteousness'
+    key: jsp-letter-elders-1835-12
+    url: 'https://www.josephsmithpapers.org/paper-summary/letter-to-the-elders-of-the-church-30-november-1-december-1835/2'
+    quote: 'men who have no principle of righteousness in themselves, and whose hearts are full of iniquity, and who have no desire for the principles of truth, do not understand the word of truth, when they hear it.'
+  - where: 'note 13:19 “One seed, four hearers”'
+    claim: 'Lehi’s dream can be read as showing the same four kinds of people as the parable (the KnoWhy’s reading, after Elder Holland)'
+    key: sc-knowhy-663
+    url: 'https://scripturecentral.org/knowhy/how-does-the-parable-of-the-sower-help-us-understand-lehis-vision-of-the-tree-of-life'
+    quote: 'Similarly, the Book of Mormon contains a vision relating four distinct groups of people who accept or reject the gospel.'
+  - where: 'note 13:19 “One seed, four hearers”'
+    claim: 'The wayside, those least receptive, answers to the great and spacious building'
+    key: sc-knowhy-663
+    url: 'https://scripturecentral.org/knowhy/how-does-the-parable-of-the-sower-help-us-understand-lehis-vision-of-the-tree-of-life'
+    quote: 'representing those who are least receptive to the gospel. This group corresponds to those who filled the great and spacious building in Lehi’s dream.'
+  - where: 'note 13:19 “One seed, four hearers”'
+    claim: 'Both teach why some reject God’s truth, and warn'
+    key: sc-knowhy-663
+    url: 'https://scripturecentral.org/knowhy/how-does-the-parable-of-the-sower-help-us-understand-lehis-vision-of-the-tree-of-life'
+    quote: 'The sad outcome for these seeds acts as a warning of what behaviors and attitudes we should avoid as well as an explanation of why some people reject God’s truth and goodness.'
+
+  - where: 'note 13:22 “The subtlest thorns”'
+    claim: 'The most subtle thorns are the cares, riches and pleasures of this life'
+    key: oaks-parable-sower
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2015/04/the-parable-of-the-sower?lang=eng'
+    quote: 'The most subtle thorns to choke out the effect of the gospel word in our lives are the worldly forces that Jesus called the “cares and riches and pleasures of this life” (Luke 8:14).'
+  - where: 'note 13:22 “The subtlest thorns”'
+    claim: 'Three ways of surrender to pleasures; cares as fear of the future'
+    key: oaks-parable-sower
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2015/04/the-parable-of-the-sower?lang=eng'
+    quote: '(1) when we are addicted, which impairs God’s precious gift of agency; (2) when we are beguiled by trivial distractions … We are overcome by the “cares … of this life” when we are paralyzed by fear of the future'
+  - where: 'note 13:22 “The subtlest thorns”'
+    claim: 'Savoring the things of men: putting the cares of this world ahead of God'
+    key: oaks-parable-sower
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2015/04/the-parable-of-the-sower?lang=eng'
+    quote: 'Savoring the things of men means putting the cares of this world ahead of the things of God in our actions, our priorities, and our thinking.'
+  - where: 'note 13:22 “The subtlest thorns”'
+    claim: 'The thorns’ growth shows the soil is fit for a better crop'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'The abundant yield of thorny thistles demonstrates the fitness of the soil for a better crop, were it only free from the cumbering weeds.'
+
+  - where: 'note 13:23 “Understandeth and endureth”'
+    claim: 'JST Matt. 13:21: understandeth and endureth'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/13?lang=eng'
+    quote: '… understandeth and endureth; which …'
+  - where: 'note 13:23 “Understandeth and endureth”'
+    claim: 'The good ground differs from each other soil: it understands, endures, keeps the word'
+    key: halverson-soils-souls
+    url: 'https://rsc.byu.edu/vol-9-no-3-2008/soils-souls-parable-sower'
+    quote: 'Unlike the wayside, they “heareth the word, and understandeth it” (Matthew 13:23); unlike the stony ground, they “endureth” (Joseph Smith Translation, Matthew 13:23); and unlike the soil with thorns, they “keep [what they hear], and bring forth fruit” (Luke 8:15).'
+  - where: 'note 13:23 “Understandeth and endureth”'
+    claim: 'The parable is not fatalism: the wayside can be plowed, the stones removed, the thorns uprooted'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'He neither said nor intimated that the hard-baked soil of the wayside might not be plowed, harrowed, fertilized, and so be rendered productive; nor that the stony impediment to growth might not be broken up and removed'
+  - where: 'note 13:23 “Understandeth and endureth”'
+    claim: 'Even good soils vary in yield'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'Yet even soils classed as good are of varying degrees of productiveness, yielding an increase of thirty, sixty, or even a hundred fold, with many inter-gradations.'
+  - where: 'note 13:23 “Understandeth and endureth”'
+    claim: 'Which soil one is, is an ongoing process, not a single decision'
+    key: halverson-soils-souls
+    url: 'https://rsc.byu.edu/vol-9-no-3-2008/soils-souls-parable-sower'
+    quote: 'This is not a single decision, resulting in our permanent placement amid the soils. Rather, it is an ongoing process—with continual motion across the continuum'
+
+  - where: 'note 13:25 “Tares that look like wheat”'
+    claim: 'Darnel grows in grain fields, can carry a poisonous fungus, looks like wheat until it heads; uprooting would harm the wheat'
+    key: ball-plants-nt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/plants-new-testament'
+    quote: 'A poisonous fungus can infect the seeds of darnel, rendering flour made from darnel-contaminated grain toxic. … Once mature plants produce seed heads, darnel and wheat can be easily distinguished from one another, but before going to seed, they are very similar in appearance.'
+  - where: 'note 13:25 “Tares that look like wheat”'
+    claim: 'The householder waited lest uprooting the unripe tares uproot the wheat'
+    key: ball-plants-nt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/plants-new-testament'
+    quote: 'While the unripe tares could have been uprooted immediately upon discovery, the wise householder feared doing so would uproot the unripe wheat as well.'
+  - where: 'note 13:25 “Tares that look like wheat”'
+    claim: 'Over-sowing a field with weed seed was a malicious outrage; apart from the parable’s representation, one lesson is patience'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'One cardinal lesson of the parable, apart from the representation of actual conditions present and future, is that of patience, long-suffering, and toleration … Over-sowing with the seed of weeds in a field already sown with grain is a species of malignant outrage'
+
+  - where: 'note 13:30 “The parable explained again in 1832”'
+    claim: 'D&C 86 came while Joseph Smith was translating; the order of gathering is reversed; he had revised Matthew 13 earlier without changing it and reversed it in review'
+    key: jackson-new-translation-revelations
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/new-translation-revelations'
+    quote: 'In this revelation the order of events (gathering the wheat first) is the reverse of the order in Matthew’s parable. Working on the New Translation, Joseph Smith had revised Matthew 13 over a year and a half earlier without changing the order of events.'
+  - where: 'note 13:30 “The parable explained again in 1832”'
+    claim: 'Joseph Smith’s journal: translating and received a revelation explaining the parable'
+    key: jackson-new-translation-revelations
+    url: 'https://rsc.byu.edu/understanding-joseph-smiths-translation-bible/new-translation-revelations'
+    quote: 'In December Joseph Smith recorded in his journal, “Translating and received a revelation explaining the parable [of] the wheat and the tares,”'
+  - where: 'note 13:30 “The parable explained again in 1832”'
+    claim: 'D&C 86:2–3: apostles the sowers; after they slept the apostate sowed tares and drove the church into the wilderness'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/86?lang=eng'
+    quote: 'the field was the world, and the apostles were the sowers of the seed; … behold he soweth the tares; wherefore, the tares choke the wheat and drive the church into the wilderness.'
+  - where: 'note 13:30 “The parable explained again in 1832”'
+    claim: 'D&C 86:6–7: pluck not up while the blade is tender; gather the wheat first'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/86?lang=eng'
+    quote: 'pluck not up the tares while the blade is yet tender (for verily your faith is weak), lest you destroy the wheat also.'
+  - where: 'note 13:30 “The parable explained again in 1832”'
+    claim: 'JST Matt. 13:29: first the wheat into my barn'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/13?lang=eng'
+    quote: '… first the wheat into my barn; and the tares are bound in bundles to be burned.'
+  - where: 'note 13:30 “The parable explained again in 1832”'
+    claim: 'Joseph Smith: the gathering of the wheat takes place while the tares are being bound'
+    key: jsp-letter-elders-1835-12
+    url: 'https://www.josephsmithpapers.org/paper-summary/letter-to-the-elders-of-the-church-30-november-1-december-1835/5'
+    quote: 'We understand, that the work of the gathering together of the wheat into barns, or garners, is to take place while the tares are being bound over, and preparing for the day of burning'
+
+  - where: 'note 13:32 “A seed too small for a kingdom”'
+    claim: 'Likely black mustard; up to ten feet; not the smallest seed nor a true tree; hyperbole'
+    key: ball-plants-nt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/plants-new-testament'
+    quote: 'Hyperbole is perhaps involved in this parable for though the seeds are small, they are not the smallest or “least” among seeds. Moreover, being an annual herb, black mustard is not a true tree.'
+  - where: 'note 13:32 “A seed too small for a kingdom”'
+    claim: 'Black mustard grows up to ten feet; supports small birds'
+    key: ball-plants-nt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/plants-new-testament'
+    quote: 'Black mustard has been reported to grow up to ten feet and typically reaches three to six feet in height.'
+  - where: 'note 13:32 “A seed too small for a kingdom”'
+    claim: 'The kingdom was expected to come in glory with armies; Jesus spoke of a small beginning'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'To the mind taught by teachers of the time the kingdom was to be great and glorious from its beginning; it was to be ushered in by blare of trumpets and tramp of armies, with King Messiah at the head'
+  - where: 'note 13:32 “A seed too small for a kingdom”'
+    claim: '“As small as a mustard seed” was an everyday comparison'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'Moreover, the comparison “as small as a mustard seed” was in every-day use among the Jews of the time.'
+  - where: 'note 13:32 “A seed too small for a kingdom”'
+    claim: 'Joseph Smith: the mustard seed represents the church in the last days; the Book of Mormon; angels lodge in the branches'
+    key: jsp-letter-elders-1835-12
+    url: 'https://www.josephsmithpapers.org/paper-summary/letter-to-the-elders-of-the-church-30-november-1-december-1835/3'
+    quote: 'Let us take the book of Mormon, which a man took and hid in his field … and God is sending down his powers, gifts and angels, to lodge in the branches thereof'
+  - where: 'note 13:32 “A seed too small for a kingdom”'
+    claim: 'Joseph Smith: the figure represents the church as it shall come forth in the last days'
+    key: jsp-letter-elders-1835-12
+    url: 'https://www.josephsmithpapers.org/paper-summary/letter-to-the-elders-of-the-church-30-november-1-december-1835/3'
+    quote: 'Now we can discover plainly, that this figure is given to represent the church as it shall come forth in the last days.'
+
+  - where: 'note 13:33 “Leaven, for once, for good”'
+    claim: 'Leaven is commonly a symbol of malice and wickedness; here a type of good influence working from within'
+    key: ellicott-matthew
+    url: 'https://biblehub.com/commentaries/ellicott/matthew/13.htm'
+    quote: 'Here the working is from within. The “leaven”—commonly, as in the Passover ritual, the symbol of malice and wickedness (1Corinthians 5:8)'
+  - where: 'note 13:33 “Leaven, for once, for good”'
+    claim: 'Mustard gathers from without; leaven diffuses outward; slow, quiet, seemingly secret'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'The mustard seed, however, typifies the effect of vital growth in gathering the substance of value from without; while the leaven or yeast disseminates and diffuses outward its influence throughout the mass of otherwise dense and sodden dough.'
+  - where: 'note 13:33 “Leaven, for once, for good”'
+    claim: 'Joseph Smith: the church rose from a little leaven put into three witnesses'
+    key: jsp-letter-elders-1835-12
+    url: 'https://www.josephsmithpapers.org/paper-summary/letter-to-the-elders-of-the-church-30-november-1-december-1835/4'
+    quote: 'It may be understood that the church of the Latter Day Saints, has taken its rise from a little leaven that was put into three witnesses.'
+
+  - where: 'note 13:35 “A psalm of history, fulfilled”'
+    claim: 'Psalm 78:2 and the history that follows, told so the children would not be as their fathers'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/78?lang=eng'
+    quote: 'I will open my mouth in a parable: I will utter dark sayings of old:'
+  - where: 'note 13:35 “A psalm of history, fulfilled”'
+    claim: 'The psalm retells the history so the children might not be as their fathers'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/ps/78?lang=eng'
+    quote: 'And might not be as their fathers, a stubborn and rebellious generation'
+  - where: 'note 13:35 “A psalm of history, fulfilled”'
+    claim: 'The psalm was not predictive but a historical survey; Jesus’s teaching answered to the psalmist’s description'
+    key: ellicott-matthew
+    url: 'https://biblehub.com/commentaries/ellicott/matthew/13.htm'
+    quote: 'The Psalm itself was in no sense predictive, but simply an historical survey of God’s dealings with Israel … Here was One whose form of teaching answered to that which the Psalmist had described, who might claim the Psalmist’s words as His own'
+  - where: 'note 13:35 “A psalm of history, fulfilled”'
+    claim: 'The psalm is assigned to Asaph by its superscription'
+    key: ellicott-matthew
+    url: 'https://biblehub.com/commentaries/ellicott/matthew/13.htm'
+    quote: 'The Psalm is assigned by the superscription to the authorship of Asaph.'
+
+  - where: 'note 13:39 “The end of the world: the destruction of the wicked”'
+    claim: 'JST Matt. 13:41–44: end of this world, or the destruction of the wicked; angels sent before the Son of man comes; cast out among the wicked; world burned'
+    key: jst-matt-13
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-matt/13?lang=eng'
+    quote: 'As, therefore, the tares are gathered and burned in the fire, so shall it be in the end of this world, or the destruction of the wicked.'
+  - where: 'note 13:39 “The end of the world: the destruction of the wicked”'
+    claim: 'JST Matt. 13:42–43'
+    key: jst-matt-13
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-matt/13?lang=eng'
+    quote: 'For in that day, before the Son of man shall come, he shall send forth his angels and messengers of heaven.'
+  - where: 'note 13:39 “The end of the world: the destruction of the wicked”'
+    claim: 'Joseph Smith: the harvest and end of the world refer to the human family in the last days, not the earth'
+    key: jsp-letter-elders-1835-12
+    url: 'https://www.josephsmithpapers.org/paper-summary/letter-to-the-elders-of-the-church-30-november-1-december-1835/5'
+    quote: 'the end of the world is the destruction of the wicked; the harvest and the end of the world have an allusion directly to the human family in the last days, instead of the earth, as many have imagined'
+  - where: 'note 13:39 “The end of the world: the destruction of the wicked”'
+    claim: 'JS—M 1:4 uses the same definition'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/pgp/js-m/1?lang=eng'
+    quote: 'and of the end of the world, or the destruction of the wicked, which is the end of the world?'
+  - where: 'note 13:39 “The end of the world: the destruction of the wicked”'
+    claim: 'JST Matt. 13:49–51 (footnotes): the world is the children of the wicked; cast out into the world to be burned'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/13?lang=eng'
+    quote: '… world. And the world is the children of the wicked. The angels …'
+
+  - where: 'note 13:44 “Found by chance, found by search”'
+    claim: 'Treasure found seemingly by accident; burying valuables was common against bandits'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'Instances of finding buried valuables were not uncommon in the time of which we speak, since the practice of so concealing treasure was usual with people exposed to bandit incursions and hostile invasion.'
+  - where: 'note 13:44 “Found by chance, found by search”'
+    claim: 'The purchaser of land became owner of all it contained (Talmage)'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'his act was not illegal, since there was an express provision in Jewish law that the purchaser of land became the legal owner of everything the ground contained.'
+  - where: 'note 13:44 “Found by chance, found by search”'
+    claim: 'The merchant searched; the price in both is one’s all'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'Unlike the man in the last parable, who found a hidden treasure with little or no search, the merchant in this story devoted his whole energy to the quest for goodly pearls … Observe that in this parable as in that of the hidden treasure, the price of possession is one’s all.'
+  - where: 'note 13:44 “Found by chance, found by search”'
+    claim: 'Joseph Smith: the treasure is the Saints selling all to gather; the pearl, finding places for Zion'
+    key: jsp-letter-elders-1835-12
+    url: 'https://www.josephsmithpapers.org/paper-summary/letter-to-the-elders-of-the-church-30-november-1-december-1835/5'
+    quote: 'For the work of this example, see men travelling to find places for Zion, and her stakes or remnants, who when they find the place for Zion, or the pearl of great price; straitway sell all that they have and buy it.'
+
+  - where: 'note 13:51 “Seven parables, one history”'
+    claim: 'Joseph Smith applied each parable to a scene in the progress of the kingdom'
+    key: halverson-soils-souls
+    url: 'https://rsc.byu.edu/vol-9-no-3-2008/soils-souls-parable-sower'
+    quote: 'the sower to the establishment of the kingdom in the time of Christ; the parable of the wheat and tares to the corruption of the Church in the age of apostasy; the mustard seed to the growth of the kingdom in the last days'
+  - where: 'note 13:51 “Seven parables, one history”'
+    claim: 'Joseph Smith saw in them an understanding of the gathering'
+    key: halverson-soils-souls
+    url: 'https://rsc.byu.edu/vol-9-no-3-2008/soils-souls-parable-sower'
+    quote: 'Joseph saw in these parables—beginning with and in large part growing from the sower—”as clear an understanding upon the important subject of the gathering, as anything recorded in the Bible.”'
+  - where: 'note 13:51 “Seven parables, one history”'
+    claim: 'Joseph Smith on the net: the seed of Joseph spreading the gospel net'
+    key: jsp-letter-elders-1835-12
+    url: 'https://www.josephsmithpapers.org/paper-summary/letter-to-the-elders-of-the-church-30-november-1-december-1835/5'
+    quote: 'For the work of this pattern, behold the seed of Joseph, spreading forth the gospel net, upon the face of the earth, gathering of every kind, that the good may be saved in vessels prepared for that purpose, and the angels will take care of the bad'
+  - where: 'note 13:51 “Seven parables, one history”'
+    claim: 'Joseph Smith’s answer to “Have ye understood”: a hearty amen'
+    key: jsp-letter-elders-1835-12
+    url: 'https://www.josephsmithpapers.org/paper-summary/letter-to-the-elders-of-the-church-30-november-1-december-1835/5'
+    quote: 'and we say yea Lord, and well might they say yea Lord, for these things are so plain and so glorious, that every Saint in the last days must respond with a hearty amen to them.'
+  - where: 'note 13:51 “Seven parables, one history”'
+    claim: 'The net: men of every kind are affected by the gospel; the sorting comes after, by the angels'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'Men of many minds, men good and bad, all nationalities and races, are affected by the gospel of the kingdom. … The sorting takes place after the net is brought to shore'
+
+  - where: 'note 13:52 “A scribe made a disciple”'
+    claim: '“Instructed unto”: which has become a disciple in (footnote 52b)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/13?lang=eng'
+    quote: 'GR which has become a disciple in.'
+  - where: 'note 13:52 “A scribe made a disciple”'
+    claim: 'Things new and old: old laws of righteousness and new truths of Christ’s mission'
+    key: ellicott-matthew
+    url: 'https://biblehub.com/commentaries/ellicott/matthew/13.htm'
+    quote: 'There were the old eternal laws of righteousness … but there were also new truths, such as His own mission as the Head of the divine kingdom and the future Judge of all men'
+  - where: 'note 13:52 “A scribe made a disciple”'
+    claim: 'The disciples are to be ready, like well-taught teachers, to bring treasures old and new'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'He impressed upon them that they should be ready, like well-taught teachers, to bring, from the store-house of their souls, treasures of truth both old and new, for the edification of the world.'
+
+  - where: 'note 13:55 “The carpenter’s family”'
+    claim: 'Mark has “the carpenter”; Jesus probably helped in the workshop'
+    key: ellicott-matthew
+    url: 'https://biblehub.com/commentaries/ellicott/matthew/13.htm'
+    quote: 'In St. Mark, the question appears in the form, “Is not this the carpenter?” and it is, of course, in the nature of things probable that He both helped in the workshop during Joseph’s life'
+  - where: 'note 13:55 “The carpenter’s family”'
+    claim: 'They could not reconcile the wisdom with the obscurity of His earlier life'
+    key: ellicott-matthew
+    url: 'https://biblehub.com/commentaries/ellicott/matthew/13.htm'
+    quote: 'They could not reconcile the new wisdom and the claim which the teaching implied with the obscurity and commonness of the earlier life, and so they did not believe.'
+  - where: 'note 13:55 “The carpenter’s family”'
+    claim: 'James, brother of the Lord and of Joses, Simon, Jude and sisters; leader in Jerusalem; probably wrote the Epistle of James'
+    key: bd-james
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/james?lang=eng'
+    quote: '(3) Brother of the Lord (Gal. 1:19) and of Joses, Simon, Jude, and some sisters (Matt. 13:55; Mark 6:3; Jude 1:1); known as James the Just. He occupied an important position in the Church of Jerusalem'
+  - where: 'note 13:55 “The carpenter’s family”'
+    claim: 'James probably wrote the Epistle of James'
+    key: bd-james
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/james?lang=eng'
+    quote: 'and was probably the writer of the Epistle of James.'
+
+  - where: 'note 13:58 “Miracles wait on faith”'
+    claim: 'Mark’s language is stronger; the power depended on the faith of those who came'
+    key: ellicott-matthew
+    url: 'https://biblehub.com/commentaries/ellicott/matthew/13.htm'
+    quote: 'In St. Mark the language is stronger, “He could do no mighty works there.” The wonder-working power was not absolute and unconditioned, but depended on the faith of those who came to Him.'
+  - where: 'note 13:58 “Miracles wait on faith”'
+    claim: 'Ether 12:12: without faith God can do no miracle'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/ether/12?lang=eng'
+    quote: 'For if there be no faith among the children of men God can do no miracle among them; wherefore, he showed not himself until after their faith.'
+  - where: 'note 13:58 “Miracles wait on faith”'
+    claim: 'Luke’s Nazareth visit is placed at the beginning; no sufficient ground to assume it is the same visit'
+    key: ellicott-matthew
+    url: 'https://biblehub.com/commentaries/ellicott/matthew/13.htm'
+    quote: 'In comparing, however, St. Matthew and St. Mark with St. Luke, there seems no sufficient ground for hastily assuming identity. The third Gospel places the visit which it narrates, at the very beginning of our Lord’s work'
+
+  - where: thread
+    claim: 'Joseph Smith: the multitude received no explanation of the parables because of unbelief'
+    key: jsp-letter-elders-1835-12
+    url: 'https://www.josephsmithpapers.org/paper-summary/letter-to-the-elders-of-the-church-30-november-1-december-1835/2'
+    quote: 'the very reason why the multitude, or the world, as they were designated by the Savior, did not receive an explanation upon his parables, was, because of unbelief.'
+  - where: christ
+    claim: 'By the Lord’s own explanation the sower was Himself; those ordained after Him are also sowers'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'By the Author’s explication, the sower was Himself, the Son of Man; and, as the condition of wheat and tares growing together was one that shall continue until “the end of the world,” those who were ordained to carry on the ministry after Him are by direct implication also sowers.'
+  - where: christ
+    claim: 'Elder Oaks: it is up to each to make the soil good; firmly rooted and converted'
+    key: oaks-parable-sower
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2015/04/the-parable-of-the-sower?lang=eng'
+    quote: 'It is up to each of us to set the priorities and to do the things that make our soil good and our harvest plentiful. We must seek to be firmly rooted and converted to the gospel of Jesus Christ'
+  - where: christ
+    claim: 'Elder Oaks: conversion by prayer, scripture, service and the sacrament'
+    key: oaks-parable-sower
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2015/04/the-parable-of-the-sower?lang=eng'
+    quote: 'We achieve this conversion by praying, by scripture reading, by serving, and by regularly partaking of the sacrament to always have His Spirit to be with us.'
+  - where: explore
+    claim: 'Halverson’s essay reads the sower through Joseph Smith’s explanation'
+    key: halverson-soils-souls
+    url: 'https://rsc.byu.edu/vol-9-no-3-2008/soils-souls-parable-sower'
+    quote: 'This insight can come only by looking through the lens of Joseph Smith’s inspired explanation of the parables of the kingdom.'
+  - where: explore
+    claim: 'Talmage’s chapter 19 treats each parable of the day'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'Some of these we shall here consider briefly, in the order most advantageous for treatment'
+  - where: 'note 13:3 “Why parables, and why now”'
+    claim: 'Before this His doctrines had been set forth plainly, as in the Sermon on the Mount'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'Prior to that time His doctrines had been set forth in unveiled plainness, as witness the explicit teachings in the Sermon on the Mount.'
+  - where: 'note 13:11 “Mysteries given to those who trust”'
+    claim: 'Joseph Smith: unto his disciples he expounded it plainly'
+    key: jsp-letter-elders-1835-12
+    url: 'https://www.josephsmithpapers.org/paper-summary/letter-to-the-elders-of-the-church-30-november-1-december-1835/2'
+    quote: 'And although the Savior spoke this parable to such characters, yet unto his disciples he expounded it plainly'
+  - where: 'note 13:14 “Isaiah’s hard commission”'
+    claim: 'Plain teaching would have condemned hearers too weak in faith to accept it'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'Had He always taught in explicit declaration, such as required no interpretation, many among His hearers would have come under condemnation, inasmuch as they were too weak in faith and unprepared in heart'
+  - where: 'note 13:19 “One seed, four hearers”'
+    claim: 'The sower threw the grain by handfuls'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'The primitive method of sowing, still followed in many countries, consisted in the sower throwing the grain by handfuls against the wind, thus securing a widespread scattering.'
+  - where: 'note 13:19 “One seed, four hearers”'
+    claim: 'The thorns answer to those ashamed after tasting the fruit'
+    key: sc-knowhy-663
+    url: 'https://scripturecentral.org/knowhy/how-does-the-parable-of-the-sower-help-us-understand-lehis-vision-of-the-tree-of-life'
+    quote: 'In Lehi’s vision, this group made it to the Tree of Life by “clinging to the rod of iron,” but “after they had partaken of the fruit of the tree they did cast their eyes about as if they were ashamed” (1 Nephi 8:24–25).'
+  - where: 'note 13:19 “One seed, four hearers”'
+    claim: 'The stony ground answers to those lost in the mist of darkness'
+    key: sc-knowhy-663
+    url: 'https://scripturecentral.org/knowhy/how-does-the-parable-of-the-sower-help-us-understand-lehis-vision-of-the-tree-of-life'
+    quote: 'Similarly, Lehi saw a group of people who initially accepted and began to follow the gospel path to eternal life but ultimately were blinded by the mist of darkness so that they “wandered off and were lost” (1 Nephi 8:23).'
+  - where: 'note 13:19 “One seed, four hearers”'
+    claim: 'The good ground answers to those who hold fast to the rod and partake'
+    key: sc-knowhy-663
+    url: 'https://scripturecentral.org/knowhy/how-does-the-parable-of-the-sower-help-us-understand-lehis-vision-of-the-tree-of-life'
+    quote: 'This again corresponds to Lehi’s dream, in which some people “did press their way forward, continually holding fast to the rod of iron, until they came forth and fell down and partook of the fruit of the tree” (1 Nephi 8:30).'
+  - where: 'note 13:25 “Tares that look like wheat”'
+    claim: 'Darnel grows only in grain fields'
+    key: ball-plants-nt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/plants-new-testament'
+    quote: 'This noxious weed grass grows exclusively in grain fields and is propagated annually by being harvested with the grain and resown with the next planting of the contaminated seed.'
+  - where: 'note 13:25 “Tares that look like wheat”'
+    claim: 'Young wheat and tares hard to tell apart; intertwined roots'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'since in the early stages of growth it would have been difficult to distinguish the one from the other, and the intertwining of the roots would have caused much destruction of the precious grain.'
+  - where: 'note 13:30 “The parable explained again in 1832”'
+    claim: 'The Lord gave a further explanation through Joseph Smith in 1832'
+    key: talmage-jesus-christ-19
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-19?lang=eng'
+    quote: 'Speaking through Joseph Smith the Prophet in 1832, Jesus Christ said:'
+  - where: 'note 13:32 “A seed too small for a kingdom”'
+    claim: 'Black mustard grew wild and was cultivated in Galilee'
+    key: ball-plants-nt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/plants-new-testament'
+    quote: 'it is a common and conspicuous herb that grows abundantly in the wild and was cultivated in the Galilee during New Testament times.'
+  - where: 'note 13:32 “A seed too small for a kingdom”'
+    claim: 'Mature plants support the small birds that forage on the seeds'
+    key: ball-plants-nt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/plants-new-testament'
+    quote: 'Still, the mature plants can be large and sturdy enough to support the small birds which forage upon the seeds.'
+  - where: 'note 13:39 “The end of the world: the destruction of the wicked”'
+    claim: 'JST Matt. 13:51 (footnote): cast them out into the world to be burned'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/13?lang=eng'
+    quote: '… and shall cast them out into the world to be burned. There shall be wailing …'
+  - where: 'note 13:44 “Found by chance, found by search”'
+    claim: 'Joseph Smith: the treasure fulfilled in the Saints selling all to gather to a place of inheritance'
+    key: jsp-letter-elders-1835-12
+    url: 'https://www.josephsmithpapers.org/paper-summary/letter-to-the-elders-of-the-church-30-november-1-december-1835/5'
+    quote: 'for the work after this pattern, see the church of the Latter Day Saints, selling all that they have and gathering themselves together unto a place that they may purchase for an inheritance'
+  - where: 'note 13:51 “Seven parables, one history”'
+    claim: 'Joseph Smith on the leaven, the treasure, the pearl and the net'
+    key: halverson-soils-souls
+    url: 'https://rsc.byu.edu/vol-9-no-3-2008/soils-souls-parable-sower'
+    quote: 'the leaven to the expanding testimony of truth that was first granted to the Three Witnesses; the treasure hidden in the field to the gathering of the Latter-day Saints in their lands of inheritance; the pearl of great price to the Saints’ search to find places for Zion'
