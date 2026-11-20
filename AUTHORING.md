@@ -26,6 +26,8 @@ What is true of the whole site:
 
 **First the brief** (`content/<book>/BRIEF.md`): divisions and intro, which sources are readable online, the book-wide questions and how the Church's sources answer them, theme candidates, Restoration connections. Its research follows “A book's first research” below. Jeremiah's brief is the model, including its section “What a chapter is for”; “What the author has decided” links to the standing rules and does not copy them. Then set the book up in preview (`DEVELOPMENT.md`, “Adding a new book”).
 
+**The four Gospels share their decisions** (2026-11-20): what holds for all four, and how a story told in more than one is written, is in `content/volumes/new-testament/GOSPELS.md`, which each Gospel's brief points to.
+
 **Choosing a book is the go-ahead for all of it** (2026-10-23): the brief, the setup and the chapters follow without stopping to ask. The author reads the brief at leisure; a doctrinal choice in it is settled by the standard and recorded there, where the author can overturn it.
 
 **Then the chapters, about twelve to a batch**, each through five steps. The workflow is `.claude/workflows/write-chapters.js`, the agents' instructions are in `.claude/agents/`, and the coordinator's steps around them are in `PROCESS.md` (“Writing a book in batches”).
