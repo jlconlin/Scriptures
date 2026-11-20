@@ -1,16 +1,6 @@
 chapter: 4
 claims:
   - where: setting
-    claim: 'The temptation is told in three Gospels; John is silent'
-    key: talmage-jesus-christ-10
-    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-10?lang=eng'
-    quote: 'This remarkable episode in our Lord’s life is described, though not with equal fulness, in three of the Gospels; John is silent thereon.'
-  - where: setting
-    claim: 'Only Jesus could have told what happened in the wilderness'
-    key: talmage-jesus-christ-10
-    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-10?lang=eng'
-    quote: 'The circumstances attending this time of exile and test must have been related by Jesus Himself, for of other human witnesses there were none.'
-  - where: setting
     claim: 'The Father’s voice at the baptism'
     key: lds-scriptures
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/3?lang=eng'
@@ -35,11 +25,6 @@ claims:
     key: strathearn-gospels
     url: 'https://rsc.byu.edu/vol-8-no-2-2007/distinctive-testimonies-four-gospels'
     quote: 'The testing of Jesus in the wilderness after His baptism reminds readers of Israel’s testing in the wilderness in Deuteronomy'
-  - where: thread
-    claim: 'The word from God’s mouth was that Jesus was the Beloved Son'
-    key: talmage-jesus-christ-10
-    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-10?lang=eng'
-    quote: 'The word that had proceeded from the mouth of God, upon which Satan would have cast mistrust, was that Jesus was the Beloved Son with whom the Father was well pleased.'
   - where: section 2 plain
     claim: 'Capernaum lay on the lake shore (“sea coast”)'
     key: bd-capernaum
@@ -71,15 +56,10 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/scriptures/jst/jst-matt/4?lang=eng'
     quote: 'Jesus is led by the Spirit, not by Satan. … the Spirit setteth him on the pinnacle of the temple. … And again, Jesus was in the Spirit, and it taketh him up into an exceeding high mountain'
   - where: 'note 4:1 “Led by the Spirit to be with God”'
-    claim: 'The Spirit drew Jesus away to commune with God'
-    key: talmage-jesus-christ-10
-    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-10?lang=eng'
-    quote: 'Jesus was constrained by the promptings of the Spirit to withdraw from men and the distractions of community life, by retiring into the wilderness where He would be free to commune with His God.'
-  - where: 'note 4:1 “Led by the Spirit to be with God”'
-    claim: 'The forty days were a season of fasting and prayer'
-    key: talmage-jesus-christ-10
-    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-10?lang=eng'
-    quote: 'considered in their entirety they place beyond doubt the fact that the season was one of fasting and prayer.'
+    claim: 'Elder Hunter: the weeks apart were sustained by meditation, prayer and communion with the heavens'
+    key: hunter-temptations
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-temptations-of-christ?lang=eng'
+    quote: 'During the long weeks of seclusion, the Savior had been sustained by the exaltation of spirit that would naturally accompany such meditation, prayer, and communion with the heavens.'
   - where: 'note 4:1 “Led by the Spirit to be with God”'
     claim: 'Elder Hunter: the fast prepared Jesus for His ministry'
     key: hunter-temptations
@@ -105,6 +85,16 @@ claims:
     key: talmage-jesus-christ-10
     url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-10?lang=eng'
     quote: 'That Christ was subject to temptation during the period of His association with the apostles He expressly affirmed. That His temptations extended even to the agony in Gethsemane will appear as we proceed with this study.'
+  - where: 'note 4:1 “Could He have given in?”'
+    claim: 'Heb. 2:18: because He was tempted He can succour the tempted'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/heb/2?lang=eng'
+    quote: 'For in that he himself hath suffered being tempted, he is able to succour them that are tempted.'
+  - where: 'note 4:1 “Could He have given in?”'
+    claim: 'Mosiah 3:7: He shall suffer temptations'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/3?lang=eng'
+    quote: 'And lo, he shall suffer temptations, and pain of body, hunger, thirst, and fatigue, even more than man can suffer'
   - where: 'note 4:2 “Forty days, like Moses and like Israel”'
     claim: 'Moses fasted forty days on Sinai; Jesus also fasted forty days'
     key: griffin-matthew-portrayal
@@ -151,20 +141,40 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-10?lang=eng'
     quote: 'the superior power that Jesus possessed had not been given to Him for personal gratification, but for service to others.'
   - where: 'note 4:3 “The “if” after the Father’s voice”'
+    claim: 'The word that had proceeded from the mouth of God was that Jesus was the Beloved Son (Talmage’s own reading)'
+    key: talmage-jesus-christ-10
+    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-10?lang=eng'
+    quote: 'The word that had proceeded from the mouth of God, upon which Satan would have cast mistrust, was that Jesus was the Beloved Son with whom the Father was well pleased.'
+  - where: 'note 4:3 “The “if” after the Father’s voice”'
     claim: 'Elder Hunter: the “if” foreshadowed the taunt at the cross'
     key: hunter-temptations
     url: 'https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-temptations-of-christ?lang=eng'
     quote: 'These, of course, were foreshadows of that final, desperate temptation which would come three years later: “If thou be the Son of God, come down from the cross.” (Matt. 27:40.) But Jesus patiently withstood that ploy also'
   - where: 'note 4:5 “The pinnacle of the temple”'
-    claim: 'The southeast corner is the traditional candidate; highest point; drop of more than 400 feet'
+    claim: 'The southeast corner is the traditional candidate; a drop of more than 400 feet to the Kidron Valley'
     key: ogden-jesus-temple
     url: 'https://www.churchofjesuschrist.org/study/ensign/1991/04/jesus-and-the-temple?lang=eng'
     quote: 'The southeastern corner is the traditional candidate for the Pinnacle of the Temple. It is the highest point along the whole length of the walls of the Temple Mount—211 feet, or 64 meters. From the top of this point to the bottom of the Kidron Valley was a drop of more than 400 feet'
   - where: 'note 4:5 “The pinnacle of the temple”'
-    claim: 'Some researchers prefer the southwest corner; the inscribed herald’s stone'
+    claim: 'A few recent researchers prefer the southwest corner'
     key: ogden-jesus-temple
     url: 'https://www.churchofjesuschrist.org/study/ensign/1991/04/jesus-and-the-temple?lang=eng'
     quote: 'a few recent researchers believe this is the Pinnacle of the Temple where Jesus was tempted. In the ruins of that corner, researchers discovered a carved platform stone with a Hebrew inscription, indicating that this is where a herald would stand to blow the shofar, signaling the advent of holy days.'
+  - where: 'note 4:3 “The “if” after the Father’s voice”'
+    claim: 'Elder Hunter: the temptation was to eat in a spectacular way, using divine powers for selfish purposes'
+    key: hunter-temptations
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-temptations-of-christ?lang=eng'
+    quote: 'Satan’s temptation was to have him eat in a spectacular way—using his divine powers for selfish purposes.'
+  - where: 'note 4:5 “The pinnacle of the temple”'
+    claim: 'Elder Hunter: Satan tempted Jesus to throw Himself on the Father’s protection'
+    key: hunter-temptations
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-temptations-of-christ?lang=eng'
+    quote: 'Satan went to the other extreme and tempted Jesus to wantonly throw himself upon the Father’s protection.'
+  - where: 'note 4:5 “The pinnacle of the temple”'
+    claim: 'Elder Hunter: the temptation to a dazzling feat that might bring crowds and spread His fame; faith precedes the miracle'
+    key: hunter-temptations
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-temptations-of-christ?lang=eng'
+    quote: 'the temptation to perform some dazzling feat, some astounding exploit which might bring crowds of amazed and attentive onlookers. … the fame of which would spread like wildfire throughout all Judaea … But faith is to precede the miracle; miracles are not to precede the faith.'
   - where: 'note 4:5 “The pinnacle of the temple”'
     claim: 'Satan urged Jesus to throw Himself on the Father’s protection; God alone decides when His wonders are wrought'
     key: talmage-jesus-christ-10
@@ -200,11 +210,6 @@ claims:
     key: hunter-temptations
     url: 'https://www.churchofjesuschrist.org/study/general-conference/1976/10/the-temptations-of-christ?lang=eng'
     quote: 'he would inherit “all that [the] Father hath” (D&C 84:38)—and so would any other son or daughter of God. The surest way to lose the blessings of time or eternity is to accept them on Satan’s terms.'
-  - where: 'note 4:9 “Kingdoms that were not his to give”'
-    claim: 'Christ could have gathered the world’s wealth and glory and so failed in His mission'
-    key: talmage-jesus-christ-10
-    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-10?lang=eng'
-    quote: 'certain it is Christ could have reached out, and have gathered to Himself the wealth and glory of the world had He willed so to do, and thereby have failed in His Messianic mission. This fact Satan knew full well.'
   - where: 'note 4:10 “Moses heard the same demand”'
     claim: 'Both Moses and Jesus went apart to be with God and then were confronted by Satan; Jesus overcame all three; Moses failed three times until he called on the Only Begotten'
     key: griffin-matthew-portrayal
@@ -241,15 +246,10 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/capernaum?lang=eng'
     quote: 'At the time of our Lord the district was one of the most prosperous and crowded in all Palestine. Here the Lord lived after the beginning of His ministry … Later the Lord upbraided the people of the place for their rejection of Him'
   - where: 'note 4:19 “Fishers of men”'
-    claim: 'Fish were caught to die; men drawn to life eternal'
-    key: talmage-jesus-christ-14
-    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-14?lang=eng'
-    quote: 'Theretofore they had caught fish, and the fate of the fish was death; thereafter they were to draw men—to a life eternal.'
-  - where: 'note 4:19 “Fishers of men”'
-    claim: 'Fishers of men recalls Jeremiah 16:16'
-    key: talmage-jesus-christ-14
-    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-14?lang=eng'
-    quote: 'The correct translation is, as commentators practically agree, “From henceforth thou shalt take men alive.” … Consider in this connection the Lord’s prediction through Jeremiah (16:16), that in reaching scattered Israel, “Behold, I will send for many fishers'
+    claim: 'zōgreō in Luke 5:10: by teaching to win souls for the kingdom of God'
+    key: thayer
+    url: 'https://biblehub.com/greek/2221.htm'
+    quote: 'ἀνθρώπους ἔσῃ ζωγρῶν, thou shalt catch men, i. e. by teaching thou shalt win their souls for the kingdom of God, Luke 5:10.'
   - where: 'note 4:19 “Fishers of men”'
     claim: 'zōgreō is made from “alive”; its first sense is to take alive'
     key: thayer
@@ -271,20 +271,15 @@ claims:
     url: 'https://byustudies.byu.edu/article/joseph-smith-and-the-gospel-of-matthew'
     quote: 'Here is an explicit witness of the fact that the Christ of whom the prophets had written was now among the people.'
   - where: 'note 4:20 “They had met Him before”'
-    claim: 'Andrew and John followed Jesus at the Baptist’s testimony'
-    key: talmage-jesus-christ-11
-    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-11?lang=eng'
-    quote: 'These were Andrew and John; the latter came to be known in after years as the author of the fourth Gospel. … Andrew and John were so impressed by the Baptist’s testimony that they immediately followed Jesus'
+    claim: 'Andrew, a disciple of the Baptist, met Jesus and brought Peter'
+    key: bd-andrew
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/andrew?lang=eng'
+    quote: 'As a disciple of John the Baptist he met Jesus and then brought Peter to meet Jesus.'
   - where: 'note 4:20 “They had met Him before”'
-    claim: 'The early disciples had not stayed with Him continuously; Peter already identified with the work'
-    key: talmage-jesus-christ-14
-    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-14?lang=eng'
-    quote: 'It is improbable that the disciples who followed Jesus in the early months of His ministry had remained with Him continuously down to the time now under consideration. … One of the boats belonged to Simon Peter, who had already become identified with the Master’s work'
-  - where: 'note 4:20 “They had met Him before”'
-    claim: 'Matthew and Mark omit the draught of fishes and emphasize the call'
-    key: talmage-jesus-christ-14
-    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-14?lang=eng'
-    quote: 'the briefer and less circumstantial accounts given by Matthew and Mark omit the incident of the miraculous draught of fishes, and emphasize the calling of the fishermen.'
+    claim: 'John is probably the unnamed disciple of John 1:40; later called (Matt. 4:21–22 with Luke 5:1–11); a fisherman in fairly comfortable circumstances'
+    key: bd-john
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/john?lang=eng'
+    quote: 'In his early life he was a fisherman in fairly comfortable circumstances (Mark 1:20). We may assume he is the unnamed disciple of the Baptist mentioned in John 1:40. Later on he received a call to be a disciple of Jesus Christ (Matt. 4:21–22; Luke 5:1–11).'
   - where: 'note 4:20 “They had met Him before”'
     claim: 'The Galilee fisheries were a great source of wealth'
     key: bd-galilee
