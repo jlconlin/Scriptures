@@ -63,7 +63,7 @@ A chapter's sections follow its stories (`node scripts/stories.mjs matthew <n>`)
 - **Matthew's own wording is the text.** A note quotes the verse it sits on; Mark's or Luke's wording comes in only where the difference is the question (`GOSPELS.md`).
 - **Dates and places.** The author's chronology is the order the site follows (`GOSPELS.md`). A year (Herod's death, the crucifixion) is given only from a source read, as that source's, never as settled where sources differ. The Bible Dictionary places the Transfiguration “in about October, some six months before the death of Jesus” (`bd-transfiguration`).
 - **The Pharisees, the scribes and “the Jews.”** See “Contested and sensitive questions.” The convention for every chapter: name the group the verse names (the Pharisees, the chief priests and elders, the multitude), and never let a note's wording pass from a group in a scene to a people in every age.
-- **Talmage.** *Jesus the Christ* runs in order through the life (chapter 17 is the Sermon on the Mount; chapter 37 the Resurrection and Ascension); find the chapter for a passage on its contents page. Read it after the newer Latter-day Saint work, and cite it for doctrine and for his reading as an apostle (`GOSPELS.md`).
+- **Talmage.** *Jesus the Christ* is cited only for doctrine and for his own reading of a passage, never for history, and not in `setting` or `thread`; no more than about a quarter of a chapter's notes (`GOSPELS.md` has the rule in full, and why). It runs in order through the life (chapter 17 is the Sermon on the Mount; chapter 37 the Resurrection and Ascension); find the chapter for a passage on its contents page, last.
 
 ## Contested and sensitive questions
 

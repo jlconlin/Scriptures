@@ -78,6 +78,7 @@ const ANNOUNCE_VERBS = [
 ];
 const ANNOUNCED = new RegExp(`\\b(?:${ANNOUNCERS.join('|')})\\s+(?:also |then |here |likewise )?(?:${ANNOUNCE_VERBS.join('|')})\\b`, 'gi');
 const OUTSIDE_COMMENTARY_SHARE = 1 / 3; // of a chapter's notes, citing a commentary read on Bible Hub
+const TALMAGE_SHARE = 1 / 4; // of a chapter's notes, citing Jesus the Christ (content/volumes/new-testament/GOSPELS.md)
 const SETTING_WORDS = [120, 280]; // the guideline is 150–250
 const PAGE_WORDS = 4000; // a theme page is an essay; this is its upper limit, not a target (PAGES.md, 2026-10-25)
 // What --repeats leaves out: scripture, lexicons, and dictionary entries are meant to be quoted again.
@@ -355,6 +356,8 @@ for (const book of books) {
     const bibleHubCommentary = (k) => { try { const u = new URL(sources[k]?.url); return /(^|\.)biblehub\.com$/.test(u.hostname) && u.pathname.startsWith('/commentaries/'); } catch { return false; } };
     const outsideNotes = notes.filter((n) => (n.sources ?? []).some((k) => bibleHubCommentary(keyOf(k))));
     if (outsideNotes.length > notes.length * OUTSIDE_COMMENTARY_SHARE) outside.push(`${label}: ${outsideNotes.length}/${notes.length} notes cite a commentary read on Bible Hub (notes ${outsideNotes.map((n) => n.ref ?? '?').join(', ')})`);
+    const talmageNotes = notes.filter((n) => (n.sources ?? []).some((k) => /^talmage-jesus-christ/.test(keyOf(k))));
+    if (talmageNotes.length > notes.length * TALMAGE_SHARE) outside.push(`${label}: ${talmageNotes.length}/${notes.length} notes cite Talmage's Jesus the Christ (notes ${talmageNotes.map((n) => n.ref ?? '?').join(', ')}); he is cited for doctrine and his own reading, never for history`);
     if (ch.setting !== undefined) {
       const words = String(ch.setting).trim().split(/\s+/).filter(Boolean).length;
       if (words < SETTING_WORDS[0] || words > SETTING_WORDS[1]) settingLength.push(`${label}: setting is ${words} words (the guideline is 150–250)`);
@@ -489,7 +492,7 @@ for (const [group, list] of [
   ['[@key] markers in a chapter file (warnings only; STANDARDS.md §6: chapter pages don\'t render them)', markers],
   ['Notes whose first sentence withholds the subject (warnings only; STANDARDS.md §3: the first sentence is the preview card)', openers],
   ['Theme pages titled as a chapter is (warnings only; PAGES.md)', titleClash],
-  ['Chapters leaning on commentaries read on Bible Hub (warnings only; STANDARDS.md §1)', outside],
+  ['Chapters leaning on commentaries read on Bible Hub, or on Talmage (warnings only; STANDARDS.md §1; GOSPELS.md)', outside],
   ['Chapters whose setting is outside the length it should have (warnings only; STANDARDS.md §3)', settingLength],
   ['Theme pages over the length they should have (warnings only; PAGES.md)', pageLength],
   ['Citations in a section of a guide or theme page with no ledger row for that key under that section (warnings only; PAGES.md)', uncitedSection],
