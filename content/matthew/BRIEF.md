@@ -11,7 +11,8 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository (“The Gospels�
 `node scripts/status.mjs matthew` prints what the repository shows once the book is set up; the history is `git log -- content/matthew`. What a script can't see:
 
 - **Set up in preview on 2026-11-20,** on the branch `matthew`. `data/kjv/matthew.json` matches the Gospel Library edition (`check-kjv.mjs` reports no difference). `scripts/footnotes.mjs`, `scripts/greek.mjs` and `scripts/stories.mjs` all work for the book. The intro in `book.yaml` does not yet end with a pointer to a New Testament volume guide, because none is written (`content/volumes/new-testament/GUIDES.md`).
-- **Chapters 1 to 4 are the trial** of the shared research (`GOSPELS.md`): the author reads them before the rest are run. This brief was drafted by an Opus agent from its own research and edited by the coordinating session; the author has not read it.
+- **Chapters 1 to 4 are written and reviewed (2026-11-20): the trial** of the shared research (`GOSPELS.md`). **Chapters 5 to 28 wait until the author has read them** (`OPEN-QUESTIONS.md`, N7). This brief was drafted by an Opus agent from its own research and edited by the coordinating session; the author has not read it.
+- **“Cowdery” in chapter 3** is Oliver Cowdery in a quotation of Joseph Smith—History, not a modern scholar: `check-content`'s warning there is a false match.
 
 ## What the author has decided
 
