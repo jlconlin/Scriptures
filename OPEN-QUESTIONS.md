@@ -14,6 +14,17 @@ The author has read almost none of the site. A theme page or guide the author ha
 
 Nothing.
 
+## The Gospels
+
+What importing the author's chronology found (`node scripts/chronology.mjs --check` prints all of it; line numbers are lines of `Appendices/Chronology.tex`). The original is the author's, so each is a change the author makes or approves there; the import is then run again.
+
+- **N1. Luke 27:39–43** (line 724, “Today thou shalt be with me in paradise”): Luke has no chapter 27. *Recommend* 23:39–43, which no other row has.
+- **N2. John 16:29–30 is given to two rows** (line 667, “Apostles testify of Christ,” and line 668, “Again warns of future calamity”), and John 16:31–33 to none. *Recommend* line 668 as 16:31–33.
+- **N3. Verses in no row.** Each with the row it would join, or leave it out on purpose: Matthew 16:27 (line 364, “Lost life shall be found,” now 16:24–26); Matthew 27:36 (line 718, “Crucified”); Luke 13:18–19 (the mustard seed, whose row at line 480 is commented out); Luke 21:38 (line 630, “Retires to Mount of Olives”); Luke 22:17 (line 641, “Institutes the Sacrament,” now 22:18–20, or line 634); John 1:34 (line 93, now 1:32–33); John 4:45 (line 141, “Travels to Galilee,” now 4:43).
+- **N4. Passages placed twice.** Keep both, or say which is the place: Matthew 11:25–30 (lines 245–246 in Galilee and lines 452–453 with the Seventy); Matthew 10:1–4 (line 193 and lines 295–296); Luke 9:51 (lines 443 and 514); Luke 22:66–71 (lines 686 and 693). The other fifty or so shared verses are one verse at the join of two rows and need nothing.
+- **N5. Line 739 reads “Arimath\ae asks”** and prints as “Arimathæasks.” *Recommend* “Arimath\ae a asks.” Two labels are each used by two rows, which matters only to the book's page references: `sec:ReturningtoNazareth` (lines 291, 292) and `par:JesusHearsofBaptistsDeath` (lines 302, 312).
+- **N6. The grouping into 165 stories** (`content/volumes/new-testament/stories.yaml`) is a first proposal and waits for the author's reading: which stories to join or divide.
+
 ## Answered, awaiting implementation
 
 Nothing.
