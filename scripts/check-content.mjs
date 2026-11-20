@@ -77,7 +77,6 @@ const ANNOUNCE_VERBS = [
   'mentions?', 'maintains?', 'proposes?', 'connects?', 'compares?', 'traces', 'links?',
 ];
 const ANNOUNCED = new RegExp(`\\b(?:${ANNOUNCERS.join('|')})\\s+(?:also |then |here |likewise )?(?:${ANNOUNCE_VERBS.join('|')})\\b`, 'gi');
-const OUTSIDE_COMMENTARY_SHARE = 1 / 3; // of a chapter's notes, citing a commentary read on Bible Hub
 const SETTING_WORDS = [120, 280]; // the guideline is 150–250
 const PAGE_WORDS = 4000; // a theme page is an essay; this is its upper limit, not a target (PAGES.md, 2026-10-25)
 // What --repeats leaves out: scripture, lexicons, and dictionary entries are meant to be quoted again.
@@ -229,7 +228,6 @@ const titled = (text, i) => /\b(?:Elder|President|Bishop|Sister|Brother|Apostle)
 const pageLength = []; // theme pages over the length they should have
 const uncitedSection = []; // a [@key] cited in a section of a guide or theme page that has no ledger row for that section
 const ownConnections = []; // theme pages' own connections (ledger rows “Connection made by this page:”): information, not a warning
-const outside = []; // chapters leaning on commentaries read on Bible Hub
 const settingLength = []; // setting outside the length it should have
 const repeatedQuotes = []; // --repeats: passages quoted in the ledgers of several chapters
 const unusedProposed = []; // proposed sources the chapter does not cite
@@ -313,7 +311,7 @@ for (const book of books) {
     const finders = [...cited].filter(isFinder).sort();
     if (finders.length) leaning.push(`${label}: cites ${finders.join(', ')}`);
 
-    // Pointers to a note that isn't there (an error with a ledger), announced sources, outside commentary, and the length of `setting`.
+    // Pointers to a note that isn't there (an error with a ledger), announced sources, and the length of `setting`.
     const hasLedger = existsSync(path.join(bdir, 'evidence', f));
     const prose = [['setting', ch.setting], ['thread', ch.thread], ['christ', ch.christ], ['explore', ch.explore], ...notes.map((n) => [`note ${n.ref ?? '?'}`, n.body])];
     for (const [where, t] of [...prose, ...(ch.sections ?? []).map((sec, i) => [`section ${i + 1} plain`, sec.plain])]) {
@@ -352,9 +350,6 @@ for (const book of books) {
       }
       for (const phrase of new Set([...text.matchAll(ANNOUNCED)].map((m) => m[0]))) announced.push(`${label} ${where}: “${phrase}”`);
     }
-    const bibleHubCommentary = (k) => { try { const u = new URL(sources[k]?.url); return /(^|\.)biblehub\.com$/.test(u.hostname) && u.pathname.startsWith('/commentaries/'); } catch { return false; } };
-    const outsideNotes = notes.filter((n) => (n.sources ?? []).some((k) => bibleHubCommentary(keyOf(k))));
-    if (outsideNotes.length > notes.length * OUTSIDE_COMMENTARY_SHARE) outside.push(`${label}: ${outsideNotes.length}/${notes.length} notes cite a commentary read on Bible Hub (notes ${outsideNotes.map((n) => n.ref ?? '?').join(', ')})`);
     if (ch.setting !== undefined) {
       const words = String(ch.setting).trim().split(/\s+/).filter(Boolean).length;
       if (words < SETTING_WORDS[0] || words > SETTING_WORDS[1]) settingLength.push(`${label}: setting is ${words} words (the guideline is 150–250)`);
@@ -467,7 +462,7 @@ for (const book of books) {
   }
 }
 
-warnings += unusedProposed.length + keyNoRow.length + whereNoPart.length + noteNoRow.length + quoteNoRow.length + nonStrict.length + leaning.length + dangling.length + announced.length + outside.length + settingLength.length + pageLength.length + uncitedSection.length + repeatedQuotes.length;
+warnings += unusedProposed.length + keyNoRow.length + whereNoPart.length + noteNoRow.length + quoteNoRow.length + nonStrict.length + leaning.length + dangling.length + announced.length + settingLength.length + pageLength.length + uncitedSection.length + repeatedQuotes.length;
 if (nonStrict.length && !quiet) {
   console.log(`\nChapters without an evidence ledger (warnings only):`);
   for (const l of nonStrict) console.warn(`  ⚠ ${l}`);
@@ -489,7 +484,6 @@ for (const [group, list] of [
   ['[@key] markers in a chapter file (warnings only; STANDARDS.md §6: chapter pages don\'t render them)', markers],
   ['Notes whose first sentence withholds the subject (warnings only; STANDARDS.md §3: the first sentence is the preview card)', openers],
   ['Theme pages titled as a chapter is (warnings only; PAGES.md)', titleClash],
-  ['Chapters leaning on commentaries read on Bible Hub (warnings only; STANDARDS.md §1)', outside],
   ['Chapters whose setting is outside the length it should have (warnings only; STANDARDS.md §3)', settingLength],
   ['Theme pages over the length they should have (warnings only; PAGES.md)', pageLength],
   ['Citations in a section of a guide or theme page with no ledger row for that key under that section (warnings only; PAGES.md)', uncitedSection],

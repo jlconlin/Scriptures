@@ -35,7 +35,7 @@ Questions a reader of Matthew asks again and again (a start, not a limit):
 - *How is this different in the Book of Mormon?* Above all the Sermon at the Temple (3 Nephi 12–14).
 - *Why does Matthew tell it this way?* What Matthew adds, leaves out or places differently from Mark and Luke (`GOSPELS.md`, “How a story's research is shared”).
 
-**Where answers come from** is `STANDARDS.md` §1's order, with Talmage after the Latter-day Saint studies and Ellicott, the *Expositor's Greek Testament*, Meyer, the *Cambridge Bible* and Edersheim last (`GOSPELS.md`), outside commentary in no more than about a third of a chapter's notes. Matthew is well served by Latter-day Saint studies; search them first. **Don't always go to the same source first** (`GOSPELS.md`): the works that cover every verse (*Jesus the Christ*, the Bible Dictionary, Ellicott) are cited when they answer the question, and are not where the search begins. The entries quoted in this brief are leads for the questions they are quoted under.
+**Where answers come from** is `STANDARDS.md` §1's order, with Talmage after the Latter-day Saint studies and Ellicott, the *Expositor's Greek Testament*, Meyer, the *Cambridge Bible* and Edersheim last (`GOSPELS.md`). Matthew is well served by Latter-day Saint studies; search them first. **Don't always go to the same source first** (`GOSPELS.md`): the works that cover every verse (*Jesus the Christ*, the Bible Dictionary, Ellicott) are cited when they answer the question, and are not where the search begins. The entries quoted in this brief are leads for the questions they are quoted under.
 
 ## Divisions
 
