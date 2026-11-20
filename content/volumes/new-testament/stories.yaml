@@ -1,71 +1,86 @@
 # The stories of the four Gospels: the author’s chronology (chronology.yaml beside this file) with its events gathered
-# into the units that are researched once and that the harmony guide shows (GOSPELS.md). Written by hand: a story is a
-# title, the period it falls in, and its verses in each Gospel. `node scripts/chronology.mjs --check` says which events
+# into the units that are researched once and that the harmony guide shows (GOSPELS.md). Written by hand: a story is an
+# id (the name of its research file in stories/), a title, the period it falls in, and its verses in each Gospel. `node scripts/chronology.mjs --check` says which events
 # no story holds whole and which story verses no event has.
 stories:
-  - title: Luke’s preface
+  - id: lukes-preface
+    title: Luke’s preface
     period: Birth and Early Life
     luke:
       - 1:1-4
-  - title: The Word was made flesh
+  - id: the-word-was-made-flesh
+    title: The Word was made flesh
     period: Birth and Early Life
     john:
       - 1:1-14
-  - title: The genealogies of Jesus
+  - id: the-genealogies-of-jesus
+    title: The genealogies of Jesus
     period: Birth and Early Life
     matthew:
       - 1:1-17
     luke:
       - 3:23-38
-  - title: Gabriel appears to Zacharias
+  - id: gabriel-appears-to-zacharias
+    title: Gabriel appears to Zacharias
     period: Birth and Early Life
     luke:
       - 1:5-25
-  - title: Gabriel appears to Mary
+  - id: gabriel-appears-to-mary
+    title: Gabriel appears to Mary
     period: Birth and Early Life
     luke:
       - 1:26-38
-  - title: Joseph’s dream
+  - id: josephs-dream
+    title: Joseph’s dream
     period: Birth and Early Life
     matthew:
       - 1:18-24
-  - title: Mary visits Elisabeth
+  - id: mary-visits-elisabeth
+    title: Mary visits Elisabeth
     period: Birth and Early Life
     luke:
       - 1:39-55
-  - title: The birth of John the Baptist
+  - id: the-birth-of-john-the-baptist
+    title: The birth of John the Baptist
     period: Birth and Early Life
     luke:
       - 1:56-80
-  - title: The birth of Jesus
+  - id: the-birth-of-jesus
+    title: The birth of Jesus
     period: Birth and Early Life
     matthew:
       - 1:25
     luke:
       - 2:1-7
-  - title: The shepherds
+  - id: the-shepherds
+    title: The shepherds
     period: Birth and Early Life
     luke:
       - 2:8-20
-  - title: "The presentation in the temple: Simeon and Anna"
+  - id: the-presentation-in-the-temple-simeon-and-anna
+    title: "The presentation in the temple: Simeon and Anna"
     period: Birth and Early Life
     luke:
       - 2:20-38
-  - title: The wise men
+  - id: the-wise-men
+    title: The wise men
     period: Birth and Early Life
     matthew:
       - 2:1-12
-  - title: The flight into Egypt and the return to Nazareth
+  - id: the-flight-into-egypt-and-the-return-to-nazareth
+    title: The flight into Egypt and the return to Nazareth
     period: Birth and Early Life
     matthew:
       - 2:13-23
     luke:
       - 2:39-40
-  - title: The boy Jesus in the temple
+  - id: the-boy-jesus-in-the-temple
+    title: The boy Jesus in the temple
     period: Birth and Early Life
     luke:
       - 2:41-52
-  - title: The preaching of John the Baptist
+  - id: the-preaching-of-john-the-baptist
+    title: The preaching of John the Baptist
     period: Ministry of John the Baptist
     matthew:
       - 3:1-13
@@ -75,7 +90,8 @@ stories:
       - 3:1-18
     john:
       - 1:15-28
-  - title: The baptism of Jesus
+  - id: the-baptism-of-jesus
+    title: The baptism of Jesus
     period: Ministry of John the Baptist
     matthew:
       - 3:13-17
@@ -85,7 +101,8 @@ stories:
       - 3:21-22
     john:
       - 1:29-33
-  - title: The temptation in the wilderness
+  - id: the-temptation-in-the-wilderness
+    title: The temptation in the wilderness
     period: Preparation for the ministry
     matthew:
       - 4:1-11
@@ -93,32 +110,39 @@ stories:
       - 1:12-13
     luke:
       - 4:1-13
-  - title: The first disciples
+  - id: the-first-disciples
+    title: The first disciples
     period: Preparation for the ministry
     john:
       - 1:35-51
-  - title: The marriage at Cana
+  - id: the-marriage-at-cana
+    title: The marriage at Cana
     period: First Ministry in Galilee
     john:
       - 2:1-12
-  - title: The first cleansing of the temple
+  - id: the-first-cleansing-of-the-temple
+    title: The first cleansing of the temple
     period: First Ministry in Jerusalem
     john:
       - 2:13-25
-  - title: Nicodemus
+  - id: nicodemus
+    title: Nicodemus
     period: First Ministry in Jerusalem
     john:
       - 3:1-21
-  - title: John the Baptist’s last testimony
+  - id: john-the-baptists-last-testimony
+    title: John the Baptist’s last testimony
     period: First Ministry in Jerusalem
     john:
       - 3:22-36
       - 4:1-2
-  - title: The woman at the well
+  - id: the-woman-at-the-well
+    title: The woman at the well
     period: Ministry to the Samaritans
     john:
       - 4:3-42
-  - title: Jesus returns to Galilee
+  - id: jesus-returns-to-galilee
+    title: Jesus returns to Galilee
     period: Second Ministry in Galilee
     matthew:
       - 4:12-17
@@ -129,15 +153,18 @@ stories:
       - 4:14-15
     john:
       - 4:43-44
-  - title: Rejected at Nazareth
+  - id: rejected-at-nazareth
+    title: Rejected at Nazareth
     period: Second Ministry in Galilee
     luke:
       - 4:16-30
-  - title: The nobleman’s son healed
+  - id: the-noblemans-son-healed
+    title: The nobleman’s son healed
     period: Second Ministry in Galilee
     john:
       - 4:46-54
-  - title: An unclean spirit cast out in the synagogue at Capernaum
+  - id: an-unclean-spirit-cast-out-in-the-synagogue-at-capernaum
+    title: An unclean spirit cast out in the synagogue at Capernaum
     period: Second Ministry in Galilee
     matthew:
       - 4:13
@@ -147,7 +174,8 @@ stories:
       - 1:21-28
     luke:
       - 4:31-37
-  - title: Peter’s wife’s mother and the healings at evening
+  - id: peters-wifes-mother-and-the-healings-at-evening
+    title: Peter’s wife’s mother and the healings at evening
     period: Second Ministry in Galilee
     matthew:
       - 8:14-17
@@ -156,13 +184,15 @@ stories:
       - 1:39
     luke:
       - 4:38-41
-  - title: Prayer in a solitary place
+  - id: prayer-in-a-solitary-place
+    title: Prayer in a solitary place
     period: Second Ministry in Galilee
     mark:
       - 1:35-39
     luke:
       - 4:42-44
-  - title: The call of the fishermen
+  - id: the-call-of-the-fishermen
+    title: The call of the fishermen
     period: Second Ministry in Galilee
     matthew:
       - 4:18-22
@@ -170,7 +200,8 @@ stories:
       - 1:16-20
     luke:
       - 5:1-11
-  - title: A leper cleansed
+  - id: a-leper-cleansed
+    title: A leper cleansed
     period: Second Ministry in Galilee
     matthew:
       - 8:1-4
@@ -178,7 +209,8 @@ stories:
       - 1:40-45
     luke:
       - 5:12-16
-  - title: The man with the palsy forgiven and healed
+  - id: the-man-with-the-palsy-forgiven-and-healed
+    title: The man with the palsy forgiven and healed
     period: Second Ministry in Galilee
     matthew:
       - 9:1-8
@@ -186,7 +218,8 @@ stories:
       - 2:1-12
     luke:
       - 5:17-26
-  - title: The call of Matthew
+  - id: the-call-of-matthew
+    title: The call of Matthew
     period: Second Ministry in Galilee
     matthew:
       - 9:9-13
@@ -194,7 +227,8 @@ stories:
       - 2:13-17
     luke:
       - 5:27-32
-  - title: "The question about fasting: new cloth and new bottles"
+  - id: the-question-about-fasting-new-cloth-and-new-bottles
+    title: "The question about fasting: new cloth and new bottles"
     period: Second Ministry in Galilee
     matthew:
       - 9:14-17
@@ -202,15 +236,18 @@ stories:
       - 2:18-22
     luke:
       - 5:33-39
-  - title: The pool of Bethesda
+  - id: the-pool-of-bethesda
+    title: The pool of Bethesda
     period: Passover and Ministry in Jerusalem
     john:
       - 5:1-18
-  - title: "The Son and the Father: the discourse after Bethesda"
+  - id: the-son-and-the-father-the-discourse-after-bethesda
+    title: "The Son and the Father: the discourse after Bethesda"
     period: Passover and Ministry in Jerusalem
     john:
       - 5:19-47
-  - title: Plucking corn on the Sabbath
+  - id: plucking-corn-on-the-sabbath
+    title: Plucking corn on the Sabbath
     period: Third Ministry in Galilee
     matthew:
       - 12:1-9
@@ -218,7 +255,8 @@ stories:
       - 2:23-28
     luke:
       - 6:1-5
-  - title: The withered hand healed on the Sabbath
+  - id: the-withered-hand-healed-on-the-sabbath
+    title: The withered hand healed on the Sabbath
     period: Third Ministry in Galilee
     matthew:
       - 12:10-14
@@ -226,13 +264,15 @@ stories:
       - 3:1-6
     luke:
       - 6:6-11
-  - title: Multitudes healed; the chosen servant
+  - id: multitudes-healed-the-chosen-servant
+    title: Multitudes healed; the chosen servant
     period: Third Ministry in Galilee
     matthew:
       - 12:15-21
     mark:
       - 3:7-12
-  - title: The Twelve chosen
+  - id: the-twelve-chosen
+    title: The Twelve chosen
     period: Third Ministry in Galilee
     matthew:
       - 10:1-4
@@ -240,63 +280,77 @@ stories:
       - 3:13-21
     luke:
       - 6:12-19
-  - title: "The Sermon on the Mount: the Beatitudes, salt and light"
+  - id: the-sermon-on-the-mount-the-beatitudes-salt-and-light
+    title: "The Sermon on the Mount: the Beatitudes, salt and light"
     period: Sermon on the Mount
     matthew:
       - 5:1-16
-  - title: "The Sermon on the Mount: the law fulfilled"
+  - id: the-sermon-on-the-mount-the-law-fulfilled
+    title: "The Sermon on the Mount: the law fulfilled"
     period: Sermon on the Mount
     matthew:
       - 5:17-48
-  - title: "The Sermon on the Mount: alms, prayer and fasting"
+  - id: the-sermon-on-the-mount-alms-prayer-and-fasting
+    title: "The Sermon on the Mount: alms, prayer and fasting"
     period: Sermon on the Mount
     matthew:
       - 6:1-18
-  - title: "The Sermon on the Mount: treasure in heaven"
+  - id: the-sermon-on-the-mount-treasure-in-heaven
+    title: "The Sermon on the Mount: treasure in heaven"
     period: Sermon on the Mount
     matthew:
       - 6:19-34
-  - title: "The Sermon on the Mount: judging, asking, the golden rule"
+  - id: the-sermon-on-the-mount-judging-asking-the-golden-rule
+    title: "The Sermon on the Mount: judging, asking, the golden rule"
     period: Sermon on the Mount
     matthew:
       - 7:1-12
-  - title: "The Sermon on the Mount: the two ways and the two builders"
+  - id: the-sermon-on-the-mount-the-two-ways-and-the-two-builders
+    title: "The Sermon on the Mount: the two ways and the two builders"
     period: Sermon on the Mount
     matthew:
       - 7:13-29
-  - title: The Sermon on the Plain
+  - id: the-sermon-on-the-plain
+    title: The Sermon on the Plain
     period: Third Ministry in Galilee
     luke:
       - 6:20-49
-  - title: The centurion’s servant
+  - id: the-centurions-servant
+    title: The centurion’s servant
     period: Continued Ministry in Galilee
     matthew:
       - 8:5-13
     luke:
       - 7:1-10
-  - title: The widow’s son at Nain
+  - id: the-widows-son-at-nain
+    title: The widow’s son at Nain
     period: Continued Ministry in Galilee
     luke:
       - 7:11-17
-  - title: John the Baptist’s question, and Jesus’s witness of him
+  - id: john-the-baptists-question-and-jesuss-witness-of-him
+    title: John the Baptist’s question, and Jesus’s witness of him
     period: Continued Ministry in Galilee
     matthew:
       - 11:1-19
     luke:
       - 7:18-35
-  - title: Come unto me
+  - id: come-unto-me
+    title: Come unto me
     period: Continued Ministry in Galilee
     matthew:
       - 11:25-30
-  - title: A woman anoints Jesus in the house of Simon the Pharisee
+  - id: a-woman-anoints-jesus-in-the-house-of-simon-the-pharisee
+    title: A woman anoints Jesus in the house of Simon the Pharisee
     period: Continued Ministry in Galilee
     luke:
       - 7:36-50
-  - title: The women who followed Jesus
+  - id: the-women-who-followed-jesus
+    title: The women who followed Jesus
     period: Continued Ministry in Galilee
     luke:
       - 8:1-3
-  - title: Accused of casting out devils by Beelzebub
+  - id: accused-of-casting-out-devils-by-beelzebub
+    title: Accused of casting out devils by Beelzebub
     period: Continued Ministry in Galilee
     matthew:
       - 12:22-37
@@ -305,14 +359,16 @@ stories:
     luke:
       - 11:14-23
       - 11:27-28
-  - title: The sign of Jonas
+  - id: the-sign-of-jonas
+    title: The sign of Jonas
     period: Continued Ministry in Galilee
     matthew:
       - 12:38-45
     luke:
       - 11:24-26
       - 11:29-36
-  - title: His mother and His brethren
+  - id: his-mother-and-his-brethren
+    title: His mother and His brethren
     period: Continued Ministry in Galilee
     matthew:
       - 12:46-50
@@ -320,7 +376,8 @@ stories:
       - 3:31-35
     luke:
       - 8:19-21
-  - title: The parable of the sower
+  - id: the-parable-of-the-sower
+    title: The parable of the sower
     period: Continued Ministry in Galilee
     matthew:
       - 13:1-23
@@ -328,13 +385,15 @@ stories:
       - 4:1-25
     luke:
       - 8:4-18
-  - title: The parables of the kingdom
+  - id: the-parables-of-the-kingdom
+    title: The parables of the kingdom
     period: Continued Ministry in Galilee
     matthew:
       - 13:24-52
     mark:
       - 4:26-34
-  - title: The storm stilled
+  - id: the-storm-stilled
+    title: The storm stilled
     period: Continued Ministry in Galilee
     matthew:
       - 8:23-27
@@ -342,7 +401,8 @@ stories:
       - 4:35-41
     luke:
       - 8:22-25
-  - title: "Legion: the man among the tombs"
+  - id: legion-the-man-among-the-tombs
+    title: "Legion: the man among the tombs"
     period: Continued Ministry in Galilee
     matthew:
       - 8:28-34
@@ -350,7 +410,8 @@ stories:
       - 5:1-20
     luke:
       - 8:26-39
-  - title: Jairus’s daughter and the woman with an issue of blood
+  - id: jairuss-daughter-and-the-woman-with-an-issue-of-blood
+    title: Jairus’s daughter and the woman with an issue of blood
     period: Continued Ministry in Galilee
     matthew:
       - 9:18-26
@@ -358,17 +419,20 @@ stories:
       - 5:21-43
     luke:
       - 8:40-56
-  - title: Two blind men and a dumb man healed
+  - id: two-blind-men-and-a-dumb-man-healed
+    title: Two blind men and a dumb man healed
     period: Continued Ministry in Galilee
     matthew:
       - 9:27-34
-  - title: Rejected at Nazareth a second time
+  - id: rejected-at-nazareth-a-second-time
+    title: Rejected at Nazareth a second time
     period: Ministry of the Apostles
     matthew:
       - 13:53-58
     mark:
       - 6:1-6
-  - title: The Twelve sent out
+  - id: the-twelve-sent-out
+    title: The Twelve sent out
     period: Ministry of the Apostles
     matthew:
       - 9:35-38
@@ -379,7 +443,8 @@ stories:
     luke:
       - 9:1-6
       - 9:10
-  - title: The death of John the Baptist
+  - id: the-death-of-john-the-baptist
+    title: The death of John the Baptist
     period: Ministry of the Apostles
     matthew:
       - 14:1-13
@@ -387,7 +452,8 @@ stories:
       - 6:14-30
     luke:
       - 9:7-9
-  - title: The feeding of the five thousand
+  - id: the-feeding-of-the-five-thousand
+    title: The feeding of the five thousand
     period: Further Ministry in Galilee
     matthew:
       - 14:13-21
@@ -397,7 +463,8 @@ stories:
       - 9:10-17
     john:
       - 6:1-14
-  - title: Jesus walks on the sea
+  - id: jesus-walks-on-the-sea
+    title: Jesus walks on the sea
     period: Further Ministry in Galilee
     matthew:
       - 14:22-36
@@ -405,45 +472,53 @@ stories:
       - 6:45-56
     john:
       - 6:15-21
-  - title: The Bread of Life
+  - id: the-bread-of-life
+    title: The Bread of Life
     period: Further Ministry in Galilee
     john:
       - 6:22-71
-  - title: "The tradition of the elders: what defiles a man"
+  - id: the-tradition-of-the-elders-what-defiles-a-man
+    title: "The tradition of the elders: what defiles a man"
     period: Further Ministry in Galilee
     matthew:
       - 15:1-20
     mark:
       - 7:1-23
-  - title: The woman of Canaan
+  - id: the-woman-of-canaan
+    title: The woman of Canaan
     period: Further Ministry in Galilee
     matthew:
       - 15:21-28
     mark:
       - 7:24-30
-  - title: "Healings in Decapolis: the deaf man"
+  - id: healings-in-decapolis-the-deaf-man
+    title: "Healings in Decapolis: the deaf man"
     period: Further Ministry in Galilee
     matthew:
       - 15:29-31
     mark:
       - 7:31-37
-  - title: The feeding of the four thousand
+  - id: the-feeding-of-the-four-thousand
+    title: The feeding of the four thousand
     period: Further Ministry in Galilee
     matthew:
       - 15:32-39
     mark:
       - 8:1-10
-  - title: The demand for a sign and the leaven of the Pharisees
+  - id: the-demand-for-a-sign-and-the-leaven-of-the-pharisees
+    title: The demand for a sign and the leaven of the Pharisees
     period: Further Ministry in Galilee
     matthew:
       - 16:1-12
     mark:
       - 8:11-21
-  - title: The blind man at Bethsaida
+  - id: the-blind-man-at-bethsaida
+    title: The blind man at Bethsaida
     period: Further Ministry in Galilee
     mark:
       - 8:22-26
-  - title: Peter’s confession at Cæsarea Philippi
+  - id: peters-confession-at-caesarea-philippi
+    title: Peter’s confession at Cæsarea Philippi
     period: Ministry in Northern Decapolis and Transfiguration
     matthew:
       - 16:13-20
@@ -451,7 +526,8 @@ stories:
       - 8:27-30
     luke:
       - 9:18-21
-  - title: His death foretold; taking up the cross
+  - id: his-death-foretold-taking-up-the-cross
+    title: His death foretold; taking up the cross
     period: Ministry in Northern Decapolis and Transfiguration
     matthew:
       - 16:21-26
@@ -461,7 +537,8 @@ stories:
       - 9:1
     luke:
       - 9:22-27
-  - title: The Transfiguration
+  - id: the-transfiguration
+    title: The Transfiguration
     period: Ministry in Northern Decapolis and Transfiguration
     matthew:
       - 17:1-13
@@ -469,7 +546,8 @@ stories:
       - 9:2-13
     luke:
       - 9:28-36
-  - title: The boy the disciples could not heal
+  - id: the-boy-the-disciples-could-not-heal
+    title: The boy the disciples could not heal
     period: Ministry in Northern Decapolis and Transfiguration
     matthew:
       - 17:14-21
@@ -477,7 +555,8 @@ stories:
       - 9:14-29
     luke:
       - 9:37-42
-  - title: His death foretold a second time
+  - id: his-death-foretold-a-second-time
+    title: His death foretold a second time
     period: Final Ministry in Galilee
     matthew:
       - 17:22-23
@@ -485,11 +564,13 @@ stories:
       - 9:30-33
     luke:
       - 9:43-45
-  - title: The tribute money in the fish’s mouth
+  - id: the-tribute-money-in-the-fishs-mouth
+    title: The tribute money in the fish’s mouth
     period: Final Ministry in Galilee
     matthew:
       - 17:24-27
-  - title: "Who is the greatest: becoming as a little child"
+  - id: who-is-the-greatest-becoming-as-a-little-child
+    title: "Who is the greatest: becoming as a little child"
     period: Final Ministry in Galilee
     matthew:
       - 18:1-10
@@ -497,124 +578,153 @@ stories:
       - 9:33-50
     luke:
       - 9:46-50
-  - title: The lost sheep and the brother who trespasses
+  - id: the-lost-sheep-and-the-brother-who-trespasses
+    title: The lost sheep and the brother who trespasses
     period: Final Ministry in Galilee
     matthew:
       - 18:11-20
-  - title: "Seventy times seven: the unmerciful servant"
+  - id: seventy-times-seven-the-unmerciful-servant
+    title: "Seventy times seven: the unmerciful servant"
     period: Final Ministry in Galilee
     matthew:
       - 18:21-35
-  - title: At the Feast of Tabernacles
+  - id: at-the-feast-of-tabernacles
+    title: At the Feast of Tabernacles
     period: Ministry in Jerusalem—Feast of Tabernacles
     john:
       - 7:1-53
-  - title: The woman taken in adultery
+  - id: the-woman-taken-in-adultery
+    title: The woman taken in adultery
     period: Ministry in Jerusalem—Feast of Tabernacles
     john:
       - 8:1-11
-  - title: The light of the world; before Abraham was, I am
+  - id: the-light-of-the-world-before-abraham-was-i-am
+    title: The light of the world; before Abraham was, I am
     period: Ministry in Jerusalem—Feast of Tabernacles
     john:
       - 8:12-59
-  - title: The man born blind
+  - id: the-man-born-blind
+    title: The man born blind
     period: Ministry in Jerusalem—Feast of Tabernacles
     john:
       - 9:1-41
-  - title: The Good Shepherd
+  - id: the-good-shepherd
+    title: The Good Shepherd
     period: Ministry in Jerusalem—Feast of Tabernacles
     john:
       - 10:1-21
-  - title: Setting His face toward Jerusalem; the cost of following
+  - id: setting-his-face-toward-jerusalem-the-cost-of-following
+    title: Setting His face toward Jerusalem; the cost of following
     period: Perean and Judæan Ministry
     matthew:
       - 8:18-22
     luke:
       - 9:51-62
-  - title: The Seventy sent and returned
+  - id: the-seventy-sent-and-returned
+    title: The Seventy sent and returned
     period: Perean and Judæan Ministry
     matthew:
       - 11:20-30
     luke:
       - 10:1-24
-  - title: The Good Samaritan
+  - id: the-good-samaritan
+    title: The Good Samaritan
     period: Perean and Judæan Ministry
     luke:
       - 10:25-37
-  - title: Mary and Martha
+  - id: mary-and-martha
+    title: Mary and Martha
     period: Perean and Judæan Ministry
     luke:
       - 10:38-42
-  - title: "Teaching on prayer: the friend at midnight"
+  - id: teaching-on-prayer-the-friend-at-midnight
+    title: "Teaching on prayer: the friend at midnight"
     period: Perean and Judæan Ministry
     luke:
       - 11:1-13
-  - title: Woes on the Pharisees and the lawyers
+  - id: woes-on-the-pharisees-and-the-lawyers
+    title: Woes on the Pharisees and the lawyers
     period: Perean and Judæan Ministry
     luke:
       - 11:37-54
-  - title: The leaven of the Pharisees; confessing Christ
+  - id: the-leaven-of-the-pharisees-confessing-christ
+    title: The leaven of the Pharisees; confessing Christ
     period: Perean and Judæan Ministry
     luke:
       - 12:1-12
-  - title: The rich fool; seek ye the kingdom of God
+  - id: the-rich-fool-seek-ye-the-kingdom-of-god
+    title: The rich fool; seek ye the kingdom of God
     period: Perean and Judæan Ministry
     luke:
       - 12:13-35
-  - title: Watching servants; fire on the earth; the signs of the time
+  - id: watching-servants-fire-on-the-earth-the-signs-of-the-time
+    title: Watching servants; fire on the earth; the signs of the time
     period: Perean and Judæan Ministry
     luke:
       - 12:36-59
-  - title: "Repent or perish: the barren fig tree"
+  - id: repent-or-perish-the-barren-fig-tree
+    title: "Repent or perish: the barren fig tree"
     period: Perean and Judæan Ministry
     luke:
       - 13:1-10
-  - title: A woman healed on the Sabbath; the leaven
+  - id: a-woman-healed-on-the-sabbath-the-leaven
+    title: A woman healed on the Sabbath; the leaven
     period: Perean and Judæan Ministry
     luke:
       - 13:11-17
       - 13:20-21
-  - title: The strait gate; the lament over Jerusalem
+  - id: the-strait-gate-the-lament-over-jerusalem
+    title: The strait gate; the lament over Jerusalem
     period: Perean and Judæan Ministry
     luke:
       - 13:22-35
-  - title: "Dinner with a chief Pharisee: the great supper"
+  - id: dinner-with-a-chief-pharisee-the-great-supper
+    title: "Dinner with a chief Pharisee: the great supper"
     period: Perean and Judæan Ministry
     luke:
       - 14:1-24
-  - title: Counting the cost
+  - id: counting-the-cost
+    title: Counting the cost
     period: Perean and Judæan Ministry
     luke:
       - 14:25-35
-  - title: The lost sheep, the lost coin and the prodigal son
+  - id: the-lost-sheep-the-lost-coin-and-the-prodigal-son
+    title: The lost sheep, the lost coin and the prodigal son
     period: Perean and Judæan Ministry
     luke:
       - 15:1-32
-  - title: The unjust steward
+  - id: the-unjust-steward
+    title: The unjust steward
     period: Perean and Judæan Ministry
     luke:
       - 16:1-18
-  - title: The rich man and Lazarus
+  - id: the-rich-man-and-lazarus
+    title: The rich man and Lazarus
     period: Perean and Judæan Ministry
     luke:
       - 16:19-31
-  - title: Offences, faith and the unprofitable servant
+  - id: offences-faith-and-the-unprofitable-servant
+    title: Offences, faith and the unprofitable servant
     period: Perean and Judæan Ministry
     luke:
       - 17:1-10
-  - title: Ten lepers
+  - id: ten-lepers
+    title: Ten lepers
     period: Perean and Judæan Ministry
     luke:
       - 17:11-19
-  - title: The coming of the kingdom
+  - id: the-coming-of-the-kingdom
+    title: The coming of the kingdom
     period: Perean and Judæan Ministry
     luke:
       - 17:20-37
-  - title: The importunate widow; the Pharisee and the publican
+  - id: the-importunate-widow-the-pharisee-and-the-publican
+    title: The importunate widow; the Pharisee and the publican
     period: Perean and Judæan Ministry
     luke:
       - 18:1-14
-  - title: Marriage and divorce
+  - id: marriage-and-divorce
+    title: Marriage and divorce
     period: Perean and Judæan Ministry
     matthew:
       - 19:1-12
@@ -622,7 +732,8 @@ stories:
       - 10:1-12
     luke:
       - 9:51
-  - title: Little children blessed
+  - id: little-children-blessed
+    title: Little children blessed
     period: Perean and Judæan Ministry
     matthew:
       - 19:13-15
@@ -630,7 +741,8 @@ stories:
       - 10:13-16
     luke:
       - 18:15-17
-  - title: The rich young ruler
+  - id: the-rich-young-ruler
+    title: The rich young ruler
     period: Perean and Judæan Ministry
     matthew:
       - 19:16-30
@@ -638,24 +750,29 @@ stories:
       - 10:17-31
     luke:
       - 18:18-30
-  - title: The labourers in the vineyard
+  - id: the-labourers-in-the-vineyard
+    title: The labourers in the vineyard
     period: Perean and Judæan Ministry
     matthew:
       - 20:1-16
-  - title: At the Feast of Dedication
+  - id: at-the-feast-of-dedication
+    title: At the Feast of Dedication
     period: Perean and Judæan Ministry
     john:
       - 10:22-42
-  - title: The raising of Lazarus
+  - id: the-raising-of-lazarus
+    title: The raising of Lazarus
     period: Perean and Judæan Ministry
     john:
       - 11:1-44
-  - title: The council plots His death
+  - id: the-council-plots-his-death
+    title: The council plots His death
     period: Perean and Judæan Ministry
     john:
       - 11:45-54
       - 11:56-57
-  - title: His death foretold a third time; the request of James and John
+  - id: his-death-foretold-a-third-time-the-request-of-james-and-john
+    title: His death foretold a third time; the request of James and John
     period: Perean and Judæan Ministry
     matthew:
       - 20:17-28
@@ -663,7 +780,8 @@ stories:
       - 10:32-45
     luke:
       - 18:31-34
-  - title: Blind Bartimæus
+  - id: blind-bartimaeus
+    title: Blind Bartimæus
     period: Perean and Judæan Ministry
     matthew:
       - 20:29-34
@@ -671,15 +789,18 @@ stories:
       - 10:46-52
     luke:
       - 18:35-43
-  - title: Zacchæus
+  - id: zacchaeus
+    title: Zacchæus
     period: Perean and Judæan Ministry
     luke:
       - 19:1-10
-  - title: The parable of the pounds
+  - id: the-parable-of-the-pounds
+    title: The parable of the pounds
     period: Perean and Judæan Ministry
     luke:
       - 19:11-27
-  - title: The triumphal entry
+  - id: the-triumphal-entry
+    title: The triumphal entry
     period: Perean and Judæan Ministry
     matthew:
       - 21:1-11
@@ -690,11 +811,13 @@ stories:
     john:
       - 11:55
       - 12:12-19
-  - title: "Greeks seek Jesus: the hour is come"
+  - id: greeks-seek-jesus-the-hour-is-come
+    title: "Greeks seek Jesus: the hour is come"
     period: Final Week of Mortal Ministry
     john:
       - 12:20-50
-  - title: The fig tree cursed and the temple cleansed
+  - id: the-fig-tree-cursed-and-the-temple-cleansed
+    title: The fig tree cursed and the temple cleansed
     period: Final Week of Mortal Ministry
     matthew:
       - 21:12-22
@@ -702,7 +825,8 @@ stories:
       - 11:12-26
     luke:
       - 19:45-48
-  - title: By what authority
+  - id: by-what-authority
+    title: By what authority
     period: Final Week of Mortal Ministry
     matthew:
       - 21:23-27
@@ -710,11 +834,13 @@ stories:
       - 11:27-33
     luke:
       - 20:1-8
-  - title: The two sons
+  - id: the-two-sons
+    title: The two sons
     period: Final Week of Mortal Ministry
     matthew:
       - 21:28-32
-  - title: The wicked husbandmen
+  - id: the-wicked-husbandmen
+    title: The wicked husbandmen
     period: Final Week of Mortal Ministry
     matthew:
       - 21:33-46
@@ -722,11 +848,13 @@ stories:
       - 12:1-12
     luke:
       - 20:9-19
-  - title: The marriage of the king’s son
+  - id: the-marriage-of-the-kings-son
+    title: The marriage of the king’s son
     period: Final Week of Mortal Ministry
     matthew:
       - 22:1-14
-  - title: Tribute to Cæsar
+  - id: tribute-to-caesar
+    title: Tribute to Cæsar
     period: Final Week of Mortal Ministry
     matthew:
       - 22:15-22
@@ -734,7 +862,8 @@ stories:
       - 12:13-17
     luke:
       - 20:20-26
-  - title: The Sadducees and the resurrection
+  - id: the-sadducees-and-the-resurrection
+    title: The Sadducees and the resurrection
     period: Final Week of Mortal Ministry
     matthew:
       - 22:23-33
@@ -742,13 +871,15 @@ stories:
       - 12:18-27
     luke:
       - 20:27-40
-  - title: The great commandment
+  - id: the-great-commandment
+    title: The great commandment
     period: Final Week of Mortal Ministry
     matthew:
       - 22:34-40
     mark:
       - 12:28-34
-  - title: David’s son and David’s Lord
+  - id: davids-son-and-davids-lord
+    title: David’s son and David’s Lord
     period: Final Week of Mortal Ministry
     matthew:
       - 22:41-46
@@ -756,7 +887,8 @@ stories:
       - 12:35-37
     luke:
       - 20:41-44
-  - title: Woes on the scribes and Pharisees; the lament over Jerusalem
+  - id: woes-on-the-scribes-and-pharisees-the-lament-over-jerusalem
+    title: Woes on the scribes and Pharisees; the lament over Jerusalem
     period: Final Week of Mortal Ministry
     matthew:
       - 23:1-39
@@ -764,13 +896,15 @@ stories:
       - 12:38-40
     luke:
       - 20:45-47
-  - title: The widow’s mites
+  - id: the-widows-mites
+    title: The widow’s mites
     period: Final Week of Mortal Ministry
     mark:
       - 12:41-44
     luke:
       - 21:1-4
-  - title: The discourse on the Mount of Olives
+  - id: the-discourse-on-the-mount-of-olives
+    title: The discourse on the Mount of Olives
     period: Final Week of Mortal Ministry
     matthew:
       - 24:1-51
@@ -778,19 +912,23 @@ stories:
       - 13:1-37
     luke:
       - 21:5-37
-  - title: The ten virgins
+  - id: the-ten-virgins
+    title: The ten virgins
     period: Final Week of Mortal Ministry
     matthew:
       - 25:1-13
-  - title: The talents
+  - id: the-talents
+    title: The talents
     period: Final Week of Mortal Ministry
     matthew:
       - 25:14-30
-  - title: The sheep and the goats
+  - id: the-sheep-and-the-goats
+    title: The sheep and the goats
     period: Final Week of Mortal Ministry
     matthew:
       - 25:31-46
-  - title: The plot and Judas’s bargain
+  - id: the-plot-and-judass-bargain
+    title: The plot and Judas’s bargain
     period: Final Week of Mortal Ministry
     matthew:
       - 26:1-5
@@ -802,7 +940,8 @@ stories:
       - 22:1-6
     john:
       - 13:2-3
-  - title: The anointing at Bethany
+  - id: the-anointing-at-bethany
+    title: The anointing at Bethany
     period: Final Week of Mortal Ministry
     matthew:
       - 26:6-13
@@ -810,7 +949,8 @@ stories:
       - 14:3-9
     john:
       - 12:1-11
-  - title: "The Last Supper: the Passover prepared and the betrayer named"
+  - id: the-last-supper-the-passover-prepared-and-the-betrayer-named
+    title: "The Last Supper: the Passover prepared and the betrayer named"
     period: Final Week of Mortal Ministry
     matthew:
       - 26:17-25
@@ -822,12 +962,14 @@ stories:
     john:
       - 13:1
       - 13:18
-  - title: Jesus washes the disciples’ feet
+  - id: jesus-washes-the-disciples-feet
+    title: Jesus washes the disciples’ feet
     period: Final Week of Mortal Ministry
     john:
       - 13:4-17
       - 13:19-30
-  - title: The sacrament instituted
+  - id: the-sacrament-instituted
+    title: The sacrament instituted
     period: Final Week of Mortal Ministry
     matthew:
       - 26:26-29
@@ -835,13 +977,15 @@ stories:
       - 14:22-25
     luke:
       - 22:18-20
-  - title: Who is greatest; a new commandment
+  - id: who-is-greatest-a-new-commandment
+    title: Who is greatest; a new commandment
     period: Final Week of Mortal Ministry
     luke:
       - 22:24-30
     john:
       - 13:31-35
-  - title: Peter’s denial foretold
+  - id: peters-denial-foretold
+    title: Peter’s denial foretold
     period: Final Week of Mortal Ministry
     matthew:
       - 26:30-35
@@ -851,23 +995,28 @@ stories:
       - 22:31-39
     john:
       - 13:36-38
-  - title: The way, the truth, and the life
+  - id: the-way-the-truth-and-the-life
+    title: The way, the truth, and the life
     period: Final Week of Mortal Ministry
     john:
       - 14:1-31
-  - title: The true vine
+  - id: the-true-vine
+    title: The true vine
     period: Final Week of Mortal Ministry
     john:
       - 15:1-27
-  - title: The Comforter promised
+  - id: the-comforter-promised
+    title: The Comforter promised
     period: Final Week of Mortal Ministry
     john:
       - 16:1-30
-  - title: The Intercessory Prayer
+  - id: the-intercessory-prayer
+    title: The Intercessory Prayer
     period: Final Week of Mortal Ministry
     john:
       - 17:1-26
-  - title: Gethsemane
+  - id: gethsemane
+    title: Gethsemane
     period: Final Week of Mortal Ministry
     matthew:
       - 26:36-46
@@ -877,7 +1026,8 @@ stories:
       - 22:40-46
     john:
       - 18:1
-  - title: The betrayal and arrest
+  - id: the-betrayal-and-arrest
+    title: The betrayal and arrest
     period: Final Week of Mortal Ministry
     matthew:
       - 26:47-56
@@ -887,7 +1037,8 @@ stories:
       - 22:47-53
     john:
       - 18:2-11
-  - title: Before Annas and Caiaphas
+  - id: before-annas-and-caiaphas
+    title: Before Annas and Caiaphas
     period: Final Week of Mortal Ministry
     matthew:
       - 26:57-68
@@ -899,7 +1050,8 @@ stories:
     john:
       - 18:12-14
       - 18:19-24
-  - title: Peter’s denials
+  - id: peters-denials
+    title: Peter’s denials
     period: Final Week of Mortal Ministry
     matthew:
       - 26:69-75
@@ -910,11 +1062,13 @@ stories:
     john:
       - 18:15-18
       - 18:25-27
-  - title: The death of Judas
+  - id: the-death-of-judas
+    title: The death of Judas
     period: Final Week of Mortal Ministry
     matthew:
       - 27:3-10
-  - title: Before Pilate and Herod
+  - id: before-pilate-and-herod
+    title: Before Pilate and Herod
     period: Final Week of Mortal Ministry
     matthew:
       - 27:1-2
@@ -925,7 +1079,8 @@ stories:
       - 23:1-12
     john:
       - 18:28-37
-  - title: Barabbas chosen and Jesus condemned
+  - id: barabbas-chosen-and-jesus-condemned
+    title: Barabbas chosen and Jesus condemned
     period: Final Week of Mortal Ministry
     matthew:
       - 27:15-31
@@ -936,7 +1091,8 @@ stories:
     john:
       - 18:38-40
       - 19:1-16
-  - title: Crucified at Golgotha
+  - id: crucified-at-golgotha
+    title: Crucified at Golgotha
     period: Final Week of Mortal Ministry
     matthew:
       - 27:31-35
@@ -947,7 +1103,8 @@ stories:
       - 23:26-38
     john:
       - 19:17-24
-  - title: The death of Jesus
+  - id: the-death-of-jesus
+    title: The death of Jesus
     period: Final Week of Mortal Ministry
     matthew:
       - 27:45-56
@@ -957,7 +1114,8 @@ stories:
       - 23:44-49
     john:
       - 19:25-37
-  - title: The burial
+  - id: the-burial
+    title: The burial
     period: Final Week of Mortal Ministry
     matthew:
       - 27:57-66
@@ -967,7 +1125,8 @@ stories:
       - 23:50-56
     john:
       - 19:38-42
-  - title: The empty tomb
+  - id: the-empty-tomb
+    title: The empty tomb
     period: Final Week of Mortal Ministry
     matthew:
       - 28:1-8
@@ -979,7 +1138,8 @@ stories:
       - 24:1-12
     john:
       - 20:1-10
-  - title: Mary Magdalene and the women see the risen Lord
+  - id: mary-magdalene-and-the-women-see-the-risen-lord
+    title: Mary Magdalene and the women see the risen Lord
     period: Final Week of Mortal Ministry
     matthew:
       - 28:9-10
@@ -987,27 +1147,32 @@ stories:
       - 16:9
     john:
       - 20:11-18
-  - title: The road to Emmaus
+  - id: the-road-to-emmaus
+    title: The road to Emmaus
     period: Final Week of Mortal Ministry
     mark:
       - 16:12-13
     luke:
       - 24:13-35
-  - title: The risen Lord appears to the disciples
+  - id: the-risen-lord-appears-to-the-disciples
+    title: The risen Lord appears to the disciples
     period: Final Week of Mortal Ministry
     luke:
       - 24:36-49
     john:
       - 20:19-23
-  - title: Thomas
+  - id: thomas
+    title: Thomas
     period: Post Mortal Ministry
     john:
       - 20:24-31
-  - title: "By the sea of Tiberias: Feed my sheep"
+  - id: by-the-sea-of-tiberias-feed-my-sheep
+    title: "By the sea of Tiberias: Feed my sheep"
     period: Post Mortal Ministry
     john:
       - 21:1-25
-  - title: The commission to the apostles and the Ascension
+  - id: the-commission-to-the-apostles-and-the-ascension
+    title: The commission to the apostles and the Ascension
     period: Post Mortal Ministry
     matthew:
       - 28:16-20

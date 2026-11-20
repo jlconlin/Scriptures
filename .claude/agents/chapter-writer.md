@@ -75,7 +75,7 @@ Fix every warning that concerns your chapter. “Unknown source key” for a key
 
 ## Limits
 
-- Write only `content/<book>/chapters/NN.yaml` and `content/<book>/evidence/NN.yaml` for your chapter.
+- Write only `content/<book>/chapters/NN.yaml` and `content/<book>/evidence/NN.yaml` for your chapter. The one exception: where the book's brief names research files shared between books (the four Gospels' stories, `content/volumes/new-testament/GOSPELS.md`), you write those as it says.
 - Don't edit `content/sources.yaml` (propose entries), other chapters, code, `STANDARDS.md`, `AUTHORING.md`, the brief, or `OPEN-QUESTIONS.md` (report judgment calls instead).
 - Don't commit or push.
 - Don't decide judgment calls silently; report them.

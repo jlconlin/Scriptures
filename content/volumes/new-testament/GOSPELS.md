@@ -23,9 +23,39 @@ A project note (the build ignores it). It holds what the author has decided abou
 - **Theme candidates are proposed once, after all four are written,** in one pass that reads all four, since only then can an arc be judged a Gospel's own. `propose-themes` and Codex's review of candidates do not run at the end of each of these books.
 - **The images wait until the four books are done** (author: “We'll do the images after the books are done”). Nothing about them is decided. The usual stage, an image at the end of each book's last batch, does not run for these four.
 
+## How a story's research is shared
+
+For the writer, the checker and the reviewer of a Gospel chapter. Where this differs from an agent's own instructions, this holds: a writer may write the research files named here, and “say a thing once” does not apply between two Gospels' accounts of one story.
+
+- **The stories** are `stories.yaml` beside this file: the author's chronology gathered into 165 stories, each with its verses in each Gospel. `node scripts/stories.mjs <gospel> <chapter>` prints a chapter's stories, where else each is told, its research file, and the `parallels` lines for the chapter file.
+- **Read every account before writing your questions:** `node scripts/stories.mjs <id> --text` prints them all. What a reader of your chapter asks often comes from what the other accounts have and yours does not.
+- **A story told in more than one Gospel has a research file,** `stories/<id>.yaml` beside this file. A story told in one Gospel has none: its research is the chapter's own ledger.
+- **If the file exists, read it before you research.** Its findings are another writer's reading and save you the search, not the reading: a finding you use is opened again with `source.mjs` (the page is cached) and goes into your chapter's own ledger as a row of yours, as `STANDARDS.md` §5 requires. A finding you find wrong or thin you correct in the file, with your chapter in its `by`, and say so in your report; the notes already written from it are then repaired by the coordinator (`node scripts/stories.mjs --stale`).
+- **If the file does not exist, you write it** once your research is done: what you read that bears on the story in any Gospel, not what is only your own chapter's wording.
+- **The file holds findings and quotations, never prose for a note.** Each writer writes from their own Gospel's wording, so that a later note is not a copy of an earlier one.
+- **Your chapter answers its own reader in full.** Explain the story in your notes even where another Gospel's chapter already has; a `[[reference]]` to the other account is for going further. Then answer what only your reader would ask: what this evangelist adds, leaves out or places differently. That an account has or lacks a detail is what the verses say and needs no row; what the difference means needs a source, or is left unsaid.
+- **Fill the chapter's `parallels`** with the other tellings of its stories, from the lines `stories.mjs` prints.
+- **Where the story falls in the author's chronology** (its `period`) may be said in `setting` or `when` as the order this site follows, never as settled fact where the Gospels differ.
+
+```yaml
+# content/volumes/new-testament/stories/<id>.yaml
+story: the-feeding-of-the-five-thousand
+differences:   # what the accounts themselves show, each with its verses; the text is the evidence
+  - 'Only John says the loaves were a lad’s ([[John 6:9]]) and that the crowd would have made Jesus a king ([[John 6:15]]).'
+findings:      # what was read: a ledger row (STANDARDS.md §5) without `where`, and who added or last corrected it
+  - claim: 'Short statement of the fact'
+    key: a-key-in-sources-yaml
+    url: 'https://…'
+    quote: 'Verbatim, about 40 words at most'
+    by: matthew 14
+open:          # questions a reader of another account will ask that you did not research
+  - 'Why does Mark say the people sat down in ranks, by hundreds and by fifties ([[Mark 6:40]])?'
+```
+
 ## State (2026-11-20)
 
 - **The chronology is imported:** `chronology.yaml` beside this file, 635 events in 19 periods, written by `node scripts/chronology.mjs` (`DEVELOPMENT.md`). The King James text of the four Gospels is in `data/kjv/`, imported for the verse counts and not yet compared with the Gospel Library (`check-kjv.mjs`, when each book is set up).
 - **A first grouping into stories is proposed:** `stories.yaml`, 165 stories, 83 of them told in more than one Gospel. It is written by hand from here on, and the author has not read it. Every event lies whole inside one story. Where the grouping took a side: the Sermon on the Mount is six stories, and Luke's sermon on the plain a seventh; a story follows the author's placement where the Gospels differ (two rejections at Nazareth; the anointing at Bethany in the last week, with John 12:1–11); what the chronology gives twice is in two stories (Matthew 11:25–30, Matthew 10:1–4).
 - **What the import found in the original** is in `OPEN-QUESTIONS.md` (“The Gospels”).
-- **Not built yet:** where a story's research is saved and how a writer is given it; the script that lists the notes resting on a changed file; the Greek tools; Matthew's brief; the guides; the trial chapters.
+- **The stories tooling is built:** `scripts/stories.mjs`, and “How a story's research is shared” above. No research file is written yet. The full-detail `chronology.yaml` is kept out of this public repository (`.gitignore`) until the author answers whether it may be committed; nothing reads it but `chronology.mjs`.
+- **Not built yet:** the trial chapters, the guides. The Greek tools and Matthew's brief are under way.
