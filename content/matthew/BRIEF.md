@@ -35,7 +35,7 @@ Questions a reader of Matthew asks again and again (a start, not a limit):
 - *How is this different in the Book of Mormon?* Above all the Sermon at the Temple (3 Nephi 12–14).
 - *Why does Matthew tell it this way?* What Matthew adds, leaves out or places differently from Mark and Luke (`GOSPELS.md`, “How a story's research is shared”).
 
-**Where answers come from** is `STANDARDS.md` §1's order, with Talmage after the Latter-day Saint studies and Ellicott, the *Expositor's Greek Testament*, Meyer, the *Cambridge Bible* and Edersheim last (`GOSPELS.md`), outside commentary in no more than about a third of a chapter's notes. Matthew is well served by Latter-day Saint studies; search them first. **The Bible Dictionary is not the first place to look** (`GOSPELS.md`): take a question to the Latter-day Saint studies and the ancient source first, and to the dictionary when they have nothing or when the note needs the Church's own statement on doctrine. The entries quoted in this brief are leads for the questions they are quoted under, not a licence to open the dictionary first.
+**Where answers come from** is `STANDARDS.md` §1's order, with Talmage after the Latter-day Saint studies and Ellicott, the *Expositor's Greek Testament*, Meyer, the *Cambridge Bible* and Edersheim last (`GOSPELS.md`), outside commentary in no more than about a third of a chapter's notes. Matthew is well served by Latter-day Saint studies; search them first. **Don't always go to the same source first** (`GOSPELS.md`): the works that cover every verse (*Jesus the Christ*, the Bible Dictionary, Ellicott) are cited when they answer the question, and are not where the search begins. The entries quoted in this brief are leads for the questions they are quoted under.
 
 ## Divisions
 
@@ -63,7 +63,7 @@ A chapter's sections follow its stories (`node scripts/stories.mjs matthew <n>`)
 - **Matthew's own wording is the text.** A note quotes the verse it sits on; Mark's or Luke's wording comes in only where the difference is the question (`GOSPELS.md`).
 - **Dates and places.** The author's chronology is the order the site follows (`GOSPELS.md`). A year (Herod's death, the crucifixion) is given only from a source read, as that source's, never as settled where sources differ. The Bible Dictionary places the Transfiguration “in about October, some six months before the death of Jesus” (`bd-transfiguration`).
 - **The Pharisees, the scribes and “the Jews.”** See “Contested and sensitive questions.” The convention for every chapter: name the group the verse names (the Pharisees, the chief priests and elders, the multitude), and never let a note's wording pass from a group in a scene to a people in every age.
-- **Talmage.** *Jesus the Christ* is cited only for doctrine and for his own reading of a passage, never for history, and not in `setting` or `thread`; no more than about a quarter of a chapter's notes (`GOSPELS.md` has the rule in full, and why). It runs in order through the life (chapter 17 is the Sermon on the Mount; chapter 37 the Resurrection and Ascension); find the chapter for a passage on its contents page, last.
+- **Talmage.** *Jesus the Christ* is cited wherever it answers the reader's question, like any source; it is not the place to start (`GOSPELS.md`, “Anticipate the reader's questions…”). It runs in order through the life (chapter 17 is the Sermon on the Mount; chapter 37 the Resurrection and Ascension); find the chapter for a passage on its contents page.
 
 ## Contested and sensitive questions
 
