@@ -9,3 +9,7 @@ Questions a reader would ask that no source read answered, by chapter: a list fo
 - **12:** Why Matthew says 'kingdom of God' at 12:28 rather than his usual 'kingdom of heaven' (writer's report; no source read).
 - **15:** Matt. 15:13–14 (the plant not planted, the blind leading the blind): the writer read no source for these verses, so they have no note.
 - **16:** What 'Son of man' means at 16:13 (the writer left it for the earlier chapter's note on the title).
+- **17:** 17:21: why do modern translations omit or bracket the verse? No readable source explaining its textual standing was found; the writer's report says the same.
+- **18:** Why offences 'must needs' come (verse 7): the writer reported it unresearched; A Latter-day Saint source on the angels of little ones (verse 10): none was found; Why modern translations omit verse 11: no source was read for it, and the claim was cut.
+- **23:** Why verse 14 is missing from many modern Bibles: no Latter-day Saint source read explains the critical text's omission (from the writer's report).
+- **25:** Who are 'the least of these my brethren' (25:40)? No Church source read for this chapter defines the phrase.
