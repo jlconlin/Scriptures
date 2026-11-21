@@ -505,6 +505,25 @@ const BOOK_SPELLINGS = {
     [/\bplatted\b/g, 'plaited'], // 27:29
     [/\bspunge\b/g, 'sponge'], // 27:48
   ],
+  mark: [
+    [/Judaea/g, 'Judæa'],
+    [/Idumaea/g, 'Idumæa'], // 3:8
+    [/Caesar/g, 'Cæsar'], // and Cæsarea, 8:27
+    [/Alphaeus/g, 'Alphæus'], // 2:14; 3:18
+    [/Thaddaeus/g, 'Thaddæus'], // 3:18
+    [/Bartimaeus/g, 'Bartimæus'], // 10:46
+    [/Galilaean/g, 'Galilæan'], // 14:70
+    [/Praetorium/g, 'Prætorium'], // 15:16
+    [/Arimathaea/g, 'Arimathæa'], // 15:43
+    [/a little farther thence/g, 'a little further thence'], // 1:19
+    [/thou son of David,/g, 'thou Son of David,'], // 10:47
+    [/Thou son of David,/g, 'Thou Son of David,'], // 10:48
+    [/the son of David\?/g, 'the Son of David?'], // 12:35
+    [/be our['’]s\./g, 'be ours.'], // 12:7
+    [/Timaeus/g, 'Timæus'], // 10:46
+    [/\bplatted\b/g, 'plaited'], // 15:17
+    [/\bspunge\b/g, 'sponge'], // 15:36
+  ],
   ezra: [
     [/\bMizpar\b/g, 'Mispar'], // 2:2
     [/Pahathmoab/g, 'Pahath-moab'], // 2:6; 8:4; 10:30

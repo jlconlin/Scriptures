@@ -56,7 +56,7 @@ import { SCRIPT_ROOT, readProposed, mergeProposed, proposedFile, isWiki, pageSec
 
 // Works known to be unreadable online. Citing one in a strict chapter needs quoted evidence
 // in the ledger, since nobody can check the claim against the page.
-const NOT_READABLE = ['oswalt', 'blenkinsopp', 'childs', 'paul-40-66', 'westermann', 'halot', 'parry-understanding', 'williamson-book-called', 'tov-textual', 'matthews-plainer'];
+const NOT_READABLE = ['oswalt', 'blenkinsopp', 'childs', 'paul-40-66', 'westermann', 'halot', 'parry-understanding', 'williamson-book-called', 'tov-textual', 'matthews-plainer', 'smith-bnt-mark'];
 
 
 // The Church's teaching manuals are finders, never sources (author, 2026-11-17: “all those manuals are finders

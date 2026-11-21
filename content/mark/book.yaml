@@ -1,0 +1,85 @@
+name: Mark
+slug: mark
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+# After Matthew (20); the volume a book is listed under comes from abbr.
+order: 21
+abbr: mark               # [[Mark 1:1]] links here
+gospelLibrary: nt/mark
+eyebrow: The New Testament
+heroQuote:
+  text: '“Truly this man was the Son of God.”'
+  cite: 'The centurion at the cross, [[Mark 15:39]]'
+description: A phrase-by-phrase companion to the Gospel of Mark, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Mark follows Jesus from Galilee to Jerusalem, and the story turns at Peter’s witness, “Thou art the Christ,” after which Jesus three times foretells His death.
+home:
+  blurb: The shortest Gospel, possibly written under Peter’s direction, a quick and vivid account of the Son of God living and acting among men.
+
+# Sources for the intro: Bible Dictionary, “Mark” (also called John; son of Mary of Acts 12:12; with Paul and
+# Barnabas, with Paul at Rome, with Peter at Babylon, probably Rome; possibly written under Peter's direction;
+# his object to describe the Lord as the incarnate Son of God, living and acting among men); Huntsman,
+# “The Petrine Kērygma,” paras. 15, 72, 74 (Papias; the turn at Caesarea Philippi; Galilee to Jerusalem).
+# The last paragraph must point to a New Testament volume guide once one exists (DEVELOPMENT.md, step 2); none is
+# written yet (content/volumes/new-testament/GUIDES.md), so the pointer is left out of this draft.
+intro: |
+  Mark, “also called John,” was the son of a Mary whose house in Jerusalem was a gathering place of the early Saints ([[Acts 12:12]]). He went with Paul and Barnabas on their first mission, was later with Paul at Rome, and with Peter at “Babylon,” probably Rome ([[1 Pet. 5:13]]). The Bible Dictionary says his Gospel “was possibly written under the direction of Peter,” and an early Christian tradition calls Mark Peter’s interpreter. His object, it says, is “to describe our Lord as the incarnate Son of God, living and acting among men.”
+
+  Mark is the shortest Gospel, quick and full of vivid detail. It follows Jesus from Galilee to Jerusalem, and turns at Peter’s witness, “Thou art the Christ” ([[Mark 8:29]]), after which Jesus three times foretells His death and teaches what it costs to follow Him. This companion goes through all sixteen chapters and tries to anticipate the questions a careful reader asks: *What does this Aramaic word mean? Why does Jesus tell them to tell no one? What does the Joseph Smith Translation add? Where is this in my life?*
+
+# Mark's own shape (BRIEF.md, “Divisions”): Galilee, the way to Jerusalem between two blind men (8:22–26;
+# 10:46–52), Jerusalem. Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: markbegin
+    range: [1, 3]
+    name: The Beginning of the Gospel
+    blurb: John prepares the way, the Father names His Son, and Jesus teaches with authority in Galilee, forgives sins, meets His first opponents and chooses the Twelve.
+    color: '#a0682e'
+    darkColor: '#dfa56b'
+  - key: markseed
+    range: [4, 5]
+    name: Parables and Mighty Works by the Sea
+    blurb: The parables of the seed, then a storm stilled, a legion cast out, a woman healed and a girl raised.
+    color: '#3f7f5f'
+    darkColor: '#82c7a2'
+  - key: markbread
+    range: [6, 7]
+    name: The Loaves and the Hardened Hearts
+    blurb: Rejected at Nazareth, Jesus sends out the Twelve, feeds five thousand and walks on the sea, sets aside the traditions of the elders and heals among the Gentiles, while His disciples’ hearts are hardened.
+    color: '#3a6a9a'
+    darkColor: '#88b3e0'
+  - key: markway
+    range: [8, 10]
+    name: 'On the Way: The Son of Man Must Suffer'
+    blurb: Between two blind men healed, Peter confesses the Christ and Jesus three times foretells His death, teaching what it costs to follow Him.
+    color: '#7a5296'
+    darkColor: '#bf9adc'
+  - key: marktemple
+    range: [11, 13]
+    name: Jerusalem and the Temple
+    blurb: Jesus enters the city, cleanses the temple, answers His questioners, praises a widow’s gift and foretells the temple’s fall.
+    color: '#8a7a2e'
+    darkColor: '#d4c47a'
+  - key: markcross
+    range: [14, 16]
+    name: The Cross and the Empty Tomb
+    blurb: Anointed for His burial, Jesus gives the sacrament, prays in Gethsemane, is denied, condemned and crucified, and is risen.
+    color: '#5a6478'
+    darkColor: '#a9b4c9'
+
+beloved:
+  - { chapter: 1, verse: 15, text: 'The time is fulfilled, and the kingdom of God is at hand: repent ye, and believe the gospel' }
+  - { chapter: 1, verse: 17, text: 'Come ye after me, and I will make you to become fishers of men' }
+  - { chapter: 4, verse: 39, text: 'Peace, be still' }
+  - { chapter: 5, verse: 36, text: 'Be not afraid, only believe' }
+  - { chapter: 8, verse: 36, text: 'For what shall it profit a man, if he shall gain the whole world, and lose his own soul?' }
+  - { chapter: 9, verse: 24, text: 'Lord, I believe; help thou mine unbelief' }
+  - { chapter: 10, verse: 14, text: 'Suffer the little children to come unto me, and forbid them not' }
+  - { chapter: 10, verse: 45, text: 'the Son of man came not to be ministered unto, but to minister, and to give his life a ransom for many' }
+  - { chapter: 14, verse: 36, text: 'Abba, Father, all things are possible unto thee' }
+  - { chapter: 15, verse: 39, text: 'Truly this man was the Son of God' }
+  - { chapter: 16, verse: 6, text: 'he is risen; he is not here' }
+  - { chapter: 16, verse: 15, text: 'Go ye into all the world, and preach the gospel to every creature' }
+
+coreSources:
+  - smith-marks-unique-contribution
