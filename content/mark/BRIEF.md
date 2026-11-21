@@ -11,6 +11,10 @@ Related files: `OPEN-QUESTIONS.md` at the top of the repository (“The Gospels�
 `node scripts/status.mjs mark` prints what the repository shows once the book is set up; the history is `git log -- content/mark`. What a script can't see:
 
 - **Set up in preview on 2026-11-21,** on the branch `mark` (the worktree `.claude/worktrees/mark`). `data/kjv/mark.json` matches the Gospel Library edition (`check-kjv.mjs` reports no difference). `footnotes.mjs`, `knowhys.mjs`, `stories.mjs` and `greek.mjs` work for the book. The intro in `book.yaml` does not yet end with a pointer to a New Testament volume guide, because none is written. Smith's BYU commentary is in `NOT_READABLE` as `smith-bnt-mark`.
+- **All 16 chapters are written, reviewed and committed** (2026-11-21) on the branch `mark`, in two batches (1–8, 9–16), every chapter ready from review with no question for the author; nothing is merged to `main`. The images and theme candidates wait for all four Gospels (`GOSPELS.md`).
+- **How often each source is cited, measured after the book** (a measurement, not a target): 276 notes; *Jesus the Christ* is among the sources of 97 (35%, against 57% in Matthew) and the only source besides scripture, the Greek and the Joseph Smith Translation in 14; Ellicott 76 (28%); Smith's “Mark's Unique Contribution” 65 (24%). “Talmage is opened last” held.
+- **Mark 15's writer did not add its findings to the story files** (it read the batch's “touch only chapter 15's files” as forbidding it), so the files for the trial, the crucifixion and the burial carry only Matthew's research. Luke's writers fill them.
+- **Commentary keys are one per work** (`ellicott-mark`, `egt-mark`, `cambridge-mark`, `meyer-mark`), with the chapter's page in each ledger row's URL, as Matthew's are; a writer proposes no second entry for another chapter.
 - **Matthew is written and live.** Its writers left 82 research files in `content/volumes/new-testament/stories/`, and they cover nearly every story Mark tells (below, “Begin with the chapter's stories”).
 
 ## What the author has decided
