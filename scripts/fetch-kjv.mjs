@@ -539,6 +539,21 @@ const BOOK_SPELLINGS = {
     [/[Tt]hou son of David,/g, (m) => m.replace('son', 'Son')], // 18:38–39
     [/in the daytime he was/g, 'in the day time he was'], // 21:37, where LDS_SPELLINGS joins the words
   ],
+  john: [
+    [/Judaea/g, 'Judæa'],
+    [/Caesar/g, 'Cæsar'], // 19:12, 15
+    [/Aenon/g, 'Ænon'], // 3:23
+    [/Galilaean/g, 'Galilæan'], // 4:45
+    [/Arimathaea/g, 'Arimathæa'], // 19:38
+    [/Beth-lehem/g, 'Bethlehem'], // 7:42
+    [/\bbason\b/g, 'basin'], // 13:5
+    [/\bplatted\b/g, 'plaited'], // 19:2
+    [/\bspunge\b/g, 'sponge'], // 19:29
+    [/the LORD knew how/g, 'the Lord knew how'], // 4:1
+    [/\bLORD\b/g, 'Lord'], // 20:2, 13, 18, 20, 25, 28: the source prints these LORD; no LORD in the Gospel Library's John
+    [/this feast: for my/g, 'this feast; for my'], // 7:8
+    [/Lazarus was, which had/g, 'Lazarus was which had'], // 12:1
+  ],
   ezra: [
     [/\bMizpar\b/g, 'Mispar'], // 2:2
     [/Pahathmoab/g, 'Pahath-moab'], // 2:6; 8:4; 10:30
