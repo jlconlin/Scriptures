@@ -1,0 +1,91 @@
+name: Luke
+slug: luke
+status: preview
+
+# Site-level fields (see "Adding a new book" in DEVELOPMENT.md)
+# After Mark (21); the volume a book is listed under comes from abbr.
+order: 22
+abbr: luke               # [[Luke 1:1]] links here
+gospelLibrary: nt/luke
+eyebrow: The New Testament
+heroQuote:
+  text: '“For the Son of man is come to seek and to save that which was lost.”'
+  cite: 'Jesus at Zacchaeus’s house, [[Luke 19:10]]'
+description: A phrase-by-phrase companion to the Gospel of Luke, grounded in the restored gospel of Jesus Christ.
+divisionsBlurb: Luke begins and ends in the temple, and from the turn at Luke 9:51, when Jesus “steadfastly set his face to go to Jerusalem,” the long middle of the book is His journey there.
+home:
+  blurb: An orderly account by Paul’s companion, the physician, written for gentile readers, of a Savior who came to seek and to save the lost.
+
+# Sources for the intro: Bible Dictionary, “Luke” (Col. 4:14; 2 Tim. 4:11; Philem. 1:24; writer of the third
+# Gospel and the Acts; Paul's fellow traveler in the “we” passages of Acts; born of gentile parents; practiced
+# medicine; the Gospel specially intended for gentile readers; JST Luke 1:1, “messenger of Jesus Christ”).
+# The last paragraph must point to a New Testament volume guide once one exists (DEVELOPMENT.md, step 2); none is
+# written yet (content/volumes/new-testament/GUIDES.md), so the pointer is left out of this draft.
+intro: |
+  Luke was “the beloved physician” ([[Col. 4:14]]), born, the Bible Dictionary says, of gentile parents. He travelled with Paul, and the passages of Acts that say “we” are taken to be his; he was with Paul at Rome to the last ([[2 Tim. 4:11]]). He wrote this Gospel and the book of Acts, its continuation, and his Gospel was “specially intended for gentile readers.” In the Joseph Smith Translation he calls himself “a messenger of Jesus Christ.”
+
+  Luke writes, he says, “in order,” so that his reader may “know the certainty of those things” ([[Luke 1:3–4]]). His Gospel opens and closes in the temple, and from the day Jesus “steadfastly set his face to go to Jerusalem” ([[Luke 9:51]]) its long middle is the journey there, with parables found in no other Gospel: the good Samaritan, the prodigal son, the Pharisee and the publican. This companion goes through all twenty-four chapters and tries to anticipate the questions a careful reader asks: *Why does only Luke tell this? What does the Joseph Smith Translation add? Who were the Samaritans, the publicans, the lawyers? Where is this in my life?*
+
+# Luke's own shape (BRIEF.md, “Divisions”): the births, the ministry in Galilee, the journey to Jerusalem from
+# 9:51, Jerusalem. Keys must not repeat another book’s (the colors are global variables).
+divisions:
+  - key: lukebirth
+    range: [1, 2]
+    name: The Births and the Boy in the Temple
+    blurb: Gabriel announces John and Jesus, Mary and Zacharias sing, Jesus is born in Bethlehem and presented in the temple, and at twelve is found there, about His Father’s business.
+    color: '#a0682e'
+    darkColor: '#dfa56b'
+  - key: lukeprep
+    range: [3, 4]
+    name: The Spirit of the Lord Is upon Me
+    blurb: John prepares the way, Jesus is baptized and tempted, and in the synagogue at Nazareth He reads Isaiah’s words as fulfilled that day, and His own town rejects Him.
+    color: '#3f7f5f'
+    darkColor: '#82c7a2'
+  - key: lukegalilee
+    range: [5, 9]
+    name: The Ministry in Galilee
+    blurb: Jesus calls fishermen and a publican, chooses the Twelve, preaches on the plain, raises a widow’s son, forgives a woman who loved much, feeds five thousand and is transfigured, then sets His face toward Jerusalem.
+    color: '#3a6a9a'
+    darkColor: '#88b3e0'
+  - key: lukeway
+    range: [10, 13]
+    name: On the Road to Jerusalem
+    blurb: The Seventy are sent, a Samaritan shows who is a neighbor, Martha and Mary receive Him, He teaches His disciples to pray and warns against covetousness, hypocrisy and unready servants, and laments over Jerusalem.
+    color: '#7a5296'
+    darkColor: '#bf9adc'
+  - key: lukelost
+    range: [14, 19]
+    name: The Lost Are Found
+    blurb: Parables of a great supper, a lost sheep, coin and son, the rich man and Lazarus, the Pharisee and the publican, then Zacchaeus at Jericho and the entry into Jerusalem.
+    color: '#8a7a2e'
+    darkColor: '#d4c47a'
+  - key: luketemple
+    range: [20, 21]
+    name: Teaching in the Temple
+    blurb: In the temple Jesus answers the chief priests, the Sadducees and the scribes, praises a widow’s two mites, and foretells Jerusalem’s fall and His coming.
+    color: '#9a4a4a'
+    darkColor: '#e09a9a'
+  - key: lukecross
+    range: [22, 24]
+    name: The Cross and the Risen Lord
+    blurb: The Last Supper, the agony and the bloody sweat, the trials before Pilate and Herod, the cross and a promise of paradise, and the risen Lord on the road to Emmaus and in the upper room.
+    color: '#5a6478'
+    darkColor: '#a9b4c9'
+
+beloved:
+  - { chapter: 1, verse: 37, text: 'For with God nothing shall be impossible' }
+  - { chapter: 1, verse: 38, text: 'Behold the handmaid of the Lord; be it unto me according to thy word' }
+  - { chapter: 2, verse: 11, text: 'For unto you is born this day in the city of David a Saviour, which is Christ the Lord' }
+  - { chapter: 2, verse: 14, text: 'Glory to God in the highest, and on earth peace, good will toward men' }
+  - { chapter: 2, verse: 49, text: 'wist ye not that I must be about my Father’s business?' }
+  - { chapter: 2, verse: 52, text: 'And Jesus increased in wisdom and stature, and in favour with God and man' }
+  - { chapter: 4, verse: 18, text: 'The Spirit of the Lord is upon me, because he hath anointed me to preach the gospel to the poor' }
+  - { chapter: 10, verse: 42, text: 'Mary hath chosen that good part, which shall not be taken away from her' }
+  - { chapter: 15, verse: 20, text: 'But when he was yet a great way off, his father saw him, and had compassion' }
+  - { chapter: 19, verse: 10, text: 'For the Son of man is come to seek and to save that which was lost' }
+  - { chapter: 22, verse: 42, text: 'nevertheless not my will, but thine, be done' }
+  - { chapter: 23, verse: 34, text: 'Father, forgive them; for they know not what they do' }
+  - { chapter: 24, verse: 32, text: 'Did not our heart burn within us, while he talked with us by the way' }
+  - { chapter: 24, verse: 39, text: 'handle me, and see; for a spirit hath not flesh and bones, as ye see me have' }
+
+coreSources: []

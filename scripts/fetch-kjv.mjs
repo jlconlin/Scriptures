@@ -524,6 +524,21 @@ const BOOK_SPELLINGS = {
     [/\bplatted\b/g, 'plaited'], // 15:17
     [/\bspunge\b/g, 'sponge'], // 15:36
   ],
+  luke: [
+    [/Judaea/g, 'Judæa'],
+    [/Caesar/g, 'Cæsar'],
+    [/Alphaeus/g, 'Alphæus'], // 6:15
+    [/Galilaean/g, 'Galilæan'], // 13:1–2; 22:59; 23:6
+    [/Zacchaeus/g, 'Zacchæus'], // 19:2, 5, 8
+    [/Ituraea/g, 'Ituræa'], // 3:1
+    [/Arimathaea/g, 'Arimathæa'], // 23:51
+    [/Beth-lehem/g, 'Bethlehem'], // 2:15
+    [/\bstedfastly\b/g, 'steadfastly'], // 9:51
+    [/the LORD, Every male/g, 'the Lord, Every male'], // 2:23
+    [/the LORD appointed other/g, 'the Lord appointed other'], // 10:1
+    [/[Tt]hou son of David,/g, (m) => m.replace('son', 'Son')], // 18:38–39
+    [/in the daytime he was/g, 'in the day time he was'], // 21:37, where LDS_SPELLINGS joins the words
+  ],
   ezra: [
     [/\bMizpar\b/g, 'Mispar'], // 2:2
     [/Pahathmoab/g, 'Pahath-moab'], // 2:6; 8:4; 10:30
