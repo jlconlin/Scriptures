@@ -51,7 +51,34 @@ findings:
     url: 'https://biblehub.com/interlinear/matthew/1-16.htm'
     quote: 'hēs ἧς whom RelPro-GFS'
     by: matthew 1
-open:
-  - 'Why does Luke place the genealogy after the baptism, and what does “as was supposed” ([[Luke 3:23]]) mean?'
-  - 'Why does Luke run the line to “Adam, which was the son of God” ([[Luke 3:38]]), and why through Nathan rather than Solomon ([[Luke 3:31]])?'
-  - 'Who is the Cainan of [[Luke 3:36]], absent from the Hebrew of Genesis 11?'
+  - claim: 'Brown: JST Luke 3:30 reads “as was supposed of the world” and “who was from the loins of Heli”'
+    key: brown-testimony-luke
+    url: 'https://byustudies.byu.edu/online-book/the-testimony-of-luke/luke-chapter-3-104'
+    quote: 'In an unusual adjustment, the Joseph Smith Translation renders this expression “who was from the loins of Heli” (JST 3:30).'
+    by: luke 3
+  - claim: 'Brown: of three theories (Mary’s line; levirate; Matthew the royal heirs and Luke the biological line), the JST matches only the third'
+    key: brown-testimony-luke
+    url: 'https://byustudies.byu.edu/online-book/the-testimony-of-luke/luke-chapter-3-104'
+    quote: 'Of the three theories, the Joseph Smith Translation would match only the third, and chiefly because it holds that Heli is the biological father of Joseph.'
+    by: luke 3
+  - claim: 'Brown: the Mary’s-line theory lacks support, since huios never means son-in-law'
+    key: brown-testimony-luke
+    url: 'https://byustudies.byu.edu/online-book/the-testimony-of-luke/luke-chapter-3-104'
+    quote: 'though no hint exists in Luke’s words that would expressly lead to this conclusion because the Greek word for “son” (huios) is never attested as meaning “son-in-law.”'
+    by: luke 3
+  - claim: 'The second Cainan (Luke 3:36) is in the Septuagint of Genesis 11:12–13, not the Hebrew'
+    key: lxx-rahlfs
+    url: 'https://biblehub.com/sep/genesis/11.htm'
+    quote: 'And Arphaxad lived a hundred and thirty-five years, and begot Cainan.'
+    by: luke 3
+  - claim: 'JST Luke 3:45: Adam “who was formed of God, and the first man upon the earth” (footnote)'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/luke/3?lang=eng'
+    quote: 'who was formed of God, and the first man upon the earth.'
+    by: luke 3
+  - claim: 'Huntsman: the genealogy’s last entry (3:38) reinforces the Father’s proclamation at the baptism (3:22)'
+    key: huntsman-lukes-jesus
+    url: 'https://rsc.byu.edu/thou-art-christ-son-living-god/lukes-jesus-compassionate-saving-son-god'
+    quote: 'the surest source of this knowledge is from God himself, who proclaims Jesus his beloved Son at the baptism (Luke 3:22), a point which Luke reinforces with the final entry in Jesus’s genealogy (3:38).'
+    by: luke 3
+open: []

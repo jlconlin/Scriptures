@@ -29,7 +29,34 @@ findings:
     url: 'https://www.churchofjesuschrist.org/study/new-era/2006/12/christ-the-savior-is-born?lang=eng'
     quote: 'Jesus was born of an immortal Father and a mortal mother. From His immortal Father, Jesus inherited the power to live forever. From His mortal mother He inherited the fate of physical death.'
     by: matthew 1
-open:
-  - 'What was the census of Caesar Augustus, and the problem of “when Cyrenius was governor of Syria” ([[Luke 2:1–2]])? Skinner, “The Life of Jesus of Nazareth,” [30], begins on it.'
-  - 'What were the “inn” and the “manger,” and what were swaddling clothes ([[Luke 2:7]])?'
-  - 'Alma 7:10 says “at Jerusalem”: how does that sit with Bethlehem?'
+  - claim: 'Quirinius was legate of Syria AD 6–7, too late for a birth under Herod (d. 4 BC); Josephus’s census of AD 6 (Acts 5:37); most scholars dismiss Luke’s note; Herod likely took Roman-style censuses; Quirinius’s census memorable for the resistance it stirred'
+    key: brown-testimony-luke
+    url: 'https://byustudies.byu.edu/online-book/the-testimony-of-luke/luke-chapter-2-104'
+    quote: 'most scholars dismiss the notation here as historically inaccurate. But this view does not take into account that Herod, who introduces all things Roman into his society, most likely adopts the Roman approach to census-taking and taxation as well'
+    by: luke 2
+  - claim: '“First” in Luke 2:2 may modify “enrollment”: “This census was before the census which Quirinius … made” (Turner, as Brown reports)'
+    key: brown-testimony-luke
+    url: 'https://byustudies.byu.edu/online-book/the-testimony-of-luke/luke-chapter-2-104'
+    quote: 'Most early manuscripts place “first” so that it modifies “enrollment.” In contrast, Nigel Turner suggests that the expression means, “This census was before the census which Quirinius, governor of Syria, made”'
+    by: luke 2
+  - claim: 'Kataluma can be “inn,” “guest room” or “room”; JST reads “inns”; Luke does not say where the birth occurred; Justin Martyr places it in a cave'
+    key: skinner-life-jesus
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/life-jesus-nazareth'
+    quote: 'The Joseph Smith Translation changes inn to inns. The Greek word kataluma can be translated as “inn,” “guest room,” or “room.”'
+    by: luke 2
+  - claim: 'Katalyma is the “guest chamber” of Luke 22:11; JST 2:7 also reads “there was none to give room for them”'
+    key: brown-testimony-luke
+    url: 'https://byustudies.byu.edu/online-book/the-testimony-of-luke/luke-chapter-2-104'
+    quote: 'The term translated “inn” is the same as that translated “guest chamber” in 22:11 (Greek katalyma). … A further addition to the Joseph Smith Translation can support either view: “there was no room for them” becomes “there was none to give room for them” (JST 2:7).'
+    by: luke 2
+  - claim: 'Swaddling clothes were narrow bands common to well-cared-for infants, not rags'
+    key: south-clothing-textiles
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/clothing-textiles-new-testament'
+    quote: 'which were not the rags of Nativity art but rather narrow bands common to all well-cared for infants, made for that purpose and perhaps even embroidered with lineage identifications.'
+    by: luke 2
+  - claim: 'Alma 7:10’s “at Jerusalem” names the land, not the city; Bethlehem was a town of the land of Jerusalem'
+    key: sc-knowhy-495
+    url: 'https://scripturecentral.org/knowhy/why-does-the-book-of-mormon-talk-about-a-land-of-jerusalem'
+    quote: 'Yet Alma’s full statement refers to “Jerusalem which is the land of our forefathers,” indicating that Alma had the land, not the city, of Jerusalem in mind.'
+    by: luke 2
+open: []

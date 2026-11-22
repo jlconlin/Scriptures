@@ -40,7 +40,31 @@ findings:
     url: 'https://biblehub.com/greek/2540.htm'
     quote: 'the preappointed period which according to the purpose of God must elapse before the divine kingdom could be founded by Christ, Mark 1:15'
     by: mark 1
+  - claim: 'Antipas took Herodias, wife of his half-brother Philip; deposed AD 39'
+    key: bd-herod
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/herod?lang=eng'
+    quote: 'He took as his wife Herodias, the wife of his half-brother Philip. He was deposed by the Emperor Caligula and banished to Lugdunum in Gaul, A.D. 39.'
+    by: luke 3
+  - claim: 'Brown: Luke tells the imprisonment before the baptism and does not name John as baptizer; the JST adjusts'
+    key: brown-testimony-luke
+    url: 'https://byustudies.byu.edu/online-book/the-testimony-of-luke/luke-chapter-3-104'
+    quote: 'In fact, in the preserved texts, Luke does not even mention that John performs Jesus’ baptism, though he implies it. Joseph Smith sees the difficulty and, as we have noted, makes an adjustment'
+    by: luke 3
+  - claim: 'Josephus (via Brown): John taken in chains to Machaerus'
+    key: brown-testimony-luke
+    url: 'https://byustudies.byu.edu/online-book/the-testimony-of-luke/luke-chapter-3-104'
+    quote: 'From Josephus, we learn that John “was brought in chains to Machaerus,” a small fortress built by Herod the Great that perches atop a hill overlooking the east shore of the Dead Sea.'
+    by: luke 3
+  - claim: 'Strathearn and Judd: Luke places John’s imprisonment before the baptism; logic favors Mark’s and Matthew’s order'
+    key: strathearn-gospels
+    url: 'https://rsc.byu.edu/vol-8-no-2-2007/distinctive-testimonies-four-gospels'
+    quote: 'For example, Luke places John the Baptist’s imprisonment (3:19–20) before the baptism of Jesus (3:21–22). … In this instance, logic favors the chronology presented by Mark and Matthew over that of Luke.'
+    by: luke 4
+  - claim: 'Brown: Jesus carries the Holy Ghost only after baptism, and the Holy Ghost goes with Him back into Galilee (Luke 4:1, 14)'
+    key: brown-testimony-luke
+    url: 'https://byustudies.byu.edu/online-book/the-testimony-of-luke/luke-chapter-4-104'
+    quote: 'We receive the Holy Ghost only after receiving baptism at the hand of one of God’s agents, and the Holy Ghost then accompanies us in our return to our normal lives.'
+    by: luke 4
 open:
-  - 'Why does Luke tell John’s imprisonment before Jesus’s baptism ([[Luke 3:19–21]])?'
   - 'What does Mark mean by “the time is fulfilled” ([[Mark 1:15]])?'
   - 'What did Jesus do in Judea and Samaria before this return, which John tells and the others pass over ([[John 2–4]])?'
