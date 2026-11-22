@@ -6,3 +6,4 @@ Questions a reader would ask that no source read answered, by chapter: a list fo
 - **5:** Why Luke says 'lake of Gennesaret' rather than 'sea of Galilee' (from the writer's report; not researched); What 'murmured' (5:30) recalls (left open in the story file).
 - **6:** Why Luke puts the cloak before the coat (6:29); Who the false prophets of 6:26 are.
 - **8:** Why Luke alone leaves 'sister' out of the family saying (8:21): the writer found Brown names it only as a puzzle.
+- **18:** Luke 18:30: what is the 'manifold more in this present time'? The writer left it to Mark 10's note on the hundredfold.
