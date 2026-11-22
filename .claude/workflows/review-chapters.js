@@ -1,7 +1,7 @@
 export const meta = {
   name: 'review-chapters',
   description: 'Review a batch of written chapters: one Opus reviewer per chapter decides the checker\'s findings and Codex\'s reading and repairs the chapter once',
-  whenToUse: 'write-chapters has finished a batch and codex-read.mjs --batch has read the drafts. args: { book, chapters, across, reviewerModel, lastBatch, themes }',
+  whenToUse: 'write-chapters runs it for each chapter as soon as Codex has read that chapter; run it by name to review again chapters whose drafts and readings exist (after a repair, or a run that stopped). args: { book, chapters, across, reviewerModel, lastBatch, themes }',
   phases: [{ title: 'Review' }],
 }
 // args:
@@ -21,6 +21,8 @@ export const meta = {
 // It decides every finding, repairs the chapter, and may add what a real gap needs only from a source it reads,
 // with a ledger row. Afterwards the coordinator runs scripts/batch-finish.mjs on this run's journal, which commits
 // each chapter with the record of its prose review (PROCESS.md, “Writing a book in batches”).
+// write-chapters calls it with one chapter at a time (since 2026-11-22), so a reviewer starts as soon as its chapter's
+// Codex reading is done; with one chapter and no across, the side-by-side file is not named.
 // Since 2026-11-17 (DECISIONS.md, “Codex reads before the reviewer”); before then the reviewer saw only the
 // checker's findings and a separate apply stage (codex-pass) handled Codex's.
 const book = args.book

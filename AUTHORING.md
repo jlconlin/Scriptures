@@ -38,7 +38,7 @@ What is true of the whole site:
 4. **Codex reads the draft** for connected prose and language and writes its findings; it edits nothing and sees no sources (`PROCESS.md`, “The second reader”).
 5. **An Opus reviewer** decides both lists of findings and repairs the chapter once, reading for sense and for the standard; what a real gap needs it adds only from a source it reads (`chapter-reviewer`).
 
-Steps 4 and 5 have been in this order since 2026-11-17 (`DECISIONS.md`, “Codex reads before the reviewer”); through Chronicles the reviewer came first and Codex's findings were applied in a separate language pass.
+Steps 4 and 5 have been in this order since 2026-11-17 (`DECISIONS.md`, “Codex reads before the reviewer”); through Chronicles the reviewer came first and Codex's findings were applied in a separate language pass. Since 2026-11-22 each chapter goes through the five steps on its own, without waiting for the rest of its batch (`DECISIONS.md`, “Each chapter goes straight on”); only Codex's side-by-side reading of the batch waits for all of it, and a short Opus pass applies what it finds.
 
 **Why these models.** Opus writes and reviews; Sonnet does the mechanical checking; Codex is the last reader because it is a model of another family. Each choice is the author's, made after a trial; the trials and their results are in `DECISIONS.md` (“Why these models”). Don't change a model without a trial of the same kind.
 
