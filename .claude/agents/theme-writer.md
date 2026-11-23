@@ -76,7 +76,7 @@ A guide is background that makes the chapters easier to read; you are told when 
 - **It explains; it doesn't argue.** Say what a custom or institution was, where the text shows it, and what scripture and the Church teach, as far as the sources say it. No sentence defends, excuses or condemns beyond its source, and a hard passage is named plainly and given what the sources give it. Evaluative words (“protected,” “honored,” “oppressive”) are claims and need a row.
 - **Not an arc, and not an argument.** A guide has no thesis: sections by topic, in the outline's order; a table where one carries a list better than prose (people and where to read them, terms and what they mean). Length is what the outline needs and no more, about 2,000 words as the measure (§8, “How a guide is written”): a guide is something to consult, not an essay.
 - **Give every section an explicit id** (`<h2 id="levirate-marriage">Levirate marriage</h2>`): chapters link to a guide by section.
-- **The proposed sources** go in `.cache/batch/<owner>/proposed/<file name>.yaml`, one per line (`key: { type, author, title, pub, url }`), not only in your report.
+- **The proposed sources** go in `.cache/batch/<owner>/proposed/<file name>.yaml`, one per line (`key: { type, author, title, pub, url }`, with `"verseByVerse": true` or `false` for a book, chapter, article or web page that is not a Bible Hub commentary: does it go through a book of scripture verse by verse?), not only in your report.
 - **One command for the checks:** `node scripts/check-page.mjs <owner> <file name>` runs the build, `check-quotes`, `check-content`, `check-ledger` and `check-sources` for the page and prints only what concerns it. Use it in place of the commands in section 4.
 
 ## Limits

@@ -1,11 +1,14 @@
 // Lists the parts of a chapter (a note, `setting`, `thread`, `christ`, a section's plain words) whose only outside sources are
-// commentaries that go verse by verse: Talmage's *Jesus the Christ*, Ellicott, the Expositor's Greek Testament, Meyer, the
-// Cambridge Bible, the Pulpit Commentary, Keil, Brown's *Testimony of Luke*, Huntsman and Hatch's *Greater Love Hath No Man*,
-// Huntsman's translation of John, Edersheim. A writer reaches for these because they answer nearly any question in one call, and
-// in Matthew (Talmage), Luke (Brown) and John (Ellicott) one of them came to carry the book (GOSPELS.md, “Talmage is opened last”).
-// Each listed part is a finding for the reviewer: recast it from the studies of the passage, scripture and the prophets, or say why
-// nothing else answers its question. It is a list of notes, not a count to meet (author, 2026-11-20: no count of any source in
-// the rules or the checks); the total at the end is for the coordinator's measurement after a batch.
+// commentaries that go through a book of scripture verse by verse. The class is defined by what a work is, not by a list of
+// names (author, 2026-11-22: “We shouldn't be limited to just a handful of them”): every commentary on Bible Hub (any address
+// under biblehub.com/commentaries/: Ellicott, Barnes, Gill, Clarke, Keil, the Pulpit Commentary and the rest), and any entry
+// in content/sources.yaml or the chapter's proposed file marked "verseByVerse": true (Talmage's *Jesus the Christ*, Brown's
+// *Testimony of Luke*, Huntsman and Hatch's day-by-day chapters of *Greater Love Hath No Man*). check-sources.mjs asks for the mark
+// when such an entry is proposed. A writer reaches for these because they answer nearly any question in one call, and in
+// Matthew (Talmage), Luke (Brown) and John (Ellicott) one of them came to carry the book (GOSPELS.md, “Why one source keeps
+// coming to carry a book”). Each listed part is a finding for the reviewer: recast it from the studies of the passage, scripture
+// and the prophets, or say why nothing else answers its question. It is a list of notes, not a count to meet (author,
+// 2026-11-20: no count of any source in the rules or the checks); the total at the end is the coordinator's measurement.
 // Scripture, the JST, the Greek and Hebrew texts and lexicons, and the Bible Dictionary are not counted as outside sources.
 // Usage: node scripts/sole-commentary.mjs <book> [chapter ...] [--quiet]
 //   --quiet prints only the totals line.
@@ -13,15 +16,14 @@ import { readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import path from 'node:path';
 import YAML from 'yaml';
-import { SCRIPT_ROOT as ROOT, pad } from '../src/lib/ledger.mjs';
+import { SCRIPT_ROOT as ROOT, pad, readProposed } from '../src/lib/ledger.mjs';
 
-// The commentaries that cover every verse in order (keys, or the address of the work for keys named otherwise).
-export const VERSE_BY_VERSE_KEY = /^(?:talmage-jesus-christ|ellicott-|egt-|meyer-|cambridge-|pulpit-|keil-|brown-testimony-luke|huntsman-john-rendition|edersheim)/;
-export const VERSE_BY_VERSE_URL = /rsc\.byu\.edu\/greater-love-hath-no-man\//;
+// The commentaries that go verse by verse: any Bible Hub commentary by its address, and any entry marked verseByVerse.
+export const VERSE_BY_VERSE_URL = /biblehub\.com\/commentaries\//;
+export const isVerseByVerse = (entry, url) => Boolean(entry?.verseByVerse) || VERSE_BY_VERSE_URL.test(String(url ?? '')) || VERSE_BY_VERSE_URL.test(String(entry?.url ?? ''));
 // Not outside sources: the text itself and the tools for reading it (check-content.mjs's REFERENCE_KEY, with the Bible Dictionary).
 const REFERENCE_KEY = /^(?:lds-scriptures|greek-nt|biblehub-interlinear|lxx-|nrsv|niv$|esv$|kjv|oshb|tahot|bdb|halot|strongs|webster|thayer|jst-|mt-sefaria|bd-|.*-heading$)/;
 
-const isCommentary = (r) => VERSE_BY_VERSE_KEY.test(String(r.key ?? '')) || VERSE_BY_VERSE_URL.test(String(r.url ?? ''));
 
 const argv = process.argv.slice(2);
 const quiet = argv.includes('--quiet');
@@ -35,6 +37,7 @@ if (!chapters.length) {
   chapters = (await readdir(dir)).map((f) => f.match(/^(\d+)\.yaml$/)?.[1]).filter(Boolean).map(Number).sort((a, b) => a - b);
 }
 
+const sources = YAML.parse(await readFile(path.join(ROOT, 'content/sources.yaml'), 'utf8')) ?? {};
 let parts = 0, listed = 0;
 for (const n of chapters) {
   const file = path.join(dir, `${pad(n)}.yaml`);
@@ -47,6 +50,9 @@ for (const n of chapters) {
     if (!byWhere.has(w)) byWhere.set(w, []);
     byWhere.get(w).push(r);
   }
+  let proposed = {};
+  try { proposed = await readProposed(book, n); } catch {}
+  const isCommentary = (r) => isVerseByVerse(proposed[r.key] ?? sources[r.key], r.url);
   const hits = [];
   for (const [where, rs] of byWhere) {
     parts++;

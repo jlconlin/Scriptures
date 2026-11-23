@@ -6,6 +6,8 @@
 // title (a missing entry still returns a page, headed only “Bible Dictionary”); a wiki or popular-history host; a PDF with no
 // text layer; a title that shares no significant word with the page's title or first heading (a page with no title of its own:
 // with its first paragraphs). An author whose surname is not on the page is noted, not flagged: not every page names it.
+// A proposed book, chapter, article or web page without "verseByVerse": true or false is flagged (sole-commentary.mjs reads it;
+// a Bible Hub commentary needs none: its address says it).
 // Exit code 1 if anything is flagged. Reading the pages still has to be done by the one who cites them.
 // Usage: node scripts/check-sources.mjs <book> <chapter numbers...>   the entries in .cache/batch/<book>/proposed/NN.yaml
 //        node scripts/check-sources.mjs <book or volume> <page file name>   a guide or theme page's, in proposed/<page file name>.yaml
@@ -58,6 +60,12 @@ for (const { key, entry, from } of todo) {
   console.log(`\n${key}  (${entry?.type ?? '?'}; ${from})`);
   if (!entry) { console.log('  ⚑ not in sources.yaml'); flagged++; continue; }
   console.log(`  entry: ${clean(entry.title)}${entry.author ? ` | ${clean(entry.author)}` : ''}${entry.pub ? ` | ${clean(entry.pub)}` : ''}`);
+  // A proposed book, chapter, article or web page says whether it goes through a book of scripture verse by verse
+  // (scripts/sole-commentary.mjs), so the class is known when the work first enters the site, not found by name later.
+  if (from.includes('proposed') && /^(?:book|chapter|article|web)$/.test(entry.type ?? '') && typeof entry.verseByVerse !== 'boolean' && !/biblehub\.com\/commentaries\//.test(entry.url ?? '')) {
+    console.log('  ⚑ say whether this work goes through a book of scripture verse by verse, as a commentary does: add "verseByVerse":true or "verseByVerse":false');
+    flagged++;
+  }
   if (!entry.url) { console.log('  no URL: nothing to open (a printed work, a museum object)'); continue; }
   console.log(`  ${entry.url}`);
   if (isWiki(entry.url)) flags.push('a wiki or popular-history host: not a source (STANDARDS.md §4 rule 7)');
