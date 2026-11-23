@@ -1,5 +1,10 @@
 chapter: 3
 claims:
+  - where: when
+    claim: 'The chapter follows the first Passover of the ministry (2:23), at Jerusalem'
+    key: strathearn-johannine-dialogues
+    url: 'https://rsc.byu.edu/thou-art-christ-son-living-god/johannine-christology-through-lens-three-its-dialogues'
+    quote: 'Nicodemus appears to have been among those who had “believed” (Greek, episteusan) when they saw the miracles Jesus performed during the first Passover of his ministry (John 2:23; compare 3:2).'
   - where: setting
     claim: 'Nicodemus appears to have been among those who believed at the first Passover when they saw the signs'
     key: strathearn-johannine-dialogues
@@ -148,12 +153,6 @@ claims:
     url: 'https://rsc.byu.edu/words-joseph-smith/9-july-1843-sunday-morning-temple-stand'
     quote: 'might as well be baptize a bag of sand as a man if not done in view of the getting of the Holy Ghost.—baptism by water is but 1/2 a baptism'
 
-  - where: 'note 3:8 “Wind and Spirit”'
-    claim: 'pneuma means wind (John 3:8) and corresponds to Hebrew ruach'
-    key: thayer
-    url: 'https://biblehub.com/greek/4151.htm'
-    quote: 'πνεῦμα, πνεύματος, τό (πνέω), Greek writings from Aeschylus and Herodotus down; Hebrew רוּחַ, Latinspiritus; i. e.: … a. of the wind: … hence, the wind itself, John 3:8'
-
   - where: 'note 3:10 “The teacher of Israel”'
     claim: 'The Greek has the article: the teacher of Israel; Nicodemus stands for all the teachers who speak of the earth'
     key: strathearn-johannine-dialogues
@@ -208,7 +207,7 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=eng'
     quote: 'The Greek construction suggests that verses 11–21 contain a direct quotation.'
   - where: 'note 3:16 “His only begotten Son”'
-    claim: 'monogenēs: single of its kind, only; used of only sons; of Christ, the one who has no brethren as Son of God'
+    claim: 'monogenēs: used of only sons or daughters; of Christ, the only Son of God'
     key: thayer
     url: 'https://biblehub.com/greek/3439.htm'
     quote: 'single of its kind, only (A. V. only-begotten); used of only sons or daughters … used of Christ, denotes the only son of God or one who in the sense in which he himself is the son of God has no brethren.'
@@ -241,31 +240,51 @@ claims:
     quote: 'Thus, Jesus brings together the two elements of baptism that were separate in John’s baptism.'
 
   - where: 'note 3:24 “Before John was imprisoned”'
-    claim: 'This Judean ministry preceded the Galilean ministry of the other Gospels'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/3.htm'
-    quote: 'This Judæan ministry, then, preceded the Galilean ministry of the earlier Gospels.'
-  - where: 'note 3:24 “Before John was imprisoned”'
     claim: 'The two ministries overlap'
     key: larsen-baptism-nt
     url: 'https://rsc.byu.edu/new-testament-history-culture-society/baptism-new-testament'
     quote: 'In John 3, we see that the ministries of the Baptist and Jesus overlap.'
 
   - where: 'note 3:25 “A question about purifying”'
-    claim: 'Some manuscripts read “a Jew”; the nature of the question is unknown; it arose from the baptisms nearby'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/3.htm'
-    quote: 'For “the Jews,” the reading of the better MSS. is, a Jew. The question arose on the side of John’s disciples. What the exact nature of it was we do not know, and have no means of judging.'
-  - where: 'note 3:25 “A question about purifying”'
-    claim: 'The Textus Receptus reads the plural “the Jews”; the SBL and other critical editions read the singular “a Jew”'
+    claim: 'Every edition on the page except the two Textus Receptus editions (SBL, Nestle, Westcott and Hort, the Byzantine Majority Text, the Greek Orthodox Church text, Tischendorf) reads the singular “a Jew”'
     key: greek-nt
     url: 'https://biblehub.com/texts/john/3-25.htm'
     quote: 'Ἐγένετο οὖν ζήτησις ἐκ τῶν μαθητῶν Ἰωάννου μετὰ Ἰουδαίου περὶ καθαρισμοῦ.'
   - where: 'note 3:25 “A question about purifying”'
-    claim: 'It concerned external rites, was tied to the baptisms nearby, and introduces the Baptist’s testimony'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/3.htm'
-    quote: 'This arose in some way from the fact of the disciples of Jesus baptising near to the place where John was baptising, and doubtless was closely connected with these baptisms. The fact is only preserved as an incidental introduction to the remarkable testimony of the Baptist'
+    claim: 'The Textus Receptus behind the King James reads the plural “the Jews”'
+    key: greek-nt
+    url: 'https://biblehub.com/texts/john/3-25.htm'
+    quote: 'ἐγένετο οὖν ζήτησις ἐκ τῶν μαθητῶν Ἰωάννου μετὰ Ἰουδαίων περὶ καθαρισμοῦ.'
+  - where: 'note 3:25 “A question about purifying”'
+    claim: 'The same word, katharismos, names the purifying of the Jews at Cana (2:6)'
+    key: greek-nt
+    url: 'https://biblehub.com/texts/john/2-6.htm'
+    quote: 'ἦσαν δὲ ἐκεῖ λίθιναι ὑδρίαι ἓξ κατὰ τὸν καθαρισμὸν τῶν Ἰουδαίων κείμεναι'
+  - where: 'note 3:25 “A question about purifying”'
+    claim: 'In 2:6 the word is used of the Jews’ washings before and after meals; in 3:25, without a genitive, of baptism'
+    key: thayer
+    url: 'https://biblehub.com/greek/2512.htm'
+    quote: 'used with a genitive of the subjunctive, τῶν Ἰουδαίων, of the washings of the Jews before and after their meals, John 2:6; without a genitive, of baptism (a symbol of moral cleansing), John 3:25'
+  - where: 'note 3:25 “A question about purifying”'
+    claim: 'The Law had various purifying ceremonies'
+    key: bd-purification
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/purification'
+    quote: 'There were various purifying ceremonies. Bathing the flesh and the clothes in running water was used in all and sufficed in the simplest cases.'
+  - where: 'note 3:25 “A question about purifying”'
+    claim: 'Jewish washings and John’s baptism both carried a theme of purification'
+    key: larsen-baptism-nt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/baptism-new-testament'
+    quote: 'Both Jewish washings and John’s baptism contain a theme of purification or cleansing.'
+  - where: 'note 3:25 “A question about purifying”'
+    claim: 'John’s baptism was given once, for repentance and forgiveness; most Jewish washings were repeated when needed'
+    key: larsen-baptism-nt
+    url: 'https://rsc.byu.edu/new-testament-history-culture-society/baptism-new-testament'
+    quote: 'John’s baptism was a onetime event. Most of the Jewish washings were a ceremonial purification rite that would be performed when needed throughout one’s lifetime. John’s baptism was focused on repentance and the forgiveness of sins'
+  - where: 'note 3:25 “A question about purifying”'
+    claim: 'The disciples brought John the news that Jesus baptized and all came to Him, and John’s testimony follows'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=eng'
+    quote: 'And they came unto John, and said unto him, Rabbi, he that was with thee beyond Jordan, to whom thou barest witness, behold, the same baptizeth, and all men come to him.'
 
   - where: 'note 3:29 “The friend of the bridegroom”'
     claim: 'The friend of the bridegroom (shoshben) arranged the contract, acted for the bridegroom in the betrothal and presided at the wedding'
@@ -299,17 +318,11 @@ claims:
     url: 'https://biblehub.com/commentaries/ellicott/john/3.htm'
     quote: 'It will be noted that John is still expounding to his disciples the meaning of his own declaration, “He must increase, but I must decrease.”'
 
-  - where: 'note 3:34 “Not by measure”'
-    claim: 'JST John 3:34: he dwelleth in him, even the fullness'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=eng'
-    quote: 'for God giveth him not the Spirit by measure, for he dwelleth in him, even the fullness.'
-  - where: 'note 3:34 “Not by measure”'
-    claim: 'JST John 3:36: the believer shall receive of his fullness'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/3?lang=eng'
-    quote: 'And he who believeth on the Son hath everlasting life; and shall receive of his fullness. But he who believeth not the Son, shall not receive of his fullness; for the wrath of God is upon him.'
-
+  - where: 'note 3:31 “He that cometh from above”'
+    claim: 'Another reading applies “speaketh of the earth” (3:31) to Nicodemus and the teachers of Israel'
+    key: strathearn-johannine-dialogues
+    url: 'https://rsc.byu.edu/thou-art-christ-son-living-god/johannine-christology-through-lens-three-its-dialogues'
+    quote: 'The definite article suggests that Nicodemus represents all the teachers of Israel who “speaketh of the earth.” It is not just he who fails to understand.'
   - where: 'note 3:36 “Believeth not”'
     claim: 'apeitheō: not to be persuaded, not to comply; refuse belief (opposed to pisteuō, John 3:36); refuse belief and obedience'
     key: thayer
