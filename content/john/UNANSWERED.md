@@ -11,3 +11,7 @@ Questions a reader would ask that no source read answered, by chapter: a list fo
 - **14:** 14:3: what 'I will come again, and receive you' refers to (the Second Coming, death, or something else). No Latter-day Saint source the writer read settles it; 14:26: whether 'bring all things to your remembrance' bears on the apostles' written witness. No source read says so.
 - **19:** Why does the Joseph Smith Translation read 'burial' for 'skull' at 19:17? No source read explains the change; What does the garden and the new tomb of 19:41 signify? No source read gives it a meaning beyond the fact.
 - **20:** 20:9: which scripture foretold that He must rise. No source read names one; 20:1: why the Joseph Smith Translation reads 'two angels sitting thereon.' No source read explains it.
+- **2:** John 2:20: how the 'forty and six years', counted from Herod's start in 17 B.C. (Bible Dictionary), fit the year of this Passover. No source read gives the reckoning; John 2:1–11: whether wine at Cana bears on the Word of Wisdom. Only Scripture Helps (a manual, not citable) raises it.
+- **6:** 6:62: what 'What and if ye shall see the Son of man ascend up where he was before?' adds to the hard saying. No source read answers it (only the footnote to John 3:13).
+- **12:** 12:29: Why did some hear thunder and others an angel? No source read explains it.
+- **14:** Why does the Father's being greater give the disciples reason to rejoice at Jesus's going (14:28)? No source read explains it beyond the verse.
