@@ -10,8 +10,9 @@
 //                 when .cache/batch/<book>/proposed/NN.yaml exists (scripts/check-content.mjs); fails on an error, lists the warnings
 //   check-ledger  reopens every ledger row's URL and confirms the quote is on the page (scripts/check-ledger.mjs; slow when the pages
 //                 are not in the cache)
+//   commentary    lists the parts whose only outside sources go verse by verse (scripts/sole-commentary.mjs); never fails
 // Usage: node scripts/check-chapter.mjs <book> <chapter> [--skip ledger,quotes,...] [--fresh]
-//   --skip names checks to leave out (fix-yaml, build, quotes, content, ledger); --fresh passes --fresh to check-ledger.
+//   --skip names checks to leave out (fix-yaml, build, quotes, content, ledger, commentary); --fresh passes --fresh to check-ledger.
 import { readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
 import { spawnSync } from 'node:child_process';
@@ -25,7 +26,7 @@ const skipAt = argv.indexOf('--skip');
 const skip = skipAt >= 0 ? (argv.splice(skipAt, 2)[1] ?? '').split(',') : [];
 const fresh = argv.includes('--fresh');
 const [slug, chapterArg] = argv.filter((a) => !a.startsWith('--'));
-if (!slug || !/^\d+$/.test(chapterArg ?? '')) { console.error('Usage: node scripts/check-chapter.mjs <book> <chapter> [--skip ledger,quotes,build,content,fix-yaml] [--fresh]'); process.exit(1); }
+if (!slug || !/^\d+$/.test(chapterArg ?? '')) { console.error('Usage: node scripts/check-chapter.mjs <book> <chapter> [--skip ledger,quotes,build,content,fix-yaml,commentary] [--fresh]'); process.exit(1); }
 const n = +chapterArg, nn = pad(n);
 const book = await findBook(ROOT, slug);
 const file = path.join('content', slug, 'chapters', `${nn}.yaml`);
@@ -98,6 +99,15 @@ if (want('ledger')) {
   const l = lines(r.out), line = l.find((x) => /rows confirmed/.test(x)) ?? l.at(-1) ?? 'no output';
   done('check-ledger', r.code === 0, line.replace(/^.*?: /, ''), l.filter((x) => /^\s*[✗?] /.test(x)));
 } else if (!skip.includes('ledger')) console.log('- check-ledger   skipped: the chapter has no ledger yet');
+
+// ---------- commentary (never fails) ----------
+// The parts whose only outside sources go verse by verse (scripts/sole-commentary.mjs): each is a finding for the reviewer,
+// listed here so the writer, the checker and the reviewer all see it while the chapter is open, not after the book.
+if (hasLedger && want('commentary')) {
+  const r = run(['scripts/sole-commentary.mjs', slug, String(n)]);
+  const l = lines(r.out).filter((x) => /^\s/.test(x));
+  done('commentary', true, l.length ? `${l.length} part(s) rest only on a verse-by-verse commentary: recast each from the studies of the passage, scripture and the prophets, or say why nothing else answers it` : 'no part rests only on a verse-by-verse commentary', l);
+}
 
 const failed = results.filter((r) => !r.ok).map((r) => r.name);
 console.log(`\n${failed.length ? `Failed: ${failed.join(', ')}.` : 'Every check passed.'} (${results.length} run${skip.length ? `; left out: ${skip.join(', ')}` : ''}. Warnings under check-content are for the writer or reviewer to decide.)`);
