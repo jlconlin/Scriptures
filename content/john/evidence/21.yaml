@@ -2,15 +2,20 @@ chapter: 21
 claims:
   # ---- when, setting, thread
   - where: when
-    claim: 'The appearance came at some point after the first Easter, when disciples had returned to Galilee'
-    key: huntsman-postlude
-    url: 'https://rsc.byu.edu/greater-love-hath-no-man/postlude-later-appearances-ongoing-apostolic-witness'
-    quote: 'At some point after the first Easter, a group of Jesus’s disciples returned to Galilee, apparently in response to the direction that they had received Easter morning (Mark 16:7; parallel Matt 28:7, 10).'
+    claim: 'The appearance came after the Resurrection, at the sea of Tiberias'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/21?lang=eng'
+    quote: 'After these things Jesus shewed himself again to the disciples at the sea of Tiberias; and on this wise shewed he himself.'
   - where: when
-    claim: 'Jesus was seen by the apostles over forty days before His ascension'
-    key: huntsman-postlude
-    url: 'https://rsc.byu.edu/greater-love-hath-no-man/postlude-later-appearances-ongoing-apostolic-witness'
-    quote: 'The opening of the book of Acts reports that Jesus was seen by his apostles over the course of forty days before his ascension (Acts 1:2‒4).'
+    claim: 'The sea of Tiberias is the sea of Galilee'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/6?lang=eng'
+    quote: 'After these things Jesus went over the sea of Galilee, which is the sea of Tiberias.'
+  - where: when
+    claim: 'Jesus was seen by the apostles for forty days after His passion'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/1?lang=eng'
+    quote: 'To whom also he shewed himself alive after his passion by many infallible proofs, being seen of them forty days, and speaking of the things pertaining to the kingdom of God:'
   - where: setting
     claim: 'The epilogue resumes a narrative that seemed to end at 20:30–31; its style may suggest a later addition'
     key: huntsman-gospel-john
@@ -53,15 +58,25 @@ claims:
     quote: 'it also shifts the story of Jesus to the future of his Church, which Peter will lead and care for (21:15–19).'
   # ---- section plain
   - where: section 1 plain
-    claim: '“Children” was an address like “lads”; “meat” is anything eaten with bread, i.e. fish'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/21.htm'
-    quote: 'appears also to have been used as an address to workmen or inferiors, not unlike our own words “boys” or “lads.”'
+    claim: '“Meat” (prosphagion) is anything eaten with bread, here fish'
+    key: thayer
+    url: 'https://biblehub.com/greek/4371.htm'
+    quote: 'anything eaten with bread … spoken of fish boiled or broiled, John 21:5'
+  - where: section 1 plain
+    claim: '“Children” (paidia) is an affectionate address'
+    key: thayer
+    url: 'https://biblehub.com/greek/3813.htm'
+    quote: 'in affectionate address, equivalent to Latincarissimi (A. V. children), John 21:5'
   - where: section 2 plain
-    claim: 'The second and third “feed” is better “be a shepherd of”'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/21.htm'
-    quote: 'Feed my sheep.—Better, be a shepherd of My sheep.'
+    claim: 'The second “feed” (poimainō) is to tend a flock, to shepherd; used of the overseers of the church'
+    key: thayer
+    url: 'https://biblehub.com/greek/4165.htm'
+    quote: 'to feed, to tend a flock, keep sheep;'
+  - where: section 2 plain
+    claim: 'Poimainō is used of the pastors of the church at John 21:16'
+    key: thayer
+    url: 'https://biblehub.com/greek/4165.htm'
+    quote: 'of the overseers (pastors) of the church, John 21:16; Acts 20:28; 1 Peter 5:2.'
   # ---- notes
   - where: 'note 21:2 “Seven disciples”'
     claim: 'The seven serve as types; Peter and Thomas had stumbled and are rehabilitated; Nathanael may stand for non-apostolic disciples; the unnamed two for any disciples; seven is fullness'
@@ -78,6 +93,16 @@ claims:
     key: huntsman-postlude
     url: 'https://rsc.byu.edu/greater-love-hath-no-man/postlude-later-appearances-ongoing-apostolic-witness'
     quote: 'he may well have been an early important, nonapostolic disciple, in which case he can represent those who fully follow Jesus even though they are not members of the Twelve.[3] Although the sons of Zebedee are never named in John, from the Synoptics we know that they are the apostles James and John'
+  - where: 'note 21:2 “Seven disciples”'
+    claim: 'John is the son of Zebedee, a fisherman called by Jesus, who calls himself the disciple whom Jesus loved'
+    key: bd-john
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/bd/john?lang=eng'
+    quote: 'One of the Twelve; son of Zebedee and brother of James. In his early life he was a fisherman … Later on he received a call to be a disciple of Jesus Christ (Matt. 4:21–22; Luke 5:1–11). … In his own Gospel he refers to himself as “the disciple whom Jesus loved”'
+  - where: 'note 21:2 “Seven disciples”'
+    claim: 'The seven as named in the verse: five named, two unnamed'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/21?lang=eng'
+    quote: 'There were together Simon Peter, and Thomas called Didymus, and Nathanael of Cana in Galilee, and the sons of Zebedee, and two other of his disciples.'
   - where: 'note 21:3 “I go a fishing”'
     claim: 'Elder Holland, with acknowledged nonscriptural liberty, portrays Peter as proposing a return to their former life'
     key: holland-first-great-commandment
@@ -93,16 +118,6 @@ claims:
     key: huntsman-postlude
     url: 'https://rsc.byu.edu/greater-love-hath-no-man/postlude-later-appearances-ongoing-apostolic-witness'
     quote: 'a group of Jesus’s disciples returned to Galilee, apparently in response to the direction that they had received Easter morning (Mark 16:7; parallel Matt 28:7, 10).'
-  - where: 'note 21:5 “Children, have ye any meat?”'
-    claim: 'The word for “children” was used to address workmen, like “lads”; the disciples seem to have taken it so, as from a passer-by wanting fish'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/21.htm'
-    quote: 'It is a word which, indeed, may express His love for them (comp. John 4:49), but which appears also to have been used as an address to workmen or inferiors, not unlike our own words “boys” or “lads.” They seem to take it in this sense, as though some traveller passing by asked the question because he wished to purchase some of their fish.'
-  - where: 'note 21:5 “Children, have ye any meat?”'
-    claim: 'The word rendered “meat” means anything eaten with bread, the fish being the ordinary relish'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/21.htm'
-    quote: 'The word rendered “meat” occurs here only in the New Testament. It means anything eaten with bread, and was used as equivalent to the fish which was the ordinary relish.'
   - where: 'note 21:5 “Children, have ye any meat?”'
     claim: 'Elder Holland: the apostles were rightly called “children”'
     key: holland-first-great-commandment
@@ -123,31 +138,21 @@ claims:
     key: holland-first-great-commandment
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2012/10/the-first-great-commandment?lang=eng'
     quote: '“Cast the net on the right side of the ship, and ye shall find,” the stranger calls out—and with those simple words, recognition begins to flood over them. Just three years earlier these very men had been fishing on this very sea.'
-  - where: 'note 21:7 “It is the Lord”'
-    claim: 'John, quick to discern, spoke; Peter girt his coat and sprang into the sea to reach his Master'
-    key: talmage-jesus-christ-37
-    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-37?lang=eng'
-    quote: 'John, quick to discern, said to Peter, “It is the Lord”; and Peter, impulsive as ever, hastily girt his fisher’s coat about him and sprang into the sea, the sooner to reach land and prostrate himself at his Master’s feet.'
-  - where: 'note 21:7 “It is the Lord”'
-    claim: 'The disciple whom Jesus loved is John (D&C 7, which answers this chapter’s question about him)'
-    key: huntsman-gospel-john
-    url: 'https://rsc.byu.edu/new-testament-history-culture-society/gospel-john'
-    quote: 'Doctrine and Covenants 7:1–3, a revelation that seems to have been received because of a discussion that Joseph Smith and Oliver Cowdery had about the fate of the Apostle John, directly equates John with the “the disciple whom Jesus loved” in John 21:20–23.'
   - where: 'note 21:9 “A fire of coals”'
     claim: 'The charcoal fire (anthrakia) connects the scene to Peter’s denial by the charcoal fire of 18:18'
     key: huntsman-postlude
     url: 'https://rsc.byu.edu/greater-love-hath-no-man/postlude-later-appearances-ongoing-apostolic-witness'
     quote: 'A detail, seemingly mentioned in passing about the charcoal fire on which Jesus had cooked the fish and bread for his friends (John 21:9), connects the scene closely with the episode of Peter’s earlier denial, where he had warmed himself in John 18:18 by “a charcoal fire” (Greek, anthrakian; KJV, “fire of coals”).'
   - where: 'note 21:9 “A fire of coals”'
-    claim: '18:18 is the only other place the word occurs; the lake, the nets and the fire would bring back his call and his denial'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/21.htm'
-    quote: 'By the side of the “fire of coals” (see Note on John 18:18, the only other place where the word occurs) he had denied his Lord. As the eye rests upon the “fire of coals” before him, and he is conscious of the presence of the Lord'
+    claim: 'Anthrakia, a heap of burning coals, occurs in the New Testament only at John 18:18 and 21:9'
+    key: thayer
+    url: 'https://biblehub.com/greek/439.htm'
+    quote: 'ἀνθρακιᾶς, ἡ, a heap of burning coals: John 18:18; John 21:9.'
   - where: 'note 21:9 “A fire of coals”'
-    claim: 'Jesus had already prepared a breakfast for them'
-    key: huntsman-postlude
-    url: 'https://rsc.byu.edu/greater-love-hath-no-man/postlude-later-appearances-ongoing-apostolic-witness'
-    quote: 'When they arrive, they find that Jesus has already prepared for them a breakfast of fish and bread'
+    claim: 'The disciples were cold, tired and hungry; the Savior had made a fire, cooked breakfast and warmed them'
+    key: skinner-peter-chief-apostle
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-new-testament/peter-chief-apostle'
+    quote: 'There he found that the Savior had fixed a fire and cooked breakfast for him and his associates. … They were cold and tired and hungry. … to warm them and make them comfortable, and even to cook for them.'
   - where: 'note 21:11 “Yet was not the net broken”'
     claim: 'At the first call the nets broke, perhaps symbolizing an imperfect first call; now the full net is brought to shore with all 153 fish'
     key: huntsman-postlude
@@ -169,30 +174,15 @@ claims:
     url: 'https://rsc.byu.edu/greater-love-hath-no-man/postlude-later-appearances-ongoing-apostolic-witness'
     quote: 'reminiscent of the earlier great miracle of provision known as the feeding of the five thousand (Mark 6:31‒34; parallels Matt 14:13‒21; Luke 9:12‒18; also John 6:1‒14), which traditionally occurred not far from this very site. Similarly, just as the ministry had begun in this Gospel at a wedding feast, the story comes to an end in this episode meal symbolizing both the sacrament and the future messianic banquet.'
   - where: 'note 21:13 “Taketh bread, and giveth them”'
-    claim: 'Jesus served as Host; we are not told He ate; there was an awe about Him; they durst not question'
-    key: talmage-jesus-christ-37
-    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-37?lang=eng'
-    quote: 'as the Host at the meal, He divided and distributed the bread and fish. We are not told that He ate with His guests. Everyone knew that it was the Lord who so hospitably served; yet on this, as on all other occasions of His appearing in the resurrected state, there was about Him an awe-inspiring and restraining demeanor.'
-  - where: 'note 21:13 “Taketh bread, and giveth them”'
-    claim: 'They approached in reverent silence, knowing it was the Lord, and did not dare to ask'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/21.htm'
-    quote: 'They approach Him in reverent silence. Knowing it is the Lord, they yet desire the assurance in His own words, and still they do not dare to ask, “Who art thou?”'
+    claim: 'The Savior, who had wrought the Atonement, did not think it beneath Him to care for and cook for them; in that setting He taught Peter to feed His sheep as He had fed him'
+    key: skinner-peter-chief-apostle
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-new-testament/peter-chief-apostle'
+    quote: 'The Savior of the universe had already performed an eternity’s worth of service to them and all humankind through the infinite Atonement. … Jesus was able to teach Peter what he must do for the rest of his life—feed the Savior’s sheep as the Savior had fed him that morning (see John 21:9–17).'
   - where: 'note 21:14 “The third time”'
-    claim: 'The count is of appearances to the apostles assembled; with the others, this is the seventh recorded'
-    key: talmage-jesus-christ-37
-    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-37?lang=eng'
-    quote: 'by which we understand the occasion to have been the third on which Christ had manifested Himself to the apostles, in complete or partial assembly; for, including also the appearing to Mary Magdalene, to the other women, to Peter, and to the two disciples on the country road, this was the seventh recorded appearance of the risen Lord.'
-  - where: 'note 21:14 “The third time”'
-    claim: 'John counts only appearances to the disciples: to the Ten on Easter day and the Eleven a week later'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/21.htm'
-    quote: 'He passes over, therefore, the appearances to Mary Magdalene and others, and counting only those “to the disciples”—to the Ten on the first Easter day, and to the Eleven on its octave—gives this appearance as the third.'
-  - where: 'note 21:15 “More than these”'
-    claim: '“These” are the other disciples, recalling Peter’s confident comparison of himself with them'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/21.htm'
-    quote: 'Lovest thou me more than these?—i.e., than these disciples who are present here with thee. … The obvious reference is to Peter’s own comparison of himself with others in the confidence of love which he thought could never fail. (Comp. Matthew 26:33; Mark 14:29.)'
+    claim: 'The verse counts His showings to His disciples after He was risen'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/21?lang=eng'
+    quote: 'This is now the third time that Jesus shewed himself to his disciples, after that he was risen from the dead.'
   - where: 'note 21:15 “More than these”'
     claim: 'The question recalled Peter’s protestation “Though all men shall be offended … yet will I never be offended”'
     key: talmage-jesus-christ-37
@@ -203,11 +193,6 @@ claims:
     key: holland-first-great-commandment
     url: 'https://www.churchofjesuschrist.org/study/general-conference/2012/10/the-first-great-commandment?lang=eng'
     quote: 'Looking at their battered little boats, their frayed nets, and a stunning pile of 153 fish, Jesus said to His senior Apostle, “Peter, do you love me more than you love all this?”'
-  - where: 'note 21:15 “More than these”'
-    claim: '“Simon, son of Jonas” addresses him by his natural rather than his apostolic name'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/21.htm'
-    quote: 'Our Lord’s words would seem to address him as one who had fallen from the steadfastness of the Rock-man, and had been true rather to his natural than to his apostolic name.'
   - where: 'note 21:16 “Two words for love, two for feeding”'
     claim: 'Some read agapaō (twice by Jesus) and phileō (Peter each time; Jesus the third time) as teaching different aspects; feed = boskō, tend = poimainō; lambs and sheep'
     key: ball-peters-witness
@@ -249,55 +234,25 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-37?lang=eng'
     quote: 'The commission “Feed my Sheep” was an assurance of the Lord’s confidence, and of the reality of Peter’s presidency among the apostles.'
   - where: 'note 21:18 “Thou shalt stretch forth thy hands”'
-    claim: 'The analogy points to crucifixion, and tradition is without contradiction that Peter died so; his later writings show he understood'
-    key: talmage-jesus-christ-37
-    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-37?lang=eng'
-    quote: 'the analogy points to crucifixion, and traditional history is without contradiction as to this being the death by which Peter sealed his testimony of the Christ.'
+    claim: '2 Peter 1:14 refers to the risen Lord’s prophecy of Peter’s crucifixion in John 21:18–19, including “Follow me”'
+    key: skinner-peter-chief-apostle
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-new-testament/peter-chief-apostle'
+    quote: 'Peter stated in his own second letter that he shortly “must put off this . . . tabernacle, even as our Lord Jesus Christ hath shewed me” (2 Peter 1:14). This is undoubtedly a reference to the resurrected Lord’s prophecy of Peter’s own crucifixion as recorded in John 21:18–19'
   - where: 'note 21:18 “Thou shalt stretch forth thy hands”'
-    claim: 'Peter comprehended the reference to his martyrdom, as his later writings indicate'
-    key: talmage-jesus-christ-37
-    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-37?lang=eng'
-    quote: 'Without doubt Peter comprehended the reference to his martyrdom, as his writings, years later, indicate.'
-  - where: 'note 21:18 “Thou shalt stretch forth thy hands”'
-    claim: 'Tradition from Tertullian on says Peter was crucified, and Tertullian read this verse so'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/21.htm'
-    quote: 'Tradition, from Tertullian downwards (Scorp. xv.; De Praescr. xxxv.), states that he was crucified, and, interpreting this prophecy by the event, asserts that they do.'
-  - where: 'note 21:18 “Thou shalt stretch forth thy hands”'
-    claim: 'Peter had announced readiness to follow to prison and death'
-    key: talmage-jesus-christ-37
-    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-37?lang=eng'
-    quote: 'He had emphatically announced his readiness to follow his Master even to prison and death.'
-  - where: 'note 21:19 “Follow me”'
-    claim: 'By this lake Peter first heard “Follow me”; at the Supper he was told he would follow afterwards; now it comes with the prophecy of martyrdom'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/21.htm'
-    quote: 'By the side of that lake he had first heard the command “Follow Me” (Matthew 4:19); … to his question at the Last Supper came the answer, “Whither I go, thou canst not follow Me now; but thou shalt follow Me afterwards” (John 13:36); and now the command has come again with the prophecy of martyrdom'
-  - where: 'note 21:19 “Follow me”'
-    claim: 'The command had immediate and future meaning: Peter followed Jesus apart, and would follow Him to the cross'
-    key: talmage-jesus-christ-37
-    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-37?lang=eng'
-    quote: 'The command had both immediate and future significance. The man followed as Jesus drew apart from the others on the shore; yet a few years and Peter would follow his Lord to the cross.'
-  - where: 'note 21:21 “What shall this man do?”'
-    claim: '“Following” (akolouthounta) also implies discipleship; Peter’s question can stand for one asking about another’s mission; we should not judge others’ discipleship; most are called to live for Him'
+    claim: 'Early authorities record Peter’s martyrdom in Rome late in Nero’s reign; Origen says he was crucified head downwards'
+    key: skinner-peter-chief-apostle
+    url: 'https://rsc.byu.edu/sperry-symposium-classics-new-testament/peter-chief-apostle'
+    quote: 'According to reputable tradition, recorded in the statements of various early authorities of the Christian Church, Peter’s death fulfilled the prophesy of the Savior. The chief Apostle died in Rome—martyred in the last years of the reign of Emperor Nero (AD 67–68). … Origen reported that Peter “at the end . . . came to Rome and was crucified head downwards.”'
+  - where: 'note 21:22 “Till I come”'
+    claim: 'Peter’s question can represent one person asking about the discipleship and mission of another'
     key: huntsman-postlude
     url: 'https://rsc.byu.edu/greater-love-hath-no-man/postlude-later-appearances-ongoing-apostolic-witness'
     quote: 'Because the verb used (Greek, akolouthounta) frequently also implies discipleship, this passage may be more than just Peter asking about the future of the historical figure of John. In addition, it can represent one person asking about the discipleship and mission of another.'
-  - where: 'note 21:21 “What shall this man do?”'
-    claim: 'Not to concern oneself with another’s mission; not to judge; most are called to live for Him'
+  - where: 'note 21:22 “Till I come”'
+    claim: 'Most are called to live for Him; we should not judge the discipleship of others'
     key: huntsman-postlude
     url: 'https://rsc.byu.edu/greater-love-hath-no-man/postlude-later-appearances-ongoing-apostolic-witness'
     quote: 'While select figures through history, like Peter, have been willing to die for their testimonies of Jesus, most of us are called to live for him. Further, just as Jesus directed Peter to not concern himself about the particular mission of John the Beloved, so we should not seek to judge the discipleship of others.'
-  - where: 'note 21:21 “What shall this man do?”'
-    claim: 'Peter wished to know his companion’s fate; the reply was an admonition to look to his own duty'
-    key: talmage-jesus-christ-37
-    url: 'https://www.churchofjesuschrist.org/study/manual/jesus-the-christ/chapter-37?lang=eng'
-    quote: 'Peter wished to peer into the future as to his companion’s fate—was John also to die for the faith? … It was an admonition to Peter to look to his own course of duty, and to follow the Master, wherever the road should lead.'
-  - where: 'note 21:21 “What shall this man do?”'
-    claim: 'The “thou” of “follow thou me” is strongly emphatic'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/21.htm'
-    quote: 'Follow thou me.—The pronoun “thou” is strongly emphatic.'
   - where: 'note 21:22 “Till I come”'
     claim: 'D&C 7: John asked for power over death to bring souls; he would tarry until the Lord comes in glory'
     key: lds-scriptures
@@ -363,16 +318,16 @@ claims:
     key: huntsman-gospel-john
     url: 'https://rsc.byu.edu/new-testament-history-culture-society/gospel-john'
     quote: 'This propensity is understandable because Latter-day revelations seem to confirm that John wrote it (see Doctrine and Covenants 7; 77:1–15; 88:141; see also 1 Nephi 14:18–27 and Ether 4:16, which directly link the book of Revelation with John).'
-  - where: 'note 21:25 “The world itself could not contain the books”'
-    claim: 'The shift from “we know” to “I suppose” suggests the individual testimony of an amanuensis; the Gospel is only part of the fulness; written that we may believe'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/21.htm'
-    quote: 'The transference from the plural to the singular—“We know” (John 21:24), “I suppose” (in this verse)—has led to the supposition, which is in every way probable, that it is the individual testimony of an amanuensis'
-  - where: 'note 21:25 “The world itself could not contain the books”'
-    claim: 'Full as the Gospel is, it is only part of the fulness; the disciples wrote that we may believe'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/21.htm'
-    quote: 'feels that full beyond all human thought as this Gospel is, it is but a part of the greater fulness. No book could record, no words could tell, what that life was, or what things Jesus did. The disciples saw and believed, and wrote these things that we may believe'
+  - where: 'note 21:24 “We know that his testimony is true”'
+    claim: 'The last verse speaks in the first person singular, “I suppose”'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/21?lang=eng'
+    quote: 'And there are also many other things which Jesus did, the which, if they should be written every one, I suppose that even the world itself could not contain the books that should be written. Amen.'
+  - where: 'note 21:24 “We know that his testimony is true”'
+    claim: 'Chapter 20 already said that many other signs are not written in this book'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/20?lang=eng'
+    quote: 'And many other signs truly did Jesus in the presence of his disciples, which are not written in this book:'
   - where: 'note 21:2 “Seven disciples”'
     claim: 'The appearance uses its characters as types of how disciples continue to follow Jesus'
     key: huntsman-postlude
@@ -431,10 +386,10 @@ claims:
     quote: 'And if at such a moment we can stammer out, “Yea, Lord, thou knowest that I love thee,” then He may remind us that the crowning characteristic of love is always loyalty.'
   # ---- explore
   - where: explore
-    claim: 'The Postlude reads the seashore appearance and the ongoing apostolic witness'
+    claim: 'The Postlude follows the risen Lord’s manifestations to His witnesses down to this dispensation'
     key: huntsman-postlude
     url: 'https://rsc.byu.edu/greater-love-hath-no-man/postlude-later-appearances-ongoing-apostolic-witness'
-    quote: 'Eric D. Huntsman and Trevan G. Hatch, "Postlude: Later Appearances and the Ongoing Apostolic Witness," in Greater Love Hath No Man: A Latter-Day Saint Guide to Celebrating the Easter Season (Provo, UT: Religious Studies Center, Brigham Young University; Salt Lake City: Deseret Book), 239‒56.'
+    quote: 'the Risen Lord continued to manifest himself to his special witnesses—later in the New Testament, in the Book of Mormon, and in our own dispensation in the latter days.'
   - where: explore
     claim: 'Judd and Szink on D&C 7 and translated beings'
     key: judd-szink-dc7
@@ -450,3 +405,33 @@ claims:
     key: ellicott-john
     url: 'https://biblehub.com/commentaries/ellicott/john/21.htm'
     quote: 'the girding (with chains) would precede, not follow, the crucifixion'
+  - where: 'note 21:5 “Children, have ye any meat?”'
+    claim: '“Meat” (prosphagion) is anything eaten with bread, here fish'
+    key: thayer
+    url: 'https://biblehub.com/greek/4371.htm'
+    quote: 'anything eaten with bread … spoken of fish boiled or broiled, John 21:5'
+  - where: 'note 21:5 “Children, have ye any meat?”'
+    claim: '“Children” (paidia) is an affectionate address'
+    key: thayer
+    url: 'https://biblehub.com/greek/3813.htm'
+    quote: 'in affectionate address, equivalent to Latincarissimi (A. V. children), John 21:5'
+  - where: 'note 21:15 “More than these”'
+    claim: '“Simon, son of Jonas” addresses him by his natural rather than his apostolic name'
+    key: ellicott-john
+    url: 'https://biblehub.com/commentaries/ellicott/john/21.htm'
+    quote: 'Our Lord’s words would seem to address him as one who had fallen from the steadfastness of the Rock-man, and had been true rather to his natural than to his apostolic name.'
+  - where: 'note 21:6 “Cast the net on the right side”'
+    claim: 'The fishermen-turned-again-Apostles left their nets a second time'
+    key: holland-first-great-commandment
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2012/10/the-first-great-commandment?lang=eng'
+    quote: 'a handful of Galilean fishermen-turned-again-Apostles without “a single synagogue or … sword” to leave those nets a second time'
+  - where: 'note 21:24 “We know that his testimony is true”'
+    claim: 'The last two verses seem to have been added by a later editor'
+    key: huntsman-postlude
+    url: 'https://rsc.byu.edu/greater-love-hath-no-man/postlude-later-appearances-ongoing-apostolic-witness'
+    quote: 'just as the last two verses of the Gospel, which seem to have been added by a later editor, affirm that the witness of the Beloved Disciple is true'
+  - where: 'note 21:3 “I go a fishing”'
+    claim: 'In the acknowledged elaboration, the Lord at the same shore and nets says He needs disciples, not fish, and asks Peter a second time to leave all this'
+    key: holland-first-great-commandment
+    url: 'https://www.churchofjesuschrist.org/study/general-conference/2012/10/the-first-great-commandment?lang=eng'
+    quote: 'Why are we back on this same shore, by these same nets, having this same conversation? Wasn’t it obvious then and isn’t it obvious now that if I want fish, I can get fish? What I need, Peter, are disciples'
