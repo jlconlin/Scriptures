@@ -2,10 +2,20 @@ chapter: 7
 claims:
   # ---- when, setting, thread, plain words
   - where: when
-    claim: 'Tabernacles came about five months after the Passover'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/7.htm'
-    quote: 'The interval, then, from Passover to Tabernacles is one of about five months.'
+    claim: 'Tabernacles began on the fifteenth day of the seventh month'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/23?lang=eng'
+    quote: 'The fifteenth day of this seventh month shall be the feast of tabernacles for seven days unto the Lord.'
+  - where: when
+    claim: 'The Passover fell on the fourteenth day of the first month, half a year before'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/ot/lev/23?lang=eng'
+    quote: 'In the fourteenth day of the first month at even is the Lord’s passover.'
+  - where: when
+    claim: 'The Passover was near in John 6:4'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/6?lang=eng'
+    quote: 'And the passover, a feast of the Jews, was nigh.'
   - where: setting
     claim: 'John 5–10 is set at the Jewish feasts and shows Jesus as the fulfillment of the law and expectations'
     key: huntsman-gospel-john
@@ -42,25 +52,25 @@ claims:
     url: 'https://interpreterfoundation.org/journal/procedural-violations-in-the-trial-of-the-woman-taken-in-adultery'
     quote: 'The earliest manuscripts of the New Testament omit this verse and John 8:1–11.'
   - where: thread
-    claim: 'By John 9:4 “sent” has occurred ten times since John 7 began; Jesus stresses His role as the one sent'
-    key: gardner-tabernacles
-    url: 'https://rsc.byu.edu/learn-me/jesus-christ-feast-tabernacles'
-    quote: 'When Jesus says, “I must work the works of him that sent me” (John 9:4; emphasis added), it is the tenth time we have read the word sent since the beginning of John 7.'
-  - where: thread
     claim: 'John does not answer the objections with facts; what separated those who followed from those who left was belief'
     key: matson-fourth-gospel
     url: 'https://rsc.byu.edu/thou-art-christ-son-living-god/fourth-gospel-expectations-jewish-messiah'
     quote: 'It appears that the separating factor between those in Jerusalem who listened to and followed Jesus and those who left was belief.'
   - where: section 3 plain
-    claim: '“Letters” means learning (plain words: “such learning”)'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/7.htm'
-    quote: '(See Acts 26:24, “much learning,” where “learning” represents the word here rendered “letters.”)'
+    claim: '“Letters” (grammata) means learning, here sacred learning (plain words: “such learning”)'
+    key: thayer
+    url: 'https://biblehub.com/greek/1121.htm'
+    quote: 'τά γράμματα, like the Latinlitterae, English letters, equivalent to learning: Acts 26:24; εἰδέναι, μεμαθηκέναι γράμματα (cf. German studirthaben), of sacred learning, John 7:15.'
   - where: section 3 plain
-    claim: '“Will do” means “is willing to do” (plain words)'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/7.htm'
-    quote: 'Better, If any man willeth to do His will, he shall know of the teaching.'
+    claim: 'In 7:17 “will do” is thelē … poiein, “wills to do” (plain words: “is willing to do”)'
+    key: greek-nt
+    url: 'https://biblehub.com/texts/john/7-17.htm'
+    quote: 'ἐάν τις θέλῃ τὸ θέλημα αὐτοῦ ποιεῖν, γνώσεται περὶ τῆς διδαχῆς'
+  - where: section 3 plain
+    claim: 'Thelō means to will, have in mind, intend'
+    key: thayer
+    url: 'https://biblehub.com/greek/2309.htm'
+    quote: 'to will (have in mind) intend'
   - where: section 4 plain
     claim: 'The “Gentiles” of verse 35 are in the Greek “Greeks”'
     key: lds-scriptures
@@ -118,25 +128,30 @@ claims:
     url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/acts/1?lang=eng'
     quote: 'These all continued with one accord in prayer and supplication, with the women, and Mary the mother of Jesus, and with his brethren.'
   - where: 'note 7:6 “My time is not yet come”'
-    claim: 'His time is a divinely ordered season; the time to enter Jerusalem with pilgrims comes in a few months, at the Passover'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/7.htm'
-    quote: 'Here, as there, He regards the events of life as marked out by divinely-ordered seasons. There is for Him a time for solemnly entering Jerusalem with a throng of pilgrims going up to a feast, and in a few months it will have come'
+    claim: 'Kairos in John 7:6, 8 is the time for appearing in public appointed by God; in Matt. 26:18 the time appointed for His death'
+    key: thayer
+    url: 'https://biblehub.com/greek/2540.htm'
+    quote: 'ὁ καιρός μου, the time appointed for my death, Matthew 26:18; … ὁ ἐμός, ὁ ὑμέτερος, the time for appearing in public, appointed (by God) for me, for you, John 7:6, 8'
   - where: 'note 7:6 “My time is not yet come”'
-    claim: 'At the Passover feast of the Lamb, not at the harvest feast'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/7.htm'
-    quote: 'It is at the feast of the Paschal Lamb, already set apart, and not with the joyous shouts of harvest-tide.'
+    claim: 'The footnote to “time” in 7:6 points to Matt. 26:18'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/7?lang=eng'
+    quote: 'Matt. 26:18'
   - where: 'note 7:6 “My time is not yet come”'
-    claim: 'Went up not with the usual company'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/7.htm'
-    quote: 'Not openly, but as it were in secret—i.e., not with the usual company.'
+    claim: 'Matt. 26:18: My time is at hand, before the Passover'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/matt/26?lang=eng'
+    quote: 'The Master saith, My time is at hand; I will keep the passover at thy house with my disciples.'
   - where: 'note 7:6 “My time is not yet come”'
-    claim: 'At 7:30 the reason John gives is the hour appointed by God'
-    key: ellicott-john
-    url: 'https://biblehub.com/commentaries/ellicott/john/7.htm'
-    quote: 'in the uncertainty of what the consequences may be, no one was bold enough to take the decisive step. … every deed of that life, as every deed of every life, had its hour mapped out in the eternal counsels of God.'
+    claim: 'John 12:23, 27: the hour comes'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/12?lang=eng'
+    quote: 'The hour is come, that the Son of man should be glorified.'
+  - where: 'note 7:6 “My time is not yet come”'
+    claim: 'John 12:27: for this cause came I unto this hour'
+    key: lds-scriptures
+    url: 'https://www.churchofjesuschrist.org/study/scriptures/nt/john/12?lang=eng'
+    quote: 'Father, save me from this hour: but for this cause came I unto this hour.'
   - where: 'note 7:6 “My time is not yet come”'
     claim: 'The footnote to “hour” in 7:30 points to John 12:23'
     key: lds-scriptures
@@ -152,6 +167,16 @@ claims:
     key: richardson-unorthodox-teacher
     url: 'https://rsc.byu.edu/jesus-christ-son-god-savior/jesus-unorthodox-teacher'
     quote: '“For he taught them as one having authority from God, and not as having authority from the Scribes” … The scribes were trained professionals and regarded as authorized teachers. Even though Jesus was a quality teacher, He did not bear a teacher’s credentials of the time'
+  - where: 'note 7:17 “Knowing by doing”'
+    claim: 'In 7:17 “will do” is thelē … poiein, “wills to do”'
+    key: greek-nt
+    url: 'https://biblehub.com/texts/john/7-17.htm'
+    quote: 'ἐάν τις θέλῃ τὸ θέλημα αὐτοῦ ποιεῖν, γνώσεται περὶ τῆς διδαχῆς'
+  - where: 'note 7:17 “Knowing by doing”'
+    claim: 'Thelō means to will, have in mind, intend'
+    key: thayer
+    url: 'https://biblehub.com/greek/2309.htm'
+    quote: 'to will (have in mind) intend'
   - where: 'note 7:17 “Knowing by doing”'
     claim: 'Better rendered “willeth to do”'
     key: ellicott-john
@@ -303,7 +328,12 @@ claims:
     url: 'https://rsc.byu.edu/thou-art-christ-son-living-god/fourth-gospel-expectations-jewish-messiah'
     quote: 'However, among these, only David is mentioned in the messianic expectations of the Fourth Gospel (see John 7:42).'
   - where: 'note 7:42 “The Prophet, the Christ, and Bethlehem”'
-    claim: 'John does not answer them with facts; those who proclaimed Him did so out of belief'
+    claim: '“The Prophet” of 7:40 is the prophet foretold by Moses in Deuteronomy 18:15'
+    key: ellicott-john
+    url: 'https://biblehub.com/commentaries/ellicott/john/7.htm'
+    quote: 'Of a truth this is the prophet—i.e., the Prophet foretold by Moses in Deuteronomy 18:15.'
+  - where: 'note 7:42 “The Prophet, the Christ, and Bethlehem”'
+    claim: 'John does not answer them with facts (Bethlehem, more miracles)'
     key: matson-fourth-gospel
     url: 'https://rsc.byu.edu/thou-art-christ-son-living-god/fourth-gospel-expectations-jewish-messiah'
     quote: 'the author of the Fourth Gospel does not combat these inquiries with facts, such as “Well, didn’t you know that Jesus was born in Bethlehem!” or “What further miracles would you like to see?” Instead, he records that those who proclaimed him as the Christ did so out of belief'
@@ -312,21 +342,16 @@ claims:
     key: sc-knowhy-869
     url: 'https://scripturecentral.org/knowhy/why-was-isaiah-9-important-for-defending-jesus-s-galilean-origin'
     quote: 'Of course, Jesus was born in Bethlehem while his parents were briefly there (see Matthew 2:1), but He spent most of his early life prior to His ministry in Nazareth and the Galilee region'
-  - where: 'note 7:42 “The Prophet, the Christ, and Bethlehem”'
-    claim: 'Nephi identifies the prophet of whom Moses spake'
-    key: lds-scriptures
-    url: 'https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/22?lang=eng'
-    quote: 'And now I, Nephi, declare unto you, that this prophet of whom Moses spake was the Holy One of Israel'
   - where: 'note 7:49 “This people who knoweth not the law”'
     claim: 'The officers were the temple guard and did not arrest Him'
     key: richardson-unorthodox-teacher
     url: 'https://rsc.byu.edu/jesus-christ-son-god-savior/jesus-unorthodox-teacher'
     quote: 'the group of officers, also known as the temple guard or police, listened to Jesus teaching in the temple but did not arrest Him.'
   - where: 'note 7:49 “This people who knoweth not the law”'
-    claim: 'The rulers were the Sanhedrin, charged with preventing false doctrine; the Pharisees the orthodox party; many will believe during the feast'
+    claim: 'The rulers were the Sanhedrin, charged with preventing false doctrine; the Pharisees the orthodox party'
     key: ellicott-john
     url: 'https://biblehub.com/commentaries/ellicott/john/7.htm'
-    quote: 'The rulers were the Sanhedrin, among whose official duties it was to prevent the introduction of false doctrines. … “The Pharisees” were the orthodox party of the day … during this very feast many of the chief Jews will believe on Him (John 8:30-31).'
+    quote: 'The rulers were the Sanhedrin, among whose official duties it was to prevent the introduction of false doctrines. … “The Pharisees” were the orthodox party of the day'
   - where: 'note 7:49 “This people who knoweth not the law”'
     claim: 'Rabbinic scorn for the untaught multitude; 7:49 expresses it'
     key: ellicott-john
@@ -348,15 +373,10 @@ claims:
     url: 'https://rsc.byu.edu/vol-9-no-3-2008/nicodemus-coward-convert'
     quote: 'Being a Pharisee himself and a member of that esteemed council, he probably would have been privy to their planning. … He had to know the vitriolic rebuke he would receive if he said anything in Jesus’s defense.'
   - where: 'note 7:51 “Nicodemus speaks for a hearing”'
-    claim: 'He backed down after their answer; later made his discipleship public at the burial'
+    claim: 'He backed down after their answer'
     key: wilson-nicodemus
     url: 'https://rsc.byu.edu/vol-1-no-1-2000/message-nicodemus'
     quote: 'Nicodemus questions the Sanhedrin in a bold move, but then he backs down even after they give a flimsy answer. (7:52)'
-  - where: 'note 7:51 “Nicodemus speaks for a hearing”'
-    claim: 'He made his discipleship public at the burial'
-    key: wilson-nicodemus
-    url: 'https://rsc.byu.edu/vol-1-no-1-2000/message-nicodemus'
-    quote: 'Nicodemus makes his discipleship public as he assists Joseph of Arimathea with the burial. (19:39)'
   - where: 'note 7:52 “No prophet out of Galilee”'
     claim: 'Jonah was of Gath-hepher in Zebulun, Lower Galilee; the saying may have been a byword from Judean contempt'
     key: ellicott-john
@@ -398,11 +418,6 @@ claims:
     key: gardner-tabernacles
     url: 'https://rsc.byu.edu/learn-me/jesus-christ-feast-tabernacles'
     quote: 'By referring to himself as the source of “living water,” Jesus proclaimed his divinity—he is the “fountain of living waters.”'
-  - where: christ
-    claim: 'Obedience enhances knowledge'
-    key: oaks-testimony-2008
-    url: 'https://www.churchofjesuschrist.org/study/general-conference/2008/04/testimony?lang=eng'
-    quote: 'knowledge encourages obedience (see Deuteronomy 5:27; Moses 5:11), and obedience enhances knowledge (see John 7:17; D&C 93:1).'
   - where: christ
     claim: 'Only faithful obedience taps the well of living water (D&C 63:23)'
     key: wirthlin-living-water
